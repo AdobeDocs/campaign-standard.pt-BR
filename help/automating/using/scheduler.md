@@ -15,7 +15,7 @@ context-tags: programação, principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: e3a627376a91eb394aea90b1d94c7958ad77fd40
 
 ---
 
@@ -45,10 +45,10 @@ When building your workflow, only use one **[!UICONTROL Scheduler]** activity pe
 1. Specify the **[!UICONTROL Execution frequency]**:
 
    * **[!UICONTROL Once]**: o fluxo de trabalho é executado em um único momento.
-   * **[!UICONTROL Several times a day]**: o fluxo de trabalho é executado regularmente várias vezes por dia.
+   * **[!UICONTROL Several times a day]**: o fluxo de trabalho é executado regularmente várias vezes por dia. Você pode configurar execuções em horários específicos ou periodicamente.
    * **[!UICONTROL Daily]**: o fluxo de trabalho é executado em um horário específico, uma vez por dia.
-   * **[!UICONTROL Weekly]**: o fluxo de trabalho é executado em um momento especificado, uma vez ou várias vezes uma semana.
-   * **[!UICONTROL Monthly]**: o fluxo de trabalho é executado em um momento especificado, uma vez ou várias vezes por mês.
+   * **[!UICONTROL Weekly]**: o fluxo de trabalho é executado em um momento especificado, em um ou vários dias de uma semana.
+   * **[!UICONTROL Monthly]**: o fluxo de trabalho é executado em um momento especificado, uma vez ou várias vezes por mês. Você pode selecionar meses, quando precisar executar o fluxo de trabalho. Também é possível configurar execuções no dia da semana especificado do mês, como o segundo terça-feira do mês.
    * **[!UICONTROL Yearly]**: o fluxo de trabalho é executado em um momento especificado, uma vez ou várias vezes por ano.
 
 1. Defina os detalhes da execução de acordo com a frequência selecionada. Os campos de detalhes podem variar dependendo da frequência usada (tempo, frequência de repetição, dias especificados etc.).
@@ -62,6 +62,8 @@ When building your workflow, only use one **[!UICONTROL Scheduler]** activity pe
    * **[!UICONTROL Never]**: o fluxo de trabalho será executado, de acordo com a frequência especificada, sem limites para o período ou o número de iterações.
    * **[!UICONTROL After a certain number of iterations]**: o fluxo de trabalho será executado de acordo com a frequência especificada, até que o limite de **X** seja atingido. The **[!UICONTROL Number of iterations]** will therefore need to be specified.
    * **[!UICONTROL On a specific date]**: o fluxo de trabalho será executado de acordo com a frequência especificada, até uma data específica. O prazo da execução precisará ser especificado.
+
+1. Check the schedule of the next ten executions of your workflow by clicking **[!UICONTROL Preview next executions]**.
 
 1. In the **[!UICONTROL Execution options]** tab, set up the time zone for your scheduler in the **[!UICONTROL Time zone]** field. Isso permite iniciar o fluxo de trabalho em um fuso horário específico, caso contrário, o fluxo de trabalho será executado no fuso horário do servidor por padrão.
 
