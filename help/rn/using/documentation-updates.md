@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2be404f780c8df57c5b0aa9858aa162592ca55c
+source-git-commit: 0a481ba4fcaf808ba0c524ec437f0e7e28cc2274
 
 ---
 
@@ -33,7 +33,9 @@ Adicionada uma nova página nas limitações da página inicial. [Ler mais](../.
 
 Um caso de uso foi adicionado sobre como chamar um perfil usando uma chave de identificação composta. [Ler mais](../../developing/using/uc-calling-resource-id-key.md)
 
-Uma recomendação foi adicionada com relação ao uso de entregas recorrentes sem período de agudo ao chamar um worfkflow com parâmetros. [Ler mais](../../automating/using/calling-a-workflow-with-external-parameters.md)
+Uma recomendação foi adicionada com relação ao uso de entregas recorrentes sem período de agregação ao chamar um fluxo de trabalho com parâmetros. [Ler mais](../../automating/using/calling-a-workflow-with-external-parameters.md)
+
+A seção sobre como salvar o conteúdo de email como um fragmento no Designer de email foi atualizada. [Ler mais](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
 
 ## Release 19.2 - May 2019 {#release-19-2---may-2019}
 
