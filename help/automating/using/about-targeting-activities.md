@@ -14,7 +14,7 @@ discoiquuid: 5 f 7607 a 1-5 f 71-4 d 66-9688-3 e 5 a 1774 f 1 b 4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
 
 ---
 
@@ -40,3 +40,4 @@ Essas atividades são específicas para direcionamento, manipulação de dados d
 * [Desduplicação](../../automating/using/deduplication.md)
 * [Enriquecimento](../../automating/using/enrichment.md)
 
+**[!UICONTROL Targeting]** as atividades permitem definir **códigos de segmento** para suas transições de saída. Você pode então criar relatórios com base nesses códigos de segmento para medir a eficiência das suas campanhas de maketing. For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
