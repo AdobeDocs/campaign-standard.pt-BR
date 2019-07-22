@@ -15,7 +15,7 @@ context-tags: Extaccountemail, visão geral; Emailconfig, main; Ruleset, overvie
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
 
 ---
 
@@ -143,7 +143,7 @@ This section details the list of parameters available in the properties screen o
 
 >[!NOTE]
 >
->Alguns parâmetros só estão disponíveis em modelos. Parameters you can access [depend on your permissions](../../administration/using/types-of-users.md).
+>Alguns parâmetros só estão disponíveis em modelos. Parameters you can access [depend on your permissions](../../administration/using/users-management.md).
 
 To edit the properties of an email or an email template, use the **[!UICONTROL Edit properties]** button.
 
@@ -250,7 +250,10 @@ Preparing messages is detailed in the [Approving messages](../../sending/using/p
    >
    >Typologies, which can be accessed via the **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** menu, are presented in the [Typologies](../../administration/using/about-typology-rules.md) section.
 
-* **[!UICONTROL Compute the label during delivery analysis]**: permite calcular o valor de rótulo do email durante a fase de preparação de mensagens.
+* **[!UICONTROL Compute the label during delivery preparation]**: permite calcular o valor de rótulo do email durante a fase de preparação de mensagens usando campos de personalização, blocos de conteúdo e texto dinâmico.
+
+   Também é possível personalizar o rótulo de entrega com variáveis de eventos declaradas na atividade de sinal externo do fluxo de trabalho. For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md).
+
 * **[!UICONTROL Save SQL queries in the log]**: esta opção permite que você adicione logs de consulta SQL no diário durante a fase de preparação.
 
 ### List of email SMTP parameters {#list-of-email-smtp-parameters}
