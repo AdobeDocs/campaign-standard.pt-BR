@@ -14,7 +14,7 @@ discoiquuid: a 425 cd 59-edfd -42 c 5-a 6 bd -38773 c 353 ff 0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
+source-git-commit: 7102ed308f94985f8924a13aab2583e50b6c68e4
 
 ---
 
@@ -37,7 +37,7 @@ The first table **Push notification Engagement Summary** is split into three cat
 
 * **[!UICONTROL Processed/sent]**: O número total de notificações por push enviadas.
 * **[!UICONTROL Delivered]**: Número de notificações por push enviadas com sucesso, em relação ao número total de notificações por push enviadas.
-* **[!UICONTROL Impressions]**: Total de notificações por push vistas pelos destinatários.
+* **[!UICONTROL Impressions]**: Número de vezes que uma notificação por push foi entregue ao dispositivo e à esquerda não é exibida na central de notificações. Na maioria dos casos, o número de impressões deve ser similar ao número fornecido. Isso garante que o dispositivo obtenha a mensagem e reviva essas informações de volta para o servidor.
 * **[!UICONTROL Unique impressions]**: Número de impressões por destinatário.
 * **[!UICONTROL Click through rate]**: Porcentagem de usuários que interagiram com a notificação por push.
 * **[!UICONTROL Open rate]**: Porcentagem de notificações por push abertas.
@@ -48,8 +48,8 @@ The second table **Push notification Clicks &amp; opens** is split into three ca
 
 * **[!UICONTROL Impressions]**: Total de notificações por push vistas pelos destinatários.
 * **[!UICONTROL Unique impressions]**: Número de impressões por destinatário.
-* **[!UICONTROL Click]**: Número de vezes que os usuários interagem com a notificação por push, por exemplo, cliques na notificação ou no botão.
+* **[!UICONTROL Click]**: Número de vezes que uma notificação por push foi entregue ao dispositivo e clicada pelo usuário. O usuário deseja exibir a notificação, que será movida para o rastreamento de Push aberto ou para descartá-la.
 * **[!UICONTROL Unique clicks]**: Número de vezes que um usuário único interage com a notificação por push, por exemplo, cliques na notificação ou no botão.
-* **[!UICONTROL Open]**: O número total de inicializações do aplicativo quando os usuários abrem a notificação por push.
+* **[!UICONTROL Open]**: O número total de notificações por push entregues ao dispositivo e clicado por usuários abrindo o aplicativo. Isso é semelhante ao clique em Push, exceto que um Push aberto não será acionado se a notificação tiver sido fechada.
 * **[!UICONTROL Unique Opens]**: Número de destinatários que abriram a entrega.
 
