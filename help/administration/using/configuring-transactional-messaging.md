@@ -14,7 +14,7 @@ discoiquuid: 3 f 968556-e 774-43 dc-a 0 b 8-7188 d 7665 fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
 
 ---
 
@@ -99,7 +99,7 @@ Essas informações também podem ser armazenadas em novos recursos. In that cas
 
 ![](assets/message-center_usecaseschema.png)
 
-For more on resource creation and publishing, refer to [this page](../../developing/using/key-steps-of-adding-a-resource.md).
+For more on resource creation and publishing, refer to [this page](../../developing/using/key-steps-to-add-a-resource.md).
 
 1. In the **[!UICONTROL Enrichment]** section, click the **[!UICONTROL Create element]** button.
 
@@ -307,7 +307,7 @@ As we want to identify our client via his CRM ID, first make sure that the **[!U
 
 In the same way, a custom resource corresponding to purchases must have been created and published, and must be linked to the **[!UICONTROL Profile]** resource. Dessa forma, você poderá recuperar informações desse recurso para aprimorar o conteúdo da mensagem.
 
-For more on resource creation and publishing, refer to [this page](../../developing/using/key-steps-of-adding-a-resource.md).
+For more on resource creation and publishing, refer to [this page](../../developing/using/key-steps-to-add-a-resource.md).
 
 1. Create a new event using the **[!UICONTROL Email]** channel and the **[!UICONTROL Profile]** targeting dimension (see [Creating an event](../../administration/using/configuring-transactional-messaging.md#creating-an-event)).
 1. Defina os atributos que estarão disponíveis para personalizar a mensagem transacional. In our case, add the "CRM ID" and the "Product identifier" fields (see [Defining the event attributes](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes)).
