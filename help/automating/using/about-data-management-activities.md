@@ -14,7 +14,7 @@ discoiquuid: 332 bd 6 be -6 ca 3-4 d 38-b 608-8 a 66 c 156 d 080
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
 
 ---
 
@@ -36,3 +36,4 @@ Essas atividades permitem manipular dados. Eles permitem, por exemplo, importar 
 * [Extrair arquivo](../../automating/using/extract-file.md)
 * [Serviços de assinatura](../../automating/using/subscription-services.md)
 
+**[!UICONTROL Data management (ETL)]** as atividades permitem definir **códigos de segmento** para suas transições de saída. Você pode então criar relatórios com base nesses códigos de segmento para medir a eficiência das suas campanhas de maketing. For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
