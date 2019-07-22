@@ -14,14 +14,14 @@ discoiquuid: 59 faa 74 e -86 fc -42 d 3-90 da-f 48580 b 5 ec 13
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 866567d63dd2798eb56d42d4e163e5484c9b4d68
+source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
 
 ---
 
 
 # Extending the subscriptions to an application resource{#extending-the-subscriptions-to-an-application-resource}
 
-In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications' subscribers. For more information on custom resources, refer to this [page](../../developing/using/key-steps-of-adding-a-resource.md).
+In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications' subscribers. For more information on custom resources, refer to this [page](../../developing/using/key-steps-to-add-a-resource.md).
 
 Esse recurso pode ser estendido para coletar dados que pretende enviar do dispositivo móvel para o Adobe Campaign.
 
