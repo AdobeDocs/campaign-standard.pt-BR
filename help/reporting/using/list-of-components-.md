@@ -14,7 +14,7 @@ discoiquuid: 17 cf 126 a -7 ce 1-4 e 11-bb 5 e -2 bdce 01 cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 7102ed308f94985f8924a13aab2583e50b6c68e4
 
 ---
 
@@ -277,7 +277,7 @@ As tabelas abaixo fornecem a você a lista de métricas usadas nos relatórios e
   </tr> 
   <tr> 
    <td> Clique em<br /> </td> 
-   <td> Number of times users interact with the push notification, e.g. clicks on the notification or button.<br /> </td> 
+   <td> Número de vezes que uma notificação por push foi entregue ao dispositivo e clicada pelo usuário. The user either wanted to view the notification, which will then be moved to Push Open tracking, or dismiss it.<br /> </td> 
   </tr> 
   <tr> 
    <td> Click through rate<br /> </td> 
@@ -293,7 +293,7 @@ As tabelas abaixo fornecem a você a lista de métricas usadas nos relatórios e
   </tr> 
   <tr> 
    <td> Impressions<br /> </td> 
-   <td> Total of push notifications seen by recipients.<br /> </td> 
+   <td> Número de vezes que uma notificação por push foi entregue ao dispositivo e à esquerda não é exibida na central de notificações. Na maioria dos casos, o número de impressões deve ser similar ao número fornecido. This ensures that the device got the message and relayed that information back to the server.<br /> </td> 
   </tr> 
   <tr> 
    <td> Processed/sent<br /> </td> 
@@ -301,7 +301,7 @@ As tabelas abaixo fornecem a você a lista de métricas usadas nos relatórios e
   </tr> 
   <tr> 
    <td> Open<br /> </td> 
-   <td> Total number of application launches when users open the push notification.<br /> </td> 
+   <td> O número total de notificações por push entregues ao dispositivo e clicado por usuários abrindo o aplicativo. This is similar to the Push Click except a Push Open will not be triggered if the notification was dismissed.<br /> </td> 
   </tr> 
   <tr> 
    <td> Open rate<br /> </td> 
