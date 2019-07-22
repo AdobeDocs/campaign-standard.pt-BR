@@ -15,7 +15,7 @@ context-tags: entrega, principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 25d997b2e5aa41e29e49ab047398b3db811bd6b6
 
 ---
 
@@ -31,7 +31,7 @@ O painel de mensagens é uma área de trabalho composta de ícones diferentes - 
 A barra cinza recupera vários ícones vinculados à sua mensagem.
 
 * **[!UICONTROL Summary]**: mostra/oculta as principais informações relacionadas à mensagem.
-* **[!UICONTROL Edit properties]**: permite editar os parâmetros avançados da mensagem.
+* **[!UICONTROL Edit properties]**: permite editar os parâmetros [avançados da mensagem](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 * **[!UICONTROL Reports]**: fornece acesso aos relatórios relacionados à mensagem.
 
 **Tópicos relacionados:**
