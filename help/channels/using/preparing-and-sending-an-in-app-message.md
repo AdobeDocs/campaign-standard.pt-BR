@@ -15,7 +15,7 @@ context-tags: entrega, acionadores, voltar; Deliverycreation, assistente
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 90b478d1d58b67e763b8b6685c12530a5b5ee9c3
+source-git-commit: e3b71fdaf18a20dc87a05c2a964a3429c75dd3ce
 
 ---
 
@@ -36,6 +36,8 @@ Três tipos de mensagens no aplicativo estão disponíveis no Adobe Campaign:
 * **[!UICONTROL Target users based on their Mobile profile (inApp)]**: Esse tipo de mensagem permite que você direcione todos os usuários conhecidos ou anônimos de um aplicativo móvel que tenha um perfil móvel no Adobe Campaign. Este tipo de mensagens pode ser personalizado usando apenas atributos não pessoais e não relacionados, e não requer handshake seguro entre o SDK móvel e o serviço de mensagens no aplicativo do Adobe Campaign.
 
    For more information on how to handle personal and sensitive data, refer to [Handling mobile profile fields with personal and sensitive data](../../channels/using/preparing-and-sending-an-in-app-message.md#handling-mobile-profile-fields-with-personal-and-sensitive-data).
+
+![](assets/diagram_inapp.png)
 
 ## Handling mobile profile fields with personal and sensitive data {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 
