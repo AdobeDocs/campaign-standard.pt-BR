@@ -14,7 +14,7 @@ discoiquuid: 0766 bd 57-c 5 f 1-4 f 56-ac 84-e 5 a 04 d 3819 ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 07c0b1b1ad6f9822e220e86f54dfa46475009132
 
 ---
 
@@ -58,7 +58,7 @@ Para gerenciar destinatários de notificações, defina os critérios de alertas
 
 >[!NOTE]
 >
->To access and configure the dashboards and the alerting criteria, you must have administration rights or appear in the **Delivery supervisors** security group. Os usuários padrão não podem acessar os painéis na interface do Adobe Campaign. Eles só podem receber notificações de alertas. For more on users and security in Adobe Campaign, see [Types of users](../../administration/using/types-of-users.md) and [About security groups](../../administration/using/managing-groups-and-users.md#about-security-groups).
+>To access and configure the dashboards and the alerting criteria, you must have administration rights or appear in the **Delivery supervisors** security group. Os usuários padrão não podem acessar os painéis na interface do Adobe Campaign. Eles só podem receber notificações de alertas. For more on users and security in Adobe Campaign, see [Types of users](../../administration/using/users-management.md) and [About security groups](../../administration/using/managing-groups-and-users.md#about-security-groups).
 
 Na interface do Adobe Campaign, você pode:
 
@@ -182,7 +182,7 @@ Depois de criados, esses critérios podem ser adicionados a um painel de alertas
 
 **Tópico relacionado:**
 
-[Adicionar ou estender um recurso](../../developing/using/key-steps-of-adding-a-resource.md)
+[Adicionar ou estender um recurso](../../developing/using/key-steps-to-add-a-resource.md)
 
 ## Delivery alerting parameters {#delivery-alerting-parameters}
 
