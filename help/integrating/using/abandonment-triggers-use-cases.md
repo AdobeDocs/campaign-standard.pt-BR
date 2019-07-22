@@ -14,7 +14,7 @@ discoiquuid: 1 b 9 aeec 5-70 bb -4 d 72-a 3 e 9-12342 abf 08 f 7
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
+source-git-commit: eed2e3597548c97345f51fe62dd2b56af5042e87
 
 ---
 
@@ -85,7 +85,8 @@ No Adobe Campaign, é necessário criar um Acionador vinculado ao que você crio
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. To dislay the message template, click the **[!UICONTROL More]** button, on the top right, then click **[!UICONTROL Trigger Transactional Template]**.
+1. To display the message template, click the **[!UICONTROL More]** button, on the top right, then click **[!UICONTROL Trigger Transactional Template]** .
+
 1. Personalize seu conteúdo e detalhes do remetente.
 
    ![](assets/trigger_uc_browse_8.png)
