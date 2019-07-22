@@ -15,7 +15,7 @@ context-tags: tipologia, visão geral; Typologyrule, main; Typologyrule, visão 
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 5e5532c0769fe33016eaee994bdaae9c70a7eaa5
 
 ---
 
@@ -85,10 +85,6 @@ In the **[!UICONTROL Targeting context]** category, you can select the **Targeti
 By default, filtering is carried out on the **[!UICONTROL Profiles]**. For example, if the rule is aimed at a mobile application, the **[!UICONTROL Filtering dimension]** can be changed to **[!UICONTROL Subscriptions to an application]**.
 
 ![](assets/typology_rule-order_2.png)
-
->[!NOTE]
->
->Como o conteúdo das regras de controle não pode ser modificado, essas são essencialmente as regras usadas.
 
 ## Typology rules execution order {#typology-rules-execution-order}
 
