@@ -15,7 +15,7 @@ context-tags: fluxo de trabalho, visão geral; fluxo de trabalho, principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: e33cbfbf6376dabfe81b9bd6f7cce817f35d1b75
 
 ---
 
@@ -28,7 +28,7 @@ Um fluxo de trabalho sempre é iniciado manualmente. However, once started, it c
 
 >[!CAUTION]
 >
->Recomendamos que você não execute mais de 5 fluxos de trabalho simultaneamente. Quando muitos fluxos de trabalho são executados ao mesmo tempo, o sistema pode ficar sem recursos e tornar-se instável. Também recomendamos que você distribua seus fluxos de trabalho ao longo do tempo.
+> A Adobe recomenda que os clientes priorizem as execuções do fluxo de trabalho e sejam executados até vinte execuções de fluxo de trabalho simultâneo para atingir o desempenho máximo em toda a sua instância. Mais de vinte execuções simultâneas de fluxo de trabalho podem ser planejadas e executadas sequencialmente por padrão. Você pode ajustar as configurações padrão para o número máximo de execuções simultâneas de fluxos de trabalho enviando um ticket para o Atendimento ao cliente.
 
 Ações relacionadas a execução (iniciar, parar, pausar etc.) are **asynchronous** processes: the command is saved and will become effective once the server is available to apply it.
 
