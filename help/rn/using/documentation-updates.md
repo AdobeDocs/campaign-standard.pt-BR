@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
+source-git-commit: 55aed1eeb44d96b1029555e6afdc4e205262b563
 
 ---
 
@@ -27,9 +27,13 @@ Esta página lista todos os novos recursos e atualizações de documentação pa
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
-## Release 19.3 - July 30 {#release-19-3---july-2019}
+## Release 19.3 - July 2019 {#release-19-3---july-2019}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release-19}
+
+External API Activity (Public Beta) - [Read more](../../automating/using/external-api.md)
+
+Report on workflow segment - [Read more](../../reporting/using/creating-a-report-workflow-segment.md)
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-17}
 
@@ -37,7 +41,27 @@ Information was added in the [Calling a workflow with parameters](../../developi
 
 As informações foram adicionadas sobre como personalizar o rótulo de uma entrega com variáveis de evento declaradas na atividade de sinal externo do fluxo de trabalho. [Ler mais](../../developing/using/uc-calling-resource-id-key.md)
 
-## July 2019 {#release-july-2019}
+Uma nova seção foi adicionada detalhando como criar um usuário no Adobe Campaign Standard. [Ler mais](../../administration/using/users-management.md)
+
+Uma solução de problemas foi adicionada para Relatórios dinâmicos. [Ler mais](../../reporting/using/troubleshooting.md)
+
+Um diagrama explicando como os diferentes modelos Dentro do aplicativo identificam informações pessoais. [Ler mais](../../channels/using/preparing-and-sending-an-in-app-message.md)
+
+A seção sobre como salvar o conteúdo de email como um fragmento no Designer de email foi atualizada. [Ler mais](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
+
+Um aviso foi adicionado sobre como os espaços em branco extras podem afetar o layout de um conteúdo de email. [Ler mais](../../designing/using/adding-a-content-block.md#creating-custom-content-blocks)
+
+Uma nova seção sobre as atualizações de Email do Designer foi adicionada. [Ler mais](../../designing/using/about-email-content-design.md#email-designer-updates)
+
+Foi adicionada uma nova seção sobre como enviar testes usando dados reais do cliente. [Ler mais](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data)
+
+Uma nova seção sobre práticas recomendadas do fluxo de trabalho foi adicionada. [Ler mais](../../automating/using/best-practices-workflows.md)
+
+A lista de mensagens de erro para o Campaign Standard e o Classic foi atualizada. [Ler mais](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+
+Adicionado um aviso na documentação de recursos personalizados. Recomendamos usar 30 caracteres para IDs de recurso personalizadas. Isso também se aplica a campos de recursos personalizados, chaves, índices e links. [Ler mais](../../developing/using/creating-or-extending-the-resource.md)
+
+## Documentation updates - July 2019 {#doc-updates-2019}
 
 Adicionada uma nova página nas limitações da página inicial. [Ler mais](../../channels/using/landing-page-limitations.md)
 
@@ -45,7 +69,9 @@ Um caso de uso foi adicionado sobre como chamar um perfil usando uma chave de id
 
 Uma recomendação foi adicionada com relação ao uso de entregas recorrentes sem período de agregação ao chamar um fluxo de trabalho com parâmetros. [Ler mais](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-A seção sobre como salvar o conteúdo de email como um fragmento no Designer de email foi atualizada. [Ler mais](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
+A lista de mensagens de erro para o Campaign Standard e o Classic foi atualizada. [Ler mais](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+
+Adicionado um aviso na documentação de recursos personalizados. Recomendamos usar 30 caracteres para IDs de recurso personalizadas. Isso também se aplica a campos de recursos personalizados, chaves, índices e links. [Ler mais](../../developing/using/creating-or-extending-the-resource.md)
 
 ## Release 19.2 - May 2019 {#release-19-2---may-2019}
 
@@ -170,8 +196,6 @@ Added information on the new option in the Query ( [Read more](../../automating/
 Foram adicionadas informações na seção Atualizar atividade de dados no novo campo Tamanho em lote que permite definir o tamanho máximo do lote para os dados serem carregados. [Ler mais](../../automating/using/update-data.md#configuration)
 
 Foram adicionadas informações na seção de atividade do arquivo Extrair sobre a nova opção que permite desativar o processo de geração de arquivos se a transição de saída estiver vazia. [Ler mais](../../automating/using/extract-file.md#configuration)
-
-Uma nova technote foi adicionada sobre como atualizar a API de perfis e serviços. [Ler mais](https://helpx.adobe.com/campaign/kb/profile-service-api-update.html)
 
 ## Release 19.0 - January 2019 {#release-19-0---january-2019}
 
