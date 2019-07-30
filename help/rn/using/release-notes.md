@@ -14,7 +14,7 @@ discoiquuid: 5 c 7 bfb 74-4002-4 ffe -87 e 8-bddb 41 d 34 b 41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40e71ea9aa7e31c4ab8dcc46f78919328c8572
+source-git-commit: f6ac14bf13433444e71d58cf677681b30f4b620f
 
 ---
 
@@ -41,11 +41,11 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  <tbody> 
   <tr> 
    <td> External API Activity (Public Beta)<br /> </td> 
-   <td> <p>Para personalização mais profunda, a Atividade de API externa permite que você coloque dados de sistemas externos em um fluxo de trabalho por meio de uma chamada REST API. Os pontos finais REST podem ser um sistema de gerenciamento de cliente, Adobe I/O Runpoint ou terminal REST da Adobe Experience Cloud (por exemplo, Plataforma de dados, Target, Analytics, Campanha).</p><p>No momento, esse recurso está em beta público.</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a>.</p></td> 
+   <td> <p>Para personalização mais profunda, a Atividade de API externa permite que você coloque dados de sistemas externos em um fluxo de trabalho por meio de uma chamada REST API. Os pontos finais REST podem ser um sistema de gerenciamento de cliente, Adobe I/O Runpoint ou terminal REST da Adobe Experience Cloud (por exemplo, Plataforma de dados, Target, Analytics, Campanha).</p><p>No momento, esse recurso está em beta público.</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">how-to video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Report on workflow segment<br /> </td> 
-   <td> <p>Esse recurso permite que os profissionais de marketing analisem o desempenho de entrega por código de segmento. Quando você cria um fluxo de trabalho e usa uma atividade de segmentação para atribuir segmentos à população de entrega, esses segmentos agora podem entrar na mesma entrega. Isso permite exibir as estatísticas de aberturas/cliques com base em vários segmentos em uma única entrega.</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a>.</p></td> 
+   <td> <p>Esse recurso permite que os profissionais de marketing analisem o desempenho de entrega por código de segmento. Quando você cria um fluxo de trabalho e usa uma atividade de segmentação para atribuir segmentos à população de entrega, esses segmentos agora podem entrar na mesma entrega. Isso permite exibir as estatísticas de aberturas/cliques com base em vários segmentos em uma única entrega.</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">how-to video</a>.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -70,7 +70,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Correção de um problema que quebrava a saída HTML ao usar o símbolo maior do que o símbolo dinâmico. (CAMP -33688)
 * Correção de um problema que ocorria ao usar a opção Desfazer ao editar texto no Designer de email. (CAMP -32565)
 * Correção de um problema que criava tags extras ao desfazer estilos em vez de removê-los. (CAMP -32359)
-* Agora é possível definir se cada imagem usada em um email será mostrada somente em dispositivos de desktop ou em dispositivos móveis.
+* Agora você pode definir se cada componente usado em um email será exibido apenas em dispositivos de desktop ou apenas em dispositivos móveis.
 * Agora é possível definir a largura e a altura de um componente de conteúdo do Social.
 * Correção de um problema que impedia a remoção do código fonte antigo do conteúdo dinâmico após a exclusão desse conteúdo dinâmico.
 * Correção de um problema que podia impedir que o assunto de um email fosse atualizado após a modificação.
@@ -91,6 +91,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Agora é possível personalizar o rótulo de uma entrega com variáveis de evento declaradas na atividade de sinal externo do fluxo de trabalho. For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * A consulta de exclusão do RGPD foi aprimorada para melhorar o desempenho. (CAMP -33504)
 * A opção «ftp» foi removida da interface de configuração da conta externa. (CAMP -34472)
+* Agora você pode ativar e desativar a opção do modo de teste SMTP para cada mensagem de email. For more on this, refer to the [detailed documentation](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP -34602)
 
 ### Other changes {#other-changes-2}
 
@@ -123,7 +124,6 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Correção de um problema em páginas de aterrissagem que ocorria ao configurar campos da caixa de seleção com assinaturas. (CAMP -34369)
 * Correção de um problema que ocorria ao configurar uma lista e adicionar o campo "ícone" a ele. (CAMP -34585)
 * Correção de um problema que impedia o uso de|símbolos "e" % "como separadores de data ou hora em carregar atividades do fluxo de trabalho de arquivo. (CAMP -34706)
-* Correção de um problema que ocorria nos fluxos de trabalho ao adicionar uma atividade, salvar o fluxo de trabalho e, em seguida, clicar no botão "voltar" do navegador. A atividade recém-adicionada foi removida da área de trabalho. (CAMP -34788)
 * Correção de um problema que ocorria ao usar condições de visibilidade com caixas de seleção em páginas de destino. (CAMP -34802)
 * Correção de um problema na atividade de Enriquecimento que impedia a exibição dos campos na guia «Dados adicionais», se a dimensão de filtragem fosse definida para rastrear logs e a dimensão de destino ao perfil.
 * Correção de um problema que resultava em uma mensagem de erro ao exportar um recurso "workflowtemplate".
