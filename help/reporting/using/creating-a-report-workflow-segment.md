@@ -14,7 +14,7 @@ discoiquuid: b 6 d 3 de 63-3 add -4881-8917-04 a 6 f 8 b 6 be 4 d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 36e04227f300d28d2c48da440ddab3ccf9281168
+source-git-commit: c555c35004ffe3c3d7e2f845a3a2707b1985e190
 
 ---
 
@@ -58,7 +58,7 @@ Note that segment codes will be collected as soon as you enable the segment code
 
 ## Step 2: Create a workflow with segments {#step-2--create-a-workflow-segments}
 
-[!NOTE]
+>[!NOTE]
 >Se a transição de entrada da entrega de email estiver vazia, o código do Segmento da transição anterior será adicionado por padrão.
 
 Primeiro, você precisa criar um fluxo de trabalho com uma população direcionada diferente. Aqui, queremos enviar um email que será personalizado dependendo da idade de nosso público-alvo: uma entrega por 20 a 30 anos e outra para perfis entre 30 a 40 anos.
