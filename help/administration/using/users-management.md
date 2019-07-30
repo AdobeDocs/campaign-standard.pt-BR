@@ -14,7 +14,7 @@ discoiquuid: 08 c 8712 a -0066-4 b 8 b -8471-2656 b 8 fb 23 ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
+source-git-commit: ab329af94dc4e28651aaef17f4588d894fb48b74
 
 ---
 
@@ -124,7 +124,7 @@ Para adicionar um usuário à sua instância, primeiro crie-o no Admin Console a
 
    ![](assets/create_user_4.png)
 
-O usuário agora é criado e deve receber um redirecionamento por email para a seguinte janela, onde o usuário deve definir uma senha em seguida, concordar com o termo de uso. Esse usuário poderá se conectar à sua instância do Adobe Campaign Standard.
+O usuário agora é criado e deve receber um redirecionamento por email para a seguinte janela, onde o usuário deve definir uma senha e aceitar o termo de contrato de uso. Esse usuário poderá se conectar à sua instância do Adobe Campaign Standard.
 
 ![](assets/create_user_5.png)
 
@@ -149,3 +149,5 @@ Você pode verificar se o usuário foi sincronizado corretamente com o Adobe Cam
 1. In the **[!UICONTROL Authorized connection zone]** field, select through which way your user will connect to this instance, e.g. internal network or VPN.
 
 1. Click **[!UICONTROL Save]**.
+
+O usuário agora está pronto para usar o Adobe Campaign Standard.
