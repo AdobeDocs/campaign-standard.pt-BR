@@ -3,7 +3,7 @@ product: Adobe Campaign Standard
 audience: usuário final
 user-guide-title: Ajuda do Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 55180d1bd13e29ea0f77c3412c0da5fa523e7cfc
+source-git-commit: 80d2d8a9a946d051b21c3d78bddc1b2bfa5fc1f5
 
 ---
 
@@ -240,6 +240,7 @@ source-git-commit: 55180d1bd13e29ea0f77c3412c0da5fa523e7cfc
       + [Uso de dados de fluxo de trabalho](automating/using/using-workflow-data.md)
       + [Execução de um fluxo de trabalho](automating/using/executing-a-workflow.md)
       + [Chamada de um fluxo de trabalho com parâmetros externos](automating/using/calling-a-workflow-with-external-parameters.md)
+      + [Práticas recomendadas de fluxo de trabalho](automating/using/best-practices-workflows.md)
    + Targeting activities {#targeting-activities}
       + [Sobre atividades de definição de metas](automating/using/about-targeting-activities.md)
       + [Consulta](automating/using/query.md)
