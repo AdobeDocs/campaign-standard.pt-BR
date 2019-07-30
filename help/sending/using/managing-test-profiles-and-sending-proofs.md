@@ -15,7 +15,7 @@ context-tags: Seedmember, visão geral
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
+source-git-commit: 663ce734a79d7895e1e5cbd6d5756447d42299fd
 
 ---
 
@@ -128,3 +128,42 @@ Dependendo dos comentários das pessoas que recebem a prova, talvez seja necess�
 **Tópico relacionado:**
 
 [Envio de um teste, preparação e envio](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html) de um vídeo por email
+
+## Sending proofs using additional data {#sending-proofs-using-additional-data}
+
+Esta seção descreve como enviar testes usando dados reais do cliente acessíveis por um fluxo de trabalho, em vez de usar dados de perfil de teste falso. Isso permite verificar se as variáveis usadas no fluxo de trabalho são precisas e se recebem uma exibição da mensagem que os destinatários receberão.
+
+1. Create a test profile and enable **[!UICONTROL Proof]** and **[!UICONTROL Trap]** as the intended usage. For more on this, see [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
+
+   Esse perfil de teste torna-se parte do público-alvo direcionado.
+
+   >[!NOTE]
+   >
+   >Ao usar um perfil de teste como captura, para qualquer campo enriquecido em uma mensagem, os dados adicionais correspondentes são escolhidos aleatoriamente de um perfil direcionado real e atribuído ao perfil de teste de captura.
+
+1. Acesse a lista de atividades de marketing e crie um fluxo de trabalho de teste.
+
+   See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
+
+1. Drag and drop a **[!UICONTROL Query]** activity into your workflow and open it.
+
+   The Query activity is presented in the [Query](../../automating/using/query.md) section.
+
+1. Adicione dados adicionais a partir de uma tabela vinculada. For more on this, see [Enriching data](../../automating/using/query.md#enriching-data).
+
+1. Drag and drop an **Email delivery** activity into your workflow and open it.
+
+   The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.
+
+1. No painel de mensagens de email, selecione o perfil de teste com o uso de trapping criado.
+
+1. Adicione aos campos de personalização de conteúdo por email usando os dados adicionais definidos na atividade de consulta.
+
+1. Salve o email e inicie o fluxo de trabalho.
+
+Durante a preparação de mensagens, a contagem de metas inclui o perfil de teste selecionado.
+Quando a mensagem é enviada, dados adicionais são substituídos por dados de um perfil real.
+
+>[!NOTE]
+>
+>Somente os dados adicionais são substituídos. Nenhum dado de perfil real, como o nome ou o sobrenome, será usado para o perfil de teste.
