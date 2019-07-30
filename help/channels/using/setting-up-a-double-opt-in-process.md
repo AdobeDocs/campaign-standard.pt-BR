@@ -14,7 +14,7 @@ discoiquuid: 1 a 24504 e -7 f 9 d -4297-b 39 e-c 5 f 085 b 0 f 388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 855db33971afdf9f02bf1b00be67c9e3f50bee06
+source-git-commit: 6dd0c32259d942a0fb790f345cd13800a57e814a
 
 ---
 
@@ -105,6 +105,7 @@ You need to create a specific [typology rule](../../administration/using/about-t
 1. From the Adobe Campaign logo, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** and click **[!UICONTROL Typologies]**.
 1. Duplicate the out-of-box typology **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
 1. Once duplication confirmed, edit the new typology and enter the label **TYPOLOGY_PROFILE**.
+1. Remove the **blacklisted address** rule.
 1. Click **[!UICONTROL Save]**.
 
 Agora, essa tipologia pode ser associada ao e-mail de confirmação.
