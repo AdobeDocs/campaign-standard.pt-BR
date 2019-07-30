@@ -14,7 +14,7 @@ discoiquuid: 207 fdf 6 d -165 a -41 af-ad 53-ba 97 d 3403 b 62
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b671da944fa3059d3a09bceda7d5142df984593c
+source-git-commit: 7de6436bbd4f1cc5032e13414f7337f637bf608a
 
 ---
 
@@ -193,6 +193,10 @@ O fragmento agora pode ser usado em qualquer email criado com o Designer de emai
 
 Ao editar um email com o Designer de email, você pode salvar diretamente parte desse email como um fragmento.
 
+>[!CAUTION]
+>
+>Não é possível salvar como fragmento uma estrutura contendo campos de personalização, conteúdo dinâmico ou outro fragmento.
+
 1. When editing an email in the Email Designer, select **[!UICONTROL Save as fragment]** from the main toolbar.
 
    ![](assets/email_designer_save-as-fragment.png)
@@ -215,7 +219,7 @@ Ao editar um email com o Designer de email, você pode salvar diretamente parte 
 
    ![](assets/email_designer_save-as-fragment_list.png)
 
-1. Para usar o novo fragmento, abra qualquer outro conteúdo de email e selecione-o na lista de fragmentos.
+1. Para usar o novo fragmento, abra qualquer conteúdo de email e selecione-o na lista de fragmentos.
 
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
 
