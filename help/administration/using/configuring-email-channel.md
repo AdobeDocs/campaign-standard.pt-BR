@@ -15,7 +15,7 @@ context-tags: Extaccountemail, visão geral; Emailconfig, main; Ruleset, overvie
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
+source-git-commit: 8f737b1f66b40862d0e0f64cf7d7f4a2d4d29518
 
 ---
 
@@ -177,8 +177,6 @@ Por padrão, cinco tentativas são programadas para o primeiro dia com um interv
 
 O número de tentativas pode ser alterado globalmente (entre em contato com seu administrador técnico da Adobe) ou para cada entrega ou modelo de entrega
 
-The **[!UICONTROL Test SMTP delivery]** option allows you to test sending messages via SMTP. As mensagens são processadas até que a conexão com o servidor SMTP seja atingida, mas elas não são enviadas. For more information on configuring SMTP, refer to the [List of email SMTP parameters](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters) section.
-
 #### Email format parameters {#email-format-parameters}
 
 É possível configurar o formato de e-mails a serem enviados. Há três opções disponíveis:
@@ -191,6 +189,24 @@ The **[!UICONTROL Test SMTP delivery]** option allows you to test sending messag
    >Essa opção inclui ambas as versões da mensagem. Isso afeta a entrega, pois o tamanho da mensagem é maior.
 
 * **Enviar todas as mensagens em formato de texto**: a mensagem é enviada em formato de texto. O formato HTML não será enviado, mas usado para a página espelhada apenas quando o destinatário clicar no link na mensagem.
+
+#### SMTP test mode {#smtp-test-mode}
+
+The **[!UICONTROL Enable SMTP test mode]** option allows you to test sending emails via an SMTP connection without actually sending messages.
+As mensagens são processadas até que a conexão com o servidor SMTP seja alcançada, mas elas não são enviadas.
+
+![](assets/smtp-test-mode.png)
+
+Essa opção está disponível para emails e modelos de e-mail.
+
+Se você ativar a opção do modo de teste SMTP para um modelo de email, todas as mensagens de e-mail criadas a partir desse modelo terão essa opção ativada.
+
+>[!CAUTION]
+>
+>Quando essa opção estiver ativada para um email, nenhuma mensagem será enviada até que esteja desmarcada.
+>Um aviso será exibido no painel de modelo de email ou de email.
+
+For more information on configuring SMTP, refer to the [List of email SMTP parameters](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters) section.
 
 ### Validity period parameters {#validity-period-parameters}
 
