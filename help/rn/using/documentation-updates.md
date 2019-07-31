@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 03f7f16b3c4ae82da87fdbe1548791fd905dff67
+source-git-commit: 3cb698bc5025a59771128a8df493e7e126f00cab
 
 ---
 
@@ -59,7 +59,7 @@ Um aviso foi adicionado sobre como os espaços em branco extras podem afetar o l
 
 Uma nova seção sobre as atualizações de Email do Designer foi adicionada. [Ler mais](../../designing/using/about-email-content-design.md#email-designer-updates)
 
-Foi adicionada uma nova seção sobre como enviar testes usando dados reais do cliente. [Ler mais](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data)
+<!-- A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data) -->
 
 Uma nova seção sobre práticas recomendadas do fluxo de trabalho foi adicionada. [Ler mais](../../automating/using/best-practices-workflows.md)
 
