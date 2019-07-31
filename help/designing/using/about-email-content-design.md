@@ -14,7 +14,7 @@ discoiquuid: 39 b 86 fda -7766-4 e 5 f-ab 48-bcc 536 ab 66 b 3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 072843b5507dbae34b5d3924bf22f20b4edfa285
+source-git-commit: ed67b5e68aa308a6bf54348d4b86f223aec969dd
 
 ---
 
@@ -133,7 +133,7 @@ For more on converting an existing email into an Email Designer-compatible email
 
 O Designer de email está em constante melhoria. Se você criou um conteúdo de email do zero, de um modelo predefinido ou se criou fragmentos, você receberá a seguinte mensagem de atualização na próxima vez que abrir seu conteúdo:
 
-![](assets/email_designer_fragment-patch-message.png)
+![](assets/email_designer_fragment_patch_message.png)
 
 A Adobe recomenda atualizar seu conteúdo para a versão mais recente para evitar problemas como problemas de colisão de CSS. Click **[!UICONTROL Update now]**.
 
@@ -181,7 +181,7 @@ You can also check out this [introduction video](https://video.tv.adobe.com/v/22
 
 Esta seção explica como converter um email existente em um email compatível com o Designer do email.
 
-By default, if you just upload any HTML (see [Importing content from a file](../../designing/using/importing-content-from-a-file.md)), the content is loaded in ' [compatibility mode](../../designing/using/about-email-content-design.md#email-designer-compatibility-mode)', which limits the edition possibilities through the UI (only in-place edition, no drag-and-drop).
+By default, if you just upload any HTML (see [Importing content from a file](../../designing/using/importing-content-from-a-file.md)), the content is loaded in '[compatibility mode](../../designing/using/about-email-content-design.md#email-designer-compatibility-mode)', which limits the edition possibilities through the UI (only in-place edition, no drag-and-drop).
 
 No entanto, se você quiser criar uma estrutura de modelos modulares e fragmentos que possam ser combinados a serem reutilizados em vários emails, você deve considerar converter seu HTML de email em um modelo do Designer de email.
 
