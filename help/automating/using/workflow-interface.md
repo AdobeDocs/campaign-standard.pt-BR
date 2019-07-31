@@ -15,7 +15,7 @@ context-tags: fluxo de trabalho, principal; fluxo de trabalho, visão geral
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff0b995533f34dd8eab7a9a82feaab3ceed4ff29
+source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
 
 ---
 
@@ -26,8 +26,8 @@ Você pode criar fluxos de trabalho para gerenciar processos inteiros em suas ca
 
 A tela de edição do fluxo de trabalho é composta pelos seguintes elementos:
 
-* The [Palette](../../automating/using/workflow-interface.md#palette), which references the available activities
-* The [Workspace](../../automating/using/workflow-interface.md#workspace), in which the activities are configured and organized
+* [A paleta](../../automating/using/workflow-interface.md#palette), que faz referência às atividades disponíveis.
+* [O Workspace](../../automating/using/workflow-interface.md#workspace), no qual as atividades são configuradas e organizadas.
 * The [Action bar](../../automating/using/workflow-interface.md#action-bar), which is made up of buttons that allow you to interact with the workflow and/or its components.
 * The [Quick actions](../../automating/using/workflow-interface.md#quick-actions), which appear around a selected activity, allow you to interact with it.
 
