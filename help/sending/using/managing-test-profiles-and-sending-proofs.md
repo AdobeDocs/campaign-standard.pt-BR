@@ -15,7 +15,7 @@ context-tags: Seedmember, visão geral
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 663ce734a79d7895e1e5cbd6d5756447d42299fd
+source-git-commit: 3cb698bc5025a59771128a8df493e7e126f00cab
 
 ---
 
@@ -129,19 +129,19 @@ Dependendo dos comentários das pessoas que recebem a prova, talvez seja necess�
 
 [Envio de um teste, preparação e envio](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html) de um vídeo por email
 
-## Sending proofs using additional data {#sending-proofs-using-additional-data}
+<!-- ## Sending proofs using additional data {#sending-proofs-using-additional-data}
 
-Esta seção descreve como enviar testes usando dados reais do cliente acessíveis por um fluxo de trabalho, em vez de usar dados de perfil de teste falso. Isso permite verificar se as variáveis usadas no fluxo de trabalho são precisas e se recebem uma exibição da mensagem que os destinatários receberão.
+This section describes how to send proofs using real customer data accessible via a workflow, as opposed to using fake test profile data. This allows you to check that the variables used in the workflow are accurate and to get a view of the message that your recipients will receive.
 
 1. Create a test profile and enable **[!UICONTROL Proof]** and **[!UICONTROL Trap]** as the intended usage. For more on this, see [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
 
-   Esse perfil de teste torna-se parte do público-alvo direcionado.
+    This test profile becomes part of the targeted audience.
 
    >[!NOTE]
    >
-   >Ao usar um perfil de teste como captura, para qualquer campo enriquecido em uma mensagem, os dados adicionais correspondentes são escolhidos aleatoriamente de um perfil direcionado real e atribuído ao perfil de teste de captura.
+   >When using a test profile as a trap, for any enriched fields in a message, the corresponding additional data is randomly picked from a real targeted profile and assigned to the trap test profile.
 
-1. Acesse a lista de atividades de marketing e crie um fluxo de trabalho de teste.
+1. Access the marketing activity list and create a test workflow.
 
    See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
 
@@ -149,21 +149,21 @@ Esta seção descreve como enviar testes usando dados reais do cliente acessíve
 
    The Query activity is presented in the [Query](../../automating/using/query.md) section.
 
-1. Adicione dados adicionais a partir de uma tabela vinculada. For more on this, see [Enriching data](../../automating/using/query.md#enriching-data).
+1. Add additional data from a linked table. For more on this, see [Enriching data](../../automating/using/query.md#enriching-data).
 
 1. Drag and drop an **Email delivery** activity into your workflow and open it.
 
    The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.
 
-1. No painel de mensagens de email, selecione o perfil de teste com o uso de trapping criado.
+1. From the email message dashboard, select the test profile with trap usage that you created.
 
-1. Adicione aos campos de personalização de conteúdo por email usando os dados adicionais definidos na atividade de consulta.
+1. Add to your email content personalization fields using the additional data that you defined in the Query activity.
 
-1. Salve o email e inicie o fluxo de trabalho.
+1. Save the email and start the workflow.
 
-Durante a preparação de mensagens, a contagem de metas inclui o perfil de teste selecionado.
-Quando a mensagem é enviada, dados adicionais são substituídos por dados de um perfil real.
+During message preparation, the target count includes the test profile that you selected.
+Once the message is sent, additional data is replaced by data from a real profile.
 
 >[!NOTE]
->
->Somente os dados adicionais são substituídos. Nenhum dado de perfil real, como o nome ou o sobrenome, será usado para o perfil de teste.
+   >
+   >Only additional data are replaced. No real profile data such as first name or last name will be used for the test profile. -->
