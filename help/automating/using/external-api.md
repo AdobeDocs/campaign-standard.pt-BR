@@ -12,7 +12,7 @@ context-tags: Externalapi, fluxo de trabalho, principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb908d4e0ff23319025d3193bb9b22d006b5901e
+source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
 
 ---
 
@@ -197,7 +197,7 @@ Essas mensagens de registro são usadas para registrar informações sobre condi
   <tr> 
    <td> WKF -560246 - A chave do cabeçalho HTTP é incorreta (chave do cabeçalho: ' % s ').</td> 
    <td> <p>A chave do cabeçalho HTTP é incorreta (chave do cabeçalho: ' % s ').</p>
-   <p> Observação: Esse erro é registrado quando a tecla de cabeçalho personalizada falha na validação de acordo com [RFC] (https://tools.ietf.org/html/rfc7230#section-3.2.html)</p></td> 
+   <p> Note: This error is logged when the custom header key fails validation according to <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr>
  <tr> 
    <td> WKF -560248 - A chave do cabeçalho HTTP não é permitida (chave do cabeçalho: ' % s ').</td> 
@@ -206,7 +206,7 @@ Essas mensagens de registro são usadas para registrar informações sobre condi
   <tr> 
    <td> WKF -560247 - O valor do cabeçalho AHTTP é incorreto (valor do cabeçalho: ' % s ').</td> 
    <td> <p>O valor do cabeçalho HTTP é incorreto (valor do cabeçalho: ' % s '). </p>
-    <p>Observação: Esse erro é registrado quando o valor do cabeçalho personalizado falha na validação de acordo com [RFC] (https://tools.ietf.org/html/rfc7230#section-3.2.html)</p></td> 
+    <p>Note: This error is logged when the custom header value fails validation according to <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
   <tr> 
    <td> WKF -560240 - A carga JSON tem uma propriedade inválida ' % s '.</td> 
