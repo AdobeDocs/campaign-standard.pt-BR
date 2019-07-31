@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 55aed1eeb44d96b1029555e6afdc4e205262b563
+source-git-commit: 03f7f16b3c4ae82da87fdbe1548791fd905dff67
 
 ---
 
@@ -37,11 +37,17 @@ Report on workflow segment - [Read more](../../reporting/using/creating-a-report
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-17}
 
-Information was added in the [Calling a workflow with parameters](../../developing/using/uc-calling-resource-id-key.md) section. Ele especifica que as entregas são preparadas com base no período de agregação e que, se você planeja chamar o fluxo de trabalho várias vezes por dia, certifique-se de que elas não tenham um período.
+O Guia de implementação padrão da campanha agora está ativo.[Ler mais](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
 
-As informações foram adicionadas sobre como personalizar o rótulo de uma entrega com variáveis de evento declaradas na atividade de sinal externo do fluxo de trabalho. [Ler mais](../../developing/using/uc-calling-resource-id-key.md)
+Um conjunto de novos artigos de ajuda foi criado sobre a implementação e o uso do conector do Microsoft Dynamics 365. Observe que este recurso está em Disponibilidade limitada.[Ler mais](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+
+A note has been added in the [Calling a workflow with parameters](../../automating/using/calling-a-workflow-with-external-parameters.md) section about delivery preparation and their aggregation period.
+
+As informações foram adicionadas sobre como personalizar o rótulo de uma entrega com variáveis de evento declaradas na atividade de sinal externo do fluxo de trabalho. [Ler mais](../../automating/using/external-signal.md)
 
 Uma nova seção foi adicionada detalhando como criar um usuário no Adobe Campaign Standard. [Ler mais](../../administration/using/users-management.md)
+
+Um novo artigo agora está disponível com dicas para simplificar campanhas de marketing, incluindo links para a documentação do produto e vídeos tutoriais.[Ler mais](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html)
 
 Uma solução de problemas foi adicionada para Relatórios dinâmicos. [Ler mais](../../reporting/using/troubleshooting.md)
 
