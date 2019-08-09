@@ -14,12 +14,12 @@ discoiquuid: 39 b 86 fda -7766-4 e 5 f-ab 48-bcc 536 ab 66 b 3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f85995fc5a331b57e42a58d979940751dbe7ce97
+source-git-commit: 86600fe800477442e274429e1ef9cd299c33026a
 
 ---
 
 
-# About email content design{#about-email-content-design}
+# Sobre o design de conteúdo de email{#about-email-content-design}
 
 Use a interface de arrastar e soltar do Designer de emails para criar e modificar o conteúdo de seus e-mails no Adobe Campaign.
 
@@ -31,45 +31,45 @@ Esta seção descreve as especificidades do Designer de email:
 
 Para saber mais sobre ações comuns a uma ou mais atividades de marketing, consulte as seguintes seções:
 
-* For more on personalizing an email content, see [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md) and [Adding a content block](../../designing/using/adding-a-content-block.md).
-* For more on importing another email content, see [Selecting an existing content](../../designing/using/selecting-an-existing-content.md).
-* For more on defining dynamic content in an email, see [Defining dynamic content in an email](../../designing/using/defining-dynamic-content-in-an-email.md).
-* For more on inserting links in an email, see [Inserting a link](../../designing/using/inserting-a-link.md).
-* For more on inserting images in an email, see [Inserting images](../../designing/using/inserting-images.md).
+* Para obter mais informações sobre como personalizar um conteúdo de email, consulte [Inserir um campo de personalização](../../designing/using/inserting-a-personalization-field.md) e [Adicionar um bloco de conteúdo](../../designing/using/adding-a-content-block.md).
+* Para obter mais informações sobre como importar outro conteúdo de email, consulte [Seleção de um conteúdo existente](../../designing/using/selecting-an-existing-content.md).
+* Para obter mais informações sobre como definir conteúdo dinâmico em um email, consulte [Definição do conteúdo dinâmico em um e-mail](../../designing/using/defining-dynamic-content-in-an-email.md).
+* Para obter mais informações sobre como inserir links em um email, consulte [Inserir um link](../../designing/using/inserting-a-link.md).
+* Para obter mais informações sobre como inserir imagens em um email, consulte [Inserir imagens](../../designing/using/inserting-images.md).
 
-Also check the [general best practices for content design](../../designing/using/content-design-best-practices.md).
+Verifique também as [práticas recomendadas gerais para o design de conteúdo](../../designing/using/content-design-best-practices.md).
 
-## About the Email Designer {#about-the-email-designer}
+## Sobre o Designer de email {#about-the-email-designer}
 
 O Designer de email permite que você crie conteúdo de email e modelos de conteúdo de email. Ele é compatível com emails simples, emails transacionais, E/B de teste A/B, emails multilíngues e emails recorrentes.
 
-To get started with the Email Designer, watch this [set of videos](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#GettingStarted) that explain the general functionality of the Email Designer and how to design an email from scratch or using templates.
+Para começar a usar o Designer de emails, assista a este [conjunto de vídeos](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#GettingStarted) que explicam a funcionalidade geral do Designer e como projetar um e-mail do zero ou usando modelos.
 
-### Email Designer home page {#email-designer-home-page}
+### Página inicial do Designer de email {#email-designer-home-page}
 
-When [creating an email](../../channels/using/creating-an-email.md), the **[!UICONTROL Email Designer]** home page automatically displays upon selecting the email content.
+Ao [criar um email](../../channels/using/creating-an-email.md), a página **[!UICONTROL Email Designer]** inicial é exibida automaticamente após a seleção do conteúdo de email.
 
 ![](assets/email_designer_home_page.png)
 
-The **[!UICONTROL Properties]** tab enables you to edit the email details such as the label, the sender's address and name, or the email subject. Também é possível acessar essa guia clicando no rótulo do email na parte superior da tela.
+A **[!UICONTROL Properties]** guia permite que você edite os detalhes de e-mail, como o rótulo, o endereço e o nome do remetente ou o assunto do e-mail. Também é possível acessar essa guia clicando no rótulo do email na parte superior da tela.
 
 ![](assets/email_designer_home_properties.png)
 
-The **[!UICONTROL Templates]** tab enables you to choose from the out-of-the-box HTML contents or the templates that you already created to quickly start designing your email. See [Content templates](../../start/using/about-templates.md#content-templates).
+A **[!UICONTROL Templates]** guia permite que você escolha entre o conteúdo HTML predefinido e os modelos criados para iniciar rapidamente a criação de seu e-mail. Consulte [Modelos de conteúdo](../../start/using/about-templates.md#content-templates).
 
 ![](assets/email_designer_home_templates.png)
 
-The **[!UICONTROL Learn & support]** tab gives you easy access to the related documentation and tutorials.
+A **[!UICONTROL Learn & support]** guia fornece acesso fácil à documentação e aos tutoriais relacionados.
 
 ![](assets/email_designer_home_support.png)
 
 Se você não selecionar um modelo, a página inicial do Designer de email também permite escolher como você deseja começar a criar seu conteúdo:
 
-* Click the **[!UICONTROL Create]** button to start a new content from scratch. See [Designing an email content from scratch](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
-* Click the **[!UICONTROL Upload]** button to upload a file from your computer. See [Importing content from a file](../../designing/using/importing-content-from-a-file.md).
-* Click the **[!UICONTROL Import from URL]** button to retrieve existing content form a URL. See [Importing content from a URL](../../designing/using/importing-content-from-a-url.md).
+* Clique no **[!UICONTROL Create]** botão para iniciar um novo conteúdo do zero. Consulte [Criar um conteúdo de email do zero](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
+* Clique no **[!UICONTROL Upload]** botão para carregar um arquivo do seu computador. Consulte [Importar conteúdo de um arquivo](../../designing/using/importing-content-from-a-file.md).
+* Clique no **[!UICONTROL Import from URL]** botão para recuperar o conteúdo existente do URL. Consulte [Importar conteúdo de um URL](../../designing/using/importing-content-from-a-url.md).
 
-### Email Designer interface {#email-designer-interface}
+### Interface de email do Designer {#email-designer-interface}
 
 O Designer de email oferece muitas opções que permitem criar, editar e personalizar cada aspecto do seu conteúdo.
 
@@ -77,33 +77,33 @@ A interface é composta de várias áreas oferecendo funcionalidades diferentes:
 
 ![](assets/email_designer_overview.png)
 
-From the elements available in the **Palette** (1), drag and drop structure components and content fragments into the main **Workspace** (2). Select a component or element in the **Workspace** (2) and customize its main styling and display characteristics from the **Settings** pane (3).
+Dos elementos disponíveis na **Paleta** (1), arraste e solte os componentes da estrutura e fragmentos de conteúdo no **Workspace principal** (2). Selecione um componente ou elemento no **Workspace** (2) e personalize suas características principais de estilo e exibição no painel **Configurações** (3).
 
-Access more general options and settings from the main **Toolbar** (4).
+Acesse mais opções gerais e configurações da **barra de ferramentas principal** (4).
 
 >[!NOTE]
 >
->The **Settings** pane can move to the left according to your screen resolution and display.
+>O painel **Configurações** pode ser movido para a esquerda de acordo com sua resolução de tela e exibição.
 
 ![](assets/email_designer_toolbar.png)
 
-The **Contextual toolbar** of the editor interface offers various functionalities depending on the zone selected. Ele contém botões de ação e botões que permitem alterar o estilo do texto. As modificações executadas sempre se aplicam à zona selecionada.
+A barra de ferramentas **Contextual** da interface do editor oferece várias funcionalidades dependendo da zona selecionada. Ele contém botões de ação e botões que permitem alterar o estilo do texto. As modificações executadas sempre se aplicam à zona selecionada.
 
-### General recommendations for using the Email Designer {#general-recommendations-for-using-the-email-designer}
+### Recomendações gerais para usar o Designer de email {#general-recommendations-for-using-the-email-designer}
 
 Para usar o uso correto do Email do Designer e criar os melhores e-mails o mais rápido possível, recomendamos aplicar os seguintes princípios:
 
 * Use o estilo em linha em vez de um CSS e CSS separados na seção &lt; head &gt; do HTML. Ao usar estilo inline, é possível otimizar o salvamento e a reutilização do fragmento do conteúdo.
 
-   See [Adding inline styling attributes](../../designing/using/editing-email-styles.md#adding-inline-styling-attributes).
+   Consulte [Adicionar atributos de estilo em linha](../../designing/using/editing-email-styles.md#adding-inline-styling-attributes).
 
 * Agende sua marca facilmente criando e reutilizando fragmentos do conteúdo para manter a consistência em suas campanhas de marketing.
 
-   See [Creating a content fragment](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment).
+   Consulte [Criar um fragmento do conteúdo](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment).
 
-Also check the [general best practices for content design](../../designing/using/content-design-best-practices.md).
+Verifique também as [práticas recomendadas gerais para o design de conteúdo](../../designing/using/content-design-best-practices.md).
 
-### Email Designer compatibility mode {#email-designer-compatibility-mode}
+### Modo de compatibilidade do Designer de email {#email-designer-compatibility-mode}
 
 Ao carregar um conteúdo, ele deve conter marcação específica para ser totalmente compatível e editável com o editor WYSIWYG do Designer de email.
 
@@ -120,16 +120,16 @@ Quando um conteúdo é carregado no modo de compatibilidade, você ainda pode ex
 
 Outras modificações, como adicionar novas seções ao seu e-mail ou estilo avançado, devem ser feitas diretamente no código-fonte do e-mail por meio do modo HTML.
 
-For more on converting an existing email into an Email Designer-compatible email, see [this section](../../designing/using/about-email-content-design.md#designing-an-email-using-existing-contents).
+Para obter mais informações sobre como converter um e-mail existente em um email compatível com o Designer, consulte [esta seção](../../designing/using/about-email-content-design.md#designing-an-email-using-existing-contents).
 
-### Email Designer limitations {#email-designer-limitations}
+### Limitações do Designer de email {#email-designer-limitations}
 
-* Não é possível usar campos de personalização em um fragmento. For more on fragments, see [this section](../../designing/using/defining-the-email-structure.md#about-fragments).
-* Não é possível salvar diretamente como um fragmento em algum conteúdo de um email que você está editando no Designer de email. É necessário copiar o HTML correspondente a esse conteúdo em um novo fragmento. For more on this, see [Saving content as a fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
+* Não é possível usar campos de personalização em um fragmento. Para mais em fragmentos, consulte [esta seção](../../designing/using/defining-the-email-structure.md#about-fragments).
+* Não é possível salvar diretamente como um fragmento em algum conteúdo de um email que você está editando no Designer de email. É necessário copiar o HTML correspondente a esse conteúdo em um novo fragmento. Para obter mais informações sobre isso, consulte [Salvar conteúdo como um fragmento](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
 * Ao editar estilos, apenas as fontes da Web oficialmente suportadas pela maioria dos clientes de email estão disponíveis.
-* Os estilos não podem ser salvos como um tema para reutilização futura. No entanto, o estilo CSS pode ser salvo em um modelo de conteúdo ou em um e-mail. For more on styles, see [this section](../../designing/using/editing-email-styles.md).
+* Os estilos não podem ser salvos como um tema para reutilização futura. No entanto, o estilo CSS pode ser salvo em um modelo de conteúdo ou em um e-mail. Para obter mais informações sobre estilos, consulte [esta seção](../../designing/using/editing-email-styles.md).
 
-### Email Designer updates {#email-designer-updates}
+### Atualizações de email do Designer {#email-designer-updates}
 
 O Designer de email está em constante melhoria. Se você criou um conteúdo de email do zero, de um modelo predefinido ou se criou fragmentos, você receberá a seguinte mensagem de atualização na próxima vez que abrir seu conteúdo:
 
@@ -145,28 +145,30 @@ Quando chegar a fragmentos, observe o seguinte:
 
 * Se você tiver vários fragmentos, precisará atualizar cada fragmento que deseja usar em um conteúdo de email.
 
-* Para evitar o impacto nas mensagens de email atuais, já que alguns deles podem estar na fase de preparação ou em uma campanha específica na qual você não deseja alterar, você pode optar por não atualizar alguns fragmentos.
+* Para evitar o impacto nas mensagens de email atuais que ainda não estão preparadas, você pode optar por não atualizar alguns fragmentos.
 
 * Ainda é possível enviar emails onde um fragmento que não foi atualizado já está sendo usado, mas esse fragmento não é editável.
 
-## Designing an email content from scratch {#designing-an-email-content-from-scratch}
+* Atualizar fragmentos usados em emails que já estão preparados não afeta esses e-mails.
+
+## Criar um conteúdo de email do zero {#designing-an-email-content-from-scratch}
 
 Estas são as etapas principais para criar e desenvolver um conteúdo de email do zero usando o Designer de email:
 
 1. Crie um email e abra seu conteúdo.
-1. Adicione componentes de estrutura para formar o e-mail. See [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
-1. Insira componentes e fragmentos de conteúdo nos componentes da estrutura. See [Adding fragments and content components](../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components).
-1. Adicione imagens e edite o texto do email. See [Inserting images](../../designing/using/inserting-images.md).
-1. Personalize seu email adicionando campos de personalização, links etc. See [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md), [Inserting a link](../../designing/using/inserting-a-link.md) and [Defining dynamic content in an email](../../designing/using/defining-dynamic-content-in-an-email.md).
-1. Defina a linha de assunto do seu e-mail. See [Personalizing the subject line of an email](../../designing/using/personalizing-the-subject-line-of-an-email.md).
+1. Adicione componentes de estrutura para formar o e-mail. Consulte [Editando a estrutura de e-mail](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+1. Insira componentes e fragmentos de conteúdo nos componentes da estrutura. Consulte [Adicionar fragmentos e componentes de conteúdo](../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components).
+1. Adicione imagens e edite o texto do email. Consulte [Inserir imagens](../../designing/using/inserting-images.md).
+1. Personalize seu email adicionando campos de personalização, links etc. Consulte [Inserir um campo de personalização](../../designing/using/inserting-a-personalization-field.md), [Inserir um link](../../designing/using/inserting-a-link.md) e [Definir conteúdo dinâmico em um e-mail](../../designing/using/defining-dynamic-content-in-an-email.md).
+1. Defina a linha de assunto do seu e-mail. Consulte [Personalização da linha de assunto de um email](../../designing/using/personalizing-the-subject-line-of-an-email.md).
 1. Visualize seu e-mail.
 1. Salve o conteúdo e prossiga com a mensagem depois de certificar-se de que definiu um público-alvo e programe corretamente o envio.
 
-You can also check out this [introduction video](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=por_br).
+Você também pode marcar este [vídeo de introdução](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=por_br).
 
 >[!NOTE]
 >
->Para evitar o desenvolvimento de conteúdo de email do zero, você pode usar modelos de conteúdo prontos. For more on this, see [Content templates](../../start/using/about-templates.md#content-templates).
+>Para evitar o desenvolvimento de conteúdo de email do zero, você pode usar modelos de conteúdo prontos. Para saber mais sobre isso, consulte [Modelos de conteúdo](../../start/using/about-templates.md#content-templates).
 
 **Tópicos relacionados**:
 
@@ -177,11 +179,11 @@ You can also check out this [introduction video](https://video.tv.adobe.com/v/22
 * [Visualização de mensagens](../../sending/using/previewing-messages.md)
 * [Renderização por email](../../sending/using/email-rendering.md)
 
-## Designing an email using existing contents {#designing-an-email-using-existing-contents}
+## Criar um email usando conteúdos existentes {#designing-an-email-using-existing-contents}
 
 Esta seção explica como converter um email existente em um email compatível com o Designer do email.
 
-By default, if you just upload any HTML (see [Importing content from a file](../../designing/using/importing-content-from-a-file.md)), the content is loaded in '[compatibility mode](../../designing/using/about-email-content-design.md#email-designer-compatibility-mode)', which limits the edition possibilities through the UI (only in-place edition, no drag-and-drop).
+Por padrão, se você apenas fizer upload de qualquer HTML (consulte [Importar conteúdo de um arquivo](../../designing/using/importing-content-from-a-file.md)), o conteúdo será carregado no «[modo de compatibilidade](../../designing/using/about-email-content-design.md#email-designer-compatibility-mode)», o que limita a edição por meio da interface do usuário (apenas na edição no local, sem arrastar e soltar).
 
 No entanto, se você quiser criar uma estrutura de modelos modulares e fragmentos que possam ser combinados a serem reutilizados em vários emails, você deve considerar converter seu HTML de email em um modelo do Designer de email.
 
@@ -191,26 +193,26 @@ Ao projetar conteúdo com o Designer de email, você tem três opções:
 * [Usar fragmentos e componentes](../../designing/using/about-email-content-design.md#using-fragments-and-components), começar do zero e recriar um design HTML
 * [Converter um e-mail de conteúdo](../../designing/using/about-email-content-design.md#converting-an-html-content) HTML em um conteúdo de email modular do Designer
 
-### Building content from an out-of-the-box template {#building-content-from-an-out-of-the-box-template}
+### Criar conteúdo a partir de um modelo predefinido {#building-content-from-an-out-of-the-box-template}
 
-1. Crie um email e abra seu conteúdo. For more on this, see [Creating an email](../../channels/using/creating-an-email.md).
-1. Click the home icon to access the **[!UICONTROL Email Designer]** home page.
-1. Click the **[!UICONTROL Templates]** tab.
+1. Crie um email e abra seu conteúdo. Para saber mais sobre isso, consulte [Criar um e-mail](../../channels/using/creating-an-email.md).
+1. Clique no ícone inicial para acessar a **[!UICONTROL Email Designer]** página inicial.
+1. Clique na **[!UICONTROL Templates]** guia.
 1. Escolha um modelo HTML predefinido.
 
-   Os diferentes modelos apresentam diversas combinações de vários tipos de elementos. Por exemplo, os modelos «Difusão» têm margens enquanto os modelos «Astro» não têm essas margens. For more on this, see [Content templates](../../start/using/about-templates.md#content-templates).
+   Os diferentes modelos apresentam diversas combinações de vários tipos de elementos. Por exemplo, os modelos «Difusão» têm margens enquanto os modelos «Astro» não têm essas margens. Para saber mais sobre isso, consulte [Modelos de conteúdo](../../start/using/about-templates.md#content-templates).
 
-1. É possível combinar esses elementos para criar diversas variantes de e-mail. For example, you can duplicate an email section by selecting a structure component and clicking **[!UICONTROL Duplicate]** from the contextual toolbar.
-1. É possível mover os elementos por meio da seta azul à esquerda para arrastar um componente de estrutura abaixo ou acima de outro. For more on this, see [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
-1. Você também pode mover componentes para alterar a organização de cada elemento de estrutura. For more on this, see [Adding fragments and components](../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components).
+1. É possível combinar esses elementos para criar diversas variantes de e-mail. Por exemplo, é possível duplicar uma seção de email selecionando um componente de estrutura e clicando **[!UICONTROL Duplicate]** na barra de ferramentas contextual.
+1. É possível mover os elementos por meio da seta azul à esquerda para arrastar um componente de estrutura abaixo ou acima de outro. Para saber mais sobre isso, consulte [Editar a estrutura de email](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+1. Você também pode mover componentes para alterar a organização de cada elemento de estrutura. Para obter mais informações sobre isso, consulte [Adicionar fragmentos e componentes](../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components).
 1. Modifique o conteúdo de cada elemento de acordo com suas necessidades: imagens, texto, links.
-1. Adapte as opções de estilo ao seu conteúdo, se necessário. For more on this, see [Editing email styles](../../designing/using/editing-email-styles.md).
+1. Adapte as opções de estilo ao seu conteúdo, se necessário. Para saber mais sobre isso, consulte [Edição de estilos de email](../../designing/using/editing-email-styles.md).
 
-### Using fragments and components {#using-fragments-and-components}
+### Uso de fragmentos e componentes {#using-fragments-and-components}
 
 Para tornar um conteúdo externo compatível com o Designer de emails, a Adobe recomenda criar uma mensagem do zero e copiar o conteúdo do seu e-mail existente em fragmentos e componentes.
 
-When you have a content that cannot be recreated, you can copy-paste the HTML code from the original email using the **[!UICONTROL Html]** content component. Verifique se você está familiarizado com o HTML antes de prosseguir.
+Quando você tem um conteúdo que não pode ser recriado, é possível copiar o código HTML do email original usando o **[!UICONTROL Html]** componente de conteúdo. Verifique se você está familiarizado com o HTML antes de prosseguir.
 
 Um exemplo completo é apresentado abaixo.
 
@@ -234,7 +236,7 @@ Usando o Designer de emails, crie um fragmento para cada seção reutilizável. 
 
 Para fazer isso, siga as etapas abaixo:
 
-1. In Adobe Campaign, go to **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** and create a fragment for your header. For more on this, see [Creating a content fragment](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment).
+1. No Adobe Campaign, vá **[!UICONTROL Resources]** para &gt; **[!UICONTROL Content templates & fragments]** e crie um fragmento para o cabeçalho. Para saber mais sobre isso, consulte [Criar um fragmento do conteúdo](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment).
 1. Adicione quantos componentes de estrutura forem necessários ao seu fragmento.
 
    ![](assets/des_loading_compatible_fragment_1.png)
@@ -245,7 +247,7 @@ Para fazer isso, siga as etapas abaixo:
 
 1. Faça upload da imagem correspondente, digite o texto e ajuste as configurações.
 
-   For more on managing style settings and inline attributes, see [Editing email styles](../../designing/using/editing-email-styles.md).
+   Para obter mais informações sobre como gerenciar configurações de estilo e atributos em linha, consulte [Editar estilos de e-mail](../../designing/using/editing-email-styles.md).
 
    ![](assets/des_loading_compatible_fragment_3.png)
 
@@ -254,7 +256,7 @@ Para fazer isso, siga as etapas abaixo:
 
    ![](assets/des_loading_compatible_fragment_4.png)
 
-   If you are familiar with HTML, you can copy-paste the HTML code from the original footer using the **[!UICONTROL Html]** content component. For more on this, see [About content components](../../designing/using/defining-the-email-structure.md#about-content-components).
+   Se você estiver familiarizado com o HTML, copie o código HTML do rodapé original usando o componente **[!UICONTROL Html]** de conteúdo. Para saber mais sobre isso, consulte [Sobre componentes de conteúdo](../../designing/using/defining-the-email-structure.md#about-content-components).
 
    ![](assets/des_loading_compatible_fragment_9.png)
 
@@ -264,23 +266,23 @@ Seus fragmentos estão prontos para serem usados em um modelo.
 
 Agora você pode criar um modelo de email com o Designer de email. Use os componentes do conteúdo para refletir as diferentes seções do seu email e ajuste as configurações para torná-las o mais próximo possível do boletim original. Por fim, insira os fragmentos que você acabou de criar.
 
-1. Usando o Designer de emails, crie um modelo. For more on this, see [Content templates](../../start/using/about-templates.md#content-templates).
-1. Insira vários componentes de estrutura no modelo - correspondendo ao cabeçalho, rodapé e ao corpo do seu e-mail. For more on adding structure components, see [Editing the email structure with the Email Designer](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+1. Usando o Designer de emails, crie um modelo. Para saber mais sobre isso, consulte [Modelos de conteúdo](../../start/using/about-templates.md#content-templates).
+1. Insira vários componentes de estrutura no modelo - correspondendo ao cabeçalho, rodapé e ao corpo do seu e-mail. Para obter mais informações sobre como adicionar componentes de estrutura, consulte [Editar a estrutura de e-mail com o Designer de e-mail](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
 1. Insira quantos componentes de conteúdo forem necessários para criar o corpo do seu boletim informativo. Esse será o conteúdo editável do seu email que será atualizado todos os meses.
 
    ![](assets/des_loading_compatible_fragment_5.png)
 
-   If you are familiar with HTML code, Adobe recommends leveraging **[!UICONTROL Html]** components where you can copy-paste the more complex elements of the original email. Use other components such as **[!UICONTROL Button]**, **[!UICONTROL Image]** or **[!UICONTROL Text]** for the rest of the content. For more on this, see [About content components](../../designing/using/defining-the-email-structure.md#about-content-components).
+   Se você estiver familiarizado com o código HTML, a Adobe recomenda alavancar **[!UICONTROL Html]** os componentes, onde você pode copiar os elementos mais complexos do email original. Use outros componentes, como **[!UICONTROL Button]** ou **[!UICONTROL Image]****[!UICONTROL Text]** para o resto do conteúdo. Para saber mais sobre isso, consulte [Sobre componentes de conteúdo](../../designing/using/defining-the-email-structure.md#about-content-components).
 
    >[!NOTE]
    >
-   >Using the **[!UICONTROL Html]** component results in creating components that are editable with limited options. Certifique-se de saber como lidar com o código HTML antes de selecionar este componente.
+   >O uso do **[!UICONTROL Html]** componente resulta em criar componentes editáveis com opções limitadas. Certifique-se de saber como lidar com o código HTML antes de selecionar este componente.
 
 1. Ajuste os componentes de conteúdo para que correspondam ao seu email original o quanto você puder.
 
    ![](assets/des_loading_compatible_fragment_6.png)
 
-   For more on managing style settings and inline attributes, see [Editing email styles](../../designing/using/editing-email-styles.md).
+   Para obter mais informações sobre como gerenciar configurações de estilo e atributos em linha, consulte [Editar estilos de e-mail](../../designing/using/editing-email-styles.md).
 
 1. Insira os dois fragmentos (cabeçalho e rodapé) criados anteriormente na estrutura desejada.
 
@@ -298,7 +300,7 @@ Para usá-lo, crie um email e selecione o modelo de conteúdo que você acabou d
 * [Vídeo de introdução ao email do Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=por_br)
 * [Criar um conteúdo de email do zero](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)
 
-### Converting an HTML content {#converting-an-html-content}
+### Conversão de um conteúdo HTML {#converting-an-html-content}
 
 Esse caso de uso oferece uma maneira rápida de converter um email HTML em componentes de Email do Designer.
 
@@ -337,11 +339,11 @@ Se esse não for o caso, recorte os diferentes blocos de seu HTML. Por exemplo:
 Depois de identificar todos os seus blocos, no Designer de emails, repita o procedimento a seguir para cada seção de seu e-mail existente:
 
 1. Abra o Designer de email para criar um conteúdo de email vazio.
-1. Defina os atributos de nível de corpo: cores de plano de fundo, largura etc. For more on this, see [Editing email styles](../../designing/using/editing-email-styles.md).
-1. Adicione um componente de estrutura. For more on this, see [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
-1. Adicionar um componente HTML. For more on this, see [Adding fragments and components](../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components).
+1. Defina os atributos de nível de corpo: cores de plano de fundo, largura etc. Para saber mais sobre isso, consulte [Edição de estilos de email](../../designing/using/editing-email-styles.md).
+1. Adicione um componente de estrutura. Para saber mais sobre isso, consulte [Editar a estrutura de email](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+1. Adicionar um componente HTML. Para obter mais informações sobre isso, consulte [Adicionar fragmentos e componentes](../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components).
 1. Copie o HTML para este componente.
-1. Alternar para visualização móvel. For more on this, see [this section](../../designing/using/about-email-content-design.md#switching-to-mobile-view).
+1. Alternar para visualização móvel. Para saber mais sobre isso, consulte [esta seção](../../designing/using/about-email-content-design.md#switching-to-mobile-view).
 
    A exibição responsiva é interrompida, pois o CSS está ausente.
 
@@ -358,18 +360,18 @@ Depois de identificar todos os seus blocos, no Designer de emails, repita o proc
 
    >[!NOTE]
    >
-   >Do not modify the CSS generated by the Email Designer: `<style acrite-template-css="true">` and `<style acrite-custom-styles="" type="text/css">`. Certifique-se de adicionar seu estilo depois disso.
+   >Não modifique o CSS gerado pelo E-mail do Designer: `<style acrite-template-css="true">` e `<style acrite-custom-styles="" type="text/css">`. Certifique-se de adicionar seu estilo depois disso.
 
 1. Volte para a exibição móvel para verificar se o conteúdo é exibido corretamente e salve suas alterações.
 
-## Switching to mobile view {#switching-to-mobile-view}
+## Alternando para a exibição móvel {#switching-to-mobile-view}
 
 Você pode ajustar o design responsivo de um email editando separadamente todas as opções de estilo para exibição móvel. Por exemplo, você pode adaptar margens e preenchimento, usar tamanhos de fonte menores ou maiores, alterar botões ou aplicar cores de plano de fundo diferentes que serão específicas para a versão móvel do seu e-mail.
 
-Todas as opções de estilo estão disponíveis na exibição móvel. The Email Designer style settings are presented in the [Editing email styles](../../designing/using/editing-email-styles.md) section.
+Todas as opções de estilo estão disponíveis na exibição móvel. As configurações de estilo de Email do Designer são apresentadas na seção [Editar estilos de e-mail](../../designing/using/editing-email-styles.md) .
 
-1. Crie um email e comece a editar o conteúdo. For more on this, see [Designing an email content from scratch](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
-1. To access the dedicated mobile view, select the **[!UICONTROL Switch to mobile view]** button.
+1. Crie um email e comece a editar o conteúdo. Para saber mais sobre isso, consulte [Criar um conteúdo de email do zero](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
+1. Para acessar a exibição móvel dedicada, selecione o **[!UICONTROL Switch to mobile view]** botão.
 
    ![](assets/email_designer_mobile_view_switch.png)
 
@@ -385,20 +387,20 @@ Todas as opções de estilo estão disponíveis na exibição móvel. The Email 
 
    ![](assets/email_designer_mobile_view_change.png)
 
-1. É possível ocultar um componente quando exibido em um dispositivo móvel. To do this, select **[!UICONTROL Show only on desktop devices]** from the **[!UICONTROL Display options]**.
-Você também pode ocultar esse componente em dispositivos de desktop, o que significa que ela será exibida apenas em dispositivos móveis. To do this, select **[!UICONTROL Show only on mobile devices]**.
+1. É possível ocultar um componente quando exibido em um dispositivo móvel. Para fazer isso, selecione **[!UICONTROL Show only on desktop devices]** a partir **[!UICONTROL Display options]**do.
+Você também pode ocultar esse componente em dispositivos de desktop, o que significa que ela será exibida apenas em dispositivos móveis. Para fazer isso, selecione **[!UICONTROL Show only on mobile devices]**.
 Por exemplo, essa opção permite exibir uma imagem específica em dispositivos móveis e outra imagem em dispositivos de desktop.
 Você pode definir essa opção da exibição para dispositivos móveis ou para desktop.
 
    ![](assets/email_designer_mobile_hide.png)
 
-1. Click again the **[!UICONTROL Switch to mobile view]** button to go back to the standard desktop view. As alterações de estilo que você acabou de fazer não são refletidas.
+1. Clique novamente no **[!UICONTROL Switch to mobile view]** botão para voltar para a exibição padrão de desktop. As alterações de estilo que você acabou de fazer não são refletidas.
 
    ![](assets/email_designer_mobile_view_desktop_no-change.png)
 
    >[!NOTE]
    >
-   >The only exception is the **[!UICONTROL Style inline]** settings. Qualquer alteração de configuração de linha em linha também é aplicada à exibição padrão de desktop.
+   >A única exceção é as **[!UICONTROL Style inline]** configurações. Qualquer alteração de configuração de linha em linha também é aplicada à exibição padrão de desktop.
 
 1. Qualquer outra alteração na estrutura ou no conteúdo do email, como edições de texto, upload de uma nova imagem, adição de um novo componente etc. também é aplicado à exibição padrão.
 
@@ -406,7 +408,7 @@ Você pode definir essa opção da exibição para dispositivos móveis ou para 
 
    ![](assets/email_designer_mobile_view_change_content.png)
 
-   Click again the **[!UICONTROL Switch to mobile view]** button to go back to the standard desktop view. As alterações são refletidas.
+   Clique novamente no **[!UICONTROL Switch to mobile view]** botão para voltar para a exibição padrão de desktop. As alterações são refletidas.
 
    ![](assets/email_designer_mobile_view_desktop_content-change.png)
 
@@ -420,19 +422,19 @@ Você pode definir essa opção da exibição para dispositivos móveis ou para 
 
    ![](assets/email_designer_mobile_view_background_desktop.png)
 
-1. Switch again to mobile view, and now disable the **[!UICONTROL Background color]** setting.
+1. Alterne novamente para a exibição móvel e desative a **[!UICONTROL Background color]** configuração.
 
    ![](assets/email_designer_mobile_view_background_mobile_disabled.png)
 
    A cor de fundo definida na exibição da área de trabalho agora é aplicada: torna-se cinza (não em branco).
 
-   The only exception is the **[!UICONTROL Border color]** setting. Quando desativado na exibição móvel, nenhuma borda é aplicada, mesmo se uma cor da borda estiver definida na exibição da área de trabalho.
+   A única exceção é **[!UICONTROL Border color]** a configuração. Quando desativado na exibição móvel, nenhuma borda é aplicada, mesmo se uma cor da borda estiver definida na exibição da área de trabalho.
 
-## Plain text and HTML modes {#plain-text-and-html-modes}
+## Texto simples e modos HTML {#plain-text-and-html-modes}
 
-### Generating a text version of the email {#generating-a-text-version-of-the-email}
+### Geração de uma versão de texto do email {#generating-a-text-version-of-the-email}
 
-By default, the **[!UICONTROL Plain text]** version of your email is automatically generated and synchronized with the **[!UICONTROL Edit]** version.
+Por padrão, **[!UICONTROL Plain text]** a versão do seu e-mail é gerada e sincronizada automaticamente com a **[!UICONTROL Edit]** versão.
 
 Os campos de personalização e os blocos de conteúdo adicionados à versão HTML também são sincronizados com a versão de texto simples.
 
@@ -440,7 +442,7 @@ Os campos de personalização e os blocos de conteúdo adicionados à versão HT
 >
 >Para usar blocos de conteúdo na versão de texto simples, verifique se eles não contêm código HTML.
 
-To have a plain text version different from the HTML version, you can disable this synchronization by clicking the **[!UICONTROL Sync with HTML]** switch from the **[!UICONTROL Plain text]** view of your email.
+Para ter uma versão de texto simples diferente da versão HTML, desative essa sincronização clicando na **[!UICONTROL Sync with HTML]** alternância **[!UICONTROL Plain text]** do seu e-mail.
 
 ![](assets/email_designer_textversion.png)
 
@@ -448,29 +450,29 @@ Em seguida, você pode editar a versão de texto simples, conforme desejado.
 
 >[!NOTE]
 >
->If you edit the **[!UICONTROL Plain text]** version while synchronization is disabled, the next time you enable the **[!UICONTROL Sync with HTML]** option, all the changes you made in the plain text version will be replaced with the HTML version. The changes made in **[!UICONTROL Plain text]** view cannot be reflected in **[!UICONTROL HTML]** view.
+>Se você editar **[!UICONTROL Plain text]** a versão enquanto a sincronização estiver desativada, na próxima vez que ativar a **[!UICONTROL Sync with HTML]** opção, todas as alterações efetuadas na versão de texto sem formatação serão substituídas pela versão HTML. As alterações feitas na **[!UICONTROL Plain text]** visualização não podem ser refletidas na **[!UICONTROL HTML]** visualização.
 
-### Editing an email content source in HTML {#editing-an-email-content-source-in-html}
+### Editar uma fonte de conteúdo de email em HTML {#editing-an-email-content-source-in-html}
 
 Para os usuários mais avançados e a depuração, você pode visualizar e editar o conteúdo de email diretamente em HTML.
 
 Há duas maneiras de editar a versão HTML do email:
 
-* Select **[!UICONTROL Edit]** &gt; **[!UICONTROL HTML]** to open the HTML version of the entire email.
+* Selecione **[!UICONTROL Edit]** &gt; **[!UICONTROL HTML]** para abrir a versão HTML do email inteiro.
 
    ![](assets/email_designer_html1.png)
 
-* From the WYSIWYG interface, select an element and click the **[!UICONTROL Source code]** icon.
+* Na interface WYSIWYG, selecione um elemento e clique no **[!UICONTROL Source code]** ícone.
 
-   Apenas a fonte do elemento selecionado é exibida. You can edit the source code if the selected element is a **[!UICONTROL HTML]** content component. Outros componentes estão no modo somente leitura, mas ainda podem ser editados na versão HTML completa do email.
+   Apenas a fonte do elemento selecionado é exibida. É possível editar o código-fonte se o elemento selecionado for um **[!UICONTROL HTML]** componente de conteúdo. Outros componentes estão no modo somente leitura, mas ainda podem ser editados na versão HTML completa do email.
 
    ![](assets/email_designer_html2.png)
 
-Se você modificar o HTML do código, a capacidade de resposta do email poderá ser interrompida. Make sure to test it using the **[!UICONTROL Preview]** button. See [Previewing messages](../../sending/using/previewing-messages.md).
+Se você modificar o HTML do código, a capacidade de resposta do email poderá ser interrompida. Certifique-se de testá-lo usando o **[!UICONTROL Preview]** botão. Consulte [Visualizar mensagens](../../sending/using/previewing-messages.md).
 
-## Design through Adobe Campaign integrations {#design-through-adobe-campaign-integrations}
+## Design por meio de integrações do Adobe Campaign {#design-through-adobe-campaign-integrations}
 
-### Editing content in Dreamweaver {#editing-content-in-dreamweaver}
+### Edição de conteúdo no Dreamweaver {#editing-content-in-dreamweaver}
 
 A integração do Adobe Campaign Standard com o Dreamweaver permite editar o conteúdo de um email na interface do Dreamweaver. Você tem acesso à interface avançada do Dreamweaver para projetar e desenvolver conteúdo de email responsivo.
 
@@ -484,15 +486,15 @@ A integração do Adobe Campaign Standard com o Dreamweaver permite editar o con
 
 * **Adicionar personalização de campanha no Dreamweaver**
 
-   For the email developer there is no longer a need to add text like ```[[FIRSTNAME_PLACEHOLDER]]``` nor to look up the syntax of your data model’s tables. A barra de ferramentas Campanha no Dreamweaver se conecta diretamente ao modelo de dados da sua instância Campanha. Isso significa que você pode obter qualquer dado que desejar para personalização de algo como o Primeiro nome como Endereço. Se você tiver criado Blocos de conteúdo dentro da campanha, também poderá puxá-los diretamente para o Dreamweaver.
+   Para o desenvolvedor de e-mail não há mais a necessidade de adicionar texto, como ```[[FIRSTNAME_PLACEHOLDER]]``` a sintaxe das tabelas de modelo de dados. A barra de ferramentas Campanha no Dreamweaver se conecta diretamente ao modelo de dados da sua instância Campanha. Isso significa que você pode obter qualquer dado que desejar para personalização de algo como o Primeiro nome como Endereço. Se você tiver criado Blocos de conteúdo dentro da campanha, também poderá puxá-los diretamente para o Dreamweaver.
 
-This capability is detailed in the Dreamweaver Documentation accessible [here](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html). A demonstration [video](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) is also available.
+Este recurso é detalhado na Documentação do Dreamweaver acessível [aqui](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html). Um vídeo de demonstração [também](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) está disponível.
 
-### Editing content in Experience Manager {#editing-content-in-experience-manager}
+### Edição de conteúdo no Experience Manager {#editing-content-in-experience-manager}
 
-O conteúdo de email pode ser editado no Experience Manager e, em seguida, usado para uma ou várias mensagens de email no Adobe Campaign Standard. Refer to [this document](../../integrating/using/integrating-with-experience-manager.md).
+O conteúdo de email pode ser editado no Experience Manager e, em seguida, usado para uma ou várias mensagens de email no Adobe Campaign Standard. Consulte [este documento](../../integrating/using/integrating-with-experience-manager.md).
 
-### Email design options comparison {#email-design-options-comparison}
+### Comparação de opções de design de email {#email-design-options-comparison}
 
 O Adobe Campaign oferece várias opções de criação de email. A tabela abaixo mostra as principais possibilidades, benefícios e limitações para cada um deles.
 
@@ -500,7 +502,7 @@ O Adobe Campaign oferece várias opções de criação de email. A tabela abaixo
  <thead> 
   <tr> 
    <th> </th> 
-   <th> Email Designer<br /> </th> 
+   <th> Designer de emails<br /> </th> 
    <th> Experience Manager<br /> </th> 
    <th> Dreamweaver<br /> </th> 
   </tr> 
@@ -508,87 +510,87 @@ O Adobe Campaign oferece várias opções de criação de email. A tabela abaixo
  <tbody> 
   <tr> 
    <td> <strong>Iniciar e-mail em branco</strong><br /> </td> 
-   <td> Supported<br /> </td> 
-   <td> Supported<br /> </td> 
-   <td> Supported<br /> </td> 
+   <td> Suportado<br /> </td> 
+   <td> Suportado<br /> </td> 
+   <td> Suportado<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Escrever HTML</strong><br /> </td> 
-   <td> Supported<br /> </td> 
-   <td> Not supported<br /> </td> 
-   <td> Supported<br /> </td> 
+   <td> Suportado<br /> </td> 
+   <td> Não suportado<br /> </td> 
+   <td> Suportado<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Atualizar HTML</strong><br /> </td> 
-   <td> Only inside an HTML component<br /> </td> 
-   <td> Not supported<br /> </td> 
-   <td> Supported<br /> </td> 
+   <td> Somente dentro de um componente HTML<br /> </td> 
+   <td> Não suportado<br /> </td> 
+   <td> Suportado<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Personalização básica</strong><br /> </td> 
-   <td> Supported<br /> </td> 
-   <td> Supported<br /> </td> 
-   <td> Supported<br /> </td> 
+   <td> Suportado<br /> </td> 
+   <td> Suportado<br /> </td> 
+   <td> Suportado<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Personalização avançada</strong><br /> </td> 
-   <td> Supported<br /> </td> 
-   <td> Not supported<br /> </td> 
-   <td> Not supported<br /> </td> 
+   <td> Suportado<br /> </td> 
+   <td> Não suportado<br /> </td> 
+   <td> Não suportado<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Prova/visualização</strong><br /> </td> 
-   <td> Supported<br /> </td> 
-   <td> Preview in AEM<br /> Proof in Campaign<br /> </td> 
-   <td> Preview and proof in Campaign<br /> </td> 
+   <td> Suportado<br /> </td> 
+   <td> Visualização na<br /> prova do AEM na campanha<br /> </td> 
+   <td> Visualizar e provar no Campaign<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Listagens de produto</strong><br /> </td> 
-   <td> Supported in email transactional messages<br /> </td> 
-   <td> Not supported<br /> </td> 
-   <td> Not supported<br /> </td> 
+   <td> Suportado nas mensagens transacionais por email<br /> </td> 
+   <td> Não suportado<br /> </td> 
+   <td> Não suportado<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Benefícios</strong><br /> </td> 
    <td> 
-     - Easy email building through drag-and-drop experience<br/>
-     - Functionalities similar to legacy content editor<br/>
-     - Reusable content with fragments
+     - Fácil criação de email por meio da experiência
+ de arrastar e soltar<br/>- Funcionalidades semelhantes ao editor
+ de conteúdo herdado<br/>- Conteúdo reutilizável com fragmentos
   </td> 
    <td> 
-     - Reusing assets from website in emails<br/>
-     - Leveraging the power of Experience Manager in email contents
+     - Reutilizando ativos do site em emails<br/>
+ - Aproveitando a potência do Experience Manager no conteúdo de email
     </td> 
    <td> 
-    - Capability for a developer to directly code an email<br/>
-    - Bi-directional synchronization<br/>
-    - Editing offline in Dreamweaver and synchronizing later<br/>
-    - Uploading images to Adobe Campaign through Dreamweaver
+    - Recurso para um desenvolvedor codificar diretamente um e-mail<br/>
+ - sincronização
+ bi-direcional<br/>- Edição off-line no Dreamweaver e sincronizar mais tarde<br/>
+ - Carregar imagens no Adobe Campaign por meio do Dreamweaver
   </td> 
   </tr> 
   <tr> 
    <td> <strong>Limitações</strong><br /> </td> 
    <td> 
-     - No conditional content within fragments<br/>
-     - Using Experience Manager fragments not possible
+     - Nenhum conteúdo condicional em fragmentos<br/>
+ - Não é possível usar fragmentos do Experience Manager
   </td> 
    <td> 
-     - Advanced personalization difficult to implement<br/>
-     - Need to send tests in Adobe Campaign
+     - Personalização avançada difícil de implementar<br/>
+ - Precisa enviar testes no Adobe Campaign
   </td> 
-   <td> Dynamic content not supported<br /> </td> 
+   <td> Conteúdo dinâmico não suportado<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Público-alvo</strong><br /> </td> 
-   <td> Marketers who want to keep the flexibility to use HTML components in combination with drag-and-drop features<br /> </td> 
-   <td> Marketers already using Experience Manager who want to use standard email templates with little personalization<br /> </td> 
-   <td> Developers who want to code email contents and integrate directly with Adobe Campaign<br /> </td> 
+   <td> Comerciantes que desejam manter a flexibilidade para usar componentes HTML em combinação com recursos de arrastar e soltar<br /> </td> 
+   <td> Comerciantes que já usam o Experience Manager que desejam usar modelos de e-mail padrão com pouca personalização<br /> </td> 
+   <td> Desenvolvedores que desejam codificar conteúdo de email e se integrar diretamente com o Adobe Campaign<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Para saber mais</strong><br /> </td> 
-   <td> See <a href="../../designing/using/about-email-content-design.md#about-the-email-designer">About the Email Designer</a><br /> </td> 
-   <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a><br /> </td> 
-   <td> See <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver and Campaign</a> and watch this <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">video</a><br /> </td> 
+   <td> Consulte <a href="../../designing/using/about-email-content-design.md#about-the-email-designer">Sobre o Designer de email</a><br /> </td> 
+   <td> Consulte <a href="../../integrating/using/integrating-with-experience-manager.md">Integração com o Experience Manager</a><br /> </td> 
+   <td> Consulte <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver e Campaign</a> e assista a este <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">vídeo</a><br /> </td> 
   </tr> 
  </tbody> 
 </table>
