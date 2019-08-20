@@ -14,76 +14,76 @@ discoiquuid: a 967 c 6 cc-c 53 b -41 b 4-866 b -90860 d 78 f 463
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 60365021e10d3d0e3197f57c6e410af3b8ec0c1d
+source-git-commit: d857bee3e7cb54ec179a73d9c256a14771cbd474
 
 ---
 
 
-# Configuring Campaign-Points of Interest data integration{#configuring-campaign-points-of-interest-data-integration}
+# Configuração da integração de dados de Pontos de interesse de campanha{#configuring-campaign-points-of-interest-data-integration}
 
-## Configuring Campaign-Points of Interest data integration with Adobe Experience Platform SDKs {#configuring-campaign-poi-aep-sdk}
+## Configuração da integração de dados de pontos de interesse de campanha com os sdks da Adobe Experience Platform {#configuring-campaign-poi-aep-sdk}
 
 >[!NOTE]
 >
->Seu aplicativo móvel já deve estar configurado no Adobe Campaign Standard usando o SDK da Adobe Experience Platform. For the detailed steps, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+>Seu aplicativo móvel já deve estar configurado no Adobe Campaign Standard usando o SDK da Adobe Experience Platform. Para obter as etapas detalhadas, consulte esta [página](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
-The mobile applications used to collect location data must be configured by an **administrator** in the Adobe Campaign interface.
+Os aplicativos móveis usados para coletar dados de localização devem ser configurados por um **administrador** na interface do Adobe Campaign.
 
 Para poder usar os Serviços de localização da Adobe Experience Platform com aplicativos móveis configurados com o SDK da Adobe Experience Platform, é necessário:
 
-1. Add the **[!UICONTROL Places]** and **[!UICONTROL Places Monitor]** extensions to your mobile app configuration in Adobe Experience Platform Launch. Configure seu aplicativo móvel no Adobe Campaign. See [Install the Places extension in Adobe Experience Platform Launch](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension#install-the-places-extension-in-adobe-experience-platform-launch) and [Install the Places Monitor extension in Experience Platform Launch](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-monitor-extension/using-the-places-monitor-extension).
+1. Adicione as **[!UICONTROL Places]****[!UICONTROL Places Monitor]** extensões à configuração do aplicativo móvel na Adobe Experience Platform Launch. Configure seu aplicativo móvel no Adobe Campaign. Consulte [Instalar a extensão Locais na Adobe Experience Platform Launch](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension#install-the-places-extension-in-adobe-experience-platform-launch) e [Instalar a extensão do Monitor de locais na Experience Platform Launch](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-monitor-extension/using-the-places-monitor-extension).
 
-1. Once your extensions are set up, create data elements within **[!UICONTROL Adobe Experience Platform Launch]** to retrieve data from these extensions. Refer to this [page](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) to create your data elements.
+1. Depois de configurar suas extensões, crie elementos de dados dentro **[!UICONTROL Adobe Experience Platform Launch]** para recuperar dados dessas extensões. Consulte esta [página](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) para criar seus elementos de dados.
 
-1. Then, in **[!UICONTROL Adobe Experience Platform Launch]**, you need to create rules to support mobile use cases between Point of Interests and Adobe Campaign.\
-   This rule will be triggered when a user enters a geo-fenced **[!UICONTROL Point of Interest]**. Refer to this [page](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) to create your rule.
+1. Em **[!UICONTROL Adobe Experience Platform Launch]** seguida, você precisa criar regras para suportar casos de uso móvel entre Ponto de interesse e Adobe Campaign.\
+   Essa regra será acionada quando um usuário digitar uma localização geográfica **[!UICONTROL Point of Interest]**. Consulte esta [página](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) para criar sua regra.
 
-1. Define your **[!UICONTROL Points of Interest]** in Places. See [Create a Point of Interest](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi).
+1. Defina seu **[!UICONTROL Points of Interest]** em Locais. Consulte [Criar um ponto de interesse](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi).
 
-1. Certifique-se de acessar o aplicativo móvel e os dados de localização coletados no Adobe Campaign. See [Accessing mobile apps used to collect location data](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-mobile-apps-used-to-collect-location-data) and [Accessing collected location data](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-collected-location-data).
+1. Certifique-se de acessar o aplicativo móvel e os dados de localização coletados no Adobe Campaign. Consulte [Acessar aplicativos móveis usados para coletar dados de localização](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-mobile-apps-used-to-collect-location-data) e [Acessar os dados de localização coletados](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-collected-location-data).
 
-## Configuring Campaign-Points of Interest data integration using SDK V4 {#configuring-campaign-poi-sdkv4}
+## Configuração da integração de dados de Pontos de interesse de campanha usando o SDK V 4 {#configuring-campaign-poi-sdkv4}
 
-The mobile applications used to collect location data must be configured by an **administrator** in the Adobe Campaign interface.
+Os aplicativos móveis usados para coletar dados de localização devem ser configurados por um **administrador** na interface do Adobe Campaign.
 
 Para usar o recurso de dados do Ponto de interesse com aplicativos móveis configurados com o SDK V 4, é necessário:
 
 1. Tenha acesso ao Adobe Analytics para dispositivos móveis. Verifique seu contrato de licença ou entre em contato com seu executivo de contas da Adobe para obter mais informações.
-1. Configure seu aplicativo móvel no Adobe Campaign. See [Setting up a mobile app in Campaign](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign).
-1. Configure seu aplicativo móvel na interface do Adobe Mobile Services. Isso permite garantir que os dados coletados pelo Adobe Mobile Services sejam enviados para o Adobe Campaign. See [Configuring a mobile app in Adobe Mobile Services](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#configuring-a-mobile-app-in-adobe-mobile-services).
+1. Configure seu aplicativo móvel no Adobe Campaign. Consulte [Configuração de um aplicativo para dispositivos móveis no Campaign](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign).
+1. Configure seu aplicativo móvel na interface do Adobe Mobile Services. Isso permite garantir que os dados coletados pelo Adobe Mobile Services sejam enviados para o Adobe Campaign. Consulte [Configuração de um aplicativo para dispositivos móveis no Adobe Mobile Services](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#configuring-a-mobile-app-in-adobe-mobile-services).
 1. Realize a configuração específica do aplicativo móvel:
 
    * Empacote o arquivo de configuração baixado da interface do Adobe Mobile Services com o aplicativo móvel.
-   * Integre o SDK da Experience Cloud Mobile ao seu aplicativo móvel. See [Integrating the SDK into a mobile application](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#integrating-the-sdk-into-a-mobile-application).
+   * Integre o SDK da Experience Cloud Mobile ao seu aplicativo móvel. Consulte [Integração do SDK em um aplicativo móvel](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#integrating-the-sdk-into-a-mobile-application).
 
-1. Defina Pontos de interesse na interface do Adobe Mobile Services. See [Defining Points of Interest in Adobe Mobile Services](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#defining-points-of-interest-in-adobe-mobile-services).
-1. Defina os dados que deseja coletar pelos assinantes do aplicativo móvel. See [Collecting subscribers' Points of interest data](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#collecting-subscribers--points-of-interest-data).
-1. Certifique-se de acessar o aplicativo móvel e os dados de localização coletados no Adobe Campaign. See [Accessing mobile apps used to collect location data](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-mobile-apps-used-to-collect-location-data) and [Accessing collected location data](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-collected-location-data).
+1. Defina Pontos de interesse na interface do Adobe Mobile Services. Consulte [Definição de pontos de interesse no Adobe Mobile Services](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#defining-points-of-interest-in-adobe-mobile-services).
+1. Defina os dados que deseja coletar pelos assinantes do aplicativo móvel. Consulte [Coleta dos dados de interesse dos assinantes](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#collecting-subscribers--points-of-interest-data).
+1. Certifique-se de acessar o aplicativo móvel e os dados de localização coletados no Adobe Campaign. Consulte [Acessar aplicativos móveis usados para coletar dados de localização](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-mobile-apps-used-to-collect-location-data) e [Acessar os dados de localização coletados](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-collected-location-data).
 
-### Setting up a mobile app in Adobe Campaign using SDK V4 {#setting-up-a-mobile-app-in-campaign}
+### Configuração de um aplicativo para dispositivos móveis no Adobe Campaign usando o SDK V 4 {#setting-up-a-mobile-app-in-campaign}
 
 Para poder coletar dados de Pontos de interesse com o Adobe Campaign, configure o aplicativo móvel do qual o Adobe Campaign receberá dados.
 
-1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Mobile app]**.
-1. Click **[!UICONTROL Create]** to set up an application.
-1. Enter a name in the **[!UICONTROL Application name]** field and click **[!UICONTROL Create]**.
+1. Clique no **[!UICONTROL Adobe Campaign]** logotipo, no canto superior esquerdo e selecione **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Mobile app]**.
+1. Clique **[!UICONTROL Create]** em para configurar um aplicativo.
+1. Digite um nome no **[!UICONTROL Application name]** campo e clique **[!UICONTROL Create]** em.
 
-   Do not fill in the **[!UICONTROL Device-specific settings]** section. Isso se aplica somente à configuração de aplicativos que recebem notificações por push.
+   Não preencha a **[!UICONTROL Device-specific settings]** seção. Isso se aplica somente à configuração de aplicativos que recebem notificações por push.
 
-In the **[!UICONTROL Mobile application properties]** section, two URLs are listed: **[!UICONTROL Collect PII endpoint]** and **[!UICONTROL Location Services endpoint]**. Eles serão usados na interface do Adobe Mobile Services. See [Configuring a mobile app in Adobe Mobile Services](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#configuring-a-mobile-app-in-adobe-mobile-services).
+Na **[!UICONTROL Mobile application properties]** seção, dois urls estão listados: **[!UICONTROL Collect PII endpoint]** e **[!UICONTROL Location Services endpoint]**. Eles serão usados na interface do Adobe Mobile Services. Consulte [Configuração de um aplicativo para dispositivos móveis no Adobe Mobile Services](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#configuring-a-mobile-app-in-adobe-mobile-services).
 
 * **[!UICONTROL Collect PII endpoint]** O URL é usado para coletar as IDs da Experience Cloud de usuários e tokens de registro do aplicativo móvel quando ele é iniciado. Quando um usuário entra no aplicativo usando credenciais como email, nome, sobrenome etc., esses dados também são coletados e usados para reconciliar o token de registro do usuário com um perfil do Adobe Campaign.
-* The **[!UICONTROL Location Services endpoint]** URL is used to collect location data such as a user's latitude, longitude and radius from a Point of Interest.
+* O **[!UICONTROL Location Services endpoint]** URL é usado para coletar dados de localização, como latitude, longitude e raio do usuário a partir de um Ponto de interesse.
 
-You can now use these values in Adobe Mobile Services to finish the configuration, as explained in the [Configuring a mobile app in Adobe Mobile Services](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#configuring-a-mobile-app-in-adobe-mobile-services) section.
+Agora é possível usar esses valores no Adobe Mobile Services para concluir a configuração, como explicado na seção [Configurar um aplicativo móvel na seção Adobe](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#configuring-a-mobile-app-in-adobe-mobile-services) Mobile Services.
 
 ![](assets/poi_mobile_app_properties.png)
 
-### Configuring a V4 mobile app in Adobe Mobile Services {#configuring-a-mobile-app-in-adobe-mobile-services}
+### Configuração de um aplicativo para dispositivos móveis V 4 no Adobe Mobile Services {#configuring-a-mobile-app-in-adobe-mobile-services}
 
 Para enviar os dados coletados pelo Adobe Mobile Services para o Adobe Campaign, você deve configurar postbacks na interface do Mobile Services.
 
-You will need specific information that you can find in the mobile application parameters set in Adobe Campaign (see [Setting up a mobile app in Campaign](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign)):
+Você precisará de informações específicas que podem ser encontradas nos parâmetros de aplicativos móveis definidos no Adobe Campaign (consulte [Configuração de um aplicativo móvel no Campaign](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign)):
 
 * **[!UICONTROL IMS Organization ID]**
 * **[!UICONTROL Collect PII Endpoint]**
@@ -91,10 +91,10 @@ You will need specific information that you can find in the mobile application p
 
 Você deve ter acesso ao Adobe Analytics para fazer a seguinte configuração. Se você não for um usuário do Adobe Analytics, entre em contato com o administrador do Adobe Campaign.
 
-1. Log into [mobilemarketing.adobe.com](http://mobilemarketing.adobe.com/).
+1. Faça logon em [mobilemarketing.adobe.com](http://mobilemarketing.adobe.com/).
 1. Crie o aplicativo ou selecione uma existente.
-1. Go to the **[!UICONTROL Manage App Settings]** page.
-1. In the **Visitor ID Service ** section, check **Enable** and select your organization from the drop-down list. Click **Save**.
+1. Vá para **[!UICONTROL Manage App Settings]** a página.
+1. Na **seção Serviço** de ID de visitante, marque **Ativar** e selecione a organização na lista suspensa. Clique **em Salvar**.
 
    >[!CAUTION]
    >
@@ -103,9 +103,9 @@ Você deve ter acesso ao Adobe Analytics para fazer a seguinte configuração. S
 1. Click **[!UICONTROL Manage Postbacks]**.
 1. Crie um postback.
 
-   * Select **[!UICONTROL PII]** as the **[!UICONTROL Postback Type]**.
-   * In the **[!UICONTROL URL]** field, copy the **[!UICONTROL Collect PII Endpoint]** URL from the mobile application that you configured in the Adobe Campaign interface, preceded by the server name. See [Setting up a mobile app in Campaign](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign).
-   * Fill in the **[!UICONTROL Post Body]** field as follows:
+   * Selecione **[!UICONTROL PII]** como o **[!UICONTROL Postback Type]**.
+   * No **[!UICONTROL URL]** campo, copie o **[!UICONTROL Collect PII Endpoint]** URL do aplicativo móvel configurado na interface do Adobe Campaign, precedido pelo nome do servidor. Consulte [Configuração de um aplicativo para dispositivos móveis no Campaign](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign).
+   * Preencha **[!UICONTROL Post Body]** o campo da seguinte maneira:
 
       Para iOS:
 
@@ -133,15 +133,15 @@ Você deve ter acesso ao Adobe Analytics para fazer a seguinte configuração. S
       }
       ```
 
-   * Set **Content Type** as **[!UICONTROL application/json]**.
-   * In the **Which Data Tags Trigger the Postback?**, selecione qualquer evento, normalmente **[!UICONTROL Launched]** e **[!UICONTROL exists]**.
+   * Definir **tipo de conteúdo** como **[!UICONTROL application/json]**.
+   * Em **quais tags de dados acionam o postback?**, selecione qualquer evento, normalmente **[!UICONTROL Launched]** e **[!UICONTROL exists]**.
    * Click **[!UICONTROL Save & Activate]**.
 
 1. Crie um segundo postback.
 
-   * Select **[!UICONTROL Postback]** as the **[!UICONTROL Postback Type]**.
-   * In the **[!UICONTROL URL]** field, copy the **[!UICONTROL Location Services Endpoint]** URL from the mobile application that you configured in the Adobe Campaign interface, preceded by the server name. See [Setting up a mobile app in Campaign](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign).
-   * Fill in the **[!UICONTROL Post Body]** field as follows:
+   * Selecione **[!UICONTROL Postback]** como o **[!UICONTROL Postback Type]**.
+   * No **[!UICONTROL URL]** campo, copie o **[!UICONTROL Location Services Endpoint]** URL do aplicativo móvel configurado na interface do Adobe Campaign, precedido pelo nome do servidor. Consulte [Configuração de um aplicativo para dispositivos móveis no Campaign](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign).
+   * Preencha **[!UICONTROL Post Body]** o campo da seguinte maneira:
 
       ```
       {
@@ -160,62 +160,62 @@ Você deve ter acesso ao Adobe Analytics para fazer a seguinte configuração. S
       }
       ```
 
-   * Set **Content Type** as **[!UICONTROL application/json]**.
-   * In the **Which Data Tags Trigger the Postback?**, selecione **[!UICONTROL campaign.test]** e **[!UICONTROL exists]**.
+   * Definir **tipo de conteúdo** como **[!UICONTROL application/json]**.
+   * Em **quais tags de dados acionam o postback?**, selecione **[!UICONTROL campaign.test]** e **[!UICONTROL exists]**.
    * Click **[!UICONTROL Save & Activate]**.
 
 >[!NOTE]
 >
->For detailed information on configuring postbacks, refer to the [Adobe Mobile Services documentation](https://marketing.adobe.com/resources/help/en_US/mobile/signals_.html).
+>Para obter informações detalhadas sobre como configurar postbacks, consulte a documentação do [Adobe Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/signals_.html).
 
-### Integrating the SDK into a mobile application {#integrating-the-sdk-into-a-mobile-application}
+### Integração do SDK em um aplicativo móvel {#integrating-the-sdk-into-a-mobile-application}
 
 O kit de desenvolvimento de software (SDK) do serviço principal do Mobile Mobile facilita a integração de um aplicativo móvel no Adobe Campaign.
 
-This step is described in this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
+Esta etapa é descrita nesta [página](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
 
-### Defining Points of Interest in Adobe Mobile Services {#defining-points-of-interest-in-adobe-mobile-services}
+### Definição de pontos de interesse no Adobe Mobile Services {#defining-points-of-interest-in-adobe-mobile-services}
 
 Para definir os Pontos de interesse usados para coletar dados de localização:
 
 1. Vá para a interface do Adobe Mobile Services.
 1. Adicione seu aplicativo.
 
-   For more information on managing applications in Mobile Services, refer to the [Adobe Mobile Services documentation](https://marketing.adobe.com/resources/help/en_US/mobile/t_new_app.html).
+   Para obter mais informações sobre o gerenciamento de aplicativos no Mobile Services, consulte a documentação do [Adobe Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/t_new_app.html).
 
 1. Defina os Pontos de interesse.
 
-   For more information on managing Points of Interest, refer to the [Adobe Mobile Services documentation](https://marketing.adobe.com/resources/help/en_US/mobile/t_manage_points.html).
+   Para obter mais informações sobre como gerenciar Pontos de interesse, consulte a documentação do [Adobe Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/t_manage_points.html).
 
-### Collecting subscribers' Points of interest data {#collecting-subscribers--points-of-interest-data}
+### Coleta de dados de interesse dos assinantes {#collecting-subscribers--points-of-interest-data}
 
 Um recurso personalizado específico permite que você defina os dados que deseja coletar pelos assinantes dos aplicativos.
 
-This step is described in the [Configuring a mobile application using SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) page.
+Esta etapa é descrita em [Configurar um aplicativo móvel usando](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) a página SDK V 4.
 
 
-## Accessing mobile apps used to collect location data {#accessing-mobile-apps-used-to-collect-location-data}
+## Acessar aplicativos móveis usados para coletar dados de localização {#accessing-mobile-apps-used-to-collect-location-data}
 
 Para acessar os aplicativos criados com êxito no Adobe Campaign:
 
-1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner.
-1. Select **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Mobile app (SDK v4)]** or **[!UICONTROL Mobile app (AEP SDK)]** depending on the SDK.
+1. Clique no **[!UICONTROL Adobe Campaign]** logotipo, no canto superior esquerdo.
+1. Selecione **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Mobile app (SDK v4)]** ou **[!UICONTROL Mobile app (AEP SDK)]** dependa do SDK.
 1. Selecione um aplicativo móvel na lista para exibir suas propriedades.
 
    ![](assets/poi_mobile_app_subscribers.png)
 
-A list of the application's subscribers is also displayed in the **[!UICONTROL Mobile application subscribers]** tab. Os assinantes são todos os usuários que instalaram o aplicativo em seu dispositivo móvel. Os perfis de banco de dados do Adobe Campaign são identificados com um token de registro.
+Uma lista dos assinantes do aplicativo também é exibida na **[!UICONTROL Mobile application subscribers]** guia. Os assinantes são todos os usuários que instalaram o aplicativo em seu dispositivo móvel. Os perfis de banco de dados do Adobe Campaign são identificados com um token de registro.
 
-## Accessing collected location data {#accessing-collected-location-data}
+## Acessar os dados de localização coletados {#accessing-collected-location-data}
 
-Once the setup is done, the collected Points of Interest data is listed in the **[!UICONTROL Places]** tab of each profile. Para acessar a lista:
+Após a configuração ser feita, os dados Coletados de Pontos de interesse são listados na **[!UICONTROL Places]** guia de cada perfil. Para acessar a lista:
 
 1. Selecione um perfil.
-1. Click the **[!UICONTROL Edit profile properties]** button on the right.
-1. Select the **[!UICONTROL Places]** tab.
+1. Clique no **[!UICONTROL Edit profile properties]** botão à direita.
+1. Selecione a **[!UICONTROL Places]** guia.
 
    ![](assets/poi_profile_places.png)
 
 Os dados de Pontos de interesse coletados para o perfil atual são listados. Os dados de localização são armazenados no banco de dados do Adobe Campaign por seis meses.
 
-For more information on accessing and editing profiles, see [Profiles](../../audiences/using/about-profiles.md).
+Para obter mais informações sobre como acessar e editar perfis, consulte [Perfis](../../audiences/using/about-profiles.md).
