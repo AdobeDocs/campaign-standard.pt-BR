@@ -14,7 +14,7 @@ discoiquuid: 39 b 86 fda -7766-4 e 5 f-ab 48-bcc 536 ab 66 b 3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 86600fe800477442e274429e1ef9cd299c33026a
+source-git-commit: 68d9732efb55b9d5363218e5c35204892f16d983
 
 ---
 
@@ -125,7 +125,6 @@ Para obter mais informações sobre como converter um e-mail existente em um ema
 ### Limitações do Designer de email {#email-designer-limitations}
 
 * Não é possível usar campos de personalização em um fragmento. Para mais em fragmentos, consulte [esta seção](../../designing/using/defining-the-email-structure.md#about-fragments).
-* Não é possível salvar diretamente como um fragmento em algum conteúdo de um email que você está editando no Designer de email. É necessário copiar o HTML correspondente a esse conteúdo em um novo fragmento. Para obter mais informações sobre isso, consulte [Salvar conteúdo como um fragmento](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
 * Ao editar estilos, apenas as fontes da Web oficialmente suportadas pela maioria dos clientes de email estão disponíveis.
 * Os estilos não podem ser salvos como um tema para reutilização futura. No entanto, o estilo CSS pode ser salvo em um modelo de conteúdo ou em um e-mail. Para obter mais informações sobre estilos, consulte [esta seção](../../designing/using/editing-email-styles.md).
 
