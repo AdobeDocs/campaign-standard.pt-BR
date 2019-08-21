@@ -14,7 +14,7 @@ context-tags: fluxo de trabalho, visão geral; fluxo de trabalho, principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed76cc48c94510b40e7a946031ec4331c6e0905
+source-git-commit: fd44c6e6d0f6a4ca75b01c99fbae6d9072dd7736
 
 ---
 
@@ -116,7 +116,7 @@ Para obter mais informações, consulte [Gerenciamento de pacotes](../../automat
 
 ## Exportar listas{#exporting-lists}
 
-A opção de lista de exportação permite exportar no máximo 100,000 linhas por padrão e definido pela opção **Nms_ exportlistlimit**. Essa opção pode ser gerenciada pelo administrador funcional em **Administração** &gt; **Configurações do aplicativo** &gt; **Opções**.
+A opção de lista de exportação permite exportar no máximo 100,000 linhas por padrão e definido pela opção **Nms_ exportlistlimit**. Essa opção pode ser gerenciada pelo administrador funcional em **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Options]**.
 Para obter mais informações, consulte [Exportar listas](../../automating/using/exporting-lists.md).
 
 ## Solução de problemas{#workflow-troubleshooting}
@@ -133,15 +133,15 @@ Para obter mais informações, consulte [Monitoramento da execução do fluxo de
 
 Você pode analisar consultas SQL na guia Log.
 
-1. Na área de trabalho do fluxo de trabalho, clique **em Editar propriedades**.
-1. **Em Geral** &gt; **Execução**, marque **as consultas Salvar SQL no log** e **Execute nas opções de mecanismo** e clique **em Confirmar**.
+1. Na área de trabalho do fluxo de trabalho, clique **[!UICONTROL Edit properties]** em.
+1. Em **[!UICONTROL General]** &gt; **[!UICONTROL Execution]**, verifique as **[!UICONTROL Save SQL queries in the log]****[!UICONTROL Execute in the engine]** opções e clique **[!UICONTROL Confirm]** em.
 
 **Para consultar consultas SQL no Log:**
-1. Clique **em Log e tarefas**.
-1. Na guia **Log** , abra o painel **Pesquisar** .
-1. Marque **Apenas registros SQL de exibição**.
+1. Click **[!UICONTROL Log and Tasks]**.
+1. Na **[!UICONTROL Logs]** guia, abra o **[!UICONTROL Search]** painel.
+1. Verifique **[!UICONTROL Display SQL logs only]**.
 
-A consulta é exibida na coluna **Mensagem** dos logs.
+A consulta é exibida na **[!UICONTROL Message]** coluna dos logs.
 
 ### Uso de logs de entrega{#using-delivery-logs}
 
