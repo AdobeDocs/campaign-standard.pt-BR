@@ -14,12 +14,12 @@ context-tags: fluxo de trabalho, visão geral; fluxo de trabalho, principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e02ca92032c298fe1b5dbc7094de201d0a106be5
+source-git-commit: 3ed76cc48c94510b40e7a946031ec4331c6e0905
 
 ---
 
 
-# Workflow best practices{#workflow-best-practices}
+# Práticas recomendadas de fluxo de trabalho{#workflow-best-practices}
 
 Com o Adobe Campaign, você pode configurar todos os tipos de fluxo de trabalho para executar um grande escopo das tarefas. No entanto, ao criar e executar fluxos de trabalho, você precisa ser muito cauteloso, pois uma implementação incorreta pode resultar em desempenhos incorretos, erros e problemas de plataforma. Você pode encontrar abaixo uma lista das práticas recomendadas e dicas de solução de problemas.
 
@@ -27,7 +27,7 @@ Com o Adobe Campaign, você pode configurar todos os tipos de fluxo de trabalho 
 >
 >O design e a execução do fluxo de trabalho devem ser executados por um usuário avançado do Adobe Campaign.
 
-## Naming{#naming}
+## Nomeação{#naming}
 
 Para facilitar a solução de problemas de fluxo de trabalho, a Adobe recomenda nomear e rotular seus fluxos de trabalho explicitamente. Preencha o campo de descrição do fluxo de trabalho para resumir o processo a ser executado para que o operador possa entendê-lo facilmente.
 Se o fluxo de trabalho fizer parte de um processo envolvendo vários fluxos de trabalho, você poderá usar números ao digitar um rótulo para ordená-los claramente.
@@ -40,13 +40,13 @@ Por exemplo:
 * 010 - Exportar - Exportar registros de entrega
 * 011 - Exportar - Exportar registros de rastreamento
 
-## Duplicating workflows{#duplicating-workflows}
+## Duplicação de fluxos de trabalho{#duplicating-workflows}
 
-Você pode duplicar fluxos de trabalho. In the **[!UICONTROL Marketing Activities]**, hover over the workflow and click **[!UICONTROL Duplicate element]**. Após a duplicação, as modificações do fluxo de trabalho não são transferidas para a cópia do fluxo de trabalho. A cópia do fluxo de trabalho pode ser editada.
+Você pode duplicar fluxos de trabalho. No **[!UICONTROL Marketing Activities]**, passe o mouse sobre o fluxo de trabalho e clique **[!UICONTROL Duplicate element]** em. Após a duplicação, as modificações do fluxo de trabalho não são transferidas para a cópia do fluxo de trabalho. A cópia do fluxo de trabalho pode ser editada.
 
 ![](assets/duplicating_workflow.png)
 
-## Execution{#execution}
+## Execução{#execution}
 
 ### Número de fluxos de trabalho
 
@@ -66,15 +66,15 @@ Os fluxos de trabalho que foram pausados ou reprovados por mais de 7 dias são i
 
 Um fluxo de trabalho contendo transições não finalizadas ainda pode ser executado: gerará uma mensagem de aviso e o fluxo de trabalho pausará uma vez que chegar à transição, mas não gerará um erro. Também é possível iniciar um fluxo de trabalho sem concluir o design e concluir o processo conforme você passa.
 
-For more information, refer to [Executing workflows](../../automating/using//executing-a-workflow.md).
+Para obter mais informações, consulte [Executar fluxos de trabalho](../../automating/using//executing-a-workflow.md).
 
-## Activity{#activity}
+## Atividade{#activity}
 
 ### Design de fluxo de trabalho
 
-To ensure that the workflow ends properly, use an **[!UICONTROL End activity]**. Evite deixar a última transição de um fluxo de trabalho sozinho.
+Para garantir que o fluxo de trabalho termina corretamente, use um **[!UICONTROL End activity]**. Evite deixar a última transição de um fluxo de trabalho sozinho.
 
-To access the detail view of the transitions, check the **[!UICONTROL Keep interim results]** option in the Execution section of the workflow properties.
+Para acessar a exibição detalhada das transições, verifique a **[!UICONTROL Keep interim results]** opção na seção Execução das propriedades do fluxo de trabalho.
 
 >[!CAUTION]
 >
@@ -83,57 +83,76 @@ To access the detail view of the transitions, check the **[!UICONTROL Keep inter
 ![](assets/keep_interim_best_practices.png)
 
 
-### Labelling activities{#activity-labeling}
+### Atividades de rotulagem{#activity-labeling}
 
 Ao desenvolver seu fluxo de trabalho, um nome é gerado para cada atividade, como para todos os objetos do Adobe Campaign. Embora o nome de uma atividade seja gerado pela ferramenta e não possa ser editado, recomendamos rotulá-lo com um nome explícito ao configurá-lo.
 
-### Duplicating activities{#activity-duplicating}
+### Duplicação de atividades{#activity-duplicating}
 
-Para duplicar atividades existentes, você pode usar a cópia de cópia. Dessa forma, você mantém as configurações definidas originalmente. For more information, refer to [Duplicating workflow activities](../../automating/using/workflow-interface.md).
+Para duplicar atividades existentes, você pode usar a cópia de cópia. Dessa forma, você mantém as configurações definidas originalmente. Para obter mais informações, consulte [Duplicar atividades do fluxo de trabalho Duplicando](../../automating/using/workflow-interface.md).
 
-### Scheduler activity{#acheduler-activity}
+### Atividade do agendador{#acheduler-activity}
 
-When building your workflow, only use one **[!UICONTROL Scheduler activity]** per branch. Se o mesmo ramo de um fluxo de trabalho tiver vários agendadores (vinculados entre si), o número de tarefas a serem executadas será multiplicado exponencialmente, o que sobrecarregaria consideravelmente o banco de dados.
+Ao criar seu fluxo de trabalho, use apenas um **[!UICONTROL Scheduler activity]** por ramo. Se o mesmo ramo de um fluxo de trabalho tiver vários agendadores (vinculados entre si), o número de tarefas a serem executadas será multiplicado exponencialmente, o que sobrecarregaria consideravelmente o banco de dados.
 
-You can preview the next ten executions of your workflows by clicking **[!UICONTROL Preview next executions]**.
+Você pode visualizar as próximas dez execuções de seus fluxos de trabalho clicando **[!UICONTROL Preview next executions]** em.
 
 ![](assets/preview_scheduler.png)
 
-For more information, refer to [Scheduler activity](../../automating/using/scheduler.md).
+Para obter mais informações, consulte Atividade [do programador](../../automating/using/scheduler.md).
 
-## Calling workflow with parameters{#workflow-with-parameters}
+## Chamada do fluxo de trabalho com parâmetros{#workflow-with-parameters}
 
-Make sure that the name and number of parameters are identical to what is defined when calling the workflow (see [Defining the parameters when calling the workflow](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)). Os tipos de parâmetros também devem ser consistentes com os valores esperados.
+Certifique-se de que o nome e o número de parâmetros sejam idênticos ao que é definido ao chamar o fluxo de trabalho (consulte [Definição dos parâmetros ao chamar o fluxo de trabalho](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)). Os tipos de parâmetros também devem ser consistentes com os valores esperados.
 
-Make sure that all the parameters have been declared in the **[!UICONTROL External signal activity]**. Caso contrário, ocorrerá um erro ao executar a atividade.
+Verifique se todos os parâmetros foram declarados no **[!UICONTROL External signal activity]**. Caso contrário, ocorrerá um erro ao executar a atividade.
 
-For more information, see [Calling a workflow with external parameters](../../automating/using/calling-a-workflow-with-external-parameters.md).
+Para obter mais informações, consulte [Chamar um fluxo de trabalho com parâmetros externos](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
-## Exporting packages{#exporting-packages}
+## Exportação de pacotes{#exporting-packages}
 
 Para exportar pacotes, os recursos exportados não devem conter IDs padrão. Portanto, as IDs de recursos exportáveis devem ser alteradas usando um nome diferente dos modelos fornecidos como padrão pelo Adobe Campaign Standard.
-For more information, see [Managing packages](../../automating/using/managing-packages.md).
+Para obter mais informações, consulte [Gerenciamento de pacotes](../../automating/using/managing-packages.md).
 
-## Exporting lists{#exporting-lists}
+## Exportar listas{#exporting-lists}
 
-The export list option allows you to export a maximum of 100,000 lines by default and defined by the **Nms_ExportListLimit option**. This option can be managed by the functional administrator, under **Administration** &gt; **Application settings** &gt; **Options**.
-For more information, see [Exporting lists](../../automating/using/exporting-lists.md).
+A opção de lista de exportação permite exportar no máximo 100,000 linhas por padrão e definido pela opção **Nms_ exportlistlimit**. Essa opção pode ser gerenciada pelo administrador funcional em **Administração** &gt; **Configurações do aplicativo** &gt; **Opções**.
+Para obter mais informações, consulte [Exportar listas](../../automating/using/exporting-lists.md).
 
-## Troubleshooting{#workflow-troubleshooting}
+## Solução de problemas{#workflow-troubleshooting}
 
 O Adobe Campaign oferece vários logs para entender melhor seus problemas de fluxo de trabalho.
 
-### Using workflow logs{#using-workflow-logs}
+### Uso de logs de fluxo de trabalho{#using-workflow-logs}
 
-Você pode acessar logs de fluxo de trabalho para monitorar a execução de suas atividades. Ele indexa as operações realizadas e os erros de execução por ordem cronológica.
-For more information, refer to [Monitoring workflow execution](../../automating/using/executing-a-workflow.md#monitoring).
+Você pode acessar logs de fluxo de trabalho para monitorar a execução de suas atividades. Ele indexa as operações realizadas e os erros de execução por ordem cronológica. A guia Logs consiste no histórico da execução de todas ou algumas atividades selecionadas.
+A guia Tarefas detalha a sequência de execução das atividades. Para obter mais informações sobre uma atividade, clique em uma tarefa.
+Para obter mais informações, consulte [Monitoramento da execução do fluxo de trabalho](../../automating/using/executing-a-workflow.md#monitoring).
 
-### Using delivery logs{#using-delivery-logs}
+#### Solução de problemas de gerenciamento de dados{#troubleshooting-data-management-activities}
+
+Você pode analisar consultas SQL na guia Log.
+
+1. Na área de trabalho do fluxo de trabalho, clique **em Editar propriedades**.
+1. **Em Geral** &gt; **Execução**, marque **as consultas Salvar SQL no log** e **Execute nas opções de mecanismo** e clique **em Confirmar**.
+
+**Para consultar consultas SQL no Log:**
+1. Clique **em Log e tarefas**.
+1. Na guia **Log** , abra o painel **Pesquisar** .
+1. Marque **Apenas registros SQL de exibição**.
+
+A consulta é exibida na coluna **Mensagem** dos logs.
+
+### Uso de logs de entrega{#using-delivery-logs}
 
 Os logs de entrega permitem monitorar o sucesso das entregas. Os logs de exclusão retornam mensagens excluídas durante a preparação do envio. O envio de logs fornece o status da entrega para cada perfil.
-For more information, refer to [Understanding delivery failures](../../sending/using/understanding-delivery-failures.md).
+Para obter mais informações, consulte [Noções básicas sobre problemas de entrega](../../sending/using/understanding-delivery-failures.md).
 
-### Using delivery alerting{#delivery-alerting}
+### Uso de alertas de entrega{#delivery-alerting}
 
 O recurso de alertas de entrega é um sistema de gerenciamento de alertas que permite que um grupo de usuários receba notificações automaticamente com informações sobre a execução de suas entregas.
-For more information, refer to [Delivery alerting](../../sending/using/receiving-alerts-when-failures-happen.md).
+Para obter mais informações, consulte Alertas [de entrega](../../sending/using/receiving-alerts-when-failures-happen.md).
+
+**Tópicos relacionados:**
+
+* [Gerenciamento de erros](../../automating/using/executing-a-workflow.md#error-management)
