@@ -14,47 +14,57 @@ discoiquuid: 5 c 7 bfb 74-4002-4 ffe -87 e 8-bddb 41 d 34 b 41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 70f20623cfb4b902adf49cc2934cfdec0894f86c
+source-git-commit: 725c9bf196988717f313bbf72448067fef8e8647
 
 ---
 
 
-# Release Notes{#release-notes}
+# Notas de versão{#release-notes}
 
 Procurando uma versão específica do Adobe Campaign Standard?
 
-Cada versão traz novos recursos e correções. Clique em uma versão para exibir seu conteúdo. Consult the [Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) to find out when the next release will happen.
+Cada versão traz novos recursos e correções. Clique em uma versão para exibir seu conteúdo. Consulte o Planejamento [da versão](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) para descobrir quando a próxima versão ocorrerá.
 
-View the latest [documentation updates](../../rn/using/documentation-updates.md) for Adobe Campaign Standard. If you're looking for a previous release, consult these pages: [2018 Release Notes](../../rn/using/release-notes-2018.md), [2017 Release Notes](../../rn/using/release-notes-2017.md), [2015-2016 Release Notes](../../rn/using/release-notes-2015-2016.md). Also consult the list of [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
+Veja as últimas atualizações [de documentação](../../rn/using/documentation-updates.md) do Adobe Campaign Standard. Se estiver procurando por uma versão anterior, consulte estas páginas: [Notas de versão de 2018](../../rn/using/release-notes-2018.md), [Notas de versão 2017](../../rn/using/release-notes-2017.md), [2015-2016 Notas de versão](../../rn/using/release-notes-2015-2016.md). Consulte também a lista de Recursos [desaprovados e removidos](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
 
-## Release 19.3 - July 2019 {#release-19-3---july-2019}
+## Atualização do Painel de controle - agosto de 2019 {#controlpanel-update---august-2019}
 
-### What's new? {#what-s-new-3}
+### Novidades? {#what-s-new-4}
+
+Adicionamos novos recursos para que usuários administradores recebam notificações antes que os certificados SSL para seus domínios expirem. Para obter mais informações, consulte a [documentação detalhada](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html).
+
+Além disso, os usuários Administradores agora podem excluir chaves SSH que foram adicionadas para acessar servidores SFTP.
+
+Observe que o Painel de controle está disponível para clientes hospedados somente no AWS. Essas atualizações estarão disponíveis em 26 de agosto.
+
+## Versão 19.3 - julho de 2019 {#release-19-3---july-2019}
+
+### Novidades? {#what-s-new-3}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
+   <th> Funcionalidade<br /> </th> 
+   <th> Descrição<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> External API Activity (Public Beta)<br /> </td> 
-   <td> <p>Para personalização mais profunda, a Atividade de API externa permite que você coloque dados de sistemas externos em um fluxo de trabalho por meio de uma chamada REST API. Os pontos finais REST podem ser um sistema de gerenciamento de cliente, Adobe I/O Runpoint ou terminal REST da Adobe Experience Cloud (por exemplo, Plataforma de dados, Target, Analytics, Campanha).</p><p>No momento, esse recurso está em beta público.</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">how-to video</a>.</p></td> 
+   <td> Atividade de API externa (Beta público)<br /> </td> 
+   <td> <p>Para personalização mais profunda, a Atividade de API externa permite que você coloque dados de sistemas externos em um fluxo de trabalho por meio de uma chamada REST API. Os pontos finais REST podem ser um sistema de gerenciamento de cliente, Adobe I/O Runpoint ou terminal REST da Adobe Experience Cloud (por exemplo, Plataforma de dados, Target, Analytics, Campanha).</p><p>No momento, esse recurso está em beta público.</p><p>Para obter mais informações, consulte a documentação <a href="../../automating/using/external-api.md">detalhada</a> e o vídeo <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">passo</a>a passo.</p></td> 
   </tr> 
   <tr> 
-   <td> Report on workflow segment<br /> </td> 
-   <td> <p>Esse recurso permite que os profissionais de marketing analisem o desempenho de entrega por código de segmento. Quando você cria um fluxo de trabalho e usa uma atividade de segmentação para atribuir segmentos à população de entrega, esses segmentos agora podem entrar na mesma entrega. Isso permite exibir as estatísticas de aberturas/cliques com base em vários segmentos em uma única entrega.</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">how-to video</a>.</p></td>
+   <td> Relatório sobre o segmento do fluxo de trabalho<br /> </td> 
+   <td> <p>Esse recurso permite que os profissionais de marketing analisem o desempenho de entrega por código de segmento. Quando você cria um fluxo de trabalho e usa uma atividade de segmentação para atribuir segmentos à população de entrega, esses segmentos agora podem entrar na mesma entrega. Isso permite exibir as estatísticas de aberturas/cliques com base em vários segmentos em uma única entrega.</p><p>Para obter mais informações, consulte a documentação <a href="../../reporting/using/creating-a-report-workflow-segment.md">detalhada</a> e o vídeo <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">passo</a>a passo.</p></td>
   </tr> 
  </tbody> 
 </table>
 
-### Security enhancements {#security-enhancements-2}
+### Aprimoramentos de segurança {#security-enhancements-2}
 
 * Correção de um problema de segurança para impedir ataques de negação de serviço (DoS) em solicitações inválidas para obter imagens. (CAMP -33454)
 
-### Email Designer enhancements {#email-designer-enhancements-3}
+### Aprimoramentos do Designer de email {#email-designer-enhancements-3}
 
 * Correção de um problema que adicionava tags de estilo HTML adicionais a um modelo HTML sempre que um componente era adicionado, o que poderia aumentar consideravelmente o tamanho do modelo. (CAMP -34694)
 * Correção de um problema que poderia impedir que algumas opções de menu da barra de ferramentas à direita fossem disponibilizadas. (CAMP -34577)
@@ -81,19 +91,19 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Correção de um problema que ocorria na duplicação de variantes ao usar conteúdo dinâmico.
 * Alguns campos indesejados foram removidos do painel Configurações do Designer de email.
 
-### Other improvements {#other-improvements-3}
+### Outras melhorias {#other-improvements-3}
 
-* Por meio da integração com os Serviços de localização da Adobe Experience Platform, o Adobe Campaign agora é compatível com enviar mensagens de marketing baseadas na localização aos assinantes do aplicativo móvel por meio do SDK da plataforma de experiência. For more information, refer to the [detailed documentation](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
-* O recurso de relatório foi aprimorado para obter uma melhor experiência. Para usar esse recurso, você precisa aceitar o Contrato de uso de relatórios dinâmicos. For more on this, refer to the [detailed documentation](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
-* Nos fluxos de trabalho, uma nova opção foi adicionada para visualizar as próximas dez execuções de um fluxo de trabalho. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
-* Na atividade do Agendador, uma nova opção permite selecionar um dia específico de uma semana específica para entregas mensais. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
-* Ao criar entregas recorrentes sem período de agregação, o painel de entrega agora permite que você solicite confirmação antes que a entrega seja enviada. For more on this, refer to the [detailed documentation](../../sending/using/confirming-the-send.md).
-* Agora é possível personalizar o rótulo de uma entrega com variáveis de evento declaradas na atividade de sinal externo do fluxo de trabalho. For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
+* Por meio da integração com os Serviços de localização da Adobe Experience Platform, o Adobe Campaign agora é compatível com enviar mensagens de marketing baseadas na localização aos assinantes do aplicativo móvel por meio do SDK da plataforma de experiência. Para obter mais informações, consulte a [documentação detalhada](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
+* O recurso de relatório foi aprimorado para obter uma melhor experiência. Para usar esse recurso, você precisa aceitar o Contrato de uso de relatórios dinâmicos. Para obter mais informações, consulte a [documentação detalhada](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+* Nos fluxos de trabalho, uma nova opção foi adicionada para visualizar as próximas dez execuções de um fluxo de trabalho. Para obter mais informações, consulte a [documentação detalhada](../../automating/using/scheduler.md).
+* Na atividade do Agendador, uma nova opção permite selecionar um dia específico de uma semana específica para entregas mensais. Para obter mais informações, consulte a [documentação detalhada](../../automating/using/scheduler.md).
+* Ao criar entregas recorrentes sem período de agregação, o painel de entrega agora permite que você solicite confirmação antes que a entrega seja enviada. Para obter mais informações, consulte a [documentação detalhada](../../sending/using/confirming-the-send.md).
+* Agora é possível personalizar o rótulo de uma entrega com variáveis de evento declaradas na atividade de sinal externo do fluxo de trabalho. Para obter mais informações, consulte a [documentação detalhada](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * A consulta de exclusão do RGPD foi aprimorada para melhorar o desempenho. (CAMP -33504)
 * A opção «ftp» foi removida da interface de configuração da conta externa. (CAMP -34472)
-* Agora você pode ativar e desativar a opção do modo de teste SMTP para cada mensagem de email. For more on this, refer to the [detailed documentation](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP -34602)
+* Agora você pode ativar e desativar a opção do modo de teste SMTP para cada mensagem de email. Para obter mais informações, consulte a [documentação detalhada](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP -34602)
 
-### Other changes {#other-changes-2}
+### Outras alterações {#other-changes-2}
 
 * Um aviso foi adicionado na interface de propriedades de entrega. Ele especifica que as entregas são preparadas com base no período de agregação e se descobrem para chamar o fluxo de trabalho várias vezes por dia, caso não tenham um período. (CAMP -34393)
 * Um aviso foi adicionado nas telas de configuração de recurso personalizadas. Recomendamos usar 30 caracteres para IDs de recurso personalizadas. Isso também se aplica a campos de recursos personalizados, chaves, índices e links.
@@ -138,31 +148,31 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Correção de um problema de segurança que quebrou o conteúdo de email quando o assunto continha várias linhas.
 
 
-## Release 19.2.7 - July 2019 {#release-19-2-7---july-2019}
+## Versão 19.2.7 - julho de 2019 {#release-19-2-7---july-2019}
 
-### Improvements {#improvements-2}
+### Melhorias {#improvements-2}
 
 * A consulta de exclusão do RGPD foi aprimorada para melhorar o desempenho.
 * Correção de um problema que causava falhas na Web após a atualização 19.2. (CAMP -34862)
 * Correção de um problema que podia impedir que usuários não administradores salvassem ou agendassem relatórios. (CAMP -31133)
 * Corrigido um problema ao usar "|" como separador de data na atividade do fluxo de trabalho do arquivo Carregar. (CAMP -34706)
 
-## Release 19.2.4 - June 2019 {#release-19-2-4---june-2019}
+## Versão 19.2.4 - junho de 2019 {#release-19-2-4---june-2019}
 
-### Email Designer {#email-designer-2}
+### Designer de emails {#email-designer-2}
 
 * Correção de um problema que impedia os usuários de editar fragmentos quando tags de estilo vazias eram usadas no HTML. Esta é uma correção de acompanhamento para o CAMP CAMP 778 in em 19.2.3.
 
-## Release 19.2.3 - June 2019 {#release-19-2-3---june-2019}
+## Versão 19.2.3 - junho de 2019 {#release-19-2-3---june-2019}
 
-### Email Designer {#email-designer-1}
+### Designer de emails {#email-designer-1}
 
 Introduziu uma série de aprimoramentos e correções para otimizar fragmentos na versão 19.2. Os fragmentos recém-criados funcionarão perfeitamente. Os fragmentos criados anteriormente ficaram esmaecidos e precisam ser migrados para o novo formato. Para fazer isso, clique em cada fragmento e valide sua migração para o novo formato. Recomendamos que você teste alguns fragmentos antes de migrar todos os fragmentos.
 
 * Correção de um problema que impedia os usuários de editar um fragmento depois de desbloquear. Isso afetava fragmentos existentes ao atualizar para 19.2. (CAMP -33778)
 * Correção de um problema ao usar conteúdo dinâmico. Espaços extras foram adicionados ao HTML.
 
-### Other improvements {#other-improvements-2}
+### Outras melhorias {#other-improvements-2}
 
 * Correção de um problema que podia impedir que o envio de SMS fosse retomado após uma desconexão do conector SMS.
 * Correção de um problema que podia fechar conexões SMPP quando TLS estava ativado.
@@ -172,42 +182,42 @@ Introduziu uma série de aprimoramentos e correções para otimizar fragmentos n
 * Correção de um problema que impedia o enriquecimento de um conteúdo de mensagem transacional com informações do recurso Serviço. (CAMP -33707)
 * Correção de um problema nas páginas de aterrissagem da Lista negra que ocorria ao cancelar a inscrição de perfis de um serviço.
 
-## Release 19.2 - May 2019 {#release-19-2---may-2019}
+## Versão 19.2 - maio de 2019 {#release-19-2---may-2019}
 
-### What's new? {#what-s-new-}
+### Novidades? {#what-s-new-}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
+   <th> Funcionalidade<br /> </th> 
+   <th> Descrição<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Control Panel<br /> </td> 
-   <td> <p>Para ajudar a aumentar a eficiência do seu trabalho como usuário administrador, você pode monitorar facilmente a capacidade e gerenciar as configurações de suas instâncias (começando pelo gerenciamento de servidores SFTP).</p><p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/control-panel.html">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">how-to video</a>.</p></td> 
+   <td> Painel de controle<br /> </td> 
+   <td> <p>Para ajudar a aumentar a eficiência do seu trabalho como usuário administrador, você pode monitorar facilmente a capacidade e gerenciar as configurações de suas instâncias (começando pelo gerenciamento de servidores SFTP).</p><p>Para obter mais informações, consulte a documentação <a href="https://helpx.adobe.com/campaign/kb/control-panel.html">detalhada</a> e o vídeo <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">passo</a>a passo.</p></td> 
   </tr> 
   <tr> 
-   <td> Local notifications<br /> </td> 
-   <td> <p>As mensagens de notificação local permitem informar os usuários quando os novos dados tornam-se disponíveis em seus aplicativos móveis, mesmo sem ter acesso à Internet ou ao aplicativo móvel em execução em primeiro plano. As notificações locais são acionadas por um aplicativo móvel em um determinado momento e dependendo de um evento.</p><p>For more information, refer to the <a href="../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type">detailed documentation</a>.</p></td> 
+   <td> Notificações locais<br /> </td> 
+   <td> <p>As mensagens de notificação local permitem informar os usuários quando os novos dados tornam-se disponíveis em seus aplicativos móveis, mesmo sem ter acesso à Internet ou ao aplicativo móvel em execução em primeiro plano. As notificações locais são acionadas por um aplicativo móvel em um determinado momento e dependendo de um evento.</p><p>Para obter mais informações, consulte a <a href="../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type">documentação detalhada</a>.</p></td> 
   </tr> 
   <tr> 
-   <td> Workflow enhancement - Add a payload to external signal activity<br /> </td> 
-   <td> <p>Inicie um fluxo de trabalho com uma carga quando as condições definidas forem cumpridas com êxito de outro fluxo de trabalho ou uma chamada REST API para integrar com seus sistemas externos. This also includes a new <strong>test</strong> activity where you can run tests on this functionality.</p><p>For more information, refer to the <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-external-signal-activity-feature-video-use.html">how-to video</a>.</p></td> 
+   <td> Aprimoramento de fluxo de trabalho - Adicionar uma carga à atividade de sinal externo<br /> </td> 
+   <td> <p>Inicie um fluxo de trabalho com uma carga quando as condições definidas forem cumpridas com êxito de outro fluxo de trabalho ou uma chamada REST API para integrar com seus sistemas externos. Isso também inclui uma nova <strong>atividade de teste</strong> , na qual é possível executar testes nesta funcionalidade.</p><p>Para obter mais informações, consulte a documentação <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">detalhada</a> e o vídeo <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-external-signal-activity-feature-video-use.html">passo</a>a passo.</p></td> 
   </tr> 
   <tr> 
-   <td> Landing Pages enhancement - Google reCAPTCHA<br /> </td> 
-   <td> <p>Aproveite o Google recaptcha para evitar spam em suas páginas de aterrissagem sem nenhuma ação de seus clientes.</p><p>For more information, refer to the <a href="../../channels/using/designing-a-landing-page.md#setting-google-recaptcha">detailed documentation</a>.</p></td> 
+   <td> Aprimoramento de páginas de aterrissagem - recaptcha do Google<br /> </td> 
+   <td> <p>Aproveite o Google recaptcha para evitar spam em suas páginas de aterrissagem sem nenhuma ação de seus clientes.</p><p>Para obter mais informações, consulte a <a href="../../channels/using/designing-a-landing-page.md#setting-google-recaptcha">documentação detalhada</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-### Security enhancements {#security-enhancements}
+### Aprimoramentos de segurança {#security-enhancements}
 
 * Correção de um possível problema de segurança de clickjacking na área de trabalho do relatório.
 
-### Email Designer enhancements {#email-designer-enhancements}
+### Aprimoramentos do Designer de email {#email-designer-enhancements}
 
 * Correção de um problema que ocorria ao duplicar fragmentos e tentar usá-los no Designer de email. (CAMP -33193)
 * Correção de um problema que criava espaços indesejados ao usar elementos em linha na interface do Designer de email. (CAMP -32163)
@@ -227,7 +237,7 @@ Introduziu uma série de aprimoramentos e correções para otimizar fragmentos n
 * Correção de um problema que ocorria com o seletor de cores ao tentar definir uma cor usando valores RGB.
 * Correção de um problema que impedia que a página espelhada fosse responsiva ao receber o e-mail em um dispositivo móvel.
 
-### Transactional Messaging enhancements {#transactional-messaging-enhancements}
+### Aprimoramentos transacionais de mensagens {#transactional-messaging-enhancements}
 
 Várias melhorias foram adicionadas ao canal de mensagens transacionais para otimizar operações e desempenho.
 
@@ -236,24 +246,24 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * O processo transacional de mensagem foi otimizado para ser iniciado em paralelo múltiplas análises da mesma mensagem.
 * Solucionado o problema que gerava uma latência e latência inconsistentes para notificações por push transacionais.
 * Correção de um problema que exibia um público-alvo incorreto para entregas de execução de mensagem transacionais.
-* Correção de um problema que ocorria ao importar um pacote com uma configuração de evento e a mensagem transacional associada. For more on this, refer to the [detailed documentation](../../channels/using/about-transactional-messaging.md#exporting-and-importing-transactional-messages).
+* Correção de um problema que ocorria ao importar um pacote com uma configuração de evento e a mensagem transacional associada. Para obter mais informações, consulte a [documentação detalhada](../../channels/using/about-transactional-messaging.md#exporting-and-importing-transactional-messages).
 * Correção de um problema que excluía os dados da coleção dos perfis de teste criados para uma mensagem transacional contendo listagens de produtos.
 
-### Other changes {#other-changes}
+### Outras alterações {#other-changes}
 
-* Uma nova opção foi adicionada à conta externa SMS. Ele permite limitar o número máximo de processos MTA que enviam SMS para controlar melhor o número de conexões paralelas. For more information, refer to the [SMS connector protocol and settings](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) technote.
-* Ao publicar um recurso com a extensão da API, se a API já tiver sido publicada, ela será automaticamente atualizada sempre que for publicada novamente. Anteriormente, essa ação era manual e a atualização da API podia quebrar o perfil ou o recurso de serviço dessa API. For more on this, refer to the [detailed documentation](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
+* Uma nova opção foi adicionada à conta externa SMS. Ele permite limitar o número máximo de processos MTA que enviam SMS para controlar melhor o número de conexões paralelas. Para obter mais informações, consulte o protocolo [do conector de SMS e](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) a nota técnica de configurações.
+* Ao publicar um recurso com a extensão da API, se a API já tiver sido publicada, ela será automaticamente atualizada sempre que for publicada novamente. Anteriormente, essa ação era manual e a atualização da API podia quebrar o perfil ou o recurso de serviço dessa API. Para obter mais informações, consulte a [documentação detalhada](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
 * A dimensão de código postal foi removida de Relatórios dinâmicos. Em vez disso, recomendamos usar as dimensões Cidade, País, Estado.
 * O acionador do evento «Primeira inicialização» do evento de ciclo de vida para mensagens no aplicativo foi removido.
 * Ao exportar um pacote com grupos de segurança, ele agora contém as funções atribuídas a cada grupo. (CAMP -32960)
-* Na atividade do arquivo Carregar, uma nova opção permite verificar se as colunas do arquivo que você está carregando correspondem à definição da coluna. For more information, refer to the [detailed documentation](../../automating/using/load-file.md). (CAMP -32229)
-* Os fluxos de trabalho agora podem ser iniciados com uma carga, permitindo usar e compartilhar parâmetros externos entre as atividades dentro do fluxo de trabalho. For more information, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md). (CAMP -29412 e CAMP -29413)
-* As apis do Campaign Standard agora permitem atualizar unidades geográficas e organizacionais de perfis usando uma carga. For more information, refer to the [detailed documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+* Na atividade do arquivo Carregar, uma nova opção permite verificar se as colunas do arquivo que você está carregando correspondem à definição da coluna. Para obter mais informações, consulte a [documentação detalhada](../../automating/using/load-file.md). (CAMP -32229)
+* Os fluxos de trabalho agora podem ser iniciados com uma carga, permitindo usar e compartilhar parâmetros externos entre as atividades dentro do fluxo de trabalho. Para obter mais informações, consulte a [documentação detalhada](../../automating/using/calling-a-workflow-with-external-parameters.md). (CAMP -29412 e CAMP -29413)
+* As apis do Campaign Standard agora permitem atualizar unidades geográficas e organizacionais de perfis usando uma carga. Para obter mais informações, consulte a [documentação detalhada](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
 * Mensagens de erro quando um objeto do banco de dados não puder ser acessado ficou mais claro para ser entendido.
-* Na atividade de arquivo Extrair, os recursos do Javascript foram atualizados ao definir o nome de um arquivo a ser exportado. Apenas a função formatdate agora está disponível para uso no campo Saída. For more information, refer to the [detailed documentation](../../automating/using/extract-file.md).
+* Na atividade de arquivo Extrair, os recursos do Javascript foram atualizados ao definir o nome de um arquivo a ser exportado. Apenas a função formatdate agora está disponível para uso no campo Saída. Para obter mais informações, consulte a [documentação detalhada](../../automating/using/extract-file.md).
 * A geração da ID de sequência automática foi aprimorada para recursos personalizados. Chaves primárias para novos recursos personalizados agora estão em 64 bits por padrão.
-* O modo de teste de publicação de recurso personalizado foi aprimorado. Uma mensagem de aviso agora é exibida aos usuários se a última publicação de recursos personalizados falhar e não for fixa. Após uma falha de publicação de recursos personalizados, você pode reverter para a última versão de trabalho. For more information, refer to the [detailed documentation](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
-* Uma nova opção foi adicionada na atividade de arquivo Transferir. Isso permite que você classifique os arquivos ao usar a ação de download de Arquivo no modo SFTP. For more information, refer to the [detailed documentation](../../automating/using/transfer-file.md). (CAMP -33109)
+* O modo de teste de publicação de recurso personalizado foi aprimorado. Uma mensagem de aviso agora é exibida aos usuários se a última publicação de recursos personalizados falhar e não for fixa. Após uma falha de publicação de recursos personalizados, você pode reverter para a última versão de trabalho. Para obter mais informações, consulte a [documentação detalhada](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+* Uma nova opção foi adicionada na atividade de arquivo Transferir. Isso permite que você classifique os arquivos ao usar a ação de download de Arquivo no modo SFTP. Para obter mais informações, consulte a [documentação detalhada](../../automating/using/transfer-file.md). (CAMP -33109)
 
 ### Patches {#patches}
 
@@ -263,7 +273,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * Corrigido um erro que causava a falha do fluxo de trabalho de compartilhamento de relatório.
 * Correção de um erro que impedia os usuários de enviarem mensagens no aplicativo com apenas o URL de mídia.
 * Correção de um problema que exibia um aplicativo móvel mesmo que seu certificado não fosse carregado na instância.
-* Fixed an error that prevented personalization fields from working when using the **Target all users of a Mobile app** template.
+* Correção de um erro que impedia os campos de personalização de funcionarem ao usar **o Target todos os usuários de um modelo de aplicativo** móvel.
 * Novas instâncias do Campaign Standard foram fornecidas. (CAMP -32635 e CAMP -32344)
 * Correção de um erro que impedia a personalização da fórmula de data em um fluxo de trabalho. (CAMP -30336)
 * Correção de um problema ao definir uma fórmula de data personalizada que podia impedir que os campos "Dados adicionais" e "Código do segmento" ficassem disponíveis na lista suspensa. (CAMP -32383)
@@ -276,88 +286,88 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * Correção de um problema que fazia com que o fluxo de trabalho de Entrega desativasse se não fosse concluído com sucesso.
 * Correção de um problema que podia impedir que usuários salvassem ou agendassem relatórios. (CAMP -31133)
 
-## Release 19.1.3 - March 2019 {#release-19-1-3---march-2019}
+## Versão 19.1.3 - março de 2019 {#release-19-1-3---march-2019}
 
-### Email Designer enhancements {#email-designer-enhancements-1}
+### Aprimoramentos do Designer de email {#email-designer-enhancements-1}
 
 * Correção de um problema que impedia a modificação de um modelo após salvar.
 * Correção de vários problemas ao usar um modelo criado anteriormente em um e-mail.
 * Correção de um problema que impedia que os componentes ficassem ocultos nos modelos importados.
 
-### Other improvements {#other-improvements}
+### Outras melhorias {#other-improvements}
 
 * Correção de um erro ao exibir regras de tipologia. (CAMP -32059 e CAMP -31849)
 * Correção de um problema que impedia que as regras de tipologia fossem editadas. (CAMP -31750)
 * Correção de um problema com o processo do inmail que podia parar de forma inesperada. (CAMP -31238)
 
-## Release 19.1 - February 2019 {#release-19-1---february-2019}
+## Versão 19.1 - fevereiro de 2019 {#release-19-1---february-2019}
 
-### What's new? {#what-s-new--1}
+### Novidades? {#what-s-new--1}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
+   <th> Funcionalidade<br /> </th> 
+   <th> Descrição<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Push channel Reporting improvements<br /> </td> 
-   <td> <p>Vários aprimoramentos foram adicionados ao relatório de Canal de push para permitir medir a participação do usuário de forma mais intuitiva. Com esta versão, expandiremos a lista de métricas de Canal de push para três métricas diferentes: Impressões, cliques, aberturas (Abp Open) para ajudar a medir e analisar a interação dos usuários com as Notificações por push com mais eficiência. Além disso, estamos padronizando a definição e implementação dessas métricas. O relatório de notificação por push incorporado também foi aprimorado com visualizações e métricas comumente usadas.</p><p> For more information, refer to the <a href="../../reporting/using/push-notification-report.md">detailed documentation</a>.</p> </td> 
+   <td> Melhorias nos relatórios de canal de push<br /> </td> 
+   <td> <p>Vários aprimoramentos foram adicionados ao relatório de Canal de push para permitir medir a participação do usuário de forma mais intuitiva. Com esta versão, expandiremos a lista de métricas de Canal de push para três métricas diferentes: Impressões, cliques, aberturas (Abp Open) para ajudar a medir e analisar a interação dos usuários com as Notificações por push com mais eficiência. Além disso, estamos padronizando a definição e implementação dessas métricas. O relatório de notificação por push incorporado também foi aprimorado com visualizações e métricas comumente usadas.</p><p> Para obter mais informações, consulte a <a href="../../reporting/using/push-notification-report.md">documentação detalhada</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> Launch integration for Mobile App<br /> </td> 
-   <td> <p>Esta versão contém a integração do Adobe Campaign com as versões GA das extensões Android e iOS para o Adobe Campaign Standard nos Adobe Campaign Platform Launch e Mobile sdks. Essas extensões oferecem suporte para mensagens de push, mensagens no aplicativo e atualizações de perfil do aplicativo móvel.</p><p> For more information, refer to the <a href="../../administration/using/about-typology-rules.md#typology-rules">detailed documentation</a>.</p> </td> 
+   <td> Integração de inicialização para aplicativo móvel<br /> </td> 
+   <td> <p>Esta versão contém a integração do Adobe Campaign com as versões GA das extensões Android e iOS para o Adobe Campaign Standard nos Adobe Campaign Platform Launch e Mobile sdks. Essas extensões oferecem suporte para mensagens de push, mensagens no aplicativo e atualizações de perfil do aplicativo móvel.</p><p> Para obter mais informações, consulte a <a href="../../administration/using/about-typology-rules.md#typology-rules">documentação detalhada</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> Mobile In-App Messaging<br /> </td> 
-   <td> <p>Esta versão contém a versão GA do canal Dentro do aplicativo no Campaign. De um ponto de vista funcional, as adições mais importantes à versão Beta são relatórios Dinâmicos para canal no aplicativo e handshake seguro entre o SDK móvel e o MASU (Marketing Cloud In-App Service que serve as regras Dentro do aplicativo para o SDK). O handshake seguro garante que os dados de PII dos usuários não se encaixam em mãos maliciosas e permitem manter a privacidade dos usuários em um dispositivo compartilhado limpando o cache da mensagem toda vez que o usuário fizer logout.</p><p>For more information, refer to the <a href="../../channels/using/about-in-app-messaging.md">detailed documentation</a> and the dedicated <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-in-app-message-tutorial.html">In-App tutorial</a>.</p> </td> 
+   <td> Mensagens no aplicativo móvel<br /> </td> 
+   <td> <p>Esta versão contém a versão GA do canal Dentro do aplicativo no Campaign. De um ponto de vista funcional, as adições mais importantes à versão Beta são relatórios Dinâmicos para canal no aplicativo e handshake seguro entre o SDK móvel e o MASU (Marketing Cloud In-App Service que serve as regras Dentro do aplicativo para o SDK). O handshake seguro garante que os dados de PII dos usuários não se encaixam em mãos maliciosas e permitem manter a privacidade dos usuários em um dispositivo compartilhado limpando o cache da mensagem toda vez que o usuário fizer logout.</p><p>Para obter mais informações, consulte a documentação <a href="../../channels/using/about-in-app-messaging.md">detalhada</a> e o tutorial dedicado <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-in-app-message-tutorial.html">no aplicativo</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> Workflow enhancements<br /> </td> 
+   <td> Aprimoramentos do fluxo de trabalho<br /> </td> 
    <td> <p>Os seguintes recursos do fluxo de trabalho foram adicionados:</p> 
     <ul> 
-     <li> Agora é possível copiar as atividades dentro de um fluxo de trabalho ou outro fluxo de trabalho da mesma instância Campanha. Dessa forma, é possível duplicar facilmente um fluxo de trabalho inteiro ou atividades específicas, além de manter as configurações definidas inicialmente. For more information, refer to the <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">detailed documentation</a>. (CAMP -20014) </li> 
-     <li> When using the <strong>Load file</strong> activity, you can now add a timestamp to the name of the file containing the rejected records. For more information, refer to the <a href="../../automating/using/load-file.md#configuration">detailed documentation</a>. </li> 
+     <li> Agora é possível copiar as atividades dentro de um fluxo de trabalho ou outro fluxo de trabalho da mesma instância Campanha. Dessa forma, é possível duplicar facilmente um fluxo de trabalho inteiro ou atividades específicas, além de manter as configurações definidas inicialmente. Para obter mais informações, consulte a <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">documentação detalhada</a>. (CAMP -20014) </li> 
+     <li> Ao usar a atividade <strong>de arquivo</strong> Carregar, você pode adicionar um carimbo de data e hora ao nome do arquivo que contém os registros rejeitados. Para obter mais informações, consulte a <a href="../../automating/using/load-file.md#configuration">documentação detalhada</a>. </li> 
      <li> <strong>As atividades de consulta</strong> e <strong>segmentação</strong> agora permitem ativar uma transição de saída se as atividades não recuperarem dados. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Security enhancements {#security-enhancements-1}
+### Aprimoramentos de segurança {#security-enhancements-1}
 
 * O código HTML da página de aterrissagem gerada foi atualizado para impedir a indexação do mecanismo de pesquisa.
 
-### Email Designer enhancements {#email-designer-enhancements-2}
+### Aprimoramentos do Designer de email {#email-designer-enhancements-2}
 
 * Um conjunto de quatro melhores modelos de e-mail responsivos da classe projetados pelos artistas do Behance agora está disponível.
 
-   For more information, refer to the [detailed documentation](../../start/using/about-templates.md#content-templates).
+   Para obter mais informações, consulte a [documentação detalhada](../../start/using/about-templates.md#content-templates).
 
 * Nossa nova experiência de acompanhamento ajudará você a iniciar a criação de emails mais rapidamente e facilitar o acesso à documentação e aos tutoriais.
 
-   For more information, refer to the [detailed documentation](../../designing/using/about-email-content-design.md#email-designer-home-page).
+   Para obter mais informações, consulte a [documentação detalhada](../../designing/using/about-email-content-design.md#email-designer-home-page).
 
 * Agora você tem a flexibilidade de configurar o número de colunas e largura com base em suas necessidades.
 
-   For more information, refer to the [detailed documentation](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+   Para obter mais informações, consulte a [documentação detalhada](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
 
 * Ao editar na exibição móvel, você pode ocultar determinados componentes apenas em dispositivos móveis para uso eficaz do espaço.
 
-   For more information, refer to the [detailed documentation](../../designing/using/about-email-content-design.md#switching-to-mobile-view).
+   Para obter mais informações, consulte a [documentação detalhada](../../designing/using/about-email-content-design.md#switching-to-mobile-view).
 
 * Agora você pode adicionar canais sociais personalizados ao seu modelo de e-mail sobre os que já estão disponíveis.
 * Correção de um problema que impedia a rolagem do menu de estrutura ao usar mais de 18 estruturas. (CAMP -31173)
 * Correção de um problema que exibia o precabeçalho sobre o conteúdo ao encaminhar um e-mail contendo um pré-cabeçalho enviado com o Adobe Campaign. (CAMP -30736)
-* Fixed an issue that prevented the subject line from being updated when clicking the **Refresh AEM content** option after modifying the subject in Adobe Experience Manager. (CAMP -29984)
+* Correção de um problema que impedia a atualização da linha de assunto ao clicar na **opção Atualizar conteúdo** do AEM após modificar o assunto no Adobe Experience Manager. (CAMP -29984)
 * Correção de vários problemas que impedia o uso de imagens dinâmicas do Adobe Target.
 * Correção de um problema que impedia a atualização da visualização ao recuperar o conteúdo no tempo de preparação se o conteúdo tivesse sido importado anteriormente de um URL.
-* The YouTube icon has been added to the **Social** content component.
-* The **List** view has been added for content components and fragments displayed in the Email Designer palette.
+* O ícone do youtube foi adicionado ao componente de conteúdo **do Social** .
+* A exibição **Lista** foi adicionada para os componentes e fragmentos de conteúdo exibidos na paleta do Designer de email.
 
-### Other improvements {#other-improvements-1}
+### Outras melhorias {#other-improvements-1}
 
 * O Adobe Campaign agora é compatível totalmente com o FCM para aplicativos SDK V 4 e AEP SDK.
 * O Adobe Campaign oferece suporte para notificações por push no Desgaste OS pelo Android, bem como para watchos pela Apple.
@@ -366,12 +376,12 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * A lista suspensa Fuso horário na tela de criação de perfil foi movida da seção Endereço para a seção superior da interface.
 * Agora você pode adicionar separadores ao configurar telas de recursos personalizadas, permitindo que você organize seus campos em categorias.
 
-   For more information, refer to the [detailed documentation](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration).
+   Para obter mais informações, consulte a [documentação detalhada](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration).
 
-### Other changes {#other-changes-1}
+### Outras alterações {#other-changes-1}
 
-* O Adobe Campaign e a Adobe Experience Cloud soltam o suporte para o Microsoft Internet Explorer 11, iniciando o segundo trimestre de 2019, e a versão Campaign Standard 19.2. Alterne para Microsoft Edge ou outro navegador compatível. See [Deprecated and removed features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) page.
-* The **Country code** field from the Profile resource has been renamed to **Country/Region code**.
+* O Adobe Campaign e a Adobe Experience Cloud soltam o suporte para o Microsoft Internet Explorer 11, iniciando o segundo trimestre de 2019, e a versão Campaign Standard 19.2. Alterne para Microsoft Edge ou outro navegador compatível. Consulte [Página de recursos](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) obsoletos e removidos.
+* O **campo de código** País do recurso Perfil foi renomeado para **o código País/Região**.
 
 ### Patches {#patches-1}
 
@@ -396,51 +406,51 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * Correção de um problema que causava a discrepância entre os perfis direcionados ao criar uma entrega no aplicativo e os exibidos no painel de entrega. (CAMP -28722)
 * Correção de um problema com a integração de Campanha e Ativos principais, que podia impedir a seleção de um ativo compartilhado por email.
 
-## Release 19.0 - January 2019 {#release-19-0---january-2019}
+## Versão 19.0 - janeiro de 2019 {#release-19-0---january-2019}
 
-### What's new? {#what-s-new--2}
+### Novidades? {#what-s-new--2}
 
 <table> 
  <colgroup><col style="width: 30%"><col style="width: 70%"></colgroup>
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
+   <th> Funcionalidade<br /> </th> 
+   <th> Descrição<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Email Designer General Availability<br /> </td> 
+   <td> Disponibilidade geral do Designer do email<br /> </td> 
    <td> <p>O novo Designer de email intuitivo (antigo Creative Designer) foi movido para GA. Agora, é compatível com todos os recursos do editor de conteúdo herdado, incluindo:</p> 
     <ul> 
-     <li> The use of <a href="../../integrating/using/adding-target-dynamic-content.md">dynamic images from Adobe Target</a> </li> 
-     <li> The ability to <a href="../../designing/using/importing-content-from-a-url.md#retrieving-content-from-a-url-automatically-at-preparation-time">retrieve content from a URL automatically at preparation time</a> </li> 
-     <li> Fully compliant <a href="../../start/using/about-templates.md#content-templates">out-of-the box content templates</a>. </li> 
+     <li> O uso de <a href="../../integrating/using/adding-target-dynamic-content.md">imagens dinâmicas do Adobe Target</a> </li> 
+     <li> A capacidade <a href="../../designing/using/importing-content-from-a-url.md#retrieving-content-from-a-url-automatically-at-preparation-time">de recuperar o conteúdo de um URL automaticamente em tempo de preparação</a> </li> 
+     <li> Modelos de conteúdo <a href="../../start/using/about-templates.md#content-templates">de caixa totalmente compatíveis</a>. </li> 
     </ul> 
-    <p>For more information, refer to the <a href="../../designing/using/about-email-content-design.md">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">how-to video</a>. As melhorias e correções estão listadas abaixo.</p><p>Como consequência, o editor de conteúdo de email herdado agora está obsoleto. For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
+    <p>Para obter mais informações, consulte a documentação <a href="../../designing/using/about-email-content-design.md">detalhada</a> e o vídeo <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">passo</a>a passo. As melhorias e correções estão listadas abaixo.</p><p>Como consequência, o editor de conteúdo de email herdado agora está obsoleto. Para obter mais informações, consulte esta <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">página</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> Product Listings in Transactional Emails<br /> </td> 
-   <td> <p>Agora é possível fazer referência a uma ou mais coleções de produtos em uma mensagem de email transacional. Por exemplo, você pode enviar automaticamente um e-mail de abandono de carrinho listando todos os produtos que estavam no carrinho do usuário com uma imagem, preço e link para cada produto.</p><p>For more information, refer to the <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html">how-to video</a>.</p> </td> 
+   <td> Listagens de produto em emails transacionais<br /> </td> 
+   <td> <p>Agora é possível fazer referência a uma ou mais coleções de produtos em uma mensagem de email transacional. Por exemplo, você pode enviar automaticamente um e-mail de abandono de carrinho listando todos os produtos que estavam no carrinho do usuário com uma imagem, preço e link para cada produto.</p><p>Para obter mais informações, consulte a documentação <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">detalhada</a> e o vídeo <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html">passo</a>a passo.</p> </td> 
   </tr> 
   <tr> 
-   <td> Mobile View in the Email Designer<br /> </td> 
-   <td> <p>Agora você pode alternar para uma exibição móvel dedicada ao editar o conteúdo de email. Isso permite ajustar o design responsivo de um email editando separadamente todas as opções de estilo para exibição móvel, como adaptar margens, tamanho de fonte menor, cor de plano de fundo diferente e assim por diante.</p><p> For more information, refer to the <a href="../../designing/using/about-email-content-design.md#switching-to-mobile-view">detailed documentation</a>.</p> </td> 
+   <td> Exibição móvel no Designer de email<br /> </td> 
+   <td> <p>Agora você pode alternar para uma exibição móvel dedicada ao editar o conteúdo de email. Isso permite ajustar o design responsivo de um email editando separadamente todas as opções de estilo para exibição móvel, como adaptar margens, tamanho de fonte menor, cor de plano de fundo diferente e assim por diante.</p><p> Para obter mais informações, consulte a <a href="../../designing/using/about-email-content-design.md#switching-to-mobile-view">documentação detalhada</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> In-App Messaging Beta Improvements<br /> </td> 
+   <td> Melhorias beta no aplicativo no aplicativo<br /> </td> 
    <td> <p>O recurso Beta de mensagens no aplicativo foi aprimorado com os seguintes recursos:</p> 
     <ul> 
      <li> O canal beta no aplicativo é compatível com o RGPD </li> 
      <li> Integração com as apis do Analytics para preencher os acionadores de acionadores </li> 
      <li> Aparência e descrição intuitivas dos modelos de entrega </li> 
      <li> Aprimoramentos na interface de criação do ponto de vista de utilização </li> 
-    </ul> <p>For more information, refer to the <a href="../../channels/using/about-in-app-messaging.md">detailed documentation</a>.</p> </td> 
+    </ul> <p>Para obter mais informações, consulte a <a href="../../channels/using/about-in-app-messaging.md">documentação detalhada</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Improvements {#improvements}
+### Melhorias {#improvements}
 
 * Uma nova opção na atividade de dados Carregar agora permite aplicar uma etapa de pós-processamento ao arquivo que contém os registros rejeitados (ex. Compactação de formato zip). (CAMP -24521)
 * Uma nova opção na atividade de atualização de dados agora permite configurar o tamanho máximo do lote para os dados serem carregados. (CAMP -28400)
@@ -450,7 +460,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * A lista de países disponíveis ao definir o endereço de um perfil foi aprimorada. (CAMP -26707)
 * Uma mensagem de erro agora é exibida ao tentar importar um fluxo de trabalho incorporado.
 
-### Email Designer {#email-designer}
+### Designer de emails {#email-designer}
 
 * Correção de um problema que ativava o recurso de unidade geográfica em um modelo de e-mail ou um fragmento de conteúdo criado com o Designer de email, mesmo que esse recurso fosse desativado no Adobe Campaign, o que fazia com que o modelo ou fragmento não disponível ao tentar acessá-lo novamente. (CAMP -28174)
 * Correção de um problema que impedia que as condições de conteúdo dinâmico fossem salvas durante a edição de conteúdo com o Designer de email. (CAMP -27905)
@@ -470,7 +480,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 
 * Correção de um problema que exibia registros de entrega incorretos no relatório dinâmico. (CAMP -23446)
 * Correção de um problema que poderia afetar os números no relatório de Resumo de rejeição (CAMP -28703)
-* Fixed an issue with the Campaign and Assets Core Service integration which could prevent assets from being displayed when selecting **[!UICONTROL Image shared from Adobe Experience Cloud]** in an email (CAMP-28732).
+* Correção de um problema com a integração de Campanha e Ativos principais, que podia impedir a exibição de ativos ao selecionar **[!UICONTROL Image shared from Adobe Experience Cloud]** em um email (CAMP -28732).
 * Correção de um problema que impedia que mensagens SMS contendo o caractere'œ'fossem enviadas mesmo que a transliteração fosse autorizada na conta externa SMPP. (CAMP -29041)
 * Correção de um problema que exibia registros duplicados ao usar uma atividade de Segmentação nos fluxos de trabalho. (CAMP -28743)
 * Correção de um problema que impedia a exclusão de um dos mapeamentos de valor em uma coluna em uma atividade de fluxo de trabalho. (CAMP -28708)
