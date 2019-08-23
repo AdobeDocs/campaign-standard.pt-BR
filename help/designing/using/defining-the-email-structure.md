@@ -14,21 +14,21 @@ discoiquuid: 207 fdf 6 d -165 a -41 af-ad 53-ba 97 d 3403 b 62
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7de6436bbd4f1cc5032e13414f7337f637bf608a
+source-git-commit: c2316d35c582efc8a3cc9be5de810c5dbe3f5e97
 
 ---
 
 
-# Defining the email structure{#defining-the-email-structure}
+# Definição da estrutura de email{#defining-the-email-structure}
 
-## Editing the email structure {#editing-the-email-structure}
+## Editar a estrutura de email {#editing-the-email-structure}
 
 O Designer de email permite que você defina facilmente a estrutura do seu e-mail. Ao adicionar e mover elementos estruturais com ações simples de arrastar e soltar, você pode projetar a forma de seu email em segundos.
 
 Para editar a estrutura de um e-mail:
 
 1. Abra um conteúdo existente ou crie um novo conteúdo de email.
-1. Access the **[!UICONTROL Structure components]** by selecting the **+** icon on the left.
+1. Acesse o **[!UICONTROL Structure components]** ícone **+** selecionado à esquerda.
 
    ![](assets/email_designer_structure.png)
 
@@ -44,7 +44,7 @@ Para editar a estrutura de um e-mail:
 
 1. Vários componentes de estrutura compostos de uma ou mais colunas estão disponíveis.
 
-   Select the **[!UICONTROL n:n column]** component to define the number of columns of your choice (between 3 and 10). Você também pode definir a largura de cada coluna movendo as setas na parte inferior de cada coluna.
+   Selecione o **[!UICONTROL n:n column]** componente para definir o número de colunas de sua escolha (entre 3 e 10). Você também pode definir a largura de cada coluna movendo as setas na parte inferior de cada coluna.
 
    ![](assets/email_designer_n-n-column.png)
 
@@ -54,20 +54,20 @@ Para editar a estrutura de um e-mail:
 
 Quando a estrutura estiver definida, você poderá adicionar fragmentos de conteúdo e componentes ao seu e-mail.
 
-## Adding fragments and content components {#adding-fragments-and-content-components}
+## Adição de fragmentos e componentes de conteúdo {#adding-fragments-and-content-components}
 
 Com o Designer de email, depois de adicionar componentes de estrutura ao seu e-mail, você pode definir seu conteúdo. Para fazer isso, você precisa adicionar elementos dentro de cada componente de estrutura.
 
-There are two categories of content elements that you can use: **fragments** and **content components**.
+Há duas categorias de elementos de conteúdo que podem ser usados: **fragmentos** e **componentes de conteúdo**.
 
-### About fragments {#about-fragments}
+### Sobre fragmentos {#about-fragments}
 
 Um fragmento é um componente reutilizável que pode ser referenciado em um ou mais emails.
 
 Para aproveitar o melhor uso de fragmentos no Designer de email:
 
-* Crie seus próprios fragmentos. See [Creating a content fragment](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment) and [Saving content as a fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
-* Use-os quantas vezes forem necessárias em seus e-mails. See [Inserting elements into an email](../../designing/using/defining-the-email-structure.md#inserting-elements-into-an-email).
+* Crie seus próprios fragmentos. Consulte [Criar um fragmento do conteúdo](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment) e [Salvar conteúdo como um fragmento](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
+* Use-os quantas vezes forem necessárias em seus e-mails. Consulte [Inserir elementos em um email](../../designing/using/defining-the-email-structure.md#inserting-elements-into-an-email).
 * Ao editar um fragmento, as alterações são sincronizadas: são propagados automaticamente para todos os emails (desde que ainda não tenham sido preparados ou enviados) contendo esse fragmento.
 
 Quando adicionados a um e-mail, os fragmentos são bloqueados por padrão. Se quiser modificar um fragmento para um e-mail específico, é possível quebrar a sincronização com o fragmento original desbloqueando-o no e-mail onde ele é usado. As alterações não serão mais sincronizadas.
@@ -76,9 +76,9 @@ Para desbloquear um fragmento dentro de um e-mail, selecione-o e clique no ícon
 
 ![](assets/des_unlocking_fragment.png)
 
-Esse fragmento se torna um componente independente que não é mais vinculado ao fragmento original. Ele pode ser editado como qualquer outro componente de conteúdo. See [About content components](../../designing/using/defining-the-email-structure.md#about-content-components).
+Esse fragmento se torna um componente independente que não é mais vinculado ao fragmento original. Ele pode ser editado como qualquer outro componente de conteúdo. Consulte [Sobre componentes de conteúdo](../../designing/using/defining-the-email-structure.md#about-content-components).
 
-### About content components {#about-content-components}
+### Sobre os componentes de conteúdo {#about-content-components}
 
 Os componentes de conteúdo são componentes brutos e vazios que podem ser editados uma vez em um e-mail.
 
@@ -88,13 +88,13 @@ Esta é a lista de componentes disponíveis no Email do Designer:
 
 * **[!UICONTROL Button]**
 
-   If you need to use multiple buttons, rather than editing each button from scratch, you can duplicate the **[!UICONTROL Button]** component using the contextual toolbar.
+   Se você precisar usar vários botões, em vez de editar cada botão do zero, poderá duplicar o **[!UICONTROL Button]** componente usando a barra de ferramentas contextual.
 
-   Também é possível salvar botões em fragmentos que podem ser reutilizados. For more on this, see [Creating a content fragment](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment) and [Saving content as a fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
+   Também é possível salvar botões em fragmentos que podem ser reutilizados. Para obter mais informações sobre isso, consulte [Criar um fragmento](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment) de conteúdo e [Salvar conteúdo como um fragmento](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
 
 * **[!UICONTROL Carousel]**
 
-   For more on this, see [Using the carousel component](../../designing/using/defining-the-email-structure.md#using-the-carousel-component).
+   Para saber mais sobre isso, consulte [Usando o componente de carrossel](../../designing/using/defining-the-email-structure.md#using-the-carousel-component).
 
 * **[!UICONTROL Divider]**
 * **[!UICONTROL Html]**
@@ -103,20 +103,20 @@ Esta é a lista de componentes disponíveis no Email do Designer:
 
    >[!NOTE]
    >
-   >Um componente HTML gratuito é editável com opções limitadas. If all styles are not inlined, make sure to add the proper CSS in the **head** section of the HTML code, otherwise the email will not be responsive. Use the **[!UICONTROL Preview]** button to test the responsiveness of your content (see [Previewing messages](../../sending/using/previewing-messages.md)).
+   >Um componente HTML gratuito é editável com opções limitadas. Se todos os estilos não estiverem alinhados, certifique-se de adicionar o CSS apropriado na seção **de cabeçalho** do código HTML; caso contrário, o e-mail não responderá. Use o **[!UICONTROL Preview]** botão para testar a responsividade do seu conteúdo (consulte [Visualizar mensagens](../../sending/using/previewing-messages.md)).
 
 * **[!UICONTROL Image]**
 * **[!UICONTROL Social]**
 * **[!UICONTROL Text]**
 
-#### Using the carousel component {#using-the-carousel-component}
+#### Uso do componente carrossel {#using-the-carousel-component}
 
-1. Drag and drop the **[!UICONTROL Carousel]** component inside a structure component.
+1. Arraste e solte o **[!UICONTROL Carousel]** componente dentro de um componente de estrutura.
 1. Navegue para selecionar imagens do seu computador.
 
    ![](assets/des_carousel_browse.png)
 
-1. From the **[!UICONTROL Settings]** pane, set the number of thumbnails that you want in the carousel.
+1. No **[!UICONTROL Settings]** painel, defina o número de miniaturas que você deseja no carrossel.
 1. Selecione uma imagem de fallback de seu computador.
 
    ![](assets/des_carousel_fallback.png)
@@ -127,13 +127,13 @@ Esta é a lista de componentes disponíveis no Email do Designer:
    >
    >O componente de carrossel é compatível com as seguintes plataformas de email: Apple Mail 7, Apple Mail 8, Outlook 2011 para Mac, Outlook 2016 para Mac, Mozilla Thunderbird, ipad e ipad mini iOS, iphone iOS, Android, AOL (Chrome, Firefox e Safari).
 
-1. Select **[!UICONTROL Fallback view]** to display the fallback image in the Email Designer.
+1. Selecione **[!UICONTROL Fallback view]** para exibir a imagem de fallback no Designer de email.
 
-### Inserting elements into an email {#inserting-elements-into-an-email}
+### Inserir elementos em um email {#inserting-elements-into-an-email}
 
-Para definir o conteúdo do seu e-mail, você pode adicionar elementos de conteúdo aos componentes de estrutura inseridos anteriormente. See [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+Para definir o conteúdo do seu e-mail, você pode adicionar elementos de conteúdo aos componentes de estrutura inseridos anteriormente. Consulte [Editando a estrutura de e-mail](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
 
-1. Access the content elements by selecting the **+** icon on the left. Select [Fragments](../../designing/using/defining-the-email-structure.md#about-fragments) or [Content components](../../designing/using/defining-the-email-structure.md#about-content-components).
+1. Acesse os elementos do conteúdo selecionando o **ícone +** à esquerda. Selecione [Fragmentos](../../designing/using/defining-the-email-structure.md#about-fragments) ou [Componentes de conteúdo](../../designing/using/defining-the-email-structure.md#about-content-components).
 1. Se você já conhece o rótulo ou parte do rótulo do fragmento que deseja adicionar, você pode pesquisá-lo.
 
    ![](assets/email_designer_fragmentsearch.png)
@@ -150,30 +150,30 @@ Para definir o conteúdo do seu e-mail, você pode adicionar elementos de conte�
 
    >[!NOTE]
    >
-   >Os fragmentos são bloqueados por padrão quando adicionados a um e-mail. É possível quebrar a sincronização com o fragmento original se quiser modificar o fragmento para um e-mail específico ou fazer sua alteração diretamente no fragmento. See [About fragments](../../designing/using/defining-the-email-structure.md#about-fragments).
+   >Os fragmentos são bloqueados por padrão quando adicionados a um e-mail. É possível quebrar a sincronização com o fragmento original se quiser modificar o fragmento para um e-mail específico ou fazer sua alteração diretamente no fragmento. Consulte [Sobre fragmentos](../../designing/using/defining-the-email-structure.md#about-fragments).
 
 1. Repita esse procedimento para todos os elementos que você precisa adicionar ao seu e-mail.
 1. Salve seu email.
 
-Agora que a estrutura de email é preenchida, é possível editar o estilo de cada elemento de conteúdo. See [Editing an element](../../designing/using/editing-email-styles.md#editing-an-element).
+Agora que a estrutura de email é preenchida, é possível editar o estilo de cada elemento de conteúdo. Consulte [Editando um elemento](../../designing/using/editing-email-styles.md#editing-an-element).
 
 >[!NOTE]
 >
->Se um fragmento for modificado, as alterações serão propagadas automaticamente nos emails onde são usadas. For more on this, see [About fragments](../../designing/using/defining-the-email-structure.md#about-fragments).
+>Se um fragmento for modificado, as alterações serão propagadas automaticamente nos emails onde são usadas. Para saber mais sobre isso, consulte [Sobre fragmentos](../../designing/using/defining-the-email-structure.md#about-fragments).
 
-### Creating a content fragment {#creating-a-content-fragment}
+### Criação de um fragmento de conteúdo {#creating-a-content-fragment}
 
 Você pode criar seus próprios fragmentos de conteúdo para usá-los conforme necessário em um ou mais emails.
 
-1. Go to **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** and click **[!UICONTROL Create]**.
-1. Click the email label to access the **[!UICONTROL Properties]** tab of the Email Designer.
+1. Vá **[!UICONTROL Resources]** para &gt; **[!UICONTROL Content templates & fragments]** e clique **[!UICONTROL Create]** em.
+1. Clique no rótulo do email para acessar **[!UICONTROL Properties]** a guia do Designer de email.
 1. Especifique um rótulo reconhecível e selecione os seguintes parâmetros para encontrar o fragmento mais tarde em novos e-mails:
 
-   * Because fragments are only compatible with emails, select **[!UICONTROL Delivery]** from the **[!UICONTROL Content type]** drop-down list.
-   * Select **[!UICONTROL Fragment]** from the **[!UICONTROL HTML type]** drop-down list to be able to use this content as a fragment in your emails.
+   * Como os fragmentos são compatíveis apenas com emails, selecione **[!UICONTROL Delivery]** na lista **[!UICONTROL Content type]** suspensa.
+   * Selecione **[!UICONTROL Fragment]** na lista **[!UICONTROL HTML type]** suspensa para poder usar esse conteúdo como um fragmento em seus e-mails.
    ![](assets/email_designer_createfragment.png)
 
-1. Se necessário, é possível definir uma imagem que será usada como miniatura do fragmento. Select it from the **[!UICONTROL Thumbnail]** tab of the template properties.
+1. Se necessário, é possível definir uma imagem que será usada como miniatura do fragmento. Selecione-o na **[!UICONTROL Thumbnail]** guia das propriedades do modelo.
 
    ![](assets/email_designer_createfragment_thumbnail.png)
 
@@ -183,13 +183,13 @@ Você pode criar seus próprios fragmentos de conteúdo para usá-los conforme n
 1. Adicione um componente de estrutura e um componente de conteúdo que você pode personalizar conforme necessário.
 1. Depois de editado, salve o fragmento.
 
-O fragmento agora pode ser usado em qualquer email criado com o Designer de email. It appears under the **[!UICONTROL Fragments]** section of the Palette.
+O fragmento agora pode ser usado em qualquer email criado com o Designer de email. Ela aparece na **[!UICONTROL Fragments]** seção da paleta.
 
 >[!NOTE]
 >
->Não é possível inserir campos de personalização dentro de um fragmento, a menos que seja usado em um e-mail. Para fazer isso, você precisa desbloquear esse fragmento. See [About fragments](../../designing/using/defining-the-email-structure.md#about-fragments).
+>Não é possível inserir campos de personalização dentro de um fragmento, a menos que seja usado em um e-mail. Para fazer isso, você precisa desbloquear esse fragmento. Consulte [Sobre fragmentos](../../designing/using/defining-the-email-structure.md#about-fragments).
 
-### Saving content as a fragment {#saving-content-as-a-fragment}
+### Salvar conteúdo como um fragmento {#saving-content-as-a-fragment}
 
 Ao editar um email com o Designer de email, você pode salvar diretamente parte desse email como um fragmento.
 
@@ -197,7 +197,7 @@ Ao editar um email com o Designer de email, você pode salvar diretamente parte 
 >
 >Não é possível salvar como fragmento uma estrutura contendo campos de personalização, conteúdo dinâmico ou outro fragmento.
 
-1. When editing an email in the Email Designer, select **[!UICONTROL Save as fragment]** from the main toolbar.
+1. Ao editar um email no Email do Designer, selecione **[!UICONTROL Save as fragment]** a partir da barra de ferramentas principal.
 
    ![](assets/email_designer_save-as-fragment.png)
 
@@ -211,11 +211,11 @@ Ao editar um email com o Designer de email, você pode salvar diretamente parte 
 
 1. Click **[!UICONTROL Create]**.
 
-1. Add a label and a description if needed, then click **[!UICONTROL Save]**.
+1. Adicione um rótulo e uma descrição, se necessário, e clique **[!UICONTROL Save]** em.
 
    ![](assets/email_designer_save-as-fragment_popup.png)
 
-1. To find the fragment that you just created, go to **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]**.
+1. Para localizar o fragmento recém-criado, vá **[!UICONTROL Resources]** para &gt; **[!UICONTROL Content templates & fragments]**.
 
    ![](assets/email_designer_save-as-fragment_list.png)
 
