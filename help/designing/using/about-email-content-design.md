@@ -14,7 +14,7 @@ discoiquuid: 39 b 86 fda -7766-4 e 5 f-ab 48-bcc 536 ab 66 b 3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
+source-git-commit: 2ac7fa8be4c408d75d77d3035af4cec25ac001c2
 
 ---
 
@@ -429,6 +429,10 @@ Você pode definir essa opção da exibição para dispositivos móveis ou para 
    A cor de fundo definida na exibição da área de trabalho agora é aplicada: torna-se cinza (não em branco).
 
    A única exceção é **[!UICONTROL Border color]** a configuração. Quando desativado na exibição móvel, nenhuma borda é aplicada, mesmo se uma cor da borda estiver definida na exibição da área de trabalho.
+
+>[!NOTE]
+>
+>A exibição móvel não está disponível em [fragmentos](../../designing/using/defining-the-email-structure.md#about-fragments).
 
 ## Texto simples e modos HTML {#plain-text-and-html-modes}
 
