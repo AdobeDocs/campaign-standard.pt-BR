@@ -14,14 +14,14 @@ discoiquuid: 95218 ebe -5430-42 a 2-b 900-1 dadbbc 92 d 99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: fb303447e40f044bd221616cc320499c3cff0c3e
 
 ---
 
 
-# About templates{#about-templates}
+# Sobre modelos{#about-templates}
 
-## Marketing activity templates {#marketing-activity-templates}
+## Modelos de atividade de marketing {#marketing-activity-templates}
 
 Quando você cria uma nova atividade de marketing, a primeira tela do assistente solicita que você selecione um tipo ou modelo. Os modelos permitem pré-configurar determinados parâmetros de acordo com suas necessidades. O modelo pode conter uma configuração completa ou parcial da atividade de marketing. O gerenciamento de modelo é realizado pelo administrador funcional.
 
@@ -31,7 +31,7 @@ Por exemplo, no caso de um modelo de email, você pode pré-preencher o conteúd
 
 ![](assets/template_1.png)
 
-Para cada tipo de atividade de marketing, há um ou vários modelos prontos para uso. Oferecem uma configuração mínima para cada tipo de atividade de marketing. Esses modelos prontos para uso não podem ser modificados ou excluídos.
+Para cada tipo de atividade de marketing, um ou vários modelos prontos para uso estão disponíveis com configuração mínima. Esses modelos prontos para uso não podem ser modificados ou excluídos.
 
 Os modelos estão disponíveis para as seguintes atividades de marketing:
 
@@ -46,24 +46,87 @@ Os modelos estão disponíveis para as seguintes atividades de marketing:
 * Importar
 * Mensagens transacionais
 
-These templates are managed from the **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** screen.
+Esses modelos são gerenciados na tela **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** .
 
 >[!NOTE]
 >
->A configuração da marca pode ser pré-configurada em um modelo de e-mail ou página de aterrissagem. For more information, refer to the [Branding](../../administration/using/branding.md) section.
+>A configuração da marca pode ser pré-configurada em um modelo de e-mail ou página de aterrissagem. Para obter mais informações, consulte a [seção Marca](../../administration/using/branding.md) .
 
-## Content templates {#content-templates}
+## Modelos de conteúdo {#content-templates}
 
-You can manage HTML contents that will be offered in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) home page.
+Os modelos de conteúdo HTML podem ser acessados na tela **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** do menu [Avançado](../../start/using/interface-description.md#advanced-menu). Desse ponto, você pode gerenciar modelos de conteúdo da página inicial, modelos de conteúdo e fragmentos de conteúdo.
 
-![](assets/template_content.png)
+![](assets/content_templates_list.png)
 
-Esses modelos incluem dezoito layouts otimizados para dispositivos móveis e quatro modelos responsivos melhores de classe projetados pelos artistas do Behance. Elas correspondem às utilizações mais atuais, como mensagens de boas-vindas do cliente, informativos e emails de reenvolvimento, entre outras. Eles podem ser facilmente personalizados com o conteúdo de suas marcas para facilitar o processo de desenvolvimento de emails do zero.
+Os modelos de conteúdo predefinidos são somente leitura. Para editar um deles, primeiro duplique-o.
 
-These out-of-the-box HTML contents are accessible from the **[!UICONTROL Template]** &gt; **[!UICONTROL Content templates & fragments]** screen of the [Advanced menu](../../start/using/interface-description.md#advanced-menu). Eles são somente leitura. Para editar um deles, primeiro duplique-o. Você também pode criar novos modelos e definir seu próprio conteúdo.
+É possível criar novos modelos ou fragmentos e definir seu próprio conteúdo. Para saber mais sobre isso, consulte [Criar um modelo de conteúdo](../../start/using/about-templates.md#creating-a-content-template) e [Criar um fragmento do conteúdo](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment).
+
+Ao editar conteúdo com o Designer de email, você também pode criar modelos de conteúdo salvando seu conteúdo como fragmento ou modelo. Para obter mais informações sobre isso, consulte [Salvar conteúdo como modelo](../../start/using/about-templates.md#saving-content-as-template) e [Salvar conteúdo como fragmento](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
+
+### Modelos de conteúdo de email prontos {#email-content-templates}
+
+Você pode gerenciar conteúdos HTML que são oferecidos na **[!UICONTROL Templates]** guia da página [inicial do Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) de email.
+
+Os modelos de conteúdo de email predefinidos incluem dezoito layouts otimizados para dispositivos móveis e quatro modelos responsivos melhores de classe projetados pelos artistas do Behance. Elas correspondem às utilizações mais atuais, como mensagens de boas-vindas do cliente, informativos e emails de reenvolvimento, entre outras. Eles podem ser facilmente personalizados com o conteúdo de suas marcas para facilitar o processo de desenvolvimento de emails do zero.
+
+![](assets/content_templates.png)
 
 **Tópicos relacionados:**
 
-* Learn how to personalize content templates [in this video](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html).
-* For more information on editing content, see [About email content design](../../designing/using/about-email-content-design.md).
+* Saiba como personalizar modelos de conteúdo [neste vídeo](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html).
+* Para obter mais informações sobre a edição de conteúdo, consulte [Sobre o design de conteúdo de email](../../designing/using/about-email-content-design.md).
+
+### Criação de um modelo de conteúdo {#creating-a-content-template}
+
+Você pode criar seus próprios modelos de conteúdo para usá-los quantas vezes forem necessárias.
+
+O exemplo a seguir mostra como criar um modelo de conteúdo de email.
+
+1. Vá **[!UICONTROL Resources]** para &gt; **[!UICONTROL Content templates & fragments]** e clique **[!UICONTROL Create]** em.
+1. Clique no rótulo do email para acessar **[!UICONTROL Properties]** a guia do Designer de email.
+1. Especifique um rótulo reconhecível e selecione os seguintes parâmetros para poder usar este modelo em emails:
+
+   * Selecione **[!UICONTROL Shared]** ou **[!UICONTROL Delivery]** na lista **[!UICONTROL Content type]** suspensa.
+   * Selecione **[!UICONTROL Template]** na lista **[!UICONTROL HTML type]** suspensa.
+   ![](assets/email_designer_create-template.png)
+
+1. Se necessário, você pode definir uma imagem que será usada como miniatura para o modelo. Selecione-o na **[!UICONTROL Thumbnail]** guia das propriedades do modelo.
+
+   ![](assets/email_designer_create-template_thumbnail.png)
+
+   Essa miniatura será exibida na **[!UICONTROL Templates]** guia da página [inicial do Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) de email.
+
+1. Feche a **[!UICONTROL Properties]** guia para retornar à área de trabalho principal.
+1. Adicione componentes de estrutura e componentes de conteúdo que você pode personalizar, conforme necessário.
+   >[!NOTE]
+   >
+   > Não é possível inserir campos de personalização ou conteúdo condicional dentro de um modelo de conteúdo.
+1. Depois de editado, salve o modelo.
+
+Esse modelo agora pode ser usado em qualquer email criado com o Designer de email. Selecione-o na **[!UICONTROL Templates]** guia da página [inicial do Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) de email.
+
+![](assets/content_template_new.png)
+
+### Salvar conteúdo como modelo {#saving-content-as-template}
+
+Ao editar um email com o Designer de email, você pode salvar diretamente o conteúdo desse email como um modelo.
+
+<!--[!CAUTION]
+>
+>You cannot save as template a structure containing personalization fields or dynamic content.-->
+
+1. Selecione **[!UICONTROL Save as template]** na barra de ferramentas principal do Designer de email.
+
+   ![](assets/email_designer_save-as-template.png)
+
+1. Adicione um rótulo e uma descrição, se necessário, e clique **[!UICONTROL Save]** em.
+
+   ![](assets/email_designer_save-as-template_creation.png)
+
+1. Para encontrar o modelo recém-criado, vá **[!UICONTROL Resources]** para &gt; **[!UICONTROL Content templates & fragments]**.
+
+1. Para usar o novo modelo, selecione-o na **[!UICONTROL Templates]** guia da página [inicial do Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) de email.
+
+   ![](assets/content_template_new.png)
 
