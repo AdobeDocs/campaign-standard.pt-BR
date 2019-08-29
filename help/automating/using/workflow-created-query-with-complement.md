@@ -15,7 +15,7 @@ context-tags: fluxo de trabalho, caso de uso, segmentação
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -42,15 +42,14 @@ Você pode enviar um email para os clientes: um para clientes criados há menos 
 1. Passe o mouse sobre o segmento em seguida, clique ![](assets/edit_darkgrey-24px.png) em para direcionar os clientes adicionados deste ano no banco de dados.
 1. Arraste e solte **[!UICONTROL Profiles]** e selecione **[!UICONTROL Created]** com o tipo **[!UICONTROL Relative]** de filtro.
 1. Altere o **[!UICONTROL Level of precision]** para **[!UICONTROL Year]** e selecione **[!UICONTROL This year]**.
-
->[!NOTE]
->
->Para observar a estrutura da regra, clique **[!UICONTROL Advanced Mode]** em.
-
 1. Clique **[!UICONTROL Confirm]** duas vezes.
 1. Em **[!UICONTROL Advanced Options]**, marque **[!UICONTROL Generate complement]** para criar um segmento direcionado aos destinatários restantes.
 1. Click **[!UICONTROL Confirm]**.
 1. Click **[!UICONTROL Save]**.
+
+>[!NOTE]
+>
+>Para observar a estrutura da regra, clique **[!UICONTROL Advanced Mode]** em.
 
 ## Criação de uma entrega por email {#create-an-email-delivery}
 
@@ -62,11 +61,10 @@ Você pode enviar um email para os clientes: um para clientes criados há menos 
 1. Para criar o layout de seu email, clique **[!UICONTROL Email Designer]** em.
 1. Inserir elementos ou selecionar um modelo existente.
 1. Personalize seu email com ofertas específicas para cada entrega.
-
-Para obter mais informações, consulte [Criar um email](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
-
 1. Clique **[!UICONTROL Preview]** em para verificar o layout.
 1. Click **[!UICONTROL Save]**.
+
+Para obter mais informações, consulte [Criar um email](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
 
 **Tópicos relacionados:**
 
