@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: usuário final
 user-guide-title: Ajuda do Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 0a6476c1c8b57bd3cda4942e9a772ca59596398d
+source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 
 ---
 
@@ -290,6 +290,12 @@ source-git-commit: 0a6476c1c8b57bd3cda4942e9a772ca59596398d
       + [Exportação de logs](automating/using/exporting-logs.md)
       + [Gerenciamento de pacotes](automating/using/managing-packages.md)
       + [Exportar listas](automating/using/exporting-lists.md)
+   + Casos de uso: Fluxos de trabalho {#workflow-use-case}
+      + [Criação de entregas com um complemento](automating/using/workflow-created-query-with-complement.md)
+      + [Criação de entregas na data de criação](automating/using/workflow-creation-date-query.md)
+      + [Criação de uma entrega semanal](automating/using/workflow-weekly-offer.md)
+      + [Criação de uma segmentação no local](automating/using/workflow-segmentation-location.md)
+      + [Redirecionamento não-openers](automating/using/workflow-cross-channel-retargeting.md)
 + Desenvolver {#developing}
    + Sobre recursos personalizados {#about-custom-resources}
       + [Conceitos do modelo de dados](developing/using/data-model-concepts.md)
