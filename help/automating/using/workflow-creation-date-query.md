@@ -15,7 +15,7 @@ context-tags: fluxo de trabalho, caso de uso, consulta
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -36,14 +36,13 @@ Você pode enviar uma oferta por email no aniversário da criação do perfil do
 1. Em **[!UICONTROL Execution frequency]**, selecione **[!UICONTROL Daily]**.
 1. Selecione a **[!UICONTROL Time]** e a **[!UICONTROL Repetition frequency]** execução do seu fluxo de trabalho.
 1. Selecione **[!UICONTROL Start]** uma data e **[!UICONTROL Expiration]** seu fluxo de trabalho.
+1. Confirme sua atividade e salve seu fluxo de trabalho.
 
 >[!NOTE]
 >
 >Para iniciar o fluxo de trabalho em um fuso horário específico, na **[!UICONTROL Execution options]** guia, configure o fuso horário do seu programador no **[!UICONTROL Time zone]** campo.
 
 ![](assets/time_zone.png)
-
-1. Confirme sua atividade e salve seu fluxo de trabalho.
 
 ## Criação de uma atividade de consulta {#creating-a-query-activity}
 
@@ -75,13 +74,13 @@ Click **[!UICONTROL Confirm]**.
 1. No **[!UICONTROL Query]** editor, selecione a primeira consulta e duplique-a.
 1. Abra a duplicata.
 1. Substitua **[!UICONTROL Day]** por **[!UICONTROL Month]** na consulta.
-Você deve acabar com isso:
-
-``` Month(@created) = Month(GetDate()) ```
-
 1. Click **[!UICONTROL Confirm]**.
 
 ![](assets/month_rule.png)
+
+Você deve acabar com isso:
+
+``` Month(@created) = Month(GetDate()) ```
 
 A consulta final é exibida:
 
