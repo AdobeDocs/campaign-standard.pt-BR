@@ -15,7 +15,7 @@ context-tags: 'fluxo de trabalho, caso de uso, consulta, segmentação, entrega 
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -45,11 +45,7 @@ Observação: Para atingir todas as pessoas que entraram em boston, não se preo
 1. Click **[!UICONTROL Confirm]**.
 1. Em **[!UICONTROL List of outbound segments]**, clique **[!UICONTROL Add an element]** e clique ![](assets/edit_darkgrey-24px.png) em para criar um segmento direcionado às pessoas na segunda cidade. Aqui Chicago.
 1. Arraste e solte **[!UICONTROL Location]** , e selecione **[!UICONTROL City]** com o operador **[!UICONTROL equals to]** e digite **[!UICONTROL Chicago]** o valor.
-
->[!NOTE]
->
->Para atingir todas as pessoas que entraram em chicago, não se preocupe com a opção desmarcar a opção distinção entre maiúsculas e minúsculas.
-
+1. Para atingir todas as pessoas que entraram em chicago, não se preocupe com a opção desmarcar a opção distinção entre maiúsculas e minúsculas.
 1. Click **[!UICONTROL Confirm]**.
 
 ## Criação de uma entrega por email{#creating-an-email-delivery}
