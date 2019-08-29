@@ -15,7 +15,7 @@ context-tags: fluxo de trabalho, caso de uso, consulta, entrega, programador
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -37,14 +37,13 @@ Você pode enviar um email toda terça-feira para todos os clientes para ofertas
 1. Selecione a **[!UICONTROL Time]** e a **[!UICONTROL Repetition frequency]** para suas entregas.
 1. Em **[!UICONTROL Days of the week]**, selecione **[!UICONTROL Tuesday]**.
 1. Especifique um **[!UICONTROL Start]** parâmetro e um **[!UICONTROL Expiration]** parâmetro para o seu fluxo de trabalho.
+1. Confirme sua atividade e salve seu fluxo de trabalho.
 
 ![](assets/scheduler_properties.png)
 
 >[!NOTE]
 >
 >Para iniciar o fluxo de trabalho em um determinado momento **[!UICONTROL Time Zone]** na **[!UICONTROL Execution options]** guia, configure o fuso horário do seu programador no campo Fuso horário.
-
-1. Confirme sua atividade e salve seu fluxo de trabalho.
 
 ## Criação de uma atividade de consulta{#creating-a-query-activity}
 
