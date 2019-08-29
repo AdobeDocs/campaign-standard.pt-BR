@@ -14,12 +14,12 @@ discoiquuid: 8 dc 45 c 37-6908-407 e -8 e 41-4 a 4188 cba 2 b 3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7c7a46fdba2395c773582923c6bd647c2d6c9d6
+source-git-commit: 50620788c05b76cc2f69c19c26f968ca15a02048
 
 ---
 
 
-# Creating or extending the resource{#creating-or-extending-the-resource}
+# Como criar ou estender o recurso{#creating-or-extending-the-resource}
 
 Os administradores podem criar um novo recurso do zero ou criar uma extensão de um recurso existente se você precisar trabalhar em dados que não façam parte do modelo de dados out-of-box.
 
@@ -37,7 +37,7 @@ Apenas os seguintes recursos prontos para uso podem ser estendidos:
 
 Para criar ou estender um recurso:
 
-1. From **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom Resources]**, click the **[!UICONTROL Create]** button.
+1. Em **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom Resources]**, clique no **[!UICONTROL Create]** botão.
 1. Escolha a ação que deseja executar:
 
    * **[!UICONTROL Create a new resource]**: Insira os campos **[!UICONTROL Label]** e **[!UICONTROL ID]** os campos. **[!UICONTROL ID]** O campo é obrigatório. Se você deixar o campo Rótulo vazio, ele será preenchido automaticamente da ID.
@@ -46,12 +46,12 @@ Para criar ou estender um recurso:
 
       >[!NOTE]
       >
-      >Começamos e usamos o máximo de 30 caracteres.
+      >Recomendamos usar o máximo de 30 caracteres.
 
    * **[!UICONTROL Extend an existing resource]**: Selecione o recurso que deseja estender.
 
       ![](assets/schema_extension_10.png)
 
-1. Click **[!UICONTROL Create]** to create the resource, which will then take on the **[!UICONTROL Draft]** status in case of new resource or the **[!UICONTROL Editing]** status in case of extension.
+1. Clique **[!UICONTROL Create]** em para criar o recurso, que assume o **[!UICONTROL Draft]** status em caso de novo recurso ou o **[!UICONTROL Editing]** status no caso da extensão.
 
-O novo recurso é criado e agora pode ser configurado. For more on resource configuration, refer to [Configuring the resource's data structure](../../developing/using/configuring-the-resource-s-data-structure.md).
+O novo recurso é criado e agora pode ser configurado. Para obter mais informações sobre a configuração de recursos, consulte [Configuração da estrutura de dados do recurso](../../developing/using/configuring-the-resource-s-data-structure.md).
