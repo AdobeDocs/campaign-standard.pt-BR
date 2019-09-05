@@ -14,7 +14,7 @@ discoiquuid: 95218 ebe -5430-42 a 2-b 900-1 dadbbc 92 d 99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e2766bb9fef619142d3ee59cb8aa8ed20424a3f
+source-git-commit: 816c580d952848ac760c9a98c06f54bf260f3554
 
 ---
 
@@ -54,19 +54,19 @@ Esses modelos são gerenciados na tela **[!UICONTROL Resources]** &gt; **[!UICON
 
 ## Modelos de conteúdo {#content-templates}
 
-Os modelos de conteúdo HTML podem ser acessados na tela **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** do menu [Avançado](../../start/using/interface-description.md#advanced-menu). Desse ponto, você pode gerenciar modelos de conteúdo da página inicial, modelos de conteúdo e fragmentos de conteúdo.
+Os modelos de conteúdo HTML podem ser acessados na tela **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** do menu [Avançado](../../start/using/interface-description.md#advanced-menu). Nele, é possível gerenciar modelos de conteúdo da página inicial, modelos de conteúdo de email e também fragmentos.
 
 ![](assets/content_templates_list.png)
 
-Os modelos de conteúdo predefinidos são somente leitura. Para editar um deles, primeiro duplique-o.
+Os modelos de conteúdo predefinidos são somente leitura. Para editar um deles, primeiro duplique o modelo desejado.
 
 É possível criar novos modelos ou fragmentos e definir seu próprio conteúdo. Para saber mais sobre isso, consulte [Criar um modelo de conteúdo](../../start/using/about-templates.md#creating-a-content-template) e [Criar um fragmento do conteúdo](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment).
 
-Ao editar conteúdo com o Designer de email, você também pode criar modelos de conteúdo salvando seu conteúdo como fragmento ou modelo. Para obter mais informações sobre isso, consulte [Salvar conteúdo como modelo](../../start/using/about-templates.md#saving-content-as-template) e [Salvar conteúdo como fragmento](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
+Ao editar conteúdo com o Designer de email, você também pode criar modelos de conteúdo salvando seu conteúdo como um fragmento ou como um modelo. Para obter mais informações sobre isso, consulte [Salvar conteúdo como modelo](../../start/using/about-templates.md#saving-content-as-template) e [Salvar conteúdo como fragmento](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
 
 ### Modelos de conteúdo de email prontos {#email-content-templates}
 
-Você pode gerenciar conteúdos HTML que são oferecidos na **[!UICONTROL Templates]** guia da página [inicial do Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) de email.
+Você pode gerenciar o conteúdo HTML que é oferecido na **[!UICONTROL Templates]** guia da página [inicial do Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) de email.
 
 Os modelos de conteúdo de email predefinidos incluem dezoito layouts otimizados para dispositivos móveis e quatro modelos responsivos melhores de classe projetados pelos artistas do Behance. Elas correspondem às utilizações mais atuais, como mensagens de boas-vindas do cliente, informativos e emails de reenvolvimento, entre outras. Eles podem ser facilmente personalizados com o conteúdo de suas marcas para facilitar o processo de desenvolvimento de emails do zero.
 
