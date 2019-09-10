@@ -15,7 +15,7 @@ context-tags: fluxo de trabalho, caso de uso, segmentação
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
+source-git-commit: 035726bbd3112058b9a89525a861521bc3b9867e
 
 ---
 
@@ -36,6 +36,8 @@ Você pode enviar um email para os clientes: um para clientes criados há menos 
 1. Em **[!UICONTROL Shortcuts]**, arraste e solte **[!UICONTROL Profiles]** e selecione **[!UICONTROL no longer contact by email]** com o valor **[!UICONTROL no]**.
 1. Click **[!UICONTROL Confirm]**.
 
+![](assets/wf-complement-query.png)
+
 ## Criar uma atividade de segmentação {#create-a-segmentation-activity}
 
 1. Em **[!UICONTROL Activities]** &gt; **[!UICONTROL Targeting]**, arraste e solte **[!UICONTROL Segmentation]** uma atividade e clique duas vezes nele.
@@ -46,6 +48,8 @@ Você pode enviar um email para os clientes: um para clientes criados há menos 
 1. Em **[!UICONTROL Advanced Options]**, marque **[!UICONTROL Generate complement]** para criar um segmento direcionado aos destinatários restantes.
 1. Click **[!UICONTROL Confirm]**.
 1. Click **[!UICONTROL Save]**.
+
+![](assets/wf-complement-segmentation.png)
 
 >[!NOTE]
 >
@@ -65,6 +69,8 @@ Você pode enviar um email para os clientes: um para clientes criados há menos 
 1. Click **[!UICONTROL Save]**.
 
 Para obter mais informações, consulte [Criar um email](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
+
+![](assets/wf-deliveries-with-a-complement.png)
 
 **Tópicos relacionados:**
 
