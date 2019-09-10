@@ -15,14 +15,14 @@ context-tags: Queryfilter, overview; público-alvo, principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
 
-# Editing queries{#editing-queries}
+# Edição de consultas{#editing-queries}
 
-## About query editor {#about-query-editor}
+## Sobre o editor de consultas {#about-query-editor}
 
 O editor de consulta é um assistente que permite filtrar dados contidos no banco de dados do Adobe Campaign.
 
@@ -30,70 +30,70 @@ Esse recurso permite que você crie uma população para direcionar melhor seus 
 
 Várias funcionalidades do aplicativo usam-a para:
 
-* Create **Query** type **audiences**
-* Define **email** targets
-* Define populations in **workflow** activities
+* Criar **públicos** -alvo de tipo **de consulta**
+* Definir **metas de e-mail**
+* Definir populações em atividades **de fluxo de trabalho**
 
-## Query editor interface {#query-editor-interface}
+## Interface do editor de consultas {#query-editor-interface}
 
-The query editor is made up of a **Palette** and a **Workspace**.
+O editor de consulta é composto por **uma Paleta** e **uma Workspace**.
 
 ![](assets/query_editor_overview.png)
 
-### Palette {#palette}
+### Paleta {#palette}
 
 A paleta, localizada no lado esquerdo do editor, é dividida em duas guias, que contêm elementos divididos em blocos temáticos. Essas guias são:
 
 * **Os Atalhos**, disponíveis por padrão ou criados pelo administrador da instância. Aqui, você encontrará campos, nós, agrupamentos, 1-1 links, links de 1 N e outros filtros predefinidos.
 * **O Explorer** , que permite acessar todos os campos disponíveis no recurso de destino: nós, elementos de agrupamento, links (1-1 e 1-N).
 
-Os elementos contidos nas guias devem ser movidos para a área de trabalho para serem configurados e considerados para a consulta. Depending on the targeting dimension selected (see [Targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources)), you can:
+Os elementos contidos nas guias devem ser movidos para a área de trabalho para serem configurados e considerados para a consulta. Dependendo da dimensão de definição de metas selecionada (consulte [Dimensões e recursos de definição de metas](../../automating/using/query.md#targeting-dimensions-and-resources)), você pode:
 
 * Selecione públicos-alvo ou perfis um por um
 * Usar filtros predefinidos
 * Definir regras simples para campos de sua escolha
 * Definir regras avançadas que permitem aplicar funções a certos campos
 
-### Workspace {#workspace}
+### Espaço de trabalho {#workspace}
 
 A área de trabalho é a zona central na qual é possível configurar e combinar regras, públicos-alvo e filtros predefinidos adicionados a partir da paleta.
 
-When you move an element from the palette into the workspace, a new window opens and you can start [Creating queries](../../automating/using/editing-queries.md#creating-queries).
+Quando um elemento é movido da paleta para a área de trabalho, uma nova janela é aberta e você pode começar [a Criar consultas](../../automating/using/editing-queries.md#creating-queries).
 
-## Creating queries {#creating-queries}
+## Criação de consultas {#creating-queries}
 
 O editor de consulta pode ser usado para definir um público-alvo ou perfil de teste em uma mensagem, uma população em um fluxo de trabalho e para criar um público-alvo de tipo de consulta.
 
-Queries can be defined in the **[!UICONTROL Audience]** window while creating a delivery or in a **Query** activity while creating a workflow.
+As consultas podem ser definidas na **[!UICONTROL Audience]** janela ao criar uma entrega ou em uma atividade **de consulta** ao criar um fluxo de trabalho.
 
 1. Mova um elemento da paleta até a área de trabalho. A janela para edição da regra é aberta.
 
-   * For a string or numerical **field**, specify the comparison operator and the value.
+   * Para uma sequência de caracteres ou **um campo numérico**, especifique o operador de comparação e o valor.
 
       ![](assets/query_editor_audience_definition2.png)
 
-   * For a date or date and time **field**, you can choose to define a specific date, a range between two dates, or a period relative to the query's execution date.
+   * Para uma data ou **um campo de data e hora**, você pode escolher definir uma data específica, um intervalo entre duas datas ou um período relativo à data de execução da consulta.
 
       ![](assets/query_editor_date_field.png)
 
-   * For a Boolean **field**, check the boxes linked to the possible values for the field.
-   * For a **grouping** field, select the grouping field on which you want to create the rule, then define the condition in the same way as for the other fields.
+   * Para um **campo** Booliano, marque as caixas vinculadas aos valores possíveis do campo.
+   * Para um **campo de agrupamento** , selecione o campo de agrupamento no qual deseja criar a regra e defina a condição da mesma forma que para os outros campos.
 
       ![](assets/query_editor_audience_definition4.png)
 
-   * For a **1-1** link with another database resource, select a value directly from the table targeted.
+   * Para um **link 1-1** com outro recurso de banco de dados, selecione um valor diretamente da tabela direcionada.
 
       ![](assets/query_editor_audience_definition5.png)
 
-   * For a **1-N** link with another database resource, you can define a sub-query on the fields of this second resource.
+   * Para um link **de 1 N** com outro recurso de banco de dados, você pode definir uma subconsulta nos campos desse segundo recurso.
 
       Não é necessário especificar uma subcondição.
 
-      For example, you can only select the **[!UICONTROL Exists]** operator on the profile tracking logs and approve the rule. A regra retornará todos os perfis para os quais existem registros de rastreamento.
+      Por exemplo, você só pode selecionar o **[!UICONTROL Exists]** operador nos logs de rastreamento de perfil e aprovar a regra. A regra retornará todos os perfis para os quais existem registros de rastreamento.
 
       ![](assets/query_editor_audience_definition6.png)
 
-   * For a **predefined filter**, enter or select the elements you like according to the criteria offered.
+   * Para um filtro **** predefinido, insira ou selecione os elementos que você deseja de acordo com os critérios oferecidos.
 
       Os administradores podem criar filtros para facilitar consultas complexas e repetitivas. Eles aparecerão no editor de consultas na forma de regras pré-definidas e limitarão o número de etapas necessárias para serem executadas pelo usuário.
 
@@ -106,7 +106,7 @@ Queries can be defined in the **[!UICONTROL Audience]** window while creating a 
    * **[!UICONTROL OR]**: uma união de dois critérios. Os elementos que correspondem ao pelo menos um dos dois critérios são considerados.
    * **[!UICONTROL EXCEPT]**: critérios de exclusão. Os elementos que corresponderem ao primeiro critério são levados em conta, a menos que também correspondam ao segundo critério.
 
-1. You can now calculate and preview the number of elements targeted by your query using the ![](assets/count.png) and ![](assets/preview.png) buttons from the action bar.
+1. Agora é possível calcular e visualizar o número de elementos direcionados por sua consulta usando os ![](assets/count.png)![](assets/preview.png) botões da barra de ações.
 
    ![](assets/query_editor_combining_rules.png)
 
@@ -118,4 +118,7 @@ Suas consultas agora são criadas e definidas, permitindo que você crie uma pop
 
 * [Funções avançadas](../../automating/using/advanced-expression-editing.md)
 * [Definição de filtros](../../developing/using/configuring-filter-definition.md)
-
+* [Caso de uso: Criar uma entrega de email uma vez a semana](../../automating/using/workflow-weekly-offer.md)
+* [Caso de uso: Criação de uma entrega segmentada na localização](../../automating/using/workflow-segmentation-location.md)
+* [Caso de uso: Criação de entregas com um complemento](../../automating/using/workflow-created-query-with-complement.md)
+* [Caso de uso: Fluxo de trabalho de redefinição de metas enviando uma nova entrega para não-openers](../../automating/using/workflow-cross-channel-retargeting.md)
