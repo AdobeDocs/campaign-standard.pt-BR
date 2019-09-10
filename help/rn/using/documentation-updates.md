@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8006d2631a512c68ffdd6eed9e7536abac45faa2
+source-git-commit: 815a0aba5a31346e3cd8dcaf0c24ee311da81ed1
 
 ---
 
@@ -26,6 +26,14 @@ Saiba mais sobre todas as últimas atualizações da documentação do Adobe Cam
 Esta página lista todos os novos recursos e atualizações de documentação para cada versão do Adobe Campaign Standard.
 
 Você também pode consultar as Notas [de versão do Adobe Campaign](../../rn/using/release-notes.md).
+
+## Atualizações da documentação - setembro de 2019 {#doc-updates-september-2019}
+
+Uma nova seção foi adicionada na seção Notificações por push sobre como criar e atualizar informações de perfil com base em dados de assinatura do aplicativo móvel. [Ler mais](../../channels/using/updating-profile-with-mobile-app-data.md)
+
+Um novo exemplo que mostra como enviar um e-mail contendo dados adicionais recuperados de uma atividade de carregamento de arquivo foi adicionado. [Ler mais](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
+
+Uma nova seção sobre como usar os trappings foi adicionada. [Ler mais](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)
 
 ## Atualizações da documentação - agosto de 2019 {#doc-updates-august-2019}
 
