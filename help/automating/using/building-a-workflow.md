@@ -15,12 +15,12 @@ context-tags: fluxo de trabalho, assistente; fluxo de trabalho, principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
 
-# Building a workflow{#building-a-workflow}
+# Criação de um fluxo de trabalho{#building-a-workflow}
 
 Esta seção apresenta os principais princípios e práticas recomendadas para criar um novo fluxo de trabalho:
 
@@ -28,11 +28,11 @@ Esta seção apresenta os principais princípios e práticas recomendadas para c
 * Adicionar e vincular atividades.
 * Configuração das atividades.
 
-## Creating a workflow {#creating-a-workflow}
+## Criação de um fluxo de trabalho {#creating-a-workflow}
 
 Você pode criar um fluxo de trabalho a partir de um programa, uma campanha ou uma lista de atividades de marketing.
 
-Creating a marketing activity is detailed in the [Creating marketing activities](../../start/using/marketing-activities.md#creating-a-marketing-activity) section.
+A criação de uma atividade de marketing é detalhada na seção [Criar atividades](../../start/using/marketing-activities.md#creating-a-marketing-activity) de marketing.
 
 1. Depois de começar a criar uma atividade de marketing de tipo de fluxo de trabalho, selecione o modelo que deseja usar.
 
@@ -40,13 +40,13 @@ Creating a marketing activity is detailed in the [Creating marketing activities]
 
    >[!NOTE]
    >
-   >Cada atividade de marketing oferece vários tipos por padrão. Eles permitem pré-configurar determinados parâmetros de acordo com suas necessidades. For more information, refer to the [Managing templates](../../start/using/about-templates.md) section.
+   >Cada atividade de marketing oferece vários tipos por padrão. Eles permitem pré-configurar determinados parâmetros de acordo com suas necessidades. Para obter mais informações, consulte [a](../../start/using/about-templates.md) seção Gerenciar modelos.
 
 1. Insira as propriedades gerais do fluxo de trabalho.
 
    ![](assets/workflow_creation_2.png)
 
-   You can enter a name in the **Label** field and modify the ID. O nome da atividade e sua ID aparecem na interface, mas não são visíveis pelos destinatários da mensagem.
+   Você pode inserir um nome no campo **Rótulo** e modificar a ID. O nome da atividade e sua ID aparecem na interface, mas não são visíveis pelos destinatários da mensagem.
 
    >[!NOTE]
    >
@@ -56,13 +56,13 @@ Creating a marketing activity is detailed in the [Creating marketing activities]
 
    Como facilita encontrar e solucionar problemas se não estiverem realizando das formas esperadas, a Adobe recomenda dar aos seus fluxos de trabalho nomes e rótulos próprios: preencha o campo de descrição do fluxo de trabalho para resumir o processo a ser executado para que o operador possa entendê-lo facilmente.
 
-1. Confirme se a atividade e o painel para essa atividade serão exibidos. For more on this, refer to the [Workflow interface](../../automating/using/workflow-interface.md) section.
+1. Confirme se a atividade e o painel para essa atividade serão exibidos. Para obter mais informações sobre isso, consulte a [seção da interface](../../automating/using/workflow-interface.md) Fluxo de trabalho.
 
 **Tópico relacionado:**
 
 [Criação de](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-workflow-feature-video-use.html) um vídeo de fluxo de trabalho
 
-## Adding and linking activities {#adding-and-linking-activities}
+## Adição e vinculação de atividades {#adding-and-linking-activities}
 
 Agora, você deve definir as várias atividades e vinculá-las em conjunto no diagrama.
 
@@ -81,9 +81,9 @@ Para criar o diagrama:
 
 1. Adicione uma atividade arrastando-a da paleta e soltando-a no diagrama.
 
-   For example, add a **Start** activity and then an **Email delivery** activity on the diagram.
+   Por exemplo, adicione uma atividade **de Início** e uma **atividade de entrega** de email no diagrama.
 
-1. Link the activities together by dragging the **Start** activity transition and dropping it on to the **Email delivery** activity.
+1. Vincule as atividades ao arrastar a **transição** de atividade Iniciar e soltando-a na atividade **de entrega** de email.
 
    >[!NOTE]
    >
@@ -93,20 +93,26 @@ Para criar o diagrama:
 
    >[!NOTE]
    >
-   >Também é possível duplicar atividades existentes copiando-as. Dessa forma, você mantém as configurações definidas originalmente. For more on this, refer to [Duplicating workflow activities](../../automating/using/workflow-interface.md#duplicating-workflow-activities).
+   >Também é possível duplicar atividades existentes copiando-as. Dessa forma, você mantém as configurações definidas originalmente. Para saber mais sobre isso, consulte [Duplicar atividades](../../automating/using/workflow-interface.md#duplicating-workflow-activities)do fluxo de trabalho.
 
-Once your workflow activities are linked together, you can personalize the transitions between them with the **label** of your choice. Para fazer isso, clique duas vezes na transição para acessar suas propriedades.
+Uma vez que as atividades de fluxo de trabalho são vinculadas juntas, você pode personalizar as transições com **o rótulo** de sua escolha. Para fazer isso, clique duas vezes na transição para acessar suas propriedades.
 
-Moreover, **[!UICONTROL Targeting]** and **[!UICONTROL Data management (ETL)]** activities allows you to define **segment codes** for their outbound transitions. Você pode então criar relatórios com base nesses códigos de segmento para medir a eficiência das suas campanhas de maketing. For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
+Além disso, **[!UICONTROL Targeting]****[!UICONTROL Data management (ETL)]** as atividades permitem definir códigos **de segmento** para suas transições de saída. Você pode então criar relatórios com base nesses códigos de segmento para medir a eficiência das suas campanhas de maketing. For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
 
-## Configuring activities {#configuring-activities}
+**Casos de uso do fluxo de trabalho:**
+
+* [Caso de uso: Criar uma entrega de email uma vez a semana](../../automating/using/workflow-weekly-offer.md)
+* [Caso de uso: Criação de uma entrega segmentada na localização](../../automating/using/workflow-segmentation-location.md)
+* [Caso de uso: Criação de entregas com um complemento](../../automating/using/workflow-created-query-with-complement.md)
+* [Caso de uso: Fluxo de trabalho de redefinição de metas enviando uma nova entrega para não-openers](../../automating/using/workflow-cross-channel-retargeting.md)
+
+## Configuração de atividades {#configuring-activities}
 
 Por padrão, as atividades não são definidas e não processarão os dados corretamente se não estiverem configuradas. Cada atividade contém várias guias para gerenciar configurações específicas e opções genéricas de atividade, como transições de saída, rótulos etc.
 
 1. Verifique se todas as atividades estão corretamente conectadas. Algumas atividades exigem a detecção da estrutura ou da natureza dos dados recebidos para oferecer as opções de configuração corretas.
-1. Double-click an activity or select it and click the **[!UICONTROL Edit]** contextual action to open its configuration window.
+1. Clique duas vezes em uma atividade ou selecione-a e clique na **[!UICONTROL Edit]** ação contextual para abrir sua janela de configuração.
 1. Edite o rótulo da atividade.
 1. Defina todas as opções diferentes necessárias para processar os dados. Consulte a seção específica da atividade desta documentação para saber as opções possíveis para cada atividade.
 1. Salve a atividade e repita essas operações para cada atividade do fluxo de trabalho.
 1. Salve o fluxo de trabalho.
-
