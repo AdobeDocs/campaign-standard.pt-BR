@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: usuário final
 user-guide-title: Ajuda do Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: 3b7da7df5092476be4c6acc21b2ad2472a80da83
 
 ---
 
@@ -84,6 +84,7 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
       + [Como preparar e enviar uma notificação por push](channels/using/preparing-and-sending-a-push-notification.md)
       + [Personalização de uma notificação por push](channels/using/customizing-a-push-notification.md)
       + [Criação de uma notificação por push multilíngue](channels/using/creating-a-multilingual-push-notification.md)
+      + [Criação e atualização de informações de perfil com base em dados de aplicativos móveis](channels/using/updating-profile-with-mobile-app-data.md)
    + Mensagens no aplicativo {#in-app-messaging}
       + [Sobre mensagens no aplicativo](channels/using/about-in-app-messaging.md)
       + [Como preparar e enviar uma mensagem no aplicativo](channels/using/preparing-and-sending-an-in-app-message.md)
