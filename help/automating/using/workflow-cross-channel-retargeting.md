@@ -15,7 +15,7 @@ context-tags: 'fluxo de trabalho, caso de uso, consulta, espera, entrega '
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: 035726bbd3112058b9a89525a861521bc3b9867e
 
 ---
 
@@ -36,6 +36,8 @@ Você pode enviar um email para os clientes e depois um sms para aqueles que nã
 1. Em **[!UICONTROL Shortcuts]**, arraste e solte **[!UICONTROL Profiles]** e selecione **[!UICONTROL no longer contact by email]** com o valor **[!UICONTROL no ]**.
 1. Click **[!UICONTROL Confirm]**.
 
+![](assets/wf-complement-query.png)
+
 ## Criação de uma entrega por email{#creating-an-email-delivery}
 
 1. Arraste e solte uma entrega[!UICONTROL Email delivery]de email**** após cada segmento.
@@ -44,7 +46,6 @@ Você pode enviar um email para os clientes e depois um sms para aqueles que nã
 1. Selecione **[!UICONTROL Add an outbound transition without the population]** e clique **[!UICONTROL Next]** em.
 1. Selecione um modelo de e-mail e clique **[!UICONTROL Next]** em.
 1. Insira as propriedades e clique **[!UICONTROL Next]** em.
-1. Renomeie a oferta **de email de email**.
 1. Para criar o layout de seu email, clique **[!UICONTROL Using the Email Designer]** em.
 1. Inserir elementos ou selecionar um modelo existente.
 1. Personalize seu email com ofertas específicas para cada localização. Para obter mais informações, consulte [Criar um email](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
@@ -76,6 +77,8 @@ Você pode enviar um email para os clientes e depois um sms para aqueles que nã
 Para obter mais informações, consulte [Criar um sms](../../channels/using/creating-an-sms-message.md).
 1. Clique **[!UICONTROL Preview]** em para verificar o layout.
 1. Click **[!UICONTROL Save]**.
+
+![](assets/wf-retargeting-non-openers.png)
 
 **Tópicos relacionados:**
 
