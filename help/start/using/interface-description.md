@@ -2,146 +2,146 @@
 title: Descrição da interface
 seo-title: Descrição da interface
 description: Descrição da interface
-seo-description: '" Saiba como navegar e usar a área de trabalho do Adobe Campaign: página inicial, barra superior, menus avançados e barras de ação. "'
+seo-description: '"Saiba como navegar e usar a área de trabalho do Adobe Campaign: página inicial, barra superior, menus avançados e barras de ação."'
 page-status-flag: nunca ativado
-uuid: af 9 f 0 f 1 f-d 24 a -4 dc 7-b 4 a 8-70290 de 6 eb 3 f
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+uuid: af9f0f1f-d24a-4dc7-b4a8-70290de6eb3f
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: reference
-topic-tags: discobrindo-the-interface
-discoiquuid: dafd 9860-cd 22-4 c 30-86 b 7-631 b 64 db 7 b 3 f
+content-type: referência
+topic-tags: discover-the-interface
+discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 14155f29492f66b070dd302c59bdd8e81008f281
 
 ---
 
 
-# Interface description{#interface-description}
+# Descrição da interface{#interface-description}
 
-O Adobe Campaign permite que você navegue por diferentes menus e tela para gerenciar suas campanhas.
+O Adobe Campaign permite que você navegue por diferentes menus e telas para gerenciar suas campanhas.
 
 Todas as telas do Adobe Campaign são constituídas pelos seguintes elementos:
 
 * Uma barra superior para navegação
 * Um menu avançado para acessar funcionalidades e configurações específicas
-* Uma zona central para funcionar em determinados elementos
-* Um painel lateral, de acordo com o contexto, para filtrar ou pesquisar nos elementos exibidos.
+* Uma zona central para trabalhar em determinados elementos
+* Um painel lateral, de acordo com o contexto, para filtrar ou pesquisar dentro dos elementos exibidos.
 
 ![](assets/ux_interface_01.png)
 
-## Home page {#home-page}
+## Página inicial {#home-page}
 
-A página inicial é composta de um conjunto de cartões que fornece acesso rápido à principal funcionalidade do Adobe Campaign. A lista de capacidades que podem ser vistas na página inicial da Campanha depende das suas permissões e das opções configuradas para a sua organização.
+A página inicial é composta de um conjunto de cartões que fornecem acesso rápido às principais funcionalidades do Adobe Campaign. A lista de capacidades que você pode ver na página inicial do Campaign depende de suas permissões e das opções configuradas para sua organização.
 
 ![](assets/overview_home_page.png)
 
-* **[!UICONTROL Create an email]** O cartão leva você para o assistente de criação de email. Esse assistente permite escolher um tipo de email, selecionar os destinatários e definir o conteúdo. Refer to the [Creating an email](../../channels/using/creating-an-email.md) section.
-* **[!UICONTROL Create an SMS]** O cartão leva você para o assistente de criação de SMS. Esse assistente permite escolher um tipo de SMS, selecionar os destinatários e definir o conteúdo. Refer to the [Creating an SMS](../../channels/using/creating-an-sms-message.md) section.
-* The **[!UICONTROL Create a Direct mail]** card takes you to the direct mail creation assistant. Refer to the [Creating a direct mail](../../channels/using/creating-the-direct-mail.md) section.
-* The **[!UICONTROL Create a push notification]** card takes you to the notification creation assistant. Esse assistente permite escolher um tipo de notificação por push, selecionar os destinatários e definir o conteúdo. Refer to the [Creating a push notification](../../channels/using/preparing-and-sending-a-push-notification.md) section.
-* The **[!UICONTROL Create an InApp message]** card takes you to the InApp creation assistant. Esse assistente permite que você selecione o tipo de mensagem do inapp que deseja criar, defina suas propriedades, público e conteúdo. Refer to the [Creating an InApp message](../../channels/using/about-in-app-messaging.md) section.
-* The **[!UICONTROL Marketing activities]** card takes you to the complete list of all the activities, programs, and campaigns, particularly emails, SMS, workflows, and landing pages. Desse ponto, você pode filtrar os elementos pesquisando por nome, data, status ou tipo de atividade. For more on this, refer to the [Marketing activity list](../../start/using/marketing-activities.md#about-marketing-activities) section.
-* **[!UICONTROL Programs & campaigns]** O cartão leva você para a lista de programas em que você pode criar e gerenciar suas campanhas. Refer to [Program list](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
-* **[!UICONTROL Timeline]** O cartão leva você diretamente para uma linha de tempo interativa de suas atividades de marketing, em que você pode consultar os programas em andamento e seu conteúdo. Refer to [Timeline](../../start/using/timeline.md).
-* **[!UICONTROL Customer profiles]** O cartão leva você diretamente para a lista de perfis. Aqui, você pode consultar os eventos relacionados a cada perfil na lista. Refer to [Managing profiles](../../audiences/using/about-profiles.md).
-* The **[!UICONTROL Audiences]** card takes you directly to the list of audiences. Aqui, você pode acessar públicos-alvo existentes e criar novos. Refer to [Managing audiences](../../audiences/using/about-audiences.md).
+* O **[!UICONTROL Create an email]** cartão leva você ao assistente de criação de email. Este assistente permite que você escolha um tipo de email, selecione os destinatários da mensagem e defina o conteúdo. Consulte a seção [Criação de um email](../../channels/using/creating-an-email.md) .
+* O **[!UICONTROL Create an SMS]** cartão leva você ao assistente de criação do SMS. Este assistente permite que você escolha um tipo de SMS, selecione os destinatários da mensagem e defina o conteúdo. Consulte a seção [Criação de um SMS](../../channels/using/creating-an-sms-message.md) .
+* O **[!UICONTROL Create a Direct mail]** cartão leva você ao assistente de criação de mala direta. Consulte a seção [Criação de uma mala direta](../../channels/using/creating-the-direct-mail.md) .
+* O **[!UICONTROL Create a push notification]** cartão leva você ao assistente de criação de notificações. Este assistente permite que você escolha um tipo de notificação por push, selecione os destinatários da mensagem e defina o conteúdo. Consulte a seção [Criação de uma notificação](../../channels/using/preparing-and-sending-a-push-notification.md) por push.
+* O **[!UICONTROL Create an InApp message]** cartão leva você ao assistente de criação do InApp. Este assistente permite que você selecione o tipo de mensagem do InApp que deseja criar, defina suas propriedades, público-alvo e conteúdo. Consulte a seção [Criação de uma mensagem](../../channels/using/about-in-app-messaging.md) do InApp.
+* O **[!UICONTROL Marketing activities]** cartão leva você à lista completa de todas as atividades, programas e campanhas, especialmente emails, SMS, fluxos de trabalho e páginas de aterrissagem. Aqui, você pode filtrar os elementos pesquisando por nome, data, status ou tipo de atividade. Para obter mais informações, consulte a seção Lista [de atividades de](../../start/using/marketing-activities.md#about-marketing-activities) marketing.
+* O **[!UICONTROL Programs & campaigns]** cartão leva você à lista de programas nos quais você pode criar e gerenciar suas campanhas. Consulte a lista [de](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns)Programas.
+* O **[!UICONTROL Timeline]** cartão leva você diretamente para uma linha do tempo interativa de suas atividades de marketing, na qual você pode consultar os programas em andamento e seu conteúdo. Consulte a [Linha do tempo](../../start/using/timeline.md).
+* O **[!UICONTROL Customer profiles]** cartão leva você diretamente para a lista de perfis. Aqui você pode consultar os eventos referentes a cada um dos perfis na sua lista. Consulte [Gerenciamento de perfis](../../audiences/using/about-profiles.md).
+* O **[!UICONTROL Audiences]** cartão leva você diretamente para a lista de públicos. Aqui você pode acessar públicos existentes e criar novos. Consulte [Gerenciamento de públicos-alvo](../../audiences/using/about-audiences.md).
 
-## Top bar {#top-bar}
+## Barra superior {#top-bar}
 
-A barra superior é visível em todas as tela e permite navegar pelas funcionalidades do Adobe Campaign, bem como acessar o perfil da Adobe conectado, notificações, outros serviços e soluções da Adobe Experience Cloud e a documentação.
+A barra superior fica visível em todas as telas e permite navegar pelas funcionalidades do Adobe Campaign, bem como acessar o perfil da Adobe conectado, as notificações, outros serviços e soluções da Adobe Experience Cloud e a documentação.
 
 Os princípios de navegação são:
 
-* The **[!UICONTROL Adobe Campaign]** logo in the top left-hand corner of the page gives you access to the advanced capabilities and configurations. Os menus dependem do seu perfil e das permissões.
+* O **[!UICONTROL Adobe Campaign]** logotipo no canto superior esquerdo da página fornece acesso aos recursos e configurações avançados. Os menus dependem do seu perfil e das suas permissões.
 
-   The advanced menu is presented in the [Advanced menu](../../start/using/interface-description.md#advanced-menu) section.
+   O menu avançado é apresentado na seção Menu [](../../start/using/interface-description.md#advanced-menu) avançado.
 
-* The **[!UICONTROL Home]** link allows you to display the Adobe Campaign home page.
-* The **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** and **[!UICONTROL Reports]** links let you access the views linked to these functionalities.
-* The **[!UICONTROL Help]** button gives access to the product documentation and contextual help, release notes, version numbers, legal notices, as well as the links to the Adobe Experience Cloud community and customer care.
+* O **[!UICONTROL Home]** link permite exibir a página inicial do Adobe Campaign.
+* Os links **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]** e **[!UICONTROL Audiences]** **[!UICONTROL Reports]** permitem acessar as exibições vinculadas a essas funcionalidades.
+* O **[!UICONTROL Help]** botão dá acesso à documentação do produto e à ajuda contextual, notas de versão, números de versão, avisos legais, bem como aos links para a comunidade da Adobe Experience Cloud e atendimento ao cliente.
 
    ![](assets/ux_help.png)
 
-* The **Select solution** icon lets you switch to another Adobe Experience Cloud solution as well as to the profile settings.
-* The **Notifications** icon displays the latest alerts or information.
-* The **User** icon allows you to display information linked to your profile. It gives access to the **[!UICONTROL Sign out]** button.
+* O ícone **Selecionar solução** permite alternar para outra solução da Adobe Experience Cloud, bem como para as configurações de perfil.
+* O ícone **Notificações** exibe os alertas ou as informações mais recentes.
+* O ícone **Usuário** permite exibir informações vinculadas ao seu perfil. Dá acesso ao **[!UICONTROL Sign out]** botão.
 
-## Advanced menu {#advanced-menu}
+## Menu Avançado {#advanced-menu}
 
-The advanced menu is displayed by clicking the **Adobe Campaign** icon, in the top left corner of each screen. O menu avançado pode variar dependendo do contrato e das permissões do usuário.
+O menu avançado é exibido clicando no ícone do **Adobe Campaign** , no canto superior esquerdo de cada tela. O menu avançado pode variar dependendo do contrato e das permissões do usuário.
 
 Esse menu permite que você navegue até funcionalidades e configurações específicas.
 
-### Marketing plans {#marketing-plans}
+### Planos de marketing {#marketing-plans}
 
-The **[!UICONTROL Marketing plans]** icon gives you access the following functionalities:
+O **[!UICONTROL Marketing plans]** ícone fornece acesso às seguintes funcionalidades:
 
-* **[!UICONTROL Marketing activities]** - para obter mais informações sobre isso, consulte a [seção da lista](../../start/using/marketing-activities.md#about-marketing-activities) de atividades de marketing.
-* **[!UICONTROL Programs & Campaigns]** - para obter mais informações sobre isso, consulte a [seção da lista](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns) de Programas.
-* **[!UICONTROL Timeline]** - para obter mais informações sobre isso, consulte a [seção Linha do tempo](../../start/using/timeline.md) .
-* **[!UICONTROL Transactional messages]**, que contém os submenus **[!UICONTROL Deliveries]** e **[!UICONTROL Event configuration]** , para obter mais informações sobre isso, consulte a [seção Mensagens](../../channels/using/about-transactional-messaging.md) transacionais.
+* **[!UICONTROL Marketing activities]** - para mais informações, consulte a seção da lista [de atividades de](../../start/using/marketing-activities.md#about-marketing-activities) marketing.
+* **[!UICONTROL Programs & Campaigns]** - para obter mais informações, consulte a seção da lista [](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns) de programas.
+* **[!UICONTROL Timeline]** - para obter mais informações, consulte a seção [Linha do tempo](../../start/using/timeline.md) .
+* **[!UICONTROL Transactional messages]**, que contém os submenus **[!UICONTROL Deliveries]** e **[!UICONTROL Event configuration]** - para obter mais informações, consulte a seção Mensagens [transacionais](../../channels/using/about-transactional-messaging.md) .
 
-### Profiles &amp; audiences {#profiles-e-audiences}
+### Perfis e públicos-alvo {#profiles-e-audiences}
 
-The **[!UICONTROL Profiles & audiences]** icon gives you access to the following functionalities:
+O **[!UICONTROL Profiles & audiences]** ícone fornece acesso às seguintes funcionalidades:
 
-* **[!UICONTROL Profiles]** - para obter mais informações sobre isso, consulte [a](../../audiences/using/about-profiles.md) seção Gerenciamento de perfis.
-* **[!UICONTROL Test profiles]** - para obter mais informações sobre isso, consulte [a seção Gerenciamento de perfis](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles) de teste.
-* **[!UICONTROL Audiences]** - para obter mais informações sobre isso, consulte [a](../../audiences/using/about-audiences.md) seção Gerenciamento de públicos-alvo.
-* **[!UICONTROL Services]** - para obter mais informações sobre isso, consulte [a](../../audiences/using/creating-a-service.md) seção Criar um serviço.
+* **[!UICONTROL Profiles]** - para obter mais informações, consulte a seção [Gerenciar perfis](../../audiences/using/about-profiles.md) .
+* **[!UICONTROL Test profiles]** - para obter mais informações, consulte a seção [Gerenciar perfis](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles) de teste.
+* **[!UICONTROL Audiences]** - para obter mais informações, consulte a seção [Gerenciamento de públicos-alvo](../../audiences/using/about-audiences.md) .
+* **[!UICONTROL Services]** - para obter mais informações, consulte a seção [Criação de um serviço](../../audiences/using/creating-a-service.md) .
 
-### Resources {#resources}
+### Recursos {#resources}
 
-The **[!UICONTROL Resources]** icon gives you access to the following functionalities:
+O **[!UICONTROL Resources]** ícone fornece acesso às seguintes funcionalidades:
 
-* **[!UICONTROL Templates]**, que contém os submenus para cada tipo de modelo - para obter mais informações sobre isso, consulte [a](../../start/using/about-templates.md) seção Gerenciar modelos.
-* **[!UICONTROL Content blocks]** - para obter mais informações sobre isso, consulte [a seção Adicionar um bloco](../../designing/using/adding-a-content-block.md) de conteúdo.
-* **[!UICONTROL Content templates & fragments]** - para obter mais informações sobre isso, consulte a [seção de modelo](../../start/using/about-templates.md#content-templates) de Conteúdo.
+* **[!UICONTROL Templates]**, que contém os submenus para cada tipo de modelo - para obter mais informações, consulte a seção [Gerenciar modelos](../../start/using/about-templates.md) .
+* **[!UICONTROL Content blocks]** - para obter mais informações, consulte a seção [Adicionar um bloco](../../designing/using/personalization.md#adding-a-content-block) de conteúdo.
+* **[!UICONTROL Content templates & fragments]** - para obter mais informações, consulte a seção [Content template](../../designing/using/using-reusable-content.md#content-templates) (Modelo de conteúdo).
 
-### Administration {#administration}
+### Administração {#administration}
 
-The **[!UICONTROL Administration]** icon gives you access to the advanced functionalities that can only be carried out by functional administrator. For more on this, refer to the [Administration](../../administration/using/about-administrating-adobe-campaign.md) section.
+O **[!UICONTROL Administration]** ícone fornece acesso às funcionalidades avançadas que só podem ser executadas pelo administrador funcional. Para mais informações, consulte a seção [Administração](../../administration/using/about-administrating-adobe-campaign.md) .
 
-## Central zone {#central-zone}
+## Zona central {#central-zone}
 
-A zona central da interface do usuário é uma zona dinâmica que contém uma lista de elementos ou um conjunto de cartões por exemplo. Ele permite que você edite elementos existentes e crie recursos.
+A zona central da interface do usuário é uma zona dinâmica que contém uma lista de elementos ou um conjunto de cartões, por exemplo. Permite que você edite elementos existentes e crie recursos.
 
 ![](assets/ux_genericscreen.png)
 
 O conteúdo e o formato de exibição da zona central podem variar:
 
-* A **list** presenting various elements such as programs, campaigns, profiles, etc. These elements can be viewed in **[!UICONTROL Card]** or **[!UICONTROL List]** mode. Use o botão de modo de alteração para alternar entre um e outro. Cada elemento exibe indicadores.
+* Uma **lista** que apresenta vários elementos, como programas, campanhas, perfis etc. Esses elementos podem ser exibidos no modo **[!UICONTROL Card]** ou **[!UICONTROL List]** . Use o botão change mode (Modo de alteração) para alternar de um para o outro. Cada elemento exibe indicadores.
 
    ![](assets/ux_liste.png)
 
-   Um contador permite que você esteja ciente do número de elementos. Se esse número exceder 30, será necessário clicar nesse contador para obter o número total.
+   Um contador permite que você esteja ciente do número de elementos. Se esse número exceder 30, você precisará clicar neste contador para obter o número total.
 
-* A **dashboard** presenting an overview of all the parameters linked to an activity. Essa tela inclui zonas interativas que permitem separar e configurar os diferentes conceitos independentemente.
+* Um **painel** que apresenta uma visão geral de todos os parâmetros vinculados a uma atividade. Esta tela inclui zonas interativas que permitem separar e configurar os diferentes conceitos de forma independente.
 
    ![](assets/ux_dashboard.png)
 
-* If several offers are possible when creating an element, a **selection screen** allows you to select the type of element to add (campaigns, deliveries). Essa tela de seleção também é oferecida para acessar os relatórios.
+* Se várias ofertas forem possíveis ao criar um elemento, uma tela **de** seleção permitirá que você selecione o tipo de elemento a ser adicionado (campanhas, entregas). Essa tela de seleção também é oferecida para acessar os relatórios.
 
    ![](assets/ux_activityselection.png)
 
-* For the workflows and the query editor, a **workspace** with a palette is made available for you to design the object.
+* Para os fluxos de trabalho e o editor de consultas, um espaço de **trabalho** com uma paleta é disponibilizado para você projetar o objeto.
 
-   Você pode arrastar e soltar elementos da paleta na área de trabalho para configurar o elemento em questão.
+   Você pode arrastar e soltar elementos da paleta no espaço de trabalho para configurar o elemento em questão.
 
    ![](assets/ux_workspace.png)
 
-## Action bar {#action-bar}
+## Barra de ação {#action-bar}
 
-De acordo com o tipo de tela, uma barra contendo ações vinculadas à tela aparece na parte superior.
+De acordo com o tipo de tela exibido, uma barra contendo as ações vinculadas à tela aparece na parte superior.
 
 ![](assets/actionbar.png)
 
-Essa barra não só contém ações comuns como pesquisar e filtrar, mas também ações relacionadas à tela exibida:
+Essa barra contém não apenas ações comuns, como pesquisa e filtragem, mas também ações relacionadas à tela exibida:
 
-* For actions related to **workspace** type screens, refer to either the [Action bar](../../automating/using/workflow-interface.md#action-bar) section for the workflows.
-* For actions related to **dashboard** screens, refer to the [Message dashboard](../../channels/using/message-dashboard.md) section for more information.
-* For actions related to **list** type screens, refer to the [Customizing lists](../../start/using/customizing-lists.md) section below.
+* Para ações relacionadas a telas de tipo de espaço de **trabalho** , consulte a seção da barra [de](../../automating/using/workflow-interface.md#action-bar) Ação para os fluxos de trabalho.
+* Para ações relacionadas às telas do **painel** , consulte a seção Painel [de](../../channels/using/message-dashboard.md) mensagens para obter mais informações.
+* Para ações relacionadas a telas de tipo de **lista** , consulte a seção [Personalizando listas](../../start/using/customizing-lists.md) abaixo.
 
