@@ -1,98 +1,98 @@
 ---
-title: Projetar um e-mail de teste A/B
-seo-title: Projetar um e-mail de teste A/B
-description: Projetar um e-mail de teste A/B
+title: Criação de um email de teste A/B
+seo-title: Criação de um email de teste A/B
+description: Criação de um email de teste A/B
 seo-description: Descubra a funcionalidade de teste A/B e siga estas etapas para criar um email a partir de um modelo de teste A/B no Adobe Campaign.
 page-status-flag: nunca ativado
-uuid: 104 f 6973-68 a 7-4692-a 90 a-a 5570 a 980 ec 7
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+uuid: 104f6973-68a7-4692-a90a-a5570a980ec7
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
 audience: canais
-content-type: reference
-topic-tags: por email
-discoiquuid: e 249 ba 70-90 d 0-43 f 2-868 c-ce 9 fdc 7 e 642 d
-context-tags: entrega, abtesting, back; Deliverycreation, assistente; entrega, principal
+content-type: referência
+topic-tags: mensagens de email
+discoiquuid: e249ba70-90d0-43f2-868c-ce9fdc7e642d
+context-tags: entrega,abTesting,back;delivery,assistente;entrega,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d50d486ed77cb7989df47133bb49fde3227ae3a5
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
 
-# Designing an A/B test email{#designing-an-a-b-test-email}
+# Criação de um email de teste A/B{#designing-an-a-b-test-email}
 
-A funcionalidade de teste A/B no Adobe Campaign permite que você defina duas a três variantes de email. Cada variação é enviada a amostras de população para determinar que tem o melhor resultado. Depois de determinado, a variante vencedora é enviada para a restante população.
+A funcionalidade de teste A/B no Adobe Campaign permite que você defina duas a três variantes de email. Cada variante é enviada para amostras de população, a fim de determinar qual tem o melhor resultado. Uma vez determinada, a variante vencedora é então enviada para a população restante.
 
-Você pode escolher variar o conteúdo, o assunto ou o remetente do e-mail.
+Você pode optar por variar o conteúdo, o assunto ou o remetente do email.
 
 >[!NOTE]
 >
->Testes A/B em e-mails criados no Adobe Experience Manager não são possíveis.
+>Não é possível realizar testes A/B em emails criados no Adobe Experience Manager.
 
-## Creating an A/B test email {#creating-an-a-b-test-email}
+## Criação de um email de teste A/B {#creating-an-a-b-test-email}
 
-Um teste A/B pode ser criado usando o assistente padrão de criação de email, ao qual uma etapa de configuração de teste A/B é adicionada. Creating a standard email is detailed in the [Creating an email](../../channels/using/creating-an-email.md) section.
+Um teste A/B pode ser criado usando o assistente padrão de criação de email, ao qual uma etapa de configuração de teste A/B é adicionada. A criação de um email padrão é detalhada na seção [Criação de um email](../../channels/using/creating-an-email.md) .
 
 No contexto específico de um teste A/B:
 
-1. Crie um novo email de um dos três modelos A/B específicos, de acordo com o elemento que você deseja variar:
+1. Crie um novo e-mail a partir de um dos três modelos específicos de teste A/B, de acordo com o elemento que deseja variar:
 
    * Teste A/B no remetente
-   * Teste A/B no conteúdo
-   * Teste A/B no assunto
+   * Teste A/B sobre conteúdo
+   * Teste A/B sobre o assunto
    ![](assets/create_ab_testing.png)
 
    >[!NOTE]
    >
-   >Os modelos de teste A/B/B estão ocultos por padrão. Check the A/B test box on the left side ( **[!UICONTROL Filter]** lateral panel) to display them.
+   >Os modelos de teste A/B e de acompanhamento estão ocultos por padrão. Marque a caixa de teste A/B no lado esquerdo (painel **[!UICONTROL Filter]** lateral) para exibi-los.
 
-1. Defina as propriedades gerais e o público-alvo do email, como para um email padrão. Refer to the [Creating audiences](../../audiences/using/creating-audiences.md) section.
+1. Defina as propriedades gerais e o público-alvo do email, assim como um email padrão. Consulte a seção [Criação de públicos-alvo](../../audiences/using/creating-audiences.md) .
 1. Na quarta etapa do assistente de criação, defina os parâmetros de teste A/B:
 
-   * **[!UICONTROL Number of variants]**: Você pode optar por usar duas ou três variantes. Se você escolher três variantes, essa escolha não poderá ser modificada após a confirmação dessa etapa no assistente.
+   * **[!UICONTROL Number of variants]**: Você pode optar por usar duas ou três variantes. Se você escolher três variantes, essa opção não poderá ser modificada depois que essa etapa for confirmada no assistente.
    * **[!UICONTROL Winning strategy]**: Selecione o critério a ser usado para determinar a variante vencedora.
-   * **[!UICONTROL Target breakdown]**: Escolha qual porcentagem do destino receberá cada variação. A porcentagem restante receberá a variante vencedora uma vez que ela foi determinada. Os perfis direcionados são selecionados aleatoriamente.
-   * **[!UICONTROL Winner sending method]**: Escolha se deseja que a variante vencedora seja enviada automaticamente uma vez que tenha sido determinada ou se você deseja confirmar manualmente o envio para a restante população.
-   * **[!UICONTROL Test duration]**: Especifique a duração do teste. A variante vencedora é determinada automaticamente após essa duração. É possível escolher manualmente a variante vencedora antes do final do teste do painel de e-mail.
+   * **[!UICONTROL Target breakdown]**: Escolha qual porcentagem da meta receberá cada variante. A porcentagem restante receberá a variante vencedora depois de determinada. Os perfis direcionados são selecionados aleatoriamente.
+   * **[!UICONTROL Winner sending method]**: Escolha se deseja que a variante vencedora seja enviada automaticamente depois de determinada ou se deseja confirmar manualmente o envio para a população restante.
+   * **[!UICONTROL Test duration]**: Especifique a duração do teste. A variante vencedora é determinada automaticamente após essa duração. Você pode escolher manualmente a variante vencedora antes do final do teste no painel de email.
 
-      O teste deve ter pelo menos uma hora para que todos os dados de rastreamento sejam coletados e devidamente considerados para selecionar a variante vencedora.
+      O teste deve ser de, pelo menos, uma hora para que todos os dados de rastreamento sejam coletados e tidos corretamente em conta para selecionar a variante vencedora.
    ![](assets/ab_parameters.png)
 
-1. Depois que os parâmetros de teste A/B forem definidos, passe para a próxima etapa do assistente e defina o conteúdo de email. Dependendo do modelo escolhido, você pode definir vários assuntos, vários nomes de remetentes ou vários conteúdos diferentes. Use o carrossel para navegar entre as diferentes variantes do elemento. For more information, consult the [content editor](../../designing/using/about-email-content-design.md) section.
+1. Depois que os parâmetros de teste A/B forem definidos, passe para a próxima etapa do assistente e defina o conteúdo do email. Dependendo do modelo escolhido, é possível definir vários assuntos, vários nomes de remetentes ou vários conteúdos diferentes. Use o carrossel para navegar entre as diferentes variantes do elemento. Para obter mais informações, consulte a seção do editor [de](../../designing/using/overview.md) conteúdo.
 
    ![](assets/create_ab_testing2.png)
 
-1. Confirme a criação do email. O painel de e-mail será exibido.
-1. Programe o envio. A data definida indica o início do teste A/B.
-1. Check the A/B test parameters displayed in the **[!UICONTROL A/B test parameters]** block. É possível modificá-los até confirmar o envio do teste (etapa 9) selecionando o bloco.
+1. Confirme a criação do email. O painel de email será exibido.
+1. Agende o envio. A data definida indica o início do teste A/B.
+1. Verifique os parâmetros de teste A/B exibidos no **[!UICONTROL A/B test parameters]** bloco. Você pode modificá-los até confirmar o envio do teste (etapa 9) selecionando o bloco.
 
    ![](assets/create_ab_testing3.png)
 
-1. Prepare o envio do email para analisar a meta e o número de mensagens a serem enviadas. Consult the [Preparing the send](../../sending/using/preparing-the-send.md) section.
+1. Prepare o envio de email para analisar o destino e o número de mensagens a serem enviadas. Consulte a seção [Preparação do envio](../../sending/using/preparing-the-send.md) .
 1. Antes de enviar o teste A/B, verifique seu email enviando provas.
-1. Após concluir a preparação, confirme o envio do teste. Uma vez confirmado, os parâmetros de teste A/B não podem ser modificados.
+1. Após a conclusão da preparação, confirme o envio do teste. Depois de confirmado, os parâmetros de teste A/B não podem ser modificados.
 
-   The A/B test starts on the date defined in the **[!UICONTROL Schedule]**.You can track its progress using the **[!UICONTROL A/B test]** and **[!UICONTROL Deployment]** blocks.
+   O teste A/B é iniciado na data definida no **[!UICONTROL Schedule]**.Você pode rastrear o progresso usando os blocos **[!UICONTROL A/B test]** e **[!UICONTROL Deployment]** .
 
-   Você pode selecionar manualmente a variante vencedora a qualquer momento se desejar recortar a duração do teste curta.
+   Você pode selecionar manualmente a variante vencedora a qualquer momento se desejar reduzir a duração do teste.
 
-   Once testing has finished, a summary table is displayed in the **[!UICONTROL A/B Test]** block and this allows you to view the various indicators for the different variants that were tested.
+   Quando o teste terminar, uma tabela de resumo será exibida no **[!UICONTROL A/B Test]** bloco e isso permitirá que você visualize os vários indicadores das diferentes variantes que foram testadas.
 
-1. If you have selected **[!UICONTROL Send after confirmation]** as the sending method, you have to manually select the winning variant to start sending it to the remaining population. If you have selected **[!UICONTROL Automatic]**, the winning variant is automatically sent to the remaining population as soon as it has been determined by the system.
+1. Se você tiver selecionado **[!UICONTROL Send after confirmation]** como o método de envio, é necessário selecionar manualmente a variante vencedora para começar a enviá-la para a população restante. Se você tiver selecionado **[!UICONTROL Automatic]**, a variante vencedora será enviada automaticamente para a população restante assim que for determinada pelo sistema.
 
    >[!NOTE]
    >
-   >Se houver um vínculo, a variante vencedora deverá ser selecionada manualmente. Você pode notificar o criador e modificador de e-mail que uma variante foi escolhida ou que precisa ser selecionada. See [Adobe Campaign notifications](../../administration/using/sending-internal-notifications.md).
+   >Se houver um vínculo, a variante vencedora deverá ser selecionada manualmente. Você pode notificar o criador e modificador(es) de email que uma variante foi selecionada ou precisa ser selecionada. Consulte Notificações [do](../../administration/using/sending-internal-notifications.md)Adobe Campaign.
 
-Seu e-mail agora é definido e enviado. Você pode acessar seus logs e relatórios para medir o sucesso da sua campanha.
+Seu email agora está definido e enviado. Você pode acessar seus registros e relatórios para medir o sucesso de sua campanha.
 
-**Tópico relacionado**:
+**Tópico** relacionado:
 
-[Criação de](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html) um vídeo por email
+[Criação de um vídeo de email](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html)
 
-## About A/B test indicators {#about-a-b-test-indicators}
+## Sobre indicadores de teste A/B {#about-a-b-test-indicators}
 
-No painel de e-mail, vários indicadores estão disponíveis para ajudar a medir o teste A/B: número de cliques, abre, rejeita e assim por diante.
+No painel de email, vários indicadores estão disponíveis para ajudá-lo a medir seu teste A/B: número de cliques, aberturas, rejeições e assim por diante.
 
-Note that the **[!UICONTROL Estimated recipient reactivity]** indicator is a rate comparing the number of recipients who clicked against the number of recipients who opened the email. Por exemplo, se 10 destinatários abrirem o email e 5 destinatários clicaram nele. A taxa de reatividade é 50%.
+Observe que o **[!UICONTROL Estimated recipient reactivity]** indicador é uma taxa que compara o número de destinatários que clicaram com o número de destinatários que abriram o email. Por exemplo, se 10 destinatários abriram o email e 5 destinatários clicaram nele. A taxa de reatividade é de 50%.
