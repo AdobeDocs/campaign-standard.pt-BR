@@ -2,44 +2,44 @@
 title: Criação de um novo modelo
 seo-title: Criação de um novo modelo
 description: Criação de um novo modelo
-seo-description: Saiba como criar um novo modelo, de modelos de atividades out-of-box existentes para email, SMS, entregas de notificação por push etc.
+seo-description: Saiba como criar um novo modelo, a partir de modelos de atividade prontos para uso para email, SMS, envios de notificação por push etc.
 page-status-flag: nunca ativado
-uuid: 26 e 368 ae -06 e 1-4 c 11-9899-c 23 cc 727 d 398
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+uuid: 26e368ae-06e1-4c11-9899-c23cc727d398
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: reference
-topic-tags: gerenciando modelos
-discoiquuid: d 3 e 37141-1170-4332-a 46 c -66 a 847 ed 3531
-context-tags: Campaigntemplate, overview; Deliverytemplate, visão geral; Programtemplate, overview; Workflowtemplate, visão geral; Importtemplate, overview;
+content-type: referência
+topic-tags: gerenciar modelos
+discoiquuid: d3e37141-1170-4332-a46c-66a847ed3531
+context-tags: campaignTemplate,overview;deliveryTemplate,overview;programTemplate,overview;workflowTemplate,overview;importTemplate,overview;
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
 
-# Creating a new template{#creating-a-new-template}
+# Criação de um novo modelo{#creating-a-new-template}
 
-Message templates can be managed by the functional administrator of the platform, under the **[!UICONTROL Resources > Templates]** menu. Os modelos prontos para uso não podem ser modificados ou excluídos. Para criar um novo modelo, você deve duplicar uma existente.
+Os modelos de mensagem podem ser gerenciados pelo administrador funcional da plataforma, sob o **[!UICONTROL Resources > Templates]** menu. Os modelos predefinidos não podem ser modificados ou excluídos. Para criar um novo modelo, você deve duplicar um existente.
 
-1. Selecione um modelo existente. In our example, we have chosen a **[!UICONTROL Delivery template]**.
+1. Selecione um modelo existente. No nosso exemplo, escolhemos um **[!UICONTROL Delivery template]**.
 
    ![](assets/template_2.png)
 
-1. Hover over it with the mouse, then select the **[!UICONTROL Duplicate element]** option.
+1. Passe o mouse sobre ele e selecione a **[!UICONTROL Duplicate element]** opção.
 
    ![](assets/template_3.png)
 
-1. Configure any settings you want, just like you would do when [creating a new marketing activity](../../start/using/marketing-activities.md#creating-a-marketing-activity) from scratch.
+1. Defina as configurações desejadas, da mesma forma que faria ao [criar uma nova atividade](../../start/using/marketing-activities.md#creating-a-marketing-activity) de marketing do zero.
 
    ![](assets/template_4.png)
 
-Os modelos criados podem ser selecionados pelo usuário padrão na primeira tela do assistente ao criar uma atividade de marketing.
+Modelos criados podem ser selecionados pelo usuário padrão na primeira tela do assistente ao criar uma atividade de marketing.
 
 **Tópicos relacionados:**
 
 * [Marca](../../administration/using/branding.md)
-* [Conteúdo do design](../../designing/using/about-email-content-design.md)
+* [Conteúdo do design](../../designing/using/overview.md)
 
