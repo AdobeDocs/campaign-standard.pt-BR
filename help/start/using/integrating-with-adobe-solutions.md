@@ -2,66 +2,66 @@
 title: Integração com soluções da Adobe
 seo-title: Integração com soluções da Adobe
 description: Integração com soluções da Adobe
-seo-description: Saiba como as integrações com os principais serviços e soluções da Adobe Experience Cloud, como o Adobe Analytics e o Experience Manager, podem melhorar sua estratégia do Adobe Campaign com insights aprofundados e gerenciamento de conteúdo conveniente.
+seo-description: Saiba como as integrações com os principais serviços e soluções da Adobe Experience Cloud, como o Adobe Analytics e o Experience Manager, podem melhorar sua estratégia do Adobe Campaign com insights aprofundados e gerenciamento conveniente de conteúdo.
 page-status-flag: nunca ativado
-uuid: e 142 e 449-1 cf 4-4 d 3 f-a 318-6572 d 78 e 6 f 85
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+uuid: e142e449-1cf4-4d3f-a318-6572d78e6f85
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: reference
+content-type: referência
 topic-tags: about-adobe-campaign
-discoiquuid: 3 aebc 89 c-ed 08-46 ab -909 c-e 077 ce 2 ab 5 da
+discoiquuid: 3aebc89c-ed08-46ab-909c-e077ce2ab5da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
 
-# Integrating with Adobe solutions{#integrating-with-adobe-solutions}
+# Integração com soluções da Adobe{#integrating-with-adobe-solutions}
 
-A integração com outras soluções da Adobe Experience Cloud pode exigir que você adapte sua configuração inicial. Entre em contato com o administrador técnico da Adobe para obter mais informações.
+A integração com outras soluções da Adobe Experience Cloud pode exigir a adaptação da configuração inicial. Entre em contato com o administrador técnico da Adobe para obter mais informações.
 
 Combine as soluções da Adobe Experience Cloud com o Adobe Campaign e você poderá:
 
-* Use conteúdo criado a partir do Adobe Experience Manager nas mensagens do Adobe Campaign.
+* Use conteúdo criado do Adobe Experience Manager nas mensagens do Adobe Campaign.
 
-   For more on this, refer to [Working with Campaign and Experience Manager](../../integrating/using/integrating-with-experience-manager.md).
+   Para obter mais informações, consulte [Trabalhar com o Campaign e o Experience Manager](../../integrating/using/integrating-with-experience-manager.md).
 
-* Importe públicos-alvo compartilhados de diferentes soluções da Experience Cloud para usá-los no Adobe Campaign e exportar públicos-alvo do Adobe Campaign para a Adobe Experience Cloud, para que possam ser usados em diferentes soluções.
+* Importe públicos compartilhados de diferentes soluções da Experience Cloud para usá-los no Adobe Campaign e exporte públicos-alvo do Adobe Campaign para a Adobe Experience Cloud, para que possam ser usados em diferentes soluções.
 
-   For more on this, refer to [Working with Campaign and People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
+   Para obter mais informações, consulte [Trabalhar com o Campaign e o serviço](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)principal de pessoas.
 
-* Insira imagens dinâmicas geradas pelo Adobe Target em suas mensagens do Adobe Campaign.
+* Insira imagens dinâmicas geradas pelo Adobe Target nas mensagens do Adobe Campaign.
 
-   For more on this, refer to [Working with Campaign and Target](../../integrating/using/about-campaign-target-integration.md).
+   Para obter mais informações, consulte [Trabalhar com o Campaign e o Target](../../integrating/using/about-campaign-target-integration.md).
 
-* Use recursos compartilhados da Adobe Experience Cloud em suas mensagens do Adobe Campaign e páginas de aterrissagem.
+* Use os recursos compartilhados da Adobe Experience Cloud nas mensagens e páginas de aterrissagem do Adobe Campaign.
 
-   For more on this, refer to [Working with Campaign and Assets core service](../../integrating/using/working-with-campaign-and-assets-core-service.md).
+   Para obter mais informações, consulte [Trabalhar com o Campaign e o serviço](../../integrating/using/working-with-campaign-and-assets-core-service.md)principal dos Ativos.
 
 * Acompanhe o sucesso das entregas de email diretamente no Adobe Analytics.
 
-   For more on this, refer to [Working with Campaign and Analytics](../../integrating/using/about-campaign-analytics-integration.md).
+   Para obter mais informações, consulte [Trabalhar com o Campaign e o Analytics](../../integrating/using/about-campaign-analytics-integration.md).
 
-* Por meio da integração com o Adobe Analytics para dispositivos móveis, use os dados de Pontos de interesse coletados dos assinantes do aplicativo móvel para enviá-los mensagens de marketing personalizadas.
+* Por meio da integração com o Adobe Analytics para dispositivos móveis, use os dados de Pontos de interesse coletados dos assinantes de seu aplicativo móvel para enviar mensagens de marketing personalizadas.
 
-   For more on this, refer to [Working with Campaign and Analytics for mobile/Points of Interest data](../../integrating/using/about-campaign-points-of-interest-data-integration.md).
+   Para obter mais informações, consulte [Trabalhar com campanhas e análises para dados](../../integrating/using/about-campaign-points-of-interest-data-integration.md)móveis/Pontos de interesse.
 
 * Crie e modifique o conteúdo de seus emails no Dreamweaver.
 
-   For more on this refer to [Editing content in Dreamweaver](../../designing/using/about-email-content-design.md#editing-content-in-dreamweaver).
+   Para obter mais informações, consulte [Editar conteúdo no Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver).
 
-* Envie emails personalizados aos seus clientes no Adobe Campaign como uma reação a comportamentos específicos que são rastreados em seu site pelo Adobe Analytics.
+* Envie emails personalizados para seus clientes no Adobe Campaign como uma reação a comportamentos específicos que são rastreados em seu site pelo Adobe Analytics.
 
-   For more on this refer to [Use Experience Cloud Triggers in Campaign Standard](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+   Para obter mais informações, consulte [Usar acionadores da Experience Cloud no Campaign Standard](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
-* Edite imagens e utilize um conjunto completo de recursos desenvolvidos pelo Adobe Creative SDK para aprimorar suas imagens diretamente no editor de conteúdo
+* Edite imagens e use um conjunto completo de recursos capacitados pelo Adobe Creative SDK para aprimorar suas imagens diretamente no editor de conteúdo
 
-   For more on this refer to [Modifying images with the Adobe Creative SDK](../../designing/using/modifying-images-with-the-adobe-creative-sdk.md)
+   Para obter mais informações, consulte [Modificação de imagens com o Adobe Creative SDK](../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk)
 
-* Automatize o processo de ativação da Propriedade de aplicativo móvel no Adobe Campaign usando o SDK da Adobe Experience Platform.
+* Automatize o processo de ativação da propriedade do aplicativo móvel no Adobe Campaign usando o SDK da plataforma Adobe Experience.
 
-   For more on this refer to [Configuring a mobile application using Experience Platform SDKs](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+   Para obter mais informações, consulte [Configurar um aplicativo móvel usando SDKs da plataforma Experience](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
