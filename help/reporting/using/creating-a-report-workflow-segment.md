@@ -2,122 +2,122 @@
 title: Criação de um relatório com base em segmentos de fluxo de trabalho
 seo-title: Criação de um relatório com base em segmentos de fluxo de trabalho
 description: Criação de um relatório com base em segmentos de fluxo de trabalho
-seo-description: Saiba como verificar o sucesso da entrega, dependendo dos segmentos dos seus fluxos de trabalho em seus relatórios.
+seo-description: Saiba como verificar o sucesso de sua entrega dependendo dos segmentos dos fluxos de trabalho em seus relatórios.
 page-status-flag: nunca ativado
-uuid: f 75 e 005 b -5328-4 c 98-9 e 78-51 d 54 fd 0 e 246
-contentOwner: beneat
-products: SG_ CAMPAIGN/STANDARD
-audience: relatórios
-content-type: reference
-topic-tags: personalização-relatórios
-discoiquuid: b 6 d 3 de 63-3 add -4881-8917-04 a 6 f 8 b 6 be 4 d
+uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
+contentOwner: comida
+products: SG_CAMPAIGN/STANDARD
+audience: relatório
+content-type: referência
+topic-tags: personalização de relatórios
+discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c555c35004ffe3c3d7e2f845a3a2707b1985e190
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
 
-# Creating a report based on workflow segments{#creating-a-report-workflow-segment}
+# Criação de um relatório com base em segmentos de fluxo de trabalho{#creating-a-report-workflow-segment}
 
-Depois de criar um fluxo de trabalho e filtrar sua população em diferentes público-alvo, você pode medir a eficiência de suas campanhas de marketing com base em segmentos definidos neste fluxo de trabalho de direcionamento.
+Depois de criar um fluxo de trabalho e filtrar sua população em públicos-alvo diferentes, você pode medir a eficiência de suas campanhas de marketing com base nos segmentos definidos neste fluxo de trabalho de definição de metas.
 Para direcionar esses segmentos em seus relatórios:
 
-* [Etapa 1: Atualizar recursos personalizados de perfis com segmentos](#step-1--update-profiles-custom-resource-segments)
+* [Etapa 1: Atualizar recurso personalizado Perfis com segmentos](#step-1--update-profiles-custom-resource-segments)
 * [Etapa 2: Criar um fluxo de trabalho com segmentos](#step-2--create-a-workflow-segments)
 * [Etapa 3: Criar um relatório dinâmico para filtrar segmentos](#step-3--create-a-dynamic-report-filter-segments)
 
 >[!CAUTION]
 >O contrato de uso de relatório dinâmico deve ser aceito para começar a coletar esses dados.
->For more on this agreement, refer to this [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+>Para obter mais informações sobre este contrato, consulte esta [página](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
-## Step 1: Update Profiles custom resource with segments{#step-1--update-profiles-custom-resource-segments}
+## Etapa 1: Atualizar recurso personalizado Perfis com segmentos{#step-1--update-profiles-custom-resource-segments}
 
-Before reporting on your segment code, you need to update your **[!UICONTROL Profiles]** custom resource for your segment codes to be stored.
+Antes de criar relatórios sobre seu código de segmento, é necessário atualizar seu recurso **[!UICONTROL Profiles]** personalizado para que seus códigos de segmento sejam armazenados.
 
-1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom resources]**, then select the **[!UICONTROL Profile (profile)]** resource.
-1. In the **[!UICONTROL Sending logs extension]** menu from the **[!UICONTROL Data structure]** tab, check **[!UICONTROL Add segment code]** to allow storage of your segment codes from targeting workflows and to send it to dynamic reporting.
+1. No menu avançado, pelo logotipo do Adobe Campaign, selecione **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom resources]** e selecione o **[!UICONTROL Profile (profile)]** recurso.
+1. No **[!UICONTROL Sending logs extension]** menu da **[!UICONTROL Data structure]** guia, marque **[!UICONTROL Add segment code]** para permitir o armazenamento de seus códigos de segmento a partir de fluxos de trabalho de definição de metas e para enviá-los para relatórios dinâmicos.
 
-   The **[!UICONTROL Segment code]** will then be available in the **[!UICONTROL Profile]** dimension section of your report.
+   O **[!UICONTROL Segment code]** estará disponível na seção de **[!UICONTROL Profile]** dimensão do seu relatório.
 
    ![](assets/report_segment_4.png)
 
 1. Salve o recurso personalizado.
 
 1. Agora você precisa publicar seu recurso personalizado.
-From the advanced menu, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Publishing]**.
+No menu avançado, selecione **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Publishing]**.
 
    ![](assets/custom_profile_7.png)
 
-1. Click **[!UICONTROL Prepare publication]** then when the preparation is done, click the **[!UICONTROL Publish]** button. For more information on custom resource, refer to this [page](../../developing/using/updating-the-database-structure.md).
+1. Clique **[!UICONTROL Prepare publication]** e, quando a preparação estiver concluída, clique no **[!UICONTROL Publish]** botão. Para obter mais informações sobre recursos personalizados, consulte esta [página](../../developing/using/updating-the-database-structure.md).
 
 Agora você pode começar a criar seu fluxo de trabalho com códigos de segmento.
 
-Note that segment codes will be collected as soon as you enable the segment code in the **[!UICONTROL Sending logs extension]**.
+Observe que os códigos de segmento serão coletados assim que você ativar o código de segmento no **[!UICONTROL Sending logs extension]**.
 
-## Step 2: Create a workflow with segments {#step-2--create-a-workflow-segments}
+## Etapa 2: Criar um fluxo de trabalho com segmentos {#step-2--create-a-workflow-segments}
 
 >[!NOTE]
->Se a transição de entrada da entrega de email estiver vazia, o código do Segmento da transição anterior será adicionado por padrão.
+>Se a transição de entrada da entrega de email estiver vazia, o código do segmento da transição anterior será adicionado por padrão.
 
-Primeiro, você precisa criar um fluxo de trabalho com uma população direcionada diferente. Aqui, queremos enviar um email que será personalizado dependendo da idade de nosso público-alvo: uma entrega por 20 a 30 anos e outra para perfis entre 30 a 40 anos.
+Primeiro, é necessário criar um fluxo de trabalho com população direcionada diferente. Aqui, queremos enviar um email que será personalizado dependendo da idade do nosso público: uma entrega para perfis de 20 a 30 anos e outra para perfis de 30 a 40 anos.
 
-1. Crie seu fluxo de trabalho. For more details on how to create your workflow, refer to this [page](../../automating/using/building-a-workflow.md).
+1. Crie seu fluxo de trabalho. Para obter mais detalhes sobre como criar seu fluxo de trabalho, consulte esta [página](../../automating/using/building-a-workflow.md).
 
-1. Add a **[!UICONTROL Query]** activity by dragging it from the palette and dropping it in the workspace.
+1. Adicione uma **[!UICONTROL Query]** atividade arrastando-a da paleta e soltando-a no espaço de trabalho.
 
-1. Direcione perfis de 20 a 40 anos para segmentar os segmentos mais tarde em populações mais direcionadas.
+1. Direcione perfis de 20 a 40 anos para segmentar posteriormente em populações mais direcionadas.
 
    ![](assets/report_segment_1.png)
 
-1. Add a **[!UICONTROL Segmentation]** activity to split your query results into two targeted populations. For more on segmentation, refer to this [page](../../automating/using/targeting-data.md#segmenting-data).
+1. Adicione uma **[!UICONTROL Segmentation]** atividade para dividir os resultados da consulta em duas populações direcionadas. Para obter mais informações sobre segmentação, consulte esta [página](../../automating/using/targeting-data.md#segmenting-data).
 
-1. Double click the **[!UICONTROL Segmentation]** activity to configure it. Edit the first segment by clicking **[!UICONTROL Edit properties]**.
+1. Clique duas vezes na **[!UICONTROL Segmentation]** atividade para configurá-la. Edite o primeiro segmento clicando em **[!UICONTROL Edit properties]**.
 
    ![](assets/report_segment_7.png)
 
-1. Query profiles between the age of 20 to 30 and click **[!UICONTROL Confirm]** when done.
+1. Consulte os perfis entre 20 e 30 anos e clique **[!UICONTROL Confirm]** quando terminar.
 
    ![](assets/report_segment_8.png)
 
-1. Click **[!UICONTROL Add an element]** to create your second segment and configure it as described in the steps above to target profiles between the age of 30 to 40.
+1. Clique **[!UICONTROL Add an element]** para criar seu segundo segmento e configurá-lo conforme descrito nas etapas acima para direcionar perfis entre 30 e 40 anos.
 
-1. Edit the **[!UICONTROL Segment code]** for each population to be passed on through dynamic reporting.
+1. Edite o **[!UICONTROL Segment code]** para que cada população seja transmitida por meio de relatórios dinâmicos.
 
    >[!NOTE]
-   >Essa etapa é obrigatória ou você não poderá compreender quais segmentos serão relatados.
+   >Essa etapa é obrigatória ou você não poderá entender em quais segmentos relatar.
 
    ![](assets/report_segment_9.png)
 
-1. Drag and drop an **[!UICONTROL Email delivery]** activity after your segments.
+1. Arraste e solte uma **[!UICONTROL Email delivery]** atividade após seus segmentos.
 
    ![](assets/report_segment_3.png)
 
-1. Personalize suas entregas dependendo das diferentes populações direcionadas. For more on email creation, refer to this [page](../../designing/using/about-email-content-design.md).
+1. Personalize suas entregas dependendo das diferentes populações-alvo. Para obter mais informações sobre a criação de email, consulte esta [página](../../designing/using/overview.md).
 
 1. Salve o fluxo de trabalho.
 
-1. Click **[!UICONTROL Start]** when your workflow is ready.
+1. Clique **[!UICONTROL Start]** quando seu fluxo de trabalho estiver pronto.
 
 Agora você pode acessar seus relatórios para rastrear seus códigos de segmento.
 
-## Step 3: Create a dynamic report to filter segments {#step-3--create-a-dynamic-report-filter-segments}
+## Etapa 3: Criar um relatório dinâmico para filtrar segmentos {#step-3--create-a-dynamic-report-filter-segments}
 
-Depois de enviar entregas com seu fluxo de trabalho, você pode detalhar os relatórios usando seus códigos de segmento do seu fluxo de trabalho.
+Depois de enviar entregas com seu fluxo de trabalho, você pode detalhar relatórios usando seus códigos de segmento do fluxo de trabalho.
 
-1. From the **[!UICONTROL Reports]** tab, select an out-of-the-box report or click the **[!UICONTROL Create new project]** button to start one from scratch.
+1. Na **[!UICONTROL Reports]** guia, selecione um relatório predefinido ou clique no **[!UICONTROL Create new project]** botão para iniciar um do zero.
 
    ![](assets/custom_profile_18.png)
-1. Drag and drop the **[!UICONTROL Delivery]** dimension to your freeform table.
+1. Arraste e solte a **[!UICONTROL Delivery]** dimensão em sua tabela de forma livre.
 
    ![](assets/report_segment_5.png)
 
-1. Drag and drop different metrics to your table such as the **[!UICONTROL Open]** and **[!UICONTROL Click]** metrics to start filtering your data.
-1. In the **[!UICONTROL Dimensions]** category, click the **[!UICONTROL Profile]** dimension then drag and drop the **[!UICONTROL Segment code]** dimension on your workflow's delivery to measure the success of your email delivery depending on the targeted populations.
+1. Arraste e solte métricas diferentes em sua tabela, como as **[!UICONTROL Open]** e **[!UICONTROL Click]** métricas, para começar a filtrar seus dados.
+1. Na **[!UICONTROL Dimensions]** categoria, clique na **[!UICONTROL Profile]** dimensão e arraste e solte a **[!UICONTROL Segment code]** dimensão na entrega do seu fluxo de trabalho para medir o sucesso da entrega de email, dependendo das populações direcionadas.
 
    ![](assets/report_segment_6.png)
 
-1. Arraste e solte uma visualização na área de trabalho, se necessário.
+1. Arraste e solte uma visualização no seu espaço de trabalho, se necessário.
 
    ![](assets/report_segment_10.png)
