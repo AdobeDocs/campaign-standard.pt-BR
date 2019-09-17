@@ -2,81 +2,81 @@
 title: Cliques ativos
 seo-title: Cliques ativos
 description: Cliques ativos
-seo-description: Com o relatório de cliques fora da caixa, saiba onde o cliente clicou na entrega.
+seo-description: Com o recurso Hot click out out-of-the-box, saiba onde o cliente clicou na entrega.
 page-status-flag: nunca ativado
-uuid: 7 ed 49 dd 3-d 7 ee -9 66 a -9 a 7 b-d 2 aa 16961667
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: relatórios
-content-type: reference
+uuid: 7ed49dd3-d7ee-466a-9a7b-d2aa16961667
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: relatório
+content-type: referência
 topic-tags: lista de relatórios
-discoiquuid: ecbc 1 ade -63 d 9-4 ac 2-9828-380 a 1 aa 95094
-context-tags: Deliveryhotclicksrelatório, principal
+discoiquuid: ecbc1ade-63d9-4ac2-9828-380a1aa95094
+context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ---
 
 
-# Hot clicks{#hot-clicks}
+# Cliques ativos{#hot-clicks}
 
-This report can be accessed from the **[!UICONTROL Reports]** button in each delivery or transactional message.
+Este relatório pode ser acessado a partir do **[!UICONTROL Reports]** botão em cada entrega ou mensagem transacional.
 
 ![](assets/delivery_reports_hot-clicks_4.png)
 
-Apresenta o conteúdo da mensagem (HTML e/ou texto) com a porcentagem de cliques em cada link.
+Ele apresenta o conteúdo da mensagem (HTML e/ou texto) com a porcentagem de cliques em cada link.
 
 ![](assets/delivery_reports_10.png)
 
-Se você tiver criado conteúdo dinâmico para a entrega, poderá exibir as porcentagens de cada condição definida. For more on inserting conditional content in a delivery, see [Defining dynamic content](../../designing/using/defining-dynamic-content-in-a-landing-page.md).
+Se você tiver criado conteúdo dinâmico para a entrega, poderá exibir as porcentagens para cada condição definida. Para obter mais informações sobre como inserir conteúdo condicional em uma entrega, consulte [Definição de conteúdo](../../channels/using/defining-dynamic-content-in-a-landing-page.md)dinâmico.
 
 Por exemplo, imagine que você criou uma entrega com as seguintes condições:
 
 * O link na imagem principal é diferente se o destinatário for um homem ou uma mulher.
-* Também foi adicionado um link para uma oferta especial que é visível somente para os destinatários acima de 25.
+* Você também adicionou um link a uma oferta especial que só é visível para destinatários com mais de 25 anos.
 
-Once your message is sent, select **[!UICONTROL Reports]** &gt; **[!UICONTROL Hot clicks]** from the delivery dashboard.
+Depois que a mensagem for enviada, selecione **[!UICONTROL Reports]** &gt; **[!UICONTROL Hot clicks]** no painel de entrega.
 
-Por padrão, nenhum perfil é selecionado. Apenas cliques para destinatários cujo gênero é desconhecido e para os destinatários que estão abaixo de 25 ou cuja idade é desconhecida são exibidos.
+Por padrão, nenhum perfil é selecionado. Somente os cliques para destinatários cujo gênero é desconhecido e para destinatários com menos de 25 anos ou idade desconhecida são exibidos.
 
 ![](assets/delivery_reports_hot-clicks_1.png)
 
-To display clicks for women, click the **[!UICONTROL Change profile]** button and select a female test profile. Para exibir cliques para homens, prossiga de forma semelhante e selecione um perfil de teste masculino.
+Para exibir cliques para mulheres, clique no **[!UICONTROL Change profile]** botão e selecione um perfil de teste feminino. Para exibir cliques para homens, continue da mesma forma e selecione um perfil de teste masculino.
 
 ![](assets/delivery_reports_hot-clicks_2.png)
 
-To display clicks for recipients over 25, click the **[!UICONTROL Change profile]** button and select a test profile whose birth date is matching this condition.
+Para exibir cliques para destinatários com mais de 25 anos, clique no **[!UICONTROL Change profile]** botão e selecione um perfil de teste cuja data de nascimento corresponda a essa condição.
 
-For more on test profiles, see [About test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles).
+Para obter mais informações sobre perfis de teste, consulte [Sobre perfis](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles)de teste.
 
 >[!NOTE]
 >
->O número de cliques em um link específico é uma porcentagem do total de cliques para todo o conteúdo condicional em uma entrega. Portanto, se o conteúdo dinâmico tiver sido definido, o total de porcentagens exibidas para um perfil de teste específico talvez não seja igual a 100.
+>O número de cliques em um link específico é uma porcentagem do total de cliques para todo o conteúdo condicional em uma entrega. Portanto, se você definiu o conteúdo dinâmico, o total das porcentagens exibidas para um perfil de teste específico pode não ser igual a 100.
 
 Da mesma forma, para entregas recorrentes e mensagens transacionais, você pode selecionar o perfil de teste correspondente ao conteúdo dinâmico que deseja exibir, mas também pode exibir as porcentagens de cliques de acordo com a entrega de execução selecionada.
 
-Uma entrega de execução é uma mensagem técnica não acionável e não funcional que é criada nos seguintes casos:
+Uma entrega de execução é uma mensagem técnica não acionável e não funcional criada nos seguintes casos:
 
 * Cada vez que uma entrega recorrente é executada ou atualizada.
 
-   Por exemplo, se o fluxo de trabalho gerenciar essa entrega é executado uma vez por mês, haverá uma entrega de execução por mês. Além disso, sempre que o conteúdo da entrega é atualizado, uma entrega de execução adicional é criada.
+   Por exemplo, se o fluxo de trabalho que gerencia essa entrega for executado uma vez por mês, haverá uma entrega de execução por mês. Além disso, sempre que o conteúdo da entrega for atualizado, uma entrega de execução adicional será criada.
 
-   For more on recurring email deliveries, see [Email delivery](../../automating/using/email-delivery.md).
+   Para obter mais informações sobre entregas recorrentes por email, consulte Entrega [por](../../automating/using/email-delivery.md)email.
 
-* Por padrão, uma vez por mês para mensagens transacionais e cada vez que uma mensagem transacional é editada e publicada novamente.
+* Por padrão, uma vez por mês para mensagens transacionais e sempre que uma mensagem transacional é editada e publicada novamente.
 
-   For more on transactional messages, see [About transactional messaging](../../channels/using/about-transactional-messaging.md).
+   Para obter mais informações sobre mensagens transacionais, consulte [Sobre mensagens transacionais](../../channels/using/about-transactional-messaging.md).
 
 >[!NOTE]
 >
->Como as IDs rastreadas são diferentes para cada execução, os dados de cliques de hot cliques não podem ser agregados para todas as entregas de execução de uma determinada mensagem. Ela só pode ser exibida para uma entrega de execução por vez.
+>Como as IDs dos URLs rastreados são diferentes para cada execução, os dados de cliques em funcionamento não podem ser agregados para todas as entregas de execução de uma determinada mensagem. Ele só pode ser exibido para uma entrega de execução por vez.
 
-Once your message is sent, select **[!UICONTROL Reports]** &gt; **[!UICONTROL Hot clicks]** from the delivery dashboard.
+Depois que a mensagem for enviada, selecione **[!UICONTROL Reports]** &gt; **[!UICONTROL Hot clicks]** no painel de entrega.
 
-Por padrão, a última entrega de execução é selecionada. Click the **[!UICONTROL Change execution delivery]** button to select another one.
+Por padrão, a entrega da última execução é selecionada. Clique no **[!UICONTROL Change execution delivery]** botão para selecionar outro.
 
 ![](assets/delivery_reports_hot-clicks_3.png)
 
-Somente as porcentagens de cliques da execução de entrega selecionada são exibidas.
+Somente as porcentagens de cliques para a execução de entrega selecionada são exibidas.
