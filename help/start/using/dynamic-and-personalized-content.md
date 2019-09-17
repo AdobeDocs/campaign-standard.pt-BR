@@ -2,41 +2,41 @@
 title: Conteúdo dinâmico e personalizado
 seo-title: Conteúdo dinâmico e personalizado
 description: Conteúdo dinâmico e personalizado
-seo-description: Com o Adobe Campaign, você pode usar as preferências e os dados do cliente para criar campanhas personalizadas por email, SMS, notificação por push, mensagens do inapp ou mala direta.
+seo-description: Com o Adobe Campaign, você pode usar as preferências e os dados do cliente para criar campanhas personalizadas por email, SMS, notificação por push, mensagens do InApp ou mala direta.
 page-status-flag: nunca ativado
-uuid: a 36 a 581 e -25 d 4-426 d -865 a-c 646519 c 961 d
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+uuid: a36a581e-25d4-426d-865a-c646519c961d
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: reference
+content-type: referência
 topic-tags: about-adobe-campaign
-discoiquuid: 7 cbca 5 fb-a 99 b -43 ea-b 629-6236 cf 2 a 5 ef 4
+discoiquuid: 7cbca5fb-a99b-43ea-b629-6236cf2a5ef4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
 
-# Dynamic and personalized content{#dynamic-and-personalized-content}
+# Conteúdo dinâmico e personalizado{#dynamic-and-personalized-content}
 
-Preste atenção aos seus clientes e melhore sua taxa de resposta usando conteúdo e cabeçalhos personalizados de acordo com seus perfis, suas preferências e suas atividades. Todas as informações do cliente estão centralizadas no Adobe Campaign e você pode oferecer mensagens que contêm conteúdo adaptado por meio de diferentes canais.
+Obtenha a atenção de seus clientes e melhore sua taxa de resposta usando conteúdo e cabeçalhos que são personalizados de acordo com seus perfis, suas preferências e suas atividades. Todas as suas informações de cliente estão centralizadas no Adobe Campaign e você pode oferecer mensagens que contêm conteúdo adaptado por meio de canais diferentes.
 
-As mensagens personalizadas são fundamentais para enviar conteúdo relevante, oferecer experiências personalizadas e aumentar as taxas abertas e de conversão. As mensagens entre canais entregues pelo Adobe Campaign podem ser personalizadas de várias formas diferentes. Essas maneiras podem ser combinadas com critérios dependendo dos perfis. Você pode:
+As mensagens personalizadas são fundamentais para enviar conteúdo relevante, oferecer experiências personalizadas e aumentar as taxas de conversão e abertura. As mensagens entre canais entregues pelo Adobe Campaign podem ser personalizadas de várias maneiras diferentes. Essas maneiras podem ser combinadas com critérios dependendo dos perfis. Você pode:
 
-* Insert [dynamic personalization fields](../../designing/using/inserting-a-personalization-field.md) in your messages
-* Insert [predefined personalization blocks](../../designing/using/adding-a-content-block.md)
-* [Personalizar o remetente](../../designing/using/personalizing-the-sender.md) de um e-mail ou SMS
-* [Personalize a linha de assunto](../../designing/using/personalizing-the-subject-line-of-an-email.md) de um email ou use [os recursos de linha](../../designing/using/personalizing-the-subject-line-of-an-email.md#predictive-subject-line) de assunto preditivo para otimizá-lo
-* Create [conditional content in an email](../../designing/using/defining-dynamic-content-in-an-email.md) or [in a landing page](../../designing/using/defining-dynamic-content-in-a-landing-page.md)
-* Insert [Dynamic text](../../designing/using/defining-dynamic-text.md) in a SMS message or a Push notification
+* Inserir campos [de personalização](../../designing/using/personalization.md#inserting-a-personalization-field) dinâmica em suas mensagens
+* Inserir blocos de personalização [predefinidos](../../designing/using/personalization.md#adding-a-content-block)
+* [Personalizar o remetente](../../designing/using/subject-line.md) de um email ou SMS
+* [Personalize a linha](../../designing/using/subject-line.md) de assunto de um email ou use os recursos de linha de assunto [](../../designing/using/subject-line.md#predictive-subject-line) preditivo para otimizá-lo
+* Criar conteúdo [condicional em um email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) ou [em uma página inicial](../../channels/using/defining-dynamic-content-in-a-landing-page.md)
+* Inserir texto [](../../channels/using/defining-dynamic-text.md) dinâmico em uma mensagem SMS ou uma notificação por push
 
 ![](assets/delivery_content_43.png)
 
 **Tópicos relacionados:**
 
-* Discover email personalization through a [end-to-end sample](../../designing/using/example--email-personalization.md)
-* Learn how to personalize URLs [in this page](../../designing/using/personalizing-urls.md)
-* Learn how to set up personalization of an image [in this page](../../designing/using/personalizing-an-image-source.md)
+* Descubra a personalização do email por meio de uma amostra [completa](../../designing/using/personalization.md#example-email-personalization)
+* Saiba como personalizar URLs [nesta página](../../designing/using/personalization.md#personalizing-urls)
+* Saiba como configurar a personalização de uma imagem [nesta página](../../designing/using/personalization.md#personalizing-an-image-source)
 
