@@ -1,86 +1,86 @@
 ---
-title: Criação de uma mensagem SMS
-seo-title: Criação de uma mensagem SMS
-description: Criação de uma mensagem SMS
+title: Criando uma mensagem SMS
+seo-title: Criando uma mensagem SMS
+description: Criando uma mensagem SMS
 seo-description: Siga estas etapas para criar uma mensagem SMS de envio único no Adobe Campaign.
 page-status-flag: nunca ativado
-uuid: 591 ae 97 e -2 d 19-4 f 93-be 4 b-d 8 d 20 f 1 d 2 d 12
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+uuid: 591ae97e-2d19-4f93-be4b-d8d20f1d2d12
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
 audience: canais
-content-type: reference
+content-type: referência
 topic-tags: sms-messages
-discoiquuid: b 27381 a 9-19 e 5-4 b 65-b 194-c 72 f 475 ba 54 d
-delivercontext-tags: Deliverycreation, assistente
+discoiquuid: b27381a9-19e5-4b65-b194-c72f475ba54d
+delivercontext-tags: deliveryCreation,assistente
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d50d486ed77cb7989df47133bb49fde3227ae3a5
+source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ---
 
 
-# Creating an SMS message{#creating-an-sms-message}
+# Criando uma mensagem SMS{#creating-an-sms-message}
 
-Criar uma entrega SMS é muito semelhante à criação de um e-mail normal. As etapas a seguir descrevem a configuração que é específica para este canal. Refer to [Creating an email](../../channels/using/creating-an-email.md) for more information on other options.
+A criação de uma entrega de SMS é muito semelhante à criação de um email comum. As etapas a seguir descrevem a configuração que é específica para esse canal. Consulte [Criação de um email](../../channels/using/creating-an-email.md) para obter mais informações sobre outras opções.
 
-Advanced SMS parameters are detailed in the [SMS configuration](../../administration/using/configuring-sms-channel.md) section.
+Parâmetros SMS avançados são detalhados na seção de configuração [](../../administration/using/configuring-sms-channel.md) SMS.
 
-Para criar e enviar mensagens SMS a um telefone celular, você precisa:
+Para criar e enviar mensagens SMS para um telefone celular, é necessário:
 
-* A **[!UICONTROL Routing]** external account configured on the **[!UICONTROL Mobile (SMS)]** channel with the **[!UICONTROL Bulk delivery]** mode. For more on this, refer to the [Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) section.
-* Um modelo de entrega que está corretamente vinculado a esta conta externa.
+* Uma conta **[!UICONTROL Routing]** externa configurada no **[!UICONTROL Mobile (SMS)]** canal com o **[!UICONTROL Bulk delivery]** modo. Para obter mais informações, consulte a seção [Roteamento](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) .
+* Um modelo de entrega vinculado corretamente a esta conta externa.
 
-1. Crie uma entrega SMS. You can do it from the Adobe Campaign [home page](../../start/using/interface-description.md#home-page), in a [campaign](../../start/using/marketing-activities.md#creating-a-marketing-activity) or in the [marketing activity list](../../start/using/programs-and-campaigns.md#creating-a-campaign).
+1. Crie uma entrega de SMS. Você pode fazer isso na [página](../../start/using/interface-description.md#home-page)inicial do Adobe Campaign, em uma [campanha](../../start/using/marketing-activities.md#creating-a-marketing-activity) ou na lista [de atividades de](../../start/using/programs-and-campaigns.md#creating-a-campaign)marketing.
 
-   Também é possível adicionar uma atividade SMS em um fluxo de trabalho. For more on this, refer to the [Workflows](../../automating/using/sms-delivery.md) guide.
+   Você também pode adicionar uma atividade SMS em um fluxo de trabalho. Para obter mais informações, consulte o guia [Fluxos de trabalho](../../automating/using/sms-delivery.md) .
 
-   Ao criar uma mensagem, um assistente é exibido para orientar você pelas etapas mais importantes. O que é definido por meio do assistente ainda pode ser editado depois do painel de mensagens.
+   Ao criar uma mensagem, um assistente é exibido para orientá-lo pelas etapas mais importantes. O que é definido pelo assistente ainda pode ser editado depois do painel de mensagens.
 
-1. Selecione o modelo que deseja usar. Você pode escolher o modelo de SMS out-of-the-box ou um de seus próprios modelos.
+1. Selecione o modelo que deseja usar. Você pode escolher o modelo de SMS predefinido ou um dos seus próprios modelos.
 
    ![](assets/sms_creation_1.png)
 
-   Para fornecer a um telefone celular, o modelo de entrega deve estar vinculado corretamente à conta externo de roteamento de SMS.
+   Para entregar para um telefone celular, o modelo de entrega deve estar corretamente vinculado à conta externa de roteamento SMS.
 
 1. Insira as propriedades gerais do SMS.
 
    ![](assets/sms_creation_2.png)
 
-   O rótulo da atividade e a ID aparecem na interface, mas não são visíveis para os destinatários da mensagem.
+   O rótulo da atividade e sua ID são exibidos na interface, mas não são visíveis para os destinatários da mensagem.
 
-1. Especifique o público-alvo que deseja direcionar. Você pode selecionar um público-alvo existente ou direcionar diretamente uma população ao definir e combinar regras.
+1. Especifique o público-alvo que deseja direcionar. Você pode selecionar um público existente ou direcionar diretamente a um público definindo e combinando regras.
 
    ![](assets/sms_creation_3.png)
 
-1. Adicionar conteúdo ao SMS. You can also define the content by clicking the **[!UICONTROL Content]** section of the delivery dashboard, once the SMS creation is finalized. See [About SMS content design](../../designing/using/about-sms-and-push-content-design.md).
+1. Adicione conteúdo ao seu SMS. Você também pode definir o conteúdo clicando na **[!UICONTROL Content]** seção do painel de entrega, depois que a criação do SMS for finalizada. Consulte [Sobre design](../../channels/using/about-sms-and-push-content-design.md)de conteúdo SMS.
 
-   Se você inseriu campos de personalização ou texto condicional no conteúdo de sua mensagem SMS, o comprimento da mensagem pode variar de um destinatário para outro. na verdade, esses fatores podem inserir caracteres que não são considerados pela codificação GSM. É por isso que o comprimento da mensagem deve ser avaliado após a realização da personalização. See [Personalizing SMS messages](../../channels/using/personalizing-sms-messages.md).
+   Se você tiver inserido campos de personalização ou texto condicional no conteúdo de sua mensagem SMS, a duração da mensagem pode variar de um destinatário para outro. na verdade, esses fatores podem introduzir caracteres que não são considerados pela codificação GSM. Por isso, a duração da mensagem deve ser avaliada uma vez realizada a personalização. Consulte [Personalização de mensagens](../../channels/using/personalizing-sms-messages.md)SMS.
 
    ![](assets/sms_creation_4.png)
 
-1. Confirme a criação da mensagem. O painel é exibido.
-1. Programe o envio. O SMS pode ser enviado manualmente após a preparação da mensagem ou automaticamente em uma data programada. See [Scheduling messages](../../sending/using/about-scheduling-messages.md).
-1. Prepare a mensagem para analisar sua validade, personalização e meta.
+1. Confirme a criação da mensagem. Seu painel é exibido.
+1. Agende o envio. O SMS pode ser enviado manualmente logo após a preparação da mensagem ou automaticamente em uma data programada. Consulte [Agendamento de mensagens](../../sending/using/about-scheduling-messages.md).
+1. Prepare a mensagem para analisar sua validade, personalização e destino.
 
    ![](assets/sms_creation_6.png)
 
    >[!NOTE]
    >
-   >Você pode definir regras globais de esgotamento entre canais que excluirão automaticamente os perfis substituídos das campanhas. See [Fatigue rules](../../administration/using/fatigue-rules.md).
+   >Você pode definir regras de fadiga globais entre canais que excluirão automaticamente perfis supersolacionados de campanhas. Consulte Regras de [fadiga](../../administration/using/fatigue-rules.md).
 
-1. Envie testes para verificar e validar a mensagem e monitorar a renderização da caixa de entrada. See the [Sending proof](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) section.
-1. Confirme o envio da mensagem. O envio começará de acordo com a programação definida.
+1. Envie provas para verificar e validar a mensagem e monitorar a renderização da caixa de entrada. Consulte a seção [Enviando prova](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) .
+1. Confirme o envio da mensagem. O envio será iniciado de acordo com a programação definida.
 
    ![](assets/sms_creation_7.png)
 
-A mensagem é enviada. Você pode verificar sua entrega pelo painel de mensagens e logs.
+A mensagem é enviada. Você pode verificar sua entrega no painel de mensagens e nos registros.
 
-Após concluir o envio, você pode começar a medir o impacto da sua mensagem com relatórios de entrega incorporados ou personalizados.
+Quando o envio estiver concluído, você poderá começar a medir o impacto de sua mensagem com relatórios de entrega incorporados ou personalizados.
 
 **Tópicos relacionados:**
 
-* [Sobre a edição de conteúdo SMS e push](../../designing/using/about-sms-and-push-content-design.md)
+* [Sobre SMS e edição de conteúdo de push](../../channels/using/about-sms-and-push-content-design.md)
 * [Gerenciamento de modelos](../../start/using/about-templates.md)
-* [Criar um vídeo de entrega](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html) de SMS
+* [Criar um vídeo de entrega](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html) SMS
 
