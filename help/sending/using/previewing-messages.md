@@ -1,40 +1,40 @@
 ---
-title: Visualização de mensagens
-seo-title: Visualização de mensagens
-description: Visualização de mensagens
+title: Visualizar mensagens
+seo-title: Visualizar mensagens
+description: Visualizar mensagens
 seo-description: Saiba como visualizar uma mensagem no editor de conteúdo ou no Designer de email.
 page-status-flag: nunca ativado
-uuid: 8 dffca 95-59 fe -4 e 9 b -93 cb -73 b 33 ffde 020
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: enviando
-content-type: reference
-topic-tags: preparando e testando-messages
-discoiquuid: 8428 f 8 ac -8 ef 5-46 cd -9 d 93-10 ec 0 asu 3 ded
+uuid: 8dffca95-59fe-4e9b-93cb-73b33ffde020
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: envio
+content-type: referência
+topic-tags: mensagens de preparação e teste
+discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 4ad558fce83006879455a791127594157456f0c4
 
 ---
 
 
-# Previewing messages{#previewing-messages}
+# Visualizar mensagens{#previewing-messages}
 
-After adding test profiles in the **[!UICONTROL Audience]** window, you can preview your message to check its personalization and how your recipients will see your delivery.
+Depois de adicionar perfis de teste na **[!UICONTROL Audience]** janela, você pode visualizar sua mensagem para verificar sua personalização e como seus destinatários verão sua entrega.
 
-1. In the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer), click the **[!UICONTROL Preview]** button.
+1. No [Email Designer](../../designing/using/overview.md), clique no **[!UICONTROL Preview]** botão.
 
    ![](assets/sending_preview.png)
 
-   Uma exibição de desktop e uma visualização móvel responsiva do seu e-mail são exibidas lado a lado.
+   Uma exibição de desktop e uma exibição móvel responsiva de seu email são exibidas lado a lado.
 
-1. Uma verificação automática contra spam é realizada durante cada visualização. Click the **[!UICONTROL Anti-spam analysis]** button to find out more about the warning.
+1. Uma verificação automática de antisspam é executada durante cada visualização. Clique no **[!UICONTROL Anti-spam analysis]** botão para saber mais sobre o aviso.
 
    ![](assets/sending_anti-spam_analysis.png)
 
-1. Select the **[!UICONTROL Change profile]** button to choose the test profile you want to test the personalization elements on.
-1. To exit the **[!UICONTROL Preview]** mode, click the **[!UICONTROL Edit]** button on top left of the screen.
+1. Selecione o **[!UICONTROL Change profile]** botão para escolher o perfil de teste no qual deseja testar os elementos de personalização.
+1. Para sair do **[!UICONTROL Preview]** modo, clique no **[!UICONTROL Edit]** botão na parte superior esquerda da tela.
 
    ![](assets/sending_preview_edit.png)
 
