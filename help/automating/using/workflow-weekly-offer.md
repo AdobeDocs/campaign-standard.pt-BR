@@ -1,55 +1,55 @@
 ---
-title: '" Caso de uso de fluxo de trabalho: Criação de uma entrega semanal "'
-seo-title: '" Caso de uso de fluxo de trabalho: Criação de uma entrega semanal "'
-description: '" Caso de uso de fluxo de trabalho: Criação de uma entrega semanal "'
-seo-description: '" Caso de uso de fluxo de trabalho: Criação de uma entrega semanal "'
+title: '"Caso de uso do fluxo de trabalho: Criando uma entrega semanal"'
+seo-title: '"Caso de uso do fluxo de trabalho: Criando uma entrega semanal"'
+description: '"Caso de uso do fluxo de trabalho: Criando uma entrega semanal"'
+seo-description: '"Caso de uso do fluxo de trabalho: Criando uma entrega semanal"'
 page-status-flag: nunca ativado
-uuid: 396 a 3 de 1-6 ffa -4385-ac 9 f -15 fdeae 5 a 366
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automatizando
-content-type: reference
-topic-tags: 'execução-atividades '
-discoiquuid: 377821 e 6-69 f 8-41 cc-a 1 ad -8 a 2 f 5 ed 4 d 409
-context-tags: fluxo de trabalho, caso de uso, consulta, entrega, programador
+uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: automatização
+content-type: referência
+topic-tags: 'atividades de execução '
+discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
+context-tags: fluxo de trabalho,use-case,consulta,entrega,agendador
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 035726bbd3112058b9a89525a861521bc3b9867e
+source-git-commit: 4a38b1f3d7d6dbf12fa71c819147bf2d91acb0c4
 
 ---
 
 
-# Caso de uso de subfluxo: Criar uma entrega de email a cada terça-feira{#creating-email-every-tuesday}
+# Caso de uso de fluxo de trabalho: Criar uma entrega por email todas as terças-feiras{#creating-email-every-tuesday}
 
-Você pode enviar um email toda terça-feira para todos os clientes para ofertas especiais.
+Você pode enviar um e-mail todas as terças-feiras a todos os clientes para Ofertas especiais.
 
-1. Em **[!UICONTROL Marketing Activities]**, clique **[!UICONTROL Create]** em e selecione **[!UICONTROL Workflow]**.
-1. Selecione **[!UICONTROL New Workflow]** como tipo de fluxo de trabalho e clique **[!UICONTROL Next]** em.
-1. Insira as propriedades do fluxo de trabalho e clique **[!UICONTROL Create]** em.
+1. Em **[!UICONTROL Marketing Activities]**, clique **[!UICONTROL Create]** e selecione **[!UICONTROL Workflow]**.
+1. Selecione **[!UICONTROL New Workflow]** como tipo de fluxo de trabalho e clique em **[!UICONTROL Next]**.
+1. Insira as propriedades do fluxo de trabalho e clique em **[!UICONTROL Create]**.
 
-## Criação de uma atividade programada{#creating-a-scheduler-activity}
+## Criando uma atividade do Agendador{#creating-a-scheduler-activity}
 
-1. Em **[!UICONTROL Activities]** &gt; **[!UICONTROL Execution]**, arraste e solte a **[!UICONTROL Scheduler activity]**![](assets/scheduler_icon.png).
+1. Em **[!UICONTROL Activities]** &gt; **[!UICONTROL Execution]**, arraste e solte um **[!UICONTROL Scheduler activity]**.
 1. Clique duas vezes na atividade.
 1. Configure a execução da entrega.
 1. Em **[!UICONTROL Execution frequency]**, selecione **[!UICONTROL Weekly]**.
-1. Selecione a **[!UICONTROL Time]** e a **[!UICONTROL Repetition frequency]** para suas entregas.
+1. Selecione um **[!UICONTROL Time]** e um **[!UICONTROL Repetition frequency]** para suas entregas.
 1. Em **[!UICONTROL Days of the week]**, selecione **[!UICONTROL Tuesday]**.
-1. Especifique um **[!UICONTROL Start]** parâmetro e um **[!UICONTROL Expiration]** parâmetro para o seu fluxo de trabalho.
+1. Especifique um **[!UICONTROL Start]** e um **[!UICONTROL Expiration]** parâmetro para seu fluxo de trabalho.
 1. Confirme sua atividade e salve seu fluxo de trabalho.
 
 ![](assets/scheduler_properties.png)
 
 >[!NOTE]
 >
->Para iniciar o fluxo de trabalho em um determinado momento **[!UICONTROL Time Zone]** na **[!UICONTROL Execution options]** guia, configure o fuso horário do seu programador no campo Fuso horário.
+>Para iniciar seu fluxo de trabalho em um determinado **[!UICONTROL Time Zone]**, na guia **[!UICONTROL Execution options]**, configure o fuso horário para seu programador no campo Fuso horário.
 
-## Criação de uma atividade de consulta{#creating-a-query-activity}
+## Criando uma atividade de consulta{#creating-a-query-activity}
 
-1. Em **[!UICONTROL Activities]** &gt; **[!UICONTROL Targeting]**, para selecionar destinatários, arraste e solte **[!UICONTROL query]** uma atividade e clique duas vezes nele.
-1. Em **[!UICONTROL Shortcuts]** &gt; **[!UICONTROL Profile]**, arraste **[!UICONTROL Email]** e solte.
-1. Selecione **[!UICONTROL is not empty]** como um operador.
+1. Em **[!UICONTROL Activities]** &gt; **[!UICONTROL Targeting]**, para selecionar destinatários, arraste e solte uma **[!UICONTROL query]** atividade e clique duas vezes nela.
+1. Em **[!UICONTROL Shortcuts]** &gt; **[!UICONTROL Profile]**, arraste e solte **[!UICONTROL Email]**.
+1. Selecione **[!UICONTROL is not empty]** como operador.
 1. Em **[!UICONTROL Shortcuts]** &gt; **[!UICONTROL General]**, adicione perfis e selecione **[!UICONTROL no longer contact by email]** com o valor **[!UICONTROL No]**.
 1. Click **[!UICONTROL Confirm]**.
 
@@ -58,16 +58,16 @@ Você pode enviar um email toda terça-feira para todos os clientes para ofertas
 ## Criação de uma entrega por email{#creating-an-email-delivery}
 
 1. Em **[!UICONTROL Activities]** &gt; **[!UICONTROL Channels]**, arraste e solte um **[!UICONTROL Email delivery]**.
-1. Clique na atividade e selecione ![](assets/edit_darkgrey-24px.png) editar.
-1. Selecione **[!UICONTROL Recurring email]** e clique **[!UICONTROL Next]** em.
-1. Selecione um modelo de e-mail e clique **[!UICONTROL Next]** em.
-1. Insira as propriedades e clique **[!UICONTROL Next]** em.
-1. Para criar o layout de seu email, clique **[!UICONTROL Use Email Designer]** em.
-1. Inserir elementos ou selecionar um modelo existente.
+1. Clique na atividade e selecione ![](assets/edit_darkgrey-24px.png) para editar.
+1. Selecione **[!UICONTROL Recurring email]** e clique em **[!UICONTROL Next]**.
+1. Selecione um modelo de email e clique em **[!UICONTROL Next]**.
+1. Insira as propriedades do email e clique em **[!UICONTROL Next]**.
+1. Para criar o layout do seu email, clique em **[!UICONTROL Use Email Designer]**.
+1. Insira elementos ou selecione um modelo existente.
 1. Personalize seu email usando campos e links.
 1. Click **[!UICONTROL Save]**.
 
-Para obter mais informações, consulte [Criar um email](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
+Para obter mais informações, consulte a [criação de um email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
 **Tópicos relacionados:**
 
