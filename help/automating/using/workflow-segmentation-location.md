@@ -1,36 +1,36 @@
 ---
-title: '" Caso de uso de fluxo de trabalho: Segmentação no local "'
-seo-title: '" Caso de uso de fluxo de trabalho: Segmentação no local "'
-description: '" Caso de uso de fluxo de trabalho: Segmentação no local "'
-seo-description: '" Caso de uso de fluxo de trabalho: Segmentação no local "'
+title: '"Caso de uso do fluxo de trabalho: Segmentação no local"'
+seo-title: '"Caso de uso do fluxo de trabalho: Segmentação no local"'
+description: '"Caso de uso do fluxo de trabalho: Segmentação no local"'
+seo-description: '"Caso de uso do fluxo de trabalho: Segmentação no local"'
 page-status-flag: nunca ativado
-uuid: 396 a 3 de 1-6 ffa -4385-ac 9 f -15 fdeae 5 a 366
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automatizando
-content-type: reference
-topic-tags: execução-atividades
-discoiquuid: 377821 e 6-69 f 8-41 cc-a 1 ad -8 a 2 f 5 ed 4 d 409
-context-tags: 'fluxo de trabalho, caso de uso, consulta, segmentação, entrega '
+uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: automatização
+content-type: referência
+topic-tags: atividades de execução
+discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
+context-tags: 'fluxo de trabalho,use-case,consulta,segmentação,entrega '
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
+source-git-commit: f7e56dcb4c2bbdc802c9d271d4a44d9a72b239ed
 
 ---
 
 
-# Caso de uso de fluxo de trabalho: Segmentação no local {#segmentation-on-location}
+# Caso de uso do fluxo de trabalho: Segmentação no local {#segmentation-on-location}
 
-Você pode enviar um email de direcionamento para clientes com ofertas em suas lojas locais.
+Você pode enviar um email de definição de metas para clientes com ofertas em suas lojas locais.
 
-1. Em **[!UICONTROL Marketing Activities]**, clique **[!UICONTROL Create]** em e selecione **[!UICONTROL Workflow]**.
-1. Selecione **[!UICONTROL New Workflow]** como tipo de fluxo de trabalho e clique **[!UICONTROL Next]** em.
-1. Insira as propriedades do fluxo de trabalho e clique **[!UICONTROL Create]** em.
+1. Em **[!UICONTROL Marketing Activities]**, clique **[!UICONTROL Create]** e selecione **[!UICONTROL Workflow]**.
+1. Selecione **[!UICONTROL New Workflow]** como tipo de fluxo de trabalho e clique em **[!UICONTROL Next]**.
+1. Insira as propriedades do fluxo de trabalho e clique em **[!UICONTROL Create]**.
 
-## Seleção de destinatários que podem ser acessados por email{#selecting-recipients-contactable-via-email}
+## Selecionar destinatários contatáveis por email{#selecting-recipients-contactable-via-email}
 
-1. Em **[!UICONTROL Activities]** &gt; **[!UICONTROL Targeting]**, arraste e solte a **[!UICONTROL Query activity]**![](assets/query.png).
+1. Em **[!UICONTROL Activities]** &gt; **[!UICONTROL Targeting]**, arraste e solte um **[!UICONTROL Query activity]**![](assets/query.png).
 1. Clique duas vezes na atividade.
 1. Em **[!UICONTROL Shortcuts]**, arraste e solte **[!UICONTROL Profiles]** e selecione o campo **[!UICONTROL email]** com o operador **[!UICONTROL is not empty]**.
 1. Em **[!UICONTROL Shortcuts]**, arraste e solte **[!UICONTROL Profiles]** e selecione o campo **[!UICONTROL no longer contact by email]** com o valor **[!UICONTROL no]**.
@@ -40,30 +40,30 @@ Você pode enviar um email de direcionamento para clientes com ofertas em suas l
 
 ## Criação de uma atividade de segmentação{#creating-a-segmentation-activity}
 
-1. Arraste e solte uma **[!UICONTROL Segmentation]** atividade e clique duas vezes nele.
-1. Clique no segmento em seguida, abra a transição para definir como meta as pessoas na primeira cidade. Aqui Boston.
+1. Arraste e solte uma **[!UICONTROL Segmentation]** atividade e clique duas vezes nela.
+1. Clique no segmento e abra a transição para direcionar as pessoas na primeira cidade. Aqui Boston.
 1. Arraste e solte **[!UICONTROL Location]** e selecione **[!UICONTROL City]** com o operador **[!UICONTROL equals to]** e o valor **[!UICONTROL Boston]**.
-Observação: Para atingir todas as pessoas que entraram em boston, não se preocupe com a opção desmarcar a opção distinção entre maiúsculas e minúsculas.
+Observação: Para acessar todas as pessoas que entraram em Boston, desmarque a opção que faz distinção entre maiúsculas e minúsculas.
 1. Click **[!UICONTROL Confirm]**.
-1. Em **[!UICONTROL List of outbound segments]**, clique **[!UICONTROL Add an element]** e clique ![](assets/edit_darkgrey-24px.png) em para criar um segmento direcionado às pessoas na segunda cidade. Aqui Chicago.
-1. Arraste e solte **[!UICONTROL Location]** , e selecione **[!UICONTROL City]** com o operador **[!UICONTROL equals to]** e digite **[!UICONTROL Chicago]** o valor.
-1. Para atingir todas as pessoas que entraram em chicago, não se preocupe com a opção desmarcar a opção distinção entre maiúsculas e minúsculas.
+1. Em **[!UICONTROL List of outbound segments]**, clique **[!UICONTROL Add an element]** e clique em ![](assets/edit_darkgrey-24px.png) para criar um segmento direcionando pessoas na segunda cidade. Aqui Chicago.
+1. Arraste e solte **[!UICONTROL Location]** e selecione **[!UICONTROL City]** com o operador **[!UICONTROL equals to]** e insira **[!UICONTROL Chicago]** o valor.
+1. Para acessar todas as pessoas que entraram em Chicago, desconsidere a opção que diferencia maiúsculas e minúsculas.
 1. Click **[!UICONTROL Confirm]**.
 
-## Criação de uma entrega por email{#creating-an-email-delivery}
+## Criação de uma entrega de email{#creating-an-email-delivery}
 
-1. Em **[!UICONTROL Activities]** &gt; **[!UICONTROL Channels]**, arraste e solte um **[!UICONTROL Email Delivery]** após cada segmento.
-1. Clique na atividade e selecione ![](assets/edit_darkgrey-24px.png) editar.
-1. Selecione **[!UICONTROL Simple email]** e clique **[!UICONTROL Next]** em.
-1. Selecione um modelo de e-mail e clique **[!UICONTROL Next]** em.
-1. Insira as propriedades e clique **[!UICONTROL Next]** em.
-1. Para criar o layout de seu email, clique **[!UICONTROL Email Designer]** em.
-1. Inserir elementos ou selecionar um modelo existente.
-1. Personalize seu email com ofertas específicas para cada localização.
+1. Em **[!UICONTROL Activities]** &gt; **[!UICONTROL Channels]**, arraste e solte um **[!UICONTROL Email Delivery]** depois de cada segmento.
+1. Clique na atividade e selecione ![](assets/edit_darkgrey-24px.png) para editar.
+1. Selecione **[!UICONTROL Simple email]** e clique em **[!UICONTROL Next]**.
+1. Selecione um modelo de email e clique em **[!UICONTROL Next]**.
+1. Insira as propriedades do email e clique em **[!UICONTROL Next]**.
+1. Para criar o layout do seu email, clique em **[!UICONTROL Email Designer]**.
+1. Insira elementos ou selecione um modelo existente.
+1. Personalize seu email com ofertas específicas para cada local.
 
-Para obter mais informações, consulte [Criar um email](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
+Para obter mais informações, consulte a [criação de um email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
-1. Clique **[!UICONTROL Preview]** em para verificar o layout.
+1. Clique **[!UICONTROL Preview]** para verificar seu layout.
 1. Click **[!UICONTROL Save]**.
 
 ![](assets/wf-segmentation-location.png)
