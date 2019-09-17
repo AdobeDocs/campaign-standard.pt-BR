@@ -2,51 +2,51 @@
 title: Criação de um email multilíngue
 seo-title: Criação de um email multilíngue
 description: Criação de um email multilíngue
-seo-description: Siga estas etapas para criar um direcionamento de email multilíngue com idiomas preferenciais diferentes.
+seo-description: Siga estas etapas para criar um email multilíngue direcionando destinatários com diferentes idiomas preferenciais.
 page-status-flag: nunca ativado
-uuid: e 90 f 4 ec 8-14 e 3-4304-b 5 fc-bce 0 ba 08 a 4 ef
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
 audience: canais
-content-type: reference
-topic-tags: por email
-discoiquuid: 79231445-1 d 51-499 a-adcf -0 c 0 f 6 db 1 cfa 3
+content-type: referência
+topic-tags: mensagens de email
+discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
 
 # Criação de um email multilíngue{#creating-a-multilingual-email}
 
-É possível enviar um email multilíngue para perfis com diferentes idiomas preferenciais: cada perfil receberá uma variante do email em seu idioma preferido.
+Você pode enviar um email multilíngue para perfis com diferentes idiomas preferenciais: cada perfil receberá uma variante do email em seu idioma preferido.
 
-Para fazer isso, verifique se você tem um modelo de email multilíngue disponível. Caso contrário, saiba como criar uma nesta [seção](../../start/using/creating-a-multilingual-template.md).
+Para fazer isso, verifique se você tem um modelo de email multilíngue disponível. Caso contrário, aprenda a criar um [nesta seção](../../start/using/creating-a-multilingual-template.md).
 
-O público-alvo se baseia em perfis com informações de idioma preferenciais concluídas.
+O público-alvo é baseado em perfis com uma informação completa de idioma preferencial.
 
-1. Crie um novo email com base em um modelo [multilíngue](../../start/using/creating-a-multilingual-template.md).
+1. Crie um novo email com base em um modelo [](../../start/using/creating-a-multilingual-template.md)multilíngue.
 
    ![](assets/multi_create1.png)
 
-1. Defina as propriedades gerais e o público-alvo do email, como para um email padrão. Consulte [a](../../audiences/using/creating-audiences.md) seção Criar públicos-alvo.
-1. Na quarta etapa do assistente de criação, defina as opções de variante. Se o [modelo multilíngue](../../start/using/creating-a-multilingual-template.md) já contiver todos os parâmetros corretos, você poderá clicar diretamente no **[!UICONTROL Create]** botão.
+1. Defina as propriedades gerais e o público-alvo do email, assim como um email padrão. Consulte a seção [Criação de públicos-alvo](../../audiences/using/creating-audiences.md) .
+1. Na quarta etapa do assistente de criação, defina as opções da variante. Se o modelo [](../../start/using/creating-a-multilingual-template.md) multilíngue já contiver todos os parâmetros corretos, clique diretamente no **[!UICONTROL Create]** botão.
 
    ![](assets/multi_create4.png)
 
-   Se necessário, adicione variantes usando o **[!UICONTROL Add an element]** botão. **[!UICONTROL Default]** não deve ser excluída. Quando definido como **[!UICONTROL default]**, [o idioma preferido do perfil](../../audiences/using/creating-profiles.md) é usado para escolher a variante. Também é possível definir a **[!UICONTROL Default]** variante para qualquer outro idioma.
+   Se necessário, adicione variantes usando o **[!UICONTROL Add an element]** botão. **[!UICONTROL Default]** não deve ser excluída. Quando definido como **[!UICONTROL default]**, [o idioma](../../audiences/using/creating-profiles.md) preferencial do perfil é usado para escolher a variante. Também é possível definir a **[!UICONTROL Default]** variante para qualquer outro idioma.
 
-1. Confirme a criação de e-mail: o painel de e-mail será exibido.
-1. Defina o conteúdo de email para cada variação. Dependendo do modelo escolhido, você pode definir vários assuntos, vários nomes de remetentes ou vários conteúdos diferentes. Use o menu suspenso para navegar entre as diferentes variantes do elemento. Para obter mais informações, consulte a [seção do editor](../../designing/using/about-email-content-design.md) de conteúdo.
+1. Confirmar criação de email: o painel de email será exibido.
+1. Defina o conteúdo do email para cada variante. Dependendo do modelo escolhido, é possível definir vários assuntos, vários nomes de remetentes ou vários conteúdos diferentes. Use o menu suspenso para navegar entre as diferentes variantes do elemento. Para obter mais informações, consulte a seção do editor [de](../../designing/using/overview.md) conteúdo.
 
    ![](assets/multi_selectcontent.png)
 
-1. Teste e valide a mensagem. Consulte a [seção de prova](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) de envio.
-1. Programe o envio com o **[!UICONTROL Send after confirmation option]**.
-1. Após o envio do email, você poderá acessar seus registros e relatórios para medir o sucesso da sua campanha. For more on reporting, refer to [this section](../../reporting/using/about-dynamic-reports.md).
+1. Teste e valide sua mensagem. Consulte a seção [Enviando prova](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) .
+1. Agende o envio com o **[!UICONTROL Send after confirmation option]**.
+1. Assim que seu email for enviado, você poderá acessar seus registros e relatórios para medir o sucesso de sua campanha. For more on reporting, refer to [this section](../../reporting/using/about-dynamic-reports.md).
 
 **Tópico relacionado:**
 
-* [Obtenção de públicos-alvo multilíngues usando um fluxo de trabalho](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
+* [Alcançar públicos multilíngues usando um fluxo de trabalho](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
