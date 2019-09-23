@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 29cbde1a6bb57526f626f2d1fef52695c50de8e6
+source-git-commit: 0cf4807fc3d617b0c5ca33705b6344d1f3994ab3
 
 ---
 
@@ -29,31 +29,31 @@ O assunto da mensagem é obrigatório para preparar e enviar a mensagem.
 
 Para configurar o assunto do email, vá para a **[!UICONTROL Properties]** guia da página inicial do Email Designer (acessível pelo ícone inicial) e preencha a seção **[!UICONTROL Subject]** .
 
-**Para definir a linha de assunto de um email**:
+**To define the subject line of an email**:
 
-1. Crie um email.
-1. Fechar a página inicial.
-1. Vá para a **[!UICONTROL Properties]** guia da página inicial do Email Designer (acessível pelo ícone inicial) e preencha a **[!UICONTROL Subject]** seção.
+1. Create an email.
+1. Close homepage.
+1. Go the  tab of the Email Designer home page (accessible through the home icon) and fill in the  section.**[!UICONTROL Properties]****[!UICONTROL Subject]**
 
 ![](assets/email_designer_subject.png)
 
-Também é possível adicionar campos de personalização, blocos de conteúdo e conteúdo dinâmico à linha de assunto clicando nos ícones correspondentes.
+You can also add personalization fields, content blocks and dynamic content to the subject line by clicking the corresponding icons.
 
-**Tópicos relacionados:**
+**Related topics:**
 
-* [Inserir um campo de personalização](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Adicionar um bloco de conteúdo](../../designing/using/personalization.md#adding-a-content-block)
-* [Definição de conteúdo dinâmico em um email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [Adding a content block](../../designing/using/personalization.md#adding-a-content-block)
+* [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
-## Linha de assunto previsível {#predictive-subject-line}
+## Predictive subject line {#predictive-subject-line}
 
-Ao editar um email, você pode tentar diferentes linhas de assunto e obter uma estimativa de sua taxa de abertura antes de enviá-lo.
+When editing an email, you can try out different subject lines and get an estimation of its open rate before you send it.
 
-Esse recurso é desativado por padrão. Ela é ativada quando o primeiro modelo é importado. Um modelo é o resultado de conjuntos de dados de treinamento específicos para um determinado setor. Os modelos permitem que o sistema preveja a taxa de abertura do email quando uma nova linha de assunto for enviada.
+This feature is disabled by default. It is enabled when the first model is imported. Um modelo é o resultado de conjuntos de dados de treinamento específicos para um determinado setor. Models allow the system to predict the open rate of the email when a new subject line is submitted.
 
 >[!NOTE]
 >
->Este recurso está disponível para mensagens de email e bancos de dados que contêm apenas conteúdo em inglês. O modelo treinado será inconsistente e resultará em resultados incorretos se sua instância contiver emails em outros idiomas. A opção que permite testar um assunto só estará visível se um modelo já estiver disponível em sua instância.
+>Este recurso está disponível para mensagens de email e bancos de dados que contêm apenas conteúdo em inglês. The trained model will be inconsistent and will lead to erroneous results if your instance contains emails in other languages. A opção que permite testar um assunto só estará visível se um modelo já estiver disponível em sua instância.
 
 **Tópico relacionado**
 
