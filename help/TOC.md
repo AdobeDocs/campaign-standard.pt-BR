@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: usuário final
 user-guide-title: Ajuda do Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
+source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
 
 ---
 
@@ -35,23 +35,23 @@ source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
       + [Atividades de marketing](start/using/marketing-activities.md)
       + [Linha do tempo](start/using/timeline.md)
    + Gerenciamento de modelos {#managing-templates}
-      + [Sobre modelos](start/using/about-templates.md)
+      + [About templates](start/using/about-templates.md)
       + [Criação de um novo modelo](start/using/creating-a-new-template.md)
-      + [Criação de um modelo multilíngue](start/using/creating-a-multilingual-template.md)
-      + [Uso de um modelo](start/using/using-a-template.md)
-   + Tutoriais {#tutorials}
-      + [Guias passo a passo](start/using/step-by-step-guides.md)
+      + [Creating a multilingual template](start/using/creating-a-multilingual-template.md)
+      + [Using a template](start/using/using-a-template.md)
+   + Tutorials {#tutorials}
+      + [Step-by-step guides](start/using/step-by-step-guides.md)
       + [Vídeos de procedimentos](start/using/how-to-videos.md)
-+ Perfis e públicos-alvo {#profiles-and-audiences}
-   + [Sobre perfis e públicos-alvo](audiences/using/about-profiles-and-audiences.md)
-   + Gerenciamento de perfis {#managing-profiles}
-      + [Sobre perfis](audiences/using/about-profiles.md)
-      + [Criação de perfis](audiences/using/creating-profiles.md)
-      + [Editar perfis](audiences/using/editing-profiles.md)
-      + [Perfil de cliente integrado](audiences/using/integrated-customer-profile.md)
-      + [Perfis ativos](audiences/using/active-profiles.md)
-   + Gerenciamento de públicos-alvo {#managing-audiences}
-      + [Sobre públicos-alvo](audiences/using/about-audiences.md)
++ Profiles and audiences {#profiles-and-audiences}
+   + [About profiles and audiences](audiences/using/about-profiles-and-audiences.md)
+   + Managing profiles {#managing-profiles}
+      + [About profiles](audiences/using/about-profiles.md)
+      + [Creating profiles](audiences/using/creating-profiles.md)
+      + [Editing profiles](audiences/using/editing-profiles.md)
+      + [Integrated customer profile](audiences/using/integrated-customer-profile.md)
+      + [Active profiles](audiences/using/active-profiles.md)
+   + Managing audiences {#managing-audiences}
+      + [About audiences](audiences/using/about-audiences.md)
       + [Criação de públicos-alvo](audiences/using/creating-audiences.md)
       + [Selecionar um público-alvo em uma mensagem](audiences/using/selecting-an-audience-in-a-message.md)
    + Gerenciamento de assinaturas {#managing-subscriptions}
@@ -81,21 +81,21 @@ source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
       + [Gerenciar SMS de entrada](channels/using/managing-incoming-sms.md)
       + [Sobre SMS e design de conteúdo de push](channels/using/about-sms-and-push-content-design.md)
       + [Interface do editor de conteúdo SMS e push](channels/using/sms-and-push-content-editor-interface.md)
-      + [Definição de texto dinâmico](channels/using/defining-dynamic-text.md)
-   + Notificações por push {#push-notifications}
-      + [Sobre notificações por push](channels/using/about-push-notifications.md)
-      + [Preparação e envio de uma notificação por push](channels/using/preparing-and-sending-a-push-notification.md)
-      + [Personalização de uma notificação por push](channels/using/customizing-a-push-notification.md)
-      + [Criação de uma notificação por push multilíngue](channels/using/creating-a-multilingual-push-notification.md)
-      + [Criação e atualização de informações de perfil com base em dados de aplicativo móvel](channels/using/updating-profile-with-mobile-app-data.md)
-   + Mensagens no aplicativo {#in-app-messaging}
-      + [Sobre as mensagens no aplicativo](channels/using/about-in-app-messaging.md)
-      + [Preparação e envio de uma mensagem no aplicativo](channels/using/preparing-and-sending-an-in-app-message.md)
-      + [Personalizar uma mensagem no aplicativo](channels/using/customizing-an-in-app-message.md)
-   + Mala direta {#direct-mail}
-      + [Sobre o correio direto](channels/using/about-direct-mail.md)
-      + [Retornar ao remetente](channels/using/return-to-sender.md)
-      + [Criação da correspondência direta](channels/using/creating-the-direct-mail.md)
+      + [Defining dynamic text](channels/using/defining-dynamic-text.md)
+   + Push notifications {#push-notifications}
+      + [About push notifications](channels/using/about-push-notifications.md)
+      + [Preparing and sending a push notification](channels/using/preparing-and-sending-a-push-notification.md)
+      + [Customizing a push notification](channels/using/customizing-a-push-notification.md)
+      + [Creating a multilingual push notification](channels/using/creating-a-multilingual-push-notification.md)
+      + [Creating and updating profile information based on mobile application data](channels/using/updating-profile-with-mobile-app-data.md)
+   + In-App messaging {#in-app-messaging}
+      + [About In-App messaging](channels/using/about-in-app-messaging.md)
+      + [Preparing and sending an In-App message](channels/using/preparing-and-sending-an-in-app-message.md)
+      + [Customizing an In-App message](channels/using/customizing-an-in-app-message.md)
+   + Direct mail {#direct-mail}
+      + [About direct mail](channels/using/about-direct-mail.md)
+      + [Return to sender](channels/using/return-to-sender.md)
+      + [Creating the direct mail](channels/using/creating-the-direct-mail.md)
       + [Definição do público-alvo de mala direta](channels/using/defining-the-direct-mail-audience.md)
       + [Definição do conteúdo de mala direta](channels/using/defining-the-direct-mail-content.md)
       + [Exemplo de mala direta em um fluxo de trabalho](channels/using/example-of-direct-mail-in-a-workflow.md)
@@ -108,41 +108,41 @@ source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
    + Páginas iniciais {#landing-pages}
       + [Sobre páginas de aterrissagem](channels/using/about-landing-pages.md)
       + [Limitações da página inicial](channels/using/landing-page-limitations.md)
-      + [Criação de uma página de aterrissagem](channels/using/designing-a-landing-page.md)
+      + [Designing a landing page](channels/using/designing-a-landing-page.md)
       + [Compartilhamento de uma página de aterrissagem](channels/using/sharing-a-landing-page.md)
-      + [Armazenamento e reconciliação de dados](channels/using/data-storage-and-reconciliation.md)
-      + [Configurar um processo de aceitação dupla](channels/using/setting-up-a-double-opt-in-process.md)
-      + [Sobre o design de conteúdo da página de aterrissagem](channels/using/about-landing-page-content-design.md)
-      + [Interface do editor de conteúdo da página de aterrissagem](channels/using/landing-page-content-editor-interface.md)
+      + [Data storage and reconciliation](channels/using/data-storage-and-reconciliation.md)
+      + [Setting up a double opt-in process](channels/using/setting-up-a-double-opt-in-process.md)
+      + [About landing page content design](channels/using/about-landing-page-content-design.md)
+      + [Landing page content editor interface](channels/using/landing-page-content-editor-interface.md)
       + [Gerenciamento da estrutura e do estilo da página inicial](channels/using/managing-landing-page-structure-and-style.md)
       + [Alteração de propriedades de dados de formulário de página inicial](channels/using/changing-a-landing-page-form-data-properties.md)
       + [Definição de conteúdo dinâmico em uma página de aterrissagem](channels/using/defining-dynamic-content-in-a-landing-page.md)
 + Criação de conteúdo de email {#designing-content}
    + [Designer de email da campanha](designing/using/designing-content-in-adobe-campaign.md)
    + [Início rápido](designing/using/quick-start.md)
-   + [Uso e recomendações](designing/using/overview.md)
+   + [Usage &amp; Recommendations](designing/using/overview.md)
    + [Definição da linha de assunto e do remetente](designing/using/subject-line.md)
    + [Criar e-mails do zero](designing/using/designing-from-scratch.md)
    + [Criar emails usando conteúdo existente](designing/using/using-existing-content.md)
    + [Criar emails usando conteúdo reutilizável](designing/using/using-reusable-content.md)
    + [Design de e-mail de várias soluções](designing/using/using-integrations.md)
-   + [Personalização](designing/using/personalization.md)
+   + [Personalization](designing/using/personalization.md)
    + [Modos de texto sem formatação e HTML](designing/using/plain-text-html-modes.md)
    + [Gerenciamento de estilos](designing/using/styles.md)
-   + [Gerenciamento de imagens](designing/using/images.md)
    + [Gerenciamento de links](designing/using/links.md)
-+ Teste e envio {#testing-and-sending}
+   + [Gerenciamento de imagens](designing/using/images.md)
++ Testing and Sending {#testing-and-sending}
    + [Sobre o envio de mensagens com o Campaign](sending/using/about-sending-messages-with-campaign.md)
    + Preparação e teste de mensagens {#preparing-and-testing-messages}
       + [Visualizar mensagens](sending/using/previewing-messages.md)
       + [Preparação do envio](sending/using/preparing-the-send.md)
-      + [Gerenciamento de perfis de teste e envio de provas](sending/using/managing-test-profiles-and-sending-proofs.md)
+      + [Managing test profiles and sending proofs](sending/using/managing-test-profiles-and-sending-proofs.md)
       + [Renderização de email](sending/using/email-rendering.md)
-   + Como agendar mensagens {#sheduling-messages}
-      + [Sobre o agendamento de mensagens](sending/using/about-scheduling-messages.md)
+   + Sheduling messages {#sheduling-messages}
+      + [About scheduling messages](sending/using/about-scheduling-messages.md)
       + [Otimização do tempo de envio](sending/using/optimizing-the-sending-time.md)
       + [Enviar mensagens no fuso horário do destinatário](sending/using/sending-messages-at-the-recipient-s-time-zone.md)
-      + [Calculando a data de envio](sending/using/computing-the-sending-date.md)
+      + [Computing the sending date](sending/using/computing-the-sending-date.md)
    + Enviar e rastrear mensagens {#sending-and-tracking-messages}
       + [Confirmando o envio](sending/using/confirming-the-send.md)
       + [Rastreamento de mensagens](sending/using/tracking-messages.md)
@@ -271,7 +271,7 @@ source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
       + [Exportar logs](automating/using/exporting-logs.md)
       + [Gerenciamento de pacotes](automating/using/managing-packages.md)
       + [Exportar listas](automating/using/exporting-lists.md)
-   + Casos de uso:Fluxos de trabalho {#workflow-use-case}
+   + Casos de uso: Fluxos de trabalho {#workflow-use-case}
       + [Criação de entregas com um complemento](automating/using/workflow-created-query-with-complement.md)
       + [Criando entregas na data de criação](automating/using/workflow-creation-date-query.md)
       + [Criação de uma entrega semanal](automating/using/workflow-weekly-offer.md)
