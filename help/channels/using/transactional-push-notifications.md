@@ -14,7 +14,7 @@ discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
 
 ---
 
@@ -25,7 +25,7 @@ Você pode usar o Adobe Campaign para enviar notificações por push transaciona
 
 >[!NOTE]
 >
->O canal de push é opcional. Verifique seu contrato de licença. Para obter mais informações sobre notificações por push padrão, consulte Notificações por [push](../../channels/using/about-push-notifications.md).
+>O canal de push é opcional. Verifique o contrato de licença. Para obter mais informações sobre notificações por push padrão, consulte Notificações por [push](../../channels/using/about-push-notifications.md).
 
 Você pode enviar dois tipos de notificações por push transacionais:
 
@@ -54,7 +54,7 @@ Por exemplo, uma companhia aérea deseja convidar seus usuários de aplicativos 
 
 A empresa enviará uma notificação por push transacional por usuário (identificada com um token de registro), usando um aplicativo móvel, por meio de um único dispositivo.
 
-1. Vá para a mensagem transacional criada para editá-la. Consulte Mensagens [transacionais de](../../channels/using/event-transactional-messages.md)evento.
+1. Vá para a mensagem transacional criada para editá-la. Consulte Mensagens [transacionais de](../../channels/using/event-transactional-messages.md)eventos.
 
    ![](assets/message-center_push_message.png)
 
@@ -64,7 +64,7 @@ A empresa enviará uma notificação por push transacional por usuário (identif
 
    ![](assets/message-center_push_content.png)
 
-   Para localizar esses campos, clique no lápis ao lado de um item, clique **[!UICONTROL Insert personalization field]** e selecione **[!UICONTROL Transactional event]** &gt; **[!UICONTROL Event context]**.
+   Para localizar esses campos, clique no lápis ao lado de um item, clique em **[!UICONTROL Insert personalization field]** e selecione **[!UICONTROL Context]** &gt; **[!UICONTROL Real-time event]** &gt; **[!UICONTROL Event context]**.
 
    ![](assets/message-center_push_personalization.png)
 
@@ -111,15 +111,15 @@ Para obter mais informações sobre como acessar e editar perfis, consulte [Perf
 
 Por exemplo, uma companhia aérea deseja enviar uma última chamada para o embarque a todos os usuários do Adobe Campaign que se inscreveram em seu aplicativo móvel.
 
-1. Vá para a mensagem transacional criada para editá-la. Consulte Mensagens [transacionais de](../../channels/using/event-transactional-messages.md)evento.
+1. Vá para a mensagem transacional criada para editá-la. Consulte Mensagens [transacionais de](../../channels/using/event-transactional-messages.md)eventos.
 
-   ![](assets/message-center_push_message_profile.png)
+   <!--![](assets/message-center_push_message_profile.png)-->
 
 1. Clique no **[!UICONTROL Content]** bloco para modificar o título e o corpo da mensagem.
 
-   Ao contrário das configurações baseadas em eventos em tempo real, você tem acesso direto a todas as informações de perfil para personalizar sua mensagem. Consulte [Inserir um campo](../../designing/using/personalization.md#inserting-a-personalization-field)de personalização.
+   Ao contrário das configurações baseadas em eventos em tempo real, você tem acesso direto a todas as informações de perfil para personalizar sua mensagem. See [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field).
 
-   ![](assets/message-center_push_content_profile.png)
+   <!--![](assets/message-center_push_content_profile.png)-->
 
    Para obter mais informações sobre como editar um conteúdo de notificação por push. Consulte [Criação de uma notificação](../../channels/using/preparing-and-sending-a-push-notification.md)por push.
 
