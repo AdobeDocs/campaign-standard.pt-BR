@@ -15,7 +15,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
+source-git-commit: aeb0e7bc6765b23042fafd34fb360d4e3046adcd
 
 ---
 
@@ -120,7 +120,7 @@ O acesso a uma página de aterrissagem pode ser restrito a visitantes identifica
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Selecione **[!UICONTROL Preload visitor data]**.
+1. Select **[!UICONTROL Preload visitor data]**.
 
    Se um visitante da página corresponde a um perfil no banco de dados, seus dados são exibidos nos campos do formulário que são mapeados com os dados do banco de dados e os elementos de personalização da página inicial são considerados.
 
