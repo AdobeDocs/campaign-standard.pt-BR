@@ -14,7 +14,7 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cdf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
 
 ---
 
@@ -40,12 +40,12 @@ Para que o evento dispare o envio de uma mensagem transacional, é necessário p
 
 ## Envio de uma mensagem transacional de perfil {#sending-a-profile-transactional-message}
 
-As etapas para criar, personalizar e publicar uma mensagem transacional de perfil são as mesmas de uma mensagem transacional de evento. Consulte Mensagens [transacionais de](../../channels/using/event-transactional-messages.md)evento.
+As etapas para criar, personalizar e publicar uma mensagem transacional de perfil são as mesmas de uma mensagem transacional de evento. Consulte Mensagens [transacionais de](../../channels/using/event-transactional-messages.md)eventos.
 
 As diferenças estão listadas abaixo.
 
 1. Vá para a mensagem transacional criada para editá-la.
-1. Na mensagem transacional, clique na **[!UICONTROL Content]** seção. Além do modelo transacional, você também pode escolher o modelo de email padrão, que é direcionado **[!UICONTROL Profile]**.
+1. Na mensagem transacional, clique na **[!UICONTROL Content]** seção. Além do modelo transacional, você também pode escolher qualquer direcionamento de modelo de email **[!UICONTROL Profile]**.
 
    ![](assets/message-center_marketing_templates.png)
 
@@ -55,7 +55,7 @@ As diferenças estão listadas abaixo.
 
    ![](assets/message-center_marketing_perso_unsubscription.png)
 
-   Além disso, ao contrário das configurações baseadas em eventos em tempo real, você tem acesso direto a todas as informações do perfil para personalizar sua mensagem. Consulte [Inserir um campo](../../designing/using/personalization.md#inserting-a-personalization-field)de personalização.
+   Além disso, ao contrário das configurações baseadas em eventos em tempo real, você tem acesso direto a todas as informações do perfil para personalizar sua mensagem. See [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field).
 
 1. Salve as alterações e publique a mensagem. Consulte [Publicar uma mensagem](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)transacional.
 
@@ -67,7 +67,7 @@ Quando a mensagem for publicada e a integração do site estiver concluída, voc
 
    Para obter mais informações sobre como acessar os registros, consulte [Monitoramento da entrega](../../sending/using/monitoring-a-delivery.md).
 
-1. Selecione a **[!UICONTROL Sending logs]** guia. Na **[!UICONTROL Status]** coluna, **[!UICONTROL Sent]** indica que um perfil optou por participar.
+1. Select the **[!UICONTROL Sending logs]** tab. Na **[!UICONTROL Status]** coluna, **[!UICONTROL Sent]** indica que um perfil optou por participar.
 
    ![](assets/message-center_marketing_sending_logs.png)
 
@@ -81,7 +81,7 @@ Essa regra faz parte de uma tipologia específica que se aplica a todas as mensa
 
 ![](assets/message-center_marketing_typology.png)
 
-**Tópicos** relacionados:
+**Tópicos relacionados**:
 
 * [Integração do site](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)
 * [Tipologias](../../administration/using/about-typology-rules.md)
