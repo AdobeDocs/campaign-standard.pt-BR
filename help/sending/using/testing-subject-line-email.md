@@ -14,13 +14,13 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 62992dbedea7209ca26ae9e1a475a0c87405a4d9
+source-git-commit: 8b85bbad7458286252a2900ce730288f6e52442e
 
 ---
 
 # Teste de um assunto {#testing-a-subject}
 
-Para testar sua linha de assunto:
+Para testar sua linha de assunto, siga as etapas abaixo:
 
 1. Crie ou abra seu email.
 1. Abra o conteúdo e digite o assunto do email no campo de entrada correspondente.
