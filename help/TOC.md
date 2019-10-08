@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: usuário final
 user-guide-title: Ajuda do Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
+source-git-commit: 57a0d20697461fb87b61c38dfd1779fadd565888
 
 ---
 
@@ -53,26 +53,26 @@ source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
    + Gerenciamento de públicos-alvo {#managing-audiences}
       + [Sobre públicos-alvo](audiences/using/about-audiences.md)
       + [Criação de públicos-alvo](audiences/using/creating-audiences.md)
-      + [Selecting an audience in a message](audiences/using/selecting-an-audience-in-a-message.md)
+      + [Selecionar um público-alvo em uma mensagem](audiences/using/selecting-an-audience-in-a-message.md)
    + Gerenciamento de subscrições {#managing-subscriptions}
-      + [About subscriptions](audiences/using/about-subscriptions.md)
-      + [Creating a service](audiences/using/creating-a-service.md)
-      + [Promoting a service](audiences/using/promoting-a-service.md)
-      + [Monitoring subscriptions](audiences/using/monitoring-subscriptions.md)
-      + [Confirming subscription to a service](audiences/using/confirming-subscription-to-a-service.md)
-   + Understanding opt-in and opt-out processes {#understanding-opt-in-and-opt-out-processes}
-      + [About opt-in and opt-out in Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-      + [Managing opt-in and opt-out in Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
-      + [Identifying opt-out profiles for a delivery](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
+      + [Sobre assinaturas](audiences/using/about-subscriptions.md)
+      + [Criação de um serviço](audiences/using/creating-a-service.md)
+      + [Promover um serviço](audiences/using/promoting-a-service.md)
+      + [Assinaturas de monitoramento](audiences/using/monitoring-subscriptions.md)
+      + [Confirmando a assinatura de um serviço](audiences/using/confirming-subscription-to-a-service.md)
+   + Noções básicas sobre os processos de aceitação e não participação {#understanding-opt-in-and-opt-out-processes}
+      + [Sobre participação e não participação no Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+      + [Gerenciamento de participação e não participação no Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+      + [Como identificar perfis de opção de não participação para uma entrega](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
 + Canais de comunicação {#communication-channels}
-   + About communication channels {#about-communication-channels}
-      + [Discovering communication channels](channels/using/discovering-communication-channels.md)
-      + [Key steps to send a message](channels/using/key-steps-to-send-a-message.md)
-      + [Accessing messages](channels/using/accessing-messages.md)
+   + Sobre canais de comunicação {#about-communication-channels}
+      + [Descobrindo canais de comunicação](channels/using/discovering-communication-channels.md)
+      + [Etapas principais para enviar uma mensagem](channels/using/key-steps-to-send-a-message.md)
+      + [Acessar mensagens](channels/using/accessing-messages.md)
       + [Painel de mensagens](channels/using/message-dashboard.md)
-   + Email messages {#email-messages}
+   + Mensagens de email {#email-messages}
       + [Sobre emails](channels/using/about-emails.md)
-      + [Creating an email](channels/using/creating-an-email.md)
+      + [Criação de um email](channels/using/creating-an-email.md)
       + [Criação de um email de teste A/B](channels/using/designing-an-a-b-test-email.md)
       + [Criação de um email multilíngue](channels/using/creating-a-multilingual-email.md)
    + Mensagens SMS {#sms-messages}
@@ -98,7 +98,7 @@ source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
       + [Sobre o correio direto](channels/using/about-direct-mail.md)
       + [Retornar ao remetente](channels/using/return-to-sender.md)
       + [Criação da correspondência direta](channels/using/creating-the-direct-mail.md)
-      + [Defining the direct mail audience](channels/using/defining-the-direct-mail-audience.md)
+      + [Definição do público-alvo de mala direta](channels/using/defining-the-direct-mail-audience.md)
       + [Definição do conteúdo de mala direta](channels/using/defining-the-direct-mail-content.md)
       + [Exemplo de mala direta em um fluxo de trabalho](channels/using/example-of-direct-mail-in-a-workflow.md)
    + Mensagens transacionais {#transactional-messaging}
@@ -108,22 +108,18 @@ source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
       + [Notificações por push transacionais](channels/using/transactional-push-notifications.md)
       + [Mensagens de acompanhamento](channels/using/follow-up-messages.md)
    + Landing pages {#landing-pages}
-      + [About landing pages](channels/using/about-landing-pages.md)
-      + [Landing page limitations](channels/using/landing-page-limitations.md)
-      + [Designing a landing page](channels/using/designing-a-landing-page.md)
-      + [Sharing a landing page](channels/using/sharing-a-landing-page.md)
-      + [Data storage and reconciliation](channels/using/data-storage-and-reconciliation.md)
-      + [Setting up a double opt-in process](channels/using/setting-up-a-double-opt-in-process.md)
-      + [About landing page content design](channels/using/about-landing-page-content-design.md)
-      + [Landing page content editor interface](channels/using/landing-page-content-editor-interface.md)
-      + [Managing landing page structure and style](channels/using/managing-landing-page-structure-and-style.md)
-      + [Changing a landing page form data properties](channels/using/changing-a-landing-page-form-data-properties.md)
-      + [Definição de conteúdo dinâmico em uma página de aterrissagem](channels/using/defining-dynamic-content-in-a-landing-page.md)
-+ Designing email content {#designing-content}
-   + [Campaign Email Designer](designing/using/designing-content-in-adobe-campaign.md)
-   + [Quick Start](designing/using/quick-start.md)
-   + [Usage &amp; Recommendations](designing/using/overview.md)
-   + [Defining the subject line and the sender](designing/using/subject-line.md)
+      + [Sobre páginas de aterrissagem](channels/using/about-landing-pages.md)
+      + [Principais etapas para configurar uma página de aterrissagem](channels/using/main-steps-to-set-up-a-landing-page.md)
+      + [Sobre modelos de página inicial](channels/using/landing-page-templates.md)
+      + [Criação de uma página de aterrissagem](channels/using/designing-a-landing-page.md)
+      + [Gerenciamento de dados de formulário da página inicial](channels/using/managing-landing-page-form-data.md)
+      + [Compartilhamento de uma página de aterrissagem](channels/using/sharing-a-landing-page.md)
+      + [Configurar um processo de aceitação dupla](channels/using/setting-up-a-double-opt-in-process.md)
++ Criação de conteúdo de email {#designing-content}
+   + [EmailDesigner da campanha](designing/using/designing-content-in-adobe-campaign.md)
+   + [Início rápido](designing/using/quick-start.md)
+   + [Uso e recomendações](designing/using/overview.md)
+   + [Definição da linha de assunto e do remetente](designing/using/subject-line.md)
    + [Criar e-mails do zero](designing/using/designing-from-scratch.md)
    + [Criar emails usando conteúdo existente](designing/using/using-existing-content.md)
    + [Criar emails usando conteúdo reutilizável](designing/using/using-reusable-content.md)
@@ -155,39 +151,39 @@ source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
       + [Noções básicas sobre falhas de delivery](sending/using/understanding-delivery-failures.md)
       + [Noções básicas sobre gestão de quarentena](sending/using/understanding-quarantine-management.md)
 + Relatório {#reporting}
-   + About reporting {#about-reporting}
+   + Sobre relatórios {#about-reporting}
       + [Sobre relatórios dinâmicos](reporting/using/about-dynamic-reports.md)
       + [Interface de relatórios](reporting/using/reporting-interface.md)
       + [Lista de componentes ](reporting/using/list-of-components-.md)
       + [Cálculo do indicador](reporting/using/indicator-calculation.md)
       + [Solução de problemas](reporting/using/troubleshooting.md)
    + Lista de relatórios {#list-of-reports}
-      + [Defining the report period](reporting/using/defining-the-report-period.md)
-      + [Bounce summary](reporting/using/bounce-summary.md)
-      + [Breakdown by domains](reporting/using/breakdown-by-domains.md)
+      + [Definição do período de relatório](reporting/using/defining-the-report-period.md)
+      + [Resumo da rejeição](reporting/using/bounce-summary.md)
+      + [Detalhamento por domínios](reporting/using/breakdown-by-domains.md)
       + [Reclamações](reporting/using/complaints.md)
       + [Resumo do delivery](reporting/using/delivery-summary.md)
       + [Taxa de transferência de delivery](reporting/using/delivery-throughput.md)
-      + [In-App report](reporting/using/in-app-report.md)
+      + [Relatório no aplicativo](reporting/using/in-app-report.md)
       + [Não entregues e devoluções](reporting/using/non-deliverables-and-bounces.md)
       + [Aberturas](reporting/using/opens.md)
-      + [Push notification report](reporting/using/push-notification-report.md)
-      + [SMS report](reporting/using/sms-report.md)
+      + [Relatório de notificação por push](reporting/using/push-notification-report.md)
+      + [Relatório SMS](reporting/using/sms-report.md)
       + [Indicadores de rastreamento](reporting/using/tracking-indicators.md)
       + [Unsubscriptions](reporting/using/unsubscriptions.md)
       + [Fluxos de clique e URLs](reporting/using/urls-and-click-streams.md)
       + [Hot clicks](reporting/using/hot-clicks.md)
-   + Customizing reports {#customizing-reports}
-      + [Adding panels](reporting/using/adding-panels.md)
-      + [Adding visualizations](reporting/using/adding-visualizations.md)
-      + [Adding components](reporting/using/adding-components.md)
-      + [Creating a custom profile dimension](reporting/using/creating-a-custom-profile-dimension.md)
-      + [Creating a report based on workflow segments](reporting/using/creating-a-report-workflow-segment.md)
-+ Integrating with Adobe Cloud {#integrating-with-adobe-cloud}
+   + Personalização de relatórios {#customizing-reports}
+      + [Adição de painéis](reporting/using/adding-panels.md)
+      + [Adicionar visualizações](reporting/using/adding-visualizations.md)
+      + [Adicionar componentes](reporting/using/adding-components.md)
+      + [Criação de uma dimensão de perfil personalizada](reporting/using/creating-a-custom-profile-dimension.md)
+      + [Criação de um relatório com base em segmentos de fluxo de trabalho](reporting/using/creating-a-report-workflow-segment.md)
++ Integração com a Adobe Cloud {#integrating-with-adobe-cloud}
    + [Sobre integrações do Campaign](integrating/using/about-campaign-integrations.md)
    + Trabalhar com o Campaign e o Experience Manager {#working-with-campaign-and-experience-manager}
       + [Integração com o Experience Manager](integrating/using/integrating-with-experience-manager.md)
-      + [Creating a Campaign form in Experience Manager ](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+      + [Criar um formulário de campanha no Experience Manager ](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
    + Trabalhar com o Campaign e Target {#working-with-campaign-and-target}
       + [Sobre a integração do Campaign-Target](integrating/using/about-campaign-target-integration.md)
       + [Configuração da integração do Campaign-Target](integrating/using/configuring-the-campaign-target-integration.md)
@@ -215,31 +211,31 @@ source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
 + Gerenciamento de processos e dados {#managing-processes-and-data}
    + Sobre fluxos de trabalho e gerenciamento de dados {#about-workflows-and-data-management}
       + [Dados e processos do fluxo de trabalho](automating/using/workflow-data-and-processes.md)
-      + [Discovering workflows](automating/using/discovering-workflows.md)
+      + [Descobrindo fluxos de trabalho](automating/using/discovering-workflows.md)
       + [Princípios operacionais do fluxo de trabalho](automating/using/workflow-operating-principles.md)
-      + [Workflow interface](automating/using/workflow-interface.md)
-   + Workflow general operation {#workflow-general-operation}
+      + [Interface do fluxo de trabalho](automating/using/workflow-interface.md)
+   + Operação geral do fluxo de trabalho {#workflow-general-operation}
       + [Criação de um workflow](automating/using/building-a-workflow.md)
       + [Targeting de dados](automating/using/targeting-data.md)
       + [Importação de dados](automating/using/importing-data.md)
-      + [Using workflow data](automating/using/using-workflow-data.md)
+      + [Uso de dados de fluxo de trabalho](automating/using/using-workflow-data.md)
       + [Execução de um workflow](automating/using/executing-a-workflow.md)
-      + [Calling a workflow with external parameters](automating/using/calling-a-workflow-with-external-parameters.md)
+      + [Chamada de um fluxo de trabalho com parâmetros externos](automating/using/calling-a-workflow-with-external-parameters.md)
       + [Práticas recomendadas do workflow](automating/using/best-practices-workflows.md)
    + Atividades de target {#targeting-activities}
-      + [About targeting activities](automating/using/about-targeting-activities.md)
+      + [Sobre atividades de direcionamento](automating/using/about-targeting-activities.md)
       + [Query](automating/using/query.md)
       + [Query incremental](automating/using/incremental-query.md)
       + [União](automating/using/union.md)
       + [Intersecção](automating/using/intersection.md)
       + [Exclusão](automating/using/exclusion.md)
-      + [Segmentation](automating/using/segmentation.md)
-      + [Read audience](automating/using/read-audience.md)
-      + [Save audience](automating/using/save-audience.md)
+      + [Segmentação](automating/using/segmentation.md)
+      + [Ler público-alvo](automating/using/read-audience.md)
+      + [Salvar público-alvo](automating/using/save-audience.md)
       + [Desduplicação](automating/using/deduplication.md)
       + [Enriquecimento](automating/using/enrichment.md)
-   + Execution activities {#execution-activities}
-      + [About execution activities](automating/using/about-execution-activities.md)
+   + Atividades de execução {#execution-activities}
+      + [Sobre atividades de execução](automating/using/about-execution-activities.md)
       + [Iniciar e finalizar](automating/using/start-and-end.md)
       + [Fork](automating/using/fork.md)
       + [AND-join](automating/using/and-join.md)
@@ -247,11 +243,11 @@ source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
       + [Aguardar](automating/using/wait.md)
       + [Sinal externo](automating/using/external-signal.md)
       + [Teste](automating/using/test.md)
-   + Channel activities {#channel-activities}
-      + [About channel activities](automating/using/about-channel-activities.md)
-      + [Email delivery](automating/using/email-delivery.md)
+   + Atividades do canal {#channel-activities}
+      + [Sobre atividades de canal](automating/using/about-channel-activities.md)
+      + [Entrega por email](automating/using/email-delivery.md)
       + [Entrega SMS](automating/using/sms-delivery.md)
-      + [Push notification delivery](automating/using/push-notification-delivery.md)
+      + [Entrega de notificação por push](automating/using/push-notification-delivery.md)
       + [Entrega de mala direta](automating/using/direct-mail-delivery.md)
       + [Entrega no aplicativo](automating/using/in-app-delivery.md)
    + Atividades de gestão de dados {#data-management-activities}
@@ -274,7 +270,7 @@ source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
       + [Exportar logs](automating/using/exporting-logs.md)
       + [Gerenciamento de pacotes](automating/using/managing-packages.md)
       + [Exportar listas](automating/using/exporting-lists.md)
-   + Casos de uso: Fluxos de trabalho {#workflow-use-case}
+   + Casos de uso:Fluxos de trabalho {#workflow-use-case}
       + [Criação de entregas com um complemento](automating/using/workflow-created-query-with-complement.md)
       + [Criando entregas na data de criação](automating/using/workflow-creation-date-query.md)
       + [Criação de uma entrega semanal](automating/using/workflow-weekly-offer.md)
@@ -324,6 +320,7 @@ source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
       + [Regras de esgotamento](administration/using/fatigue-rules.md)
       + [Regras de controle](administration/using/control-rules.md)
    + Configurações do aplicativo {#application-settings}
+      + [Sobre as configurações do Campaign Standard](administration/using/about-campaign-standard-settings.md)
       + [Contas externas](administration/using/external-accounts.md)
       + [Mapeamentos do Target no Campaign](administration/using/target-mappings-in-campaign.md)
       + [Workflows técnicos](administration/using/technical-workflows.md)
