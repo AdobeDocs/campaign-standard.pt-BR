@@ -2,45 +2,45 @@
 title: Descobrindo fluxos de trabalho
 seo-title: Descobrindo fluxos de trabalho
 description: Descobrindo fluxos de trabalho
-seo-description: O Adobe Campaign oferece um ambiente gráfico abrangente que permite projetar e automatizar processos.
+seo-description: O Adobe Campaign oferece um ambiente gráfico abrangente que permite que você projete e automatize processos.
 page-status-flag: nunca ativado
-uuid: 7 c 1 e 8 cea -90 d 0-491 f-ab 8 f -6 cd 69 f 8 a 6 c 3 b
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automatizando
-content-type: reference
+uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: automatização
+content-type: referência
 topic-tags: sobre fluxos de trabalho e gerenciamento de dados
-discoiquuid: 40503917-7 a 53-4 d 99-96 a 4-57 aa 9 e 98 ec 87
+discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
 
 # Descobrindo fluxos de trabalho{#discovering-workflows}
 
-O Adobe Campaign oferece um ambiente [gráfico abrangente](../../automating/using/workflow-interface.md) que permite projetar [processos](../../automating/using/workflow-operating-principles.md) complexos, incluindo segmentação, execução de campanha, processamento de arquivos, aprovações etc. Os princípios e as práticas recomendadas estão descritos nesta [seção](../../automating/using/building-a-workflow.md).
+O Adobe Campaign oferece um ambiente [gráfico abrangente que permite projetar processos](../../automating/using/workflow-interface.md) [](../../automating/using/workflow-operating-principles.md) complexos, incluindo segmentação, execução de campanha, processamento de arquivos, aprovações etc. Os princípios e as melhores práticas são descritos na [presente seção](../../automating/using/building-a-workflow.md).
 
-Por exemplo, você pode usar um fluxo de trabalho para baixar um arquivo de um servidor, descompactá-lo e importar seus registros para o banco de dados do Adobe Campaign.
+Por exemplo, você pode usar um fluxo de trabalho para baixar um arquivo de um servidor, descompactá-lo e depois importar seus registros para o banco de dados do Adobe Campaign.
 
-Um fluxo de trabalho também pode envolver usuários atribuindo as tarefas ou aprovando as tarefas executadas. Isso significa que você pode atribuir uma tarefa a um ou vários usuários para trabalhar no conteúdo ou especificar metas, além de aprovar testes antes de enviar a mensagem.
+Um fluxo de trabalho também pode envolver usuários atribuindo a eles tarefas ou fazendo com que eles aprovem tarefas executadas. Isso significa que você pode atribuir uma tarefa a um ou vários usuários para trabalhar com conteúdo ou especificar metas e aprovar provas antes de enviar a mensagem.
 
-Os fluxos de trabalho podem ser usados em **contextos** diferentes, como por exemplo:
+Os fluxos de trabalho podem ser usados em contextos **** diferentes, como por exemplo:
 
-* Direcionamento para gerenciar públicos ou enviar mensagens. Para saber mais sobre isso, consulte Atividades [de canal](../../automating/using/about-channel-activities.md) e [atividades de direcionamento](../../automating/using/about-targeting-activities.md).
-* Gerenciamento de dados (ETL) para manipular dados. Para saber mais sobre isso, consulte Atividades de gerenciamento [de dados](../../automating/using/about-data-management-activities.md).
-* Importação de dados para o banco de dados da Campanha. Para saber mais sobre isso, consulte [Importar e exportar dados](../../automating/using/about-data-import-and-export.md).
-* Processos técnicos como limpeza do banco de dados, recuperação de informações de rastreamento etc. Saiba mais sobre fluxos de trabalho técnicos nesta [seção](../../administration/using/technical-workflows.md).
+* Definição de metas para gerenciar públicos-alvo ou enviar mensagens. Para obter mais informações, consulte as atividades [do](../../automating/using/about-channel-activities.md) Canal e as atividades [de](../../automating/using/about-targeting-activities.md)direcionamento.
+* Gerenciamento de dados (ETL) para manipular dados. Para obter mais informações, consulte as atividades [de gerenciamento de](../../automating/using/about-data-management-activities.md)dados.
+* Importação de dados para o banco de dados do Campaign. Para obter mais informações, consulte [Importação e exportação de dados](../../automating/using/about-data-import-and-export.md).
+* Processos técnicos, como limpeza do banco de dados, recuperação de informações de rastreamento etc. Saiba mais sobre fluxos de trabalho técnicos [nesta seção](../../administration/using/technical-workflows.md).
 
-Os fluxos de trabalho também estão acessíveis a partir da API do Adobe Campaign Standard. Para obter mais informações sobre isso, consulte a [documentação dedicada](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-workflows).
+Os fluxos de trabalho também podem ser acessados pela API do Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-workflows).
 
 **Tópicos relacionados:**
 
 * [Princípios operacionais do fluxo de trabalho](../../automating/using/workflow-operating-principles.md)
 * [Sobre importação e exportação de dados](../../automating/using/about-data-import-and-export.md)
-* [Caso de uso: Criar uma entrega de email uma vez a semana](../../automating/using/workflow-weekly-offer.md)
-* [Caso de uso: Criação de uma entrega segmentada na localização](../../automating/using/workflow-segmentation-location.md)
+* [Caso de uso: Criar uma entrega de email uma vez por semana](../../automating/using/workflow-weekly-offer.md)
+* [Caso de uso: Criação de uma entrega segmentada no local](../../automating/using/workflow-segmentation-location.md)
 * [Caso de uso: Criação de entregas com um complemento](../../automating/using/workflow-created-query-with-complement.md)
-* [Caso de uso: Fluxo de trabalho de redefinição de metas enviando uma nova entrega para não-openers](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Caso de uso: Fluxo de trabalho de redefinição de metas enviando uma nova entrega para não iniciantes](../../automating/using/workflow-cross-channel-retargeting.md)
