@@ -14,18 +14,17 @@ discoiquuid: d7088c18-7daf-4c30-b633-2f19496b1143
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
+source-git-commit: b7f1c2af4ad8c4b8632e84b6d945a9db8187b6a6
 
 ---
 
 
 # Guias passo a passo{#step-by-step-guides}
 
-Comece com o Adobe Campaign consultando nossos guias passo a passo intuitivos.
+Comece a usar o Adobe Campaign consultando nossos intuitivos guias passo a passo.
 
 * [Criando um email](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedEmail.html)personalizado: criar e enviar emails personalizados para um público-alvo direcionado.
 * [Oferecendo uma assinatura a um serviço](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedLandingPages.html): crie uma assinatura de um boletim informativo usando uma página de aterrissagem.
-* [Criação de uma página](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_CreateLandingPage.html)inicial: gerencie seus modelos de página inicial e crie novas páginas iniciais prontas para uso.
 * [Exportar e importar um pacote de recursos](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_ImportExport.html)personalizados: exporte e importe um pacote de recursos personalizados de um ambiente de desenvolvimento para um ambiente de produção.
 * [Criando um fluxo de trabalho](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_WorkflowSegmentation.html)de mensagens entre canais: crie um fluxo de trabalho por meio da segmentação de um público para enviar uma entrega por email e uma entrega por SMS.
 * [Criação de um email com o Experience Manager e o Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html): crie um conteúdo de email no Adobe Experience Manager e use-o em um email no Adobe Campaign Standard.
@@ -35,13 +34,11 @@ Comece com o Adobe Campaign consultando nossos guias passo a passo intuitivos.
 
 Saiba mais sobre o Adobe Campaign verificando os seguintes casos de uso e exemplos:
 
-* [Importando perfis](../../automating/using/importing-data.md#example--import-workflow-template): importe novos perfis de cliente com um fluxo de trabalho para a instância do Adobe Campaign para atualizar seu banco de dados e enviar emails.
+* [Importar modelo](../../automating/using/importing-data.md#example--import-workflow-template)de fluxo de trabalho: configure um modelo de fluxo de trabalho para importar regularmente novos perfis de cliente de um CRM e atualizar seu banco de dados do Campaign.
 * [Etapas principais para enviar uma mensagem](../../channels/using/key-steps-to-send-a-message.md): saiba como criar e enviar mensagens passo a passo.
-
 * [Etapas principais para projetar um email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch): leia as principais etapas para projetar o conteúdo de email do zero.
 * [Uso de Acionadores da Experience Cloud com o Adobe Campaign](../../integrating/using/abandonment-triggers-use-cases.md): envie emails personalizados para seus clientes seguindo comportamentos específicos que foram rastreados pelo Adobe Analytics em seu site.
 * [Adicionar ou estender um recurso](../../developing/using/key-steps-to-add-a-resource.md): saiba como criar novos recursos ou estender os existentes.
-* [Importando modelo](../../automating/using/importing-data.md#example--import-workflow-template)de fluxo de trabalho: use o modelo de importação para importar arquivos regularmente com a mesma estrutura.
+* [Importando modelo](../../automating/using/importing-data.md#example--import-workflow-template)de fluxo de trabalho:
 * [Configuração de um processo](../../channels/using/setting-up-a-double-opt-in-process.md)de aceitação dupla: saiba como enviar um email vinculado a uma página de aterrissagem para confirmar a assinatura de um cliente.
 * [Personalize um email](../../designing/using/personalization.md#example-email-personalization): personalize um email de acordo com a idade do cliente.
-
