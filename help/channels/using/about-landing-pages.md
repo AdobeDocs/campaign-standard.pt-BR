@@ -15,7 +15,7 @@ context-tags: landingPage,assistente;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 0068746b0b90b85edfb2c93eb08a82e1adc2fca8
 
 ---
 
@@ -24,26 +24,14 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 A campanha vem com páginas de aterrissagem que são formulários da Web que podem ser usados para capturar informações em seus públicos-alvo, oferecer assinaturas para um serviço, exibir dados e aumentar seu banco de dados. As páginas iniciais também podem ser usadas para adquirir ou atualizar perfis existentes.
 
->[!CAUTION]
->
->As páginas iniciais só podem ser usadas para atualizar perfis.
+Para obter mais informações sobre as etapas necessárias para configurar uma página de aterrissagem, consulte [esta seção](../../channels/using/main-steps-to-set-up-a-landing-page.md)
 
-A campanha vem com um conjunto de modelos incorporados de página de aterrissagem:
+**Tópicos relacionados:**
 
-* **[!UICONTROL Acquisition]**: este é o modelo padrão para páginas iniciais, que permite capturar e atualizar dados no banco de dados do Campaign.
-* **[!UICONTROL Subscription]**: este modelo deve ser usado para oferecer assinaturas para um serviço.
-* **[!UICONTROL Unsubscription]**: este modelo pode ser vinculado a partir de um email enviado aos assinantes para um serviço, para permitir que eles cancelem a assinatura deste serviço.
-* **[!UICONTROL Blacklist]**: este modelo deve ser usado quando um perfil não quiser mais ser contatado pelo Campaign. Para obter mais informações sobre a lista negra, consulte [Sobre aceitação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* [Vídeo Criar um tutorial de página de aterrissagem](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html)
+* [Usar uma página de aterrissagem para assinar um serviço](../../audiences/using/creating-a-service.md)
 
-Esses modelos são propostos por padrão ao criar uma nova página inicial.
-
-![](assets/lp_creation_1.png)
-
-A Adobe recomenda criar seus próprios modelos duplicando um modelo incorporado. Alguns parâmetros só podem ser definidos em modelos de página inicial e não podem ser modificados diretamente em páginas iniciais.
-
->[!NOTE]
->
->Para acessar modelos de página inicial, clique no logotipo do Adobe Campaign no canto superior esquerdo e selecione **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Landing page templates]**.
+## Ciclo de vida das páginas iniciais {#landing-pages-life-cycle}
 
 O ciclo de vida completo de uma página de aterrissagem é o seguinte:
 
@@ -56,7 +44,39 @@ O ciclo de vida completo de uma página de aterrissagem é o seguinte:
 
 Depois de criada e publicada, você pode tornar a página de aterrissagem acessível por meio de um site ou [inserindo um link direto para a página de aterrissagem em um email](../../designing/using/links.md#inserting-a-link).
 
-**Tópicos relacionados:**
+## Limitações da página inicial{#landing-page-limitations}
 
-* [Criação de um vídeo de página](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html) de aterrissagem
-* [Usar uma página de aterrissagem para assinar um serviço](../../audiences/using/creating-a-service.md)
+A seção abaixo lista as limitações que devem ser observadas antes de iniciar a configuração de páginas iniciais.
+
+**Gravação e atualização de dados**
+
+* As páginas de aterrissagem são limitadas apenas a **[!UICONTROL Profile]** e **[!UICONTROL Subscription]** recursos. O registro pode ser salvo e atualizado de uma assinatura **[!UICONTROL Profile]** ou cancelamento de assinatura para uma **[!UICONTROL Service]**.
+Para saber mais sobre a configuração de recursos, consulte [Configuração da estrutura](../../developing/using/configuring-the-resource-s-data-structure.md)de dados do recurso.
+
+>[!CAUTION]
+>
+>Uma página inicial não pode exibir ou atualizar dados de nenhum outro recurso além **[!UICONTROL Profile]** e **[!UICONTROL Subscription]**.
+
+**Pré-carregamento**
+
+* A página de aterrissagem não pode exibir uma lista de registros automaticamente, não pode listar os serviços aos quais os perfis já se inscreveram. For more information on services, refer to this [page](../../audiences/using/creating-a-service.md).
+
+* A página de aterrissagem com um formulário pré-preenchido (os dados são pré-carregados com a página) só pode ser acessada de um email do Adobe Campaign. Não é possível acessar esse formulário a partir de uma página do site.
+
+**Reconciliação**
+
+* O comportamento de reconciliação é o seguinte: assim que uma correspondência é encontrada, o processo de reconciliação para. Isso significa que a reconciliação só pode ser feita em um registro de perfil e não em vários registros quando houver duplicatas.
+
+Por exemplo, você deseja enviar a seguinte página inicial de aquisição para seus perfis para atualizar seu banco de dados do Campaign com os números de celular dos seus perfis.
+
+![](assets/landing_page_limitation_1.png)
+
+Se um de seus perfis preencher sua página inicial com novas informações, mas já tiver um perfil duplicado, o perfil correspondente com a data de criação mais antiga será atualizado, pois os perfis são priorizados dependendo apenas da data de criação.
+
+Aqui, somente o primeiro perfil foi atualizado, pois era a entrada mais antiga.
+
+![](assets/landing_page_limitation_2.png)
+
+**Teste de páginas de aterrissagem**
+
+* As páginas iniciais funcionam somente em perfis e não em perfis de teste, o que significa que as páginas iniciais não podem ser testadas como parte de uma prova de email.
