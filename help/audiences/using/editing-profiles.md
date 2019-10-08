@@ -1,70 +1,70 @@
 ---
-title: Edição de perfis
-seo-title: Edição de perfis
-description: Edição de perfis
-seo-description: Saiba como editar perfis existentes e acessar informações de contato, preferir canais, logs, assinaturas etc.
+title: Editar perfis
+seo-title: Editar perfis
+description: Editar perfis
+seo-description: Saiba como editar perfis existentes e acessar informações de contato, canais preferidos, registros de rastreamento, assinaturas etc.
 page-status-flag: nunca ativado
-uuid: 6 fcdb 719-6149-48 fc-b 400-64 c 24 a 51487 f
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: públicos-alvo
-content-type: reference
-topic-tags: gerenciamento de perfis
-discoiquuid: 8 d 3 ba 7 bf -90 ae -4 c 6 d-aaeb-a 48572 a 69 f 2 f
+uuid: 6fcdb719-6149-48fc-b400-64c24a51487f
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: referência
+topic-tags: managing-files
+discoiquuid: 8d3ba7bf-90ae-4c6d-aaeb-a48572a69f2f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
 
-# Editing profiles{#editing-profiles}
+# Editar perfis{#editing-profiles}
 
-## Accessing profile properties {#accessing-profile-properties}
+## Acesso às propriedades do perfil {#accessing-profile-properties}
 
-Para editar um perfil existente e consultar os dados associados a ele ou modificá-lo, as etapas são as seguintes:
+Para editar um perfil existente e consultar os dados associados a ele, ou modificá-lo, as etapas são as seguintes:
 
-1. From the Adobe Campaign home page, click the **[!UICONTROL Customer profiles]** card or the **[!UICONTROL Profiles]** tab.
+1. Na página inicial do Adobe Campaign, clique no **[!UICONTROL Customer profiles]** cartão ou na **[!UICONTROL Profiles]** guia.
 1. Selecione um contato.
-1. Click the **[!UICONTROL Edit profile properties]** icon to access the profile's detailed information.
+1. Clique no **[!UICONTROL Edit profile properties]** ícone para acessar as informações detalhadas do perfil.
 
    ![](assets/profile_creation2.png)
 
-   A janela de propriedades do perfil oferece várias guias que fornecem acesso a todas as informações do perfil.
+   A janela de propriedades do perfil oferece várias guias que concedem acesso a todas as informações do perfil.
 
-   Outras guias também podem aparecer dependendo dos recursos personalizados que foram criados ou estendidos no Adobe Campaign. For more information about custom resources, see [About custom resources](../../developing/using/data-model-concepts.md).
+   Outras guias também podem ser exibidas dependendo dos recursos personalizados que foram criados ou estendidos no Adobe Campaign. Para obter mais informações sobre recursos personalizados, consulte [Sobre recursos](../../developing/using/data-model-concepts.md)personalizados.
 
    >[!NOTE]
    >
-   >You can only modify the information in the **[!UICONTROL General]** tab - except for the **[!UICONTROL Traceability]** section.
+   >Você só pode modificar as informações na **[!UICONTROL General]** guia - exceto para a **[!UICONTROL Traceability]** seção.
 
-A edição de perfis também é possível usando a API do Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#updating-profiles) .
+A edição de perfis também é possível usando a API do Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#updating-profiles) .
 
 Tópico relacionado:
 
-* [Perfil do cliente integrado](../../audiences/using/integrated-customer-profile.md)
+* [Perfil de cliente integrado](../../audiences/using/integrated-customer-profile.md)
 * [Envio no fuso horário do destinatário](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
 
-## General profile data {#general-profile-data}
+## Dados gerais do perfil {#general-profile-data}
 
-**[!UICONTROL General]** A guia agrupa as seguintes informações sobre o perfil:
+A **[!UICONTROL General]** guia agrupa as seguintes informações sobre o perfil:
 
-* Contact information, which contains the recipient's first name, last name, date of birth, photo, preferred language (for [multilingual emails](../../channels/using/creating-a-multilingual-email.md)), etc.
-* Canais nos quais o perfil pode ser contado, que contém o endereço de email do destinatário, o número de telefone celular e as informações de não participação.
-* Postal address (for [direct mail](../../channels/using/about-direct-mail.md)), and the contact's time zone (to [schedule messages in its time zone](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)).
-* Access authorization, which indicates the recipient's organisational unit (to [manage permissions](../../administration/using/about-access-management.md)). See also [Partitioning profiles](../../administration/using/organizational-units.md#partitioning-profiles).
+* Informações de contato, que contêm o nome do destinatário, o sobrenome, a data de nascimento, a foto, a língua preferencial (para emails [](../../channels/using/creating-a-multilingual-email.md)multilíngues), etc.
+* Canais nos quais o perfil pode ser contatado, que contêm o endereço de email do destinatário, o número do telefone celular, as informações de recusa.
+* Endereço postal (para correio [](../../channels/using/about-direct-mail.md)direto) e o fuso horário do contato (para [agendar mensagens em seu fuso](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)horário).
+* Autorização de acesso, que indica a unidade organizacional do destinatário (para [gerenciar permissões](../../administration/using/about-access-management.md)). Consulte também Perfis [de](../../administration/using/organizational-units.md#partitioning-profiles)particionamento.
 
 ![](assets/profile_creation4.png)
 
-## Sending and tracking logs {#sending-and-tracking-logs}
+## Enviar e rastrear registros {#sending-and-tracking-logs}
 
-The **[!UICONTROL Sending logs]** and **[!UICONTROL Tracking logs]** tabs group the list of deliveries that were sent to the profile, and all related tracking data.
+As guias **[!UICONTROL Sending logs]** e **[!UICONTROL Tracking logs]** agrupam a lista de entregas enviadas para o perfil e todos os dados de rastreamento relacionados.
 
-For more on sending and tracking logs, refer to the [delivery logs](../../sending/using/monitoring-a-delivery.md#delivery-logs) and the [tracking messages](../../sending/using/tracking-messages.md) sections.
+Para obter mais informações sobre como enviar e rastrear registros, consulte os registros [de](../../sending/using/monitoring-a-delivery.md#delivery-logs) entrega e as seções de mensagens [de](../../sending/using/tracking-messages.md) rastreamento.
 
-## Subscriptions {#subscriptions}
+## Subscrições {#subscriptions}
 
-As assinaturas do contato são listadas na guia correspondente. For more on subscribing to a service, refer to [this section](../../audiences/using/about-subscriptions.md).
+As assinaturas do contato são listadas na guia correspondente. Para obter mais informações sobre como assinar um serviço, consulte [esta seção](../../audiences/using/about-subscriptions.md).
 
-**[!UICONTROL Mobile App Subscriptions]** A guia se refere às notificações por push. For more information, refer to the [Push notification](../../channels/using/about-push-notifications.md) channel.
+A **[!UICONTROL Mobile App Subscriptions]** guia se refere às notificações por push. Para obter mais informações, consulte o canal de notificação [por](../../channels/using/about-push-notifications.md) push.
