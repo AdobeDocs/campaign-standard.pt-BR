@@ -2,42 +2,42 @@
 title: Criação de perfis
 seo-title: Criação de perfis
 description: Criação de perfis
-seo-description: Saiba como criar perfis e coletar dados em seus contatos, usando apis, recursos de importação, aquisição online, atualizações automáticas ou manuais.
+seo-description: Saiba como criar perfis e coletar dados em seus contatos, usando APIs, recursos de importação, aquisição online, atualizações automáticas ou manuais.
 page-status-flag: nunca ativado
-uuid: a 5 f 5 a 58 a-e 798-400 f -8648-05 dc 843 d 5557
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: públicos-alvo
-content-type: reference
-topic-tags: gerenciamento de perfis
-discoiquuid: 4 ab 8 a 984-f 898-4 fff-ad 8 c-ed 8 f 95362 f 96
+uuid: a5f5a58a-e798-400f-8648-05dc843d557
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: referência
+topic-tags: managing-files
+discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f883986392f6b739832093e0473591aa39dfcbfe
+source-git-commit: b7f1c2af4ad8c4b8632e84b6d945a9db8187b6a6
 
 ---
 
 
-# Creating profiles{#creating-profiles}
+# Criação de perfis{#creating-profiles}
 
 No Adobe Campaign, os perfis são usados por padrão para definir o destino principal das mensagens.
 
 Para criar ou atualizar um perfil no Campaign, você pode:
 
-* Import a profile list from a file, via a [workflow](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
-* Collect data online, via [landing pages](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_CreateLandingPage.html)
-* Create bulk via [REST API](http://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
-* Synchronize profiles from [Microsoft Dynamics](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
-* Insira os dados usando telas gráficas, conforme explicado abaixo
+* Importar uma lista de perfis de um arquivo, por meio de um [fluxo de trabalho](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
+* Coletar dados online, por meio de páginas [iniciais](../../channels/using/about-landing-pages.md)
+* Criar massa por meio da API [REST](http://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* Sincronizar perfis do [Microsoft Dynamics](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+* Insira os dados usando as telas de interface gráfica, como explicado abaixo
 
 Por exemplo, para criar um novo perfil diretamente na interface do usuário, siga as etapas abaixo:
 
-1. From the Adobe Campaign home page, click the **Customer Profiles** card or the **Profiles** tab to access the list of profiles.
+1. Na página inicial do Adobe Campaign, clique no cartão Perfis **do** cliente ou na guia **Perfis** para acessar a lista de perfis.
 
    ![](assets/profile_creation_1.png)
 
-1. Then click **[!UICONTROL Create]**.
+1. Em seguida, clique em **[!UICONTROL Create]**.
 
    ![](assets/profile_creation.png)
 
@@ -45,30 +45,30 @@ Por exemplo, para criar um novo perfil diretamente na interface do usuário, sig
 
    ![](assets/profile_creation1.png)
 
-   * The contact information, such as first name, last name, gender, date of birth, photo, preferred language (for [multilingual emails](../../channels/using/creating-a-multilingual-email.md)) helps better personalize deliveries.
-   * The profile's **[!UICONTROL Time zone]** is used to send deliveries at the profile's time zone. For more on this, refer to this [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
-   * The **[!UICONTROL Channels]** category, which contains the email address, mobile phone number, opt-out information, lets you know on which channel the profile is reachable.
-   * The **[!UICONTROL No longer contact]** category is updated as soon as the profile unsubscribe to a channel.
-   * The **[!UICONTROL Address]** category contains the postal address that needs to be filled along with the **[!UICONTROL Address specified]** option to send [direct mail](../../channels/using/about-direct-mail.md) to this profile. If the **[!UICONTROL Address specified]** option is not checked, this profile will be excluded from every direct mail delivery.
-   * The **[!UICONTROL Access authorization]** category indicates the profile's organizational units (to [manage permissions](../../administration/using/about-access-management.md)). See also [Partitioning profiles](../../administration/using/organizational-units.md#partitioning-profiles).
-   * The **[!UICONTROL Traceability]** category automatically updates with information concerning the user who created or modified the profile.
+   * As informações de contato, como nome, sobrenome, sexo, data de nascimento, foto, idioma preferencial (para emails [](../../channels/using/creating-a-multilingual-email.md)multilíngues), ajudam a personalizar melhor as entregas.
+   * A do perfil **[!UICONTROL Time zone]** é usada para enviar entregas no fuso horário do perfil. Para obter mais informações, consulte esta [seção](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
+   * A **[!UICONTROL Channels]** categoria, que contém o endereço de email, o número do telefone celular, as informações de não participação, permite saber em qual canal o perfil está acessível.
+   * A **[!UICONTROL No longer contact]** categoria é atualizada assim que o perfil cancela a assinatura de um canal.
+   * A **[!UICONTROL Address]** categoria contém o endereço postal que precisa ser preenchido junto com a **[!UICONTROL Address specified]** opção para enviar mala [](../../channels/using/about-direct-mail.md) direta para esse perfil. Se a **[!UICONTROL Address specified]** opção não estiver marcada, esse perfil será excluído de todas as entregas de mala direta.
+   * A **[!UICONTROL Access authorization]** categoria indica as unidades organizacionais do perfil (para [gerenciar permissões](../../administration/using/about-access-management.md)). Consulte também Perfis [de](../../administration/using/organizational-units.md#partitioning-profiles)particionamento.
+   * A **[!UICONTROL Traceability]** categoria atualiza automaticamente as informações referentes ao usuário que criou ou modificou o perfil.
 
-1. Click **[!UICONTROL Create]** to save the profile.
+1. Clique em **[!UICONTROL Create]** para salvar o perfil.
 
-O perfil será exibido na lista.
-
->[!NOTE]
->
->A criação de perfis também é possível usando a API do Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#creating-profiles) .
-
-Os perfis também podem ser agrupados dependendo das unidades organizacionais. To add the organizational fields to your profiles, refer to the [Partitioning profiles](../../administration/using/organizational-units.md#partitioning-profiles) section.
+O perfil agora aparecerá na lista.
 
 >[!NOTE]
 >
->O campo de idioma preferencial é usado para selecionar o idioma ao enviar mensagens multilíngues. For more information about the multilingual messages [refer to this page](../../channels/using/creating-a-multilingual-email.md).
+>A criação de perfis também é possível usando a API do Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#creating-profiles) .
+
+Os perfis também podem ser particionados dependendo de suas unidades organizacionais. Para adicionar os campos organizacionais aos seus perfis, consulte a seção Perfis [de](../../administration/using/organizational-units.md#partitioning-profiles) particionamento.
+
+>[!NOTE]
+>
+>O campo de idioma preferencial é usado para selecionar o idioma ao enviar mensagens multilíngues. Para obter mais informações sobre as mensagens multilíngues, [consulte esta página](../../channels/using/creating-a-multilingual-email.md).
 
 **Tópicos relacionados:**
 
-* [Criar um guia](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_CreateLandingPage.html) passo a passo da página inicial
+* [Sobre páginas](../../channels/using/about-landing-pages.md) iniciais, guia passo a passo
 * [Importação de perfis](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
 
