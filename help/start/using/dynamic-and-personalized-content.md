@@ -14,7 +14,7 @@ discoiquuid: 7cbca5fb-a99b-43ea-b629-6236cf2a5ef4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
@@ -23,13 +23,13 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 Obtenha a atenção de seus clientes e melhore sua taxa de resposta usando conteúdo e cabeçalhos que são personalizados de acordo com seus perfis, suas preferências e suas atividades. Todas as suas informações de cliente estão centralizadas no Adobe Campaign e você pode oferecer mensagens que contêm conteúdo adaptado por meio de canais diferentes.
 
-As mensagens personalizadas são fundamentais para enviar conteúdo relevante, oferecer experiências personalizadas e aumentar as taxas de conversão e abertura. As mensagens entre canais entregues pelo Adobe Campaign podem ser personalizadas de várias maneiras diferentes. Essas maneiras podem ser combinadas com critérios dependendo dos perfis. Você pode:
+As mensagens personalizadas são fundamentais para enviar conteúdo relevante, oferecer experiências personalizadas e aumentar as taxas de conversão e abertura. As mensagens entre canais entregues pelo Adobe Campaign podem ser personalizadas de várias maneiras diferentes. Essas maneiras podem ser combinadas com critérios dependendo dos perfis. É possível:
 
 * Inserir campos [de personalização](../../designing/using/personalization.md#inserting-a-personalization-field) dinâmica em suas mensagens
-* Inserir blocos de personalização [predefinidos](../../designing/using/personalization.md#adding-a-content-block)
+* Insert [predefined personalization blocks](../../designing/using/personalization.md#adding-a-content-block)
 * [Personalizar o remetente](../../designing/using/subject-line.md) de um email ou SMS
 * [Personalize a linha](../../designing/using/subject-line.md) de assunto de um email ou use os recursos de linha de assunto [](../../designing/using/subject-line.md#predictive-subject-line) preditivo para otimizá-lo
-* Criar conteúdo [condicional em um email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) ou [em uma página inicial](../../channels/using/defining-dynamic-content-in-a-landing-page.md)
+* Criar conteúdo [condicional em um email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) ou [em uma página inicial](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
 * Inserir texto [](../../channels/using/defining-dynamic-text.md) dinâmico em uma mensagem SMS ou uma notificação por push
 
 ![](assets/delivery_content_43.png)
