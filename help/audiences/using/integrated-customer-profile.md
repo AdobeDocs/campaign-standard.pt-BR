@@ -1,45 +1,45 @@
 ---
-title: Perfil do cliente integrado
-seo-title: Perfil do cliente integrado
-description: Perfil do cliente integrado
-seo-description: '" Rastreie cada interação do cliente em uma única exibição: O perfil do cliente integrado do Adobe Campaign é atualizado em todo o ciclo de vida do cliente. "'
+title: Perfil de cliente integrado
+seo-title: Perfil de cliente integrado
+description: Perfil de cliente integrado
+seo-description: '"Rastreie cada interação do cliente em uma única exibição: O perfil de cliente integrado do Adobe Campaign é atualizado durante todo o ciclo de vida do cliente."'
 page-status-flag: nunca ativado
-uuid: da 2 eb 13 a -2268-4 a 99-939 c-c 6388 f 5 d 34 f 3
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: públicos-alvo
-content-type: reference
-topic-tags: gerenciamento de perfis
-discoiquuid: d 44656 e 8-e 652-45 fc-a 05 c -0 d 5 ffe 456 bce
-context-tags: Marketinghistory, Main
+uuid: da2eb13a-2268-4a99-939c-c6388f5d34f3
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: referência
+topic-tags: managing-files
+discoiquuid: d44656e8-e652-45fc-a05c-0d5ffe456ecb
+context-tags: marketingHistory,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c9e33f51ab497b8bd111dfc307670f2fde5d804f
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
 
-# Integrated customer profile{#integrated-customer-profile}
+# Perfil de cliente integrado{#integrated-customer-profile}
 
-Um perfil de cliente integrado está disponível para cada contato do banco de dados. Esse histórico de marketing combina todas as informações de marketing relevantes relacionadas ao contato com um cliente em uma única exibição. Você pode acessar todos os comportamentos digitais, as transações online e offline em um local central: informações de contato, emails recebidos, registros de rastreamento, assinaturas e cancelamentos de assinaturas, etc.
+Um perfil de cliente integrado está disponível para cada contato do banco de dados. Este histórico de marketing combina todas as informações de marketing relevantes relacionadas ao contato com um cliente em uma única exibição. Você pode acessar todos os comportamentos digitais, transações online e offline em um local central: informações de contato, e-mails recebidos, registros de rastreamento, assinaturas e cancelamentos de assinaturas etc.
 
-Para acessar o perfil de cliente integrado, as etapas são as seguintes:
+Para acessar o perfil do cliente integrado, as etapas são as seguintes:
 
-1. From the Adobe Campaign home page, click the **[!UICONTROL Customer profiles]** card or the **Profiles** tab.
+1. Na página inicial do Adobe Campaign, clique no **[!UICONTROL Customer profiles]** cartão ou na guia **Perfis** .
 1. Selecione um contato.
 
    ![](assets/mkt_hist_access.png)
 
-You can then access the **Marketing history** of this contact.
+Você pode acessar o histórico **de** marketing deste contato.
 
 ![](assets/mkt_hist_view.png)
 
-As principais informações sobre o perfil são coletadas nesta página, bem como a lista de eventos.
+As principais informações sobre o perfil são coletadas nesta página, bem como na lista de eventos.
 
-Clique em um evento na lista para abri-lo: você pode acessar a mensagem que foi enviada ou o serviço ao qual o perfil aderiu.
+Clique em um evento na lista para abri-lo: você pode acessar a mensagem que foi enviada ou o serviço ao qual o perfil se inscreveu.
 
 >[!NOTE]
 >
->O histórico de marketing também pode ser acessado usando a API do Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#interacting-with-marketing-history) .
+>O histórico de marketing também pode ser acessado usando a API do Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#interacting-with-marketing-history) .
 
