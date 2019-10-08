@@ -4,31 +4,31 @@ seo-title: Sobre assinaturas
 description: Sobre assinaturas
 seo-description: null
 page-status-flag: nunca ativado
-uuid: b 0263 e 40-f 910-49 f 2-a 138-0 a 1302 aeeec 6
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: públicos-alvo
-content-type: reference
-topic-tags: gerenciando assinaturas
-discoiquuid: 27 de 5 a 13-7 b 7 c -4 c 91-bf 26-3 dfd 324 beb 8 f
+uuid: b0263e40-f910-49f2-a138-0a1302aeec6
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: referência
+topic-tags: gerenciar assinaturas
+discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
 
-# About subscriptions{#about-subscriptions}
+# Sobre assinaturas{#about-subscriptions}
 
-Adobe Campaign allows you to create and manage newsletters and cross-channel communications, through a set of **services**: messages can only be sent to profiles who subscribed to the service (opt-in). Esses perfis são identificados usando um filtro dedicado ao criar uma mensagem.
+O Adobe Campaign permite que você crie e gerencie boletins informativos e comunicações entre canais, por meio de um conjunto de **serviços**: as mensagens só podem ser enviadas para perfis que se inscreveram no serviço (aceitação). Esses perfis são identificados usando um filtro dedicado ao criar uma mensagem.
 
-Subscription mechanisms can be set up to offer your customers a chance to subscribe to these services, notably though **emails** and **landing pages**.
+Os mecanismos de assinatura podem ser configurados para oferecer aos clientes a chance de se inscreverem nesses serviços, por exemplo, por meio de **emails** e páginas **de** aterrissagem.
 
 Cada serviço vem com:
 
-* **Mecanismos de assinatura** (aceitação) e **[!UICONTROL Unsubscription]** (não participação).
-* Subscription and/or unsubscription **confirmation mechanisms**.
-* A subscription **history**.
+* **Mecanismos de assinatura** (opt-in) e **[!UICONTROL Unsubscription]** (opt-out).
+* Mecanismos **de** confirmação de assinatura e/ou cancelamento de assinatura.
+* Um **histórico** de assinaturas.
 
-As assinaturas também podem ser gerenciadas usando a API do Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-subscriptions) .
+As assinaturas também podem ser gerenciadas usando a API do Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-subscriptions) .
