@@ -14,7 +14,7 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cdf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
@@ -36,11 +36,13 @@ Para que o evento dispare o envio de uma mensagem transacional, é necessário p
 
 >[!NOTE]
 >
->Para acessar as mensagens transacionais, é necessário ter direitos administrativos ou aparecer no grupo de segurança **[!UICONTROL Message Center agents]** (mcExec). As regras de fadiga são compatíveis com mensagens transacionais de perfil. Consulte Regras de [fadiga](../../administration/using/fatigue-rules.md).
+>Para acessar mensagens transacionais, você deve fazer parte do grupo de **[!UICONTROL Administrators (all units)]** segurança.
+>
+>As regras de fadiga são compatíveis com mensagens transacionais de perfil. Consulte Regras de [fadiga](../../administration/using/fatigue-rules.md).
 
 ## Envio de uma mensagem transacional de perfil {#sending-a-profile-transactional-message}
 
-As etapas para criar, personalizar e publicar uma mensagem transacional de perfil são as mesmas de uma mensagem transacional de evento. Consulte Mensagens [transacionais de](../../channels/using/event-transactional-messages.md)eventos.
+As etapas para criar, personalizar e publicar uma mensagem transacional de perfil são as mesmas de uma mensagem transacional de evento. Consulte Mensagens [transacionais de](../../channels/using/event-transactional-messages.md)evento.
 
 As diferenças estão listadas abaixo.
 
