@@ -15,7 +15,7 @@ context-tags: serviço,assistente;serviço,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: da59fad19bcf35b63afdfc6389be527c27f21fc3
+source-git-commit: 60424543028fa4df548d6d5bcfb1e9acc4131132
 
 ---
 
@@ -41,7 +41,7 @@ Para configurar um serviço:
    * **[!UICONTROL No message]**: este modo permite que você crie um serviço sem uma mensagem de confirmação.
    * **[!UICONTROL Default message]**: este modo usará a mensagem de transação padrão de assinatura ou de confirmação de não assinatura. As mensagens de confirmação padrão são genéricas e serão as mesmas para todos os serviços que usam o modo padrão.
 
-      >[OBSERVAÇÃO]
+      >[!NOTE]
       >
       >Você pode modificar uma mensagem padrão clicando em seu rótulo na **[!UICONTROL Service properties]** seção ou selecionando-a na lista de mensagens transacionais do Adobe Campaign, depois de marcar a **[!UICONTROL Show internal transactional messages]** caixa.
 
