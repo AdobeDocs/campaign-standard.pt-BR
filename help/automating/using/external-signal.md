@@ -2,95 +2,95 @@
 title: Sinal externo
 seo-title: Sinal externo
 description: Sinal externo
-seo-description: A atividade de sinal Externo aciona um fluxo de trabalho quando algumas condições são cumpridas com êxito em outro fluxo de trabalho.
+seo-description: A atividade de sinal externo aciona um fluxo de trabalho quando algumas condições são atendidas com êxito em outro fluxo de trabalho.
 page-status-flag: nunca ativado
-uuid: 884 b 6 daf-bfd 9-440 b -8336-004 b 80 c 76 def
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automatizando
-content-type: reference
-topic-tags: execução-atividades
-discoiquuid: 911 c 71 b 5-da 8 b -4916-b 645-13 bba 6 d 21715
-context-tags: sinal, principal
+uuid: 884b6daf-bfd9-440b-8336-004b80c76def
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: automatização
+content-type: referência
+topic-tags: atividades de execução
+discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
+context-tags: sinal,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
 
-# External signal{#external-signal}
+# Sinal externo{#external-signal}
 
-## Description {#description}
+## Descrição {#description}
 
 ![](assets/signal.png)
 
-**[!UICONTROL External signal]** A atividade aciona um fluxo de trabalho quando algumas condições são cumpridas com êxito em outro fluxo de trabalho ou de uma chamada REST API.
+A **[!UICONTROL External signal]** atividade aciona um fluxo de trabalho quando algumas condições são atendidas com êxito em outro fluxo de trabalho ou a partir de uma chamada REST API.
 
-## Context of use {#context-of-use}
+## Contexto de utilização {#context-of-use}
 
-**[!UICONTROL External signal]** A atividade é usada para organizar e orquestrar processos diferentes que fazem parte da mesma jornada do cliente em fluxos de trabalho diferentes. Ele permite iniciar um fluxo de trabalho a partir de outro, permitindo oferecer suporte a jornadas mais complexas do cliente, ao mesmo tempo em que é capaz de monitorar e reagir melhor em caso de problema.
+A **[!UICONTROL External signal]** atividade é usada para organizar e orquestrar diferentes processos que fazem parte da mesma jornada do cliente em fluxos de trabalho diferentes. Ele permite iniciar um fluxo de trabalho a partir de outro, permitindo suportar jornadas de clientes mais complexas, ao mesmo tempo que pode monitorar e reagir melhor em caso de problema.
 
-The **[!UICONTROL External signal]** activity is designed to be placed as the first activity of a workflow. It can be triggered from the **[!UICONTROL End]** activity of another workflow or from a REST API call (for more on this, refer to the [API documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity) ).
+A **[!UICONTROL External signal]** atividade é projetada para ser colocada como a primeira atividade de um fluxo de trabalho. Ele pode ser acionado a partir da **[!UICONTROL End]** atividade de outro fluxo de trabalho ou de uma chamada REST API (para obter mais informações, consulte a documentação [da](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity) API ).
 
-Quando acionados, parâmetros externos podem ser definidos e estar disponíveis nas variáveis de eventos de fluxo de trabalho. The process to call a workflow with external parameters is detailed in [this section](../../automating/using/calling-a-workflow-with-external-parameters.md).
+Quando acionados, os parâmetros externos podem ser definidos e estar disponíveis nas variáveis de eventos do fluxo de trabalho. O processo para chamar um fluxo de trabalho com parâmetros externos está detalhado [nesta seção](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 >[!NOTE]
 >
 >A atividade não pode ser acionada com mais frequência do que a cada 10 minutos.
 
-Note that an **[!UICONTROL External signal]** activity can be triggered from several different events. In that case, the **[!UICONTROL External signal]** is triggered as soon as one of the source workflows or API call is executed. Isso não exige que todos os fluxos de trabalho de origem sejam concluídos.
+Observe que uma **[!UICONTROL External signal]** atividade pode ser acionada a partir de vários eventos diferentes. Nesse caso, o **[!UICONTROL External signal]** é acionado assim que um dos fluxos de trabalho de origem ou uma chamada de API é executada. Não requer que todos os fluxos de trabalho de origem sejam concluídos.
 
-## Configuration {#configuration}
+## Configuração {#configuration}
 
-When configuring an external signal, it is important to first configure the **[!UICONTROL External signal]** activity in the destination workflow. Once this configuration is done, the **[!UICONTROL External signal]** activity of this workflow becomes available to configure the **[!UICONTROL End]** activity of the source workflow.
+Ao configurar um sinal externo, é importante primeiro configurar a **[!UICONTROL External signal]** atividade no fluxo de trabalho de destino. Quando essa configuração for concluída, a **[!UICONTROL External signal]** atividade desse fluxo de trabalho ficará disponível para configurar a **[!UICONTROL End]** atividade do fluxo de trabalho de origem.
 
-1. Drag and drop an **[!UICONTROL External signal]** activity into your destination workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Edite o rótulo da atividade. This label is needed when configuring the source workflow that triggers the **[!UICONTROL External signal]**.
+1. Arraste e solte uma **[!UICONTROL External signal]** atividade em seu fluxo de trabalho de destino.
+1. Selecione a atividade e abra-a usando o ![](assets/edit_darkgrey-24px.png) botão das ações rápidas que aparecem.
+1. Edite o rótulo da atividade. Esse rótulo é necessário ao configurar o fluxo de trabalho de origem que aciona o **[!UICONTROL External signal]**.
 
-   If you want to call the workflow with parameters, use the **[!UICONTROL Parameters]** area to declare them. For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity).
+   Se você quiser chamar o fluxo de trabalho com parâmetros, use a **[!UICONTROL Parameters]** área para declará-los. Para obter mais informações, consulte [esta seção](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity).
 
    ![](assets/external_signal_configuration.png)
 
-1. Confirme a configuração da atividade, adicione qualquer outra atividade necessária e salve seu fluxo de trabalho.
+1. Confirme a configuração de sua atividade, adicione qualquer outra atividade necessária e salve seu fluxo de trabalho.
 
    >[!NOTE]
    >
-   >Se você quiser acionar o fluxo de trabalho de destino a partir de outro fluxo de trabalho, continue com as etapas a seguir. If you want to trigger the destination workflow from a REST API call, consult the [API documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity) to get more details.
+   >Se você quiser acionar o fluxo de trabalho de destino a partir de outro fluxo de trabalho, continue com as etapas a seguir. Se desejar acionar o fluxo de trabalho de destino a partir de uma chamada REST API, consulte a documentação [da](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity) API para obter mais detalhes.
 
-1. Open the source workflow and select an **[!UICONTROL End]** activity. If there is no **[!UICONTROL End]** activity available, add one after the last activity of a branch of the workflow.
+1. Abra o fluxo de trabalho de origem e selecione uma **[!UICONTROL End]** atividade. Se não houver nenhuma **[!UICONTROL End]** atividade disponível, adicione uma após a última atividade de uma ramificação do fluxo de trabalho.
 
-   Algumas atividades não têm nenhuma transição de saída por padrão. From the **[!UICONTROL Properties]** tab of these activities, you can add an outbound transition.
+   Algumas atividades não têm nenhuma transição de saída por padrão. Na **[!UICONTROL Properties]** guia dessas atividades, é possível adicionar uma transição de saída.
 
-   For example, in an **[!UICONTROL Update data]** activity, go to the **[!UICONTROL Transitions]** tab and check the **[!UICONTROL Add an outbound transition without the population]** option. Essa opção permite adicionar uma transição que não contenha nenhum dado e não consumir nenhum espaço desnecessário no sistema. It is just used to connect the extra **[!UICONTROL End]** activity that triggers the destination workflow.
+   Por exemplo, em uma **[!UICONTROL Update data]** atividade, vá para a **[!UICONTROL Transitions]** guia e marque a opção **[!UICONTROL Add an outbound transition without the population]** . Essa opção permite adicionar uma transição que não contenha dados e não consuma espaço desnecessário no sistema. É usado apenas para conectar a atividade extra **[!UICONTROL End]** que aciona o fluxo de trabalho de destino.
 
    ![](assets/external_signal_empty_transition.png)
 
-1. In the **[!UICONTROL External signal]** tab of the **[!UICONTROL End]** activity, select the destination workflow as well as the **[!UICONTROL External signal]** activity to trigger within that workflow.
+1. Na **[!UICONTROL External signal]** guia da **[!UICONTROL End]** atividade, selecione o fluxo de trabalho de destino, bem como a **[!UICONTROL External signal]** atividade a ser acionada dentro desse fluxo de trabalho.
 
-   When you set an **[!UICONTROL End]** activity to trigger another workflow, its icon is updated with an additional signal symbol.
+   Quando você define uma **[!UICONTROL End]** atividade para acionar outro fluxo de trabalho, seu ícone é atualizado com um símbolo de sinal adicional.
 
-   If you want to call the workflow with parameters, use the **[!UICONTROL Parameters and values]** area. For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow).
+   Se você quiser chamar o fluxo de trabalho com parâmetros, use a **[!UICONTROL Parameters and values]** área. Para obter mais informações, consulte [esta seção](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow).
 
    ![](assets/external_signal_end.png)
 
 1. Salve o fluxo de trabalho de origem.
 
-Once the **[!UICONTROL End]** activity of the source workflow or the REST API call is executed, the destination workflow is automatically triggered from the **[!UICONTROL External signal]** activity.
+Depois que a **[!UICONTROL End]** atividade do fluxo de trabalho de origem ou a chamada REST API é executada, o fluxo de trabalho de destino é automaticamente disparado da **[!UICONTROL External signal]** atividade.
 
 >[!NOTE]
 >
->O fluxo de trabalho de destino deve ser iniciado manualmente antes de ser acionado. When started, the **[!UICONTROL External activity]** is activated and waits for the signal from the source workflow.
+>O fluxo de trabalho de destino deve ser iniciado manualmente antes de poder ser acionado. Quando iniciado, o **[!UICONTROL External activity]** é ativado e aguarda o sinal do fluxo de trabalho de origem.
 
-## Example {#example}
+## Exemplo {#example}
 
-The following example illustrates the **[!UICONTROL External signal]** activity in a typical use case. Uma importação de dados é realizada em um fluxo de trabalho de origem. Quando a importação é feita e o banco de dados foi atualizado, um segundo fluxo de trabalho é acionado. Esse segundo fluxo de trabalho é usado para atualizar um agregado nos dados importados.
+O exemplo a seguir ilustra a **[!UICONTROL External signal]** atividade em um caso de uso típico. Uma importação de dados é executada em um fluxo de trabalho de origem. Quando a importação for concluída e o banco de dados for atualizado, um segundo fluxo de trabalho será acionado. Esse segundo fluxo de trabalho é usado para atualizar um agregado nos dados importados.
 
 O fluxo de trabalho de origem é apresentado da seguinte maneira:
 
-* A [Load file](../../automating/using/load-file.md) activity uploads a file containing new purchase data. Note that the [database has been extended](../../developing/using/data-model-concepts.md) accordingly as purchase data are not present by default in the datamart.
+* Uma atividade [Carregar arquivo](../../automating/using/load-file.md) carrega um arquivo contendo novos dados de compra. Observe que o [banco de dados foi estendido](../../developing/using/data-model-concepts.md) de acordo com esse procedimento, pois os dados de compra não estão presentes por padrão no datamart.
 
    Por exemplo:
 
@@ -104,17 +104,17 @@ O fluxo de trabalho de origem é apresentado da seguinte maneira:
    aze128;04/03/2016;clara.smith@example.com;A8;149
    ```
 
-* A [Reconciliation](../../automating/using/reconciliation.md) activity creates the links between the imported data and the database so that the transactions data are properly connected to profiles and products.
-* An [Update data](../../automating/using/update-data.md) activity inserts and updates the Transactions resource of the database with the incoming data.
-* An **[!UICONTROL End]** activity triggers the destination workflow, which is used to update aggregates.
+* Uma atividade de [Reconciliação](../../automating/using/reconciliation.md) cria os links entre os dados importados e o banco de dados para que os dados de transações sejam conectados corretamente aos perfis e produtos.
+* Uma atividade de dados [](../../automating/using/update-data.md) Update insere e atualiza o recurso Transações do banco de dados com os dados recebidos.
+* Uma **[!UICONTROL End]** atividade aciona o fluxo de trabalho de destino, que é usado para atualizar agregados.
 
 ![](assets/signal_example_source1.png)
 
-O fluxo de trabalho de destino é apresentado da seguinte maneira:
+O fluxo de trabalho de destino é apresentado da seguinte forma:
 
-* An **[!UICONTROL External signal]** activity waits for the source workflow to be successfully finished.
-* A [Query](../../automating/using/query.md#enriching-data) activity targets profiles and enrich them with a collection set to retrieve the last purchase date.
-* An [Update data](../../automating/using/update-data.md) activity stores the additional data in a dedicated custom field. Note that the profile resource has been extended to add the **Last purchase date** field.
+* Uma **[!UICONTROL External signal]** atividade aguarda a conclusão com êxito do fluxo de trabalho de origem.
+* Uma atividade de [Consulta](../../automating/using/query.md#enriching-data) direciona perfis e os enriquece com uma coleção definida para recuperar a data da última compra.
+* Uma atividade [Atualizar dados](../../automating/using/update-data.md) armazena os dados adicionais em um campo personalizado dedicado. Observe que o recurso de perfil foi estendido para adicionar o campo Data **da** última compra.
 
 ![](assets/signal_example_source2.png)
 
