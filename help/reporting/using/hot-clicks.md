@@ -1,7 +1,7 @@
 ---
-title: Cliques ativos
-seo-title: Cliques ativos
-description: Cliques ativos
+title: Hot clicks
+seo-title: Hot clicks
+description: Hot clicks
 seo-description: Com o recurso Hot click out out-of-the-box, saiba onde o cliente clicou na entrega.
 page-status-flag: nunca ativado
 uuid: 7ed49dd3-d7ee-466a-9a7b-d2aa16961667
@@ -15,12 +15,12 @@ context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
 
-# Cliques ativos{#hot-clicks}
+# Hot clicks{#hot-clicks}
 
 Este relatório pode ser acessado a partir do **[!UICONTROL Reports]** botão em cada entrega ou mensagem transacional.
 
@@ -30,7 +30,7 @@ Ele apresenta o conteúdo da mensagem (HTML e/ou texto) com a porcentagem de cli
 
 ![](assets/delivery_reports_10.png)
 
-Se você tiver criado conteúdo dinâmico para a entrega, poderá exibir as porcentagens para cada condição definida. Para obter mais informações sobre como inserir conteúdo condicional em uma entrega, consulte [Definição de conteúdo](../../channels/using/defining-dynamic-content-in-a-landing-page.md)dinâmico.
+Se você tiver criado conteúdo dinâmico para a entrega, poderá exibir as porcentagens para cada condição definida. Para obter mais informações sobre como inserir conteúdo condicional em uma entrega, consulte [Definição de conteúdo](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)dinâmico.
 
 Por exemplo, imagine que você criou uma entrega com as seguintes condições:
 
