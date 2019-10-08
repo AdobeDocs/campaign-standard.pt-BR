@@ -15,7 +15,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 443b374506d388009fbd43108577001d35f406ee
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
@@ -32,7 +32,9 @@ Para que o evento dispare o envio de uma mensagem transacional, é necessário p
 
 >[!NOTE]
 >
->Para acessar as mensagens transacionais, é necessário ter direitos administrativos ou aparecer no grupo de segurança **[!UICONTROL Message Center agents]** (mcExec). As mensagens transacionais de eventos não contêm informações de perfil, portanto, não são compatíveis com regras de fadiga (mesmo no caso de enriquecimento com perfis). Consulte Regras de [fadiga](../../administration/using/fatigue-rules.md#choosing-the-channel).
+>Para acessar mensagens transacionais, você deve fazer parte do grupo de **[!UICONTROL Administrators (all units)]** segurança.
+>
+>As mensagens transacionais de eventos não contêm informações de perfil, portanto, não são compatíveis com regras de fadiga (mesmo no caso de enriquecimento com perfis). Consulte Regras de [fadiga](../../administration/using/fatigue-rules.md#choosing-the-channel).
 
 ## Definição de um perfil de teste em uma mensagem transacional {#defining-a-test-profile-in-a-transactional-message}
 
@@ -109,7 +111,7 @@ Para configurar a personalização em uma mensagem transacional, siga as etapas 
 
 1. Visualize sua mensagem selecionando o perfil definido para esse evento.
 
-   As etapas para visualizar uma mensagem são detalhadas na seção [Visualizar mensagens](../../sending/using/preparing-the-send.md) .
+   As etapas para visualizar uma mensagem são detalhadas na seção [Visualizar mensagens](../../sending/using/previewing-messages.md) .
 
    ![](assets/message-center_9.png)
 
@@ -258,7 +260,7 @@ Para acessar os relatórios referentes à sua mensagem transacional, use o **[!U
 
 Você pode suspender a publicação de sua mensagem transacional usando o **[!UICONTROL Pause]** botão, por exemplo, para modificar os dados contidos na mensagem. Os eventos não são mais processados, mas mantidos em fila no banco de dados do Adobe Campaign.
 
-Os eventos em fila são mantidos durante um período definido na REST API (consulte a documentação [REST API) ou no evento trigger se você estiver usando o serviço principal Acionadores (consulte](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)Trabalhar com acionadores [](../../integrating/using/about-adobe-experience-cloud-triggers.md)da Campanha e da Experience Cloud).
+Os eventos em fila são mantidos durante um período definido na REST API (consulte a documentação [REST API) ou no evento trigger se você estiver usando o serviço principal Acionadores (consulte](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)Trabalhar com acionadores [](../../integrating/using/about-adobe-experience-cloud-triggers.md)da Campanha e da Experience Cloud).
 
 ![](assets/message-center_pause.png)
 
