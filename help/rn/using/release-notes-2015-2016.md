@@ -14,12 +14,12 @@ discoiquuid: a3ce6b80-1858-49d1-8880-3543181127f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
 
-# Notas de versão 2015-2016{#release-notes}
+# Release Notes 2015-2016{#release-notes}
 
 Você está procurando uma versão específica 2015-2016 do Adobe Campaign Standard?
 
@@ -41,7 +41,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  <tbody> 
   <tr> 
    <td> Regras de exclusão de entregabilidade<br /> </td> 
-   <td> Agora, uma lista de supressão global criptografada é gerenciada na instância de entrega para evitar ser bloqueada devido a atividades mal-intencionadas, especialmente o uso de uma armadilha.<br /> Para cada entrega de email, duas regras de tipologia padrão comparam os endereços de email do destinatário com os endereços proibidos ou nomes de domínio contidos nessa lista. Se houver uma correspondência, esse destinatário será excluído da população-alvo.<br /> Para obter mais informações, consulte a documentação <a href="../../administration/using/filtering-rules.md#default-deliverability-exclusion-rules"></a>detalhada.<br /> </td> 
+   <td> Agora, uma lista de supressão global criptografada é gerenciada na instância de entrega para evitar ser bloqueada devido a atividades mal-intencionadas, especialmente o uso de uma armadilha.<br /> Para cada entrega de email, duas regras de tipologia padrão comparam os endereços de email do destinatário com os endereços proibidos ou nomes de domínio contidos nessa lista. Se houver uma correspondência, esse destinatário será excluído da população-alvo.<br /><a href="../../administration/using/filtering-rules.md#default-deliverability-exclusion-rules"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Otimização geral<br /> </td> 
@@ -50,7 +50,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  </tbody> 
 </table>
 
-### Patches {#patches}
+### Correções {#patches}
 
 #### Geral {#general}
 
@@ -73,7 +73,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 * Correção de um problema que impedia que o envio de logs e logs de eventos fossem exibidos para os destinatários após o envio de uma notificação por push usando o **[!UICONTROL Send push on profiles]** modelo.
 * Correção de um problema que impedia a criação de novos aplicativos móveis.
 
-#### Fluxos de trabalho {#workflows}
+#### Workflows {#workflows}
 
 * Correção de um problema de desempenho que ocorria ao usar a **[!UICONTROL Subscription]** atividade.
 * Correção de um problema que impedia o funcionamento de um fluxo de trabalho quando seu nome interno continha um espaço.
@@ -107,20 +107,20 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
   </tr> 
   <tr> 
    <td> Mensagens transacionais SMS<br /> </td> 
-   <td> O canal SMS foi adicionado aos recursos de mensagens transacionais do Adobe Campaign. Dois canais agora são suportados para mensagens transacionais: email e SMS.<br /> Para obter mais informações, consulte a documentação <a href="../../administration/using/configuring-transactional-messaging.md#creating-an-event"></a>detalhada.<br /> </td> 
+   <td> O canal SMS foi adicionado aos recursos de mensagens transacionais do Adobe Campaign. Dois canais agora são suportados para mensagens transacionais: email e SMS.<br /><a href="../../administration/using/configuring-transactional-messaging.md#creating-an-event"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Mensagem de acompanhamento para mensagens transacionais<br /> </td> 
-   <td> Agora é possível criar um fluxo de trabalho direcionado a um evento. Isso significa que você pode enviar uma mensagem de acompanhamento aos clientes que receberam uma mensagem transacional anteriormente. Você pode filtrar o destino pelo tipo de evento, pelos logs de eventos e pelos logs de rastreamento. Na mensagem de acompanhamento, você poderá aproveitar o conteúdo do evento (carga). <br /> Para obter mais informações, consulte a documentação <a href="../../channels/using/follow-up-messages.md"></a>detalhada.<br /> </td> 
+   <td> Agora é possível criar um fluxo de trabalho direcionado a um evento. Isso significa que você pode enviar uma mensagem de acompanhamento aos clientes que receberam uma mensagem transacional anteriormente. Você pode filtrar o destino pelo tipo de evento, pelos logs de eventos e pelos logs de rastreamento. Na mensagem de acompanhamento, você poderá aproveitar o conteúdo do evento (carga). <br /><a href="../../channels/using/follow-up-messages.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> API de serviços e perfis estendidos<br /> </td> 
-   <td> Agora é possível expor campos estendidos na API Perfil e serviços. O mecanismo de publicação permite que as APIs mapeiem os campos estendidos dos recursos personalizados Perfis ou Serviços. Para que isso funcione, a função <strong>Datamodel</strong> foi adicionada. Essa nova função permite que o usuário configure um conjunto de administradores que terão acesso ao modelo de dados.<br /> Para obter mais informações, consulte a documentação <a href="../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension"></a>detalhada.<br /> </td> 
+   <td> Agora é possível expor campos estendidos na API Perfil e serviços. O mecanismo de publicação permite que as APIs mapeiem os campos estendidos dos recursos personalizados Perfis ou Serviços. Para que isso funcione, a função <strong>Datamodel</strong> foi adicionada. Essa nova função permite que o usuário configure um conjunto de administradores que terão acesso ao modelo de dados.<br /><a href="../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-1}
+### Correções {#patches-1}
 
 #### Geral {#general-1}
 
@@ -135,7 +135,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 * Correção de um problema que impedia a exibição de filtros predefinidos ao editar o público-alvo de uma notificação por push com base no modelo **[!UICONTROL Send via push notification]** (mobileApp).
 * A tela de configuração do aplicativo móvel ( **[!UICONTROL Administration > Channels > Push Notification > Mobile applications]** ) agora exibe uma mensagem indicando que a plataforma iOS ou Android foi criada com êxito.
 
-#### Páginas iniciais {#landing-pages}
+#### Landing pages {#landing-pages}
 
 * Correção de problemas que impedia o envio de emails de confirmação quando um formulário de página inicial era enviado.
 
@@ -168,15 +168,15 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  <tbody> 
   <tr> 
    <td> Acionadores de recomercialização<br /> </td> 
-   <td> A integração entre os principais <span class="uicontrol">Acionadores</span> de serviço e o Adobe Campaign permite que você envie emails personalizados para seus clientes como uma reação a comportamentos específicos que são rastreados em seu site pelo Adobe Analytics (dentro de 15 minutos).<br /> Na Adobe Marketing Cloud, você define os diferentes acionadores, ou seja, os comportamentos do cliente que você gostaria de monitorar, como todos os clientes que abandonaram seu carrinho ou formulário, removeram um produto do carrinho ou até mesmo os clientes cuja sessão expirou. Ao criar um acionador, você define a condição do acionador e os dados que serão enviados no evento (carregar) para o Adobe Campaign. <br /> No Adobe Campaign, você seleciona o acionador que foi criado anteriormente, aprimora os dados do evento com dados do datamart e define um modelo de mensagem transacional vinculado ao acionador. Por exemplo, quando um cliente abandona seu carrinho, um evento é enviado para o Adobe Campaign, que pode aproveitar esse evento por meio de um email de remarketing enviado ao cliente em 15 minutos.<br /> Para obter mais informações, consulte a documentação <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md"></a>detalhada.<br /> </td> 
+   <td> Integration between the core service <span class="uicontrol">Triggers</span> and Adobe Campaign allows you to send personalized emails to your customers as a reaction to specific behaviors that are tracked on your website by Adobe Analytics (within 15 minutes).<br /> Na Adobe Marketing Cloud, você define os diferentes acionadores, ou seja, os comportamentos do cliente que você gostaria de monitorar, como todos os clientes que abandonaram seu carrinho ou formulário, removeram um produto do carrinho ou até mesmo os clientes cuja sessão expirou. Ao criar um acionador, você define a condição do acionador e os dados que serão enviados no evento (carregar) para o Adobe Campaign. <br /> No Adobe Campaign, você seleciona o acionador que foi criado anteriormente, aprimora os dados do evento com dados do datamart e define um modelo de mensagem transacional vinculado ao acionador. Por exemplo, quando um cliente abandona seu carrinho, um evento é enviado para o Adobe Campaign, que pode aproveitar esse evento por meio de um email de remarketing enviado ao cliente em 15 minutos.<br /><a href="../../integrating/using/about-adobe-experience-cloud-triggers.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Mensagens transacionais: Pausar / Cancelar publicação<br /> </td> 
-   <td> Agora você pode suspender a publicação de um modelo transacional enquanto atualiza o conteúdo. As mensagens correspondentes não são mais enviadas, mas são armazenadas no banco de dados. Ao retomar, as mensagens em fila são processadas e enviadas se não expiraram.<br /> Para obter mais informações, consulte a documentação <a href="../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication"></a>detalhada.<br /> Agora você também pode cancelar a publicação de eventos e modelos transacionais. As mensagens correspondentes não são mais enviadas e não são armazenadas no banco de dados.<br /> Para obter mais informações, consulte a documentação <a href="../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message"></a>detalhada.<br /> </td> 
+   <td> Agora você pode suspender a publicação de um modelo transacional enquanto atualiza o conteúdo. As mensagens correspondentes não são mais enviadas, mas são armazenadas no banco de dados. Ao retomar, as mensagens em fila são processadas e enviadas se não expiraram.<br /><a href="../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication"> Para obter mais informações, consulte a documentação</a> detalhada.<br /> Agora você também pode cancelar a publicação de eventos e modelos transacionais. As mensagens correspondentes não são mais enviadas e não são armazenadas no banco de dados.<br /><a href="../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Multimarca<br /> </td> 
-   <td> Clientes com várias marcas agora podem gerenciá-las na mesma instância. A marca é um recurso gerenciado pelo administrador da instância do Adobe Campaign que permite a configuração centralizada de todos os parâmetros relacionados a uma marca no Adobe Campaign. Isso inclui coisas como o logotipo para parâmetros mais técnicos como URLs de rastreamento, Web Analytics, URL do servidor, nome do domínio etc.<br /> Para obter mais informações, consulte a documentação <a href="../../administration/using/branding.md"></a>detalhada.<br /> </td> 
+   <td> Clientes com várias marcas agora podem gerenciá-las na mesma instância. A marca é um recurso gerenciado pelo administrador da instância do Adobe Campaign que permite a configuração centralizada de todos os parâmetros relacionados a uma marca no Adobe Campaign. Isso inclui coisas como o logotipo para parâmetros mais técnicos como URLs de rastreamento, Web Analytics, URL do servidor, nome do domínio etc.<br /><a href="../../administration/using/branding.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Visualização do design de email responsivo<br /> </td> 
@@ -184,12 +184,12 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
   </tr> 
   <tr> 
    <td> Notificações por push<br /> </td> 
-   <td> Um novo canal foi adicionado para permitir que os profissionais de marketing enviem notificações por push personalizadas e segmentadas em dispositivos móveis iOS e Android. As mensagens podem ser enviadas por meio de uma única entrega ou por meio de uma atividade de fluxo de trabalho. A compatibilidade com as mensagens transacionais estará disponível em versões futuras. Esse canal utiliza o SDK do serviço principal do Mobile (disponível <a href="https://marketing.adobe.com/developer/gallery/marketing-cloud-mobile-libraries">aqui</a>).<br /> Para obter mais informações, consulte a documentação <a href="../../channels/using/about-push-notifications.md"></a>detalhada.<br /> </td> 
+   <td> Um novo canal foi adicionado para permitir que os profissionais de marketing enviem notificações por push personalizadas e segmentadas em dispositivos móveis iOS e Android. As mensagens podem ser enviadas por meio de uma única entrega ou por meio de uma atividade de fluxo de trabalho. A compatibilidade com as mensagens transacionais estará disponível em versões futuras. Esse canal utiliza o SDK do serviço principal do Mobile (disponível <a href="https://marketing.adobe.com/developer/gallery/marketing-cloud-mobile-libraries">aqui</a>).<br /><a href="../../channels/using/about-push-notifications.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-2}
+### Correções {#patches-2}
 
 #### Geral {#general-2}
 
@@ -230,11 +230,11 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  <tbody> 
   <tr> 
    <td> Mensagens transacionais enriquecidas<br /> </td> 
-   <td> Agora você pode vincular modelos transacionais ao banco de dados do Adobe Campaign para recuperar informações que permitem enriquecer o conteúdo das mensagens transacionais.<br /> Para obter mais informações, consulte a documentação <a href="../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content"></a>detalhada.<br /> </td> 
+   <td> Agora você pode vincular modelos transacionais ao banco de dados do Adobe Campaign para recuperar informações que permitem enriquecer o conteúdo das mensagens transacionais.<br /><a href="../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> URLs dinâmicos para imagens<br /> </td> 
-   <td> Essa nova funcionalidade permite que você personalize uma fonte de imagem inserindo blocos de conteúdo e texto dinâmico para fins de rastreamento e personalização.<br /> Torna-se possível, entre outras coisas, aproveitar as funcionalidades da mídia dinâmica do AEM Asset (S7) inserindo parâmetros nos URLs de imagem. Por exemplo, você pode enviar um email com imagens personalizadas dizendo "Olá Alexandre, obtenha as últimas notícias sobre os próximos eventos em Paris!" ou "Olá Frank, obtenha as últimas notícias sobre os eventos que estão por vir em Nova Iorque!"<br /> Para obter mais informações, consulte a documentação <a href="../../designing/using/personalization.md#personalizing-urls"></a>detalhada.<br /> </td> 
+   <td> Essa nova funcionalidade permite que você personalize uma fonte de imagem inserindo blocos de conteúdo e texto dinâmico para fins de rastreamento e personalização.<br /> Torna-se possível, entre outras coisas, aproveitar as funcionalidades da mídia dinâmica do AEM Asset (S7) inserindo parâmetros nos URLs de imagem. Por exemplo, você pode enviar um email com imagens personalizadas dizendo "Olá Alexandre, obtenha as últimas notícias sobre os próximos eventos em Paris!" ou "Olá Frank, obtenha as últimas notícias sobre os eventos que estão por vir em Nova Iorque!"<br /><a href="../../designing/using/personalization.md#personalizing-urls"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Integração com o serviço principal de pessoas<br /> </td> 
@@ -247,14 +247,14 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  </tbody> 
 </table>
 
-### Patches {#patches-3}
+### Correções {#patches-3}
 
 #### Geral {#general-3}
 
 * Corrigido um erro que fazia com que campos irrelevantes fossem exibidos em vez de campos que precisam ser concluídos. Isso ocorria depois que o operador de comparação era modificado várias vezes ao editar uma condição em uma consulta.
 * Corrigido o comportamento da opção **[!UICONTROL The last X days/months/quarters/years]** ao definir uma condição de filtragem relativa para um campo de data. O período calculado agora é um período deslizante relativo à data e hora do servidor e não baseado no calendário.
 
-#### Fluxos de trabalho {#workflows-1}
+#### Workflows {#workflows-1}
 
 * Corrigido um erro que retornava uma lista incorreta de valores na tela para selecionar a dimensão de definição de metas nas propriedades de uma **[!UICONTROL Query]** atividade.
 * Correção de um erro que forçava a seleção do operador **Existe** ao adicionar uma média ou um agregado de contagem em um elemento de coleção em uma **[!UICONTROL Query]** atividade.
@@ -289,7 +289,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  </tbody> 
 </table>
 
-### Patches {#patches-4}
+### Correções {#patches-4}
 
 #### Geral {#general-4}
 
@@ -309,14 +309,14 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 * Correção da barra superior do assistente de criação de entrega.
 * A chave primária de uma entrega não pode mais ser usada como um campo de personalização.
 
-#### Fluxos de trabalho {#workflows-2}
+#### Workflows {#workflows-2}
 
 * As transições entre duas atividades de um fluxo de trabalho agora exibem a contagem de elementos calculados e transferidos de uma atividade para outra.
 * Campos incompatíveis agora ficam ocultos quando dados adicionais são adicionados em uma **[!UICONTROL Query]** atividade.
 * A janela de definição agregada, exibida ao adicionar dados adicionais, foi aprimorada para oferecer apenas opções compatíveis com os dados em uso (por exemplo: calcular uma média só é possível para dados numéricos).
 * Iniciar ou reiniciar um fluxo de trabalho técnico pronto agora só pode ser executado por um usuário com direitos administrativos.
 
-#### Páginas iniciais {#landing-pages-1}
+#### Landing pages {#landing-pages-1}
 
 * Corrigido um erro que truncava chaves de codificação AES de 32 bits nas propriedades de uma página inicial.
 * Correção de um erro que impedia que o editor de consulta fosse exibido corretamente ao definir uma condição de visibilidade ou ao adicionar conteúdo dinâmico a uma página inicial.
@@ -341,15 +341,15 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  <tbody> 
   <tr> 
    <td> Filtros predefinidos<br /> </td> 
-   <td> Agora, os administradores podem criar filtros avançados que aparecem no editor de consultas na forma de regras pré-configuradas. Selecionar esses filtros permite que os usuários desenvolvam configurações complexas mais facilmente em uma interface simplificada ao definir um público-alvo, por exemplo.<br /> Para obter mais informações, consulte a documentação <a href="../../developing/using/configuring-filter-definition.md"></a>detalhada.<br /> </td> 
+   <td> Agora, os administradores podem criar filtros avançados que aparecem no editor de consultas na forma de regras pré-configuradas. Selecionar esses filtros permite que os usuários desenvolvam configurações complexas mais facilmente em uma interface simplificada ao definir um público-alvo, por exemplo.<br /><a href="../../developing/using/configuring-filter-definition.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Fluxos de trabalho: Serviços de assinatura<br /> </td> 
-   <td> Uma nova atividade dos Serviços <span class="uicontrol">de</span> assinatura oferece a possibilidade de assinar vários perfis para um serviço ou cancelar a assinatura de um serviço com em uma única ação.<br /> Essa atividade pode ser usada após ter realizado uma definição de metas ou importado um arquivo com dados identificados.<br /> Para obter mais informações, consulte a documentação <a href="../../automating/using/subscription-services.md"></a>detalhada.<br /> </td> 
+   <td> Uma nova atividade dos Serviços <span class="uicontrol">de</span> assinatura oferece a possibilidade de assinar vários perfis para um serviço ou cancelar a assinatura de um serviço com em uma única ação.<br /> Essa atividade pode ser usada após ter realizado uma definição de metas ou importado um arquivo com dados identificados.<br /><a href="../../automating/using/subscription-services.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Fluxos de trabalho: enriquecimento dos dados<br /> </td> 
-   <td> A guia Dados <span class="uicontrol"></span> adicionais agora está disponível em atividades do tipo <span class="uicontrol">Consulta</span> . Essa funcionalidade permite que você aprimore os dados direcionados pela consulta e transfira esses dados para as seguintes atividades de fluxo de trabalho onde eles podem ser explorados.<br /> Depois de adicionar dados adicionais, você pode aplicar um nível de filtro adicional aos dados direcionados inicialmente criando condições com base nos dados adicionais definidos.<br /> Para obter mais informações, consulte a documentação <a href="../../automating/using/query.md#enriching-data"></a>detalhada.<br /> </td> 
+   <td> A guia Dados <span class="uicontrol"></span> adicionais agora está disponível em atividades do tipo <span class="uicontrol">Consulta</span> . Essa funcionalidade permite que você aprimore os dados direcionados pela consulta e transfira esses dados para as seguintes atividades de fluxo de trabalho onde eles podem ser explorados.<br /> Depois de adicionar dados adicionais, você pode aplicar um nível de filtro adicional aos dados direcionados inicialmente criando condições com base nos dados adicionais definidos.<br /><a href="../../automating/using/query.md#enriching-data"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Ajuda contextual<br /> </td> 
@@ -358,7 +358,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  </tbody> 
 </table>
 
-### Patches {#patches-5}
+### Correções {#patches-5}
 
 #### Geral {#general-5}
 
@@ -371,7 +371,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 * O protocolo TLS agora é compatível com a entrega de email. Uma nova coluna no gerenciamento MX permite definir o comportamento TLS desejado para cada domínio.
 * A interface SMS foi aprimorada.
 
-#### Fluxos de trabalho {#workflows-3}
+#### Workflows {#workflows-3}
 
 * Várias interfaces de fluxo de trabalho Novos recursos.
 * Correção de um erro que ocorria ao exibir ações rápidas.
@@ -379,7 +379,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 * Correção de um erro que impedia a abertura das transições de um fluxo de trabalho em um dispositivo híbrido.
 * Correção de um erro que impedia a exibição do botão de pausa ao iniciar um fluxo de trabalho pela primeira vez.
 
-#### Editor de conteúdo {#content-editor}
+#### Content editor {#content-editor}
 
 * O editor de conteúdo agora permite que você personalize qualquer URL contido em um email ou página de aterrissagem. Consulte a documentação [](../../designing/using/personalization.md#personalizing-urls)detalhada.
 * Correção de um erro que resultava na perda de imagens quando adicionadas ao assistente de criação da entrega e seu conteúdo era modificado posteriormente.
@@ -393,7 +393,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 #### Mensagens transacionais {#transactional-messages-3}
 
 * A facilidade de utilização da interface, bem como o desempenho e a robustez do mecanismo de mensagens transacionais, foram otimizados.
-* É agora possível suspender temporariamente a publicação de um modelo de mensagem transacional. Para obter mais informações, consulte a documentação [](../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication)detalhada.
+* É agora possível suspender temporariamente a publicação de um modelo de mensagem transacional. For more on this, refer to the [detailed documentation](../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication).
 * Corrigido um erro que fazia com que um bloco de conteúdo com uma dimensão de definição de metas incompatível fosse adicionado a um modelo de mensagem transacional.
 * Correção de um erro que impedia a exibição da visualização da API em uma tela de configuração de evento.
 
@@ -419,20 +419,20 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  <tbody> 
   <tr> 
    <td> Interface e navegação<br /> </td> 
-   <td> A interface do Adobe Campaign foi aprimorada para tornar a navegação e as operações simples e intuitivas.<br /> Agora você navega na barra superior do aplicativo. Os menus avançados podem ser acessados selecionando o logotipo do <strong>Adobe Campaign</strong> .<br /> Para obter mais informações, consulte a documentação <a href="../../start/using/interface-description.md"></a>detalhada.<br /> </td> 
+   <td> A interface do Adobe Campaign foi aprimorada para tornar a navegação e as operações simples e intuitivas.<br /> Agora você navega na barra superior do aplicativo. Os menus avançados podem ser acessados selecionando o logotipo do <strong>Adobe Campaign</strong> .<br /><a href="../../start/using/interface-description.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Fluxos de trabalho: Salvar público-alvo<br /> </td> 
-   <td> Uma nova opção, <span class="uicontrol">Criar e atualizar um público</span> , agora está disponível na atividade <span class="uicontrol">Salvar público</span> . Essa opção permite que você insira manualmente um rótulo de público-alvo. Se o rótulo inserido corresponder a um público-alvo existente, ele será atualizado. Se o público-alvo não existir, ele será criado.<br /> Além disso, o público-alvo será atualizado sempre que o fluxo de trabalho for executado (novamente).<br /> Você sempre pode selecionar o modo de atualização de público-alvo: complete o público-alvo com novos dados ou substitua todos os dados do público-alvo em cada execução.<br /> Para obter mais informações, consulte a documentação <a href="../../automating/using/save-audience.md"></a>detalhada.<br /> </td> 
+   <td> Uma nova opção, <span class="uicontrol">Criar e atualizar um público</span> , agora está disponível na atividade <span class="uicontrol">Salvar público</span> . Essa opção permite que você insira manualmente um rótulo de público-alvo. Se o rótulo inserido corresponder a um público-alvo existente, ele será atualizado. Se o público-alvo não existir, ele será criado.<br /> Além disso, o público-alvo será atualizado sempre que o fluxo de trabalho for executado (novamente).<br /> Você sempre pode selecionar o modo de atualização de público-alvo: complete o público-alvo com novos dados ou substitua todos os dados do público-alvo em cada execução.<br /><a href="../../automating/using/save-audience.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Fluxos de trabalho: Segmentação<br /> </td> 
-   <td> A atividade de <span class="uicontrol">Segmentação</span> agora permite que o usuário segmente os dados de um recurso temporário.  Por exemplo: os dados de um arquivo importado.<br /> Para obter mais informações, consulte a documentação <a href="../../automating/using/segmentation.md"></a>detalhada.<br /> </td> 
+   <td> A atividade de <span class="uicontrol">Segmentação</span> agora permite que o usuário segmente os dados de um recurso temporário.  Por exemplo: os dados de um arquivo importado.<br /><a href="../../automating/using/segmentation.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-6}
+### Correções {#patches-6}
 
 #### Geral {#general-6}
 
@@ -444,7 +444,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 * Correção de um erro que impedia o acesso ao relatório de renderização de email.
 * O estágio preparar envio para uma mensagem agora retornará um erro se o endereço do remetente não for fornecido.
 
-#### Fluxos de trabalho {#workflows-4}
+#### Workflows {#workflows-4}
 
 * Algumas opções de formatação de arquivo estavam visíveis, mas não foram levadas em conta quando um arquivo de formato CSV foi extraído. Essas opções agora não estão mais visíveis.
 * Correção de um erro causado quando a opção **[!UICONTROL Delete the source files after transfer]** era verificada para uma transferência de arquivo de **[!UICONTROL SFTP]** tipo.
@@ -453,7 +453,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 * Correção de um erro que impedia a inserção de um campo de personalização em uma atividade de entrega de um fluxo de trabalho se o fluxo de trabalho não fosse salvo após a adição da atividade.
 * Correção de um erro que impedia a exibição da dimensão de direcionamento de transição de saída de uma atividade de entrega de email.
 
-#### Páginas iniciais {#landing-pages-2}
+#### Landing pages {#landing-pages-2}
 
 * Correção de um erro que impedia que os campos de personalização funcionassem corretamente em um bloco de conteúdo localizado em uma página inicial.
 
@@ -475,24 +475,24 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  <tbody> 
   <tr> 
    <td> Teste A/B para emails<br /> </td> 
-   <td> Agora você pode realizar testes A/B no conteúdo, assunto ou nome do remetente de seus emails. Essa nova funcionalidade pode testar até três variantes de um elemento.<br /> Ao criar um email a partir de um dos novos modelos específicos para testes A/B, uma nova etapa do assistente de criação permite que você defina os parâmetros do seu teste.<br /> Para obter mais informações, consulte a documentação <a href="../../channels/using/designing-an-a-b-test-email.md"></a>detalhada.<br /> </td> 
+   <td> Agora você pode realizar testes A/B no conteúdo, assunto ou nome do remetente de seus emails. Essa nova funcionalidade pode testar até três variantes de um elemento.<br /> Ao criar um email a partir de um dos novos modelos específicos para testes A/B, uma nova etapa do assistente de criação permite que você defina os parâmetros do seu teste.<br /><a href="../../channels/using/designing-an-a-b-test-email.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Gerenciamento de marcas<br /> </td> 
-   <td> Agora você pode definir uma ou várias marcas para inserir centralmente os parâmetros que afetam a identidade de uma marca. O Adobe Campaign permite que você crie essas marcas e as vincule aos modelos de página de entrega ou de aterrissagem.<br /> Para obter mais informações, consulte a documentação <a href="../../administration/using/branding.md#assigning-a-brand-to-an-email"></a>detalhada.<br /> </td> 
+   <td> Agora você pode definir uma ou várias marcas para inserir centralmente os parâmetros que afetam a identidade de uma marca. O Adobe Campaign permite que você crie essas marcas e as vincule aos modelos de página de entrega ou de aterrissagem.<br /><a href="../../administration/using/branding.md#assigning-a-brand-to-an-email"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Fluxos de trabalho: Consulta incremental<br /> </td> 
-   <td> Uma nova atividade de fluxo de trabalho, consulta <span class="uicontrol"></span> incremental, permite que você realize uma consulta que, em cada execução, direciona somente os novos resultados. Os resultados de execuções anteriores são excluídos automaticamente. Vinculado a uma atividade do <span class="uicontrol">Agendador</span> , você pode definir a frequência de execução da consulta <span class="uicontrol"></span> Incremental.<br /> Para obter mais informações, consulte a documentação <a href="../../automating/using/incremental-query.md"></a>detalhada.<br /> </td> 
+   <td> Uma nova atividade de fluxo de trabalho, consulta <span class="uicontrol"></span> incremental, permite que você realize uma consulta que, em cada execução, direciona somente os novos resultados. Os resultados de execuções anteriores são excluídos automaticamente. Vinculado a uma atividade do <span class="uicontrol">Agendador</span> , você pode definir a frequência de execução da consulta <span class="uicontrol"></span> Incremental.<br /><a href="../../automating/using/incremental-query.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Mensagens transacionais<br /> </td> 
-   <td> A facilidade de utilização da interface de mensagens transacionais foi melhorada. Atualmente, todo o gerenciamento de processos de negócios vinculado a mensagens transacionais está centralizado no menu Planos <span class="uicontrol">de</span> marketing &gt; Mensagens <span class="uicontrol"></span> transacionais. A configuração do evento também foi aprimorada. Os eventos agora são gerenciados independentemente dos recursos personalizados.<br /> Para obter mais informações, consulte a documentação <a href="../../channels/using/about-transactional-messaging.md"></a>detalhada.<br /> </td> 
+   <td> A facilidade de utilização da interface de mensagens transacionais foi melhorada. Atualmente, todo o gerenciamento de processos de negócios vinculado a mensagens transacionais está centralizado no menu Planos <span class="uicontrol">de</span> marketing &gt; Mensagens <span class="uicontrol"></span> transacionais. A configuração do evento também foi aprimorada. Os eventos agora são gerenciados independentemente dos recursos personalizados.<br /><a href="../../channels/using/about-transactional-messaging.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-7}
+### Correções {#patches-7}
 
 #### Geral {#general-7}
 
@@ -513,7 +513,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 
 * Corrigido um erro que impedia que a configuração de conteúdo dinâmico fosse considerada corretamente ao usar uma enumeração personalizada.
 
-#### Fluxos de trabalho {#workflows-5}
+#### Workflows {#workflows-5}
 
 * Correção de um erro que impedia a execução de qualquer ação em um fluxo de trabalho se houvesse uma linha vazia na **[!UICONTROL Fields to update]** guia de uma **[!UICONTROL Update data]** atividade.
 * Correção de um erro que impedia a importação de dados com informações geográficas/de unidades organizacionais.
@@ -545,11 +545,11 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  <tbody> 
   <tr> 
    <td> Relatórios<br /> </td> 
-   <td> Os seguintes relatórios específicos de email foram adicionados: <span class="uicontrol">Reclamações</span> , <span class="uicontrol">Aberturas</span> e <span class="uicontrol">Cancelamento de assinaturas</span> .<br /> Os seguintes relatórios foram aprimorados: Resumo <span class="uicontrol">da</span> entrega, resumo <span class="uicontrol">da</span> rejeição, throughput <span class="uicontrol">da</span> entrega e indicadores <span class="uicontrol">de</span> rastreamento.<br /> Para obter mais informações, consulte a documentação <a href="../../reporting/using/defining-the-report-period.md"></a>detalhada.<br /> </td> 
+   <td> Os seguintes relatórios específicos de email foram adicionados: <span class="uicontrol">Reclamações</span> , <span class="uicontrol">Aberturas</span> e <span class="uicontrol">Cancelamento de assinaturas</span> .<br /> Os seguintes relatórios foram aprimorados: Resumo <span class="uicontrol">da</span> entrega, resumo <span class="uicontrol">da</span> rejeição, throughput <span class="uicontrol">da</span> entrega e indicadores <span class="uicontrol">de</span> rastreamento.<br /><a href="../../reporting/using/defining-the-report-period.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Edição de consulta<br /> </td> 
-   <td> O editor de consultas foi aprimorado e agora permite que você digitalize os links do tipo <strong>1-N</strong> .<br /> Para obter mais informações, consulte a documentação <a href="../../automating/using/editing-queries.md#creating-queries"></a>detalhada.<br /> </td> 
+   <td> O editor de consultas foi aprimorado e agora permite que você digitalize os links do tipo <strong>1-N</strong> .<br /><a href="../../automating/using/editing-queries.md#creating-queries"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Personalização de conteúdo<br /> </td> 
@@ -557,16 +557,16 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
   </tr> 
   <tr> 
    <td> Fluxos de trabalho: definição de coluna ao importar<br /> </td> 
-   <td> A atividade <span class="uicontrol">Carregar arquivo</span> agora permite configurar as colunas de um arquivo importado em detalhes: tipo de dados esperado, formato de data e hora, processamento a ser aplicado no caso de um valor vazio ou um erro e mapeamento de valor.<br /> Para obter mais informações, consulte a documentação <a href="../../automating/using/load-file.md#column-format"></a>detalhada.<br /> </td> 
+   <td> A atividade <span class="uicontrol">Carregar arquivo</span> agora permite configurar as colunas de um arquivo importado em detalhes: tipo de dados esperado, formato de data e hora, processamento a ser aplicado no caso de um valor vazio ou um erro e mapeamento de valor.<br /><a href="../../automating/using/load-file.md#column-format"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Mapeamento de codificações SMS<br /> </td> 
-   <td> Agora é possível definir mapeamentos de codificações de mensagens SMS personalizadas para provedores que não usam codificação padrão. Um administrador pode realizar a configuração de mapeamentos personalizados e definir a ordem em que eles devem ser levados em conta.<br /> Para obter mais informações, consulte a documentação <a href="../../administration/using/configuring-sms-channel.md#smsc-specifics"></a>detalhada.<br /> </td> 
+   <td> Agora é possível definir mapeamentos de codificações de mensagens SMS personalizadas para provedores que não usam codificação padrão. Um administrador pode realizar a configuração de mapeamentos personalizados e definir a ordem em que eles devem ser levados em conta.<br /><a href="../../administration/using/configuring-sms-channel.md#smsc-specifics"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-8}
+### Correções {#patches-8}
 
 #### Geral {#general-8}
 
@@ -593,7 +593,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 * Correção de um erro que ocorria quando um valor padrão era definido para uma lista de **inteiros** que não incluía **0** em seu intervalo de valores possíveis.
 * Correção de um erro que impedia a adição de um elemento na configuração de tela detalhada de um recurso personalizado após uma reinicialização.
 
-#### Fluxos de trabalho {#workflows-6}
+#### Workflows {#workflows-6}
 
 * Corrigido um erro que fazia com que os registros de todas as atividades em um fluxo de trabalho fossem exibidos em vez de apenas os da atividade selecionada.
 * Corrigido um erro na **[!UICONTROL Scheduler]** atividade. A **[!UICONTROL Day of the month]** opção não foi corretamente considerada e substituída por **[!UICONTROL Week day]** .
@@ -611,7 +611,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 
 * Correção de um erro que resultava na exibição indesejável de um ícone ou de uma barra de pesquisa ao editar o conteúdo.
 
-#### Páginas iniciais {#landing-pages-3}
+#### Landing pages {#landing-pages-3}
 
 * Correção de um erro que impedia a importação de uma página inicial por meio de uma importação de pacote.
 
@@ -633,8 +633,8 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  </thead> 
  <tbody> 
   <tr> 
-   <td> Canal SMS<br /> </td> 
-   <td> Agora você pode enviar mensagens SMS com o Adobe Campaign.<br /> Assim como para emails, você pode criar novas entregas de SMS de suas campanhas e da lista de atividades de marketing. Você também pode criar mensagens SMS recorrentes e de envio únicas a partir de um fluxo de trabalho.<br /> Essas entregas de SMS são baseadas em modelos que você pode configurar na lista de modelos de entrega. Um modelo padrão está disponível.<br /> Essas entregas SMS usam o protocolo SMPP 3.4, usado pela maioria dos roteadores SMS.<br /> Para obter mais informações, consulte a documentação <a href="../../channels/using/about-sms-messages.md"></a>detalhada.<br /> </td> 
+   <td> SMS Channel<br /> </td> 
+   <td> Agora você pode enviar mensagens SMS com o Adobe Campaign.<br /> Assim como para emails, você pode criar novas entregas de SMS de suas campanhas e da lista de atividades de marketing. Você também pode criar mensagens SMS recorrentes e de envio únicas a partir de um fluxo de trabalho.<br /> Essas entregas de SMS são baseadas em modelos que você pode configurar na lista de modelos de entrega. Um template padrão está disponível.<br /> Essas entregas SMS usam o protocolo SMPP 3.4, usado pela maioria dos roteadores SMS.<br /><a href="../../channels/using/about-sms-messages.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Explorar transições<br /> </td> 
@@ -646,7 +646,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
   </tr> 
   <tr> 
    <td> Relatórios de entregabilidade<br /> </td> 
-   <td> Um relatório de renderização de email está disponível. Este relatório permite que você visualize as diferentes renderizações de uma mensagem de acordo com o serviço de suporte e mensagem usado para lê-la.<br /> O resumo do relatório também apresenta o número de mensagens recebidas, mensagens de spam, mensagens não recebidas e mensagens que aguardam recepção.<br /> Para obter mais informações, consulte a documentação <a href="../../sending/using/email-rendering.md#email-rendering-report-description"></a>detalhada.<br /> </td> 
+   <td> Um relatório de renderização de email está disponível. Este relatório permite que você visualize as diferentes renderizações de uma mensagem de acordo com o serviço de suporte e mensagem usado para lê-la.<br /> O resumo do relatório também apresenta o número de mensagens recebidas, mensagens de spam, mensagens não recebidas e mensagens que aguardam recepção.<br /><a href="../../sending/using/email-rendering.md#email-rendering-report-description"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Gerenciamento de pacotes<br /> </td> 
@@ -659,7 +659,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  </tbody> 
 </table>
 
-### Patches {#patches-9}
+### Correções {#patches-9}
 
 #### Geral {#general-9}
 
@@ -667,7 +667,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 * **Os dados flutuantes** agora são corretamente levados em conta nos recursos personalizados.
 * Correção de um erro de exibição na lista de importações simplificadas executadas que era causado quando o status do modelo correspondente era modificado.
 
-#### Páginas iniciais {#landing-pages-4}
+#### Landing pages {#landing-pages-4}
 
 * Correção de certos elementos de modelos de página inicial que podiam ser exibidos incorretamente em francês em instâncias em inglês.
 
@@ -678,7 +678,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 * Correção de um erro que poderia impedir que os públicos-alvo fossem filtrados ao definir uma consulta.
 * Correção de um erro que poderia impedir o cancelamento de uma ação em um público-alvo.
 
-#### Fluxos de trabalho {#workflows-7}
+#### Workflows {#workflows-7}
 
 * Corrigido um erro que impedia que os campos que deveriam ser atualizados em uma **[!UICONTROL Update data]** atividade fossem configurados manualmente.
 * Corrigido um erro que fazia com que a **[!UICONTROL Query]** atividade fosse carregada infinitamente quando aberta se o fluxo de trabalho não tivesse sido salvo depois de ter colocado a atividade no diagrama.
@@ -692,7 +692,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 * Correção de um erro que impedia que coleções heterogêneas de atividades fossem duplicadas em um fluxo de trabalho.
 * Correção de um erro que impedia a exibição do SQL, permitindo assim que erros fossem diagnosticados para uma entrega recorrente em um fluxo de trabalho.
 
-#### Editor de conteúdo {#content-editor-1}
+#### Content editor {#content-editor-1}
 
 * Corrigido um erro que tornava impossível a pesquisa no código fonte de uma página de aterrissagem ou email.
 
@@ -716,11 +716,11 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  <tbody> 
   <tr> 
    <td> Fluxos de trabalho: Atividade de desduplicação<br /> </td> 
-   <td> Uma nova atividade dedicada à desduplicação de dados agora está disponível nos fluxos de trabalho. Essa atividade permite que você filtre quaisquer duplicatas em seus destinos de acordo com seus critérios escolhidos.<br /> Para obter mais informações, consulte a documentação <a href="../../automating/using/deduplication.md"></a>detalhada.<br /> </td> 
+   <td> Uma nova atividade dedicada à desduplicação de dados agora está disponível nos fluxos de trabalho. Essa atividade permite que você filtre quaisquer duplicatas em seus destinos de acordo com seus critérios escolhidos.<br /><a href="../../automating/using/deduplication.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Fluxos de trabalho: Diagrama aprimorado<br /> </td> 
-   <td> Na área de trabalho do fluxo de trabalho, agora é possível usar vários atalhos do teclado para selecionar, abrir e excluir atividades.<br /> O alinhamento da atividade também foi aprimorado e permite que um fluxo de trabalho seja melhor organizado visualmente.<br /> Para obter mais informações, consulte a documentação <a href="../../automating/using/workflow-interface.md#workspace"></a>detalhada.<br /> </td> 
+   <td> Na área de trabalho do fluxo de trabalho, agora é possível usar vários atalhos do teclado para selecionar, abrir e excluir atividades.<br /> O alinhamento da atividade também foi aprimorado e permite que um fluxo de trabalho seja melhor organizado visualmente.<br /><a href="../../automating/using/workflow-interface.md#workspace"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Fluxos de trabalho: Extrair atividade de arquivo<br /> </td> 
@@ -737,7 +737,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  </tbody> 
 </table>
 
-### Patches {#patches-10}
+### Correções {#patches-10}
 
 #### Email {#email}
 
@@ -750,7 +750,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 * Corrigido um erro causado durante uma contagem de público-alvo se um link 1-N fosse usado na consulta.
 * Corrigido um erro que impedia que um perfil fosse selecionado no público-alvo de uma entrega de email.
 
-#### Fluxos de trabalho {#workflows-8}
+#### Workflows {#workflows-8}
 
 * Corrigido um erro que causava problemas de exibição ao configurar uma entrega de email em um fluxo de trabalho.
 * Corrigido um erro que podia impedir que a **[!UICONTROL Load file]** atividade funcionasse corretamente. Uma mensagem de erro em branco será exibida.
@@ -766,7 +766,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 * Correção de um erro que resultava em um atraso de 15 minutos para certos registros serem gravados.
 * Correção de um erro que poderia impedir que a lista de atividades de marketing fosse exibida quando classificada pelas **[!UICONTROL Date]** colunas ou **[!UICONTROL Indicators]** .
 
-#### Páginas iniciais {#landing-pages-5}
+#### Landing pages {#landing-pages-5}
 
 * Correção de um erro que ocorria ao selecionar um perfil de teste para visualizar uma página inicial.
 
@@ -778,7 +778,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 
 * Corrigido um erro que fazia com que dados incorretos fossem enviados para os relatórios **[!UICONTROL deliveryThroughputReport]** e **[!UICONTROL deliveryTrackingReport]** .
 
-#### Editor de conteúdo {#content-editor-2}
+#### Content editor {#content-editor-2}
 
 * Correção de um erro do gerenciamento de tags HTML que ocorria ao processar blocos de conteúdo dinâmico.
 
@@ -796,7 +796,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  <tbody> 
   <tr> 
    <td> Importação de dados simplificada<br /> </td> 
-   <td> Agora é possível importar dados de uma maneira simplificada.<br /> Os usuários simplesmente selecionam um modelo predefinido por um administrador e carregam o arquivo que contém os dados a serem importados. Um fluxo de trabalho definido no modelo é executado de forma transparente para o usuário, que pode acessar os detalhes do resultado da importação, bem como um log de quaisquer erros.<br /> Os dados desses arquivos podem ser inseridos no banco de dados ou servir como um meio para criar diretamente um público-alvo.<br /> Para obter mais informações, consulte a documentação <a href="../../automating/using/about-data-import-and-export.md"></a>detalhada.<br /> </td> 
+   <td> Agora é possível importar dados de uma maneira simplificada.<br /> Os usuários simplesmente selecionam um modelo predefinido por um administrador e carregam o arquivo que contém os dados a serem importados. Um fluxo de trabalho definido no modelo é executado de forma transparente para o usuário, que pode acessar os detalhes do resultado da importação, bem como um log de quaisquer erros.<br /> Os dados desses arquivos podem ser inseridos no banco de dados ou servir como um meio para criar diretamente um público-alvo.<br /><a href="../../automating/using/about-data-import-and-export.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Criação de programas e campanhas<br /> </td> 
@@ -804,7 +804,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
     <ul> 
      <li> D+186 para programas </li> 
      <li> D+61 para campanhas </li> 
-    </ul>  Para obter mais informações, consulte a documentação <a href="../../start/using/programs-and-campaigns.md"></a>detalhada.<br /> </td> 
+    </ul> Para obter mais informações, consulte a <a href="../../start/using/programs-and-campaigns.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Email<br /> </td> 
@@ -812,22 +812,22 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
   </tr> 
   <tr> 
    <td> Mensagens transacionais<br /> </td> 
-   <td> Agora você pode gerenciar mensagens transacionais personalizadas para eventos como alterações de senha ou confirmações após a criação de uma conta.<br /> Para obter mais informações, consulte a documentação <a href="../../channels/using/about-transactional-messaging.md"></a>detalhada.<br /> </td> 
+   <td> Agora você pode gerenciar mensagens transacionais personalizadas para eventos como alterações de senha ou confirmações após a criação de uma conta.<br /><a href="../../channels/using/about-transactional-messaging.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Recursos personalizados<br /> </td> 
-   <td> Várias funcionalidades adicionadas, como: extensão de um perfil de teste, gerenciamento de status e exclusão de recursos.<br /> Para obter mais informações, consulte a documentação <a href="../../developing/using/resource-statuses.md"></a>detalhada.<br /> </td> 
+   <td> Várias funcionalidades adicionadas, como: extensão de um perfil de teste, gerenciamento de status e exclusão de recursos.<br /><a href="../../developing/using/resource-statuses.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-11}
+### Correções {#patches-11}
 
 #### Exibir {#display}
 
 * Correção de um erro que resultava na justaposição de dois campos no editor de consulta no Safari.
 
-#### Editor de conteúdo {#content-editor-3}
+#### Content editor {#content-editor-3}
 
 * Correção de um erro que impedia que os caracteres '&lt;', '&amp;' e '&gt;' fossem usados em um assunto de email.
 
@@ -843,7 +843,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 
 * Correção de um erro que resultava em uma confirmação dupla de quando um elemento era duplicado ou excluído. **Dispositivos híbridos usando apenas** o Internet Explorer 11.
 
-#### Fluxos de trabalho {#workflows-9}
+#### Workflows {#workflows-9}
 
 * Correção de um erro que impedia o envio de emails de um fluxo de trabalho.
 * Correção de um erro que impedia a execução de um fluxo de trabalho quando o nome do arquivo de rejeição não era especificado em uma **[!UICONTROL Load file]** atividade.
@@ -879,7 +879,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
   </tr> 
   <tr> 
    <td> Editor de conteúdo digital - Conteúdo dinâmico<br /> </td> 
-   <td> A interface de conteúdo dinâmico foi aprimorada. As setas agora aparecem para permitir que você navegue entre os diferentes conteúdos dinâmicos, diretamente no corpo do email.<br /> Para obter mais informações sobre como usar essa funcionalidade, consulte a documentação <a href="../../channels/using/defining-dynamic-content-in-a-landing-page.md"></a>detalhada.<br /> </td> 
+   <td> A interface de conteúdo dinâmico foi aprimorada. As setas agora aparecem para permitir que você navegue entre os diferentes conteúdos dinâmicos, diretamente no corpo do email.<br /> Para obter mais informações sobre como usar essa funcionalidade, consulte a documentação <a href="../../designing/using/personalization.md#defining-dynamic-content-in-an-email"></a>detalhada.<br /> </td> 
   </tr> 
   <tr> 
    <td> Editor de conteúdo digital - Texto dinâmico<br /> </td> 
@@ -888,7 +888,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
      <li> em um assunto de email, </li> 
      <li> no modo HTML, </li> 
      <li> ou no modo Texto. </li> 
-    </ul> Para obter mais informações sobre como usar essa funcionalidade, consulte a documentação <a href="../../channels/using/defining-dynamic-text.md"></a>detalhada.<br /> </td> 
+    </ul>  Para obter mais informações sobre como usar essa funcionalidade, consulte a documentação <a href="../../channels/using/defining-dynamic-text.md"></a>detalhada.<br /> </td> 
   </tr> 
   <tr> 
    <td> Programas e campanhas - Relatórios<br /> </td> 
@@ -897,13 +897,13 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  </tbody> 
 </table>
 
-### Patches {#patches-12}
+### Correções {#patches-12}
 
 #### Instalação {#installation}
 
 * Os nomes de instância do Adobe Campaign agora estão limitados a 32 caracteres.
 
-#### Fluxos de trabalho {#workflows-10}
+#### Workflows {#workflows-10}
 
 * Correção de um erro que poderia impedir o direcionamento de um recurso de "entrega" ao editar uma consulta em um fluxo de trabalho.
 * Correção de um erro que poderia impedir que determinados recursos vinculados fossem processados ao editar uma consulta em um fluxo de trabalho.
@@ -913,11 +913,11 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 
 * Correção de um erro que impedia a verificação de erros de sintaxe JavaScript antes do envio de um email quando um conteúdo dinâmico era adicionado pelo editor de expressões.
 
-#### Páginas iniciais {#landing-pages-6}
+#### Landing pages {#landing-pages-6}
 
 * Correção de um erro que impedia a edição de uma página inicial de um tablet.
 
-#### Serviço principal de ativos {#assets-core-service}
+#### Assets Core Service {#assets-core-service}
 
 * Ao selecionar um recurso compartilhado de um email ou página de aterrissagem que está sendo editada, a lista de recursos disponíveis agora é filtrada para o Adobe Campaign.
 
@@ -958,12 +958,12 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
    <td> O menu <span class="uicontrol">Desenvolvimento</span> agora permite que os usuários com direitos administrativos aprimorem os modelos de dados fornecidos criando seus próprios recursos personalizados, como tabelas de produtos ou compras. <br /> Os recursos predefinidos também podem ser estendidos para adicionar novos campos a eles.<br /> Além disso, a navegação nas telas correspondentes a recursos personalizados novos ou estendidos pode ser configurada.<br /> Consulte a documentação <a href="../../developing/using/data-model-concepts.md"></a>detalhada.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Testar perfis<br /> </td> 
+   <td> Test profiles<br /> </td> 
    <td> O nome <strong>do</strong> meio e o <strong>título</strong> dos perfis de teste agora podem ser selecionados ao configurar a lista de perfis de teste.<br /> </td> 
   </tr> 
   <tr> 
    <td> Editor de conteúdo: Conteúdo dinâmico<br /> </td> 
-   <td> Você pode definir conteúdos diferentes que serão exibidos dinamicamente para o usuário de acordo com as condições definidas pelo editor de expressões.<br /> Consulte a documentação <a href="../../channels/using/defining-dynamic-content-in-a-landing-page.md"></a>detalhada.<br /> </td> 
+   <td> Você pode definir conteúdos diferentes que serão exibidos dinamicamente para o usuário de acordo com as condições definidas pelo editor de expressões.<br /> Consulte a documentação <a href="../../designing/using/personalization.md#defining-dynamic-content-in-an-email"></a>detalhada.<br /> </td> 
   </tr> 
   <tr> 
    <td> Email<br /> </td> 
@@ -972,7 +972,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  </tbody> 
 </table>
 
-### Patches {#patches-13}
+### Correções {#patches-13}
 
 #### Listas {#lists-1}
 
@@ -992,12 +992,12 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 * Corrigido um erro que impedia que os botões **[!UICONTROL Edit properties]** e **[!UICONTROL Show proofs]** fossem usados em tablets do Microsoft Surface Pro3 usando o Internet Explorer 11.
 * Correção de um erro que impedia a exibição dos registros de envio de email.
 
-#### Páginas iniciais {#landing-pages-7}
+#### Landing pages {#landing-pages-7}
 
 * Corrigido um erro que impedia que o bloco de conteúdo do logotipo **da** Marca fosse usado ao editar conteúdo em uma página de aterrissagem.
 * Correção de um erro que impedia a exibição de páginas iniciais na lista de atividades de marketing se as datas de validade fossem especificadas para a página inicial.
 
-#### Fluxos de trabalho {#workflows-11}
+#### Workflows {#workflows-11}
 
 * Correção de um erro que impedia que a limitação de um segmento no modo de grupo funcionasse corretamente ao configurar uma atividade de **Segmentação** .
 * Correção de um erro que impedia a seleção de uma transição após a configuração de uma atividade de **Segmentação** .
@@ -1057,7 +1057,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
   </tr> 
   <tr> 
    <td> Editor de conteúdo digital: Seletor de <strong>bloco</strong><br /> </td> 
-   <td> Quando um bloco é selecionado no editor de conteúdo HTML, uma navegação estrutural é exibida na parte inferior da zona de edição. Isso permite que você navegue e selecione elementos diferentes facilmente.<br /> Consulte a documentação <a href="../../channels/using/managing-landing-page-structure-and-style.md"></a>detalhada.<br /> </td> 
+   <td> Quando um bloco é selecionado no editor de conteúdo HTML, uma navegação estrutural é exibida na parte inferior da zona de edição. Isso permite que você navegue e selecione elementos diferentes facilmente.<br /> Consulte a documentação <a href="../../channels/using/designing-a-landing-page.md#managing-landing-page-structure-and-style"></a>detalhada.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1089,7 +1089,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  </tbody> 
 </table>
 
-### Patches {#patches-14}
+### Correções {#patches-14}
 
 #### Geral {#general-10}
 
