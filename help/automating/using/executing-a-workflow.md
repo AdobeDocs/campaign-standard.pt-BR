@@ -1,38 +1,38 @@
 ---
-title: Execução de um fluxo de trabalho
-seo-title: Execução de um fluxo de trabalho
-description: Execução de um fluxo de trabalho
+title: Execução de um workflow
+seo-title: Execução de um workflow
+description: Execução de um workflow
 seo-description: Saiba como executar e monitorar um fluxo de trabalho.
 page-status-flag: nunca ativado
-uuid: ff 02 b 74 e -53 e 8-49 c 6-bf 8 e -0 c 729 eaa 7 d 25
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automatizando
-content-type: reference
-topic-tags: fluxo de trabalho-geral-operação
-discoiquuid: 906 c 85 ea -83 b 7-4268-86 da-cd 353 f 1 dc 591
-context-tags: fluxo de trabalho, visão geral; fluxo de trabalho, principal
+uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: automatização
+content-type: referência
+topic-tags: fluxo de trabalho geral-operação
+discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
+context-tags: fluxo de trabalho,visão geral;fluxo de trabalho,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e33cbfbf6376dabfe81b9bd6f7cce817f35d1b75
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
 
-# Executing a workflow{#executing-a-workflow}
+# Execução de um workflow{#executing-a-workflow}
 
-## About workflow execution {#about-workflow-execution}
+## Sobre a execução do fluxo de trabalho {#about-workflow-execution}
 
-Um fluxo de trabalho sempre é iniciado manualmente. However, once started, it can remain inactive, depending on the information specified in a [Scheduler](../../automating/using/scheduler.md) activity.
+Um workflow é sempre iniciado manualmente. No entanto, uma vez iniciado, ele pode permanecer inativo, dependendo das informações especificadas em uma atividade do [Agendador](../../automating/using/scheduler.md) .
 
 >[!CAUTION]
 >
-> A Adobe recomenda que os clientes priorizem as execuções do fluxo de trabalho e sejam executados até vinte execuções de fluxo de trabalho simultâneo para atingir o desempenho máximo em toda a sua instância. Mais de vinte execuções simultâneas de fluxo de trabalho podem ser planejadas e executadas sequencialmente por padrão. Você pode ajustar as configurações padrão para o número máximo de execuções simultâneas de fluxos de trabalho enviando um ticket para o Atendimento ao cliente.
+> A Adobe recomenda que os clientes priorizem execuções de fluxo de trabalho e executem até 20 execuções simultâneas de fluxo de trabalho para atingir de forma consistente o desempenho máximo em sua instância. Mais de vinte execuções de fluxo de trabalho simultâneas podem ser planejadas e serão executadas sequencialmente por padrão. Você pode ajustar as configurações padrão para o número máximo de execuções simultâneas de fluxo de trabalho enviando um ticket para o Atendimento ao cliente.
 
-Ações relacionadas a execução (iniciar, parar, pausar etc.) are **asynchronous** processes: the command is saved and will become effective once the server is available to apply it.
+Ações relacionadas à execução (iniciar, parar, pausar etc.) são processos **assíncronos** : o comando é salvo e entrará em vigor assim que o servidor estiver disponível para aplicá-lo.
 
-Em um fluxo de trabalho, o resultado de cada atividade é geralmente enviado para a seguinte atividade por uma transição, representada por uma seta.
+Em um fluxo de trabalho, o resultado de cada atividade geralmente é enviado para a seguinte atividade por meio de uma transição, representada por uma seta.
 
 Uma transição não será encerrada se não estiver vinculada a uma atividade de destino.
 
@@ -40,221 +40,221 @@ Uma transição não será encerrada se não estiver vinculada a uma atividade d
 
 >[!NOTE]
 >
->Um fluxo de trabalho contendo transições não finalizadas ainda pode ser executado: uma mensagem de aviso será gerada e o fluxo de trabalho pausará uma vez que chegar à transição, mas isso não gerará um erro. Também é possível iniciar um fluxo de trabalho sem concluir completamente o design e você pode concluí-lo conforme você avançar.
+>Um fluxo de trabalho que contém transições não terminadas ainda pode ser executado: uma mensagem de aviso será gerada e o fluxo de trabalho pausará assim que chegar à transição, mas isso não gerará um erro. Você também pode iniciar um fluxo de trabalho sem ter concluído completamente o design e pode concluí-lo conforme progride.
 
-Após a execução de uma atividade, o número de registros enviados na transição é exibido acima dele.
+Depois que uma atividade é executada, o número de registros enviados na transição é exibido acima dela.
 
 ![](assets/wkf_transition_count.png)
 
-É possível abrir transições para verificar se os dados enviados estão corretos durante ou depois de executar o fluxo de trabalho. É possível exibir os dados e a estrutura dos dados.
+Você pode abrir transições para verificar se os dados enviados estão corretos durante ou após a execução do fluxo de trabalho. É possível exibir os dados e a estrutura de dados.
 
-Por padrão, somente os detalhes da última transição do fluxo de trabalho podem ser acessados. To be able to access the results of the preceding activities, you need to check the **[!UICONTROL Keep interim results]** option in the **[!UICONTROL Execution]** section of the workflow properties, before starting the workflow.
+Por padrão, somente os detalhes da última transição do fluxo de trabalho podem ser acessados. Para poder acessar os resultados das atividades anteriores, é necessário verificar a opção **[!UICONTROL Keep interim results]** na seção **[!UICONTROL Execution]** das propriedades do fluxo de trabalho antes de iniciar o fluxo de trabalho.
 
 >[!NOTE]
 >
->Essa opção consome muita memória e é projetada para ajudar a construir um fluxo de trabalho e garantir que esteja configurado corretamente e se comporte. Deixe desmarcada em instâncias de produção.
+>Essa opção consome muita memória e foi projetada para ajudar a construir um fluxo de trabalho e garantir que ele esteja configurado e se comportando corretamente. Deixe-o desmarcado em instâncias de produção.
 
-When a transition is open, you can edit its **[!UICONTROL Label]** or link a **[!UICONTROL Segment code]** to it. Para fazer isso, edite os campos correspondentes e confirme suas modificações.
+Quando uma transição estiver aberta, você poderá editar sua transição **[!UICONTROL Label]** ou vincular uma **[!UICONTROL Segment code]** a ela. Para fazer isso, edite os campos correspondentes e confirme suas modificações.
 
-## Controlling a workflow from the REST API {#controlling-a-workflow-from-the-rest-api}
+## Controle de um fluxo de trabalho da REST API {#controlling-a-workflow-from-the-rest-api}
 
-Using the REST API, you can **start**, **pause**, **resume** and **stop** a workflow.
+Usando a REST API, você pode **iniciar**, **pausar**, **retomar** e **parar** um fluxo de trabalho.
 
-You can find more details and examples of REST calls in the [API documentation.](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#controlling-a-workflow)
+Você pode encontrar mais detalhes e exemplos de chamadas REST na documentação da [API.](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#controlling-a-workflow)
 
-## Life cycle {#life-cycle}
+## Ciclo de vida {#life-cycle}
 
-O ciclo de vida do fluxo de trabalho inclui três etapas principais e cada etapa está vinculada a um status e uma cor:
+O ciclo de vida de um fluxo de trabalho inclui três etapas principais e cada etapa está vinculada a um status e a uma cor:
 
 * **Edição** (cinza)
 
-   This is the initial design phase of a workflow (refer to [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow)). O fluxo de trabalho ainda não é manipulado pelo servidor e pode ser modificado sem qualquer risco.
+   Esta é a fase de design inicial de um fluxo de trabalho (consulte [Criação de um fluxo de trabalho](../../automating/using/building-a-workflow.md#creating-a-workflow)). O fluxo de trabalho ainda não é manipulado pelo servidor e pode ser modificado sem nenhum risco.
 
 * **Em andamento** (azul)
 
-   Quando a fase inicial do design for concluída, o fluxo de trabalho poderá ser iniciado e manipulado pelo servidor.
+   Quando a fase de design inicial estiver concluída, o fluxo de trabalho poderá ser iniciado e será manipulado pelo servidor.
 
 * **Concluído** (verde)
 
-   Um fluxo de trabalho é concluído depois que não há mais tarefas em andamento ou quando um operador parou explicitamente a instância.
+   Um fluxo de trabalho é concluído quando não há mais nenhuma tarefa em andamento ou quando um operador parou explicitamente a instância.
 
-Uma vez iniciada, um fluxo de trabalho também pode ter dois outros status:
+Depois de iniciado, um fluxo de trabalho também pode ter dois outros status:
 
 * **Aviso** (amarelo)
 
-   The workflow could not finish or was paused using the ![](assets/pause_darkgrey-24px.png) or ![](assets/check_pause_darkgrey-24px.png) buttons.
+   O fluxo de trabalho não pôde ser concluído ou foi pausado usando os ![](assets/pause_darkgrey-24px.png) botões ou ![](assets/check_pause_darkgrey-24px.png) .
 
-* **Errôneo** (vermelho)
+* **Errado** (vermelho)
 
-   Um erro ocorria quando um fluxo de trabalho era executado. O fluxo de trabalho foi interrompido e o usuário deve executar uma ação. To find out more about this error, use the ![](assets/printpreview_darkgrey-24px.png) button to access the workflow log (refer to [Monitoring](../../automating/using/executing-a-workflow.md#monitoring)).
+   Ocorreu um erro quando um fluxo de trabalho foi executado. O fluxo de trabalho foi interrompido e o usuário deve executar uma ação. Para saber mais sobre esse erro, use o ![](assets/printpreview_darkgrey-24px.png) botão para acessar o log do fluxo de trabalho (consulte [Monitoramento](../../automating/using/executing-a-workflow.md#monitoring)).
 
-A lista de atividades de marketing permite exibir todos os fluxos de trabalho e seus status. For more on this, see [Managing marketing activities](../../start/using/marketing-activities.md#about-marketing-activities).
+A lista de atividades de marketing permite que você exiba todos os fluxos de trabalho e seus status. Para obter mais informações, consulte [Gerenciamento de atividades](../../start/using/marketing-activities.md#about-marketing-activities)de marketing.
 
 ![](assets/wkf_execution_3.png)
 
-## Execution commands {#execution-commands}
+## Comandos de execução {#execution-commands}
 
-Os ícones na barra de ação permitem iniciar, rastrear e modificar a execução de um fluxo de trabalho. See [Action bar](../../automating/using/workflow-interface.md#action-bar).
+Os ícones na barra de ações permitem iniciar, rastrear e modificar a execução de um fluxo de trabalho. Consulte Barra [de ação](../../automating/using/workflow-interface.md#action-bar).
 
 ![](assets/wkf_execution_2.png)
 
-As ações disponíveis são as seguintes:
+As opções disponíveis são as seguintes:
 
 **Início**
 
-The ![](assets/play_darkgrey-24px.png) button starts executing a workflow, which then takes on the **In progress** (blue) status. Se o fluxo de trabalho foi pausado, ele é retomado; caso contrário, ele será iniciado e as atividades iniciais serão ativadas.
+O ![](assets/play_darkgrey-24px.png) botão inicia a execução de um fluxo de trabalho, que assume o status **Em andamento** (azul). Se o fluxo de trabalho foi pausado, ele será retomado, caso contrário, ele será iniciado e as atividades iniciais serão ativadas.
 
 >[!NOTE]
 >
->Início é um processo assíncrono: a solicitação é salva e será processada assim que possível pelo mecanismo de execução do fluxo de trabalho.
+>O início é um processo assíncrono: a solicitação é salva e será processada o mais rápido possível pelo mecanismo de execução do fluxo de trabalho.
 
 **Pausar**
 
-The ![](assets/pause_darkgrey-24px.png) button pauses the execution. The workflow takes on the **Warning** (yellow) status. Nenhuma atividade nova será ativada até que seja retomada, mas as operações em andamento não serão suspensas.
+O ![](assets/pause_darkgrey-24px.png) botão pausa a execução. O fluxo de trabalho assume o status **Aviso** (amarelo). Nenhuma nova atividade será ativada até que seja retomada, mas as operações em andamento não serão suspensas.
 
 **Parar**
 
-The ![](assets/stop_darkgrey-24px.png) button stops a workflow that is being executed, which will then take on the **Finished** (green) status. As operações em andamento são interrompidas se possível, e as importações ou consultas SQL em andamento são canceladas imediatamente. Não é possível retomar a partir do fluxo de trabalho a partir do mesmo local em que foi interrompido.
+O ![](assets/stop_darkgrey-24px.png) botão para um fluxo de trabalho que está sendo executado, que assumirá o status **Concluído** (verde). As operações em andamento são interrompidas, se possível, e as importações ou consultas SQL em andamento são imediatamente canceladas. Não é possível retomar do fluxo de trabalho a partir do mesmo local em que ele foi interrompido.
 
 **Reiniciar**
 
-The ![](assets/pauseplay_darkgrey-24px.png) button involves stopping, then restarting a workflow. Na maioria dos casos, isso permite reiniciar mais rápido. It can also be useful to automate restarting once stopping takes a certain amount of time, because the ![](assets/play_darkgrey-24px.png) button is only available when the stop is effective.
+O ![](assets/pauseplay_darkgrey-24px.png) botão envolve parar e reiniciar um fluxo de trabalho. Na maioria dos casos, isso permite reiniciar mais rapidamente. Também pode ser útil automatizar a reinicialização depois que a interrupção levar um determinado tempo, pois o ![](assets/play_darkgrey-24px.png) botão só estará disponível quando a interrupção for efetiva.
 
-Quando uma ou várias atividades em um fluxo de trabalho são selecionadas, há outras ações que podem ser executadas, como:
+Quando uma ou várias atividades em um fluxo de trabalho são selecionadas, há outras ações que você pode realizar, como:
 
 **Execução imediata**
 
-The ![](assets/pending_darkgrey-24px.png) button starts any pending activities selected as soon as possible.
+O ![](assets/pending_darkgrey-24px.png) botão inicia quaisquer atividades pendentes selecionadas o mais rápido possível.
 
 **Execução normal**
 
-The ![](assets/check_darkgrey-24px.png) button reactivates any paused or deactivated activities.
+O ![](assets/check_darkgrey-24px.png) botão reativa todas as atividades pausadas ou desativadas.
 
 **Execução suspensa**
 
-The ![](assets/check_pause_darkgrey-24px.png) button pauses the workflow at the selected activity: this task as well as all those that follow it (in the same branch) are not executed.
+O ![](assets/check_pause_darkgrey-24px.png) botão pausa o fluxo de trabalho na atividade selecionada: esta tarefa, bem como todos os que a sucedem (na mesma ramificação) não são executados.
 
 **Nenhuma execução**
 
-The ![](assets/checkdisable.png) button deactivates any selected activities.
+O ![](assets/checkdisable.png) botão desativa quaisquer atividades selecionadas.
 
 >[!NOTE]
 >
->As ações rápidas permitem acessar ações diferentes relacionadas a uma atividade específica e aparecem quando uma atividade é selecionada.
+>As ações rápidas permitem que você acesse ações diferentes referentes a uma atividade específica e apareçam quando uma atividade é selecionada.
 
-## Monitoring {#monitoring}
+## Monitoramento {#monitoring}
 
-The ![](assets/printpreview_darkgrey-24px.png) icon opens the workflow log and task menu.
+O ![](assets/printpreview_darkgrey-24px.png) ícone abre o log do fluxo de trabalho e o menu de tarefas.
 
-The workflow history is saved for the duration specified in the workflow execution options (refer to [Workflow properties](../../automating/using/executing-a-workflow.md#workflow-properties)). Durante essa duração, todas as mensagens são salvas, mesmo após uma reinicialização. If you do not want to save the messages from a previous execution, you have to purge the history by clicking the ![](assets/delete_darkgrey-24px.png) button.
+O histórico do fluxo de trabalho é salvo pela duração especificada nas opções de execução do fluxo de trabalho (consulte as propriedades [do](../../automating/using/executing-a-workflow.md#workflow-properties)fluxo de trabalho). Durante esse período, todas as mensagens são salvas, mesmo após uma reinicialização. Se você não quiser salvar as mensagens de uma execução anterior, é necessário limpar o histórico clicando no ![](assets/delete_darkgrey-24px.png) botão.
 
-The **[!UICONTROL Log]** tab contains the execution history of all the activities or any selected activities. Ele indexa as operações realizadas e os erros de execução por ordem cronológica.
+A **[!UICONTROL Log]** guia contém o histórico de execução de todas as atividades ou atividades selecionadas. Indica as operações efetuadas e os erros de execução por ordem cronológica.
 
 ![](assets/wkf_execution_4.png)
 
-The **[!UICONTROL Tasks]** tab details the execution sequencing of the activities. Clique em uma tarefa para obter mais informações.
+A **[!UICONTROL Tasks]** guia detalha a sequência de execução das atividades. Clique em uma tarefa para obter mais informações.
 
 ![](assets/wkf_execution_5.png)
 
-Nessas duas listas:
+Nestas duas listas:
 
 * Clique no contador para ver o número total de atividades de acordo com o filtro aplicado. O contador é exibido por padrão se o número de elementos na lista for menor que 30.
-* The **[!UICONTROL Configure list]** button allows you to choose the information displayed, define the column order, and sort the list.
-* Você pode usar filtros para encontrar as informações necessárias. Use o campo de pesquisa para procurar um texto específico nos nomes de atividade do fluxo de trabalho (por exemplo: " consulta ") e registros.
+* O **[!UICONTROL Configure list]** botão permite escolher as informações exibidas, definir a ordem das colunas e classificar a lista.
+* Você pode usar filtros para encontrar as informações de que precisa mais rapidamente. Use o campo de pesquisa para procurar um texto específico nos nomes das atividades do fluxo de trabalho (por exemplo: "query") e registros.
 
-## Error management {#error-management}
+## Gerenciamento de erros {#error-management}
 
-Quando ocorre um erro, o fluxo de trabalho é pausado e a atividade que estava sendo executada quando o erro foi encontrado em vermelho.
+Quando ocorre um erro, o fluxo de trabalho é pausado e a atividade que estava sendo executada quando o erro foi encontrado pisca em vermelho.
 
-O status do fluxo de trabalho fica vermelho e o erro é registrado no log.
+O status do fluxo de trabalho fica vermelho e o erro é registrado no registro.
 
-Você pode configurar o fluxo de trabalho para que ele não pause e continue a execução sem erros. To do this, go to the workflow properties via the ![](assets/edit_darkgrey-24px.png) button and, in the **[!UICONTROL Execution]** section, select the **Ignore** option in the **In case of error** field.
+Você pode configurar o fluxo de trabalho para que ele não pause e continue a execução sem erros. Para fazer isso, vá para as propriedades do fluxo de trabalho por meio do ![](assets/edit_darkgrey-24px.png) botão e, na **[!UICONTROL Execution]** seção, selecione a opção **Ignorar** no campo **Em caso de erro** .
 
-Nesse caso, a tarefa errada é abortada. Esse modo é particularmente adequado para fluxos de trabalho projetados para tentar novamente a operação mais tarde (ações periódicas).
+Nesse caso, a tarefa errada é abortada. Esse modo é especialmente adequado para fluxos de trabalho projetados para tentar a operação novamente mais tarde (ações periódicas).
 
 >[!NOTE]
 >
->É possível aplicar essa configuração individualmente para cada atividade. To do this, select an activity and open it using the quick action ![](assets/edit_darkgrey-24px.png). Then select the error management mode in the **Execution options** tab. See [Activity execution options](../../automating/using/executing-a-workflow.md#activity-execution-options).
+>Você pode aplicar essa configuração individualmente para cada atividade. Para fazer isso, selecione uma atividade e abra-a usando a ação rápida ![](assets/edit_darkgrey-24px.png). Em seguida, selecione o modo de gerenciamento de erros na guia Opções **** de execução. Consulte Opções [de execução](../../automating/using/executing-a-workflow.md#activity-execution-options)da atividade.
 
-The **[!UICONTROL Execution]** section of the workflow properties also allows you to define a number of **[!UICONTROL Consecutive errors]** that are authorized before the workflow execution is automatically suspended. Desde que esse número não seja atingido, os elementos errôneos são ignorados e as outras ramificações do fluxo de trabalho são executadas normalmente. Se esse número for atingido, o fluxo de trabalho será suspenso e as controladores de fluxo de trabalho serão notificadas automaticamente (email e notificação no aplicativo). See [Workflow properties](../../automating/using/executing-a-workflow.md#workflow-properties) and [Adobe Campaign notifications](../../administration/using/sending-internal-notifications.md).
+A **[!UICONTROL Execution]** seção das propriedades do fluxo de trabalho também permite que você defina uma série de **[!UICONTROL Consecutive errors]** itens autorizados antes da execução do fluxo de trabalho ser suspensa automaticamente. Enquanto esse número não for atingido, os elementos errados serão ignorados e as outras ramificações do fluxo de trabalho serão executadas normalmente. Se esse número for atingido, o fluxo de trabalho será suspenso e os supervisores do fluxo de trabalho serão notificados automaticamente (notificação por email e no aplicativo). Consulte Propriedades [do](../../automating/using/executing-a-workflow.md#workflow-properties) fluxo de trabalho e notificações [do](../../administration/using/sending-internal-notifications.md)Adobe Campaign.
 
-As controladores também podem ser definidas nas propriedades de execução do fluxo de trabalho.
+Os supervisores também podem ser definidos nas propriedades de execução do fluxo de trabalho.
 
-## Workflow properties {#workflow-properties}
+## Propriedades do workflow {#workflow-properties}
 
-To modify a workflow's execution options, use the ![](assets/edit_darkgrey-24px.png) button to access the workflow properties and select the **[!UICONTROL Execution]** section.
+Para modificar as opções de execução de um fluxo de trabalho, use o ![](assets/edit_darkgrey-24px.png) botão para acessar as propriedades do fluxo de trabalho e selecione a **[!UICONTROL Execution]** seção.
 
-The **[!UICONTROL Default affinity]** field allows you to force a workflow or a workflow activity to execute on a particular machine.
+O **[!UICONTROL Default affinity]** campo permite forçar a execução de um fluxo de trabalho ou de uma atividade de fluxo de trabalho em uma máquina específica.
 
-In the **[!UICONTROL History in days]** field, specify the duration after which the history must be purged.
+No **[!UICONTROL History in days]** campo, especifique a duração após a qual o histórico deve ser expurgado.
 
-You can choose to check the **[!UICONTROL Save SQL queries in the log]** and **[!UICONTROL Execute in the engine (do not use in production)]** options if necessary.
+Você pode optar por marcar as opções **[!UICONTROL Save SQL queries in the log]** e **[!UICONTROL Execute in the engine (do not use in production)]** , se necessário.
 
-Check the **[!UICONTROL Keep interim results]** option if you would like to be able to view the detail of transitions. Aviso: marcar essa opção pode atrasar significativamente a execução do fluxo de trabalho.
+Marque a **[!UICONTROL Keep interim results]** opção se desejar visualizar os detalhes das transições. Aviso: verificar essa opção pode retardar significativamente a execução do fluxo de trabalho.
 
-The **[!UICONTROL Severity]** field allows you to specify a level of priority for executing workflows in your Adobe Campaign instance. Os fluxos de trabalho críticos serão executados primeiro.
+O **[!UICONTROL Severity]** campo permite especificar um nível de prioridade para executar fluxos de trabalho na instância do Adobe Campaign. Os fluxos de trabalho críticos serão executados primeiro.
 
-The **[!UICONTROL Supervisors]** field is where you can define the group of people to notify (email and in-app notification) if the workflow encounters an error. Se nenhum grupo estiver definido, ninguém será notificado. For more on Adobe Campaign notifications, refer to [Adobe Campaign notifications](../../administration/using/sending-internal-notifications.md).
+O **[!UICONTROL Supervisors]** campo é onde você pode definir o grupo de pessoas a serem notificadas (notificação por email e no aplicativo) se o fluxo de trabalho encontrar um erro. Se nenhum grupo for definido, ninguém será notificado. Para obter mais informações sobre notificações do Adobe Campaign, consulte notificações [do](../../administration/using/sending-internal-notifications.md)Adobe Campaign.
 
-**[!UICONTROL In case of error]** O campo permite especificar a ação a ser executada caso a atividade encontre um erro. Há duas opções disponíveis para isso:
+O **[!UICONTROL In case of error]** campo permite especificar a ação a ser executada caso a atividade encontre um erro. Há duas opções disponíveis para isso:
 
-* **Suspender o processo**: o fluxo de trabalho é suspenso automaticamente. The workflow status is then **Erroneous** and the color associated turns red. Depois que o problema for resolvido, reinicie o fluxo de trabalho.
-* **Ignorar**: a atividade não é executada e, como resultado, nenhuma das atividades a seguir (na mesma ramificação). Isso pode ser útil para tarefas recorrentes. Se a ramificação tiver um agendador colocado como upstream, ele deverá ser acionado na próxima data de execução.
+* **Suspenda o processo**: o fluxo de trabalho é suspenso automaticamente. O status do fluxo de trabalho é então **Errado** e a cor associada fica vermelha. Depois que o problema for resolvido, reinicie o fluxo de trabalho.
+* **Ignorar**: a atividade não é executada e, como resultado, nenhuma das atividades a seguir (no mesmo ramo). Isso pode ser útil para tarefas recorrentes. Se a ramificação tiver um programador colocado em upstream, isso deverá ser acionado na próxima data de execução.
 
-   By selecting this option, you can also define a number of **[!UICONTROL Consecutive errors]** that are authorized:
+   Ao selecionar essa opção, você também pode definir um número de **[!UICONTROL Consecutive errors]** autorizados:
 
-   * If the number specified is **[!UICONTROL 0]**, or as long as the number specified is not reached, activities that encounter errors are ignored. As outras ramificações de fluxo de trabalho são executadas normalmente.
-   * If the number specified is reached, the whole of the workflow is suspended and becomes **[!UICONTROL Erroneous]**. Se as controladores tiverem sido definidas, elas serão notificadas automaticamente por um email.
+   * Se o número especificado for **[!UICONTROL 0]**, ou enquanto o número especificado não for atingido, as atividades que encontram erros serão ignoradas. As outras ramificações de fluxo de trabalho são executadas normalmente.
+   * Se o número especificado for atingido, todo o fluxo de trabalho será suspenso e se tornará **[!UICONTROL Erroneous]**. Se os supervisores tiverem sido definidos, eles serão automaticamente notificados por email.
 
 ![](assets/wkf_execution_6.png)
 
-## Activity properties {#activity-properties}
+## Propriedades da atividade {#activity-properties}
 
-### General properties of an activity {#general-properties-of-an-activity}
+### Propriedades gerais de uma atividade {#general-properties-of-an-activity}
 
-Each activity has a **[!UICONTROL Properties]** tab. Essa guia permite modificar os parâmetros gerais da atividade, particularmente a etiqueta e a ID. A configuração dessa guia é opcional.
+Cada atividade tem uma **[!UICONTROL Properties]** guia. Essa guia permite modificar os parâmetros gerais da atividade, especialmente o rótulo e a ID. Configurar essa guia é opcional.
 
-### Managing an activity's outbound transitions {#managing-an-activity-s-outbound-transitions}
+### Gerenciando as transições de saída de uma atividade {#managing-an-activity-s-outbound-transitions}
 
-Por padrão, determinadas atividades não têm uma transição de saída. You can add one from the **[!UICONTROL Transitions]** tab or from the activity's **[!UICONTROL Properties]** tab to apply other processes to your population in the same workflow.
+Por padrão, certas atividades não têm uma transição de saída. Você pode adicionar um da **[!UICONTROL Transitions]** guia ou da **[!UICONTROL Properties]** guia da atividade para aplicar outros processos à sua população no mesmo fluxo de trabalho.
 
 Dependendo das atividades, você pode adicionar vários tipos de transições de saída:
 
 * Transição padrão: população calculada pela atividade
-* Transição sem população: esse tipo de transição de saída pode ser adicionado para continuar o fluxo de trabalho e não contém nenhum público para consumir nenhum espaço desnecessário no sistema.
+* Transição sem população: esse tipo de transição de saída pode ser adicionado para continuar o fluxo de trabalho e não contém nenhuma população para não consumir nenhum espaço desnecessário no sistema.
 * Rejeita: população rejeitada. Por exemplo, se os dados de entrada da atividade não puderam ser processados porque estavam incorretos ou incompletos.
-* Complementar: população restante após executar a atividade. Por exemplo, se uma atividade de segmentação estiver configurada para salvar apenas uma porcentagem da população de entrada.
+* Complemento: população restante após a execução da atividade. Por exemplo, se uma atividade de segmentação estiver configurada para salvar apenas uma porcentagem da população de entrada.
 
-If applicable, specify a **[!UICONTROL Segment code]** for the activity's outbound transition. Esse código do segmento permitirá identificar onde os subconjuntos da população de destino vêm e podem, posteriormente, servir para fins de personalização de mensagens.
+Se aplicável, especifique um **[!UICONTROL Segment code]** para a transição de saída da atividade. Esse código de segmento permitirá identificar de onde vêm os subconjuntos da população-alvo e poderá, posteriormente, servir para fins de personalização de mensagens.
 
-### Activity execution options {#activity-execution-options}
+### Opções de execução da atividade {#activity-execution-options}
 
-In the activity's properties screen, there is an **[!UICONTROL Advanced options]** tab that lets you define the activity's execution mode and behavior in case of errors.
+Na tela de propriedades da atividade, há uma **[!UICONTROL Advanced options]** guia que permite definir o modo de execução e o comportamento da atividade em caso de erros.
 
-To access these options, select an activity in a workflow, then open it using the ![](assets/edit_darkgrey-24px.png) button from the action bar.
+Para acessar essas opções, selecione uma atividade em um fluxo de trabalho e abra-a usando o ![](assets/edit_darkgrey-24px.png) botão na barra de ações.
 
 ![](assets/wkf_advanced_parameters.png)
 
-The **[!UICONTROL Execution]** field allows you to define the action to be carried out when the task is started. Há três opções para isso:
+O **[!UICONTROL Execution]** campo permite definir a ação a ser executada quando a tarefa for iniciada. Há três opções para isso:
 
 * **Normal**: a atividade é executada normalmente.
-* **Ativar, mas não executar**: a atividade está pausada e, como consequência, são quaisquer processos futuros que seguem. Isso pode ser útil para ser útil quando a tarefa é iniciada.
-* **Não ative**: a atividade não é executada e, como consequência, nenhuma das atividades subsequentes (na mesma ramificação).
+* **Habilitar, mas não executar**: a atividade é pausada e, consequentemente, qualquer processo futuro que se suceda. Isso pode ser útil se você quiser estar presente quando a tarefa for iniciada.
+* **Não ativar**: a atividade não é executada e, consequentemente, nem todas as atividades subsequentes (no mesmo ramo).
 
-**[!UICONTROL In case of error]** O campo permite especificar a ação a ser executada caso a atividade encontre um erro. Há duas opções disponíveis para isso:
+O **[!UICONTROL In case of error]** campo permite especificar a ação a ser executada caso a atividade encontre um erro. Há duas opções disponíveis para isso:
 
-* **Suspender o processo**: o fluxo de trabalho é suspenso automaticamente. The workflow status is then **Erroneous** and the color associated turns red. Depois que o problema for resolvido, reinicie o fluxo de trabalho.
-* **Ignorar**: a atividade não é executada e, como resultado, nenhuma das atividades a seguir (na mesma ramificação). Isso pode ser útil para tarefas recorrentes. Se a ramificação tiver um agendador colocado como upstream, ele deverá ser acionado na próxima data de execução.
+* **Suspenda o processo**: o fluxo de trabalho é suspenso automaticamente. O status do fluxo de trabalho é então **Errado** e a cor associada fica vermelha. Depois que o problema for resolvido, reinicie o fluxo de trabalho.
+* **Ignorar**: a atividade não é executada e, como resultado, nenhuma das atividades a seguir (no mesmo ramo). Isso pode ser útil para tarefas recorrentes. Se a ramificação tiver um programador colocado em upstream, isso deverá ser acionado na próxima data de execução.
 
-**[!UICONTROL Behavior]** O campo permite que você defina o procedimento a ser seguido se tarefas assíncronas forem usadas. Há duas opções disponíveis para isso:
+O **[!UICONTROL Behavior]** campo permite definir o procedimento a ser seguido se tarefas assíncronas forem usadas. Há duas opções disponíveis para isso:
 
-* **Várias tarefas autorizadas**: várias tarefas podem ser executadas simultaneamente mesmo se a primeira não tiver terminado.
-* **A tarefa atual tem prioridade**: quando uma tarefa estiver em andamento, isso terá prioridade. Contanto que uma tarefa ainda esteja em andamento, nenhuma outra tarefa será executada.
+* **Várias tarefas autorizadas**: várias tarefas podem ser executadas ao mesmo tempo, mesmo que a primeira não tenha sido concluída.
+* **A tarefa atual tem prioridade**: quando uma tarefa estiver em andamento, isso terá prioridade. Enquanto uma tarefa estiver em andamento, nenhuma outra tarefa será executada.
 
-The **[!UICONTROL Max. execution duration]** field allows you to specify a duration such as "30s" or "1h". Se a atividade não for concluída depois que a duração especificada tiver sido ultrapassada, um alerta será acionado. Isso não afeta a forma como as funções do fluxo de trabalho funcionam.
+O **[!UICONTROL Max. execution duration]** campo permite especificar uma duração, como "30s" ou "1h". Se a atividade não for concluída depois que a duração especificada tiver expirado, um alerta será acionado. Isso não afeta o funcionamento do fluxo de trabalho.
 
-The **[!UICONTROL Affinity]** field allows you to force a workflow or a workflow activity to execute on a particular machine. Para fazer isso, você deve especificar uma ou várias afinidades para o fluxo de trabalho ou atividade em questão.
+O **[!UICONTROL Affinity]** campo permite forçar a execução de um fluxo de trabalho ou de uma atividade de fluxo de trabalho em uma máquina específica. Para fazer isso, você deve especificar uma ou várias afinidades para o fluxo de trabalho ou atividade em questão.
 
-**[!UICONTROL Time zone]** O campo permite selecionar o fuso horário da atividade. O Adobe Campaign permite gerenciar as diferenças de tempo entre vários países na mesma instância. A configuração aplicada é configurada quando a instância é criada.
+O **[!UICONTROL Time zone]** campo permite selecionar o fuso horário da atividade. O Adobe Campaign permite gerenciar as diferenças de tempo entre vários países na mesma instância. A configuração aplicada é configurada quando a instância é criada.
 
-The **Comment** field is a free field that allows you to add a note.
+O campo **Comentário** é um campo gratuito que permite adicionar uma observação.
