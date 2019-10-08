@@ -14,7 +14,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -160,7 +160,7 @@ Antes de poder usar o evento, você deve visualizá-lo e publicá-lo.
 >
 >Sempre que modificar o evento, você deve clicar **[!UICONTROL Publish]** novamente para gerar a REST API atualizada que será usada pelo desenvolvedor do site.
 
-Depois que o evento é publicado, uma mensagem transacional vinculada ao novo evento é criada automaticamente. Para que esse evento dispare o envio de uma mensagem transacional, você deve modificar e publicar a mensagem que acabou de ser criada. Consulte Mensagens [transacionais de](../../channels/using/event-transactional-messages.md)eventos.
+Depois que o evento é publicado, uma mensagem transacional vinculada ao novo evento é criada automaticamente. Para que esse evento dispare o envio de uma mensagem transacional, você deve modificar e publicar a mensagem que acabou de ser criada. Consulte Mensagens [transacionais de](../../channels/using/event-transactional-messages.md)evento.
 
 Você pode acessar a mensagem transacional criada diretamente do link na área do lado esquerdo.
 
@@ -186,7 +186,7 @@ Depois de criar um evento, é necessário integrar o acionamento desse evento ao
 
 No exemplo descrito na seção [Transactional Messaging Operating Princípio](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) Operacional, você deseja que um evento de "abandono do carrinho" seja acionado sempre que um de seus clientes sair do site antes de comprar os produtos no carrinho. Para isso, o desenvolvedor da Web do site deve usar a API REST do Adobe Campaign Standard.
 
-Consulte a Documentação [da API](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#transactional-messages-api) REST.
+Consulte a Documentação [da API](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#transactional-messages-api) REST.
 
 ## Configurações específicas de evento transacional {#transactional-event-specific-configurations}
 
