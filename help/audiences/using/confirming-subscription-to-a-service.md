@@ -14,7 +14,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b85bbad7458286252a2900ce730288f6e52442e
+source-git-commit: a98c15b5c0f5f8714a09e709d4fa5259d3ce531e
 
 ---
 
@@ -41,30 +41,30 @@ Por exemplo, você deseja enviar automaticamente uma mensagem de confirmação p
 
 Você precisa configurar um email transacional e fazer referência a essa mensagem do serviço desejado (neste caso, a assinatura do boletim da sua marca). Para enriquecer a mensagem transacional com as informações do serviço, é possível definir uma reconciliação ao criar o evento.
 
-When configuring it from the service, the confirmation transactional message will be sent only the first time each visitor subscribes to that service. If a profile is already subscribed, no confirmation message will be sent again to that profile.
+Ao configurá-la a partir do serviço, a mensagem de confirmação transacional será enviada somente na primeira vez que cada visitante se inscrever nesse serviço. Se um perfil já estiver inscrito, nenhuma mensagem de confirmação será enviada novamente para esse perfil.
 
-### Etapa 1: Create the confirmation email {#step-1--create-the-confirmation-email-1}
+### Etapa 1: Criar o email de confirmação {#step-1--create-the-confirmation-email-1}
 
-A confirmation email will be automatically sent to each profile subscribing to the newsletter (through a landing page or any other means). The subscription is considered as an event and the email is a transactional message which will target each profile that subscribes to the service.[](../../channels/using/about-transactional-messaging.md)
+Um e-mail de confirmação será enviado automaticamente para cada perfil que se inscreva no boletim informativo (por meio de uma página de aterrissagem ou qualquer outro meio). A assinatura é considerada um evento e o email é uma mensagem [](../../channels/using/about-transactional-messaging.md) transacional que direcionará cada perfil que se inscreve no serviço.
 
-Steps to create the confirmation email are described below. As the transactional message will be referenced in the service, you need to create it first.
+As etapas para criar o email de confirmação estão descritas abaixo. Como a mensagem transacional será referenciada no serviço, é necessário criá-la primeiro.
 
-#### Create the event {#create-the-event-1}
+#### Criar o evento {#create-the-event-1}
 
-The confirmation email is a transactional message as it reacts to an event: the subscription to a service. This message will be sent to confirm subscription to your newsletter.
+O email de confirmação é uma mensagem transacional, pois reage a um evento: a assinatura de um serviço. Esta mensagem será enviada para confirmar a assinatura do seu boletim informativo.
 
-1. Create an event from the  &gt;  &gt;  menu, accessible from the Adobe Campaign logo.**[!UICONTROL Marketing plans]****[!UICONTROL Transactional messages]****[!UICONTROL Event configuration]**
-1. Enter a label, select a targeting dimension and click .**[!UICONTROL Create]**
+1. Crie um evento no menu **[!UICONTROL Marketing plans]** &gt; **[!UICONTROL Transactional messages]** &gt; **[!UICONTROL Event configuration]** , acessível pelo logotipo do Adobe Campaign.
+1. Insira um rótulo, selecione uma dimensão de definição de metas e clique em **[!UICONTROL Create]**.
 
    As etapas de configuração são apresentadas na seção [Configuração de mensagens](../../administration/using/configuring-transactional-messaging.md) transacionais.
 
-1. In the  section, click  and add  to the data structure in order to enable reconciliation.**[!UICONTROL Fields]****[!UICONTROL Create element]****[!UICONTROL publicLabel]**
+1. Na **[!UICONTROL Fields]** seção, clique **[!UICONTROL Create element]** e adicione **[!UICONTROL publicLabel]** à estrutura de dados para ativar a reconciliação.
 
    ![](assets/confirmation_publicLabel-field.png)
 
-   >[OBSERVAÇÃO]
+   >[!NOTE]
    >
-   >The  field is mandatory. **[!UICONTROL publicLabel]** If you do not add it to the event data structure, Adobe Campaign will not be able to perform reconciliation with the service. Ao assinar um serviço, esse campo será preenchido com o nome **[!UICONTROL Service label]** do serviço correspondente.
+   >O **[!UICONTROL publicLabel]** campo é obrigatório. Se você não adicioná-lo à estrutura de dados do evento, o Adobe Campaign não poderá executar a reconciliação com o serviço. Ao assinar um serviço, esse campo será preenchido com o nome **[!UICONTROL Service label]** do serviço correspondente.
 
 1. Na **[!UICONTROL Enrichment]** seção, clique **[!UICONTROL Create element]** e selecione o recurso de **[!UICONTROL Service]** destino.
 
@@ -74,7 +74,7 @@ The confirmation email is a transactional message as it reacts to an event: the 
 
    ![](assets/confirmation_publicLabel-join.png)
 
-   >[OBSERVAÇÃO]
+   >[!NOTE]
    >
    >Isso permitirá que você use campos de personalização do **[!UICONTROL Service]** recurso na mensagem transacional.
 
@@ -104,12 +104,12 @@ O email de confirmação é uma mensagem transacional com base no evento que voc
 ### Etapa 2: Criar e configurar o serviço {#step-2--create-and-configure-the-service-1}
 
 1. No menu avançado, **Perfis e públicos** &gt; **Serviços** por meio do logotipo do Adobe Campaign, crie um serviço.
-1. Vá para a seção **[!UICONTROL Service properties]** , acessada pelo ![](assets/edit_darkgrey-24px.png) botão no painel de serviço.
+1. Vá para a **[!UICONTROL Service properties]** seção, acessada pelo ![](assets/edit_darkgrey-24px.png) botão no painel de serviço.
 1. Fill in the **[!UICONTROL Service label]** field.
 
    ![](assets/confirmation_service-label.png)
 
-   >[OBSERVAÇÃO]
+   >[!NOTE]
    >
    >É necessário preencher esse campo para permitir a reconciliação com a mensagem transacional.
 
@@ -120,43 +120,47 @@ O email de confirmação é uma mensagem transacional com base no evento que voc
 
 1. Click **[!UICONTROL Confirm]** and save the service.
 
-Agora, cada vez que um perfil se inscreve nesse serviço, ele recebe a mensagem transacional que você definiu, com campos personalizados mapeados para o serviço selecionado. Uma mensagem será enviada somente na primeira vez que o usuário se inscrever.
+Agora, cada vez que um perfil se inscreve nesse serviço, ele recebe a mensagem transacional que você definiu, com campos personalizados mapeados para o serviço selecionado.
+
+>[!NOTE]
+>
+>Uma mensagem será enviada somente na primeira vez que o usuário se inscrever.
 
 ## Configurar mensagem de confirmação de uma página de aterrissagem {#configuring-confirmation-message-from-landing-page}
 
-You can also reference the confirmation message from a subscription landing page by using the  option from the  section of the landing page.**[!UICONTROL Start sending messages]****[!UICONTROL Job]**
+Você também pode consultar a mensagem de confirmação de uma página inicial de assinatura usando a **[!UICONTROL Start sending messages]** opção da **[!UICONTROL Job]** seção da página inicial.
 
-When referencing the confirmation message from the landing page, a message will be sent each time the landing page is submitted (even if the profile is already subscribed).
+Ao referenciar a mensagem de confirmação da página de aterrissagem, uma mensagem será enviada toda vez que a página de aterrissagem for enviada (mesmo se o perfil já estiver inscrito).
 
-### Etapa 1: Create the confirmation email {#step-1--create-the-confirmation-email-2}
+### Etapa 1: Criar o email de confirmação {#step-1--create-the-confirmation-email-2}
 
-A confirmation email will be automatically sent to each profile subscribing to the newsletter through a landing page. The subscription is considered as an event and the email is a is a transactional message which will target each profile that subscribes to the service.[](../../channels/using/about-transactional-messaging.md)
+Um e-mail de confirmação será enviado automaticamente para cada perfil que se inscreva no boletim informativo por meio de uma página de aterrissagem. A assinatura é considerada um evento e o email é uma mensagem [](../../channels/using/about-transactional-messaging.md) transacional que direcionará cada perfil que se inscreve no serviço.
 
-Steps to create these elements are described below. As the transactional message will be referenced in the landing page, you need to create it first.
+As etapas para criar esses elementos estão descritas abaixo. Como a mensagem transacional será referenciada na página inicial, é necessário criá-la primeiro.
 
-#### Create the event {#create-the-event-2}
+#### Criar o evento {#create-the-event-2}
 
-The confirmation email is a transactional message as it reacts to an event: the subscription to a service. [](../../channels/using/about-transactional-messaging.md) This message will be sent to confirm subscription to your newsletter.
+O email de confirmação é uma mensagem [](../../channels/using/about-transactional-messaging.md) transacional, pois reage a um evento: a assinatura de um serviço. Esta mensagem será enviada para confirmar a assinatura do seu boletim informativo.
 
-1. Create an event from the  &gt;  &gt;  menu, accessible from the Adobe Campaign logo.**[!UICONTROL Marketing plans]****[!UICONTROL Transactional messages]****[!UICONTROL Event configuration]**
-1. Enter a label, select a targeting dimension and click .**[!UICONTROL Create]**
+1. Crie um evento no menu **[!UICONTROL Marketing plans]** &gt; **[!UICONTROL Transactional messages]** &gt; **[!UICONTROL Event configuration]** , acessível pelo logotipo do Adobe Campaign.
+1. Insira um rótulo, selecione uma dimensão de definição de metas e clique em **[!UICONTROL Create]**.
 
-   The configuration steps are presented in the Configuring transactional messaging section.[](../../administration/using/configuring-transactional-messaging.md)
+   As etapas de configuração são apresentadas na seção [Configuração de mensagens](../../administration/using/configuring-transactional-messaging.md) transacionais.
 
-1. In the  section, click  and add  to the data structure in order to enable reconciliation.**[!UICONTROL Fields]****[!UICONTROL Create element]****[!UICONTROL serviceName]**
+1. Na **[!UICONTROL Fields]** seção, clique **[!UICONTROL Create element]** e adicione **[!UICONTROL serviceName]** à estrutura de dados para ativar a reconciliação.
 
    ![](assets/confirmation_serviceName-field.png)
 
-   >[NOTE]
+   >[!NOTE]
    >
    >O **[!UICONTROL serviceName]** campo é obrigatório. Se você não adicioná-la à estrutura de dados do evento, o Adobe Campaign não poderá executar a reconciliação com o serviço inscrito.
 
-1. In the  section, click  and select the  target resource.**[!UICONTROL Enrichment]****[!UICONTROL Create element]****[!UICONTROL Service]**
+1. Na **[!UICONTROL Enrichment]** seção, clique **[!UICONTROL Create element]** e selecione o recurso de **[!UICONTROL Service]** destino.
 1. Na **[!UICONTROL Join definition]** seção, mapeie o **[!UICONTROL serviceName]** campo do **[!UICONTROL Service]** recurso com o **[!UICONTROL name]** campo da configuração do evento.
 
    ![](assets/confirmation_serviceName-join.png)
 
-   >[NOTE]
+   >[!NOTE]
    >
    >Isso permitirá que você use campos de personalização do [!UICONTROL Service] recurso na mensagem transacional.
 
@@ -167,11 +171,11 @@ As etapas para projetar a mensagem transacional são apresentadas nesta [seção
 ### Etapa 2: Criar e configurar o serviço {#step-2--create-and-configure-the-service-2}
 
 1. No menu avançado **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Services]** pelo logotipo do Adobe Campaign, crie um serviço.
-1. Vá para a seção **[!UICONTROL Service properties]** , acessada pelo ![](assets/edit_darkgrey-24px.png) botão no painel de serviço.
+1. Vá para a **[!UICONTROL Service properties]** seção, acessada pelo ![](assets/edit_darkgrey-24px.png) botão no painel de serviço.
 1. Fill in the **[!UICONTROL Service label]** field. Esse rótulo será exibido na mensagem de confirmação e na página inicial da assinatura.
 1. Click **[!UICONTROL Confirm]** and save the service.
 
-### Etapa 3: Criar e configurar a página de aterrissagem {#step-3--create-and-configure-the-landing-page}
+### Etapa 3:Criar e configurar a página de aterrissagem {#step-3--create-and-configure-the-landing-page}
 
 Crie uma página inicial de assinatura que será publicada no seu site.
 
@@ -192,6 +196,6 @@ Para criar e configurar esta página inicial, siga as etapas abaixo:
 
 Agora, cada vez que um perfil se inscreve no seu boletim informativo enviando a página de aterrissagem, ele recebe a mensagem de confirmação que você definiu com campos personalizados mapeados para o serviço.
 
->[NOTE]
+>[!NOTE]
 >
 >Uma mensagem será enviada sempre que a página de aterrissagem for enviada, mesmo se o perfil já estiver inscrito.
