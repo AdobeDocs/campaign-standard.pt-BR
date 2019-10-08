@@ -14,7 +14,7 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -51,7 +51,7 @@ A primeira etapa para chamar um fluxo de trabalho com parâmetros é declará-lo
 
 ## Definição dos parâmetros ao chamar o fluxo de trabalho {#defining-the-parameters-when-calling-the-workflow}
 
-Esta seção detalha como definir parâmetros ao chamar um fluxo de trabalho. Para obter mais informações sobre como executar essa operação a partir de uma chamada de API, consulte a documentação [](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)REST APIs.
+Esta seção detalha como definir parâmetros ao chamar um fluxo de trabalho. Para obter mais informações sobre como executar essa operação a partir de uma chamada de API, consulte a documentação [](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)REST APIs.
 
 Antes de definir os parâmetros, verifique se:
 
@@ -120,7 +120,7 @@ Ao usar uma variável em uma atividade, a interface fornece ajuda para chamá-la
 
    ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png): editar expressões que combinam variáveis e funções. Para obter mais informações sobre o Editor de expressões, consulte [esta seção](../../automating/using/advanced-expression-editing.md).
+* ![](assets/extsignal_expression_editor.png): editar expressões que combinam variáveis e funções. For more on the Expression editor, refer to [this section](../../automating/using/advanced-expression-editing.md).
 
    ![](assets/wkf_test_activity_variables_expression.png)
 
@@ -136,25 +136,25 @@ As variáveis de eventos podem ser usadas para personalizar várias atividades, 
 
 **[!UICONTROL Read audience]** atividade: defina o público-alvo a ser direcionado com base nas variáveis de eventos.
 
-Para obter mais informações sobre como usar a atividade, consulte a seção [](../../automating/using/read-audience.md)dedicada.
+For more on how to use the activity, refer to the [dedicated section](../../automating/using/read-audience.md).
 
 ![](assets/extsignal_activities_audience.png)
 
 **[!UICONTROL Test]** atividade: crie condições com base nas variáveis de eventos.
 
-Para obter mais informações sobre como usar a atividade, consulte a seção [](../../automating/using/test.md)dedicada.
+For more on how to use the activity, refer to the [dedicated section](../../automating/using/test.md).
 
 ![](assets/extsignal_activities_test.png)
 
 **[!UICONTROL Transfer file]** atividade: personalize o arquivo a ser transferido com base nas variáveis de eventos.
 
-Para obter mais informações sobre como usar a atividade, consulte a seção [](../../automating/using/transfer-file.md)dedicada.
+For more on how to use the activity, refer to the [dedicated section](../../automating/using/transfer-file.md).
 
 ![](assets/extsignal_activities_transfer.png)
 
 **[!UICONTROL Query]** atividade: parâmetros podem ser referenciados em uma consulta usando expressões que combinam variáveis e funções de eventos. Para fazer isso, adicione uma regra e clique no **[!UICONTROL Advanced mode]** link para acessar a janela de edição de expressão (consulte Edição [de expressões](../../automating/using/advanced-expression-editing.md)avançadas).
 
-Para obter mais informações sobre como usar a atividade, consulte a seção [](../../automating/using/query.md)dedicada.
+For more on how to use the activity, refer to the [dedicated section](../../automating/using/query.md).
 
 ![](assets/extsignal_activities_query.png)
 
@@ -175,7 +175,7 @@ Para personalizar uma entrega com base nas variáveis de eventos, você deve dec
 
    ![](assets/extsignal_activities_delivery.png)
 
-1. Clique no **[!UICONTROL Confirm]** botão.
+1. Click the **[!UICONTROL Confirm]** button.
 
 As variáveis de eventos declaradas agora estão disponíveis na lista de campos de personalização. Você pode usá-los na entrega para executar as ações abaixo:
 
@@ -225,7 +225,7 @@ Antes de configurar os fluxos de trabalho, é necessário criar o Fluxo de traba
 
 ### Etapa 1: Configurar a chamada de API {#step-1--configuring-the-api-call}
 
-Faça uma chamada de API para acionar o Workflow 1 com parâmetros. Para obter mais informações sobre a sintaxe de chamada da API, consulte a documentação [das APIs REST do](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)Campaign Standard.
+Faça uma chamada de API para acionar o Workflow 1 com parâmetros. Para obter mais informações sobre a sintaxe de chamada da API, consulte a documentação [das APIs REST do](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)Campaign Standard.
 
 Em nosso caso, queremos chamar o fluxo de trabalho com os parâmetros abaixo:
 
@@ -317,7 +317,7 @@ Siga as etapas abaixo para configurar o fluxo de trabalho:
 
    ![](assets/extsignal_uc7.png)
 
-O fluxo de trabalho 1 está configurado, agora é possível criar o Fluxo de trabalho 2. For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md#step-3--configuring-workflow-2).
+O fluxo de trabalho 1 está configurado, agora é possível criar o Fluxo de trabalho 2. Para obter mais informações, consulte [esta seção](../../automating/using/calling-a-workflow-with-external-parameters.md#step-3--configuring-workflow-2).
 
 ### Etapa 3: Configuração do fluxo de trabalho 2 {#step-3--configuring-workflow-2}
 
