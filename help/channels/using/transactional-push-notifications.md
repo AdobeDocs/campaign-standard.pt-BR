@@ -14,7 +14,7 @@ discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
@@ -40,7 +40,7 @@ Para que o evento dispare o envio de uma mensagem transacional, é necessário p
 
 >[!NOTE]
 >
->Para acessar as mensagens transacionais, é necessário ter direitos administrativos ou aparecer no grupo de segurança **[!UICONTROL Message Center agents]** (mcExec).
+>Para acessar mensagens transacionais, você deve fazer parte do grupo de **[!UICONTROL Administrators (all units)]** segurança.
 
 ## Notificações por push transacionais direcionadas a um evento {#transactional-push-notifications-targeting-an-event}
 
@@ -54,7 +54,7 @@ Por exemplo, uma companhia aérea deseja convidar seus usuários de aplicativos 
 
 A empresa enviará uma notificação por push transacional por usuário (identificada com um token de registro), usando um aplicativo móvel, por meio de um único dispositivo.
 
-1. Vá para a mensagem transacional criada para editá-la. Consulte Mensagens [transacionais de](../../channels/using/event-transactional-messages.md)eventos.
+1. Vá para a mensagem transacional criada para editá-la. Consulte Mensagens [transacionais de](../../channels/using/event-transactional-messages.md)evento.
 
    ![](assets/message-center_push_message.png)
 
@@ -111,7 +111,7 @@ Para obter mais informações sobre como acessar e editar perfis, consulte [Perf
 
 Por exemplo, uma companhia aérea deseja enviar uma última chamada para o embarque a todos os usuários do Adobe Campaign que se inscreveram em seu aplicativo móvel.
 
-1. Vá para a mensagem transacional criada para editá-la. Consulte Mensagens [transacionais de](../../channels/using/event-transactional-messages.md)eventos.
+1. Vá para a mensagem transacional criada para editá-la. Consulte Mensagens [transacionais de](../../channels/using/event-transactional-messages.md)evento.
 
    <!--![](assets/message-center_push_message_profile.png)-->
 
