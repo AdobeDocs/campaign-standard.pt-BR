@@ -14,7 +14,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
@@ -33,7 +33,7 @@ O Adobe Campaign permite que você integre essa funcionalidade a um sistema de i
 
 >[!NOTE]
 >
->As mensagens transacionais podem ser enviadas por email, SMS ou notificação por push, dependendo de suas opções. Verifique seu contrato de licença.
+>As mensagens transacionais podem ser enviadas por email, SMS ou notificação por push, dependendo de suas opções. Verifique o contrato de licença.
 
 Dois tipos de mensagens transacionais estão disponíveis no Adobe Campaign:
 
@@ -46,7 +46,7 @@ O tipo de mensagem é definido ao configurar o evento que será transformado em 
 >
 >O Adobe Campaign prioriza o processamento das mensagens transacionais em vez de qualquer outra entrega.
 
-As mensagens transacionais também estão disponíveis na API do Adobe Campaign Standard. Para obter mais informações, consulte a documentação [](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging)dedicada.
+As mensagens transacionais também estão disponíveis na API do Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging).
 
 ## Princípio operacional do sistema de mensagens transacional {#transactional-messaging-operating-principle}
 
@@ -63,6 +63,10 @@ As etapas para colocar isso em prática são:
 Assim que todas essas etapas forem executadas, assim que um usuário sair do site sem solicitar os produtos em seu carrinho, ele receberá automaticamente um email de notificação.
 
 ## Limitações de mensagens transacionais {#transactional-messaging-limitations}
+
+>[!NOTE]
+>
+>Para acessar mensagens transacionais, é necessário ter direitos administrativos.
 
 ### Design e publicação {#design-and-publication}
 
@@ -95,13 +99,13 @@ Observe que as listas de produtos estão disponíveis somente em mensagens de em
 
 ### Permissões e marcas {#permissions-and-branding}
 
-Quando se trata de gerenciamento de [marcas](../../administration/using/branding.md) , as mensagens transacionais permitem menos flexibilidade do que as mensagens padrão. A Adobe recomenda vincular todas as marcas usadas em mensagens transacionais à unidade **[!UICONTROL All]** organizacional. Para mais informações, leia a explicação detalhada abaixo.
+Quando se trata de gerenciamento de [marcas](../../administration/using/branding.md) , as mensagens transacionais permitem menos flexibilidade do que as mensagens padrão. A Adobe recomenda vincular todas as marcas usadas em mensagens transacionais à unidade **[!UICONTROL All]** [](../../administration/using/organizational-units.md)organizacional. Para mais informações, leia a explicação detalhada abaixo.
 
 Ao editar uma mensagem transacional, você pode vinculá-la a uma marca para aplicar automaticamente alguns parâmetros, como o nome da marca ou o logotipo da marca. A opção **[!UICONTROL Default brand]** é selecionada por padrão nas propriedades da mensagem transacional.
 
 ![](assets/message-center_branding.png)
 
-Para acessar as mensagens transacionais, você deve fazer parte do grupo de segurança **[!UICONTROL Message Center agents]** (mcExec), que está vinculado à unidade **[!UICONTROL Message Center]** [](../../administration/using/organizational-units.md)organizacional. Portanto, todos os objetos (incluindo marcas) usados em uma mensagem transacional devem ser visíveis da unidade organizacional, o que significa que esses objetos devem estar nas unidades organizacionais **[!UICONTROL Message Center]** ou **[!UICONTROL Message Center]** **[!UICONTROL All]** .
+Todos os objetos (incluindo marcas) usados em uma mensagem transacional devem ser visíveis da unidade organizacional, o que significa que esses objetos devem estar nas unidades organizacionais **[!UICONTROL Message Center]** ou **[!UICONTROL Message Center]** **[!UICONTROL All]** .
 
 Entretanto, se a marca selecionada nas propriedades da mensagem estiver vinculada a uma unidade organizacional diferente **[!UICONTROL Message Center]** ou **[!UICONTROL All]**, isso causará um erro e você não poderá enviar a mensagem transacional.
 
