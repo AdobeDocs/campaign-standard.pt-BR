@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bdb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1ffc4d5ab10cc2210b6d47466e556a1dcf9c722
+source-git-commit: b43f43f300f14c9abe1cc471a74586e19841b6e1
 
 ---
 
@@ -49,8 +49,7 @@ Recursos adicionais:
    <p>Além dos recursos de privacidade já disponíveis no Adobe Campaign (incluindo gerenciamento de consentimento, configurações de retenção de dados e funções de usuário), estamos aproveitando esta oportunidade para incluir recursos adicionais, para ajudar a facilitar sua preparação para CCPA:</p>
    <ul>
     <li>Direito de acesso e direito de exclusão: estamos aproveitando as capacidades que foram adicionadas ao RGPD. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">Saiba mais</a> </li>
-    <li><p>Ao criar uma solicitação de privacidade, você pode selecionar o tipo de regulamento: RGPD ou CCPA.<p>
-      <p><strong>Observação</strong>: este novo campo é obrigatório. Se você usar a API de privacidade da campanha para acessar e excluir solicitações, precisará incluí-la na carga. Consulte a documentação <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#privacy-management">da</a>API.</p></li>
+    <li><p>Ao criar uma solicitação de privacidade, o tipo de regulamento (RGPD ou CCPA) foi adicionado ao Privacy Core Service. Este método é o que você deve usar para todas as solicitações de acesso e exclusão. O uso da API de campanha e da interface para acessar e excluir solicitações está obsoleto. No entanto, se ainda precisar usar esses métodos na versão 19.4, observe que o tipo de regulamento foi adicionado na interface do Campaign e na API e é obrigatório. Para a interface, o valor padrão será definido como RGPD. Para a API, você precisará incluir esse campo na carga. Consulte a documentação <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#privacy-management">da</a>API.</p></li>
     <li>Um campo <strong>CCPA Opt-Out</strong> foi adicionado ao recurso Perfis para permitir que os usuários do Adobe Campaign rastreiem se um consumidor optou pela venda de Informações pessoais. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">Saiba mais</a>.</li>
   </ul>
 </td> 
