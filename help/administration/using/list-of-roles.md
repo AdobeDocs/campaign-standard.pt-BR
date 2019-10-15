@@ -4,43 +4,43 @@ seo-title: Lista de funções
 description: Lista de funções
 seo-description: Descubra a lista de funções que podem ser atribuídas aos usuários.
 page-status-flag: nunca ativado
-uuid: 128 aaf 9 b -9 b 7 d -49 f 3-9 e 1 f -72 e 79 a 29 baa 0
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: administration
-content-type: reference
+uuid: 128aaf9b-9b7d-49f3-9e1f-72e79a29baa0
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: administração
+content-type: referência
 topic-tags: usuários e segurança
-discoiquuid: ceaa 3 c 94-9 e 1 a -4271-b 443-b 00 b 4068929 f
-context-tags: função, visão geral; role, main
+discoiquuid: ceaa3c94-9e1a-4271-b443-b00b4068929f
+context-tags: função,visão geral;função,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
+source-git-commit: c331937dcfef849798f1a5ed693da5f01759a1b8
 
 ---
 
 
-# List of roles{#list-of-roles}
+# Lista de funções{#list-of-roles}
 
-Por padrão, o Adobe Campaign oferece um conjunto de funções que permite definir autorizações unitárias atribuídas a usuários e grupos de usuários. Combinado com unidades organizacionais, as funções fornecem aos usuários uma visão filtrada da interface e definem o acesso aos diferentes recursos. For more on this, refer to the [Roles and permissions table](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+Por padrão, o Adobe Campaign oferece um conjunto de funções que permite definir autorizações unitárias atribuídas a usuários e grupos de usuários. Combinadas com unidades organizacionais, as funções fornecem aos usuários uma exibição filtrada da interface e definem seu acesso aos diferentes recursos. Para obter mais informações, consulte a tabela [](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)Funções e permissões.
 
-![](assets/user_management_3.png)
+[![imagem](/help/administration/using/assets/user_management_3.png)](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
-Roles can be managed from the **[!UICONTROL Administration > Users & Security > Roles]** menu.
+As funções podem ser gerenciadas no **[!UICONTROL Administration > Users & Security > Roles]** menu.
 
 Os direitos padrão são:
 
-* **[!UICONTROL Administration]**: Administração genérica à direita.
+* **[!UICONTROL Administration]**: Direito administrativo genérico.
 * **[!UICONTROL Datamodel]**: Direito de executar publicações e criar recursos personalizados.
 * **[!UICONTROL Export]**: Direito de exportar dados.
-* **[!UICONTROL Generic import]**: Direita para executar uma importação genérica em dados. For this to work, you need to link the **[!UICONTROL Generic import]** role to the **[!UICONTROL Workflow]** role.
-* **[!UICONTROL Prepare deliveries]**: O direito de criar, editar, iniciar a preparação de entrega e enviar provas.
-* **[!UICONTROL Start deliveries]**: Direito de validar entregas previamente preparadas.
-* **[!UICONTROL Workflow]**: Direito de usar fluxos de trabalho.
+* **[!UICONTROL Generic import]**: Direito de executar uma importação genérica nos dados. Para que isso funcione, é necessário vincular a **[!UICONTROL Generic import]** função à **[!UICONTROL Workflow]** .
+* **[!UICONTROL Prepare deliveries]**: Direito de criar, modificar, preparar e excluir entregas. Os usuários com essa função podem preparar a entrega, mas não enviá-la.
+* **[!UICONTROL Start deliveries]**: Direito de criar, modificar, preparar, enviar e excluir entregas.
+* **[!UICONTROL Workflow]**: Direito de criar, modificar, iniciar e excluir fluxos de trabalho. Os usuários com essa função não podem enviar uma entrega mesmo em um fluxo de trabalho.
 
 >[!CAUTION]
 >
->A função DELIVERABILITY é usada somente para administradores da Adobe. Não deve ser concedida a um usuário.
+>As funções **[!UICONTROL Deliverability]**, **[!UICONTROL Command execution]**, **[!UICONTROL Export]** e **[!UICONTROL File access]** **[!UICONTROL Message Center push]** são apenas para uso interno dos administradores da Adobe. Eles não devem ser concedidos a um usuário.
 
 **Tópicos relacionados:**
 
