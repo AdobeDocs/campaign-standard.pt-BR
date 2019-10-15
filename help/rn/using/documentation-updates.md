@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 57a0d20697461fb87b61c38dfd1779fadd565888
+source-git-commit: 6650d44a79b9f31d860ed60e3683bc7c4da0c020
 
 ---
 
@@ -26,6 +26,24 @@ Saiba mais sobre todas as atualizações mais recentes da documentação do Adob
 Esta página lista todos os novos recursos e atualizações de documentação para cada versão do Adobe Campaign Standard.
 
 Você também pode consultar as Notas [de](../../rn/using/release-notes.md)versão do Adobe Campaign.
+
+## Versão 19.4 - outubro de 2019 {#release-19-4---october-2019}
+
+### Novos recursos incluídos na versão {#new-capabilities-included-in-the-release-20}
+
+California Consumer Privacy Act (CCPA) - [Leia mais](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
+
+Integração do Microsoft Dynamics 365 (GA) - [Leia mais](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+
+### Outras atualizações de documentação que vêm com a versão {#other-documentation-updates-coming-with-the-release-18}
+
+A lista de mensagens de erro do Campaign Standard e do Classic foi atualizada. [Leia mais](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+
+O guia de introdução ao RGPD foi melhorado e enriquecido. Agora é uma documentação de gerenciamento de privacidade, incluindo o RGPD e o CCPA. [Leia mais](https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
+
+Foi adicionado um novo gráfico que apresenta o processo de publicação de mensagens transacionais. [Leia mais](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
+
+O guia de introdução às práticas recomendadas de entrega foi atualizado. [Leia mais](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
 ## Atualizações de documentação - outubro de 2019 {#doc-updates-october-2019}
 
