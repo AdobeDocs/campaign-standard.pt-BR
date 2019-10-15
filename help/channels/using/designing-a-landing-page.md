@@ -15,7 +15,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9380d7f624c051c42b61d88e39c85a216fb7caec
+source-git-commit: c216210e2cb279c87ba472d4ec6a02284aae7a74
 
 ---
 
@@ -368,7 +368,8 @@ Quando uma página inicial é enviada por um visitante, você pode configurar as
 
 ## Configuração de permissões e pré-carregamento de dados {#setting-permissions-and-pre-loading-data}
 
-O acesso a uma página de aterrissagem pode ser restrito a visitantes identificados, que vêm de um link em uma mensagem enviada pelo Campaign, por exemplo. Nesse caso, você pode pré-carregar os dados na página de aterrissagem. Para fazer isso:
+O acesso a uma página de aterrissagem pode ser restrito a visitantes identificados, que vêm de um link em uma mensagem enviada pelo Campaign, por exemplo, ou a uma unidade organizacional específica.
+No caso de visitantes identificados, é possível pré-carregar seus dados na página de aterrissagem. Para fazer isso:
 
 1. Edite as propriedades da página inicial acessadas pelo ![](assets/edit_darkgrey-24px.png) ícone no painel da página inicial e exiba os **[!UICONTROL Access & loading]** parâmetros.
 
@@ -384,6 +385,26 @@ Você também pode:
 
 * Use os parâmetros de URL para identificar os visitantes, usando a **[!UICONTROL Authorize visitor identification via URL parameters]** opção: em seguida, você deve escolher a chave de carregamento e mapear os parâmetros de filtro com os parâmetros do URL correspondente.
 * Autorize qualquer visitante a acessar a página de aterrissagem usando a **[!UICONTROL Authorize unidentified visitors]** opção.
+
+As páginas iniciais também podem ser vinculadas a uma unidade organizacional. Isso definirá o acesso dos usuários às diferentes páginas iniciais. Para atribuir uma unidade organizacional:
+
+1. Acesse as propriedades da página inicial por meio do **[!UICONTROL Edit properties]** ícone.
+
+   ![](assets/lp_parameters_google3.png)
+
+1. Desdobre o **[!UICONTROL Access authorization]**.
+
+1. Clique no menu suspenso e selecione sua unidade organizacional. Para obter mais informações sobre como criar a unidade organizacional, consulte esta [página](../../administration/using/organizational-units.md).
+
+   ![](assets/lp_org_unit_2.png)
+
+1. Os campos **[!UICONTROL Created by]**, **[!UICONTROL Created]** e **[!UICONTROL Access authorization]** e **[!UICONTROL Last modified]** são automaticamente concluídos.
+
+1. Clique em **[!UICONTROL Confirm]** e em **[!UICONTROL Save]**.
+
+Sua página inicial agora só pode ser acessada e gerenciada por usuários na unidade organizacional escolhida.
+
+![](assets/lp_org_unit_3.png)
 
 ## Configuração do Google reCAPTCHA {#setting-google-recaptcha}
 
