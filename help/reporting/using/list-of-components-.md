@@ -2,454 +2,466 @@
 title: 'Lista de componentes '
 seo-title: 'Lista de componentes '
 description: 'Lista de componentes '
-seo-description: Encontre aqui a lista de todos os componentes disponíveis em relatórios Dinâmicos, bem como suas definições.
+seo-description: Encontre aqui a lista de todos os componentes disponíveis em Relatórios dinâmicos, bem como suas definições.
 page-status-flag: nunca ativado
-uuid: a 2403806-8 df 4-4 bb 1-bac 2-2689 dc 584 ae 0
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: relatórios
-content-type: reference
-topic-tags: about-reporting
-discoiquuid: 17 cf 126 a -7 ce 1-4 e 11-bb 5 e -2 bdce 01 cfded
+uuid: a2403806-8df4-4bb1-bac2-2689dc584ae0
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: relatório
+content-type: referência
+topic-tags: relatórios sobre
+discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
+source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
 
 ---
 
 
-# List of components {#list-of-components}
+# Lista de componentes {#list-of-components}
 
-To learn more on compatibility between dimensions and metrics, refer to this [table](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf). If two components are not compatible, the cell will display the value **None**.
+Para saber mais sobre a compatibilidade entre dimensões e métricas, consulte esta [tabela](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf). Se dois componentes não forem compatíveis, a célula exibirá o valor **Nenhum**.
 
 ![](assets/dynamic_report_compatibility.png)
 
-## Dimensions {#dimensions}
+## Dimensões {#dimensions}
 
 A tabela abaixo fornece a lista de dimensões usadas nos relatórios e suas definições.
 
 <table> 
  <thead> 
   <tr> 
-   <th> Dimension<br /> </th> 
-   <th> Definition<br /> </th> 
+   <th> Dimensão<br /> </th> 
+   <th> Definição<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Browser<br /> </td> 
-   <td> Browser from which the message was opened or clicked on.<br /> </td> 
+   <td> Navegador<br /> </td> 
+   <td> Navegador no qual a mensagem foi aberta ou clicada.<br /> </td> 
   </tr> 
   <tr> 
    <td> Campaign<br /> </td> 
-   <td> Label and ID of your campaign.<br /> </td> 
+   <td> Rótulo e ID da sua campanha.<br /> </td> 
   </tr> 
   <tr> 
-   <td> City<br /> </td> 
-   <td> City registered in the recipient's profile.<br /> </td> 
+   <td> Cidade<br /> </td> 
+   <td> Cidade registrada no perfil do destinatário.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Country<br /> </td> 
-   <td> Country registered in the recipient's profile.<br /> </td> 
+   <td> País<br /> </td> 
+   <td> País registrado no perfil do destinatário.<br /> </td> 
   </tr> 
   <tr> 
    <td> Delivery<br /> </td> 
-   <td> Label and ID of the delivery.<br /> </td> 
+   <td> Rótulo e ID da entrega.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Device<br /> </td> 
-   <td> Device from which the email/SMS/push notification was opened/viewed/clicked on.<br /> </td> 
+   <td> Dispositivo<br /> </td> 
+   <td> Dispositivo a partir do qual a notificação por email/SMS/push foi aberta/visualizada/clicada.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Gender<br /> </td> 
-   <td> Gênero do destinatário, como masculino ou feminino. If the gender field is empty in the recipient's profile, the value will be none.<br /> </td> 
+   <td> Motivo da falha<br /> </td> 
+   <td> Tipos de erros que causaram saltos para cada entrega, por exemplo, usuário desconhecido, domínio inválido ou caixa de correio cheia.<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-App message actions<br /> </td> 
-   <td> Actions on the In-App message delivered, e.g. actions on button 1 or 2 or dismissals.<br /> </td> 
+   <td> Sexo<br /> </td> 
+   <td> Gênero do destinatário, como masculino ou feminino. Se o campo gênero estiver vazio no perfil do destinatário, o valor será nenhum.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Message type<br /> </td> 
-   <td> Channel used for the delivery, such as email, SMS, push notification or In-App.<br /> </td> 
+   <td> Ações de mensagens no aplicativo<br /> </td> 
+   <td> Ações na mensagem no aplicativo fornecida, por exemplo, ações no botão 1 ou 2 ou demissões.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Mobile App name<br /> </td> 
-   <td> Name of the mobile application<br /> </td> 
+   <td> Tipo de mensagem<br /> </td> 
+   <td> Canal usado para a entrega, como email, SMS, notificação por push ou no aplicativo.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Platform<br /> </td> 
-   <td> Platform of the device from which the message was opened/viewed/clicked on.<br /> </td> 
+   <td> Nome do aplicativo móvel<br /> </td> 
+   <td> Nome do aplicativo móvel<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Plataforma<br /> </td> 
+   <td> Plataforma do dispositivo a partir do qual a mensagem foi aberta/visualizada/clicada.<br /> </td> 
   </tr> 
   <tr> 
    <td> Profiles<br /> </td> 
-   <td> Regroups out-of-the-box and custom profile fields created during the profile resource extension, for more on this refer to this <a href="../../developing/using/key-steps-to-add-a-resource.md">page</a> or this <a href="../../reporting/using/creating-a-custom-profile-dimension.md">example</a>.<br /> Observe que os dados dessa dimensão são recuperados assim que o recurso personalizado vinculado ao campo do perfil é publicado.<br /> </td> 
+   <td> Reagrupa campos predefinidos e de perfil personalizados criados durante a extensão do recurso de perfil, para obter mais informações, consulte esta <a href="../../developing/using/key-steps-to-add-a-resource.md">página</a> ou este <a href="../../reporting/using/creating-a-custom-profile-dimension.md">exemplo</a>.<br /> Observe que os dados para essa dimensão são recuperados assim que o recurso personalizado vinculado ao campo de perfil é publicado.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Push platform<br /> </td> 
-   <td> Platform of the device from which the push notification was opened, such as iOS or Android.<br /> </td> 
+   <td> Plataforma push<br /> </td> 
+   <td> Plataforma do dispositivo a partir do qual a notificação por push foi aberta, como iOS ou Android.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Recipient domain<br /> </td> 
-   <td> Domain used to open the email.<br /> </td> 
+   <td> Domínio do destinatário<br /> </td> 
+   <td> Domínio usado para abrir o email.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Recurring delivery<br /> </td> 
-   <td> Label and ID of the recurring delivery.<br /> </td> 
+   <td> Delivery recorrente<br /> </td> 
+   <td> Rótulo e ID da entrega recorrente.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Sender domain<br /> </td> 
-   <td> Domain used to send the email.<br /> </td> 
+   <td> Domínio do remetente<br /> </td> 
+   <td> Domínio usado para enviar o email.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Sender IP<br /> </td> 
-   <td> IP used to send the email.<br /> </td> 
+   <td> IP do remetente<br /> </td> 
+   <td> IP usado para enviar o email.<br /> </td> 
   </tr> 
   <tr> 
-   <td> State<br /> </td> 
-   <td> State registered in the recipient's profile.<br /> </td> 
+   <td> Estado<br /> </td> 
+   <td> Estado registrado no perfil do destinatário.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tracking URL<br /> </td> 
-   <td> URL that was clicked on by the user from the message.<br /> </td> 
+   <td> URL de rastreamento<br /> </td> 
+   <td> URL clicado pelo usuário na mensagem.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tracking URL category<br /> </td> 
-   <td> Category assigned to the tracking URL.<br /> </td> 
+   <td> Rastrear categoria de URL<br /> </td> 
+   <td> Categoria atribuída ao URL de rastreamento.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tracking URL label<br /> </td> 
-   <td> Label given to the URL, such as mirror page, contact us or open.<br /> </td> 
+   <td> Rastreamento do rótulo do URL<br /> </td> 
+   <td> Rótulo fornecido ao URL, como página espelhada, entre em contato conosco ou abra.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Transactional delivery<br /> </td> 
-   <td> Label and ID of the transactional delivery.<br /> </td> 
+   <td> Entrega transacional<br /> </td> 
+   <td> Rótulo e ID da entrega transacional.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Variant<br /> </td> 
-   <td> Variant of the email in case of A/B testing.<br /> </td> 
+   <td> Variante<br /> </td> 
+   <td> Variante do email no caso de teste A/B.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Metrics {#metrics}
+## Métricas {#metrics}
 
-As tabelas abaixo fornecem a você a lista de métricas usadas nos relatórios e suas definições dependendo do tipo de entrega.
+As tabelas abaixo fornecem a lista de métricas usadas nos relatórios e suas definições, dependendo do tipo de entrega.
 
-### Email and SMS metrics {#email-and-sms-metrics}
+### Métricas de email e SMS {#email-and-sms-metrics}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Metric<br /> </th> 
-   <th> Definition<br /> </th> 
+   <th> Métrica<br /> </th> 
+   <th> Definição<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Blacklisted<br /> </td> 
-   <td> Number of recipients who have declared an email as spam or junk.<br /> </td> 
+   <td> Lista negra<br /> </td> 
+   <td> Número de destinatários que declararam um email como spam ou lixo eletrônico.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Blacklisted rate<br /> </td> 
-   <td> Percentage of deliveries marked as blacklisted.<br /> </td> 
+   <td> Taxa da lista negra<br /> </td> 
+   <td> Percentagem de entregas marcadas como proibidas.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounces + Errors<br /> </td> 
-   <td> Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.<br /> </td> 
+   <td> Rejeições + Erros<br /> </td> 
+   <td> Total de erros acumulados durante a entrega e o processamento automático de retorno em relação ao número total de mensagens enviadas.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounce + Error rate<br /> </td> 
-   <td> Percentage of emails that bounced compared to email sent.<br /> </td> 
+   <td> Salto + Taxa de erro<br /> </td> 
+   <td> Porcentagem de emails que retornaram em comparação ao email enviado.<br /> </td> 
   </tr> 
   <tr> 
    <td> Clique em<br /> </td> 
-   <td> Number of times a content was clicked in a delivery.<br /> </td> 
+   <td> Número de vezes que um conteúdo foi clicado em uma entrega.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Click through rate<br /> </td> 
-   <td> Percentage of clicks in a delivery.<br /> </td> 
+   <td> Taxa de cliques<br /> </td> 
+   <td> Porcentagem de cliques em uma entrega.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered<br /> </td> 
-   <td> Number of messages successfully sent, in relation to the total number of sent messages.<br /> </td> 
+   <td> Entregue<br /> </td> 
+   <td> Número de mensagens enviadas com êxito, em relação ao número total de mensagens enviadas.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered rate<br /> </td> 
-   <td> Percentage of messages successfully sent.<br /> </td> 
+   <td> Taxa entregue<br /> </td> 
+   <td> Porcentagem de mensagens enviadas com êxito.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Hard bounce<br /> </td> 
-   <td> Total number of permanent errors, such as a wrong email address.<br /> </td> 
+   <td> Rejeição forçada<br /> </td> 
+   <td> O número total de erros permanentes, como um endereço de email incorreto.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Hard bounce rate<br /> </td> 
-   <td> Percentage of deliveries that failed due to permanent errors.<br /> </td> 
+   <td> Taxa de rejeição em disco<br /> </td> 
+   <td> Porcentagem de entregas que falharam devido a erros permanentes.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Mirror page<br /> </td> 
-   <td> Number of recipients who clicked on the mirror page link.<br /> </td> 
+   <td> Página de espelhamento<br /> </td> 
+   <td> Número de destinatários que clicaram no link da página espelhada.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Mirror page rate<br /> </td> 
-   <td> Percentage of clicks on the mirror page link compared to the total delivery messages.<br /> </td> 
+   <td> Taxa de páginas espelhadas<br /> </td> 
+   <td> Porcentagem de cliques no link da página espelhada em comparação ao total de mensagens de entrega.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Offer clicks<br /> </td> 
-   <td> Number of time an offer was clicked on in a delivery.<br /> </td> 
+   <td> Cliques na oferta<br /> </td> 
+   <td> Número de vezes que uma oferta foi clicada em uma entrega.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Offer click rate<br /> </td> 
-   <td> Percentage of clicks on an offer.<br /> </td> 
+   <td> Taxa de cliques da oferta<br /> </td> 
+   <td> Porcentagem de cliques em uma oferta.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Open<br /> </td> 
-   <td> Number of times a message was opened in a delivery.<br /> </td> 
+   <td> Abertura<br /> </td> 
+   <td> Número de vezes que uma mensagem foi aberta em uma entrega.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Open rate<br /> </td> 
-   <td> Percentage of opened messages.<br /> </td> 
+   <td> Taxa aberta<br /> </td> 
+   <td> Porcentagem de mensagens abertas.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Processed/sent<br /> </td> 
-   <td> Total number of sends for the delivery.<br /> </td> 
+   <td> Processado/enviado<br /> </td> 
+   <td> O número total de envios para a entrega.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Quarantine<br /> </td> 
-   <td> Number of messages that bounced and resulted in the quarantine of the address.<br /> </td> 
+   <td> Quarentena<br /> </td> 
+   <td> Número de mensagens que retornou e resultaram na quarentena do endereço.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Quarantine rate<br /> </td> 
-   <td> Percentage of quarantines compared to sent messages.<br /> </td> 
+   <td> Taxa de quarentena<br /> </td> 
+   <td> Porcentagem de quarentena em comparação a mensagens enviadas.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Rejected<br /> </td> 
-   <td> Number of messages classified as spam by the SMTP servers.<br /> </td> 
+   <td> Rejeitada<br /> </td> 
+   <td> Número de mensagens classificadas como spam pelos servidores SMTP.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Rejected rate<br /> </td> 
-   <td> Percentage of messages marked as rejected.<br /> </td> 
+   <td> Taxa de rejeição<br /> </td> 
+   <td> Porcentagem de mensagens marcadas como rejeitadas.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Soft bounce<br /> </td> 
-   <td> Total number of temporary errors, such as a full inbox.<br /> </td> 
+   <td> Rejeição suave<br /> </td> 
+   <td> Número total de erros temporários, como uma caixa de entrada completa.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Soft bounce rate<br /> </td> 
-   <td> Percentage of deliveries that failed due to temporary reason.<br /> </td> 
+   <td> Taxa de rejeição suave<br /> </td> 
+   <td> Porcentagem de entregas que falharam devido a um motivo temporário.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique clicks<br /> </td> 
-   <td> Number of recipients who clicked on a content in a delivery.<br /> </td> 
+   <td> Cliques únicos<br /> </td> 
+   <td> Número de destinatários que clicaram em um conteúdo em uma entrega.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique opens<br /> </td> 
-   <td> Number of recipients who opened the delivery.<br /> </td> 
+   <td> Aberturas exclusivas<br /> </td> 
+   <td> Número de destinatários que abriram a entrega.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unsubscribe rate<br /> </td> 
-   <td> Percentage of unsubscriptions by recipient compared to the delivered messages.<br /> </td> 
+   <td> Taxa de cancelamento de inscrição<br /> </td> 
+   <td> Porcentagem de cancelamentos de assinaturas por destinatário em comparação às mensagens entregues.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unsubscribed<br /> </td> 
-   <td> Number of clicks on the unsubscription link.<br /> </td> 
+   <td> Inscrito<br /> </td> 
+   <td> Número de cliques no link unsubscription.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Push notification metrics {#push-notification-metrics}
+### Métricas de notificação por push {#push-notification-metrics}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Metric<br /> </th> 
-   <th> Definition<br /> </th> 
+   <th> Métrica<br /> </th> 
+   <th> Definição<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Bounces + Errors<br /> </td> 
-   <td> Total of errors cumulated during delivery in relation to the total number of sent messages, e.g. errors from MCPNS or provider.<br /> </td> 
+   <td> Rejeições + Erros<br /> </td> 
+   <td> Total de erros acumulados durante a entrega em relação ao número total de mensagens enviadas, por exemplo, erros do MCPNS ou do provedor.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounce + Error rate<br /> </td> 
-   <td> Percentage of push notifications that bounced compared to push notifications sent.<br /> </td> 
+   <td> Salto + Taxa de erro<br /> </td> 
+   <td> Porcentagem de notificações por push que pularam em comparação a notificações por push enviadas.<br /> </td> 
   </tr> 
   <tr> 
    <td> Clique em<br /> </td> 
-   <td> Número de vezes que uma notificação por push foi entregue ao dispositivo e clicada pelo usuário. The user either wanted to view the notification, which will then be moved to Push Open tracking, or dismiss it.<br /> </td> 
+   <td> Número de vezes que uma notificação por push foi entregue ao dispositivo e clicada pelo usuário. O usuário deseja exibir a notificação, que será movida para o rastreamento Push Open ou ignorá-la.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Click through rate<br /> </td> 
-   <td> Percentage of users who interacted with the push notification.<br /> </td> 
+   <td> Taxa de cliques<br /> </td> 
+   <td> Porcentagem de usuários que interagiram com a notificação por push.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered<br /> </td> 
-   <td> Number of push notifications successfully sent, in relation to the total number of sent push notifications.<br /> </td> 
+   <td> Entregue<br /> </td> 
+   <td> Número de notificações por push enviadas com êxito, em relação ao número total de notificações por push enviadas.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered rate<br /> </td> 
-   <td> Percentage of push notifications successfully sent.<br /> </td> 
+   <td> Taxa entregue<br /> </td> 
+   <td> Porcentagem de notificações por push enviadas com êxito.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Impressions<br /> </td> 
-   <td> Número de vezes que uma notificação por push foi entregue ao dispositivo e à esquerda não é exibida na central de notificações. Na maioria dos casos, o número de impressões deve ser similar ao número fornecido. This ensures that the device got the message and relayed that information back to the server.<br /> </td> 
+   <td> Impressões<br /> </td> 
+   <td> Número de vezes que uma notificação por push foi entregue ao dispositivo e deixada inalterada no centro de notificações. Na maioria dos casos, o número de impressões deve ser semelhante ao número fornecido. Isso garante que o dispositivo recebeu a mensagem e repassou essas informações para o servidor.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Processed/sent<br /> </td> 
-   <td> Total number of push notifications sent.<br /> </td> 
+   <td> Processado/enviado<br /> </td> 
+   <td> Número total de notificações por push enviadas.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Open<br /> </td> 
-   <td> O número total de notificações por push entregues ao dispositivo e clicado por usuários abrindo o aplicativo. This is similar to the Push Click except a Push Open will not be triggered if the notification was dismissed.<br /> </td> 
+   <td> Abertura<br /> </td> 
+   <td> O número total de notificações por push entregues ao dispositivo e clicadas pelos usuários, abrindo o aplicativo. Isso é semelhante ao clique de push, exceto que a opção Abrir push não será acionada se a notificação for descartada.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Open rate<br /> </td> 
-   <td> Percentage of opened push notifications.<br /> </td> 
+   <td> Taxa aberta<br /> </td> 
+   <td> Porcentagem de notificações por push abertas.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique click<br /> </td> 
-   <td> Number of times a unique user interacts with the push notification, e.g. clicks on the notification or button.<br /> </td> 
+   <td> Clique único<br /> </td> 
+   <td> Número de vezes que um usuário único interage com a notificação por push, por exemplo, clica na notificação ou botão.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique impressions<br /> </td> 
-   <td> Number of impressions by recipient.<br /> </td> 
+   <td> Impressões exclusivas<br /> </td> 
+   <td> Número de impressões por destinatário.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique Opens<br /> </td> 
-   <td> Number of recipients who opened the delivery.<br /> </td> 
+   <td> Aberturas únicas<br /> </td> 
+   <td> Número de destinatários que abriram a entrega.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### In-App metrics {#in-app-metrics}
+### Métricas no aplicativo {#in-app-metrics}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Metric<br /> </th> 
-   <th> Definition<br /> </th> 
+   <th> Métrica<br /> </th> 
+   <th> Definição<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Delivered<br /> </td> 
-   <td> Total number of In-App messages delivered to the device by the service provider.<br /> </td> 
+   <td> Entregue<br /> </td> 
+   <td> Número total de mensagens no aplicativo entregues ao dispositivo pelo provedor de serviços.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Impressions<br /> </td> 
-   <td> Total of In-App messages seen by recipients depending on whether trigger criterion was met.<br /> </td> 
+   <td> Impressões<br /> </td> 
+   <td> Total de mensagens no aplicativo vistas pelos destinatários, dependendo se o critério de disparo foi atendido.<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-App clicks <br /> </td> 
-   <td> Total number of recipients who clicked on Button 1 or Button 2.<br /> </td> 
+   <td> Cliques no aplicativo <br /> </td> 
+   <td> Número total de destinatários que clicaram no Botão 1 ou no Botão 2.<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-App click through rate<br /> </td> 
-   <td> Percentage of users who clicked on Button 1 or Button 2 compared to users who saw the message.<br /> </td> 
+   <td> Taxa de cliques no aplicativo<br /> </td> 
+   <td> A porcentagem de usuários que clicaram no Botão 1 ou no Botão 2 em comparação aos usuários que viram a mensagem.<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-App dismissal<br /> </td> 
-   <td> Total number of messages that recipients dismissed either by clicking the close button or auto-dismiss.<br /> </td> 
+   <td> Demissão no aplicativo<br /> </td> 
+   <td> O número total de mensagens que os destinatários dispensaram ao clicar no botão Fechar ou fechar automaticamente.<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-App dismissal rate<br /> </td> 
-   <td> Percentage of In-App messages that recipients dismissed.<br /> </td> 
+   <td> Taxa de demissão no aplicativo<br /> </td> 
+   <td> Porcentagem de mensagens no aplicativo que os destinatários rejeitaram.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Processed/sent<br /> </td> 
-   <td> Total number of In-App messages sent from Adobe Campaign as part of the delivery sent process.<br /> </td> 
+   <td> Processado/enviado<br /> </td> 
+   <td> O número total de mensagens no aplicativo enviadas do Adobe Campaign como parte do processo de entrega enviada.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique impressions<br /> </td> 
-   <td> Number of impressions by a unique recipient.<br /> </td> 
+   <td> Impressões exclusivas<br /> </td> 
+   <td> Número de impressões de um destinatário único.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique In-App clicks<br /> </td> 
-   <td> Number of times recipients clicked on Button 1 or Button 2.<br /> </td> 
+   <td> Cliques únicos no aplicativo<br /> </td> 
+   <td> Número de vezes que os destinatários clicaram no Botão 1 ou no Botão 2.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique In-App dismissals<br /> </td> 
-   <td> Number of time recipients dismissed an In-App message.<br /> </td> 
+   <td> Despedimentos únicos no aplicativo<br /> </td> 
+   <td> Número de vezes que os destinatários rejeitaram uma mensagem no aplicativo.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Segments {#segments}
+## Segmentos {#segments}
+
+>[!NOTE]
+>
+>Por padrão, o **[!UICONTROL Exclude proof]** segmento já está selecionado para filtrar seus relatórios, mas pode ser alterado se necessário.
 
 A tabela abaixo fornece a lista de segmentos usados nos relatórios e suas definições.
 
 <table> 
  <thead> 
   <tr> 
-   <th> Segment<br /> </th> 
-   <th> Definition<br /> </th> 
+   <th> Segmento<br /> </th> 
+   <th> Definição<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Age: Boomers 1<br /> </td> 
-   <td> Recipients born from 1946 to 1954.<br /> </td> 
+   <td> Idade: Boomers 1<br /> </td> 
+   <td> Destinatários nascidos de 1946 a 1954.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Boomers 2<br /> </td> 
-   <td> Recipients born from 1955 to 1965.<br /> </td> 
+   <td> Idade: Boomers 2<br /> </td> 
+   <td> Destinatários nascidos de 1955 a 1965.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: From 18 to 25<br /> </td> 
-   <td> Recipients from 18 to 25 years old.<br /> </td> 
+   <td> Idade: De 18 para 25<br /> </td> 
+   <td> Destinatários de 18 a 25 anos de idade.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: From 26 to 30<br /> </td> 
-   <td> Recipients from 26 to 30 years old.<br /> </td> 
+   <td> Idade: De 26 para 30<br /> </td> 
+   <td> Destinatários de 26 a 30 anos de idade.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: From 31 to 40<br /> </td> 
-   <td> Recipients from 31 to 40 years old.<br /> </td> 
+   <td> Idade: De 31 para 40<br /> </td> 
+   <td> Destinatários de 31 a 40 anos de idade.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: From 41 to 50<br /> </td> 
-   <td> Recipients from 41 to 50 years old.<br /> </td> 
+   <td> Idade: De 41 para 50<br /> </td> 
+   <td> Destinatários de 41 a 50 anos de idade.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Generation X<br /> </td> 
-   <td> Recipients born from 1966 to 1976.<br /> </td> 
+   <td> Idade: Geração X<br /> </td> 
+   <td> Destinatários nascidos de 1966 a 1976.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Generation Y (Millennials)<br /> </td> 
-   <td> Recipients born from 1977 to 1994.<br /> </td> 
+   <td> Idade: Geração Y (geração)<br /> </td> 
+   <td> Destinatários nascidos de 1977 a 1994.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Generation Z<br /> </td> 
-   <td> Recipients born from 1995 to today.<br /> </td> 
+   <td> Idade: Geração Z<br /> </td> 
+   <td> Destinatários nascidos de 1995 a hoje.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Greater than 50<br /> </td> 
-   <td> Recipients whose age is greater than 50.<br /> </td> 
+   <td> Idade: Maior que 50<br /> </td> 
+   <td> Destinatários com idade superior a 50 anos.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Less than 25<br /> </td> 
-   <td> Recipients whose age is less than 25.<br /> </td> 
+   <td> Idade: Menos de 25<br /> </td> 
+   <td> Destinatários com menos de 25 anos.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Less than 30<br /> </td> 
-   <td> Recipients whose age is less than 30.<br /> </td> 
+   <td> Idade: Menos de 30<br /> </td> 
+   <td> Destinatários com idade inferior a 30 anos.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Less than 40<br /> </td> 
-   <td> Recipients whose age is less than 40.<br /> </td> 
+   <td> Idade: Menos de 40<br /> </td> 
+   <td> Destinatários com menos de 40 anos.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Less than 50<br /> </td> 
-   <td> Recipients whose age is less than 50.<br /> </td> 
+   <td> Idade: Menos de 50<br /> </td> 
+   <td> Destinatários com menos de 50 anos.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Silent Generation<br /> </td> 
-   <td> Recipients born in 1945 or before.<br /> </td> 
+   <td> Idade: Geração silenciosa<br /> </td> 
+   <td> Destinatários nascidos em 1945 ou antes.<br /> </td> 
   </tr> 
   <tr> 
-   <td> All visits<br /> </td> 
-   <td> Every recipient<br /> </td> 
+   <td> Todas as visitas<br /> </td> 
+   <td> Cada destinatário<br /> </td> 
+  </tr> 
+    <tr> 
+   <td> Excluir prova<br /> </td> 
+   <td> Excluir provas de seus relatórios (iniciando somente a versão 19.4 do Campaign)<br /> </td> 
   </tr> 
  </tbody> 
 </table>
