@@ -4,32 +4,32 @@ seo-title: Sobre relatórios dinâmicos
 description: Sobre relatórios dinâmicos
 seo-description: Com relatórios dinâmicos, arraste e solte variáveis e dimensões em seu ambiente de forma livre e analise o sucesso de suas campanhas.
 page-status-flag: nunca ativado
-uuid: a 84 a 18 bd -4 e 33-466 e-a 6 ce-d 7008 fe 12746
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: relatórios
-content-type: reference
-topic-tags: about-reporting
-discoiquuid: bbb 41 c 38-12 c 1-4625-85 d 5-69627 e 2 f 4 b 39
+uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: relatório
+content-type: referência
+topic-tags: relatórios sobre
+discoiquuid: bbbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
+source-git-commit: 4d3f2efb118e07247caa15ef7edaa67657d164ea
 
 ---
 
 
-# About dynamic reports{#about-dynamic-reports}
+# Sobre relatórios dinâmicos{#about-dynamic-reports}
 
 >[!NOTE]
 >
->Only users with administration rights or with organizational units set to **All** can create or save a new report. For more on this, refer to this [section](../../administration/using/users-management.md).
+>Somente usuários com direitos administrativos ou com unidades organizacionais definidas como **Todos** podem criar ou salvar um novo relatório. Para obter mais informações, consulte esta [seção](../../administration/using/users-management.md).
 
 ![](assets/dynamic_report_intro.png)
 
-Os Relatórios dinâmicos fornecem relatórios totalmente personalizáveis e em tempo real. Ele adiciona acesso a dados de perfil, permitindo a análise demográfica por dimensões de perfil, como gênero, cidade e idade, além de dados funcionais da campanha por email, como abrir e clicar. Com a interface de arrastar e soltar, você pode explorar os dados, determinar como suas campanhas de email foram executadas em relação aos segmentos de clientes mais importantes e medir seu impacto nos destinatários.
+Os Relatórios dinâmicos fornecem relatórios totalmente personalizáveis e em tempo real. Ele adiciona acesso aos dados do perfil, permitindo a análise demográfica por dimensões de perfil, como gênero, cidade e idade, além de dados funcionais de campanha por email, como abrir e clicar. Com a interface de arrastar e soltar, você pode explorar dados, determinar como suas campanhas de email se comportam em relação aos segmentos de clientes mais importantes e medir seu impacto nos destinatários.
 
-Graças ao menu arrastar e soltar e visualizações personalizáveis, o recurso de relatórios dinâmicos permite combinar dimensões, métricas e intervalos de tempo em qualquer combinação, com detalhamentos e comparações ilimitadas.
+Graças ao menu arrastar e soltar e às visualizações personalizáveis, o recurso de relatórios dinâmicos permite combinar dimensões, métricas e intervalo de tempo em qualquer combinação, com detalhamentos e comparações ilimitados.
 
 
 **Tópicos relacionados:**
@@ -38,53 +38,61 @@ Graças ao menu arrastar e soltar e visualizações personalizáveis, o recurso 
 * [Unidades organizacionais](../../administration/using/organizational-units.md)
 * [Vídeo de relatórios](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-dynamic-report-feature-video-use.html) dinâmicos
 
-## Accessing dynamic reports {#accessing-dynamic-reports}
+## Acesso a relatórios dinâmicos {#accessing-dynamic-reports}
 
 Os relatórios podem ser acessados:
 
-* From the home page by selecting **[!UICONTROL Reports]** tab in the top bar or the **[!UICONTROL Reports]** card to access reports for all deliveries.
+* Na página inicial, selecionando a **[!UICONTROL Reports]** guia na barra superior ou o **[!UICONTROL Reports]** cartão para acessar os relatórios de todas as entregas.
 
    ![](assets/campaign_reports_access.png)
 
-* In each program, campaign, and message, from the **Reports** button by clicking **Dynamic Reports** to only view the reports specific to the delivery.
+* Em cada programa, campanha e mensagem, no botão **Relatórios** , clicando em Relatórios **** dinâmicos para exibir somente os relatórios específicos da entrega.
 
    ![](assets/campaign_reports_description.png)
 
-Alguns relatórios não podem estar disponíveis imediatamente após uma entrega, dependendo do tempo necessário para coletar e processar as informações.
+Determinados relatórios não podem estar disponíveis imediatamente após uma entrega, dependendo do tempo necessário para coletar e processar informações.
 
 Os relatórios dinâmicos são divididos em duas categorias:
 
-* **Modelos**, que podem ser modificados copiando-os usando a opção **Salvar como** (**Projeto &gt; Salvar como.**) no modelo.
-* **Relatórios** personalizados (identificados em azul), que podem ser criados diretamente clicando no **botão Criar novo projeto** na página inicial **dos Relatórios** .
+* **Modelos**, que podem ser modificados copiando-os usando a opção **Salvar como** (**Projeto &gt; Salvar como...**) no modelo.
+* **Relatórios** personalizados (identificados em azul), que podem ser criados diretamente clicando no botão **Criar novo projeto** na página inicial **Relatórios** .
 
 >[!NOTE]
 >
->Os dados são filtrados dependendo das unidades organizacionais.
+>Os dados são filtrados dependendo de suas unidades organizacionais.
 
 ![](assets/dynamic_report_overview.png)
 
+## Contrato de uso de relatório dinâmico {#dynamic-reporting-usage-agreement}
 
-## Dynamic reporting usage agreement {#dynamic-reporting-usage-agreement}
+>[!NOTE]
+>
+>Essas alterações só se aplicam a partir da versão 19.4 do Campaign Standard.
 
-Os relatórios dinâmicos permitem filtrar seu relatório com base nos dados de perfil com as dimensões do perfil.
-
-As dimensões do perfil só podem ser exibidas e usadas em seus relatórios após aceitarem o contrato de uso de relatório dinâmico. Por padrão, o contrato só pode ser visto e pode ser aceito ou recusado por usuários atribuídos com direitos de administração.
-
-Este contrato permite a transferência e o armazenamento nos Estados Unidos dos seguintes dados de perfil: cidade, país/região, estado, gênero e segmentos da idade.
-
-Ao aceitar esse contrato, todos os dados europeus e não europeus serão transferidos para os Estados Unidos.
-
-![](assets/pii_window.png)
+A finalidade do contrato de uso de relatório dinâmico é funcionar como um consentimento pop-up para o processamento de dados. Por padrão, o contrato só é visível e só pode ser aceito ou recusado por usuários atribuídos com direitos administrativos.
 
 Três opções estão disponíveis:
 
 * **[!UICONTROL Ask me later]**: Ao clicar em Perguntar mais tarde, a janela parará de ser exibida por 24 horas.
-* **[!UICONTROL Accept]**: Ao aceitar este contrato, você autoriza o Adobe Campaign a coletar as informações de identificação pessoal dos clientes e a transferi-las para os Estados Unidos.
-* **[!UICONTROL Decline]**: Ao recusar o contrato, as dimensões do perfil não aparecerão em seus relatórios e as informações de identificação pessoal dos clientes não serão coletadas ou enviadas.
+* **[!UICONTROL Accept]**: Ao aceitar este contrato, você autoriza o Adobe Campaign a coletar as informações de identificação pessoal de seus clientes e a transferi-las para o relatório ou data center.
+* **[!UICONTROL Decline]**: Ao recusar o contrato, as dimensões do perfil não aparecerão em seus relatórios e as informações de identificação pessoal de seus clientes não serão coletadas ou enviadas. Observe que, nesse caso, a externalID ainda será coletada e usada para identificar usuários finais.
 
-This choice is not final, you can always change it by selecting **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** in **[!UICONTROL Administration]** &gt; **[!UICONTROL Application Settings]** &gt; **[!UICONTROL Options]**.
+A tabela abaixo exibe o que acontece depois de aceitar este contrato, dependendo da sua região.
 
-O valor pode ser alterado a qualquer momento. The value -1 corresponds to **[!UICONTROL Ask me later]**, 1 **[!UICONTROL Accept]** and 0 **[!UICONTROL Decline]**.
+|  | Relatório dinâmico | Conector do Microsoft Dynamics 365 |
+|---|---|---|
+| Américas e APAC (Pacífico Asiático) | **Recurso disponível**. <br>Todas as informações prontas para uso (ou seja, cidade, país/região, estado, gênero e segmentos com base na idade) e perfis personalizados encaminhados para o centro de relatórios dos EUA. For more information on profile dimensions, refer to this [page](../../reporting/using/list-of-components-.md) | **Recurso disponível**. <br>Todos os campos de perfis prontos e personalizados e os campos de eventos do Adobe Campaign Standard são processados no data center dos EUA. |
+| EMEA (Europa, Oriente Médio e África) | **Recurso disponível**. <br>Todas as informações prontas para uso (ou seja, cidade, país/região, estado, gênero e segmentos com base na idade) e perfis personalizados encaminhados para o centro de relatórios da EMEA. For more information on profile dimensions, refer to this [page](../../reporting/using/list-of-components-.md) | **Recurso disponível.** Campos de perfis <br>prontos e personalizados e campos de eventos do Adobe Campaign Standard processados no data center da EMEA. **[!UICONTROL Control data]** que contém dados de registro de E/S da Adobe e IDs de eventos de usuários finais do cliente enviados e armazenados no data center dos EUA. |
+
+A tabela abaixo mostra o que acontece depois de recusar este contrato, dependendo da sua região. Observe que mesmo se você recusar este contrato, os relatórios sobre entregas e integração com o Microsoft Dynamics 365 ainda estarão disponíveis.
+
+| Região | Relatório dinâmico | Conector do Microsoft Dynamics 365 |
+|---|---|---|
+| Américas e APAC (Pacífico Asiático) | **Recurso disponível**. <br> Nenhuma informação predefinida e personalizada de perfis enviada para o centro de relatórios dos EUA, com exceção da ExternalID. | **Recurso disponível**. <br>Nenhum campo de perfil personalizado ou predefinido enviado para o centro de dados dos EUA, com exceção da ID externa e da ID do destinatário. <br>Todos os campos de evento do Adobe Campaign Standard processados no data center dos EUA, com exceção do código do segmento e da ID da página espelhada. |
+| EMEA (Europa, Oriente Médio e África) | **Recurso disponível**. <br>Nenhuma informação predefinida e personalizada de perfis enviada para o centro de relatórios da EMEA, com exceção da ExternalID. | **Recurso disponível.** <br>Nenhum campo de perfil personalizado ou predefinido enviado para o centro de dados da EMEA, com exceção da ID externa e da ID do destinatário. <br>Todos os campos de evento do Adobe Campaign Standard processados no centro de dados EMEA, com exceção do código de segmento e da ID da página espelhada. |
+
+Essa opção não é final, você sempre pode alterá-la selecionando **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** &gt; **[!UICONTROL Administration]** &gt; **[!UICONTROL Application Settings]** &gt; **[!UICONTROL Options]**.
+
+O valor pode ser alterado a qualquer momento. O valor 1 corresponde a **[!UICONTROL Ask me later]**, 2 **[!UICONTROL Decline]** e 3 **[!UICONTROL Accept]**.
 
 ![](assets/pii_window_2.png)
-
