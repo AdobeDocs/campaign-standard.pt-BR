@@ -4,43 +4,43 @@ seo-title: Solução de problemas
 description: Solução de problemas
 seo-description: Encontre aqui perguntas comuns relacionadas aos relatórios dinâmicos.
 page-status-flag: nunca ativado
-uuid: a 84 a 18 bd -4 e 33-466 e-a 6 ce-d 7008 fe 12746
-contentOwner: beneat
-products: SG_ CAMPAIGN/STANDARD
-audience: relatórios
-content-type: reference
+uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
+contentOwner: comida
+products: SG_CAMPAIGN/STANDARD
+audience: relatório
+content-type: referência
 topic-tags: solução de problemas
-discoiquuid: bbb 41 c 38-12 c 1-4625-85 d 5-69627 e 2 f 4 b 39
+discoiquuid: bbbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e0cbdfecde495d7c9f8bfa33dd5ee8598cdfe60a
+source-git-commit: 0ccb6df9b3de49baf1a230547c33f5d2246c0e85
 
 ---
 
 
-# Troubleshooting{#troubleshooting}
+# Solução de problemas{#troubleshooting}
 
-Você pode encontrar nesta seção perguntas comuns relacionadas ao relatório dinâmico.
+Nesta seção, você pode encontrar perguntas comuns relacionadas aos relatórios dinâmicos.
 
-## For Unique opens and Unique clicks, the count in the aggregate row is not matching the ones in individual rows {#unique-open-clicks-no-match}
+## Para abertos exclusivos e cliques exclusivos, a contagem na linha agregada não corresponde àqueles em linhas individuais {#unique-open-clicks-no-match}
 
-Esse é um comportamento esperado.
-Podemos usar o seguinte exemplo para explicar esse comportamento.
+Este é um comportamento esperado.
+Podemos pegar o exemplo a seguir para explicar esse comportamento.
 
-Um email é enviado para perfis P 1 e P 2.
+Um email é enviado para os perfis P1 e P2.
 
-O P 1 abre o email duas vezes no primeiro dia e, em seguida, em tempo de árvore no segundo dia.
+P1 abre o email duas vezes no primeiro dia e três vezes no segundo dia.
 
-Considerando que P 2 abre o email uma vez no primeiro dia e não o abre novamente nos dias seguintes.
+Enquanto isso, P2 abre o email uma vez no primeiro dia e não o abre novamente nos dias seguintes.
 Esta é uma representação visual da interação dos perfis com o email enviado:
 
 <table> 
  <thead> 
   <tr> 
    <th align="center"> <strong>Dia</strong><br /> </th> 
-   <th align="center"> <strong>Aberturas</strong><br /> </th> 
-   <th align="center"> <strong>Aberturas únicas</strong><br /> </th> 
+   <th align="center"> <strong>Abre</strong><br /> </th> 
+   <th align="center"> <strong>Aberturas</strong> exclusivas <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -57,9 +57,9 @@ Esta é uma representação visual da interação dos perfis com o email enviado
  </tbody> 
 </table>
 
-To understand the overall number of unique opens, we need to sum up the row counts of **[!UICONTROL Unique Opens]** which gives us the value 3. Mas como o email foi direcionado para apenas 2 perfis, a taxa de Abertura deve mostrar 150%.
+Para entender o número total de aberturas únicas, precisamos somar as contagens de linhas das **[!UICONTROL Unique Opens]** quais nos dá o valor 3. Mas como o e-mail foi direcionado para apenas 2 perfis, a taxa de abertura deve mostrar 150%.
 
-To not obtain percentage higher than 100, the definition of **[!UICONTROL Unique Opens]** is maintained to be the number of unique broadlogs that were opened. Nesse caso, mesmo se P 1 abrir o e-mail no Dia 1 e no Dia 2, sua abertura exclusiva ainda será 1.
+Para não obter uma porcentagem superior a 100, a definição de **[!UICONTROL Unique Opens]** é mantida como o número de publicações exclusivas que foram abertas. Nesse caso, mesmo se P1 abrir o email no Dia 1 e no Dia 2, suas aberturas exclusivas ainda serão 1.
 
 Isso resultará na seguinte tabela:
 
@@ -67,8 +67,8 @@ Isso resultará na seguinte tabela:
  <thead> 
   <tr> 
    <th align="center"> <strong>Dia</strong><br /> </th> 
-   <th align="center"> <strong>Aberturas</strong><br /> </th> 
-   <th align="center"> <strong>Aberturas únicas</strong><br /> </th> 
+   <th align="center"> <strong>Abre</strong><br /> </th> 
+   <th align="center"> <strong>Aberturas</strong> exclusivas <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -87,35 +87,35 @@ Isso resultará na seguinte tabela:
 
 >[!NOTE]
 >
->Contagens únicas são baseadas em um rascunho baseado em HLL, isso pode causar pequenas imprecisões em grandes contagens.
+>Contagens exclusivas são baseadas em um rascunho baseado em HLL, isso pode causar pequenas imprecisões em contagens grandes.
 
-## Open counts do not match the Database count {#open-counts-no-match-database}
+## Contagens abertas não correspondem à contagem do Banco de Dados {#open-counts-no-match-database}
 
-This may be due to the fact that, heuristics are used in Dynamic reporting to track opens even when we can't track the **[!UICONTROL Open]** action.
+Isso pode ser devido ao fato de que as heurísticas são usadas em relatórios dinâmicos para rastrear aberturas, mesmo quando não é possível rastrear a **[!UICONTROL Open]** ação.
 
-For example, if a user has disabled images on their client and click on a link in the email, the **[!UICONTROL Open]** may not be tracked by the database but the **[!UICONTROL Click]** will.
+Por exemplo, se um usuário tiver desabilitado imagens em seu cliente e clicar em um link no email, o usuário não **[!UICONTROL Open]** poderá ser rastreado pelo banco de dados, mas o **[!UICONTROL Click]** fará.
 
-Therefore, the **[!UICONTROL Open]** tracking logs counts may not have the same count in the database.
+Portanto, as contagens dos logs de **[!UICONTROL Open]** rastreamento podem não ter a mesma contagem no banco de dados.
 
-Such occurrences are added as **"an email click implies an email open"**.
+Tais ocorrências são adicionadas como **"um clique de email implica uma abertura de email"**.
 
 >[!NOTE]
 >
->Como as contagens únicas são baseadas em um rascunho baseado em HLL, é possível observar inconsistências menores entre as contagens.
+>Como as contagens exclusivas são baseadas em um rascunho baseado em HLL, podem ocorrer pequenas inconsistências entre as contagens.
 
-## Como as contagens de entregas recorrentes/transacionais são calculadas?
+## Como são calculadas as contagens de entregas recorrentes/transacionais?
 
 Ao trabalhar com entregas recorrentes e transacionais, as contagens serão atribuídas às entregas pai e filho.
 
-We can take the example of a recurring delivery named **R1** set to run every day on day 1 (RC1), day 2 (RC2) and day 3 (RC3).
+Podemos pegar o exemplo de uma entrega recorrente chamada **R1** definida para ser executada todos os dias no dia 1 (RC1), no dia 2 (RC2) e no dia 3 (RC3).
 
-Vamos supor que somente uma única pessoa abriu todas as entregas secundárias várias vezes. In this case, the individual recurring child deliveries will show the **[!UICONTROL Open]** count as 1 for each.
+Vamos supor que apenas uma única pessoa abriu todas as entregas secundárias várias vezes. Nesse caso, as entregas secundárias recorrentes individuais mostrarão a **[!UICONTROL Open]** contagem como 1 para cada entrega.
 
-However, since the same person clicked on all the deliveries, the parent recurring delivery will also have **[!UICONTROL Unique open]** as 1.
+No entanto, como a mesma pessoa clicou em todas as entregas, a entrega recorrente pai também terá **[!UICONTROL Unique open]** 1.
 
-After the Adobe Campaign Standard 19.2.1 release, the definition of **Unique counts** is changed from **Number of unique persons interacting with the delivery** to **Number of unique messages interacted**.
+Após a versão 19.2.1 do Adobe Campaign Standard, a definição de contagens **** exclusivas é alterada de **Número de pessoas únicas interagindo com a entrega** para **Número de mensagens únicas interagidas**.
 
-Antes da versão do Adobe Campaign Standard 19.2.1, os relatórios se pareciam como:
+Antes da versão 19.2.1 do Adobe Campaign Standard, os relatórios pareciam com o seguinte:
 
 <table> 
  <thead> 
@@ -123,8 +123,8 @@ Antes da versão do Adobe Campaign Standard 19.2.1, os relatórios se pareciam c
    <th align="center"> <strong>Entrega</strong><br /> </th> 
    <th align="center"> <strong>Enviado</strong><br /> </th> 
    <th align="center"> <strong>Entregue</strong><br /> </th>
-   <th align="center"> <strong>Aberturas</strong><br /> </th> 
-   <th align="center"> <strong>Aberturas únicas</strong><br /> </th>
+   <th align="center"> <strong>Abre</strong><br /> </th> 
+   <th align="center"> <strong>Aberturas</strong> exclusivas <br /> </th>
   </tr> 
  </thead> 
  <tbody> 
@@ -159,7 +159,7 @@ Antes da versão do Adobe Campaign Standard 19.2.1, os relatórios se pareciam c
  </tbody> 
 </table>
 
-Após a versão do Adobe Campaign Standard 19.2.1, os relatórios se parecem com o seguinte:
+Após a versão 19.2.1 do Adobe Campaign Standard, os relatórios são parecidos com o seguinte:
 
 <table> 
  <thead> 
@@ -167,8 +167,8 @@ Após a versão do Adobe Campaign Standard 19.2.1, os relatórios se parecem com
    <th align="center"> <strong>Entrega</strong><br /> </th> 
    <th align="center"> <strong>Enviado</strong><br /> </th> 
    <th align="center"> <strong>Entregue</strong><br /> </th>
-   <th align="center"> <strong>Aberturas</strong><br /> </th> 
-   <th align="center"> <strong>Aberturas únicas</strong><br /> </th>
+   <th align="center"> <strong>Abre</strong><br /> </th> 
+   <th align="center"> <strong>Aberturas</strong> exclusivas <br /> </th>
   </tr> 
  </thead> 
  <tbody> 
@@ -203,16 +203,26 @@ Após a versão do Adobe Campaign Standard 19.2.1, os relatórios se parecem com
  </tbody> 
 </table>
 
-## What is the colors' signification in my reports' table? {#reports-color-signification}
+## Qual é a significação das cores na tabela dos meus relatórios? {#reports-color-signification}
 
-As cores exibidas em seus relatórios são aleatorizadas e não podem ser personalizadas. Representam uma barra de progresso e são exibidas para ajudá-lo a realçar melhor o valor máximo alcançado em seus relatórios.
+As cores exibidas em seus relatórios são aleatórias e não podem ser personalizadas. Eles representam uma barra de progresso e são exibidos para ajudá-lo a destacar melhor o valor máximo alcançado em seus relatórios.
 
-No exemplo abaixo, a célula é da mesma cor, visto que seu valor é 100%.
+No exemplo abaixo, a célula tem a mesma cor, pois seu valor é 100%.
 
 ![](assets/troubleshooting_1.png)
 
-If you change the **Conditional formatting** to custom, when the value reaches the upper limit the cell will get greener. Se chegar ao limite inferior, ele será refeito.
+Se você alterar **[!UICONTROL Conditional formatting]** para personalizado, quando o valor atingir o limite superior, a célula ficará mais verde. Enquanto que, se atingir o limite inferior, ele ficará mais vermelho.
 
-For example, here, we set the **Upper limit** to 500 and **Lower limit** to 0.
+Por exemplo, aqui, definimos **[!UICONTROL Upper limit]** como 500 e **[!UICONTROL Lower limit**] como 0.
 
 ![](assets/troubleshooting_2.png)
+
+## Por que o valor N/A aparece em meus relatórios?
+
+![](assets/troubleshooting_3.png)
+
+O valor **N/A** pode, às vezes, aparecer em seus relatórios dinâmicos. Isso pode ser exibido por dois motivos:
+
+* A entrega foi excluída e é mostrada aqui como **N/A** para não causar discrepância nos resultados.
+* Ao arrastar e soltar a **[!UICONTROL Transactional Delivery]** dimensão em seus relatórios, o valor **N/A** pode aparecer como resultado. Isso acontece porque o relatório dinâmico obtém cada entrega mesmo que não seja transacional.
+Isso também pode acontecer quando você arrastar e soltar a **[!UICONTROL Delivery]** dimensão no relatório, mas, nesse caso, o valor **N/D** representará entregas transacionais.
