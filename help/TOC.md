@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: usuário final
 user-guide-title: Ajuda do Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 57a0d20697461fb87b61c38dfd1779fadd565888
+source-git-commit: 9512ddb0b23b862b1a9b0ca5ee6e51436011bf66
 
 ---
 
@@ -116,7 +116,7 @@ source-git-commit: 57a0d20697461fb87b61c38dfd1779fadd565888
       + [Compartilhamento de uma página de aterrissagem](channels/using/sharing-a-landing-page.md)
       + [Configurar um processo de aceitação dupla](channels/using/setting-up-a-double-opt-in-process.md)
 + Criação de conteúdo de email {#designing-content}
-   + [EmailDesigner da campanha](designing/using/designing-content-in-adobe-campaign.md)
+   + [Designer de email da campanha](designing/using/designing-content-in-adobe-campaign.md)
    + [Início rápido](designing/using/quick-start.md)
    + [Uso e recomendações](designing/using/overview.md)
    + [Definição da linha de assunto e do remetente](designing/using/subject-line.md)
