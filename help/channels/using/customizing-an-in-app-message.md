@@ -15,7 +15,7 @@ context-tags: entrega,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 6d74d310f69b8800a635c6ac71de66c51fd64f2d
 
 ---
 
@@ -35,6 +35,7 @@ O editor de conteúdo no aplicativo permite escolher entre dois modos de mensage
 
 * [Envio da mensagem no aplicativo](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)
 * [Relatórios no aplicativo](../../reporting/using/in-app-report.md)
+* [Implementação do rastreamento de notificação local](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html)
 
 ## Personalização com um modelo de mensagem {#customizing-with-a-message-template}
 
@@ -98,7 +99,7 @@ Se necessário, você também pode adicionar um título de mensagem e conteúdo 
 
 1. Digite o conteúdo da mensagem e adicione os campos de personalização, se necessário.
 
-   Para obter mais informações sobre o campo de personalização, consulte esta [seção](../../designing/using/personalization.md#inserting-a-personalization-field).
+   For more information on personalization field, refer to this [section](../../designing/using/personalization.md#inserting-a-personalization-field).
 
    ![](assets/inapp_customize_10.png)
 
@@ -140,6 +141,7 @@ Você pode adicionar até dois botões à sua mensagem no aplicativo.
 ## Personalização de um tipo de mensagem de notificação local {#customizing-a-local-notification-message-type}
 
 As notificações locais só podem ser acionadas por um aplicativo em um horário específico e dependendo de um evento. Eles alertarão os usuários de que algo está acontecendo em seus aplicativos mesmo sem ter acesso à Internet.
+Para saber como rastrear a notificação local, consulte esta [página](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html).
 
 Para personalizar uma notificação local:
 
@@ -190,11 +192,11 @@ Depois que o HTML for importado, você poderá encontrar uma visualização do a
 
 Antes de enviar sua mensagem no aplicativo, você pode testar com seus perfis de teste para verificar o que seu público-alvo verá quando receber sua entrega.
 
-1. Clique no **[!UICONTROL Preview]** botão.
+1. Click the **[!UICONTROL Preview]** button.
 
    ![](assets/inapp_sending_2.png)
 
-1. Clique no **[!UICONTROL Select a test profile]** botão e selecione um de seus perfis de teste para iniciar a visualização da entrega. Para obter mais informações sobre perfis de teste, consulte esta [seção](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+1. Clique no **[!UICONTROL Select a test profile]** botão e selecione um de seus perfis de teste para iniciar a visualização da entrega. For more information on test profiles, refer to this [section](../../sending/using/managing-test-profiles-and-sending-proofs.md).
 1. Verifique sua mensagem em diferentes dispositivos, como Android, iPhone Phone ou até mesmo tablets. Você também pode verificar se os campos de personalização estão recuperando os dados corretos.
 
    ![](assets/inapp_sending_3.png)
