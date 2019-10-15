@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
 
 ---
 
@@ -36,7 +36,7 @@ Você pode gerenciar o conteúdo HTML que será oferecido na **[!UICONTROL Templ
 
 Para saber como criar um email a partir de um modelo predefinido, consulte Designer [de](../../designing/using/quick-start.md#building-content-from-an-out-of-the-box-template)email.
 
-### Criação de um modelo de conteúdo {#creating-a-content-template}
+### Creating a content template {#creating-a-content-template}
 
 Você pode criar seus próprios modelos de conteúdo para usá-los quantas vezes forem necessárias.
 
@@ -199,9 +199,12 @@ Você pode criar seus próprios fragmentos de conteúdo para usá-los conforme n
 1. Feche a **[!UICONTROL Properties]** guia para retornar à área de trabalho principal.
 1. Adicione componentes de estrutura e componentes de conteúdo que podem ser personalizados conforme necessário.
 
-   >[!NOTE]
+   >[!CAUTION]
    >
    >Os fragmentos não podem incluir campos de personalização, conteúdo dinâmico ou outro fragmento.
+   >
+   >Evite salvar como um conteúdo de fragmento com componentes de estrutura vazios. Depois que o fragmento &gt;for inserido, eles não poderão ser editados.
+   >
    >A exibição [](../../designing/using/styles.md#switching-to-mobile-view) móvel não está disponível em fragmentos.
 
 1. Depois de editado, salve o fragmento.
