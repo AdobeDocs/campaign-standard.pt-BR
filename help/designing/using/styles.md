@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: f76e88798c1c570b02442aec316a3f24e3615a4a
 
 ---
 
@@ -72,7 +72,7 @@ A interface do Designer de email permite que você ajuste rapidamente as configu
 
 ![](assets/des_padding.png)
 
- Por exemplo:
+Por exemplo:
 
 * Use o preenchimento para definir margens nos lados esquerdo e direito de uma imagem.
 * Use o preenchimento superior e inferior para adicionar mais espaçamento a um componente **[!UICONTROL Text]** ou a um **[!UICONTROL Divider]** .
@@ -172,6 +172,30 @@ Você deseja ajustar o preenchimento e o alinhamento vertical dentro de um compo
 1. Proceda de forma semelhante para ajustar o alinhamento e o preenchimento das outras colunas.
 
    ![](assets/des_adjusting_columns.png)
+
+1. Salve as alterações.
+
+### Sobre links de estilização {#about-styling-links}
+
+Você pode sublinhar um link e selecionar sua cor e destino no Designer de email.
+
+1. Em um componente onde um link é inserido, selecione o texto do rótulo do link.
+
+1. Nas configurações do componente, marque **[!UICONTROL Underline link]** para sublinhar o texto da etiqueta do link.
+
+   ![](assets/stylelinks-selecttext.png)
+
+1. Para selecionar em qual contexto de navegação seu link será aberto, selecione um **[!UICONTROL Target]**.
+
+   ![](assets/stylelinks-target.png)
+
+1. Para alterar a cor do link, clique em **[!UICONTROL Link color]**.
+
+   ![](assets/stylelinks-colorpicker.png)
+
+1. Escolha a cor de que precisa.
+
+   ![](assets/stylelinks-colorchanged.png)
 
 1. Salve as alterações.
 
