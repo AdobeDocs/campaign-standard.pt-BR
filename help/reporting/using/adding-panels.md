@@ -1,45 +1,45 @@
 ---
-title: Adicionar painéis
-seo-title: Adicionar painéis
-description: Adicionar painéis
-seo-description: O relatório dinâmico permite que você adicione um painel para filtrar melhor seus dados, dependendo do período de tempo escolhido.
+title: Adição de painéis
+seo-title: Adição de painéis
+description: Adição de painéis
+seo-description: O relatório dinâmico permite adicionar um painel para filtrar melhor seus dados, dependendo do período de tempo escolhido.
 page-status-flag: nunca ativado
-uuid: 8 e 76 e 837-5 efc -4250-8192-dee 1 a 0 bd 62 fe
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: relatórios
-content-type: reference
-topic-tags: personalização-relatórios
-discoiquuid: f 4 e 1 e 676-5 ca 2-4 a 58-96 d 7-d 378 ff 803710
+uuid: 8e76e837-5efc-4250-8192-dee1a0bd62fe
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: relatório
+content-type: referência
+topic-tags: personalização de relatórios
+discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
+source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
 
 ---
 
 
-# Adding panels{#adding-panels}
+# Adição de painéis{#adding-panels}
 
-## Adding a blank panel {#adding-a-blank-panel}
+## Adicionar um painel em branco {#adding-a-blank-panel}
 
-Para iniciar o relatório, você pode adicionar um conjunto de painéis a uma parte da caixa ou relatório personalizado. Cada painel contém conjuntos de dados diferentes e é composto por tabelas de forma livre e visualizações.
+Para iniciar seu relatório, você pode adicionar um conjunto de painéis a um relatório personalizado ou predefinido. Cada painel contém conjuntos de dados diferentes e é composto de tabelas e visualizações de forma livre.
 
-Esse painel permite criar seus relatórios conforme necessário. Você pode adicionar quantos painéis quiser em seus relatórios para filtrar seus dados com períodos de tempo diferentes.
+Esse painel permite que você crie seus relatórios conforme necessário. Você pode adicionar quantos painéis desejar em seus relatórios para filtrar seus dados com períodos de tempo diferentes.
 
-1. Click the **Panels** icon. You can also add a panel by clicking the **Insert tab** and selecting **New Blank Panel**.
+1. Click the **Panels** icon. Você também pode adicionar um painel clicando na guia **** Inserir e selecionando **Novo painel** em branco.
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. Drag and drop the **Blank Panel** into your dashboard.
+1. Arraste e solte o Painel em **branco** no seu painel.
 
    ![](assets/dynamic_report_panel.png)
 
-Agora é possível adicionar uma tabela de forma livre ao seu painel para iniciar os dados de definição de metas.
+Agora é possível adicionar uma tabela de forma livre ao painel para iniciar a definição de metas de dados.
 
-## Adding a freeform table {#adding-a-freeform-table}
+## Adicionar uma tabela de forma livre {#adding-a-freeform-table}
 
-Freeform tables allow you to create a table to analyze your data using the different metrics and dimensions available in the **Component** table.
+As tabelas de forma livre permitem criar uma tabela para analisar seus dados usando as diferentes métricas e dimensões disponíveis na tabela **Componentes** .
 
 Cada tabela e visualização é redimensionável e pode ser movida para personalizar melhor seu relatório.
 
@@ -47,34 +47,34 @@ Cada tabela e visualização é redimensionável e pode ser movida para personal
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. Drag and drop the **Freeform** item into your dashboard.
+1. Arraste e solte o item de forma **livre** no seu painel.
 
-   You can also add a table by clicking the **Insert** tab and selecting **New Freeform** or by clicking **Add a freeform table** in an empty panel.
+   Também é possível adicionar uma tabela clicando na guia **Inserir** e selecionando **Nova forma** livre ou clicando em **Adicionar uma tabela** de forma livre em um painel vazio.
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. If needed, drag and drop **[!UICONTROL Segments]** from the **[!UICONTROL Components]** tab into the top bar to filter your report depending on your recipient's age range.
+1. A partir da versão 19.4 da Campanha, o aplicativo já **[!UICONTROL Exclude proof]** será selecionado por padrão. Se necessário, é possível alterá-lo arrastando e soltando uma das **[!UICONTROL Segments]** da **[!UICONTROL Components]** guia na barra superior.
 
    ![](assets/dynamic_report_panel_3.png)
 
-1. Drag and drop items from the **Components** tab into the columns and rows to build your table.
+1. Arraste e solte itens da guia **Componentes** nas colunas e linhas para criar sua tabela.
 
    ![](assets/dynamic_report_freeform_3.png)
 
-1. Click the **Settings** icon to change how the data is displayed in your columns.
+1. Clique no ícone **Configurações** para alterar como os dados são exibidos nas colunas.
 
    ![](assets/dynamic_report_freeform_4.png)
 
-   The **[!UICONTROL Column settings]** is composed of:
+   O **[!UICONTROL Column settings]** grupo é composto por:
 
    * **[!UICONTROL Number]**: permite mostrar ou ocultar números de resumo na coluna.
-   * **[!UICONTROL Percent]**: permite mostrar ou ocultar porcentagem na coluna.
+   * **[!UICONTROL Percent]**: permite que você mostre ou oculte a porcentagem na coluna.
    * **[!UICONTROL Interpret zero as no value]**: permite mostrar ou ocultar quando o valor é igual a zero.
-   * **[!UICONTROL Background]**: permite mostrar ou ocultar a barra de progresso horizontal em células.
-   * **[!UICONTROL Include retries]**: permite que você inclua tentativas no resultado. This is only available for **[!UICONTROL Sent]** and **[!UICONTROL Bounces + Errors]**.
+   * **[!UICONTROL Background]**: permite mostrar ou ocultar a barra de progresso horizontal nas células.
+   * **[!UICONTROL Include retries]**: permite incluir novas tentativas no resultado. Isso só está disponível para **[!UICONTROL Sent]** e **[!UICONTROL Bounces + Errors]**.
 
-1. Select one or multiple rows and click the **Visualize** icon. Uma visualização é adicionada para refletir as linhas selecionadas.
+1. Selecione uma ou várias linhas e clique no ícone **Visualizar** . Uma visualização é adicionada para refletir as linhas selecionadas.
 
    ![](assets/dynamic_report_freeform_5.png)
 
-Agora você pode adicionar quantos componentes forem necessários e também adicionar visualizações para fornecer representações gráficas de seus dados.
+Agora você pode adicionar quantos componentes precisar e também adicionar visualizações para fornecer representações gráficas dos seus dados.
