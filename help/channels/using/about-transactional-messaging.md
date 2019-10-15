@@ -14,7 +14,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 22675ef3452aadca4ddb290832159298ebb76474
 
 ---
 
@@ -61,6 +61,14 @@ As etapas para colocar isso em prática são:
 1. Além disso, para que o evento seja acionado quando um cliente abandona seu carrinho, esse evento deve ser enviado do site da empresa usando a API REST do Adobe Campaign Standard. Consulte Integração [do site](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website).
 
 Assim que todas essas etapas forem executadas, assim que um usuário sair do site sem solicitar os produtos em seu carrinho, ele receberá automaticamente um email de notificação.
+
+## Processo de publicação de mensagens transacionais {#transactional-messaging-pub-process}
+
+O gráfico abaixo ilustra o processo de publicação de mensagens transacionais.
+
+![](assets/message-center_pub-process.png)
+
+Para obter mais informações sobre as etapas de configuração do evento, consulte Configuração [de mensagens](../../administration/using/configuring-transactional-messaging.md)transacionais.
 
 ## Limitações de mensagens transacionais {#transactional-messaging-limitations}
 
