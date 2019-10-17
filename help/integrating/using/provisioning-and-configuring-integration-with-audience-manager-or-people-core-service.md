@@ -14,7 +14,7 @@ discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f54c92b92524e2966aa8c1c8497c8a7dff1bcf9
+source-git-commit: 90bb41ae78fe6fbcca0bd359c169adde4efd4b1b
 
 ---
 
@@ -41,7 +41,7 @@ Essa integração deve ser configurada primeiro. Para solicitar o provisionament
   </tr> 
   <tr> 
    <td> <strong>ID da Org. de IMS</strong><br /> </td> 
-   <td> Seu ID da Org de IMS. <br> Você pode encontrar a ID de empresa IMS na Experience Cloud, no menu **Administration**. Também é fornecido ao se conectar pela primeira 
+   <td> Seu ID da Org de IMS. <br> Você pode encontrar a ID de organização do IMS na Experience Cloud, no menu Administração. Também é fornecido ao se conectar pela primeira 
       vez à Adobe Marketing Cloud. </td> 
   </tr> 
   <tr> 
