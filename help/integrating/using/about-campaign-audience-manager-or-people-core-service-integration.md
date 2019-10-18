@@ -14,7 +14,7 @@ discoiquuid: bf718329-f181-46f7-80a2-b525a8dee46d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f54c92b92524e2966aa8c1c8497c8a7dff1bcf9
+source-git-commit: 8b4cf35fcbdee436ce3f9fa4aeb1b1fdd8609f50
 
 ---
 
@@ -30,7 +30,7 @@ O Adobe Campaign permite que você troque e compartilhe públicos-alvo/segmentos
 A integração oferece suporte a dois tipos de Adobe Experience Cloud IDs:
 
 * **ID** do visitante: esse tipo de ID permite reconciliar os visitantes da Adobe Experience Cloud com os perfis do Adobe Campaign.
-* **ID** declarada: esse tipo de ID permite reconciliar qualquer tipo de dados com perfis no banco de dados do Adobe Campaign. Essa integração suporta IDs declaradas regulares, IDs declaradas com hash e IDs declaradas criptografadas. Para **[!UICONTROL Declared ID]** validade, consulte esta [página](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md).
+* **ID** declarada: esse tipo de ID permite reconciliar qualquer tipo de dados com perfis no banco de dados do Adobe Campaign. Essa integração suporta IDs declaradas regulares, IDs declaradas com hash e IDs declaradas criptografadas. Para saber mais sobre a **[!UICONTROL Declared ID]** validade, consulte esta [página](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md).
 
    A criptografia permite que você compartilhe dados criptografados em fontes de dados (por exemplo, PII) usando a ID declarada especificando o algoritmo de criptografia.
 
