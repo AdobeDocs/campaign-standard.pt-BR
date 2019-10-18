@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0e6f85047179572131739659b8175f82c8a5f40e
+source-git-commit: 8b4cf35fcbdee436ce3f9fa4aeb1b1fdd8609f50
 
 ---
 
@@ -37,7 +37,7 @@ Integração do Microsoft Dynamics 365 (GA) - [Leia mais](https://helpx.adobe.co
 
 ### Outras atualizações de documentação que vêm com a versão {#other-documentation-updates-coming-with-the-release-18}
 
-A lista de mensagens de erro do Campaign Standard e do Classic foi atualizada. [Leia mais](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+A lista de mensagens de erro do Campaign Standard e do Campaign Classic foi atualizada. [Leia mais](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 O guia de introdução ao RGPD foi melhorado e enriquecido. Agora é uma documentação de gerenciamento de privacidade, incluindo o RGPD e o CCPA. [Leia mais](https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
