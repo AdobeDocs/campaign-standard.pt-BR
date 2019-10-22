@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: 8f63c039231a7028825981098e6f97eb3ebca67e
 
 ---
 
@@ -26,12 +26,12 @@ Você pode criar um email iniciando no zero:
 
 * Você pode criar um email a partir de uma tela em branco adicionando facilmente a estrutura e os componentes de conteúdo e personalize seu conteúdo para enviar uma entrega rapidamente. Você também pode gerenciar totalmente os elementos de estilo. Para obter mais informações, [comece rapidamente](../../designing/using/quick-start.md#from-scratch-email) ou consulte a documentação [](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)completa.
 
-* Você pode criar um email a partir de modelos predefinidos selecionando um modelo e criando seu novo conteúdo de email aqui. [Saiba mais](../../designing/using/quick-start.md#building-content-from-an-out-of-the-box-template)
+* Você pode criar um email a partir de modelos predefinidos selecionando um modelo e criando seu novo conteúdo de email aqui. [Saiba mais](quick-start.md#building-content-from-an-out-of-the-box-template)
 
 Você também pode criar um email com conteúdo existente:
 
-* É possível converter um conteúdo HTML existente (criado externamente ou no editor herdado). [Saiba mais](../../designing/using/quick-start.md#converting-an-html-content)
-* É possível importar um conteúdo HTML existente imediatamente no modo de compatibilidade. [Saiba mais](../../designing/using/quick-start.md#compatibility-mode)
+* É possível converter um conteúdo HTML existente (criado externamente ou no editor herdado). [Saiba mais](quick-start.md#converting-an-html-content)
+* É possível importar um conteúdo HTML existente imediatamente no modo de compatibilidade. [Saiba mais](quick-start.md#compatibility-mode)
 
 ## Sem conteúdo existente {#without-existing-content}
 
@@ -87,7 +87,7 @@ Você pode adicionar vários componentes de conteúdo ao seu email, como imagem,
 1. Em Componentes **** de conteúdo, arraste e solte o HTML em um dos componentes da sua estrutura.
 1. Clique em **Mostrar o código** fonte.
 1. Insira seu conteúdo HTML.
-1. Clique em **Salvar**.
+1. Clique em **Save**.
 
 ![](assets/html-component-source-code.png)
 
@@ -103,7 +103,7 @@ Você pode ajustar o estilo do email, por exemplo, alterando o preenchimento de 
 1. À direita, na paleta, vá para **Preenchimento**.
 1. Clique no ícone de bloqueio para quebrar a sincronização entre os parâmetros superior e inferior ou direito e esquerdo.
 1. Ajuste o **Preenchimento** conforme necessário.
-1. Clique em **Salvar**.
+1. Clique em **Save**.
 
 ![](assets/padding-quick-start.png)
 
@@ -173,11 +173,11 @@ Depois de identificar todos os blocos, no Designer de email, repita o seguinte p
 1. Adicione um componente de estrutura. Para obter mais informações, consulte [Edição da estrutura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de email.
 1. Adicione um componente HTML. Para obter mais informações, consulte [Adicionar fragmentos e componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Copie e cole seu HTML nesse componente.
-1. Alternar para exibição móvel. Para obter mais informações, consulte [esta seção](../../designing/using/styles.md#switching-to-mobile-view).
+1. Alternar para exibição móvel. For more on this, see [this section](../../designing/using/styles.md#switching-to-mobile-view).
 
    A exibição responsiva está quebrada, pois seu CSS está ausente.
 
-1. Para corrigir isso, alterne para o modo de código fonte e copie e cole sua seção de estilo em uma nova seção de estilo.  Por exemplo:
+1. Para corrigir isso, alterne para o modo de código fonte e copie e cole sua seção de estilo em uma nova seção de estilo. Por exemplo:
 
    ```
    <style type="text/css">
