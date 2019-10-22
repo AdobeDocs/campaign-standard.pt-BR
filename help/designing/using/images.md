@@ -14,14 +14,14 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: c43a258734f3344fad8c9cbd5bd5774d7f37b4f6
 
 ---
 
 
 # Imagens {#images}
 
-## Inserir imagens{#inserting-images}
+## Inserção de imagens{#inserting-images}
 
 Você pode inserir imagens em seus emails e páginas iniciais.
 
@@ -31,7 +31,7 @@ Os seguintes tipos de imagens estão disponíveis, dependendo de sua configuraç
 * Imagens compartilhadas da Adobe Experience Cloud - consulte [Trabalhar com o Campaign e os ativos Principais serviços](../../integrating/using/working-with-campaign-and-assets-core-service.md) / Ativos sob demanda
 * Imagens dinâmicas do Adobe Target - consulte [Trabalhar com o Campaign e o Target](../../integrating/using/about-campaign-target-integration.md)
 
-Se ativado, você pode modificar imagens com o Adobe Creative SDK. Consulte [Modificação de imagens com o Adobe Creative SDK](../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk).
+Se ativado, você pode modificar imagens com o Adobe Creative SDK. Consulte [Modificação de imagens com o Adobe Creative SDK](images.md#modifying-images-with-the-adobe-creative-sdk).
 
 >[!CAUTION]
 >
