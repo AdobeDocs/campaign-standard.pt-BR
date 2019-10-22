@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b4cf35fcbdee436ce3f9fa4aeb1b1fdd8609f50
+source-git-commit: b1ba842c9cd05bbd152166346250443d12f21f10
 
 ---
 
@@ -45,7 +45,7 @@ Foi adicionado um novo gráfico que apresenta o processo de publicação de mens
 
 O guia de introdução às práticas recomendadas de entrega foi atualizado. [Leia mais](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
-Uma nova seção foi adicionada. Ele fornece uma visão geral dos diferentes métodos que permitem aprimorar o banco de dados do Campaign Standard. [Leia mais](../../start/using/enriching-campaign-database.md)
+<!--A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../start/using/enriching-campaign-database.md)-->
 
 ## Atualizações de documentação - outubro de 2019 {#doc-updates-october-2019}
 
