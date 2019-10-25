@@ -14,7 +14,7 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 14155f29492f66b070dd302c59bdd8e81008f281
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -32,7 +32,7 @@ Todas as telas do Adobe Campaign são constituídas pelos seguintes elementos:
 
 ![](assets/ux_interface_01.png)
 
-## Página inicial {#home-page}
+## Home page {#home-page}
 
 A página inicial é composta de um conjunto de cartões que fornecem acesso rápido às principais funcionalidades do Adobe Campaign. A lista de capacidades que você pode ver na página inicial do Campaign depende de suas permissões e das opções configuradas para sua organização.
 
@@ -57,7 +57,7 @@ Os princípios de navegação são:
 
 * O **[!UICONTROL Adobe Campaign]** logotipo no canto superior esquerdo da página fornece acesso aos recursos e configurações avançados. Os menus dependem do seu perfil e das suas permissões.
 
-   O menu avançado é apresentado na seção Menu [](../../start/using/interface-description.md#advanced-menu) avançado.
+   O menu avançado é apresentado na seção Menu [](#advanced-menu) avançado.
 
 * O **[!UICONTROL Home]** link permite exibir a página inicial do Adobe Campaign.
 * Os links **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]** e **[!UICONTROL Audiences]** **[!UICONTROL Reports]** permitem acessar as exibições vinculadas a essas funcionalidades.
@@ -103,7 +103,7 @@ O **[!UICONTROL Resources]** ícone fornece acesso às seguintes funcionalidades
 
 ### Administração {#administration}
 
-O **[!UICONTROL Administration]** ícone fornece acesso às funcionalidades avançadas que só podem ser executadas pelo administrador funcional. Para mais informações, consulte a seção [Administração](../../administration/using/about-administrating-adobe-campaign.md) .
+O **[!UICONTROL Administration]** ícone fornece acesso às funcionalidades avançadas que só podem ser executadas pelo administrador funcional. For more on this, refer to the [Administration](../../administration/using/about-administrating-adobe-campaign.md) section.
 
 ## Zona central {#central-zone}
 
