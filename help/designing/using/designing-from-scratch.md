@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 78bb4189dea522bbdf3bf8248f405bb4ab381bae
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -28,8 +28,8 @@ Saiba mais sobre como dominar a edição de conteúdo de email. Com o Email Desi
 Estas são as etapas principais para criar e projetar um conteúdo de email do zero usando o Designer de email:
 
 1. Crie um email e abra seu conteúdo.
-1. Adicione componentes de estrutura para moldar o email. Consulte [Editar a estrutura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de email.
-1. Insira componentes de conteúdo e fragmentos nos componentes da estrutura. Consulte [Adicionar fragmentos e componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de conteúdo.
+1. Adicione componentes de estrutura para moldar o email. Consulte [Editar a estrutura](#defining-the-email-structure)de email.
+1. Insira componentes de conteúdo e fragmentos nos componentes da estrutura. Consulte [Adicionar fragmentos e componentes](#defining-the-email-structure)de conteúdo.
 1. Adicione imagens e edite o texto do email. Consulte [Inserção de imagens](../../designing/using/images.md#inserting-images).
 1. Personalize seu email adicionando campos de personalização, links e assim por diante. Consulte [Inserir um campo](../../designing/using/personalization.md#inserting-a-personalization-field)de personalização, [Inserir um link](../../designing/using/links.md#inserting-a-link) e [Definir conteúdo dinâmico em um email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 1. Defina a linha de assunto do seu email. Consulte [Personalizar a linha de assunto de um email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
@@ -155,7 +155,7 @@ Esta é a lista de componentes disponíveis no Designer de email:
    >
    >O componente carrossel é compatível com as seguintes plataformas de email: Apple Mail 7, Apple Mail 8, Outlook 2011 para Mac, Outlook 2016 para Mac, Mozilla Thunderbird, iPad e iPad mini iOS, iPhone iOS, Android, AOL (Chrome, Firefox e Safari).
 
-**Tópicos** relacionados:
+**Tópicos relacionados**:
 
 - [Criação de um email](../../channels/using/creating-an-email.md)
 - [Selecionar um público-alvo em uma mensagem](../../audiences/using/selecting-an-audience-in-a-message.md)
