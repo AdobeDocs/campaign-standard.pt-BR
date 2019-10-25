@@ -14,7 +14,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -25,7 +25,7 @@ Para enviar uma mensagem transacional com o Adobe Campaign, primeiro é necessá
 
 A configuração do evento deve ser executada por um **administrador** , seguindo as etapas abaixo:
 
-A configuração pode variar dependendo do tipo de mensagem transacional que você deseja enviar. Para obter mais informações, consulte Configurações específicas de evento [transacional](../../administration/using/configuring-transactional-messaging.md#transactional-event-specific-configurations)
+A configuração pode variar dependendo do tipo de mensagem transacional que você deseja enviar. Para obter mais informações, consulte Configurações específicas de evento [transacional](#transactional-event-specific-configurations)
 
 Depois que o evento é publicado, a mensagem transacional correspondente é criada automaticamente. For more on transactional messaging, refer to [this page](../../channels/using/about-transactional-messaging.md).
 
@@ -51,7 +51,7 @@ Comece criando o evento que corresponde às suas necessidades.
 
 1. Selecione a dimensão de definição de metas correspondente à configuração de evento desejada e clique em **[!UICONTROL Create]**.
 
-   Mensagens transacionais baseadas em eventos direcionam dados contidos no próprio evento, enquanto mensagens transacionais baseadas em perfil direcionam dados contidos no banco de dados do Adobe Campaign. Para obter mais informações, consulte Configurações [específicas de evento](../../administration/using/configuring-transactional-messaging.md#transactional-event-specific-configurations)transacional.
+   Mensagens transacionais baseadas em eventos direcionam dados contidos no próprio evento, enquanto mensagens transacionais baseadas em perfil direcionam dados contidos no banco de dados do Adobe Campaign. Para obter mais informações, consulte Configurações [específicas de evento](#transactional-event-specific-configurations)transacional.
 
 ## Definição dos atributos do evento {#defining-the-event-attributes}
 
@@ -90,8 +90,8 @@ Este é o exemplo da visualização da API:
 
 **Tópicos relacionados:**
 
-* [Visualização e publicação do evento](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
-* [Uso das listas de produtos em uma mensagem transacional](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
+* [Visualização e publicação do evento](#previewing-and-publishing-the-event)
+* [Uso das listas de produtos em uma mensagem transacional](#using-product-listings-in-a-transactional-message)
 
 ## Enriquecer o conteúdo transacional de mensagens {#enriching-the-transactional-message-content}
 
@@ -113,7 +113,7 @@ Para obter mais informações sobre criação e publicação de recursos, consul
 
    ![](assets/message-center_new-enrichment.png)
 
-1. Use o **[!UICONTROL Create element]** botão para vincular um campo do recurso selecionado a um dos campos adicionados anteriormente ao evento (consulte [Definição dos atributos](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes)do evento).
+1. Use o **[!UICONTROL Create element]** botão para vincular um campo do recurso selecionado a um dos campos adicionados anteriormente ao evento (consulte [Definição dos atributos](#defining-the-event-attributes)do evento).
 
    ![](assets/message-center_enrichment-join.png)
 
@@ -131,20 +131,20 @@ Depois que o evento e a mensagem forem publicados, o link com o **[!UICONTROL Pr
 
 **Tópicos relacionados:**
 
-* [Visualizar e publicar o evento](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event).
+* [Visualizar e publicar o evento](#previewing-and-publishing-the-event).
 * [Personalizando uma mensagem](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message)transacional.
 
 ## Visualização e publicação do evento {#previewing-and-publishing-the-event}
 
 Antes de poder usar o evento, você deve visualizá-lo e publicá-lo.
 
-1. Clique no **[!UICONTROL API preview]** botão para ver uma simulação da REST API que será usada pelo desenvolvedor do seu site antes de ser publicada. Depois que o evento é publicado, esse botão também permite que você visualize a API na produção. Consulte [Integrar o acionamento do evento em um site](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website).
+1. Clique no **[!UICONTROL API preview]** botão para ver uma simulação da REST API que será usada pelo desenvolvedor do seu site antes de ser publicada. Depois que o evento é publicado, esse botão também permite que você visualize a API na produção. Consulte [Integrar o acionamento do evento em um site](#integrating-the-triggering-of-the-event-in-a-website).
 
    ![](assets/message-center_api_preview.png)
 
    >[!NOTE]
    >
-   >A API REST varia de acordo com o canal selecionado e a dimensão de definição de metas selecionada. Para obter mais detalhes sobre as várias configurações, consulte Configurações [específicas de evento](../../administration/using/configuring-transactional-messaging.md#transactional-event-specific-configurations)transacional.
+   >A API REST varia de acordo com o canal selecionado e a dimensão de definição de metas selecionada. Para obter mais detalhes sobre as várias configurações, consulte Configurações [específicas de evento](#transactional-event-specific-configurations)transacional.
 
 1. Clique em **[!UICONTROL Publish]** para iniciar a publicação.
 
@@ -166,7 +166,7 @@ Você pode acessar a mensagem transacional criada diretamente do link na área d
 
 ![](assets/message-center_messagegeneration.png)
 
-Você também precisa integrar esse evento de disparo ao seu site. Consulte [Integrar o acionamento do evento em um site](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website).
+Você também precisa integrar esse evento de disparo ao seu site. Consulte [Integrar o acionamento do evento em um site](#integrating-the-triggering-of-the-event-in-a-website).
 
 ### Cancelamento de publicação de um evento {#unpublishing-an-event}
 
@@ -192,43 +192,43 @@ Consulte a Documentação [da API](https://final-docs.campaign.adobe.com/doc/sta
 
 A configuração de evento transacional pode variar dependendo do tipo de mensagem transacional que você deseja enviar (evento ou perfil) e do canal que será usado.
 
-As seções a seguir detalham qual configuração específica deve ser definida de acordo com a mensagem transacional desejada. Para obter mais informações sobre as etapas gerais para configurar um evento, consulte [Criação de um evento](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
+As seções a seguir detalham qual configuração específica deve ser definida de acordo com a mensagem transacional desejada. Para obter mais informações sobre as etapas gerais para configurar um evento, consulte [Criação de um evento](#creating-an-event).
 
 ### Mensagens transacionais baseadas em eventos {#event-based-transactional-messages}
 
 Para enviar uma mensagem transacional baseada em eventos, primeiro é necessário criar e configurar um evento direcionando os dados contidos no próprio evento.
 Para obter mais informações, consulte [Participação em mensagens transacionais](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences).
 
-1. Ao criar a configuração do evento, selecione a dimensão de **[!UICONTROL Real-time event]** definição de metas (consulte [Criação de um evento](../../administration/using/configuring-transactional-messaging.md#creating-an-event)).
-1. Adicione campos ao evento para personalizar a mensagem transacional (consulte [Definição dos atributos](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes)do evento).
-1. Enriqueça o conteúdo da mensagem transacional se quiser usar informações adicionais do banco de dados do Adobe Campaign (consulte [Enriquecendo o conteúdo](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)da mensagem transacional).
+1. Ao criar a configuração do evento, selecione a dimensão de **[!UICONTROL Real-time event]** definição de metas (consulte [Criação de um evento](#creating-an-event)).
+1. Adicione campos ao evento para personalizar a mensagem transacional (consulte [Definição dos atributos](#defining-the-event-attributes)do evento).
+1. Enriqueça o conteúdo da mensagem transacional se quiser usar informações adicionais do banco de dados do Adobe Campaign (consulte [Enriquecendo o conteúdo](#enriching-the-transactional-message-content)da mensagem transacional).
 
    >[!NOTE]
    >
    >As mensagens transacionais baseadas em eventos devem usar somente os dados que estão no evento enviado para definir o destinatário e a personalização do conteúdo da mensagem. No entanto, você pode enriquecer o conteúdo de sua mensagem transacional usando informações do banco de dados do Adobe Campaign.
 
-1. Visualize e publique o evento (consulte [Visualizar e publicar o evento](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)).
+1. Visualize e publique o evento (consulte [Visualizar e publicar o evento](#previewing-and-publishing-the-event)).
 
    Ao visualizar o evento, a REST API contém um atributo que especifica o endereço de email ou o telefone celular de acordo com o canal selecionado.
 
    Depois que o evento é publicado, uma mensagem transacional vinculada ao novo evento é criada automaticamente. Para que o evento dispare o envio de uma mensagem transacional, você deve modificar e publicar a mensagem que acabou de ser criada, consulte Mensagens [transacionais do](../../channels/using/event-transactional-messages.md)evento.
 
-1. Integre o evento ao seu site (consulte [Integrar o acionamento do evento em um site](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)).
+1. Integre o evento ao seu site (consulte [Integrar o acionamento do evento em um site](#integrating-the-triggering-of-the-event-in-a-website)).
 
 ### Mensagens transacionais baseadas em perfil {#profile-based-transactional-messages}
 
 Para enviar uma mensagem transacional com base em perfil, primeiro é necessário criar e configurar os dados de direcionamento de evento contidos no banco de dados do Adobe Campaign.
 
-1. Ao criar a configuração do evento, selecione a dimensão de **[!UICONTROL Profile event]** definição de metas (consulte [Criação de um evento](../../administration/using/configuring-transactional-messaging.md#creating-an-event)).
-1. Adicione campos ao evento para personalizar a mensagem transacional (consulte [Definição dos atributos](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes)do evento). É necessário adicionar pelo menos um campo para criar um enriquecimento. Não é necessário criar outros campos, como **Nome** e **Sobrenome** , pois você poderá usar os campos de personalização do banco de dados do Adobe Campaign.
-1. Crie um enriquecimento para vincular o evento ao **[!UICONTROL Profile]** recurso (consulte [Enriquecer o conteúdo](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)da mensagem transacional). A criação de um enriquecimento é obrigatória ao usar uma dimensão de **[!UICONTROL Profile]** definição de metas.
-1. Visualize e publique o evento (consulte [Visualizar e publicar o evento](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)).
+1. Ao criar a configuração do evento, selecione a dimensão de **[!UICONTROL Profile event]** definição de metas (consulte [Criação de um evento](#creating-an-event)).
+1. Adicione campos ao evento para personalizar a mensagem transacional (consulte [Definição dos atributos](#defining-the-event-attributes)do evento). É necessário adicionar pelo menos um campo para criar um enriquecimento. Não é necessário criar outros campos, como **Nome** e **Sobrenome** , pois você poderá usar os campos de personalização do banco de dados do Adobe Campaign.
+1. Crie um enriquecimento para vincular o evento ao **[!UICONTROL Profile]** recurso (consulte [Enriquecer o conteúdo](#enriching-the-transactional-message-content)da mensagem transacional). A criação de um enriquecimento é obrigatória ao usar uma dimensão de **[!UICONTROL Profile]** definição de metas.
+1. Visualize e publique o evento (consulte [Visualizar e publicar o evento](#previewing-and-publishing-the-event)).
 
    Ao visualizar o evento, a API REST não contém um atributo que especifique o endereço de email ou o telefone móvel como ele será recuperado do **[!UICONTROL Profile]** recurso.
 
    Depois que o evento é publicado, uma mensagem transacional vinculada ao novo evento é criada automaticamente. Para que o evento dispare o envio de uma mensagem transacional, você deve modificar e publicar a mensagem que acabou de ser criada, consulte [Envio de uma mensagem](../../channels/using/profile-transactional-messages.md#sending-a-profile-transactional-message)transacional de perfil.
 
-1. Integre o evento ao seu site (consulte [Integrar o acionamento do evento em um site](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)).
+1. Integre o evento ao seu site (consulte [Integrar o acionamento do evento em um site](#integrating-the-triggering-of-the-event-in-a-website)).
 
 ### Notificações por push transacionais baseadas em eventos {#event-based-transactional-push-notifications}
 
@@ -242,15 +242,15 @@ O evento deve conter os três elementos a seguir:
 * Um nome **de aplicativo** móvel (um para todos os dispositivos - Android e iOS). Essa é a ID do aplicativo móvel configurado no Adobe Campaign que será usada para receber notificações por push nos dispositivos dos usuários. Para obter mais informações, consulte esta [página](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 * Uma plataforma **de** push ("gcm" para Android ou "apns" para iOS).
 
-1. Ao criar a configuração do evento, selecione o **[!UICONTROL Mobile application]** canal e a dimensão de **[!UICONTROL Real-time event]** definição de metas (consulte [Criar um evento](../../administration/using/configuring-transactional-messaging.md#creating-an-event)).
-1. Adicione campos ao evento para personalizar a mensagem transacional (consulte [Definição dos atributos](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes)do evento).
-1. Enriqueça o conteúdo da mensagem transacional se quiser usar informações adicionais do banco de dados do Adobe Campaign (consulte [Enriquecendo o conteúdo](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)da mensagem transacional).
+1. Ao criar a configuração do evento, selecione o **[!UICONTROL Mobile application]** canal e a dimensão de **[!UICONTROL Real-time event]** definição de metas (consulte [Criar um evento](#creating-an-event)).
+1. Adicione campos ao evento para personalizar a mensagem transacional (consulte [Definição dos atributos](#defining-the-event-attributes)do evento).
+1. Enriqueça o conteúdo da mensagem transacional se quiser usar informações adicionais do banco de dados do Adobe Campaign (consulte [Enriquecendo o conteúdo](#enriching-the-transactional-message-content)da mensagem transacional).
 
    >[!NOTE]
    >
    >As mensagens transacionais baseadas em eventos devem usar somente os dados que estão no evento enviado para definir o destinatário e a personalização do conteúdo da mensagem. No entanto, você pode enriquecer o conteúdo de sua mensagem transacional usando informações do banco de dados do Adobe Campaign.
 
-1. Visualize e publique o evento (consulte [Visualizar e publicar o evento](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)).
+1. Visualize e publique o evento (consulte [Visualizar e publicar o evento](#previewing-and-publishing-the-event)).
 
    Ao visualizar o evento, a API REST contém os atributos "registrationToken", "application" e "pushPlatform" que serão usados para direcionar a entrega.
 
@@ -258,43 +258,43 @@ O evento deve conter os três elementos a seguir:
 
    Depois que o evento é publicado, uma notificação por push transacional vinculada ao novo evento é criada automaticamente. Para modificar e publicar a mensagem que acabou de ser criada, consulte [Envio de uma notificação por push transacional direcionada a um evento](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-an-event).
 
-1. Integre o evento ao seu site (consulte [Integrar o acionamento do evento em um site](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)).
+1. Integre o evento ao seu site (consulte [Integrar o acionamento do evento em um site](#integrating-the-triggering-of-the-event-in-a-website)).
 
 ### Notificações por push transacionais baseadas em perfil {#profile-based-transactional-push-notifications}
 
 Para enviar uma notificação por push transacional para os perfis do Adobe Campaign que se inscreveram no seu aplicativo móvel, primeiro é necessário criar e configurar um evento direcionado ao banco de dados do Adobe Campaign.
 
-1. Ao criar a configuração do evento, selecione o **[!UICONTROL Mobile application]** canal e a dimensão de **[!UICONTROL Profile]** definição de metas (consulte [Criar um evento](../../administration/using/configuring-transactional-messaging.md#creating-an-event)).
+1. Ao criar a configuração do evento, selecione o **[!UICONTROL Mobile application]** canal e a dimensão de **[!UICONTROL Profile]** definição de metas (consulte [Criar um evento](#creating-an-event)).
 
    Por padrão, a notificação por push transacional será enviada para todos os aplicativos móveis nos quais os destinatários se inscreveram. Para enviar a notificação por push para um aplicativo móvel específico, selecione-o na lista. Os outros aplicativos móveis serão direcionados pela mensagem, mas serão excluídos do envio.
 
    ![](assets/message-center_push_appfilter.png)
 
-1. Adicione campos ao evento, se desejar personalizar a mensagem transacional (consulte [Definição dos atributos](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes)do evento).
+1. Adicione campos ao evento, se desejar personalizar a mensagem transacional (consulte [Definição dos atributos](#defining-the-event-attributes)do evento).
 
    >[!NOTE]
    >
    >É necessário adicionar pelo menos um campo para criar um enriquecimento. Não é necessário criar outros campos, como **Nome** e **Sobrenome** , pois você poderá usar os campos de personalização do banco de dados do Adobe Campaign.
 
-1. Crie um enriquecimento para vincular o evento ao **[!UICONTROL Profile]** recurso (consulte [Enriquecer o conteúdo](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)da mensagem transacional). A criação de um enriquecimento é obrigatória ao usar uma dimensão de **[!UICONTROL Profile]** definição de metas.
-1. Visualize e publique o evento (consulte [Visualizar e publicar o evento](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)).
+1. Crie um enriquecimento para vincular o evento ao **[!UICONTROL Profile]** recurso (consulte [Enriquecer o conteúdo](#enriching-the-transactional-message-content)da mensagem transacional). A criação de um enriquecimento é obrigatória ao usar uma dimensão de **[!UICONTROL Profile]** definição de metas.
+1. Visualize e publique o evento (consulte [Visualizar e publicar o evento](#previewing-and-publishing-the-event)).
 
    Ao visualizar o evento, a API REST não contém um atributo que especifique o token de registro, o nome do aplicativo e a plataforma de push, conforme serão recuperados do **[!UICONTROL Profile]** recurso.
 
    Depois que o evento é publicado, uma notificação por push transacional vinculada ao novo evento é criada automaticamente. Para modificar e publicar a mensagem que acabou de ser criada, consulte [Envio de uma notificação por push transacional direcionada a um perfil](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile).
 
-1. Integre o evento ao seu site (consulte [Integrar o acionamento do evento em um site](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)).
+1. Integre o evento ao seu site (consulte [Integrar o acionamento do evento em um site](#integrating-the-triggering-of-the-event-in-a-website)).
 
 ### Configurar um evento para enviar uma mensagem de acompanhamento {#configuring-an-event-to-send-a-follow-up-message}
 
 Uma mensagem de acompanhamento é um modelo de entrega de marketing predefinido que pode ser usado em um fluxo de trabalho para enviar mensagens aos destinatários de uma mensagem transacional específica. Para obter mais informações, consulte Mensagens [de](../../channels/using/follow-up-messages.md)acompanhamento.
 
-1. Use a mesma configuração de evento criada para enviar uma mensagem transacional de evento. Consulte Mensagens [transacionais baseadas em](../../administration/using/configuring-transactional-messaging.md#event-based-transactional-messages)eventos.
+1. Use a mesma configuração de evento criada para enviar uma mensagem transacional de evento. Consulte Mensagens [transacionais baseadas em](#event-based-transactional-messages)eventos.
 1. Ao configurar seu evento, marque a **[!UICONTROL Create follow-up delivery template for this event]** caixa antes de publicar o evento.
 
    ![](assets/message-center_follow-up-checkbox.png)
 
-1. Visualize e publique o evento (consulte [Visualizar e publicar o evento](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)).
+1. Visualize e publique o evento (consulte [Visualizar e publicar o evento](#previewing-and-publishing-the-event)).
 
    Depois que o evento é publicado, uma mensagem transacional e um modelo de entrega de acompanhamento vinculado ao novo evento são criados automaticamente. Para obter mais informações sobre como usar mensagens de acompanhamento, consulte [Enviar uma mensagem](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)de acompanhamento.
 
@@ -308,12 +308,12 @@ Do mesmo modo, um recurso personalizado correspondente às compras deve ter sido
 
 Para obter mais informações sobre criação e publicação de recursos, consulte [esta página](../../developing/using/key-steps-to-add-a-resource.md).
 
-1. Crie um novo evento usando o **[!UICONTROL Email]** canal e a dimensão de **[!UICONTROL Profile]** definição de metas (consulte [Criar um evento](../../administration/using/configuring-transactional-messaging.md#creating-an-event)).
-1. Defina os atributos que estarão disponíveis para personalizar a mensagem transacional. Em nosso caso, adicione os campos "ID do CRM" e "Identificador do produto" (consulte [Definição dos atributos](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes)do evento).
+1. Crie um novo evento usando o **[!UICONTROL Email]** canal e a dimensão de **[!UICONTROL Profile]** definição de metas (consulte [Criar um evento](#creating-an-event)).
+1. Defina os atributos que estarão disponíveis para personalizar a mensagem transacional. Em nosso caso, adicione os campos "ID do CRM" e "Identificador do produto" (consulte [Definição dos atributos](#defining-the-event-attributes)do evento).
 
    ![](assets/message-center_usecase1.png)
 
-1. Para enriquecer o conteúdo da mensagem com informações relacionadas às compras anteriores do cliente, crie um enriquecimento direcionado ao **[!UICONTROL Purchase]** recurso (consulte [Enriquecendo o conteúdo](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)da mensagem transacional).
+1. Para enriquecer o conteúdo da mensagem com informações relacionadas às compras anteriores do cliente, crie um enriquecimento direcionado ao **[!UICONTROL Purchase]** recurso (consulte [Enriquecendo o conteúdo](#enriching-the-transactional-message-content)da mensagem transacional).
 
    ![](assets/message-center_usecase2.png)
 
@@ -321,6 +321,6 @@ Para obter mais informações sobre criação e publicação de recursos, consul
 
    ![](assets/message-center_usecase3.png)
 
-1. Visualize e publique o evento (consulte [Visualizar e publicar o evento](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)).
-1. Integre o evento em seu site (consulte [Integrar o acionamento do evento em um site](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)).
+1. Visualize e publique o evento (consulte [Visualizar e publicar o evento](#previewing-and-publishing-the-event)).
+1. Integre o evento em seu site (consulte [Integrar o acionamento do evento em um site](#integrating-the-triggering-of-the-event-in-a-website)).
 
