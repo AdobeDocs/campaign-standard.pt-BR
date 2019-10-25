@@ -1,7 +1,7 @@
 ---
-title: Sobre modelos
-seo-title: Sobre modelos
-description: Sobre modelos
+title: Sobre templates
+seo-title: Sobre templates
+description: Sobre templates
 seo-description: '"Os modelos do Adobe Campaign permitem pré-configurar parâmetros dependendo de suas necessidades: os modelos podem conter uma configuração completa ou parcial da atividade de marketing, para simplificar o uso do Adobe Campaign para usuários finais não técnicos."'
 page-status-flag: nunca ativado
 uuid: 018534b6-61a3-433e-bb60-49883c8b9386
@@ -14,12 +14,12 @@ discoiquuid: 95218ebe-5430-42a2-b900-1dadbc92d99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Sobre modelos{#about-templates}
+# Sobre templates{#about-templates}
 
 ## Modelos de atividades de marketing {#marketing-activity-templates}
 
@@ -37,10 +37,10 @@ Os modelos estão disponíveis para as seguintes atividades de marketing:
 
 * Programas
 * Campanhas
-* Envios por email
+* Deliveries de email
 * Entregas SMS
 * Notificações por push
-* Páginas iniciais
+* Landing pages
 * Fluxos de trabalho
 * Serviços
 * Importar
@@ -50,7 +50,7 @@ Esses modelos são gerenciados na tela **[!UICONTROL Resources]** &gt; **[!UICON
 
 >[!NOTE]
 >
->A configuração da marca pode ser pré-configurada em um modelo de email ou página de aterrissagem. Para obter mais informações, consulte a seção [Marcas](../../administration/using/branding.md) .
+>A configuração da marca pode ser pré-configurada em um modelo de email ou página de aterrissagem. For more information, refer to the [Branding](../../administration/using/branding.md) section.
 
 ## Modelos de conteúdo {#content-templates}
 
@@ -60,9 +60,9 @@ Os modelos de conteúdo HTML podem ser acessados na tela **[!UICONTROL Resources
 
 Os modelos de conteúdo prontos para uso são somente leitura. Para editar um deles, é necessário primeiro duplicar o modelo desejado.
 
-Você pode criar novos modelos ou fragmentos e definir seu próprio conteúdo. Para obter mais informações, consulte [Criar um modelo](../../start/using/about-templates.md#creating-a-content-template) de conteúdo e [Criar um fragmento](../../designing/using/using-reusable-content.md#creating-a-content-fragment)de conteúdo.
+Você pode criar novos modelos ou fragmentos e definir seu próprio conteúdo. Para obter mais informações, consulte [Criar um modelo](#creating-a-content-template) de conteúdo e [Criar um fragmento](../../designing/using/using-reusable-content.md#creating-a-content-fragment)de conteúdo.
 
-Ao editar conteúdo com o Designer de email, você também pode criar modelos de conteúdo salvando o conteúdo como fragmento ou modelo. Para obter mais informações, consulte [Salvar conteúdo como modelo](../../start/using/about-templates.md#saving-content-as-template) e [Salvar conteúdo como fragmento](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
+Ao editar conteúdo com o Designer de email, você também pode criar modelos de conteúdo salvando o conteúdo como fragmento ou modelo. Para obter mais informações, consulte [Salvar conteúdo como modelo](#saving-content-as-template) e [Salvar conteúdo como fragmento](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
 ### Modelos de conteúdo de email prontos para uso {#email-content-templates}
 
@@ -77,7 +77,7 @@ Os modelos prontos para uso de conteúdo de e-mail incluem dezoito layouts otimi
 * Saiba como personalizar modelos de conteúdo [neste vídeo](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html).
 * Para obter mais informações sobre edição de conteúdo, consulte [Sobre design](../../designing/using/overview.md)de conteúdo de email.
 
-### Criação de um modelo de conteúdo {#creating-a-content-template}
+### Creating a content template {#creating-a-content-template}
 
 Você pode criar seus próprios modelos de conteúdo para usá-los quantas vezes forem necessárias.
 
