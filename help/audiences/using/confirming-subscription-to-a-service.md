@@ -14,7 +14,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a98c15b5c0f5f8714a09e709d4fa5259d3ce531e
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -32,8 +32,8 @@ Se você optar por usar a mensagem padrão, poderá editar seu conteúdo com as 
 * Essa mensagem será a mesma para todos os serviços que usam o modo padrão.
 
 Para enviar um email de confirmação específico para um determinado serviço, é possível criar uma mensagem personalizada, na qual você também poderá aproveitar os campos de personalização de outros recursos. Para fazer isso, você deve criar e configurar uma mensagem transacional. Esta mensagem pode ser referenciada :
-* Do próprio serviço. Para obter mais informações, consulte [Configurar mensagem de confirmação de um serviço](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-service).
-* De uma página inicial de assinatura. Para obter mais informações, consulte [Configuração da mensagem de confirmação de uma página](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-landing-page)de aterrissagem.
+* Do próprio serviço. Para obter mais informações, consulte [Configurar mensagem de confirmação de um serviço](#configuring-confirmation-message-from-service).
+* De uma página inicial de assinatura. Para obter mais informações, consulte [Configuração da mensagem de confirmação de uma página](#configuring-confirmation-message-from-landing-page)de aterrissagem.
 
 ## Configurar mensagem de confirmação de um serviço {#configuring-confirmation-message-from-service}
 
@@ -166,7 +166,7 @@ O email de confirmação é uma mensagem [](../../channels/using/about-transacti
 
 #### Projetar a mensagem de confirmação {#design-the-confirmation-message-2}
 
-As etapas para projetar a mensagem transacional são apresentadas nesta [seção](../../audiences/using/confirming-subscription-to-a-service.md#design-the-confirmation-message-1).
+As etapas para projetar a mensagem transacional são apresentadas nesta [seção](#design-the-confirmation-message-1).
 
 ### Etapa 2: Criar e configurar o serviço {#step-2--create-and-configure-the-service-2}
 
