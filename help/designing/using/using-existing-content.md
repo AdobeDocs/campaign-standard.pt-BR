@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: fe2f9ef93e87bfd269a3503eb6d8c88461caf694
 
 ---
 
@@ -39,8 +39,8 @@ Ao criar um email ou uma página inicial, você pode optar por carregar um conte
 
    * [Modelos](../../designing/using/using-reusable-content.md#content-templates)de conteúdo: clique na **[!UICONTROL Templates]** guia.
    * [Conteúdo do zero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch), para começar fresco: clique no **[!UICONTROL Create]** botão.
-   * [Conteúdo do seu computador como um arquivo](../../designing/using/using-existing-content.md#importing-content-from-a-file)ZIP ou HTML: clique no **[!UICONTROL Upload]** botão.
-   * [Conteúdo de um URL](../../designing/using/using-existing-content.md#importing-content-from-a-url) existente (somente para e-mails): clique no **[!UICONTROL Import from URL]** botão.
+   * [Conteúdo do seu computador como um arquivo](#importing-content-from-a-file)ZIP ou HTML: clique no **[!UICONTROL Upload]** botão.
+   * [Conteúdo de um URL](#importing-content-from-a-url) existente (somente para e-mails): clique no **[!UICONTROL Import from URL]** botão.
    ![](assets/des_loading_2.png)
 
 1. Carregue o conteúdo. O conteúdo selecionado substitui o conteúdo atual.
@@ -49,7 +49,7 @@ Ao criar um email ou uma página inicial, você pode optar por carregar um conte
 
    >[!NOTE]
    >
-   >O [Email Designer](../../designing/using/overview.md) usa marcação específica. O conteúdo HTML padrão carregado no Campaign deve corresponder à marcação esperada para ser totalmente compatível e editável no Designer de email. Se não for correspondente, seu conteúdo será carregado no modo [de](../../designing/using/using-existing-content.md#compatibility-mode)compatibilidade. Para tornar o conteúdo existente compatível, consulte [esta seção](../../designing/using/using-existing-content.md#editing-existing-contents-with-the-email-designer).
+   >O [Email Designer](../../designing/using/overview.md) usa marcação específica. O conteúdo HTML padrão carregado no Campaign deve corresponder à marcação esperada para ser totalmente compatível e editável no Designer de email. Se não for correspondente, seu conteúdo será carregado no modo [de](#compatibility-mode)compatibilidade. Para tornar o conteúdo existente compatível, consulte [esta seção](#editing-existing-contents-with-the-email-designer).
 
 **Tópicos relacionados:**
 
@@ -60,7 +60,7 @@ Ao criar um email ou uma página inicial, você pode optar por carregar um conte
 
 Para aproveitar totalmente as possibilidades de edição do [Email Designer](../../designing/using/overview.md), seu HTML carregado deve conter tags específicas que o tornem compatível com o editor WYSIWYG.
 
-Se todo o HTML ou parte dele não tiver essa marcação, o conteúdo será carregado no "modo [de](../../designing/using/using-existing-content.md#compatibility-mode)compatibilidade".
+Se todo o HTML ou parte dele não tiver essa marcação, o conteúdo será carregado no "modo [de](#compatibility-mode)compatibilidade".
 
 Para tornar um conteúdo externo existente totalmente editável no Designer de email, consulte a seção [Projetando um email usando o conteúdo](../../designing/using/using-existing-content.md) existente.
 
@@ -184,7 +184,7 @@ Este caso de uso oferece uma maneira rápida de converter um email HTML em compo
 
 Fora do Designer de email, verifique se o HTML original está dividido em seções reutilizáveis.
 
-Se esse não for o caso, recorte os diferentes blocos do seu HTML.  Por exemplo:
+Se esse não for o caso, recorte os diferentes blocos do seu HTML. Por exemplo:
 
 ```
 <!-- 3 COLUMN w/CTA (SCALED) -->
@@ -213,11 +213,11 @@ Depois de identificar todos os blocos, no Designer de email, repita o seguinte p
 1. Adicione um componente de estrutura. Para obter mais informações, consulte [Edição da estrutura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de email.
 1. Adicione um componente HTML. Para obter mais informações, consulte [Adicionar fragmentos e componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Copie e cole seu HTML nesse componente.
-1. Alternar para exibição móvel. Para obter mais informações, consulte [esta seção](../../designing/using/styles.md#switching-to-mobile-view).
+1. Alternar para exibição móvel. For more on this, see [this section](../../designing/using/styles.md#switching-to-mobile-view).
 
    A exibição responsiva está quebrada, pois seu CSS está ausente.
 
-1. Para corrigir isso, alterne para o modo de código fonte e copie e cole sua seção de estilo em uma nova seção de estilo.  Por exemplo:
+1. Para corrigir isso, alterne para o modo de código fonte e copie e cole sua seção de estilo em uma nova seção de estilo. Por exemplo:
 
    ```
    <style type="text/css">
