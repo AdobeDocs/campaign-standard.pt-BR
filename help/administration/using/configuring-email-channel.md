@@ -15,7 +15,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -40,13 +40,13 @@ A tela de configuração de email permite definir os parâmetros do canal de ema
 
    O Adobe Campaign envia as mensagens que começam na data de início. O **[!UICONTROL Message delivery duration]** campo permite especificar a duração durante a qual as mensagens podem ser enviadas.
 
-   O **[!UICONTROL Online resources validity duration]** campo é usado para recursos carregados, principalmente para a página espelhada e imagens. Os recursos desta página são válidos por um tempo limitado (para economizar espaço em disco).
+   The **[!UICONTROL Online resources validity duration]** field is used for uploaded resources, mainly for the mirror page and images. Os recursos desta página são válidos por um tempo limitado (para economizar espaço em disco).
 
 * **Repetir**
 
    As mensagens temporariamente não entregues estão sujeitas a uma nova tentativa automática. Esta seção indica quantas tentativas devem ser executadas no dia seguinte ao início do envio (**Número de tentativas**) e o atraso mínimo entre as tentativas (período **de** tentativas).
 
-   Por padrão, cinco tentativas são programadas para o primeiro dia com um intervalo mínimo de uma hora, distribuídas nas 24 horas do dia. Uma nova tentativa por dia é programada após essa data e até ao prazo de entrega, definido na **[!UICONTROL Delivery parameters]** seção.
+   Por padrão, cinco tentativas são programadas para o primeiro dia com um intervalo mínimo de uma hora, distribuídas nas 24 horas do dia. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.
 
 * **Parâmetros de quarentena de email**
 
@@ -56,7 +56,7 @@ A tela de configuração de email permite definir os parâmetros do canal de ema
 
 **Tópico** relacionado:
 
-[Compreensão do gerenciamento de quarentena](../../sending/using/understanding-quarantine-management.md)
+[Noções básicas sobre gestão de quarentena](../../sending/using/understanding-quarantine-management.md)
 
 ## Contas de roteamento de email {#email-routing-accounts}
 
@@ -72,34 +72,34 @@ O tipo de conta deve ser sempre definido como **[!UICONTROL Routing]**, o canal 
 
 ## Regras de processamento de email {#email-processing-rules}
 
-Essas regras contêm a lista de sequências de caracteres que podem ser retornadas por servidores remotos e que permitem qualificar o erro (**Hard**, **Soft** ou **Ignored**).
+Essas regras contêm a lista de cadeias de caracteres que podem ser retornadas por servidores remotos e que permitem que você qualifique o erro (**Grave**, **Suave** ou **Ignorado**).
 
 As regras padrão são as seguintes:
 
 **Mensagens de rejeição**
 
-Quando um email falha, o servidor de mensagens remoto retorna uma mensagem de erro de rejeição para o endereço especificado nas configurações do aplicativo. O Adobe Campaign compara o conteúdo de cada email de rejeição às strings na lista de regras e, em seguida, atribui um dos três tipos de erro.
+Quando um email falha, o servidor de mensagens remoto retorna uma mensagem de erro de rejeição para o endereço especificado nas configurações do aplicativo. O Adobe Campaign compara o conteúdo de cada email de devolução nas cadeias de caracteres da lista de regras e atribui um dos três tipos de erro.
 
 O usuário pode criar suas próprias regras.
 
 >[!CAUTION]
 >
->Ao importar um pacote e ao atualizar dados por meio do fluxo de trabalho **Atualizar para entrega** , as regras criadas pelo usuário são substituídas.
+>When importing a package and when updating data via the **Update for deliverability** workflow, the user-created rules are overwritten.
 
 **Gerenciamento de domínios de email**
 
-As regras de gerenciamento de domínio são usadas para regular o fluxo de emails de saída para um domínio específico. Eles coletam amostras das mensagens de rejeição e bloqueiam o envio, quando apropriado. O servidor de mensagens do Adobe Campaign aplica regras específicas aos domínios e, em seguida, as regras para o caso geral representado por um asterisco na lista de regras. As regras para os domínios do Hotmail e MSN estão disponíveis por padrão no Adobe Campaign.
+As regras de gestão de domínio são usadas para regular o fluxo de emails de saída para um domínio específico. Eles exemplificam as mensagens de devolução e bloqueiam o envio sempre que apropriado. O servidor de mensagens do Adobe Campaign aplica regras específicas aos domínios e, em seguida, as regras do caso geral representado por um asterisco na lista de regras. As regras dos domínios do Hotmail e MSN estão disponíveis por padrão no Adobe Campaign.
 
-Para configurar regras de gerenciamento de domínio, basta definir um limite e selecionar determinados parâmetros SMTP. Um **limite** é um limite calculado como uma porcentagem de erro além da qual todas as mensagens para um domínio específico são bloqueadas.
+Para configurar regras de gerenciamento de domínio, basta definir um limite e selecionar determinados parâmetros SMTP. Uma **cota** é um limite calculado como uma porcentagem de erro além do qual todas as mensagens em um domínio específico estão bloqueadas.
 
 Por exemplo, no caso geral, para um mínimo de 300 mensagens, o envio de emails é bloqueado por três horas se a taxa de erro atingir 90%.
 
-Os parâmetros **** SMTP atuam como filtros aplicados para uma regra de bloqueio.
+Os **parâmetros SMTP** atuam como filtros aplicados para uma regra de bloqueio.
 
-* Você pode optar por ativar ou não determinados padrões de identificação e chaves de criptografia para verificar o nome do domínio, como ID **do** remetente, **DomainKeys**, **DKIM** e **S/MIME**.
-* **Retransmissão** SMTP: permite configurar o endereço IP e a porta de um servidor de retransmissão para um domínio específico.
+* Você pode escolher se ativa ou não determinados padrões de identificação e chaves de criptografia para verificar o nome do domínio, como **ID fo remetente**, **DomainKeys**, **DKIM**, e **S/MIME**.
+* **Retransmissão SMTP**: permite configurar o endereço IP e a porta de um servidor de retransmissão para um determinado domínio.
 
-**Gerenciamento MX**
+**Gestão MX**
 
 Cada regra define uma máscara de endereço para o MX. Qualquer MX cujo nome corresponda a essa máscara é, portanto, elegível. A máscara pode conter "*" e "?" caracteres genéricos.
 
@@ -131,8 +131,8 @@ Os seguintes parâmetros estão disponíveis para cada regra:
 
 >[!CAUTION]
 >
->* O servidor de entrega (MTA) deve ser reiniciado se os parâmetros tiverem sido alterados.
->* A modificação ou criação de regras de gerenciamento é somente para usuários especialistas.
+>* O servidor de delivery (MTA) deve ser reiniciado se os parâmetros forem alterados.
+>* A modificação ou a criação de regras de gestão é somente para usuários avançados.
 >
 
 
@@ -173,7 +173,7 @@ A **[!UICONTROL Send]** seção está disponível somente para modelos de e-mail
 
 As mensagens temporariamente não entregues estão sujeitas a uma nova tentativa automática. Esta seção indica quantas tentativas devem ser executadas no dia seguinte ao início do envio ( **[!UICONTROL Max. number of retries]** ) e o atraso mínimo entre as tentativas ( **[!UICONTROL Retry period]** ).
 
-Por padrão, cinco tentativas são programadas para o primeiro dia com um intervalo mínimo de uma hora, distribuídas nas 24 horas do dia. Uma nova tentativa por dia é programada depois disso e até o prazo de entrega, que é definido na seção Parâmetros [do período de](../../administration/using/configuring-email-channel.md#validity-period-parameters) Validade.
+Por padrão, cinco tentativas são programadas para o primeiro dia com um intervalo mínimo de uma hora, distribuídas nas 24 horas do dia. One retry per day is programmed after that and until the delivery deadline, which is defined in the [Validity period parameters](#validity-period-parameters) section.
 
 O número de tentativas pode ser alterado globalmente (entre em contato com o administrador técnico da Adobe) ou para cada entrega ou modelo de entrega
 
@@ -181,7 +181,7 @@ O número de tentativas pode ser alterado globalmente (entre em contato com o ad
 
 Você pode configurar o formato dos emails a serem enviados. Há três opções disponíveis:
 
-* **Usar preferências** do destinatário (modo padrão): o formato de mensagem é definido de acordo com os dados armazenados no perfil do destinatário e armazenado por padrão no campo de formato **de** email (@emailFormat). Se um destinatário desejar receber mensagens em um determinado formato, esse será o formato enviado. Se o campo não estiver concluído, uma mensagem multipart-alternativo será enviada (consulte abaixo).
+* **Usar preferências** do destinatário (modo padrão): o formato de mensagem é definido de acordo com os dados armazenados no perfil do destinatário e armazenado por padrão no campo de formato **de** email (@emailFormat). Se um recipient deseja receber mensagens em determinado formato, esse será o formato enviado. Se o campo não estiver concluído, uma mensagem multipart-alternativo será enviada (consulte abaixo).
 * **Deixe que o cliente de email do destinatário escolha o formato mais apropriado (multipart-alternativo)**: a mensagem contém ambos os formatos: text e HTML. O formato exibido na recepção depende da configuração do software de email do destinatário (multipart-alternativo).
 
    >[!CAUTION]
@@ -206,7 +206,7 @@ Se você ativar a opção de modo de teste SMTP para um modelo de email, todas a
 >Quando esta opção estiver ativada para um email, nenhuma mensagem será enviada até que ela seja desmarcada.
 >Um aviso será exibido no painel de email ou modelo de email.
 
-Para obter mais informações sobre como configurar o SMTP, consulte a seção [Lista de parâmetros](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters) SMTP de email.
+Para obter mais informações sobre como configurar o SMTP, consulte a seção [Lista de parâmetros](#list-of-email-smtp-parameters) SMTP de email.
 
 ### Parâmetros do período de validade {#validity-period-parameters}
 
@@ -260,7 +260,7 @@ Este campo indica o modo de roteamento usado. Ele faz referência a uma conta ex
 
 A preparação de mensagens é detalhada na seção [Aprovando mensagens](../../sending/using/preparing-the-send.md) .
 
-* **[!UICONTROL Typology]**: antes de qualquer envio, as mensagens devem ser preparadas para validar o conteúdo e a configuração. As regras de verificação aplicadas durante a fase de preparação são definidas numa **tipologia**. Por exemplo, para emails, a preparação envolve a verificação do assunto, URLs e imagens etc. Selecione a tipologia a ser aplicada neste campo.
+* **[!UICONTROL Typology]**: antes de qualquer envio, as mensagens devem ser preparadas para validar o conteúdo e a configuração. The verification rules applied during the preparation phase are defined in a **typology**. Por exemplo, para emails, a preparação envolve a verificação do assunto, URLs e imagens etc. Selecione a tipologia a ser aplicada neste campo.
 
    >[!NOTE]
    >
@@ -268,7 +268,7 @@ A preparação de mensagens é detalhada na seção [Aprovando mensagens](../../
 
 * **[!UICONTROL Compute the label during delivery preparation]**: permite calcular o valor do rótulo do email durante a fase de preparação da mensagem usando campos de personalização, blocos de conteúdo e texto dinâmico.
 
-   Também é possível personalizar o rótulo de entrega com variáveis de eventos que foram declaradas para a atividade de sinal externo do fluxo de trabalho. For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md).
+   Também é possível personalizar o rótulo de entrega com variáveis de eventos que foram declaradas para a atividade de sinal externo do fluxo de trabalho. Para obter mais informações, consulte [esta seção](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 * **[!UICONTROL Save SQL queries in the log]**: essa opção permite adicionar logs de consulta SQL no diário durante a fase de preparação.
 
@@ -278,11 +278,11 @@ A **[!UICONTROL SMTP]** seção contém os seguintes parâmetros:
 
 * **[!UICONTROL Character encoding]**: marque a **[!UICONTROL Force encoding]** caixa se desejar forçar a codificação de mensagens e selecione a codificação que deseja usar.
 * **[!UICONTROL Bounce mails]**: por padrão, os e-mails de rejeição são recebidos na caixa de entrada de erro da plataforma (definida na tela **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Email]** &gt; **[!UICONTROL Configuration]** ). Para definir um endereço de erro específico para um email, insira o endereço no **[!UICONTROL Error address]** campo.
-* **[!UICONTROL Additional SMTP headers]**: essa opção permite que cabeçalhos SMTP adicionais sejam adicionados às suas mensagens. O script inserido no **[!UICONTROL Headers]** campo deve fazer referência a um cabeçalho por linha, na forma de **name:value**. Os valores são codificados automaticamente, se necessário.
+* **[!UICONTROL Additional SMTP headers]**: essa opção permite que cabeçalhos SMTP adicionais sejam adicionados às suas mensagens. O script inserido no **[!UICONTROL Headers]** campo deve fazer referência a um cabeçalho por linha, na forma de **name:value**. Os valores são codificados automaticamente se necessário.
 
    >[!CAUTION]
    >
-   >Adicionar um script para inserir cabeçalhos SMTP adicionais é reservado para usuários avançados. A sintaxe deste script deve estar em conformidade com os requisitos deste tipo de conteúdo: sem espaço não utilizado, sem linha vazia, etc.
+   >Adicionar um script para inserir cabeçalhos SMTP adicionais é apenas para usuários avançados. A sintaxe desse script deve estar em conformidade com os requisitos desse tipo de conteúdo: não há espaço não utilizado, nenhuma linha vazia, etc.
 
 ### Lista de parâmetros de autorização de acesso {#list-of-access-authorization-parameters}
 
@@ -316,16 +316,16 @@ Quando ativado no modelo de entrega, esse recurso permite enviar uma cópia exat
 
 A Cco de email é ativada no modelo [de](../../start/using/about-templates.md)email por meio de uma opção dedicada:
 
-1. Vá até **Recursos** &gt; **Modelos** &gt; Modelos **de** entrega.
+1. Go to **Resources** &gt; **Templates** &gt; **Delivery templates**.
 1. Duplique o modelo predefinido **[!UICONTROL Send via email]** .
 1. Selecione o modelo duplicado.
 1. Clique no **[!UICONTROL Edit properties]** botão para editar as propriedades do modelo.
 1. Expanda a **[!UICONTROL Send]** seção.
-1. Marque a **[!UICONTROL Archive emails]** caixa para manter uma cópia de todas as mensagens enviadas para cada entrega com base neste modelo.
+1. Check the **[!UICONTROL Archive emails]** box to keep a copy of all sent messages for each delivery based on this template.
 
    ![](assets/email_archiving.png)
 
 >[!NOTE]
 >
->Se os emails enviados para o endereço Cco forem abertos e clicados, isso será levado em conta na análise **[!UICONTROL Total opens]** e **[!UICONTROL Clicks]** do envio, o que pode causar alguns erros de cálculo.
+>If the emails sent to the BCC address are opened and clicked through, this will be taken into account in the **[!UICONTROL Total opens]** and **[!UICONTROL Clicks]** from the send analysis, which could cause some miscalculations.
 
