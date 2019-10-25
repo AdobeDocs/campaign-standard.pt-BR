@@ -2,152 +2,152 @@
 title: Gerenciamento de usuários
 seo-title: Gerenciamento de usuários
 description: Gerenciamento de usuários
-seo-description: 'Os usuários do Adobe Campaign detêm funções específicas. Descubra o tipo de usuário principal. '
+seo-description: 'Os usuários do Adobe Campaign têm funções específicas. Descubra os principais tipos de usuários. '
 page-status-flag: nunca ativado
-uuid: 8 c 4 cc 74 a -815 f -4815-af 66-a 7 c 21 bc 754 f 1
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: administration
-content-type: reference
+uuid: 8c4cc74a-815f-4815-af66-a7c21bc754f1
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: administração
+content-type: referência
 topic-tags: usuários e segurança
-discoiquuid: 08 c 8712 a -0066-4 b 8 b -8471-2656 b 8 fb 23 ed
+discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ab329af94dc4e28651aaef17f4588d894fb48b74
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Users management{#users-management}
+# Gerenciamento de usuários{#users-management}
 
-## About users {#about-users}
+## Sobre usuários {#about-users}
 
-O Adobe Campaign permite atribuir um conjunto de funções aos usuários para definir qual parte da interface que eles podem acessar.
+O Adobe Campaign permite que você atribua um conjunto de funções aos usuários para definir qual parte da interface eles podem acessar.
 
-The specific roles and the corresponding authorizations are detailed in the following sections: [understanding roles](../../administration/using/list-of-roles.md) and [authorizations](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+As funções específicas e as autorizações correspondentes são descritas nas seguintes seções: [compreender funções](../../administration/using/list-of-roles.md) e [autorizações](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 
-Os administradores podem gerenciar usuários do Admin Console. Os usuários são sincronizados automaticamente com o Adobe Campaign. For more on this, refer to the [Admin console](https://helpx.adobe.com/enterprise/using/users.html) documentation.
+Os administradores podem gerenciar usuários a partir do Admin Console. Os usuários são sincronizados automaticamente com o Adobe Campaign. For more on this, refer to the [Admin console](https://helpx.adobe.com/enterprise/using/users.html) documentation.
 
-To view the users in Adobe Campaign, click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Administration > Users & Security > Users]**.
+Para exibir os usuários no Adobe Campaign, clique no **[!UICONTROL Adobe Campaign]** logotipo, no canto superior esquerdo, e selecione **[!UICONTROL Administration > Users & Security > Users]**.
 
-To access the user management interface from Adobe Campaign, click **[!UICONTROL User administration]**.
+Para acessar a interface de gerenciamento de usuários do Adobe Campaign, clique em **[!UICONTROL User administration]**.
 
 ![](assets/user_management_5.png)
 
 **Tópicos relacionados:**
 
-* [Vídeo sobre como gerenciar permissões](https://helpx.adobe.com/campaign/kt/acs/using/acs-user-access-rights-feature-video-use.html) de usuário
+* [Vídeo Gerenciar permissões](https://helpx.adobe.com/campaign/kt/acs/using/acs-user-access-rights-feature-video-use.html) do usuário
 * [Lista de funções](../../administration/using/list-of-roles.md)
 * [Lista de autorizações](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
-## Type of users {#type-of-users}
+## Tipo de usuários {#type-of-users}
 
 Essa segmentação de usuário não é obrigatória, é apenas uma representação do uso mais comum do Adobe Campaign.
 
-Esta seção ajudará você a entender os principais tipos de usuários do Adobe Campaign. Aqui, não entraremos em todas as funções específicas que um usuário pode segurar (iniciar entregas, exportar, preparar entregas etc.). For more information on roles, refer to [List of roles](../../administration/using/list-of-roles.md) and [Managing groups and users](../../administration/using/managing-groups-and-users.md) pages.
+Esta seção ajudará você a entender os principais tipos de usuários do Adobe Campaign. Aqui, não entraremos em todas as funções específicas que um usuário pode ter (iniciar entregas, exportar, preparar entregas etc.). Para obter mais informações sobre funções, consulte a [Lista de funções](../../administration/using/list-of-roles.md) e [Gerenciamento de grupos e páginas de usuários](../../administration/using/managing-groups-and-users.md) .
 
-Vamos focar em como as diferentes tarefas do Adobe Campaign são divididas entre três tipos principais de usuário:
+Em vez disso, vamos nos concentrar em como as diferentes tarefas no Adobe Campaign são divididas entre três tipos principais de usuários:
 
-* [Administradores funcionais](../../administration/using/users-management.md#functional-administrators): entre todos os usuários de sua organização, eles são os mais técnicos.
-* [Usuários avançados](../../administration/using/users-management.md#advanced-users): definem todos os elementos que os profissionais de marketing precisam enviar e monitorar suas entregas.
-* [Usuários básicos](../../administration/using/users-management.md#basic-users): são profissionais de marketing que personalizam, entregam e monitoram suas campanhas.
+* [Administradores](#functional-administrators)funcionais: entre todos os usuários de sua organização, eles são os mais técnicos.
+* [Usuários](#advanced-users)avançados: eles configuram todos os elementos de que os comerciantes precisam para enviar e monitorar suas entregas.
+* [Usuários](#basic-users)básicos: eles são os comerciantes que personalizam, entregam e monitoram suas campanhas.
 
 >[!NOTE]
 >
->Administradores funcionais são diferentes dos administradores técnicos da Adobe. Os administradores técnicos da Adobe detêm uma função interna da Adobe que nenhum cliente pode usar. Gerencie o provisionamento da instância, a hospedagem, o monitoramento de infraestrutura e a supervisão, a solução de problemas técnica.
+>Os administradores funcionais são diferentes dos administradores técnicos da Adobe. Os administradores técnicos da Adobe têm uma função interna da Adobe que nenhum cliente pode usar. Eles gerenciam o provisionamento da instância, a hospedagem, o monitoramento e a supervisão da infraestrutura, a solução de problemas técnicos.
 
-### Functional administrators {#functional-administrators}
+### Administradores funcionais {#functional-administrators}
 
-Os administradores funcionais são usuários que podem acessar as partes mais técnicas da interface. They hold the **[!UICONTROL Administration]** role and make sure that the platform is all set up so that marketers only have to focus on delivering their campaigns.
+Os administradores funcionais são usuários que podem acessar as partes mais técnicas da interface. Eles assumem a **[!UICONTROL Administration]** função e garantem que a plataforma esteja configurada para que os profissionais de marketing tenham que se concentrar apenas no lançamento de suas campanhas.
 
-Functional administrators are the only users who can access the **[!UICONTROL Administration]** menu, in the Adobe Campaign interface. Since these users need to access technical resources, more advanced roles should be assigned to them, such as the **[!UICONTROL Administration]** and **[!UICONTROL Datamodel]** out-of-the-box roles. These roles are combined in the **[!UICONTROL Administrators]** out-of-the-box security group. For more on this, refer to this [section](../../administration/using/list-of-roles.md).
+Os administradores funcionais são os únicos usuários que podem acessar o **[!UICONTROL Administration]** menu, na interface do Adobe Campaign. Como esses usuários precisam acessar os recursos técnicos, as funções mais avançadas devem ser atribuídas a eles, como as funções **[!UICONTROL Administration]** e **[!UICONTROL Datamodel]** prontas para uso. Essas funções são combinadas no grupo de segurança **[!UICONTROL Administrators]** predefinido. Para obter mais informações, consulte esta [seção](../../administration/using/list-of-roles.md).
 
-Estas são as principais tarefas que podem ser realizadas:
+Estas são as principais tarefas que podem ser executadas:
 
-* [Gerenciar usuários e permissões](../../administration/using/about-access-management.md): gerenciar o acesso à plataforma (usuários, funções, grupos de segurança, unidades).
-* [Configure os diferentes canais](../../administration/using/about-channel-configuration.md): configurar canais de plataforma diferentes, bem como tipologia e gerenciamento de quarentena.
-* [Configure as configurações gerais do aplicativo](../../administration/using/external-accounts.md): configurar os diferentes elementos do aplicativo (contas externas, opções, fluxos de trabalho técnicos).
-* [Desenvolva novos recursos para aprimorar as funcionalidades inovadoras](../../developing/using/data-model-concepts.md): gerenciar seus recursos personalizados e acessar ferramentas de diagnóstico.
-* [Configure os parâmetros de instância](../../administration/using/branding.md): defina suas marcas diferentes e configure suas configurações (logotipo, gerenciamento do rastreamento, domínio do URL para acessar as páginas de aterrissagem etc.).
-* [Exportar e importar pacotes de dados](../../automating/using/managing-packages.md): recursos de troca entre diferentes instâncias do Adobe Campaign por meio de arquivos XML estruturados.
-* [Exportar logs](../../automating/using/exporting-logs.md) e [definir modelos de importação](../../automating/using/defining-import-templates.md).
+* [Gerenciar usuários e permissões](../../administration/using/about-access-management.md): gerencie o acesso à plataforma (usuários, funções, grupos de segurança, unidades).
+* [Configure os diferentes canais](../../administration/using/about-channel-configuration.md): configure os diferentes canais da plataforma, bem como o gerenciamento de tipologia e quarentena.
+* [Defina as configurações](../../administration/using/external-accounts.md)gerais do aplicativo: configure os diferentes elementos do aplicativo (contas externas, opções, fluxos de trabalho técnicos).
+* [Desenvolva novos recursos para aprimorar funcionalidades](../../developing/using/data-model-concepts.md)inovadoras: gerencie seus recursos personalizados e acesse ferramentas de diagnóstico.
+* [Configure os parâmetros](../../administration/using/branding.md)de instância: defina suas diferentes marcas e defina suas configurações (logotipo, gerenciamento de rastreamento, domínio de URL para acessar as páginas de aterrissagem, etc.).
+* [Exportar e importar pacotes](../../automating/using/managing-packages.md)de dados: troque recursos entre diferentes instâncias do Adobe Campaign por meio de arquivos XML estruturados.
+* [Exporte logs](../../automating/using/exporting-logs.md) e [defina modelos](../../automating/using/defining-import-templates.md)de importação.
 
-### Advanced users {#advanced-users}
+### Usuários avançados {#advanced-users}
 
-Usuários avançados são usuários de marketing que executam os casos de uso mais técnicos no Adobe Campaign. Eles pré-configura todos os elementos que os profissionais de marketing usam para enviar e monitorar suas entregas.
+Usuários avançados são usuários de marketing que executam os casos de uso mais técnicos no Adobe Campaign. Eles pré-configuram todos os elementos que os comerciantes usam para enviar e monitorar suas entregas.
 
-Esse tipo de usuário requer funções mais gerais do que os administradores funcionais, mas ainda deve ser capaz de realizar algumas operações técnicas. To do so, they should be assigned, for example, the **[!UICONTROL Export]**, **[!UICONTROL Generic import]** or **[!UICONTROL Workflow]** out-of-the-box roles. For more on this, refer to this [section](../../administration/using/list-of-roles.md).
+Esse tipo de usuário requer funções mais gerais do que administradores funcionais, mas ainda deve ser capaz de executar algumas operações técnicas. Para fazer isso, elas devem ser atribuídas, por exemplo, as funções **[!UICONTROL Export]**, **[!UICONTROL Generic import]** ou **[!UICONTROL Workflow]** prontas para uso. Para obter mais informações, consulte esta [seção](../../administration/using/list-of-roles.md).
 
-Estas são as principais tarefas que podem ser realizadas:
+Estas são as principais tarefas que podem ser executadas:
 
-* [Crie e execute fluxos de trabalho complexos de gerenciamento de dados](../../automating/using/about-data-management-activities.md): importar, enriquecer e transformar dados para feed de seu banco de dados ou exportar os dados necessários em arquivos externos para processá-lo em suas próprias ferramentas.
-* [Gerenciar modelos](../../start/using/about-templates.md): gerenciar seus modelos para pré-configurar determinados parâmetros de suas atividades de marketing de acordo com suas necessidades.
-* [Crie consultas](../../automating/using/editing-queries.md#about-query-editor) e [gerencie seus públicos-alvo](../../audiences/using/about-audiences.md): criar seus públicos-alvo manualmente usando consultas ou usando automaticamente fluxos de trabalho dedicados.
-* [Executar edição de expressão avançada](../../automating/using/editing-queries.md#about-query-editor): usar funções avançadas para manipular os valores usados para realizar consultas específicas, como datas, sequências, campos numéricos, classificação etc.
-* [Exportar listas](../../automating/using/exporting-lists.md) e [importar dados usando modelos de importação existentes](../../automating/using/importing-data-with-import-templates.md).
+* [Crie e execute fluxos de trabalho](../../automating/using/about-data-management-activities.md)complexos de gerenciamento de dados: importe, enriqueça e transforme dados para alimentar seu banco de dados ou exporte os dados necessários em arquivos externos para processá-los em suas próprias ferramentas.
+* [Gerenciar modelos](../../start/using/about-templates.md): gerencie seus modelos para pré-configurar determinados parâmetros de suas atividades de marketing de acordo com suas necessidades.
+* [Crie consultas](../../automating/using/editing-queries.md#about-query-editor) e [gerencie seus públicos-alvo](../../audiences/using/about-audiences.md): crie seus públicos-alvo manualmente usando consultas ou automaticamente usando fluxos de trabalho dedicados.
+* [Executar edição](../../automating/using/editing-queries.md#about-query-editor)de expressões avançadas: use funções avançadas para manipular os valores usados para realizar consultas específicas, como datas, strings, campos numéricos, classificação etc.
+* [Exportar listas](../../automating/using/exporting-lists.md) e [importar dados usando modelos](../../automating/using/importing-data-with-import-templates.md)de importação existentes.
 
-### Basic users {#basic-users}
+### Usuários básicos {#basic-users}
 
-Graças ao administrador funcional e usuários avançados, os profissionais de marketing podem personalizar, entregar e monitorar suas campanhas sem se preocupar com a configuração técnica. To do so, they should be assigned, for example, the **[!UICONTROL Prepare deliveries]**, **[!UICONTROL Workflow]** and **[!UICONTROL Start deliveries]** out-of-the-box roles. These roles are combined in the **[!UICONTROL Standard Users]** out-of-the-box security group. For more on this, refer to this [section](../../administration/using/list-of-roles.md).
+Graças ao administrador funcional e aos usuários avançados, os profissionais de marketing podem personalizar, fornecer e monitorar suas campanhas sem se preocupar com a configuração técnica. Para fazer isso, eles devem receber, por exemplo, as funções **[!UICONTROL Prepare deliveries]**, **[!UICONTROL Workflow]** e **[!UICONTROL Start deliveries]** prontas para uso. Essas funções são combinadas no grupo de segurança **[!UICONTROL Standard Users]** predefinido. Para obter mais informações, consulte esta [seção](../../administration/using/list-of-roles.md).
 
-Estas são as principais tarefas que podem ser realizadas:
+Estas são as principais tarefas que podem ser executadas:
 
-* [Gerenciar programas e campanhas](../../start/using/programs-and-campaigns.md): criar campanhas de marketing, incluindo diferentes tipos de atividade (emails, mensagens SMS, notificações por push, fluxos de trabalho, páginas de aterrissagem).
-* Manage [profiles](../../audiences/using/about-profiles.md) and [test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md): manage the identified and test recipients that will be targeted by your deliveries. Adicione informações, como nome, sobrenome, informações de contato, assinaturas, e-mails etc.
-* [Criar e enviar mensagens](../../sending/using/confirming-the-send.md): crie sua mensagem, selecione o público, defina o conteúdo da mensagem e seus elementos de personalização, envie provas e envie a mensagem final para seu público-alvo.
-* [Criar e publicar páginas de aterrissagem](../../channels/using/about-landing-pages.md): criar e gerenciar um conjunto de serviços que você deseja oferecer aos clientes, por exemplo, formulários de assinatura ou cancelamento de assinatura.
-* [Crie e execute fluxos de trabalho de campanha](../../automating/using/building-a-workflow.md): automatize os processos de campanha usando fluxos de trabalho.
-* Monitor your marketing activities through the [available reports](../../reporting/using/defining-the-report-period.md).
+* [Gerenciar programas e campanhas](../../start/using/programs-and-campaigns.md): crie campanhas de marketing incluindo diferentes tipos de atividades (emails, mensagens SMS, notificações por push, fluxos de trabalho, páginas de aterrissagem).
+* Gerenciar [perfis](../../audiences/using/about-profiles.md) e perfis [de](../../sending/using/managing-test-profiles-and-sending-proofs.md)teste: gerencie os destinatários identificados e de teste que serão direcionados pelas entregas. Adicione informações como nome, sobrenome, informações de contato, assinaturas, emails etc.
+* [Criar e enviar mensagens](../../sending/using/confirming-the-send.md): crie sua mensagem, selecione o público-alvo, defina o conteúdo da mensagem e seus elementos de personalização, envie provas e envie a mensagem final para seu público-alvo.
+* [Criar e publicar páginas](../../channels/using/about-landing-pages.md)iniciais: crie e gerencie um conjunto de serviços que você deseja oferecer aos seus clientes, por exemplo, formulários de assinatura ou cancelamento de assinatura.
+* [Criar e executar fluxos de trabalho](../../automating/using/building-a-workflow.md)de campanha: automatize os processos de sua campanha usando fluxos de trabalho.
+* Monitore suas atividades de marketing por meio dos relatórios [](../../reporting/using/defining-the-report-period.md)disponíveis.
 
-## Creating a user {#creating-a-user}
+## Criar um usuário {#creating-a-user}
 
-Para adicionar um usuário à sua instância, primeiro crie-o no Admin Console antes de gerenciá-lo no Adobe Campaign Standard.
+Para adicionar um usuário à sua instância, você deve primeiro criá-lo no Admin Console antes de gerenciá-lo no Adobe Campaign Standard.
 
-1. From the advanced menu, select **[!UICONTROL Administration > Users & Security > Users]** and click **[!UICONTROL User administration]** to access the admin console.
+1. No menu avançado, selecione **[!UICONTROL Administration > Users & Security > Users]** e clique **[!UICONTROL User administration]** para acessar o Admin Console.
 
    ![](assets/user_management_5.png)
 
-1. In the **[!UICONTROL Admin Console]**, click on the **[!UICONTROL Users]** tab.
+1. Na guia **[!UICONTROL Admin Console]**, clique na guia **[!UICONTROL Users]** .
 
 1. Click **[!UICONTROL Add User]**.
 
    ![](assets/create_user_2.png)
 
-1. From the **[!UICONTROL User details]** tab, fill in the user's details such as email address, name and surname.
+1. Na **[!UICONTROL User details]** guia, preencha os detalhes do usuário, como endereço de email, nome e sobrenome.
 
    ![](assets/create_user_3.png)
 
-1. From the **[!UICONTROL Assign products]** tab, assign one or multiple security group to your user. For more information on security groups, refer to this [page](../../administration/using/managing-groups-and-users.md).
+1. Na **[!UICONTROL Assign products]** guia, atribua um ou vários grupos de segurança ao usuário. For more information on security groups, refer to this [page](../../administration/using/managing-groups-and-users.md).
 
-   Click **[!UICONTROL Save]** when done configuring.
+   Clique **[!UICONTROL Save]** ao concluir a configuração.
 
    ![](assets/create_user_4.png)
 
-O usuário agora é criado e deve receber um redirecionamento por email para a seguinte janela, onde o usuário deve definir uma senha e aceitar o termo de contrato de uso. Esse usuário poderá se conectar à sua instância do Adobe Campaign Standard.
+Seu usuário agora é criado e deve receber um redirecionamento por email para a seguinte janela, onde o usuário precisa definir uma senha e, em seguida, aceitar o contrato de termo de uso. Esse usuário poderá se conectar à sua instância do Adobe Campaign Standard.
 
 ![](assets/create_user_5.png)
 
-O usuário será sincronizado com o Adobe Campaign Standard assim que fizer logon na sua instância.
+Seu usuário será sincronizado com o Adobe Campaign Standard assim que ele fizer logon em sua instância.
 
 Você pode verificar se o usuário foi sincronizado corretamente com o Adobe Campaign:
 
-1. From the advanced menu **[!UICONTROL Administration > Users & Security > Users]** select your previously created user.
+1. No menu avançado, **[!UICONTROL Administration > Users & Security > Users]** selecione o usuário criado anteriormente.
 
-1. Update the **[!UICONTROL Mobile]**, **[!UICONTROL Time zone]** or **[!UICONTROL Regional settings]** if needed.
+1. Atualize o **[!UICONTROL Mobile]**, **[!UICONTROL Time zone]** ou **[!UICONTROL Regional settings]** , se necessário.
 
-1. Verifique o grupo de segurança do usuário. Here, you can see that the user has been assigned the **[!UICONTROL Administrators]** security group.
+1. Verifique o grupo de segurança do usuário. Aqui, você pode ver que o usuário recebeu o grupo de **[!UICONTROL Administrators]** segurança.
 
-   >[!Note]
+   >[!Nnota]
    >
-   >Os grupos de segurança podem ser removidos ou adicionados a um usuário no Admin Console.
+   >Os grupos de segurança só podem ser removidos ou adicionados a um usuário no Admin Console.
 
    ![](assets/create_user_6.png)
 
-1. Check **[!UICONTROL Account disabled]** if you want to deactivate this user.
+1. Verifique **[!UICONTROL Account disabled]** se deseja desativar este usuário.
 
-1. In the **[!UICONTROL Authorized connection zone]** field, select through which way your user will connect to this instance, e.g. internal network or VPN.
+1. No **[!UICONTROL Authorized connection zone]** campo, selecione a maneira pela qual o usuário se conectará a essa instância, por exemplo, rede interna ou VPN.
 
 1. Click **[!UICONTROL Save]**.
 
-O usuário agora está pronto para usar o Adobe Campaign Standard.
+Seu usuário agora está pronto para usar o Adobe Campaign Standard.
