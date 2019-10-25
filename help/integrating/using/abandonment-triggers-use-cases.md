@@ -14,7 +14,7 @@ discoiquuid: 1b9aeec5-70bb-4d72-a3e9-12342abf08f7
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4b69c92a8c877ecaf05e87b728009104066a38dc
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -23,8 +23,8 @@ source-git-commit: 4b69c92a8c877ecaf05e87b728009104066a38dc
 
 Esta seção apresenta casos de uso diferentes que podem ser implementados usando a integração entre os Acionadores do Adobe Campaign e da Experience Cloud. Você encontrará dois exemplos de casos de uso:
 
-* [Acionador](../../integrating/using/abandonment-triggers-use-cases.md#browse-abandonment-trigger)de abandono de navegação: envie uma comunicação aos clientes que abandonaram sua visita em seu site.
-* [Acionador](../../integrating/using/abandonment-triggers-use-cases.md#search-abandonment-trigger)de abandono de pesquisa: envolver-se novamente com visitantes que fizeram uma pesquisa em seu site, mas não fizeram uma compra.
+* [Acionador](#browse-abandonment-trigger)de abandono de navegação: envie uma comunicação aos clientes que abandonaram sua visita em seu site.
+* [Acionador](#search-abandonment-trigger)de abandono de pesquisa: envolver-se novamente com visitantes que fizeram uma pesquisa em seu site, mas não fizeram uma compra.
 
 >[!NOTE]
 >
@@ -123,11 +123,11 @@ No Adobe Campaign, é necessário criar um Acionador vinculado ao que você crio
 
 ## Acionador de abandono de pesquisa {#search-abandonment-trigger}
 
-Neste caso de uso, nós vamos criar um acionador para nos relacionar novamente com visitantes que foram ao nosso site de reservas de viagem, pesquisaram por um destino, não encontraram resultados bem-sucedidos e não reservaram nada depois disso. O processo geral é o mesmo do caso de uso anterior (consulte Acionador [de abandono de](../../integrating/using/abandonment-triggers-use-cases.md#browse-abandonment-trigger)navegação). Vamos focar aqui em como personalizar a mensagem de email de remarketing.
+Neste caso de uso, nós vamos criar um acionador para nos relacionar novamente com visitantes que foram ao nosso site de reservas de viagem, pesquisaram por um destino, não encontraram resultados bem-sucedidos e não reservaram nada depois disso. O processo geral é o mesmo do caso de uso anterior (consulte Acionador [de abandono de](#browse-abandonment-trigger)navegação). Vamos focar aqui em como personalizar a mensagem de email de remarketing.
 
 ### Criar um acionador da Experience Cloud {#creating-an-experience-cloud-trigger-1}
 
-Siga as etapas descritas no caso de uso anterior para criar o Acionador da Experience Cloud. Consulte [Criar um acionador](../../integrating/using/abandonment-triggers-use-cases.md#creating-an-experience-cloud-trigger)da Experience Cloud. A principal diferença é a definição da margem de variação.
+Siga as etapas descritas no caso de uso anterior para criar o Acionador da Experience Cloud. Consulte [Criar um acionador](#creating-an-experience-cloud-trigger)da Experience Cloud. A principal diferença é a definição da margem de variação.
 
 ![](assets/trigger_uc_search_1.png)
 
@@ -135,7 +135,7 @@ A **[!UICONTROL Include Meta Data]** seção permite que você passe todos os da
 
 ### Uso do acionador no Adobe Campaign {#using-the-trigger-in-adobe-campaign-1}
 
-1. Siga as etapas descritas no caso de uso anterior para criar o acionador no Adobe Campaign. Consulte [Usar o acionador no Adobe Campaign](../../integrating/using/abandonment-triggers-use-cases.md#using-the-trigger-in-adobe-campaign). A principal diferença é como acessamos e usamos, no Adobe Campaign, os metadados enviados na carga do Acionador.
+1. Siga as etapas descritas no caso de uso anterior para criar o acionador no Adobe Campaign. Consulte [Usar o acionador no Adobe Campaign](#using-the-trigger-in-adobe-campaign). A principal diferença é como acessamos e usamos, no Adobe Campaign, os metadados enviados na carga do Acionador.
 1. No acionador de abandono de pesquisa criado no Adobe Campaign, clique no **[!UICONTROL Event content and enrichment]** ícone para exibir a carga enviada para o Adobe Campaign.
 
    ![](assets/trigger_uc_search_2.png)
