@@ -14,7 +14,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -59,7 +59,7 @@ Para criar e configurar esta página inicial, é necessário:
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   Este contexto remove o campo da lista negra, para poder enviar emails. Veremos mais tarde que a primeira página inicial estava definindo esse campo como **verdadeiro** antes da confirmação, para evitar o envio de emails para perfis não confirmados. Para obter mais informações, consulte a [Etapa 3: Crie a página](../../channels/using/setting-up-a-double-opt-in-process.md#step-3--create-the-acquisition-landing-page)inicial de aquisição.
+   Este contexto remove o campo da lista negra, para poder enviar emails. Veremos mais tarde que a primeira página inicial estava definindo esse campo como **verdadeiro** antes da confirmação, para evitar o envio de emails para perfis não confirmados. Para obter mais informações, consulte a [Etapa 3: Crie a página](#step-3--create-the-acquisition-landing-page)inicial de aquisição.
 
 1. Personalize o conteúdo da página inicial: você pode exibir dados personalizados e alterar o rótulo do botão de confirmação para "Clique aqui para confirmar minha assinatura", por exemplo.
 
@@ -96,7 +96,7 @@ O email de confirmação é uma mensagem [](../../channels/using/about-transacti
 1. Selecione **[!UICONTROL Profile]** como o **[!UICONTROL Targeting enrichment]** na lista suspensa.
 1. Clique em **[!UICONTROL Publish]** para publicar o evento.
 
-O evento está pronto. Agora você pode criar o modelo de email. Este modelo deve incluir um link para a página de aterrissagem de **CONFIRMAÇÃO** criada antes. Para obter mais informações, consulte [Criar a mensagem](../../channels/using/setting-up-a-double-opt-in-process.md#design-the-confirmation-message)de confirmação.
+O evento está pronto. Agora você pode criar o modelo de email. Este modelo deve incluir um link para a página de aterrissagem de **CONFIRMAÇÃO** criada antes. Para obter mais informações, consulte [Criar a mensagem](#design-the-confirmation-message)de confirmação.
 
 ### Criar a regra de tipologia {#create-the-typology-rule}
 
@@ -136,7 +136,7 @@ Para criar e configurar esta página inicial, é necessário:
 
    e defina o valor como **true**.
 
-   Isso é obrigatório para forçar a lista negra e evitar o envio de mensagens a visitantes que não confirmaram o acordo. A validação da página inicial CONFIRMAÇÃO definirá esse campo como **falso** após a confirmação. Para obter mais informações, consulte a [Etapa 1: Crie a página](../../channels/using/setting-up-a-double-opt-in-process.md#step-1--create-the-confirmation-landing-page)inicial de confirmação.
+   Isso é obrigatório para forçar a lista negra e evitar o envio de mensagens a visitantes que não confirmaram o acordo. A validação da página inicial CONFIRMAÇÃO definirá esse campo como **falso** após a confirmação. Para obter mais informações, consulte a [Etapa 1: Crie a página](#step-1--create-the-confirmation-landing-page)inicial de confirmação.
 
 1. Na seção **[!UICONTROL Job]** &gt; **[!UICONTROL Specific actions]** , selecione a opção **[!UICONTROL Start sending messages]**.
 1. Na lista suspensa associada, escolha o modelo de mensagem transacional **CONFIRMAR** que você criou.
