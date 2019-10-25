@@ -1,93 +1,93 @@
 ---
-title: Renderização por email
-seo-title: Renderização por email
-description: Renderização por email
+title: Renderização de email
+seo-title: Renderização de email
+description: Renderização de email
 seo-description: Descubra o recurso de renderização de email.
 page-status-flag: nunca ativado
-uuid: c 423 e 237-ad 39-4797-ac 3 a -4320894 a 8 f 99
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: enviando
-content-type: reference
-topic-tags: preparando e testando-messages
-discoiquuid: 2 b 5 b 13 c 8-2 e 51-4985-a 161-c 1 d 7 f 0 fc 32 b 4
+uuid: c423e237-ad39-4797-ac3a-4320894a8f99
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: envio
+content-type: referência
+topic-tags: mensagens de preparação e teste
+discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Email rendering{#email-rendering}
+# Renderização de email{#email-rendering}
 
 Before hitting the **[!UICONTROL Send]** button, make sure that your message will be displayed in an optimal way on a variety of web clients, web mails and devices.
 
-Para permitir isso, o Adobe Campaign captura a renderização e a torna disponível em um relatório dedicado. Isso permite visualizar a mensagem enviada em um contexto diferente no qual pode ser recebido.
+Para permitir isso, o Adobe Campaign captura a renderização e a disponibiliza em um relatório dedicado. Isso permite que você visualize a mensagem enviada nos diferentes contextos em que ela pode ser recebida.
 
 The mobile, messaging and webmail clients available for **Email rendering** in Adobe Campaign are listed on the Litmus [website](https://litmus.com/email-testing) (click **View all email clients**).
 
-## Checking the Email rendering report {#checking-the-email-rendering-report}
+## Verificando o relatório de renderização de email {#checking-the-email-rendering-report}
 
-Após criar a entrega de email e definir seu conteúdo, bem como a população direcionada, siga as etapas abaixo.
+Após criar seu delivery de email e definir seu conteúdo, assim como a população alvo, siga as etapas abaixo.
 
-1. Click **Audience** to access the **[!UICONTROL Test profiles]** tab.
+1. Clique em **Público** para acessar a **[!UICONTROL Test profiles]** guia.
 
    ![](assets/email_rendering_05.png)
 
-1. Use the query editor to define the test profiles that you want to use, including the test profiles that are for **Email rendering** use. See [About test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles).
+1. Use o editor de consultas para definir os perfis de teste que deseja usar, incluindo os perfis de teste que são para uso de renderização **por** email. Consulte [Sobre perfis](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles)de teste.
 
    ![](assets/email_rendering_06.png)
 
 1. Verifique e confirme sua consulta e salve suas alterações.
-1. Click the **[!UICONTROL Test]** button in the action bar.
+1. Clique no **[!UICONTROL Test]** botão na barra de ações.
 
    ![](assets/email_rendering_07.png)
 
-1. Select the **[!UICONTROL Email rendering]** option then click **[!UICONTROL OK]**.
+1. Selecione a **[!UICONTROL Email rendering]** opção e clique em **[!UICONTROL OK]**.
 
    ![](assets/email_rendering_08.png)
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Proof + Email rendering]** option enables you to send a proof and use the email rendering feature simultaneously. Você pode ter a mensagem aprovada pelos destinatários da prova e ao mesmo tempo, pode testar a forma como a mensagem será recebida dependendo das caixas de entrada direcionadas. Nesse caso, você também precisa selecionar Prova de perfis de teste. See [About test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles).
+   >A **[!UICONTROL Proof + Email rendering]** opção permite enviar uma prova e usar o recurso de renderização de email simultaneamente. Você pode ter sua mensagem aprovada pelos destinatários da prova e, ao mesmo tempo, pode testar a forma como ela será recebida, dependendo das caixas de entrada direcionadas. Nesse caso, também é necessário selecionar perfis de teste de prova. Consulte [Sobre perfis](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles)de teste.
 
    A entrega do teste é enviada.
 
-1. As miniaturas de renderização estão disponíveis alguns minutos após o envio das mensagens. To access them, select **[!UICONTROL Proofs]** in the **[!UICONTROL Summary]** drop-down list.
+1. As miniaturas de renderização estão disponíveis alguns minutos após o envio das mensagens. Para acessá-los, selecione **[!UICONTROL Proofs]** na lista **[!UICONTROL Summary]** suspensa.
 
    ![](assets/email_rendering_03.png)
 
-1. From the **[!UICONTROL Proofs]** list, click the **[!UICONTROL Access email rendering]** icon.
+1. Na **[!UICONTROL Proofs]** lista, clique no **[!UICONTROL Access email rendering]** ícone.
 
    ![](assets/email_rendering_04.png)
 
-O relatório de renderização de email dedicado é exibido. See [Email rendering report description](../../sending/using/email-rendering.md#email-rendering-report-description).
+O relatório de renderização de email dedicado é exibido. Consulte Descrição [do relatório de renderização por](#email-rendering-report-description)email.
 
 **Tópicos relacionados**:
 
 * [Criação de um email](../../channels/using/creating-an-email.md)
-* [Gerenciamento de perfis de teste e envio de testes](../../sending/using/managing-test-profiles-and-sending-proofs.md)
-* [Editor de consultas](../../automating/using/editing-queries.md#about-query-editor)
+* [Gerenciamento de perfis de teste e envio de provas](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [Editor de consulta](../../automating/using/editing-queries.md#about-query-editor)
 
-## Email rendering report description {#email-rendering-report-description}
+## Descrição do relatório de renderização de email {#email-rendering-report-description}
 
-Este relatório apresenta os renderizações por email conforme aparecem para o destinatário. As execuções por email podem diferir com base na forma como o destinatário abre a entrega de email: em um navegador, em um dispositivo móvel ou por meio de um aplicativo de email.
+Este relatório apresenta as renderizações por email conforme elas são exibidas ao destinatário. As renderizações por email podem diferir com base em como o destinatário abre a entrega de email: em um navegador, em um dispositivo móvel ou por meio de um aplicativo de email.
 
 >[!NOTE]
 >
->O número de execuções disponíveis é listado no contrato de licença. Each delivery with **Email rendering** enabled decreases your available renderings (known as tokens) by one. Se você for um cliente Litmus, poderá usar sua própria conta Litmus para fornecer e usar renderização de email no Adobe Campaign. Para obter mais informações, entre em contato com seu executivo de contas da Adobe.
+>O número de renderizações disponíveis está listado em seu contrato de licença. Cada entrega com renderização **** por email ativada diminui as renderizações disponíveis (conhecidas como tokens) em uma. Se você for um cliente Litmus, poderá usar sua própria conta Litmus para provisionar e usar renderização por email no Adobe Campaign. Para saber mais sobre isso, entre em contato com o executivo da sua conta da Adobe.
 
-O resumo do relatório apresenta o número de mensagens recebidas, indesejadas (spam), não recebidas ou a recepção pendente.
+O resumo do relatório apresenta o número de mensagens recebidas, indesejadas (spam), não recebidas ou recebidas pendentes.
 
 ![](assets/inbox_rendering_report.png)
 
-The report is divided into three parts: **[!UICONTROL Mobile]**, **[!UICONTROL Messaging clients]**, and **[!UICONTROL Webmails]**. Role o relatório para baixo para exibir todos os renderizações agrupados nessas três categorias.
+O relatório divide-se em três partes: **[!UICONTROL Mobile]**, **[!UICONTROL Messaging clients]** e **[!UICONTROL Webmails]**. Role para baixo no relatório para exibir todas as renderizações agrupadas nessas três categorias.
 
 ![](assets/inbox_rendering_report_3.png)
 
-Para obter os detalhes de cada relatório, clique no cartão correspondente. A renderização é exibida para o método de recepção selecionado.
+Para obter os detalhes de cada relatório, clique no cartão correspondente. A renderização é exibida para o método de recebimento selecionado.
 
 ![](assets/inbox_rendering_report_2.png)
 
-The **[!UICONTROL Technical data]** tab allows you to get more information, such as the receiving and capture dates, and the complete headers of emails.
+A **[!UICONTROL Technical data]** guia permite obter mais informações, como as datas de recebimento e captura, e os cabeçalhos completos de emails.
