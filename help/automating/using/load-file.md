@@ -15,7 +15,7 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b93cde098641d14023cff1c476aed521d1a49900
+source-git-commit: 0c455e965d21996ffbadeddf336c6709ce8ee8f3
 
 ---
 
@@ -84,7 +84,7 @@ A configuração da atividade envolve duas etapas. Primeiro, é necessário defi
 
    Por exemplo, você pode alterar o rótulo de uma coluna, selecionar seu tipo (string, número inteiro, data etc.)  ou até mesmo especifique o processamento de erros.
 
-   For more information, refer to the [Column format](../../automating/using/load-file.md#column-format) section.
+   For more information, refer to the [Column format](#column-format) section.
 
    ![](assets/wkf_file_loading4.png)
 
@@ -176,7 +176,7 @@ Depois que o fluxo de trabalho é iniciado, os dados do arquivo carregado são e
 
 ## Exemplo 2: Envio de um email com campos aprimorados {#example-2-email-with-enriched-fields}
 
-<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](../../automating/using/load-file.md#example-2-email-with-enriched-fields)-->
+<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](example-2-email-with-enriched-fields)-->
 
 A atividade de carregamento de arquivo também permite enviar um email enriquecido com dados adicionais de um arquivo externo no mesmo fluxo de trabalho.
 
