@@ -14,7 +14,7 @@ discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ad558fce83006879455a791127594157456f0c4
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -25,10 +25,10 @@ Os relatórios também podem ser criados e gerenciados com base em dados de perf
 
 Neste exemplo, queremos criar o campo de perfil personalizado Programas **de** fidelidade que serão divididos em três níveis: ouro, prata e bronze. Esse perfil personalizado será estendido para poder usá-lo como uma dimensão de perfil personalizado em relatórios dinâmicos.
 
-* [Etapa 1: Criar um novo campo de perfil](../../reporting/using/creating-a-custom-profile-dimension.md#step-1--create-a-new-profile-field)
-* [Etapa 2: Estender os logs de envio com o campo de perfil](../../reporting/using/creating-a-custom-profile-dimension.md#step-2--extend-the-sending-logs-with-the-profile-field)
-* [Etapa 3: Criar uma meta de entrega para destinatários inscritos no programa de fidelidade](../../reporting/using/creating-a-custom-profile-dimension.md#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
-* [Etapa 4: Criar um relatório dinâmico para filtrar destinatários com a dimensão de perfil personalizada](../../reporting/using/creating-a-custom-profile-dimension.md#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
+* [Etapa 1: Criar um novo campo de perfil](#step-1--create-a-new-profile-field)
+* [Etapa 2: Estender os logs de envio com o campo de perfil](#step-2--extend-the-sending-logs-with-the-profile-field)
+* [Etapa 3: Criar uma meta de entrega para destinatários inscritos no programa de fidelidade](#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
+* [Etapa 4: Criar um relatório dinâmico para filtrar destinatários com a dimensão de perfil personalizada](#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
 
 ## Etapa 1: Criar um novo campo de perfil {#step-1--create-a-new-profile-field}
 
@@ -38,7 +38,7 @@ Primeiro, precisamos criar o novo programa **de** Fidelidade do campo de perfil 
 >
 >Os recursos personalizados só podem ser gerenciados por um administrador.
 
-Para isso:
+Para fazer isso:
 
 1. No menu avançado, selecione **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom resources]** e depois o recurso **[!UICONTROL Profile (profile)]** personalizado.
 
@@ -64,7 +64,7 @@ Para isso:
 
    ![](assets/custom_profile_14.png)
 
-1. Selecione a **[!UICONTROL Screen definition]** guia. Na **[!UICONTROL Detail screen configuration]** lista suspensa, marque a **[!UICONTROL Add personalized fields]** seção para criar uma nova seção em nosso perfil.
+1. Select the **[!UICONTROL Screen definition]** tab. Na **[!UICONTROL Detail screen configuration]** lista suspensa, marque a **[!UICONTROL Add personalized fields]** seção para criar uma nova seção em nosso perfil.
 
    ![](assets/custom_profile_4.png)
 
@@ -99,7 +99,7 @@ Antes de estender o log com nosso campo de perfil, verifique se a janela PII foi
 
 1. No menu avançado, selecione **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom resources]** e depois o recurso **[!UICONTROL Profile (profile)]** personalizado.
 1. Abra o **[!UICONTROL Sending logs extension]** menu suspenso.
-1. Clique no **[!UICONTROL Create element]** botão.
+1. Click the **[!UICONTROL Create element]** button.
 
    ![](assets/custom_profile_9.png)
 
@@ -139,7 +139,7 @@ Depois que o campo de perfil for publicado, você poderá iniciar a entrega. Nes
    ![](assets/custom_profile_17.png)
 
 1. Clique em **[!UICONTROL Confirm]** e, quando terminar de filtrar, clique em **[!UICONTROL Next]**.
-1. Defina e personalize o conteúdo da mensagem, o nome do remetente e o assunto. Para obter mais informações sobre criação de email, consulte esta [página](../../designing/using/overview.md).
+1. Defina e personalize o conteúdo da mensagem, o nome do remetente e o assunto. For more information on email creation refer to this [page](../../designing/using/overview.md).
 
    Em seguida, clique em **[!UICONTROL Create]**.
 
