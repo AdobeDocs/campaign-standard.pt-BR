@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -30,7 +30,7 @@ Saiba mais sobre como dominar a edição de conteúdo de email. Com o Email Desi
 
 ### Modelos de conteúdo {#content-templates}
 
-Você pode gerenciar o conteúdo HTML que será oferecido na **[!UICONTROL Templates]** guia da página inicial do [Email Designer](../../designing/using/overview.md) . Os diferentes modelos apresentam várias combinações de vários tipos de elementos. Por exemplo, os modelos 'Difusão' têm margens, enquanto os modelos 'Astro' não têm. Para obter mais informações, consulte Modelos [de](../../designing/using/using-reusable-content.md#content-templates)conteúdo.
+Você pode gerenciar o conteúdo HTML que será oferecido na **[!UICONTROL Templates]** guia da página inicial do [Email Designer](../../designing/using/overview.md) . Os diferentes modelos apresentam várias combinações de vários tipos de elementos. Por exemplo, os modelos 'Difusão' têm margens, enquanto os modelos 'Astro' não têm. Para obter mais informações, consulte Modelos [de](#content-templates)conteúdo.
 
 ![](assets/template_content.png)
 
@@ -93,7 +93,7 @@ Ao editar um email com o Designer de email, você pode salvar diretamente o cont
 
 Agora você pode criar um modelo de email com o Designer de email. Use os componentes de conteúdo para refletir as diferentes seções do seu email e ajustar as configurações para torná-las o mais próximas possível do seu boletim informativo original. Por fim, insira os fragmentos que você acabou de criar.
 
-1. Usando o Designer de email, crie um modelo. Para obter mais informações, consulte Modelos [de](../../designing/using/using-reusable-content.md#content-templates)conteúdo.
+1. Usando o Designer de email, crie um modelo. Para obter mais informações, consulte Modelos [de](#content-templates)conteúdo.
 1. Insira vários componentes de estrutura no modelo - correspondentes ao cabeçalho, rodapé e corpo do email. Para obter mais informações sobre como adicionar componentes de estrutura, consulte [Editar a estrutura de email com o Designer](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de email.
 1. Insira quantos componentes de conteúdo forem necessários para criar o corpo de seu boletim informativo. Este será o conteúdo editável do seu email que você atualizará todos os meses.
 
@@ -134,8 +134,8 @@ Eles podem ser encontrados na interface em **Recursos** &gt; Fragmentos e modelo
 
 Para usar melhor os fragmentos no Designer de email:
 
-* Crie seus próprios fragmentos. Consulte [Criar um fragmento](../../designing/using/using-reusable-content.md#creating-a-content-fragment) de conteúdo e [Salvar conteúdo como um fragmento](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
-* Use-os quantas vezes forem necessárias em seus emails. Consulte [Inserir elementos em um email](../../designing/using/using-reusable-content.md#inserting-elements-into-an-email).
+* Crie seus próprios fragmentos. Consulte [Criar um fragmento](#creating-a-content-fragment) de conteúdo e [Salvar conteúdo como um fragmento](#saving-content-as-a-fragment).
+* Use-os quantas vezes forem necessárias em seus emails. Consulte [Inserir elementos em um email](#inserting-elements-into-an-email).
 * Ao editar um fragmento, as alterações são sincronizadas: são propagados automaticamente para todos os emails (desde que ainda não tenham sido preparados ou enviados) que contenham esse fragmento.
 
 Quando adicionados a um email, os fragmentos são bloqueados por padrão. Se quiser modificar um fragmento para um email específico, você pode interromper a sincronização com o fragmento original desbloqueando-o no email em que ele é usado. As alterações não serão mais sincronizadas.
@@ -150,7 +150,7 @@ Esse fragmento se torna um componente independente que não está mais vinculado
 
 Para definir o conteúdo de seu email, é possível adicionar elementos de conteúdo nos componentes de estrutura que você colocou anteriormente. Consulte [Editar a estrutura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de email.
 
-1. Acesse os elementos de conteúdo selecionando o ícone **+** à esquerda. Selecione [Fragmentos](../../designing/using/using-reusable-content.md#about-fragments) ou componentes [](../../designing/using/designing-from-scratch.md#about-content-components)de conteúdo.
+1. Acesse os elementos de conteúdo selecionando o ícone **+** à esquerda. Selecione [Fragmentos](#about-fragments) ou componentes [](../../designing/using/designing-from-scratch.md#about-content-components)de conteúdo.
 1. Se você já souber o rótulo ou parte do rótulo do fragmento que deseja adicionar, poderá pesquisá-lo.
 
    ![](assets/email_designer_fragmentsearch.png)
@@ -167,7 +167,7 @@ Para definir o conteúdo de seu email, é possível adicionar elementos de conte
 
    >[!NOTE]
    >
-   >Os fragmentos são bloqueados por padrão quando adicionados a um email. Você pode interromper a sincronização com o fragmento original se quiser modificar o fragmento para um email específico ou fazer a alteração diretamente no fragmento. Consulte [Sobre fragmentos](../../designing/using/using-reusable-content.md#about-fragments).
+   >Os fragmentos são bloqueados por padrão quando adicionados a um email. Você pode interromper a sincronização com o fragmento original se quiser modificar o fragmento para um email específico ou fazer a alteração diretamente no fragmento. Consulte [Sobre fragmentos](#about-fragments).
 
 1. Repita este procedimento para todos os elementos que você precisa adicionar ao seu email.
 1. Salve seu email.
@@ -176,7 +176,7 @@ Agora que sua estrutura de email está preenchida, você pode editar o estilo de
 
 >[!NOTE]
 >
->Se um fragmento for modificado, as alterações serão propagadas automaticamente nos e-mails em que são usadas. Para obter mais informações, consulte [Sobre fragmentos](../../designing/using/using-reusable-content.md#about-fragments).
+>Se um fragmento for modificado, as alterações serão propagadas automaticamente nos e-mails em que são usadas. Para obter mais informações, consulte [Sobre fragmentos](#about-fragments).
 
 ### Criação de um fragmento de conteúdo {#creating-a-content-fragment}
 
@@ -213,7 +213,7 @@ Esse fragmento agora pode ser usado em qualquer email criado com o Designer de e
 
 >[!NOTE]
 >
->Não é possível inserir campos de personalização dentro de um fragmento, a menos que sejam usados em um email e desbloqueados. Consulte [Sobre fragmentos](../../designing/using/using-reusable-content.md#about-fragments).
+>Não é possível inserir campos de personalização dentro de um fragmento, a menos que sejam usados em um email e desbloqueados. Consulte [Sobre fragmentos](#about-fragments).
 
 ### Salvar conteúdo como um fragmento {#saving-content-as-a-fragment}
 
@@ -275,7 +275,7 @@ Usando o Designer de email, crie um fragmento para cada seção reutilizável. N
 
 Para fazer isso, siga as etapas abaixo:
 
-1. No Adobe Campaign, acesse **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** e crie um fragmento para o cabeçalho. Para obter mais informações, consulte [Criação de um fragmento](../../designing/using/using-reusable-content.md#creating-a-content-fragment)de conteúdo.
+1. No Adobe Campaign, acesse **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** e crie um fragmento para o cabeçalho. Para obter mais informações, consulte [Criação de um fragmento](#creating-a-content-fragment)de conteúdo.
 1. Adicione quantos componentes de estrutura forem necessários ao fragmento.
 
 ![](assets/des_loading_compatible_fragment_1.png)
