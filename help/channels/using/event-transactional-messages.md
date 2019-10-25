@@ -15,7 +15,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -115,7 +115,7 @@ Para configurar a personalização em uma mensagem transacional, siga as etapas 
 
    ![](assets/message-center_9.png)
 
-   Você pode verificar se os campos de personalização correspondem às informações inseridas no perfil de teste. Para obter mais informações, consulte [Definição de um perfil de teste em uma mensagem](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message)transacional.
+   Você pode verificar se os campos de personalização correspondem às informações inseridas no perfil de teste. Para obter mais informações, consulte [Definição de um perfil de teste em uma mensagem](#defining-a-test-profile-in-a-transactional-message)transacional.
 
 ## Uso das listas de produtos em uma mensagem transacional {#using-product-listings-in-a-transactional-message}
 
@@ -234,7 +234,7 @@ Para obter mais informações sobre como criar uma coleção e campos relacionad
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   Para obter mais informações sobre como definir um perfil de teste em uma mensagem transacional, consulte [esta seção](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message).
+   Para obter mais informações sobre como definir um perfil de teste em uma mensagem transacional, consulte [esta seção](#defining-a-test-profile-in-a-transactional-message).
 
 ## Testando uma mensagem transacional {#testing-a-transactional-message}
 
@@ -274,9 +274,9 @@ Clicar **[!UICONTROL Unpublish]** permite cancelar a publicação de mensagens t
 
 >[!NOTE]
 >
->Para publicar a mensagem novamente, você precisa voltar para a configuração de evento correspondente, publicá-la e publicar a mensagem. Para obter mais informações, consulte [Publicar uma mensagem](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)transacional.
+>Para publicar a mensagem novamente, você precisa voltar para a configuração de evento correspondente, publicá-la e publicar a mensagem. Para obter mais informações, consulte [Publicar uma mensagem](#publishing-a-transactional-message)transacional.
 
-Se você cancelar a publicação de uma mensagem transacional pausada, talvez seja necessário aguardar até 24 horas para poder publicá-la novamente. Isso permite que o **[!UICONTROL Database cleanup]** fluxo de trabalho limpe todos os eventos enviados para a fila. As etapas para pausar uma mensagem são detalhadas na seção [Suspender uma publicação](../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication) de mensagem transacional.
+Se você cancelar a publicação de uma mensagem transacional pausada, talvez seja necessário aguardar até 24 horas para poder publicá-la novamente. Isso permite que o **[!UICONTROL Database cleanup]** fluxo de trabalho limpe todos os eventos enviados para a fila. As etapas para pausar uma mensagem são detalhadas na seção [Suspender uma publicação](#suspending-a-transactional-message-publication) de mensagem transacional.
 
 O **[!UICONTROL Database cleanup]** fluxo de trabalho, que é executado todos os dias às 4h da manhã, pode ser acessado por meio de **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Workflows]**.
 
@@ -288,7 +288,7 @@ Ao selecionar uma mensagem transacional, você pode excluí-la com o **[!UICONTR
 
 * **Mensagens** transacionais: Para excluir uma mensagem transacional, a mensagem deve ser despublicada e não pausada.
 
-   Se a mensagem transacional não for publicada, a configuração do evento também precisará ser despublicada para excluir com êxito sua mensagem transacional, a menos que outra mensagem transacional seja vinculada ao evento correspondente. For more information on how to unpublish a transactional message, refer to this [section](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
+   Se a mensagem transacional não for publicada, a configuração do evento também precisará ser despublicada para excluir com êxito sua mensagem transacional, a menos que outra mensagem transacional seja vinculada ao evento correspondente. For more information on how to unpublish a transactional message, refer to this [section](#unpublishing-a-transactional-message).
 
    >[!CAUTION]
    >
@@ -304,8 +304,8 @@ Uma mensagem transacional temporariamente não entregue está sujeita a tentativ
 
 Quando uma mensagem transacional não é enviada, há dois sistemas de repetição:
 
-* No nível de mensagens transacionais, uma mensagem transacional pode falhar antes que o evento seja atribuído a uma entrega de execução, o que significa entre a recepção do evento e a preparação de entrega. Consulte Processo [de nova tentativa de processamento de](../../channels/using/event-transactional-messages.md#event-processing-retry-process)eventos.
-* No nível do processo de envio, depois que o evento é atribuído a uma entrega de execução, a mensagem transacional pode falhar devido a um erro temporário. Consulte Processo [de nova tentativa de envio de](../../channels/using/event-transactional-messages.md#message-sending-retry-process)mensagens.
+* No nível de mensagens transacionais, uma mensagem transacional pode falhar antes que o evento seja atribuído a uma entrega de execução, o que significa entre a recepção do evento e a preparação de entrega. Consulte Processo [de nova tentativa de processamento de](#event-processing-retry-process)eventos.
+* No nível do processo de envio, depois que o evento é atribuído a uma entrega de execução, a mensagem transacional pode falhar devido a um erro temporário. Consulte Processo [de nova tentativa de envio de](#message-sending-retry-process)mensagens.
 
 ### Processo de nova tentativa de processamento de eventos {#event-processing-retry-process}
 
