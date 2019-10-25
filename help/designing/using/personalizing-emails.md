@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -111,7 +111,7 @@ To create a content block, follow these steps:
 
    ![](assets/content_bloc_02.png)
 
-1. You can select a **[!UICONTROL Targeting dimension]**. For more on this, see [About targeting dimension](../../designing/using/personalization.md#about-targeting-dimension).
+1. You can select a **[!UICONTROL Targeting dimension]**. For more on this, see [About targeting dimension](#about-targeting-dimension).
 
    ![](assets/content_bloc_04.png)
 
@@ -161,9 +161,9 @@ To define the name of the sender which will appear in the header of messages sen
 
 **Related topics:**
 
-* [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Adding a content block](../../designing/using/personalization.md#adding-a-content-block)
-* [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* [Inserting a personalization field](#inserting-a-personalization-field)
+* [Adding a content block](#adding-a-content-block)
+* [Defining dynamic content in an email](#defining-dynamic-content-in-an-email)
 
 ## SMS sender {#sms-sender}
 
@@ -187,9 +187,9 @@ You can also add personalization fields, content blocks and dynamic content to t
 
 **Related topics:**
 
-* [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Adding a content block](../../designing/using/personalization.md#adding-a-content-block)
-* [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* [Inserting a personalization field](#inserting-a-personalization-field)
+* [Adding a content block](#adding-a-content-block)
+* [Defining dynamic content in an email](#defining-dynamic-content-in-an-email)
 
 ## Predictive subject line {#predictive-subject-line}
 
