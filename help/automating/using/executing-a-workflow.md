@@ -15,7 +15,7 @@ context-tags: fluxo de trabalho,visão geral;fluxo de trabalho,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -86,7 +86,7 @@ Depois de iniciado, um fluxo de trabalho também pode ter dois outros status:
 
 * **Errado** (vermelho)
 
-   Ocorreu um erro quando um fluxo de trabalho foi executado. O fluxo de trabalho foi interrompido e o usuário deve executar uma ação. Para saber mais sobre esse erro, use o ![](assets/printpreview_darkgrey-24px.png) botão para acessar o log do fluxo de trabalho (consulte [Monitoramento](../../automating/using/executing-a-workflow.md#monitoring)).
+   Ocorreu um erro quando um fluxo de trabalho foi executado. O fluxo de trabalho foi interrompido e o usuário deve executar uma ação. Para saber mais sobre esse erro, use o ![](assets/printpreview_darkgrey-24px.png) botão para acessar o log do fluxo de trabalho (consulte [Monitoramento](#monitoring)).
 
 A lista de atividades de marketing permite que você exiba todos os fluxos de trabalho e seus status. Para obter mais informações, consulte [Gerenciamento de atividades](../../start/using/marketing-activities.md#about-marketing-activities)de marketing.
 
@@ -146,7 +146,7 @@ O ![](assets/checkdisable.png) botão desativa quaisquer atividades selecionadas
 
 O ![](assets/printpreview_darkgrey-24px.png) ícone abre o log do fluxo de trabalho e o menu de tarefas.
 
-O histórico do fluxo de trabalho é salvo pela duração especificada nas opções de execução do fluxo de trabalho (consulte as propriedades [do](../../automating/using/executing-a-workflow.md#workflow-properties)fluxo de trabalho). Durante esse período, todas as mensagens são salvas, mesmo após uma reinicialização. Se você não quiser salvar as mensagens de uma execução anterior, é necessário limpar o histórico clicando no ![](assets/delete_darkgrey-24px.png) botão.
+O histórico do fluxo de trabalho é salvo pela duração especificada nas opções de execução do fluxo de trabalho (consulte as propriedades [do](#workflow-properties)fluxo de trabalho). Durante esse período, todas as mensagens são salvas, mesmo após uma reinicialização. Se você não quiser salvar as mensagens de uma execução anterior, é necessário limpar o histórico clicando no ![](assets/delete_darkgrey-24px.png) botão.
 
 A **[!UICONTROL Log]** guia contém o histórico de execução de todas as atividades ou atividades selecionadas. Indica as operações efetuadas e os erros de execução por ordem cronológica.
 
@@ -174,9 +174,9 @@ Nesse caso, a tarefa errada é abortada. Esse modo é especialmente adequado par
 
 >[!NOTE]
 >
->Você pode aplicar essa configuração individualmente para cada atividade. Para fazer isso, selecione uma atividade e abra-a usando a ação rápida ![](assets/edit_darkgrey-24px.png). Em seguida, selecione o modo de gerenciamento de erros na guia Opções **** de execução. Consulte Opções [de execução](../../automating/using/executing-a-workflow.md#activity-execution-options)da atividade.
+>Você pode aplicar essa configuração individualmente para cada atividade. Para fazer isso, selecione uma atividade e abra-a usando a ação rápida ![](assets/edit_darkgrey-24px.png). Em seguida, selecione o modo de gerenciamento de erros na guia Opções **** de execução. Consulte Opções [de execução](#activity-execution-options)da atividade.
 
-A **[!UICONTROL Execution]** seção das propriedades do fluxo de trabalho também permite que você defina uma série de **[!UICONTROL Consecutive errors]** itens autorizados antes da execução do fluxo de trabalho ser suspensa automaticamente. Enquanto esse número não for atingido, os elementos errados serão ignorados e as outras ramificações do fluxo de trabalho serão executadas normalmente. Se esse número for atingido, o fluxo de trabalho será suspenso e os supervisores do fluxo de trabalho serão notificados automaticamente (notificação por email e no aplicativo). Consulte Propriedades [do](../../automating/using/executing-a-workflow.md#workflow-properties) fluxo de trabalho e notificações [do](../../administration/using/sending-internal-notifications.md)Adobe Campaign.
+A **[!UICONTROL Execution]** seção das propriedades do fluxo de trabalho também permite que você defina uma série de **[!UICONTROL Consecutive errors]** itens autorizados antes da execução do fluxo de trabalho ser suspensa automaticamente. Enquanto esse número não for atingido, os elementos errados serão ignorados e as outras ramificações do fluxo de trabalho serão executadas normalmente. Se esse número for atingido, o fluxo de trabalho será suspenso e os supervisores do fluxo de trabalho serão notificados automaticamente (notificação por email e no aplicativo). Consulte Propriedades [do](#workflow-properties) fluxo de trabalho e notificações [do](../../administration/using/sending-internal-notifications.md)Adobe Campaign.
 
 Os supervisores também podem ser definidos nas propriedades de execução do fluxo de trabalho.
 
