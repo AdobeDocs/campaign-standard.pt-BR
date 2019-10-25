@@ -15,7 +15,7 @@ context-tags: entrega,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6d74d310f69b8800a635c6ac71de66c51fd64f2d
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -26,8 +26,8 @@ Para ajustar sua mensagem no aplicativo, o Adobe Campaign permite que você aces
 
 O editor de conteúdo no aplicativo permite escolher entre dois modos de mensagem no aplicativo:
 
-* [Modelo](../../channels/using/customizing-an-in-app-message.md#customizing-with-a-message-template)de mensagem: esse modelo permite personalizar totalmente o aplicativo no aplicativo com imagens ou vídeos e botões de ação.
-* [Mensagem](../../channels/using/customizing-an-in-app-message.md#customizing-with-a-custom-html-message)personalizada: esse modelo permite importar HTML personalizado.
+* [Modelo](#customizing-with-a-message-template)de mensagem: esse modelo permite personalizar totalmente o aplicativo no aplicativo com imagens ou vídeos e botões de ação.
+* [Mensagem](#customizing-with-a-custom-html-message)personalizada: esse modelo permite importar HTML personalizado.
 
 ![](assets/inapp_customize_1.png)
 
@@ -61,7 +61,7 @@ O menu suspenso **[!UICONTROL Layout]** fornece quatro opções diferentes para 
 
 * **[!UICONTROL Local notification]**: Esse tipo de layout é exibido como uma mensagem de banner.
 
-   Só pode suportar som, texto e destino. Para obter mais informações sobre a notificação local, consulte [Personalizando um tipo](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)de mensagem de notificação local.
+   Só pode suportar som, texto e destino. Para obter mais informações sobre a notificação local, consulte [Personalizando um tipo](#customizing-a-local-notification-message-type)de mensagem de notificação local.
 
 Cada tipo de layout pode ser visualizado em diferentes dispositivos, como telefone, tablet, plataforma, por exemplo, Android ou iOS, e a orientação, por exemplo, paisagem ou retrato na janela direita do editor de conteúdo.
 
@@ -125,7 +125,7 @@ Você pode adicionar até dois botões à sua mensagem no aplicativo.
 1. Insira o URL da Web ou deep link no **[!UICONTROL Destination URL]** **[!UICONTROL Redirect]** campo, se você escolher a ação,
 1. Verifique o conteúdo da mensagem na janela de visualização ou clicando no botão Visualizar.
 
-   Consulte a página [Visualizar mensagens](../../channels/using/customizing-an-in-app-message.md#previewing-the-in-app-message) no aplicativo.
+   Consulte a página [Visualizar mensagens](#previewing-the-in-app-message) no aplicativo.
 
    ![](assets/inapp_customize_11.png)
 
