@@ -2,71 +2,71 @@
 title: Assinaturas de monitoramento
 seo-title: Assinaturas de monitoramento
 description: Assinaturas de monitoramento
-seo-description: Saiba como rastrear seus assinantes e medir o sucesso dos seus serviços usando painéis e relatórios.
+seo-description: Saiba como rastrear seus assinantes e medir o sucesso de seus serviços usando painéis e relatórios.
 page-status-flag: nunca ativado
-uuid: b 0 d 8 eb 80-fa 51-4518-a 5 e 6-56 de 4046 f 6 ff
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: públicos-alvo
-content-type: reference
-topic-tags: gerenciando assinaturas
-discoiquuid: 36750524-eb 54-47 e 8-aa 1 b-ae 0 b 94 f 58 cb 1
+uuid: b0d8eb80-fa51-4518-a5e6-56de4046f6ff
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: referência
+topic-tags: gerenciar assinaturas
+discoiquuid: 36750524-eb54-47e8-aa1b-ae0b94f58cb1
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Monitoring subscriptions{#monitoring-subscriptions}
+# Assinaturas de monitoramento{#monitoring-subscriptions}
 
-Use a interface do Adobe Campaign para rastrear seus assinantes e medir o sucesso dos seus serviços.
+Use a interface do Adobe Campaign para rastrear seus assinantes e medir o sucesso de seus serviços.
 
 Você tem várias opções para monitorar assinaturas e cancelar assinaturas:
 
-* Exiba a lista de pessoas que atualmente se inscrevem no seu serviço a partir do painel de serviços. See [Service dashboard](../../audiences/using/monitoring-subscriptions.md#service-dashboard).
-* consult the history of subscriptions and unsubscriptions from the **Subscription history** tab in the service dashboard. See [Subscription history](../../audiences/using/monitoring-subscriptions.md#subscription-history).
-* display a report detailing the evolution of subscriptions and unsubscriptions in the service **Reports**. See [Service reports](../../audiences/using/monitoring-subscriptions.md#service-reports).
-* find the list of services a person has subscribed from its **Profile**. See [History of events linked to a profile](../../audiences/using/monitoring-subscriptions.md#history-of-events-linked-to-a-profile).
+* Visualize a lista de pessoas que atualmente se inscreveram no seu serviço no painel de serviços. Consulte Painel [de serviços](#service-dashboard).
+* consulte o histórico de assinaturas e cancelamentos de assinaturas na guia Histórico **de** assinaturas no painel de serviços. Consulte Histórico [de](#subscription-history)assinaturas.
+* exibir um relatório detalhando a evolução de assinaturas e cancelamentos de assinaturas nos **Relatórios** de serviço. Consulte Relatórios [](#service-reports)de serviço.
+* encontre a lista de serviços que uma pessoa assinou de seu **Perfil**. Consulte [Histórico de eventos vinculados a um perfil](#history-of-events-linked-to-a-profile).
 
-## Service dashboard {#service-dashboard}
+## Painel de serviços {#service-dashboard}
 
-Para exibir a lista de pessoas assinadas a um serviço:
+Para exibir a lista de pessoas que se inscreveram em um serviço:
 
-1. Go to the list of services via the advanced menu **Profiles &amp; audiences** &gt; **Services**, which can be accessed from the Adobe Campaign logo.
+1. Vá para a lista de serviços pelo menu avançado **Perfis e públicos** &gt; **Serviços**, que podem ser acessados pelo logotipo do Adobe Campaign.
 1. Selecione o serviço de sua escolha para exibir o painel correspondente.
-1. The list of people subscribed to the service can be found in the **Subscriptions** tab.
+1. A lista de pessoas que se inscreveram no serviço pode ser encontrada na guia **Assinaturas** .
 
 ![](assets/lp_monitoring_subscriptions_1.png)
 
-## Subscription history {#subscription-history}
+## Histórico de assinaturas {#subscription-history}
 
-Para consultar o histórico de assinaturas e cancelamentos de assinatura:
+Para consultar o histórico de assinatura e cancelamento de assinatura:
 
-1. Go to the list of services via the advanced menu **Profiles &amp; audiences** &gt; **Services**, which can be accessed from the Adobe Campaign logo.
+1. Vá para a lista de serviços pelo menu avançado **Perfis e públicos** &gt; **Serviços**, que podem ser acessados pelo logotipo do Adobe Campaign.
 1. Selecione o serviço de sua escolha para exibir o painel correspondente.
-1. Select the **Subscription history** tab to display the dates on which each person subscribed and unsubscribed.
+1. Selecione a guia Histórico **de** assinaturas para exibir as datas nas quais cada pessoa se inscreveu e cancelou a assinatura.
 
 ![](assets/lp_monitoring_subscriptions_2.png)
 
-## Service reports {#service-reports}
+## Relatórios de serviço {#service-reports}
 
-Para exibir um relatório detalhando a evolução de assinaturas e assinaturas:
+Para exibir um relatório detalhando a evolução de assinaturas e cancelamentos de assinaturas:
 
-1. Go to the list of services via the advanced menu **Profiles &amp; audiences** &gt; **Services**, which can be accessed from the Adobe Campaign logo.
+1. Vá para a lista de serviços pelo menu avançado **Perfis e públicos** &gt; **Serviços**, que podem ser acessados pelo logotipo do Adobe Campaign.
 1. Selecione o serviço de sua escolha para exibir o painel correspondente.
-1. Click the **Reports** button in the action bar, then **Subscription monitoring** in the selection screen.
+1. Clique no botão **Relatórios** na barra de ações e, em seguida, no monitoramento **da** assinatura na tela de seleção.
 
    ![](assets/lp_monitoring_subscriptions_3.png)
 
-1. The **Service summary** report presents the number of subscriptions, the overall evolution of subscriptions, and a curve showing the progress over time.
+1. O relatório de resumo **do** serviço apresenta o número de assinaturas, a evolução geral das assinaturas e uma curva que mostra o progresso ao longo do tempo.
 
 ![](assets/lp_monitoring_subscriptions_4.png)
 
-## History of events linked to a profile {#history-of-events-linked-to-a-profile}
+## Histórico de eventos vinculados a um perfil {#history-of-events-linked-to-a-profile}
 
-Para consultar a lista de serviços aos quais um contato se inscreveu, você pode consultar seu histórico de marketing. For more on this, refer to the [Integrated customer profile](../../audiences/using/integrated-customer-profile.md) section.
+Para consultar a lista de serviços aos quais um contato se inscreveu, consulte seu histórico de marketing. Para obter mais informações, consulte a seção Perfil [do cliente](../../audiences/using/integrated-customer-profile.md) integrado.
 
 ![](assets/lp_monitoring_subscriptions_5.png)
 
