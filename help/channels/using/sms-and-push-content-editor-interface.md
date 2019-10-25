@@ -15,7 +15,7 @@ context-tags: entrega,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -24,8 +24,8 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 O SMS e o editor de conteúdo de push são organizados em duas seções diferentes que permitem que você visualize e edite a mensagem.
 
-1. A barra **de** ação contém as opções gerais para a página. Você pode inserir campos de personalização ou blocos de conteúdo, adicionar texto condicional e visualizar seu conteúdo SMS daqui. Consulte Barra [de ação do editor de conteúdo por push e](../../channels/using/sms-and-push-content-editor-interface.md#sms-and-push-content-editor-action-bar)SMS.
-1. A zona **de** edição da tela permite que você insira diretamente sua mensagem de texto e selecione onde deseja inserir a personalização. Consulte [SMS e modos](../../channels/using/sms-and-push-content-editor-interface.md#sms-and-push-content-edition-modes)de edição de conteúdo de push.
+1. A barra **de** ação contém as opções gerais para a página. Você pode inserir campos de personalização ou blocos de conteúdo, adicionar texto condicional e visualizar seu conteúdo SMS daqui. Consulte Barra [de ação do editor de conteúdo por push e](#sms-and-push-content-editor-action-bar)SMS.
+1. A zona **de** edição da tela permite que você insira diretamente sua mensagem de texto e selecione onde deseja inserir a personalização. Consulte [SMS e modos](#sms-and-push-content-edition-modes)de edição de conteúdo de push.
 
 ## Barra de ação do editor de conteúdo SMS e push {#sms-and-push-content-editor-action-bar}
 
@@ -63,7 +63,7 @@ A barra de ações contém botões diferentes que permitem interagir com o conte
    <td> <img height="21px" src="assets/personalization_field_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Inserir campo</span> de personalização <br /> </td> 
    <td> SMS e push<br /> </td> 
-   <td> Permite adicionar um campo do banco de dados ao conteúdo. Consulte <a href="../../designing/using/personalization.md#inserting-a-personalization-field" target="_blank">Inserir um campo</a>de personalização.<br /> </td> 
+   <td> Permite adicionar um campo do banco de dados ao conteúdo. See <a href="../../designing/using/personalization.md#inserting-a-personalization-field" target="_blank">Inserting a personalization field</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/personalization_block_darkgrey-24px.png" /> <br /> </td> 
@@ -91,7 +91,7 @@ A barra de ações contém botões diferentes que permitem interagir com o conte
 O editor de conteúdo SMS e push oferece as seguintes funcionalidades:
 
 * Insira o texto.
-* Adicione um campo de personalização. Para obter mais informações, consulte [Inserir um campo](../../designing/using/personalization.md#inserting-a-personalization-field)de personalização.
+* Insira um campo de personalização Para obter mais informações, consulte [Inserir um campo](../../designing/using/personalization.md#inserting-a-personalization-field)de personalização.
 * Adicione um bloco de conteúdo. Para obter mais informações, consulte [Adicionar um bloco](../../designing/using/personalization.md#adding-a-content-block)de conteúdo.
 * Adicionar texto dinâmico. Para obter mais informações, consulte [Definição de texto](../../channels/using/defining-dynamic-text.md)dinâmico.
 * Personalize o nome do remetente SMS (somente SMS). Para obter mais informações, consulte Configuração [de](../../administration/using/configuring-sms-channel.md#configuring-sms-properties)SMS.
