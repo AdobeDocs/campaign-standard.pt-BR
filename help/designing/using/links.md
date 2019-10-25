@@ -14,18 +14,18 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 14155f29492f66b070dd302c59bdd8e81008f281
+source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
 
 ---
 
 
 # Links {#links}
 
-## Inserir um link {#inserting-a-link}
+## Inserção de um link {#inserting-a-link}
 
 O editor permite que você personalize um email ou uma página de aterrissagem inserindo links nos elementos de conteúdo HTML.
 
-Você pode inserir um link em qualquer elemento de página: imagem, palavra, grupo de palavras, bloco de texto etc.
+Você pode inserir um link em qualquer elemento de página: imagem, palavra, grupo de palavras, bloco de texto, etc.
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Depois que o link for criado, você ainda poderá modificá-lo do painel Configu
 
 ![](assets/des_link_edit.png)
 
-Ao editar um email com o [Email Designer](../../designing/using/overview.md), você pode acessar e modificar facilmente os links criados na tabela que lista todos os URLs incluídos no email. Essa lista permite que você tenha uma exibição centralizada e localize cada URL no conteúdo do email. Para acessá-lo, consulte [Sobre URLs](../../designing/using/links.md#about-tracked-urls)rastreados.
+Ao editar um email com o [Email Designer](../../designing/using/overview.md), você pode acessar e modificar facilmente os links criados na tabela que lista todos os URLs incluídos no email. Essa lista permite que você tenha uma exibição centralizada e localize cada URL no conteúdo do email. Para acessá-lo, consulte [Sobre URLs](#about-tracked-urls)rastreados.
 
 ![](assets/des_link_list.png)
 
@@ -71,9 +71,9 @@ Ao editar um email com o [Email Designer](../../designing/using/overview.md), vo
 >
 >URLs personalizados, como URL **da página** Espelho ou link **Cancelar assinatura** , não podem ser modificados nesta lista. Todos os outros links são editáveis.
 
-**Tópicos** relacionados:
+**Tópicos relacionados**:
 
-* [Inserir um campo de personalização](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [Inserção de um campo de personalização](../../designing/using/personalization.md#inserting-a-personalization-field)
 * [Adicionar blocos de conteúdo](../../designing/using/personalization.md#adding-a-content-block)
 * [Definição de conteúdo dinâmico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
@@ -87,7 +87,7 @@ O **[!UICONTROL Links]** ícone na barra de ações exibe automaticamente a list
 
 >[!NOTE]
 >
->O rastreamento é ativado por padrão. Essa funcionalidade só estará disponível para e-mails se o rastreamento tiver sido ativado no Adobe Campaign. Para obter mais informações sobre os parâmetros de rastreamento, consulte [esta seção](../../administration/using/configuring-email-channel.md#tracking-parameters).
+>O rastreamento é ativado por padrão. Essa funcionalidade só estará disponível para e-mails se o rastreamento tiver sido ativado no Adobe Campaign. For more on the tracking parameters, refer to [this section](../../administration/using/configuring-email-channel.md#tracking-parameters).
 
 O URL, a categoria, o rótulo e o tipo de rastreamento de cada link podem ser modificados nesta lista. Para editar um link, clique no ícone de lápis correspondente.
 
