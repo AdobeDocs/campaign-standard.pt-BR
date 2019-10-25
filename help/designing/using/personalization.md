@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -23,11 +23,11 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 O conteúdo e a exibição de mensagens entregues pelo Adobe Campaign podem ser personalizados de várias maneiras diferentes. Essas maneiras podem ser combinadas de acordo com critérios dependendo dos perfis. Em geral, o Adobe Campaign permite:
 
-* Inserir campos de personalização dinâmica. Consulte [Inserir um campo](../../designing/using/personalization.md#inserting-a-personalization-field)de personalização.
-* Inserir blocos de personalização predefinidos. Consulte [Adicionar um bloco](../../designing/using/personalization.md#adding-a-content-block)de conteúdo.
-* Personalize o remetente de um email. Consulte [Personalizar o remetente](../../designing/using/personalization.md#personalizing-the-sender).
+* Inserir campos de personalização dinâmicos. See [Inserting a personalization field](#inserting-a-personalization-field).
+* Inserir blocos de personalização predefinidos. Consulte [Adicionar um bloco](#adding-a-content-block)de conteúdo.
+* Personalize o remetente de um email. Consulte [Personalizar o remetente](#personalizing-the-sender).
 * Personalize o assunto de um email. Consulte [Personalizar a linha de assunto de um email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-* Crie conteúdo condicional. Consulte [Definição de conteúdo dinâmico em um email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* Criar conteúdo condicional. Consulte [Definição de conteúdo dinâmico em um email](#defining-dynamic-content-in-an-email)
 
 ## Personalização do remetente {#personalizing-the-sender}
 
@@ -39,7 +39,7 @@ Este campo pode ser personalizado. Para fazer isso, você pode adicionar campos 
 
 >[!NOTE]
 >
->Os parâmetros do cabeçalho não devem estar vazios. O endereço do remetente é obrigatório para permitir o envio de um email (padrão RFC). O Adobe Campaign verifica a sintaxe dos endereços de email inseridos.
+>Os parâmetros do cabeçalho não devem ficar vazios. O endereço do remetente é obrigatório para possibilitar o envio de um email (padrão RFC). O Adobe Campaign verifica a sintaxe dos endereços de email inseridos.
 
 ## Personalização de URLs{#personalizing-urls}
 
@@ -57,7 +57,7 @@ O Adobe Campaign permite que você personalize um ou vários URLs em sua mensage
 >
 >A personalização de URLs não pode ser aplicada ao nome do domínio nem à extensão do URL. Uma mensagem de erro será exibida durante a análise da mensagem se a personalização estiver incorreta. Ao selecionar um bloco de conteúdo, não é permitido selecionar elementos como **Vincular para espelhar a página**. Este tipo de blocos é proibido dentro de um link.
 
-## Inserir um campo de personalização{#inserting-a-personalization-field}
+## Inserção de um campo de personalização{#inserting-a-personalization-field}
 
 O Adobe Campaign permite que você insira um campo do banco de dados em sua página, como o nome do perfil.
 
@@ -148,7 +148,7 @@ Para criar um bloco de conteúdo, siga estas etapas:
    * **[!UICONTROL Landing page]**: O bloco de conteúdo só pode ser usado em uma página de aterrissagem.
    ![](assets/content_bloc_02.png)
 
-1. Você pode selecionar um **[!UICONTROL Targeting dimension]**. Para obter mais informações, consulte [Sobre a dimensão](../../designing/using/personalization.md#about-targeting-dimension)de definição de metas.
+1. Você pode selecionar um **[!UICONTROL Targeting dimension]**. Para obter mais informações, consulte [Sobre a dimensão](#about-targeting-dimension)de definição de metas.
 
    ![](assets/content_bloc_04.png)
 
@@ -178,9 +178,9 @@ Para obter mais informações, consulte Dimensões e recursos [de](../../automat
 
 **Tópicos relacionados:**
 
-* [Inserir um campo de personalização](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Adicionar um bloco de conteúdo](../../designing/using/personalization.md#adding-a-content-block)
-* [Definição de conteúdo dinâmico em um email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* [Inserção de um campo de personalização](#inserting-a-personalization-field)
+* [Adicionar um bloco de conteúdo](#adding-a-content-block)
+* [Definição de conteúdo dinâmico em um email](#defining-dynamic-content-in-an-email)
 
 ## Personalização de uma fonte de imagem{#personalizing-an-image-source}
 
@@ -218,7 +218,7 @@ Essa opção só está disponível para os seguintes elementos: ENDEREÇO, BLOQU
 
 O editor de expressões é apresentado na seção de edição [de expressões](../../automating/using/editing-queries.md#about-query-editor) Avançadas.
 
-Essas condições adotam a sintaxe de expressão XTK (por exemplo, **context.profile.email !=''** ou **context.profile.status='0'**). Por padrão, todos os campos ficam visíveis.
+Essas condições adotam a sintaxe de expressão XTK (por exemplo, **context.profile.email !=''** ou **context.profile.status='0'**). Por padrão, todos os campos são visíveis.
 
 >[!NOTE]
 >
@@ -228,7 +228,7 @@ Essas condições adotam a sintaxe de expressão XTK (por exemplo, **context.pro
 
 Em um email, você pode definir conteúdos diferentes que serão exibidos dinamicamente para os destinatários, de acordo com as condições definidas pelo editor de expressões. Por exemplo, a partir do mesmo email, você pode garantir que cada perfil receba uma mensagem diferente de acordo com o intervalo de idade.
 
-A definição de conteúdo dinâmico é diferente da [definição das condições](../../designing/using/personalization.md#defining-a-visibility-condition)de visibilidade.
+A definição de conteúdo dinâmico é diferente da [definição das condições](#defining-a-visibility-condition)de visibilidade.
 
 1. Selecione um fragmento, um componente ou um elemento. Neste exemplo, selecione uma imagem.
 1. Clique no **[!UICONTROL Dynamic content]** ícone da barra de ferramentas contextual.
@@ -261,7 +261,7 @@ A definição de conteúdo dinâmico é diferente da [definição das condiçõe
 
    ![](assets/dynamic_content_7.png)
 
-   O conteúdo será exibido na paleta em ordem de prioridade, de cima para baixo. For more on priorities, refer to [this section](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+   O conteúdo será exibido na paleta em ordem de prioridade, de cima para baixo. For more on priorities, refer to [this section](#defining-dynamic-content-in-an-email).
 
 1. Carregue uma nova imagem para a variante que você acabou de definir.
 
@@ -285,7 +285,7 @@ A definição de conteúdo dinâmico é diferente da [definição das condiçõe
 
 **Tópicos relacionados:**
 
-* [Enviar provas](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs)
+* [Envio de provas](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs)
 * [Edição de expressão avançada](../../automating/using/editing-queries.md#about-query-editor)
 
 ### Ordem de prioridade {#order-of-priority}
@@ -318,13 +318,13 @@ O email é criado da seguinte maneira:
 
    ![](assets/delivery_content_43.png)
 
-   A adição e configuração de conteúdo dinâmico está detalhada em [Definição de conteúdo dinâmico na seção de email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) .
+   A adição e configuração de conteúdo dinâmico está detalhada em [Definição de conteúdo dinâmico na seção de email](#defining-dynamic-content-in-an-email) .
 
 * Campos de personalização e conteúdo dinâmico são aplicados ao texto. Dependendo da faixa etária do perfil, o e-mail começa com o nome do perfil ou o título e sobrenome do perfil.
 
    ![](assets/delivery_content_44.png)
 
-   A adição e configuração dos campos de personalização é detalhada na seção [Inserindo um campo](../../designing/using/personalization.md#inserting-a-personalization-field) de personalização.
+   A adição e configuração dos campos de personalização é detalhada na seção [Inserindo um campo](#inserting-a-personalization-field) de personalização.
 
 ### Configuração de imagens {#configuring-images}
 
@@ -371,7 +371,7 @@ Neste exemplo, o conteúdo dinâmico aplicado aos textos é configurado da segui
 **Para direcionar perfis com idade entre 18 e 27 anos:**
 
 1. Selecione o componente de estrutura desejado e adicione um conteúdo dinâmico.
-1. Edite o conteúdo dinâmico e configure as expressões de definição de metas. Consulte [Configuração de imagens](../../designing/using/personalization.md#configuring-images).
+1. Edite o conteúdo dinâmico e configure as expressões de definição de metas. Consulte [Configuração de imagens](#configuring-images).
 1. No componente de estrutura, na posição desejada, clique no **[!UICONTROL Personalize]** ícone na barra de ferramentas contextual e selecione **[!UICONTROL Insert personalization field]**.
 
    ![](assets/delivery_content_53.png)
@@ -385,7 +385,7 @@ Neste exemplo, o conteúdo dinâmico aplicado aos textos é configurado da segui
 **Para direcionar perfis com idade igual ou superior a 27 anos:**
 
 1. Selecione o componente de estrutura desejado e adicione um conteúdo dinâmico.
-1. Edite o conteúdo dinâmico e configure as expressões de definição de metas. Consulte [Configuração de imagens](../../designing/using/personalization.md#configuring-images).
+1. Edite o conteúdo dinâmico e configure as expressões de definição de metas. Consulte [Configuração de imagens](#configuring-images).
 1. No componente de estrutura, na posição desejada, clique no **[!UICONTROL Personalize]** ícone na barra de ferramentas contextual e selecione **[!UICONTROL Insert personalization field]**.
 1. Selecione **[!UICONTROL Title]** na lista suspensa.
 1. Proceda da mesma forma para adicionar o **[!UICONTROL Last name]** campo.
