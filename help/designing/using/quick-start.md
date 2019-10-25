@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8f63c039231a7028825981098e6f97eb3ebca67e
+source-git-commit: 8e070a4c364c8a5e23870e28add142b46edc8994
 
 ---
 
@@ -24,14 +24,14 @@ O Designer de email fornece quatro maneiras de criar emails.
 
 Você pode criar um email iniciando no zero:
 
-* Você pode criar um email a partir de uma tela em branco adicionando facilmente a estrutura e os componentes de conteúdo e personalize seu conteúdo para enviar uma entrega rapidamente. Você também pode gerenciar totalmente os elementos de estilo. Para obter mais informações, [comece rapidamente](../../designing/using/quick-start.md#from-scratch-email) ou consulte a documentação [](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)completa.
+* Você pode criar um email a partir de uma tela em branco adicionando facilmente a estrutura e os componentes de conteúdo e personalize seu conteúdo para enviar uma entrega rapidamente. Você também pode gerenciar totalmente os elementos de estilo. Para obter mais informações, [comece rapidamente](#from-scratch-email) ou consulte a documentação [](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)completa.
 
-* Você pode criar um email a partir de modelos predefinidos selecionando um modelo e criando seu novo conteúdo de email aqui. [Saiba mais](quick-start.md#building-content-from-an-out-of-the-box-template)
+* Você pode criar um email a partir de modelos predefinidos selecionando um modelo e criando seu novo conteúdo de email aqui. [Saiba mais](#building-content-from-an-out-of-the-box-template)
 
 Você também pode criar um email com conteúdo existente:
 
-* É possível converter um conteúdo HTML existente (criado externamente ou no editor herdado). [Saiba mais](quick-start.md#converting-an-html-content)
-* É possível importar um conteúdo HTML existente imediatamente no modo de compatibilidade. [Saiba mais](quick-start.md#compatibility-mode)
+* É possível converter um conteúdo HTML existente (criado externamente ou no editor herdado). [Saiba mais](#converting-an-html-content)
+* É possível importar um conteúdo HTML existente imediatamente no modo de compatibilidade. [Saiba mais](#compatibility-mode)
 
 ## Sem conteúdo existente {#without-existing-content}
 
