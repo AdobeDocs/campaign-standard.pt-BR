@@ -2,46 +2,46 @@
 title: Definição do público-alvo de mala direta
 seo-title: Definição do público-alvo de mala direta
 description: Definição do público-alvo de mala direta
-seo-description: Saiba como definir a meta para sua entrega de mala direta.
+seo-description: Saiba como definir a meta para a entrega de mala direta.
 page-status-flag: nunca ativado
-uuid: f 843 e 368-5 c 07-4 b 53-8943-46 f 7 bf 45 b 62 b
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+uuid: f843e368-5c07-4b53-8943-46f7bf45b62b
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
 audience: canais
-content-type: reference
-topic-tags: direta
-discoiquuid: f 993 d 1 b 6-4 b 9 a -4 f 95-81 fc -60 c 126211 bd 2
-context-tags: entrega, directmailcontent, back
+content-type: referência
+topic-tags: correio direto
+discoiquuid: f993d1b6-4b9a-4f95-81fc-60c126211bd2
+context-tags: entrega,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 27447db9ee0dd387c39976c7bd4e157a4b7899b8
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Definição do público-alvo de mala direta{#defining-the-direct-mail-audience}
+# Defining the direct mail audience{#defining-the-direct-mail-audience}
 
-Você pode definir o público-alvo no assistente de criação ou clicando na **seção Público-alvo** do painel de entrega.
+Você pode definir o público-alvo no assistente de criação ou clicando na seção **Público-alvo** do painel de entrega.
 
 ![](assets/direct_mail_15.png)
 
-## Definição do destino principal {#defining-the-main-target}
+## Definição da meta principal {#defining-the-main-target}
 
-Para mala direta, os perfis direcionados são aqueles que serão incluídos no arquivo de extração que você enviará para o seu provedor de mala direta.
+Para mala direta, os perfis direcionados são aqueles que serão incluídos no arquivo de extração que você enviará ao seu provedor de mala direta.
 
-Para cada perfil direcionado, uma nova linha é adicionada no arquivo de extração. A quantidade de informações de perfil incluída para cada destinatário é definida na [tela Definição da tela de extração](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) .
+Para cada perfil direcionado, uma nova linha é adicionada ao arquivo de extração. A quantidade de informações de perfil que serão incluídas para cada destinatário é definida na tela [Definindo a extração](#defining-the-extraction) .
 
 >[!CAUTION]
 >
->Verifique se os perfis incluem um endereço postal, pois essas informações são essenciais para o provedor de mala direta. Certifique-se também de marcar a **[!UICONTROL Address specified]** caixa nas informações de seus perfis. Consulte [Recommendations](../../channels/using/about-direct-mail.md#recommendations).
+>Certifique-se de que seus perfis incluam um endereço postal, pois essas informações são essenciais para o provedor de mala direta. Verifique também se você marcou a **[!UICONTROL Address specified]** caixa nas informações de seus perfis. Consulte [Recomendações](../../channels/using/about-direct-mail.md#recommendations).
 
-## Adição de perfis de teste e captura {#adding-test-and-trap-profiles}
+## Adicionar perfis de teste e trapping {#adding-test-and-trap-profiles}
 
-Adicione perfis de teste para testar seu arquivo com um pequeno número de perfis. Isso permite criar rapidamente uma amostra de arquivo para testar e validar a estrutura antes de preparar o arquivo real. Consulte [Gerenciamento de perfis de teste e envio de testes](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+Adicione perfis de teste para que você possa testar seu arquivo com um pequeno número de perfis. Permite criar rapidamente uma amostra de arquivo para testar e validar a estrutura antes de preparar o arquivo real. Consulte [Gerenciamento de perfis de teste e envio de provas](../../sending/using/managing-test-profiles-and-sending-proofs.md).
 
-O uso de capturas é essencial para o envio de entregas por email. Eles permitem que você verifique se seu provedor de mala direta está enviando a comunicação e que não está enviando sua lista de clientes para outro provedor. Consulte [Uso de capturas](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
+A utilização de armadilhas é essencial para a entrega direta de correio. Eles permitem que você verifique se seu provedor de mala direta está realmente enviando a comunicação e se eles não estão enviando sua lista de clientes para outro provedor. Consulte [Uso de armadilhas](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
 
-Para entregas de mala direta, as capturas são adicionadas durante a extração e misturadas no documento de saída. Por padrão, são inseridos na ordem de classificação do arquivo de saída, mas você pode optar por inseri-los no final ou no início do arquivo. Ao definir o público, selecione a opção desejada na **[!UICONTROL Trap insertion mode]** guia.
+Para entregas por mala direta, as armadilhas são adicionadas durante a extração e misturadas no documento de saída. Por padrão, eles são inseridos na ordem de classificação do arquivo de saída, mas você pode optar por inseri-los no final ou no início do arquivo. Ao definir o público-alvo, selecione a opção desejada na **[!UICONTROL Trap insertion mode]** guia.
 
 ![](assets/direct_mail_trap_insertion_mode.png)
