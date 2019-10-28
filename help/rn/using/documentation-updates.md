@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 621b643fdbae077b494ea02274233de7ec99f288
+source-git-commit: fc20cc5d3dfb4ad03ea4f8c7ad0931b5e190a089
 
 ---
 
@@ -45,7 +45,9 @@ Foi adicionado um novo gráfico que apresenta o processo de publicação de mens
 
 O guia de introdução às práticas recomendadas de entrega foi atualizado. [Leia mais](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
-<!--A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../start/using/enriching-campaign-database.md)-->
+Uma nova seção foi adicionada. Ele fornece uma visão geral dos diferentes métodos que permitem aprimorar o banco de dados do Campaign Standard. [Leia mais](../../start/using/enriching-campaign-database.md)
+
+Uma nova seção foi adicionada descrevendo como criar um estilo de links com o Designer de email. [Leia mais](../../designing/using/styles.md#about-styling-links)
 
 ## Atualizações de documentação - outubro de 2019 {#doc-updates-october-2019}
 
@@ -56,6 +58,8 @@ Uma nova seção que descreve como enviar um email de confirmação personalizad
 A seção Mensagens transacionais foi modificada com as atualizações mais recentes da interface do usuário, incluindo a edição de conteúdo com o Designer de email. [Leia mais](../../channels/using/event-transactional-messages.md)
 
 O capítulo de páginas iniciais foi reorganizado. Ele também foi enriquecido com uma nova seção que detalha as etapas para configurar uma página de aterrissagem. [Leia mais](../../channels/using/main-steps-to-set-up-a-landing-page.md)
+
+A página de integração do Audience Manager foi atualizada para refletir as alterações **da ID** declarada. [Leia mais](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 ## Atualizações de documentação - setembro de 2019 {#doc-updates-september-2019}
 
