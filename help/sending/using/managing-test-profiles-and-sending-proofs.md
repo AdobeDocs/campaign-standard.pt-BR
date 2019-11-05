@@ -1,8 +1,6 @@
 ---
 title: Gerenciamento de perfis de teste e envio de provas
-seo-title: Gerenciamento de perfis de teste e envio de provas
-description: Gerenciamento de perfis de teste e envio de provas
-seo-description: Saiba como gerenciar perfis e provas de teste.
+description: Saiba como gerenciar perfis e provas de teste.
 page-status-flag: nunca ativado
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
 contentOwner: molviato
@@ -15,7 +13,7 @@ context-tags: sementeMember,visão geral
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -158,12 +156,12 @@ Ao definir o público-alvo de uma mensagem:
 
    ![](assets/trap_select.png)
 
-1. Quando o conteúdo da mensagem estiver pronto, clique no **[!UICONTROL Prepare]** botão. Consulte [Preparação do envio](../../sending/using/preparing-the-send.md).
+1. Quando o conteúdo da mensagem estiver pronto, clique no **[!UICONTROL Prepare]** botão. See [Preparing the send](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
    >Certifique-se de selecionar um destino principal. Caso contrário, sua mensagem não poderá ser enviada.
 
-1. Click the **[!UICONTROL Confirm]** button. Consulte [Confirmando o envio](../../sending/using/confirming-the-send.md).
+1. Click the **[!UICONTROL Confirm]** button. See [Confirming the send](../../sending/using/confirming-the-send.md).
 
    ![](assets/trap_confirm.png)
 
