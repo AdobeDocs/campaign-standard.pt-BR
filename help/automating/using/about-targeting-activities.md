@@ -1,33 +1,31 @@
 ---
-title: Sobre atividades de definição de metas
-seo-title: Sobre atividades de definição de metas
-description: Sobre atividades de definição de metas
-seo-description: As atividades de definição de metas podem ser acessadas no lado esquerdo da tela.
+title: Sobre as atividades de direcionamento
+description: As atividades de definição de metas podem ser acessadas do lado esquerdo da tela.
 page-status-flag: nunca ativado
-uuid: a 6 cbc 431-1 ae 3-428 e-b 2 c 9-893454 b 32 ae 2
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automatizando
-content-type: reference
+uuid: a6cbc431-1ae3-428e-b2c9-893454b32ae2
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: automatização
+content-type: referência
 topic-tags: atividades de definição de metas
-discoiquuid: 5 f 7607 a 1-5 f 71-4 d 66-9688-3 e 5 a 1774 f 1 b 4
+discoiquuid: 5f7607a1-5f71-4d66-9688-3e5a1774f1b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# About targeting activities{#about-targeting-activities}
+# Sobre as atividades de direcionamento{#about-targeting-activities}
 
-From the palette, on the left-hand side of the screen, unfold the **[!UICONTROL Targeting]** section.
+Na paleta, no lado esquerdo da tela, desdobre a **[!UICONTROL Targeting]** seção.
 
-Essas atividades são específicas para direcionamento, manipulação de dados de preenchimento e filtragem de atividades. Eles permitem que você construa uma ou mais metas definindo conjuntos e dividindo ou combinando esses conjuntos usando operações de interseção, união ou exclusão.
+Essas atividades são específicas para segmentação, manipulação de dados populacionais e atividades de filtragem. Eles permitem que você crie uma ou mais metas definindo conjuntos e dividindo ou combinando esses conjuntos usando operações de interseção, união ou exclusão.
 
 ![](assets/wkf_targeting_activities.png)
 
-**[!UICONTROL Targeting]** A seção fornece as seguintes atividades:
+A **[!UICONTROL Targeting]** seção fornece as seguintes atividades:
 
 * [Consulta](../../automating/using/query.md)
 * [Consulta incremental](../../automating/using/incremental-query.md)
@@ -37,7 +35,7 @@ Essas atividades são específicas para direcionamento, manipulação de dados d
 * [Segmentação](../../automating/using/segmentation.md)
 * [Ler público-alvo](../../automating/using/read-audience.md)
 * [Salvar público-alvo](../../automating/using/save-audience.md)
-* [Desduplicação](../../automating/using/deduplication.md)
+* [Eliminação de duplicação](../../automating/using/deduplication.md)
 * [Enriquecimento](../../automating/using/enrichment.md)
 
-**[!UICONTROL Targeting]** as atividades permitem definir **códigos de segmento** para suas transições de saída. Você pode então criar relatórios com base nesses códigos de segmento para medir a eficiência das suas campanhas de maketing. For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
+**[!UICONTROL Targeting]** permite definir códigos **de** segmento para suas transições de saída. Em seguida, você pode criar relatórios com base nesses códigos de segmento para medir a eficiência de suas campanhas de marketing. Para obter mais informações, consulte [esta seção](../../reporting/using/creating-a-report-workflow-segment.md).
