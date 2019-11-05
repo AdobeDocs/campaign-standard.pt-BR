@@ -1,8 +1,6 @@
 ---
 title: Modos de texto sem formatação e HTML
-seo-title: Modos de texto sem formatação e HTML
-description: Modos de texto sem formatação e HTML
-seo-description: Descubra os modos Texto simples e HTML
+description: Descubra os modos Texto simples e HTML
 page-status-flag: nunca ativado
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: molviato
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2045c69398902a8e942e20c70287d7f3e9570837
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
