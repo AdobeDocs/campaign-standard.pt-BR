@@ -1,48 +1,46 @@
 ---
-title: Resumo de rejeição
-seo-title: Resumo de rejeição
-description: Resumo de rejeição
-seo-description: Com o resumo do Resumo da rejeição, saiba mais sobre o status de suas campanhas e erros que podem ser encontrados.
+title: Resumo da rejeição
+description: Com o relatório resumido de rejeição pronto para uso, saiba mais sobre o status de suas campanhas enviadas e os erros que elas podem ter encontrado.
 page-status-flag: nunca ativado
-uuid: 90087311-4236-4 df 9-ae 7 d -4 a 15 c 00 c 70 ab
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: relatórios
-content-type: reference
+uuid: 90087311-4236-4df9-ae7d-4a15c00c70ab
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: relatório
+content-type: referência
 topic-tags: lista de relatórios
-discoiquuid: 5 ae 561 b 4-03 cf -4541-87 ff -47 f 1027 d 53 b 8
-context-tags: Bouncereport, principal; Campaigncirculationrelatório, principal; Programcirculationreport, Main
+discoiquuid: 5ae561b4-03cf-4541-87ff-47f1027d53b8
+context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Bounce summary{#bounce-summary}
+# Resumo da rejeição{#bounce-summary}
 
-Este relatório detalha os erros internos e internos gerais encontrados durante as entregas, bem como o processamento automático das rejeições.
+Este relatório detalha os erros gerais de hardware e software encontrados durante as entregas, bem como o processamento automático de rejeições.
 
 ![](assets/campaign_reports_bounces.png)
 
-Cada tabela é representada por números de resumo e gráficos. É possível alterar como os detalhes são mostrados nas respectivas configurações de visualização.
+Cada tabela é representada por números de resumo e gráficos. Você pode alterar a forma como os detalhes são exibidos em suas respectivas configurações de visualização.
 
-**A distribuição** do Flop 5 lista as cinco entregas com o maior número de correias:
+**A repartição** Flop 5 lista as cinco distribuições com o maior número de quarentena:
 
-**A** tabela de motivos de Rejeição contém os dados disponíveis para os tipos de erros que resultaram em devoluções para cada entrega:
+A tabela de motivos **de** rejeição contém os dados disponíveis para os tipos de erros que causaram rejeições para cada entrega:
 
 * **[!UICONTROL User unknown]**: O tipo de erro gerado quando uma entrega é enviada para um endereço de email inválido.
 * **[!UICONTROL Invalid domain]**: O tipo de erro gerado quando uma entrega é enviada para um endereço de email cujo domínio está errado ou não existe mais.
-* **[!UICONTROL Unreachable]**: O tipo de erro encontrado na string de entrega da mensagem. Por exemplo, o incidente de relâmpago SMTP, o domínio temporariamente inatingível, etc.
+* **[!UICONTROL Unreachable]**: O tipo de erro encontrado na string de entrega de mensagem. Por exemplo, incidente de retransmissão SMTP, domínio temporariamente inacessível etc.
 * **[!UICONTROL Account disabled]**: O tipo de erro gerado quando uma entrega é enviada para um endereço de email que não existe mais.
 * **[!UICONTROL Mailbox full]**: O tipo de erro gerado quando a caixa de entrada do destinatário está cheia. Há cinco tentativas de entregar a mensagem antes que esse erro seja gerado.
-* **[!UICONTROL Not connected]**: O tipo de erro gerado quando o telefone do destinatário está desligado ou não está conectado a uma rede no momento em que a mensagem é enviada.
+* **[!UICONTROL Not connected]**: O tipo de erro gerado quando o telefone celular do destinatário está desligado ou não está conectado a uma rede no momento em que a mensagem é enviada.
 
    >[!NOTE]
    >
-   >Esse tipo de erro diz respeito somente a entregas em canais móveis.
+   >Esse tipo de erro só diz respeito às entregas em canais móveis.
 
-* **[!UICONTROL Refused]**: O tipo de erro gerado quando um endereço é recusado pelo provedor de serviços Internet (ISP). Por exemplo, quando uma regra de segurança é aplicada por um software anti-spam.
+* **[!UICONTROL Refused]**: O tipo de erro gerado quando um endereço é recusado pelo provedor de serviços de Internet (ISP). Por exemplo, quando uma regra de segurança é aplicada por software antisspam.
 
-The **Domain repartition** table displays the overall problems encountered during the deliveries according to the recipient domain.
+A tabela de repartição **de** domínio exibe os problemas gerais encontrados durante as entregas de acordo com o domínio do destinatário.
