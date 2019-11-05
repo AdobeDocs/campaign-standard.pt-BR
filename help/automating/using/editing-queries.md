@@ -1,8 +1,6 @@
 ---
 title: Editar consultas
-seo-title: Editar consultas
-description: Editar consultas
-seo-description: Crie uma população graças aos filtros e regras predefinidos.
+description: Crie uma população graças aos filtros e regras predefinidos.
 page-status-flag: nunca ativado
 uuid: a49c7739-a96c-45cb-9ac5-1ce299161a97
 contentOwner: molviato
@@ -15,7 +13,7 @@ context-tags: queryFilter,overview;audience,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
