@@ -1,8 +1,6 @@
 ---
-title: Sobre páginas de aterrissagem
-seo-title: Sobre páginas de aterrissagem
-description: Sobre páginas de aterrissagem
-seo-description: Descubra as páginas iniciais da Campanha e seu ciclo de vida.
+title: Sobre as páginas de aterrissagem
+description: Descubra as páginas iniciais da Campanha e seu ciclo de vida.
 page-status-flag: nunca ativado
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: molviato
@@ -15,12 +13,12 @@ context-tags: landingPage,assistente;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0068746b0b90b85edfb2c93eb08a82e1adc2fca8
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Sobre páginas de aterrissagem{#about-landing-pages}
+# Sobre as páginas de aterrissagem{#about-landing-pages}
 
 A campanha vem com páginas de aterrissagem que são formulários da Web que podem ser usados para capturar informações em seus públicos-alvo, oferecer assinaturas para um serviço, exibir dados e aumentar seu banco de dados. As páginas iniciais também podem ser usadas para adquirir ou atualizar perfis existentes.
 
