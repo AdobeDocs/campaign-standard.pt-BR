@@ -1,8 +1,6 @@
 ---
-title: Criando uma mensagem SMS
-seo-title: Criando uma mensagem SMS
-description: Criando uma mensagem SMS
-seo-description: Siga estas etapas para criar uma mensagem SMS de envio único no Adobe Campaign.
+title: Criar uma mensagem SMS
+description: Siga estas etapas para criar uma mensagem SMS de envio único no Adobe Campaign.
 page-status-flag: nunca ativado
 uuid: 591ae97e-2d19-4f93-be4b-d8d20f1d2d12
 contentOwner: molviato
@@ -15,12 +13,12 @@ delivercontext-tags: deliveryCreation,assistente
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Criando uma mensagem SMS{#creating-an-sms-message}
+# Criar uma mensagem SMS{#creating-an-sms-message}
 
 A criação de uma entrega de SMS é muito semelhante à criação de um email comum. As etapas a seguir descrevem a configuração que é específica para esse canal. Consulte [Criação de um email](../../channels/using/creating-an-email.md) para obter mais informações sobre outras opções.
 
@@ -28,12 +26,12 @@ Parâmetros SMS avançados são detalhados na seção de configuração [](../..
 
 Para criar e enviar mensagens SMS para um telefone celular, é necessário:
 
-* Uma conta **[!UICONTROL Routing]** externa configurada no **[!UICONTROL Mobile (SMS)]** canal com o **[!UICONTROL Bulk delivery]** modo. Para obter mais informações, consulte a seção [Roteamento](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) .
+* Uma conta **[!UICONTROL Routing]** externa configurada no **[!UICONTROL Mobile (SMS)]** canal com o **[!UICONTROL Bulk delivery]** modo. For more on this, refer to the [Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) section.
 * Um modelo de entrega vinculado corretamente a esta conta externa.
 
 1. Crie uma entrega de SMS. Você pode fazer isso na [página](../../start/using/interface-description.md#home-page)inicial do Adobe Campaign, em uma [campanha](../../start/using/marketing-activities.md#creating-a-marketing-activity) ou na lista [de atividades de](../../start/using/programs-and-campaigns.md#creating-a-campaign)marketing.
 
-   Você também pode adicionar uma atividade SMS em um fluxo de trabalho. Para obter mais informações, consulte o guia [Fluxos de trabalho](../../automating/using/sms-delivery.md) .
+   Você também pode adicionar uma atividade SMS em um fluxo de trabalho. For more on this, refer to the [Workflows](../../automating/using/sms-delivery.md) guide.
 
    Ao criar uma mensagem, um assistente é exibido para orientá-lo pelas etapas mais importantes. O que é definido pelo assistente ainda pode ser editado depois do painel de mensagens.
 
@@ -55,7 +53,7 @@ Para criar e enviar mensagens SMS para um telefone celular, é necessário:
 
 1. Adicione conteúdo ao seu SMS. Você também pode definir o conteúdo clicando na **[!UICONTROL Content]** seção do painel de entrega, depois que a criação do SMS for finalizada. Consulte [Sobre design](../../channels/using/about-sms-and-push-content-design.md)de conteúdo SMS.
 
-   Se você tiver inserido campos de personalização ou texto condicional no conteúdo de sua mensagem SMS, a duração da mensagem pode variar de um destinatário para outro. na verdade, esses fatores podem introduzir caracteres que não são considerados pela codificação GSM. Por isso, a duração da mensagem deve ser avaliada uma vez realizada a personalização. Consulte [Personalização de mensagens](../../channels/using/personalizing-sms-messages.md)SMS.
+   Se você tiver inserido campos de personalização ou texto condicional no conteúdo de sua mensagem SMS, a duração da mensagem pode variar de um destinatário para outro. na verdade, esses fatores podem introduzir caracteres que não são considerados pela codificação GSM. Por isso, a duração da mensagem deve ser avaliada uma vez realizada a personalização. See [Personalizing SMS messages](../../channels/using/personalizing-sms-messages.md).
 
    ![](assets/sms_creation_4.png)
 
