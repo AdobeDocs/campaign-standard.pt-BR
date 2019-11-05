@@ -1,8 +1,6 @@
 ---
 title: Painel de mensagens
-seo-title: Painel de mensagens
-description: Painel de mensagens
-seo-description: Descubra do que o painel de mensagens é composto, incluindo a barra de ação e os vários blocos funcionais.
+description: Descubra do que o painel de mensagens é composto, incluindo a barra de ação e os vários blocos funcionais.
 page-status-flag: nunca ativado
 uuid: 9bb44ee8-2cf6-43ce-94a4-367f4e469713
 contentOwner: molviato
@@ -15,7 +13,7 @@ context-tags: entrega,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -37,7 +35,7 @@ A barra cinza agrupa vários ícones vinculados à sua mensagem.
 **Tópicos relacionados:**
 
 * [Configuração de canais](../../administration/using/about-channel-configuration.md)
-* [Acesso a relatórios](../../reporting/using/about-dynamic-reports.md)
+* [Acesso ao relatórios](../../reporting/using/about-dynamic-reports.md)
 
 ## Barra de ação {#action-bar}
 
@@ -73,8 +71,8 @@ A tela principal é composta por blocos diferentes. Clique dentro de um bloco pa
 
 ![](assets/delivery_dashboard_3.png)
 
-* **[!UICONTROL Deployment]**: permite que você rastreie o progresso da preparação ou envio da mensagem. Clique no botão encontrado na seção inferior direita deste bloco para acessar os logs de envio e análise. Este bloco só aparece depois que o envio é preparado. Para mais informações. Consulte [Confirmação de envio](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Deployment]**: permite que você rastreie o progresso da preparação ou envio da mensagem. Clique no botão encontrado na seção inferior direita deste bloco para acessar os logs de envio e análise. Este bloco só aparece depois que o envio é preparado. Para saber mais sobre isso. Consulte [Confirmação de envio](../../sending/using/confirming-the-send.md).
 * **[!UICONTROL Audience]**: permite estabelecer o destino principal da mensagem, bem como os perfis de teste. Consulte [Criação de públicos-alvo](../../audiences/using/creating-audiences.md).
 * **[!UICONTROL Schedule]**: permite especificar a data em que sua mensagem será enviada. Consulte [Agendamento](../../sending/using/about-scheduling-messages.md).
-* **[!UICONTROL Content]**: permite que você defina o conteúdo da mensagem e a visualize. Consulte Etapas [principais para enviar uma mensagem](../../channels/using/key-steps-to-send-a-message.md).
+* **[!UICONTROL Content]**: permite que você defina o conteúdo da mensagem e a visualize. See [Key steps to send a message](../../channels/using/key-steps-to-send-a-message.md).
 
