@@ -1,8 +1,6 @@
 ---
-title: Descobrindo canais de comunicação
-seo-title: Descobrindo canais de comunicação
-description: Descobrindo canais de comunicação
-seo-description: Saiba como enviar mensagens personalizadas em vários canais e criar campanhas entre canais para melhor direcionar seus destinatários.
+title: Descobrir canais de comunicação
+description: Saiba como enviar mensagens personalizadas em vários canais e criar campanhas entre canais para melhor direcionar seus destinatários.
 page-status-flag: nunca ativado
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
 contentOwner: molviato
@@ -14,12 +12,12 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Descobrindo canais de comunicação{#discovering-communication-channels}
+# Descobrir canais de comunicação{#discovering-communication-channels}
 
 O Adobe Campaign permite que você crie e envie mensagens personalizadas em vários canais e avalie sua eficácia por meio de relatórios dedicados.
 
