@@ -1,8 +1,6 @@
 ---
 title: Gerenciamento de participação e não participação no Campaign
-seo-title: Gerenciamento de participação e não participação no Campaign
-description: Gerenciamento de participação e não participação no Campaign
-seo-description: Saiba como o opt-in e o opt-out são gerenciados no Adobe Campaign.
+description: Saiba como o opt-in e o opt-out são gerenciados no Adobe Campaign.
 page-status-flag: nunca ativado
 uuid: aa1801ec-562b-420e-8d79-c07d066b7b1a
 contentOwner: molviato
@@ -14,7 +12,7 @@ discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
