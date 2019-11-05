@@ -1,8 +1,6 @@
 ---
-title: Criação de um relatório com base em segmentos de fluxo de trabalho
-seo-title: Criação de um relatório com base em segmentos de fluxo de trabalho
-description: Criação de um relatório com base em segmentos de fluxo de trabalho
-seo-description: Saiba como verificar o sucesso de sua entrega dependendo dos segmentos dos fluxos de trabalho em seus relatórios.
+title: Criar um relatório com base em segmentos de fluxo de trabalho
+description: Saiba como verificar o sucesso de sua entrega dependendo dos segmentos dos fluxos de trabalho em seus relatórios.
 page-status-flag: nunca ativado
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
 contentOwner: comida
@@ -14,12 +12,12 @@ discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Criação de um relatório com base em segmentos de fluxo de trabalho{#creating-a-report-workflow-segment}
+# Criar um relatório com base em segmentos de fluxo de trabalho{#creating-a-report-workflow-segment}
 
 Depois de criar um fluxo de trabalho e filtrar sua população em públicos-alvo diferentes, você pode medir a eficiência de suas campanhas de marketing com base nos segmentos definidos neste fluxo de trabalho de definição de metas.
 Para direcionar esses segmentos em seus relatórios:
@@ -30,7 +28,7 @@ Para direcionar esses segmentos em seus relatórios:
 
 >[!CAUTION]
 >O contrato de uso de relatório dinâmico deve ser aceito para começar a coletar esses dados.
->Para obter mais informações sobre este contrato, consulte esta [página](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+>For more on this agreement, refer to this [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 ## Etapa 1: Atualizar recurso personalizado Perfis com segmentos{#step-1--update-profiles-custom-resource-segments}
 
@@ -50,7 +48,7 @@ No menu avançado, selecione **[!UICONTROL Administration]** &gt; **[!UICONTROL 
 
    ![](assets/custom_profile_7.png)
 
-1. Clique **[!UICONTROL Prepare publication]** e, quando a preparação estiver concluída, clique no **[!UICONTROL Publish]** botão. Para obter mais informações sobre recursos personalizados, consulte esta [página](../../developing/using/updating-the-database-structure.md).
+1. Clique **[!UICONTROL Prepare publication]** e, quando a preparação estiver concluída, clique no **[!UICONTROL Publish]** botão. For more information on custom resource, refer to this [page](../../developing/using/updating-the-database-structure.md).
 
 Agora você pode começar a criar seu fluxo de trabalho com códigos de segmento.
 
@@ -71,7 +69,7 @@ Primeiro, é necessário criar um fluxo de trabalho com população direcionada 
 
    ![](assets/report_segment_1.png)
 
-1. Adicione uma **[!UICONTROL Segmentation]** atividade para dividir os resultados da consulta em duas populações direcionadas. Para obter mais informações sobre segmentação, consulte esta [página](../../automating/using/targeting-data.md#segmenting-data).
+1. Adicione uma **[!UICONTROL Segmentation]** atividade para dividir os resultados da consulta em duas populações direcionadas. For more on segmentation, refer to this [page](../../automating/using/targeting-data.md#segmenting-data).
 
 1. Clique duas vezes na **[!UICONTROL Segmentation]** atividade para configurá-la. Edite o primeiro segmento clicando em **[!UICONTROL Edit properties]**.
 
@@ -94,9 +92,9 @@ Primeiro, é necessário criar um fluxo de trabalho com população direcionada 
 
    ![](assets/report_segment_3.png)
 
-1. Personalize suas entregas dependendo das diferentes populações-alvo. Para obter mais informações sobre a criação de email, consulte esta [página](../../designing/using/overview.md).
+1. Personalize suas entregas dependendo das diferentes populações-alvo. For more on email creation, refer to this [page](../../designing/using/overview.md).
 
-1. Salve o fluxo de trabalho.
+1. Salve o workflow.
 
 1. Clique **[!UICONTROL Start]** quando seu fluxo de trabalho estiver pronto.
 
