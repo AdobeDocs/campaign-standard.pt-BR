@@ -1,8 +1,6 @@
 ---
 title: '"Caso de uso do fluxo de trabalho: Criando uma entrega semanal"'
-seo-title: '"Caso de uso do fluxo de trabalho: Criando uma entrega semanal"'
 description: '"Caso de uso do fluxo de trabalho: Criando uma entrega semanal"'
-seo-description: '"Caso de uso do fluxo de trabalho: Criando uma entrega semanal"'
 page-status-flag: nunca ativado
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: molviato
@@ -15,7 +13,7 @@ context-tags: fluxo de trabalho,use-case,consulta,entrega,agendador
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4a38b1f3d7d6dbf12fa71c819147bf2d91acb0c4
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -55,7 +53,7 @@ Você pode enviar um e-mail todas as terças-feiras a todos os clientes para Ofe
 
 ![](assets/wf-complement-query.png)
 
-## Criação de uma entrega por email{#creating-an-email-delivery}
+## Creating an Email delivery{#creating-an-email-delivery}
 
 1. Em **[!UICONTROL Activities]** &gt; **[!UICONTROL Channels]**, arraste e solte um **[!UICONTROL Email delivery]**.
 1. Clique na atividade e selecione ![](assets/edit_darkgrey-24px.png) para editar.
