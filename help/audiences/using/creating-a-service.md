@@ -1,8 +1,6 @@
 ---
-title: Criação de um serviço
-seo-title: Criação de um serviço
-description: Criação de um serviço
-seo-description: Saiba como criar seu primeiro serviço e configurá-lo para enviar confirmações por email aos seus assinantes.
+title: Criar um serviço
+description: Saiba como criar seu primeiro serviço e configurá-lo para enviar confirmações por email aos seus assinantes.
 page-status-flag: nunca ativado
 uuid: 0d95d852-0f22-4b7b-b301-8fb4844c3ca2
 contentOwner: molviato
@@ -15,12 +13,12 @@ context-tags: serviço,assistente;serviço,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 60424543028fa4df548d6d5bcfb1e9acc4131132
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Criação de um serviço{#creating-a-service}
+# Criar um serviço{#creating-a-service}
 
 Para poder gerenciar assinaturas, é necessário criar um serviço e configurá-lo. A configuração de um novo serviço permite especificar as confirmações de email que os perfis receberão ao se inscreverem ou cancelarem a assinatura do serviço. Você também definirá as páginas iniciais de assinatura e cancelamento de assinatura vinculadas ao serviço. Por exemplo, um link de assinatura de serviço inserido em um email direcionará automaticamente o perfil para a página inicial de assinatura especificada no serviço.
 
