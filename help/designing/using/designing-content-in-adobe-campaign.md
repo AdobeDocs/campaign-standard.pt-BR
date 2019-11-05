@@ -1,8 +1,6 @@
 ---
 title: Criar conteúdo no Adobe Campaign
-seo-title: Criar conteúdo no Adobe Campaign
-description: Criar conteúdo no Adobe Campaign
-seo-description: Saiba mais sobre todos os elementos que você pode definir em seu conteúdo com o Adobe Campaign.
+description: Saiba mais sobre todos os elementos que você pode definir em seu conteúdo com o Adobe Campaign.
 page-status-flag: nunca ativado
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: molviato
@@ -14,12 +12,12 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec65
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Designer de email da campanha{#designing-content-in-adobe-campaign}
+# Designer de email do Campaign{#designing-content-in-adobe-campaign}
 
 Depois de criar um email no Adobe Campaign, é necessário definir o conteúdo.
 
@@ -43,7 +41,7 @@ Aprimore suas mensagens e páginas iniciais com links e imagens. Consulte [Inser
 
 **Tópicos relacionados**:
 
-* [Criação de um email](../../channels/using/creating-an-email.md)
+* [Criação de um de email](../../channels/using/creating-an-email.md)
 * [Criação de uma página de aterrissagem](../../channels/using/designing-a-landing-page.md)
-* [Criando uma mensagem SMS](../../channels/using/creating-an-sms-message.md)
+* [Criar uma mensagem SMS](../../channels/using/creating-an-sms-message.md)
 * [Criação e envio de notificações por push](../../channels/using/preparing-and-sending-a-push-notification.md)
