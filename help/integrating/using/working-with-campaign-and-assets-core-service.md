@@ -1,8 +1,6 @@
 ---
 title: Trabalhar com o serviço principal do Campaign e do Assets
-seo-title: Trabalhar com o serviço principal do Campaign e do Assets
-description: Trabalhar com o serviço principal do Campaign e do Assets
-seo-description: Use todos os recursos compartilhados na Adobe Experience Cloud nas mensagens e páginas de aterrissagem do Adobe Campaign graças à integração do serviço principal do Assets.
+description: Use todos os recursos compartilhados na Adobe Experience Cloud nas mensagens e páginas de aterrissagem do Adobe Campaign graças à integração do serviço principal do Assets.
 page-status-flag: nunca ativado
 uuid: 264a1260-33d6-412b-b2c8-0d57ca10d025
 contentOwner: molviato
@@ -14,7 +12,7 @@ discoiquuid: e6fefe10-afd5-4628-8d9b-69eeb38070eb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -29,7 +27,7 @@ Os recursos compartilhados da Adobe Experience Cloud podem ser usados em seus em
 
    ![](assets/dam_insert_image_dce.png)
 
-1. Na janela de seleção que é aberta, selecione uma imagem e, em seguida, confirme.
+1. Na janela de seleção que é aberta, selecione uma imagem e depois confirme.
 
    ![](assets/dam_shared_image_selection.png)
 
