@@ -1,8 +1,6 @@
 ---
 title: Lista de funções
-seo-title: Lista de funções
-description: Lista de funções
-seo-description: Descubra a lista de funções que podem ser atribuídas aos usuários.
+description: Descubra a lista de funções que podem ser atribuídas aos usuários.
 page-status-flag: nunca ativado
 uuid: 128aaf9b-9b7d-49f3-9e1f-72e79a29baa0
 contentOwner: molviato
@@ -15,7 +13,7 @@ context-tags: função,visão geral;função,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c331937dcfef849798f1a5ed693da5f01759a1b8
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
