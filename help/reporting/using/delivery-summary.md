@@ -1,44 +1,42 @@
 ---
-title: Resumo de entrega
-seo-title: Resumo de entrega
-description: Resumo de entrega
-seo-description: Com o resumo de entrega out-of-the-box, saiba mais sobre as estatísticas de entregas, como o número de envios, rejeições e aberturas.
+title: Resumo da entrega
+description: Com o relatório de resumo da entrega pronto para uso, saiba mais sobre as estatísticas de entregas, como número de envios, rejeições e aberturas.
 page-status-flag: nunca ativado
-uuid: 9 f 64 a 430-8 fee -4 c 4 c -96 e 6-2913 f 4 d 6 b 831
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: relatórios
-content-type: reference
+uuid: 9f64a430-8fee-4c4c-96e6-2913f4d6b831
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: relatório
+content-type: referência
 topic-tags: lista de relatórios
-discoiquuid: 536067 df-d 16 d -472 a -850 a -5 fb 7 c 609 d 60 a
-context-tags: Deliverycirculationreport, principal; Campaigncirculationrelatório, principal; Programcirculationreport, Main
+discoiquuid: 536067df-d16d-472a-850a-5fb7c609d60a
+context-tags: deliveryCirculationReport,main;campaignCirculationReport,main;programCirculationReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Delivery summary{#delivery-summary}
+# Resumo da entrega{#delivery-summary}
 
-The **[!UICONTROL Delivery summary]** report details the main information relative to an email, or several emails.
+O **[!UICONTROL Delivery summary]** relatório detalha as informações principais relativas a um e-mail ou vários e-mails.
 
 ![](assets/campaign_reports_1.png)
 
-Cada tabela é representada por números de resumo e gráficos. É possível alterar como os detalhes são mostrados nas respectivas configurações de visualização.
+Cada tabela é representada por números de resumo e gráficos. Você pode alterar a forma como os detalhes são exibidos em suas respectivas configurações de visualização.
 
-The **Delivery statistics** table contains the data available for sent emails, such as:
+A tabela de estatísticas **de** Entrega contém os dados disponíveis para e-mails enviados, como:
 
 * **[!UICONTROL Processed/sent]**: O número total de envios para a entrega.
-* **[!UICONTROL Delivered]**: O número de mensagens enviadas com sucesso, em relação ao número total de mensagens enviadas. Erros levantadas (rejeições) são considerados. No entanto, as reclamações (declarações de spam) e mensagens de saída como "fora do escritório" não são consideradas.
-* **[!UICONTROL Bounces + Errors]**: O número de erros acumulados acumulados durante a entrega e o processamento automático de retorno em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Delivered]**: O número de mensagens enviadas com êxito, em relação ao número total de mensagens enviadas. Os erros levantados (rejeições) são tidos em conta. No entanto, as queixas (declarações de spam) e as mensagens de saída como "fora do escritório" não são levadas em conta.
+* **[!UICONTROL Bounces + Errors]**: O número total de erros acumulados durante a entrega e o processamento automático de retorno em relação ao número total de mensagens enviadas.
 
-The **Open and clicks** table, contains the available data for recipient activity for each delivery, such as:
+A tabela **Abrir e clicar** contém os dados disponíveis para a atividade do destinatário para cada entrega, como:
 
-* **Clique** em: O número de vezes que um conteúdo foi clicado em uma entrega.
+* **Clique**: O número de vezes que um conteúdo foi clicado em uma entrega.
 * **Abrir**: O número de vezes que uma mensagem foi aberta em uma entrega.
-* **Aberturas únicas**: O número de destinatários que abriram a entrega.
-* **Cliques únicos**: O número de destinatários que clicaram em um conteúdo em uma entrega.
+* **Aberturas** exclusivas: O número de destinatários que abriram a entrega.
+* **Cliques**&#x200B;únicos: O número de destinatários que clicaram em um conteúdo em uma entrega.
 
-The **Domain repartition** table displays the status of deliveries according to the recipient's domain.
+A tabela de repartição **de** domínio exibe o status das entregas de acordo com o domínio do destinatário.
