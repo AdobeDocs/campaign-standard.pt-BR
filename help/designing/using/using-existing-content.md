@@ -1,8 +1,6 @@
 ---
 title: 'Criar emails usando conteúdo existente '
-seo-title: 'Criar emails usando conteúdo existente '
-description: 'Criar emails usando conteúdo existente '
-seo-description: Descubra como projetar emails usando conteúdo de email existente no Designer de email.
+description: Descubra como projetar emails usando conteúdo de email existente no Designer de email.
 page-status-flag: nunca ativado
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: molviato
@@ -14,11 +12,11 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fe2f9ef93e87bfd269a3503eb6d8c88461caf694
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
-# Criar usando conteúdo existente {#designing-using-existing-content}
+# Designing using existing content {#designing-using-existing-content}
 
 ## Selecionar um conteúdo existente{#selecting-an-existing-content}
 
@@ -53,7 +51,7 @@ Ao criar um email ou uma página inicial, você pode optar por carregar um conte
 
 **Tópicos relacionados:**
 
-* [Criação de um email](../../channels/using/creating-an-email.md)
+* [Criação de um de email](../../channels/using/creating-an-email.md)
 * [Gerenciamento de páginas de aterrissagem](../../channels/using/about-landing-pages.md)
 
 ## Editar conteúdo existente com o Designer de email{#editing-existing-contents-with-the-email-designer}
@@ -164,7 +162,7 @@ Para obter mais informações sobre como converter um email existente em um emai
 
 **Tópico** relacionado:
 
-* [Criação de um email](../../channels/using/creating-an-email.md)
+* [Criação de um de email](../../channels/using/creating-an-email.md)
 * [Vídeo de introdução ao Email Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=por_br)
 * [Criar um conteúdo de email do zero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
