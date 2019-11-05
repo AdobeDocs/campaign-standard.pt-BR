@@ -1,8 +1,6 @@
 ---
-title: Sobre notificações por push
-seo-title: Sobre notificações por push
-description: Sobre notificações por push
-seo-description: Descubra as principais especificidades do canal de notificação por push no Adobe Campaign.
+title: Sobre as notificações por push
+description: Descubra as principais especificidades do canal de notificação por push no Adobe Campaign.
 page-status-flag: nunca ativado
 uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
 contentOwner: molviato
@@ -15,12 +13,12 @@ context-tags: mobileApp,visão geral
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Sobre notificações por push{#about-push-notifications}
+# Sobre as notificações por push{#about-push-notifications}
 
 >[!CAUTION]
 >
