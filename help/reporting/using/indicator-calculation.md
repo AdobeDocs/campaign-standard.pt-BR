@@ -1,228 +1,226 @@
 ---
 title: Cálculo do indicador
-seo-title: Cálculo do indicador
-description: Cálculo do indicador
-seo-description: Entenda os resultados dos seus relatórios com uma lista de cada fórmula de métrica.
+description: Entenda os resultados de seus relatórios com uma lista das fórmulas de cada métrica.
 page-status-flag: nunca ativado
-uuid: dfbc 9 d 7 e -62 db -4 e 77-bb 8 e -0 ac 826 ec 7333
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: relatórios
-content-type: reference
-topic-tags: about-reporting
-discoiquuid: 45 b 11631-6 b 32-4074-8 c 8 d-affd 06407810
+uuid: dfbc9d7e-62db-4e77-bb8e-0ac826ec7333
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: relatório
+content-type: referência
+topic-tags: relatórios sobre
+discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Indicator calculation{#indicator-calculation}
+# Cálculo do indicador{#indicator-calculation}
 
-As tabelas abaixo fornecem a você a lista de indicadores usados em diferentes relatórios e sua fórmula de cálculo, dependendo do tipo de entrega.
+As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatórios e suas fórmulas de cálculo, dependendo do tipo de entrega.
 
-## Email delivery {#email-delivery}
+## Entrega por email {#email-delivery}
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Rótulo</strong><br /> </th> 
-   <th> <strong>Nome do campo</strong><br /> </th> 
-   <th> <strong>Fórmula de cálculo do indicador</strong><br /> </th> 
+   <th> <strong>Etiqueta</strong><br /> </th> 
+   <th> <strong>Nome do campo</strong> <br /> </th> 
+   <th> <strong>Fórmula do cálculo de indicador</strong> <br /> </th> 
    <th> <strong>Comentários</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Account disabled<br /> </td> 
+   <td> Conta desabilitada<br /> </td> 
    <td> @disabled<br /> </td> 
    <td> count(@failureReason=4)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Blacklisted<br /> </td> 
+   <td> Lista negra<br /> </td> 
    <td> @blacklisted<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Blacklisted rate<br /> </td> 
+   <td> Taxa da lista negra<br /> </td> 
    <td> @rateBlacklisted<br /> </td> 
-   <td> @blacklisted/@sent<br /> </td> 
-   <td> Denominator for rate calculation is based on Sent count (Delivered + Bounces).<br /> </td> 
+   <td> @blacklisted/@send<br /> </td> 
+   <td> O denominador para cálculo de taxa é baseado na contagem de Enviados (Entregues + Rejeições).<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounces + Errors<br /> </td> 
+   <td> Rejeições + Erros<br /> </td> 
    <td> @bounces<br /> </td> 
    <td> count(@status=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Bounce + Error rate<br /> </td> 
+   <td> Salto + Taxa de erro<br /> </td> 
    <td> @rateBounces<br /> </td> 
-   <td> @bounces/@sent<br /> </td> 
+   <td> @bounces/@send<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> Clique em<br /> </td> 
    <td> @clicks<br /> </td> 
-   <td> count(@trackingUrlType=1 or 10 or 11)<br /> </td> 
+   <td> count(@trackingUrlType=1 ou 10 ou 11)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Click through rate<br /> </td> 
+   <td> Taxa de cliques<br /> </td> 
    <td> @clickthrough<br /> </td> 
-   <td> @uniqueclicks/@delivered<br /> </td> 
-   <td> Denominator for rate calculation is based on Delivered only.<br /> </td> 
+   <td> @uniqueclicks/@entregue<br /> </td> 
+   <td> O denominador para cálculo de taxa se baseia somente em Entregue.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered<br /> </td> 
+   <td> Entregue<br /> </td> 
    <td> @delivered<br /> </td> 
    <td> count(@status=1)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Delivered rate<br /> </td> 
+   <td> Taxa entregue<br /> </td> 
    <td> @rateDelivered<br /> </td> 
-   <td> @delivered/@sent<br /> </td> 
-   <td> Denominator for rate calculation is based on Sent count (Delivered + Bounces).<br /> </td> 
+   <td> @entrega/@enviado<br /> </td> 
+   <td> O denominador para cálculo de taxa é baseado na contagem de Enviados (Entregues + Rejeições).<br /> </td> 
   </tr> 
   <tr> 
-   <td> Hard bounces<br /> </td> 
+   <td> Devoluções permanentes<br /> </td> 
    <td> @hardBounces<br /> </td> 
    <td> count(@failureType=2 AND @failureReason=8)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Hard bounces rate<br /> </td> 
+   <td> Taxa de retornos rígidos<br /> </td> 
    <td> @rateHardBounces<br /> </td> 
-   <td> @hardBounces/@sent<br /> </td> 
-   <td> Denominator for rate calculation is based on Sent count (Delivered + Bounces).<br /> </td> 
+   <td> @hardBounces/@send<br /> </td> 
+   <td> O denominador para cálculo de taxa é baseado na contagem de Enviados (Entregues + Rejeições).<br /> </td> 
   </tr> 
   <tr> 
-   <td> Invalid domain<br /> </td> 
+   <td> Domínio inválido<br /> </td> 
    <td> @invalidDomain<br /> </td> 
    <td> count(@failureReason=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Mailbox full<br /> </td> 
+   <td> Caixa de entrada cheia<br /> </td> 
    <td> @mailBoxFull<br /> </td> 
    <td> count(@failureReason=5)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Mirror page<br /> </td> 
+   <td> Página de espelhamento<br /> </td> 
    <td> @mirrorPage<br /> </td> 
    <td> count(@trackingUrlType=6)<br /> </td> 
-   <td> Denominator for rate calculation is based on Delivered only.<br /> </td> 
+   <td> O denominador para cálculo de taxa se baseia somente em Entregue.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Mirror page rate<br /> </td> 
+   <td> Taxa de páginas espelhadas<br /> </td> 
    <td> @rateMirrorPage<br /> </td> 
-   <td> @mirrorPage/@delivered<br /> </td> 
+   <td> @mirrorPage/@entregue<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Not connected<br /> </td> 
+   <td> Não conectado<br /> </td> 
    <td> @notConnected<br /> </td> 
    <td> count(@failureReason=6)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Open<br /> </td> 
+   <td> Abertura<br /> </td> 
    <td> @opens<br /> </td> 
    <td> count(@trackingUrlType=2 + unique(@trackingUrlType=1,2,3,6,10,11) - unique(@trackingUrlType=2))<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Open rate<br /> </td> 
+   <td> Taxa aberta<br /> </td> 
    <td> @rateOpens<br /> </td> 
-   <td> @opens/@delivered<br /> </td> 
-   <td> Denominator for rate calculation is based on Delivered only.<br /> </td> 
+   <td> @abertos/@entregue<br /> </td> 
+   <td> O denominador para cálculo de taxa se baseia somente em Entregue.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Quarantine<br /> </td> 
-   <td> @quarantine<br /> </td> 
+   <td> Quarentena<br /> </td> 
+   <td> @quarentena<br /> </td> 
    <td> isQuarantine=true<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Quarantine rate<br /> </td> 
+   <td> Taxa de quarentena<br /> </td> 
    <td> @rateQuarantine<br /> </td> 
-   <td> @quarantine/@sent<br /> </td> 
-   <td> Denominator for rate calculation is based on Sent count (Delivered + Bounces).<br /> </td> 
+   <td> @quarentena/@enviado<br /> </td> 
+   <td> O denominador para cálculo de taxa é baseado na contagem de Enviados (Entregues + Rejeições).<br /> </td> 
   </tr> 
   <tr> 
-   <td> Refused<br /> </td> 
+   <td> Recusado<br /> </td> 
    <td> @refused<br /> </td> 
    <td> count(@failureReason=20)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Rejected<br /> </td> 
+   <td> Rejeitada<br /> </td> 
    <td> @rejected<br /> </td> 
    <td> count(@failureReason=20, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Rejected rate<br /> </td> 
-   <td> @rateRejected<br /> </td> 
-   <td> @rejected/@sent<br /> </td> 
-   <td> Denominator for rate calculation is based on Sent count (Delivered + Bounces).<br /> </td> 
+   <td> Taxa de rejeição<br /> </td> 
+   <td> @rateReject<br /> </td> 
+   <td> @rejeição/@enviado<br /> </td> 
+   <td> O denominador para cálculo de taxa é baseado na contagem de Enviados (Entregues + Rejeições).<br /> </td> 
   </tr> 
   <tr> 
-   <td> Processed/sent<br /> </td> 
+   <td> Processado/enviado<br /> </td> 
    <td> @sent<br /> </td> 
-   <td> @delivered + @bounces<br /> </td> 
+   <td> @entregue + @bounces<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Soft bounce<br /> </td> 
+   <td> Rejeição suave<br /> </td> 
    <td> @softBounces<br /> </td> 
    <td> count(@failureType=1)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Soft bounce rate<br /> </td> 
+   <td> Taxa de rejeição suave<br /> </td> 
    <td> @rateSoftBounces<br /> </td> 
-   <td> @softBounces/@sent<br /> </td> 
-   <td> Denominator for rate calculation is based on Sent count (Delivered + Bounces).<br /> </td> 
+   <td> @softBounces/@send<br /> </td> 
+   <td> O denominador para cálculo de taxa é baseado na contagem de Enviados (Entregues + Rejeições).<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique clicks<br /> </td> 
+   <td> Cliques únicos<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Unique clicks is calculated using ThetaSketch concepts.<br /> </td> 
+   <td> Cliques únicos são calculados usando conceitos de ThetaSketch.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unique opens<br /> </td> 
-   <td> @uniqueopens<br /> </td> 
+   <td> Aberturas exclusivas<br /> </td> 
+   <td> @uniqueopen<br /> </td> 
    <td> unique(@trackingUrlType=1,2,3,6,10,11)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unreachable <br /> </td> 
+   <td> Inacessível <br /> </td> 
    <td> @unreachable<br /> </td> 
    <td> count(@failureReason=3)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unsubscribe<br /> </td> 
+   <td> Cancelar inscrição<br /> </td> 
    <td> @unsubscribes<br /> </td> 
    <td> count(@trackingUrlType=3)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unsubscribe rate<br /> </td> 
+   <td> Taxa de cancelamento de inscrição<br /> </td> 
    <td> @rateUnsubscribes<br /> </td> 
-   <td> @unsubscribes/@delivered<br /> </td> 
-   <td> Denominator for rate calculation is based on Delivered only.<br /> </td> 
+   <td> @unsubscribes/@entregue<br /> </td> 
+   <td> O denominador para cálculo de taxa se baseia somente em Entregue.<br /> </td> 
   </tr> 
   <tr> 
-   <td> User unknown<br /> </td> 
+   <td> Usuário desconhecido<br /> </td> 
    <td> @unknownUser<br /> </td> 
    <td> count(@failureReason=1)<br /> </td> 
    <td> </td> 
@@ -230,150 +228,150 @@ As tabelas abaixo fornecem a você a lista de indicadores usados em diferentes r
  </tbody> 
 </table>
 
-## Push notification delivery {#push-notification-delivery}
+## Entrega por notificação por push {#push-notification-delivery}
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Rótulo</strong><br /> </th> 
-   <th> <strong>Nome do campo</strong><br /> </th> 
-   <th> <strong>Fórmula de cálculo do indicador</strong><br /> </th> 
+   <th> <strong>Etiqueta</strong><br /> </th> 
+   <th> <strong>Nome do campo</strong> <br /> </th> 
+   <th> <strong>Fórmula do cálculo de indicador</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Processed/sent<br /> </td> 
+   <td> Processado/enviado<br /> </td> 
    <td> @sent<br /> </td> 
-   <td> @count(status=sent)<br /> </td> 
+   <td> @count(status=enviado)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered<br /> </td> 
+   <td> Entregue<br /> </td> 
    <td> @delivered<br /> </td> 
-   <td> @count(status=delivered)<br /> </td> 
+   <td> @count(status=entregue)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered rate<br /> </td> 
+   <td> Taxa entregue<br /> </td> 
    <td> @rateDelivered<br /> </td> 
-   <td> (@delivered/@sent)*100<br /> </td> 
+   <td> (@entregue/@enviado)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounce + Error rate<br /> </td> 
+   <td> Salto + Taxa de erro<br /> </td> 
    <td> @rateBounces<br /> </td> 
-   <td> (@delivered/@sent)*100<br /> </td> 
+   <td> (@entregue/@enviado)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> Open<br /> </td> 
+   <td> Abertura<br /> </td> 
    <td> @opens<br /> </td> 
    <td> @count(status=open)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Open rate<br /> </td> 
+   <td> Taxa aberta<br /> </td> 
    <td> @rateOpens<br /> </td> 
-   <td> (@opens/@delivered)*100<br /> </td> 
+   <td> (@open/@entregue)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique opens<br /> </td> 
-   <td> @uniqueopens<br /> </td> 
-   <td> Unique opens is calculated using ThetaSketch concepts of unique RecipientIds.<br /> </td> 
+   <td> Aberturas exclusivas<br /> </td> 
+   <td> @uniqueopen<br /> </td> 
+   <td> As aberturas exclusivas são calculadas usando conceitos ThetaSketch de RecipientIds exclusivos.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Impressions<br /> </td> 
-   <td> @impressions<br /> </td> 
-   <td> @count(status=delivered)<br /> </td> 
+   <td> Impressões<br /> </td> 
+   <td> @impressões<br /> </td> 
+   <td> @count(status=entregue)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique impressions<br /> </td> 
-   <td> @uniqueimpressions<br /> </td> 
+   <td> Impressões exclusivas<br /> </td> 
+   <td> @uniqueimpressões<br /> </td> 
    <td> @unique(@count(status=view))<br /> </td> 
   </tr> 
   <tr> 
    <td> Clique em<br /> </td> 
    <td> @clicks<br /> </td> 
-   <td> @count(status=interact)<br /> </td> 
+   <td> @count(status=interagir)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique clicks<br /> </td> 
+   <td> Cliques únicos<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Unique clicks is calculated using ThetaSketch concepts.<br /> </td> 
+   <td> Cliques únicos são calculados usando conceitos de ThetaSketch.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Click through rate<br /> </td> 
+   <td> Taxa de cliques<br /> </td> 
    <td> @clickthrough<br /> </td> 
-   <td> (@interact/@delivered)*100<br /> </td> 
+   <td> (@interact/@entregue)*100<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## In-App delivery {#in-app-delivery}
+## Entrega no aplicativo {#in-app-delivery}
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Rótulo</strong><br /> </th> 
-   <th> <strong>Nome do campo</strong><br /> </th> 
-   <th> <strong>Fórmula de cálculo do indicador</strong><br /> </th> 
+   <th> <strong>Etiqueta</strong><br /> </th> 
+   <th> <strong>Nome do campo</strong> <br /> </th> 
+   <th> <strong>Fórmula do cálculo de indicador</strong> <br /> </th> 
    <th> <strong>Comentários</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Processed/sent<br /> </td> 
+   <td> Processado/enviado<br /> </td> 
    <td> @sent<br /> </td> 
-   <td> @count(status=sent)<br /> </td> 
-   <td> sent=delivered<br /> </td> 
+   <td> @count(status=enviado)<br /> </td> 
+   <td> send=entregue<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered<br /> </td> 
+   <td> Entregue<br /> </td> 
    <td> @delivered<br /> </td> 
-   <td> @count(status=delivered)<br /> </td> 
-   <td> delivered=sent<br /> </td> 
+   <td> @count(status=entregue)<br /> </td> 
+   <td> entregue=enviado<br /> </td> 
   </tr> 
   <tr> 
-   <td> Impressions<br /> </td> 
-   <td> @impressions<br /> </td> 
-   <td> @count(status=view) or @count(status=button 1 click + button 2 click + dismissals)<br /> </td> 
+   <td> Impressões<br /> </td> 
+   <td> @impressões<br /> </td> 
+   <td> @count(status=view) ou @count(status=botão 1 clique + botão 2 clique + demissões)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unique impressions<br /> </td> 
-   <td> @uniqueimpressions<br /> </td> 
+   <td> Impressões exclusivas<br /> </td> 
+   <td> @uniqueimpressões<br /> </td> 
    <td> @unique(@count(status=view))<br /> </td> 
-   <td> For <span class="uicontrol">Target users based on their Campaign profile (inAppProfile)</span> template, user = Recipient Id.<br /> Para <span class="uicontrol">direcionar todos os usuários de um aplicativo móvel (inappbroadcast)</span> e <span class="uicontrol">usuários do Target com base em</span> seus modelos de perfil móvel (inapp), user = MC ID ou equivalentes que representam uma combinação exclusiva de usuário, aplicativo móvel e dispositivo.<br /> </td> 
+   <td> Para usuários do <span class="uicontrol">Target com base em seu modelo de perfil de Campanha (inAppProfile)</span> , usuário = ID do destinatário.<br /> Para <span class="uicontrol">direcionar todos os usuários de um aplicativo móvel (inAppBroadcast)</span> e usuários do <span class="uicontrol">Target com base em seus modelos de perfil móvel (inApp)</span> , usuário = MC Id ou equivalente que representa uma combinação exclusiva de usuário, aplicativo móvel e dispositivo.<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-App clicks <br /> </td> 
+   <td> Cliques no aplicativo <br /> </td> 
    <td> @inappclicks<br /> </td> 
    <td> @count (status=click)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unique In-App clicks<br /> </td> 
+   <td> Cliques únicos no aplicativo<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
-   <td> @unique(@count (status=clicks))<br /> </td> 
-   <td> For <span class="uicontrol">Target users based on their Campaign profile (inAppProfile)</span> template, user = Recipient Id.<br /> Para <span class="uicontrol">direcionar todos os usuários de um aplicativo móvel (inappbroadcast)</span> e <span class="uicontrol">usuários do Target com base em</span> seus modelos de perfil móvel (inapp), user = MC ID ou equivalentes que representam uma combinação exclusiva de usuário, aplicativo móvel e dispositivo.<br /> </td> 
+   <td> @unique(@count (status=cliques))<br /> </td> 
+   <td> Para usuários do <span class="uicontrol">Target com base em seu modelo de perfil de Campanha (inAppProfile)</span> , usuário = ID do destinatário.<br /> Para <span class="uicontrol">direcionar todos os usuários de um aplicativo móvel (inAppBroadcast)</span> e usuários do <span class="uicontrol">Target com base em seus modelos de perfil móvel (inApp)</span> , usuário = MC Id ou equivalente que representa uma combinação exclusiva de usuário, aplicativo móvel e dispositivo.<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-App click through rate<br /> </td> 
+   <td> Taxa de cliques no aplicativo<br /> </td> 
    <td> @inappclickthrough<br /> </td> 
-   <td> Total clicks on Button 1 or Button 2/total impressions*100<br /> </td> 
+   <td> Total de cliques no Botão 1 ou no Botão 2/total de impressões*100<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> In-App dismissal<br /> </td> 
-   <td> @dismissal<br /> </td> 
+   <td> Demissão no aplicativo<br /> </td> 
+   <td> @demissão<br /> </td> 
    <td> @count (status=close)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unique In-App dismissals<br /> </td> 
-   <td> @uniquedismissal<br /> </td> 
+   <td> Despedimentos únicos no aplicativo<br /> </td> 
+   <td> @uniquedismiss<br /> </td> 
    <td> @unique(@count (status=close))<br /> </td> 
-   <td> For <span class="uicontrol">Target users based on their Campaign profile (inAppProfile)</span> template, user = Recipient Id.<br /> Para <span class="uicontrol">direcionar todos os usuários de um aplicativo móvel (inappbroadcast)</span> e <span class="uicontrol">usuários do Target com base em</span> seus modelos de perfil móvel (inapp), user = MC ID ou equivalentes que representam uma combinação exclusiva de usuário, aplicativo móvel e dispositivo.<br /> </td> 
+   <td> Para usuários do <span class="uicontrol">Target com base em seu modelo de perfil de Campanha (inAppProfile)</span> , usuário = ID do destinatário.<br /> Para <span class="uicontrol">direcionar todos os usuários de um aplicativo móvel (inAppBroadcast)</span> e usuários do <span class="uicontrol">Target com base em seus modelos de perfil móvel (inApp)</span> , usuário = MC Id ou equivalente que representa uma combinação exclusiva de usuário, aplicativo móvel e dispositivo.<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-App dismissal rate<br /> </td> 
-   <td> @dismissalrate<br /> </td> 
-   <td> Total close/total impressions*100<br /> </td> 
+   <td> Taxa de demissão no aplicativo<br /> </td> 
+   <td> @desmissalrate<br /> </td> 
+   <td> Total de impressões de fechamento/total*100<br /> </td> 
    <td> </td> 
   </tr> 
  </tbody> 
