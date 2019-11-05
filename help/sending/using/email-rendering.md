@@ -1,8 +1,6 @@
 ---
 title: Renderização de email
-seo-title: Renderização de email
-description: Renderização de email
-seo-description: Descubra o recurso de renderização de email.
+description: Descubra o recurso de renderização de email.
 page-status-flag: nunca ativado
 uuid: c423e237-ad39-4797-ac3a-4320894a8f99
 contentOwner: molviato
@@ -14,7 +12,7 @@ discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -66,7 +64,7 @@ O relatório de renderização de email dedicado é exibido. Consulte Descriçã
 
 **Tópicos relacionados**:
 
-* [Criação de um email](../../channels/using/creating-an-email.md)
+* [Criação de um de email](../../channels/using/creating-an-email.md)
 * [Gerenciamento de perfis de teste e envio de provas](../../sending/using/managing-test-profiles-and-sending-proofs.md)
 * [Editor de consulta](../../automating/using/editing-queries.md#about-query-editor)
 
