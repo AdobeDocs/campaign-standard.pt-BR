@@ -1,8 +1,6 @@
 ---
 title: Carregar arquivo
-seo-title: Carregar arquivo
-description: Carregar arquivo
-seo-description: A atividade Carregar arquivo permite importar dados em um formulário estruturado para usar esses dados no Adobe Campaign.
+description: A atividade Carregar arquivo permite importar dados em um formulário estruturado para usar esses dados no Adobe Campaign.
 page-status-flag: nunca ativado
 uuid: 69af12cc-6f82-4977-9f53-aa7bc26f5d7e
 contentOwner: molviato
@@ -15,7 +13,7 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c455e965d21996ffbadeddf336c6709ce8ee8f3
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
