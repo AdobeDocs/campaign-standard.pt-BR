@@ -1,8 +1,6 @@
 ---
 title: Atualização da estrutura do banco de dados
-seo-title: Atualização da estrutura do banco de dados
-description: Atualização da estrutura do banco de dados
-seo-description: Saiba como atualizar o banco de dados do Adobe Campaign.
+description: Saiba como atualizar o banco de dados do Adobe Campaign.
 page-status-flag: nunca ativado
 uuid: 6c802f4f-d298-4ca4-acdb-09f2ad3865b9
 contentOwner: molviato
@@ -15,7 +13,7 @@ context-tags: implantação,main;eventCusResource,visão geral
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -34,7 +32,7 @@ Para aplicar as alterações realizadas nos recursos, é necessário executar um
 
 >[!NOTE]
 >
->Se um campo de um recurso personalizado usado em um evento for modificado ou excluído, o evento correspondente será automaticamente despublicado. Consulte [Configuração de mensagens](../../administration/using/configuring-transactional-messaging.md)transacionais.
+>Se um campo de um recurso personalizado usado em um evento for modificado ou excluído, o evento correspondente será automaticamente despublicado. See [Configuring Transactional messaging](../../administration/using/configuring-transactional-messaging.md).
 
 1. No menu avançado, por meio do logotipo do Adobe Campaign, selecione **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** e, em seguida, **[!UICONTROL Publishing]**.
 1. Por padrão, a opção **[!UICONTROL Determine modifications since the last publication]** está marcada, o que significa que somente as alterações realizadas desde a última atualização serão aplicadas.
