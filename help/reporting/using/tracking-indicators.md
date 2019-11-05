@@ -1,41 +1,39 @@
 ---
 title: Indicadores de rastreamento
-seo-title: Indicadores de rastreamento
-description: Indicadores de rastreamento
-seo-description: Com o relatório de rastreamento out-of-the-box, saiba mais sobre o comportamento dos clientes quando eles recebem mensagens de email.
+description: Com os indicadores de rastreamento prontos para uso, saiba mais sobre o comportamento de seus clientes quando recebem mensagens de email.
 page-status-flag: nunca ativado
-uuid: b 2 df 8846-4 caf -45 e 6-a 8 ff-ee 37655383 c 2
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: relatórios
-content-type: reference
+uuid: b2df8846-4caf-45e6-a8ff-ee37655383c2
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: relatório
+content-type: referência
 topic-tags: lista de relatórios
-discoiquuid: 64 abc 885-2 igu-423 f-bf 5 b -5 a 623 a 16 ca 6 d
-context-tags: Deliverytrackingreports, principal; Campaigntrackingrelatório, principal; Programtrackingreport, principal
+discoiquuid: 64abc885-2aec-423f-bf5b-5a623a16ca6d
+context-tags: deliveryTrackingReports,main;campaignTrackingReport,main;programTrackingReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Tracking indicators{#tracking-indicators}
+# Indicadores de rastreamento{#tracking-indicators}
 
-The **[!UICONTROL Tracking indicators]** report contains the key indicators for tracking behavior after email messages are received.
+O **[!UICONTROL Tracking indicators]** relatório contém os principais indicadores para rastrear o comportamento após o recebimento de mensagens de email.
 
 >[!NOTE]
 >
->Para acessar esses dados, é necessário ativar o rastreamento durante a preparação de uma entrega.
+>Para acessar esses dados, o rastreamento deve ser ativado ao preparar uma entrega.
 
 ![](assets/delivery_reports_2.png)
 
-The **[!UICONTROL Tracking indicators]** table and **Top 5 deliveries** graph contain the available data for email tracking, such as:
+A **[!UICONTROL Tracking indicators]** tabela e o gráfico **Principais 5 entregas** contêm os dados disponíveis para o rastreamento de email, como:
 
-* **[!UICONTROL Delivered]**: O número de mensagens enviadas com sucesso. Erros levantadas (rejeições) são considerados. no entanto, as reclamações (declarações de spam) e mensagens de saída como "fora do escritório" não são consideradas.
+* **[!UICONTROL Delivered]**: O número de mensagens enviadas com êxito. Os erros levantados (rejeições) são tidos em conta. no entanto, as queixas (declarações de spam) e as mensagens de saída como "fora do escritório" não são levadas em conta.
 * **Abrir**: O número de vezes que uma mensagem foi aberta em uma entrega.
-* **Clique** em: O número de vezes que o conteúdo foi clicado em uma entrega.
-* **Cancelar inscrição**: O número de cliques no link de assinatura.
-* **Spam:** O número de destinatários que declararam um email como spam.
-* **Página espelhada**: O número de cliques no link da página espelhada.
+* **Clique**: O número de vezes que o conteúdo foi clicado em uma entrega.
+* **Inscrito**: O número de cliques no link de assinatura.
+* **** Spam: O número de destinatários que declararam um email como spam.
+* **Página** de espelho: O número de cliques no link da página espelhada.
 
