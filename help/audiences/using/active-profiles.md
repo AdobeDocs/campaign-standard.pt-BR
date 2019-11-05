@@ -1,33 +1,31 @@
 ---
 title: Perfis ativos
-seo-title: Perfis ativos
-description: Perfis ativos
-seo-description: Você pode acessar um relatório dedicado nas métricas do cliente e visualizar perfis ativos no banco de dados da campanha.
+description: Você pode acessar um relatório dedicado sobre métricas do cliente e visualizar perfis ativos no banco de dados do Campaign.
 page-status-flag: nunca ativado
-uuid: ee 8 ac 493-c 297-49 ca-aed 4-3976 d 8 a 685 a 4
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: públicos-alvo
-content-type: reference
-topic-tags: gerenciamento de perfis
-discoiquuid: e 029213 f -0 b 65-41 b 1-8 adf -34 fa 813 b 0 c 70
+uuid: ee8ac493-c297-49ca-aed4-3976d8a685a4
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: referência
+topic-tags: managing-files
+discoiquuid: e029213f-0b65-41b1-8adf-34fa813b0c70
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Active profiles{#active-profiles}
+# Perfis ativos{#active-profiles}
 
-O Adobe Campaign fornece um relatório que exibe o número de perfis ativos. Este relatório é apenas informativo, não afeta diretamente o faturamento. Only administrators can access this report, under **[!UICONTROL Administration > Customer metrics]**.
+ O Adobe Campaign fornece um relatório que exibe o número de perfis ativos. Este relatório é apenas informativo, não tem impacto direto na cobrança. Somente os administradores podem acessar este relatório, em **[!UICONTROL Administration > Customer metrics]**.
 
 ![](assets/audience_active_profiles1.png)
 
-The **[!UICONTROL Billing]** technical workflow generates every month a report containing the number of active profiles that were targeted during the last 12-month rolling period.
+O fluxo de trabalho **[!UICONTROL Billing]** técnico gera mensalmente um relatório contendo o número de perfis ativos que foram direcionados durante o último período acumulado de 12 meses.
 
-Os perfis que foram excluídos durante a preparação da entrega (regras de tipologia, quarentena) não são considerados. Um perfil que foi direcionado por várias entregas só será contado uma vez. Na parte inferior do relatório, você encontrará a lista de perfis ativos para cada dimensão de definição de metas.
+Os perfis excluídos durante a preparação da entrega (regras de tipologia, quarentenas) não são levados em consideração. Um perfil que foi visado por várias entregas será contado apenas uma vez. Na parte inferior do relatório, você encontrará a lista de perfis ativos para cada dimensão de definição de metas.
 
 ![](assets/audience_active_profiles2.png)
 
