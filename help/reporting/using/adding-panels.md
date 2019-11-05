@@ -1,8 +1,6 @@
 ---
-title: Adição de painéis
-seo-title: Adição de painéis
-description: Adição de painéis
-seo-description: O relatório dinâmico permite adicionar um painel para filtrar melhor seus dados, dependendo do período de tempo escolhido.
+title: Adicionar painéis
+description: O relatório dinâmico permite adicionar um painel para filtrar melhor seus dados, dependendo do período de tempo escolhido.
 page-status-flag: nunca ativado
 uuid: 8e76e837-5efc-4250-8192-dee1a0bd62fe
 contentOwner: molviato
@@ -14,12 +12,12 @@ discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Adição de painéis{#adding-panels}
+# Adicionar painéis{#adding-panels}
 
 ## Adicionar um painel em branco {#adding-a-blank-panel}
 
