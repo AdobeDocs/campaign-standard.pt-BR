@@ -1,8 +1,6 @@
 ---
 title: Configuração da estrutura de dados do recurso
-seo-title: Configuração da estrutura de dados do recurso
-description: Configuração da estrutura de dados do recurso
-seo-description: Saiba como configurar a estrutura de dados.
+description: Saiba como configurar a estrutura de dados.
 page-status-flag: nunca ativado
 uuid: 60fe80c0-9df6-4808-a432-60a1977216ea
 contentOwner: molviato
@@ -15,7 +13,7 @@ context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
