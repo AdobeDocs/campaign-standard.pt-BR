@@ -1,8 +1,6 @@
 ---
-title: Assinaturas de monitoramento
-seo-title: Assinaturas de monitoramento
-description: Assinaturas de monitoramento
-seo-description: Saiba como rastrear seus assinantes e medir o sucesso de seus serviços usando painéis e relatórios.
+title: Monirotamento de assinaturas
+description: Saiba como rastrear seus assinantes e medir o sucesso de seus serviços usando painéis e relatórios.
 page-status-flag: nunca ativado
 uuid: b0d8eb80-fa51-4518-a5e6-56de4046f6ff
 contentOwner: molviato
@@ -14,12 +12,12 @@ discoiquuid: 36750524-eb54-47e8-aa1b-ae0b94f58cb1
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Assinaturas de monitoramento{#monitoring-subscriptions}
+# Monirotamento de assinaturas{#monitoring-subscriptions}
 
 Use a interface do Adobe Campaign para rastrear seus assinantes e medir o sucesso de seus serviços.
 
