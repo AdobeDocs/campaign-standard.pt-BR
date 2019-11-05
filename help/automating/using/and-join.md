@@ -1,49 +1,47 @@
 ---
-title: E ingressar e
-seo-title: E ingressar e
-description: E ingressar e
-seo-description: A atividade de junção E permite sincronizar várias ramificações de execução de um fluxo de trabalho.
+title: AND-join
+description: A atividade de junção AND permite sincronizar várias ramificações de execução de um fluxo de trabalho.
 page-status-flag: nunca ativado
-uuid: 9 b 54 fd 4 c -9915-400 f-a 494-74 e 52 c 329 b 8 a
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automatizando
-content-type: reference
-topic-tags: execução-atividades
-discoiquuid: 4 b 55 efa 2-652 e -4493-bfa 7-eaee 59 b 383 ca
-context-tags: integração, principal
+uuid: 9b54fd4c-9915-400f-a494-74e52c329b8a
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: automatização
+content-type: referência
+topic-tags: atividades de execução
+discoiquuid: 4b55efa2-652e-4493-bfa7-eaee59b383ca
+context-tags: andjoin,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e384a0cef325bc01eb5ea050b0f3d926aea9a88f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
 # AND-join{#and-join}
 
-## Description {#description}
+## Descrição {#description}
 
 ![](assets/and_join.png)
 
-The **[!UICONTROL AND-join]** activity allows you to synchronize multiple execution branches of a workflow.
+A **[!UICONTROL AND-join]** atividade permite sincronizar várias ramificações de execução de um fluxo de trabalho.
 
-## Context of use {#context-of-use}
+## Contexto de utilização {#context-of-use}
 
-The **[!UICONTROL AND-join]** activity only triggers its outbound transition once all the inbound transitions are activated, in other words, once all of the preceding activities have finished.
+A **[!UICONTROL AND-join]** atividade aciona sua transição de saída somente depois que todas as transições de entrada forem ativadas, em outras palavras, depois que todas as atividades anteriores tiverem sido concluídas.
 
-## Configuration {#configuration}
+## Configuração {#configuration}
 
-1. Solte várias atividades, como consultas no seu fluxo de trabalho para formar pelo menos duas ramificações de execução diferentes.
-1. Drag and drop an **[!UICONTROL AND-join]** activity into your workflow.
-1. Conecte-o depois das duas ramificações diferentes que você gostaria de sincronizar.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Selecione o conjunto principal a ser mantido na transição de saída. Se você não selecionar um conjunto, uma população aleatória será enviada da atividade.
-1. Confirme a configuração da atividade e salve seu fluxo de trabalho.
+1. Solte várias atividades, como consultas, em seu fluxo de trabalho para formar pelo menos duas ramificações de execução diferentes.
+1. Arraste e solte uma **[!UICONTROL AND-join]** atividade em seu fluxo de trabalho.
+1. Conecte-o depois das duas ramificações diferentes que você deseja sincronizar.
+1. Selecione a atividade e abra-a usando o ![](assets/edit_darkgrey-24px.png) botão das ações rápidas que aparecem.
+1. Selecione o conjunto principal a ser mantido na transição de saída. Se você não selecionar nenhum conjunto, uma população aleatória será enviada da atividade.
+1. Confirme a configuração da atividade e salve o fluxo de trabalho.
 
-## Example {#example}
+## Exemplo {#example}
 
-The following example shows two workflow branches before they are joined with the **[!UICONTROL AND-join]** activity. File extraction can only take place when the three inbound transitions of the **[!UICONTROL AND-join]** activity are enabled.
+O exemplo a seguir mostra duas ramificações de fluxo de trabalho antes de serem unidas à **[!UICONTROL AND-join]** atividade. A extração de arquivos só pode ocorrer quando as três transições de entrada da **[!UICONTROL AND-join]** atividade estiverem ativadas.
 
 ![](assets/wkf_and-join_example.png)
 
