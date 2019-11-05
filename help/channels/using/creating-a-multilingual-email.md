@@ -1,8 +1,6 @@
 ---
 title: Criação de um email multilíngue
-seo-title: Criação de um email multilíngue
-description: Criação de um email multilíngue
-seo-description: Siga estas etapas para criar um email multilíngue direcionando destinatários com diferentes idiomas preferenciais.
+description: Siga estas etapas para criar um email multilíngue direcionando destinatários com diferentes idiomas preferenciais.
 page-status-flag: nunca ativado
 uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
 contentOwner: molviato
@@ -14,7 +12,7 @@ discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
