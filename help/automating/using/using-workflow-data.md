@@ -1,36 +1,34 @@
 ---
 title: Uso de dados de fluxo de trabalho
-seo-title: Uso de dados de fluxo de trabalho
-description: Uso de dados de fluxo de trabalho
-seo-description: Saiba mais sobre as diferentes possibilidades de consumir os dados importados ou direcionados.
+description: Saiba mais sobre as diferentes possibilidades de consumir os dados importados ou direcionados.
 page-status-flag: nunca ativado
-uuid: 3 dd 66 aeb -3 a 26-4214-b 6 a 0-242 c 2 b 7 fbc 49
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automatizando
-content-type: reference
-topic-tags: fluxo de trabalho-geral-operação
-discoiquuid: 90 b 250 f 1-f 32 d -4256-83 ea -4 c 0627628610
+uuid: 3dd66aeb-3a26-4214-b6a0-242c2b7fbc49
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: automatização
+content-type: referência
+topic-tags: fluxo de trabalho geral-operação
+discoiquuid: 90b250f1-f32d-4256-83ea-4c0627628610
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Using workflow data{#using-workflow-data}
+# Uso de dados de fluxo de trabalho{#using-workflow-data}
 
 Depois que os dados forem identificados e preparados, eles poderão ser usados nos seguintes contextos:
 
-* The **[!UICONTROL Update data]** activity allows you to perform a mass update on fields in the database.
-* The **[!UICONTROL Save audience]** activity allows you to update an existing audience or create a new audience from the population computed upstream in a workflow. The audiences created or updated from this activity are **List** or **File** audiences. Essa atividade também permite exportar perfis como públicos-alvo/segmentos da Adobe Experience Cloud.
-* The **[!UICONTROL Subscription Services]** activity allows you to take profiles in mass and subscribe them to a service or unsubscribe them from a service.
-* The **[!UICONTROL Extract file]** activity allows you to export data from Adobe Campaign in the form of an external file.
+* A **[!UICONTROL Update data]** atividade permite executar uma atualização em massa nos campos no banco de dados.
+* A **[!UICONTROL Save audience]** atividade permite que você atualize um público existente ou crie um novo público-alvo a partir da população computada upstream em um fluxo de trabalho. Os públicos-alvo criados ou atualizados a partir desta atividade são públicos-alvo da **Lista** ou **Arquivo** . Essa atividade também permite exportar perfis como públicos/segmentos da Adobe Experience Cloud.
+* A **[!UICONTROL Subscription Services]** atividade permite que você pegue perfis em massa e assine-os em um serviço ou cancele sua assinatura de um serviço.
+* A **[!UICONTROL Extract file]** atividade permite exportar dados do Adobe Campaign na forma de um arquivo externo.
 
-Após definir uma meta de perfil, você pode usar várias atividades para criar e enviar entregas:
+Depois de definir uma meta de perfil, você pode usar várias atividades para criar e enviar entregas:
 
-* The **[!UICONTROL Email delivery]** activity allows you to configure sending an email in a workflow. This can be a **single send** email and sent just once, or it can be a **recurring** email.
-* The **[!UICONTROL SMS delivery]** activity allows you to configure sending an SMS in a workflow. This can be a **single send** SMS and sent just once, or it can be a **recurring** SMS.
-* The **[!UICONTROL Mobile app delivery]** activity allows you to configure sending a push notification in a workflow. This can be a **single send** notification and sent just once, or it can be a **recurring** notification.
+* A **[!UICONTROL Email delivery]** atividade permite configurar o envio de um email em um fluxo de trabalho. Pode ser um **único email de envio** e enviado apenas uma vez, ou um email **recorrente** .
+* A **[!UICONTROL SMS delivery]** atividade permite configurar o envio de um SMS em um fluxo de trabalho. Isto pode ser um **único SMS enviado** e enviado apenas uma vez, ou pode ser um SMS **recorrente** .
+* A **[!UICONTROL Mobile app delivery]** atividade permite configurar o envio de uma notificação por push em um fluxo de trabalho. Esta pode ser uma **única notificação de envio** e enviada apenas uma vez, ou pode ser uma notificação **recorrente** .
 
