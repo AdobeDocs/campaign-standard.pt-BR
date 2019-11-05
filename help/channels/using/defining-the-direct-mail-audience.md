@@ -1,8 +1,6 @@
 ---
-title: Definição do público-alvo de mala direta
-seo-title: Definição do público-alvo de mala direta
-description: Definição do público-alvo de mala direta
-seo-description: Saiba como definir a meta para a entrega de mala direta.
+title: Definição do público-alvo do correio direto
+description: Saiba como definir a meta para a entrega de mala direta.
 page-status-flag: nunca ativado
 uuid: f843e368-5c07-4b53-8943-46f7bf45b62b
 contentOwner: molviato
@@ -15,12 +13,12 @@ context-tags: entrega,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Defining the direct mail audience{#defining-the-direct-mail-audience}
+# Definição do público-alvo do correio direto{#defining-the-direct-mail-audience}
 
 Você pode definir o público-alvo no assistente de criação ou clicando na seção **Público-alvo** do painel de entrega.
 
@@ -38,7 +36,7 @@ Para cada perfil direcionado, uma nova linha é adicionada ao arquivo de extraç
 
 ## Adicionar perfis de teste e trapping {#adding-test-and-trap-profiles}
 
-Adicione perfis de teste para que você possa testar seu arquivo com um pequeno número de perfis. Permite criar rapidamente uma amostra de arquivo para testar e validar a estrutura antes de preparar o arquivo real. Consulte [Gerenciamento de perfis de teste e envio de provas](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+Adicione perfis de teste para que você possa testar seu arquivo com um pequeno número de perfis. Permite criar rapidamente uma amostra de arquivo para testar e validar a estrutura antes de preparar o arquivo real. See [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md).
 
 A utilização de armadilhas é essencial para a entrega direta de correio. Eles permitem que você verifique se seu provedor de mala direta está realmente enviando a comunicação e se eles não estão enviando sua lista de clientes para outro provedor. Consulte [Uso de armadilhas](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
 
