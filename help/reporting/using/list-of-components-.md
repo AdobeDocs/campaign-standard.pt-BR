@@ -1,8 +1,6 @@
 ---
 title: 'Lista de componentes '
-seo-title: 'Lista de componentes '
-description: 'Lista de componentes '
-seo-description: Encontre aqui a lista de todos os componentes disponíveis em Relatórios dinâmicos, bem como suas definições.
+description: Encontre aqui a lista de todos os componentes disponíveis em Relatórios dinâmicos, bem como suas definições.
 page-status-flag: nunca ativado
 uuid: a2403806-8df4-4bb1-bac2-2689dc584ae0
 contentOwner: molviato
@@ -14,7 +12,7 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2eecf17e121f51d3e94362304738d0c0e75d2d0
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
