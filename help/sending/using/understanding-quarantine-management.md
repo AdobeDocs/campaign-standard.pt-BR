@@ -1,8 +1,6 @@
 ---
 title: Noções básicas sobre gestão de quarentena
-seo-title: Noções básicas sobre gestão de quarentena
-description: Noções básicas sobre gestão de quarentena
-seo-description: Saiba como otimizar sua capacidade de entrega com o gerenciamento de quarentena.
+description: Saiba como otimizar sua capacidade de entrega com o gerenciamento de quarentena.
 page-status-flag: nunca ativado
 uuid: 3c287865-1ada-4351-b205-51807ff9f7ed
 contentOwner: molviato
@@ -14,7 +12,7 @@ discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
