@@ -1,8 +1,6 @@
 ---
 title: Preparação e envio de uma mensagem no aplicativo
-seo-title: Preparação e envio de uma mensagem no aplicativo
-description: Preparação e envio de uma mensagem no aplicativo
-seo-description: Crie uma mensagem no aplicativo para direcionar seus assinantes do aplicativo com conteúdo específico.
+description: Crie uma mensagem no aplicativo para direcionar seus assinantes do aplicativo com conteúdo específico.
 page-status-flag: nunca ativado
 uuid: a79b0466-8641-46cc-a70f-e4e839587bb2
 contentOwner: molviato
@@ -15,7 +13,7 @@ context-tags: entrega,acionadores,back;delivery,assistente
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -126,7 +124,7 @@ As etapas para criar uma mensagem independente no aplicativo com o Adobe Campaig
 
    ![](assets/inapp_creating_5.png)
 
-1. Edite o conteúdo de sua mensagem e defina as opções avançadas. Consulte [Personalizar uma mensagem](https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html)no aplicativo.
+1. Edite o conteúdo de sua mensagem e defina as opções avançadas. See [Customizing an In-App message](https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html).
 
    ![](assets/inapp_creating_6.png)
 
