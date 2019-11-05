@@ -1,8 +1,6 @@
 ---
 title: Contas externas
-seo-title: Contas externas
-description: Contas externas
-seo-description: Configure contas externas para configurar conexões com sistemas externos, como servidores SFTP.
+description: Configure contas externas para configurar conexões com sistemas externos, como servidores SFTP.
 page-status-flag: nunca ativado
 uuid: 5d2e2e3d-5d1f-4466-97e5-842c50390146
 contentOwner: molviato
@@ -15,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
