@@ -1,8 +1,6 @@
 ---
-title: Descobrindo fluxos de trabalho
-seo-title: Descobrindo fluxos de trabalho
-description: Descobrindo fluxos de trabalho
-seo-description: O Adobe Campaign oferece um ambiente gráfico abrangente que permite que você projete e automatize processos.
+title: Descobrir fluxos de trabalho
+description: O Adobe Campaign oferece um ambiente gráfico abrangente que permite que você projete e automatize processos.
 page-status-flag: nunca ativado
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: molviato
@@ -14,12 +12,12 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Descobrindo fluxos de trabalho{#discovering-workflows}
+# Descobrir fluxos de trabalho{#discovering-workflows}
 
 O Adobe Campaign oferece um ambiente [gráfico abrangente que permite projetar processos](../../automating/using/workflow-interface.md) [](../../automating/using/workflow-operating-principles.md) complexos, incluindo segmentação, execução de campanha, processamento de arquivos, aprovações etc. Os princípios e as melhores práticas são descritos na [presente seção](../../automating/using/building-a-workflow.md).
 
@@ -39,7 +37,7 @@ Os fluxos de trabalho também podem ser acessados pela API do Adobe Campaign Sta
 **Tópicos relacionados:**
 
 * [Princípios operacionais do fluxo de trabalho](../../automating/using/workflow-operating-principles.md)
-* [Sobre importação e exportação de dados](../../automating/using/about-data-import-and-export.md)
+* [Sobre a importação e exportação de dados](../../automating/using/about-data-import-and-export.md)
 * [Caso de uso: Criar uma entrega de email uma vez por semana](../../automating/using/workflow-weekly-offer.md)
 * [Caso de uso: Criação de uma entrega segmentada no local](../../automating/using/workflow-segmentation-location.md)
 * [Caso de uso: Criação de entregas com um complemento](../../automating/using/workflow-created-query-with-complement.md)
