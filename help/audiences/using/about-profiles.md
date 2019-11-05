@@ -1,8 +1,6 @@
 ---
 title: Sobre perfis
-seo-title: Sobre perfis
-description: Sobre perfis
-seo-description: Os contatos são armazenados como perfis no banco de dados do Campaign e atualizados durante todo o ciclo de vida.
+description: Os contatos são armazenados como perfis no banco de dados do Campaign e atualizados durante todo o ciclo de vida.
 page-status-flag: nunca ativado
 uuid: 087f91a4-6e69-488e-9aa0-424d23d396ed
 contentOwner: molviato
@@ -15,7 +13,7 @@ context-tags: destinatário,visão geral
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
