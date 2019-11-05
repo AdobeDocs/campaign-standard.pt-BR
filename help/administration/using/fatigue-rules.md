@@ -1,8 +1,6 @@
 ---
 title: Regras de esgotamento
-seo-title: Regras de esgotamento
-description: Regras de esgotamento
-seo-description: Crie regras de fadiga para gerenciar a comunicação excessiva com perfis.
+description: Crie regras de fadiga para gerenciar a comunicação excessiva com perfis.
 page-status-flag: nunca ativado
 uuid: fa5e3ded-36c2-4f16-b97a-119b85adf679
 contentOwner: molviato
@@ -14,7 +12,7 @@ discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -101,7 +99,7 @@ Os seguintes canais estão disponíveis:
 * Email
 * Móvel
                             (SMS)
-* Mala direta
+* Correio direto
 * Aplicativo móvel: esse canal permite enviar notificações por push para perfis ou assinantes do aplicativo. Se você optar por enviar notificações a perfis, eles serão compatíveis com as regras de fadiga de vários canais.
 
    >[!CAUTION]
