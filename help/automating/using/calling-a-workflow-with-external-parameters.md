@@ -1,8 +1,6 @@
 ---
 title: Chamada de um fluxo de trabalho com parâmetros externos
-seo-title: Chamada de um fluxo de trabalho com parâmetros externos
-description: Chamada de um fluxo de trabalho com parâmetros externos
-seo-description: Esta seção detalha como chamar um fluxo de trabalho com parâmetros externos.
+description: Esta seção detalha como chamar um fluxo de trabalho com parâmetros externos.
 page-status-flag: nunca ativado
 uuid: beccd1b6-8e6d-4504-9152-9ff537459c4a
 contentOwner: molviato
@@ -14,7 +12,7 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -87,7 +85,7 @@ Para configurar a **[!UICONTROL End]** atividade, siga as etapas abaixo:
 
    ![](assets/extsignal_monitoring_3.png)
 
-## Personalização de um fluxo de trabalho com parâmetros externos {#customizing-a-workflow-with-external-parameters}
+## Customizing a workflow with external parameters {#customizing-a-workflow-with-external-parameters}
 
 Depois que o fluxo de trabalho é acionado, os parâmetros são ingeridos nas variáveis de eventos e podem ser usados para personalizar as atividades do fluxo de trabalho.
 
