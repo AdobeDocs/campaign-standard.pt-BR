@@ -1,8 +1,6 @@
 ---
 title: Criação de um email de teste A/B
-seo-title: Criação de um email de teste A/B
-description: Criação de um email de teste A/B
-seo-description: Descubra a funcionalidade de teste A/B e siga estas etapas para criar um email a partir de um modelo de teste A/B no Adobe Campaign.
+description: Descubra a funcionalidade de teste A/B e siga estas etapas para criar um email a partir de um modelo de teste A/B no Adobe Campaign.
 page-status-flag: nunca ativado
 uuid: 104f6973-68a7-4692-a90a-a5570a980ec7
 contentOwner: molviato
@@ -15,7 +13,7 @@ context-tags: entrega,abTesting,back;delivery,assistente;entrega,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -30,7 +28,7 @@ Você pode optar por variar o conteúdo, o assunto ou o remetente do email.
 >
 >Não é possível realizar testes A/B em emails criados no Adobe Experience Manager.
 
-## Criação de um email de teste A/B {#creating-an-a-b-test-email}
+## Creating an A/B test email {#creating-an-a-b-test-email}
 
 Um teste A/B pode ser criado usando o assistente padrão de criação de email, ao qual uma etapa de configuração de teste A/B é adicionada. A criação de um email padrão é detalhada na seção [Criação de um email](../../channels/using/creating-an-email.md) .
 
