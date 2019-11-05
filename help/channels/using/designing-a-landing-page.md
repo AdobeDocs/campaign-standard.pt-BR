@@ -1,8 +1,6 @@
 ---
 title: Criação de uma página de aterrissagem
-seo-title: Criação de uma página de aterrissagem
-description: Criação de uma página de aterrissagem
-seo-description: Siga estas etapas para projetar o conteúdo de uma página de aterrissagem e vinculá-lo a um serviço.
+description: Siga estas etapas para projetar o conteúdo de uma página de aterrissagem e vinculá-lo a um serviço.
 page-status-flag: nunca ativado
 uuid: de6fe190-835c-40fd-8101-a809b430b423
 contentOwner: molviato
@@ -15,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c216210e2cb279c87ba472d4ec6a02284aae7a74
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
