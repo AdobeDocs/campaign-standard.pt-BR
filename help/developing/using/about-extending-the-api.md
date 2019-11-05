@@ -1,8 +1,6 @@
 ---
 title: Sobre a extensão da API
-seo-title: Sobre a extensão da API
-description: Sobre a extensão da API
-seo-description: null
+description: null
 page-status-flag: nunca ativado
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: molviato
@@ -14,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
