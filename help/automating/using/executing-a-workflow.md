@@ -1,8 +1,6 @@
 ---
-title: Execução de um workflow
-seo-title: Execução de um workflow
-description: Execução de um workflow
-seo-description: Saiba como executar e monitorar um fluxo de trabalho.
+title: Execução de um fluxo de trabalho
+description: Saiba como executar e monitorar um fluxo de trabalho.
 page-status-flag: nunca ativado
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
 contentOwner: molviato
@@ -15,12 +13,12 @@ context-tags: fluxo de trabalho,visão geral;fluxo de trabalho,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Execução de um workflow{#executing-a-workflow}
+# Execução de um fluxo de trabalho{#executing-a-workflow}
 
 ## Sobre a execução do fluxo de trabalho {#about-workflow-execution}
 
