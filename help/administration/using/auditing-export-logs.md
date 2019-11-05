@@ -1,36 +1,34 @@
 ---
-title: Auditoria de registros de exportação
-seo-title: Auditoria de registros de exportação
-description: Auditoria de registros de exportação
-seo-description: Os administradores podem rastrear as exportações feitas a partir do Adobe Campaign.
+title: Auditoria de logs de exportação
+description: Os administradores podem rastrear as exportações feitas do Adobe Campaign.
 page-status-flag: nunca ativado
-uuid: 2 a 93485 e-f 6 b 9-4 b 01-b 3 a 1-c 91 f 2739 d 188
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: administration
-content-type: reference
+uuid: 2a93485e-f6b9-4b01-b3a1-c91f2739d188
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: administração
+content-type: referência
 topic-tags: usuários e segurança
-discoiquuid: 1033 d 0 ce-a 400-47 ad-afda-bcf 7419 c 94 c 7
+discoiquuid: 1033d0ce-a400-47ad-afda-bcf7419c94c7
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Auditing export logs{#auditing-export-logs}
+# Auditoria de logs de exportação{#auditing-export-logs}
 
-From **[!UICONTROL Administration]** &gt; **[!UICONTROL Users & Security]** &gt; **[!UICONTROL Export audits]**, administrators can view a list of all the following exports, including their date and the user who performed the export:
+Em **[!UICONTROL Administration]** &gt; **[!UICONTROL Users & Security]** &gt; **[!UICONTROL Export audits]**, os administradores podem exibir uma lista de todas as seguintes exportações, incluindo a data e o usuário que realizou a exportação:
 
-* File upload from a **[!UICONTROL Transfer file]** activity in a workflow.
-* Exportar lista de uma lista ou uma sublista.
-* Arquivo baixado do painel de entrega de uma mensagem de email direta.
+* Carregamento de arquivo de uma **[!UICONTROL Transfer file]** atividade em um fluxo de trabalho.
+* Exportar de uma lista ou de uma sublista.
+* Arquivo baixado do painel de entrega de uma mensagem de mala direta.
 
 >[!NOTE]
 >
->Outras exportações não são rastreadas. A lista de exportações é capturada a cada 6 meses por padrão.
+>Outras exportações não são rastreadas. Por padrão, a lista de exportações é apagada a cada 6 meses.
 
 No painel esquerdo, você pode filtrar as exportações que deseja exibir com base em suas necessidades.
 
-You can export the list as a separate file, as described in the [Exporting lists](../../automating/using/exporting-lists.md) section.
+É possível exportar a lista como um arquivo separado, conforme descrito na seção Listas [de exportação](../../automating/using/exporting-lists.md) .
