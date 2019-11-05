@@ -1,8 +1,6 @@
 ---
-title: Personalização de mensagens da campanha com dados de Ponto de interesse
-seo-title: Personalização de mensagens da campanha com dados de Ponto de interesse
-description: Personalização de mensagens da campanha com dados de Ponto de interesse
-seo-description: Saiba como criar uma mensagem personalizada com base na localização de seus assinantes com a integração de dados do Ponto de interesse.
+title: Personalização de mensagens do Campaign com dados de Ponto de interesse
+description: Saiba como criar uma mensagem personalizada com base na localização de seus assinantes com a integração de dados do Ponto de interesse.
 page-status-flag: nunca ativado
 uuid: d74c3e55-f130-441b-bc2a-06dcd5d9784
 contentOwner: molviato
@@ -14,12 +12,12 @@ discoiquuid: a1736ba3-5121-4d01-bf04-ebb7e701e2e0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Personalização de mensagens da campanha com dados de Ponto de interesse{#personalizing-campaign-messages-with-point-of-interest-data}
+# Personalização de mensagens do Campaign com dados de Ponto de interesse{#personalizing-campaign-messages-with-point-of-interest-data}
 
 No Adobe Campaign, você pode usar os dados de Pontos de interesse coletados dos assinantes do aplicativo móvel para enviar mensagens de marketing personalizadas, como um email.
 
@@ -65,7 +63,7 @@ O e-mail com a oferta de desconto de 10% será enviado aos assinantes que:
 
 **Tópicos relacionados:**
 
-* [Criação de um email](../../channels/using/creating-an-email.md)
+* [Criação de um de email](../../channels/using/creating-an-email.md)
 * [Definição de conteúdo](../../designing/using/personalization.md#example-email-personalization)
-* [Enviando mensagens](../../sending/using/confirming-the-send.md)
+* [Envio de mensagens](../../sending/using/confirming-the-send.md)
 
