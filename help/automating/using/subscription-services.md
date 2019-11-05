@@ -1,8 +1,6 @@
 ---
-title: Serviços de subscrição
-seo-title: Serviços de subscrição
-description: Serviços de subscrição
-seo-description: A atividade dos Serviços de assinatura permite que você pegue perfis em massa e assine-os em um serviço ou cancele sua assinatura de um serviço.
+title: Serviços de assinatura
+description: A atividade dos Serviços de assinatura permite que você pegue perfis em massa e assine-os em um serviço ou cancele sua assinatura de um serviço.
 page-status-flag: nunca ativado
 uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
 contentOwner: molviato
@@ -15,12 +13,12 @@ context-tags: setOfService,fluxo de trabalho,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Serviços de subscrição{#subscription-services}
+# Serviços de assinatura{#subscription-services}
 
 ## Descrição {#description}
 
