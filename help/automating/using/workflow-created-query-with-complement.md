@@ -1,8 +1,6 @@
 ---
 title: '"Caso de uso do fluxo de trabalho: Criar entregas com um complemento"'
-seo-title: '"Caso de uso do fluxo de trabalho: Criar entregas com um complemento"'
 description: '"Caso de uso do fluxo de trabalho: Criar entregas com um complemento"'
-seo-description: '"Caso de uso do fluxo de trabalho: Criar entregas com um complemento"'
 page-status-flag: nunca ativado
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: molviato
@@ -15,7 +13,7 @@ context-tags: fluxo de trabalho,caso de uso,segmentação
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7e56dcb4c2bbdc802c9d271d4a44d9a72b239ed
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -55,7 +53,7 @@ Você pode enviar um email para os clientes: um para clientes criados há menos 
 >
 >Para observar a estrutura da regra, clique em **[!UICONTROL Advanced Mode]**.
 
-## Criação de uma entrega por email {#create-an-email-delivery}
+## Creating an Email delivery {#create-an-email-delivery}
 
 1. Em **[!UICONTROL Activities]** &gt; **[!UICONTROL Channels]**, arraste e solte uma entrega de email após cada segmento.
 1. Clique na atividade e selecione ![](assets/edit_darkgrey-24px.png) para editar.
