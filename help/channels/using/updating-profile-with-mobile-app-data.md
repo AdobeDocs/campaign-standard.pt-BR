@@ -1,130 +1,128 @@
 ---
-title: Criação e atualização de informações de perfil com base em dados de aplicativos móveis
-seo-title: Criação e atualização de informações de perfil com base em dados de aplicativos móveis
-description: Criação e atualização de informações de perfil com base em dados de aplicativos móveis
-seo-description: Saiba como criar e atualizar informações de perfil com base nos dados do aplicativo móvel.
+title: Criação e atualização de informações de perfil com base em dados de aplicativo móvel
+description: Saiba como criar e atualizar informações de perfil com base nos dados do aplicativo móvel.
 page-status-flag: nunca ativado
-uuid: 8 cf 74 cad-b 1 ba -4 aad -83 bd -7289 cb 22 d 5 f 4
-contentOwner: lemaitre
-products: SG_ CAMPAIGN/STANDARD
+uuid: 8cf74cad-b1ba-4aad-83bd-7289cb22d5f4
+contentOwner: limatório
+products: SG_CAMPAIGN/STANDARD
 audience: canais
-content-type: reference
+content-type: referência
 topic-tags: notificações por push
-discoiquuid: dc 944 c 85-2059-46 df-b 396-676 fe 3617 dd 1
-context-tags: entrega, mobileappcontent, back
+discoiquuid: dc944c85-2059-46df-b396-676fe3617dd1
+context-tags: entrega,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 64c7de127285ca56b6af398b0a0c3f1470756fe4
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Criação e atualização de informações de perfil com base em dados de aplicativos móveis
+# Criação e atualização de informações de perfil com base em dados de aplicativo móvel
 
 ## Visão geral
 
-Esta página descreve as etapas para desenvolver um fluxo de trabalho que cria/atualiza dados de perfil depois que um Aplicativo móvel envia dados de PII, com base em programação.
+Esta página descreve as etapas para desenvolver um fluxo de trabalho que cria/atualiza dados de perfil depois que um aplicativo móvel envia Coletar dados PII, de forma programada.
 
-* **As PII** correspondem a «Informações de identificação pessoal». Pode ser qualquer dado, incluindo informações que não aparecem na tabela Perfil do banco de dados da Campanha como, por exemplo, Analytics para [Pontos de interesse móveis](../../integrating/using/about-campaign-points-of-interest-data-integration.md). O PII é definido pelo desenvolvedor de aplicativos móveis, geralmente com um profissional de marketing.
-* **Coletar PII** é uma operação HTTP-POST a uma Rest API no Adobe Campaign Standard a partir de um aplicativo móvel.
+* **PII** significa "Informações pessoais identificáveis". Pode ser qualquer dado, incluindo informações que não aparecem na tabela Perfil a partir do banco de dados do Campaign, como, por exemplo, o Analytics para [pontos de interesse](../../integrating/using/about-campaign-points-of-interest-data-integration.md)móveis. A PII é definida pelo desenvolvedor do aplicativo móvel, geralmente com um profissional de marketing.
+* **Coletar PII** é uma operação HTTP-POST para uma Rest API no Adobe Campaign Standard a partir de um aplicativo móvel.
 
-O objetivo deste caso de uso é criar ou atualizar um perfil da Campanha Standard, se os dados PII retornados por um Aplicativo móvel contiverem dados relacionados ao perfil.
+O objetivo deste caso de uso é criar ou atualizar um perfil do Campaign Standard, se os dados PII retornados por um aplicativo móvel contiverem dados relacionados ao perfil.
 
 ## Pré-requisitos
 
-Há várias etapas de configuração a seguir para ativar notificações por push no Campaign Standard, antes que Perfis possam ser criados ou atualizados com base em dados de Assinatura de aplicativo móvel:
+Existem várias etapas de configuração a serem seguidas para ativar notificações por push no Campaign Standard, antes que os Perfis possam ser criados ou atualizados com base nos dados de assinatura do aplicativo móvel:
 
 1. [Criar um aplicativo móvel](../../administration/using/configuring-a-mobile-application.md)
-1. [Integre o SDK do Adobe Mobile ao seu aplicativo móvel](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html).
-1. [Configure o Adobe Campaign para enviar notificações por push](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
+1. [Integre o SDK do Adobe Mobile ao seu aplicativo](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)móvel.
+1. [Configure o Adobe Campaign para enviar notificações](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)por push.
 
-## Etapa 1 - Estender o recurso de perfil para notificações/assinaturas por push
+## Etapa 1 - Estender o recurso Perfil para notificações/assinaturas por push
 
-Para ser capaz de criar ou atualizar o recurso de Perfil com dados PII, é necessário estender o recurso de Perfil com os campos desejados. Para fazer isso:
+Para criar ou atualizar o recurso Perfil com dados PII, é necessário estender o recurso Perfil primeiro com os campos desejados. Para fazer isso:
 
-* Identifique os campos PII enviados pelo Aplicativo móvel.
-* Identifique o campo a ser usado na reconciliação para associar os dados PII com os Dados de perfil.
+* Identifique os campos PII enviados pelo aplicativo móvel.
+* Identifique o campo a ser usado para reconciliação para associar os dados PII aos Dados do perfil.
 
 ![](assets/update_profile1.png)
 
-Neste exemplo, **[!UICONTROL Fields]** a seção reflete os dados PII enviados pelo Aplicativo móvel. **[!UICONTROL Link to profiles]** A seção indica o campo usado para associar as PII com os Dados de perfil, onde **cusemail** mapeia **para @ email**.
+Neste exemplo, a **[!UICONTROL Fields]** seção reflete os dados PII enviados pelo aplicativo móvel. A **[!UICONTROL Link to profiles]** seção indica o campo usado para associar a PII aos Dados do perfil, onde **cusEmail** mapeia para **@email**.
 
-O mapeamento de Dados de perfil ao estender **[!UICONTROL Subscriptions to an Application]** o recurso é SOMENTE LEITURA. É usado para reconciliação. O perfil deve ser inserido no sistema com os dados necessários para reconciliar o perfil com os dados PII. Em nosso caso, um endereço de email para o perfil deve corresponder a um email da coleção de PII para que a reconciliação ocorra:
+O mapeamento para Dados de perfil enquanto estende o recurso é SOMENTE LEITURA. **[!UICONTROL Subscriptions to an Application]** É usado para reconciliação. O perfil deve ser inserido no sistema com os dados necessários para reconciliar o perfil com os dados PII. Em nosso caso, um endereço de email para o perfil deve corresponder a um email da PII de coleta para que a reconciliação ocorra:
 
-* Coletar PII é recebido de um aplicativo móvel para um usuário onde seu Nome é «Jane, Sobrenome é «Doe» e o endereço de email é janedoe@doe.com.
-* Separadamente, os Dados de perfil devem existir (por exemplo, os dados devem ser inseridos manualmente ou provenientes de algum outro recurso), onde o endereço de email do perfil é janedoe@doe.com.
+* A coleta de PII é recebida de um aplicativo móvel para um usuário cujo nome é "Jane", Sobrenome "Doe" e endereço de email é janedoe@doe.com.
+* Separadamente, os Dados de perfil devem existir (por exemplo, os dados devem ser inseridos manualmente ou já vêm de algum outro recurso), onde o endereço de email do perfil é janedoe@doe.com.
 
 **Tópicos relacionados:**
 
-* [Estender as assinaturas para um recurso de aplicativo](../../developing/using/extending-the-subscriptions-to-an-application-resource.md).
-* [Criação ou extensão de um recurso existente](../../developing/using/key-steps-to-add-a-resource.md).
+* [Extensão das assinaturas para um recurso de aplicativo](../../developing/using/extending-the-subscriptions-to-an-application-resource.md).
+* [Criação ou extensão de um recurso](../../developing/using/key-steps-to-add-a-resource.md)existente.
 
 ## Etapa 2 - Criar o fluxo de trabalho
 
-Usar um Fluxo de trabalho no Campaign Standard permite que um administrador identifique e sincronize de forma exclusiva os dados entre os dados de appsubscription (Assinante) e os dados do Perfil ou do Destinatário. Embora uma atualização com base em fluxos de trabalho não sincronize dados de perfil em tempo real, não deve resultar em blocos de banco de dados nem sobrecarga.
+Usar um fluxo de trabalho no Campaign Standard permite que um administrador identifique e sincronize dados exclusivamente entre os dados do AppSubscription (Assinante) e os dados do Perfil ou do Destinatário. Embora uma atualização baseada no fluxo de trabalho não sincronize os dados do perfil em tempo real, ela não deve causar bloqueios ou sobrecarga indevidos do banco de dados.
 
 As principais etapas para criar o fluxo de trabalho são:
 
-1. Use a **[!UICONTROL Query]** atividade ou **[!UICONTROL Incremental query]** a atividade para obter uma lista das assinaturas mais recentes.
-1. Use **[!UICONTROL Reconciliation]** uma atividade para mapear os dados PII com o perfil.
-1. Adicione um processo de verificação.
-1. Use um **[!UICONTROL Update data]** para atualizar ou criar o perfil com os dados PII.
+1. Use uma **[!UICONTROL Query]** ou **[!UICONTROL Incremental query]** uma atividade para obter uma lista das assinaturas mais recentes.
+1. Use uma **[!UICONTROL Reconciliation]** atividade para mapear os dados de PII com o perfil.
+1. Adicione algum processo de verificação.
+1. Use uma ferramenta **[!UICONTROL Update data]** para atualizar ou criar o perfil com os dados PII.
 
 Os seguintes requisitos são assumidos neste fluxo de trabalho:
 
-* Todos os campos que foram estendidos devem estar disponíveis para criar/atualizar a Tabela de perfil.
-* A tabela Perfil pode ser estendida para suportar campos que não são suportados nativamente (por exemplo, Tamanho T-Shirt).
-* Qualquer campo da tabela appsubscription em branco não deve ser atualizado na Tabela de perfil.
-* Qualquer registro que foi atualizado na tabela appsubscription deve ser incluído na próxima execução do Fluxo de trabalho.
+* Todos/Todos os campos que foram estendidos devem estar disponíveis para criar/atualizar a Tabela de perfis.
+* A tabela Perfil pode ser estendida para oferecer suporte a campos que não são nativamente suportados (por exemplo, Tamanho da Camisa T).
+* Nenhum campo da tabela AppSubscription que esteja em branco deve ser atualizado na Tabela de perfis.
+* Qualquer registro que tenha sido atualizado na tabela AppSubscription deve ser incluído na próxima execução do Fluxo de trabalho.
 
-Para criar o fluxo de trabalho, siga as etapas abaixo:
+Para criar o workflow, siga as etapas abaixo:
 
-1. Arraste e solte as seguintes atividades na área de trabalho e vincule-as em conjunto:
+1. Arraste e solte as seguintes atividades no espaço de trabalho e vincule-as:
    1. **[!UICONTROL Start]**
    1. **[!UICONTROL Scheduler]**
    1. **[!UICONTROL Incremental query]**
    1. **[!UICONTROL Update data]**
    ![](assets/update_profile0.png)
 
-1. Configure a **[!UICONTROL Scheduler]** atividade. Na **[!UICONTROL General]** guia, defina o **[!UICONTROL Execution frequency]** (por exemplo, "Diário"), o **[!UICONTROL Time]** (por exemplo, "1:00:00 AM") e o **[!UICONTROL Start]** (por exemplo, a data de hoje).
+1. Configure the **[!UICONTROL Scheduler]** activity. Na **[!UICONTROL General]** guia, defina **[!UICONTROL Execution frequency]** (por exemplo, "Diariamente"), o **[!UICONTROL Time]** (por exemplo, "1:00:00 AM") e o **[!UICONTROL Start]** (por exemplo, a data de Hoje).
 
    ![](assets/update_profile2.png)
 
-1. Configure a **[!UICONTROL Incremental query]** atividade.
+1. Configure the **[!UICONTROL Incremental query]** activity.
    1. Na **[!UICONTROL Properties]** guia, clique no **[!UICONTROL Select an element]** ícone do **[!UICONTROL Resource]** campo e selecione o **[!UICONTROL Subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** elemento.
 
       ![](assets/update_profile3.png)
 
-   1. Na **[!UICONTROL Target]** guia, arraste o **[!UICONTROL Mobile application]** filtro e selecione um nome de aplicativo móvel.
+   1. Na **[!UICONTROL Target]** guia, arraste o **[!UICONTROL Mobile application]** filtro e selecione o nome de um aplicativo móvel.
 
       ![](assets/update_profile4.png)
 
-   1. Na **[!UICONTROL Processed data]** guia, selecione **[!UICONTROL Use a date field]** e, em seguida, adicione o **[!UICONTROL Last modified (lastModified)]** campo como **[!UICONTROL Path to the date field]**.
+   1. Na **[!UICONTROL Processed data]** guia, selecione **[!UICONTROL Use a date field]** e adicione o **[!UICONTROL Last modified (lastModified)]** campo como **[!UICONTROL Path to the date field]**.
 
       ![](assets/update_profile5.png)
 
-1. Configure a **[!UICONTROL Update data]** atividade.
-   1. Na **[!UICONTROL Identification]** guia, verifique se **[!UICONTROL Dimension to update]** o campo está definido como "Perfis (perfil)" e clique no **[!UICONTROL Create element]** botão para adicionar um campo como critério de reconciliação.
+1. Configure the **[!UICONTROL Update data]** activity.
+   1. Na **[!UICONTROL Identification]** guia, verifique se o **[!UICONTROL Dimension to update]** campo está definido como "Perfis (perfil)" e clique no **[!UICONTROL Create element]** botão para adicionar um campo como um critério de reconciliação.
 
       ![](assets/update_profile_createelement.png)
 
-   1. No **[!UICONTROL Source]** campo, selecione um campo da tabela appsubscrsiptionrcp como um campo de reconciliação. Pode ser o email do perfil, crmid, marketingcloudid etc. Neste caso, usaremos o campo "Email (cusemail)".
-   1. No **[!UICONTROL Destination]** campo, selecione um campo na tabela de perfil para reconciliar os dados da tabela appsubscriptionrcp. Pode ser o e-mail do perfil ou qualquer campo estendido como crmid, marketingcloudid etc. Neste exemplo, é necessário selecionar o campo "Email (email)" para mapeá-lo com o campo "Email (cusemail)" da tabela appsubscriptionrcp.
+   1. No **[!UICONTROL Source]** campo, selecione um campo na tabela appSubscriptionRcp como um campo de reconciliação. Pode ser o email do perfil, crmId, marketingCloudId etc. Nesse caso, usaremos o campo "Email (cusEmail)".
+   1. No **[!UICONTROL Destination]** campo, selecione um campo na tabela de perfil para reconciliar os dados da tabela appSubscriptionRcp. Pode ser o email do perfil ou qualquer campo estendido, como crmId, marketingCloudId etc. Neste exemplo, precisamos selecionar o campo "Email (email)" para mapeá-lo com o campo "Email (cusEmail)" na tabela appSubscriptionRcp.
 
       ![](assets/update_profile7.png)
 
-   1. Na **[!UICONTROL Fields to update]** guia, clique no **[!UICONTROL Create element]** botão e mapeie os campos provenientes da tabela appsubscriptionrcp (**[!UICONTROL Source]** campo) com os campos que você deseja atualizar na tabela Perfil (**[!UICONTROL Destination]** campo).
-   1. No **[!UICONTROL Enabled if]** campo, adicione uma expressão para garantir que o campo correspondente na tabela Perfil seja atualizado apenas se o campo de origem contiver um valor. Para fazer isso, selecione o campo na lista e adicione o campo "!= "expression (se o campo Origem estiver `[target/@cusEmail]` no Editor de expressão certifique-se de digitar `[target/@cusEmail] != ''"`).
+   1. Na **[!UICONTROL Fields to update]** guia, clique no **[!UICONTROL Create element]** botão e mapeie os campos que vêm da tabela appSubscriptionRcp (**[!UICONTROL Source]** campo) com os campos que você deseja atualizar na tabela Perfil (**[!UICONTROL Destination]** campo).
+   1. No **[!UICONTROL Enabled if]** campo, adicione uma expressão para garantir que o campo correspondente na tabela Perfil seja atualizado somente se o campo de origem contiver um valor. Para fazer isso, selecione o campo na lista e adicione o "!expressão =''" (se o campo Origem estiver `[target/@cusEmail]` no Editor de expressões, certifique-se de digitar `[target/@cusEmail] != ''"`).
 
       ![](assets/update_profile8.png)
 
       >[!NOTE]
       >
-      >Nesse caso, o Workflow realiza um UPSERT mas, como se baseia em um dado de Consulta incremental, é inserido apenas. A alteração da consulta pode afetar quais dados são inseridos ou atualizados.
-      >Além disso, as configurações na guia Campos para atualizar a guia determinam quais campos são inseridos ou atualizados em condições específicas. Essas configurações podem ser exclusivas para cada aplicativo ou cliente. Tome cuidado ao definir essas configurações como podem haver consequências não intencionais, pois atualizar registros no Perfil com base nos dados do appsubscriptionrcp pode alterar as informações pessoais dos usuários sem validação.
+      >Nesse caso, o Fluxo de trabalho executa um UPSERT, mas como ele se baseia em dados de Consulta Incremental somente são inseridos. Alterar a consulta pode afetar quais dados são inseridos ou atualizados.
+      >Além disso, as configurações na guia Campos para atualizar determinam quais campos são inseridos ou atualizados sob condições específicas. Essas configurações podem ser exclusivas para cada aplicativo ou cliente. Tenha cuidado ao definir essas configurações, pois pode haver consequências não intencionais, pois a atualização de registros no Perfil com base nos dados appSubscriptionRcp pode alterar as informações pessoais dos usuários sem validação.
 
-   1. Quando todos os campos para inserir/atualizar no Perfil tiverem sido adicionados, clique **[!UICONTROL Confirm]** em.
+   1. Quando todos os campos a serem inseridos/atualizados no Perfil tiverem sido adicionados, clique em **[!UICONTROL Confirm]**.
 
       ![](assets/update_profile9.png)
 
