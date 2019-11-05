@@ -1,31 +1,29 @@
 ---
 title: Uso de um modelo
-seo-title: Uso de um modelo
-description: Uso de um modelo
-seo-description: Descubra um procedimento passo a passo simples para usar um modelo existente.
+description: Descubra um procedimento simples passo a passo para usar um modelo existente.
 page-status-flag: nunca ativado
-uuid: 733383 ac -1271-4621-83 a 4-db 9 bc 5 ad 74 a 4
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+uuid: 733383ac-1271-4621-83a4-db9bc5ad74a4
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: reference
-topic-tags: gerenciando modelos
-discoiquuid: 66 e 4 a 473-0 dc 0-4 aa 8-ad 8 b -511 f 4588 a 1 b 0
+content-type: referência
+topic-tags: gerenciar modelos
+discoiquuid: 66e4a473-0dc0-4aa8-ad8b-511f4588a1b0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Using a template{#using-a-template}
+# Uso de um modelo{#using-a-template}
 
-Agora vamos observar como usar o modelo de e-mail criado na seção anterior.
+Agora vamos investigar como usar o modelo de email criado na seção anterior.
 
 >[!NOTE]
 >
->A criação de uma atividade de marketing baseada em um modelo geralmente é realizada por um perfil padrão de tipo de usuário.
+>A criação de uma atividade de marketing com base em um modelo é geralmente realizada por um perfil de tipo de usuário padrão.
 
 1. Crie uma nova atividade de marketing.
 
