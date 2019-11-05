@@ -1,8 +1,6 @@
 ---
-title: Criação de uma dimensão de perfil personalizada
-seo-title: Criação de uma dimensão de perfil personalizada
-description: Criação de uma dimensão de perfil personalizada
-seo-description: Saiba como criar uma dimensão de perfil personalizada com base em dados de perfil personalizados.
+title: Criae uma dimensão de perfil personalizada
+description: Saiba como criar uma dimensão de perfil personalizada com base em dados de perfil personalizados.
 page-status-flag: nunca ativado
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
 contentOwner: molviato
@@ -14,12 +12,12 @@ discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Criação de uma dimensão de perfil personalizada{#creating-a-custom-profile-dimension}
+# Criae uma dimensão de perfil personalizada{#creating-a-custom-profile-dimension}
 
 Os relatórios também podem ser criados e gerenciados com base em dados de perfil personalizados criados durante a extensão de recurso personalizado do perfil.
 
