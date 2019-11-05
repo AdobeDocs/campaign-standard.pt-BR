@@ -1,8 +1,6 @@
 ---
 title: 'Criar e-mails do zero '
-seo-title: 'Criar e-mails do zero '
-description: 'Criar e-mails do zero '
-seo-description: Descubra como projetar emails do zero no conteúdo do email no Designer de email.
+description: Descubra como projetar emails do zero no conteúdo do email no Designer de email.
 page-status-flag: nunca ativado
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: molviato
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -32,7 +30,7 @@ Estas são as etapas principais para criar e projetar um conteúdo de email do z
 1. Insira componentes de conteúdo e fragmentos nos componentes da estrutura. Consulte [Adicionar fragmentos e componentes](#defining-the-email-structure)de conteúdo.
 1. Adicione imagens e edite o texto do email. Consulte [Inserção de imagens](../../designing/using/images.md#inserting-images).
 1. Personalize seu email adicionando campos de personalização, links e assim por diante. Consulte [Inserir um campo](../../designing/using/personalization.md#inserting-a-personalization-field)de personalização, [Inserir um link](../../designing/using/links.md#inserting-a-link) e [Definir conteúdo dinâmico em um email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
-1. Defina a linha de assunto do seu email. Consulte [Personalizar a linha de assunto de um email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
+1. Defina a linha de assunto do seu email. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
 1. Visualize seu email.
 1. Salve o conteúdo e prossiga com a mensagem depois de certificar-se de que definiu um público-alvo e programou o envio corretamente.
 
@@ -157,7 +155,7 @@ Esta é a lista de componentes disponíveis no Designer de email:
 
 **Tópicos relacionados**:
 
-- [Criação de um email](../../channels/using/creating-an-email.md)
+- [Criação de um de email](../../channels/using/creating-an-email.md)
 - [Selecionar um público-alvo em uma mensagem](../../audiences/using/selecting-an-audience-in-a-message.md)
 - [Agendamento de mensagens](../../sending/using/about-scheduling-messages.md)
 - [Visualizar mensagens](../../sending/using/previewing-messages.md)
