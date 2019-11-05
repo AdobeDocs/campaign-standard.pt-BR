@@ -1,8 +1,6 @@
 ---
 title: Início rápido do design de conteúdo de email
-seo-title: Início rápido do design de conteúdo de email
-description: Início rápido do design de conteúdo de email
-seo-description: Comece a criar conteúdo de email com o Designer de email.
+description: Comece a criar conteúdo de email com o Designer de email.
 page-status-flag: nunca ativado
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: molviato
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e070a4c364c8a5e23870e28add142b46edc8994
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
