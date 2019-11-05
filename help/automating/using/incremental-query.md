@@ -1,8 +1,6 @@
 ---
-title: ' Consulta incremental'
-seo-title: ' Consulta incremental'
-description: ' Consulta incremental'
-seo-description: A atividade de consulta incremental permite filtrar e extrair um preenchimento de elementos do banco de dados do Adobe Campaign.
+title: Consulta incremental
+description: A atividade de consulta incremental permite filtrar e extrair um preenchimento de elementos do banco de dados do Adobe Campaign.
 page-status-flag: nunca ativado
 uuid: 73b42422-e815-43ef-84c0-97c4433ccc98
 contentOwner: molviato
@@ -15,12 +13,12 @@ context-tags: incremental,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-#  Consulta incremental{#incremental-query}
+# Consulta incremental{#incremental-query}
 
 ## Descrição {#description}
 
