@@ -1,8 +1,6 @@
 ---
 title: Gerenciamento de pacotes
-seo-title: Gerenciamento de pacotes
-description: Gerenciamento de pacotes
-seo-description: Os administradores podem definir pacotes para trocar recursos entre diferentes instâncias do Adobe Campaign por meio de arquivos XML estruturados.
+description: Os administradores podem definir pacotes para trocar recursos entre diferentes instâncias do Adobe Campaign por meio de arquivos XML estruturados.
 page-status-flag: nunca ativado
 uuid: d041f549-bfc5-4e6b-87bf-a63c7c224bca
 contentOwner: molviato
@@ -15,7 +13,7 @@ context-tags: packageDef,overview;packageInstall,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
