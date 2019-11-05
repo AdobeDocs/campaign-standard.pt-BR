@@ -1,8 +1,6 @@
 ---
 title: Atividades de marketing
-seo-title: Atividades de marketing
-description: Atividades de marketing
-seo-description: '"Saiba como criar e gerenciar suas atividades de marketing: campanhas, email, envios de notificação por push e SMS, páginas de aterrissagem e fluxos de trabalho. Você pode facilmente projetar uma nova atividade, editar uma existente e consultar seu status e validade."'
+description: '"Saiba como criar e gerenciar suas atividades de marketing: campanhas, email, envios de notificação por push e SMS, páginas de aterrissagem e fluxos de trabalho. Você pode facilmente projetar uma nova atividade, editar uma existente e consultar seu status e validade."'
 page-status-flag: nunca ativado
 uuid: 5d45a935-6d03-4b27-aabd-7c47c11241ba
 contentOwner: molviato
@@ -15,7 +13,7 @@ context-tags: atividade,visão geral
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
