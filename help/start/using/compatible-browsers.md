@@ -1,29 +1,27 @@
 ---
 title: Navegadores compatíveis
-seo-title: Navegadores compatíveis
-description: Navegadores compatíveis
-seo-description: O Adobe Campaign Standard é compatível com a maioria dos navegadores e sistemas operacionais principais. Descubra a lista completa.
+description: O Adobe Campaign Standard é compatível com a maioria dos navegadores e sistemas operacionais principais. Descubra a lista completa.
 page-status-flag: nunca ativado
-uuid: 745599 a 6-6 b 06-4052-82 ee -62 a 766 f 4922 b
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+uuid: 745599a6-6b06-4052-82ee-62a766f4922b
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: reference
-topic-tags: discobrindo-the-interface
-discoiquuid: dfc 188 f 2-957 b -4 f 93-bb 54-c 369 d 7333 b 9 f
+content-type: referência
+topic-tags: discover-the-interface
+discoiquuid: dfc188f2-957b-4f93-bb54-c369d7333b9f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Compatible browsers{#compatible-browsers}
+# Navegadores compatíveis{#compatible-browsers}
 
-O Adobe Campaign Standard é compatível com a maioria dos navegadores para computadores, bem como os sistemas operacionais principais para tablets.
+O Adobe Campaign Standard é compatível com a maioria dos navegadores para computadores, bem como com os principais sistemas operacionais para tablets.
 
-O Adobe Campaign Standard é compatível apenas com o modo paisagem como modo de exibição em tablets.
+O Adobe Campaign Standard só oferece suporte ao modo paisagem como modo de exibição em tablets.
 
 Esta é a lista de navegadores compatíveis com o Adobe Campaign Standard:
 
@@ -34,7 +32,7 @@ Esta é a lista de navegadores compatíveis com o Adobe Campaign Standard:
 * Safari (versão mais recente)
 * Microsoft Edge (versão mais recente)
 
-**Tablet:**
+**Comprimido:**
 
 * iOS (versão 7 e posterior)
 * Android (versão 4.4 e posterior)
