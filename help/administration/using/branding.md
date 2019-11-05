@@ -1,58 +1,56 @@
 ---
-title: Marca
-seo-title: Marca
-description: Marca
-seo-description: Descubra todas as ferramentas disponíveis para gerenciar suas identidades de marca.
+title: Identidade visual
+description: Descubra todas as ferramentas disponíveis para gerenciar suas identidades de marca.
 page-status-flag: nunca ativado
-uuid: d 66 ac 5 a 2-2 ae 1-4870-b 48 e -7 f 276744 ffdd
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: administration
-content-type: reference
+uuid: d66ac5a2-2ae1-4870-b48e-7f276744ffdd
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: administração
+content-type: referência
 topic-tags: application-settings
-discoiquuid: cbb 1 dcec -3 bc 6-4013-87 fa -27 d 0 e 5 d 32 bf 8
-context-tags: marca, visão geral; marca, principal
+discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
+context-tags: marca,visão geral;marca,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 866567d63dd2798eb56d42d4e163e5484c9b4d68
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Branding{#branding}
+# Identidade visual{#branding}
 
-## About brand identity {#about-brand-identity}
+## Sobre a identidade da marca {#about-brand-identity}
 
-Todas as empresas possuem diretrizes visuais e técnicas de marca. Com o Adobe Campaign, você pode definir um conjunto de especificações para apresentar uma marca consistente aos seus clientes, desde logotipos a aspectos técnicos, como remetente de email, URL ou domínios.
+Toda empresa tem diretrizes visuais e técnicas de marca. Com o Adobe Campaign, você pode definir um conjunto de especificações para apresentar uma marca consistente aos seus clientes, de logotipos a aspectos técnicos, como remetente de email, URL ou domínios.
 
-Os administradores técnicos podem definir uma ou várias marcas para inserir centralmente os parâmetros que afetam a identidade de uma marca. Isso inclui o logotipo da marca, o domínio do URL de acesso das páginas iniciais ou as configurações de rastreamento de mensagens. Com o Adobe Campaign, você pode criar essas marcas e vinculá-las a mensagens ou páginas de aterrissagem. Essa configuração é gerenciada em modelos.
+Os administradores técnicos podem definir uma ou várias marcas para centralizar os parâmetros que afetam a identidade de uma marca. Isso inclui o logotipo da marca, o domínio do URL de acesso das páginas iniciais ou as configurações de rastreamento de mensagens. Com o Adobe Campaign, você pode criar essas marcas e vinculá-las a mensagens ou páginas de aterrissagem. Essa configuração é gerenciada em modelos.
 
-## Configuring and using brands {#configuring-and-using-brands}
+## Configuração e uso de marcas {#configuring-and-using-brands}
 
-O principal princípio de configuração e uso de marcas é:
+O princípio principal de configurar e usar marcas é:
 
-1. Crie e configure a marca - esta operação requer permissões específicas e é executada pelo administrador técnico do Adobe Campaign.
-1. Crie um ou vários modelos de entrega e página de aterrissagem para essa marca. Refer to the [Creating a template](../../start/using/about-templates.md) section.
-1. Crie mensagens e páginas de aterrissagem com base neste modelo. Refer to the [Creating an email](../../channels/using/creating-an-email.md) and [Creating a landing page](../../channels/using/designing-a-landing-page.md) sections.
+1. Criar e configurar a marca - esta operação requer permissões específicas e é realizada pelo administrador técnico do Adobe Campaign.
+1. Crie um ou vários modelos de entrega e página de aterrissagem para esta marca. Consulte a seção [Criação de um modelo](../../start/using/about-templates.md) .
+1. Crie mensagens e páginas iniciais com base neste modelo. Consulte as seções [Criar um email](../../channels/using/creating-an-email.md) e [Criar uma página](../../channels/using/designing-a-landing-page.md) de aterrissagem.
 
 >[!CAUTION]
 >
->As marcas não podem ser criadas ou modificadas por usuários finais: essas operações devem ser executadas pelo administrador técnico do Adobe Campaign. Para qualquer solicitação, entre em contato com o Atendimento ao cliente da Adobe. A multi-marca não pode ser usada no contexto de mensagens transacionais. For more on this, see [Transactional messages and branding](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
+>As marcas não podem ser criadas ou modificadas pelos usuários finais: essas operações devem ser executadas pelo administrador técnico do Adobe Campaign. Para receber qualquer solicitação, entre em contato com o Atendimento ao cliente da Adobe. A multimarca não pode ser usada no contexto de mensagens transacionais. Para obter mais informações, consulte Mensagens [transacionais e marcas](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
 
-Brands can be found in the **[!UICONTROL Administration > Instance settings > Brand configuration]** menu.
+As marcas podem ser encontradas no **[!UICONTROL Administration > Instance settings > Brand configuration]** menu.
 
 Por padrão, uma marca recém-criada fica visível somente para usuários atribuídos com os direitos correspondentes pelo administrador.
 
-A **Brand** is defined by the following characteristics:
+Uma **marca** é definida pelas seguintes características:
 
-* **Uma Identidade**, que define e personaliza sua marca. Esta seção contém os seguintes campos:
+* Uma **identidade**, que define e personaliza sua marca. Esta seção contém os seguintes campos:
 
    ![](assets/branding_01.png)
 
    * **Etiqueta** visível na interface
    * **Nome da marca**
-   * **URL do site** e **rótulo do site** da marca
+   * **URL** do site e rótulo **do** site da marca
    * **Logotipo da marca**
 
 * **[!UICONTROL Header parameters of sent emails]** que personaliza o que os destinatários de suas campanhas verão. Esta seção contém os seguintes campos:
@@ -61,40 +59,40 @@ A **Brand** is defined by the following characteristics:
 
    * **Remetente (endereço de email)** com o endereço de email da marca.
    * **Remetente (nome)** com o nome da marca.
-   * **Responder (endereço de email)** com o endereço de email para o qual o cliente pode responder.
+   * **Responder (endereço de email)** com o endereço de email ao qual o cliente pode responder.
    * **Responder (nome)** com o nome da marca.
-   * **Erro (endereço de email)** com o endereço de email para usar no caso de um erro.
+   * **Erro (endereço de email)** com o endereço de email a ser usado em caso de erro.
    >[!CAUTION]
    >
-   >Depois de atualizar os parâmetros de cabeçalho dos emails, se o nome e endereço de e-mail do remetente não tiver sido alterado no e-mail criado a partir do modelo, verifique as configurações avançadas do modelo.
+   >Depois de atualizar os parâmetros de cabeçalho dos e-mails, se o nome e o endereço de e-mail do remetente não tiverem sido alterados no e-mail criado a partir do modelo, verifique as configurações avançadas do modelo.
 
-* **Os servidores expostos na Internet** definem os servidores usados para rastreamento, mas também para acesso à página inicial. Esta seção contém os seguintes campos:
+* **Os servidores expostos na Internet** definem os servidores usados para rastreamento, mas também para acesso à página de aterrissagem. Esta seção contém os seguintes campos:
 
    ![](assets/configure_branding_04.png)
 
-   * **URL externo do servidor de aplicativos** usado para hospedar e acessar as diferentes páginas de aterrissagem criadas.
-   * **URL externo do servidor de rastreamento** usado como URL rastreado durante as entregas.
-   * **URL externo do servidor de página espelho** usado como a página de espelho padrão em suas entregas.
+   * **URL externo do servidor** de aplicativos usado para hospedar e acessar as diferentes páginas iniciais que você cria.
+   * **URL externo do servidor** de rastreamento usado como o URL rastreado durante as entregas.
+   * **URL externo do servidor** de página espelhada usado como a página espelhada padrão em suas entregas.
 
-* **[!UICONTROL Tracking URL configuration (Web Analytics)]**, que define a configuração do rastreamento de urls para sua marca.
+* **[!UICONTROL Tracking URL configuration (Web Analytics)]**, que define a configuração do rastreamento de URLs para sua marca.
 
    Os parâmetros adicionais que permitem que os links sejam rastreados em sistemas externos, como ferramentas do Web Analytics, como o Adobe Analytics ou o Google Analytics, estão definidos aqui.
 
    ![](assets/branding_05.png)
 
-## Assigning a brand to an email {#assigning-a-brand-to-an-email}
+## Atribuindo uma marca a um email {#assigning-a-brand-to-an-email}
 
-### Linking a brand to a template {#linking-a-brand-to-a-template}
+### Vincular uma marca a um modelo {#linking-a-brand-to-a-template}
 
-Para usar os parâmetros definidos para uma marca, ela deve estar vinculada a um modelo de entrega ou modelo de página de aterrissagem. Para fazer isso, você precisa criar ou editar um modelo.
+Para usar os parâmetros definidos para uma marca, ele deve estar vinculado a um modelo de entrega ou modelo de página inicial. Para fazer isso, é necessário criar ou editar um modelo.
 
 >[!NOTE]
 >
->For more information about creating a template, refer to the [Creating a template](../../start/using/about-templates.md) section.
+>Para obter mais informações sobre como criar um modelo, consulte a seção [Criação de um modelo](../../start/using/about-templates.md) .
 
-Depois que o modelo é criado, você pode vinculá-lo a uma marca. Para fazer isso:
+Depois que o modelo for criado, você poderá vinculá-lo a uma marca. Para fazer isso:
 
-1. Click the **[!UICONTROL Edit properties]** button to access the template properties.
+1. Clique no **[!UICONTROL Edit properties]** botão para acessar as propriedades do modelo.
 
    ![](assets/branding_04.png)
 
@@ -102,72 +100,72 @@ Depois que o modelo é criado, você pode vinculá-lo a uma marca. Para fazer is
 
    >[!NOTE]
    >
-   >By default, the **[!UICONTROL Default brand (branding)]** is selected.
+   >Por padrão, a opção **[!UICONTROL Default brand (branding)]** é selecionada.
 
    ![](assets/branding_05.png)
 
-   To view how the brand selected is configured, click the **[!UICONTROL Navigate to the detail of the element selected]** icon.
+   Para ver como a marca selecionada está configurada, clique no **[!UICONTROL Navigate to the detail of the element selected]** ícone.
 
    ![](assets/branding_06.png)
 
 1. Confirme sua seleção e salve seu modelo.
 
-Seu modelo está vinculado à marca. In the email editor, the elements such as the **Email address of default sender**, the **Default sender name**, or the **Logo** will use the configured brand data.
+Seu modelo está vinculado à marca. No editor de email, os elementos como o endereço de **email do remetente** padrão, o nome **do remetente** padrão ou o **logotipo** usarão os dados da marca configurados.
 
-### Branding use case {#branding-use-case}
+### Caso de uso da marca {#branding-use-case}
 
-Neste exemplo, vamos criar uma nova marca relacionada à viagem e usá-la em um email.
+Neste exemplo, vamos criar uma nova marca relacionada a viagens, e usá-la em um email.
 
-#### Configure a new brand {#configure-a-new-brand}
+#### Configurar uma nova marca {#configure-a-new-brand}
 
 >[!CAUTION]
 >
->A configuração da marca é gerenciada pela Adobe somente pois requer permissões e configurações técnicas específicas.
+>A configuração da marca é gerenciada pela Adobe somente porque requer permissões específicas e configurações técnicas.
 
-1. The Adobe Campaign administrator creates the brand in **[!UICONTROL Administration > Instance settings > Brand configuration]**. He adds the **Vacations in the Tropics** element from the advanced menu and configures the **[!UICONTROL ID]** and the **[!UICONTROL Header parameters of sent emails]** of the brand.
+1. O administrador do Adobe Campaign cria a marca em **[!UICONTROL Administration > Instance settings > Brand configuration]**. Ele acrescenta as **Férias no elemento Trópicos** do menu avançado e configura as **[!UICONTROL ID]** e as **[!UICONTROL Header parameters of sent emails]** da marca.
 
    ![](assets/branding_07.png)
 
-1. The administrator then configures the URL of the **Server(s) exposed on the Internet** so that landing pages can be used, then the tracking URLs.
+1. Em seguida, o administrador configura o URL do(s) **Servidor(es) exposto(s) na Internet** para que as páginas iniciais possam ser usadas e, em seguida, os URLs de rastreamento.
 
-   In this example, the **Web Analytics** tool used is **Google Analytics**. O administrador configura o URL de rastreamento da seguinte maneira:
+   Neste exemplo, a ferramenta **Web Analytics** usada é o **Google Analytics**. O administrador configura o URL de rastreamento da seguinte maneira:
 
    ![](assets/branding_12.png)
 
-A marca é criada e configurada corretamente. Agora pode ser usado pelas equipes de marketing.
+A marca foi criada e configurada corretamente. Agora, ele pode ser usado pelas equipes de marketing.
 
-#### Implement a new brand {#implement-a-new-brand}
+#### Implementar uma nova marca {#implement-a-new-brand}
 
 Como gerente de entrega, você é responsável pela criação dos modelos de entrega para usar a nova marca. Para isso, siga as etapas abaixo:
 
-1. In the advanced menu **[!UICONTROL Resources > Templates > Delivery templates]**, duplicate a built-in template to configure a new delivery template.
+1. No menu avançado **[!UICONTROL Resources > Templates > Delivery templates]**, duplique um modelo incorporado para configurar um novo modelo de entrega.
 
    ![](assets/branding_08.png)
 
-1. To link this template to the **Vacations in the Tropics** brand, edit the template properties and select the brand from the drop-down list.
+1. Para vincular esse modelo às **Férias na marca Trópicos** , edite as propriedades do modelo e selecione a marca na lista suspensa.
 
    ![](assets/branding_09.png)
 
-1. Configure este modelo de e-mail para refletir a identidade da marca.
-1. Assim que o modelo for concluído, você poderá salvá-lo.
+1. Configure este modelo de email para refletir a identidade da marca.
+1. Quando o modelo for concluído, você poderá salvá-lo.
 
    ![](assets/branding_10.png)
 
-   O modelo de entrega agora pode ser usado para criar e-mails que serão enviados para um público-alvo.
+   O modelo de entrega agora pode ser usado para criar emails que serão enviados para um público-alvo.
 
-#### Use the new brand in a delivery {#use-the-new-brand-in-a-delivery}
+#### Usar a nova marca em uma entrega {#use-the-new-brand-in-a-delivery}
 
-Para criar um e-mail vinculado a uma marca, siga as etapas abaixo:
+Para criar um email vinculado a uma marca, siga as etapas abaixo:
 
-1. Click the **[!UICONTROL Create]** button from the **[!UICONTROL Marketing activities]** menu.
+1. Clique no **[!UICONTROL Create]** botão do **[!UICONTROL Marketing activities]** menu.
 
    ![](assets/branding_14.png)
 
-1. Select the **[!UICONTROL Email]** activity, then choose the template linked to the new brand.
+1. Selecione a **[!UICONTROL Email]** atividade e escolha o modelo vinculado à nova marca.
 
    ![](assets/branding_15.png)
 
-1. Seu e-mail já está configurado. Você pode verificar as informações antes de testá-las usando os perfis de teste e enviá-las ao seu público-alvo.
+1. Seu email já está configurado. Você pode verificar as informações antes de testá-las usando os perfis de teste e enviá-las ao seu público-alvo.
 
    ![](assets/branding_16.png)
 
