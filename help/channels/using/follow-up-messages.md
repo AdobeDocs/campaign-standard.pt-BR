@@ -1,8 +1,6 @@
 ---
 title: Mensagens de acompanhamento
-seo-title: Mensagens de acompanhamento
-description: Mensagens de acompanhamento
-seo-description: Saiba como criar e publicar uma mensagem de acompanhamento.
+description: Saiba como criar e publicar uma mensagem de acompanhamento.
 page-status-flag: nunca ativado
 uuid: d2a17da2-e935-420a-8531-78ed6a1fe68b
 contentOwner: molviato
@@ -14,7 +12,7 @@ discoiquuid: 9615e369-754f-4f6a-a1b1-14462f94666
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -127,5 +125,5 @@ Quando o fluxo de trabalho for iniciado, todos os clientes que tiverem recebido 
 
 >[!NOTE]
 >
->Se você tiver selecionado a dimensão de **[!UICONTROL Profile]** definição de metas ao criar a configuração do evento, a mensagem de acompanhamento também impulsionará o banco de dados de marketing do Adobe Campaign. Consulte Mensagens [transacionais de](../../channels/using/profile-transactional-messages.md)perfil.
+>Se você tiver selecionado a dimensão de **[!UICONTROL Profile]** definição de metas ao criar a configuração do evento, a mensagem de acompanhamento também impulsionará o banco de dados de marketing do Adobe Campaign. See [Profile transactional messages](../../channels/using/profile-transactional-messages.md).
 
