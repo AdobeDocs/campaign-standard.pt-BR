@@ -1,8 +1,6 @@
 ---
 title: Entrega por email
-seo-title: Entrega por email
-description: Entrega por email
-seo-description: A atividade de entrega de email permite configurar o envio de um único email de envio ou de um email recorrente em um fluxo de trabalho.
+description: A atividade de entrega de email permite configurar o envio de um único email de envio ou de um email recorrente em um fluxo de trabalho.
 page-status-flag: nunca ativado
 uuid: 7de53431-84ae-4d21-8361-2775ad314ed2
 contentOwner: molviato
@@ -15,7 +13,7 @@ context-tags: entrega,fluxo de trabalho,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
