@@ -1,8 +1,6 @@
 ---
-title: Monitoramento de um delivery
-seo-title: Monitoramento de um delivery
-description: Monitoramento de um delivery
-seo-description: Descubra como monitorar uma entrega.
+title: Monitoramento de uma entrega
+description: Descubra como monitorar uma entrega.
 page-status-flag: nunca ativado
 uuid: 7772c607-debd-40fd-8322-4d49119979b4
 contentOwner: molviato
@@ -15,12 +13,12 @@ context-tags: entrega,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Monitoramento de um delivery{#monitoring-a-delivery}
+# Monitoramento de uma entrega{#monitoring-a-delivery}
 
 Há várias maneiras de monitorar uma entrega e medir seu impacto:
 
@@ -44,7 +42,7 @@ Há várias maneiras de monitorar uma entrega e medir seu impacto:
 
 **Tópicos relacionados:**
 
-* [Recebendo alertas quando ocorrem falhas](../../sending/using/receiving-alerts-when-failures-happen.md)
+* [Receber alertas quando ocorrerem falhas](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Relatórios](../../reporting/using/about-dynamic-reports.md)
 
 ## Logs de entrega {#delivery-logs}
