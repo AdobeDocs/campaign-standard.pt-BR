@@ -1,8 +1,6 @@
 ---
-title: Notas de versão de 2018
-seo-title: Notas de versão de 2018
-description: Notas de versão de 2018
-seo-description: Esta página lista todas as versões 2018 do Adobe Campaign Standard.
+title: Notas de versão 2018
+description: Esta página lista todas as versões 2018 do Adobe Campaign Standard.
 page-status-flag: nunca ativado
 uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
 contentOwner: molviato
@@ -14,12 +12,12 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Release Notes 2018{#release-notes}
+# Notas de versão 2018{#release-notes}
 
 Procurando uma versão específica de 2018 do Adobe Campaign Standard?
 
