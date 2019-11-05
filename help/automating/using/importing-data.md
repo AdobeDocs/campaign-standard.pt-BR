@@ -1,8 +1,6 @@
 ---
 title: Importação de dados
-seo-title: Importação de dados
-description: Importação de dados
-seo-description: Saiba como importar dados com um fluxo de trabalho.
+description: Saiba como importar dados com um fluxo de trabalho.
 page-status-flag: nunca ativado
 uuid: d909d26a-cf50-46af-ae09-f0fd7258ca27
 contentOwner: molviato
@@ -14,7 +12,7 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
