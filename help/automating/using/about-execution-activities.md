@@ -1,39 +1,37 @@
 ---
-title: Sobre atividades de execução
-seo-title: Sobre atividades de execução
-description: Sobre atividades de execução
-seo-description: As atividades de execução estão disponíveis no lado esquerdo da tela.
+title: Sobre as atividades de execução
+description: As atividades de execução estão disponíveis no lado esquerdo da tela.
 page-status-flag: nunca ativado
-uuid: af 2 d 19 d 7-a 819-4064-806 f -46 e 946387799
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automatizando
-content-type: reference
-topic-tags: execução-atividades
-discoiquuid: b 1 c 53 b 8 f -4 e 8 d -4 a 10-8 b 01-4997 a 558 e 144
+uuid: af2d19d7-a819-4064-806f-46e946387799
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: automatização
+content-type: referência
+topic-tags: atividades de execução
+discoiquuid: b1c53b8f-4e8d-4a10-8b01-4997a558e144
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# About execution activities{#about-execution-activities}
+# Sobre as atividades de execução{#about-execution-activities}
 
-From the palette, on the left-hand side of the screen, unfold the **[!UICONTROL Execution]** section.
+Na paleta, no lado esquerdo da tela, desdobre a **[!UICONTROL Execution]** seção.
 
-As seguintes atividades são específicas para organizar e executar fluxos de trabalho. A principal tarefa é coordenar as outras atividades.
+As atividades a seguir são específicas para organizar e executar fluxos de trabalho. Sua principal tarefa é coordenar as outras atividades.
 
 ![](assets/wkf_execution_activities.png)
 
-**[!UICONTROL Execution]** A seção fornece as seguintes atividades:
+A **[!UICONTROL Execution]** seção fornece as seguintes atividades:
 
-* [Início e fim](../../automating/using/start-and-end.md)
+* [Iniciar e finalizar](../../automating/using/start-and-end.md)
 * [Fork](../../automating/using/fork.md)
-* [E ingressar e](../../automating/using/and-join.md)
-* [Programador](../../automating/using/scheduler.md)
-* [Aguarde](../../automating/using/wait.md)
+* [AND-join](../../automating/using/and-join.md)
+* [Agendador](../../automating/using/scheduler.md)
+* [Aguardar](../../automating/using/wait.md)
 * [Sinal externo](../../automating/using/external-signal.md)
 * [Teste](../../automating/using/test.md)
 
