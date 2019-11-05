@@ -1,8 +1,6 @@
 ---
 title: Enviar mensagens no fuso horário do destinatário
-seo-title: Enviar mensagens no fuso horário do destinatário
-description: Enviar mensagens no fuso horário do destinatário
-seo-description: Saiba como enviar mensagens no fuso horário do destinatário.
+description: Saiba como enviar mensagens no fuso horário do destinatário.
 page-status-flag: nunca ativado
 uuid: 70228c07-451f-4ddb-8d26-92a5a4814e3a
 contentOwner: molviato
@@ -14,7 +12,7 @@ discoiquuid: daa980ba-8c7c-4673-a68f-379d63e4b8bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -32,7 +30,7 @@ Para enviar uma entrega no fuso horário do destinatário, você também pode us
 No exemplo a seguir, queremos enviar um código promocional válido apenas no Dia dos Namorados para todos os clientes em todo o mundo. Para fornecer tempo suficiente para usá-lo durante o dia, todos os clientes devem receber sua mensagem em 14 de fevereiro às 8:00, dependendo de seus fusos horários.
 
 1. Na **[!UICONTROL Marketing activities]** guia, comece a criar sua entrega, no nosso caso, um email. Para saber mais sobre a criação da entrega, consulte esta [seção](../../channels/using/creating-an-email.md).
-1. Depois de criar o email Dia dos namorados, clique em **[!UICONTROL Create]** para acessar o painel de entrega. Para obter mais informações sobre o design de email, consulte esta [página](../../designing/using/personalization.md#example-email-personalization).
+1. Depois de criar o email Dia dos namorados, clique em **[!UICONTROL Create]** para acessar o painel de entrega. For more on email designing, refer to this [page](../../designing/using/personalization.md#example-email-personalization).
 
    ![](assets/send-time_opt_valentine_1.png)
 
