@@ -1,8 +1,6 @@
 ---
 title: Personalização de uma notificação por push
-seo-title: Personalização de uma notificação por push
-description: Personalização de uma notificação por push
-seo-description: Saiba como personalizar suas notificações por push com várias opções avançadas.
+description: Saiba como personalizar suas notificações por push com várias opções avançadas.
 page-status-flag: nunca ativado
 uuid: 8cf74cad-b1ba-4aad-83bd-7289cb22d5f4
 contentOwner: molviato
@@ -15,7 +13,7 @@ context-tags: entrega,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 12134f388c6406b1b7c5821a1ae49c2332ae33cb
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
