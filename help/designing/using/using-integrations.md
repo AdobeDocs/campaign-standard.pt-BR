@@ -1,8 +1,6 @@
 ---
 title: 'Criação de emails por meio de integrações do Adobe Campaign '
-seo-title: 'Criação de emails por meio de integrações do Adobe Campaign  '
-description: 'Criação de emails por meio de integrações do Adobe Campaign '
-seo-description: Descubra como criar emails por meio das integrações do Adobe Campaign no Designer de email.
+description: Descubra como criar emails por meio das integrações do Adobe Campaign no Designer de email.
 page-status-flag: nunca ativado
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: molviato
@@ -14,11 +12,11 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
-# Design de e-mail de várias soluções {#multi-solution-email-design}
+# Design de email de várias soluções {#multi-solution-email-design}
 
 ## Editar conteúdo no Dreamweaver {#editing-content-in-dreamweaver}
 
@@ -50,7 +48,7 @@ O Adobe Campaign oferece várias opções de criação de email. O quadro abaixo
  <thead> 
   <tr> 
    <th> </th> 
-   <th> Designer de email<br /> </th> 
+   <th> Email Designer<br /> </th> 
    <th> Experience Manager<br /> </th> 
    <th> Dreamweaver<br /> </th> 
   </tr> 
@@ -129,7 +127,7 @@ O Adobe Campaign oferece várias opções de criação de email. O quadro abaixo
   <tr> 
    <td> <strong>Para saber mais</strong><br /> </td> 
    <td> Consulte <a href="../../designing/using/overview.md">Sobre o Designer de email</a><br /> </td> 
-   <td> Consulte <a href="../../integrating/using/integrating-with-experience-manager.md">Integração com o Experience Manager</a><br /> </td> 
+   <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a><br /> </td> 
    <td> Consulte <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver e Campaign</a> e assista a este <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">vídeo</a><br /> </td> 
   </tr> 
  </tbody> 
