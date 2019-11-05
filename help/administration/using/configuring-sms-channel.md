@@ -1,8 +1,6 @@
 ---
 title: Configuração do canal SMS
-seo-title: Configuração do canal SMS
-description: Configuração do canal SMS
-seo-description: '"Descubra as etapas de configuração do SMS: roteamento, codificação, formatos e propriedades avançadas. "'
+description: '"Descubra as etapas de configuração do SMS: roteamento, codificação, formatos e propriedades avançadas. "'
 page-status-flag: nunca ativado
 uuid: 5f13dbd5-9522-4199-8d9a-44c397cb2458
 contentOwner: molviato
@@ -15,7 +13,7 @@ context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c455e965d21996ffbadeddf336c6709ce8ee8f3
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
