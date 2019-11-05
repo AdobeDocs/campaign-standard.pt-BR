@@ -1,8 +1,6 @@
 ---
 title: Definição de texto dinâmico
-seo-title: Definição de texto dinâmico
-description: Definição de texto dinâmico
-seo-description: Saiba como exibir textos diferentes dinamicamente para o usuário de acordo com as condições definidas no Adobe Campaign.
+description: Saiba como exibir textos diferentes dinamicamente para o usuário de acordo com as condições definidas no Adobe Campaign.
 page-status-flag: nunca ativado
 uuid: bbcd200c-4fb4-467b-ba39-09b8bee9bcaa
 contentOwner: molviato
@@ -14,7 +12,7 @@ discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
