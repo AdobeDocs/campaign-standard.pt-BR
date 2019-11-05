@@ -1,8 +1,6 @@
 ---
 title: Uso do Designer de email
-seo-title: Uso do Designer de email
-description: Uso do Designer de email
-seo-description: Descubra o Designer de email e como ele ativa o conteúdo de design de email.
+description: Descubra o Designer de email e como ele ativa o conteúdo de design de email.
 page-status-flag: nunca ativado
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: molviato
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
