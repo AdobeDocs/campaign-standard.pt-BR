@@ -1,36 +1,34 @@
 ---
-title: Sobre aceitação e exclusão no Campaign
-seo-title: Sobre aceitação e exclusão no Campaign
-description: Sobre aceitação e exclusão no Campaign
-seo-description: Recusar (ou lista negra) resulta em um perfil não sendo mais direcionado por qualquer entrega ou por entregas de um canal específico.
+title: Sobre participação e não participação no Campaign
+description: A recusa (ou a lista negra) resulta em um perfil que não é mais direcionado por nenhuma entrega ou por entregas de um canal específico.
 page-status-flag: nunca ativado
-uuid: 501 d 9485-976 b -4 de 7-b 242-6886 f 2814 c 6 c
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: públicos-alvo
-content-type: reference
-topic-tags: entendendo os processos de participação e opt-out
-discoiquuid: 2 f 26 ec 22-0809-4541-b 2 a 1-e 84 ff 868 ba 6 e
+uuid: 501d9485-976b-4de7-b242-6886f2814c6c
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: referência
+topic-tags: processos de aceitação-participação e opção-não-participação
+discoiquuid: 2f26ec22-0809-4541-b2a1-e84ff868ba6e
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# About opt-in and opt-out in Campaign{#about-opt-in-and-opt-out-in-campaign}
+# Sobre participação e não participação no Campaign{#about-opt-in-and-opt-out-in-campaign}
 
-Recusar (ou lista negra) resulta em um perfil não sendo mais direcionado por qualquer entrega ou por entregas de um canal específico.
+A recusa (ou a lista negra) resulta em um perfil que não é mais direcionado por nenhuma entrega ou por entregas de um canal específico.
 
-Para conceder perfis a possibilidade de aceitar ou recusar, é necessário criar uma página de aterrissagem dedicada. For more on this, refer to [Setting up opt-in and opt-out landing pages](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#setting-up-opt-in-and-opt-out-landing-pages).
+Para dar aos perfis a capacidade de aceitar ou rejeitar, é necessário criar uma página de aterrissagem dedicada. Para obter mais informações, consulte [Configuração de páginas](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#setting-up-opt-in-and-opt-out-landing-pages)iniciais de aceitação e não participação.
 
-Os perfis também podem ser admitidos ou enviados manualmente por um operador. For more on this, refer to [Managing opt-in and opt-out from a profile](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
+Os perfis também podem ser optados ou removidos manualmente por um operador. Para obter mais informações, consulte [Gerenciamento de participação e não participação em um perfil](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
 
-Os perfis de opção são excluídos automaticamente durante a análise de entrega para acelerar as entregas (a taxa de erro tem um efeito significativo na velocidade de entrega).
+Os perfis de não participação são excluídos automaticamente durante a análise de entrega para acelerar as entregas (a taxa de erro tem um efeito significativo na velocidade de entrega).
 
 >[!NOTE]
 >
->Opt-out applies to **Profiles**, as opposed to quarantine which is linked to an **email address** or **phone number**. Portanto, recusar um perfil excluirá de entregas todos os endereços vinculados a ela. Se um usuário tiver dois perfis no banco de dados, ele ainda será direcionado por entregas, pois apenas um dos perfis é cancelado. Para garantir que todos os adições sejam excluídos, adicione-os aos endereços de quarentena. For more on this, refer to [this page](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
+>A opção de não participação se aplica a **Perfis**, em vez de quarentena, vinculada a um endereço **de** email ou número **de** telefone. A recusa de um perfil excluirá, portanto, das entregas todos os endereços vinculados a ele. Se um usuário tiver dois perfis no banco de dados, ele ainda será direcionado por entregas, pois apenas um de seus perfis é a opção de não participação. Para certificar-se de que todos os seus endereços sejam excluídos, adicione-os aos endereços das quarentena. Para obter mais informações, consulte [esta página](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
 
 For more on services subscriptions, refer to [this page](../../audiences/using/about-subscriptions.md).
