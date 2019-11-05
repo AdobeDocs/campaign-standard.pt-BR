@@ -1,8 +1,6 @@
 ---
-title: Definição do conteúdo de mala direta
-seo-title: Definição do conteúdo de mala direta
-description: Definição do conteúdo de mala direta
-seo-description: Saiba como definir o conteúdo para a entrega de mala direta.
+title: Definição do conteúdo de correio direto
+description: Saiba como definir o conteúdo para a entrega de mala direta.
 page-status-flag: nunca ativado
 uuid: c1234c06-4d22-46d7-ad1b-3c88660f9b06
 contentOwner: molviato
@@ -15,12 +13,12 @@ context-tags: entrega,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Definição do conteúdo de mala direta{#defining-the-direct-mail-content}
+# Definição do conteúdo de correio direto{#defining-the-direct-mail-content}
 
 Você pode definir o conteúdo na última tela do assistente de criação ou clicando na seção **Conteúdo** do painel de entrega.
 
