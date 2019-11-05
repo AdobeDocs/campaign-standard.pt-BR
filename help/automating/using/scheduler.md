@@ -1,79 +1,77 @@
 ---
-title: Programador
-seo-title: Programador
-description: Programador
-seo-description: A atividade do Agendador permite programar quando um fluxo de trabalho ou uma atividade é iniciada.
+title: Agendador
+description: A atividade do Agendador permite agendar quando um fluxo de trabalho ou uma atividade é iniciada.
 page-status-flag: nunca ativado
-uuid: f 5 e 50 a 11-8 dc 9-4 d 98-9531-024 c 0 fb 3 f 7 da
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automatizando
-content-type: reference
-topic-tags: execução-atividades
-discoiquuid: 0 fb 16 cea -3941-404 f -899 c -33 f 81 ed 4 ed 5
-context-tags: programação, principal
+uuid: f5e50a11-8dc9-4d98-9531-024c0fb3f7da
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: automatização
+content-type: referência
+topic-tags: atividades de execução
+discoiquuid: 0fb16cea-3941-404f-899c-33f81ced4ed5
+context-tags: agendamento, principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3216d09e18cd249e3f2a6aae74254bc172538810
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Scheduler{#scheduler}
+# Agendador{#scheduler}
 
-## Description {#description}
+## Descrição {#description}
 
 ![](assets/scheduler.png)
 
-The **[!UICONTROL Scheduler]** activity allows you to schedule when a workflow or an activity is started.
+A **[!UICONTROL Scheduler]** atividade permite programar quando um fluxo de trabalho ou uma atividade é iniciada.
 
-## Context of use {#context-of-use}
+## Contexto de utilização {#context-of-use}
 
-**[!UICONTROL Scheduler]** A atividade deve ser considerada como um início programado. The activity positioning rules within the chart are the same as for the **[!UICONTROL Start]** activity. Essa atividade não deve ter uma transição de entrada.
+The **[!UICONTROL Scheduler]** activity should be considered as a scheduled start. The activity positioning rules within the chart are the same as for the **[!UICONTROL Start]** activity. Esta atividade não deve ter uma transição de entrada.
 
-When building your workflow, only use one **[!UICONTROL Scheduler]** activity per branch and remember to set a time zone. Ele será definido, caso contrário, será executado no fuso horário do servidor.
+Ao criar seu fluxo de trabalho, use apenas uma **[!UICONTROL Scheduler]** atividade por ramificação e lembre-se de definir um fuso horário. Caso contrário, ele será configurado para ser executado no fuso horário do servidor.
 
 >[!CAUTION]
 >
->The **[!UICONTROL Repetition frequency]** of the activity cannot be less than 10 minutes. Isso significa que um fluxo de trabalho não pode ser executado automaticamente mais de uma vez a cada 10 minutos.
+>A atividade **[!UICONTROL Repetition frequency]** não pode ser inferior a 10 minutos. Isso significa que um fluxo de trabalho não pode ser executado automaticamente mais de uma vez a cada 10 minutos.
 
-## Configuration {#configuration}
+## Configuração {#configuration}
 
-1. Drag and drop a **[!UICONTROL Scheduler]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Specify the **[!UICONTROL Execution frequency]**:
+1. Arraste e solte uma **[!UICONTROL Scheduler]** atividade em seu fluxo de trabalho.
+1. Selecione a atividade e abra-a usando o ![](assets/edit_darkgrey-24px.png) botão das ações rápidas que aparecem.
+1. Especifique o **[!UICONTROL Execution frequency]**:
 
-   * **[!UICONTROL Once]**: o fluxo de trabalho é executado em um único momento.
-   * **[!UICONTROL Several times a day]**: o fluxo de trabalho é executado regularmente várias vezes por dia. Você pode configurar execuções em horários específicos ou periodicamente.
+   * **[!UICONTROL Once]**: o fluxo de trabalho é executado uma única vez.
+   * **[!UICONTROL Several times a day]**: o fluxo de trabalho é executado regularmente várias vezes ao dia. Você pode configurar execuções em momentos específicos ou periodicamente.
    * **[!UICONTROL Daily]**: o fluxo de trabalho é executado em um horário específico, uma vez por dia.
-   * **[!UICONTROL Weekly]**: o fluxo de trabalho é executado em um momento especificado, uma vez ou várias vezes uma semana.
-   * **[!UICONTROL Monthly]**: o fluxo de trabalho é executado em um momento especificado, uma vez ou várias vezes por mês. Você pode selecionar meses, quando precisar executar o fluxo de trabalho. Também é possível configurar execuções no dia da semana especificado do mês, como o segundo terça-feira do mês.
-   * **[!UICONTROL Yearly]**: o fluxo de trabalho é executado em um momento especificado, uma vez ou várias vezes por ano.
+   * **[!UICONTROL Weekly]**: o fluxo de trabalho é executado em um momento especificado, uma ou várias vezes por semana.
+   * **[!UICONTROL Monthly]**: o fluxo de trabalho é executado em um momento especificado, uma ou várias vezes por mês. Você pode selecionar meses quando precisar que o fluxo de trabalho seja executado. Você também pode configurar execuções em determinados dias da semana do mês, como a segunda terça do mês.
+   * **[!UICONTROL Yearly]**: o fluxo de trabalho é executado em um momento especificado, uma ou várias vezes por ano.
 
 1. Defina os detalhes da execução de acordo com a frequência selecionada. Os campos de detalhes podem variar dependendo da frequência usada (tempo, frequência de repetição, dias especificados etc.).
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Repetition frequency]** field allows you to space out the times when the workflow is triggered. For example, if you select a daily execution period and the repetition frequency is set at **2** (days), the workflow will be triggered every two days. Não pode ser menor que 10 minutos. If the repetition frequency is set at **0** (also the default value), this option is not taken into account and the workflow will run according to the execution frequency specified.
+   >O **[!UICONTROL Repetition frequency]** campo permite que você esvazie as horas em que o fluxo de trabalho é acionado. Por exemplo, se você selecionar um período de execução diária e a frequência de repetição for definida em **2** (dias), o fluxo de trabalho será acionado a cada dois dias. Não pode ser inferior a 10 minutos. Se a frequência de repetição for definida como **0** (também o valor padrão), essa opção não será considerada e o fluxo de trabalho será executado de acordo com a frequência de execução especificada.
 
 1. Especifique quando a execução expirará:
 
-   * **[!UICONTROL Never]**: o fluxo de trabalho será executado, de acordo com a frequência especificada, sem limites para o período ou o número de iterações.
-   * **[!UICONTROL After a certain number of iterations]**: o fluxo de trabalho será executado de acordo com a frequência especificada, até que o limite de **X** seja atingido. The **[!UICONTROL Number of iterations]** will therefore need to be specified.
-   * **[!UICONTROL On a specific date]**: o fluxo de trabalho será executado de acordo com a frequência especificada, até uma data específica. O prazo da execução precisará ser especificado.
+   * **[!UICONTROL Never]**: o fluxo de trabalho será executado, de acordo com a frequência especificada, sem limites para o período ou número de iterações.
+   * **[!UICONTROL After a certain number of iterations]**: o fluxo de trabalho será executado de acordo com a frequência especificada, até que o limite de **X** seja atingido. É, pois, necessário **[!UICONTROL Number of iterations]** especificar esse aspecto.
+   * **[!UICONTROL On a specific date]**: o fluxo de trabalho será executado de acordo com a frequência especificada, até uma data específica. O prazo de execução deverá, por conseguinte, ser especificado.
 
-1. Check the schedule of the next ten executions of your workflow by clicking **[!UICONTROL Preview next executions]**.
+1. Verifique a programação das próximas dez execuções do fluxo de trabalho clicando em **[!UICONTROL Preview next executions]**.
 
-1. In the **[!UICONTROL Execution options]** tab, set up the time zone for your scheduler in the **[!UICONTROL Time zone]** field. Isso permite iniciar o fluxo de trabalho em um fuso horário específico, caso contrário, o fluxo de trabalho será executado no fuso horário do servidor por padrão.
+1. Na **[!UICONTROL Execution options]** guia, configure o fuso horário para seu programador no **[!UICONTROL Time zone]** campo. Isso permite iniciar seu fluxo de trabalho em um fuso horário específico, caso contrário, o fluxo de trabalho será executado no fuso horário do servidor por padrão.
 
-   For more information on sending delivery depending on the recipient's time zone, refer to this [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) or this [example](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow) of a recurring workflow.
+   Para obter mais informações sobre como enviar a entrega, dependendo do fuso horário do destinatário, consulte esta [seção](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) ou este [exemplo](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow) de um fluxo de trabalho recorrente.
 
-1. Confirme a configuração da atividade e salve seu fluxo de trabalho.
+1. Confirme a configuração da atividade e salve o fluxo de trabalho.
 
-## Example {#example}
+## Exemplo {#example}
 
-No exemplo a seguir, a atividade está configurada para que inicie o fluxo de trabalho semanalmente, a cada segunda segunda-feira, às 7 h, para uma duração indeterminada.
+No exemplo a seguir, a atividade é configurada para que inicie o fluxo de trabalho semanalmente, a cada segunda às 7h, por uma duração indeterminada.
 
 ![](assets/wkf_scheduler_example.png)
 
