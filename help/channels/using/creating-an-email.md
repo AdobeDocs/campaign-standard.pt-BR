@@ -1,8 +1,6 @@
 ---
-title: Criação de um email
-seo-title: Criação de um email
-description: Criação de um email
-seo-description: Siga estas etapas para criar um email de envio único no Adobe Campaign.
+title: Criação de um de email
+description: Siga estas etapas para criar um email de envio único no Adobe Campaign.
 page-status-flag: nunca ativado
 uuid: 74c7ef35-82c0-4bc4-b1f6-8e74fdcaea3c
 contentOwner: molviato
@@ -14,12 +12,12 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68d96b23f34f505c0a47a74a5e33bc3530fc4d72
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Criação de um email{#creating-an-email}
+# Criação de um de email{#creating-an-email}
 
 Você pode criar um email de uma [campanha](../../start/using/marketing-activities.md#creating-a-marketing-activity), da [página](../../start/using/interface-description.md#home-page)inicial do Adobe Campaign ou da lista [de atividades de](../../start/using/marketing-activities.md#about-marketing-activities)marketing. Também é possível criar emails recorrentes e de envio único a partir de um fluxo de trabalho.
 
@@ -64,7 +62,7 @@ Você pode criar um email de uma [campanha](../../start/using/marketing-activiti
 
    O painel de email é exibido. Permite que você verifique sua mensagem e [prepare o envio](../../sending/using/preparing-the-send.md).
 
-   O **[!UICONTROL Edit properties]** botão no canto superior direito permite que você edite as propriedades do email. Por exemplo, é possível configurar o email para que seu rótulo seja calculado no momento da preparação da entrega.  Os parâmetros disponíveis estão listados [nesta seção](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+   O **[!UICONTROL Edit properties]** botão no canto superior direito permite que você edite as propriedades do email. Por exemplo, é possível configurar o email para que seu rótulo seja calculado no momento da preparação da entrega.  Available parameters are listed in [this section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/delivery_dashboard_2.png)
 
@@ -72,7 +70,7 @@ Você pode criar um email de uma [campanha](../../start/using/marketing-activiti
 
    ![](assets/delivery_planning.png)
 
-1. Prepare sua mensagem para analisar sua meta. Consulte [Preparação do envio](../../sending/using/confirming-the-send.md).
+1. Prepare sua mensagem para analisar sua meta. See [Preparing the send](../../sending/using/confirming-the-send.md).
 
    ![](assets/preparing_delivery_2.png)
 
@@ -90,7 +88,7 @@ Você pode criar um email de uma [campanha](../../start/using/marketing-activiti
 
 1. Meça o impacto de sua mensagem com os relatórios de entrega. Para obter mais informações sobre relatórios, consulte [esta seção](../../reporting/using/about-dynamic-reports.md).
 
-**Tópicos** relacionados:
+**Tópicos relacionados**:
 
 * [Criação de um vídeo de email](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html)
 * [Criação de um guia passo a passo de email](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedEmail.html) personalizado
