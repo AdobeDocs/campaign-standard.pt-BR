@@ -1,79 +1,77 @@
 ---
-title: Exportação de logs
-seo-title: Exportação de logs
-description: Exportação de logs
-seo-description: Os dados de log, relacionados a entregas ou assinaturas, podem ser exportados por meio de um fluxo de trabalho simples.
+title: Exportar logs
+description: Os dados de log, sejam relacionados a entregas ou assinaturas, podem ser exportados por meio de um fluxo de trabalho simples.
 page-status-flag: nunca ativado
-uuid: 954 e 919 c -0 a 33-47 c 3-9 a 3 c -63 c 7 a 2 a 4 edc 4
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automatizando
-content-type: reference
+uuid: 954e919c-0a33-47c3-9a3c-63c7a2a4edc4
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: automatização
+content-type: referência
 topic-tags: importar e exportar dados
-discoiquuid: ca 8 a 95 d 8-523 f -4085-a 2 fc-e 1 d 8262 cfbae
+discoiquuid: ca8a95d8-523f-4085-a2fc-e1d8262cfbae
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 36727e82d3aa73add6116fa2916752ff0e407d9d
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Exporting logs{#exporting-logs}
+# Exportar logs{#exporting-logs}
 
-Os dados de log, relacionados a entregas ou assinaturas, podem ser exportados por meio de um fluxo de trabalho simples. Isso permite analisar os resultados de suas campanhas em seu próprio relatório ou ferramenta BI.
+Os dados de log, sejam relacionados a entregas ou assinaturas, podem ser exportados por meio de um fluxo de trabalho simples. Ele permite que você analise os resultados de suas campanhas em sua própria ferramenta de relatório ou BI.
 
-By using an **[!UICONTROL Incremental query]** that only retrieves new logs every time the workflow is executed and a simple **[!UICONTROL Extract file]** activity to define the output columns, you can get a file with the format and all the data you need. Then use a **[!UICONTROL Transfer file]** activity to retrieve the final file. Each workflow execution is planned by a **[!UICONTROL Scheduler]**.
+Ao usar um arquivo **[!UICONTROL Incremental query]** que recupera novos logs toda vez que o fluxo de trabalho é executado e uma **[!UICONTROL Extract file]** atividade simples para definir as colunas de saída, você pode obter um arquivo com o formato e todos os dados necessários. Em seguida, use uma **[!UICONTROL Transfer file]** atividade para recuperar o arquivo final. Cada execução de fluxo de trabalho é planejada por um **[!UICONTROL Scheduler]**.
 
-A operação de logs de exportação pode ser executada por usuários padrão. Private resources such as: broadlogs, tracking logs, exclusion logs subscription logs and subscription history logs on **Profiles** can only be managed by functional administrator.
+A operação de logs de exportação pode ser realizada por usuários padrão. Recursos privados como: os logs de publicações, registros de rastreamento, registros de exclusão, registros de assinatura e registros do histórico de assinaturas em **Perfis** só podem ser gerenciados pelo administrador funcional.
 
-1. Create a new workflow as detailed in [this section](../../automating/using/building-a-workflow.md#creating-a-workflow).
-1. Add a **[!UICONTROL Scheduler]** activity and set it according to your needs. Abaixo está um exemplo de execução mensal.
+1. Crie um novo fluxo de trabalho conforme detalhado [nesta seção](../../automating/using/building-a-workflow.md#creating-a-workflow).
+1. Adicione uma **[!UICONTROL Scheduler]** atividade e defina-a de acordo com suas necessidades. Abaixo está um exemplo de uma execução mensal.
 
    ![](assets/export_logs_scheduler.png)
 
-1. Add an **[!UICONTROL Incremental query]** activity and configure it so that it selects the logs you need. Por exemplo, para selecionar todos os logs broadnovos ou atualizados (logs de entrega de perfil):
+1. Adicione uma **[!UICONTROL Incremental query]** atividade e configure-a para que ela selecione os registros necessários. Por exemplo, para selecionar todos os blogs novos ou atualizados (registros de entrega de perfil):
 
-   * In the **[!UICONTROL Properties]** tab, change the target resource to **Delivery logs** (broadLogRcp).
+   * Na **[!UICONTROL Properties]** guia, altere o recurso de destino para Registros **de** entrega (wideLogRcp).
 
       ![](assets/export_logs_query_properties.png)
 
-   * In the **[!UICONTROL Target]** tab, set a condition to retrieve all delivery logs that correspond to deliveries sent in 2016 or after. For more information, refer to the [Editing queries](../../automating/using/editing-queries.md#creating-queries) section.
+   * Na **[!UICONTROL Target]** guia, defina uma condição para recuperar todos os logs de entrega que correspondem às entregas enviadas em 2016 ou depois. For more information, refer to the [Editing queries](../../automating/using/editing-queries.md#creating-queries) section.
 
       ![](assets/export_logs_query_target.png)
 
-   * In the **[!UICONTROL Processed data]** tab, select **[!UICONTROL Use a date field]** and choose the **lastModified** field. Nas próximas execuções do fluxo de trabalho, apenas os logs que terão sido modificados ou criados após a última execução serão recuperados.
+   * Na **[!UICONTROL Processed data]** guia, selecione **[!UICONTROL Use a date field]** e escolha o campo **lastModifid** . Nas próximas execuções do fluxo de trabalho, somente os logs que serão modificados ou criados após a última execução serão recuperados.
 
       ![](assets/export_logs_query_processeddata.png)
 
-      Após a primeira execução do fluxo de trabalho, você pode ver nesta guia a última data de execução que será usada para a próxima execução. É automaticamente atualizado toda vez que o fluxo de trabalho é executado. Você ainda tem a possibilidade de substituir esse valor inserindo manualmente um novo para que ele se ajuste às suas necessidades.
+      Após a primeira execução do fluxo de trabalho, você pode ver nesta guia a última data de execução que será usada para a próxima execução. Ele é atualizado automaticamente toda vez que o fluxo de trabalho é executado. Você ainda tem a possibilidade de substituir esse valor inserindo manualmente um novo para que ele se ajuste às suas necessidades.
 
-1. Add an **[!UICONTROL Extract file]** activity that will export the queried data in a file:
+1. Adicione uma **[!UICONTROL Extract file]** atividade que exportará os dados consultados em um arquivo:
 
-   * In the **[!UICONTROL Extraction]** tab, specify the name of the file. Esse nome será automaticamente concluído com a data da exportação para garantir que todos os arquivos extraídos sejam exclusivos.
+   * Na **[!UICONTROL Extraction]** guia, especifique o nome do arquivo. Esse nome será automaticamente preenchido com a data da exportação para garantir que todos os arquivos extraídos sejam exclusivos.
 
-      Selecione as colunas que deseja exportar no arquivo. Você pode selecionar aqui dados provenientes de recursos relacionados, como informações de entrega ou perfil. Para organizar o arquivo final, é possível aplicar uma classificação. Por exemplo, na data de registro, como mostrado no exemplo abaixo.
+      Selecione as colunas que deseja exportar no arquivo. Você pode selecionar aqui os dados provenientes de recursos relacionados, como entrega ou informações de perfil. Para organizar o arquivo final, é possível aplicar uma classificação. Por exemplo, na data de registro, como mostrado no exemplo abaixo.
 
       ![](assets/export_logs_extractfile_extraction.png)
 
       >[!NOTE]
       >
-      >Não é possível exportar identificadores exclusivos (chaves primárias) dos recursos de log.
+      >Não é possível exportar identificadores exclusivos (chaves primárias) de recursos de log.
 
-   * In the **[!UICONTROL File structure]** tab, define the format of the output file to match your needs.
+   * Na **[!UICONTROL File structure]** guia, defina o formato do arquivo de saída para corresponder às suas necessidades.
 
-      Check the **[!UICONTROL Export labels instead of internal values of enumerations]** option in case you export enumeration values. Essa opção permite recuperar rótulos mais curtos que são fáceis de entender em vez de IDs.
+      Marque a **[!UICONTROL Export labels instead of internal values of enumerations]** opção caso você exporte valores de enumeração. Essa opção permite recuperar rótulos mais curtos, fáceis de entender em vez de IDs.
 
-1. Add a **[!UICONTROL Transfer file]** activity and configure it to transfer the newly created file from the Adobe Campaign server to another location where you can access it, such as a SFTP server.
+1. Adicione uma **[!UICONTROL Transfer file]** atividade e configure-a para transferir o arquivo recém-criado do servidor Adobe Campaign para outro local onde você possa acessá-la, como um servidor SFTP.
 
-   * In the **[!UICONTROL General]** tab, select **[!UICONTROL File upload]** as the purpose is to send the file from Adobe Campaign to another server.
-   * In the **[!UICONTROL Protocol]** tab, specify the transfer parameters and select the [external account](../../administration/using/external-accounts.md#creating-an-external-account) to use.
+   * Na **[!UICONTROL General]** guia, selecione **[!UICONTROL File upload]** a finalidade de enviar o arquivo do Adobe Campaign para outro servidor.
+   * Na **[!UICONTROL Protocol]** guia, especifique os parâmetros de transferência e selecione a conta [](../../administration/using/external-accounts.md#creating-an-external-account) externa a ser usada.
 
-1. Add an **[!UICONTROL End]** activity to make sure it properly ends and save your workflow.
+1. Adicione uma **[!UICONTROL End]** atividade para garantir que ela termine e salve seu fluxo de trabalho corretamente.
 
    ![](assets/export_logs_example_workflow.png)
 
-Agora é possível executar o fluxo de trabalho e recuperar o arquivo de saída no servidor externo.
+Agora você pode executar o fluxo de trabalho e recuperar o arquivo de saída no servidor externo.
 
 **Tópico relacionado:**
 
