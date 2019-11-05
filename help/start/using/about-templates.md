@@ -1,8 +1,6 @@
 ---
-title: Sobre templates
-seo-title: Sobre templates
-description: Sobre templates
-seo-description: '"Os modelos do Adobe Campaign permitem pré-configurar parâmetros dependendo de suas necessidades: os modelos podem conter uma configuração completa ou parcial da atividade de marketing, para simplificar o uso do Adobe Campaign para usuários finais não técnicos."'
+title: Sobre os modelos
+description: '"Os modelos do Adobe Campaign permitem pré-configurar parâmetros dependendo de suas necessidades: os modelos podem conter uma configuração completa ou parcial da atividade de marketing, para simplificar o uso do Adobe Campaign para usuários finais não técnicos."'
 page-status-flag: nunca ativado
 uuid: 018534b6-61a3-433e-bb60-49883c8b9386
 contentOwner: molviato
@@ -14,12 +12,12 @@ discoiquuid: 95218ebe-5430-42a2-b900-1dadbc92d99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Sobre templates{#about-templates}
+# Sobre os modelos{#about-templates}
 
 ## Modelos de atividades de marketing {#marketing-activity-templates}
 
@@ -40,7 +38,7 @@ Os modelos estão disponíveis para as seguintes atividades de marketing:
 * Deliveries de email
 * Entregas SMS
 * Notificações por push
-* Landing pages
+* Páginas de aterrissagem
 * Fluxos de trabalho
 * Serviços
 * Importar
