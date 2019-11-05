@@ -1,8 +1,6 @@
 ---
-title: Sobre o Campaign-Audience Manager ou a integração dos principais serviços do público
-seo-title: Sobre o Campaign-Audience Manager ou a integração dos principais serviços do público
-description: Sobre o Campaign-Audience Manager ou a integração dos principais serviços do público
-seo-description: Com a integração do serviço principal Audience Manager/Pessoas, você pode compartilhar públicos-alvo ou segmentos em diferentes soluções da Adobe Experience Cloud.
+title: Sobre a integração Campaign-Audience Manager ou a dos principais serviços do People
+description: Com a integração do serviço principal Audience Manager/Pessoas, você pode compartilhar públicos-alvo ou segmentos em diferentes soluções da Adobe Experience Cloud.
 page-status-flag: nunca ativado
 uuid: 39e3c78e-cccd-4823-afe9-abc7f8aef034
 contentOwner: molviato
@@ -14,12 +12,12 @@ discoiquuid: bf718329-f181-46f7-80a2-b525a8dee46d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b4cf35fcbdee436ce3f9fa4aeb1b1fdd8609f50
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Sobre o Campaign-Audience Manager ou a integração dos principais serviços do público{#about-campaign-audience-manager-or-people-core-service-integration}
+# Sobre a integração Campaign-Audience Manager ou a dos principais serviços do People{#about-campaign-audience-manager-or-people-core-service-integration}
 
 O Adobe Campaign permite que você troque e compartilhe públicos-alvo/segmentos com os diferentes aplicativos da Adobe Experience Cloud. A integração do **Adobe Campaign** com o serviço **principal** Pessoas (também conhecido como serviço **principal** Perfis e públicos-alvo) ou o Adobe Audience Manager permite:
 
