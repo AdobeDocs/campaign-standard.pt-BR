@@ -1,8 +1,6 @@
 ---
 title: Sobre SMS e design de conteúdo de push
-seo-title: Sobre SMS e design de conteúdo de push
-description: Sobre SMS e design de conteúdo de push
-seo-description: Saiba mais sobre o editor usado para modificar o conteúdo de suas mensagens SMS e notificações por push no Adobe Campaign.
+description: Saiba mais sobre o editor usado para modificar o conteúdo de suas mensagens SMS e notificações por push no Adobe Campaign.
 page-status-flag: nunca ativado
 uuid: 99277e46-e4f7-49a9-ba27-b878780f90da
 contentOwner: molviato
@@ -15,7 +13,7 @@ context-tags: entrega,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -43,6 +41,6 @@ Para acessar o SMS e o editor de conteúdo de push:
 
 **Tópicos relacionados:**
 
-* [Criando uma mensagem SMS](../../channels/using/creating-an-sms-message.md)
+* [Criar uma mensagem SMS](../../channels/using/creating-an-sms-message.md)
 * [Criação e envio de notificações por push](../../channels/using/preparing-and-sending-a-push-notification.md)
 
