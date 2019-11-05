@@ -1,81 +1,79 @@
 ---
 title: Entrega no aplicativo
-seo-title: Entrega no aplicativo
-description: Entrega no aplicativo
-seo-description: A atividade de entrega dentro do aplicativo permite configurar o envio de uma mensagem no aplicativo dentro de um fluxo de trabalho.
+description: A atividade de entrega no aplicativo permite configurar o envio de uma mensagem no aplicativo em um fluxo de trabalho.
 page-status-flag: nunca ativado
-uuid: 528 d 9472-e 447-47 af-a 6 b 2-3181 aa 5 fb 5 anúncio
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automatizando
-content-type: reference
-topic-tags: channel-activities
-discoiquuid: 19796 aca -6 e 9 e -4 d 3 a -8917-ba 660 ec 7993 c
+uuid: 528d9472-e447-47af-a6b2-3181aa5fb5ad
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: automatização
+content-type: referência
+topic-tags: atividades de canal
+discoiquuid: 19796aca-6e9e-4d3a-8917-ba60ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 36727e82d3aa73add6116fa2916752ff0e407d9d
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# In-App delivery{#in-app-delivery}
+# Entrega no aplicativo{#in-app-delivery}
 
-## Description {#description}
+## Descrição {#description}
 
 ![](assets/wkf_in_app_1.png)
 
-The **In-App delivery** activity allows you to configure sending an In-App message within a workflow. As mensagens no aplicativo permitem exibir uma mensagem quando o usuário está ativo no aplicativo. For more information concerning the In-App delivery, refer to this [section](../../channels/using/about-in-app-messaging.md).
+A atividade de entrega **** no aplicativo permite configurar o envio de uma mensagem no aplicativo em um fluxo de trabalho. As mensagens no aplicativo permitem exibir uma mensagem quando o usuário está ativo no aplicativo. Para obter mais informações sobre a entrega no aplicativo, consulte esta [seção](../../channels/using/about-in-app-messaging.md).
 
-## Context of use {#context-of-use}
+## Contexto de utilização {#context-of-use}
 
-The **[!UICONTROL In-App delivery]** activity is generally used to automate sending an In-App message to a target audience calculated in the same workflow.
+A **[!UICONTROL In-App delivery]** atividade é geralmente usada para automatizar o envio de uma mensagem no aplicativo para um público-alvo calculado no mesmo fluxo de trabalho.
 
-Os destinatários são definidos como upstream da atividade no mesmo fluxo de trabalho, por atividades de definição de metas como consultas, interseções etc.
+Os destinatários são definidos como upstream da atividade no mesmo fluxo de trabalho, por meio de atividades de definição de metas, como consultas, interseções etc.
 
-A preparação de mensagens é acionada de acordo com os parâmetros de execução do fluxo de trabalho. No painel de mensagens, você pode selecionar se deseja ou não solicitar ou não uma confirmação manual para enviar a mensagem (obrigatório por padrão). Você pode iniciar o fluxo de trabalho manualmente ou colocar uma atividade de agendamento no fluxo de trabalho para automatizar a execução.
+A preparação da mensagem é acionada de acordo com os parâmetros de execução do fluxo de trabalho. No painel de mensagens, você pode selecionar se deseja solicitar ou não uma confirmação manual para enviar a mensagem (obrigatório por padrão). Você pode iniciar o fluxo de trabalho manualmente ou colocar uma atividade do programador no fluxo de trabalho para automatizar a execução.
 
-## Configuration {#configuration}
+## Configuração {#configuration}
 
-1. Drag and drop a **[!UICONTROL Query]** activity to your workflow. Please note that the **[!UICONTROL Query]** activity targeting dimension in the **[!UICONTROL Properties]** tab needs to be updated according to the template chosen in Step 4:
+1. Arraste e solte uma **[!UICONTROL Query]** atividade em seu fluxo de trabalho. Observe que a dimensão de direcionamento de **[!UICONTROL Query]** atividade na guia **[!UICONTROL Properties]** precisa ser atualizada de acordo com o modelo escolhido na Etapa 4:
 
-   * Targeting dimension should be set to **[!UICONTROL mobileApp (mobileAppV5)]** for the **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]** template.
-   * Targeting dimension should be set to **[!UICONTROL profile (profile)]** for the **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** template.
-   * Targeting dimension should be set to **[!UICONTROL subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** for the **[!UICONTROL Target users based on their Mobile profile (inApp)]** template.
+   * A dimensão de definição de metas deve ser definida como **[!UICONTROL mobileApp (mobileAppV5)]** para o **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]** modelo.
+   * A dimensão de definição de metas deve ser definida como **[!UICONTROL profile (profile)]** para o **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** modelo.
+   * A dimensão de definição de metas deve ser definida como **[!UICONTROL subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** para o **[!UICONTROL Target users based on their Mobile profile (inApp)]** modelo.
 
-1. Drag and drop a **[!UICONTROL In-App delivery]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
+1. Arraste e solte uma **[!UICONTROL In-App delivery]** atividade em seu fluxo de trabalho.
+1. Selecione a atividade e abra-a usando o ![](assets/edit_darkgrey-24px.png) botão das ações rápidas que aparecem.
 
    >[!NOTE]
    >
-   >You can access the general properties and advanced options of the activity (and not of the delivery itself) via the ![](assets/dlv_activity_params-24px.png) button from the activity's quick actions.
+   >Você pode acessar as propriedades gerais e as opções avançadas da atividade (e não da entrega em si) por meio do ![](assets/dlv_activity_params-24px.png) botão das ações rápidas da atividade.
 
    ![](assets/wkf_in_app_3.png)
 
-1. Selecione o tipo de mensagem no aplicativo. This will depend on the data targeted in your **[!UICONTROL Query]** activity.
+1. Selecione o tipo de mensagem no aplicativo. Isso dependerá dos dados direcionados na sua **[!UICONTROL Query]** atividade.
 
-   * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**: Este tipo de mensagem permite direcionar os perfis do Adobe Campaign que assinaram seu aplicativo móvel e personalizar mensagens no aplicativo com atributos de perfil disponíveis no Campaign.
-   * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**: Esse tipo de mensagem permite que você envie uma mensagem a todos os usuários do aplicativo móvel mesmo que eles não tenham um perfil existente no Campaign.
-   * **[!UICONTROL Target users based on their Mobile profile (inApp)]**: Este tipo de mensagem permite que você direcione todos os usuários de um aplicativo móvel que tenha um perfil móvel no Campaign seja conhecido ou desconhecido e para personalizar mensagens no aplicativo com quaisquer atributos de perfil obtidos de dispositivo móvel.
+   * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**: Esse tipo de mensagem permite direcionar perfis do Adobe Campaign que se inscreveram no aplicativo móvel e personalizar mensagens no aplicativo com atributos de perfil disponíveis no Campaign.
+   * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**: Esse tipo de mensagem permite que você envie uma mensagem para todos os usuários do aplicativo móvel mesmo se eles não tiverem um perfil existente no Campaign.
+   * **[!UICONTROL Target users based on their Mobile profile (inApp)]**: Esse tipo de mensagem permite direcionar todos os usuários de um aplicativo móvel que têm um perfil móvel no Campaign, seja conhecido ou desconhecido, e personalizar mensagens no aplicativo com qualquer atributo de perfil obtido do dispositivo móvel.
    ![](assets/wkf_in_app_4.png)
 
-1. Enter your In-App message properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field.
-1. In the **[!UICONTROL Triggers]** tab, drag and drop the event that will trigger your message. Três categorias de eventos estão disponíveis:
-1. Defina o conteúdo no aplicativo. Refer to the section concerning [In-App customization](../../channels/using/customizing-an-in-app-message.md).
-1. By default, the **[!UICONTROL In-App delivery]** activity does not include any outbound transitions. If you would like to add an outbound transition to your **[!UICONTROL In-App delivery]** activity, go to the **[!UICONTROL General]** tab of the advanced activity options ( ![](assets/dlv_activity_params-24px.png) button in the activity's quick actions) then check one of the following options:
+1. Insira as propriedades de mensagem no aplicativo e selecione o aplicativo móvel no **[!UICONTROL Associate a Mobile App to a delivery]** campo.
+1. Na **[!UICONTROL Triggers]** guia, arraste e solte o evento que acionará sua mensagem. Três categorias de eventos estão disponíveis:
+1. Defina o conteúdo no aplicativo. Consulte a seção sobre personalização [no aplicativo](../../channels/using/customizing-an-in-app-message.md).
+1. Por padrão, a **[!UICONTROL In-App delivery]** atividade não inclui nenhuma transição de saída. Se você deseja adicionar uma transição de saída à sua **[!UICONTROL In-App delivery]** atividade, vá para a **[!UICONTROL General]** guia das opções de atividade avançada ( ![](assets/dlv_activity_params-24px.png) botão nas ações rápidas da atividade) e verifique uma das seguintes opções:
 
-   * **[!UICONTROL Add outbound transition without the population]**: isso permite gerar uma transição de saída que contenha exatamente a mesma população que a transição de entrada.
-   * **[!UICONTROL Add outbound transition with the population]**: isso permite gerar uma transição de saída contendo a população para a qual a mensagem foi enviada. Os membros da meta excluída durante a preparação de entrega são excluídos desta transição.
+   * **[!UICONTROL Add outbound transition without the population]**: isso permite gerar uma transição de saída que contém exatamente a mesma população da transição de entrada.
+   * **[!UICONTROL Add outbound transition with the population]**: isso permite gerar uma transição de saída que contém a população para a qual a mensagem foi enviada. Os membros do alvo excluídos durante a preparação de entrega são excluídos desta transição.
    ![](assets/wkf_in_app_5.png)
 
-1. Confirme a configuração da atividade e salve seu fluxo de trabalho.
+1. Confirme a configuração da atividade e salve o fluxo de trabalho.
 
-Ao reabrir a atividade, você será direcionado diretamente para o painel no aplicativo. Somente seu conteúdo pode ser editado.
+Ao reabrir a atividade, você é direcionado diretamente para o painel no aplicativo. Somente seu conteúdo pode ser editado.
 
-Por padrão, iniciar um fluxo de trabalho de entrega apenas aciona a preparação de mensagens. O envio de mensagens criadas a partir de um fluxo de trabalho ainda precisa ser confirmado após a inicialização do fluxo de trabalho. But from the message dashboard, and only if the message was created from a workflow, you can disable the **[!UICONTROL Request confirmation before sending messages]** option. Ao desmarcar essa opção, as mensagens são enviadas sem aviso prévio após a conclusão da preparação.
+Por padrão, iniciar um fluxo de trabalho de entrega aciona somente a preparação da mensagem. O envio de mensagens criadas a partir de um fluxo de trabalho ainda precisa ser confirmado depois que o fluxo de trabalho for iniciado. Mas no painel de mensagens, e somente se a mensagem foi criada a partir de um fluxo de trabalho, você pode desativar a **[!UICONTROL Request confirmation before sending messages]** opção. Ao desmarcar essa opção, as mensagens são enviadas sem aviso prévio após a preparação.
 
-## Remarks {#remarks}
+## Observações {#remarks}
 
-As entregas criadas em um fluxo de trabalho podem ser acessadas na lista de atividades de marketing do aplicativo. Você pode visualizar o status de execução do fluxo de trabalho usando o painel. Os links no painel de resumo de notificações por push permitem acessar diretamente os elementos vinculados (fluxo de trabalho, campanha etc.).
+As entregas criadas em um fluxo de trabalho podem ser acessadas na lista de atividades de marketing do aplicativo. Você pode exibir o status de execução do fluxo de trabalho usando o painel. Os links no painel de resumo da notificação por push permitem acessar diretamente os elementos vinculados (fluxo de trabalho, campanha etc.).
 
-In the parent deliveries, which can be accessed from the marketing activity list, you can view the total number of sends that have been processed (according to the aggregation period specified when the **[!UICONTROL In-App delivery]** activity was configured). To do this, open the detail view of the parent delivery's **[!UICONTROL Deployment]** block by selecting ![](assets/wkf_dlv_detail_button.png).
+Nas entregas principais, que podem ser acessadas na lista de atividades de marketing, você pode exibir o número total de envios que foram processados (de acordo com o período de agregação especificado quando a **[!UICONTROL In-App delivery]** atividade foi configurada). Para fazer isso, abra a exibição detalhada do **[!UICONTROL Deployment]** bloco da entrega pai selecionando ![](assets/wkf_dlv_detail_button.png).
