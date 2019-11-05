@@ -1,8 +1,6 @@
 ---
 title: Conteúdo dinâmico e personalizado
-seo-title: Conteúdo dinâmico e personalizado
-description: Conteúdo dinâmico e personalizado
-seo-description: Com o Adobe Campaign, você pode usar as preferências e os dados do cliente para criar campanhas personalizadas por email, SMS, notificação por push, mensagens do InApp ou mala direta.
+description: Com o Adobe Campaign, você pode usar as preferências e os dados do cliente para criar campanhas personalizadas por email, SMS, notificação por push, mensagens do InApp ou mala direta.
 page-status-flag: nunca ativado
 uuid: a36a581e-25d4-426d-865a-c646519c961d
 contentOwner: molviato
@@ -14,7 +12,7 @@ discoiquuid: 7cbca5fb-a99b-43ea-b629-6236cf2a5ef4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
