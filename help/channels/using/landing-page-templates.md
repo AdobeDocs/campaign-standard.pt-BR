@@ -1,8 +1,6 @@
 ---
 title: Modelos de página de aterrissagem
-seo-title: Modelos de página de aterrissagem
-description: Modelos de página de aterrissagem
-seo-description: Saiba mais sobre os modelos de página inicial.
+description: Saiba mais sobre os modelos de página inicial.
 page-status-flag: nunca ativado
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: limatório
@@ -15,12 +13,12 @@ context-tags: landingPage,assistente;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9cdfafad7a2ac2db59b037962a84aa03568a55e6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Sobre modelos de página inicial {#landing-page-templates}
+# Sobre modelos de página de aterrissagem {#landing-page-templates}
 
 A campanha vem com um conjunto de modelos incorporados de página de aterrissagem:
 
