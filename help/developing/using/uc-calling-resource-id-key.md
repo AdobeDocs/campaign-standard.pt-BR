@@ -1,10 +1,8 @@
 ---
 title: Chamada de um recurso usando uma chave de identificação composta
-seo-title: Chamada de um recurso usando uma chave de identificação composta
-description: Chamada de um recurso usando uma chave de identificação composta
-seo-description: Saiba como chamar um recurso usando uma chave de identificação composta
+description: Saiba como chamar um recurso usando uma chave de identificação composta
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
