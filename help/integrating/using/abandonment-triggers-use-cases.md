@@ -1,8 +1,6 @@
 ---
-title: Acionadores de Abandono usam casos
-seo-title: Acionadores de Abandono usam casos
-description: Acionadores de Abandono usam casos
-seo-description: Saiba como usar a integração Experience Cloud Triggers com esses diferentes casos de uso.
+title: Casos de uso de abandono dos acionadores
+description: Saiba como usar a integração Experience Cloud Triggers com esses diferentes casos de uso.
 page-status-flag: nunca ativado
 uuid: 9e236165-afd5-4155-9151-c1941dc0af99
 contentOwner: molviato
@@ -14,12 +12,12 @@ discoiquuid: 1b9aeec5-70bb-4d72-a3e9-12342abf08f7
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Acionadores de Abandono usam casos{#abandonment-triggers-use-cases}
+# Casos de uso de abandono dos acionadores{#abandonment-triggers-use-cases}
 
 Esta seção apresenta casos de uso diferentes que podem ser implementados usando a integração entre os Acionadores do Adobe Campaign e da Experience Cloud. Você encontrará dois exemplos de casos de uso:
 
