@@ -1,8 +1,6 @@
 ---
-title: Entrega de mala direta
-seo-title: Entrega de mala direta
-description: Entrega de mala direta
-seo-description: A atividade de entrega de mala direta permite que você configure o envio de uma única mala direta de envio ou de uma mala direta recorrente em um fluxo de trabalho.
+title: Entrega por correio direto
+description: A atividade de entrega de mala direta permite que você configure o envio de uma única mala direta de envio ou de uma mala direta recorrente em um fluxo de trabalho.
 page-status-flag: nunca ativado
 uuid: bfa7b176-a17c-4079-a073-64b8ce4788ed
 contentOwner: molviato
@@ -15,12 +13,12 @@ context-tags: directMail,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Entrega de mala direta{#direct-mail-delivery}
+# Entrega por correio direto{#direct-mail-delivery}
 
 ## Descrição {#description}
 
