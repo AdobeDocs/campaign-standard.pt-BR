@@ -1,8 +1,6 @@
 ---
-title: Mensagens transacionais do evento
-seo-title: Mensagens transacionais do evento
-description: Mensagens transacionais do evento
-seo-description: Saiba como criar e publicar uma mensagem transacional de evento.
+title: Mensagens transacionais de evento
+description: Saiba como criar e publicar uma mensagem transacional de evento.
 page-status-flag: nunca ativado
 uuid: d747feb5-58fb-4e12-a176-404f0eca5391
 contentOwner: molviato
@@ -15,12 +13,12 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Mensagens transacionais do evento{#event-transactional-messages}
+# Mensagens transacionais de evento{#event-transactional-messages}
 
 Você pode enviar mensagens transacionais de evento direcionadas a um evento. Este tipo de mensagens transacionais não contém informações de perfil: o destino de entrega é definido pelos dados contidos no próprio evento.
 
