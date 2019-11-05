@@ -1,81 +1,79 @@
 ---
 title: Configuração da definição da tela
-seo-title: Configuração da definição da tela
-description: Configuração da definição da tela
-seo-description: Saiba como definir novas telas do Adobe Campaign com base na estrutura dos dados de recursos.
+description: Saiba como definir novas telas do Adobe Campaign com base na estrutura de dados de recursos.
 page-status-flag: nunca ativado
-uuid: 40848197-b 1 a 0-4018-bfc 3-7 df 64 fb 83307
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: developing
-content-type: reference
-topic-tags: adição ou extensão-a-resource
-discoiquuid: 9 dabb 328-ac 0 c -49 fd -8996-8 d 56341 ee 7 ac
-context-tags: Cusresource, main
+uuid: 40848197-b1a0-4018-bfc3-7df64fb83307
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: desenvolvimento
+content-type: referência
+topic-tags: adição ou extensão de um recurso
+discoiquuid: 9dabb328-ac0c-49fd-8996-8d56341ee7ac
+context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b3291f7c0cbede6a3180ad4a4ab8a365720f5031
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Configuring the screen definition{#configuring-the-screen-definition}
+# Configuração da definição da tela{#configuring-the-screen-definition}
 
-Ao criar um recurso ou ao adicionar novos campos a um recurso existente, você pode definir como deseja que eles sejam exibidos na interface.
+Ao criar um recurso ou ao adicionar novos campos a um recurso existente, você pode definir como deseja que eles apareçam na interface.
 
-Essa etapa não é obrigatória, pois você ainda poderá preencher seu recurso e acessar seus dados por meio de fluxos de trabalho, públicos-alvo e API REST.
+Esta etapa não é obrigatória, pois você ainda poderá preencher seu recurso e acessar seus dados por meio de fluxos de trabalho, públicos-alvo e REST API.
 
-In the **[!UICONTROL Screen definition]** tab, you can:
+Na **[!UICONTROL Screen definition]** guia, é possível:
 
 * Adicionar acesso ao recurso personalizado no painel de navegação
 * Personalizar a forma como a lista de elementos que compõem o recurso é apresentada
-* Defina a maneira como a exibição detalhada de cada elemento do recurso é exibida
+* Definir a forma como a exibição detalhada de cada elemento do recurso é exibida
 
-## Enabling access from the navigation menu {#enabling-access-from-the-navigation-menu}
+## Ativação do acesso no menu de navegação {#enabling-access-from-the-navigation-menu}
 
-Se quiser que seu recurso tenha uma tela dedicada, você pode disponibilizá-lo no menu de navegação.
+Se quiser que seu recurso tenha uma tela dedicada, você pode disponibilizá-la no menu de navegação.
 
-1. From the **[!UICONTROL Screen definition]** tab of the resource, unfold the **[!UICONTROL Navigation]** section.
-1. Check the **[!UICONTROL Add an entry in the 'Client data' section]** box to allow access to this resource from the navigation pane.
+1. Na **[!UICONTROL Screen definition]** guia do recurso, desenhe a **[!UICONTROL Navigation]** seção.
+1. Marque a **[!UICONTROL Add an entry in the 'Client data' section]** caixa para permitir o acesso a esse recurso no painel de navegação.
 
    ![](assets/schema_extension_19.png)
 
-The resource will appear as a sub-entry within the **[!UICONTROL Client data]** section.
+O recurso será exibido como uma subentrada na **[!UICONTROL Client data]** seção.
 
-## Defining the default list configuration {#defining-the-default-list-configuration}
+## Definição da configuração da lista padrão {#defining-the-default-list-configuration}
 
-The **[!UICONTROL List configuration]** section of the screen definition lets you define the columns and information that will be displayed by default in the overview of a resource.
+A **[!UICONTROL List configuration]** seção da definição de tela permite definir as colunas e as informações que serão exibidas por padrão na visão geral de um recurso.
 
-1. Check the **[!UICONTROL Customize the list configuration]** box to define the way the columns of the resource are displayed.
-1. Use the **[!UICONTROL Create element]** button to select a field from those that you have created.
+1. Marque a **[!UICONTROL Customize the list configuration]** caixa para definir a forma como as colunas do recurso são exibidas.
+1. Use o **[!UICONTROL Create element]** botão para selecionar um campo dentre os campos criados.
 1. O campo criado é exibido na lista. Você pode editar seu rótulo e sua largura.
 
    ![](assets/schema_extension_20.png)
 
-1. In the **[!UICONTROL Simple search]** section, check the **[!UICONTROL Specify the fields to be taken into account in the search]** to define which fields will be included in the search.
+1. Na **[!UICONTROL Simple search]** seção, marque o para definir **[!UICONTROL Specify the fields to be taken into account in the search]** quais campos serão incluídos na pesquisa.
 
    >[!CAUTION]
    >
    >Essa configuração substitui os campos usados na pesquisa padrão.
 
-1. In the **[!UICONTROL Advanced filtering]** section, check the **[!UICONTROL Add search fields]** box to add additional fields beyond the simple search field. Por exemplo, se você selecionar o campo "data" nos campos criados, o usuário poderá realizar uma pesquisa que se refere somente à data.
+1. Na **[!UICONTROL Advanced filtering]** seção, marque a **[!UICONTROL Add search fields]** caixa para adicionar campos adicionais além do campo de pesquisa simples. Por exemplo, se você selecionar o campo "data" nos campos criados, o usuário poderá realizar uma pesquisa que se refere apenas à data.
 1. É possível modificar a ordem dos campos para os dois tipos de pesquisa.
-1. Para uma pesquisa avançada, é possível adicionar campos que vinculam a um recurso vinculado. These filters appear in the **[!UICONTROL Search]** menu of the generated screen.
+1. Para uma pesquisa avançada, você pode adicionar campos que se vinculam a um recurso vinculado. Esses filtros aparecem no **[!UICONTROL Search]** menu da tela gerada.
 
-A tela de visão geral do recurso agora é definida.
+A tela de visão geral do recurso agora está definida.
 
-## Defining the detail screen configuration {#defining-the-detail-screen-configuration}
+## Definição da configuração detalhada da tela {#defining-the-detail-screen-configuration}
 
-The **[!UICONTROL Detail screen configuration]** section of the screen definition lets you define the columns and information that will be displayed in the detail screen of each element of the resource.
+A **[!UICONTROL Detail screen configuration]** seção da definição de tela permite definir as colunas e as informações que serão exibidas na tela de detalhes de cada elemento do recurso.
 
-1. Unfold the **[!UICONTROL Detail screen configuration]** section and check the **[!UICONTROL Define a detail screen]** to configure the screen that corresponds to each element of the resource. Se você não marcar esta caixa, a exibição detalhada dos elementos desse recurso não estará acessível.
-1. Você pode adicionar todos os campos do recurso personalizado em um clique. To do this, click the ![](assets/addallfieldsicon.png) icon or use the **[!UICONTROL Add an element]** button.
-1. Selecione um elemento das criadas para este recurso e especifique um tipo de campo:
+1. Desdobre a **[!UICONTROL Detail screen configuration]** seção e marque a tela **[!UICONTROL Define a detail screen]** para configurar a tela que corresponde a cada elemento do recurso. Se você não marcar essa caixa, a exibição detalhada dos elementos deste recurso não estará acessível.
+1. É possível adicionar todos os campos do recurso personalizado com um clique. Para fazer isso, clique no ![](assets/addallfieldsicon.png) ícone ou use o **[!UICONTROL Add an element]** botão.
+1. Selecione um elemento dentre os criados para este recurso e especifique um tipo de campo:
 
    * **[!UICONTROL Input field]**: é um campo editável.
    * **[!UICONTROL Value]**: é um campo somente leitura.
-   * **[!UICONTROL List]**: é uma tabela.
+   * **[!UICONTROL List]**: é uma mesa.
    * **[!UICONTROL Separator]**: divide seus elementos em categorias.
    ![](assets/schema_extension_23.png)
 
@@ -83,26 +81,26 @@ The **[!UICONTROL Detail screen configuration]** section of the screen definitio
 
    ![](assets/schema_extension_22.png)
 
-1. Add as many **[!UICONTROL Separator]** as needed to split your elements into different categories.
+1. Adicione quantos forem necessários **[!UICONTROL Separator]** para dividir seus elementos em categorias diferentes.
 
-   Isso permite que você exiba separadores para organizar melhor suas janelas.
+   Isso permite que você exiba separadores para melhor organizar suas janelas.
 
    ![](assets/schema_extension_25.png)
 
 A tela de detalhes do recurso agora está configurada.
 
-## Actions on data section {#actions-on-data-section}
+## Ações na seção de dados {#actions-on-data-section}
 
-Essas configurações permitem exibir uma barra de controle na tela de recurso personalizada. Há três opções disponíveis:
+Essas configurações permitem exibir uma barra de controle na tela de recursos personalizados. Há três opções disponíveis:
 
 ![](assets/schema_extension_actions.png)
 
-* **[!UICONTROL Authorize creating]**: esta opção permite ativar a criação de elementos do recurso. O usuário pode, portanto, adicionar registros adicionais.
+* **[!UICONTROL Authorize creating]**: essa opção permite ativar a criação de elementos do recurso. O usuário pode, portanto, adicionar registros adicionais.
 
    >[!NOTE]
    >
-   >Primeiro, você deve ativar a tela de detalhes vinculada ao recurso para tornar essa opção disponível.
+   >Primeiro, ative a tela de detalhes vinculada ao recurso para disponibilizar essa opção.
 
-* **[!UICONTROL Authorize duplicating]**: esta opção permite ativar registros duplicados vinculados ao recurso personalizado.
-* **[!UICONTROL Authorize deleting]**: esta opção permite ativar a exclusão de registros vinculados ao recurso personalizado.
+* **[!UICONTROL Authorize duplicating]**: essa opção permite ativar registros duplicados vinculados ao recurso personalizado.
+* **[!UICONTROL Authorize deleting]**: essa opção permite ativar a exclusão de registros vinculados ao recurso personalizado.
 
