@@ -1,8 +1,6 @@
 ---
 title: Atualizações da documentação
-seo-title: Atualizações da documentação
-description: Atualizações da documentação
-seo-description: Saiba mais sobre todas as atualizações mais recentes da documentação do Adobe Campaign Standard.
+description: Saiba mais sobre todas as atualizações mais recentes da documentação do Adobe Campaign Standard.
 page-status-flag: nunca ativado
 uuid: 3bdc7d11-8421-4110-a5ba-7b1376a03dda
 contentOwner: molviato
@@ -14,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc20cc5d3dfb4ad03ea4f8c7ad0931b5e190a089
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
