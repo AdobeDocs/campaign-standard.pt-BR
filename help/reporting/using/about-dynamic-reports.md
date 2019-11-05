@@ -1,8 +1,6 @@
 ---
-title: Sobre relatórios dinâmicos
-seo-title: Sobre relatórios dinâmicos
-description: Sobre relatórios dinâmicos
-seo-description: Com relatórios dinâmicos, arraste e solte variáveis e dimensões em seu ambiente de forma livre e analise o sucesso de suas campanhas.
+title: Sobre os relatórios dinâmicos
+description: Com relatórios dinâmicos, arraste e solte variáveis e dimensões em seu ambiente de forma livre e analise o sucesso de suas campanhas.
 page-status-flag: nunca ativado
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: molviato
@@ -14,12 +12,12 @@ discoiquuid: bbbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c606612b1bfb313e8eb20e45cf631609ec07aa84
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Sobre relatórios dinâmicos{#about-dynamic-reports}
+# Sobre os relatórios dinâmicos{#about-dynamic-reports}
 
 >[!NOTE]
 >
