@@ -1,8 +1,6 @@
 ---
 title: Notas de versão 2015-2016
-seo-title: Notas de versão 2015-2016
-description: Notas de versão 2015-2016
-seo-description: Esta página lista todas as versões 2015 e 2016 do Adobe Campaign Standard.
+description: Esta página lista todas as versões 2015 e 2016 do Adobe Campaign Standard.
 page-status-flag: nunca ativado
 uuid: d5a0f6cc-0bed-46cf-8dff-1717fb624f8f
 contentOwner: molviato
@@ -14,12 +12,12 @@ discoiquuid: a3ce6b80-1858-49d1-8880-3543181127f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Release Notes 2015-2016{#release-notes}
+# Notas de versão 2015-2016{#release-notes}
 
 Você está procurando uma versão específica 2015-2016 do Adobe Campaign Standard?
 
@@ -135,7 +133,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 * Correção de um problema que impedia a exibição de filtros predefinidos ao editar o público-alvo de uma notificação por push com base no modelo **[!UICONTROL Send via push notification]** (mobileApp).
 * A tela de configuração do aplicativo móvel ( **[!UICONTROL Administration > Channels > Push Notification > Mobile applications]** ) agora exibe uma mensagem indicando que a plataforma iOS ou Android foi criada com êxito.
 
-#### Landing pages {#landing-pages}
+#### Páginas de aterrissagem {#landing-pages}
 
 * Correção de problemas que impedia o envio de emails de confirmação quando um formulário de página inicial era enviado.
 
@@ -316,7 +314,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 * A janela de definição agregada, exibida ao adicionar dados adicionais, foi aprimorada para oferecer apenas opções compatíveis com os dados em uso (por exemplo: calcular uma média só é possível para dados numéricos).
 * Iniciar ou reiniciar um fluxo de trabalho técnico pronto agora só pode ser executado por um usuário com direitos administrativos.
 
-#### Landing pages {#landing-pages-1}
+#### Páginas de aterrissagem {#landing-pages-1}
 
 * Corrigido um erro que truncava chaves de codificação AES de 32 bits nas propriedades de uma página inicial.
 * Correção de um erro que impedia que o editor de consulta fosse exibido corretamente ao definir uma condição de visibilidade ou ao adicionar conteúdo dinâmico a uma página inicial.
@@ -453,7 +451,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 * Correção de um erro que impedia a inserção de um campo de personalização em uma atividade de entrega de um fluxo de trabalho se o fluxo de trabalho não fosse salvo após a adição da atividade.
 * Correção de um erro que impedia a exibição da dimensão de direcionamento de transição de saída de uma atividade de entrega de email.
 
-#### Landing pages {#landing-pages-2}
+#### Páginas de aterrissagem {#landing-pages-2}
 
 * Correção de um erro que impedia que os campos de personalização funcionassem corretamente em um bloco de conteúdo localizado em uma página inicial.
 
@@ -611,7 +609,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 
 * Correção de um erro que resultava na exibição indesejável de um ícone ou de uma barra de pesquisa ao editar o conteúdo.
 
-#### Landing pages {#landing-pages-3}
+#### Páginas de aterrissagem {#landing-pages-3}
 
 * Correção de um erro que impedia a importação de uma página inicial por meio de uma importação de pacote.
 
@@ -667,7 +665,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 * **Os dados flutuantes** agora são corretamente levados em conta nos recursos personalizados.
 * Correção de um erro de exibição na lista de importações simplificadas executadas que era causado quando o status do modelo correspondente era modificado.
 
-#### Landing pages {#landing-pages-4}
+#### Páginas de aterrissagem {#landing-pages-4}
 
 * Correção de certos elementos de modelos de página inicial que podiam ser exibidos incorretamente em francês em instâncias em inglês.
 
@@ -766,7 +764,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 * Correção de um erro que resultava em um atraso de 15 minutos para certos registros serem gravados.
 * Correção de um erro que poderia impedir que a lista de atividades de marketing fosse exibida quando classificada pelas **[!UICONTROL Date]** colunas ou **[!UICONTROL Indicators]** .
 
-#### Landing pages {#landing-pages-5}
+#### Páginas de aterrissagem {#landing-pages-5}
 
 * Correção de um erro que ocorria ao selecionar um perfil de teste para visualizar uma página inicial.
 
@@ -913,7 +911,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 
 * Correção de um erro que impedia a verificação de erros de sintaxe JavaScript antes do envio de um email quando um conteúdo dinâmico era adicionado pelo editor de expressões.
 
-#### Landing pages {#landing-pages-6}
+#### Páginas de aterrissagem {#landing-pages-6}
 
 * Correção de um erro que impedia a edição de uma página inicial de um tablet.
 
@@ -992,7 +990,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 * Corrigido um erro que impedia que os botões **[!UICONTROL Edit properties]** e **[!UICONTROL Show proofs]** fossem usados em tablets do Microsoft Surface Pro3 usando o Internet Explorer 11.
 * Correção de um erro que impedia a exibição dos registros de envio de email.
 
-#### Landing pages {#landing-pages-7}
+#### Páginas de aterrissagem {#landing-pages-7}
 
 * Corrigido um erro que impedia que o bloco de conteúdo do logotipo **da** Marca fosse usado ao editar conteúdo em uma página de aterrissagem.
 * Correção de um erro que impedia a exibição de páginas iniciais na lista de atividades de marketing se as datas de validade fossem especificadas para a página inicial.
