@@ -1,8 +1,6 @@
 ---
-title: Criação de perfis
-seo-title: Criação de perfis
-description: Criação de perfis
-seo-description: Saiba como criar perfis e coletar dados em seus contatos, usando APIs, recursos de importação, aquisição online, atualizações automáticas ou manuais.
+title: Criar perfis
+description: Saiba como criar perfis e coletar dados em seus contatos, usando APIs, recursos de importação, aquisição online, atualizações automáticas ou manuais.
 page-status-flag: nunca ativado
 uuid: a5f5a58a-e798-400f-8648-05dc843d557
 contentOwner: molviato
@@ -14,12 +12,12 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7f1c2af4ad8c4b8632e84b6d945a9db8187b6a6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Criação de perfis{#creating-profiles}
+# Criar perfis{#creating-profiles}
 
 No Adobe Campaign, os perfis são usados por padrão para definir o destino principal das mensagens.
 
