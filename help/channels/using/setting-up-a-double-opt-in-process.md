@@ -1,8 +1,6 @@
 ---
-title: Configurar um processo de aceitação dupla
-seo-title: Configurar um processo de aceitação dupla
-description: Configurar um processo de aceitação dupla
-seo-description: Siga estas etapas para configurar um processo de aceitação dupla usando páginas iniciais no Adobe Campaign.
+title: Configurar um processo de participação dupla
+description: Siga estas etapas para configurar um processo de aceitação dupla usando páginas iniciais no Adobe Campaign.
 page-status-flag: nunca ativado
 uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
 contentOwner: molviato
@@ -14,12 +12,12 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Configurar um processo de aceitação dupla{#setting-up-a-double-opt-in-process}
+# Configurar um processo de participação dupla{#setting-up-a-double-opt-in-process}
 
 ## Sobre aceitação dupla {#about-double-opt-in}
 
