@@ -1,8 +1,6 @@
 ---
-title: Segmentação e segmentação
-seo-title: Segmentação e segmentação
-description: Segmentação e segmentação
-seo-description: '"Saiba mais sobre perfis, definição de metas e criação de público-alvo no Campaign: crie públicos-alvo, importe contatos para compartilhar públicos-alvo com as soluções da Experience Cloud e evite a fadiga de marketing."'
+title: Segmentação e direcionamento
+description: '"Saiba mais sobre perfis, definição de metas e criação de público-alvo no Campaign: crie públicos-alvo, importe contatos para compartilhar públicos-alvo com as soluções da Experience Cloud e evite a fadiga de marketing."'
 page-status-flag: nunca ativado
 uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
 contentOwner: molviato
@@ -14,12 +12,12 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Segmentação e segmentação{#segmentation-and-targeting}
+# Segmentação e direcionamento{#segmentation-and-targeting}
 
 ## Profiles {#profiles}
 
