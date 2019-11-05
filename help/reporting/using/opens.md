@@ -1,32 +1,30 @@
 ---
 title: Aberturas
-seo-title: Aberturas
-description: Aberturas
-seo-description: Com o relatório Abrir, saiba qual entrega foi mais visualizada de acordo com vários critérios.
+description: Com o relatório de Aberturas, saiba qual entrega foi a mais visualizada de acordo com vários critérios.
 page-status-flag: nunca ativado
-uuid: fe 5453 b 6-cac 1-43 be -860 e-c 65 c 8 a 5168 d 6
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: relatórios
-content-type: reference
+uuid: fe5453b6-cac1-43be-860e-c65c8a5168d6
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: relatório
+content-type: referência
 topic-tags: lista de relatórios
-discoiquuid: c 87188 e 8-cea 7-4 cc 6-allowf-b 9788 e 5 ec 36 b
-context-tags: Deliveryopenratereport, principal; Campaignopenratereport, principal; Programopenratereport, principal
+discoiquuid: c87188e8-cea7-4cc6-becf-b9788e5ec36b
+context-tags: deliveryOpenRateReport,main;campaignOpenRateReport,main;programOpenRateReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Opens{#opens}
+# Aberturas{#opens}
 
 O relatório **[!UICONTROL Opens]** identifica as entregas que foram mais vistas pelos destinatários.
 
 ![](assets/delivery_reports_opens.png)
 
-Quatro tabelas e gráficos analisam o número total de destinatários que abriram um email com base em:
+Quatro tabelas e gráficos detalham o número total de destinatários que abriram um email com base em:
 
 * Navegador
 * Dispositivo
