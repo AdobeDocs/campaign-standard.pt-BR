@@ -1,8 +1,6 @@
 ---
 title: 'Criação e uso de conteúdo reutilizável '
-seo-title: Criação e uso de conteúdo reutilizável
-description: Criação e uso de conteúdo reutilizável
-seo-description: Comece a criar conteúdo de email reutilizável com o Designer de email.
+description: Comece a criar conteúdo de email reutilizável com o Designer de email.
 page-status-flag: nunca ativado
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: molviato
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -123,7 +121,7 @@ Para usá-lo, crie um email e selecione o modelo de conteúdo que você acabou d
 
 **Tópico** relacionado:
 
-* [Criação de um email](../../channels/using/creating-an-email.md)
+* [Criação de um de email](../../channels/using/creating-an-email.md)
 * [Vídeo de introdução ao Email Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=por_br)
 * [Criar um conteúdo de email do zero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
