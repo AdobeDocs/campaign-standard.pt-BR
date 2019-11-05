@@ -1,8 +1,6 @@
 ---
-title: Recebendo alertas quando ocorrem falhas
-seo-title: Recebendo alertas quando ocorrem falhas
-description: Recebendo alertas quando ocorrem falhas
-seo-description: Saiba como usar o sistema de gerenciamento de alertas.
+title: Receber alertas quando ocorrerem falhas
+description: Saiba como usar o sistema de gerenciamento de alertas.
 page-status-flag: nunca ativado
 uuid: a3ab733a-e3db-4adc-b930-cd4064b6dc1c
 contentOwner: molviato
@@ -14,12 +12,12 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Recebendo alertas quando ocorrem falhas{#receiving-alerts-when-failures-happen}
+# Receber alertas quando ocorrerem falhas{#receiving-alerts-when-failures-happen}
 
 ## Sobre os avisos de entrega {#about-delivery-alerting}
 
@@ -277,7 +275,7 @@ Estes são alguns motivos possíveis para receber notificações de alerta de ac
 
 **Tópicos relacionados:**
 
-* [Noções básicas sobre falhas de delivery](../../sending/using/understanding-delivery-failures.md)
+* [Noções básicas sobre falhas de entrega](../../sending/using/understanding-delivery-failures.md)
 * [Noções básicas sobre gestão de quarentena](../../sending/using/understanding-quarantine-management.md)
 * [Gerenciamento de listas negras no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
