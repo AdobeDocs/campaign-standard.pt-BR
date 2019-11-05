@@ -1,8 +1,6 @@
 ---
-title: Noções básicas sobre falhas de delivery
-seo-title: Noções básicas sobre falhas de delivery
-description: Noções básicas sobre falhas de delivery
-seo-description: Saiba como gerenciar falhas de entrega com o Campaign.
+title: Noções básicas sobre falhas de entrega
+description: Saiba como gerenciar falhas de entrega com o Campaign.
 page-status-flag: nunca ativado
 uuid: 2735aa05-7b6f-47c9-98c4-a15cc33be39d
 contentOwner: molviato
@@ -14,12 +12,12 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Noções básicas sobre falhas de delivery{#understanding-delivery-failures}
+# Noções básicas sobre falhas de entrega{#understanding-delivery-failures}
 
 ## Sobre falhas de delivery {#about-delivery-failures}
 
