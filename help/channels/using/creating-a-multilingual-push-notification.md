@@ -1,8 +1,6 @@
 ---
 title: Criação de uma notificação por push multilíngue
-seo-title: Criação de uma notificação por push multilíngue
-description: Criação de uma notificação por push multilíngue
-seo-description: Crie notificações por push multilíngues para direcionar seus usuários em seus idiomas e regiões preferidos.
+description: Crie notificações por push multilíngues para direcionar seus usuários em seus idiomas e regiões preferidos.
 page-status-flag: nunca ativado
 uuid: d4aff741-e969-47c6-bae8-787c6c673191
 contentOwner: molviato
@@ -14,7 +12,7 @@ discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
