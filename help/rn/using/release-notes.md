@@ -1,8 +1,6 @@
 ---
 title: Notas de versão
-seo-title: Notas de versão
-description: Notas de versão
-seo-description: Esta página lista todas as versões recentes do Adobe Campaign Standard.
+description: Esta página lista todas as versões recentes do Adobe Campaign Standard.
 page-status-flag: nunca ativado
 uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
 contentOwner: molviato
@@ -14,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bdb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -27,8 +25,8 @@ Recursos adicionais:
 
 * [Planejamento de lançamento da campanha](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * [Atualizações mais recentes da documentação](../../rn/using/documentation-updates.md)
-* [Recursos obsoletos e removidos](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
-* [Painel de Controle](https://helpx.adobe.com/campaign/kb/control-panel.html)
+* [Recursos descontinuados e removidos](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+* [Painel de controle](https://helpx.adobe.com/campaign/kb/control-panel.html)
 * Notas de versão anteriores: [2018](../../rn/using/release-notes-2018.md), [2017](../../rn/using/release-notes-2017.md), [2015-2016](../../rn/using/release-notes-2015-2016.md)
 
 ## Versão 19.4 - outubro de 2019 {#release-19-4---october-2019}
@@ -280,13 +278,13 @@ Observe que o Painel de controle está disponível apenas para clientes hospedad
 
 ## Versão 19.2.4 - junho de 2019 {#release-19-2-4---june-2019}
 
-### Designer de email {#email-designer-2}
+### Email Designer {#email-designer-2}
 
 * Correção de um problema que impedia os usuários de editar fragmentos quando tags de estilo vazias eram usadas no HTML. Esta é uma correção de acompanhamento para CAMP-33778 em 19.2.3.
 
 ## Versão 19.2.3 - junho de 2019 {#release-19-2-3---june-2019}
 
-### Designer de email {#email-designer-1}
+### Email Designer {#email-designer-1}
 
 Introduziu uma série de melhorias e correções para otimizar fragmentos na versão 19.2. Os fragmentos recém-criados funcionarão perfeitamente. Os fragmentos criados anteriormente ficaram esmaecidos e precisam ser migrados para o novo formato. Para fazer isso, clique em cada fragmento e valide sua migração para o novo formato. Recomendamos que você teste alguns fragmentos antes de migrar todos eles.
 
@@ -316,7 +314,7 @@ Introduziu uma série de melhorias e correções para otimizar fragmentos na ver
  </thead> 
  <tbody> 
   <tr> 
-   <td> Painel de Controle<br /> </td> 
+   <td> Painel de controle<br /> </td> 
    <td> <p>Para ajudar a aumentar a eficiência do seu trabalho como usuário administrador, você pode monitorar facilmente a capacidade e gerenciar as configurações de suas instâncias (começando pelo gerenciamento de servidores SFTP).</p><p>Para obter mais informações, consulte a <a href="https://helpx.adobe.com/campaign/kb/control-panel.html">documentação detalhada</a> e o <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">vídeo de instruções</a>.</p></td> 
   </tr> 
   <tr> 
@@ -581,7 +579,7 @@ Vários aprimoramentos foram adicionados ao canal de mensagens transacionais par
 * A lista de países disponíveis ao definir o endereço de um perfil foi aprimorada. (CAMP-26707)
 * Uma mensagem de erro agora é exibida ao tentar importar um fluxo de trabalho incorporado.
 
-### Designer de email {#email-designer}
+### Email Designer {#email-designer}
 
 * Correção de um problema que ativava o recurso de unidade geográfica em um modelo de email ou fragmento de conteúdo criado com o Designer de email, mesmo que esse recurso estivesse desabilitado no Adobe Campaign, o que tornava o modelo ou fragmento indisponível ao tentar acessá-lo novamente. (CAMP-28174)
 * Correção de um problema que impedia que condições de conteúdo dinâmico fossem salvas ao editar conteúdo com o Designer de email. (CAMP-27905)
