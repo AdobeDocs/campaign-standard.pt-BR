@@ -1,8 +1,6 @@
 ---
 title: Interface do editor de conteúdo SMS e push
-seo-title: Interface do editor de conteúdo SMS e push
-description: Interface do editor de conteúdo SMS e push
-seo-description: Saiba como usar as diferentes seções do editor para modificar seu SMS e conteúdo de push.
+description: Saiba como usar as diferentes seções do editor para modificar seu SMS e conteúdo de push.
 page-status-flag: nunca ativado
 uuid: 4af5d247-555b-45c5-95a7-cb27f356b5a0
 contentOwner: molviato
@@ -15,7 +13,7 @@ context-tags: entrega,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -75,7 +73,7 @@ A barra de ações contém botões diferentes que permitem interagir com o conte
    <td> <img height="21px" src="assets/dynamiccontent_24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Ativar texto</span> dinâmico <br /> </td> 
    <td> SMS e push<br /> </td> 
-   <td> Permite inserir texto dinâmico no conteúdo. Consulte <a href="../../channels/using/defining-dynamic-text.md" target="_blank">Definição de texto</a>dinâmico.<br /> </td> 
+   <td> Permite inserir texto dinâmico no conteúdo. See <a href="../../channels/using/defining-dynamic-text.md" target="_blank">Defining dynamic text</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/dynamiccontentdisable_24px.png" /> <br /> </td> 
