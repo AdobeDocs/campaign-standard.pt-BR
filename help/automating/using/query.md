@@ -1,8 +1,6 @@
 ---
-title: Query
-seo-title: Query
-description: Query
-seo-description: A atividade Consulta permite filtrar e extrair um preenchimento de elementos do banco de dados do Adobe Campaign.
+title: Consulta
+description: A atividade Consulta permite filtrar e extrair um preenchimento de elementos do banco de dados do Adobe Campaign.
 page-status-flag: nunca ativado
 uuid: b3c629fa-370e-481c-b347-fcf9f5a5e847
 contentOwner: molviato
@@ -15,12 +13,12 @@ context-tags: consulta,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Query{#query}
+# Consulta{#query}
 
 ## Descrição {#description}
 
