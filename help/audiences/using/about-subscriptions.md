@@ -1,8 +1,6 @@
 ---
-title: Sobre assinaturas
-seo-title: Sobre assinaturas
-description: Sobre assinaturas
-seo-description: null
+title: Sobre as assinaturas
+description: null
 page-status-flag: nunca ativado
 uuid: b0263e40-f910-49f2-a138-0a1302aeec6
 contentOwner: molviato
@@ -14,12 +12,12 @@ discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Sobre assinaturas{#about-subscriptions}
+# Sobre as assinaturas{#about-subscriptions}
 
 O Adobe Campaign permite que você crie e gerencie boletins informativos e comunicações entre canais, por meio de um conjunto de **serviços**: as mensagens só podem ser enviadas para perfis que se inscreveram no serviço (aceitação). Esses perfis são identificados usando um filtro dedicado ao criar uma mensagem.
 
