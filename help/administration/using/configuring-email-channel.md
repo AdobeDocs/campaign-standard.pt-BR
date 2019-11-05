@@ -1,8 +1,6 @@
 ---
 title: Configuração do canal de email
-seo-title: Configuração do canal de email
-description: Configuração do canal de email
-seo-description: Saiba como configurar o canal de email.
+description: Saiba como configurar o canal de email.
 page-status-flag: nunca ativado
 uuid: 9fddb655-b445-41f3-9b02-5d356fc88aa1
 contentOwner: molviato
@@ -15,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
