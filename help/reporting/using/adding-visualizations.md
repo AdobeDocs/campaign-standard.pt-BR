@@ -1,46 +1,44 @@
 ---
 title: Adicionar visualizações
-seo-title: Adicionar visualizações
-description: Adicionar visualizações
-seo-description: Os relatórios dinâmicos oferecem um conjunto de visualizações para adicionar uma representação gráfica ao seu relatório.
+description: Os relatórios dinâmicos oferecem um conjunto de visualizações para adicionar uma representação gráfica ao seu relatório.
 page-status-flag: nunca ativado
-uuid: f 4 d 851 c 1-8 ef 8-4295-a 7 bc-eb 9608 fbc 497
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: relatórios
-content-type: reference
-topic-tags: personalização-relatórios
-discoiquuid: 6170342 b -7 e 16-4 cc 5-81 a 0-fa 0 bef 8569 a 8
+uuid: f4d851c1-8ef8-4295-a7bc-eb9608fbc497
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: relatório
+content-type: referência
+topic-tags: personalização de relatórios
+discoiquuid: 6170342b-7e16-4cc5-81a0-fa0bef8569a8
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Adding visualizations{#adding-visualizations}
+# Adicionar visualizações{#adding-visualizations}
 
-The **Visualizations** tab lets you drag and drop visualization items, such as area, donut and graph. As visualizações fornecem representações gráficas de seus dados.
+A guia **Visualizações** permite arrastar e soltar itens de visualização, como área, rosca e gráfico. As visualizações fornecem representações gráficas dos seus dados.
 
-1. In the **[!UICONTROL Visualizations]** tab, drag and drop a visualization item in a panel.
+1. Na **[!UICONTROL Visualizations]** guia, arraste e solte um item de visualização em um painel.
 
    ![](assets/dynamic_report_visualization_1.png)
 
-1. Após adicionar uma visualização ao seu painel, os relatórios dinâmicos detectam automaticamente os dados na tabela de forma livre. Selecione as configurações da sua visualização.
-1. If you have more than one freeform table, choose the available data source to add in your graph in the **Data Source Settings** window. Essa janela também está disponível clicando no ponto colorido ao lado do título da visualização.
+1. Após adicionar uma visualização ao painel, os relatórios dinâmicos detectam automaticamente os dados na tabela de forma livre. Selecione as configurações para sua visualização.
+1. Se você tiver mais de uma tabela de forma livre, escolha a fonte de dados disponível para adicionar em seu gráfico na janela Configurações **da fonte de** dados. Essa janela também está disponível ao clicar no ponto colorido ao lado do título da visualização.
 
    ![](assets/dynamic_report_visualization_2.png)
 
-1. Click the **[!UICONTROL Visualization]** settings button to directly change the graph type or what is displayed on it, such as:
+1. Clique no botão de **[!UICONTROL Visualization]** configurações para alterar diretamente o tipo de gráfico ou o que é exibido nele, como:
 
    * **Porcentagens**: Exibe os valores em porcentagem.
-   * **Âncora de eixo Y em zero**: Força o eixo y a zero, mesmo se os valores variam acima de zero.
-   * **Legenda visível**: Permite ocultar a legenda.
-   * **Normalização**: Força os valores a coincidirem.
-   * **Exibir eixo duplo**: Adiciona outro eixo ao gráfico.
-   * **Limitar itens máximos**: Limita o número de gráficos exibidos.
-   * **Limite**: Permite definir um limite para o gráfico. Ela aparece como uma linha pontilhada prehada.
+   * **Âncora do eixo Y em zero**: Força o eixo y a zero mesmo se os valores estiverem acima de zero.
+   * **Legenda visível**: Permite esconder a lenda.
+   * **Normalização**: Força a correspondência dos valores.
+   * **Exibir eixo** duplo: Adiciona outro eixo ao seu gráfico.
+   * **Limitar itens** máximos: Limita o número de gráficos exibidos.
+   * **Limiar**: Permitem definir um limite para o seu gráfico. Aparece como uma linha pontilhada preta.
    ![](assets/dynamic_report_visualization_3.png)
 
-Esta visualização permite que você tenha uma visão mais clara dos seus dados em seus relatórios.
+Essa visualização permite que você tenha uma exibição mais clara dos seus dados em seus relatórios.
