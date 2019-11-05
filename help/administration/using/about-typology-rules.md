@@ -1,8 +1,6 @@
 ---
-title: Sobre regras de tipologia
-seo-title: Sobre regras de tipologia
-description: Sobre regras de tipologia
-seo-description: Descubra como as regras de tipologia funcionam no Adobe Campaign.
+title: Sobre as regras de tipologia
+description: Descubra como as regras de tipologia funcionam no Adobe Campaign.
 page-status-flag: nunca ativado
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
 contentOwner: molviato
@@ -15,12 +13,12 @@ context-tags: tipologia,visão geral;typologyRule,main;typologyRule,visão geral
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Sobre regras de tipologia{#about-typology-rules}
+# Sobre as regras de tipologia{#about-typology-rules}
 
 Uma tipologia é um conjunto de regras, executadas durante a fase de análise da mensagem, que permitem que o destino, o conteúdo e a configuração dos seguintes elementos sejam validados: assunto, URL, imagens, link de cancelamento de assinatura, tamanho da prova etc.
 
