@@ -1,8 +1,6 @@
 ---
 title: Sobre integrações do Campaign
-seo-title: Sobre integrações do Campaign
-description: Sobre integrações do Campaign
-seo-description: O Adobe Campaign permite que você use outras soluções da Adobe e combine seus diferentes recursos.
+description: O Adobe Campaign permite que você use outras soluções da Adobe e combine seus diferentes recursos.
 page-status-flag: nunca ativado
 uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
 contentOwner: molviato
@@ -14,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
