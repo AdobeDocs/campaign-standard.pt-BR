@@ -1,8 +1,6 @@
 ---
 title: Rastreamento de mensagens
-seo-title: Rastreamento de mensagens
-description: Rastreamento de mensagens
-seo-description: Saiba como rastrear o comportamento dos destinatários da entrega.
+description: Saiba como rastrear o comportamento dos destinatários da entrega.
 page-status-flag: nunca ativado
 uuid: c3721647-0663-4614-a9c9-3b3a40af328a
 contentOwner: molviato
@@ -14,7 +12,7 @@ discoiquuid: 6fa50f0d-3dcf-4a9e-bcc-1ecda2bfb449
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -29,14 +27,14 @@ Você pode informar aos usuários que seus sites estão equipados com ferramenta
 
 O Adobe Campaign usa dois tipos de cookies:
 
-* Um cookie de sessão (nlid). Ele contém o identificador do email enviado ao contato (BroadlogId) e o identificador do modelo de mensagem (deliveryId). Ele é adicionado quando o contato clica em um URL incluído em um email enviado pelo Adobe Campaign e permite que você rastreie seu comportamento na Web. Este cookie de sessão é apagado automaticamente quando o navegador é fechado. O contato pode configurar seu navegador para recusar cookies.
+* Um cookie de sessão (nlid). Ele contém o identificador do email enviado ao contato (BroadlogId) e o identificador do modelo de mensagem (deliveryId). Ele é adicionado quando o contato clica em uma URL incluída em um e-mail enviado pelo Adobe Campaign e permite que você acompanhe seu comportamento na Web. Esse cookie de sessão é apagado automaticamente quando o navegador é fechado. O contato pode configurar o navegador para recusar cookies.
 * Um cookie compartilhado entre as soluções da Adobe Experience Cloud. Isso permite identificar os usuários que interagem com as soluções da Experience Cloud ao visitar um site. A descrição deste cookie está disponível aqui: [https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html).
 
-As informações de rastreamento estão disponíveis para cada contato do banco de dados no **[!UICONTROL integrated customer profiles]**. For more on this, refer to [this section](../../audiences/using/integrated-customer-profile.md).
+As informações de rastreamento estão disponíveis para cada contato do banco de dados no **[!UICONTROL integrated customer profiles]**. Para obter mais informações, consulte [esta seção](../../audiences/using/integrated-customer-profile.md).
 
-## Registros de rastreamento {#tracking-logs}
+## Logs de rastreamento {#tracking-logs}
 
-A **[!UICONTROL Tracking logs]** guia lista o histórico de rastreamento desta entrega. Essa guia exibe as informações de rastreamento das mensagens enviadas, como todos os URLs que foram rastreados pelo Adobe Campaign. As informações de rastreamento nesta guia são atualizadas a cada 10 minutos.
+The **[!UICONTROL Tracking logs]** tab lists the tracking history for this delivery. Essa guia exibe as informações de rastreamento das mensagens enviadas, como todos os URLs que foram rastreados pelo Adobe Campaign. As informações de rastreamento nesta guia são atualizadas a cada 10 minutos.
 
 >[!NOTE]
 >
