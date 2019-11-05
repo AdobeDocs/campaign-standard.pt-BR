@@ -1,8 +1,6 @@
 ---
 title: Criação de um novo modelo
-seo-title: Criação de um novo modelo
-description: Criação de um novo modelo
-seo-description: Saiba como criar um novo modelo, a partir de modelos de atividade prontos para uso para email, SMS, envios de notificação por push etc.
+description: Saiba como criar um novo modelo, a partir de modelos de atividade prontos para uso para email, SMS, envios de notificação por push etc.
 page-status-flag: nunca ativado
 uuid: 26e368ae-06e1-4c11-9899-c23cc727d398
 contentOwner: molviato
@@ -15,7 +13,7 @@ context-tags: campaignTemplate,overview;deliveryTemplate,overview;programTemplat
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -40,6 +38,6 @@ Modelos criados podem ser selecionados pelo usuário padrão na primeira tela do
 
 **Tópicos relacionados:**
 
-* [Marca](../../administration/using/branding.md)
+* [Identidade visual](../../administration/using/branding.md)
 * [Conteúdo do design](../../designing/using/overview.md)
 
