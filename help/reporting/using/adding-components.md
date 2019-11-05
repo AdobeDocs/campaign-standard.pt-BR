@@ -1,8 +1,6 @@
 ---
 title: Adicionar componentes
-seo-title: Adicionar componentes
-description: Adicionar componentes
-seo-description: Arraste e solte componentes para a tabela de forma livre para começar a filtrar seus dados e criar seu relatório.
+description: Arraste e solte componentes para a tabela de forma livre para começar a filtrar seus dados e criar seu relatório.
 page-status-flag: nunca ativado
 uuid: a1aa880c-4ee8-4ffb-b3bf-45249e6d446f
 contentOwner: molviato
@@ -14,7 +12,7 @@ discoiquuid: a773b7a8-c290-4c81-bb52-48acc14fc89f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
