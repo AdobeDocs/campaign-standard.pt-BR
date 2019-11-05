@@ -1,8 +1,6 @@
 ---
-title: Testing the subject line of an email
-seo-title: Testing the subject line of an email
-description: Teste da linha de assunto de um email
-seo-description: Descubra como definir a linha de assunto de um email no Designer de email.
+title: Teste da linha de assunto de um email
+description: Descubra como definir a linha de assunto de um email no Designer de email.
 page-status-flag: nunca ativado
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: molviato
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3fc0d9d7e90a31ffb34efc33d6f5c148ba5aac90
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -22,13 +20,13 @@ source-git-commit: 3fc0d9d7e90a31ffb34efc33d6f5c148ba5aac90
 
 Para testar sua linha de assunto, siga as etapas abaixo:
 
-1. Create or open your email.
+1. Crie ou abra seu email.
 1. Abra o conteúdo e digite o assunto do email no campo de entrada correspondente.
-1. Click the  button to access the  window. **[!UICONTROL Test subject]****[!UICONTROL Test your subject line]** You can still edit the subject from this window.
-1. Select the correct model to be taken into account for the open rate prediction. Several models are available, each corresponding to a specific industry.
+1. Clique no **[!UICONTROL Test subject]** botão para acessar a **[!UICONTROL Test your subject line]** janela. Você ainda pode editar o assunto desta janela.
+1. Selecione o modelo correto a ser considerado para a previsão de taxa aberta. Estão disponíveis vários modelos, cada um correspondente a um setor específico.
 1. Click **[!UICONTROL Test]**.
 
-Your subject is then analyzed.
+Seu assunto é então analisado.
 
 >[!NOTE]
 >
@@ -36,9 +34,9 @@ Your subject is then analyzed.
 
 Vários indicadores são calculados e um conjunto de ferramentas é exibido para ajudá-lo a:
 
-* **Predicted open rate: This chart gives you an idea of the open rate you can expect for the email with its current subject.**
-* **Subject length: This indicator lets you see if the current length of the subject is correct or whether it would need to be longer or shorter.**
-* **Colored words: When testing the subject, words highlighted in green are the words that contribute the most to increasing the open rate prediction.** Palavras destacadas em vermelho são as que menos contribuem para aumentar a previsão de taxa aberta. If you add or remove words in the subject, highlighted words will change.
+* **Taxa** de abertura prevista: Este gráfico fornece uma ideia da taxa de abertura que você pode esperar do email com seu assunto atual.
+* **Duração** do assunto: Esse indicador permite que você veja se o comprimento atual do assunto está correto ou se ele precisaria ser maior ou menor.
+* **Palavras** coloridas: Ao testar o assunto, palavras destacadas em verde são as que mais contribuem para aumentar a previsão de taxa aberta. Palavras destacadas em vermelho são as que menos contribuem para aumentar a previsão de taxa aberta. Se você adicionar ou remover palavras no assunto, as palavras destacadas serão alteradas.
 * **Categorias e sugestões** de palavras: Na parte inferior da janela, são exibidas várias categorias relevantes para o modelo selecionado. Essas categorias são classificadas por ordem de importância e permitem que você veja se o assunto contém palavras associadas a ele por meio de um símbolo de verificação. Cada categoria contém um conjunto de palavras sugeridas que podem ser usadas em seu assunto para torná-lo mais relevante e aumentar a taxa aberta. Essas palavras são as palavras mais usadas em uma determinada categoria.
 
 >[!NOTE]
@@ -51,11 +49,11 @@ Vários indicadores são calculados e um conjunto de ferramentas é exibido para
 
 Por padrão, não há modelo em execução no servidor do Adobe Campaign. Há duas maneiras de obter um modelo e ativar o recurso:
 
-* You can train a local model from the data of your previous email messages:
+* Você pode treinar um modelo local a partir dos dados de suas mensagens de email anteriores:
 
    * Se você já estiver usando o Adobe Campaign, o modelo local será treinado automaticamente nas mensagens que você já enviou.
-   * Se você for novo no Adobe Campaign, poderá extrair um arquivo CSV do seu sistema anterior/ESP que contém 4 colunas: data, assunto, enviado, abre. Para fazer isso, vá até **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Email]** &gt; **[!UICONTROL Subject Line Import]** e siga as instruções fornecidas nas telas sucessivas. When the subject upload is complete, import a local model as described below. The local model is automatically trained with the data you uploaded.
-   * If you are new to Adobe Campaign and cannot get a CSV file as described above, you can use a pre-trained model or wait until you have enough delivery data in your system to train a local model. The system will automatically determine whether your current data set contains enough data to recognize patterns and to train the model.
+   * Se você for novo no Adobe Campaign, poderá extrair um arquivo CSV do seu sistema anterior/ESP que contém 4 colunas: data, assunto, enviado, abre. Para fazer isso, vá até **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Email]** &gt; **[!UICONTROL Subject Line Import]** e siga as instruções fornecidas nas telas sucessivas. Quando o upload do assunto estiver concluído, importe um modelo local conforme descrito abaixo. O modelo local é treinado automaticamente com os dados carregados.
+   * Se você for novo no Adobe Campaign e não conseguir obter um arquivo CSV conforme descrito acima, poderá usar um modelo pré-treinado ou aguardar até que tenha dados de entrega suficientes no sistema para treinar um modelo local. O sistema determinará automaticamente se seu conjunto de dados atual contém dados suficientes para reconhecer padrões e treinar o modelo.
 
       >[!NOTE]
       >
@@ -68,7 +66,7 @@ Por padrão, não há modelo em execução no servidor do Adobe Campaign. Há du
 
    Em seguida, o fluxo de trabalho técnico continuará automaticamente treinando seu modelo toda semana.
 
-* Você pode importar modelos pré-treinados específicos para certas indústrias (médica, etc.) usando o recurso de importação [de](../../automating/using/managing-packages.md) pacote. These models are available here and cannot be trained.[](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter)
+* Você pode importar modelos pré-treinados específicos para certas indústrias (médica, etc.) usando o recurso de importação [de](../../automating/using/managing-packages.md) pacote. Estes modelos estão disponíveis [aqui](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) e não podem ser treinados.
 
    Depois que um modelo é carregado, o recurso é ativado automaticamente e uma nova opção é exibida ao lado do campo de linha de assunto das mensagens.
 
@@ -79,6 +77,6 @@ Por padrão, não há modelo em execução no servidor do Adobe Campaign. Há du
 Os modelos disponíveis para uso são:
 
 * Indústria cosmética: subjectInsightCosmetic.xml
-* Supermarket industry: subjectInsightSupermarket.xml
-* Medical industry: subjectInsightMedical.xml
-* Model to train: subjectlineTraining.xml.
+* Indústria de supermercados: subjectInsightSupermarket.xml
+* Indústria médica: subjectInsightMedical.xml
+* Modelo de comboio: subjettlineTraining.xml.
