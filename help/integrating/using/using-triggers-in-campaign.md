@@ -1,8 +1,6 @@
 ---
 title: Usar acionadores no Campaign
-seo-title: Usar acionadores no Campaign
-description: Usar acionadores no Campaign
-seo-description: null
+description: null
 page-status-flag: nunca ativado
 uuid: d844d013-b38a-4e69-9df5-0edc01fa9c6e
 contentOwner: molviato
@@ -14,7 +12,7 @@ discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
