@@ -1,8 +1,6 @@
 ---
 title: '"Caso de uso do fluxo de trabalho: Segmentação no local"'
-seo-title: '"Caso de uso do fluxo de trabalho: Segmentação no local"'
 description: '"Caso de uso do fluxo de trabalho: Segmentação no local"'
-seo-description: '"Caso de uso do fluxo de trabalho: Segmentação no local"'
 page-status-flag: nunca ativado
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: molviato
@@ -15,7 +13,7 @@ context-tags: 'fluxo de trabalho,use-case,consulta,segmentação,entrega '
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7e56dcb4c2bbdc802c9d271d4a44d9a72b239ed
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -50,7 +48,7 @@ Observação: Para acessar todas as pessoas que entraram em Boston, desmarque a 
 1. Para acessar todas as pessoas que entraram em Chicago, desconsidere a opção que diferencia maiúsculas e minúsculas.
 1. Click **[!UICONTROL Confirm]**.
 
-## Criação de uma entrega de email{#creating-an-email-delivery}
+## Criação de um delivery de email{#creating-an-email-delivery}
 
 1. Em **[!UICONTROL Activities]** &gt; **[!UICONTROL Channels]**, arraste e solte um **[!UICONTROL Email Delivery]** depois de cada segmento.
 1. Clique na atividade e selecione ![](assets/edit_darkgrey-24px.png) para editar.
