@@ -1,8 +1,6 @@
 ---
 title: Personalização
-seo-title: Personalização
-description: Personalização
-seo-description: Descubra como personalizar um email no Designer de email.
+description: Descubra como personalizar um email no Designer de email.
 page-status-flag: nunca ativado
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: molviato
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -26,7 +24,7 @@ O conteúdo e a exibição de mensagens entregues pelo Adobe Campaign podem ser 
 * Inserir campos de personalização dinâmicos. See [Inserting a personalization field](#inserting-a-personalization-field).
 * Inserir blocos de personalização predefinidos. Consulte [Adicionar um bloco](#adding-a-content-block)de conteúdo.
 * Personalize o remetente de um email. Consulte [Personalizar o remetente](#personalizing-the-sender).
-* Personalize o assunto de um email. Consulte [Personalizar a linha de assunto de um email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
+* Personalize o assunto de um email. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
 * Criar conteúdo condicional. Consulte [Definição de conteúdo dinâmico em um email](#defining-dynamic-content-in-an-email)
 
 ## Personalização do remetente {#personalizing-the-sender}
