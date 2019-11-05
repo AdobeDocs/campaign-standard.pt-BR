@@ -1,37 +1,35 @@
 ---
-title: Sobre atividades de canal
-seo-title: Sobre atividades de canal
-description: Sobre atividades de canal
-seo-description: As atividades de canal estão disponíveis no lado esquerdo da tela.
+title: Sobre as atividades de canal
+description: As atividades de canal estão disponíveis no lado esquerdo da tela.
 page-status-flag: nunca ativado
-uuid: 900 e 0580-2 e 56-4 aaf-b 584-58 d 8 e 9 a 408 cf
-contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automatizando
-content-type: reference
-topic-tags: channel-activities
-discoiquuid: 4 e 665635-5 f 2 a -4344-a 924-4 e 6 f 6 f 848568
+uuid: 900e0580-2e56-4aaf-b584-58d8e9a408cf
+contentOwner: molviato
+products: SG_CAMPAIGN/STANDARD
+audience: automatização
+content-type: referência
+topic-tags: atividades de canal
+discoiquuid: 4e665635-5f2a-4344-a924-4e6f6f848568
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# About channel activities{#about-channel-activities}
+# Sobre as atividades de canal{#about-channel-activities}
 
-From the palette, on the left-hand side of the screen, unfold the **[!UICONTROL Channels]** section.
+Na paleta, no lado esquerdo da tela, desdobre a **[!UICONTROL Channels]** seção.
 
-Essas atividades representam os canais de comunicação disponíveis diferentes. É possível combiná-los para criar um fluxo de trabalho entre canais.
+Estas atividades representam os diferentes canais de comunicação disponíveis. É possível combiná-los para criar um fluxo de trabalho entre canais.
 
 ![](assets/wkf_channels_activities.png)
 
-**[!UICONTROL Channels]** A seção fornece as seguintes atividades:
+A **[!UICONTROL Channels]** seção fornece as seguintes atividades:
 
 * [Entrega por email](../../automating/using/email-delivery.md)
-* [entrega SMS](../../automating/using/sms-delivery.md)
-* [Entrega de notificação por push](../../automating/using/push-notification-delivery.md)
-* [Entrega de mala direta](../../automating/using/direct-mail-delivery.md)
+* [Entrega por SMS](../../automating/using/sms-delivery.md)
+* [Entrega por notificação por push](../../automating/using/push-notification-delivery.md)
+* [Entrega por correio direto](../../automating/using/direct-mail-delivery.md)
 * [Entrega no aplicativo](../../automating/using/in-app-delivery.md)
 
