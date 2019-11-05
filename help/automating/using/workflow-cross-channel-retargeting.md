@@ -1,8 +1,6 @@
 ---
 title: '"Caso de uso do fluxo de trabalho: Redefinição de metas para não-iniciantes"'
-seo-title: '"Caso de uso do fluxo de trabalho: Redefinição de metas para não-iniciantes"'
 description: '"Caso de uso do fluxo de trabalho: Redefinição de metas para não-iniciantes"'
-seo-description: '"Caso de uso do fluxo de trabalho: Redefinição de metas para não-iniciantes"'
 page-status-flag: nunca ativado
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: molviato
@@ -15,7 +13,7 @@ context-tags: 'workflow,use-case,query,wait,delivery '
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4a38b1f3d7d6dbf12fa71c819147bf2d91acb0c4
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -38,7 +36,7 @@ Você pode enviar um email para os clientes e, em seguida, um sms para aqueles q
 
 ![](assets/wf-complement-query.png)
 
-## Criação de uma entrega de email{#creating-an-email-delivery}
+## Criação de um delivery de email{#creating-an-email-delivery}
 
 1. Arraste e solte um **[!UICONTROL Email delivery]** depois de cada segmento.
 1. Clique na atividade e selecione ![](assets/edit_darkgrey-24px.png) para editar.
@@ -64,7 +62,7 @@ Você pode enviar um email para os clientes e, em seguida, um sms para aqueles q
 1. Selecione o operador entre as regras como **[!UICONTROL except]**.
 1. Click **[!UICONTROL Confirm]**.
 
-## Criação de uma entrega sms{#creating-a-sms-delivery}
+## Creating a sms delivery{#creating-a-sms-delivery}
 
 1. Arraste e solte uma entrega sms após cada segmento.
 1. Clique na atividade e selecione ![](assets/edit_darkgrey-24px.png) para editar.
@@ -83,6 +81,6 @@ Para obter mais informações, consulte a [criação de um sms](../../channels/u
 **Tópicos relacionados:**
 
 * [Consulta](../../automating/using/query.md)
-* [Entrega SMS](../../automating/using/sms-delivery.md)
+* [Entrega por SMS](../../automating/using/sms-delivery.md)
 * [Entrega por email](../../automating/using/email-delivery.md)
 * [Canal de email](../../channels/using/creating-an-email.md)
