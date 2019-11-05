@@ -1,8 +1,6 @@
 ---
-title: Gerenciamento de dados de formulário da página inicial
-seo-title: Gerenciamento de dados de formulário da página inicial
-description: Gerenciamento de dados de formulário da página inicial
-seo-description: Saiba como gerenciar os dados de formulário da página inicial.
+title: Gerenciamento de dados de formulário da página de aterrissagem
+description: Saiba como gerenciar os dados de formulário da página inicial.
 page-status-flag: nunca ativado
 uuid: 5b222ea2-6628-457f-a618-bfc0e5eb93dd
 contentOwner: limatório
@@ -15,12 +13,12 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9cdfafad7a2ac2db59b037962a84aa03568a55e6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Gerenciamento de dados de formulário da página inicial{#managing-landing-page-form-data}
+# Gerenciamento de dados de formulário da página de aterrissagem{#managing-landing-page-form-data}
 
 ## Alteração de propriedades de dados de formulário de página inicial{#changing-a-landing-page-form-data-properties}
 
