@@ -1,8 +1,6 @@
 ---
 title: Sobre as configurações do Campaign Standard
-seo-title: Sobre as configurações do Campaign Standard
 description: Sobre as configurações do Campaign Standard
-seo-description: Sobre as configurações do Campaign Standard
 page-status-flag: nunca ativado
 uuid: 5d2e2e3d-5d1f-4466-97e5-842c50390146
 contentOwner: molviato
@@ -15,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: c6c6d2a2a2b898486447826e358e98f679888aa1
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
