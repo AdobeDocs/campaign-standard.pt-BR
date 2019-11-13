@@ -13,16 +13,16 @@ context-tags: função,visão geral;função,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
 
 ---
 
 
 # Lista de funções{#list-of-roles}
 
-Por padrão, o Adobe Campaign oferece um conjunto de funções que permite definir autorizações unitárias atribuídas a usuários e grupos de usuários. Combinadas com unidades organizacionais, as funções fornecem aos usuários uma exibição filtrada da interface e definem seu acesso aos diferentes recursos. Para obter mais informações, consulte a tabela [](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)Funções e permissões.
+Por padrão, o Adobe Campaign oferece um conjunto de funções que permite definir autorizações unitárias atribuídas a usuários e grupos de usuários. Combinadas com unidades organizacionais, as funções fornecem aos usuários uma exibição filtrada da interface e definem seu acesso aos diferentes recursos. Para obter mais informações, consulte a tabela [](/help/administration/using/assets/acs_rights.pdf)Funções e permissões.
 
-[![imagem](/help/administration/using/assets/user_management_3.png)](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
+![](assets/user_management_3.png)
 
 As funções podem ser gerenciadas no **[!UICONTROL Administration > Users & Security > Roles]** menu.
 
