@@ -1,18 +1,18 @@
 ---
 title: Atualizações da documentação
 description: Saiba mais sobre todas as atualizações mais recentes da documentação do Adobe Campaign Standard.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 3bdc7d11-8421-4110-a5ba-7b1376a03dda
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: rn
-content-type: referência
-topic-tags: versões padrão da campanha
+content-type: reference
+topic-tags: campaign-standard-releases
 discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: a44e6088b20318f3a0263dd0671e4d88bf126699
 
 ---
 
@@ -24,6 +24,10 @@ Saiba mais sobre todas as atualizações mais recentes da documentação do Adob
 Esta página lista todos os novos recursos e atualizações de documentação para cada versão do Adobe Campaign Standard.
 
 Você também pode consultar as Notas [de](../../rn/using/release-notes.md)versão do Adobe Campaign.
+
+## Atualizações de documentação - novembro de 2019 {#doc-updates-november-2019}
+
+Um novo caso de uso foi adicionado descrevendo como criar um grupo de controle usando um fluxo de trabalho no Campaign Standard. [Read more](../../automating/using/workflow-control-group.md)
 
 ## Versão 19.4 - outubro de 2019 {#release-19-4---october-2019}
 
