@@ -1,18 +1,18 @@
 ---
 title: Provisionamento e configuração da integração com o Audience Manager ou o serviço principal do People
 description: 'Saiba como configurar a integração do serviço principal do Audience Manager/Pessoas para começar a compartilhar públicos-alvo ou segmentos com as diferentes soluções da Adobe Experience Cloud. '
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: e7329644-0033-4729-b4a7-61bef137f4b5
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: integrando
-content-type: referência
-topic-tags: trabalhar com campanha e público-gerente-ou-público-principal-serviço
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b5dc0078bdc48a4c5c1ffc397f51db9222662477
 
 ---
 
@@ -67,7 +67,9 @@ Essa integração deve ser configurada primeiro. Para solicitar o provisionament
 * Se os públicos-alvo forem compartilhados do Adobe Campaign para a Ad Cloud por meio do serviço principal de pessoas, você não poderá usar o **[!UICONTROL Declared ID]** provisionamento para o preenchimento retroativo histórico de públicos-alvo. Também é de esperar alguma latência ao criar públicos.
 * Se os públicos-alvo estiverem sendo compartilhados do Adobe Analytics para o Adobe Campaign por meio do serviço principal de pessoas, os segmentos não serão preenchidos no Adobe Campaign com **[!UICONTROL Declared ID]**.
 
-Se você estiver usando o Adobe Audience Manager em vez do serviço principal de pessoas, **[!UICONTROL Declared ID]** funcionará em todos os cenários.
+>[!NOTE]
+>
+>Se você estiver usando o Adobe Audience Manager em vez do serviço principal de pessoas, **[!UICONTROL Declared ID]** funcionará em todos os cenários.
 
 You can raise a request for **[!UICONTROL Declared ID]** provisioning to the following address: [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
 
