@@ -1,19 +1,19 @@
 ---
 title: Mensagens transacionais de evento
 description: Saiba como criar e publicar uma mensagem transacional de evento.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: d747feb5-58fb-4e12-a176-404f0eca5391
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canais
-content-type: referência
-topic-tags: mensagens transacionais
+audience: channels
+content-type: reference
+topic-tags: transactional-messaging
 discoiquuid: 4f6317a1-9dfe-4714-bc1c-393629d855cd
 context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -258,7 +258,7 @@ Para acessar os relatórios referentes à sua mensagem transacional, use o **[!U
 
 Você pode suspender a publicação de sua mensagem transacional usando o **[!UICONTROL Pause]** botão, por exemplo, para modificar os dados contidos na mensagem. Os eventos não são mais processados, mas mantidos em fila no banco de dados do Adobe Campaign.
 
-Os eventos em fila são mantidos durante um período definido na REST API (consulte a documentação [REST API) ou no evento trigger se você estiver usando o serviço principal Acionadores (consulte](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)Trabalhar com acionadores [](../../integrating/using/about-adobe-experience-cloud-triggers.md)da Campanha e da Experience Cloud).
+Os eventos em fila são mantidos durante um período definido na REST API (consulte a documentação [REST API) ou no evento trigger se você estiver usando o serviço principal Acionadores (consulte](../../api/using/about-campaign-standard-apis.md)Trabalhar com acionadores [](../../integrating/using/about-adobe-experience-cloud-triggers.md)da Campanha e da Experience Cloud).
 
 ![](assets/message-center_pause.png)
 
