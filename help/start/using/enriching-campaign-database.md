@@ -1,18 +1,18 @@
 ---
 title: Enriquecimento da base de dados
 description: Saiba mais sobre os vários métodos para enriquecer o banco de dados.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
-contentOwner: limatório
+contentOwner: lemaitre
 products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: referência
+content-type: reference
 topic-tags: about-adobe-campaign
 discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -66,7 +66,7 @@ For more on this integration, refer to the [dedicated documentation](https://hel
 
 As APIs do Campaign Standard permitem que você execute operações para atualizar o banco de dados, como criação, atualização ou exclusão de perfis ou serviços.
 
-For more on how to use the APIs, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+For more on how to use the APIs, refer to the [dedicated documentation](../../api/using/about-campaign-standard-apis.md).
 
 >[!CAUTION]
 >
