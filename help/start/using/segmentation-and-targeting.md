@@ -1,18 +1,18 @@
 ---
 title: Segmentação e direcionamento
 description: '"Saiba mais sobre perfis, definição de metas e criação de público-alvo no Campaign: crie públicos-alvo, importe contatos para compartilhar públicos-alvo com as soluções da Experience Cloud e evite a fadiga de marketing."'
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: referência
+content-type: reference
 topic-tags: about-adobe-campaign
 discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: ba1e87b140a19967e67320cc4579ac025955ca23
 
 ---
 
@@ -29,7 +29,7 @@ O recurso de perfis do cliente integra todos os dados do cliente em um único lu
 
 ![](assets/mkt_hist_view.png)
 
-O Adobe Campaign propõe vários mecanismos para aquisição de perfil: coleta de dados online por meio de páginas [de](../../channels/using/about-landing-pages.md)aterrissagem, mecanismos [de importação manuais ou](../../automating/using/about-data-import-and-export.md)automatizados, entrada [](../../audiences/using/creating-profiles.md) direta na interface do Adobe Campaign, criação em massa por meio de APIs [do](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)Campaign.
+O Adobe Campaign propõe vários mecanismos para aquisição de perfil: coleta de dados online por meio de páginas [de](../../channels/using/about-landing-pages.md)aterrissagem, mecanismos [de importação manuais ou](../../automating/using/about-data-import-and-export.md)automatizados, entrada [](../../audiences/using/creating-profiles.md) direta na interface do Adobe Campaign, criação em massa por meio de APIs [do](../../api/using/about-campaign-standard-apis.md)Campaign.
 
 **Tópicos relacionados:**
 
