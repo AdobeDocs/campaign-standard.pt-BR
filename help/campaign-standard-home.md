@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentação do produto Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -53,7 +53,7 @@ source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
     <div>
     <strong>Recursos para desenvolvedores</strong>
     </div>
-    <p><em><a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html">API do Adobe Campaign</a></em></p>
+    <p><em><a href="api/using/about-campaign-standard-apis.md">API do Adobe Campaign</a></em></p>
     <p><em><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Acionadores da Adobe Experience Cloud</a></em></p>
     <br>
   </td>
