@@ -1,18 +1,18 @@
 ---
 title: Criar perfis
 description: Saiba como criar perfis e coletar dados em seus contatos, usando APIs, recursos de importação, aquisição online, atualizações automáticas ou manuais.
-page-status-flag: nunca ativado
-uuid: a5f5a58a-e798-400f-8648-05dc843d557
-contentOwner: molviato
+page-status-flag: never-activated
+uuid: a5f5a58a-e798-400f-8648-05dc843d5557
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: referência
-topic-tags: managing-files
+content-type: reference
+topic-tags: managing-profiles
 discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -25,7 +25,7 @@ Para criar ou atualizar um perfil no Campaign, você pode:
 
 * Importar uma lista de perfis de um arquivo, por meio de um [fluxo de trabalho](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
 * Coletar dados online, por meio de páginas [iniciais](../../channels/using/about-landing-pages.md)
-* Criar massa por meio da API [REST](http://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* Criar massa por meio da API [REST](../../api/using/about-campaign-standard-apis.md)
 * Sincronizar perfis do [Microsoft Dynamics](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
 * Insira os dados usando as telas de interface gráfica, como explicado abaixo
 
@@ -57,7 +57,7 @@ O perfil agora aparecerá na lista.
 
 >[!NOTE]
 >
->A criação de perfis também é possível usando a API do Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#creating-profiles) .
+>A criação de perfis também é possível usando a API do Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](../../api/using/managing-profiles.md).
 
 Os perfis também podem ser particionados dependendo de suas unidades organizacionais. Para adicionar os campos organizacionais aos seus perfis, consulte a seção Perfis [de](../../administration/using/organizational-units.md#partitioning-profiles) particionamento.
 
