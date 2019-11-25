@@ -2,7 +2,7 @@
 title: Chamada de um recurso usando uma chave de identificação composta
 description: Saiba como chamar um recurso usando uma chave de identificação composta
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -23,7 +23,7 @@ Tópicos relacionados:
 
 * [Criação ou extensão do recurso](../../developing/using/creating-or-extending-the-resource.md)
 * [Definindo chaves de identificação](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [APIs REST do Campaign Standard](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* [APIs REST do Campaign Standard](../../api/using/about-campaign-standard-apis.md)
 
 ## Etapa 1: Configurar a chave de identificação{#step-1-configure-the-identification-key}
 
@@ -104,4 +104,4 @@ Em nosso caso, a sintaxe para recuperar um perfil da categoria "spring" com a ID
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-Para obter mais detalhes, consulte a documentação [das APIs REST do](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)Campaign Standard.
+Para obter mais detalhes, consulte a documentação [das APIs REST do](../../api/using/filtering.md)Campaign Standard.
