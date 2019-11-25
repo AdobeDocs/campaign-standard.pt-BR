@@ -1,18 +1,18 @@
 ---
 title: Configuração de mensagens transacionais
 description: Saiba como configurar mensagens transacionais.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 4caeadbe-f4a7-43ce-986d-e99fa9ca0d0d
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: administração
-content-type: referência
-topic-tags: configurar canais
+audience: administration
+content-type: reference
+topic-tags: configuring-channels
 discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -184,7 +184,7 @@ Depois de criar um evento, é necessário integrar o acionamento desse evento ao
 
 No exemplo descrito na seção [Transactional Messaging Operating Princípio](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) Operacional, você deseja que um evento de "abandono do carrinho" seja acionado sempre que um de seus clientes sair do site antes de comprar os produtos no carrinho. Para isso, o desenvolvedor da Web do site deve usar a API REST do Adobe Campaign Standard.
 
-Consulte a Documentação [da API](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#transactional-messages-api) REST.
+Consulte a Documentação [da API](../../api/using/managing-transactional-messages.md) REST.
 
 ## Configurações específicas de evento transacional {#transactional-event-specific-configurations}
 
@@ -222,7 +222,7 @@ Para enviar uma mensagem transacional com base em perfil, primeiro é necessári
 1. Crie um enriquecimento para vincular o evento ao **[!UICONTROL Profile]** recurso (consulte [Enriquecer o conteúdo](#enriching-the-transactional-message-content)da mensagem transacional). A criação de um enriquecimento é obrigatória ao usar uma dimensão de **[!UICONTROL Profile]** definição de metas.
 1. Visualize e publique o evento (consulte [Visualizar e publicar o evento](#previewing-and-publishing-the-event)).
 
-   Ao visualizar o evento, a API REST não contém um atributo que especifique o endereço de email ou o telefone móvel como ele será recuperado do **[!UICONTROL Profile]** recurso.
+   Ao visualizar o evento, a REST API não contém um atributo que especifique o endereço de email ou o telefone móvel como ele será recuperado do **[!UICONTROL Profile]** recurso.
 
    Depois que o evento é publicado, uma mensagem transacional vinculada ao novo evento é criada automaticamente. Para que o evento dispare o envio de uma mensagem transacional, você deve modificar e publicar a mensagem que acabou de ser criada, consulte [Envio de uma mensagem](../../channels/using/profile-transactional-messages.md#sending-a-profile-transactional-message)transacional de perfil.
 
