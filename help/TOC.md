@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: e059232068d79a512afda98dcde60578809656b2
+source-git-commit: 02cf4f79f69eb1aef81c9e805204febd363af1a2
 
 ---
 
@@ -343,3 +343,28 @@ source-git-commit: e059232068d79a512afda98dcde60578809656b2
       + [Enviar notificações internas](administration/using/sending-internal-notifications.md)
       + [Retenção de dados](administration/using/data-retention.md)
       + [Atualizações e operações de manutenção](administration/using/updates-and-maintenance-operations.md)
++ Trabalhar com APIs {#working-with-apis}
+   + Sobre APIs do Campaign Standard {#about-campaign-standard-apis}
+      + [Visão geral](api/using/about-campaign-standard-apis.md)
+      + [Por que usar APIs do Campaign Standard](api/using/why-using-campaign-standard-apis.md)
+      + [Configuração do acesso à API](api/using/setting-up-api-access.md)
+   + Conceitos globais {#global-concepts}
+      + [Leitura obrigatória](api/using/must-read.md)
+      + [Pontos finais](api/using/endpoints.md)
+      + [Mecanismo de metadados](api/using/metadata-mechanism.md)
+      + [Verbos](api/using/verbs.md)
+      + Operações adicionais {#additional-operations}
+         + [Classificação](api/using/sorting.md)
+         + [Filtragem](api/using/filtering.md)
+         + [Contagem](api/using/counting.md)
+         + [Paginação](api/using/pagination.md)
+      + [Recursos personalizados](api/using/custom-resources.md)
+   + [Gerenciamento de perfis](api/using/managing-profiles.md)
+   + [Gerenciamento de serviços e assinaturas](api/using/managing-services-and-subscriptions.md)
+   + [Interagir com o histórico de marketing](api/using/interacting-with-marketing-history.md)
+   + [Gerenciamento de privacidade](api/using/privacy-management.md)
+   + [Gerenciamento de mensagens transacionais](api/using/managing-transactional-messages.md)
+   + [Gerenciamento de fluxos de trabalho](api/using/managing-workflows.md)
+   + [Gerenciar unidades organizacionais](api/using/managing-organizational-units.md)
+   + [Gerenciamento de unidades geográficas](api/using/managing-geographical-units.md)
+   + [Solução de problemas](api/using/troubleshooting.md)
