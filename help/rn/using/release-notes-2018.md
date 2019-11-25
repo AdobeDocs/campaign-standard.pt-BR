@@ -1,18 +1,18 @@
 ---
 title: Notas de versão 2018
 description: Esta página lista todas as versões 2018 do Adobe Campaign Standard.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: rn
-content-type: referência
-topic-tags: versões padrão da campanha
+content-type: reference
+topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -157,7 +157,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 
 ### Aprimoramentos {#improvements-2}
 
-* A **[!UICONTROL History]** API foi adicionada ao Adobe.IO. Permite acessar informações relacionadas ao histórico de marketing de um perfil: número de pontos de contato, entregas enviadas, URL da página espelhada etc. For more on this, refer to the [dedicated use case](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile) .
+* A **[!UICONTROL History]** API foi adicionada ao Adobe.IO. Permite acessar informações relacionadas ao histórico de marketing de um perfil: número de pontos de contato, entregas enviadas, URL da página espelhada etc. For more on this, refer to the [dedicated use case](../../api/using/interacting-with-marketing-history.md) .
 * O fluxo de trabalho **[!UICONTROL Database cleanup]** técnico foi otimizado para garantir melhor desempenho para backup de banco de dados.
 * O Creative Designer for Email agora também está disponível em francês e alemão.
 
@@ -479,7 +479,7 @@ Alguns problemas podem ocorrer ao usar links de ajuda contextuais da interface d
   </tr> 
   <tr> 
    <td> Acionamento da atividade do sinal da API<br /> </td> 
-   <td> Agora é possível acionar uma atividade de sinal para seus fluxos de trabalho diretamente da API do Adobe Campaign Standard.<br /><a class="anchorLink" href="https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity" target="_blank"> Para obter mais informações, consulte a documentação detalhada</a> .<br /> </td> 
+   <td> Agora é possível acionar uma atividade de sinal para seus fluxos de trabalho diretamente da API do Adobe Campaign Standard.<br /><a class="anchorLink" href="../../api/using/managing-workflows.md"> Para obter mais informações, consulte a documentação detalhada</a> .<br /> </td> 
   </tr> 
  </tbody> 
 </table>
