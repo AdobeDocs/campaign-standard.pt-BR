@@ -1,18 +1,18 @@
 ---
 title: Editar perfis
 description: Saiba como editar perfis existentes e acessar informações de contato, canais preferidos, registros de rastreamento, assinaturas etc.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 6fcdb719-6149-48fc-b400-64c24a51487f
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: referência
-topic-tags: managing-files
+content-type: reference
+topic-tags: managing-profiles
 discoiquuid: 8d3ba7bf-90ae-4c6d-aaeb-a48572a69f2f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -37,7 +37,7 @@ Para editar um perfil existente e consultar os dados associados a ele, ou modifi
    >
    >Você só pode modificar as informações na **[!UICONTROL General]** guia - exceto para a **[!UICONTROL Traceability]** seção.
 
-A edição de perfis também é possível usando a API do Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#updating-profiles) .
+A edição de perfis também é possível usando a API do Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](../../api/using/managing-profiles.md) .
 
 Tópico relacionado:
 
