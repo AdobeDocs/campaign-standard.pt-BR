@@ -1,19 +1,19 @@
 ---
 title: Sinal externo
 description: A atividade de sinal externo aciona um fluxo de trabalho quando algumas condições são atendidas com êxito em outro fluxo de trabalho.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 884b6daf-bfd9-440b-8336-004b80c76def
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatização
-content-type: referência
-topic-tags: atividades de execução
+audience: automating
+content-type: reference
+topic-tags: execution-activities
 discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
-context-tags: sinal,principal
+context-tags: signal,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -30,7 +30,7 @@ A **[!UICONTROL External signal]** atividade aciona um fluxo de trabalho quando 
 
 A **[!UICONTROL External signal]** atividade é usada para organizar e orquestrar diferentes processos que fazem parte da mesma jornada do cliente em fluxos de trabalho diferentes. Ele permite iniciar um fluxo de trabalho a partir de outro, permitindo suportar jornadas de clientes mais complexas, ao mesmo tempo que pode monitorar e reagir melhor em caso de problema.
 
-A **[!UICONTROL External signal]** atividade é projetada para ser colocada como a primeira atividade de um fluxo de trabalho. Ele pode ser acionado a partir da **[!UICONTROL End]** atividade de outro fluxo de trabalho ou de uma chamada REST API (para obter mais informações, consulte a documentação [da](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity) API ).
+A **[!UICONTROL External signal]** atividade é projetada para ser colocada como a primeira atividade de um fluxo de trabalho. Ele pode ser acionado a partir da **[!UICONTROL End]** atividade de outro fluxo de trabalho ou de uma chamada REST API (para obter mais informações, consulte a documentação [da](../../api/using/managing-workflows.md)API).
 
 Quando acionados, os parâmetros externos podem ser definidos e estar disponíveis nas variáveis de eventos do fluxo de trabalho. O processo para chamar um fluxo de trabalho com parâmetros externos está detalhado [nesta seção](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
@@ -56,7 +56,7 @@ Ao configurar um sinal externo, é importante primeiro configurar a **[!UICONTRO
 
    >[!NOTE]
    >
-   >Se você quiser acionar o fluxo de trabalho de destino a partir de outro fluxo de trabalho, continue com as etapas a seguir. Se desejar acionar o fluxo de trabalho de destino a partir de uma chamada REST API, consulte a documentação [da](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity) API para obter mais detalhes.
+   >Se você quiser acionar o fluxo de trabalho de destino a partir de outro fluxo de trabalho, continue com as etapas a seguir. Se desejar acionar o fluxo de trabalho de destino a partir de uma chamada REST API, consulte a documentação [da](../../api/using/managing-workflows.md) API para obter mais detalhes.
 
 1. Abra o fluxo de trabalho de origem e selecione uma **[!UICONTROL End]** atividade. Se não houver nenhuma **[!UICONTROL End]** atividade disponível, adicione uma após a última atividade de uma ramificação do fluxo de trabalho.
 
