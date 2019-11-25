@@ -10,7 +10,7 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+source-git-commit: 25ef93bcc48d58bfdfc13223c2c40b664d5159f0
 
 ---
 
@@ -169,6 +169,12 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td>excludeLogs</td>
                   <td>Logs de exclusão</td>
                   <td>coleção </td>
+                  <td> </td>
+               </tr>
+               <tr>
+                  <td>externalId</td>
+                  <td>ID do recurso externo</td>
+                  <td>string(100) </td>
                   <td> </td>
                </tr>
                <tr>
