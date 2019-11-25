@@ -1,19 +1,19 @@
 ---
 title: Sobre perfis
 description: Os contatos são armazenados como perfis no banco de dados do Campaign e atualizados durante todo o ciclo de vida.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 087f91a4-6e69-488e-9aa0-424d23d396ed
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: referência
-topic-tags: managing-files
+content-type: reference
+topic-tags: managing-profiles
 discoiquuid: a35e736c-a17b-420c-8411-0debc3c6275a
-context-tags: destinatário,visão geral
+context-tags: recipient,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -24,7 +24,7 @@ O Adobe Campaign permite que você gerencie contatos durante todo o ciclo de vid
 
 >[!NOTE]
 >
->Os perfis também estão disponíveis usando a API do Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#retrieving-profiles) .
+>Os perfis também estão disponíveis usando a API do Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](../../api/using/managing-profiles.md).
 
 ![](assets/marketing_history.png)
 
