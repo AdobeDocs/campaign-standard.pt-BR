@@ -1,18 +1,18 @@
 ---
 title: Notas de versão
 description: Esta página lista todas as versões recentes do Adobe Campaign Standard.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: rn
-content-type: referência
-topic-tags: versões padrão da campanha
-discoiquuid: 5c7bfb74-4002-4ffe-87e8-bdb41d34b41
+content-type: reference
+topic-tags: campaign-standard-releases
+discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -43,7 +43,7 @@ Recursos adicionais:
  <tbody> 
   <tr> 
    <td> California Consumer Privacy Act (CCPA)<br /> </td> 
-   <td> <p>CCPA é a nova lei de privacidade do estado da Califórnia que harmoniza e moderniza os requisitos de proteção de dados que entram em vigor em 1° de janeiro de 2020. O CCPA se aplica aos clientes do Adobe Campaign que detêm dados para pessoas de dados residentes na Califórnia.</p>
+   <td> <p>A CCPA é a nova lei de privacidade do estado da Califórnia que harmoniza e moderniza os requisitos de proteção de dados que entram em vigor em 1° de janeiro de 2020. O CCPA se aplica aos clientes do Adobe Campaign que detêm dados para pessoas de dados residentes na Califórnia.</p>
    <p>Além dos recursos de privacidade já disponíveis no Adobe Campaign (incluindo gerenciamento de consentimento, configurações de retenção de dados e funções de usuário), estamos aproveitando esta oportunidade para incluir recursos adicionais, para ajudar a facilitar sua preparação para CCPA:</p>
    <ul>
     <li>Direito de acesso e direito de exclusão: estamos aproveitando as capacidades que foram adicionadas ao RGPD. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">Saiba mais</a> </li>
@@ -95,7 +95,7 @@ Recursos adicionais:
 * Correção de um problema que exibia aleatoriamente espaços sem quebra de largura zero. (CAMP-35116)
 * Correção de um problema com a posição dos botões na caixa de diálogo **Salvar como fragmento** .
 * Correção de um problema de visualização ao adicionar uma tag HTML em um título de imagem e texto alternativo.
-* Correção de um problema ao editar, no designer Email, links criados em emails do editor herdado.
+* Correção de um problema ao editar, no designer Email, links criados em emails do editor legado.
 * Correção de um problema que deixava marcas de estilo duplicadas no conteúdo.
 * Correção de um problema com o formato de data ao inserir um campo de personalização em um email.
 * Correção de um problema de salvamento ao alternar do modo HTML para texto sem formatação.
@@ -256,7 +256,7 @@ Observe que o Painel de controle está disponível apenas para clientes hospedad
 * Correção de um problema que ocorria ao usar condições de visibilidade com caixas de seleção em páginas iniciais. (CAMP-34802)
 * Correção de um problema na atividade Enriquecimento que impedia a exibição de campos na guia "Dados adicionais", se a dimensão de filtragem estivesse definida como logs de rastreamento e a dimensão de destino para perfil.
 * Correção de um problema que resultava em uma mensagem de erro ao exportar um recurso "workflowTemplate".
-* Corrigido um problema ao criar um novo perfil, que impedia que o campo "Código do país/região" fosse salvo se fosse selecionado na caixa de diálogo.
+* Correção de um problema ao criar um novo perfil, que impedia que o campo "Código do país/região" fosse salvo se fosse selecionado na caixa de diálogo.
 * Correção de vários problemas que ocorriam ao usar o modelo de importação de Mala direta (updateQuarantinesDeliveryLogsDirectMail).
 * Correção de um problema relacionado à integração dos Ativos sob demanda.
 * Correção de um problema que ocorria ao ampliar na exibição da Linha do tempo. (CAMP-33628)
@@ -377,7 +377,7 @@ Vários aprimoramentos foram adicionados ao canal de mensagens transacionais par
 * Ao exportar um pacote com grupos de segurança, ele agora contém as funções atribuídas a cada grupo. (CAMP-32960)
 * Na atividade Carregar arquivo, uma nova opção permite verificar se as colunas do arquivo que você está carregando correspondem à definição da coluna. Para obter mais informações, consulte a [documentação detalhada](../../automating/using/load-file.md). (CAMP-32229)
 * Os fluxos de trabalho agora podem ser iniciados com uma carga, permitindo que você use e compartilhe parâmetros externos entre atividades dentro do fluxo de trabalho. Para obter mais informações, consulte a [documentação detalhada](../../automating/using/calling-a-workflow-with-external-parameters.md). (CAMP-29412 e CAMP-29413)
-* As APIs do Campaign Standard agora permitem que você atualize as unidades geográficas e organizacionais dos perfis usando uma carga. Para obter mais informações, consulte a [documentação detalhada](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+* As APIs do Campaign Standard agora permitem que você atualize as unidades geográficas e organizacionais dos perfis usando uma carga. Para obter mais informações, consulte a [documentação detalhada](../../api/using/about-campaign-standard-apis.md).
 * As mensagens de erro quando um objeto do banco de dados não está acessível foram tornadas mais claras para entender.
 * Na atividade Extrair arquivo, os recursos do Javascript foram atualizados ao definir o nome de um arquivo a ser exportado. Somente a função formatDate está disponível para uso no campo Saída. Para obter mais informações, consulte a [documentação detalhada](../../automating/using/extract-file.md).
 * A geração de ID de sequência automática foi aprimorada para recursos personalizados. As chaves primárias para novos recursos personalizados agora estão em 64 bits por padrão.
@@ -583,7 +583,7 @@ Vários aprimoramentos foram adicionados ao canal de mensagens transacionais par
 
 * Correção de um problema que ativava o recurso de unidade geográfica em um modelo de email ou fragmento de conteúdo criado com o Designer de email, mesmo que esse recurso estivesse desabilitado no Adobe Campaign, o que tornava o modelo ou fragmento indisponível ao tentar acessá-lo novamente. (CAMP-28174)
 * Correção de um problema que impedia que condições de conteúdo dinâmico fossem salvas ao editar conteúdo com o Designer de email. (CAMP-27905)
-* Correção de um problema que removia a versão HTML do conteúdo de email após a edição da versão em texto simples de uma mensagem e a quebra da sincronização em HTML no Designer de email. (CAMP-28507)
+* Correção de um problema que removia a versão HTML do conteúdo de email após editar a versão em texto simples de uma mensagem e quebrar a sincronização em HTML no Designer de email. (CAMP-28507)
 * Correção de um problema que impedia a abertura da interface do Email Designer ao usar o Internet Explorer 11. (CAMP-28273)
 * Correção de um problema que distorcia a renderização de configurações de estilo do Microsoft Outlook aplicadas a botões com o Designer de email.
 * Correção de um problema no Designer de email que tornava editável um URL de um fragmento de conteúdo usado em um email, o que não era esperado, pois o fragmento era bloqueado por padrão.
