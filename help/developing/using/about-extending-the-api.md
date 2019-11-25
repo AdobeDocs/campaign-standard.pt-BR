@@ -1,18 +1,18 @@
 ---
 title: Sobre a extensão da API
-description: null
-page-status-flag: nunca ativado
+description: Saiba como expor campos estendidos para os Perfis de recursos personalizados na API Perfis públicos.
+page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: desenvolvimento
-content-type: referência
-topic-tags: caso de uso — extensão da api
+audience: developing
+content-type: reference
+topic-tags: use-case--extending-the-api
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -30,5 +30,4 @@ Para publicar a API, é necessário ter a **[!UICONTROL Datamodel]** função.
 **Tópicos relacionados:**
 
 * [Sobre recursos personalizados](../../developing/using/data-model-concepts.md)
-* [Documentação da API](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
-
+* [Documentação da API](../../api/using/about-campaign-standard-apis.md)
