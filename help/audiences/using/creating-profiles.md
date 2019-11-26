@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
 
 ---
 
@@ -24,7 +24,7 @@ No Adobe Campaign, os perfis são usados por padrão para definir o destino prin
 Para criar ou atualizar um perfil no Campaign, você pode:
 
 * Importar uma lista de perfis de um arquivo, por meio de um [fluxo de trabalho](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
-* Coletar dados online, por meio de páginas [iniciais](../../channels/using/about-landing-pages.md)
+* Coletar dados online, por meio de páginas [iniciais](../../channels/using/getting-started-with-landing-pages.md)
 * Criar massa por meio da API [REST](../../api/using/about-campaign-standard-apis.md)
 * Sincronizar perfis do [Microsoft Dynamics](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
 * Insira os dados usando as telas de interface gráfica, como explicado abaixo
@@ -67,6 +67,6 @@ Os perfis também podem ser particionados dependendo de suas unidades organizaci
 
 **Tópicos relacionados:**
 
-* [Sobre páginas](../../channels/using/about-landing-pages.md) iniciais, guia passo a passo
+* [Sobre páginas](../../channels/using/getting-started-with-landing-pages.md) iniciais, guia passo a passo
 * [Importação de perfis](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
 
