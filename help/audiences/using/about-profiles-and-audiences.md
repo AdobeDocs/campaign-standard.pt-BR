@@ -1,18 +1,18 @@
 ---
 title: Sobre perfis e públicos-alvo
 description: '"Saiba mais sobre o gerenciamento de perfis e públicos-alvo no Adobe Campaign: definir populações direcionadas, selecionar públicos-alvo, filtrar destinatários, coletar dados e atualizar perfis."'
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: referência
-topic-tags: sobre-perfis e públicos-alvo
+content-type: reference
+topic-tags: about-profiles-and-audiences
 discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -31,7 +31,7 @@ O Adobe Campaign cria perfis ricos de clientes em tempo real, permitindo que voc
 
    Usando fluxos de trabalho e o editor de consultas, você pode criar públicos-alvo que serão direcionados por suas campanhas de marketing, dependendo das informações que você tiver sobre eles, suas atividades e seu histórico de marketing. Isso permite que você filtre perfis inscritos, amostras ou crie públicos-alvo em um número ilimitado de critérios.
 
-Antes de iniciar o envio de mensagens para um contato, é necessário certificar-se de obter a permissão. Caso contrário, seus emails podem ser marcados como spam e isso afetará a capacidade de entrega da plataforma. Para garantir a criação de um banco de dados de perfil saudável, proteja essa permissão como uma primeira etapa. Com o Campaign, recomendamos que você use mecanismos fáceis de aceitação e não participação por meio de [serviços](../../audiences/using/creating-a-service.md)e páginas [de](../../channels/using/about-landing-pages.md) aterrissagem para atualizar suas informações de contato e aumentar seu banco de dados.
+Antes de iniciar o envio de mensagens para um contato, é necessário certificar-se de obter a permissão. Caso contrário, seus emails podem ser marcados como spam e isso afetará a capacidade de entrega da plataforma. Para garantir a criação de um banco de dados de perfil saudável, proteja essa permissão como uma primeira etapa. Com o Campaign, recomendamos que você use mecanismos fáceis de aceitação e não participação por meio de [serviços](../../audiences/using/creating-a-service.md)e páginas [de](../../channels/using/getting-started-with-landing-pages.md) aterrissagem para atualizar suas informações de contato e aumentar seu banco de dados.
 
 Fornecer links de cancelamento de assinatura em suas mensagens permitirá que os Perfis sejam adicionados à lista negra, quando necessário, e, portanto, melhorar a entrega da plataforma. Para obter mais informações sobre a lista negra, consulte [Sobre aceitação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
