@@ -1,18 +1,18 @@
 ---
 title: Gerenciamento de participação e não participação no Campaign
 description: Saiba como o opt-in e o opt-out são gerenciados no Adobe Campaign.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: aa1801ec-562b-420e-8d79-c07d066b7b1a
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: referência
-topic-tags: processos de aceitação-participação e opção-não-participação
+content-type: reference
+topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -35,9 +35,9 @@ Você também pode configurar uma página de **[!UICONTROL BlackList]** aterriss
 
 >[!NOTE]
 >
->As páginas iniciais também podem ser usadas para ativar a assinatura de serviços. Para obter mais informações, consulte [esta página](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service).
+>As páginas iniciais também podem ser usadas para ativar a assinatura de serviços. Para obter mais informações, consulte [esta página](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service).
 
-1. Crie uma página de **[!UICONTROL Profile acquisition]** aterrissagem (consulte [esta seção](../../channels/using/about-landing-pages.md)).
+1. Crie uma página de **[!UICONTROL Profile acquisition]** aterrissagem (consulte [esta seção](../../channels/using/getting-started-with-landing-pages.md)).
 1. Adicione uma caixa de seleção no conteúdo da página inicial para cada canal desejado e, em seguida, vincule-a ao campo correspondente do banco de dados Campanha.
 
    ![](assets/optin_landingpage_1.png)
@@ -53,7 +53,7 @@ Você também pode configurar uma página de **[!UICONTROL BlackList]** aterriss
 
 ### Configurar uma página de aterrissagem para recusar todas as entregas {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-Para dar aos usuários a capacidade de recusar todas as entregas, é necessário criar e publicar uma página de **[!UICONTROL BlackList]** aterrissagem. For more on landing pages creation, refer to [this page](../../channels/using/about-landing-pages.md).
+Para dar aos usuários a capacidade de recusar todas as entregas, é necessário criar e publicar uma página de **[!UICONTROL BlackList]** aterrissagem. For more on landing pages creation, refer to [this page](../../channels/using/getting-started-with-landing-pages.md).
 
 Quando um usuário clica no link da página inicial, a **[!UICONTROL No longer contact (by any channel)]** opção no perfil é selecionada automaticamente.
 
