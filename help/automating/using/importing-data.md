@@ -1,18 +1,18 @@
 ---
 title: Importação de dados
 description: Saiba como importar dados com um fluxo de trabalho.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: d909d26a-cf50-46af-ae09-f0fd7258ca27
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatização
-content-type: referência
-topic-tags: fluxo de trabalho geral-operação
+audience: automating
+content-type: reference
+topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -88,6 +88,26 @@ Para manter a consistência dos dados no banco de dados do Adobe Campaign, siga 
 * Os dados transacionais devem ter uma chave de reconciliação e serem reconciliados com os dados existentes para evitar a criação de duplicatas.
 * **Importação de arquivos relacionados em ordem**. Se a importação for composta de vários arquivos que dependem uns dos outros, o workflow deve garantir que os arquivos sejam importados na ordem correta. Quando um arquivo falhar, os outros arquivos não serão importados.
 * **Elimine duplicatas**, reconcilie e mantenha de consistência ao importar dados.
+
+## Gerenciamento de dados criptografados {#managing-encrypted-data}
+
+Em alguns casos, os dados que você deseja importar os Servidores de campanha podem precisar ser criptografados, por exemplo, se contiverem dados de PII.
+
+Para importar ou exportar arquivos criptografados, primeiro é necessário entrar em contato com o Atendimento ao cliente da Adobe para que ele forneça à instância os comandos de criptografia/descriptografia necessários.
+
+Para fazer isso, envie uma solicitação indicando:
+
+* O **rótulo** que será exibido na interface do Campaign para usar o comando. Por exemplo, "Criptografar arquivo".
+* O **comando** a ser instalado em sua instância.
+Por exemplo, para descriptografar um arquivo usando PGP, o comando será:
+
+   ```
+   <path-to_pgp_if-not_global_or_server/>pgp.exe --decrypt --input nl6/var/vp/import/filename.pgp --passphrase "your password" --recipient recipient @email.com --verbose --output nl6/var/vp/import/filename
+   ```
+
+Depois que a solicitação for processada, os comandos de criptografia/descriptografia estarão disponíveis no **!UICONTROL Pre-processing stage]** campo nas atividades **[!UICONTROL Data loading (file)]** e **[!UICONTROL Extracting data (file)]** . Você pode usá-los para descriptografar ou criptografar os arquivos que deseja importar ou exportar.
+
+![](assets/preprocessing-encryption.png)
 
 ## Exemplo: Importar modelo de fluxo de trabalho {#example--import-workflow-template}
 
@@ -197,4 +217,3 @@ Esse exemplo mostra como predefinir um workflow que pode ser reutilizado para im
 Agora o template pode ser usado e está disponível para todo workflow novo. All is needed is then to specify the file containing the data to import in the **[!UICONTROL Load file]** activity.
 
 ![](assets/import_template_example9.png)
-
