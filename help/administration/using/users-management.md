@@ -1,18 +1,18 @@
 ---
 title: Gerenciamento de usuários
 description: 'Os usuários do Adobe Campaign têm funções específicas. Descubra os principais tipos de usuários. '
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 8c4cc74a-815f-4815-af66-a7c21bc754f1
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: administração
-content-type: referência
-topic-tags: usuários e segurança
+audience: administration
+content-type: reference
+topic-tags: users-and-security
 discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -94,7 +94,7 @@ Estas são as principais tarefas que podem ser executadas:
 * [Gerenciar programas e campanhas](../../start/using/programs-and-campaigns.md): crie campanhas de marketing incluindo diferentes tipos de atividades (emails, mensagens SMS, notificações por push, fluxos de trabalho, páginas de aterrissagem).
 * Gerenciar [perfis](../../audiences/using/about-profiles.md) e perfis [de](../../sending/using/managing-test-profiles-and-sending-proofs.md)teste: gerencie os destinatários identificados e de teste que serão direcionados pelas entregas. Adicione informações como nome, sobrenome, informações de contato, assinaturas, emails etc.
 * [Criar e enviar mensagens](../../sending/using/confirming-the-send.md): crie sua mensagem, selecione o público-alvo, defina o conteúdo da mensagem e seus elementos de personalização, envie provas e envie a mensagem final para seu público-alvo.
-* [Criar e publicar páginas](../../channels/using/about-landing-pages.md)iniciais: crie e gerencie um conjunto de serviços que você deseja oferecer aos seus clientes, por exemplo, formulários de assinatura ou cancelamento de assinatura.
+* [Criar e publicar páginas](../../channels/using/getting-started-with-landing-pages.md)iniciais: crie e gerencie um conjunto de serviços que você deseja oferecer aos seus clientes, por exemplo, formulários de assinatura ou cancelamento de assinatura.
 * [Criar e executar fluxos de trabalho](../../automating/using/building-a-workflow.md)de campanha: automatize os processos de sua campanha usando fluxos de trabalho.
 * Monitore suas atividades de marketing por meio dos relatórios [](../../reporting/using/defining-the-report-period.md)disponíveis.
 
