@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -327,7 +327,7 @@ Introduziu uma série de melhorias e correções para otimizar fragmentos na ver
   </tr> 
   <tr> 
    <td> Aprimoramento de páginas iniciais - Google reCAPTCHA<br /> </td> 
-   <td> <p>Aproveite o Google reCAPTCHA para evitar spam em suas páginas de aterrissagem sem exigir qualquer ação dos clientes.</p><p>Para obter mais informações, consulte a <a href="../../channels/using/designing-a-landing-page.md#setting-google-recaptcha">documentação detalhada</a>.</p></td> 
+   <td> <p>Aproveite o Google reCAPTCHA para evitar spam em suas páginas de aterrissagem sem exigir qualquer ação dos clientes.</p><p>Para obter mais informações, consulte a <a href="../../channels/using/configuring-landing-page.md#setting-google-recaptcha">documentação detalhada</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
