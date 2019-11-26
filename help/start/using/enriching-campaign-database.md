@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -49,7 +49,7 @@ O princípio é o seguinte:
 * Mapeie cada campo de entrada com o campo correspondente do banco de dados.
 * Disponibilize a página de aterrissagem on-line através de um site ou por meio de um link direto em uma mensagem.
 
-Para obter mais informações sobre páginas iniciais, consulte a documentação [](../../channels/using/about-landing-pages.md)dedicada.
+Para obter mais informações sobre páginas iniciais, consulte a documentação [](../../channels/using/getting-started-with-landing-pages.md)dedicada.
 
 ## Sincronizando perfis do Microsoft Dynamics 365
 
