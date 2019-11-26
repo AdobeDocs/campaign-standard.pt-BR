@@ -1,18 +1,18 @@
 ---
 title: Orquestração do Campaign
 description: O Adobe Campaign é uma poderosa ferramenta de gerenciamento de campanha entre canais que pode ajudá-lo a alinhar suas estratégias online e offline para criar experiências personalizadas de clientes.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 027f6787-d2ef-44ae-a40a-8facdfe2ae77
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: referência
+content-type: reference
 topic-tags: about-adobe-campaign
 discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -35,7 +35,7 @@ As etapas principais para criar e orquestrar uma campanha de marketing com o Ado
 
 * **Preparação** - Essa fase inicial permite que o usuário formalize a necessidade, a intenção e o objetivo da campanha: criar o plano de marketing, identificar a meta, definir o conteúdo e o modo de criação, os resultados esperados e as pessoas envolvidas.
 * **Definição de metas** - A fase de definição de metas permite que o usuário defina o modo de coleta de dados, sua estrutura, sua segmentação, públicos-alvo, sementes e testes, condições de filtragem para o design etc. Durante essa fase, você também pode configurar métodos de assinatura/cancelamento de assinatura. Consulte [Perfis e públicos-alvo](../../audiences/using/about-profiles.md).
-* **Criar mensagens e conteúdo** - Essa fase envolve selecionar o canal [de](../../channels/using/discovering-communication-channels.md)comunicação. Você também pode criar páginas [de](../../channels/using/about-landing-pages.md) aterrissagem para adquirir ou atualizar perfis e expandir seu banco de dados. Consulte [Criar um email](../../channels/using/creating-an-email.md), [Criar uma mensagem](../../channels/using/creating-an-sms-message.md)SMS, [Criar uma notificação](../../channels/using/preparing-and-sending-a-push-notification.md)por push, [Criar uma mensagem](../../channels/using/about-in-app-messaging.md)do InApp, [Criar uma entrega](../../channels/using/creating-the-direct-mail.md)de email direto.
+* **Criar mensagens e conteúdo** - Essa fase envolve selecionar o canal [de](../../channels/using/discovering-communication-channels.md)comunicação. Você também pode criar páginas [de](../../channels/using/getting-started-with-landing-pages.md) aterrissagem para adquirir ou atualizar perfis e expandir seu banco de dados. Consulte [Criar um email](../../channels/using/creating-an-email.md), [Criar uma mensagem](../../channels/using/creating-an-sms-message.md)SMS, [Criar uma notificação](../../channels/using/preparing-and-sending-a-push-notification.md)por push, [Criar uma mensagem](../../channels/using/about-in-app-messaging.md)do InApp, [Criar uma entrega](../../channels/using/creating-the-direct-mail.md)de email direto.
 * **Teste e envio** - a fase de execução permite que o usuário execute as várias etapas de validação (conteúdo, destino), principalmente por meio de telas de visualização e enviando uma prova aos aprovadores, antes de enviar. Consulte [Testes e envio](../../sending/using/about-sending-messages-with-campaign.md).
 * **Monitoramento e geração de relatórios** - Depois que a campanha é executada e as diferentes mensagens são enviadas, essa etapa permite que o usuário colete os diferentes status dos envios e as informações de rastreamento e monitoramento. A campanha e os relatórios de entrega são gerados para rastrear o impacto da campanha e das atividades dos destinatários. Consulte Ferramentas [de](../../reporting/using/about-dynamic-reports.md)relatório.
 * **Automatização** - Durante esta fase, fatores adicionais como os métodos de implementação do mecanismo de importação/exportação, o gerenciamento de dados e os modos de atualização, a identificação de dados de personalização, etc. são definidas. See [Workflows and data management](../../automating/using/workflow-data-and-processes.md).
