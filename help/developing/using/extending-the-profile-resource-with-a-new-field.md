@@ -1,18 +1,18 @@
 ---
 title: Extensão do recurso de perfil com um novo campo
 description: Saiba como estender o recurso de perfil.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 9b99e95c-93ff-4187-90f7-db0baf5369ad
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: desenvolvimento
-content-type: referência
-topic-tags: casos de uso — extensão de recursos
+audience: developing
+content-type: reference
+topic-tags: use-cases--extending-resources
 discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -147,7 +147,7 @@ Seu novo campo de recurso agora está pronto para ser usado e direcionado em uma
 
 ## Etapa 4: Atualizar e direcionar perfis com um fluxo de trabalho {#step-4--update-and-target-profiles-with-a-workflow}
 
-Para atualizar perfis com dados para o novo campo personalizado, você pode criar uma página inicial usando o **[!UICONTROL Profile acquisition]** modelo. For more information on landing pages, refer to this [page](../../channels/using/about-landing-pages.md).
+Para atualizar perfis com dados para o novo campo personalizado, você pode criar uma página inicial usando o **[!UICONTROL Profile acquisition]** modelo. For more information on landing pages, refer to this [page](../../channels/using/getting-started-with-landing-pages.md).
 
 Aqui, queremos direcionar para perfis de fluxo de trabalho que não preencheram este campo. Eles receberão um email solicitando que atualizem seus perfis para receber boletins informativos personalizados e ofertas. Cada perfil receberá um boletim personalizado, dependendo de seus interesses escolhidos.
 
