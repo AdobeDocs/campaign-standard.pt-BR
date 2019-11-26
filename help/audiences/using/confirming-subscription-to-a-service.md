@@ -1,18 +1,18 @@
 ---
 title: Confirmar a assinatura de um serviço
 description: Siga estas etapas para configurar uma mensagem de confirmação para os perfis que se inscrevem em um serviço no Adobe Campaign.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: referência
-topic-tags: gerenciar assinaturas
+content-type: reference
+topic-tags: managing-subscriptions
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -102,7 +102,7 @@ O email de confirmação é uma mensagem transacional com base no evento que voc
 ### Etapa 2: Criar e configurar o serviço {#step-2--create-and-configure-the-service-1}
 
 1. No menu avançado, **Perfis e públicos** &gt; **Serviços** por meio do logotipo do Adobe Campaign, crie um serviço.
-1. Vá para a **[!UICONTROL Service properties]** seção, acessada pelo ![](assets/edit_darkgrey-24px.png) botão no painel de serviço.
+1. Vá para a seção **[!UICONTROL Service properties]** , acessada pelo ![](assets/edit_darkgrey-24px.png) botão no painel de serviço.
 1. Fill in the **[!UICONTROL Service label]** field.
 
    ![](assets/confirmation_service-label.png)
@@ -169,17 +169,17 @@ As etapas para projetar a mensagem transacional são apresentadas nesta [seção
 ### Etapa 2: Criar e configurar o serviço {#step-2--create-and-configure-the-service-2}
 
 1. No menu avançado **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Services]** pelo logotipo do Adobe Campaign, crie um serviço.
-1. Vá para a **[!UICONTROL Service properties]** seção, acessada pelo ![](assets/edit_darkgrey-24px.png) botão no painel de serviço.
+1. Vá para a seção **[!UICONTROL Service properties]** , acessada pelo ![](assets/edit_darkgrey-24px.png) botão no painel de serviço.
 1. Fill in the **[!UICONTROL Service label]** field. Esse rótulo será exibido na mensagem de confirmação e na página inicial da assinatura.
 1. Click **[!UICONTROL Confirm]** and save the service.
 
-### Etapa 3:Criar e configurar a página de aterrissagem {#step-3--create-and-configure-the-landing-page}
+### Etapa 3: Criar e configurar a página de aterrissagem {#step-3--create-and-configure-the-landing-page}
 
 Crie uma página inicial de assinatura que será publicada no seu site.
 
 Para criar e configurar esta página inicial, siga as etapas abaixo:
 
-1. Projete uma [nova página](../../channels/using/about-landing-pages.md) inicial com base no **[!UICONTROL Subscription]** modelo.
+1. Projete uma [nova página](../../channels/using/getting-started-with-landing-pages.md) inicial com base no **[!UICONTROL Subscription]** modelo.
 1. Edite as propriedades da página inicial. Na seção **[!UICONTROL Job]** &gt; **[!UICONTROL Specific actions]** , selecione a **[!UICONTROL Specific service]** opção e escolha o serviço que você acabou de criar na lista suspensa.
 
    ![](assets/confirmation_lp-specific-service.png)
@@ -190,7 +190,7 @@ Para criar e configurar esta página inicial, siga as etapas abaixo:
 
 1. Personalize o conteúdo da página de aterrissagem.
 
-1. [Teste e publique](../../channels/using/sharing-a-landing-page.md) a página de aterrissagem.
+1. [Teste e publique](../../channels/using/testing-publishing-landing-page.md) a página de aterrissagem.
 
 Agora, cada vez que um perfil se inscreve no seu boletim informativo enviando a página de aterrissagem, ele recebe a mensagem de confirmação que você definiu com campos personalizados mapeados para o serviço.
 
