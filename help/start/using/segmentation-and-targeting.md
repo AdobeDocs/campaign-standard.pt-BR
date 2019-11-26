@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ba1e87b140a19967e67320cc4579ac025955ca23
+source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
 
 ---
 
@@ -29,7 +29,7 @@ O recurso de perfis do cliente integra todos os dados do cliente em um único lu
 
 ![](assets/mkt_hist_view.png)
 
-O Adobe Campaign propõe vários mecanismos para aquisição de perfil: coleta de dados online por meio de páginas [de](../../channels/using/about-landing-pages.md)aterrissagem, mecanismos [de importação manuais ou](../../automating/using/about-data-import-and-export.md)automatizados, entrada [](../../audiences/using/creating-profiles.md) direta na interface do Adobe Campaign, criação em massa por meio de APIs [do](../../api/using/about-campaign-standard-apis.md)Campaign.
+O Adobe Campaign propõe vários mecanismos para aquisição de perfil: coleta de dados online por meio de páginas [de](../../channels/using/getting-started-with-landing-pages.md)aterrissagem, mecanismos [de importação manuais ou](../../automating/using/about-data-import-and-export.md)automatizados, entrada [](../../audiences/using/creating-profiles.md) direta na interface do Adobe Campaign, criação em massa por meio de APIs [do](../../api/using/about-campaign-standard-apis.md)Campaign.
 
 **Tópicos relacionados:**
 
