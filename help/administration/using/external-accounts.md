@@ -1,19 +1,19 @@
 ---
 title: Contas externas
 description: Configure contas externas para configurar conexões com sistemas externos, como servidores SFTP.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 5d2e2e3d-5d1f-4466-97e5-842c50390146
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: administração
-content-type: referência
+audience: administration
+content-type: reference
 topic-tags: application-settings
 discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
 internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -52,7 +52,7 @@ As contas externas são usadas por processos técnicos, como
                 workflow ou uma troca de dados com qualquer outro aplicativo (Adobe Target, Experience
                 Manager etc.), você precisa selecionar uma conta externa.
 
-1. Click the **[!UICONTROL Create]** button.
+1. Clique no botão **.[!UICONTROL Create]**
 1. Insira um rótulo. O rótulo e a ID serão usados ao selecionar contas externas em fluxos de trabalho.
 1. Selecione o tipo de conta que deseja criar.
 1. Configure o acesso à conta especificando credenciais, endereço do servidor, número da porta e ou chaves, quando relevante.
@@ -146,7 +146,7 @@ Como você está configurando essa nova conta externa,
 
 O mecanismo do Google reCAPTCHA permite proteger sua página inicial contra spam e abuso causado por bots. Isso não é intrusivo para seus clientes, pois não requer nenhuma interação deles e se baseia em interações com seu site. Para registrar seu site, consulte esta [página](https://www.google.com/recaptcha/admin/create). É necessário escolher o tipo V3 reCAPTCHA.
 
-Para adicionar o Google reCAPTCHA V3 à sua página de aterrissagem, primeiro é necessário configurá-lo em sua conta externa. Para obter mais informações sobre como adicioná-lo à sua página de aterrissagem, consulte esta [seção](../../channels/using/designing-a-landing-page.md#setting-google-recaptcha).
+Para adicionar o Google reCAPTCHA V3 à sua página de aterrissagem, primeiro é necessário configurá-lo em sua conta externa. Para obter mais informações sobre como adicioná-lo à sua página de aterrissagem, consulte esta [seção](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
 
 Para uma conta externa do Google reCAPTCHA V3, forneça os seguintes detalhes:
 
@@ -158,4 +158,3 @@ Para uma conta externa do Google reCAPTCHA V3, forneça os seguintes detalhes:
    O **[!UICONTROL Threshold]** valor 0.0 significa que provavelmente é um bot e 1.0 provavelmente uma boa interação. Por padrão, você pode usar um limite de 0,5.
 
 ![](assets/external_accounts_3.png)
-
