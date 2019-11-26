@@ -1,19 +1,19 @@
 ---
 title: Atividades de marketing
 description: '"Saiba como criar e gerenciar suas atividades de marketing: campanhas, email, envios de notificação por push e SMS, páginas de aterrissagem e fluxos de trabalho. Você pode facilmente projetar uma nova atividade, editar uma existente e consultar seu status e validade."'
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 5d45a935-6d03-4b27-aabd-7c47c11241ba
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: referência
-topic-tags: planos de marketing
+content-type: reference
+topic-tags: marketing-plans
 discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
-context-tags: atividade,visão geral
+context-tags: activity,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -88,7 +88,7 @@ De acordo com o contexto, você pode:
 * [Criar uma notificação por push](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Criar uma mensagem do InApp](../../channels/using/about-in-app-messaging.md)
 * [Criar um fluxo de trabalho](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* [Criar uma página de aterrissagem](../../channels/using/about-landing-pages.md)
+* [Criar uma página de aterrissagem](../../channels/using/getting-started-with-landing-pages.md)
 * [Crie uma campanha](../../start/using/programs-and-campaigns.md#creating-a-campaign)
 * [Criar um programa](../../start/using/programs-and-campaigns.md#creating-a-program)
 
