@@ -1,18 +1,18 @@
 ---
 title: Configurar um processo de participação dupla
 description: Siga estas etapas para configurar um processo de aceitação dupla usando páginas iniciais no Adobe Campaign.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canais
-content-type: referência
-topic-tags: páginas de aterrissagem
+audience: channels
+content-type: reference
+topic-tags: landing-pages
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -41,7 +41,7 @@ O processo para configurar o mecanismo de aceitação dupla começa com a criaç
 
 Para criar e configurar esta página inicial, é necessário:
 
-1. Projete uma [nova página](../../channels/using/about-landing-pages.md) inicial com base no **[!UICONTROL Profile acquisition (acquisition)]** modelo. Digite o rótulo '**CONFIRMATION**'.
+1. Projete uma [nova página](../../channels/using/getting-started-with-landing-pages.md) inicial com base no **[!UICONTROL Profile acquisition (acquisition)]** modelo. Digite o rótulo '**CONFIRMATION**'.
 
    Se precisar usar [serviços](../../audiences/using/about-subscriptions.md), você também poderá usar o **[!UICONTROL Subscription (sub)]** modelo.
 
@@ -67,7 +67,7 @@ Para criar e configurar esta página inicial, é necessário:
 
    ![](assets/optin_confimlp_page2.png)
 
-1. [Teste e publique](../../channels/using/sharing-a-landing-page.md) a página de aterrissagem.
+1. [Teste e publique](../../channels/using/testing-publishing-landing-page.md) a página de aterrissagem.
 
 ## Etapa 2: Criar o email de confirmação {#step-2--create-the-confirmation-email}
 
@@ -127,7 +127,7 @@ O email de confirmação é uma mensagem transacional baseada no evento criado a
 
 Para criar e configurar esta página inicial, é necessário:
 
-1. Projete uma [nova página](../../channels/using/about-landing-pages.md) inicial com base no **[!UICONTROL Profile acquisition (acquisition)]** modelo. Digite o rótulo '**AQUISIÇÃO**'.
+1. Projete uma [nova página](../../channels/using/getting-started-with-landing-pages.md) inicial com base no **[!UICONTROL Profile acquisition (acquisition)]** modelo. Digite o rótulo '**AQUISIÇÃO**'.
 1. Edite as propriedades da página inicial: na seção **[!UICONTROL Job]** &gt; **[!UICONTROL Additional data]** , clique **[!UICONTROL Add an element]** e insira o seguinte caminho de contexto:
 
    /context/profile/blackList
@@ -149,6 +149,6 @@ Para criar e configurar esta página inicial, é necessário:
 
    ![](assets/optin_acquisition_page2.png)
 
-1. [Teste e publique](../../channels/using/sharing-a-landing-page.md) a página de aterrissagem.
+1. [Teste e publique](../../channels/using/testing-publishing-landing-page.md) a página de aterrissagem.
 
 O mecanismo de aceitação dupla agora está configurado. Você pode executar e testar o procedimento de ponta a ponta, começando pelo URL público desta **[!UICONTROL ACQUISITION]** página inicial. Esse URL é exibido no painel da página inicial.
