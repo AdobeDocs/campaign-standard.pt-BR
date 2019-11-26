@@ -1,19 +1,19 @@
 ---
 title: Criar um serviço
 description: Saiba como criar seu primeiro serviço e configurá-lo para enviar confirmações por email aos seus assinantes.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 0d95d852-0f22-4b7b-b301-8fb4844c3ca2
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: referência
-topic-tags: gerenciar assinaturas
+content-type: reference
+topic-tags: managing-subscriptions
 discoiquuid: 6b7788fe-fa6c-472a-97db-765595ce1589
-context-tags: serviço,assistente;serviço,principal
+context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -54,5 +54,4 @@ Depois que um serviço for criado, você poderá começar a promovê-lo.
 * [Gerenciamento de um serviço e assinatura](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html) de vídeo
 * [Promover um serviço](../../audiences/using/promoting-a-service.md)
 * [Criação de um público-alvo feito de assinantes](../../audiences/using/creating-audiences.md#creating-list-audiences)
-* [Vincular um formulário a um serviço em uma página inicial](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service)
-
+* [Vincular uma página de aterrissagem a um serviço](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
