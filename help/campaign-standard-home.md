@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentação do produto Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 * **[Designer de email](designing/using/designing-content-in-adobe-campaign.md)**<br/>Consulte a documentação reorganizada do designer de e-mail.
 
-* **[Landing pages](channels/using/main-steps-to-set-up-a-landing-page.md)**<br/>Saiba mais sobre como configurar uma landing page.
+* **[Landing pages](channels/using/getting-started-with-landing-pages.md)**<br/>Saiba mais sobre como configurar uma landing page.
 
 [Clique aqui para obter mais atualizações](rn/using/documentation-updates.md)
 
