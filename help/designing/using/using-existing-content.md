@@ -1,18 +1,18 @@
 ---
 title: 'Criar emails usando conteúdo existente '
 description: Descubra como projetar emails usando conteúdo de email existente no Designer de email.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: concepção
-content-type: referência
-topic-tags: edição-email-conteúdo
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -52,7 +52,7 @@ Ao criar um email ou uma página inicial, você pode optar por carregar um conte
 **Tópicos relacionados:**
 
 * [Criação de um de email](../../channels/using/creating-an-email.md)
-* [Gerenciamento de páginas de aterrissagem](../../channels/using/about-landing-pages.md)
+* [Gerenciamento de páginas de aterrissagem](../../channels/using/getting-started-with-landing-pages.md)
 
 ## Editar conteúdo existente com o Designer de email{#editing-existing-contents-with-the-email-designer}
 
