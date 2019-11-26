@@ -1,19 +1,19 @@
 ---
 title: Gerenciamento de dados de formulário da página de aterrissagem
 description: Saiba como gerenciar os dados de formulário da página inicial.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 5b222ea2-6628-457f-a618-bfc0e5eb93dd
-contentOwner: limatório
+contentOwner: lemaitre
 products: SG_CAMPAIGN/STANDARD
-audience: canais
-content-type: referência
-topic-tags: páginas de aterrissagem
+audience: channels
+content-type: reference
+topic-tags: landing-pages
 discoiquuid: 899c7152-f415-4df9-b4b4-5ff3470a4e32
 context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -51,26 +51,6 @@ Os campos de entrada são usados para armazenar ou atualizar dados no banco de d
 >[!NOTE]
 >
 >Os campos padrão das páginas iniciais incorporadas são pré-configurados. Você pode modificá-los conforme necessário.
-
-## Vincular um formulário a um serviço {#linking-a-form-to-a-service}
-
-Você pode vincular um formulário a um serviço para que os perfis possam se inscrever em um serviço específico ao validar as páginas iniciais.
-
-Os parâmetros para vincular uma página de aterrissagem permitem especificar o tipo de ação executada e se a página de aterrissagem está especificamente vinculada a um único serviço ou se é genérica.
-
-Para selecionar o serviço a ser vinculado, é necessário:
-
-1. Edite as propriedades da página inicial acessadas pelo ![](assets/edit_darkgrey-24px.png) ícone no painel da página inicial e exiba os **[!UICONTROL Job]** parâmetros.
-
-   ![](assets/lp_edit_properties_button.png)
-
-1. Escolha **[!UICONTROL Subscription]** na lista **[!UICONTROL Specific actions]** suspensa.
-
-   ![](assets/lp_parameters_5.png)
-
-1. Selecione **[!UICONTROL Specific service]** para vincular a página de aterrissagem a um único serviço. Não selecione essa opção se desejar usar vários serviços com a página de aterrissagem.
-
-   Use a **[!UICONTROL Specified service in the URL]** opção para permitir que a página de aterrissagem seja usada para vários serviços. Portanto, é necessário consultar a página de aterrissagem ao configurar o serviço.
 
 ## Armazenamento e reconciliação de dados{#data-storage-and-reconciliation}
 
