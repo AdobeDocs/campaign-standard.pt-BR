@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a3b81a62d6f4b58c1b88b4e50755dcb1e638f7be
+source-git-commit: 72b55ce387355bf58a22c44388c884951f11b904
 
 ---
 
@@ -29,7 +29,17 @@ Você também pode consultar as Notas [de](../../rn/using/release-notes.md)vers�
 
 Um novo caso de uso foi adicionado descrevendo como criar um grupo de controle usando um fluxo de trabalho no Campaign Standard. [Read more](../../automating/using/workflow-control-group.md)
 
+As informações relacionadas às propriedades das páginas iniciais foram movidas para uma seção dedicada. [Leia mais](../../channels/using/configuring-landing-page.md)
+
+A documentação do Painel de controle foi integrada ao novo conjunto de documentação colaborativa. [Leia mais](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+
+A tabela de cálculo **do** Indicador foi atualizada. [Leia mais](../../reporting/using/indicator-calculation.md)
+
 O conjunto de documentação das APIs foi integrado à documentação do Campaign Standard.[Leia mais](../../api/using/about-campaign-standard-apis.md)
+
+O guia Criar um email personalizado para introdução foi movido e atualizado. [Leia mais](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
+
+O guia de introdução às práticas recomendadas de entrega foi atualizado. [Leia mais](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
 ## Versão 19.4 - outubro de 2019 {#release-19-4---october-2019}
 
@@ -47,7 +57,7 @@ O guia de introdução ao RGPD foi melhorado e enriquecido. Agora é uma documen
 
 Foi adicionado um novo gráfico que apresenta o processo de publicação de mensagens transacionais. [Leia mais](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
 
-O guia de introdução às práticas recomendadas de entrega foi atualizado. [Leia mais](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+O guia de introdução às práticas recomendadas de entrega foi movido e atualizado. [Leia mais](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
 Uma nova seção foi adicionada. Ele fornece uma visão geral dos diferentes métodos que permitem aprimorar o banco de dados do Campaign Standard. [Leia mais](../../start/using/enriching-campaign-database.md)
 
@@ -63,7 +73,7 @@ Uma nova seção que descreve como enviar um email de confirmação personalizad
 
 A seção Mensagens transacionais foi modificada com as atualizações mais recentes da interface do usuário, incluindo a edição de conteúdo com o Designer de email. [Leia mais](../../channels/using/event-transactional-messages.md)
 
-O capítulo de páginas iniciais foi reorganizado. Ele também foi enriquecido com uma nova seção que detalha as etapas para configurar uma página de aterrissagem. [Leia mais](../../channels/using/main-steps-to-set-up-a-landing-page.md)
+O capítulo de páginas iniciais foi reorganizado. Ele também foi enriquecido com uma nova seção que detalha as etapas para configurar uma página de aterrissagem. [Leia mais](../../channels/using/getting-started-with-landing-pages.md)
 
 A página de integração do Audience Manager foi atualizada para refletir as alterações **da ID** declarada. [Leia mais](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
@@ -133,7 +143,7 @@ Adicionado um aviso na documentação de recursos personalizados. Recomendamos o
 
 ## Atualizações da documentação - julho de 2019 {#doc-updates-2019}
 
-Adicionada uma nova página sobre limitações de página inicial. [Leia mais](../../channels/using/about-landing-pages.md#landing-page-limitations)
+Adicionada uma nova página sobre limitações de página inicial. [Leia mais](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
 Um caso de uso foi adicionado sobre como chamar um perfil usando uma chave de identificação composta. [Leia mais](../../developing/using/uc-calling-resource-id-key.md)
 
@@ -153,7 +163,7 @@ Notificações locais - [Leia mais](../../channels/using/customizing-an-in-app-m
 
 Aprimoramento do fluxo de trabalho - Adicione uma carga à atividade do sinal externo - [Leia mais](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-Aprimoramento das páginas de aterrissagem - Google reCAPTCHA - [Leia mais](../../channels/using/designing-a-landing-page.md#setting-google-recaptcha)
+Aprimoramento das páginas de aterrissagem - Google reCAPTCHA - [Leia mais](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)
 
 ### Outras atualizações de documentação que vêm com a versão {#other-documentation-updates-coming-with-the-release}
 
