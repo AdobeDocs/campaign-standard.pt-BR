@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 72b55ce387355bf58a22c44388c884951f11b904
+source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
 
 ---
 
@@ -40,6 +40,10 @@ O conjunto de documentação das APIs foi integrado à documentação do Campaig
 O guia Criar um email personalizado para introdução foi movido e atualizado. [Leia mais](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 
 O guia de introdução às práticas recomendadas de entrega foi atualizado. [Leia mais](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+
+O datamodel foi integrado à documentação do Campaign Standard. [Leia mais](../../developing/using/datamodel-audience.md)
+
+O novo terminal **/customResources** da API foi adicionado à documentação da API.[Leia mais](../../api/using/interacting-with-custom-resources.md)
 
 ## Versão 19.4 - outubro de 2019 {#release-19-4---october-2019}
 
