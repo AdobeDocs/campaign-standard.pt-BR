@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
+source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
 
 ---
 
@@ -67,7 +67,7 @@ Uma nova seção foi adicionada. Ele fornece uma visão geral dos diferentes mé
 
 Uma nova seção foi adicionada descrevendo como criar um estilo de links com o Designer de email. [Leia mais](../../designing/using/styles.md#about-styling-links)
 
-Informações relacionadas à privacidade foram adicionadas à documentação das APIs [Clique aqui](../../api/using/privacy-management.md)
+Informações relacionadas à privacidade foram adicionadas à documentação das APIs [Clique aqui](../../api/using/creating-a-privacy-request.md)
 
 ## Atualizações de documentação - outubro de 2019 {#doc-updates-october-2019}
 
@@ -429,7 +429,7 @@ Uso de recursos personalizados em mensagens transacionais - [Leia mais](../../ad
 
 ### Outras atualizações de documentação que vêm com a versão {#other-documentation-updates-coming-with-the-release-7}
 
-A API do RGPD agrupa recursos que permitem o processamento automático de solicitações do RGPD. [Leia mais](../../api/using/privacy-management.md)
+A API do RGPD agrupa recursos que permitem o processamento automático de solicitações do RGPD. [Leia mais](../../api/using/creating-a-privacy-request.md)
 
 Foram adicionadas informações sobre como configurar páginas de aterrissagem para dar aos destinatários a capacidade de serem adicionados à lista negra. [Leia mais](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
@@ -503,7 +503,7 @@ Melhorias no push - Leia mais [aqui](../../channels/using/preparing-and-sending-
 
 Entregas otimizadas por fuso horário - [Leia mais](../../automating/using/scheduler.md)
 
-Acionamento da atividade do sinal da API - [Leia mais](../../api/using/managing-workflows.md)
+Acionamento da atividade do sinal da API - [Leia mais](../../api/using/triggering-a-signal-activity.md)
 
 ### Outras atualizações de documentação que vêm com a versão {#other-documentation-updates-coming-with-the-release-9}
 
@@ -553,7 +553,7 @@ A [seção](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) de c
 
 A documentação SMS foi atualizada com alguns esclarecimentos adicionados à seção [SMS sobre respostas](../../channels/using/managing-incoming-sms.md#managing-stop-sms) automáticas.
 
-Nova seção dedicada ao gerenciamento de fluxo de trabalho por meio da API. [Leia mais](../../api/using/managing-workflows.md)
+Nova seção dedicada ao gerenciamento de fluxo de trabalho por meio da API. [Leia mais](../../api/using/controlling-a-workflow.md)
 
 Nova seção dedicada às chaves primárias e ao uso de uma ID de empresa como chave na API. [Leia mais](../../api/using/about-campaign-standard-apis.md)
 
