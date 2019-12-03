@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -479,7 +479,7 @@ Alguns problemas podem ocorrer ao usar links de ajuda contextuais da interface d
   </tr> 
   <tr> 
    <td> Acionamento da atividade do sinal da API<br /> </td> 
-   <td> Agora é possível acionar uma atividade de sinal para seus fluxos de trabalho diretamente da API do Adobe Campaign Standard.<br /><a class="anchorLink" href="../../api/using/managing-workflows.md"> Para obter mais informações, consulte a documentação detalhada</a> .<br /> </td> 
+   <td> Agora é possível acionar uma atividade de sinal para seus fluxos de trabalho diretamente da API do Adobe Campaign Standard.<br /><a class="anchorLink" href="../../api/using/triggering-a-signal-activity.md"> Para obter mais informações, consulte a documentação detalhada</a> .<br /> </td> 
   </tr> 
  </tbody> 
 </table>
