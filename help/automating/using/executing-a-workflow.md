@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -58,7 +58,7 @@ Quando uma transição estiver aberta, você poderá editar sua transição **[!
 
 Usando a REST API, você pode **iniciar**, **pausar**, **retomar** e **parar** um fluxo de trabalho.
 
-Você pode encontrar mais detalhes e exemplos de chamadas REST na documentação da [API.](../../api/using/managing-workflows.md)
+Você pode encontrar mais detalhes e exemplos de chamadas REST na documentação da [API.](../../api/using/controlling-a-workflow.md)
 
 ## Ciclo de vida {#life-cycle}
 
