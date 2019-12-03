@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 554bf4a441a0fb4daea3c5eddd95b0197ca12ae6
+source-git-commit: f251e4b5187aa09f65a5d8d6215f208a09cd9159
 
 ---
 
@@ -24,8 +24,8 @@ Os pontos de extremidade disponíveis para a API REST do Adobe Campaign:
 * **/profileAndServices**: interagir com campos fora da caixa. Os campos estendidos não estão acessíveis com este endpoint.
 * **/profileAndServicesExt**: interagir com campos personalizados adicionados durante a extensão de recurso personalizado Perfil ou Serviços. For more on custom resources, refer to [this section](../../api/using/custom-resources.md).
 * **/&lt;transactionalAPI&gt;**: interaja com a API de mensagens transacionais (o nome do terminal da API de mensagens transacionais depende da configuração da instância). Para obter mais informações, consulte [esta seção](../../api/using/managing-transactional-messages.md).
-* **/workflow/execução**: interagir com fluxos de trabalho. Para obter mais informações, consulte [esta seção](../../api/using/managing-workflows.md).
-* **/privacy/privacyFerramenta**: interaja com a API de privacidade para permitir o processo automático de solicitações de privacidade. Para obter mais informações, consulte [esta seção](../../api/using/privacy-management.md).
+* **/workflow/execução**: interagir com fluxos de trabalho. Para obter mais informações, consulte [esta seção](../../api/using/controlling-a-workflow.md).
+* **/privacy/privacyFerramenta**: interaja com a API de privacidade para permitir o processo automático de solicitações de privacidade. Para obter mais informações, consulte [esta seção](../../api/using/creating-a-privacy-request.md).
 * **/histórico**: recupere o histórico de marketing dos perfis. Para obter mais informações sobre perfis de clientes integrados no Campaign, consulte a documentação [da](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html)Campanha.
 
 Por padrão, os principais recursos disponíveis para as APIs **profileAndServices** e **profileAndServicesExt** são:
