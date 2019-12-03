@@ -12,7 +12,7 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -49,7 +49,7 @@ A primeira etapa para chamar um fluxo de trabalho com parâmetros é declará-lo
 
 ## Definição dos parâmetros ao chamar o fluxo de trabalho {#defining-the-parameters-when-calling-the-workflow}
 
-Esta seção detalha como definir parâmetros ao chamar um fluxo de trabalho. Para obter mais informações sobre como executar essa operação a partir de uma chamada de API, consulte a documentação [](../../api/using/managing-workflows.md)REST APIs.
+Esta seção detalha como definir parâmetros ao chamar um fluxo de trabalho. Para obter mais informações sobre como executar essa operação a partir de uma chamada de API, consulte a documentação [](../../api/using/triggering-a-signal-activity.md)REST APIs.
 
 Antes de definir os parâmetros, verifique se:
 
@@ -173,7 +173,7 @@ Para personalizar uma entrega com base nas variáveis de eventos, você deve dec
 
    ![](assets/extsignal_activities_delivery.png)
 
-1. Click the **[!UICONTROL Confirm]** button.
+1. Clique no botão **.[!UICONTROL Confirm]**
 
 As variáveis de eventos declaradas agora estão disponíveis na lista de campos de personalização. Você pode usá-los na entrega para executar as ações abaixo:
 
@@ -223,7 +223,7 @@ Antes de configurar os fluxos de trabalho, é necessário criar o Fluxo de traba
 
 ### Etapa 1: Configurar a chamada de API {#step-1--configuring-the-api-call}
 
-Faça uma chamada de API para acionar o Workflow 1 com parâmetros. Para obter mais informações sobre a sintaxe de chamada da API, consulte a documentação [das APIs REST do](../../api/using/managing-workflows.md)Campaign Standard.
+Faça uma chamada de API para acionar o Workflow 1 com parâmetros. Para obter mais informações sobre a sintaxe de chamada da API, consulte a documentação [das APIs REST do](../../api/using/triggering-a-signal-activity.md)Campaign Standard.
 
 Em nosso caso, queremos chamar o fluxo de trabalho com os parâmetros abaixo:
 
