@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -57,7 +57,7 @@ O perfil agora aparecerá na lista.
 
 >[!NOTE]
 >
->A criação de perfis também é possível usando a API do Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](../../api/using/managing-profiles.md).
+>A criação de perfis também é possível usando a API do Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](../../api/using/creating-profiles.md).
 
 Os perfis também podem ser particionados dependendo de suas unidades organizacionais. Para adicionar os campos organizacionais aos seus perfis, consulte a seção Perfis [de](../../administration/using/organizational-units.md#partitioning-profiles) particionamento.
 
