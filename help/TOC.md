@@ -20,7 +20,7 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
    + [Atualizações da documentação](rn/using/documentation-updates.md)
 + Introdução {#getting-started}
    + Sobre o Adobe Campaign {#about-adobe-campaign}
-      + [Orquestração do Campaign](start/using/campaign-orchestration.md)
+      + [Orquestração de campanha](start/using/campaign-orchestration.md)
       + [Segmentação e direcionamento](start/using/segmentation-and-targeting.md)
       + [Conteúdo dinâmico e personalizado](start/using/dynamic-and-personalized-content.md)
       + [Rastreamento, monitoramento e relatórios](start/using/tracking--monitoring-and-reporting.md)
@@ -59,7 +59,7 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
       + [Sobre as assinaturas](audiences/using/about-subscriptions.md)
       + [Criar um serviço](audiences/using/creating-a-service.md)
       + [Promover um serviço](audiences/using/promoting-a-service.md)
-      + [Monirotamento de assinaturas](audiences/using/monitoring-subscriptions.md)
+      + [Monitoramento de assinaturas](audiences/using/monitoring-subscriptions.md)
       + [Confirmar a assinatura de um serviço](audiences/using/confirming-subscription-to-a-service.md)
    + Noções básicas sobre os processos de participação e não participação {#understanding-opt-in-and-opt-out-processes}
       + [Sobre participação e não participação no Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
@@ -299,18 +299,18 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
    + Casos de uso: extensão de recursos {#use-cases--extending-resources}
       + [Extensão do recurso de perfil com um novo campo](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [Extensão das assinaturas para um recurso de aplicativo](developing/using/extending-the-subscriptions-to-an-application-resource.md)
-   + Datamodel {#datamodel}
-      + [Público-alvo](developing/using/datamodel-audience.md)
-      + [Campaign](developing/using/datamodel-campaign.md)
+   + Modelo de dados {#datamodel}
+      + [Audience](developing/using/datamodel-audience.md)
+      + [Campanha](developing/using/datamodel-campaign.md)
       + [Delivery](developing/using/datamodel-delivery.md)
-      + [Páginas de aterrissagem](developing/using/datamodel-landingpage.md)
+      + [Landing pages](developing/using/datamodel-landingpage.md)
       + [Histórico de marketing](developing/using/datamodel-history.md)
       + [Perfil](developing/using/datamodel-profile.md)
       + [Programa](developing/using/datamodel-program.md)
-      + [Membro de sementes](developing/using/datamodel-seed.md)
+      + [Seed Member](developing/using/datamodel-seed.md)
       + [Serviço](developing/using/datamodel-service.md)
       + [Evento de assinatura](developing/using/datamodel-subscription.md)
-      + [Rastreamento de registros](developing/using/datamodel-tracking.md)
+      + [Logs de rastreamento](developing/using/datamodel-tracking.md)
       + [Evento de cancelamento de assinatura](developing/using/datamodel-unsubscription.md)
       + [Visitante](developing/using/datamodel-visitor.md)
 + Administração {#administrating}
@@ -343,14 +343,14 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
       + [Enviar notificações internas](administration/using/sending-internal-notifications.md)
       + [Retenção de dados](administration/using/data-retention.md)
       + [Atualizações e operações de manutenção](administration/using/updates-and-maintenance-operations.md)
-+ Trabalhar com APIs {#working-with-apis}
++ Trabalho com APIs {#working-with-apis}
    + Sobre APIs do Campaign Standard {#about-campaign-standard-apis}
       + [Visão geral](api/using/about-campaign-standard-apis.md)
       + [Por que usar APIs do Campaign Standard](api/using/why-using-campaign-standard-apis.md)
       + [Configuração do acesso à API](api/using/setting-up-api-access.md)
    + Conceitos globais {#global-concepts}
       + [Leitura obrigatória](api/using/must-read.md)
-      + [Pontos finais](api/using/endpoints.md)
+      + [Desfechos](api/using/endpoints.md)
       + [Mecanismo de metadados](api/using/metadata-mechanism.md)
       + [Verbos](api/using/verbs.md)
       + Operações adicionais {#additional-operations}
@@ -369,7 +369,7 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
       + [Recuperando assinaturas](api/using/retrieving-subscriptions.md)
       + [Executar assinaturas](api/using/perform-subscriptions.md)
       + [Excluindo assinaturas](api/using/deleting-subscriptions.md)
-   + [Interagir com o histórico de marketing](api/using/interacting-with-marketing-history.md)
+   + [Interação com o histórico de marketing](api/using/interacting-with-marketing-history.md)
    + Gerenciamento de privacidade {#privacy-management}
       + [Criação de uma solicitação de privacidade](api/using/creating-a-privacy-request.md)
       + [Monitorando uma solicitação de privacidade](api/using/monitoring-a-privacy-request.md)
@@ -379,7 +379,7 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
    + Gerenciamento de fluxos de trabalho {#managing-workflows}
       + [Controle de um fluxo de trabalho](api/using/controlling-a-workflow.md)
       + [Acionando uma atividade de sinal](api/using/triggering-a-signal-activity.md)
-   + Gerenciar unidades organizacionais {#managing-organizational-units}
+   + Gerenciamento de unidades organizacionais {#managing-organizational-units}
       + [Recuperando a unidade organizacional de um perfil](api/using/retrieving-an-organizational-unit.md)
       + [Atualização da unidade organizacional de um perfil](api/using/updating-profile-organizational-unit.md)
       + [Atualização de atributos de uma unidade organizacional](api/using/updating-organizational-unit-attributes.md)
