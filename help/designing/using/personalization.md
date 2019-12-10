@@ -1,31 +1,31 @@
 ---
-title: Personalização
+title: Personalização de conteúdo de email
 description: Descubra como personalizar um email no Designer de email.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: concepção
-content-type: referência
-topic-tags: edição-email-conteúdo
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
 
 ---
 
 
-# Personalização {#personalization}
+# Personalização de conteúdo de email {#personalization}
 
 O conteúdo e a exibição de mensagens entregues pelo Adobe Campaign podem ser personalizados de várias maneiras diferentes. Essas maneiras podem ser combinadas de acordo com critérios dependendo dos perfis. Em geral, o Adobe Campaign permite:
 
-* Inserir campos de personalização dinâmicos. See [Inserting a personalization field](#inserting-a-personalization-field).
+* Inserir campos de personalização dinâmica. Consulte [Inserir um campo](#inserting-a-personalization-field)de personalização.
 * Inserir blocos de personalização predefinidos. Consulte [Adicionar um bloco](#adding-a-content-block)de conteúdo.
 * Personalize o remetente de um email. Consulte [Personalizar o remetente](#personalizing-the-sender).
 * Personalize o assunto de um email. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-* Criar conteúdo condicional. Consulte [Definição de conteúdo dinâmico em um email](#defining-dynamic-content-in-an-email)
+* Crie conteúdo condicional. Consulte [Definição de conteúdo dinâmico em um email](#defining-dynamic-content-in-an-email)
 
 ## Personalização do remetente {#personalizing-the-sender}
 
@@ -37,7 +37,7 @@ Este campo pode ser personalizado. Para fazer isso, você pode adicionar campos 
 
 >[!NOTE]
 >
->Os parâmetros do cabeçalho não devem ficar vazios. O endereço do remetente é obrigatório para possibilitar o envio de um email (padrão RFC). O Adobe Campaign verifica a sintaxe dos endereços de email inseridos.
+>Os parâmetros do cabeçalho não devem estar vazios. O endereço do remetente é obrigatório para permitir o envio de um email (padrão RFC). O Adobe Campaign verifica a sintaxe dos endereços de email inseridos.
 
 ## Personalização de URLs{#personalizing-urls}
 
@@ -55,7 +55,7 @@ O Adobe Campaign permite que você personalize um ou vários URLs em sua mensage
 >
 >A personalização de URLs não pode ser aplicada ao nome do domínio nem à extensão do URL. Uma mensagem de erro será exibida durante a análise da mensagem se a personalização estiver incorreta. Ao selecionar um bloco de conteúdo, não é permitido selecionar elementos como **Vincular para espelhar a página**. Este tipo de blocos é proibido dentro de um link.
 
-## Inserção de um campo de personalização{#inserting-a-personalization-field}
+## Inserir um campo de personalização{#inserting-a-personalization-field}
 
 O Adobe Campaign permite que você insira um campo do banco de dados em sua página, como o nome do perfil.
 
@@ -176,7 +176,7 @@ Para obter mais informações, consulte Dimensões e recursos [de](../../automat
 
 **Tópicos relacionados:**
 
-* [Inserção de um campo de personalização](#inserting-a-personalization-field)
+* [Inserir um campo de personalização](#inserting-a-personalization-field)
 * [Adicionar um bloco de conteúdo](#adding-a-content-block)
 * [Definição de conteúdo dinâmico em um email](#defining-dynamic-content-in-an-email)
 
@@ -198,7 +198,7 @@ O Adobe Campaign permite que você personalize uma ou várias imagens em sua men
 
    >[!NOTE]
    >
-   >O nome de domínio (http://mydomain.com) não pode ser personalizado, ele deve ser inserido manualmente. O restante do URL pode ser personalizado.  Por exemplo: http://mydomain.com/`[Gender]`.jpg
+   >O nome de domínio (http://mydomain.com) não pode ser personalizado, ele deve ser inserido manualmente. O restante do URL pode ser personalizado. Por exemplo: http://mydomain.com/`[Gender]`.jpg
 
 1. Confirme suas alterações.
 
@@ -216,7 +216,7 @@ Essa opção só está disponível para os seguintes elementos: ENDEREÇO, BLOQU
 
 O editor de expressões é apresentado na seção de edição [de expressões](../../automating/using/editing-queries.md#about-query-editor) Avançadas.
 
-Essas condições adotam a sintaxe de expressão XTK (por exemplo, **context.profile.email !=''** ou **context.profile.status='0'**). Por padrão, todos os campos são visíveis.
+Essas condições adotam a sintaxe de expressão XTK (por exemplo, **context.profile.email !=''** ou **context.profile.status='0'**). Por padrão, todos os campos ficam visíveis.
 
 >[!NOTE]
 >
@@ -283,7 +283,7 @@ A definição de conteúdo dinâmico é diferente da [definição das condiçõe
 
 **Tópicos relacionados:**
 
-* [Envio de provas](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs)
+* [Enviar provas](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs)
 * [Edição de expressão avançada](../../automating/using/editing-queries.md#about-query-editor)
 
 ### Ordem de prioridade {#order-of-priority}
