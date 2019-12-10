@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 9e17218048daa091538a09dea6e2eabca0814a5f
 
 ---
 
@@ -62,7 +62,7 @@ Se todo o HTML ou parte dele não tiver essa marcação, o conteúdo será carre
 
 Para tornar um conteúdo externo existente totalmente editável no Designer de email, consulte a seção [Projetando um email usando o conteúdo](../../designing/using/using-existing-content.md) existente.
 
-## Importação {#importing}
+## Importação de conteúdo de email existente {#importing}
 
 ### Importar conteúdo de um arquivo {#importing-content-from-a-file}
 
@@ -211,7 +211,7 @@ Depois de identificar todos os blocos, no Designer de email, repita o seguinte p
 1. Adicione um componente de estrutura. Para obter mais informações, consulte [Edição da estrutura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de email.
 1. Adicione um componente HTML. Para obter mais informações, consulte [Adicionar fragmentos e componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Copie e cole seu HTML nesse componente.
-1. Alternar para exibição móvel. For more on this, see [this section](../../designing/using/styles.md#switching-to-mobile-view).
+1. Alternar para exibição móvel. For more on this, see [this section](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
    A exibição responsiva está quebrada, pois seu CSS está ausente.
 
@@ -228,6 +228,15 @@ Depois de identificar todos os blocos, no Designer de email, repita o seguinte p
 
    >[!NOTE]
    >
-   >Não modifique o CSS gerado pelo Designer de email: `<style acrite-template-css="true">` e `<style acrite-custom-styles="" type="text/css">`. Depois disso, adicione seu estilo.
+   >Depois disso, adicione seu estilo em outra tag de estilo personalizada.
+   >
+   >Não modifique o CSS gerado pelo Designer de email:
+   >
+   >* `<style data-name="default" type="text/css">(##)</style>`
+   >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
+   >* `<style data-name="mediaIOS8" type="text/css">(##)</style>`
+   >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
+   >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
+
 
 1. Retorne à exibição móvel para verificar se o conteúdo é exibido corretamente e salvar as alterações.
