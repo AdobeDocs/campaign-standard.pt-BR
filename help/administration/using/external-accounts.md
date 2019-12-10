@@ -13,21 +13,18 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 68921819a5335626e45678ec569172ffef46a636
 
 ---
 
 
 # Contas externas{#external-accounts}
 
-Uma conta externa é uma configuração que permite
-            configurar e testar o acesso a um servidor externo ao Adobe Campaign.
+Uma conta externa é uma configuração que permite configurar e testar o acesso a um servidor externo ao Adobe Campaign.
 
-Essas
-            contas externas podem ser usadas em workflows da campanha para acessar e gerenciar dados.
+Essas contas externas podem ser usadas em fluxos de trabalho do Campaign para acessar e gerenciar dados.
 
-Você pode configurar os seguintes tipos de contas
-            externas:
+Você pode configurar os seguintes tipos de contas externas:
 
 * SFTP. Para obter mais informações, consulte [esta seção](#sftp-external-account).
 * Amazon Storage Service (S3). Para obter mais informações, consulte [esta seção](#amazon-s3-external-account).
@@ -43,27 +40,20 @@ As contas externas podem ser configuradas pelos administradores sob o **[!UICONT
 
 ## Criação de uma conta externa {#creating-an-external-account}
 
-O Adobe Campaign vem com um conjunto de contas externas 
-                predefinidas. Para configurar conexões com sistemas externos, como servidores FTP
-                usados para transferir arquivos, você pode criar suas próprias contas externas.
+O Adobe Campaign vem com um conjunto de contas externas predefinidas. Para configurar conexões com sistemas externos, como servidores FTP usados para transferências de arquivos, você pode criar suas próprias contas externas.
 
-As contas externas são usadas por processos técnicos, como 
-                workflows técnicos ou workflows da campanha. Ao configurar uma transferência de arquivos em um 
-                workflow ou uma troca de dados com qualquer outro aplicativo (Adobe Target, Experience
-                Manager etc.), você precisa selecionar uma conta externa.
+As contas externas são usadas por processos técnicos, como fluxos de trabalho técnicos ou fluxos de trabalho de campanha. Ao configurar uma transferência de arquivo em um fluxo de trabalho ou uma troca de dados com qualquer outro aplicativo (Adobe Target, Experience Manager etc.), é necessário selecionar uma conta externa.
 
 1. Clique no botão **.[!UICONTROL Create]**
 1. Insira um rótulo. O rótulo e a ID serão usados ao selecionar contas externas em fluxos de trabalho.
 1. Selecione o tipo de conta que deseja criar.
 1. Configure o acesso à conta especificando credenciais, endereço do servidor, número da porta e ou chaves, quando relevante.
 
-   As informações necessárias geralmente são fornecidas pelo 
-                        provedor do servidor ao qual você está se conectando.
+   Normalmente, as informações necessárias são fornecidas pelo provedor do servidor ao qual você está se conectando.
 
 1. Salve sua conta.
 
-A conta externa é criada e adicionada à lista de contas. Agora está disponível para suas transferências de dados/arquivos ou configurações
-                de roteamento em atividades de workflow e propriedades de deliveries.
+A conta externa é criada e adicionada à lista de contas. Agora está disponível para suas configurações de transferência de dados/arquivos ou roteamento em atividades de fluxo de trabalho e propriedades de entrega.
 
 ## Conta externa SFTP {#sftp-external-account}
 
@@ -72,12 +62,12 @@ Diferentes tipos de conta externa exigem informações diferentes para serem esp
 Para uma conta externa SFTP, forneça os seguintes detalhes:
 
 * Endereço do servidor. Por exemplo, **ftp.domain.com**.
-* Número da porta. For example, **22**.
+* Número da porta. Por exemplo, **22**.
 * Credenciais do servidor SFTP: nome da conta e senha usados para conexão com o servidor.
 
 ### Recomendações do servidor SFTP hospedado pela Adobe {#adobe-hosted-sftp-server-recommendations}
 
-Ao gerenciar arquivos e dados para fins de ETL, esses arquivos são armazenados em um servidor SFTP hospedado fornecido pela Adobe. Este SFTP foi projetado para ser um espaço de armazenamento temporário no qual você pode controlar a retenção e exclusão de arquivos.
+Ao gerenciar arquivos e dados para fins de ETL, esses arquivos são armazenados em um servidor SFTP hospedado fornecido pela Adobe. Esse SFTP foi projetado para ser um espaço de armazenamento temporário no qual você pode controlar a retenção e a exclusão de arquivos.
 
 Quando não for usado ou monitorado corretamente, esse espaço poderá preencher rapidamente o espaço físico disponível no servidor e causar problemas graves. Isso pode resultar em perda ou corrupção de dados na sua plataforma.
 
@@ -86,15 +76,15 @@ Para evitar esses problemas, a Adobe recomenda seguir as práticas recomendadas 
 * Mantenha os dados mínimos possíveis.
 * Use a autenticação baseada em chave para evitar a expiração da senha. Os formatos suportados são **OpenSSH** e **SSH2** apenas. Será necessário fornecer a chave pública para que a equipe de suporte da Adobe seja carregada no servidor de campanha.
 * Manter os dados apenas enquanto for necessário. 15 dias é o limite máximo de tempo.
-* Use workflows para excluir corretamente os dados (gerencie a retenção de workflows consumindo os dados).
-* Use em lotes em uploads de SFTP e em workflows.
-* Manipule erros/exceções.
-* Ocasionalmente, conecte-se no SFTP para verificar diretamente o que encontra-se lá.
-* Lembre-se de que o gerenciamento de disco SFTP é predominantemente sua responsabilidade.
+* Use fluxos de trabalho para excluir os dados corretamente (gerencie a retenção dos fluxos de trabalho que consomem os dados).
+* Use o agrupamento em lote em uploads SFTP, bem como em fluxos de trabalho.
+* Tratar erros/exceções.
+* Ocasionalmente, faça logon no SFTP para verificar diretamente o que está lá.
+* Lembre-se de que o gerenciamento de disco SFTP é principalmente sua responsabilidade.
 
 Além disso, observe que os IPs públicos dos quais você está tentando iniciar a conexão SFTP devem ser listados na instância da Campanha. A lista de permissões de endereços IP pode ser solicitada por meio de um ticket [de](https://support.neolane.net)suporte, além de fornecer a chave pública para uso na autenticação.
 
-Os servidores SFTP podem ser gerenciados a partir do Painel de controle. For more information, refer to the [Control Panel documentation](https://helpx.adobe.com/campaign/kb/control-panel-sftp.html).
+Os servidores SFTP podem ser gerenciados a partir do Painel de controle. Para obter mais informações, consulte a documentação [do Painel de](https://helpx.adobe.com/campaign/kb/control-panel-sftp.html)controle.
 
 >[!NOTE]
 >
@@ -113,27 +103,29 @@ Para armazenar o arquivo no modo criptografado S3, marque a **[!UICONTROL Keep f
 
 ![](assets/external_accounts_2.png)
 
-As informações necessárias geralmente são fornecidas pelo 
-                        provedor do servidor ao qual você está se conectando.
+Normalmente, as informações necessárias são fornecidas pelo provedor do servidor ao qual você está se conectando.
 
-Especifique o **[!UICONTROL AWS Region]** associado ao terminal. Você pode verificar as regiões compatíveis e as versões de assinatura na documentação [oficial do](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region) Amazon S3.
+Especifique o **[!UICONTROL AWS Region]** associado ao terminal. Você pode verificar as regiões compatíveis e as versões de assinatura na documentação [oficial do](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)Amazon S3.
+
+>[!NOTE]
+>
+>Sua região AWS **[!UICONTROL Receiver server]** deve ser inserida sem a região AWS, e posteriormente ela será adicionada automaticamente ao URL.
 
 ### Recomendações de conta do Amazon S3 {#amazon-s3-account-recommendations}
 
 Para ajudá-lo a configurar sua conta Amazon S3, recomendamos que siga estas recomendações:
 
-* Crie uma política de definição estrita para restringir o acesso a compartimentos S3. A política de bucket pode ser configurada ao criar um bucket. For more information, refer to the [Amazon S3 documentation](http://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
+* Crie uma política de definição estrita para restringir o acesso a compartimentos S3. A política de bucket pode ser configurada ao criar um bucket. Para obter mais informações, consulte a documentação [do](http://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html)Amazon S3.
 * Ao criar uma conta externa, ative a criptografia para armazenar dados confidenciais no bucket S3 marcando a **[!UICONTROL Keep files in S3 encrypted]** caixa.
 * Conceda permissões de bucket para especificar quem pode acessar o objeto em um bucket. Para obter mais informações sobre permissão de bucket, consulte a documentação do [Amazon S3](http://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)
 
-## Conta externa do Adobe Experience Manager.{#adobe-experience-manager-external-account}
+## Conta externa do Adobe Experience Manager {#adobe-experience-manager-external-account}
 
 As contas externas do Adobe Experience Manager são usadas ao integrar o Campaign com o Experience Manager.
 
 O processo e os requisitos relacionados a essa integração estão disponíveis [neste documento](../../integrating/using/about-campaign-integrations.md).
 
-Como você está configurando essa nova conta externa, 
-                é necessário fornecer os seguintes detalhes:
+Ao configurar esta nova conta externa, é necessário fornecer os seguintes detalhes:
 
 * Servidor: insira o URL do servidor Adobe Experience Manager. Por exemplo, **http://aem.domain.com:4502**.
 * Credenciais da conta AEM: use a conta que acessará a instância do Adobe Experience Manager. Deve ser uma parte da conta do grupo remoto da campanha no Experience Manager.
