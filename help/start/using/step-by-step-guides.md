@@ -12,21 +12,21 @@ discoiquuid: d7088c18-7daf-4c30-b633-2f19496b1143
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4f8590860a260738fd1b50be782a929a761f0078
+source-git-commit: f0580e1ab75d4250bfb1cb801ff08b31b91cdc5a
 
 ---
 
 
 # Guias passo a passo{#step-by-step-guides}
 
-Comece a usar o Adobe Campaign consultando nossos intuitivos guias passo a passo.
+Comece com o Adobe Campaign consultando nossos guias passo a passo intuitivos.
 
 * [Criando um email](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)personalizado: criar e enviar emails personalizados para um público-alvo direcionado.
 * [Exportar e importar um pacote de recursos](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_ImportExport.html)personalizados: exporte e importe um pacote de recursos personalizados de um ambiente de desenvolvimento para um ambiente de produção.
 * [Criando um fluxo de trabalho](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_WorkflowSegmentation.html)de mensagens entre canais: crie um fluxo de trabalho por meio da segmentação de um público para enviar uma entrega por email e uma entrega por SMS.
 * [Criação de um email com o Experience Manager e o Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html): crie um conteúdo de email no Adobe Experience Manager e use-o em um email no Adobe Campaign Standard.
 * [Fornecimento com o Adobe Campaign](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html): descubra algumas das práticas recomendadas que podem ser usadas para fornecer com o Adobe Campaign, desde a criação e a definição de metas até o envio e o monitoramento.
-* [Otimizando sua capacidade de entrega](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html): saiba mais sobre os conceitos principais e as práticas recomendadas relacionadas à entrega, bem como as ferramentas oferecidas pelo Adobe Campaign para otimizar suas entregas.
+* [Otimizando sua capacidade de entrega](../../sending/using/about-deliverability.md): saiba mais sobre os conceitos principais e as práticas recomendadas relacionadas à entrega, bem como as ferramentas oferecidas pelo Adobe Campaign para otimizar suas entregas.
 * [Regulamento](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)geral de proteção de dados: descubra as ferramentas e funcionalidades que o Adobe Campaign oferece, bem como as práticas recomendadas, para ajudá-lo a se tornar compatível com o RGPD.
 
 Saiba mais sobre o Adobe Campaign verificando os seguintes casos de uso e exemplos:
