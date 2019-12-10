@@ -1,27 +1,25 @@
 ---
 title: Gerenciamento de estilos
 description: Descubra como gerenciar estilos de email no Designer de email.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: concepção
-content-type: referência
-topic-tags: edição-email-conteúdo
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 17264484102878d4eb58c0fe9d82d7d4f091179b
 
 ---
 
 
 # Managing Styles {#managing-styles}
 
-## Editar estilos de email{#editing-email-styles}
-
-### Editar um elemento {#editing-an-element}
+## Editar um elemento {#editing-an-element}
 
 No Designer de email, ao selecionar um elemento, várias opções específicas para o tipo de conteúdo selecionado são exibidas no **[!UICONTROL Settings]** painel. Você pode usar essas opções para alterar facilmente o estilo do seu email.
 
@@ -49,7 +47,7 @@ Para selecionar uma coluna, você também pode fazer o seguinte:
 
 Veja um exemplo [nesta seção](#example--adjusting-vertical-alignment-and-padding).
 
-### Ajustar configurações de estilo {#adjusting-style-settings}
+## Ajustar configurações de estilo {#adjusting-style-settings}
 
 1. Selecione um elemento no seu email. Para obter mais informações, consulte [Seleção de um elemento](#selecting-an-element).
 1. Ajuste as configurações de acordo com suas necessidades. Cada elemento selecionado oferece um conjunto diferente de configurações.
@@ -62,7 +60,7 @@ Veja um exemplo [nesta seção](#example--adjusting-vertical-alignment-and-paddi
 
 1. Salve o conteúdo.
 
-### Sobre preenchimento e margem {#about-padding-and-margin}
+## Sobre preenchimento e margem {#about-padding-and-margin}
 
 A interface do Designer de email permite que você ajuste rapidamente as configurações de preenchimento e margem.
 
@@ -88,7 +86,7 @@ Para ambos **[!UICONTROL Padding]** e **[!UICONTROL Margin]**, clique no ícone 
 
 ![](assets/des_padding_lock_icon.png)
 
-### Sobre o alinhamento {#about-alignment}
+## Alinhamento de estilo {#about-alignment}
 
 * **Alinhamento** do texto: coloque o cursor do mouse sobre um texto e use a barra de ferramentas contextual para alinhá-lo.
 
@@ -102,7 +100,7 @@ Para ambos **[!UICONTROL Padding]** e **[!UICONTROL Margin]**, clique no ícone 
 
    ![](assets/des_set_vertical_alignment.png)
 
-### Sobre planos de fundo {#about-backgrounds}
+## Configuração de planos de fundo {#about-backgrounds}
 
 Quando se trata de configurar planos de fundo com o Email Designer, a Adobe recomenda o seguinte:
 
@@ -144,7 +142,7 @@ Abaixo estão as configurações de plano de fundo disponíveis que você pode u
 
    Também é possível definir uma imagem de plano de fundo no nível da coluna, mas isso raramente é usado.
 
-#### Exemplo: ajuste do alinhamento vertical e do preenchimento {#example--adjusting-vertical-alignment-and-padding}
+### Exemplo: ajuste do alinhamento vertical e do preenchimento {#example--adjusting-vertical-alignment-and-padding}
 
 Você deseja ajustar o preenchimento e o alinhamento vertical dentro de um componente de estrutura composto de três colunas. Para fazer isso, siga as etapas abaixo:
 
@@ -173,7 +171,7 @@ Você deseja ajustar o preenchimento e o alinhamento vertical dentro de um compo
 
 1. Salve as alterações.
 
-### Sobre links de estilização {#about-styling-links}
+## Links de estilo {#about-styling-links}
 
 >[!NOTE]
 >
@@ -201,7 +199,7 @@ Você pode sublinhar um link e selecionar sua cor e destino no Designer de email
 
 1. Salve as alterações.
 
-### Adicionar atributos de estilo em linha {#adding-inline-styling-attributes}
+## Adicionar atributos de estilo em linha {#adding-inline-styling-attributes}
 
 Na interface do Email Designer, ao selecionar um elemento e exibir suas configurações no painel lateral, você pode personalizar os atributos em linha e seus valores para esse elemento específico.
 
@@ -218,7 +216,7 @@ O estilo é aplicado ao elemento selecionado. Se os elementos filho não tiverem
 
 Você pode ajustar o design responsivo de um email editando separadamente todas as opções de estilo para exibição móvel. Por exemplo, você pode adaptar margens e preenchimento, usar tamanhos de fonte menores ou maiores, alterar botões ou aplicar cores de fundo diferentes que serão específicas para a versão móvel do seu email.
 
-Todas as opções de estilo estão disponíveis na exibição móvel. As configurações de estilo do Designer de email são apresentadas na seção [Edição de estilos](#editing-email-styles) de email.
+Todas as opções de estilo estão disponíveis na exibição móvel. As configurações de estilo do Email Designer são apresentadas anteriormente nesta página.
 
 1. Crie um email e comece a editar o conteúdo. Para obter mais informações, consulte [Criar um conteúdo de email do zero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Para acessar a exibição móvel dedicada, selecione o **[!UICONTROL Switch to mobile view]** botão.
