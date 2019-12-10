@@ -1,22 +1,25 @@
 ---
 title: 'Criação de emails por meio de integrações do Adobe Campaign '
 description: Descubra como criar emails por meio das integrações do Adobe Campaign no Designer de email.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: concepção
-content-type: referência
-topic-tags: edição-email-conteúdo
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 021bea88b69a85b9a9535143ec8d689858af517b
 
 ---
 
+
 # Design de email de várias soluções {#multi-solution-email-design}
+
+O Adobe Campaign oferece várias opções de criação de email. Você pode usar soluções como o Dreamweaver para editar seu conteúdo de email e criar mensagens responsivas no Designer de email. Você também pode enviar conteúdo por email com o Adobe Experience Manager e usá-lo em seus emails no Adobe Campaign Standard.
 
 ## Editar conteúdo no Dreamweaver {#editing-content-in-dreamweaver}
 
@@ -63,13 +66,13 @@ O Adobe Campaign oferece várias opções de criação de email. O quadro abaixo
   <tr> 
    <td> <strong>Gravar HTML</strong><br /> </td> 
    <td> Suportado<br /> </td> 
-   <td> Não suportado<br /> </td> 
+   <td>  Não suportado<br /> </td> 
    <td> Suportado<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Atualizar HTML</strong><br /> </td> 
    <td> Somente dentro de um componente HTML<br /> </td> 
-   <td> Não suportado<br /> </td> 
+   <td>  Não suportado<br /> </td> 
    <td> Suportado<br /> </td> 
   </tr> 
   <tr> 
@@ -81,8 +84,8 @@ O Adobe Campaign oferece várias opções de criação de email. O quadro abaixo
   <tr> 
    <td> <strong>Personalização avançada</strong><br /> </td> 
    <td> Suportado<br /> </td> 
-   <td> Não suportado<br /> </td> 
-   <td> Não suportado<br /> </td> 
+   <td>  Não suportado<br /> </td> 
+   <td>  Não suportado<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Prova/visualização</strong><br /> </td> 
@@ -93,42 +96,50 @@ O Adobe Campaign oferece várias opções de criação de email. O quadro abaixo
   <tr> 
    <td> <strong>Lista de produtos</strong><br /> </td> 
    <td> Suportado em mensagens transacionais de email<br /> </td> 
-   <td> Não suportado<br /> </td> 
-   <td> Não suportado<br /> </td> 
+   <td>  Não suportado<br /> </td> 
+   <td>  Não suportado<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Benefícios</strong><br /> </td> 
    <td> 
-     - Criação fácil de emails por meio da experiência<br/>de arrastar e soltar - Funcionalidades semelhantes ao editor<br/>de conteúdo herdado - Conteúdo reutilizável com fragmentos
+     <p>- Criação fácil de emails por meio da experiência de arrastar e soltar</p>
+     <p>- Funcionalidades semelhantes ao editor de conteúdo herdado</p>
+     <p>- Conteúdo reutilizável com fragmentos</p>
   </td> 
    <td> 
-     - Reutilizar ativos do site em emails<br/>- Aproveitar o poder do Experience Manager em conteúdo de email
+     <p>- Reutilizando ativos do site em emails</p>
+     <p>- Aproveitar o poder do Experience Manager no conteúdo de email</p>
     </td> 
    <td> 
-    - Capacidade de um desenvolvedor codificar diretamente um email<br/>- Sincronização<br/>bidirecional - Edição offline no Dreamweaver e sincronização posterior<br/>- Carregamento de imagens no Adobe Campaign pelo Dreamweaver
+    <p>- Capacidade de um desenvolvedor para codificar diretamente um email</p>
+    <p>- Sincronização bidirecional</p>
+    <p>- Edição offline no Dreamweaver e sincronização posterior</p>
+    <p>- Carregamento de imagens para o Adobe Campaign pelo Dreamweaver</p>
   </td> 
   </tr> 
   <tr> 
    <td> <strong>Limitações</strong><br /> </td> 
    <td> 
-     - Nenhum conteúdo condicional nos fragmentos<br/>- Não é possível usar fragmentos do Experience Manager
+     <p>- Nenhum conteúdo condicional nos fragmentos</p>
+     <p>- Não é possível usar fragmentos do Experience Manager</p>
   </td> 
    <td> 
-     - Personalização avançada difícil de implementar<br/>- Necessidade de enviar testes no Adobe Campaign
+     <p>- Personalização avançada difícil de implementar</p>
+     <p>- Necessidade de enviar testes no Adobe Campaign</p>
   </td> 
    <td> Conteúdo dinâmico não suportado<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Público</strong><br /> </td> 
+   <td> <strong>Audience</strong><br /> </td> 
    <td> Profissionais de marketing que desejam manter a flexibilidade para usar componentes HTML em combinação com recursos de arrastar e soltar<br /> </td> 
    <td> Os profissionais de marketing já usam o Experience Manager que desejam usar modelos de email padrão com pouca personalização<br /> </td> 
    <td> Desenvolvedores que desejam codificar o conteúdo do email e integrar-se diretamente ao Adobe Campaign<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Para saber mais</strong><br /> </td> 
-   <td> Consulte <a href="../../designing/using/overview.md">Sobre o Designer de email</a><br /> </td> 
-   <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a><br /> </td> 
-   <td> Consulte <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver e Campaign</a> e assista a este <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">vídeo</a><br /> </td> 
+   <td> Consulte <a href="../../designing/using/overview.md">Sobre o Designer</a>de email.<br /> </td> 
+   <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a>.<br /> </td> 
+   <td> Consulte <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver e Campaign</a> e assista a este <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">vídeo</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
