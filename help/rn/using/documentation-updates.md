@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
+source-git-commit: bfb5ee7dd97ff46dbe285270275f37f39d2b5231
 
 ---
 
@@ -25,9 +25,17 @@ Esta página lista todos os novos recursos e atualizações de documentação pa
 
 Você também pode consultar as Notas [de](../../rn/using/release-notes.md)versão do Adobe Campaign.
 
+## Atualizações de documentação - dezembro de 2019 {#doc-updates-december-2019}
+
+A documentação de Configuração da conta externa S3 foi atualizada. [Leia mais](../../administration/using/external-accounts.md#amazon-s3-external-account)
+
+A seção Projetando conteúdo de email foi reorganizada. [Leia mais](../../designing/using/designing-content-in-adobe-campaign.md)
+
+O guia de introdução à entrega foi integrado à documentação principal e atualizado. [Leia mais](../../sending/using/about-deliverability.md)
+
 ## Atualizações de documentação - novembro de 2019 {#doc-updates-november-2019}
 
-Um novo caso de uso foi adicionado descrevendo como criar um grupo de controle usando um fluxo de trabalho no Campaign Standard. [Read more](../../automating/using/workflow-control-group.md)
+Um novo caso de uso foi adicionado descrevendo como criar um grupo de controle usando um fluxo de trabalho no Campaign Standard. [Leia mais](../../automating/using/workflow-control-group.md)
 
 As informações relacionadas às propriedades das páginas iniciais foram movidas para uma seção dedicada. [Leia mais](../../channels/using/configuring-landing-page.md)
 
@@ -289,7 +297,7 @@ Disponibilidade Geral do Designer de Email - [Leia mais](../../designing/using/o
 
 Listas de produtos em emails transacionais - [Leia mais](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
-Exibição móvel no Designer de email - [Leia mais](../../designing/using/styles.md#switching-to-mobile-view)
+Exibição móvel no Designer de email - [Leia mais](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
 Melhorias beta nas mensagens no aplicativo - [Leia mais](../../channels/using/about-in-app-messaging.md)
 
