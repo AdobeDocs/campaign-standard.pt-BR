@@ -1,18 +1,18 @@
 ---
 title: 'Criação e uso de conteúdo reutilizável '
 description: Comece a criar conteúdo de email reutilizável com o Designer de email.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: concepção
-content-type: referência
-topic-tags: edição-email-conteúdo
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Saiba mais sobre como dominar a edição de conteúdo de email. Com o Email Designer, você pode criar modelos e fragmentos com seu próprio conteúdo predefinido e reutilizá-los nas entregas a seguir.
 
-## Criação usando modelos {#designing-templates}
+## Criar e-mails usando modelos {#designing-templates}
 
 >[!NOTE]
 >
@@ -127,7 +127,7 @@ Para usá-lo, crie um email e selecione o modelo de conteúdo que você acabou d
 
 ## Sobre fragmentos {#about-fragments}
 
-Um fragmento é um componente reutilizável que pode ser referenciado em um ou mais emails.
+ Um fragmento é um componente reutilizável que pode ser referenciado em um ou mais emails.
 Eles podem ser encontrados na interface em **Recursos** &gt; Fragmentos e modelos **** de conteúdo.
 
 Para usar melhor os fragmentos no Designer de email:
@@ -203,7 +203,7 @@ Você pode criar seus próprios fragmentos de conteúdo para usá-los conforme n
    >
    >Evite salvar como um conteúdo de fragmento com componentes de estrutura vazios. Depois que o fragmento &gt;for inserido, eles não poderão ser editados.
    >
-   >A exibição [](../../designing/using/styles.md#switching-to-mobile-view) móvel não está disponível em fragmentos.
+   >A exibição [](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) móvel não está disponível em fragmentos.
 
 1. Depois de editado, salve o fragmento.
 
@@ -249,7 +249,7 @@ Ao editar um email com o Designer de email, você pode salvar diretamente parte 
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
 
 >[!NOTE]
->A exibição [](../../designing/using/styles.md#switching-to-mobile-view) móvel não está disponível em fragmentos. Se quiser editar uma exibição móvel de email, faça-a antes de salvar seu conteúdo como um fragmento.
+>A exibição [](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) móvel não está disponível em fragmentos. Se quiser editar uma exibição móvel de email, faça-a antes de salvar seu conteúdo como um fragmento.
 
 <!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
