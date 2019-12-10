@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
+source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
 
 ---
 
@@ -117,15 +117,15 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
       + [Configurar um processo de participação dupla](channels/using/setting-up-a-double-opt-in-process.md)
 + Criação do conteúdo de email {#designing-content}
    + [Designer de email do Campaign](designing/using/designing-content-in-adobe-campaign.md)
-   + [Início rápido](designing/using/quick-start.md)
-   + [Uso e recomendações](designing/using/overview.md)
+   + [Introdução ao Email Designer](designing/using/quick-start.md)
    + [Definir a linha de assunto e o remetente](designing/using/subject-line.md)
-   + [Criar e-mails do zero](designing/using/designing-from-scratch.md)
-   + [Criar emails usando conteúdo existente](designing/using/using-existing-content.md)
-   + [Criar emails usando conteúdo reutilizável](designing/using/using-reusable-content.md)
-   + [Design de email de várias soluções](designing/using/using-integrations.md)
-   + [Personalização](designing/using/personalization.md)
-   + [Modos de texto sem formatação e HTML](designing/using/plain-text-html-modes.md)
+   + Criação do conteúdo de email{#designing-email-content}
+      + [Criar e-mails do zero](designing/using/designing-from-scratch.md)
+      + [Criar emails usando conteúdo existente](designing/using/using-existing-content.md)
+      + [Criar emails usando conteúdo reutilizável](designing/using/using-reusable-content.md)
+      + [Criar emails usando integrações de várias soluções](designing/using/using-integrations.md)
+      + [Editar texto sem formatação, HTML e emails móveis](designing/using/plain-text-html-modes.md)
+   + [Personalização de conteúdo de email](designing/using/personalization.md)
    + [Gerenciamento de estilos de email](designing/using/styles.md)
    + [Gerenciamento de links](designing/using/links.md)
    + [Gerenciamento de imagens](designing/using/images.md)
@@ -150,6 +150,15 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
       + [Receber alertas quando ocorrerem falhas](sending/using/receiving-alerts-when-failures-happen.md)
       + [Noções básicas sobre falhas de entrega](sending/using/understanding-delivery-failures.md)
       + [Noções básicas sobre gestão de quarentena](sending/using/understanding-quarantine-management.md)
+   + Gerenciamento da entrega {#managing-deliverability}
+      + [Sobre a entrega](sending/using/about-deliverability.md)
+      + [Iniciar uma nova plataforma](sending/using/starting-new-platform.md)
+      + [Controle de conteúdo de email](sending/using/control-email-content.md)
+      + [Melhorando sua reputação](sending/using/improving-reputation.md)
+      + [Lista de permissões](sending/using/whitelists.md)
+      + [Recomendações técnicas](sending/using/technical-recommendations.md)
+      + [Monitoramento da entrega](sending/using/monitor-deliverability.md)
+      + [Solução de problemas](sending/using/troubleshooting.md)
 + Relatório {#reporting}
    + Sobre os relatórios {#about-reporting}
       + [Sobre os relatórios dinâmicos](reporting/using/about-dynamic-reports.md)
