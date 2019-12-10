@@ -1,37 +1,42 @@
 ---
-title: Início rápido do design de conteúdo de email
+title: Introdução ao designer de email
 description: Comece a criar conteúdo de email com o Designer de email.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: concepção
-content-type: referência
-topic-tags: edição-email-conteúdo
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 219f0ffeb11f1fda0d4c1c3b6f5dc7b67f9b0df0
 
 ---
 
-# Início rápido do design de conteúdo de email{#quick-start}
+# Introdução ao designer de email {#quick-start}
 
 O Designer de email fornece quatro maneiras de criar emails.
 
-Você pode criar um email iniciando no zero:
+Você pode criar um email [iniciando no Designer](#without-existing-content)de email:
 
 * Você pode criar um email a partir de uma tela em branco adicionando facilmente a estrutura e os componentes de conteúdo e personalize seu conteúdo para enviar uma entrega rapidamente. Você também pode gerenciar totalmente os elementos de estilo. Para obter mais informações, [comece rapidamente](#from-scratch-email) ou consulte a documentação [](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)completa.
 
 * Você pode criar um email a partir de modelos predefinidos selecionando um modelo e criando seu novo conteúdo de email aqui. [Saiba mais](#building-content-from-an-out-of-the-box-template)
 
-Você também pode criar um email com conteúdo existente:
+Você também pode criar um email [com conteúdo](#with-existing-content)existente:
 
 * É possível converter um conteúdo HTML existente (criado externamente ou no editor herdado). [Saiba mais](#converting-an-html-content)
 * É possível importar um conteúdo HTML existente imediatamente no modo de compatibilidade. [Saiba mais](#compatibility-mode)
 
-## Sem conteúdo existente {#without-existing-content}
+| Sem conteúdo | Com conteúdo |
+|---|---|
+| Criar um email do zero | Converter um conteúdo HTML existente |
+| Criação de conteúdo a partir de um modelo pronto para uso | Importação de um HTML existente |
+
+## Criação de emails com o editor {#without-existing-content}
 
 ### Criar um email do zero {#from-scratch-email}
 
@@ -63,7 +68,7 @@ Nos componentes da Estrutura, arraste e solte os componentes do layout que desej
 
 Você pode adicionar vários componentes de conteúdo ao seu email, como imagem, texto e botões. Para obter mais informações, consulte Componentes [](../../designing/using/designing-from-scratch.md#about-content-components)de conteúdo.
 
-* Imagem
+* **Imagem**
 
 1. Em Componentes **** de conteúdo, arraste e solte a imagem em um dos componentes da sua estrutura.
 1. Clique em **Procurar**.
@@ -71,7 +76,7 @@ Você pode adicionar vários componentes de conteúdo ao seu email, como imagem,
 
 ![](assets/browse-image-quick-start.png)
 
-* Texto com personalização
+* **Texto com personalização**
 
 1. Em Componentes **** de conteúdo, arraste e solte o texto em um dos componentes da sua estrutura.
 1. Clique no componente e insira seu texto.
@@ -80,12 +85,12 @@ Você pode adicionar vários componentes de conteúdo ao seu email, como imagem,
 
 ![](assets/edit-text-quick-start.png)
 
-* HTML
+* **HTML**
 
 1. Em Componentes **** de conteúdo, arraste e solte o HTML em um dos componentes da sua estrutura.
 1. Clique em **Mostrar o código** fonte.
 1. Insira seu conteúdo HTML.
-1. Clique em **Save**.
+1. Clique em **Salvar**.
 
 ![](assets/html-component-source-code.png)
 
@@ -101,7 +106,7 @@ Você pode ajustar o estilo do email, por exemplo, alterando o preenchimento de 
 1. À direita, na paleta, vá para **Preenchimento**.
 1. Clique no ícone de bloqueio para quebrar a sincronização entre os parâmetros superior e inferior ou direito e esquerdo.
 1. Ajuste o **Preenchimento** conforme necessário.
-1. Clique em **Save**.
+1. Clique em **Salvar**.
 
 ![](assets/padding-quick-start.png)
 
@@ -113,7 +118,7 @@ Você pode criar um e-mail a partir de modelos prontos para uso, como mensagens 
 
 1. Crie um email e abra seu conteúdo. Para obter mais informações, consulte [Criação de um email](../../channels/using/creating-an-email.md).
 1. Clique no ícone inicial para acessar a página **[!UICONTROL Email Designer]** inicial.
-1. Clique na **[!UICONTROL Templates]** guia.
+1.  Clique na **[!UICONTROL Templates]** guia.
 1. Escolha um modelo HTML predefinido.
 Os diferentes modelos apresentam várias combinações de vários tipos de elementos. Por exemplo, os modelos 'Difusão' têm margens, enquanto os modelos 'Astro' não têm. Para obter mais informações, consulte Modelos [de](../../designing/using/using-reusable-content.md#content-templates)conteúdo.
 1. Vá para a **[!UICONTROL Properties]** guia da página inicial do Email Designer (acessível pelo ícone inicial) e preencha a **[!UICONTROL Subject]** seção.
@@ -123,7 +128,7 @@ Os diferentes modelos apresentam várias combinações de vários tipos de eleme
 1. Modifique o conteúdo de cada elemento de acordo com suas necessidades: imagens, texto, links.
 1. Adapte as opções de estilo ao seu conteúdo, se necessário. Para obter mais informações, consulte [Edição de estilos](../../designing/using/styles.md)de email.
 
-## Com conteúdo existente {#with-existing-content}
+## Usar um conteúdo de email existente {#with-existing-content}
 
 Se quiser criar uma estrutura de modelos modulares e fragmentos que podem ser combinados para reutilização em vários emails, considere converter seu HTML de email em um modelo do Designer de email.
 
@@ -171,7 +176,7 @@ Depois de identificar todos os blocos, no Designer de email, repita o seguinte p
 1. Adicione um componente de estrutura. Para obter mais informações, consulte [Edição da estrutura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de email.
 1. Adicione um componente HTML. Para obter mais informações, consulte [Adicionar fragmentos e componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Copie e cole seu HTML nesse componente.
-1. Alternar para exibição móvel. For more on this, see [this section](../../designing/using/styles.md#switching-to-mobile-view).
+1. Alternar para exibição móvel. For more on this, see [this section](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
    A exibição responsiva está quebrada, pois seu CSS está ausente.
 
