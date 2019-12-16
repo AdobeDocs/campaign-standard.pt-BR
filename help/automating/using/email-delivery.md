@@ -1,19 +1,19 @@
 ---
 title: Entrega por email
 description: A atividade de entrega de email permite configurar o envio de um único email de envio ou de um email recorrente em um fluxo de trabalho.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 7de53431-84ae-4d21-8361-2775ad314ed2
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatização
-content-type: referência
-topic-tags: atividades de canal
-discoiquuid: 5f288cf6-f8ff-4ac9-9c1a-801026055bb
-context-tags: entrega,fluxo de trabalho,principal
+audience: automating
+content-type: reference
+topic-tags: channel-activities
+discoiquuid: 5f288cf6-f8ff-4ac9-9c1a-8010260554bb
+context-tags: delivery,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -60,7 +60,7 @@ A preparação da mensagem é acionada de acordo com os parâmetros de execuçã
 
 1. Selecione um tipo de email. Os tipos de email vêm de modelos de email definidos no menu **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Delivery templates]** .
 1. Insira as propriedades gerais do email. Você também pode anexá-la a uma campanha existente. A etiqueta da atividade de entrega do fluxo de trabalho é atualizada com a etiqueta de email.
-1. Defina o conteúdo do email. Consulte a seção sobre edição [de](../../designing/using/overview.md)conteúdo.
+1. Defina o conteúdo do email. Consulte a seção sobre edição [de](../../designing/using/designing-content-in-adobe-campaign.md)conteúdo.
 1. Por padrão, a **[!UICONTROL Email delivery]** atividade não inclui nenhuma transição de saída. Se você deseja adicionar uma transição de saída à sua **[!UICONTROL Email delivery]** atividade, vá para a **[!UICONTROL General]** guia das opções de atividade avançada ( ![](assets/dlv_activity_params-24px.png) botão nas ações rápidas da atividade) e verifique uma das seguintes opções:
 
    * **[!UICONTROL Add outbound transition without the population]**: isso permite gerar uma transição de saída que contém exatamente a mesma população da transição de entrada.
