@@ -1,24 +1,24 @@
 ---
 title: Carregar arquivo
 description: A atividade Carregar arquivo permite importar dados em um formulário estruturado para usar esses dados no Adobe Campaign.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 69af12cc-6f82-4977-9f53-aa7bc26f5d7e
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatização
-content-type: referência
-topic-tags: atividades de gestão de dados
+audience: automating
+content-type: reference
+topic-tags: data-management-activities
 discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
 
-# Carregar arquivo{#load-file}
+# Carregar arquivo {#load-file}
 
 ## Descrição {#description}
 
@@ -80,7 +80,7 @@ A configuração da atividade envolve duas etapas. Primeiro, é necessário defi
 
    A **[!UICONTROL Column definition]** guia permite especificar com precisão a estrutura de dados de cada coluna para importar dados que não contenham erros (por exemplo, usando o gerenciamento nulo) e fazer com que eles correspondam aos tipos que já estão presentes no banco de dados do Adobe Campaign para operações futuras.
 
-   Por exemplo, você pode alterar o rótulo de uma coluna, selecionar seu tipo (string, número inteiro, data etc.)  ou até mesmo especifique o processamento de erros.
+   Por exemplo, você pode alterar o rótulo de uma coluna, selecionar seu tipo (string, número inteiro, data etc.) ou até mesmo especifique o processamento de erros.
 
    For more information, refer to the [Column format](#column-format) section.
 
