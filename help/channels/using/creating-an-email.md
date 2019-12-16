@@ -1,18 +1,18 @@
 ---
 title: Criação de um de email
 description: Siga estas etapas para criar um email de envio único no Adobe Campaign.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 74c7ef35-82c0-4bc4-b1f6-8e74fdcaea3c
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canais
-content-type: referência
-topic-tags: mensagens de email
+audience: channels
+content-type: reference
+topic-tags: email-messages
 discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -47,7 +47,7 @@ Você pode criar um email de uma [campanha](../../start/using/marketing-activiti
 
    ![](assets/email_creation_3.png)
 
-1. Defina e personalize o conteúdo da mensagem, o nome do remetente e o assunto usando o [Email Designer](../../designing/using/overview.md). Para obter mais informações, consulte [Sobre design](../../designing/using/overview.md)de conteúdo de email.
+1. Defina e personalize o conteúdo da mensagem, o nome do remetente e o assunto usando o [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md). Para obter mais informações, consulte [Sobre design](../../designing/using/designing-content-in-adobe-campaign.md)de conteúdo de email.
 
    ![](assets/email_creation_4.png)
 
