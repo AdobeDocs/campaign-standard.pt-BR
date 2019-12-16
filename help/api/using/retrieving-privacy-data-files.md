@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 Para recuperar o arquivo que contém todas as informações associadas a um valor de reconciliação, siga este procedimento de três etapas:
 
-1. Execute uma solicitação **POST** para criar uma nova solicitação com o atributo **type="access"**, consulte [Criação de uma nova solicitação](#creating-a-privacy-request)de privacidade.
+1. Execute uma solicitação **POST** para criar uma nova solicitação com o atributo **type="access"**, consulte [Criação de uma nova solicitação](../../api/using/creating-a-privacy-request.md)de privacidade.
 
 1. Execute uma solicitação **GET** para recuperar informações sobre a solicitação.
 
