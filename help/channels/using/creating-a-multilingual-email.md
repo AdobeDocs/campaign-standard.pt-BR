@@ -1,18 +1,18 @@
 ---
 title: Criação de um email multilíngue
 description: Siga estas etapas para criar um email multilíngue direcionando destinatários com diferentes idiomas preferenciais.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canais
-content-type: referência
-topic-tags: mensagens de email
+audience: channels
+content-type: reference
+topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -37,7 +37,7 @@ O público-alvo é baseado em perfis com uma informação completa de idioma pre
    Se necessário, adicione variantes usando o **[!UICONTROL Add an element]** botão. **[!UICONTROL Default]** não deve ser excluída. Quando definido como **[!UICONTROL default]**, [o idioma](../../audiences/using/creating-profiles.md) preferencial do perfil é usado para escolher a variante. Também é possível definir a **[!UICONTROL Default]** variante para qualquer outro idioma.
 
 1. Confirmar criação de email: o painel de email será exibido.
-1. Defina o conteúdo do email para cada variante. Dependendo do modelo escolhido, é possível definir vários assuntos, vários nomes de remetentes ou vários conteúdos diferentes. Use o menu suspenso para navegar entre as diferentes variantes do elemento. Para obter mais informações, consulte a seção do editor [de](../../designing/using/overview.md) conteúdo.
+1. Defina o conteúdo do email para cada variante. Dependendo do modelo escolhido, é possível definir vários assuntos, vários nomes de remetentes ou vários conteúdos diferentes. Use o menu suspenso para navegar entre as diferentes variantes do elemento. Para obter mais informações, consulte a seção do editor [de](../../designing/using/designing-content-in-adobe-campaign.md) conteúdo.
 
    ![](assets/multi_selectcontent.png)
 
