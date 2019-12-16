@@ -1,18 +1,18 @@
 ---
 title: Visualizar mensagens
 description: Saiba como visualizar uma mensagem no editor de conteúdo ou no Designer de email.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 8dffca95-59fe-4e9b-93cb-73b33ffde020
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: envio
-content-type: referência
-topic-tags: mensagens de preparação e teste
+audience: sending
+content-type: reference
+topic-tags: preparing-and-testing-messages
 discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Depois de adicionar perfis de teste na **[!UICONTROL Audience]** janela, você pode visualizar sua mensagem para verificar sua personalização e como seus destinatários verão sua entrega.
 
-1. No [Email Designer](../../designing/using/overview.md), clique no **[!UICONTROL Preview]** botão.
+1. No [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), clique no **[!UICONTROL Preview]** botão.
 
    ![](assets/sending_preview.png)
 
