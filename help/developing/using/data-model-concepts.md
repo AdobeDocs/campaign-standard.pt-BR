@@ -1,19 +1,19 @@
 ---
 title: Conceitos do modelo de dados
 description: Saiba mais sobre o modelo de dados do Adobe Campaign e como modificá-lo.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: cacd563f-6936-4b3e-83e3-5d4ae31d44e8
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: desenvolvimento
-content-type: referência
+audience: developing
+content-type: reference
 topic-tags: about-custom-resources
 discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 71ee939b6ef256be8c693ec6e15d9609c7e80677
 
 ---
 
@@ -28,11 +28,11 @@ O Adobe Campaign vem com um modelo de dados predefinido. Esse modelo de dados po
 
 O menu **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** , acessado pelo logotipo do Adobe Campaign, permite gerenciar seus recursos **** personalizados, **publicá** -los e **acessar as ferramentas** de diagnóstico.
 
-Os dados usados pelo Adobe Campaign são definidos por meio de diferentes recursos.
-
-Você pode **aprimorar o modelo** de dados fornecido criando seus próprios recursos personalizados, como tabelas de produtos ou compras.
+Os dados usados pelo Adobe Campaign são definidos por meio de diferentes recursos. Você pode **aprimorar o modelo** de dados fornecido criando seus próprios recursos personalizados, como tabelas de produtos ou compras.
 
 Os recursos predefinidos (como campanhas, emails ou públicos) não podem ser modificados. Entretanto, os recursos personalizados podem ser estendidos para adicionar novos campos.
+
+Os campos de extensão são gerados com um prefixo para que nunca entrem em conflito com os campos predefinidos.
 
 >[!NOTE]
 >
@@ -40,4 +40,4 @@ Os recursos predefinidos (como campanhas, emails ou públicos) não podem ser mo
 
 Você também pode **configurar a navegação** nas telas correspondentes ao recurso criado.
 
-Os campos de extensão são gerados com um prefixo para que nunca entrem em conflito com os campos predefinidos.
+É possível **exportar e importar** recursos personalizados, por exemplo de um ambiente de desenvolvimento para um ambiente de produção. Para obter mais informações, consulte este caso [de uso passo a](../../automating/using/exporting-importing-custom-resources.md)passo.
