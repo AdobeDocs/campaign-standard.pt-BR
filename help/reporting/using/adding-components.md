@@ -1,18 +1,18 @@
 ---
 title: Adicionar componentes
 description: Arraste e solte componentes para a tabela de forma livre para começar a filtrar seus dados e criar seu relatório.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: a1aa880c-4ee8-4ffb-b3bf-45249e6d446f
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: relatório
-content-type: referência
-topic-tags: personalização de relatórios
+audience: reporting
+content-type: reference
+topic-tags: customizing-reports
 discoiquuid: a773b7a8-c290-4c81-bb52-48acc14fc89f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
 
@@ -31,7 +31,7 @@ Os componentes ajudam você a personalizar seus relatórios com diferentes dimen
 
    * **Dimensões**: Obtenha detalhes do log de entregas, como o navegador ou domínio do destinatário, ou o sucesso de uma entrega.
    * **Métricas**: Obtenha detalhes sobre o status de uma mensagem. Por exemplo, se uma mensagem foi entregue e o usuário a abriu.
-   * **[!UICONTROL Segments]**: Filtrar dados dependendo do intervalo de idade do destinatário. **[!UICONTROL Segments]** pode ser arrastado e solto diretamente em uma tabela de forma livre ou na barra superior do painel. A partir da versão 19.4 da Campanha, o aplicativo já **[!UICONTROL Exclude proof]** será selecionado por padrão, mas poderá ser alterado se necessário.
+   * **[!UICONTROL Segments]**: Filtrar dados dependendo do intervalo de idade do destinatário. **[!UICONTROL Segments]** pode ser arrastado e solto diretamente em uma tabela de forma livre ou na barra superior do painel. Por padrão, o **[!UICONTROL Exclude proof]** segmento já está selecionado, mas pode ser alterado se necessário.
 
       Esta categoria só estará disponível depois que o administrador aprovar os termos e condições do Contrato de uso de relatório dinâmico que serão exibidos na tela. Se o administrador recusar o contrato, os segmentos não ficarão visíveis na guia **[!UICONTROL Components]** , e os dados não serão coletados.
 
