@@ -1,18 +1,18 @@
 ---
 title: Configuração da integração de dados do Campaign com os Pontos de interesse
 description: Saiba como configurar o recurso de dados de Pontos de interesse no Adobe Campaign para enviar mensagens personalizadas com base na localização dos assinantes.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 0689a06c-cc1a-442f-95b8-a07fcec85d79
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: integrando
-content-type: referência
-topic-tags: trabalhar com campanha e análise para dispositivos móveis
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-analytics-for-mobile
 discoiquuid: a967c6cc-c53b-41b4-866b-90860d78f463
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -29,14 +29,14 @@ Os aplicativos móveis usados para coletar dados de localização devem ser conf
 
 Para poder usar o Adobe Experience Platform Location Services com aplicativos móveis configurados com o SDK da plataforma Adobe, é necessário:
 
-1. Adicione as extensões **[!UICONTROL Places]** e **[!UICONTROL Places Monitor]** à configuração do aplicativo móvel no Adobe Experience Platform Launch. Configure seu aplicativo móvel no Adobe Campaign. Consulte [Instalar a extensão Locais no Adobe Experience Platform Launch](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension#install-the-places-extension-in-adobe-experience-platform-launch) e [Instalar a extensão do Monitor de Locais no Experience Platform Launch](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-monitor-extension/using-the-places-monitor-extension).
+1. Adicione as extensões **[!UICONTROL Places]** e **[!UICONTROL Places Monitor]** à configuração do aplicativo móvel no Adobe Experience Platform Launch. Configure seu aplicativo móvel no Adobe Campaign. Consulte [Instalar a extensão Locais no Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) e [Instalar a extensão do Monitor de Locais no Experience Platform Launch](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch).
 
 1. Depois que suas extensões forem configuradas, crie elementos de dados dentro **[!UICONTROL Adobe Experience Platform Launch]** para recuperar dados dessas extensões. Consulte esta [página](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) para criar seus elementos de dados.
 
 1. Em seguida, em **[!UICONTROL Adobe Experience Platform Launch]**, é necessário criar regras para suportar casos de uso móvel entre o Ponto de interesse e o Adobe Campaign.\
    Essa regra será acionada quando um usuário entrar em uma área delimitada geograficamente **[!UICONTROL Point of Interest]**. Consulte esta [página](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) para criar sua regra.
 
-1. Defina o seu **[!UICONTROL Points of Interest]** em Locais. Consulte [Criar um ponto de interesse](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi).
+1. Defina o seu **[!UICONTROL Points of Interest]** em Locais. Consulte [Criar um ponto de interesse](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/create-a-poi-ui.html).
 
 1. Certifique-se de acessar o aplicativo móvel e os dados de localização coletados no Adobe Campaign. Consulte [Acessar aplicativos móveis usados para coletar dados](#accessing-mobile-apps-used-to-collect-location-data) de localização e [Acessar dados](#accessing-collected-location-data)de localização coletados.
 
@@ -89,7 +89,7 @@ Você precisará de informações específicas que possam ser encontradas nos pa
 
 Você deve ter acesso ao Adobe Analytics para fazer a seguinte configuração. Se você não for um usuário do Adobe Analytics, entre em contato com o administrador do Adobe Campaign.
 
-1. Faça logon em [mobilemarketing.adobe.com](http://mobilemarketing.adobe.com/).
+1. Faça logon em [mobilemarketing.adobe.com](https://mobilemarketing.adobe.com/).
 1. Crie o aplicativo ou selecione um existente.
 1. Vá para a **[!UICONTROL Manage App Settings]** página.
 1. Na seção Serviço **de ID de** visitante, marque **Ativar** e selecione sua organização na lista suspensa. Clique em **Save**.
