@@ -1,19 +1,19 @@
 ---
 title: Definição do público-alvo do correio direto
 description: Saiba como definir a meta para a entrega de mala direta.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: f843e368-5c07-4b53-8943-46f7bf45b62b
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canais
-content-type: referência
-topic-tags: correio direto
+audience: channels
+content-type: reference
+topic-tags: direct-mail
 discoiquuid: f993d1b6-4b9a-4f95-81fc-60c126211bd2
-context-tags: entrega,directMailContent,back
+context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 32bcfd57dfe881fa07c8d8e5700d0ae3996a78ec
 
 ---
 
@@ -28,7 +28,7 @@ Você pode definir o público-alvo no assistente de criação ou clicando na se�
 
 Para mala direta, os perfis direcionados são aqueles que serão incluídos no arquivo de extração que você enviará ao seu provedor de mala direta.
 
-Para cada perfil direcionado, uma nova linha é adicionada ao arquivo de extração. A quantidade de informações de perfil que serão incluídas para cada destinatário é definida na tela [Definindo a extração](#defining-the-extraction) .
+Para cada perfil direcionado, uma nova linha é adicionada ao arquivo de extração. A quantidade de informações de perfil que serão incluídas para cada destinatário é definida na tela [Definindo a extração](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) .
 
 >[!CAUTION]
 >
