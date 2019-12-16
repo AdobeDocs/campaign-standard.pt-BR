@@ -12,7 +12,7 @@ discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 71ee939b6ef256be8c693ec6e15d9609c7e80677
+source-git-commit: b10a4b3a81d676e279a9514530158286d58db813
 
 ---
 
@@ -36,7 +36,7 @@ Recursos adicionais:
 * [Implantação de pacotes: Princípio de funcionamento](../../developing/using/data-model-concepts.md)
 * [Adicionar ou estender um recurso](../../developing/using/key-steps-to-add-a-resource.md)
 
-## Etapa 1: Exportação da estrutura {#exporting-the-structure}
+##  Exportação da estrutura {#exporting-the-structure}
 
 Nesta seção, realizaremos uma primeira exportação de pacote que detalha a estrutura física dos dados de recursos personalizados.
 
