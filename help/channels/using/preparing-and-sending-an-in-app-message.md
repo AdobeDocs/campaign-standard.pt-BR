@@ -1,19 +1,19 @@
 ---
 title: Preparação e envio de uma mensagem no aplicativo
 description: Crie uma mensagem no aplicativo para direcionar seus assinantes do aplicativo com conteúdo específico.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: a79b0466-8641-46cc-a70f-e4e839587bb2
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canais
-content-type: referência
-topic-tags: mensagens no aplicativo
+audience: channels
+content-type: reference
+topic-tags: in-app-messaging
 discoiquuid: 18bf5297-a688-4302-abe4-e2fbcafdb515
-context-tags: entrega,acionadores,back;delivery,assistente
+context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 05743b8565720c0db6a35a493c66b8dad4ef5685
 
 ---
 
@@ -79,7 +79,7 @@ As etapas para criar uma mensagem independente no aplicativo com o Adobe Campaig
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. Digite as propriedades de mensagens no aplicativo e selecione seu aplicativo móvel no **[!UICONTROL Associate a Mobile App to a delivery]** campo.
+1. Digite as propriedades de mensagens no aplicativo e selecione seu aplicativo móvel no **[!UICONTROL Associate a Mobile App to a delivery]** campo. Observe que se você não configurou seu aplicativo móvel com o Adobe Campaign Standard, ele não aparecerá na lista. For more information on mobile application configuration, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
 
    ![](assets/inapp_creating_3.png)
 
