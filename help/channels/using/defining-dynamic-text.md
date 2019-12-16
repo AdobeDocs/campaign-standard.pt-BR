@@ -1,18 +1,18 @@
 ---
 title: Definição de texto dinâmico
 description: Saiba como exibir textos diferentes dinamicamente para o usuário de acordo com as condições definidas no Adobe Campaign.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: bbcd200c-4fb4-467b-ba39-09b8bee9bcaa
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: concepção
-content-type: referência
-topic-tags: definindo-condicional-content
+audience: designing
+content-type: reference
+topic-tags: defining-conditional-content
 discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -23,7 +23,7 @@ O texto dinâmico é definido da mesma forma que o conteúdo dinâmico. Consulte
 
 >[!NOTE]
 >
->Para SMS e push, você só pode definir texto dinâmico. É possível definir o conteúdo dinâmico e o texto em uma página inicial. Se desejar definir um texto dinâmico com o [Email Designer](../../designing/using/overview.md), consulte [Definição de conteúdo dinâmico em um email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+>Para SMS e push, você só pode definir texto dinâmico. É possível definir o conteúdo dinâmico e o texto em uma página inicial. Se desejar definir um texto dinâmico com o [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), consulte [Definição de conteúdo dinâmico em um email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 O exemplo abaixo mostra como definir um texto dinâmico em uma mensagem SMS.
 
