@@ -12,7 +12,7 @@ discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b5dc0078bdc48a4c5c1ffc397f51db9222662477
+source-git-commit: 7e887fff76660dcb0369d4222e1ab3ac391c3a2d
 
 ---
 
@@ -48,7 +48,7 @@ Essa integração deve ser configurada primeiro. Para solicitar o provisionament
   </tr> 
   <tr> 
    <td> <strong>Serviço de Pessoas ou AAM</strong><br /> </td> 
-   <td> Exemplo: Adobe Audience Manager </td> 
+   <td> Exemplo: Adobe Audience Manager. Certifique-se de mencionar à equipe de provisionamento se você possui ou não uma licença do Audience Manager.</td> 
   </tr> 
   <tr> 
    <td> <strong>ID declarada ou ID do visitante</strong><br /> </td> 
@@ -60,18 +60,6 @@ Essa integração deve ser configurada primeiro. Para solicitar o provisionament
   </tr> 
  </tbody> 
 </table>
-
-* **[!UICONTROL Declared ID]** funciona para cada integração de público compartilhado. Observe que se você estiver usando o serviço principal de Pessoas, o uso de **[!UICONTROL Declared ID]** pode mudar dependendo da solução:
-
-* Se os públicos-alvo forem compartilhados do Adobe Campaign para o Adobe Target por meio do serviço principal de Pessoas, **[!UICONTROL Declared ID]** poderão ser provisionados.
-* Se os públicos-alvo forem compartilhados do Adobe Campaign para a Ad Cloud por meio do serviço principal de pessoas, você não poderá usar o **[!UICONTROL Declared ID]** provisionamento para o preenchimento retroativo histórico de públicos-alvo. Também é de esperar alguma latência ao criar públicos.
-* Se os públicos-alvo estiverem sendo compartilhados do Adobe Analytics para o Adobe Campaign por meio do serviço principal de pessoas, os segmentos não serão preenchidos no Adobe Campaign com **[!UICONTROL Declared ID]**.
-
->[!NOTE]
->
->Se você estiver usando o Adobe Audience Manager em vez do serviço principal de pessoas, **[!UICONTROL Declared ID]** funcionará em todos os cenários.
-
-You can raise a request for **[!UICONTROL Declared ID]** provisioning to the following address: [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
 
 ## Configuração da integração no Adobe Campaign {#configuring-the-integration-in-adobe-campaign}
 
