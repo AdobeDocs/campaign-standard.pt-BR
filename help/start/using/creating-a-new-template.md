@@ -1,19 +1,19 @@
 ---
 title: Criação de um novo modelo
 description: Saiba como criar um novo modelo, a partir de modelos de atividade prontos para uso para email, SMS, envios de notificação por push etc.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 26e368ae-06e1-4c11-9899-c23cc727d398
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: referência
-topic-tags: gerenciar modelos
+content-type: reference
+topic-tags: managing-templates
 discoiquuid: d3e37141-1170-4332-a46c-66a847ed3531
 context-tags: campaignTemplate,overview;deliveryTemplate,overview;programTemplate,overview;workflowTemplate,overview;importTemplate,overview;
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -39,5 +39,5 @@ Modelos criados podem ser selecionados pelo usuário padrão na primeira tela do
 **Tópicos relacionados:**
 
 * [Identidade visual](../../administration/using/branding.md)
-* [Conteúdo do design](../../designing/using/overview.md)
+* [Conteúdo do design](../../designing/using/designing-content-in-adobe-campaign.md)
 
