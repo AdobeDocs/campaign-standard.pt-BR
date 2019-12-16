@@ -1,18 +1,18 @@
 ---
 title: Receber alertas quando ocorrerem falhas
 description: Saiba como usar o sistema de gerenciamento de alertas.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: a3ab733a-e3db-4adc-b930-cd4064b6dc1c
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: envio
-content-type: referência
-topic-tags: mensagens de monitoramento
+audience: sending
+content-type: reference
+topic-tags: monitoring-messages
 discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -165,7 +165,7 @@ Para fazer isso, é necessário estender o recurso **Entrega** e adicionar um no
 
 1. Salve as alterações e publique os recursos. Para obter mais informações, consulte [Publicação de um recurso](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)personalizado.
 
-   O filtro é criado e pode ser selecionado em um novo critério de alerta de entrega.
+   O filtro é criado e agora pode ser selecionado em um novo critério de alerta de entrega.
 
 1. Vá até **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Delivery alerting]**, selecione **[!UICONTROL Delivery alerting criteria]** e clique em **[!UICONTROL Create]**.
 1. Na lista **[!UICONTROL Delivery filter applied by this criterion]** suspensa, selecione o filtro que você acabou de criar.
@@ -263,7 +263,7 @@ Estes são alguns motivos possíveis para receber notificações de alerta de ac
 
    * Crie regras de tipologia de filtragem para excluir uma parte do destino da mensagem durante a análise de entrega, como destinatários em quarentena. See [Creating a filtering rule](../../administration/using/filtering-rules.md).
    * Atualize regularmente o banco de dados do cliente para manter bons processos de gerenciamento de quarentena. Consulte [Sobre quarentena](../../sending/using/understanding-quarantine-management.md#about-quarantines).
-   * Em geral, melhore o melhor possível a capacidade de entrega. Consulte o guia detalhado do Adobe Campaign v7 [Gerenciar entrega](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) e entre em contato com o administrador do Adobe Campaign para obter ajuda.
+   * Em geral, melhore o melhor possível a capacidade de entrega. Consulte a documentação detalhada [Disponibilidade](../../sending/using/about-deliverability.md) do Adobe Campaign e entre em contato com o administrador do Adobe Campaign para obter ajuda.
 
 
 
