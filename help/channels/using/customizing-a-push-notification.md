@@ -1,19 +1,19 @@
 ---
 title: Personalização de uma notificação por push
 description: Saiba como personalizar suas notificações por push com várias opções avançadas.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 8cf74cad-b1ba-4aad-83bd-7289cb22d5f4
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canais
-content-type: referência
-topic-tags: notificações por push
+audience: channels
+content-type: reference
+topic-tags: push-notifications
 discoiquuid: dc944c85-2059-46df-b396-676fe3617dd1
-context-tags: entrega,mobileAppContent,back
+context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 78800930d78179c1e390313c35f70627b5df0769
 
 ---
 
@@ -96,7 +96,7 @@ Para adicionar uma categoria em uma notificação por push:
 1. Abra a notificação por push e acesse a **[!UICONTROL Advanced options]** seção.
 1. Insira um nome de categoria predefinido no **[!UICONTROL Category]** campo para exibir botões acionáveis quando a notificação por push for recebida.
 
-   O desenvolvedor do aplicativo móvel deve definir a ID da categoria e o comportamento esperado dos botões no aplicativo. Para obter mais informações, consulte a documentação [do desenvolvedor da](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/SupportingNotificationsinYourApp.html) Apple (seção **Configuração de categorias e notificações** acionáveis) ou a documentação [do desenvolvedor do](https://developer.android.com/guide/topics/ui/notifiers/notifications.html)Android.
+   O desenvolvedor do aplicativo móvel deve definir a ID da categoria e o comportamento esperado dos botões no aplicativo. Para obter mais informações, consulte a documentação [do](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/SupportingNotificationsinYourApp.html) Apple Developer (seção **Configuração de categorias e notificações** acionáveis) ou a documentação [do](https://developer.android.com/guide/topics/ui/notifiers/notifications.html)Android Developer.
 
    ![](assets/push_notif_advanced_9.png)
 
@@ -107,10 +107,6 @@ Para adicionar uma categoria em uma notificação por push:
 Dependendo da ação do usuário, o aplicativo será notificado para que possa executar quaisquer tarefas associadas.
 
 ## Adicionar uma data de expiração {#add-expiration-date}
-
->[!NOTE]
->
->Essas alterações só se aplicam a partir da versão 19.4 do Campaign Standard.
 
 A definição de uma data de expiração para sua notificação por push permite definir uma data de expiração específica na qual a mensagem não será mais enviada pela Apple ([APNS](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns)) ou Android ([FCM](https://firebase.google.com/docs/cloud-messaging/concept-options)).
 
