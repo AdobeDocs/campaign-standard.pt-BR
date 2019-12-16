@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 32be3c4b3224d367fb0e7e5218fb2b30c2fdee34
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
@@ -70,7 +70,7 @@ Recursos adicionais:
 * Quando um evento de mensagem transacional é enviado com um parâmetro de contexto desconhecido, o Campaign agora retorna uma mensagem de erro "400" em vez de "500". (CAMP-28632)
 * Um novo segmento de prova **de** exclusão foi adicionado nos relatórios dinâmicos. Esse segmento agora é selecionado por padrão para filtrar seus relatórios. [Leia mais](../../reporting/using/list-of-components-.md#segments)
 * A opção de expiração **da** mensagem foi adicionada à notificação por push. Ela permite especificar uma data de expiração na qual a mensagem não será mais enviada pela Apple (APNS) ou Android (FCM). [Leia mais](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
-* Foram feitas melhorias na atividade de arquivo **** Load: os logs de fluxo de trabalho foram tornados mais claros e detalhados sobre o erro que ocorre quando um arquivo falha ao carregar. A transição de saída gerada ao ativar a opção **Manter os rejeitos em um arquivo** foi renomeada como **Rejeitos**. [Leia mais](../../automating/using/load-file.md#load-files)
+* Foram feitas melhorias na atividade de arquivo **** Load: os logs de fluxo de trabalho foram tornados mais claros e detalhados sobre o erro que ocorre quando um arquivo falha ao carregar. A transição de saída gerada ao ativar a opção **Manter os rejeitos em um arquivo** foi renomeada como **Rejeitos**. [Leia mais](../../automating/using/load-file.md)
 * Vários registros relacionados foram adicionados aos logs de envio para entender melhor as falhas de envio devido aos idiomas ausentes nos arquivos CSV carregados.
 
 ### Aprimoramentos de segurança {#security-enhancements-3}
@@ -469,7 +469,7 @@ Vários aprimoramentos foram adicionados ao canal de mensagens transacionais par
 
 * Nossa nova experiência de integração o ajudará a iniciar a criação de e-mails mais rapidamente e a facilitar o acesso à documentação e aos tutoriais.
 
-   Para obter mais informações, consulte a [documentação detalhada](../../designing/using/overview.md#email-designer-home-page).
+   Para obter mais informações, consulte a [documentação detalhada](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page).
 
 * Agora você tem a flexibilidade de configurar o número de colunas e a largura com base em suas necessidades.
 
@@ -548,7 +548,7 @@ Vários aprimoramentos foram adicionados ao canal de mensagens transacionais par
      <li> A capacidade de <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">recuperar o conteúdo de um URL automaticamente no momento da preparação</a> </li> 
      <li> Modelos de conteúdo totalmente compatíveis <a href="../../designing/using/using-reusable-content.md#content-templates">prontos para uso</a>. </li> 
     </ul> 
-    <p>Para obter mais informações, consulte a <a href="../../designing/using/overview.md">documentação detalhada</a> e o <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">vídeo de instruções</a>. Os aprimoramentos e correções estão listados abaixo.</p><p>Como consequência, o editor de conteúdo de e-mail herdado agora está obsoleto. Para obter mais informações, consulte esta <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">página</a>.</p> </td> 
+    <p>Para obter mais informações, consulte a <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentação detalhada</a> e o <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">vídeo de instruções</a>. Os aprimoramentos e correções estão listados abaixo.</p><p>Como consequência, o editor de conteúdo de e-mail herdado agora está obsoleto. Para obter mais informações, consulte esta <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">página</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Listas de produtos em emails transacionais<br /> </td> 
