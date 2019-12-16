@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -133,7 +133,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 ### Outras alterações {#other-changes-1}
 
 * O tempo limite de compartilhamento de relatórios foi aumentado de um para quatro minutos para evitar erro de tempo limite.
-* Ao editar o conteúdo de um email, o novo Creative Designer é aberto por padrão. Se desejar, você ainda poderá voltar para o editor de conteúdo padrão a qualquer momento depois de salvar as alterações. For more on this, refer to the [detailed documentation](../../designing/using/overview.md).
+* Ao editar o conteúdo de um email, o novo Creative Designer é aberto por padrão. Se desejar, você ainda poderá voltar para o editor de conteúdo padrão a qualquer momento depois de salvar as alterações. For more on this, refer to the [detailed documentation](../../designing/using/designing-content-in-adobe-campaign.md).
 * No Creative Designer, um novo componente de conteúdo agora pode ser adicionado a um email: o carrossel. For more on this, refer to the [detailed documentation](../../designing/using/designing-from-scratch.md#about-content-components).
 * Em uma mensagem transacional, clique em um relatório quando você clicar no botão **Alterar perfil** , agora apenas os perfis de teste vinculados ao evento definido para a mensagem transacional serão listados.
 
@@ -317,7 +317,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
      <li> Crie e salve um modelo de conteúdo de email e utilize modelos salvos para ajudar a dimensionar a criação de email </li> 
      <li> Criar e salvar fragmentos de conteúdo (como um cabeçalho, rodapé, artigo etc.) para simplificar a criação de conteúdo e garantir a consistência da marca </li> 
      <li> Alterne facilmente entre criar na interface arrastar e soltar e editar diretamente o HTML de um email com o clique de um botão </li> 
-    </ul> O Creative Designer for Email está disponível somente em inglês.<br /> Para obter mais informações, consulte a documentação <a href="../../designing/using/overview.md"></a> detalhada e assista a este <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">vídeo</a>.<br /> </td> 
+    </ul> O Creative Designer for Email está disponível somente em inglês.<br /> Para obter mais informações, consulte a documentação <a href="../../designing/using/designing-content-in-adobe-campaign.md"></a> detalhada e assista a este <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">vídeo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Envios de push multilíngues<br /> </td> 
