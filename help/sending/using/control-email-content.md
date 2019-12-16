@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f0580e1ab75d4250bfb1cb801ff08b31b91cdc5a
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -29,7 +29,7 @@ Para melhorar a taxa de entrega de email e garantir que seus emails cheguem aos 
 * **Cancelar assinatura do link e da página** inicial: O link para cancelar a assinatura é essencial. Deve ser visível e válido e o formulário deve ser funcional.
 * **Use as ferramentas** oferecidas pelo Adobe Campaign para otimizar o conteúdo de seu email (análise de entrega, análise antispam).
 
-Para obter informações adicionais sobre edição de conteúdo de email, consulte a visão geral [do](../../designing/using/designing-content-in-adobe-campaign.md) Email Designer e as práticas [recomendadas do design de](../../designing/using/overview.md#content-design-best-practices)mensagem.
+Para obter informações adicionais sobre edição de conteúdo de email, consulte a visão geral [do](../../designing/using/designing-content-in-adobe-campaign.md) Email Designer e as práticas [recomendadas do design de](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)mensagem.
 
 ## Nome e endereço do remetente {#sender-name}
 
@@ -39,7 +39,7 @@ Determinados ISPs verificam a validade do endereço do remetente (De) antes de a
 
 Para obter mais informações, consulte [Personalizar o nome](../../designing/using/personalization.md#personalizing-the-sender)do remetente.
 
-## Linha de assunto {#subject-line}
+## Subject line {#subject-line}
 
 Ao editar um email, você pode tentar diferentes linhas de assunto e obter uma estimativa de sua taxa de abertura antes de enviá-lo. Para obter mais informações, consulte [Testando a linha de assunto de um email](../../sending/using/testing-subject-line-email.md).
 
