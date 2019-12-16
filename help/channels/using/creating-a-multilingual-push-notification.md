@@ -1,18 +1,18 @@
 ---
 title: Criação de uma notificação por push multilíngue
 description: Crie notificações por push multilíngues para direcionar seus usuários em seus idiomas e regiões preferidos.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: d4aff741-e969-47c6-bae8-787c6c673191
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canais
-content-type: referência
-topic-tags: notificações por push
+audience: channels
+content-type: reference
+topic-tags: push-notifications
 discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -61,7 +61,7 @@ Antes de personalizar sua notificação por push multilíngue, primeiro precisam
 
 1. Na **[!UICONTROL Manage Content Variants]** janela, arraste e solte o arquivo ou selecione um arquivo do computador.
 
-   O arquivo deve ser codificado em UTF8 e ter um layout específico que pode ser encontrado clicando na **[!UICONTROL Download the sample file]** opção. Você também deve usar a sintaxe apropriada para valores de localidade. Para obter mais informações sobre o formato de arquivo e as localidades compatíveis, consulte esta [nota técnica](http://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
+   O arquivo deve ser codificado em UTF8 e ter um layout específico que pode ser encontrado clicando na **[!UICONTROL Download the sample file]** opção. Você também deve usar a sintaxe apropriada para valores de localidade. Para obter mais informações sobre o formato de arquivo e as localidades compatíveis, consulte esta [nota técnica](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
 
    ![](assets/multivariant_push_4.png)
 
