@@ -1,18 +1,18 @@
 ---
 title: Gerenciamento de links
 description: Descubra como gerenciar links com o Designer de email.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: concepção
-content-type: referência
-topic-tags: edição-email-conteúdo
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -27,7 +27,7 @@ Você pode inserir um link em qualquer elemento de página: imagem, palavra, gru
 
 >[!NOTE]
 >
->As imagens abaixo mostram como inserir um link usando o [Email Designer](../../designing/using/overview.md) em um email.
+>As imagens abaixo mostram como inserir um link usando o [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) em um email.
 
 1. Selecione um elemento e clique **[!UICONTROL Insert link]** na barra de ferramentas contextual.
 
@@ -61,7 +61,7 @@ Depois que o link for criado, você ainda poderá modificá-lo do painel Configu
 
 ![](assets/des_link_edit.png)
 
-Ao editar um email com o [Email Designer](../../designing/using/overview.md), você pode acessar e modificar facilmente os links criados na tabela que lista todos os URLs incluídos no email. Essa lista permite que você tenha uma exibição centralizada e localize cada URL no conteúdo do email. Para acessá-lo, consulte [Sobre URLs](#about-tracked-urls)rastreados.
+Ao editar um email com o [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), você pode acessar e modificar facilmente os links criados na tabela que lista todos os URLs incluídos no email. Essa lista permite que você tenha uma exibição centralizada e localize cada URL no conteúdo do email. Para acessá-lo, consulte [Sobre URLs](#about-tracked-urls)rastreados.
 
 ![](assets/des_link_list.png)
 
