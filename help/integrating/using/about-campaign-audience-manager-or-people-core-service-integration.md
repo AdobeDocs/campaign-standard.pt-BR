@@ -1,18 +1,18 @@
 ---
 title: Sobre a integração Campaign-Audience Manager ou a dos principais serviços do People
 description: Com a integração do serviço principal Audience Manager/Pessoas, você pode compartilhar públicos-alvo ou segmentos em diferentes soluções da Adobe Experience Cloud.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 39e3c78e-cccd-4823-afe9-abc7f8aef034
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: integrando
-content-type: referência
-topic-tags: trabalhar com campanha e público-gerente-ou-público-principal-serviço
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: bf718329-f181-46f7-80a2-b525a8dee46d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 0062079addfbcd577faa1b16096f4588a05a8f78
 
 ---
 
@@ -28,7 +28,7 @@ O Adobe Campaign permite que você troque e compartilhe públicos-alvo/segmentos
 A integração oferece suporte a dois tipos de Adobe Experience Cloud IDs:
 
 * **ID** do visitante: esse tipo de ID permite reconciliar os visitantes da Adobe Experience Cloud com os perfis do Adobe Campaign.
-* **ID** declarada: esse tipo de ID permite reconciliar qualquer tipo de dados com perfis no banco de dados do Adobe Campaign. Essa integração suporta IDs declaradas regulares, IDs declaradas com hash e IDs declaradas criptografadas. Para saber mais sobre a **[!UICONTROL Declared ID]** validade, consulte esta [página](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md).
+* **ID** declarada: esse tipo de ID permite reconciliar qualquer tipo de dados com perfis no banco de dados do Adobe Campaign. Essa integração suporta IDs declaradas regulares, IDs declaradas com hash e IDs declaradas criptografadas.
 
    A criptografia permite que você compartilhe dados criptografados em fontes de dados (por exemplo, PII) usando a ID declarada especificando o algoritmo de criptografia.
 
