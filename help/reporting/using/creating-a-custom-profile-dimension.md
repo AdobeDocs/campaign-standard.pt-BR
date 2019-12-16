@@ -1,18 +1,18 @@
 ---
 title: Criae uma dimensão de perfil personalizada
 description: Saiba como criar uma dimensão de perfil personalizada com base em dados de perfil personalizados.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: relatório
-content-type: referência
-topic-tags: personalização de relatórios
+audience: reporting
+content-type: reference
+topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -97,7 +97,7 @@ Antes de estender o log com nosso campo de perfil, verifique se a janela PII foi
 
 1. No menu avançado, selecione **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom resources]** e depois o recurso **[!UICONTROL Profile (profile)]** personalizado.
 1. Abra o **[!UICONTROL Sending logs extension]** menu suspenso.
-1. Click the **[!UICONTROL Create element]** button.
+1. Clique no botão **.[!UICONTROL Create element]**
 
    ![](assets/custom_profile_9.png)
 
@@ -137,7 +137,7 @@ Depois que o campo de perfil for publicado, você poderá iniciar a entrega. Nes
    ![](assets/custom_profile_17.png)
 
 1. Clique em **[!UICONTROL Confirm]** e, quando terminar de filtrar, clique em **[!UICONTROL Next]**.
-1. Defina e personalize o conteúdo da mensagem, o nome do remetente e o assunto. For more information on email creation refer to this [page](../../designing/using/overview.md).
+1. Defina e personalize o conteúdo da mensagem, o nome do remetente e o assunto. For more information on email creation refer to this [page](../../designing/using/designing-content-in-adobe-campaign.md).
 
    Em seguida, clique em **[!UICONTROL Create]**.
 
