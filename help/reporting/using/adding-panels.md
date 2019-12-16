@@ -1,18 +1,18 @@
 ---
 title: Adicionar painéis
 description: O relatório dinâmico permite adicionar um painel para filtrar melhor seus dados, dependendo do período de tempo escolhido.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 8e76e837-5efc-4250-8192-dee1a0bd62fe
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: relatório
-content-type: referência
-topic-tags: personalização de relatórios
+audience: reporting
+content-type: reference
+topic-tags: customizing-reports
 discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
 
@@ -51,7 +51,7 @@ Cada tabela e visualização é redimensionável e pode ser movida para personal
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. A partir da versão 19.4 da Campanha, o aplicativo já **[!UICONTROL Exclude proof]** será selecionado por padrão. Se necessário, é possível alterá-lo arrastando e soltando uma das **[!UICONTROL Segments]** da **[!UICONTROL Components]** guia na barra superior.
+1. O **[!UICONTROL Exclude proof]** segmento já está selecionado por padrão. Se necessário, é possível alterá-lo arrastando e soltando uma das **[!UICONTROL Segments]** da **[!UICONTROL Components]** guia na barra superior.
 
    ![](assets/dynamic_report_panel_3.png)
 
