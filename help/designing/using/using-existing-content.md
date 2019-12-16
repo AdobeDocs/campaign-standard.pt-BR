@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9e17218048daa091538a09dea6e2eabca0814a5f
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -26,7 +26,7 @@ Ao criar um email ou uma página inicial, você pode optar por carregar um conte
 
 >[!NOTE]
 >
->As imagens abaixo mostram como carregar um conteúdo existente usando o [Email Designer](../../designing/using/overview.md).
+>As imagens abaixo mostram como carregar um conteúdo existente usando o [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. Depois de criar o email ou a página de aterrissagem, abra o conteúdo.
 1. Clique no ícone inicial para acessar a página **[!UICONTROL Email Designer]** inicial.
@@ -47,7 +47,7 @@ Ao criar um email ou uma página inicial, você pode optar por carregar um conte
 
    >[!NOTE]
    >
-   >O [Email Designer](../../designing/using/overview.md) usa marcação específica. O conteúdo HTML padrão carregado no Campaign deve corresponder à marcação esperada para ser totalmente compatível e editável no Designer de email. Se não for correspondente, seu conteúdo será carregado no modo [de](#compatibility-mode)compatibilidade. Para tornar o conteúdo existente compatível, consulte [esta seção](#editing-existing-contents-with-the-email-designer).
+   >O [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) usa marcação específica. O conteúdo HTML padrão carregado no Campaign deve corresponder à marcação esperada para ser totalmente compatível e editável no Designer de email. Se não for correspondente, seu conteúdo será carregado no modo [de](#compatibility-mode)compatibilidade. Para tornar o conteúdo existente compatível, consulte [esta seção](#editing-existing-contents-with-the-email-designer).
 
 **Tópicos relacionados:**
 
@@ -56,7 +56,7 @@ Ao criar um email ou uma página inicial, você pode optar por carregar um conte
 
 ## Editar conteúdo existente com o Designer de email{#editing-existing-contents-with-the-email-designer}
 
-Para aproveitar totalmente as possibilidades de edição do [Email Designer](../../designing/using/overview.md), seu HTML carregado deve conter tags específicas que o tornem compatível com o editor WYSIWYG.
+Para aproveitar totalmente as possibilidades de edição do [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), seu HTML carregado deve conter tags específicas que o tornem compatível com o editor WYSIWYG.
 
 Se todo o HTML ou parte dele não tiver essa marcação, o conteúdo será carregado no "modo [de](#compatibility-mode)compatibilidade".
 
