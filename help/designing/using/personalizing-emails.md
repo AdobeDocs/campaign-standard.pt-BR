@@ -1,18 +1,18 @@
 ---
 title: 'Personalização de emails '
 description: Descubra o Designer de email que permite que você crie conteúdo para seus emails.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: concepção
-content-type: referência
-topic-tags: edição-email-conteúdo
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign allows you to insert a field from the database into your page suc
 
 >[!NOTE]
 >
->The images below show how to insert a personalization field using the [Email Designer](../../designing/using/overview.md) for an email.
+>The images below show how to insert a personalization field using the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) for an email.
 
 To add a personalization field to the content:
 
@@ -53,7 +53,7 @@ Adobe Campaign offers a list of pre-configured content blocks. These content blo
 
 >[!NOTE]
 >
->The images below show how to insert a content block using the [Email Designer](../../designing/using/overview.md) for an email.
+>The images below show how to insert a content block using the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) for an email.
 
 To add a content block:
 
