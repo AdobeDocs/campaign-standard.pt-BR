@@ -13,7 +13,7 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 05743b8565720c0db6a35a493c66b8dad4ef5685
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -118,7 +118,7 @@ As etapas para criar uma mensagem independente no aplicativo com o Adobe Campaig
 
 1. Se você usar um **[!UICONTROL Places]** acionador, os dados de contexto do Local, os metadados personalizados do Local ou o tipo de evento Locais serão automaticamente preenchidos com base em todas as Bibliotecas e seus Pontos de interesse criados no Adobe Places.
 
-   Observe que esse acionador será aplicado no dispositivo somente para os Pontos de interesse das Bibliotecas selecionadas na extensão Locais no Experience Platform Launch. Para obter mais informações sobre a extensão Locais e como instalá-la, consulte esta [documentação](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1/places-extension).
+   Observe que esse acionador será aplicado no dispositivo somente para os Pontos de interesse das Bibliotecas selecionadas na extensão Locais no Experience Platform Launch. Para obter mais informações sobre a extensão Locais e como instalá-la, consulte esta [documentação](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
 
 1. Na **[!UICONTROL Frequency & duration]** guia, escolha a frequência do seu acionador, a data de início e término, o dia da semana e a hora do dia em que a mensagem no aplicativo estará ativa.
 
