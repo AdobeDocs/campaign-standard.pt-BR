@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bfb5ee7dd97ff46dbe285270275f37f39d2b5231
+source-git-commit: 385b566cfd893f6522de66a1c8307a1546c915fa
 
 ---
 
@@ -33,9 +33,11 @@ A seção Projetando conteúdo de email foi reorganizada. [Leia mais](../../desi
 
 O guia de introdução à entrega foi integrado à documentação principal e atualizado. [Leia mais](../../sending/using/about-deliverability.md)
 
+O guia de introdução sobre como exportar/importar recursos personalizados foi integrado à documentação principal. [Leia mais](../../automating/using/exporting-importing-custom-resources.md)
+
 ## Atualizações de documentação - novembro de 2019 {#doc-updates-november-2019}
 
-Um novo caso de uso foi adicionado descrevendo como criar um grupo de controle usando um fluxo de trabalho no Campaign Standard. [Leia mais](../../automating/using/workflow-control-group.md)
+Um novo caso de uso foi adicionado descrevendo como criar um grupo de controle usando um fluxo de trabalho no Campaign Standard. [Read more](../../automating/using/workflow-control-group.md)
 
 As informações relacionadas às propriedades das páginas iniciais foram movidas para uma seção dedicada. [Leia mais](../../channels/using/configuring-landing-page.md)
 
@@ -86,8 +88,6 @@ Uma nova seção que descreve como enviar um email de confirmação personalizad
 A seção Mensagens transacionais foi modificada com as atualizações mais recentes da interface do usuário, incluindo a edição de conteúdo com o Designer de email. [Leia mais](../../channels/using/event-transactional-messages.md)
 
 O capítulo de páginas iniciais foi reorganizado. Ele também foi enriquecido com uma nova seção que detalha as etapas para configurar uma página de aterrissagem. [Leia mais](../../channels/using/getting-started-with-landing-pages.md)
-
-A página de integração do Audience Manager foi atualizada para refletir as alterações **da ID** declarada. [Leia mais](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 ## Atualizações de documentação - setembro de 2019 {#doc-updates-september-2019}
 
