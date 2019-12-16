@@ -1,18 +1,18 @@
 ---
 title: Sobre os modelos
 description: '"Os modelos do Adobe Campaign permitem pré-configurar parâmetros dependendo de suas necessidades: os modelos podem conter uma configuração completa ou parcial da atividade de marketing, para simplificar o uso do Adobe Campaign para usuários finais não técnicos."'
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 018534b6-61a3-433e-bb60-49883c8b9386
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: referência
-topic-tags: gerenciar modelos
-discoiquuid: 95218ebe-5430-42a2-b900-1dadbc92d99
+content-type: reference
+topic-tags: managing-templates
+discoiquuid: 95218ebe-5430-42a2-b900-1dadbbc92d99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -64,7 +64,7 @@ Ao editar conteúdo com o Designer de email, você também pode criar modelos de
 
 ### Modelos de conteúdo de email prontos para uso {#email-content-templates}
 
-Você pode gerenciar o conteúdo HTML oferecido na guia da página inicial do **[!UICONTROL Templates]** Email Designer [](../../designing/using/overview.md) .
+Você pode gerenciar o conteúdo HTML oferecido na guia da página inicial do **[!UICONTROL Templates]** Email Designer [](../../designing/using/designing-content-in-adobe-campaign.md) .
 
 Os modelos prontos para uso de conteúdo de e-mail incluem dezoito layouts otimizados para dispositivos móveis e quatro modelos responsivos melhores do setor projetados por artistas Behance. Eles correspondem aos usos mais atuais, como mensagens de boas-vindas ao cliente, boletins informativos e e-mails de reenvolvimento, entre outros. Eles podem ser facilmente personalizados com o conteúdo de suas marcas para facilitar o processo de criação de emails do zero.
 
@@ -73,7 +73,7 @@ Os modelos prontos para uso de conteúdo de e-mail incluem dezoito layouts otimi
 **Tópicos relacionados:**
 
 * Saiba como personalizar modelos de conteúdo [neste vídeo](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html).
-* Para obter mais informações sobre edição de conteúdo, consulte [Sobre design](../../designing/using/overview.md)de conteúdo de email.
+* Para obter mais informações sobre edição de conteúdo, consulte [Sobre design](../../designing/using/designing-content-in-adobe-campaign.md)de conteúdo de email.
 
 ### Creating a content template {#creating-a-content-template}
 
@@ -93,7 +93,7 @@ O exemplo a seguir mostra como criar um modelo de conteúdo de email.
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   Essa miniatura será exibida na guia **[!UICONTROL Templates]** da página inicial do [Email Designer](../../designing/using/overview.md) .
+   Essa miniatura será exibida na guia **[!UICONTROL Templates]** da página inicial do [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) .
 
 1. Feche a **[!UICONTROL Properties]** guia para retornar à área de trabalho principal.
 1. Adicione componentes de estrutura e componentes de conteúdo que podem ser personalizados conforme necessário.
@@ -102,7 +102,7 @@ O exemplo a seguir mostra como criar um modelo de conteúdo de email.
    > Não é possível inserir campos de personalização ou conteúdo condicional dentro de um modelo de conteúdo.
 1. Depois de editado, salve o modelo.
 
-Esse modelo agora pode ser usado em qualquer email criado com o Designer de email. Selecione-o na **[!UICONTROL Templates]** guia da página inicial do [Email Designer](../../designing/using/overview.md) .
+Esse modelo agora pode ser usado em qualquer email criado com o Designer de email. Selecione-o na **[!UICONTROL Templates]** guia da página inicial do [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) .
 
 ![](assets/content_template_new.png)
 
@@ -124,7 +124,7 @@ Ao editar um email com o Designer de email, você pode salvar diretamente o cont
 
 1. Para encontrar o modelo que você acabou de criar, vá para **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]**.
 
-1. Para usar seu novo modelo, selecione-o na **[!UICONTROL Templates]** guia da página inicial do [Email Designer](../../designing/using/overview.md) .
+1. Para usar seu novo modelo, selecione-o na **[!UICONTROL Templates]** guia da página inicial do [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) .
 
    ![](assets/content_template_new.png)
 
