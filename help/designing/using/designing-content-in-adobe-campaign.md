@@ -12,7 +12,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 19c6a3d6f68ef0a96150c9e7f350abd92da8d7e1
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -32,7 +32,7 @@ Para começar a usar o Designer de email, assista a esse [conjunto de vídeos](h
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
 * Para descobrir como criar conteúdo de email, consulte [Introdução ao designer](../../designing/using/quick-start.md)de email.
-* Para obter uma visão geral do Designer de email, consulte [Uso do Designer](../../designing/using/overview.md)de email.
+* Para obter uma visão geral do Designer de email, consulte [Uso do Designer](../../designing/using/designing-content-in-adobe-campaign.md)de email.
 * Para obter mais informações sobre como criar conteúdo:
    * Do zero, consulte [Criar e-mails do zero](../../designing/using/designing-from-scratch.md).
    * Usando o conteúdo existente, consulte [Design usando o conteúdo](../../designing/using/using-existing-content.md)existente.
@@ -152,7 +152,7 @@ No que diz respeito aos fragmentos, observe o seguinte:
 * Ao editar estilos, somente as fontes da Web oficialmente suportadas pela maioria dos clientes de email estarão disponíveis.
 * Os estilos não podem ser salvos como um tema para reutilização futura. Entretanto, o estilo CSS pode ser salvo em um modelo de conteúdo ou em um email. Para obter mais informações sobre estilos, consulte [esta seção](../../designing/using/styles.md).
 
-**Tópicos** relacionados:
+**Tópicos relacionados**:
 
 * [Criação de um de email](../../channels/using/creating-an-email.md)
 * [Criação de uma página de aterrissagem](../../channels/using/designing-a-landing-page.md)
