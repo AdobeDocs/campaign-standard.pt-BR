@@ -1,19 +1,19 @@
 ---
 title: Criação de um email de teste A/B
 description: Descubra a funcionalidade de teste A/B e siga estas etapas para criar um email a partir de um modelo de teste A/B no Adobe Campaign.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 104f6973-68a7-4692-a90a-a5570a980ec7
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canais
-content-type: referência
-topic-tags: mensagens de email
+audience: channels
+content-type: reference
+topic-tags: email-messages
 discoiquuid: e249ba70-90d0-43f2-868c-ce9fdc7e642d
-context-tags: entrega,abTesting,back;delivery,assistente;entrega,principal
+context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -57,7 +57,7 @@ No contexto específico de um teste A/B:
       O teste deve ser de, pelo menos, uma hora para que todos os dados de rastreamento sejam coletados e tidos corretamente em conta para selecionar a variante vencedora.
    ![](assets/ab_parameters.png)
 
-1. Depois que os parâmetros de teste A/B forem definidos, passe para a próxima etapa do assistente e defina o conteúdo do email. Dependendo do modelo escolhido, é possível definir vários assuntos, vários nomes de remetentes ou vários conteúdos diferentes. Use o carrossel para navegar entre as diferentes variantes do elemento. Para obter mais informações, consulte a seção do editor [de](../../designing/using/overview.md) conteúdo.
+1. Depois que os parâmetros de teste A/B forem definidos, passe para a próxima etapa do assistente e defina o conteúdo do email. Dependendo do modelo escolhido, é possível definir vários assuntos, vários nomes de remetentes ou vários conteúdos diferentes. Use o carrossel para navegar entre as diferentes variantes do elemento. Para obter mais informações, consulte a seção do editor [de](../../designing/using/designing-content-in-adobe-campaign.md) conteúdo.
 
    ![](assets/create_ab_testing2.png)
 
