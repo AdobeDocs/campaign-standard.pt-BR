@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
+source-git-commit: 13e351225fe664e2d6e42cda86f2d7fbe17aa48c
 
 ---
 
@@ -150,8 +150,8 @@ source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
       + [Receber alertas quando ocorrerem falhas](sending/using/receiving-alerts-when-failures-happen.md)
       + [Noções básicas sobre falhas de entrega](sending/using/understanding-delivery-failures.md)
       + [Noções básicas sobre gestão de quarentena](sending/using/understanding-quarantine-management.md)
-   + Gerenciamento da entrega {#managing-deliverability}
-      + [Sobre a entrega](sending/using/about-deliverability.md)
+   + Gerenciamento da capacidade de delivery {#managing-deliverability}
+      + [Sobre a deliverability](sending/using/about-deliverability.md)
       + [Iniciar uma nova plataforma](sending/using/starting-new-platform.md)
       + [Controle de conteúdo de email](sending/using/control-email-content.md)
       + [Melhorando sua reputação](sending/using/improving-reputation.md)
@@ -279,6 +279,7 @@ source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
       + [Exportar logs](automating/using/exporting-logs.md)
       + [Gerenciamento de pacotes](automating/using/managing-packages.md)
       + [Exportar listas](automating/using/exporting-lists.md)
+      + [Caso de uso:Exportar / importar recursos personalizados](automating/using/exporting-importing-custom-resources.md)
    + Casos de uso: fluxos de trabalho {#workflow-use-case}
       + [Criar entregas com um complemento](automating/using/workflow-created-query-with-complement.md)
       + [Criar entregas na data de criação](automating/using/workflow-creation-date-query.md)
