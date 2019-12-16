@@ -1,18 +1,18 @@
 ---
 title: Sobre os relatórios dinâmicos
 description: Com relatórios dinâmicos, arraste e solte variáveis e dimensões em seu ambiente de forma livre e analise o sucesso de suas campanhas.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: relatório
-content-type: referência
-topic-tags: relatórios sobre
-discoiquuid: bbbb41c38-12c1-4625-85d5-69627e2f4b39
+audience: reporting
+content-type: reference
+topic-tags: about-reporting
+discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
 
@@ -63,10 +63,6 @@ Os relatórios dinâmicos são divididos em duas categorias:
 
 ## Contrato de uso de relatório dinâmico {#dynamic-reporting-usage-agreement}
 
->[!NOTE]
->
-> A partir da versão 19.4 do Campaign Standard, o pop-up de consentimento para relatórios dinâmicos foi atualizado para incluir a integração entre o Adobe Campaign Standard e o Microsoft Dynamics 365.
-
 A finalidade do contrato de uso de relatório dinâmico é funcionar como um consentimento pop-up para o processamento de dados. Por padrão, o contrato só é visível e só pode ser aceito ou recusado por usuários atribuídos com direitos administrativos.
 
 Três opções estão disponíveis:
@@ -92,7 +88,5 @@ A tabela abaixo mostra o que acontece depois de recusar este contrato, dependend
 Essa opção não é final, você sempre pode alterá-la selecionando **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** &gt; **[!UICONTROL Administration]** &gt; **[!UICONTROL Application Settings]** &gt; **[!UICONTROL Options]**.
 
 O valor pode ser alterado a qualquer momento. O valor 1 corresponde a **[!UICONTROL Ask me later]**, 2 **[!UICONTROL Decline]** e 3 **[!UICONTROL Accept]**.
-
-Observe que para versões anteriores ao Adobe Campaign Standard 19.4, o valor -1 corresponde a **[!UICONTROL Ask me later]**, 0 **[!UICONTROL Decline]** e 1 **[!UICONTROL Accept]**.
 
 ![](assets/pii_window_2.png)
