@@ -13,12 +13,12 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
 
-# Sobre a entrega{#about-deliverability}
+# Sobre a deliverability{#about-deliverability}
 
 Disponibilidade ou como medir o sucesso de suas campanhas atingindo a caixa de entrada dos destinatários sem saltar ou sendo marcado como spam.
 
@@ -38,7 +38,7 @@ A taxa de entrega depende de vários fatores, especialmente:
 
 Para otimizar a entrega de emails do Adobe Campaign, recomendamos o uso das práticas recomendadas listadas abaixo. Os problemas de capacidade de entrega estão geralmente ligados às medidas de proteção contra spam implementadas pelos provedores de serviços de Internet e administradores de servidores de correio.
 
-O recurso de entrega por email refere-se ao conjunto de características que determinam a capacidade de uma mensagem de chegar ao seu destino, por meio de um endereço de email pessoal, em pouco tempo e com a qualidade esperada em termos de conteúdo e formato. Estas características dividem-se em quatro categorias principais: qualidade, mensagem e conteúdo dos dados, infraestrutura de envio e reputação. Juntos, eles formam a base de um programa bem-sucedido de entrega de emails.
+A capacidade de fornecimento de email refere-se ao conjunto de características que determinam a capacidade de uma mensagem de alcançar seu destino por meio de um endereço de email pessoal, dentro de um curto período e com a qualidade esperada em termos de conteúdo e formato. Essas características estão em quatro categorias principais: qualidade de dados, mensagem e conteúdo, infraestrutura de envio e reputação. Juntos, elas formam a base de um programa bem-sucedido de capacidade de fornecimento de email.
 
 A taxa de entrega é o número de emails enviados que foram entregues com êxito aos destinatários.
 Esta é uma lista dos pontos principais a serem verificados para garantir uma boa entrega.
@@ -46,7 +46,7 @@ Esta é uma lista dos pontos principais a serem verificados para garantir uma bo
 ## Ferramentas de entrega {#deliverability-tools}
 
 Primeiro, comece consultando a documentação sobre as ferramentas de entrega fornecidas com o Campaign Standard:
-* [Práticas recomendadas de entrega](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+* [Práticas recomendadas para delivery](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 * [Personalização do nome do remetente](../../designing/using/personalization.md#personalizing-the-sender)
 * [Teste da linha de assunto de um email](../../sending/using/testing-subject-line-email.md)
 * [Otimização do tempo de envio](../../sending/using/optimizing-the-sending-time.md)
@@ -56,7 +56,7 @@ Primeiro, comece consultando a documentação sobre as ferramentas de entrega fo
 * [Receber alertas quando ocorrerem falhas](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Noções básicas sobre falhas de entrega](../../sending/using/understanding-delivery-failures.md)
 * [Noções básicas sobre gestão de quarentena](../../sending/using/understanding-quarantine-management.md)
-* [Quarentena vs lista negra](../../sending/using/understanding-quarantine-management.md#quarantine-vs-blacklisting)
+* [Quarentena versus blacklist](../../sending/using/understanding-quarantine-management.md#quarantine-vs-blacklisting)
 * [Relatórios dinâmicos](../../reporting/using/about-dynamic-reports.md)
 
 ## Verificando a configuração da rede {#network-configuration}
@@ -73,7 +73,7 @@ Geralmente, os provedores de internet têm um meio proeminente de reportar uma m
 
 ## Enviar para endereços em lojas {#honeypot-addresses}
 
-Os provedores de acesso e outras organizações (consulte http://www.projecthoneypot.org/) usam caixas de correio que não correspondem às pessoas físicas, mas são criadas apenas para enganar spammers. Estes chamados endereços "mel pot" são publicados na Web para serem recolhidos por spambots e, por conseguinte, capturar remetentes ilegítimos. O uso de um mecanismo de aceitação dupla impede que esse tipo de endereço seja adicionado a uma lista. Ao usar uma lista de terceiros, é necessário ter certeza dos métodos empregados pelo seu responsável principal.
+Os provedores de acesso e outras organizações (consulte https://www.projecthoneypot.org/) usam caixas de correio que não correspondem às pessoas físicas, mas são criadas apenas para enganar spammers. Estes chamados endereços "mel pot" são publicados na Web para serem recolhidos por spambots e, por conseguinte, capturar remetentes ilegítimos. O uso de um mecanismo de aceitação dupla impede que esse tipo de endereço seja adicionado a uma lista. Ao usar uma lista de terceiros, é necessário ter certeza dos métodos empregados pelo seu responsável principal.
 
 ## Adaptação do conteúdo da mensagem {#adapt-message-content}
 
