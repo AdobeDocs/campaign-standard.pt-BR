@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 219f0ffeb11f1fda0d4c1c3b6f5dc7b67f9b0df0
+source-git-commit: f8b763ab70514563ab48b0233300e9dda0fba18c
 
 ---
 
@@ -33,8 +33,8 @@ Você também pode criar um email [com conteúdo](#with-existing-content)existen
 
 | Sem conteúdo | Com conteúdo |
 |---|---|
-| Criar um email do zero | Converter um conteúdo HTML existente |
-| Criação de conteúdo a partir de um modelo pronto para uso | Importação de um HTML existente |
+| [Criar um email do zero](#from-scratch-email) | [Converter um conteúdo HTML existente](#converting-an-html-content) |
+| [Criação de conteúdo a partir de um modelo pronto para uso](#building-content-from-an-out-of-the-box-template) | [Importação de um HTML existente](#compatibility-mode) |
 
 ## Criação de emails com o editor {#without-existing-content}
 
@@ -90,7 +90,7 @@ Você pode adicionar vários componentes de conteúdo ao seu email, como imagem,
 1. Em Componentes **** de conteúdo, arraste e solte o HTML em um dos componentes da sua estrutura.
 1. Clique em **Mostrar o código** fonte.
 1. Insira seu conteúdo HTML.
-1. Clique em **Salvar**.
+1. Clique em **Save**.
 
 ![](assets/html-component-source-code.png)
 
@@ -106,7 +106,7 @@ Você pode ajustar o estilo do email, por exemplo, alterando o preenchimento de 
 1. À direita, na paleta, vá para **Preenchimento**.
 1. Clique no ícone de bloqueio para quebrar a sincronização entre os parâmetros superior e inferior ou direito e esquerdo.
 1. Ajuste o **Preenchimento** conforme necessário.
-1. Clique em **Salvar**.
+1. Clique em **Save**.
 
 ![](assets/padding-quick-start.png)
 
