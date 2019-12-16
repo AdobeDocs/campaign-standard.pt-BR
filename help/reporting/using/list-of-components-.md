@@ -1,18 +1,18 @@
 ---
 title: 'Lista de componentes '
 description: Encontre aqui a lista de todos os componentes disponíveis em Relatórios dinâmicos, bem como suas definições.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: a2403806-8df4-4bb1-bac2-2689dc584ae0
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: relatório
-content-type: referência
-topic-tags: relatórios sobre
+audience: reporting
+content-type: reference
+topic-tags: about-reporting
 discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7281dff9be97ededaa724552e64bffda3f26fa2
+source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
 
@@ -40,7 +40,7 @@ A tabela abaixo fornece a lista de dimensões usadas nos relatórios e suas defi
    <td> Navegador no qual a mensagem foi aberta ou clicada.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Campaign<br /> </td> 
+   <td> Campanha<br /> </td> 
    <td> Rótulo e ID da sua campanha.<br /> </td> 
   </tr> 
   <tr> 
@@ -459,7 +459,7 @@ A tabela abaixo fornece a lista de segmentos usados nos relatórios e suas defin
   </tr> 
     <tr> 
    <td> Excluir prova<br /> </td> 
-   <td> Excluir provas de seus relatórios (iniciando somente a versão 19.4 do Campaign)<br /> </td> 
+   <td> Excluir provas de seus relatórios<br /> </td> 
   </tr> 
  </tbody> 
 </table>
