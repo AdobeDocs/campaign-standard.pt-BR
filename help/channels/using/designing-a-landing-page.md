@@ -13,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -30,7 +30,7 @@ O conteúdo das páginas iniciais foi projetado pelo editor de conteúdo do Camp
 
 >[!NOTE]
 >
->Se sua instância foi instalada antes da versão 19.0 do Adobe Campaign Standard, você ainda terá acesso ao editor de conteúdo de email herdado. A interface, os princípios de uso e configuração são os mesmos descritos abaixo para as páginas iniciais. No entanto, todos os recursos podem não estar disponíveis ou mantidos no editor de conteúdo de e-mail herdado, que foi substituído a partir da versão 19.0. Para editar rapidamente seu conteúdo de email por meio de uma interface de arrastar e soltar com funcionalidades estendidas, use o [Email Designer](../../designing/using/overview.md).
+>Se sua instância foi instalada antes da versão 19.0 do Adobe Campaign Standard, você ainda terá acesso ao editor de conteúdo de email herdado. A interface, os princípios de uso e configuração são os mesmos descritos abaixo para as páginas iniciais. No entanto, todos os recursos podem não estar disponíveis ou mantidos no editor de conteúdo de e-mail herdado, que foi substituído a partir da versão 19.0. Para editar rapidamente seu conteúdo de email por meio de uma interface de arrastar e soltar com funcionalidades estendidas, use o [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 
 Esta página descreve as especificidades do editor de conteúdo da página inicial. Para obter mais informações sobre as ações comuns a uma ou mais atividades de marketing, consulte estas seções no guia **Criar conteúdo** de email:
 
@@ -38,7 +38,7 @@ Esta página descreve as especificidades do editor de conteúdo da página inici
 * [Adicionar um bloco](../../designing/using/personalization.md#adding-a-content-block)de conteúdo.
 * [Inserção de um link](../../designing/using/links.md#inserting-a-link).
 * [Inserção de imagens](../../designing/using/images.md).
-* [Práticas recomendadas gerais para o design](../../designing/using/overview.md#content-design-best-practices)de conteúdo.
+* [Práticas recomendadas gerais para o design](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)de conteúdo.
 
 >[!NOTE]
 >Se você tiver uma página de aterrissagem que já esteja predefinida no formato HTML, poderá importá-la diretamente usando o **[!UICONTROL Change content]** botão.
