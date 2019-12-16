@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b2df5ca4d38e35f57815924ffbe0313dc1a22b29
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -52,8 +52,8 @@ Para obter mais informações, consulte [Entendendo o gerenciamento](../../sendi
 **Como posso descobrir se um dos meus IPs está na lista negra? Como faço para cancelar a lista de meus IPs?**
 
 Para verificar se seu endereço IP está na lista negra, você pode usar vários sites para verificá-lo:
-* http://mxtoolbox.com/
-* http://whatismyipaddress.com/blacklist-check
+* https://mxtoolbox.com/
+* https://whatismyipaddress.com/blacklist-check
 * http://www.blacklistalert.org/
 
 Geralmente, o resultado da verificação de endereço IP retornará uma lista que contém detalhes da lista negra e também o nome do site que lista negra do endereço IP.
