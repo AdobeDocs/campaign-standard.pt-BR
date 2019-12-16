@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
@@ -32,7 +32,7 @@ Depois que o evento é publicado, a mensagem transacional correspondente é cria
 Comece criando o evento que corresponde às suas necessidades.
 
 1. Clique no **[!UICONTROL Adobe Campaign]** logotipo, no canto superior esquerdo, em seguida selecione **[!UICONTROL Marketing plans]** &gt; **[!UICONTROL Transactional messages]** &gt; **[!UICONTROL Event configuration]**.
-1. Click the **[!UICONTROL Create]** button.
+1. Clique no botão **.[!UICONTROL Create]**
 1. Dê um **[!UICONTROL Label]** e-mail **[!UICONTROL ID]** ao evento. O **[!UICONTROL ID]** campo é obrigatório e deve começar com o prefixo "EVT". Se você não usar esse prefixo, ele será adicionado automaticamente após clicar **[!UICONTROL Create]**.
 
    ![](assets/message-center_1.png)
@@ -89,7 +89,7 @@ Este é o exemplo da visualização da API:
 **Tópicos relacionados:**
 
 * [Visualização e publicação do evento](#previewing-and-publishing-the-event)
-* [Uso das listas de produtos em uma mensagem transacional](#using-product-listings-in-a-transactional-message)
+* [Uso das listas de produtos em uma mensagem transacional](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
 ## Enriquecer o conteúdo transacional de mensagens {#enriching-the-transactional-message-content}
 
