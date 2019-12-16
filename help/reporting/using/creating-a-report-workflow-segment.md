@@ -1,18 +1,18 @@
 ---
 title: Criar um relatório com base em segmentos de fluxo de trabalho
 description: Saiba como verificar o sucesso de sua entrega dependendo dos segmentos dos fluxos de trabalho em seus relatórios.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
-contentOwner: comida
+contentOwner: beneat
 products: SG_CAMPAIGN/STANDARD
-audience: relatório
-content-type: referência
-topic-tags: personalização de relatórios
+audience: reporting
+content-type: reference
+topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -92,7 +92,7 @@ Primeiro, é necessário criar um fluxo de trabalho com população direcionada 
 
    ![](assets/report_segment_3.png)
 
-1. Personalize suas entregas dependendo das diferentes populações-alvo. For more on email creation, refer to this [page](../../designing/using/overview.md).
+1. Personalize suas entregas dependendo das diferentes populações-alvo. For more on email creation, refer to this [page](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. Salve o workflow.
 
