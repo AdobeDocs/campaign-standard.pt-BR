@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 17264484102878d4eb58c0fe9d82d7d4f091179b
+source-git-commit: 59007b6379bc3c0656cc0a3e5d11e15ce15f805a
 
 ---
 
@@ -172,10 +172,6 @@ Você deseja ajustar o preenchimento e o alinhamento vertical dentro de um compo
 1. Salve as alterações.
 
 ## Links de estilo {#about-styling-links}
-
->[!NOTE]
->
->Esse recurso estará disponível a partir da versão 19.4 do Campaign Standard.
 
 Você pode sublinhar um link e selecionar sua cor e destino no Designer de email.
 
