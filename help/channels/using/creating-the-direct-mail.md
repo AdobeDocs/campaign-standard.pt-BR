@@ -1,19 +1,19 @@
 ---
 title: Criação do correio direto
 description: Siga estas etapas para criar uma entrega de mala direta no Adobe Campaign.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 3b1365c4-4ea1-4434-818b-05ff0c9b42c1
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canais
-content-type: referência
-topic-tags: correio direto
+audience: channels
+content-type: reference
+topic-tags: direct-mail
 discoiquuid: 5b02227f-9438-4001-bc2f-3d8661d173b3
-context-tags: entrega,directMailContent,back
+context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
@@ -30,7 +30,7 @@ A criação de uma entrega de mala direta é muito semelhante à criação de um
 
    ![](assets/direct_mail_1.png)
 
-1. Escolha o modelo pronto para uso **[!UICONTROL Direct mail]** ou um de seus próprios modelos. Para obter mais informações sobre modelos, consulte a seção [Gerenciamento de modelos](../../start/using/about-templates.md) .
+1. Escolha o modelo pronto para uso **[!UICONTROL Direct mail]**ou um de seus próprios modelos. Para obter mais informações sobre modelos, consulte a seção[Gerenciamento de modelos](../../start/using/marketing-activity-templates.md).
 
    ![](assets/direct_mail_2.png)
 
@@ -50,25 +50,25 @@ A criação de uma entrega de mala direta é muito semelhante à criação de um
 
    ![](assets/direct_mail_5.png)
 
-1. Clique na **[!UICONTROL Schedule]** seção do painel de entrega para definir a data de contato. Para a publicidade endereçada, a data de contato é obrigatória. Para obter mais informações, consulte [Agendamento do envio](../../sending/using/about-scheduling-messages.md).
+1. Clique na **[!UICONTROL Schedule]**seção do painel de entrega para definir a data de contato. Para a publicidade endereçada, a data de contato é obrigatória. Para obter mais informações, consulte[Agendamento do envio](../../sending/using/about-scheduling-messages.md).
 
    ![](assets/direct_mail_8.png)
 
 1. Se você tiver adicionado perfis de teste (consulte [Adicionar perfis](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)de teste e trapping), poderá testar sua entrega antes de preparar o arquivo final. Ele permite que você crie um arquivo de amostra contendo apenas os perfis de teste selecionados.
 
-   Clique em **[!UICONTROL Test]** para gerar o arquivo de amostra. Clique em **[!UICONTROL Summary]**, no canto superior esquerdo e selecione **[!UICONTROL Proofs]**. Na parte esquerda da tela, selecione a prova e clique em **[!UICONTROL Download file]**.
+   Clique em **[!UICONTROL Test]**para gerar o arquivo de amostra. Clique em**[!UICONTROL Summary]**, no canto superior esquerdo e selecione **[!UICONTROL Proofs]**. Na parte esquerda da tela, selecione a prova e clique em**[!UICONTROL Download file]**.
 
    >[!NOTE]
    >
-   >A **[!UICONTROL Export]** função é necessária para permitir que o Adobe Campaign exporte o arquivo e disponibilize-o para download. Entre em contato com o administrador.
+   >A **[!UICONTROL Export]**função é necessária para permitir que o Adobe Campaign exporte o arquivo e disponibilize-o para download. Entre em contato com o administrador.
 
    ![](assets/direct_mail_19.png)
 
-1. Depois de definir o conteúdo de entrega, o público-alvo e a data de contato, clique no **[!UICONTROL Prepare]** botão, no painel de entrega.
+1. Depois de definir o conteúdo de entrega, o público-alvo e a data de contato, clique no **[!UICONTROL Prepare]**botão, no painel de entrega.
 
    ![](assets/direct_mail_16.png)
 
-   As regras de tipologia são aplicadas. Por exemplo, todos os endereços postais não especificados são excluídos do destino. É por isso que você precisa verificar se marcou a **[!UICONTROL Address specified]** caixa nas informações de seus perfis (consulte [Recomendações](../../channels/using/about-direct-mail.md#recommendations)). Se você tiver definido uma regra **[!UICONTROL Maximum volume of message]** nas propriedades de mala direta ou no nível do modelo, ela também será aplicada aqui.
+   As regras de tipologia são aplicadas. Por exemplo, todos os endereços postais não especificados são excluídos do destino. É por isso que você precisa verificar se marcou a **[!UICONTROL Address specified]**caixa nas informações de seus perfis (consulte[Recomendações](../../channels/using/about-direct-mail.md#recommendations)). Se você tiver definido uma regra**[!UICONTROL Maximum volume of message]** nas propriedades de mala direta ou no nível do modelo, ela também será aplicada aqui.
 
    ![](assets/direct_mail_25.png)
 
@@ -76,27 +76,27 @@ A criação de uma entrega de mala direta é muito semelhante à criação de um
    >
    >Você pode definir regras de fadiga globais entre canais que excluirão automaticamente perfis supersolacionados de campanhas. Consulte Regras de [fadiga](../../administration/using/fatigue-rules.md).
 
-1. Clique em **[!UICONTROL Explore file]** para visualizar as primeiras 100 linhas do arquivo.
+1. Clique em **[!UICONTROL Explore file]**para visualizar as primeiras 100 linhas do arquivo.
 
    ![](assets/direct_mail_18.png)
 
-   O arquivo completo pode ser baixado localmente na parte esquerda da tela. Baixar o arquivo gera uma entrada de registro no **[!UICONTROL Export audits]** menu. Para obter mais informações sobre auditorias de exportação, consulte a seção [Auditando exportações](../../administration/using/auditing-export-logs.md) .
+   O arquivo completo pode ser baixado localmente na parte esquerda da tela. Baixar o arquivo gera uma entrada de registro no **[!UICONTROL Export audits]**menu. Para obter mais informações sobre auditorias de exportação, consulte a seção[Auditando exportações](../../administration/using/auditing-export-logs.md).
 
    >[!NOTE]
    >
-   >A **[!UICONTROL Export]** função é necessária para permitir que o Adobe Campaign exporte o arquivo e disponibilize-o para download. Entre em contato com o administrador.
+   >A **[!UICONTROL Export]**função é necessária para permitir que o Adobe Campaign exporte o arquivo e disponibilize-o para download. Entre em contato com o administrador.
 
-   Se precisar alterar o conteúdo da entrega, basta clicar no **[!UICONTROL Regenerate file]** botão para levar a alteração em consideração. Não precisa passar pela preparação novamente.
+   Se precisar alterar o conteúdo da entrega, basta clicar no **[!UICONTROL Regenerate file]**botão para levar a alteração em consideração. Não precisa passar pela preparação novamente.
 
    ![](assets/direct_mail_21.png)
 
-1. Para confirmar que o arquivo é final, clique em no painel de entrega **[!UICONTROL Confirm]** .
+1. Para confirmar que o arquivo é final, clique em no painel de entrega **[!UICONTROL Confirm]**.
 
    ![](assets/direct_mail_20.png)
 
 Agora você está pronto para enviar o arquivo de extração para seu provedor de mala direta. Para isso, você tem várias opções:
 
 * Envie-o por email normal, com o arquivo anexado
-* Envie-o pelo Campaign: execute seu email direto dentro de um [fluxo de trabalho](../../automating/using/direct-mail-delivery.md) de campanha e adicione um **[!UICONTROL Transfer file]** para enviar o arquivo via FTP, por exemplo. Consulte [Transferir arquivo](../../automating/using/transfer-file.md).
+* Envie-o pelo Campaign: execute seu email direto dentro de um [fluxo de trabalho](../../automating/using/direct-mail-delivery.md) de campanha e adicione um **[!UICONTROL Transfer file]**para enviar o arquivo via FTP, por exemplo. Consulte[Transferir arquivo](../../automating/using/transfer-file.md).
 
 O provedor recupera a lista de endereços incorretos e envia essas informações para o Adobe Campaign, que automaticamente faz a lista negra dos endereços incorretos. See [Return to sender](../../channels/using/return-to-sender.md).
