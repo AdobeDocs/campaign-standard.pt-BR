@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: bbc2986fe50948d88ed65b0d43ff61650132aad5
+source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
 
 ---
 
@@ -34,12 +34,8 @@ source-git-commit: bbc2986fe50948d88ed65b0d43ff61650132aad5
    + Planos de marketing {#marketing-plans}
       + [Programas e campanhas](start/using/programs-and-campaigns.md)
       + [Atividades de marketing](start/using/marketing-activities.md)
+      + [Modelos de atividades de marketing](start/using/marketing-activity-templates.md)
       + [Linha do tempo](start/using/timeline.md)
-   + Gerenciamento de modelos {#managing-templates}
-      + [Sobre os modelos](start/using/about-templates.md)
-      + [Criação de um novo modelo](start/using/creating-a-new-template.md)
-      + [Criação de um modelo multilíngue](start/using/creating-a-multilingual-template.md)
-      + [Uso de um modelo](start/using/using-a-template.md)
    + Tutoriais {#tutorials}
       + [Guias passo a passo](start/using/step-by-step-guides.md)
       + [Vídeos explicativos](start/using/how-to-videos.md)
@@ -279,7 +275,7 @@ source-git-commit: bbc2986fe50948d88ed65b0d43ff61650132aad5
       + [Exportar logs](automating/using/exporting-logs.md)
       + [Gerenciamento de pacotes](automating/using/managing-packages.md)
       + [Exportar listas](automating/using/exporting-lists.md)
-      + [Caso de uso:Exportar / importar recursos personalizados](automating/using/exporting-importing-custom-resources.md)
+      + [Caso de uso: Exportar / importar recursos personalizados](automating/using/exporting-importing-custom-resources.md)
    + Casos de uso: fluxos de trabalho {#workflow-use-case}
       + [Criar entregas com um complemento](automating/using/workflow-created-query-with-complement.md)
       + [Criar entregas na data de criação](automating/using/workflow-creation-date-query.md)
