@@ -1,19 +1,19 @@
 ---
 title: Unidades organizacionais
 description: Defina os níveis de acesso dos usuários usando unidades organizacionais.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 8c82ffea-cef4-4a89-b823-d8b7bae1db4f
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: administração
-content-type: referência
-topic-tags: usuários e segurança
+audience: administration
+content-type: reference
+topic-tags: users-and-security
 discoiquuid: 6f60c653-1d12-4d27-9bc8-ce8c19bca466
 context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
@@ -26,11 +26,11 @@ Cada objeto e usuário da plataforma está vinculado a uma unidade organizaciona
 
 >[!CAUTION]
 >
->Se um usuário não estiver vinculado a nenhuma unidade, ele não poderá se conectar ao Adobe Campaign. Se você deseja restringir o acesso de um usuário ou grupo de usuários específico, não vincule-o à **[!UICONTROL All]** unidade.
+>Se um usuário não estiver vinculado a nenhuma unidade, ele não poderá se conectar ao Adobe Campaign. Se você deseja restringir o acesso de um usuário ou grupo de usuários específico, não vincule-o à **[!UICONTROL All]**unidade.
 
 Um usuário tem acesso somente leitura a todos os objetos nas unidades pai. Ele tem acesso de leitura e gravação a todos os objetos de sua unidade e unidades filhas. Um usuário não tem acesso a objetos em ramificações paralelas.
 
-Por padrão, somente as **[!UICONTROL All]** unidades estão disponíveis.
+Por padrão, somente as **[!UICONTROL All]**unidades estão disponíveis.
 
 Quando o usuário recebe uma unidade organizacional, essa unidade sempre será aplicada aos objetos criados pelo usuário.
 
@@ -48,30 +48,30 @@ Aqui, criamos anteriormente grupos de segurança com funções diferentes para d
 
 Agora precisamos criar as unidades organizacionais para os grupos de segurança Geometrixx Clothes e Geometrixx:
 
-1. No menu avançado da campanha Adobe, selecione **[!UICONTROL Administration]** &gt; **[!UICONTROL Users & security]** &gt; **[!UICONTROL Organizational units]**.
-1. Clique **[!UICONTROL Create]** para iniciar a configuração da unidade organizacional.
+1. No menu avançado da campanha Adobe, selecione **[!UICONTROL Administration]**>**[!UICONTROL Users & security]** > **[!UICONTROL Organizational units]**.
+1. Clique **[!UICONTROL Create]**para iniciar a configuração da unidade organizacional.
 
    ![](assets/manage_units_1.png)
 
-1. Altere o padrão **[!UICONTROL Label]** e **[!UICONTROL ID]** para Geometrixx.
+1. Altere o padrão **[!UICONTROL Label]**e**[!UICONTROL ID]** para Geometrixx.
 1. Em seguida, vincule essa unidade a uma unidade pai. Aqui, escolhemos **[!UICONTROL All]**.
 
    ![](assets/manage_units_2.png)
 
-1. Por fim, clique em **[!UICONTROL Create]** para começar a atribuir sua nova unidade organizacional ao grupo de segurança.
+1. Por fim, clique em **[!UICONTROL Create]**para começar a atribuir sua nova unidade organizacional ao grupo de segurança.
 1. Siga o mesmo procedimento para a unidade de roupas Geometrixx, exceto que a unidade pai deve ser a unidade criada anteriormente, Geometrixx.
 
    ![](assets/manage_units_3.png)
 
 Para ver o impacto da atribuição de unidades diferentes a grupos de segurança diferentes, o usuário atribuído aos grupos Administrador e Geometrixx criará dois modelos de email para ver o que o outro usuário atribuído às Roupas Padrão do Usuário e Geometrixx pode ou não acessar.
 
-1. No menu avançado, selecione **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Delivery Templates]**.
-1. Duplique um modelo existente e personalize-o conforme necessário. For more on this, refer to the [About templates](../../start/using/about-templates.md) section.
-1. Quando o modelo for criado, selecione o **[!UICONTROL Edit properties]** ícone para atribuir unidades ao modelo.
+1. No menu avançado, selecione **[!UICONTROL Resources]**>**[!UICONTROL Templates]** > **[!UICONTROL Delivery Templates]**.
+1. Duplique um modelo existente e personalize-o conforme necessário. For more on this, refer to the [About templates](../../start/using/marketing-activity-templates.md) section.
+1. Quando o modelo for criado, selecione o **[!UICONTROL Edit properties]**ícone para atribuir unidades ao modelo.
 
    ![](assets/manage_units_6.png)
 
-1. No menu **[!UICONTROL Access authorization]** suspenso, selecione a unidade organizacional.
+1. No menu **[!UICONTROL Access authorization]**suspenso, selecione a unidade organizacional.
 
    Aqui vamos criar um modelo com a unidade organizacional previamente criada Geometrixx.
 
@@ -87,7 +87,7 @@ Como a unidade de roupas Geometrixx é uma unidade secundária do Geometrixx, a 
 
 ![](assets/manage_units_8.png)
 
-As unidades organizacionais podem restringir o acesso a diferentes recursos, como perfis. Por exemplo, se nosso usuário do Geometrixx Clothes acessar a guia, ele poderá acessar e modificar completamente os perfis com a unidade organizacional do Geometrixx Clothes **[!UICONTROL Profiles]** .
+As unidades organizacionais podem restringir o acesso a diferentes recursos, como perfis. Por exemplo, se nosso usuário do Geometrixx Clothes acessar a guia, ele poderá acessar e modificar completamente os perfis com a unidade organizacional do Geometrixx Clothes **[!UICONTROL Profiles]**.
 
 Enquanto os perfis com a unidade organizacional Geometrixx serão somente leitura, o seguinte erro aparecerá se o usuário tentar modificar um perfil: **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**.
 
@@ -105,16 +105,16 @@ Os perfis sem unidades organizacionais não podem ser acessados pelos usuários.
 >
 >Recomendamos adicionar essa opção antes de importar qualquer perfil. Se você já tiver importado o banco de dados do cliente, será necessária uma atualização para definir os valores da unidade organizacional nos Perfis já importados.
 
-1. No menu avançado, pelo logotipo do Adobe Campaign, selecione **Administração &gt; Desenvolvimento &gt; Recursos** personalizados.
+1. No menu avançado, pelo logotipo do Adobe Campaign, selecione **Administração > Desenvolvimento > Recursos** personalizados.
 1. Selecione **Perfil** ou crie um novo recurso personalizado para estender os perfis.
 1. Marque a caixa **Adicionar campos** de gerenciamento de autorização de acesso para adicionar as unidades organizacionais na extensão **Perfil** .
 
    ![](assets/user_management_9.png)
 
-1. Click **[!UICONTROL Save]**.
+1. Clique em **[!UICONTROL Save]**.
 1. Atualize a estrutura republicando os recursos personalizados. Para obter mais informações sobre o processo de publicação, consulte a seção [Atualização da estrutura](../../developing/using/data-model-concepts.md) .
 
-O campo da unidade organizacional é adicionado aos seus perfis na **[!UICONTROL Access authorization]** seção.
+O campo da unidade organizacional é adicionado aos seus perfis na **[!UICONTROL Access authorization]**seção.
 
 ![](assets/user_management_10.png)
 
