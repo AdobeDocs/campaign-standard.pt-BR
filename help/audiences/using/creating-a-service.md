@@ -13,7 +13,7 @@ context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
@@ -24,15 +24,15 @@ Para poder gerenciar assinaturas, é necessário criar um serviço e configurá-
 
 Para configurar um serviço:
 
-1. No menu avançado **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Services]** por meio do logotipo do Adobe Campaign, adicione um novo serviço ou selecione um serviço existente. Se você criar um novo serviço, siga as etapas mostradas na tela.
+1. No menu avançado **[!UICONTROL Profiles & audiences]**>**[!UICONTROL Services]** por meio do logotipo do Adobe Campaign, adicione um novo serviço ou selecione um serviço existente. Se você criar um novo serviço, siga as etapas mostradas na tela.
 
-   Um modelo de serviço padrão está disponível. Este modelo é pré-configurado com páginas iniciais e e-mails de confirmação padrão. Você pode criar outros modelos para definir configurações específicas. For more on this, refer to the [Managing templates](../../start/using/about-templates.md) section.
+   Um modelo de serviço padrão está disponível. Este modelo é pré-configurado com páginas iniciais e e-mails de confirmação padrão. Você pode criar outros modelos para definir configurações específicas. For more on this, refer to the [Managing templates](../../start/using/marketing-activity-templates.md) section.
 
-1. Na **[!UICONTROL Service properties]** seção, acessada pelo ![](assets/edit_darkgrey-24px.png) botão no painel de serviço, configure as mensagens de confirmação para assinaturas e desassinaturas.
+1. Na **[!UICONTROL Service properties]**seção, acessada pelo![](assets/edit_darkgrey-24px.png)botão no painel de serviço, configure as mensagens de confirmação para assinaturas e desassinaturas.
 
    ![](assets/lp_service_parameters.png)
 
-1. Fill in the **[!UICONTROL Service label]** field. O rótulo do serviço é obrigatório ao usar uma mensagem de confirmação personalizada.
+1. Fill in the **[!UICONTROL Service label]**field. O rótulo do serviço é obrigatório ao usar uma mensagem de confirmação personalizada.
 
 1. Selecione um modelo de mensagem de confirmação para assinaturas e cancelamentos de assinaturas. Três modos estão disponíveis:
 
@@ -41,9 +41,9 @@ Para configurar um serviço:
 
       >[!NOTE]
       >
-      >Você pode modificar uma mensagem padrão clicando em seu rótulo na **[!UICONTROL Service properties]** seção ou selecionando-a na lista de mensagens transacionais do Adobe Campaign, depois de marcar a **[!UICONTROL Show internal transactional messages]** caixa.
+      >Você pode modificar uma mensagem padrão clicando em seu rótulo na **[!UICONTROL Service properties]**seção ou selecionando-a na lista de mensagens transacionais do Adobe Campaign, depois de marcar a**[!UICONTROL Show internal transactional messages]** caixa.
 
-   * **[!UICONTROL Custom message]**: esse modo permite que você manipule mensagens de confirmação personalizadas, específicas para cada serviço. Em seguida, selecione o **[!UICONTROL Custom subscription event configuration]** que está associado a um modelo de mensagem [](../../channels/using/about-transactional-messaging.md) transacional específico. Para obter mais informações, consulte [Confirmação da assinatura de um serviço](../../audiences/using/confirming-subscription-to-a-service.md).
+   * **[!UICONTROL Custom message]**: esse modo permite que você manipule mensagens de confirmação personalizadas, específicas para cada serviço. Em seguida, selecione o**[!UICONTROL Custom subscription event configuration]** que está associado a um modelo de mensagem [](../../channels/using/about-transactional-messaging.md) transacional específico. Para obter mais informações, consulte [Confirmação da assinatura de um serviço](../../audiences/using/confirming-subscription-to-a-service.md).
 
 1. Salve o serviço. Agora está pronto para ser usado.
 
