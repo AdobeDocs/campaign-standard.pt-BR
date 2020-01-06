@@ -12,7 +12,7 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: c458acd74eae4be614336afcc2f1d2619563670a
 
 ---
 
@@ -23,13 +23,13 @@ Você pode criar um email de uma [campanha](../../start/using/marketing-activiti
 
 1. Depois de começar a criar uma atividade de marketing por email, selecione o modelo que deseja usar.
 
-   Por padrão, você pode escolher entre vários modelos para cada atividade de marketing. Isso permite pré-configurar certos parâmetros de acordo com suas necessidades e também atribuir uma marca à entrega. Para obter mais informações, consulte [Gerenciamento de modelos](../../start/using/about-templates.md).
+   Por padrão, você pode escolher entre vários modelos para cada atividade de marketing. Isso permite pré-configurar certos parâmetros de acordo com suas necessidades e também atribuir uma marca à entrega. Para obter mais informações, consulte [Gerenciamento de modelos](../../start/using/marketing-activity-templates.md).
 
    ![](assets/email_creation_1.png)
 
    >[!NOTE]
    >
-   >Os modelos de teste A/B e de acompanhamento estão ocultos por padrão. Marque as caixas no lado esquerdo (painel **[!UICONTROL Filter]** lateral) se quiser exibi-las.
+   >Os modelos de teste A/B e de acompanhamento estão ocultos por padrão. Marque as caixas no lado esquerdo (painel **[!UICONTROL Filter]**lateral) se quiser exibi-las.
 
 1. Insira as propriedades gerais do email. Você pode inserir um nome no campo **Rótulo** e editar a ID. O nome da atividade e sua ID são exibidos na interface, mas não são visíveis para os destinatários da mensagem.
 
@@ -58,11 +58,11 @@ Você pode criar um email de uma [campanha](../../start/using/marketing-activiti
 
    >[!NOTE]
    >
-   >Para salvar seu email, é necessário primeiro fazer algumas edições no conteúdo. Se você clicar **[!UICONTROL Cancel]** nesse ponto, não concluirá o assistente e seu email não será criado.
+   >Para salvar seu email, é necessário primeiro fazer algumas edições no conteúdo. Se você clicar **[!UICONTROL Cancel]**nesse ponto, não concluirá o assistente e seu email não será criado.
 
    O painel de email é exibido. Permite que você verifique sua mensagem e [prepare o envio](../../sending/using/preparing-the-send.md).
 
-   O **[!UICONTROL Edit properties]** botão no canto superior direito permite que você edite as propriedades do email. Por exemplo, é possível configurar o email para que seu rótulo seja calculado no momento da preparação da entrega.  Available parameters are listed in [this section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+   O **[!UICONTROL Edit properties]**botão no canto superior direito permite que você edite as propriedades do email. Por exemplo, é possível configurar o email para que seu rótulo seja calculado no momento da preparação da entrega.  Available parameters are listed in[this section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/delivery_dashboard_2.png)
 
