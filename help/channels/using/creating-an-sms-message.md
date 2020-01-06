@@ -1,19 +1,19 @@
 ---
 title: Criar uma mensagem SMS
 description: Siga estas etapas para criar uma mensagem SMS de envio único no Adobe Campaign.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 591ae97e-2d19-4f93-be4b-d8d20f1d2d12
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canais
-content-type: referência
+audience: channels
+content-type: reference
 topic-tags: sms-messages
 discoiquuid: b27381a9-19e5-4b65-b194-c72f475ba54d
-delivercontext-tags: deliveryCreation,assistente
+delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
@@ -26,7 +26,7 @@ Parâmetros SMS avançados são detalhados na seção de configuração [](../..
 
 Para criar e enviar mensagens SMS para um telefone celular, é necessário:
 
-* Uma conta **[!UICONTROL Routing]** externa configurada no **[!UICONTROL Mobile (SMS)]** canal com o **[!UICONTROL Bulk delivery]** modo. For more on this, refer to the [Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) section.
+* Uma conta **[!UICONTROL Routing]**externa configurada no**[!UICONTROL Mobile (SMS)]** canal com o **[!UICONTROL Bulk delivery]**modo. For more on this, refer to the[Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)section.
 * Um modelo de entrega vinculado corretamente a esta conta externa.
 
 1. Crie uma entrega de SMS. Você pode fazer isso na [página](../../start/using/interface-description.md#home-page)inicial do Adobe Campaign, em uma [campanha](../../start/using/marketing-activities.md#creating-a-marketing-activity) ou na lista [de atividades de](../../start/using/programs-and-campaigns.md#creating-a-campaign)marketing.
@@ -51,7 +51,7 @@ Para criar e enviar mensagens SMS para um telefone celular, é necessário:
 
    ![](assets/sms_creation_3.png)
 
-1. Adicione conteúdo ao seu SMS. Você também pode definir o conteúdo clicando na **[!UICONTROL Content]** seção do painel de entrega, depois que a criação do SMS for finalizada. Consulte [Sobre design](../../channels/using/about-sms-and-push-content-design.md)de conteúdo SMS.
+1. Adicione conteúdo ao seu SMS. Você também pode definir o conteúdo clicando na **[!UICONTROL Content]**seção do painel de entrega, depois que a criação do SMS for finalizada. Consulte[Sobre design](../../channels/using/about-sms-and-push-content-design.md)de conteúdo SMS.
 
    Se você tiver inserido campos de personalização ou texto condicional no conteúdo de sua mensagem SMS, a duração da mensagem pode variar de um destinatário para outro. na verdade, esses fatores podem introduzir caracteres que não são considerados pela codificação GSM. Por isso, a duração da mensagem deve ser avaliada uma vez realizada a personalização. See [Personalizing SMS messages](../../channels/using/personalizing-sms-messages.md).
 
@@ -79,6 +79,6 @@ Quando o envio estiver concluído, você poderá começar a medir o impacto de s
 **Tópicos relacionados:**
 
 * [Sobre SMS e edição de conteúdo de push](../../channels/using/about-sms-and-push-content-design.md)
-* [Gerenciamento de modelos](../../start/using/about-templates.md)
+* [Gerenciamento de modelos](../../start/using/marketing-activity-templates.md)
 * [Criar um vídeo de entrega](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html) SMS
 
