@@ -12,11 +12,11 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f8b763ab70514563ab48b0233300e9dda0fba18c
+source-git-commit: cc42e1ac6ed7570817163e2782e42258fa617a22
 
 ---
 
-# Introdução ao designer de email {#quick-start}
+# Introdução ao Email Designer {#quick-start}
 
 O Designer de email fornece quatro maneiras de criar emails.
 
@@ -38,17 +38,22 @@ Você também pode criar um email [com conteúdo](#with-existing-content)existen
 
 ## Criação de emails com o editor {#without-existing-content}
 
+>[!NOTE]
+>
+>Em ambas as estratégias de criação, é crucial preencher a linha de assunto antes de enviar seu email. Saiba como [adicionar uma linha](#add-a-subject-line)de assunto.
+
 ### Criar um email do zero {#from-scratch-email}
 
 Você pode criar um email com facilidade, adicionar componentes e personalizar seu conteúdo para enviar uma entrega rapidamente. Você pode adaptar as opções de estilo ao seu conteúdo, se necessário. Para obter mais informações sobre como gerenciar configurações de estilo e atributos incorporados, consulte [Edição de estilos](../../designing/using/styles.md)de email.
+
+1. Crie um email.
+1. Fechar a página inicial.
 
 ### Adicionar uma linha de assunto {#add-a-subject-line}
 
 As linhas de assunto são obrigatórias ao enviar um email. Para obter mais informações, consulte [Definição da linha de assunto de um email](../../designing/using/subject-line.md).
 
-1. Crie um email.
-1. Fechar a página inicial.
-1. Vá para a **[!UICONTROL Properties]** guia da página inicial do Email Designer (acessível pelo ícone inicial) e preencha a **[!UICONTROL Subject]** seção.
+1. Vá para a **[!UICONTROL Properties]**guia da página inicial do Email Designer (acessível pelo ícone inicial) e preencha a**[!UICONTROL Subject]** seção.
 
 ![](assets/subject-line-quick-start.png)
 
@@ -94,7 +99,7 @@ Você pode adicionar vários componentes de conteúdo ao seu email, como imagem,
 
 ![](assets/html-component-source-code.png)
 
-Se você estiver familiarizado com o HTML, poderá copiar e colar o código HTML do rodapé original usando o componente de **[!UICONTROL Html]** conteúdo. Para obter mais informações, consulte [Sobre componentes](../../designing/using/designing-from-scratch.md#about-content-components)de conteúdo.
+Se você estiver familiarizado com o HTML, poderá copiar e colar o código HTML do rodapé original usando o componente de **[!UICONTROL Html]**conteúdo. Para obter mais informações, consulte[Sobre componentes](../../designing/using/designing-from-scratch.md#about-content-components)de conteúdo.
 
 ![](assets/des_loading_compatible_fragment_9.png)
 
@@ -117,12 +122,12 @@ Agora você pode salvar e enviar seu email.
 Você pode criar um e-mail a partir de modelos prontos para uso, como mensagens de boas-vindas do cliente, boletins informativos e e-mails de reenvolvimento e personalizá-los.
 
 1. Crie um email e abra seu conteúdo. Para obter mais informações, consulte [Criação de um email](../../channels/using/creating-an-email.md).
-1. Clique no ícone inicial para acessar a página **[!UICONTROL Email Designer]** inicial.
-1.  Clique na **[!UICONTROL Templates]** guia.
+1. Clique no ícone inicial para acessar a página **[!UICONTROL Email Designer]**inicial.
+1.  Clique na **[!UICONTROL Templates]**guia.
 1. Escolha um modelo HTML predefinido.
-Os diferentes modelos apresentam várias combinações de vários tipos de elementos. Por exemplo, os modelos 'Difusão' têm margens, enquanto os modelos 'Astro' não têm. Para obter mais informações, consulte Modelos [de](../../designing/using/using-reusable-content.md#content-templates)conteúdo.
-1. Vá para a **[!UICONTROL Properties]** guia da página inicial do Email Designer (acessível pelo ícone inicial) e preencha a **[!UICONTROL Subject]** seção.
-1. É possível combinar esses elementos para criar várias variantes de email. Por exemplo, você pode duplicar uma seção de email selecionando um componente de estrutura e clicando **[!UICONTROL Duplicate]** na barra de ferramentas contextual.
+Os diferentes modelos apresentam várias combinações de vários tipos de elementos. Por exemplo, os modelos &#39;Difusão&#39; têm margens, enquanto os modelos &#39;Astro&#39; não têm. Para obter mais informações, consulte Modelos [de](../../designing/using/using-reusable-content.md#content-templates)conteúdo.
+1. Vá para a **[!UICONTROL Properties]**guia da página inicial do Email Designer (acessível pelo ícone inicial) e preencha a**[!UICONTROL Subject]** seção.
+1. É possível combinar esses elementos para criar várias variantes de email. Por exemplo, você pode duplicar uma seção de email selecionando um componente de estrutura e clicando **[!UICONTROL Duplicate]**na barra de ferramentas contextual.
 1. É possível mover os elementos usando a seta azul à esquerda para arrastar um componente de estrutura abaixo ou acima de outro. Para obter mais informações, consulte [Edição da estrutura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de email.
 1. Você também pode mover componentes para alterar a organização de cada elemento de estrutura. Para obter mais informações, consulte [Adicionar fragmentos e componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Modifique o conteúdo de cada elemento de acordo com suas necessidades: imagens, texto, links.
@@ -210,7 +215,7 @@ Depois de identificar todos os blocos, no Designer de email, repita o seguinte p
 
 Quando você carrega um conteúdo, ele deve conter uma marcação específica para ser totalmente compatível e editável com o editor WYSIWYG do Designer de email.
 
-Se todo ou parte do HTML carregado não for compatível com a marcação esperada, o conteúdo será carregado em "modo de compatibilidade", o que limita as possibilidades de edição por meio da interface do usuário.
+Se todo ou parte do HTML carregado não for compatível com a marcação esperada, o conteúdo será carregado em &quot;modo de compatibilidade&quot;, o que limita as possibilidades de edição por meio da interface do usuário.
 
 Quando um conteúdo é carregado no modo de compatibilidade, você ainda pode executar as seguintes modificações por meio da interface (as ações não disponíveis estão ocultas):
 
