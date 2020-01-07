@@ -1,5 +1,5 @@
 ---
-title: Gerenciamento de links
+title: Adicionar links
 description: Descubra como gerenciar links com o Designer de email.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -12,12 +12,12 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 7642ae3d027351abe1c44e173d3db50b9568bfcd
 
 ---
 
 
-# Links {#links}
+# Adicionar links {#links}
 
 ## Inserção de um link {#inserting-a-link}
 
@@ -29,7 +29,7 @@ Você pode inserir um link em qualquer elemento de página: imagem, palavra, gru
 >
 >As imagens abaixo mostram como inserir um link usando o [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) em um email.
 
-1. Selecione um elemento e clique **[!UICONTROL Insert link]** na barra de ferramentas contextual.
+1. Selecione um elemento e clique **[!UICONTROL Insert link]**na barra de ferramentas contextual.
 
    ![](assets/des_insert_link.png)
 
@@ -79,7 +79,7 @@ Ao editar um email com o [Email Designer](../../designing/using/designing-conten
 
 O Adobe Campaign permite que você rastreie o comportamento de seus destinatários quando eles clicam em um URL incluído em um email. Para obter mais informações sobre o rastreamento, consulte [esta seção](../../sending/using/tracking-messages.md#about-tracking).
 
-O **[!UICONTROL Links]** ícone na barra de ações exibe automaticamente a lista de todos os URLs do seu conteúdo que serão acompanhados.
+O **[!UICONTROL Links]**ícone na barra de ações exibe automaticamente a lista de todos os URLs do seu conteúdo que serão acompanhados.
 
 ![](assets/des_links.png)
 
@@ -106,11 +106,11 @@ Você também pode desativar ou ativar o rastreamento para cada URL.
 >
 >Por padrão no Adobe Campaign, todos os URLs de conteúdo são rastreados, exceto o URL **da página** Espelho e o link **Cancelar assinatura** .
 
-Você pode agrupar seus URLs editando o **[!UICONTROL Category]** campo, dependendo dos URLs usados na mensagem. Essas categorias podem ser exibidas nos relatórios, como por exemplo em [URLs e fluxos](../../reporting/using/urls-and-click-streams.md)de cliques.
+Você pode agrupar seus URLs editando o **[!UICONTROL Category]**campo, dependendo dos URLs usados na mensagem. Essas categorias podem ser exibidas nos relatórios, como por exemplo em[URLs e fluxos](../../reporting/using/urls-and-click-streams.md)de cliques.
 
 ![](assets/des_link_tracking_category.png)
 
-Ao criar um relatório, na **[!UICONTROL Components]** guia, selecione **[!UICONTROL Dimension]** e role para baixo na lista para acessar os componentes de rastreamento. Por exemplo, arraste e solte **[!UICONTROL Tracking URL Category]** no espaço de trabalho para exibir resultados de acordo com a categoria de rastreamento de cada URL clicado.
+Ao criar um relatório, na **[!UICONTROL Components]**guia, selecione**[!UICONTROL Dimension]** e role para baixo na lista para acessar os componentes de rastreamento. Por exemplo, arraste e solte **[!UICONTROL Tracking URL Category]**no espaço de trabalho para exibir resultados de acordo com a categoria de rastreamento de cada URL clicado.
 
 ![](assets/des_link_tracking_report.png)
 
