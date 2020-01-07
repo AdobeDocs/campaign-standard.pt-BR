@@ -13,7 +13,7 @@ delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 ---
 
@@ -42,6 +42,7 @@ Para enviar mensagens SMS para um telefone celular, é necessário:
 * [Gerenciamento de modelos](../../start/using/marketing-activity-templates.md)
 * [Configuração SMS](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
 * [Relatório SMS](../../reporting/using/sms-report.md)
+* [Guia móvel do Campaign Standard](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
 
 ## Modelo de entrega SMS {#sms-delivery-template}
 
