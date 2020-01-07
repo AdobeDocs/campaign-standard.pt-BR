@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentação do produto Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
+source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 * **[Designer de email](designing/using/designing-content-in-adobe-campaign.md)**<br/>Consulte a documentação reorganizada do designer de e-mail.
 
-* **[Landing pages](channels/using/getting-started-with-landing-pages.md)**<br/>Saiba mais sobre como configurar uma landing page.
+* **[Guia](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>do Campaign Standard Mobile Saiba mais sobre as diretrizes gerais para entregas móveis.
 
 [Clique aqui para obter mais atualizações](rn/using/documentation-updates.md)
 
