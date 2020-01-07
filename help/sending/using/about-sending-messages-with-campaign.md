@@ -1,18 +1,18 @@
 ---
 title: Sobre o envio de mensagens com o Campaign
 description: Descubra as diferentes etapas para testar e enviar uma mensagem.
-page-status-flag: nunca ativado
-uuid: 5866444-6e7c-4049-b2d2-8b26eabf5a82
-contentOwner: molviato
+page-status-flag: never-activated
+uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: envio
-content-type: referência
-topic-tags: about-send-messages-with-campaign
+audience: sending
+content-type: reference
+topic-tags: about-sending-messages-with-campaign
 discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
 
 ---
 
@@ -40,5 +40,4 @@ Depois de definir a meta e criar o conteúdo de uma mensagem, é necessário tes
 * [Gerenciamento de perfis de teste e envio de provas](../../sending/using/managing-test-profiles-and-sending-proofs.md)
 * [Renderização de email](../../sending/using/email-rendering.md)
 * [Receber alertas quando ocorrerem falhas](../../sending/using/receiving-alerts-when-failures-happen.md)
-* [Otimização da entrega](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html)
-
+* [Otimização da entrega](../../sending/using/about-deliverability.md)
