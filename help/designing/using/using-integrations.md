@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
 
 ---
 
@@ -66,13 +66,13 @@ O Adobe Campaign oferece várias opções de criação de email. O quadro abaixo
   <tr> 
    <td> <strong>Gravar HTML</strong><br /> </td> 
    <td> Suportado<br /> </td> 
-   <td>  Não suportado<br /> </td> 
+   <td> Não suportado<br /> </td> 
    <td> Suportado<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Atualizar HTML</strong><br /> </td> 
    <td> Somente dentro de um componente HTML<br /> </td> 
-   <td>  Não suportado<br /> </td> 
+   <td> Não suportado<br /> </td> 
    <td> Suportado<br /> </td> 
   </tr> 
   <tr> 
@@ -84,8 +84,8 @@ O Adobe Campaign oferece várias opções de criação de email. O quadro abaixo
   <tr> 
    <td> <strong>Personalização avançada</strong><br /> </td> 
    <td> Suportado<br /> </td> 
-   <td>  Não suportado<br /> </td> 
-   <td>  Não suportado<br /> </td> 
+   <td> Não suportado<br /> </td> 
+   <td> Não suportado<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Prova/visualização</strong><br /> </td> 
@@ -96,8 +96,8 @@ O Adobe Campaign oferece várias opções de criação de email. O quadro abaixo
   <tr> 
    <td> <strong>Lista de produtos</strong><br /> </td> 
    <td> Suportado em mensagens transacionais de email<br /> </td> 
-   <td>  Não suportado<br /> </td> 
-   <td>  Não suportado<br /> </td> 
+   <td> Não suportado<br /> </td> 
+   <td> Não suportado<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Benefícios</strong><br /> </td> 
