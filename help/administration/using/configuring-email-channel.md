@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: a3f760385da20a3aa39f96d955cfc2d77b708de2
 
 ---
 
@@ -240,7 +240,13 @@ A **[!UICONTROL Tracking]**seção contém os seguintes parâmetros:
 
 A **[!UICONTROL Advanced parameters]**seção contém vários parâmetros.
 
-Os dois primeiros campos permitem que você insira as informações necessárias para elaborar cabeçalhos de mensagem de email (endereço de resposta e texto do endereço de resposta). Essas informações podem ser personalizadas. Para fazer isso, clique no botão à direita do campo que será alterado e adicione os campos de personalização. Inserir e usar os campos de personalização é detalhado na seção [Inserindo um campo](../../designing/using/personalization.md#inserting-a-personalization-field) de personalização.
+Os primeiros campos permitem que você insira as informações necessárias para elaborar cabeçalhos de mensagens de email. É possível gerenciar aqui o endereço de resposta e o texto, bem como o endereço do remetente (que preenche o campo &quot;De:&quot;). Essas informações podem ser personalizadas.
+
+Clique no botão à direita do campo que será alterado e, em seguida, adicione o campo de personalização, o bloco de conteúdo ou o texto dinâmico.
+
+![](assets/advancedparameters.png)
+
+A inserção e o uso do conteúdo de personalização são detalhados na documentação [Personalização do conteúdo](../../designing/using/personalization.md) de email.
 
 #### Contexto de destino {#target-context}
 
@@ -326,4 +332,3 @@ A Cco de email é ativada no modelo [de](../../start/using/marketing-activity-te
 >[!NOTE]
 >
 >If the emails sent to the BCC address are opened and clicked through, this will be taken into account in the **[!UICONTROL Total opens]**and**[!UICONTROL Clicks]** from the send analysis, which could cause some miscalculations.
-
