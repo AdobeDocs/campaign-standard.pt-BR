@@ -12,12 +12,16 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3033e2f15065685f3c0e7c1759e184738cb67d9c
+source-git-commit: 6291862737c71b63d8107b03245d5207b6151e96
 
 ---
 
 
 # Cálculo do indicador{#indicator-calculation}
+
+>[!NOTE]
+>
+>Para processar e gerenciar melhor volumes altos e análises em tempo real, os relatórios dinâmicos usam agregações aproximadas para estimativas de contagem distintas. Agregações aproximadas oferecem uso limitado de memória e são geralmente mais rápidas que computações exatas.
 
 As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatórios e suas fórmulas de cálculo, dependendo do tipo de entrega.
 
@@ -152,13 +156,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> @rateQuarantine<br /> </td> 
    <td> @quarentena/@enviado<br /> </td> 
    <td> O denominador para cálculo de taxa é baseado na contagem de Enviados (Entregues + Rejeições).<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Recusado<br /> </td> 
-   <td> @refused<br /> </td> 
-   <td> count(@failureReason=20)<br /> </td> 
-   <td> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> Rejeitada<br /> </td> 
    <td> @rejected<br /> </td> 
