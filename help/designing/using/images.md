@@ -1,23 +1,23 @@
 ---
-title: Gerenciamento de imagens em emails
+title: Trabalhar com imagens
 description: Descubra como gerenciar imagens em emails com o Designer de email.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: concepção
-content-type: referência
-topic-tags: edição-email-conteúdo
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 7e300de836a74372e411b5b1d584851fac77aafe
 
 ---
 
 
-# Imagens {#images}
+# Trabalhar com imagens {#images}
 
 ## Inserção de imagens{#inserting-images}
 
@@ -33,16 +33,16 @@ Se ativado, você pode modificar imagens com o Adobe Creative SDK. Consulte [Mod
 
 >[!CAUTION]
 >
->Se você optar por adicionar uma imagem diretamente editando a versão HTML do email, não deverá chamar arquivos **externos em uma tag** &lt;script&gt; da página HTML. Esses arquivos não serão importados para o servidor do Adobe Campaign.
+>Se você optar por adicionar uma imagem diretamente editando a versão HTML do email, não deverá chamar arquivos **externos em uma tag** &lt;script> da página HTML. Esses arquivos não serão importados para o servidor do Adobe Campaign.
 
 ### Inserir imagens em um email {#inserting-images-in-an-email}
 
 1. Adicione um componente de estrutura. Para obter mais informações, consulte [Edição da estrutura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de email.
-1. Dentro desse componente de estrutura, adicione um componente de **[!UICONTROL Image]** conteúdo.
+1. Dentro desse componente de estrutura, adicione um componente de **[!UICONTROL Image]**conteúdo.
 
    ![](assets/des_insert_images_1.png)
 
-1. Click **[!UICONTROL Browse]**. Arraste e solte uma imagem ou clique para selecionar um arquivo de seu computador.
+1. Clique em **[!UICONTROL Browse]**. Arraste e solte uma imagem ou clique para selecionar um arquivo de seu computador.
 
    ![](assets/des_insert_images_2.png)
 
@@ -61,7 +61,7 @@ Quando um bloco que contém uma imagem é selecionado, as seguintes propriedades
 * Ao editar um email, o **Estilo** permite especificar o tamanho da imagem, o plano de fundo e a borda.
 * Ao editar uma página inicial, as **Dimensões** permitem que você especifique o tamanho da imagem em pixels.
 
-O editor permite trabalhar com **todos os tipos** de imagem cujos formatos são compatíveis com os navegadores. Para serem compatíveis com o editor, as animações **do tipo** "Flash" devem ser inseridas em uma página HTML da seguinte forma:
+O editor permite trabalhar com **todos os tipos** de imagem cujos formatos são compatíveis com os navegadores. Para serem compatíveis com o editor, as animações **do tipo** &quot;Flash&quot; devem ser inseridas em uma página HTML da seguinte forma:
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">
@@ -89,7 +89,7 @@ Para modificar uma imagem com o Adobe Creative SDK:
 
    ![](assets/email_designer_ccsdktoolbar.png)
 
-1. Clique **[!UICONTROL Save]** quando as modificações forem feitas. A imagem atualizada é salva no servidor do Adobe Campaign e está pronta para ser usada.
+1. Clique **[!UICONTROL Save]**quando as modificações forem feitas. A imagem atualizada é salva no servidor do Adobe Campaign e está pronta para ser usada.
 
 >[!NOTE]
 As ferramentas oferecidas no editor de imagens não podem ser personalizadas.
