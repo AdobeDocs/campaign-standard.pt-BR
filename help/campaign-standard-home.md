@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentação do produto Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ---
 
@@ -65,7 +65,7 @@ source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 * [Notas de versão](rn/using/release-notes.md)
 
-* [Painel de controle](https://helpx.adobe.com/campaign/kb/control-panel.html)
+* [Painel de controle](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 * [Vídeos explicativos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 
