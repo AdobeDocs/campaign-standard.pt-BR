@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ---
 
@@ -39,7 +39,7 @@ Você pode configurar os seguintes tipos de contas
 >
 >Outros tipos de contas externas são usados pela Adobe durante o processo de provisionamento do produto. Na versão 17.9 do Campaign Standard, as contas externas FTP ainda podem ser definidas, mas não podem mais ser usadas em novas atividades de fluxo de trabalho. Se você já tiver uma conexão configurada, ela ainda estará ativada.
 
-As contas externas podem ser configuradas pelos administradores sob o **[!UICONTROL Administration > Application settings > External accounts]** menu.
+As contas externas podem ser configuradas pelos administradores sob o **[!UICONTROL Administration > Application settings > External accounts]**menu.
 
 ## Criação de uma conta externa {#creating-an-external-account}
 
@@ -52,7 +52,7 @@ As contas externas são usadas por processos técnicos, como
                 workflow ou uma troca de dados com qualquer outro aplicativo (Adobe Target, Experience
                 Manager etc.), você precisa selecionar uma conta externa.
 
-1. Clique no botão **.[!UICONTROL Create]**
+1. Clique no botão **[!UICONTROL Create]**.
 1. Insira um rótulo. O rótulo e a ID serão usados ao selecionar contas externas em fluxos de trabalho.
 1. Selecione o tipo de conta que deseja criar.
 1. Configure o acesso à conta especificando credenciais, endereço do servidor, número da porta e ou chaves, quando relevante.
@@ -94,12 +94,12 @@ Para evitar esses problemas, a Adobe recomenda seguir as práticas recomendadas 
 
 Além disso, observe que os IPs públicos dos quais você está tentando iniciar a conexão SFTP devem ser listados na instância da Campanha. A lista de permissões de endereços IP pode ser solicitada por meio de um ticket [de](https://support.neolane.net)suporte, além de fornecer a chave pública para uso na autenticação.
 
-Os servidores SFTP podem ser gerenciados a partir do Painel de controle. For more information, refer to the [Control Panel documentation](https://helpx.adobe.com/campaign/kb/control-panel-sftp.html).
+Os servidores SFTP podem ser gerenciados a partir do Painel de controle. For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
 
 >[!NOTE]
 >
 >O Painel de controle está disponível somente para usuários administradores de clientes hospedados no AWS.
-Verifique se sua instância está hospedada no AWS [aqui](https://helpx.adobe.com/campaign/kb/control-panel-faq.html#IMSOrgID).
+Verifique se sua instância está hospedada no AWS [aqui](https://docs.adobe.com/content/help/en/control-panel/using/faq.html#ims-org-id).
 
 ## Conta externa Amazon S3 {#amazon-s3-external-account}
 
@@ -109,25 +109,25 @@ O campo do servidor Amazon S3 deve ser preenchido da seguinte forma:
 <S3 bucket name>.s3.amazonaws.com/<s3 object path>
 ```
 
-Para armazenar o arquivo no modo criptografado S3, marque a **[!UICONTROL Keep files in S3 encrypted]** caixa.
+Para armazenar o arquivo no modo criptografado S3, marque a **[!UICONTROL Keep files in S3 encrypted]**caixa.
 
 ![](assets/external_accounts_2.png)
 
 As informações necessárias geralmente são fornecidas pelo 
                         provedor do servidor ao qual você está se conectando.
 
-Especifique o **[!UICONTROL AWS Region]** associado ao terminal. Você pode verificar as regiões compatíveis e as versões de assinatura na documentação [oficial do](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)Amazon S3.
+Especifique o **[!UICONTROL AWS Region]**associado ao terminal. Você pode verificar as regiões compatíveis e as versões de assinatura na documentação[oficial do](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)Amazon S3.
 
 >[!NOTE]
 >
->Sua região AWS **[!UICONTROL Receiver server]** deve ser inserida sem a região AWS, e posteriormente ela será adicionada automaticamente ao URL.
+>Sua região AWS **[!UICONTROL Receiver server]**deve ser inserida sem a região AWS, e posteriormente ela será adicionada automaticamente ao URL.
 
 ### Recomendações de conta do Amazon S3 {#amazon-s3-account-recommendations}
 
 Para ajudá-lo a configurar sua conta Amazon S3, recomendamos que siga estas recomendações:
 
 * Crie uma política de definição estrita para restringir o acesso a compartimentos S3. A política de bucket pode ser configurada ao criar um bucket. For more information, refer to the [Amazon S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
-* Ao criar uma conta externa, ative a criptografia para armazenar dados confidenciais no bucket S3 marcando a **[!UICONTROL Keep files in S3 encrypted]** caixa.
+* Ao criar uma conta externa, ative a criptografia para armazenar dados confidenciais no bucket S3 marcando a **[!UICONTROL Keep files in S3 encrypted]**caixa.
 * Conceda permissões de bucket para especificar quem pode acessar o objeto em um bucket. Para obter mais informações sobre permissão de bucket, consulte a documentação [do](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)Amazon S3.
 
 ## Conta externa do Adobe Experience Manager.{#adobe-experience-manager-external-account}
@@ -154,11 +154,11 @@ Para adicionar o Google reCAPTCHA V3 à sua página de aterrissagem, primeiro é
 
 Para uma conta externa do Google reCAPTCHA V3, forneça os seguintes detalhes:
 
-* A **[!UICONTROL Label]** e **[!UICONTROL ID]** da sua conta externa
+* A **[!UICONTROL Label]**e**[!UICONTROL ID]** da sua conta externa
 * **[!UICONTROL Type]**: Google reCAPTCHA
-* Seu **[!UICONTROL Site key]** e **[!UICONTROL Site secret]**
-* A **[!UICONTROL Threshold]** entre 0 e 1
+* Seu **[!UICONTROL Site key]**e**[!UICONTROL Site secret]**
+* A **[!UICONTROL Threshold]**entre 0 e 1
 
-   O **[!UICONTROL Threshold]** valor 0.0 significa que provavelmente é um bot e 1.0 provavelmente uma boa interação. Por padrão, você pode usar um limite de 0,5.
+   O **[!UICONTROL Threshold]**valor 0.0 significa que provavelmente é um bot e 1.0 provavelmente uma boa interação. Por padrão, você pode usar um limite de 0,5.
 
 ![](assets/external_accounts_3.png)
