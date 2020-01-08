@@ -12,7 +12,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
+source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ---
 
@@ -31,7 +31,7 @@ Para começar a usar o Designer de email, assista a esse [conjunto de vídeos](h
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-* Para descobrir como criar conteúdo de email, consulte [Introdução ao designer](../../designing/using/quick-start.md)de email.
+* Para descobrir como criar conteúdo de email, consulte [Introdução ao Designer](../../designing/using/quick-start.md)de email.
 * Para obter uma visão geral do Designer de email, consulte [Uso do Designer](../../designing/using/designing-content-in-adobe-campaign.md)de email.
 * Para obter mais informações sobre como criar conteúdo:
    * Do zero, consulte [Criar e-mails do zero](../../designing/using/designing-from-scratch.md).
