@@ -13,7 +13,7 @@ context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8f0460eeadb388fef2a3304623086afd36e68962
+source-git-commit: f959441647d1fea41ecce2fc41e3cad3cb536bac
 
 ---
 
@@ -29,7 +29,7 @@ O objetivo aqui é selecionar um público-alvo dos destinatários do banco de da
 Para obter mais detalhes sobre fluxos de trabalho e os diferentes canais disponíveis no Adobe Campaign, consulte os seguintes documentos:
 
 * [Descobrir fluxos de trabalho](../../automating/using/discovering-workflows.md)
-* [Canais de comunicação](../../channels/using/discovering-communication-channels.md)
+* [Descobrir canais de comunicação](../../channels/using/discovering-communication-channels.md)
 
 ## Criação de um workflow {#creating-workflow}
 
