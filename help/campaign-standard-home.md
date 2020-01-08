@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentação do produto Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
+source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 * **[Práticas recomendadas de entrega](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>Saiba mais sobre as práticas recomendadas relacionadas ao design e envio da entrega.
 
-* **[Designer de email](designing/using/designing-content-in-adobe-campaign.md)**<br/>Consulte a documentação reorganizada do designer de e-mail.
+* **[Designer](designing/using/designing-content-in-adobe-campaign.md)**<br/>de email Consulte a documentação reorganizada do Designer de email.
 
 * **[Guia](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>do Campaign Standard Mobile Saiba mais sobre as diretrizes gerais para entregas móveis.
 
@@ -46,7 +46,7 @@ source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
     <div>
     <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>Criar um e-mail</strong></a>
     </div>
-    <em>Saiba como usar o designer de email para criar e-mailsresponsivos e personalizados</em><br>
+    <em>Saiba como usar o Email Designer para criar emails</em>responsivos e personalizados <br>
   </td>
   <td valign="top">
        <img alt="Desenvolvedores" src="start/using/assets/dev.png" />
