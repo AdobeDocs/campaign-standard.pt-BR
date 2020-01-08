@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a13d0f642538b20d62b812b866e5a0f896a1ef9
+source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ---
 
@@ -109,7 +109,7 @@ Uma nova seção sobre como usar armadilhas foi adicionada. [Leia mais](../../se
 
 Uma observação sobre a opção **Launch_URL_Campaign** foi adicionada na página sobre como configurar um aplicativo móvel usando os SDKs da plataforma Adobe Experience. [Leia mais](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
-O guia do designer de email foi reorganizado. [Leia mais](../../designing/using/designing-content-in-adobe-campaign.md)
+O guia do Designer de email foi reorganizado. [Leia mais](../../designing/using/designing-content-in-adobe-campaign.md)
 
 ## Atualizações da documentação - agosto de 2019 {#doc-updates-august-2019}
 
