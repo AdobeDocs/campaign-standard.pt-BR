@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 45334e2d64c31ee22f11030e19f313b3c1b49936
+source-git-commit: d54f036c394db7abdba805ea2c21436c0ef5212c
 
 ---
 
@@ -25,7 +25,7 @@ Depois de criar um evento, é necessário integrar o acionamento desse evento ao
 
 >[!NOTE]
 >
->A criação e publicação de um evento são apresentadas [nesta seção](../../administration/using/configuring-transactional-messaging.md).
+>A criação e publicação de um evento são apresentadas na documentação <a href="https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html">da Campanha</a>.
 
 Por exemplo, você deseja que um evento de &quot;abandono do carrinho&quot; seja acionado sempre que um de seus clientes sair do site antes de comprar os produtos no carrinho. Para isso, o desenvolvedor da Web deve usar a REST Transactional Messages API (API de mensagens transacionais REST).
 
