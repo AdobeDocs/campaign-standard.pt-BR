@@ -38,7 +38,7 @@ A criação de uma atividade de marketing é detalhada na seção [Criação de 
 
    >[!NOTE]
    >
-   >Cada atividade de marketing oferece vários tipos por padrão. Isso permite que você pré-configure determinados parâmetros de acordo com suas necessidades. For more information, refer to the [Managing templates](../../start/using/about-templates.md) section.
+   >Cada atividade de marketing oferece vários tipos por padrão. Isso permite que você pré-configure determinados parâmetros de acordo com suas necessidades. For more information, refer to the [Managing templates](../../start/using/marketing-activity-templates.md) section.
 
 1. Insira as propriedades gerais do fluxo de trabalho.
 
