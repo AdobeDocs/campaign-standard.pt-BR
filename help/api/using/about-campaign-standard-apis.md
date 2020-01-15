@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ca1ffbd9910765aff87ec6025897bfb4411fd025
+source-git-commit: 27ca2116c49f9c23a56c178a3e3f7baf2f755c45
 
 ---
 
@@ -23,10 +23,48 @@ As APIs do Campaign Standard têm o objetivo de permitir que você **crie integr
 
 Com as APIs do Adobe Campaign Standard, você obtém acesso às seguintes funcionalidades:
 
-* Gerenciar perfis
-* Gerenciar assinaturas em serviços
-* Enviar mensagens transacionais
-* Recuperar dados do modelo de dados personalizado
+<table>
+<tr>
+    <td valign="top">
+        <a href="../../api/using/retrieving-profiles.md"><img width="60px" alt="condições" src="assets/icon_profile.svg"/></a>
+    </td>
+    <td valign="top">
+        <a href="../../api/using/creating-a-service.md"><img width="60px" alt="condições" src="assets/icon_services.svg"/></a>
+    </td>
+    <td valign="top">
+        <a href="../../api/using/interacting-with-custom-resources.md"><img width="60px" alt="condições" src="assets/icon_customresources.svg"/></a>
+    </td>
+    <td valign="top">
+        <a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="condições" src="assets/icon_marketinghistory.svg"/></a>
+    </td>
+</tr>
+<tr>
+<td>Perfis</td>
+<td>Serviços e assinaturas</td>
+<td>Recursos personalizados</td>
+<td>História de marketing</td>
+</tr>
+<tr>
+    <td valign="top">
+        <a href="../../api/using/creating-a-privacy-request.md"><img width="60px" alt="condições" src="assets/icon_privacy.svg"/></a>
+    </td>
+    <td valign="top">
+        <a href="../../api/using/managing-transactional-messages.md"><img width="60px" alt="condições" src="assets/icon_transactionalmessage.svg"/></a>
+    </td>
+    <td valign="top">
+        <a href="../../api/using/controlling-a-workflow.md"><img width="60px" alt="condições" src="assets/icon_workflows.svg"/></a>
+    </td>
+    <td valign="top">
+        <a href="../../api/using/retrieving-an-organizational-unit.md"><img width="60px" alt="condições" src="assets/icon_units.svg"/></a>
+    </td>
+</tr>
+<tr>
+<td>Gerenciamento de privacidade</td>
+<td>Mensagens transacionais</td>
+<td>Fluxos de trabalho</td>
+<td>Unidades organizacionais</td>
+</td>
+</table>
 
 >[!NOTE]
 >
