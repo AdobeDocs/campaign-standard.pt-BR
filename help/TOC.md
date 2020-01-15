@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: d54f036c394db7abdba805ea2c21436c0ef5212c
+source-git-commit: 45045eba15b4b5f6cbf0541b04e443c20c30dc0b
 
 ---
 
@@ -12,12 +12,12 @@ source-git-commit: d54f036c394db7abdba805ea2c21436c0ef5212c
 # Ajuda do Adobe Campaign Standard {#using}
 
 + [Documentação do produto](campaign-standard-home.md)
++ [Atualizações mais recentes](rn/using/documentation-updates.md)
 + Notas de versão {#release-notes}
-   + [Notas de versão](rn/using/release-notes.md)
-   + [Notas de versão 2018](rn/using/release-notes-2018.md)
-   + [Notas de versão 2017](rn/using/release-notes-2017.md)
-   + [Notas de versão 2015-2016](rn/using/release-notes-2015-2016.md)
-   + [Atualizações da documentação](rn/using/documentation-updates.md)
+   + [Versão mais recente](rn/using/release-notes.md)
+   + Versões anteriores {#previous-releases}
+      + [Notas de versão 2018](rn/using/release-notes-2018.md)
+      + [Notas de versão 2017](rn/using/release-notes-2017.md)
 + Introdução {#getting-started}
    + Sobre o Adobe Campaign {#about-adobe-campaign}
       + [Orquestração de campanha](start/using/campaign-orchestration.md)
