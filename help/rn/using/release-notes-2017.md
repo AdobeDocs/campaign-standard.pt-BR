@@ -12,7 +12,7 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: d1ec5dddcf4c1aa3fe6338d35b381986ba32a28d
 
 ---
 
@@ -27,7 +27,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 
 ## Versão 17.10 - outubro de 2017 {#release-17-10---october-2017}
 
-### Novos recursos {#new-capabilities}
+**Novos recursos**
 
 <table> 
  <thead> 
@@ -48,9 +48,9 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  </tbody> 
 </table>
 
-### Correções {#patches}
+**Correções**
 
-#### Plataforma {#platform}
+_Plataforma_
 
 * Correção de um problema que impedia que arquivos compactados grandes fossem descompactados corretamente.
 * A segurança no gerenciamento de marcas foi aprimorada. A modificação do nome e endereço do remetente de uma marca agora está reservada para administradores técnicos da Adobe.
@@ -58,14 +58,14 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 * Correção de um problema de interface ao exibir e filtrar atividades de marketing.
 * Correção de um problema que impedia que campos de datas de assinatura fossem atualizados com uma chamada POST Rest API.
 
-#### Emails, mensagens SMS e mala direta {#emails--sms-messages-and-direct-mail}
+_Emails, mensagens SMS e mala direta_
 
 * Correção de um problema que impedia o direcionamento de um público-alvo do tipo de lista em uma mensagem, fazendo com que a preparação falhasse.
 * Idiomas ausentes adicionados aos recursos de entrega de email multilíngues.
 * A miniatura do conteúdo, exibida no painel de entrega, agora é atualizada automaticamente quando o usuário modifica o conteúdo e salva.
 * Correção de um problema relacionado ao fuso horário que impedia a abertura de uma entrega.
 
-#### Notificações por push {#push-notifications}
+_Notificações por push_
 
 * Ao configurar o canal de notificação por push, a plataforma do provedor de push para iOS deve ser **apns** e para Android **gcm**.
 * Correção de um erro que impedia que o aplicativo móvel iOS fosse adicionado na interface do Adobe Campaign.
@@ -74,7 +74,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 * Agora é possível criar ou atualizar um perfil do banco de dados do Adobe Campaign reconciliando os dados dos usuários do aplicativo móvel.
 * O Adobe Campaign agora prioriza o processamento das notificações por push transacionais em vez das notificações por push padrão.
 
-#### Relatórios {#reports}
+_Relatórios_
 
 * Correção de um problema que impedia a exibição das porcentagens de cliques ativos no conteúdo do email.
 * Correção de um problema com a métrica da lista negra que era contada como uma rejeição em vez de uma rejeição.
@@ -82,31 +82,31 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 * Correção de um problema que contava perfis no segmento de idade errado.
 * As fórmulas de cálculo de rejeição flexível e rígida foram alteradas.
 
-#### Workflows {#workflows}
+_Fluxos de trabalho_
 
-* Correção de um problema na **[!UICONTROL Load file]** atividade que resultava em erros após adicionar e remover manualmente colunas na atividade.
-* O fluxo de trabalho **[!UICONTROL deliverabilityUpdate]** técnico está agendado para ser executado às 2h00, horário do servidor.
+* Correção de um problema na **[!UICONTROL Load file]**atividade que resultava em erros após adicionar e remover manualmente colunas na atividade.
+* O fluxo de trabalho **[!UICONTROL deliverabilityUpdate]**técnico está agendado para ser executado às 2h00, horário do servidor.
 * Correção de um problema de segurança que permitia executar uma exportação de lista sem a função de exportação.
-* Correção de um problema com a **[!UICONTROL Reconciliation]** atividade.
-* Correção de um problema com o uso de caracteres curinga na **[!UICONTROL File Transfer]** atividade.
+* Correção de um problema com a **[!UICONTROL Reconciliation]**atividade.
+* Correção de um problema com o uso de caracteres curinga na **[!UICONTROL File Transfer]**atividade.
 
-#### Perfis e públicos-alvo {#profiles-and-audiences}
+_Perfis e públicos-alvo_
 
 * Correção de um problema que impedia que uma condição de uma consulta fosse considerada corretamente em alguns casos específicos, resultando em resultados errados.
 * Correção de um problema que impedia que perfis fossem acessados se fossem direcionados em uma mensagem preparada, mas nunca enviada e expirada.
 
-#### Integrações {#integrations}
+_Integrações_
 
 * Correção de um problema que impedia que algumas Fontes de Dados criadas para Acionadores fossem exibidas e selecionadas corretamente.
 
-#### Recursos personalizados {#custom-resources}
+_Recursos personalizados_
 
 * Correção de um problema que ocorria em telas de lista em que linhas de recursos personalizados podiam ser exibidas sem dados.
-* Correção de um problema que impedia que campos de tipo booleano com valor "Falso" fossem exibidos em recursos personalizados.
+* Correção de um problema que impedia que campos de tipo booleano com valor &quot;Falso&quot; fossem exibidos em recursos personalizados.
 
 ## Versão 17.9 - setembro de 2017 {#release-17-9---september-2017}
 
-### Novos recursos {#new-capabilities-1}
+**Novos recursos**
 
 <table> 
  <thead> 
@@ -131,21 +131,21 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  </tbody> 
 </table>
 
-### Correções {#patches-1}
+**Correções**
 
-#### Plataforma {#platform-1}
+_Plataforma_
 
 * Alguns clientes precisam aproveitar uma ID proveniente do Adobe Campaign Standard, pois não gerenciam uma chave exclusiva para identificar seus próprios registros. Essa ID (ID **** ACS) pode ser exportada e usada como uma chave de reconciliação ao atualizar os dados. Para obter mais informações, consulte a [documentação detalhada](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 * O protocolo FTP está sendo substituído. Agora você deve usar o SFTP. Para não bloquear implementações existentes, as configurações existentes no FTP ainda funcionarão como antes, mas a opção não será exibida para novas atividades.
 
-#### Emails, mensagens SMS e mala direta {#emails--sms-messages-and-direct-mail-1}
+_Emails, mensagens SMS e mala direta_
 
 * Agora é possível criar novos critérios de alerta para usá-los em notificações de alerta de entrega. Para obter mais informações, consulte a [documentação detalhada](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion).
 * As notificações de aviso de entrega têm um novo design e a experiência do usuário do painel de alertas de entrega foi aprimorada.
 * Agora, quando uma conta externa de roteamento é desativada, um aviso é exibido nas entregas impactadas (email, SMS e push) e o botão **Visualizar** fica oculto nessas entregas.
 * Correção de um problema que causava um erro na visualização de um teste A/B no conteúdo de email quando o texto dinâmico era ativado na linha de assunto.
 
-#### Mensagens transacionais {#transactional-messages}
+_Mensagens transacionais_
 
 * Agora é possível definir quando você deseja enviar uma mensagem de acompanhamento, por exemplo, 3 dias após o envio de uma mensagem transacional. Para obter mais informações, consulte a [documentação detalhada](../../channels/using/follow-up-messages.md#sending-a-follow-up-message).
 * Agora é possível definir a data a partir da qual as mensagens transacionais vinculadas a um evento devem ser enviadas.
@@ -154,7 +154,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 * Correção de um problema que poderia impedir o redirecionamento de links rastreados de funcionar.
 * Correção de um problema que impedia a desativação do rastreamento de determinados links em um email ou mensagem SMS.
 
-#### Relatórios {#reports-1}
+_Relatórios_
 
 * O relatório de cliques **em** funcionamento foi aprimorado. Além disso, agora é possível exibir cliques ativos de acordo com cada conteúdo condicional que foi definido em uma entrega e exibir cliques ativos para cada execução de entregas recorrentes ou mensagens transacionais. Para obter mais informações, consulte a [documentação detalhada](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion).
 * Correção de um problema que impedia a métrica de quarentena de recuperar dados corretos.
@@ -162,23 +162,23 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 * As métricas [de relatório](../../reporting/using/indicator-calculation.md) dinâmico e os KPIs [das](../../sending/using/confirming-the-send.md) campanhas (exibidos no painel de mensagens enviadas) foram alinhados para maior coerência.
 * Correção de um problema que resultava em falha de pipeline no debian 7.
 
-#### Workflows {#workflows-1}
+_Fluxos de trabalho_
 
 * Correção de um problema que impedia o funcionamento da retenção de arquivos importados.
 
-#### Integrações {#integrations-1}
+_Integrações_
 
 * As eVars e os eventos agora são compatíveis com a integração do Analytics e Campaign.
 * Ao enviar um email com o conteúdo do carrinho abandonado, o parâmetro de carga para elementos removidos do carrinho agora é opcional.
 
-#### Perfis e públicos-alvo {#profiles-and-audiences-1}
+_Perfis e públicos-alvo_
 
 * O Adobe Campaign agora fornece um relatório que exibe o número de perfis ativos. Este relatório é apenas informativo, não tem impacto direto na cobrança. Para obter mais informações, consulte a [documentação detalhada](../../audiences/using/active-profiles.md).
 * Correção de um problema que impedia a inscrição de perfis em um serviço ao usar a API Perfis e serviços.
 
 ## Versão 17.7 - julho de 2017 {#release-17-7---july-2017}
 
-### Novos recursos {#new-capabilities-2}
+**Novos recursos**
 
 <table> 
  <thead> 
@@ -215,37 +215,37 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  </tbody> 
 </table>
 
-### Correções {#patches-2}
+**Correções**
 
-#### Geral {#general}
+_Geral_
 
-* Correção de um problema que permitia que qualquer usuário exportasse listas. Agora, somente os usuários com a **[!UICONTROL Export]** função podem fazê-lo.
+* Correção de um problema que permitia que qualquer usuário exportasse listas. Agora, somente os usuários com a **[!UICONTROL Export]**função podem fazê-lo.
 
-#### Emails, mensagens SMS e mala direta {#emails--sms-messages-and-direct-mail-2}
+_Emails, mensagens SMS e mala direta_
 
 * Correção de um problema com o fluxo de trabalho **updateDeliveryExecInfo** que definia o indicador **Para entregar** como 0 para entregas SMS.
 * Nos parâmetros **** avançados das propriedades do modelo de entrega, a lista suspensa **Roteamento** agora exibe somente contas externas correspondentes ao tipo de mensagem do modelo. Por exemplo, um modelo de entrega de email exibe somente contas externas de email.
-* Correção de um problema com o formato de email **[!UICONTROL Text]** preferencial definido para perfis de teste.
+* Correção de um problema com o formato de email **[!UICONTROL Text]**preferencial definido para perfis de teste.
 * Correção de um problema que resultava em erro de Javascript ao selecionar o fuso horário padrão na tela de definição de agendamento de uma entrega.
 * Correção de um problema que impedia a exibição de armadilhas nos registros de envio.
 * Na tela de seleção de modelo do assistente de criação de entrega, o acompanhamento e os modelos de teste A/B agora estão ocultos por padrão. For more information, refer to the [detailed documention](../../channels/using/creating-an-email.md).
-* Correção de um problema que permitia que qualquer usuário enviasse entregas. Agora, somente os usuários com a **[!UICONTROL Start deliveries]** função podem fazê-lo. For more information, refer to the [detailed documention](../../sending/using/confirming-the-send.md).
+* Correção de um problema que permitia que qualquer usuário enviasse entregas. Agora, somente os usuários com a **[!UICONTROL Start deliveries]**função podem fazê-lo. For more information, refer to the[detailed documention](../../sending/using/confirming-the-send.md).
 
-#### Notificações por push {#push-notifications-1}
+_Notificações por push_
 
 * Correção de um problema com o URL de Ponto de Extremidade **de Rastreamento de** Campanha que impedia relatórios.
 * Correção de um problema que impedia que o título da notificação por push fosse exibido em dispositivos Android.
 * Correção de um problema que impedia que a notificação por push fosse exibida em dispositivos iOS quando a notificação por push continha apenas um título (e nada no corpo da mensagem).
 * Correção de um problema que fazia com que URLs de anexos de mídia em uma entrega fossem rastreados, impedindo que vídeos e imagens fossem incorporados na entrega. O rastreamento de URLs do tipo mediaAttachmentURL agora é desativado por padrão para notificações por push.
 
-#### Relatórios {#reports-2}
+_Relatórios_
 
 * Correção de um problema em que os valores apareciam diferentes entre gráficos e tabelas.
 * Correção de um problema que exibia valores de notificação por push como valores de email.
 * Correção de um problema que mostrava valores como desconhecidos quando uma entrega era criada fora de uma campanha.
 * Correção de um problema que mostrava dados de relatório SMS como dados de aplicativo móvel.
 
-#### Workflows {#workflows-2}
+_Fluxos de trabalho_
 
 * Agora é possível filtrar logs de fluxo de trabalho (período de tempo e pesquisa de texto). For more information, refer to the [detailed documention](../../automating/using/executing-a-workflow.md#monitoring).
 * Uma opção agora está disponível em entregas de fluxo de trabalho para desativar a confirmação antes do envio.
@@ -254,7 +254,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 
 ## Versão 17.5 - maio de 2017 {#release-17-5---may-2017}
 
-### Novos recursos {#new-capabilities-3}
+**Novos recursos**
 
 <table> 
  <thead> 
@@ -275,33 +275,33 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  </tbody> 
 </table>
 
-### Correções {#patches-3}
+**Correções**
 
-#### Atualizações da interface {#interface-updates}
+_Atualizações da interface_
 
-* Na barra superior, o **[!UICONTROL Timeline]** link foi removido e substituído por um link para **[!UICONTROL Programs & Campaigns]** .
+* Na barra superior, o **[!UICONTROL Timeline]**link foi removido e substituído por um link para**[!UICONTROL Programs & Campaigns]** .
 
-#### Emails e mensagens SMS {#emails-and-sms-messages}
+_Emails e mensagens SMS_
 
-* Correção de um problema que exibia a cor errada para o status de **[!UICONTROL Retry in progress]** entrega. A cor era cinza em vez de azul.
+* Correção de um problema que exibia a cor errada para o status de **[!UICONTROL Retry in progress]**entrega. A cor era cinza em vez de azul.
 
-#### Workflows {#workflows-3}
+_Fluxos de trabalho_
 
-* Correção de um problema que ocorria ao alterar a ação para executar em uma **[!UICONTROL Transfer file]** atividade.
+* Correção de um problema que ocorria ao alterar a ação para executar em uma **[!UICONTROL Transfer file]**atividade.
 
-#### Relatórios {#reports-3}
+_Relatórios_
 
-* Os cálculos do **[!UICONTROL Spam]** e do **[!UICONTROL Spam rate]** indicador foram alterados.
-* As **[!UICONTROL Bounce]** métricas foram aprimoradas para obter um resultado mais preciso.
+* Os cálculos do **[!UICONTROL Spam]**e do**[!UICONTROL Spam rate]** indicador foram alterados.
+* As **[!UICONTROL Bounce]**métricas foram aprimoradas para obter um resultado mais preciso.
 
-#### Notificações por push {#push-notifications-2}
+_Notificações por push_
 
 * Correção de um problema que impedia que você clicasse em um evento de push no histórico de marketing de um perfil.
 * O uso de notificações por push em fluxos de trabalho foi aprimorado.
 
 ## Versão 17.4 - abril de 2017 {#release-17-4---april-2017}
 
-### Novos recursos {#new-capabilities-4}
+**Novos recursos**
 
 <table> 
  <thead> 
@@ -335,13 +335,13 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  </tbody> 
 </table>
 
-### Correções {#patches-4}
+**Correções**
 
-#### Plataforma {#platform-2}
+_Plataforma_
 
 * Corrigido um problema de consumo de memória.
 
-#### Emails e mensagens SMS {#emails-and-sms-messages-1}
+_Emails e mensagens SMS_
 
 * Correção de um problema em que o conteúdo não podia ser sincronizado corretamente com as alterações mais recentes ao visualizar uma mensagem.
 * Correção de um problema que impedia a criação ou exclusão de uma regra de processamento de email MX ou Domínio.
@@ -350,44 +350,44 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 * Correção de um problema que resultava em erro ao exibir os URLs acompanhados de uma entrega sem URL no conteúdo.
 * Correção de um problema que impedia que os atributos de tamanho de uma imagem fossem aplicados corretamente na mensagem enviada.
 
-#### Mensagens transacionais {#transactional-messages-1}
+_Mensagens transacionais_
 
 * O campo rtEventHistoId não é mais exposto como um campo de personalização em um modelo de mensagem transacional.
 
-#### Páginas de aterrissagem {#landing-pages}
+_Páginas de aterrissagem_
 
 * Otimizamos o filtro usado nas páginas de aterrissagem para reconciliar novos assinantes com perfis de banco de dados. **[!UICONTROL by email]**
 * Correção de um problema que exibia entradas de texto livre em vez de caixas de seleção ao usar campos booleanos em uma configuração de formulário.
 * Correção de um problema que impedia a geração de miniaturas de página inicial.
 
-#### Workflows {#workflows-4}
+_Fluxos de trabalho_
 
-* Corrigido um erro de exibição ao editar uma atividade **[!UICONTROL End]** ou **[!UICONTROL External Signal]** (somente no Safari).
-* A mensagem de erro exibida ao editar uma **[!UICONTROL Read Audience]** atividade que contém um público-alvo incorreto foi aprimorada.
+* Corrigido um erro de exibição ao editar uma atividade **[!UICONTROL End]**ou**[!UICONTROL External Signal]** (somente no Safari).
+* A mensagem de erro exibida ao editar uma **[!UICONTROL Read Audience]**atividade que contém um público-alvo incorreto foi aprimorada.
 * Correção de um problema que resultava em erro de SQL ao executar uma atividade de assinatura.
 
-#### Integrações {#integrations-2}
+_Integrações_
 
 * Dados de Pontos de interesse: correção de um erro que ocorria ao contar assinantes de localização.
 
-#### Públicos-alvo e consultas {#audiences-and-queries}
+_Públicos-alvo e consultas_
 
 * Correção de um problema que impedia que agregados de soma e média fossem usados em uma coleção no editor de consulta.
 * Correção de um problema que impedia que o editor de consultas fosse recarregado após alterar o recurso do filtro.
 
-#### Relatórios {#reports-4}
+_Relatórios_
 
 * Correção de um problema que impedia o cálculo correto das métricas de taxa aberta ao selecionar várias linhas em uma tabela.
 * Correção de um erro que exibia somente métricas como valores inteiros. As métricas agora podem ser exibidas com decimais.
 
-#### Notificações por push {#push-notifications-3}
+_Notificações por push_
 
 * Correção de um problema em que uma mensagem de erro não era exibida ao criar um aplicativo Android vinculado a um aplicativo móvel que falhava ao ser criado no MCPNS.
 * Correção de um problema que permitia ao usuário adicionar sons a uma notificação silenciosa.
 
 ## Versão 17.2 - março de 2017 {#release-17-2---march-2017}
 
-### Novos recursos {#new-capabilities-5}
+**Novos recursos**
 
 <table> 
  <thead> 
@@ -447,30 +447,30 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  </tbody> 
 </table>
 
-### Correções {#patches-5}
+**Correções**
 
-#### Geral {#general-1}
+_Geral_
 
 * Agora é possível adicionar dados de perfil ao exportar registros de entrega.
 
-#### Emails e mensagens SMS {#emails-and-sms-messages-2}
+_Emails e mensagens SMS_
 
-* Corrigido um problema que fazia com que a opção **[!UICONTROL Request confirmation before sending messages]** permanecesse selecionada mesmo depois de desmarcá-la e salvar a entrega.
+* Corrigido um problema que fazia com que a opção **[!UICONTROL Request confirmation before sending messages]**permanecesse selecionada mesmo depois de desmarcá-la e salvar a entrega.
 * Correção de um problema que poderia impedir a publicação de emails transacionais.
 * Correção de um problema em que o conteúdo não podia ser sincronizado corretamente com as alterações mais recentes antes de visualizar uma entrega.
 
-#### Páginas de aterrissagem {#landing-pages-1}
+_Páginas de aterrissagem_
 
 * Correção de um erro que impedia um usuário de editar ao clicar no conteúdo de uma página inicial.
 
-#### Workflows {#workflows-5}
+_Fluxos de trabalho_
 
-* Correção de um problema que impedia a leitura do conteúdo da transição de rejeição de uma **[!UICONTROL Load file]** atividade.
-* Correção de um problema que impedia que colunas trocadas fossem levadas em conta corretamente ao configurar uma **[!UICONTROL Load file]** atividade.
+* Correção de um problema que impedia a leitura do conteúdo da transição de rejeição de uma **[!UICONTROL Load file]**atividade.
+* Correção de um problema que impedia que colunas trocadas fossem levadas em conta corretamente ao configurar uma **[!UICONTROL Load file]**atividade.
 
 ## Versão 17.1 - Janeiro de 2017 {#release-17-1---january-2017}
 
-### Novos recursos {#new-capabilities-6}
+**Novos recursos**
 
 <table> 
  <thead> 
@@ -510,37 +510,37 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  </tbody> 
 </table>
 
-### Correções {#patches-6}
+**Correções**
 
-#### Geral {#general-2}
+_Geral_
 
-* As **[!UICONTROL Access authorization]** opções retornaram às propriedades da página inicial.
+* As **[!UICONTROL Access authorization]**opções retornaram às propriedades da página inicial.
 * Correção de um problema que resultava na renderização de uma imagem antiga em vez da imagem correta. Isso ocorria se a imagem de origem tivesse sido atualizada na definição de conteúdo de uma página de entrega ou aterrissagem.
 * Correção de um problema que impedia os usuários de editar determinados campos em uma conta externa SFTP existente.
 * Correção de vários problemas de interface do usuário. Por exemplo, os usuários agora podem editar atributos de perfil e salvar modificações sem enfrentar problemas na interface do usuário.
 
-#### Emails e mensagens SMS {#emails-and-sms-messages-3}
+_Emails e mensagens SMS_
 
 * Correção de um problema relacionado aos modelos de entrega com conteúdo HTML que contém um
 
-#### Notificações por push {#push-notifications-4}
+_Notificações por push_
 
 * Correção de um problema que pode ter impedido o postback de um aplicativo para o servidor do Adobe Campaign.
-* Correção de um problema que pode ter impedido **[!UICONTROL Play a sound]** e **[!UICONTROL Custom fields]** sido considerado para Android.
+* Correção de um problema que pode ter impedido **[!UICONTROL Play a sound]**e**[!UICONTROL Custom fields]** sido considerado para Android.
 * Correção de um problema que resultava na adição de um caractere de escape extra a caracteres Unicode usados para Emojis.
 * Quando o token de registro de um assinante é bloqueado, o status correspondente agora é atualizado imediatamente na lista de assinantes do aplicativo no Adobe Campaign.
 
-#### Workflows {#workflows-6}
+_Fluxos de trabalho_
 
 * Correção de um problema que pode ter impedido visualizações de consultas em recursos de evento (por exemplo, rtEvent).
-* O arquivo de rejeição gerado por uma **[!UICONTROL Load file]** atividade agora pode ser recuperado em sua transição de saída e processado na próxima atividade. Por exemplo, carregue o arquivo de rejeição por meio de um servidor SFTP usando **[!UICONTROL Transfer file]** .
-* Correção de um problema que poderia ter impedido um usuário de limitar a população de um segmento se **[!UICONTROL Temporary resource]** fosse selecionado na guia **[!UICONTROL General]** de **[!UICONTROL Segmentation]** .
-* **[!UICONTROL Scheduler]** atividades não podem mais ser definidas para acionar um fluxo de trabalho mais de uma vez a cada 10 minutos.
-* Correção de um problema que pode ter impedido **[!UICONTROL Use common columns]** o funcionamento correto em uma **[!UICONTROL Union]** atividade.
+* O arquivo de rejeição gerado por uma **[!UICONTROL Load file]**atividade agora pode ser recuperado em sua transição de saída e processado na próxima atividade. Por exemplo, carregue o arquivo de rejeição por meio de um servidor SFTP usando**[!UICONTROL Transfer file]** .
+* Correção de um problema que poderia ter impedido um usuário de limitar a população de um segmento se **[!UICONTROL Temporary resource]**fosse selecionado na guia**[!UICONTROL General]** de **[!UICONTROL Segmentation]**.
+* **[!UICONTROL Scheduler]**atividades não podem mais ser definidas para acionar um fluxo de trabalho mais de uma vez a cada 10 minutos.
+* Correção de um problema que pode ter impedido **[!UICONTROL Use common columns]**o funcionamento correto em uma**[!UICONTROL Union]** atividade.
 
-#### Integrações {#integrations-3}
+_Integrações_
 
-* Correção de um problema que pode ter causado um erro ao implantar um acionador de evento no Adobe Campaign. Esse erro ocorria quando os metadados "Probabilidade de retornar em 30 dias" eram adicionados ao acionador de Abandono na Adobe Marketing Cloud.
+* Correção de um problema que pode ter causado um erro ao implantar um acionador de evento no Adobe Campaign. Esse erro ocorria quando os metadados &quot;Probabilidade de retornar em 30 dias&quot; eram adicionados ao acionador de Abandono na Adobe Marketing Cloud.
 * Correção de um problema que pode ter feito com que o fluxo de trabalho técnico limpe o campo Dimensão de destino ao importar públicos do serviço principal de Pessoas. As consultas subsequentes não puderam recuperar os públicos importados.
-* Correção de um problema que resultava em falha da **[!UICONTROL Save audience]** atividade de um fluxo de trabalho quando a opção **[!UICONTROL Share in Adobe Marketing Cloud]** era marcada.
+* Correção de um problema que resultava em falha da **[!UICONTROL Save audience]**atividade de um fluxo de trabalho quando a opção**[!UICONTROL Share in Adobe Marketing Cloud]** era marcada.
 
