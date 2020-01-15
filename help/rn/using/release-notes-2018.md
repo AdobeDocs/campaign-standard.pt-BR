@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: d1ec5dddcf4c1aa3fe6338d35b381986ba32a28d
 
 ---
 
@@ -27,7 +27,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 
 ## Versão 18.9 - setembro de 2018 {#release-18-9---september-2018}
 
-### What's new? {#what-s-new-}
+**Novidades**
 
 <table> 
  <thead> 
@@ -48,11 +48,11 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  </tbody> 
 </table>
 
-### Aprimoramentos {#improvements}
+**Aprimoramentos**
 
 * O Adobe Campaign Standard agora é compatível com a versão 4 da API Amazon S3.
 
-### Outras alterações {#other-changes}
+**Outras alterações**
 
 * Há agora uma distinção nos broadlogs entre o número máximo de conexões e o número máximo de mensagens por hora. Quando os limites são atingidos, é possível saber o motivo da taxa de transferência ser limitada. Anteriormente, a mesma mensagem (‘cota atingida’) se aplicava a ambos os casos.
 * Ao configurar um aplicativo móvel no Campaign, o usuário pode saber se o certificado do iOS e a chave do servidor do Android foram carregados com êxito e sua data de expiração.
@@ -67,7 +67,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 
    For more on this, refer to the [detailed documentation](../../designing/using/personalization.md#adding-a-content-block).
 
-### Correções {#patches}
+**Correções**
 
 * Correção de um problema que mostrava uma discrepância na contagem de log entre o painel de email e o relatório de resumo de email para emails transacionais. (CAMP-28237
 * Correção de um problema em fluxos de trabalho que exibiam uma mensagem de erro ao importar um arquivo por meio de uma atividade de transferência de arquivo. (CAMP-27435)
@@ -92,7 +92,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 
 ## Versão 18.7 - julho de 2018 {#release-18-7---july-2018}
 
-### What's new? {#what-s-new--1}
+**Novidades**
 
 <table> 
  <thead> 
@@ -125,19 +125,19 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  </tbody> 
 </table>
 
-### Aprimoramentos {#improvements-1}
+**Aprimoramentos**
 
 * A integração entre o Adobe Campaign e o Adobe Target agora permite que você aproveite o recurso [Permissões](https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html) do Target. Ao incluir uma imagem dinâmica do Adobe Target em um email, agora é possível especificar uma Propriedade do Target (código at_property).
-* Os recursos personalizados que têm um link de cópia própria para o recurso de perfis agora são considerados pelas solicitações de acesso/exclusão de privacidade do RGPD. Para 1 cardinalidade links simples e N links de coleção de cardinalidade, é necessário selecionar "Excluir/Duplicar o registro de destino implica excluir/duplicar os registros referenciados pelo link" no recurso personalizado. Para links simples de cardinalidade 0 ou 1, selecione "Excluir/duplicar o registro implica excluir/duplicar o registro de destino referenciado pelo link".
+* Os recursos personalizados que têm um link de cópia própria para o recurso de perfis agora são considerados pelas solicitações de acesso/exclusão de privacidade do RGPD. Para 1 cardinalidade links simples e N links de coleção de cardinalidade, é necessário selecionar &quot;Excluir/Duplicar o registro de destino implica excluir/duplicar os registros referenciados pelo link&quot; no recurso personalizado. Para links simples de cardinalidade 0 ou 1, selecione &quot;Excluir/duplicar o registro implica excluir/duplicar o registro de destino referenciado pelo link&quot;.
 
-### Outras alterações {#other-changes-1}
+**Outras alterações**
 
 * O tempo limite de compartilhamento de relatórios foi aumentado de um para quatro minutos para evitar erro de tempo limite.
 * Ao editar o conteúdo de um email, o novo Creative Designer é aberto por padrão. Se desejar, você ainda poderá voltar para o editor de conteúdo padrão a qualquer momento depois de salvar as alterações. For more on this, refer to the [detailed documentation](../../designing/using/designing-content-in-adobe-campaign.md).
 * No Creative Designer, um novo componente de conteúdo agora pode ser adicionado a um email: o carrossel. For more on this, refer to the [detailed documentation](../../designing/using/designing-from-scratch.md#about-content-components).
 * Em uma mensagem transacional, clique em um relatório quando você clicar no botão **Alterar perfil** , agora apenas os perfis de teste vinculados ao evento definido para a mensagem transacional serão listados.
 
-### Correções {#patches-1}
+**Correções**
 
 * Correção de um problema com o filtro de consulta por email que não retornava resultados. (CAMP-23420)
 * Correção de um problema que permitia que o usuário padrão acessasse determinados recursos ou telas restritas aos administradores (pontos finais/rest/head/*, telas de mensagens transacionais, perfis e públicos-alvo importados).
@@ -155,45 +155,45 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 
 ## Versão 18.6 - junho de 2018 {#release-18-6---june-2018}
 
-### Aprimoramentos {#improvements-2}
+**Aprimoramentos**
 
-* A **[!UICONTROL History]** API foi adicionada ao Adobe.IO. Permite acessar informações relacionadas ao histórico de marketing de um perfil: número de pontos de contato, entregas enviadas, URL da página espelhada etc. For more on this, refer to the [dedicated use case](../../api/using/interacting-with-marketing-history.md) .
-* O fluxo de trabalho **[!UICONTROL Database cleanup]** técnico foi otimizado para garantir melhor desempenho para backup de banco de dados.
+* A **[!UICONTROL History]**API foi adicionada ao Adobe.IO. Permite acessar informações relacionadas ao histórico de marketing de um perfil: número de pontos de contato, entregas enviadas, URL da página espelhada etc. For more on this, refer to the[dedicated use case](../../api/using/interacting-with-marketing-history.md).
+* O fluxo de trabalho **[!UICONTROL Database cleanup]**técnico foi otimizado para garantir melhor desempenho para backup de banco de dados.
 * O Creative Designer for Email agora também está disponível em francês e alemão.
 
-### Outras alterações {#other-changes-2}
+**Outras alterações**
 
-* Um **[!UICONTROL Compute stats]** botão foi adicionado na janela de entregas **[!UICONTROL Deployment]** enviadas. Permite recuperar os KPIs mais recentes, por exemplo, se os resultados do envio levarem muito tempo para serem atualizados ou não tiverem sido levados em conta. Para obter mais informações, consulte esta [seção](../../sending/using/confirming-the-send.md).
+* Um **[!UICONTROL Compute stats]**botão foi adicionado na janela de entregas**[!UICONTROL Deployment]** enviadas. Permite recuperar os KPIs mais recentes, por exemplo, se os resultados do envio levarem muito tempo para serem atualizados ou não tiverem sido levados em conta. Para obter mais informações, consulte esta [seção](../../sending/using/confirming-the-send.md).
 * No fluxo de trabalho técnico pronto para **Atualizar para entrega** , os administradores funcionais agora podem definir o número de erros consecutivos a serem ignorados na atividade do JavaScript de regras **de** atualização. Por padrão, o valor do campo é definido como 0, o que significa que todos os erros serão ignorados.
 * O SQL gerado ao gerenciar condições de restrição de acesso da unidade foi otimizado.
-* A **[!UICONTROL Update]** atividade agora permite adicionar, atualizar ou excluir dados relacionados a assinaturas (tabela nms:appSubscriptionRcp).
-* O fluxo de trabalho **[!UICONTROL Update delivery execution]** técnico foi dividido em dois fluxos de trabalho para otimizar o desempenho: - **[!UICONTROL Update delivery execution]**: atualiza o rastreamento da entrega. É iniciado a cada 10 minutos por padrão. **[!UICONTROL Update delivery indicators]**: atualiza os KPIs da entrega, que são iniciados a cada hora por padrão. For more on technical workflows, refer to this [section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
-* Quando uma entrega envia mensagens, o status na **[!UICONTROL Deployment]** seção pode ter dois valores: **[!UICONTROL Sending]**: as mensagens estão sendo enviadas. **[!UICONTROL Sending (retry)]**: uma nova aprovação está em andamento.
-* Os usuários com a **[!UICONTROL Delivery preparation]** função agora podem enviar provas. (CAMP-24313)
+* A **[!UICONTROL Update]**atividade agora permite adicionar, atualizar ou excluir dados relacionados a assinaturas (tabela nms:appSubscriptionRcp).
+* O fluxo de trabalho **[!UICONTROL Update delivery execution]**técnico foi dividido em dois fluxos de trabalho para otimizar o desempenho: -**[!UICONTROL Update delivery execution]**: atualiza o rastreamento da entrega. É iniciado a cada 10 minutos por padrão. **[!UICONTROL Update delivery indicators]**: atualiza os KPIs da entrega, que são iniciados a cada hora por padrão. For more on technical workflows, refer to this[section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
+* Quando uma entrega envia mensagens, o status na **[!UICONTROL Deployment]**seção pode ter dois valores:**[!UICONTROL Sending]**: as mensagens estão sendo enviadas. **[!UICONTROL Sending (retry)]**: uma nova aprovação está em andamento.
+* Os usuários com a **[!UICONTROL Delivery preparation]**função agora podem enviar provas. (CAMP-24313)
 * A opção **Ativar TLS por SMPP** foi adicionada ao roteamento **SMS por meio da conta externa SMPP** . Para obter mais informações, consulte [esta seção](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 
-### Correções {#patches-2}
+**Correções**
 
 * Correção de um problema que impedia o envio de emails ao incluir uma imagem dinâmica do Adobe Target (CAMP-24848).
-* Correção de um problema com os fluxos de trabalho **[!UICONTROL Privacy Access/Delete Request]** técnicos, que não eram concluídos se alguma das solicitações falhasse.
+* Correção de um problema com os fluxos de trabalho **[!UICONTROL Privacy Access/Delete Request]**técnicos, que não eram concluídos se alguma das solicitações falhasse.
 * Correção de um problema que impedia o serviço Privacy Core de receber atualizações de status de solicitação do Campaign.
-* Correção de um problema que podia impedir que o fluxo de trabalho técnico **[!UICONTROL Import shared audience]** funcionasse corretamente (CAMP-25465).
+* Fixed an issue which could prevent the **[!UICONTROL Import shared audience]**technical workflow from working properly (CAMP-25465).
 * Correção de um problema que impedia que solicitações de privacidade do Campaign fossem marcadas como concluídas no Core Privacy Service.
 * Correção de um problema que impedia que determinados usuários fizessem logon no Campaign Standard por meio da autenticação IMS quando a ID da Adobe era muito longa. (CAMP-24095)
 * Correção de um problema no Creative Designer que poderia ocorrer ao remover módulos de conteúdo. (CAMP-25242)
 * Correção de um problema ao usar regras de fadiga de notificações por push para assinantes sem perfil no banco de dados. (CAMP-25344)
 * Correção de um problema que poderia exibir uma mensagem de erro ao acessar os logs de exclusão de entregas. (CAMP-24724)
 * Correção de um problema que impedia que provas fossem preparadas em instâncias com registros de envio estendidos.
-* Correção de dois problemas que podem ocorrer ao publicar recursos personalizados com a **[!UICONTROL Sending log]** extensão ativada.
+* Correção de dois problemas que podem ocorrer ao publicar recursos personalizados com a **[!UICONTROL Sending log]**extensão ativada.
 * Correção de um problema que ocorria com a duração da entrega não levada em conta em entregas recorrentes.
-* Correção de um problema que ocorria ao classificar dados no **[!UICONTROL Client data]** menu, para recursos personalizados com mais de 100 mil registros. (CAMP-24308)
+* Correção de um problema que ocorria ao classificar dados no **[!UICONTROL Client data]**menu, para recursos personalizados com mais de 100 mil registros. (CAMP-24308)
 * Correção de um problema com dimensões de perfil personalizadas que não eram levadas em conta ao usar a função de pesquisa nos relatórios dinâmicos.
 * Correção de um problema com a exibição de dados internacionais para níveis de Conta em relatórios dinâmicos.
 * Agora é possível criar um serviço sem uma mensagem de confirmação de assinatura ou cancelamento de assinatura.
 
 ## Versão 18.5 - maio de 2018 {#release-18-5---may-2018}
 
-### What's new? {#what-s-new--2}
+**Novidades**
 
 <table> 
  <thead> 
@@ -226,27 +226,27 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  </tbody> 
 </table>
 
-### Aprimoramentos {#improvements-3}
+**Aprimoramentos**
 
 * A memória geral e o uso da CPU do aplicativo foram aprimorados
 
-### Outras alterações {#other-changes-3}
+**Outras alterações**
 
 * A atividade de fluxo de trabalho Ler público-alvo agora pode ler públicos-alvo da Experience Cloud. Anteriormente, essa atividade só podia ler públicos de Consulta e Lista. Consulte a documentação [](../../automating/using/read-audience.md)detalhada. (CAMP-23623)
 * O identificador da fonte de dados compartilhada padrão agora está no modo somente leitura e não pode mais ser alterado. Alterar esse identificador pode causar alguns problemas ao compartilhar públicos-alvo com a Experience Cloud.
 * Agora a importação de audiências do Audience Manager funciona com arquivos divididos. Anteriormente, somente o último arquivo do segmento era importado pelo workflow técnico importSharedAudience.
 * As contas externas AWS S3 agora suportam regiões e o mecanismo de autenticação versão 4. Consulte a documentação [](../../administration/using/external-accounts.md)detalhada.
 * A janela de seleção de Ativo agora deve ser carregada mais rapidamente e permitir a seleção de um ativo, em seguida, sair da janela sem qualquer problema.
-* As propriedades e a estrutura dos fluxos de trabalho técnicos podem agora ser modificadas por usuários com direitos administrativos e pertencentes às unidades organizacionais e geográficas "Todos".
-* Foram feitos aprimoramentos na interface de atividade de Segmentação ao criar novos segmentos: A guia Limitação agora aparece diretamente após a adição de uma limitação. Os nomes dos novos segmentos agora são incrementados ("Segmento 1", "Segmento 2" etc.).
-* Um campo "nextProcessingDate" é adicionado ao recurso Fluxo de trabalho. Esse campo só é visível por meio de chamadas REST API, e permite visualizar fluxos de trabalho nas próximas datas de processamento.
-* O campo "sourceId" agora é exposto no recurso de logs de rastreamento (nms:trackingLog).
-* Os valores "Total de aberturas" e "Total de cliques" agora podem ser exportados em um arquivo simples por meio de um fluxo de trabalho. (CAMP-24186)
-* "English - Danmark" está agora disponível na lista de idiomas preferidos em perfis. (CAMP-23728)
+* As propriedades e a estrutura dos fluxos de trabalho técnicos podem agora ser modificadas por usuários com direitos administrativos e pertencentes às unidades organizacionais e geográficas &quot;Todos&quot;.
+* Foram feitos aprimoramentos na interface de atividade de Segmentação ao criar novos segmentos: A guia Limitação agora aparece diretamente após a adição de uma limitação. Os nomes dos novos segmentos agora são incrementados (&quot;Segmento 1&quot;, &quot;Segmento 2&quot; etc.).
+* Um campo &quot;nextProcessingDate&quot; é adicionado ao recurso Fluxo de trabalho. Esse campo só é visível por meio de chamadas REST API, e permite visualizar fluxos de trabalho nas próximas datas de processamento.
+* O campo &quot;sourceId&quot; agora é exposto no recurso de logs de rastreamento (nms:trackingLog).
+* Os valores &quot;Total de aberturas&quot; e &quot;Total de cliques&quot; agora podem ser exportados em um arquivo simples por meio de um fluxo de trabalho. (CAMP-24186)
+* &quot;English - Danmark&quot; está agora disponível na lista de idiomas preferidos em perfis. (CAMP-23728)
 * Ao usar uma atividade de Segmentação com um link de Dados adicionais (targetData), uma mensagem informa que os dados não estão disponíveis fora do fluxo de trabalho. Essa mensagem é exibida ao clicar no botão Contar ou Visualizar da atividade de Segmentação. (CAMP-23651)
-* Foram feitos aprimoramentos para otimizar o espaço em disco usado pelos fluxos de trabalho: (CAMP-21979): Os arquivos processados pela atividade "Carregar arquivo" agora são excluídos por padrão. Uma opção permite mantê-los para necessidades específicas. Quando um fluxo de trabalho é excluído, sua pasta dedicada é automaticamente suprimida do diretório do servidor.
+* Foram feitos aprimoramentos para otimizar o espaço em disco usado pelos fluxos de trabalho: (CAMP-21979): Os arquivos processados pela atividade &quot;Carregar arquivo&quot; agora são excluídos por padrão. Uma opção permite mantê-los para necessidades específicas. Quando um fluxo de trabalho é excluído, sua pasta dedicada é automaticamente suprimida do diretório do servidor.
 
-### Correções {#patches-3}
+**Correções**
 
 * Correção de um problema em que alguns eventos de relatório brutos não tinham eventos de rastreamento associados porque o campo eventDate não era preenchido corretamente.
 * Correção de um problema que impedia que campos personalizados fossem exibidos na janela de visualização de uma entrega de notificação por push.
@@ -256,7 +256,7 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 * Correção de um problema que ocorria ao importar um arquivo zip por meio de uma atividade de carregamento de Arquivo. (CAMP-24309)
 * Correção de um problema que resultava em um erro de PostgreSQL ao enviar uma entrega recorrente. (CAMP-23613)
 * Correção de um problema que exibia uma mensagem de erro ao enviar uma solicitação REST API com um atributo JSON vazio. (CAMP-23506)
-* Correção de um problema nos perfis que definia como maiúsculas e minúsculas os caracteres após o caractere "ß". (CAMP-23136)
+* Correção de um problema nos perfis que definia como maiúsculas e minúsculas os caracteres após o caractere &quot;ß&quot;. (CAMP-23136)
 * Correção de um problema ao enviar entregas usadas com a personalização ou a condição de qualificação do bloco de conteúdo dinâmico ao usar atributos de um esquema vinculado de perfil. (CAMP-22751)
 * Correção de um problema que impedia a exclusão de serviços. (CAMP-22050)
 * Correção de um problema que impedia a alteração dos valores de País ou Estado em um perfil de Teste. (CAMP-20426)
@@ -265,33 +265,33 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 
 ## Versão 18.4 - abril de 2018 {#release-18-4---april-2018}
 
-### Correções {#patches-4}
+**Correções**
 
-#### Plataforma {#platform}
+_Plataforma_
 
-* Correção de um erro que impedia o processamento correto do acesso ao RGPD ou a exclusão de solicitações. Esse comportamento foi observado em alguns casos raros, onde os dados extraídos continham um dos seguintes caracteres: &amp; &lt; &gt; " ".
+* Correção de um erro que impedia o processamento correto do acesso ao RGPD ou a exclusão de solicitações. Esse comportamento foi observado em alguns casos raros, onde os dados extraídos continham um dos seguintes caracteres: &amp; &lt; > &quot; &quot;.
 
-#### Emails, mensagens SMS e mala direta {#emails--sms-messages-and-direct-mail}
+_Emails, mensagens SMS e mala direta_
 
 * Correção de um problema que resultava na substituição de KPIs com valores incorretos se a sincronização de transmissão demorasse mais de uma hora.
 
-#### Workflows {#workflows}
+_Fluxos de trabalho_
 
 * Gerenciamento de memória aprimorado e desempenho otimizado em fluxos de trabalho.
 
-#### Relatório {#reporting}
+_Relatório_
 
 * O fluxo de trabalho de compartilhamento de KPI agora recupera os valores de entrega dos últimos 2 meses em vez dos últimos 6 meses. Correção de um problema com a conta externa de compartilhamento KPI mostrando datas truncadas.
 * Correção de um problema que resultava na não consideração de determinadas mensagens em **Enviadas**, **Entregas** e **** Bouncemetrics.
 * Correção de um erro que ocorria quando o intervalo de tempo escolhido no Relatório **de Resumo de** Entrega era muito longo.
 
-#### Recursos personalizados {#custom-resources}
+_Recursos personalizados_
 
 * Corrigido um erro que causava a falha na preparação de recursos personalizados.
 
 ## Versão 18.3 - março de 2018 {#release-18-3---march-2018}
 
-### Novos recursos {#new-capabilities}
+**Novos recursos**
 
 <table> 
  <thead> 
@@ -334,39 +334,39 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  </tbody> 
 </table>
 
-### Correções {#patches-5}
+**Correções**
 
-#### Plataforma {#platform-1}
+_Plataforma_
 
 * Correção de um problema que impedia exportar mais de 5000 registros de uma lista.
 * Correção de um problema ao exportar dados para arquivos nomeados com campos de personalização.
 
-#### Emails, mensagens SMS e mala direta {#emails--sms-messages-and-direct-mail-1}
+_Emails, mensagens SMS e mala direta_
 
 * Correção de um problema que resultava no truncamento de SMS de várias partes, pois o tamanho das partes era calculado em caracteres em vez de bytes.
-* Adicionada uma opção que permite que os **[!UICONTROL Delivered]** ou **[!UICONTROL Bounces + Errors]** KPIs sejam atualizados em tempo real após o envio da entrega. Eles são recalculados diretamente do SR (Status Report) recebido do provedor.
+* Adicionada uma opção que permite que os **[!UICONTROL Delivered]**ou**[!UICONTROL Bounces + Errors]** KPIs sejam atualizados em tempo real após o envio da entrega. Eles são recalculados diretamente do SR (Status Report) recebido do provedor.
 * Correção de um problema com o widget de calendário no agendador de entrega.
 * Correção de um problema de exibição ao abrir um destino pela segunda vez em uma entrega enviada.
 * Correção de um problema que resultava em uma mensagem de erro solicitando uma data de início ao criar um modelo de email com uma data de envio atrasada.
 * Correção de um problema que causava problemas de renderização de imagem ao editar o conteúdo de uma entrega.
 * Correção de um problema com provas ao duplicar uma campanha.
 * Correção de um problema que resultava em uma mensagem de erro ao acessar um modelo de campanha pela barra de navegação, após adicionar uma entrega ao fluxo de trabalho.
-* Correção de um problema que impedia que o vencedor de um email de teste A/B fosse selecionado automaticamente, fazendo com que o email não fosse enviado. Esse comportamento pode ocorrer se a entrega estiver em **[!UICONTROL retryInProgress]** estado.
+* Correção de um problema que impedia que o vencedor de um email de teste A/B fosse selecionado automaticamente, fazendo com que o email não fosse enviado. Esse comportamento pode ocorrer se a entrega estiver em **[!UICONTROL retryInProgress]**estado.
 * Correção de um problema que resultava na exibição de uma mensagem de erro ao reabrir os parâmetros de um email de teste A/B.
 
-#### Públicos-alvo e consultas {#audiences-e-queries}
+_Públicos-alvo e consultas_
 
 * Correção de um problema que impedia o acesso a dados e a configuração de consultas para destinatários replicados do Adobe Campaign Classic para o Standard.
 * Correção de um problema que ocorria ao usar um campo de tipo de filtro no editor de consulta, após usar os botões **Contagem** ou **Visualização** .
 
-#### Workflows {#workflows-1}
+_Fluxos de trabalho_
 
 * O fluxo de trabalho de **Faturamento** foi otimizado para melhorar o atraso de preparação da entrega.
 * Correção de um problema que impedia a exibição de dados de população em uma transição de saída ao usar uma atividade de entrega recorrente.
 * Correção de um problema que impedia a exibição de registros de rejeição em uma transição após uma atividade de dados **de** Atualização.
 * Correção de um problema que resultava em falha do fluxo de trabalho técnico do **DeliabilityUpdate** .
 
-#### Integrações {#integrations}
+_Integrações_
 
 * Correção de um problema que impedia que caracteres internacionais fossem enviados corretamente para o Adobe Analytics.
 * Os ativos agora devem ser carregados mais rapidamente ao tentar inserir uma imagem da biblioteca de ativos da Experience Cloud em uma mensagem.
@@ -374,14 +374,14 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
 * A partir de um detalhe da fonte de dados, agora é possível acessar diretamente seu fluxo de trabalho relacionado para verificar o estado do fluxo de trabalho.
 * Agora você pode atualizar o esquema de Acionadores diretamente ao definir ou editar um evento de disparo. Com essa alteração, não é mais necessário cancelar a publicação do acionador e criar outro.
 
-#### Mensagens transacionais {#transactional-messages}
+_Mensagens transacionais_
 
 * Correção de um erro com modelo de mensagem transacional quando o recurso de entrega era estendido.
 * Agora é possível excluir mensagens transacionais.
 
 ## Versão 18.2 - fevereiro de 2018 {#release-18-2---february-2018}
 
-### Novos recursos {#new-capabilities-1}
+**Novos recursos**
 
 <table> 
  <thead> 
@@ -402,42 +402,42 @@ Exiba as atualizações [mais recentes da](../../rn/using/documentation-updates.
  </tbody> 
 </table>
 
-### Correções {#patches-6}
+**Correções**
 
-#### Plataforma {#platform-2}
+_Plataforma_
 
 * A barra superior da interface do Adobe Campaign foi atualizada com o novo menu da Experience Cloud.
-* Correção de um problema que impedia que o link fosse exibido na lista suspensa **[!UICONTROL Offers]** da solução.
+* Correção de um problema que impedia que o link fosse exibido na lista suspensa **[!UICONTROL Offers]**da solução.
 
-#### Emails, mensagens SMS e mala direta {#emails--sms-messages-and-direct-mail-2}
+_Emails, mensagens SMS e mala direta_
 
 * A fase de preparação da entrega foi aprimorada para melhorar o desempenho.
 * Correção de vários problemas que resultavam em logs de rastreamento corrompidos em algumas situações de nicho.
 * Correção de um problema de atualização de data de contato que ocorria quando a data de contato era alterada entre a preparação e a confirmação da entrega. Agora, quando você alterar a data de contato após a preparação, será necessário preparar a entrega novamente antes de confirmar o envio. See the [detailed documentation](../../sending/using/preparing-the-send.md).
 
-#### Notificações por push {#push-notifications}
+_Notificações por push_
 
 * Correção de um erro que impedia que alguns campos de personalização funcionassem em notificações por push do iOS.
 * Correção de um erro que exibia as taxas de clique e de abertura como 0% no painel de notificação por push.
 
-#### Relatórios {#reports}
+_Relatórios_
 
 * Correção de um erro que exibia a lista de relatórios como vazia em alguns navegadores.
-* Correção de um erro que ocorria no fluxo de trabalho **[!UICONTROL Report sharing]** técnico antes de seu limite de expiração ser atingido.
+* Correção de um erro que ocorria no fluxo de trabalho **[!UICONTROL Report sharing]**técnico antes de seu limite de expiração ser atingido.
 
-#### Workflows {#workflows-2}
+_Fluxos de trabalho_
 
 * Correção de um problema que impedia que atividades fossem acessíveis após arrastar e soltar.
-* Corrigido um problema que fazia com que a ordem de transições de saída de uma **[!UICONTROL Segmentation]** atividade mudasse em algumas situações.
+* Corrigido um problema que fazia com que a ordem de transições de saída de uma **[!UICONTROL Segmentation]**atividade mudasse em algumas situações.
 * Corrigido um erro que ocorria ao ler um público-alvo contendo um campo de tipo de enumeração e que havia sido salvo anteriormente de um fluxo de trabalho
 * Correção de um problema que fazia com que a opção permanecesse marcada mesmo após desmarcá-la ao definir as propriedades de agendamento de uma entrega criada em um fluxo de trabalho. **[!UICONTROL Request confirmation before sending messages]**
-* A remoção automática de linhas duplicadas (cláusula DISTINCT) agora pode ser desativada em **[!UICONTROL Query]** atividades, por meio de uma nova opção localizada na **[!UICONTROL Additional data]** guia. A desativação dessa opção é recomendada ao definir muitos (mais de 100) elementos adicionais, por motivos de desempenho.
+* A remoção automática de linhas duplicadas (cláusula DISTINCT) agora pode ser desativada em **[!UICONTROL Query]**atividades, por meio de uma nova opção localizada na**[!UICONTROL Additional data]** guia. A desativação dessa opção é recomendada ao definir muitos (mais de 100) elementos adicionais, por motivos de desempenho.
 
-#### Integrações {#integrations-1}
+_Integrações_
 
-* Foram feitas algumas melhorias na tela de **[!UICONTROL Data sources]** configuração.
+* Foram feitas algumas melhorias na tela de **[!UICONTROL Data sources]**configuração.
 
-### Problemas conhecidos {#known-issues}
+_Problemas conhecidos_
 
 Recomendamos que você não use o Internet Explorer versão 11 devido a possíveis problemas de exibição.
 
@@ -445,7 +445,7 @@ Alguns problemas podem ocorrer ao usar links de ajuda contextuais da interface d
 
 ## Versão 18.1 - Janeiro de 2018 {#release-18-1---january-2018}
 
-### Novos recursos {#new-capabilities-2}
+**Novos recursos**
 
 <table> 
  <thead> 
@@ -484,43 +484,41 @@ Alguns problemas podem ocorrer ao usar links de ajuda contextuais da interface d
  </tbody> 
 </table>
 
-### Correções {#patches-7}
+**Correções**
 
-#### Plataforma {#platform-3}
+_Plataforma_
 
 * A pesquisa de perfil foi otimizada para melhorar o desempenho.
 * O identificador interno de grupos de segurança padrão agora está no modo somente leitura para usuários padrão.
 
-#### Emails, mensagens SMS e mala direta {#emails--sms-messages-and-direct-mail-3}
+_Emails, mensagens SMS e mala direta_
 
 * Correção de um problema de exibição que ocorria ao inserir emojis no conteúdo de suas entregas.
 * Correção de um problema que permitia ao usuário acessar registros de envio quando a entrega ainda estava na edição.
-* A **[!UICONTROL Scheduler]** atividade agora permite que você envie suas entregas, dependendo do fuso horário do destinatário.
-* SMS: A opção **[!UICONTROL Store incoming MO]** no banco de dados foi adicionada a contas externas. Quando marcado, todo o SMS recebido será armazenado na tabela **inSMS** .
+* A **[!UICONTROL Scheduler]**atividade agora permite que você envie suas entregas, dependendo do fuso horário do destinatário.
+* SMS: A opção **[!UICONTROL Store incoming MO]**no banco de dados foi adicionada a contas externas. Quando marcado, todo o SMS recebido será armazenado na tabela** inSMS **.
 * SMS: Os serviços agora são anexados a um evento em vez de um modelo transacional.
 * SMS: O tempo limite de conexão SMTP padrão foi reduzido para 30 segundos.
 
-#### Notificações por push {#push-notifications-1}
+_Notificações por push_
 
 * Correção de um erro que impedia a interrupção das entregas de notificação por push.
 * Adicionada uma opção nas opções avançadas de notificação por push para ativar o aplicativo com uma notificação por push.
 * Foi adicionado um botão de pausa para o vídeo de visualização da notificação por push.
 * A visualização da notificação por push agora está disponível para diferentes dispositivos, como iPhone, Android e tablets.
 
-   todos os canais
-
-#### Relatórios {#reports-1}
+_Relatórios_
 
 * Correção de um erro que exibia taxas acima de 100%.
 * Correção de um problema que impedia os usuários de baixar relatórios em CSV.
-* Adicionado um novo **[!UICONTROL Report]** item na página inicial.
+* Adicionado um novo **[!UICONTROL Report]**item na página inicial.
 
-#### Workflows {#workflows-3}
+_Fluxos de trabalho_
 
-* Correção de um problema que resultava em uma mensagem de erro ao usar dados adicionais em uma consulta e adicionar aliases contendo espaços. Os caracteres não alfanuméricos agora são substituídos por "_".
+* Correção de um problema que resultava em uma mensagem de erro ao usar dados adicionais em uma consulta e adicionar aliases contendo espaços. Os caracteres não alfanuméricos agora são substituídos por &quot;_&quot;.
 * Correção de um problema em que o fluxo de trabalho técnico que calculava KPIs poderia ser interrompido por padrão em alguns casos.
 
-#### Perfis e públicos-alvo {#profiles-and-audiences}
+_Perfis e públicos-alvo_
 
 * Correção de um erro que ocorria ao adicionar vários filtros na consulta de um público-alvo.
 * Correção de um problema de exibição que ocorria ao alterar a imagem de um perfil.
