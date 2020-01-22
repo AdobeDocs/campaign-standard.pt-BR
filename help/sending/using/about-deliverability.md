@@ -13,16 +13,14 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: 02b8d847d4506eca96abfa27db1e2efadc2a68d2
 
 ---
 
 
 # Sobre a deliverability{#about-deliverability}
 
-Disponibilidade ou como medir o sucesso de suas campanhas atingindo a caixa de entrada dos destinatários sem saltar ou sendo marcado como spam.
-
-O Adobe Campaign Deliverability é um serviço pago disponível em diferentes ofertas. Entre em contato com o material de entrega ou o serviço comercial.
+A capacidade de entrega permite medir o sucesso de suas campanhas atingindo a caixa de entrada dos destinatários sem saltar ou sendo marcada como spam.
 
 A taxa de entrega depende de vários fatores, especialmente:
 
@@ -73,7 +71,7 @@ Geralmente, os provedores de internet têm um meio proeminente de reportar uma m
 
 ## Enviar para endereços em lojas {#honeypot-addresses}
 
-Os provedores de acesso e outras organizações (consulte https://www.projecthoneypot.org/) usam caixas de correio que não correspondem às pessoas físicas, mas são criadas apenas para enganar spammers. Estes chamados endereços "mel pot" são publicados na Web para serem recolhidos por spambots e, por conseguinte, capturar remetentes ilegítimos. O uso de um mecanismo de aceitação dupla impede que esse tipo de endereço seja adicionado a uma lista. Ao usar uma lista de terceiros, é necessário ter certeza dos métodos empregados pelo seu responsável principal.
+Os provedores de acesso e outras organizações (consulte https://www.projecthoneypot.org/) usam caixas de correio que não correspondem às pessoas físicas, mas são criadas apenas para enganar spammers. Estes chamados endereços &quot;mel pot&quot; são publicados na Web para serem recolhidos por spambots e, por conseguinte, capturar remetentes ilegítimos. O uso de um mecanismo de aceitação dupla impede que esse tipo de endereço seja adicionado a uma lista. Ao usar uma lista de terceiros, é necessário ter certeza dos métodos empregados pelo seu responsável principal.
 
 ## Adaptação do conteúdo da mensagem {#adapt-message-content}
 
