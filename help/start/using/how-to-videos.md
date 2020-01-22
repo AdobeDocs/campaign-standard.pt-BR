@@ -12,14 +12,14 @@ discoiquuid: 524ff9a2-fdaa-46bd-bfe6-f03a50461247
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 66cd1df8723971fc4dc95b40d5ef46493a055306
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
 
 # Vídeos explicativos{#how-to-videos}
 
-Descubra os principais recursos assistindo nossos vídeos [](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html)práticos do Campaign Standard.
+Descubra os principais recursos assistindo nossos vídeos [](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)práticos do Campaign Standard.
 
 * [Criação de um email](https://video.tv.adobe.com/v/23721?captions=por_br): crie um email a partir da página inicial no Adobe Campaign.
 * [Criação de uma página](https://video.tv.adobe.com/v/24093?captions=por_br)inicial: crie e edite uma página de aterrissagem no Adobe Campaign.
