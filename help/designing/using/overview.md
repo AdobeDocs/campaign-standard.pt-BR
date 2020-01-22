@@ -1,18 +1,18 @@
 ---
 title: Uso do Designer de email
 description: Descubra o Designer de email e como ele ativa o conteúdo de design de email.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: concepção
-content-type: referência
-topic-tags: edição-email-conteúdo
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -23,31 +23,31 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 O Designer de email permite que você crie conteúdo de email e modelos de conteúdo de email. Ele é compatível com e-mails simples, e-mails transacionais, e-mails de teste A/B, e-mails multilíngues e e e-mails recorrentes.
 
-Para começar a usar o Designer de email, assista a esse [conjunto de vídeos](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#GettingStarted) que explicam a funcionalidade geral do Designer de email e como projetar um email do zero ou usando modelos.
+Para começar a usar o Designer de email, assista a esse [conjunto de vídeos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) que explicam a funcionalidade geral do Designer de email e como projetar um email do zero ou usando modelos.
 
 ### Página inicial do Designer de email {#email-designer-home-page}
 
-Ao [criar um email](../../channels/using/creating-an-email.md)**[!UICONTROL Email Designer]** , a página inicial é exibida automaticamente ao selecionar o conteúdo do email.
+Ao [criar um email](../../channels/using/creating-an-email.md)**[!UICONTROL Email Designer]**, a página inicial é exibida automaticamente ao selecionar o conteúdo do email.
 
 ![](assets/email_designer_home_page.png)
 
-A **[!UICONTROL Properties]** guia permite que você edite detalhes do email, como o rótulo, o endereço e o nome do remetente ou o assunto do email. Você também pode acessar essa guia clicando no rótulo do email na parte superior da tela.
+A **[!UICONTROL Properties]**guia permite que você edite detalhes do email, como o rótulo, o endereço e o nome do remetente ou o assunto do email. Você também pode acessar essa guia clicando no rótulo do email na parte superior da tela.
 
 ![](assets/email_designer_home_properties.png)
 
-A **[!UICONTROL Templates]** guia permite escolher entre o conteúdo HTML predefinido ou os modelos que você já criou para iniciar rapidamente a criação do seu email. Consulte Modelos [de](../../designing/using/using-reusable-content.md#content-templates)conteúdo.
+A **[!UICONTROL Templates]**guia permite escolher entre o conteúdo HTML predefinido ou os modelos que você já criou para iniciar rapidamente a criação do seu email. Consulte Modelos[de](../../designing/using/using-reusable-content.md#content-templates)conteúdo.
 
 ![](assets/email_designer_home_templates.png)
 
-A **[!UICONTROL Learn & support]** guia fornece acesso fácil à documentação e aos tutoriais relacionados.
+A **[!UICONTROL Learn & support]**guia fornece acesso fácil à documentação e aos tutoriais relacionados.
 
 ![](assets/email_designer_home_support.png)
 
 Se você não selecionar um modelo, a página inicial do Email Designer também permitirá que você escolha como deseja começar a criar seu conteúdo:
 
-* Clique no **[!UICONTROL Create]** botão para iniciar um novo conteúdo do zero. Consulte [Criar um conteúdo de email do zero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
-* Clique no **[!UICONTROL Upload]** botão para carregar um arquivo do seu computador. Consulte [Importar conteúdo de um arquivo](../../designing/using/using-existing-content.md#importing-content-from-a-file).
-* Clique no **[!UICONTROL Import from URL]** botão para recuperar o conteúdo existente de um URL. Consulte [Importar conteúdo de um URL](../../designing/using/using-existing-content.md#importing-content-from-a-url).
+* Clique no **[!UICONTROL Create]**botão para iniciar um novo conteúdo do zero. Consulte[Criar um conteúdo de email do zero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+* Clique no **[!UICONTROL Upload]**botão para carregar um arquivo do seu computador. Consulte[Importar conteúdo de um arquivo](../../designing/using/using-existing-content.md#importing-content-from-a-file).
+* Clique no **[!UICONTROL Import from URL]**botão para recuperar o conteúdo existente de um URL. Consulte[Importar conteúdo de um URL](../../designing/using/using-existing-content.md#importing-content-from-a-url).
 
 ### Interface do Designer de email {#email-designer-interface}
 
@@ -77,13 +77,13 @@ A barra de ferramentas **** Contextual da interface do editor oferece várias fu
 
 **Componentes** da estrutura: Elementos estruturais que definem o layout do email
 
-**Componentes** do conteúdo:Os componentes do conteúdo são componentes brutos e vazios que podem ser editados depois de enviados por email.
+**Componentes** do conteúdo: Os componentes do conteúdo são componentes brutos e vazios que podem ser editados depois de enviados por email.
 
 ### Práticas recomendadas de design de conteúdo {#content-design-best-practices}
 
 Para fazer o uso correto do Designer de e-mail e criar os melhores e-mails da maneira mais simples possível, recomendamos a aplicação dos seguintes princípios:
 
-* Use o estilo em linha em vez de um CSS e CSS separados na seção &lt;head&gt; do HTML. Ao usar o estilo em linha, é possível otimizar a gravação e a reutilização do fragmento do conteúdo.
+* Use o estilo em linha em vez de um CSS e CSS separados na seção &lt;head> do HTML. Ao usar o estilo em linha, é possível otimizar a gravação e a reutilização do fragmento do conteúdo.
 
    Consulte [Adicionar atributos](../../designing/using/styles.md#adding-inline-styling-attributes)de estilização em linha.
 
@@ -112,7 +112,7 @@ O Designer de e-mail está em melhoria contínua. Se você criou um conteúdo de
 
 ![](assets/email_designer_fragment_patch_message.png)
 
-A Adobe recomenda atualizar seu conteúdo para a versão mais recente para evitar problemas como problemas de colisão de CSS. Click **[!UICONTROL Update now]**.
+A Adobe recomenda atualizar seu conteúdo para a versão mais recente para evitar problemas como problemas de colisão de CSS. Clique em **[!UICONTROL Update now]**.
 
 Se ocorrer um erro durante a atualização do conteúdo, verifique seu HTML e corrija-o antes de executar esta atualização novamente.
 
