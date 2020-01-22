@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b26f83cd84d85d4794278af5df5d4308b2de467f
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -46,7 +46,7 @@ Ao editar conteúdo com o Designer de email, você também pode criar modelos de
 
 **Tópicos relacionados:**
 
-* Saiba como personalizar modelos de conteúdo [neste vídeo](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html).
+* Saiba como personalizar modelos de conteúdo [neste vídeo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-content-templates.html).
 * Para obter mais informações sobre edição de conteúdo, consulte [Sobre design](../../designing/using/designing-content-in-adobe-campaign.md)de conteúdo de email.
 
 ### Creating a content template {#creating-a-content-template}
