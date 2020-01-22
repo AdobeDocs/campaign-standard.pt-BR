@@ -1,19 +1,19 @@
 ---
 title: Gerenciamento de perfis de teste e envio de provas
 description: Saiba como gerenciar perfis e provas de teste.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: envio
-content-type: referência
-topic-tags: mensagens de preparação e teste
+audience: sending
+content-type: reference
+topic-tags: preparing-and-testing-messages
 discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
-context-tags: sementeMember,visão geral
+context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -42,11 +42,11 @@ Um perfil de teste contém informações de contato fictícias, ou informações
 
 ### Criação de perfis de teste {#creating-test-profiles}
 
-1. No menu avançado, por meio do logotipo do Adobe Campaign, selecione **Perfis e públicos-alvo &gt; Testar perfis** para acessar a lista de perfis de teste.
+1. No menu avançado, por meio do logotipo do Adobe Campaign, selecione **Perfis e públicos-alvo > Testar perfis** para acessar a lista de perfis de teste.
 
    ![](assets/test_profile_creation_1.png)
 
-1. No **[!UICONTROL Test profiles]** painel, clique em **Criar**.
+1. No **[!UICONTROL Test profiles]**painel, clique em** Criar **.
 
    ![](assets/test_profile_creation_2.png)
 
@@ -62,16 +62,16 @@ Um perfil de teste contém informações de contato fictícias, ou informações
 
    >[!NOTE]
    >
-   >Você pode definir um formato de email preferencial: **[!UICONTROL Text]** ou **[!UICONTROL HTML]**.
+   >Você pode definir um formato de email preferencial: **[!UICONTROL Text]**ou**[!UICONTROL HTML]**.
 
 1. Especifique um tipo de evento e os dados para esse evento se desejar usar esse perfil de teste para testar a personalização de uma mensagem transacional.
-1. Clique em **[!UICONTROL Create]** para salvar o perfil de teste.
+1. Clique em **[!UICONTROL Create]**para salvar o perfil de teste.
 
 O perfil de teste será então adicionado à lista de perfis.
 
 **Tópico relacionado:**
 
-[Criação de um vídeo de perfil](https://helpx.adobe.com/campaign/kt/acs/using/acs-test-profiles-feature-video-use.html) de teste
+[Criação de um vídeo de perfil](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/test-profiles.html) de teste
 
 ### Editar perfis de teste {#editing-test-profiles}
 
@@ -82,7 +82,7 @@ Para editar um perfil de teste e consultar os dados vinculados a ele, ou para mo
 
    ![](assets/test_profile_edit.png)
 
-1. Clique **[!UICONTROL Save]** se tiver inserido suas alterações ou selecione o nome do perfil de teste e, em seguida, **[!UICONTROL Test profiles]** na seção na parte superior da tela para voltar ao painel de perfis de teste.
+1. Clique **[!UICONTROL Save]**se tiver inserido suas alterações ou selecione o nome do perfil de teste e, em seguida,**[!UICONTROL Test profiles]** na seção na parte superior da tela para voltar ao painel de perfis de teste.
 
 ## Envio de provas {#sending-proofs}
 
@@ -94,13 +94,13 @@ Para enviar uma prova, os perfis de teste devem ser incluídos no público-alvo 
 
 Em uma mensagem:
 
-1. Click the **[!UICONTROL Send a test]** button.
+1. Clique no botão **[!UICONTROL Send a test]**.
 
    ![](assets/bat_select.png)
 
 1. Selecione o tipo de prova que deseja usar:
 
-   * **[!UICONTROL Email rendering]**: selecione essa opção para testar a forma como sua mensagem é recebida de acordo com as caixas de entrada direcionadas. Para obter mais informações, consulte Renderização [por](../../sending/using/email-rendering.md)email.
+   * **[!UICONTROL Email rendering]**: selecione essa opção para testar a forma como sua mensagem é recebida de acordo com as caixas de entrada direcionadas. Para obter mais informações, consulte Renderização[por](../../sending/using/email-rendering.md)email.
    * **[!UICONTROL Proof]**: selecione essa opção para testar a mensagem antes de enviá-la para o destino principal. Os destinatários da prova são responsáveis por aprovar a entrega, verificando tanto seu conteúdo quanto seu formato.
    * **[!UICONTROL Proof + Email rendering]**: essa opção combina as duas opções anteriores.
    ![](assets/bat_select1.png)
@@ -111,21 +111,21 @@ Em uma mensagem:
 
    ![](assets/bat_select2.png)
 
-1. Você pode exibir suas provas usando a lista **[!UICONTROL Proofs]** suspensa.
+1. Você pode exibir suas provas usando a lista **[!UICONTROL Proofs]**suspensa.
 
    ![](assets/bat_view.png)
 
-1. Selecione uma prova para acessar seu resumo. Para um email, se você selecionou a opção de renderização **de** email como o tipo de prova, o **[!UICONTROL Access email rendering]** ícone será exibido à direita do rótulo de prova. Consulte Renderização [por](../../sending/using/email-rendering.md)email.
+1. Selecione uma prova para acessar seu resumo. Para um email, se você selecionou a opção de renderização **de** email como o tipo de prova, o **[!UICONTROL Access email rendering]**ícone será exibido à direita do rótulo de prova. Consulte Renderização[por](../../sending/using/email-rendering.md)email.
 
    ![](assets/bat_view2.png)
 
-Dependendo dos comentários das pessoas que recebem a prova, você pode ser solicitado a modificar o conteúdo da entrega. Uma vez que as modificações tenham sido feitas, é necessário reiniciar a preparação do email e, em seguida, reenviar uma prova. Cada nova prova pode ser acessada usando o **[!UICONTROL Show proofs]** botão.
+Dependendo dos comentários das pessoas que recebem a prova, você pode ser solicitado a modificar o conteúdo da entrega. Uma vez que as modificações tenham sido feitas, é necessário reiniciar a preparação do email e, em seguida, reenviar uma prova. Cada nova prova pode ser acessada usando o **[!UICONTROL Show proofs]**botão.
 
 É necessário enviar tantas provas quantas forem necessárias até que você tenha concluído o conteúdo de sua entrega. Quando isso estiver concluído, você poderá enviar a entrega para o destino principal e fechar o ciclo de aprovação.
 
 **Tópico relacionado:**
 
-[Envio de um teste, preparação e envio de um vídeo por email](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html)
+[Envio de um teste, preparação e envio de um vídeo por email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html)
 
 ## Uso de traps {#using-traps}
 
@@ -152,16 +152,16 @@ Para usar um perfil de teste como armadilha, ele deve ser incluído no público-
 
 Ao definir o público-alvo de uma mensagem:
 
-1. Na **[!UICONTROL Test profiles]** guia, selecione um perfil de teste. Certifique-se de que tem **[!UICONTROL Trap]** o uso pretendido.
+1. Na **[!UICONTROL Test profiles]**guia, selecione um perfil de teste. Certifique-se de que tem**[!UICONTROL Trap]** o uso pretendido.
 
    ![](assets/trap_select.png)
 
-1. Quando o conteúdo da mensagem estiver pronto, clique no **[!UICONTROL Prepare]** botão. See [Preparing the send](../../sending/using/preparing-the-send.md).
+1. Quando o conteúdo da mensagem estiver pronto, clique no **[!UICONTROL Prepare]**botão. See[Preparing the send](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
    >Certifique-se de selecionar um destino principal. Caso contrário, sua mensagem não poderá ser enviada.
 
-1. Click the **[!UICONTROL Confirm]** button. See [Confirming the send](../../sending/using/confirming-the-send.md).
+1. Clique no botão **[!UICONTROL Confirm]**. See[Confirming the send](../../sending/using/confirming-the-send.md).
 
    ![](assets/trap_confirm.png)
 
