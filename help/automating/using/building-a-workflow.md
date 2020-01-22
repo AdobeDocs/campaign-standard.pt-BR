@@ -1,19 +1,19 @@
 ---
 title: Criação de um fluxo de trabalho
 description: Esta seção detalha os principais princípios e as práticas recomendadas para criação de novo workflow.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 11374f64-8d34-40da-937b-09f419250f4c
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatização
-content-type: referência
-topic-tags: fluxo de trabalho geral-operação
+audience: automating
+content-type: reference
+topic-tags: workflow-general-operation
 discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
-context-tags: fluxo de trabalho,assistente;fluxo de trabalho,principal
+context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -58,7 +58,7 @@ A criação de uma atividade de marketing é detalhada na seção [Criação de 
 
 **Tópico relacionado:**
 
-[Criação de um vídeo de fluxo de trabalho](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-workflow-feature-video-use.html)
+[Criação de um vídeo de fluxo de trabalho](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html)
 
 ## Adição e vínculo de atividades {#adding-and-linking-activities}
 
@@ -95,7 +95,7 @@ Criação do diagrama:
 
 Assim que suas atividades de fluxo de trabalho estiverem vinculadas, você poderá personalizar as transições entre elas com o **rótulo** de sua escolha. Para fazer isso, clique duas vezes na transição para acessar suas propriedades.
 
-Além disso, **[!UICONTROL Targeting]** e **[!UICONTROL Data management (ETL)]** as atividades permitem definir códigos **de** segmento para suas transições de saída. Em seguida, você pode criar relatórios com base nesses códigos de segmento para medir a eficiência de suas campanhas de marketing. Para obter mais informações, consulte [esta seção](../../reporting/using/creating-a-report-workflow-segment.md).
+Além disso, **[!UICONTROL Targeting]**e**[!UICONTROL Data management (ETL)]** as atividades permitem definir códigos **de** segmento para suas transições de saída. Em seguida, você pode criar relatórios com base nesses códigos de segmento para medir a eficiência de suas campanhas de marketing. Para obter mais informações, consulte [esta seção](../../reporting/using/creating-a-report-workflow-segment.md).
 
 **Casos de uso do fluxo de trabalho:**
 
@@ -109,7 +109,7 @@ Além disso, **[!UICONTROL Targeting]** e **[!UICONTROL Data management (ETL)]**
 Por padrão, as atividades não são definidas e não processarão os dados corretamente se não estiverem configuradas. Cada atividade contém várias guias para gerenciar configurações específicas e opções genéricas de atividade, como transições de saída, etiquetas etc.
 
 1. Verifique se todas as atividades estão conectadas corretamente. Algumas atividades exigem a detecção da estrutura ou da natureza dos dados recebidos para oferecer as opções de configuração corretas.
-1. Clique duas vezes em uma atividade ou selecione-a e clique na ação **[!UICONTROL Edit]** contextual para abrir sua janela de configuração.
+1. Clique duas vezes em uma atividade ou selecione-a e clique na ação **[!UICONTROL Edit]**contextual para abrir sua janela de configuração.
 1. Edite o rótulo da atividade.
 1. Defina todas as opções diferentes necessárias para processar os dados. Consulte a seção específica da atividade desta documentação para saber mais sobre as possíveis opções para cada atividade.
 1. Salve a atividade e repita essas operações para cada atividade do fluxo de trabalho.
