@@ -12,20 +12,24 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 3c80adb087be0cf420503169f7edf06bd8ae33e0
 
 ---
 
 
 # Sobre a extensão da API{#about-extending-the-api}
 
-Este caso de uso detalha a exposição dos campos estendidos para os Perfis de recurso personalizados na API Perfis públicos. Por exemplo, para atualizar instantaneamente o perfil de um cliente com um código promocional gerado de um sistema de cobrança.
+Este caso de uso detalha a exposição de campos estendidos para os Perfis de recurso personalizados na API Perfis públicos. Por exemplo, para atualizar instantaneamente o perfil de um cliente com um código promocional gerado de um sistema de cobrança.
 
-Para publicar a API, é necessário ter a **[!UICONTROL Datamodel]** função.
+>[!NOTE]
+>
+>Para publicar a API, verifique se você tem a **[!UICONTROL Datamodel]**função.
 
-* Extensão do recurso personalizado Perfis
-* Publicar a extensão
-* Verificação de que os campos estendidos estão disponíveis na API
+As etapas para expor campos estendidos na API pública são as seguintes:
+
+1. [Adicionar os campos de extensão ao recurso Perfil](../../developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
+1. [Publicar a extensão](../../developing/using/step-2--publish-the-extension.md)
+1. [Verifique se os novos campos estendidos estão disponíveis na API](../../developing/using/step-3--verify-the-extension.md)
 
 **Tópicos relacionados:**
 
