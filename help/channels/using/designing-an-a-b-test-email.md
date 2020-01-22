@@ -13,7 +13,7 @@ context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -43,7 +43,7 @@ No contexto específico de um teste A/B:
 
    >[!NOTE]
    >
-   >Os modelos de teste A/B e de acompanhamento estão ocultos por padrão. Marque a caixa de teste A/B no lado esquerdo (painel **[!UICONTROL Filter]** lateral) para exibi-los.
+   >Os modelos de teste A/B e de acompanhamento estão ocultos por padrão. Marque a caixa de teste A/B no lado esquerdo (painel **[!UICONTROL Filter]**lateral) para exibi-los.
 
 1. Defina as propriedades gerais e o público-alvo do email, assim como um email padrão. Consulte a seção [Criação de públicos-alvo](../../audiences/using/creating-audiences.md) .
 1. Na quarta etapa do assistente de criação, defina os parâmetros de teste A/B:
@@ -63,7 +63,7 @@ No contexto específico de um teste A/B:
 
 1. Confirme a criação do email. O painel de email será exibido.
 1. Agende o envio. A data definida indica o início do teste A/B.
-1. Verifique os parâmetros de teste A/B exibidos no **[!UICONTROL A/B test parameters]** bloco. Você pode modificá-los até confirmar o envio do teste (etapa 9) selecionando o bloco.
+1. Verifique os parâmetros de teste A/B exibidos no **[!UICONTROL A/B test parameters]**bloco. Você pode modificá-los até confirmar o envio do teste (etapa 9) selecionando o bloco.
 
    ![](assets/create_ab_testing3.png)
 
@@ -71,13 +71,13 @@ No contexto específico de um teste A/B:
 1. Antes de enviar o teste A/B, verifique seu email enviando provas.
 1. Após a conclusão da preparação, confirme o envio do teste. Depois de confirmado, os parâmetros de teste A/B não podem ser modificados.
 
-   O teste A/B é iniciado na data definida no **[!UICONTROL Schedule]**.Você pode rastrear o progresso usando os blocos **[!UICONTROL A/B test]** e **[!UICONTROL Deployment]** .
+   O teste A/B é iniciado na data definida no **[!UICONTROL Schedule]**.Você pode rastrear o progresso usando os blocos**[!UICONTROL A/B test]** e **[!UICONTROL Deployment]**.
 
    Você pode selecionar manualmente a variante vencedora a qualquer momento se desejar reduzir a duração do teste.
 
-   Quando o teste terminar, uma tabela de resumo será exibida no **[!UICONTROL A/B Test]** bloco e isso permitirá que você visualize os vários indicadores das diferentes variantes que foram testadas.
+   Quando o teste terminar, uma tabela de resumo será exibida no **[!UICONTROL A/B Test]**bloco e isso permitirá que você visualize os vários indicadores das diferentes variantes que foram testadas.
 
-1. Se você tiver selecionado **[!UICONTROL Send after confirmation]** como o método de envio, é necessário selecionar manualmente a variante vencedora para começar a enviá-la para a população restante. Se você tiver selecionado **[!UICONTROL Automatic]**, a variante vencedora será enviada automaticamente para a população restante assim que for determinada pelo sistema.
+1. Se você tiver selecionado **[!UICONTROL Send after confirmation]**como o método de envio, é necessário selecionar manualmente a variante vencedora para começar a enviá-la para a população restante. Se você tiver selecionado**[!UICONTROL Automatic]**, a variante vencedora será enviada automaticamente para a população restante assim que for determinada pelo sistema.
 
    >[!NOTE]
    >
@@ -87,10 +87,10 @@ Seu email agora está definido e enviado. Você pode acessar seus registros e re
 
 **Tópico** relacionado:
 
-[Criação de um vídeo de email](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html)
+[Criação de um vídeo de email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)
 
 ## Sobre indicadores de teste A/B {#about-a-b-test-indicators}
 
 No painel de email, vários indicadores estão disponíveis para ajudá-lo a medir seu teste A/B: número de cliques, aberturas, rejeições e assim por diante.
 
-Observe que o **[!UICONTROL Estimated recipient reactivity]** indicador é uma taxa que compara o número de destinatários que clicaram com o número de destinatários que abriram o email. Por exemplo, se 10 destinatários abriram o email e 5 destinatários clicaram nele. A taxa de reatividade é de 50%.
+Observe que o **[!UICONTROL Estimated recipient reactivity]**indicador é uma taxa que compara o número de destinatários que clicaram com o número de destinatários que abriram o email. Por exemplo, se 10 destinatários abriram o email e 5 destinatários clicaram nele. A taxa de reatividade é de 50%.
