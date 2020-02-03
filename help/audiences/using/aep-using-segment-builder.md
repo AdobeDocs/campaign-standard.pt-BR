@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 17545fc4ea58e5220c66f90eafcbfcfca50bf661
+source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
 
 ---
 
@@ -77,6 +77,12 @@ Os campos são organizados em guias:
 * **[!UICONTROL Events]**: Atividades que identificam os consumidores que tiveram alguma interação com os pontos de contato dos clientes da sua empresa, como &quot;qualquer pessoa que tenha feito pedidos duas vezes em duas semanas&quot;. Isso pode ser transmitido do Adobe Analytics ou assimilado diretamente na Adobe Experience Platform usando ferramentas ETL de terceiros.
 
    ![](assets/aep_audiences_eventstab.png)
+
+>[!NOTE]
+>
+>**A segmentação** de várias entidades permite estender os dados de perfil com dados adicionais baseados em produtos, lojas ou outras classes que não sejam de perfil. Depois de conectados, os dados de classes adicionais ficam disponíveis como se fossem nativos no esquema de perfil.
+>
+>For more on this, refer to the [dedicated documentation](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md).
 
 Por padrão, o Construtor de segmentos unificados exibe campos para os quais os dados estão presentes. Para exibir o esquema completo, incluindo campos para os quais os dados não estão presentes, ative a **[!UICONTROL Show full XDM schema]**opção nas configurações.
 
