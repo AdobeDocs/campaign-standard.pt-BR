@@ -1,18 +1,18 @@
 ---
 title: Práticas recomendadas para fluxos de trabalho
 description: Saiba como aplicar as práticas recomendadas aos seus fluxos de trabalho.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatização
-content-type: referência
-topic-tags: fluxo de trabalho geral-operação
-context-tags: fluxo de trabalho,visão geral;fluxo de trabalho,principal
+audience: automating
+content-type: reference
+topic-tags: workflow-general-operation
+context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
 
 ---
 
@@ -40,7 +40,7 @@ Por exemplo:
 
 ## Fluxos de trabalho duplicados{#duplicating-workflows}
 
-É possível duplicar fluxos de trabalho. No **[!UICONTROL Marketing Activities]**, passe o mouse sobre o fluxo de trabalho e clique em **[!UICONTROL Duplicate element]**. Após a duplicação, as modificações do fluxo de trabalho não são transferidas para a cópia do fluxo de trabalho. A cópia do fluxo de trabalho pode ser editada.
+É possível duplicar fluxos de trabalho. No **[!UICONTROL Marketing Activities]**, passe o mouse sobre o fluxo de trabalho e clique em**[!UICONTROL Duplicate element]**. Após a duplicação, as modificações do fluxo de trabalho não são transferidas para a cópia do fluxo de trabalho. A cópia do fluxo de trabalho pode ser editada.
 
 ![](assets/duplicating_workflow.png)
 
@@ -66,13 +66,18 @@ Um fluxo de trabalho que contém transições não terminadas ainda pode ser exe
 
 Para obter mais informações, consulte [Executando fluxos de trabalho](../../automating/using//executing-a-workflow.md).
 
+### Fuso horário
+
+As propriedades do fluxo de trabalho permitem definir um fuso horário específico que será usado por padrão em todas as atividades. Por padrão, o fuso horário do fluxo de trabalho é o definido para o operador atual da Campanha.
+
+
 ## Activity{#activity}
 
 ### Design do fluxo de trabalho
 
 Para garantir que o fluxo de trabalho termine corretamente, use um **[!UICONTROL End activity]**. Evite deixar a última transição de um fluxo de trabalho por conta própria.
 
-Para acessar a exibição detalhada das transições, marque a **[!UICONTROL Keep interim results]** opção na seção Execução das propriedades do fluxo de trabalho.
+Para acessar a exibição detalhada das transições, marque a **[!UICONTROL Keep interim results]**opção na seção Execução das propriedades do fluxo de trabalho.
 
 >[!CAUTION]
 >
@@ -91,7 +96,7 @@ Para duplicar atividades existentes, é possível usar copiar e colar. Desta for
 
 ###  Atividade do agendador{#acheduler-activity}
 
-When building your workflow, only use one **[!UICONTROL Scheduler activity]** per branch. Se a mesma ramificação de um workflow tiver vários schedulers (vinculados uns aos outros), o número de tarefas a serem executadas será multiplicado exponencialmente, o que irá sobrecarregar consideravelmente o banco de dados.
+Ao criar seu fluxo de trabalho, use apenas um **[!UICONTROL Scheduler activity]**por ramificação. Se a mesma ramificação de um workflow tiver vários schedulers (vinculados uns aos outros), o número de tarefas a serem executadas será multiplicado exponencialmente, o que irá sobrecarregar consideravelmente o banco de dados.
 
 Você pode visualizar as próximas dez execuções dos fluxos de trabalho clicando em **[!UICONTROL Preview next executions]**.
 
@@ -114,8 +119,8 @@ Para obter mais informações, consulte [Gerenciamento de pacotes](../../automat
 
 ## Exportar listas{#exporting-lists}
 
-A opção de lista de exportação permite exportar um máximo de 100.000 linhas por padrão e definidas pela opção **** Nms_ExportListLimit. Essa opção pode ser gerenciada pelo administrador funcional, em **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Options]**.
-Para obter mais informações, consulte [Exportar listas](../../automating/using/exporting-lists.md).
+A opção de lista de exportação permite exportar um máximo de 100.000 linhas por padrão e definidas pela opção **** Nms_ExportListLimit. Essa opção pode ser gerenciada pelo administrador funcional, em **[!UICONTROL Administration]**>**[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
+Para obter mais informações, consulte[Exportar listas](../../automating/using/exporting-lists.md).
 
 ## Solução de problemas{#workflow-troubleshooting}
 
@@ -132,14 +137,14 @@ Para obter mais informações, consulte [Monitoramento da execução](../../auto
 É possível analisar consultas SQL na guia Log.
 
 1. Na área de trabalho do fluxo de trabalho, clique em **[!UICONTROL Edit properties]**.
-1. Em **[!UICONTROL General]** &gt; **[!UICONTROL Execution]**, verifique as opções **[!UICONTROL Save SQL queries in the log]** e **[!UICONTROL Execute in the engine]** e clique em **[!UICONTROL Confirm]**.
+1. Em **[!UICONTROL General]**>**[!UICONTROL Execution]**, verifique as opções **[!UICONTROL Save SQL queries in the log]**e**[!UICONTROL Execute in the engine]** e clique em **[!UICONTROL Confirm]**.
 
 **Para ver consultas SQL no Log:**
-1. Click **[!UICONTROL Log and Tasks]**.
-1. Na **[!UICONTROL Logs]** guia, abra o **[!UICONTROL Search]** painel.
+1. Clique em **[!UICONTROL Log and Tasks]**.
+1. Na **[!UICONTROL Logs]**guia, abra o**[!UICONTROL Search]** painel.
 1. Cheque **[!UICONTROL Display SQL logs only]**.
 
-A consulta é exibida na **[!UICONTROL Message]** coluna dos logs.
+A consulta é exibida na **[!UICONTROL Message]**coluna dos logs.
 
 ### Uso de registros de entrega{#using-delivery-logs}
 
