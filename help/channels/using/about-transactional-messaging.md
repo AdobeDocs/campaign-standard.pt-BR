@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 3c45cbbb261f18252689d0fc4f332b9f45137c85
 
 ---
 
@@ -46,6 +46,10 @@ O tipo de mensagem é definido ao configurar o evento que será transformado em 
 
 As mensagens transacionais também estão disponíveis na API do Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](../../api/using/managing-transactional-messages.md).
 
+>[!IMPORTANT]
+>
+>Após a atualização para o MTA [](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)aprimorado, todas as mensagens transacionais são enviadas com o MTA aprimorado do Adobe Campaign para melhorar a entrega, a throughput e a manipulação de rejeição. Todos os impactos são os mesmos das mensagens de marketing padrão e são detalhados no documento MTA [aprimorado do](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) Adobe Campaign.
+
 ## Princípio operacional do sistema de mensagens transacional {#transactional-messaging-operating-principle}
 
 Vamos pegar o exemplo de uma empresa que tem um site e seus usuários podem comprar produtos nesse site.
@@ -54,7 +58,7 @@ O Adobe Campaign permite que você envie um email de notificação para usuário
 
 As etapas para colocar isso em prática são:
 
-1. Configure um evento que será chamado de "abandono do carrinho" e publique essa configuração de evento, o que cria automaticamente uma mensagem transacional. A criação e publicação de um evento são apresentadas na seção [Configuração de um evento para enviar uma mensagem](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) transacional de evento.
+1. Configure um evento que será chamado de &quot;abandono do carrinho&quot; e publique essa configuração de evento, o que cria automaticamente uma mensagem transacional. A criação e publicação de um evento são apresentadas na seção [Configuração de um evento para enviar uma mensagem](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) transacional de evento.
 1. A mensagem transacional tem de ser personalizada, testada, depois publicada. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 1. Além disso, para que o evento seja acionado quando um cliente abandona seu carrinho, esse evento deve ser enviado do site da empresa usando a API REST do Adobe Campaign Standard. Consulte Integração [do site](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website).
 
@@ -80,7 +84,7 @@ Como você está projetando e publicando mensagens transacionais, algumas das et
 
 * Somente um canal pode ser usado para cada configuração de evento. Consulte [Criação de um evento](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
 * Depois que o evento é criado, não é possível alterar o canal. Portanto, se uma mensagem não for enviada com êxito, será necessário projetar o mecanismo que permite enviá-la de outro canal usando um fluxo de trabalho. See [Workflow data and processes](../../automating/using/workflow-data-and-processes.md).
-* Não é possível alterar a dimensão de definição de metas ( **[!UICONTROL Real-time event]** ou **[!UICONTROL Profile]** ) após a criação do evento. Consulte [Criação de um evento](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
+* Não é possível alterar a dimensão de definição de metas ( **[!UICONTROL Real-time event]**ou**[!UICONTROL Profile]** ) após a criação do evento. Consulte [Criação de um evento](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
 * Não é possível reverter uma publicação, mas você pode cancelar a publicação de um evento: esta operação torna o evento e a mensagem transacional associada inacessíveis. Consulte [Cancelar publicação de um evento](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
 * A única mensagem transacional que pode ser associada a um evento é a mensagem que é criada automaticamente após a publicação desse evento. Consulte [Visualizar e publicar o evento](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event).
 
@@ -105,17 +109,17 @@ Observe que as listas de produtos estão disponíveis somente em mensagens de em
 
 ### Permissões e marcas {#permissions-and-branding}
 
-Quando se trata de gerenciamento de [marcas](../../administration/using/branding.md) , as mensagens transacionais permitem menos flexibilidade do que as mensagens padrão. A Adobe recomenda vincular todas as marcas usadas em mensagens transacionais à unidade **[!UICONTROL All]** [](../../administration/using/organizational-units.md)organizacional. Para mais informações, leia a explicação detalhada abaixo.
+Quando se trata de gerenciamento de [marcas](../../administration/using/branding.md) , as mensagens transacionais permitem menos flexibilidade do que as mensagens padrão. A Adobe recomenda vincular todas as marcas usadas em mensagens transacionais à unidade **[!UICONTROL All]**[](../../administration/using/organizational-units.md)organizacional. Para mais informações, leia a explicação detalhada abaixo.
 
-Ao editar uma mensagem transacional, você pode vinculá-la a uma marca para aplicar automaticamente alguns parâmetros, como o nome da marca ou o logotipo da marca. A opção **[!UICONTROL Default brand]** é selecionada por padrão nas propriedades da mensagem transacional.
+Ao editar uma mensagem transacional, você pode vinculá-la a uma marca para aplicar automaticamente alguns parâmetros, como o nome da marca ou o logotipo da marca. A opção **[!UICONTROL Default brand]**é selecionada por padrão nas propriedades da mensagem transacional.
 
 ![](assets/message-center_branding.png)
 
-Todos os objetos (incluindo marcas) usados em uma mensagem transacional devem ser visíveis da unidade organizacional, o que significa que esses objetos devem estar nas unidades organizacionais **[!UICONTROL Message Center]** ou **[!UICONTROL Message Center]** **[!UICONTROL All]** .
+Todos os objetos (incluindo marcas) usados em uma mensagem transacional devem ser visíveis da unidade organizacional, o que significa que esses objetos devem estar nas unidades organizacionais **[!UICONTROL Message Center]**ou**[!UICONTROL Message Center]** **[!UICONTROL All]**.
 
-Entretanto, se a marca selecionada nas propriedades da mensagem estiver vinculada a uma unidade organizacional diferente **[!UICONTROL Message Center]** ou **[!UICONTROL All]**, isso causará um erro e você não poderá enviar a mensagem transacional.
+Entretanto, se a marca selecionada nas propriedades da mensagem estiver vinculada a uma unidade organizacional diferente **[!UICONTROL Message Center]**ou**[!UICONTROL All]**, isso causará um erro e você não poderá enviar a mensagem transacional.
 
-Portanto, se você quiser usar a multimarca no contexto de mensagens transacionais, vincule todas as marcas à unidade **[!UICONTROL Message Center]** organizacional ou à unidade **[!UICONTROL All]** organizacional.
+Portanto, se você quiser usar a multimarca no contexto de mensagens transacionais, vincule todas as marcas à unidade **[!UICONTROL Message Center]**organizacional ou à unidade**[!UICONTROL All]** organizacional.
 
 ### Exportação e importação de mensagens transacionais {#exporting-and-importing-transactional-messages}
 
