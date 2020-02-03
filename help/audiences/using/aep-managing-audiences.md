@@ -1,5 +1,5 @@
 ---
-title: Gerenciamento de públicos-alvo
+title: Gerenciamento de públicos-alvo da plataforma Adobe Experience
 description: Saiba como gerenciar a plataforma Adobe Experience no Campaign Standard.
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
@@ -13,32 +13,34 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 19b22fa0780a0bf7c4b7a559270d7c8b32d89e38
+source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
 
 ---
 
 
-# Gerenciamento de públicos-alvo {#about-audiences}
+# Gerenciamento de públicos-alvo da plataforma Adobe Experience {#about-audiences}
 
 >[!IMPORTANT]
 >
 >O Serviço de Destinos de Público-alvo está atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam estar hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente da Adobe se desejar acessar.
 
-## Acessar públicos
+## Acessar públicos-alvo da plataforma Adobe Experience
 
-Para acessar os públicos-alvo da plataforma Adobe Experience, selecione o **[!UICONTROL Audiences]**cartão na página inicial do Campaign Standard ou o**[!UICONTROL Audiences]** link e selecione **[!UICONTROL Adobe Experience Platform]**.
+Para acessar o construtor de segmentos da plataforma Adobe Experience, navegue até o **[!UICONTROL Audiences]**cartão na página inicial do Campaign Standard (ou o**[!UICONTROL Audiences]** link no cabeçalho) e selecione a **[!UICONTROL Adobe Experience Platform]**opção.
 
 ![](assets/aep_audiences_access.png)
 
-Todos os públicos-alvo criados da Adobe Experience Platform são exibidos. Uma barra de pesquisa e filtros estão disponíveis para ajudá-lo a encontrar o público-alvo desejado.
+Primeiro, você será direcionado para a página de lista de segmentos da Adobe Experience Platform, na qual os segmentos da Adobe Experience Platform já existentes podem ser acessados para edição adicional, se desejado.
+
+Uma barra de pesquisa e um filtro estão disponíveis para ajudá-lo a encontrar o segmento desejado da Adobe Experience Platform.
 
 ![](assets/aep_audiences_list.png)
 
-## Criação de públicos-alvo
+## Criação de públicos-alvo da plataforma Adobe Experience
 
-Os públicos-alvo são criados diretamente na lista de públicos-alvo da plataforma Adobe Experience. Para fazer isso, siga estas etapas:
+Para criar um público-alvo da plataforma Adobe Experience diretamente no Campaign Standard, siga estas etapas:
 
-1. Vá para a lista de públicos e clique no **[!UICONTROL New audience]**botão.
+1. Na página de lista de segmentos da Adobe Experience Platform, clique no **[!UICONTROL New audience]**botão localizado no canto direito.
 
    ![](assets/aep_audiences_creation_create.png)
 
