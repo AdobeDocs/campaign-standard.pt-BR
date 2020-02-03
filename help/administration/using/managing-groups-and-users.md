@@ -1,19 +1,19 @@
 ---
 title: Gerenciamento de grupos e usuários
 description: Saiba como criar grupos de segurança e gerenciar usuários.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: b3a3a2e3-9d69-4231-b724-8f37419f7a61
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: administração
-content-type: referência
-topic-tags: usuários e segurança
+audience: administration
+content-type: reference
+topic-tags: users-and-security
 discoiquuid: 12f896ab-ee79-4d96-976d-cf34643491b4
-context-tags: usuário,visão geral;usuário,principal;segurança,visão geral;segurança,principal
+context-tags: user,overview;user,main;security,overview;security,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
 
 ---
 
@@ -38,7 +38,11 @@ Os grupos de segurança padrão são:
 
 Se um usuário não estiver vinculado a nenhum grupo de segurança, ele não poderá acessar o Adobe Campaign.
 
-Para restringir o acesso de um usuário, não o adicione ao grupo de usuários do Campaign Standard, pois ele está vinculado à unidade **[!UICONTROL All]** organizacional.
+Para restringir o acesso de um usuário, não o adicione ao grupo de usuários do Campaign Standard, pois ele está vinculado à unidade **[!UICONTROL All]**organizacional.
+
+>[!NOTE]
+>
+>Por padrão, a unidade organizacional é atribuída ao grupo de **[!UICONTROL All (all)]****[!UICONTROL Administrators]** segurança. É somente leitura e não pode ser modificada.
 
 ## Criação de um grupo de segurança e atribuição de usuários {#creating-a-security-group-and-assigning-users}
 
@@ -62,23 +66,23 @@ Primeiro, é necessário atribuir um dos grupos de segurança prontos para uso a
 
    ![](assets/manage_security_group_2.png)
 
-1. Clique no **[!UICONTROL Add user]** botão e insira o endereço de email do usuário.
-1. Na **[!UICONTROL Assign Products]** guia, selecione a instância e, em seguida, o grupo de segurança **[!UICONTROL Administrators]** pronto para uso na lista suspensa. Isso permitirá que o usuário tenha acesso aos menus de administração e crie os próximos grupos de segurança.
+1. Clique no **[!UICONTROL Add user]**botão e insira o endereço de email do usuário.
+1. Na **[!UICONTROL Assign Products]**guia, selecione a instância e, em seguida, o grupo de segurança**[!UICONTROL Administrators]** pronto para uso na lista suspensa. Isso permitirá que o usuário tenha acesso aos menus de administração e crie os próximos grupos de segurança.
 
    ![](assets/ootb_security_group_2.png)
 
-1. Clique **[!UICONTROL Save]** e siga os mesmos procedimentos para atribuir o grupo de segurança **[!UICONTROL Standard Users]** pronto para usar ao seu novo usuário.
+1. Clique **[!UICONTROL Save]**e siga os mesmos procedimentos para atribuir o grupo de segurança**[!UICONTROL Standard Users]** pronto para usar ao seu novo usuário.
 
    ![](assets/ootb_security_group_3.png)
 
-Assim que os dois usuários estiverem conectados aos grupos de segurança **[!UICONTROL Administrators]** e prontos para uso que atribuírem funções aos nossos usuários, o usuário Administrador poderá criar os dois grupos de segurança **[!UICONTROL Standard users]** Geometrixx **e** Geometrixx Clothes **** que atribuirão unidades organizacionais aos nossos usuários, além dos grupos de segurança predefinidos.
+Assim que os dois usuários estiverem conectados aos grupos de segurança **[!UICONTROL Administrators]**e prontos para uso que atribuírem funções aos nossos usuários, o usuário Administrador poderá criar os dois grupos de segurança**[!UICONTROL Standard users]** Geometrixx **e** Geometrixx Clothes **** que atribuirão unidades organizacionais aos nossos usuários, além dos grupos de segurança predefinidos.
 
 1. No Admin Console, selecione a instância e, em seguida, a guia **Produtos** .
 1. Clique no botão **Novo perfil** para criar o grupo de segurança **Geometrixx** .
 
    ![](assets/create_security_1.png)
 
-1. Digite a sintaxe **[!UICONTROL Profile name]** a seguir: **[!UICONTROL Campaign Standard- instance name - ID of the security group]** e clique em **[!UICONTROL Done]**.
+1. Digite a sintaxe **[!UICONTROL Profile name]**a seguir:**[!UICONTROL Campaign Standard- instance name - ID of the security group]** e clique em **[!UICONTROL Done]**.
 
    A ID escolhida será usada ao criar o grupo de segurança no Adobe Campaign.
 
@@ -89,19 +93,19 @@ Assim que os dois usuários estiverem conectados aos grupos de segurança **[!UI
    ![](assets/manage_security_group_1.png)
 
 1. Em seguida, siga os mesmos procedimentos para criar o grupo de segurança **Geometrixx Clothes** .
-1. Atribua seu grupo de segurança ao usuário selecionando a **[!UICONTROL Users]** guia.
+1. Atribua seu grupo de segurança ao usuário selecionando a **[!UICONTROL Users]**guia.
 
    ![](assets/manage_security_group_2.png)
 
-1. Clique no usuário criado anteriormente e no ![](assets/managing_security_group_10.png) ícone na **[!UICONTROL Products]** categoria.
+1. Clique no usuário criado anteriormente e no ![](assets/managing_security_group_10.png) ícone na **[!UICONTROL Products]**categoria.
 
-   Selecione **[!UICONTROL Edit products assigned directly]** para começar a atribuir novo grupo de segurança ao usuário.
+   Selecione **[!UICONTROL Edit products assigned directly]**para começar a atribuir novo grupo de segurança ao usuário.
 
    ![](assets/manage_security_group_8.png)
 
-1. Na **[!UICONTROL Assign Products]** guia, selecione a instância e, em seguida, os grupos de segurança criados anteriormente pelo Geometrixx na lista suspensa para atribuí-la ao usuário Administrador.
+1. Na **[!UICONTROL Assign Products]**guia, selecione a instância e, em seguida, os grupos de segurança criados anteriormente pelo Geometrixx na lista suspensa para atribuí-la ao usuário Administrador.
 
-   Click **[!UICONTROL Save]**.
+   Clique em **[!UICONTROL Save]**.
 
    ![](assets/manage_security_group_3.png)
 
@@ -119,16 +123,16 @@ Os grupos de segurança criados recentemente são criados no Admin Console. Para
 
 O usuário Administrador precisa criar o conjunto de grupos de segurança que são usados para atribuir unidades organizacionais: Geometrixx e Geometrixx Clothes. Para saber como criar unidades organizacionais, consulte [Criar e gerenciar unidades](../../administration/using/organizational-units.md#creating-and-managing-units) .
 
-1. Clique no **[!UICONTROL Adobe Campaign]** logotipo, no canto superior esquerdo e selecione **[!UICONTROL Administration > Users & Security > Security groups]**.
-1. Crie seu novo grupo de segurança e especifique seu **[!UICONTROL Label]** e **[!UICONTROL ID]**.
+1. Clique no **[!UICONTROL Adobe Campaign]**logotipo, no canto superior esquerdo e selecione**[!UICONTROL Administration > Users & Security > Security groups]**.
+1. Crie seu novo grupo de segurança e especifique seu **[!UICONTROL Label]**e**[!UICONTROL ID]**.
 
    A ID precisa ser a mesma escolhida no Admin Console.
 
-1. No **[!UICONTROL User access]** campo, atribua a unidade organizacional. Aqui, o grupo de segurança Geometrixx recebe a unidade organizacional **[!UICONTROL All]** .
+1. No **[!UICONTROL User access]**campo, atribua a unidade organizacional. Aqui, o grupo de segurança Geometrixx recebe a unidade organizacional**[!UICONTROL All]** .
 
    ![](assets/manage_security_group_6.png)
 
-1. Você também pode atribuir funções ao seu grupo de segurança. Em nosso caso, essa etapa não é necessária, pois os grupos de segurança predefinidos **[!UICONTROL Administrators]** e **[!UICONTROL Standard users]** são usados para atribuir funções.
+1. Você também pode atribuir funções ao seu grupo de segurança. Em nosso caso, essa etapa não é necessária, pois os grupos de segurança predefinidos **[!UICONTROL Administrators]**e**[!UICONTROL Standard users]** são usados para atribuir funções.
 1. Siga os mesmos procedimentos para criar as últimas roupas Geometrixx de segurança e atribuir a unidade organizacional Roupas Geometrixx.
 
    ![](assets/manage_security_group_7.png)
