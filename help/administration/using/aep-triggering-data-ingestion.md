@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5f3bf4c2d0bba095182194ac28b3107eae2c54a6
+source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
 
 ---
 
@@ -25,9 +25,7 @@ source-git-commit: 5f3bf4c2d0bba095182194ac28b3107eae2c54a6
 
 O Adobe Campaign Standard permite que você acione a ingestão imediata de mapeamentos de dados por meio de APIs e recupere o status de suas solicitações de ingestão.
 
->[!NOTE]
->
->Esta página descreve como acionar e recuperar o status de ingestão de seus mapeamentos de dados. Para obter informações globais sobre APIs do Campaign Standard, consulte [esta seção](../../api/using/about-campaign-standard-apis.md).
+Esta página descreve como acionar e recuperar o status de ingestão de seus mapeamentos de dados. Para obter informações globais sobre APIs do Campaign Standard, consulte [esta seção](../../api/using/about-campaign-standard-apis.md).
 
 ## Pré-requisitos {#prerequisites}
 
@@ -38,7 +36,7 @@ Antes de usar as APIs, o mapeamento de dados deve ter sido configurado e publica
 
 Depois que o mapeamento de dados é criado, você deve impedir que ele seja executado para que você possa acioná-lo das APIs sempre que desejar. Para fazer isso, siga estas etapas:
 
-1. No Campaign Standard, vá para o menu **[!UICONTROL Administration]**>**[!UICONTROL Development]** > **[!UICONTROL Platform]**>**!UICONTROL Status of data export to platform]**.
+1. No Campaign Standard, vá para o menu **[!UICONTROL Administration]**>**[!UICONTROL Development]** > **[!UICONTROL Platform]**>**[!UICONTROL Status of data export to platform]** .
 
 1. Clique duas vezes no mapeamento de dados para abri-lo e clique no **[!UICONTROL Stop]**botão.
 
