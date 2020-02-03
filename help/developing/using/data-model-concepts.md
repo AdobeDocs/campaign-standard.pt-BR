@@ -13,7 +13,7 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 71ee939b6ef256be8c693ec6e15d9609c7e80677
+source-git-commit: 1deeead4ad311fd3ba3a5e9d27a67d3a1dadf3d2
 
 ---
 
@@ -26,7 +26,7 @@ O Adobe Campaign vem com um modelo de dados predefinido. Esse modelo de dados po
 >
 >Criar e modificar recursos são operações confidenciais que devem ser executadas somente por usuários especialistas.
 
-O menu **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** , acessado pelo logotipo do Adobe Campaign, permite gerenciar seus recursos **** personalizados, **publicá** -los e **acessar as ferramentas** de diagnóstico.
+O menu **[!UICONTROL Administration]**>**[!UICONTROL Development]** , acessado pelo logotipo do Adobe Campaign, permite gerenciar seus recursos **** personalizados, **publicá** -los e **acessar as ferramentas** de diagnóstico.
 
 Os dados usados pelo Adobe Campaign são definidos por meio de diferentes recursos. Você pode **aprimorar o modelo** de dados fornecido criando seus próprios recursos personalizados, como tabelas de produtos ou compras.
 
@@ -36,7 +36,7 @@ Os campos de extensão são gerados com um prefixo para que nunca entrem em conf
 
 >[!NOTE]
 >
->Você pode encontrar uma representação de modelo de dados para os recursos prontos para uso [aqui](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html).
+>Você pode encontrar uma representação de modelo de dados para os recursos prontos para uso [aqui](../../developing/using/datamodel-introduction.md).
 
 Você também pode **configurar a navegação** nas telas correspondentes ao recurso criado.
 
