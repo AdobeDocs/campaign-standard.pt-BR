@@ -1,0 +1,71 @@
+---
+title: Gerenciamento de públicos-alvo
+description: Saiba como gerenciar a plataforma Adobe Experience no Campaign Standard.
+page-status-flag: never-activated
+uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
+contentOwner: sauviat
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: reference
+topic-tags: managing-audiences
+discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
+context-tags: audience,wizard;audience,overview;delivery,audience,back
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 19b22fa0780a0bf7c4b7a559270d7c8b32d89e38
+
+---
+
+
+# Gerenciamento de públicos-alvo {#about-audiences}
+
+>[!IMPORTANT]
+>
+>O Serviço de Destinos de Público-alvo está atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam estar hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente da Adobe se desejar acessar.
+
+## Acessar públicos
+
+Para acessar os públicos-alvo da plataforma Adobe Experience, selecione o **[!UICONTROL Audiences]**cartão na página inicial do Campaign Standard ou o**[!UICONTROL Audiences]** link e selecione **[!UICONTROL Adobe Experience Platform]**.
+
+![](assets/aep_audiences_access.png)
+
+Todos os públicos-alvo criados da Adobe Experience Platform são exibidos. Uma barra de pesquisa e filtros estão disponíveis para ajudá-lo a encontrar o público-alvo desejado.
+
+![](assets/aep_audiences_list.png)
+
+## Criação de públicos-alvo
+
+Os públicos-alvo são criados diretamente na lista de públicos-alvo da plataforma Adobe Experience. Para fazer isso, siga estas etapas:
+
+1. Vá para a lista de públicos e clique no **[!UICONTROL New audience]**botão.
+
+   ![](assets/aep_audiences_creation_create.png)
+
+1. O Construtor de segmentos unificado agora deve ser exibido em sua área de trabalho. Ele permite que você crie um segmento usando dados da Adobe Experience Platform que serão usados para criar seu público-alvo.
+
+1. Nomeie o segmento no painel direito e insira uma descrição (opcional).
+
+   ![](assets/aep_audiences_creation_edit_name.png)
+
+1. Para criar com êxito um segmento, é necessário selecionar uma política **de** mesclagem que corresponda à sua finalidade de marketing para esse segmento.
+
+   No painel de configurações, uma política de mesclagem padrão da Plataforma é selecionada. Para obter mais informações sobre políticas de mesclagem, consulte a seção dedicada no guia do usuário do [Construtor de segmentos](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
+
+   ![](assets/aep_audiences_mergepolicy.png)
+
+1. Defina as regras que identificarão os perfis a serem recuperados no seu público-alvo.
+
+   Para fazer isso, arraste os atributos e/ou eventos desejados do painel esquerdo para o espaço de trabalho, defina as regras correspondentes e clique no **[!UICONTROL Create segment]**botão para salvar o segmento (consulte[Usando o Construtor](../../audiences/using/aep-using-segment-builder.md)de segmentos unificado).
+
+   ![](assets/aep_audiences_creation_query.png)
+
+O público-alvo agora está pronto para ser ativado, você pode usá-lo como meta para suas campanhas (consulte [Direcionando públicos](../../automating/using/aep-targeting-audiences.md)da plataforma Adobe Experience).
+
+## Editar públicos-alvo
+
+Para editar um público-alvo, abra-o e modifique as regras conforme necessário na interface do Construtor de segmentos unificados (consulte [Uso do Construtor](../../audiences/using/aep-using-segment-builder.md)de segmentos unificado).
+
+Depois que as alterações forem concluídas, clique no **[!UICONTROL Save segment]**botão para atualizar seu público-alvo.
+
+![](assets/aep_audiences_editing.png)
