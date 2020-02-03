@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
 
 ---
 
@@ -34,7 +34,7 @@ O princípio principal de configurar e usar marcas é:
 1. Crie um ou vários modelos de entrega e página de aterrissagem para esta marca. Consulte a seção [Criação de um modelo](../../start/using/marketing-activity-templates.md) .
 1. Crie mensagens e páginas iniciais com base neste modelo. Consulte as seções [Criar um email](../../channels/using/creating-an-email.md) e [Criar uma página](../../channels/using/designing-a-landing-page.md) de aterrissagem.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >As marcas não podem ser criadas ou modificadas pelos usuários finais: essas operações devem ser executadas pelo administrador técnico do Adobe Campaign. Para receber qualquer solicitação, entre em contato com o Atendimento ao cliente da Adobe. A multimarca não pode ser usada no contexto de mensagens transacionais. Para obter mais informações, consulte Mensagens [transacionais e marcas](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
 
@@ -62,7 +62,7 @@ Uma **marca** é definida pelas seguintes características:
    * **Responder (endereço de email)** com o endereço de email ao qual o cliente pode responder.
    * **Responder (nome)** com o nome da marca.
    * **Erro (endereço de email)** com o endereço de email a ser usado em caso de erro.
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Depois de atualizar os parâmetros de cabeçalho dos e-mails, se o nome e o endereço de e-mail do remetente não tiverem sido alterados no e-mail criado a partir do modelo, verifique as configurações avançadas do modelo.
 
@@ -73,6 +73,9 @@ Uma **marca** é definida pelas seguintes características:
    * **URL externo do servidor** de aplicativos usado para hospedar e acessar as diferentes páginas iniciais que você cria.
    * **URL externo do servidor** de rastreamento usado como o URL rastreado durante as entregas.
    * **URL externo do servidor** de página espelhada usado como a página espelhada padrão em suas entregas.
+   >[!NOTE]
+   >
+   >Se os URLs do servidor de aplicativos e do servidor de páginas espelhadas não estiverem protegidos (ou seja, se não forem iniciados com https://), a visualização da página inicial e a renderização da página espelhada não poderão ser exibidas na interface do usuário do Campaign.
 
 * **[!UICONTROL Tracking URL configuration (Web Analytics)]**, que define a configuração do rastreamento de URLs para sua marca.
 
@@ -118,7 +121,7 @@ Neste exemplo, vamos criar uma nova marca relacionada a viagens, e usá-la em um
 
 #### Configurar uma nova marca {#configure-a-new-brand}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >A configuração da marca é gerenciada pela Adobe somente porque requer permissões específicas e configurações técnicas.
 
