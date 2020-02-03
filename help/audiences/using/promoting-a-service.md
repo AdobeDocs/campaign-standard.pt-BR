@@ -12,7 +12,7 @@ discoiquuid: 98650305-7abf-456f-8c91-cf0b61f53763
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
+source-git-commit: 041941fcf041dfbc7edfed71e07d1e339e8f503f
 
 ---
 
@@ -31,4 +31,4 @@ Você pode usar o Campaign para promover um serviço:
    >
    >É igualmente importante dar aos assinantes a possibilidade de cancelarem a sua inscrição. Para fazer isso, insira um link <b>de</b> cancelamento de assinatura do serviço no email de confirmação (definido nas propriedades do serviço) enviado automaticamente para os novos assinantes, bem como em emails futuros de newsletters.
 
-* Disponibilizando uma assinatura ou uma página inicial de cancelamento de assinatura em um site. Os URLs que fornecem acesso à página inicial devem especificar parâmetros como o serviço associado, bem como a ID de perfil que está acessando. Essa ID pode ser definida nos parâmetros da página de aterrissagem (consulte [Configuração de uma página](../../channels/using/configuring-landing-page.md)de aterrissagem.
+* Disponibilizando uma assinatura ou uma página inicial de cancelamento de assinatura em um site. Os URLs que fornecem acesso à página inicial devem especificar parâmetros como o serviço associado, bem como a ID de perfil que está acessando. Essa ID pode ser definida nos parâmetros da página de aterrissagem (consulte [Configuração de uma página](../../channels/using/configuring-landing-page.md)de aterrissagem).
