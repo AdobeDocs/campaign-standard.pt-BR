@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentação do produto Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: f613b1456dbc66d584235856828e8ffdcf0d9874
+source-git-commit: 859fa22e39233eb5d87475de3a2bf03492f1fe4b
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: f613b1456dbc66d584235856828e8ffdcf0d9874
 
 * **[Gerenciamento de privacidade](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Saiba mais sobre as ferramentas fornecidas pelo Adobe Campaign para ajudá-lo a estar em conformidade com privacidade.
 
-* **[Práticas recomendadas de entrega](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>Saiba mais sobre as práticas recomendadas relacionadas ao design e envio da entrega.
+* **[Práticas](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>recomendadas de entrega Saiba mais sobre as práticas recomendadas relacionadas ao design de entrega e envio.
 
 * **[Email Designer](designing/using/designing-content-in-adobe-campaign.md)**<br/>Consulte a documentação reorganizada do Email Designer.
 
-* **[Guia](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>do Campaign Standard Mobile Saiba mais sobre as diretrizes gerais para entregas móveis.
+* **[Guia do Campaign Standard Mobile](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>Saiba mais sobre as diretrizes gerais para entregas móveis.
 
 [Clique aqui para obter mais atualizações](rn/using/documentation-updates.md)
 
@@ -46,7 +46,8 @@ source-git-commit: f613b1456dbc66d584235856828e8ffdcf0d9874
     <div>
     <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>Criar um e-mail</strong></a>
     </div>
-    <em>Saiba como usar o Email Designer para criar emails</em>responsivos e personalizados <br>
+    <em>Saiba como usar o Email Designer para criar e-mails responsivos e personalizados</em>
+    <br>
   </td>
   <td valign="top">
        <img alt="Desenvolvedores" src="start/using/assets/dev.png" />
