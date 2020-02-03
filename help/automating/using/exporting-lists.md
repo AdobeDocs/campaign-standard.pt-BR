@@ -12,7 +12,7 @@ discoiquuid: 12c874da-435f-44b6-a3c8-873301e177cc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: e35fdca6cb8cad79975f8150aa63bd65e50a4e1a
 
 ---
 
@@ -40,7 +40,7 @@ A lista Exportar está disponível em todas as telas que têm uma exibição no 
 
    Um pop-up será exibido para confirmar a exportação. Após confirmar a exportação, o arquivo será baixado automaticamente no computador.
 
-O arquivo é gerado no formato CSV, a menos que a exportação seja realizada no iOS, caso em que o arquivo gerado esteja no formato TXT. É nomeado de acordo com o recurso exportado e a data de exportação. Por exemplo: o nome profileBase_20150426_120253.csv seria aplicado a uma exportação de perfil realizada em 26 de abril de 2015 às 12:02:53. É codificado no formato UTF-8.
+O arquivo é gerado no formato CSV com uma extensão .TXT. É nomeado de acordo com o recurso exportado e a data de exportação. Por exemplo: o nome profileBase_20150426_120253.txt seria aplicado a uma exportação de perfil realizada em 26 de abril de 2015 às 12:02:53. É codificado no formato UTF-8.
 
 Os valores numéricos e as datas levam em conta a hora local (localidade) do usuário que realiza a exportação. Por exemplo: DD-MM-AAAA ou MM-DD-AAAA.
 
