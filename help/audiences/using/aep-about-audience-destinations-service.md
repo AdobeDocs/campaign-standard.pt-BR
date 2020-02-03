@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1059b840d9a2d0c89a6cbd1808b645862747a76c
+source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
 
 ---
 
@@ -24,15 +24,15 @@ source-git-commit: 1059b840d9a2d0c89a6cbd1808b645862747a76c
 >
 >O serviço de Destinos de público-alvo está atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam estar hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente da Adobe se desejar acessar.
 
-O serviço **Destinos de** público-alvo permite criar públicos altamente direcionados com base em conjuntos de dados grandes e complexos e compartilhar esses segmentos em tempo real com outras soluções da Adobe Experience Cloud.
+Capacite suas experiências de consumidores aproveitando a [Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home.html) (AEP) para criar públicos-alvo altamente direcionados com base em conjuntos de dados grandes e complexos. A plataforma Adobe Experience consolida dados de perfil, comportamento e multientidade em fontes online e offline, incluindo o Adobe Analytics, para ajudá-lo a criar uma visão 360 do seu cliente, permitindo que você gerencie com eficácia suas experiências de cliente.
 
-A plataforma [](https://www.adobe.io/apis/experienceplatform/home.html) Adobe Experience consolida dados de perfil, comportamento e várias entidades para ajudá-lo a criar uma visualização 360 do seu cliente, permitindo que você gerencie com eficácia suas experiências do cliente.
+O Adobe Campaign Standard usará o serviço Destinos **de** público-alvo para recuperar uma coleção de perfis, conhecidos como **Públicos-alvo**, da AEP para programas de campanha de várias etapas e/ou entre canais.
 
-O Campaign Standard permite que você trabalhe com a Adobe Experience Platform para identificar coleções de perfis, conhecidas como **Públicos**. Eles são criados por meio da criação de **segmentos**, que são regras que incluem atributos de perfil e dados de evento provenientes da plataforma Adobe Experience. Os conceitos globais nos Serviços de perfil e segmentação unificados podem ser referenciados [nesses documentos](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)dedicados.
+**Os públicos** são criados pela primeira vez criando **segmentos**, que são essencialmente um conjunto de regras baseado em praticamente qualquer variável (por exemplo, perfil, evento, dados de várias entidades) dentro de um perfil de cliente da AEP para criar uma meta multidimensional. Os conceitos globais nos Serviços de perfil e segmentação unificados podem ser referenciados [nesses documentos](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)dedicados.
 
-Depois que um público-alvo é criado, você pode ativá-lo para uma entrega nos fluxos de trabalho [do](../../automating/using/aep-targeting-audiences.md)Campaign Standard. Além disso, você pode usar dados contextuais da Adobe Experience Platform para [personalizar](../../automating/using/aep-personalizing-campaigns.md) e adicionar conteúdo dinâmico às suas campanhas, se desejar.
+Depois que um segmento é criado, você pode ativar como um público-alvo para uma entrega nos fluxos de trabalho [do](../../automating/using/aep-targeting-audiences.md)Campaign Standard. Além disso, você pode usar dados contextuais da Adobe Experience Platform para [personalizar](../../automating/using/aep-personalizing-campaigns.md) e adicionar conteúdo dinâmico às suas campanhas, se desejar.
 
-Vídeos de demonstração também estão disponíveis [nesta página](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/leveraging-aep-audiences-overview.html)
+Os vídeos de demonstração também estão disponíveis [nesta seção](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html).
 
 Termos usados nestas seções:
 
