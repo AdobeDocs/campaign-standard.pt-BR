@@ -1,6 +1,6 @@
 ---
-title: Configuração do canal de email
-description: Saiba como configurar o canal de email.
+title: Configuração de canal de email no Adobe Campaign Standard
+description: Saiba como configurar o canal de email no Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 9fddb655-b445-41f3-9b02-5d356fc88aa1
 contentOwner: sauviat
@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a3f760385da20a3aa39f96d955cfc2d77b708de2
+source-git-commit: 28d92b0024576c78fc8d71e3f1b59ac4508f9c34
 
 ---
 
@@ -70,34 +70,52 @@ O tipo de conta deve ser sempre definido como **[!UICONTROL Routing]**, o canal 
 
 ## Regras de processamento de email {#email-processing-rules}
 
+Os administradores **[!UICONTROL Email processing rules]**podem acessá-los pelo**[!UICONTROL Administration > Channels > Email]** menu.
+
 Essas regras contêm a lista de cadeias de caracteres que podem ser retornadas por servidores remotos e que permitem que você qualifique o erro (**Grave**, **Suave** ou **Ignorado**).
 
 As regras padrão são as seguintes:
 
-**Mensagens de rejeição**
+### Mensagens de rejeição {#bounce-mails}
 
 Quando um email falha, o servidor de mensagens remoto retorna uma mensagem de erro de rejeição para o endereço especificado nas configurações do aplicativo. O Adobe Campaign compara o conteúdo de cada email de devolução nas cadeias de caracteres da lista de regras e atribui um dos três tipos de erro.
 
 O usuário pode criar suas próprias regras.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >When importing a package and when updating data via the **Update for deliverability** workflow, the user-created rules are overwritten.
 
-**Gerenciamento de domínios de email**
+>[!IMPORTANT]
+>
+>Após a atualização para o MTA aprimorado, as qualificações de rejeição na tabela Campanha **[!UICONTROL Message qualification]**não são mais usadas. Para mensagens de erro de falha de entrega síncrona, o MTA aprimorado determina o tipo de rejeição e a qualificação e envia essas informações para o Campaign. As rejeições assíncronas ainda são qualificadas pelo processo do InMail.
+>
+>Para obter mais informações sobre o Adobe Campaign Enhanced MTA, consulte este [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
-As regras de gestão de domínio são usadas para regular o fluxo de emails de saída para um domínio específico. Eles exemplificam as mensagens de devolução e bloqueiam o envio sempre que apropriado. O servidor de mensagens do Adobe Campaign aplica regras específicas aos domínios e, em seguida, as regras do caso geral representado por um asterisco na lista de regras. As regras dos domínios do Hotmail e MSN estão disponíveis por padrão no Adobe Campaign.
+### Gerenciamento de domínios de email {#managing-email-domains}
+
+As regras de gestão de domínio são usadas para regular o fluxo de emails de saída para um domínio específico. Eles exemplificam as mensagens de devolução e bloqueiam o envio sempre que apropriado. O servidor de mensagens do Adobe Campaign aplica regras específicas aos domínios e, em seguida, as regras do caso geral representado por um asterisco na lista de regras.
 
 Para configurar regras de gerenciamento de domínio, basta definir um limite e selecionar determinados parâmetros SMTP. Uma **cota** é um limite calculado como uma porcentagem de erro além do qual todas as mensagens em um domínio específico estão bloqueadas.
-
-Por exemplo, no caso geral, para um mínimo de 300 mensagens, o envio de emails é bloqueado por três horas se a taxa de erro atingir 90%.
 
 Os **parâmetros SMTP** atuam como filtros aplicados para uma regra de bloqueio.
 
 * Você pode escolher se ativa ou não determinados padrões de identificação e chaves de criptografia para verificar o nome do domínio, como **ID fo remetente**, **DomainKeys**, **DKIM**, e **S/MIME**.
 * **Retransmissão SMTP**: permite configurar o endereço IP e a porta de um servidor de retransmissão para um determinado domínio.
 
-**Gestão MX**
+>[!IMPORTANT]
+>
+>Depois de atualizada para o MTA aprimorado, a assinatura de autenticação de email DKIM (DomainKeys Identified Mail) é feita pelo MTA aprimorado. A assinatura DKIM pelo MTA nativo do Campaign será desativada na **[!UICONTROL Domain management]**tabela como parte da atualização do MTA aprimorada.
+>
+>Para obter mais informações sobre o Adobe Campaign Enhanced MTA, consulte este [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+
+### Gestão MX {#mx-management}
+
+>[!IMPORTANT]
+>
+>Depois de atualizadas para o MTA aprimorado, as regras de throughput de entrega do gerenciamento **do Adobe Campaign** MX não são mais usadas. O MTA aprimorado usa suas próprias regras MX que permitem personalizar sua throughput por domínio com base na sua própria reputação histórica de email e no feedback em tempo real proveniente dos domínios em que você está enviando emails.
+>
+>Para obter mais informações sobre o Adobe Campaign Enhanced MTA, consulte este [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 Cada regra define uma máscara de endereço para o MX. Qualquer MX cujo nome corresponda a essa máscara é, portanto, elegível. A máscara pode conter &quot;*&quot; e &quot;?&quot; caracteres genéricos.
 
@@ -127,7 +145,7 @@ Os seguintes parâmetros estão disponíveis para cada regra:
 * **Número máximo de mensagens**: número máximo de mensagens que podem ser enviadas por uma conexão. Após esse valor, a conexão é fechada e uma nova é reaberta.
 * **[!UICONTROL Messages per hour]**: número máximo de mensagens que podem ser enviadas em uma hora para um MX por meio de um endereço específico.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >* O servidor de delivery (MTA) deve ser reiniciado se os parâmetros forem alterados.
 >* A modificação ou a criação de regras de gestão é somente para usuários avançados.
@@ -153,7 +171,7 @@ Na parte superior da tela de parâmetros de email, identifique o email usando os
 
 ![](assets/delivery_options_2.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >A ID deve ser exclusiva.
 
@@ -182,7 +200,7 @@ Você pode configurar o formato dos emails a serem enviados. Há três opções 
 * **Usar preferências** do destinatário (modo padrão): o formato de mensagem é definido de acordo com os dados armazenados no perfil do destinatário e armazenado por padrão no campo de formato **de** email (@emailFormat). Se um recipient deseja receber mensagens em determinado formato, esse será o formato enviado. Se o campo não estiver concluído, uma mensagem multipart-alternativo será enviada (consulte abaixo).
 * **Deixe que o cliente de email do destinatário escolha o formato mais apropriado (multipart-alternativo)**: a mensagem contém ambos os formatos: text e HTML. O formato exibido na recepção depende da configuração do software de email do destinatário (multipart-alternativo).
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Essa opção inclui ambas as versões da mensagem. Portanto, isso afeta o throughput de entrega, porque o tamanho da mensagem é maior.
 
@@ -199,7 +217,7 @@ Esta opção está disponível para e-mails e modelos de e-mail.
 
 Se você ativar a opção de modo de teste SMTP para um modelo de email, todas as mensagens de email criadas a partir desse modelo terão essa opção ativada.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Quando esta opção estiver ativada para um email, nenhuma mensagem será enviada até que ela seja desmarcada.
 >Um aviso será exibido no painel de email ou modelo de email.
@@ -208,14 +226,24 @@ Para obter mais informações sobre como configurar o SMTP, consulte a seção [
 
 ### Parâmetros do período de validade {#validity-period-parameters}
 
-A **[!UICONTROL Validity]**seção contém os seguintes parâmetros:
+A **[!UICONTROL Validity period]**seção contém os seguintes parâmetros:
+
+![](assets/delivery-validity-period.png)
 
 * **[!UICONTROL Explicitly set validity dates]**: quando essa caixa estiver desmarcada, você deve inserir uma duração nos campos**[!UICONTROL Delivery duration]** e **[!UICONTROL Resource validity limit]**. Marque essa caixa se desejar definir datas e horários específicos.
+
+   ![](assets/delivery-set-explicit-dates.png)
+
 * **[!UICONTROL Delivery duration]**:O Adobe Campaign envia as mensagens que começam na data de início. Esse campo permite especificar a duração durante a qual as mensagens podem ser enviadas.
+
+   >[!IMPORTANT]
+   >
+   >Depois de atualizado para o MTA aprimorado, o parâmetro **[!UICONTROL Delivery duration] ** nas entregas do Campaign é usado somente se definido para 3,5 dias ou menos. Se você definir um valor superior a 3,5 dias, ele não será considerado. Todos os impactos são detalhados no documento MTA [aprimorado do](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) Adobe Campaign.
+
 * **[!UICONTROL Resource validity duration]**: esse campo é usado para recursos carregados, principalmente para a página espelhada e imagens. Os recursos desta página são válidos por um tempo limitado (para economizar espaço em disco).
 * **[!UICONTROL Mirror page management]**: a página espelhada é uma página HTML acessível on-line através de um navegador da Web. Seu conteúdo é idêntico ao conteúdo do email. Por padrão, a página espelhada é gerada se o link for inserido no conteúdo do email. Este campo permite modificar a forma como esta página é gerada:
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Um conteúdo HTML deve ter sido definido para o email da página espelhada a ser criada.
 
@@ -226,7 +254,7 @@ A **[!UICONTROL Validity]**seção contém os seguintes parâmetros:
 
 >[!NOTE]
 >
->Os parâmetros **[!UICONTROL Explicitly set validity dates]**e**[!UICONTROL Delivery duration]** não se aplicam às mensagens transacionais. Para obter mais informações sobre mensagens transacionais, consulte [esta seção](../../channels/using/about-transactional-messaging.md).
+>O **[!UICONTROL Delivery duration]**parâmetro não se aplica a mensagens transacionais. Para obter mais informações sobre mensagens transacionais, consulte[esta seção](../../channels/using/about-transactional-messaging.md).
 
 ### Parâmetros de rastreamento {#tracking-parameters}
 
@@ -284,7 +312,7 @@ A **[!UICONTROL SMTP]**seção contém os seguintes parâmetros:
 * **[!UICONTROL Bounce mails]**: por padrão, os e-mails de rejeição são recebidos na caixa de entrada de erro da plataforma (definida na tela**[!UICONTROL Administration]** > **[!UICONTROL Channels]**>**[!UICONTROL Email]** > **[!UICONTROL Configuration]**). Para definir um endereço de erro específico para um email, insira o endereço no**[!UICONTROL Error address]** campo.
 * **[!UICONTROL Additional SMTP headers]**: essa opção permite que cabeçalhos SMTP adicionais sejam adicionados às suas mensagens. O script inserido no**[!UICONTROL Headers]** campo deve fazer referência a um cabeçalho por linha, na forma de **name:value**. Os valores são codificados automaticamente se necessário.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Adicionar um script para inserir cabeçalhos SMTP adicionais é apenas para usuários avançados. A sintaxe desse script deve estar em conformidade com os requisitos desse tipo de conteúdo: não há espaço não utilizado, nenhuma linha vazia, etc.
 
