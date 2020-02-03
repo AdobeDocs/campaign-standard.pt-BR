@@ -12,7 +12,7 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1059b840d9a2d0c89a6cbd1808b645862747a76c
+source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
 
 ---
 
@@ -60,6 +60,8 @@ Agora você pode configurar seu fluxo de trabalho com outras atividades. Você p
 >[!NOTE]
 >
 >O Campaign Standard permite que você direcione públicos-alvo da plataforma Adobe Experience em todos os canais de entrega: Emails, mensagens SMS, mensagens de mala direta, notificações por push e mensagens no aplicativo.
+>
+>*Observação: Para todas as mensagens de push e no aplicativo, o Campaign Standard suporta apenas entregas para perfis conhecidos.
 
 Para obter mais informações sobre como usar fluxos de trabalho e entregas, consulte estas seções:
 
