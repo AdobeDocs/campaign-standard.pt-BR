@@ -13,7 +13,7 @@ context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: de16bef6cfd0afa3f664c98fe77484044aac6610
 
 ---
 
@@ -31,6 +31,12 @@ Para configurar um serviço:
 1. Na **[!UICONTROL Service properties]**seção, acessada pelo![](assets/edit_darkgrey-24px.png)botão no painel de serviço, configure as mensagens de confirmação para assinaturas e desassinaturas.
 
    ![](assets/lp_service_parameters.png)
+
+1. Selecione a **[!UICONTROL Subscriptions with an expiration date]**opção para definir uma duração de validade para a assinatura.
+
+   ![](assets/lp_service_expiration.png)
+
+Você pode usar a data de expiração em uma atividade de Segmentação para direcionar perfis que estão inscritos em um serviço que não expirou.
 
 1. Fill in the **[!UICONTROL Service label]**field. O rótulo do serviço é obrigatório ao usar uma mensagem de confirmação personalizada.
 
