@@ -13,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: d762c73e6816011340a85a3cf2aaa35f05ee0541
 
 ---
 
@@ -41,13 +41,13 @@ Esta página descreve as especificidades do editor de conteúdo da página inici
 * [Práticas recomendadas gerais para o design](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)de conteúdo.
 
 >[!NOTE]
->Se você tiver uma página de aterrissagem que já esteja predefinida no formato HTML, poderá importá-la diretamente usando o **[!UICONTROL Change content]** botão.
+>Se você tiver uma página de aterrissagem que já esteja predefinida no formato HTML, poderá importá-la diretamente usando o **[!UICONTROL Change content]**botão.
 >
 >Antes de importar uma página HTML no Adobe Campaign, verifique se ela é aberta e exibida corretamente em vários navegadores. Se a página HTML contiver scripts JavaScript, eles precisarão executar sem erros fora do editor. Em geral, evite usar scripts no conteúdo da mensagem para garantir que ele seja processado corretamente pelos clientes de email.
 
 ## Interface do editor de conteúdo da página de aterrissagem{#landing-page-content-editor-interface}
 
-O editor de conteúdo da página inicial permite que você defina, modifique e personalize facilmente o conteúdo no Adobe Campaign. Para acessá-lo, clique no **[!UICONTROL Content]** bloco em um painel da página de aterrissagem.
+O editor de conteúdo da página inicial permite que você defina, modifique e personalize facilmente o conteúdo no Adobe Campaign. Para acessá-lo, clique no **[!UICONTROL Content]**bloco em um painel da página de aterrissagem.
 
 O editor de conteúdo é organizado em três seções diferentes. Essas seções permitem que você visualize e edite o conteúdo.
 
@@ -135,13 +135,13 @@ A **barra** de ferramentas é um elemento contextual da interface do editor que 
    <td> Permite acessar uma página de aterrissagem do Adobe Campaign. Detalhes de como configurar um link são apresentados na seção <a href="../../designing/using/links.md#inserting-a-link">Inserindo um link</a> .<br /> </td> 
   </tr> 
   <tr> 
-   <td> <img height="21px" src="assets/link_subscribe_darkgrey-24px.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/link_Subscribe_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Link</span> de assinatura <br /> </td> 
    <td> Qualquer elemento<br /> </td> 
    <td> Permite inserir um link de assinatura de serviço. Detalhes de como configurar um link são apresentados na seção <a href="../../designing/using/links.md#inserting-a-link">Inserindo um link</a> .<br /> </td> 
   </tr> 
   <tr> 
-   <td> <img height="21px" src="assets/link_unsubscribe_darkgrey-24px.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/link_unSubscribe_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Cancelar assinatura do link</span><br /> </td> 
    <td> Qualquer elemento<br /> </td> 
    <td> Permite inserir um link de cancelamento de assinatura do serviço. Detalhes de como configurar um link são apresentados na seção <a href="../../designing/using/links.md#inserting-a-link">Inserindo um link</a> .<br /> </td> 
@@ -243,7 +243,7 @@ A **barra** de ferramentas é um elemento contextual da interface do editor que 
 
 ### Gerenciamento de blocos no editor de conteúdo {#managing-blocks-in-the-content-editor}
 
-Os diferentes elementos de conteúdo HTML são exibidos na página inicial como blocos, correspondendo à tag **&lt;div&gt;** **&lt;/div&gt;** . Selecione um bloco para interagir com ele. Será então cercada por uma caixa azul.
+Os diferentes elementos de conteúdo HTML são exibidos na página inicial como blocos, correspondendo à tag **&lt;div>** **&lt;/div>** . Selecione um bloco para interagir com ele. Será então cercada por uma caixa azul.
 
 ![](assets/des_lp_content_1.png)
 
@@ -281,20 +281,20 @@ Para alterar o alinhamento do texto, selecione um dos três ícones a seguir na 
 
 ![](assets/des_lp_content_7.png)
 
-* **Alinhar à esquerda**: alinha o texto à esquerda do bloco selecionado (adiciona style="text-alignment: esquerda;").
-* **Centro**: centraliza o texto no bloco selecionado (adiciona style="text-alignment: centro;").
-* **Alinhar à direita**: alinha o texto à direita do bloco selecionado (adiciona style="text-alignment: right;").
+* **Alinhar à esquerda**: alinha o texto à esquerda do bloco selecionado (adiciona style=&quot;text-alignment: esquerda;&quot;).
+* **Centro**: centraliza o texto no bloco selecionado (adiciona style=&quot;text-alignment: centro;&quot;).
+* **Alinhar à direita**: alinha o texto à direita do bloco selecionado (adiciona style=&quot;text-alignment: right;&quot;).
 
 Você também pode usar a barra de ferramentas para alterar os atributos da fonte: adapte o tamanho da fonte, coloque o texto em negrito ou itálico, sublinhe ou altere a cor do texto. Consulte [esta seção](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
 
 ### Inserir imagens em uma página de aterrissagem {#inserting-images-in-a-landing-page}
 
 1. Em um conteúdo de página inicial, selecione um bloco que contenha uma imagem.
-1. Selecione o **[!UICONTROL Insert]** botão.
+1. Selecione o **[!UICONTROL Insert]**botão.
 
    ![](assets/des_insert_images_lp_1.png)
 
-1. Escolha **[!UICONTROL Local image]** na barra de ferramentas contextual.
+1. Escolha **[!UICONTROL Local image]**na barra de ferramentas contextual.
 
    ![](assets/des_insert_images_lp_2.png)
 
@@ -336,7 +336,7 @@ As próximas etapas para definir o conteúdo dinâmico em uma página inicial s�
 
    ![](assets/dynamic_content_lp_3.png)
 
-1. Para excluir todas as condições aplicadas a um bloco, selecione-o e clique no **[!UICONTROL Disable dynamic content]** ícone.
+1. Para excluir todas as condições aplicadas a um bloco, selecione-o e clique no **[!UICONTROL Disable dynamic content]**ícone.
 1. Selecione o conteúdo dinâmico que deseja manter.
 
    ![](assets/dynamic_content_lp_5.png)
