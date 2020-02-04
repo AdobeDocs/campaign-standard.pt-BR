@@ -1,16 +1,16 @@
 ---
 title: API externa
 description: null
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatização
-content-type: referência
-topic-tags: atividades de definição de metas
-context-tags: externalAPI,fluxo de trabalho,main
+audience: automating
+content-type: reference
+topic-tags: targeting-activities
+context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/wf_externalAPI.png)
 
-A **[!UICONTROL External API]** atividade traz dados para o fluxo de trabalho de um sistema **** externo por meio de uma chamada de API **** REST.
+A **[!UICONTROL External API]**atividade traz dados para o fluxo de trabalho de um sistema****externo por meio de uma chamada de API****REST.
 
 Os pontos finais REST podem ser um sistema de gerenciamento de clientes, uma instância de tempo de execução [de E/S da](https://www.adobe.io/apis/experienceplatform/runtime.html) Adobe ou pontos finais REST da Experience Cloud (Plataforma de dados, Target, Analytics, Campaign etc).
 
@@ -29,9 +29,9 @@ Os pontos finais REST podem ser um sistema de gerenciamento de clientes, uma ins
 >
 >Por motivos de segurança, o uso de JSSPs não é suportado no Campaign Standard. Se precisar executar o código, você pode chamar uma instância do Tempo de execução de E/S da Adobe por meio da atividade da API externa.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->Esse recurso está atualmente em beta público. É necessário aceitar o contrato de uso antes de começar a usar a atividade de API externa. Observe que, como esse recurso beta público ainda não foi lançado comercialmente pela Adobe, ele não é suportado pelo Adobe Client Care, ele pode conter erros e pode não funcionar assim como outros recursos lançados.
+>Esse recurso está atualmente em beta. É necessário aceitar o contrato de uso antes de começar a usar a atividade de API externa. Observe que, como esse recurso beta ainda não foi lançado comercialmente pela Adobe, ele não é suportado pelo Adobe Client Care, ele pode conter erros e pode não funcionar assim como outros recursos lançados.
 
 As principais características desta atividade são:
 
@@ -45,7 +45,7 @@ Foram criados os seguintes painéis de proteção para esta atividade:
 * O tempo limite da solicitação é de 60 segundos
 * Redirecionamentos HTTP não são permitidos
 * Urls que não sejam HTTPS são rejeitados
-* "Aceitar: cabeçalho de solicitação application/json" e "Content-Type: cabeçalho de resposta application/json é permitido
+* &quot;Aceitar: cabeçalho de solicitação application/json&quot; e &quot;Content-Type: cabeçalho de resposta application/json é permitido
 
 >[!CAUTION]
 >
@@ -53,7 +53,7 @@ Foram criados os seguintes painéis de proteção para esta atividade:
 
 ## Configuração {#configuration}
 
-Arraste e solte uma **[!UICONTROL External API]** atividade em seu fluxo de trabalho e abra a atividade para iniciar a configuração.
+Arraste e solte uma **[!UICONTROL External API]**atividade em seu fluxo de trabalho e abra a atividade para iniciar a configuração.
 
 ### Mapeamento de entrada
 
@@ -80,13 +80,13 @@ O padrão de estrutura JSON é: `{“data”:[{“key”:“value”}, {“key�
 
 A definição do JSON de amostra deve ter as **seguintes características**:
 
-* **data** é um nome de propriedade obrigatório no JSON, o conteúdo de "data" é uma matriz JSON.
+* **data** é um nome de propriedade obrigatório no JSON, o conteúdo de &quot;data&quot; é uma matriz JSON.
 * **Os elementos** da matriz devem conter propriedades de primeiro nível (níveis mais profundos não são suportados).
    **Nomes** de propriedades acabariam se tornando nomes de colunas para o esquema de saída da tabela temporária de saída.
-* **A definição do nome** da coluna é baseada no primeiro elemento da matriz "data".
+* **A definição do nome** da coluna é baseada no primeiro elemento da matriz &quot;data&quot;.
 A definição de colunas (adicionar/remover) e o valor de tipo da propriedade podem ser editados na guia Definição **de** coluna.
 
-Se a **análise for validada** , uma mensagem será exibida e convidará você a personalizar o mapeamento de dados na guia "Definição de coluna". Em outros casos, uma mensagem de erro é exibida.
+Se a **análise for validada** , uma mensagem será exibida e convidará você a personalizar o mapeamento de dados na guia &quot;Definição de coluna&quot;. Em outros casos, uma mensagem de erro é exibida.
 
 ### Execução
 
