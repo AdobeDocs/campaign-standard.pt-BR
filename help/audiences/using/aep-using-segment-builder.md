@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
+source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ---
 
@@ -48,7 +48,7 @@ O Construtor de segmentos unificado agora deve ser exibido em sua área de traba
 
 1. Verifique se a política de mesclagem desejada está selecionada no painel de configurações.
 
-   Para obter mais informações sobre políticas de mesclagem, consulte a seção dedicada no guia do usuário do [Construtor de segmentos](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
+   Para obter mais informações sobre políticas de mesclagem, consulte a seção dedicada no guia [do usuário do Construtor de](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)segmentos.
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -66,7 +66,7 @@ O Construtor de segmentos unificado agora deve ser exibido em sua área de traba
 
 O painel esquerdo lista todos os atributos, eventos e públicos disponíveis para uso na construção de regras.
 
-Os campos listados são atributos capturados pela sua empresa e podem ser disponibilizados pelo Sistema [do Modelo de Dados de](https://www.adobe.io/apis/experienceplatform/home/xdm.html)Experiência (XDM).
+Os campos listados são atributos capturados pela sua empresa e disponibilizados pelo sistema [](https://www.adobe.io/apis/experienceplatform/home/xdm.html)Experience Data Model (XDM).
 
 Os campos são organizados em guias:
 
@@ -138,7 +138,7 @@ Para fazer isso, siga estas etapas:
 
    ![](assets/aep_audiences_comparing_2.png)
 
-1. Configure o operador entre os dois campos conforme desejado. Neste exemplo, nosso segmento exige que o código postal do endereço residencial não seja igual ao endereço de trabalho um.
+1. Configure o operador entre os dois campos conforme desejado. Neste exemplo, queremos que nosso segmento direcione perfis com o endereço residencial diferente do endereço de trabalho.
 
    ![](assets/aep_audiences_comparing_3.png)
 
