@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 8515b336f52964eb716736d606de0d8440c7bc08
+source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
 
 ---
 
@@ -72,6 +72,7 @@ source-git-commit: 8515b336f52964eb716736d606de0d8440c7bc08
       + [Etapas principais para enviar uma mensagem](channels/using/key-steps-to-send-a-message.md)
       + [Acessar mensagens](channels/using/accessing-messages.md)
       + [Painel de mensagens](channels/using/message-dashboard.md)
+      + [Modelos de mensagens multilíngues](channels/using/multilingual-messages-template.md)
    + Mensagens de email {#email-messages}
       + [Sobre os emails](channels/using/about-emails.md)
       + [Criação de um de email](channels/using/creating-an-email.md)
