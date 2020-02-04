@@ -1,25 +1,25 @@
 ---
 title: Excluir um recurso
 description: 'Saiba como excluir um recurso '
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 5de27589-6fa5-412c-8e5a-a4976de05715
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: desenvolvimento
-content-type: referência
-topic-tags: adição ou extensão de um recurso
+audience: developing
+content-type: reference
+topic-tags: adding-or-extending-a-resource
 discoiquuid: 0130733d-4e3f-40cd-b959-56381f2c8f44
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
 
 ---
 
 
 # Excluir um recurso{#deleting-a-resource}
 
-Para excluir um recurso, o recurso em questão deve ser um **[!UICONTROL Draft]**. O recurso está em **[!UICONTROL Draft]** status se:
+Para excluir um recurso, o recurso em questão deve ser um **[!UICONTROL Draft]**. O recurso está em**[!UICONTROL Draft]** status se:
 
 * Acabou de ser criada e ainda não foi publicada.
 * Se já foi publicado, o recurso tem de ser reformulado.
@@ -31,13 +31,13 @@ Para excluir um recurso, o recurso em questão deve ser um **[!UICONTROL Draft]*
 Para redesenhar e excluir um recurso publicado:
 
 1. Selecione o recurso que deseja redesenhar.
-1. Clique no **[!UICONTROL Re-draft]** botão na barra de ações.
+1. Clique no **[!UICONTROL Re-draft]**botão na barra de ações.
 
    ![](assets/schema_extension_uc26.png)
 
-1. Click **[!UICONTROL Ok]**.
+1. Clique em **[!UICONTROL Ok]**.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Esta ação é definitiva: a tabela ou colunas do banco de dados do recurso e seus dados serão permanentemente excluídos quando a modificação for publicada, o que pode resultar em links quebrados de outros recursos personalizados. Somente a definição do recurso permanecerá disponível.
 
@@ -51,7 +51,7 @@ Para redesenhar e excluir um recurso publicado:
 
    O recurso então entra no modo **Rascunho** e seu status de ativação é **[!UICONTROL Inactive]**.
 
-1. No **[!UICONTROL List]** modo, marque o recurso a ser excluído e clique no ![](assets/delete_darkgrey-24px.png) ícone **[!UICONTROL Delete element]** .
+1. No **[!UICONTROL List]**modo, marque o recurso a ser excluído e clique no![](assets/delete_darkgrey-24px.png)ícone**[!UICONTROL Delete element]** .
 
    ![](assets/schema_extension_uc28.png)
 
