@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b25b51d53f53adad6e6e327661b641c844be719
+source-git-commit: 370e8e1221198e09089669ee28cf9847ffb4bd63
 
 ---
 
@@ -47,7 +47,7 @@ Foram adicionadas informações no guia Trabalhar com APIs relacionadas ao novo 
 
 Uma nova seção que descreve os avisos que podem ser exibidos em um painel de mensagens está disponível. [Leia mais](../../channels/using/message-dashboard.md#warnings)
 
-A documentação MTA aprimorada do Adobe Campaign está disponível. [Leia mais](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+A documentação MTA aprimorada do Adobe Campaign, que descreve a infraestrutura de envio atualizada que permite melhor entrega, throughput e tratamento de rejeição, está disponível. [Leia mais](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
 
 Foram adicionadas observações para indicar que os URLs do servidor de aplicativos e do servidor de páginas espelhadas devem estar protegidos para que as visualizações de página inicial e de página espelhada sejam exibidas na interface do usuário do Campaign. [Leia mais](../../administration/using/branding.md#configuring-and-using-brands)
 
