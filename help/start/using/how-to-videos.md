@@ -12,7 +12,7 @@ discoiquuid: 524ff9a2-fdaa-46bd-bfe6-f03a50461247
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
 
 ---
 
@@ -38,4 +38,4 @@ Descubra os principais recursos assistindo nossos vídeos [](https://docs.adobe.
 * [Configuração de uma lista](https://video.tv.adobe.com/v/25288?captions=por_br): configure uma lista no Adobe Campaign.
 * [Criação de um relatório](https://video.tv.adobe.com/v/25264?captions=por_br): crie seu próprio relatório dinâmico.
 
-Além desses vídeos curtos e detalhados, você também pode encontrar [cursos de treinamento](https://training.adobe.com/training/courses.html), bem como [vídeos de apresentação](http://www.adobe.com/training/video.html) em nosso site.
+Além desses vídeos curtos e detalhados, você também pode encontrar [cursos de treinamento](https://training.adobe.com/training/courses.html), bem como [vídeos de apresentação](https://www.adobe.com/training/video.html) em nosso site.
