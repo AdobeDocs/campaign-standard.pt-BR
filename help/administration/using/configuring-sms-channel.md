@@ -13,7 +13,7 @@ context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3325194881662dee94648ae3d5a03b2bdb6b41ba
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -92,7 +92,7 @@ A transliteração consiste em substituir um caractere de um SMS por outro quand
 * If transliteration is **authorized**, each character that is not taken into account is replaced by a GSM character when the message is sent. Por exemplo, a letra &quot;ë&quot; é substituída por &quot;e&quot;. Portanto, a mensagem é ligeiramente alterada, mas o limite de caracteres permanecerá o mesmo.
 * When transliteration is **not authorized**, each message that contains characters that are not taken into account is sent in binary format (Unicode): all of the characters are therefore sent as they are. No entanto, as mensagens SMS usando Unicode são limitadas a 70 caracteres (ou 67 caracteres por SMS para mensagens enviadas em várias partes). Se o número máximo de caracteres for excedido, várias mensagens serão enviadas, o que pode ocasionar custos adicionais.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Inserir campos de personalização no conteúdo de sua mensagem SMS pode apresentar caracteres que não são considerados pela codificação GSM. Um exemplo de conteúdo é oferecido na seção [Personalizando mensagens](../../channels/using/personalizing-sms-messages.md) SMS.
 
@@ -335,13 +335,13 @@ Os parâmetros específicos para enviar mensagens SMS são agrupados nas seçõe
 
    ![](assets/sms_smpp.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Verifique a legislação do seu país relativa à modificação do endereço do remetente. Você também deve verificar com seu provedor de serviços SMS se ele oferece essa funcionalidade.
 
 * A **[!UICONTROL Maximum number of SMS per message]**opção permite definir o número de mensagens SMS a serem usadas para enviar uma mensagem. Se esse número for excedido, a mensagem não será enviada.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Se você tiver inserido campos de personalização ou texto condicional no conteúdo da sua mensagem SMS, a duração da mensagem e, como resultado, o número de mensagens SMS a serem enviadas pode variar de um destinatário para outro. Para obter mais informações, consulte a seção [Personalização de mensagens](../../channels/using/personalizing-sms-messages.md) SMS.
 
@@ -350,4 +350,3 @@ Os parâmetros específicos para enviar mensagens SMS são agrupados nas seçõe
    * **[!UICONTROL Saved on SIM card]**: a mensagem é armazenada no cartão SIM do telefone do destinatário.
    * **[!UICONTROL Saved on mobile]**: a mensagem é armazenada na memória interna do telefone.
    * **[!UICONTROL Flash]**: a mensagem é exibida no telefone móvel do destinatário como uma notificação e desaparece sem ser salva.
-
