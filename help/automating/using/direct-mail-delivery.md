@@ -1,19 +1,19 @@
 ---
 title: Entrega por correio direto
 description: A atividade de entrega de mala direta permite que você configure o envio de uma única mala direta de envio ou de uma mala direta recorrente em um fluxo de trabalho.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: bfa7b176-a17c-4079-a073-64b8ce4788ed
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatização
-content-type: referência
-topic-tags: atividades de canal
+audience: automating
+content-type: reference
+topic-tags: channel-activities
 discoiquuid: b9ddb2a0-54ff-4ada-be6f-8109fa06d461
 context-tags: directMail,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/recurrentpaper.png)
 
-A **[!UICONTROL Direct mail delivery]** atividade permite que você configure e prepare um arquivo contendo dados de perfil que você deseja usar para uma campanha de mala direta. Esta pode ser uma correspondência direta que é utilizada apenas uma vez, ou pode ser uma correspondência direta **recorrente** .
+A **[!UICONTROL Direct mail delivery]**atividade permite que você configure e prepare um arquivo contendo dados de perfil que você deseja usar para uma campanha de mala direta. Esta pode ser uma correspondência direta que é utilizada apenas uma vez, ou pode ser uma correspondência direta** recorrente **.
 
 As mensagens diretas padrão são enviadas uma vez.
 
@@ -34,7 +34,7 @@ Os emails recorrentes permitem que você envie a mesma mala direta várias vezes
 
 ## Contexto de utilização {#context-of-use}
 
-A **[!UICONTROL Direct mail delivery]** atividade é geralmente usada para automatizar a preparação de um arquivo que contém dados de perfil. Esse arquivo pode ser enviado para um parceiro/provedor responsável pelo envio.
+A **[!UICONTROL Direct mail delivery]**atividade é geralmente usada para automatizar a preparação de um arquivo que contém dados de perfil. Esse arquivo pode ser enviado para um parceiro/provedor responsável pelo envio.
 
 Quando vinculado a um programador, você pode definir emails diretos recorrentes.
 
@@ -44,7 +44,7 @@ A preparação da mensagem é acionada de acordo com os parâmetros de execuçã
 
 ## Configuração {#configuration}
 
-1. Arraste e solte uma **[!UICONTROL Direct mail delivery]** atividade em seu fluxo de trabalho.
+1. Arraste e solte uma **[!UICONTROL Direct mail delivery]**atividade em seu fluxo de trabalho.
 1. Selecione a atividade e abra-a usando o ![](assets/edit_darkgrey-24px.png) botão das ações rápidas que aparecem.
 
    >[!NOTE]
@@ -54,7 +54,7 @@ A preparação da mensagem é acionada de acordo com os parâmetros de execuçã
 1. Selecione o modo de envio de mala direta:
 
    * **[!UICONTROL Direct mail]**: a correspondência direta é enviada uma única vez. Você pode especificar aqui se deseja ou não adicionar uma transição de saída à atividade. Os diferentes tipos de transição estão detalhados na etapa 7 deste procedimento.
-   * **[!UICONTROL Recurring direct mail]**: a correspondência direta é enviada várias vezes, de acordo com a frequência definida numa **[!UICONTROL Scheduler]** atividade. Selecione o período de agregação dos envios. Isso permite agrupar todos os envios que ocorrem durante o período definido em uma única correspondência direta, também chamada de Execução **** recorrente e que podem ser acessados na lista de atividades de marketing do aplicativo.
+   * **[!UICONTROL Recurring direct mail]**: a correspondência direta é enviada várias vezes, de acordo com a frequência definida numa**[!UICONTROL Scheduler]** atividade. Selecione o período de agregação dos envios. Isso permite agrupar todos os envios que ocorrem durante o período definido em uma única correspondência direta, também chamada de Execução **** recorrente e que podem ser acessados na lista de atividades de marketing do aplicativo.
 
       Por exemplo, para uma mensagem de aniversário recorrente, que é processada diariamente, você pode escolher agregar os envios por mês. Isso permite que você receba relatórios sobre sua entrega mensalmente, embora o email seja processado todos os dias.
 
@@ -62,10 +62,10 @@ A preparação da mensagem é acionada de acordo com os parâmetros de execuçã
       >
       >Para emails diretos recorrentes, um novo arquivo é gerado em cada execução do fluxo de trabalho. O período de agregação selecionado não afeta esse comportamento.
 
-1. Selecione um tipo de mala direta. Os tipos de mala direta vêm de modelos definidos no menu **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Delivery templates]** .
+1. Selecione um tipo de mala direta. Os tipos de mala direta vêm de modelos definidos no menu **[!UICONTROL Resources]**>**[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Insira as propriedades gerais da correspondência direta. Você também pode anexá-la a uma campanha existente. A etiqueta da atividade de entrega do fluxo de trabalho é atualizada com a etiqueta de mala direta.
 1. Defina o conteúdo da mala direta. Consulte a seção sobre edição [de](../../designing/using/personalization.md)conteúdo.
-1. Por padrão, a **[!UICONTROL Direct mail delivery]** atividade não inclui nenhuma transição de saída. Se você deseja adicionar uma transição de saída à sua **[!UICONTROL Direct mail delivery]** atividade, vá para a **[!UICONTROL General]** guia das opções de atividade avançada ( ![](assets/dlv_activity_params-24px.png) botão nas ações rápidas da atividade) e verifique uma das seguintes opções:
+1. Por padrão, a **[!UICONTROL Direct mail delivery]**atividade não inclui nenhuma transição de saída. Se você deseja adicionar uma transição de saída à sua**[!UICONTROL Direct mail delivery]** atividade, vá para a **[!UICONTROL General]**guia das opções de atividade avançada (![](assets/dlv_activity_params-24px.png)botão nas ações rápidas da atividade) e verifique uma das seguintes opções:
 
    * **[!UICONTROL Add outbound transition without the population]**: isso permite gerar uma transição de saída que contém exatamente a mesma população da transição de entrada. Essa transição contém o arquivo gerado pela atividade de mala direta e a população bruta recebida pela atividade de mala direta.
    * **[!UICONTROL Add outbound transition with the population]**: isso permite gerar uma transição de saída que contém a população para a qual a correspondência direta será enviada. Os membros do alvo excluídos durante a preparação da mala direta (quarentena, endereço inválido, etc.) são excluídos desta transição. A transição também contém o arquivo gerado pela mala direta.
@@ -74,7 +74,7 @@ A preparação da mensagem é acionada de acordo com os parâmetros de execuçã
 
 Ao reabrir a atividade, você é direcionado diretamente para o painel de mala direta. Somente seu conteúdo pode ser editado.
 
-Por padrão, iniciar um fluxo de trabalho de entrega aciona somente a preparação da mensagem. O envio de mensagens criadas a partir de um fluxo de trabalho ainda precisa ser confirmado depois que o fluxo de trabalho for iniciado. Mas no painel de mensagens, e somente se a mensagem foi criada a partir de um fluxo de trabalho, você pode desativar a **[!UICONTROL Request confirmation before sending messages]** opção. Ao desmarcar essa opção, as mensagens são enviadas sem aviso prévio após a preparação.
+Por padrão, iniciar um fluxo de trabalho de entrega aciona somente a preparação da mensagem. O envio de mensagens criadas a partir de um fluxo de trabalho ainda precisa ser confirmado depois que o fluxo de trabalho for iniciado. Mas no painel de mensagens, e somente se a mensagem foi criada a partir de um fluxo de trabalho, você pode desativar a **[!UICONTROL Request confirmation before sending messages]**opção. Ao desmarcar essa opção, as mensagens são enviadas sem aviso prévio após a preparação.
 
 ## Observações {#remarks}
 
@@ -86,10 +86,10 @@ As execuções de entregas recorrentes são mascaradas por padrão. Para exibi-l
 
 ![](assets/wkf_display_recurrent_executions_direct_mail.png)
 
-Nas entregas principais, que podem ser acessadas da lista de atividades de marketing ou diretamente por meio das execuções recorrentes associadas, você pode exibir o número total de emails que foram processados (de acordo com o período de agregação especificado quando a **[!UICONTROL Direct mail delivery]** atividade foi configurada). Para fazer isso, abra a exibição detalhada do **[!UICONTROL Deployment]** bloco da entrega pai selecionando ![](assets/wkf_dlv_detail_button.png).
+Nas entregas principais, que podem ser acessadas da lista de atividades de marketing ou diretamente por meio das execuções recorrentes associadas, você pode exibir o número total de emails que foram processados (de acordo com o período de agregação especificado quando a **[!UICONTROL Direct mail delivery]**atividade foi configurada). Para fazer isso, abra a exibição detalhada do**[!UICONTROL Deployment]** bloco da entrega pai selecionando o ![](assets/wkf_dlv_detail_button.png) botão.
 
 ![](assets/wkf_display_recurrent_executions_3_direct_mail.png)
 
 ## Exemplo {#example}
 
-Um exemplo de **[!UICONTROL Direct mail delivery]** está disponível no capítulo Mala [direta](../../channels/using/example-of-direct-mail-in-a-workflow.md) .
+Um exemplo de **[!UICONTROL Direct mail delivery]**está disponível no capítulo Mala[direta](../../channels/using/example-of-direct-mail-in-a-workflow.md).
