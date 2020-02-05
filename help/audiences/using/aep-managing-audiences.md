@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
+source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
 ---
 
@@ -26,11 +26,11 @@ source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ## Acessar públicos-alvo da plataforma Adobe Experience
 
-Para acessar o construtor de segmentos da plataforma Adobe Experience, navegue até o **[!UICONTROL Audiences]**cartão na página inicial do Campaign Standard (ou o**[!UICONTROL Audiences]** link no cabeçalho) e selecione a **[!UICONTROL Adobe Experience Platform]**opção.
+Para acessar o construtor de segmentos da plataforma Adobe Experience, navegue até o **[!UICONTROL Audiences]**cartão na página inicial do Campaign Standard (ou o**[!UICONTROL Audiences]** link no cabeçalho) e selecione o **[!UICONTROL Adobe Experience Platform]**ambiente.
 
 ![](assets/aep_audiences_access.png)
 
-Primeiro, você será direcionado para a página de lista de segmentos da Adobe Experience Platform, na qual os segmentos da Adobe Experience Platform já existentes podem ser acessados para edição adicional, se desejado.
+Primeiro, você será direcionado para a página de lista de segmentos da Adobe Experience Platform, onde os segmentos da Adobe Experience Platform já existentes podem ser acessados para edição adicional.
 
 Uma barra de pesquisa e um filtro estão disponíveis para ajudá-lo a encontrar o segmento desejado da Adobe Experience Platform.
 
