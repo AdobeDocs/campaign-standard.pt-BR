@@ -13,7 +13,7 @@ context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: de16bef6cfd0afa3f664c98fe77484044aac6610
+source-git-commit: a8ee3b864b6916871711c6bd2e2d3b794bc706f8
 
 ---
 
@@ -36,7 +36,7 @@ Para configurar um serviço:
 
    ![](assets/lp_service_expiration.png)
 
-Você pode usar a data de expiração em uma atividade de Segmentação para direcionar perfis que estão inscritos em um serviço que não expirou.
+   Você pode usar a data de expiração em uma atividade de Segmentação para direcionar perfis que estão inscritos em um serviço que não expirou.
 
 1. Fill in the **[!UICONTROL Service label]**field. O rótulo do serviço é obrigatório ao usar uma mensagem de confirmação personalizada.
 
