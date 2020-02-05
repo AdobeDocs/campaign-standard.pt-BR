@@ -292,7 +292,7 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [Redirecionamento de não-iniciadores](automating/using/workflow-cross-channel-retargeting.md)
       + [Criação de um grupo de controle](automating/using/workflow-control-group.md)
       + [Criação de uma entrega entre canais](automating/using/workflow-cross-channel-delivery.md)
-   + Trabalhar com públicos-alvo da plataforma Adobe Experience {trabalhar com públicos-alvo-aep}
+   + Trabalhar com públicos-alvo da plataforma Adobe Experience {#working-with-aep-audiences}
       + [Definição de metas para públicos-alvo da plataforma Adobe Experience](automating/using/aep-targeting-audiences.md)
       + [Personalização de campanhas usando atributos da plataforma Adobe Experience](automating/using/aep-personalizing-campaigns.md)
 + Desenvolvimento {#developing}
