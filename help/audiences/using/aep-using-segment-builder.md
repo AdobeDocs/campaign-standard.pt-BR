@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
+source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
 ---
 
@@ -84,7 +84,7 @@ Os campos são organizados em guias:
 >
 >For more on this, refer to the [dedicated documentation](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md).
 
-Por padrão, o Construtor de segmentos unificados exibe campos para os quais os dados estão presentes. Para exibir o esquema completo, incluindo campos para os quais os dados não estão presentes, ative a **[!UICONTROL Show full XDM schema]**opção nas configurações.
+Por padrão, o Construtor de segmentos unificados exibe campos nos quais os dados já estão presentes. Para exibir o esquema completo, incluindo campos para os quais os dados não estão presentes, ative a **[!UICONTROL Show full XDM schema]**opção nas configurações.
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -116,7 +116,7 @@ Para criar uma regra, siga estas etapas:
 
    Você pode adicionar quantas regras adicionais desejar, a fim de direcionar os perfis corretos.
 
-   Ao adicionar uma regra a um contêiner, ela será anexada a quaisquer regras existentes com o operador E. Clique no operador para acessar a opção para alterá-la para OU.
+   Ao adicionar uma regra a um contêiner, ela será anexada a quaisquer regras existentes com o operador lógico E. Se necessário, clique no operador lógico para modificá-lo.
 
    ![](assets/aep_audiences_andoperator.png)
 
