@@ -51,7 +51,7 @@ Para redesenhar e excluir um recurso publicado:
 
    O recurso então entra no modo **Rascunho** e seu status de ativação é **[!UICONTROL Inactive]**.
 
-1. No **[!UICONTROL List]**modo, marque o recurso a ser excluído e clique no![](assets/delete_darkgrey-24px.png)ícone**[!UICONTROL Delete element]** .
+1. No **[!UICONTROL List]** modo, marque o recurso a ser excluído e clique no![](assets/delete_darkgrey-24px.png)ícone **[!UICONTROL Delete element]** .
 
    ![](assets/schema_extension_uc28.png)
 
