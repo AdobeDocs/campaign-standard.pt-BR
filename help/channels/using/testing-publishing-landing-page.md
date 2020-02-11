@@ -12,7 +12,7 @@ discoiquuid: f7d4bb71-f957-4f86-97c7-8ac0a0030026
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa92475c1f8b37f995ebdc74c4a1f43692a53c21
+source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
 
 ---
 
@@ -27,7 +27,7 @@ Antes de publicar uma página de aterrissagem, é necessário executar testes: v
 
 Como a página de aterrissagem afetará sua plataforma e seus dados, é necessário testar cuidadosamente sua execução. Para fazer isso:
 
-1. Clique no **[!UICONTROL Test]**botão na barra de ação da página de aterrissagem.
+1. Clique no **[!UICONTROL Test]** botão na barra de ação da página de aterrissagem.
 1. Na tela de teste, selecione um perfil de teste e um serviço de teste se a página inicial for para gerenciar assinaturas.
 
    ![](assets/lp_test_2.png)
@@ -45,7 +45,7 @@ Como a página de aterrissagem afetará sua plataforma e seus dados, é necessá
 
 >[!NOTE]
 >
->Se o URL do servidor de aplicativos não for seguro (ou seja, se não começar com https://), a visualização da página inicial não poderá ser exibida na interface do usuário do Campaign. Este servidor é definido ao [configurar marcas](../../administration/using/branding.md#configuring-and-using-brands).
+>Para exibir a visualização da página inicial na interface do usuário do Campaign, o URL do servidor de aplicativos deve estar protegido. Nesse caso, use https:// em vez de http:// para configurar esse URL ao [configurar sua marca](../../administration/using/branding.md#configuring-and-using-brands).
 
 ## Configuração de parâmetros de validade {#setting-up-validity-parameters}
 
@@ -55,7 +55,7 @@ Antes de publicar, por motivos de segurança e desempenho da plataforma, recomen
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Configure a data e a hora de expiração na **[!UICONTROL Publication]**seção: a página inicial será automaticamente despublicada na data especificada e, portanto, não estará mais disponível.
+1. Configure a data e a hora de expiração na **[!UICONTROL Publication]** seção: a página inicial será automaticamente despublicada na data especificada e, portanto, não estará mais disponível.
 
    Você pode selecionar o fuso horário a ser considerado para essa data e hora.
 
@@ -71,4 +71,4 @@ Antes de publicar, por motivos de segurança e desempenho da plataforma, recomen
 
 Quando você publica uma página de aterrissagem, ela é colocada ao vivo e pode ser acessada pelos seus visitantes.
 
-Você pode cancelar a publicação ou atualizar e republicar sua página inicial a qualquer momento, por meio do **[!UICONTROL Publish]**botão. No entanto, se a republicação falhar e você ainda não tiver despublicado sua página inicial, a primeira versão permanecerá online.
+Você pode cancelar a publicação ou atualizar e republicar sua página inicial a qualquer momento, por meio do **[!UICONTROL Publish]** botão. No entanto, se a republicação falhar e você ainda não tiver despublicado sua página inicial, a primeira versão permanecerá online.
