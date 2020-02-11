@@ -1,18 +1,18 @@
 ---
 title: Renderização de email
 description: Descubra o recurso de renderização de email.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: c423e237-ad39-4797-ac3a-4320894a8f99
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: envio
-content-type: referência
-topic-tags: mensagens de preparação e teste
+audience: sending
+content-type: reference
+topic-tags: preparing-and-testing-messages
 discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -33,7 +33,7 @@ Após criar seu delivery de email e definir seu conteúdo, assim como a populaç
 
    ![](assets/email_rendering_05.png)
 
-1. Use o editor de consultas para definir os perfis de teste que deseja usar, incluindo os perfis de teste que são para uso de renderização **por** email. Consulte [Sobre perfis](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles)de teste.
+1. Use o editor de consultas para definir os perfis de teste que deseja usar, incluindo os perfis de teste que são para uso de renderização **por** email. Consulte [Sobre perfis](../../audiences/using/managing-test-profiles.md)de teste.
 
    ![](assets/email_rendering_06.png)
 
@@ -48,7 +48,7 @@ Após criar seu delivery de email e definir seu conteúdo, assim como a populaç
 
    >[!NOTE]
    >
-   >A **[!UICONTROL Proof + Email rendering]** opção permite enviar uma prova e usar o recurso de renderização de email simultaneamente. Você pode ter sua mensagem aprovada pelos destinatários da prova e, ao mesmo tempo, pode testar a forma como ela será recebida, dependendo das caixas de entrada direcionadas. Nesse caso, também é necessário selecionar perfis de teste de prova. Consulte [Sobre perfis](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles)de teste.
+   >A **[!UICONTROL Proof + Email rendering]** opção permite enviar uma prova e usar o recurso de renderização de email simultaneamente. Você pode ter sua mensagem aprovada pelos destinatários da prova e, ao mesmo tempo, pode testar a forma como ela será recebida, dependendo das caixas de entrada direcionadas. Nesse caso, também é necessário selecionar perfis de teste de prova. Consulte [Sobre perfis](../../audiences/using/managing-test-profiles.md)de teste.
 
    A entrega do teste é enviada.
 
@@ -65,7 +65,7 @@ O relatório de renderização de email dedicado é exibido. Consulte Descriçã
 **Tópicos relacionados**:
 
 * [Criação de um de email](../../channels/using/creating-an-email.md)
-* [Gerenciamento de perfis de teste e envio de provas](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [Envio de provas](../../sending/using/sending-proofs.md)
 * [Editor de consulta](../../automating/using/editing-queries.md#about-query-editor)
 
 ## Descrição do relatório de renderização de email {#email-rendering-report-description}
