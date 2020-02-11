@@ -1,18 +1,18 @@
 ---
 title: Regras de esgotamento
 description: Crie regras de fadiga para gerenciar a comunicação excessiva com perfis.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: fa5e3ded-36c2-4f16-b97a-119b85adf679
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: administração
-content-type: referência
-topic-tags: regras de trabalho com tipologia
+audience: administration
+content-type: reference
+topic-tags: working-with-typology-rules
 discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 5f4a7f249a47def6776d8787b066e3d8256c3528
 
 ---
 
@@ -40,7 +40,7 @@ Tópicos relacionados:
 
 To create and configure a **[!UICONTROL Fatigue]** typology rule, apply the following steps:
 
-1. Clique no logotipo do Adobe Campaign, no canto superior esquerdo da interface, em seguida, selecione **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** &gt; **[!UICONTROL Typology rules]**.
+1. Clique no logotipo do Adobe Campaign, no canto superior esquerdo da interface, em seguida, selecione **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**.
 
    ![](assets/fatigue4.png)
 
@@ -56,7 +56,7 @@ To create and configure a **[!UICONTROL Fatigue]** typology rule, apply the foll
 
    ![](assets/fatigue5.png)
 
-1. Na **[!UICONTROL General]** guia, defina o método para calcular o número máximo de mensagens por perfil. Você pode escolher um limite constante ou uma variável. Você também pode refinar o limite de perfis e entregas. Para obter mais informações, consulte [Definição do limite](#defining-the-threshold).
+1. Na **[!UICONTROL General]** guia, defina o método para calcular o número máximo de mensagens por perfil. Você pode escolher um limite constante ou uma variável. Você também pode refinar o limite de perfis e entregas. For more on this, refer to [Defining the threshold](#defining-the-threshold).
 
    ![](assets/fatigue2.png)
 
@@ -82,7 +82,7 @@ Durante a preparação da entrega, os perfis são excluídos da entrega, se for 
 
 ![](assets/fatigue16.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Para que as regras de fadiga funcionem, é necessário definir uma data de contato para a entrega. Se você optar por enviar mensagens imediatamente, a regra de fadiga não será aplicada.
 
@@ -102,7 +102,7 @@ Os seguintes canais estão disponíveis:
 * Correio direto
 * Aplicativo móvel: esse canal permite enviar notificações por push para perfis ou assinantes do aplicativo. Se você optar por enviar notificações a perfis, eles serão compatíveis com as regras de fadiga de vários canais.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >As regras de fadiga não são compatíveis com as notificações por push enviadas aos assinantes do aplicativo. Se você estiver enviando mensagens para assinantes do aplicativo, as regras de fadiga não se aplicarão.
 
@@ -136,11 +136,11 @@ Para definir um limite de variável, selecione o **[!UICONTROL Depends on the re
 
 Em seguida, você tem duas opções:
 
-* selecione um campo de perfil: o limite variará para cada perfil de acordo com o campo selecionado. Por exemplo, se você tiver estendido o recurso de perfis com um campo "Frequência de comunicação", clique no botão à direita do **[!UICONTROL Threshold computation formula]** campo e selecione seu campo. Para cada perfil, o limite assumirá o valor do campo "Frequência de comunicação".
+* selecione um campo de perfil: o limite variará para cada perfil de acordo com o campo selecionado. Por exemplo, se você tiver estendido o recurso de perfis com um campo &quot;Frequência de comunicação&quot;, clique no botão à direita do **[!UICONTROL Threshold computation formula]** campo e selecione seu campo. Para cada perfil, o limite assumirá o valor do campo &quot;Frequência de comunicação&quot;.
 
    ![](assets/fatigue21.png)
 
-* defina uma fórmula: clique no segundo botão à direita do **[!UICONTROL Threshold computation formula]** campo para definir uma fórmula de cálculo de limite avançada. Por exemplo, você pode indexar o número de mensagens autorizadas de acordo com o segmento ao qual o perfil pertence. Isso significa que um perfil pertencente ao segmento 'Web' pode receber mais mensagens do que outros perfis. Uma fórmula de **[!UICONTROL Iif (@origin='Web', 5, 3)]** tipo autoriza a entrega de 5 mensagens para perfis do segmento da Web e 3 para outros segmentos.
+* defina uma fórmula: clique no segundo botão à direita do **[!UICONTROL Threshold computation formula]** campo para definir uma fórmula de cálculo de limite avançada. Por exemplo, você pode indexar o número de mensagens autorizadas de acordo com o segmento ao qual o perfil pertence. Isso significa que um perfil pertencente ao segmento &#39;Web&#39; pode receber mais mensagens do que outros perfis. Uma fórmula de **[!UICONTROL Iif (@origin='Web', 5, 3)]** tipo autoriza a entrega de 5 mensagens para perfis do segmento da Web e 3 para outros segmentos.
 
    ![](assets/fatigue14.png)
 
@@ -154,8 +154,8 @@ No exemplo a seguir, somente os perfis masculinos são contados e somente as ent
 
 Refinar o limite de entregas é diferente de restringir a aplicabilidade da regra inteira ( **[!UICONTROL Application criteria]** guia):
 
-* **[!UICONTROL Application criteria]**: você escolhe executar a regra ou não de acordo com critérios específicos. Por exemplo, se sua condição de aplicativo for "Label começa com Newsletter", a regra será aplicada somente às entregas que respeitam essa condição. Se o rótulo da entrega começar com "Promoção", a regra não será executada.
-* **[!UICONTROL Refine threshold on profiles and deliveries > Deliveries to count]**: todas as entregas que usam essa regra de tipologia executarão a regra, mas você decide, entre as entregas passadas e programadas, quais as que deseja contar. Por exemplo, se sua restrição for "Label começa com Newsletter", a regra será executada mesmo se o rótulo de entrega começar com "Promo". Contará, durante o período deslizante selecionado, o número de entregas cujo rótulo começa com "Newsletter".
+* **[!UICONTROL Application criteria]**: você escolhe executar a regra ou não de acordo com critérios específicos. Por exemplo, se sua condição de aplicativo for &quot;Label começa com Newsletter&quot;, a regra será aplicada somente às entregas que respeitam essa condição. Se o rótulo da entrega começar com &quot;Promoção&quot;, a regra não será executada.
+* **[!UICONTROL Refine threshold on profiles and deliveries > Deliveries to count]**: todas as entregas que usam essa regra de tipologia executarão a regra, mas você decide, entre as entregas passadas e programadas, quais as que deseja contar. Por exemplo, se sua restrição for &quot;Label começa com Newsletter&quot;, a regra será executada mesmo se o rótulo de entrega começar com &quot;Promo&quot;. Contará, durante o período deslizante selecionado, o número de entregas cujo rótulo começa com &quot;Newsletter&quot;.
 
 ## Definir o período deslizante {#setting-the-sliding-period}
 
@@ -232,7 +232,7 @@ Há muitas possibilidades em termos de implementação da gestão da fadiga. Est
 
 * Crie uma regra de fadiga usando um limite **de** variável com base em um campo **de** perfil:
 
-   Você estendeu o recurso de perfis com um campo "Limite de comunicação" para definir um limite diferente para cada perfil. Na regra de fadiga, defina um limite de variável com base nesse campo e selecione um período deslizante de 2 dias. Vamos dar dois exemplos de perfis: John tem um limite de comunicação de 1 e David tem um limite de 2. Ambos já receberam um email com newsletter ontem. Você decide enviar outro email para eles hoje. Só o David o receberá, porque o John foi excluído do alvo.
+   Você estendeu o recurso de perfis com um campo &quot;Limite de comunicação&quot; para definir um limite diferente para cada perfil. Na regra de fadiga, defina um limite de variável com base nesse campo e selecione um período deslizante de 2 dias. Vamos dar dois exemplos de perfis: John tem um limite de comunicação de 1 e David tem um limite de 2. Ambos já receberam um email com newsletter ontem. Você decide enviar outro email para eles hoje. Só o David o receberá, porque o John foi excluído do alvo.
 
    ![](assets/fatigue24.png)
 
@@ -248,7 +248,7 @@ Há muitas possibilidades em termos de implementação da gestão da fadiga. Est
 
 * Crie uma regra de fadiga que **refina o limite** em perfis e entregas:
 
-   Você estendeu o recurso de perfis com um campo "Pontuação" e também estendeu o recurso de entregas com um campo "Tipo". Você deseja definir um limite constante de 3, mas deseja excluir da contagem todas as entregas do tipo 'Alerta' ou 'Sexta-feira negra' e todos os perfis com uma pontuação maior que 10. Quando a regra for executada, contará, entre as entregas passadas e programadas, todas as entregas que não sejam do tipo 'Alerta' ou 'Sexta-feira negra' enviadas para perfis cuja pontuação seja menor que 10.
+   Você estendeu o recurso de perfis com um campo &quot;Pontuação&quot; e também estendeu o recurso de entregas com um campo &quot;Tipo&quot;. Você deseja definir um limite constante de 3, mas deseja excluir da contagem todas as entregas do tipo &#39;Alerta&#39; ou &#39;Sexta-feira negra&#39; e todos os perfis com uma pontuação maior que 10. Quando a regra for executada, contará, entre as entregas passadas e programadas, todas as entregas que não sejam do tipo &#39;Alerta&#39; ou &#39;Sexta-feira negra&#39; enviadas para perfis cuja pontuação seja menor que 10.
 
    ![](assets/fatigue26.png)
 
@@ -279,7 +279,7 @@ Para criar a regra, aplique as seguintes etapas:
 
    Essa fórmula permite atribuir o valor 2 se o status for igual a 0, e o valor 4 para todos os outros status.
 
-1. Click **[!UICONTROL Confirm]** to approve the formula.
+1. Clique em **[!UICONTROL Confirm]** para aprovar a fórmula.
 1. Indique a regra **[!UICONTROL Sliding period]** em que será aplicada: 7 dias, neste caso, para limitar as entregas tomadas em consideração a um período de 2 semanas.
 
    ![](assets/fatigue11.png)
