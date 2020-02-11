@@ -12,7 +12,7 @@ discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -32,7 +32,7 @@ As etapas para criar e enviar mensagens são as seguintes:
    >
    >Você pode definir regras de fadiga globais entre canais que excluirão automaticamente perfis supersolacionados de campanhas. Consulte Regras de [fadiga](../../administration/using/fatigue-rules.md).
 
-1. Enviar provas. Consulte [Enviando provas](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs).
+1. Enviar provas. Consulte [Enviando provas](../../sending/using/sending-proofs.md).
 1. Envie a mensagem e verifique sua entrega. Consulte [Envio de mensagens](../../sending/using/confirming-the-send.md).
 1. Verifique os relatórios de entrega dedicados. Consulte [Acessar relatórios](../../reporting/using/about-dynamic-reports.md).
 
