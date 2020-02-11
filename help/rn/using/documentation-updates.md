@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eaba1e77be1c79bb079f6a210f332ba0c8b64b5f
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -39,7 +39,7 @@ A documentação do gerenciamento de privacidade foi atualizada com informaçõe
 
 As Notas de versão foram reorganizadas e melhoradas. [Leia mais](../../rn/using/release-notes.md)
 
-Foram adicionadas informações relacionadas ao grupo de segurança Administradores, especificando se a unidade organizacional está atribuída a ela e não pode ser modificada. **[!UICONTROL All (all)]**[Leia mais](../../administration/using/managing-groups-and-users.md)
+Foram adicionadas informações relacionadas ao grupo de segurança Administradores, especificando se a unidade organizacional está atribuída a ela e não pode ser modificada. **[!UICONTROL All (all)]** [Leia mais](../../administration/using/managing-groups-and-users.md)
 
 Foram adicionadas informações sobre como definir um fuso horário específico a ser usado por padrão em um fluxo de trabalho. [Leia mais](../../automating/using/building-a-workflow.md)
 
@@ -137,7 +137,7 @@ Uma nova seção foi adicionada na seção Notificações por push sobre como cr
 
 Um novo exemplo que mostra como enviar um email contendo dados adicionais recuperados de uma atividade de arquivo de carregamento foi adicionado. [Leia mais](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
 
-Uma nova seção sobre como usar armadilhas foi adicionada. [Leia mais](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
+Uma nova seção sobre como usar armadilhas foi adicionada. [Leia mais](../../sending/using/using-traps.md).
 
 Uma observação sobre a opção **Launch_URL_Campaign** foi adicionada na página sobre como configurar um aplicativo móvel usando os SDKs da plataforma Adobe Experience. [Leia mais](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
@@ -515,15 +515,15 @@ Foram adicionadas informações sobre como preparar uma mensagem em uma entrega 
 
 As notas de versão foram reorganizadas em várias páginas para que você obtenha uma visualização mais global de todas as diferentes versões.
 
-A **[!UICONTROL Working with typologies]**seção foi atualizada para melhorar a visibilidade.[Leia mais](../../administration/using/about-typology-rules.md)
+A **[!UICONTROL Working with typologies]** seção foi atualizada para melhorar a visibilidade. [Leia mais](../../administration/using/about-typology-rules.md)
 
-Uma nova opção que permite obter desempenho ao definir muitos dados adicionais em um **[!UICONTROL Query]**está disponível.[Leia mais](../../automating/using/query.md)
+Uma nova opção que permite obter desempenho ao definir muitos dados adicionais em um **[!UICONTROL Query]** está disponível. [Leia mais](../../automating/using/query.md)
 
 O exemplo de importação de perfil foi atualizado com algumas dicas para que seus perfis fiquem prontos para receber emails diretos. [Leia mais](../../automating/using/importing-data.md)
 
-Uma nova atividade está disponível em fluxos de trabalho: a **[!UICONTROL Enrichment]**atividade.[Leia mais](../../automating/using/enrichment.md)
+Uma nova atividade está disponível em fluxos de trabalho: a **[!UICONTROL Enrichment]** atividade. [Leia mais](../../automating/using/enrichment.md)
 
-A **[!UICONTROL Subscription Services]**atividade foi atualizada para suportar mais casos de uso, incluindo o uso de um único arquivo para atualizar assinaturas para vários serviços.[Leia mais](../../automating/using/subscription-services.md)
+A **[!UICONTROL Subscription Services]** atividade foi atualizada para suportar mais casos de uso, incluindo o uso de um único arquivo para atualizar assinaturas para vários serviços. [Leia mais](../../automating/using/subscription-services.md)
 
 Adicionado um caso de uso passo a passo sobre como preparar uma entrega. [Leia mais](../../sending/using/preparing-the-send.md)
 
@@ -533,7 +533,7 @@ Adicionado um caso de uso passo a passo sobre como usar a resposta automática S
 
 Foram adicionadas informações sobre como enviar uma entrega dependendo dos fusos horários dos usuários em um fluxo de trabalho recorrente. [Leia mais](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
 
-Reorganizada a **[!UICONTROL Customizing a push notification]**seção com casos de uso passo a passo.[Leia mais](../../channels/using/customizing-a-push-notification.md)
+Reorganizada a **[!UICONTROL Customizing a push notification]** seção com casos de uso passo a passo. [Leia mais](../../channels/using/customizing-a-push-notification.md)
 
 Nova seção dedicada à gestão da lista negra. [Leia mais](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
