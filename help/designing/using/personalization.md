@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d762c73e6816011340a85a3cf2aaa35f05ee0541
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -29,7 +29,7 @@ O conteúdo e a exibição de mensagens entregues pelo Adobe Campaign podem ser 
 
 ## Personalização do remetente {#personalizing-the-sender}
 
-Para definir o nome do remetente que aparecerá no cabeçalho das mensagens enviadas, vá para a **[!UICONTROL Properties]**guia da página inicial do Email Designer (acessível por meio do ícone inicial). Para obter mais informações, consulte[Definição do remetente de um email](../../designing/using/subject-line.md#email-sender).
+Para definir o nome do remetente que aparecerá no cabeçalho das mensagens enviadas, vá para a **[!UICONTROL Properties]** guia da página inicial do Email Designer (acessível por meio do ícone inicial). Para obter mais informações, consulte [Definição do remetente de um email](../../designing/using/subject-line.md#email-sender).
 
 Você pode alterar o nome do remetente clicando no bloco de nome **do** remetente. O campo se torna editável e você pode inserir o nome que deseja usar.
 
@@ -65,7 +65,7 @@ O Adobe Campaign permite que você insira um campo do banco de dados em sua pág
 
 Para adicionar um campo de personalização ao conteúdo:
 
-1. Clique dentro de um bloco de texto, clique no **[!UICONTROL Personalize]**ícone da barra de ferramentas contextual e selecione**[!UICONTROL Insert personalization field]**. Para obter mais informações sobre a interface do Email Designer, consulte [esta seção](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
+1. Clique dentro de um bloco de texto, clique no **[!UICONTROL Personalize]** ícone da barra de ferramentas contextual e selecione **[!UICONTROL Insert personalization field]**. Para obter mais informações sobre a interface do Email Designer, consulte [esta seção](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
 
    ![](assets/email_perso_field_1.png)
 
@@ -95,7 +95,7 @@ O Adobe Campaign oferece uma lista de blocos de conteúdo pré-configurados. Ess
 
 Para adicionar um bloco de conteúdo:
 
-1. Clique dentro de um bloco de texto, clique no **[!UICONTROL Personalize]**ícone da barra de ferramentas contextual e selecione**[!UICONTROL Insert content block]**. Para obter mais informações sobre a interface do Email Designer, consulte [esta seção](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
+1. Clique dentro de um bloco de texto, clique no **[!UICONTROL Personalize]** ícone da barra de ferramentas contextual e selecione **[!UICONTROL Insert content block]**. Para obter mais informações sobre a interface do Email Designer, consulte [esta seção](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
 
    ![](assets/email_content_block_1.png)
 
@@ -111,17 +111,17 @@ O nome do bloco de conteúdo aparece no editor e é realçado em amarelo. Ele se
 
 Os blocos de conteúdo prontos para uso são:
 
-* **[!UICONTROL Database URL in emails (EmailUrlBase)]**: Este bloco de conteúdo só pode ser usado em uma** entrega **.
-* **[!UICONTROL Mirror page URL (MirrorPageUrl)]**: Este bloco de conteúdo só pode ser usado em uma** entrega **.
-* **[!UICONTROL Link to mirror page (MirrorPage)]**: Este bloco de conteúdo só pode ser usado em uma** entrega **.
+* **[!UICONTROL Database URL in emails (EmailUrlBase)]**: Este bloco de conteúdo só pode ser usado em uma **entrega**.
+* **[!UICONTROL Mirror page URL (MirrorPageUrl)]**: Este bloco de conteúdo só pode ser usado em uma **entrega**.
+* **[!UICONTROL Link to mirror page (MirrorPage)]**: Este bloco de conteúdo só pode ser usado em uma **entrega**.
 * **[!UICONTROL Greetings (Greetings)]**
-* **[!UICONTROL Unsubscription link (UnsubscriptionLink)]**: Este bloco de conteúdo só pode ser usado em uma** entrega **.
-* **[!UICONTROL Social network sharing links (LandingPageViralLinks)]**: Este bloco de conteúdo só pode ser usado em uma página** de **aterrissagem.
-* **[!UICONTROL Default sender name (DefaultSenderName)]**: Este bloco de conteúdo só pode ser usado em uma** entrega **.
-* **[!UICONTROL Name of default reply-to email address (DefaultReplyName)]**: Este bloco de conteúdo só pode ser usado em uma** entrega **.
-* **[!UICONTROL Email address of default sender (DefaultSenderAddress)]**: Este bloco de conteúdo só pode ser usado em uma** entrega **.
-* **[!UICONTROL Default error email address (DefaultErrorAddress)]**: Este bloco de conteúdo só pode ser usado em uma** entrega **.
-* **[!UICONTROL Default reply-to email address (DefaultReplyAddress)]**: Este bloco de conteúdo só pode ser usado em uma** entrega **.
+* **[!UICONTROL Unsubscription link (UnsubscriptionLink)]**: Este bloco de conteúdo só pode ser usado em uma **entrega**.
+* **[!UICONTROL Social network sharing links (LandingPageViralLinks)]**: Este bloco de conteúdo só pode ser usado em uma página **de** aterrissagem.
+* **[!UICONTROL Default sender name (DefaultSenderName)]**: Este bloco de conteúdo só pode ser usado em uma **entrega**.
+* **[!UICONTROL Name of default reply-to email address (DefaultReplyName)]**: Este bloco de conteúdo só pode ser usado em uma **entrega**.
+* **[!UICONTROL Email address of default sender (DefaultSenderAddress)]**: Este bloco de conteúdo só pode ser usado em uma **entrega**.
+* **[!UICONTROL Default error email address (DefaultErrorAddress)]**: Este bloco de conteúdo só pode ser usado em uma **entrega**.
+* **[!UICONTROL Default reply-to email address (DefaultReplyAddress)]**: Este bloco de conteúdo só pode ser usado em uma **entrega**.
 * **[!UICONTROL Brand name (BrandingUsualName)]**
 * **[!UICONTROL Link to the brand website (BrandingWebSiteLink)]**
 * **[!UICONTROL Brand logo (BrandingLogo)]**
@@ -133,8 +133,8 @@ Você pode definir novos blocos de conteúdo que serão inseridos em uma mensage
 
 Para criar um bloco de conteúdo, siga estas etapas:
 
-1. Clique **[!UICONTROL Resources > Content blocks]**no menu avançado para acessar a lista de blocos de conteúdo.
-1. Clique no **[!UICONTROL Create]**botão ou duplique um bloco de conteúdo pré-existente.
+1. Clique **[!UICONTROL Resources > Content blocks]** no menu avançado para acessar a lista de blocos de conteúdo.
+1. Clique no **[!UICONTROL Create]** botão ou duplique um bloco de conteúdo pré-existente.
 
    ![](assets/content_bloc_01.png)
 
@@ -146,15 +146,15 @@ Para criar um bloco de conteúdo, siga estas etapas:
    * **[!UICONTROL Landing page]**: O bloco de conteúdo só pode ser usado em uma página de aterrissagem.
    ![](assets/content_bloc_02.png)
 
-1. Você pode selecionar um **[!UICONTROL Targeting dimension]**. Para obter mais informações, consulte[Sobre a dimensão](#about-targeting-dimension)de definição de metas.
+1. Você pode selecionar um **[!UICONTROL Targeting dimension]**. Para obter mais informações, consulte [Sobre a dimensão](#about-targeting-dimension)de definição de metas.
 
    ![](assets/content_bloc_04.png)
 
-1. Você pode selecionar a **[!UICONTROL Depends on format]**opção para definir dois blocos diferentes: um para emails HTML e outro para emails em formato de texto. Duas guias serão exibidas no editor (HTML e Texto) para definir o conteúdo correspondente.
+1. Você pode selecionar a **[!UICONTROL Depends on format]** opção para definir dois blocos diferentes: um para emails HTML e outro para emails em formato de texto. Duas guias serão exibidas no editor (HTML e Texto) para definir o conteúdo correspondente.
 
    ![](assets/content_bloc_03.png)
 
-1. Digite o conteúdo do(s) bloco(s) de conteúdo e clique no **[!UICONTROL Create]**botão.
+1. Digite o conteúdo do(s) bloco(s) de conteúdo e clique no **[!UICONTROL Create]** botão.
 
 Seu bloco de conteúdo agora pode ser usado no editor de conteúdo de uma mensagem ou página de aterrissagem.
 
@@ -168,7 +168,7 @@ A dimensão de definição de metas permite definir em qual tipo de mensagem voc
 
 Na verdade, ao editar uma mensagem, você só pode selecionar blocos de conteúdo com uma dimensão de definição de metas compatível com a dimensão de definição de metas dessa mensagem.
 
-Por exemplo, a dimensão de definição de metas do **[!UICONTROL Unsubscription link]**bloco é**[!UICONTROL Profiles]** porque contém campos de personalização específicos do **[!UICONTROL Profiles]**recurso. Portanto, não é possível usar um**[!UICONTROL Unsubscription link]** bloco em uma mensagem [transacional de](../../channels/using/event-transactional-messages.md)evento, pois a dimensão de definição de metas desse tipo de mensagem é **[!UICONTROL Real-time events]**. No entanto, você pode usar o bloco de link****Cancelar assinatura em uma mensagem[transacional de](../../channels/using/profile-transactional-messages.md)perfil, pois a dimensão de definição de metas desse tipo de mensagem é** Perfis **. Por fim, o**[!UICONTROL Link to mirror page]** bloco não tem uma dimensão de definição de metas, portanto, você pode usá-lo em qualquer mensagem.
+Por exemplo, a dimensão de definição de metas do **[!UICONTROL Unsubscription link]** bloco é **[!UICONTROL Profiles]** porque contém campos de personalização específicos do **[!UICONTROL Profiles]** recurso. Portanto, não é possível usar um **[!UICONTROL Unsubscription link]** bloco em uma mensagem [transacional de](../../channels/using/event-transactional-messages.md)evento, pois a dimensão de definição de metas desse tipo de mensagem é **[!UICONTROL Real-time events]**. No entanto, você pode usar o bloco de link **** Cancelar assinatura em uma mensagem [transacional de](../../channels/using/profile-transactional-messages.md)perfil, pois a dimensão de definição de metas desse tipo de mensagem é **Perfis**. Por fim, o **[!UICONTROL Link to mirror page]** bloco não tem uma dimensão de definição de metas, portanto, você pode usá-lo em qualquer mensagem.
 
 Se você deixar esse campo vazio, o bloco de conteúdo será compatível com todas as mensagens, independentemente da dimensão de definição de metas. Se você definir uma dimensão de definição de metas, esse bloco só será compatível com mensagens que tenham a mesma dimensão de definição de metas.
 
@@ -185,13 +185,13 @@ Para obter mais informações, consulte Dimensões e recursos [de](../../automat
 O Adobe Campaign permite que você personalize uma ou várias imagens em sua mensagem de acordo com um critério específico ou use o rastreamento. Isso é feito inserindo campos de personalização, blocos de conteúdo ou conteúdo dinâmico na fonte de imagem. Para fazer isso:
 
 1. Insira uma imagem no conteúdo da mensagem ou selecione uma imagem que já esteja presente.
-1. Na paleta Propriedades da imagem, marque a **[!UICONTROL Enable personalization]**opção.
+1. Na paleta Propriedades da imagem, marque a **[!UICONTROL Enable personalization]** opção.
 
    ![](assets/des_personalize_images_1.png)
 
-   O **[!UICONTROL Source]**campo é exibido e a imagem selecionada é mostrada como** personalizada **no editor.
+   O **[!UICONTROL Source]** campo é exibido e a imagem selecionada é mostrada como **personalizada** no editor.
 
-1. Clique no lápis ao lado do botão de **[!UICONTROL Source]**campo para acessar as opções de personalização.
+1. Clique no lápis ao lado do botão de **[!UICONTROL Source]** campo para acessar as opções de personalização.
 1. Depois de adicionar a fonte de imagem, adicione os campos de personalização, os blocos de conteúdo e o conteúdo dinâmico desejados.
 
    ![](assets/des_personalize_images_2.png)
@@ -208,7 +208,7 @@ O Adobe Campaign permite que você personalize uma ou várias imagens em sua men
 
 Você pode especificar uma condição de visibilidade em qualquer elemento. Só será visível se a condição for respeitada.
 
-Para adicionar uma condição de visibilidade, selecione um bloco e insira a condição a ser respeitada no **[!UICONTROL Visibility condition]**campo de suas configurações.
+Para adicionar uma condição de visibilidade, selecione um bloco e insira a condição a ser respeitada no **[!UICONTROL Visibility condition]** campo de suas configurações.
 
 ![](assets/delivery_content_5.png)
 
@@ -229,11 +229,11 @@ Em um email, você pode definir conteúdos diferentes que serão exibidos dinami
 A definição de conteúdo dinâmico é diferente da [definição das condições](#defining-a-visibility-condition)de visibilidade.
 
 1. Selecione um fragmento, um componente ou um elemento. Neste exemplo, selecione uma imagem.
-1. Clique no **[!UICONTROL Dynamic content]**ícone da barra de ferramentas contextual.
+1. Clique no **[!UICONTROL Dynamic content]** ícone da barra de ferramentas contextual.
 
    ![](assets/dynamic_content_2.png)
 
-   A **[!UICONTROL Dynamic content]**seção é exibida na paleta à esquerda.
+   A **[!UICONTROL Dynamic content]** seção é exibida na paleta à esquerda.
 
    ![](assets/dynamic_content_3.png)
 
@@ -243,11 +243,11 @@ A definição de conteúdo dinâmico é diferente da [definição das condiçõe
    >
    >O conteúdo deve sempre ter uma variante padrão. Não é possível excluí-lo.
 
-1. Clique no **[!UICONTROL Edit]**botão para definir as condições de exibição para a primeira variante alternativa.
+1. Clique no **[!UICONTROL Edit]** botão para definir as condições de exibição para a primeira variante alternativa.
 
    ![](assets/dynamic_content_4.png)
 
-1. Especifique um rótulo e selecione os campos que deseja definir como condições. Por exemplo, no **[!UICONTROL General]**nó, selecione o**[!UICONTROL Age]** campo
+1. Especifique um rótulo e selecione os campos que deseja definir como condições. Por exemplo, no **[!UICONTROL General]** nó, selecione o **[!UICONTROL Age]** campo
 
    ![](assets/dynamic_content_5.png)
 
@@ -269,7 +269,7 @@ A definição de conteúdo dinâmico é diferente da [definição das condiçõe
 
    ![](assets/dynamic_content_10.png)
 
-1. Clique em **[!UICONTROL Add a condition]**para adicionar um novo conteúdo e sua regra vinculada.
+1. Clique em **[!UICONTROL Add a condition]** para adicionar um novo conteúdo e sua regra vinculada.
 
    ![](assets/dynamic_content_9.png)
 
@@ -283,7 +283,7 @@ A definição de conteúdo dinâmico é diferente da [definição das condiçõe
 
 **Tópicos relacionados:**
 
-* [Envio de provas](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs)
+* [Envio de provas](../../sending/using/sending-proofs.md)
 * [Edição de expressão avançada](../../automating/using/editing-queries.md#about-query-editor)
 
 ### Ordem de prioridade {#order-of-priority}
@@ -330,11 +330,11 @@ Neste exemplo, o conteúdo dinâmico aplicado às imagens é configurado da segu
 
 **Para atingir uma idade de 18-27 anos:**
 
-1. Selecione o conteúdo dinâmico na **[!UICONTROL Properties]**paleta e clique no**[!UICONTROL Edit]** botão.
+1. Selecione o conteúdo dinâmico na **[!UICONTROL Properties]** paleta e clique no **[!UICONTROL Edit]** botão.
 
    ![](assets/delivery_content_48.png)
 
-1. Edite o rótulo e selecione o **[!UICONTROL Age]**campo no**[!UICONTROL Profile]** nó.
+1. Edite o rótulo e selecione o **[!UICONTROL Age]** campo no **[!UICONTROL Profile]** nó.
 
    ![](assets/delivery_content_49.png)
 
@@ -342,7 +342,7 @@ Neste exemplo, o conteúdo dinâmico aplicado às imagens é configurado da segu
 
    ![](assets/delivery_content_50.png)
 
-1. Adicione uma nova **[!UICONTROL Age]**condição.
+1. Adicione uma nova **[!UICONTROL Age]** condição.
 
    Selecione o operador **Menor que ou igual** a, seguido por 27 no campo de valor para criar a expressão **menor que 27** .
 
@@ -353,7 +353,7 @@ Neste exemplo, o conteúdo dinâmico aplicado às imagens é configurado da segu
 **Para direcionar perfis com idade igual ou superior a 27 anos:**
 
 1. Selecione o conteúdo dinâmico da paleta e edite-o.
-1. Edite o rótulo e selecione o **[!UICONTROL Age]**campo no**[!UICONTROL Profile]** nó.
+1. Edite o rótulo e selecione o **[!UICONTROL Age]** campo no **[!UICONTROL Profile]** nó.
 1. Adicione o operador **Maior que** seguido por 27 no campo de valor para criar a expressão **mais antiga que 27** .
 
    ![](assets/delivery_content_52.png)
@@ -370,11 +370,11 @@ Neste exemplo, o conteúdo dinâmico aplicado aos textos é configurado da segui
 
 1. Selecione o componente de estrutura desejado e adicione um conteúdo dinâmico.
 1. Edite o conteúdo dinâmico e configure as expressões de definição de metas. Consulte [Configuração de imagens](#configuring-images).
-1. No componente de estrutura, na posição desejada, clique no **[!UICONTROL Personalize]**ícone na barra de ferramentas contextual e selecione**[!UICONTROL Insert personalization field]**.
+1. No componente de estrutura, na posição desejada, clique no **[!UICONTROL Personalize]** ícone na barra de ferramentas contextual e selecione **[!UICONTROL Insert personalization field]**.
 
    ![](assets/delivery_content_53.png)
 
-1. Na lista que aparece, selecione o **[!UICONTROL First name]**campo e confirme.
+1. Na lista que aparece, selecione o **[!UICONTROL First name]** campo e confirme.
 
    ![](assets/delivery_content_54.png)
 
@@ -384,9 +384,9 @@ Neste exemplo, o conteúdo dinâmico aplicado aos textos é configurado da segui
 
 1. Selecione o componente de estrutura desejado e adicione um conteúdo dinâmico.
 1. Edite o conteúdo dinâmico e configure as expressões de definição de metas. Consulte [Configuração de imagens](#configuring-images).
-1. No componente de estrutura, na posição desejada, clique no **[!UICONTROL Personalize]**ícone na barra de ferramentas contextual e selecione**[!UICONTROL Insert personalization field]**.
-1. Selecione **[!UICONTROL Title]**na lista suspensa.
-1. Proceda da mesma forma para adicionar o **[!UICONTROL Last name]**campo.
+1. No componente de estrutura, na posição desejada, clique no **[!UICONTROL Personalize]** ícone na barra de ferramentas contextual e selecione **[!UICONTROL Insert personalization field]**.
+1. Selecione **[!UICONTROL Title]** na lista suspensa.
+1. Proceda da mesma forma para adicionar o **[!UICONTROL Last name]** campo.
 
    ![](assets/delivery_content_56.png)
 
