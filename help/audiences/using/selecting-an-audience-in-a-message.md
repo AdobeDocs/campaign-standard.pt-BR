@@ -1,19 +1,19 @@
 ---
 title: Selecionar um público-alvo em uma mensagem
 description: '"Passo a passo do procedimento para escolher públicos de um email: população-alvo principal e perfis de teste."'
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 7d8f8446-f2e0-49c1-83f6-9667b29bc228
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: referência
-topic-tags: gerenciar públicos-alvo
+content-type: reference
+topic-tags: managing-audiences
 discoiquuid: 158da6ff-8899-4e7b-b925-8a42c3de46a1
-context-tags: delivery,assistente;entrega,público,back
+context-tags: deliveryCreation,wizard;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -50,7 +50,7 @@ Os públicos-alvo podem ser definidos ao criar a mensagem por meio do assistente
 
 1. Defina o **[!UICONTROL Test profiles]** que deseja usar para o email. Os perfis de teste receberão as provas que você pode enviar antes para testar o email antes de enviá-lo para o destino principal.
 
-   Para obter mais informações sobre como configurar perfis de teste, consulte a seção Perfis [de](../../sending/using/managing-test-profiles-and-sending-proofs.md) teste.
+   Para obter mais informações sobre como configurar perfis de teste, consulte a seção Perfis [de](../../audiences/using/managing-test-profiles.md) teste.
 
 O bloco de públicos-alvo é atualizado e mostra que os perfis de destino e teste foram selecionados para o email em questão.
 
