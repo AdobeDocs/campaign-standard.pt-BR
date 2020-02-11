@@ -3,8 +3,8 @@ product: adobe campaign
 sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
-translation-type: ht
-source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
+translation-type: tm+mt
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -48,6 +48,7 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [Editar perfis](audiences/using/editing-profiles.md)
       + [Perfil de cliente integrado](audiences/using/integrated-customer-profile.md)
       + [Perfis ativos](audiences/using/active-profiles.md)
+      + [Gerenciamento de perfis de teste](audiences/using/managing-test-profiles.md)
    + Gerenciamento de públicos-alvo {#managing-audiences}
       + [Sobre públicos-alvo](audiences/using/about-audiences.md)
       + [Criação de públicos-alvo](audiences/using/creating-audiences.md)
@@ -136,9 +137,10 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
    + Preparação e teste de mensagens {#preparing-and-testing-messages}
       + [Visualizar mensagens](sending/using/previewing-messages.md)
       + [Preparação do envio](sending/using/preparing-the-send.md)
-      + [Gerenciamento de perfis de teste e envio de provas](sending/using/managing-test-profiles-and-sending-proofs.md)
+      + [Envio de provas](sending/using/sending-proofs.md)
       + [Teste da linha de assunto de um email](sending/using/testing-subject-line-email.md)
       + [Renderização de email](sending/using/email-rendering.md)
+      + [Uso de traps](sending/using/using-traps.md)
    + Agendamento de mensagens {#scheduling-messages}
       + [Sobre o agendamento de mensagens](sending/using/about-scheduling-messages.md)
       + [Otimização do tempo de envio](sending/using/optimizing-the-sending-time.md)
