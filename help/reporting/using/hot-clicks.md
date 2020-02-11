@@ -1,19 +1,19 @@
 ---
 title: Hot clicks
 description: Com o recurso Hot click out out-of-the-box, saiba onde o cliente clicou na entrega.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 7ed49dd3-d7ee-466a-9a7b-d2aa16961667
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: relatório
-content-type: referência
-topic-tags: lista de relatórios
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
 discoiquuid: ecbc1ade-63d9-4ac2-9828-380a1aa95094
 context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -35,7 +35,7 @@ Por exemplo, imagine que você criou uma entrega com as seguintes condições:
 * O link na imagem principal é diferente se o destinatário for um homem ou uma mulher.
 * Você também adicionou um link a uma oferta especial que só é visível para destinatários com mais de 25 anos.
 
-Depois que a mensagem for enviada, selecione **[!UICONTROL Reports]** &gt; **[!UICONTROL Hot clicks]** no painel de entrega.
+Depois que a mensagem for enviada, selecione **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** no painel de entrega.
 
 Por padrão, nenhum perfil é selecionado. Somente os cliques para destinatários cujo gênero é desconhecido e para destinatários com menos de 25 anos ou idade desconhecida são exibidos.
 
@@ -47,7 +47,7 @@ Para exibir cliques para mulheres, clique no **[!UICONTROL Change profile]** bot
 
 Para exibir cliques para destinatários com mais de 25 anos, clique no **[!UICONTROL Change profile]** botão e selecione um perfil de teste cuja data de nascimento corresponda a essa condição.
 
-Para obter mais informações sobre perfis de teste, consulte [Sobre perfis](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles)de teste.
+Para obter mais informações sobre perfis de teste, consulte [Sobre perfis](../../audiences/using/managing-test-profiles.md)de teste.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Uma entrega de execução é uma mensagem técnica não acionável e não funcio
 >
 >Como as IDs dos URLs rastreados são diferentes para cada execução, os dados de cliques em funcionamento não podem ser agregados para todas as entregas de execução de uma determinada mensagem. Ele só pode ser exibido para uma entrega de execução por vez.
 
-Depois que a mensagem for enviada, selecione **[!UICONTROL Reports]** &gt; **[!UICONTROL Hot clicks]** no painel de entrega.
+Depois que a mensagem for enviada, selecione **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** no painel de entrega.
 
 Por padrão, a entrega da última execução é selecionada. Clique no **[!UICONTROL Change execution delivery]** botão para selecionar outro.
 
