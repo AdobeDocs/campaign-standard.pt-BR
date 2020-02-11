@@ -3,7 +3,7 @@ product: adobe campaign
 sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
 
 ---
@@ -63,8 +63,8 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [Gerenciamento de participação e não participação no Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [Identificar perfis de não participação para uma entrega](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
    + Trabalhar com a Adobe Experience Platform {#working-with-adobe-experience-platform}
-      + [Sobre o serviço Destinos de público-alvo](audiences/using/aep-about-audience-destinations-service.md)
-      + [Gerenciamento de públicos-alvo da plataforma Adobe Experience](audiences/using/aep-managing-audiences.md)
+      + [Sobre o serviço Destinos do Audience](audiences/using/aep-about-audience-destinations-service.md)
+      + [Gerenciamento de públicos da plataforma Adobe Experience](audiences/using/aep-managing-audiences.md)
       + [Uso do Construtor de segmentos unificados](audiences/using/aep-using-segment-builder.md)
 + Canais de comunicação {#communication-channels}
    + Sobre os canais de comunicação {#about-communication-channels}
@@ -292,9 +292,9 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [Redirecionamento de não-iniciadores](automating/using/workflow-cross-channel-retargeting.md)
       + [Criação de um grupo de controle](automating/using/workflow-control-group.md)
       + [Criação de uma entrega entre canais](automating/using/workflow-cross-channel-delivery.md)
-   + Trabalhar com públicos-alvo da plataforma Adobe Experience {#working-with-aep-audiences}
-      + [Definição de metas para públicos-alvo da plataforma Adobe Experience](automating/using/aep-targeting-audiences.md)
-      + [Personalização de campanhas usando atributos da plataforma Adobe Experience](automating/using/aep-personalizing-campaigns.md)
+   + Trabalhar com públicos da Adobe Experience Platform {working-with-aep-audiences}
+      + [Definição de públicos da Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
+      + [Personalização de campanhas usando atributos da Adobe Experience Platform](automating/using/aep-personalizing-campaigns.md)
 + Desenvolvimento {#developing}
    + Sobre recursos personalizados {#about-custom-resources}
       + [Conceitos do modelo de dados](developing/using/data-model-concepts.md)
@@ -362,9 +362,9 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [Enviar notificações internas](administration/using/sending-internal-notifications.md)
       + [Retenção de dados](administration/using/data-retention.md)
       + [Atualizações e operações de manutenção](administration/using/updates-and-maintenance-operations.md)
-   + Conector de dados da plataforma Adobe Experience {#mapping-campaign-and-aep-data}
-      + [Sobre o Adobe Experience Platform Data Connector](administration/using/aep-about-data-connector.md)
-      + [Visão geral do modelo de dados da plataforma Experience](administration/using/aep-data-model-overview.md)
+   + Conector de dados da Adobe Experience Platform {#mapping-campaign-and-aep-data}
+      + [Sobre o Conector de dados da Adobe Experience Platform](administration/using/aep-about-data-connector.md)
+      + [Visão geral do Modelo de dados da Experience Platform](administration/using/aep-data-model-overview.md)
       + [Definição de mapeamento](administration/using/aep-mapping-definition.md)
       + [Ativação de mapeamento](administration/using/aep-mapping-activation.md)
       + [Acionando a ingestão de dados por meio de APIs](administration/using/aep-triggering-data-ingestion.md)
