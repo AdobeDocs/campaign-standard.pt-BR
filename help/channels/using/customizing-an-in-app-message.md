@@ -1,19 +1,19 @@
 ---
 title: Personalizar uma mensagem no aplicativo
 description: Saiba como personalizar suas mensagens no aplicativo com várias opções.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 1d9c08ed-4de5-440d-bf51-4a437eec67d5
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canais
-content-type: referência
-topic-tags: mensagens no aplicativo
+audience: channels
+content-type: reference
+topic-tags: in-app-messaging
 discoiquuid: c9c3e033-e319-447b-8d87-ff7dd4941876
-context-tags: entrega,inAppContent,back
+context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -190,11 +190,11 @@ Depois que o HTML for importado, você poderá encontrar uma visualização do a
 
 Antes de enviar sua mensagem no aplicativo, você pode testar com seus perfis de teste para verificar o que seu público-alvo verá quando receber sua entrega.
 
-1. Click the **[!UICONTROL Preview]** button.
+1. Clique no botão **[!UICONTROL Preview]**.
 
    ![](assets/inapp_sending_2.png)
 
-1. Clique no **[!UICONTROL Select a test profile]** botão e selecione um de seus perfis de teste para iniciar a visualização da entrega. For more information on test profiles, refer to this [section](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+1. Clique no **[!UICONTROL Select a test profile]** botão e selecione um de seus perfis de teste para iniciar a visualização da entrega. For more information on test profiles, refer to this [section](../../audiences/using/managing-test-profiles.md).
 1. Verifique sua mensagem em diferentes dispositivos, como Android, iPhone Phone ou até mesmo tablets. Você também pode verificar se os campos de personalização estão recuperando os dados corretos.
 
    ![](assets/inapp_sending_3.png)
