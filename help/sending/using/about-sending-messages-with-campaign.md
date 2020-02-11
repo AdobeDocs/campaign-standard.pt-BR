@@ -12,7 +12,7 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -37,7 +37,7 @@ Depois de definir a meta e criar o conteúdo de uma mensagem, é necessário tes
 
 * [Sobre o agendamento de mensagens](../../sending/using/about-scheduling-messages.md)
 * [Preparação do envio](../../sending/using/preparing-the-send.md)
-* [Gerenciamento de perfis de teste e envio de provas](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [Envio de provas](../../sending/using/sending-proofs.md)
 * [Renderização de email](../../sending/using/email-rendering.md)
 * [Receber alertas quando ocorrerem falhas](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Otimização da entrega](../../sending/using/about-deliverability.md)
