@@ -13,7 +13,7 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 32bcfd57dfe881fa07c8d8e5700d0ae3996a78ec
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -36,9 +36,9 @@ Para cada perfil direcionado, uma nova linha é adicionada ao arquivo de extraç
 
 ## Adicionar perfis de teste e trapping {#adding-test-and-trap-profiles}
 
-Adicione perfis de teste para que você possa testar seu arquivo com um pequeno número de perfis. Permite criar rapidamente uma amostra de arquivo para testar e validar a estrutura antes de preparar o arquivo real. See [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+Adicione perfis de teste para que você possa testar seu arquivo com um pequeno número de perfis. Permite criar rapidamente uma amostra de arquivo para testar e validar a estrutura antes de preparar o arquivo real. Consulte [Gerenciamento de perfis](../../audiences/using/managing-test-profiles.md)de teste.
 
-A utilização de armadilhas é essencial para a entrega direta de correio. Eles permitem que você verifique se seu provedor de mala direta está realmente enviando a comunicação e se eles não estão enviando sua lista de clientes para outro provedor. Consulte [Uso de armadilhas](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
+A utilização de armadilhas é essencial para a entrega direta de correio. Eles permitem que você verifique se seu provedor de mala direta está realmente enviando a comunicação e se eles não estão enviando sua lista de clientes para outro provedor. Consulte [Uso de armadilhas](../../sending/using/using-traps.md).
 
 Para entregas por mala direta, as armadilhas são adicionadas durante a extração e misturadas no documento de saída. Por padrão, eles são inseridos na ordem de classificação do arquivo de saída, mas você pode optar por inseri-los no final ou no início do arquivo. Ao definir o público-alvo, selecione a opção desejada na **[!UICONTROL Trap insertion mode]** guia.
 
