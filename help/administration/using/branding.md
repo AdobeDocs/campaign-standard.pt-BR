@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
+source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
 
 ---
 
@@ -38,7 +38,7 @@ O princípio principal de configurar e usar marcas é:
 >
 >As marcas não podem ser criadas ou modificadas pelos usuários finais: essas operações devem ser executadas pelo administrador técnico do Adobe Campaign. Para receber qualquer solicitação, entre em contato com o Atendimento ao cliente da Adobe. A multimarca não pode ser usada no contexto de mensagens transacionais. Para obter mais informações, consulte Mensagens [transacionais e marcas](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
 
-As marcas podem ser encontradas no **[!UICONTROL Administration > Instance settings > Brand configuration]**menu.
+As marcas podem ser encontradas no **[!UICONTROL Administration > Instance settings > Brand configuration]** menu.
 
 Por padrão, uma marca recém-criada fica visível somente para usuários atribuídos com os direitos correspondentes pelo administrador.
 
@@ -53,7 +53,7 @@ Uma **marca** é definida pelas seguintes características:
    * **URL** do site e rótulo **do** site da marca
    * **Logotipo da marca**
 
-* **[!UICONTROL Header parameters of sent emails]**que personaliza o que os destinatários de suas campanhas verão. Esta seção contém os seguintes campos:
+* **[!UICONTROL Header parameters of sent emails]** que personaliza o que os destinatários de suas campanhas verão. Esta seção contém os seguintes campos:
 
    ![](assets/branding_04_header.png)
 
@@ -75,7 +75,7 @@ Uma **marca** é definida pelas seguintes características:
    * **URL externo do servidor** de página espelhada usado como a página espelhada padrão em suas entregas.
    >[!NOTE]
    >
-   >Se os URLs do servidor de aplicativos e do servidor de páginas espelhadas não estiverem protegidos (ou seja, se não forem iniciados com https://), a visualização da página inicial e a renderização da página espelhada não poderão ser exibidas na interface do usuário do Campaign.
+   >Para exibir a visualização da página inicial e a renderização da página espelhada na interface do usuário da Campanha, os URLs do servidor de aplicativos e do servidor de páginas espelhadas devem estar protegidos. Nesse caso, use https:// em vez de http:// ao configurar esses URLs.
 
 * **[!UICONTROL Tracking URL configuration (Web Analytics)]**, que define a configuração do rastreamento de URLs para sua marca.
 
@@ -95,7 +95,7 @@ Para usar os parâmetros definidos para uma marca, ele deve estar vinculado a um
 
 Depois que o modelo for criado, você poderá vinculá-lo a uma marca. Para fazer isso:
 
-1. Clique no **[!UICONTROL Edit properties]**botão para acessar as propriedades do modelo.
+1. Clique no **[!UICONTROL Edit properties]** botão para acessar as propriedades do modelo.
 
    ![](assets/branding_04.png)
 
@@ -103,11 +103,11 @@ Depois que o modelo for criado, você poderá vinculá-lo a uma marca. Para faze
 
    >[!NOTE]
    >
-   >Por padrão, a opção **[!UICONTROL Default brand (branding)]**é selecionada.
+   >Por padrão, a opção **[!UICONTROL Default brand (branding)]** é selecionada.
 
    ![](assets/branding_05.png)
 
-   Para ver como a marca selecionada está configurada, clique no **[!UICONTROL Navigate to the detail of the element selected]**ícone.
+   Para ver como a marca selecionada está configurada, clique no **[!UICONTROL Navigate to the detail of the element selected]** ícone.
 
    ![](assets/branding_06.png)
 
@@ -125,7 +125,7 @@ Neste exemplo, vamos criar uma nova marca relacionada a viagens, e usá-la em um
 >
 >A configuração da marca é gerenciada pela Adobe somente porque requer permissões específicas e configurações técnicas.
 
-1. O administrador do Adobe Campaign cria a marca em **[!UICONTROL Administration > Instance settings > Brand configuration]**. Ele acrescenta as** Férias no elemento Trópicos **do menu avançado e configura as**[!UICONTROL ID]** e as **[!UICONTROL Header parameters of sent emails]**da marca.
+1. O administrador do Adobe Campaign cria a marca em **[!UICONTROL Administration > Instance settings > Brand configuration]**. Ele acrescenta as **Férias no elemento Trópicos** do menu avançado e configura as **[!UICONTROL ID]** e as **[!UICONTROL Header parameters of sent emails]** da marca.
 
    ![](assets/branding_07.png)
 
@@ -160,11 +160,11 @@ Como gerente de entrega, você é responsável pela criação dos modelos de ent
 
 Para criar um email vinculado a uma marca, siga as etapas abaixo:
 
-1. Clique no **[!UICONTROL Create]**botão do**[!UICONTROL Marketing activities]** menu.
+1. Clique no **[!UICONTROL Create]** botão do **[!UICONTROL Marketing activities]** menu.
 
    ![](assets/branding_14.png)
 
-1. Selecione a **[!UICONTROL Email]**atividade e escolha o modelo vinculado à nova marca.
+1. Selecione a **[!UICONTROL Email]** atividade e escolha o modelo vinculado à nova marca.
 
    ![](assets/branding_15.png)
 
