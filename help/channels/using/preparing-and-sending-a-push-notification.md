@@ -13,7 +13,7 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -71,7 +71,7 @@ As etapas para criar uma notificação por push com o Adobe Campaign são:
 
 1. Antes de enviar a notificação, você pode testá-la com perfis de teste e ver exatamente o que seus destinatários verão antes de enviar a entrega. Selecione **[!UICONTROL Audiences]** o resumo de entrega e clique na **[!UICONTROL Test profiles]** guia.
 
-   Para obter mais informações sobre como enviar testes, consulte Perfis [de](../../sending/using/managing-test-profiles-and-sending-proofs.md)teste.
+   Para obter mais informações sobre como enviar testes, consulte Perfis [de](../../sending/using/sending-proofs.md)teste.
 
 1. Selecione os perfis de teste e clique em **[!UICONTROL Preview]** para exibir a notificação: o conteúdo é personalizado com os dados do perfil de teste.
 1. Verifique o layout da notificação por push em diferentes dispositivos: selecione iPhone, telefone Android, iPad ou tablet Android para visualizar a renderização.
@@ -92,7 +92,7 @@ As notificações por push podem ser enviadas para um público selecionado no Ad
 
    ![](assets/push_send_1.png)
 
-1. Once the preparation has finished successfully, the **[!UICONTROL Deployment]** window presents the following KPIs:**[!UICONTROL Target]** and **[!UICONTROL To deliver]**. Note that the **[!UICONTROL To deliver]** count is lower than the **[!UICONTROL Targeted]** one due to exclusions which can be viewed by clicking![](assets/lp_link_properties.png)button at the bottom of the **[!UICONTROL Deployment]** window.
+1. Once the preparation has finished successfully, the **[!UICONTROL Deployment]** window presents the following KPIs: **[!UICONTROL Target]** and **[!UICONTROL To deliver]**. Note that the **[!UICONTROL To deliver]** count is lower than the **[!UICONTROL Targeted]** one due to exclusions which can be viewed by clicking ![](assets/lp_link_properties.png) button at the bottom of the **[!UICONTROL Deployment]** window.
 
    ![](assets/push_send_2.png)
 
