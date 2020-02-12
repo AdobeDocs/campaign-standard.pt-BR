@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
+source-git-commit: 8b02b81ef27c8415bc5bcce41178dfbfc90670cf
 
 ---
 
@@ -20,6 +20,12 @@ source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
 # Versão mais recente{#latest-release}
 
 [Planejamento](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) da versão| Versões [do Painel](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) de controle| Atualizações [da](../../rn/using/documentation-updates.md) documentação| Notas [de versão](../../rn/using/release-notes-2019.md) anteriores| Recursos [obsoletos](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+## Versão 20.1.2 - fevereiro de 2020 {#release-20-1-2---february-2020}
+
+**Aprimoramentos do Designer de email**
+
+Correção de um problema que adicionava um elemento de tag HTML em um fragmento desatualizado ao corrigir e salvar o conteúdo. (CAMP-40685) Corrigido um problema que adicionava um espaço ao usar conteúdo dinâmico. (CAMP-40605) Corrigido um problema ao configurar um modelo de email transacional. (CAMP-40604)
 
 ## Versão 20.1 - fevereiro de 2020 {#release-20-1---february-2020}
 
@@ -90,9 +96,9 @@ source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
 * Corrigido um problema ao executar uma solicitação de privacidade de exclusão que impedia que os dados do usuário fossem excluídos nos logs de exclusão. (CAMP-39003)
 * Correção de um problema que resultava em problemas de acessibilidade ao redimensionar o texto em um elemento de contêiner.
 * Correção de um problema que impedia os usuários de descartarem o pop-up Calendário exibido ao passar o mouse nas atividades de marketing.
-* Correção de um problema na **[!UICONTROL External API]**atividade que exibia o**[!UICONTROL Confirm]** botão mesmo quando nenhum dado era modificado.
-* Correção de um problema ao usar uma **[!UICONTROL Union]**atividade em consultas com diferentes dimensões de destino. Os dados de transição exibiam somente registros da dimensão de definição de metas do conjunto principal. (CAMP-36831)
-* Correção de um problema que resultava em erro ao usar uma **[!UICONTROL Reconciliation]**atividade em contextos específicos, por exemplo, com duas atividades de entrada, uma delas sendo uma atividade de exclusão. (CAMP-37490)
+* Correção de um problema na **[!UICONTROL External API]** atividade que exibia o **[!UICONTROL Confirm]** botão mesmo quando nenhum dado era modificado.
+* Correção de um problema ao usar uma **[!UICONTROL Union]** atividade em consultas com diferentes dimensões de destino. Os dados de transição exibiam somente registros da dimensão de definição de metas do conjunto principal. (CAMP-36831)
+* Correção de um problema que resultava em erro ao usar uma **[!UICONTROL Reconciliation]** atividade em contextos específicos, por exemplo, com duas atividades de entrada, uma delas sendo uma atividade de exclusão. (CAMP-37490)
 * Correção de problemas de desempenho que podem ocorrer ao selecionar e atualizar perfis de teste. (CAMP-37976)
 * Correção de um problema que podia exibir páginas de erro ao assinar ou cancelar a assinatura por páginas de aterrissagem. (CAMP-37771)
 * Correção de um problema que ocorria ao carregar conteúdo no formato zip, com arquivos PNG referenciados no HTML com sua extensão em letras maiúsculas. (CAMP-37913)
