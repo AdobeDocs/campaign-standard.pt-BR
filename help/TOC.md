@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: f0d2f7af6510443ea42d21e57a9648ed99bb00c1
 
 ---
 
@@ -294,7 +294,7 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
       + [Redirecionamento de não-iniciadores](automating/using/workflow-cross-channel-retargeting.md)
       + [Criação de um grupo de controle](automating/using/workflow-control-group.md)
       + [Criação de uma entrega entre canais](automating/using/workflow-cross-channel-delivery.md)
-   + Trabalhar com públicos da Adobe Experience Platform {working-with-aep-audiences}
+   + Trabalhar com públicos da Adobe Experience Platform {#working-with-aep-audiences}
       + [Definição de públicos da Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
       + [Personalização de campanhas usando atributos da Adobe Experience Platform](automating/using/aep-personalizing-campaigns.md)
 + Desenvolvimento {#developing}
