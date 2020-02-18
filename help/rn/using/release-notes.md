@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
+source-git-commit: 9e6648af4f0918904fc232e407a1cb6f237efcbc
 
 ---
 
@@ -20,6 +20,10 @@ source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
 # Versão mais recente{#latest-release}
 
 [Planejamento](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) da versão| Versões [do Painel](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) de controle| Atualizações [da](../../rn/using/documentation-updates.md) documentação| Notas [de versão](../../rn/using/release-notes-2019.md) anteriores| Recursos [obsoletos](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+## Versão 20.1.3 - fevereiro de 2020 {#release-20-1-3---february-2020}
+
+* Correção de um problema de regressão apresentado em 20.1 pelo CAMP-39273 para clientes que usam a falha. CAMP-39273 foi revertido.
 
 ## Versão 20.1.2 - fevereiro de 2020 {#release-20-1-2---february-2020}
 
@@ -116,3 +120,4 @@ source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
 * Correção de um problema que causava discrepância nas contagens de Cancelamento de assinatura nos relatórios dinâmicos. (CAMP-39949)
 * Correção de um problema que impedia a exibição de endereços na tela Enviar registros ao enviar mensagens no aplicativo.
 * Correção de um problema que impedia que o SMS enviasse logs fosse atualizado com o número correto de rejeições. (CAMP-38395)
+* Corrigida uma falha que permitia que as chamadas de postagem de assinatura do aplicativo atualizassem os tokens de notificação por push. (CAMP-39273)
