@@ -1,5 +1,5 @@
 ---
-title: Sobre o serviço Destinos de público-alvo
+title: Sobre o serviço Destinos do Audience
 description: Saiba mais sobre o serviço de Destinos de público-alvo.
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
@@ -13,22 +13,22 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
+source-git-commit: 77ceb5e5ca05fc3ee350d8e50fe0c957dec6ea26
 
 ---
 
 
-# Sobre o serviço Destinos de público-alvo {#about-audiences}
+# Sobre o serviço Destinos do Audience {#about-audiences}
 
 >[!IMPORTANT]
 >
 >O serviço de Destinos de público-alvo está atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam estar hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente da Adobe se desejar acessar.
 
-Capacite suas experiências de consumidores aproveitando a [Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home.html) (AEP) para criar públicos-alvo altamente direcionados com base em conjuntos de dados grandes e complexos. A plataforma Adobe Experience consolida dados de perfil, comportamento e multientidade em fontes online e offline, incluindo o Adobe Analytics, para ajudá-lo a criar uma visão de 360 graus do seu cliente, permitindo que você gerencie com eficácia suas experiências de cliente.
+Capacite suas experiências de consumidores aproveitando a plataforma [](https://www.adobe.io/apis/experienceplatform/home.html) Adobe Experience para criar públicos-alvo altamente direcionados com base em conjuntos de dados grandes e complexos. A plataforma Adobe Experience consolida dados de perfil, comportamento e multientidade em fontes online e offline, incluindo o Adobe Analytics, para ajudá-lo a criar uma visão de 360 graus do seu cliente, permitindo que você gerencie com eficácia suas experiências de cliente.
 
-O Adobe Campaign Standard usará o serviço Destinos **de** público-alvo para recuperar uma coleção de perfis, conhecidos como **Públicos-alvo**, da AEP para programas de campanha de várias etapas e/ou entre canais.
+O Adobe Campaign Standard usará o serviço Destinos **de** público-alvo para recuperar uma coleção de perfis, conhecidos como **Públicos-alvo**, da Adobe Experience Platform para programas de campanha de várias etapas e/ou entre canais.
 
-**Os públicos** são criados pela primeira vez criando **segmentos**, que são essencialmente um conjunto de regras baseado em praticamente qualquer variável (por exemplo, perfil, evento, dados de várias entidades) dentro de um perfil de cliente da AEP para criar uma meta multidimensional. Os conceitos globais nos Serviços de perfil e segmentação unificados são referenciados [nesses documentos](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)dedicados.
+**Os públicos** são criados pela primeira vez criando **segmentos**, que são essencialmente um conjunto de regras baseado em praticamente qualquer variável (por exemplo, perfil, evento, dados de várias entidades) dentro de um perfil de cliente da Adobe Experience Platform para criar uma meta multidimensional. Os conceitos globais nos Serviços de perfil e segmentação unificados são referenciados [nesses documentos](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)dedicados.
 
 Depois que um segmento é criado, você pode ativá-lo como um público-alvo para uma entrega nos fluxos de trabalho [do](../../automating/using/aep-targeting-audiences.md)Campaign Standard. Além disso, você pode usar dados contextuais da Adobe Experience Platform para [personalizar](../../automating/using/aep-personalizing-campaigns.md) e adicionar conteúdo dinâmico a suas campanhas.
 
