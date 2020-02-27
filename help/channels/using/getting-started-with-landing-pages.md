@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: c71c207d724dac914935b3667527a3ce4403dd63
 
 ---
 
@@ -44,12 +44,12 @@ A seção abaixo lista as limitações que devem ser observadas antes de iniciar
 
 **Gravação e atualização de dados**
 
-* As páginas de aterrissagem são limitadas apenas a **[!UICONTROL Profile]**e**[!UICONTROL Subscription]** recursos. O registro pode ser salvo e atualizado de uma assinatura **[!UICONTROL Profile]**ou cancelamento de assinatura para uma**[!UICONTROL Service]**.
+* As páginas de aterrissagem são limitadas apenas a **[!UICONTROL Profile]** e **[!UICONTROL Subscription]** recursos. O registro pode ser salvo e atualizado de uma assinatura **[!UICONTROL Profile]** ou cancelamento de assinatura para uma **[!UICONTROL Service]**.
 Para saber mais sobre a configuração de recursos, consulte [Configuração da estrutura](../../developing/using/configuring-the-resource-s-data-structure.md)de dados do recurso.
 
 >[!CAUTION]
 >
->Uma página inicial não pode exibir ou atualizar dados de nenhum outro recurso além **[!UICONTROL Profile]**e**[!UICONTROL Subscription]**.
+>Uma página inicial não pode exibir ou atualizar dados de nenhum outro recurso além **[!UICONTROL Profile]** e **[!UICONTROL Subscription]**.
 
 **Pré-carregamento**
 
@@ -79,7 +79,7 @@ Aqui, somente o primeiro perfil foi atualizado, pois era a entrada mais antiga.
 
 Antes de configurar uma página inicial, a primeira etapa é configurar um modelo de página inicial que corresponda às suas necessidades. Quando o modelo estiver pronto, todas as páginas iniciais baseadas nele serão pré-configuradas com os parâmetros desejados.
 
-1. No menu avançado, pelo logotipo do Adobe Campaign, selecione **[!UICONTROL Resources]**/**[!UICONTROL Templates]** / **[!UICONTROL Landing page templates]**e duplique o modelo que deseja usar.
+1. No menu avançado, pelo logotipo do Adobe Campaign, selecione **[!UICONTROL Resources]** / **[!UICONTROL Templates]** / **[!UICONTROL Landing page templates]** e duplique o modelo que deseja usar.
 1. Nas propriedades do modelo, especifique todos os parâmetros que suas páginas iniciais devem ter em comum. Por exemplo: a dimensão de definição de metas, os parâmetros de acesso à página para visitantes identificados ou não, ações específicas para a validação do formulário por um visitante, a marca/logotipo a ser usado no conteúdo etc. Para obter mais informações sobre as propriedades das páginas iniciais, consulte [esta seção](../../channels/using/configuring-landing-page.md)
 1. Salve suas modificações.
 
@@ -128,9 +128,9 @@ Se você estiver satisfeito com o comportamento da página de aterrissagem, pode
 
 Para obter mais informações sobre como testar uma página de aterrissagem, consulte [esta seção](../../channels/using/testing-publishing-landing-page.md#testing-the-landing-page-).
 
-## Etapa Publicar a página inicial {#publish-the-landing-page}
+## Etapa 5 - Publicar a página inicial {#publish-the-landing-page}
 
-Depois que os testes forem bem-sucedidos, você poderá publicar a página de aterrissagem usando o **[!UICONTROL Publish]**botão da barra de ação no painel. Um bloco de monitoramento mostra a progressão e o status da publicação.
+Depois que os testes forem bem-sucedidos, você poderá publicar a página de aterrissagem usando o **[!UICONTROL Publish]** botão da barra de ação no painel. Um bloco de monitoramento mostra a progressão e o status da publicação.
 
 A publicação da página de aterrissagem o torna acessível online. Depois de publicada, você sempre pode atualizá-la: para fazer isso, é necessário republicá-lo após cada modificação. Você também pode cancelar a publicação de uma página de aterrissagem a qualquer momento para que não esteja mais disponível.
 
