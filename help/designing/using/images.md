@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7e300de836a74372e411b5b1d584851fac77aafe
+source-git-commit: 881c89272884c6340e170ab13e84612a5af19acd
 
 ---
 
@@ -29,8 +29,6 @@ Os seguintes tipos de imagens estão disponíveis, dependendo de sua configuraç
 * Imagens compartilhadas da Adobe Experience Cloud - consulte [Trabalhar com o Campaign e os ativos Principais serviços](../../integrating/using/working-with-campaign-and-assets-core-service.md) / Ativos sob demanda
 * Imagens dinâmicas do Adobe Target - consulte [Trabalhar com o Campaign e o Target](../../integrating/using/about-campaign-target-integration.md)
 
-Se ativado, você pode modificar imagens com o Adobe Creative SDK. Consulte [Modificação de imagens com o Adobe Creative SDK](#modifying-images-with-the-adobe-creative-sdk).
-
 >[!CAUTION]
 >
 >Se você optar por adicionar uma imagem diretamente editando a versão HTML do email, não deverá chamar arquivos **externos em uma tag** &lt;script> da página HTML. Esses arquivos não serão importados para o servidor do Adobe Campaign.
@@ -38,7 +36,7 @@ Se ativado, você pode modificar imagens com o Adobe Creative SDK. Consulte [Mod
 ### Inserir imagens em um email {#inserting-images-in-an-email}
 
 1. Adicione um componente de estrutura. Para obter mais informações, consulte [Edição da estrutura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de email.
-1. Dentro desse componente de estrutura, adicione um componente de **[!UICONTROL Image]**conteúdo.
+1. Dentro desse componente de estrutura, adicione um componente de **[!UICONTROL Image]** conteúdo.
 
    ![](assets/des_insert_images_1.png)
 
@@ -72,24 +70,27 @@ O editor permite trabalhar com **todos os tipos** de imagem cujos formatos são 
 </object>
 ```
 
-## Modificação de imagens com o Adobe Creative SDK{#modifying-images-with-the-adobe-creative-sdk}
+<!--
+## Modifying images with the Adobe Creative SDK{#modifying-images-with-the-adobe-creative-sdk}
 
-Você pode editar imagens e usar um conjunto completo de recursos desenvolvidos pelo Adobe Creative SDK para aprimorar suas imagens diretamente no editor de conteúdo ao editar emails ou páginas de aterrissagem.
+You can edit images and use a complete set of features powered by the Adobe Creative SDK to enhance your images directly in the content editor when editing emails or landing pages.
 
-O editor de imagens oferece um poderoso componente de interface de usuário para edição de imagens, que permite editar imagens e aplicar efeitos e quadros, adesivos originais de alta qualidade, lindas sobreposições, recursos divertidos como mudança de inclinação e apresentação de cores, ajustes de nível pró e muito mais.
+The image editor offers a powerful, full-featured image editing UI component that allows you to edit images and apply effects and frames, original high-quality stickers, beautiful overlays, fun features like tilt shift and color splash, pro-level adjustments and more.
 
-Para modificar uma imagem com o Adobe Creative SDK:
+To modify an image with the Adobe Creative SDK:
 
-1. Selecione a imagem.
-1. Na barra de ferramentas, clique no ícone da Creative Cloud.
+1. Select the image.
+1. In the toolbar, click the Creative Cloud icon.
 
    ![](assets/des_creative_sdk_icon.png)
 
-1. Selecione a ferramenta que deseja usar pelos ícones na parte superior da janela para modificar a imagem.
+1. Select the tool you want to use through the icons on the top of the window to modify the image.
 
    ![](assets/email_designer_ccsdktoolbar.png)
 
-1. Clique **[!UICONTROL Save]**quando as modificações forem feitas. A imagem atualizada é salva no servidor do Adobe Campaign e está pronta para ser usada.
+1. Click **[!UICONTROL Save]** when modifications are done. The updated image is saved on Adobe Campaign server and ready to be used.
 
 >[!NOTE]
-As ferramentas oferecidas no editor de imagens não podem ser personalizadas.
+>
+>Tools offered in the image editor cannot be customized.
+-->
