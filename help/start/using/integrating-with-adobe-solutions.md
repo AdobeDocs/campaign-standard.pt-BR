@@ -1,18 +1,18 @@
 ---
 title: Integração com soluções da Adobe
 description: Saiba como as integrações com os principais serviços e soluções da Adobe Experience Cloud, como o Adobe Analytics e o Experience Manager, podem melhorar sua estratégia do Adobe Campaign com insights aprofundados e gerenciamento conveniente de conteúdo.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: e142e449-1cf4-4d3f-a318-6572d78e6f85
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: referência
+content-type: reference
 topic-tags: about-adobe-campaign
 discoiquuid: 3aebc89c-ed08-46ab-909c-e077ce2ab5da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 3cbb1b6e1697384be2eae3187fd89359628cd8da
 
 ---
 
@@ -54,10 +54,6 @@ Combine as soluções da Adobe Experience Cloud com o Adobe Campaign e você pod
 * Envie emails personalizados para seus clientes no Adobe Campaign como uma reação a comportamentos específicos que são rastreados em seu site pelo Adobe Analytics.
 
    Para obter mais informações, consulte [Usar acionadores da Experience Cloud no Campaign Standard](../../integrating/using/about-adobe-experience-cloud-triggers.md).
-
-* Edite imagens e use um conjunto completo de recursos capacitados pelo Adobe Creative SDK para aprimorar suas imagens diretamente no editor de conteúdo
-
-   Para obter mais informações, consulte [Modificação de imagens com o Adobe Creative SDK](../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk)
 
 * Automatize o processo de ativação da propriedade do aplicativo móvel no Adobe Campaign usando o SDK da plataforma Adobe Experience.
 
