@@ -1,19 +1,19 @@
 ---
 title: Configuração da estrutura de dados do recurso
 description: Saiba como configurar a estrutura de dados.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 60fe80c0-9df6-4808-a432-60a1977216ea
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: desenvolvimento
-content-type: referência
-topic-tags: adição ou extensão de um recurso
+audience: developing
+content-type: reference
+topic-tags: adding-or-extending-a-resource
 discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
 context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
 
 ---
 
@@ -41,8 +41,7 @@ Ao editar o recurso, na **[!UICONTROL Data structure]** guia, é possível adici
 
    >[!NOTE]
    >
-   >Se você deixar o **[!UICONTROL Label]** campo vazio, ele será automaticamente preenchido a partir da ID.
-   >Recomendamos o uso do máximo de 30 caracteres.
+   >Use no máximo 30 caracteres.
 
    ![](assets/schema_extension_4.png)
 
@@ -63,10 +62,14 @@ Ao editar o recurso, na **[!UICONTROL Data structure]** guia, é possível adici
 
    Esses campos aparecem nos dados e metadados que podem ser exibidos depois que a atualização do banco de dados é realizada. Para obter mais informações, consulte a seção [Atualização da estrutura](../../developing/using/updating-the-database-structure.md) do banco de dados.
 
-1. Marque o **[!UICONTROL Add automatic ID]** campo para gerar automaticamente uma ID. Observe que as entidades existentes permanecerão vazias.
-1. Para modificar a forma como o nome dos elementos de recurso aparecerá nas listas e etapas de criação, marque a **[!UICONTROL Personalize the resource title]** caixa. Selecione um campo dentre os que você criou para este recurso.
+1. Marque o **[!UICONTROL Add automatic ID]** campo para gerar automaticamente uma ID. Observe que as entidades existentes permanecerão vazias. Para obter mais informações, consulte a seção [Geração de uma ID exclusiva para perfis e recursos](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)personalizados.
+1. Para modificar a forma como o nome dos elementos de recurso aparecerá nas listas e etapas de criação, marque a **[!UICONTROL Customize the title of the resource elements]** caixa. Selecione um campo dentre os que você criou para este recurso.
 
    ![](assets/schema_extension_18.png)
+
+   >[!NOTE]
+   >
+   >Se você não marcar essa opção, a chave primária automática (que é criada automaticamente sempre que uma entidade é adicionada à tabela) será usada quando você listar todas as entidades desta tabela.
 
 Os campos do seu recurso agora estão definidos.
 
@@ -84,7 +87,7 @@ Cada recurso deve ter pelo menos uma chave exclusiva. Por exemplo, você pode es
 
    >[!NOTE]
    >
-   >Recomendamos o uso do máximo de 30 caracteres.
+   >Use no máximo 30 caracteres.
 
 1. Para definir os elementos que compõem essa chave, clique **[!UICONTROL Create element]** e selecione os campos criados para esse recurso.
 
@@ -93,6 +96,10 @@ Cada recurso deve ter pelo menos uma chave exclusiva. Por exemplo, você pode es
    As teclas criadas são exibidas na **[!UICONTROL Custom keys]** seção.
 
 Suas chaves de identificação do recurso agora são criadas.
+
+>[!NOTE]
+>
+>Para saber mais sobre as práticas recomendadas ao criar chaves de identificação, consulte esta [seção](../../developing/using/data-model-best-practices.md#keys).
 
 ## Definindo índices {#defining-indexes}
 
@@ -108,22 +115,26 @@ A definição de índices é recomendada, mas não obrigatória.
 
    >[!NOTE]
    >
-   >Recomendamos o uso do máximo de 30 caracteres.
+   >Use no máximo 30 caracteres.
 
 1. Para definir os elementos que compõem esse índice, selecione os campos dos que você criou para esse recurso.
 
    ![](assets/schema_extension_27.png)
 
-1. Click **[!UICONTROL Confirm]**.
+1. Clique em **[!UICONTROL Confirm]**.
 
 Os índices criados aparecem na lista da **[!UICONTROL Index]** seção.
+
+>[!NOTE]
+>
+>Para saber mais sobre as práticas recomendadas ao criar índices, consulte esta [seção](../../developing/using/data-model-best-practices.md#indexes).
 
 ## Definição de links com outros recursos {#defining-links-with-other-resources}
 
 Um link detalha a associação que uma tabela tem com outras tabelas.
 
 1. Use o **[!UICONTROL Create element]** botão para criar um link para um recurso de destino.
-1. Click **[!UICONTROL Select a target resource]**.
+1. Clique em **[!UICONTROL Select a target resource]**.
 
    ![](assets/schema_extension_28.png)
 
@@ -146,7 +157,7 @@ Um link detalha a associação que uma tabela tem com outras tabelas.
 
    >[!NOTE]
    >
-   >Recomendamos o uso do máximo de 30 caracteres.
+   >Use no máximo 30 caracteres.
 
    >[!CAUTION]
    >
@@ -168,7 +179,11 @@ Um link detalha a associação que uma tabela tem com outras tabelas.
 
 Os links criados são exibidos na lista da **[!UICONTROL Links]** seção.
 
-**Exemplo: Vincular um recurso criado ao recurso "Perfis"**
+>[!NOTE]
+>
+>Para saber mais sobre as práticas recomendadas ao criar índices, consulte esta [seção](../../developing/using/data-model-best-practices.md#links).
+
+**Exemplo: Vincular um recurso criado ao recurso &quot;Perfis&quot;**
 
 Neste exemplo, queremos vincular uma nova **Compra** de recurso ao recurso personalizado **Perfis** :
 
@@ -187,10 +202,10 @@ Neste exemplo, queremos vincular uma nova **Compra** de recurso ao recurso perso
 
    Desdobre a **[!UICONTROL Detail screen configuration]** seção e marque a tela **[!UICONTROL Define a detail screen]** para configurar a tela que corresponde a cada elemento do recurso. Se você não marcar essa caixa, a exibição detalhada dos elementos deste recurso não estará acessível.
 
-1. Click **[!UICONTROL Create element]**.
+1. Clique em **[!UICONTROL Create element]**.
 1. Selecione o recurso vinculado e clique em **[!UICONTROL Add]**.
 
-   Seu novo recurso estará disponível no menu avançado selecionando **[!UICONTROL Client data]** &gt; **[!UICONTROL Purchase]**.
+   Seu novo recurso estará disponível no menu avançado selecionando **[!UICONTROL Client data]** > **[!UICONTROL Purchase]**.
 
    ![](assets/custom_resource_link_to_profile_4.png)
 
@@ -198,7 +213,7 @@ Neste exemplo, queremos vincular uma nova **Compra** de recurso ao recurso perso
 
    Agora você pode publicar seu novo recurso.
 
-Ao adicionar esse link, uma guia **Compra** é adicionada à tela de detalhes dos perfis no menu **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Profiles]** . Observe que isso é específico do **[!UICONTROL Profile]** recurso.
+Ao adicionar esse link, uma guia **Compra** é adicionada à tela de detalhes dos perfis no menu **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Profiles]** . Observe que isso é específico do **[!UICONTROL Profile]** recurso.
 
 ![](assets/custom_resource_link_to_profile.png)
 
@@ -257,7 +272,7 @@ Na tela de recurso personalizado, o **[!UICONTROL Summary]** painel indica o sta
 
    >[!NOTE]
    >
-   >Recomendamos o uso do máximo de 30 caracteres.
+   >Use no máximo 30 caracteres.
 
 1. Se precisar restringir o acesso a esse recurso a determinadas unidades organizacionais, especifique-as aqui. Somente usuários de unidades autorizadas poderão trabalhar com esse recurso no aplicativo.
 1. Salve as modificações.
@@ -275,6 +290,13 @@ Ele pode ser ativado apenas para perfis e recursos personalizados.
 
 1. Crie uma extensão para o recurso de perfis ou crie um novo recurso.
 1. Na definição da estrutura de dados, marque a **[!UICONTROL Add automatic ID field]** opção, na **[!UICONTROL Fields]** seção.
+
+   ![](assets/option_id_field.png)
+
+   >[!NOTE]
+   >
+   >Somente novos registros terão uma ID ACS. O **[!UICONTROL ACS ID]** campo permanecerá vazio para perfis ou elementos criados antes de ativar essa opção.
+
 1. Salve e publique a modificação feita no recurso. Se desejar que esse mecanismo seja aplicado a elementos criados por meio da API, marque a opção para estender a API.
 
 O **[!UICONTROL ACS ID]** campo agora está disponível e automaticamente preenchido quando novos elementos são criados manualmente, da API ou inseridos de um fluxo de trabalho de importação. O campo ID ACS é um campo UUID e é indexado.
@@ -287,5 +309,6 @@ Ao reimportar dados que foram processados/atualizados em outro aplicativo (por e
 
 >[!NOTE]
 >
->O **[!UICONTROL ACS ID]** campo não é atualizado para perfis ou elementos criados antes da ativação da opção. Somente novos registros terão uma ID ACS. Este campo está no modo somente leitura. Não é possível modificá-la.
-
+>O **[!UICONTROL ACS ID]** campo não é atualizado para perfis ou elementos criados antes de ativar a opção. Somente novos registros terão uma ID ACS.
+>
+>Este campo está no modo somente leitura. Não é possível modificá-la.
