@@ -12,12 +12,12 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6ffbf03a7eb4fc1b5bfbd523c0c5342d41cfd211
+source-git-commit: 184a878f7be573a6b45a3a2853c07029432392f0
 
 ---
 
 
-# Planejamento de lançamento do Campaign Standard {#release-planning}
+# Planejamento de versão {#release-planning}
 
 A Adobe melhora continuamente suas soluções adicionando novos recursos, melhorias e correções.
 
@@ -29,7 +29,7 @@ Todas as datas de lançamento estão sujeitas a alterações: recomendamos que v
 
 Inscreva-se para [receber notificações](https://www.adobe.com/subscription/priority-product-update.html) de versão para obter detalhes sobre as versões mais recentes da Adobe Experience Cloud diretamente na sua caixa de entrada.
 
-## Versão 20.1.3 - Atualização da versão de fevereiro {#release-20-1-3---february-release-update}
+## Versão 20.1.4 - Atualização da versão de fevereiro {#release-20-1-4---february-release-update}
 
 As atualizações de ambiente ocorrem em ondas, durante os intervalos de tempo indicados abaixo. Informações detalhadas sobre esta versão estão disponíveis nas [Notas](../../rn/using/release-notes.md)de versão. Caso tenha mais dúvidas, entre em contato com o [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin).
 
