@@ -21,6 +21,10 @@ source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
 
 [Planejamento](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) da versão| Versões [do Painel](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) de controle| Atualizações [da](../../rn/using/documentation-updates.md) documentação| Notas [de versão](../../rn/using/release-notes-2019.md) anteriores| Recursos [obsoletos](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
+## Versão 20.1.4 - fevereiro de 2020 {#release-20-1-4---february-2020}
+
+* Corrigido um problema ao abrir uma atividade **Ler público** -alvo em fluxos de trabalho existentes. (CAMP-41002)
+
 ## Versão 20.1.3 - fevereiro de 2020 {#release-20-1-3---february-2020}
 
 * Correção de um problema de regressão apresentado em 20.1 pelo CAMP-39273 para clientes que usam a falha. CAMP-39273 foi revertido.
