@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0bc487606fe3715b20452f3cf8eae52900539a32
+source-git-commit: 7e61796376a14c279d38107905275172be0dd12d
 
 ---
 
@@ -22,7 +22,7 @@ Para testar sua linha de assunto, siga as etapas abaixo:
 
 1. Crie ou abra seu email.
 1. Abra o conteúdo e digite o assunto do email no campo de entrada correspondente.
-1. Clique no **[!UICONTROL Test subject]**botão para acessar a**[!UICONTROL Test your subject line]** janela. Você ainda pode editar o assunto desta janela.
+1. Clique no **[!UICONTROL Test subject]** botão para acessar a **[!UICONTROL Test your subject line]** janela. Você ainda pode editar o assunto desta janela.
 1. Selecione o modelo correto a ser considerado para a previsão de taxa aberta. Estão disponíveis vários modelos, cada um correspondente a um setor específico.
 1. Clique em **[!UICONTROL Test]**.
 
@@ -52,7 +52,7 @@ Por padrão, não há modelo em execução no servidor do Adobe Campaign. Há du
 * Você pode treinar um modelo local a partir dos dados de suas mensagens de email anteriores:
 
    * Se você já estiver usando o Adobe Campaign, o modelo local será treinado automaticamente nas mensagens que você já enviou.
-   * Se você for novo no Adobe Campaign, poderá extrair um arquivo CSV do seu sistema anterior/ESP que contém 4 colunas: data, assunto, abre, enviado. Para fazer isso, vá até **[!UICONTROL Administration]**>**[!UICONTROL Channels]** > **[!UICONTROL Email]**>**[!UICONTROL Subject Line Import]** e siga as instruções fornecidas nas telas sucessivas. Quando o upload do assunto estiver concluído, importe um modelo local conforme descrito abaixo. O modelo local é treinado automaticamente com os dados carregados.
+   * Se você for novo no Adobe Campaign, poderá extrair um arquivo CSV do seu sistema anterior/ESP que contém 4 colunas: data, assunto, abre, enviado. Para fazer isso, vá até **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Subject Line Import]** e siga as instruções fornecidas nas telas sucessivas. Quando o upload do assunto estiver concluído, importe um modelo local conforme descrito abaixo. O modelo local é treinado automaticamente com os dados carregados.
    * Se você for novo no Adobe Campaign e não conseguir obter um arquivo CSV conforme descrito acima, poderá usar um modelo pré-treinado ou aguardar até que tenha dados de entrega suficientes no sistema para treinar um modelo local. O sistema determinará automaticamente se seu conjunto de dados atual contém dados suficientes para reconhecer padrões e treinar o modelo.
 
       >[!NOTE]
@@ -60,13 +60,13 @@ Por padrão, não há modelo em execução no servidor do Adobe Campaign. Há du
       >Não há um número definido de linhas de assunto necessárias para treinar seu próprio modelo. Para a treinar, as linhas temáticas têm de ser variadas e não têm duplicações. Se não houver dados suficientes para processar, o sistema não poderá treinar o modelo. Você só pode ter um modelo treinado em sua instância.
    Para treinar um modelo local, baixe o subjectLineTraining.xml [aqui](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) e use o recurso de importação [de](../../automating/using/managing-packages.md) pacote para carregá-lo para a instância do Adobe Campaign. Um fluxo de trabalho técnico fará automaticamente o treinamento para você.
 
-   Na primeira vez que você deseja treinar um modelo, um administrador pode forçar o usuário a **[!UICONTROL SubjectLine Training workflow]**iniciar no menu**[!UICONTROL Administration]** > **[!UICONTROL Application settings]**>**[!UICONTROL Workflows]** .
+   Na primeira vez que você deseja treinar um modelo, um administrador pode forçar o usuário a **[!UICONTROL SubjectLine Training workflow]** iniciar no menu **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]** .
 
    Depois que um modelo é carregado e treinado, o recurso é ativado automaticamente e uma nova opção é exibida ao lado do campo de linha de assunto das mensagens.
 
    Em seguida, o fluxo de trabalho técnico continuará automaticamente treinando seu modelo toda semana.
 
-* Você pode importar modelos pré-treinados específicos para certas indústrias (médica, etc.) usando o recurso de importação [de](../../automating/using/managing-packages.md) pacote. Estes modelos estão disponíveis [aqui](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) e não podem ser treinados.
+* Você pode importar modelos pré-treinados específicos para certas indústrias (médica, etc.) usando o recurso de importação [de](../../automating/using/managing-packages.md) pacote. Para acessar esses modelos, clique [aqui](https://support.neolane.net/webApp/extranetLogin) e vá para **[Centro]** de downloads. Esses modelos não podem ser treinados.
 
    Depois que um modelo é carregado, o recurso é ativado automaticamente e uma nova opção é exibida ao lado do campo de linha de assunto das mensagens.
 
