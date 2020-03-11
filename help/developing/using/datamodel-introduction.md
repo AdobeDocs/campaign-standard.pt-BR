@@ -11,7 +11,7 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb7f04e151b04d669b93446ad70c3865170c39cf
+source-git-commit: 51a3faaf839a678aeb99c533f0f67f103c7913d6
 
 ---
 
@@ -19,5 +19,11 @@ source-git-commit: eb7f04e151b04d669b93446ad70c3865170c39cf
 # Introdução ao modelo de dados{#data-model-introduction}
 
 O Adobe Campaign vem com um modelo de dados predefinido.
+
+O modelo de dados do Adobe Campaign Standard exibe a estrutura SQL predefinida para um conjunto de recursos relacionados a marketing.
+
+Este conteúdo se destina a serviços de consultoria ou desenvolvedores.
+
+Para cada recurso, uma tabela lista os campos SQL com características disponíveis, como nome interno, tipo e detalhes de enumeração. Uma segunda parte apresenta filtros predefinidos associados ao recurso. Cada filtro vem com sua lista de parâmetros.
 
 Esse modelo de dados pode ser modificado por [administradores](../../administration/using/users-management.md#functional-administrators) que podem adicionar novos recursos ou extensões aos recursos existentes.
