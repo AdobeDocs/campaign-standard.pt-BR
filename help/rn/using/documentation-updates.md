@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f49668c8ad878764b2a15c53efdcab797dd91724
+source-git-commit: ffe6b34ec8d7a31ffcce1e725364a6ecf00f70a8
 
 ---
 
@@ -27,7 +27,7 @@ Você também pode consultar as Notas [de](../../rn/using/release-notes.md)vers�
 
 ## Atualizações da documentação - março de 2020 {#doc-updates-march-2020}
 
-Foram adicionadas informações mais detalhadas sobre o Enhanced MTA à documentação principal, particularmente no que diz respeito às regras de processamento de e-mail e à qualificação de e-mails de rejeição. [Leia mais](../../administration/using/configuring-email-channel.md#email-processing-rules)
+Informações mais detalhadas sobre o MTA aprimorado foram adicionadas à documentação principal, especialmente no que diz respeito às regras de processamento de e-mail e à qualificação de e-mails de rejeição. [Leia mais](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
 A seção dedicada ao arquivamento com Cco de email foi movida e atualizada. [Leia mais](../../sending/using/archiving.md)
 
@@ -347,7 +347,7 @@ Foram adicionadas informações sobre a nova opção nas atividades Consulta ( [
 
 Foram adicionadas informações na seção Atualizar atividade de dados no novo campo Tamanho do lote que permite definir o tamanho máximo do lote para os dados a serem carregados. [Leia mais](../../automating/using/update-data.md#configuration)
 
-Foram adicionadas informações na seção Extrair atividade do arquivo na nova opção que permite desativar o processo de geração de arquivos se a transição de saída estiver vazia. [Leia mais](../../automating/using/extract-file.md#configuration)
+Foram adicionadas informações na seção Extrair atividade do arquivo sobre a nova opção que permite desativar o processo de geração de arquivos se a transição de saída estiver vazia. [Leia mais](../../automating/using/extract-file.md#configuration)
 
 ## Versão 19.0 - Janeiro de 2019 {#release-19-0---january-2019}
 
@@ -645,7 +645,7 @@ Lista detalhada de KPIs compartilhados com o Adobe Analytics. [Leia mais](../../
 
 Novo vídeo Relatório dinâmico. [Leia mais](../../start/using/how-to-videos.md)
 
-Adicionadas as recomendações da conta S3. [Leia mais](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
+Adicionadas recomendações de conta S3. [Leia mais](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
 
 Atualização da seção sobre os diferentes tipos de usuários. [Leia mais](../../administration/using/users-management.md)
 
