@@ -1,18 +1,18 @@
 ---
 title: Noções básicas sobre gestão de quarentena
 description: Saiba como otimizar sua capacidade de entrega com o gerenciamento de quarentena.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 3c287865-1ada-4351-b205-51807ff9f7ed
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: envio
-content-type: referência
-topic-tags: mensagens de monitoramento
+audience: sending
+content-type: reference
+topic-tags: monitoring-messages
 discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: f7e361d10d039718c421a3684c518347af2be951
 
 ---
 
@@ -45,7 +45,7 @@ A inclusão na **Blacklist**, por outro lado, resultará no perfil não sendo ma
 
 >[!NOTE]
 >
->Quando um usuário responde a uma mensagem SMS com uma palavra-chave como "PARAR" para não participar dos deliveries de SMS, seu perfil não é incluído na blacklist como no processo de recusa de email. O número de telefone do perfil é enviado para quarentena com o **[!UICONTROL Blacklisted]** status. Esse status se refere apenas ao número de telefone, o perfil não está na lista negra para que o usuário continue recebendo mensagens de email. Para obter mais informações, consulte [esta seção](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
+>Quando um usuário responde a uma mensagem SMS com uma palavra-chave como &quot;PARAR&quot; para não participar dos deliveries de SMS, seu perfil não é incluído na blacklist como no processo de recusa de email. O número de telefone do perfil é enviado para quarentena com o **[!UICONTROL Blacklisted]** status. Esse status se refere apenas ao número de telefone, o perfil não está na lista negra para que o usuário continue recebendo mensagens de email. Para obter mais informações, consulte [esta seção](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
 ## Identificação de endereços em quarentena {#identifying-quarantined-addresses}
 
@@ -73,7 +73,7 @@ Os administradores podem listar os endereços em quarentena para a plataforma in
 
 >[!NOTE]
 >
->O aumento no número de quarantinas é um efeito normal, relacionado ao "desgaste" do banco de dados. Por exemplo, se a duração de um endereço de email for considerada como sendo de três anos e a tabela do destinatário aumentar 50% a cada ano, o aumento de quarenta pode ser calculado da seguinte forma: Fim do Ano 1: (1*0.33)/(1+0.5)=22%. Fim do Ano 2: ((1.22*0.33)+0.33)/(1.5+0.75)=32.5%.
+>O aumento no número de quarantinas é um efeito normal, relacionado ao &quot;desgaste&quot; do banco de dados. Por exemplo, se a duração de um endereço de email for considerada como sendo de três anos e a tabela do destinatário aumentar 50% a cada ano, o aumento de quarenta pode ser calculado da seguinte forma: Fim do Ano 1: (1*0.33)/(1+0.5)=22%. Fim do Ano 2: ((1.22*0.33)+0.33)/(1.5+0.75)=32.5%.
 
 ## Condições para colocar um endereço na quarentena {#conditions-for-sending-an-address-to-quarantine}
 
@@ -81,11 +81,11 @@ O Adobe Campaign gerencia a quarentena de acordo com o tipo de falha de entrega 
 
 * **Erro ignorado**: os erros ignorados não enviam um endereço para quarentena.
 * **Erro grave**: o endereço de email correspondente é enviado imediatamente para quarentena.
-* **Erro suave**: erros suaves não enviam um endereço imediatamente para quarentena, mas incrementam um contador de erros. Quando o contador de erros atinge o limite da cota, o endereço vai para a quarentena. Na configuração padrão, a cota é definida em cinco erros, onde dois erros são significativos se ocorrerem pelo menos em 24 horas de distância. O endereço é colocado em quarentena no sexto erro. O limite do contador de erros pode ser modificado. Para obter mais informações, consulte esta [página](../../administration/using/configuring-email-channel.md#email-channel-parameters).
+* **Erro suave**: erros suaves não enviam um endereço imediatamente para quarentena, mas incrementam um contador de erros. Quando o contador de erros atinge o limite da cota, o endereço vai para a quarentena. Na configuração padrão, a cota é definida em cinco erros, onde dois erros são significativos se ocorrerem pelo menos em 24 horas de distância. O endereço é colocado em quarentena no quinto erro. O limite do contador de erros pode ser modificado. Para obter mais informações, consulte esta [página](../../administration/using/configuring-email-channel.md#email-channel-parameters).
 
    Quando um delivery é bem-sucedido após uma tentativa, o contador de erros do endereço anterior à quarentena é reinicializado. The address status changes to **[!UICONTROL Valid]** and it is deleted from the list of quarantines after two days by the **[!UICONTROL Database cleanup]** workflow.
 
-If a user qualifies an email as a spam (**Feedback loop**), the message is automatically redirected towards a technical mailbox managed by Campaign. O endereço de email do usuário é enviado automaticamente para quarentena com o **[!UICONTROL Blacklisted]** status. Esse status se refere apenas ao endereço, o perfil não está na lista negra, de modo que o usuário continua recebendo mensagens SMS e notificações por push.
+If a user qualifies an email as a spam (**Feedback loop**), the message is automatically redirected towards a technical mailbox managed by Campaign. The user&#39;s email address is then automatically sent to quarantine with the **[!UICONTROL Blacklisted]** status. Esse status se refere apenas ao endereço, o perfil não está na lista negra, de modo que o usuário continua recebendo mensagens SMS e notificações por push.
 
 >[!NOTE]
 A quarentena no Adobe Campaign diferencia maiúsculas de minúsculas. Certifique-se de importar endereços de email em letras minúsculas, para que não sejam redirecionados posteriormente.
