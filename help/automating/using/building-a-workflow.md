@@ -13,7 +13,7 @@ context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
+source-git-commit: e04b70012188b455382406df167328f963d577da
 
 ---
 
@@ -56,13 +56,14 @@ A criação de uma atividade de marketing é detalhada na seção [Criação de 
 
 1. Confirme a criação da atividade e o painel dessa atividade será exibido. For more on this, refer to the [Workflow interface](../../automating/using/workflow-interface.md) section.
 
-1. Quando o fluxo de trabalho estiver pronto para ser configurado, você poderá acessar opções adicionais clicando no **[!UICONTROL Edit properties]**botão. Por exemplo, você pode definir um fuso horário específico para usar por padrão em todas as atividades do fluxo de trabalho. Por padrão, o fuso horário do fluxo de trabalho é o definido para o operador atual da Campanha.
+1. Quando o fluxo de trabalho estiver pronto para ser configurado, você poderá acessar opções adicionais clicando no **[!UICONTROL Edit properties]** botão. Por exemplo, você pode definir um fuso horário específico para usar por padrão em todas as atividades do fluxo de trabalho. Por padrão, o fuso horário do fluxo de trabalho é o definido para o operador atual da Campanha.
 
    ![](assets/workflow_properties.png)
 
 **Tópico relacionado:**
 
-[Criação de um vídeo de fluxo de trabalho](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html)
+* [Criação de um vídeo de fluxo de trabalho](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html)
+* [Propriedades do workflow](../../automating/using/executing-a-workflow.md#workflow-properties)
 
 ## Adição e vínculo de atividades {#adding-and-linking-activities}
 
@@ -74,22 +75,22 @@ Defina agora as várias atividades e as vincule no diagrama.
 
 As atividades são agrupadas por categoria dentro das diferentes seções da paleta.
 
-* A primeira seção contém atividades de direcionamento.
-* A segunda seção contém as atividades de execução, que são principalmente utilizadas para coordenar outras atividades.
-* A terceira seção contém atividades que podem ser usadas para enviar mensagens em canais diferentes. As atividades nesta seção podem variar dependendo dos canais ativados na sua instância.
-* A quarta seção contém atividades de manipulação de arquivos e gerenciamento de dados.
+* A primeira seção contém atividades de [direcionamento](../../automating/using/about-targeting-activities.md)
+* The second section contains the [execution activities](../../automating/using/about-execution-activities.md), which are mainly used for coordinating other activities.
+* A terceira seção contém atividades que podem ser usadas para enviar mensagens em diferentes [canais](../../automating/using/about-channel-activities.md). As atividades nesta seção podem variar dependendo dos canais ativados na sua instância.
+* A quarta seção contém atividades [de manipulação de](../../automating/using/about-data-management-activities.md)arquivos e gerenciamento de dados.
 
 Criação do diagrama:
 
 1. Adicione uma atividade arrastando-a da paleta e soltando-a no diagrama.
 
-   Por exemplo, adicione uma atividade **Iniciar** e depois uma atividade de entrega **de** email no diagrama.
+   Por exemplo, adicione uma atividade **[Iniciar](../../automating/using/start-and-end.md)**e depois uma atividade de entrega**[ de](../../automating/using/email-delivery.md)** email no diagrama.
 
 1. Link the activities together by dragging the **Start** activity transition and dropping it on to the **Email delivery** activity.
 
    >[!NOTE]
    >
-   >Você pode vincular automaticamente uma atividade à anterior colocando a nova atividade no final da transição da anterior.
+   >Você pode vincular automaticamente uma atividade à anterior, colocando a nova atividade no final da transição da anterior.
 
 1. Adicione as atividades necessárias e vincule-as para concluir o fluxo de trabalho.
 
@@ -99,7 +100,7 @@ Criação do diagrama:
 
 Assim que suas atividades de fluxo de trabalho estiverem vinculadas, você poderá personalizar as transições entre elas com o **rótulo** de sua escolha. Para fazer isso, clique duas vezes na transição para acessar suas propriedades.
 
-Além disso, **[!UICONTROL Targeting]**e**[!UICONTROL Data management (ETL)]** as atividades permitem definir códigos **de** segmento para suas transições de saída. Em seguida, você pode criar relatórios com base nesses códigos de segmento para medir a eficiência de suas campanhas de marketing. Para obter mais informações, consulte [esta seção](../../reporting/using/creating-a-report-workflow-segment.md).
+Além disso, **[!UICONTROL Targeting]** e **[!UICONTROL Data management (ETL)]** as atividades permitem definir códigos **de** segmento para suas transições de saída. Em seguida, você pode criar relatórios com base nesses códigos de segmento para medir a eficiência de suas campanhas de marketing. Para obter mais informações, consulte [esta seção](../../reporting/using/creating-a-report-workflow-segment.md).
 
 **Casos de uso do fluxo de trabalho:**
 
@@ -113,8 +114,8 @@ Além disso, **[!UICONTROL Targeting]**e**[!UICONTROL Data management (ETL)]** a
 Por padrão, as atividades não são definidas e não processarão os dados corretamente se não estiverem configuradas. Cada atividade contém várias guias para gerenciar configurações específicas e opções genéricas de atividade, como transições de saída, etiquetas etc.
 
 1. Verifique se todas as atividades estão conectadas corretamente. Algumas atividades exigem a detecção da estrutura ou da natureza dos dados recebidos para oferecer as opções de configuração corretas.
-1. Clique duas vezes em uma atividade ou selecione-a e clique na ação **[!UICONTROL Edit]**contextual para abrir sua janela de configuração.
+1. Clique duas vezes em uma atividade ou selecione-a e clique na ação **[!UICONTROL Edit]** contextual para abrir sua janela de configuração.
 1. Edite o rótulo da atividade.
-1. Defina todas as opções diferentes necessárias para processar os dados. Consulte a seção específica da atividade desta documentação para saber mais sobre as possíveis opções para cada atividade.
+1. Defina todas as opções diferentes que você precisa para processar os dados. Consulte a seção específica da atividade desta documentação para saber mais sobre as possíveis opções para cada atividade.
 1. Salve a atividade e repita essas operações para cada atividade do fluxo de trabalho.
 1. Salve o workflow.
