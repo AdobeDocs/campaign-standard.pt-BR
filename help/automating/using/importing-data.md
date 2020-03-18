@@ -12,7 +12,7 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ca603abd9b4ef1a9272a89acb62dee545b76114
+source-git-commit: b71d19672efe24040d676bbcff3f90177b3fbcae
 
 ---
 
@@ -131,7 +131,7 @@ Depois que a solicitação for processada, os comandos de criptografia/descripto
 * [Carregar arquivo](../../automating/using/load-file.md)
 * [Extrair arquivo](../../automating/using/extract-file.md)
 
-## Criando modelo de fluxo de trabalho para importar dados {#example--import-workflow-template}
+## Criação de modelos de fluxo de trabalho para importar dados {#example--import-workflow-template}
 
 Usar um template de importação é uma prática recomendada se você precisar importar arquivos regularmente com a mesma estrutura.
 
@@ -206,7 +206,7 @@ Esse exemplo mostra como predefinir um workflow que pode ser reutilizado para im
 
       >[!NOTE]
       >
-      >Se você planeja enviar emails diretos para esses perfis, certifique-se de incluir um endereço postal, pois essas informações são essenciais para o provedor de mala direta. Verifique também se a **[!UICONTROL Address specified]** caixa nas informações dos perfis está marcada. Para atualizar essa opção de um fluxo de trabalho, basta adicionar um elemento aos campos a serem atualizados e especificar **1** como **[!UICONTROL Source]** e selecionar o `postalAddress/@addrDefined` campo como **[!UICONTROL Destination]**. Para obter mais informações sobre mala direta e o uso da **[!UICONTROL Address specified]** opção, consulte [este documento](../../channels/using/about-direct-mail.md#recommendations).
+      >Se você planeja enviar emails diretos para esses perfis, certifique-se de incluir um endereço postal, pois essas informações são essenciais para o provedor de mala direta. Verifique também se a **[!UICONTROL Address specified]** caixa nas informações dos perfis está marcada. Para atualizar essa opção de um fluxo de trabalho, basta adicionar um elemento aos campos a serem atualizados e especificar **1** como **[!UICONTROL Source]** e selecionar o campo **postalAddress/@addrDefined** como **[!UICONTROL Destination]**. Para obter mais informações sobre mala direta e o uso da **[!UICONTROL Address specified]** opção, consulte [este documento](../../channels/using/about-direct-mail.md#recommendations).
 
 1. Configure the **[!UICONTROL Deduplication]** activity located after the transition containing unreconciled profiles:
 
