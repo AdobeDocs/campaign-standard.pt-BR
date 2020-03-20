@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentação do produto Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 3fa3fac1ae34c5e53195ad1605be5d4e25f11318
+source-git-commit: 14f3ce8641785e88fc2b566c62089833713aa82e
 
 ---
 
@@ -15,11 +15,9 @@ source-git-commit: 3fa3fac1ae34c5e53195ad1605be5d4e25f11318
 
 ## Novidades
 
+* **[Testes por email usando perfis](sending/using/testing-messages-using-target.md)**direcionados Saiba como testar seus emails em perfis direcionados reais.
+
 * **[Gerenciamento de privacidade](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Saiba mais sobre as ferramentas fornecidas pelo Adobe Campaign para ajudá-lo a estar em conformidade com privacidade.
-
-* **[Práticas recomendadas de entrega](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>Saiba mais sobre as práticas recomendadas relacionadas ao design e envio da entrega.
-
-* **[Email Designer](designing/using/designing-content-in-adobe-campaign.md)**<br/>Consulte a documentação reorganizada do Email Designer.
 
 * **[Guia do Campaign Standard Mobile](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>Saiba mais sobre as diretrizes gerais para entregas móveis.
 
