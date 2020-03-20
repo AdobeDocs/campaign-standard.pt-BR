@@ -12,7 +12,7 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 
 ---
 
@@ -31,11 +31,11 @@ O Adobe Campaign cria perfis ricos de clientes em tempo real, permitindo que voc
 
    Usando fluxos de trabalho e o editor de consultas, você pode criar públicos-alvo que serão direcionados por suas campanhas de marketing, dependendo das informações que você tiver sobre eles, suas atividades e seu histórico de marketing. Isso permite que você filtre perfis inscritos, amostras ou crie públicos-alvo em um número ilimitado de critérios.
 
-Antes de iniciar o envio de mensagens para um contato, é necessário certificar-se de obter a permissão. Caso contrário, seus emails podem ser marcados como spam e isso afetará a capacidade de entrega da plataforma. Para garantir a criação de um banco de dados de perfil saudável, proteja essa permissão como uma primeira etapa. Com o Campaign, recomendamos que você use mecanismos fáceis de aceitação e não participação por meio de [serviços](../../audiences/using/creating-a-service.md)e páginas [de](../../channels/using/getting-started-with-landing-pages.md) aterrissagem para atualizar suas informações de contato e aumentar seu banco de dados.
+Antes de começar a enviar mensagens para um contato, é necessário certificar-se de que você obtém a permissão. Caso contrário, seus emails podem ser marcados como spam e isso afetará a capacidade de entrega da plataforma. Para garantir a criação de um banco de dados de perfil saudável, proteja essa permissão como uma primeira etapa. Com o Campaign, recomendamos que você use mecanismos fáceis de aceitação e não participação por meio de [serviços](../../audiences/using/creating-a-service.md)e páginas [de](../../channels/using/getting-started-with-landing-pages.md) aterrissagem para atualizar suas informações de contato e aumentar seu banco de dados.
 
 Fornecer links de cancelamento de assinatura em suas mensagens permitirá que os Perfis sejam adicionados à lista negra, quando necessário, e, portanto, melhorar a entrega da plataforma. Para obter mais informações sobre a lista negra, consulte [Sobre aceitação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-Identifique os clientes de forma mais eficiente em todos os canais usando perfis de clientes integrados e segmentos personalizados. Quando você conhece seus clientes, interesses, demografia e preferências de canal, é mais fácil criar experiências personalizadas que sejam notadas.
+Identifique os clientes de forma mais eficiente em todos os seus canais usando perfis de clientes integrados e segmentos personalizados. Quando você conhece seus clientes, interesses, demografia e preferências de canal, é mais fácil criar experiências personalizadas que sejam notadas.
 
 >[!CAUTION]
 >
