@@ -12,18 +12,33 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7e61796376a14c279d38107905275172be0dd12d
+source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
 
 ---
 
 # Teste da linha de assunto de um email {#testing-a-subject}
 
+
+## Sobre a linha de assunto preditiva {#about-predictive-subject-line}
+
+Ao editar um email, você pode tentar diferentes linhas de assunto e obter uma estimativa de sua taxa de abertura antes de enviá-lo.
+
+Esse recurso é desativado por padrão. Ela é ativada quando o primeiro modelo é importado. Um modelo é o resultado de conjuntos de dados de treinamento específicos para um determinado setor. Os modelos permitem que o sistema preveja a taxa de abertura do email quando uma nova linha de assunto for enviada.
+
+>[!NOTE]
+>
+>Este recurso está disponível para mensagens de email e bancos de dados que contêm apenas conteúdo em inglês. O modelo treinado será inconsistente e resultará em resultados incorretos se sua instância contiver emails em outros idiomas. A opção que permite testar um assunto só estará visível se um modelo já estiver disponível em sua instância.
+
+Para obter mais informações sobre como importar modelos, consulte esta [seção](#importing-models).
+
+## Teste da linha de assunto {#testing-subject-line}
+
 Para testar sua linha de assunto, siga as etapas abaixo:
 
 1. Crie ou abra seu email.
-1. Abra o conteúdo e digite o assunto do email no campo de entrada correspondente.
+1. Abra o conteúdo e insira o assunto do email no campo de entrada correspondente.
 1. Clique no **[!UICONTROL Test subject]** botão para acessar a **[!UICONTROL Test your subject line]** janela. Você ainda pode editar o assunto desta janela.
-1. Selecione o modelo correto a ser considerado para a previsão de taxa aberta. Estão disponíveis vários modelos, cada um correspondente a um setor específico.
+1. Selecione o modelo correto a ser considerado para a previsão de taxa aberta. Estão disponíveis vários modelos, cada um correspondente a um setor específico. Para obter mais informações sobre como usar modelos, consulte esta [seção](#importing-models).
 1. Clique em **[!UICONTROL Test]**.
 
 Seu assunto é então analisado.
@@ -36,8 +51,8 @@ Vários indicadores são calculados e um conjunto de ferramentas é exibido para
 
 * **Taxa** de abertura prevista: Este gráfico fornece uma ideia da taxa de abertura que você pode esperar do email com seu assunto atual.
 * **Duração** do assunto: Esse indicador permite que você veja se o comprimento atual do assunto está correto ou se ele precisaria ser maior ou menor.
-* **Palavras** coloridas: Ao testar o assunto, palavras destacadas em verde são as que mais contribuem para aumentar a previsão de taxa aberta. Palavras destacadas em vermelho são as que menos contribuem para aumentar a previsão de taxa aberta. Se você adicionar ou remover palavras no assunto, as palavras destacadas serão alteradas.
-* **Categorias e sugestões** de palavras: Na parte inferior da janela, são exibidas várias categorias relevantes para o modelo selecionado. Essas categorias são classificadas por ordem de importância e permitem que você veja se o assunto contém palavras associadas a ele por meio de um símbolo de verificação. Cada categoria contém um conjunto de palavras sugeridas que podem ser usadas em seu assunto para torná-lo mais relevante e aumentar a taxa aberta. Essas palavras são as palavras mais usadas em uma determinada categoria.
+* **Palavras** coloridas: Ao testar o assunto, as palavras destacadas em verde são as que mais contribuem para aumentar a previsão de taxa aberta. Palavras destacadas em vermelho são as que menos contribuem para aumentar a previsão de taxa aberta. Se você adicionar ou remover palavras no assunto, as palavras destacadas serão alteradas.
+* **Categorias e sugestões** de palavras: Na parte inferior da janela, são exibidas várias categorias relevantes para o modelo selecionado. Essas categorias são classificadas por ordem de importância e permitem que você veja se o assunto contém palavras associadas a ele por meio de um símbolo de verificação. Cada categoria contém um conjunto de palavras sugeridas que podem ser usadas em seu assunto para torná-lo mais relevante e aumentar a taxa aberta. Essas palavras são as que são usadas com mais frequência em uma determinada categoria.
 
 >[!NOTE]
 >
@@ -49,30 +64,30 @@ Vários indicadores são calculados e um conjunto de ferramentas é exibido para
 
 Por padrão, não há modelo em execução no servidor do Adobe Campaign. Há duas maneiras de obter um modelo e ativar o recurso:
 
-* Você pode treinar um modelo local a partir dos dados de suas mensagens de email anteriores:
+* Você pode treinar um modelo local a partir dos dados de suas mensagens de email anteriores.
+* Você pode importar modelos pré-treinados específicos para certas indústrias (médica, etc.) usando o recurso de importação [de](../../automating/using/managing-packages.md) pacote.
 
-   * Se você já estiver usando o Adobe Campaign, o modelo local será treinado automaticamente nas mensagens que você já enviou.
-   * Se você for novo no Adobe Campaign, poderá extrair um arquivo CSV do seu sistema anterior/ESP que contém 4 colunas: data, assunto, abre, enviado. Para fazer isso, vá até **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Subject Line Import]** e siga as instruções fornecidas nas telas sucessivas. Quando o upload do assunto estiver concluído, importe um modelo local conforme descrito abaixo. O modelo local é treinado automaticamente com os dados carregados.
-   * Se você for novo no Adobe Campaign e não conseguir obter um arquivo CSV conforme descrito acima, poderá usar um modelo pré-treinado ou aguardar até que tenha dados de entrega suficientes no sistema para treinar um modelo local. O sistema determinará automaticamente se seu conjunto de dados atual contém dados suficientes para reconhecer padrões e treinar o modelo.
+### Treinamento de um modelo local {#training-local-model}
 
-      >[!NOTE]
-      >
-      >Não há um número definido de linhas de assunto necessárias para treinar seu próprio modelo. Para a treinar, as linhas temáticas têm de ser variadas e não têm duplicações. Se não houver dados suficientes para processar, o sistema não poderá treinar o modelo. Você só pode ter um modelo treinado em sua instância.
-   Para treinar um modelo local, baixe o subjectLineTraining.xml [aqui](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) e use o recurso de importação [de](../../automating/using/managing-packages.md) pacote para carregá-lo para a instância do Adobe Campaign. Um fluxo de trabalho técnico fará automaticamente o treinamento para você.
-
-   Na primeira vez que você deseja treinar um modelo, um administrador pode forçar o usuário a **[!UICONTROL SubjectLine Training workflow]** iniciar no menu **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]** .
-
-   Depois que um modelo é carregado e treinado, o recurso é ativado automaticamente e uma nova opção é exibida ao lado do campo de linha de assunto das mensagens.
-
-   Em seguida, o fluxo de trabalho técnico continuará automaticamente treinando seu modelo toda semana.
-
-* Você pode importar modelos pré-treinados específicos para certas indústrias (médica, etc.) usando o recurso de importação [de](../../automating/using/managing-packages.md) pacote. Para acessar esses modelos, clique [aqui](https://support.neolane.net/webApp/extranetLogin) e vá para **[Centro]** de downloads. Esses modelos não podem ser treinados.
-
-   Depois que um modelo é carregado, o recurso é ativado automaticamente e uma nova opção é exibida ao lado do campo de linha de assunto das mensagens.
+* Se você já estiver usando o Adobe Campaign, o modelo local será treinado automaticamente nas mensagens que você já enviou.
+* Se você for novo no Adobe Campaign, poderá extrair um arquivo CSV do seu sistema anterior/ESP que contém 4 colunas: data, assunto, abre, enviado. Para fazer isso, vá até **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Subject Line Import]** e siga as instruções fornecidas nas telas sucessivas. Quando o upload do assunto estiver concluído, importe um modelo local conforme descrito abaixo. O modelo local é treinado automaticamente com os dados carregados.
+* Se você for novo no Adobe Campaign e não conseguir obter um arquivo CSV conforme descrito acima, poderá usar um modelo [](#pre-trained-models) pré-treinado ou aguardar até que tenha dados suficientes de entrega no sistema para treinar um modelo local. O sistema determinará automaticamente se seu conjunto de dados atual contém dados suficientes para reconhecer padrões e treinar o modelo.
 
 >[!NOTE]
 >
->Importar e gerar modelos treinados só podem ser executados por um administrador.
+>Não há um número definido de linhas de assunto necessárias para treinar seu próprio modelo. For more on this, see [Troubleshooting](#troubleshooting).
+>
+>Você só pode ter um modelo treinado em sua instância.
+
+Para treinar um modelo local:
+1. Baixe o subjectLineTraining.xml [aqui](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) e use o recurso de importação [de](../../automating/using/managing-packages.md) pacote para fazer upload para sua instância do Adobe Campaign. Um fluxo de trabalho técnico fará automaticamente o treinamento para você.
+1. Na primeira vez que você deseja treinar um modelo, um administrador pode forçar o usuário a **[!UICONTROL SubjectLine Training workflow]** iniciar no menu **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]** .
+1. Depois que um modelo é carregado e treinado, o recurso é ativado automaticamente e uma nova opção é exibida ao lado do campo de linha de assunto das mensagens.
+1. Em seguida, o fluxo de trabalho técnico continuará automaticamente treinando seu modelo toda semana.
+
+### Importação de modelos pré-treinados {#pre-trained-models}
+
+Para acessar esses modelos, clique [aqui](https://support.neolane.net/webApp/extranetLogin) e vá para **[!UICONTROL Download Center]**. Use o recurso de importação [de](../../automating/using/managing-packages.md) pacote para fazer upload de um modelo para sua instância do Adobe Campaign.
 
 Os modelos disponíveis para uso são:
 
@@ -80,3 +95,35 @@ Os modelos disponíveis para uso são:
 * Indústria de supermercados: subjectInsightSupermarket.xml
 * Indústria médica: subjectInsightMedical.xml
 * Modelo de comboio: subjettlineTraining.xml.
+
+Estes modelos não podem ser treinados.
+
+Depois que um modelo é carregado, o recurso é ativado automaticamente e uma nova opção é exibida ao lado do campo de linha de assunto das mensagens.
+
+>[!NOTE]
+>
+>Importar e gerar modelos treinados só podem ser executados por um administrador.
+
+## Solução de problemas {#troubleshooting}
+
+A linha de assunto previsível é um processo de aprendizado por computador que leva em conta todas as linhas de assunto que você carregou com suas taxas abertas. Isso permite que o sistema preveja a taxa de abertura de um email quando uma nova linha de assunto for enviada.
+
+Para que você possa treinar seu próprio modelo, as linhas de assunto precisam ser variadas e não devem ter duplicatas, independentemente do número de linhas de assunto usadas para treinar seu modelo.
+
+A qualidade das rubricas é essencial. Se não houver dados de qualidade suficientes para processar, ou se todas as linhas de assunto anteriores forem muito semelhantes, o sistema não conseguirá treinar o modelo e você poderá receber uma mensagem de erro. Isso significa que seu conjunto de registros existente não permite fornecer uma sugestão preditiva confiável.
+
+Nesse caso, você deve revisar os dados que está carregando e verificar se as linhas de assunto são variadas o suficiente para treinar seu modelo com eficiência.
+
+<!--Some clients have reported this issue: I have had the subject line training workflow running for about a year now.  It has trained on 883 records and I am still seeing the message "The existing dataset is not enough to generate a model."  I do get an error in the workflow every time it runs "XML-110009 Unable to find the element 'runwf' of path '/' (document with schema 'serverConf')".
+
+For this, campaign takes the subject line as training data and tries to come up with significant enough model to predict open rate with 95% confidence.
+
+The 400 subject line number is mention with at least and is only indicative, model generation will also depend on quality of these lines.
+
+It may happen that even 10k subject lines don't lead to model generation if they are too similar.
+
+It means that it can be case that you don't have enough subject lines to generate the model and it is giving this error.
+
+If you are getting an error/warning message, it means that your existing set of records is not enough for the predictive subject module to give a high confidence suggestion.
+
+Adobe recommends reviewing the data you are uploading as the similarity of the subject lines might be the issue.-->
