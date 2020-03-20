@@ -10,7 +10,7 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
+source-git-commit: 8f3c8f9a167f11ba5ded2be34a50b52edeeb6412
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
 
 ![](assets/wf_externalAPI.png)
 
-A **[!UICONTROL External API]**atividade traz dados para o fluxo de trabalho de um sistema****externo por meio de uma chamada de API****REST.
+A **[!UICONTROL External API]** atividade traz dados para o fluxo de trabalho de um sistema **** externo por meio de uma chamada de API **** REST.
 
 Os pontos finais REST podem ser um sistema de gerenciamento de clientes, uma instância de tempo de execução [de E/S da](https://www.adobe.io/apis/experienceplatform/runtime.html) Adobe ou pontos finais REST da Experience Cloud (Plataforma de dados, Target, Analytics, Campaign etc).
 
@@ -41,11 +41,11 @@ As principais características desta atividade são:
 
 Foram criados os seguintes painéis de proteção para esta atividade:
 
-* Limite de tamanho de dados de resposta http de 5 MB
-* O tempo limite da solicitação é de 60 segundos
+* Limite de tamanho de dados de resposta http de 50 MB
+* O tempo limite da solicitação é de 10 minutos
 * Redirecionamentos HTTP não são permitidos
 * Urls que não sejam HTTPS são rejeitados
-* &quot;Aceitar: cabeçalho de solicitação application/json&quot; e &quot;Content-Type: cabeçalho de resposta application/json é permitido
+* &quot;Aceitar: cabeçalho de solicitação application/json&quot; e &quot;Content-Type: o cabeçalho de resposta application/json é permitido
 
 >[!CAUTION]
 >
@@ -53,7 +53,7 @@ Foram criados os seguintes painéis de proteção para esta atividade:
 
 ## Configuração {#configuration}
 
-Arraste e solte uma **[!UICONTROL External API]**atividade em seu fluxo de trabalho e abra a atividade para iniciar a configuração.
+Arraste e solte uma **[!UICONTROL External API]** atividade em seu fluxo de trabalho e abra a atividade para iniciar a configuração.
 
 ### Mapeamento de entrada
 
@@ -182,7 +182,7 @@ Essas mensagens de registro são usadas para registrar informações sobre condi
    <p> Observação: Esse erro é registrado quando o URL da API falha nas regras de validação.</p></td>
   </tr> 
   <tr>
-   <td> WKF-560244 - O host do URL da API não deve ser 'localhost' ou o literal de endereço IP (host do URL: '%s').</td> 
+   <td> WKF-560244 - O host do URL da API não deve ser 'localhost', nem o literal de endereço IP (host do URL: '%s').</td> 
    <td> <p>O host do URL da API não deve ser 'localhost' ou o literal de endereço IP (host do URL: 'localhost').</p>
     <p>O host do URL da API não deve ser 'localhost' ou o literal de endereço IP (host do URL: "192.168.0.5").</p>
     <p>O host do URL da API não deve ser 'localhost' ou o literal de endereço IP (host do URL: '[2001]').</p></td>
@@ -221,8 +221,8 @@ Essas mensagens de registro são usadas para registrar informações sobre condi
   </tr>
   <tr> 
    <td> WKF-560246 - Falha na atividade (motivo: '%s').</td> 
-   <td> <p>Quando a atividade falha devido à resposta de erro HTTP 401 - Falha na atividade (motivo: 'HTTP - 401')</p>
-        <p>Quando a atividade falha devido a uma falha na chamada interna - a atividade falhou (motivo: 'iRc - -Nn').</p>
+   <td> <p>Quando a atividade falha devido à resposta de erro HTTP 401 - A atividade falhou (motivo: 'HTTP - 401')</p>
+        <p>Quando a atividade falha devido a uma falha de chamada interna - a atividade falhou (motivo: 'iRc - -Nn').</p>
         <p>Quando a atividade falha devido a um cabeçalho Content-Type inválido. - Falha na atividade (motivo: 'Content-Type - application/html').</p></td> 
   </tr>
  </tbody> 
