@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff9d0c3ca42606f097a34b1835d285541061e57b
+source-git-commit: 767d4233236019213003961aae1abb317198e581
 
 ---
 
@@ -28,13 +28,13 @@ Você pode gerenciar seus perfis de teste no menu avançado **[!UICONTROL Profil
 
 Um perfil de teste contém informações de contato fictícias, ou informações de contato controladas pelo remetente, que podem ser usadas em uma mensagem nos seguintes contextos:
 
-* Para enviar **provas**: a Prova é uma mensagem específica usada para verificar a mensagem antes de enviar a entrega finalizada para os destinatários. Um perfil de teste de prova é responsável pela verificação da entrega, no que diz respeito ao seu conteúdo e formato. Consulte [Enviar provas](../../sending/using/sending-proofs.md).
-* Para renderização **por** email: o perfil de teste de renderização de email é usado para verificar a maneira como uma mensagem é exibida de acordo com a caixa de entrada de mensagem que a recebe. Por exemplo, webmail, serviço de mensagens, celular etc. Consulte Renderização [por](../../sending/using/email-rendering.md)email.
+* Para enviar **provas**: A Prova é uma mensagem específica usada para verificar a mensagem antes de enviar a entrega finalizada para os destinatários. Um perfil de teste de prova é responsável pela verificação da entrega, no que diz respeito ao seu conteúdo e formato. Consulte [Enviar provas](../../sending/using/sending-proofs.md).
+* Para renderização **por** email: O perfil de teste de renderização de email é usado para verificar a forma como uma mensagem é exibida de acordo com a caixa de entrada da mensagem que a recebe. Por exemplo, webmail, serviço de mensagens, celular etc. Consulte Renderização [por](../../sending/using/email-rendering.md)email.
 
    O uso de renderização **por** email é somente leitura. Os perfis de teste com esse uso só estão disponíveis prontamente no Adobe Campaign.
 
-* Como uma **armadilha**: a mensagem é enviada para o perfil de teste da mesma forma que é enviada para o destino principal. Consulte [Uso de armadilhas](../../sending/using/using-traps.md).
-* Para **visualizar** mensagens: um perfil de teste pode ser selecionado ao visualizar uma mensagem para testar os elementos de personalização. Consulte [Visualizar mensagens](/help/sending/using/previewing-messages.md).
+* Como uma **armadilha**: A mensagem é enviada para o perfil de teste da mesma forma que é enviada para o destino principal. Consulte [Uso de armadilhas](../../sending/using/using-traps.md).
+* Para **visualizar** mensagens: Um perfil de teste pode ser selecionado ao visualizar uma mensagem para testar os elementos de personalização. Consulte [Visualizar mensagens](/help/sending/using/previewing-messages.md).
 
 ![](assets/test_profile.png)
 
