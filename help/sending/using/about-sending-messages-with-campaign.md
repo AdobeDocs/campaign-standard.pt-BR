@@ -12,14 +12,14 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 6e605f1046ddcbad9b4e6f369ea5ecf7202f3def
 
 ---
 
 
 # Sobre o envio de mensagens com o Campaign{#about-sending-messages-with-campaign}
 
-Depois de definir a meta e criar o conteúdo de uma mensagem, é necessário testá-la e aprová-la antes de enviá-la para a meta principal. Para fazer isso:
+Depois de definir o destino e criar o conteúdo de uma mensagem, é necessário testá-la e aprová-la antes de enviar a mensagem para o destino principal. Para fazer isso:
 
 * Visualize sua entrega usando um perfil de teste.
 * Agendar o envio: defina quando enviar a mensagem.
