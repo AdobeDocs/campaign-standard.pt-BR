@@ -12,7 +12,7 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: e1e9f1f69a23a2510bf91b101a74434f759fdb95
 
 ---
 
@@ -58,14 +58,27 @@ Os princípios de navegação são:
    O menu avançado é apresentado na seção Menu [](#advanced-menu) avançado.
 
 * O **[!UICONTROL Home]** link permite exibir a página inicial do Adobe Campaign.
-* Os links **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]** e **[!UICONTROL Audiences]** **[!UICONTROL Reports]** permitem acessar as exibições vinculadas a essas funcionalidades.
+* Os **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]** e **[!UICONTROL Audiences]** **[!UICONTROL Reports]** links permitem acessar as exibições vinculadas a essas funcionalidades.
 * O **[!UICONTROL Help]** botão dá acesso à documentação do produto e à ajuda contextual, notas de versão, números de versão, avisos legais, bem como aos links para a comunidade da Adobe Experience Cloud e atendimento ao cliente.
-
-   ![](assets/ux_help.png)
-
-* O ícone **Selecionar solução** permite alternar para outra solução da Adobe Experience Cloud, bem como para as configurações de perfil.
+* O botão da organização
+* O ícone do alternador **de** soluções permite alternar para outra solução da Adobe Experience Cloud, bem como para as configurações de perfil.
 * O ícone **Notificações** exibe os alertas ou as informações mais recentes.
 * O ícone **Usuário** permite exibir informações vinculadas ao seu perfil. Dá acesso ao **[!UICONTROL Sign out]** botão.
+
+### Ajuda {#help}
+
+* **[!UICONTROL Search]** permite que você recupere documentação, artigos e vídeos e filtre o conteúdo por solução
+
+* **[!UICONTROL Help]** guia
+   * Os links fornecem acesso rápido a artigos, documentação e vídeos relacionados à página que você está navegando
+   * **[!UICONTROL Learning]** este link permite acessar a Experience League.
+   * **[!UICONTROL Community]** este link permite acessar o fórum dedicado a suas perguntas sobre o ACS.
+
+* **[!UICONTROL Support]** permite que você crie um ticket de suporte e entre em contato conosco por telefone ou Twitter.
+
+* **[!UICONTROL Feedback ]** permite que você compartilhe problemas e ideias sobre a solução.
+
+   ![](assets/ux_help.png)
 
 ## Menu Avançado {#advanced-menu}
 
@@ -105,7 +118,7 @@ O **[!UICONTROL Administration]** ícone fornece acesso às funcionalidades avan
 
 ## Zona central {#central-zone}
 
-A zona central da interface do usuário é uma zona dinâmica que contém uma lista de elementos ou um conjunto de cartões, por exemplo. Permite que você edite elementos existentes e crie recursos.
+A zona central da interface do usuário é uma zona dinâmica que contém uma lista de elementos ou um conjunto de cartões, por exemplo. Ele permite que você edite elementos existentes e crie recursos.
 
 ![](assets/ux_genericscreen.png)
 
@@ -142,4 +155,3 @@ Essa barra contém não apenas ações comuns, como pesquisa e filtragem, mas ta
 * Para ações relacionadas a telas de tipo de espaço de **trabalho** , consulte a seção da barra [de](../../automating/using/workflow-interface.md#action-bar) Ação para os fluxos de trabalho.
 * Para ações relacionadas às telas do **painel** , consulte a seção Painel [de](../../channels/using/message-dashboard.md) mensagens para obter mais informações.
 * Para ações relacionadas a telas de tipo de **lista** , consulte a seção [Personalizando listas](../../start/using/customizing-lists.md) abaixo.
-
