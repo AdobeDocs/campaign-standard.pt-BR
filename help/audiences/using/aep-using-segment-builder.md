@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
+source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 
 ---
 
@@ -46,7 +46,7 @@ O Construtor de segmentos unificado agora deve ser exibido em sua área de traba
 
    ![](assets/aep_audiences_creation_edit_name.png)
 
-1. Verifique se a política de mesclagem desejada está selecionada no painel de configurações.
+1. Certifique-se de que a política de mesclagem desejada esteja selecionada no painel de configurações.
 
    Para obter mais informações sobre políticas de mesclagem, consulte a seção dedicada no guia [do usuário do Construtor de](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)segmentos.
 
@@ -84,7 +84,7 @@ Os campos são organizados em guias:
 >
 >For more on this, refer to the [dedicated documentation](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md).
 
-Por padrão, o Construtor de segmentos unificados exibe campos nos quais os dados já estão presentes. Para exibir o esquema completo, incluindo campos para os quais os dados não estão presentes, ative a **[!UICONTROL Show full XDM schema]**opção nas configurações.
+Por padrão, o Construtor de segmentos unificados exibe campos nos quais os dados já estão presentes. Para exibir o esquema completo, incluindo campos para os quais os dados não estão presentes, ative a **[!UICONTROL Show full XDM schema]** opção nas configurações.
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -100,17 +100,17 @@ O símbolo no final de cada campo fornece informações adicionais sobre o atrib
 
 Para criar uma regra, siga estas etapas:
 
-1. Localize o campo no painel esquerdo que reflete os atributos ou eventos nos quais a regra será baseada.
+1. Localize o campo no painel esquerdo que reflete os atributos ou eventos nos quais a regra se baseará.
 
-1. Arraste o campo até a área de trabalho central e configure-o de acordo com a definição de segmento desejada. Para isso, várias funções de string e data/hora estão disponíveis.
+1. Arraste o campo até a área de trabalho central e configure-o de acordo com a definição de segmento desejada. Para fazer isso, várias funções de string e data/hora estão disponíveis.
 
    No exemplo abaixo, a regra direcionará todos os perfis com gênero igual a &quot;Masculino&quot;.
 
    ![](assets/aep_audiences_malegender.png)
 
-   A população estimada correspondente ao segmento é automaticamente recalculada na **[!UICONTROL Segment Properties]**seção.
+   A população estimada correspondente ao segmento é automaticamente recalculada na **[!UICONTROL Segment Properties]** seção.
 
-1. O **[!UICONTROL View Profiles]**botão fornece uma visualização dos primeiros 20 registros correspondentes à regra, permitindo que você valide o segmento rapidamente.
+1. O **[!UICONTROL View Profiles]** botão fornece uma visualização dos primeiros 20 registros correspondentes à regra, permitindo que você valide o segmento rapidamente.
 
    ![](assets/aep_audiences_samplepreview.png)
 
@@ -134,7 +134,7 @@ Para fazer isso, siga estas etapas:
 
 1. Selecione o segundo campo (por exemplo, o código postal do endereço de trabalho) que será comparado ao primeiro campo.
 
-   Arraste-o para a área de trabalho central, no mesmo contêiner do primeiro campo, na **[!UICONTROL Drop here to compare operands]**caixa.
+   Arraste-o para a área de trabalho central, no mesmo contêiner do primeiro campo, na **[!UICONTROL Drop here to compare operands]** caixa.
 
    ![](assets/aep_audiences_comparing_2.png)
 
