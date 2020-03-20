@@ -12,7 +12,7 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3be170b5e1560e0b48db02de4eeb5ea96b794b04
+source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
 
 ---
 
@@ -56,7 +56,7 @@ Os possíveis motivos para uma falha de delivery são:
 
 * **[!UICONTROL User unknown]** (Tipo de disco rígido): o endereço não existe. Não haverá mais tentativas de delivery para este perfil.
 * **[!UICONTROL Quarantined address]** (Tipo de disco rígido): o endereço foi colocado em quarentena.
-* **[!UICONTROL Unreachable]** (Tipo Soft/Hard): ocorreu um erro na cadeia de entrega de mensagens (incidente no relé SMTP, domínio temporariamente inacessível etc.). De acordo com o erro retornado pelo provedor, o endereço será enviado para quarentena direta ou a entrega será tentada novamente até que o Campaign receba um erro que justifique o status de Quarentena ou até que o número de erros atinja 5.
+* **[!UICONTROL Unreachable]** (Tipo Soft/Hard): ocorreu um erro na cadeia de entrega de mensagens (como domínio temporariamente inacessível). De acordo com o erro retornado pelo provedor, o endereço será enviado para quarentena direta ou a entrega será tentada novamente até que o Campaign receba um erro que justifique o status de Quarentena ou até que o número de erros atinja 5.
 * **[!UICONTROL Address empty]** (Tipo de disco rígido): o endereço não está definido.
 * **[!UICONTROL Mailbox full]** (Tipo suave): a caixa de correio deste usuário está cheia e não pode aceitar mais mensagens. Esse endereço pode ser removido da lista de quarentena para fazer outra tentativa. Ele é removido automaticamente após 30 dias.
 
