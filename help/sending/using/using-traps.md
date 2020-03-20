@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff9d0c3ca42606f097a34b1835d285541061e57b
+source-git-commit: a7c2d444b7d971124b676fa2392b51aab40e5629
 
 ---
 
@@ -27,7 +27,7 @@ As armadilhas foram originalmente projetadas para entregas de mala direta. Eles 
 * Verifique se seu provedor de mala direta está realmente enviando a comunicação.
 * Receba o email ao mesmo tempo e nas mesmas condições que seus clientes.
 * Guarde uma cópia exata do correio enviado.
-* Verifique se sua lista de clientes não é usada indevidamente pelo provedor de mala direta. Na verdade, se qualquer outra comunicação for enviada para o endereço do seu perfil de teste, seu arquivo cliente pode ter sido usado sem que você saiba. É por isso que o endereço do perfil de teste só deve ser usado para esse fim.
+* Verifique se sua lista de clientes não é usada incorretamente pelo seu provedor de mala direta. Na verdade, se qualquer outra comunicação for enviada para o endereço do seu perfil de teste, seu arquivo cliente pode ter sido usado sem que você saiba. É por isso que o endereço do perfil de teste só deve ser usado para esse fim.
 
 Para obter mais informações sobre como adicionar traps ao público-alvo de uma mala direta, consulte [Adicionar perfis](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)de teste e trapping.
 
@@ -59,6 +59,8 @@ Ao definir o público-alvo de uma mensagem:
    ![](assets/trap_confirm.png)
 
 A mensagem é enviada para o destino principal e para o perfil de teste.
+
+Você pode usar traps ao enviar mensagens transacionais. Nesse caso, o perfil de teste receberá uma mensagem por configuração de evento. Para obter mais informações sobre mensagens transacionais, consulte esta [seção](../../channels/using/about-transactional-messaging.md).
 
 >[!NOTE]
 >
