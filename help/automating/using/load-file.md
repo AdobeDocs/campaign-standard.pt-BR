@@ -13,7 +13,7 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -32,7 +32,7 @@ A forma como os dados serão extraídos é definida quando a atividade é config
 
 >[!CAUTION]
 >
->Somente os arquivos de estrutura "simples" são considerados, como arquivos .txt, .csv etc., por exemplo.
+>Somente arquivos de estrutura &quot;simples&quot; são considerados, como arquivos .txt, .csv etc., por exemplo.
 
 É possível:
 
@@ -95,7 +95,7 @@ A configuração da atividade envolve duas etapas. Primeiro, é necessário defi
       ![](assets/wkf_file_loading1.png)
 
 1. Se o arquivo do qual você deseja carregar os dados for compactado em um arquivo GZIP (.gz), selecione a **[!UICONTROL Decompression]** opção no **[!UICONTROL Add a pre-processing step]** campo. Isso permite descompactar o arquivo antes de carregar os dados. Essa opção só estará disponível se o arquivo for proveniente da transição de entrada da atividade.
-1. A **[!UICONTROL Keep the rejects in a file]** opção permite baixar um arquivo que contém erros que ocorreram durante a importação e aplicar a ele uma etapa de pós-processamento. Quando a opção é ativada, a transição de saída é renomeada como "Rejeitos".
+1. A **[!UICONTROL Keep the rejects in a file]** opção permite baixar um arquivo que contém erros que ocorreram durante a importação e aplicar a ele uma etapa de pós-processamento. Quando a opção é ativada, a transição de saída é renomeada como &quot;Rejeitos&quot;.
 
    >[!NOTE]
    >
@@ -105,7 +105,7 @@ A configuração da atividade envolve duas etapas. Primeiro, é necessário defi
 
 1. Confirme a configuração da atividade e salve o fluxo de trabalho.
 
-Se ocorrer algum erro com a atividade após a execução do fluxo de trabalho, consulte os registros para obter mais detalhes sobre os valores incorretos no arquivo. For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md#monitoring)
+Se ocorrer algum erro com a atividade após a execução do fluxo de trabalho, consulte os registros para obter mais detalhes sobre os valores que estão incorretos no arquivo. For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md#monitoring).
 
 ## Formato de coluna {#column-format}
 
@@ -133,7 +133,7 @@ A formatação de coluna permite definir o processamento de valor de cada coluna
    * **[!UICONTROL Format]**: permite que você defina o formato dos valores numéricos para **Inteiro** e dados de número **** flutuante.
    * **[!UICONTROL Separator]**: define o separador especificado pelo contexto da coluna (separador de milhares ou separador decimal para valores numéricos, separador para datas e hora) para dados de **Data**, **Hora**, **Data e hora**, **Número inteiro** e Número **** flutuante.
 
-* **[!UICONTROL Remapping of values]**: esse campo só está disponível na configuração detalhada da coluna. Isso permite transformar certos valores quando eles são importados. Por exemplo, você pode transformar "três" em "3".
+* **[!UICONTROL Remapping of values]**: esse campo só está disponível na configuração detalhada da coluna. Isso permite transformar certos valores quando eles são importados. Por exemplo, você pode transformar &quot;três&quot; em &quot;3&quot;.
 * **[!UICONTROL Error processing]**: define o comportamento se um erro for encontrado.
 
    * **[!UICONTROL Ignore the value]**: o valor é ignorado. Um aviso é gerado no log de execução do workflow.
@@ -143,7 +143,7 @@ A formatação de coluna permite definir o processamento de valor de cada coluna
    * **[!UICONTROL Reject the line when there is no remapping value]**: a linha inteira não é processada a menos que um mapeamento tenha sido definido para o valor errado (consulte a **[!UICONTROL Remapping of values]** opção acima).
    >[!NOTE]
    >
-   >**[!UICONTROL Error processing]** refere-se a erros referentes a valores no arquivo importado. Por exemplo, um tipo de dados com falha foi encontrado ("quatro" em letras para uma coluna "Número inteiro"), uma string contendo mais caracteres do que o número máximo autorizado, uma data com separadores com falha etc. No entanto, essa opção não diz respeito a erros gerados pelo gerenciamento de valores vazio.
+   >**[!UICONTROL Error processing]** refere-se a erros referentes a valores no arquivo importado. Por exemplo, um tipo de dados com falha foi encontrado (&quot;quatro&quot; em letras para uma coluna &quot;Número inteiro&quot;), uma string contendo mais caracteres do que o número máximo autorizado, uma data com separadores com falha etc. No entanto, essa opção não diz respeito a erros gerados pelo gerenciamento de valores vazio.
 
 * **[!UICONTROL Default value]**: especifica o valor padrão de acordo com o processamento de erros escolhido.
 * **[!UICONTROL Empty value management]**: especifica como gerenciar valores vazios durante o carregamento de dados.
