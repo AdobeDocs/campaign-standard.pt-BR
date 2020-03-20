@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
+source-git-commit: 7d31d92197a6bf26b7530b8e8ff42c0dc7f25359
 
 ---
 
@@ -34,12 +34,13 @@ Você pode configurar os seguintes tipos de contas
 * Adobe Experience Manager. Para obter mais informações, consulte [esta seção](#adobe-experience-manager-external-account).
 * Adobe Analytics. Para obter mais informações, consulte [esta seção](../../integrating/using/configure-campaign-analytics-integration.md).
 * Google reCAPTCHA. Para obter mais informações, consulte [esta seção](#google-recaptcha-external-account).
+* Armazenamento de Blob do Microsoft Azure. Para obter mais informações, consulte [esta seção](#microsoft-azure-external-account).
 
 >[!NOTE]
 >
 >Outros tipos de contas externas são usados pela Adobe durante o processo de provisionamento do produto. Na versão 17.9 do Campaign Standard, as contas externas FTP ainda podem ser definidas, mas não podem mais ser usadas em novas atividades de fluxo de trabalho. Se você já tiver uma conexão configurada, ela ainda estará ativada.
 
-As contas externas podem ser configuradas pelos administradores sob o **[!UICONTROL Administration > Application settings > External accounts]**menu.
+As contas externas podem ser configuradas pelos administradores sob o **[!UICONTROL Administration > Application settings > External accounts]** menu.
 
 ## Criação de uma conta externa {#creating-an-external-account}
 
@@ -109,25 +110,25 @@ O campo do servidor Amazon S3 deve ser preenchido da seguinte forma:
 <S3 bucket name>.s3.amazonaws.com/<s3 object path>
 ```
 
-Para armazenar o arquivo no modo criptografado S3, marque a **[!UICONTROL Keep files in S3 encrypted]**caixa.
+Para armazenar o arquivo no modo criptografado S3, marque a **[!UICONTROL Keep files in S3 encrypted]** caixa.
 
 ![](assets/external_accounts_2.png)
 
 As informações necessárias geralmente são fornecidas pelo 
                         provedor do servidor ao qual você está se conectando.
 
-Especifique o **[!UICONTROL AWS Region]**associado ao terminal. Você pode verificar as regiões compatíveis e as versões de assinatura na documentação[oficial do](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)Amazon S3.
+Especifique o **[!UICONTROL AWS Region]** associado ao terminal. Você pode verificar as regiões compatíveis e as versões de assinatura na documentação [oficial do](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)Amazon S3.
 
 >[!NOTE]
 >
->Sua região AWS **[!UICONTROL Receiver server]**deve ser inserida sem a região AWS, e posteriormente ela será adicionada automaticamente ao URL.
+>Sua região AWS **[!UICONTROL Receiver server]** deve ser inserida sem a região AWS, e posteriormente ela será adicionada automaticamente ao URL.
 
 ### Recomendações de conta do Amazon S3 {#amazon-s3-account-recommendations}
 
 Para ajudá-lo a configurar sua conta Amazon S3, recomendamos que siga estas recomendações:
 
 * Crie uma política de definição estrita para restringir o acesso a compartimentos S3. A política de bucket pode ser configurada ao criar um bucket. For more information, refer to the [Amazon S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
-* Ao criar uma conta externa, ative a criptografia para armazenar dados confidenciais no bucket S3 marcando a **[!UICONTROL Keep files in S3 encrypted]**caixa.
+* Ao criar uma conta externa, ative a criptografia para armazenar dados confidenciais no bucket S3 marcando a **[!UICONTROL Keep files in S3 encrypted]** caixa.
 * Conceda permissões de bucket para especificar quem pode acessar o objeto em um bucket. Para obter mais informações sobre permissão de bucket, consulte a documentação [do](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)Amazon S3.
 
 ## Conta externa do Adobe Experience Manager.{#adobe-experience-manager-external-account}
@@ -154,11 +155,61 @@ Para adicionar o Google reCAPTCHA V3 à sua página de aterrissagem, primeiro é
 
 Para uma conta externa do Google reCAPTCHA V3, forneça os seguintes detalhes:
 
-* A **[!UICONTROL Label]**e**[!UICONTROL ID]** da sua conta externa
+* A **[!UICONTROL Label]** e **[!UICONTROL ID]** da sua conta externa
 * **[!UICONTROL Type]**: Google reCAPTCHA
-* Seu **[!UICONTROL Site key]**e**[!UICONTROL Site secret]**
-* A **[!UICONTROL Threshold]**entre 0 e 1
+* Seu **[!UICONTROL Site key]** e **[!UICONTROL Site secret]**
+* A **[!UICONTROL Threshold]** entre 0 e 1
 
-   O **[!UICONTROL Threshold]**valor 0.0 significa que provavelmente é um bot e 1.0 provavelmente uma boa interação. Por padrão, você pode usar um limite de 0,5.
+   O **[!UICONTROL Threshold]** valor 0.0 significa que provavelmente é um bot e 1.0 provavelmente uma boa interação. Por padrão, você pode usar um limite de 0,5.
 
 ![](assets/external_accounts_3.png)
+
+## Conta externa de armazenamento Blob do Microsoft Azure {#microsoft-azure-external-account}
+
+>[!NOTE]
+>
+>As informações necessárias para configurar sua conta externa no Adobe Campaign Standard podem ser encontradas no Portal do Azure selecionando **[!UICONTROL Settings]** > **[!UICONTROL Access keys]**.
+
+Para uma conta externa de armazenamento Blob do Microsoft Azure, forneça os seguintes detalhes:
+
+* A **[!UICONTROL Label]** e **[!UICONTROL ID]** da sua conta externa
+* **[!UICONTROL Type]**: Armazenamento Blob do Microsoft Azure
+* Seu **[!UICONTROL Account name]** e **[!UICONTROL Account key]**. To know where to find your account name and key, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
+* Seu **[!UICONTROL Endpoint suffix]**. Ele pode ser encontrado dentro **[!UICONTROL Connection string]** do seu **[!UICONTROL Access keys]** menu no Portal do Azure. Para obter mais informações, consulte esta [página](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
+* Seu **[!UICONTROL Container]** nome. Se você estiver planejando usar mais de um contêiner, será necessário criar quantas contas externas forem contêineres.
+* A **[!UICONTROL Concurrency]** opção permite ajustar a velocidade das transferências de arquivos.
+
+![](assets/external_accounts_4.png)
+
+Depois de configurado, clique em **[!UICONTROL Test connection]** para vincular o Adobe Campaign ao armazenamento do Microsoft Azure Blob.
+
+### Recomendações de armazenamento Blob do Microsoft Azure {#azure-blob-recommendations}
+
+**Criptografia**
+
+O Adobe Campaign usa uma conexão segura (HTTPS) para acessar sua conta de armazenamento do Microsoft Azure Blob.
+
+**Chave da conta**
+
+Ao configurar sua conta externa, você deve usar uma das **[!UICONTROL Account key]** disponíveis no Portal do Azure. Para obter mais informações sobre onde encontrar suas chaves de conta, consulte esta [página](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage#view-access-keys-and-connection-string).
+
+**Otimizando a velocidade de transferência de arquivos**
+
+A **[!UICONTROL Concurrency]** opção permite ajustar a velocidade das transferências de arquivos.
+Representa o número de threads que serão usados para executar a transferência de arquivos. Cada um desses processos baixará uma parte de aproximadamente 1 MB do blob. Em seguida, serão enfileirados para serem gravados em disco. Observe que, ao aumentar o número de threads, você também aumentará a carga dos recursos usados pelo aplicativo durante a transferência do arquivo.
+
+Após a conclusão da transferência de arquivos, você pode encontrar métricas de desempenho nos logs de fluxo de trabalho.
+
+**Repetir**
+
+Por padrão, a transferência de arquivos para o Blob do Azure terá até quatro tentativas.  Se o serviço de Armazenamento do Azure retornar um código de erro, como 503 (servidor ocupado) ou 500 (tempo limite da operação), isso pode indicar que você está se aproximando ou excedendo a escalabilidade da sua conta de armazenamento. Isso pode ocorrer ao usar uma nova conta ou ao executar testes.
+
+Se o erro persistir, você pode aumentar o número de tentativas criando uma opção no menu avançado **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
+
+Se implementada, a opção deve ser criada da seguinte maneira:
+
+```
+ID:        AzureBlob_Max_Retries
+Date type: Integer
+Default:   <the number of retries needed>
+```
