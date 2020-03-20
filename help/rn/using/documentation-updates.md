@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ffe6b34ec8d7a31ffcce1e725364a6ecf00f70a8
+source-git-commit: 73fd120c79130c3a4eff43bb080bde8dabe58032
 
 ---
 
@@ -24,6 +24,34 @@ Saiba mais sobre todas as atualizações mais recentes para a documentação do 
 Esta página lista todos os novos recursos e atualizações de documentação para cada versão do Adobe Campaign Standard.
 
 Você também pode consultar as Notas [de](../../rn/using/release-notes.md)versão do Adobe Campaign.
+
+## Versão 20.2 - março de 2020 {#release-20-2---march-2020}
+
+**Novos recursos incluídos na versão**
+
+Integração do Blob do Azure - [Leia mais](../../administration/using/external-accounts.md#microsoft-azure-external-account)
+
+Interface e domínio unificados da Experience Cloud - [Leia mais](../../start/using/interface-description.md#top-bar)
+
+Teste de email usando perfis direcionados - [Leia mais](../../sending/using/testing-messages-using-target.md)
+
+**Outras atualizações de documentação que vêm com a versão**
+
+A limitação foi adicionada à renderização de mensagens no aplicativo. [Leia mais](../../channels/using/customizing-an-in-app-message.md)
+
+Foram adicionadas informações sobre como usar agregados em uma **[!UICONTROL Query]** atividade. [Leia mais](../../automating/using/query.md#adding-an-aggregate)
+
+A limitação foi adicionada com o MCPNS ao configurar um aplicativo móvel. [Leia mais](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+
+Uma nova seção de diretrizes de configuração foi adicionada ao Guia de administração. A seção sobre navegadores e sistemas operacionais compatíveis foi movida do guia Introdução para esta seção. A nota técnica sobre os pontos de extremidade de rede do Campaign Standard também foi adicionada a esta seção. [Leia mais](../../administration/using/about-configuration-guidelines.md)
+
+Uma nova seção que descreve como excluir uma configuração de evento está disponível. [Leia mais](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+
+A página que descreve como testar a linha de assunto de um email para prever sua taxa de abertura foi atualizada e aprimorada, incluindo uma nova seção de [solução de problemas](../../sending/using/testing-subject-line-email.md#troubleshooting) . [Leia mais](../../sending/using/testing-subject-line-email.md#troubleshooting)
+
+As seções de mensagens transacionais foram atualizadas para refletir as pequenas atualizações e aprimoramentos da interface de vários usuários. [Leia mais](../../channels/using/about-transactional-messaging.md)
+
+As informações relacionadas aos painéis de garantia de atividade da API externa foram atualizadas. [Leia mais](../../automating/using/external-api.md)
 
 ## Atualizações da documentação - março de 2020 {#doc-updates-march-2020}
 
@@ -43,7 +71,7 @@ Foram adicionadas informações sobre o direito **[!UICONTROL Workflow]** predef
 
 Foram adicionadas informações sobre os **[!UICONTROL History in days field]** disponíveis nas propriedades dos fluxos de trabalho. [Leia mais](../../automating/using/executing-a-workflow.md)
 
-## Versão 20.1 - fevereiro de 2019 {#release-20-1---february-2020}
+## Versão 20.1 - fevereiro de 2020 {#release-20-1---february-2020}
 
 **Novos recursos incluídos na versão**
 
@@ -281,7 +309,7 @@ Uma nova seção foi adicionada para descrever o processo de repetição de mens
 
 A seção Publicação de um recurso com extensão da API foi esclarecida e atualizada com as alterações mais recentes da interface do usuário. [Leia mais](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
-A seção Arquivamento de emails foi renomeada e reorganizada. [Leia mais](../../administration/using/configuring-email-channel.md#archiving-emails)
+A seção Arquivamento de emails foi renomeada e reorganizada. [Leia mais](../../sending/using/archiving.md)
 
 A seção Criação de um email foi atualizada para refletir as alterações mais recentes na interface. [Leia mais](../../channels/using/creating-an-email.md)
 
@@ -315,7 +343,7 @@ Uma nova seção que compara as diferentes opções de criação de email no Ado
 
 A seção Criação de blocos de conteúdo personalizados foi aprimorada com detalhes sobre dimensões de direcionamento. [Leia mais](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-Foi adicionado um aviso indicando que o Email Designer não oferece suporte ao Internet Explorer 11. [Leia mais](../../start/using/compatible-browsers.md)
+Foi adicionado um aviso indicando que o Email Designer não oferece suporte ao Internet Explorer 11. [Leia mais](../../administration/using/compatible-browsers.md)
 
 Os avisos sobre o impacto da reformulação foram adicionados à seção Excluindo um recurso. [Leia mais](../../developing/using/deleting-a-resource.md)
 
@@ -377,7 +405,7 @@ Foram adicionadas informações sobre o novo campo na atividade Atualizar dados 
 
 Atualização do conteúdo de [Importação de uma documentação de URL](../../designing/using/using-existing-content.md#importing-content-from-a-url) com informações relacionadas ao designer de email.
 
-O Microsoft Edge (versão mais recente) foi adicionado à lista de navegadores compatíveis para computadores. [Leia mais](../../start/using/compatible-browsers.md)
+O Microsoft Edge (versão mais recente) foi adicionado à lista de navegadores compatíveis para computadores. [Leia mais](../../administration/using/compatible-browsers.md)
 
 Foram adicionadas informações sobre a nova opção na atividade Extrair arquivo que impede a geração de um arquivo se a transição de entrada estiver vazia. [Leia mais](../../automating/using/extract-file.md)
 
@@ -645,7 +673,7 @@ Lista detalhada de KPIs compartilhados com o Adobe Analytics. [Leia mais](../../
 
 Novo vídeo Relatório dinâmico. [Leia mais](../../start/using/how-to-videos.md)
 
-Adicionadas recomendações de conta S3. [Leia mais](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
+Adicionadas as recomendações da conta S3. [Leia mais](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
 
 Atualização da seção sobre os diferentes tipos de usuários. [Leia mais](../../administration/using/users-management.md)
 
