@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
+source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
 + Notas de versão {#release-notes}
    + [Versão mais recente](rn/using/release-notes.md)
    + Versões anteriores {#previous-releases}
+      + [Notas de versão 2020](rn/using/release-notes-2020.md)
       + [Notas de versão 2019](rn/using/release-notes-2019.md)
       + [Notas de versão 2018](rn/using/release-notes-2018.md)
       + [Notas de versão 2017](rn/using/release-notes-2017.md)
@@ -32,7 +33,6 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
    + Descobrir a interface {#discovering-the-interface}
       + [Sobre a interface](start/using/about-the-interface.md)
       + [Descrição da interface](start/using/interface-description.md)
-      + [Navegadores compatíveis](start/using/compatible-browsers.md)
       + [Personalização de listas](start/using/customizing-lists.md)
    + Planos de marketing {#marketing-plans}
       + [Programas e campanhas](start/using/programs-and-campaigns.md)
@@ -141,6 +141,7 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
       + [Visualizar mensagens](sending/using/previewing-messages.md)
       + [Preparação do envio](sending/using/preparing-the-send.md)
       + [Envio de provas](sending/using/sending-proofs.md)
+      + [Teste de mensagens de email usando perfis direcionados](sending/using/testing-messages-using-target.md)
       + [Teste da linha de assunto de um email](sending/using/testing-subject-line-email.md)
       + [Renderização de email](sending/using/email-rendering.md)
       + [Uso de traps](sending/using/using-traps.md)
@@ -342,6 +343,10 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
       + [Visitante](developing/using/datamodel-visitor.md)
 + Administração {#administrating}
    + [Sobre a administração do Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
+   + Diretrizes de configuração {#configuration-guidelines}
+      + [Sobre as diretrizes de configuração](administration/using/about-configuration-guidelines.md)
+      + [Navegadores compatíveis](administration/using/compatible-browsers.md)
+      + [Pontos de extremidade de rede do Campaign Standard](administration/using/campaign-standard-network-endpoints.md)
    + Usuários e segurança {#users-and-security}
       + [Sobre o gerenciamento de acesso](administration/using/about-access-management.md)
       + [Gerenciamento de usuários](administration/using/users-management.md)
