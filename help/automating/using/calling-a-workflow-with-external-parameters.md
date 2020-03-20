@@ -12,7 +12,7 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -28,7 +28,7 @@ O processo para chamar um fluxo de trabalho com parâmetros é o seguinte:
 1. Declarar os parâmetros na **[!UICONTROL External signal]** atividade. Consulte [Declaração dos parâmetros na atividade](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)de sinal externo.
 1. Configure a **[!UICONTROL End]** atividade ou a chamada da API para definir os parâmetros e acionar a **[!UICONTROL External signal]** atividade do fluxo de trabalho.
 
-Depois que o fluxo de trabalho é acionado, os parâmetros são ingeridos nas variáveis de eventos do fluxo de trabalho e podem ser usados no fluxo de trabalho. Consulte [Personalizar um fluxo de trabalho com parâmetros](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-a-workflow-with-external-parameters)externos.
+Depois que o fluxo de trabalho é acionado, os parâmetros são ingeridos nas variáveis de eventos do fluxo de trabalho e podem ser usados no fluxo de trabalho. Consulte [Personalização de um fluxo de trabalho com parâmetros](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-a-workflow-with-external-parameters)externos.
 
 ![](assets/extsignal_process.png)
 
@@ -60,10 +60,10 @@ Para configurar a **[!UICONTROL End]** atividade, siga as etapas abaixo:
 
 1. Abra a **[!UICONTROL End]** atividade e selecione a **[!UICONTROL External signal]** guia.
 1. Selecione o fluxo de trabalho e a atividade do sinal externo que você deseja chamar.
-1. Clique no **[!UICONTROL Create element]** botão para adicionar um parâmetro e preencha seu nome e valor.
+1. Clique no **[!UICONTROL Create element]** botão para adicionar um parâmetro e, em seguida, preencha seu nome e valor.
 
    * **[!UICONTROL Name]**: o nome que foi declarado na **[!UICONTROL External signal]** atividade (consulte [Declaração dos parâmetros na atividade](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)de sinal externo).
-   * **[!UICONTROL Value]**: o valor que você deseja atribuir ao parâmetro. O valor deve seguir a sintaxe **Padrão, descrita** nesta seção [](../../automating/using/advanced-expression-editing.md#standard-syntax).
+   * **[!UICONTROL Value]**: o valor que você deseja atribuir ao parâmetro. O valor deve seguir a sintaxe **** Padrão, descrita [nesta seção](../../automating/using/advanced-expression-editing.md#standard-syntax).
    ![](assets/extsignal_definingparameters_2.png)
 
    >[!CAUTION]
@@ -95,7 +95,7 @@ As atividades que podem ser personalizadas com variáveis de eventos são detalh
 
 ### Uso de variáveis de eventos {#using-events-variables}
 
-As variáveis de eventos são usadas em uma expressão que deve respeitar a sintaxe **[](../../automating/using/advanced-expression-editing.md#standard-syntax)** Padrão.
+As variáveis de eventos são usadas em uma expressão que deve respeitar a sintaxe **[](../../automating/using/advanced-expression-editing.md#standard-syntax)**Padrão.
 
 A sintaxe para usar variáveis de eventos deve seguir o formato abaixo e usar o nome do parâmetro que foi definido na **[!UICONTROL External signal]** atividade (consulte [Declaração dos parâmetros na atividade](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)de sinal externo):
 
@@ -114,7 +114,7 @@ Ao usar uma variável em uma atividade, a interface fornece ajuda para chamá-la
 
 ![](assets/extsignal_callparameter.png)
 
-* ![](assets/extsignal_picker.png): selecione a variável events entre todas as variáveis disponíveis no fluxo de trabalho (consulte ).
+* ![](assets/extsignal_picker.png): selecione a variável events entre todas as variáveis disponíveis no fluxo de trabalho.
 
    ![](assets/wkf_test_activity_variables.png)
 
@@ -162,7 +162,7 @@ For more on how to use the activity, refer to the [dedicated section](../../auto
 >
 >Os valores dos parâmetros de entrega são recuperados sempre que a entrega é preparada.
 >
->A preparação recorrente das entregas é baseada no período **de** agregação da entrega. Por exemplo, se o período de agregação for "por dia", a entrega será repreparada apenas uma vez por dia. Se o valor de um parâmetro de entrega for modificado durante o dia, ele não será atualizado na entrega, pois já foi preparado uma vez.
+>A preparação recorrente das entregas é baseada no período **de** agregação da entrega. Por exemplo, se o período de agregação for &quot;por dia&quot;, a entrega será repreparada apenas uma vez por dia. Se o valor de um parâmetro de entrega for modificado durante o dia, ele não será atualizado na entrega, pois já foi preparado uma vez.
 >
 >Se você planeja chamar o fluxo de trabalho várias vezes por dia, use a [!UICONTROL No aggregation] opção para que os parâmetros de entrega sejam atualizados sempre. Para obter mais informações sobre a configuração de entregas recorrentes, consulte [esta seção](/help/automating/using/email-delivery.md#configuration).
 
@@ -173,7 +173,7 @@ Para personalizar uma entrega com base nas variáveis de eventos, você deve dec
 
    ![](assets/extsignal_activities_delivery.png)
 
-1. Clique no botão **.[!UICONTROL Confirm]**
+1. Clique no botão **[!UICONTROL Confirm]**.
 
 As variáveis de eventos declaradas agora estão disponíveis na lista de campos de personalização. Você pode usá-los na entrega para executar as ações abaixo:
 
@@ -281,7 +281,7 @@ Siga as etapas abaixo para configurar o fluxo de trabalho:
 
 1. Insira e atualize o banco de dados com dados do arquivo importado.
 
-   Para fazer isso, arraste e solte uma **[!UICONTROL Update data]** atividade e, em seguida, selecione a guia **[!UICONTROL Identification]** para adicionar um critério de reconciliação (no nosso caso, o campo de **email** ).
+   Para fazer isso, arraste e solte uma **[!UICONTROL Update data]** atividade e, em seguida, selecione a **[!UICONTROL Identification]** guia para adicionar um critério de reconciliação (no nosso caso, o campo de **email** ).
 
    ![](assets/extsignal_uc3.png)
 
@@ -298,7 +298,7 @@ Siga as etapas abaixo para configurar o fluxo de trabalho:
 
    ![](assets/extsignal_uc5.png)
 
-1. Se os dados forem recuperados, salve-os em um público-alvo. Para fazer isso, adicione uma **[!UICONTROL Save audience]** atividade ao **Target e não uma transição vazia** e abra-a.
+1. Se os dados forem recuperados, salve-os em um público-alvo. Para fazer isso, adicione uma **[!UICONTROL Save audience]** atividade ao **Target e não uma transição vazia** . Em seguida, abra-a.
 1. Selecione a **[!UICONTROL Use a dynamic label]** opção e use o parâmetro **fileToTarget** como o rótulo do público-alvo:
 
    ```
@@ -307,11 +307,11 @@ Siga as etapas abaixo para configurar o fluxo de trabalho:
 
    ![](assets/extsignal_uc6.png)
 
-1. Arraste e solte uma **[!UICONTROL End]** atividade que chamará o Workflow 2 com parâmetros e abra-a.
+1. Arraste e solte uma **[!UICONTROL End]** atividade que chamará o Workflow 2 com parâmetros e, em seguida, abra-a.
 1. Selecione a **[!UICONTROL External signal]** guia e especifique o fluxo de trabalho a ser acionado e a atividade do sinal associada.
 1. Defina os parâmetros que você deseja usar dentro do Workflow 2 e seus valores associados.
 
-   Em nosso caso, queremos passar os parâmetros originalmente definidos na chamada da API (**fileToTarget** e **discountDesc**) e um parâmetro **segmentCode** adicional com um valor constante ("desconto de 20%").
+   Em nosso caso, queremos passar os parâmetros originalmente definidos na chamada da API (**fileToTarget** e **discountDesc**) e um parâmetro **segmentCode** adicional com um valor constante (&quot;desconto de 20%&quot;).
 
    ![](assets/extsignal_uc7.png)
 
