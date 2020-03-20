@@ -13,7 +13,7 @@ context-tags: recipient,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 
 ---
 
@@ -31,4 +31,3 @@ O Adobe Campaign permite que você gerencie contatos durante todo o ciclo de vid
 Ao criar campanhas, você pode definir a meta das entregas selecionando perfis de acordo com critérios simples ou avançados. Tecnicamente, um perfil é uma entrada no banco de dados que contém todas as informações necessárias para definir metas, qualificar e rastrear comportamentos.
 
 Um perfil pode ser: um cliente, um cliente potencial, um indivíduo inscrito em um boletim informativo, um destinatário, um usuário ou qualquer outra denominação dependendo da organização. Para definir vários tipos de perfis, use dimensões [de](../../automating/using/query.md#targeting-dimensions-and-resources)definição de metas.
-
