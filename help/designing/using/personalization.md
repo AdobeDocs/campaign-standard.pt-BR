@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
 
 ---
 
@@ -24,7 +24,7 @@ O conteúdo e a exibição de mensagens entregues pelo Adobe Campaign podem ser 
 * Inserir campos de personalização dinâmicos. See [Inserting a personalization field](#inserting-a-personalization-field).
 * Inserir blocos de personalização predefinidos. Consulte [Adicionar um bloco](#adding-a-content-block)de conteúdo.
 * Personalize o remetente de um email. Consulte [Personalizar o remetente](#personalizing-the-sender).
-* Personalize o assunto de um email. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
+* Personalize o assunto de um email. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#subject-line).
 * Criar conteúdo condicional. Consulte [Definição de conteúdo dinâmico em um email](#defining-dynamic-content-in-an-email).
 
 ## Personalização do remetente {#personalizing-the-sender}
@@ -45,7 +45,7 @@ O Adobe Campaign permite que você personalize um ou vários URLs em sua mensage
 
 1. Insira um URL externo e especifique seus parâmetros. Consulte [Inserir um link](../../designing/using/links.md#inserting-a-link).
 1. Se não for exibido, clique no lápis ao lado do URL selecionado no painel Configurações para acessar as opções de personalização.
-1. Adicione os campos de personalização, blocos de conteúdo e conteúdo dinâmico que você deseja usar.
+1. Adicione os campos de personalização, os blocos de conteúdo e o conteúdo dinâmico que você deseja usar.
 
    ![](assets/des_personalize_links.png)
 
@@ -53,7 +53,7 @@ O Adobe Campaign permite que você personalize um ou vários URLs em sua mensage
 
 >[!NOTE]
 >
->A personalização de URLs não pode ser aplicada ao nome do domínio nem à extensão do URL. Uma mensagem de erro será exibida durante a análise da mensagem se a personalização estiver incorreta. Ao selecionar um bloco de conteúdo, não é permitido selecionar elementos como **Vincular para espelhar a página**. Este tipo de blocos é proibido dentro de um link.
+>A personalização de URLs não pode ser aplicada ao nome do domínio nem à extensão do URL. Uma mensagem de erro será exibida durante a análise da mensagem se a personalização estiver incorreta. Ao selecionar um bloco de conteúdo, você não tem permissão para selecionar elementos como **Vincular para espelhar a página**. Este tipo de blocos é proibido dentro de um link.
 
 ## Inserção de um campo de personalização{#inserting-a-personalization-field}
 
@@ -150,7 +150,7 @@ Para criar um bloco de conteúdo, siga estas etapas:
 
    ![](assets/content_bloc_04.png)
 
-1. Você pode selecionar a **[!UICONTROL Depends on format]** opção para definir dois blocos diferentes: um para emails HTML e outro para emails em formato de texto. Duas guias serão exibidas no editor (HTML e Texto) para definir o conteúdo correspondente.
+1. Você pode selecionar a **[!UICONTROL Depends on format]** opção para definir dois blocos diferentes: um para e-mails HTML e outro para e-mails em formato de texto. Duas guias serão exibidas no editor (HTML e Texto) para definir o conteúdo correspondente.
 
    ![](assets/content_bloc_03.png)
 
@@ -292,9 +292,9 @@ No editor de expressões, ao definir um conteúdo dinâmico, a ordem de priorida
 
 1. Você define dois conteúdos dinâmicos diferentes com **duas condições** diferentes, por exemplo:
 
-   **** Condição 1: o gênero do perfil é masculino,
+   **Condição 1:** o gênero do perfil é masculino,
 
-   **** Condição 2: o perfil tem entre 20 e 30 anos.
+   **Condição 2:** o perfil tem entre 20 e 30 anos.
 
    ![](assets/delivery_content_61.png)
 
@@ -308,7 +308,7 @@ Você só pode definir uma ordem de prioridade por conteúdo dinâmico.
 
 ## Exemplo: Personalização de email{#example-email-personalization}
 
-Neste exemplo, um membro da equipe do serviço de marketing criou um email para informar alguns de seus clientes que existe uma oferta especial apenas para eles. O membro da equipe decidiu personalizar o email de acordo com as respectivas idades dos clientes. Os clientes com idade entre 18 e 27 anos receberão um email contendo uma imagem e um slogan diferentes daqueles que os clientes com mais de 27 anos receberão.
+Neste exemplo, um membro da equipe do serviço de marketing criou um email para informar alguns de seus clientes que existe uma oferta especial apenas para eles. O membro da equipe decidiu personalizar o e-mail de acordo com as respectivas idades dos clientes. Os clientes com idade entre 18 e 27 anos receberão um email contendo uma imagem e um slogan diferentes daqueles que os clientes com mais de 27 anos receberão.
 
 O email é criado da seguinte maneira:
 
