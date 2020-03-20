@@ -1,19 +1,19 @@
 ---
 title: Resumo da rejeição
 description: Com o relatório resumido de rejeição pronto para uso, saiba mais sobre o status de suas campanhas enviadas e os erros que elas podem ter encontrado.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 90087311-4236-4df9-ae7d-4a15c00c70ab
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: relatório
-content-type: referência
-topic-tags: lista de relatórios
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
 discoiquuid: 5ae561b4-03cf-4541-87ff-47f1027d53b8
 context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
 
 ---
 
@@ -32,7 +32,7 @@ A tabela de motivos **de** rejeição contém os dados disponíveis para os tipo
 
 * **[!UICONTROL User unknown]**: O tipo de erro gerado quando uma entrega é enviada para um endereço de email inválido.
 * **[!UICONTROL Invalid domain]**: O tipo de erro gerado quando uma entrega é enviada para um endereço de email cujo domínio está errado ou não existe mais.
-* **[!UICONTROL Unreachable]**: O tipo de erro encontrado na string de entrega de mensagem. Por exemplo, incidente de retransmissão SMTP, domínio temporariamente inacessível etc.
+* **[!UICONTROL Unreachable]**: O tipo de erro encontrado na cadeia de entrega de mensagens, como domínio temporariamente inacessível.
 * **[!UICONTROL Account disabled]**: O tipo de erro gerado quando uma entrega é enviada para um endereço de email que não existe mais.
 * **[!UICONTROL Mailbox full]**: O tipo de erro gerado quando a caixa de entrada do destinatário está cheia. Há cinco tentativas de entregar a mensagem antes que esse erro seja gerado.
 * **[!UICONTROL Not connected]**: O tipo de erro gerado quando o telefone celular do destinatário está desligado ou não está conectado a uma rede no momento em que a mensagem é enviada.
