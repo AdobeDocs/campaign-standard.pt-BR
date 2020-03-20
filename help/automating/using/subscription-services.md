@@ -1,19 +1,19 @@
 ---
 title: Serviços de assinatura
 description: A atividade dos Serviços de assinatura permite que você pegue perfis em massa e assine-os em um serviço ou cancele sua assinatura de um serviço.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatização
-content-type: referência
-topic-tags: atividades de gestão de dados
+audience: automating
+content-type: reference
+topic-tags: data-management-activities
 discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
-context-tags: setOfService,fluxo de trabalho,main
+context-tags: setOfService,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -32,9 +32,9 @@ A **[!UICONTROL Subscription Services]** atividade permite que você pegue perfi
 
 ## Contexto de utilização {#context-of-use}
 
-A **[!UICONTROL Subscription Services]** atividade é a única funcionalidade do Adobe Campaign que permite que vários perfis sejam inscritos em um serviço ou sejam cancelados em uma única ação.
+A **[!UICONTROL Subscription Services]** atividade é a única funcionalidade do Adobe Campaign que permite que vários perfis sejam inscritos ou sejam cancelados de uma assinatura de um serviço em uma única ação.
 
-Você pode usar essa atividade depois de ter realizado o direcionamento ou importado um arquivo com dados identificados.
+Você pode usar essa atividade depois de ter realizado a definição de metas ou importado um arquivo com dados identificados.
 
 Se especificada em um arquivo por meio de colunas dedicadas, essa atividade também permite que você escolha a ação (assinar ou cancelar a assinatura) e o serviço no qual executar a ação.
 
@@ -57,7 +57,7 @@ Se especificada em um arquivo por meio de colunas dedicadas, essa atividade tamb
 
       Nesta coluna, a operação deve ser especificada como Booliana ou Integer. Use **0** para cancelar a assinatura de um registro e **1** para assinar.
 
-      Se os valores contidos em um arquivo importado não corresponderem aos requisitos acima, você ainda poderá usar a opção [Remapeamento de valores](../../automating/using/load-file.md#column-format) disponível na **[!UICONTROL Load file]**
+      Se os valores contidos em um arquivo importado não corresponderem aos requisitos acima, você ainda poderá usar a opção [Remapeamento de valores](../../automating/using/load-file.md#column-format) disponível na **[!UICONTROL Load file]** atividade.
 
 1. Se os dados de entrada contiverem uma coluna correspondente à data de assinatura do perfil para o serviço, selecione-a. Você pode deixá-la vazia, mas nenhuma data de assinatura é definida ao executar o fluxo de trabalho.
 1. Defina a origem da assinatura. Você pode defini-la como um dos campos dos dados de entrada ou como um valor constante de sua escolha marcando a **[!UICONTROL Set a constant as origin]** opção. Você pode deixá-lo vazio, mas nenhuma origem é definida ao executar o fluxo de trabalho.
@@ -132,11 +132,11 @@ O fluxo de trabalho é apresentado da seguinte forma:
 
    ![](assets/subscription_example_load_file.png)
 
-   Como você pode ter notado, a operação é especificada no arquivo como "sub" ou "unsub". O sistema espera que um valor **Booliano** ou **Integer** reconheça a operação a ser executada: "0" para cancelar a inscrição e "1" para assinar. Para corresponder a esse requisito, um remapeamento de valores é executado no detalhe da coluna "operação".
+   Como você pode ter notado, a operação é especificada no arquivo como &quot;sub&quot; ou &quot;unsub&quot;. O sistema espera que um valor **Booliano** ou **Integer** reconheça a operação a ser executada: &quot;0&quot; para cancelar a inscrição e &quot;1&quot; para assinar. Para corresponder a esse requisito, um remapeamento de valores é executado no detalhe da coluna &quot;operação&quot;.
 
    ![](assets/subscription_example_remapping.png)
 
-   Se o arquivo já usar "0" e "1" para identificar a operação, não será necessário mapear novamente esses valores. Verifique apenas se a coluna é processada como **Booliana** ou **Inteiro** na **[!UICONTROL Column definition]** guia.
+   Se o arquivo já usar &quot;0&quot; e &quot;1&quot; para identificar a operação, não será necessário mapear novamente esses valores. Verifique apenas se a coluna é processada como **Booliana** ou **Inteiro** na **[!UICONTROL Column definition]** guia.
 
 * Uma **[!UICONTROL Reconciliation]** atividade identifica os dados do arquivo como pertencendo à dimensão de perfil do banco de dados do Adobe Campaign. Na **[!UICONTROL Identification]** guia, o campo de **email** do arquivo corresponde ao campo de **email** do recurso de perfil.
 
