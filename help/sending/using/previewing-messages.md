@@ -12,14 +12,20 @@ discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 92f6a176a5c0e712170c7d7ef5a993af18d77295
 
 ---
 
 
-# Visualizar mensagens{#previewing-messages}
+# Visualizar mensagens {#previewing-messages}
 
-Depois de adicionar perfis de teste na **[!UICONTROL Audience]** janela, você pode visualizar sua mensagem para verificar sua personalização e como seus destinatários verão sua entrega.
+O Campaign Standard permite que você visualize as mensagens antes de enviá-las, a fim de verificar a personalização e como os destinatários as visualizarão.
+
+A visualização de mensagens é executada usando perfis **** de teste que você adiciona ao destino da mensagem.
+
+Para mensagens de **email** , o Campaign Standard permite visualizar mensagens usando perfis direcionados em vez de perfis de teste. Isso permite obter uma representação exata da mensagem que um perfil específico receberá. Para obter mais informações, consulte [Testar mensagens de email usando perfis](../../sending/using/testing-messages-using-target.md)direcionados.
+
+Para visualizar uma mensagem usando perfis de teste, siga estas etapas:
 
 1. No [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), clique no **[!UICONTROL Preview]** botão.
 
@@ -31,7 +37,7 @@ Depois de adicionar perfis de teste na **[!UICONTROL Audience]** janela, você p
 
    ![](assets/sending_anti-spam_analysis.png)
 
-1. Selecione o **[!UICONTROL Change profile]** botão para escolher o perfil de teste no qual deseja testar os elementos de personalização.
+1. Selecione o **[!UICONTROL Change profile]** botão para escolher o perfil de teste no qual você deseja testar os elementos de personalização.
 
    ![](assets/sending_test-profile.png)
 
@@ -39,3 +45,8 @@ Depois de adicionar perfis de teste na **[!UICONTROL Audience]** janela, você p
 
    ![](assets/sending_preview_edit.png)
 
+**Tópicos relacionados**
+
+* [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md)
+* [Teste de mensagens de email usando perfis direcionados](../../sending/using/testing-messages-using-target.md)
+* [Envio de provas](../../sending/using/sending-proofs.md)
