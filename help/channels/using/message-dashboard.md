@@ -13,7 +13,7 @@ context-tags: delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 80f6a384e99a7cebbe5c570f3273eceb393fd9b0
 
 ---
 
@@ -49,9 +49,9 @@ Dependendo dos parâmetros que foram configurados e do progresso feito, alguns �
 
    Para obter mais informações, consulte [Enviar provas](../../sending/using/sending-proofs.md).
 
-* **[!UICONTROL Send a test]**: permite selecionar o modo de aprovação a ser usado: **[!UICONTROL Email rendering]**, **[!UICONTROL Proof]** ou ambos para um email. Para obter mais informações sobre perfis de teste, consulte [Enviar provas](../../sending/using/sending-proofs.md).
+* **[!UICONTROL Send a test]**: permite que você selecione o modo de aprovação a ser usado: **[!UICONTROL Email rendering]**, **[!UICONTROL Proof]** ou ambos para um email. Para obter mais informações sobre perfis de teste, consulte [Enviar provas](../../sending/using/sending-proofs.md).
 
-   Este botão só é ativado depois que você tiver estabelecido os perfis de teste.
+   Esse botão só é ativado depois que você tiver estabelecido os perfis de teste.
 
    >[!NOTE]
    >
@@ -73,7 +73,7 @@ A tela principal é composta por blocos diferentes. Clique dentro de um bloco pa
 
 * **[!UICONTROL Deployment]**: permite que você rastreie o progresso da preparação ou envio da mensagem. Clique no botão encontrado na seção inferior direita deste bloco para acessar os logs de envio e análise. Este bloco só aparece depois que o envio é preparado. Para saber mais sobre isso. Consulte [Confirmação de envio](../../sending/using/confirming-the-send.md).
 * **[!UICONTROL Audience]**: permite estabelecer o destino principal da mensagem, bem como os perfis de teste. Consulte [Criação de públicos-alvo](../../audiences/using/creating-audiences.md).
-* **[!UICONTROL Schedule]**: permite especificar a data em que sua mensagem será enviada. Consulte [Agendamento](../../sending/using/about-scheduling-messages.md).
+* **[!UICONTROL Schedule]**: permite que você especifique a data em que sua mensagem será enviada. Consulte [Agendamento](../../sending/using/about-scheduling-messages.md).
 * **[!UICONTROL Content]**: permite que você defina o conteúdo da mensagem e a visualize. See [Key steps to send a message](../../channels/using/key-steps-to-send-a-message.md).
 
 ## Avisos {#warnings}
@@ -94,9 +94,9 @@ Abaixo está uma lista das mensagens que podem ser exibidas:
 
 * *&quot;As mensagens não podem ser enviadas porque a afinidade IP atual não é tratada por nenhum processo de envio.&quot;*
 
-   Se vir essa mensagem, há um problema no nível de definição de afinidade IP ou no nível do processo de envio. Entre em contato com o administrador da Adobe.
+   Se você vir essa mensagem, há um problema no nível de definição de afinidade IP ou no nível do processo de envio. Entre em contato com o administrador da Adobe.
 
-* *&quot;Essa mensagem transacional é um modelo de mensagem transacional pronto para uso. Se quiser modificá-la, você deve duplicá-la e trabalhar na sua cópia.&quot;*
+* *&quot;Este é um modelo de mensagem transacional predefinido. Se quiser modificá-la, você deve duplicá-la e trabalhar na sua cópia.&quot;*
 
    Alguns desses modelos de mensagem transacional prontos são modelos incorporados de página inicial. For more on this, see [this section](../../channels/using/landing-page-templates.md).
 
