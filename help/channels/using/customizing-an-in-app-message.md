@@ -13,7 +13,7 @@ context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 1269ee2041e0857b077424ba7f50fbfa9519ae7b
 
 ---
 
@@ -28,6 +28,10 @@ O editor de conteúdo no aplicativo permite escolher entre dois modos de mensage
 * [Mensagem](#customizing-with-a-custom-html-message)personalizada: esse modelo permite importar HTML personalizado.
 
 ![](assets/inapp_customize_1.png)
+
+>[!NOTE]
+>
+> A renderização de mensagens no aplicativo só é compatível com a API 19 e versões posteriores do Android.
 
 **Tópicos relacionados:**
 
@@ -59,13 +63,13 @@ O menu suspenso **[!UICONTROL Layout]** fornece quatro opções diferentes para 
 
 * **[!UICONTROL Local notification]**: Esse tipo de layout é exibido como uma mensagem de banner.
 
-   Só pode suportar som, texto e destino. Para obter mais informações sobre a notificação local, consulte [Personalizando um tipo](#customizing-a-local-notification-message-type)de mensagem de notificação local.
+   Ele só pode suportar som, texto e destino. Para obter mais informações sobre a notificação local, consulte [Personalizando um tipo](#customizing-a-local-notification-message-type)de mensagem de notificação local.
 
 Cada tipo de layout pode ser visualizado em diferentes dispositivos, como telefone, tablet, plataforma, por exemplo, Android ou iOS, e a orientação, por exemplo, paisagem ou retrato na janela direita do editor de conteúdo.
 
 ![](assets/inapp_customize_4.png)
 
-### Mídia {#media}
+### Media {#media}
 
 O **[!UICONTROL Media]** menu suspenso permite adicionar mídia à sua mensagem no aplicativo para criar uma experiência atraente para o usuário final.
 
@@ -151,7 +155,7 @@ Para personalizar uma notificação local:
 
    ![](assets/inapp_customize_18.png)
 
-1. Na **[!UICONTROL Advanced option]** categoria, no **[!UICONTROL Wait to display]** campo, escolha quanto tempo, em segundos, sua notificação local será exibida na tela quando o evento for acionado.
+1. Na **[!UICONTROL Advanced option]** categoria, no **[!UICONTROL Wait to display]** campo, escolha quanto tempo, em segundos, sua notificação local será exibida na tela assim que o evento for acionado.
 1. No **[!UICONTROL Sound]** campo, digite o nome do arquivo de som, com a extensão, a ser reproduzido pelo dispositivo móvel quando a notificação local for recebida.
 
    O arquivo de som é reproduzido ao fornecer a notificação se o arquivo estiver definido no pacote do aplicativo móvel. Caso contrário, o som padrão do dispositivo será reproduzido.
@@ -176,7 +180,7 @@ O **[!UICONTROL Custom message]** modo permite importar diretamente uma de suas 
 
 Para fazer isso, basta arrastar e soltar ou selecionar o arquivo do computador.
 
-Seu arquivo deve ter um layout específico que pode ser encontrado clicando na opção **Download do arquivo** de amostra.
+Seu arquivo deve ter um layout específico que pode ser encontrado clicando na opção **Baixar o arquivo** de amostra.
 
 ![](assets/inapp_customize_16.png)
 
