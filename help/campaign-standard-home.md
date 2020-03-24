@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentação do produto Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 14f3ce8641785e88fc2b566c62089833713aa82e
+source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 14f3ce8641785e88fc2b566c62089833713aa82e
 
 ## Novidades
 
-* **[Testes por email usando perfis](sending/using/testing-messages-using-target.md)**direcionados Saiba como testar seus emails em perfis direcionados reais.
+* **[Testes por email usando perfis](sending/using/testing-messages-using-target.md)**<br/>direcionados Saiba como testar seus emails em perfis direcionados reais.
 
 * **[Gerenciamento de privacidade](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Saiba mais sobre as ferramentas fornecidas pelo Adobe Campaign para ajudá-lo a estar em conformidade com privacidade.
 
