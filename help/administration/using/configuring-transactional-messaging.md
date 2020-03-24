@@ -170,8 +170,8 @@ Você pode acessar a mensagem transacional criada diretamente do link na área d
 Você também precisa integrar esse evento de disparo ao seu site. Consulte [Integrar o acionamento do evento em um site](#integrating-the-triggering-of-the-event-in-a-website).
 
 <!-->>[!NOTE]
->Para consultar as publicações anteriores, se houver, clique no **[!UICONTROL Latest transactional events]** link na **[!UICONTROL History]** seção da área à esquerda.—>
->
+>Para consultar as publicações anteriores, se houver, clique no **[!UICONTROL Latest transactional events]** link na **[!UICONTROL History]** seção da área à esquerda.-->
+
 ### Cancelamento de publicação de um evento {#unpublishing-an-event}
 
 O **[!UICONTROL Unpublish]** botão permite cancelar a publicação do evento, que exclui da REST API o recurso correspondente ao evento criado anteriormente. Agora, mesmo se o evento for acionado por meio do site, as mensagens correspondentes não serão mais enviadas e não serão armazenadas no banco de dados.
