@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
+source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
 
 ---
 
@@ -36,6 +36,8 @@ As etapas principais são as seguintes:
 1. (opcional) Para cada perfil, defina um **prefixo** a ser adicionado à linha de assunto da prova.
 1. **Visualize** no Designer de email como a mensagem será exibida para os perfis.
 1. Envie as provas.
+
+Para obter mais informações sobre o processo global, consulte o vídeo tutorial disponível [aqui](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html).
 
 >[!IMPORTANT]
 >
@@ -254,6 +256,6 @@ As principais etapas para esse caso de uso são as seguintes:
 
    ![](assets/substitution_uc_sendproof.png)
 
-1. As provas são enviadas de acordo com o que foi configurado na guia **[!UICONTROL[Profile substitutions ]**.
+1. As provas são enviadas de acordo com o que foi configurado na **[!UICONTROL Profile substitutions]** guia.
 
    ![](assets/substitution_uc_proofs.png)
