@@ -43,7 +43,7 @@ As atualizações de Ambientes ocorrem no ondas, durante os intervalos de tempo 
  <tbody> 
   <tr> 
    <td> Estágio<br /> </td> 
-   <td> 1 a 2 de abril de 2020<br /> </td> 
+   <td> 31 de março - 1 de abril de 2020<br /> </td> 
   </tr> 
   <tr> 
    <td> Produção<br /> </td> 
