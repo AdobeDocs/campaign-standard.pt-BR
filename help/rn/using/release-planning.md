@@ -1,5 +1,5 @@
 ---
-title: Planejamento de lançamento do Campaign Standard
+title: Planejamento de lançamento de Campaign Standard
 description: Esta página lista as próximas versões do Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: null
@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e614bb3e3e559a02ee5e94d9dc21e85d1b4dbd2
+source-git-commit: 7cd5f11ab22d0bb3b6864670cd61007e39ebf543
 
 ---
 
@@ -31,7 +31,7 @@ Inscreva-se para [receber notificações](https://www.adobe.com/subscription/pri
 
 ## Versão 20.2.1 - Versão de abril {#release-20-2-april-release}
 
-As atualizações de ambiente ocorrem em ondas, durante os intervalos de tempo indicados abaixo. Informações detalhadas sobre esta versão estão disponíveis nas [Notas](../../rn/using/release-notes.md)de versão. Caso tenha mais dúvidas, entre em contato com o [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin).
+As atualizações de Ambientes ocorrem no ondas, durante os intervalos de tempo indicados abaixo. Informações detalhadas sobre esta versão estão disponíveis nas [Notas](../../rn/using/release-notes.md)de versão. Caso tenha mais dúvidas, entre em contato com o [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin).
 
 <table> 
  <thead> 
@@ -43,11 +43,11 @@ As atualizações de ambiente ocorrem em ondas, durante os intervalos de tempo i
  <tbody> 
   <tr> 
    <td> Estágio<br /> </td> 
-   <td> 23-24 de março de 2020<br /> </td> 
+   <td> 1 a 2 de abril de 2020<br /> </td> 
   </tr> 
   <tr> 
    <td> Produção<br /> </td> 
-   <td> 31 de março - 6 de abril de 2020<br /> </td> 
+   <td> 6 a 9 de abril de 2020<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,9 +72,9 @@ A: Não. Durante a atualização da instância, o banco de dados pode não estar
 
 A: Não. As mensagens não serão enviadas durante alguns minutos. Assim que a atualização for concluída, os processos serão reiniciados automaticamente.
 
-**P: Os fluxos de trabalho continuarão em execução e enviarão as entregas?**
+**P: Os workflows continuarão em execução e enviarão os delivery?**
 
-A: Não. Durante a atualização da compilação, o servidor de fluxo de trabalho e o MTA são interrompidos. Isso significa que os fluxos de trabalho não serão executados e as entregas não serão enviadas durante alguns minutos. Nenhuma ação é necessária: os fluxos de trabalho serão iniciados novamente assim que a instância for atualizada.
+A: Não. Durante a atualização da compilação, o servidor de fluxo de trabalho e o MTA são interrompidos. Isso significa que os workflows não serão executados e os delivery não serão enviados durante alguns minutos. Nenhuma ação é necessária: Os workflows serão start novamente assim que a instância for atualizada.
 
 **P: Os links de rastreamento nas mensagens ainda funcionarão durante a atualização?**
 
@@ -82,6 +82,6 @@ A: Sim, eles vão funcionar. Não é possível enviar novos emails durante a atu
 
 **P: Como saber se a atualização foi concluída?**
 
-A: Ao fazer logon no Campaign, um pop-up de notificação de versão será exibido, com a versão mais recente.
+A: Ao fazer logon na Campanha, um pop-up de notificação de versão será exibido, com a versão mais recente.
 
 Para quaisquer outras perguntas, entre em contato com o [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin).
