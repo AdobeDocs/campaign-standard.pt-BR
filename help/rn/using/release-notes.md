@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
+source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
 
 ---
 
@@ -33,23 +33,8 @@ source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>O conector de armazenamento Blob do Azure agora pode ser usado para importar ou exportar dados para o Adobe Campaign usando uma atividade de fluxo de trabalho de arquivo <strong>de</strong> transferência. </p>
+   <td> <p>O conector do armazenamento Blob do Azure agora pode ser usado para importar ou exportar dados para o Adobe Campaign usando uma atividade de fluxo de trabalho de arquivo <strong></strong> Transferir. </p>
     <p>Para obter mais informações, consulte a <a href="../../administration/using/external-accounts.md#microsoft-azure-external-account">documentação detalhada</a>.</p>
-   </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Interface unificada da Experience Cloud</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>A barra superior da interface foi aprimorada para melhorar a experiência em todos os aplicativos da Experience Cloud. O cabeçalho agora permite alternar mais facilmente entre soluções e exibe ajuda e notificações aprimoradas.</p>
-    <p>Para obter mais informações, consulte a <a href="../../start/using/interface-description.md#top-bar">documentação detalhada</a>. </p>
    </td> 
   </tr> 
  </tbody> 
@@ -63,7 +48,7 @@ source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Além dos perfis de teste, agora você pode testar seus e-mails em perfis direcionados reais. Isso permite obter uma representação exata da mensagem que o perfil receberá: campos personalizados, informações dinâmicas e personalizadas, incluindo dados adicionais de fluxos de trabalho etc. </p>
+   <td> <p>Além de testar perfis, agora você pode testar seus e-mails em perfis direcionados reais. Isso permite obter uma representação exata da mensagem que o perfil receberá: campos personalizados, informações dinâmicas e personalizadas, incluindo dados adicionais de workflows etc. </p>
     <p>For more information, refer to the <a href="../../sending/using/testing-messages-using-target.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">tutorial video</a>. </p>
    </td> 
   </tr> 
@@ -72,12 +57,12 @@ source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
 
 >[!NOTE]
 >
->Novos recursos serão lançados no Painel de Controle da Campanha em abril, incluindo o gerenciamento de registros TXT do Google, monitoramento de espaço do banco de dados e alertas por email. Para obter mais informações sobre esses recursos, consulte a Nota [de versão do Painel de](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)controle.
+>Novos recursos serão lançados no Painel de Controle de Campanha em abril, incluindo o gerenciamento de registros do Google TXT, monitoramento de espaço do banco de dados e alerta de email. Para obter mais informações sobre esses recursos, consulte a Nota [de versão do Painel de](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)controle.
 
 **Aprimoramentos**
 
 * A experiência do usuário de mensagens transacionais foi aprimorada e a consistência da interface foi aprimorada. [Leia mais](../../channels/using/about-transactional-messaging.md)
-* O Campaign Standard agora permite que você envie provas para os perfis de teste usando dados adicionais dos fluxos de trabalho.
+* O Campaign Standard agora permite enviar provas para o Teste de perfis usando dados adicionais de workflows.
 * As garantias para a atividade de API externa foram atualizadas. [Leia mais](../../automating/using/external-api.md)
 
 **Aprimoramentos do Designer de email**
@@ -91,9 +76,9 @@ source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
 * Correção de um problema que fazia com que tags HTML fossem exibidas no email após alternar de conteúdo HTML para Texto simples. (CAMP-41138)
 * Correção de um problema que impedia a renderização de botões com apenas uma borda definida.
 * Corrigido um problema no recuo HTML que fazia com que o rodapé dos emails se movesse para a esquerda no Microsoft Outlook. (CAMP-40987)
-* Corrigido um problema que fazia com que os campos de personalização direcionados a um atributo de coleção definido em HTML fossem copiados no conteúdo de texto simples ao alternar para o modo de texto sem formatação. (CAMP-40365)
+* Correção de um problema que fazia com que campos de personalização direcionados a um atributo de coleção definido em HTML fossem copiados no conteúdo de texto simples ao alternar para o modo de texto sem formatação. (CAMP-40365)
 * Correção de um problema que impedia a inserção de links em um segmento de texto selecionado. (CAMP-41406)
-* Correção de um problema que fazia com que a data fosse alterada ao selecionar um fuso horário no editor de consultas. (CAMP-38277)
+* Correção de um problema que fazia com que a data fosse alterada ao selecionar um fuso horário no editor de query. (CAMP-38277)
 
 **Outras alterações**
 
@@ -104,18 +89,18 @@ source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
 
 >[!NOTE]
 >
->Os recursos da plataforma Adobe Experience no Campaign Standard estão atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Consulte a documentação detalhada: Conector [de dados da plataforma](../../administration/using/aep-about-data-connector.md)Experience, Destinos [do público-alvo](../../audiences/using/aep-about-audience-destinations-service.md)
+>Os recursos da plataforma Adobe Experience no Campaign Standard estão atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Consulte a documentação detalhada: Conector [de dados da plataforma](../../administration/using/aep-about-data-connector.md)Experience, destinos [de Audiência](../../audiences/using/aep-about-audience-destinations-service.md)
 
-* Nos logs de fluxo de trabalho, a cada 10 minutos, o Campaign agora exibe o número de registros já processados pelo trabalho que está sendo executado no momento.
-* Correção de um problema que ocorria ao importar um perfil da Adobe Experience Platform que havia sido excluído do banco de dados.
+* Nos logs de fluxo de trabalho, a cada 10 minutos, a Campanha agora exibe o número de registros já processados pelo trabalho que está sendo executado no momento.
+* Correção de um problema que ocorria ao importar um perfil da plataforma Adobe Experience que havia sido excluído do banco de dados.
 * Correção de um problema nos logs de fluxo de trabalho, que poderia exibir um resultado incorreto para o número total de registros importados.
 
 **Correções**
 
-* Correção de um problema com a atividade do fluxo de trabalho **Enriquecimento** que poderia ocorrer ao adicionar espaços no campo **Alias** , que criava um novo item de linha. (CAMP-39229)
+* Correção de um problema com a atividade do fluxo de trabalho do **Enriquecimento** que poderia ocorrer ao adicionar espaços no campo **Alias** , que criava um novo item de linha. (CAMP-39229)
 * Correção de um problema em que cada perfil de teste podia ser direcionado ao enviar uma mensagem de prova.
 * Correção de um problema que ocorria após a despublicação e exclusão de uma configuração de evento. [Leia mais](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
-* Correção de um problema em que o botão **Salvar** desaparecia ao fazer alterações nos fluxos de trabalho.
-* Correção de um problema ao excluir uma solicitação de privacidade manualmente no Campaign depois que ela era processada, o que impedia que os dados associados à solicitação fossem excluídos mesmo após a limpeza.
+* Correção de um problema em que o botão **Salvar** desaparecia ao fazer alterações em workflows.
+* Correção de um problema ao excluir uma solicitação de privacidade manualmente na Campanha depois de ela ter sido processada, o que impedia que os dados associados à solicitação fossem excluídos mesmo após a limpeza.
 * Correção de um problema que ocorria ao visualizar ou enviar mensagens que incluíam caracteres especiais do Adobe Experience Manager.
-* Correção de um problema que poderia ocorrer em fluxos de trabalho ao executar uma atividade com várias transições de entrada.
+* Correção de um problema que ocorria em workflows ao executar uma atividade com várias transições de entrada.
