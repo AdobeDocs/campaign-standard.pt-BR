@@ -24,7 +24,7 @@ source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
    + [Recursos obsoletos](rn/using/deprecated-features.md)
 + Introdução {#getting-started}
    + Sobre o Adobe Campaign {#about-adobe-campaign}
-      + [Orquestração de campanha](start/using/campaign-orchestration.md)
+      + [Orquestração do Campaign](start/using/campaign-orchestration.md)
       + [Segmentação e direcionamento](start/using/segmentation-and-targeting.md)
       + [Conteúdo dinâmico e personalizado](start/using/dynamic-and-personalized-content.md)
       + [Rastreamento, monitoramento e relatórios](start/using/tracking--monitoring-and-reporting.md)
@@ -141,7 +141,7 @@ source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
       + [Visualizar mensagens](sending/using/previewing-messages.md)
       + [Preparação do envio](sending/using/preparing-the-send.md)
       + [Envio de provas](sending/using/sending-proofs.md)
-      + [Teste de mensagens de email usando perfis direcionados](sending/using/testing-messages-using-target.md)
+      + [Testar mensagens de email usando perfis direcionados](sending/using/testing-messages-using-target.md)
       + [Teste da linha de assunto de um email](sending/using/testing-subject-line-email.md)
       + [Renderização de email](sending/using/email-rendering.md)
       + [Uso de traps](sending/using/using-traps.md)
@@ -346,7 +346,7 @@ source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
    + Diretrizes de configuração {#configuration-guidelines}
       + [Sobre as diretrizes de configuração](administration/using/about-configuration-guidelines.md)
       + [Navegadores compatíveis](administration/using/compatible-browsers.md)
-      + [Pontos de extremidade de rede do Campaign Standard](administration/using/campaign-standard-network-endpoints.md)
+      + [Pontos de extremidade de rede Campaign Standard](administration/using/campaign-standard-network-endpoints.md)
    + Usuários e segurança {#users-and-security}
       + [Sobre o gerenciamento de acesso](administration/using/about-access-management.md)
       + [Gerenciamento de usuários](administration/using/users-management.md)
