@@ -24,7 +24,7 @@ source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
    + [Recursos obsoletos](rn/using/deprecated-features.md)
 + Introdução {#getting-started}
    + Sobre o Adobe Campaign {#about-adobe-campaign}
-      + [Orquestração do Campaign](start/using/campaign-orchestration.md)
+      + [Orquestração de campanha](start/using/campaign-orchestration.md)
       + [Segmentação e direcionamento](start/using/segmentation-and-targeting.md)
       + [Conteúdo dinâmico e personalizado](start/using/dynamic-and-personalized-content.md)
       + [Rastreamento, monitoramento e relatórios](start/using/tracking--monitoring-and-reporting.md)
