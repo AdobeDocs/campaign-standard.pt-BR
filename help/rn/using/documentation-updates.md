@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
+source-git-commit: 34a478b73ba458d0509639dfbb4641bc63b2aa1a
 
 ---
 
@@ -23,7 +23,18 @@ Saiba mais sobre todas as atualizações mais recentes para a documentação do 
 
 Esta página lista todos os novos recursos e atualizações de documentação para cada versão do Adobe Campaign Standard.
 
-Você também pode consultar as Notas de [versão](../../rn/using/release-notes.md)do Adobe Campaign.
+You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
+
+## Atualizações da documentação - abril de 2020 {#doc-updates-april-2020}
+
+A integração do Microsoft Dynamics 365 com a documentação do Adobe Campaign Standard foi integrada à documentação principal no guia Integração com outras soluções. [Leia mais](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+
+Recursos adicionais foram adicionados ao home page de documentação. [Leia mais](../../campaign-standard-home.md)
+
+As informações sobre o Serviço da Experience Cloud ID (ECID) foram adicionadas à documentação do Adobe Experience Platform Data Connector. [Leia mais](../../administration/using/aep-about-data-connector.md#key-concepts)
+
+A seção Configuração de mensagens transacionais foi aprimorada com informações sobre como acessar os eventos transacionais mais recentes e capturas de tela atualizadas. [Leia mais](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
+
 
 ## Versão 20.2 - março de 2020 {#release-20-2---march-2020}
 
@@ -45,7 +56,7 @@ Uma nova seção de diretrizes de configuração foi adicionada ao Guia de admin
 
 Uma nova seção que descreve como excluir uma configuração de evento está disponível. [Leia mais](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
 
-A página que descreve como testar a linha de assunto de um email para prever sua taxa de abertura foi atualizada e aprimorada, incluindo uma nova seção de [solução de problemas](../../sending/using/testing-subject-line-email.md#troubleshooting) . [Leia mais](../../sending/using/testing-subject-line-email.md#troubleshooting)
+A página que descreve como testar a linha de assunto de um email para prever sua taxa de abertura foi atualizada e aprimorada, incluindo uma nova seção de [solução de problemas](../../sending/using/testing-subject-line-email.md#troubleshooting) . [Leia mais](../../sending/using/testing-subject-line-email.md)
 
 As seções de mensagens transacionais foram atualizadas para refletir as pequenas atualizações e aprimoramentos da interface de vários usuários. [Leia mais](../../channels/using/about-transactional-messaging.md)
 
@@ -123,11 +134,11 @@ O guia de introdução sobre como exportar/importar recursos personalizados foi 
 
 ## Atualizações de documentação - novembro de 2019 {#doc-updates-november-2019}
 
-Um novo caso de uso foi adicionado descrevendo como criar um grupo de controle usando um fluxo de trabalho no Campaign Standard. [Read more](../../automating/using/workflow-control-group.md)
+Um novo caso de uso foi adicionado descrevendo como criar um grupo de controle usando um fluxo de trabalho no Campaign Standard. [Leia mais](../../automating/using/workflow-control-group.md)
 
 As informações relacionadas às propriedades do landing page foram movidas para uma seção dedicada. [Leia mais](../../channels/using/configuring-landing-page.md)
 
-A documentação do Painel de controle foi integrada ao novo conjunto de documentação colaborativa. [Leia mais](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+A documentação do Painel de controle do Campaign foi integrada ao novo conjunto de documentação colaborativa. [Leia mais](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 A tabela de cálculo **do** Indicador foi atualizada. [Leia mais](../../reporting/using/indicator-calculation.md)
 
@@ -135,7 +146,7 @@ O conjunto de documentação das APIs foi integrado à documentação do Campaig
 
 O guia Criar um email personalizado para introdução foi movido e atualizado. [Leia mais](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 
-O guia Práticas recomendadas de introdução ao Delivery foi atualizado. [Leia mais](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+O guia de introdução às práticas recomendadas de delivery foi atualizado. [Leia mais](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
 O datamodel foi integrado à documentação do Campaign Standard. [Leia mais](../../developing/using/datamodel-audience.md)
 
@@ -145,19 +156,19 @@ O novo terminal **/customResources** da API foi adicionado à documentação da 
 
 **Novos recursos incluídos na versão**
 
-California Consumer Privacy Act (CCPA) - [Leia mais](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
+Lei de Privacidade do Consumidor da Califórnia (CCPA) - [Leia mais](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
 
-Integração do Microsoft Dynamics 365 (GA) - [Leia mais](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+Integração do Microsoft Dynamics 365 (GA) - [Leia mais](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 **Outras atualizações de documentação que vêm com a versão**
 
-A lista de mensagens de erro para Campaign Standard e Campaign Classic foi atualizada. [Leia mais](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+A lista de mensagens de erro do Campaign Standard e do Campaign Classic foi atualizada. [Leia mais](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-O guia de introdução ao RGPD foi melhorado e enriquecido. Agora é uma documentação de gerenciamento de privacidade, incluindo o RGPD e o CCPA. [Leia mais](https://helpx.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
+O guia de introdução ao GDPR foi melhorado e aprimorado. Agora se trata uma documentação de gerenciamento de privacidade, incluindo o GDPR e o CCPA. [Leia mais](https://helpx.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
 Foi adicionado um novo gráfico que apresenta o processo de publicação de mensagens transacionais. [Leia mais](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
 
-O guia de introdução às práticas recomendadas do Delivery foi movido e atualizado. [Leia mais](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+O guia de introdução às práticas recomendadas de delivery foi movido e atualizado. [Leia mais](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
 Uma nova seção foi adicionada. Ele fornece uma visão geral dos diferentes métodos que permitem enriquecer o banco de dados do Campaign Standard. [Leia mais](../../start/using/enriching-campaign-database.md)
 
@@ -211,7 +222,7 @@ Relatório no segmento do fluxo de trabalho - [Leia mais](../../reporting/using/
 
 O Guia de implementação do Campaign Standard agora está disponível.[Leia mais](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
 
-Um conjunto de novos artigos de ajuda foram criados sobre a implementação e o uso do conector do Microsoft Dynamics 365. Observe que esse recurso está atualmente em Disponibilidade limitada.[Leia mais](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+Um conjunto de novos artigos de ajuda foram criados sobre a implementação e o uso do conector do Microsoft Dynamics 365. Observe que esse recurso está atualmente em Disponibilidade limitada.[Leia mais](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 Uma observação foi adicionada na seção [Chamando um fluxo de trabalho com parâmetros](../../automating/using/calling-a-workflow-with-external-parameters.md) sobre a preparação do delivery e seu período de agregação.
 
@@ -235,7 +246,7 @@ Uma nova seção sobre atualizações recomendadas do Email Designer foi adicion
 
 Uma nova seção sobre práticas recomendadas de fluxo de trabalho foi adicionada. [Leia mais](../../automating/using/best-practices-workflows.md)
 
-A lista de mensagens de erro para Campaign Standard e Classic foi atualizada. [Leia mais](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+A lista de mensagens de erro do Standard e do Campaign Classic foi atualizada. [Leia mais](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 Adicionado um aviso na documentação de recursos personalizados. Recomendamos o uso do máximo de 30 caracteres para IDs de recursos personalizados. Isso também se aplica a campos de recursos personalizados, chaves, índices e links. [Leia mais](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -247,7 +258,7 @@ Foi adicionado um caso de uso sobre como chamar um perfil usando uma chave de id
 
 Uma recomendação foi adicionada em relação ao uso de delivery recorrentes sem período de agregação ao chamar um fluxo de trabalho com parâmetros. [Leia mais](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-A lista de mensagens de erro para Campaign Standard e Classic foi atualizada. [Leia mais](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+A lista de mensagens de erro do Standard e do Campaign Classic foi atualizada. [Leia mais](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 Adicionado um aviso na documentação de recursos personalizados. Recomendamos o uso do máximo de 30 caracteres para IDs de recursos personalizados. Isso também se aplica a campos de recursos personalizados, chaves, índices e links. [Leia mais](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -355,7 +366,7 @@ Uma nova nota técnica foi adicionada sobre como exibir uma imagem de uma notifi
 
 Uma nova nota técnica sobre a implementação do rastreamento de push foi adicionada. [Leia mais](https://helpx.adobe.com/content/help/en/campaign/kb/push-tracking.html)
 
-A lista de mensagens de erro para Campaign Standard e Classic foi atualizada. [Leia mais](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+A lista de mensagens de erro do Standard e do Campaign Classic foi atualizada. [Leia mais](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 A documentação Acionadores - integração de Campanha foi atualizada. [Leia mais](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
@@ -513,7 +524,7 @@ Algumas páginas da documentação do editor de conteúdo foram mescladas para o
 
 **Novos recursos incluídos na versão**
 
-Regulamento geral da UE sobre a proteção de dados (RGPD) - [Leia mais](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
+Regulamento Geral sobre a Proteção de Dados da União Europeia (GDPR) - [Leia mais](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
 Creative Designer for Email - [Leia mais](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -681,7 +692,7 @@ Documentação adicionada no relatório de perfis ativos. [Leia mais](../../audi
 
 A documentação de alerta [do](../../sending/using/receiving-alerts-when-failures-happen.md#delivery-alerting-reasons) Delivery foi atualizada com uma seção de solução de problemas que apresenta algumas dicas sobre as ações que você pode tomar ao receber alertas.
 
-Um novo guia de introdução está disponível: apresenta algumas das práticas recomendadas que podem ser usadas para fornecer Adobe Campaign, desde a criação e a definição de metas até o envio e o monitoramento. [Leia mais](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html)
+Um novo guia de introdução está disponível: ele apresenta algumas práticas recomendadas que podem ser usadas para fazer entregas com o Adobe Campaign, desde a criação e o direcionamento até o envio e o monitoramento. [Leia mais](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html)
 
 A documentação das mensagens de acompanhamento foi atualizada com um caso de uso aprimorado. [Leia mais](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)
 
@@ -757,7 +768,7 @@ Notificações por push transacionais - [Leia mais](../../channels/using/transac
 
 Notificações por push recorrentes - [Leia mais](../../automating/using/push-notification-delivery.md)
 
-Conector S3 (Simple Armazenamento Service) da Amazon - [Leia mais](../../administration/using/external-accounts.md)
+Conector S3 (Simple Storage Service) da Amazon - [Leia mais](../../administration/using/external-accounts.md)
 
 Integração do Dreamweaver ao vivo - [Leia mais](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
@@ -765,7 +776,7 @@ Integração do Dreamweaver ao vivo - [Leia mais](https://docs.adobe.com/content
 
 Seção adicionada aos diferentes tipos de usuários de Adobe Campaign. [Leia mais](../../administration/using/users-management.md)
 
-O guia Fluxo de trabalho foi reorganizado e estendido. Encontre facilmente como [criar](../../automating/using/building-a-workflow.md) e [executar](../../automating/using/executing-a-workflow.md) um fluxo de trabalho, como [público alvo](../../automating/using/targeting-data.md) e [gerenciar](../../automating/using/targeting-data.md#enriching-data) seus dados, como [importar](../../automating/using/importing-data.md) [](../../automating/using/using-workflow-data.md) dados e como usar os dados do fluxo de trabalho, para atualizar o banco de dados ou enviar delivery.
+O Guia do Fluxo de Trabalho foi reorganizado e estendido. Descubra com facilidade como [criar](../../automating/using/building-a-workflow.md) e [executar](../../automating/using/executing-a-workflow.md) um workflow, como [direcionar](../../automating/using/targeting-data.md) e [gerenciar](../../automating/using/targeting-data.md#enriching-data) os dados, como [importar dados](../../automating/using/importing-data.md)[](../../automating/using/using-workflow-data.md) e como usar os dados do fluxo de trabalho para atualizar o banco de dados ou enviar deliveries.
 
 O cálculo do indicador de relatório agora está disponível para relatórios dinâmicos, incluindo descrição completa e fórmula de cálculo. [Leia mais](../../reporting/using/indicator-calculation.md)
 
@@ -787,7 +798,7 @@ Integração do Dreamweaver (Labs) - [Leia mais](https://docs.adobe.com/content/
 
 Otimização manual do tempo de envio - [Leia mais](../../sending/using/optimizing-the-sending-time.md)
 
-Notificações por push: melhorias - [Leia mais](../../channels/using/about-push-notifications.md)
+Push notifications: improvements - [Read more](../../channels/using/about-push-notifications.md)
 
 Workflows: nova atividade de sinal - [Leia mais](../../automating/using/external-signal.md)
 
