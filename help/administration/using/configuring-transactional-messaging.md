@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ce55c5193e7944c65e0d9e6cc791ed2bc13b3509
+source-git-commit: 34f4bbf7b7913cfb1833379c963b590961f7de73
 
 ---
 
@@ -119,7 +119,7 @@ Para obter mais informações sobre criação e publicação de recursos, consul
 
    ![](assets/message-center_enrichment-join-fields.png)
 
-   Você também pode enriquecer o conteúdo do mensagen transacional usando o **[!UICONTROL Service]** recurso. Para obter mais informações sobre serviços, consulte esta [seção](../../audiences/using/creating-a-service.md).
+   Você também pode enriquecer o conteúdo do mensagen transacional usando o **[!UICONTROL Service]** recurso. For more on services, see this [section](../../audiences/using/creating-a-service.md).
 
 1. Se você estiver criando ou editando um evento baseado em perfil, na **[!UICONTROL Targeting enrichment]** seção, selecione o enriquecimento que será usado como público alvo de mensagem durante a execução do delivery.
 
@@ -156,24 +156,25 @@ Antes de poder usar o evento, você deve pré-visualização e publicá-lo.
 
    ![](assets/message-center_logs.png)
 
+   >[!IMPORTANT]
+   >
+   >Sempre que modificar o evento, você deve clicar **[!UICONTROL Publish]** novamente para gerar a REST API atualizada que será usada pelo desenvolvedor do site.
 
->[!NOTE]
->
->Sempre que modificar o evento, você deve clicar **[!UICONTROL Publish]** novamente para gerar a REST API atualizada que será usada pelo desenvolvedor do site.
+   Depois que o evento é publicado, um mensagen transacional vinculado ao novo evento é criado automaticamente.
 
-Depois que o evento é publicado, um mensagen transacional vinculado ao novo evento é criado automaticamente. Para que esse evento dispare o envio de um mensagen transacional, você deve modificar e publicar a mensagem que acabou de ser criada. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
+1. Você pode acessar esse mensagen transacional diretamente pelo link localizado na área do lado esquerdo.
 
-Você pode acessar o mensagen transacional criado diretamente do link na área do lado esquerdo.
+   ![](assets/message-center_messagegeneration.png)
 
-![](assets/message-center_messagegeneration.png)
+Para que o evento acione o envio de um mensagen transacional, é necessário modificar e publicar a mensagem que acabou de ser criada. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 Você também precisa integrar esse evento de disparo ao seu site. Consulte [Integrar o acionamento do evento em um site](#integrating-the-triggering-of-the-event-in-a-website).
 
-<!--
->[!NOTE]
->
->To consult the previous publications if any, click the **[!UICONTROL Latest transactional events]** link under the **[!UICONTROL History]** section in the left-hand side area.
--->
+Depois que os start de Adobe Campaign receberem eventos relacionados a essa configuração de evento, o **[!UICONTROL Latest transactional events]** link na **[!UICONTROL History]** seção permite acessar os eventos mais recentes enviados pelo serviço de terceiros e processados pelo Adobe Campaign.
+
+![](assets/message-center_latest-events.png)
+
+Os eventos (no formato JSON) são listados do mais recente ao mais antigo. Essa lista permite que você verifique dados como o conteúdo ou o status de um evento para fins de controle e depuração.
 
 ### Cancelamento de publicação de um evento {#unpublishing-an-event}
 
@@ -345,7 +346,7 @@ Para obter mais informações sobre criação e publicação de recursos, consul
 
    ![](assets/message-center_usecase2.png)
 
-1. Crie uma condição de junção entre o campo &quot;Identificador do produto&quot; que foi adicionado anteriormente à mensagem e o campo correspondente do **[!UICONTROL Purchase]** recurso
+1. Crie uma condição de junção entre o campo &quot;Identificador do produto&quot; que foi adicionado anteriormente à mensagem e o campo correspondente do **[!UICONTROL Purchase]** recurso.
 
    ![](assets/message-center_usecase3.png)
 
