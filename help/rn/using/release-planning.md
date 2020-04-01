@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7cd5f11ab22d0bb3b6864670cd61007e39ebf543
+source-git-commit: 451c7d15bfe206912fd1f8db8bf8c3d7ec83616d
 
 ---
 
@@ -27,7 +27,7 @@ As atualizações são implantadas em duas fases. Primeiro, as instâncias do St
 
 Todas as datas de lançamento estão sujeitas a alterações: recomendamos que você visite esta página regularmente para verificar se há atualizações.
 
-Inscreva-se para [receber notificações](https://www.adobe.com/subscription/priority-product-update.html) de versão para obter detalhes sobre as versões mais recentes da Adobe Experience Cloud diretamente na sua caixa de entrada.
+Inscreva-se para [receber notificações](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) de versão para obter detalhes sobre as versões mais recentes da Adobe Experience Cloud diretamente na sua caixa de entrada.
 
 ## Versão 20.2.1 - Versão de abril {#release-20-2-april-release}
 
