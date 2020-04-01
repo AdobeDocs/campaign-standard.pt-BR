@@ -12,51 +12,51 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
+source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 ---
 
 
 # Enriquecimento da base de dados{#enriching-the-database}
 
-O Campaign Standard oferece várias ferramentas para ajudá-lo a expandir seu banco de dados de marketing. Esta seção detalha os diferentes métodos que você pode usar para injetar dados no Campaign, com referências às documentações dedicadas.
+O Campaign Standard oferta várias ferramentas para ajudá-lo a expandir seu banco de dados de marketing. Esta seção detalha os diferentes métodos que podem ser usados para injetar dados na Campanha, com referências às documentações dedicadas.
 
-## Importação de dados por meio de fluxos de trabalho {#importing-data-through-workflows}
+## Importação de dados por meio de workflows {#importing-data-through-workflows}
 
-Os fluxos de trabalho permitem coletar dados e importá-los para o banco de dados do Campaign por meio do uso de [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) atividades.
+Os Workflows permitem coletar dados e importá-los para o banco de dados de Campanha por meio do uso do [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) atividade.
 
-Informações genéricas e práticas recomendadas ao importar dados por meio de fluxos de trabalho são apresentadas [nesta seção](../../automating/using/importing-data.md).
+As informações genéricas e as práticas recomendadas ao importar dados por meio de workflows são apresentadas [nesta seção](../../automating/using/importing-data.md).
 
-Além disso, você pode configurar modelos para importar dados. Usar modelos de importação é uma prática recomendada se você precisar importar arquivos com a mesma estrutura regularmente.
+Além disso, você pode configurar modelos para importar dados. Usar templates de importação é uma prática recomendada se você precisar importar arquivos com a mesma estrutura regularmente.
 
 Você pode configurar dois tipos de modelos:
 
-* **Modelos** de fluxo de trabalho: esses são fluxos de trabalho pré-configurados que podem ser configurados uma vez, de acordo com suas necessidades, e reutilizados sempre que você quiser importar dados e atualizar o banco de dados.
+* **Modelos** de fluxo de trabalho: são workflows pré-configurados que podem ser configurados uma vez, de acordo com suas necessidades, e reutilizados sempre que você quiser importar dados e atualizar o banco de dados.
 
    Um exemplo de modelo de fluxo de trabalho para importar dados está detalhado [nesta seção](../../automating/using/importing-data.md#example--import-workflow-template).
 
-* **Importar modelos** de dados: como modelos de fluxo de trabalho, esses são modelos baseados em fluxos de trabalho, que são configurados para carregar arquivos para atualizar o banco de dados. Depois de configurados, eles ficam disponíveis para usuários com uma visualização simplificada no menu **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** .
+* **Importar modelos** de dados: como os modelos de fluxo de trabalho, esses são modelos baseados em workflows, que estão configurados para carregar arquivos para atualizar o banco de dados. Depois de configurados, eles ficam disponíveis para usuários com uma visualização simplificada no menu **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** .
 
    Para obter mais informações sobre como importar modelos de dados, consulte a documentação [](../../automating/using/importing-data-with-import-templates.md)dedicada.
 
-## Coleta de dados de páginas iniciais {#collecting-data-from-landing-pages}
+## Coleta de dados do landing page {#collecting-data-from-landing-pages}
 
-As páginas iniciais são formulários da Web que podem ser usados para coletar dados e criar ou atualizar informações existentes no banco de dados.
+Landing page são formulários da Web que podem ser usados para coletar dados e criar ou atualizar informações existentes no banco de dados.
 
 O princípio é o seguinte:
 
-* Crie e crie sua página inicial adicionando campos de entrada para coletar dados (nome, sobrenome, email etc.).
+* Crie e crie sua landing page adicionando campos de entrada para coletar dados (nome, sobrenome, email etc.).
 * Mapeie cada campo de entrada com o campo correspondente do banco de dados.
-* Disponibilize a página de aterrissagem on-line através de um site ou por meio de um link direto em uma mensagem.
+* Disponibilize a landing page on-line por um site ou por meio de um link direto em uma mensagem.
 
-Para obter mais informações sobre páginas iniciais, consulte a documentação [](../../channels/using/getting-started-with-landing-pages.md)dedicada.
+Para obter mais informações sobre o landing page, consulte a documentação [](../../channels/using/getting-started-with-landing-pages.md)dedicada.
 
 ## Sincronizando perfis do Microsoft Dynamics 365
 
-A integração do Campaign Standard com o Microsoft Dynamics 365 permite transmitir dados de contato do Microsoft Dynamics 365 para o banco de dados do Campaign.
-Esses contatos ficam visíveis na lista Perfis e podem ser direcionados para campanhas de marketing.
+A integração do Campaign Standard com o Microsoft Dynamics 365 permite transmitir dados de contato do Microsoft Dynamics 365 para o banco de dados de Campanhas.
+Esses contatos ficam visíveis na lista de Perfis e podem ser direcionados para campanhas de marketing.
 
-For more on this integration, refer to the [dedicated documentation](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
+For more on this integration, refer to the [dedicated documentation](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
 >[!NOTE]
 >
@@ -64,10 +64,10 @@ For more on this integration, refer to the [dedicated documentation](https://hel
 
 ## Importação de dados por meio de chamadas de API
 
-As APIs do Campaign Standard permitem que você execute operações para atualizar o banco de dados, como criação, atualização ou exclusão de perfis ou serviços.
+As APIs de Campaign Standard permitem que você execute operações para atualizar o banco de dados, como criação, atualização ou exclusão de perfis ou serviços.
 
 For more on how to use the APIs, refer to the [dedicated documentation](../../api/using/about-campaign-standard-apis.md).
 
 >[!CAUTION]
 >
->Antes de executar a criação ou atualização em massa de perfis por meio de chamadas de API, verifique as limitações de escala correspondentes ao seu contrato de licença. Para obter mais informações, consulte [esta página](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+>Antes de executar a criação em massa de perfis ou a atualização por meio de chamadas de API, verifique as limitações de escala correspondentes ao seu contrato de licença. Para obter mais informações, consulte [esta página](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
