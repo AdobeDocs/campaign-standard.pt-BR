@@ -1,5 +1,5 @@
 ---
-title: Configuração de canal de email no Adobe Campaign Standard
+title: Configuração do canal de e-mail no Adobe Campaign Standard
 description: Saiba como configurar o canal de email no Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 9fddb655-b445-41f3-9b02-5d356fc88aa1
@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b85633e278e3824a58390ee538b4a6e6954785af
+source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 ---
 
@@ -22,27 +22,27 @@ source-git-commit: b85633e278e3824a58390ee538b4a6e6954785af
 
 ## Parâmetros de canal de email {#email-channel-parameters}
 
-A tela de configuração de email permite definir os parâmetros do canal de email.
+A tela de configuração de email permite que você defina os parâmetros do canal de email.
 
 ![](assets/channels_1.png)
 
 * **Parâmetros de cabeçalho de emails enviados**
 
-   Nesta seção, você pode especificar o endereço autorizado **[!UICONTROL masks]** para o remetente e o endereço de erro. Se necessário, essas máscaras podem ser separadas por vírgulas. Essa configuração é opcional. Quando esses campos são inseridos, durante a fase de preparação da mensagem, o Adobe Campaign verifica se os endereços digitados são válidos. Esse modo operacional garante que não sejam usados endereços que possam causar problemas de entrega. Os endereços de entrega devem ser configurados no servidor de entrega.
+   Nesta seção, você pode especificar o endereço autorizado **[!UICONTROL masks]** para o remetente e o endereço de erro. Se necessário, essas máscaras podem ser separadas por vírgulas. Essa configuração é opcional. Quando esses campos são inseridos, durante a fase de preparação da mensagem, o Adobe Campaign verifica se os endereços digitados são válidos. Esse modo operacional garante que não sejam usados endereços que possam causar problemas de entrega. Os endereços dos Delivery devem ser configurados no servidor do delivery.
 
 * **Disponibilidade**
 
    Essa ID é fornecida pelo suporte. É necessário que os relatórios de entrega funcionem corretamente.
 
-* **Parâmetros de entrega**
+* **Parâmetros do Delivery**
 
-   O Adobe Campaign envia as mensagens que começam na data de início. O **[!UICONTROL Message delivery duration]** campo permite especificar a duração durante a qual as mensagens podem ser enviadas.
+   O Adobe Campaign envia as mensagens que começam na data do start. O **[!UICONTROL Message delivery duration]** campo permite especificar a duração durante a qual as mensagens podem ser enviadas.
 
    The **[!UICONTROL Online resources validity duration]** field is used for uploaded resources, mainly for the mirror page and images. Os recursos desta página são válidos por um tempo limitado (para economizar espaço em disco).
 
-* **Repetir**
+* **Tentativas**
 
-   As mensagens temporariamente não entregues estão sujeitas a uma nova tentativa automática. Esta seção indica quantas tentativas devem ser executadas no dia seguinte ao início do envio (**Número de tentativas**) e o atraso mínimo entre as tentativas (período **de** novas tentativas).
+   As mensagens temporariamente não entregues estão sujeitas a uma nova tentativa automática. Esta seção indica quantas tentativas devem ser executadas no dia seguinte ao início do envio (**Número de tentativas**) e o atraso mínimo entre as tentativas (**Período** de tentativas).
 
    Por padrão, cinco tentativas são programadas para o primeiro dia com um intervalo mínimo de uma hora, distribuídas nas 24 horas do dia. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.
 
@@ -50,21 +50,21 @@ A tela de configuração de email permite definir os parâmetros do canal de ema
 
    No **[!UICONTROL Time between two significant errors]** campo, digite um valor para definir o tempo que o aplicativo aguarda antes de incrementar o contador de erros em caso de falha. Valor padrão: **&quot;1d&quot;**, por 1 dia.
 
-   Quando o **[!UICONTROL Maximum number of errors before quarantine]** valor é atingido, o endereço de email é colocado em quarentena. Valor padrão: **&quot;5&quot;**: o endereço será colocado em quarentena no sexto erro. Isso significa que o contato será automaticamente excluído das entregas subsequentes.
+   Quando o **[!UICONTROL Maximum number of errors before quarantine]** valor é atingido, o endereço de email é colocado em quarentena. Valor padrão: **&quot;5&quot;**: o endereço será colocado em quarentena no sexto erro. Isso significa que o contato será automaticamente excluído dos delivery subsequentes.
 
-**Tópico** relacionado:
+**Tópicos relacionados**:
 
 [Noções básicas sobre gestão de quarentena](../../sending/using/understanding-quarantine-management.md)
 
 ## Contas de roteamento de email {#email-routing-accounts}
 
-A conta **[!UICONTROL Integrated email routing]** externa é fornecida por padrão. Ele contém os parâmetros técnicos que permitem ao aplicativo enviar emails.
+A **[!UICONTROL Integrated email routing]** conta externa é fornecida por padrão. Ele contém os parâmetros técnicos que permitem ao aplicativo enviar emails.
 
 ![](assets/channels_2.png)
 
-O tipo de conta deve ser sempre definido como **[!UICONTROL Routing]**, o canal como **[!UICONTROL Email]** e o modo de entrega definido como **[!UICONTROL Bulk delivery]**.
+O tipo de conta deve ser sempre definido como **[!UICONTROL Routing]**, o canal como **[!UICONTROL Email]** e o modo delivery como **[!UICONTROL Bulk delivery]**.
 
-**Tópico** relacionado:
+**Tópicos relacionados**:
 
 [Contas externas](../../administration/using/external-accounts.md)
 
@@ -78,13 +78,13 @@ As regras padrão são as seguintes:
 
 ### Mensagens de rejeição {#bounce-mails}
 
-Para mensagens de erro de falha de entrega síncrona, o MTA aprimorado determina o tipo de rejeição e a qualificação e envia essas informações para o Campaign. Para obter mais informações sobre o Adobe Campaign Enhanced MTA, consulte este [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+Para mensagens de erro de falha síncrona de delivery, o MTA aprimorado determina o tipo de rejeição e a qualificação e envia essas informações para a Campanha. Para obter mais informações sobre o MTA aprimorado do Adobe Campaign, consulte este [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
-As rejeições assíncronas ainda são qualificadas pelo processo Campanha no Mail pela **[!UICONTROL Bounce mails]** regra.
+As rejeições assíncronas ainda são qualificadas pelo processo de Campanha inMail por meio da **[!UICONTROL Bounce mails]** regra.
 
 >[!IMPORTANT]
 >
->Após a atualização para o MTA aprimorado, as qualificações de rejeição na tabela Campanha **[!UICONTROL Message qualification]** não são mais usadas. Para obter mais informações sobre qualificação de envio de e-mails, consulte esta [seção](../../sending/using/understanding-delivery-failures.md).
+>Após a atualização para o MTA aprimorado, as qualificações de rejeição na tabela Campanha não são mais usadas. **[!UICONTROL Message qualification]** Para obter mais informações sobre qualificação de envio de e-mails, consulte esta [seção](../../sending/using/understanding-delivery-failures.md).
 
 <!--The user can create his own rules.
 
@@ -103,11 +103,11 @@ The **SMTP parameters** act as filters applied for a blocking rule.
 
 >[!IMPORTANT]
 >
->Após a atualização para o MTA aprimorado, as **[!UICONTROL Domain management]** regras do Adobe Campaign não são mais usadas.
+>Depois de atualizadas para o MTA aprimorado, as regras de Adobe Campaign não são mais usadas. **[!UICONTROL Domain management]**
 
 **A assinatura de autenticação de email DKIM (DomainKeys Identified Mail)** é feita pelo MTA aprimorado para todas as mensagens com todos os domínios. Ele não faz logon com a ID **do** remetente, **DomainKeys** ou **S/MIME** , a menos que especificado de outra forma no nível MTA aprimorado.
 
-Para obter mais informações sobre o Adobe Campaign Enhanced MTA, consulte este [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+Para obter mais informações sobre o MTA aprimorado do Adobe Campaign, consulte este [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 ### MX management {#mx-management}
 
@@ -119,11 +119,11 @@ To configure MX management rules, simply set a threshold and select certain SMTP
 
 >[!IMPORTANT]
 >
->Após a atualização para o MTA aprimorado, as regras de **[!UICONTROL MX management]** throughput de entrega do Adobe Campaign não são mais usadas.
+>Depois de atualizadas para o MTA aprimorado, as regras de throughput do Adobe Campaign **[!UICONTROL MX management]** delivery não são mais usadas.
 
-O MTA aprimorado usa suas próprias regras MX que permitem personalizar sua throughput por domínio com base na sua própria reputação histórica de email e no feedback em tempo real proveniente dos domínios em que você está enviando emails.
+O MTA aprimorado usa regras MX próprias que permitem personalizar a capacidade por domínio com base na sua própria reputação histórica de email e no feedback em tempo real proveniente dos domínios em que você está enviando emails.
 
-Para obter mais informações sobre o Adobe Campaign Enhanced MTA, consulte este [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+Para obter mais informações sobre o MTA aprimorado do Adobe Campaign, consulte este [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 <!--Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "&#42;" and "?" generic characters.
 
@@ -159,7 +159,7 @@ The following parameters are available for each rule:
 >* The delivery server (MTA) must be restarted if the parameters have been changed. 
 >* The modification or creation of management rules is for expert users only. -->
 
-## Lista de propriedades de email {#list-of-email-properties}
+## Lista de propriedades de e-mail {#list-of-email-properties}
 
 Esta seção detalha a lista de parâmetros disponíveis na tela de propriedades de um modelo de email ou de email.
 
@@ -173,7 +173,7 @@ Para editar as propriedades de um email ou modelo de email, use o **[!UICONTROL 
 
 ### Parâmetros gerais {#general-parameters}
 
-Na parte superior da tela de parâmetros de email, identifique o email usando os campos **[!UICONTROL Label]** e **[!UICONTROL ID]** . Essas informações aparecem na interface, mas não são visíveis para os destinatários da mensagem.
+Na parte superior da tela de parâmetros de email, identifique o email usando os campos **[!UICONTROL Label]** e **[!UICONTROL ID]** . Essas informações aparecem na interface, mas não são visíveis para os recipient de mensagem.
 
 ![](assets/delivery_options_2.png)
 
@@ -181,7 +181,7 @@ Na parte superior da tela de parâmetros de email, identifique o email usando os
 >
 >A ID deve ser exclusiva.
 
-O **[!UICONTROL Brand]** campo permite selecionar a marca vinculada à entrega. Para obter mais informações sobre como usar e configurar marcas, consulte a seção [Marcas](../../administration/using/branding.md) .
+O **[!UICONTROL Brand]** campo permite selecionar a marca vinculada ao delivery. Para obter mais informações sobre como usar e configurar marcas, consulte a seção [Marcas](../../administration/using/branding.md) .
 
 O **[!UICONTROL Campaign]** campo permite que você insira a campanha vinculada ao email.
 
@@ -191,26 +191,26 @@ Você também pode adicionar uma imagem **[!UICONTROL Description]** no campo co
 
 A **[!UICONTROL Send]** seção está disponível somente para modelos de e-mail. Ele contém os seguintes parâmetros:
 
-#### Repetir parâmetros {#retries-parameters}
+#### Parâmetros do Tentativas {#retries-parameters}
 
 As mensagens temporariamente não entregues estão sujeitas a uma nova tentativa automática. Esta seção indica quantas tentativas devem ser executadas no dia seguinte ao início do envio ( **[!UICONTROL Max. number of retries]** ) e o atraso mínimo entre as tentativas ( **[!UICONTROL Retry period]** ).
 
 Por padrão, cinco tentativas são programadas para o primeiro dia com um intervalo mínimo de uma hora, distribuídas nas 24 horas do dia. One retry per day is programmed after that and until the delivery deadline, which is defined in the [Validity period parameters](#validity-period-parameters) section.
 
-O número de tentativas pode ser alterado globalmente (entre em contato com o administrador técnico da Adobe) ou para cada entrega ou modelo de entrega
+O número de tentativas pode ser alterado globalmente (entre em contato com o administrador técnico da Adobe) ou para cada delivery ou template do delivery
 
-#### Parâmetros de formato de email {#email-format-parameters}
+#### Parâmetros do Formato do email {#email-format-parameters}
 
 Você pode configurar o formato dos emails a serem enviados. Há três opções disponíveis:
 
-* **Usar preferências** do destinatário (modo padrão): o formato de mensagem é definido de acordo com os dados armazenados no perfil do destinatário e armazenado por padrão no campo de formato **de** email (@emailFormat). Se um recipient deseja receber mensagens em determinado formato, esse será o formato enviado. Se o campo não estiver concluído, uma mensagem multipart-alternativo será enviada (consulte abaixo).
-* **Deixe que o cliente de email do destinatário escolha o formato mais apropriado (multipart-alternativo)**: a mensagem contém ambos os formatos: text e HTML. O formato exibido após a recepção depende da configuração do software de email do destinatário (multipart-alternativo).
+* **Usar preferências** de recipient (modo padrão): o formato de mensagem é definido de acordo com os dados armazenados no perfil do recipient e armazenado por padrão no campo **Formato do email** (@emailFormat). Se um recipient deseja receber mensagens em determinado formato, esse será o formato enviado. Se o campo não estiver concluído, uma mensagem de multipart-alternative será enviada (veja abaixo).
+* **Permitir que o cliente de e-mail do recipient escolha o formato mais apropriado (multipart-alternative)**: a mensagem contém ambos os formatos: text e HTML. O formato exibido após a recepção depende da configuração do software de e-mail do recipient.
 
    >[!IMPORTANT]
    >
-   >Essa opção inclui ambas as versões da mensagem. Portanto, isso afeta o throughput de entrega, porque o tamanho da mensagem é maior.
+   >Essa opção inclui ambas as versões da mensagem. Portanto, isso afeta o throughput do delivery, porque o tamanho da mensagem é maior.
 
-* **Enviar todas as mensagens no formato** de texto: a mensagem é enviada em formato de texto. O formato HTML não será enviado, mas usado para a página espelhada somente quando o destinatário clicar no link na mensagem.
+* **Enviar todas as mensagens no formato** de texto: a mensagem é enviada em formato de texto. O formato HTML não será enviado, mas usado para o mirror page somente quando o recipient clicar no link na mensagem.
 
 #### Modo de teste SMTP {#smtp-test-mode}
 
@@ -240,27 +240,27 @@ A **[!UICONTROL Validity period]** seção contém os seguintes parâmetros:
 
    ![](assets/delivery-set-explicit-dates.png)
 
-* **[!UICONTROL Delivery duration]**: O Adobe Campaign envia as mensagens que começam na data de início. Esse campo permite especificar a duração durante a qual as mensagens podem ser enviadas.
+* **[!UICONTROL Delivery duration]**: O Adobe Campaign envia as mensagens que começam na data do start. Esse campo permite especificar a duração durante a qual as mensagens podem ser enviadas.
 
    >[!IMPORTANT]
    >
-   >Depois de atualizado para o MTA aprimorado, o **[!UICONTROL Delivery duration]** parâmetro nas entregas do Campaign é usado somente se definido para 3,5 dias ou menos. Se você definir um valor superior a 3,5 dias, ele não será considerado. Todos os impactos são detalhados no documento MTA [aprimorado do](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) Adobe Campaign.
+   >Depois de atualizado para o MTA aprimorado, o **[!UICONTROL Delivery duration]** parâmetro em seus delivery de Campanha é usado somente se definido para 3,5 dias ou menos. Se você definir um valor superior a 3,5 dias, ele não será considerado. Todos os impactos são detalhados no documento [MTA aprimorado do Adobe Campaign](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
-* **[!UICONTROL Resource validity duration]**: esse campo é usado para recursos carregados, principalmente para a página espelhada e imagens. Os recursos desta página são válidos por um tempo limitado (para economizar espaço em disco).
-* **[!UICONTROL Mirror page management]**: a página espelhada é uma página HTML acessível on-line através de um navegador da Web. Seu conteúdo é idêntico ao conteúdo do email. Por padrão, a página espelhada é gerada se o link for inserido no conteúdo do email. Este campo permite modificar a forma como esta página é gerada:
+* **[!UICONTROL Resource validity duration]**: este campo é usado para recursos carregados, principalmente para o mirror page e imagens. Os recursos desta página são válidos por um tempo limitado (para economizar espaço em disco).
+* **[!UICONTROL Mirror page management]**: o mirror page é uma página HTML acessível on-line através de um navegador da Web. Seu conteúdo é idêntico ao conteúdo do email. Por padrão, o mirror page é gerado se o link for inserido no conteúdo do email. Este campo permite modificar a forma como esta página é gerada:
 
    >[!IMPORTANT]
    >
-   >Um conteúdo HTML deve ter sido definido para o email da página espelhada a ser criada.
+   >O conteúdo HTML deve ter sido definido para o email do mirror page a ser criado.
 
-   * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** (modo padrão): a página espelhada será gerada se o link for inserido no conteúdo do email.
-   * **Forçar a geração da página** espelhada: mesmo se nenhum link para a página espelhada for inserido nas mensagens, a página espelhada será criada.
-   * **Não gerar a página** espelhada: nenhuma página espelhada é gerada, mesmo se o link estiver nas mensagens.
-   * **Gerar uma página espelhada acessível usando apenas a ID** da mensagem: essa opção permite acessar o conteúdo da página espelhada, com informações de personalização, na janela do log de entrega.
+   * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** (modo padrão): o mirror page é gerado se o link for inserido no conteúdo do email.
+   * **Forçar a geração do mirror page**: mesmo se nenhum link para o mirror page for inserido nas mensagens, o mirror page será criado.
+   * **Não gerar o mirror page**: nenhum mirror page é gerado, mesmo se o link estiver nas mensagens.
+   * **Gerar um mirror page acessível usando apenas a ID** da mensagem: essa opção permite acessar o conteúdo do mirror page, com informações de personalização, na janela do log de delivery.
 
 >[!NOTE]
 >
->O **[!UICONTROL Delivery duration]** parâmetro não se aplica a mensagens transacionais. Para obter mais informações sobre mensagens transacionais, consulte [esta seção](../../channels/using/about-transactional-messaging.md).
+>O **[!UICONTROL Delivery duration]** parâmetro não se aplica a mensagens transacionais. For more on transactional messaging, see [this section](../../channels/using/about-transactional-messaging.md).
 
 ### Parâmetros de rastreamento {#tracking-parameters}
 
@@ -282,17 +282,17 @@ Clique no botão à direita do campo que será alterado e, em seguida, adicione 
 
 A inserção e o uso do conteúdo de personalização são detalhados na documentação [Personalização do conteúdo](../../designing/using/personalization.md) de email.
 
-#### Contexto de destino {#target-context}
+#### contexto do Público alvo {#target-context}
 
-O contexto de definição de metas permite definir um conjunto de tabelas que serão usadas para definição de metas de email (na tela de definição de público-alvo) e personalização (definindo campos de personalização no editor de conteúdo HTML).
+O contexto de definição de metas permite definir um conjunto de tabelas que serão usadas para definição de metas de email (na tela de definição de audiência) e personalização (definindo campos de personalização no editor de conteúdo HTML).
 
 #### Roteamento {#routing}
 
-Este campo indica o modo de roteamento usado. Ele faz referência a uma conta externa. Por exemplo, isso pode ser usado se você quiser usar uma conta externa que contenha configurações específicas de marca.
+Este campo indica o modo de roteamento usado. Ela faz referência a uma conta externa. Por exemplo, isso pode ser usado se você quiser usar uma conta externa contendo configurações específicas de marca.
 
 >[!NOTE]
 >
->As contas externas podem ser acessadas por meio do menu **Administração** > Configurações **de** aplicativo > Contas **** externas.
+>O Conta externa pode ser acessado por meio do menu **Administração** > Configurações **** do aplicativo > **Conta externa** .
 
 #### Preparação {#preparation}
 
@@ -306,13 +306,13 @@ A preparação de mensagens é detalhada na seção [Aprovando mensagens](../../
 
 * **[!UICONTROL Compute the label during delivery preparation]**: permite calcular o valor do rótulo do email durante a fase de preparação da mensagem usando campos de personalização, blocos de conteúdo e texto dinâmico.
 
-   Também é possível personalizar o rótulo de entrega com variáveis de eventos que foram declaradas para a atividade de sinal externo do fluxo de trabalho. Para obter mais informações, consulte [esta seção](../../automating/using/calling-a-workflow-with-external-parameters.md).
+   Também é possível personalizar o rótulo do delivery com variáveis de eventos que foram declaradas para a atividade de sinal externo do fluxo de trabalho. Para obter mais informações, consulte [esta seção](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
-* **[!UICONTROL Save SQL queries in the log]**: essa opção permite adicionar logs de consulta SQL no diário durante a fase de preparação.
+* **[!UICONTROL Save SQL queries in the log]**: essa opção permite que você adicione logs de query SQL no journal durante a fase de preparação.
 
-#### Configurações de prova {#proof-settings}
+#### Configurações de Prova {#proof-settings}
 
-Esta seção permite que você configure o prefixo padrão a ser usado na linha de assunto da prova. For more in this, refer to [this section](../../sending/using/sending-proofs.md).
+Esta seção permite que você configure o prefixo padrão a ser usado na linha de assunto do prova. For more in this, refer to [this section](../../sending/using/sending-proofs.md).
 
 ### Lista de parâmetros SMTP de email {#list-of-email-smtp-parameters}
 
@@ -320,13 +320,13 @@ A **[!UICONTROL SMTP]** seção contém os seguintes parâmetros:
 
 * **[!UICONTROL Character encoding]**: marque a **[!UICONTROL Force encoding]** caixa se desejar forçar a codificação de mensagens e selecione a codificação que deseja usar.
 * **[!UICONTROL Bounce mails]**: por padrão, os e-mails de rejeição são recebidos na caixa de entrada de erro da plataforma (definida na tela **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Configuration]** ). Para definir um endereço de erro específico para um email, insira o endereço no **[!UICONTROL Error address]** campo.
-* **[!UICONTROL Additional SMTP headers]**: essa opção permite que cabeçalhos SMTP adicionais sejam adicionados às suas mensagens. O script inserido no **[!UICONTROL Headers]** campo deve fazer referência a um cabeçalho por linha, na forma de **name:value**. Os valores são codificados automaticamente se necessário.
+* **[!UICONTROL Additional SMTP headers]**: essa opção permite que cabeçalhos SMTP adicionais sejam adicionados às suas mensagens. The script entered in the **[!UICONTROL Headers]** field must reference one header per line, in the form of **name:value**. Os valores são codificados automaticamente se necessário.
 
    >[!IMPORTANT]
    >
    >Adicionar um script para inserir cabeçalhos SMTP adicionais é apenas para usuários avançados. A sintaxe desse script deve estar em conformidade com os requisitos desse tipo de conteúdo: não há espaço não utilizado, nenhuma linha vazia, etc.
 
-### Lista de parâmetros de autorização de acesso {#list-of-access-authorization-parameters}
+### Lista dos parâmetros de autorização de acesso {#list-of-access-authorization-parameters}
 
 A **[!UICONTROL Access authorization]** seção contém os seguintes parâmetros:
 
