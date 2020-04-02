@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 ---
 
@@ -34,17 +34,16 @@ Detalhes do fluxograma (mapeia para as etapas acima):
 1. Leia este artigo, verifique os avisos e as etapas de configuração.
 
 1. Envie uma solicitação de conta para adobe-support@unifisoftware.com; O Unifi exigirá as seguintes informações quando você solicitar uma conta:
-* Nome do usuário
-* Sobrenome do usuário
-* Email do usuário
-* Nome da Empresa
-* Região (América do Norte, EMEA ou APAC)
-* Tipo de uso:  Tipo de cliente (usuários do cliente que usarão seus dados de produção nesta integração) ou Tipo de parceiro (consultores parceiros que estão testando a integração para obter um melhor entendimento para que possam ajudar seus clientes de Campanha) ou Tipo interno (usuários internos da Adobe que estão testando a integração para obter uma melhor compreensão da solução)
-* status dos dados do Campaign Standard (começando com o banco de dados limpo ou trazendo os dados existentes para a integração)
-* ID do locatário da Campanha (consulte Configurar a seção de integração da Campanha etapa 3 para obter sua ID do locatário)
-* URL da instância de Campanha
-
-Tempo de resposta Unifi esperado: 1 hora durante o horário comercial regular dos EUA (das 9h às 17h, horário do Pacífico, Seg - Sex, excluindo feriados).
+   * Nome do usuário
+   * Sobrenome do usuário
+   * Email do usuário
+   * Nome da Empresa
+   * Região (América do Norte, EMEA ou APAC)
+   * Tipo de uso:  Tipo de cliente (usuários do cliente que usarão seus dados de produção nesta integração) ou Tipo de parceiro (consultores parceiros que estão testando a integração para obter um melhor entendimento para que possam ajudar seus clientes de Campanha) ou Tipo interno (usuários internos da Adobe que estão testando a integração para obter uma melhor compreensão da solução)
+   * status dos dados do Campaign Standard (começando com o banco de dados limpo ou trazendo os dados existentes para a integração)
+   * ID do locatário da Campanha (consulte Configurar a seção de integração da Campanha etapa 3 para obter sua ID do locatário)
+   * URL da instância de Campanha
+   Tempo de resposta Unifi esperado: 1 hora durante o horário comercial regular dos EUA (das 9h às 17h, horário do Pacífico, Seg - Sex, excluindo feriados).
 
 1. Complete as etapas pós-provisionamento para o Microsoft Dynamics 365 e para o Campaign Standard.
 Além disso, envie um ticket para o Atendimento ao cliente da Adobe (diretamente ou por meio de seu contato da Adobe) para que o sinalizador de recurso de logon único esteja habilitado na instância da Campanha. Os parceiros devem entrar em contato com o representante da caixa de proteção do parceiro da Adobe, em vez de entrar em contato com o Atendimento ao cliente da Adobe para ativar o sinalizador de recursos.
