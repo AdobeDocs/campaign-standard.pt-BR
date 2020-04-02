@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 ---
 
@@ -60,21 +60,21 @@ O cliente tem um veículo de entidade personalizado predefinido no Dynamics 365 
 
 As entidades personalizadas deste cliente no Dynamics 365 podem ser visualizadas no Painel de vendas clicando na lista suspensa ao lado do Dynamics 365.  As entidades personalizadas deste cliente são agrupadas em **[!UICONTROL Extensions]**.
 
-(../assets/SalesDashboard.png)
+![](assets/SalesDashboard.png)
 
 Os dados do veículo podem ser visualizados clicando-se na entidade **[!UICONTROL vehicle]** personalizada.  Veja a lista dos veículos abaixo.
 
-(../assets/VehicleCustomEntity.png)
+![](assets/VehicleCustomEntity.png)
 
 A relação da **[!UICONTROL vehicle]** entidade com a **[!UICONTROL Contact]** entidade pode ser vista abaixo. **[!UICONTROL Parental]** foi escolhido para o **[!UICONTROL Type of Behavior]**.
 
-(../assets/ContactToVehicle.png)
+![](assets/ContactToVehicle.png)
 
 ### Configuração no Campaign Standard
 
 Na Campanha, os recursos personalizados do cliente podem ser exibidos clicando-se **[!UICONTROL Adobe Campaign]** no canto superior esquerdo e selecionando-se **[!UICONTROL Client data]**.
 
-(../assets/ClientDataMenu.png)
+![](assets/ClientDataMenu.png)
 
 ### Mapear recursos personalizados e entidades personalizadas
 
@@ -82,14 +82,14 @@ O recurso **[!UICONTROL vehicle]** personalizado deveria ter sido predefinido an
 
 Clique **[!UICONTROL Adobe Campaign]** no canto superior esquerdo e clique em **[!UICONTROL Administration > Development > Custom Resources]**.
 
-(../assets/CustomRes.png)
+![](assets/CustomRes.png)
 
 1. Clique em **[!UICONTROL Custom Resources]**.
 1. Clique no botão **[!UICONTROL Create]**.  Isso abrirá uma janela pop-up.
 1. Selecione **[!UICONTROL Create a new resource]** e insira **[!UICONTROL Vehicle]** como o rótulo e a ID.
 1. Clique em **[!UICONTROL Create]**.
 
-(../assets/CreateAcusRes.png)
+![](assets/CreateAcusRes.png)
 
 A Campanha exibirá as estruturas de dados e a página de link.  É possível ver que vários campos foram adicionados.
 
@@ -97,23 +97,23 @@ A Campanha exibirá as estruturas de dados e a página de link.  É possível ve
 * O Perfil associado é a identificação do perfil ao qual o registro de veículos está ligado; quando vinculado, ele será vinculado ao **[!UICONTROL externalId]** campo da tabela do Perfil.
 * VIN e nome do veículo são campos para capturar informações sobre o veículo.
 
-(../assets/CusResConfig.png)
+![](assets/CusResConfig.png)
 
 >[!CAUTION]
 >
 >Cada recurso personalizado deve ter um campo exclusivo com uma ID de externalId (exatamente).  Esse campo mapeará para o campo ID do recurso personalizado no Dynamics 365 (consulte abaixo).
 
-(../assets/FieldsInDynamics.png)
+![](assets/FieldsInDynamics.png)
 
 ### Definir as chaves de identificação
 
 A próxima etapa é definir as chaves de identificação.  Primeiro, crie as chaves de identificação, como visto abaixo.
 
-(../assets/IDkeys.png)
+![](assets/IDkeys.png)
 
 Na tela Definição de chave, selecione o **[!UICONTROL externalId]** campo.
 
-(../assets/KeyDefinition.png)
+![](assets/KeyDefinition.png)
 
 >[!CAUTION]
 >
@@ -127,11 +127,11 @@ Em **[!UICONTROL Filter Definition]**, clique em **[!UICONTROL Add an element]**
 Dê o nome ao rótulo e à ID **[!UICONTROL ExternalId]**.
 Clique em **[!UICONTROL Add]**.
 
-(../assets/FilterDefinition.png)
+![](assets/FilterDefinition.png)
 
 Agora, clique em editar no elemento de filtro recém-adicionado e configure o filtro de acordo com a imagem abaixo.  Se você inserir **[!UICONTROL externalId]** no **[!UICONTROL Parameters]** campo e clicar no sinal de mais, **[!UICONTROL externalId_parameter]** será exibido.  Selecione esse parâmetro como parâmetro.
 
-(../assets/EditArule.png)
+![](assets/EditArule.png)
 
 ### Definir o link
 
@@ -143,13 +143,13 @@ Em seguida, especificaremos a vinculação do recurso personalizado.  Nesse caso
 1. Em **[!UICONTROL Join Definitions]**, selecione **[!UICONTROL Define specific join conditions]**.
 1. Then click **[!UICONTROL Add an element]**.
 
-(../assets/LinkConfiguration.png)
+![](assets/LinkConfiguration.png)
 
 Para a definição de junção, inserimos os valores abaixo.
 
 Observe que a **[!UICONTROL @externalId]** entrada é o campo externalId da tabela de perfis e a **[!UICONTROL ProfileExternalId]** entrada é a ID do campo correspondente no recurso personalizado de veículos.  Quando o valor externoId de um registro de perfis for inscrito no **[!UICONTROL ProfileExternalId]** campo de um registro de um veículo, os dois registros serão ligados em conjunto.
 
-(../assets/JoinDefinition.png)
+![](assets/JoinDefinition.png)
 
 Confirme as alterações e salve a entidade personalizada.
 
@@ -161,21 +161,21 @@ A etapa final é publicar o recurso personalizado.
 1. Manter a opção padrão: **[!UICONTROL Determine modifications since the last publication]**.
 1. Clique **[!UICONTROL Prepare Publication]** e aguarde a conclusão.
 
-(../assets/PublishModifications.png)
+![](assets/PublishModifications.png)
 
 Em seguida, clique **[!UICONTROL Publish]** e aguarde a conclusão.
 
-(../assets/Publish.png)
+![](assets/Publish.png)
 
 ### Agendamento de ingresso unificado
 
 Presumindo que o cliente já preencheu a entidade personalizada de veículo no Dynamics 365 e que o Unifi configurou as tarefas e programações da entidade personalizada de veículos com o, o cliente deverá ser capaz de iniciar o agendamento de entrada para a entidade de veículo.
 
-(../assets/Schedule.png)
+![](assets/Schedule.png)
 
 Após a conclusão do serviço de entrada, os dados do veículo agora podem ser vistos no recurso **[!UICONTROL Vehicle]** personalizado recém-preenchido na Campanha.
 
-(../assets/ACSUpdate.png)
+![](assets/ACSUpdate.png)
 
 **Tópicos relacionados**
 
