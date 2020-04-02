@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 03009c47a66aa1a62c05f632e2a60141a98639d8
 
 ---
 
@@ -65,7 +65,7 @@ Se você quiser integrar fluxos de dados de outros sistemas com o Adobe Campaign
    <td> Analytics<br /> Standard, Premium <br /> </td> 
    <td> Permite rastrear o sucesso de seus delivery de email diretamente no Adobe Analytics.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-analytics-integration.md">Compartilhe dados de Campanha com o Analytics</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">compartilhe KPIs para vídeo integrado do relatórios</a> de Campanha (etapa 1
+    <a href="../../integrating/using/about-campaign-analytics-integration.md">Compartilhe dados de Campanha com o Analytics</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">compartilhe KPIs para vídeo integrado do relatórios</a> de Campanha (etapa 1)
     </td> 
   </tr> 
   <tr> 
