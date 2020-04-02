@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
+source-git-commit: 573131986d52bb4415cca59600048fd7dc5ba0db
 
 ---
 
@@ -66,7 +66,7 @@ O Construtor de segmentos unificado agora deve ser exibido em sua área de traba
 
 O painel esquerdo lista todos os atributos, eventos e audiências disponíveis para uso na construção de regras.
 
-Os campos listados são atributos capturados pela sua empresa e disponibilizados pelo sistema [](https://www.adobe.io/apis/experienceplatform/home/xdm.html)Experience Data Model (XDM).
+Os campos listados são atributos capturados pela sua empresa e disponibilizados pelo sistema [](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)Experience Data Model (XDM).
 
 Os campos são organizados em guias:
 
