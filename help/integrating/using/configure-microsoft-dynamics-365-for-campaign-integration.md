@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 ---
 
@@ -45,7 +45,7 @@ Um token de acesso OAuth permite que o Unifi se autentique com sua instância do
 
 As etapas principais estão descritas no vídeo a seguir:
 
-** VÍDEO**
+>[!VIDEO](https://video.tv.adobe.com/v/27637)
 
 Para gerar o token de acesso OAuth, siga as etapas descritas abaixo.
 
@@ -57,12 +57,12 @@ Para gerar o token de acesso OAuth, siga as etapas descritas abaixo.
 
 1. Clique **[!UICONTROL New registration]** na parte superior da tela.
 
-![](assets/MSdynACSIntegration-7.png)
+   ![](assets/MSdynACSIntegration-7.png)
 
-Preencha a tela de registro do aplicativo:
+1. Preencha a tela de registro do aplicativo:
 
-* Nome: adobe campanha
-* Tipo de conta suportado: **[!UICONTROL Accounts in this organizational directory only]** (valor padrão)
+   * Nome: adobe campanha
+   * Tipo de conta suportado: **[!UICONTROL Accounts in this organizational directory only]** (valor padrão)
 
 For more information about creating a new application, refer to [this section](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app).
 
@@ -104,25 +104,24 @@ Este novo usuário é um usuário genérico. Será utilizado pelo aplicativo: qu
 
 1. Navegue até sua instância do Dynamics 365 e faça logon como Administrador.
 
-1. Clique no ícone de engrenagem no canto superior direito e clique em **[!UICONTROL Advanced Setting]**s. No banner superior, clique na lista suspensa ao lado de **[!UICONTROL Settings]**, clique em **[!UICONTROL Security > Users]**.
+1. Clique no ícone de engrenagem no canto superior direito e clique em **[!UICONTROL Advanced Settings]**. No banner superior, clique na lista suspensa ao lado de **[!UICONTROL Settings]**, clique em **[!UICONTROL Security > Users]**.
 
 1. Clique no menu suspenso para ir para **[!UICONTROL Application Users]**. Clique em **[!UICONTROL New]**.
 
 1. Certifique-se de que a lista suspensa ao lado do ícone do usuário esteja exibida **[!UICONTROL USER:APPLICATION USER]**.
 
-Preencha a tela do novo usuário.  Sugestões de parâmetros:
+   Preencha a tela do novo usuário.  Sugestões de parâmetros:
 
-* **[!UICONTROL User Name]** (email): adobeapi@`<hostname>`, onde `<hostname>` é o nome do host da sua instância do Dynamics 365
-* **[!UICONTROL Application ID]**: ID do aplicativo que você registrou no Azure AD (isso é obrigatório)
-* Você pode deixar em branco **[!UICONTROL Application ID URI]** e **[!UICONTROL Azure AD Object ID]**
-* **[!UICONTROL Full Name]**: Adobe API
-* **[!UICONTROL Email]**: igual a **[!UICONTROL User Name]** (ou ao email do administrador, se desejar)
-
-Para obter mais informações sobre a criação de usuários do aplicativo, consulte [esta seção](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+   * **[!UICONTROL User Name]** (email): adobeapi@`<hostname>`, onde `<hostname>` é o nome do host da sua instância do Dynamics 365
+   * **[!UICONTROL Application ID]**: ID do aplicativo que você registrou no Azure AD (isso é obrigatório)
+   * Você pode deixar em branco **[!UICONTROL Application ID URI]** e **[!UICONTROL Azure AD Object ID]**
+   * **[!UICONTROL Full Name]**: Adobe API
+   * **[!UICONTROL Email]**: igual a **[!UICONTROL User Name]** (ou ao email do administrador, se desejar)
+   Para obter mais informações sobre a criação de usuários do aplicativo, consulte [esta seção](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
 
 1. Clique no ícone do usuário e carregue um ícone de Adobe Campaign; este é o ícone que será exibido na visualização Linha do tempo quando novos eventos da Adobe forem exibidos no Dynamics 365.
 
-***getfile***
+<!-- ***getfile*** adobe campaign logo-->
 
 1. Abra a lista de funções do usuário clicando **[!UICONTROL MANAGE ROLES]** na faixa superior.
 
