@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: b0bc6c45127f58b00ba89f66da159c8f212db80a
 
 ---
 
@@ -137,7 +137,7 @@ Agora, clique em editar no elemento de filtro recém-adicionado e configure o fi
 
 Em seguida, especificaremos a vinculação do recurso personalizado.  Nesse caso, optamos por vincular a entidade **[!UICONTROL Vehicles]** personalizada (origem) à entidade perfis (público alvo) usando um **[!UICONTROL 1 cardinality simple link]**.
 
-(../assets/DefineTheLink.png)
+![](assets/DefineTheLink.png)
 
 1. Na **[!UICONTROL Link definitions]** tela, escolha a opção Excluir: **[!UICONTROL Deleting the target record implies deleting records referenced by the link]**. Escolhemos essa opção para que, quando um perfil for excluído, todos os **[!UICONTROL Vehicle]** registros vinculados a esse perfil também sejam excluídos.
 1. Em **[!UICONTROL Join Definitions]**, selecione **[!UICONTROL Define specific join conditions]**.
