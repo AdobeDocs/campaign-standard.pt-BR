@@ -2,9 +2,9 @@
 product: adobe campaign
 sub-product: adobe campaign standard
 audience: end-user
-user-guide-title: Adobe Campaign Standard Help
+user-guide-title: Ajuda do Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
+source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
 
 ---
 
@@ -168,6 +168,13 @@ source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
       + [Recomendações técnicas](sending/using/technical-recommendations.md)
       + [Monitoramento da capacidade de entrega](sending/using/monitor-deliverability.md)
       + [Solução de problemas](sending/using/troubleshooting.md)
+   + Como trabalhar com regras de tipologia {#working-with-typology-rules}
+      + [Sobre tipologias e regras de tipologia](sending/using/about-typology-rules.md)
+      + [Gerenciamento de tipologias](sending/using/managing-typologies.md)
+      + [Gerenciamento de regras de tipologia](sending/using/managing-typology-rules.md)
+      + [Regras de filtragem](sending/using/filtering-rules.md)
+      + [Regras de esgotamento](sending/using/fatigue-rules.md)
+      + [Regras de controle](sending/using/control-rules.md)
 + Relatório {#reporting}
    + Sobre os relatórios {#about-reporting}
       + [Sobre os relatórios dinâmicos](reporting/using/about-dynamic-reports.md)
@@ -230,12 +237,12 @@ source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
       + [Testar os acionadores](integrating/using/testing-your-triggers.md)
       + [Casos de uso de abandono dos acionadores](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign e Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Configurar o Adobe IO para integração do Microsoft Dynamics 365](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + Trabalhar com o Campaign Standard e o Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
          + [Trabalhar com o Campaign Standard e o Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [Avisos e recomendações](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
          + [Solicitação e configuração do Microsoft Dynamics 365 com integração com Campaign Standard](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
          + [Uso do Microsoft Dynamics 365 com integração com Campaign Standard](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [Configurar o Adobe IO para integração do Microsoft Dynamics 365](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + [Configurar o Microsoft Dynamics 365 para integração com Campanhas](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
       + [Configurar o Unifi para integração do Microsoft Dynamics 365](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
       + [Mapear recursos personalizados da Campanha e entidades personalizadas do Dynamics 365](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
@@ -371,11 +378,6 @@ source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
       + [Configuração do canal SMS](administration/using/configuring-sms-channel.md)
       + [Configurar um aplicativo móvel](administration/using/configuring-a-mobile-application.md)
       + [Configuração de mensagens transacionais](administration/using/configuring-transactional-messaging.md)
-   + Como trabalhar com regras de tipologia {#working-with-typology-rules}
-      + [Sobre as regras de tipologia](administration/using/about-typology-rules.md)
-      + [Regras de filtragem](administration/using/filtering-rules.md)
-      + [Regras de esgotamento](administration/using/fatigue-rules.md)
-      + [Regras de controle](administration/using/control-rules.md)
    + Configurações do aplicativo {#application-settings}
       + [Sobre as configurações do Campaign Standard](administration/using/about-campaign-standard-settings.md)
       + [Contas externas](administration/using/external-accounts.md)
