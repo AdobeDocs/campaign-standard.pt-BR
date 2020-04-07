@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
+source-git-commit: 6c7dc7927a7652efab20d976a8c5d0db8a33a66f
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 ## Parâmetros de canal de email {#email-channel-parameters}
 
-A tela de configuração de email permite que você defina os parâmetros do canal de email.
+A tela de configuração de email permite definir os parâmetros do canal de email. Os administradores podem acessar essas configurações no menu **[!UICONTROL Administration]>[!UICONTROL Channels]>[!UICONTROL Email]>[!UICONTROL Configuration]**.
 
 ![](assets/channels_1.png)
 
@@ -38,23 +38,29 @@ A tela de configuração de email permite que você defina os parâmetros do can
 
    O Adobe Campaign envia as mensagens que começam na data do start. O **[!UICONTROL Message delivery duration]** campo permite especificar a duração durante a qual as mensagens podem ser enviadas.
 
+   >[!IMPORTANT]
+   >
+   >Depois de atualizado para o [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/br/campaign/kb/campaign-enhanced-mta.html), o **[!UICONTROL Message delivery duration]** parâmetro em seus delivery de Campanha é usado somente se definido para 3,5 dias ou menos. Se você definir um valor superior a 3,5 dias, ele não será considerado.
+
    The **[!UICONTROL Online resources validity duration]** field is used for uploaded resources, mainly for the mirror page and images. Os recursos desta página são válidos por um tempo limitado (para economizar espaço em disco).
 
 * **Tentativas**
 
-   As mensagens temporariamente não entregues estão sujeitas a uma nova tentativa automática. Esta seção indica quantas tentativas devem ser executadas no dia seguinte ao início do envio (**Número de tentativas**) e o atraso mínimo entre as tentativas (**Período** de tentativas).
+   As mensagens temporariamente não entregues estão sujeitas a uma nova tentativa automática. For more on this, see [Retries after a delivery temporary failure](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-   Por padrão, cinco tentativas são programadas para o primeiro dia com um intervalo mínimo de uma hora, distribuídas nas 24 horas do dia. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.
+   >[!IMPORTANT]
+   >
+   >Após a atualização para o [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/br/campaign/kb/campaign-enhanced-mta.html), as configurações do **Tentativas** na Campanha são ignoradas. As **[!UICONTROL Number of retries]** (quantas tentativas devem ser executadas no dia seguinte ao início do envio) e **[!UICONTROL Retry period]** (atraso mínimo entre as tentativas) são gerenciadas pelo MTA aprimorado, com base no desempenho histórico e atual de um IP em um determinado domínio.
+
+   <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
 * **Parâmetros de quarentena de email**
 
-   No **[!UICONTROL Time between two significant errors]** campo, digite um valor para definir o tempo que o aplicativo aguarda antes de incrementar o contador de erros em caso de falha. Valor padrão: **&quot;1d&quot;**, por 1 dia.
+   No **[!UICONTROL Time between two significant errors]** campo, digite um valor para definir o tempo que o aplicativo aguarda antes de incrementar o contador de erros em caso de falha. O valor padrão é **&quot;1d&quot;**, por 1 dia.
 
-   Quando o **[!UICONTROL Maximum number of errors before quarantine]** valor é atingido, o endereço de email é colocado em quarentena. Valor padrão: **&quot;5&quot;**: o endereço será colocado em quarentena no sexto erro. Isso significa que o contato será automaticamente excluído dos delivery subsequentes.
+   Quando o **[!UICONTROL Maximum number of errors before quarantine]** valor é atingido, o endereço de email é colocado em quarentena. O valor padrão é **&quot;5&quot;**: o endereço será colocado em quarentena no quinto erro. Isso significa que o contato será automaticamente excluído dos delivery subsequentes.
 
-**Tópicos relacionados**:
-
-[Noções básicas sobre gestão de quarentena](../../sending/using/understanding-quarantine-management.md)
+   Para obter mais informações sobre o quarentena, consulte [Entendendo o gerenciamento](../../sending/using/understanding-quarantine-management.md)de quarentenas.
 
 ## Contas de roteamento de email {#email-routing-accounts}
 
@@ -74,17 +80,17 @@ Os administradores **[!UICONTROL Email processing rules]** podem acessá-los pel
 
 Essas regras contêm a lista de cadeias de caracteres que podem ser retornadas por servidores remotos e que permitem que você qualifique o erro (**Grave**, **Suave** ou **Ignorado**).
 
-As regras padrão são as seguintes:
+As regras padrão são as seguintes.
 
 ### Mensagens de rejeição {#bounce-mails}
 
-Para mensagens de erro de falha síncrona de delivery, o MTA aprimorado determina o tipo de rejeição e a qualificação e envia essas informações para a Campanha. Para obter mais informações sobre o MTA aprimorado do Adobe Campaign, consulte este [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+Para mensagens de erro de falha síncrona de delivery, o MTA aprimorado determina o tipo de rejeição e a qualificação e envia essas informações para a Campanha. Para obter mais informações sobre o MTA aprimorado do Adobe Campaign, consulte este [documento](https://helpx.adobe.com/br/campaign/kb/campaign-enhanced-mta.html).
 
 As rejeições assíncronas ainda são qualificadas pelo processo de Campanha inMail por meio da **[!UICONTROL Bounce mails]** regra.
 
 >[!IMPORTANT]
 >
->Após a atualização para o MTA aprimorado, as qualificações de rejeição na tabela Campanha não são mais usadas. **[!UICONTROL Message qualification]** Para obter mais informações sobre qualificação de envio de e-mails, consulte esta [seção](../../sending/using/understanding-delivery-failures.md).
+>Após a atualização para o MTA aprimorado, as qualificações de rejeição na tabela Campanha não são mais usadas. **[!UICONTROL Message qualification]** Para obter mais informações sobre qualificação de envio de e-mails, consulte esta [seção](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
 <!--The user can create his own rules.
 
@@ -107,7 +113,7 @@ The **SMTP parameters** act as filters applied for a blocking rule.
 
 **A assinatura de autenticação de email DKIM (DomainKeys Identified Mail)** é feita pelo MTA aprimorado para todas as mensagens com todos os domínios. Ele não faz logon com a ID **do** remetente, **DomainKeys** ou **S/MIME** , a menos que especificado de outra forma no nível MTA aprimorado.
 
-Para obter mais informações sobre o MTA aprimorado do Adobe Campaign, consulte este [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+Para obter mais informações sobre o MTA aprimorado do Adobe Campaign, consulte este [documento](https://helpx.adobe.com/br/campaign/kb/campaign-enhanced-mta.html).
 
 ### MX management {#mx-management}
 
@@ -123,7 +129,7 @@ To configure MX management rules, simply set a threshold and select certain SMTP
 
 O MTA aprimorado usa regras MX próprias que permitem personalizar a capacidade por domínio com base na sua própria reputação histórica de email e no feedback em tempo real proveniente dos domínios em que você está enviando emails.
 
-Para obter mais informações sobre o MTA aprimorado do Adobe Campaign, consulte este [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+Para obter mais informações sobre o MTA aprimorado do Adobe Campaign, consulte este [documento](https://helpx.adobe.com/br/campaign/kb/campaign-enhanced-mta.html).
 
 <!--Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "&#42;" and "?" generic characters.
 
@@ -193,11 +199,19 @@ A **[!UICONTROL Send]** seção está disponível somente para modelos de e-mail
 
 #### Parâmetros do Tentativas {#retries-parameters}
 
-As mensagens temporariamente não entregues estão sujeitas a uma nova tentativa automática. Esta seção indica quantas tentativas devem ser executadas no dia seguinte ao início do envio ( **[!UICONTROL Max. number of retries]** ) e o atraso mínimo entre as tentativas ( **[!UICONTROL Retry period]** ).
+As mensagens temporariamente não entregues estão sujeitas a uma nova tentativa automática. For more on this, see [Retries after a delivery temporary failure](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-Por padrão, cinco tentativas são programadas para o primeiro dia com um intervalo mínimo de uma hora, distribuídas nas 24 horas do dia. One retry per day is programmed after that and until the delivery deadline, which is defined in the [Validity period parameters](#validity-period-parameters) section.
+>[!IMPORTANT]
+>
+>Após a atualização para o [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/br/campaign/kb/campaign-enhanced-mta.html), as configurações do **Tentativas** na Campanha são ignoradas. O **[!UICONTROL Retry period]** (atraso mínimo entre o tentativas) e o **[!UICONTROL Max. number of retries]** (quantas tentativas devem ser executadas no dia seguinte ao início do envio) são gerenciados pelo MTA aprimorado, com base no desempenho histórico e atual de um IP em determinado domínio.
 
-O número de tentativas pode ser alterado globalmente (entre em contato com o administrador técnico da Adobe) ou para cada delivery ou template do delivery
+<!--This section indicates how many retries should be performed the day after the send is started ( **[!UICONTROL Max. number of retries]** ) and the minimum delay between retries ( **[!UICONTROL Retry period]** ).
+
+By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the [Validity period parameters](#validity-period-parameters) section.
+
+The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template.-->
+
+O momento não cumpre a configuração de duração do delivery (que é definida na seção Parâmetros [do período de](#validity-period-parameters) Validade) na Campanha, mas somente até 3,5 dias. Nesse ponto, qualquer mensagem na fila de tentativas será removida da fila e enviada de volta como uma rejeição. Para obter mais informações sobre falhas de delivery, consulte esta [seção](../../sending/using/understanding-delivery-failures.md#about-delivery-failures).
 
 #### Parâmetros do Formato do email {#email-format-parameters}
 
@@ -236,17 +250,19 @@ A **[!UICONTROL Validity period]** seção contém os seguintes parâmetros:
 
 ![](assets/delivery-validity-period.png)
 
-* **[!UICONTROL Explicitly set validity dates]**: quando essa caixa estiver desmarcada, você deve inserir uma duração nos campos **[!UICONTROL Delivery duration]** e **[!UICONTROL Resource validity limit]** . Marque essa caixa se desejar definir datas e horários específicos.
+* **[!UICONTROL Explicitly set validity dates]**: quando essa caixa estiver desmarcada, você deve inserir uma duração nos campos **[!UICONTROL Delivery duration]** e **[!UICONTROL Resource validity limit]** .
+
+   Marque essa caixa se desejar definir datas e horários específicos.
 
    ![](assets/delivery-set-explicit-dates.png)
 
-* **[!UICONTROL Delivery duration]**: O Adobe Campaign envia as mensagens que começam na data do start. Esse campo permite especificar a duração durante a qual as mensagens podem ser enviadas.
+* **[!UICONTROL Delivery duration]** / **[!UICONTROL Validity limit for sending messages]**: O Adobe Campaign envia as mensagens que começam na data do start. Esse campo permite especificar a duração durante a qual as mensagens podem ser enviadas.
 
    >[!IMPORTANT]
    >
-   >Depois de atualizado para o MTA aprimorado, o **[!UICONTROL Delivery duration]** parâmetro em seus delivery de Campanha é usado somente se definido para 3,5 dias ou menos. Se você definir um valor superior a 3,5 dias, ele não será considerado. Todos os impactos são detalhados no documento [MTA aprimorado do Adobe Campaign](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+   >Depois de atualizado para o [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/br/campaign/kb/campaign-enhanced-mta.html), o **[!UICONTROL Delivery duration]** parâmetro em seus delivery de Campanha é usado somente se definido para 3,5 dias ou menos. Se você definir um valor superior a 3,5 dias, ele não será considerado.
 
-* **[!UICONTROL Resource validity duration]**: este campo é usado para recursos carregados, principalmente para o mirror page e imagens. Os recursos desta página são válidos por um tempo limitado (para economizar espaço em disco).
+* **[!UICONTROL Resource validity duration]** / **[!UICONTROL Validity limit date for resources]**: este campo é usado para recursos carregados, principalmente para o mirror page e imagens. Os recursos desta página são válidos por um tempo limitado (para economizar espaço em disco).
 * **[!UICONTROL Mirror page management]**: o mirror page é uma página HTML acessível on-line através de um navegador da Web. Seu conteúdo é idêntico ao conteúdo do email. Por padrão, o mirror page é gerado se o link for inserido no conteúdo do email. Este campo permite modificar a forma como esta página é gerada:
 
    >[!IMPORTANT]
@@ -302,7 +318,7 @@ A preparação de mensagens é detalhada na seção [Aprovando mensagens](../../
 
    >[!NOTE]
    >
-   >As tipologias, que podem ser acessadas pelo menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** , são apresentadas na seção [Tipologias](../../administration/using/about-typology-rules.md) .
+   >As tipologias, que podem ser acessadas pelo menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** , são apresentadas na seção [Tipologias](../../sending/using/about-typology-rules.md) .
 
 * **[!UICONTROL Compute the label during delivery preparation]**: permite calcular o valor do rótulo do email durante a fase de preparação da mensagem usando campos de personalização, blocos de conteúdo e texto dinâmico.
 
