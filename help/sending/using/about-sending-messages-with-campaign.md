@@ -12,7 +12,7 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e6c43770755e59bf2a2d49540a052ac0bd2a2438
+source-git-commit: c49fcd793cbb13d26ccf3a47af145de7acd697e7
 
 ---
 
@@ -43,7 +43,6 @@ Você pode então:
 | Páginas úteis | Recursos adicionais |
 |---|---|
 | [Otimização da entrega](../../sending/using/about-deliverability.md) | [Gerenciamento de fadiga](../../sending/using/fatigue-rules.md) |
-| [Monitoramento de uma entrega](../../audiences/using/creating-profiles.md) | [Criação de emails de teste A/B](../../channels/using/designing-an-a-b-test-email.md) |
+| [Controlar a taxa de transferência do Delivery](../../reporting/using/delivery-throughput.md) | [Criação de emails de teste A/B](../../channels/using/designing-an-a-b-test-email.md) |
 | [Recebendo uma notificação quando ocorre uma falha](../../sending/using/receiving-alerts-when-failures-happen.md) | [Monitoramento de uma entrega](../../sending/using/monitoring-a-delivery.md) |
-| [Criação de um grupo de controle](../../automating/using/workflow-control-group.md) | [Recebendo uma notificação quando ocorre uma falha](../../sending/using/receiving-alerts-when-failures-happen.md) |
-| [Controlar a taxa de transferência do Delivery](../../reporting/using/delivery-throughput.md) | [Monitoramento de uma entrega](../../sending/using/monitoring-a-delivery.md) |
+| [Criação de um grupo de controle](../../automating/using/workflow-control-group.md) | [Envio de mensagens de acompanhamento](../../channels/using/follow-up-messages.md) |
