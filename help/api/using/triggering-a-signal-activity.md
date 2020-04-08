@@ -1,6 +1,6 @@
 ---
-title: Acionando uma atividade de sinal
-description: Saiba como acionar uma atividade de sinal com APIs.
+title: Acionamento de uma atividade de sinal
+description: Saiba como disparar uma atividade de sinal com APIs.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -12,20 +12,20 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
 
 ---
 
 
-# Acionando uma atividade de sinal {#triggering-a-signal-activity}
+# Acionamento de uma atividade de sinal {#triggering-a-signal-activity}
 
-Em um fluxo de trabalho do Adobe Campaign Standard, pode haver uma ou mais atividades de sinal **** externo. Essas atividades são "ouvintes" que aguardam para serem acionados.
+Em um fluxo de trabalho Adobe Campaign Standard, pode haver uma ou mais atividades de sinal **** externo. Essas atividades são &quot;ouvintes&quot; que esperam para serem acionadas.
 
-As APIs do Campaign Standard permitem disparar uma atividade de sinal **** externo para chamar um fluxo de trabalho. A chamada da API pode incluir parâmetros que serão assimilados nas variáveis de eventos do fluxo de trabalho (um nome de público-alvo a ser direcionado, um nome de arquivo a ser importado, uma parte do conteúdo da mensagem etc.). Dessa forma, você pode integrar facilmente suas automações do Campaign ao seu sistema externo.
+As APIs de Campaign Standard permitem disparar uma atividade de sinal **** externo para chamar um fluxo de trabalho. A chamada da API pode incluir parâmetros que serão assimilados nas variáveis de eventos do fluxo de trabalho (um nome de audiência para público alvo, um nome de arquivo a ser importado, uma parte do conteúdo da mensagem etc.). Dessa forma, você pode integrar facilmente suas automações de Campanha ao seu sistema externo.
 
 >[!NOTE]
 >
->As atividades de sinal externo não podem ser acionadas com mais frequência do que a cada 10 minutos e o fluxo de trabalho de destino já deve estar em execução.
+>atividades de sinal externo não podem ser acionadas com mais frequência do que a cada 10 minutos e o fluxo de trabalho de destino já deve estar em execução.
 
 Para acionar um fluxo de trabalho, siga as etapas abaixo:
 
@@ -33,9 +33,9 @@ Para acionar um fluxo de trabalho, siga as etapas abaixo:
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. Execute uma solicitação **POST** no URL retornado para acionar a atividade do sinal, com o parâmetro **"source"** na carga. Esse atributo é obrigatório, permite que você indique a fonte de solicitação de acionamento.
+1. Execute uma solicitação **POST** no URL retornado para disparar a atividade do sinal, com o parâmetro **&quot;source&quot;** na carga. Esse atributo é obrigatório, permite que você indique a fonte de solicitação de acionamento.
 
-Se você quiser chamar o fluxo de trabalho com parâmetros, adicione-os à carga com o atributo **"parameters"** . A sintaxe consiste no nome do parâmetro seguido pelo seu valor (os seguintes tipos são suportados: **string**, **número**, **booleano** e **data/hora**).
+Se você quiser chamar o fluxo de trabalho com parâmetros, adicione-os à carga com o atributo **&quot;parameters&quot;** . A sintaxe consiste no nome do parâmetro seguido pelo seu valor (os seguintes tipos são suportados: **string**, **número**, **booleano** e **data/hora**).
 
 ```
   -X POST <TRIGGER_URL>
@@ -74,7 +74,7 @@ Execute uma solicitação GET no fluxo de trabalho.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Retorna a atividade do sinal de fluxo de trabalho e o url de disparo associado.
+Ele retorna a atividade do sinal de fluxo de trabalho e o url de disparo associado.
 
 ```
 {
@@ -93,7 +93,7 @@ Retorna a atividade do sinal de fluxo de trabalho e o url de disparo associado.
 }
 ```
 
-Para acionar uma atividade de sinal, execute uma solicitação POST no url do disparador com a "fonte". Adicione os atributos "parâmetros" se desejar chamar o fluxo de trabalho com parâmetros.
+Para disparar uma atividade de sinal, execute uma solicitação POST no url de disparo com a &quot;fonte&quot;. Adicione os atributos &quot;parâmetros&quot; se desejar chamar o fluxo de trabalho com parâmetros.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \
