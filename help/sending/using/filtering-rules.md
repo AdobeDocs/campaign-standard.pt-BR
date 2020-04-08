@@ -12,7 +12,7 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ec0af8c06e36f51ddaf6e3d4190fa6acd56d2da6
+source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
 
 ---
 
@@ -26,7 +26,7 @@ As regras de filtragem permitem excluir uma parte do público alvo de mensagens 
 A tabela abaixo fornece informações sobre regras de filtragem predefinidas, bem como seus canais relacionados.
 
 | Rótulo | Canal | Descrição |
----------|----------|---------|---------
+---------|----------|---------
 | **[!UICONTROL Address not specified]** | Todos | Exclui a população do público alvo sem endereço especificado (email, endereço postal etc.) de acordo com o canal selecionado). |
 | **[!UICONTROL Blacklisted address]** | Todos | Exclui endereços incluído na blacklist. |
 | **[!UICONTROL Duplicate]** | Todos | Exclui duplicados com base no **[!UICONTROL Address]** campo da população do público alvo. |
