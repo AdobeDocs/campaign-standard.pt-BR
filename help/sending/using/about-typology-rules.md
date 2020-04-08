@@ -13,7 +13,7 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a9c0e3cc4609e747bbfebeb90049862f29c9d8d9
+source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
 
 ---
 
