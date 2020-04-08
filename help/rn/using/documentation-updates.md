@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 240e8738fab8f0eaa8398de1b74e22d292536908
+source-git-commit: 876f12d5256ef991741c35b17eff666dedc99d73
 
 ---
 
@@ -37,7 +37,7 @@ A seção Configuração de mensagens transacionais foi aprimorada com informaç
 
 A seção relacionada a tipologias e regras de tipologia foi aprimorada e atualizada com informações adicionais sobre regras de tipologia prontas para uso. [Leia mais](../../sending/using/about-typology-rules.md)
 
-Foram adicionadas informações sobre a ação de **[!UICONTROL Transfer file]** atividade **!UICONTROL File listing]** . [Leia mais](../../automating/using/transfer-file.md)
+Foram adicionadas informações sobre a ação de **[!UICONTROL Transfer file]** atividade **[!UICONTROL File listing]** . [Leia mais](../../automating/using/transfer-file.md)
 
 A documentação sobre o tentativas após uma falha temporária do delivery foi atualizada com mais detalhes sobre como o tentativas é gerenciado depois de atualizado para o MTA aprimorado. [Leia mais](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
@@ -261,7 +261,7 @@ Adicionado um aviso na documentação de recursos personalizados. Recomendamos o
 
 Adicionada uma nova página sobre limitações de Landing page. [Leia mais](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
-Foi adicionado um caso de uso sobre como chamar um perfil usando uma chave de identificação composta. [Leia mais](../../developing/using/uc-calling-resource-id-key.md)
+Um caso de uso foi adicionado sobre como chamar um perfil usando uma chave de identificação composta. [Leia mais](../../developing/using/uc-calling-resource-id-key.md)
 
 Uma recomendação foi adicionada em relação ao uso de delivery recorrentes sem período de agregação ao chamar um fluxo de trabalho com parâmetros. [Leia mais](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
