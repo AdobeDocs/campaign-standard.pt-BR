@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 876f12d5256ef991741c35b17eff666dedc99d73
+source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
 
 ---
 
@@ -43,7 +43,7 @@ A documentação sobre o tentativas após uma falha temporária do delivery foi 
 
 A seção Excluir um mensagen transacional foi aprimorada e esclarecida. [Leia mais](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
 
-## Versão 20.2 - março de 2020 {#release-20-2---march-2020}
+## Versão 20.2 - abril de 2020 {#release-20-2---april-2020}
 
 **Novos recursos incluídos na versão**
 
@@ -261,7 +261,7 @@ Adicionado um aviso na documentação de recursos personalizados. Recomendamos o
 
 Adicionada uma nova página sobre limitações de Landing page. [Leia mais](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
-Um caso de uso foi adicionado sobre como chamar um perfil usando uma chave de identificação composta. [Leia mais](../../developing/using/uc-calling-resource-id-key.md)
+Foi adicionado um caso de uso sobre como chamar um perfil usando uma chave de identificação composta. [Leia mais](../../developing/using/uc-calling-resource-id-key.md)
 
 Uma recomendação foi adicionada em relação ao uso de delivery recorrentes sem período de agregação ao chamar um fluxo de trabalho com parâmetros. [Leia mais](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
