@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
+source-git-commit: 66e480e957d12275d2ce5575c99b0808462588f9
 
 ---
 
@@ -106,3 +106,4 @@ source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
 * Correção de um problema ao excluir uma solicitação de privacidade manualmente na Campanha depois de ela ter sido processada, o que impedia que os dados associados à solicitação fossem excluídos mesmo após a limpeza.
 * Correção de um problema que ocorria ao visualizar ou enviar mensagens que incluíam caracteres especiais do Adobe Experience Manager.
 * Correção de um problema que ocorria em workflows ao executar uma atividade com várias transições de entrada.
+* Correção de um problema que impedia usuários padrão de usar &quot;Subscrições para um aplicativo&quot; como dimensão de público alvo em um query de fluxo de trabalho ou delivery. (CAMP-37618)
