@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 451c7d15bfe206912fd1f8db8bf8c3d7ec83616d
+source-git-commit: a71af00e606d78c4ff8b39da1b9f032c0dcf0fc6
 
 ---
 
@@ -27,9 +27,9 @@ As atualizações são implantadas em duas fases. Primeiro, as instâncias do St
 
 Todas as datas de lançamento estão sujeitas a alterações: recomendamos que você visite esta página regularmente para verificar se há atualizações.
 
-Inscreva-se para [receber notificações](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) de versão para obter detalhes sobre as versões mais recentes da Adobe Experience Cloud diretamente na sua caixa de entrada.
+**NOVO!** Assine as notificações [de lançamento do](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) Campaign Standard para obter detalhes sobre as próximas versões diretamente na sua caixa de entrada.
 
-## Versão 20.2.1 - Versão de abril {#release-20-2-april-release}
+## Versão 20.3.1 - Versão de maio {#release-20-3-may-release}
 
 As atualizações de Ambientes ocorrem no ondas, durante os intervalos de tempo indicados abaixo. Informações detalhadas sobre esta versão estão disponíveis nas [Notas](../../rn/using/release-notes.md)de versão. Caso tenha mais dúvidas, entre em contato com o [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin).
 
@@ -43,11 +43,11 @@ As atualizações de Ambientes ocorrem no ondas, durante os intervalos de tempo 
  <tbody> 
   <tr> 
    <td> Estágio<br /> </td> 
-   <td> 31 de março - 1 de abril de 2020<br /> </td> 
+   <td> 27 a 28 de abril de 2020<br /> </td> 
   </tr> 
   <tr> 
    <td> Produção<br /> </td> 
-   <td> 6 a 9 de abril de 2020<br /> </td> 
+   <td> 4 a 11 de maio de 2020<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +58,7 @@ As atualizações de Ambientes ocorrem no ondas, durante os intervalos de tempo 
 
 **P: Qual é o impacto?**
 
-A: As alterações são listadas nas Notas [de](../../rn/using/release-notes.md)versão, incluindo links para a documentação relacionada. A Adobe também recomenda consultar a página [Recursos removidos e](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)obsoletos. Essas páginas estão disponíveis para a nova versão na data de atualização do ambiente Stage.
+A: As alterações são listadas nas Notas [de](../../rn/using/release-notes.md)versão, incluindo links para a documentação relacionada. A Adobe também recomenda consultar a página [Recursos removidos e](https://helpx.adobe.com/br/campaign/kb/acs-deprecated-and-removed-features.html)obsoletos. Essas páginas estão disponíveis para a nova versão na data de atualização do ambiente Stage.
 
 **P: Qual é o processo de validação?**
 
