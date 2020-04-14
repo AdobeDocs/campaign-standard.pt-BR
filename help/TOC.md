@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Ajuda do Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
+source-git-commit: 79dcfb4f2e58314f3c2eafb9443d5e3da2028203
 
 ---
 
@@ -138,7 +138,7 @@ source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
 + Teste e envio {#testing-and-sending}
    + [Sobre o envio de mensagens com o Campaign](sending/using/about-sending-messages-with-campaign.md)
    + Preparação e teste de mensagens {#preparing-and-testing-messages}
-      + [Visualizar mensagens](sending/using/previewing-messages.md)
+      + [Visualizar delivery](sending/using/previewing-messages.md)
       + [Preparação do envio](sending/using/preparing-the-send.md)
       + [Envio de provas](sending/using/sending-proofs.md)
       + [Testar mensagens de email usando perfis direcionados](sending/using/testing-messages-using-target.md)
@@ -230,7 +230,7 @@ source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
       + [Sobre a integração de dados do Campaign com os Pontos de interesse](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [Configuração da integração de dados do Campaign com os Pontos de interesse](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [Personalização de mensagens do Campaign com dados de Ponto de interesse](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
-   + Campanha e acionadores {#working-with-campaign-and-triggers}
+   + Campaign and Triggers {#working-with-campaign-and-triggers}
       + [Sobre os acionadores da Adobe Experience Cloud](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [Configuração de acionadores na Experience Cloud](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [Usar acionadores no Campaign](integrating/using/using-triggers-in-campaign.md)
