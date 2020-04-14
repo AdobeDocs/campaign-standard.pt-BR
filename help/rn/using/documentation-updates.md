@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
+source-git-commit: a09d82ae6fa77bb94550e533aa8fb63b463cd28c
 
 ---
 
@@ -42,6 +42,8 @@ Foram adicionadas informações sobre a ação de **[!UICONTROL Transfer file]**
 A documentação sobre o tentativas após uma falha temporária do delivery foi atualizada com mais detalhes sobre como o tentativas é gerenciado depois de atualizado para o MTA aprimorado. [Leia mais](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
 A seção Excluir um mensagen transacional foi aprimorada e esclarecida. [Leia mais](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
+
+A seção **Visualizar delivery** foi atualizada com exemplos de delivery móveis.[Leia mais](../../sending/using/previewing-messages.md)
 
 ## Versão 20.2 - abril de 2020 {#release-20-2---april-2020}
 
@@ -261,7 +263,7 @@ Adicionado um aviso na documentação de recursos personalizados. Recomendamos o
 
 Adicionada uma nova página sobre limitações de Landing page. [Leia mais](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
-Foi adicionado um caso de uso sobre como chamar um perfil usando uma chave de identificação composta. [Leia mais](../../developing/using/uc-calling-resource-id-key.md)
+Um caso de uso foi adicionado sobre como chamar um perfil usando uma chave de identificação composta. [Leia mais](../../developing/using/uc-calling-resource-id-key.md)
 
 Uma recomendação foi adicionada em relação ao uso de delivery recorrentes sem período de agregação ao chamar um fluxo de trabalho com parâmetros. [Leia mais](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
