@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
+source-git-commit: 57b87896281efa7dd1e6a612926f59061a0fdcb8
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
 
 >[!IMPORTANT]
 >
->O serviço Campaign Standard Data está atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam estar hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente da Adobe se desejar acessar.
+>O Adobe Experience Platform Data Connector está atualmente em beta, que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam estar hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente da Adobe se desejar acessar.
 
 Nesta seção, você descobrirá como mapear um campo Campaign Standard com um campo do Modelo de dados de experiência (XDM).
 
