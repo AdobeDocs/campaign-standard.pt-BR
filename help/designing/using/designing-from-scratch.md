@@ -1,18 +1,18 @@
 ---
 title: 'Criar e-mails do zero '
 description: Descubra como projetar emails do zero no conteúdo do email no Designer de email.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: concepção
-content-type: referência
-topic-tags: edição-email-conteúdo
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 023159c1c2d3334fd79e9ed9bf628758d84111eb
 
 ---
 
@@ -26,13 +26,13 @@ Saiba mais sobre como dominar a edição de conteúdo de email. Com o Email Desi
 Estas são as etapas principais para criar e projetar um conteúdo de email do zero usando o Designer de email:
 
 1. Crie um email e abra seu conteúdo.
-1. Adicione componentes de estrutura para moldar o email. Consulte [Editar a estrutura](#defining-the-email-structure)de email.
+1. Adicione componentes de estrutura para moldar o email. See [Editing the email structure](#defining-the-email-structure).
 1. Insira componentes de conteúdo e fragmentos nos componentes da estrutura. Consulte [Adicionar fragmentos e componentes](#defining-the-email-structure)de conteúdo.
 1. Adicione imagens e edite o texto do email. Consulte [Inserção de imagens](../../designing/using/images.md#inserting-images).
 1. Personalize seu email adicionando campos de personalização, links e assim por diante. Consulte [Inserir um campo](../../designing/using/personalization.md#inserting-a-personalization-field)de personalização, [Inserir um link](../../designing/using/links.md#inserting-a-link) e [Definir conteúdo dinâmico em um email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 1. Defina a linha de assunto do seu email. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-1. Visualize seu email.
-1. Salve o conteúdo e prossiga com a mensagem depois de certificar-se de que definiu um público-alvo e programou o envio corretamente.
+1. Pré-visualização seu email.
+1. Salve o conteúdo e prossiga com a mensagem depois de certificar-se de que definiu uma audiência e agendou corretamente o envio.
 
 Você também pode conferir este vídeo [de](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=por_br)introdução.
 
@@ -40,7 +40,7 @@ Você também pode conferir este vídeo [de](https://video.tv.adobe.com/v/22771/
 >
 >Para evitar a criação de conteúdo de email do zero, você pode usar modelos de conteúdo prontos para uso. Para obter mais informações, consulte Modelos [de](../../designing/using/using-reusable-content.md#content-templates)conteúdo.
 
-### Definição da estrutura do email {#defining-the-email-structure}
+### Defining Email Structure {#defining-the-email-structure}
 
 O Designer de e-mail permite que você defina facilmente a estrutura de seu e-mail. Ao adicionar e mover elementos estruturais com ações simples de arrastar e soltar, você pode projetar a forma do seu email em segundos.
 
@@ -59,11 +59,11 @@ Para editar a estrutura de um email:
 
    >[!NOTE]
    >
-   >Depois de inserido no email, não é possível mover nem remover seus componentes, a menos que já exista um componente de conteúdo ou um fragmento inserido dentro dele.
+   >Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside.
 
 1. Estão disponíveis vários componentes de estrutura compostos por uma ou mais colunas.
 
-   Selecione o **[!UICONTROL n:n column]** componente para definir o número de colunas de sua escolha (entre 3 e 10). Também é possível definir a largura de cada coluna movendo as setas na parte inferior de cada coluna.
+   Selecione o **[!UICONTROL n:n column]** componente para definir o número de colunas de sua escolha (entre 3 e 10). Você também pode definir a largura de cada coluna movendo as setas na parte inferior de cada coluna.
 
    ![](assets/email_designer_n-n-column.png)
 
@@ -75,23 +75,23 @@ Depois que a estrutura for definida, você poderá adicionar fragmentos de conte
 
 ### Uso de componentes de conteúdo {#about-content-components}
 
-Os componentes do conteúdo são componentes brutos e vazios que podem ser editados depois de enviados por email.
+Content components are raw, empty components that you can edit once placed in an email.
 
-Você pode adicionar quantos componentes de conteúdo desejar em um componente de estrutura. Também é possível movê-los dentro do componente de estrutura ou para outro componente de estrutura.
+You can add as many content components as you want in a structure component. You can also move them inside the structure component or to another structure component.
 
-Esta é a lista de componentes disponíveis no Designer de email:
+Here is the list of the available components in the Email Designer:
 
 - **[!UICONTROL Button]**
 
-   Se você precisar usar vários botões, em vez de editar cada botão do zero, poderá duplicar o **[!UICONTROL Button]** componente usando a barra de ferramentas contextual.
+   If you need to use multiple buttons, rather than editing each button from scratch, you can duplicate the **[!UICONTROL Button]** component using the contextual toolbar.
 
-   Também é possível salvar botões em fragmentos que podem ser reutilizados. Para obter mais informações, consulte [Criar um fragmento](../../designing/using/using-reusable-content.md#creating-a-content-fragment) de conteúdo e [Salvar conteúdo como um fragmento](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
+   You can also save buttons into fragments that can be reused. For more on this, see [Creating a content fragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment) and [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
-1. Selecione **[!UICONTROL Fallback view]** para exibir a imagem de fallback no Designer de email.
+Selecione **[!UICONTROL Fallback view]** para exibir a imagem de fallback no Designer de e-mail.
 
 - **[!UICONTROL Text]**
 
-   Use este componente para inserir texto em seu email. É possível ajustar a cor, o estilo e o tamanho do texto em **[!UICONTROL Component Settings]**.
+   Use este componente para inserir texto em seu email. You can adjust the color, style and size of your text in **[!UICONTROL Component Settings]**.
 
 - **[!UICONTROL Divider]**
 
@@ -107,7 +107,7 @@ Esta é a lista de componentes disponíveis no Designer de email:
 
    Para simplesmente tornar um conteúdo externo compatível com o Email Designer, a Adobe recomenda criar uma mensagem do zero e copiar o conteúdo do seu email existente em fragmentos e componentes.
 
-   Quando você tem um conteúdo que não pode ser recriado, é possível copiar e colar o código HTML do email original usando o componente de **[!UICONTROL Html]** conteúdo. Conheça o HTML antes de continuar.
+   Quando você tem um conteúdo que não pode ser recriado, é possível copiar e colar o código HTML do email original usando o componente de **[!UICONTROL Html]** conteúdo. Make sure you are familiar with HTML before proceeding.
 
    <!-- A full example is presented below. -->
 
@@ -117,29 +117,29 @@ Esta é a lista de componentes disponíveis no Designer de email:
 
    **Antes de copiar o conteúdo**
 
-   1. No email original, identifique as seções reutilizáveis das seções que serão exclusivas para cada email que você enviará.
-   1. Salve todas as imagens e ativos que deseja usar.
-   1. Se você estiver familiarizado com HTML, divida seu conteúdo HTML original em diferentes partes.
+   1. Em seu email original, identifique as seções reutilizáveis das seções que serão exclusivas para cada email que você enviará.
+   1. Save all the images and assets that you want to use.
+   1. If you are familiar with HTML, split your original HTML content into different parts.
 
 - **[!UICONTROL Video]**
 
-   Use este componente para inserir um vídeo em seu email.
+   Use this component to insert a video in your email.
 
-   Insira o componente de vídeo em um componente de estrutura do email e insira o link de vídeo no **[!UICONTROL Component Settings]**.
+   Insert the video component into a structure component of your email and enter the video link in the **[!UICONTROL Component Settings]**.
 
 - **[!UICONTROL Image]**
 
-   Use este componente para inserir uma imagem em seu email.
+   Use this component to insert an image in your email.
 
-   Insira o componente de imagem em um componente de estrutura e clique em Procurar para carregar um arquivo de imagem do computador.
+   Insert the image component into a structure component and click browse to upload an image file from your computer.
 
 - **[!UICONTROL Social]**
 
-   Use este componente para inserir links para páginas de mídia social em seu email. Você pode selecionar em quais links deseja exibir e o tamanho do ícone deles em **[!UICONTROL Component Settings]**.
+   Use this component to insert links to social media pages in your email. You can select which links you want to display and the size of their icon in **[!UICONTROL Component Settings]**.
 
 - **[!UICONTROL Carousel]**
 
-   1. Arraste e solte o **[!UICONTROL Carousel]** componente dentro de um componente de estrutura.
+   1. Drag and drop the **[!UICONTROL Carousel]** component inside a structure component.
    1. Navegue para selecionar imagens do seu computador.
    ![](assets/des_carousel_browse.png)
 
