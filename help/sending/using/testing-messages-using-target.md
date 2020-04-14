@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f0df05a08cc07b7c2a5b8e175177006360e7e7d
+source-git-commit: 4a8fa27d816dade8a7eb26bb5b66e3ebfbec4b51
 
 ---
 
@@ -125,11 +125,11 @@ Para importar perfis para uso em testes de uma audiência, siga estas etapas:
 
 1. Clique no botão **[!UICONTROL Import]**. Os perfis da audiência que correspondem ao público alvo de mensagem são adicionados à **[!UICONTROL Profile substitution]** guia, bem como os endereços de substituição e os prefixos associados.
 
->[!NOTE]
->
->Se você importar a mesma audiência novamente, com endereços de substituição e/ou prefixos diferentes, os perfis serão adicionados à lista, além dos da importação anterior.
+   ![](assets/substitution_audience_added.png)
 
-![](assets/substitution_audience_added.png)
+   >[!NOTE]
+   >
+   >Se você importar a mesma audiência novamente, com endereços de substituição e/ou prefixos diferentes, os perfis serão adicionados à lista, além dos da importação anterior.
 
 ## Visualização da mensagem com perfis direcionados
 
