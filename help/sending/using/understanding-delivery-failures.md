@@ -12,7 +12,7 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f1db8c886e560fe3f57d589b7fc2f2c2c1656f76
+source-git-commit: c1287a360cdd1750996b47a27b85a11e90b29df0
 
 ---
 
@@ -25,7 +25,9 @@ Quando um delivery não pode ser enviado para um perfil, o servidor remoto envia
 
 >[!NOTE]
 >
->**As mensagens de erro de e-mail** (ou &quot;rejeições&quot;) são qualificadas pelo MTA aprimorado (rejeições síncronas) ou pelo processo inMail (rejeições assíncronas). **Mensagens de erro de SMS (ou &quot;SR&quot; para &quot;Relatório de Status&quot;) são qualificadas pelo processo MTA.**
+>**As mensagens de erro de e-mail** (ou &quot;rejeições&quot;) são qualificadas pelo MTA aprimorado (rejeições síncronas) ou pelo processo inMail (rejeições assíncronas).
+>
+>**Mensagens de erro de SMS (ou &quot;SR&quot; para &quot;Relatório de Status&quot;) são qualificadas pelo processo MTA.**
 
 As mensagens também podem ser excluídas durante a preparação do delivery se um endereço estiver em quarentena ou se um perfil for incluído na blacklist. As mensagens excluídas são listadas na **[!UICONTROL Exclusion logs]** guia do painel do delivery (consulte [esta seção](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
@@ -80,13 +82,13 @@ Os possíveis motivos para uma falha de delivery são:
 
 Se uma mensagem falhar devido a um erro temporário do tipo **Ignorado** , as tentativas serão executadas durante a duração do delivery. Para obter mais informações sobre os tipos de erros, consulte Tipos de falha de [Delivery e motivos](#delivery-failure-types-and-reasons).
 
-Após a atualização para o [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/br/campaign/kb/campaign-enhanced-mta.html), as configurações do **Tentativas** na Campanha são ignoradas. O número de tentativas (quantas tentativas devem ser executadas no dia seguinte ao início do envio) e o atraso mínimo entre as tentativas são gerenciados pelo MTA aprimorado, com base no desempenho histórico e atual de um IP em determinado domínio.
+O número de tentativas (quantas tentativas devem ser executadas no dia seguinte ao início do envio) e o atraso mínimo entre as tentativas agora são gerenciados pelo Adobe Campaign Enhanced MTA, com base no desempenho histórico e atual de um IP em um determinado domínio. As configurações do **Tentativas** na Campanha são ignoradas.
 
 Para modificar a duração de um delivery, vá para os parâmetros avançados do delivery ou template do delivery e edite o **[!UICONTROL Delivery duration]** campo da seção Período [de](../../administration/using/configuring-email-channel.md#validity-period-parameters) validade.
 
 >[!IMPORTANT]
 >
->Depois de atualizado para o [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/br/campaign/kb/campaign-enhanced-mta.html), o **[!UICONTROL Delivery duration]** parâmetro em seus delivery de Campanha é usado somente se definido para 3,5 dias ou menos. Se você definir um valor superior a 3,5 dias, ele não será considerado.
+>**O **[!UICONTROL Delivery duration]**parâmetro em seus delivery de Campanha agora só é usado se definido para 3,5 dias ou menos.** Se você definir um valor superior a 3,5 dias, ele não será considerado, pois agora é gerenciado pela MTA aprimorada do Adobe Campaign.
 
 Por exemplo, se você quiser que o tentativas de um delivery pare após um dia, é possível definir a duração do delivery como **1d**, e o MTA aprimorado vai seguir essa configuração removendo mensagens na fila de tentativas após um dia.
 
@@ -105,19 +107,13 @@ Um delivery pode falhar imediatamente (erro síncrono), ou posteriormente, depoi
 
 ## Qualificação de email de devolução {#bounce-mail-qualification}
 
-<!--Delivery failure error messages (or "SMTP bounce responses") are picked up by the Adobe Campaign platform and then processed and qualified as **Hard**, **Soft**, or **Ignored** using the **[!UICONTROL Delivery log qualification]** database.
-
-//Delivery failure error messages (or "bounces") are picked up by the Adobe Campaign platform and qualified by the inMail process to enrich the list of email management rules.(applies to asynchronous (out-of-band) bounces)
-
-This list is available to administrators only and contains all the rules used by Adobe Campaign to qualify delivery failures.-->
-
->[!IMPORTANT]
->
->Após a atualização para o MTA aprimorado, as qualificações de rejeição na tabela Campanha não são mais usadas. **[!UICONTROL Message qualification]**
-
-Para mensagens de erro de falha síncrona de delivery, o MTA aprimorado determina o tipo de rejeição e a qualificação e envia essas informações para a Campanha. Para obter mais informações sobre o MTA aprimorado do Adobe Campaign, consulte este [documento](https://helpx.adobe.com/br/campaign/kb/campaign-enhanced-mta.html).
+Para mensagens de erro de falha síncrona de delivery, o MTA aprimorado determina o tipo de rejeição e a qualificação e envia essas informações para a Campanha.
 
 As rejeições assíncronas ainda são qualificadas pelo processo do InMail por meio das **[!UICONTROL Inbound email]** regras. Para acessar essas regras, clique no **[!UICONTROL Adobe Campaign]** logotipo, na parte superior esquerda, selecione **[!UICONTROL Administration > Channels > Email > Email processing rules]** e selecione **[!UICONTROL Bounce mails]**. For more on this rule, refer to this [section](../../administration/using/configuring-email-channel.md#email-processing-rules).
+
+>[!NOTE]
+>
+>A qualificação de e-mail de rejeição agora é gerenciada pelo MTA aprimorado do Adobe Campaign. As qualificações de rejeição na tabela de Campanha não são mais usadas. **[!UICONTROL Message qualification]**
 
 <!--Bounces can have the following qualification statuses:
 
