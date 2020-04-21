@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34f4bbf7b7913cfb1833379c963b590961f7de73
+source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 
 ---
 
@@ -30,6 +30,10 @@ Depois que o evento é publicado, o mensagen transacional correspondente é cria
 ## Criação de um evento {#creating-an-event}
 
 Start criando o evento correspondente às suas necessidades.
+
+>[!NOTE]
+>
+>O número de eventos criados em tempo real pode afetar sua plataforma. Para garantir o desempenho ideal, exclua eventos em tempo real que não são mais necessários. Consulte [Excluindo um evento](../../administration/using/configuring-transactional-messaging.md#deleting-an-event).
 
 1. Clique no **[!UICONTROL Adobe Campaign]** logotipo, no canto superior esquerdo, em seguida selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Clique no botão **[!UICONTROL Create]**.
@@ -95,7 +99,7 @@ Esta é a pré-visualização de API para este exemplo:
 
 Enriquecer o conteúdo do mensagen transacional com informações do banco de dados do Adobe Campaign permite que você personalize suas mensagens. A partir do sobrenome ou da ID do CRM de cada um dos recipient, por exemplo, você pode recuperar dados como o endereço ou a data de nascimento ou qualquer outro campo personalizado adicionado na tabela Perfil, para personalizar as informações enviadas a eles.
 
-É possível enriquecer o conteúdo do mensagen transacional com informações de recursos estendidos **[!UICONTROL Profile]** ou **[!UICONTROL Service]** .
+É possível enriquecer o conteúdo do mensagen transacional com informações de extensão **[!UICONTROL Profile and services Ext API]**. Para obter mais informações, consulte [Extensão da API: Publicar a extensão](../../developing/using/step-2--publish-the-extension.md)
 
 Essas informações também podem ser armazenadas em novos recursos. Nesse caso, o recurso deve estar vinculado ao **[!UICONTROL Profile]** ou aos recursos **[!UICONTROL Service]** diretamente ou por meio de outra tabela. Por exemplo, na configuração abaixo, é possível aprimorar o conteúdo do mensagen transacional com informações do **[!UICONTROL Product]** recurso, como a categoria do produto ou a ID, se o **[!UICONTROL Product]** recurso estiver vinculado ao **[!UICONTROL Profile]** recurso.
 
