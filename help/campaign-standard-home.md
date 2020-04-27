@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentação do produto Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
@@ -15,13 +15,13 @@ source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
 
 ## Novidades
 
-* **[Testes por email usando perfis](sending/using/testing-messages-using-target.md)**<br/>direcionados Saiba como testar seus emails em perfis direcionados reais.
+* **[Teste de email usando perfis](sending/using/testing-messages-using-target.md)**<br/>direcionadosSaiba como testar seus emails em perfis direcionados reais
 
 * **[Gerenciamento de privacidade](https://helpx.adobe.com/br/campaign/kb/campaign-privacy.html)**<br/>
-Saiba mais sobre as ferramentas fornecidas pelo Adobe Campaign para ajudá-lo a estar em conformidade com privacidade.
+Saiba mais sobre as ferramentas fornecidas pelo Adobe Campaign para ajudá-lo a estar em conformidade com privacidade
 
 * **[Guia do Campaign Standard Mobile](https://helpx.adobe.com/br/campaign/kb/acs-mobile.html)**<br/>
-Saiba mais sobre as diretrizes gerais para entregas móveis.
+Saiba mais sobre as diretrizes gerais para entregas móveis
 
 [Clique aqui para obter mais atualizações](rn/using/documentation-updates.md)
 
@@ -36,7 +36,7 @@ Saiba mais sobre as diretrizes gerais para entregas móveis.
     <div>
     <a href="administration/using/about-access-management.md"><strong>Funções e grupos de segurança</strong></a>
     </div>
-    <em>Saiba como definir permissões e atribuir funções a usuários do Campaign.</em>
+    <em>Saiba como definir permissões e atribuir funções a usuários do Campaign</em>
     <br>
   </td>
   <td valign="top">
@@ -54,7 +54,7 @@ Saiba mais sobre as diretrizes gerais para entregas móveis.
     <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
     <strong>Obter suporte</strong></a>
     </div>
-    <p><em>Acesse perguntas frequentes, práticas recomendadas, recursos de ajuda e conecte-se com especialistas em Campanhas.</em></p>
+    <p><em>Acesse perguntas frequentes, práticas recomendadas, recursos de ajuda e conecte-se aos especialistas</em></p>
     <br>
   </td>
 </tr>
