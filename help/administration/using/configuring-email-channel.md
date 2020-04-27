@@ -13,14 +13,14 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9b632bdd9d2546b40fd00cc4ef8800dd88fa55de
+source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ---
 
 
 # Configuração do canal de email{#configuring-email-channel}
 
-Como [administrador](../../administration/using/about-administrating-adobe-campaign.md)da Campanha, você pode definir as configurações de canal de email. Essas configurações avançadas incluem parâmetros gerais de canal de email, contas de roteamento de email, regras de processamento de email e propriedades de email. Nesta página, você aprenderá a editar os valores padrão para o email geral e os parâmetros de envio.
+Como [administrador](../../administration/using/users-management.md#functional-administrators)da Campanha, você pode definir as configurações de canal de email. Essas configurações avançadas incluem parâmetros gerais de canal de email, contas de roteamento de email, regras de processamento de email e propriedades de email. Nesta página, você aprenderá a editar os valores padrão para o email geral e os parâmetros de envio.
 
 Observe que algumas configurações de e-mail agora são gerenciadas pela MTA aprimorada do Adobe Campaign. Por conseguinte:
 * Algumas configurações na interface do usuário da Campanha não são mais aplicadas:
@@ -205,7 +205,7 @@ A **[!UICONTROL Validity period]** seção contém os seguintes parâmetros:
 
 ![](assets/delivery-validity-period.png)
 
-* **[!UICONTROL Explicitly set validity dates]**: quando essa caixa estiver desmarcada, você deve inserir uma duração nos campos **[!UICONTROL Delivery duration]** e **[!UICONTROL Resource validity limit]** .
+* **[!UICONTROL Explicitly set validity dates]**: quando essa caixa está desmarcada, é necessário inserir uma duração nos campos **[!UICONTROL Delivery duration]** e **[!UICONTROL Resource validity limit]** .
 
    Marque essa caixa se desejar definir datas e horários específicos.
 
@@ -273,7 +273,7 @@ A preparação de mensagens é detalhada na seção [Aprovando mensagens](../../
 
    >[!NOTE]
    >
-   >As tipologias, que podem ser acessadas pelo menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** , são apresentadas na seção [Tipologias](../../sending/using/about-typology-rules.md) .
+   >As tipologias, que podem ser acessadas pelo menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** , são apresentadas [nesta seção](../../sending/using/about-typology-rules.md).
 
 * **[!UICONTROL Compute the label during delivery preparation]**: permite calcular o valor do rótulo do email durante a fase de preparação da mensagem usando campos de personalização, blocos de conteúdo e texto dinâmico.
 
