@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
+source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ---
 
@@ -21,19 +21,21 @@ source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 
 Para enviar um mensagen transacional, primeiro é necessário descrever a estrutura dos dados do evento.
 
-A configuração do Evento deve ser executada por um **administrador** , seguindo as etapas abaixo:
+A configuração do Evento deve ser executada por um [administrador](../../administration/using/users-management.md#functional-administrators) , seguindo as etapas abaixo.
 
-A configuração pode variar dependendo do tipo de mensagen transacional que você deseja enviar. Para obter mais informações, consulte as configurações específicas do evento [transacional](#transactional-event-specific-configurations)
+>[!NOTE]
+>
+>A configuração pode variar dependendo do tipo de mensagen transacional que você deseja enviar. Para obter mais informações, consulte Configurações [específicas do evento](#transactional-event-specific-configurations)transacional.
 
 Depois que o evento é publicado, o mensagen transacional correspondente é criado automaticamente. For more on transactional messaging, refer to [this page](../../channels/using/about-transactional-messaging.md).
 
 ## Criação de um evento {#creating-an-event}
 
-Start criando o evento correspondente às suas necessidades.
+Para começar, crie o evento correspondente às suas necessidades.
 
 >[!NOTE]
 >
->O número de eventos criados em tempo real pode afetar sua plataforma. Para garantir o desempenho ideal, exclua eventos em tempo real que não são mais necessários. Consulte [Excluindo um evento](../../administration/using/configuring-transactional-messaging.md#deleting-an-event).
+>Somente os usuários que exercem a **[!UICONTROL Administration]** função e fazem parte da unidade **[!UICONTROL All]** [](../../administration/using/organizational-units.md) organizacional têm os direitos apropriados para criar uma configuração de evento.
 
 1. Clique no **[!UICONTROL Adobe Campaign]** logotipo, no canto superior esquerdo, em seguida selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Clique no botão **[!UICONTROL Create]**.
@@ -55,6 +57,10 @@ Start criando o evento correspondente às suas necessidades.
 
    Dados de público alvo baseados em mensagens transacionais contidos no próprio evento, enquanto dados de público alvo baseados em perfis contidos no banco de dados do Adobe Campaign. Para obter mais informações, consulte Configurações [específicas do evento](#transactional-event-specific-configurations)transacional.
 
+>[!NOTE]
+>
+>O número de eventos criados em tempo real pode afetar sua plataforma. Para garantir o desempenho ideal, exclua eventos em tempo real que não são mais necessários. Consulte [Excluindo um evento](#deleting-an-event).
+
 ## Definição dos atributos do evento {#defining-the-event-attributes}
 
 Na **[!UICONTROL Fields]** seção, defina os atributos que serão integrados ao conteúdo do evento e poderão ser usados para personalizar o mensagen transacional.
@@ -71,7 +77,7 @@ As etapas para adicionar e modificar campos são as mesmas para recursos [](../.
 
 Você pode adicionar ao conteúdo do evento uma coleção de elementos, cada elemento incluindo vários atributos.
 
-Essa coleção pode ser usada em um email transacional para adicionar listas de produtos ao conteúdo da mensagem, por exemplo, uma lista de produtos - com o preço, o número de referência, a quantidade etc. para cada produto da lista.
+Essa coleção pode ser usada em um email transacional para adicionar listas [de](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message) produtos ao conteúdo da mensagem, por exemplo, uma lista de produtos - com o preço, o número de referência, a quantidade etc. para cada produto da lista.
 
 1. Na **[!UICONTROL Collections]** seção, clique no **[!UICONTROL Create element]** botão.
 
@@ -84,6 +90,12 @@ Essa coleção pode ser usada em um email transacional para adicionar listas de 
 
    ![](assets/message-center_collection_fields.png)
 
+1. A **[!UICONTROL Enrichment]** guia permite que você aprimore cada item da coleção. Isso permitirá que você personalize os elementos da lista de produtos correspondente com informações do banco de dados do Adobe Campaign ou de outros recursos criados.
+
+>[!NOTE]
+>
+>As etapas para enriquecer os elementos de uma coleção são as mesmas descritas na seção [Enriquecendo o evento](#enriching-the-transactional-message-content) . Observe que enriquecer o evento não permitirá enriquecer uma coleção: é necessário adicionar um enriquecimento à própria coleção na **[!UICONTROL Collections]** seção.
+
 Depois que o evento e a mensagem forem publicados, você poderá usar essa coleção no mensagen transacional.
 
 Esta é a pré-visualização de API para este exemplo:
@@ -95,9 +107,9 @@ Esta é a pré-visualização de API para este exemplo:
 * [Visualização e publicação do evento](#previewing-and-publishing-the-event)
 * [Utilização das listas de produtos num mensagen transacional](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
-## Como enriquecer o conteúdo do mensagen transacional {#enriching-the-transactional-message-content}
+## Enriquecendo o evento {#enriching-the-transactional-message-content}
 
-Enriquecer o conteúdo do mensagen transacional com informações do banco de dados do Adobe Campaign permite que você personalize suas mensagens. A partir do sobrenome ou da ID do CRM de cada um dos recipient, por exemplo, você pode recuperar dados como o endereço ou a data de nascimento ou qualquer outro campo personalizado adicionado na tabela Perfil, para personalizar as informações enviadas a eles.
+Você pode enriquecer o conteúdo do mensagen transacional com informações do banco de dados do Adobe Campaign para personalizar suas mensagens. A partir do sobrenome ou da ID do CRM de cada um dos recipient, por exemplo, você pode recuperar dados como o endereço ou a data de nascimento ou qualquer outro campo personalizado adicionado na tabela Perfil, para personalizar as informações enviadas a eles.
 
 É possível enriquecer o conteúdo do mensagen transacional com informações de extensão **[!UICONTROL Profile and services Ext API]**. Para obter mais informações, consulte [Extensão da API: Publicar a extensão](../../developing/using/step-2--publish-the-extension.md)
 
