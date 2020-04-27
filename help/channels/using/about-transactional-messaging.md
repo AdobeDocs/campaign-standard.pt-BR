@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
+source-git-commit: f0f7441f06b51f9bd2d5a1b3c26f031d4eb1e4c1
 
 ---
 
@@ -46,9 +46,9 @@ O tipo de mensagem é definido ao configurar o evento que será transformado em 
 
 As mensagens transacionais também estão disponíveis na API Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](../../api/using/managing-transactional-messages.md).
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Todos os mensagens transacionais agora são enviados com o MTA aprimorado Adobe Campaign para oferecer mais capacidade de entrega, throughput e manuseio de rejeição. Todos os impactos são os mesmos das mensagens de marketing padrão.
+>Todos os mensagens transacionais agora são enviados com o MTA aprimorado Adobe Campaign para oferecer mais capacidade de entrega, throughput e manuseio de rejeição. Todos os impactos são os mesmos das mensagens de marketing padrão. For more on this, see this [section](../../administration/using/configuring-email-channel.md).
 
 ## Princípio operacional do sistema de mensagens transacional {#transactional-messaging-operating-principle}
 
