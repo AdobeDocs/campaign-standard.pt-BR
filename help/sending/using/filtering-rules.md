@@ -12,7 +12,7 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
+source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 ---
 
@@ -60,7 +60,7 @@ Para criar uma regra de tipologia de filtragem, siga estas etapas:
 
 1. Selecione o tipo de **[!UICONTROL Filtering]** regra e especifique o canal desejado.
 
-1. Na guia Critérios **[!UICONTROde filtragem]** sL, selecione as subscrições na **[!UICONTROL Subscription]** categoria.
+1. Na **[!UICONTROL Filtering criteria]** guia, selecione as subscrições na **[!UICONTROL Subscription]** categoria.
 
    ![](assets/typology_create-rule-subscription.png)
 
