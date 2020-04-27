@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
+source-git-commit: ffdbeb7031697c7b00edc658096f55df815b0f63
 
 ---
 
@@ -108,7 +108,7 @@ Visualização as atualizações [mais recentes da](../../rn/using/documentation
   </tr> 
   <tr> 
    <td> Filtro de tipologia para assinantes de aplicativos móveis<br /> </td> 
-   <td> subscrições de suporte no filtro de tipologia: ao especificar os critérios de filtragem para uma regra de tipologia, as subscrições do aplicativo podem ser selecionadas como filtros e targeting dimension, proporcionando a capacidade de filtrar atributos para usuários com ou sem perfis. <br /> Para obter mais informações, consulte a <a href="../../sending/using/about-typology-rules.md#typology-rules">documentação detalhada</a>.<br /> </td> 
+   <td> subscrições de suporte no filtro de tipologia: ao especificar os critérios de filtragem para uma regra de tipologia, as subscrições do aplicativo podem ser selecionadas como filtros e targeting dimension, proporcionando a capacidade de filtrar atributos para usuários com ou sem perfis. <br /> Para obter mais informações, consulte a <a href="../../sending/using/about-typology-rules.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Importação de conteúdo automatizada de um URL durante a preparação da mensagem<br /> </td> 
@@ -497,7 +497,7 @@ _Emails, mensagens SMS e mala direta_
 * Correção de um problema que permitia que o usuário acessasse o envio de logs quando o delivery ainda estava na edição.
 * A **[!UICONTROL Scheduler]** atividade agora permite que você envie seus delivery, dependendo do fuso horário do recipient.
 * SMS: A opção **[!UICONTROL Store incoming MO]** no banco de dados foi adicionada ao conta externa. Quando marcado, todo o SMS recebido será armazenado na tabela **inSMS** .
-* SMS: Os serviços agora são anexados a um evento em vez de um modelo transacional.
+* SMS: Agora, os serviços são anexados a um evento em vez de um modelo transacional.
 * SMS: O tempo limite de conexão SMTP padrão foi reduzido para 30 segundos.
 
 _Notificações por push_
