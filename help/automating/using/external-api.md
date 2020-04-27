@@ -10,7 +10,7 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8f3c8f9a167f11ba5ded2be34a50b52edeeb6412
+source-git-commit: e545e0ffba80f6165242f6974adf0e4c4abafff4
 
 ---
 
@@ -21,25 +21,37 @@ source-git-commit: 8f3c8f9a167f11ba5ded2be34a50b52edeeb6412
 
 ![](assets/wf_externalAPI.png)
 
-A **[!UICONTROL External API]** atividade traz dados para o fluxo de trabalho de um sistema **** externo por meio de uma chamada de API **** REST.
+A **[!UICONTROL External API]** atividade traz dados para o fluxo de trabalho de um sistema **** externo por meio de uma chamada de API **** HTTP.
 
-Os pontos finais REST podem ser um sistema de gerenciamento de clientes, uma instância de tempo de execução [de E/S da](https://www.adobe.io/apis/experienceplatform/runtime.html) Adobe ou pontos finais REST da Experience Cloud (Plataforma de dados, Target, Analytics, Campaign etc).
+Os pontos de extremidade do sistema externo podem ser pontos de extremidade de API pública, sistemas de gerenciamento de clientes ou instâncias de aplicativo sem servidor (por exemplo, [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html)), para mencionar algumas categorias.
 
 >[!NOTE]
 >
 >Por motivos de segurança, o uso de JSSPs não é suportado no Campaign Standard. Se precisar executar o código, você pode chamar uma instância do Tempo de execução de E/S da Adobe por meio da atividade da API externa.
 
->[!IMPORTANT]
->
->Esse recurso está atualmente em beta. É necessário aceitar o contrato de uso antes de começar a usar a atividade de API externa. Observe que, como esse recurso beta ainda não foi lançado comercialmente pela Adobe, ele não é suportado pelo Adobe Client Care, ele pode conter erros e pode não funcionar assim como outros recursos lançados.
-
 As principais características desta atividade são:
 
 * Capacidade de transmitir dados em um formato JSON para um terminal de API REST de terceiros
-* Capacidade de receber uma resposta JSON de volta, mapeá-la para tabelas de saída e passar downstream para outras atividades de fluxo de trabalho.
+* Capacidade de receber uma resposta JSON de volta, mapeá-la para tabelas de saída e passá-la para downstream para outras atividades de fluxo de trabalho.
 * Gerenciamento de falhas com uma transição específica de saída
 
-Foram criados os seguintes painéis de proteção para esta atividade:
+### Transição do Beta para o GA {#from-beta-to-ga}
+
+Com a versão Campaign Standard 20.3, o recurso de API externa mudou de Beta para General Availability (GA).
+
+Como consequência, se você estivesse usando atividades beta de API externa, precisaria substituí-las por atividades de API externas GA em todos os workflows.  Os Workflows que usam a versão beta da API externa pararão de funcionar a partir da versão 20.3.
+
+Ao substituir atividades de API externas, adicione a nova atividade de API externa ao fluxo de trabalho, copie manualmente os detalhes de configuração e exclua a atividade antiga.
+
+>[!NOTE]
+>
+>Não será possível copiar os valores do cabeçalho, pois eles são mascarados dentro da atividade.
+
+Em seguida, reconfigure outras atividades no fluxo de trabalho que apontam e/ou usam dados da atividade beta External API para apontar e/ou usar dados da nova atividade External API. Exemplos de atividades: delivery de e-mail (campos de personalização), atividade do enriquecimento etc.
+
+### Limitações e calhas {#guardrails}
+
+Foram instalados os seguintes coletores para esta atividade:
 
 * Limite de tamanho de dados de resposta http de 50 MB
 * O tempo limite da solicitação é de 10 minutos
@@ -49,11 +61,25 @@ Foram criados os seguintes painéis de proteção para esta atividade:
 
 >[!CAUTION]
 >
->Observe que a atividade se destina a buscar dados de toda a campanha (último conjunto de ofertas, pontuações mais recentes etc.) não para recuperar informações específicas para cada perfil, pois isso pode resultar na transferência de grandes quantidades de dados. Se o caso de uso exigir isso, a recomendação é usar a atividade [Transferir arquivo](../../automating/using/transfer-file.md) .
+>Observe que a atividade se destina a obter dados de toda a campanha (último conjunto de ofertas, últimas pontuações, etc.), não para recuperar informações específicas de cada perfil, pois isso pode resultar na transferência de grandes quantidades de dados. Se o caso de uso exigir isso, a recomendação é usar a atividade [Transferir arquivo](../../automating/using/transfer-file.md) .
+
+
+Foram postos em prática medidas específicas para o JSON:
+
+* **Profundidade** máx. JSON: limite a profundidade máxima de um JSON aninhado personalizado que pode ser processado para 10 níveis.
+* **Extensão** Máx. da Chave JSON: limite o comprimento máximo da chave interna gerada para 255. Essa chave está associada à ID da coluna.
+* **Teclas máximas de Duplicado JSON permitidas**:  limite o número total máximo de nomes de propriedades JSON do duplicado, que são usados como ID da coluna, para 150.
+
+
+A atividade não tem suporte para a estrutura JSON como:
+
+* Combinação de objetos de matriz com outros elementos que não são de matriz
+* O objeto de matriz JSON é aninhado dentro de um ou mais objetos de matriz intermediários.
+
 
 ## Configuração {#configuration}
 
-Arraste e solte uma **[!UICONTROL External API]** atividade em seu fluxo de trabalho e abra a atividade para iniciar a configuração.
+Arraste e solte uma **[!UICONTROL External API]** atividade no seu fluxo de trabalho e abra a atividade para start da configuração.
 
 ### Mapeamento de entrada
 
@@ -62,11 +88,11 @@ Com base nessa tabela temporária, o usuário pode fazer modificações nos dado
 
 ![](assets/externalAPI-inbound.png)
 
-A lista suspensa Recurso **de** entrada permite selecionar a atividade de consulta que criará a tabela temporária.
+A lista suspensa Recurso **de** entrada permite selecionar a atividade de query que criará a tabela temporária.
 
-A caixa de seleção **Adicionar parâmetro** de contagem apresentará um valor de contagem para cada linha proveniente da tabela temporária. Observe que essa caixa de seleção só estará disponível se a atividade de entrada estiver gerando uma tabela temporária.
+A caixa de seleção **Adicionar parâmetro** de contagem adicionará um valor de contagem para cada linha proveniente da tabela temporária. Observe que essa caixa de seleção só estará disponível se a atividade de entrada estiver gerando uma tabela temporária.
 
-A seção Colunas **de** entrada permite que o usuário adicione quaisquer campos da tabela de transição de entrada. As colunas selecionadas serão as chaves no objeto de dados. O objeto de dados no JSON será uma lista de matriz contendo dados para colunas selecionadas de cada linha da tabela de transição de entrada.
+A seção Colunas **de** entrada permite que o usuário adicione quaisquer campos da tabela transição de entrada. As colunas selecionadas serão as chaves no objeto de dados. O objeto de dados no JSON será uma lista de matriz contendo dados para colunas selecionadas de cada linha da tabela de transição de entrada.
 
 A caixa de texto **personalizar parâmetro** permite adicionar um JSON válido com dados adicionais necessários para a API externa. Esses dados adicionais serão adicionados ao objeto params no JSON gerado.
 
@@ -76,17 +102,26 @@ Essa guia permite que você defina a estrutura **** JSON de amostra retornada pe
 
 ![](assets/externalAPI-outbound.png)
 
-O padrão de estrutura JSON é: `{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
+O analisador JSON foi projetado para acomodar tipos padrão de estrutura JSON, com algumas exceções. Um exemplo de padrão é:`{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
 
 A definição do JSON de amostra deve ter as **seguintes características**:
 
-* **data** é um nome de propriedade obrigatório no JSON, o conteúdo de &quot;data&quot; é uma matriz JSON.
 * **Os elementos** da matriz devem conter propriedades de primeiro nível (níveis mais profundos não são suportados).
-   **Nomes** de propriedades acabariam se tornando nomes de colunas para o esquema de saída da tabela temporária de saída.
+   **Os nomes** de propriedades acabarão se tornando nomes de colunas para o schema de saída da tabela temporária de saída.
+* **Os elementos** JSON a serem capturados devem estar em 10 ou menos níveis de aninhamento na resposta JSON.
 * **A definição do nome** da coluna é baseada no primeiro elemento da matriz &quot;data&quot;.
 A definição de colunas (adicionar/remover) e o valor de tipo da propriedade podem ser editados na guia Definição **de** coluna.
 
-Se a **análise for validada** , uma mensagem será exibida e convidará você a personalizar o mapeamento de dados na guia &quot;Definição de coluna&quot;. Em outros casos, uma mensagem de erro é exibida.
+**Nivelar o comportamento da caixa** de seleção:
+
+A caixa de seleção Nivelar (padrão: desmarcada) é fornecida para indicar se o JSON deve ser nivelado em um mapa de chave/valor ou não.
+
+* Quando a **caixa de seleção estiver desativada** (desmarcada), a amostra JSON será analisada para procurar um objeto de matriz. O usuário precisará fornecer uma versão reduzida do formato JSON de amostra de resposta da API para que o Adobe Campaign possa determinar exatamente em qual matriz o usuário está interessado em usar. No tempo de criação do fluxo de trabalho, o caminho para o objeto de matriz aninhado será determinado e registrado, para que possa ser usado no tempo de execução para acessar esse objeto de matriz a partir do corpo de resposta JSON recebido da chamada de API.
+
+* Quando a **caixa de seleção estiver ativada** (marcada), a amostra JSON será nivelada e todas as propriedades especificadas na amostra fornecida JSON serão usadas para criar colunas da tabela temporária de saída e exibidas na guia Definições de Coluna. Observe que se houver algum objeto de matriz na amostra JSON, todos os elementos desses objetos de matriz também serão nivelados.
+
+
+Se a **análise for validada**, uma mensagem será exibida e convidará você a personalizar o mapeamento de dados na guia &quot;Definição de coluna&quot;. Em outros casos, uma mensagem de erro é exibida.
 
 ### Execução
 
@@ -121,13 +156,13 @@ Essa guia permite ativar a transição **de** saída e seu rótulo. Essa transi�
 
 ### Opções de execução
 
-Esta guia está disponível na maioria das atividades do fluxo de trabalho. Para obter mais informações, consulte a seção Propriedades [da](../../automating/using/executing-a-workflow.md#activity-properties) atividade.
+Esta guia está disponível na maioria das atividades de fluxo de trabalho. Para obter mais informações, consulte a seção Propriedades [da](../../automating/using/executing-a-workflow.md#activity-properties) Atividade.
 
 ![](assets/externalAPI-options.png)
 
 ## Solução de problemas
 
-Existem dois tipos de mensagens de registro adicionadas a esta nova atividade de fluxo de trabalho: informações e erros. Eles podem ajudá-lo a solucionar possíveis problemas.
+Existem dois tipos de mensagens de registro adicionados a esta nova atividade de fluxo de trabalho: informações e erros. Eles podem ajudá-lo a solucionar possíveis problemas.
 
 ### Informações
 
@@ -220,10 +255,10 @@ Essas mensagens de registro são usadas para registrar informações sobre condi
    <p>Observação: Esta mensagem se aplica somente à análise do corpo da resposta da API externa e é registrada ao tentar validar se o corpo da resposta está em conformidade com o formato JSON mandatado por essa atividade.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560246 - Falha na atividade (motivo: '%s').</td> 
-   <td> <p>Quando a atividade falha devido à resposta de erro HTTP 401 - A atividade falhou (motivo: 'HTTP - 401')</p>
-        <p>Quando a atividade falha devido a uma falha de chamada interna - a atividade falhou (motivo: 'iRc - -Nn').</p>
-        <p>Quando a atividade falha devido a um cabeçalho Content-Type inválido. - Falha na atividade (motivo: 'Content-Type - application/html').</p></td> 
+   <td> WKF-560246 - Falha na Atividade (motivo: '%s').</td> 
+   <td> <p>Quando a atividade falha devido à resposta de erro HTTP 401 - falha na Atividade (motivo: 'HTTP - 401')</p>
+        <p>Quando a atividade falha devido a uma falha na chamada interna - a Atividade falhou (motivo: 'iRc - -Nn').</p>
+        <p>Quando a atividade falha devido a um cabeçalho Content-Type inválido. - Falha na Atividade (motivo: 'Content-Type - application/html').</p></td> 
   </tr>
  </tbody> 
 </table>
