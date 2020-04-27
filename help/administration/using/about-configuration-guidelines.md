@@ -12,7 +12,7 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5a77a681a20d5e7bea73b52c994137d4a61f78d
+source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ---
 
@@ -21,6 +21,6 @@ source-git-commit: d5a77a681a20d5e7bea73b52c994137d4a61f78d
 
 Esta seção reúne as várias diretrizes de configuração para o Adobe Campaign Standard.
 
-Descubra quais navegadores são compatíveis com o Campaign Standard, bem como os diferentes sistemas operacionais suportados para tablets.
+Descubra quais navegadores são compatíveis com o Campaign Standard, bem como os diferentes sistemas operacionais suportados para tablets. Para obter mais informações, consulte [esta seção](../../administration/using/compatible-browsers.md).
 
-Saiba mais sobre os diferentes endpoints usados no Campaign Standard.
+Saiba mais sobre os diferentes endpoints usados no Campaign Standard. Para obter mais informações, consulte [esta seção](../../administration/using/campaign-standard-network-endpoints.md).
