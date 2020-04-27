@@ -13,7 +13,7 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c5b1882e143924f94530c166b6af61a1bce30d72
+source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 ---
 
@@ -42,21 +42,21 @@ As principais etapas para criar uma regra de tipologia são as seguintes:
 
 1. Acesse o menu **[!UICONTROL Administration]** / **[!UICONTROL Channels]** / **[!UICONTROL Typologies]** / **[!UICONTROL Typology rules]** e clique em **[!UICONTROL Create]**.
 
-![](assets/typology_create-rule.png)
+   ![](assets/typology_create-rule.png)
 
 1. Insira a tipologia **[!UICONTROL Label]** e especifique o **[!UICONTROL Channel]** à qual a regra deve se aplicar.
 
-![](assets/typology-rule-label.png)
+   ![](assets/typology-rule-label.png)
 
 1. Especifique a regra de tipologia **[!UICONTROL Type]** e configure-a de acordo com suas necessidades. Observe que a configuração do regra de tipologia varia dependendo do tipo. Para obter mais informações, consulte as seções Regras **[de](../../sending/using/filtering-rules.md)**filtragem e Regras**[ de](../../sending/using/fatigue-rules.md)** fadiga.
 
 1. Selecione as tipologias nas quais deseja incluir a nova regra. Para fazer isso, selecione a **[!UICONTROL Typologies]** guia e clique no **[!UICONTROL Create element]** botão.
 
-![](assets/typology-typologies-tab.png)
+   ![](assets/typology-typologies-tab.png)
 
 1. Selecione a tipologia desejada e clique em **[!UICONTROL Confirm]**.
 
-![](assets/typology-link.png)
+   ![](assets/typology-link.png)
 
 1. Depois que todas as tipologias forem selecionadas, clique em **[!UICONTROL Create]** para confirmar a criação da regra de tipologia.
 
