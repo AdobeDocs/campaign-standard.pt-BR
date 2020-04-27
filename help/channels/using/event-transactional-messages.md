@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: be6751f2f966f99d2b986aeba0b3720d2e8c4599
+source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 ---
 
@@ -64,7 +64,7 @@ Defina um perfil de teste adaptado, que permitirá que você pré-visualização
 
 Você também pode criar um novo perfil de teste ou usar um que já existe no **[!UICONTROL Test profiles]** menu.
 
-1. Clique no **[!UICONTROL Adobe Campaign]** logotipo, no canto superior esquerdo, em seguida, selecione **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
+1. Clique no **[!UICONTROL Adobe Campaign]** logotipo, no canto superior esquerdo, em seguida selecione **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
 1. Na **[!UICONTROL Event]** seção da página do perfil de teste que você escolheu, selecione o evento que acabou de criar. Neste exemplo, selecione &quot;Cancelamento do carrinho (EVTcartAbandonment)&quot;.
 1. Especifique as informações para enviar no formato JSON na caixa de **[!UICONTROL Event data]** texto.
 
