@@ -12,98 +12,104 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 66e480e957d12275d2ce5575c99b0808462588f9
+source-git-commit: 86302762a46a814ecc9b14a5fe1bfe1a4a4e0437
 
 ---
 
 
 # Versão mais recente{#latest-release}
 
-[Planejamento](https://helpx.adobe.com/br/campaign/kb/acs-release-planning.html) da versão| Versões [do Painel](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html) de controle| Atualizações [da](../../rn/using/documentation-updates.md) documentação| Notas [de versão](../../rn/using/release-notes-2019.md) anteriores| Recursos [obsoletos](https://helpx.adobe.com/br/campaign/kb/acs-deprecated-and-removed-features.html)
+[Planejamento](../../rn/using/release-planning.md) da versão| Versões [do Painel](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html) de controle| Atualizações [da](../../rn/using/documentation-updates.md) documentação| Notas [de versão](../../rn/using/release-notes-2020.md) anteriores| Recursos [obsoletos](../../rn/using/deprecated-features.md)
 
-[Clique aqui](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) para assinar as notificações de lançamento e obter detalhes sobre as versões mais recentes da Adobe Experience Cloud diretamente na sua caixa de entrada.
-
-## Versão 20.2 - abril de 2020 {#release-20-2---april-2020}
+## Versão 20.3 - maio de 2020 {#release-20-3---may-2020}
 
 **Novidades**
 
 <table> 
- <thead> 
-  <tr> 
-   <th> <strong>Integração do Blob do Azure</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>O conector do armazenamento Blob do Azure agora pode ser usado para importar ou exportar dados para o Adobe Campaign usando uma atividade de fluxo de trabalho de arquivo <strong></strong> Transferir. </p>
-    <p>Para obter mais informações, consulte a <a href="../../administration/using/external-accounts.md#microsoft-azure-external-account">documentação detalhada</a>.</p>
-   </td> 
-  </tr> 
- </tbody> 
+<thead> 
+<tr> 
+<th> <strong>PDPA (Personal Data Protection Act) da Tailândia</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>A Lei de Proteção de Dados Pessoais (PDPA) da Tailândia é a nova lei de privacidade que harmoniza e moderniza os requisitos de proteção de dados para a Tailândia. Este regulamento aplica-se aos clientes Adobe Campaign que detêm dados para pessoas a quem residem neste país.</p>
+<p>Além dos recursos de privacidade já disponíveis no Adobe Campaign (incluindo gerenciamento de consentimento, configurações de retenção de dados e funções de usuário), estamos aproveitando esta oportunidade para incluir recursos adicionais, para ajudar a facilitar sua preparação para o PDPA:</p>
+<ul>
+<li>Direito de acesso e direito de exclusão: estamos aproveitando as capacidades que foram adicionadas ao RGPD e CCPA. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">Saiba mais</a> </li>
+<li><p>Ao criar uma solicitação de privacidade, o tipo de regulamento PDPA foi adicionado ao Privacy Core Service. Este método é o que você deve usar para todas as solicitações de acesso e exclusão. O uso da API de Campanha e da interface para acessar e excluir solicitações está obsoleto.  Consulte o artigo <a href="../../rn/using/deprecated-features.md">Recursos removidos e</a>obsoletos.</p></li>
+</ul>
+<p>Consulte o vídeo <a href="https://docs.adobe.com/content/help/pt-BR/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">como fazer</a>.</p>
+</td> 
+</tr> 
+</tbody> 
 </table>
 
 <table> 
- <thead> 
-  <tr> 
-   <th> <strong>Teste de email usando perfis direcionados</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Além de testar perfis, agora você pode testar seus e-mails em perfis direcionados reais. Isso permite obter uma representação exata da mensagem que o perfil receberá: campos personalizados, informações dinâmicas e personalizadas, incluindo dados adicionais de workflows etc. </p>
-    <p>Para obter mais informações, consulte a <a href="../../sending/using/testing-messages-using-target.md">documentação detalhada</a> e o <a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">vídeo tutorial</a>. </p>
-   </td> 
-  </tr> 
- </tbody> 
+<thead> 
+<tr> 
+<th> <strong>Atividade de API externa (GA)</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+  <td> <p>A atividade da API <strong></strong> externa está sendo transferida do beta para o GA. Esta versão oferece flexibilidade adicional ao analisador de corpo de resposta JSON. Agora você pode:</p>
+<ul>
+<li>analise um JSON aninhado com uma profundidade máxima de 10 níveis. </li>
+<li>analise as propriedades selecionadas como nós de folha de um JSON e nivele-as em uma única linha de tabela.</li>
+<li>selecione e use um objeto de matriz de um JSON sem precisar nomear o objeto como "dados" ou deixá-lo no nível superior.</li>
+</ul>
+<p><strong>Cuidado:</strong> Os clientes precisarão <strong>substituir todas as atividades</strong> beta de API externa por atividades de API externas GA em seus workflows.  Os Workflows que usam a versão beta da API externa pararão de funcionar na versão 20.3.</p>
+<p>Para obter mais informações, consulte a <a href="../../automating/using/external-api.md">documentação detalhada</a> e o <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">vídeo de instruções</a>.</p>
+</td> 
+</tr> 
+</tbody> 
 </table>
-
->[!NOTE]
->
->Novos recursos serão lançados no Painel de Controle de Campanha em abril, incluindo o gerenciamento de registros do Google TXT, monitoramento de espaço do banco de dados e alerta de email. Para obter mais informações sobre esses recursos, consulte a Nota [de versão do Painel de](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html)controle.
 
 **Aprimoramentos**
 
-* A experiência do usuário de mensagens transacionais foi aprimorada e a consistência da interface foi aprimorada. [Leia mais](../../channels/using/about-transactional-messaging.md)
-* O Campaign Standard agora permite enviar provas para o Teste de perfis usando dados adicionais de workflows.
-* As garantias para a atividade de API externa foram atualizadas. [Leia mais](../../automating/using/external-api.md)
+* O número de caracteres que podem ser usados no campo **Prefixo** para [testar mensagens usando perfis](../../sending/using/testing-messages-using-target.md) direcionados aumentou de 32 para 500 caracteres.
+* O número máximo de eventos em tempo real que podem ser publicados em uma instância foi aumentado de 350 para 2000. (CAMP-41608)
 
 **Aprimoramentos do Designer de email**
 
-* Correção de um problema que afetava a fuga ao clicar várias vezes em uma imagem personalizada.
-* Correção de um problema ao duplicar componentes de texto dinâmicos que resultava na duplicação da linha errada. (CAMP-41249)
-* Correção de um problema com o preenchimento no Outlook ao definir o preenchimento no nível da tabela em vez do nível div.
-* Correção de um problema que fazia com que a largura de uma imagem fosse modificada ao alternar para o modo HTML. (CAMP-41116)
-* Corrigido um problema que impedia que o componente de mídia social ficasse acessível ao fornecer texto alternativo aos ícones. (CAMP-41345)
-* Correção de um problema que fazia com que `<br>` as tags visíveis fossem exibidas ao usar a colagem de cópia no Designer de email.
-* Correção de um problema que fazia com que tags HTML fossem exibidas no email após alternar de conteúdo HTML para Texto simples. (CAMP-41138)
-* Correção de um problema que impedia a renderização de botões com apenas uma borda definida.
-* Corrigido um problema no recuo HTML que fazia com que o rodapé dos emails se movesse para a esquerda no Microsoft Outlook. (CAMP-40987)
-* Correção de um problema que fazia com que campos de personalização direcionados a um atributo de coleção definido em HTML fossem copiados no conteúdo de texto simples ao alternar para o modo de texto sem formatação. (CAMP-40365)
-* Correção de um problema que impedia a inserção de links em um segmento de texto selecionado. (CAMP-41406)
-* Correção de um problema que fazia com que a data fosse alterada ao selecionar um fuso horário no editor de query. (CAMP-38277)
+* O Designer de e-mail agora pode lidar com uma formatação HTML mais flexível do que com W3C estrito. (CAMP-42529)
+* Correção de um problema com imagens [](../../designing/using/links.md#inserting-a-link) clicáveis para impedir que os links sejam exibidos ao lado da imagem nos blocos de conteúdo. (CAMP-41586)
+* Correção de um problema que impedia o redirecionamento para uma landing page quando o URL [](../../designing/using/links.md#about-tracked-urls) rastreado tinha uma categoria adicionada ao modelo. (CAMP-41537)
+* Correção de um problema com o preenchimento de botões no Outlook.
+* Corrigido um problema que fazia com que as tags HTML fossem exibidas em texto sem formatação.
+* A pesquisa de blocos de conteúdo agora exibe os resultados de pesquisa do servidor, bem como os resultados pré-carregados. (CAMP-41870)
 
 **Outras alterações**
 
-* A Reconciliação de **KPIs com o fluxo de trabalho predefinido do Adobe Analytics** agora é executada até a data atual, em vez de ser executada por um único dia.
-* O MCPNS não suporta a adição de APNS e APNS-SANDBOX como plataformas em um aplicativo. Depois de adicionar o certificado com êxito no Adobe Campaign Standard, você não poderá mais alterar suas configurações novamente, pois apenas uma plataforma APNS (produção ou caixa de proteção) pode ser adicionada ao aplicativo MCPNS.
+* A interface de publicação de recursos personalizados foi aprimorada com mensagens de erro mais claras.
+* Os mapeamentos de delivery não utilizados foram removidos da interface.
+* As funções de administrador desnecessárias foram removidas da interface.
+* As caixas de seleção agora podem ser obrigatórias em uma landing page.
+* Ao baixar o arquivo CSV de um relatório dinâmico, o limite de 200 linhas foi removido. Agora você pode incluir cada linha do seu relatório. (CAMP-40810)
+* Adicionado o idioma ES-US na lista de idiomas prontos para uso para emails multilíngues. (CAMP-42279)
+* Os arquivos baixados com uma atividade Transferir arquivo serão excluídos depois de X dias, onde X é determinado pelo campo **Histórico em dias** no menu **Execução** nas propriedades Fluxo de trabalho. [Leia mais](../../automating/using/executing-a-workflow.md#workflow-properties)
 
 **Integrações da plataforma Experience**
 
->[!NOTE]
->
->Os recursos da plataforma Adobe Experience no Campaign Standard estão atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Consulte a documentação detalhada: Conector [de dados da plataforma](../../administration/using/aep-about-data-connector.md)Experience, destinos [de Audiência](../../audiences/using/aep-about-audience-destinations-service.md)
-
-* Nos logs de fluxo de trabalho, a cada 10 minutos, a Campanha agora exibe o número de registros já processados pelo trabalho que está sendo executado no momento.
-* Correção de um problema que ocorria ao importar um perfil da plataforma Adobe Experience que havia sido excluído do banco de dados.
-* Correção de um problema nos logs de fluxo de trabalho, que poderia exibir um resultado incorreto para o número total de registros importados.
+* A Ativação das Audiências [da plataforma Adobe](../../automating/using/aep-targeting-audiences.md) Experience da atividade **Read audiência** foi aprimorada para oferecer melhor desempenho e estabilidade. Além disso, os registros de fluxo de trabalho foram tornados mais claros e detalhados em relação aos trabalhos de ativação, permitindo um monitoramento e solução de problemas mais fáceis ao ler as audiências da plataforma Adobe Experience.
 
 **Correções**
 
-* Correção de um problema com a atividade do fluxo de trabalho do **Enriquecimento** que poderia ocorrer ao adicionar espaços no campo **Alias** , que criava um novo item de linha. (CAMP-39229)
-* Correção de um problema em que cada perfil de teste podia ser direcionado ao enviar uma mensagem de prova.
-* Correção de um problema que ocorria após a despublicação e exclusão de uma configuração de evento. [Leia mais](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
-* Correção de um problema em que o botão **Salvar** desaparecia ao fazer alterações em workflows.
-* Correção de um problema ao excluir uma solicitação de privacidade manualmente na Campanha depois de ela ter sido processada, o que impedia que os dados associados à solicitação fossem excluídos mesmo após a limpeza.
-* Correção de um problema que ocorria ao visualizar ou enviar mensagens que incluíam caracteres especiais do Adobe Experience Manager.
-* Correção de um problema que ocorria em workflows ao executar uma atividade com várias transições de entrada.
-* Correção de um problema que impedia usuários padrão de usar &quot;Subscrições para um aplicativo&quot; como dimensão de público alvo em um query de fluxo de trabalho ou delivery. (CAMP-37618)
+* Correção de um erro que resultava na criação de um recurso fantasma durante o trabalho de publicação de um recurso personalizado.
+* Correção de um problema que impedia que o Histórico de marketing do perfil fosse exibido se o recurso do Perfil fosse estendido com um recurso personalizado. (CAMP-41009)
+* Correção de um problema com modelos de landing page predefinidos que exibiam seu conteúdo em francês ao abrir o editor. (CAMP-41639)
+* Correção de um problema nas notificações por push com conteúdo dinâmico que impedia a exibição de emojis. (CAMP-40715)
+* Correção de um problema na atividade **Desduplicação-duplicada** que resultava na atribuição de um código de segmento incorreto a uma das transições complementares de saída. (CAMP-41400)
+* Correção de um erro que impedia a exclusão de relatórios agendados. (CAMP-41302)
+* Correção de um problema que causava discrepância entre o painel do delivery e o relatório Resumo **do** Delivery. (CAMP-41145)
+* Correção de um problema que resultava em um problema de exibição de sobreposição de caracteres em relatórios baixados.
+* Correção de um problema que impedia que a pré-visualização de um delivery funcionasse para substituição de prova.
+* Corrigido um erro ao excluir campos personalizados de uma notificação local no aplicativo.
+* Correção de um problema que impedia que a função charIndex funcionasse com uma atividade de transferência **** End **ou** File em um fluxo de trabalho.
+* Correção de um problema em workflows que ocorria ao usar uma atividade de **Enriquecimento** com duas atividades de entrada, incluindo recursos de público alvo com um link entre elas. (CAMP-42133)
+* Correção de um problema que impedia a execução de um fluxo de trabalho ao usar funções desconhecidas. (CAMP-41873)
+* Correção de um problema em workflows que ocorria ao criar audiências usando várias atividades **Salvar audiência** com transições de saída complementares. (CAMP-39992)
+* Correção de um problema que causava discrepância de dados ao usar personalização em emails transacionais. (CAMP-41842)
+* Correção de problemas que ocorriam ao excluir campos personalizados em delivery de notificação por push. (CAMP-37586)
+* Correção de um erro que impedia que os usuários fizessem alterações nos relatórios. (CAMP-42505)
