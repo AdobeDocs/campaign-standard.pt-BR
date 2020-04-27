@@ -12,20 +12,20 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 6bf67d05ec8f5b4024df29c7ee7df7fc15e95e0a
 
 ---
 
 
 # Sobre os relatórios dinâmicos{#about-dynamic-reports}
 
+O Relatórios dinâmico fornece relatórios totalmente personalizáveis e em tempo real. Ele adiciona acesso aos dados do perfil, permitindo a análise demográfica por dimensões de perfil, como gênero, cidade e idade, além de dados funcionais de campanha de email, como abrir e clicar. Com a interface de arrastar e soltar, você pode explorar dados, determinar como suas campanhas de e-mail tiveram desempenho em relação aos segmentos de clientes mais importantes e medir seu impacto nos recipient.
+
 >[!NOTE]
 >
 >Somente os usuários com direitos administrativos ou com unidades organizacionais definidas como **Todos** podem criar ou salvar um novo relatório. Para obter mais informações, consulte esta [seção](../../administration/using/users-management.md).
 
 ![](assets/dynamic_report_intro.png)
-
-O Relatórios dinâmico fornece relatórios totalmente personalizáveis e em tempo real. Ele adiciona acesso aos dados do perfil, permitindo a análise demográfica por dimensões de perfil, como gênero, cidade e idade, além de dados funcionais de campanha de email, como abrir e clicar. Com a interface de arrastar e soltar, você pode explorar dados, determinar como suas campanhas de e-mail tiveram desempenho em relação aos segmentos de clientes mais importantes e medir seu impacto nos recipient.
 
 Graças ao menu arrastar e soltar e às visualizações personalizáveis, o recurso de relatórios dinâmicos permite combinar dimensões, métricas e intervalo de tempo em qualquer combinação, com detalhamentos e comparações ilimitados.
 
