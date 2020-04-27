@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b0bc6c45127f58b00ba89f66da159c8f212db80a
+source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 ---
 
@@ -35,7 +35,7 @@ Uma visão geral mais abrangente dos recursos personalizados da Campanha pode se
 
 Para configurar a integração para entidades personalizadas, entre em contato com [adobe-support@unifisoftware.com](mailto:adobe-support@unifisoftware.com) para solicitar que isso seja feito.  O Unifi exigirá os nomes das tabelas de entidade personalizadas em ambos os sistemas, bem como os mapeamentos de atributo desejados.  O Unifi criará as ordens de produção e programações correspondentes.
 
-Um exemplo de uso de suporte personalizado de entidade pode ser visto na seção [Caso de](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md#UC)uso.
+Um exemplo de uso de suporte personalizado de entidade pode ser visto abaixo.
 
 >[!CAUTION]
 >
@@ -44,7 +44,6 @@ Um exemplo de uso de suporte personalizado de entidade pode ser visto na seção
 
 
 ## Caso de uso
-
 
 ### Estado inicial
 
@@ -179,5 +178,5 @@ Após a conclusão do serviço de entrada, os dados do veículo agora podem ser 
 
 **Tópicos relacionados**
 
-* Trabalhar com o Adobe Campaign Standard - Microsoft Dynamics 365
-* Etapas principais para adicionar um recurso personalizado na Campanha
+* [Trabalhar com o Adobe Campaign Standard - Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* [Etapas principais para adicionar um recurso personalizado na Campanha](../../developing/using/key-steps-to-add-a-resource.md)
