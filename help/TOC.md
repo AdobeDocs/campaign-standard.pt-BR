@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Ajuda do Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 79dcfb4f2e58314f3c2eafb9443d5e3da2028203
+source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
 
 ---
 
@@ -96,6 +96,9 @@ source-git-commit: 79dcfb4f2e58314f3c2eafb9443d5e3da2028203
       + [Criação de uma notificação por push multilíngue](channels/using/creating-a-multilingual-push-notification.md)
       + [Gerando um arquivo CSV para Notificação por push multilíngue](channels/using/generating-csv-multilingual-push.md)
       + [Criação e atualização de informações de perfil com base em dados de aplicativo móvel](channels/using/updating-profile-with-mobile-app-data.md)
+      + [Implementação do rastreamento de push](channels/using/push-tracking.md)
+      + [Exibir uma imagem de uma notificação por push do Adobe Campaign Standard](channels/using/image-push-notification.md)
+      + [Como entender a estrutura de carga das notificações por push de Campaign Standard](channels/using/push-payload.md)
    + Mensagens no aplicativo {#in-app-messaging}
       + [Sobre as mensagens no aplicativo](channels/using/about-in-app-messaging.md)
       + [Preparação e envio de uma mensagem no aplicativo](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -230,7 +233,7 @@ source-git-commit: 79dcfb4f2e58314f3c2eafb9443d5e3da2028203
       + [Sobre a integração de dados do Campaign com os Pontos de interesse](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [Configuração da integração de dados do Campaign com os Pontos de interesse](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [Personalização de mensagens do Campaign com dados de Ponto de interesse](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
-   + Campaign and Triggers {#working-with-campaign-and-triggers}
+   + Campanha e acionadores {#working-with-campaign-and-triggers}
       + [Sobre os acionadores da Adobe Experience Cloud](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [Configuração de acionadores na Experience Cloud](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [Usar acionadores no Campaign](integrating/using/using-triggers-in-campaign.md)
