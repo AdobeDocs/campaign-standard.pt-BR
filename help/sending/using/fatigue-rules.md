@@ -12,7 +12,7 @@ discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: bebe6df66c9a87db882d03b36c72ebdae3085245
 
 ---
 
@@ -32,8 +32,8 @@ Para implementar regras de fadiga, defina um número máximo de mensagens por pe
 Tópicos relacionados:
 
 * [Preparação](../../administration/using/configuring-email-channel.md#preparation)
-* [Gerenciamento de tipologias](../../sending/using/about-typology-rules.md#managing-typologies)
-* [Regras de tipologia](../../sending/using/about-typology-rules.md#typology-rules)
+* [Gerenciamento de tipologias](../../sending/using/managing-typologies.md)
+* [Regras de tipologia](../../sending/using/managing-typology-rules.md)
 * [Otimizar a frequência de comunicação para evitar a fadiga de contato](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
 
 ## Creating a fatigue rule {#creating-a-fatigue-rule}
@@ -154,7 +154,7 @@ No exemplo a seguir, somente perfis machos são contados e somente delivery com 
 Refinar o limite em delivery é diferente de restringir a aplicabilidade da regra inteira ( **[!UICONTROL Application criteria]** guia):
 
 * **[!UICONTROL Application criteria]**: você escolhe executar a regra ou não de acordo com critérios específicos. Por exemplo, se a condição do aplicativo for &quot;Etiqueta de start com boletim informativo&quot;, a regra será aplicada somente a delivery que respeitam essa condição. Se o delivery rotular start com &quot;Promoção&quot;, a regra não será executada.
-* **[!UICONTROL Refine threshold on profiles and deliveries > Deliveries to count]**: todos os delivery que usam essa regra de tipologia executarão a regra, mas você decide, entre os delivery anteriores e programados, quais deseja contar. Por exemplo, se a sua restrição for &quot;Etiquetar start com boletim informativo&quot;, a regra será executada mesmo se o rótulo do delivery start com &quot;Promo&quot;. Contará, durante o período deslizante selecionado, o número de delivery cujos rótulos start com &quot;Newsletter&quot;.
+* **[!UICONTROL Refine threshold on profiles and deliveries > Deliveries to count]**: todos os delivery que usam essa regra de tipologia executarão a regra, mas você decide, entre os delivery anteriores e programados, quais deseja contar. Por exemplo, se a sua restrição for &quot;Etiquetar start com boletim informativo&quot;, a regra será executada mesmo se o rótulo do delivery start com &quot;Promo&quot;. Contará, durante o período deslizante selecionado, o número de delivery cujo rótulo start com &quot;Newsletter&quot;.
 
 ## Setting the sliding period {#setting-the-sliding-period}
 
