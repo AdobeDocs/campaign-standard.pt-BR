@@ -1,25 +1,25 @@
 ---
 title: Status dos recursos
 description: Descubra os diferentes status de recursos de acordo com o estado da publicação.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 215c0a2e-27ec-43f3-baac-1eaac7640784
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: desenvolvimento
-content-type: referência
+audience: developing
+content-type: reference
 topic-tags: about-custom-resources
 discoiquuid: 85516477-1b95-4273-a0a7-d2cbb9950afd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
 
 # Status dos recursos{#resource-statuses}
 
-Os recursos podem ter status diferentes de acordo com o status de publicação ou ativação.
+Dependendo do status de publicação ou ativação, os recursos podem ter status diferentes.
 
 Há duas colunas dedicadas à exibição desses status na **[!UICONTROL Custom resources]** tela.
 
@@ -27,16 +27,16 @@ Há duas colunas dedicadas à exibição desses status na **[!UICONTROL Custom r
 
 **Status de publicação**
 
-* **Rascunho**: o recurso acabou de ser criado ou reformulado. Para criar as tabelas do banco de dados e as APIs correspondentes, o recurso deve ser republicado. Se um recurso estiver sendo redesenhado, ele será automaticamente renderizado inativo após a etapa de publicação.
-* **Redesenho** pendente: o recurso foi reelaborado. O processo de rerascunho ocorrerá durante a próxima publicação. A reformulação é irreversível. Várias mensagens de aviso alertam o usuário sobre esse fato ao reformular e, em seguida, ao se preparar para publicar.
+* **Rascunho**: o recurso acabou de ser criado ou reformulado. Para criar as tabelas do banco de dados e as APIs correspondentes, o recurso deve ser republicado. Se um recurso estiver sendo redesenhado, ele se torna automaticamente inativo após a etapa de publicação.
+* **Redesenho** pendente: o recurso foi reelaborado. O processo de rerascunho ocorrerá durante a próxima publicação. A reformulação é irreversível. Várias mensagens de aviso são exibidas para informar o usuário, tanto ao redesenhar quanto ao preparar para publicar.
 
    Para obter mais informações sobre a reformulação, consulte [Excluir um recurso](../../developing/using/deleting-a-resource.md).
 
    >[!NOTE]
    >
-   >A **[!UICONTROL Cancel re-draft]** opção está disponível quando o recurso que você deseja redesenhar ainda contém links por meio de outros recursos com o status "Publicado". Essa opção permite reverter o processo de "rerascunho". Os recursos personalizados retornarão aos status originais.
+   >A **[!UICONTROL Cancel re-draft]** opção está disponível quando o recurso que você deseja redesenhar ainda contém links por meio de outros recursos com o status &quot;Publicado&quot;. Essa opção permite reverter o processo de &quot;rerascunho&quot;. Os recursos personalizados retornarão aos status originais.
 
-* **Publicado**: o recurso foi publicado. Se o recurso for modificado após a última data modificada, será exibida uma mensagem solicitando que o usuário publique novamente para levar em conta as modificações mais recentes.
+* **Publicado**: o recurso foi publicado. Se o recurso for modificado após a última data de modificação, uma mensagem será exibida para convidá-lo a republicar o recurso a fim de levar em conta as modificações mais recentes.
 
 O **[!UICONTROL Do not publish latest modifications]** campo impede que modificações sejam levadas em conta em futuras publicações.
 
