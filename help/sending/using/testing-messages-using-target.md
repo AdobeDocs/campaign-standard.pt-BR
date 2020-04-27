@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5476cc6a93aac9805a3b471923bfffa8043a876
+source-git-commit: b44e4e7e6b48ebc5c618b014eacfc9909bc2661e
 
 ---
 
@@ -69,6 +69,10 @@ Para usar perfis direcionados para testes, primeiro selecione-os e, em seguida, 
 
    Se desejar adicionar um prefixo específico à linha de assunto do prova, preencha o campo **[!UICONTROL Subject line prefix]** .
 
+   >[!NOTE]
+   >
+   >O prefixo da linha de assunto pode conter até 500 caracteres.
+
    ![](assets/substitution_address.png)
 
    O prefixo será exibido como abaixo:
@@ -116,6 +120,10 @@ Para importar perfis para uso em testes de uma audiência, siga estas etapas:
    ![](assets/substitution_audience_import.png)
 
 1. Selecione a audiência a ser usada e insira o endereço de substituição e o prefixo a ser usado para as provas enviadas para a audiência.
+
+   >[!NOTE]
+   >
+   >O prefixo da linha de assunto pode conter até 500 caracteres.
 
    ![](assets/substitution_audience_define.png)
 
