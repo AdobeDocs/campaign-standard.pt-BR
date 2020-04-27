@@ -13,7 +13,7 @@ context-tags: fileTransfer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7f203ff0e635faf802a5577f761dc308dae4ab66
+source-git-commit: 3e90acaa1c2b3de2240f01e5dc3440be44e65eba
 
 ---
 
@@ -25,6 +25,11 @@ source-git-commit: 7f203ff0e635faf802a5577f761dc308dae4ab66
 ![](assets/file_transfer.png)
 
 A **[!UICONTROL Transfer file]** atividade permite que você receba ou envie arquivos, teste se há arquivos presentes ou arquivos de lista no Adobe Campaign.
+
+>[!CAUTION]
+>
+>A partir da versão 20.3, os arquivos baixados com a **[!UICONTROL Transfer File]** atividade serão excluídos após X dias, onde X é determinado pelo **[!UICONTROL History in days]** campo sob o **[!UICONTROL Execution]** menu nas propriedades do Workflow.
+
 
 ## Contexto de utilização {#context-of-use}
 
