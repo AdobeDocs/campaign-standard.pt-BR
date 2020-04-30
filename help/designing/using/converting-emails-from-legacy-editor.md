@@ -1,0 +1,131 @@
+---
+title: 'Convertendo email do editor herdado para o Designer de email '
+description: Descubra como usar e-mails criados no Editor herdado e-mail para o Designer de e-mail.
+page-status-flag: never-activated
+uuid: 571ffc01-6e41-4501-9094-2f812b041a10
+contentOwner: sauviat
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
+discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 1de0f5362f3c77fec4b66e330a2d2723f4a0f212
+
+---
+
+
+# Conversão de conteúdo de email do editor herdado {#converting-an-html-content}
+
+Start que trabalha com o Email Designer e cria modelos e fragmentos reutilizáveis do seu HTML de email criado no Editor Herdado.
+
+Esse caso de uso permite que você crie um modelo do Email Designer usando um email HTML e dividindo-o em componentes HTML no Designer de email.
+
+>[!CAUTION]
+>
+>Esta seção destina-se a usuários avançados familiarizados com o código HTML.
+
+>[!NOTE]
+>
+>Como o modo de compatibilidade, um componente HTML é editável com opções limitadas: você só pode executar edição no local.
+
+## Preparando seu conteúdo de email
+
+1. Selecione um email HTML.
+1. Identifique as seções para dividir o email HTML.
+1. Recorte os diferentes blocos do seu HTML.
+
+## Criar sua estrutura de email
+
+1. Abra o arquivo **[!UICONTROL Email Designer]** para criar um conteúdo de email vazio.
+1. Defina os atributos de nível de corpo: cores de fundo, largura, etc. Para obter mais informações, consulte [Edição de estilos](../../designing/using/styles.md)de email.
+1. Adicione quantos componentes de estrutura você tiver seções. Para obter mais informações, consulte [Edição da estrutura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de email.
+
+## Adicionar conteúdo HTML
+
+1. Adicione um componente HTML a cada componente de estrutura. Para obter mais informações, consulte [Adicionar fragmentos e componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Copie e cole seu HTML em cada componente.
+
+## Gerenciar o estilo do seu email {#manage-the-style-of-your-email}
+
+1. Mudar para **[!UICONTROL Mobile view]**. Para obter mais informações, consulte [esta seção](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
+
+1. Para corrigir isso, alterne para o modo de código fonte e copie e cole sua seção de estilo em uma nova seção de estilo. Por exemplo:
+
+   ```
+   <style type="text/css">
+   a {text-decoration:none;}
+   body {min-width:100% !important; margin:0 auto !important; padding:0 !important;}
+   img {line-height:100%; text-decoration:none; -ms-interpolation-mode:bicubic;}
+   ...
+   </style>
+   ```
+
+   >[!NOTE]
+   >
+   >Depois disso, adicione seu estilo em outra tag de estilo personalizada.
+   >
+   >Não modifique o CSS gerado pelo Designer de email:
+   >
+   >* `<style data-name="default" type="text/css">(##)</style>`
+   >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
+   >* `<style data-name="mediaIOS8" type="text/css">(##)</style>`
+   >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
+   >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
+
+
+1. Volte para a visualização móvel para verificar se o conteúdo é exibido corretamente e salvar as alterações.
+
+## Caso de uso
+
+Vamos tentar converter este email, criado no editor herdado, em um **[!UICONTROL Email Designer]** modelo.
+
+## Identifique a seção do seu email
+
+Podemos identificar 11 seções neste email.
+
+![](assets/html-dce-view-mail.png)
+
+Para identificar qual elemento é qual seção do HTML, você pode selecioná-lo.
+
+![](assets/breadcrumbs.png)
+
+Para ver a versão HTML do email, clique em **[!UICONTROL Show source]**.
+
+### Criar o modelo de email e sua estrutura
+
+1. Arraste e solte **[!UICONTROL Structure Components]** refletindo o layout do nosso email.
+
+Precisamos criar 11 componentes estruturais.
+
+![](assets/structure-components-migration.png)
+
+### Inserir componentes de conteúdo HTML
+
+1. Insira um **[!UICONTROL HTML component]** em cada **[!UICONTROL structure component]** .
+
+![](assets/html-components.png)
+
+1. Para cada seção, clique em **[!UICONTROL Show source code]** .
+
+![](assets/show-source-code.png)
+
+1. Insira a seção HTML.
+
+1. Clique em **[!UICONTROL Save]**.
+
+Agora você pode verificar a renderização do seu email.
+
+![](assets/migrated-email-result.png)
+
+### Gerenciamento de estilos para ajustar à visualização móvel
+
+Insira elementos CSS para garantir que seu email seja adequado para visualização móvel.
+
+1. Alterne para o código-fonte e copie e cole sua seção de estilo em uma nova seção de estilo.
+
+Para obter mais informações, consulte [Gerenciar o estilo do seu email](#manage-the-style-of-your-email).
+
+Seu email legado agora está disponível no Designer de email.
