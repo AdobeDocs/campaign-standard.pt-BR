@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Ajuda do Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
+source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
 
 ---
 
@@ -25,6 +25,7 @@ source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
 + Introdução {#getting-started}
    + Sobre o Adobe Campaign {#about-adobe-campaign}
       + [Orquestração de campanha](start/using/campaign-orchestration.md)
+      + [Privacidade e consentimento](start/using/privacy.md)
       + [Segmentação e direcionamento](start/using/segmentation-and-targeting.md)
       + [Conteúdo dinâmico e personalizado](start/using/dynamic-and-personalized-content.md)
       + [Rastreamento, monitoramento e relatórios](start/using/tracking--monitoring-and-reporting.md)
@@ -134,10 +135,12 @@ source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
       + [Trabalho com conteúdo reutilizável](designing/using/using-reusable-content.md)
       + [Uso de integrações de várias soluções](designing/using/using-integrations.md)
       + [Edição de texto sem formatação, HTML e e-mails móveis](designing/using/plain-text-html-modes.md)
+      + [Conversão de emails do Editor herdado para o Designer de email](designing/using/converting-emails-from-legacy-editor.md)
    + [Personalização de conteúdo de e-mail](designing/using/personalization.md)
    + [Gerenciamento de estilos de email](designing/using/styles.md)
    + [Gerenciamento de links](designing/using/links.md)
    + [Gerenciamento de imagens](designing/using/images.md)
+   + [Perguntas frequentes](designing/using/faq-email-designer.md)
 + Teste e envio {#testing-and-sending}
    + [Sobre o envio de mensagens com o Campaign](sending/using/about-sending-messages-with-campaign.md)
    + Preparação e teste de mensagens {#preparing-and-testing-messages}
@@ -241,10 +244,10 @@ source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
       + [Casos de uso de abandono dos acionadores](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign e Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + Trabalhar com o Campaign Standard e o Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
-         + [Trabalhar com o Campaign Standard e o Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-         + [Avisos e recomendações](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
-         + [Solicitação e configuração do Microsoft Dynamics 365 com integração com Campaign Standard](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-         + [Uso do Microsoft Dynamics 365 com integração com Campaign Standard](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+         + [Introdução à integração do Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+         + [Sobre a integração do Microsoft Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+         + [Solicite e configure a integração do Microsoft Dynamics 365](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+         + [Usar a integração do Microsoft Dynamics 365](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
       + [Configurar o Adobe IO para integração do Microsoft Dynamics 365](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + [Configurar o Microsoft Dynamics 365 para integração com Campanhas](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
       + [Configurar o Unifi para integração do Microsoft Dynamics 365](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
