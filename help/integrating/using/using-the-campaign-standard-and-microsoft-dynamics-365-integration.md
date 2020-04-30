@@ -1,5 +1,5 @@
 ---
-title: Uso do Microsoft Dynamics 365 com integração com Campaign Standard
+title: Usar a integração do Microsoft Dynamics 365
 description: Saiba como usar o Microsoft Dynamics 365 com integração com o Campaign Standard
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bff3b8f8f58c491e4010d24132b0fa3e93c3a7ab
+source-git-commit: de048c06ea2af0c988e97a37ebf945906069935e
 
 ---
 
 
-# Uso do Microsoft Dynamics 365 com integração com Campaign Standard
+# Usar a integração do Microsoft Dynamics 365
 
 Há vários trabalhos que essa integração executa:
 
@@ -90,23 +90,23 @@ Para visualização da Linha do tempo de um contato, navegue até a lista de con
 
 Abaixo, você pode ver um instantâneo da tela Contato para &quot;Usuário dinâmico&quot;.  Na visualização Linha do tempo, você notará que o Usuário do Dynamics recebeu um email associado ao Nome da Campanha &quot;2019LoyaltyCamp&quot; e ao Nome do Delivery &quot;DM190&quot;.  O Usuário do Dynamics abriu o email e também clicou em um URL no email; ambas as ações criaram eventos que também são mostrados abaixo.  Se você olhar para o canto direito, verá o cartão do Assistente de relacionamento (RA); atualmente, ele contém uma tarefa para acompanhar o URL clicado.
 
-![](assets/MSdynamicsACS-usage4.png)
+![](assets/do-not-localize/MSdynamicsACS-usage4.png)
 
 Consulte abaixo para obter um close-up da visualização da Linha do tempo para o usuário dinâmico.
 
-![](assets/MSdynamicsACS-usage5.png)
+![](assets/do-not-localize/MSdynamicsACS-usage5.png)
 
 Abaixo está um close-up do cartão do Assistente de relacionamento (RA).  O aplicativo AppSource contém um fluxo de trabalho que observa um evento de clique no URL do Adobe Email.  Quando esse evento ocorre, ele cria uma tarefa e define uma data de vencimento.  Isso permite que a tarefa apareça no cartão RA, dando-lhe visibilidade adicional.  Há um fluxo de trabalho semelhante para eventos de rejeição por email da Adobe, adicionando uma tarefa para reconciliar o endereço de email inválido.  Esses workflows podem ser desativados na solução.
 
-![](assets/MSdynamicsACS-usage6.png)
+![](assets/do-not-localize/MSdynamicsACS-usage6.png)
 
 Se você clicar no assunto do evento send, verá um formulário semelhante ao abaixo.  Os formulários para eventos abertos e de rejeição são semelhantes.
 
-![](assets/mirror_page_url_send.png)
+![](assets/do-not-localize/mirror_page_url_send.png)
 
 O formulário para eventos de cliques em url de email adiciona um atributo adicional para o URL clicado:
 
-![](assets/mirror_page_url_click.png)
+![](assets/do-not-localize/mirror_page_url_click.png)
 
 Veja a seguir uma lista dos atributos e uma descrição:
 
