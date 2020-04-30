@@ -1,6 +1,6 @@
 ---
-title: Trabalhar com o Campaign Standard e o Microsoft Dynamics 365
-description: Saiba como trabalhar com o Campaign Standard e o Microsoft Dynamics 365
+title: Introdução à integração do Microsoft Dynamics 365
+description: Saiba mais sobre como começar a integração com o Microsoft Dynamics 365
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
 contentOwner: sauviat
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 03009c47a66aa1a62c05f632e2a60141a98639d8
+source-git-commit: 277663c4cf0e810f691eeebfade17bf8dd73698e
 
 ---
 
 
-# Trabalhar com o Campaign Standard e o Microsoft Dynamics 365
+# Introdução à integração do Microsoft Dynamics 365
 
 Ative seus dados do CRM na comunicação entre canais: saiba como repassar contatos do Microsoft Dynamics 365 para o Adobe Campaign e compartilhar dados de desempenho da campanha (envios, aberturas, cliques e rejeições) de volta do Adobe Campaign para o Microsoft Dynamics 365.
 
