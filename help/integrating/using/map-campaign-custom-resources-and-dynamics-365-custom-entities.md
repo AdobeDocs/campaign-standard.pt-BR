@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
+source-git-commit: 4e05dafb087c43a13c60d6bb2f54d0e44455ea8d
 
 ---
 
@@ -59,15 +59,15 @@ O cliente tem um veículo de entidade personalizado predefinido no Dynamics 365 
 
 As entidades personalizadas deste cliente no Dynamics 365 podem ser visualizadas no Painel de vendas clicando na lista suspensa ao lado do Dynamics 365.  As entidades personalizadas deste cliente são agrupadas em **[!UICONTROL Extensions]**.
 
-![](assets/SalesDashboard.png)
+![](assets/do-not-localize/SalesDashboard.png)
 
 Os dados do veículo podem ser visualizados clicando-se na entidade **[!UICONTROL vehicle]** personalizada.  Veja a lista dos veículos abaixo.
 
-![](assets/VehicleCustomEntity.png)
+![](assets/do-not-localize/VehicleCustomEntity.png)
 
 A relação da **[!UICONTROL vehicle]** entidade com a **[!UICONTROL Contact]** entidade pode ser vista abaixo. **[!UICONTROL Parental]** foi escolhido para o **[!UICONTROL Type of Behavior]**.
 
-![](assets/ContactToVehicle.png)
+![](assets/do-not-localize/ContactToVehicle.png)
 
 ### Configuração no Campaign Standard
 
@@ -102,7 +102,7 @@ A Campanha exibirá as estruturas de dados e a página de link.  É possível ve
 >
 >Cada recurso personalizado deve ter um campo exclusivo com uma ID de externalId (exatamente).  Esse campo mapeará para o campo ID do recurso personalizado no Dynamics 365 (consulte abaixo).
 
-![](assets/FieldsInDynamics.png)
+![](assets/do-not-localize/FieldsInDynamics.png)
 
 ### Definir as chaves de identificação
 
@@ -170,7 +170,7 @@ Em seguida, clique **[!UICONTROL Publish]** e aguarde a conclusão.
 
 Presumindo que o cliente já preencheu a entidade personalizada de veículo no Dynamics 365 e que o Unifi configurou as tarefas e programações da entidade personalizada de veículos com o, o cliente deverá ser capaz de iniciar o agendamento de entrada para a entidade de veículo.
 
-![](assets/Schedule.png)
+![](assets/do-not-localize/Schedule.png)
 
 Após a conclusão do serviço de entrada, os dados do veículo agora podem ser vistos no recurso **[!UICONTROL Vehicle]** personalizado recém-preenchido na Campanha.
 
