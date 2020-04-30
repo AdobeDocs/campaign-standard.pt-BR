@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+source-git-commit: 5d4560a26c0f5c6d3e8710caf51d4a82fbf80174
 
 ---
 
@@ -31,9 +31,15 @@ Atividade de API externa (GA) - [Leia mais](../../automating/using/external-api.
 
 **Outras atualizações de documentação que vêm com a versão**
 
-* Foram adicionadas informações sobre o **[!UICONTROL History in days]** campo nas propriedades dos workflows que agora incluem arquivos baixados pela **[!UICONTROL Transfer file]** atividade. [Leia mais](../../automating/using/executing-a-workflow.md)
+Foram adicionadas informações sobre o **[!UICONTROL History in days]** campo nas propriedades dos workflows que agora incluem arquivos baixados pela **[!UICONTROL Transfer file]** atividade. [Leia mais](../../automating/using/executing-a-workflow.md)
 
-* Foram adicionadas informações na seção de substituição de perfis relativas ao limite de 500 caracteres do prefixo da linha de assunto. [Leia mais](../../sending/using/testing-messages-using-target.md)
+Foram adicionadas informações na seção de substituição de perfis relativas ao limite de 500 caracteres do prefixo da linha de assunto. [Leia mais](../../sending/using/testing-messages-using-target.md)
+
+Uma nova seção dedicada à Privacidade e Consentimento foi adicionada à documentação principal. [Leia mais](../../start/using/privacy.md)
+
+* Um caso de uso foi adicionado para permitir a conversão de emails herdados do editor no Designer de email. [Leia mais](../../designing/using/converting-emails-from-legacy-editor.md)
+
+* Uma seção de perguntas frequentes foi adicionada sobre o Designer de email. [Leia mais](../../designing/using/faq-email-designer.md)
 
 ## Atualizações da documentação - abril de 2020 {#doc-updates-april-2020}
 
