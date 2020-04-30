@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: 4e05dafb087c43a13c60d6bb2f54d0e44455ea8d
 
 ---
 
@@ -57,7 +57,7 @@ Para gerar o token de acesso OAuth, siga as etapas descritas abaixo.
 
 1. Clique **[!UICONTROL New registration]** na parte superior da tela.
 
-   ![](assets/MSdynACSIntegration-7.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-7.png)
 
 1. Preencha a tela de registro do aplicativo:
 
@@ -74,7 +74,7 @@ For more information about creating a new application, refer to [this section](h
 
 1. Na tela de visão geral do aplicativo, no submenu à esquerda, clique em **[!UICONTROL Certificates and Secrets > New client secret]**
 
-   ![](assets/MSdynACSIntegration-8.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-8.png)
 
 1. Insira uma descrição, defina a duração e clique em **[!UICONTROL OK]**.
 
@@ -90,11 +90,11 @@ Para obter mais informações sobre como gerar um segredo de cliente, consulte e
 
 1. Nessa tela ou na tela de visão geral do aplicativo, clique em **[!UICONTROL API permissions]** no submenu à esquerda.  Depois de clicar **[!UICONTROL Add a permission]**, é necessário selecionar **[!UICONTROL Dynamics CRM]** no menu.
 
-   ![](assets/MSdynACSIntegration-9.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-9.png)
 
 1. Em seguida, marque a caixa para **[!UICONTROL user_impersonation]** e clique no **[!UICONTROL Add permissions]** botão.
 
-   ![](assets/MSdynACSIntegration-10.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-10.png)
 
 Para obter mais informações sobre a configuração de permissão, consulte [esta seção](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis).
 
@@ -138,7 +138,7 @@ Siga as instruções no link a seguir para localizar sua ID de locatário.  Voc�
 Para integrar o aplicativo Dynamics 365 ao seu ambiente Campaign Standard, siga as etapas abaixo:
 
 1. Navegue até o seguinte link: [https://appsource.microsoft.com/en-us/marketplace/apps](https://appsource.microsoft.com/en-us/marketplace/apps) e procure _Adobe Campaign para Dynamics 365_ na barra de pesquisa.
-Como alternativa, você pode navegar até esse [link](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&tab=Overview).
+Como alternativa, você pode navegar até esse [link](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview).
 1. Siga as instruções para instalar o aplicativo para sua instância do Dynamics 365.
 1. Depois de instalado, navegue até a instância do Dynamics 365 e faça logon como administrador.
 1. Clique no ícone de engrenagem no canto superior direito e clique em **[!UICONTROL Advanced Settings]**. No banner superior, clique na lista suspensa ao lado de **[!UICONTROL Settings]**, clique em **[!UICONTROL Processes]** embaixo **[!UICONTROL Process Center]**.
