@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
+source-git-commit: 9388df151eabbc6f63461e854d0276c14d9ef93d
 
 ---
 
@@ -70,7 +70,7 @@ Os vídeos passo a passo também estão disponíveis [nesta página](https://doc
 
 * A transferência predefinida de eventos de subscrição não é suportada. Para transferir eventos de subscrição, você pode criar XDM e conjunto de dados correspondentes na Adobe Experience Platform e, em seguida, configurar um mapeamento de dados personalizado para esses dados.
 
-* Em relação às solicitações de privacidade, os clientes precisam colocar solicitações separadas para o serviço de privacidade principal da Campanha e a plataforma Adobe Experience para acessar e excluir ações.
+* Em relação às solicitações de privacidade (tanto as ações de acesso quanto de exclusão), os clientes precisam colocar solicitações separadas: uma para Campanha por meio da integração do Privacy Core Service (consulte [esta seção](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess)) e outra para a Adobe Experience Platform por meio do [Privacy Service](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa). Para obter mais informações sobre solicitações de acesso e exclusão, consulte [esta página](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess).
 
 * Para cada campo XDM, a rotulação DULE precisa ser feita na Adobe Experience Platform. Esta é a responsabilidade do cliente de aplicar etiquetas DULE.
 
