@@ -1,5 +1,5 @@
 ---
-title: '"Trabalhando com o Campaign Standard e o Microsoft Dynamics 365: Avisos e recomendações"'
+title: Sobre a integração do Microsoft Dynamics 365
 description: Saiba mais sobre avisos e recomendações para trabalhar com o Campaign Standard e o Microsoft Dynamics 365
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 620be6615d162672948c3dccdae2752b8c999c47
+source-git-commit: 277663c4cf0e810f691eeebfade17bf8dd73698e
 
 ---
 
 
-# Trabalhando com o Campaign Standard e o Microsoft Dynamics 365: Avisos e recomendações
+# Sobre a integração do Microsoft Dynamics 365
 
 ## Apoio regional
 
@@ -49,7 +49,7 @@ Quando um Contato é excluído no Dynamics 365, a integração enfileira uma sol
 
 No entanto, se o processo de 2 etapas estiver ativado, você precisará acessar a tela Solicitação de privacidade/ferramentas, depois que os workflows técnicos de privacidade tiverem sido executados e confirmar se os registros estão ok para serem excluídos.  Só então a Campanhas cuidará da exclusão.
 
-Para obter mais detalhes, consulte [Como executar solicitações de exclusão relacionadas à privacidade no Adobe Campaign Standard](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/execute-privacy-requests.html)
+Para obter mais detalhes, consulte [Como executar solicitações de exclusão relacionadas à privacidade no Adobe Campaign Standard](https://docs.adobe.com/content/help/pt-BR/campaign-learn/campaign-standard-tutorials/privacy/execute-privacy-requests.html)
 
 >[!CAUTION]
 >
