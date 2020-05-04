@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a71af00e606d78c4ff8b39da1b9f032c0dcf0fc6
+source-git-commit: 0c9f465ac3df39fd5df1266c2f993c0b08d3d4fd
 
 ---
 
@@ -33,23 +33,23 @@ Todas as datas de lançamento estão sujeitas a alterações: recomendamos que v
 
 As atualizações de Ambientes ocorrem no ondas, durante os intervalos de tempo indicados abaixo. Informações detalhadas sobre esta versão estão disponíveis nas [Notas](../../rn/using/release-notes.md)de versão. Caso tenha mais dúvidas, entre em contato com o [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin).
 
-<table> 
- <thead> 
-  <tr> 
-   <th> Ambiente<br /> </th> 
-   <th> Datas<br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> Estágio<br /> </td> 
-   <td> 27 a 28 de abril de 2020<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Produção<br /> </td> 
-   <td> 4 a 11 de maio de 2020<br /> </td> 
-  </tr> 
- </tbody> 
+<table>
+ <thead>
+  <tr>
+   <th> Ambiente<br /> </th>
+   <th> Datas<br /> </th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>Estágio<br /> </td>
+   <td><s>27 a 28 de abril de 2020</s> Atrasado<br /> </td>
+  </tr>
+  <tr>
+   <td> Produção<br /> </td>
+   <td><s>Atraso de 4 a 11 de maio de 2020</s><br /> </td>
+  </tr>
+ </tbody>
 </table>
 
 
