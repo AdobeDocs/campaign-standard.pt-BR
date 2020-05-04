@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 57b87896281efa7dd1e6a612926f59061a0fdcb8
+source-git-commit: adfeb1c83d9ef4ce9f483c134a0fd230fbc6636c
 
 ---
 
@@ -23,28 +23,28 @@ source-git-commit: 57b87896281efa7dd1e6a612926f59061a0fdcb8
 >
 >O Adobe Experience Platform Data Connector está atualmente em beta, que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam estar hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente da Adobe se desejar acessar.
 
-Adobe Campaign Standard allows you to trigger the immediate ingestion of data mappings via APIs, and retrieve the status of your ingestion requests.
+O Adobe Campaign Standard permite acionar a ingestão imediata de mapeamentos de dados por meio de APIs e recuperar o status de suas solicitações de ingestão.
 
-This page describes how to trigger and retrieve the ingestion status of your data mappings. For global information on Campaign Standard APIs, refer to [this section](../../api/using/about-campaign-standard-apis.md).
+Esta página descreve como acionar e recuperar o status de ingestão de seus mapeamentos de dados. Para obter informações globais sobre APIs de Campaign Standard, consulte [esta seção](../../api/using/about-campaign-standard-apis.md).
 
 ## Pré-requisitos {#prerequisites}
 
-Before using the APIs, the data mapping must first have been configured and published within Campaign Standard interface. Para obter mais informações, consulte estas seções:
+Antes de usar as APIs, o mapeamento de dados deve ter sido configurado e publicado primeiro na interface do Campaign Standard. Para obter mais informações, consulte estas seções:
 
 * [Definição de mapeamento](../../administration/using/aep-mapping-definition.md)
 * [Ativação de mapeamento](../../administration/using/aep-mapping-activation.md)
 
 Depois que o mapeamento de dados é criado, você deve impedir que ele seja executado para que você possa acioná-lo das APIs sempre que desejar. Para fazer isso, siga estas etapas:
 
-1. In Campaign Standard, go to the **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** menu.
+1. No Campaign Standard, vá para o menu **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** .
 
-1. Double-click the data mapping to open it, then click the **[!UICONTROL Stop]** button.
+1. Clique no mapeamento de dados com o Duplo do mouse para abri-lo e clique no **[!UICONTROL Stop]** botão.
 
    ![](assets/aep_datamapping_stop.png)
 
 1. Salve as alterações
 
-A execução do mapeamento de dados agora está parada. You can use Campaign Standard APIs to trigger it manually.
+A execução do mapeamento de dados agora está parada. Você pode usar as APIs de Campaign Standard para acioná-las manualmente.
 
 ## Iniciando a ingestão imediata do mapeamento de dados {#starting-immediate-ingestion}
 
@@ -71,7 +71,7 @@ A operação POST retorna informações relacionadas ao status da solicitação 
 }
 ```
 
-* Request already in progress for the XDM Mapping:
+* Solicitação já em andamento para o Mapeamento XDM:
 
 ```
 {
@@ -81,7 +81,7 @@ A operação POST retorna informações relacionadas ao status da solicitação 
 }
 ```
 
-* Request failed because the XDM mapping is not published or is stopped:
+* A solicitação falhou porque o mapeamento XDM não foi publicado ou foi interrompido:
 
 ```
 {
@@ -94,9 +94,9 @@ A operação POST retorna informações relacionadas ao status da solicitação 
 }
 ```
 
-## Retrieving the status of an ingestion request {#retrieving-status}
+## Recuperando o status de uma solicitação de ingestão {#retrieving-status}
 
-The status of an ingestion request can be retrieved with a GET operation and the desired request ID in the parameters:
+O status de uma solicitação de ingestão pode ser recuperado com uma operação GET e a ID de solicitação desejada nos parâmetros:
 
 ```
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest
@@ -104,7 +104,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 ```
 
 >[!NOTE]
-Detailed information about the XDM mapping request status and its related jobs is available in Campaign Standard interface, in the **!UICONTROL [Status of data export to platform ]**menu (see[Mapping activation](../../administration/using/aep-mapping-activation.md)).
+Informações detalhadas sobre o status da solicitação de mapeamento XDM e seus trabalhos relacionados estão disponíveis na interface do Campaign Standard, no **!UICONTROL [Status da exportação de dados para o menu da plataforma ]**(consulte[Mapeamento da ativação](../../administration/using/aep-mapping-activation.md)).
 
 A operação GET retorna as informações abaixo:
 
@@ -115,7 +115,7 @@ A operação GET retorna as informações abaixo:
 
 As possíveis respostas à operação GET são:
 
-* Ingest request successfull:
+* Solicitação de assimilação bem-sucedida:
 
    ```
    {
@@ -125,7 +125,7 @@ As possíveis respostas à operação GET são:
    "requestId": 3520,
    "status": "Success"
    }
-   ````
+   ```
 
 * Falha na solicitação de assimilação com 0 registro ingerido:
 
@@ -141,7 +141,7 @@ As possíveis respostas à operação GET são:
 
 * Falha na solicitação de assimilação, com alguns registros carregados em um lote:
 
-   ````
+   ```
    {
    "batchId": "<value>",
    "info": "Mapping Id: <value>. ACP-880096 Sync Job failed to upload. Please check the error in the Platform UI.",
@@ -150,7 +150,7 @@ As possíveis respostas à operação GET são:
    "status": "Failed"
    }
    ```
-   
+
 * Solicitação de assimilação abortada após a ingestão de alguns registros (isso pode ocorrer em cenários de falha):
 
    ```
