@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c9f465ac3df39fd5df1266c2f993c0b08d3d4fd
+source-git-commit: 412fc89b8d0a075da8b0c458e2265abc5a4d4fbc
 
 ---
 
@@ -43,11 +43,11 @@ As atualizações de Ambientes ocorrem no ondas, durante os intervalos de tempo 
  <tbody>
   <tr>
    <td>Estágio<br /> </td>
-   <td><s>27 a 28 de abril de 2020</s> Atrasado<br /> </td>
+   <td>Atrasado<br /> </td>
   </tr>
   <tr>
    <td> Produção<br /> </td>
-   <td><s>Atraso de 4 a 11 de maio de 2020</s><br /> </td>
+   <td>Atrasado<br /> </td>
   </tr>
  </tbody>
 </table>
