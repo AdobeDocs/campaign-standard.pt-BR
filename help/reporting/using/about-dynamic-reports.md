@@ -1,5 +1,5 @@
 ---
-title: Sobre os relatórios dinâmicos
+title: Introdução aos relatórios dinâmicos
 description: Com relatórios dinâmicos, arraste e solte variáveis e dimensões em seu ambiente de forma livre e analise o sucesso de suas campanhas.
 page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
@@ -12,29 +12,18 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6bf67d05ec8f5b4024df29c7ee7df7fc15e95e0a
+source-git-commit: d62c8cdac83789cfdffb7fd5e0d6c086e81300b1
 
 ---
 
 
-# Sobre os relatórios dinâmicos{#about-dynamic-reports}
+# Introdução aos relatórios dinâmicos {#about-dynamic-reports}
 
 O Relatórios dinâmico fornece relatórios totalmente personalizáveis e em tempo real. Ele adiciona acesso aos dados do perfil, permitindo a análise demográfica por dimensões de perfil, como gênero, cidade e idade, além de dados funcionais de campanha de email, como abrir e clicar. Com a interface de arrastar e soltar, você pode explorar dados, determinar como suas campanhas de e-mail tiveram desempenho em relação aos segmentos de clientes mais importantes e medir seu impacto nos recipient.
 
 >[!NOTE]
 >
 >Somente os usuários com direitos administrativos ou com unidades organizacionais definidas como **Todos** podem criar ou salvar um novo relatório. Para obter mais informações, consulte esta [seção](../../administration/using/users-management.md).
-
-![](assets/dynamic_report_intro.png)
-
-Graças ao menu arrastar e soltar e às visualizações personalizáveis, o recurso de relatórios dinâmicos permite combinar dimensões, métricas e intervalo de tempo em qualquer combinação, com detalhamentos e comparações ilimitados.
-
-
-**Tópicos relacionados:**
-
-* [lista do relatório](../../reporting/using/defining-the-report-period.md)
-* [Unidades organizacionais](../../administration/using/organizational-units.md)
-* [Vídeo de relatórios](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/creating-a-dynamic-report.html) dinâmicos
 
 ## Acesso a relatórios dinâmicos {#accessing-dynamic-reports}
 
@@ -76,7 +65,7 @@ A tabela abaixo exibe o que acontece depois de aceitar este contrato, dependendo
 |  | relatórios dinâmico | Conector do Microsoft Dynamics 365 |
 |---|---|---|
 | Américas e APAC (Pacífico Asiático) | **Recurso disponível**. <br>Todas as informações prontas para uso (ou seja, cidade, país/região, estado, gênero e segmentos com base na idade) e perfis personalizados encaminhados para o centro de relatórios dos EUA. For more information on profile dimensions, refer to this [page](../../reporting/using/list-of-components-.md) | **Recurso disponível**. <br>Todos os campos de perfis prontos para uso e personalizados e campos de evento padrão são processados no data center dos EUA. |
-| EMEA (Europa, Oriente Médio e África) | **Recurso disponível**. <br>Todas as informações prontas para uso (ou seja, cidade, país/região, estado, gênero e segmentos com base na idade) e perfis personalizados encaminhados para o centro de relatórios da EMEA. For more information on profile dimensions, refer to this [page](../../reporting/using/list-of-components-.md) | **Recurso disponível.** Campos <br>predefinidos e personalizados de perfis e campos de evento padrão processados no data center da EMEA. <br>**[!UICONTROL Control data]** que contém dados de registro de E/S da Adobe e IDs de eventos de usuários finais do cliente enviados e armazenados no data center dos EUA. |
+| EMEA (Europa, Oriente Médio e África) | **Recurso disponível**. <br>Todas as informações prontas para uso (ou seja, cidade, país/região, estado, gênero e segmentos com base na idade) e perfis personalizados encaminhados para o centro de relatórios da EMEA. For more information on profile dimensions, refer to this [page](../../reporting/using/list-of-components-.md) | **Recurso disponível.** <br>Todos os campos predefinidos e personalizados de perfil e campos de evento padrão processados no data center da EMEA. <br>**[!UICONTROL Control data]** que contém dados de registro de E/S da Adobe e IDs de eventos de usuários finais do cliente enviados e armazenados no data center dos EUA. |
 
 A tabela abaixo mostra o que acontece depois de recusar este contrato, dependendo da sua região. Observe que mesmo se você recusar este contrato, o relatórios sobre delivery e a integração com o Microsoft Dynamics 365 ainda estarão disponíveis.
 
