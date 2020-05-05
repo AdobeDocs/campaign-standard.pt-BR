@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentação do produto Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
 
 ---
 
@@ -15,13 +15,13 @@ source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ## Novidades
 
-* **[Teste de email usando perfis](sending/using/testing-messages-using-target.md)**<br/>direcionadosSaiba como testar seus emails em perfis direcionados reais
+* **[Teste de email usando perfis direcionados](sending/using/testing-messages-using-target.md)**<br/>Saiba como testar seus emails em perfis direcionados reais
 
 * **[Gerenciamento de privacidade](https://helpx.adobe.com/br/campaign/kb/campaign-privacy.html)**<br/>
-Saiba mais sobre as ferramentas fornecidas pelo Adobe Campaign para ajudá-lo a estar em conformidade com privacidade
+Saiba mais sobre as ferramentas fornecidas pelo Adobe Campaign para ajudá-lo a estar em conformidade com a privacidade
 
 * **[Guia do Campaign Standard Mobile](https://helpx.adobe.com/br/campaign/kb/acs-mobile.html)**<br/>
-Saiba mais sobre as diretrizes gerais para entregas móveis
+Saiba mais sobre diretrizes gerais para entregas móveis
 
 [Clique aqui para obter mais atualizações](rn/using/documentation-updates.md)
 
@@ -54,7 +54,7 @@ Saiba mais sobre as diretrizes gerais para entregas móveis
     <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
     <strong>Obter suporte</strong></a>
     </div>
-    <p><em>Acesse perguntas frequentes, práticas recomendadas, recursos de ajuda e conecte-se aos especialistas</em></p>
+    <p><em>Acesse as perguntas frequentes, práticas recomendadas, recursos de ajuda e conecte-se com especialistas</em></p>
     <br>
   </td>
 </tr>
@@ -65,8 +65,8 @@ Saiba mais sobre as diretrizes gerais para entregas móveis
 | Páginas úteis | Recursos para desenvolvedores |
 |---|---|
 | [Notas de versão](rn/using/release-notes.md) | [Acionadores da Experience Cloud](integrating/using/about-adobe-experience-cloud-triggers.md) |
-| [Documentação do Painel de controle](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.translate.html) | [APIs de Campanha](api/using/about-campaign-standard-apis.md) |
+| [Documentação do Painel de Controle](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.translate.html) | [APIs de Campanha](api/using/about-campaign-standard-apis.md) |
 | [Guia de implementação](https://helpx.adobe.com/br/campaign/kb/campaign-standard-implementation-guide.html) | [Lista de mensagens de erro](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Planejamento de versão](rn/using/release-planning.md) | [Modelo de dados de Campanha](developing/using/datamodel-introduction.md) |
-| [Recursos obsoletos e removidos](https://helpx.adobe.com/br/campaign/kb/acs-deprecated-and-removed-features.html) | [Guia de várias soluções](integrating/using/about-campaign-integrations.md) |
-| [Introdução ao Campaign Standard](start/using/campaign-orchestration.md) | [Notas técnicas](https://helpx.adobe.com/br/campaign/kb/acs-article-list.html) |
+| [Recursos obsoletos e removidos](https://helpx.adobe.com/br/campaign/kb/acs-deprecated-and-removed-features.html) | [Guia multissoluções](integrating/using/get-started-campaign-integrations.md) |
+| [Introdução ao Campaign Standard](start/using/about-campaign-standard.md) | [Notas técnicas](https://helpx.adobe.com/br/campaign/kb/acs-article-list.html) |
