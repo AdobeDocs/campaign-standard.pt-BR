@@ -12,14 +12,14 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
+source-git-commit: f4c6b74d9b80d80befed65d853cf82b32084c49d
 
 ---
 
 
 # Notas de versão 2020{#release-notes-2020}
 
-[Planejamento](https://helpx.adobe.com/br/campaign/kb/acs-release-planning.html) da versão| Versões [do Painel](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html) de controle| Atualizações [da](../../rn/using/documentation-updates.md) documentação| Notas [de versão](../../rn/using/release-notes-2019.md) anteriores| Recursos [obsoletos](https://helpx.adobe.com/br/campaign/kb/acs-deprecated-and-removed-features.html)
+[Planejamento de versão](https://helpx.adobe.com/br/campaign/kb/acs-release-planning.html) | Versões [do Painel de controle](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html) | Atualizações [da documentação](../../rn/using/documentation-updates.md) | Notas de versão [anteriores](../../rn/using/release-notes-2019.md) | Recursos [obsoletos](https://helpx.adobe.com/br/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## Versão 20.2 - abril de 2020 {#release-20-2---april-2020}
 
@@ -89,7 +89,7 @@ source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
 
 >[!NOTE]
 >
->Os recursos da plataforma Adobe Experience no Campaign Standard estão atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Consulte a documentação detalhada: Conector [de dados da plataforma](../../administration/using/aep-about-data-connector.md)Experience, destinos [de Audiência](../../audiences/using/aep-about-audience-destinations-service.md)
+>Os recursos da plataforma Adobe Experience no Campaign Standard estão atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Consulte a documentação detalhada: [Conector](../../developing/using/aep-about-data-connector.md)de dados da plataforma Experience, destinos de [Audiência](../../audiences/using/aep-about-audience-destinations-service.md)
 
 * Nos logs de fluxo de trabalho, a cada 10 minutos, a Campanha agora exibe o número de registros já processados pelo trabalho que está sendo executado no momento.
 * Correção de um problema que ocorria ao importar um perfil da plataforma Adobe Experience que havia sido excluído do banco de dados.
@@ -136,7 +136,7 @@ source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
  <tbody> 
   <tr> 
    <td> <p>O Adobe Experience Platform Data Connector agora é integrado ao Adobe Campaign Standard. Você pode disponibilizar seus dados de Campanha na Adobe Experience Platform mapeando dados XTK (dados ingeridos na Campanha) para o Adobe Experience Platform Data Model (XDM). </p>
-    <p>Observe que esse recurso só está disponível para clientes hospedados no Azure. Para obter mais informações sobre esse recurso e as condições para ativá-lo, consulte a documentação <a href="../../administration/using/aep-about-data-connector.md"></a> detalhada e o vídeo <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">de</a>instruções.</p>
+    <p>Observe que esse recurso só está disponível para clientes hospedados no Azure. Para obter mais informações sobre esse recurso e as condições para ativá-lo, consulte a documentação <a href="../../developing/using/aep-about-data-connector.md"></a> detalhada e o vídeo <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">de</a>instruções.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -199,7 +199,7 @@ source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
 * Correção de um problema ao usar uma **[!UICONTROL Union]** atividade em query com diferentes dimensões de público alvo. Os dados de transição mostravam apenas registros do targeting dimension do conjunto principal. (CAMP-36831)
 * Correção de um problema que resultava em erro ao usar uma **[!UICONTROL Reconciliation]** atividade em contextos específicos, por exemplo, com duas atividades de entrada, uma delas sendo uma atividade de exclusão. (CAMP-37490)
 * Correção de problemas de desempenho que podem ocorrer ao selecionar e atualizar perfis de teste. (CAMP-37976)
-* Correção de um problema que podia exibir páginas de erro ao assinar ou cancelar a inscrição via landing page. (CAMP-37771)
+* Correção de um problema que podia exibir páginas de erro ao assinar ou cancelar a assinatura via landing page. (CAMP-37771)
 * Correção de um problema que ocorria ao carregar conteúdo no formato zip, com arquivos PNG referenciados no HTML com sua extensão em letras maiúsculas. (CAMP-37913)
 * Correção de um problema que impedia o envio de mensagens no aplicativo ao adicionar um perfil de teste ao delivery.
 * Correção de um erro com a atividade de fluxo de trabalho da API externa que falhava quando vinculada ao enriquecimento atividade.
