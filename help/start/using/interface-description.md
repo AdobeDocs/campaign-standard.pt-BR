@@ -12,7 +12,7 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 260312a461d02c32683e1eb8a90bbaa282800668
+source-git-commit: 40bb454d13de14658bfc30a6454a1a896bf3ad70
 
 ---
 
@@ -44,8 +44,8 @@ O home page é composto de um conjunto de cartões que fornecem acesso rápido �
 * O **[!UICONTROL Marketing activities]** cartão leva você à lista completa de todas as atividades, programas e campanhas, especialmente emails, SMS, workflows e landings page. Desse ponto, você pode filtrar os elementos pesquisando por nome, data, status ou tipo de atividade. Para obter mais informações, consulte a seção lista [da](../../start/using/marketing-activities.md#about-marketing-activities) atividade de marketing.
 * O **[!UICONTROL Programs & campaigns]** cartão leva você à lista de programas em que você pode criar e gerenciar suas campanhas. Consulte a lista [do Programa](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
 * O **[!UICONTROL Timeline]** cartão leva você diretamente para uma linha do tempo interativa de suas atividades de marketing, na qual você pode consultar os programas em andamento e seu conteúdo. Consulte a [Linha do tempo](../../start/using/timeline.md).
-* O **[!UICONTROL Customer profiles]** cartão leva você diretamente para a lista dos perfis. Aqui você pode consultar os eventos sobre cada um dos perfis da sua lista. Consulte [Gerenciamento de perfis](../../audiences/using/about-profiles.md).
-* O **[!UICONTROL Audiences]** cartão leva você diretamente para a lista do audiência. Aqui você pode acessar audiências existentes e criar novas. Consulte [Gerenciamento de audiências](../../audiences/using/about-audiences.md).
+* O **[!UICONTROL Customer profiles]** cartão leva você diretamente para a lista dos perfis. Aqui você pode consultar os eventos sobre cada um dos perfis da sua lista. Refer to [Managing profiles](../../audiences/using/about-profiles.md).
+* O **[!UICONTROL Audiences]** cartão leva você diretamente para a lista do audiência. Aqui você pode acessar audiências existentes e criar novas. Refer to [Managing audiences](../../audiences/using/about-audiences.md).
 
 ## Barra superior {#top-bar}
 
@@ -101,7 +101,7 @@ O **[!UICONTROL Resources]** ícone fornece acesso às seguintes funcionalidades
 
 ### Administração {#administration}
 
-O **[!UICONTROL Administration]** ícone fornece acesso às funcionalidades avançadas que só podem ser executadas pelo administrador funcional. For more on this, refer to the [Administration](../../administration/using/about-administrating-adobe-campaign.md) section.
+O **[!UICONTROL Administration]** ícone fornece acesso às funcionalidades avançadas que só podem ser executadas pelo administrador funcional. For more on this, refer to the [Administration](../../administration/using/get-started-campaign-administration.md) section.
 
 ## Zona central {#central-zone}
 
