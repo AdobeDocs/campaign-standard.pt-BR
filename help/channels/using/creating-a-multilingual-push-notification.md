@@ -1,6 +1,6 @@
 ---
 title: Criação de uma notificação por push multilíngue
-description: Crie notificações por push multilíngues para direcionar seus usuários em seus idiomas e regiões preferidos.
+description: Crie notificações por push multilíngues para público alvo de seus usuários em seus idiomas e regiões preferidos.
 page-status-flag: never-activated
 uuid: d4aff741-e969-47c6-bae8-787c6c673191
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -21,28 +21,28 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ## Sobre a notificação por push multilíngue {#about-multilingual-push-notification}
 
-Personalize seu conteúdo de notificação por push enviando mensagens com base nos idiomas e regiões preferidos de seus usuários. É possível importar diretamente variantes de conteúdo de notificação por push multilíngues no editor de conteúdo e enviar uma notificação por push multilíngue em uma única entrega.
+Personalize seu conteúdo de notificação por push enviando mensagens com base nos idiomas e regiões preferidos de seus usuários. É possível importar diretamente variantes de conteúdo de notificação por push multilíngues no editor de conteúdo e enviar uma notificação por push multilíngue em um único delivery.
 
-Esse recurso utiliza os idiomas preferenciais especificados nos perfis dos destinatários ou a preferência de idioma do sistema para assinantes de aplicativos móveis, dependendo do modelo de entrega usado para a notificação por push. Se a preferência de idioma não for preenchida para um determinado usuário, o sistema usará a variante padrão definida ao criar uma notificação por push multilíngue. Para obter mais informações sobre como gerenciar seus perfis e assinantes, consulte este [guia](../../audiences/using/about-profiles-and-audiences.md).
+Esse recurso utiliza os idiomas preferenciais especificados nos perfis do recipient ou a preferência de idioma do sistema para assinantes de aplicativos móveis, dependendo do template do delivery usado para a notificação por push. Se a preferência de idioma não for preenchida para um determinado usuário, o sistema usará a variante padrão definida ao criar uma notificação por push multilíngue. Para obter mais informações sobre como gerenciar seus perfis e assinantes, consulte este [guia](../../audiences/using/get-started-profiles-and-audiences.md).
 
 ![](assets/multivariant_push_1.png)
 
-Para usar variantes de conteúdo multilíngues para a entrega da notificação por push, siga estas etapas:
+Para usar variantes de conteúdo multilíngues para o delivery de notificação por push, siga estas etapas:
 
 * [Etapa 1: Carregar variante de conteúdo multilíngue](#step-1--upload-multilingual-content-variant)
-* [Etapa 2: Visualizar e finalizar uma notificação por push usando variantes de conteúdo multilíngue](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
-* [Etapa 3: Enviar e analisar a entrega de notificações por push multilíngues](#step-3--send-and-analyze-multilingual-push-notification-delivery)
+* [Etapa 2: Pré-visualização e finalização de uma notificação por push usando variantes de conteúdo multilíngue](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
+* [Etapa 3: Enviar e analisar o delivery de notificação por push multilíngue](#step-3--send-and-analyze-multilingual-push-notification-delivery)
 
 ## Etapa 1: Carregar variante de conteúdo multilíngue {#step-1--upload-multilingual-content-variant}
 
-Antes de personalizar sua notificação por push multilíngue, primeiro precisamos carregar as variantes de conteúdo em um modelo de entrega multilíngue e criar a entrega.
+Antes de personalizar sua notificação por push multilíngue, precisamos primeiro carregar as variantes de conteúdo em um template do delivery multilíngue e criar o delivery.
 
 >[!NOTE]
 >
 >Você também pode ignorar essa etapa se quiser criar uma variante manualmente para cada variante de idioma.
 
 1. No **[!UICONTROL Marketing activities]**, clique no **[!UICONTROL Create]** botão e selecione **[!UICONTROL Push notification]**.
-1. Selecione o modelo **[!UICONTROL Send multilingual push to Campaign profiles]** se desejar direcionar os perfis do Adobe Campaign que se inscreveram no aplicativo móvel ou no modelo **[!UICONTROL Send multilingual push to app subscriber]** para enviar uma notificação por push a todos os usuários que aceitaram receber notificações do aplicativo móvel.
+1. Selecione o modelo **[!UICONTROL Send multilingual push to Campaign profiles]** **[!UICONTROL Send multilingual push to app subscriber]** se desejar público alvo dos perfis Adobe Campaign que se inscreveram no aplicativo móvel ou no modelo para enviar uma notificação por push a todos os usuários que opt in receber notificações do aplicativo móvel.
 
    ![](assets/multivariant_push_2.png)
 
@@ -50,12 +50,12 @@ Antes de personalizar sua notificação por push multilíngue, primeiro precisam
 
    Observe que o menu suspenso exibirá os aplicativos SDK V4 e SDKs da plataforma Adobe Experience.
 
-1. Nas **[!UICONTROL Audiences]** janelas, arraste e solte consultas para ajustar seu público-alvo.
+1. Nas **[!UICONTROL Audiences]** janelas, arraste e solte query para ajustar sua audiência.
 
-   As consultas adicionadas dependem do modelo escolhido: se você escolher o **[!UICONTROL Send multilingual push to Campaign profiles]** modelo, poderá consultar destinatários conhecidos do seu aplicativo móvel. Enquanto que se você escolher o **[!UICONTROL Send multilingual push to app subscriber]** modelo, poderá consultar todos os assinantes de um aplicativo específico que aceitaram.
+   Os query adicionados dependem do modelo escolhido: se você escolher o **[!UICONTROL Send multilingual push to Campaign profiles]** modelo, poderá query recipient conhecidos do seu aplicativo móvel. Ao passo que se você escolher o **[!UICONTROL Send multilingual push to app subscriber]** modelo, poderá query todos os assinantes de um aplicativo específico que opt in.
    >[!NOTE]
    >
-   >Se você direcionar públicos-alvo com idiomas específicos, será necessário listar cada idioma direcionado no arquivo CSV.
+   >Se você público alvo audiências com idiomas específicos, é necessário lista cada idioma direcionado no arquivo CSV.
 
    ![](assets/push_notif_audience.png)
 
@@ -69,30 +69,30 @@ Antes de personalizar sua notificação por push multilíngue, primeiro precisam
 
    ![](assets/multivariant_push_5.png)
 
-1. A **[!UICONTROL Variant selection]** guia fornecerá um script para determinar a preferência de idioma a ser considerada, dependendo do modelo de entrega. Este é um script predefinido que não requer alterações.
+1. A **[!UICONTROL Variant selection]** guia fornecerá um script para determinar a preferência de idioma a ser considerada, dependendo do template do delivery. Este é um script predefinido que não requer alterações.
 1. Se quiser adicionar mais variantes não presentes no arquivo importado, clique no botão e adicione quantas novas variantes de idioma forem necessárias. **[!UICONTROL Add an element]**
 
-   Ao adicionar variantes diferentes daquelas carregadas do arquivo, nenhum conteúdo será vinculado a esse idioma. Será necessário editar o conteúdo diretamente no painel de entrega.
+   Ao adicionar variantes diferentes daquelas carregadas do arquivo, nenhum conteúdo será vinculado a esse idioma. Você precisará editar o conteúdo diretamente no painel do delivery.
 
    ![](assets/multivariant_push_6.png)
 
-1. Clique **[!UICONTROL Create]** quando a configuração estiver concluída. Você sempre pode voltar para a **[!UICONTROL Content variant]** janela e fazer algumas alterações no painel de entrega.
+1. Clique **[!UICONTROL Create]** quando a configuração estiver concluída. Você sempre pode voltar para a **[!UICONTROL Content variant]** janela e fazer algumas alterações em seu painel de delivery.
 
    ![](assets/multivariant_push_8.png)
 
-Agora você pode começar a personalizar sua notificação por push multilíngue.
+Agora você pode personalizar a sua notificação por push multilíngue em start.
 
-## Etapa 2: Visualizar e finalizar uma notificação por push usando variantes de conteúdo multilíngue {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
+## Etapa 2: Pré-visualização e finalização de uma notificação por push usando variantes de conteúdo multilíngue {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
 
-Depois de carregar o arquivo que contém as variantes de conteúdo, agora é possível visualizar as diferentes variantes da entrega da notificação por push.
+Depois de carregar o arquivo que contém as variantes de conteúdo, agora é possível pré-visualização as diferentes variantes do delivery de notificação por push.
 
 Também é possível criar e editar mais variantes além das que são carregadas do arquivo.
 
-1. Na **[!UICONTROL Content]** janela do painel de entrega, a lista suspensa permite que você visualize o conteúdo da notificação por push, dependendo do idioma escolhido.
+1. Na **[!UICONTROL Content]** janela do painel do delivery, a lista suspensa permite que você pré-visualização o conteúdo da notificação por push, dependendo do idioma escolhido.
 
    ![](assets/multivariant_push_7.png)
 
-1. Se uma variante de conteúdo não for especificada para um idioma específico, clique no ícone de sino abaixo da visualização para começar a adicionar conteúdo a essa variante de idioma.
+1. Se uma variante de conteúdo não for especificada para um idioma específico, clique no ícone de sino abaixo da pré-visualização para adicionar conteúdo a essa variante de idioma.
 
    Ao clicar na **[!UICONTROL Content]** janela, a notificação por push representa o conteúdo do idioma selecionado na lista suspensa. As alterações feitas nesta janela afetarão apenas um idioma.
 
@@ -108,30 +108,30 @@ Também é possível criar e editar mais variantes além das que são carregadas
 
    ![](assets/multivariant_push_10.png)
 
-Sua entrega de notificação por push multilíngue está pronta para ser enviada.
+Seu delivery de notificação por push multilíngue está pronto para ser enviado.
 
-## Etapa 3: Enviar e analisar a entrega de notificações por push multilíngues {#step-3--send-and-analyze-multilingual-push-notification-delivery}
+## Etapa 3: Enviar e analisar o delivery de notificação por push multilíngue {#step-3--send-and-analyze-multilingual-push-notification-delivery}
 
 Suas notificações por push de variantes de conteúdo multilíngue estão prontas para serem enviadas aos usuários.
 
-1. Para começar a preparar o envio, clique no **[!UICONTROL Prepare]** botão.
-1. Quando a preparação estiver concluída sem avisos, clique no **[!UICONTROL Confirm]** botão para começar a enviar o seu push multilingue.
+1. Para preparar o start, clique no **[!UICONTROL Prepare]** botão.
+1. Quando a preparação estiver terminada sem avisos, clique no **[!UICONTROL Confirm]** botão para start de envio do seu empurrão multilingue.
 
    ![](assets/multivariant_push_12.png)
 
-1. Depois de enviar sua notificação por push com êxito, clique no **[!UICONTROL Reports]** ícone e **[!UICONTROL Dynamic reports]** para analisar o sucesso de sua entrega.
+1. Depois de enviar sua notificação por push com êxito, clique no **[!UICONTROL Reports]** ícone e **[!UICONTROL Dynamic reports]** para analisar o sucesso do seu delivery.
 
    ![](assets/multivariant_push_13.png)
 
-1. Select **[!UICONTROL Push notification report]**.
-1. Arraste e solte a **[!UICONTROL Variant]** dimensão no painel para começar a filtrar seus dados.
+1. Selecione **[!UICONTROL Push notification report]**.
+1. Arraste e solte a **[!UICONTROL Variant]** dimensão em seu painel para filtrar seus dados por start.
 
    ![](assets/multivariant_push_11.png)
 
-Agora você pode medir o impacto da entrega de notificações por push multilíngues em seus destinatários.
+Agora você pode medir o impacto de seu delivery de notificação por push multilíngue em seus recipient.
 
 **Tópicos relacionados:**
 
 * [Relatório de notificação por push](../../reporting/using/push-notification-report.md)
 * [Envio de uma notificação por push em um fluxo de trabalho](../../automating/using/push-notification-delivery.md)
-* [Alcançar públicos multilíngues usando um fluxo de trabalho](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
+* [Alcançar audiências multilíngues usando um fluxo de trabalho](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
