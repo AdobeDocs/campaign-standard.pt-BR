@@ -1,6 +1,6 @@
 ---
-title: Sobre privacidade e recomendações no Adobe Campaign Standard
-description: Esta seção é sobre gerenciamento de privacidade no Adobe Campaign Standard.
+title: Privacidade e consentimento no Adobe Campaign Standard
+description: Esta seção fornece uma visão geral da privacidade, dados pessoais e gerenciamento de consentimento no Adobe Campaign Standard, bem como das ferramentas disponíveis para lidar com esses problemas.
 page-status-flag: never-activated
 uuid: ed9e631c-5ad1-49f1-be1e-b710bc64dc91
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0d7dc73afb2e3b69f461d0e389451c9deabc1f23
+source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 ---
 
@@ -112,7 +112,7 @@ Originalmente, o Adobe Campaign oferta  apresenta recursos importantes que são 
 
 * **Gerenciamento** de consentimento: Por meio do processo de gerenciamento de subscrições, você pode gerenciar suas preferências de recipient e rastrear quais recipient aceitaram em qual tipo de subscrição. Para obter mais informações, consulte [Subscrição](../../audiences/using/about-subscriptions.md) e [Landing page](../../channels/using/getting-started-with-landing-pages.md).
 * **Retenção** de dados: Todas as tabelas de log padrão incorporadas têm períodos de retenção predefinidos, geralmente limitando seu armazenamento de dados a 6 meses ou menos. Períodos de retenção adicionais podem ser configurados com workflows. Para obter mais informações, entre em contato com os consultores ou administradores técnicos da Adobe.
-* **Gerenciamento** de direitos: O Adobe Campaign fornece a capacidade de gerenciar os direitos atribuídos aos vários operadores de Campanha por meio de diferentes funções pré-criadas ou personalizadas. Isso permite gerenciar quem em sua empresa pode acessar, modificar ou exportar diferentes tipos de dados. Para obter mais informações, consulte [Sobre o gerenciamento](../../administration/using/about-access-management.md)de acesso.
+* **Gerenciamento** de direitos: O Adobe Campaign fornece a capacidade de gerenciar os direitos atribuídos aos vários operadores de Campanha por meio de diferentes funções pré-criadas ou personalizadas. Isso permite gerenciar quem em sua empresa pode acessar, modificar ou exportar diferentes tipos de dados. For more on this, see [About access management](../../administration/using/about-access-management.md).
 
 Para obter mais informações sobre esses recursos e como gerenciá-los no Adobe Campaign, consulte [esta página](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#consent).
 
