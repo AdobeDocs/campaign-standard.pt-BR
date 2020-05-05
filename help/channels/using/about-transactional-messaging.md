@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f0f7441f06b51f9bd2d5a1b3c26f031d4eb1e4c1
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -83,7 +83,7 @@ Para obter mais informações sobre as etapas de configuração do evento, consu
 À medida que você está projetando e publicando mensagens transacionais, algumas das etapas necessárias não podem ser revertidas. É necessário estar ciente das seguintes limitações:
 
 * Somente um canal pode ser usado para cada configuração de evento. Consulte [Criação de um evento](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
-* Depois que o evento é criado, não é possível alterar o canal. Portanto, se uma mensagem não for enviada com êxito, será necessário projetar o mecanismo que permite enviá-la de outro canal usando um fluxo de trabalho. See [Workflow data and processes](../../automating/using/workflow-data-and-processes.md).
+* Depois que o evento é criado, não é possível alterar o canal. Portanto, se uma mensagem não for enviada com êxito, será necessário projetar o mecanismo que permite enviá-la de outro canal usando um fluxo de trabalho. See [Workflow data and processes](../../automating/using/get-started-workflows.md).
 * Não é possível alterar o targeting dimension ( **[!UICONTROL Real-time event]** ou **[!UICONTROL Profile]** ) após a criação do evento. Consulte [Criação de um evento](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
 * Não é possível reverter uma publicação, mas você pode cancelar a publicação de um evento: essa operação torna o evento e o mensagen transacional associado inacessíveis. Consulte [Desfazer publicação de um evento](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
 * O único mensagen transacional que pode ser associado a um evento é a mensagem que é criada automaticamente após a publicação desse evento. Consulte [Visualizar e publicar o evento](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event).
