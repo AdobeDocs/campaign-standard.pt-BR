@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: dd7e50abbb73bf89ea39f6488083180bcee5163d
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: dd7e50abbb73bf89ea39f6488083180bcee5163d
 
 O Adobe Campaign Standard permite acionar a ingestão imediata de mapeamentos de dados por meio de APIs e recuperar o status de suas solicitações de ingestão.
 
-Esta página descreve como acionar e recuperar o status de ingestão de seus mapeamentos de dados. Para obter informações globais sobre APIs de Campaign Standard, consulte [esta seção](../../api/using/about-campaign-standard-apis.md).
+Esta página descreve como acionar e recuperar o status de ingestão de seus mapeamentos de dados. Para obter informações globais sobre APIs de Campaign Standard, consulte [esta seção](../../api/using/get-started-apis.md).
 
 ## Pré-requisitos {#prerequisites}
 
