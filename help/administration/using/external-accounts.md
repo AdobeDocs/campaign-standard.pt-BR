@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 5b53f210bc8fc211b1f48f5b6ff8694bcaf41622
+source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
 
 ---
 
@@ -85,12 +85,12 @@ Para evitar esses problemas, a Adobe recomenda seguir as práticas recomendadas 
 
 Além disso, observe que os IPs públicos dos quais você está tentando iniciar a conexão SFTP devem ser listados na instância da Campanha. A lista de permissões de endereços IP pode ser solicitada por meio de um ticket [de](https://support.neolane.net)suporte, além de fornecer a chave pública para uso na autenticação.
 
-Os servidores SFTP podem ser gerenciados a partir do Painel de controle. For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
+Os servidores SFTP podem ser gerenciados a partir do Painel de controle. For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/pt-BR/control-panel/using/sftp-management/about-sftp-management.html).
 
 >[!NOTE]
 >
 >O Painel de controle está disponível somente para usuários administradores de clientes hospedados no AWS.
-Verifique se sua instância está hospedada no AWS [aqui](https://docs.adobe.com/content/help/en/control-panel/using/faq.html#ims-org-id).
+Verifique se sua instância está hospedada no AWS [aqui](https://docs.adobe.com/content/help/pt-BR/control-panel/using/faq.html#ims-org-id).
 
 ## conta externa Amazon S3 {#amazon-s3-external-account}
 
@@ -124,7 +124,7 @@ Para ajudá-lo a configurar sua conta Amazon S3, recomendamos que siga estas rec
 
 As contas externas do Adobe Experience Manager são usadas ao integrar a Campanha com o Experience Manager.
 
-O processo e os requisitos relacionados a essa integração estão disponíveis [neste documento](../../integrating/using/about-campaign-integrations.md).
+O processo e os requisitos relacionados a essa integração estão disponíveis [neste documento](../../integrating/using/get-started-campaign-integrations.md).
 
 Como você está configurando essa nova conta externa, é necessário fornecer os seguintes detalhes:
 
