@@ -1,5 +1,5 @@
 ---
-title: Sobre integrações do Campaign
+title: Introdução às integrações de Campanhas
 description: O Adobe Campaign permite que você use outras soluções da Adobe e combine seus diferentes recursos.
 page-status-flag: never-activated
 uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
@@ -7,17 +7,17 @@ contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
-topic-tags: about-campaign-integrations
+topic-tags: get-started-campaign-integrations
 discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 640286c66da3f216cac6264ab6c61652bba209ce
+source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
 
 ---
 
 
-# Sobre integrações do Campaign{#about-campaign-integrations}
+# Sobre integrações do Campaign{#get-started-campaign-integrations}
 
 Esta seção detalha as integrações funcionais disponíveis entre a versão atual do Adobe Campaign e outras soluções e serviços.
 
@@ -27,7 +27,7 @@ As diferentes integrações apresentadas abaixo permitem combinar o delivery e a
 >
 > Por padrão, o Adobe Campaign já está vinculado a uma conta da Adobe Experience Cloud.
 
-Depending on your environment, other solutions can also be linked to Adobe Experience Cloud. Eles são vinculados como organizações (também chamados de locatários).
+Dependendo do seu ambiente, outras soluções também podem ser vinculadas à Adobe Experience Cloud. Eles são vinculados como organizações (também chamados de locatários).
 
 Uma organização é a entidade que permite a um administrador configurar grupos e usuários e controlar o logon único na Experience Cloud. A organização funciona como uma empresa de login que abrange todos os produtos e soluções da Experience Cloud. Na maioria das vezes, uma organização é o nome da sua empresa. No entanto, uma empresa pode ter muitas organizações. O gerenciamento de usuários e organizações é detalhado no portal [de ajuda da](https://marketing.adobe.com/resources/help/pt_BR/mcloud/organizations.html)Adobe Experience Cloud.
 
