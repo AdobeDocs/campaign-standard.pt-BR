@@ -1,149 +1,149 @@
 ---
 title: Criação de públicos-alvo
-description: Saiba como criar públicos-alvo no Adobe Campaign.
-page-status-flag: nunca ativado
+description: Saiba como criar audiências no Adobe Campaign.
+page-status-flag: never-activated
 uuid: fe99b31b-a949-4832-b0e6-2b36d1c8be80
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: referência
-topic-tags: gerenciar públicos-alvo
+content-type: reference
+topic-tags: managing-audiences
 discoiquuid: df8bdcfb-be5e-4044-bc26-aa3466accbbe
 context-tags: readAudience,main;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
 
 # Criação de públicos-alvo{#creating-audiences}
 
-## Criação de públicos-alvo de consulta {#creating-query-audiences}
+## Criando audiências query {#creating-query-audiences}
 
-Esta seção descreve como criar um público-alvo da **Consulta** . Você também pode criar públicos-alvo a partir da importação de um arquivo ou direcionamento em um [fluxo de trabalho](../../automating/using/discovering-workflows.md).
+Esta seção descreve como criar uma audiência de **Query** . Você também pode criar audiências a partir da importação de um arquivo ou direcionamento em um [fluxo de trabalho](../../automating/using/get-started-workflows.md).
 
-Na lista de públicos-alvo, você pode criar públicos realizando consultas em perfis do Adobe Campaign ou importando um público-alvo da Adobe Experience Cloud.
+Na lista da audiência, é possível criar audiências executando query em perfis Adobe Campaign ou importando uma audiência da Adobe Experience Cloud.
 
-1. Vá para a lista de público-alvo por meio da **[!UICONTROL Audiences]** guia ou do cartão.
+1. Vá para a lista da audiência por meio da **[!UICONTROL Audiences]** guia ou do cartão.
 
    ![](assets/audiences_query_1.png)
 
-1. Selecione **[!UICONTROL Create]** para acessar a tela para criar um novo público-alvo.
+1. Selecione **[!UICONTROL Create]** para acessar a tela para criar uma nova audiência.
 
    ![](assets/audiences_query.png)
 
-1. Dê um nome ao seu público-alvo. O rótulo de público-alvo é usado na lista de públicos-alvo e na paleta da ferramenta de consulta.
-1. Escolha um tipo de **[!UICONTROL Query]** público-alvo: os públicos-alvo definidos por uma consulta são recomputados a cada novo uso.
+1. Dê um nome à sua audiência. O rótulo da audiência é usado na lista do audiência e na paleta da ferramenta query.
+1. Escolha um tipo de **[!UICONTROL Query]** audiência: as audiências definidas por um query são recompostas a cada nova utilização.
 
    ![](assets/audience_type_selection.png)
 
-1. Em seguida, selecione o **[!UICONTROL Targeting dimension]** que deseja usar para filtrar seus clientes. Cada público-alvo é composto de uma única dimensão de definição de metas. Por exemplo, você não pode criar um público-alvo composto de perfis, perfis de teste e assinantes. For more on targeting dimensions, refer to [this page](../../automating/using/query.md#targeting-dimensions-and-resources).
-1. Crie a consulta para definir o público-alvo. Consulte a seção sobre [edição de consultas](../../automating/using/editing-queries.md).
-1. Clique no **[!UICONTROL Create]** botão para salvar seu público-alvo.
+1. Em seguida, selecione o **[!UICONTROL Targeting dimension]** que deseja usar para filtrar seus clientes. Cada audiência é feita de um único targeting dimension. Por exemplo, não é possível criar uma audiência composta de perfis, perfis de teste e assinantes. For more on targeting dimensions, refer to [this page](../../automating/using/query.md#targeting-dimensions-and-resources).
+1. Crie o query para definir a população da audiência. Consulte a seção sobre [edição de query](../../automating/using/editing-queries.md).
+1. Clique no **[!UICONTROL Create]** botão para salvar sua audiência.
 
 >[!NOTE]
 >
->Você pode adicionar uma descrição para esse público-alvo e definir as autorizações de acesso por meio do **[!UICONTROL Edit properties]** ícone.
+>É possível adicionar uma descrição a essa audiência e definir as autorizações de acesso por meio do **[!UICONTROL Edit properties]** ícone.
 
-## Criação de públicos-alvo da lista {#creating-list-audiences}
+## Criando audiências listas {#creating-list-audiences}
 
-Esta seção descreve como criar um público-alvo da **Lista** após a definição de metas em um fluxo de trabalho. Você também pode criar públicos importando um arquivo para um [fluxo de trabalho](../../automating/using/discovering-workflows.md) ou por meio de uma consulta do **[!UICONTROL Audiences]** menu.
+Esta seção descreve como criar uma audiência de **Lista** após a definição de metas em um fluxo de trabalho. Você também pode criar audiências importando um arquivo para um [fluxo de trabalho](../../automating/using/get-started-workflows.md) ou por meio de um query do **[!UICONTROL Audiences]** menu.
 
 To create a **List** audience, the steps are as follows:
 
-1. Na guia Atividades **de** marketing, clique em **Criar** e selecione **Fluxo de trabalho**.
+1. Na guia **Marketing atividade** , clique em **Criar** e selecione **Fluxo de trabalho**.
 
    ![](assets/audiences_list_1.png)
 
-1. Arraste e solte e configure as atividades de definição de metas que permitirão selecionar uma população que tenha uma dimensão **conhecida** . A lista de atividades disponíveis e suas configurações são detalhadas na seção Atividades [de](../../automating/using/about-targeting-activities.md) definição de metas.
+1. Arraste e solte e configure as atividades de definição de metas que permitirão selecionar uma população que tenha uma dimensão **conhecida** . A lista de atividades disponíveis e suas configurações são detalhadas na seção [Direcionamento de atividades](../../automating/using/about-targeting-activities.md) .
 
-   Você pode usar uma **[!UICONTROL Query]** atividade ou importar dados usando uma **[!UICONTROL Load file]** atividade antes de usar uma **[!UICONTROL Reconciliation]** atividade para identificar a dimensão dos dados importados. Neste contexto, queremos visar os destinatários que assinaram a Newsletter Sport com uma **[!UICONTROL Query]** atividade.
+   É possível usar uma **[!UICONTROL Query]** atividade ou importar dados usando uma **[!UICONTROL Load file]** atividade antes de usar uma **[!UICONTROL Reconciliation]** atividade para identificar a dimensão dos dados importados. Neste caso, queremos público alvo com uma **[!UICONTROL Query]** atividade aos recipient que assinaram a Newsletter Sport .
 
    ![](assets/audiences_list_2.png)
 
-1. Após a definição de metas, arraste e solte uma **[!UICONTROL Save audience]** atividade no seu fluxo de trabalho. Por exemplo, você pode escolher **[!UICONTROL Create or update an audience]**, isso permite criar e atualizar automaticamente seu público-alvo com novos dados. Nesse caso, adicione uma **[!UICONTROL Scheduler]** atividade no início do fluxo de trabalho.
+1. Após a definição de metas, arraste e solte uma **[!UICONTROL Save audience]** atividade no seu fluxo de trabalho. Por exemplo, você pode escolher **[!UICONTROL Create or update an audience]**, isso permite criar e atualizar automaticamente sua audiência com novos dados. Nesse caso, adicione uma **[!UICONTROL Scheduler]** atividade no início do fluxo de trabalho.
 
-   Para obter mais informações sobre como configurar essa atividade, consulte a seção [Salvar público-alvo](../../automating/using/save-audience.md) .
+   Para obter mais informações sobre como configurar essa atividade, consulte a seção [Salvar audiência](../../automating/using/save-audience.md) .
 
    ![](assets/audiences_list_3.png)
 
-1. Salve e inicie o fluxo de trabalho.
+1. Salve e start o fluxo de trabalho.
 
-   Como o **[!UICONTROL Save audience]** é colocado depois de uma definição de metas com uma dimensão conhecida, os públicos-alvo criados por meio dessa atividade são públicos-alvo da **Lista** .
+   Como o **[!UICONTROL Save audience]** é colocado depois de uma definição de metas com uma dimensão conhecida, as audiências criadas por meio dessa atividade são audiências **Listas** .
 
-   O conteúdo do público-alvo salvo fica disponível na exibição detalhada do público-alvo que pode ser acessado por meio da lista de públicos-alvo. As colunas disponíveis nesta exibição correspondem às colunas da transição de entrada da atividade de salvamento do fluxo de trabalho.  Por exemplo: as colunas do arquivo importado, os dados adicionais adicionados de uma consulta.
+   O conteúdo da audiência salva fica disponível na visualização detalhada da audiência que pode ser acessada por meio da lista do audiência. As colunas disponíveis nesta visualização correspondem às colunas da transição de entrada da atividade de salvamento do fluxo de trabalho. Por exemplo: as colunas do arquivo importado, os dados adicionais adicionados de um query.
 
    ![](assets/audiences_list_4.png)
 
-## Criação de públicos-alvo de arquivos {#creating-file-audiences}
+## Criando audiências de arquivos {#creating-file-audiences}
 
-Esta seção detalha como criar um público-alvo de **Arquivo** importando um arquivo para um fluxo de trabalho. Você também pode criar públicos-alvo a partir de uma atividade de definição de metas em um [fluxo de trabalho](../../automating/using/discovering-workflows.md) ou por meio de uma consulta do **[!UICONTROL Audiences]** menu.
+Esta seção detalha como criar uma audiência de **Arquivo** importando um arquivo para um fluxo de trabalho. Você também pode criar audiências a partir de uma atividade de definição de metas em um [fluxo de trabalho](../../automating/using/get-started-workflows.md) ou por meio de um query do **[!UICONTROL Audiences]** menu.
 
 To create a **File** audience, the steps are as follows:
 
-1. Na guia Atividades **de** marketing, clique em **Criar** e selecione **Fluxo de trabalho**.
+1. Na guia **Marketing atividade** , clique em **Criar** e selecione **Fluxo de trabalho**.
 1. Arraste e solte e configure uma **[!UICONTROL Load file]** atividade que permitirá importar uma população que tenha uma dimensão **desconhecida** quando o fluxo de trabalho for executado. Para obter mais informações sobre como configurar essa atividade, consulte a seção [Carregar arquivo](../../automating/using/load-file.md) .
 
    ![](assets/audience_files_1.png)
 
-1. Arraste e solte uma **[!UICONTROL Save audience]** atividade após a **[!UICONTROL Load file]** atividade. Para obter mais informações sobre como configurar essa atividade, consulte a seção [Salvar público-alvo](../../automating/using/save-audience.md) .
-1. Salve e inicie o fluxo de trabalho.
+1. Drag and drop a **[!UICONTROL Save audience]** activity after the **[!UICONTROL Load file]** activity. Para obter mais informações sobre como configurar essa atividade, consulte a seção [Salvar audiência](../../automating/using/save-audience.md) .
+1. Salve e start o fluxo de trabalho.
 
    ![](assets/audience_files_2.png)
 
-   Como o **[!UICONTROL Save audience]** é colocado após uma importação, a dimensão de dados é desconhecida e os públicos-alvo criados por meio dessa atividade são públicos-alvo **de Arquivo** .
+   Como o **[!UICONTROL Save audience]** é colocado após uma importação, a dimensão de dados é desconhecida e as audiências criadas por meio dessa atividade são audiências **de arquivos** .
 
-   O conteúdo do público-alvo salvo fica disponível na exibição detalhada do público-alvo que pode ser acessado por meio da lista de públicos-alvo. As colunas disponíveis nesta exibição correspondem às colunas da transição de entrada da atividade de salvamento do fluxo de trabalho.  Por exemplo: as colunas do arquivo importado, os dados adicionais adicionados de uma consulta.
+   O conteúdo da audiência salva fica disponível na visualização detalhada da audiência que pode ser acessada por meio da lista do audiência. As colunas disponíveis nesta visualização correspondem às colunas da transição de entrada da atividade de salvamento do fluxo de trabalho. Por exemplo: as colunas do arquivo importado, os dados adicionais adicionados de um query.
 
    ![](assets/audience_files_3.png)
 
-## Criação de públicos-alvo da Experience Cloud {#creating-experience-cloud-audiences}
+## Criação de audiências da Experience Cloud {#creating-experience-cloud-audiences}
 
-O Adobe Campaign permite que você compartilhe e troque públicos-alvo com a Adobe Experience Cloud. Um público-alvo do tipo **Experience Cloud** é importado diretamente do serviço principal de Pessoas para o Adobe Campaign com o fluxo de trabalho **[!UICONTROL Import shared audience]** técnico.
+O Adobe Campaign permite que você compartilhe e troque audiências com a Adobe Experience Cloud. Uma audiência do tipo da **Experience Cloud** é importada diretamente do serviço principal de Pessoas para o Adobe Campaign com o fluxo de trabalho **[!UICONTROL Import shared audience]** técnico.
 
-Ao contrário do público-alvo do tipo **Consulta** que consultará perfis do Adobe Campaign, o público-alvo da **Experience Cloud** é composto por uma lista de IDs de visitante.
+Diferentemente da audiência do tipo de **Query** que irá query de perfil, a audiência da **Experience Cloud** é composta por uma lista de IDs de Visitante.
 
-Para que essa integração funcione, é necessário primeiro configurá-la. Para obter mais informações sobre configuração e como importar ou exportar públicos-alvo com o serviço principal de Pessoas, consulte a seguinte [seção](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md).
+Para que essa integração funcione, é necessário primeiro configurá-la. Para obter mais informações sobre configuração e como importar ou exportar audiências com o serviço principal de Pessoas, consulte a seguinte [seção](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md).
 
 ![](assets/audience_peoplecore.png)
 
-## Editar públicos-alvo {#editing-audiences}
+## Edição de audiências {#editing-audiences}
 
-Existem maneiras diferentes de editar um público-alvo, dependendo do tipo de público-alvo:
+Existem diferentes maneiras de editar uma audiência dependendo do tipo de audiência:
 
-* Para editar um público-alvo da **Consulta** , vá para a lista de públicos-alvo pelo **[!UICONTROL Audiences]** menu ou o **[!UICONTROL Audiences]** cartão na página inicial do Adobe Campaign.
+* Para editar uma audiência de **Query** , vá para a lista do audiência pelo **[!UICONTROL Audiences]** menu ou pela **[!UICONTROL Audiences]** placa do home page Adobe Campaign.
 
-   Abra o público relevante. Todos os elementos de um público-alvo criado anteriormente podem ser editados.
+   Abra a audiência relevante. Todos os elementos de uma audiência criada anteriormente podem ser editados.
 
    >[!CAUTION]
    >
-   >Se você alterar a regra **[!UICONTROL Filtering dimension]** na consulta, as regras definidas anteriormente serão perdidas.
+   >Se você alterar a configuração **[!UICONTROL Filtering dimension]** no query, as regras que foram definidas anteriormente serão perdidas.
 
-* Para editar um público-alvo de **Lista** ou **Arquivo** , edite o fluxo de trabalho do qual ele foi criado e modifique a **[!UICONTROL Save audience]** atividade. Inicie o fluxo de trabalho para que o público-alvo seja modificado.
-* Para editar um público-alvo da **Experience Cloud** , consulte a seção [Importando/Exportando públicos-alvo com os principais serviços](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) de Pessoas.
+* Para editar uma **Lista** ou audiência **de arquivo** , edite o fluxo de trabalho a partir do qual ela foi criada e modifique a **[!UICONTROL Save audience]** atividade. Start o fluxo de trabalho para que a audiência seja modificada.
+* Para editar uma audiência da **Experience Cloud** , consulte a seção [Importar/exportar audiências com os principais serviços](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) de pessoas.
 
-## Excluindo públicos {#deleting-audiences}
+## Excluindo audiências {#deleting-audiences}
 
-Há duas maneiras de excluir um ou vários públicos-alvo. Primeiro, você pode adicionar uma data de expiração ao seu público-alvo
+Há duas maneiras de excluir uma ou várias audiências. Primeiro, você pode adicionar uma data de expiração à sua audiência
 
 Para fazer isso:
 
-1. Acesse um de seus espectadores.
-1. Clique no ![](assets/edit_darkgrey-24px.png) botão para acessar a configuração de seu público-alvo.
+1. Acesse uma de suas audiências.
+1. Clique no ![](assets/edit_darkgrey-24px.png) botão para acessar a configuração do audiência.
 
    ![](assets/audience_delete_2.png)
 
-1. No **[!UICONTROL Expires on]** campo, adicione uma data de expiração ao seu público-alvo.
+1. No **[!UICONTROL Expires on]** campo, adicione uma data de expiração à sua audiência.
 
    ![](assets/audience_delete_3.png)
 
 1. Clique em **[!UICONTROL Confirm]** e em **[!UICONTROL Save]**.
 
-A data de expiração está configurada. Assim que essa data for atingida, seu público-alvo será automaticamente excluído.
+A data de expiração está configurada. Assim que essa data for atingida, sua audiência será automaticamente excluída.
 
-Ou se você precisar excluir um público-alvo, basta selecionar um ou vários públicos e clicar no **[!UICONTROL Delete element]** botão.
+Ou, se for necessário excluir uma audiência, basta selecionar uma ou várias audiências e clicar no **[!UICONTROL Delete element]** botão.
 
 ![](assets/audience_delete_1.png)
 
