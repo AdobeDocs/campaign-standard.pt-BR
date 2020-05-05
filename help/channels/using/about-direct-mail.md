@@ -13,7 +13,7 @@ context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -28,7 +28,7 @@ A mala direta é um canal offline que permite personalizar e gerar o arquivo exi
 
 Os canais online permitem que você crie mensagens (email, SMS, delivery de aplicativo móvel, etc.) e envie-as para seu público diretamente do Adobe Campaign. Com canais offline, é diferente. Quando você prepara um delivery direto de mala direta, o Adobe Campaign gera um arquivo incluindo todos os perfis do target e as informações de contato escolhidas (endereço postal por exemplo). Você poderá enviar esse arquivo para seu provedor de mala direta que irá cuidar realmente do envio.
 
-A seção a seguir explica como criar e gerar um delivery de mala direta com uma única captura. Você também tem a possibilidade de incluir uma atividade de mala direta em um fluxo de trabalho para orquestrar campanhas que combinam canais online e offline. For more on this, refer to the [Workflows](../../automating/using/workflow-data-and-processes.md) guide.
+A seção a seguir explica como criar e gerar um delivery de mala direta com uma única captura. Você também tem a possibilidade de incluir uma atividade de mala direta em um fluxo de trabalho para orquestrar campanhas que combinam canais online e offline. For more on this, refer to the [Workflows](../../automating/using/get-started-workflows.md) guide.
 
 O processo do usuário no Adobe Campaign é o seguinte:
 
