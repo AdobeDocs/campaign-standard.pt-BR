@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -31,7 +31,7 @@ Dependendo do seu ambiente, outras soluções também podem ser vinculadas à Ad
 
 Uma organização é a entidade que permite a um administrador configurar grupos e usuários e controlar o logon único na Experience Cloud. A organização funciona como uma empresa de login que abrange todos os produtos e soluções da Experience Cloud. Na maioria das vezes, uma organização é o nome da sua empresa. No entanto, uma empresa pode ter muitas organizações. O gerenciamento de usuários e organizações é detalhado no portal [de ajuda da](https://marketing.adobe.com/resources/help/pt_BR/mcloud/organizations.html)Adobe Experience Cloud.
 
-Se você quiser integrar fluxos de dados de outros sistemas com o Adobe Campaign, consulte nossa documentação [da](../../api/using/about-campaign-standard-apis.md)API.
+Se você quiser integrar fluxos de dados de outros sistemas com o Adobe Campaign, consulte nossa documentação [da](../../api/using/get-started-apis.md)API.
 
 >[!NOTE]
 >
