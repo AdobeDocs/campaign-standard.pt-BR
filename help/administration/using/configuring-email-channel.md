@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7af424d2b2ce29811dc0deb015113de2de0124c0
+source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 ---
 
@@ -44,7 +44,7 @@ A tela de configuração de email permite definir os parâmetros do canal de ema
    * O remetente e os endereços de erro são configurados pela Adobe. Esses campos não podem estar vazios.
    * Não é possível editar esses campos. Para atualizar um endereço, entre em contato com a equipe de Atendimento ao cliente da Adobe.
    * Para adicionar outro endereço, use o Painel [de](https://docs.adobe.com/content/help/pt-BR/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) controle para configurar um novo subdomínio ou entre em contato com a equipe de Atendimento ao cliente da Adobe. Observe que, se forem usadas várias máscaras, elas serão separadas por vírgulas.
-   * É uma boa prática definir endereços usando uma estrela como **@yourdomain.com*: permite que você use qualquer endereço que termine com seu nome de subdomínio.
+   * É uma boa prática definir endereços usando uma estrela como *@yourdomain.com: permite que você use qualquer endereço que termine com seu nome de subdomínio.
 
 * **Disponibilidade**
 
