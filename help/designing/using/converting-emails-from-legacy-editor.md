@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1de0f5362f3c77fec4b66e330a2d2723f4a0f212
+source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
 
 ---
 
@@ -21,11 +21,11 @@ source-git-commit: 1de0f5362f3c77fec4b66e330a2d2723f4a0f212
 
 Start que trabalha com o Email Designer e cria modelos e fragmentos reutilizáveis do seu HTML de email criado no Editor Herdado.
 
-Esse caso de uso permite que você crie um modelo do Email Designer usando um email HTML e dividindo-o em componentes HTML no Designer de email.
-
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Esta seção destina-se a usuários avançados familiarizados com o código HTML.
+
+Esse caso de uso permite que você crie um modelo do Email Designer usando um email HTML e dividindo-o em componentes HTML no Designer de email.
 
 >[!NOTE]
 >
@@ -96,21 +96,21 @@ Para ver a versão HTML do email, clique em **[!UICONTROL Show source]**.
 
 ### Criar o modelo de email e sua estrutura
 
-1. Arraste e solte **[!UICONTROL Structure Components]** refletindo o layout do nosso email.
+1. Arraste e solte **[!UICONTROL Structure components]** refletindo o layout do nosso email.
 
-Precisamos criar 11 componentes estruturais.
+1. Repita quantas vezes forem necessárias. Precisamos criar 11 componentes estruturais.
 
-![](assets/structure-components-migration.png)
+   ![](assets/structure-components-migration.png)
 
 ### Inserir componentes de conteúdo HTML
 
-1. Insira um **[!UICONTROL HTML component]** em cada **[!UICONTROL structure component]** .
+1. Insira um **[!UICONTROL HTML component]** em cada **[!UICONTROL Structure component]** .
 
-![](assets/html-components.png)
+   ![](assets/html-components.png)
 
 1. Para cada seção, clique em **[!UICONTROL Show source code]** .
 
-![](assets/show-source-code.png)
+   ![](assets/show-source-code.png)
 
 1. Insira a seção HTML.
 
@@ -122,7 +122,7 @@ Agora você pode verificar a renderização do seu email.
 
 ### Gerenciamento de estilos para ajustar à visualização móvel
 
-Insira elementos CSS para garantir que seu email seja adequado para visualização móvel.
+1. Insira elementos CSS para garantir que seu email seja adequado para visualização móvel.
 
 1. Alterne para o código-fonte e copie e cole sua seção de estilo em uma nova seção de estilo.
 
