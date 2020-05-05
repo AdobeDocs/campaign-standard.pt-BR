@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -64,7 +64,7 @@ Defina um perfil de teste adaptado, que permitirá que você pré-visualização
 
 Você também pode criar um novo perfil de teste ou usar um que já existe no **[!UICONTROL Test profiles]** menu.
 
-1. Clique no **[!UICONTROL Adobe Campaign]** logotipo, no canto superior esquerdo, em seguida selecione **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
+1. Clique no **[!UICONTROL Adobe Campaign]** logotipo, no canto superior esquerdo, em seguida, selecione **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
 1. Na **[!UICONTROL Event]** seção da página do perfil de teste que você escolheu, selecione o evento que acabou de criar. Neste exemplo, selecione &quot;Cancelamento do carrinho (EVTcartAbandonment)&quot;.
 1. Especifique as informações para enviar no formato JSON na caixa de **[!UICONTROL Event data]** texto.
 
@@ -258,7 +258,7 @@ Para acessar os relatórios referentes ao seu mensagen transacional, use o **[!U
 
 Você pode suspender a publicação de seu mensagen transacional usando o **[!UICONTROL Pause]** botão, por exemplo, para modificar os dados contidos na mensagem. Portanto, os eventos não são mais processados, mas mantidos em fila no banco de dados do Adobe Campaign.
 
-Os eventos em fila são mantidos durante um período definido na REST API (consulte a documentação [REST API) ou no evento trigger se você estiver usando o serviço principal Triggers (consulte](../../api/using/about-campaign-standard-apis.md)Trabalhar com Campanhas e Experience Cloud Triggers [](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+Os eventos em fila são mantidos durante um período definido na REST API (consulte a documentação [REST API) ou no evento trigger se você estiver usando o serviço principal Triggers (consulte](../../api/using/get-started-apis.md)Trabalhar com Campanhas e Experience Cloud Triggers [](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
