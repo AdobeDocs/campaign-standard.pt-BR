@@ -12,7 +12,7 @@ discoiquuid: 305cadde-6424-4c6f-b11b-1e8bdbad6ef1
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 40de67f4c918b26de6d306ce6af5cb8832741d6f
+source-git-commit: f5054272683ed846b5e0a4e64ed20c49309f8d58
 
 ---
 
@@ -44,7 +44,7 @@ Um conjunto de regras padrão garante os controles padrão. A tabela abaixo forn
 | **[!UICONTROL Check URL labels]** | Email | At the start of personalization | Verifica se cada URL de rastreamento tem um rótulo. |
 | **[!UICONTROL Check URLs]** | Email | At the start of personalization | Verifica os URLs de rastreamento (presença do caractere &quot;&amp;&quot;). |
 
-## Fases de execução das regras de controlo (fases de execução das regras de controlo)
+## Fases de execução das regras de controle {#control-rules-execution-phases}
 
 As regras de controlo podem ser aplicadas em diferentes fases do ciclo de vida do delivery:
 
