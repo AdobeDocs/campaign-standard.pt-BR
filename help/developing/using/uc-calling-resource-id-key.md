@@ -2,28 +2,28 @@
 title: Chamada de um recurso usando uma chave de identificação composta
 description: Saiba como chamar um recurso usando uma chave de identificação composta
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
 
 # Chamada de um recurso usando uma chave de identificação composta{#calling-a-resource-using-a-composite-identification-key}
 
-Em alguns casos, pode ser necessário definir para um recurso uma chave de identificação composta por dois campos. Depois que a chave de identificação é configurada, é necessário configurar uma definição de filtro para poder chamar o recurso com essa chave de identificação, seja na interface do Campaign Standard ou em APIs.
+Em alguns casos, pode ser necessário definir para um recurso uma chave de identificação composta por dois campos. Depois que a chave de identificação é configurada, é necessário configurar uma definição de filtro para poder chamar o recurso com essa chave de identificação, seja da interface do Campaign Standard ou das APIs.
 
-Nesse caso de uso, o recurso **Perfil** foi estendido com os campos personalizados **"ID do CRM"** e **"categoria"** . Criaremos uma chave de identificação para o recurso Perfil, que será composto desses dois campos. Em seguida, configuraremos uma definição de filtro para que possamos acessar o recurso Perfil usando a chave de identificação.
+Nesse caso de uso, o recurso de **Perfil** foi estendido com os campos personalizados **&quot;ID do CRM&quot;** e **&quot;categoria&quot;** . Criaremos uma chave de identificação para o recurso do Perfil, que será composta desses dois campos. Em seguida, configuraremos uma definição de filtro, para que possamos acessar o recurso de Perfil usando a chave de identificação.
 
 As principais etapas para este caso de uso são:
 
-1. Configure a chave de identificação para o recurso Perfil, com base nos dois campos.
-1. Configure a definição do filtro para poder chamar o recurso Perfil usando sua chave de identificação.
-1. Chame o recurso Perfil da interface ou do APis.
+1. Configure a chave de identificação do recurso do Perfil, com base nos dois campos.
+1. Configure a definição do filtro para poder chamar o recurso do Perfil usando sua chave de identificação.
+1. Chame o recurso de Perfil da interface ou do APis.
 
 Tópicos relacionados:
 
 * [Criação ou extensão do recurso](../../developing/using/creating-or-extending-the-resource.md)
 * [Definindo chaves de identificação](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [APIs REST do Campaign Standard](../../api/using/about-campaign-standard-apis.md)
+* [APIs Campaign Standard REST](../../api/using/get-started-apis.md)
 
 ## Etapa 1: Configurar a chave de identificação{#step-1-configure-the-identification-key}
 
@@ -40,7 +40,7 @@ Tópicos relacionados:
 
    ![](assets/uc_idkey2.png)
 
-1. Adicione os dois campos personalizados "ID do CRM" e "Categoria" e clique em **[!UICONTROL Confirm]**.
+1. Adicione os dois campos personalizados &quot;ID do CRM&quot; e &quot;Categoria&quot; e clique em **[!UICONTROL Confirm]**.
 
    ![](assets/uc_idkey3.png)
 
@@ -64,7 +64,7 @@ Tópicos relacionados:
 
    ![](assets/uc_idkey5.png)
 
-1. Selecione o primeiro campo usado na chave de identificação ("ID do CRM") e ative a **[!UICONTROL Switch to parameters]** opção.
+1. Selecione o primeiro campo usado na chave de identificação (&quot;ID do CRM&quot;) e ative a **[!UICONTROL Switch to parameters]** opção.
 
    ![](assets/uc_idkey6.png)
 
@@ -75,7 +75,7 @@ Tópicos relacionados:
    >[!NOTE]
    > Depois de clicar no botão mais, o nome do parâmetro é gerado automaticamente. Observe essas informações, pois será necessário usar o filtro das APIs.
 
-1. Repita as etapas acima com todos os campos que compõem a chave de identificação ("categoria") e salve as alterações.
+1. Repita as etapas acima com todos os campos que compõem a chave de identificação (&quot;categoria&quot;) e salve as alterações.
 
    ![](assets/uc_idkey8.png)
 
@@ -83,22 +83,22 @@ Tópicos relacionados:
 
 ## Etapa 3: Chame o recurso com base em sua chave de identificação{#step-3-call-the-resource-based-on-its-identification-key}
 
-Depois que a chave de identificação e sua definição de filtro estiverem configuradas, você poderá usá-las para chamar o recurso, seja da interface padrão do Campaign ou REST APIs.
+Depois que a chave de identificação e sua definição de filtro estiverem configuradas, você poderá usá-las para chamar o recurso, seja da interface padrão da Campanha ou das APIs REST.
 
 Para usar a definição de filtro da interface, use uma **[!UICONTROL Query]** atividade em um fluxo de trabalho (consulte [esta seção](../../automating/using/query.md)). O filtro fica disponível no painel esquerdo.
 
 ![](assets/uc_idkey9.png)
 
-Para usar a definição de filtro das APIs REST do Campaign Standard, use a sintaxe abaixo:
+Para usar a definição de filtro das APIs Campaign Standard REST, use a sintaxe abaixo:
 
 ```
 GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<value>&<param2_parameter>=<value>
 ```
 
 >[!NOTE]
->Para chamar um filtro de cliente, use o prefixo "por" seguido do nome do filtro definido ao configurar a definição do filtro na [etapa 2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition).
+>Para chamar um filtro de cliente, use o prefixo &quot;por&quot; seguido do nome do filtro definido ao configurar a definição do filtro na [etapa 2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition).
 
-Em nosso caso, a sintaxe para recuperar um perfil da categoria "spring" com a ID do CRM "123456" seria:
+Em nosso caso, a sintaxe para recuperar um perfil da categoria &quot;spring&quot; com a ID do CRM &quot;123456&quot; seria:
 
 ```
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
