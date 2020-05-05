@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentação do produto Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -65,7 +65,7 @@ Saiba mais sobre diretrizes gerais para entregas móveis
 | Páginas úteis | Recursos para desenvolvedores |
 |---|---|
 | [Notas de versão](rn/using/release-notes.md) | [Acionadores da Experience Cloud](integrating/using/about-adobe-experience-cloud-triggers.md) |
-| [Documentação do Painel de Controle](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.translate.html) | [APIs de Campanha](api/using/about-campaign-standard-apis.md) |
+| [Documentação do Painel de Controle](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.translate.html) | [APIs de Campanha](api/using/get-started-apis.md) |
 | [Guia de implementação](https://helpx.adobe.com/br/campaign/kb/campaign-standard-implementation-guide.html) | [Lista de mensagens de erro](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Planejamento de versão](rn/using/release-planning.md) | [Modelo de dados de Campanha](developing/using/datamodel-introduction.md) |
 | [Recursos obsoletos e removidos](https://helpx.adobe.com/br/campaign/kb/acs-deprecated-and-removed-features.html) | [Guia multissoluções](integrating/using/get-started-campaign-integrations.md) |
