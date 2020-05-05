@@ -13,18 +13,12 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
+source-git-commit: 0dd69cbad3e05a5a7eb36da80264e6eb6aae0e34
 
 ---
 
 
 # Introdução às páginas de aterrissagem {#getting-started-with-landing-pages}
-
-## Sobre as páginas de aterrissagem {#about-landing-pages}
-
-A Campanha vem com landings page que são formulários da Web que podem ser usados para capturar informações em suas audiências, oferta subscrições em um serviço, exibe dados e amplia seu banco de dados. As Landings page também podem ser usadas para adquirir ou atualizar perfis existentes.
-
-O Landing page também pode ser usado para configurar um mecanismo de aceitação de duplo, permitindo que você proteja a plataforma contra endereços de email errados ou inválidos, ou spambots. For more on this, refer to the [dedicated use case](../../channels/using/setting-up-a-double-opt-in-process.md).
 
 As principais etapas ao configurar o landing page são as seguintes:
 
