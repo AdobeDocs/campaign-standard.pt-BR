@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e904118852b06263b1320d65867539feb6360053
+source-git-commit: 96a1812ce8775f4bfb3db64a824a9fdc8185ac6b
 
 ---
 
@@ -108,8 +108,6 @@ Para adicionar um bloco de conteúdo:
 O nome do bloco de conteúdo aparece no editor e é realçado em amarelo. Ele se adapta automaticamente ao perfil quando a personalização é gerada.
 
 ![](assets/email_content_block_3.png)
-
-Os blocos de conteúdo prontos para uso são:
 
 Os blocos de conteúdo prontos para uso são:
 
