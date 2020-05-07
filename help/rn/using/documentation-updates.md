@@ -12,7 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 0c91c22bf181607ae35297532562e20b63771e4a
+workflow-type: tm+mt
+source-wordcount: '5775'
+ht-degree: 19%
 
 ---
 
@@ -717,7 +720,7 @@ lista detalhada de todos os componentes disponíveis em Relatórios dinâmicos e
 
 lista detalhada de KPIs compartilhados com o Adobe Analytics. [Leia mais](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
-Novo vídeo Relatório dinâmico. [Leia mais](../../start/using/how-to-videos.md)
+Novo vídeo Relatório dinâmico.
 
 Adicionadas recomendações de conta S3. [Leia mais](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
 
@@ -759,7 +762,7 @@ Canal de mala direta - Retorne ao remetente, [Leia mais](../../channels/using/re
 
 **Outras atualizações de documentação que vêm com a versão**
 
-Os guias [de](../../start/using/step-by-step-guides.md) introdução e os vídeos [de](../../start/using/how-to-videos.md) instruções foram agrupados em uma seção dedicada.
+Os guias de introdução e os vídeos de instruções foram agrupados em uma seção dedicada.
 
 A documentação de renderização por email foi atualizada. [Leia mais](../../sending/using/email-rendering.md)
 
