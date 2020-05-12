@@ -12,7 +12,10 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 001fc2df11e32bdcc31dfe917884460b4d3de541
+source-git-commit: a894e72bb02fbecb86d43c6d2a13adf7ab10f73e
+workflow-type: tm+mt
+source-wordcount: '665'
+ht-degree: 5%
 
 ---
 
@@ -38,7 +41,7 @@ Esta é uma representação visual da interação dos perfis com o email enviado
   <tr> 
    <th align="center"> <strong>Day</strong> <br /> </th> 
    <th align="center"> <strong>Aberturas</strong> <br /> </th> 
-   <th align="center"> <strong>Aberturas</strong> exclusivas <br /> </th> 
+   <th align="center"> <strong>Aberturas exclusivas</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -66,7 +69,7 @@ Isso resultará na seguinte tabela:
   <tr> 
    <th align="center"> <strong>Day</strong> <br /> </th> 
    <th align="center"> <strong>Aberturas</strong> <br /> </th> 
-   <th align="center"> <strong>Aberturas</strong> exclusivas <br /> </th> 
+   <th align="center"> <strong>Aberturas exclusivas</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -100,6 +103,57 @@ Tais ocorrências são adicionadas como **&quot;um clique de email implica uma a
 >[!NOTE]
 >
 >Como as contagens únicas são baseadas em um rascunho baseado em HLL, podem ocorrer pequenas inconsistências entre as contagens.
+
+## Como são calculadas as contagens de delivery recorrentes/transacionais? {#counts-recurring-deliveries}
+
+Ao trabalhar com delivery recorrentes e transacionais, as contagens serão atribuídas aos delivery pai e filho.
+Podemos pegar o exemplo de um delivery recorrente chamado **R1** definido para ser executado todos os dias no dia 1 (RC1), no dia 2 (RC2) e no dia 3 (RC3).
+Vamos supor que apenas uma única pessoa abriu todos os delivery da criança várias vezes. Nesse caso, os delivery filhos recorrentes individuais mostrarão a **[!UICONTROL Open]** contagem como 1 para cada um.
+No entanto, como a mesma pessoa clicou em todos os delivery, o delivery recorrente pai também terá **[!UICONTROL Unique open]** 1.
+
+Os relatórios devem se parecer com o seguinte:
+
+<table> 
+ <thead> 
+  <tr> 
+   <th align="center"> <strong>Delivery</strong> <br /> </th> 
+   <th align="center"> <strong>Sent</strong> <br /> </th> 
+   <th align="center"> <strong>Entregue</strong> <br /> </th>
+   <th align="center"> <strong>Aberturas</strong> <br /> </th> 
+   <th align="center"> <strong>Aberturas exclusivas</strong> <br /> </th>
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td align="center"> <strong>R1<br/> </td> 
+   <td align="center"> <strong>100<br/> </td> 
+   <td align="center"> <strong>90<br/> </td> 
+   <td align="center"> <strong>10<br/> </td> 
+   <td align="center"> <strong>3<br/> </td> 
+  </tr> 
+  <tr> 
+   <td align="center"> RC1<br/> </td> 
+   <td align="center"> 20<br /> </td> 
+   <td align="center"> 20<br /> </td> 
+   <td align="center"> 6<br /> </td> 
+   <td align="center"> 1<br /> </td> 
+  </tr>
+    <tr> 
+   <td align="center"> RC2<br /> </td> 
+   <td align="center"> 40<br /> </td> 
+   <td align="center"> 30<br /> </td> 
+   <td align="center"> 2<br /> </td> 
+   <td align="center"> 1<br /> </td> 
+  </tr> 
+    <tr> 
+   <td align="center"> RC3<br /> </td> 
+   <td align="center"> 40<br /> </td> 
+   <td align="center"> 40<br /> </td> 
+   <td align="center"> 2<br /> </td> 
+   <td align="center"> 1<br /> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ## Qual é a significação das cores na tabela dos meus relatórios? {#reports-color-signification}
 
