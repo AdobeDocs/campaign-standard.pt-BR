@@ -13,7 +13,10 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
+source-git-commit: e2303055b3370efab204adbdb1b9f567a555a23f
+workflow-type: tm+mt
+source-wordcount: '2331'
+ht-degree: 9%
 
 ---
 
@@ -40,7 +43,7 @@ A tela de configuração de email permite definir os parâmetros do canal de ema
 
 * **Campos de máscaras autorizados**
 
-   O **[!UICONTROL Header parameters of sent emails]** lista os endereços de email autorizados que você pode usar para enviar emails para seus recipient (endereço do remetente) e notificá-los de quaisquer erros (endereço de erro).  O Adobe Campaign verifica se os endereços inseridos são válidos durante a fase de preparação da mensagem. Esse modo operacional garante que não sejam usados endereços que possam causar problemas de entrega.
+   A **[!UICONTROL Header parameters of sent emails]** seção lista os endereços de email autorizados que você pode usar para enviar emails para seus recipient (endereço do remetente) e permitir que eles enviem respostas automatizadas, como rejeições assíncronas, respostas fora do escritório etc. (endereço de erro).  O Adobe Campaign verifica se os endereços inseridos são válidos durante a fase de preparação da mensagem. Esse modo operacional garante que não sejam usados endereços que possam causar problemas de entrega.
    * O remetente e os endereços de erro são configurados pela Adobe. Esses campos não podem estar vazios.
    * Não é possível editar esses campos. Para atualizar um endereço, entre em contato com a equipe de Atendimento ao cliente da Adobe.
    * Para adicionar outro endereço, use o Painel [de](https://docs.adobe.com/content/help/pt-BR/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) controle para configurar um novo subdomínio ou entre em contato com a equipe de Atendimento ao cliente da Adobe. Observe que, se forem usadas várias máscaras, elas serão separadas por vírgulas.
@@ -53,7 +56,7 @@ A tela de configuração de email permite definir os parâmetros do canal de ema
 
 * **Parâmetros do Delivery**
 
-   O Adobe Campaign envia as mensagens que começam na data do start. O **[!UICONTROL Message delivery duration]** campo permite especificar a duração durante a qual as mensagens podem ser enviadas.
+   O Adobe Campaign envia as mensagens que começam na data do start. O **[!UICONTROL Message delivery duration]** campo permite especificar o período no qual qualquer mensagem no delivery que encontre um erro temporário ou uma rejeição suave será repetida.
 
    >[!IMPORTANT]
    >
@@ -73,7 +76,7 @@ A tela de configuração de email permite definir os parâmetros do canal de ema
 
 * **Parâmetros de quarentena de email**
 
-   No **[!UICONTROL Time between two significant errors]** campo, digite um valor para definir o tempo que o aplicativo aguarda antes de incrementar o contador de erros em caso de falha. O valor padrão é **&quot;1d&quot;**, por 1 dia.
+   No **[!UICONTROL Time between two significant errors]** campo, insira um valor para definir o tempo que o aplicativo aguarda antes de incrementar o contador de erros no caso de uma falha provocada por software. O valor padrão é **&quot;1d&quot;**, por 1 dia.
 
    Quando o **[!UICONTROL Maximum number of errors before quarantine]** valor é atingido, o endereço de email é colocado em quarentena. O valor padrão é **&quot;5&quot;**: o endereço será colocado em quarentena no quinto erro. Isso significa que o contato será automaticamente excluído dos delivery subsequentes.
    <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
@@ -102,9 +105,9 @@ Observe que os domínios de email e as regras MX agora são gerenciados pelo MTA
 
 ### Mensagens de rejeição {#bounce-mails}
 
-Asynchronous bounces are still qualified by the Campaign inMail process through the **[!UICONTROL Bounce mails]** rule.
+Asynchronous bounces are still qualified by the Campaign inMail process through the **[!UICONTROL Bounce mails]** rules.
 
-This rule contains the list of character strings which can be returned by remote servers and which let you qualify the error (**Hard**, **Soft** or **Ignored**).
+Essas regras contêm a lista de cadeias de caracteres que podem ser retornadas por servidores remotos e que permitem que você qualifique o erro (**Grave**, **Suave** ou **Ignorado**).
 
 >[!NOTE]
 >
