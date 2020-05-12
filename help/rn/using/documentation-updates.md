@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c91c22bf181607ae35297532562e20b63771e4a
+source-git-commit: 72d27b33d6e69af47b34cc6bfeae7b34911e8d10
 workflow-type: tm+mt
-source-wordcount: '5775'
+source-wordcount: '5807'
 ht-degree: 19%
 
 ---
@@ -30,11 +30,13 @@ A página de visão geral do Campaign Standard foi enriquecida e reorganizada em
 
 A seção Parâmetros de canal de email foi esclarecida com mais informações sobre os campos de máscaras autorizadas e a ID de relatórios do delivery. [Leia mais](../../administration/using/configuring-email-channel.md)
 
+A configuração de um aplicativo móvel usando os SDKs da plataforma Adobe Experience está disponível agora na documentação principal com mais informações sobre o Sincronizar AEPSDK do aplicativo móvel do Launch Technical workflow. [Leia mais](../../administration/using/configuring-a-mobile-application.md)
+
 ## Versão 20.3 - maio de 2020 {#release-20-3---may-2020}
 
 **Novos recursos incluídos na versão**
 
-PDPA (Personal Data Protection Act) da Tailândia - [Leia mais](https://helpx.adobe.com/content/help/br/campaign/kb/acs-privacy.html)
+PDPA (Personal Data Protection Act) da Tailândia - [Leia mais](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
 
 Atividade de API externa (GA) - [Leia mais](../../automating/using/external-api.md)
 
@@ -130,7 +132,7 @@ Destinos da Audiência (beta) - [Leia mais](../../audiences/using/aep-about-audi
 
 **Outras atualizações de documentação que vêm com a versão**
 
-A documentação de gerenciamento de privacidade foi atualizada com informações sobre como criar o campo de opção CCPA para recursos de perfil personalizados. [Leia mais](https://helpx.adobe.com/content/help/br/campaign/kb/acs-privacy.html)
+A documentação de gerenciamento de privacidade foi atualizada com informações sobre como criar o campo de opção CCPA para recursos de perfil personalizados. [Leia mais](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
 
 As Notas de versão foram reorganizadas e melhoradas. [Leia mais](../../rn/using/release-notes.md)
 
