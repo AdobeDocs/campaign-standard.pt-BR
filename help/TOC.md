@@ -94,7 +94,7 @@ ht-degree: 93%
       + [Criação e atualização de informações de perfil com base em dados de aplicativo móvel](channels/using/updating-profile-with-mobile-app-data.md)
       + [Implementação do rastreamento de push](channels/using/push-tracking.md)
       + [Exibir uma imagem a partir de uma notificação por push do Adobe Campaign Standard](channels/using/image-push-notification.md)
-      + [Como entender a estrutura de carga das notificações por push de Campaign Standard](channels/using/push-payload.md)
+      + [Como entender a estrutura de carga das notificações por push do Campaign Standard](channels/using/push-payload.md)
    + Mensagens no aplicativo {#in-app-messaging}
       + [Sobre as mensagens no aplicativo](channels/using/about-in-app-messaging.md)
       + [Preparação e envio de uma mensagem no aplicativo](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -209,16 +209,16 @@ ht-degree: 93%
       + [Criar um relatório com base em segmentos de fluxo de trabalho](reporting/using/creating-a-report-workflow-segment.md)
 + Integração com outras soluções {#integrating-with-adobe-cloud}
    + [Introdução às integrações de Campanhas](integrating/using/get-started-campaign-integrations.md)
-   + Campanha e Experience Manager {#working-with-campaign-and-experience-manager}
+   + Campaign e Experience Manager {#working-with-campaign-and-experience-manager}
       + [Sobre a integração do Campaign-Experience Manager](integrating/using/integrating-with-experience-manager.md)
-      + [Configuração da integração do Campaign-Experience Manager](integrating/using/configure-experience-manager.md)
+      + [Configuração da integração do Campaign com o Experience Manager](integrating/using/configure-experience-manager.md)
       + [Criação de conteúdo de e-mail no Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
       + [Criar um formulário do Campaign no Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
-   + Campanha e Público alvo {#working-with-campaign-and-target}
+   + Campaign e Target {#working-with-campaign-and-target}
       + [Sobre a integração do Campaign com o Target](integrating/using/about-campaign-target-integration.md)
       + [Configuração da integração do Campaign com o Target](integrating/using/configuring-the-campaign-target-integration.md)
       + [Adicionar conteúdo dinâmico do Target](integrating/using/adding-target-dynamic-content.md)
-   + Campanha e análise {#working-with-campaign-and-analytics}
+   + Campaign e Analytics {#working-with-campaign-and-analytics}
       + [Sobre a integração do Campaign com o Analytics](integrating/using/about-campaign-analytics-integration.md)
       + [Configurar a integração do Campaign com o Analytics](integrating/using/configure-campaign-analytics-integration.md)
       + [Dimensões e métricas do Campaign no Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
@@ -228,7 +228,7 @@ ht-degree: 93%
       + [Solução de problemas](integrating/using/troubleshooting.md)
       + [Compartilhamento de públicos-alvo com o Audience Manager ou o serviço principal do People](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Trabalhar com o serviço principal do Campaign e do Assets](integrating/using/working-with-campaign-and-assets-core-service.md)
-   + Campanha e análise para dispositivos móveis {#working-with-campaign-and-analytics-for-mobile}
+   + Campaign e Analytics for Mobile {#working-with-campaign-and-analytics-for-mobile}
       + [Sobre a integração de dados do Campaign com os Pontos de interesse](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [Configuração da integração de dados do Campaign com os Pontos de interesse](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [Personalização de mensagens do Campaign com dados de Ponto de interesse](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
@@ -246,7 +246,7 @@ ht-degree: 93%
          + [Solicite e configure a integração do Microsoft Dynamics 365](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
          + [Usar a integração do Microsoft Dynamics 365](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
       + [Configurar o Adobe IO para integração com o Microsoft Dynamics 365](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-      + [Configurar o Microsoft Dynamics 365 para integração com Campanhas](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+      + [Configurar o Microsoft Dynamics 365 para integração com o Campaign](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
       + [Configurar o Unifi para integração com o Microsoft Dynamics 365](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
       + [Mapear recursos personalizados da campanha e entidades personalizadas do Dynamics 365](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
 + Gerenciamento de processos e dados {#managing-processes-and-data}
