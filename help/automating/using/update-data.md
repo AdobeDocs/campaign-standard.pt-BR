@@ -1,19 +1,22 @@
 ---
 title: Atualizar dados
-description: A atividade Atualizar dados permite que você execute uma atualização em massa nos campos no banco de dados.
-page-status-flag: nunca ativado
+description: A atividade Atualizar dados permite executar uma atualização em massa nos campos do banco de dados.
+page-status-flag: never-activated
 uuid: 1dc55db5-affd-4688-b673-adfb8c1338b5
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatização
-content-type: referência
-topic-tags: atividades de gestão de dados
+audience: automating
+content-type: reference
+topic-tags: data-management-activities
 discoiquuid: 4db83c95-4b75-4a16-8dbf-bd8940431fa9
-context-tags: escritor,principal
+context-tags: writer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '517'
+ht-degree: 1%
 
 ---
 
@@ -28,11 +31,11 @@ A **[!UICONTROL Update data]** atividade permite executar uma atualização em m
 
 ## Contexto de utilização {#context-of-use}
 
-A atividade **Atualizar dados** pode ser usada após a importação de um arquivo para inserir os dados recuperados no banco de dados do Adobe Campaign. Várias opções permitem que você personalize a atualização dos dados.
+A atividade de dados **** Update pode ser usada após a importação de um arquivo para inserir os dados recuperados no banco de dados Adobe Campaign. Várias opções permitem que você personalize a atualização dos dados.
 
 ## Configuração {#configuration}
 
-1. Arraste e solte uma **[!UICONTROL Update data]** atividade em seu fluxo de trabalho.
+1. Arraste e solte uma **[!UICONTROL Update data]** atividade no seu fluxo de trabalho.
 1. Selecione a atividade e abra-a usando o ![](assets/edit_darkgrey-24px.png) botão das ações rápidas que aparecem.
 1. Especificar as modalidades **[!UICONTROL Operation type]** de execução:
 
@@ -41,7 +44,7 @@ A atividade **Atualizar dados** pode ser usada após a importação de um arquiv
 
       Marque a **[!UICONTROL Generate an outbound transition for rejects]** caixa se os dados importados contêm determinados registros que já existem no banco de dados para evitar possíveis erros.
 
-   * **[!UICONTROL Update]**: atualizar os dados dos registros que já existem apenas no banco de dados.
+   * **[!UICONTROL Update]**: atualize os dados dos registros que já existem somente no banco de dados.
    * **[!UICONTROL Delete]**: excluir dados.
    >[!NOTE]
    >
@@ -49,11 +52,11 @@ A atividade **Atualizar dados** pode ser usada após a importação de um arquiv
 
 1. Na **[!UICONTROL Identification]** guia, especifique como identificar os registros no banco de dados:
 
-   * **[!UICONTROL Using the targeting dimension]**: selecione o **[!UICONTROL Dimension to update]** e especifique o **[!UICONTROL Keys for finding records]**. Para obter mais informações, consulte Dimensões e recursos [de](../../automating/using/query.md#targeting-dimensions-and-resources)definição de metas.
-   * Se os dados inseridos corresponderem a uma dimensão de definição de metas existente, selecione a **[!UICONTROL Using one or more links]** opção. Em seguida, selecione o **[!UICONTROL Dimension to update]**.
-   Se o tipo de operação selecionado exigir uma atualização, você deverá usar as chaves de reconciliação.
+   * **[!UICONTROL Using the targeting dimension]**: selecione o **[!UICONTROL Dimension to update]** e especifique o **[!UICONTROL Keys for finding records]**. Para obter mais informações, consulte [Targeting dimension e recursos](../../automating/using/query.md#targeting-dimensions-and-resources).
+   * Se os dados digitados corresponderem a um targeting dimension existente, selecione a **[!UICONTROL Using one or more links]** opção. Em seguida, selecione o **[!UICONTROL Dimension to update]**.
+   Se o tipo de operação selecionado exigir uma atualização, você deverá usar o chave de reconciliação.
 
-1. Na **[!UICONTROL Fields to update]** guia, especifique os campos nos quais a atualização será aplicada e, se necessário, adicione condições para que essa atualização seja realizada. Para fazer isso, use a **[!UICONTROL Taken into account if]** coluna. As condições são aplicadas uma após a outra na ordem de lista. Use as setas à direita para alterar a ordem das atualizações. Você pode usar o mesmo campo de destino várias vezes.
+1. Na **[!UICONTROL Fields to update]** guia, especifique os campos nos quais a atualização será aplicada e, se necessário, adicione condições para que essa atualização seja realizada. To do this, use the **[!UICONTROL Taken into account if]** column. As condições são aplicadas uma após a outra em ordem de lista. Use as setas à direita para alterar a ordem das atualizações. Você pode usar o mesmo campo de destino várias vezes.
 
    É possível vincular campos automaticamente usando o ![](assets/wkf_magic_wand-24px.png) botão. A vinculação automática detecta campos com o mesmo nome.
 
@@ -61,9 +64,9 @@ A atividade **Atualizar dados** pode ser usada após a importação de um arquiv
 
    >[!NOTE]
    >
-   >**Gerenciamento de atualizações** Os campos **[!UICONTROL lastModified]**, **[!UICONTROL modifiedBy]** e **[!UICONTROL created]** **[!UICONTROL createdBy]** são automaticamente atualizados quando uma atividade de dados de atualização é executada, a menos que sua configuração seja explicitamente executada na tabela de atualização de campo. A atualização só é efetuada nos registros em que tenha sido detectada pelo menos uma diferença. Se os valores forem os mesmos, nenhuma atualização será realizada.
+   >**Gerenciando atualizações** Os campos **[!UICONTROL lastModified]**, **[!UICONTROL modifiedBy]** e **[!UICONTROL created]** **[!UICONTROL createdBy]** são automaticamente atualizados quando uma atividade de dados de atualização é executada, a menos que sua configuração seja explicitamente executada na tabela de atualização de campo. A atualização só é efetuada nos registros em que tenha sido detectada pelo menos uma diferença. Se os valores forem os mesmos, nenhuma atualização será realizada.
 
-1. Se necessário, gerencie as [Transições](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) da atividade para acessar as opções avançadas para a população de saída.
+1. Se necessário, gerencie as [Transições](../../automating/using/activity-properties.md) de atividade para acessar as opções avançadas para a população de saída.
 
    Se você selecionou **[!UICONTROL Insert only]** e os dados importados podem conter registros que já estão presentes no banco de dados, marque a **[!UICONTROL Generate an outbound transition for the rejects]** caixa para evitar possíveis erros.
 
@@ -71,7 +74,7 @@ A atividade **Atualizar dados** pode ser usada após a importação de um arquiv
 
 ## Exemplo {#example}
 
-A atividade a seguir mostra a configuração de uma **[!UICONTROL Update data]** atividade após uma **[!UICONTROL Load file]** atividade. O objetivo desse fluxo de trabalho é adicionar ou atualizar perfis para o banco de dados do Adobe Campaign com os dados recuperados do arquivo. A chave de reconciliação usada é o endereço de email.
+A atividade a seguir mostra a configuração de uma **[!UICONTROL Update data]** atividade após uma **[!UICONTROL Load file]** atividade. O objetivo desse fluxo de trabalho é adicionar ou atualizar perfis ao banco de dados do Adobe Campaign com os dados recuperados do arquivo. A chave de reconciliação usada é o endereço de email.
 
 O arquivo carregado é um arquivo de formato **.txt** que contém os seguintes dados de exemplo:
 
