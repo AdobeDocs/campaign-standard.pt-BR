@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 72d27b33d6e69af47b34cc6bfeae7b34911e8d10
+source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
 workflow-type: tm+mt
 source-wordcount: '5807'
 ht-degree: 19%
@@ -36,13 +36,13 @@ A configuração de um aplicativo móvel usando os SDKs da plataforma Adobe Expe
 
 **Novos recursos incluídos na versão**
 
-PDPA (Personal Data Protection Act) da Tailândia - [Leia mais](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
+PDPA (Personal Data Protection Act) da Tailândia - [Leia mais](https://helpx.adobe.com/content/help/br/campaign/kb/acs-privacy.html)
 
 Atividade de API externa (GA) - [Leia mais](../../automating/using/external-api.md)
 
 **Outras atualizações de documentação que vêm com a versão**
 
-Foram adicionadas informações sobre o **[!UICONTROL History in days]** campo nas propriedades dos workflows que agora incluem arquivos baixados pela **[!UICONTROL Transfer file]** atividade. [Leia mais](../../automating/using/executing-a-workflow.md)
+Foram adicionadas informações sobre o **[!UICONTROL History in days]** campo nas propriedades dos workflows que agora incluem arquivos baixados pela **[!UICONTROL Transfer file]** atividade. [Leia mais](../../automating/using/managing-execution-options.md)
 
 Foram adicionadas informações na seção de substituição de perfis relativas ao limite de 500 caracteres do prefixo da linha de assunto. [Leia mais](../../sending/using/testing-messages-using-target.md)
 
@@ -120,7 +120,7 @@ Uma nova seção dedicada às práticas recomendadas do modelo de dados de Campa
 
 Foram adicionadas informações sobre o direito **[!UICONTROL Workflow]** incorporado. [Leia mais](../../administration/using/list-of-roles.md)
 
-Foram adicionadas informações sobre as propriedades dos workflows **[!UICONTROL History in days field]** disponíveis. [Leia mais](../../automating/using/executing-a-workflow.md)
+Foram adicionadas informações sobre as propriedades dos workflows **[!UICONTROL History in days field]** disponíveis. [Leia mais](../../automating/using/about-workflow-execution.md)
 
 ## Versão 20.1 - fevereiro de 2020 {#release-20-1---february-2020}
 
@@ -132,7 +132,7 @@ Destinos da Audiência (beta) - [Leia mais](../../audiences/using/aep-about-audi
 
 **Outras atualizações de documentação que vêm com a versão**
 
-A documentação de gerenciamento de privacidade foi atualizada com informações sobre como criar o campo de opção CCPA para recursos de perfil personalizados. [Leia mais](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
+A documentação de gerenciamento de privacidade foi atualizada com informações sobre como criar o campo de opção CCPA para recursos de perfil personalizados. [Leia mais](https://helpx.adobe.com/content/help/br/campaign/kb/acs-privacy.html)
 
 As Notas de versão foram reorganizadas e melhoradas. [Leia mais](../../rn/using/release-notes.md)
 
@@ -818,7 +818,7 @@ Integração do Dreamweaver ao vivo - [Leia mais](https://docs.adobe.com/content
 
 Seção adicionada aos diferentes tipos de usuários de Adobe Campaign. [Leia mais](../../administration/using/users-management.md)
 
-O Guia do Fluxo de Trabalho foi reorganizado e estendido. Descubra com facilidade como [criar](../../automating/using/building-a-workflow.md) e [executar](../../automating/using/executing-a-workflow.md) um workflow, como [direcionar](../../automating/using/targeting-data.md) e [gerenciar](../../automating/using/targeting-data.md#enriching-data) os dados, como [importar dados](../../automating/using/importing-data.md)[](../../automating/using/using-workflow-data.md) e como usar os dados do fluxo de trabalho para atualizar o banco de dados ou enviar deliveries.
+O Guia do Fluxo de Trabalho foi reorganizado e estendido. Descubra com facilidade como [criar](../../automating/using/building-a-workflow.md) e [executar](../../automating/using/about-workflow-execution.md) um workflow, como [direcionar](../../automating/using/targeting-data.md) e [gerenciar](../../automating/using/targeting-data.md#enriching-data) os dados, como [importar dados](../../automating/using/importing-data.md)[](../../automating/using/using-workflow-data.md) e como usar os dados do fluxo de trabalho para atualizar o banco de dados ou enviar deliveries.
 
 O cálculo do indicador de relatório agora está disponível para relatórios dinâmicos, incluindo descrição completa e fórmula de cálculo. [Leia mais](../../reporting/using/indicator-calculation.md)
 
