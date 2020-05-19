@@ -12,14 +12,17 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
+source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+workflow-type: tm+mt
+source-wordcount: '1007'
+ht-degree: 4%
 
 ---
 
 
 # Versão mais recente{#latest-release}
 
-[Planejamento](../../rn/using/release-planning.md) da versão| Versões [do Painel](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html) de controle| Atualizações [da](../../rn/using/documentation-updates.md) documentação| Notas [de versão](../../rn/using/release-notes-2020.md) anteriores| Recursos [obsoletos](../../rn/using/deprecated-features.md)
+[Planejamento de versão](../../rn/using/release-planning.md) | Versões [do Painel de controle](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html) | Atualizações [da documentação](../../rn/using/documentation-updates.md) | Notas de versão [anteriores](../../rn/using/release-notes-2020.md) | Recursos [obsoletos](../../rn/using/deprecated-features.md)
 
 ## Versão 20.3 - maio de 2020 {#release-20-3---may-2020}
 
@@ -39,7 +42,7 @@ source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
 <li>Direito de acesso e direito de exclusão: estamos aproveitando as capacidades que foram adicionadas ao RGPD e CCPA. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">Saiba mais</a> </li>
 <li><p>Ao criar uma solicitação de privacidade, o tipo de regulamento PDPA foi adicionado ao Privacy Core Service. Este método é o que você deve usar para todas as solicitações de acesso e exclusão. O uso da API de Campanha e da interface para acessar e excluir solicitações está obsoleto.  Consulte o artigo <a href="../../rn/using/deprecated-features.md">Recursos removidos e</a>obsoletos.</p></li>
 </ul>
-<p>Consulte o vídeo <a href="https://docs.adobe.com/content/help/pt-BR/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">como fazer</a>.</p>
+<p>Consulte o vídeo <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">como fazer</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -91,11 +94,11 @@ source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
 * As caixas de seleção agora podem ser obrigatórias em uma landing page.
 * Ao baixar o arquivo CSV de um relatório dinâmico, o limite de 200 linhas foi removido. Agora você pode incluir cada linha do seu relatório. (CAMP-40810)
 * Adicionado o idioma ES-US na lista de idiomas prontos para uso para emails multilíngues. (CAMP-42279)
-* Os arquivos baixados com uma atividade Transferir arquivo serão excluídos depois de X dias, onde X é determinado pelo campo **Histórico em dias** no menu **Execução** nas propriedades Fluxo de trabalho. [Leia mais](../../automating/using/executing-a-workflow.md#workflow-properties)
+* Os arquivos baixados com uma atividade Transferir arquivo serão excluídos depois de X dias, onde X é determinado pelo campo **Histórico em dias** no menu **Execução** nas propriedades Fluxo de trabalho. [Leia mais](../../automating/using/managing-execution-options.md)
 
 **Integrações da plataforma Experience**
 
-* A Ativação das Audiências [da plataforma Adobe](../../automating/using/aep-targeting-audiences.md) Experience da atividade **Read audiência** foi aprimorada para oferecer melhor desempenho e estabilidade. Além disso, os logs de fluxo de trabalho foram tornados mais claros e detalhados em relação aos trabalhos de ativação, permitindo um monitoramento e solução de problemas mais fáceis ao ler as audiências da plataforma Adobe Experience.
+* A Ativação das Audiências [da plataforma Adobe](../../automating/using/aep-targeting-audiences.md) Experience da atividade **Read audiência** foi aprimorada para oferecer melhor desempenho e estabilidade. Além disso, os registros de fluxo de trabalho foram tornados mais claros e detalhados em relação aos trabalhos de ativação, permitindo um monitoramento e solução de problemas mais fáceis ao ler as audiências da plataforma Adobe Experience.
 
 **Correções**
 
