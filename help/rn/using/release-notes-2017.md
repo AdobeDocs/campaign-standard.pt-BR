@@ -12,7 +12,10 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c21a6fb4916430deb76d5d01b379453e398f6f25
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '4623'
+ht-degree: 6%
 
 ---
 
@@ -247,7 +250,7 @@ _Relatórios_
 
 _Workflows_
 
-* Agora é possível filtrar logs de fluxo de trabalho (período de tempo e pesquisa de texto). For more information, refer to the [detailed documention](../../automating/using/executing-a-workflow.md#monitoring).
+* Agora é possível filtrar logs de fluxo de trabalho (período de tempo e pesquisa de texto). For more information, refer to the [detailed documention](../../automating/using/monitoring-workflow-execution.md).
 * Uma opção agora está disponível em delivery de fluxo de trabalho para desativar a confirmação antes do envio.
 * Correção de um problema que impedia a configuração de uma transição de saída no assistente de criação de delivery recorrentes.
 * Correção de um problema que ocorria ao usar uma atividade de query de fluxo de trabalho com base em um campo de recurso personalizado com uma lista discriminada com muitos valores
