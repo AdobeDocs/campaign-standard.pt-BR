@@ -12,7 +12,10 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
+source-git-commit: e22a2fcfd36adc1d4c9b62b1fd336e553c69b5af
+workflow-type: tm+mt
+source-wordcount: '1961'
+ht-degree: 51%
 
 ---
 
@@ -23,11 +26,11 @@ source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 Você pode coletar dados de um arquivo para processá-lo e/ou importá-lo no banco de dados do Adobe Campaign.
 
-* A **[!UICONTROL Load file]** atividade permite importar dados em um formulário estruturado para usá-los no Adobe Campaign. Os dados são importados temporariamente e outra atividade é necessária para integrá-los definitivamente ao banco de dados do Adobe Campaign.
+* A **[!UICONTROL Load file]** atividade permite importar dados em um formulário estruturado para usá-los no Adobe Campaign. Os dados são temporariamente importados e outra atividade é necessária para integrá-los definitivamente ao banco de dados do Adobe Campaign.
 
    For more on how to use this activity, refer to [this section](../../automating/using/load-file.md).
 
-* A **[!UICONTROL Transfer file]** atividade permite que você receba ou envie arquivos, teste se há arquivos presentes ou liste arquivos no Adobe Campaign.
+* A **[!UICONTROL Transfer file]** atividade permite que você receba ou envie arquivos, teste se há arquivos presentes ou arquivos de lista no Adobe Campaign.
 Você pode usar essa atividade antes de uma **[!UICONTROL Load file]** caso precise recuperar o arquivo de uma fonte externa.
 
    For more on how to use this activity, refer to [this section](../../automating/using/transfer-file.md).
@@ -42,7 +45,7 @@ A maioria dos workflows de importação deve conter as seguintes atividades: **[
 
 É muito conveniente usar templates de importação para preparar importações semelhantes e garantir a consistência dos dados no banco de dados.
 
-In many projects, imports are built without **[!UICONTROL Deduplication]** activity because the files used in the project do not have duplicates. As duplicatas às vezes surgem da importação de arquivos diferentes. A eliminação de duplicatas é difícil. Portanto, a etapa de eliminação de duplicatas é uma boa precaução em todos os workflows de importação.
+Em muitos projetos, as importações são criadas sem a atividade **[!UICONTROL Deduplication]** porque os arquivos usados no projeto não têm duplicatas. As duplicatas às vezes surgem da importação de arquivos diferentes. A eliminação de duplicatas é difícil. Portanto, a etapa de eliminação de duplicatas é uma boa precaução em todos os workflows de importação.
 
 Não confie na suposição de que os dados de entrada são consistentes e corretos, ou que o departamento de TI ou o supervisor do Adobe Campaign irá resolver isso. Durante o projeto, mantenha a limpeza dos dados em mente. Elimine duplicatas, reconcilie e mantenha de consistência ao importar dados.
 
@@ -50,14 +53,14 @@ Um exemplo de um modelo de fluxo de trabalho genérico projetado para importar d
 
 >[!NOTE]
 >
->Também é possível usar modelos [de](../../automating/using/importing-data-with-import-templates.md)importação. São modelos de fluxo de trabalho definidos por um administrador que, uma vez ativado, oferece apenas a possibilidade de especificar o arquivo que contém os dados a serem importados.
+>Você também pode usar [templates de importação](../../automating/using/importing-data-with-import-templates.md). São modelos de fluxo de trabalho definidos por um administrador que, uma vez ativado, apenas oferta a possibilidade de especificar o arquivo que contém os dados a serem importados.
 
 **Tópicos relacionados:**
 
 * [Carregar atividade de arquivo](../../automating/using/load-file.md)
-* [Atividade de reconciliação](../../automating/using/reconciliation.md)
-* [Atividade de segmentação](../../automating/using/segmentation.md)
-* [Atividade de desduplicação](../../automating/using/deduplication.md)
+* [atividade de reconciliação](../../automating/using/reconciliation.md)
+* [atividade de segmentação](../../automating/using/segmentation.md)
+* [atividade Desduplicação-duplicada](../../automating/using/deduplication.md)
 * [Atualizar atividade de dados](../../automating/using/update-data.md)
 
 ### Uso dos formatos de arquivo simples {#using-flat-file-formats}
@@ -83,7 +86,7 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 ### Uso da compactação {#using-compression}
 
-Use arquivos compactados para importações e exportações sempre que possível. O GZIP é suportado por padrão. Você pode adicionar pré-processamento ao importar arquivos ou pós-processamento ao extrair dados, respectivamente, nas atividades do fluxo de trabalho **[!UICONTROL Load file]** e do fluxo de **[!UICONTROL Extract file]** trabalho.
+Use arquivos compactados para importações e exportações sempre que possível. O GZIP é suportado por padrão. Você pode adicionar pré-processamento ao importar arquivos ou pós-processamento ao extrair dados, respectivamente, nas atividades **[!UICONTROL Load file]** e **[!UICONTROL Extract file]** de fluxo de trabalho.
 
 **Tópicos relacionados:**
 
@@ -108,13 +111,13 @@ Para manter a consistência dos dados no banco de dados do Adobe Campaign, siga 
 
 ## Gerenciamento de dados criptografados {#managing-encrypted-data}
 
-Em alguns casos, os dados que você deseja importar para os Servidores de campanha podem precisar ser criptografados, por exemplo, se contiverem dados de PII.
+Em alguns casos, os dados que você deseja importar Servidores de Campanha podem precisar ser criptografados, por exemplo, se contiverem dados de PII.
 
 Para importar ou exportar arquivos criptografados, primeiro é necessário entrar em contato com o Atendimento ao cliente da Adobe para que ele forneça à sua instância os comandos de criptografia/descriptografia necessários.
 
 Para fazer isso, envie uma solicitação indicando:
 
-* O **rótulo** que será exibido na interface do Campaign para usar o comando. Por exemplo, &quot;Criptografar arquivo&quot;.
+* O **rótulo** que será exibido na interface de Campanha para usar o comando. Por exemplo, &quot;Criptografar arquivo&quot;.
 * O **comando** a ser instalado em sua instância.
 Por exemplo, para descriptografar um arquivo usando PGP, o comando será:
 
@@ -122,7 +125,7 @@ Por exemplo, para descriptografar um arquivo usando PGP, o comando será:
    <path-to_pgp_if-not_global_or_server/>pgp.exe --decrypt --input nl6/var/vp/import/filename.pgp --passphrase "your password" --recipient recipient @email.com --verbose --output nl6/var/vp/import/filename
    ```
 
-Depois que a solicitação for processada, os comandos de criptografia/descriptografia estarão disponíveis no **!UICONTROL Pre-processing stage]** campo nas atividades **[!UICONTROL Load file]** e **[!UICONTROL Extract file]** . Você pode usá-los para descriptografar ou criptografar os arquivos que deseja importar ou exportar.
+Depois que a solicitação for processada, os comandos de criptografia/descriptografia estarão disponíveis no **[!UICONTROL Pre-processing stage]** campo nas **[!UICONTROL Load file]** atividades **[!UICONTROL Extract file]** e . Você pode usá-los para descriptografar ou criptografar os arquivos que deseja importar ou exportar.
 
 ![](assets/preprocessing-encryption.png)
 
@@ -137,7 +140,7 @@ Usar um template de importação é uma prática recomendada se você precisar i
 
 Esse exemplo mostra como predefinir um workflow que pode ser reutilizado para importar perfis provenientes de um CRM no banco de dados do Adobe Campaign.
 
-1. Crie um novo modelo de fluxo de trabalho a partir de **[!UICONTROL Resources > Templates > Workflow templates]**.
+1. Create a new workflow template from **[!UICONTROL Resources > Templates > Workflow templates]**.
 1. Adicione as seguintes atividades:
 
    * **[!UICONTROL Load file]**: Defina a estrutura esperada do arquivo que contém os dados a serem importados.
@@ -146,13 +149,13 @@ Esse exemplo mostra como predefinir um workflow que pode ser reutilizado para im
       >
       >Você só pode importar dados de um único arquivo. Se o fluxo de trabalho tiver várias **[!UICONTROL Load file]** atividades, o mesmo arquivo será usado sempre.
 
-   * **[!UICONTROL Reconciliation]**: Reconcilie os dados importados com os dados do banco de dados.
-   * **[!UICONTROL Segmentation]**: Crie filtros para processar registros de forma diferente conforme sejam eles reconciliados ou não.
-   * **[!UICONTROL Deduplication]**: Elimine a duplicação dos dados do arquivo de entrada antes de ele ser inserido no banco de dados.
+   * **[!UICONTROL Reconciliation]**: reconcilie os dados importados com os dados do banco de dados.
+   * **[!UICONTROL Segmentation]**: crie filtros para processar registros de forma diferente, sejam eles reconciliados ou não.
+   * **[!UICONTROL Deduplication]**: elimine a duplicação dos dados do arquivo de entrada antes de ele ser inserido no banco de dados.
    * **[!UICONTROL Update data]**: Atualize o banco de dados com os perfis importados.
    ![](assets/import_template_example0.png)
 
-1. Configure a **[!UICONTROL Load file]** atividade:
+1. Configure the **[!UICONTROL Load file]** activity:
 
    * Defina a estrutura esperada carregando um arquivo de amostra. O arquivo de amostra deve conter apenas algumas linhas, mas todas as colunas necessárias para a importação. Verifique e edite o formato de arquivo para verificar se o tipo de cada coluna está definido corretamente: texto, data, inteiro, etc. Por exemplo:
 
@@ -169,13 +172,13 @@ Esse exemplo mostra como predefinir um workflow que pode ser reutilizado para im
 
       ![](assets/import_template_example1.png)
 
-1. Configure a **[!UICONTROL Reconciliation]** atividade. A finalidade dessa atividade nesse contexto é identificar os dados de entrada.
+1. Configure the **[!UICONTROL Reconciliation]** activity. A finalidade dessa atividade nesse contexto é identificar os dados de entrada.
 
-   * Na **[!UICONTROL Relations]** guia, selecione **[!UICONTROL Create element]** e defina um link entre os dados importados e a dimensão de direcionamento dos destinatários (consulte Dimensões e recursos [de](../../automating/using/query.md#targeting-dimensions-and-resources)direcionamento). Neste exemplo, o campo personalizado **ID do CRM** é usado para criar a condição de associação. Use o campo ou uma combinação de campos que você precisa, desde que isso permita identificar registros únicos.
+   * Na **[!UICONTROL Relations]** guia, selecione **[!UICONTROL Create element]** e defina um link entre os dados importados e o targeting dimension dos recipient (consulte [Targeting dimension e recursos](../../automating/using/query.md#targeting-dimensions-and-resources)). Neste exemplo, o campo personalizado **ID do CRM** é usado para criar a condição de associação. Use o campo ou uma combinação de campos que você precisa, desde que isso permita identificar registros únicos.
    * Na **[!UICONTROL Identification]** guia, deixe a opção **[!UICONTROL Identify the document from the working data]** desmarcada.
    ![](assets/import_template_example2.png)
 
-1. Configure the **[!UICONTROL Segmentation]** activity to retrieve reconciled recipients in one transition and recipients that could not be reconciled but who have enough data in a second transition.
+1. Configure a atividade **[!UICONTROL Segmentation]** para recuperar os recipients reconciliados em uma transição e recipients que não puderam ser reconciliados, mas que tenham dados suficientes em uma segunda transição.
 
    A transição com recipients reconciliados pode ser usada para atualizar o banco de dados. A transição com recipients desconhecidos pode ser usada para criar novas entradas de recipients no banco de dados se um conjunto mínimo de informações estiver disponível no arquivo.
 
@@ -187,16 +190,16 @@ Esse exemplo mostra como predefinir um workflow que pode ser reutilizado para im
 
       ![](assets/import_template_example3.png)
 
-   * Adicione um segundo segmento que selecione registros não reconciliados que tenham dados suficientes para serem inseridos no banco de dados. Por exemplo: endereço de email, nome e sobrenome. Os registros não reconciliados têm o valor da ID do CRM do perfil igual a 0.
+   * Adicione um segundo segmento que selecione registros não reconciliados que tenham dados suficientes para serem inseridos no banco de dados. Por exemplo: endereço de email, nome e sobrenome. Os registros não reconciliados têm o valor da ID CRM do perfil igual a 0.
 
       ![](assets/import_template_example3_2.png)
 
    * Todos os registros que não estão selecionados nos dois primeiros subconjuntos são selecionados no **[!UICONTROL Complement]**.
 
-1. Configure the **[!UICONTROL Update data]** activity located after the first outbound transition of the **[!UICONTROL Segmentation]** activity configured previously.
+1. Configure a atividade **[!UICONTROL Update data]** localizada após a primeira transição de saída da atividade **[!UICONTROL Segmentation]** configurada anteriormente.
 
-   * Select **[!UICONTROL Update]** as **[!UICONTROL Operation type]** since the inbound transition only contains recipients already present in the database.
-   * Na **[!UICONTROL Identification]** guia, selecione **[!UICONTROL Using reconciliation criteria]** e defina uma chave entre **[!UICONTROL Dimension to update]** - nesse caso, Perfis - e o link criado na **[!UICONTROL Reconciliation]** atividade. Neste exemplo, o campo personalizado **ID do CRM** é usado.
+   * Selecione **[!UICONTROL Update]** como **[!UICONTROL Operation type]** desde que a transição de entrada contenha apenas os recipients já presentes no banco de dados.
+   * Na **[!UICONTROL Identification]** guia, selecione **[!UICONTROL Using reconciliation criteria]** e defina uma chave entre **[!UICONTROL Dimension to update]** - Perfis, neste caso - e o link criado na **[!UICONTROL Reconciliation]** atividade. Neste exemplo, o campo personalizado **ID do CRM** é usado.
 
       ![](assets/import_template_example6.png)
 
@@ -215,13 +218,13 @@ Esse exemplo mostra como predefinir um workflow que pode ser reutilizado para im
       ![](assets/import_template_example4.png)
 
    * Nesse exemplo, o campo de email é usado para localizar perfis únicos. Você pode usar qualquer campo que você tem certeza que está preenchido e é parte de uma combinação única.
-   * Escolha um **[!UICONTROL Deduplication method]**. Neste caso, o pedido decide automaticamente quais os registros que são mantidos em caso de duplicações.
+   * Escolha um **[!UICONTROL Deduplication method]**. Neste caso, o pedido decide automaticamente quais os registros que são mantidos em caso de duplicado.
    ![](assets/import_template_example7.png)
 
 1. Configure the **[!UICONTROL Update data]** activity located after the **[!UICONTROL Deduplication]** activity configured previously.
 
    * Select **[!UICONTROL Insert only]** as **[!UICONTROL Operation type]** since the inbound transition only contains profiles not present in the database.
-   * Na **[!UICONTROL Identification]** guia, selecione **[!UICONTROL Using reconciliation criteria]** e defina uma chave entre **[!UICONTROL Dimension to update]** - nesse caso, Perfis - e o link criado na **[!UICONTROL Reconciliation]** atividade. Neste exemplo, o campo personalizado **ID do CRM** é usado.
+   * Na **[!UICONTROL Identification]** guia, selecione **[!UICONTROL Using reconciliation criteria]** e defina uma chave entre **[!UICONTROL Dimension to update]** - Perfis, neste caso - e o link criado na **[!UICONTROL Reconciliation]** atividade. Neste exemplo, o campo personalizado **ID do CRM** é usado.
 
       ![](assets/import_template_example6.png)
 
@@ -234,7 +237,7 @@ Esse exemplo mostra como predefinir um workflow que pode ser reutilizado para im
       >Se você planeja enviar emails diretos para esses perfis, certifique-se de incluir um endereço postal, pois essas informações são essenciais para o provedor de mala direta. Verifique também se a **[!UICONTROL Address specified]** caixa nas informações dos perfis está marcada. Para atualizar essa opção de um fluxo de trabalho, basta adicionar um elemento aos campos a serem atualizados e especificar **1** como **[!UICONTROL Source]** e selecionar o campo **[postalAddress/@addrDefined]** como **[!UICONTROL Destination]**. Para obter mais informações sobre mala direta e o uso da **[!UICONTROL Address specified]** opção, consulte [este documento](../../channels/using/about-direct-mail.md#recommendations).
 
 1. After the third transition of the **[!UICONTROL Segmentation]** activity, add a **[!UICONTROL Extract file]** activity and a **[!UICONTROL Transfer file]** activity if you want to keep track of data not inserted in the database. Configure essas atividades para exportar a coluna necessária e transferir o arquivo em um servidor FTP ou SFTP, onde você pode recuperá-la.
-1. Add an **[!UICONTROL End]** activity and save the workflow template.
+1. Adicione uma atividade **[!UICONTROL End]** e salve o template do workflow.
 
 Agora o template pode ser usado e está disponível para todo workflow novo. All is needed is then to specify the file containing the data to import in the **[!UICONTROL Load file]** activity.
 
