@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Ajuda do Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 9a8b9f522e5f9ea5d7ea59701cd03878599d97c1
+source-git-commit: 4e5bb76be743fb44a464ebedb466927b87e21584
 workflow-type: tm+mt
 source-wordcount: '1451'
 ht-degree: 92%
@@ -257,7 +257,7 @@ ht-degree: 92%
       + [Importação de dados](automating/using/importing-data.md)
       + [Uso de dados de fluxo de trabalho](automating/using/using-workflow-data.md)
       + [Práticas recomendadas do fluxo de trabalho](automating/using/best-practices-workflows.md)
-   + [Execução de um fluxo de trabalho]{#executing-a-workflow}
+   + Execução de um workflow {#executing-a-workflow}
       + [Sobre a execução do fluxo de trabalho](automating/using/about-workflow-execution.md)
       + [Ciclo de vida do workflow](automating/using/workflow-life-cycle.md)
       + [Comandos de execução](automating/using/execution-commands.md)
