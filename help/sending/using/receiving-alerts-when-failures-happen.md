@@ -12,7 +12,10 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '2026'
+ht-degree: 2%
 
 ---
 
@@ -237,7 +240,7 @@ Estes são alguns motivos possíveis para receber notificações de alerta de ac
    * Tempo limite de conexão entre o servidor do delivery Adobe Campaign e o servidor receptor
    * Um problema de entrega
    * Um fluxo de trabalho incorreto
-   Se o delivery for acionado com um fluxo de trabalho, verifique se ele foi iniciado corretamente. Para obter mais informações, consulte [Executar um fluxo de trabalho](../../automating/using/executing-a-workflow.md). Caso contrário, entre em contato com o administrador do Adobe Campaign para resolver o problema.
+   Se o delivery for acionado com um fluxo de trabalho, verifique se ele foi iniciado corretamente. Para obter mais informações, consulte [Executar um fluxo de trabalho](../../automating/using/about-workflow-execution.md). Caso contrário, entre em contato com o administrador do Adobe Campaign para resolver o problema.
 
 * **[!UICONTROL Deliveries with preparation failed]**: Um erro pode ocorrer durante a preparação do delivery nos seguintes casos:
 
