@@ -13,7 +13,10 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '1771'
+ht-degree: 5%
 
 ---
 
@@ -24,11 +27,11 @@ source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ![](assets/data_loading.png)
 
-A **[!UICONTROL Load file]** atividade permite importar dados em um formulário estruturado para usá-los no Adobe Campaign. Os dados são importados temporariamente e outra atividade é necessária para integrá-los definitivamente ao banco de dados do Adobe Campaign.
+A **[!UICONTROL Load file]** atividade permite importar dados em um formulário estruturado para usá-los no Adobe Campaign. Os dados são temporariamente importados e outra atividade é necessária para integrá-los definitivamente ao banco de dados do Adobe Campaign.
 
 ## Contexto de utilização {#context-of-use}
 
-A forma como os dados serão extraídos é definida quando a atividade é configurada. O arquivo a ser carregado pode ser uma lista de contatos, por exemplo.
+A forma como os dados serão extraídos é definida quando a atividade for configurada. O arquivo a ser carregado pode ser uma lista de contatos, por exemplo.
 
 >[!CAUTION]
 >
@@ -36,8 +39,8 @@ A forma como os dados serão extraídos é definida quando a atividade é config
 
 É possível:
 
-* Use a estrutura de arquivos para aplicá-la aos dados de outro arquivo (recuperados usando a **[!UICONTROL Transfer file]** atividade) ou
-* Use a estrutura e os dados do arquivo para importá-los para o Adobe Campaign.
+* Use a estrutura do arquivo para aplicá-lo aos dados de outro arquivo (recuperados usando a **[!UICONTROL Transfer file]** atividade) ou
+* Use a estrutura e os dados do arquivo para importá-lo para o Adobe Campaign.
 
 ## Configuração {#configuration}
 
@@ -47,7 +50,7 @@ A configuração da atividade envolve duas etapas. Primeiro, é necessário defi
 >
 >Os dados do arquivo de amostra são usados para configurar a atividade, mas não são importados. Recomendamos usar um arquivo de amostra contendo poucos dados.
 
-1. Arraste e solte uma **[!UICONTROL Load file]** atividade em seu fluxo de trabalho.
+1. Arraste e solte uma **[!UICONTROL Load file]** atividade no seu fluxo de trabalho.
 1. Selecione a atividade e abra-a usando o ![](assets/edit_darkgrey-24px.png) botão das ações rápidas que aparecem.
 1. Carregue o arquivo de amostra que permitirá que você defina a estrutura esperada ao importar o arquivo final.
 
@@ -55,7 +58,7 @@ A configuração da atividade envolve duas etapas. Primeiro, é necessário defi
 
    Depois que o arquivo de dados é carregado, duas novas guias são exibidas na atividade: **[!UICONTROL File structure]** e **[!UICONTROL Column definition]**.
 
-1. Vá até a **[!UICONTROL File structure]** guia para exibir a estrutura que é detectada automaticamente do arquivo de amostra.
+1. Vá até a **[!UICONTROL File structure]** guia para visualização da estrutura que é detectada automaticamente do arquivo de amostra.
 
    Se a estrutura do arquivo foi detectada incorretamente, você tem várias opções para corrigir possíveis erros:
 
@@ -66,7 +69,7 @@ A configuração da atividade envolve duas etapas. Primeiro, é necessário defi
 
       >[!NOTE]
       >
-      >Esta operação leva em conta o último arquivo que foi carregado na atividade. Se o arquivo detectado for grande, a visualização de dados mostrará apenas as primeiras 30 linhas.
+      >Esta operação leva em conta o último arquivo que foi carregado na atividade. Se o arquivo detectado for grande, a pré-visualização de dados mostrará apenas as primeiras 30 linhas.
 
       ![](assets/wkf_file_loading3.png)
 
@@ -90,12 +93,12 @@ A configuração da atividade envolve duas etapas. Primeiro, é necessário defi
 
    * Vem de uma transição de entrada no fluxo de trabalho.
    * É aquele que você carregou durante a etapa anterior.
-   * É um novo arquivo para carregar a partir do computador local. A **[!UICONTROL Upload a new file from local machine]** opção será exibida se o upload de um primeiro arquivo já tiver sido definido no fluxo de trabalho. Isso permite que você carregue outro arquivo para ser processado se o arquivo atual não atender às suas necessidades.
+   * É um novo arquivo para carregar a partir do computador local. A **[!UICONTROL Upload a new file from local machine]** opção será exibida se o upload de um primeiro arquivo já tiver sido definido no fluxo de trabalho. Isso permite que você carregue outro arquivo a ser processado se o arquivo atual não atender às suas necessidades.
 
       ![](assets/wkf_file_loading1.png)
 
-1. Se o arquivo do qual você deseja carregar os dados for compactado em um arquivo GZIP (.gz), selecione a **[!UICONTROL Decompression]** opção no **[!UICONTROL Add a pre-processing step]** campo. Isso permite descompactar o arquivo antes de carregar os dados. Essa opção só estará disponível se o arquivo for proveniente da transição de entrada da atividade.
-1. A **[!UICONTROL Keep the rejects in a file]** opção permite baixar um arquivo que contém erros que ocorreram durante a importação e aplicar a ele uma etapa de pós-processamento. Quando a opção é ativada, a transição de saída é renomeada como &quot;Rejeitos&quot;.
+1. Se o arquivo do qual você deseja carregar os dados for compactado em um arquivo GZIP (.gz), selecione a **[!UICONTROL Decompression]** opção no **[!UICONTROL Add a pre-processing step]** campo. Isso permite descompactar o arquivo antes de carregar os dados. Essa opção só estará disponível se o arquivo for proveniente da transição de entrada do atividade.
+1. A **[!UICONTROL Keep the rejects in a file]** opção permite baixar um arquivo que contém erros que ocorreram durante a importação e aplicar a ele uma etapa de pós-processamento. Quando a opção é ativada, a transição de saída é renomeada como &quot;Rejeita&quot;.
 
    >[!NOTE]
    >
@@ -105,7 +108,7 @@ A configuração da atividade envolve duas etapas. Primeiro, é necessário defi
 
 1. Confirme a configuração da atividade e salve o fluxo de trabalho.
 
-Se ocorrer algum erro com a atividade após a execução do fluxo de trabalho, consulte os registros para obter mais detalhes sobre os valores que estão incorretos no arquivo. For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md#monitoring).
+Se ocorrer algum erro com a atividade após a execução do fluxo de trabalho, consulte os registros para obter mais detalhes sobre os valores que estão incorretos no arquivo. For more on workflows logs, refer to [this section](../../automating/using/monitoring-workflow-execution.md).
 
 ## Formato de coluna {#column-format}
 
@@ -148,29 +151,29 @@ A formatação de coluna permite definir o processamento de valor de cada coluna
 * **[!UICONTROL Default value]**: especifica o valor padrão de acordo com o processamento de erros escolhido.
 * **[!UICONTROL Empty value management]**: especifica como gerenciar valores vazios durante o carregamento de dados.
 
-   * **[!UICONTROL Generate an error for numerical fields]**: gera um erro apenas para os campos numéricos; caso contrário, insere um valor NULL.
+   * **[!UICONTROL Generate an error for numerical fields]**: gera um erro apenas para os campos numéricos, caso contrário, insere um valor NULL.
    * **[!UICONTROL Insert NULL in the corresponding field]**: autoriza valores vazios. O valor NULL é então inserido.
    * **[!UICONTROL Generate an error]**: gera um erro se um valor estiver vazio.
 
 ## Exemplo 1: Atualização do banco de dados {#example-1-update-the-database}
 
-A atividade do arquivo de carregamento estrutura principalmente os dados de uma atividade de arquivo de transferência para integrá-los aos dados existentes.
+A atividade load file estrutura principalmente os dados de uma atividade de arquivo de transferência para integrá-los aos dados existentes.
 
 O exemplo a seguir mostra o resultado de uma atividade de arquivo de carregamento automaticamente baixada por meio de uma atividade de arquivo de transferência, seguido por uma atividade de dados de atualização. Esse fluxo de trabalho tem como objetivo aprimorar o banco de dados do Adobe Campaign com novos perfis ou atualizar perfis existentes usando os dados recuperados do arquivo importado.
 
 ![](assets/load_file_workflow_ex1.png)
 
-1. Arraste e solte uma **[!UICONTROL Transfer file]** atividade em seu fluxo de trabalho e configure-a de uma forma que recupere o arquivo que você deseja.
-1. Arraste e solte uma **[!UICONTROL Load file]** atividade em seu fluxo de trabalho e coloque-a após a **[!UICONTROL Transfer file]** atividade.
+1. Arraste e solte uma **[!UICONTROL Transfer file]** atividade em seu fluxo de trabalho e configure-a de uma maneira que recupere o arquivo que você deseja.
+1. Arraste e solte uma **[!UICONTROL Load file]** atividade no seu fluxo de trabalho e coloque-a depois da **[!UICONTROL Transfer file]** atividade.
 1. Selecione a atividade e abra-a usando o ![](assets/edit_darkgrey-24px.png) botão das ações rápidas que aparecem.
 1. Na **[!UICONTROL File to load]** seção da **[!UICONTROL Execution]** guia, marque a **[!UICONTROL Use the file specified in the inbound transition]** opção.
 
    ![](assets/wkf_file_loading8.png)
 
 1. Configure sua atividade conforme especificado anteriormente.
-1. Arraste e solte uma **[!UICONTROL Update data]** atividade em seu fluxo de trabalho e coloque-a após a **[!UICONTROL Load file]** atividade e configure-a. Consulte [Atualizar dados](../../automating/using/update-data.md).
+1. Arraste e solte uma **[!UICONTROL Update data]** atividade em seu fluxo de trabalho e coloque-a depois da **[!UICONTROL Load file]** atividade e configure-a. Refer to [Update data](../../automating/using/update-data.md).
 
-Depois que o fluxo de trabalho é iniciado, os dados do arquivo carregado são extraídos e, em seguida, usados para enriquecer o banco de dados do Adobe Campaign.
+Depois que o fluxo de trabalho é iniciado, os dados do arquivo carregado são extraídos e depois usados para enriquecer o banco de dados do Adobe Campaign.
 
 ## Exemplo 2: Envio de um email com campos aprimorados {#example-2-email-with-enriched-fields}
 
@@ -178,11 +181,11 @@ Depois que o fluxo de trabalho é iniciado, os dados do arquivo carregado são e
 
 A atividade de carregamento de arquivo também permite enviar um email enriquecido com dados adicionais de um arquivo externo no mesmo fluxo de trabalho.
 
-O exemplo abaixo mostra como enviar um email usando dados adicionais recuperados de um arquivo externo por meio da atividade de carregamento do arquivo. Neste exemplo, o arquivo externo contém uma lista de perfis com seu número de conta associado. Você deseja importar esses dados para enviar um email para cada perfil com o número da conta.
+O exemplo abaixo mostra como enviar um email usando dados adicionais recuperados de um arquivo externo por meio da atividade de arquivo de carregamento. Neste exemplo, o arquivo externo contém uma lista de perfis com seu número de conta associado. Você deseja importar esses dados para enviar um email para cada perfil com o número da conta.
 
 ![](assets/load_file_workflow_ex2.png)
 
-1. Arraste e solte uma **[!UICONTROL Query]** atividade em seu fluxo de trabalho e abra-a para definir o destino principal.
+1. Arraste e solte uma **[!UICONTROL Query]** atividade no seu fluxo de trabalho e abra-a para definir o público alvo principal.
 
    <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
 
@@ -190,9 +193,9 @@ O exemplo abaixo mostra como enviar um email usando dados adicionais recuperados
 
    ![](assets/load_file_activity.png)
 
-1. Arraste e solte uma **[!UICONTROL Enrichment]** atividade em seu fluxo de trabalho e vincule o arquivo de carregamento e as atividades de consulta a ela.
+1. Arraste e solte uma **[!UICONTROL Enrichment]** atividade em seu fluxo de trabalho e vincule o arquivo de carregamento e as atividades do query a ele.
 
-1. Na **[!UICONTROL Advanced relations]** guia da atividade de enriquecimento, selecione **[!UICONTROL 0 or 1 cardinality simple link]** e defina os campos a serem usados para reconciliação. Aqui, usamos o sobrenome para reconciliar os dados com os perfis do banco de dados.
+1. Na **[!UICONTROL Advanced relations]** guia da atividade do enriquecimento, selecione **[!UICONTROL 0 or 1 cardinality simple link]** e defina os campos a serem usados para reconciliação. Aqui usamos o sobrenome para reconciliar os dados com os perfis do banco de dados.
 
    ![](assets/load_file_enrichment_relation.png)
 
@@ -202,24 +205,24 @@ O exemplo abaixo mostra como enviar um email usando dados adicionais recuperados
 
    <!--![](assets/load_file_enrichment_additional_data.png)-->
 
-   Para obter mais informações, consulte a seção [Enriquecimento](../../automating/using/enrichment.md) .
+   Para obter mais informações, consulte a seção [Enriquecimentos](../../automating/using/enrichment.md) .
 
-1. Arraste e solte uma **[!UICONTROL Segmentation]** atividade em seu fluxo de trabalho e abra-a para refinar a meta principal.
+1. Arraste e solte uma **[!UICONTROL Segmentation]** atividade no seu fluxo de trabalho e abra-a para refinar o público alvo principal.
 
    ![](assets/load_file_segmentation.png)
 
    Para obter mais informações, consulte a seção [Segmentação](../../automating/using/segmentation.md) .
 
-1. Arraste e solte uma **[!UICONTROL Email delivery]** atividade em seu fluxo de trabalho e abra-a.
+1. Arraste e solte uma **[!UICONTROL Email delivery]** atividade no seu fluxo de trabalho e abra-a.
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 
-1. Adicione um campo de personalização e selecione os dados adicionais definidos na atividade de enriquecimento (aqui Número de conta) do **[!UICONTROL Additional data (targetData)]** nó. Isso permite recuperar dinamicamente o número de conta de cada perfil no conteúdo de email.
+1. Adicione um campo de personalização e selecione os dados adicionais definidos na atividade do enriquecimento (aqui Número da conta) do **[!UICONTROL Additional data (targetData)]** nó. Isso permite recuperar dinamicamente o número de conta de cada perfil no conteúdo do email.
 
    ![](assets/load_file_perso_field.png)
 
-1. Salve o email e inicie o fluxo de trabalho.
+1. Salve o e-mail e o start do fluxo de trabalho.
 
-O email é enviado para o destino. Cada perfil recebe o email com o número de conta correspondente.
+O email é enviado ao público alvo. Cada perfil recebe o e-mail com seu número de conta correspondente.
 
 ![](assets/load_file_email.png)
