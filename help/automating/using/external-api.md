@@ -158,7 +158,7 @@ Essa guia permite ativar a transição **de** saída e seu rótulo. Essa transi�
 
 ### Opções de execução
 
-Esta guia está disponível na maioria das atividades de fluxo de trabalho. Para obter mais informações, consulte a seção Propriedades [da](../../automating/using/executing-a-workflow.md#activity-properties) Atividade.
+Esta guia está disponível na maioria das atividades de fluxo de trabalho. Para obter mais informações, consulte a seção Propriedades [da](../../automating/using/activity-properties.md) Atividade.
 
 ![](assets/externalAPI-options.png)
 
