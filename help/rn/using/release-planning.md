@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 292f4f65f2e0597ff4dc36ab3222551ab40cbafb
+source-git-commit: fb865ae08a4b0db42b71e58895976a973a2ed6b7
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 4%
@@ -46,7 +46,7 @@ As atualizações de Ambientes ocorrem no ondas, durante os intervalos de tempo 
  <tbody>
   <tr>
    <td>Estágio<br /> </td>
-   <td>25-26 de maio de 2020<br /> </td>
+   <td>26-27 de maio de 2020<br /> </td>
   </tr>
   <tr>
    <td> Produção<br /> </td>
