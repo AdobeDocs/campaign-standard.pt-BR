@@ -12,10 +12,10 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+source-git-commit: e59562bd4f258c4259b8e8e5d9648397d5718792
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 4%
+source-wordcount: '1039'
+ht-degree: 5%
 
 ---
 
@@ -69,6 +69,10 @@ ht-degree: 4%
 </tbody> 
 </table>
 
+>[!NOTE]
+>
+>A renovação do certificado para subdomínios CNAME é lançada no Painel de Controle de Campanha em maio. Para obter mais informações, consulte a Nota [de versão do painel](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html)de controle.
+
 **Aprimoramentos**
 
 * O número de caracteres que podem ser usados no campo **Prefixo** para [testar mensagens usando perfis](../../sending/using/testing-messages-using-target.md) direcionados aumentou de 32 para 500 caracteres.
@@ -98,7 +102,7 @@ ht-degree: 4%
 
 **Integrações da plataforma Experience**
 
-* A Ativação das Audiências [da plataforma Adobe](../../automating/using/aep-targeting-audiences.md) Experience da atividade **Read audiência** foi aprimorada para oferecer melhor desempenho e estabilidade. Além disso, os registros de fluxo de trabalho foram tornados mais claros e detalhados em relação aos trabalhos de ativação, permitindo um monitoramento e solução de problemas mais fáceis ao ler as audiências da plataforma Adobe Experience.
+* A Ativação das Audiências [da plataforma Adobe](../../automating/using/aep-targeting-audiences.md) Experience da atividade **Read audiência** foi aprimorada para oferecer melhor desempenho e estabilidade. Além disso, os logs de fluxo de trabalho foram tornados mais claros e detalhados em relação aos trabalhos de ativação, permitindo um monitoramento e solução de problemas mais fáceis ao ler as audiências da plataforma Adobe Experience.
 
 **Correções**
 
