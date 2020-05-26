@@ -12,9 +12,9 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '523'
 ht-degree: 7%
 
 ---
@@ -89,8 +89,7 @@ Finalmente, [Exportar listas](../../automating/using/exporting-lists.md) permite
 
 Leia mais:
 
-* [Importação de dados](../../automating/using/importing-data.md)
-* [Uso de dados de fluxo de trabalho](../../automating/using/using-workflow-data.md)
+* [Importação e exportação de dados](../../automating/using/about-data-import-and-export.md)
 * [Caso de uso: exportação / importação de recursos personalizados](../../automating/using/exporting-importing-custom-resources.md)
 
 ## Recursos adicionais
