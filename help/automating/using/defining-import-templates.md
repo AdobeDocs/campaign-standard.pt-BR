@@ -12,7 +12,10 @@ discoiquuid: 85d13147-fb31-446a-8476-f112c841fb82
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '787'
+ht-degree: 1%
 
 ---
 
@@ -53,7 +56,7 @@ Esses modelos padrão são somente leitura e não estão visíveis para usuário
 
 1. Go to the **[!UICONTROL Workflow]** tab. Aqui você pode enriquecer o fluxo de trabalho oferecido por padrão adicionando novas atividades de acordo com suas necessidades.
 
-   Para obter mais informações sobre como configurar as atividades de fluxo de trabalho, consulte o caso de uso descrito nesta seção: [Exemplo: Importar modelo](../../automating/using/importing-data.md#example--import-workflow-template)de fluxo de trabalho. Esse caso de uso ajudará você a configurar um fluxo de trabalho que pode ser reutilizado para importar perfis provenientes de um CRM no banco de dados do Adobe Campaign.
+   Para obter mais informações sobre como configurar as atividades de fluxo de trabalho, consulte o caso de uso descrito nesta seção: [Exemplo: Importar modelo](../../automating/using/creating-import-workflow-templates.md)de fluxo de trabalho. Esse caso de uso ajudará você a configurar um fluxo de trabalho que pode ser reutilizado para importar perfis provenientes de um CRM no banco de dados do Adobe Campaign.
 
 1. Salve o modelo para que a configuração do fluxo de trabalho seja considerada corretamente.
 1. Carregue um arquivo de amostra na **[!UICONTROL Properties]** guia. O arquivo carregado só pode ter colunas necessárias para importações futuras ou dados de amostra. Os dados no arquivo de amostra permitem testar a importação simplificada assim que o fluxo de trabalho for definido.
@@ -84,6 +87,6 @@ O template de importação agora está disponível para os usuários e pode ser 
 **Tópicos relacionados:**
 
 * [Workflows](../../automating/using/get-started-workflows.md)
-* [Importação de dados](../../automating/using/importing-data.md)
-* [Exemplo: Importar modelo de fluxo de trabalho](../../automating/using/importing-data.md#example--import-workflow-template)
+* [Importação e exportação de dados](../../automating/using/about-data-import-and-export.md)
+* [Exemplo: Importar modelo de fluxo de trabalho](../../automating/using/creating-import-workflow-templates.md)
 
