@@ -12,7 +12,10 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 9%
 
 ---
 
@@ -91,5 +94,5 @@ Você também encontrará as práticas recomendadas para ajudar você a estar em
 * [Trabalhar com o serviço Destinos de Audiência](../../audiences/using/aep-about-audience-destinations-service.md)
 * [Trabalhar com o Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 * [Audiências compartilhadas da Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
-* [Uso de workflows para importar perfis](../../automating/using/importing-data.md)
+* [Uso de workflows para importar perfis](../../automating/using/creating-import-workflow-templates.md)
 * [Vídeos de Perfis e audiências](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
