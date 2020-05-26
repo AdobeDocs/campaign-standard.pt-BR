@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 1%
@@ -28,7 +28,7 @@ O Campaign Standard oferta várias ferramentas para ajudá-lo a expandir seu ban
 
 Os Workflows permitem coletar dados e importá-los para o banco de dados de Campanha por meio do uso do [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) atividade.
 
-As informações genéricas e as práticas recomendadas ao importar dados por meio de workflows são apresentadas [nesta seção](../../automating/using/importing-data.md).
+As informações genéricas e as práticas recomendadas ao importar dados por meio de workflows são apresentadas [nesta seção](../../automating/using/about-data-import-and-export.md).
 
 Além disso, você pode configurar modelos para importar dados. Usar templates de importação é uma prática recomendada se você precisar importar arquivos com a mesma estrutura regularmente.
 
@@ -36,7 +36,7 @@ Você pode configurar dois tipos de modelos:
 
 * **Modelos** de fluxo de trabalho: são workflows pré-configurados que podem ser configurados uma vez, de acordo com suas necessidades, e reutilizados sempre que você quiser importar dados e atualizar o banco de dados.
 
-   Um exemplo de modelo de fluxo de trabalho para importar dados está detalhado [nesta seção](../../automating/using/importing-data.md#example--import-workflow-template).
+   Um exemplo de modelo de fluxo de trabalho para importar dados está detalhado [nesta seção](../../automating/using/creating-import-workflow-templates.md).
 
 * **Importar modelos** de dados: como os modelos de fluxo de trabalho, esses são modelos baseados em workflows, que estão configurados para carregar arquivos para atualizar o banco de dados. Depois de configurados, eles ficam disponíveis para usuários com uma visualização simplificada no menu **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** .
 
