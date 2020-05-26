@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Ajuda do Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 4e5bb76be743fb44a464ebedb466927b87e21584
+source-git-commit: a9a6fc70fe8fe4ffa3560c725b7753b001d8e928
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 92%
+source-wordcount: '1453'
+ht-degree: 91%
 
 ---
 
@@ -253,9 +253,6 @@ ht-degree: 92%
    + Operação geral do fluxo de trabalho {#workflow-general-operation}
       + [Interface do fluxo de trabalho](automating/using/workflow-interface.md)
       + [Criação de um fluxo de trabalho](automating/using/building-a-workflow.md)
-      + [Direcionamento de dados](automating/using/targeting-data.md)
-      + [Importação de dados](automating/using/importing-data.md)
-      + [Uso de dados de fluxo de trabalho](automating/using/using-workflow-data.md)
       + [Práticas recomendadas do fluxo de trabalho](automating/using/best-practices-workflows.md)
    + Execução de um workflow {#executing-a-workflow}
       + [Sobre a execução do fluxo de trabalho](automating/using/about-workflow-execution.md)
@@ -308,8 +305,10 @@ ht-degree: 92%
       + [Lista de funções](automating/using/list-of-functions.md)
    + Importação e exportação de dados {#importing-and-exporting-data}
       + [Sobre a importação e exportação de dados](automating/using/about-data-import-and-export.md)
+      + [Práticas recomendadas de importação](automating/using/import-best-practices.md)
       + [Importação de dados com modelos de importação](automating/using/importing-data-with-import-templates.md)
-      + [Definição de modelos de importação](automating/using/defining-import-templates.md)
+      + [Criação de modelos de fluxo de trabalho para importar dados](automating/using/creating-import-workflow-templates.md)
+      + [Gerenciamento de dados criptografados](automating/using/managing-encrypted-data.md)
       + [Exportar logs](automating/using/exporting-logs.md)
       + [Gerenciamento de pacotes](automating/using/managing-packages.md)
       + [Exportar listas](automating/using/exporting-lists.md)
