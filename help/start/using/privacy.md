@@ -12,7 +12,10 @@ discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
+source-git-commit: 26760a118f87676afe3d359c8db3513c1a190d35
+workflow-type: tm+mt
+source-wordcount: '1479'
+ht-degree: 2%
 
 ---
 
@@ -83,7 +86,7 @@ As [principais legislações](#privacy-regulations) referem-se às diferentes en
 
 Portanto, como uma empresa que coleta e compartilha dados pessoais, você é o Controlador de dados, seus clientes são os Indivíduos de dados e o Adobe Campaign atua como um Processador de dados ao manipular seus dados pessoais, conforme indicado por você. Observe que é sua responsabilidade, como um Controlador de dados, lidar com a relação com os Indivíduos de dados, como ao gerenciar solicitações [de](#privacy-requests)privacidade.
 
-Ao integrar a Campanha com outras soluções da Experience Cloud, onde as audiências podem ser transferidas de um sistema para outro, como o serviço [de Destinos da](../../audiences/using/aep-about-audience-destinations-service.md)Audiência, o [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), o [Audiência Manager ou o serviço](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)principal de Pessoas, ou com outras soluções, como o [Microsoft Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md), é necessário prestar mais atenção à proteção de dados pessoais.
+Ao integrar a Campanha com outras soluções da Experience Cloud, onde as audiências podem ser transferidas de um sistema para outro, como o serviço [de Destinos da](../../audiences/using/aep-about-audience-destinations-service.md)Audiência, o [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), o [Audiência Manager ou o serviço](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)principal de Pessoas, ou com outras soluções, como o [Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md), é necessário prestar mais atenção à proteção de dados pessoais.
 
 ## Aquisição de dados {#data-acquisition}
 
@@ -120,7 +123,7 @@ Para obter mais informações sobre esses recursos e como gerenciá-los no Adobe
 
 O Adobe Campaign fornece recursos adicionais para ajudá-lo a facilitar sua prontidão como um Controlador de dados para determinadas solicitações de Privacidade:
 
-* O **direito de acesso** é o direito da pessoa a obter do responsável pelo tratamento de dados a confirmação de que os dados pessoais que lhes dizem respeito estão ou não a ser tratados, onde e porquê.
+* The **Right to Access** is the right for the Data Subject to obtain from the Data Controller confirmation as to whether or not personal data concerning them is being processed, where and why.
 
 * O **direito de ser esquecido** (solicitação de exclusão) autoriza a pessoa a apagar seus dados pessoais pelo controlador.
 
