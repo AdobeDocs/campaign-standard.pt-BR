@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: e89218b584f0d621ca700d4ee2a4866555d00679
 workflow-type: tm+mt
-source-wordcount: '5809'
+source-wordcount: '5842'
 ht-degree: 19%
 
 ---
@@ -23,6 +23,10 @@ ht-degree: 19%
 # Atualizações da documentação{#documentation-updates}
 
 Além das Notas [de](../../rn/using/release-notes.md)versão do Adobe Campaign, esta página lista todas as novas atualizações na documentação do Adobe Campaign Standard.
+
+## Atualizações da documentação - junho de 2020 {#doc-updates-june-2020}
+
+Campaign Standard - A integração do Microsoft Dynamics 365 está indisponível no momento. Um novo conector está sendo desenvolvido e estará disponível no futuro. Para obter mais informações, entre em contato com seu representante de vendas da Adobe.
 
 ## Atualizações da documentação - maio de 2020 {#doc-updates-may-2020}
 
@@ -308,7 +312,7 @@ Adicionado um aviso na documentação de recursos personalizados. Recomendamos o
 
 **Novos recursos incluídos na versão**
 
-Painel de controle - [Leia mais](https://docs.adobe.com/content/help/br/control-panel/using/control-panel-home.translate.html)
+Painel de controle - [Leia mais](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.translate.html)
 
 Notificações locais - [Leia mais](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
