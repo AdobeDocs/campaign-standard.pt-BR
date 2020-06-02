@@ -12,7 +12,10 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1287a360cdd1750996b47a27b85a11e90b29df0
+source-git-commit: d05d2692607117e056c360e81d85b7d64c4077a3
+workflow-type: tm+mt
+source-wordcount: '1279'
+ht-degree: 28%
 
 ---
 
@@ -56,27 +59,23 @@ Há três tipos de erros quando um delivery falha:
 
 Os possíveis motivos para uma falha de delivery são:
 
-* **[!UICONTROL User unknown]** (Tipo de disco rígido): o endereço não existe. Não haverá mais tentativas de delivery para este perfil.
-* **[!UICONTROL Quarantined address]** (Tipo de disco rígido): o endereço foi colocado na quarentena.
-* **[!UICONTROL Unreachable]** (Tipo Soft/Hard): ocorreu um erro na cadeia de delivery de mensagens (como domínio temporariamente inacessível). De acordo com o erro retornado pelo provedor, o endereço será enviado diretamente para a quarentena ou o delivery será tentado novamente até que a Campanha receba um erro que justifique o status da Quarentena ou até que o número de erros atinja 5.
-* **[!UICONTROL Address empty]** (Tipo de disco rígido): o endereço não está definido.
-* **[!UICONTROL Mailbox full]** (Tipo suave): a caixa de correio deste usuário está cheia e não pode aceitar mais mensagens. Esse endereço pode ser removido da lista da quarentena para tentar novamente. Ele é removido automaticamente após 30 dias.
-
-   Para que o endereço seja removido automaticamente da lista de endereços em quarentena, o fluxo de trabalho técnico de **[!UICONTROL Database cleanup]** deve ser iniciado.
-
-* **[!UICONTROL Refused]** (Tipo Soft/Hard): o endereço foi colocado em quarentena devido a um feedback de segurança como um relatório de spam. De acordo com o erro retornado pelo provedor, o endereço será enviado diretamente para a quarentena ou o delivery será tentado novamente até que a Campanha receba um erro que justifique o status da Quarentena ou até que o número de erros atinja 5.
-* **[!UICONTROL Duplicate]**: o endereço já foi detectado na segmentação.
-* **[!UICONTROL Not defined]** (Tipo suave): o endereço está em qualificação porque os erros ainda não foram aumentados.
-
-   Esse tipo de erro ocorre quando uma nova mensagem de erro é enviada pelo servidor: pode ser um erro isolado, mas se ocorrer novamente, o contador de erros aumentará, o que alertará as equipes técnicas.
-
-* **[!UICONTROL Error ignored]**: o endereço está na lista de permissões e um e-mail será enviado para ele em qualquer caso.
-* **[!UICONTROL Blacklisted address]**: o endereço era incluído na blacklist no momento do envio.
-* **[!UICONTROL Account disabled]** (Tipo Soft/Hard): quando o Provedor de Acesso à Internet (IAP) detecta um longo período de inatividade, ele pode fechar a conta do usuário: delivery para o endereço do usuário serão impossíveis. O tipo Soft ou Hard depende do tipo de erro recebido: se a conta estiver temporariamente desativada devido a seis meses de inatividade e ainda puder ser ativada, o status **[!UICONTROL Erroneous]** será atribuído e o delivery será tentado novamente. Se o erro recebido indicar que a conta está permanentemente desativada, então ela será enviada diretamente para a Quarentena.
-* **[!UICONTROL Not connected]**: o telefone móvel do perfil é desligado ou não está conectado à rede quando a mensagem é enviada.
-* **[!UICONTROL Invalid domain]** (Tipo suave): o domínio do endereço de email está incorreto ou não existe mais. Este perfil será alvo novamente até que a contagem de erros chegue a 5. Após isso, o registro será definido como Status de Quarentena e não haverá nenhuma tentativa nova.
-* **[!UICONTROL Text too long]**: o número de caracteres na mensagem SMS excede o limite. Para obter mais informações, consulte codificação, comprimento e transliteração [de](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)SMS.
-* **[!UICONTROL Character not supported by encoding]**: a mensagem SMS contém um ou mais caracteres que não são suportados pela codificação. &amp;Para obter mais informações, consulte [Tabela de caracteres - GSM Standard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard).
+| Rótulo de erro | Tipo de erro | Descrição |
+---------|----------|---------
+| **[!UICONTROL User unknown]** | Grave | O endereço não existe. Não haverá mais tentativas de delivery para este perfil. |
+| **[!UICONTROL Quarantined address]** | Grave | O endereço foi colocado em quarentena. |
+| **[!UICONTROL Unreachable]** | Suave/Grave | Ocorreu um erro na cadeia de delivery de mensagens (como domínio temporariamente inacessível). De acordo com o erro retornado pelo provedor, o endereço será enviado diretamente para a quarentena ou o delivery será tentado novamente até que a Campanha receba um erro que justifique o status da Quarentena ou até que o número de erros atinja 5. |
+| **[!UICONTROL Address empty]** | Grave | O endereço não está definido. |
+| **[!UICONTROL Mailbox full]** | Suave | A caixa de entrada deste usuário está cheia e não pode receber mais mensagens. Esse endereço pode ser removido da lista da quarentena para tentar novamente. Ele é removido automaticamente após 30 dias. Para que o endereço seja removido automaticamente da lista de endereços em quarentena, o fluxo de trabalho técnico de **[!UICONTROL Database cleanup]** deve ser iniciado. |
+| **[!UICONTROL Refused]** | Suave/Grave | O endereço foi colocado em quarentena devido a um feedback de segurança como um relatório de spam. De acordo com o erro retornado pelo provedor, o endereço será enviado diretamente para a quarentena ou o delivery será tentado novamente até que a Campanha receba um erro que justifique o status da Quarentena ou até que o número de erros atinja 5. |
+| **[!UICONTROL Duplicate]** | Ignored | O endereço já foi detectado na segmentação. |
+| **[!UICONTROL Not defined]** | Suave | o endereço está em qualificação porque os erros ainda não foram aumentados. Esse tipo de erro ocorre quando uma nova mensagem de erro é enviada pelo servidor: pode ser um erro isolado, mas se ocorrer novamente, o contador de erros aumentará, o que alertará as equipes técnicas. |
+| **[!UICONTROL Error ignored]** | Ignored | O endereço está na lista de permissões e um e-mail será enviado para ele em qualquer caso. |
+| **[!UICONTROL Blacklisted address]** | Grave | o endereço era incluído na blacklist no momento do envio. |
+| **[!UICONTROL Account disabled]** | Suave/Grave | Quando o Provedor de Acesso à Internet (IAP) detecta um longo período de inatividade, ele pode fechar a conta do usuário: delivery para o endereço do usuário serão impossíveis. O tipo Soft ou Hard depende do tipo de erro recebido: se a conta estiver temporariamente desativada devido a seis meses de inatividade e ainda puder ser ativada, o status **[!UICONTROL Erroneous]** será atribuído e o delivery será tentado novamente. Se o erro recebido indicar que a conta está permanentemente desativada, então ela será enviada diretamente para a Quarentena. |
+| **[!UICONTROL Not connected]** | Ignored | O telefone móvel do perfil é desligado ou não está conectado à rede quando a mensagem é enviada. |
+| **[!UICONTROL Invalid domain]** | Suave | O domínio do endereço de email está incorreto ou não existe mais. Este perfil será alvo novamente até que a contagem de erros chegue a 5. Após isso, o registro será definido como Status de Quarentena e não haverá nenhuma tentativa nova. |
+| **[!UICONTROL Text too long]** | Ignored | O número de caracteres na mensagem SMS excede o limite. Para obter mais informações, consulte codificação, comprimento e transliteração [de](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)SMS. |
+| **[!UICONTROL Character not supported by encoding]** | Ignored | A mensagem SMS contém um ou mais caracteres que não são suportados pela codificação. &amp;Para obter mais informações, consulte [Tabela de caracteres - GSM Standard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard). |
 
 ## Tentativas após uma falha temporária de delivery {#retries-after-a-delivery-temporary-failure}
 
@@ -109,7 +108,7 @@ Um delivery pode falhar imediatamente (erro síncrono), ou posteriormente, depoi
 
 Para mensagens de erro de falha síncrona de delivery, o MTA aprimorado determina o tipo de rejeição e a qualificação e envia essas informações para a Campanha.
 
-As rejeições assíncronas ainda são qualificadas pelo processo do InMail por meio das **[!UICONTROL Inbound email]** regras. Para acessar essas regras, clique no **[!UICONTROL Adobe Campaign]** logotipo, na parte superior esquerda, selecione **[!UICONTROL Administration > Channels > Email > Email processing rules]** e selecione **[!UICONTROL Bounce mails]**. For more on this rule, refer to this [section](../../administration/using/configuring-email-channel.md#email-processing-rules).
+As rejeições assíncronas ainda são qualificadas pelo processo do InMail por meio das regras **[!UICONTROL Inbound email]**. Para acessar essas regras, clique no **[!UICONTROL Adobe Campaign]** logotipo, na parte superior esquerda, selecione **[!UICONTROL Administration > Channels > Email > Email processing rules]** e selecione **[!UICONTROL Bounce mails]**. For more on this rule, refer to this [section](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
 >[!NOTE]
 >
