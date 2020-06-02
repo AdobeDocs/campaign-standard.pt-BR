@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
+source-git-commit: bb83fb3b24af0102dc3745517e8604fdac82ee19
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 2%
 
 ---
 
@@ -21,15 +24,15 @@ source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
 
 Start que trabalha com o Email Designer e cria modelos e fragmentos reutilizáveis do seu HTML de email criado no Editor Herdado.
 
->[!IMPORTANT]
->
->Esta seção destina-se a usuários avançados familiarizados com o código HTML.
-
 Esse caso de uso permite que você crie um modelo do Email Designer usando um email HTML e dividindo-o em componentes HTML no Designer de email.
 
 >[!NOTE]
 >
 >Como o modo de compatibilidade, um componente HTML é editável com opções limitadas: você só pode executar edição no local.
+
+>[!IMPORTANT]
+>
+>Esta seção destina-se a usuários avançados familiarizados com o código HTML.
 
 ## Preparando seu conteúdo de email
 
