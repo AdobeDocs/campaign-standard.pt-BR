@@ -13,9 +13,9 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: fef25718906ba52158ebe4d53bbadc799cd5dd88
+source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1554'
 ht-degree: 25%
 
 ---
@@ -86,7 +86,7 @@ Para evitar esses problemas, a Adobe recomenda seguir as práticas recomendadas 
 * Ocasionalmente, conecte-se no SFTP para verificar diretamente o que encontra-se lá.
 * Lembre-se de que o gerenciamento de disco SFTP é predominantemente sua responsabilidade.
 
-Além disso, observe que os IPs públicos dos quais você está tentando iniciar a conexão SFTP devem ser listados na instância da Campanha. A lista de permissões de endereços IP pode ser solicitada por meio de um ticket [de](https://support.neolane.net)suporte, além de fornecer a chave pública para uso na autenticação.
+Além disso, observe que os IPs públicos dos quais você está tentando iniciar a conexão SFTP devem ser listados na instância da Campanha. A lista de permissões de endereços IP pode ser solicitada por meio de um ticket [de](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html)suporte, além de fornecer a chave pública para uso na autenticação.
 
 Os servidores SFTP podem ser gerenciados a partir do Painel de controle. For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/pt-BR/control-panel/using/sftp-management/about-sftp-management.html).
 
