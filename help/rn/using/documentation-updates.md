@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15570e42a345e0b8df2fe59d5ce06877e2ac7cf3
+source-git-commit: babbf78d91d3cab9569eab3b15da50f64a91a560
 workflow-type: tm+mt
-source-wordcount: '5842'
+source-wordcount: '5876'
 ht-degree: 19%
 
 ---
@@ -25,6 +25,10 @@ ht-degree: 19%
 Além das Notas [de](../../rn/using/release-notes.md)versão do Adobe Campaign, esta página lista todas as novas atualizações na documentação do Adobe Campaign Standard.
 
 ## Atualizações da documentação - junho de 2020 {#doc-updates-june-2020}
+
+As referências ao site de suporte herdado foram substituídas pelo novo URL. [Saiba mais](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
+
+A configuração personalizada da conta Litmus foi removida do recurso de renderização da Caixa de entrada. [Leia mais](../../sending/using/email-rendering.md)
 
 Campaign Standard - A integração do Microsoft Dynamics 365 está indisponível no momento. Um novo conector está sendo desenvolvido e estará disponível no futuro. As páginas de ajuda relacionadas foram removidas. [Leia mais](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
