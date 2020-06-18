@@ -12,9 +12,9 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3aa987c423181180a5c20bcca04cde04a2bf6086
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '446'
 ht-degree: 1%
 
 ---
@@ -36,11 +36,11 @@ Caso contrário, entre em contato com o executivo de sua conta da Adobe ou com o
 
 Siga as etapas descritas em [Criar um acionador mapeado na Campanha](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) para criar um acionador.
 
-Se o acionador for criado, vá para a próxima etapa. Caso contrário, isso significa que a conexão do ponto final do acionador falhou. Verifique se os Acionadores foram provisionados na Experience Cloud (serviços de Ativação). Caso contrário, entre em contato com o executivo de sua conta da Adobe ou com o parceiro de serviços profissionais. As seguintes informações são obrigatórias:
+Se o acionador for criado, vá para a próxima etapa. Caso contrário, isso significa que a conexão do ponto final do acionador falhou. Verifique se os Acionadores foram provisionados no Experience Cloud (serviços de Ativação). Caso contrário, entre em contato com o executivo de sua conta da Adobe ou com o parceiro de serviços profissionais. As seguintes informações são obrigatórias:
 
 * Nome da Empresa da Marketing Cloud
 * ID ORG IMS
-* Empresa de logon do Analytics (pode ser igual ao Nome da Empresa da Marketing Cloud)
+* Empresa de logon da Analytics (pode ser igual ao Nome da Empresa da Marketing Cloud)
 
 **Tente publicar o acionador**
 
@@ -52,11 +52,11 @@ Se a publicação tiver êxito, siga para a próxima etapa. Caso contrário, ent
 
 Siga as etapas descritas em [Edição do template de mensagem transacional](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) para editar e publicar o modelo transacional. Em seguida, teste a geração do acionador a partir do site.
 
-Se o acionador for recebido pelo Analytics, vá para a próxima etapa. Caso contrário, verifique os seguintes itens:
+Se o acionador for recebido pela Analytics, vá para a próxima etapa. Caso contrário, verifique os seguintes itens:
 
-* O acionador está habilitado para o Analytics
-* O site usado pela MCID e pelo Analytics está habilitado no DTM
-* O conjunto de relatórios correto do Analytics é usado ao criar acionadores
+* O acionador está habilitado para Analytics
+* O site usado pela MCID e Analytics está habilitado no DTM
+* O conjunto de relatórios correto da Analytics é usado ao criar acionadores
 
 **O gatilho é recebido pela Campanha?**
 
@@ -77,7 +77,7 @@ Se estiver, siga estas linhas de guia:
 Caso contrário, vá para a próxima etapa. Se estiver, siga estas linhas de guia:
 
 * Verifique se o modelo transacional foi publicado.
-* Verifique se o perfil não está incluído na blacklist.
+* Verifique se o perfil não está na lista de blocos.
 * Verifique a aplicação do regra de tipologia.
 * Verifique os registros do mensagen transacional.
 
