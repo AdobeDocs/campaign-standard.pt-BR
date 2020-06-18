@@ -12,7 +12,10 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '1157'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +32,7 @@ O princípio é enviar um e-mail para confirmar o contrato do visitante antes de
 
 Para configurar, é necessário:
 
-1. Crie e publique uma landing page para que os visitantes possam se registrar e se inscrever. Esta landing page estará disponível em um site. Os Visitantes que preencherem e enviarem essa landing page serão armazenados no banco de dados, mas &quot;incluído na blacklist&quot;, para não receberem qualquer comunicação antes da validação final (consulte [Gerenciamento de listas negras na Campanha](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+1. Crie e publique uma landing page para que os visitantes possam se registrar e se inscrever. Esta landing page estará disponível em um site. Os Visitantes que preencherem e enviarem essa landing page serão armazenados no banco de dados, mas adicionados à lista de blocos para não receber nenhuma comunicação antes da validação final (consulte Gerenciamento de lista de [blocos na Campanha](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 1. Crie e envie automaticamente o email de aceitação, com um link de confirmação. Este email vai público alvo a população que enviou a landing page. Ele será baseado em um modelo de e-mail que permite o público alvo de perfis de não participação.
 1. Redirecionar para uma landing page de confirmação. Esta landing page final irá propor um botão de confirmação: os visitantes precisam clicar nele. Você pode projetar um email de boas-vindas para ser enviado quando a confirmação for feita e, por exemplo, adicionar uma oferta especial no email para novos recipient.
 
@@ -51,13 +54,13 @@ Para criar e configurar essa landing page, é necessário:
 
 1. Na seção **[!UICONTROL Job]** > **[!UICONTROL Additional data]** , clique **[!UICONTROL Add an element]** e insira o seguinte caminho de contexto:
 
-   /context/perfil/blackList
+   /context/perfil/blockList
 
    Defina o valor como **false** e clique em **[!UICONTROL Add]**.
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   Este contexto remove o campo da lista negra, para poder enviar emails. Veremos mais tarde que a primeira landing page estava definindo esse campo como **verdadeiro** antes da confirmação, para evitar o envio de emails para perfis não confirmados. Para obter mais informações, consulte a [Etapa 3: Crie a landing page](#step-3--create-the-acquisition-landing-page)de aquisição.
+   Este contexto remove o campo &#39;Lista de bloqueios ativada&#39;, para poder enviar emails. Veremos mais tarde que a primeira landing page estava definindo esse campo como **verdadeiro** antes da confirmação, para evitar o envio de emails para perfis não confirmados. Para obter mais informações, consulte a [Etapa 3: Crie a landing page](#step-3--create-the-acquisition-landing-page)de aquisição.
 
 1. Personalize o conteúdo da landing page: você pode exibir dados personalizados e alterar o rótulo do botão de confirmação para &quot;Clique aqui para confirmar minha subscrição&quot;, por exemplo.
 
@@ -98,12 +101,12 @@ O evento está pronto. Agora você pode criar o modelo de email. Este modelo dev
 
 ### Criar a tipologia {#create-the-typology-rule}
 
-Você precisa criar uma [tipologia](../../sending/using/about-typology-rules.md)específica, duplicando uma predefinida. A tipologia permitirá o envio de mensagens a perfis que ainda não confirmaram seu acordo e ainda estão incluído na blacklist. Por padrão, as tipologias excluem perfis de opção de não participação (ou seja, incluído na blacklist). Para criar essa tipologia, siga estas etapas:
+Você precisa criar uma [tipologia](../../sending/using/about-typology-rules.md)específica, duplicando uma predefinida. A tipologia permitirá o envio de mensagens a perfis que ainda não confirmaram seu acordo e que ainda estão na lista de blocos. Por padrão, as tipologias excluem perfis de opção de não participação (ou seja, na lista de blocos). Para criar essa tipologia, siga estas etapas:
 
 1. No logotipo do Adobe Campaign, selecione **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** e clique em **[!UICONTROL Typologies]**.
 1. Duplicado da tipologia predefinida **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
 1. Depois que a duplicação for confirmada, edite a nova tipologia e insira o rótulo **TYPOLOGY_PERFIL**.
-1. Remova a regra de endereço **** incluído na blacklist.
+1. Remova a regra **Endereço na lista** de blocos.
 1. Clique em **[!UICONTROL Save]**.
 
 Essa tipologia agora pode ser associada ao email de confirmação.
@@ -130,13 +133,13 @@ Para criar e configurar essa landing page, é necessário:
 1. Projete uma [nova landing page](../../channels/using/getting-started-with-landing-pages.md) com base no **[!UICONTROL Profile acquisition (acquisition)]** modelo. Digite o rótulo &#39;**AQUISIÇÃO**&#39;.
 1. Edite as propriedades da landing page: na seção **[!UICONTROL Job]** > **[!UICONTROL Additional data]** , clique **[!UICONTROL Add an element]** e insira o seguinte caminho de contexto:
 
-   /context/perfil/blackList
+   /context/perfil/blockList
 
    e defina o valor como **true**.
 
-   Isto é obrigatório para forçar a lista negra e evitar o envio de mensagens a visitantes que não confirmaram o seu acordo. A validação da landing page CONFIRMATION definirá esse campo como **falso** após a confirmação. Para obter mais informações, consulte a [Etapa 1: Crie a landing page](#step-1--create-the-confirmation-landing-page)de confirmação.
+   Isso é obrigatório para forçar a adição à lista de blocos e evitar o envio de mensagens a visitantes que não confirmaram seu acordo. A validação da landing page CONFIRMATION definirá esse campo como **falso** após a confirmação. Para obter mais informações, consulte a [Etapa 1: Crie a landing page](#step-1--create-the-confirmation-landing-page)de confirmação.
 
-1. Na seção **[!UICONTROL Job]** > **[!UICONTROL Specific actions]** , selecione a opção **[!UICONTROL Start sending messages]**.
+1. In the **[!UICONTROL Job]** > **[!UICONTROL Specific actions]** section, select the option **[!UICONTROL Start sending messages]**.
 1. Na lista suspensa associada, escolha o template de mensagem transacional **CONFIRMAR** que você criou.
 
    ![](assets/optin_acquisition_startoption.png)
