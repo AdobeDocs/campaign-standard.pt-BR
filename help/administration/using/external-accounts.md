@@ -13,9 +13,9 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
+source-git-commit: 017e1e80657a3145a97c6ab62a577a9a2164cc99
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1561'
 ht-degree: 25%
 
 ---
@@ -86,7 +86,7 @@ Para evitar esses problemas, a Adobe recomenda seguir as práticas recomendadas 
 * Ocasionalmente, conecte-se no SFTP para verificar diretamente o que encontra-se lá.
 * Lembre-se de que o gerenciamento de disco SFTP é predominantemente sua responsabilidade.
 
-Além disso, observe que os IPs públicos dos quais você está tentando iniciar a conexão SFTP devem ser listados na instância da Campanha. A lista de permissões de endereços IP pode ser solicitada por meio de um ticket [de](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html)suporte, além de fornecer a chave pública para uso na autenticação.
+Além disso, observe que os IPs públicos dos quais você está tentando iniciar a conexão SFTP devem ser adicionados à lista de permissões na instância da Campanha. A adição de endereços IP à lista de permissões pode ser solicitada por meio de um ticket [de](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html)suporte, junto com o fornecimento da chave pública a ser usada para autenticação.
 
 Os servidores SFTP podem ser gerenciados a partir do Painel de controle. For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/pt-BR/control-panel/using/sftp-management/about-sftp-management.html).
 
@@ -125,14 +125,14 @@ Para ajudá-lo a configurar sua conta Amazon S3, recomendamos que siga estas rec
 
 ## Conta externa do Adobe Experience Manager.{#adobe-experience-manager-external-account}
 
-As contas externas do Adobe Experience Manager são usadas ao integrar a Campanha com o Experience Manager.
+contas externas Adobe Experience Manager são usadas ao integrar Campanha com Experience Manager.
 
 O processo e os requisitos relacionados a essa integração estão disponíveis [neste documento](../../integrating/using/get-started-campaign-integrations.md).
 
 Como você está configurando essa nova conta externa, é necessário fornecer os seguintes detalhes:
 
 * Servidor: insira o URL do servidor Adobe Experience Manager. Por exemplo, **http://aem.domain.com:4502**.
-* Credenciais da conta AEM: use a conta que acessará a instância do Adobe Experience Manager. Deve ser uma parte da conta do grupo remoto de campanhas no Experience Manager.
+* Credenciais da conta AEM: use a conta que acessará a instância Adobe Experience Manager. Deve ser uma parte da conta do grupo campanha-remoto no Experience Manager.
 
 ## conta externa do Google reCAPTCHA {#google-recaptcha-external-account}
 
