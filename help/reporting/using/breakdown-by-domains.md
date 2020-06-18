@@ -1,26 +1,29 @@
 ---
 title: Detalhamento por domínios
-description: Com o relatório detalhado por domínios pronto para uso, saiba mais sobre os dados de desempenho de suas entregas, dependendo do domínio de cada cliente.
-page-status-flag: nunca ativado
+description: Com o relatório detalhado por domínios pronto para uso, saiba mais sobre os dados de desempenho de seus delivery, dependendo do domínio de cada cliente.
+page-status-flag: never-activated
 uuid: 75a64c81-325b-422f-b6ef-deb06eec7f7b
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: relatório
-content-type: referência
-topic-tags: lista de relatórios
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
 discoiquuid: 2ce174f9-5d7d-48b9-9235-6bf3e238ff37
 context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,main;programDomainBreakdownReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 2%
 
 ---
 
 
 # Detalhamento por domínios{#breakdown-by-domains}
 
-Este relatório contém os dados de desempenho de cada domínio representado no público-alvo para uma entrega de email. Se for um relatório de campanha ou programa, os dados de desempenho estarão disponíveis para vários públicos-alvo. Esses dados permitem analisar o comportamento de cada domínio em reação a eventos específicos. Por exemplo, exibição de link, lista negra de URL etc.
+Este relatório contém os dados de desempenho de cada domínio representado na audiência de um delivery de email. Se for um relatório de campanha ou programa, os dados de desempenho estarão disponíveis para várias audiências. Esses dados permitem que você analise o comportamento de cada domínio em reação a eventos específicos. Por exemplo, exibição de link, URL na lista de blocos etc.
 
 ![](assets/delivery_reports_6.png)
 
@@ -32,12 +35,12 @@ A tabela Estatísticas **de** transmissão contém os dados disponíveis para po
 * **Rejeição** forçada: O número total de erros permanentes, como um endereço de email incorreto.
 * **Rejeição** suave: O número total de erros temporários, como uma caixa de entrada completa.
 
-A segunda tabela, Estatísticas **de** rastreamento, contém os dados disponíveis para a reatividade do destinatário na entrega, como:
+A segunda tabela, Estatísticas **de** rastreamento, contém os dados disponíveis para a reatividade do recipient ao delivery, como:
 
 * **Entregue**: O número de emails entregues
-* **Abrir**: O número de vezes que uma mensagem foi aberta em uma entrega.
-* **Clique**: O número de vezes que o conteúdo foi clicado em uma entrega.
-* **Inscrito**: O número de cliques no link de assinatura.
-* **Página** de espelho: O número de cliques no link da página espelhada.
-* **Lista negra**: O número de destinatários que declararam um email como spam ou lixo eletrônico (consulte [Gerenciamento de listas negras no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+* **Abrir**: O número de vezes que uma mensagem foi aberta em um delivery.
+* **Clique**: O número de vezes que o conteúdo foi clicado em um delivery.
+* **Inscrito**: O número de cliques no link de subscrição.
+* **Mirror page**: O número de cliques no link do mirror page.
+* **Lista bloqueada**: O número de recipient que declararam um email como spam ou lixo eletrônico (consulte Gerenciamento de lista de [bloqueio na Campanha](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 
