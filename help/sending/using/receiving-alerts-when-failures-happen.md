@@ -12,9 +12,9 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '2031'
 ht-degree: 2%
 
 ---
@@ -80,7 +80,7 @@ Na interface do Adobe Campaign, é possível:
 
 Se desejar enviar notificações com base em critérios específicos para grupos diferentes de usuários, será necessário usar vários painéis. Para criar um novo painel:
 
-1. Vá até **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**.
+1. Vá para **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**.
 1. Selecione **[!UICONTROL Delivery alerting dashboards]** e clique em **[!UICONTROL Create]**.
 1. Marque a **[!UICONTROL Enabled]** caixa para ativar o painel atual.
 
@@ -240,7 +240,7 @@ Estes são alguns motivos possíveis para receber notificações de alerta de ac
    * Tempo limite de conexão entre o servidor do delivery Adobe Campaign e o servidor receptor
    * Um problema de entrega
    * Um fluxo de trabalho incorreto
-   Se o delivery for acionado com um fluxo de trabalho, verifique se ele foi iniciado corretamente. Para obter mais informações, consulte [Executar um fluxo de trabalho](../../automating/using/about-workflow-execution.md). Caso contrário, entre em contato com o administrador do Adobe Campaign para resolver o problema.
+   Se o delivery for acionado com um fluxo de trabalho, verifique se ele foi iniciado corretamente. For more on this, see [Executing a workflow](../../automating/using/about-workflow-execution.md). Caso contrário, entre em contato com o administrador do Adobe Campaign para resolver o problema.
 
 * **[!UICONTROL Deliveries with preparation failed]**: Um erro pode ocorrer durante a preparação do delivery nos seguintes casos:
 
@@ -258,7 +258,7 @@ Estes são alguns motivos possíveis para receber notificações de alerta de ac
 
    As possíveis causas de um **[!UICONTROL Delivery with bad error ratio for hard bounces]** alerta podem ser:
 
-   * O recipient é incluído na blacklist, o que significa que eles não querem mais ser contatados.
+   * O recipient está na lista de blocos, o que significa que não deseja mais ser contatado.
    * O endereço de email do recipient não existe.
    * O domínio do recipient não existe.
    * O servidor do recipient está bloqueando o delivery.
@@ -280,5 +280,5 @@ Estes são alguns motivos possíveis para receber notificações de alerta de ac
 
 * [Noções básicas sobre falhas de entrega](../../sending/using/understanding-delivery-failures.md)
 * [Noções básicas sobre gestão de quarentena](../../sending/using/understanding-quarantine-management.md)
-* [Gerenciamento de listas negras em Campanhas](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Sobre participação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
