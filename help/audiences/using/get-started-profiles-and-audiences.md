@@ -12,9 +12,9 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '609'
 ht-degree: 9%
 
 ---
@@ -66,7 +66,7 @@ Antes de começar a enviar mensagens para um contato, é necessário certificar-
 
 Com a Campanha, recomendamos que você use mecanismos **fáceis de aceitação e não participação por meio de** serviços [e do](../../audiences/using/creating-a-service.md)landing page [](../../channels/using/getting-started-with-landing-pages.md) para atualizar suas informações de contato e aumentar seu banco de dados.
 
-Fornecer links **de** unsubscription em suas mensagens permitirá que os Perfis sejam incluído na blacklist, quando necessário, e, portanto, melhorar a capacidade de entrega da plataforma. Para obter mais informações sobre a lista negra, consulte [Sobre aceitação e não participação na Campanha](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Fornecer links **de** unsubscription em suas mensagens permitirá que Perfis sejam adicionados à lista de blocos, quando necessário, e, portanto, melhorar a entrega da plataforma. Para obter mais informações sobre o gerenciamento da lista de blocos, consulte [Sobre aceitação e não participação na Campanha](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
