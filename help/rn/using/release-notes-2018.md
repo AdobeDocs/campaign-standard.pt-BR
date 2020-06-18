@@ -12,14 +12,17 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ffdbeb7031697c7b00edc658096f55df815b0f63
+source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
+workflow-type: tm+mt
+source-wordcount: '5399'
+ht-degree: 8%
 
 ---
 
 
 # Notas de versão 2018{#release-notes}
 
-Procurando uma versão específica de 2018 do Adobe Campaign Standard?
+Você está procurando uma versão específica do Adobe Campaign Standard para 2018?
 
 Cada versão traz novos recursos e correções. Clique em uma versão para visualização de seu conteúdo.
 
@@ -78,15 +81,15 @@ Visualização as atualizações [mais recentes da](../../rn/using/documentation
 * Correção de um problema que impedia que as datas de subscrição de serviço fossem atualizadas quando importadas por meio de uma importação de arquivo.
 * Corrigido um erro com a atividade de arquivo de carregamento que impedia workflows de importar arquivos (CAMP-27068).
 * Correção de um problema que exibia o número errado de subscrições nos relatórios de resumo do serviço (CAMP-25587).
-* Correção de um problema de discrepância de dados entre o Adobe Analytics e os relatórios de Adobe Campaign. (CAMP-25393)
+* Correção de um problema de discrepância de dados entre o Analytics da Adobe e os relatórios de Adobe Campaign. (CAMP-25393)
 * Corrigido um problema que impedia que um usuário de acesso limitado fizesse logon. (CAMP-27381)
-* Correção de um problema que impedia a exibição da lista do conteúdo do Adobe Experience Manager ao editar um email usando o Creative Designer. (CAMP-27181)
+* Correção de um problema que impedia a exibição da lista de conteúdo do Adobe Experience Manager ao editar um email usando o Creative Designer. (CAMP-27181)
 * Correção de um problema que impedia a abertura do Creative Designer, causando um erro. (CAMP-27304)
 * Correção de um problema que impedia que o arrastar e soltar funcionasse corretamente no Creative Designer ao usar o Internet Explorer 11.
 * Correção de um problema que fazia com que as fotos carregadas de uma câmera e filmadas no modo retrato fossem exibidas em uma posição girada indesejada.
 * Correção de um problema que exibia informações de seleção não claras ao usar a interface do editor de query no Creative Designer.
 * Correção de um problema que impedia a duplicação correta de um elemento ao usar a interface do editor de query no Creative Designer.
-* Correção de um problema que mantinha a entrega de mensagens SMS a recipient incluído na blacklist mesmo que eles tivessem sido cancelados por meio de uma resposta automática. (CAMP-27128)
+* Correção de um problema que mantinha a entrega de mensagens SMS a recipient na lista de bloqueios, mesmo que eles tivessem sido cancelados por meio de uma resposta automática. (CAMP-27128)
 * Correção de um problema que impedia a exibição dos erros que causavam a falha do fluxo de trabalho de Limpeza **** do Banco de Dados. (CAMP-26876)
 * Correção de um problema que impedia a exclusão de campos personalizados em uma definição de notificação por push. (CAMP-25588)
 
@@ -127,7 +130,7 @@ Visualização as atualizações [mais recentes da](../../rn/using/documentation
 
 **Aprimoramentos**
 
-* A integração entre Adobe Campaign e Público alvo da Adobe agora permite que você aproveite o recurso [Permissões](https://marketing.adobe.com/resources/help/pt_BR/target/target/properties-overview.html) do Público alvo. Ao incluir uma imagem dinâmica de um Público alvo da Adobe em um email, agora é possível especificar uma Propriedade de Público alvo (código at_property).
+* A integração Adobe Campaign e Adobe Target agora permite que você aproveite o recurso [Permissões](https://marketing.adobe.com/resources/help/br/target/target/properties-overview.html) do Público alvo. Ao incluir uma imagem dinâmica de Adobe Target em um email, agora é possível especificar uma Propriedade de Público alvo (código at_property).
 * Os recursos personalizados que têm um link de cópia própria para o recurso de perfis agora são considerados pelas solicitações de acesso/exclusão da Privacidade do RGPD. Para 1 cardinalidade links simples e N links de coleção de cardinalidade, é necessário selecionar &quot;Excluir/Duplicar o registro do público alvo implica excluir/duplicar os registros referenciados pelo link&quot; no recurso personalizado. Para links simples de cardinalidade 0 ou 1, selecione &quot;Excluir/Duplicar o registro implica excluir/duplicar o registro de públicos alvos referenciado pelo link&quot;.
 
 **Outras alterações**
@@ -174,12 +177,12 @@ Visualização as atualizações [mais recentes da](../../rn/using/documentation
 
 **Correções**
 
-* Correção de um problema que impedia o envio de emails ao incluir uma imagem dinâmica do Público alvo da Adobe (CAMP-24848).
+* Correção de um problema que impedia o envio de emails ao incluir uma imagem dinâmica do Adobe Target (CAMP-24848).
 * Correção de um problema com os **[!UICONTROL Privacy Access/Delete Request]** workflows técnicos, que não era concluído se alguma das solicitações falhasse.
 * Correção de um problema que impedia que o serviço Privacy Core recebesse atualizações de status de solicitação da Campanha.
 * Fixed an issue which could prevent the **[!UICONTROL Import shared audience]** technical workflow from working properly (CAMP-25465).
-* Correção de um problema que impedia que solicitações de privacidade de Campanha fossem marcadas como concluídas no Core Privacy Service.
-* Correção de um problema que impedia que determinados usuários fizessem logon no Campaign Standard por meio da autenticação IMS quando a ID da Adobe era muito longa. (CAMP-24095)
+* Correção de um problema que impedia que solicitações de privacidade de Campanha fossem marcadas como concluídas no Privacy Service principal.
+* Correção de um problema que impedia que determinados usuários fizessem logon no Campaign Standard pela autenticação IMS quando o Adobe ID era muito longo. (CAMP-24095)
 * Correção de um problema no Creative Designer que poderia ocorrer ao remover módulos de conteúdo. (CAMP-25242)
 * Correção de um problema ao usar regras de fadiga de notificações por push para assinantes sem perfil no banco de dados. (CAMP-25344)
 * Correção de um problema que poderia exibir uma mensagem de erro ao acessar os registros de exclusão de delivery. (CAMP-24724)
@@ -205,7 +208,7 @@ Visualização as atualizações [mais recentes da](../../rn/using/documentation
  <tbody> 
   <tr> 
    <td> RGPD: Integração de serviços principais<br /> </td> 
-   <td> A Integração do Privacy Core Service permite que você automatize suas solicitações de RGPD em um contexto de várias soluções por meio de uma única chamada de API JSON. <br /> As solicitações do RGPD enviadas do Privacy Core Service para todas as soluções da Experience Cloud agora são automaticamente tratadas pela Campanha. <br /> Para obter mais informações, consulte a <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">documentação detalhada</a>.<br /> </td> 
+   <td> A Integração do Privacy Core Service permite que você automatize suas solicitações de RGPD em um contexto de várias soluções por meio de uma única chamada de API JSON. <br /> As solicitações de RGPD enviadas do Privacy Core Service para todas as soluções de Experience Cloud agora são automaticamente tratadas pela Campanha. <br /> Para obter mais informações, consulte a <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Melhorias de push - feedback detalhado do delivery<br /> </td> 
@@ -232,8 +235,8 @@ Visualização as atualizações [mais recentes da](../../rn/using/documentation
 
 **Outras alterações**
 
-* A atividade de fluxo de trabalho Ler Audiência agora pode ler audiências da Experience Cloud. Anteriormente, esta atividade só conseguia ler audiências Query e Listas. Consulte a documentação [](../../automating/using/read-audience.md)detalhada. (CAMP-23623)
-* O identificador da fonte de dados compartilhada padrão agora está no modo somente leitura e não pode mais ser alterado. Alterar esse identificador pode causar alguns problemas ao compartilhar audiências com a Experience Cloud.
+* A atividade de fluxo de trabalho Ler Audiência agora pode ler audiências Experience Cloud. Anteriormente, esta atividade só conseguia ler audiências Query e Listas. Consulte a documentação [](../../automating/using/read-audience.md)detalhada. (CAMP-23623)
+* O identificador da fonte de dados compartilhada padrão agora está no modo somente leitura e não pode mais ser alterado. A alteração desse identificador pode causar alguns problemas ao compartilhar audiências com o Experience Cloud.
 * Agora a importação de audiências do Audience Manager funciona com arquivos divididos. Anteriormente, somente o último arquivo do segmento era importado pelo workflow técnico importSharedAudience.
 * O AWS S3 conta externa agora suporta regiões e o mecanismo de autenticação da versão 4. Consulte a documentação [](../../administration/using/external-accounts.md)detalhada.
 * A janela de seleção de Ativo agora deve ser carregada mais rapidamente e permitir a seleção de um ativo, em seguida, sair da janela sem qualquer problema.
@@ -267,7 +270,7 @@ Visualização as atualizações [mais recentes da](../../rn/using/documentation
 
 **Correções**
 
-_Plataforma_
+_Platform_
 
 * Correção de um erro que impedia o processamento correto do acesso ao RGPD ou a exclusão de solicitações. Esse comportamento foi observado em alguns casos raros, onde os dados extraídos continham um dos seguintes caracteres: &amp; &lt; > &quot; &quot;.
 
@@ -336,7 +339,7 @@ _Recursos personalizados_
 
 **Correções**
 
-_Plataforma_
+_Platform_
 
 * Correção de um problema que impedia a exportação de mais de 5000 registros de uma lista.
 * Correção de um problema ao exportar dados para arquivos nomeados com campos de personalização.
@@ -368,8 +371,8 @@ _Workflows_
 
 _Integrações_
 
-* Correção de um problema que impedia que caracteres internacionais fossem enviados corretamente para o Adobe Analytics.
-* Os ativos agora devem ser carregados mais rapidamente ao tentar inserir uma imagem da biblioteca de ativos da Experience Cloud em uma mensagem.
+* Fixed an issue that prevented international characters from being correctly sent to Adobe Analytics.
+* Assets should now load faster when trying to insert an image from your Experience Cloud asset library in a message.
 * Correção de um problema que impedia o fechamento da janela de seleção de ativos em alguns casos.
 * A partir de um detalhe da fonte de dados, agora é possível acessar diretamente seu fluxo de trabalho relacionado para verificar o estado do fluxo de trabalho.
 * Agora você pode atualizar o schema Acionadores diretamente ao definir ou editar um evento acionador. Com essa alteração, não é mais necessário desfazer a publicação do acionador e criar outro.
@@ -377,9 +380,9 @@ _Integrações_
 _Mensagens transacionais_
 
 * Correção de um erro com o template de mensagem transacional quando o recurso do delivery era estendido.
-* Agora é possível excluir mensagens transacionais.
+* It is now possible to delete transactional messages.
 
-## Versão 18.2 - fevereiro de 2018 {#release-18-2---february-2018}
+## Release 18.2 - February 2018 {#release-18-2---february-2018}
 
 **Novos recursos**
 
@@ -392,21 +395,21 @@ _Mensagens transacionais_
  </thead> 
  <tbody> 
   <tr> 
-   <td> Subscrição - assine ou cancele a assinatura de uma lista de perfis para vários serviços<br /> </td> 
-   <td> A atividade de fluxo de trabalho do <strong>Subscrição no serviço</strong> agora permite que você assine ou cancele a assinatura de uma lista de perfis em vários serviços. No fluxo de trabalho, importe um arquivo que contenha os perfis e, para cada perfil, o tipo de operação e o serviço. A atividade <strong>Subscrição no serviço</strong> poderá usar essas informações e manipular dinamicamente todas as subscrições e unsubscription de uma só vez.<br /> Para obter mais informações, consulte a <a href="../../automating/using/subscription-services.md">documentação detalhada</a>.<br /> </td> 
+   <td> Subscription - subscribe or unsubscribe a list of profiles to multiple services<br /> </td> 
+   <td> A atividade de fluxo de trabalho do <strong>Subscrição no serviço</strong> agora permite que você assine ou cancele a assinatura de uma lista de perfis em vários serviços. In your workflow, import a file containing the profiles, and for each profile, the operation type and the service. A atividade <strong>Subscrição no serviço</strong> poderá usar essas informações e manipular dinamicamente todas as subscrições e unsubscription de uma só vez.<br /> Para obter mais informações, consulte a <a href="../../automating/using/subscription-services.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> atividade do Enriquecimento - enriqueça os dados com base em transições anteriores<br /> </td> 
-   <td> A nova atividade de fluxo de trabalho do <span class="uicontrol">Enriquecimento</span> permite aproveitar as transições de entrada e concluir a transição de saída com dados adicionais. Se você público alvo perfis, a atividade do enriquecimento permite que você enriqueça as informações dos perfis com dados adicionais que não estão armazenados no banco de dados (provenientes de um arquivo importado, por exemplo).<br /> Para obter mais informações, consulte a <a href="../../automating/using/enrichment.md">documentação detalhada</a>.<br /> </td> 
+   <td> A nova atividade de fluxo de trabalho do <span class="uicontrol">Enriquecimento</span> permite aproveitar as transições de entrada e concluir a transição de saída com dados adicionais. If you target profiles, the enrichment activity allows you to enrich the profiles information with additional data that is not stored in the database (coming from an imported file, for example).<br /> Para obter mais informações, consulte a <a href="../../automating/using/enrichment.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Correções**
 
-_Plataforma_
+_Platform_
 
-* A barra superior da nova interface do Adobe Campaign foi atualizada com o menu da Experience Cloud.
+* A barra superior da nova interface do Adobe Campaign foi atualizada com o menu Experience Cloud.
 * Correção de um problema que impedia que o link fosse exibido na lista suspensa da solução. **[!UICONTROL Offers]**
 
 _Emails, mensagens SMS e mala direta_
@@ -456,16 +459,16 @@ Alguns problemas podem ocorrer ao usar links de ajuda contextuais da interface d
  </thead> 
  <tbody> 
   <tr> 
-   <td> Relatórios para gerenciamento de fadiga<br /> </td> 
-   <td> O Relatórios para gerenciamento de fadiga é um relatório dedicado e configurável que exibe o impacto das regras de fadiga nos delivery de email, push, SMS e mala direta dentro de um intervalo de datas especificado antes do envio. Com o insight adicional de poder ver rapidamente todas as campanhas conflitantes em uma única visualização, os profissionais de marketing são capazes de planejar campanhas de marketing de acordo com a definição mais eficiente das regras de fadiga e priorizar as comunicações.<br /> Para obter mais informações, consulte a <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">documentação detalhada</a>.<br /> </td> 
+   <td> Reporting for Fatigue Management<br /> </td> 
+   <td> O Relatórios para gerenciamento de fadiga é um relatório dedicado e configurável que exibe o impacto das regras de fadiga nos delivery de email, push, SMS e mala direta dentro de um intervalo de datas especificado antes do envio. With the added insight of being able to quickly see all conflicting campaigns in a single view, marketers are able to plan marketing campaigns according to set the fatigue rules more effectively, and prioritize communications.<br /> Para obter mais informações, consulte a <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Compartilhamento de relatórios<br /> </td> 
-   <td> O Compartilhamento de relatórios permite que você compartilhe seus relatórios com usuários do Adobe Campaign como um anexo de email, inclusive de forma recorrente automatizada. Os usuários que recebem relatórios recorrentes têm a capacidade de cancelar a inscrição dessas comunicações por meio de um link dedicado em cada email.<br /> Para obter mais informações, consulte a <a href="../../reporting/using/reporting-interface.md#share-tab">documentação detalhada</a>.<br /> </td> 
+   <td> Report sharing<br /> </td> 
+   <td> Report Sharing allows you to share your reports with Adobe Campaign users as an email attachment including on an automated recurring basis. Users who receive recurring reports have the ability to unsubscribe from these communications via a dedicated link in each email.<br /> Para obter mais informações, consulte a <a href="../../reporting/using/reporting-interface.md#share-tab">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Enviar novos recursos<br /> </td> 
-   <td> Pré-visualização de mensagem de push - notificações por push de Pré-visualização em dispositivos iOS e Android no editor de conteúdo de notificação por push para ver exatamente o que seus recipient verão antes de testar ou executar o delivery.<br /> Para obter mais informações, consulte a <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentação detalhada</a>.<br /> Conteúdo disponível - quando os aplicativos não são abertos por períodos maiores, seus dados podem ficar desatualizados. Isso resulta na atualização ou substituição dos dados no momento em que um usuário finalmente abre o aplicativo, o que pode causar atrasos no uso do aplicativo. Com o suporte adicional de Conteúdo disponível, os usuários do Adobe Campaign podem acordar seu aplicativo para atualizar seus dados em segundo plano ao enviar uma notificação por push, o que permite maior consistência e controle sobre a experiência do usuário no aplicativo.<br /> Conteúdo variável - Com o suporte adicional de Conteúdo variável, os usuários do Adobe Campaign agora podem aproveitar suas extensões de aplicativos para dispositivos móveis para modificar ainda mais o conteúdo ou a apresentação das notificações por push recebidas enviadas do Adobe Campaign. Por exemplo, os usuários podem aproveitar o Conteúdo variável para: <br /> 
+   <td> Push New capabilities<br /> </td> 
+   <td> Push Message Preview - Preview push notifications on iOS and Android devices from within the push notification content editor to see exactly what your recipients will see before testing or executing the delivery.<br /> Para obter mais informações, consulte a <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentação detalhada</a>.<br /> Conteúdo disponível - quando os aplicativos não são abertos por períodos maiores, seus dados podem ficar desatualizados. Isso resulta na atualização ou substituição dos dados no momento em que um usuário finalmente abre o aplicativo, o que pode causar atrasos no uso do aplicativo. Com o suporte adicional de Conteúdo disponível, os usuários do Adobe Campaign podem acordar seu aplicativo para atualizar seus dados em segundo plano ao enviar uma notificação por push, o que permite maior consistência e controle sobre a experiência do usuário no aplicativo.<br /> Conteúdo variável - Com o suporte adicional de Conteúdo variável, os usuários do Adobe Campaign agora podem aproveitar suas extensões de aplicativos para dispositivos móveis para modificar ainda mais o conteúdo ou a apresentação das notificações por push recebidas enviadas do Adobe Campaign. Por exemplo, os usuários podem aproveitar o Conteúdo variável para: <br /> 
     <ul> 
      <li> descriptografar dados que foram entregues em um formato criptografado </li> 
      <li> baixe imagens ou outros arquivos de mídia e adicione-os como anexos a uma notificação </li> 
@@ -486,7 +489,7 @@ Alguns problemas podem ocorrer ao usar links de ajuda contextuais da interface d
 
 **Correções**
 
-_Plataforma_
+_Platform_
 
 * A pesquisa de perfil foi otimizada para melhorar o desempenho.
 * O identificador interno de grupos de segurança padrão agora está no modo somente leitura para usuários padrão.
@@ -497,14 +500,14 @@ _Emails, mensagens SMS e mala direta_
 * Correção de um problema que permitia que o usuário acessasse o envio de logs quando o delivery ainda estava na edição.
 * A **[!UICONTROL Scheduler]** atividade agora permite que você envie seus delivery, dependendo do fuso horário do recipient.
 * SMS: A opção **[!UICONTROL Store incoming MO]** no banco de dados foi adicionada ao conta externa. Quando marcado, todo o SMS recebido será armazenado na tabela **inSMS** .
-* SMS: Agora, os serviços são anexados a um evento em vez de um modelo transacional.
+* SMS: Os serviços agora são anexados a um evento em vez de um modelo transacional.
 * SMS: O tempo limite de conexão SMTP padrão foi reduzido para 30 segundos.
 
 _Notificações por push_
 
 * Correção de um erro que impedia a interrupção de delivery de notificação por push.
 * Adicionada uma opção nas opções avançadas de notificação por push para ativar o aplicativo com uma notificação por push.
-* Adição de um botão de pausa para o vídeo de pré-visualização de notificação por push.
+* Added a pause button for the push notification preview video.
 * A pré-visualização de notificação por push agora está disponível para diferentes dispositivos, como iPhone, Android e tablets.
 
 _Relatórios_
