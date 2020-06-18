@@ -1,6 +1,6 @@
 ---
 title: Cálculo do indicador
-description: Entenda os resultados de seus relatórios com uma lista das fórmulas de cada métrica.
+description: Entenda os resultados de seus relatórios com uma lista da fórmula de cada métrica.
 page-status-flag: never-activated
 uuid: dfbc9d7e-62db-4e77-bb8e-0ac826ec7333
 contentOwner: sauviat
@@ -12,7 +12,10 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6291862737c71b63d8107b03245d5207b6151e96
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 8%
 
 ---
 
@@ -21,16 +24,16 @@ source-git-commit: 6291862737c71b63d8107b03245d5207b6151e96
 
 >[!NOTE]
 >
->Para processar e gerenciar melhor volumes altos e análises em tempo real, os relatórios dinâmicos usam agregações aproximadas para estimativas de contagem distintas. Agregações aproximadas oferecem uso limitado de memória e são geralmente mais rápidas que computações exatas.
+>Para processar e gerenciar melhor volumes altos e análises em tempo real, o relatórios dinâmico usa agregações aproximadas para estimativas de contagem distintas. Agregações aproximadas Uso de memória limitada por oferta e geralmente são mais rápidas que computações exatas.
 
-As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatórios e suas fórmulas de cálculo, dependendo do tipo de entrega.
+As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatórios e suas fórmulas de cálculo, dependendo do tipo de delivery.
 
 ## Entrega por email {#email-delivery}
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etiqueta</strong><br /> </th> 
+   <th> <strong>Label</strong> <br /> </th> 
    <th> <strong>Nome do campo</strong> <br /> </th> 
    <th> <strong>Fórmula do cálculo de indicador</strong> <br /> </th> 
    <th> <strong>Comentários</strong><br /> </th> 
@@ -44,15 +47,15 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Lista negra<br /> </td> 
-   <td> @blacklisted<br /> </td> 
+   <td> Lista bloqueada<br /> </td> 
+   <td> @blocklisted<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Taxa da lista negra<br /> </td> 
-   <td> @rateBlacklisted<br /> </td> 
-   <td> @blacklisted/@send<br /> </td> 
+   <td> Taxa bloqueada<br /> </td> 
+   <td> @rateBlocklisted<br /> </td> 
+   <td> @blocklisted/@send<br /> </td> 
    <td> O denominador para cálculo de taxa é baseado na contagem de Enviados (Entregues + Rejeições).<br /> </td> 
   </tr> 
   <tr> 
@@ -116,13 +119,13 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Página de espelhamento<br /> </td> 
+   <td> Mirror page<br /> </td> 
    <td> @mirrorPage<br /> </td> 
    <td> count(@trackingUrlType=6)<br /> </td> 
    <td> O denominador para cálculo de taxa se baseia somente em Entregue.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Taxa de páginas espelhadas<br /> </td> 
+   <td> taxa de Mirror page<br /> </td> 
    <td> @rateMirrorPage<br /> </td> 
    <td> @mirrorPage/@entregue<br /> </td> 
    <td> </td> 
@@ -146,13 +149,13 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> O denominador para cálculo de taxa se baseia somente em Entregue.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Quarentena<br /> </td> 
-   <td> @quarentena<br /> </td> 
+   <td> Quarantine<br /> </td> 
+   <td> @quarantine<br /> </td> 
    <td> isQuarantine=true<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Taxa de quarentena<br /> </td> 
+   <td> taxa de Quarentena<br /> </td> 
    <td> @rateQuarantine<br /> </td> 
    <td> @quarentena/@enviado<br /> </td> 
    <td> O denominador para cálculo de taxa é baseado na contagem de Enviados (Entregues + Rejeições).<br /> </td> 
@@ -164,7 +167,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Taxa de rejeição<br /> </td> 
+   <td> taxa Rejeitada<br /> </td> 
    <td> @rateReject<br /> </td> 
    <td> @rejeição/@enviado<br /> </td> 
    <td> O denominador para cálculo de taxa é baseado na contagem de Enviados (Entregues + Rejeições).<br /> </td> 
@@ -231,7 +234,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etiqueta</strong><br /> </th> 
+   <th> <strong>Label</strong> <br /> </th> 
    <th> <strong>Nome do campo</strong> <br /> </th> 
    <th> <strong>Fórmula do cálculo de indicador</strong> <br /> </th> 
   </tr> 
@@ -280,7 +283,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
   <tr> 
    <td> Impressões exclusivas<br /> </td> 
    <td> @uniqueimpressões<br /> </td> 
-   <td> @unique(@count(status=view))<br /> </td> 
+   <td> @unique(@count(status=visualização))<br /> </td> 
   </tr> 
   <tr> 
    <td> Clique em<br /> </td> 
@@ -305,7 +308,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etiqueta</strong><br /> </th> 
+   <th> <strong>Label</strong> <br /> </th> 
    <th> <strong>Nome do campo</strong> <br /> </th> 
    <th> <strong>Fórmula do cálculo de indicador</strong> <br /> </th> 
    <th> <strong>Comentários</strong><br /> </th> 
@@ -327,14 +330,14 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
   <tr> 
    <td> Impressões<br /> </td> 
    <td> @impressões<br /> </td> 
-   <td> @count(status=view) ou @count(status=botão 1 clique + botão 2 clique + demissões)<br /> </td> 
+   <td> @count(status=visualização) ou @count(status=botão 1 clique + botão 2 clique + demissões)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> Impressões exclusivas<br /> </td> 
    <td> @uniqueimpressões<br /> </td> 
-   <td> @unique(@count(status=view))<br /> </td> 
-   <td> Para usuários do <span class="uicontrol">Target com base em seu modelo de perfil de Campanha (inAppProfile)</span> , usuário = ID do destinatário.<br /> Para <span class="uicontrol">direcionar todos os usuários de um aplicativo móvel (inAppBroadcast)</span> e usuários do <span class="uicontrol">Target com base em seus modelos de perfil móvel (inApp)</span> , usuário = MC Id ou equivalente que representa uma combinação exclusiva de usuário, aplicativo móvel e dispositivo.<br /> </td> 
+   <td> @unique(@count(status=visualização))<br /> </td> 
+   <td> Para usuários do <span class="uicontrol">Público alvo com base no modelo de perfil de Campanha (inAppProfile)</span> , usuário = ID do Recipient.<br /> Para <span class="uicontrol">Público alvo, todos os usuários de um aplicativo móvel (inAppBroadcast)</span> e usuários de <span class="uicontrol">Públicos alvos com base em seus modelos de perfil móvel (inApp)</span> , usuário = MC Id ou equivalente que representa uma combinação exclusiva de usuário, aplicativo móvel e dispositivo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Cliques no aplicativo <br /> </td> 
@@ -346,7 +349,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> Cliques únicos no aplicativo<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @unique(@count (status=cliques))<br /> </td> 
-   <td> Para usuários do <span class="uicontrol">Target com base em seu modelo de perfil de Campanha (inAppProfile)</span> , usuário = ID do destinatário.<br /> Para <span class="uicontrol">direcionar todos os usuários de um aplicativo móvel (inAppBroadcast)</span> e usuários do <span class="uicontrol">Target com base em seus modelos de perfil móvel (inApp)</span> , usuário = MC Id ou equivalente que representa uma combinação exclusiva de usuário, aplicativo móvel e dispositivo.<br /> </td> 
+   <td> Para usuários do <span class="uicontrol">Público alvo com base no modelo de perfil de Campanha (inAppProfile)</span> , usuário = ID do Recipient.<br /> Para <span class="uicontrol">Público alvo, todos os usuários de um aplicativo móvel (inAppBroadcast)</span> e usuários de <span class="uicontrol">Públicos alvos com base em seus modelos de perfil móvel (inApp)</span> , usuário = MC Id ou equivalente que representa uma combinação exclusiva de usuário, aplicativo móvel e dispositivo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taxa de cliques no aplicativo<br /> </td> 
@@ -364,7 +367,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> Despedimentos únicos no aplicativo<br /> </td> 
    <td> @uniquedismiss<br /> </td> 
    <td> @unique(@count (status=close))<br /> </td> 
-   <td> Para usuários do <span class="uicontrol">Target com base em seu modelo de perfil de Campanha (inAppProfile)</span> , usuário = ID do destinatário.<br /> Para <span class="uicontrol">direcionar todos os usuários de um aplicativo móvel (inAppBroadcast)</span> e usuários do <span class="uicontrol">Target com base em seus modelos de perfil móvel (inApp)</span> , usuário = MC Id ou equivalente que representa uma combinação exclusiva de usuário, aplicativo móvel e dispositivo.<br /> </td> 
+   <td> Para usuários do <span class="uicontrol">Público alvo com base no modelo de perfil de Campanha (inAppProfile)</span> , usuário = ID do Recipient.<br /> Para <span class="uicontrol">Público alvo, todos os usuários de um aplicativo móvel (inAppBroadcast)</span> e usuários de <span class="uicontrol">Públicos alvos com base em seus modelos de perfil móvel (inApp)</span> , usuário = MC Id ou equivalente que representa uma combinação exclusiva de usuário, aplicativo móvel e dispositivo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taxa de demissão no aplicativo<br /> </td> 
