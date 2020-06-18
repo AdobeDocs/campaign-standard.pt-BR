@@ -10,7 +10,10 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '1204'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <th>Nome</th>
                   <th>Rótulo</th>
                   <th>Tipo (comprimento)</th>
-                  <th>Valores de enumeração</th>
+                  <th>valores de Lista discriminada</th>
                </tr>
                <tr>
                   <td>PKey</td>
@@ -45,43 +48,43 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>blacklist</td>
+                  <td>blockList</td>
                   <td>Não mais entrar em contato (por qualquer canal)</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListEmail</td>
+                  <td>blockListEmail</td>
                   <td>Não mais contatar por e-mail</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListFax</td>
+                  <td>blockListFax</td>
                   <td>Não há mais contato por fax</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListMobile</td>
+                  <td>blockListMobile</td>
                   <td>Não mais contatar por SMS</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListPhone</td>
+                  <td>blockListPhone</td>
                   <td>Não há mais contato por telefone</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListPostalMail</td>
+                  <td>blockListPostalMail</td>
                   <td>Deixar de contactar por correio direto</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListPushnotification</td>
+                  <td>blockListPushnotification</td>
                   <td>Não há mais contato por notificação por push</td>
                   <td>booleano </td>
                   <td> </td>
@@ -100,7 +103,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>país (países)</td>
-                  <td>País</td>
+                  <td>Country</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -167,7 +170,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>gender</td>
                   <td>Sexo</td>
-                  <td>enumeração (byte) </td>
+                  <td>lista discriminada (byte) </td>
                   <td>
                      <ul>
                         <li>Não especificado - desconhecido - 0</li>
@@ -203,14 +206,14 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>localização</td>
-                  <td>Localização</td>
+                  <td>Local</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>middleName</td>
                   <td>Nome do meio</td>
-                  <td>string (30)</td>
+                  <td>string (50)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -264,7 +267,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>timeZone</td>
                   <td>Fuso horário</td>
-                  <td>enumeration (string) (64)</td>
+                  <td>lista discriminada (string) (64)</td>
                   <td>
                      <ul>
                         <li>(GMT-02:00) Atlântico Central - Atlantic_South_Georgia - Atlantic/South_Georgia</li>
@@ -347,12 +350,12 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                         <li>(GMT+03:00) Koweït, Riad - Asia_Riyadh - Ásia/Riade</li>
                         <li>(GMT-08:00) Tempo Médio de Greenwich menos 8 horas - Gmt_m8 - Etc/GMT+8</li>
                         <li>(GMT-01:00) Açores - Atlântico_Açores - Atlântico/Açores</li>
-                        <li>(GMT+07:00) Bangkok, Hanói, Jacarta - Asia_Bangkok - Ásia/Bangkok</li>
+                        <li>(GMT+07:00) Bangkok, Hanói, Djakarta - Asia_Bangkok - Ásia/Bangkok</li>
                         <li>(GMT) Monróvia - África_Monróvia - África/Monróvia</li>
                         <li>(GMT-09:00) Alasca - America_Anchorage - America/Anchorage</li>
                         <li>(GMT+01:00) Belgrado, Bratislava, Budapeste, Liubliana, Praga - Europe_Belgrado - Europa/Belgrado</li>
                         <li>(GMT) Reykjavik - Atlantic_Reykjavik - Atlantic/Reykjavik</li>
-                        <li>(GMT+02:00) Restauro - Europa_Bucareste - Europa/Bucareste</li>
+                        <li>(GMT+02:00) Resto do edifício - Europa_Bucareste - Europa/Bucareste</li>
                         <li>(GMT+05:00) Tempo Médio de Greenwich mais 5 horas - Gmt_p5 - Etc/GMT-5</li>
                         <li>(GMT+04:00) Tempo Médio de Greenwich mais 4 horas - Gmt_p4 - Etc/GMT-4</li>
                         <li>(GMT+07:00) Tempo Médio de Greenwich mais 7 horas - Gmt_p7 - Etc/GMT-7</li>
@@ -420,7 +423,7 @@ Aniversário (aniversário)
 </tr>
 <tr>
 <td>precisão</td>
-<td>enumeração</td>
+<td>lista discriminada</td>
 </tr>
 <tr>
 <td>relativeValue</td>
@@ -432,7 +435,7 @@ Aniversário (aniversário)
 </tr>
 <tr>
 <td>operador</td>
-<td>enumeração</td>
+<td>lista discriminada</td>
 </tr>
 <tr>
 <td>includeEnd</td>
@@ -444,7 +447,7 @@ Aniversário (aniversário)
 </tr>
 <tr>
 <td>type</td>
-<td>enumeração</td>
+<td>lista discriminada</td>
 </tr>
 <tr>
 <td>dia</td>
@@ -478,7 +481,7 @@ Por chaves (byKeysProfile)
 </tr>
 </table>
 
-Por nome ou email (por texto)
+Por nome ou e-mail (por texto)
 
 <table>
 <tr>
@@ -491,7 +494,7 @@ Por nome ou email (por texto)
 </tr>
 </table>
 
-Por público-alvo estático (porStaticAudience)
+Por audiência estática (porStaticAudience)
 
 <table>
 <tr>
@@ -512,7 +515,7 @@ Clicado (hasClickedDelivery)
 <th>Tipo</th>
 </tr>
 <tr>
-<td>entrega</td>
+<td>delivery</td>
 <td>link</td>
 </tr>
 </table>
@@ -525,7 +528,7 @@ Aberto (hasOpenedDelivery)
 <th>Tipo</th>
 </tr>
 <tr>
-<td>entrega</td>
+<td>delivery</td>
 <td>link</td>
 </tr>
 </table>
@@ -551,7 +554,7 @@ Recebido (hasReceivedDelivery)
 <th>Tipo</th>
 </tr>
 <tr>
-<td>entrega</td>
+<td>delivery</td>
 <td>link</td>
 </tr>
 </table>
