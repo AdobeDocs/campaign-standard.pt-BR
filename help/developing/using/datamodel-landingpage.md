@@ -13,7 +13,10 @@ context-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '1727'
+ht-degree: 2%
 
 ---
 
@@ -27,7 +30,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
          <th>Nome</th>
          <th>Rótulo</th>
          <th>Tipo (comprimento)</th>
-         <th>Valores de enumeração</th>
+         <th>valores de Lista discriminada</th>
       </tr>
       <tr>
          <td>PKey</td>
@@ -72,14 +75,14 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
          <td> </td>
       </tr>
       <tr>
-         <td>campaign (campaignBase)</td>
-         <td>Campaign</td>
+         <td>campanha (campaignBase)</td>
+         <td>Campanha</td>
          <td>link </td>
          <td> </td>
       </tr>
       <tr>
          <td>closedLog</td>
-         <td>Registro "Página de aterrissagem fechada"</td>
+         <td>Registro 'Landing page fechada'</td>
          <td>string </td>
          <td> </td>
       </tr>
@@ -110,7 +113,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       <tr>
          <td>defaultLanguage</td>
          <td>Idioma padrão</td>
-         <td>enumeration (string) (255)</td>
+         <td>lista discriminada (string) (255)</td>
          <td>
             <ul>
                <li>Grego - el - el</li>
@@ -162,7 +165,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
          </td>
       </tr>
       <tr>
-         <td>defaultOrigin (entrega)</td>
+         <td>defaultOrigin (delivery)</td>
          <td>Fonte de tráfego</td>
          <td>link </td>
          <td> </td>
@@ -176,7 +179,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       <tr>
          <td>designLanguage</td>
          <td>Idioma de design</td>
-         <td>enumeration (string) (255)</td>
+         <td>lista discriminada (string) (255)</td>
          <td>
             <ul>
                <li>Grego - el - el</li>
@@ -283,7 +286,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       </tr>
       <tr>
          <td>isTemplate</td>
-         <td>Modelo</td>
+         <td>Template</td>
          <td>booleano </td>
          <td> </td>
       </tr>
@@ -326,7 +329,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       <tr>
          <td>logicalStatus</td>
          <td>Status de execução</td>
-         <td>enumeration (string) (255)</td>
+         <td>lista discriminada (string) (255)</td>
          <td>
             <ul>
                <li>Em andamento - iniciado - iniciado</li>
@@ -340,13 +343,13 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       </tr>
       <tr>
          <td>messageAction</td>
-         <td>Iniciar envio de mensagem</td>
+         <td>Mensagem de envio do Start</td>
          <td>booleano </td>
          <td> </td>
       </tr>
       <tr>
          <td>messageActionDelivery (deliveryMCTemplateBase)</td>
-         <td>Mensagem transacional</td>
+         <td>Mensagen transacional</td>
          <td>link </td>
          <td> </td>
       </tr>
@@ -375,7 +378,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
          <td> </td>
       </tr>
       <tr>
-         <td>program (programBase)</td>
+         <td>programa (programBase)</td>
          <td>Programa</td>
          <td>link </td>
          <td> </td>
@@ -400,14 +403,14 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       </tr>
       <tr>
          <td>validationFilterMapping</td>
-         <td>Parâmetros da chave de reconciliação</td>
+         <td>Parâmetros de Chave de reconciliação</td>
          <td>coleção </td>
          <td> </td>
       </tr>
       <tr>
          <td>validationUpdateStrategy</td>
          <td>Atualizar estratégia</td>
-         <td>enumeração (byte) </td>
+         <td>lista discriminada (byte) </td>
          <td>
             <ul>
                <li>Atualização - updateTarget - 1</li>
@@ -418,21 +421,21 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       </tr>
       <tr>
          <td>service (serviceBase)</td>
-         <td>Serviço de assinatura</td>
+         <td>Subscrição no serviço</td>
          <td>link </td>
          <td> </td>
       </tr>
       <tr>
          <td>specificAction</td>
          <td>Ação específica</td>
-         <td>enumeração (byte) </td>
+         <td>lista discriminada (byte) </td>
          <td>
             <ul>
-               <li>Lista negra - Lista negra - 3</li>
+               <li>Lista de bloqueios - blockList - 3</li>
                <li>Nenhuma ação específica - nenhuma - 0</li>
-               <li>Cancelar assinatura - cancelar assinatura - 2</li>
+               <li>Unsubscription - unsubscription - 2</li>
                <li>VALOR INVÁLIDO - __Valor_inválido__ - __Valor_inválido__</li>
-               <li>Assinatura - assinatura - 1</li>
+               <li>Subscrição - subscrição - 1</li>
             </ul>
          </td>
       </tr>
@@ -445,7 +448,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       <tr>
          <td>estado</td>
          <td>Status</td>
-         <td>enumeração (byte) </td>
+         <td>lista discriminada (byte) </td>
          <td>
             <ul>
                <li>Edição - editar - 0</li>
@@ -458,13 +461,13 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       </tr>
       <tr>
          <td>targetResource</td>
-         <td>Dimensão de definição de metas</td>
+         <td>Targeting dimension</td>
          <td>string (255)</td>
          <td> </td>
       </tr>
       <tr>
          <td>template (landingPage)</td>
-         <td>Modelo de página de aterrissagem</td>
+         <td>modelo de Landing page</td>
          <td>link </td>
          <td> </td>
       </tr>
@@ -483,7 +486,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       <tr>
          <td>fuso horário</td>
          <td>Fuso horário</td>
-         <td>enumeration (string) (64)</td>
+         <td>lista discriminada (string) (64)</td>
          <td>
             <ul>
                <li>(GMT-02:00) Atlântico Central - Atlantic_South_Georgia - Atlantic/South_Georgia</li>
@@ -569,12 +572,12 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <li>(GMT+03:00) Koweït, Riad - Asia_Riyadh - Ásia/Riade</li>
                <li>(GMT-08:00) Tempo Médio de Greenwich menos 8 horas - Gmt_m8 - Etc/GMT+8</li>
                <li>(GMT-01:00) Açores - Atlântico_Açores - Atlântico/Açores</li>
-               <li>(GMT+07:00) Bangkok, Hanói, Jacarta - Asia_Bangkok - Ásia/Bangkok</li>
+               <li>(GMT+07:00) Bangkok, Hanói, Djakarta - Asia_Bangkok - Ásia/Bangkok</li>
                <li>(GMT) Monróvia - África_Monróvia - África/Monróvia</li>
                <li>(GMT-09:00) Alasca - America_Anchorage - America/Anchorage</li>
                <li>(GMT+01:00) Belgrado, Bratislava, Budapeste, Liubliana, Praga - Europe_Belgrado - Europa/Belgrado</li>
                <li>(GMT) Reykjavik - Atlantic_Reykjavik - Atlantic/Reykjavik</li>
-               <li>(GMT+02:00) Restauro - Europa_Bucareste - Europa/Bucareste</li>
+               <li>(GMT+02:00) Resto do edifício - Europa_Bucareste - Europa/Bucareste</li>
                <li>(GMT+05:00) Tempo Médio de Greenwich mais 5 horas - Gmt_p5 - Etc/GMT-5</li>
                <li>(GMT+04:00) Tempo Médio de Greenwich mais 4 horas - Gmt_p4 - Etc/GMT-4</li>
                <li>(GMT+07:00) Tempo Médio de Greenwich mais 7 horas - Gmt_p7 - Etc/GMT-7</li>
@@ -609,13 +612,13 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       </tr>
       <tr>
          <td>título</td>
-         <td>Página de aterrissagem</td>
+         <td>Landing page</td>
          <td>string (255)</td>
          <td> </td>
       </tr>
       <tr>
          <td>trackingEnabled</td>
-         <td>Registrar respostas</td>
+         <td>Rastrear respostas</td>
          <td>booleano </td>
          <td> </td>
       </tr>
@@ -628,15 +631,15 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       <tr>
          <td>type</td>
          <td>Tipo</td>
-         <td>enumeração (byte) </td>
+         <td>lista discriminada (byte) </td>
          <td>
             <ul>
                <li>Genérico - genérico - 0</li>
-               <li>Cancelar assinatura de um serviço - cancelar assinatura - 3</li>
-               <li>Lista negra - Lista negra - 4</li>
+               <li>Unsubscription de um serviço - unsubscription - 3</li>
+               <li>Lista de bloqueios - blockList - 4</li>
                <li>VALOR INVÁLIDO - __Valor_inválido__ - __Valor_inválido__</li>
                <li>Aquisição - aquisição - 1</li>
-               <li>Assinatura de um serviço - assinatura - 2</li>
+               <li>Subscrição a um serviço - subscrição - 2</li>
             </ul>
          </td>
       </tr>
@@ -665,7 +668,7 @@ Por status lógico (byLogicalStatus)
     </tr>
     <tr>
     <td>estado</td>
-    <td>enumeração</td>
+    <td>lista discriminada</td>
     </tr>
 </table>
 
@@ -691,7 +694,7 @@ Por status (por estado)
     </tr>
     <tr>
     <td>estado</td>
-    <td>enumeração</td>
+    <td>lista discriminada</td>
     </tr>
 </table>
 
@@ -708,7 +711,7 @@ Por recurso de definição de metas (byTargetResource)
 </tr>
 </table>
 
-Incluir páginas iniciais avançadas (comAdvanced)
+Incluir landings page avançadas (comAdvanced)
 
 <table>
     <tr>
@@ -721,7 +724,7 @@ Incluir páginas iniciais avançadas (comAdvanced)
     </tr>
 </table>
 
-Incluir entregas contínuas de uma lista heterogênea (com Contínuo)
+Incluir delivery contínuos de uma lista heterogênea (comContínuo)
 
 <table>
         <tr>
