@@ -12,9 +12,9 @@ discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '220'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 Há suporte para trocas de arquivos simples com provedores de mala direta incorporando informações de Retorno ao remetente. Isso permite que endereços postais correspondentes sejam excluídos de futuras comunicações. Isso também permite que você seja notificado sobre um endereço incorreto e interaja com o cliente por meio de outros canais ou para incentivá-lo a atualizar seu endereço postal.
 
-Por exemplo, um contato mudou-se para um novo local e não lhe forneceu seu novo endereço postal. O provedor recupera a lista de endereços incorretos e envia essas informações para o Adobe Campaign que automaticamente faz a lista negra dos endereços incorretos.
+Por exemplo, um contato mudou-se para um novo local e não lhe forneceu seu novo endereço postal. O provedor recupera a lista de endereços errôneos e envia essas informações para a Adobe Campaign que adiciona automaticamente à lista de blocos os endereços errados.
 
 Para que essa funcionalidade funcione, o template do delivery padrão de mala direta inclui, no conteúdo, a ID de log de delivery. Assim, o Adobe Campaign poderá sincronizar os dados do perfil e do delivery com as informações retornadas pelo provedor.
 
@@ -36,7 +36,7 @@ Um template de importação está disponível em **[!UICONTROL Adobe Campaign > 
 
 Quando a importação é feita, o Adobe Campaign executa automaticamente as seguintes ações:
 
-* Endereços incorretos são incluído na blacklist no nível do perfil
+* Endereços incorretos são adicionados à lista de blocos no nível do perfil
 * Os indicadores principais do delivery (KPIs) são atualizados
 * Os logs do delivery são atualizados
 
