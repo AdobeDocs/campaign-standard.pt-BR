@@ -12,9 +12,9 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
 workflow-type: tm+mt
-source-wordcount: '4623'
+source-wordcount: '4631'
 ht-degree: 6%
 
 ---
@@ -53,7 +53,7 @@ Visualização as atualizações [mais recentes da](../../rn/using/documentation
 
 **Correções**
 
-_Plataforma_
+_Platform_
 
 * Correção de um problema que impedia que arquivos compactados grandes fossem descompactados corretamente.
 * A segurança no gerenciamento de marcas foi aprimorada. A modificação do nome e endereço do remetente de uma marca agora está reservada para administradores técnicos da Adobe.
@@ -80,7 +80,7 @@ _Notificações por push_
 _Relatórios_
 
 * Correção de um problema que impedia que as porcentagens de cliques ativos fossem exibidas no conteúdo do email.
-* Correção de um problema com a métrica da lista negra que era contada como uma rejeição em vez de uma rejeição.
+* Correção de um problema com a métrica da lista de blocos que era contada como uma rejeição em vez de uma rejeição.
 * Correção de um problema que resultava na exibição de contagens negativas em dados de resumo.
 * Correção de um problema que contava perfis no segmento de idade errado.
 * As fórmulas de cálculo de rejeição flexível e rígida foram alteradas.
@@ -136,9 +136,9 @@ _Recursos personalizados_
 
 **Correções**
 
-_Plataforma_
+_Platform_
 
-* Alguns clientes precisam aproveitar uma ID proveniente do Adobe Campaign Standard, pois não gerenciam uma chave exclusiva para identificar seus próprios registros. Essa ID (ID **** ACS) pode ser exportada e usada como uma chave de reconciliação ao atualizar os dados. Para obter mais informações, consulte a [documentação detalhada](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
+* Alguns clientes precisam ser capazes de aproveitar uma ID proveniente do Adobe Campaign Standard, pois não gerenciam uma chave exclusiva para identificar seus próprios registros. Essa ID (ID **** ACS) pode ser exportada e usada como uma chave de reconciliação ao atualizar os dados. Para obter mais informações, consulte a [documentação detalhada](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 * O protocolo FTP está sendo substituído. Agora você deve usar o SFTP. Para não bloquear implementações existentes, as configurações existentes no FTP ainda funcionarão como antes, mas a opção não será exibida para novas atividades.
 
 _Emails, mensagens SMS e mala direta_
@@ -171,7 +171,7 @@ _Workflows_
 
 _Integrações_
 
-* As eVars e eventos agora são compatíveis com a integração do Analytics e da Campanha.
+* As eVars e eventos agora são compatíveis com a integração Analytics e Campaign.
 * Ao enviar um email com o conteúdo do carrinho abandonado, o parâmetro de carga para elementos removidos do carrinho agora é opcional.
 
 _Perfis e públicos-alvo_
@@ -197,19 +197,19 @@ _Perfis e públicos-alvo_
   </tr> 
   <tr> 
    <td> Notificações de Adobe Campaign<br /> </td> 
-   <td> Receba notificações sobre atividades importantes do sistema diretamente no Adobe Campaign Standard. Você será notificado, por exemplo, sobre o progresso de seus delivery em andamento ou quando um fluxo de trabalho estiver com erro.<br /> As notificações em tempo real mantêm as partes interessadas relevantes informadas e fornecem aos usuários a capacidade de agir imediata e diretamente nas notificações de atividade no aplicativo. O resultado para as equipes é agilidade avançada, eficiência e execução mais suave do campanha. Para obter mais informações, consulte a <a href="../../administration/using/sending-internal-notifications.md">documentação detalhada</a>.<br /> </td> 
+   <td> Receba notificações relacionadas a atividades importantes do sistema diretamente no Adobe Campaign Standard. Você será notificado, por exemplo, sobre o progresso de seus delivery em andamento ou quando um fluxo de trabalho estiver com erro.<br /> As notificações em tempo real mantêm as partes interessadas relevantes informadas e fornecem aos usuários a capacidade de agir imediata e diretamente nas notificações de atividade no aplicativo. O resultado para as equipes é agilidade avançada, eficiência e execução mais suave do campanha. Para obter mais informações, consulte a <a href="../../administration/using/sending-internal-notifications.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Alerta de Delivery<br /> </td> 
-   <td> Além de visualizar notificações diretamente no Adobe Campaign Standard, o Adobe Campaign agora também fornece um sistema de alerta por email para acionar alertas por email para usuários ou participantes externos de atividades importantes do sistema. Crie, gerencie e receba painéis e alertas personalizáveis para rastrear sucessos ou falhas de delivery.<br /> O Alerta de Delivery do Adobe Campaign aumenta a eficiência, mantendo todos os usuários envolvidos do Adobe Campaign em uma empresa automaticamente informados sobre o status de execução do delivery, por email e painel. Para obter mais informações, consulte a <a href="../../sending/using/receiving-alerts-when-failures-happen.md">documentação detalhada</a>.<br /> </td> 
+   <td> Além de visualizar notificações diretamente no Adobe Campaign Standard, o Adobe Campaign agora também fornece um sistema de alerta por email para acionar alertas por email a usuários ou participantes externos de atividades importantes do sistema. Crie, gerencie e receba painéis e alertas personalizáveis para rastrear sucessos ou falhas de delivery.<br /> O Alerta de Delivery do Adobe Campaign aumenta a eficiência, mantendo todos os usuários envolvidos do Adobe Campaign em uma empresa automaticamente informados sobre o status de execução do delivery, por email e painel. Para obter mais informações, consulte a <a href="../../sending/using/receiving-alerts-when-failures-happen.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> ID declarada criptografada em fontes de dados<br /> </td> 
-   <td> Envie acionadores de email e SMS sem precisar de um perfil existente na Campanha usando informações de contato criptografadas (endereço de email ou número de telefone) como uma ID declarada. Como as IDs declaradas criptografadas podem ser decodificadas pelo Adobe Campaign Standard, a Campanha agora pode criar novos perfis comercializáveis ao receber audiências de outras soluções da Experience Cloud que contenham contatos desconhecidos anteriormente.<br /> Clientes de Públicos alvos e prospectos desconhecidos em tempo real por meio de email e SMS para melhorar a fidelidade em sua base de clientes existente e adquirir novos clientes, respectivamente. Aproveite ao máximo seus dados de cookies originais (do Adobe Audiência Manager*) uma vez que os prospectos autenticarem e aproveitarem esses insights no Adobe Campaign. <br /> *O Adobe Audiência Manager é necessário. Para obter mais informações, consulte a <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">documentação detalhada</a>.<br /> </td> 
+   <td> Envie acionadores de email e SMS sem precisar de um perfil existente na Campanha usando informações de contato criptografadas (endereço de email ou número de telefone) como uma ID declarada. Como as IDs declaradas criptografadas podem ser decodificadas pelo Adobe Campaign Standard, a Campanha agora pode criar novos perfis comercializáveis ao receber audiências de outras soluções Experience Cloud que contenham contatos desconhecidos anteriormente.<br /> Clientes de Públicos alvos e prospectos desconhecidos em tempo real por meio de email e SMS para melhorar a fidelidade em sua base de clientes existente e adquirir novos clientes, respectivamente. Aproveite ao máximo seus dados de cookies primários (do Adobe Audience Manager*) uma vez que os prospectos autenticarem e aproveitarem esses insights no Adobe Campaign. <br /> *Adobe Audience Manager é necessário. Para obter mais informações, consulte a <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Compartilhamento de KPI da Campanha para o Analytics<br /> </td> 
-   <td> Compartilhe dados de campanha com o Adobe Analytics para medir as métricas de marketing por email da Campanha, juntamente com outros esforços de marketing e publicidade por meio da conversão, unificando o comportamento pré e pós-clique.<br /> Acompanhe diretamente o desempenho geral e descubra sinergias com programas externos no Analytics. Aplique seu aprendizado desta visualização consolidada de volta às suas campanhas; melhorando, em última análise, o desempenho aberto, de click-through e taxas de conversão, aumentando a receita e o desempenho geral da campanha. <br /> O Adobe Analytics é obrigatório. Para obter mais informações, consulte a <a href="../../integrating/using/about-campaign-analytics-integration.md">documentação detalhada</a>.<br /> </td> 
+   <td> Compartilhe dados de campanha com a Adobe Analytics para medir métricas de marketing por email da Campanha, juntamente com outros esforços de marketing e publicidade por meio da conversão, unificando o comportamento pré e pós-clique.<br /> Acompanhe diretamente o desempenho geral e descubra sinergias com programas externos na Analytics. Aplique seu aprendizado desta visualização consolidada de volta às suas campanhas; melhorando, em última análise, o desempenho aberto, de click-through e taxas de conversão, aumentando a receita e o desempenho geral da campanha. <br /> O Adobe Analytics é obrigatório. Para obter mais informações, consulte a <a href="../../integrating/using/about-campaign-analytics-integration.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Canal De Mala Direta - Retornar Ao Remetente<br /> </td> 
@@ -269,7 +269,7 @@ _Workflows_
  <tbody> 
   <tr> 
    <td> Correspondência direta<br /> </td> 
-   <td> Quebre a barreira digital e conecte-se ao mundo físico com o primeiro canal offline do Adobe Campaign Standard, Mala direta. Esse recurso permite que você personalize e gere o arquivo necessário para provedores de mala direta como parte de suas campanhas entre canais. Aproveite a Mala direta para envolver novamente os clientes ou aprimorar a experiência do cliente com um ponto de contato atraente e tátil, levando os clientes ao seu aplicativo, site ou loja.<br /> Para obter mais informações, consulte a <a href="../../channels/using/about-direct-mail.md">documentação detalhada</a>.<br /> </td> 
+   <td> Atravesse a barreira digital e conecte-se ao mundo físico com o primeiro canal offline do Adobe Campaign Standard, Mala direta. Esse recurso permite que você personalize e gere o arquivo necessário para provedores de mala direta como parte de suas campanhas entre canais. Aproveite a Mala direta para envolver novamente os clientes ou aprimorar a experiência do cliente com um ponto de contato atraente e tátil, levando os clientes ao seu aplicativo, site ou loja.<br /> Para obter mais informações, consulte a <a href="../../channels/using/about-direct-mail.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Cco de email<br /> </td> 
@@ -339,7 +339,7 @@ _Notificações por push_
 
 **Correções**
 
-_Plataforma_
+_Platform_
 
 * Corrigido um problema de consumo de memória.
 
@@ -440,7 +440,7 @@ _Notificações por push_
   </tr> 
   <tr> 
    <td> Dados de Pontos de interesse<br /> </td> 
-   <td> Os dados de Pontos de interesse integram o Adobe Campaign com o Adobe Analytics para dispositivos móveis. Uma marca pode coletar dados dos locais móveis dos usuários - chamados de <strong>Pontos de interesse</strong> - quando eles abrem o aplicativo da marca. Isso permite que a marca utilize workflows Adobe Campaign para enviar mensagens personalizadas com base na localização dos usuários. Esse canal aproveita o SDK do serviço principal do Mobile.<br /> Observe que o uso desse recurso exige o Analytics para dispositivos móveis, que é uma solução paga.<br /> Para obter mais informações, consulte a <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">documentação detalhada</a>.<br /> </td> 
+   <td> Os dados de Pontos de interesse integram o Adobe Campaign com a Adobe Analytics for Mobile. Uma marca pode coletar dados dos locais móveis dos usuários - chamados de <strong>Pontos de interesse</strong> - quando eles abrem o aplicativo da marca. Isso permite que a marca utilize workflows Adobe Campaign para enviar mensagens personalizadas com base na localização dos usuários. Esse canal aproveita o SDK do serviço principal do Mobile.<br /> Observe que o uso desse recurso exige o Analytics for Mobile, que é uma solução paga.<br /> Para obter mais informações, consulte a <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> REST APIs<br /> </td> 
@@ -494,7 +494,7 @@ _Workflows_
    <td> Capacidades de marketing para mensagens transacionais<br /> </td> 
    <td> Os profissionais de marketing agora podem enviar mensagens transacionais com base em perfis de marketing do cliente. Isso permite que eles:<br /> 
     <ul> 
-     <li> Aplique regras de tipologia de marketing, como endereço <span class="uicontrol"></span> Incluído na blacklist. </li> 
+     <li> Aplique regras de tipologia de marketing como <span class="uicontrol">Endereço na lista</span> de blocos. </li> 
      <li> Inclua o link de unsubscription nas mensagens. </li> 
      <li> Adicione os mensagens transacionais ao relatórios global do delivery. </li> 
      <li> Aproveite os mensagens transacionais na jornada do cliente. </li> 
@@ -530,7 +530,7 @@ _Notificações por push_
 * Correção de um problema que pode ter impedido o postback de um aplicativo para o servidor Adobe Campaign.
 * Correção de um problema que pode ter impedido **[!UICONTROL Play a sound]** e **[!UICONTROL Custom fields]** sido considerado para Android.
 * Correção de um problema que resultava na adição de um caractere de escape extra a caracteres Unicode usados para Emojis.
-* Quando o token de registro de um assinante fica incluído na blacklist, o status correspondente agora é imediatamente atualizado na lista de assinantes do aplicativo no Adobe Campaign.
+* Quando o token de registro de um assinante é adicionado à lista de blocos, o status correspondente agora é imediatamente atualizado na lista de assinantes do aplicativo no Adobe Campaign.
 
 _Workflows_
 
@@ -542,7 +542,7 @@ _Workflows_
 
 _Integrações_
 
-* Correção de um problema que pode ter causado um erro ao implantar um acionador de evento no Adobe Campaign. Esse erro ocorria quando os metadados &quot;Probabilidade de retornar em 30 dias&quot; eram adicionados ao acionador de Abandono na Adobe Marketing Cloud.
+* Correção de um problema que pode ter causado um erro ao implantar um acionador de evento no Adobe Campaign. Esse erro ocorria quando os metadados &quot;Probancy to Return in 30 Days&quot; eram adicionados ao acionador de Abandono no Adobe Marketing Cloud.
 * Corrigido um problema que fazia com que o fluxo de trabalho técnico limpasse o campo Dimensão do Público alvo ao importar audiências do serviço principal de Pessoas. Os query subsequentes não puderam recuperar as audiências importadas.
 * Correção de um problema que resultava na falha da **[!UICONTROL Save audience]** atividade de um fluxo de trabalho quando a opção **[!UICONTROL Share in Adobe Marketing Cloud]** era marcada.
 
