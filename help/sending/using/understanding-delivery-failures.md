@@ -12,10 +12,10 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d05d2692607117e056c360e81d85b7d64c4077a3
+source-git-commit: ecb57ccc4cafa609f7ddccb5f934aa3ab2368dde
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 28%
+source-wordcount: '1289'
+ht-degree: 26%
 
 ---
 
@@ -32,14 +32,14 @@ Quando um delivery não pode ser enviado para um perfil, o servidor remoto envia
 >
 >**Mensagens de erro de SMS (ou &quot;SR&quot; para &quot;Relatório de Status&quot;) são qualificadas pelo processo MTA.**
 
-As mensagens também podem ser excluídas durante a preparação do delivery se um endereço estiver em quarentena ou se um perfil for incluído na blacklist. As mensagens excluídas são listadas na **[!UICONTROL Exclusion logs]** guia do painel do delivery (consulte [esta seção](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
+As mensagens também podem ser excluídas durante a preparação do delivery se um endereço estiver em quarentena ou se um perfil estiver na lista de blocos. As mensagens excluídas são listadas na **[!UICONTROL Exclusion logs]** guia do painel do delivery (consulte [esta seção](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
 ![](assets/exclusion_logs.png)
 
 **Tópicos relacionados:**
 
 * [Noções básicas sobre gestão de quarentena](../../sending/using/understanding-quarantine-management.md)
-* [Gerenciamento de listas negras em Campanhas](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Sobre participação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 ## Como identificar falhas de delivery para uma mensagem {#identifying-delivery-failures-for-a-message}
 
@@ -69,8 +69,8 @@ Os possíveis motivos para uma falha de delivery são:
 | **[!UICONTROL Refused]** | Suave/Grave | O endereço foi colocado em quarentena devido a um feedback de segurança como um relatório de spam. De acordo com o erro retornado pelo provedor, o endereço será enviado diretamente para a quarentena ou o delivery será tentado novamente até que a Campanha receba um erro que justifique o status da Quarentena ou até que o número de erros atinja 5. |
 | **[!UICONTROL Duplicate]** | Ignored | O endereço já foi detectado na segmentação. |
 | **[!UICONTROL Not defined]** | Suave | o endereço está em qualificação porque os erros ainda não foram aumentados. Esse tipo de erro ocorre quando uma nova mensagem de erro é enviada pelo servidor: pode ser um erro isolado, mas se ocorrer novamente, o contador de erros aumentará, o que alertará as equipes técnicas. |
-| **[!UICONTROL Error ignored]** | Ignored | O endereço está na lista de permissões e um e-mail será enviado para ele em qualquer caso. |
-| **[!UICONTROL Blacklisted address]** | Grave | o endereço era incluído na blacklist no momento do envio. |
+| **[!UICONTROL Error ignored]** | Ignored | O endereço está na lista de permissão e um email será enviado para ele em qualquer caso. |
+| **[!UICONTROL Address on block list]** | Grave | O endereço foi adicionado à lista de blocos no momento do envio. |
 | **[!UICONTROL Account disabled]** | Suave/Grave | Quando o Provedor de Acesso à Internet (IAP) detecta um longo período de inatividade, ele pode fechar a conta do usuário: delivery para o endereço do usuário serão impossíveis. O tipo Soft ou Hard depende do tipo de erro recebido: se a conta estiver temporariamente desativada devido a seis meses de inatividade e ainda puder ser ativada, o status **[!UICONTROL Erroneous]** será atribuído e o delivery será tentado novamente. Se o erro recebido indicar que a conta está permanentemente desativada, então ela será enviada diretamente para a Quarentena. |
 | **[!UICONTROL Not connected]** | Ignored | O telefone móvel do perfil é desligado ou não está conectado à rede quando a mensagem é enviada. |
 | **[!UICONTROL Invalid domain]** | Suave | O domínio do endereço de email está incorreto ou não existe mais. Este perfil será alvo novamente até que a contagem de erros chegue a 5. Após isso, o registro será definido como Status de Quarentena e não haverá nenhuma tentativa nova. |
