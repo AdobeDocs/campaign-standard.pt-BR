@@ -13,7 +13,10 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '233'
+ht-degree: 12%
 
 ---
 
@@ -25,7 +28,7 @@ A Campanha vem com um conjunto de modelos de landing page incorporados:
 * **[!UICONTROL Acquisition]**: este é o modelo padrão do landing page, que permite capturar e atualizar dados no banco de dados do Campaign.
 * **[!UICONTROL Subscription]**: este modelo deve ser usado para oferta de subscrições a um serviço.
 * **[!UICONTROL Unsubscription]**: este modelo pode ser vinculado a partir de um email enviado aos assinantes para um serviço, para permitir que eles cancelem a assinatura deste serviço.
-* **[!UICONTROL Blacklist]**: esse modelo deve ser usado quando um perfil não quiser mais ser contatado pela Campanha. Para obter mais informações sobre a lista negra, consulte [Sobre aceitação e não participação na Campanha](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* **[!UICONTROL Block list]**: esse modelo deve ser usado quando um perfil não quiser mais ser contatado pela Campanha. Para obter mais informações sobre o gerenciamento de listas de blocos, consulte [Sobre aceitação e não participação na Campanha](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 Esses modelos são propostos por padrão ao criar uma nova landing page.
 
