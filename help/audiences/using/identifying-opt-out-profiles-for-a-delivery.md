@@ -1,27 +1,30 @@
 ---
 title: Identificar perfis de não participação para uma entrega
-description: Descubra como identificar perfis de opção para uma entrega.
-page-status-flag: nunca ativado
+description: Descubra como identificar perfis de não participação para um delivery.
+page-status-flag: never-activated
 uuid: ad09a4d3-7ad6-47b8-9c56-73bbaba6fa60
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: referência
-topic-tags: processos de aceitação-participação e opção-não-participação
+content-type: reference
+topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 896859da-a230-4f13-9b1f-cbff34b3c0e0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 41%
 
 ---
 
 
 # Identificar perfis de não participação para uma entrega{#identifying-opt-out-profiles-for-a-delivery}
 
-Os perfis de recusa para uma entrega específica são listados após a fase de preparação, na **[!UICONTROL Exclusion logs]** guia do painel de entrega.
+Os perfis de opção de não participação para um delivery específico são listados após a fase de preparação, na **[!UICONTROL Exclusion logs]** guia do painel do delivery.
 
-![](assets/exclusion_blacklisting.png)
+![](assets/exclusion_blocklisting.png)
 
 **Tópicos relacionados:**
 
