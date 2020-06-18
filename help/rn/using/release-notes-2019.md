@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
 workflow-type: tm+mt
-source-wordcount: '7621'
+source-wordcount: '7626'
 ht-degree: 5%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 5%
     <li><p>Ao criar uma solicitação de privacidade, o tipo de regulamento (RGPD ou CCPA) foi adicionado ao Privacy Core Service. Este método é o que você deve usar para todas as solicitações de acesso e exclusão. O uso da API de Campanha e da interface para acessar e excluir solicitações está obsoleto.  Consulte o artigo <a href="https://helpx.adobe.com/br/campaign/kb/acs-deprecated-and-removed-features.html">Recursos removidos e</a>obsoletos.</p></li>
     <li>Um campo <strong>CCPA Opt-Out</strong> foi adicionado ao recurso de Perfis para permitir que os usuários do Adobe Campaign rastreiem se um consumidor optou pela venda de Informações pessoais. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">Saiba mais</a>.</li>
   </ul>
-    <p>Consulte o vídeo <a href="https://docs.adobe.com/content/help/pt-BR/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">como fazer</a>.</p>
+    <p>Consulte o vídeo <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">como fazer</a>.</p>
 </td> 
   </tr> 
  </tbody> 
@@ -164,7 +164,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td> Atividade de API externa (beta público)<br /> </td> 
-   <td> <p>Para personalização mais profunda, a Atividade de API externa permite que você coloque dados de sistemas externos em um fluxo de trabalho por meio de uma chamada REST API. Os pontos de extremidade REST podem ser um sistema de gerenciamento de clientes, o Adobe I/O Runtime ou o terminal REST da Adobe Experience Cloud (por exemplo, Plataforma de dados, Público alvo, Analytics, Campanha).</p><p>Esse recurso está atualmente em beta público.</p><p>Para obter mais informações, consulte a <a href="../../automating/using/external-api.md">documentação detalhada</a> e o <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">vídeo de instruções</a>.</p></td> 
+   <td> <p>Para personalização mais profunda, a Atividade de API externa permite que você coloque dados de sistemas externos em um fluxo de trabalho por meio de uma chamada REST API. Os pontos de extremidade REST podem ser um sistema de gerenciamento de clientes, o Adobe I/O Runtime ou o terminal REST da Adobe Experience Cloud (por exemplo, Data Platform, Público alvo, Analytics, Campanha).</p><p>Esse recurso está atualmente em beta público.</p><p>Para obter mais informações, consulte a <a href="../../automating/using/external-api.md">documentação detalhada</a> e o <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">vídeo de instruções</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Relatório no segmento de fluxo de trabalho<br /> </td> 
@@ -206,7 +206,7 @@ ht-degree: 5%
 
 **Outras melhorias**
 
-* Por meio da integração com os serviços de localização da plataforma Adobe Experience, o Adobe Campaign agora é compatível para enviar mensagens de marketing baseadas em localização aos assinantes do aplicativo móvel por meio do SDK da plataforma Experience. Para obter mais informações, consulte a [documentação detalhada](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
+* Por meio da integração com o Adobe Experience Platform Location Services, o Adobe Campaign agora é compatível para enviar mensagens de marketing baseadas em localização aos assinantes do aplicativo móvel por meio do Experience Platform SDK. Para obter mais informações, consulte a [documentação detalhada](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
 * O recurso de relatórios foi aprimorado para proporcionar uma experiência melhor. Para usar esse recurso, é necessário aceitar o Contrato de uso dinâmico de Relatórios. For more on this, refer to the [detailed documentation](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 * Em workflows, uma nova opção foi adicionada à pré-visualização das próximas dez execuções de um fluxo de trabalho. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
 * Na atividade do Scheduler, uma nova opção permite selecionar um dia específico de uma semana específica para delivery mensais. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
@@ -290,10 +290,10 @@ Introduziu uma série de melhorias e correções para otimizar fragmentos na ver
 * Correção de um problema que impedia que o envio de SMS retomasse após uma desconexão do conector SMS.
 * Correção de um problema que poderia fechar conexões SMPP quando TLS era ativado.
 * Correção de um problema que poderia fechar conexões SMPP quando TLS era ativado.
-* A opção &quot;Launch_URL_Campanha&quot; foi adicionada na Campanha para gerenciar propriedades de aplicativos móveis criados com o SDK do Adobe Experience Platform Mobile.
+* A opção &quot;Launch_URL_Campanha&quot; foi adicionada na Campanha para gerenciar propriedades de aplicativos móveis criados com o Adobe Experience Platform Mobile SDK.
 * Corrigido um erro que fazia com que a opção ambiente Sandbox ficasse desmarcada depois de fazer upload do certificado de uma propriedade móvel recém-criada e sair da página de propriedades do aplicativo móvel.
 * Correção de um problema que impedia o enriquecimento de um conteúdo de mensagen transacional com informações do recurso Serviço. (CAMP-33707)
-* Correção de um problema nas landings page da lista negra que ocorria ao tentar cancelar a inscrição de perfis de um serviço.
+* Correção de um problema nas landings page da lista de blocos que ocorria ao tentar cancelar a assinatura de perfis de um serviço.
 
 ## Versão 19.2 - maio de 2019 {#release-19-2---may-2019}
 
@@ -309,7 +309,7 @@ Introduziu uma série de melhorias e correções para otimizar fragmentos na ver
  <tbody> 
   <tr> 
    <td> Painel de controle<br /> </td> 
-   <td> <p>Para ajudar a aumentar a eficiência do seu trabalho como usuário administrador, você pode monitorar facilmente a capacidade e gerenciar as configurações de suas instâncias (começando pelo gerenciamento de servidores SFTP).</p><p>Para obter mais informações, consulte a <a href="https://docs.adobe.com/content/help/br/control-panel/using/control-panel-home.translate.html">documentação detalhada</a> e o <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">vídeo de instruções</a>.</p></td> 
+   <td> <p>Para ajudar a aumentar a eficiência do seu trabalho como usuário administrador, você pode monitorar facilmente a capacidade e gerenciar as configurações de suas instâncias (começando pelo gerenciamento de servidores SFTP).</p><p>Para obter mais informações, consulte a <a href="https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.translate.html">documentação detalhada</a> e o <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">vídeo de instruções</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Notificações locais<br /> </td> 
@@ -382,7 +382,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 
 * Correção de um problema que resultava em vazamento de memória para o MTA quando as configurações de SMS eram recarregadas.
 * Correção de um problema que impedia a publicação de atualizações do banco de dados no modo de reparo.
-* Correção de um problema que causava discrepância entre os Relatórios do Adobe Analytics e o Relatórios dinâmico de Adobe Campaign. (CAMP-25393)
+* Correção de um problema que causava discrepância entre os Relatórios do Adobe Analytics e o Relatórios dinâmico. (CAMP-25393)
 * Correção de um erro que causava a falha do fluxo de trabalho de compartilhamento de relatórios.
 * Correção de um erro que impedia os usuários de enviarem mensagens no aplicativo com apenas o URL da mídia.
 * Correção de um problema que exibia um aplicativo móvel mesmo se seu certificado não tivesse sido carregado para a instância.
@@ -475,7 +475,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * Correção de um problema que impedia a rolagem para baixo no menu de estrutura ao usar mais de 18 estruturas. (CAMP-31173)
 * Correção de um problema que exibia o precabeçalho na parte superior do conteúdo ao encaminhar um email contendo um precabeçalho enviado com Adobe Campaign. (CAMP-30736)
 * Correção de um problema que impedia a atualização da linha de assunto ao clicar na opção **Atualizar conteúdo** do AEM após modificar o assunto no Adobe Experience Manager. (CAMP-29984)
-* Correção de vários problemas que impedia o uso de imagens dinâmicas do Público alvo da Adobe.
+* Correção de vários problemas que impedia o uso de imagens dinâmicas do Adobe Target.
 * Correção de um problema que impedia que a pré-visualização fosse atualizada ao recuperar conteúdo no momento da preparação se o conteúdo tivesse sido importado anteriormente de um URL.
 * O ícone do YouTube foi adicionado ao componente de conteúdo do **Social** .
 * A visualização de **Lista** foi adicionada para componentes de conteúdo e fragmentos exibidos na paleta Designer de email.
@@ -536,7 +536,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
    <td> Disponibilidade Geral do Designer de Email<br /> </td> 
    <td> <p>O novo e-mail Designer intuitivo (anteriormente conhecido como Creative Designer) foi movido para GA. Agora, ele oferece suporte a todos os recursos do editor de conteúdo legado, incluindo:</p> 
     <ul> 
-     <li> O uso de imagens <a href="../../integrating/using/adding-target-dynamic-content.md">dinâmicas do Público alvo da Adobe</a> </li> 
+     <li> O uso de imagens <a href="../../integrating/using/adding-target-dynamic-content.md">dinâmicas de Adobe Target</a> </li> 
      <li> A capacidade de <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">recuperar o conteúdo de um URL automaticamente no momento da preparação</a> </li> 
      <li> Modelos de conteúdo totalmente compatíveis <a href="../../designing/using/using-reusable-content.md#content-templates">prontos para uso</a>. </li> 
     </ul> 
@@ -555,7 +555,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
    <td> <p>O recurso Beta de mensagens no aplicativo foi aprimorado com os seguintes recursos:</p> 
     <ul> 
      <li> O canal Beta no aplicativo é compatível com o GDPR </li> 
-     <li> Integração com as APIs do Analytics para preencher os detalhes de Triggers </li> 
+     <li> Integração com as APIs da Analytics para preencher os detalhes de Triggers </li> 
      <li> Aparência intuitiva e descrição dos templates do delivery </li> 
      <li> Melhorias na interface de criação do ponto de vista de usabilidade </li> 
     </ul> <p>Para obter mais informações, consulte a <a href="../../channels/using/about-in-app-messaging.md">documentação detalhada</a>.</p> </td> 
@@ -617,7 +617,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * Correção de um problema, no editor de query, com a condição de junção entre o log de fluxo e o log de rastreamento para rtEvent. (CAMP-28780)
 * Correção de um problema que impedia que modificações na opção de landing page &quot;Ação específica&quot; fossem salvas. (CAMP-29422)
 * Correção de um problema que impedia a exportação de uma carga de evento em um fluxo de trabalho. (CAMP-29029)
-* Correção de um problema que impedia que números de SMS incluído na blacklist fossem excluídos em uma mensagem SMS. (CAMP-28898)
+* Correção de um problema que impedia que números SMS na lista de bloqueios fossem excluídos em uma mensagem SMS. (CAMP-28898)
 * Correção de um problema que impedia que os provedores SMPP fossem notificados em caso de erro ao processar mensagens recebidas. (CAMP-29804)
 * Correção de um problema que permitia a exclusão de contas externas com delivery associados. (CAMP-29738)
 * A taxa de transferência de envio foi melhorada e estabilizada para mensagens SMS.
