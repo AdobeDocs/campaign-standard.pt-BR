@@ -12,7 +12,10 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 Você pode enviar mensagens transacionais com base em perfis de marketing do cliente, o que permite:
 
-* Aplique regras de tipologia de marketing, como **[!UICONTROL Blacklisted address]** regras de [fadiga](../../sending/using/fatigue-rules.md).
+* Aplique regras de tipologia de marketing, como **[!UICONTROL Address on block list]** regras de [fadiga](../../sending/using/fatigue-rules.md).
 * Inclua o link de unsubscription nas mensagens.
 * Adicione os mensagens transacionais ao relatórios global do delivery.
 * Aproveite os mensagens transacionais na jornada do cliente.
@@ -71,11 +74,11 @@ Quando a mensagem for publicada e a integração do site estiver concluída, voc
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Selecione a **[!UICONTROL Exclusions logs]** guia para visualização de recipient que foram excluídos do público alvo de mensagens, como endereços incluído na blacklist.
+1. Selecione a **[!UICONTROL Exclusions logs]** guia para visualização de recipient que foram excluídos do público alvo de mensagens, como endereços na lista de blocos.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-Para qualquer perfil que tenha opt out, a **[!UICONTROL Blacklisted address]** regra de tipologia excluiu o recipient correspondente.
+Para qualquer perfil que tenha opt out, a **[!UICONTROL Address on block list]** regra de tipologia excluiu o recipient correspondente.
 
 Essa regra faz parte de uma tipologia específica que se aplica a todos os mensagens transacionais baseados na **[!UICONTROL Profile]** tabela.
 
