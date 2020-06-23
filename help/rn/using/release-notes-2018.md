@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
 workflow-type: tm+mt
-source-wordcount: '5399'
+source-wordcount: '5401'
 ht-degree: 8%
 
 ---
@@ -130,7 +130,7 @@ Visualização as atualizações [mais recentes da](../../rn/using/documentation
 
 **Aprimoramentos**
 
-* A integração Adobe Campaign e Adobe Target agora permite que você aproveite o recurso [Permissões](https://marketing.adobe.com/resources/help/br/target/target/properties-overview.html) do Público alvo. Ao incluir uma imagem dinâmica de Adobe Target em um email, agora é possível especificar uma Propriedade de Público alvo (código at_property).
+* A integração Adobe Campaign e Adobe Target agora permite que você aproveite o recurso [Permissões](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html) do Público alvo. Ao incluir uma imagem dinâmica de Adobe Target em um email, agora é possível especificar uma Propriedade de Público alvo (código at_property).
 * Os recursos personalizados que têm um link de cópia própria para o recurso de perfis agora são considerados pelas solicitações de acesso/exclusão da Privacidade do RGPD. Para 1 cardinalidade links simples e N links de coleção de cardinalidade, é necessário selecionar &quot;Excluir/Duplicar o registro do público alvo implica excluir/duplicar os registros referenciados pelo link&quot; no recurso personalizado. Para links simples de cardinalidade 0 ou 1, selecione &quot;Excluir/Duplicar o registro implica excluir/duplicar o registro de públicos alvos referenciado pelo link&quot;.
 
 **Outras alterações**
@@ -371,8 +371,8 @@ _Workflows_
 
 _Integrações_
 
-* Fixed an issue that prevented international characters from being correctly sent to Adobe Analytics.
-* Assets should now load faster when trying to insert an image from your Experience Cloud asset library in a message.
+* Correção de um problema que impedia que caracteres internacionais fossem enviados corretamente para o Adobe Analytics.
+* Os ativos agora devem ser carregados mais rapidamente ao tentar inserir uma imagem da biblioteca de ativos do Experience Cloud em uma mensagem.
 * Correção de um problema que impedia o fechamento da janela de seleção de ativos em alguns casos.
 * A partir de um detalhe da fonte de dados, agora é possível acessar diretamente seu fluxo de trabalho relacionado para verificar o estado do fluxo de trabalho.
 * Agora você pode atualizar o schema Acionadores diretamente ao definir ou editar um evento acionador. Com essa alteração, não é mais necessário desfazer a publicação do acionador e criar outro.
@@ -380,9 +380,9 @@ _Integrações_
 _Mensagens transacionais_
 
 * Correção de um erro com o template de mensagem transacional quando o recurso do delivery era estendido.
-* It is now possible to delete transactional messages.
+* Agora é possível excluir mensagens transacionais.
 
-## Release 18.2 - February 2018 {#release-18-2---february-2018}
+## Versão 18.2 - fevereiro de 2018 {#release-18-2---february-2018}
 
 **Novos recursos**
 
@@ -395,12 +395,12 @@ _Mensagens transacionais_
  </thead> 
  <tbody> 
   <tr> 
-   <td> Subscription - subscribe or unsubscribe a list of profiles to multiple services<br /> </td> 
-   <td> A atividade de fluxo de trabalho do <strong>Subscrição no serviço</strong> agora permite que você assine ou cancele a assinatura de uma lista de perfis em vários serviços. In your workflow, import a file containing the profiles, and for each profile, the operation type and the service. A atividade <strong>Subscrição no serviço</strong> poderá usar essas informações e manipular dinamicamente todas as subscrições e unsubscription de uma só vez.<br /> Para obter mais informações, consulte a <a href="../../automating/using/subscription-services.md">documentação detalhada</a>.<br /> </td> 
+   <td> Subscrição - assine ou cancele a assinatura de uma lista de perfis para vários serviços<br /> </td> 
+   <td> A atividade de fluxo de trabalho do <strong>Subscrição no serviço</strong> agora permite que você assine ou cancele a assinatura de uma lista de perfis em vários serviços. No fluxo de trabalho, importe um arquivo que contenha os perfis e, para cada perfil, o tipo de operação e o serviço. A atividade <strong>Subscrição no serviço</strong> poderá usar essas informações e manipular dinamicamente todas as subscrições e unsubscription de uma só vez.<br /> Para obter mais informações, consulte a <a href="../../automating/using/subscription-services.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> atividade do Enriquecimento - enriqueça os dados com base em transições anteriores<br /> </td> 
-   <td> A nova atividade de fluxo de trabalho do <span class="uicontrol">Enriquecimento</span> permite aproveitar as transições de entrada e concluir a transição de saída com dados adicionais. If you target profiles, the enrichment activity allows you to enrich the profiles information with additional data that is not stored in the database (coming from an imported file, for example).<br /> Para obter mais informações, consulte a <a href="../../automating/using/enrichment.md">documentação detalhada</a>.<br /> </td> 
+   <td> A nova atividade de fluxo de trabalho do <span class="uicontrol">Enriquecimento</span> permite aproveitar as transições de entrada e concluir a transição de saída com dados adicionais. Se você público alvo perfis, a atividade do enriquecimento permite que você enriqueça as informações dos perfis com dados adicionais que não estão armazenados no banco de dados (provenientes de um arquivo importado, por exemplo).<br /> Para obter mais informações, consulte a <a href="../../automating/using/enrichment.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -459,16 +459,16 @@ Alguns problemas podem ocorrer ao usar links de ajuda contextuais da interface d
  </thead> 
  <tbody> 
   <tr> 
-   <td> Reporting for Fatigue Management<br /> </td> 
-   <td> O Relatórios para gerenciamento de fadiga é um relatório dedicado e configurável que exibe o impacto das regras de fadiga nos delivery de email, push, SMS e mala direta dentro de um intervalo de datas especificado antes do envio. With the added insight of being able to quickly see all conflicting campaigns in a single view, marketers are able to plan marketing campaigns according to set the fatigue rules more effectively, and prioritize communications.<br /> Para obter mais informações, consulte a <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">documentação detalhada</a>.<br /> </td> 
+   <td> Relatórios para gerenciamento de fadiga<br /> </td> 
+   <td> O Relatórios para gerenciamento de fadiga é um relatório dedicado e configurável que exibe o impacto das regras de fadiga nos delivery de email, push, SMS e mala direta dentro de um intervalo de datas especificado antes do envio. Com o insight adicional de poder ver rapidamente todas as campanhas conflitantes em uma única visualização, os profissionais de marketing são capazes de planejar campanhas de marketing de acordo com a definição mais eficiente das regras de fadiga e priorizar as comunicações.<br /> Para obter mais informações, consulte a <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Report sharing<br /> </td> 
-   <td> Report Sharing allows you to share your reports with Adobe Campaign users as an email attachment including on an automated recurring basis. Users who receive recurring reports have the ability to unsubscribe from these communications via a dedicated link in each email.<br /> Para obter mais informações, consulte a <a href="../../reporting/using/reporting-interface.md#share-tab">documentação detalhada</a>.<br /> </td> 
+   <td> Compartilhamento de relatórios<br /> </td> 
+   <td> O Compartilhamento de relatórios permite que você compartilhe seus relatórios com usuários do Adobe Campaign como um anexo de email, inclusive de forma recorrente automatizada. Os usuários que recebem relatórios recorrentes têm a capacidade de cancelar a inscrição dessas comunicações por meio de um link dedicado em cada email.<br /> Para obter mais informações, consulte a <a href="../../reporting/using/reporting-interface.md#share-tab">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Push New capabilities<br /> </td> 
-   <td> Push Message Preview - Preview push notifications on iOS and Android devices from within the push notification content editor to see exactly what your recipients will see before testing or executing the delivery.<br /> Para obter mais informações, consulte a <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentação detalhada</a>.<br /> Conteúdo disponível - quando os aplicativos não são abertos por períodos maiores, seus dados podem ficar desatualizados. Isso resulta na atualização ou substituição dos dados no momento em que um usuário finalmente abre o aplicativo, o que pode causar atrasos no uso do aplicativo. Com o suporte adicional de Conteúdo disponível, os usuários do Adobe Campaign podem acordar seu aplicativo para atualizar seus dados em segundo plano ao enviar uma notificação por push, o que permite maior consistência e controle sobre a experiência do usuário no aplicativo.<br /> Conteúdo variável - Com o suporte adicional de Conteúdo variável, os usuários do Adobe Campaign agora podem aproveitar suas extensões de aplicativos para dispositivos móveis para modificar ainda mais o conteúdo ou a apresentação das notificações por push recebidas enviadas do Adobe Campaign. Por exemplo, os usuários podem aproveitar o Conteúdo variável para: <br /> 
+   <td> Enviar novos recursos<br /> </td> 
+   <td> Pré-visualização de mensagem de push - notificações por push de Pré-visualização em dispositivos iOS e Android no editor de conteúdo de notificação por push para ver exatamente o que seus recipient verão antes de testar ou executar o delivery.<br /> Para obter mais informações, consulte a <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentação detalhada</a>.<br /> Conteúdo disponível - quando os aplicativos não são abertos por períodos maiores, seus dados podem ficar desatualizados. Isso resulta na atualização ou substituição dos dados no momento em que um usuário finalmente abre o aplicativo, o que pode causar atrasos no uso do aplicativo. Com o suporte adicional de Conteúdo disponível, os usuários do Adobe Campaign podem acordar seu aplicativo para atualizar seus dados em segundo plano ao enviar uma notificação por push, o que permite maior consistência e controle sobre a experiência do usuário no aplicativo.<br /> Conteúdo variável - Com o suporte adicional de Conteúdo variável, os usuários do Adobe Campaign agora podem aproveitar suas extensões de aplicativos para dispositivos móveis para modificar ainda mais o conteúdo ou a apresentação das notificações por push recebidas enviadas do Adobe Campaign. Por exemplo, os usuários podem aproveitar o Conteúdo variável para: <br /> 
     <ul> 
      <li> descriptografar dados que foram entregues em um formato criptografado </li> 
      <li> baixe imagens ou outros arquivos de mídia e adicione-os como anexos a uma notificação </li> 
@@ -507,7 +507,7 @@ _Notificações por push_
 
 * Correção de um erro que impedia a interrupção de delivery de notificação por push.
 * Adicionada uma opção nas opções avançadas de notificação por push para ativar o aplicativo com uma notificação por push.
-* Added a pause button for the push notification preview video.
+* Adição de um botão de pausa para o vídeo de pré-visualização de notificação por push.
 * A pré-visualização de notificação por push agora está disponível para diferentes dispositivos, como iPhone, Android e tablets.
 
 _Relatórios_
