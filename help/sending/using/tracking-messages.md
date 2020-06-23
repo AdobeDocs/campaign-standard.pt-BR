@@ -12,7 +12,10 @@ discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b8c3569fc3965f463a06ae8375a623553037e248
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 20%
 
 ---
 
@@ -30,7 +33,7 @@ As informações de rastreamento estão disponíveis para cada contato do banco 
 O Adobe Campaign usa dois tipos de cookies:
 
 * Um cookie de sessão (nlid). Ele contém o identificador do email enviado ao contato (BroadlogId) e o identificador do modelo de mensagem (deliveryId). Ele é adicionado quando o contato clica em uma URL incluída em um e-mail enviado pelo Adobe Campaign e permite que você acompanhe seu comportamento na Web. Esse cookie de sessão é apagado automaticamente quando o navegador é fechado. O contato pode configurar o navegador para recusar cookies.
-* Um cookie compartilhado entre as soluções da Adobe Experience Cloud. Isso permite identificar os usuários que interagem com as soluções da Experience Cloud ao visitar um site. A descrição deste cookie está disponível [aqui](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html).
+* Um cookie compartilhado entre as soluções da Adobe Experience Cloud. Isso permite identificar os usuários que interagem com as soluções de Experience Cloud quando visitam um site. A descrição deste cookie está disponível [aqui](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-mc.html).
 
 O rastreamento com o Adobe Campaign Standard permite acessar as seguintes funcionalidades:
 
