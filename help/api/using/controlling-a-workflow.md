@@ -12,7 +12,10 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 9%
 
 ---
 
@@ -29,18 +32,18 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 Quatro comandos de execução estão disponíveis para controlar um fluxo de trabalho:
 
-* Início
-* Pausar
+* Start
+* Pause
 * Retomar
-* Parar
+* Stop
 
-Para obter mais informações sobre os comandos de execução, consulte a documentação da [Campanha](https://helpx.adobe.com/campaign/standard/automating/using/executing-a-workflow.html).
+Para obter mais informações sobre os comandos de execução, consulte a documentação [da](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html)Campanha.
 
 <br/>
 
 ***Pedidos de amostra***
 
-* Iniciar um fluxo de trabalho.
+* Start de um fluxo de trabalho.
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \
