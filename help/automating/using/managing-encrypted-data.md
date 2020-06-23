@@ -12,10 +12,10 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: adc5e92183b891a70cac4aa7a6ed96148d104a20
+source-git-commit: 26f8f7855a30fe90dbfee4bb2b5ee55c7bf4e02b
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 3%
+source-wordcount: '878'
+ht-degree: 2%
 
 ---
 
@@ -26,9 +26,13 @@ ht-degree: 3%
 
 Em alguns casos, os dados que você deseja importar Servidores de Campanha podem precisar ser criptografados, por exemplo, se contiverem dados de PII.
 
-Para importar ou exportar arquivos criptografados, primeiro é necessário entrar em contato com o Atendimento ao cliente da Adobe para que ele forneça à sua instância os comandos de criptografia/descriptografia necessários.
+Para poder criptografar dados de saída ou descriptografar dados de entrada, é necessário gerenciar chaves GPG usando o Painel [de](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html)controle.
 
-Para fazer isso, envie uma solicitação indicando:
+>[!NOTE]
+>
+>O Painel de controle está disponível para todos os clientes hospedados no AWS (exceto para clientes que hospedam suas instâncias de marketing no local).
+
+Se você não estiver qualificado para usar o Painel de controle, entre em contato com o Atendimento ao cliente da Adobe para que ele forneça à sua instância os comandos de criptografia/descriptografia necessários. Para fazer isso, envie uma solicitação indicando:
 
 * O **rótulo** que será exibido na interface de Campanha para usar o comando. Por exemplo, &quot;Criptografar arquivo&quot;.
 * O **comando** a ser instalado em sua instância.
@@ -36,12 +40,6 @@ Para fazer isso, envie uma solicitação indicando:
 Depois que a solicitação for processada, os comandos de criptografia/descriptografia estarão disponíveis no **[!UICONTROL Pre-processing stage]** campo nas **[!UICONTROL Load file]** atividades **[!UICONTROL Extract file]** e . Você pode usá-los para descriptografar ou criptografar os arquivos que deseja importar ou exportar.
 
 ![](assets/preprocessing-encryption.png)
-
->[!NOTE]
->
->Observe que as chaves GPG podem ser adicionadas à sua instância usando o Painel de controle, que está disponível para todos os clientes hospedados no AWS (exceto para clientes que hospedam suas instâncias de marketing no local).
->
->For more on this, refer to [Control Panel documentation](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.translate.html).
 
 **Tópicos relacionados:**
 
