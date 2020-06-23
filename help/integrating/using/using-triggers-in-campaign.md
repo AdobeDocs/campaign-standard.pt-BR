@@ -12,9 +12,9 @@ discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3aa987c423181180a5c20bcca04cde04a2bf6086
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '656'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 ## Criação de um acionador mapeado na Campanha {#creating-a-mapped-trigger-in-campaign}
 
-Você deve definir os comportamentos que deseja monitorar antecipadamente na Adobe Experience Cloud (serviço **[!UICONTROL Triggers]** principal). Para obter mais informações, consulte a documentação [da](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html)Adobe Experience Cloud. Observe que, ao definir o acionador, é necessário ativar os aliases. Para cada comportamento (navegação/abandono de formulário, adição/exclusão de produtos, sessão expirada etc.), um novo acionador deve ser adicionado na Adobe Experience Cloud.
+Você deve definir os comportamentos que deseja monitorar antecipadamente na Adobe Experience Cloud (serviço **[!UICONTROL Triggers]** principal). Para obter mais informações, consulte a documentação [da](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html)Adobe Experience Cloud. Observe que, ao definir o acionador, é necessário ativar os aliases. Para cada comportamento (navegação/abandono de formulário, adição/exclusão de produtos, sessão expirada etc.), um novo acionador deve ser adicionado na Adobe Experience Cloud.
 
 Agora é necessário criar um evento de disparo no Adobe Campaign com base em um acionador da Adobe Experience Cloud existente.
 
@@ -36,7 +36,7 @@ As etapas para colocar isso em prática são:
 
    ![](assets/remarketing_1.png)
 
-1. Clique no botão **[!UICONTROL Create]**. O assistente de criação que é aberto exibe a lista de todos os acionadores definidos na Adobe Experience Cloud. A **[!UICONTROL Fired by Analytics]** coluna exibe o número de eventos enviados pelo acionador da Adobe Experience Cloud para a Campanha. Esse é o mapeamento de acionadores criados na interface da Experience Cloud.
+1. Clique no botão **[!UICONTROL Create]**. O assistente de criação que é aberto exibe a lista de todos os acionadores definidos na Adobe Experience Cloud. A **[!UICONTROL Fired by Analytics]** coluna exibe o número de eventos enviados pelo acionador da Adobe Experience Cloud para a Campanha. Este é o mapeamento de acionadores criados na interface do Experience Cloud.
 
    ![](assets/remarketing_2.png)
 
@@ -46,7 +46,7 @@ As etapas para colocar isso em prática são:
 
    ![](assets/remarketing_3.png)
 
-1. No **[!UICONTROL Transactional message validity duration]** campo, defina a duração para a qual a mensagem permanecerá válida após o evento ser enviado pelo Analytics. Se uma duração de 2 dias for definida, a mensagem não será mais enviada após essa duração ter expirado. Se você colocar várias mensagens em espera, isso garante que elas não serão enviadas se você as retomar após um determinado período de tempo.
+1. No **[!UICONTROL Transactional message validity duration]** campo, defina a duração para a qual a mensagem permanecerá válida após o evento ser enviado pela Analytics. Se uma duração de 2 dias for definida, a mensagem não será mais enviada após essa duração ter expirado. Se você colocar várias mensagens em espera, isso garante que elas não serão enviadas se você as retomar após um determinado período de tempo.
 
    ![](assets/remarketing_4.png)
 
@@ -81,7 +81,7 @@ Para visualização do relatório de disparo dedicado no Adobe Campaign, abra o 
 
 ![](assets/remarketing_9.png)
 
-O relatório mostra o número de eventos processados em comparação ao número de eventos enviados pelo Analytics. Também exibe uma lista de todos os acionadores recentes.
+O relatório mostra o número de eventos processados em comparação ao número de eventos enviados pela Analytics. Também exibe uma lista de todos os acionadores recentes.
 
 ![](assets/trigger_uc_browse_14.png)
 
