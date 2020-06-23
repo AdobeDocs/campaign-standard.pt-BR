@@ -12,7 +12,10 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1b7d2210647a87693d93e325a4c888cb23e5f3a
+source-git-commit: 2df909256b910e5e26e0fdac7e150edd0603c8ab
+workflow-type: tm+mt
+source-wordcount: '576'
+ht-degree: 10%
 
 ---
 
@@ -40,7 +43,7 @@ A preparação **da** mensagem de Campaign Standard analisa o público alvo, a p
 
 **Pré-visualização e teste** suas mensagens usando vários recursos: envie provas para testar perfis ou perfis com metas, teste a linha de assunto de seus emails e verifique a renderização de suas mensagens para garantir que elas sejam exibidas da melhor forma em diversos clientes da Web, emails e dispositivos.
 
-Aproveite os recursos de agendamento de Campanha$$ para definir quando suas mensagens serão enviadas. Por exemplo, você pode adaptar o envio no fuso horário do recipient, otimizar a hora de envio ou calcular a data de envio.
+Aproveite os recursos de agendamento de Campanha para definir quando suas mensagens serão enviadas. Por exemplo, você pode adaptar o envio no fuso horário do recipient, otimizar a hora de envio ou calcular a data de envio.
 
 Use **tipologias** para verificar durante a preparação se a mensagem é válida e atende aos seus critérios de qualidade por meio de regras de fadiga, controle e definição de metas. Por exemplo, para verificar se seus emails sempre contêm uma linha de assunto ou para excluir os canceladores dos recipient de mensagem.
 
