@@ -1,6 +1,6 @@
 ---
 title: Personalização de listas
-description: '"Saiba como personalizar a exibição e agir em telas de lista no Adobe Campaign Standard: classificar, filtrar, excluir ou duplicar elementos. As telas do Lista exibem elementos de um ou vários recursos especificados."'
+description: '"Saiba como personalizar a exibição e agir em telas de lista em Adobe Campaign Standard: classificar, filtrar, excluir ou duplicar elementos. As telas do Lista exibem elementos de um ou vários recursos especificados."'
 page-status-flag: never-activated
 uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
 contentOwner: sauviat
@@ -12,7 +12,10 @@ discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 49d76d7a1c0e12369ab1c533adca9f3da19946a8
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 5%
 
 ---
 
@@ -79,7 +82,7 @@ As mensagens personalizadas são fundamentais para enviar conteúdo relevante, o
 * Inserir campos de personalização [](../../designing/using/personalization.md#inserting-a-personalization-field) dinâmicos em suas mensagens
 * Insert [predefined personalization blocks](../../designing/using/personalization.md#adding-a-content-block)
 * [Personalizar o remetente](../../designing/using/subject-line.md) de um email ou SMS
-* [Personalize a linha](../../designing/using/subject-line.md) de assunto de um email ou use os recursos de linha de assunto [](../../designing/using/subject-line.md#predictive-subject-line) preditivo para otimizá-lo
+* [Personalize a linha](../../designing/using/subject-line.md) de assunto de um email ou use os recursos de linha de assunto [](../../designing/using/subject-line.md#subject-line) preditivo para otimizá-lo
 * Criar conteúdo [condicional em um email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) ou [em uma landing page](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
 * Inserir texto [](../../channels/using/defining-dynamic-text.md) dinâmico em uma mensagem SMS ou uma notificação por push
 
