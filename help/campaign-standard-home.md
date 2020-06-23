@@ -4,10 +4,10 @@ solution: Campaign Standard
 title: Documentação do produto Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 01fed9b50964ae15a2127a1a2f9a3ebca944d6b1
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 100%
+source-wordcount: '196'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## Novidades
 
-* **[Teste de email usando perfis direcionados](sending/using/testing-messages-using-target.md)**<br/>Saiba como testar seus emails em perfis direcionados reais
+* Os termos &quot;lista branca&quot; e &quot;lista negra&quot; foram removidos da documentação do Adobe Campaign. [Leia mais](rn/using/documentation-updates.md)
 
 * **[Gerenciamento de privacidade](https://helpx.adobe.com/br/campaign/kb/campaign-privacy.html)**<br/>
 Saiba mais sobre as ferramentas fornecidas pelo Adobe Campaign para ajudá-lo a estar em conformidade com a privacidade
