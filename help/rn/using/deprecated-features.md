@@ -12,10 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f8c8dd5ec3dcff557d17e92591748cb1b6694122
+source-git-commit: 7622018bff9c8b8573dae139372bea697815849f
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 26%
+source-wordcount: '589'
+ht-degree: 37%
 
 ---
 
@@ -32,14 +32,14 @@ Para comunicar a remoção/substituição iminente de recursos de Campaign Stand
 Esse processo oferece aos clientes pelo menos um ciclo de lançamento para adaptar sua implementação a uma nova versão ou sucessor de um recurso obsoleto, antes da remoção.
 
 >[!NOTE]
->As versões do Adobe Campaign Standard e os novos recursos estão listados nas [Notas](../../rn/using/release-notes.md)de versão.
+>Adobe Campaign Standard releases and new capabilities are listed in the [Release Notes](../../rn/using/release-notes.md).
 
 
 ## Recursos obsoletos {#deprecated-features}
 
 Esta seção lista recursos e recursos que foram marcados como obsoletos com as versões mais recentes do Campaign Standard.
 
-Geralmente, os recursos que estão planejados para serem removidos em uma versão futura são definidos como obsoletos primeiro, com uma alternativa fornecida. Esses recursos e recursos não estão mais disponíveis para novos clientes do Campaign Standard ou não devem ser usados para nenhuma nova implementação. Eles também são removidos da documentação do produto.
+Geralmente, os recursos que estão planejados para serem removidos em uma versão futura são definidos como obsoletos primeiro, com uma alternativa fornecida. Esses recursos e funcionalidades não estão mais disponíveis para novos clientes do Campaign Standard ou não devem ser usados para novas implementações. Eles também foram removidos da documentação do produto.
 
 Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em sua implantação atual e a fazer planos para alterar sua implementação para usar a alternativa fornecida. Consulte a versão de remoção do público alvo para planejar suas atualizações de ambiente e projeto de acordo.
 
@@ -52,7 +52,7 @@ Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em 
  <tbody> 
   <tr> 
    <td> <p> A partir da versão 20.1, o SDK v4 está obsoleto. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Saiba mais</a>.</p><br/>
-   <p>O SDK <a href="https://aep-sdks.gitbook.io/docs/">do</a> Adobe Experience Platform Mobile (anteriormente conhecido como v5) oferecerá suporte exclusivo aos recursos e funcionalidades futuros da Adobe Experience Cloud.</p></br>
+   <p>O <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (anteriormente chamado de v5) oferecerá suporte exclusivo aos recursos e funcionalidades futuros da Adobe Experience Cloud.</p></br>
      <p>
      <em>Data de remoção do Público alvo: 30 de setembro de 2020</em></p>
      </td> 
@@ -87,7 +87,7 @@ Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em 
    <td> <p>A partir da versão 19.0 da Campanha, o editor de e-mail herdado será substituído. Use <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">o novo Designer</a> de email para criar e personalizar seu conteúdo de email. </p></br>
    <p>Leia <a href="https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">esta seção</a> para saber como adaptar seus modelos de e-mail para o novo editor.</p></br>
   <p> 
-  <em>Versão de remoção do Público alvo: Campanha 20.4</em></p>
+  <em>Versão de remoção do Público alvo: 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -109,7 +109,7 @@ Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em 
 
 ## Removed Features {#removed-features}
 
-Esta seção lista recursos e recursos que foram removidos do Campaign Standard.
+Esta seção lista os recursos e funcionalidades removidos do Campaign Standard.
 
 <table> 
  <thead> 
@@ -125,7 +125,7 @@ Esta seção lista recursos e recursos que foram removidos do Campaign Standard.
  </tbody> 
 </table>
 
-## End of compatibility {#end-of-compatibility}
+## Fim da compatibilidade do {#end-of-compatibility}
 
 <table> 
  <thead> 
@@ -135,7 +135,7 @@ Esta seção lista recursos e recursos que foram removidos do Campaign Standard.
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>A Adobe Campaign e a Adobe Experience Cloud deixaram de oferecer suporte ao Microsoft Internet Explorer 11 a partir do primeiro trimestre de 2019 e da versão Campaign 19.2. Alterne para o Microsoft Edge ou outro navegador compatível. <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/discovering-the-interface/compatible-browsers.html">Saiba mais</a>.</p>
+   <td> <p>A Adobe Campaign e a Adobe Experience Cloud deixaram de oferecer suporte ao Microsoft Internet Explorer 11 a partir do primeiro trimestre de 2019 e da versão Campaign 19.2. Alterne para o Microsoft Edge ou outro navegador compatível. <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/about-configuration-guidelines.html#compatible-browsers">Saiba mais</a>.</p>
    </td> 
   </tr> 
  </tbody> 
