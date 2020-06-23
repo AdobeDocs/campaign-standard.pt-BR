@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017e1e80657a3145a97c6ab62a577a9a2164cc99
+source-git-commit: 58c69b6f6efdac8be5d05fe723bbf9ff54d186ee
 workflow-type: tm+mt
-source-wordcount: '5923'
+source-wordcount: '5941'
 ht-degree: 18%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 18%
 Além das Notas [de](../../rn/using/release-notes.md)versão do Adobe Campaign, esta página lista todas as novas atualizações na documentação do Adobe Campaign Standard.
 
 ## Atualizações da documentação - junho de 2020 {#doc-updates-june-2020}
+
+Casos de uso foram adicionados sobre como [criptografar](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) e [descriptografar](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) dados usando o Painel de controle e Workflows da campanha.
 
 Os termos &quot;lista branca&quot; e &quot;lista negra&quot; foram removidos da documentação do Adobe Campaign. Algumas ocorrências desses termos ainda podem existir na interface do usuário do produto, nomes de opções e código interno, mas serão substituídas em versões futuras da Campanha por &quot;blocklist&quot; e &quot;allowlist&quot;.
 
@@ -484,7 +486,7 @@ A seção Tipo de usuários foi atualizada. [Leia mais](../../administration/usi
 
 Mensagens no aplicativo (beta) - [Leia mais](../../channels/using/about-in-app-messaging.md)
 
-Integração do Adobe Launch para aplicativos móveis (beta) - [Leia mais](../../sending/using/about-typology-rules.md#typology-rules)
+Integração do Adobe Launch para aplicativos móveis (beta) - [Leia mais](../../sending/using/managing-typologies.md)
 
 **Outras atualizações de documentação que vêm com a versão**
 
@@ -498,7 +500,7 @@ Atualização da seção de relatório integrada da notificação por push. [Lei
 
 **Novos recursos incluídos na versão**
 
-[Sinalizador](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) de alta prioridade e filtro [de](../../sending/using/about-typology-rules.md#typology-rules) tipologia para assinantes de aplicativos móveis.
+[Sinalizador](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) de alta prioridade e filtro [de](../../sending/using/managing-typologies.md) tipologia para assinantes de aplicativos móveis.
 
 Importação de conteúdo automatizada de um URL no momento da preparação. [Leia mais](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
@@ -734,7 +736,7 @@ lista detalhada de KPIs compartilhados com a Adobe Analytics. [Leia mais](../../
 
 Novo vídeo Relatório dinâmico.
 
-Adicionadas as recomendações da conta S3. [Leia mais](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
+Adicionadas recomendações de conta S3. [Leia mais](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
 
 Atualização da seção sobre os diferentes tipos de usuários. [Leia mais](../../administration/using/users-management.md)
 
@@ -794,7 +796,7 @@ A seção Lista de funções foi atualizada. [Leia mais](../../administration/us
 
 Mala direta - [Leia mais](../../channels/using/about-direct-mail.md)
 
-Cco do email - [Leia mais](../../administration/using/configuring-email-channel.md#archiving-emails)
+Cco do email - [Leia mais](../../sending/using/archiving.md)
 
 **Outras atualizações de documentação que vêm com a versão**
 
