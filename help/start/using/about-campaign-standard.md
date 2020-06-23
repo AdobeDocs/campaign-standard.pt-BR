@@ -12,7 +12,7 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: d7846c33f0bc3730fc63a8659c8afc1c868064e0
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 1%
@@ -56,7 +56,7 @@ Planeje, coordene e orquestre campanhas entre canais.
 
 Projete e envie mensagens em canais de comunicação online e offline, incluindo otimização de delivery de e-mail para vários dispositivos por meio de testes e estratégias de design responsivas.
 
-**Aproveite os canais** de comunicação de Campanha para fornecer suas campanhas de marketing no local certo: email, SMS, notificação por push, mensagem no aplicativo, mala direta, landing page. Ganhe tempo e consistência em sua estratégia de mensagens criando modelos para todos os tipos de mensagens (mensagens transacionais, recorrentes e multilíngues). Execute o teste A/B e capture sua audiência usando funcionalidades de personalização e conteúdo dinâmico. [Introdução aos canais de comunicação](../../channels/using/get-started-communication-channels.md)
+**Aproveite os canais** de comunicação de Campanha para fornecer suas campanhas de marketing no local certo: email, SMS, notificação por push, mensagem no aplicativo, mala direta, landing page. Ganhe tempo e consistência em sua estratégia de mensagens criando modelos para todos os tipos de mensagens (mensagens transacionais, recorrentes e multilíngues). Realize testes A/B e capture seu interesse na audiência usando funcionalidades de personalização e conteúdo dinâmico. [Introdução aos canais de comunicação](../../channels/using/get-started-communication-channels.md)
 
 **Use o Campaign Email Designer** para criar mensagens de email cativantes e personalizadas individualmente. Start do zero ou aproveite fragmentos de conteúdo ou modelos incorporados para criar seus e-mails usando o formato HTML otimizado para design responsivo. [Introdução ao design de conteúdo de email](../../designing/using/designing-content-in-adobe-campaign.md)
 
