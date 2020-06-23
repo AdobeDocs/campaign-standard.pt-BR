@@ -13,9 +13,9 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 2a8cb9aa0d018fec9d5b256beba079c5ec3afaf0
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1799'
 ht-degree: 5%
 
 ---
@@ -93,11 +93,14 @@ A configuração da atividade envolve duas etapas. Primeiro, é necessário defi
 
    * Vem de uma transição de entrada no fluxo de trabalho.
    * É aquele que você carregou durante a etapa anterior.
-   * É um novo arquivo para carregar a partir do computador local. A **[!UICONTROL Upload a new file from local machine]** opção será exibida se o upload de um primeiro arquivo já tiver sido definido no fluxo de trabalho. Isso permite que você carregue outro arquivo a ser processado se o arquivo atual não atender às suas necessidades.
+   * É um novo arquivo para carregar a partir do computador local. A **[!UICONTROL Upload a new file from local machine]** opção será exibida se o upload de um primeiro arquivo já tiver sido definido no fluxo de trabalho. Isso permite que você carregue outro arquivo para ser processado se o arquivo atual não atender às suas necessidades.
 
       ![](assets/wkf_file_loading1.png)
 
 1. Se o arquivo do qual você deseja carregar os dados for compactado em um arquivo GZIP (.gz), selecione a **[!UICONTROL Decompression]** opção no **[!UICONTROL Add a pre-processing step]** campo. Isso permite descompactar o arquivo antes de carregar os dados. Essa opção só estará disponível se o arquivo for proveniente da transição de entrada do atividade.
+
+   O **[!UICONTROL Add a pre-processing step]** campo também permite descriptografar um arquivo antes de importá-lo para o banco de dados. Para obter mais informações sobre como trabalhar com arquivos criptografados, consulte [esta seção](../../automating/using/managing-encrypted-data.md)
+
 1. A **[!UICONTROL Keep the rejects in a file]** opção permite baixar um arquivo que contém erros que ocorreram durante a importação e aplicar a ele uma etapa de pós-processamento. Quando a opção é ativada, a transição de saída é renomeada como &quot;Rejeita&quot;.
 
    >[!NOTE]
@@ -205,13 +208,13 @@ O exemplo abaixo mostra como enviar um email usando dados adicionais recuperados
 
    <!--![](assets/load_file_enrichment_additional_data.png)-->
 
-   Para obter mais informações, consulte a seção [Enriquecimentos](../../automating/using/enrichment.md) .
+   For more on this, see the [Enrichment](../../automating/using/enrichment.md) section.
 
 1. Arraste e solte uma **[!UICONTROL Segmentation]** atividade no seu fluxo de trabalho e abra-a para refinar o público alvo principal.
 
    ![](assets/load_file_segmentation.png)
 
-   Para obter mais informações, consulte a seção [Segmentação](../../automating/using/segmentation.md) .
+   For more on this, see the [Segmentation](../../automating/using/segmentation.md) section.
 
 1. Arraste e solte uma **[!UICONTROL Email delivery]** atividade no seu fluxo de trabalho e abra-a.
 
