@@ -12,9 +12,9 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '731'
 ht-degree: 8%
 
 ---
@@ -193,7 +193,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
   <tr> 
    <td> Cliques únicos<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Cliques únicos são calculados usando conceitos de ThetaSketch.<br /> </td> 
+   <td> Cliques únicos são calculados usando conceitos de ThetaSketch. For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -273,7 +273,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
   <tr> 
    <td> Aberturas exclusivas<br /> </td> 
    <td> @uniqueopen<br /> </td> 
-   <td> As aberturas exclusivas são calculadas usando conceitos ThetaSketch de RecipientIds exclusivos.<br /> </td> 
+   <td> As aberturas exclusivas são calculadas usando conceitos ThetaSketch de RecipientIds exclusivos. For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressões<br /> </td> 
@@ -293,7 +293,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
   <tr> 
    <td> Cliques únicos<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Cliques únicos são calculados usando conceitos de ThetaSketch.<br /> </td> 
+   <td> Cliques únicos são calculados usando conceitos de ThetaSketch. For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taxa de cliques<br /> </td> 
