@@ -12,7 +12,10 @@ discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bebe6df66c9a87db882d03b36c72ebdae3085245
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+workflow-type: tm+mt
+source-wordcount: '2342'
+ht-degree: 5%
 
 ---
 
@@ -48,7 +51,7 @@ Para criar e configurar uma regra de tipologia **[!UICONTROL Fatigue]**, siga es
 
    ![](assets/fatigue.png)
 
-1. No **[!UICONTROL Rule type]** campo, selecione **[!UICONTROL Fatigue]**.
+1. In the **[!UICONTROL Rule type]** field, select **[!UICONTROL Fatigue]**.
 
    ![](assets/fatigue3.png)
 
@@ -70,7 +73,7 @@ Para criar e configurar uma regra de tipologia **[!UICONTROL Fatigue]**, siga es
 
    ![](assets/fatigue20.png)
 
-1. Selecione a **[!UICONTROL Typologies]** guia e vincule sua regra de tipologia à tipologia usada para seus delivery. Consulte [Gerenciamento de tipologias](../../sending/using/about-typology-rules.md#managing-typologies) e [Regras de tipologia](../../sending/using/about-typology-rules.md#typology-rules).
+1. Selecione a **[!UICONTROL Typologies]** guia e vincule sua regra de tipologia à tipologia usada para seus delivery. Consulte [Gerenciamento de tipologias](../../sending/using/managing-typologies.md) e [Regras de tipologia](../../sending/using/managing-typology-rules.md).
 
    ![](assets/fatigue12.png)
 
