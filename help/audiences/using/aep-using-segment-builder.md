@@ -1,6 +1,6 @@
 ---
-title: Uso do Construtor de segmentos unificados
-description: Saiba como usar o Construtor de segmentos unificados para criar audiências.
+title: Uso do Construtor de segmentos
+description: Saiba como usar o Construtor de segmentos para criar audiências.
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
 contentOwner: sauviat
@@ -13,22 +13,25 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 573131986d52bb4415cca59600048fd7dc5ba0db
+source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
+workflow-type: tm+mt
+source-wordcount: '878'
+ht-degree: 2%
 
 ---
 
 
-# Uso do Construtor de segmentos unificados {#using-the-unified-segment-builder}
+# Using the Segment Builder {#using-the-segment-builder}
 
 >[!IMPORTANT]
 >
 >O serviço Destinos de Audiência está atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam estar hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente da Adobe se desejar acessar.
 
-O Construtor de segmentos unificados permite criar audiências definindo regras com base nos dados provenientes do Serviço [de Perfis](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)unificado.
+O Construtor de segmentos permite criar audiências definindo regras com base nos dados provenientes do Perfil [Cliente em tempo](https://docs.adobe.com/content/help/pt-BR/experience-platform/profile/home.html)real.
 
-Esta seção apresenta conceitos globais ao criar um segmento. Para obter informações detalhadas sobre o Construtor de segmentos unificado, consulte o guia [do usuário do Construtor de](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)segmentos.
+Esta seção apresenta conceitos globais ao criar um segmento. Para obter informações detalhadas sobre o Construtor de segmentos propriamente dito, consulte o guia [do usuário do Construtor de](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)segmentos.
 
-A interface do Construtor de segmentos unificados é composta da seguinte maneira:
+A interface do Construtor de segmentos é composta da seguinte maneira:
 
 * O painel esquerdo fornece todos os atributos, eventos e audiências disponíveis para criar o segmento arrastando e soltando os campos desejados na área de trabalho do construtor de segmentos.
 * A área central fornece um espaço de trabalho para criar o segmento definindo e combinando regras dos campos disponíveis.
@@ -40,7 +43,7 @@ A interface do Construtor de segmentos unificados é composta da seguinte maneir
 
 Para criar um segmento, siga estas etapas:
 
-O Construtor de segmentos unificado agora deve ser exibido em sua área de trabalho. Ele permite que você crie um segmento usando dados da Adobe Experience Platform que serão eventualmente usados para criar sua audiência.
+O Construtor de segmentos agora deve ser exibido em sua área de trabalho. Ele permite que você crie um segmento usando dados do Adobe Experience Platform que eventualmente serão usados para criar sua audiência.
 
 1. Nomeie o segmento e insira uma descrição (opcional).
 
@@ -66,15 +69,15 @@ O Construtor de segmentos unificado agora deve ser exibido em sua área de traba
 
 O painel esquerdo lista todos os atributos, eventos e audiências disponíveis para uso na construção de regras.
 
-Os campos listados são atributos capturados pela sua empresa e disponibilizados pelo sistema [](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)Experience Data Model (XDM).
+Os campos listados são atributos capturados pela sua empresa e disponibilizados pelo sistema [](https://docs.adobe.com/content/help/pt-BR/experience-platform/xdm/home.html)Experience Data Model (XDM).
 
 Os campos são organizados em guias:
 
-* **[!UICONTROL Attributes]**: Atributos de perfis existentes que podem se originar do banco de dados do Adobe Campaign e/ou da Adobe Experience Platform. Referem-se a informações estáticas anexadas a um perfil (por exemplo, endereço de email, país de residência, status do programa de fidelidade, etc.).
+* **[!UICONTROL Attributes]**: Atributos de perfis existentes que podem se originar do banco de dados e/ou Adobe Experience Platform. Referem-se a informações estáticas anexadas a um perfil (por exemplo, endereço de email, país de residência, status do programa de fidelidade, etc.).
 
    ![](assets/aep_audiences_attributestab.png)
 
-* **[!UICONTROL Events]**: Atividades que identificam os consumidores que tiveram alguma interação com seus pontos de contato com o empresa, como &quot;qualquer pessoa que solicitou duas vezes em duas semanas&quot;. Isso pode ser transmitido do Adobe Analytics ou assimilado diretamente na Adobe Experience Platform usando ferramentas ETL de terceiros.
+* **[!UICONTROL Events]**: Atividades que identificam os consumidores que tiveram alguma interação com seus pontos de contato com o empresa, como &quot;qualquer pessoa que solicitou duas vezes em duas semanas&quot;. Isso pode ser transmitido do Adobe Analytics ou ingerido diretamente no Adobe Experience Platform usando ferramentas ETL de terceiros.
 
    ![](assets/aep_audiences_eventstab.png)
 
@@ -84,7 +87,7 @@ Os campos são organizados em guias:
 >
 >For more on this, refer to the [dedicated documentation](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html).
 
-Por padrão, o Construtor de segmentos unificados exibe campos nos quais os dados já estão presentes. Para exibir o schema completo, incluindo campos para os quais os dados não estão presentes, ative a opção **[!UICONTROL Show full XDM schema]** nas configurações.
+Por padrão, o Construtor de segmentos exibe campos nos quais os dados já estão presentes. Para exibir o schema completo, incluindo campos para os quais os dados não estão presentes, ative a opção **[!UICONTROL Show full XDM schema]** nas configurações.
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -124,7 +127,7 @@ Uma vez vinculadas, as duas regras formam um container.
 
 ## Comparar campos
 
-O Construtor de segmentos unificados permite comparar dois campos para definir uma regra. Por exemplo, mulheres cujo endereço residencial está em um CEP diferente do endereço profissional.
+O Construtor de segmentos permite que você compare dois campos para definir uma regra. Por exemplo, mulheres cujo endereço residencial está em um CEP diferente do endereço profissional.
 
 Para fazer isso, siga estas etapas:
 
