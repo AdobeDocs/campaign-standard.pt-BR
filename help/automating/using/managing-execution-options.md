@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -47,4 +47,4 @@ As opções possíveis são:
 
 * **[!UICONTROL Severity]**: permite que você especifique um nível de prioridade para executar workflows na instância Adobe Campaign. Os workflows críticos serão executados primeiro.
 
-A **[!UICONTROL Error management]** seção fornece opções adicionais que permitem gerenciar como os workflows se comportam em caso de erros. Essas opções são detalhadas na seção Gerenciamento [de](#error-management) erros.
+A **[!UICONTROL Error management]** seção fornece opções adicionais que permitem gerenciar como os workflows se comportam em caso de erros. Essas opções são detalhadas na seção Gerenciamento [de](../../automating/using/monitoring-workflow-execution.md#error-management) erros.
