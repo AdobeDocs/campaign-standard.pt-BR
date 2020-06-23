@@ -1,6 +1,6 @@
 ---
 title: Personalização de listas
-description: '"Saiba como personalizar a exibição e agir em telas de lista no Adobe Campaign Standard: classificar, filtrar, excluir ou duplicar elementos. As telas do Lista exibem elementos de um ou vários recursos especificados."'
+description: '"Saiba como personalizar a exibição e agir em telas de lista em Adobe Campaign Standard: classificar, filtrar, excluir ou duplicar elementos. As telas do Lista exibem elementos de um ou vários recursos especificados."'
 page-status-flag: never-activated
 uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '788'
 ht-degree: 9%
 
 ---
@@ -90,7 +90,7 @@ Para obter mais informações sobre o landing page, consulte a documentação []
 ### Sincronizando perfis do Microsoft Dynamics 365
 
 A integração do Campaign Standard com o Microsoft Dynamics 365 permite transmitir dados de contato do Microsoft Dynamics 365 para o banco de dados de Campanhas.
-Esses contatos ficam visíveis na lista de Perfis e podem ser direcionados para campanhas de marketing. For more on this integration, refer to the [dedicated documentation](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
+Esses contatos ficam visíveis na lista de Perfis e podem ser direcionados para campanhas de marketing. For more on this integration, refer to the [dedicated documentation](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
 >[!NOTE]
 >
