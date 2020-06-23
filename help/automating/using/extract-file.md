@@ -1,19 +1,22 @@
 ---
 title: Extrair arquivo
-description: A atividade Extrair arquivo permite exportar dados do Adobe Campaign na forma de um arquivo externo.
-page-status-flag: nunca ativado
+description: A atividade Extract file permite exportar dados do Adobe Campaign na forma de um arquivo externo.
+page-status-flag: never-activated
 uuid: 631f0fbd-9e8d-4f77-a338-fcb7f4fc1774
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatização
-content-type: referência
-topic-tags: atividades de gestão de dados
+audience: automating
+content-type: reference
+topic-tags: data-management-activities
 discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
 context-tags: fileExport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 2a8cb9aa0d018fec9d5b256beba079c5ec3afaf0
+workflow-type: tm+mt
+source-wordcount: '577'
+ht-degree: 2%
 
 ---
 
@@ -36,18 +39,21 @@ A forma como os dados serão extraídos é definida ao configurar a atividade.
 
 ## Configuração {#configuration}
 
-1. Arraste e solte uma **[!UICONTROL Extract file]** atividade em seu fluxo de trabalho.
+1. Arraste e solte uma **[!UICONTROL Extract file]** atividade no seu fluxo de trabalho.
 
    ![](assets/wkf_data_export1.png)
 
 1. Selecione a atividade e abra-a usando o ![](assets/edit_darkgrey-24px.png) botão das ações rápidas que aparecem.
-1. Digite o rótulo do arquivo **** de saída. O rótulo do arquivo será automaticamente preenchido com a data e a hora em que foi criado para que seja exclusivo.  Por exemplo: users_20150815_081532.txt para um arquivo gerou o dia 15 de agosto de 2015 às 08:15:32.
+1. Insira o rótulo do arquivo **** de Saída. O rótulo do arquivo será automaticamente preenchido com a data e a hora em que foi criado para que seja exclusivo. Por exemplo: recipient_20150815_081532.txt para um arquivo gerou o dia 15 de agosto de 2015 às 08:15:32.
 
    >[!NOTE]
    >
    >É possível usar a **[!UICONTROL formatDate]** função neste campo para especificar o nome do arquivo.
 
 1. Se desejar, você pode compactar o arquivo de saída selecionando-o **[!UICONTROL Compression]** no **[!UICONTROL Add a pre-processing step]** campo. O arquivo de saída será compactado em um arquivo GZIP (.gz).
+
+   O **[!UICONTROL Add a pre-processing step]** campo também permite criptografar um arquivo antes de extraí-lo. Para obter mais informações sobre como trabalhar com arquivos criptografados, consulte [esta seção](../../automating/using/managing-encrypted-data.md)
+
 1. Clique no botão ![](assets/add_darkgrey-24px.png) ou **[!UICONTROL Add an element]** para adicionar uma coluna de saída.
 
    ![](assets/wkf_data_export2.png)
@@ -67,7 +73,7 @@ A forma como os dados serão extraídos é definida ao configurar a atividade.
 
 1. Clique na **[!UICONTROL File structure]** guia para configurar os formatos de saída, data e número para o arquivo que será exportado.
 
-   Marque a **[!UICONTROL Export labels instead of internal values of enumerations]** opção caso você exporte valores de enumeração. Essa opção permite recuperar rótulos mais curtos, fáceis de entender em vez de IDs.
+   Marque a **[!UICONTROL Export labels instead of internal values of enumerations]** opção caso você exporte valores de lista discriminada. Essa opção permite recuperar rótulos mais curtos, fáceis de entender em vez de IDs.
 
 1. Na **[!UICONTROL Properties]** guia, selecione a **[!UICONTROL Do not generate a file if the inbound transition is empty]** opção para evitar a criação e o upload de arquivos vazios em servidores SFTP se a transição de entrada estiver vazia.
 1. Confirme a configuração da atividade e salve o fluxo de trabalho.
@@ -78,9 +84,9 @@ O exemplo a seguir ilustra como configurar uma **[!UICONTROL Extract file]** ati
 
 O objetivo desse fluxo de trabalho é exportar uma lista de perfis na forma de um arquivo externo para que os dados possam ser usados fora do Adobe Campaign.
 
-1. Arraste e solte uma **[!UICONTROL Extract file]** atividade em seu fluxo de trabalho e coloque-a após a **[!UICONTROL Query]** atividade.
+1. Arraste e solte uma **[!UICONTROL Extract file]** atividade no seu fluxo de trabalho e coloque-a depois da **[!UICONTROL Query]** atividade.
 
-   Neste exemplo, a consulta é realizada em todos os perfis com idade entre 18 e 30 anos.
+   Neste exemplo, o query é realizado em todos os perfis com idade entre 18 e 30 anos.
 
 1. Abra a atividade Extrair arquivo para editá-la.
 1. Nomeie o arquivo de saída.
