@@ -13,7 +13,10 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
+source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
+workflow-type: tm+mt
+source-wordcount: '384'
+ht-degree: 4%
 
 ---
 
@@ -24,22 +27,22 @@ source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
 >
 >O serviço Destinos de Audiência está atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam estar hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente da Adobe se desejar acessar.
 
-Capacite suas experiências de consumidores aproveitando a plataforma [](https://docs.adobe.com/content/help/en/experience-platform/landing/home.html) Adobe Experience para criar audiências altamente direcionadas com base em conjuntos de dados grandes e complexos. A plataforma Adobe Experience consolida dados de perfil, comportamento e várias entidades em fontes online e offline, incluindo o Adobe Analytics, para ajudá-lo a criar uma visualização de 360 graus do seu cliente, permitindo que você gerencie com eficácia suas experiências de cliente.
+Capacite suas experiências de consumidores aproveitando a [Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/landing/home.html) para criar audiências altamente direcionadas com base em conjuntos de dados grandes e complexos. O Adobe Experience Platform consolida dados de perfil, comportamento e várias entidades em fontes online e offline, incluindo o Adobe Analytics, para ajudá-lo a criar uma visualização de 360 graus do seu cliente, permitindo que você gerencie com eficácia suas experiências de cliente.
 
-O Adobe Campaign Standard usará o serviço de Destinos **de** Audiência para recuperar uma coleção de perfis, conhecida como **Audiência**, da Adobe Experience Platform para programas de campanhas em várias etapas e/ou canais.
+O Adobe Campaign Standard usará o serviço de Destinos **da** Audiência para recuperar uma coleção de perfis, conhecida como **Audiências**, do Adobe Experience Platform para programas de campanha de várias etapas e/ou entre canais.
 
-**As Audiências** são criadas pela primeira vez criando **segmentos**, que são essencialmente um conjunto de regras baseado em praticamente qualquer variável (por exemplo, dados de perfil, evento e várias entidades) dentro de um perfil de cliente da Adobe Experience Platform para criar um público alvo multidimensional. Os conceitos globais nos serviços de Perfil e segmentação unificados são referenciados nestes documentos dedicados:
+**As Audiências** são criadas por meio da primeira criação de **segmentos**, que são essencialmente um conjunto de regras baseado em praticamente qualquer variável (por exemplo, perfil, evento, dados de várias entidades) dentro de um perfil do cliente a partir do Adobe Experience Platform para criar um público alvo multidimensional. Os conceitos globais dos Serviços de segmentação e Perfil do cliente em tempo real são mencionados nestes documentos dedicados:
 
-* [Visão geral do Perfil do cliente em tempo real](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
+* [Visão geral do Perfil do cliente em tempo real](https://docs.adobe.com/content/help/pt-BR/experience-platform/profile/home.html)
 * [Visão geral do Serviço de segmentação](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)
 
-Depois que um segmento é criado, você pode ativá-lo como uma audiência para um delivery em workflows [](../../automating/using/aep-targeting-audiences.md)Campaign Standard. Além disso, você pode usar dados contextuais da Adobe Experience Platform para [personalizar](../../automating/using/aep-personalizing-campaigns.md) e adicionar conteúdo dinâmico às suas campanhas.
+Depois que um segmento é criado, você pode ativá-lo como uma audiência para um delivery em workflows [](../../automating/using/aep-targeting-audiences.md)Campaign Standard. Além disso, você pode usar dados contextuais do Adobe Experience Platform para [personalizar](../../automating/using/aep-personalizing-campaigns.md) e adicionar conteúdo dinâmico às suas campanhas.
 
 Os vídeos passo a passo também estão disponíveis [nesta seção](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html).
 
 Termos usados nestas seções:
 
-* **Perfil**: O Perfil é um modelo de dados padrão da plataforma Experience, usado para definir os atributos dos consumidores. Um perfil também pode ser uma agregação de dados e atributos do evento relacionados a uma pessoa e/ou dispositivo.
+* **Perfil**: O Perfil é um modelo de dados padrão para o Experience Platform usado para definir atributos dos consumidores. Um perfil também pode ser uma agregação de dados e atributos do evento relacionados a uma pessoa e/ou dispositivo.
 
    Exemplo: &quot;John Doe é um homem de 55 anos.&quot;
 
