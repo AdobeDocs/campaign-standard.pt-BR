@@ -1,6 +1,6 @@
 ---
 title: Adicionar conteúdo dinâmico do Target
-description: Saiba como adicionar conteúdo dinâmico do Adobe Target em uma de suas entregas do Adobe Campaign.
+description: Saiba como adicionar conteúdo dinâmico de Adobe Target em um de seus delivery.
 page-status-flag: never-activated
 uuid: b3cc045f-7924-480e-8c61-8246510f3adb
 contentOwner: sauviat
@@ -12,16 +12,19 @@ discoiquuid: 45ddf7b7-98f7-4fdd-bb4a-49ec8490e877
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 594b2d3c3dcc1ec13ab06ca6219ad59fe1a267d8
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+workflow-type: tm+mt
+source-wordcount: '454'
+ht-degree: 31%
 
 ---
 
 
 # Adicionar conteúdo dinâmico do Target{#adding-target-dynamic-content}
 
-Com a integração do Adobe Target, as imagens dinâmicas podem ser adicionadas a uma entrega para personalizar seu conteúdo, dependendo das experiências.
+Com a integração do Adobe Target, as imagens dinâmicas podem ser adicionadas a um delivery para personalizar seu conteúdo, dependendo das experiências.
 
-Ao editar um email, você pode inserir uma imagem dinâmica do Adobe Target que será alterada dependendo dos destinatários.
+Ao editar um email, você pode inserir uma imagem dinâmica do Adobe Target que mudará dependendo dos recipient.
 
 Antes de acessar a imagem no Adobe Campaign, as seguintes tarefas devem ser executadas primeiro no Adobe Target:
 
@@ -31,7 +34,7 @@ Antes de acessar a imagem no Adobe Campaign, as seguintes tarefas devem ser exec
 * Crie segmentos usando informações do Adobe Campaign para especificar experiências. Para usar dados do Adobe Campaign nas regras de seleção da oferta, especifique os dados no rawbox no Adobe Target.
 
 1. Crie um delivery de email
-1. Ao editar o conteúdo de um email ou de uma página de aterrissagem, vá para um bloco de imagem e selecione-o **[!UICONTROL Dynamic image from Adobe Target]** pelo menu contextual.
+1. Ao editar o conteúdo de um email ou de uma landing page, vá para um bloco de imagem e selecione-o **[!UICONTROL Dynamic image from Adobe Target]** pelo menu contextual.
 
    ![](assets/tar_insert_dynamic_image.png)
 
@@ -40,20 +43,20 @@ Antes de acessar a imagem no Adobe Campaign, as seguintes tarefas devem ser exec
    A integração só oferece suporte a imagens estáticas. O restante do conteúdo não é personalizável.
 
 1. Insira o nome do rawbox especificado no Adobe Target.
-1. Se você usar permissões do Enterprise em suas configurações no Adobe Target, adicione a propriedade correspondente nesse campo. Saiba mais sobre as permissões do Target Enterprise [nesta página](https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html). Este campo é opcional e não é necessário se você não usar permissões do Enterprise no Target.
-1. In **[!UICONTROL Additional decision parameters]**, specify the mapping between the fields defined in the Adobe Target segments and the Adobe Campaign fields.
+1. Se você usar permissões do Enterprise em suas configurações no Adobe Target, adicione a propriedade correspondente nesse campo. Saiba mais sobre as permissões do Target Enterprise [nesta página](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html). Este campo é opcional e não é necessário se você não usar permissões do Enterprise no Target.
+1. Em **[!UICONTROL Additional decision parameters]**, especifique o mapeamento entre os campos definidos nos segmentos do Adobe Target e os campos do Adobe Campaign.
 
-   Os campos do Adobe Campaign usados devem ter sido especificados no rawbox. Aqui, definiremos experiências diferentes dependendo do gênero do destinatário.
+   Os campos do Adobe Campaign usados devem ter sido especificados no rawbox. Aqui, definiremos experiências diferentes dependendo do gênero do recipient.
 
    ![](assets/tar_additional_decisionning_parameters.png)
 
-1. Visualize seu email para ver se, ao selecionar perfis diferentes, a imagem inserida muda dependendo dos parâmetros especificados na atividade do Adobe Target e no Adobe Campaign.
+1. Pré-visualização seu email para ver se, ao selecionar perfis diferentes, a imagem inserida muda dependendo dos parâmetros especificados na atividade Adobe Target e no Adobe Campaign.
 
-Sua entrega contendo a imagem dinâmica agora pode ser enviada. Seus resultados podem ser encontrados no Adobe Target.
+Seu delivery que contém a imagem dinâmica agora pode ser enviado. Seus resultados podem ser encontrados em Adobe Target.
 
 **Tópicos relacionados:**
 
-* [Portal do Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html)
+* [Portal Adobe Target](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
 * [Sobre o design de conteúdo de email](../../designing/using/designing-content-in-adobe-campaign.md)
-* [Personalizar imagens de email em vídeo em tempo](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) real
+* [Personalizar imagens de e-mail em vídeo em tempo](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) real
 
