@@ -4,9 +4,9 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Ajuda do Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: c7bac40fc736c107dcdbc910ab35b9eb53a915f6
+source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
 workflow-type: tm+mt
-source-wordcount: '1403'
+source-wordcount: '1402'
 ht-degree: 92%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 92%
    + Trabalhar com a Adobe Experience Platform {#working-with-adobe-experience-platform}
       + [Sobre o serviço Destinos do Audience](audiences/using/aep-about-audience-destinations-service.md)
       + [Gerenciamento de públicos da plataforma Adobe Experience](audiences/using/aep-managing-audiences.md)
-      + [Uso do Construtor de segmentos unificados](audiences/using/aep-using-segment-builder.md)
+      + [Uso do Construtor de segmentos](audiences/using/aep-using-segment-builder.md)
 + Canais de comunicação {#communication-channels}
    + [Introdução aos canais de comunicação](channels/using/get-started-communication-channels.md)
    + Sobre os canais de comunicação {#about-communication-channels}
