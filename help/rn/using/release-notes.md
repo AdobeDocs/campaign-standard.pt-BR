@@ -12,10 +12,10 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e59562bd4f258c4259b8e8e5d9648397d5718792
+source-git-commit: c70d7172af12c2ccad0468f0afdba87bcf4ac839
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 5%
+source-wordcount: '1060'
+ht-degree: 6%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 5%
 # Versão mais recente{#latest-release}
 
 [Planejamento de versão](../../rn/using/release-planning.md) | Versões [do Painel de controle](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html) | Atualizações [da documentação](../../rn/using/documentation-updates.md) | Notas de versão [anteriores](../../rn/using/release-notes-2020.md) | Recursos [obsoletos](../../rn/using/deprecated-features.md)
+
+![](assets/do-not-localize/cp-icon.png) **Nova versão** de junho do Painel de controle com monitoramento de perfis ativos, auditoria de entregabilidade de subdomínio e gerenciamento de chaves GPG. See [Control Panel Release Notes](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html).
 
 ## Versão 20.3 - maio de 2020 {#release-20-3---may-2020}
 
@@ -69,9 +71,7 @@ ht-degree: 5%
 </tbody> 
 </table>
 
->[!NOTE]
->
->A renovação do certificado para subdomínios CNAME é lançada no Painel de Controle de Campanha em maio. Para obter mais informações, consulte a Nota [de versão do painel](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html)de controle.
+![](assets/do-not-localize/cp-icon.png) **Novo Painel de controle Pode ser lançado** com a renovação do certificado para subdomínios CNAME. See [Control Panel Release Notes](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html).
 
 **Aprimoramentos**
 
@@ -100,9 +100,9 @@ ht-degree: 5%
 * Adicionado o idioma ES-US na lista de idiomas prontos para uso para emails multilíngues. (CAMP-42279)
 * Os arquivos baixados com uma atividade Transferir arquivo serão excluídos depois de X dias, onde X é determinado pelo campo **Histórico em dias** no menu **Execução** nas propriedades Fluxo de trabalho. [Leia mais](../../automating/using/managing-execution-options.md)
 
-**Integrações da plataforma Experience**
+**integrações de Experience Platform**
 
-* A Ativação das Audiências [da plataforma Adobe](../../automating/using/aep-targeting-audiences.md) Experience da atividade **Read audiência** foi aprimorada para oferecer melhor desempenho e estabilidade. Além disso, os logs de fluxo de trabalho foram tornados mais claros e detalhados em relação aos trabalhos de ativação, permitindo um monitoramento e solução de problemas mais fáceis ao ler as audiências da plataforma Adobe Experience.
+* A Ativação das Audiências [do Adobe](../../automating/using/aep-targeting-audiences.md) Experience Platform da atividade **Read audiência** foi aprimorada para oferecer melhor desempenho e estabilidade. Além disso, os logs de fluxo de trabalho foram tornados mais claros e detalhados em relação aos trabalhos de ativação, permitindo um monitoramento e solução de problemas mais fáceis ao ler audiências de Adobe Experience Platform.
 
 **Correções**
 
