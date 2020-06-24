@@ -4,10 +4,10 @@ solution: Campaign Standard
 title: Documentação do produto Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 01fed9b50964ae15a2127a1a2f9a3ebca944d6b1
+source-git-commit: 7ceca9dbdd33d3186f476be8ecb5871e5c1d9c9c
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 93%
+source-wordcount: '199'
+ht-degree: 91%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 93%
 
 ## Novidades
 
-* Os termos &quot;lista branca&quot; e &quot;lista negra&quot; foram removidos da documentação do Adobe Campaign. [Leia mais](rn/using/documentation-updates.md)
-
 * **[Gerenciamento de privacidade](https://helpx.adobe.com/br/campaign/kb/campaign-privacy.html)**<br/>
 Saiba mais sobre as ferramentas fornecidas pelo Adobe Campaign para ajudá-lo a estar em conformidade com a privacidade
+
+* **[API](automating/using/external-api.md)**<br/>externa Use a atividade de API externa para trazer dados para o fluxo de trabalho de um sistema externo
 
 * **[Guia do Campaign Standard Mobile](https://helpx.adobe.com/br/campaign/kb/acs-mobile.html)**<br/>
 Saiba mais sobre diretrizes gerais para entregas móveis
