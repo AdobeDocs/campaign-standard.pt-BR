@@ -13,7 +13,10 @@ context-tags: fileTransfer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3e90acaa1c2b3de2240f01e5dc3440be44e65eba
+source-git-commit: 175709a41607bb9d64da7fac77dd749fa84f7360
+workflow-type: tm+mt
+source-wordcount: '1075'
+ht-degree: 2%
 
 ---
 
@@ -30,12 +33,15 @@ A **[!UICONTROL Transfer file]** atividade permite que você receba ou envie arq
 >
 >A partir da versão 20.3, os arquivos baixados com a **[!UICONTROL Transfer File]** atividade serão excluídos após X dias, onde X é determinado pelo **[!UICONTROL History in days]** campo sob o **[!UICONTROL Execution]** menu nas propriedades do Workflow.
 
-
 ## Contexto de utilização {#context-of-use}
 
 A forma como os dados serão extraídos é definida quando a atividade for configurada. O arquivo a ser carregado pode ser uma lista de contatos, por exemplo.
 
 Você pode usar essa atividade para recuperar dados que serão estruturados com a **[!UICONTROL Load file]** atividade.
+
+**Tópicos relacionados:**
+
+* [Caso de uso: Atualização de dados com base em um download automático de arquivo](../../automating/using/update-data-automatic-download.md)
 
 ## Configuração {#configuration}
 
@@ -112,7 +118,7 @@ O protocolo Amazon S3 permite que você faça o start de baixar um arquivo de um
 
 O protocolo Blob do Microsoft Azure permite acessar blob localizado em uma conta de Armazenamento Blob do Microsoft Azure.
 
-1. Selecione uma **[!UICONTROL Microsoft Azure Blob]** conta externa. Para obter mais informações, consulte esta [página](../../administration/using/external-accounts.md#microsoft-azure-external-account).
+1. Select a **[!UICONTROL Microsoft Azure Blob]** external account. Para obter mais informações, consulte esta [página](../../administration/using/external-accounts.md#microsoft-azure-external-account).
 
 1. Escolha se quiser **[!UICONTROL Define a file path]** ou **[!UICONTROL Use a dynamic file path]**.
 
@@ -162,19 +168,3 @@ Toda vez que a atividade é executada, a pasta é verificada da seguinte maneira
 >[!NOTE]
 >
 >Se a atividade não for executada novamente, sua pasta não será verificada nem removida. Pensando nisso, tenha cuidado ao transferir arquivos grandes.
-
-## Exemplo {#example}
-
-O exemplo a seguir mostra a configuração de uma atividade de transferência **de** Arquivo que será seguida por uma atividade de arquivo **** Carregar e depois por uma atividade de dados **** Atualizar. O objetivo desse fluxo de trabalho é adicionar ou atualizar os perfis do banco de dados do Adobe Campaign com os dados recuperados pelo fluxo de trabalho.
-
-1. Arraste e solte uma atividade de arquivo **de** transferência no seu fluxo de trabalho.
-1. Selecione a atividade e abra-a usando o ![](assets/edit_darkgrey-24px.png) botão das ações rápidas que aparecem.
-1. Na **[!UICONTROL Protocol]** guia, selecione **SFTP**.
-1. Selecione **Usar parâmetros de conexão definidos em uma opção de conta externa** .
-1. Digite o nome da conta externa.
-1. Digite o caminho **Arquivo no servidor** remoto.
-
-   ![](assets/wkf_file_transfer_07.png)
-
-1. Confirme sua atividade e salve seu fluxo de trabalho.
-
