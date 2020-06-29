@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Ajuda do Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 92%
+source-wordcount: '1524'
+ht-degree: 84%
 
 ---
 
@@ -105,7 +105,6 @@ ht-degree: 92%
       + [Criação do correio direto](channels/using/creating-the-direct-mail.md)
       + [Definição do público-alvo do correio direto](channels/using/defining-the-direct-mail-audience.md)
       + [Definição do conteúdo de correio direto](channels/using/defining-the-direct-mail-content.md)
-      + [Exemplo de correio direto em um fluxo de trabalho](channels/using/example-of-direct-mail-in-a-workflow.md)
    + Mensagens transacionais {#transactional-messaging}
       + [Sobre mensagens transacionais](channels/using/about-transactional-messaging.md)
       + [Mensagens transacionais de evento](channels/using/event-transactional-messages.md)
@@ -246,9 +245,9 @@ ht-degree: 92%
       + [Interface do fluxo de trabalho](automating/using/workflow-interface.md)
       + [Criação de um fluxo de trabalho](automating/using/building-a-workflow.md)
       + [Práticas recomendadas do fluxo de trabalho](automating/using/best-practices-workflows.md)
-   + Execução de um workflow {#executing-a-workflow}
+   + Execução de um fluxo de trabalho {#executing-a-workflow}
       + [Sobre a execução do fluxo de trabalho](automating/using/about-workflow-execution.md)
-      + [Ciclo de vida do workflow](automating/using/workflow-life-cycle.md)
+      + [Ciclo de vida do fluxo de trabalho](automating/using/workflow-life-cycle.md)
       + [Comandos de execução](automating/using/execution-commands.md)
       + [Monitoramento da execução do workflow](automating/using/monitoring-workflow-execution.md)
       + [Gerenciamento de opções de execução](automating/using/managing-execution-options.md)
@@ -305,14 +304,38 @@ ht-degree: 92%
       + [Gerenciamento de pacotes](automating/using/managing-packages.md)
       + [Exportar listas](automating/using/exporting-lists.md)
       + [Caso de uso: exportação / importação de recursos personalizados](automating/using/exporting-importing-custom-resources.md)
-   + Casos de uso: fluxos de trabalho {#workflow-use-case}
-      + [Criar entregas com um complemento](automating/using/workflow-created-query-with-complement.md)
-      + [Criar entregas na data de criação](automating/using/workflow-creation-date-query.md)
-      + [Criar uma entrega semanal](automating/using/workflow-weekly-offer.md)
-      + [Criar uma segmentação no local](automating/using/workflow-segmentation-location.md)
-      + [Redirecionamento de não-iniciadores](automating/using/workflow-cross-channel-retargeting.md)
-      + [Criação de um grupo de controle](automating/using/workflow-control-group.md)
-      + [Criação de uma entrega entre canais](automating/using/workflow-cross-channel-delivery.md)
+   + Casos de uso {#workflow-use-case}
+      + Deliveries {#deliveries}
+         + [Criar entregas com um complemento](automating/using/workflow-created-query-with-complement.md)
+         + [Criação de delivery na data de criação dos perfis](automating/using/workflow-creation-date-query.md)
+         + [Criar uma entrega semanal](automating/using/workflow-weekly-offer.md)
+         + [Criação de uma entrega entre canais](automating/using/workflow-cross-channel-delivery.md)
+         + [Identificação de duplicados antes de um delivery](automating/using/identifying-duplicated-before-delivery.md)
+         + [delivery de aniversário](automating/using/birthday-delivery.md)
+         + [Conexão de delivery de email e de mala direta](automating/using/coupling-email-direct-mail.md)
+         + [Envio de um email com campos aprimorados](automating/using/sending-email-enriched-fields.md)
+         + [Personalização de um email com dados adicionais](automating/using/personalizing-email-with-additional-data.md)
+      + Segmentação e direcionamento {#segmentation-targeting}
+         + [Amostras de query](automating/using/query-samples.md)
+         + [União em duas audiências refinadas](automating/using/union-on-two-refined-audiences.md)
+         + [Criar uma segmentação no local](automating/using/workflow-segmentation-location.md)
+         + [Redirecionamento de não-iniciadores](automating/using/workflow-cross-channel-retargeting.md)
+         + [Query incremental dos assinantes de um serviço](automating/using/incremental-query-on-subscribers.md)
+         + [Segmentação de acordo com grupos etários](automating/using/segmentation-age-groups.md)
+         + [Uso de recursos diferentes de targeting dimension](automating/using/using-resources-different-from-targeting-dimensions.md)
+         + [Criação de um grupo de controle](automating/using/workflow-control-group.md)
+      + gerenciamento de dados {#data-management}
+         + [Reconciliar uma audiência de arquivo com o banco de dados](automating/using/reconcile-file-audience-with-database.md)
+         + [Desduplicando os dados de um arquivo importado](automating/using/deduplicating-data-imported-file.md)
+         + [Enriquecendo os dados do perfil com os dados contidos em um arquivo](automating/using/enriching-profile-data-file.md)
+         + [atividade de sinal externo e importação de dados](automating/using/external-signal-data-import.md)
+         + [Atualização do banco de dados com dados externos](automating/using/update-database-file.md)
+         + [Atualização de dados com base em um download automático de arquivo](automating/using/update-data-automatic-download.md)
+         + [Reconciliação de dados usando relações](automating/using/reconciliation-using-relations.md)
+         + [Atualização de dados usando reconciliação](automating/using/data-update-reconciliation.md)
+         + [Exportar perfis em um arquivo externo](automating/using/exporting-profiles-in-file.md)
+         + [Atualização de vários status de subscrição de um arquivo](automating/using/updating-subscriptions-from-file.md)
+         + [Assinatura de perfis de um arquivo para um serviço específico](automating/using/subscribing-profiles-from-file.md)
    + Trabalhar com públicos da Adobe Experience Platform {#working-with-aep-audiences}
       + [Definição de públicos da Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
       + [Personalização de campanhas usando atributos da Adobe Experience Platform](automating/using/aep-personalizing-campaigns.md)
