@@ -13,10 +13,10 @@ context-tags: delivery,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6e87dc8f299f0c9fbb33e5e56c0a76cfef0aa9a6
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 1%
+source-wordcount: '857'
+ht-degree: 0%
 
 ---
 
@@ -44,6 +44,14 @@ Quando vinculado a um scheduler, você pode definir emails recorrentes.
 Os recipient de e-mail são definidos a montante da atividade no mesmo fluxo de trabalho, por meio de atividades de direcionamento, como query, interseções etc.
 
 A preparação da mensagem é acionada de acordo com os parâmetros de execução do fluxo de trabalho. No painel da mensagem, você pode selecionar se deseja solicitar ou não uma confirmação manual para enviar a mensagem (obrigatório por padrão). Você pode start o fluxo de trabalho manualmente ou colocar uma atividade de scheduler no fluxo de trabalho para automatizar a execução.
+
+**Tópicos relacionados:**
+
+* [Caso de uso: Criar um delivery de email uma vez por semana](../../automating/using/workflow-weekly-offer.md)
+* [Caso de uso: Criação de um delivery segmentado na localização](../../automating/using/workflow-segmentation-location.md)
+* [Caso de uso: Criação de delivery com um complemento](../../automating/using/workflow-created-query-with-complement.md)
+* [Caso de uso: Fluxo de trabalho de redefinição de metas enviando um novo delivery para não iniciantes](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Caso de uso: delivery de aniversário](../../automating/using/birthday-delivery.md)
 
 ## Configuração {#configuration}
 
@@ -76,7 +84,7 @@ A preparação da mensagem é acionada de acordo com os parâmetros de execuçã
 
 Ao reabrir a atividade, você será direcionado diretamente para o painel de email. Somente seu conteúdo pode ser editado.
 
-Por padrão, iniciar um fluxo de trabalho de delivery aciona somente a preparação da mensagem. O envio de mensagens criadas a partir de um fluxo de trabalho ainda precisa ser confirmado depois que o fluxo de trabalho for iniciado. Mas a partir do painel de mensagem, e somente se a mensagem tiver sido criada a partir de um fluxo de trabalho, você poderá desativar a **[!UICONTROL Request confirmation before sending messages]** opção. Ao desmarcar essa opção, as mensagens são enviadas sem aviso prévio após a preparação.
+Por padrão, iniciar um fluxo de trabalho de delivery aciona somente a preparação da mensagem. O envio de mensagens criadas a partir de um fluxo de trabalho ainda precisa ser confirmado depois que o fluxo de trabalho for iniciado. Mas a partir do painel de mensagem e somente se a mensagem tiver sido criada a partir de um fluxo de trabalho, você poderá desativar a **[!UICONTROL Request confirmation before sending messages]** opção. Ao desmarcar essa opção, as mensagens são enviadas sem aviso prévio após a preparação.
 
 ## Observações {#remarks}
 
@@ -91,28 +99,3 @@ No entanto, as execuções de delivery recorrentes são mascaradas por padrão. 
 Nos delivery pais, que podem ser acessados a partir da lista de atividade de marketing ou diretamente por meio das execuções recorrentes associadas, é possível visualização o número total de envios que foram processados (de acordo com o período de agregação especificado quando a **[!UICONTROL Email delivery]** atividade foi configurada). Para fazer isso, abra a visualização detalhada do bloco pai do delivery **[!UICONTROL Deployment]** selecionando ![](assets/wkf_dlv_detail_button.png).
 
 ![](assets/wkf_display_recurrent_executions_3.png)
-
-## Exemplo {#example}
-
-![](assets/wkf_delivery_example_1.png)
-
-Este exemplo é um fluxo de trabalho de aniversário. Todos os dias, um e-mail é enviado a perfis cujo aniversário é nesse dia. Para fazer isso:
-
-* O **[!UICONTROL Scheduler]** permite que você start o fluxo de trabalho todos os dias às 8h00.
-
-   ![](assets/wkf_delivery_example_2.png)
-
-* A **[!UICONTROL Query]** atividade permite calcular os perfis que forneceram um email e cujo aniversário é no dia atual, toda vez que o fluxo de trabalho é executado. O cálculo de aniversário é executado usando um filtro predefinido disponível na paleta na ferramenta de edição de query.
-
-   ![](assets/wkf_delivery_example_3.png)
-
-* O **[!UICONTROL Email]** é recorrente. Os envios são agregados por mês. Assim, todos os emails enviados em um mês são agregados em uma única visualização. Em um ano, 365 delivery são, portanto, executados, mas são agrupados em 12 visualizações (também chamadas de execuções **** recorrentes) na interface do Adobe Campaign. Os detalhes do histórico e do relatório são exibidos todos os meses e não para cada envio.
-
-   ![](assets/wkf_delivery_example_4.png)
-
-**Tópicos relacionados**
-
-* [Caso de uso: Criar um delivery de email uma vez por semana](../../automating/using/workflow-weekly-offer.md)
-* [Caso de uso: Criação de um delivery segmentado na localização](../../automating/using/workflow-segmentation-location.md)
-* [Caso de uso: Criação de delivery com um complemento](../../automating/using/workflow-created-query-with-complement.md)
-* [Caso de uso: Fluxo de trabalho de redefinição de metas enviando um novo delivery para não iniciantes](../../automating/using/workflow-cross-channel-retargeting.md)
