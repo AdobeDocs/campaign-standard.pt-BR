@@ -13,9 +13,9 @@ context-tags: union,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '377'
 ht-degree: 1%
 
 ---
@@ -36,6 +36,10 @@ A **[!UICONTROL Union]** atividade permite que você reagrupe o resultado de vá
 ## Contexto de utilização {#context-of-use}
 
 A **[!UICONTROL Union]** atividade é usada para combinar as populações das transições de entrada ao executar uma segmentação, definir uma audiência ou ao preparar o público alvo de mensagens, por exemplo.
+
+**Tópicos relacionados:**
+
+* [Caso de uso: União em duas audiências refinadas](../../automating/using/union-on-two-refined-audiences.md)
 
 ## Configuração {#configuration}
 
