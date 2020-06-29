@@ -13,9 +13,9 @@ context-tags: segmentation,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 740de9fe4666bf12fc97cfa434414668d9394504
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,18 @@ A **[!UICONTROL Segmentation]** atividade permite criar um ou vários segmentos 
 >
 >Por padrão, um membro da população de entrada só pode pertencer a um único segmento. Os filtros são aplicados de acordo com a ordem dos segmentos na atividade.
 
+**Tópicos relacionados:**
+* [Caso de uso: Segmentação no local](../../automating/using/workflow-segmentation-location.md)
+* [Caso de uso: Criação de um grupo de controle](../../automating/using/workflow-control-group.md)
+* [Caso de uso: Segmentação de acordo com grupos etários](../../automating/using/segmentation-age-groups.md)
+
 ## Contexto de utilização {#context-of-use}
 
 A **[!UICONTROL Segmentation]** atividade geralmente é colocada após a definição de metas de atividades (query, interseção, união, exclusão etc.) para definir a população padrão com base na qual os segmentos são formados.
+
+**Tópicos relacionados**
+
+* [Caso de uso: Segmentação de perfis de acordo com seus grupos](../../automating/using/segmentation-age-groups.md)etários.
 
 ## Configuração {#configuration}
 
@@ -91,31 +100,6 @@ A **[!UICONTROL Segmentation]** atividade geralmente é colocada após a defini�
 
    * Marque a **[!UICONTROL Enable overlapping of outbound populations]** opção se desejar que um membro da população de entrada pertença a vários segmentos ao mesmo tempo. A população de saída da atividade pode exceder a população de entrada.
    * Marque a **[!UICONTROL Concatenate the code of each segment]** opção se a população de entrada já tiver recebido um código de segmento que você deseja manter. O código de segmento especificado na atividade será adicionado ao código de segmento inicial.
-   * Check the **[!UICONTROL Generate complement]** option if you would like to exploit the remaining population.
+   * Check the **[!UICONTROL Generate complement]** option if you would like to exploit the remaining population. Consulte Caso de [uso: Criação de delivery com um complemento](../../automating/using/workflow-created-query-with-complement.md).
 
 1. Confirme a configuração da atividade e salve o fluxo de trabalho.
-
-## Exemplo {#example}
-
-O exemplo a seguir mostra uma segmentação de perfis de banco de dados de acordo com sua faixa etária. O objetivo do fluxo de trabalho é enviar um email específico para cada faixa etária. Considerando o fato de que esse fluxo de trabalho é parte de uma campanha de teste, cada segmento só pode conter um máximo de 100 perfis selecionados aleatoriamente para usar audiências limitadas e representativas ao mesmo tempo.
-
-![](assets/wkf_segment_example_4.png)
-
-O fluxo de trabalho é composto dos seguintes elementos:
-
-* Uma **[!UICONTROL Scheduler]** atividade para especificar a data de execução do fluxo de trabalho. Refer to the [Scheduler](../../automating/using/scheduler.md) section.
-* Uma **[!UICONTROL Query]** atividade aos perfis públicos alvos de pessoas cujo endereço de aniversário e email foram inseridos. Refer to the [Query](../../automating/using/query.md) section.
-* Uma **[!UICONTROL Segmentation]** atividade para criar três segmentos divididos em diferentes transições de saída: Com 18-25 anos, 26-32 anos e perfis com mais de 32 anos. Os segmentos são definidos de acordo com os seguintes parâmetros:
-
-   ![](assets/wkf_segment_example_3.png)
-
-   * Um filtro na página para definir a faixa etária do segmento
-
-      ![](assets/wkf_segment_new_segment.png)
-
-   * Um limite **[!UICONTROL Random sampling]** de tipo vinculado a um **[!UICONTROL Maximum size]** limite de 100
-
-      ![](assets/wkf_segment_example_1.png)
-
-* Uma **[!UICONTROL Email delivery]** atividade por segmento. Refer to the [Email delivery](../../automating/using/email-delivery.md) section.
-
