@@ -1,24 +1,27 @@
 ---
-title: '"Caso de uso do fluxo de trabalho: Criar entregas com um complemento"'
-description: '"Caso de uso do fluxo de trabalho: Criar entregas com um complemento"'
-page-status-flag: nunca ativado
+title: Criar entregas com um complemento
+description: Este caso de uso mostra como criar delivery com um complemento.
+page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatização
-content-type: referência
-topic-tags: atividades de execução
+audience: automating
+content-type: reference
+topic-tags: execution-activities
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
-context-tags: fluxo de trabalho,caso de uso,segmentação
+context-tags: workflow,use-case,segmentation
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 7%
 
 ---
 
 
-# Caso de uso do fluxo de trabalho: Criação de entregas com um complemento {#deliveries-with-complement}
+# Criar entregas com um complemento {#deliveries-with-complement}
 
 Você pode enviar um email para os clientes: um para clientes criados há menos de um ano, um para clientes criados há mais de um ano.
 
@@ -26,26 +29,26 @@ Você pode enviar um email para os clientes: um para clientes criados há menos 
 1. Selecione **[!UICONTROL New Workflow]** como tipo de fluxo de trabalho e clique em **[!UICONTROL Next]**.
 1. Insira as propriedades do fluxo de trabalho e clique em **[!UICONTROL Create]**.
 
-## Criar uma atividade de consulta {#create-a-query-activity}
+## Criar uma atividade de Query {#create-a-query-activity}
 
-1. Em **[!UICONTROL Activities]** &gt; **[!UICONTROL Targeting]**, arraste e solte um **[!UICONTROL Query activity]**![](assets/query.png).
-1. Clique duas vezes na atividade.
+1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arraste e solte uma atividade de [Query](../../automating/using/query.md) .
+1. Duplo clique na atividade.
 1. Em **[!UICONTROL Shortcuts]**, arraste e solte **[!UICONTROL Profiles]** e selecione **[!UICONTROL email]** com o operador **[!UICONTROL is not empty]**.
 1. Em **[!UICONTROL Shortcuts]**, arraste e solte **[!UICONTROL Profiles]** e selecione **[!UICONTROL no longer contact by email]** com o valor **[!UICONTROL no]**.
-1. Click **[!UICONTROL Confirm]**.
+1. Clique em **[!UICONTROL Confirm]**.
 
 ![](assets/wf-complement-query.png)
 
 ## Criar uma atividade de segmentação {#create-a-segmentation-activity}
 
-1. Em **[!UICONTROL Activities]** &gt; **[!UICONTROL Targeting]**, arraste e solte uma **[!UICONTROL Segmentation]** atividade e clique duas vezes nela.
-1. Passe o mouse sobre o segmento e clique em para direcionar clientes adicionados este ano ao banco de dados. ![](assets/edit_darkgrey-24px.png)
+1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arraste e solte uma atividade de [Segmentação](../../automating/using/segmentation.md) e clique no duplo.
+1. Passe o cursor do mouse sobre o segmento e clique em ![](assets/edit_darkgrey-24px.png) para clientes do público alvo adicionados este ano no banco de dados.
 1. Arraste e solte **[!UICONTROL Profiles]** e selecione **[!UICONTROL Created]** com o tipo de filtro **[!UICONTROL Relative]**.
 1. Altere **[!UICONTROL Level of precision]** para **[!UICONTROL Year]** e selecione **[!UICONTROL This year]**.
 1. Clique **[!UICONTROL Confirm]** duas vezes.
-1. Em **[!UICONTROL Advanced Options]**, marque **[!UICONTROL Generate complement]** para criar um segmento direcionado para os destinatários restantes.
-1. Click **[!UICONTROL Confirm]**.
-1. Click **[!UICONTROL Save]**.
+1. Em **[!UICONTROL Advanced Options]**, marque **[!UICONTROL Generate complement]** para criar um segmento direcionando os recipient restantes.
+1. Clique em **[!UICONTROL Confirm]**.
+1. Clique em **[!UICONTROL Save]**.
 
 ![](assets/wf-complement-segmentation.png)
 
@@ -55,23 +58,17 @@ Você pode enviar um email para os clientes: um para clientes criados há menos 
 
 ## Creating an Email delivery {#create-an-email-delivery}
 
-1. Em **[!UICONTROL Activities]** &gt; **[!UICONTROL Channels]**, arraste e solte uma entrega de email após cada segmento.
+1. Em **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, arraste e solte uma atividade de delivery [de e-](../../automating/using/email-delivery.md) mail após cada segmento.
 1. Clique na atividade e selecione ![](assets/edit_darkgrey-24px.png) para editar.
 1. Selecione **[!UICONTROL Single send email]** e clique em **[!UICONTROL Next]**.
 1. Selecione um modelo de email e clique em **[!UICONTROL Next]**.
 1. Insira as propriedades do email e clique em **[!UICONTROL Next]**.
 1. Para criar o layout do seu email, clique em **[!UICONTROL Email Designer]**.
 1. Insira elementos ou selecione um modelo existente.
-1. Personalize seu email com ofertas específicas para cada entrega.
+1. Personalize seu email com ofertas específicas para cada delivery.
 1. Clique **[!UICONTROL Preview]** para verificar seu layout.
-1. Click **[!UICONTROL Save]**.
+1. Clique em **[!UICONTROL Save]**.
 
 Para obter mais informações, consulte a [criação de um email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
 ![](assets/wf-deliveries-with-a-complement.png)
-
-**Tópicos relacionados:**
-
-* [Consulta](../../automating/using/query.md)
-* [Atividade de segmentação](../../automating/using/segmentation.md)
-* [Entrega por email](../../automating/using/email-delivery.md)
