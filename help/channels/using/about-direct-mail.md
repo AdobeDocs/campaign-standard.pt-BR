@@ -13,7 +13,10 @@ context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '455'
+ht-degree: 30%
 
 ---
 
@@ -38,6 +41,10 @@ O processo do usuário no Adobe Campaign é o seguinte:
 1. Definição da data de contato
 1. Gerando o arquivo
 
+**Tópicos relacionados:**
+
+* [Caso de uso: Conexão de delivery de email e de mala direta](../../automating/using/coupling-email-direct-mail.md)
+
 ## Recomendações {#recommendations}
 
 ### Provedores de mala direta {#direct-mail-providers}
@@ -57,4 +64,3 @@ O Adobe Campaign oferta um conjunto de campos calculados predefinidos que seguem
 An address can contain up to six lines by default: the first calculated field (**[!UICONTROL Line 1]** contains the first name and last name, the next lines contain the postal address (road etc.), and the last line contains the ZIP/Postal code and town or city.
 
 ![](assets/direct_mail_23.png)
-
