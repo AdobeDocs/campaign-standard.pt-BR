@@ -1,6 +1,6 @@
 ---
-title: '"Caso de uso do fluxo de trabalho: delivery entre canais"'
-description: '"Caso de uso do fluxo de trabalho: delivery entre canais"'
+title: delivery entre canais
+description: Este caso de uso mostra como criar um delivery entre canais
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -13,12 +13,15 @@ context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+workflow-type: tm+mt
+source-wordcount: '862'
+ht-degree: 2%
 
 ---
 
 
-# Caso de uso do fluxo de trabalho: Criação de um delivery entre canais{#cross-channel-delivery}
+# Criação de uma entrega entre canais{#cross-channel-delivery}
 
 Este documento permite descobrir a seguinte funcionalidade de Adobe Campaign por meio de um caso de uso padrão: criação de um fluxo de trabalho de delivery entre canais.
 
@@ -51,7 +54,7 @@ Depois que o fluxo de trabalho for criado, você poderá acessar sua interface.
 
 Insira uma atividade de Query em seu fluxo de trabalho para público alvo dos perfis que receberão seus delivery.
 
-1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arraste e solte um **[!UICONTROL Query activity]**.
+1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arraste e solte uma atividade de [Query](../../automating/using/query.md) .
 1. Duplo clique na atividade.
 1. Na **[!UICONTROL Target]** guia, navegue pelos atalhos e selecione uma de suas [audiências](../../audiences/using/about-audiences.md).
 1. Arraste e solte o atalho na zona de edição. De acordo com o tipo de atalho selecionado, uma janela será exibida.
@@ -63,13 +66,11 @@ Insira uma atividade de Query em seu fluxo de trabalho para público alvo dos pe
 
 Use o **[!UICONTROL Count]** botão para ver uma estimativa do número de perfis direcionados pelo query.
 
-As etapas detalhadas para criar uma atividade de Query são apresentadas na seção [Query](../../automating/using/query.md) .
-
 ## Criação de uma atividade de segmentação {#creating-segmentation-activity}
 
 Depois que seu público alvo é identificado pela atividade do Query, é necessário selecionar um critério para segmentar o público alvo em duas populações diferentes: um receberá um email e o outro receberá um SMS.
 
-É necessário usar uma atividade de segmentação para criar um ou vários segmentos a partir de uma população calculada em upstream em um query.
+É necessário usar uma atividade de [segmentação](../../automating/using/segmentation.md) para criar um ou vários segmentos a partir de uma população calculada em upstream em um query.
 
 ![](assets/wkf_segment_activity.png)
 
@@ -114,11 +115,9 @@ Sua segunda transição agora também está configurada.
 
 ![](assets/wkf_segment_transitions.png)
 
-As etapas detalhadas para criar uma atividade de segmentação são apresentadas na seção [Segmentação](../../automating/using/segmentation.md) .
-
 ## Criar entregas {#creating-deliveries}
 
-Como duas transições já foram criadas, você deve adicionar dois tipos de delivery às transições de saída da atividade de Segmentação: um **[!UICONTROL Email delivery]** e um **[!UICONTROL SMS delivery]**.
+Como duas transições já foram criadas, você deve adicionar dois tipos de delivery às transições de saída da atividade de Segmentação: uma atividade [de delivery](../../automating/using/email-delivery.md) por email e uma atividade de delivery [](../../automating/using/sms-delivery.md) SMS.
 
 O Adobe Campaign permite que você adicione delivery a um fluxo de trabalho. Para fazer isso, selecione um delivery na **[!UICONTROL Channels]** categoria da paleta atividade do fluxo de trabalho.
 
@@ -126,7 +125,7 @@ O Adobe Campaign permite que você adicione delivery a um fluxo de trabalho. Par
 
 Para criar um delivery de email:
 
-1. Arraste e solte um **[!UICONTROL Email delivery]** depois do primeiro segmento.
+1. Arraste e solte uma atividade de delivery [](../../automating/using/email-delivery.md) de email após o primeiro segmento.
 1. Clique com o Duplo do mouse na atividade para editá-la.
 1. Selecione **[!UICONTROL Simple email]**.
 1. Selecione **[!UICONTROL Add an outbound transition with the population]** e clique em **[!UICONTROL Next]**.
@@ -141,18 +140,14 @@ Para criar um delivery de email:
 1. Edite e salve seu conteúdo.
 1. Na **[!UICONTROL Schedule]** seção do painel de mensagem, desmarque a opção **[!UICONTROL Request confirm antes de enviar mensagens}** .
 
-As etapas detalhadas para criar uma atividade de email são apresentadas na seção delivery [de](../../automating/using/email-delivery.md) email.
-
 Para criar um delivery SMS:
 
-1. Arraste e solte um **[!UICONTROL SMS delivery]** depois do outro segmento.
+1. Arraste e solte uma atividade de delivery [](../../automating/using/sms-delivery.md) SMS após o outro segmento.
 1. Clique com o Duplo do mouse na atividade para editá-la.
 1. Selecione **[!UICONTROL SMS]** e clique em **[!UICONTROL Next]**.
 1. Selecione um modelo SMS e clique em **[!UICONTROL Next]**.
 1. Insira as propriedades do SMS e clique em **[!UICONTROL Next]**.
 1. Edite e salve seu conteúdo.
-
-As etapas detalhadas para criar uma atividade SMS são apresentadas na seção [SMS delivery](../../automating/using/sms-delivery.md) .
 
 Depois que seus delivery forem criados e editados, seu fluxo de trabalho estará pronto para ser iniciado.
 
@@ -160,7 +155,7 @@ Depois que seus delivery forem criados e editados, seu fluxo de trabalho estará
 
 ## Execução do fluxo de trabalho {#running-the-workflow}
 
-Assim que o fluxo de trabalho for iniciado, a população alvo da atividade do Query será segmentada para receber um delivery de email ou SMS.
+Assim que o fluxo de trabalho for iniciado, a população alvo da **[!UICONTROL Query]** atividade será segmentada para receber um delivery de email ou SMS.
 
 Para executar seu fluxo de trabalho, clique no **[!UICONTROL Start]** botão da barra de ações.
 
