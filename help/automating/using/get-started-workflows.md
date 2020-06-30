@@ -12,9 +12,9 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: a9fbf0479019dfbe2964c517a0370f015d0f380a
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '522'
 ht-degree: 7%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 7%
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Importar/exportar dados</a></p></td></tr>
 </table>
 
-O Adobe Campaign oferta um ambiente gráfico abrangente que permite projetar processos complexos, incluindo segmentação, execução de campanhas, processamento de arquivos, aprovações etc. Por exemplo, você pode usar um fluxo de trabalho para baixar um arquivo de um servidor, descompactá-lo e, em seguida, importar seus registros para o banco de dados do Adobe Campaign.
+O Adobe Campaign oferta um ambiente gráfico abrangente que permite projetar processos complexos, incluindo segmentação, execução de campanhas, processamento de arquivos etc. Por exemplo, você pode usar um fluxo de trabalho para baixar um arquivo de um servidor, descompactá-lo e, em seguida, importar seus registros para o banco de dados do Adobe Campaign.
 
 Um fluxo de trabalho também pode envolver usuários atribuindo tarefas ou fazendo com que eles aprovem tarefas executadas. Isso significa que você pode atribuir uma tarefa a um ou vários usuários para trabalhar com conteúdo ou especificar públicos alvos e aprovar provas antes de enviar a mensagem.
 
