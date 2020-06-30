@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 58c69b6f6efdac8be5d05fe723bbf9ff54d186ee
+source-git-commit: 446bacfa42fcbc70c7a7c006fa185cdec004c264
 workflow-type: tm+mt
-source-wordcount: '5941'
-ht-degree: 18%
+source-wordcount: '5954'
+ht-degree: 19%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 18%
 Além das Notas [de](../../rn/using/release-notes.md)versão do Adobe Campaign, esta página lista todas as novas atualizações na documentação do Adobe Campaign Standard.
 
 ## Atualizações da documentação - junho de 2020 {#doc-updates-june-2020}
+
+Os casos de uso do fluxo de trabalho foram atualizados e reorganizados em seções temáticas. [Leia mais](../../automating/using/about-workflow-use-cases.md)
 
 Casos de uso foram adicionados sobre como [criptografar](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) e [descriptografar](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) dados usando o Painel de controle e Workflows da campanha.
 
