@@ -12,9 +12,9 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 26f8f7855a30fe90dbfee4bb2b5ee55c7bf4e02b
+source-git-commit: e58ac301d82a360d7065be7c1e3490a2a1821344
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '938'
 ht-degree: 2%
 
 ---
@@ -50,12 +50,15 @@ Depois que a solicitação for processada, os comandos de criptografia/descripto
 
 Nesse caso de uso, criaremos um fluxo de trabalho para importar dados que foram criptografados em um sistema externo, usando uma chave gerada no Painel de controle.
 
+Um vídeo tutorial que mostra como usar uma chave GPG para descriptografar dados também está disponível na [seção](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/decrypting-data.html).
+
 As etapas para executar esse caso de uso são as seguintes:
 
 1. Use o Painel de controle para gerar um par de chaves (público/privado). As etapas detalhadas estão disponíveis na documentação [do Painel de](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)controle.
 
    * A chave pública será compartilhada com o sistema externo, que a usará para criptografar os dados a serem enviados para a Campanha.
    * A chave privada será usada pela Campanha para descriptografar os dados criptografados recebidos.
+
    ![](assets/gpg_generate.png)
 
 1. No sistema externo, use a chave pública baixada do Painel de controle para criptografar os dados a serem importados para o Campaign Standard.
@@ -92,6 +95,8 @@ As etapas para executar esse caso de uso são as seguintes:
 ## Caso de uso: Criptografar e exportar dados usando uma chave instalada no Painel de controle {#use-case-gpg-encrypt}
 
 Nesse caso de uso, criaremos um fluxo de trabalho para criptografar e exportar dados usando uma chave instalada no Painel de controle.
+
+Um vídeo tutorial que mostra como usar uma chave GPG para criptografar dados também está disponível [nesta seção](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/using-a-gpg-key-to-encrypt-data.html).
 
 As etapas para executar esse caso de uso são as seguintes:
 
