@@ -12,10 +12,10 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 04bc32a9abb2939823f18165e1fe46d9f2315cce
+source-git-commit: f45985c030c3d5059bfef444287c10b842298f49
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 6%
+source-wordcount: '1160'
+ht-degree: 9%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 6%
 
 [Planejamento de versão](../../rn/using/release-planning.md) | Versões [do Painel de controle](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html) | Atualizações [da documentação](../../rn/using/documentation-updates.md) | Notas de versão [anteriores](../../rn/using/release-notes-2020.md) | Recursos [obsoletos](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **Nova versão** de junho do Painel de controle com monitoramento de perfis ativos, auditoria de entregabilidade de subdomínio e gerenciamento de chaves GPG. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nova versão de junho do Painel de controle do Campaign** com monitoramento de perfis ativos, auditoria de entregabilidade de subdomínio e gerenciamento de chaves GPG. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html).
 
 ## Versão 20.3 - maio de 2020 {#release-20-3---may-2020}
 
@@ -41,7 +41,7 @@ ht-degree: 6%
 <td> <p>A Lei de Proteção de Dados Pessoais (PDPA) da Tailândia é a nova lei de privacidade que harmoniza e moderniza os requisitos de proteção de dados para a Tailândia. Este regulamento aplica-se aos clientes Adobe Campaign que detêm dados para pessoas a quem residem neste país.</p>
 <p>Além dos recursos de privacidade já disponíveis no Adobe Campaign (incluindo gerenciamento de consentimento, configurações de retenção de dados e funções de usuário), estamos aproveitando esta oportunidade para incluir recursos adicionais, para ajudar a facilitar sua preparação para o PDPA:</p>
 <ul>
-<li>Direito de acesso e direito de exclusão: estamos aproveitando as capacidades que foram adicionadas ao RGPD e CCPA. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">Saiba mais</a> </li>
+<li>Direito de acesso e direito de exclusão: estamos nos beneficiando dos recursos que foram adicionadas para o GDPR e a CCPA. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">Saiba mais</a> </li>
 <li><p>Ao criar uma solicitação de privacidade, o tipo de regulamento PDPA foi adicionado ao Privacy Core Service. Este método é o que você deve usar para todas as solicitações de acesso e exclusão. O uso da API de Campanha e da interface para acessar e excluir solicitações está obsoleto.  Consulte o artigo <a href="../../rn/using/deprecated-features.md">Recursos removidos e</a>obsoletos.</p></li>
 </ul>
 <p>Consulte o vídeo <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">como fazer</a>.</p>
@@ -71,7 +71,10 @@ ht-degree: 6%
 </tbody> 
 </table>
 
-![](assets/do-not-localize/cp-icon.png) **Novo Painel de controle Pode ser lançado** com a renovação do certificado para subdomínios CNAME. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html).
+**Recursos** adicionais (a partir de 13 de julho)
+
+* **Otimização do tempo de envio com recursos de AI e pontuação** do perfil - agora você pode otimizar o design e o delivery das viagens do cliente para prever a preferência de envolvimento de cada indivíduo. Com a tecnologia Journey AI, o Adobe Campaign pode analisar e prever taxas de abertura, tempos de envio ideais e probabilidade de taxa com base nas métricas de envolvimento do histórico. [Saiba mais](../../sending/using/predictive.md)
+* **Nova regulamentação** de privacidade do Brasil - Além das capacidades de privacidade já disponíveis na Campanha, a Adobe ajuda a facilitar sua prontidão para a Lei Geral de Proteçao de Datos (LGPD) do Brasil. Ao criar uma solicitação de privacidade, o regulamento LGPD foi adicionado ao Adobe Privacy Core Service. [Saiba mais](https://helpx.adobe.com/br/campaign/kb/campaign-privacy-overview.html)
 
 **Aprimoramentos**
 
@@ -123,3 +126,6 @@ ht-degree: 6%
 * Correção de um problema que causava discrepância de dados ao usar personalização em emails transacionais. (CAMP-41842)
 * Correção de problemas que ocorriam ao excluir campos personalizados em delivery de notificação por push. (CAMP-37586)
 * Correção de um erro que impedia que os usuários fizessem alterações nos relatórios. (CAMP-42505)
+
+
+![](assets/do-not-localize/cp-icon.png) **Novo Painel de controle Pode ser lançado** com a renovação do certificado para subdomínios CNAME. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html).
