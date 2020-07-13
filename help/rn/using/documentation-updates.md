@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 446bacfa42fcbc70c7a7c006fa185cdec004c264
+source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
 workflow-type: tm+mt
-source-wordcount: '5954'
-ht-degree: 19%
+source-wordcount: '5969'
+ht-degree: 20%
 
 ---
 
@@ -24,13 +24,17 @@ ht-degree: 19%
 
 Além das Notas [de](../../rn/using/release-notes.md)versão do Adobe Campaign, esta página lista todas as novas atualizações na documentação do Adobe Campaign Standard.
 
+## Atualizações da documentação - julho de 2020 {#doc-updates-july-2020}
+
+Novos recursos de e-mail com IA: otimização de tempo de envio e pontuação de perfil [Leia mais](../../sending/using/predictive.md)
+
 ## Atualizações da documentação - junho de 2020 {#doc-updates-june-2020}
 
 Os casos de uso do fluxo de trabalho foram atualizados e reorganizados em seções temáticas. [Leia mais](../../automating/using/about-workflow-use-cases.md)
 
-Casos de uso foram adicionados sobre como [criptografar](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) e [descriptografar](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) dados usando o Painel de controle e Workflows da campanha.
+Casos de uso foram adicionados em como [criptografar](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) e [descriptografar](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) dados usando o Painel de controle do Campaign e workflows do Campaign.
 
-Os termos &quot;lista branca&quot; e &quot;lista negra&quot; foram removidos da documentação do Adobe Campaign. Algumas ocorrências desses termos ainda podem existir na interface do usuário do produto, nomes de opções e código interno, mas serão substituídas em versões futuras da Campanha por &quot;blocklist&quot; e &quot;allowlist&quot;.
+Os termos &quot;white list&quot; e &quot;black list&quot; foram removidos da documentação do Adobe Campaign. Algumas ocorrências desses termos ainda podem existir na interface do usuário do produto, nomes de opções e código interno, mas serão substituídas em versões futuras do Campaign por &quot;lista de bloqueios&quot; e &quot;lista de permissões&quot;.
 
 As referências ao site de suporte herdado foram substituídas pelo novo URL. [Saiba mais](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
@@ -568,7 +572,7 @@ Foram adicionadas informações sobre tipos de log de rastreamento. [Leia mais](
 
 A seção atividade do query foi atualizada com amostras do query. [Leia mais](../../automating/using/query.md#query-samples)
 
-A seção dedicada às listas de blocos foi renomeada como &quot;Entendendo os processos de aceitação e não participação&quot;. Ele foi atualizado com informações sobre como gerenciar o opt-in para canais específicos e como configurar landings page para gerenciar o opt-in e o opt-out. [Leia mais](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+A seção dedicada ao lista de bloqueios foi renomeada como &quot;Entendendo os processos de aceitação e não participação&quot;. Ele foi atualizado com informações sobre como gerenciar o opt-in para canais específicos e como configurar landings page para gerenciar o opt-in e o opt-out. [Leia mais](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Saiba mais sobre as práticas recomendadas para usar os servidores SFTP hospedados pela Adobe. [Leia mais](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -592,7 +596,7 @@ Uso de recursos personalizados em mensagens transacionais - [Leia mais](../../ad
 
 A API do RGPD agrupa recursos que permitem o processamento automático de solicitações do RGPD. [Leia mais](../../api/using/creating-a-privacy-request.md)
 
-Foram adicionadas informações sobre como configurar o landing page para que seus recipient possam ser adicionados à lista de blocos. [Leia mais](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Foram adicionadas informações sobre como configurar landings page para que seus recipient possam ser adicionados à lista de bloqueios. [Leia mais](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 A seção [Configuração de mensagens](../../administration/using/configuring-transactional-messaging.md) transacionais foi reorganizada e um caso [de uso](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) passo a passo foi adicionado.
 
@@ -646,7 +650,7 @@ Foram adicionadas informações sobre como enviar um delivery dependendo dos fus
 
 Reorganizada a **[!UICONTROL Customizing a push notification]** seção com casos de uso passo a passo. [Leia mais](../../channels/using/customizing-a-push-notification.md)
 
-Nova seção dedicada ao gerenciamento de lista de blocos. [Leia mais](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+Nova seção dedicada ao gerenciamento de listas de bloqueios. [Leia mais](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Informações atualizadas sobre falhas de delivery e quarentenas. [Leia mais](../../sending/using/monitoring-a-delivery.md)
 
