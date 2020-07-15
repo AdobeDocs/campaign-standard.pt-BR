@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4cfd36d54044b5988ec2160ba695921fc9d9920
+source-git-commit: 979ddba984bd564bf60b42973c857f2b896eeaf6
 workflow-type: tm+mt
-source-wordcount: '6092'
+source-wordcount: '6089'
 ht-degree: 19%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 19%
 
 Além das Notas [de](../../rn/using/release-notes.md)versão do Adobe Campaign, esta página lista todas as novas atualizações na documentação do Adobe Campaign Standard.
 
-## Atualizações da documentação - julho de 2020 {#doc-updates--july-2020}
+## Atualizações da documentação - julho de 2020 {#doc-updates-july-2020}
 
 Uma nova seção foi adicionada com diretrizes relacionadas ao monitoramento de Campaign Standard. [Leia mais](../../administration/using/monitoring-guidelines.md)
 
-Os painéis de segurança da API externa foram atualizados.[Leia mais](../../automating/using/external-api.md)
+Os painéis de segurança da API externa foram atualizados. [Leia mais](../../automating/using/external-api.md)
 
 A página Visão geral do Gerenciamento de privacidade foi atualizada para incluir informações sobre a Lei de Proteção de Dados Pessoais (PDPA) da Tailândia e sobre a Lei Geral de Dados (LGPD) do Brasil. [Leia mais](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
@@ -36,9 +36,7 @@ O guia do canal para portáteis foi reorganizado e melhorado. Um novo guia Confi
 
 A página Gerenciamento de privacidade no Campaign Standard foi atualizada, incluindo esclarecimentos sobre como gerenciar solicitações de privacidade por meio da integração do Privacy Core Service. [Leia mais](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
-## Atualizações da documentação - julho de 2020 {#doc-updates-july-2020}
-
-Novos recursos de e-mail com IA: otimização de tempo de envio e pontuação de perfil [Leia mais](../../sending/using/predictive.md)
+Novos recursos de e-mail com IA: envio de otimização de tempo e pontuação de perfis. [Leia mais](../../sending/using/predictive.md)
 
 ## Atualizações da documentação - junho de 2020 {#doc-updates-june-2020}
 
