@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
+source-git-commit: c4cfd36d54044b5988ec2160ba695921fc9d9920
 workflow-type: tm+mt
-source-wordcount: '6084'
+source-wordcount: '6092'
 ht-degree: 19%
 
 ---
@@ -27,6 +27,8 @@ Além das Notas [de](../../rn/using/release-notes.md)versão do Adobe Campaign, 
 ## Atualizações da documentação - julho de 2020 {#doc-updates--july-2020}
 
 Uma nova seção foi adicionada com diretrizes relacionadas ao monitoramento de Campaign Standard. [Leia mais](../../administration/using/monitoring-guidelines.md)
+
+Os painéis de segurança da API externa foram atualizados.[Leia mais](../../automating/using/external-api.md)
 
 A página Visão geral do Gerenciamento de privacidade foi atualizada para incluir informações sobre a Lei de Proteção de Dados Pessoais (PDPA) da Tailândia e sobre a Lei Geral de Dados (LGPD) do Brasil. [Leia mais](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
