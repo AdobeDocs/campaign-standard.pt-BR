@@ -12,10 +12,10 @@ discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 41%
+ht-degree: 39%
 
 ---
 
@@ -42,7 +42,7 @@ Essa integração deve ser configurada primeiro. Para solicitar o provisionament
   </tr> 
   <tr> 
    <td> <strong>ID da Org. de IMS</strong><br /> </td> 
-   <td> Seu ID da Org de IMS. <br> Você pode encontrar seu ID da Org de IMS na Experience Cloud, no menu Administration. Também é fornecido ao se conectar pela primeira vez à Adobe Experience Cloud. </td> 
+   <td> Sua ID de empresa IMS. <br> Você pode encontrar a ID de organização do IMS no Experience Cloud, no menu Administração. Também é fornecido ao se conectar pela primeira vez à Adobe Experience Cloud. </td> 
   </tr> 
   <tr> 
    <td> <strong>Ambiente:</strong><br /> </td> 
