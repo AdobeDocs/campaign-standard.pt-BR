@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Ajuda do Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
+source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 84%
+source-wordcount: '1557'
+ht-degree: 83%
 
 ---
 
@@ -92,9 +92,6 @@ ht-degree: 84%
       + [Criação de uma notificação por push multilíngue](channels/using/creating-a-multilingual-push-notification.md)
       + [Gerando um arquivo CSV para Notificação por push multilíngue](channels/using/generating-csv-multilingual-push.md)
       + [Criação e atualização de informações de perfil com base em dados de aplicativo móvel](channels/using/updating-profile-with-mobile-app-data.md)
-      + [Implementação do rastreamento de push](channels/using/push-tracking.md)
-      + [Exibir uma imagem a partir de uma notificação por push do Adobe Campaign Standard](channels/using/image-push-notification.md)
-      + [Como entender a estrutura de carga das notificações por push do Campaign Standard](channels/using/push-payload.md)
    + Mensagens no aplicativo {#in-app-messaging}
       + [Sobre as mensagens no aplicativo](channels/using/about-in-app-messaging.md)
       + [Preparação e envio de uma mensagem no aplicativo](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -317,6 +314,7 @@ ht-degree: 84%
          + [Conexão de delivery de email e de mala direta](automating/using/coupling-email-direct-mail.md)
          + [Envio de um email com campos aprimorados](automating/using/sending-email-enriched-fields.md)
          + [Personalização de um email com dados adicionais](automating/using/personalizing-email-with-additional-data.md)
+         + [Envio de uma notificação por push recorrente](automating/using/recurring-push-notifications.md)
       + Segmentação e direcionamento {#segmentation-targeting}
          + [Amostras de query](automating/using/query-samples.md)
          + [União em duas audiências refinadas](automating/using/union-on-two-refined-audiences.md)
@@ -388,6 +386,7 @@ ht-degree: 84%
       + [Acionando a ingestão de dados por meio de APIs](developing/using/aep-triggering-data-ingestion.md)
 + Administração {#administrating}
    + [Introdução à administração de Campaign Standard](administration/using/get-started-campaign-administration.md)
+   + [Orientações de monitoramento](administration/using/monitoring-guidelines.md)
    + [Diretrizes de configuração](administration/using/about-configuration-guidelines.md)
    + Usuários e segurança {#users-and-security}
       + [Sobre o gerenciamento de acesso](administration/using/about-access-management.md)
@@ -403,6 +402,13 @@ ht-degree: 84%
       + [Configuração do canal SMS](administration/using/configuring-sms-channel.md)
       + [Configurar um aplicativo móvel](administration/using/configuring-a-mobile-application.md)
       + [Configuração de mensagens transacionais](administration/using/configuring-transactional-messaging.md)
+   + Configuração de canais móveis {#configuring-mobile}
+      + [Implementação do rastreamento de push](administration/using/push-tracking.md)
+      + [Exibir uma imagem a partir de uma notificação por push do Adobe Campaign Standard](administration/using/image-push-notification.md)
+      + [Como entender a estrutura de carga das notificações por push do Campaign Standard](administration/using/push-payload.md)
+      + [Implementação do rastreamento de notificação local](administration/using/local-tracking.md)
+      + [Perguntas frequentes sobre o fluxo de trabalho técnico SyncWithLaunch](administration/using/syncwithlaunch-faq.md)
+      + [Perguntas frequentes sobre integração de Adobe Experience Platform SDK e Adobe Campaign](administration/using/aep-faq.md)
    + Configurações do aplicativo {#application-settings}
       + [Sobre as configurações do Campaign Standard](administration/using/about-campaign-standard-settings.md)
       + [Contas externas](administration/using/external-accounts.md)
