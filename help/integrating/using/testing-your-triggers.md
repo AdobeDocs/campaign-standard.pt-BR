@@ -12,7 +12,7 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Siga as etapas descritas em [Criar um acionador mapeado na Campanha](../../integ
 Se o acionador for criado, vá para a próxima etapa. Caso contrário, isso significa que a conexão do ponto final do acionador falhou. Verifique se os Acionadores foram provisionados no Experience Cloud (serviços de Ativação). Caso contrário, entre em contato com o executivo de sua conta da Adobe ou com o parceiro de serviços profissionais. As seguintes informações são obrigatórias:
 
 * Nome da Empresa da Marketing Cloud
-* ID ORG IMS
+* ID da organização IMS
 * Empresa de logon da Analytics (pode ser igual ao Nome da Empresa da Marketing Cloud)
 
 **Tente publicar o acionador**
@@ -77,7 +77,7 @@ Se estiver, siga estas linhas de guia:
 Caso contrário, vá para a próxima etapa. Se estiver, siga estas linhas de guia:
 
 * Verifique se o modelo transacional foi publicado.
-* Verifique se o perfil não está na lista de blocos.
+* Verifique se o perfil não está na lista de bloqueios.
 * Verifique a aplicação do regra de tipologia.
 * Verifique os registros do mensagen transacional.
 
