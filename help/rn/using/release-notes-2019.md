@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
+source-git-commit: b7775e1d95e6a7e08b38fc65b44a061eda7ff079
 workflow-type: tm+mt
 source-wordcount: '7626'
 ht-degree: 5%
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 # Notas de versão 2019{#release-notes-2019}
 
-[Planejamento de versão](https://helpx.adobe.com/br/campaign/kb/acs-release-planning.html) | Versões [do Painel de controle](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html) | Atualizações [da documentação](../../rn/using/documentation-updates.md) | Notas de versão [mais recentes](../../rn/using/release-notes.md) | Recursos [obsoletos](https://helpx.adobe.com/br/campaign/kb/acs-deprecated-and-removed-features.html)
+[Planejamento de versão](https://helpx.adobe.com/br/campaign/kb/acs-release-planning.html) | Versões [de Painel de controle do Campaign](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html) | Atualizações [da documentação](../../rn/using/documentation-updates.md) | Notas de versão [mais recentes](../../rn/using/release-notes.md) | Recursos [obsoletos](https://helpx.adobe.com/br/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## Versão 19.4 - dezembro de 2019 {#release-19-4---october-2019}
 
@@ -237,7 +237,7 @@ ht-degree: 5%
 * Correção de um erro que impedia que endereços de email de rejeição em disco fossem colocados na quarentena. (CAMP-24587)
 * Correção de um problema que ocorria ao adicionar uma regra de tipologia e, em seguida, excluí-la antes de salvar a tipologia. (CAMP-32789)
 * Correção de um problema que impedia a exibição do conteúdo da landing page ao desativar o conteúdo dinâmico. (CAMP-32924)
-* Correção de um problema com delivery recorrentes que ocorria ao usar a personalização em atributos do delivery mestre. (CAMP-32983)
+* Correção de um problema com delivery recorrentes que ocorria ao usar a personalização em atributos de delivery primário. (CAMP-32983)
 * Correção de um problema em workflows que impedia a leitura de resultados de uma transição que continha dados de mensagens SMS recebidas. (CAMP-33134)
 * Correção de um problema em workflows que ocorria ao combinar atividades de bifurcação e exclusão para criar audiências. (CAMP-33401)
 * Correção de um problema que impedia a exibição do conteúdo do mirror page e o envio de mensagens de prova para delivery recorrentes. (CAMP-33413)
@@ -293,7 +293,7 @@ Introduziu uma série de melhorias e correções para otimizar fragmentos na ver
 * A opção &quot;Launch_URL_Campanha&quot; foi adicionada na Campanha para gerenciar propriedades de aplicativos móveis criados com o Adobe Experience Platform Mobile SDK.
 * Corrigido um erro que fazia com que a opção ambiente Sandbox ficasse desmarcada depois de fazer upload do certificado de uma propriedade móvel recém-criada e sair da página de propriedades do aplicativo móvel.
 * Correção de um problema que impedia o enriquecimento de um conteúdo de mensagen transacional com informações do recurso Serviço. (CAMP-33707)
-* Correção de um problema nas landings page da lista de blocos que ocorria ao tentar cancelar a assinatura de perfis de um serviço.
+* Correção de um problema nas landings page de lista de bloqueios que ocorria ao tentar cancelar a inscrição de perfis de um serviço.
 
 ## Versão 19.2 - maio de 2019 {#release-19-2---may-2019}
 
@@ -512,7 +512,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * Correção de um problema que poderia duplicado linhas ao usar a atividade de transferência de Arquivo em workflows.
 * Correção de um problema que impedia o envio de relatórios agendados no horário escolhido.
 * Correção de um problema que causava discrepância entre os KPIs &quot;Enviar&quot; e &quot;Enviar&quot; para um delivery no aplicativo em um fluxo de trabalho.
-* Correção de um problema que impedia que o rastreamento funcionasse para uma mensagem no aplicativo criada com um HTML personalizado.
+* Correção de um problema que impedia o rastreamento de uma mensagem no aplicativo criada com um HTML personalizado.
 * Correção de um problema que impedia que o conteúdo de delivery no aplicativo fosse salvo quando usado em um fluxo de trabalho.
 * Correção de um problema que impedia que aplicativos móveis fossem exibidos para administradores.
 * Correção de um problema que causava a falha do fluxo de trabalho técnico da Atualização de entregabilidade. (CAMP-26387)
@@ -617,7 +617,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * Correção de um problema, no editor de query, com a condição de junção entre o log de fluxo e o log de rastreamento para rtEvent. (CAMP-28780)
 * Correção de um problema que impedia que modificações na opção de landing page &quot;Ação específica&quot; fossem salvas. (CAMP-29422)
 * Correção de um problema que impedia a exportação de uma carga de evento em um fluxo de trabalho. (CAMP-29029)
-* Correção de um problema que impedia que números SMS na lista de bloqueios fossem excluídos em uma mensagem SMS. (CAMP-28898)
+* Correção de um problema que impedia que números de SMS na lista de bloqueios fossem excluídos em uma mensagem SMS. (CAMP-28898)
 * Correção de um problema que impedia que os provedores SMPP fossem notificados em caso de erro ao processar mensagens recebidas. (CAMP-29804)
 * Correção de um problema que permitia a exclusão de contas externas com delivery associados. (CAMP-29738)
 * A taxa de transferência de envio foi melhorada e estabilizada para mensagens SMS.
