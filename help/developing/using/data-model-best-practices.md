@@ -1,6 +1,6 @@
 ---
-title: Práticas recomendadas de modelo de dados no Adobe Campaign Standard
-description: Saiba mais sobre as práticas recomendadas ao projetar seu modelo de dados Adobe Campaign Standard.
+title: Práticas recomendadas do modelo de dados no Adobe Campaign Standard
+description: Saiba mais sobre as práticas recomendadas ao projetar seu modelo de dados de Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: cacd563f-6936-4b3e-83e3-5d4ae31d44e8
 contentOwner: sauviat
@@ -13,7 +13,7 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: b7775e1d95e6a7e08b38fc65b44a061eda7ff079
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%
@@ -56,11 +56,11 @@ O modelo de dados padrão do Adobe Campaign é apresentado nesta [seção](../..
 
 <!--### What is a customer? {#customer-definition}
 
-If you have customer data in more than one system, you need to determine which solution will allow you to identify records as one person. This work might require rules, eventually a match and merge processes to determine the master record. This master record should be the one sent to Adobe Campaign.
+If you have customer data in more than one system, you need to determine which solution will allow you to identify records as one person. This work might require rules, eventually a match and merge processes to determine the primary record. This primary record should be the one sent to Adobe Campaign.
 
 While some of this data cleansing might be performed in Adobe Campaign, the recommendation is to run these processes outside and only import clean data in Adobe Campaign. You should keep Campaign as a marketing solution more than a data cleansing tool.
 
-Be able to provide a master customer record which will be sent to Adobe Campaign.-->
+Be able to provide a primary customer record which will be sent to Adobe Campaign.-->
 
 ### Dados para Adobe Campaign {#data-for-campaign}
 
@@ -68,7 +68,7 @@ Que dados devem ser enviados para o Adobe Campaign? É importante determinar os 
 
 >[!NOTE]
 >
->Adobe Campaign não é um data warehouse. Portanto, não tente importar para o Adobe Campaign todos os clientes possíveis e suas informações associadas.
+>Adobe Campaign não é uma data warehouse. Portanto, não tente importar para o Adobe Campaign todos os clientes possíveis e suas informações associadas.
 
 Para decidir se um atributo seria necessário ou não no Adobe Campaign, determine se seria abrangido por uma destas categorias:
 * Atributo usado para **segmentação**
