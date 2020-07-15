@@ -13,14 +13,17 @@ context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1269ee2041e0857b077424ba7f50fbfa9519ae7b
+source-git-commit: 4efc42fd6b656c7723ed52f704c801113f9b3817
+workflow-type: tm+mt
+source-wordcount: '1080'
+ht-degree: 1%
 
 ---
 
 
 # Personalizar uma mensagem no aplicativo{#customizing-an-in-app-message}
 
-Para ajustar sua mensagem no aplicativo, o Adobe Campaign permite que você acesse um conjunto de opções avançadas enquanto projeta uma mensagem no aplicativo.
+Para ajustar sua mensagem no aplicativo, o Adobe Campaign permite que você acesse um conjunto de opções avançadas ao criar um aplicativo.
 
 O editor de conteúdo no aplicativo permite escolher entre dois modos de mensagem no aplicativo:
 
@@ -36,8 +39,8 @@ O editor de conteúdo no aplicativo permite escolher entre dois modos de mensage
 **Tópicos relacionados:**
 
 * [Envio da mensagem no aplicativo](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)
-* [Relatórios no aplicativo](../../reporting/using/in-app-report.md)
-* [Implementação do rastreamento de notificação local](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html)
+* [relatórios no aplicativo](../../reporting/using/in-app-report.md)
+* [Implementação do rastreamento de notificação local](../../administration/using/local-tracking.md)
 
 ## Personalização com um modelo de mensagem {#customizing-with-a-message-template}
 
@@ -45,7 +48,7 @@ O editor de conteúdo no aplicativo permite escolher entre dois modos de mensage
 
 O menu suspenso **[!UICONTROL Layout]** fornece quatro opções diferentes para escolher, dependendo de suas necessidades de mensagens:
 
-* **[!UICONTROL Full page]**: Esse tipo de layout cobre a tela inteira dos dispositivos do público-alvo.
+* **[!UICONTROL Full page]**: Esse tipo de layout cobre a tela inteira de seus dispositivos de audiência.
 
    Ele oferece suporte a mídia (imagem, vídeo), texto e componentes de botão.
 
@@ -82,7 +85,7 @@ O **[!UICONTROL Media]** menu suspenso permite adicionar mídia à sua mensagem 
 
 1. Para o tipo de **[!UICONTROL Video]** mídia, insira seu URL no **[!UICONTROL Media URL]** campo.
 
-   Em seguida, insira seu conteúdo **[!UICONTROL Video poster]** a ser usado durante o download do vídeo nos dispositivos de público-alvo ou até que os usuários toquem no botão Reproduzir.
+   Em seguida, insira seu arquivo **[!UICONTROL Video poster]** a ser usado durante o download do vídeo nos dispositivos de audiência ou até que os usuários toquem no botão Reproduzir.
 
    ![](assets/inapp_customize_6.png)
 
@@ -95,17 +98,17 @@ Se necessário, você também pode adicionar um título de mensagem e conteúdo 
    ![](assets/inapp_customize_9.png)
 
 1. Adicione seu conteúdo ao **[!UICONTROL Message content]** campo.
-1. Para personalizar ainda mais o texto, clique no ![](assets/edit_darkgrey-24px.png) ícone para adicionar campos de personalização.
+1. Para personalizar ainda mais seu texto, clique no ![](assets/edit_darkgrey-24px.png) ícone para adicionar campos de personalização.
 
    ![](assets/inapp_customize_8.png)
 
-1. Digite o conteúdo da mensagem e adicione os campos de personalização, se necessário.
+1. Digite o conteúdo da sua mensagem e adicione seus campos de personalização, se necessário.
 
    For more information on personalization field, refer to this [section](../../designing/using/personalization.md#inserting-a-personalization-field).
 
    ![](assets/inapp_customize_10.png)
 
-1. Verifique o conteúdo da mensagem na janela de visualização.
+1. Verifique o conteúdo da sua mensagem na janela pré-visualização.
 
    ![](assets/inapp_customize_11.png)
 
@@ -125,7 +128,7 @@ Você pode adicionar até dois botões à sua mensagem no aplicativo.
    ![](assets/inapp_customize_13.png)
 
 1. Insira o URL da Web ou deep link no **[!UICONTROL Destination URL]** **[!UICONTROL Redirect]** campo, se você escolher a ação,
-1. Verifique o conteúdo da mensagem na janela de visualização ou clicando no botão Visualizar.
+1. Verifique o conteúdo da sua mensagem na janela pré-visualização ou clicando no botão Pré-visualização.
 
    Consulte a página [Visualizar mensagens](#previewing-the-in-app-message) no aplicativo.
 
@@ -143,19 +146,19 @@ Você pode adicionar até dois botões à sua mensagem no aplicativo.
 ## Personalização de um tipo de mensagem de notificação local {#customizing-a-local-notification-message-type}
 
 As notificações locais só podem ser acionadas por um aplicativo em um horário específico e dependendo de um evento. Eles alertarão os usuários de que algo está acontecendo em seus aplicativos mesmo sem ter acesso à Internet.
-Para saber como rastrear a notificação local, consulte esta [página](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html).
+Para saber como rastrear a notificação local, consulte esta [página](../../administration/using/local-tracking.md).
 
 Para personalizar uma notificação local:
 
-1. Na sua **[!UICONTROL Content]** página, selecione **[!UICONTROL Local notification]** na **[!UICONTROL Layout]** categoria
+1. Na sua **[!UICONTROL Content]** página, selecione **[!UICONTROL Local notification]** a **[!UICONTROL Layout]** categoria
 
    ![](assets/inapp_customize_17.png)
 
-1. Na **[!UICONTROL Text]** categoria, digite seus **[!UICONTROL Message title]** e **[!UICONTROL Message content]**.
+1. Sob a **[!UICONTROL Text]** categoria, digite seus **[!UICONTROL Message title]** e **[!UICONTROL Message content]**.
 
    ![](assets/inapp_customize_18.png)
 
-1. Na **[!UICONTROL Advanced option]** categoria, no **[!UICONTROL Wait to display]** campo, escolha quanto tempo, em segundos, sua notificação local será exibida na tela assim que o evento for acionado.
+1. Sob a **[!UICONTROL Advanced option]** categoria, no **[!UICONTROL Wait to display]** campo, escolha quanto tempo, em segundos, sua notificação local será exibida na tela assim que seu evento for acionado.
 1. No **[!UICONTROL Sound]** campo, digite o nome do arquivo de som, com a extensão, a ser reproduzido pelo dispositivo móvel quando a notificação local for recebida.
 
    O arquivo de som é reproduzido ao fornecer a notificação se o arquivo estiver definido no pacote do aplicativo móvel. Caso contrário, o som padrão do dispositivo será reproduzido.
@@ -188,20 +191,20 @@ Você também pode encontrar uma lista de requisitos HTML personalizados para um
 
 ![](assets/inapp_customize_3.png)
 
-Depois que o HTML for importado, você poderá encontrar uma visualização do arquivo em diferentes dispositivos na janela de visualização.
+Depois que o HTML for importado, você poderá encontrar uma pré-visualização do seu arquivo em diferentes dispositivos na janela de pré-visualização.
 
-## Visualizar a mensagem no aplicativo {#previewing-the-in-app-message}
+## Previewing the In-App message {#previewing-the-in-app-message}
 
-Antes de enviar sua mensagem no aplicativo, você pode testar com seus perfis de teste para verificar o que seu público-alvo verá quando receber sua entrega.
+Antes de enviar sua mensagem no aplicativo, você pode testar com seus perfis de teste para verificar o que sua audiência direcionada verá quando receber seu delivery.
 
 1. Clique no botão **[!UICONTROL Preview]**.
 
    ![](assets/inapp_sending_2.png)
 
-1. Clique no **[!UICONTROL Select a test profile]** botão e selecione um de seus perfis de teste para iniciar a visualização da entrega. For more information on test profiles, refer to this [section](../../audiences/using/managing-test-profiles.md).
-1. Verifique sua mensagem em diferentes dispositivos, como Android, iPhone Phone ou até mesmo tablets. Você também pode verificar se os campos de personalização estão recuperando os dados corretos.
+1. Clique no **[!UICONTROL Select a test profile]** botão e selecione um dos perfis de teste para start da visualização do delivery. For more information on test profiles, refer to this [section](../../audiences/using/managing-test-profiles.md).
+1. Verifique sua mensagem em diferentes dispositivos, como Android, iPhone Phone ou até mesmo tablets. Você também pode verificar se seus campos de personalização estão recuperando os dados corretos.
 
    ![](assets/inapp_sending_3.png)
 
-1. Agora você pode enviar sua mensagem e medir seu impacto com os relatórios de entrega. For more on reporting, refer to [this section](../../reporting/using/in-app-report.md).
+1. Agora você pode enviar sua mensagem e medir seu impacto com relatórios do delivery. For more on reporting, refer to [this section](../../reporting/using/in-app-report.md).
 
