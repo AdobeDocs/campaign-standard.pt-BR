@@ -13,48 +13,51 @@ context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
+source-git-commit: 10339aa3a5d16bb995a763b6d846e234c5f1325a
+workflow-type: tm+mt
+source-wordcount: '1625'
+ht-degree: 41%
 
 ---
 
 
 # Configuração do canal SMS{#configuring-sms-channel}
 
-Para enviar mensagens SMS, uma ou várias contas externas devem ser configuradas por um administrador no menu **[!UICONTROL Administration]**>**[!UICONTROL Channels]** > **[!UICONTROL SMS]**>**[!UICONTROL SMS accounts]** .
+Para enviar mensagens SMS, uma ou várias contas externas devem ser configuradas por um administrador no menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL SMS]** > **[!UICONTROL SMS accounts]** .
 
-As etapas para criar e modificar uma conta externa são detalhadas na seção Contas [](../../administration/using/external-accounts.md) externas. Você encontrará abaixo os parâmetros específicos das contas externas para enviar mensagens SMS.
+As etapas para criar e modificar uma conta externa são detalhadas na seção [Conta externa](../../administration/using/external-accounts.md) . Você encontrará abaixo os parâmetros específicos das contas externas para enviar mensagens SMS.
 
-## Definindo um Roteamento SMS {#defining-an-sms-routing}
+## Definição de um Roteamento SMS {#defining-an-sms-routing}
 
-A conta externa **[!UICONTROL SMS routing via SMPP]**é fornecida por padrão, mas pode ser útil adicionar outras contas.
+A conta externa **[!UICONTROL SMS routing via SMPP]** é fornecida por padrão, mas pode ser útil adicionar outras contas.
 
-Se quiser usar o protocolo SMPP, você também poderá criar uma nova conta externa. Para obter mais informações sobre o protocolo e as configurações SMS, consulte esta [nota técnica](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
+Se quiser usar o protocolo SMPP, você também poderá criar uma nova conta externa. Para obter mais informações sobre o protocolo e as configurações SMS, consulte esta [nota técnica](https://helpx.adobe.com/br/campaign/kb/sms-connector-protocol-and-settings.html).
 
 1. Crie uma nova conta externa de **[!UICONTROL Administration > Application settings > External accounts]**.
-1. Defina o tipo de conta como **[!UICONTROL Routing]**, o canal como**[!UICONTROL Mobile (SMS)]** e o modo de entrega como **[!UICONTROL Bulk delivery]**.
+1. Defina o tipo de conta como **[!UICONTROL Routing]**, o canal como **[!UICONTROL Mobile (SMS)]** e o modo delivery como **[!UICONTROL Bulk delivery]**.
 
    ![](assets/sms_routing.png)
 
 1. Defina as configurações de conexão.
 
-   Para inserir as configurações de conexão específicas para enviar mensagens SMS, entre em contato com seu provedor de serviços SMS que explicará como preencher os diferentes campos de conta externa.
+   Para inserir as configurações de conexão específicas para enviar mensagens SMS, entre em contato com seu provedor de serviço SMS que explicará como preencher os diferentes campos de conta externa.
 
    ![](assets/sms_connection.png)
 
-   A **[!UICONTROL Enable TLS over SMPP]**opção permite criptografar o tráfego SMPP.
+   The **[!UICONTROL Enable TLS over SMPP]** option allows you to encrypt SMPP traffic.
 
-   **[!UICONTROL Enable verbose SMPP traces in the log file]**permite descarregar todo o tráfego SMPP em arquivos de registro. Essa opção deve ser habilitada para solucionar problemas no conector e comparar com o tráfego visto pelo provedor.
+   **[!UICONTROL Enable verbose SMPP traces in the log file]** permite descarregar todo o tráfego SMPP em arquivos de registro. Essa opção deve ser habilitada para solucionar problemas no conector e comparar com o tráfego visto pelo provedor.
 
-1. Entre em contato com a Adobe, que lhe dará o valor para entrar no **[!UICONTROL SMS-C implementation name]**campo, dependendo do provedor escolhido.
-1. Defina as configurações de canal SMPP. Você pode saber mais na seção Codificação e formatos [de](#sms-encoding-and-formats) SMS.
+1. Entre em contato com a Adobe, que lhe dará o valor para entrar no **[!UICONTROL SMS-C implementation name]** campo, dependendo do provedor escolhido.
+1. Defina as configurações do canal SMPP. Você pode saber mais na seção Codificação e formatos [de](#sms-encoding-and-formats) SMS.
 
-   Ative o **[!UICONTROL Store incoming MO in the database]**se desejar que todo o SMS recebido seja armazenado na tabela inSMS. Para obter mais informações sobre como recuperar o SMS recebido, consulte esta[seção](../../channels/using/managing-incoming-sms.md#storing-incoming-sms).
+   Ative o **[!UICONTROL Store incoming MO in the database]** se desejar que todo o SMS recebido seja armazenado na tabela inSMS. Para obter mais informações sobre como recuperar o SMS recebido, consulte esta [seção](../../channels/using/managing-incoming-sms.md#storing-incoming-sms).
 
-   A **[!UICONTROL Enable Real-time KPI updates during SR processing]**opção permite que os KPIs**[!UICONTROL Delivered]** ou **[!UICONTROL Bounces + Errors]**KPIs sejam atualizados em tempo real após o envio da entrega. Esses KPIs podem ser encontrados na**[!UICONTROL Deployment]** janela e são recalculados diretamente do SR (Relatório de status) recebido do provedor.
+   A **[!UICONTROL Enable Real-time KPI updates during SR processing]** opção permite que os KPIs **[!UICONTROL Delivered]** ou **[!UICONTROL Bounces + Errors]** KPIs sejam atualizados em tempo real após o envio do delivery. Esses KPIs podem ser encontrados na **[!UICONTROL Deployment]** janela e são recalculados diretamente do SR (Relatório de status) recebido do provedor.
 
    ![](assets/sms_connection_1.png)
 
-1. Defina os **[!UICONTROL Throughput and timeouts]**parâmetros.
+1. Defina os **[!UICONTROL Throughput and timeouts]** parâmetros.
 
    Você pode especificar o throughput máximo de mensagens de saída (&quot;MT&quot;, Mobile Terminated) no MT por segundo. Se inserir &quot;0&quot; no campo correspondente, a taxa de transferência será ilimitada.
 
@@ -62,12 +65,12 @@ Se quiser usar o protocolo SMPP, você também poderá criar uma nova conta exte
 
 1. Defina os parâmetros específicos do SMS-C caso precise definir um mapeamento de codificação específico. For more information, refer to the [SMSC specifics](#smsc-specifics) section.
 
-   Ative a **[!UICONTROL Send full phone number (send characters other than digits)]**opção se não quiser respeitar o protocolo SMPP e transferir o**[!UICONTROL +]** prefixo para o servidor do provedor SMS (SMS-C).
+   Ative a **[!UICONTROL Send full phone number (send characters other than digits)]** opção se não quiser respeitar o protocolo SMPP e transferir o **[!UICONTROL +]** prefixo para o servidor do provedor SMS (SMS-C).
 
-   However, given that certain providers require the use of the **[!UICONTROL +]**prefix, it is advised that you check with your provider and they will suggest that you enable this option if necessary.
+   However, given that certain providers require the use of the **[!UICONTROL +]** prefix, it is advised that you check with your provider and they will suggest that you enable this option if necessary.
 
 1. Se necessário, defina respostas automáticas para acionar ações com base no conteúdo de uma resposta. Para obter mais informações, consulte [esta seção](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
-1. Salve a configuração da conta externa de roteamento SMS.
+1. Salve a configuração da conta externa do roteamento SMS.
 
 Agora você pode usar seu novo roteamento para enviar mensagens SMS com o Adobe Campaign.
 
@@ -81,7 +84,7 @@ As mensagens SMS usando a codificação GSM são limitadas a 160 caracteres ou a
 
 >[!NOTE]
 >
->Alguns caracteres contam como dois (chaves, colchetes, o símbolo do euro, etc.). A lista de caracteres GSM disponíveis é apresentada na seção [Tabela de caracteres - GSM Standard](#table-of-characters---gsm-standard) .
+>Alguns caracteres contam como dois (chaves, colchetes, o símbolo do euro, etc.). A lista dos caracteres GSM disponíveis é apresentada na seção [Tabela de caracteres - GSM Standard](#table-of-characters---gsm-standard) .
 
 Você pode autorizar transliteração de caracteres marcando a caixa correspondente.
 
@@ -89,8 +92,8 @@ Você pode autorizar transliteração de caracteres marcando a caixa corresponde
 
 A transliteração consiste em substituir um caractere de um SMS por outro quando esse caractere não é considerado pelo padrão GSM.
 
-* If transliteration is **authorized**, each character that is not taken into account is replaced by a GSM character when the message is sent. Por exemplo, a letra &quot;ë&quot; é substituída por &quot;e&quot;. Portanto, a mensagem é ligeiramente alterada, mas o limite de caracteres permanecerá o mesmo.
-* When transliteration is **not authorized**, each message that contains characters that are not taken into account is sent in binary format (Unicode): all of the characters are therefore sent as they are. No entanto, as mensagens SMS usando Unicode são limitadas a 70 caracteres (ou 67 caracteres por SMS para mensagens enviadas em várias partes). Se o número máximo de caracteres for excedido, várias mensagens serão enviadas, o que pode ocasionar custos adicionais.
+* Se a transliteração for **authorized**, cada caractere que não for levado em consideração será substituído por um caractere GSM quando a mensagem for enviada. Por exemplo, a letra &quot;ë&quot; é substituída por &quot;e&quot;. Portanto, a mensagem é ligeiramente alterada, mas o limite de caracteres permanecerá o mesmo.
+* Quando a transliteração é **not authorized**, cada mensagem que contém caracteres que não são levados em consideração é enviada em formato binário (Unicode): todos os caracteres são enviados como estão. No entanto, as mensagens SMS usando Unicode são limitadas a 70 caracteres (ou 67 caracteres por SMS para mensagens enviadas em várias partes). Se o número máximo de caracteres for excedido, várias mensagens serão enviadas, o que pode ocasionar custos adicionais.
 
 >[!IMPORTANT]
 >
@@ -271,13 +274,13 @@ Esta seção apresenta os caracteres considerados pelo padrão GSM. Todos os car
  </tbody> 
 </table>
 
-SP: Espaço
+SP: espaço
 
-ESC: Escape
+ESC: escape
 
-LF: Feed de linha
+LF: alimentação de linha
 
-CR: Retorno de carro
+CR: retorno
 
 **Caracteres avançados (contados duas vezes)**
 
@@ -291,23 +294,24 @@ CR: Retorno de carro
 
 Ao enviar uma mensagem SMS, o Adobe Campaign pode usar uma ou várias codificações de texto. Cada codificação tem seu próprio conjunto específico de caracteres e determina o número de caracteres que cabem em uma mensagem SMS.
 
-O **[!UICONTROL DATA_CODING]**campo permite que o Adobe Campaign se comunique com o SMS-C que a codificação é usada.
+O **[!UICONTROL DATA_CODING]** campo permite que a Adobe Campaign comunique-se com o SMS-C que a codificação é usada.
 
 >[!NOTE]
 >
 >O mapping entre o valor **data_coding** e a codificação realmente usada é padronizado. Nevertheless, certain SMS-C have their own specific mapping: in this case, your **Adobe Campaign** administrator needs to declare this mapping. Consulte seu provedor para saber mais.
 
-The **[!UICONTROL Define a specific mapping of encodings]**functionality allows you to declare** data_codings **and to force the encoding if necessary: to do this, specify a single encoding in the table.
+The **[!UICONTROL Define a specific mapping of encodings]** functionality allows you to declare **data_codings** and to force the encoding if necessary: to do this, specify a single encoding in the table.
 
 **Configuração**
 
-* Quando a **[!UICONTROL Define a specific mapping of encodings]**funcionalidade não está selecionada, o conector assume um comportamento genérico:
+* Quando a **[!UICONTROL Define a specific mapping of encodings]** funcionalidade não está selecionada, o conector assume um comportamento genérico:
 
    * Ele tentará usar a codificação GSM para a qual atribui o valor **data_coding = 0**.
    * Se a codificação GSM falhar, ele usará a codificação **UCS2** para a qual atribui o valor **data_coding = 8**.
+
    ![](assets/sms_data_coding.png)
 
-* Quando a **[!UICONTROL Define a specific mapping of encodings]**funcionalidade é selecionada, você pode definir as codificações que deseja usar, bem como os valores de**[!UICONTROL data_coding]** campo vinculados. O Adobe Campaign tentará usar a primeira codificação na lista, a seguir, se a primeira codificação for impossível.
+* Quando a **[!UICONTROL Define a specific mapping of encodings]** funcionalidade é selecionada, você pode definir as codificações que deseja usar, bem como os valores de **[!UICONTROL data_coding]** campo vinculados. Adobe Campaign tentará usar a primeira codificação na lista, depois o seguinte, se a primeira codificação se revelar impossível.
 
    A ordem da declaração é importante: é recomendável colocar a lista em ordem crescente **de custo** para favorecer as codificações que permitem usar o máximo possível de caracteres em cada mensagem SMS.
 
@@ -317,36 +321,42 @@ The **[!UICONTROL Define a specific mapping of encodings]**functionality allows 
 
 ### Resposta automática enviada ao MO {#automatic-reply-sent-to-the-mo}
 
-Quando um perfil responde a uma mensagem SMS enviada via Campaign, você pode configurar mensagens que são automaticamente enviadas de volta a ele, bem como a ação a ser executada.
+Quando um perfil responde a uma mensagem SMS enviada por Campanha, você pode configurar mensagens que são automaticamente enviadas de volta a ele, bem como a ação a ser executada.
 
 Para obter mais informações, consulte [esta seção](../../channels/using/managing-incoming-sms.md).
 
 ## Configuração de propriedades SMS {#configuring-sms-properties}
 
-Esta seção detalha a lista de parâmetros exclusivos ao SMS na tela de propriedades de uma entrega de SMS ou de um modelo de SMS.
+Esta seção detalha a lista de parâmetros exclusivos ao SMS na tela de propriedades de um delivery SMS ou de um modelo SMS.
 
-Os parâmetros específicos para enviar mensagens SMS são agrupados nas seções **[!UICONTROL Send]**e nas**[!UICONTROL Advanced parameters]** .
+Os parâmetros específicos para enviar mensagens SMS são agrupados nas seções **[!UICONTROL Send]** e nas **[!UICONTROL Advanced parameters]** .
 
 ![](assets/sms_options.png)
 
-* A **[!UICONTROL From]**opção permite que você personalize o nome do remetente da mensagem SMS usando uma sequência de caracteres. Esse é o nome que será exibido como o nome do remetente da mensagem SMS no telefone celular do destinatário.
+Na **[!UICONTROL Advanced parameters]** seção:
 
-   Se este campo estiver vazio, então será o número de origem fornecido na conta externa que será usada. Se nenhum número de origem for fornecido, será o código curto que será usado. A conta externa específica para entrega de SMS é apresentada na seção [Definindo um roteiro](#defining-an-sms-routing) de SMS.
+* A **[!UICONTROL From]** opção permite que você personalize o nome do remetente da mensagem SMS usando uma sequência de caracteres. Esse é o nome que aparecerá como o nome do remetente da mensagem SMS no celular do destinatário.
 
-   ![](assets/sms_smpp.png)
+   Se este campo estiver vazio, então será o número de origem fornecido na conta externa que será usado. Se nenhum número de origem for fornecido, será o código curto que será usado. A conta externa específica para o delivery SMS é apresentada na seção [Definindo um roteamento](#defining-an-sms-routing) SMS.
 
-   >[!IMPORTANT]
-   >
-   >Verifique a legislação do seu país relativa à modificação do endereço do remetente. Você também deve verificar com seu provedor de serviços SMS se ele oferece essa funcionalidade.
-
-* A **[!UICONTROL Maximum number of SMS per message]**opção permite definir o número de mensagens SMS a serem usadas para enviar uma mensagem. Se esse número for excedido, a mensagem não será enviada.
+   ![](assets/sms_smpp_2.png)
 
    >[!IMPORTANT]
    >
-   >Se você tiver inserido campos de personalização ou texto condicional no conteúdo da sua mensagem SMS, a duração da mensagem e, como resultado, o número de mensagens SMS a serem enviadas pode variar de um destinatário para outro. Para obter mais informações, consulte a seção [Personalização de mensagens](../../channels/using/personalizing-sms-messages.md) SMS.
+   >Verifique a legislação do seu país relativa à modificação do endereço do remetente. Você também deve verificar com seu provedor de serviço SMS se eles ofertas essa funcionalidade.
 
-* O **[!UICONTROL Transmission mode]**campo permite determinar o método de entrega de mensagens SMS:
+Na **[!UICONTROL Send]** seção de um modelo SMS:
 
-   * **[!UICONTROL Saved on SIM card]**: a mensagem é armazenada no cartão SIM do telefone do destinatário.
+* A **[!UICONTROL Maximum number of SMS per message]** opção permite definir o número de mensagens SMS a serem usadas para enviar uma mensagem. Se esse número for excedido, a mensagem não será enviada.
+
+   >[!IMPORTANT]
+   >
+   >Se você tiver inserido campos de personalização ou texto condicional no conteúdo da sua mensagem SMS, o comprimento da mensagem e, como resultado, o número de mensagens SMS a serem enviadas, pode variar de um recipient para outro. Para obter mais informações, consulte a seção [Personalização de mensagens](../../channels/using/personalizing-sms-messages.md) SMS.
+
+   ![](assets/sms_smpp_3.png)
+
+* O **[!UICONTROL Transmission mode]** campo permite determinar o método de delivery para mensagens SMS:
+
+   * **[!UICONTROL Saved on SIM card]**: a mensagem é armazenada na placa SIM do telefone do recipient.
    * **[!UICONTROL Saved on mobile]**: a mensagem é armazenada na memória interna do telefone.
-   * **[!UICONTROL Flash]**: a mensagem é exibida no telefone móvel do destinatário como uma notificação e desaparece sem ser salva.
+   * **[!UICONTROL Flash]**: a mensagem é exibida no telefone móvel do recipient como uma notificação e então desaparece sem ser salva.
