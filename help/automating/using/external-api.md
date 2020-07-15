@@ -10,9 +10,9 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: cad3a63d3e0dd94e4e308110996ed15c75beb904
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
@@ -56,10 +56,10 @@ Em seguida, reconfigure outras atividades no fluxo de trabalho que apontam e/ou 
 
 ### Limitações e calhas {#guardrails}
 
-Foram instalados os seguintes coletores para esta atividade:
+Os seguintes coletores se aplicam a esta atividade:
 
-* Limite de tamanho de dados de resposta http de 50 MB
-* O tempo limite da solicitação é de 10 minutos
+* Limite de tamanho de dados de resposta http de 5 MB
+* O tempo limite da solicitação é de 1 minuto
 * Redirecionamentos HTTP não são permitidos
 * Urls que não sejam HTTPS são rejeitados
 * &quot;Aceitar: cabeçalho de solicitação application/json&quot; e &quot;Content-Type: o cabeçalho de resposta application/json é permitido
