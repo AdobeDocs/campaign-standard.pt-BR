@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 979ddba984bd564bf60b42973c857f2b896eeaf6
+source-git-commit: a1f15808bd892305282b838bebbc8fa1ce58283e
 workflow-type: tm+mt
-source-wordcount: '6089'
+source-wordcount: '6092'
 ht-degree: 19%
 
 ---
@@ -28,7 +28,7 @@ Além das Notas [de](../../rn/using/release-notes.md)versão do Adobe Campaign, 
 
 Uma nova seção foi adicionada com diretrizes relacionadas ao monitoramento de Campaign Standard. [Leia mais](../../administration/using/monitoring-guidelines.md)
 
-Os painéis de segurança da API externa foram atualizados. [Leia mais](../../automating/using/external-api.md)
+A seção Detalhes e limitações da API externa foi atualizada.[Leia mais](../../automating/using/external-api.md#guardrails)
 
 A página Visão geral do Gerenciamento de privacidade foi atualizada para incluir informações sobre a Lei de Proteção de Dados Pessoais (PDPA) da Tailândia e sobre a Lei Geral de Dados (LGPD) do Brasil. [Leia mais](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
@@ -752,7 +752,7 @@ lista detalhada de KPIs compartilhados com a Adobe Analytics. [Leia mais](../../
 
 Novo vídeo Relatório dinâmico.
 
-Adicionadas as recomendações da conta S3. [Leia mais](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
+Adicionadas recomendações de conta S3. [Leia mais](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
 
 Atualização da seção sobre os diferentes tipos de usuários. [Leia mais](../../administration/using/users-management.md)
 
