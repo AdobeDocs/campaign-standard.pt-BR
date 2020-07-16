@@ -10,9 +10,9 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cad3a63d3e0dd94e4e308110996ed15c75beb904
+source-git-commit: bb023ce5f716ffca0f94922de86cda5a8878d470
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1748'
 ht-degree: 0%
 
 ---
@@ -58,16 +58,15 @@ Em seguida, reconfigure outras atividades no fluxo de trabalho que apontam e/ou 
 
 Os seguintes coletores se aplicam a esta atividade:
 
-* Limite de tamanho de dados de resposta http de 5 MB
-* O tempo limite da solicitação é de 1 minuto
+* Limite de tamanho de dados de resposta http de 50 MB (recomenda-se 5 MB)
+* O tempo limite da solicitação é de 10 minutos
 * Redirecionamentos HTTP não são permitidos
 * Urls que não sejam HTTPS são rejeitados
 * &quot;Aceitar: cabeçalho de solicitação application/json&quot; e &quot;Content-Type: o cabeçalho de resposta application/json é permitido
 
->[!CAUTION]
+>[!NOTE]
 >
->Observe que a atividade se destina a obter dados de toda a campanha (último conjunto de ofertas, últimas pontuações, etc.), não para recuperar informações específicas de cada perfil, pois isso pode resultar na transferência de grandes quantidades de dados. Se o caso de uso exigir isso, a recomendação é usar a atividade [Transferir arquivo](../../automating/using/transfer-file.md) .
-
+>A partir da versão de Campanha 20.4, o limite de tamanho de dados de resposta http e os coletores serão reduzidos para 5 MB e 1 minuto.  Embora essa alteração afete apenas as novas atividades de API externas, recomenda-se que as implementações atuais da atividade de API externa se alinhem com esses novos painéis de controle para seguir as práticas recomendadas.
 
 Foram postos em prática medidas específicas para o JSON:
 
@@ -75,12 +74,14 @@ Foram postos em prática medidas específicas para o JSON:
 * **Extensão** Máx. da Chave JSON: limite o comprimento máximo da chave interna gerada para 255. Essa chave está associada à ID da coluna.
 * **Teclas máximas de Duplicado JSON permitidas**:  limite o número total máximo de nomes de propriedades JSON do duplicado, que são usados como ID da coluna, para 150.
 
-
 A atividade não tem suporte para a estrutura JSON como:
 
 * Combinação de objetos de matriz com outros elementos que não são de matriz
 * O objeto de matriz JSON é aninhado dentro de um ou mais objetos de matriz intermediários.
 
+>[!CAUTION]
+>
+>A atividade de API externa destina-se a obter dados de toda a campanha (conjunto mais recente de ofertas, pontuações mais recentes etc.), não para recuperar informações específicas para cada perfil, pois isso pode resultar na transferência de grandes quantidades de dados. Se o caso de uso exigir isso, a recomendação é usar a atividade [Transferir arquivo](../../automating/using/transfer-file.md) .
 
 ## Configuração {#configuration}
 
