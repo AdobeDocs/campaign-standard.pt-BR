@@ -12,9 +12,9 @@ discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f45985c030c3d5059bfef444287c10b842298f49
+source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,7 @@ O Adobe Campaign Standard oferta dois novos modelos de aprendizado de máquina: 
 
 * **Pontuação** de envolvimento previsível: A pontuação de envolvimento previsível prevê a probabilidade de um recipient se envolver com uma mensagem, bem como a probabilidade de opt out (cancelar a inscrição) nos próximos 7 dias após o próximo envio de email. As probabilidades são divididas em escalões de acordo com o risco específico de desvinculação, médio ou baixo. Ao longo destes, o modelo também fornece a classificação do percentil de risco para os clientes entenderem onde é que a classificação de um determinado cliente em relação a outros.
 
->[!NOTE]
-> **Pré-requisitos **
->
+>[!CAUTION]
 >Esse recurso não está disponível para uso imediato como parte do produto. A implementação exige que a Adobe Consulting esteja envolvida. Entre em contato com seu representante da Adobe para saber mais.
 >
 >Separadamente, o recurso exigia o uso de um armazenamento do Azure que deve ser fornecido pelo cliente.
