@@ -12,10 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7622018bff9c8b8573dae139372bea697815849f
+source-git-commit: 2d4b1ba38a7aa33d1fff3415d71080e370cb80f4
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 37%
+source-wordcount: '587'
+ht-degree: 38%
 
 ---
 
@@ -70,7 +70,7 @@ Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em 
    <td> <p>A partir da versão 19.4 da Campanha, o uso da API de Campanha e da interface para acessar e excluir solicitações está obsoleto. A exclusão do perfil de 2 etapas não estará disponível. Use o <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
    <p>Consulte também Gerenciamento de <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">privacidade no Campaign Standard</a>.</p>
   <p> 
-  <em>Versão de remoção do Público alvo: Campanha 20.4</em></p>
+  <em>Data de remoção do Target: 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -87,7 +87,7 @@ Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em 
    <td> <p>A partir da versão 19.0 da Campanha, o editor de e-mail herdado será substituído. Use <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">o novo Designer</a> de email para criar e personalizar seu conteúdo de email. </p></br>
    <p>Leia <a href="https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">esta seção</a> para saber como adaptar seus modelos de e-mail para o novo editor.</p></br>
   <p> 
-  <em>Versão de remoção do Público alvo: 2021</em></p>
+  <em>Data de remoção do Target: 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
