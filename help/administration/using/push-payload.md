@@ -13,15 +13,15 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 02fa55789449efe03af75779892303941b8a2871
+source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1148'
 ht-degree: 1%
 
 ---
 
 
-# Understanding Campaign Standard Push Notifications Payload Structure {#push-payload}
+# Understanding push notifications payload structure {#push-payload}
 
 O Adobe Campaign permite enviar notificações por push personalizadas e segmentadas em dispositivos móveis iOS e Android para aplicativos móveis (aplicativo móvel).
 
