@@ -10,9 +10,9 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb023ce5f716ffca0f94922de86cda5a8878d470
+source-git-commit: 3bd2fdb56fc94cef4e9c21466a33cdad7ac825d2
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: '1754'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Os seguintes coletores se aplicam a esta atividade:
 
 >[!NOTE]
 >
->A partir da versão de Campanha 20.4, o limite de tamanho de dados de resposta http e os coletores serão reduzidos para 5 MB e 1 minuto.  Embora essa alteração afete apenas as novas atividades de API externas, recomenda-se que as implementações atuais da atividade de API externa se alinhem com esses novos painéis de controle para seguir as práticas recomendadas.
+>A partir da versão 20.4 da Campanha, o limite de tamanho de dados da resposta http e os limites de tempo limite da resposta serão reduzidos para 5 MB e 1 minuto, respectivamente.  Embora essa alteração afete apenas as novas atividades de API externas, é altamente recomendável que as implementações atuais da atividade de API externa se alinhem com esses novos painéis de controle para seguir as práticas recomendadas.
 
 Foram postos em prática medidas específicas para o JSON:
 
