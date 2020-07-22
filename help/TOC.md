@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Ajuda do Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
+source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
 workflow-type: tm+mt
-source-wordcount: '1557'
-ht-degree: 83%
+source-wordcount: '1550'
+ht-degree: 82%
 
 ---
 
@@ -404,11 +404,11 @@ ht-degree: 83%
       + [Configuração de mensagens transacionais](administration/using/configuring-transactional-messaging.md)
    + Configuração de canais móveis {#configuring-mobile}
       + [Implementação do rastreamento de push](administration/using/push-tracking.md)
-      + [Exibir uma imagem a partir de uma notificação por push do Adobe Campaign Standard](administration/using/image-push-notification.md)
-      + [Como entender a estrutura de carga das notificações por push do Campaign Standard](administration/using/push-payload.md)
+      + [Adicionar imagens e vídeos ao iOS](administration/using/image-push-notification.md)
+      + [Noções básicas sobre a estrutura de carga de notificações por push](administration/using/push-payload.md)
       + [Implementação do rastreamento de notificação local](administration/using/local-tracking.md)
       + [Perguntas frequentes sobre o fluxo de trabalho técnico SyncWithLaunch](administration/using/syncwithlaunch-faq.md)
-      + [Perguntas frequentes sobre integração de Adobe Experience Platform SDK e Adobe Campaign](administration/using/aep-faq.md)
+      + [Introdução ao Adobe Experience Platform SDK e Campanha](administration/using/aep-faq.md)
    + Configurações do aplicativo {#application-settings}
       + [Sobre as configurações do Campaign Standard](administration/using/about-campaign-standard-settings.md)
       + [Contas externas](administration/using/external-accounts.md)
