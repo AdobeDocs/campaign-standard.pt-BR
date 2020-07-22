@@ -12,15 +12,32 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0a0c59763af8babc9701206cc39fe41b98e0cd4
+source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
 
 
-# Perguntas frequentes sobre integração de Adobe Experience Platform SDK e Adobe Campaign {#aep-faq}
+# Introdução ao Adobe Experience Platform SDK e Campaign Standard {#aep-faq}
+
+Para enviar notificações por push e mensagens no aplicativo com o aplicativo Experience Platform SDK, um aplicativo móvel deve ser configurado no Adobe Experience Platform SDK e configurado no Adobe Campaign.
+
+A seção abaixo lista perguntas comuns sobre essa sincronização.
+
+Para obter mais informações sobre Push ou In-app, consulte as seguintes perguntas frequentes:
+
+* [Perguntas frequentes sobre notificações por push](../../channels/using/about-push-notifications.md#push-faq)
+* [Perguntas frequentes no aplicativo](../../channels/using/about-push-notifications.md#in-app-faq)
+* [Sincronizar com perguntas frequentes do fluxo de trabalho técnico do Launch](../../administration/using/syncwithlaunch-faq.md)
+
+## Recursos úteis antes de iniciar {#resource-mobile-property}
+
+Consulte os recursos abaixo para obter mais informações sobre o SDK do Adobe Experience Platform e a integração do Campaign Standard:
+
+* Vídeo de [visão geral do Launch/Mobile](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
+* Guia de [dicas e truques para inicialização/dispositivos móveis](https://www.adobe.com/content/dam/www/us/en/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## A integração do SDK do Adobe Experience Platform está disponível para o Adobe Campaign Standard e o Adobe Campaign Classic? {#aep-validity}
 
@@ -38,7 +55,7 @@ Consulte a tabela abaixo para saber mais sobre esses recursos.
 >
 >[!DNL Places] a integração inclui eventos de local como acionadores para mensagens no aplicativo (N/A para notificações por push), enriquecendo perfis com suporte a notificações locais e [!DNL Places] dados. Refer to this [page](../../channels/using/preparing-and-sending-an-in-app-message.md) for more information. <br>[!DNL Places] a integração limitada inclui perfis enriquecedores com [!DNL Places] dados.
 
-## Que caso de uso a integração do SDK do Adobe Experience Platform facilita no Adobe Campaign Standard? {#aep-use-cases}
+## Que caso de uso a integração do Adobe Experience Platform SDK facilita no Adobe Campaign Standard? {#aep-use-cases}
 
 Os seguintes casos de uso são suportados:
 
@@ -81,13 +98,6 @@ A frequência e o design de chamadas CollectPII devem ser ditados pelas necessid
 ### Quando tento acessar aplicativos Adobe Experience Platform no Campaign ou no Launch, às vezes recebo um erro de propriedade não disponível. {#aep-error}
 
 Esse é um problema conhecido e ocorre devido à expiração do token. Você deve tentar fazer logout e login.
-
-## Quais seriam algumas recomendações de recursos úteis para saber mais sobre a configuração da propriedade Mobile no Adobe Experience Platform Launch? {#resource-mobile-property}
-
-Confira os recursos abaixo:
-
-* Vídeo de [visão geral do Launch/Mobile](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
-* Guia de [dicas e truques para inicialização/dispositivos móveis](https://www.adobe.com/content/dam/www/us/en/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## Quais seriam algumas recomendações de recursos úteis para saber mais sobre o Adobe Experience Platform SDK (anteriormente conhecido como SDK V5)?{#resource-aep}
 
