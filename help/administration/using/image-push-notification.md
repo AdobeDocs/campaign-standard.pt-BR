@@ -13,9 +13,9 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: cf43edcacbab9f1f33ce29e23c0957d8bfa64e7d
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '428'
 ht-degree: 8%
 
 ---
@@ -64,9 +64,9 @@ Depois de personalizar sua notificação por push no Adobe Campaign, é necessá
 
 Se seu aplicativo estiver em [!DNL Swift], siga as etapas abaixo:
 
-1. Abra seu projeto [DNL Xcode] .
+1. Abra seu [!DNL Xcode] projeto.
 
-1. No projeto [DNL Xcode] , selecione **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
+1. Em seu [!DNL Xcode] projeto, selecione **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
 
 1. Selecione **[!UICONTROL Notification Service Extension]**.
 
