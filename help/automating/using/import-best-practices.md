@@ -12,15 +12,19 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b4d0aa1a9f116f022890d5eccd87730a7a513103
+source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 78%
+source-wordcount: '569'
+ht-degree: 74%
 
 ---
 
 
 # Práticas recomendadas de importação {#import-best-practices}
+
+>[!CAUTION]
+>
+>Lembre-se dos limites de armazenamento SFTP, Armazenamento DB e perfil ativo conforme o contrato do AdobeCampaign, ao usar essa funcionalidade.
 
 Ser cuidadoso e seguir apenas algumas regras simples detalhadas abaixo ajudará a garantir a consistência dos dados dentro do banco de dados e evitar erros comuns durante a atualização ou exportação de dados.
 
