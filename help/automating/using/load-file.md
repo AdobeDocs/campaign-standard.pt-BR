@@ -13,9 +13,9 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1364'
 ht-degree: 11%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 11%
 # Carregar arquivo {#load-file}
 
 ## Descrição {#description}
+
+>[!CAUTION]
+>
+>Lembre-se dos limites de armazenamento SFTP, Armazenamento DB e perfil ativo conforme o contrato do AdobeCampaign, ao usar essa funcionalidade.
 
 ![](assets/data_loading.png)
 
@@ -100,7 +104,7 @@ A configuração da atividade envolve duas etapas. Primeiro, é necessário defi
 
    * Vem de uma transição de entrada no fluxo de trabalho.
    * É aquele que você carregou durante a etapa anterior.
-   * É um novo arquivo para carregar a partir do computador local. A **[!UICONTROL Upload a new file from local machine]** opção será exibida se o upload de um primeiro arquivo já tiver sido definido no fluxo de trabalho. Isso permite que você carregue outro arquivo a ser processado se o arquivo atual não atender às suas necessidades.
+   * É um novo arquivo para carregar a partir do computador local. A **[!UICONTROL Upload a new file from local machine]** opção será exibida se o upload de um primeiro arquivo já tiver sido definido no fluxo de trabalho. Isso permite que você carregue outro arquivo para ser processado se o arquivo atual não atender às suas necessidades.
 
       ![](assets/wkf_file_loading1.png)
 
@@ -154,6 +158,7 @@ A formatação de coluna permite definir o processamento de valor de cada coluna
    * **[!UICONTROL Use a default value]**: substitui o valor que causa o erro por um valor padrão, definido no campo **[!UICONTROL Default value]**.
    * **[!UICONTROL Use a default value in case the value is not remapped]**: substitui o valor que causa o erro por um valor padrão, definido no **[!UICONTROL Default value]** campo, a menos que um mapeamento tenha sido definido para o valor errado (consulte a **[!UICONTROL Remapping of values]** opção acima).
    * **[!UICONTROL Reject the line when there is no remapping value]**: a linha inteira não é processada a menos que um mapeamento tenha sido definido para o valor errado (consulte a **[!UICONTROL Remapping of values]** opção acima).
+
    >[!NOTE]
    >
    >**[!UICONTROL Error processing]** refere-se a erros referentes a valores no arquivo importado. Por exemplo, um tipo de dados com falha foi encontrado (&quot;quatro&quot; em letras para uma coluna &quot;Número inteiro&quot;), uma string contendo mais caracteres do que o número máximo autorizado, uma data com separadores com falha etc. No entanto, essa opção não diz respeito a erros gerados pelo gerenciamento de valores vazio.
