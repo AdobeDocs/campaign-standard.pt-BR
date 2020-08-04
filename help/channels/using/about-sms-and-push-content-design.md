@@ -1,46 +1,49 @@
 ---
-title: Sobre SMS e design de conteúdo de push
+title: Sobre design de conteúdo de SMS e notificações por push
 description: Saiba mais sobre o editor usado para modificar o conteúdo de suas mensagens SMS e notificações por push no Adobe Campaign.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 99277e46-e4f7-49a9-ba27-b878780f90da
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: concepção
-content-type: referência
-topic-tags: edit-sms-and-push-content
+audience: designing
+content-type: reference
+topic-tags: editing-sms-and-push-content
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-context-tags: entrega,smsContent,back
+context-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '165'
+ht-degree: 100%
 
 ---
 
 
-# Sobre SMS e design de conteúdo de push{#about-sms-and-push-content-design}
+# Sobre design de conteúdo de SMS e notificações por push{#about-sms-and-push-content-design}
 
 Use o editor de conteúdo para definir, modificar e personalizar o conteúdo de suas mensagens SMS e notificações por push no Adobe Campaign.
 
-Esta seção descreve as especificidades do SMS e do editor de conteúdo de push, incluindo a interface [do editor de conteúdo de](../../channels/using/sms-and-push-content-editor-interface.md)SMS e push.
+Esta seção descreve as especificidades do editor de conteúdo de SMS e de notificações por push, incluindo [a interface do editor de conteúdo de SMS e notificações por push](../../channels/using/sms-and-push-content-editor-interface.md).
 
 As ações comuns a uma ou mais atividades de marketing são apresentadas nas seguintes seções:
 
-* Para obter mais informações sobre a personalização de um conteúdo de notificação por push ou SMS, consulte [Inserir um campo](../../designing/using/personalization.md#inserting-a-personalization-field) de personalização e [Adicionar um bloco](../../designing/using/personalization.md#adding-a-content-block)de conteúdo.
-* Para obter mais informações sobre a definição de texto condicional em uma mensagem SMS ou notificação por push, consulte [Definição de texto](../../channels/using/defining-dynamic-text.md)dinâmico.
+* Para mais informações sobre a personalização de conteúdo de SMS ou notificação por push, consulte [Inserir um campo de personalização](../../designing/using/personalization.md#inserting-a-personalization-field) e [Adicionar um bloco de conteúdo](../../designing/using/personalization.md#adding-a-content-block).
+* Para obter mais informações sobre definição de texto condicional em uma mensagem SMS ou notificação por push, consulte [Definição de texto dinâmico](../../channels/using/defining-dynamic-text.md).
 
-Para acessar o SMS e o editor de conteúdo de push:
+Para acessar o editor de conteúdo de SMS e notificação por push:
 
-* Clique no **[!UICONTROL Content]** bloco em um painel SMS.
+* Clique no bloco **[!UICONTROL Content]**, em um painel SMS.
 
    ![](assets/des_sms_content.png)
 
-* Clique no lápis ao lado do **[!UICONTROL Message body]** campo em um painel de notificação por push.
+* Clique no lápis ao lado do campo **[!UICONTROL Message body]**, em um painel de notificação por push.
 
    ![](assets/des_push_body.png)
 
 **Tópicos relacionados:**
 
 * [Criar uma mensagem SMS](../../channels/using/creating-an-sms-message.md)
-* [Criação e envio de notificações por push](../../channels/using/preparing-and-sending-a-push-notification.md)
+* [Criação e envio de uma notificação por push](../../channels/using/preparing-and-sending-a-push-notification.md)
 
