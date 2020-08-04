@@ -1,57 +1,60 @@
 ---
-title: Confirmar o envio
+title: Confirmação do envio
 description: Saiba como finalizar a preparação da mensagem.
-page-status-flag: nunca ativado
+page-status-flag: never-activated
 uuid: 1eaecb32-ffd2-45d0-a8b4-f97bee59a1bd
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: envio
-content-type: referência
-topic-tags: enviar e rastrear mensagens
+audience: sending
+content-type: reference
+topic-tags: sending-and-tracking-messages
 discoiquuid: 8bb160b1-7de9-4c1f-bb89-b2e5fdafed41
-context-tags: entrega,implantação,back
+context-tags: delivery,deployment,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '312'
+ht-degree: 100%
 
 ---
 
 
-# Confirmar o envio{#confirming-the-send}
+# Confirmação do envio{#confirming-the-send}
 
-Quando terminar de preparar suas mensagens e as etapas de aprovação tiverem sido executadas, você poderá enviá-las. Para obter mais informações sobre a preparação de mensagens, consulte [Preparação do envio](../../sending/using/preparing-the-send.md).
+Quando terminar de preparar as mensagens e as etapas de aprovação forem executadas, você poderá enviá-las. Para saber mais sobre a preparação de mensagens, consulte [Preparação do envio](../../sending/using/preparing-the-send.md).
 
-Somente os usuários com a **[!UICONTROL Start deliveries]** função podem confirmar o envio. Para obter mais informações, consulte a seção [Lista de funções](../../administration/using/list-of-roles.md) .
+Somente os usuários com a função **[!UICONTROL Start deliveries]** podem confirmar o envio. Para saber mais, consulte a seção [Lista de funções](../../administration/using/list-of-roles.md).
 
 Os usuários sem essa função verão a seguinte mensagem:
 
 ![](assets/confirm_delivery_2.png)
 
-Para enviar sua entrega, clique no **[!UICONTROL Confirm send]** botão encontrado na barra de ação da mensagem.
+Para enviar o delivery, clique no botão **[!UICONTROL Confirm send]** localizado na barra de ação da mensagem.
 
 ![](assets/confirm_delivery.png)
 
-Você será solicitado a finalizar o envio definitivamente clicando no **[!UICONTROL OK]** botão.
+Você deverá finalizar o envio definitivamente clicando no botão **[!UICONTROL OK]**.
 
 ![](assets/confirm_delivery1.png)
 
-A mensagem está sendo enviada.
+A mensagem é enviada.
 
 >[!NOTE]
 >
->Se a mensagem estiver programada, ela será enviada quando a hora de envio for atingida. For more on scheduling messages, refer to [this section](../../sending/using/about-scheduling-messages.md).
+>Se a mensagem estiver programada, ela será enviada no horário especificado. Para saber mais sobre como programar mensagens, consulte [esta seção](../../sending/using/about-scheduling-messages.md).
 
-Se você estiver usando uma entrega recorrente sem período de agregação, poderá solicitar confirmação antes que a entrega seja enviada. Para fazer isso, abra o **[!UICONTROL Schedule]** bloco do painel de entrega e ative a opção dedicada.
+Se estiver usando um delivery recorrente sem nenhum período de agregação, você poderá solicitar uma confirmação antes de o delivery ser enviado. Para isso, abra o bloco **[!UICONTROL Schedule]** do painel de delivery e ative a opção dedicada.
 
 ![](assets/confirmation_recurring_deliveries.png)
 
-O **[!UICONTROL Deployment]** bloco mostra o progresso do envio.
+O bloco **[!UICONTROL Deployment]** mostra o progresso do envio.
 
-Depois que a mensagem é enviada aos contatos, a **[!UICONTROL Deployment]** zona mostra seus dados KPIs (Indicador-chave de desempenho), incluindo:
+Depois que a mensagem é enviada aos contatos, a zona **[!UICONTROL Deployment]** mostra seus KPIs (indicadores principais de desempenho), inclusive:
 
-* O número de mensagens a serem entregues
-* O número de mensagens enviadas
+* Número de mensagens para delivery
+* Número de mensagens enviadas
 * A porcentagem de mensagens entregues
 * A porcentagem de rejeições e erros
 * A porcentagem de mensagens abertas
@@ -59,18 +62,18 @@ Depois que a mensagem é enviada aos contatos, a **[!UICONTROL Deployment]** zon
 
    >[!NOTE]
    >
-   >O **[!UICONTROL Open rate]** e **[!UICONTROL Click-through rate]** são atualizados a cada hora.
+   >A **[!UICONTROL Open rate]** e a **[!UICONTROL Click-through rate]** são atualizadas a cada hora.
 
 ![](assets/sending_delivery.png)
 
-Se os KPIs levarem muito tempo para atualizar ou não levarem em conta os resultados dos logs de envio, clique no **[!UICONTROL Compute stats]** botão na **[!UICONTROL Deployment]** janela.
+Se os KPIs demorarem para atualizar ou não levarem em conta os resultados dos logs de envio, clique no botão **[!UICONTROL Compute stats]** da janela **[!UICONTROL Deployment]**.
 
 ![](assets/sending_delivery7.png)
 
-A mensagem pode ser visualizada no histórico de um dos perfis do cliente que faz parte do público-alvo. See [Integrated customer profile](../../audiences/using/integrated-customer-profile.md).
+A mensagem pode ser exibida no histórico de um dos perfis de clientes que fazem parte do público-alvo. Consulte [Perfil de cliente integrado](../../audiences/using/integrated-customer-profile.md).
 
-Depois que uma mensagem é enviada, você pode rastrear o comportamento de seus destinatários e monitorá-la para medir seu impacto. Para obter mais informações, consulte essas seções.
+Depois que uma mensagem é enviada, você poderá rastrear o comportamento dos recipients e monitorá-la para medir o impacto. Para saber mais, consulte estas seções:
 
 * [Rastreamento de mensagens](../../sending/using/tracking-messages.md)
-* [Monitoramento de uma entrega](../../sending/using/monitoring-a-delivery.md)
+* [Monitoramento de um delivery](../../sending/using/monitoring-a-delivery.md)
 
