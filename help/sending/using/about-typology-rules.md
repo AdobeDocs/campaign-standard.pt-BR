@@ -1,6 +1,6 @@
 ---
 title: Sobre tipologias e regras de tipologia
-description: Descubra como as tipologias e regras de tipologia funcionam no Adobe Campaign.
+description: Saiba como as tipologias e regras de tipologia funcionam no Adobe Campaign.
 page-status-flag: never-activated
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
 contentOwner: sauviat
@@ -12,17 +12,20 @@ discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
+workflow-type: ht
+source-wordcount: '190'
+ht-degree: 100%
 
 ---
 
 
 # Sobre tipologias e regras de tipologia{#about-typology-rules}
 
-O Campaign Standard permite que você vincule uma mensagem a uma **tipologia**, para verificar se a mensagem é válida e se atende aos seus critérios de qualidade.
+No Campaign Standard é possível vincular uma mensagem a uma **tipologia**, a fim de verificar se a mensagem é válida e atende aos seus critérios de qualidade.
 
-As tipologias são conjuntos de **regras de tipologia**, que são executados durante a fase de análise da mensagem. Eles permitem que você se certifique de que seus emails sempre contenham determinados elementos (como um link de unsubscription ou uma linha de assunto) ou regras de filtragem para excluir grupos do público alvo desejado (como clientes que não assinam, concorrentes ou não fazem fidelidade).
+Tipologias são conjuntos de **regras de tipologia**, que são executadas durante a fase de análise da mensagem. Elas possibilitam garantir que seus emails sempre contenham determinados elementos (como um link de cancelamento de assinatura ou uma linha de assunto) ou regras de filtragem para excluir grupos do público-alvo desejado (como clientes que não assinam, concorrentes ou clientes não fidelizados).
 
 ![](assets/typology_messagelink.png)
 
@@ -31,6 +34,6 @@ As tipologias e regras de tipologia prontas para uso estão disponíveis no Camp
 As etapas para criar e aplicar uma tipologia às mensagens são:
 
 1. Criar regras de tipologia (consulte [esta seção](../../sending/using/managing-typology-rules.md#creating-a-typology-rule)).
-1. Create a typology and reference the rules you created into it (see [this section](../../sending/using/managing-typologies.md#creating-a-typology)).
-1. Configure seu delivery para usar a tipologia criada (consulte [esta seção](../../sending/using/managing-typologies.md#applying-typologies-to-messages)).
-1. Durante a preparação da mensagem, os perfis são excluídos quando o critério é atendido. Você pode verificar logs para monitorar exclusões.
+1. Criar uma tipologia e fazer referência às regras criadas nela (consulte [esta seção](../../sending/using/managing-typologies.md#creating-a-typology)).
+1. Configurar o delivery para usar a tipologia criada (consulte [esta seção](../../sending/using/managing-typologies.md#applying-typologies-to-messages)).
+1. Durante a preparação da mensagem, os perfis são excluídos quando o critério é atendido. Você pode verificar os logs para monitorar exclusões.
