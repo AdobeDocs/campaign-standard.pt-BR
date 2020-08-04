@@ -1,6 +1,6 @@
 ---
-title: Compartilhamento de uma página de aterrissagem
-description: Saiba como testar e publicar uma página de aterrissagem no Adobe Campaign.
+title: Compartilhamento de uma landing page
+description: Saiba como testar e publicar uma landing page no Adobe Campaign.
 page-status-flag: never-activated
 uuid: fb7b087a-3292-496c-bc41-2e3012bacf59
 contentOwner: sauviat
@@ -11,64 +11,67 @@ topic-tags: landing-pages
 discoiquuid: f7d4bb71-f957-4f86-97c7-8ac0a0030026
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
+workflow-type: ht
+source-wordcount: '383'
+ht-degree: 100%
 
 ---
 
 
-# Teste e publicação de uma página de aterrissagem{#testing-publishing--landing-page}
+# Teste e publicação de uma landing page{#testing-publishing--landing-page}
 
-## Sobre a publicação da página de aterrissagem {#about-landing-page-publication}
+## Sobre publicação de uma landing page {#about-landing-page-publication}
 
-Antes de publicar uma página de aterrissagem, é necessário executar testes: valide a execução, configure o acesso e configure o fim da vida útil da página de aterrissagem. Essas etapas são pré-requisitos e precisam ser executadas com cautela.
+Antes de publicar uma landing page, faça testes: valide a execução, configure o acesso e configure o fim da vida da landing page. Essas etapas são pré-requisitos e precisam ser executadas com cuidado.
 
-## Teste da página de aterrissagem {#testing-the-landing-page-}
+## Teste da landing page {#testing-the-landing-page-}
 
-Como a página de aterrissagem afetará sua plataforma e seus dados, é necessário testar cuidadosamente sua execução. Para fazer isso:
+Como a landing page afetará a plataforma e os dados, é necessário testar cuidadosamente a execução. Para fazer isso:
 
-1. Clique no **[!UICONTROL Test]** botão na barra de ação da página de aterrissagem.
-1. Na tela de teste, selecione um perfil de teste e um serviço de teste se a página inicial for para gerenciar assinaturas.
+1. Clique no botão **[!UICONTROL Test]** na barra de ação da landing page.
+1. Na tela de teste, selecione um perfil de teste e um serviço de teste se a landing page for usada para gerenciar assinaturas.
 
    ![](assets/lp_test_2.png)
 
 1. Insira os dados nos campos e selecione as opções.
-1. Envie a página inicial e verifique as atualizações no banco de dados.
+1. Envie a landing page e confira se há atualizações no banco de dados.
 
    >[!IMPORTANT]
    >
-   >Quando o formulário é enviado, o serviço e o perfil usados são atualizados.
+   >Quando o formulário for enviado, o serviço e o perfil usados serão atualizados.
 
 1. Repita isso com vários perfis e dados.
 
-   Também é possível gerar a miniatura da página inicial a partir dessa tela.
+   Você também pode gerar a miniatura da landing page desta tela.
 
 >[!NOTE]
 >
->Para exibir a visualização da página inicial na interface do usuário do Campaign, o URL do servidor de aplicativos deve estar protegido. Nesse caso, use https:// em vez de http:// para configurar esse URL ao [configurar sua marca](../../administration/using/branding.md#configuring-and-using-brands).
+>Para exibir a pré-visualização da landing page na interface do usuário do Campaign, o URL do servidor do aplicativo deve estar protegido. Nesse caso, use https:// em vez de http:// para definir esse URL ao [configurar sua marca](../../administration/using/branding.md#configuring-and-using-brands).
 
 ## Configuração de parâmetros de validade {#setting-up-validity-parameters}
 
-Antes de publicar, por motivos de segurança e desempenho da plataforma, recomendamos que você defina uma data de expiração nas propriedades da página inicial. Na data selecionada, a página inicial será automaticamente despublicada. Para fazer isso:
+Antes da publicação, por motivos de segurança e desempenho da plataforma, recomendamos que você defina uma data de expiração nas propriedades da landing page. Na data selecionada, a publicação da landing page será automaticamente desfeita. Para fazer isso:
 
-1. Edite as propriedades da página inicial acessadas pelo ![](assets/edit_darkgrey-24px.png) botão no painel da página inicial.
+1. Edite as propriedades de landing page acessadas pelo botão ![](assets/edit_darkgrey-24px.png) no painel da landing page.
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Configure a data e a hora de expiração na **[!UICONTROL Publication]** seção: a página inicial será automaticamente despublicada na data especificada e, portanto, não estará mais disponível.
+1. Configure a data e a hora de expiração na seção **[!UICONTROL Publication]**. A publicação da landing page será automaticamente desfeita na data especificada e não estará mais disponível.
 
    Você pode selecionar o fuso horário a ser considerado para essa data e hora.
 
-1. Defina um URL de redirecionamento para redirecionar os visitantes ao tentar acessar uma página de aterrissagem não ativa.
+1. Defina um URL para redirecionar os visitantes quando eles tentarem acessar uma landing page inativa.
 
    ![](assets/lp_settings_general.png)
 
 >[!IMPORTANT]
 >
->Você também pode definir uma data e hora de implantação: a página inicial será publicada automaticamente na data especificada.
+>Você também pode definir uma data e hora de implantação. A landing page será publicada automaticamente na data especificada.
 
-## Publicar uma página de aterrissagem {#publishing-a-landing-page}
+## Publicação de uma landing page {#publishing-a-landing-page}
 
-Quando você publica uma página de aterrissagem, ela é colocada ao vivo e pode ser acessada pelos seus visitantes.
+Ao publicar uma landing page, ela fica ativa e pode ser acessada pelos visitantes.
 
-Você pode cancelar a publicação ou atualizar e republicar sua página inicial a qualquer momento, por meio do **[!UICONTROL Publish]** botão. No entanto, se a republicação falhar e você ainda não tiver despublicado sua página inicial, a primeira versão permanecerá online.
+Você pode desfazer a publicação ou atualizar e republicar a landing page a qualquer momento usando o botão **[!UICONTROL Publish]**. No entanto, se a republicação falhar e você ainda não tiver desfeito a publicação da landing page, a primeira versão permanecerá online.
