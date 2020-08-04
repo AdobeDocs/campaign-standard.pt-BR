@@ -1,19 +1,22 @@
 ---
 title: Linha do tempo
-description: Saiba como visualizar programas em andamento e seu conteúdo usando a interface do Adobe Campaign Standard.
-page-status-flag: nunca ativado
+description: Saiba como visualizar programas que estão em andamento e seu conteúdo usando a interface do Adobe Campaign Standard.
+page-status-flag: never-activated
 uuid: ffa0a63a-2e77-45c0-8e60-212f7aaeb447
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: referência
-topic-tags: planos de marketing
-discoiquuid: 53e3db10-5feed-4fc3-b41e-5226f1e05246
+content-type: reference
+topic-tags: marketing-plans
+discoiquuid: 53e3db10-5fed-4fc3-b41e-5226f1e05246
 context-tags: campaignCalendar,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '380'
+ht-degree: 100%
 
 ---
 
@@ -22,44 +25,44 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 O **[!UICONTROL Timeline]** permite visualizar programas que estão em andamento e seu conteúdo.
 
-Para acessar a linha do tempo, clique no cartão correspondente na página inicial.
+Para acessar a linha do tempo, clique no cartão correspondente da home page.
 
-Por padrão, a linha do tempo somente detalha os programas, que são exibidos cronologicamente entre as datas de início e término definidas.
+Por padrão, a linha do tempo só detalha os programas que são exibidos cronologicamente entre as datas de início e de término definidas.
 
-Cada programa é representado por uma caixa contendo a miniatura e o rótulo correspondentes. Dependendo do tamanho da tela e do número de elementos a serem exibidos, a etiqueta pode ser substituída pela ID do programa.
+Cada programa é representado por uma caixa contendo a miniatura e o rótulo correspondentes. Dependendo do tamanho da tela e do número de elementos a serem exibidos, o rótulo pode ser substituído pela ID do programa.
 
 ![](assets/timeline_1.png)
 
-A linha vertical azul é um marcador cronológico para realçar a data atual. Por padrão, ele é encontrado no meio da tela. Você pode rolar para a direita ou para a esquerda na tela para modificar o período exibido.
+A linha vertical azul é um marcador cronológico para realçar a data atual. Por padrão, ele é encontrado no meio da tela. Você pode rolar a tela para a direita ou para a esquerda para modificar o período exibido.
 
-Os botões ![](assets/timeline_zoom_in.png) e ![](assets/timeline_zoom_out.png) permitem aumentar ou reduzir o perímetro. O ![](assets/timeline_zoom_in.png) botão também aumenta o nível de detalhes por um período mais limitado, até que os dias sejam exibidos e o ![](assets/timeline_zoom_out.png) botão permite exibir um período maior.
+Os botões ![](assets/timeline_zoom_in.png) e ![](assets/timeline_zoom_out.png) permitem aumentar ou reduzir o perímetro. O botão ![](assets/timeline_zoom_in.png) também aumenta o nível de detalhes por um período mais limitado, até que os dias sejam exibidos, e o botão ![](assets/timeline_zoom_out.png) permite exibir um período maior.
 
-Clique na seta à direita de cada nome de programa para exibir o conteúdo correspondente. Um programa pode conter subprogramas, campanhas e páginas de aterrissagem. Uma campanha é implantada da mesma forma que um programa e pode conter emails, SMS e páginas de aterrissagem.
+Clique na seta à direita de cada nome de programa para exibir o conteúdo correspondente. Um programa pode conter subprogramas, campanhas e landing pages. Uma campanha é implantada da mesma forma que um programa e pode conter emails, SMS e landing pages.
 
 >[!NOTE]
 >
->Como os fluxos de trabalho não têm uma noção específica de uma data, eles não aparecem na linha do tempo.
+>Como os workflows não têm uma noção específica de uma data, eles não aparecem na linha do tempo.
 
-Quando o conteúdo de um programa ou campanha é exibido, a caixa correspondente fica azul e a seta no lado direito fica invertida. Clique novamente na seta para ocultar o conteúdo.
+Quando o conteúdo de um programa ou de uma campanha é exibido, a caixa correspondente fica azul, e a seta no lado direito fica invertida. Clique novamente na seta para ocultar o conteúdo.
 
 ![](assets/timeline_2.png)
 
 Cada elemento tem um ícone que corresponde ao seu tipo:
 
 * ![](assets/timeline_program_icon.png) : Programa
-* ![](assets/timeline_campaign_icon.png) : Campaign
-* ![](assets/timeline_lp_icon.png) : Página de aterrissagem
+* ![](assets/timeline_campaign_icon.png) : Campanha
+* ![](assets/timeline_lp_icon.png) : Landing page
 * ![](assets/timeline_email_icon.png) : Email
 * ![](assets/timeline_sms_icon.png) : SMS
-* ![](assets/timeline_push_icon.png) : Notificação por push
+* ![](assets/timeline_push_icon.png) : Notificações por push
 
 A linha colorida na borda esquerda de cada caixa indica o status do elemento em questão.
 
 * Quando um elemento ainda não foi iniciado, a linha fica cinza.
-* Se um elemento estiver em andamento, a linha será azul.
+* Se um elemento estiver em andamento, a linha ficará azul.
 * Assim que um elemento terminar, a linha fica verde.
 
-Clique em um programa ou qualquer outro elemento exibido para fazer com que o cartão correspondente apareça. Em seguida, clique no cartão para ir diretamente para o conteúdo do elemento selecionado e modificá-lo.
+Clique em um programa ou em qualquer outro elemento exibido para fazer com que o cartão correspondente apareça. Em seguida, clique no cartão para ir diretamente ao conteúdo do elemento selecionado e modificá-lo.
 
 ![](assets/timeline_3.png)
 
