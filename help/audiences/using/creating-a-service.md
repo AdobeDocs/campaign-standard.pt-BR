@@ -1,6 +1,6 @@
 ---
-title: Criar um serviço
-description: Saiba como criar seu primeiro serviço e configurá-lo para enviar confirmações por email aos seus assinantes.
+title: Criação de um serviço
+description: Saiba como criar seu primeiro serviço e configurá-lo para enviar confirmações por email aos assinantes.
 page-status-flag: never-activated
 uuid: 0d95d852-0f22-4b7b-b301-8fb4844c3ca2
 contentOwner: sauviat
@@ -12,52 +12,55 @@ discoiquuid: 6b7788fe-fa6c-472a-97db-765595ce1589
 context-tags: service,wizard;service,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a8ee3b864b6916871711c6bd2e2d3b794bc706f8
+workflow-type: ht
+source-wordcount: '420'
+ht-degree: 100%
 
 ---
 
 
-# Criar um serviço{#creating-a-service}
+# Criação de um serviço{#creating-a-service}
 
-Para poder gerenciar assinaturas, é necessário criar um serviço e configurá-lo. A configuração de um novo serviço permite especificar as confirmações de email que os perfis receberão ao se inscreverem ou cancelarem a assinatura do serviço. Você também definirá as páginas iniciais de assinatura e cancelamento de assinatura vinculadas ao serviço. Por exemplo, um link de assinatura de serviço inserido em um email direcionará automaticamente o perfil para a página inicial de assinatura especificada no serviço.
+Para gerenciar assinaturas, primeiro crie e configure um serviço. A configuração de um novo serviço permite especificar as confirmações por email que os perfis receberão quando assinarem ou cancelarem a assinatura do serviço. Você também definirá as landing pages de assinatura e unsubscription vinculadas ao serviço. Por exemplo, um link de assinatura de serviço inserido em um email direcionará o perfil automaticamente para a landing page de assinatura especificada no serviço.
 
 Para configurar um serviço:
 
-1. No menu avançado **[!UICONTROL Profiles & audiences]**>**[!UICONTROL Services]** por meio do logotipo do Adobe Campaign, adicione um novo serviço ou selecione um serviço existente. Se você criar um novo serviço, siga as etapas mostradas na tela.
+1. No menu avançado **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Services]** no logotipo do Adobe Campaign, adicione um novo serviço ou selecione um serviço existente. Se você criar um novo serviço, siga as etapas mostradas na tela.
 
-   Um modelo de serviço padrão está disponível. Este modelo é pré-configurado com páginas iniciais e e-mails de confirmação padrão. Você pode criar outros modelos para definir configurações específicas. For more on this, refer to the [Managing templates](../../start/using/marketing-activity-templates.md) section.
+   Um template de serviço padrão está disponível. Ele é pré-configurado com landing pages padrão e emails de confirmação. Você pode criar outros templates para definir configurações específicas. Para saber mais, consulte a seção [Gerenciamento de templates](../../start/using/marketing-activity-templates.md).
 
-1. Na **[!UICONTROL Service properties]**seção, acessada pelo![](assets/edit_darkgrey-24px.png)botão no painel de serviço, configure as mensagens de confirmação para assinaturas e desassinaturas.
+1. Na seção **[!UICONTROL Service properties]**, acessada pelo botão ![](assets/edit_darkgrey-24px.png) no painel de serviço, configure as mensagens de confirmação para assinaturas e unsubscriptions.
 
    ![](assets/lp_service_parameters.png)
 
-1. Selecione a **[!UICONTROL Subscriptions with an expiration date]**opção para definir uma duração de validade para a assinatura.
+1. Selecione a opção **[!UICONTROL Subscriptions with an expiration date]** para definir uma duração de validade para a assinatura.
 
    ![](assets/lp_service_expiration.png)
 
-   Você pode usar a data de expiração em uma atividade de Segmentação para direcionar perfis que estão inscritos em um serviço que não expirou.
+   Você pode usar a data de expiração em uma atividade Segmentação para direcionar os perfis que assinaram um serviço que não expirou.
 
-1. Fill in the **[!UICONTROL Service label]**field. O rótulo do serviço é obrigatório ao usar uma mensagem de confirmação personalizada.
+1. Preencha o campo **[!UICONTROL Service label]**. O rótulo do serviço é obrigatório para usar uma mensagem de confirmação personalizada.
 
-1. Selecione um modelo de mensagem de confirmação para assinaturas e cancelamentos de assinaturas. Três modos estão disponíveis:
+1. Selecione um template de mensagem de confirmação para assinaturas e unsubscriptions. Três modos estão disponíveis:
 
-   * **[!UICONTROL No message]**: este modo permite que você crie um serviço sem uma mensagem de confirmação.
-   * **[!UICONTROL Default message]**: este modo usará a mensagem de transação padrão de assinatura ou de confirmação de não assinatura. As mensagens de confirmação padrão são genéricas e serão as mesmas para todos os serviços que usam o modo padrão.
+   * **[!UICONTROL No message]**: este modo permite criar um serviço sem uma mensagem de confirmação.
+   * **[!UICONTROL Default message]**: este modo usará a mensagem transacional de confirmação de assinatura ou unsubscription. As mensagens de confirmação padrão são genéricas e serão as mesmas para todos os serviços que usam o modo padrão.
 
       >[!NOTE]
       >
-      >Você pode modificar uma mensagem padrão clicando em seu rótulo na **[!UICONTROL Service properties]**seção ou selecionando-a na lista de mensagens transacionais do Adobe Campaign, depois de marcar a**[!UICONTROL Show internal transactional messages]** caixa.
+      >Você pode modificar uma mensagem padrão clicando no rótulo na seção **[!UICONTROL Service properties]** ou selecionando-a na lista de mensagens transacionais do Adobe Campaign depois de marcar a caixa **[!UICONTROL Show internal transactional messages]**.
 
-   * **[!UICONTROL Custom message]**: esse modo permite que você manipule mensagens de confirmação personalizadas, específicas para cada serviço. Em seguida, selecione o**[!UICONTROL Custom subscription event configuration]** que está associado a um modelo de mensagem [](../../channels/using/about-transactional-messaging.md) transacional específico. Para obter mais informações, consulte [Confirmação da assinatura de um serviço](../../audiences/using/confirming-subscription-to-a-service.md).
+   * **[!UICONTROL Custom message]**: este modo permite processar as mensagens de confirmação personalizadas, específicas de cada serviço. Em seguida, selecione a opção **[!UICONTROL Custom subscription event configuration]** que está associada a um template de [mensagem transacional](../../channels/using/about-transactional-messaging.md) específico. Para saber mais, consulte [Confirmação da assinatura em um serviço](../../audiences/using/confirming-subscription-to-a-service.md).
 
-1. Salve o serviço. Agora está pronto para ser usado.
+1. Salve o serviço. Agora ele está pronto para ser usado.
 
-Depois que um serviço for criado, você poderá começar a promovê-lo.
+Depois que um serviço é criado, você poderá promovê-lo.
 
 **Tópicos relacionados:**
 
-* [Gerenciamento de um serviço e assinatura](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/services-and-subscriptions.html) de vídeo
-* [Promover um serviço](../../audiences/using/promoting-a-service.md)
-* [Criação de um público-alvo feito de assinantes](../../audiences/using/creating-audiences.md#creating-list-audiences)
-* [Vincular uma página de aterrissagem a um serviço](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
+* Vídeo [Managing a service and subscriptions](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/profiles-and-audiences/services-and-subscriptions.translate.html)
+* [Promoção de um serviço](../../audiences/using/promoting-a-service.md)
+* [Criação de um público-alvo com assinantes](../../audiences/using/creating-audiences.md#creating-list-audiences)
+* [Vinculação de uma landing page a um serviço](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
