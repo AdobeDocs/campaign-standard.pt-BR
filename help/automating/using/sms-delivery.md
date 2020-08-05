@@ -1,6 +1,6 @@
 ---
-title: Entrega por SMS
-description: A atividade de delivery SMS permite configurar o envio de um único SMS de envio ou um SMS recorrente em um fluxo de trabalho.
+title: Delivery por SMS
+description: A atividade SMS delivery permite configurar o envio de um único SMS de envio ou um SMS recorrente em um workflow.
 page-status-flag: never-activated
 uuid: 736078c6-ac91-4440-825b-4a6ae31894ef
 contentOwner: sauviat
@@ -16,12 +16,12 @@ translation-type: tm+mt
 source-git-commit: 16afc307df6902584624d6457954a472b11c5129
 workflow-type: tm+mt
 source-wordcount: '784'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Entrega por SMS{#sms-delivery}
+# Delivery por SMS{#sms-delivery}
 
 ## Descrição {#description}
 
@@ -29,56 +29,56 @@ ht-degree: 0%
 
 ![](assets/recurrentsms.png)
 
-A **[!UICONTROL SMS delivery]** atividade permite configurar o envio de um SMS em um fluxo de trabalho. Isto pode ser um **único SMS enviado** e enviado apenas uma vez, ou pode ser um SMS **recorrente** .
+A atividade **[!UICONTROL SMS delivery]** permite configurar o envio de um SMS em um workflow. Pode ser um SMS de **envio único** e enviado apenas uma vez ou pode ser um SMS **recorrente**.
 
 As mensagens SMS de envio único são SMS padrão, enviadas uma vez.
 
-Mensagens SMS recorrentes permitem enviar o mesmo SMS várias vezes para públicos alvos diferentes em um período definido. Você pode agregação os delivery por período para obter relatórios que correspondam às suas necessidades.
+Mensagens SMS recorrentes permitem enviar o mesmo SMS várias vezes para públicos-alvos diferentes em um período definido. Você pode agregar os deliveries por período para obter relatórios que correspondam às suas necessidades.
 
-## Contexto de utilização {#context-of-use}
+## Contexto de uso {#context-of-use}
 
-A **[!UICONTROL SMS delivery]** atividade é geralmente usada para automatizar o envio de um SMS para um público alvo calculado no mesmo fluxo de trabalho.
+A atividade **[!UICONTROL SMS delivery]** é geralmente usada para automatizar o envio de um SMS para um público-alvo calculado no mesmo workflow.
 
 Quando vinculado a um scheduler, você pode definir mensagens SMS recorrentes.
 
-Os recipient SMS são definidos a montante da atividade no mesmo fluxo de trabalho, por meio de atividades de definição de metas, como query, interseções etc.
+Os destinatários do SMS são definidos no sentido upstream da atividade, no mesmo workflow, por meio de atividades de direcionamento, como consultas, interseções etc.
 
-A preparação da mensagem é acionada de acordo com os parâmetros de execução do fluxo de trabalho. No painel da mensagem, você pode selecionar se deseja solicitar ou não uma confirmação manual para enviar a mensagem (obrigatório por padrão). Você pode start o fluxo de trabalho manualmente ou colocar uma atividade de scheduler no fluxo de trabalho para automatizar a execução.
+A preparação da mensagem é acionada de acordo com os parâmetros de execução do workflow. No painel da mensagem, você pode selecionar se deseja solicitar ou não uma confirmação manual para enviar a mensagem (obrigatório por padrão). Você pode iniciar o workflow manualmente ou colocar uma atividade de scheduler no workflow para automatizar a execução.
 
 ## Configuração {#configuration}
 
-1. Arraste e solte uma **[!UICONTROL SMS delivery]** atividade no seu fluxo de trabalho.
-1. Selecione a atividade e abra-a usando o ![](assets/edit_darkgrey-24px.png) botão das ações rápidas que aparecem.
+1. Arraste e solte uma atividade **[!UICONTROL SMS delivery]** no seu workflow.
+1. Selecione e abra a atividade usando o botão ![](assets/edit_darkgrey-24px.png) das ações rápidas exibidas.
 
    >[!NOTE]
    >
-   >É possível acessar as propriedades gerais e as opções avançadas da atividade (e não do próprio delivery) por meio do ![](assets/dlv_activity_params-24px.png) botão na barra de ação do fluxo de trabalho. Este botão é específico para a **[!UICONTROL SMS delivery]** atividade. As propriedades SMS podem ser acessadas pela barra de ação no painel SMS.
+   >É possível acessar as propriedades gerais e as opções avançadas da atividade (e não do delivery propriamente dito) por meio do botão ![](assets/dlv_activity_params-24px.png) na barra de ação do workflow. Esse botão é específico para a atividade **[!UICONTROL SMS delivery]**. As propriedades do SMS podem ser acessadas pela barra de ação no painel de SMS.
 
-1. Selecione o modo de envio de SMS:
+1. Selecione o modo de envio do SMS:
 
-   * **[!UICONTROL SMS]**: o SMS é enviado uma única vez. Você pode especificar aqui se deseja ou não adicionar uma transição de saída à atividade. Os diferentes tipos de transições são detalhados na etapa 7 deste procedimento.
-   * **[!UICONTROL Recurring SMS]**: o SMS é enviado várias vezes, de acordo com a frequência definida numa **[!UICONTROL Scheduler]** atividade. Selecione o período de agregação dos envios. Isso permite que você reagrupe todas as envios que ocorrem durante o período definido em uma única visualização, também chamada de Execução **** recorrente e que pode ser acessada a partir da lista de atividade de marketing do aplicativo.
+   * **[!UICONTROL SMS]**: o SMS é enviado uma única vez. Aqui, você pode especificar se deseja ou não adicionar uma transição de saída à atividade. Os diferentes tipos de transições estão detalhados na etapa 7 deste procedimento.
+   * **[!UICONTROL Recurring SMS]**: o SMS é enviado várias vezes, de acordo com a frequência definida em uma **[!UICONTROL Scheduler]** atividade. Selecione o período de agregação dos envios. Você pode agrupar todos os envios que ocorrerem durante o período definido em uma única visualização, também chamada de **Execução recorrente**, e que pode ser acessada na lista de atividade de marketing do aplicativo.
 
-      Por exemplo, para um SMS de aniversário recorrente, que é enviado diariamente, você pode optar por agregação dos envios por mês. Isso permite que você receba relatórios sobre seu delivery mensalmente, embora o SMS seja enviado todos os dias.
+      Por exemplo, para um SMS de aniversário recorrente, que é enviado diariamente, você pode optar por agregar os envios por mês. Ele permite receber relatórios sobre o delivery mensalmente, embora o SMS seja enviado todos os dias.
 
-1. Selecione um tipo de SMS. Os tipos SMS vêm de modelos SMS definidos no menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** .
-1. Insira as propriedades gerais do SMS. Também é possível anexá-lo a uma campanha existente. A etiqueta da atividade de delivery do fluxo de trabalho é atualizada com a etiqueta SMS.
-1. Defina o conteúdo do SMS. Consulte a seção sobre como [criar uma mensagem](../../channels/using/creating-an-sms-message.md)SMS.
-1. Por padrão, a **[!UICONTROL SMS delivery]** atividade não inclui nenhuma transição de saída. Se você quiser adicionar uma transição de saída à sua **[!UICONTROL SMS delivery]** atividade, vá para a guia **[!UICONTROL General]** das opções avançadas de atividade ( ![](assets/dlv_activity_params-24px.png) botão nas ações rápidas de atividade) e depois verifique uma das seguintes opções:
+1. Selecione um tipo de SMS. Os tipos SMS vêm de templates SMS definidos no menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
+1. Insira as propriedades gerais do SMS. Também é possível anexá-la a uma campanha existente. O rótulo da atividade de delivery do workflow é atualizado com o rótulo do SMS.
+1. Defina o conteúdo do SMS. Consulte a seção sobre como [Criar uma mensagem SMS](../../channels/using/creating-an-sms-message.md).
+1. Por padrão, a atividade **[!UICONTROL SMS delivery]** não inclui transições de saída. Se quiser adicionar uma transição de saída à sua atividade **[!UICONTROL SMS delivery]**, acesse a guia **[!UICONTROL General]** das opções avançadas da atividade (o botão ![](assets/dlv_activity_params-24px.png) nas ações rápidas da atividade) e depois marque uma das seguintes opções:
 
-   * **[!UICONTROL Add outbound transition without the population]**: isso permite gerar uma transição de saída que contém exatamente a mesma população da transição de entrada.
-   * **[!UICONTROL Add outbound transition with the population]**: isso permite gerar uma transição de saída contendo a população para a qual o SMS foi enviado. Os membros do público alvo foram excluídos durante a preparação do delivery (quarentena, número inválido, etc.) são excluídos desta transição.
+   * **[!UICONTROL Add outbound transition without the population]**: permite gerar uma transição de saída que contém exatamente a mesma população da transição de entrada.
+   * **[!UICONTROL Add outbound transition with the population]**: permite gerar uma transição de saída que contém a população para a qual o SMS foi enviado. Os membros do público-alvo excluídos durante a preparação do delivery (quarentena, número inválido etc.) são excluídos dessa transição.
 
-1. Confirme a configuração da atividade e salve o fluxo de trabalho.
+1. Confirme a configuração da sua atividade e salve o fluxo de trabalho.
 
-Ao reabrir a atividade, você é levado diretamente para o painel SMS. Somente seu conteúdo pode ser editado.
+Ao reabrir a atividade, você é levado diretamente ao painel de SMS. Somente seu conteúdo pode ser editado.
 
-Por padrão, iniciar um fluxo de trabalho de delivery aciona somente a preparação da mensagem. O envio de mensagens criadas a partir de um fluxo de trabalho ainda precisa ser confirmado depois que o fluxo de trabalho for iniciado. Mas a partir do painel de mensagem e somente se a mensagem tiver sido criada a partir de um fluxo de trabalho, você poderá desativar a **[!UICONTROL Request confirmation before sending messages]** opção. Ao desmarcar essa opção, as mensagens são enviadas sem aviso prévio após a preparação.
+Por padrão, iniciar um workflow de delivery aciona somente a preparação da mensagem. O envio de mensagens criadas a partir de um workflow ainda precisará ser confirmado depois que o workflow for iniciado. Porém, no painel de mensagens, e somente se a mensagem tiver sido criada a partir de um workflow, você poderá desativar a opção **[!UICONTROL Request confirmation before sending messages]**. Ao desmarcar essa opção, as mensagens são enviadas sem aviso prévio após a preparação.
 
 ## Observações {#remarks}
 
-Os delivery criados em um fluxo de trabalho podem ser acessados na lista de atividade de marketing do aplicativo. Você pode visualização o status de execução do fluxo de trabalho usando o painel. Os links no painel de resumo do SMS permitem acessar diretamente os elementos vinculados (fluxo de trabalho, campanha, delivery pai no caso de um SMS recorrente).
+Os deliveries criados em um workflow podem ser acessados na lista de atividade de marketing do aplicativo. Você pode visualizar o status de execução do workflow usando o painel. Os links no painel de resumo do SMS permitem acessar diretamente os elementos vinculados (workflow, campanha, delivery pai no caso de um SMS recorrente).
 
-No entanto, as execuções de delivery recorrentes são mascaradas por padrão. Para visualização, marque a opção **[!UICONTROL Show recurring executions]** no painel de pesquisa do atividade de marketing.
+No entanto, as execuções de deliveries recorrentes são mascaradas por padrão. Para visualizá-las, marque a opção **[!UICONTROL Show recurring executions]** no painel de pesquisa das atividades de marketing.
 
-Nos delivery pais, que podem ser acessados a partir da lista de atividade de marketing ou diretamente por meio das execuções recorrentes associadas, é possível visualização o número total de envios que foram processados (de acordo com o período de agregação especificado quando a **[!UICONTROL SMS delivery]** atividade foi configurada). Para fazer isso, abra a visualização detalhada do bloco pai do delivery **[!UICONTROL Deployment]** selecionando ![](assets/wkf_dlv_detail_button.png).
+Nas entregas pai, que podem ser acessadas na lista de atividades de marketing ou diretamente por meio das execuções recorrentes associadas, é possível visualizar o número total de envios que foram processados (de acordo com o período de agregação especificado quando a atividade **[!UICONTROL SMS delivery]** foi configurada). Para fazer isso, abra a visualização detalhada do bloco **[!UICONTROL Deployment]** da entrega pai, selecionando ![](assets/wkf_dlv_detail_button.png).
