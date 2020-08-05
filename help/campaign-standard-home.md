@@ -55,7 +55,7 @@ Saiba mais sobre as ferramentas fornecidas pelo Adobe Campaign para ajudá-lo a 
   </td>
   <td valign="top">
        <img alt="Suporte" src="start/using/assets/do-not-localize/help.jpeg" />
-    <div><a href="https://helpx.adobe.com/brcampaign/kb/ac-support.html">
+    <div><a href="https://helpx.adobe.com/br/campaign/kb/ac-support.html">
     <strong>Obter suporte</strong></a>
     </div>
     <p><em>Acesse as perguntas frequentes, práticas recomendadas, recursos de ajuda e conecte-se com especialistas</em></p>
@@ -69,7 +69,7 @@ Saiba mais sobre as ferramentas fornecidas pelo Adobe Campaign para ajudá-lo a 
 | Páginas úteis | Recursos para desenvolvedores |
 |---|---|
 | [Notas de versão](rn/using/release-notes.md) | [Acionadores da Experience Cloud](integrating/using/about-adobe-experience-cloud-triggers.md) |
-| [Documentação do Painel de Controle](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.translate.html) | [APIs do Campaign](api/using/get-started-apis.md) |
+| [Documentação do Painel de controle do Campaign](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.html) | [APIs do Campaign](api/using/get-started-apis.md) |
 | [Guia de implementação](https://helpx.adobe.com/br/campaign/kb/campaign-standard-implementation-guide.html) | [Lista de mensagens de erro](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Planejamento de versão](rn/using/release-planning.md) | [Modelo de dados do Campaign](developing/using/datamodel-introduction.md) |
 | [Recursos obsoletos e removidos](https://helpx.adobe.com/br/campaign/kb/acs-deprecated-and-removed-features.html) | [Guia multissoluções](integrating/using/get-started-campaign-integrations.md) |
