@@ -1,6 +1,6 @@
 ---
 title: Ler público-alvo
-description: A atividade Ler audiência permite recuperar uma audiência existente e refiná-la aplicando condições de filtragem adicionais.
+description: A atividade Read audience permite recuperar um público-alvo para refiná-lo aplicando condições de filtragem adicionais.
 page-status-flag: never-activated
 uuid: 58c54e71-f4a7-4ae9-80a3-33c379ab1db9
 contentOwner: sauviat
@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 3%
+ht-degree: 92%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 3%
 
 ![](assets/prefill.png)
 
-A **[!UICONTROL Read audience]** atividade permite recuperar uma audiência existente e refiná-la aplicando condições de filtragem adicionais.
+A atividade **[!UICONTROL Read audience]** permite recuperar um público-alvo para refiná-lo aplicando condições de filtragem adicionais.
 
-## Contexto de utilização {#context-of-use}
+## Contexto de uso {#context-of-use}
 
-A **[!UICONTROL Read audience]** atividade é uma versão mais simples da **[!UICONTROL Query]** atividade projetada para casos em que você precisa apenas selecionar uma audiência existente.
+A atividade **[!UICONTROL Read audience]** é uma versão mais simples da atividade **[!UICONTROL Query]** criada para os casos em que você precisa apenas selecionar um público-alvo existente.
 
 **Tópicos relacionados**
 
@@ -40,18 +40,18 @@ A **[!UICONTROL Read audience]** atividade é uma versão mais simples da **[!UI
 
 ## Configuração {#configuration}
 
-1. Solte uma **[!UICONTROL Read audience]** atividade em seu fluxo de trabalho.
-1. Selecione a atividade e abra-a usando o ![](assets/edit_darkgrey-24px.png) botão das ações rápidas que aparecem.
-1. Selecione a audiência que deseja recuperar na **[!UICONTROL Properties]** guia.
+1. Solte uma atividade **[!UICONTROL Read audience]** no seu fluxo de trabalho.
+1. Selecione e abra a atividade usando o botão ![](assets/edit_darkgrey-24px.png) das ações rápidas exibidas.
+1. Selecione o público-alvo que deseja recuperar na guia **[!UICONTROL Properties]**.
 
-   Você pode recuperar audiências dos seguintes tipos: **[!UICONTROL List]**, **[!UICONTROL Query]**, **[!UICONTROL File]** e **[!UICONTROL Experience Cloud]**. Para obter mais informações sobre tipos de audiência, consulte a documentação do [Audiência](../../audiences/using/about-audiences.md) .
+   Você pode recuperar públicos-alvo dos seguintes tipos: **[!UICONTROL List]**, **[!UICONTROL Query]**, **[!UICONTROL File]** e **[!UICONTROL Experience Cloud]**. Para saber mais sobre tipos de público-alvo, consulte a documentação sobre [Públicos-alvo](../../audiences/using/about-audiences.md).
 
-   A **[!UICONTROL Use a dynamic audience]** opção permite que você defina o nome da audiência como público alvo com base nas variáveis de eventos do fluxo de trabalho. Para obter mais informações, consulte a seção [Personalizar atividades com variáveis](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) de eventos.
+   A opção **[!UICONTROL Use a dynamic audience]** permite definir o nome do público-alvo de direcionamento com base nas variáveis de eventos do fluxo de trabalho. Para obter mais informações, consulte a seção [Personalização de atividades com variáveis de eventos](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
 
    ![](assets/readaudience_activity1.png)
 
-1. Se desejar aplicar filtragem adicional à audiência selecionada, adicione condições por meio da guia **[!UICONTROL Source filtering]** da atividade.
+1. Para aplicar uma outra filtragem ao público-alvo selecionado, adicione condições usando a guia **[!UICONTROL Source filtering]** da atividade.
 
-   Para obter mais informações sobre como criar condições de filtragem, consulte a documentação [Criação de query](../../automating/using/editing-queries.md#creating-queries) .
+   Para saber mais sobre como criar condições de filtragem, consulte a documentação [Criação de consultas](../../automating/using/editing-queries.md#creating-queries).
 
-1. Confirme a configuração da atividade e salve o fluxo de trabalho.
+1. Confirme a configuração da sua atividade e salve o fluxo de trabalho.
