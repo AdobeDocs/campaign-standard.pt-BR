@@ -12,20 +12,23 @@ discoiquuid: 59faa74e-86fc-42d3-90da-f48580b5ec13
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 25%
 
 ---
 
 
 # Extensão das assinaturas para um recurso de aplicativo{#extending-the-subscriptions-to-an-application-resource}
 
-In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications&#39; subscribers. For more information on custom resources, refer to [this page](../../developing/using/key-steps-to-add-a-resource.md).
+No Adobe Campaign, os dados de atributos do perfil móvel enviados de dispositivo móvel são armazenados no recurso **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**, que permite definir os dados que você deseja coletar dos assinantes de aplicativos. For more information on custom resources, refer to [this page](../../developing/using/key-steps-to-add-a-resource.md).
 
-Esse recurso pode ser estendido para coletar dados que você pretende enviar do dispositivo móvel para o Adobe Campaign.
+Este recurso pode ser estendido para coletar dados que você pretende enviar do dispositivo móvel para a Adobe Campaign.
 
-1. No menu avançado, por meio do logotipo Adobe Campaign, selecione **[!UICONTROL Administration]** > **[!UICONTROL Development]**, em seguida **[!UICONTROL Custom resources]**.
+1. No menu avançado, selecione **[!UICONTROL Administration]** > **[!UICONTROL Development]** e **[!UICONTROL Custom resources]** pelo logotipo do Adobe Campaign.
 1. Clique **[!UICONTROL Create]** e escolha a **[!UICONTROL Extend an existing resource]** opção.
-1. Selecione o **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** recurso e clique em **[!UICONTROL Create]**.
+1. Select the **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource and click **[!UICONTROL Create]**.
 
    ![](assets/in_app_personal_data_4.png)
 
@@ -41,9 +44,9 @@ Esse recurso pode ser estendido para coletar dados que você pretende enviar do 
 
    ![](assets/schema_extension_uc9.png)
 
-1. Na **[!UICONTROL Link to profiles]** categoria, configure a chave de reconciliação usada para vincular os perfis do banco de dados do Adobe Campaign aos assinantes de seus aplicativos, como o email.
+1. Na **[!UICONTROL Link to profiles]** categoria, configure a chave de reconciliação usada para vincular os perfis do banco de dados da Adobe Campaign aos assinantes de seus aplicativos, como o email.
 
-   Observe que para as mensagens no aplicativo você só pode definir uma chave de reconciliação para todos os seus aplicativos móveis.
+   Observe que para suas mensagens no aplicativo você só pode definir uma chave de reconciliação para todos os seus aplicativos móveis.
 
    ![](assets/in_app_personal_data_3.png)
 
