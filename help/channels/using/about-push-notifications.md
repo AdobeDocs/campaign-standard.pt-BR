@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: f9632e88b49c2280c76e709376cfb7a7a27abc1f
 workflow-type: tm+mt
 source-wordcount: '1280'
-ht-degree: 6%
+ht-degree: 50%
 
 ---
 
@@ -25,60 +25,60 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->A implementação da notificação por push deve ser executada por usuários especialistas. Se precisar de auxílio, entre em contato com seu executivo de conta da Adobe ou com os parceiros de serviços Professional. A notificação por push é um recurso opcional. Verifique seu contrato de licença e entre em contato com o executivo da sua conta para ativá-lo.
+>A implementação da notificação por push deve ser executada por usuários especialistas. Se precisar de auxílio, entre em contato com o executivo da sua conta da Adobe ou com o parceiros de serviços Professional. A notificação por push é um recurso opcional. Verifique seu contrato de licença e entre em contato com o executivo da sua conta para ativá-la.
 
 O Adobe Campaign permite enviar notificações por push personalizadas e segmentadas para dispositivos móveis iOS e Android.
 
-Essas mensagens são recebidas em aplicativos móveis que você configurou no Adobe Campaign, aproveitando o SDK do Experience Platform. Para obter mais informações sobre isso, consulte [Configuração de um aplicativo móvel usando SDKs](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)Adobe Experience Platform.
+Essas mensagens são recebidas nos aplicativos móveis que você configurou no Adobe Campaign por meio do SDK da Experience Platform. Para saber mais, consulte [Configuração de um aplicativo móvel usando SDKs da Adobe Experience Platform](https://helpx.adobe.com/br/campaign/kb/configuring-app-sdk.html).
 
-In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications&#39; subscribers.
+No Adobe Campaign, os dados de atributos do perfil móvel enviados de dispositivo móvel são armazenados no recurso **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**, que permite definir os dados que você deseja coletar dos assinantes de aplicativos.
 
-Esse recurso precisa ser estendido para coletar dados que você pretende enviar do dispositivo móvel para o Adobe Campaign. Para fazer isso, consulte esta [página](../../developing/using/extending-the-subscriptions-to-an-application-resource.md) para obter as etapas detalhadas.
+Esse recurso precisa ser estendido para coletar os dados que você pretende enviar do dispositivo móvel para o Adobe Campaign. Para fazer isso, consulte esta [página](../../developing/using/extending-the-subscriptions-to-an-application-resource.md) para conhecer as etapas detalhadas.
 
-Dois tipos de notificação por push estão disponíveis no Adobe Campaign:
+Dois tipos de notificações por push estão disponíveis no Adobe Campaign:
 
-* **[!UICONTROL Alert/Message/Badge]** as notificações de tipo permitem que você envie mensagens padrão baseadas em texto com conteúdo adicional (som, emblema, deep link etc.) que você pode definir na **[!UICONTROL Advanced options]** seção.
+* As notificações do tipo **[!UICONTROL Alert/Message/Badge]** permitem enviar mensagens padrão baseadas em texto com conteúdo adicional (som, selo, deeplink etc.) que você pode definir na seção **[!UICONTROL Advanced options]**.
 
-   Esses tipos de notificação permitem que você adicione um título e uma mensagem na qual você pode usar campos de personalização. Para personalizar sua mensagem, selecione o **[!UICONTROL Send push on profiles]** modelo.
+   Esses tipos de notificação permitem adicionar um título e uma mensagem na qual você pode usar campos de personalização. Para personalizar a mensagem, selecione o template **[!UICONTROL Send push on profiles]**.
 
-* **[!UICONTROL Silent push]** as notificações de tipo são usadas para notificar silenciosamente o aplicativo sem qualquer mensagem ou conteúdo para o usuário final. Um caso típico de uso para esse tipo de mensagem seria tornar o aplicativo ciente de que há conteúdo disponível no servidor a ser baixado.
+* As notificações do tipo **[!UICONTROL Silent push]** são usadas para notificar silenciosamente o aplicativo sem qualquer mensagem ou conteúdo para o usuário final. Um caso de uso típico desse tipo de mensagem seria tornar o aplicativo ciente de que há conteúdo disponível a ser baixado do servidor.
 
 Algumas configurações específicas podem ser configuradas para definir o comportamento das notificações. Para obter mais informações, consulte [esta seção](../../channels/using/customizing-a-push-notification.md).
 
-Como usuário especialista, para definir essas configurações específicas, consulte as [notas técnicas](https://helpx.adobe.com/br/campaign/kb/acs-article-list.html)do aplicativo móvel.
+Como usuário especialista, consulte as [notas técnicas](https://helpx.adobe.com/br/campaign/kb/acs-article-list.html) do aplicativo móvel para definir essas configurações específicas.
 
 >[!NOTE]
 >
->As leis sobre privacidade diferem de país para país. Alguns países exigem que você informe os usuários sobre os tipos de dados coletados por aplicativos móveis. Verifique as leis referentes aos aplicativos móveis em seu país. Certifique-se de que as notificações por push enviadas para aplicativos móveis atendam aos pré-requisitos e condições especificados pela Apple (Apple Push Notification Service) e Google (Google Cloud Messaging ou Firebase Cloud Messaging).
+>As leis de privacidade diferem de um país para outro. Alguns países exigem que você informe os usuários sobre os tipos de dados coletados pelos aplicativos móveis. Consulte as leis sobre aplicativos móveis do seu país. Verifique se as notificações por push enviadas para os aplicativos móveis atendem aos pré-requisitos e condições especificados pela Apple (serviço Apple Push Notification) e pelo Google (Google Cloud Messaging ou Firebase Cloud Messaging).
 
 **Conteúdo relacionado:**
 
 * [Preparação e envio de uma notificação por push](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Criação de uma notificação por push multilíngue](../../channels/using/creating-a-multilingual-push-notification.md)
 * [Relatório de notificação por push](../../reporting/using/push-notification-report.md)
-* [Guia móvel Campaign Standard](https://helpx.adobe.com/br/campaign/kb/acs-mobile.html)
+* [Guia para Aplicativos de dispositivos móveis no Campaign Standard](https://helpx.adobe.com/br/campaign/kb/acs-mobile.html)
 
 ## Pré-requisitos {#prerequisites}
 
 >[!NOTE]
->Para aproveitar o recurso de notificação por push da Campanha, é necessário fornecer um certificado de push válido no formato .pem sem senhas.
-Se você tiver um certificado p12 válido, poderá convertê-lo facilmente em um arquivo .pem usando recursos online.
+>Para usar o recurso de notificação por push do Campaign, você precisa fornecer um certificado de push válido no formato .pem sem senhas.
+Se você tiver um certificado p12 válido, poderá convertê-lo facilmente em um arquivo .pem usando os recursos online.
 
-Antes de enviar suas notificações por push, você deve:
+Antes de enviar as notificações por push, você deve:
 
-1. No Adobe Campaign, verifique se você pode acessar o **[!UICONTROL Push notification]** canal. Se não conseguir acessar esses canais, entre em contato com a equipe da sua conta.
+1. No Adobe Campaign, confirme se você pode acessar o canal **[!UICONTROL Push notification]**. Se não conseguir acessar esses canais, entre em contato com sua equipe de conta.
 
 1. Verifique se o usuário tem as permissões necessárias no Adobe Campaign Standard e no Experience Platform Launch.
 
-1. No Experience Platform Launch, crie uma propriedade móvel. Para obter mais informações, consulte [Configurar uma propriedade](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)móvel.
+1. No Experience Platform Launch, crie uma propriedade móvel. Para saber mais, consulte [Configurar uma propriedade móvel](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
 
-1. No Experience Platform Launch, instale a **[!UICONTROL Adobe Campaign Standard]** extensão.
+1. No Experience Platform Launch, instale a extensão **[!UICONTROL Adobe Campaign Standard]**.
 
-1. No Adobe Campaign Standard, configure a propriedade mobile que você criou no Experience Platform Launch. Para obter mais informações, consulte [Configuração do aplicativo Experience Platform Launch no Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeExperiencePlatformLaunchapplicationinAdobeCampaign).
+1. No Adobe Campaign Standard, configure a propriedade móvel que você criou no Experience Platform Launch. Para saber mais, consulte [Configuração do aplicativo Experience Platform Launch no Adobe Campaign](https://helpx.adobe.com/br/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeExperiencePlatformLaunchapplicationinAdobeCampaign).
 
-1. Adicione a configuração específica do canal à configuração do aplicativo móvel. Para obter mais informações, consulte Configuração do aplicativo específico para o [Canal](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+1. Adicione a configuração específica do canal à configuração do aplicativo móvel. Para saber mais, consulte [Configuração do aplicativo específico do canal no Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
-1. Para suportar implementações de casos de uso móvel, consulte as instruções detalhadas sobre extensões, regras de Experience Platform Launch e a implementação do SDK em casos de uso do [Mobile suportados no Adobe Campaign Standard usando os SDKs](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)do Adobe Experience Platform.
+1. Para saber mais sobre as implementações dos casos de uso móveis, consulte as instruções detalhadas sobre extensões, as regras do Experience Platform Launch e a implementação do SDK em [Casos de uso móveis com suporte no Adobe Campaign Standard usando SDKs da Adobe Experience Platform](https://helpx.adobe.com/br/campaign/kb/configure-launch-rules-acs-use-cases.html).
 
 ## Perguntas frequentes sobre notificações por push {#push-faq}
 
@@ -86,14 +86,14 @@ Antes de enviar suas notificações por push, você deve:
 
 Confira os recursos abaixo:
 
-* [Tutoriais em vídeo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [Tutorials de vídeo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [Documentação do produto](../../channels/using/about-push-notifications.md)
 * Configurar usando a [documentação do AEP SDK](../../administration/using/configuring-a-mobile-application.md)
 * [Página da comunidade](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### O que devo fazer para adquirir um token de push na Campanha? {#push-token-acquisition}
 
-Verifique se a equipe de provisionamento concluiu o provisionamento do canal de push no Adobe Campaign Standard. Implemente a API setPushIdentifier do SDK. Para obter mais informações, consulte esta [página](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging).
+Certifique-se de que a equipe de provisionamento tenha concluído o provisionamento do canal de push no Adobe Campaign Standard. Implemente a API setPushIdentifier do SDK. Para obter mais informações, consulte esta [página](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging).
 
 ### Depois que eu tiver o token de push e o ECID na Campanha, o que mais preciso para enviar uma notificação por push? {#sending-push}
 
@@ -165,4 +165,4 @@ Consulte esta [página](../../reporting/using/indicator-calculation.md#push-noti
 Sim, os deep links são suportados em mensagens de push. Os deep links devem incluir:
 
 * idioma que declara que o rastreamento de delivery precisa ser desativado para que os deep links funcionem.
-* Appsflyer com Branch como parceiros que podem fazer o rastreamento de deep link. Para obter mais informações sobre a integração de Ramificação e Adobe Campaign Standard, consulte esta [página](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* Appsflyer com Branch como parceiros que podem fazer o rastreamento de deep link. Para obter mais informações sobre a integração entre o Branch e o Adobe Campaign Standard, consulte esta [página](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
