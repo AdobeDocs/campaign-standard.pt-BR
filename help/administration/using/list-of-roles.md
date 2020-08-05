@@ -1,6 +1,6 @@
 ---
 title: Lista de funções
-description: Descubra a lista de funções que você pode atribuir aos usuários.
+description: Descubra a lista de funções que você pode atribuir aos seus usuários.
 page-status-flag: never-activated
 uuid: 128aaf9b-9b7d-49f3-9e1f-72e79a29baa0
 contentOwner: sauviat
@@ -16,31 +16,31 @@ translation-type: tm+mt
 source-git-commit: 395791e69d0c4c8a888829539338e338387294de
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 7%
+ht-degree: 94%
 
 ---
 
 
 # Lista de funções{#list-of-roles}
 
-Por padrão, o Adobe Campaign oferta um conjunto de funções que permite definir autorizações unitárias atribuídas a usuários e grupos de usuários.
+Por padrão, o Adobe Campaign oferece um conjunto de funções que permite definir autorizações unitárias atribuídas a usuários e grupos de usuários.
 
-Combinadas com unidades organizacionais, as funções fornecem aos usuários uma visualização filtrada da interface e definem seu acesso aos diferentes recursos.
+Combinadas com as unidades organizacionais, as funções exibem uma visualização filtrada da interface e definem o acesso dos usuários aos diferentes recursos.
 
-Para obter mais informações, consulte a tabela [](/help/administration/using/assets/acs_rights.pdf)Funções e permissões, que detalha as funções disponíveis na interface, dependendo das autorizações selecionadas.
+Para obter mais informações, consulte a tabela [Funções e permissões](/help/administration/using/assets/acs_rights.pdf), que detalha as funções disponíveis na interface, dependendo das autorizações selecionadas.
 
 [![imagem](assets/user_management_3.png)](https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
 
-As funções podem ser gerenciadas a partir do **[!UICONTROL Administration > Users & Security > Roles]** menu.
+Funções podem ser gerenciadas no menu **[!UICONTROL Administration > Users & Security > Roles]**.
 
 Os direitos padrão são:
 
-* **[!UICONTROL Administration]**: Direito administrativo genérico.
+* **[!UICONTROL Administration]**: Direito de administração genérico.
 * **[!UICONTROL Datamodel]**: Direito de executar publicações e criar recursos personalizados.
-* **[!UICONTROL Generic import]**: Direito de executar uma importação genérica nos dados. Para que isso funcione, é necessário vincular a **[!UICONTROL Generic import]** função à **[!UICONTROL Workflow]** .
-* **[!UICONTROL Prepare deliveries]**: Direito de criar, modificar, preparar e excluir delivery. Os usuários com essa função podem preparar o delivery, mas não enviá-lo.
-* **[!UICONTROL Start deliveries]**: Direito de criar, modificar, preparar, enviar e excluir delivery.
-* **[!UICONTROL Workflow]**: Direito de gerenciar a execução de workflows (start, parada, pausa etc.). Os usuários com essa função não podem enviar um delivery mesmo em um fluxo de trabalho.
+* **[!UICONTROL Generic import]**: Direito de executar uma importação genérica nos dados. Para que isso funcione, é necessário vincular a função **[!UICONTROL Generic import]** à função **[!UICONTROL Workflow]**.
+* **[!UICONTROL Prepare deliveries]**: Direito de criar, modificar, preparar e excluir deliveries. Os usuários com essa função podem preparar o delivery, mas não podem enviá-lo.
+* **[!UICONTROL Start deliveries]**: Direito de criar, modificar, preparar, enviar e excluir o delivery.
+* **[!UICONTROL Workflow]**: Direito de gerenciar a execução de workflows (início, parada, pausa etc.). Os usuários com essa função não podem enviar um delivery mesmo em um workflow.
 
 **Tópicos relacionados:**
 
