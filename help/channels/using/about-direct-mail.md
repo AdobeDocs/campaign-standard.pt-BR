@@ -1,6 +1,6 @@
 ---
-title: Sobre o correio direto
-description: Descubra as principais especificidades do canal de mala direta no Adobe Campaign.
+title: Sobre correspondência direta
+description: Descubra as principais especificidades do canal de correspondência direta no Adobe Campaign.
 page-status-flag: never-activated
 uuid: 24add992-2efe-4b73-81c9-cda3e921ab16
 contentOwner: sauviat
@@ -16,30 +16,30 @@ translation-type: tm+mt
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
 source-wordcount: '455'
-ht-degree: 30%
+ht-degree: 98%
 
 ---
 
 
-# Sobre o correio direto{#about-direct-mail}
+# Sobre correspondência direta{#about-direct-mail}
 
-A mala direta é um canal offline que permite personalizar e gerar o arquivo exigido por provedores de mala direta. Ela oferece a possibilidade de misturar canais online e offline nas jornadas do cliente.
+Correspondência direta é um canal offline com o qual é possível personalizar e gerar o arquivo exigido por provedores de correspondência direta. Ela oferece a possibilidade de misturar canais online e offline nas jornadas do seu cliente.
 
 >[!NOTE]
 >
->Este recurso é opcional. Verifique o contrato de licença. A função **[!UICONTROL Export]** é necessária para usar a mala direta. Entre em contato com o administrador.
+>Este recurso é opcional. Verifique o contrato de licença. A função **[!UICONTROL Export]** é necessária para usar a correspondência direta. Entre em contato com o administrador.
 
-Os canais online permitem que você crie mensagens (email, SMS, delivery de aplicativo móvel, etc.) e envie-as para seu público diretamente do Adobe Campaign. Com canais offline, é diferente. Quando você prepara um delivery direto de mala direta, o Adobe Campaign gera um arquivo incluindo todos os perfis do target e as informações de contato escolhidas (endereço postal por exemplo). Você poderá enviar esse arquivo para seu provedor de mala direta que irá cuidar realmente do envio.
+Os canais online permitem que você crie mensagens (email, SMS, delivery de aplicativo móvel, etc.) e envie-as para seu público diretamente do Adobe Campaign. Com canais offline, é diferente. Quando você prepara um delivery direto de correspondência direta, o Adobe Campaign gera um arquivo incluindo todos os perfis do target e as informações de contato escolhidas (endereço postal por exemplo). Você poderá enviar esse arquivo para seu provedor de correspondência direta que irá cuidar realmente do envio.
 
-A seção a seguir explica como criar e gerar um delivery de mala direta com uma única captura. Você também tem a possibilidade de incluir uma atividade de mala direta em um fluxo de trabalho para orquestrar campanhas que combinam canais online e offline. For more on this, refer to the [Workflows](../../automating/using/get-started-workflows.md) guide.
+A seção a seguir explica como criar e gerar um delivery de correspondência direta de uma só vez. Você também pode incluir uma atividade de correspondência direta em um fluxo de trabalho para orquestrar campanhas combinando canais online e offline. Para mais informações, consulte o guia [Fluxos de trabalho](../../automating/using/get-started-workflows.md).
 
 O processo do usuário no Adobe Campaign é o seguinte:
 
 1. Criação de delivery
-1. Escolhendo a audiência
+1. Escolha do público
 1. Definição do conteúdo
 1. Definição da data de contato
-1. Gerando o arquivo
+1. Geração do arquivo
 
 **Tópicos relacionados:**
 
@@ -47,20 +47,20 @@ O processo do usuário no Adobe Campaign é o seguinte:
 
 ## Recomendações {#recommendations}
 
-### Provedores de mala direta {#direct-mail-providers}
+### Provedores de correspondência direta {#direct-mail-providers}
 
-Primeiro, você precisa entrar em contato com seu provedor de mala direta e coletar suas recomendações. Identifique quais informações de perfil precisam ser incluídas no arquivo de extração para que possam personalizar a comunicação e enviá-la para a audiência. Por exemplo, o nome e sobrenome, o endereço postal, um código promocional etc. Esses são os campos que você adicionará na guia [Definição da extração](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) do conteúdo da mala direta.
+Primeiro, você precisa entrar em contato com o provedor de correspondência direta e coletar as recomendações desse provedor. Identifique quais informações de perfil precisam ser incluídas no arquivo de extração para que o provedor possa personalizar a comunicação e enviá-la para o público. Por exemplo, nome e sobrenome, endereço postal, um código promocional etc. Esses são os campos que você adicionará na guia [Definição da extração](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) do conteúdo da correspondência direta.
 
-Verifique se você marcou a **[!UICONTROL Address specified]** caixa nas informações dos perfis. Se essa opção estiver ativada, o perfil será adicionado ao público alvo. Não está, será excluído por uma regra de tipologia durante a fase de preparação (consulte [Criação da correspondência](../../channels/using/creating-the-direct-mail.md)direta). Durante a importação do perfil, não se esqueça de atualizar este campo.
+Confirme que você marcou a caixa **[!UICONTROL Address specified]** nas informações dos perfis. Se essa opção estiver ativada, o perfil será adicionado ao público alvo. Se não estiver, o perfil será excluído por uma regra de tipologia durante a fase de preparação (consulte [Criação da correspondência direta](../../channels/using/creating-the-direct-mail.md)). Durante a importação do perfil, não se esqueça de atualizar este campo.
 
 ![](assets/direct_mail_22.png)
 
 ### Endereços postais {#postal-addresses}
 
-Quando você adiciona os campos a serem incluídos no arquivo de extração, os campos de endereço postal ficam disponíveis no **[!UICONTROL Location]** nó.
+Ao adicionar os campos que serão incluídos no arquivo de extração, os campos de endereço postal ficam disponíveis no nó **[!UICONTROL Location]**.
 
-O Adobe Campaign oferta um conjunto de campos calculados predefinidos que seguem as normalizações mais comuns de endereço postal. Os campos estão disponíveis no **[!UICONTROL Postal address]** nó.
+O Adobe Campaign oferece um conjunto de campos calculados predefinidos que seguem as normalizações mais comuns de endereço postal. Os campos estão disponíveis no nó **[!UICONTROL Postal address]**.
 
-An address can contain up to six lines by default: the first calculated field (**[!UICONTROL Line 1]** contains the first name and last name, the next lines contain the postal address (road etc.), and the last line contains the ZIP/Postal code and town or city.
+Um endereço pode conter até seis linhas por padrão: o primeiro campo calculado (**[!UICONTROL Line 1]**) contém o nome e o sobrenome; as linhas seguintes contêm o endereço postal (rua etc.); e a última linha contém o CEP e a cidade.
 
 ![](assets/direct_mail_23.png)
