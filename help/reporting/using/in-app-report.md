@@ -1,18 +1,21 @@
 ---
 title: Relatório no aplicativo
-description: Com o relatório predefinido no aplicativo, saiba mais sobre o sucesso das mensagens no aplicativo.
-page-status-flag: nunca ativado
+description: Com o relatório predefinido no aplicativo, saiba mais sobre o sucesso de suas mensagens no aplicativo.
+page-status-flag: never-activated
 uuid: 802dc606-a314-46dd-b361-b746b0772303
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: relatório
-content-type: referência
-topic-tags: lista de relatórios
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
 discoiquuid: 3f17c2ad-8ba3-4795-93ed-288b2bcee872
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 1%
 
 ---
 
@@ -21,29 +24,29 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!CAUTION]
 >
->Observe que é necessário arrastar e soltar as **[!UICONTROL Message type]** métricas em suas tabelas para dividir seus dados dependendo dos tipos de entrega, neste caso, de entregas no aplicativo.
+>Observe que é necessário arrastar e soltar as **[!UICONTROL Message type]** métricas em suas tabelas para dividir seus dados dependendo dos tipos de delivery, neste caso delivery no aplicativo.
 
-O relatório **no aplicativo** fornece detalhes relacionados às entregas no aplicativo.
+O relatório **no aplicativo** fornece detalhes relacionados aos delivery no aplicativo.
 
 Cada tabela é representada por números de resumo e gráficos. Você pode alterar a forma como os detalhes são exibidos em suas respectivas configurações de visualização.
 
 ![](assets/inapp_report.png)
 
-A primeira tabela Resumo **de envolvimento** no aplicativo é dividida em três categorias: por dia, por aplicativo móvel e por entrega. Ele contém os dados disponíveis para a reatividade do destinatário na entrega:
+A primeira tabela Resumo **de envolvimento** no aplicativo é dividida em três categorias: por dia, por aplicativo móvel e por delivery. Ele contém os dados disponíveis para a reatividade do recipient ao delivery:
 
-* **[!UICONTROL Processed/sent]**: Número total de envios para entrega no aplicativo.
+* **[!UICONTROL Processed/sent]**: Número total de envios para o delivery no aplicativo.
 * **[!UICONTROL Delivered]**: Número de mensagens no aplicativo enviadas com êxito, em relação ao número total de mensagens enviadas.
-* **[!UICONTROL Impressions]**:Total de mensagens no aplicativo vistas pelos destinatários, dependendo se o critério de disparo foi atendido.
-* **[!UICONTROL Unique impressions]**:Número de impressões por destinatário.
-* **[!UICONTROL In-App click through rate]**:A porcentagem de usuários que clicaram no Botão 1 ou no Botão 2 em comparação aos usuários que viram a mensagem.
-* **[!UICONTROL In-App dismissal rate]**:Porcentagem de mensagens no aplicativo que os destinatários rejeitaram.
+* **[!UICONTROL Impressions]**: Total de mensagens no aplicativo visualizadas por recipient, dependendo se o critério de disparo foi atendido.
+* **[!UICONTROL Unique impressions]**: Número de impressões por recipient.
+* **[!UICONTROL In-App click through rate]**: A porcentagem de usuários que clicaram no Botão 1 ou no Botão 2 em comparação aos usuários que viram a mensagem.
+* **[!UICONTROL In-App dismissal rate]**: Porcentagem de mensagens no aplicativo que os recipient rejeitaram.
 
 ![](assets/inapp_report_1.png)
 
-A segunda tabela **Cliques e exclusões** no aplicativo é dividida em três categorias: por dia, por aplicativo móvel e por entrega. Ele contém os dados disponíveis para o comportamento do destinatário por entrega:
+A segunda tabela **Cliques e exclusões** no aplicativo é dividida em três categorias: por dia, por aplicativo móvel e por delivery. Ele contém os dados disponíveis para o comportamento do recipient por delivery:
 
-* **[!UICONTROL In-App clicks]**:Número total de destinatários que clicaram no Botão 1 ou no Botão 2.
-* **[!UICONTROL Unique In-App clicks]**:Número de vezes que os destinatários clicaram no Botão 1 ou no Botão 2.
-* **[!UICONTROL In-App dismissal]**:O número total de mensagens que os destinatários dispensaram ao clicar no botão Fechar ou fechar automaticamente.
-* **[!UICONTROL Unique In-App dismissal]**:Número de vezes que os destinatários rejeitaram uma mensagem no aplicativo.
+* **[!UICONTROL In-App clicks]**: Número total de recipient que clicaram no Botão 1 ou no Botão 2.
+* **[!UICONTROL Unique In-App clicks]**: Número de vezes que os recipient clicaram no Botão 1 ou no Botão 2.
+* **[!UICONTROL In-App dismissal]**: O número total de mensagens que os recipient rejeitaram ao clicar no botão Fechar ou fechar automaticamente.
+* **[!UICONTROL Unique In-App dismissal]**: Número de vezes que os recipient rejeitaram uma mensagem no aplicativo.
 
