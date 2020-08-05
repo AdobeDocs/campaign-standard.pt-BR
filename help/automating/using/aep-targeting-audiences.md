@@ -1,6 +1,6 @@
 ---
 title: Definição de públicos da Adobe Experience Platform
-description: Saiba como público alvo audiências Adobe Experience Platform dentro dos workflows.
+description: Saiba como público alvo audiências Adobe Experience Platform em workflows.
 page-status-flag: never-activated
 uuid: 528d9472-e447-47af-a6b2-3181aa5fb5ad
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 5%
@@ -24,9 +24,9 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->O serviço Destinos de Audiência está atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam estar hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente da Adobe se desejar acessar.
+>O serviço Destinos de Audiência está atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam estar hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente do Adobe se desejar acessá-lo.
 
-Depois de criar uma audiência [de](../../audiences/using/aep-about-audience-destinations-service.md) Adobe Experience Platform usando o Construtor de segmentos, você pode usá-la da mesma forma que faria para uma audiência de Campanha em workflows para personalizar e enviar mensagens.
+Depois de criar uma audiência [do](../../audiences/using/aep-about-audience-destinations-service.md) Adobe Experience Platform usando o Construtor de segmentos, você pode usá-la da mesma forma que faria para uma audiência de Campanha dentro dos workflows para personalizar e enviar mensagens.
 
 Para ativar uma audiência Adobe Experience Platform em seus workflows, siga estas etapas:
 
@@ -50,7 +50,7 @@ Para ativar uma audiência Adobe Experience Platform em seus workflows, siga est
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
-   Esta lista contém todos os mapeamentos do Modelo de Dados de Experiência (XDM) que foram configurados em sua instância. Para obter mais informações sobre o Conector de dados de Adobe Experience Platform, consulte [este documento](../../developing/using/aep-about-data-connector.md)dedicado.
+   Esta lista contém todos os mapeamentos do Modelo de Dados de Experiência (XDM) que foram configurados em sua instância. Para obter mais informações sobre o Adobe Experience Platform Data Connector, consulte [este documento](../../developing/using/aep-about-data-connector.md)dedicado.
 
    ![](assets/aep_wkf_readaudience_namespace2.png)
 
@@ -62,13 +62,13 @@ Agora você pode configurar seu fluxo de trabalho com outras atividades. Por exe
 
 >[!NOTE]
 >
->O Campaign Standard permite que você público alvo audiências Adobe Experience Platform em todos os canais de delivery: Emails, mensagens SMS, Mensagens de mala direta, Notificações por push e Mensagens no aplicativo.
+>O Campaign Standard permite público alvo do Adobe Experience Platform audiência em todos os canais do delivery: Emails, mensagens SMS, mensagens de mala direta, notificações por push e mensagens no aplicativo.
 >
 >*Observação: Para todas as mensagens de push e no aplicativo, o Campaign Standard só oferece suporte a delivery para perfis conhecidos.
 
 Para obter mais informações sobre como usar workflows e delivery, consulte estas seções:
 
-* [Descobrir fluxos de trabalho](../../automating/using/get-started-workflows.md)
-* [Criação de um fluxo de trabalho](../../automating/using/building-a-workflow.md)
-* [Descobrir canais de comunicação](../../channels/using/get-started-communication-channels.md)
+* [Introdução aos workflows](../../automating/using/get-started-workflows.md)
+* [Criar um workflow](../../automating/using/building-a-workflow.md)
+* [Introdução aos canais de comunicação](../../channels/using/get-started-communication-channels.md)
 * [Sobre as atividades de canal](../../automating/using/about-channel-activities.md)
