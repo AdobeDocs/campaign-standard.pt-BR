@@ -1,6 +1,6 @@
 ---
 title: Personalização de campanhas usando atributos da Adobe Experience Platform
-description: Saiba como personalizar suas campanhas usando os atributos da Adobe Experience Platform.
+description: Saiba como personalizar suas campanhas usando os atributos da Plataforma de experiência do Adobe.
 page-status-flag: never-activated
 uuid: 528d9472-e447-47af-a6b2-3181aa5fb5ad
 contentOwner: sauviat
@@ -12,7 +12,10 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 8%
 
 ---
 
@@ -21,17 +24,17 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 >[!IMPORTANT]
 >
->O serviço Destinos de Audiência está atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam estar hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente da Adobe se desejar acessar.
+>O serviço Destinos de Audiência está atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam estar hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente do Adobe se desejar acessá-lo.
 >
 >**canais de push** e **no aplicativo** ainda não estão disponíveis para personalização usando dados contextuais da Adobe Experience Platform.
 
-Depois que seu fluxo de trabalho for configurado com uma audiência [da plataforma](../../audiences/using/aep-about-audience-destinations-service.md)Adobe Experience, você poderá personalizar mensagens com atributos de perfil que existem exclusivamente no Modelo de Dados de Experiência (XDM).
+Depois que seu fluxo de trabalho for configurado com uma audiência [do](../../audiences/using/aep-about-audience-destinations-service.md)Adobe Experience Platform, você poderá personalizar mensagens com atributos de perfil que existem exclusivamente no Modelo de Dados de Experiência (XDM).
 
 Para fazer isso, você deve adicionar esses atributos à **[!UICONTROL Read audience]** atividade:
 
-1. Open the **[!UICONTROL Read audience]** activity. Na **[!UICONTROL Additional data]** guia, clique no **[!UICONTROL Create element]** botão.
+1. Open the **[!UICONTROL Read audience]** activity. In the **[!UICONTROL Additional data]** tab, click the **[!UICONTROL Create element]** button.
 
-   Observe que a **[!UICONTROL Additional data]** guia só estará disponível depois que uma audiência da plataforma Adobe Experience for selecionada.
+   Observe que a **[!UICONTROL Additional data]** guia só estará disponível depois que uma audiência Adobe Experience Platform for selecionada.
 
    ![](assets/aep_wkf_readaudience_attributes.png)
 
@@ -57,6 +60,6 @@ Para fazer isso, você deve adicionar esses atributos à **[!UICONTROL Read audi
 
 Para obter mais informações sobre como criar e personalizar delivery, consulte a documentação do Campaign Standard:
 
-* [Descobrir canais de comunicação](../../channels/using/get-started-communication-channels.md)
+* [Introdução aos canais de comunicação](../../channels/using/get-started-communication-channels.md)
 * [Sobre as atividades de canal](../../automating/using/about-channel-activities.md)
 * [Personalização de deliveries](../../designing/using/personalization.md)
