@@ -13,38 +13,41 @@ translation-type: tm+mt
 source-git-commit: 3bd2fdb56fc94cef4e9c21466a33cdad7ac825d2
 workflow-type: tm+mt
 source-wordcount: '1754'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
 
 # API externa {#external-api}
+				
 
 ## Descrição {#description}
+				
 
 ![](assets/wf_externalAPI.png)
 
-A **[!UICONTROL External API]** atividade traz dados para o fluxo de trabalho de um sistema **** externo por meio de uma chamada de API **** HTTP.
+A atividade **[!UICONTROL External API]** traz dados para o workflow de um **sistema externo** por meio de uma chamada à **API HTTP**.
 
-Os pontos de extremidade do sistema externo podem ser pontos de extremidade de API pública, sistemas de gerenciamento de clientes ou instâncias de aplicativo sem servidor (por exemplo, [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html)), para mencionar algumas categorias.
+Os pontos de extremidade do sistema externo podem ser pontos de extremidade de API públicos, sistemas de gerenciamento de clientes ou instâncias de aplicativos sem servidor (por exemplo, [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html)), para mencionar algumas categorias.
 
 >[!NOTE]
 >
->Por motivos de segurança, o uso de JSSPs não é suportado no Campaign Standard. Se precisar executar o código, você pode chamar uma instância do Tempo de execução de E/S da Adobe por meio da atividade da API externa.
+>Por motivos de segurança, o uso de JSSPs não é compatível com o Campaign Standard. Se você precisar executar um código, poderá chamar uma instância do Adobe I/O Runtime por meio da atividade API externa.
 
-As principais características desta atividade são:
+As principais características dessa atividade são:
 
-* Capacidade de transmitir dados em um formato JSON para um terminal de API REST de terceiros
-* Capacidade de receber uma resposta JSON de volta, mapeá-la para tabelas de saída e passá-la para downstream para outras atividades de fluxo de trabalho.
+* Capacidade de transmitir dados em um formato JSON para um ponto de extremidade de API REST de terceiros
+* Capacidade de receber uma resposta JSON de volta, mapeá-la para tabelas de saída e transmiti-la downstream para outras atividades do workflow.
 * Gerenciamento de falhas com uma transição específica de saída
 
-### Transição do Beta para o GA {#from-beta-to-ga}
+### Transição de Beta para GA {#from-beta-to-ga}
+				
 
-Com a versão Campaign Standard 20.3, o recurso de API externa mudou de Beta para General Availability (GA).
+Com a versão Campaign Standard 20.3, o recurso de API externa mudou de Beta para GA (Disponibilidade geral).
 
 >[!CAUTION]
 >
->Como consequência, se você estivesse usando atividades beta de API externa, precisaria substituí-las por atividades de API externas GA em todos os workflows.  Os Workflows que usam a versão beta da API externa pararão de funcionar a partir da versão 20.3.
+>Como consequência, se você estava usando atividades de API externa beta, precisará substituí-las por atividades de API externa GA em todos os workflows.  Os Workflows que usam a versão beta da API externa pararão de funcionar a partir da versão 20.3.
 
 Ao substituir atividades de API externas, adicione a nova atividade de API externa ao fluxo de trabalho, copie manualmente os detalhes de configuração e exclua a atividade antiga.
 
@@ -83,7 +86,7 @@ A atividade não tem suporte para a estrutura JSON como:
 >
 >A atividade de API externa destina-se a obter dados de toda a campanha (conjunto mais recente de ofertas, pontuações mais recentes etc.), não para recuperar informações específicas para cada perfil, pois isso pode resultar na transferência de grandes quantidades de dados. Se o caso de uso exigir isso, a recomendação é usar a atividade [Transferir arquivo](../../automating/using/transfer-file.md) .
 
-## Configuração {#configuration}
+## Configuração {#configuration}Fi
 
 Arraste e solte uma **[!UICONTROL External API]** atividade no seu fluxo de trabalho e abra a atividade para start da configuração.
 
@@ -122,7 +125,7 @@ A definição de colunas (adicionar/remover) e o valor de tipo da propriedade po
 
 A caixa de seleção Nivelar (padrão: desmarcada) é fornecida para indicar se o JSON deve ser nivelado em um mapa de chave/valor ou não.
 
-* Quando a **caixa de seleção estiver desativada** (desmarcada), a amostra JSON será analisada para procurar um objeto de matriz. O usuário precisará fornecer uma versão reduzida do formato JSON de amostra de resposta da API para que o Adobe Campaign possa determinar exatamente em qual matriz o usuário está interessado em usar. No tempo de criação do fluxo de trabalho, o caminho para o objeto de matriz aninhado será determinado e registrado, para que possa ser usado no tempo de execução para acessar esse objeto de matriz a partir do corpo de resposta JSON recebido da chamada de API.
+* Quando a **caixa de seleção estiver desativada** (desmarcada), a amostra JSON será analisada para procurar um objeto de matriz. O usuário precisará fornecer uma versão reduzida do formato JSON de amostra de resposta da API para que a Adobe Campaign possa determinar exatamente em qual matriz o usuário está interessado em usar. No tempo de criação do fluxo de trabalho, o caminho para o objeto de matriz aninhado será determinado e registrado, para que possa ser usado no tempo de execução para acessar esse objeto de matriz a partir do corpo de resposta JSON recebido da chamada de API.
 
 * Quando a **caixa de seleção estiver ativada** (marcada), a amostra JSON será nivelada e todas as propriedades especificadas na amostra fornecida JSON serão usadas para criar colunas da tabela temporária de saída e exibidas na guia Definições de Coluna. Observe que se houver algum objeto de matriz na amostra JSON, todos os elementos desses objetos de matriz também serão nivelados.
 
@@ -146,11 +149,11 @@ Essa guia permite controlar as propriedades **** gerais na atividade externa da 
 >
 >Essa guia é exibida quando o formato **de dados de** resposta é concluído e validado na guia Mapeamento de saída.
 
-A guia Definição **de** coluna permite especificar com precisão a estrutura de dados de cada coluna para importar dados que não contêm erros e fazer com que eles correspondam aos tipos que já estão presentes no banco de dados do Adobe Campaign para operações futuras.
+The **Column definition** tab allows you to precisely specify the data structure of each column in order to import data that does not contain any errors and make it match the types that are already present in the Adobe Campaign database for future operations.
 
 ![](assets/externalAPI-column.png)
 
-Por exemplo, você pode alterar o rótulo de uma coluna, selecionar seu tipo (string, número inteiro, data etc.) ou até mesmo especifique o processamento de erros.
+Por exemplo, você pode alterar o rótulo de uma coluna, selecionar o tipo (sequência, número inteiro, data etc.) ou até mesmo especificar o processamento de erros.
 
 For more information, refer to the [Load File](../../automating/using/load-file.md) section.
 
@@ -162,7 +165,7 @@ Essa guia permite ativar a transição **de** saída e seu rótulo. Essa transi�
 
 ### Opções de execução
 
-Esta guia está disponível na maioria das atividades de fluxo de trabalho. Para obter mais informações, consulte a seção Propriedades [da](../../automating/using/activity-properties.md) Atividade.
+Esta guia está disponível na maioria das atividades de fluxo de trabalho. For more information, consult the [Activity properties](../../automating/using/activity-properties.md) section.
 
 ![](assets/externalAPI-options.png)
 
