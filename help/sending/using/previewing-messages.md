@@ -1,5 +1,5 @@
 ---
-title: Visualizar mensagens
+title: Visualização de mensagens
 description: Saiba como pré-visualização uma mensagem no editor de conteúdo ou no Designer de email.
 page-status-flag: never-activated
 uuid: 8dffca95-59fe-4e9b-93cb-73b33ffde020
@@ -12,20 +12,23 @@ discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 92bbf57f1a6eff67d2551dc83dd8cb5f6b38bd99
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
+source-wordcount: '624'
+ht-degree: 15%
 
 ---
 
 
-# Visualizar delivery {#previewing-messages}
+# Pré-visualização de delivery {#previewing-messages}
 
 ## Visualizar emails {#previewing-emails}
 
-Campaign Standard allows you to preview messages before sending, in order to check their personalization and how your recipients will see them.
+O Campaign Standard permite que você pré-visualização mensagens antes de enviá-las, para verificar a personalização e como seus recipient as visualizarão.
 
 A pré-visualização de mensagens é executada usando perfis **de** teste adicionados ao público alvo da mensagem.
 
-Para mensagens de **email** , o Campaign Standard permite que você pré-visualização mensagens usando perfis direcionados em vez de perfis de teste. Isso permite obter uma representação exata da mensagem que um perfil específico receberá. Para obter mais informações, consulte [Testar mensagens de email usando perfis](../../sending/using/testing-messages-using-target.md)direcionados.
+Para mensagens de **email** , o Campaign Standard permite que você pré-visualização mensagens usando perfis direcionados em vez de perfis de teste. Isso permite obter uma representação exata da mensagem que um perfil específico receberá. Para mais informações, consulte [Testar mensagens de email usando perfis segmentados](../../sending/using/testing-messages-using-target.md).
 
 Para pré-visualização de uma mensagem usando perfis de teste, siga estas etapas:
 
@@ -53,9 +56,9 @@ Para pré-visualização de uma mensagem usando perfis de teste, siga estas etap
 * [Testar mensagens de email usando perfis direcionados](../../sending/using/testing-messages-using-target.md)
 * [Envio de provas](../../sending/using/sending-proofs.md)
 
-## Previewing SMS messages {#previewing-sms}
+## Visualizar mensagens SMS {#previewing-sms}
 
-Para mensagens **SMS** , o Campaign Standard permite que você pré-visualização mensagens usando perfis de teste. Isso permite obter uma representação exata da mensagem que um perfil específico receberá. Para obter mais informações, consulte [Gerenciamento de perfis](../../audiences/using/managing-test-profiles.md)de teste.
+Para mensagens **SMS** , o Campaign Standard permite que você pré-visualização mensagens usando perfis de teste. Isso permite obter uma representação exata da mensagem que um perfil específico receberá. Para mais informações, consulte [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md).
 
 Para pré-visualização de uma mensagem SMS usando perfis de teste, siga estas etapas:
 
@@ -63,7 +66,7 @@ Para pré-visualização de uma mensagem SMS usando perfis de teste, siga estas 
 
    ![](assets/sms_preview.png)
 
-1. After personalizing your content, click **[!UICONTROL Create]** to access the **[!UICONTROL Summary]** window.
+1. Depois de personalizar o conteúdo, clique em **[!UICONTROL Create]** para acessar a **[!UICONTROL Summary]** janela.
 
 1. Na **[!UICONTROL Summary]** janela, clique em **[!UICONTROL Content]** para start para visualizar seu delivery.
 
@@ -87,7 +90,7 @@ Agora você pode ver a representação exata de sua mensagem, dependendo dos per
 
 ## Visualizar notificações por push {#previewing-push}
 
-Para notificações **por** push, o Campaign Standard permite que você pré-visualização mensagens usando perfis de teste. Isso permite obter uma representação exata da mensagem que um perfil específico receberá. Para obter mais informações, consulte [Gerenciamento de perfis](../../audiences/using/managing-test-profiles.md)de teste.
+Para notificações **por** push, o Campaign Standard permite que você pré-visualização mensagens usando perfis de teste. Isso permite obter uma representação exata da mensagem que um perfil específico receberá. Para mais informações, consulte [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md).
 
 Para pré-visualização de uma notificação por push usando perfis de teste, siga estas etapas:
 
@@ -115,7 +118,7 @@ Agora você pode ver a representação exata de sua mensagem, dependendo dos per
 
 ## Visualizar mensagens no aplicativo {#previewing-in-app}
 
-Para **No aplicativo**, o Campaign Standard permite que você pré-visualização mensagens usando perfis de teste. Isso permite obter uma representação exata da mensagem que um perfil específico receberá. Para obter mais informações, consulte [Gerenciamento de perfis](../../audiences/using/managing-test-profiles.md)de teste.
+Para **No aplicativo**, o Campaign Standard permite que você pré-visualização mensagens usando perfis de teste. Isso permite obter uma representação exata da mensagem que um perfil específico receberá. Para mais informações, consulte [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md).
 
 Para pré-visualização de uma mensagem no aplicativo usando perfis de teste, siga estas etapas:
 
@@ -137,6 +140,6 @@ Agora você pode ver a representação exata de sua mensagem, dependendo dos per
 
 **Tópicos relacionados**
 
-* [Sobre as mensagens no aplicativo](../../channels/using/about-in-app-messaging.md)
+* [Sobre mensagens no aplicativo](../../channels/using/about-in-app-messaging.md)
 * [Preparação e envio de uma mensagem no aplicativo](../../channels/using/preparing-and-sending-an-in-app-message.md)
-* [Personalizar uma mensagem no aplicativo](../../channels/using/customizing-an-in-app-message.md)
+* [Personalização de mensagem no aplicativo](../../channels/using/customizing-an-in-app-message.md)
