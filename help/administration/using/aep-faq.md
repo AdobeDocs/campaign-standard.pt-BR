@@ -1,6 +1,6 @@
 ---
-title: Perguntas frequentes sobre integração de Adobe Experience Platform SDK e Adobe Campaign
-description: Perguntas frequentes sobre integração de Adobe Experience Platform SDK e Adobe Campaign
+title: Perguntas frequentes sobre integração do Adobe Experience Platform SDK e Adobe Campaign
+description: Perguntas frequentes sobre integração do Adobe Experience Platform SDK e Adobe Campaign
 page-status-flag: never-activated
 uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
 contentOwner: sauviat
@@ -12,21 +12,21 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: 2b04a5efdde3153d3ede0ad8bc4f56cd4a5fa1df
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 0%
+source-wordcount: '813'
+ht-degree: 2%
 
 ---
 
 
-# Introdução ao Adobe Experience Platform SDK e Campaign Standard {#aep-faq}
+# Perguntas frequentes sobre integração com o SDK do Experience Platform {#aep-faq}
 
 Para enviar notificações por push e mensagens no aplicativo com o aplicativo Experience Platform SDK, um aplicativo móvel deve ser configurado no Adobe Experience Platform SDK e configurado no Adobe Campaign.
 
 A seção abaixo lista perguntas comuns sobre essa sincronização.
 
-Para obter mais informações sobre Push ou In-app, consulte as seguintes perguntas frequentes:
+Para obter mais informações sobre push ou no aplicativo, consulte as seguintes perguntas frequentes:
 
 * [Perguntas frequentes sobre notificações por push](../../channels/using/about-push-notifications.md#push-faq)
 * [Perguntas frequentes no aplicativo](../../channels/using/about-push-notifications.md#in-app-faq)
@@ -34,24 +34,24 @@ Para obter mais informações sobre Push ou In-app, consulte as seguintes pergun
 
 ## Recursos úteis antes de iniciar {#resource-mobile-property}
 
-Consulte os recursos abaixo para obter mais informações sobre o SDK do Adobe Experience Platform e a integração do Campaign Standard:
+Consulte os recursos a seguir para obter mais informações sobre o SDK do Adobe Experience Platform e a integração do Campaign Standard:
 
 * Vídeo de [visão geral do Launch/Mobile](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
 * Guia de [dicas e truques para inicialização/dispositivos móveis](https://www.adobe.com/content/dam/www/us/en/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
-## A integração do SDK do Adobe Experience Platform está disponível para o Adobe Campaign Standard e o Adobe Campaign Classic? {#aep-validity}
+## A integração do Adobe Experience Platform SDK está disponível para Adobe Campaign Standard e Adobe Campaign Classic? {#aep-validity}
 
-Sim, a integração está disponível para Adobe Campaign Standard e Adobe Campaign Classic. [!DNL Adobe Experience Platform SDK] É necessário instalar o correspondente **[!UICONTROL Extension]** via [!DNL Adobe Launch] para habilitar a integração.
+Sim, [!DNL Adobe Experience Platform SDK] a integração está disponível para Adobe Campaign Standard e Adobe Campaign Classic. É necessário instalar o correspondente **[!UICONTROL Extension]** via [!DNL Adobe Launch] para habilitar a integração.
 
 Para obter mais informações, consulte esta [página](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic) para Campaign Classic e esta [página](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) para Campaign Standard.
 
-## Quais recursos a integração do SDK do Adobe Experience Platform facilita no Adobe Campaign? {#aep-capabilities}
+## Quais recursos a integração do Adobe Experience Platform SDK facilita no Adobe Campaign? {#aep-capabilities}
 
 Consulte a tabela abaixo para saber mais sobre esses recursos.
 
 ![](assets/faq.png)
 
->[!Nnota]
+>[!NNota]
 >
 >[!DNL Places] a integração inclui eventos de local como acionadores para mensagens no aplicativo (N/A para notificações por push), enriquecendo perfis com suporte a notificações locais e [!DNL Places] dados. Refer to this [page](../../channels/using/preparing-and-sending-an-in-app-message.md) for more information. <br>[!DNL Places] a integração limitada inclui perfis enriquecedores com [!DNL Places] dados.
 
@@ -60,7 +60,7 @@ Consulte a tabela abaixo para saber mais sobre esses recursos.
 Os seguintes casos de uso são suportados:
 
 * Adquira uma Campanha **[!UICONTROL Mobile Profile]** (identificada pelo ECID em **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]** > **[!UICONTROL Mobile Application subscribers]** >
-* Enriquecer um **[!UICONTROL Mobile Profile]** **[!UICONTROL Custom resource Extension]** no Adobe Campaign (requer a tabela appSubscriberRcp)
+* Enriquecer um **[!UICONTROL Mobile Profile]** **[!UICONTROL Custom resource Extension]** no Adobe Campaign (requer uma tabela appSubscriberRcp)
 * Adquira um token de push para enviar mensagens de push (requer que o usuário opte por receber mensagens de push)
 * Enviar mensagens de push e no aplicativo
 * Rastrear a interação do usuário com mensagens de push e no aplicativo e fornecer relatórios sobre isso
@@ -95,11 +95,11 @@ Sim. Dependendo das necessidades de sua empresa, você pode acionar chamadas Col
 
 A frequência e o design de chamadas CollectPII devem ser ditados pelas necessidades da empresa e não devem ser disparados às cegas, pois isso cria carga extra no BD.
 
-### Quando tento acessar aplicativos Adobe Experience Platform no Campaign ou no Launch, às vezes recebo um erro de propriedade não disponível. {#aep-error}
+### Quando tento acessar os aplicativos Adobe Experience Platform no Campaign ou no Launch, às vezes recebo um erro de propriedade não disponível. {#aep-error}
 
 Esse é um problema conhecido e ocorre devido à expiração do token. Você deve tentar fazer logout e login.
 
-## Quais seriam algumas recomendações de recursos úteis para saber mais sobre o Adobe Experience Platform SDK (anteriormente conhecido como SDK V5)?{#resource-aep}
+## Quais seriam algumas recomendações de recursos úteis para saber mais sobre o SDK do Adobe Experience Platform (anteriormente conhecido como SDK V5)?{#resource-aep}
 
 Confira os recursos abaixo:
 
