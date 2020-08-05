@@ -1,6 +1,6 @@
 ---
 title: Extrair arquivo
-description: A atividade Extract file permite exportar dados do Adobe Campaign na forma de um arquivo externo.
+description: A atividade Extract file permite exportar dados do Adobe Campaign como um arquivo externo.
 page-status-flag: never-activated
 uuid: 631f0fbd-9e8d-4f77-a338-fcb7f4fc1774
 contentOwner: sauviat
@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 1%
+ht-degree: 91%
 
 ---
 
@@ -27,15 +27,15 @@ ht-degree: 1%
 
 ![](assets/export.png)
 
-A **[!UICONTROL Extract file]** atividade permite exportar dados do Adobe Campaign na forma de um arquivo externo.
+A atividade **[!UICONTROL Extract file]** permite exportar dados do Adobe Campaign como um arquivo externo.
 
-## Contexto de utilização {#context-of-use}
+## Contexto de uso {#context-of-use}
 
-A forma como os dados serão extraídos é definida ao configurar a atividade.
+O modo como os dados serão extraídos é definido na configuração da atividade.
 
 >[!CAUTION]
 >
->A **[!UICONTROL Extract file]** atividade deve ser colocada após uma **[!UICONTROL Query]** atividade para ser usada.
+>A atividade **[!UICONTROL Extract file]** deve ser colocada após uma atividade **[!UICONTROL Query]** para ser usada.
 
 **Tópicos relacionados:**
 
@@ -43,18 +43,18 @@ A forma como os dados serão extraídos é definida ao configurar a atividade.
 
 ## Configuração {#configuration}
 
-1. Arraste e solte uma **[!UICONTROL Extract file]** atividade no seu fluxo de trabalho.
+1. Arraste e solte uma atividade **[!UICONTROL Extract file]** no seu workflow.
 
    ![](assets/wkf_data_export1.png)
 
-1. Selecione a atividade e abra-a usando o ![](assets/edit_darkgrey-24px.png) botão das ações rápidas que aparecem.
-1. Insira o rótulo do arquivo **** de Saída. O rótulo do arquivo será automaticamente preenchido com a data e a hora em que foi criado para que seja exclusivo. Por exemplo: recipient_20150815_081532.txt para um arquivo gerou o dia 15 de agosto de 2015 às 08:15:32.
+1. Selecione e abra a atividade usando o botão ![](assets/edit_darkgrey-24px.png) das ações rápidas exibidas.
+1. Insira o rótulo do **arquivo de saída**. O rótulo do arquivo será automaticamente preenchido com a data e hora de criação para ser exclusivo. Por exemplo: recipient_20150815_081532.txt para um arquivo gerado no dia 15 de agosto de 2015 às 08:15:32.
 
    >[!NOTE]
    >
-   >É possível usar a **[!UICONTROL formatDate]** função neste campo para especificar o nome do arquivo.
+   >É possível usar a função **[!UICONTROL formatDate]** neste campo para especificar o nome do arquivo.
 
-1. Se desejar, você pode compactar o arquivo de saída selecionando-o **[!UICONTROL Compression]** no **[!UICONTROL Add a pre-processing step]** campo. O arquivo de saída será compactado em um arquivo GZIP (.gz).
+1. Se desejar, você pode compactar o arquivo de saída selecionando **[!UICONTROL Compression]** no campo **[!UICONTROL Add a pre-processing step]**. O arquivo de saída será compactado em um arquivo GZIP (.gz).
 
    O **[!UICONTROL Add a pre-processing step]** campo também permite criptografar um arquivo antes de extraí-lo. Para obter mais informações sobre como trabalhar com arquivos criptografados, consulte [esta seção](../../automating/using/managing-encrypted-data.md)
 
@@ -66,18 +66,18 @@ A forma como os dados serão extraídos é definida ao configurar a atividade.
 
    ![](assets/wkf_data_export3.png)
 
-1. Insira uma expressão. Para fazer isso, você pode selecionar uma expressão existente ou criar uma nova usando o editor **de** expressões.
-1. Confirme sua expressão.
+1. Insira uma expressão. Para isso, selecione uma expressão ou crie uma nova usando o **editor de expressão**.
+1. Confirme a expressão.
 
    A expressão é adicionada às colunas de saída.
 
-1. Crie quantas colunas forem necessárias. É possível editar colunas clicando em suas expressões e rótulos.
+1. Crie quantas colunas forem necessárias. Você pode editar as colunas clicando nas expressões e nos rótulos.
 
-   Se você estiver exportando perfis e quiser usá-los em uma ferramenta externa, certifique-se de exportar um identificador exclusivo. Por padrão, nem todos os perfis têm um identificador exclusivo, dependendo da forma como são adicionados ao banco de dados. Para obter mais informações, consulte a seção [Geração de uma ID exclusiva para perfis](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources) .
+   Se estiver exportando perfis e quiser usá-los em uma ferramenta externa, exporte um identificador exclusivo. Por padrão, nem todos os perfis têm um identificador exclusivo, dependendo de como são adicionados ao banco de dados. Para saber mais, consulte a seção [Geração de uma ID exclusiva para perfis](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 
-1. Clique na **[!UICONTROL File structure]** guia para configurar os formatos de saída, data e número para o arquivo que será exportado.
+1. Clique na guia **[!UICONTROL File structure]** para configurar os formatos de saída, data e número para o arquivo que será exportado.
 
-   Marque a **[!UICONTROL Export labels instead of internal values of enumerations]** opção caso você exporte valores de lista discriminada. Essa opção permite recuperar rótulos mais curtos, fáceis de entender em vez de IDs.
+   Marque a opção **[!UICONTROL Export labels instead of internal values of enumerations]** caso exporte valores de uma lista discriminada. Essa opção permite recuperar rótulos mais curtos, que são fáceis de entender, em vez de IDs.
 
-1. Na **[!UICONTROL Properties]** guia, selecione a **[!UICONTROL Do not generate a file if the inbound transition is empty]** opção para evitar a criação e o upload de arquivos vazios em servidores SFTP se a transição de entrada estiver vazia.
-1. Confirme a configuração da atividade e salve o fluxo de trabalho.
+1. Na guia **[!UICONTROL Properties]**, selecione a opção **[!UICONTROL Do not generate a file if the inbound transition is empty]** para evitar a criação e o upload de arquivos vazios em servidores SFTP se a transição de entrada estiver vazia.
+1. Confirme a configuração da sua atividade e salve o fluxo de trabalho.
