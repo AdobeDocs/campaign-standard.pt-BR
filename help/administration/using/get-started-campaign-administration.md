@@ -1,6 +1,6 @@
 ---
-title: Introdução à administração de Campaign Standard
-description: O Adobe Campaign fornece um conjunto completo de ferramentas administrativas. Saiba como gerenciar seus usuários e configurar seus canais.
+title: Introdução à administração do Campaign Standard
+description: A Adobe Campaign fornece um conjunto completo de ferramentas administrativas. Saiba como gerenciar seus usuários e configurar seus canais.
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
 contentOwner: sauviat
@@ -12,12 +12,15 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 40bb454d13de14658bfc30a6454a1a896bf3ad70
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
+source-wordcount: '658'
+ht-degree: 14%
 
 ---
 
 
-# Get started with Campaign Standard administration {#about-administrating-adobe-campaign}
+# Introdução à administração do Campaign Standard {#about-administrating-adobe-campaign}
 
 <table>
 <tr><td><img src="assets/do-not-localize/icon_menu.svg" width="60px"><p><a href="#administration-menu">Menu Administração</a></p></td>
@@ -26,17 +29,17 @@ source-git-commit: 40bb454d13de14658bfc30a6454a1a896bf3ad70
 <td><img src="assets/do-not-localize/icon_settings.svg" width="60px"><p><a href="#application-settings">Configurações do aplicativo</a></p></td></tr>
 </table>
 
-Como uma solução baseada em nuvem, os administradores do Adobe Campaign oferta têm diferentes maneiras de configurar o aplicativo. Embora a configuração da infraestrutura seja executada pela Adobe, os administradores funcionais podem executar várias operações de configuração detalhadas abaixo.
+Como uma solução baseada em nuvem, os administradores do Adobe Campaign oferta têm diferentes maneiras de configurar o aplicativo. Embora a configuração da infraestrutura seja executada pelo Adobe, os administradores funcionais podem executar várias operações de configuração detalhadas abaixo.
 
 >[!NOTE]
 >
->Se você tiver dúvidas ou solicitações sobre implementação e questões de configuração, entre em contato com o executivo de sua conta da Adobe.
+>Em caso de dúvidas ou solicitações sobre questões de implementação e configuração, entre em contato com o executivo de sua conta Adobe.
 
 ## Menu Administração {#administration-menu}
 
 <img src="assets/do-not-localize/icon_menu.svg" width="60px">
 
-As diferentes operações de administração de Adobe Campaign são executadas por meio do **[!UICONTROL Administration]** menu acessível ao clicar no logotipo do Adobe Campaign no canto superior esquerdo. Essa parte da interface só pode ser acessada por administradores funcionais da plataforma.
+As diferentes operações de administração do Adobe Campaign são executadas por meio do **[!UICONTROL Administration]** menu acessível ao clicar no logotipo do Adobe Campaign no canto superior esquerdo. Essa parte da interface só pode ser acessada por administradores funcionais da plataforma.
 
 Os diferentes menus disponíveis são:
 
@@ -46,14 +49,14 @@ Os diferentes menus disponíveis são:
 * [Desenvolvimento](../../developing/using/data-model-concepts.md): Esse menu permite que você gerencie seus recursos personalizados e acesse as ferramentas de diagnóstico.
 * [Configurações](../../administration/using/branding.md)de instância: Este menu é onde você define suas diferentes marcas e define suas configurações (logotipo, gerenciamento de rastreamento, domínio de URL para acessar o landing page etc.).
 * [Implantação](../../automating/using/managing-packages.md): Esse menu agrupa as opções de importação e exportação do pacote.
-* [Métricas](../../audiences/using/active-profiles.md)do cliente: Adobe Campaign fornece um relatório que exibe o número de perfis ativos. Este relatório é apenas informativo, não tem impacto direto na cobrança.
+* [Métricas](../../audiences/using/active-profiles.md)do cliente: A Adobe Campaign fornece um relatório que exibe o número de perfis ativos. Este relatório é apenas informativo, não tem impacto direto na cobrança.
 * [Ferramentas](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)de privacidade: Este menu permite que você crie acesso ao RGPD e exclua solicitações e rastreie sua evolução.
 
 ## Usuários e segurança {#users-security}
 
 <img src="assets/do-not-localize/icon_users.svg"  width="60px">
 
-Convide usuários para acessar o aplicativo e gerenciar grupos **de** segurança, que são conjuntos de usuários que compartilham as mesmas funções e direitos em sua organização. Por padrão, o Adobe Campaign oferta um conjunto de **funções** que permite definir autorizações unitárias atribuídas a usuários e grupos de usuários. Combinadas com unidades **** organizacionais, as funções fornecem aos usuários uma visualização filtrada da interface e definem seu acesso aos diferentes recursos.
+Convide usuários para acessar o aplicativo e gerenciar grupos **de** segurança, que são conjuntos de usuários que compartilham as mesmas funções e direitos em sua organização. By default, Adobe Campaign offers a set of **roles** which allows you to define unitary authorizations assigned to users and user groups. Combined with **organizational units**, roles give users a filtered view of the interface and define their access to the different features.
 
 O padrão de Campanha também permite monitorar informações relacionadas à segurança. Você pode recuperar informações relacionadas às exportações de dados realizadas pelos usuários por meio da **[!UICONTROL Export audits]** tela e aproveitar a **[!UICONTROL Licenses]** tela para monitorar todas as licenças de Campanha instaladas em sua organização, bem como informações diferentes, como o número da compilação, a versão da versão e os termos do contrato.
 
@@ -70,11 +73,11 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_channels.svg" width="60px">
 
-Todos os canais de comunicação no Adobe Campaign devem estar configurados corretamente para poderem enviar mensagens com eficácia. O menu permite- **[!UICONTROL Channel]** que você gerencie os parâmetros técnicos vinculados aos diferentes canais.
+Todos os canais de comunicação no Adobe Campaign devem estar configurados corretamente para poderem enviar mensagens com eficácia. O menu permite que você gerencie os parâmetros técnicos vinculados aos diferentes canais. **[!UICONTROL Channel]**
 
 Configure vários parâmetros de **email** : regras de processamento para rejeição, quarentenas, propriedades de e-mail e parâmetros de roteamento, regras de tipos. Defina as configurações e propriedades do roteamento **SMS** , bem como a codificação e os formatos SMS.
 
-Configure aplicativos **** móveis para poder enviar mensagens no aplicativo e notificações por push usando os SDKs da plataforma Adobe Experience e configurar mensagens **transacionais** criando e configurando eventos.
+Configure aplicativos **** móveis para que possam enviar mensagens no aplicativo e notificações por push usando SDKs do Adobe Experience Platform, e configure mensagens **transacionais** criando e configurando eventos.
 
 Leia mais:
 
@@ -106,4 +109,4 @@ Leia mais:
 ## Recursos adicionais
 
 * [Gerenciamento de direitos de acesso do usuário (vídeo)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)
-* [Documentação do Painel de controle](https://docs.adobe.com/content/help/br/control-panel/using/control-panel-home.translate.html)
+* [Documentação do Painel de controle do Campaign](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.html)
