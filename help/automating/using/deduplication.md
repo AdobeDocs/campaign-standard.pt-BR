@@ -1,6 +1,6 @@
 ---
-title: Eliminação de duplicação
-description: A atividade Desduplicação-duplicada permite que você exclua duplicados nos resultados das atividades de entrada.
+title: Desduplicação
+description: A atividade de Desduplicação permite excluir duplicados no(s) resultado(s) das atividades de entrada.
 page-status-flag: never-activated
 uuid: 11a22a9c-3bfe-4953-8a52-2f4e93c128fb
 contentOwner: sauviat
@@ -16,26 +16,26 @@ translation-type: tm+mt
 source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 14%
+ht-degree: 97%
 
 ---
 
 
-# Eliminação de duplicação{#deduplication}
+# Desduplicação{#deduplication}
 
 ## Descrição {#description}
 
 ![](assets/deduplication.png)
 
-A **[!UICONTROL Deduplication]** atividade permite excluir duplicados nos resultados das atividades de entrada.
+A atividade de **[!UICONTROL Deduplication]** permite excluir duplicados no(s) resultado(s) das atividades de entrada.
 
-## Contexto de utilização {#context-of-use}
+## Contexto de uso {#context-of-use}
 
-A **[!UICONTROL Deduplication]** atividade é geralmente usada após atividades de definição de metas ou após a importação de um arquivo e antes das atividades que permitem o uso de dados direcionados.
+A atividade **[!UICONTROL Deduplication]** é geralmente usada após atividades de direcionamento ou após a importação de um arquivo e antes de atividades que permitem o uso de dados direcionados.
 
-Durante o desduplicação-duplicado, as transições de entrada são processadas separadamente. Por exemplo, se o perfil &#39;A&#39; estiver presente no resultado do query 1 e também no resultado do query 2, ele não será desduplicado.
+Durante a desduplicação, as transições de entrada são processadas separadamente. Por exemplo, se o perfil “A” estiver presente no resultado da consulta 1 e também no resultado da consulta 2, ele não será desduplicado.
 
-Por conseguinte, é aconselhável que um desduplicação-duplicado tenha apenas uma transição de entrada. Para fazer isso, você pode combinar seus diferentes query usando atividades que correspondam às suas necessidades de direcionamento, como uma atividade de união, uma atividade de interseção etc. Por exemplo:
+Por conseguinte, é aconselhável que uma desduplicação tenha somente uma transição de entrada. Para fazer isso, combine as consultas usando atividades que correspondam às suas necessidades de direcionamento, como uma atividade de união, uma atividade de intersecção etc. Por exemplo:
 
 ![](assets/dedup_bonnepratique.png)
 
@@ -46,31 +46,31 @@ Por conseguinte, é aconselhável que um desduplicação-duplicado tenha apenas 
 
 ## Configuração {#configuration}
 
-Para configurar uma atividade desduplicação-duplicada, é necessário inserir um rótulo, o método e os critérios desduplicação-duplicados, bem como as opções relacionadas ao resultado.
+Para configurar uma atividade de desduplicação, é necessário inserir um rótulo, o método e os critérios de desduplicação, bem como as opções relacionadas ao resultado.
 
-1. Arraste e solte uma **[!UICONTROL Deduplication]** atividade no seu fluxo de trabalho.
-1. Selecione a atividade e abra-a usando o ![](assets/edit_darkgrey-24px.png) botão das ações rápidas que aparecem.
+1. Arraste e solte uma atividade **[!UICONTROL Deduplication]** no seu fluxo de trabalho.
+1. Selecione e abra a atividade usando o botão ![](assets/edit_darkgrey-24px.png) das ações rápidas exibidas.
 
    ![](assets/deduplication_1.png)
 
-1. Selecione o **[!UICONTROL Resource type]** objeto do desduplicação-duplicado:
+1. Selecione o **[!UICONTROL Resource type]** no qual a desduplicação será realizada:
 
-   * **[!UICONTROL Database resource]** se o desduplicação-duplicado for realizado com dados que já existem na base de dados. Selecione o **[!UICONTROL Filtering dimension]** e o **[!UICONTROL Targeting dimension]**, dependendo dos dados que você deseja desduplicar. Por padrão, é desduplicação-duplicado nos **perfis**.
-   * **[!UICONTROL Temporary resource]** se o desduplicação-duplicado for executado nos dados temporários do fluxo de trabalho: selecione os dados **[!UICONTROL Targeted set]** que contêm os dados a serem desduplicados. Esse caso de uso pode ser encontrado após a importação de um arquivo ou se os dados no banco de dados foram enriquecidos (com um código de segmento, por exemplo).
+   * **[!UICONTROL Database resource]** se a desduplicação for realizada com dados que já existem na base de dados. Selecione a **[!UICONTROL Filtering dimension]** e a **[!UICONTROL Targeting dimension]**, dependendo dos dados que deseja desduplicar. Por padrão, a desduplicação é realizada nos **perfis**.
+   * **[!UICONTROL Temporary resource]** se a desduplicação for realizada nos dados temporários do fluxo de trabalho: selecione o **[!UICONTROL Targeted set]** que contenha os dados que serão desduplicados. Esse caso de uso pode ser encontrado após a importação de um arquivo ou se os dados no banco de dados foram enriquecidos (com um código de segmento, por exemplo).
 
-1. Selecione o **[!UICONTROL Number of unique records to keep]**. O valor padrão para esse campo é 1. O valor 0 permite manter todos os duplicados.
+1. Selecione **[!UICONTROL Number of unique records to keep]**. O valor padrão para esse campo é 1. O valor 0 permite manter todas as duplicatas.
 
-   Por exemplo, se os registros A e B forem considerados duplicados do registro Y e um registro C for considerado um duplicado do registro Z:
+   Por exemplo, se os registros A e B forem considerados duplicatas do registro Y, e um registro C for considerado uma duplicata do registro Z:
 
-   * Se o valor do campo for 1: apenas os registros Y e Z são mantidos.
+   * Se o valor do campo for 1: somente os registros Y e Z são mantidos.
    * Se o valor do campo for 0: todos os registros são mantidos.
-   * Se o valor do campo for 2: os registros C e Z são mantidos e dois registros de A, B e Y são mantidos, por acaso ou em função do método desduplicação-duplicado selecionado posteriormente.
+   * Se o valor do campo for 2: os registros C e Z são mantidos. Os dois registros de A, B e Y são mantidos por acaso ou dependendo do método de desduplicação selecionado posteriormente.
 
-1. Defina os **[!UICONTROL Duplicate identification]** critérios adicionando condições na lista fornecida. Especifique os campos e/ou expressões cujos valores idênticos permitem a identificação dos duplicados: endereço de email, nome, sobrenome etc. A ordem das condições permite que você especifique as condições para serem processadas primeiro.
-1. Na lista suspensa, selecione a opção **[!UICONTROL Deduplication method]** a ser usada:
+1. Defina os critérios de **[!UICONTROL Duplicate identification]** adicionando condições na lista fornecida. Especifique os campos e/ou expressões cujos valores idênticos permitem a identificação dos duplicados: endereço de email, nome, sobrenome etc. A ordem das condições permite especificar os que devem ser processados primeiro.
+1. Na lista suspensa, selecione o **[!UICONTROL Deduplication method]** que será usado:
 
-   * **[!UICONTROL Choose for me]**: seleciona aleatoriamente o registro a ser mantido fora das duplicatas.
-   * **[!UICONTROL Following a list of values]**: permite definir uma prioridade de valor para um ou mais campos. Para definir os valores, selecione um campo ou crie uma expressão e adicione o(s) valor(s) à tabela apropriada. Para definir um novo campo, clique no botão **[!UICONTROL Add]** localizado acima da lista de valores.
+   * **[!UICONTROL Choose for me]**: seleciona aleatoriamente o registro que será mantido fora das duplicatas.
+   * **[!UICONTROL Following a list of values]**: permite definir uma prioridade de valor para um ou mais campos. Para definir os valores, selecione um campo ou crie uma expressão e adicione o(s) valor(es) à tabela apropriada. Para definir um novo campo, clique no botão **[!UICONTROL Add]** localizado acima da lista de valores.
 
       ![](assets/deduplication_2.png)
 
@@ -78,9 +78,9 @@ Para configurar uma atividade desduplicação-duplicada, é necessário inserir 
 
       ![](assets/deduplication_3.png)
 
-   * **[!UICONTROL Using an expression]**: isso permite manter os registros nos quais o valor da expressão inserida é o menor ou o maior.
+   * **[!UICONTROL Using an expression]**: permite manter os registros nos quais o valor da expressão inserida é o menor ou o maior.
 
       ![](assets/deduplication_4.png)
 
 1. Se necessário, gerencie as [Transições](../../automating/using/activity-properties.md) de atividade para acessar as opções avançadas para a população de saída.
-1. Confirme a configuração da atividade e salve o fluxo de trabalho.
+1. Confirme a configuração da sua atividade e salve o fluxo de trabalho.
