@@ -12,7 +12,7 @@ discoiquuid: 4d51229a-745a-4f24-b1c2-22fa203b499c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 # Enviar notificações internas{#sending-internal-notifications}
 
-O Adobe Campaign oferece a possibilidade de receber notificações relacionadas a atividades importantes do sistema diretamente no aplicativo. As notificações em tempo real mantêm as partes interessadas relevantes informadas e fornecem aos usuários a capacidade de agir imediata e diretamente nas notificações de atividade no aplicativo. O resultado para as equipes é agilidade avançada, eficiência e execução mais suave do campanha.
+A Adobe Campaign oferece a possibilidade de receber notificações relacionadas a atividades importantes do sistema diretamente no aplicativo. As notificações em tempo real mantêm as partes interessadas relevantes informadas e fornecem aos usuários a capacidade de agir imediata e diretamente nas notificações de atividade no aplicativo. O resultado para as equipes é agilidade avançada, eficiência e execução mais suave do campanha.
 
 ![](assets/pulse_3.png)
 
