@@ -13,7 +13,7 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e1a0bea0a0b43b20830ffdb58c0b53d1ff1e36a
+source-git-commit: 08513f960eb28f50e89e86e3130cf40c38e9a63e
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 1%
