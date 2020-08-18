@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Ajuda do Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 95a7397092f6e07c84967d90908469f630f7a170
+source-git-commit: b9fbcbd7d6ea206ae3ed1faca89f4000052f97dc
 workflow-type: tm+mt
 source-wordcount: '1564'
 ht-degree: 88%
@@ -136,13 +136,13 @@ ht-degree: 88%
    + [Introdução a testes e envios](sending/using/get-started-sending-messages.md)
    + Preparação e teste de mensagens {#preparing-and-testing-messages}
       + [Pré-visualização de delivery](sending/using/previewing-messages.md)
-      + [Preparação do envio](sending/using/preparing-the-send.md)
       + [Envio de provas](sending/using/sending-proofs.md)
       + [Testar mensagens de email usando perfis direcionados](sending/using/testing-messages-using-target.md)
       + [Teste da linha de assunto de um email](sending/using/testing-subject-line-email.md)
       + [E-mails com alimentação AI](sending/using/predictive.md)
       + [Renderização de email](sending/using/email-rendering.md)
       + [Uso de traps](sending/using/using-traps.md)
+      + [Preparação do envio](sending/using/preparing-the-send.md)
    + Agendamento de mensagens {#scheduling-messages}
       + [Sobre a programação de mensagens](sending/using/about-scheduling-messages.md)
       + [Otimização do tempo de envio](sending/using/optimizing-the-sending-time.md)
@@ -310,7 +310,7 @@ ht-degree: 88%
          + [Criar uma entrega semanal](automating/using/workflow-weekly-offer.md)
          + [Criação de uma entrega entre canais](automating/using/workflow-cross-channel-delivery.md)
          + [Identificação de duplicados antes de um delivery](automating/using/identifying-duplicated-before-delivery.md)
-         + [delivery de aniversário](automating/using/birthday-delivery.md)
+         + [Delivery de aniversário](automating/using/birthday-delivery.md)
          + [Conexão de delivery de email e de mala direta](automating/using/coupling-email-direct-mail.md)
          + [Envio de um email com campos aprimorados](automating/using/sending-email-enriched-fields.md)
          + [Personalização de um email com dados adicionais](automating/using/personalizing-email-with-additional-data.md)
@@ -328,7 +328,7 @@ ht-degree: 88%
          + [Reconciliar uma audiência de arquivo com o banco de dados](automating/using/reconcile-file-audience-with-database.md)
          + [Desduplicando os dados de um arquivo importado](automating/using/deduplicating-data-imported-file.md)
          + [Enriquecendo os dados do perfil com os dados contidos em um arquivo](automating/using/enriching-profile-data-file.md)
-         + [atividade de sinal externo e importação de dados](automating/using/external-signal-data-import.md)
+         + [Atividade de sinal externo e importação de dados](automating/using/external-signal-data-import.md)
          + [Atualização do banco de dados com dados externos](automating/using/update-database-file.md)
          + [Atualização de dados com base em um download automático de arquivo](automating/using/update-data-automatic-download.md)
          + [Reconciliação de dados usando relações](automating/using/reconciliation-using-relations.md)
