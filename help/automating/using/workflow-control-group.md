@@ -13,10 +13,10 @@ context-tags: workflow,use-case,query,segmentation,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+source-git-commit: 73a91344ada17d6eb0da0335e08ea27a1019b4fb
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 4%
+source-wordcount: '757'
+ht-degree: 16%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 4%
 
 Para medir o impacto de um delivery, é possível excluir alguns perfis do público alvo para que eles não recebam determinada mensagem. Este grupo de controle pode ser usado para fazer uma comparação com o comportamento da população do público alvo que recebeu a mensagem.
 
-Para fazer isso no Adobe Campaign Standard, crie um fluxo de trabalho que inclua as seguintes atividades:
+Para fazer isso no Adobe Campaign Standard, é possível criar um fluxo de trabalho que inclua as seguintes atividades:
 * Uma atividade [Query](../../automating/using/query.md) para público alvo de uma determinada população.
 * Uma atividade de [segmentação](../../automating/using/segmentation.md) para isolar um grupo de controle aleatório dessa população.
 * Uma atividade de delivery [de e-](../../automating/using/email-delivery.md) mail para enviar uma mensagem ao público alvo principal.
@@ -48,28 +48,28 @@ Primeiro, é necessário estender o **[!UICONTROL Profile]** recurso com um novo
    ![](assets/wkf_control-group-profile-field-screen.png)
 
 1. Salve as alterações.
-1. Atualize a estrutura do banco de dados para publicar o recurso **[!UICONTROL Profile]** estendido. Consulte [Publicação de um recurso](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)personalizado.
+1. Atualize a estrutura do banco de dados para publicar o recurso **[!UICONTROL Profile]** estendido. See [Publishing a custom resource](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
 Para obter mais informações sobre como estender um recurso personalizado, consulte Etapas [principais para adicionar um recurso](../../developing/using/key-steps-to-add-a-resource.md).
 
 ## Criação de um workflow {#creating-a-workflow}
 
-1. Em **[!UICONTROL Marketing Activities]**, clique **[!UICONTROL Create]** e selecione **[!UICONTROL Workflow]**.
+1. Em **[!UICONTROL Marketing Activities]**, clique em **[!UICONTROL Create]** e selecione **[!UICONTROL Workflow]**.
 1. Selecione **[!UICONTROL New Workflow]** como tipo de fluxo de trabalho e clique em **[!UICONTROL Next]**.
 1. Insira as propriedades do fluxo de trabalho e clique em **[!UICONTROL Create]**.
 
-As etapas detalhadas para criar um fluxo de trabalho são apresentadas na seção [Criação de um fluxo de trabalho](../../automating/using/building-a-workflow.md) .
+As etapas detalhadas para criar um fluxo de trabalho são apresentadas na seção [Criação de um fluxo de trabalho](../../automating/using/building-a-workflow.md).
 
-## Creating a Query activity {#create-a-query-activity}
+## Criação de uma atividade Query {#create-a-query-activity}
 
 1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arraste e solte uma atividade de [Query](../../automating/using/query.md) .
-1. Clique na atividade com o Duplo para definir seu público alvo.
+1. Clique na atividade com o duplo para definir seu público alvo.
 1. Por exemplo, em **[!UICONTROL Shortcuts]**, arraste e solte **[!UICONTROL Profile]**, selecione **[!UICONTROL Age]** com o operador **[!UICONTROL Greater than]** e digite 25 no **[!UICONTROL Value]** campo.
 1. Clique em **[!UICONTROL Confirm]**.
 
 ## Criação de uma atividade de segmentação {#creating-a-segmentation-activity}
 
-1. Arraste e solte uma atividade de [segmentação](../../automating/using/segmentation.md) e clique com o duplo nele.
+1. Drag and drop a [Segmentation](../../automating/using/segmentation.md) activity and double-click it.
 1. Na **[!UICONTROL Segments]** guia, selecione um segmento para editar.
 1. Na **[!UICONTROL Configuration]** guia desse segmento, selecione a **[!UICONTROL Limit the population of this segment]** opção.
 
@@ -89,20 +89,20 @@ As etapas detalhadas para criar um fluxo de trabalho são apresentadas na seçã
 ## Creating an Email activity {#creating-an-email-activity}
 
 1. Em **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, arraste e solte uma atividade de delivery [de e-](../../automating/using/email-delivery.md) mail após o segmento principal do público alvo.
-1. Clique na atividade e selecione ![](assets/edit_darkgrey-24px.png) para editá-la.
+1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit it.
 1. Selecione **[!UICONTROL Single send email]** e clique em **[!UICONTROL Next]**.
-1. Selecione um modelo de email e clique em **[!UICONTROL Next]**.
+1. Selecione um template de email e clique em **[!UICONTROL Next]**.
 1. Insira as propriedades do email e clique em **[!UICONTROL Next]**.
-1. Para criar o layout do seu email, clique em **[!UICONTROL Use the Email Designer]**.
-1. Edite e salve seu conteúdo.
-1. Na **[!UICONTROL Schedule]** seção do painel de mensagem, desmarque a opção **[!UICONTROL Request confirm antes de enviar mensagens}** .
+1. Para criar o layout do email, clique em **[!UICONTROL Use the Email Designer]**.
+1. Edite e salve o conteúdo.
+1. Na **[!UICONTROL Schedule]** seção do painel de mensagem, desmarque a opção **[!UICONTROL Request confirmation before sending messages]** .
 
 ## Criando uma atividade de dados de atualização {#creating-update-data-activity}
 
 1. Arraste e solte uma atividade [Atualizar dados](../../automating/using/update-data.md) após o segmento do grupo de controle.
-1. Selecione a atividade e abra-a usando o ![](assets/edit_darkgrey-24px.png) botão das ações rápidas que aparecem.
+1. Selecione e abra a atividade usando o botão ![](assets/edit_darkgrey-24px.png) das ações rápidas exibidas.
 1. Na guia **[!UICONTROL General]**, selecione **[!UICONTROL Update]** na lista suspensa **[!UICONTROL Operation type]**.
-1. Na **[!UICONTROL Identification]** guia, selecione a **[!UICONTROL Directly using the targeting dimension]** opção.
+1. Na guia **[!UICONTROL Identification]**, selecione a opção **[!UICONTROL Directly using the targeting dimension]**. 
 1. Selecione o **[!UICONTROL Profile]** recurso que você estendeu anteriormente como a dimensão a ser atualizada.
 
    ![](assets/wkf_control-update-identification.png)
