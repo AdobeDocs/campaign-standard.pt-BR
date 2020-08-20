@@ -1,5 +1,5 @@
 ---
-title: delivery entre canais
+title: Delivery entre canais
 description: Este caso de uso mostra como criar um delivery entre canais
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
@@ -13,10 +13,10 @@ context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+source-git-commit: 73a91344ada17d6eb0da0335e08ea27a1019b4fb
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 86%
+source-wordcount: '856'
+ht-degree: 85%
 
 ---
 
@@ -138,7 +138,7 @@ Para criar um delivery de email:
 1. Insira as propriedades do email e clique em **[!UICONTROL Next]**.
 1. Para criar o layout do email, selecione **[!UICONTROL Use the Email Designer]**.
 1. Edite e salve o conteúdo.
-1. Na seção **[!UICONTROL Schedule]** do painel de mensagem, desmarque a opção **[!UICONTROL Solicitar confirmação antes de enviar mensagens}**.
+1. Na **[!UICONTROL Schedule]** seção do painel de mensagem, desmarque a opção **[!UICONTROL Request confirmation before sending messages]** .
 
 Para criar um delivery de SMS:
 
