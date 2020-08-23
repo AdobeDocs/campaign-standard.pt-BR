@@ -12,9 +12,9 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b04a5efdde3153d3ede0ad8bc4f56cd4a5fa1df
+source-git-commit: 762700893c913d9aea884d00438c84b39a800188
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '812'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ Consulte a tabela abaixo para saber mais sobre esses recursos.
 
 ![](assets/faq.png)
 
->[!NNota]
+>[!NOTE]
 >
 >[!DNL Places] a integração inclui eventos de local como acionadores para mensagens no aplicativo (N/A para notificações por push), enriquecendo perfis com suporte a notificações locais e [!DNL Places] dados. Refer to this [page](../../channels/using/preparing-and-sending-an-in-app-message.md) for more information. <br>[!DNL Places] a integração limitada inclui perfis enriquecedores com [!DNL Places] dados.
 
@@ -87,7 +87,7 @@ Para isso, siga as etapas abaixo:
 
 O objetivo da chamada CollectPII é enriquecer o Perfil móvel na Campanha. Ele deve ser acionado sempre que houver novas informações significativas que os clientes queiram adicionar ao perfil, dependendo de seus casos de uso e das necessidades dos negócios.
 
-## As chamadas CollectPII podem ser acionadas em resposta a vários eventos de disparo? {#collect-pii-calls}
+## As chamadas CollectPII podem ser acionadas em resposta a vários eventos acionadores? {#collect-pii-calls}
 
 Sim. Dependendo das necessidades de sua empresa, você pode acionar chamadas CollectPII em resposta ao logon do usuário no aplicativo, ou comprar algo ou evento do ciclo de vida ou o usuário inserir uma geofence etc. Resumindo, uma interação do usuário com o aplicativo que gera informações que você deseja usar para o Perfil.
 
