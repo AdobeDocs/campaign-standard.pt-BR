@@ -12,9 +12,9 @@ discoiquuid: 3752d41f-8c59-4fad-b30f-e98e09cd74a8
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e2303055b3370efab204adbdb1b9f567a555a23f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '2331'
 ht-degree: 100%
 
@@ -240,7 +240,7 @@ A seção **[!UICONTROL Validity period]** contém os seguintes parâmetros:
 
 >[!NOTE]
 >
->O parâmetro **[!UICONTROL Delivery duration]** não se aplica a mensagens transacionais. Para obter mais informações, consulte [esta seção](../../channels/using/about-transactional-messaging.md).
+>O parâmetro **[!UICONTROL Delivery duration]** não se aplica a mensagens transacionais. Para obter mais informações, consulte [esta seção](../../channels/using/getting-started-with-transactional-msg.md).
 
 ### Parâmetros de rastreamento {#tracking-parameters}
 
