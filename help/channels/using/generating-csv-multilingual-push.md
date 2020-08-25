@@ -1,6 +1,6 @@
 ---
-title: Geração de um arquivo CSV para Notificação por push multilíngue com o Campaign Standard
-description: Fazer upload de um arquivo CSV para gerar conteúdo para entrega é um recurso usado para suportar notificações por push multilíngues.
+title: Gerando um arquivo CSV para Notificação por push multilíngue com Campaign Standard
+description: Fazer upload de um arquivo CSV para gerar conteúdo para o delivery é um recurso usado para suportar notificações por push multilíngues.
 page-status-flag: never-activated
 uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
 contentOwner: sauviat
@@ -12,14 +12,17 @@ discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c6df07dd78de6b15971937d574429d3ba5dc1a15
+source-git-commit: 772393c135b96374cb510a3d96e3c781274e857e
+workflow-type: tm+mt
+source-wordcount: '1127'
+ht-degree: 0%
 
 ---
 
 
 # Gerando um arquivo CSV para Notificação por push multilíngue{#generating-csv-multilingual-push}
 
-Fazer upload de um arquivo CSV para gerar conteúdo para entrega é um recurso usado para suportar notificações por push multilíngues. O formato do arquivo CSV precisa seguir determinadas diretrizes para que o upload do arquivo seja bem-sucedido e, consequentemente, possa criar uma entrega. As seções a seguir descrevem o formato do arquivo e suas considerações.
+Fazer upload de um arquivo CSV para gerar conteúdo para o delivery é um recurso usado para suportar notificações por push multilíngues. O formato do arquivo CSV precisa seguir determinadas diretrizes para que o upload do arquivo seja bem-sucedido e, consequentemente, possa criar um delivery. As seções a seguir descrevem o formato do arquivo e suas considerações.
 
 ## Formato de arquivo {#file-format}
 
@@ -37,15 +40,15 @@ O envio multilíngue requer 14 colunas no arquivo CSV:
 * isMutableContent
 * customFields
 * locale
-* linguagem
+* language
 * silentPush
 
 ![](assets/multilingual_push_1.png)
 
 Verifique a amostra CSV clicando **[!UICONTROL Download a sample file]** na janela **[!UICONTROL Manage Content Variants]** . For more on this, refer to the this [section](../../channels/using/creating-a-multilingual-push-notification.md).
 
-* **título, messageBody, som, emblema, deeplinkURI, categoria, iosMediaAttachmentURL, androidMediaAttachmentURL**: conteúdo regular da carga de push. É necessário fornecer essas informações de maneira semelhante à criação de entregas por push.
-* **Campos** personalizados:  use o formato JSON para os campos personalizados, por exemplo&quot;{&quot;&quot;key1&quot;&quot;:&quot;&quot;value1&quot;&quot;,&quot;&quot;key2&quot;&quot;:&quot;&quot;value2&quot;}&quot;. Consulte o arquivo de amostra acima para ver um exemplo de campos personalizados.
+* **título, messageBody, som, emblema, deeplinkURI, categoria, iosMediaAttachmentURL, androidMediaAttachmentURL**: conteúdo regular da carga de push. É necessário fornecer essas informações de maneira semelhante à criação de delivery de push.
+* **Campos** personalizados:  use o formato JSON para os campos personalizados, por exemplo, `{"key1":"value1","key2":"value2"}`. Consulte o arquivo de amostra acima para ver um exemplo de campos personalizados.
 * **isContentAvailable**: sinalizador para verificação de Conteúdo disponível, valor 1 implica true, valor 0 implica false. O valor padrão é 0. Se deixar essa coluna em branco, o valor será considerado 0.
 * **isMutableContent**: sinalizador para Conteúdo variável, valor 1 implica true, valor 0 implica false. O valor padrão é 0. Se deixar essa coluna em branco, o valor será considerado 0.
 * **localidade**: locale é o campo para variantes de idioma, por exemplo, &quot;pt_br&quot; para inglês dos EUA e &quot;fr_fr&quot; para francês.
@@ -68,11 +71,11 @@ Um valor em branco para esta coluna resultará em uma falha no carregamento do a
 
 **Se você gerar o arquivo por texto simples, separe cada coluna por &quot;,&quot;.**
 
-**Incompatibilidade de variável.** Se você usar o bloco de conteúdo e o público-alvo com idiomas específicos, será necessário listar cada idioma direcionado no arquivo CSV ou ocorrerá um erro ao enviar a entrega.
+**Variante Incompatível.** Se você usar audiências de blocos de conteúdo e públicos alvos com idiomas específicos, precisará lista de cada idioma direcionado no arquivo CSV ou aparecerá um erro ao enviar o delivery.
 
 ## Inserção do campo de personalização no arquivo csv {#personalization-field-csv}
 
-Se você quiser usar campos de personalização, inclua <span> uma tag no arquivo.
+Se quiser usar campos de personalização, inclua <span> uma tag no arquivo.
 
 Para inserir o campo de personalização &quot;firstName&quot; em messageBody, a mensagem precisa ser:
 
@@ -86,7 +89,7 @@ O campo &quot;firstName&quot; é representado por:
  <span class="nl-dce-field nl-dce-done" data-nl-expr="/context/profile/firstName">First name</span>
 ```
 
-Há dois atributos obrigatórios:
+No intervalo, há dois atributos obrigatórios:
 
 * Uma é a classe que é estática. Não importa qual campo de personalização você planeja usar, ele sempre será class=&quot;nl-dce-field nl-dce-done&quot;.
 
@@ -102,7 +105,7 @@ Há dois atributos obrigatórios:
 
 Os seguintes idiomas são suportados:
 
-| locale | linguagem |
+| locale | language |
 |:-:|:-:|
 | af_za | Afrikaans - África do Sul |
 | sq_al | Albanês - Albânia |
@@ -125,8 +128,8 @@ Os seguintes idiomas são suportados:
 | az_az | Azeri - Azerbaijão |
 | be_by | Bielorrússia - Bielorrússia |
 | bs_ba | Bósnio - Bósnia |
-| bg_bg | Búlgaro - Bulgária |
-| ca_es | Catalão - Espanha |
+| bg_bg | Túnel - Bulgária |
+| localidade | Catalão - Espanha |
 | zh_cn | Chinês (Simplificado) - China |
 | zh_sg | Chinês (simplificado) - Cingapura |
 | zh_hk | Chinês (Tradicional) - RAE de Hong Kong da China |
@@ -134,16 +137,16 @@ Os seguintes idiomas são suportados:
 | hr_hr | Croata - Croácia |
 | cs_cz | Tcheco - Tcheco |
 | da_dk | Dinamarquês - Dinamarca |
-| nl_be | Holandês - Bélgica |
+| nl_be | echner - Bélgica |
 | nl_nl | Holandês - Países Baixos |
 | en_au | Inglês - Austrália |
 | en_bz | Inglês - Belize |
-| en_ca | Inglês - Canadá |
-| en_in | Inglês - Índia |
+| en_ca | en - Canadá |
+| Inglês_in | Inglês - Índia |
 | en_ie | Inglês - Irlanda |
 | en_jm | Inglês - Jamaica |
 | en_nz | Inglês - Nova Zelândia |
-| en_ph | Inglês - Filipinas |
+| _ph | Inglês - Filipinas |
 | en_za | Inglês - África do Sul |
 | en_tt | Inglês - Trinidad e Tobago |
 | en_gb | Inglês - Reino Unido |
@@ -185,22 +188,22 @@ Os seguintes idiomas são suportados:
 | pt_pt | Português - Portugal |
 | pa_in | Punjabi - Índia |
 | ro_md | Romeno - Moldávia |
-| ro_ro | Romeno - Romênia |
+| ro_ro | _Romeno - Romênia |
 | ru_kz | Russo - Cazaquistão |
-| ru_ru | Russo - Rússia |
-| ru_ua | Russo - Ucrânia |
-| a_in | Sânscrito - Índia |
-| sr_ba | Sérvio - Bósnia |
+| ru_ru | l. Russo - Rússia |
+| ru_ua | es. Russo - Ucrânia |
+| Russo_in | Sânscrito - Índia |
+| cr_ba | Sérvio - Bósnia |
 | sr_rs | Sérvio - Sérvia |
 | sk_sk | Eslovaco - Eslováquia |
 | sl_si | Esloveno - Eslovênia |
 | es_ar | Espanhol - Argentina |
 | es_bo | Espanhol - Bolívia |
 | es_cl | Espanhol - Chile |
-| es_co | Espanhol - Colômbia |
+| Romano_es | a espanhol - Colômbia |
 | es_cr | Espanhol - Costa Rica |
 | es_do | Espanhol - República Dominicana |
-| es_ec | Espanhol - Equador |
+| Esp_ec | Espanhol - Equador |
 | es_sv | Espanhol - El Salvador |
 | es_gt | Espanhol - Guatemala |
 | es_hn | Espanhol - Honduras |
@@ -208,7 +211,7 @@ Os seguintes idiomas são suportados:
 | es_ni | Espanhol - Nicarágua |
 | es_pa | Espanhol - Panamá |
 | es_py | Espanhol - Paraguai |
-| es_pe | Espanhol - Peru |
+| Panes_pe | Espanhol - Peru |
 | es_pr | Espanhol - Porto Rico |
 | es_es | Espanhol - Espanha |
 | es_uy | Espanhol - Uruguai |
@@ -218,8 +221,8 @@ Os seguintes idiomas são suportados:
 | sv_se | Sueco - Suécia |
 | ta_in | Tamil - Índia |
 | tt_ru | Tártaro - Russo |
-| te_in | Telugu - Índia |
-| th_th | Tailandês - Tailândia |
+| Sujeita_in | Telugu - Índia |
+| Tailândia_th | se |
 | tr_cy | Turco - Chipre |
 | tr_tr | Turco - Turquia |
 | uk_ua | Ucraniano - Ukrain |
