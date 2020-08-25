@@ -11,9 +11,9 @@ topic-tags: managing-subscriptions
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '1322'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Ao configurá-la a partir do serviço, a mensagem transacional de confirmação 
 
 ### Etapa 1: criar o email de confirmação {#step-1--create-the-confirmation-email-1}
 
-Um email de confirmação será enviado automaticamente para cada perfil que assinar o informativo (em uma landing page ou por qualquer outro meio). A assinatura é considerada um evento, e o email é uma [mensagem transacional](../../channels/using/about-transactional-messaging.md) que direcionará cada perfil que assinar o serviço.
+Um email de confirmação será enviado automaticamente para cada perfil que assinar o informativo (em uma landing page ou por qualquer outro meio). A assinatura é considerada um evento, e o email é uma [mensagem transacional](../../channels/using/getting-started-with-transactional-msg.md) que direcionará cada perfil que assinar o serviço.
 
 As etapas para criar o email de confirmação são descritas abaixo. Como a mensagem transacional será especificada no serviço, é necessário criá-la primeiro.
 
@@ -135,13 +135,13 @@ Na referência à mensagem de confirmação da landing page, uma mensagem será 
 
 ### Etapa 1: criar o email de confirmação {#step-1--create-the-confirmation-email-2}
 
-Um email de confirmação será enviado automaticamente para cada perfil que assinar o informativo em uma landing page. A assinatura é considerada um evento, e o email é uma [mensagem transacional](../../channels/using/about-transactional-messaging.md) que direcionará cada perfil que assinar o serviço.
+Um email de confirmação será enviado automaticamente para cada perfil que assinar o informativo em uma landing page. A assinatura é considerada um evento, e o email é uma [mensagem transacional](../../channels/using/getting-started-with-transactional-msg.md) que direcionará cada perfil que assinar o serviço.
 
 As etapas para criar esses elementos estão descritas abaixo. Como a mensagem transacional será especificada na landing page, é necessário criá-la primeiro.
 
 #### Criar o evento {#create-the-event-2}
 
-O email de confirmação é uma [mensagem transacional](../../channels/using/about-transactional-messaging.md), pois reage a um evento: a assinatura de um serviço. Ela será enviada para confirmar a assinatura no seu informativo.
+O email de confirmação é uma [mensagem transacional](../../channels/using/getting-started-with-transactional-msg.md), pois reage a um evento: a assinatura de um serviço. Ela será enviada para confirmar a assinatura no seu informativo.
 
 1. Crie um evento no menu **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**, acessível pelo logotipo do Adobe Campaign.
 1. Insira um rótulo, selecione um targeting dimension e clique em **[!UICONTROL Create]**.
