@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+source-git-commit: fe9b2156a80f973045a2a7860dac4ac3a1d899e7
 workflow-type: tm+mt
 source-wordcount: '2478'
 ht-degree: 100%
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 Você pode enviar mensagens transacionais de eventos direcionadas a um evento. Esse tipo de mensagem transacional não contém informações de perfil: o público-alvo do delivery é definido pelos dados contidos no próprio evento.
 
-Depois de criar e publicar um evento (o abandono do carrinho, conforme explicado [nesta seção](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle)), a mensagem transacional correspondente é criada automaticamente.
+Depois de criar e publicar um evento (o abandono do carrinho, conforme explicado [nesta seção](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)), a mensagem transacional correspondente é criada automaticamente.
 
 As etapas de configuração são apresentadas na seção [Configuração de um evento para enviar uma mensagem transacional](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
