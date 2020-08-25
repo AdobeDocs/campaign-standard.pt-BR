@@ -1,5 +1,5 @@
 ---
-title: Introdução aos canais de comunicação
+title: Introdução a canais de comunicação
 description: Saiba como enviar mensagens personalizadas em vários canais e criar campanhas entre canais para melhor público alvo de seus recipient.
 page-status-flag: never-activated
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
@@ -12,26 +12,26 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 14%
+source-wordcount: '526'
+ht-degree: 17%
 
 ---
 
 
-# Introdução aos canais de comunicação {#discovering-communication-channels}
+# Introdução a canais de comunicação {#discovering-communication-channels}
 
 <table>
 <tr>
 <td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><p><a href="#global-concepts">Conceitos globais</a></p></td>
 <td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#available-communication-channels">Canais de comunicação</a></p></td>
 <td><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><p><a href="#transactional-messages">Mensagens transacionais</a></p></td>
-<td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">Páginas de aterrissagem</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">Landing pages</a></p></td></tr>
 </table>
 
-O Adobe Campaign permite que você inicie, meça e automatize campanhas em todos os canais.
-Harmonizar todos os seus canais de marketing não é uma tarefa impossível. Com a ajuda do Adobe Campaign, você pode trazer dados do cliente de diferentes sistemas, dispositivos e canais para um único perfil. Em seguida, forneça campanhas oportunas e relevantes que atendam aos seus clientes nos locais certos e da maneira certa ao longo de sua jornada com os clientes.
+A Adobe Campaign permite que você inicie, meça e automatize campanhas em todos os canais.
+Harmonizar todos os seus canais de marketing não é uma tarefa impossível. Com a ajuda da Adobe Campaign, você pode transferir dados do cliente de diferentes sistemas, dispositivos e canais para um único perfil. Em seguida, forneça campanhas oportunas e relevantes que atendam aos seus clientes nos locais certos e da maneira certa ao longo de sua jornada com os clientes.
 
 ## Conceitos globais {#global-concepts}
 
@@ -46,14 +46,14 @@ Leia mais:
 * [Etapas principais para enviar uma mensagem](../../channels/using/key-steps-to-send-a-message.md)
 * [Acessar mensagens](../../channels/using/accessing-messages.md)
 * [Painel de mensagens](../../channels/using/message-dashboard.md)
-* [Modelos de mensagens multilíngues](../../channels/using/multilingual-messages-template.md)
-* [Modelos de atividades de marketing](../../start/using/marketing-activity-templates.md)
+* [Templates de mensagens multilíngues](../../channels/using/multilingual-messages-template.md)
+* [Templates de atividades de marketing](../../start/using/marketing-activity-templates.md)
 
 ## Canais de comunicação {#available-communication-channels}
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**Cinco canal** de comunicação estão disponíveis no Adobe Campaign: Email, mensagem SMS, notificação por push, mensagem no aplicativo e delivery de mala direta.
+**Cinco canais** de comunicação estão disponíveis no Adobe Campaign: Email, mensagem SMS, notificação por push, mensagem no aplicativo e delivery de mala direta.
 
 Para cada canal, estão disponíveis funcionalidades específicas. Por exemplo, o canal de e-mail permite que você realize um teste A/B para testar até 3 versões de uma mensagem de e-mail. Com o canal SMS, gerencie mensagens SMS STOP e armazene SMS recebidos dos recipient no banco de dados.
 
@@ -77,33 +77,34 @@ Mensagens transacionais estão disponíveis para canais de email, SMS e notifica
 
 Leia mais:
 
-* [Sobre mensagens transacionais](../../channels/using/about-transactional-messaging.md)
+* [Sobre mensagens transacionais](../../channels/using/getting-started-with-transactional-msg.md)
+* [Introdução às mensagens transacionais](../../channels/using/getting-started-with-transactional-msg.md)
 * [Mensagens transacionais de evento](../../channels/using/event-transactional-messages.md)
 * [Mensagens transacionais de perfil](../../channels/using/profile-transactional-messages.md)
 * [Notificações por push transacionais](../../channels/using/transactional-push-notifications.md)
 * [Mensagens de acompanhamento](../../channels/using/follow-up-messages.md)
 
-## Páginas de aterrissagem {#landing-pages}
+## Landing pages {#landing-pages}
 
 <img src="assets/do-not-localize/icon_landing.svg" width="60px">
 
-A Campanha vem com landings page que são formulários da Web que podem ser usados para **capturar informações em suas audiências**, oferta subscrições em um serviço, exibir dados e aumentar seu banco de dados.
+A campanha vem com landings page que são formulários da Web que podem ser usados para **capturar informações em suas audiências**, oferta subscrições em um serviço, exibir dados e aumentar seu banco de dados.
 
 O Landing page também pode ser usado para **adquirir ou atualizar perfis** existentes e para configurar um mecanismo de aceitação de duplo, permitindo que você proteja a plataforma contra endereços de email errados ou inválidos, ou spambots.
 
 Leia mais:
 
-* [Introdução às páginas de aterrissagem](../../channels/using/getting-started-with-landing-pages.md)
-* [Modelos de Landing page](../../channels/using/landing-page-templates.md)
-* [Gerenciamento de dados de formulário da página de aterrissagem](../../channels/using/managing-landing-page-form-data.md)
-* [Configurar um processo de participação dupla](../../channels/using/setting-up-a-double-opt-in-process.md)
+* [Introdução às landing pages](../../channels/using/getting-started-with-landing-pages.md)
+* [Templates de landing page](../../channels/using/landing-page-templates.md)
+* [Gerenciamento de dados de formulário de landing page](../../channels/using/managing-landing-page-form-data.md)
+* [Configuração de um processo duplo de aceitação](../../channels/using/setting-up-a-double-opt-in-process.md)
 
 ## Recursos adicionais
 
 * [Otimização da entrega](../../sending/using/about-deliverability.md)
 * [Práticas recomendadas para delivery](https://helpx.adobe.com/br/campaign/kb/delivery-best-practices.html)
 * [Criar um conteúdo de email](../../designing/using/designing-content-in-adobe-campaign.md)
-* [Importar um conteúdo do AEM](../../integrating/using/creating-email-experience-manager.md)
+* [Importação de um conteúdo AEM](../../integrating/using/creating-email-experience-manager.md)
 * [Envio de mensagens com workflows](../../automating/using/about-channel-activities.md)
 * [Vídeos do tutorial canais de comunicação](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
 * [Caso de uso: Criação de um delivery entre canais](../../automating/using/workflow-cross-channel-delivery.md)
