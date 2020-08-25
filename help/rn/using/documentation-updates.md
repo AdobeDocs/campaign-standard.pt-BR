@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: b588366b0697d9cf7aea77b7c9c8ec876b9e0579
 workflow-type: tm+mt
-source-wordcount: '6092'
+source-wordcount: '6119'
 ht-degree: 95%
 
 ---
@@ -24,13 +24,19 @@ ht-degree: 95%
 
 Além das [Notas de versão](../../rn/using/release-notes.md) do Adobe Campaign, esta página lista todas as atualizações na documentação do Adobe Campaign Standard.
 
+## Atualizações da documentação - Agosto de 2020 {#doc-updates-august-2020}
+
+Uma nova seção atualizada sobre como começar a usar mensagens transacionais está disponível. [Leia mais](../../channels/using/getting-started-with-transactional-msg.md)
+
+A seção Limitações de mensagens transacionais foi movida. [Leia mais](../../channels/using/transactional-messaging-limitations.md)
+
 ## Atualizações da documentação - Julho de 2020 {#doc-updates-july-2020}
 
 Uma nova seção foi adicionada com diretrizes relacionadas ao monitoramento de Campaign Standard. [Leia mais](../../administration/using/monitoring-guidelines.md)
 
 A seção Detalhes e limitações da API externa foi atualizada.[Leia mais](../../automating/using/external-api.md#guardrails)
 
-A página Visão geral do Gerenciamento de privacidade foi atualizada para incluir informações sobre a Lei de Proteção de Dados Pessoais (PDPA) da Tailândia e sobre a Lei Geral de Dados (LGPD) do Brasil. [Leia mais](https://helpx.adobe.com/br/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+A página Visão geral do gerenciamento de privacidade foi atualizada para incluir informações sobre a Lei de Proteção de Dados Pessoais (PDPA) da Tailândia e sobre a Lei Geral de Dados (LGPD) do Brasil. [Leia mais](https://helpx.adobe.com/br/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
 O guia do canal para portáteis foi reorganizado e melhorado. Um novo guia Configuração de canais móveis foi adicionado com documentação técnica sobre configuração móvel. [Leia mais](../../administration/using/push-tracking.md)
 
@@ -128,7 +134,7 @@ Uma nova seção que descreve como excluir uma configuração de evento está ag
 
 A página que descreve como testar a linha de assunto de um email para prever sua taxa de abertura foi atualizada e aprimorada. Inclui também uma nova seção de [solução de problemas](../../sending/using/testing-subject-line-email.md#troubleshooting). [Leia mais](../../sending/using/testing-subject-line-email.md)
 
-As seções de mensagens transacionais foram atualizadas para refletir as pequenas atualizações e aprimoramentos da interface de vários usuários. [Leia mais](../../channels/using/about-transactional-messaging.md)
+As seções de mensagens transacionais foram atualizadas para refletir as pequenas atualizações e aprimoramentos da interface de vários usuários. [Leia mais](../../channels/using/getting-started-with-transactional-msg.md)
 
 As informações relacionadas aos painéis de atividade da API externa foram atualizadas. [Leia mais](../../automating/using/external-api.md)
 
@@ -236,7 +242,7 @@ A lista de mensagens de erro do Campaign Standard e do Campaign Classic foi atua
 
 O guia de introdução ao GDPR foi melhorado e aprimorado. Agora se trata uma documentação de gerenciamento de privacidade, incluindo o GDPR e o CCPA. [Leia mais](https://helpx.adobe.com/content/help/br/campaign/kb/campaign-privacy.html)
 
-Um novo gráfico que apresenta o processo de publicação de mensagens transacionais foi adicionado. [Leia mais](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
+Um novo gráfico que apresenta o processo de publicação de mensagens transacionais foi adicionado. [Leia mais](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
 
 O guia de introdução às práticas recomendadas de delivery foi movido e atualizado. [Leia mais](https://helpx.adobe.com/br/campaign/kb/delivery-best-practices.html)
 
@@ -416,7 +422,7 @@ Melhorias no fluxo de trabalho - Leia mais [aqui](../../automating/using/workflo
 
 A nova experiência de integração para criar conteúdos de email e outras melhorias no Designer de email foram adicionadas ao capítulo Edição de conteúdo de email. [Leia mais](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
-Uma nova seção sobre limitações de Mensagens transacionais foi adicionada. [Leia mais](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
+Uma nova seção sobre limitações de Mensagens transacionais foi adicionada. [Leia mais](../../channels/using/transactional-messaging-limitations.md)
 
 Uma nova seção que compara as diferentes opções de criação de email no Adobe Campaign foi adicionada. [Leia mais](../../designing/using/using-integrations.md#email-design-options-comparison)
 
@@ -822,7 +828,7 @@ Várias capturas de tela foram atualizadas para refletir as alterações na inte
 
 Uma nova nota técnica agora está disponível: &quot;Integração do SDK móvel da Adobe com seu aplicativo para dispositivos móveis&quot;. [Leia mais](https://helpx.adobe.com/br/campaign/kb/integrate-mobile-sdk.html)
 
-Foram adicionadas instruções para configurar o serviço principal de pessoas ou a integração do Audience Manager com o Adobe Campaign. [Leia mais](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Foram adicionadas instruções para configurar o serviço principal de pessoas ou a integração de Audience Manager com o Adobe Campaign. [Leia mais](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 A tabela de autorizações foi revisada para esclarecer melhor certas funções. [Leia mais](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf
 
