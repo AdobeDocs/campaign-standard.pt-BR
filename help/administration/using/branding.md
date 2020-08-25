@@ -12,9 +12,9 @@ discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e18407ab4bf70caa417b16bbc645fd2c6ba1818b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ O princípio principal de configurar e usar marcas é:
 >
 >As marcas não podem ser criadas ou modificadas pelos usuários finais: essas operações têm de ser efetuadas pelo administrador técnico do Adobe Campaign. Para receber qualquer solicitação, entre em contato com o Atendimento ao cliente da Adobe.
 >
->A multimarca não pode ser usada no contexto de mensagens transacionais. Para obter mais informações, consulte [Mensagens transacionais e Identidade visual](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
+>A multimarca não pode ser usada no contexto de mensagens transacionais. Para obter mais informações, consulte [Mensagens transacionais e Identidade visual](../../channels/using/transactional-messaging-limitations.md#permissions-and-branding).
 
 As marcas podem ser encontradas no menu **[!UICONTROL Administration > Instance settings > Brand configuration]**.
 
@@ -67,6 +67,7 @@ Uma **Marca** é definida pelas seguintes características:
    * **Responder a (endereço de email)** com o endereço de email ao qual o cliente pode responder.
    * **Responder a (nome)** com o nome da marca.
    * **Erro (endereço de email)** com o endereço de email que será usado em caso de erro.
+
    >[!IMPORTANT]
    >
    >Após atualizar os parâmetros de cabeçalho dos emails, caso o nome e o endereço de email do remetente não tiverem sido alterados no email criado a partir do modelo, verifique as configurações avançadas do modelo.
@@ -78,6 +79,7 @@ Uma **Marca** é definida pelas seguintes características:
    * **URL externo do servidor de aplicativos** usado para hospedar e acessar as diferentes páginas de aterrissagem criadas por você.
    * **URL externo do servidor de rastreamento** usado como o URL rastreado durante os deliveries.
    * **URL externo do servidor de mirror pages** usado como mirror page padrão em seus deliveries.
+
    >[!NOTE]
    >
    >Para exibir a pré-visualização da página de aterrissagem e a renderização da mirror page na interface do usuário do Campaign, os URLs do servidor de aplicativos e de mirror pages devem estar protegidos. Nesse caso, use https:// em vez de http:// ao configurar esses URLs.
