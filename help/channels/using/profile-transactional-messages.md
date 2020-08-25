@@ -12,7 +12,7 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 94%
@@ -29,7 +29,7 @@ Você pode enviar mensagens transacionais com base nos perfis de marketing do cl
 * Adicionar as mensagens transacionais aos relatórios globais do delivery.
 * Usar as mensagens transacionais na jornada do cliente.
 
-Depois de criar e publicar um evento (o abandono do carrinho, conforme o [exemplo](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) acima), a mensagem transacional correspondente será criada automaticamente.
+Depois de criar e publicar um evento (o abandono do carrinho, conforme o [exemplo](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) acima), a mensagem transacional correspondente será criada automaticamente.
 
 As etapas de configuração são apresentadas na seção [Configuração de um evento para enviar uma mensagem transacional de perfil](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
