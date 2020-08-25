@@ -13,37 +13,40 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7c2d444b7d971124b676fa2392b51aab40e5629
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 2%
 
 ---
 
 
 # Uso de traps {#using-traps}
 
-Ao usar traps, a mensagem é enviada ao perfil [de](../../audiences/using/managing-test-profiles.md) teste da mesma forma que é enviada para o destino principal, como um meio de identificar se o arquivo cliente está sendo usado de forma fraudulenta.
+Ao usar armadilhas, a mensagem é enviada para o perfil [de](../../audiences/using/managing-test-profiles.md) teste da mesma forma que é enviada para o público alvo principal, como um meio de identificar se o arquivo cliente está sendo usado de forma fraudulenta.
 
-As armadilhas foram originalmente projetadas para entregas de mala direta. Eles permitem que você:
+As armadilhas foram originalmente projetadas para delivery de mala direta. Eles permitem que você:
 
 * Verifique se seu provedor de mala direta está realmente enviando a comunicação.
 * Receba o email ao mesmo tempo e nas mesmas condições que seus clientes.
 * Guarde uma cópia exata do correio enviado.
-* Verifique se sua lista de clientes não é usada incorretamente pelo seu provedor de mala direta. Na verdade, se qualquer outra comunicação for enviada para o endereço do seu perfil de teste, seu arquivo cliente pode ter sido usado sem que você saiba. É por isso que o endereço do perfil de teste só deve ser usado para esse fim.
+* Verifique se a lista do cliente não foi usada indevidamente pelo provedor de mala direta. Na verdade, se qualquer outra comunicação for enviada para o endereço do perfil de teste, o arquivo do cliente pode ter sido usado sem que você saiba. É por esta razão que o endereço do perfil de ensaio deve ser utilizado apenas para este fim.
 
-Para obter mais informações sobre como adicionar traps ao público-alvo de uma mala direta, consulte [Adicionar perfis](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)de teste e trapping.
+Para obter mais informações sobre como adicionar armadilhas à audiência de uma mala direta, consulte [Adicionar perfis](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)de teste e armadilha.
 
-Para outros canais de comunicação, você pode adicionar perfis de teste de armadilha ao seu destino principal para:
+Para outros canais de comunicação, você pode adicionar perfis de teste de armadilha ao público alvo principal para:
 
 * Verifique se sua mensagem foi enviada com êxito.
 * Obtenha e guarde uma cópia exata da sua mensagem.
 * Rastrear quando foi enviado e recebido.
 
-Para usar um perfil de teste como armadilha, ele deve ser incluído no público-alvo da sua mensagem.
+Para usar um perfil de teste como armadilha, ele deve ser incluído na audiência de sua mensagem.
 
 >[!NOTE]
 >
->Ao contrário dos perfis de teste usados para [provas](../../sending/using/sending-proofs.md) ou renderização [por](../../sending/using/email-rendering.md)email, a mensagem é enviada ao mesmo tempo para o destino principal e para os perfis de teste usados como armadilhas.
+>Ao contrário dos perfis de teste usados para [prova](../../sending/using/sending-proofs.md) ou renderização [por](../../sending/using/email-rendering.md)email, a mensagem é enviada ao mesmo tempo para o público alvo principal e para os perfis de teste usados como armadilhas.
 
-Ao definir o público-alvo de uma mensagem:
+Ao definir a audiência de uma mensagem:
 
 1. Na **[!UICONTROL Test profiles]** guia, selecione um perfil de teste. Certifique-se de que tem **[!UICONTROL Trap]** o uso pretendido.
 
@@ -52,16 +55,16 @@ Ao definir o público-alvo de uma mensagem:
 1. Quando o conteúdo da mensagem estiver pronto, clique no **[!UICONTROL Prepare]** botão. See [Preparing the send](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
-   >Certifique-se de selecionar um destino principal. Caso contrário, sua mensagem não poderá ser enviada.
+   >Verifique se você selecionou um público alvo principal. Caso contrário, sua mensagem não poderá ser enviada.
 
-1. Clique no botão **[!UICONTROL Confirm]**. See [Confirming the send](../../sending/using/confirming-the-send.md).
+1. Clique no botão **[!UICONTROL Confirm]**. Consulte [Confirmação do envio](../../sending/using/confirming-the-send.md).
 
    ![](assets/trap_confirm.png)
 
-A mensagem é enviada para o destino principal e para o perfil de teste.
+A mensagem é enviada ao público alvo principal e ao perfil de teste.
 
-Você pode usar traps ao enviar mensagens transacionais. Nesse caso, o perfil de teste receberá uma mensagem por configuração de evento. Para obter mais informações sobre mensagens transacionais, consulte esta [seção](../../channels/using/about-transactional-messaging.md).
+Você pode usar armadilhas ao enviar mensagens transacionais. Nesse caso, o perfil de teste receberá uma mensagem por configuração de evento. For more on transactional messaging, see this [section](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >
->Ao usar um perfil de teste como armadilha, para qualquer campo enriquecido em uma mensagem, os dados adicionais correspondentes são escolhidos aleatoriamente de um perfil direcionado real e atribuídos ao perfil de teste de armadilha. Para obter mais informações sobre o enriquecimento, consulte [este exemplo](../../automating/using/enrichment.md#example--enriching-profile-data-with-data-contained-in-a-file).
+>Ao usar um perfil de teste como armadilha, para qualquer campo enriquecido em uma mensagem, os dados adicionais correspondentes são coletados aleatoriamente de um perfil direcionado real e atribuídos ao perfil de teste de armadilha. Para obter mais informações sobre o enriquecimento, consulte [este exemplo](../../automating/using/enrichment.md#example--enriching-profile-data-with-data-contained-in-a-file).
