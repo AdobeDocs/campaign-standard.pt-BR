@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 284b177ef6d687cafaf92c50aa2050b8109ac30d
+source-git-commit: 434be1d237e1ce5bd47552d371d2df4670e82f44
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 31%
@@ -35,8 +35,8 @@ A Adobe Campaign permite integrar essa funcionalidade a um sistema de informaç�
 >[!NOTE]
 >
 >As mensagens transacionais podem ser enviadas por email, SMS ou notificação por push, dependendo das suas opções. Verifique o contrato de licença.
->
->A Adobe Campaign prioriza os mensagens transacionais de processamento em relação a qualquer outro delivery.
+
+A Adobe Campaign prioriza os mensagens transacionais de processamento em relação a qualquer outro delivery.
 
 As mensagens transacionais também estão disponíveis na API do Adobe Campaign Standard. Para obter mais informações, consulte a [documentação dedicada](../../api/using/managing-transactional-messages.md).
 
@@ -63,7 +63,7 @@ As mensagens transacionais também estão disponíveis na API do Adobe Campaign 
 <td><p>Com efeito, pode ter um forte impacto no comportamento dos clientes, na medida em que define a relação com os clientes.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"><br><b>Por exemplo?</b></td>
+<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"><br><p><b>Por exemplo?</b></p></td>
 <td><p>Pode ser uma mensagem de boas-vindas depois de criar uma conta, uma confirmação de que um pedido foi entregue, uma fatura...</p></td>
 <td><p>Também pode ser uma mensagem confirmando uma alteração de senha ou uma notificação depois que um cliente navegou em seu site...</p></td>
 </tr>
@@ -77,11 +77,11 @@ Dois tipos de mensagens transacionais estão disponíveis no Adobe Campaign:
 
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><a href="../../channels/using/event-transactional-messages.md">Mensagens transacionais de evento</a><br><b> que direcionam um evento</b>.</td>
+<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><p><a href="../../channels/using/event-transactional-messages.md">Mensagens transacionais de evento</a><br><b> que direcionam um evento</b></p></td>
 <td><p><ul><li>Elas não contêm informações sobre o perfil.</li><li>Não são compatíveis com regras <a href="../../sending/using/fatigue-rules.md">de</a> fadiga (mesmo no caso de um enriquecimento com perfis).</li><li>O público alvo do delivery é definido pelos dados contidos no próprio evento.</li></ul></p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md">Mensagens transacionais de perfil</a><br><b> que direcionam os perfis do banco de dados de marketing do Adobe Campaign</b>.</td>
+<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md"><p>Mensagens transacionais de perfil</a><br><b> que direcionam os perfis do banco de dados de marketing do Adobe Campaign</b></p></td>
 <td><p>Mensagens transacionais de perfis permitem:<ul><li>Aplique regras de tipologia de marketing, como <b>Endereço na lista de bloqueios</b> ou regras <a href="../../sending/using/fatigue-rules.md">de</a>fadiga.</li><li>Incluir o link de unsubscription nas mensagens.</li><li>Adicionar as mensagens transacionais aos relatórios globais do delivery.</li><li>Usar as mensagens transacionais na jornada do cliente.</li></ul></p></td>
 </tr>
 </table>
