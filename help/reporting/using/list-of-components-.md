@@ -12,7 +12,7 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: a373eb6546cb3c726e8b6807f6b47b14b3e520e6
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Para saber mais sobre a compatibilidade entre dimensões e métricas, consulte e
 
 ![](assets/dynamic_report_compatibility.png)
 
-## Dimensões {#dimensions}
+## Dimension {#dimensions}
 
 A tabela abaixo fornece a lista das dimensões usadas nos relatórios e suas definições.
 
@@ -68,7 +68,7 @@ A tabela abaixo fornece a lista das dimensões usadas nos relatórios e suas def
   </tr> 
   <tr> 
    <td> Sexo<br /> </td> 
-   <td> Gênero do Recipient, como masculino ou feminino. Se o campo gênero estiver vazio no perfil, o valor será nenhum.<br /> </td> 
+   <td> Gênero do recipient, como masculino ou feminino. Se o campo gênero estiver vazio no perfil, o valor será nenhum.<br /> </td> 
   </tr> 
   <tr> 
    <td> Ações de mensagens no aplicativo<br /> </td> 
@@ -84,18 +84,18 @@ A tabela abaixo fornece a lista das dimensões usadas nos relatórios e suas def
   </tr> 
   <tr> 
    <td> Platform<br /> </td> 
-   <td> Platform do dispositivo a partir do qual a mensagem foi aberta/visualizada/clicada.<br /> </td> 
+   <td> Plataforma do dispositivo a partir do qual a mensagem foi aberta/visualizada/clicada.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Profiles<br /> </td> 
+   <td> Perfil<br /> </td> 
    <td> Reagrupa campos predefinidos e perfis personalizados criados durante a extensão do recurso do perfil, para obter mais informações, consulte esta <a href="../../developing/using/key-steps-to-add-a-resource.md">página</a> ou este <a href="../../reporting/using/creating-a-custom-profile-dimension.md">exemplo</a>.<br /> Observe que os dados para essa dimensão são recuperados assim que o recurso personalizado vinculado ao campo do perfil é publicado.<br /> </td> 
   </tr> 
   <tr> 
    <td> Plataforma push<br /> </td> 
-   <td> Platform do dispositivo a partir do qual a notificação por push foi aberta, como iOS ou Android.<br /> </td> 
+   <td> Plataforma do dispositivo a partir do qual a notificação por push foi aberta, como iOS ou Android.<br /> </td> 
   </tr> 
   <tr> 
-   <td> domínio do Recipient<br /> </td> 
+   <td> domínio do recipient<br /> </td> 
    <td> Domínio usado para abrir o email.<br /> </td> 
   </tr> 
   <tr> 
@@ -127,7 +127,7 @@ A tabela abaixo fornece a lista das dimensões usadas nos relatórios e suas def
    <td> Rótulo fornecido ao URL, como mirror page, entre em contato conosco ou abra.<br /> </td> 
   </tr> 
   <tr> 
-   <td> delivery transacional<br /> </td> 
+   <td> Delivery transacional<br /> </td> 
    <td> Rótulo e ID do delivery transacional.<br /> </td> 
   </tr> 
   <tr> 
@@ -156,8 +156,8 @@ As tabelas abaixo fornecem a lista das métricas usadas nos relatórios e suas d
    <td> Número de recipient que declararam um email como spam ou lixo eletrônico.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Taxa de listas de bloqueios<br /> </td> 
-   <td> Porcentagem de delivery marcados na lista de blocos.<br /> </td> 
+   <td> taxa de lista de bloqueios<br /> </td> 
+   <td> Porcentagem de delivery marcados na lista de bloqueios.<br /> </td> 
   </tr> 
   <tr> 
    <td> Rejeições + Erros<br /> </td> 
@@ -196,15 +196,15 @@ As tabelas abaixo fornecem a lista das métricas usadas nos relatórios e suas d
    <td> Número de recipient que clicaram no link do mirror page.<br /> </td> 
   </tr> 
   <tr> 
-   <td> taxa de Mirror page<br /> </td> 
+   <td> taxa de mirror page<br /> </td> 
    <td> Porcentagem de cliques no link do mirror page em comparação ao total de mensagens do delivery.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Cliques na Oferta<br /> </td> 
+   <td> Cliques na oferta<br /> </td> 
    <td> Número de vezes que uma oferta foi clicada em um delivery.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Taxa de cliques de Oferta<br /> </td> 
+   <td> Taxa de cliques de oferta<br /> </td> 
    <td> Porcentagem de cliques em uma oferta.<br /> </td> 
   </tr> 
   <tr> 
@@ -224,7 +224,7 @@ As tabelas abaixo fornecem a lista das métricas usadas nos relatórios e suas d
    <td> Número de mensagens que retornou e resultaram na quarentena do endereço.<br /> </td> 
   </tr> 
   <tr> 
-   <td> taxa de Quarentena<br /> </td> 
+   <td> taxa de quarentena<br /> </td> 
    <td> Porcentagem de quarentenas em comparação a mensagens enviadas.<br /> </td> 
   </tr> 
   <tr> 
@@ -232,7 +232,7 @@ As tabelas abaixo fornecem a lista das métricas usadas nos relatórios e suas d
    <td> Número de mensagens classificadas como spam pelos servidores SMTP.<br /> </td> 
   </tr> 
   <tr> 
-   <td> taxa Rejeitada<br /> </td> 
+   <td> taxa rejeitada<br /> </td> 
    <td> Porcentagem de mensagens marcadas como rejeitadas.<br /> </td> 
   </tr> 
   <tr> 
@@ -313,7 +313,7 @@ As tabelas abaixo fornecem a lista das métricas usadas nos relatórios e suas d
    <td> Porcentagem de notificações por push abertas.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Clique único<br /> </td> 
+   <td> Cliques únicos<br /> </td> 
    <td> Número de vezes que um usuário único interage com a notificação por push, por exemplo, clica na notificação ou no botão.<br /> </td> 
   </tr> 
   <tr> 
@@ -363,7 +363,7 @@ As tabelas abaixo fornecem a lista das métricas usadas nos relatórios e suas d
   </tr> 
   <tr> 
    <td> Processado/enviado<br /> </td> 
-   <td> O número total de mensagens no aplicativo enviadas do Adobe Campaign como parte do processo enviado do delivery.<br /> </td> 
+   <td> O número total de mensagens no aplicativo enviadas da Adobe Campaign como parte do processo de envio do delivery.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressões exclusivas<br /> </td> 
