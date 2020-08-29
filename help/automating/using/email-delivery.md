@@ -51,7 +51,7 @@ A preparação da mensagem é acionada de acordo com os parâmetros de execuçã
 * [Caso de uso: criar um delivery segmentado na localização](../../automating/using/workflow-segmentation-location.md)
 * [Caso de uso: criar deliveries com um complemento](../../automating/using/workflow-created-query-with-complement.md)
 * [Caso de uso: workflow de redirecionamento enviando um novo delivery para não abridores](../../automating/using/workflow-cross-channel-retargeting.md)
-* [Caso de uso: delivery de aniversário](../../automating/using/birthday-delivery.md)
+* [Caso de uso: Delivery de aniversário](../../automating/using/birthday-delivery.md)
 
 ## Configuração {#configuration}
 
