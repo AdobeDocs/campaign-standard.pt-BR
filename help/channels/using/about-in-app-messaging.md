@@ -88,7 +88,7 @@ Entretanto, se o objetivo for enviar uma mensagem no aplicativo em um idioma dif
 
 ![](assets/faq_inapp.png)
 
-### campos de personalização de Campanha podem ser adicionados ao HTML personalizado? {#custom-html-inapp}
+### Campos de personalização de Campanha podem ser adicionados ao HTML personalizado? {#custom-html-inapp}
 
 Não, isso ainda não é suportado.
 
