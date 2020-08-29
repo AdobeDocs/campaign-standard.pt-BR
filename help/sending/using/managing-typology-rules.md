@@ -51,7 +51,7 @@ As principais etapas para criar uma regra de tipologia são as seguintes:
 
    ![](assets/typology-rule-label.png)
 
-1. Especifique a regra de tipologia **[!UICONTROL Type]** e configure-a de acordo com suas necessidades. Observe que a configuração da regra de tipologia varia dependendo do tipo. Para obter mais informações, consulte as seções **[Regras de filtragem](../../sending/using/filtering-rules.md)**e**[ Regras de fadiga](../../sending/using/fatigue-rules.md)**.
+1. Especifique a regra de tipologia **[!UICONTROL Type]** e configure-a de acordo com suas necessidades. Observe que a configuração da regra de tipologia varia dependendo do tipo. Para obter mais informações, consulte as seções **[Regras de filtragem](../../sending/using/filtering-rules.md)** e **[Regras de fadiga](../../sending/using/fatigue-rules.md)**.
 
 1. Selecione as tipologias nas quais deseja incluir a nova regra. Para fazer isso, selecione a guia **[!UICONTROL Typologies]** e clique no botão **[!UICONTROL Create element]**.
 
