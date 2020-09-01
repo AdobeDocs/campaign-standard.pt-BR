@@ -12,11 +12,11 @@ discoiquuid: 2650bf1f-0bce-4049-a226-2369f6666b95
 context-tags: jstest,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
-source-wordcount: '176'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 91%
 
 ---
 
@@ -52,11 +52,10 @@ As condições podem ser baseadas em **funções** ou **variáveis**, por exempl
 
    Ao editar o campo **[!UICONTROL Condition]**, dois botões ajudam a chamar as variáveis de eventos e editar expressões que combinam variáveis e funções:
 
-   * ![](assets/extsignal_picker.png): selecione a variável de eventos nas variáveis disponíveis no fluxo de trabalho (consulte [Personalização de um fluxo de trabalho com parâmetros externos](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-a-workflow-with-external-parameters))
+   * ![](assets/extsignal_picker.png): selecione a variável de eventos entre todas as variáveis disponíveis no fluxo de trabalho (consulte [](../../automating/using/customizing-workflow-external-parameters.md))
 
       ![](assets/wkf_test_activity_variables.png)
 
    * ![](assets/extsignal_expression_editor.png): edite as expressões que combinam variáveis e funções. Para saber mais sobre o editor de expressão, consulte [esta seção](../../automating/using/advanced-expression-editing.md).
 
       ![](assets/wkf_test_activity_variables_expression.png)
-
