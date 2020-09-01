@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Ajuda do Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 7a647878a711777dffd83a8f8dccacf9d9238ba6
+source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 88%
+source-wordcount: '1596'
+ht-degree: 86%
 
 ---
 
@@ -251,7 +251,12 @@ ht-degree: 88%
       + [Monitoramento da execução do workflow](automating/using/monitoring-workflow-execution.md)
       + [Gerenciamento de opções de execução](automating/using/managing-execution-options.md)
       + [Gerenciamento de propriedades de atividades](automating/using/activity-properties.md)
-   + [Chamada de um fluxo de trabalho com parâmetros externos](automating/using/calling-a-workflow-with-external-parameters.md)
+   + Chamada de um fluxo de trabalho com parâmetros externos {#calling-workflow-external-parameters}
+      + [Declaração dos parâmetros na atividade de sinal externo](automating/using/declaring-parameters-external-signal.md)
+      + [Definição dos parâmetros ao chamar o fluxo de trabalho](automating/using/defining-parameters-calling-workflow.md)
+      + [Monitoramento das variáveis de eventos](automating/using/monitoring-events-variables.md)
+      + [Personalização do fluxo de trabalho com parâmetros externos](automating/using/customizing-workflow-external-parameters.md)
+      + [Caso de uso](automating/using/use-case-calling-workflow.md)
    + Atividades de direcionamento {#targeting-activities}
       + [Sobre as atividades de direcionamento](automating/using/about-targeting-activities.md)
       + [Query](automating/using/query.md)
