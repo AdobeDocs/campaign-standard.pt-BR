@@ -12,11 +12,11 @@ discoiquuid: 4375153c-0621-4d4c-bfcc-66d157f04f6c
 context-tags: queryFilter,overview;audience,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
-source-wordcount: '1091'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+workflow-type: tm+mt
+source-wordcount: '1092'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ A edição de uma expressão envolve a inserção manual de condições para for
 
 Esse modo permite usar funções avançadas. Essas funções permitem manipular os valores usados para realizar consultas específicas, como manipular datas, strings, campos numéricos, classificação etc.
 
-Também é possível usar variáveis de eventos ao editar a expressão. Para obter mais informações, consulte a seção [Personalização de atividades com variáveis de eventos](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
+Também é possível usar as variáveis de eventos de workflows ao editar a expressão. Para obter mais informações, consulte a seção [Personalização de atividades com variáveis de eventos](../../automating/using/customizing-workflow-external-parameters.md).
 
 É possível editar expressões para:
 
@@ -51,13 +51,14 @@ A edição de expressões pode ser usada na janela Audience ao criar um email ou
    * Um campo de entrada no qual a expressão é definida.
    * A lista dos campos disponíveis que podem ser usados na expressão e correspondem à dimensão de dimensionamento da query (consulte [Dimensão de dimensionamento e recursos](../../automating/using/query.md#targeting-dimensions-and-resources)).
    * A lista de funções disponíveis, classificadas por categoria.
+
    ![](assets/expression_editor_1.png)
 
 1. Edite a expressão inserindo uma expressão diretamente no campo correspondente ou usando as listas de campos e funções disponíveis.
 
    Clicar duas vezes em um campo ou expressão adiciona-o à expressão em que o cursor está inserido.
 
-   É possível usar variáveis de eventos de workflows para criar uma expressão. Para obter mais informações, consulte a seção [Personalização de atividades com variáveis de eventos](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
+   É possível usar variáveis de eventos de workflows para criar uma expressão. Para obter mais informações, consulte a seção [Personalização de atividades com variáveis de eventos](../../automating/using/customizing-workflow-external-parameters.md).
 
 1. Dê um nome específico à sua regra, se necessário. O nome inserido será exibido como o nome da regra no espaço de trabalho do Editor de consultas.
 
@@ -79,6 +80,7 @@ As expressões padrão são formadas por uma ou várias condições que respeita
    * **&lt;value1>** é um campo ou uma função. Por exemplo, **@created** para a data em que um perfil foi criado ou **Year(@created)** para o ano em que um perfil foi criado.
    * **&lt;comparison operator>** é um dos operadores listados na seção [Operadores de comparação](../../automating/using/advanced-expression-editing.md#comparison-operators). Esse operador define o método de comparação entre **&lt;value1>** e **&lt;value2>**.
    * **&lt;value2>** é um campo, uma função ou um valor inserido manualmente.
+
    >[!NOTE]
    >
    >Os dados dos tipos **&lt;value1>** e **&lt;value2>** devem ser idênticos. Por exemplo, se **&lt;value1>** for uma data, **&lt;value2>** também deverá ser uma data.
@@ -107,6 +109,7 @@ As expressões JavaScript são constituídas por uma ou várias condições e us
    * **&lt;context>** é um campo ou uma função que permite especificar o contexto. Por exemplo, **context.perfil.@email** para um endereço de email do perfil ou **context.perfil.firstName.length()** para o número de caracteres do nome do perfil.
    * **&lt;comparison operator>** é um dos operadores listados na seção [Operadores de comparação](../../automating/using/advanced-expression-editing.md#comparison-operators). Esse operador define o método de comparação entre **&lt;context>** e **&lt;value2>**.
    * **&lt;value2>** é um campo, uma função ou um valor inserido manualmente.
+
    >[!NOTE]
    Os dados dos tipos **&lt;context>** e **&lt;value2>** devem ser idênticos. Por exemplo, se **&lt;context>** for uma data, **&lt;value2>** também deverá ser uma data.
 
