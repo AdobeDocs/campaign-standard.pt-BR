@@ -13,7 +13,7 @@ context-tags: signal,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 16afc307df6902584624d6457954a472b11c5129
+source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 96%
@@ -46,7 +46,7 @@ Observe que uma atividade **[!UICONTROL External signal]** pode ser acionada a p
 **Tópicos relacionados**
 
 * [Caso de uso: Atividade do sinal externo e importação](../../automating/using/external-signal-data-import.md)de dados.
-* [Caso de uso: Como chamar um fluxo de trabalho para criar uma audiência a partir de um arquivo usando parâmetros externos](../../automating/using/calling-a-workflow-with-external-parameters.md#use-case)
+* [Caso de uso: Como chamar um fluxo de trabalho para criar uma audiência a partir de um arquivo usando parâmetros externos](../../automating/using/use-case-calling-workflow.md)
 
 ## Configuração {#configuration}Fi
 
@@ -56,7 +56,7 @@ Ao configurar um sinal externo, é importante primeiro configurar a atividade **
 1. Selecione e abra a atividade usando o botão ![](assets/edit_darkgrey-24px.png) das ações rápidas exibidas.
 1. Edite o rótulo da atividade. Esse rótulo é necessário ao configurar o workflow de origem que aciona **[!UICONTROL External signal]**.
 
-   Se quiser chamar o workflow com parâmetros, use a área **[!UICONTROL Parameters]** para declará-los. Para obter mais informações, consulte [esta seção](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity).
+   Se quiser chamar o workflow com parâmetros, use a área **[!UICONTROL Parameters]** para declará-los. Para obter mais informações, consulte esta seção: [](../../automating/using/declaring-parameters-external-signal.md).
 
    ![](assets/external_signal_configuration.png)
 
@@ -78,7 +78,7 @@ Ao configurar um sinal externo, é importante primeiro configurar a atividade **
 
    Ao definir uma **[!UICONTROL End]** atividade para acionar outro workflow, seu ícone é atualizado com um símbolo de sinal adicional.
 
-   Se quiser chamar o workflow com parâmetros, use a área **[!UICONTROL Parameters and values]**. Para obter mais informações, consulte [esta seção](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow).
+   Se quiser chamar o workflow com parâmetros, use a área **[!UICONTROL Parameters and values]**. Para obter mais informações, consulte esta seção: [](../../automating/using/defining-parameters-calling-workflow.md).
 
    ![](assets/external_signal_end.png)
 
