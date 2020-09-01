@@ -13,9 +13,9 @@ context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 694fd5802578001ba80b35f0983a068a0a630dd0
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Um delivery de execução é uma mensagem técnica não acionável e não funcio
 
 * Por padrão, uma vez por mês para mensagens transacionais e sempre que um mensagen transacional é editado e publicado novamente.
 
-   Para obter mais informações sobre mensagens transacionais, consulte [Sobre mensagens](../../channels/using/getting-started-with-transactional-msg.md)transacionais.
+   Para obter mais informações sobre mensagens transacionais, consulte [Introdução às mensagens](../../channels/using/getting-started-with-transactional-msg.md)transacionais.
 
 >[!NOTE]
 >
