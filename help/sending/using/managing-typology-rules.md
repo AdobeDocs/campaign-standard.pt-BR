@@ -13,10 +13,10 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7f5bc442b1dae467a6b6de3e048531940f75031f
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 96%
+source-wordcount: '551'
+ht-degree: 97%
 
 ---
 
@@ -72,7 +72,7 @@ No modo de operação padrão, as regras são aplicadas na seguinte sequência:
 1. Regras de controle, se elas forem aplicadas no início do direcionamento.
 1. Regras de filtragem:
 
-   * Regras nativas para a qualificação de endereço: endereço definido / endereço não verificado / qualidade do endereço na lista de bloqueios / endereço em quarentena / qualidade do endereço.
+   * Regras nativas para a qualificação de endereço: endereço definido / endereço não verificado / endereço incluir na lista de bloqueios / endereço em quarentena / qualidade do endereço.
    * Filtrar regras definidas pelo usuário.
 
 1. Regras de controle, se elas forem aplicadas no final do direcionamento.
