@@ -12,7 +12,7 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 8%
@@ -28,7 +28,7 @@ ht-degree: 8%
 
 As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatórios e suas fórmulas de cálculo, dependendo do tipo de delivery.
 
-## Entrega por email {#email-delivery}
+## Delivery por email {#email-delivery}
 
 <table> 
  <thead> 
@@ -47,15 +47,15 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Lista bloqueada<br /> </td> 
-   <td> @blocklisted<br /> </td> 
+   <td> incluir na lista de bloqueios<br /> </td> 
+   <td> @incluído na blacklist<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Taxa bloqueada<br /> </td> 
-   <td> @rateBlocklisted<br /> </td> 
-   <td> @blocklisted/@send<br /> </td> 
+   <td> lista de bloqueios taxa de<br /> </td> 
+   <td> @rateBlacklisted<br /> </td> 
+   <td> @incluído na blacklist/@enviado<br /> </td> 
    <td> O denominador para cálculo de taxa é baseado na contagem de Enviados (Entregues + Rejeições).<br /> </td> 
   </tr> 
   <tr> 
@@ -125,7 +125,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> O denominador para cálculo de taxa se baseia somente em Entregue.<br /> </td> 
   </tr> 
   <tr> 
-   <td> taxa de Mirror page<br /> </td> 
+   <td> taxa de mirror page<br /> </td> 
    <td> @rateMirrorPage<br /> </td> 
    <td> @mirrorPage/@entregue<br /> </td> 
    <td> </td> 
@@ -155,7 +155,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> </td> 
   </tr> 
   <tr> 
-   <td> taxa de Quarentena<br /> </td> 
+   <td> taxa de quarentena<br /> </td> 
    <td> @rateQuarantine<br /> </td> 
    <td> @quarentena/@enviado<br /> </td> 
    <td> O denominador para cálculo de taxa é baseado na contagem de Enviados (Entregues + Rejeições).<br /> </td> 
@@ -167,7 +167,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> </td> 
   </tr> 
   <tr> 
-   <td> taxa Rejeitada<br /> </td> 
+   <td> taxa rejeitada<br /> </td> 
    <td> @rateReject<br /> </td> 
    <td> @rejeição/@enviado<br /> </td> 
    <td> O denominador para cálculo de taxa é baseado na contagem de Enviados (Entregues + Rejeições).<br /> </td> 
