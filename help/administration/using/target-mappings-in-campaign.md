@@ -12,18 +12,18 @@ discoiquuid: 73d06242-a02f-4a8d-85e9-73efffb5eda1
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ef4082d4d5a0c3a57b7a36a43b47edde07c4c7bb
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 7%
+source-wordcount: '101'
+ht-degree: 16%
 
 ---
 
 
 # Mapeamentos do Target no Campaign{#target-mappings-in-campaign}
 
-Target mapping são objetos técnicos usados pela Campanha para entregar mensagens. Elas contêm todas as configurações técnicas necessárias para enviar delivery (endereços, números de telefone, indicadores de lista de blocos, identificadores adicionais...).
+Target mapping são objetos técnicos usados pela Campanha para entregar mensagens. Elas contêm todas as configurações técnicas necessárias para enviar delivery (endereços, números de telefone, indicadores de aceitação, identificadores adicionais...).
 
 Os administradores podem acessar target mapping no **[!UICONTROL Administration > Application settings > Target mappings]** menu.
 
-A criação ou modificação de Target mapping é possível para cobrir necessidades específicas. Em qualquer caso, o targeting dimension deve corresponder sempre a perfis ( **[!UICONTROL nms:recipient]** tabela). For more on targeting dimensions, refer to [this page](../../automating/using/query.md#targeting-dimensions-and-resources).
+A criação ou modificação de target mapping é possível para cobrir necessidades específicas. Em qualquer caso, o targeting dimension deve corresponder sempre a perfis ( **[!UICONTROL nms:recipient]** tabela). Para saber mais sobre targeting dimensions, consulte [esta página](../../automating/using/query.md#targeting-dimensions-and-resources).
