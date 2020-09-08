@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '5401'
+source-wordcount: '5398'
 ht-degree: 10%
 
 ---
@@ -62,7 +62,7 @@ Visualização as atualizações [mais recentes da](../../rn/using/documentation
 
    Para obter mais informações, consulte a documentação detalhada sobre como configurar um aplicativo móvel usando o [SDK V4](https://helpx.adobe.com/br/campaign/kb/configuring-app-sdkv4.html) e o [SDK V5](https://helpx.adobe.com/br/campaign/kb/configuring-app-sdk.html).
 
-* Usuários do Público alvo em um aplicativo móvel específico selecionando um aplicativo móvel ao definir as propriedades da Campanha. Este recurso é para canais de mensagens de push e no aplicativo.
+* Usuários do público alvo em um aplicativo móvel específico selecionando um aplicativo móvel ao definir as propriedades da Campanha. Este recurso é para canais de mensagens de push e no aplicativo.
 
    Para obter mais informações, consulte a [documentação detalhada](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification).
 
@@ -89,7 +89,7 @@ Visualização as atualizações [mais recentes da](../../rn/using/documentation
 * Correção de um problema que fazia com que as fotos carregadas de uma câmera e filmadas no modo retrato fossem exibidas em uma posição girada indesejada.
 * Correção de um problema que exibia informações de seleção não claras ao usar a interface do editor de query no Creative Designer.
 * Correção de um problema que impedia a duplicação correta de um elemento ao usar a interface do editor de query no Creative Designer.
-* Correção de um problema que mantinha a entrega de mensagens SMS a recipient na lista de bloqueios, mesmo que eles tivessem sido cancelados por meio de uma resposta automática. (CAMP-27128)
+* Correção de um problema que continuava enviando mensagens SMS para recipient da lista de negação, mesmo que eles tivessem sido cancelados por meio de uma resposta automática. (CAMP-27128)
 * Correção de um problema que impedia a exibição dos erros que causavam a falha do fluxo de trabalho de Limpeza **** do Banco de Dados. (CAMP-26876)
 * Correção de um problema que impedia a exclusão de campos personalizados em uma definição de notificação por push. (CAMP-25588)
 
@@ -111,14 +111,14 @@ Visualização as atualizações [mais recentes da](../../rn/using/documentation
   </tr> 
   <tr> 
    <td> Filtro de tipologia para assinantes de aplicativos móveis<br /> </td> 
-   <td> subscrições de suporte no filtro de tipologia: ao especificar os critérios de filtragem para uma regra de tipologia, as subscrições do aplicativo podem ser selecionadas como filtros e targeting dimension, proporcionando a capacidade de filtrar atributos para usuários com ou sem perfis. <br /> Para obter mais informações, consulte a <a href="../../sending/using/about-typology-rules.md">documentação detalhada</a>.<br /> </td> 
+   <td> Subscrições de suporte no filtro de tipologia: ao especificar os critérios de filtragem para uma regra de tipologia, as subscrições do aplicativo podem ser selecionadas como filtros e targeting dimension, proporcionando a capacidade de filtrar atributos para usuários com ou sem perfis. <br /> Para obter mais informações, consulte a <a href="../../sending/using/about-typology-rules.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Importação de conteúdo automatizada de um URL durante a preparação da mensagem<br /> </td> 
    <td> Agora é possível importar conteúdo de email de um URL durante a fase de preparação. Para delivery de e-mail recorrentes, o conteúdo HTML mais recente é recuperado toda vez que a mensagem é preparada, garantindo que o conteúdo esteja sempre atualizado no momento em que o e-mail é enviado. Esse recurso também permite que você crie um agendo o delivery com conteúdo de um URL, mesmo se o conteúdo ainda não estiver pronto.<br /> Para obter mais informações, consulte a <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Mensagem de notificação de liberação de Campanha<br /> </td> 
+   <td> Mensagem de notificação de liberação de campanha<br /> </td> 
    <td> Uma mensagem pop-up agora é exibida quando um usuário faz logon depois que a instância é atualizada para uma nova versão. A mensagem indica o número da versão e inclui um link para as notas de versão. Você pode optar por ocultar a mensagem até a próxima versão. <br /> </td> 
   </tr> 
   <tr> 
@@ -215,8 +215,8 @@ Visualização as atualizações [mais recentes da](../../rn/using/documentation
    <td> A Adobe Campaign agora oferece a capacidade de receber feedback detalhado (enviando registros e logs de exclusão) sobre mensagens de push dos provedores (APNS/GCM) via MCPNS.<br /> Para obter mais informações, consulte a <a href="../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> extensão de Logs do delivery<br /> </td> 
-   <td> A extensão de Logs do delivery permite estender o envio de registros com dados de perfil e códigos de segmento provenientes de workflows. Essas informações podem ser usadas em Relatórios dinâmicos e permitem manter um instantâneo de algumas informações no momento do envio de um delivery.<br /> Há mais 2 casos de uso:<br /> 
+   <td> extensão de logs do delivery<br /> </td> 
+   <td> A extensão de logs do delivery permite estender o envio de registros com dados de perfil e códigos de segmento provenientes de workflows. Essas informações podem ser usadas em Relatórios dinâmicos e permitem manter um instantâneo de algumas informações no momento do envio de um delivery.<br /> Há mais 2 casos de uso:<br /> 
     <ul> 
      <li> Exporte blogues estendidos com dados "congelados": Como comerciante, eu gostaria de exportar todos os perfis onde o código de segmento é igual a "A" (vindo do motor de workflow). </li> 
      <li> Segmentação em dados "congelados": Como comerciante, eu gostaria de <strong>redirecionar</strong> todos os perfis que ganharam 1000 pontos de fidelidade desde o último envio ou onde o código de segmento era igual a "A". </li> 
@@ -235,7 +235,7 @@ Visualização as atualizações [mais recentes da](../../rn/using/documentation
 
 **Outras alterações**
 
-* A atividade de fluxo de trabalho Ler Audiência agora pode ler audiências Experience Cloud. Anteriormente, esta atividade só conseguia ler audiências Query e Listas. Consulte a documentação [](../../automating/using/read-audience.md)detalhada. (CAMP-23623)
+* A atividade de fluxo de trabalho Ler Audiência agora pode ler Experience Cloud audiência. Anteriormente, esta atividade só conseguia ler audiências Query e Listas. Consulte a documentação [](../../automating/using/read-audience.md)detalhada. (CAMP-23623)
 * O identificador da fonte de dados compartilhada padrão agora está no modo somente leitura e não pode mais ser alterado. A alteração desse identificador pode causar alguns problemas ao compartilhar audiências com o Experience Cloud.
 * Agora a importação de audiências do Audience Manager funciona com arquivos divididos. Anteriormente, somente o último arquivo do segmento era importado pelo workflow técnico importSharedAudience.
 * O AWS S3 conta externa agora suporta regiões e o mecanismo de autenticação da versão 4. Consulte a documentação [](../../administration/using/external-accounts.md)detalhada.
@@ -460,7 +460,7 @@ Alguns problemas podem ocorrer ao usar links de ajuda contextuais da interface d
  <tbody> 
   <tr> 
    <td> Relatórios para gerenciamento de fadiga<br /> </td> 
-   <td> O Relatórios para gerenciamento de fadiga é um relatório dedicado e configurável que exibe o impacto das regras de fadiga nos delivery de email, push, SMS e mala direta dentro de um intervalo de datas especificado antes do envio. Com o insight adicional de poder ver rapidamente todas as campanhas conflitantes em uma única visualização, os profissionais de marketing são capazes de planejar campanhas de marketing de acordo com a definição mais eficiente das regras de fadiga e priorizar as comunicações.<br /> Para obter mais informações, consulte a <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">documentação detalhada</a>.<br /> </td> 
+   <td> O relatórios para gerenciamento de fadiga é um relatório dedicado e configurável que exibe o impacto das regras de fadiga nos delivery de email, push, SMS e mala direta dentro de um intervalo de datas especificado antes do envio. Com o insight adicional de poder ver rapidamente todas as campanhas conflitantes em uma única visualização, os profissionais de marketing são capazes de planejar campanhas de marketing de acordo com a definição mais eficiente das regras de fadiga e priorizar as comunicações.<br /> Para obter mais informações, consulte a <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Compartilhamento de relatórios<br /> </td> 
@@ -477,7 +477,7 @@ Alguns problemas podem ocorrer ao usar links de ajuda contextuais da interface d
     </ul> Para obter mais informações sobre Conteúdo disponível e Conteúdo variável, consulte a documentação <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios"></a>detalhada.<br /> <strong>Aviso:</strong> essas atualizações nas notificações por push exigem que os clientes atualizem seus aplicativos móveis. Refer to <a href="https://helpx.adobe.com/br/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">this technote</a> for more information.<br /> </td> 
   </tr> 
   <tr> 
-   <td> delivery otimizados para fuso horário<br /> </td> 
+   <td> Delivery otimizados para fuso horário<br /> </td> 
    <td> Agende emails, SMS e notificações por push recorrentes para serem entregues em um dia/hora específico em cada fuso horário de cada recipient, garantindo que suas mensagens sejam entregues no horário certo sem configurar vários delivery. <br /> Para obter mais informações, consulte a <a href="../../automating/using/scheduler.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
@@ -500,7 +500,7 @@ _Emails, mensagens SMS e mala direta_
 * Correção de um problema que permitia que o usuário acessasse o envio de logs quando o delivery ainda estava na edição.
 * A **[!UICONTROL Scheduler]** atividade agora permite que você envie seus delivery, dependendo do fuso horário do recipient.
 * SMS: A opção **[!UICONTROL Store incoming MO]** no banco de dados foi adicionada ao conta externa. Quando marcado, todo o SMS recebido será armazenado na tabela **inSMS** .
-* SMS: Os serviços agora são anexados a um evento em vez de um modelo transacional.
+* SMS: Agora, os serviços são anexados a um evento em vez de um modelo transacional.
 * SMS: O tempo limite de conexão SMTP padrão foi reduzido para 30 segundos.
 
 _Notificações por push_
