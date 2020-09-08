@@ -1,6 +1,6 @@
 ---
 title: Notas de versão 2017
-description: Esta página lista todas as versões de 2017 do Adobe Campaign Standard.
+description: Essa página lista todas as versões 2017 do Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: d73f8186-e309-441b-969d-71d0a1c33cf4
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '4631'
-ht-degree: 6%
+source-wordcount: '4623'
+ht-degree: 8%
 
 ---
 
@@ -28,7 +28,7 @@ Cada versão traz novos recursos e correções. Clique em uma versão para visua
 
 Visualização as atualizações [mais recentes da](../../rn/using/documentation-updates.md) documentação do Adobe Campaign Standard. Se você estiver procurando uma versão mais recente, consulte esta [página](../../rn/using/release-notes.md).
 
-## Versão 17.10 - outubro de 2017 {#release-17-10---october-2017}
+## Versão 17.10 - Outubro de 2017 {#release-17-10---october-2017}
 
 **Novos recursos**
 
@@ -45,7 +45,7 @@ Visualização as atualizações [mais recentes da](../../rn/using/documentation
    <td> O Gerenciamento de fadiga permite que você crie regras de fadiga para gerenciar a comunicação excessiva com perfis. As regras de fadiga são facilmente criadas, mas são extremamente flexíveis com recursos como contagem de mensagens em vários canais (incluindo mensagens transacionais), contagem somente de delivery específicos ou aplicação de regras a perfis específicos.<br /> Para obter mais informações, consulte a <a href="../../sending/using/fatigue-rules.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Criação de conteúdo: Importar de um URL<br /> </td> 
+   <td> Content creation: Import from a URL<br /> </td> 
    <td> Importar de um URL permite recuperar rapidamente seu conteúdo criativo de um site para criar emails para qualquer delivery. Além disso, você pode simplificar seu processo criativo, permitindo que terceiros compartilhem conteúdo diretamente por meio de um URL. O conteúdo importado pode ser usado de forma flexível como parte de um único delivery ou no nível do modelo, garantindo a consistência da marca para todas as campanhas relacionadas, sejam elas baseadas em fluxos de trabalho ou mensagens transacionais, e incluir testes A/B ou multivariados. A importação de um URL converte e rastreia automaticamente todos os links para monitorar o desempenho do email por meio do Relatórios dinâmico.<br /> Para obter mais informações, consulte a <a href="../../designing/using/using-existing-content.md#importing-content-from-a-url">documentação detalhada</a>.<br /> </td> 
   </tr> 
  </tbody> 
@@ -53,13 +53,13 @@ Visualização as atualizações [mais recentes da](../../rn/using/documentation
 
 **Correções**
 
-_Platform_
+_Plataforma_
 
 * Correção de um problema que impedia que arquivos compactados grandes fossem descompactados corretamente.
-* A segurança no gerenciamento de marcas foi aprimorada. A modificação do nome e endereço do remetente de uma marca agora está reservada para administradores técnicos da Adobe.
+* A segurança no gerenciamento de marcas foi aprimorada. A modificação do nome e endereço do remetente de uma marca agora está reservada para administradores técnicos do Adobe.
 * Para melhorar a segurança, o conteúdo gerado pelo usuário (imagens, mirrores page, landings page etc.) não pode mais ser servido pelo domínio adobe.com. Agora é obrigatório usar seu próprio domínio para lidar com esses recursos, por meio do uso da marca.
 * Correção de um problema de interface ao exibir e filtrar atividades de marketing.
-* Correção de um problema que impedia que campos de data de subscrição fossem atualizados com uma chamada POST Rest API.
+* Correção de um problema que impedia que campos de data de subscrição fossem atualizados com uma chamada de API POST Rest.
 
 _Emails, mensagens SMS e mala direta_
 
@@ -74,18 +74,18 @@ _Notificações por push_
 * Correção de um erro que impedia que o aplicativo móvel iOS fosse adicionado na interface do Adobe Campaign.
 * As notificações por push agora são suportadas em aplicativos móveis Android habilitados para GCM e FCM.
 * Correção de um erro que impedia o conteúdo de ser salvo ao duplicar um modelo de notificação por push.
-* Agora é possível criar ou atualizar um perfil do banco de dados do Adobe Campaign, reconciliando os dados dos usuários do aplicativo móvel.
-* O Adobe Campaign agora prioriza o processamento das notificações por push transacionais em vez das notificações por push padrão.
+* Agora é possível criar ou atualizar um perfil do banco de dados Adobe Campaign reconciliando os dados dos usuários do aplicativo móvel.
+* A Adobe Campaign agora prioriza o processamento das notificações por push transacionais em vez das notificações por push padrão.
 
 _Relatórios_
 
 * Correção de um problema que impedia que as porcentagens de cliques ativos fossem exibidas no conteúdo do email.
-* Correção de um problema com a métrica da lista de blocos que era contada como uma rejeição em vez de uma rejeição.
+* Correção de um problema com a métrica de  lista de bloqueios que era contada como uma rejeição em vez de uma rejeição.
 * Correção de um problema que resultava na exibição de contagens negativas em dados de resumo.
 * Correção de um problema que contava perfis no segmento de idade errado.
 * As fórmulas de cálculo de rejeição flexível e rígida foram alteradas.
 
-_Workflows_
+_Fluxos de trabalho_
 
 * Correção de um problema na **[!UICONTROL Load file]** atividade que resultava em erros após a adição e remoção manual de colunas na atividade.
 * O fluxo de trabalho **[!UICONTROL deliverabilityUpdate]** técnico está agendado para ser executado às 2h00, horário do servidor.
@@ -107,7 +107,7 @@ _Recursos personalizados_
 * Correção de um problema que ocorria em telas de lista em que linhas de recursos personalizados podiam ser exibidas sem dados.
 * Correção de um problema que impedia que campos de tipo booleano com valor &quot;Falso&quot; fossem exibidos em recursos personalizados.
 
-## Versão 17.9 - setembro de 2017 {#release-17-9---september-2017}
+## Versão 17.9 - Setembro de 2017 {#release-17-9---september-2017}
 
 **Novos recursos**
 
@@ -129,16 +129,16 @@ _Recursos personalizados_
   </tr> 
   <tr> 
    <td> Subscrição em massa com Origem e data<br /> </td> 
-   <td> Com esse aprimoramento de Subscrição em massa, agora você pode armazenar informações de subscrição (origem e data) diretamente no banco de dados do Adobe Campaign Standard por meio da atividade do Subscrição no serviço em um fluxo de trabalho.<br /> Para obter mais informações, consulte a <a href="../../automating/using/subscription-services.md">documentação detalhada</a>.<br /> </td> 
+   <td> Com esse aprimoramento de Subscrição em massa, agora você pode armazenar informações de subscrição (origem e data) diretamente no banco de dados da Adobe Campaign Standard por meio da atividade do Subscrição no serviço em um fluxo de trabalho.<br /> Para obter mais informações, consulte a <a href="../../automating/using/subscription-services.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Correções**
 
-_Platform_
+_Plataforma_
 
-* Alguns clientes precisam ser capazes de aproveitar uma ID proveniente do Adobe Campaign Standard, pois não gerenciam uma chave exclusiva para identificar seus próprios registros. Essa ID (ID **** ACS) pode ser exportada e usada como uma chave de reconciliação ao atualizar os dados. Para obter mais informações, consulte a [documentação detalhada](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
+* Alguns clientes precisam aproveitar uma ID da Adobe Campaign Standard, pois não gerenciam uma chave exclusiva para identificar seus próprios registros. Essa ID (ID **** ACS) pode ser exportada e usada como uma chave de reconciliação ao atualizar os dados. Para obter mais informações, consulte a [documentação detalhada](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 * O protocolo FTP está sendo substituído. Agora você deve usar o SFTP. Para não bloquear implementações existentes, as configurações existentes no FTP ainda funcionarão como antes, mas a opção não será exibida para novas atividades.
 
 _Emails, mensagens SMS e mala direta_
@@ -165,21 +165,21 @@ _Relatórios_
 * As métricas [de relatório](../../reporting/using/indicator-calculation.md) dinâmico e as [KPIs](../../sending/using/confirming-the-send.md) de campanha (exibidas no painel das mensagens enviadas) foram alinhadas para maior coerência.
 * Correção de um problema que resultava em falha de pipeline no debian 7.
 
-_Workflows_
+_Fluxos de trabalho_
 
 * Correção de um problema que impedia o funcionamento da retenção de arquivos importados.
 
 _Integrações_
 
-* As eVars e eventos agora são compatíveis com a integração Analytics e Campaign.
+* As eVars e eventos agora são compatíveis com a integração do Analytics e da Campanha.
 * Ao enviar um email com o conteúdo do carrinho abandonado, o parâmetro de carga para elementos removidos do carrinho agora é opcional.
 
 _Perfis e públicos-alvo_
 
-* O Adobe Campaign agora fornece um relatório que exibe o número de perfis ativos. Este relatório é apenas informativo, não tem impacto direto na cobrança. Para obter mais informações, consulte a [documentação detalhada](../../audiences/using/active-profiles.md).
+* A Adobe Campaign agora fornece um relatório que exibe o número de perfis ativos. Este relatório é apenas informativo, não tem impacto direto na cobrança. Para obter mais informações, consulte a [documentação detalhada](../../audiences/using/active-profiles.md).
 * Correção de um problema que impedia a inscrição de perfis em um serviço ao usar a API Perfis e serviços.
 
-## Versão 17.7 - julho de 2017 {#release-17-7---july-2017}
+## Versão 17.7 - Julho de 2017 {#release-17-7---july-2017}
 
 **Novos recursos**
 
@@ -193,26 +193,26 @@ _Perfis e públicos-alvo_
  <tbody> 
   <tr> 
    <td> E-mail multilíngue e delivery SMS<br /> </td> 
-   <td> Defina e execute delivery de email e SMS multilíngues por meio de um único delivery, com base no idioma preferencial de seus clientes segmentados automaticamente. Relate o desempenho de cada delivery até os níveis de idioma e individual.<br /> Cada vez mais empresas enfrentam o desafio de fornecer conteúdo em vários idiomas à medida que crescem em casa e no exterior. Como tal, a simplificação do delivery de mensagens localizado é uma parte essencial de uma estratégia eficaz de comunicação dos clientes para empresas multinacionais; empresas em países com múltiplas línguas; e empresas que desejam personalizar ainda mais seu conteúdo em nível de idioma, independentemente de onde os clientes residam. Para obter mais informações, consulte a <a href="../../channels/using/creating-a-multilingual-email.md">documentação detalhada</a>.<br /> </td> 
+   <td> Defina e execute delivery de email e SMS multilíngues por meio de um único delivery, com base no idioma preferencial de seus clientes segmentados automaticamente. Relate o desempenho de cada delivery até os níveis de idioma e pessoa.<br /> Cada vez mais empresas enfrentam o desafio de fornecer conteúdo em vários idiomas à medida que crescem em casa e no exterior. Como tal, a simplificação do delivery de mensagens localizado é uma parte essencial de uma estratégia eficaz de comunicação dos clientes para empresas multinacionais; empresas em países com múltiplas línguas; e empresas que desejam personalizar ainda mais seu conteúdo em nível de idioma, independentemente de onde os clientes residam. Para obter mais informações, consulte a <a href="../../channels/using/creating-a-multilingual-email.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Notificações de Adobe Campaign<br /> </td> 
+   <td> Notificações da Adobe Campaign<br /> </td> 
    <td> Receba notificações relacionadas a atividades importantes do sistema diretamente no Adobe Campaign Standard. Você será notificado, por exemplo, sobre o progresso de seus delivery em andamento ou quando um fluxo de trabalho estiver com erro.<br /> As notificações em tempo real mantêm as partes interessadas relevantes informadas e fornecem aos usuários a capacidade de agir imediata e diretamente nas notificações de atividade no aplicativo. O resultado para as equipes é agilidade avançada, eficiência e execução mais suave do campanha. Para obter mais informações, consulte a <a href="../../administration/using/sending-internal-notifications.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Alerta de Delivery<br /> </td> 
-   <td> Além de visualizar notificações diretamente no Adobe Campaign Standard, o Adobe Campaign agora também fornece um sistema de alerta por email para acionar alertas por email a usuários ou participantes externos de atividades importantes do sistema. Crie, gerencie e receba painéis e alertas personalizáveis para rastrear sucessos ou falhas de delivery.<br /> O Alerta de Delivery do Adobe Campaign aumenta a eficiência, mantendo todos os usuários envolvidos do Adobe Campaign em uma empresa automaticamente informados sobre o status de execução do delivery, por email e painel. Para obter mais informações, consulte a <a href="../../sending/using/receiving-alerts-when-failures-happen.md">documentação detalhada</a>.<br /> </td> 
+   <td> Alerta de delivery<br /> </td> 
+   <td> Além de visualizar notificações diretamente no Adobe Campaign Standard, a Adobe Campaign agora também fornece um sistema de alerta por email para acionar alertas por email a usuários ou participantes externos de atividades importantes do sistema. Crie, gerencie e receba painéis e alertas personalizáveis para rastrear sucessos ou falhas de delivery.<br /> Os Alertas de Delivery do Adobe Campaign aumentam a eficiência ao manter todos os usuários envolvidos do Adobe Campaign em uma empresa automaticamente informados sobre o status de execução do delivery, por email e painel. Para obter mais informações, consulte a <a href="../../sending/using/receiving-alerts-when-failures-happen.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> ID declarada criptografada em fontes de dados<br /> </td> 
-   <td> Envie acionadores de email e SMS sem precisar de um perfil existente na Campanha usando informações de contato criptografadas (endereço de email ou número de telefone) como uma ID declarada. Como as IDs declaradas criptografadas podem ser decodificadas pelo Adobe Campaign Standard, a Campanha agora pode criar novos perfis comercializáveis ao receber audiências de outras soluções Experience Cloud que contenham contatos desconhecidos anteriormente.<br /> Clientes de Públicos alvos e prospectos desconhecidos em tempo real por meio de email e SMS para melhorar a fidelidade em sua base de clientes existente e adquirir novos clientes, respectivamente. Aproveite ao máximo seus dados de cookies primários (do Adobe Audience Manager*) uma vez que os prospectos autenticarem e aproveitarem esses insights no Adobe Campaign. <br /> *Adobe Audience Manager é necessário. Para obter mais informações, consulte a <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">documentação detalhada</a>.<br /> </td> 
+   <td> Envie acionadores de email e SMS sem precisar de um perfil existente na Campanha usando informações de contato criptografadas (endereço de email ou número de telefone) como uma ID declarada. Como as IDs declaradas criptografadas podem ser decodificadas pela Adobe Campaign Standard, a Campaign agora pode criar novos perfis comercializáveis ao receber audiências de outras soluções Experience Cloud que contenham contatos desconhecidos anteriormente.<br /> Clientes de públicos alvos e prospectos desconhecidos em tempo real por meio de email e SMS para melhorar a fidelidade em sua base de clientes existente e adquirir novos clientes, respectivamente. Aproveite ao máximo seus dados de cookies originais (da Adobe Audience Manager*) uma vez que os prospectos autenticarem e aproveitarem esses insights no Adobe Campaign. <br /> *Adobe Audience Manager é necessário. Para obter mais informações, consulte a <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Compartilhamento de KPI da Campanha para o Analytics<br /> </td> 
-   <td> Compartilhe dados de campanha com a Adobe Analytics para medir métricas de marketing por email da Campanha, juntamente com outros esforços de marketing e publicidade por meio da conversão, unificando o comportamento pré e pós-clique.<br /> Acompanhe diretamente o desempenho geral e descubra sinergias com programas externos na Analytics. Aplique seu aprendizado desta visualização consolidada de volta às suas campanhas; melhorando, em última análise, o desempenho aberto, de click-through e taxas de conversão, aumentando a receita e o desempenho geral da campanha. <br /> O Adobe Analytics é obrigatório. Para obter mais informações, consulte a <a href="../../integrating/using/about-campaign-analytics-integration.md">documentação detalhada</a>.<br /> </td> 
+   <td> KPI sharing from Campaign to Analytics<br /> </td> 
+   <td> Compartilhe dados de campanha com a Adobe Analytics para medir métricas de marketing por email da Campanha, juntamente com outros esforços de marketing e publicidade por meio da conversão, unificando o comportamento pré e pós-clique.<br /> Acompanhe diretamente o desempenho geral e descubra sinergias com programas externos no Analytics. Aplique seu aprendizado desta visualização consolidada de volta às suas campanhas; melhorando, em última análise, o desempenho aberto, de click-through e taxas de conversão, aumentando a receita e o desempenho geral da campanha. <br /> Adobe Analytics é obrigatório. Para obter mais informações, consulte a <a href="../../integrating/using/about-campaign-analytics-integration.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Canal De Mala Direta - Retornar Ao Remetente<br /> </td> 
+   <td> Direct Mail Channel - Return To Sender<br /> </td> 
    <td> Agora há suporte para trocas de arquivos simples com provedores de Mala direta incorporando informações de Retorno ao remetente. Essa melhoria no canal de mala direta permite que endereços postais correspondentes sejam excluídos de futuras comunicações.<br /> Isso permite que os profissionais de marketing sejam notificados de um endereço incorreto e interajam com o cliente por meio de outros canais ou que o incentivem a atualizar seu endereço postal. Isso também reduz o número de dólares de marketing desperdiçados, já que os profissionais de marketing evitam enviar emails para endereços incorretos. <br /> A Mala direta está disponível como um canal complementar. Para obter mais informações, consulte a <a href="../../channels/using/return-to-sender.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
  </tbody> 
@@ -248,14 +248,14 @@ _Relatórios_
 * Correção de um problema que mostrava valores como desconhecidos quando um delivery era criado fora de uma campanha.
 * Correção de um problema que mostrava dados de relatório SMS como dados de aplicativo móvel.
 
-_Workflows_
+_Fluxos de trabalho_
 
 * Agora é possível filtrar logs de fluxo de trabalho (período de tempo e pesquisa de texto). For more information, refer to the [detailed documention](../../automating/using/monitoring-workflow-execution.md).
 * Uma opção agora está disponível em delivery de fluxo de trabalho para desativar a confirmação antes do envio.
 * Correção de um problema que impedia a configuração de uma transição de saída no assistente de criação de delivery recorrentes.
 * Correção de um problema que ocorria ao usar uma atividade de query de fluxo de trabalho com base em um campo de recurso personalizado com uma lista discriminada com muitos valores
 
-## Versão 17.5 - maio de 2017 {#release-17-5---may-2017}
+## Versão 17.5 - Maio de 2017 {#release-17-5---may-2017}
 
 **Novos recursos**
 
@@ -269,11 +269,11 @@ _Workflows_
  <tbody> 
   <tr> 
    <td> Correspondência direta<br /> </td> 
-   <td> Atravesse a barreira digital e conecte-se ao mundo físico com o primeiro canal offline do Adobe Campaign Standard, Mala direta. Esse recurso permite que você personalize e gere o arquivo necessário para provedores de mala direta como parte de suas campanhas entre canais. Aproveite a Mala direta para envolver novamente os clientes ou aprimorar a experiência do cliente com um ponto de contato atraente e tátil, levando os clientes ao seu aplicativo, site ou loja.<br /> Para obter mais informações, consulte a <a href="../../channels/using/about-direct-mail.md">documentação detalhada</a>.<br /> </td> 
+   <td> Quebre a barreira digital e conecte-se ao mundo físico com o primeiro canal offline da Adobe Campaign Standard, Mala direta. Esse recurso permite que você personalize e gere o arquivo necessário para provedores de mala direta como parte de suas campanhas entre canais. Aproveite a Mala direta para envolver novamente os clientes ou aprimorar a experiência do cliente com um ponto de contato atraente e tátil, levando os clientes ao seu aplicativo, site ou loja.<br /> Para obter mais informações, consulte a <a href="../../channels/using/about-direct-mail.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Cco de email<br /> </td> 
-   <td> A Cco de email permite salvar mensagens de email únicas enviadas a recipient individuais, permitindo assim que a marca arquive essas mensagens. Ao adicionar um endereço de email CCO a todos os emails, os clientes do Adobe Campaign Standard podem manter uma cópia exata de cada email com esse recurso. Este é um requisito legal comum para o setor de serviços financeiros e é útil para auxiliar os centros de atendimento ao cliente na resolução de conflitos em tempo real.<br /> Para obter mais informações, consulte a <a href="../../sending/using/archiving.md">documentação detalhada</a>.<br /> </td> 
+   <td> A Cco de email permite salvar mensagens de email únicas enviadas a recipient individuais, permitindo assim que a marca arquive essas mensagens. Ao adicionar um endereço de email CCO a todos os emails, os clientes da Adobe Campaign Standard podem manter uma cópia exata de cada email com este recurso. Este é um requisito legal comum para o setor de serviços financeiros e é útil para auxiliar os centros de atendimento ao cliente na resolução de conflitos em tempo real.<br /> Para obter mais informações, consulte a <a href="../../sending/using/archiving.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -288,7 +288,7 @@ _Emails e mensagens SMS_
 
 * Correção de um problema que exibia a cor errada para o status do **[!UICONTROL Retry in progress]** delivery. A cor era cinza em vez de azul.
 
-_Workflows_
+_Fluxos de trabalho_
 
 * Correção de um problema que ocorria ao alterar a ação a ser executada em uma **[!UICONTROL Transfer file]** atividade.
 
@@ -302,7 +302,7 @@ _Notificações por push_
 * Correção de um problema que impedia que você clicasse em um evento de push em um histórico de marketing.
 * O uso de notificações por push em workflows foi aprimorado.
 
-## Versão 17.4 - abril de 2017 {#release-17-4---april-2017}
+## Versão 17.4 - Abril de 2017 {#release-17-4---april-2017}
 
 **Novos recursos**
 
@@ -315,12 +315,12 @@ _Notificações por push_
  </thead> 
  <tbody> 
   <tr> 
-   <td> Recursos aprimorados da edição de imagens com o Creative SDK<br /> </td> 
-   <td> Agora você tem acesso a um conjunto completo de recursos capacitados pelo Creative SDK para aprimorar suas imagens diretamente no editor de conteúdo ao editar emails ou landings page.<br /> Esse recurso não exige a aquisição de soluções adicionais da Creative Cloud.<br /> Para obter mais informações, consulte a <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">documentação detalhada</a>.<br /> </td> 
+   <td> Enhanced Image edition capabilities with the Creative SDK<br /> </td> 
+   <td> Agora você tem acesso a um conjunto completo de recursos capacitados pelo Creative SDK para aprimorar suas imagens diretamente no editor de conteúdo ao editar emails ou landings page.<br /> Esse recurso não exige a aquisição de soluções adicionais de Creative Cloud.<br /> Para obter mais informações, consulte a <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Notificações por push transacionais<br /> </td> 
-   <td> O aplicativo móvel foi adicionado aos recursos de mensagens transacionais do Adobe Campaign. Três canais agora são suportados para mensagens transacionais: email, SMS e notificações por push.<br /> Para obter mais informações, consulte a <a href="../../channels/using/transactional-push-notifications.md">documentação detalhada</a>.<br /> </td> 
+   <td> O canal do aplicativo móvel foi adicionado aos recursos de mensagens transacionais da Adobe Campaign. Três canais agora são suportados para mensagens transacionais: email, SMS e notificações por push.<br /> Para obter mais informações, consulte a <a href="../../channels/using/transactional-push-notifications.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Notificações por push recorrentes<br /> </td> 
@@ -328,18 +328,18 @@ _Notificações por push_
   </tr> 
   <tr> 
    <td> Amazon Simple Storage Service (S3) connector<br /> </td> 
-   <td> O conector do Amazon Simple Armazenamento Service (S3) agora pode ser usado para importar ou exportar dados para o Adobe Campaign. Ele pode ser configurado em uma atividade de workflow. A configuração é feita em uma conta externa.<br /> Para obter mais informações, consulte a <a href="../../administration/using/external-accounts.md">documentação detalhada</a>.<br /> </td> 
+   <td> O conector do Serviço de Armazenamento Simples (S3) da Amazon agora pode ser usado para importar ou exportar dados para a Adobe Campaign. Ele pode ser configurado em uma atividade de workflow. A configuração é feita em uma conta externa.<br /> Para obter mais informações, consulte a <a href="../../administration/using/external-accounts.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Integração do Dreamweaver ativa<br /> </td> 
-   <td> A integração entre o Adobe Campaign e o Dreamweaver está agora em execução. Agora funciona com a última versão oficial do Dreamweaver (17.0.2).<br /> Isso requer a instalação da extensão de integração de Adobe Campaign aqui: <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon</a><br /> Para obter mais informações, consulte este <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">vídeo</a>.<br /> </td> 
+   <td> Integração Dreamweaver ao vivo<br /> </td> 
+   <td> A integração entre a Adobe Campaign e a Dreamweaver está em execução. Agora, ele funciona com a última versão oficial do Dreamweaver (17.0.2).<br /> Isso requer a instalação da extensão de integração da Adobe Campaign aqui: <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon</a><br /> Para obter mais informações, consulte este <a href="https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">vídeo</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Correções**
 
-_Platform_
+_Plataforma_
 
 * Corrigido um problema de consumo de memória.
 
@@ -362,7 +362,7 @@ _Páginas de aterrissagem_
 * Correção de um problema que exibia entradas de texto livre em vez de caixas de seleção ao usar campos booleanos em uma configuração de formulário.
 * Correção de um problema que impedia a geração de miniaturas de landing page.
 
-_Workflows_
+_Fluxos de trabalho_
 
 * Corrigido um erro de exibição ao editar uma **[!UICONTROL End]** ou **[!UICONTROL External Signal]** atividade (somente no Safari).
 * A mensagem de erro exibida ao editar uma **[!UICONTROL Read Audience]** atividade contendo uma audiência incorreta foi aprimorada.
@@ -400,12 +400,12 @@ _Notificações por push_
  </thead> 
  <tbody> 
   <tr> 
-   <td> relatórios dinâmico<br /> </td> 
+   <td> Relatórios dinâmico<br /> </td> 
    <td> O Relatórios dinâmico oferece uma nova geração de relatórios comerciais em tempo real e totalmente personalizáveis. Com base em tabelas e gráficos pivô dinâmicos visuais, esse recurso permite que você arraste e solte variáveis e dimensões para analisar a eficiência e a eficácia de suas campanhas de marketing. O relatórios dinâmico também permite que você crie seus próprios relatórios de negócios do zero e salve-os para uso posterior.<br /> Para obter mais informações, consulte a <a href="../../reporting/using/about-dynamic-reports.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Integração do Dreamweaver (Labs)<br /> </td> 
-   <td> Com a integração do Adobe Campaign e do Dreamweaver, agora você tem um processo integrado para criar campanhas de e-mail com as soluções da Adobe.<br /> É possível editar emails de Adobe Campaign no Dreamweaver e fazer com que o conteúdo seja sincronizado perfeitamente entre ambas as soluções.<br /> Para a versão inicial, a integração está disponível como um recurso "Labs" e funciona somente com o pré-lançamento Beta do Dreamweaver. Se você quiser ativá-lo, entre em contato com AC-DW-integration@adobe.com.<br /> Para obter mais informações, consulte este <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">vídeo</a>.<br /> </td> 
+   <td> Integração Dreamweaver (Labs)<br /> </td> 
+   <td> Com a integração entre Adobe Campaign e Dreamweaver, agora você tem um processo integrado para criar campanhas de e-mail com soluções de Adobe.<br /> Você pode editar emails da Adobe Campaign no Dreamweaver e fazer com que o conteúdo seja sincronizado perfeitamente entre ambas as soluções.<br /> Para a versão inicial, a integração está disponível como um recurso "Labs" e funciona somente com o Dreamweaver Pre-Release Beta. Se você quiser ativá-lo, entre em contato com AC-DW-integration@adobe.com.<br /> Para obter mais informações, consulte este <a href="https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">vídeo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Otimização do tempo de envio manual<br /> </td> 
@@ -430,8 +430,8 @@ _Notificações por push_
    <td> Workflows: nova atividade de sinal<br /> </td> 
    <td> Acione um fluxo de trabalho de outro fluxo de trabalho usando a nova atividade <span class="uicontrol">de sinal</span> .<br /> Com a capacidade de start de um fluxo de trabalho de outro, agora você pode oferecer suporte a jornadas de clientes mais complexas. É possível monitorar melhor as viagens do cliente e reagir em caso de problemas.<br /> Várias atividades de fluxo de trabalho foram atualizadas:<br /> 
     <ul> 
-     <li> <span class="uicontrol">atividade final</span> : uma nova guia permite que você especifique um fluxo de trabalho a ser acionado após a execução dessa atividade. </li> 
-     <li> <span class="uicontrol">Atualizar atividade de dados</span> : use a nova transição de saída vazia para adicionar uma atividade <strong>End</strong> que aciona outro fluxo de trabalho. transições de saída vazias não carregam dados e não consomem espaço desnecessário no sistema </li> 
+     <li> <span class="uicontrol">Atividade final</span> : uma nova guia permite que você especifique um fluxo de trabalho a ser acionado após a execução dessa atividade. </li> 
+     <li> <span class="uicontrol">Atualizar atividade de dados</span> : use a nova transição de saída vazia para adicionar uma atividade <strong>End</strong> que aciona outro fluxo de trabalho. Transições de saída vazias não carregam dados e não consomem espaço desnecessário no sistema </li> 
     </ul> Para obter mais informações, consulte a <a href="../../automating/using/external-signal.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
@@ -440,7 +440,7 @@ _Notificações por push_
   </tr> 
   <tr> 
    <td> Dados de Pontos de interesse<br /> </td> 
-   <td> Os dados de Pontos de interesse integram o Adobe Campaign com a Adobe Analytics for Mobile. Uma marca pode coletar dados dos locais móveis dos usuários - chamados de <strong>Pontos de interesse</strong> - quando eles abrem o aplicativo da marca. Isso permite que a marca utilize workflows Adobe Campaign para enviar mensagens personalizadas com base na localização dos usuários. Esse canal aproveita o SDK do serviço principal do Mobile.<br /> Observe que o uso desse recurso exige o Analytics for Mobile, que é uma solução paga.<br /> Para obter mais informações, consulte a <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">documentação detalhada</a>.<br /> </td> 
+   <td> Os dados de Pontos de interesse integram a Adobe Campaign à Adobe Analytics para dispositivos móveis. Uma marca pode coletar dados dos locais móveis dos usuários - chamados de <strong>Pontos de interesse</strong> - quando eles abrem o aplicativo da marca. Isso permite que a marca utilize workflows Adobe Campaign para enviar mensagens personalizadas com base na localização dos usuários. Esse canal aproveita o SDK do serviço principal do Mobile.<br /> Observe que o uso desse recurso exige o Analytics para dispositivos móveis, que é uma solução paga.<br /> Para obter mais informações, consulte a <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> REST APIs<br /> </td> 
@@ -465,7 +465,7 @@ _Páginas de aterrissagem_
 
 * Correção de um erro que impedia um usuário de editar ao clicar no conteúdo de uma landing page.
 
-_Workflows_
+_Fluxos de trabalho_
 
 * Correção de um problema que impedia a leitura do conteúdo da transição de rejeição de uma **[!UICONTROL Load file]** atividade.
 * Correção de um problema que impedia que colunas trocadas fossem levadas em conta corretamente ao configurar uma **[!UICONTROL Load file]** atividade.
@@ -494,10 +494,10 @@ _Workflows_
    <td> Capacidades de marketing para mensagens transacionais<br /> </td> 
    <td> Os profissionais de marketing agora podem enviar mensagens transacionais com base em perfis de marketing do cliente. Isso permite que eles:<br /> 
     <ul> 
-     <li> Aplique regras de tipologia de marketing como <span class="uicontrol">Endereço na lista</span> de blocos. </li> 
-     <li> Inclua o link de unsubscription nas mensagens. </li> 
-     <li> Adicione os mensagens transacionais ao relatórios global do delivery. </li> 
-     <li> Aproveite os mensagens transacionais na jornada do cliente. </li> 
+     <li> Aplique regras de tipologia de marketing, como <span class="uicontrol">Incluir na lista de bloqueios endereço</span> . </li> 
+     <li> Incluir o link de unsubscription nas mensagens. </li> 
+     <li> Adicionar as mensagens transacionais aos relatórios globais do delivery. </li> 
+     <li> Usar as mensagens transacionais na jornada do cliente. </li> 
     </ul> Para obter mais informações, consulte a <a href="../../channels/using/profile-transactional-messages.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
@@ -505,7 +505,7 @@ _Workflows_
    <td> A API de mensagens transacionais agora está disponível por meio do <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">adobe.io</a>, facilitando o uso e o monitoramento:<br /> 
     <ul> 
      <li> Você pode se beneficiar do relatórios da plataforma adobe.io e dos recursos de monitoramento. </li> 
-     <li> A autenticação agora é realizada usando a autenticação baseada em token adobe.io em vez da lista de permissões de IP, tornando o processo de segurança mais simples. </li> 
+     <li> A autenticação agora é realizada usando a autenticação baseada em token adobe.io em vez de incluir na lista de permissões IP, tornando o processo de segurança mais simples. </li> 
      <li> Todas as APIs agora estão integradas em uma única plataforma, tornando mais simples do que nunca adicionar recursos de mensagens transacionais à sua integração se você já oferecer suporte à API de Perfis e serviços. </li> 
     </ul> </td> 
   </tr> 
@@ -530,9 +530,9 @@ _Notificações por push_
 * Correção de um problema que pode ter impedido o postback de um aplicativo para o servidor Adobe Campaign.
 * Correção de um problema que pode ter impedido **[!UICONTROL Play a sound]** e **[!UICONTROL Custom fields]** sido considerado para Android.
 * Correção de um problema que resultava na adição de um caractere de escape extra a caracteres Unicode usados para Emojis.
-* Quando o token de registro de um assinante é adicionado à lista de blocos, o status correspondente agora é imediatamente atualizado na lista de assinantes do aplicativo no Adobe Campaign.
+* Quando o token de registro de um assinante é incluir na lista de bloqueios, o status correspondente agora é imediatamente atualizado na lista de assinantes do aplicativo no Adobe Campaign.
 
-_Workflows_
+_Fluxos de trabalho_
 
 * Correção de um problema que pode ter impedido pré-visualizações de query em recursos de evento (por exemplo, rtEvent).
 * O arquivo de rejeição gerado por uma **[!UICONTROL Load file]** atividade agora pode ser recuperado em sua transição de saída e processado na próxima atividade. Por exemplo, carregue o arquivo de rejeição por meio de um servidor SFTP usando **[!UICONTROL Transfer file]** .
@@ -542,7 +542,7 @@ _Workflows_
 
 _Integrações_
 
-* Correção de um problema que pode ter causado um erro ao implantar um acionador de evento no Adobe Campaign. Esse erro ocorria quando os metadados &quot;Probancy to Return in 30 Days&quot; eram adicionados ao acionador de Abandono no Adobe Marketing Cloud.
-* Corrigido um problema que fazia com que o fluxo de trabalho técnico limpasse o campo Dimensão do Público alvo ao importar audiências do serviço principal de Pessoas. Os query subsequentes não puderam recuperar as audiências importadas.
+* Correção de um problema que pode ter causado um erro ao implantar um acionador de evento no Adobe Campaign. Esse erro ocorria quando os metadados &quot;Probabilidade de retorno em 30 dias&quot; eram adicionados ao acionador de Abandono no Adobe Marketing Cloud.
+* Correção de um problema que pode ter feito com que o fluxo de trabalho técnico limpe o campo Dimension do Público alvo ao importar audiências do serviço principal de Pessoas. Os query subsequentes não puderam recuperar as audiências importadas.
 * Correção de um problema que resultava na falha da **[!UICONTROL Save audience]** atividade de um fluxo de trabalho quando a opção **[!UICONTROL Share in Adobe Marketing Cloud]** era marcada.
 
