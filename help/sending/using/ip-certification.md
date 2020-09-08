@@ -1,6 +1,6 @@
 ---
-title: Permitir listas no Adobe Campaign Standard
-description: Saiba como otimizar listas de permissões com Adobe Campaign Standard.
+title: lista de permissões no Adobe Campaign Standard
+description: Saiba como otimizar lista de permissões com o Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,10 +13,10 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 67%
+source-wordcount: '322'
+ht-degree: 68%
 
 ---
 
@@ -27,7 +27,7 @@ A certificação IP é um programa de práticas recomendadas de envio que ajuda 
 
 Atualmente, dois provedores oferecem certificação IP: Return Path e Certified Senders Alliance.
 
-Os remetentes certificados são adicionados às listas de permissão de email usadas pelos provedores globais de caixa de correio e empresas de segurança de email. Essas listas de permissão comercial são baseadas em um sistema que permite ao remetente ignorar totalmente os filtros antisspam ou receber pontos incrementais à medida que ele entra no sistema.
+Os remetentes certificados são incluir na lista de permissões, usados por provedores de caixa de correio global e empresas de segurança de email. Essas  comerciais de lista de permissões baseiam-se em um sistema que permite ao remetente ignorar totalmente filtros antisspam ou receber pontos incrementais à medida que ele entra no sistema.
 
 O programa [Return Path Certification](https://www.validity.com/products/returnpath/certification/) oferece vários benefícios, incluindo:
 * Um aumento mensurável no posicionamento da caixa de entrada nos principais provedores de caixa de correio, como Microsoft, AOL, Yahoo, Gmail, Comcast, Orange, Mail.ru e outros
