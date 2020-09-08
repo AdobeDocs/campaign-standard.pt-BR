@@ -12,9 +12,9 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '2031'
+source-wordcount: '2028'
 ht-degree: 2%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 2%
 
 ## Sobre alertas de delivery {#about-delivery-alerting}
 
-O recurso de alerta **do** Delivery é um sistema de gerenciamento de alertas que permite que um grupo de usuários receba automaticamente notificações contendo informações sobre a execução de seus delivery.
+The **Delivery alerting** feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries.
 
 As notificações enviadas contêm um relatório com base, por padrão, nos seguintes critérios:
 
-* delivery com falha
+* Delivery com falha
 * Delivery com falha na preparação
 * Delivery com uma taxa de erro de rejeição suave incorreta
 * Delivery com uma taxa de erro de rejeição em disco rígido
@@ -36,7 +36,7 @@ As notificações enviadas contêm um relatório com base, por padrão, nos segu
 * Delivery com baixa throughput
 * Delivery em andamento
 
-Os recipient dos alertas podem monitorar os delivery que estão sendo processados pelo Adobe Campaign e tomar as medidas apropriadas quando houver problemas na execução.
+Os recipient dos alertas podem monitorar os delivery que estão sendo processados pela Adobe Campaign e tomar as medidas apropriadas quando houver problemas na execução.
 
 Essas notificações de alerta podem ser personalizadas dependendo de critérios de alerta específicos definidos por meio de um painel na interface do Adobe Campaign.
 
@@ -51,7 +51,7 @@ As notificações enviadas contêm:
 
 ![](assets/delivery-alerting_notification.png)
 
-## painéis de alerta do Delivery {#delivery-alerting-dashboards}
+## Painéis de alerta do delivery {#delivery-alerting-dashboards}
 
 ### Sobre painéis de alerta de delivery {#about-delivery-alerting-dashboards}
 
@@ -90,12 +90,12 @@ Se desejar enviar notificações com base em critérios específicos para grupos
 
 1. Selecione o grupo de recipient que deseja notificar na lista **[!UICONTROL Alert group]** suspensa. Para modificar ou criar um grupo, consulte [Criação de um grupo de segurança e atribuição de usuários](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users).
 1. Na **[!UICONTROL Delivery alerting criteria]** seção, clique **[!UICONTROL Create element]** para adicionar critérios. Consulte [Sobre critérios](#about-alerting-criteria)de alerta.
-1. Selecione o **[!UICONTROL Edit properties]** botão. Na **[!UICONTROL Criteria parameters]** guia, defina como os critérios serão aplicados. Consulte Parâmetros [de critérios](#criteria-parameters).
-1. Clique em **[!UICONTROL Create]** para salvar o painel.
+1. Selecione o botão **[!UICONTROL Edit properties]**. Na **[!UICONTROL Criteria parameters]** guia, defina como os critérios serão aplicados. Consulte Parâmetros [de critérios](#criteria-parameters).
+1. Click **[!UICONTROL Create]** to save the dashboard.
 
 Agora, cada vez que um delivery atender aos critérios definidos nesse painel, uma notificação de alerta será enviada para o grupo especificado de usuários.
 
-## Critérios de alerta do Delivery {#delivery-alerting-criteria}
+## Critérios de alerta do delivery {#delivery-alerting-criteria}
 
 ### Sobre os critérios de alerta {#about-alerting-criteria}
 
@@ -166,7 +166,7 @@ Para fazer isso, é necessário estender o recurso de **Delivery** e adicionar u
 
    Para obter mais informações sobre como criar e editar filtros personalizados, consulte [Definir filtros](../../developing/using/configuring-filter-definition.md).
 
-1. Salve as alterações e publique os recursos. Para obter mais informações, consulte [Publicação de um recurso](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)personalizado.
+1. Salve as alterações e publique os recursos. For more on this, see [Publishing a custom resource](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
    O filtro é criado e agora pode ser selecionado em um novo critério de alerta de delivery.
 
@@ -185,7 +185,7 @@ Depois de criados, esses critérios podem ser adicionados a um painel de alerta 
 
 [Adicionar ou estender um recurso](../../developing/using/key-steps-to-add-a-resource.md)
 
-## Parâmetros de alerta do Delivery {#delivery-alerting-parameters}
+## Parâmetros de alerta do delivery {#delivery-alerting-parameters}
 
 ### Parâmetros de critérios {#criteria-parameters}
 
@@ -222,15 +222,15 @@ A **[!UICONTROL Frequency of delivery alerting]** opção permite definir o atra
 >
 >Essa opção se aplica a todos os painéis definidos no Adobe Campaign. Não é possível definir uma frequência específica para cada painel.
 
-## Motivos de alerta do Delivery {#delivery-alerting-reasons}
+## Motivos de alerta do delivery {#delivery-alerting-reasons}
 
-O recurso de alerta **do** Delivery mantém todos os usuários envolvidos informados automaticamente sobre o status de execução do delivery, por email e painel.
+O recurso de alerta **do** Delivery mantém todos os usuários envolvidos do Adobe Campaign informados automaticamente sobre o status de execução do delivery, por email e painel.
 
 Agora, quando você recebe uma notificação de alerta de delivery, veja algumas dicas sobre o que você pode fazer.
 
 Primeiro, verifique a guia **Log** do delivery para visualização de todas as informações relacionadas ao delivery e provas. Os ícones vermelho e amarelo permitem identificar erros ou avisos. O ícone vermelho indica um erro crítico que impede que o delivery seja iniciado.
 
-Para visualização do histórico de cada ocorrência de um delivery, selecione a **[!UICONTROL Sending logs]** guia. Ele contém a lista de mensagens enviadas e seus status. Lá, você pode verificar o status do delivery para cada recipient ( **[!UICONTROL Sent]**, **[!UICONTROL Pending]**, **[!UICONTROL Failed]**, etc.). Para obter mais informações, consulte [Enviar logs](../../sending/using/monitoring-a-delivery.md#sending-logs).
+Para visualização do histórico de cada ocorrência de um delivery, selecione a **[!UICONTROL Sending logs]** guia. Ele contém a lista de mensagens enviadas e seus status. Lá, você pode verificar o status do delivery para cada recipient ( **[!UICONTROL Sent]**, **[!UICONTROL Pending]**, **[!UICONTROL Failed]**, etc.). For more on this, see [Sending logs](../../sending/using/monitoring-a-delivery.md#sending-logs).
 
 Estes são alguns motivos possíveis para receber notificações de alerta de acordo com os critérios que são atendidos para um delivery.
 
@@ -240,7 +240,8 @@ Estes são alguns motivos possíveis para receber notificações de alerta de ac
    * Tempo limite de conexão entre o servidor do delivery Adobe Campaign e o servidor receptor
    * Um problema de entrega
    * Um fluxo de trabalho incorreto
-   Se o delivery for acionado com um fluxo de trabalho, verifique se ele foi iniciado corretamente. For more on this, see [Executing a workflow](../../automating/using/about-workflow-execution.md). Caso contrário, entre em contato com o administrador do Adobe Campaign para resolver o problema.
+
+   Se o delivery for acionado com um fluxo de trabalho, verifique se ele foi iniciado corretamente. Para obter mais informações, consulte [Executar um fluxo de trabalho](../../automating/using/about-workflow-execution.md). Caso contrário, entre em contato com o administrador do Adobe Campaign para resolver o problema.
 
 * **[!UICONTROL Deliveries with preparation failed]**: Um erro pode ocorrer durante a preparação do delivery nos seguintes casos:
 
@@ -248,25 +249,28 @@ Estes são alguns motivos possíveis para receber notificações de alerta de ac
    * Há uma sintaxe incorreta nos campos de personalização.
    * O público alvo está faltando.
    * O delivery excede o limite de tamanho.
+
    Para obter mais informações, consulte [Preparação do envio](../../sending/using/preparing-the-send.md). No entanto, esses erros geralmente são detectados durante a análise da mensagem. Consulte Regras [de controle](../../sending/using/control-rules.md).
 
 * As possíveis causas de um **[!UICONTROL Delivery with bad error ratio for soft bounces]** alerta podem ser:
 
    * O servidor do recipient está inativo.
    * A caixa de correio do recipient está cheia.
+
    Para obter mais informações, verifique as guias **[!UICONTROL Exclusion logs]** e **[!UICONTROL Exclusion causes]** os logs do delivery. Consulte Logs [de exclusão](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
 
    As possíveis causas de um **[!UICONTROL Delivery with bad error ratio for hard bounces]** alerta podem ser:
 
-   * O recipient está na lista de blocos, o que significa que não deseja mais ser contatado.
+   * O recipient é incluir na lista de bloqueios, o que significa que não quer mais ser contatado.
    * O endereço de email do recipient não existe.
    * O domínio do recipient não existe.
    * O servidor do recipient está bloqueando o delivery.
+
    Para evitar erros de rejeição em modo suave e rígido, siga as práticas recomendadas abaixo:
 
    * Crie regras de tipologia de filtragem para excluir uma parte do público alvo de mensagens durante a análise do delivery, como recipient em quarentena. See [Creating a filtering rule](../../sending/using/filtering-rules.md).
    * Atualize regularmente o banco de dados do cliente para manter bons processos de gerenciamento de quarentenas. Consulte [Sobre quarentenas](../../sending/using/understanding-quarantine-management.md#about-quarantines).
-   * Em geral, melhore o melhor possível a capacidade de entrega. Consulte a documentação detalhada [Disponibilidade](../../sending/using/about-deliverability.md) do Adobe Campaign e entre em contato com o administrador do Adobe Campaign para obter assistência.
+   * Em geral, melhore o melhor possível a capacidade de entrega. Consulte a documentação detalhada do Adobe Campaign [Deliverability](../../sending/using/about-deliverability.md) e entre em contato com o administrador da Adobe Campaign para obter assistência.
 
 
 
@@ -274,11 +278,11 @@ Estes são alguns motivos possíveis para receber notificações de alerta de ac
 
    **[!UICONTROL Deliveries with low throughput]**: Mais uma vez, este é um problema de entrega, o que significa que o MTA é muito lento.
 
-   Para obter mais informações sobre esses problemas, entre em contato com o administrador do Adobe Campaign.
+   Para obter mais informações sobre esses problemas, entre em contato com o administrador da Adobe Campaign.
 
 **Tópicos relacionados:**
 
-* [Noções básicas sobre falhas de entrega](../../sending/using/understanding-delivery-failures.md)
+* [Noções básicas sobre falhas de delivery](../../sending/using/understanding-delivery-failures.md)
 * [Noções básicas sobre gestão de quarentena](../../sending/using/understanding-quarantine-management.md)
 * [Sobre participação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
