@@ -12,15 +12,15 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b04a5efdde3153d3ede0ad8bc4f56cd4a5fa1df
+source-git-commit: 87f65e6225f7f22ab347aac33ea9d769af299030
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 1%
+source-wordcount: '491'
+ht-degree: 2%
 
 ---
 
 
-# Why use Campaign Standard APIs {#why-using-campaign-standard-apis}
+# Por que usar APIs do Campaign Standard {#why-using-campaign-standard-apis}
 
 A Adobe Campaign Standard fornece APIs que permitem a integração de sistemas existentes com a plataforma ACS para solucionar problemas reais em tempo real.
 
@@ -30,7 +30,7 @@ Estes são alguns exemplos:
 
 * Prospectos de registro online.
 * Gerenciamento de preferência de perfis do cliente e comunicação de marketing existente.
-* Disparo de comunicação transacional com base no Evento - confirmação de ordem, reserva do Itinerário, redefinição de senha, etc.
+* Disparo de comunicação transacional com base no evento - confirmação de ordem, reserva do Itinerário, redefinição de senha, etc.
 * Até mesmo comunicação por email de abandono de carrinho.
 
 O landing page de inscrição fornece aos clientes ou prospectos uma maneira de registrarem seu nome e endereço de email. Depois que o Campaign Standard capturar as informações e preferências do perfil, ele poderá enviar mensagens personalizadas com base nos interesses da pessoa.
