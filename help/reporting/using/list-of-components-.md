@@ -12,9 +12,9 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a373eb6546cb3c726e8b6807f6b47b14b3e520e6
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1273'
 ht-degree: 2%
 
 ---
@@ -152,11 +152,11 @@ As tabelas abaixo fornecem a lista das métricas usadas nos relatórios e suas d
  </thead> 
  <tbody> 
   <tr> 
-   <td> Na lista de bloqueios<br /> </td> 
+   <td> incluir na lista de bloqueios<br /> </td> 
    <td> Número de recipient que declararam um email como spam ou lixo eletrônico.<br /> </td> 
   </tr> 
   <tr> 
-   <td> taxa de lista de bloqueios<br /> </td> 
+   <td> lista de bloqueios taxa de<br /> </td> 
    <td> Porcentagem de delivery marcados na lista de bloqueios.<br /> </td> 
   </tr> 
   <tr> 
