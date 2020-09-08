@@ -13,7 +13,7 @@ context-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '1727'
 ht-degree: 2%
@@ -30,7 +30,7 @@ ht-degree: 2%
          <th>Nome</th>
          <th>Rótulo</th>
          <th>Tipo (comprimento)</th>
-         <th>valores de Lista discriminada</th>
+         <th>valores de lista discriminada</th>
       </tr>
       <tr>
          <td>PKey</td>
@@ -93,7 +93,7 @@ ht-degree: 2%
          <td> </td>
       </tr>
       <tr>
-         <td>created</td>
+         <td>criado</td>
          <td>Criado</td>
          <td>date </td>
          <td> </td>
@@ -343,7 +343,7 @@ ht-degree: 2%
       </tr>
       <tr>
          <td>messageAction</td>
-         <td>Mensagem de envio do Start</td>
+         <td>Mensagem de envio do start</td>
          <td>booleano </td>
          <td> </td>
       </tr>
@@ -403,7 +403,7 @@ ht-degree: 2%
       </tr>
       <tr>
          <td>validationFilterMapping</td>
-         <td>Parâmetros de Chave de reconciliação</td>
+         <td>Parâmetros de chave de reconciliação</td>
          <td>coleção </td>
          <td> </td>
       </tr>
@@ -431,7 +431,7 @@ ht-degree: 2%
          <td>lista discriminada (byte) </td>
          <td>
             <ul>
-               <li>Lista de bloqueios - blockList - 3</li>
+               <li>Lista negra - Lista negra - 3</li>
                <li>Nenhuma ação específica - nenhuma - 0</li>
                <li>Unsubscription - unsubscription - 2</li>
                <li>VALOR INVÁLIDO - __Valor_inválido__ - __Valor_inválido__</li>
@@ -467,7 +467,7 @@ ht-degree: 2%
       </tr>
       <tr>
          <td>template (landingPage)</td>
-         <td>modelo de Landing page</td>
+         <td>modelo de landing page</td>
          <td>link </td>
          <td> </td>
       </tr>
@@ -636,7 +636,7 @@ ht-degree: 2%
             <ul>
                <li>Genérico - genérico - 0</li>
                <li>Unsubscription de um serviço - unsubscription - 3</li>
-               <li>Lista de bloqueios - blockList - 4</li>
+               <li>Lista negra - Lista negra - 4</li>
                <li>VALOR INVÁLIDO - __Valor_inválido__ - __Valor_inválido__</li>
                <li>Aquisição - aquisição - 1</li>
                <li>Subscrição a um serviço - subscrição - 2</li>
