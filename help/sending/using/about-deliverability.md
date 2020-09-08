@@ -1,6 +1,6 @@
 ---
 title: Sobre a capacidade de entrega no Adobe Campaign Standard
-description: Saiba mais sobre os conceitos e as práticas recomendadas relacionadas à capacidade de entrega, bem como sobre as ferramentas oferecidas pelo Adobe Campaign Standard para otimizar o envio dos delivery.
+description: Saiba mais sobre os conceitos e as práticas recomendadas relacionadas à capacidade de entrega, bem como sobre as ferramentas oferecidas pela Adobe Campaign Standard para otimizar o envio dos delivery.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '662'
 ht-degree: 82%
 
 ---
@@ -51,13 +51,13 @@ Em primeiro lugar, consulte a documentação sobre as ferramentas de entrega for
 * [Personalização do nome do remetente](../../designing/using/personalization.md#personalizing-the-sender)
 * [Teste da linha de assunto de um email](../../sending/using/testing-subject-line-email.md)
 * [Otimização do tempo de envio](../../sending/using/optimizing-the-sending-time.md)
-* [Visualizar mensagens](../../sending/using/previewing-messages.md)
+* [Visualização de mensagens](../../sending/using/previewing-messages.md)
 * [Renderização de email](../../sending/using/email-rendering.md)
-* [Monitoramento de uma entrega](../../sending/using/monitoring-a-delivery.md)
+* [Monitoramento de um delivery](../../sending/using/monitoring-a-delivery.md)
 * [Receber alertas quando ocorrerem falhas](../../sending/using/receiving-alerts-when-failures-happen.md)
-* [Noções básicas sobre falhas de entrega](../../sending/using/understanding-delivery-failures.md)
+* [Noções básicas sobre falhas de delivery](../../sending/using/understanding-delivery-failures.md)
 * [Noções básicas sobre gestão de quarentena](../../sending/using/understanding-quarantine-management.md)
-* [Quarentena vs lista de blocos](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
+* [Quarentena vs lista de bloqueios](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
 * [Relatórios dinâmicos](../../reporting/using/about-dynamic-reports.md)
 
 ## Verificando a configuração da rede {#network-configuration}
