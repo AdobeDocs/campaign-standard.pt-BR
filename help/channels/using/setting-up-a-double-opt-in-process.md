@@ -12,10 +12,10 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 89%
+source-wordcount: '1146'
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,7 @@ O princípio é enviar um email para confirmar o contrato do visitante antes de 
 
 Para configurar, é necessário:
 
-1. Crie e publique uma landing page para que os visitantes possam se registrar e assinar. Essa landing page estará disponível em um site. Visitors who fill in and submit this landing page will be stored in the database but added to the block list, in order not to receive any communication before the final validation (see [Block list management in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+1. Crie e publique uma landing page para que os visitantes possam se registrar e assinar. Essa landing page estará disponível em um site. Visitors who fill in and submit this landing page will be stored in the database but added to the denylist, in order not to receive any communication before the final validation (see [Denylist management in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 1. Crie e envie automaticamente o email de participação, com um link de confirmação. Esse email terá como alvo a população que enviou a landing page. Ele será baseado em um template de email que permite direcionar perfis de &quot;recusa de participação&quot;.
 1. Redirecione para uma landing page de confirmação. Essa landing page final apresentará um botão de confirmação: os visitantes precisam clicar nele. Você pode compor um email de boas-vindas para ser enviado quando a confirmação for feita e, por exemplo, adicionar uma oferta especial no email para novos recipients.
 
@@ -54,13 +54,13 @@ Para criar e configurar essa landing page, faça o seguinte:
 
 1. Na seção **[!UICONTROL Job]** > **[!UICONTROL Additional data]**, clique em **[!UICONTROL Add an element]** e insira o seguinte caminho de contexto:
 
-   /context/perfil/lista de bloqueios
+   /context/profile/blackList
 
    Defina o valor como **false** e clique em **[!UICONTROL Add]**.
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   Este contexto remove o campo &quot;Na lista de bloqueios&quot;, para poder enviar emails. Veremos mais tarde que a primeira landing page estava definindo esse campo como **true** antes da confirmação, para evitar o envio de emails a perfis não confirmados. Para obter mais informações, consulte [Etapa 3: criar a landing page de aquisição](#step-3--create-the-acquisition-landing-page).
+   Este contexto remove o campo &quot;Incluir na lista de bloqueios&quot;, para poder enviar emails. Veremos mais tarde que a primeira landing page estava definindo esse campo como **true** antes da confirmação, para evitar o envio de emails a perfis não confirmados. Para obter mais informações, consulte [Etapa 3: criar a landing page de aquisição](#step-3--create-the-acquisition-landing-page).
 
 1. Personalizar o conteúdo da landing page: você pode exibir dados personalizados e alterar o rótulo do botão de confirmação para &quot;Clique aqui para confirmar minha assinatura&quot;, por exemplo.
 
@@ -101,12 +101,12 @@ O evento está pronto. Agora, você pode criar o template de email. Esse templat
 
 ### Criar a tipologia {#create-the-typology-rule}
 
-Você precisa criar uma [tipologia](../../sending/using/about-typology-rules.md) específica, duplicando uma tipologia predefinida. A tipologia permitirá o envio de mensagens a perfis que ainda não confirmaram seu acordo e ainda estão em lista de bloqueios. Por padrão, as tipologias excluem perfis de opção de não participação (ou seja, na lista de bloqueios). Para criar essa tipologia, siga estas etapas:
+Você precisa criar uma [tipologia](../../sending/using/about-typology-rules.md) específica, duplicando uma tipologia predefinida. A tipologia permitirá o envio de mensagens a perfis que ainda não confirmaram seu acordo e que ainda estão incluir na lista de bloqueios. Por padrão, as tipologias excluem perfis de opção de não participação (ou seja, incluir na lista de bloqueios). Para criar essa tipologia, siga estas etapas:
 
 1. No logotipo do Adobe Campaign, selecione **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** e clique em **[!UICONTROL Typologies]**.
 1. Duplique a tipologia predefinida **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
 1. Depois que a duplicação for confirmada, edite a nova tipologia e insira o rótulo **TYPOLOGY_PROFILE**.
-1. Remova a regra **Endereço na lista de bloqueios** .
+1. Remove the **Denylisted address** rule.
 1. Clique em **[!UICONTROL Save]**.
 
 Essa tipologia agora pode ser associada ao email de confirmação.
@@ -133,7 +133,7 @@ Para criar e configurar essa landing page, faça o seguinte:
 1. Projete uma [nova landing page](../../channels/using/getting-started-with-landing-pages.md) com base no template **[!UICONTROL Profile acquisition (acquisition)]**. Insira o rótulo &#39;**ACQUISITION**&#39;.
 1. Edite as propriedades da landing page: na seção **[!UICONTROL Job]** > **[!UICONTROL Additional data]**, clique em **[!UICONTROL Add an element]** e insira o seguinte caminho de contexto:
 
-   /context/perfil/lista de bloqueios
+   /context/profile/blackList
 
    e defina o valor como **true**.
 
