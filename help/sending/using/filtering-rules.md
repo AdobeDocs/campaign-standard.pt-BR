@@ -12,10 +12,10 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7f5bc442b1dae467a6b6de3e048531940f75031f
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 13%
+source-wordcount: '650'
+ht-degree: 14%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 13%
 
 As regras de filtragem permitem excluir uma parte do público alvo de mensagens de acordo com critérios definidos em um query, como perfis em quarentena ou perfis que já receberam um determinado número de emails.
 
-## regras de tipologia de filtragem padrão {#default-filtering-typology-rules}
+## Regras de tipologia de filtragem padrão {#default-filtering-typology-rules}
 
 A tabela abaixo fornece informações sobre regras de filtragem predefinidas, bem como seus canais relacionados.
 
-| Rótulo | Channel | Descrição |
+| Rótulo | Canal  | Descrição |
 ---------|----------|---------
 | **[!UICONTROL Address not specified]** | Todos | Exclui a população do público alvo sem endereço especificado (email, endereço postal etc.) de acordo com o canal selecionado). |
-| **[!UICONTROL Blocklisted address]** | Todos | Exclui endereços que estão na lista de blocos. |
+| **[!UICONTROL Denylisted address]** | Todos | Exclui endereços que estão na lista de bloqueios. |
 | **[!UICONTROL Duplicate]** | Todos | Exclui duplicados com base no **[!UICONTROL Address]** campo da população do público alvo. |
 | **[!UICONTROL Exclude mobile applications]** | Aplicativo móvel | Exclui subscrições de aplicativo que não correspondem ao aplicativo móvel definido na mensagem. |
 | **[!UICONTROL Exclude mobile applications for In-App]** | No aplicativo | Exclui subscrições de aplicativo que não correspondem ao aplicativo móvel definido na mensagem (modelo no aplicativo). |
@@ -47,7 +47,7 @@ Além dessas regras de filtragem padrão, duas regras de exclusão estão dispon
 
 Durante a análise de e-mail, essas regras comparam os endereços de e-mail do recipient com os endereços proibidos ou nomes de domínio contidos em uma lista de supressão global criptografada gerenciada na instância de entrega. Se houver algum positivo, a mensagem não será enviada para esse recipient.
 
-Isso evita ser adicionado à lista de blocos devido a atividades mal-intencionadas, especialmente o uso de uma armadilha. Por exemplo, se um Spamtrapping for usado para assinar por meio de um de seus formulários da Web, um email de confirmação será automaticamente enviado para esse Spamtrapping e isso resultará na adição automática do endereço à lista de blocos.
+Isso evita ser incluir na lista de bloqueios devido a atividades maliciosas, principalmente o uso de uma armadilha. Por exemplo, se um Spamtrapping for usado para assinar por meio de um de seus formulários da Web, um email de confirmação será automaticamente enviado para esse Spamtrapping, o que resultará na adição automática do endereço à lista de bloqueios.
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Você pode criar suas próprias regras de filtragem de acordo com suas necessida
 
 Para criar uma regra de tipologia de filtragem, siga estas etapas:
 
-1. Crie uma nova regra de tipologia. As etapas principais para criar regras de tipologia estão detalhadas [nesta seção](../../sending/using/managing-typology-rules.md).
+1. Crie uma nova regra de tipologia. The main steps to create typology rules are detailed in [this section](../../sending/using/managing-typology-rules.md).
 
 1. Selecione o tipo de **[!UICONTROL Filtering]** regra e especifique o canal desejado.
 
@@ -91,11 +91,11 @@ O Campaign Standard permite configurar as dimensões **de Definição de metas**
 
 Para fazer isso, abra as propriedades do regra de tipologia e acesse a **[!UICONTROL Advanced information]** seção.
 
-Por padrão, a filtragem é realizada no **[!UICONTROL Profiles]**. Por exemplo, se a regra for direcionada para um aplicativo móvel, a regra **[!UICONTROL Filtering dimension]** pode ser alterada para **[!UICONTROL Subscriptions to an application]**.
+By default, filtering is carried out on the **[!UICONTROL Profiles]**. Por exemplo, se a regra for direcionada para um aplicativo móvel, a regra **[!UICONTROL Filtering dimension]** pode ser alterada para **[!UICONTROL Subscriptions to an application]**.
 
 ![](assets/typology_rule-order_2.png)
 
-## Restrição da aplicabilidade de uma regra de filtragem {#restricting-the-applicability-of-a-filtering-rule}
+## Restricting the applicability of a filtering rule {#restricting-the-applicability-of-a-filtering-rule}
 
 Você pode restringir a aplicabilidade de uma regra de filtragem de acordo com a mensagem a ser enviada.
 
