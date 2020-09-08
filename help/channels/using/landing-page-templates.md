@@ -13,10 +13,10 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 93%
+source-wordcount: '232'
+ht-degree: 94%
 
 ---
 
@@ -28,7 +28,7 @@ O Campaign vem com um conjunto de templates de landing page incorporados:
 * **[!UICONTROL Acquisition]**: este é o template padrão para landing pages, que permite capturar e atualizar dados no banco de dados do Campaign.
 * **[!UICONTROL Subscription]**: esse template deve ser usado para oferecer assinaturas de um serviço.
 * **[!UICONTROL Unsubscription]**: esse template pode ser vinculado a partir de um email enviado aos assinantes de um serviço, para permitir que eles cancelem a assinatura desse serviço.
-* **[!UICONTROL Block list]**: esse template deve ser usado quando um perfil não deseja mais ser contatado pelo Campaign. For more about block list management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* **[!UICONTROL Denylist]**: esse template deve ser usado quando um perfil não deseja mais ser contatado pelo Campaign. For more about denylist management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 Esses templates são propostos por padrão ao criar uma nova landing page.
 
