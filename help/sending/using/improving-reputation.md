@@ -1,6 +1,6 @@
 ---
-title: Melhorando sua reputação com o Adobe Campaign Standard
-description: Saiba como melhorar sua reputação com o Adobe Campaign Standard, gerenciando endereços de email e quarentenas de duplicados.
+title: Melhorando sua reputação com a Adobe Campaign Standard
+description: Saiba como melhorar sua reputação com a Adobe Campaign Standard, gerenciando endereços de email e quarentenas de duplicados.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,17 +13,17 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 69%
+source-wordcount: '455'
+ht-degree: 70%
 
 ---
 
 
 # Aprimoramento da reputação{#improving-reputation}
 
-Para não esgotar os recipients, exclua endereços de email duplicados do destino. Essa etapa protege a reputação de envio e garante um bom gerenciamento de quarentena. O Adobe Campaign oferta as ferramentas necessárias para implementar essas recomendações e evitar o risco de ser adicionado a uma lista de blocos pelos ISPs.
+Para não esgotar os recipients, exclua endereços de email duplicados do destino. Essa etapa protege a reputação de envio e garante um bom gerenciamento de quarentena. A Adobe Campaign oferta as ferramentas necessárias para implementar essas recomendações e evitar o risco de serem incluir na lista de bloqueios pelos ISPs.
 
 Abaixo você encontrará detalhes sobre o gerenciamento de duplicidade e quarentena.
 
@@ -33,7 +33,7 @@ Ter endereços de email duplicados pode ter várias consequências:
 * A mesma mensagem é enviada mais de uma vez. Mesmo se o Campaign executar um procedimento de desduplicação por padrão antes de enviar, não há nada que impeça o envio da mesma mensagem por ações diferentes com o mesmo conteúdo quando um target é dividido.
 * Solicitações de cancelamento de assinatura não respeitadas. Se um recipient cancelar a inscrição depois de receber uma mensagem, o perfil duplicado ainda será qualificado para mensagens futuras.
 
-Além dessa revisão lateral dos procedimentos de aceitação, essa situação provavelmente levará os usuários a considerar as mensagens como spam e a acionar um procedimento de lista de bloqueio no ISP.
+Além dessa revisão lateral dos procedimentos de aceitação, essa situação provavelmente levará os usuários a considerar as mensagens como spam e a acionar um procedimento de  lista de bloqueios no ISP.
 
 Você deve ter cuidado especial ao executar operações no banco de dados. Para evitar ao máximo as duplicações, as seguintes ações devem ser realizadas:
 * **As importações devem ser meticulosamente configuradas.** Isso é particularmente importante ao escolher a chave de reconciliação.
