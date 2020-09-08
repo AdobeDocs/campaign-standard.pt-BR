@@ -13,17 +13,17 @@ context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,m
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 2%
+source-wordcount: '233'
+ht-degree: 3%
 
 ---
 
 
 # Detalhamento por domínios{#breakdown-by-domains}
 
-Este relatório contém os dados de desempenho de cada domínio representado na audiência de um delivery de email. Se for um relatório de campanha ou programa, os dados de desempenho estarão disponíveis para várias audiências. Esses dados permitem que você analise o comportamento de cada domínio em reação a eventos específicos. Por exemplo, exibição de link, URL na lista de blocos etc.
+Este relatório contém os dados de desempenho de cada domínio representado na audiência de um delivery de email. Se for um relatório de campanha ou programa, os dados de desempenho estarão disponíveis para várias audiências. Esses dados permitem analisar o comportamento de cada domínio em reação a eventos específicos. Por exemplo, exibição de link, URL incluir na lista de bloqueios etc.
 
 ![](assets/delivery_reports_6.png)
 
@@ -41,6 +41,6 @@ A segunda tabela, Estatísticas **de** rastreamento, contém os dados disponíve
 * **Abrir**: O número de vezes que uma mensagem foi aberta em um delivery.
 * **Clique**: O número de vezes que o conteúdo foi clicado em um delivery.
 * **Inscrito**: O número de cliques no link de subscrição.
-* **Mirror page**: O número de cliques no link do mirror page.
-* **Lista bloqueada**: O número de recipient que declararam um email como spam ou lixo eletrônico (consulte Gerenciamento de lista de [bloqueio na Campanha](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+* **mirror page**: O número de cliques no link do mirror page.
+* **incluir na lista de bloqueios**: O número de recipient que declararam um email como spam ou lixo eletrônico. [Saiba mais](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
