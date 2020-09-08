@@ -1,6 +1,6 @@
 ---
 title: Gerenciamento de participação e não participação no Campaign
-description: Entenda como o opt-in e o opt-out são gerenciados no Adobe Campaign.
+description: Saiba como o opt-in e o opt-out são gerenciados no Adobe Campaign.
 page-status-flag: never-activated
 uuid: aa1801ec-562b-420e-8d79-c07d066b7b1a
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 8%
@@ -26,7 +26,7 @@ ht-degree: 8%
 
 Os usuários podem ser opt in ou removidos por um operador diretamente da **[!UICONTROL General]** guia perfil.
 
-Na **[!UICONTROL No longer contact (on block list)]** seção, as caixas de seleção selecionadas correspondem aos canais dos quais o usuário optou por opt out. Selecione os canais de acordo com as necessidades do usuário.
+Na **[!UICONTROL No longer contact (denylisted)]** seção, as caixas de seleção selecionadas correspondem aos canais dos quais o usuário optou por opt out. Selecione os canais de acordo com as necessidades do usuário.
 
 ![](assets/optin_landingpage_3.png)
 
@@ -34,11 +34,11 @@ Na **[!UICONTROL No longer contact (on block list)]** seção, as caixas de sele
 
 Para dar aos usuários a capacidade de opt in ou opt out, é necessário criar e publicar uma **[!UICONTROL Profile acquisition]** landing page. Eles poderão então selecionar os canais de acordo com suas necessidades. Para fazer isso, siga as etapas abaixo.
 
-Você também pode configurar uma **[!UICONTROL Block List]** landing page que permitirá que os usuários opt out de todos os delivery. Para obter mais informações, consulte [Configuração de uma landing page para opt out de todos os delivery](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
+Você também pode configurar uma **[!UICONTROL Denylist]** landing page que permitirá que os usuários opt out de todos os delivery. Para obter mais informações, consulte [Configuração de uma landing page para opt out de todos os delivery](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
 
 >[!NOTE]
 >
->As Landings page também podem ser usadas para ativar a subscrição de serviços. Para obter mais informações, consulte [esta página](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service).
+>As landings page também podem ser usadas para ativar a subscrição de serviços. Para obter mais informações, consulte [esta página](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service).
 
 1. Crie uma **[!UICONTROL Profile acquisition]** landing page (consulte [esta seção](../../channels/using/getting-started-with-landing-pages.md)).
 1. Adicione uma caixa de seleção no conteúdo da landing page para cada canal desejado e, em seguida, vincule-a ao campo correspondente do banco de dados da Campanha.
@@ -56,7 +56,7 @@ Você também pode configurar uma **[!UICONTROL Block List]** landing page que p
 
 ### Configuração de uma landing page para opt out de todos os delivery {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-Para dar aos usuários a capacidade de opt out de todos os delivery, é necessário criar e publicar uma **[!UICONTROL Block list]** landing page. For more on landing pages creation, refer to [this page](../../channels/using/getting-started-with-landing-pages.md).
+Para dar aos usuários a capacidade de opt out de todos os delivery, é necessário criar e publicar uma **[!UICONTROL Denylist]** landing page. For more on landing pages creation, refer to [this page](../../channels/using/getting-started-with-landing-pages.md).
 
 Quando um usuário clica no link de landing page, a **[!UICONTROL No longer contact (by any channel)]** opção no perfil é automaticamente selecionada.
 
