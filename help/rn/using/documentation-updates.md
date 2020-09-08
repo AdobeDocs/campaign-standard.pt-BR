@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cbc9114b1179fe6fc0f87a9b9b55397ef60d3cb9
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '6144'
+source-wordcount: '6097'
 ht-degree: 95%
 
 ---
@@ -55,8 +55,6 @@ Novos recursos de e-mail com IA: envio de otimização de tempo e pontuação de
 Os casos de uso do fluxo de trabalho foram atualizados e reorganizados em seções temáticas. [Leia mais](../../automating/using/about-workflow-use-cases.md)
 
 Casos de uso foram adicionados em como [criptografar](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) e [descriptografar](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) dados usando o Painel de controle do Campaign e workflows do Campaign.
-
-Os termos &quot;white list&quot; e &quot;black list&quot; foram removidos da documentação do Adobe Campaign. Algumas ocorrências desses termos ainda podem existir na interface do usuário do produto, nos nomes de opções e no código interno, mas serão substituídas em versões futuras do Campaign por &quot;lista de bloqueios&quot; e &quot;lista de permissões&quot;.
 
 As referências ao site de suporte herdado foram substituídas pelo novo URL. [Saiba mais](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
@@ -594,7 +592,7 @@ Foram adicionadas informações sobre tipos de logs de rastreamento. [Leia mais]
 
 A seção da atividade de consulta foi atualizada com amostras de consultas. [Leia mais](../../automating/using/query.md#query-samples)
 
-A seção dedicada ao lista de bloqueios foi renomeada como &quot;Entendendo os processos de aceitação e não participação&quot;. Essa seção foi atualizada com informações sobre como gerenciar aceitações para canais específicos e como configurar páginas de aterrissagem para gerenciar aceitações e recusas. [Leia mais](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+A seção dedicada às lista de bloqueios foi renomeada como &quot;Entendendo os processos de aceitação e não participação&quot;. Essa seção foi atualizada com informações sobre como gerenciar aceitações para canais específicos e como configurar páginas de aterrissagem para gerenciar aceitações e recusas. [Leia mais](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Conheças as práticas recomendadas para usar os servidores SFTP hospedados pela Adobe. [Leia mais](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -618,7 +616,7 @@ Uso de recursos personalizados em mensagens transacionais - [Leia mais](../../ad
 
 A API do GDPR reagrupa recursos que permitem o processamento automático de solicitações do GDPR. [Leia mais](../../api/using/creating-a-privacy-request.md)
 
-Foram adicionadas informações sobre como configurar landings page para que seus recipient possam ser adicionados à lista de bloqueios. [Leia mais](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Foram adicionadas informações sobre como configurar landings page para que seus recipient possam ser incluir na lista de bloqueios. [Leia mais](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 A seção [Configuração de mensagens transacionais](../../administration/using/configuring-transactional-messaging.md) foi reorganizada e um [caso de uso passo a passo](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) foi adicionado.
 
@@ -672,7 +670,7 @@ Foram adicionadas informações sobre como enviar um delivery dependendo dos fus
 
 A seção **[!UICONTROL Customizing a push notification]** foi reorganizada com casos de uso passo a passo. [Leia mais](../../channels/using/customizing-a-push-notification.md)
 
-Nova seção dedicada ao gerenciamento de listas de bloqueios. [Leia mais](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+Nova seção dedicada ao gerenciamento de lista de bloqueios. [Leia mais](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Informações sobre falhas de delivery e quarentenas foram atualizadas. [Leia mais](../../sending/using/monitoring-a-delivery.md)
 
