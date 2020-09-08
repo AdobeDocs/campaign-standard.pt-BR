@@ -1,5 +1,5 @@
 ---
-title: Introdução aos perfis e audiência
+title: Introdução a perfis e públicos-alvos
 description: '"Saiba mais sobre o gerenciamento de perfis e audiências no Adobe Campaign: defina populações direcionadas, selecione audiências, filtre recipient, colete dados e atualize perfis."'
 page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
@@ -12,15 +12,15 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 9%
+source-wordcount: '607'
+ht-degree: 11%
 
 ---
 
 
-# Introdução aos perfis e audiência{#about-profiles-and-audiences}
+# Introdução a perfis e públicos-alvos{#about-profiles-and-audiences}
 
 <table>
 <tr>
@@ -29,7 +29,7 @@ ht-degree: 9%
 <td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">Conformidade com a privacidade</a></p></td></tr>
 </table>
 
-perfis de clientes integrados à Campanha permitem rastrear todas as interações com os clientes em todos os canais em uma única visualização, permitindo que você entregue mensagens relevantes e personalizadas aos seus clientes.
+Perfis de clientes integrados à campanha permitem rastrear todas as interações com os clientes em todos os canais em uma única visualização, permitindo que você entregue mensagens relevantes e personalizadas aos seus clientes.
 
 Segmente seu banco de dados em audiências para otimizar o público alvo de suas campanhas de marketing.
 
@@ -43,9 +43,9 @@ Ao criar campanhas ou mensagens, você pode especificar o público alvo dos deli
 
 Identifique os clientes com mais eficiência em todos os canais usando perfis **de clientes** integrados e segmentos **** personalizados. Quando você conhece seus clientes, interesses, demografia e preferências de canal, é mais fácil criar experiências personalizadas que sejam notadas.
 
-A Adobe Campaign constrói perfis de clientes ricos em tempo real, permitindo que você forneça ofertas mais relevantes e personalizadas à medida que as preferências do cliente mudam. Além disso, o Adobe Campaign integra funcionalidades avançadas de análise, gestão de dados e segmentação para criar audiências.
+A Adobe Campaign constrói perfis de clientes ricos em tempo real, permitindo que você forneça ofertas mais relevantes e personalizadas à medida que as preferências do cliente mudam. Além disso, a Adobe Campaign integra funcionalidades avançadas de análise, gestão de dados e segmentação para criar audiências.
 
-**Perfis** são contatos individuais armazenados no banco de dados. Cada perfil corresponde a uma entrada no banco de dados que contém as informações necessárias para que o perfil seja direcionado, qualificado e rastreado individualmente: O Adobe Campaign pode rastrear cada interação de canais online e offline e mesclá-la em um único perfil.
+**Perfis** são contatos individuais armazenados no banco de dados. Cada perfil corresponde a uma entrada no banco de dados que contém as informações necessárias para que o perfil seja direcionado, qualificado e rastreado individualmente: A Adobe Campaign pode rastrear todas as interações de canais online e offline e mesclá-las em um único perfil.
 
 **Audiências** são listas de perfis baseadas em um critério específico ou conjunto de critérios. Usando workflows e o editor de query, você pode criar audiências que serão direcionadas pelas suas campanhas de marketing, dependendo das informações que você tiver sobre elas, suas atividades e seus históricos de marketing. Isso permite filtrar perfis inscritos, amostras ou criar audiências de públicos alvos em um número ilimitado de critérios.
 
@@ -56,7 +56,7 @@ Leia mais:
 * [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md)
 * [Enriquecer o banco de dados do Campaign](../../audiences/using/enriching-campaign-database.md)
 * [Sobre públicos-alvo](../../audiences/using/about-audiences.md)
-* [Selecionar um público-alvo em uma mensagem](../../audiences/using/selecting-an-audience-in-a-message.md)
+* [Seleção de um público-alvo em uma mensagem](../../audiences/using/selecting-an-audience-in-a-message.md)
 
 ## Permissão e consentimento {#permission}
 
@@ -66,15 +66,15 @@ Antes de começar a enviar mensagens para um contato, é necessário certificar-
 
 Com a Campanha, recomendamos que você use mecanismos **fáceis de aceitação e não participação por meio de** serviços [e do](../../audiences/using/creating-a-service.md)landing page [](../../channels/using/getting-started-with-landing-pages.md) para atualizar suas informações de contato e aumentar seu banco de dados.
 
-Fornecer links **de** unsubscription em suas mensagens permitirá que Perfis sejam adicionados à lista de blocos, quando necessário, e, portanto, melhorar a entrega da plataforma. Para obter mais informações sobre o gerenciamento da lista de blocos, consulte [Sobre aceitação e não participação na Campanha](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Fornecer links **de** unsubscription em suas mensagens permitirá que Perfis sejam adicionados à lista de bloqueios, quando necessário, e, portanto, melhorar a capacidade de entrega da plataforma. For more on denylist management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
->Você deve respeitar a política [de uso](https://www.adobe.com/legal/terms/aup.html)Adobe Campaign aceitável.
+>Você deve respeitar a política [de uso aceitável da](https://www.adobe.com/legal/terms/aup.html)Adobe Campaign.
 
 Leia mais:
 
-* [Sobre as assinaturas](../../audiences/using/about-subscriptions.md)
+* [Sobre assinaturas](../../audiences/using/about-subscriptions.md)
 * [Sobre participação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 ## Conformidade com a privacidade {#privacy}
@@ -93,6 +93,6 @@ Você também encontrará as práticas recomendadas para ajudar você a estar em
 
 * [Trabalhar com o serviço Destinos de Audiência](../../audiences/using/aep-about-audience-destinations-service.md)
 * [Trabalhar com o Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-* [Audiências compartilhadas da Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
+* [Audiências compartilhadas Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Uso de workflows para importar perfis](../../automating/using/creating-import-workflow-templates.md)
-* [Vídeos de Perfis e audiências](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
+* [Vídeos de perfis e audiências](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
