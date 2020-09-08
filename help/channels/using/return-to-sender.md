@@ -12,9 +12,9 @@ discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '212'
 ht-degree: 2%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 2%
 
 # Retornar ao remetente{#return-to-sender}
 
-Há suporte para trocas de arquivos simples com provedores de mala direta incorporando informações de Retorno ao remetente. Isso permite que endereços postais correspondentes sejam excluídos de futuras comunicações. Isso também permite que você seja notificado sobre um endereço incorreto e interaja com o cliente por meio de outros canais ou para incentivá-lo a atualizar seu endereço postal.
+Há suporte para trocas de arquivos simples com provedores de mala direta incorporando informações de Retorno ao remetente. Isso permite que endereços postais correspondentes sejam excluídos de futuras comunicações. Isso também permite que você seja notificado sobre um endereço incorreto e se envolva com o cliente por meio de outros canais ou para incentivá-lo a atualizar seu endereço postal.
 
-Por exemplo, um contato mudou-se para um novo local e não lhe forneceu seu novo endereço postal. O provedor recupera a lista de endereços errôneos e envia essas informações para a Adobe Campaign que adiciona automaticamente à lista de blocos os endereços errados.
+Por exemplo, um contato mudou-se para um novo local e não lhe forneceu seu novo endereço postal. O provedor recupera a lista de endereços incorretos e envia essas informações para a Adobe Campaign, que lista de bloqueios automaticamente os endereços incorretos.
 
-Para que essa funcionalidade funcione, o template do delivery padrão de mala direta inclui, no conteúdo, a ID de log de delivery. Assim, o Adobe Campaign poderá sincronizar os dados do perfil e do delivery com as informações retornadas pelo provedor.
+Para que essa funcionalidade funcione, o template do delivery padrão de mala direta inclui, no conteúdo, a ID de log de delivery. Assim, a Adobe Campaign poderá sincronizar os dados do perfil e do delivery com as informações retornadas pelo provedor.
 
 ![](assets/direct_mail_return_sender_1.png)
 
@@ -34,9 +34,9 @@ Um template de importação está disponível em **[!UICONTROL Adobe Campaign > 
 
 ![](assets/direct_mail_return_sender_2.png)
 
-Quando a importação é feita, o Adobe Campaign executa automaticamente as seguintes ações:
+Quando a importação é feita, a Adobe Campaign executa automaticamente as seguintes ações:
 
-* Endereços incorretos são adicionados à lista de blocos no nível do perfil
+* Endereços incorretos são incluir na lista de bloqueios no nível do perfil
 * Os indicadores principais do delivery (KPIs) são atualizados
 * Os logs do delivery são atualizados
 
