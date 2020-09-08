@@ -13,10 +13,10 @@ delivercontext-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 2%
+source-wordcount: '594'
+ht-degree: 8%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 2%
 
 ## Gerenciando o STOP SMS {#managing-stop-sms}
 
-Quando um perfil responde a uma mensagem SMS enviada por Campanha, você pode configurar mensagens que são automaticamente enviadas de volta a ele, bem como a ação a ser executada.
+Quando um perfil responde a uma mensagem SMS enviada pelo Campaign, você pode configurar mensagens que serão automaticamente enviadas para ele, bem como a ação a ser executada.
 
 Essa configuração é definida na **[!UICONTROL Automatic reply sent to the MO]** seção da conta externa [do Roteamento](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)SMS. MO significa &quot;Mobile Originated&quot;, o que significa que você pode configurar uma resposta automática para o celular que enviou o SMS.
 
 Para fazer isso:
 
-1. No menu avançado, pelo logotipo do Adobe Campaign, selecione **[!UICONTROL Administration > Application settings > External accounts]** e depois a **[!UICONTROL SMS routing via SMPP]** conta externa.
+1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration > Application settings > External accounts]** then the **[!UICONTROL SMS routing via SMPP]** external account.
 1. Na **[!UICONTROL Automatic reply sent to the MO]** categoria, clique em **[!UICONTROL Create element]** start para configurar sua resposta automática.
 
    ![](assets/sms_mo_1.png)
@@ -57,7 +57,8 @@ Para fazer isso:
    * A **[!UICONTROL Send to quarantine]** ação quarentena automaticamente o número de telefone do perfil.
    * A **[!UICONTROL Remove from quarantine]** ação remove o número de telefone do perfil da quarentena.
    * A **[!UICONTROL None]** ação permite que você envie apenas a mensagem para seus recipient sem executar uma ação.
-   Por exemplo, na configuração abaixo, se os recipient enviarem a palavra-chave &quot;PARAR&quot;, eles receberão automaticamente uma confirmação de unsubscription e seu número de telefone será enviado para a quarentena com o **[!UICONTROL On block list]** status. Esse status se refere apenas ao número de telefone, o perfil não é adicionado à lista de bloqueios para que o usuário continue recebendo mensagens de email.
+
+   Por exemplo, na configuração abaixo, se os recipient enviarem a palavra-chave &quot;PARAR&quot;, eles receberão automaticamente uma confirmação de unsubscription e seu número de telefone será enviado para a quarentena com o **[!UICONTROL Denylisted]** status. Esse status se refere apenas ao número de telefone, o perfil é incluir na lista de bloqueios para que o usuário continue recebendo mensagens de email.
 
    ![](assets/sms_mo.png)
 
@@ -75,17 +76,17 @@ Ao verificar **[!UICONTROL Store incoming MO in the database]** a **[!UICONTROL 
 
 Para fazer isso:
 
-1. No **[!UICONTROL SMPP channel settings]** campo, verifique **[!UICONTROL Store incoming MO in the database]**.
+1. In the **[!UICONTROL SMPP channel settings]** field, check **[!UICONTROL Store incoming MO in the database]**.
 
    ![](assets/sms_config_mo_2.png)
 
-1. Na **[!UICONTROL Marketing activities]** guia, clique em **[!UICONTROL Create]** e selecione **[!UICONTROL Workflow]**.
+1. In the **[!UICONTROL Marketing activities]** tab, click **[!UICONTROL Create]** then select **[!UICONTROL Workflow]**.
 
    ![](assets/sms_config_mo_3.png)
 
 1. Selecione o tipo de fluxo de trabalho.
 1. Edite as propriedades do seu fluxo de trabalho e clique em **[!UICONTROL Create]**. For more on workflows creation, refer to this [section](../../automating/using/building-a-workflow.md).
-1. Arraste e solte uma **[!UICONTROL Query]** atividade e clique com o duplo na atividade.
+1. Drag and drop a **[!UICONTROL Query]** activity and double-click the activity.
 1. Na **[!UICONTROL Properties]** guia do query, escolha **[!UICONTROL Incoming SMS (inSMS)]** no **[!UICONTROL Resource]** campo.
 
    ![](assets/sms_config_mo_4.png)
