@@ -10,7 +10,7 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '1248'
 ht-degree: 6%
@@ -27,7 +27,7 @@ ht-degree: 6%
                   <th>Nome</th>
                   <th>Rótulo</th>
                   <th>Tipo (comprimento)</th>
-                  <th>valores de Lista discriminada</th>
+                  <th>valores de lista discriminada</th>
                </tr>
                <tr>
                   <td>PKey</td>
@@ -36,7 +36,7 @@ ht-degree: 6%
                   <td> </td>
                </tr>
                <tr>
-                  <td>idade</td>
+                  <td>preto</td>
                   <td>Idade</td>
                   <td>integer </td>
                   <td> </td>
@@ -54,43 +54,43 @@ ht-degree: 6%
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockList</td>
+                  <td>blacklist</td>
                   <td>Não mais entrar em contato (por qualquer canal)</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListEmail</td>
-                  <td>Não mais contatar por e-mail</td>
+                  <td>blackListEmail</td>
+                  <td>Não entrar mais em contato por e-mail</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListFax</td>
+                  <td>blackListFax</td>
                   <td>Não há mais contato por fax</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListMobile</td>
-                  <td>Não mais contatar por SMS</td>
+                  <td>blackListMobile</td>
+                  <td>Não entrar mais em contato por SMS</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListPhone</td>
+                  <td>blackListPhone</td>
                   <td>Não há mais contato por telefone</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListPostalMail</td>
+                  <td>blackListPostalMail</td>
                   <td>Deixar de contactar por correio direto</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListPushnotification</td>
+                  <td>blackListPushnotification</td>
                   <td>Não há mais contato por notificação por push</td>
                   <td>booleano </td>
                   <td> </td>
@@ -102,7 +102,7 @@ ht-degree: 6%
                   <td> </td>
                </tr>
                <tr>
-                  <td>created</td>
+                  <td>criado</td>
                   <td>Criado</td>
                   <td>date </td>
                   <td> </td>
@@ -238,7 +238,7 @@ ht-degree: 6%
                <tr>
                   <td>middleName</td>
                   <td>Nome do meio</td>
-                  <td>string (50)</td>
+                  <td>string (30)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -285,7 +285,7 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>subHisto</td>
-                  <td>histórico de Subscrições</td>
+                  <td>histórico de subscrições</td>
                   <td>coleção </td>
                   <td> </td>
                </tr>
