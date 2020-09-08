@@ -13,10 +13,10 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 2%
+source-wordcount: '852'
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 ## Preparação da notificação {#preparing-the-notification}
 
-As etapas para criar uma notificação por push com Adobe Campaign são:
+As etapas para criar uma notificação por push com o Adobe Campaign são:
 
 1. Na **[!UICONTROL Marketing activities]** janela, [crie uma nova atividade](../../start/using/marketing-activities.md#creating-a-marketing-activity)de marketing.
 
@@ -40,13 +40,14 @@ As etapas para criar uma notificação por push com Adobe Campaign são:
 
    Por padrão, você pode selecionar um dos dois modelos a seguir:
 
-   * **[!UICONTROL Send push to Campaign profiles]**: use este modelo para público alvo dos perfis CRM Adobe Campaign que assinaram seu aplicativo móvel e opt in receber notificações por push. Você pode inserir campos de [personalização](../../designing/using/personalization.md#inserting-a-personalization-field) na notificação por push, como o nome do recipient.
+   * **[!UICONTROL Send push to Campaign profiles]**: use este modelo para público alvo dos perfis do Adobe Campaign CRM que se inscreveram em seu aplicativo móvel e opt in receber notificações por push. Você pode inserir campos de [personalização](../../designing/using/personalization.md#inserting-a-personalization-field) na notificação por push, como o nome do recipient.
    * **[!UICONTROL Send push to app subscribers]**: use este modelo para enviar uma notificação por push a todos os usuários conhecidos e anônimos do aplicativo móvel que opt in receber notificações do aplicativo. Você pode personalizar essas mensagens com dados coletados do seu aplicativo móvel.
+
    Você também pode selecionar modelos multilíngues. Para obter mais informações, consulte [Criação de uma notificação](../../channels/using/creating-a-multilingual-push-notification.md)por push multilíngue.
 
    For more on templates, refer to the [Managing templates](../../start/using/marketing-activity-templates.md) section.
 
-1. Digite as propriedades da notificação por push e selecione o aplicativo móvel no **[!UICONTROL Associate a Mobile App to a delivery]** campo.
+1. Enter your push notification properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field.
 
    Observe que o menu suspenso exibirá os aplicativos SDK V4 e Experience Platform SDK.
 
@@ -54,7 +55,7 @@ As etapas para criar uma notificação por push com Adobe Campaign são:
 
    Você pode vincular a notificação por push a uma campanha. Para fazer isso, selecione-o nas campanhas que já foram criadas.
 
-1. Na tela a seguir, você pode especificar uma audiência, por exemplo, todos os seus clientes VIP que se inscreveram em um aplicativo móvel específico. Para obter mais informações, consulte [Criação de audiências](../../audiences/using/creating-audiences.md).
+1. Na tela a seguir, você pode especificar uma audiência, por exemplo, todos os clientes VIP que se inscreveram em um aplicativo móvel específico. Para obter mais informações, consulte [Criação de audiências](../../audiences/using/creating-audiences.md).
 
    Sua audiência será filtrada automaticamente com base no aplicativo móvel selecionado na etapa anterior.
 
@@ -66,7 +67,7 @@ As etapas para criar uma notificação por push com Adobe Campaign são:
 
    ![](assets/push_notif_content.png)
 
-   O conteúdo e as opções de notificação por push configurados aqui são passados para seu aplicativo móvel na forma de uma carga. A estrutura detalhada da carga é descrita na nota técnica [Entendendo notificações por push ACS da estrutura](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html) da carga.
+   O conteúdo e as opções de notificação por push configurados aqui são passados para seu aplicativo móvel na forma de uma carga. A estrutura detalhada da carga é descrita na nota técnica [Entendendo notificações por push ACS da estrutura](https://helpx.adobe.com/br/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html) da carga.
 
 1. Clique em **[!UICONTROL Create]**.
 
@@ -89,9 +90,9 @@ As etapas para criar uma notificação por push com Adobe Campaign são:
 
 ## Envio da notificação {#sending-the-notification}
 
-As notificações por push podem ser enviadas para uma audiência selecionada no Adobe Campaign, definindo os critérios de audiência. Por exemplo abaixo, nossa audiência selecionada consiste em 4 assinantes de aplicativos móveis direcionados.
+As notificações por push podem ser enviadas para uma audiência selecionada no Adobe Campaign definindo os critérios de audiência. Por exemplo abaixo, nossa audiência selecionada consiste em 4 assinantes de aplicativos móveis direcionados.
 
-1. Clique em **[!UICONTROL Prepare]** para calcular o público alvo e gerar as notificações.
+1. Click **[!UICONTROL Prepare]** to compute the target and generate the notifications.
 
    ![](assets/push_send_1.png)
 
@@ -101,7 +102,7 @@ As notificações por push podem ser enviadas para uma audiência selecionada no
 
 1. Na **[!UICONTROL Exclusion logs]** guia, você pode encontrar a lista de todas as mensagens excluídas do público alvo enviado e o motivo por trás dessa exclusão.
 
-   Aqui, podemos ver que um de nossos assinantes de aplicativos móveis foi excluído porque o endereço foi adicionado à lista de bloqueios e aos outros assinantes porque o perfil era um duplicado.
+   Aqui, podemos ver que um de nossos assinantes de aplicativos móveis foi excluído porque o endereço foi incluir na lista de bloqueios e os outros assinantes porque o perfil era um duplicado.
 
    ![](assets/push_send_5.png)
 
@@ -110,17 +111,17 @@ As notificações por push podem ser enviadas para uma audiência selecionada no
    ![](assets/push_send_7.png)
 
 1. Agora, você pode clicar em **[!UICONTROL Confirm]** start para enviar notificações por push.
-1. Verifique o status do seu delivery através do painel de mensagens e registros. Para obter mais informações, consulte [Enviar mensagens](../../sending/using/confirming-the-send.md) e [Logs do delivery](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+1. Verifique o status do delivery no painel de mensagens e logs. Para obter mais informações, consulte [Enviar mensagens](../../sending/using/confirming-the-send.md) e [Logs do delivery](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
-   Neste exemplo, o painel de mensagem exibe que o Adobe Campaign tentou enviar duas notificações por push: um foi entregue com êxito ao dispositivo e outro falhou. Para saber por que o delivery apresenta erros, clique no ![](assets/lp_link_properties.png) botão na parte inferior da **[!UICONTROL Deployment]** janela.
+   Neste exemplo, o painel de mensagem exibe que a Adobe Campaign tentou enviar duas notificações por push: um foi entregue com êxito ao dispositivo e outro falhou. Para saber por que o delivery apresenta erros, clique no ![](assets/lp_link_properties.png) botão na parte inferior da **[!UICONTROL Deployment]** janela.
 
    ![](assets/push_send_4.png)
 
-1. Na **[!UICONTROL Deployment]** janela, clique na **[!UICONTROL Sending logs]** guia para acessar a lista de notificações por push enviadas e seus status. Para este delivery, uma notificação por push foi enviada com êxito, enquanto a outra falhou devido a um token de dispositivo inválido. Esse assinante será então adicionado à lista de bloqueios a partir de outros delivery.
+1. Na **[!UICONTROL Deployment]** janela, clique na **[!UICONTROL Sending logs]** guia para acessar a lista de notificações por push enviadas e seus status. Para este delivery, uma notificação por push foi enviada com êxito, enquanto a outra falhou devido a um token de dispositivo inválido. Esse assinante será então adicionado ao negador de outros delivery.
 
    >[!NOTE]
    >
-   >Motivos podem ser qualquer falha a jusante de Adobe Campaign. No caso de falhas de provedores como apns e fcm, a razão também refletirá isso. Para obter mais informações sobre falhas no provedor, consulte a documentação da [Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingwithAPNs.html) e do [Android](https://firebase.google.com/docs/cloud-messaging/http-server-ref) .
+   >Os motivos podem ser qualquer falha no Adobe Campaign. No caso de falhas de provedores como apns e fcm, a razão também refletirá isso. Para obter mais informações sobre falhas no provedor, consulte a documentação da [Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingwithAPNs.html) e do [Android](https://firebase.google.com/docs/cloud-messaging/http-server-ref) .
 
    ![](assets/push_send_6.png)
 
@@ -129,5 +130,5 @@ Agora você pode medir o impacto do delivery de notificação por push com relat
 **Tópicos relacionados:**
 
 * [Relatório de notificação por push](../../reporting/using/push-notification-report.md)
-* [Envio de uma notificação por push em um fluxo de trabalho](../../automating/using/push-notification-delivery.md)
+* [Enviar uma notificação por push em um workflow](../../automating/using/push-notification-delivery.md)
 
