@@ -13,7 +13,7 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3bace60da0b3cdbbc693507a03cbfb6886b15b4e
+source-git-commit: 2112f93fba368435850957e6e90b7c7c88ddf248
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Para criar esses elementos de dados:
 
 1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. Em seguida, **[!UICONTROL Experience Cloud ID]** na lista suspensa **[!UICONTROL Data element]** de tipos.
 
-   ![](assets/rules_1.png)
+   ![](assets/do-not-localize/rules_1.png)
 
 1. Para criar o elemento de dados da chave, clique em **[!UICONTROL Add data element]**.
 
@@ -67,7 +67,7 @@ Para criar esses elementos de dados:
 
 1. No **[!UICONTROL Name]** campo, digite um nome, por exemplo, **camp-server**.
 
-1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Adobe Campaign Standard]**. Em seguida, **[!UICONTROL Campaign Server]** no menu suspenso **[!UICONTROL Data element]** de tipos.
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Adobe Campaign Standard]**. Em seguida, **[!UICONTROL Campaign Server]** na lista suspensa **[!UICONTROL Data element]** de tipos.
 
 ## Criação de regras {#creating-rules}
 
@@ -143,7 +143,7 @@ Para enviar dados de PII para [!DNL Adobe Campaign Standard], crie uma regra em 
 
 1. In **[!UICONTROL Timeout]**, select 0.
 
-   ![](assets/rules_2.png)
+   ![](assets/do-not-localize/rules_2.png)
 
 Seus dados de usuário agora estão configurados para serem enviados para a Campanha.
 
@@ -179,7 +179,7 @@ Para enviar dados de rastreamento para [!DNL Adobe Campaign Standard] relatório
 
 1. In **[!UICONTROL Timeout]**, select 0.
 
-   ![](assets/rules_3.png)
+   ![](assets/do-not-localize/rules_3.png)
 
 ### Postback de rastreamento de notificações por push {#push-tracking-postback}
 
@@ -264,4 +264,4 @@ Para rastrear ações do aplicativo, use a API trackAction. Para obter mais info
 
 1. In **[!UICONTROL Timeout]**, select 5.
 
-   ![](assets/rules_4.png)
+   ![](assets/do-not-localize/rules_4.png)
