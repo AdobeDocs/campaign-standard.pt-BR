@@ -12,7 +12,10 @@ discoiquuid: ca8a95d8-523f-4085-a2fc-e1d8262cfbae
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 3895755aa2eeceb837f78f591bb6504d3eadec1f
+workflow-type: tm+mt
+source-wordcount: '597'
+ht-degree: 14%
 
 ---
 
@@ -20,6 +23,10 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 # Exportar logs{#exporting-logs}
 
 Os dados de registro, sejam eles relacionados a delivery ou subscrições, podem ser exportados por meio de um fluxo de trabalho simples. Ele permite que você analise os resultados de suas campanhas em sua própria ferramenta relatórios ou BI.
+
+>[!CAUTION]
+>
+>Somente [administradores](../../administration/using/users-management.md#functional-administrators)funcionais, com **[!UICONTROL Administration]** função e acesso a **Todas** as unidades, podem acessar registros de envio, registros de mensagens, logs de rastreamento, exclusão ou registros de subscrições. Um usuário não administrativo pode público alvo desses registros, mas iniciando em uma tabela vinculada (perfis, delivery).
 
 Ao usar uma atividade que recupera somente novos logs toda vez que o fluxo de trabalho é executado e uma simples **[!UICONTROL Incremental query]** **[!UICONTROL Extract file]** para definir as colunas de saída, você pode obter um arquivo com o formato e todos os dados necessários. Em seguida, use uma **[!UICONTROL Transfer file]** atividade para recuperar o arquivo final. Cada execução de fluxo de trabalho é planejada por um **[!UICONTROL Scheduler]**.
 
@@ -44,7 +51,7 @@ A operação de logs de exportação pode ser realizada por usuários padrão. R
 
       ![](assets/export_logs_query_processeddata.png)
 
-      Após a primeira execução do fluxo de trabalho, você pode ver nesta guia a última data de execução que será usada para a próxima execução. Ele é atualizado automaticamente toda vez que o fluxo de trabalho é executado. Você ainda tem a possibilidade de substituir esse valor inserindo manualmente um novo para que ele se ajuste às suas necessidades.
+      Após a primeira execução do workflow, você poderá ver nesta guia a última data de execução que será usada para a próxima execução. Ela é atualizada automaticamente todas as vezes que o workflow é executado. Você ainda tem a possibilidade de substituir esse valor, inserindo manualmente um novo para que ele se ajuste às suas necessidades.
 
 1. Adicione uma **[!UICONTROL Extract file]** atividade que exportará os dados consultados em um arquivo:
 
@@ -62,11 +69,11 @@ A operação de logs de exportação pode ser realizada por usuários padrão. R
 
    * Na **[!UICONTROL File structure]** guia, defina o formato do arquivo de saída para corresponder às suas necessidades.
 
-      Marque a **[!UICONTROL Export labels instead of internal values of enumerations]** opção caso você exporte valores de lista discriminada. Essa opção permite recuperar rótulos mais curtos, fáceis de entender em vez de IDs.
+      Marque a opção **[!UICONTROL Export labels instead of internal values of enumerations]** caso exporte valores de uma lista discriminada. Essa opção permite recuperar rótulos mais curtos, que são fáceis de entender, em vez de IDs.
 
 1. Adicione uma **[!UICONTROL Transfer file]** atividade e configure-a para transferir o arquivo recém-criado do servidor Adobe Campaign para outro local onde você possa acessá-la, como um servidor SFTP.
 
-   * Na **[!UICONTROL General]** guia, selecione **[!UICONTROL File upload]** a finalidade de enviar o arquivo do Adobe Campaign para outro servidor.
+   * Na **[!UICONTROL General]** guia, selecione **[!UICONTROL File upload]** a finalidade de enviar o arquivo da Adobe Campaign para outro servidor.
    * Na **[!UICONTROL Protocol]** guia, especifique os parâmetros de transferência e selecione a [conta externa](../../administration/using/external-accounts.md#creating-an-external-account) a ser usada.
 
 1. Adicione uma **[!UICONTROL End]** atividade para garantir que ela termine e salve seu fluxo de trabalho corretamente.
@@ -77,4 +84,4 @@ Agora você pode executar o fluxo de trabalho e recuperar o arquivo de saída no
 
 **Tópicos relacionados:**
 
-[Workflows](../../automating/using/get-started-workflows.md)
+[Fluxos de trabalho](../../automating/using/get-started-workflows.md)
