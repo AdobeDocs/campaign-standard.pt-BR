@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 99edde2738ebf9d2a742aa467b049d6ec7761cc1
 workflow-type: tm+mt
-source-wordcount: '6097'
-ht-degree: 95%
+source-wordcount: '6128'
+ht-degree: 94%
 
 ---
 
@@ -28,19 +28,23 @@ Além das [Notas de versão](../../rn/using/release-notes.md) do Adobe Campaign,
 
 A seção mensagens transacionais do Evento foi reorganizada e clarificada. [Leia mais](../../channels/using/event-transactional-messages.md)
 
+Uma nota de advertência foi adicionada para avisar os usuários sobre a limitação de permissões relacionada ao acesso ao log. [Leia mais](../../administration/using/users-management.md)
+
+Uma nova seção foi adicionada para detalhar o processo de criação de uma nova marca. [Leia mais](../../administration/using/branding.md#creating-a-brand)
+
 ## Atualizações da documentação - Agosto de 2020 {#doc-updates-august-2020}
 
 Uma nova seção atualizada sobre como começar a usar mensagens transacionais está disponível. [Leia mais](../../channels/using/getting-started-with-transactional-msg.md)
 
-A seção Limitações de mensagens transacionais foi movida. [Leia mais](../../channels/using/transactional-messaging-limitations.md)
+A seção de limitações **de mensagens** transacionais foi movida [aqui](../../channels/using/transactional-messaging-limitations.md)
 
-A seção Preparando o envio foi movida. [Leia mais](../../sending/using/preparing-the-send.md)
+A seção **Preparando o envio** foi movida [aqui](../../sending/using/preparing-the-send.md)
 
 ## Atualizações da documentação - Julho de 2020 {#doc-updates-july-2020}
 
 Uma nova seção foi adicionada com diretrizes relacionadas ao monitoramento de Campaign Standard. [Leia mais](../../administration/using/monitoring-guidelines.md)
 
-A seção Detalhes e limitações da API externa foi atualizada.[Leia mais](../../automating/using/external-api.md#guardrails)
+A seção Detalhes e limitações da API externa foi atualizada. [Leia mais](../../automating/using/external-api.md#guardrails)
 
 A página Visão geral do gerenciamento de privacidade foi atualizada para incluir informações sobre a Lei de Proteção de Dados Pessoais (PDPA) da Tailândia e sobre a Lei Geral de Dados (LGPD) do Brasil. [Leia mais](https://helpx.adobe.com/br/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
