@@ -13,10 +13,10 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 4f16f4b36fd77e79ade10b4fe39db737e0de9f4c
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 100%
+source-wordcount: '1252'
+ht-degree: 80%
 
 ---
 
@@ -33,7 +33,7 @@ Os administradores técnicos podem definir uma ou várias marcas para centraliza
 
 O princípio principal de configurar e usar marcas é:
 
-1. Criar e configurar a marca - essa operação requer permissões específicas e é feita pelo administrador técnico do Adobe Campaign.
+1. Criar e configurar a marca - essa operação requer permissões específicas e é feita pelo administrador técnico do Adobe Campaign. As etapas para obter uma nova marca na Campanha estão detalhadas [nesta seção](#creating-a-brand).
 1. Criar um ou vários modelos de delivery e de páginas de aterrissagem para esta marca. Consulte a seção [Criação de um modelo](../../start/using/marketing-activity-templates.md).
 1. Criar mensagens e páginas de aterrissagem com base nesse modelo. Consulte as seções [Criação de emails](../../channels/using/creating-an-email.md) e [Criação de uma página de aterrissagem](../../channels/using/designing-a-landing-page.md).
 
@@ -89,6 +89,26 @@ Uma **Marca** é definida pelas seguintes características:
    Os parâmetros adicionais que permitem que os links sejam rastreados em sistemas externos, como ferramentas do Web Analytics, como o Adobe Analytics ou o Google Analytics, estão definidos aqui.
 
    ![](assets/branding_05.png)
+
+## Creating a new brand {#creating-a-brand}
+
+Você pode adicionar novas entidades de sua organização na Campanha ou criar um novo tipo de email que você precisa enviar em um subdomínio diferente. Para fazer isso, siga as etapas abaixo:
+
+1. **Delegar um novo subdomínio** - para qualquer novo subdomínio ser usado pelo Adobe, a primeira etapa será delegá-lo. Você pode fazer isso através do Painel de controle do Campaign [da](https://docs.adobe.com/content/help/pt-BR/control-panel/using/subdomains-and-certificates/subdomains-branding.html) Campanha ou alcançar seu contato técnico. Learn more about subdomain delegation [in this article](https://helpx.adobe.com/br/campaign/kb/domain-name-delegation.html).
+
+1. **Criar um ticket** - Depois que o subdomínio for delegado, o Adobe precisará configurá-lo no ambiente de produção. Para solicitar isso, [crie um ticket para o Client Care](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) com as seguintes informações:
+
+   * Assunto: [Configuração da nova marca ACS]
+
+   * Conteúdo: Um novo domínio foi delegado ao Adobe e gostaríamos de configurá-lo em nossa plataforma ACS
+
+   * Domínio: XXX
+
+   * URL de produção: XXX.campanha.adobe.com
+
+1. **Criar um template do delivery** - Assim que a nova marca estiver disponível, a prática recomendada é criar pelo menos um novo template do delivery em branco que faça referência a essa nova marca. [Saiba mais](#linking-a-brand-to-a-template).
+
+1. **Verificar as diretrizes** de entrega - Antes de começar a usar o novo domínio, a estratégia deve ser discutida com a equipe de Disponibilidade do Adobe. Eles ajudarão a definir as práticas recomendadas, caso uma nova afinidade deva ser criada para dividir os IPs entre domínios, por exemplo, e/ou se um plano de atualização deve ser definido. Saiba mais sobre as práticas recomendadas de Disponibilidade [nesta seção](../../sending/using/about-deliverability.md).
 
 ## Atribuição de uma marca a um email {#assigning-a-brand-to-an-email}
 
