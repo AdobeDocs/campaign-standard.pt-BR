@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4f16f4b36fd77e79ade10b4fe39db737e0de9f4c
+source-git-commit: fc1dc9ca876a0f18b2dad0e02331cfc05a799aad
 workflow-type: tm+mt
 source-wordcount: '1252'
 ht-degree: 80%
@@ -98,9 +98,9 @@ Você pode adicionar novas entidades de sua organização na Campanha ou criar u
 
 1. **Criar um ticket** - Depois que o subdomínio for delegado, o Adobe precisará configurá-lo no ambiente de produção. Para solicitar isso, [crie um ticket para o Client Care](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) com as seguintes informações:
 
-   * Assunto: [Configuração da nova marca ACS]
+   * Assunto: Configuração da nova marca ACS
 
-   * Conteúdo: Um novo domínio foi delegado ao Adobe e gostaríamos de configurá-lo em nossa plataforma ACS
+   * Conteúdo: Um novo domínio foi delegado ao Adobe e gostaríamos de configurá-lo em nossa plataforma de Campanha
 
    * Domínio: XXX
 
