@@ -12,7 +12,10 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 23d6c78f924635a8ce512fd91b4a46db395e8bd1
+source-git-commit: c542859937ac60df9f76f5954a414575eac0e83d
+workflow-type: tm+mt
+source-wordcount: '440'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +36,7 @@ Você pode adicionar preenchimento usando a navegação estrutural HTML.
 
 1. Na parte inferior esquerda da tela, clique na trilha de navegação HTML.
 
-   ![](assets/breadcrumb.png)
+   ![](assets/do-not-localize/breadcrumb.png)
 
 1. Clique no elemento que deseja adicionar um preenchimento.
 1. Clique na marca pai na navegação estrutural HTML.
