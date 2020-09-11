@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ca6b418351cfbe539da9f1f4a542c2d7014dfc24
+source-git-commit: cd1cbf907eb160b6bbc1a2a2d3dd1c601ac13635
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 1%
@@ -105,7 +105,8 @@ Veja a seguir uma lista dos atributos e uma descrição:
 >O período de expiração do mirror page de email pode ser modificado na tela de configuração da atividade de canal de email de Campanha correspondente (consulte Parâmetros [do período de](../../administration/using/configuring-email-channel.md#validity-period-parameters)validade).
 
 >[!NOTE]
-Para opção de não participação, quando um atributo de opção de não participação é modificado no Dynamics 365, ele será refletido na Campanha se você tiver selecionado a configuração de opção de não participação dinâmica 365 para Campanha ou bidirecional e se você tiver esse atributo específico mapeado corretamente.
+>
+>Para opção de não participação, quando um atributo de opção de não participação é modificado no Dynamics 365, ele será refletido na Campanha se você tiver selecionado a configuração de opção de não participação dinâmica 365 para Campanha ou bidirecional e se você tiver esse atributo específico mapeado corretamente.
 
 ## Fluxos de dados {#data-flows}
 
@@ -124,7 +125,8 @@ Dependendo do volume de registros, seu armazenamento SFTP de Campanha pode preci
 O atributo externalId da tabela do perfil de Campanha deve ser preenchido com o atributo contact contact contact contact contactId do Dynamics 365 para que a entrada do contato funcione. As entidades personalizadas de campanha também devem ser preenchidas com um atributo de ID único do Dynamics 365; no entanto, esse atributo pode ser armazenado em qualquer atributo de entidade personalizada de Campanha (ou seja, não precisa ser externalId).
 
 >[!NOTE]
-Para ingressos de entidade personalizados, o rastreamento de alterações deve ser ativado no Dynamics 365 para entidades personalizadas sincronizadas.
+>
+>Para ingressos de entidade personalizados, o rastreamento de alterações deve ser ativado no Dynamics 365 para entidades personalizadas sincronizadas.
 
 ### Fluxo do Evento de marketing por email
 
