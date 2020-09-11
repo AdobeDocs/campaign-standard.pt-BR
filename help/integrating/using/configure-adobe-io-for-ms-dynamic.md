@@ -12,9 +12,9 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0ce73bf7e250c5e88bbb525854e81ef27662ab06
+source-git-commit: 60a67adf51881b785ad2f0b40ff544a0b9988afd
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '499'
 ht-degree: 3%
 
 ---
@@ -44,53 +44,51 @@ Para isso, siga o procedimento abaixo:
 
 1. Navegue até o Console [de E/S do](https://console.adobe.io/home#) Adobe e selecione a ID de organização do Adobe IMS no menu suspenso na parte superior direita da tela.
 
-1. Em seguida, clique em **[!UICONTROL Create new project]** embaixo **[!UICONTROL Quick Start]**.
+1. Em seguida, clique **[!UICONTROL Create new project]** em **[!UICONTROL Quick Start]**.
 
-![](assets/adobeIO1.png)
+   ![](assets/adobeIO1.png)
 
 1. Em **[!UICONTROL Get started with your new project]**, clique em **[!UICONTROL Add API]**.
 
-![](assets/adobeIO2.png)
+   ![](assets/adobeIO2.png)
 
-1. Selecione a API do Adobe Campaign (talvez seja necessário rolar até a parte inferior) e clique em &quot;Avançar&quot;.
+1. Selecione a API do Adobe Campaign (talvez seja necessário rolar até a parte inferior) e clique em **[!UICONTROL Next]**.
 
-![](assets/adobeIO3.png)
+   ![](assets/adobeIO3.png)
 
-1. Na tela seguinte, você terá a opção de carregar sua própria chave pública ou permitir que o Adobe IO gere o par de chaves para você. Essas instruções seguirão a última opção. Se você decidir permitir que o Adobe IO gere o par de chaves, clique na opção 1; em seguida, clique no botão &quot;Gerar par de teclas&quot;.
+1. Na tela seguinte, você terá a opção de carregar sua própria chave pública ou permitir que o Adobe IO gere o par de chaves para você. Essas instruções seguirão a última opção. Se você decidir permitir que o Adobe IO gere o par de chaves, clique na opção 1; em seguida, clique no **[!UICONTROL Generate keypair]** botão.
 
-![](assets/adobeIO4.png)
+   ![](assets/adobeIO4.png)
 
 1. Na tela seguinte, você será solicitado a nomear e selecionar o local de download do arquivo zip de par de chaves.
 
 Depois de baixado, você pode descompactar o arquivo para revelar as chaves públicas e privadas. O Adobe IO já aplicou a chave pública ao seu projeto Adobe IO. Você precisará manter sua chave privada para mais tarde; a chave privada será usada durante a configuração de pré-integração da ferramenta de integração.
 
-1. Clique em &quot;Avançar&quot; para continuar
+1. Clique **[!UICONTROL Next]** para continuar
 
-![](assets/adobeIO5.png)
+   ![](assets/adobeIO5.png)
 
-1. Na tela seguinte, você selecionará perfis de produtos para associar a este projeto.
+1. Na tela seguinte, você selecionará perfis de produtos para associar a este projeto. Selecione o perfil de produto que contém o título: A ID de locatário da sua instância de Campanha - [!UICONTROL Administrators]
 
-1. Selecione o perfil de produto que contém o título: A ID de locatário da sua instância de Campanha - [!UICONTROL Administrators] - Exemplo: Campaign Standard - your-campanha-locatário-ID - Administradores
+   Exemplo: Campaign Standard - your-campanha-locatário-ID - Administradores
 
-1. Clique em [!UICONTROL Save configured API].
+1. Clique em **[!UICONTROL Save configured API]**.
 
-![](assets/adobeIO6.png)
+   ![](assets/adobeIO6.png)
 
-1. Na tela seguinte, você verá os detalhes do seu novo projeto de E/S de Adobe.
+1. Na tela seguinte, você verá os detalhes do seu novo projeto de E/S de Adobe. Clique **[!UICONTROL Add to Project]** na parte superior esquerda da tela e selecione **API** no menu suspenso.
 
-1. Clique em &quot;Adicionar ao projeto&quot; na parte superior esquerda da tela e selecione &quot;API&quot; na lista suspensa.
+   ![](assets/adobeIO7.png)
 
-![](assets/adobeIO7.png)
+1. Na tela seguinte, você precisará selecionar a API de Eventos de E/S e clicar em **[!UICONTROL Next]**.
 
-1. Na tela seguinte, você precisará selecionar a API de Eventos de E/S e clicar em &quot;Avançar&quot;.
+1. Na tela seguinte, clique em **[!UICONTROL Save the configured API]**.  Você será levado de volta à tela de detalhes do projeto.
 
-1. Na tela seguinte, clique em &quot;Salvar API configurada&quot;.  Você será levado de volta à tela de detalhes do projeto.
+1. Agora, clique **[!UICONTROL Add to Project]** na parte superior esquerda da tela e selecione **API** no menu suspenso, como anteriormente.
 
-1. Agora, clique em &quot;Adicionar ao projeto&quot; na parte superior esquerda da tela e selecione &quot;API&quot; na lista suspensa, como você fez anteriormente.
+1. Na tela seguinte, você precisará selecionar a API de gerenciamento de E/S e clicar em **[!UICONTROL Next]**.
 
-1. Na tela seguinte, você precisará selecionar a API de gerenciamento de E/S e clicar em &quot;Avançar&quot;.
-
-1. Na tela seguinte, clique em &quot;Salvar API configurada&quot;.
+1. Na tela seguinte, clique em **[!UICONTROL Save the configured API]**.
 
 A configuração da pré-integração na Campanha agora está concluída.  Prossiga para concluir a configuração de [pré-integração do Microsoft Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
 
