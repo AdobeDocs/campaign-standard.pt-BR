@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e90f878814e65a9a61ee4013d94fd0bf3b1f7875
+source-git-commit: 0ce73bf7e250c5e88bbb525854e81ef27662ab06
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 3%
@@ -61,12 +61,12 @@ Os tíquetes de suporte podem ser registrados com o Adobe Custom Care, como de c
 
 Para quaisquer problemas com fluxos de dados de integração, certifique-se de incluir o conjunto de relatórios como parte da descrição da edição, bem como as seguintes informações:
 
-* Proprietário do processo: Arquitetos de engenharia
+* **Proprietário** do processo: Arquitetos de engenharia
 
-* ID do Processo ES: [Fornecido durante o processo de integração]
+* **ID** do processo ES: Fornecido durante o processo de integração
 
-* Título do processo: Integração do Dynamics 365 / Adobe Campaign Standard
+* **Título** do processo: Integração do Dynamics 365 / Adobe Campaign Standard
 
-* Descrição do problema: [Descrição do problema]
+* **Descrição** do problema: Descrição do problema
 
 A cobertura de suporte de integração está disponível 24 horas por dia, 5 dias por semana (disponível de segunda a sexta-feira, exceto feriados de Adobe e períodos de pausa).
