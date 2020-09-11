@@ -12,9 +12,9 @@ discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
+source-git-commit: acaa07b3e40d0bcbf7c44f866ede141b992015a1
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -24,18 +24,18 @@ ht-degree: 0%
 
 ## Comece a usar e-mails com IA{#journey-ai-ovv}
 
-Usando a Campanha, você pode otimizar o design e o delivery de viagens de clientes para prever a preferência de envolvimento de cada indivíduo. Com a tecnologia Journey AI, o Adobe Campaign pode analisar e prever taxas de abertura, tempos de envio ideais e probabilidade de taxa com base nas métricas de envolvimento do histórico.
+Usando a Campanha, você pode otimizar o design e o delivery de viagens de clientes para prever a preferência de envolvimento de cada indivíduo. Com a tecnologia Journey AI, a Adobe Campaign pode analisar e prever taxas abertas, tempos de envio ideais e probabilidade de taxa com base em métricas de envolvimento do histórico.
 
 **Modelos de aprendizado de máquina**
 
-O Adobe Campaign Standard oferta dois novos modelos de aprendizado de máquina: **Otimizações** de tempo de envio preditivas e Pontuação de envolvimento **preditivo**. Esses dois modelos são chamados juntos de Journey AI, que é uma classe de modelos de aprendizado de máquina específicos para projetar e fornecer melhores viagens de cliente.
+A Adobe Campaign Standard oferta dois novos modelos de aprendizado de máquina: **Otimizações** de tempo de envio preditivas e Pontuação de envolvimento **preditivo**. Esses dois modelos são chamados juntos de Journey AI, que é uma classe de modelos de aprendizado de máquina específicos para projetar e fornecer melhores viagens de cliente.
 
 * **Otimização** previsível do tempo de envio: A otimização do tempo de envio previsível prevê qual é o melhor tempo de envio para cada perfil de recipient para abrir e clicar no email. Para cada perfil de recipient, as pontuações indicam o melhor horário de envio para cada dia da semana e qual dia da semana é o melhor para enviar para obter melhores resultados.
 
 * **Pontuação** de envolvimento previsível: A pontuação de envolvimento previsível prevê a probabilidade de um recipient se envolver com uma mensagem, bem como a probabilidade de opt out (cancelar a inscrição) nos próximos 7 dias após o próximo envio de email. As probabilidades são divididas em escalões de acordo com o risco específico de desvinculação, médio ou baixo. Ao longo destes, o modelo também fornece a classificação do percentil de risco para os clientes entenderem onde é que a classificação de um determinado cliente em relação a outros.
 
 >[!CAUTION]
->Esse recurso não está disponível para uso imediato como parte do produto. A implementação exige que a Adobe Consulting esteja envolvida. Entre em contato com seu representante da Adobe para saber mais.
+>Esse recurso não está disponível para uso imediato como parte do produto. A implementação exige que a Adobe Consulting esteja envolvida. Entre em contato com seu representante de Adobe para saber mais.
 >
 >Separadamente, o recurso exigia o uso de um armazenamento do Azure que deve ser fornecido pelo cliente.
 
@@ -56,8 +56,8 @@ No modelo de Otimização de tempo de envio preditivo, há dois submodelos:
 
 Detalhes da saída
 
-* Calcule a melhor hora do dia para enviar um email para os próximos 7 dias com intervalos de 1 hora (por exemplo: 9:00 da manhã, 10:00 da manhã, 11:00 da manhã)
-* O modelo indicará a melhor hora dos próximos 7 dias para enviar o e-mail
+* Calcule a melhor hora do dia para enviar um email nos 7 dias da semana com intervalos de 1 hora (por exemplo: 9:00 da manhã, 10:00 da manhã, 11:00 da manhã)
+* O modelo indicará o melhor dia da semana e a melhor hora desse dia
 * Cada tempo ideal é calculado duas vezes: uma vez para maximizar a taxa de abertura e uma vez para maximizar a taxa de clique
 * São administrados 16 campos (14 para os dias da semana e 2 para a semana inteira):
    * melhor hora para enviar um email para otimizar cliques para segunda-feira - valores entre 0 e 23
@@ -126,7 +126,7 @@ A pontuação de envolvimento preditivo permite:
 Este modelo usa várias pontuações para indicar:
 
 * **Abrir pontuação de envolvimento / clique na pontuação** de envolvimento: esse valor corresponde à probabilidade de um assinante se envolver com uma mensagem específica (abrir ou clicar). Os valores variam de 0,0 a 1,0.
-* **Probabilidade** de Unsubscription: esse valor corresponde à probabilidade de o recipient cancelar a inscrição do canal de e-mail considerando um e-mail aberto. Os valores variam de 0,0 a 1,0.
+* **Probabilidade** de unsubscription: esse valor corresponde à probabilidade de o recipient cancelar a inscrição do canal de e-mail considerando um e-mail aberto. Os valores variam de 0,0 a 1,0.
 * **Nível** de retenção:  esse valor classifica os usuários em três níveis: baixa, média e alta. É mais provável que o alto fique com a marca e o baixo valor que provavelmente cancelará a assinatura.
 * **Classificação percentual da retenção**: Classificação do perfil em termos de probabilidade da unsubscription. Os valores variam de 0,0 a 1,0. Por exemplo, se a classificação de porcentagem de retenção for 0,953, esse recipient terá maior probabilidade de permanecer com a marca e menos probabilidade de cancelar a assinatura do que 95,3% de todos os recipient.
 
