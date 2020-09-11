@@ -3,8 +3,9 @@ product: adobe campaign
 sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Ajuda do Adobe Campaign Standard
+breadcrumb-title: Campaign Standard Guide
 translation-type: tm+mt
-source-git-commit: ec32aa2a955486362f100382f3a78004fdae4a4f
+source-git-commit: 5884730b7319e9ee456882e66c8b515458e53e86
 workflow-type: tm+mt
 source-wordcount: '1628'
 ht-degree: 85%
