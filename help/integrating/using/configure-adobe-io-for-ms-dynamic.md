@@ -1,6 +1,6 @@
 ---
 title: Configurar o Adobe IO para integração com o Microsoft Dynamics 365
-description: Saiba como configurar o E/S de Adobe para integração com o Microsoft Dynamics 365.
+description: Saiba como configurar o E/S do Adobe para integração com o Microsoft Dynamics 365.
 page-status-flag: never-activated
 uuid: effa1028-66b2-4bef-b5e4-7319dbb23d5d
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 801741bd605d11d1c9f88995286ef206dd46470f
+source-git-commit: 0ce73bf7e250c5e88bbb525854e81ef27662ab06
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '524'
 ht-degree: 3%
 
 ---
@@ -97,5 +97,5 @@ A configuração da pré-integração na Campanha agora está concluída.  Pross
 **Tópicos relacionados**
 
 * [Adobe IO - Integração da conta de serviço](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
-* [Campaign Standard - Configuração de acesso à API](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#setting-up-api-access)
+* [Campaign Standard - Configuração de acesso à API](../../api/using/setting-up-api-access.md)
 * [Campaign Standard - Integração com o Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
