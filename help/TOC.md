@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Ajuda do Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 92c743c707412f25160ca31ab1da04210ad40816
+source-git-commit: ec32aa2a955486362f100382f3a78004fdae4a4f
 workflow-type: tm+mt
-source-wordcount: '1597'
-ht-degree: 86%
+source-wordcount: '1628'
+ht-degree: 85%
 
 ---
 
@@ -237,7 +237,14 @@ ht-degree: 86%
       + [Testar os acionadores](integrating/using/testing-your-triggers.md)
       + [Casos de uso de acionadores de abandonos](integrating/using/abandonment-triggers-use-cases.md)
    + Campanha e Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Introdução à integração com o Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+      + [Introdução à integração com o Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+      + [Gerenciar dados entre a Campanha e o Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+      + [Solicite a integração](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+      + [Configurar E/S de Adobe](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [Configurar o Dynamics 365 para integração com o Campaign](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+      + [Mapear recursos personalizados da Campanha e entidades personalizadas do Dynamics 365](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [Usar a integração com o Dynamics 365](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [Garantias de integração](integrating/using/ms-dynamics-365-integration-guardrails.md)
 + Gerenciamento de processos e dados {#managing-processes-and-data}
    + [Introdução ao gerenciamento de dados e processos](automating/using/get-started-workflows.md)
    + Operação geral do workflow {#workflow-general-operation}
