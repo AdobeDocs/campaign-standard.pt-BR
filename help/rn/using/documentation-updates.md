@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 99edde2738ebf9d2a742aa467b049d6ec7761cc1
+source-git-commit: ec32aa2a955486362f100382f3a78004fdae4a4f
 workflow-type: tm+mt
-source-wordcount: '6128'
+source-wordcount: '6140'
 ht-degree: 94%
 
 ---
@@ -31,6 +31,8 @@ A seção mensagens transacionais do Evento foi reorganizada e clarificada. [Lei
 Uma nota de advertência foi adicionada para avisar os usuários sobre a limitação de permissões relacionada ao acesso ao log. [Leia mais](../../administration/using/users-management.md)
 
 Uma nova seção foi adicionada para detalhar o processo de criação de uma nova marca. [Leia mais](../../administration/using/branding.md#creating-a-brand)
+
+A nova integração Campaign Standard - Microsoft Dynamics 365 está disponível. [Leia mais](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 ## Atualizações da documentação - Agosto de 2020 {#doc-updates-august-2020}
 
