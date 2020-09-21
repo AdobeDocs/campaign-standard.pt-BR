@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c7ed307e982e3fe41b2e3a7d0de7de356338bc08
+source-git-commit: b0c98e54893f1de5f378c74cec5182b1132ca995
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 98%
@@ -46,7 +46,7 @@ As atualizações de ambientes ocorrem em ondas, durante os intervalos de tempo 
  <tbody>
   <tr>
    <td>Preparo<br /> </td>
-   <td>21 de setembro de 2020<br /> </td>
+   <td>21-23 de setembro de 2020<br /> </td>
   </tr>
   <tr>
    <td> Produção<br /> </td>
