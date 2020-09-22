@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '458'
 ht-degree: 70%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 70%
 
 # Aprimoramento da reputação{#improving-reputation}
 
-Para não esgotar os recipients, exclua endereços de email duplicados do destino. Essa etapa protege a reputação de envio e garante um bom gerenciamento de quarentena. A Adobe Campaign oferta as ferramentas necessárias para implementar essas recomendações e evitar o risco de serem incluir na lista de bloqueios pelos ISPs.
+Para não esgotar os recipients, exclua endereços de email duplicados do destino. Essa etapa protege a reputação de envio e garante um bom gerenciamento de quarentena. A Adobe Campaign oferta as ferramentas necessárias para implementar essas recomendações e evitar o risco de serem adicionadas à lista de bloqueios pelos ISPs.
 
 Abaixo você encontrará detalhes sobre o gerenciamento de duplicidade e quarentena.
 
