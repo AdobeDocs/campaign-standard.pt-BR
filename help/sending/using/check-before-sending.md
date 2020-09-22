@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5d9d50474142306457a8c76a24388c3c574791d
+source-git-commit: b80197491b45cff46273e1a41e3dfb7a939f96c5
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -53,7 +53,7 @@ Saiba mais [nesta seção](../../sending/using/email-rendering.md).
 
 O envio de provas permite a verificação do link de opção de não participação, a mirror page e quaisquer outros links, validação da mensagem, verificação da exibição das imagens, detecção de possíveis erros, etc. Você também pode verificar seu design e renderização em diferentes dispositivos.
 
-Learn more [[in this section](../../sending/using/sending-proofs.md).
+Saiba mais [nesta seção](../../sending/using/sending-proofs.md).
 
 ## Configurar deliveries de teste A/B {#a-b-testing-deliveries}
 
