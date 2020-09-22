@@ -13,10 +13,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
 source-wordcount: '1274'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -127,7 +127,7 @@ As etapas para criar uma mensagem independente no aplicativo com o Adobe Campaig
 
    ![](assets/inapp_creating_5.png)
 
-1. Edite o conteúdo da mensagem e defina as opções avançadas. Consulte [Personalizar uma mensagem no aplicativo](https://helpx.adobe.com/br/campaign/standard/channels/using/customizing-a-push-notification.html).
+1. Edite o conteúdo da mensagem e defina as opções avançadas. Consulte [Personalizar uma mensagem no aplicativo](https://helpx.adobe.com/campaign/standard/channels/using/customizing-an-in-app-message.html).
 
    ![](assets/inapp_creating_6.png)
 
