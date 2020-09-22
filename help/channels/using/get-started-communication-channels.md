@@ -12,10 +12,10 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 17%
+source-wordcount: '521'
+ht-degree: 16%
 
 ---
 
@@ -102,7 +102,7 @@ Leia mais:
 ## Recursos adicionais
 
 * [Otimização da entrega](../../sending/using/about-deliverability.md)
-* [Práticas recomendadas para delivery](https://helpx.adobe.com/br/campaign/kb/delivery-best-practices.html)
+* [Práticas recomendadas para delivery](../../sending/using/delivery-best-practices.md)
 * [Criar um conteúdo de email](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Importação de um conteúdo AEM](../../integrating/using/creating-email-experience-manager.md)
 * [Envio de mensagens com workflows](../../automating/using/about-channel-activities.md)
