@@ -12,9 +12,9 @@ discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 3161226c9ab28f8d519f55a408022284919954f6
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1283'
 ht-degree: 8%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 8%
 
 # Configurar um aplicativo móvel{#configuring-a-mobile-application}
 
-## Configurar um aplicativo móvel usando SDKs do Adobe Experience Platform {#using-adobe-experience-platform-sdk}
+## Configuring a mobile application using Adobe Experience Platform SDKs {#using-adobe-experience-platform-sdk}
 
 >[!IMPORTANT]
 >
@@ -71,10 +71,6 @@ Para obter mais informações, consulte [Excluindo o aplicativo](../../administr
 
 ## Sincronizar o aplicativo móvel AEPSDK do fluxo de trabalho técnico do Launch {#aepsdk-workflow}
 
->[!IMPORTANT]
->
->Este recurso é um recurso beta no Adobe Campaign a partir da versão 20.3. Você precisará enviar um ticket para o Atendimento ao cliente da Adobe (diretamente ou por meio de seu contato com o Adobe) para habilitar o fluxo de trabalho **[!UICONTROL sync Mobile app AEPSDK from Launch]** técnico na sua instância do Adobe Campaign.
-
 Depois de criar e configurar sua propriedade móvel no Experience Platform Launch, o fluxo de trabalho **[!UICONTROL Sync Mobile app AEPSDK from Launch]** técnico sincronizará as propriedades do Adobe Launch para dispositivos móveis importadas no Adobe Campaign Standard.
 
 Por padrão, o fluxo de trabalho técnico start a cada 15 minutos. Se necessário, pode ser reiniciado manualmente:
@@ -96,9 +92,9 @@ Seu fluxo de trabalho agora reiniciará e sincronizará as propriedades do Adobe
 
 Para usar uma propriedade Experience Platform Launch mobile na Campanha, você também precisa configurar essa propriedade no Adobe Campaign. No Adobe Campaign, verifique se o usuário IMS faz parte dos Perfis de Produto Padrão de Usuário e Administrador.
 
-Para os usuários com o sinalizador de recurso de fluxo de trabalho técnico do aplicativo Sincronizar AEPSDK do aplicativo móvel do Launch ativado, você precisará aguardar a execução do fluxo de trabalho técnico e sincronizar a propriedade Launch mobile com a Adobe Campaign. Você pode configurá-lo no Adobe Campaign.
+Você precisará aguardar a execução do fluxo de trabalho técnico e sincronizar a propriedade Launch mobile com a Adobe Campaign. Você pode configurá-lo no Adobe Campaign.
 
-Para obter mais informações sobre Sincronizar o aplicativo móvel AEPSDK do sinalizador de recurso de fluxo de trabalho técnico do Launch, consulte esta [seção](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
+Para obter mais informações sobre Sincronizar o aplicativo móvel AEPSDK do fluxo de trabalho técnico do Launch, consulte esta [seção](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
 
 >[!NOTE]
 >
@@ -114,7 +110,7 @@ Deve **[!UICONTROL Property Status]** ser **[!UICONTROL Ready to configure]**.
    >[!NOTE]
    >
    >Por padrão, para recuperar a lista de aplicativos móveis criados no Adobe Launch, o Campaign Standard usa o valor definido na opção NmsServer_URL para procurar propriedades correspondentes.
-Em alguns casos, o ponto de extremidade de Campanha para um aplicativo móvel pode ser diferente daquele definido em NmsServer_URL. Nesse caso, defina o terminal na opção Launch_URL_Campanha. A Campanha usará o valor dessa opção para procurar as propriedades correspondentes na inicialização do Adobe.
+Em alguns casos, o ponto de extremidade de Campanha para um aplicativo móvel pode ser diferente daquele definido em NmsServer_URL. Nesse caso, defina o terminal na opção Launch_URL_Campanha. A campanha usará o valor dessa opção para procurar as propriedades correspondentes na inicialização do Adobe.
 
    ![](assets/launch_4.png)
 
@@ -136,7 +132,7 @@ Em alguns casos, o ponto de extremidade de Campanha para um aplicativo móvel po
 
    Para obter mais informações, consulte [Publicar configuração](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-configuration).
 
-## Configuração do aplicativo específico do Canal no Adobe Campaign {#channel-specific-config}
+## Configuração do aplicativo específico do canal no Adobe Campaign {#channel-specific-config}
 
 Seu aplicativo móvel agora está pronto para ser usado na Campanha para notificações por push ou delivery no aplicativo. Agora você pode configurá-lo ainda mais se necessário para criar eventos que acionarão suas mensagens no aplicativo e/ou fazer upload de certificados de push.
 
