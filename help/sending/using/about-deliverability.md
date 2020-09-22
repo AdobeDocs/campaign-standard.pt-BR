@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '657'
 ht-degree: 82%
 
 ---
@@ -47,7 +47,7 @@ Esta é uma lista dos pontos principais a serem verificados para garantir um bom
 ## Ferramentas de entrega {#deliverability-tools}
 
 Em primeiro lugar, consulte a documentação sobre as ferramentas de entrega fornecidas com o Campaign Standard:
-* [Práticas recomendadas para delivery](https://helpx.adobe.com/br/campaign/kb/delivery-best-practices.html)
+* [Práticas recomendadas para delivery](../../sending/using/delivery-best-practices.md)
 * [Personalização do nome do remetente](../../designing/using/personalization.md#personalizing-the-sender)
 * [Teste da linha de assunto de um email](../../sending/using/testing-subject-line-email.md)
 * [Otimização do tempo de envio](../../sending/using/optimizing-the-sending-time.md)
