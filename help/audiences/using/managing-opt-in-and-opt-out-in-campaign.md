@@ -12,7 +12,7 @@ discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 8%
@@ -26,7 +26,7 @@ ht-degree: 8%
 
 Os usuários podem ser opt in ou removidos por um operador diretamente da **[!UICONTROL General]** guia perfil.
 
-Na **[!UICONTROL No longer contact (denylisted)]** seção, as caixas de seleção selecionadas correspondem aos canais dos quais o usuário optou por opt out. Selecione os canais de acordo com as necessidades do usuário.
+Na **[!UICONTROL No longer contact (on denylist)]** seção, as caixas de seleção selecionadas correspondem aos canais dos quais o usuário optou por opt out. Selecione os canais de acordo com as necessidades do usuário.
 
 ![](assets/optin_landingpage_3.png)
 
