@@ -12,9 +12,9 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '4623'
+source-wordcount: '4627'
 ht-degree: 8%
 
 ---
@@ -494,7 +494,7 @@ _Fluxos de trabalho_
    <td> Capacidades de marketing para mensagens transacionais<br /> </td> 
    <td> Os profissionais de marketing agora podem enviar mensagens transacionais com base em perfis de marketing do cliente. Isso permite que eles:<br /> 
     <ul> 
-     <li> Aplique regras de tipologia de marketing, como <span class="uicontrol">Incluir na lista de bloqueios endereço</span> . </li> 
+     <li> Aplique regras de tipologia de marketing, como <span class="uicontrol">Endereço na lista de bloqueios</span> . </li> 
      <li> Incluir o link de unsubscription nas mensagens. </li> 
      <li> Adicionar as mensagens transacionais aos relatórios globais do delivery. </li> 
      <li> Usar as mensagens transacionais na jornada do cliente. </li> 
@@ -530,7 +530,7 @@ _Notificações por push_
 * Correção de um problema que pode ter impedido o postback de um aplicativo para o servidor Adobe Campaign.
 * Correção de um problema que pode ter impedido **[!UICONTROL Play a sound]** e **[!UICONTROL Custom fields]** sido considerado para Android.
 * Correção de um problema que resultava na adição de um caractere de escape extra a caracteres Unicode usados para Emojis.
-* Quando o token de registro de um assinante é incluir na lista de bloqueios, o status correspondente agora é imediatamente atualizado na lista de assinantes do aplicativo no Adobe Campaign.
+* Quando o token de registro de um assinante é adicionado à lista de bloqueios, o status correspondente agora é imediatamente atualizado na lista de assinantes do aplicativo no Adobe Campaign.
 
 _Fluxos de trabalho_
 
