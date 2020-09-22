@@ -12,10 +12,10 @@ discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 83%
+source-wordcount: '790'
+ht-degree: 82%
 
 ---
 
@@ -32,7 +32,7 @@ Em qualquer caso, o procedimento de quarentena está em conformidade com as regr
 
 Os perfis cujos endereços de email ou número de telefone estão em quarentena são excluídos automaticamente durante a preparação da mensagem (consulte [Identificação de endereços em quarentena para um delivery](#identifying-quarantined-addresses-for-a-delivery)). Isso irá acelerar os deliveries, pois a taxa de erro tem um efeito significativo na velocidade do delivery.
 
-Alguns provedores de acesso à Internet consideram automaticamente emails como spam se a taxa de endereços inválidos for muito alta. A quarentena, portanto, permite que você evite ser incluir na lista de bloqueios por esses provedores.
+Alguns provedores de acesso à Internet consideram automaticamente emails como spam se a taxa de endereços inválidos for muito alta. A quarentena, portanto, permite que você evite ser adicionada à lista de bloqueios por esses provedores.
 
 Além disso, a quarentena ajuda a reduzir os custos de envio de SMS, excluindo números de telefone incorretos dos deliveries.
 
@@ -48,7 +48,7 @@ Being on the **Denylist**, on the other hand, will result in the profile no long
 
 >[!NOTE]
 >
->Quando um usuário responde a uma mensagem SMS com uma palavra-chave como &quot;PARAR&quot; para recusar delivery SMS, seu perfil não é incluir na lista de bloqueios como no processo de recusa por email. O número de telefone do perfil é enviado para a quarentena com o status **[!UICONTROL Denylisted]**. Esse status se refere apenas ao número de telefone, o perfil não é incluir na lista de bloqueios para que o usuário continue recebendo mensagens de email. Para obter mais informações, consulte [esta seção](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
+>Quando um usuário responde a uma mensagem SMS com uma palavra-chave como &quot;PARAR&quot; para recusar delivery SMS, seu perfil não está em lista de bloqueios como no processo de recusa por email. O número de telefone do perfil é enviado para a quarentena com o status **[!UICONTROL On denylist]**. Esse status se refere apenas ao número de telefone, o perfil não está em lista de bloqueios para que o usuário continue recebendo mensagens de email. Para obter mais informações, consulte [esta seção](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
 ## Identificação de endereços em quarentena {#identifying-quarantined-addresses}
 
@@ -88,7 +88,7 @@ O Adobe Campaign gerencia a quarentena de acordo com o tipo de falha do delivery
 
    Quando um delivery é bem-sucedido após uma tentativa, o contador de erros do endereço anterior à quarentena é reinicializado. O status do endereço é alterado para **[!UICONTROL Valid]** e excluído da lista de quarentenas após dois dias pelo fluxo de trabalho **[!UICONTROL Database cleanup]**.
 
-Se um usuário qualificar um email como spam (**Loop de feedback**), a mensagem será automaticamente redirecionada para uma caixa de entrada técnica gerenciada pelo Campaign. Em seguida, o endereço de email do usuário será enviado automaticamente para quarentena com o status **[!UICONTROL Denylisted]**. Esse status se refere apenas ao endereço, o perfil não está na lista de bloqueios, portanto, o usuário continua recebendo mensagens SMS e notificações por push.
+Se um usuário qualificar um email como spam (**Loop de feedback**), a mensagem será automaticamente redirecionada para uma caixa de entrada técnica gerenciada pelo Campaign. Em seguida, o endereço de email do usuário será enviado automaticamente para quarentena com o status **[!UICONTROL On denylist]**. Esse status se refere apenas ao endereço, o perfil não está na lista de bloqueios, portanto, o usuário continua recebendo mensagens SMS e notificações por push.
 
 >[!NOTE]
 A quarentena no Adobe Campaign diferencia maiúsculas de minúsculas. Certifique-se de importar endereços de email em letras minúsculas, para que não sejam redirecionados posteriormente.
