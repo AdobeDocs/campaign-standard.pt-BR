@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 9ab3cc5a23b9b31b463bc3557b8164307d367d25
+workflow-type: tm+mt
+source-wordcount: '929'
+ht-degree: 3%
 
 ---
 
@@ -25,29 +28,29 @@ O Designer de email permite que você crie conteúdo de email e modelos de conte
 
 Para começar a usar o Designer de email, assista a esse [conjunto de vídeos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) que explicam a funcionalidade geral do Designer de email e como projetar um email do zero ou usando modelos.
 
-### Página inicial do Designer de email {#email-designer-home-page}
+### Home page do Designer de Email {#email-designer-home-page}
 
-Ao [criar um email](../../channels/using/creating-an-email.md)**[!UICONTROL Email Designer]**, a página inicial é exibida automaticamente ao selecionar o conteúdo do email.
+Ao [criar um email](../../channels/using/creating-an-email.md), o **[!UICONTROL Email Designer]** home page é exibido automaticamente ao selecionar o conteúdo do email.
 
 ![](assets/email_designer_home_page.png)
 
-A **[!UICONTROL Properties]**guia permite que você edite detalhes do email, como o rótulo, o endereço e o nome do remetente ou o assunto do email. Você também pode acessar essa guia clicando no rótulo do email na parte superior da tela.
+A **[!UICONTROL Properties]** guia permite que você edite detalhes do email, como o rótulo, o endereço e o nome do remetente ou o assunto do email. Você também pode acessar essa guia clicando no rótulo do e-mail na parte superior da tela.
 
 ![](assets/email_designer_home_properties.png)
 
-A **[!UICONTROL Templates]**guia permite escolher entre o conteúdo HTML predefinido ou os modelos que você já criou para iniciar rapidamente a criação do seu email. Consulte Modelos[de](../../designing/using/using-reusable-content.md#content-templates)conteúdo.
+A **[!UICONTROL Templates]** guia permite que você escolha entre o conteúdo HTML pronto para uso ou os modelos que você já criou para criar rapidamente o start do design de seu email. Consulte Modelos [de](../../designing/using/using-reusable-content.md#content-templates)conteúdo.
 
 ![](assets/email_designer_home_templates.png)
 
-A **[!UICONTROL Learn & support]**guia fornece acesso fácil à documentação e aos tutoriais relacionados.
+A **[!UICONTROL Learn & support]** guia fornece acesso fácil à documentação e aos tutoriais relacionados.
 
 ![](assets/email_designer_home_support.png)
 
-Se você não selecionar um modelo, a página inicial do Email Designer também permitirá que você escolha como deseja começar a criar seu conteúdo:
+Se você não selecionar um modelo, o home page Email Designer também permitirá que você escolha como deseja que o start projete seu conteúdo:
 
-* Clique no **[!UICONTROL Create]**botão para iniciar um novo conteúdo do zero. Consulte[Criar um conteúdo de email do zero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
-* Clique no **[!UICONTROL Upload]**botão para carregar um arquivo do seu computador. Consulte[Importar conteúdo de um arquivo](../../designing/using/using-existing-content.md#importing-content-from-a-file).
-* Clique no **[!UICONTROL Import from URL]**botão para recuperar o conteúdo existente de um URL. Consulte[Importar conteúdo de um URL](../../designing/using/using-existing-content.md#importing-content-from-a-url).
+* Clique no **[!UICONTROL Create]** botão para start um novo conteúdo do zero. Consulte [Criar um conteúdo de email do zero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+* Clique no **[!UICONTROL Upload]** botão para carregar um arquivo do seu computador. Consulte [Importar conteúdo de um arquivo](../../designing/using/using-existing-content.md#importing-content-from-a-file).
+* Clique no **[!UICONTROL Import from URL]** botão para recuperar o conteúdo existente de um URL. Consulte [Importar conteúdo de um URL](../../designing/using/using-existing-content.md#importing-content-from-a-url).
 
 ### Interface do Designer de email {#email-designer-interface}
 
@@ -67,19 +70,19 @@ Acesse opções e configurações mais gerais na **barra de ferramentas** princi
 
 ![](assets/email_designer_toolbar.png)
 
-A barra de ferramentas **** Contextual da interface do editor oferece várias funcionalidades dependendo da zona selecionada. Ele contém botões de ação e botões que permitem alterar o estilo do texto. As modificações efetuadas aplicam-se sempre à zona selecionada.
+A barra de ferramentas **** Contextual da interface do editor oferta várias funcionalidades dependendo da zona selecionada. Ele contém botões de ação e botões que permitem alterar o estilo do texto. As modificações efetuadas aplicam-se sempre à zona selecionada.
 
 ### Terminologia {#terminology}
 
-**Modelos**: Os modelos são estruturas de e-mail que você pode criar e reutilizar para várias entregas.
+**Modelos**: Os modelos são estruturas de e-mail que você pode criar e reutilizar para vários delivery.
 
-**Fragmentos**:Um fragmento é um componente reutilizável que pode ser referenciado em um ou mais emails.
+**Fragmentos**: Um fragmento é um componente reutilizável que pode ser referenciado em um ou mais emails.
 
 **Componentes** da estrutura: Elementos estruturais que definem o layout do email
 
 **Componentes** do conteúdo: Os componentes do conteúdo são componentes brutos e vazios que podem ser editados depois de enviados por email.
 
-### Práticas recomendadas de design de conteúdo {#content-design-best-practices}
+### Content design best practices {#content-design-best-practices}
 
 Para fazer o uso correto do Designer de e-mail e criar os melhores e-mails da maneira mais simples possível, recomendamos a aplicação dos seguintes princípios:
 
@@ -95,16 +98,20 @@ Para fazer o uso correto do Designer de e-mail e criar os melhores e-mails da ma
 
 * Ao editar conteúdo **de** email:
 
-   Visualize suas mensagens antes de enviá-las. O Adobe Campaign oferece uma maneira de testar a renderização de email usando o Litmus. Para obter mais informações, consulte Renderização [por](../../sending/using/email-rendering.md)email.
+   Pré-visualização suas mensagens antes de enviá-las. A Adobe Campaign oferta uma maneira de testar a renderização de email usando o Litmus. For more on this, see [Email rendering](../../sending/using/email-rendering.md).
 
-As práticas recomendadas gerais e de design referentes a mensagens são apresentadas no seguinte guia passo a passo do Adobe Campaign: Práticas recomendadas [de entrega com o Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
+Na seção a seguir, são apresentadas mais práticas recomendadas de design e gerais relacionadas a mensagens: [Práticas recomendadas para o delivery](../../sending/using/delivery-best-practices.md)
 
 ### Limitações do Email Designer {#email-designer-limitations}
 
-* Não é possível usar campos de personalização em um fragmento. Para obter mais informações sobre fragmentos, consulte [esta seção](../../designing/using/using-reusable-content.md#about-fragments).
+* Não é possível usar campos de personalização em um fragmento. For more on fragments, see [this section](../../designing/using/using-reusable-content.md#about-fragments).
+
 <!--* You cannot save directly as a fragment some content of an email that you are editing within the Email Designer. You need to copy-paste the HTML corresponding to that content into a new fragment. For more on this, see [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).-->
 * Ao editar estilos, somente as fontes da Web oficialmente suportadas pela maioria dos clientes de email estarão disponíveis.
-* Os estilos não podem ser salvos como um tema para reutilização futura. Entretanto, o estilo CSS pode ser salvo em um modelo de conteúdo ou em um email. Para obter mais informações sobre estilos, consulte [esta seção](../../designing/using/styles.md).
+* Os estilos não podem ser salvos como um tema para reutilização futura. Entretanto, o estilo CSS pode ser salvo em um modelo de conteúdo ou em um email. For more on styles, see [this section](../../designing/using/styles.md).
+* A tag meta de quem indicou não é compatível com o Designer de email.
+* Os pares de substitutos, caracteres não incluídos no Plano Multilingue Básico do conjunto de caracteres Unicode, não podem ser armazenados em 2 bytes (16 bits) e precisam ser codificados em 2 caracteres UTF-16. Esses caracteres incluem algumas ideografias CJK, a maioria dos emojis e alguns idiomas.
+Esses caracteres podem causar alguns problemas de incompatibilidade no texto dinâmico. É necessário realizar testes fortes antes de enviar suas mensagens.
 
 ### Atualização de fragmentos {#email-designer-updates}
 
@@ -112,7 +119,7 @@ O Designer de e-mail está em melhoria contínua. Se você criou um conteúdo de
 
 ![](assets/email_designer_fragment_patch_message.png)
 
-A Adobe recomenda atualizar seu conteúdo para a versão mais recente para evitar problemas como problemas de colisão de CSS. Clique em **[!UICONTROL Update now]**.
+O Adobe recomenda atualizar seu conteúdo para a versão mais recente para evitar problemas como problemas de colisão de CSS. Clique em **[!UICONTROL Update now]**.
 
 Se ocorrer um erro durante a atualização do conteúdo, verifique seu HTML e corrija-o antes de executar esta atualização novamente.
 
