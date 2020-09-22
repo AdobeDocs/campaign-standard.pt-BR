@@ -12,9 +12,9 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a07ccaf864c3aef881cb02042b5e00a43c48f0a9
+workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 100%
 
@@ -60,6 +60,7 @@ Para enviar provas, siga estas etapas:
    * **[!UICONTROL Email rendering]**: selecione essa opção para testar a maneira com que sua mensagem é recebida de acordo com as caixas de entrada segmentadas. Para mais informações, consulte [Renderização de email](../../sending/using/email-rendering.md).
    * **[!UICONTROL Proof]**: selecione essa opção para testar a mensagem antes de enviá-la para o público alvo principal. Os recipients de prova são responsáveis pela aprovação do delivery, verificando o conteúdo e o formato.
    * **[!UICONTROL Proof + Email rendering]**: essa opção combina as duas opções anteriores.
+
    ![](assets/bat_select1.png)
 
    >[!NOTE]
@@ -108,7 +109,7 @@ Para ocultar o número da prova na linha de assunto, ative a opção **[!UICONTR
 **Tópicos relacionados:**
 
 * Vídeo [Envio de teste, preparação e envio de email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html)
-* [Teste de mensagens de email usando perfis segmentados](../../sending/using/testing-messages-using-target.md).
-* [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md).
+* [Testar mensagens de email usando perfis direcionados](../../sending/using/testing-messages-using-target.md)
+* [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md)
 * [Visualização de mensagens](../../sending/using/previewing-messages.md)
 * [Configuração do canal de email](../../administration/using/configuring-email-channel.md)
