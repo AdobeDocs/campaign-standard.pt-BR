@@ -12,11 +12,11 @@ discoiquuid: 158da6ff-8899-4e7b-b925-8a42c3de46a1
 context-tags: deliveryCreation,wizard;delivery,audience,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
-workflow-type: ht
-source-wordcount: '294'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e725ef966bcd6df84ed0c82e17fad65f289fd013
+workflow-type: tm+mt
+source-wordcount: '364'
+ht-degree: 83%
 
 ---
 
@@ -39,6 +39,7 @@ Os públicos-alvo podem ser definidos ao criar a mensagem com o assistente de cr
 
    * Target
    * Testar perfis
+
    ![](assets/delivery_audience_definition_2.png)
 
 1. Defina o **[!UICONTROL Target]** principal do email. Ele é o público-alvo normal do email.
@@ -54,6 +55,10 @@ Os públicos-alvo podem ser definidos ao criar a mensagem com o assistente de cr
 1. Defina os **[!UICONTROL Test profiles]** que deseja usar para o email. Os perfis de teste receberão as provas que você enviar para testar o email antes que ele seja enviado ao público-alvo principal.
 
    Para saber mais sobre como configurar perfis de teste, consulte a seção [Perfis de teste](../../audiences/using/managing-test-profiles.md).
+
+1. Se necessário, é possível definir um grupo de controle usando a guia correspondente. Isso permitirá que você retire alguns perfis do seu público alvo para que eles não recebam a mensagem. For more on this, see [Adding a control group](../../sending/using/control-group.md).
+
+1. Você também pode usar endereços de substituição para obter uma representação exata da mensagem que o perfil receberá.  Para mais informações, consulte [Testar mensagens de email usando perfis segmentados](../../sending/using/testing-messages-using-target.md).
 
 O bloco de públicos-alvo é atualizado e mostra que um público-alvo e perfis de teste foram selecionados para o email específico.
 
