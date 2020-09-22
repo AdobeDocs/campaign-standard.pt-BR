@@ -1,5 +1,5 @@
 ---
-title: Introdução aos testes e envio
+title: Introdução a testes e envios
 description: Descubra as diferentes etapas para testar e enviar uma mensagem.
 page-status-flag: never-activated
 uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
@@ -12,15 +12,15 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: d90de8255f7b08da2187bb8d1b16624d0d94bd80
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 10%
+source-wordcount: '580'
+ht-degree: 13%
 
 ---
 
 
-# Introdução aos testes e envio {#about-sending-messages-with-campaign}
+# Introdução a testes e envios {#about-sending-messages-with-campaign}
 
 <table>
 <tr>
@@ -29,7 +29,7 @@ ht-degree: 10%
 <td><img src="assets/do-not-localize/icon_deliverability.svg" width="60px"><p><a href="#improve-deliverability">Diretrizes de entregabilidade</a></p></td></tr>
 </table>
 
-Depois de definir o público alvo e criar o conteúdo de uma mensagem, é necessário preparar e testar o conteúdo dos delivery, personalização, renderização e configuração. Isso permite que você se certifique de que tudo esteja correto antes de enviar a mensagem para o público alvo principal. Para fazer isso, várias funcionalidades estão disponíveis, como pré-visualização, provas, teste de assunto de email ou renderização de email.
+Depois de definir o público alvo e criar o conteúdo de uma mensagem, é necessário preparar e testar o conteúdo dos delivery, personalização, renderização e configuração. Isso permite que você se certifique de que tudo esteja correto antes de enviar a mensagem para o público alvo principal. Para fazer isso, várias funcionalidades estão disponíveis como pré-visualização, provas, teste de linha de assunto do email ou renderização de email.
 
 Depois que as campanhas de marketing tiverem sido executadas e as diferentes mensagens tiverem sido enviadas, monitore-as usando registros para verificar o sucesso de sua campanha e recupere as informações de rastreamento nos recipient.
 
@@ -50,7 +50,7 @@ Use **tipologias** para verificar durante a preparação se a mensagem é válid
 Leia mais:
 
 * [Preparação do envio](../../sending/using/preparing-the-send.md)
-* [Visualizar mensagens](../../sending/using/previewing-messages.md)
+* [Visualização de mensagens](../../sending/using/previewing-messages.md)
 * [Envio de provas](../../sending/using/sending-proofs.md)
 * [Renderização de email](../../sending/using/email-rendering.md)
 * [Agendamento de mensagens](../../sending/using/about-scheduling-messages.md)
@@ -60,19 +60,19 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 
-Quando a mensagem estiver pronta, você poderá confirmar os registros e relatórios de envio e acesso para **monitorar o delivery** e medir o sucesso da campanha. O Adobe Campaign também fornece um sistema de alerta por email para acompanhar os sucessos ou falhas do delivery, bem como os recursos de gerenciamento de quarentenas.
+Quando a mensagem estiver pronta, você poderá confirmar os registros e relatórios de envio e acesso para **monitorar o delivery** e medir o sucesso da campanha. A Adobe Campaign também fornece um sistema de alerta por email para rastrear sucessos ou falhas do delivery, bem como recursos de gerenciamento de quarentenas.
 
 **Rastreie o comportamento** dos recipient de mensagens usando cookies permanentes e de sessão para recuperar informações de rastreamento (URLs clicados, mirrores page, mensagens abertas...).
 
-Por fim, você pode configurar o Adobe Campaign para **manter uma cópia dos emails** enviados da sua plataforma por meio do Email BCC. Em particular, se sua organização precisar arquivar todas as mensagens de email de saída para fins de conformidade, você poderá habilitar esse recurso.
+Por fim, você pode configurar a Adobe Campaign para **manter uma cópia dos emails** enviados de sua plataforma por meio do Email BCC. Em particular, se sua organização precisar arquivar todas as mensagens de email de saída para fins de conformidade, você poderá habilitar esse recurso.
 
 Leia mais:
 
-* [Confirmar o envio](../../sending/using/confirming-the-send.md)
+* [Confirmação do envio](../../sending/using/confirming-the-send.md)
 * [Rastreamento de mensagens](../../sending/using/tracking-messages.md)
 * [Arquivamento com email Cco](../../sending/using/archiving.md)
 * [Monitoramento de uma entrega](../../sending/using/monitoring-a-delivery.md)
-* [Noções básicas sobre falhas de entrega](../../sending/using/understanding-delivery-failures.md)
+* [Noções básicas sobre falhas de delivery](../../sending/using/understanding-delivery-failures.md)
 * [Noções básicas sobre gestão de quarentena](../../sending/using/understanding-quarantine-management.md)
 
 ## Diretrizes de entregabilidade {#improve-deliverability}
@@ -96,6 +96,6 @@ Leia mais:
 * [Criação de emails de teste A/B](../../channels/using/designing-an-a-b-test-email.md)
 * [Envie um teste, prepare e envie um email (vídeo)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
 * [Analisar um delivery de email e relatórios (vídeo)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
-* [Introdução aos emails](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
+* [Introdução aos emails](https://helpx.adobe.com/br/campaign/kb/acs-get-started-with-emails.html)
 * [Práticas recomendadas para delivery](https://helpx.adobe.com/br/campaign/kb/delivery-best-practices.html)
-* [Caso de uso: Criação de um grupo de controle](../../automating/using/workflow-control-group.md)
+* [Adicionar um grupo de controle](../../sending/using/control-group.md)
