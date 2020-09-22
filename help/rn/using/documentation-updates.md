@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ec32aa2a955486362f100382f3a78004fdae4a4f
+source-git-commit: 23e3b1c3105fd99ec0cd67cb4a3ca5e565604449
 workflow-type: tm+mt
-source-wordcount: '6140'
-ht-degree: 94%
+source-wordcount: '6228'
+ht-degree: 93%
 
 ---
 
@@ -23,6 +23,22 @@ ht-degree: 94%
 # Atualizações da documentação{#documentation-updates}
 
 Além das [Notas de versão](../../rn/using/release-notes.md) do Adobe Campaign, esta página lista todas as atualizações na documentação do Adobe Campaign Standard.
+
+## Versão 20.4 - Outubro de 2020 {#release-20-4---october-2020}
+
+**Novos recursos incluídos na versão**
+
+Control groups - [Read More](../../sending/using/control-group.md)
+
+API externa (suporte a OAuth) - [Leia mais](../../automating/using/external-api.md)
+
+Integração da jornada AI - [Leia mais](../../sending/using/predictive.md)
+
+**Outras atualizações de documentação incluídas na versão**
+
+A seção sobre como chamar um fluxo de trabalho com parâmetros externos foi aprimorada com novas funções disponíveis no Editor de Expressões. [Leia mais](../../automating/using/customizing-workflow-external-parameters.md)
+
+Uma recomendação foi adicionada às práticas recomendadas de workflows no número de atividades a serem usadas por fluxo de trabalho. [Leia mais](../../automating/using/best-practices-workflows.md#number-activities)
 
 ## Atualizações de documentação - Setembro de 2020 {#doc-updates-september-2020}
 
@@ -33,6 +49,8 @@ Uma nota de advertência foi adicionada para avisar os usuários sobre a limita�
 Uma nova seção foi adicionada para detalhar o processo de criação de uma nova marca. [Leia mais](../../administration/using/branding.md#creating-a-brand)
 
 A nova integração Campaign Standard - Microsoft Dynamics 365 está disponível. [Leia mais](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+
+Foram adicionadas informações sobre fontes anônimas no relatório perfis ativos. [Leia mais](../../audiences/using/active-profiles.md)
 
 ## Atualizações da documentação - Agosto de 2020 {#doc-updates-august-2020}
 
@@ -220,7 +238,7 @@ O guia de introdução sobre como exportar/importar recursos personalizados foi 
 
 ## Atualizações de documentação - Novembro de 2019 {#doc-updates-november-2019}
 
-Um novo caso de uso que descreve como criar um grupo de controle usando um fluxo de trabalho no Campaign Standard foi adicionado. [Leia mais](../../automating/using/workflow-control-group.md)
+Um novo caso de uso que descreve como criar um grupo de controle usando um fluxo de trabalho no Campaign Standard foi adicionado.
 
 Informações relacionadas às propriedades das páginas de aterrissagem foram movidas para uma seção dedicada. [Leia mais](../../channels/using/configuring-landing-page.md)
 
@@ -276,7 +294,7 @@ O capítulo Páginas de aterrissagem foi reorganizado. Ele também foi enriqueci
 
 Uma nova seção foi adicionada na seção Notificações por push sobre como criar e atualizar informações de perfil com base nos dados de assinatura de um aplicativo para dispositivos móveis. [Leia mais](../../channels/using/updating-profile-with-mobile-app-data.md)
 
-Um novo exemplo que mostra como enviar um email contendo dados adicionais recuperados de uma atividade de carregamento de arquivo foi adicionado. [Leia mais](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
+Um novo exemplo que mostra como enviar um email contendo dados adicionais recuperados de uma atividade de carregamento de arquivo foi adicionado. [Leia mais](../../automating/using/sending-email-enriched-fields.md)
 
 Uma nova seção sobre com usar coberturas foi adicionada. [Leia mais](../../sending/using/using-traps.md).
 
@@ -466,7 +484,7 @@ Foram adicionadas informações sobre a opção que permite manter as rejeiçõe
 
 Adição de uma nova seção sobre como duplicar atividades de fluxo de trabalho por meio de operações de copiar e colar. [Leia mais](../../automating/using/workflow-interface.md#duplicating-workflow-activities)
 
-Foram adicionadas informações sobre a nova opção das atividades de Query ( [Leia mais](../../automating/using/query.md)) e Segmentação ( [Leia mais](../../automating/using/segmentation.md)), que permitem adicionar uma transição de saída após a atividade, caso a atividade não recupere dados.
+Foram adicionadas informações sobre a nova opção das atividades de Query ( [Leia mais](../../automating/using/query-samples.md)) e Segmentação ( [Leia mais](../../automating/using/segmentation.md)), que permitem adicionar uma transição de saída após a atividade, caso a atividade não recupere dados.
 
 Foram adicionadas informações na seção Atualização de atividade de dados no novo campo Batch size, que permite definir o tamanho máximo do lote para upload de dados. [Leia mais](../../automating/using/update-data.md#configuration)
 
@@ -568,7 +586,7 @@ A documentação Trabalho com o Campaign e o Audience Manager ou o serviço prin
 
 Atualização da definição da função Preparar deliveries. [Leia mais](../../administration/using/list-of-roles.md)
 
-Adição de um exemplo na seção da atividade de query sobre como segmentar perfis que clicaram em um link específico em um delivery. [Leia mais](../../automating/using/query.md#targeting-profiles-who-clicked-a-specific-link-)
+Adição de um exemplo na seção da atividade de query sobre como segmentar perfis que clicaram em um link específico em um delivery. [Leia mais](../../automating/using/query-samples.md#targeting-profiles-who-clicked-a-specific-link-)
 
 Adicionada uma seção na documentação da API relacionada aos **filtros personalizados**. [Leia mais](../../api/using/filtering.md)
 
@@ -622,7 +640,7 @@ Uso de recursos personalizados em mensagens transacionais - [Leia mais](../../ad
 
 A API do GDPR reagrupa recursos que permitem o processamento automático de solicitações do GDPR. [Leia mais](../../api/using/creating-a-privacy-request.md)
 
-Foram adicionadas informações sobre como configurar landings page para que seus recipient possam ser incluir na lista de bloqueios. [Leia mais](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Foram adicionadas informações sobre como configurar landings page para que seus recipient possam estar em lista de bloqueios. [Leia mais](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 A seção [Configuração de mensagens transacionais](../../administration/using/configuring-transactional-messaging.md) foi reorganizada e um [caso de uso passo a passo](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) foi adicionado.
 
@@ -658,7 +676,7 @@ As notas de versão foram reorganizadas em várias páginas para que você obten
 
 A seção **[!UICONTROL Working with typologies]** foi atualizada para melhorar a visibilidade. [Leia mais](../../sending/using/about-typology-rules.md)
 
-Uma nova opção que permite obter desempenho ao definir muitos dados adicionais em um **[!UICONTROL Query]** está agora disponível. [Leia mais](../../automating/using/query.md)
+Uma nova opção que permite obter desempenho ao definir muitos dados adicionais em um **[!UICONTROL Query]** está agora disponível. [Leia mais](../../automating/using/query-samples.md)
 
 O exemplo de importação de perfil foi atualizado com algumas dicas para que seus perfis estejam prontos para receber malas diretas. [Leia mais](../../automating/using/about-data-import-and-export.md)
 
@@ -672,7 +690,7 @@ A seção que inclui a lista de autorizações foi retirada. [Leia mais](https:/
 
 Um caso de uso passo a passo foi adicionado sobre como usar a resposta automática do SMS. [Leia mais](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
-Foram adicionadas informações sobre como enviar um delivery dependendo dos fusos horários dos usuários em um fluxo de trabalho recorrente. [Leia mais](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
+Foram adicionadas informações sobre como enviar um delivery dependendo dos fusos horários dos usuários em um fluxo de trabalho recorrente. [Leia mais](../../automating/using/recurring-push-notifications.md)
 
 A seção **[!UICONTROL Customizing a push notification]** foi reorganizada com casos de uso passo a passo. [Leia mais](../../channels/using/customizing-a-push-notification.md)
 
