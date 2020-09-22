@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '7622'
+source-wordcount: '7624'
 ht-degree: 9%
 
 ---
@@ -617,7 +617,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * Correção de um problema, no editor de query, com a condição de junção entre o log de fluxo e o log de rastreamento para rtEvent. (CAMP-28780)
 * Correção de um problema que impedia que modificações na opção de landing page &quot;Ação específica&quot; fossem salvas. (CAMP-29422)
 * Correção de um problema que impedia a exportação de uma carga de evento em um fluxo de trabalho. (CAMP-29029)
-* Correção de um problema que impedia que números de SMS incluir na lista de bloqueios fossem excluídos em uma mensagem SMS. (CAMP-28898)
+* Correção de um problema que impedia que números de SMS na  lista de bloqueios fossem excluídos em uma mensagem SMS. (CAMP-28898)
 * Correção de um problema que impedia que os provedores SMPP fossem notificados em caso de erro ao processar mensagens recebidas. (CAMP-29804)
 * Correção de um problema que permitia a exclusão de contas externas com delivery associados. (CAMP-29738)
 * A taxa de transferência de envio foi melhorada e estabilizada para mensagens SMS.
