@@ -12,10 +12,10 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '2028'
-ht-degree: 2%
+source-wordcount: '2031'
+ht-degree: 3%
 
 ---
 
@@ -261,7 +261,7 @@ Estes são alguns motivos possíveis para receber notificações de alerta de ac
 
    As possíveis causas de um **[!UICONTROL Delivery with bad error ratio for hard bounces]** alerta podem ser:
 
-   * O recipient é incluir na lista de bloqueios, o que significa que não quer mais ser contatado.
+   * O recipient é adicionado à lista de bloqueios, o que significa que não deseja mais ser contatado.
    * O endereço de email do recipient não existe.
    * O domínio do recipient não existe.
    * O servidor do recipient está bloqueando o delivery.
