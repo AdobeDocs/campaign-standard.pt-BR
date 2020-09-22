@@ -1,10 +1,10 @@
 ---
 keywords: Campaign Standard;home;popular topics
-solution: Campaign Standard
+solution: Campaign
 title: Documentação do produto Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 351b8be616b1e293bd2899c2d4dbb489b1318578
+source-git-commit: b80197491b45cff46273e1a41e3dfb7a939f96c5
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 74%
