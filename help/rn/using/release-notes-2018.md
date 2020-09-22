@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '5398'
+source-wordcount: '5400'
 ht-degree: 10%
 
 ---
@@ -89,7 +89,7 @@ Visualização as atualizações [mais recentes da](../../rn/using/documentation
 * Correção de um problema que fazia com que as fotos carregadas de uma câmera e filmadas no modo retrato fossem exibidas em uma posição girada indesejada.
 * Correção de um problema que exibia informações de seleção não claras ao usar a interface do editor de query no Creative Designer.
 * Correção de um problema que impedia a duplicação correta de um elemento ao usar a interface do editor de query no Creative Designer.
-* Correção de um problema que continuava enviando mensagens SMS para recipient da lista de negação, mesmo que eles tivessem sido cancelados por meio de uma resposta automática. (CAMP-27128)
+* Correção de um problema que mantinha a entrega de mensagens SMS a recipient na lista de bloqueios, mesmo que eles tivessem sido cancelados por meio de uma resposta automática. (CAMP-27128)
 * Correção de um problema que impedia a exibição dos erros que causavam a falha do fluxo de trabalho de Limpeza **** do Banco de Dados. (CAMP-26876)
 * Correção de um problema que impedia a exclusão de campos personalizados em uma definição de notificação por push. (CAMP-25588)
 
@@ -115,7 +115,7 @@ Visualização as atualizações [mais recentes da](../../rn/using/documentation
   </tr> 
   <tr> 
    <td> Importação de conteúdo automatizada de um URL durante a preparação da mensagem<br /> </td> 
-   <td> Agora é possível importar conteúdo de email de um URL durante a fase de preparação. Para delivery de e-mail recorrentes, o conteúdo HTML mais recente é recuperado toda vez que a mensagem é preparada, garantindo que o conteúdo esteja sempre atualizado no momento em que o e-mail é enviado. Esse recurso também permite que você crie um agendo o delivery com conteúdo de um URL, mesmo se o conteúdo ainda não estiver pronto.<br /> Para obter mais informações, consulte a <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">documentação detalhada</a>.<br /> </td> 
+   <td> Agora é possível importar conteúdo de email de um URL durante a fase de preparação. Para delivery de email recorrentes, o conteúdo HTML mais recente é recuperado toda vez que a mensagem é preparada, garantindo que o conteúdo esteja sempre atualizado no momento em que o email é enviado. Esse recurso também permite que você crie um agendo o delivery com conteúdo de um URL, mesmo se o conteúdo ainda não estiver pronto.<br /> Para obter mais informações, consulte a <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Mensagem de notificação de liberação de campanha<br /> </td> 
