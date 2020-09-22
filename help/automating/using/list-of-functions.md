@@ -11,11 +11,11 @@ topic-tags: filtering-data
 discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
-workflow-type: ht
-source-wordcount: '1912'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ed920a9b08eb664c2825ba785c75092eb0f2be1e
+workflow-type: tm+mt
+source-wordcount: '1940'
+ht-degree: 98%
 
 ---
 
@@ -37,6 +37,10 @@ Vários tipos de função estão disponíveis, dependendo dos resultados desejad
 * Agregados
 * Manipulação de strings
 * Classificação
+
+>[!NOTE]
+>
+>Funções adicionais estão disponíveis em todas as atividades que permitem usar variáveis de eventos após chamar um fluxo de trabalho com parâmetros externos. Eles são detalhados [nesta seção](../../automating/using/customizing-workflow-external-parameters.md).
 
 ## Datas {#dates}
 
