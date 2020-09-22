@@ -12,9 +12,9 @@ discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: acaa07b3e40d0bcbf7c44f866ede141b992015a1
+source-git-commit: c277a6cb18e9a1d83f8a2632049e7cea36414052
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ A Adobe Campaign Standard oferta dois novos modelos de aprendizado de máquina: 
 >[!CAUTION]
 >Esse recurso não está disponível para uso imediato como parte do produto. A implementação exige que a Adobe Consulting esteja envolvida. Entre em contato com seu representante de Adobe para saber mais.
 >
->Separadamente, o recurso exigia o uso de um armazenamento do Azure que deve ser fornecido pelo cliente.
+>O recurso exige o uso de um armazenamento do Azure que deve ser fornecido pelo cliente.
 
 ## Otimização preditiva do tempo de envio{#predictive-send-time}
 
