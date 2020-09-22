@@ -12,7 +12,10 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
+source-git-commit: cd2d38ec65ecc0ee5d6d60ce2ae46eb21da6cd45
+workflow-type: tm+mt
+source-wordcount: '117'
+ht-degree: 11%
 
 ---
 
@@ -21,9 +24,9 @@ source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
 
 ## Navegadores compatíveis{#compatible-browsers}
 
-O Adobe Campaign Standard é compatível com a maioria dos navegadores para computadores, bem como com os principais sistemas operacionais para tablets.
+A Adobe Campaign Standard é compatível com a maioria dos navegadores para computadores, assim como com os principais sistemas operacionais para tablets.
 
-O Adobe Campaign Standard suporta apenas paisagem como modo de exibição em tablets.
+O Adobe Campaign Standard suporta apenas o modo paisagem como modo de exibição em tablets.
 
 Esta é a lista dos navegadores compatíveis com o Adobe Campaign Standard:
 
@@ -45,12 +48,11 @@ Estes são os diferentes pontos de extremidade usados no Campaign Standard.
 
 | Contexto | URL |
 |--- |--- |
-| Instâncias de Campanha | `https://*.experiencecloud.adobe.com` (ID do locatário * + domínio do cliente)<br>`https://*.campaign.adobe.com` (locatário da instância de Campanha) |
+| Instâncias de campanha | `https://*.experiencecloud.adobe.com` (ID do locatário * + domínio do cliente)<br>`https://*.campaign.adobe.com` (locatário da Instância de Campanha) |
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
 | Experience Cloud | `https://experiencecloud.adobe.com` |
 | Rastreamento | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
-| Creative SDK para editor de imagens | `https://dme0ih8comzn4.cloudfront.net`<br>`https://d42hh4005hpu.cloudfront.net/`<br>`https://cdn-creativesdk.adobe.io/`<br>`https://api-ag.aviary.com/`<br>`https://feather-client-files-aviary-prod-us-east-1.s3.amazonaws.com/` |
 | Integração de ativos | `https://*.marketing-assets.adobe.com` |
-| Serviços internos da Adobe | `https://*.adobe.io` |
+| Serviços internos de Adobe | `https://*.adobe.io` |
 | Pesquisas | `https://adobe.allegiancetech.com` |
 | URL de marca padrão (antes da configuração do cliente) | `https://*.adobe-campaign.com` |
