@@ -12,10 +12,10 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+source-git-commit: c4373c444ed51e03c16be05363e9e4128a6f4a58
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 98%
+source-wordcount: '1069'
+ht-degree: 93%
 
 ---
 
@@ -73,12 +73,15 @@ Para mais informações, consulte [Execução de fluxos de trabalho](../../autom
 
 As propriedades do fluxo de trabalho permitem definir um fuso horário específico que será usado por padrão em todas as atividades. Por padrão, o fuso horário do workflow é aquele definido para o operador atual do Campaign.
 
-
 ## Atividade{#activity}
+
+### Número de atividades por fluxo de trabalho {#number-activities}
+
+Recomendamos usar até 100 atividades em um único fluxo de trabalho. Mais de 100 atividades, você pode encontrar alguns problemas de desempenho ao projetar e configurar seu fluxo de trabalho.
 
 ### Design do fluxo de trabalho
 
-Para garantir que o fluxo de trabalho termine corretamente, use um **[!UICONTROL End activity]**. Evite deixar a última transição de um fluxo de trabalho por conta própria.
+Para garantir que o fluxo de trabalho termine corretamente, evite deixar a última transição de um fluxo de trabalho por conta própria usando um **[!UICONTROL End activity]**.
 
 Para acessar a visualização detalhada das transições, marque a opção **[!UICONTROL Keep interim results]**, na seção Execução das propriedades do fluxo de trabalho.
 
