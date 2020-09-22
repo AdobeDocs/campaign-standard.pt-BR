@@ -12,9 +12,9 @@ discoiquuid: c3015cdc-8432-4e57-8ac0-43ae7827e3b0
 context-tags: packageDef,overview;packageInstall,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
+workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 100%
 
@@ -43,9 +43,11 @@ Para exibir e modificar o conteúdo de um elemento, clique no rótulo correspond
 
 ![](assets/packages_14.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->A exportação de pacotes não será autorizada se os recursos exportados tiverem IDs padrão. Portanto, as IDs dos recursos exportáveis devem ser alteradas usando um nome diferente dos templates fornecidos como padrão pelo Adobe Campaign Standard. Por exemplo, para exportar perfis de teste, não use uma ID contendo o valor “SDM” ou “sdm”. Ao tentar exportar pacotes que contêm IDs padrão, você pode ver erros como: “The &#39;Brands (branding)&#39; entity type uses a default ID (&#39;BRD1&#39;) that may cause a conflict when importing the package. Change this name and repeat the operation.”
+>A exportação de pacotes não será autorizada se os recursos exportados tiverem IDs padrão. Portanto, as IDs dos recursos exportáveis devem ser alteradas usando um nome diferente dos templates fornecidos como padrão pelo Adobe Campaign Standard. Por exemplo, para exportar perfis de teste, não use uma ID contendo o valor “SDM” ou “sdm”.
+>
+>Ao tentar exportar pacotes que contêm IDs padrão, você pode ver erros como: “The &#39;Brands (branding)&#39; entity type uses a default ID (&#39;BRD1&#39;) that may cause a conflict when importing the package. Change this name and repeat the operation.”
 
 As etapas de exportação de pacote são descritas na seção [Exportação de um pacote](#exporting-a-package).
 
