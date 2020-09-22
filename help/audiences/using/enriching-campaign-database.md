@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: c1147c4512b1485ae5d927a32970adcd41b540e7
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 1%
@@ -26,7 +26,7 @@ O Campaign Standard oferta várias ferramentas para ajudá-lo a expandir seu ban
 
 ## Importação de dados por meio de workflows {#importing-data-through-workflows}
 
-Os Workflows permitem coletar dados e importá-los para o banco de dados de Campanha por meio do uso do [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) atividade.
+Os workflows permitem coletar dados e importá-los para o banco de dados de Campanha por meio do uso do [[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md) atividade.
 
 As informações genéricas e as práticas recomendadas ao importar dados por meio de workflows são apresentadas [nesta seção](../../automating/using/about-data-import-and-export.md).
 
@@ -52,7 +52,7 @@ O princípio é o seguinte:
 * Mapeie cada campo de entrada com o campo correspondente do banco de dados.
 * Disponibilize a landing page on-line por um site ou por meio de um link direto em uma mensagem.
 
-Para obter mais informações sobre o landing page, consulte a documentação [](../../channels/using/getting-started-with-landing-pages.md)dedicada.
+For more on landing pages, refer to the [dedicated documentation](../../channels/using/getting-started-with-landing-pages.md).
 
 ## Sincronizando perfis do Microsoft Dynamics 365
 
@@ -71,6 +71,6 @@ As APIs de Campaign Standard permitem que você execute operações para atualiz
 
 For more on how to use the APIs, refer to the [dedicated documentation](../../api/using/get-started-apis.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Antes de executar a criação em massa de perfis ou a atualização por meio de chamadas de API, verifique as limitações de escala correspondentes ao seu contrato de licença. Para obter mais informações, consulte [esta página](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
