@@ -1,5 +1,5 @@
 ---
-title: Criação de conteúdo no Adobe Campaign
+title: Design de conteúdo no Adobe Campaign
 description: Saiba mais sobre todos os elementos que você pode definir em seu conteúdo com o Adobe Campaign.
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
@@ -12,7 +12,10 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb7758c6d2b19bb7a302649626acead97497da9a
+source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+workflow-type: tm+mt
+source-wordcount: '1147'
+ht-degree: 4%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: eb7758c6d2b19bb7a302649626acead97497da9a
 
 Depois de criar um email no Adobe Campaign, é necessário definir seu conteúdo.
 
-O Designer de e-mail permite que você crie e-mails cativantes e adaptados individualmente por meio de uma interface de arrastar e soltar aumentada pelas integrações nativas da Creative Cloud. Esteja você iniciando em branco ou aproveitando fragmentos ou modelos de conteúdo existentes, projete e refine todo o conteúdo de cada email, seja promocional ou transacional.
+O Designer de e-mail permite que você crie e-mails cativantes e adaptados individualmente por meio de uma interface de arrastar e soltar aumentada por integrações de Creative Cloud nativas. Esteja você iniciando em branco ou aproveitando fragmentos ou modelos de conteúdo existentes, projete e refine todo o conteúdo de cada email, seja promocional ou transacional.
 
 Criado para fornecer HTML otimizado para design responsivo, o Email Designer permite que você defina e aplique facilmente condições de visibilidade e conteúdo dinâmico a um email, modelo ou fragmento diretamente pela interface do usuário. Você pode alternar perfeitamente entre a interface de arrastar e soltar e o código HTML ao clicar em um botão.
 
@@ -36,7 +39,7 @@ Para começar a usar o Designer de email, assista a esse [conjunto de vídeos](h
 * Para obter mais informações sobre como criar conteúdo:
    * Do zero, consulte [Criar e-mails do zero](../../designing/using/designing-from-scratch.md).
    * Usando o conteúdo existente, consulte [Design usando o conteúdo](../../designing/using/using-existing-content.md)existente.
-   * Usando integrações da Creative Cloud, consulte Design [de e-mail com](../../designing/using/using-integrations.md)várias soluções.
+   * Usando integrações de Creative Cloud, consulte Design [de e-mail com](../../designing/using/using-integrations.md)várias soluções.
 * Para obter mais informações sobre personalização, consulte [Personalização](../../designing/using/personalization.md).
 
 Ao criar um email, você pode optar por usar um modelo predefinido ou carregar um conteúdo existente de outra fonte. Consulte [Seleção de um conteúdo](../../designing/using/using-existing-content.md#selecting-an-existing-content)existente.
@@ -67,7 +70,7 @@ Acesse opções e configurações mais gerais na **barra de ferramentas** princi
 
 A barra de ferramentas **** Contextual da interface do editor oferta várias funcionalidades dependendo da zona selecionada. Ele contém botões de ação e botões que permitem alterar o estilo do texto. As modificações efetuadas aplicam-se sempre à zona selecionada.
 
-### home page do Designer de Email {#email-designer-home-page}
+### Home page do Designer de Email {#email-designer-home-page}
 
 Ao [criar um email](../../channels/using/creating-an-email.md), o **[!UICONTROL Email Designer]** home page é exibido automaticamente ao selecionar o conteúdo do email.
 
@@ -117,9 +120,9 @@ Para fazer o uso correto do Designer de e-mail e criar os melhores e-mails da ma
 
 * Ao editar conteúdo **de** email:
 
-   Pré-visualização suas mensagens antes de enviá-las. Adobe Campaign oferta uma maneira de testar a renderização de email usando o Litmus. For more on this, see [Email rendering](../../sending/using/email-rendering.md).
+   Pré-visualização suas mensagens antes de enviá-las. A Adobe Campaign oferta uma maneira de testar a renderização de email usando o Litmus. For more on this, see [Email rendering](../../sending/using/email-rendering.md).
 
-As práticas recomendadas gerais e de design relacionadas às mensagens são apresentadas no seguinte guia passo a passo do Adobe Campaign: Práticas recomendadas para o [Delivery](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
+Na seção a seguir, são apresentadas mais práticas recomendadas de design e gerais relacionadas a mensagens: [Práticas](../../sending/using/delivery-best-practices.md)recomendadas para o delivery.
 
 ### Atualização de fragmentos {#email-designer-updates}
 
@@ -127,7 +130,7 @@ O Designer de e-mail está em melhoria contínua. Se você criou um conteúdo de
 
 ![](assets/email_designer_fragment_patch_message.png)
 
-A Adobe recomenda atualizar seu conteúdo para a versão mais recente para evitar problemas como problemas de colisão de CSS. Clique em **[!UICONTROL Update now]**.
+O Adobe recomenda atualizar seu conteúdo para a versão mais recente para evitar problemas como problemas de colisão de CSS. Clique em **[!UICONTROL Update now]**.
 
 Se ocorrer um erro durante a atualização do conteúdo, verifique seu HTML e corrija-o antes de executar esta atualização novamente.
 
@@ -154,7 +157,7 @@ No que diz respeito aos fragmentos, observe o seguinte:
 
 **Tópicos relacionados**
 
-* [Criação de um de email](../../channels/using/creating-an-email.md)
-* [Criação de uma página de aterrissagem](../../channels/using/designing-a-landing-page.md)
+* [Criação de email](../../channels/using/creating-an-email.md)
+* [Design de uma landing page](../../channels/using/designing-a-landing-page.md)
 * [Criar uma mensagem SMS](../../channels/using/creating-an-sms-message.md)
-* [Criação e envio de notificações por push](../../channels/using/preparing-and-sending-a-push-notification.md)
+* [Criação e envio de uma notificação por push](../../channels/using/preparing-and-sending-a-push-notification.md)
