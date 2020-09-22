@@ -12,20 +12,20 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 8e4f25a1d9ad2aa8fb74a6ddd096bda696f502da
 workflow-type: tm+mt
-source-wordcount: '2536'
-ht-degree: 4%
+source-wordcount: '2570'
+ht-degree: 5%
 
 ---
 
 
 # Personalização de conteúdo de e-mail {#personalization}
 
-O conteúdo e a exibição das mensagens entregues pelo Adobe Campaign podem ser personalizados de várias maneiras diferentes. Essas maneiras podem ser combinadas de acordo com critérios dependendo dos perfis. Em geral, o Adobe Campaign permite:
+O conteúdo e a exibição de mensagens entregues pela Adobe Campaign podem ser personalizados de várias maneiras diferentes. Essas maneiras podem ser combinadas de acordo com critérios dependendo dos perfis. Em geral, o Adobe Campaign permite:
 
-* Inserir campos de personalização dinâmicos. See [Inserting a personalization field](#inserting-a-personalization-field).
-* Inserir blocos de personalização predefinidos. Consulte [Adicionar um bloco](#adding-a-content-block)de conteúdo.
+* Inserir campos de personalização dinâmicos. Consulte [Inserção de um campo de personalização](#inserting-a-personalization-field).
+* Inserir blocos de personalização predefinidos. Consulte [Adição de um bloco de conteúdo](#adding-a-content-block).
 * Personalize o remetente de um email. Consulte [Personalizar o remetente](#personalizing-the-sender).
 * Personalize o assunto de um email. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#subject-line).
 * Criar conteúdo condicional. Consulte [Definição de conteúdo dinâmico em um email](#defining-dynamic-content-in-an-email).
@@ -44,7 +44,7 @@ Este campo pode ser personalizado. Para fazer isso, você pode adicionar campos 
 
 ## Personalização de URLs{#personalizing-urls}
 
-O Adobe Campaign permite que você personalize um ou vários URLs em sua mensagem adicionando campos de personalização, blocos de conteúdo ou conteúdo dinâmico a eles. Para fazer isso:
+A Adobe Campaign permite que você personalize um ou vários URLs em sua mensagem adicionando campos de personalização, blocos de conteúdo ou conteúdo dinâmico a eles. Para fazer isso:
 
 1. Insira um URL externo e especifique seus parâmetros. See [Inserting a link](../../designing/using/links.md#inserting-a-link).
 1. Se não for exibido, clique no lápis ao lado do URL selecionado no painel Configurações para acessar as opções de personalização.
@@ -60,7 +60,7 @@ O Adobe Campaign permite que você personalize um ou vários URLs em sua mensage
 
 ## Inserção de um campo de personalização{#inserting-a-personalization-field}
 
-O Adobe Campaign permite inserir um campo do banco de dados em sua página, como o nome do perfil.
+A Adobe Campaign permite que você insira um campo do banco de dados em sua página, como o nome do perfil.
 
 >[!NOTE]
 >
@@ -88,9 +88,9 @@ Quando a personalização for gerada (ao visualizar e preparar o email, por exem
 >
 >Se o email for criado a partir de um fluxo de trabalho, os dados adicionais calculados no fluxo de trabalho também estarão disponíveis nos campos de personalização. Para obter mais informações sobre como adicionar dados adicionais de um fluxo de trabalho, consulte a seção [Enriquecendo dados](../../automating/using/about-targeting-activities.md#enriching-data) .
 
-## Adicionar um bloco de conteúdo{#adding-a-content-block}
+## Inclusão de um bloco de conteúdo{#adding-a-content-block}
 
-Adobe Campaign oferta uma lista de blocos de conteúdo pré-configurados. Esses blocos de conteúdo são dinâmicos, personalizados e têm uma renderização específica. Por exemplo, você pode adicionar uma saudação ou um link ao mirror page.
+A Adobe Campaign oferta uma lista de blocos de conteúdo pré-configurados. Esses blocos de conteúdo são dinâmicos, personalizados e têm uma renderização específica. Por exemplo, você pode adicionar uma saudação ou um link ao mirror page.
 
 >[!NOTE]
 >
@@ -147,9 +147,10 @@ Para criar um bloco de conteúdo, siga estas etapas:
    * **[!UICONTROL Shared]**: O bloco de conteúdo pode ser usado em um delivery ou landing page.
    * **[!UICONTROL Delivery]**: O bloco de conteúdo só pode ser usado em um delivery.
    * **[!UICONTROL Landing page]**: O bloco de conteúdo só pode ser usado em uma landing page.
+
    ![](assets/content_bloc_02.png)
 
-1. Você pode selecionar um **[!UICONTROL Targeting dimension]**. Para obter mais informações, consulte [Sobre o targeting dimension](#about-targeting-dimension).
+1. Você pode selecionar um **[!UICONTROL Targeting dimension]**. For more on this, see [About targeting dimension](#about-targeting-dimension).
 
    ![](assets/content_bloc_04.png)
 
@@ -175,17 +176,17 @@ Por exemplo, o targeting dimension do **[!UICONTROL Unsubscription link]** bloco
 
 Se você deixar esse campo vazio, o bloco de conteúdo será compatível com todas as mensagens, independentemente do targeting dimension. Se você definir um targeting dimension, esse bloco só será compatível com mensagens que tenham o mesmo targeting dimension.
 
-Para obter mais informações, consulte [Targeting dimension e recursos](../../automating/using/query.md#targeting-dimensions-and-resources).
+Para saber mais, consulte [Targeting dimensions e recursos](../../automating/using/query.md#targeting-dimensions-and-resources).
 
 **Tópicos relacionados:**
 
 * [Inserção de um campo de personalização](#inserting-a-personalization-field)
-* [Adicionar um bloco de conteúdo](#adding-a-content-block)
+* [Inclusão de um bloco de conteúdo](#adding-a-content-block)
 * [Definição de conteúdo dinâmico em um email](#defining-dynamic-content-in-an-email)
 
 ## Personalização de uma fonte de imagem{#personalizing-an-image-source}
 
-O Adobe Campaign permite que você personalize uma ou várias imagens em sua mensagem de acordo com um critério específico ou use o rastreamento. Isso é feito inserindo campos de personalização, blocos de conteúdo ou conteúdo dinâmico na fonte de imagem. Para fazer isso:
+A Adobe Campaign permite que você personalize uma ou várias imagens em sua mensagem de acordo com um critério específico ou use o rastreamento. Isso é feito inserindo campos de personalização, blocos de conteúdo ou conteúdo dinâmico na fonte de imagem. Para fazer isso:
 
 1. Insira uma imagem no conteúdo da mensagem ou selecione uma imagem que já esteja presente.
 1. Na paleta Propriedades da imagem, marque a **[!UICONTROL Enable personalization]** opção.
@@ -203,7 +204,7 @@ O Adobe Campaign permite que você personalize uma ou várias imagens em sua men
    >
    >O nome de domínio (http://mydomain.com) não pode ser personalizado, ele deve ser inserido manualmente. O restante do URL pode ser personalizado. Por exemplo: http://mydomain.com/ `[Gender]` .jpg
 
-1. Confirme suas alterações.
+1. Confirme as alterações.
 
 ## Conteúdo condicional {#conditional-content}
 
@@ -226,6 +227,11 @@ Essas condições adotam a sintaxe de expressão XTK (por exemplo, **context.per
 >Não é possível definir uma condição para um bloco que já contenha um subelemento com um conteúdo dinâmico ou um bloco que já compõe um conteúdo dinâmico. Não é possível editar blocos dinâmicos não visíveis, como listas suspensas.
 
 ### Definição de conteúdo dinâmico em um email{#defining-dynamic-content-in-an-email}
+
+>[!CONTEXTUALHELP]
+>id="ac_dynamic_content"
+>title="Definição de conteúdo dinâmico"
+>abstract="Defina conteúdos diferentes para seus recipient de acordo com as regras definidas pelo editor de expressões."
 
 Em um email, você pode definir conteúdos diferentes que serão exibidos dinamicamente para os recipient, de acordo com as condições definidas pelo editor de expressões. Por exemplo, a partir do mesmo email, você pode garantir que cada perfil receba uma mensagem diferente de acordo com o intervalo de idade.
 
@@ -329,9 +335,14 @@ O email é criado da seguinte maneira:
 
 ### Configuração de imagens {#configuring-images}
 
+>[!CONTEXTUALHELP]
+>id="ac_dynamic_image"
+>title="Gerenciamento de imagens dinâmicas"
+>abstract="Personalize seu email com imagens dinâmicas de acordo com as regras definidas pelo editor de expressões."
+
 Neste exemplo, o conteúdo dinâmico aplicado às imagens é configurado da seguinte forma:
 
-**Ao público alvo de 18-27 anos:**
+**Ao público alvo de 18 a 27 anos:**
 
 1. Selecione o conteúdo dinâmico na **[!UICONTROL Properties]** paleta e clique no **[!UICONTROL Edit]** botão.
 
@@ -351,7 +362,7 @@ Neste exemplo, o conteúdo dinâmico aplicado às imagens é configurado da segu
 
    ![](assets/delivery_content_51.png)
 
-1. Confirme suas alterações.
+1. Confirme as alterações.
 
 **Para perfis públicos alvos com idade igual ou superior a 27 anos:**
 
@@ -361,7 +372,7 @@ Neste exemplo, o conteúdo dinâmico aplicado às imagens é configurado da segu
 
    ![](assets/delivery_content_52.png)
 
-1. Confirme suas alterações.
+1. Confirme as alterações.
 
 Seu conteúdo dinâmico está configurado corretamente.
 
