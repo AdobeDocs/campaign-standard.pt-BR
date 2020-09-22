@@ -12,9 +12,9 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '385'
 ht-degree: 95%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 Você pode enviar mensagens transacionais com base nos perfis de marketing do cliente, o que permite:
 
-* Aplicar regras de tipologia de marketing, como **[!UICONTROL Denylisted address]** ou [regras de fadiga](../../sending/using/fatigue-rules.md).
+* Aplicar regras de tipologia de marketing, como **[!UICONTROL Address on denylist]** ou [regras de fadiga](../../sending/using/fatigue-rules.md).
 * Incluir o link de unsubscription nas mensagens.
 * Adicionar as mensagens transacionais aos relatórios globais do delivery.
 * Usar as mensagens transacionais na jornada do cliente.
@@ -74,11 +74,11 @@ Quando a mensagem for publicada e a integração do site estiver concluída, voc
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as denylisted addresses.
+1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on denylist.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-Para os perfis recusados, a regra de tipologia **[!UICONTROL Denylisted address]** exclui o recipient correspondente.
+Para os perfis recusados, a regra de tipologia **[!UICONTROL Address on denylist]** exclui o recipient correspondente.
 
 Essa regra faz parte de uma tipologia específica aplicável a todas as mensagens transacionais baseadas na tabela **[!UICONTROL Profile]**.
 
