@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cd1cbf907eb160b6bbc1a2a2d3dd1c601ac13635
+source-git-commit: 6078a16c679d368dd85cecbb8b715e2de3da805a
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 1%
@@ -157,13 +157,13 @@ Os valores de opção de não participação (por exemplo, lista de bloqueios) s
 Como alternativa, se você tiver um processo separado para gerenciar a sincronização de não participação entre os sistemas, o fluxo de dados de não participação da integração poderá ser desativado.
 
 O mapeamento de fluxo de não participação deve ser especificado pelo cliente, já que os requisitos de negócios podem diferir entre as empresas.  No lado da Campanha, somente os atributos de opção de não participação OTB podem ser usados para mapeamento de não participação:
-* blockList
-* blockListEmail
-* blockListFax
-* blockListMobile
-* blockListPhone
-* blockListPostalMail
-* blockListPushnotification
+* lista de bloqueios
+* denyListEmail
+* denyListFax
+* denyListMobile
+* denyListPhone
+* denyListPostalMail
+* denyListPushnotification
 * cpaOptOut
 
 No Dynamics 365, a maioria dos campos de opção de não participação têm o prefixo &quot;não&quot;; no entanto, você também pode utilizar outros atributos para fins de não participação se os tipos de dados forem compatíveis.
