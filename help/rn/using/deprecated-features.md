@@ -12,10 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d4b1ba38a7aa33d1fff3415d71080e370cb80f4
+source-git-commit: 5203f3b3c520f38d91627df2159a90ab5912e6b6
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 38%
+source-wordcount: '662'
+ht-degree: 35%
 
 ---
 
@@ -52,9 +52,9 @@ Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em 
  <tbody> 
   <tr> 
    <td> <p> A partir da versão 20.1, o SDK v4 está obsoleto. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Saiba mais</a>.</p><br/>
-   <p>O <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (anteriormente chamado de v5) oferecerá suporte exclusivo aos recursos e funcionalidades futuros da Adobe Experience Cloud.</p></br>
+   <p>O SDK <a href="https://aep-sdks.gitbook.io/docs/">do</a> Adobe Experience Platform Mobile (anteriormente conhecido como v5) oferecerá suporte exclusivo aos recursos e funcionalidades futuros do Adobe Experience Cloud.</p></br>
      <p>
-     <em>Data de remoção do Público alvo: 30 de setembro de 2020</em></p>
+     <em>Data de remoção do público alvo: 30 de setembro de 2020</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -67,7 +67,7 @@ Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>A partir da versão 19.4 da Campanha, o uso da API de Campanha e da interface para acessar e excluir solicitações está obsoleto. A exclusão do perfil de 2 etapas não estará disponível. Use o <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
+   <td> <p>A partir da versão 19.4 da Campanha, o uso da API de Campanha e da interface para acessar e excluir solicitações está obsoleto. A exclusão do perfil de 2 etapas não estará disponível. Use o serviço <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">principal de privacidade do</a>Adobe.</p></br>
    <p>Consulte também Gerenciamento de <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">privacidade no Campaign Standard</a>.</p>
   <p> 
   <em>Data de remoção do Target: 2021</em></p>
@@ -110,6 +110,21 @@ Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em 
 ## Removed Features {#removed-features}
 
 Esta seção lista os recursos e funcionalidades removidos do Campaign Standard.
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Pontuação de propensão com acionadores de Experience Cloud</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>A Pontuação de <b>propensão</b> foi descontinuada do Adobe Experience Cloud Triggers. Como consequência, essa opção foi removida da Adobe Campaign Standard. Para evitar valores desatualizados de Pontuação de propensão nos schemas de Enriquecimento, recomendamos atualizar schemas para recuperar as alterações mais recentes e republicar os Acionadores existentes. Para obter mais informações, consulte <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html#publishing-trigger-in-campaign"> Publicar um acionador na Campanha </a>.
+</p></br>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 <table> 
  <thead> 
