@@ -12,7 +12,10 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 787d1cb906acfba5887e6090f1d6b854bd096b0c
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 12%
 
 ---
 
@@ -38,14 +41,14 @@ Com a interface **de** arrastar e soltar do relatórios dinâmico, você pode ex
 
 Leia mais:
 
-* [Sobre os relatórios dinâmicos](../../reporting/using/about-dynamic-reports.md)
+* [Sobre Relatórios dinâmicos](../../reporting/using/about-dynamic-reports.md)
 * [Interface de relatórios](../../reporting/using/reporting-interface.md)
 
 ## Criar seus relatórios {#build-reports}
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-O Campaign Standard inclui um conjunto de relatórios **dinâmicos** prontos para uso que permite avaliar vários aspectos de suas campanhas de marketing: rejeições, delivery que foram declarados mais como spam ou lixo eletrônico, delivery mais visualizados por recipient, relatórios relacionados a canais, throughput de delivery e relatórios de rastreamento...
+O Campaign Standard é fornecido com um conjunto de relatórios **dinâmicos** prontos para uso que permite avaliar vários aspectos de suas campanhas de marketing: rejeições, delivery que foram declarados mais como spam ou lixo eletrônico, delivery mais visualizados por recipient, relatórios relacionados a canais, throughput de delivery e relatórios de rastreamento...
 
 **Combine componentes** diferentes (dimensões, métricas e segmentos, períodos) para criar seus próprios relatórios ou personalizar relatórios prontos para uso.
 
@@ -63,7 +66,7 @@ Leia mais:
 
 Arraste e solte itens **de** visualização para adicionar representações gráficas de seus dados em seus relatórios e configurá-los de acordo com suas necessidades.
 
-Crie relatórios com base nos dados **de perfil** personalizados criados durante a extensão de recursos do Perfil e **relatórios com base nos segmentos** definidos nos workflows de definição de metas.
+Crie relatórios com base nos dados **de perfil** personalizados criados durante a extensão do recurso de Perfil e **relatórios com base nos segmentos** definidos nos workflows de definição de metas.
 
 Leia mais:
 
