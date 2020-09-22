@@ -12,10 +12,10 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 2%
+source-wordcount: '798'
+ht-degree: 3%
 
 ---
 
@@ -43,7 +43,7 @@ Consulte os recursos a seguir para obter mais informações sobre o SDK do Adobe
 
 Sim, [!DNL Adobe Experience Platform SDK] a integração está disponível para Adobe Campaign Standard e Adobe Campaign Classic. É necessário instalar o correspondente **[!UICONTROL Extension]** via [!DNL Adobe Launch] para habilitar a integração.
 
-Para obter mais informações, consulte esta [página](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic) para Campaign Classic e esta [página](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) para Campaign Standard.
+Para obter mais informações, consulte esta [página](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
 ## Quais recursos a integração do Adobe Experience Platform SDK facilita no Adobe Campaign? {#aep-capabilities}
 
