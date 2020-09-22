@@ -13,53 +13,53 @@ context-tags: query,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 0%
+ht-degree: 83%
 
 ---
 
 
-# Personalização de um email com dados adicionais {#example--personalizing-an-email-with-additional-data}
+# Personalizing an email with additional data {#example--personalizing-an-email-with-additional-data}
 
-O exemplo a seguir ilustra a adição de diferentes tipos de dados adicionais a um query e seu uso como campo de personalização em um email. Para obter mais informações sobre como aprimorar os dados direcionados por uma **[!UICONTROL Query]** atividade, consulte [esta seção](../../automating/using/query.md#enriching-data).
+O exemplo a seguir ilustra a adição de diferentes tipos de dados adicionais a um query e o uso de cada um deles como campo de personalização em um email. Para obter mais informações sobre como aprimorar os dados direcionados por uma **[!UICONTROL Query]** atividade, consulte [esta seção](../../automating/using/query.md#enriching-data).
 
-Neste exemplo, recursos [](../../developing/using/data-model-concepts.md) personalizados são usados:
+Neste exemplo, são usados [recursos personalizados](../../developing/using/data-model-concepts.md):
 
-* O recurso de **perfil** foi estendido para adicionar um campo que permite que cada ponto de fidelidade do perfil seja salvo.
-* Um recurso de **transações** foi criado e identifica todas as compras realizadas pelos perfis no banco de dados. A data, o preço e o produto comprados são salvos para cada transação.
-* Um recurso de **produtos** foi criado e faz referência aos produtos disponíveis para compra.
+* O recurso **perfil** foi estendido para a adição de um campo que permite salvar os pontos de fidelidade de cada perfil.
+* Um recurso **transações** foi criado e identifica todas as compras realizadas pelos perfis no banco de dados. A data, o preço e o produto comprado são salvos para cada transação.
+* Um recurso **produtos** foi criado e faz referência aos produtos disponíveis para compra.
 
-O objetivo é enviar um email aos perfis para os quais pelo menos uma transação foi salva. Através deste e-mail, os clientes receberão um lembrete da última transação realizada, bem como uma visão geral de todas as suas transações: o número de produtos comprados, o total gasto, um lembrete do número total de pontos de fidelidade acumulados.
+O objetivo é enviar um email aos perfis para os quais pelo menos uma transação foi salva. Nesse email, os clientes receberão um lembrete da última transação realizada, bem como uma visão geral de todas as transações: a quantidade de produtos comprados, o total gasto e um lembrete do total de pontos de fidelidade acumulados.
 
 O fluxo de trabalho é apresentado da seguinte forma:
 
 ![](assets/enrichment_example1.png)
 
-1. Adicione uma atividade de [Query](../../automating/using/query.md) , que permite público alvo dos perfis que realizaram pelo menos uma transação.
+1. Add a [Query](../../automating/using/query.md) activity, which allows you to target the profiles that have carried out at least one transaction.
 
    ![](assets/enrichment_example2.png)
 
-   Na guia query, defina os diferentes dados a serem exibidos no email final: **[!UICONTROL Additional data]**
+1. Na guia **[!UICONTROL Additional data]** do query, defina os diferentes dados a serem exibidos no email final:
 
-   * O campo simples da dimensão do **perfil** correspondente aos pontos de fidelidade. Consulte a seção [Adicionar um campo](../../automating/using/query.md#adding-a-simple-field) simples.
-   * Duas agregações com base na coleção de transações: O número de produtos comprados e o montante total gasto. Você pode adicioná-los na **[!UICONTROL Data]** guia da janela de configuração da agregação, usando as agregações **Contagem** e **Soma** . Consulte a seção [Adicionar uma agregação](../../automating/using/query.md#adding-an-aggregate) .
-   * Uma coleção que retorna a quantia gasta, a data e o produto da última transação realizada.
+   * O campo simples da dimensão do **perfil** correspondente aos pontos de fidelidade. Consulte a seção [Adição de um campo simples](../../automating/using/query.md#adding-a-simple-field).
+   * Duas agregações com base na coleção de transações: o número de produtos comprados e o total gasto. Você pode adicioná-los da guia **[!UICONTROL Data]** da janela de configuração da agregação, usando as agregações **Count** e **Sum**. Consulte a seção [Adição de uma agregação](../../automating/using/query.md#adding-an-aggregate).
+   * Uma coleção que retorna o valor gasto, a data e o produto da última transação realizada.
 
-      Para fazer isso, é necessário adicionar os diferentes campos que deseja exibir na **[!UICONTROL Data]** guia da janela de configuração da coleção.
+      Para isso, adicione os diferentes campos que deseja exibir da guia **[!UICONTROL Data]** da janela de configuração da coleção.
 
-      Para retornar apenas a transação mais recente, é necessário digitar &quot;1&quot; para o **[!UICONTROL Number of lines to return]** e aplicar uma classificação decrescente no campo **Data** da coleção na **[!UICONTROL Sort]** guia.
+      Para retornar apenas a transação mais recente, digite “1” para o **[!UICONTROL Number of lines to return]** e aplique uma classificação decrescente ao campo **Date** da coleção da guia **[!UICONTROL Sort]**.
 
-      Consulte [Adicionar uma coleção](../../automating/using/query.md#adding-a-collection) e [Classificar seções de dados](../../automating/using/query.md#sorting-additional-data) adicionais.
+      Consulte as seções [Adição de uma coleção](../../automating/using/query.md#adding-a-collection) e [Classificação de dados adicionais](../../automating/using/query.md#sorting-additional-data).
    ![](assets/enrichment_example4.png)
 
-   Se você quiser verificar se os dados foram transferidos corretamente pela transição de saída da atividade, start o fluxo de trabalho pela primeira vez (sem a **[!UICONTROL Email delivery]** atividade) e abra a transição de saída do query.
+1. Se você quiser verificar se os dados foram transferidos corretamente pela transição de saída da atividade, inicie o fluxo de trabalho pela primeira vez (sem a atividade **[!UICONTROL Email delivery]**) e abra a transição de saída do query.
 
    ![](assets/enrichment_example5.png)
 
-1. Adicione uma atividade de delivery [](../../automating/using/email-delivery.md) de email. No conteúdo do email, insira os campos de personalização correspondentes aos dados calculados no query. Você pode encontrá-lo através do **[!UICONTROL Additional data (targetData)]** link do explorador de campos de personalização.
+1. Adicione uma atividade de delivery [](../../automating/using/email-delivery.md) de email. No conteúdo do email, insira os campos de personalização correspondentes aos dados calculados no query. Você pode encontrá-los no link **[!UICONTROL Additional data (targetData)]** do explorador de campos de personalização.
 
    ![](assets/enrichment_example3.png)
 
-Seu fluxo de trabalho está pronto para ser executado. Os perfis direcionados no query receberão um email personalizado contendo os dados calculados de suas transações.
+Seu fluxo de trabalho agora está pronto para ser executado. Os perfis direcionados no query receberão um email personalizado com os dados calculados das transações.
