@@ -13,7 +13,7 @@ context-tags: deliveryComplaintsReport,main;campaignComplaintsReport,main;progra
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 17%
@@ -29,4 +29,4 @@ O relatório **[!UICONTROL Complaints]** identifica as entregas que receberam ma
 
 A tabela **Flop** , classificada por domínio do recipient, exibe o número de recipient que declararam um email ou lixo eletrônico. Os resultados da tabela também estão disponíveis em um gráfico e em números de resumo.
 
-A tabela de taxa **** Entregue versus Incluir na lista de bloqueios lista o número de recipient que declararam um email como spam ou lixo eletrônico. A tabela é classificada por delivery.
+A tabela **Entregue versus Em Lista de bloqueios** lista o número de recipient que declararam um email como spam ou lixo eletrônico. A tabela é classificada por delivery.
