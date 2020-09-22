@@ -12,10 +12,10 @@ discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: dddd147d01f935ec6f1513c5f92bddf6e789abb1
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 98%
+source-wordcount: '725'
+ht-degree: 86%
 
 ---
 
@@ -50,14 +50,31 @@ Estas são as etapas para colocar o acionador em prática:
 
    ![](assets/remarketing_4.png)
 
-1. Clique no botão **[!UICONTROL Publish]** para iniciar a publicação do evento do acionador.
+1. Agora você pode publicar seus acionadores. Para obter mais informações, consulte [Publicar um acionador na Campanha](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign).
+
+## Publicar um acionador na Campanha {#publishing-trigger-in-campaign}
+
+Depois de criar um evento de disparo no Adobe Campaign com base em um acionador Adobe Experience Cloud existente, agora é necessário publicá-lo.
+
+1. Em seu disparador criado anteriormente, clique no **[!UICONTROL Publish]** botão para start de publicar o evento de disparo.
+
+   ![](assets/trigger_publish_1.png)
+
+1. Você pode verificar o progresso de sua publicação do acionador em **[!UICONTROL Publication]**.
+
+   ![](assets/trigger_publish_2.png)
+
+1. Quando a publicação terminar, a seguinte mensagem será exibida em **[!UICONTROL Publication]**.
+
+   ![](assets/trigger_publish_3.png)
+
 1. Se precisar fazer uma alteração no esquema do acionador, mesmo depois de publicar o evento do acionador, clique no botão **[!UICONTROL Update schema]** para recuperar as alterações mais recentes.
 
    Observe que essa ação cancelará a publicação do acionador e a mensagem transacional. Você precisará publicá-los novamente depois.
 
-   ![](assets/remarketing_11.png)
+   ![](assets/trigger_publish_4.png)
 
-O botão **[!UICONTROL Show Trigger in Experience Cloud]** permite exibir a definição do acionador na Adobe Experience Cloud.
+1. Click **[!UICONTROL Show Trigger in Experience Cloud]** button allows you to view the trigger definition in Adobe Experience Cloud.
 
 Depois que o evento for publicado, um modelo transacional vinculado ao novo evento é criado automaticamente. Depois é necessário modificar e publicar o modelo que acabou de ser criado. Para obter mais informações, consulte a seção [Edição do modelo](../../start/using/marketing-activity-templates.md).
 
