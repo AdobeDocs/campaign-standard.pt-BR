@@ -12,9 +12,9 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1285'
 ht-degree: 87%
 
 ---
@@ -32,7 +32,7 @@ Quando um delivery não pode ser enviado a um perfil, o servidor remoto envia au
 >
 >**Mensagens de erro de SMS (ou &quot;SR&quot; para &quot;Relatório de Status&quot;) são qualificadas pelo processo MTA.**
 
-As mensagens também podem ser excluídas durante a preparação do delivery se um endereço estiver em quarentena ou se um perfil for incluir na lista de bloqueios. As mensagens excluídas são listadas na guia **[!UICONTROL Exclusion logs]** do painel de delivery (consulte [esta seção](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
+As mensagens também podem ser excluídas durante a preparação do delivery se um endereço estiver em quarentena ou se um perfil estiver na lista de bloqueios. As mensagens excluídas são listadas na guia **[!UICONTROL Exclusion logs]** do painel de delivery (consulte [esta seção](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
 ![](assets/exclusion_logs.png)
 
@@ -69,8 +69,8 @@ Os possíveis motivos para uma falha de delivery são:
 | **[!UICONTROL Refused]** | Suave/Grave | O endereço foi colocado em quarentena devido a um feedback de segurança como um relatório de spam. De acordo com o erro retornado pelo provedor, o endereço será enviado diretamente para a quarentena, ou o delivery será tentado novamente até que o Campaign receba um erro que justifique o status Quarantine ou até que o número de erros atinja 5. |
 | **[!UICONTROL Duplicate]** | Ignored | O endereço já foi detectado na segmentação. |
 | **[!UICONTROL Not defined]** | Suave | o endereço está em qualificação porque os erros ainda não foram aumentados. Esse tipo de erro ocorre quando uma nova mensagem de erro é enviada pelo servidor: pode ser um erro isolado, mas se ocorrer novamente, o contador de erros aumentará, o que alertará as equipes técnicas. |
-| **[!UICONTROL Error ignored]** | Ignored | O endereço é incluir na lista de permissões e um e-mail será enviado para ele, em qualquer caso. |
-| **[!UICONTROL Denylisted address]** | Grave | O endereço foi adicionado à lista de bloqueios no momento do envio. |
+| **[!UICONTROL Error ignored]** | Ignored | O endereço está em lista de permissões e um e-mail será enviado para ele em qualquer caso. |
+| **[!UICONTROL Address on denylist]** | Grave | O endereço foi adicionado à lista de bloqueios no momento do envio. |
 | **[!UICONTROL Account disabled]** | Suave/Grave | Quando o Provedor de Acesso à Internet (IAP) detecta um longo período de inatividade, ele pode fechar a conta do usuário: delivery para o endereço do usuário serão impossíveis. O tipo Temporário ou Permanente depende do tipo de erro recebido: se a conta estiver temporariamente desativada devido a seis meses de inatividade e ainda puder ser ativada, o status **[!UICONTROL Erroneous]** será atribuído, e o delivery será repetido. Se o erro indicar que a conta está desativada permanentemente, ela será enviada diretamente para Quarentena. |
 | **[!UICONTROL Not connected]** | Ignored | O telefone móvel do perfil é desligado ou não está conectado à rede quando a mensagem é enviada. |
 | **[!UICONTROL Invalid domain]** | Suave | O domínio do endereço de email está incorreto ou não existe mais. Este perfil será alvo novamente até que a contagem de erros chegue a 5. Após isso, o registro será definido como Status de Quarentena e não haverá nenhuma tentativa nova. |
