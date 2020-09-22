@@ -12,11 +12,11 @@ discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
 context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: c1147c4512b1485ae5d927a32970adcd41b540e7
+workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,7 @@ O Adobe Campaign permite criar públicos-alvo manualmente usando consultas ou au
 
 É possível manipular diferentes tipos de público-alvo no Adobe Campaign. O tipo de público-alvo corresponde ao modo como ele foi criado:
 
-* **[!UICONTROL Query]**: indica que o público-alvo foi criado de um [query](../../automating/using/editing-queries.md#about-query-editor) nos dados do banco de dados do Adobe Campaign a partir da lista de públicos-alvo. Os públicos-alvo definidos por um query são recalculados a cada novo uso.
+* **[!UICONTROL Query]**: indica que a audiência foi criada usando um [query](../../automating/using/editing-queries.md#about-query-editor) nos dados do banco de dados Adobe Campaign por meio da lista do audiência. Os públicos-alvo definidos por um query são recalculados a cada novo uso.
 * **[!UICONTROL List]**: indica que o público-alvo é uma lista fixa de perfis. Essas listas são criadas em um [fluxo de trabalho](../../automating/using/get-started-workflows.md), no qual a dimensão de dados é conhecida quando o público-alvo é salvo. Por exemplo, após o direcionamento de atividades (principalmente **[!UICONTROL Query]**) ou a reconciliação dos dados importados de um arquivo.
 * **[!UICONTROL File]**: indica que o público-alvo foi criado diretamente de um fluxo de trabalho de [importação de arquivo](../../automating/using/load-file.md) e que a dimensão de dados era desconhecida quando o público-alvo foi salvo.
 * **[!UICONTROL Experience Cloud]**: indica que o público-alvo foi importado da Adobe Experience Cloud. Essa opção só estará disponível se a funcionalidade de compartilhamento de públicos-alvo tiver sido configurada. Para saber mais, consulte [Importação de um público-alvo da Adobe Experience Cloud](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md#importing-an-audience).
