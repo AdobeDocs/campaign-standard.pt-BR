@@ -12,9 +12,9 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 621c29ae08770b50629ba3d27116f93f8b5c3f62
+source-git-commit: 2ef169d9bf76856bb687af88358e0452953313a0
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1448'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,8 @@ Saiba como mapear recursos de Campanha e entidades do Dynamics 365 [nesta seçã
 
 Devido às diferenças nos atributos de opção entre o Dynamics 365 e a Campanha, e às diferenças nos requisitos de negócios de cada cliente, o mapeamento de opção de não participação foi deixado como um exercício para o cliente concluir.  É importante garantir que as opções de não participação sejam mapeadas corretamente entre os sistemas para que as preferências de não participação do usuário final sejam mantidas e que eles não recebam uma comunicação por meio de um canal de que tenham opt out.
 
-Esteja ciente de que somente os atributos de Campanha com o prefixo &quot;lista de bloqueios&quot; (por exemplo, blockListEmail) ou o atributo específico para opção de não participação CCPA podem ser usados em mapeamentos de opção de não participação.  No Dynamics 365, a maioria dos campos de opção de não participação têm o prefixo &quot;não&quot;; no entanto, você também pode utilizar outros atributos para fins de não participação se os tipos de dados forem compatíveis.
+Esteja ciente de que somente os atributos de Campanha com o prefixo &quot;Não entrar em contato mais por&quot; (por exemplo, Não entrar em contato mais por email) ou o atributo específico para opção de não participação do CCPA podem ser usados em mapeamentos de opção de não participação. [Saiba mais](../../developing/using/datamodel-profile.md).
+No Dynamics 365, a maioria dos campos de opção de não participação têm o prefixo &quot;não&quot;; no entanto, você também pode utilizar outros atributos para fins de não participação se os tipos de dados forem compatíveis.
 
 Ao provisionar a integração, você terá a oportunidade de especificar qual configuração de opção de não participação é necessária para sua empresa:
 
