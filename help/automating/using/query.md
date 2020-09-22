@@ -13,10 +13,10 @@ context-tags: query,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
-source-wordcount: '1720'
-ht-degree: 97%
+source-wordcount: '1708'
+ht-degree: 96%
 
 ---
 
@@ -71,9 +71,7 @@ A atividade **[!UICONTROL Query]** pode ser usada para várias finalidades:
 
 Os targeting dimensions e os recursos permitem definir em quais elementos um query se baseará para determinar o público alvo de um delivery.
 
-Os targeting dimensions são definidos em target mappings. Para obter mais informações, consulte [esta seção](../../administration/using/target-mappings-in-campaign.md).
-
-O targeting dimension e os recursos são definidos ao criar um fluxo de trabalho, na guia **[!UICONTROL Properties]** de uma atividade Query.
+Eles são configurados em [target mapping](../../administration/using/target-mappings-in-campaign.md)e são definidos ao criar um fluxo de trabalho, na **[!UICONTROL Properties]** guia de uma atividade de Query.
 
 >[!NOTE]
 >
