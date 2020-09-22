@@ -12,9 +12,9 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1150'
 ht-degree: 90%
 
 ---
@@ -60,7 +60,7 @@ Para criar e configurar essa landing page, faça o seguinte:
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   Este contexto remove o campo &quot;Incluir na lista de bloqueios&quot;, para poder enviar emails. Veremos mais tarde que a primeira landing page estava definindo esse campo como **true** antes da confirmação, para evitar o envio de emails a perfis não confirmados. Para obter mais informações, consulte [Etapa 3: criar a landing page de aquisição](#step-3--create-the-acquisition-landing-page).
+   Este contexto remove o campo &quot;Na lista de bloqueios&quot;, para poder enviar emails. Veremos mais tarde que a primeira landing page estava definindo esse campo como **true** antes da confirmação, para evitar o envio de emails a perfis não confirmados. Para obter mais informações, consulte [Etapa 3: criar a landing page de aquisição](#step-3--create-the-acquisition-landing-page).
 
 1. Personalizar o conteúdo da landing page: você pode exibir dados personalizados e alterar o rótulo do botão de confirmação para &quot;Clique aqui para confirmar minha assinatura&quot;, por exemplo.
 
@@ -101,12 +101,12 @@ O evento está pronto. Agora, você pode criar o template de email. Esse templat
 
 ### Criar a tipologia {#create-the-typology-rule}
 
-Você precisa criar uma [tipologia](../../sending/using/about-typology-rules.md) específica, duplicando uma tipologia predefinida. A tipologia permitirá o envio de mensagens a perfis que ainda não confirmaram seu acordo e que ainda estão incluir na lista de bloqueios. Por padrão, as tipologias excluem perfis de opção de não participação (ou seja, incluir na lista de bloqueios). Para criar essa tipologia, siga estas etapas:
+Você precisa criar uma [tipologia](../../sending/using/about-typology-rules.md) específica, duplicando uma tipologia predefinida. A tipologia permitirá o envio de mensagens a perfis que ainda não confirmaram seu acordo e que ainda estão em lista de bloqueios. Por padrão, as tipologias excluem perfis de opção de não participação (ou seja, na lista de bloqueios). Para criar essa tipologia, siga estas etapas:
 
 1. No logotipo do Adobe Campaign, selecione **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** e clique em **[!UICONTROL Typologies]**.
 1. Duplique a tipologia predefinida **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
 1. Depois que a duplicação for confirmada, edite a nova tipologia e insira o rótulo **TYPOLOGY_PROFILE**.
-1. Remove the **Denylisted address** rule.
+1. Remova o **Endereço lista de bloqueios regra de** .
 1. Clique em **[!UICONTROL Save]**.
 
 Essa tipologia agora pode ser associada ao email de confirmação.
