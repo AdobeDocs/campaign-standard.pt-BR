@@ -12,9 +12,9 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '653'
 ht-degree: 14%
 
 ---
@@ -31,7 +31,7 @@ A tabela abaixo fornece informações sobre regras de filtragem predefinidas, be
 | Rótulo | Canal  | Descrição |
 ---------|----------|---------
 | **[!UICONTROL Address not specified]** | Todos | Exclui a população do público alvo sem endereço especificado (email, endereço postal etc.) de acordo com o canal selecionado). |
-| **[!UICONTROL Denylisted address]** | Todos | Exclui endereços que estão na lista de bloqueios. |
+| **[!UICONTROL Address on denylist]** | Todos | Exclui endereços que estão na lista de bloqueios. |
 | **[!UICONTROL Duplicate]** | Todos | Exclui duplicados com base no **[!UICONTROL Address]** campo da população do público alvo. |
 | **[!UICONTROL Exclude mobile applications]** | Aplicativo móvel | Exclui subscrições de aplicativo que não correspondem ao aplicativo móvel definido na mensagem. |
 | **[!UICONTROL Exclude mobile applications for In-App]** | No aplicativo | Exclui subscrições de aplicativo que não correspondem ao aplicativo móvel definido na mensagem (modelo no aplicativo). |
@@ -47,7 +47,7 @@ Além dessas regras de filtragem padrão, duas regras de exclusão estão dispon
 
 Durante a análise de e-mail, essas regras comparam os endereços de e-mail do recipient com os endereços proibidos ou nomes de domínio contidos em uma lista de supressão global criptografada gerenciada na instância de entrega. Se houver algum positivo, a mensagem não será enviada para esse recipient.
 
-Isso evita ser incluir na lista de bloqueios devido a atividades maliciosas, principalmente o uso de uma armadilha. Por exemplo, se um Spamtrapping for usado para assinar por meio de um de seus formulários da Web, um email de confirmação será automaticamente enviado para esse Spamtrapping, o que resultará na adição automática do endereço à lista de bloqueios.
+Isso evita ser adicionado à lista de bloqueios devido a atividades mal-intencionadas, especialmente o uso de uma armadilha. Por exemplo, se um Spamtrapping for usado para assinar por meio de um de seus formulários da Web, um email de confirmação será automaticamente enviado para esse Spamtrapping, o que resultará na adição automática do endereço à lista de bloqueios.
 
 >[!NOTE]
 >
