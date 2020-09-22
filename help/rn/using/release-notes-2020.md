@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0b82a9dc86ec9e48e25f1ffe53188ba916a9d074
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '2948'
 ht-degree: 95%
 
 ---
@@ -296,7 +296,7 @@ ht-degree: 95%
 * A unidade organizacional do grupo de segurança Administrators não pode mais ser alterada.
 * Ao criar um perfil, o campo Organizational Unit deve ser preenchido.
 * Um Acionador da Experience Cloud agora só poderá ser excluído se o evento e o template transacional vinculados a ele forem excluídos.
-* O Adobe Creative SDK foi descontinuado. Ele agora está obsoleto no Campaign Standard. Consulte a página [Recursos descontinuados e removidos](https://helpx.adobe.com/br/campaign/kb/acs-deprecated-and-removed-features.html).
+* [!DNL Adobe Creative SDK] foi desativada. Ele agora está obsoleto no Campaign Standard. Consulte a página [Recursos descontinuados e removidos](https://helpx.adobe.com/br/campaign/kb/acs-deprecated-and-removed-features.html).
 
 
 **Correções**
