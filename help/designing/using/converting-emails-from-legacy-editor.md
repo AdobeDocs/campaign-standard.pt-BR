@@ -12,10 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb83fb3b24af0102dc3745517e8604fdac82ee19
+source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -43,12 +43,12 @@ Esse caso de uso permite que você crie um modelo do Email Designer usando um em
 ## Criar sua estrutura de email
 
 1. Abra o arquivo **[!UICONTROL Email Designer]** para criar um conteúdo de email vazio.
-1. Defina os atributos de nível de corpo: cores de fundo, largura, etc. Para obter mais informações, consulte [Edição de estilos](../../designing/using/styles.md)de email.
-1. Adicione quantos componentes de estrutura você tiver seções. Para obter mais informações, consulte [Edição da estrutura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de email.
+1. Defina os atributos de nível de corpo: cores de fundo, largura, etc. Para obter mais informações, consulte [Edição de estilos de email](../../designing/using/styles.md).
+1. Adicione quantos componentes de estrutura você tiver seções. Para obter mais informações, consulte [Edição da estrutura do email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 ## Adicionar conteúdo HTML
 
-1. Adicione um componente HTML a cada componente de estrutura. Para obter mais informações, consulte [Adicionar fragmentos e componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Adicione um componente HTML a cada componente de estrutura. Para obter mais informações, consulte [Inclusão de fragmentos e componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Copie e cole seu HTML em cada componente.
 
 ## Gerenciar o estilo do seu email {#manage-the-style-of-your-email}
@@ -85,7 +85,7 @@ Esse caso de uso permite que você crie um modelo do Email Designer usando um em
 
 Vamos tentar converter este email, criado no editor herdado, em um **[!UICONTROL Email Designer]** modelo.
 
-## Identifique a seção do seu email
+### Identifique a seção do seu email
 
 Podemos identificar 11 seções neste email.
 
