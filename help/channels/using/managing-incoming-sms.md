@@ -13,9 +13,9 @@ delivercontext-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '593'
 ht-degree: 8%
 
 ---
@@ -58,7 +58,7 @@ Para fazer isso:
    * A **[!UICONTROL Remove from quarantine]** ação remove o número de telefone do perfil da quarentena.
    * A **[!UICONTROL None]** ação permite que você envie apenas a mensagem para seus recipient sem executar uma ação.
 
-   Por exemplo, na configuração abaixo, se os recipient enviarem a palavra-chave &quot;PARAR&quot;, eles receberão automaticamente uma confirmação de unsubscription e seu número de telefone será enviado para a quarentena com o **[!UICONTROL Denylisted]** status. Esse status se refere apenas ao número de telefone, o perfil é incluir na lista de bloqueios para que o usuário continue recebendo mensagens de email.
+   Por exemplo, na configuração abaixo, se os recipient enviarem a palavra-chave &quot;PARAR&quot;, eles receberão automaticamente uma confirmação de unsubscription e seu número de telefone será enviado para a quarentena com o **[!UICONTROL On denylist]** status. Esse status se refere apenas ao número de telefone, o perfil é feito para que o usuário continue recebendo mensagens de email.
 
    ![](assets/sms_mo.png)
 
