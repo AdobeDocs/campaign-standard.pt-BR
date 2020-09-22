@@ -13,9 +13,9 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '854'
 ht-degree: 5%
 
 ---
@@ -102,7 +102,7 @@ As notificações por push podem ser enviadas para uma audiência selecionada no
 
 1. Na **[!UICONTROL Exclusion logs]** guia, você pode encontrar a lista de todas as mensagens excluídas do público alvo enviado e o motivo por trás dessa exclusão.
 
-   Aqui, podemos ver que um de nossos assinantes de aplicativos móveis foi excluído porque o endereço foi incluir na lista de bloqueios e os outros assinantes porque o perfil era um duplicado.
+   Aqui, podemos ver que um de nossos assinantes de aplicativos móveis foi excluído porque o endereço estava na lista de bloqueios e os outros assinantes porque o perfil era um duplicado.
 
    ![](assets/push_send_5.png)
 
@@ -117,7 +117,7 @@ As notificações por push podem ser enviadas para uma audiência selecionada no
 
    ![](assets/push_send_4.png)
 
-1. Na **[!UICONTROL Deployment]** janela, clique na **[!UICONTROL Sending logs]** guia para acessar a lista de notificações por push enviadas e seus status. Para este delivery, uma notificação por push foi enviada com êxito, enquanto a outra falhou devido a um token de dispositivo inválido. Esse assinante será então adicionado ao negador de outros delivery.
+1. Na **[!UICONTROL Deployment]** janela, clique na **[!UICONTROL Sending logs]** guia para acessar a lista de notificações por push enviadas e seus status. Para este delivery, uma notificação por push foi enviada com êxito, enquanto a outra falhou devido a um token de dispositivo inválido. Esse assinante será então adicionado à lista de bloqueios a partir de outros delivery.
 
    >[!NOTE]
    >
