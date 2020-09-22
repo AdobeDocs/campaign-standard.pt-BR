@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Ajuda do Adobe Campaign Standard
 breadcrumb-title: Campaign Standard Guide
 translation-type: tm+mt
-source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
+source-git-commit: f83259801fee2709aad48d364d16b4affe041a6d
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 85%
+source-wordcount: '1651'
+ht-degree: 86%
 
 ---
 
@@ -73,6 +73,14 @@ ht-degree: 85%
       + [Acessar mensagens](channels/using/accessing-messages.md)
       + [Painel de mensagens](channels/using/message-dashboard.md)
       + [Templates de mensagens multilíngues](channels/using/multilingual-messages-template.md)
+   + Práticas recomendadas para delivery {#delivery-bestpractices}
+      + [Conheça as práticas recomendadas](sending/using/delivery-best-practices.md)
+      + [Otimizar o delivery](sending/using/optimize-delivery.md)
+      + [Usar modelos](sending/using/use-templates.md)
+      + [Criar conteúdo personalizado](sending/using/design-and-personalize.md)
+      + [Definir o público-alvo certo](sending/using/define-the-right-audience.md)
+      + [Verificar antes de enviar](sending/using/check-before-sending.md)
+      + [Rastrear e monitorar](sending/using/track-and-monitor.md)
    + Mensagens de email {#email-messages}
       + [Sobre os emails](channels/using/about-emails.md)
       + [Criação de email](channels/using/creating-an-email.md)
