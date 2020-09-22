@@ -1,6 +1,6 @@
 ---
 title: Gerenciamento de estilos de email
-description: Descubra como gerenciar estilos de email no Designer de email.
+description: Descubra como gerenciar estilos de e-mail no Designer de e-mail.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
+source-git-commit: 796490350855213578808651cd18df24b1d3f2d1
+workflow-type: tm+mt
+source-wordcount: '1028'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
 # Gerenciamento de estilos de email {#managing-styles}
 
 
-No Designer de email, ao selecionar um elemento, várias opções específicas para o tipo de conteúdo selecionado são exibidas no **[!UICONTROL Settings]**painel. Você pode usar essas opções para alterar facilmente o estilo do seu email.
+No Designer de email, ao selecionar um elemento, várias opções específicas para o tipo de conteúdo selecionado são exibidas no **[!UICONTROL Settings]** painel. Você pode usar essas opções para alterar facilmente o estilo do seu email.
 
 ## Selecionar um elemento {#selecting-an-element}
 
@@ -42,18 +45,18 @@ A navegação na árvore de estrutura permite que você faça uma seleção mais
 Para selecionar uma coluna, você também pode fazer o seguinte:
 
 1. Selecione um componente de estrutura (diretamente no email ou usando a árvore de estrutura disponível na **Paleta** esquerda).
-1. Na barra de ferramentas **contextual**, clique **[!UICONTROL Select a column]**para escolher a coluna desejada.
+1. Na barra de ferramentas **contextual**, clique **[!UICONTROL Select a column]** para escolher a coluna desejada.
 
 Veja um exemplo [nesta seção](#example--adjusting-vertical-alignment-and-padding).
 
 ## Ajustar configurações de estilo {#adjusting-style-settings}
 
-1. Selecione um elemento no seu email. Para obter mais informações, consulte [Seleção de um elemento](#selecting-an-element).
-1. Ajuste as configurações de acordo com suas necessidades. Cada elemento selecionado oferece um conjunto diferente de configurações.
+1. Selecione um elemento no seu email. For more on this, see [Selecting an element](#selecting-an-element).
+1. Ajuste as configurações de acordo com suas necessidades. Cada elemento selecionado oferta um conjunto diferente de configurações.
 
    Você pode inserir planos de fundo, alterar tamanhos, modificar o alinhamento horizontal ou vertical, gerenciar cores, adicionar [preenchimento ou margem](#selecting-an-element)e assim por diante.
 
-   Para fazer isso, use as opções exibidas no **[!UICONTROL Settings]**painel ou[adicione atributos](#adding-inline-styling-attributes)de estilização em linha.
+   Para fazer isso, use as opções exibidas no **[!UICONTROL Settings]** painel ou [adicione atributos](#adding-inline-styling-attributes)de estilização em linha.
 
    ![](assets/des_settings_pane.png)
 
@@ -70,7 +73,7 @@ A interface do Designer de email permite que você ajuste rapidamente as configu
 Por exemplo:
 
 * Use o preenchimento para definir margens nos lados esquerdo e direito de uma imagem.
-* Use o preenchimento superior e inferior para adicionar mais espaçamento a um componente **[!UICONTROL Text]**ou a um**[!UICONTROL Divider]** .
+* Use o preenchimento superior e inferior para adicionar mais espaçamento a um componente **[!UICONTROL Text]** ou a um **[!UICONTROL Divider]** .
 * Para definir bordas entre colunas dentro de um elemento de estrutura, defina o preenchimento para cada coluna.
 
 **[!UICONTROL Margin]**: essa configuração permite gerenciar o espaço entre a borda do elemento e o próximo elemento.
@@ -79,9 +82,9 @@ Por exemplo:
 
 >[!NOTE]
 >
->Dependendo da sua seleção (componente de estrutura, coluna ou componente de conteúdo), o resultado não será o mesmo. A Adobe recomenda definir os parâmetros **[!UICONTROL Padding]**e**[!UICONTROL Margin]** no nível da coluna.
+>Dependendo da sua seleção (componente de estrutura, coluna ou componente de conteúdo), o resultado não será o mesmo. O Adobe recomenda definir os parâmetros **[!UICONTROL Padding]** e **[!UICONTROL Margin]** no nível da coluna.
 
-Para ambos **[!UICONTROL Padding]**e**[!UICONTROL Margin]**, clique no ícone de cadeado para quebrar a sincronização entre os parâmetros superior e inferior ou direito e esquerdo. Isso permite ajustar cada parâmetro separadamente.
+Para ambos **[!UICONTROL Padding]** e **[!UICONTROL Margin]**, clique no ícone de cadeado para quebrar a sincronização entre os parâmetros superior e inferior ou direito e esquerdo. Isso permite que você ajuste cada parâmetro separadamente.
 
 ![](assets/des_padding_lock_icon.png)
 
@@ -91,7 +94,7 @@ Para ambos **[!UICONTROL Padding]**e**[!UICONTROL Margin]**, clique no ícone de
 
    ![](assets/des_text_alignment.png)
 
-* **O alinhamento** horizontal pode ser aplicado ao texto, imagens e botões - atualmente não aos componentes **[!UICONTROL Divider]**e**[!UICONTROL Social]** .
+* **O alinhamento** horizontal pode ser aplicado ao texto, imagens e botões - atualmente não aos componentes **[!UICONTROL Divider]** e **[!UICONTROL Social]** .
 
    ![](assets/des_horizontal_alignment.png)
 
@@ -101,7 +104,12 @@ Para ambos **[!UICONTROL Padding]**e**[!UICONTROL Margin]**, clique no ícone de
 
 ## Configuração de planos de fundo {#about-backgrounds}
 
-Quando se trata de configurar planos de fundo com o Email Designer, a Adobe recomenda o seguinte:
+>[!CONTEXTUALHELP]
+>id="ac_edition_backgroundimage"
+>title="Configurações de plano de fundo"
+>abstract="O Designer de e-mail permite que você personalize a cor ou a imagem de plano de fundo do seu conteúdo."
+
+Quando se trata de configurar planos de fundo com o Email Designer, o Adobe recomenda o seguinte:
 
 1. Aplique uma cor de plano de fundo ao corpo do seu email, se exigido pelo seu design.
 1. Na maioria dos casos, defina as cores do plano de fundo no nível da coluna.
@@ -109,11 +117,11 @@ Quando se trata de configurar planos de fundo com o Email Designer, a Adobe reco
 
 Abaixo estão as configurações de plano de fundo disponíveis que você pode usar.
 
-* Defina um **[!UICONTROL Background color]**para o email inteiro. Selecione as configurações de corpo na árvore de navegação acessível na paleta esquerda.
+* Defina um **[!UICONTROL Background color]** para o email inteiro. Certifique-se de selecionar as configurações de corpo na árvore de navegação acessível na paleta esquerda.
 
    ![](assets/des_background_body.png)
 
-* Defina a mesma cor de plano de fundo para todos os componentes da estrutura selecionando **[!UICONTROL Viewport background color]**. Essa opção permite selecionar uma configuração diferente da cor do plano de fundo.
+* Defina a mesma cor de plano de fundo para todos os componentes da estrutura selecionando **[!UICONTROL Viewport background color]**. Essa opção permite que você selecione uma configuração diferente da cor do plano de fundo.
 
    ![](assets/des_background_viewport.png)
 
@@ -123,13 +131,13 @@ Abaixo estão as configurações de plano de fundo disponíveis que você pode u
 
    Certifique-se de não definir uma cor de plano de fundo do visor, pois ela pode ocultar as cores de plano de fundo da estrutura.
 
-* Defina um **[!UICONTROL Background image]**para o conteúdo de um componente de estrutura.
+* Defina uma configuração **[!UICONTROL Background image]** para o conteúdo de um componente de estrutura.
 
    ![](assets/des_background_image.png)
 
    >[!NOTE]
    >
-   >Alguns programas de email não suportam imagens de fundo. Certifique-se de selecionar uma cor de plano de fundo de fallback apropriada caso a imagem não possa ser exibida.
+   >Alguns programas de e-mail não suportam imagens de fundo. Quando não houver suporte, a cor de plano de fundo da linha será usada. Certifique-se de selecionar uma cor de plano de fundo de fallback apropriada caso a imagem não possa ser exibida.
 
 * Defina uma cor de plano de fundo no nível da coluna.
 
@@ -137,7 +145,7 @@ Abaixo estão as configurações de plano de fundo disponíveis que você pode u
 
    >[!NOTE]
    >
-   >Este é o caso de uso mais comum. A Adobe recomenda configurar as cores de plano de fundo no nível da coluna, pois isso permite mais flexibilidade ao editar todo o conteúdo do email.
+   >Este é o caso de uso mais comum. O Adobe recomenda configurar as cores de fundo no nível da coluna, pois isso permite mais flexibilidade ao editar todo o conteúdo do email.
 
    Também é possível definir uma imagem de plano de fundo no nível da coluna, mas isso raramente é usado.
 
@@ -146,19 +154,19 @@ Abaixo estão as configurações de plano de fundo disponíveis que você pode u
 Você deseja ajustar o preenchimento e o alinhamento vertical dentro de um componente de estrutura composto de três colunas. Para fazer isso, siga as etapas abaixo:
 
 1. Selecione o componente de estrutura diretamente no email ou usando a árvore de estrutura disponível na **Paleta** esquerda.
-1. Na barra de ferramentas **contextual**, clique **[!UICONTROL Select a column]**e escolha a que deseja editar. Também é possível selecioná-lo na árvore de estrutura.
+1. Na barra de ferramentas **contextual**, clique **[!UICONTROL Select a column]** e escolha a que deseja editar. Também é possível selecioná-lo na árvore de estrutura.
 
    ![](assets/des_selecting_column.png)
 
-   Os parâmetros editáveis para essa coluna são exibidos no **[!UICONTROL Settings]**painel à direita.
+   Os parâmetros editáveis para essa coluna são exibidos no **[!UICONTROL Settings]** painel à direita.
 
-1. Em **[!UICONTROL Vertical alignment]**, selecione**[!UICONTROL Up]**.
+1. Em **[!UICONTROL Vertical alignment]**, selecione **[!UICONTROL Up]**.
 
    ![](assets/des_vertical_alignment.png)
 
    O componente de conteúdo é exibido na parte superior da coluna.
 
-1. Em **[!UICONTROL Padding]**, defina o preenchimento superior dentro da coluna. Clique no ícone de bloqueio para interromper a sincronização com o preenchimento inferior.
+1. Em **[!UICONTROL Padding]**, defina o preenchimento superior dentro da coluna. Clique no ícone de cadeado para interromper a sincronização com o preenchimento inferior.
 
    Defina o preenchimento à esquerda e à direita para essa coluna.
 
@@ -172,11 +180,11 @@ Você deseja ajustar o preenchimento e o alinhamento vertical dentro de um compo
 
 ## Links de estilo {#about-styling-links}
 
-Você pode sublinhar um link e selecionar sua cor e destino no Designer de email.
+Você pode sublinhar um link e selecionar sua cor e público alvo no Designer de email.
 
 1. Em um componente onde um link é inserido, selecione o texto do rótulo do link.
 
-1. Nas configurações do componente, marque **[!UICONTROL Underline link]**para sublinhar o texto da etiqueta do link.
+1. Nas configurações do componente, marque **[!UICONTROL Underline link]** para sublinhar o texto da etiqueta do link.
 
    ![](assets/stylelinks-selecttext.png)
 
@@ -199,7 +207,7 @@ Você pode sublinhar um link e selecionar sua cor e destino no Designer de email
 Na interface do Email Designer, ao selecionar um elemento e exibir suas configurações no painel lateral, você pode personalizar os atributos em linha e seus valores para esse elemento específico.
 
 1. Selecione um elemento no seu conteúdo.
-1. No painel lateral, procure as **[!UICONTROL Styles Inline]**configurações.
+1. No painel lateral, procure as **[!UICONTROL Styles Inline]** configurações.
 
    ![](assets/email_designer_inlineattributes.png)
 
