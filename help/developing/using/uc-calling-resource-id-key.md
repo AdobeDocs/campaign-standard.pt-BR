@@ -2,10 +2,10 @@
 title: Chamada de um recurso usando uma chave de identificação composta
 description: Saiba como chamar um recurso usando uma chave de identificação composta
 translation-type: tm+mt
-source-git-commit: 1e1e1f5f9dd239e45d83330aed74a951a7b332d4
+source-git-commit: 81612f8158a19853e4b3ca05866fa335af493f67
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 6%
+source-wordcount: '588'
+ht-degree: 7%
 
 ---
 
@@ -25,7 +25,7 @@ As principais etapas para este caso de uso são:
 Tópicos relacionados:
 
 * [Criação ou extensão do recurso](../../developing/using/creating-or-extending-the-resource.md)
-* [Definindo chaves de identificação](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
+* [Definição de chaves de identificação](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
 * [APIs Campaign Standard REST](../../api/using/get-started-apis.md)
 
 ## Etapa 1: Configurar a chave de identificação{#step-1-configure-the-identification-key}
@@ -39,7 +39,7 @@ Tópicos relacionados:
 
    ![](assets/uc_idkey1.png)
 
-1. Na **[!UICONTROL Identification keys]** seção, clique no **[!UICONTROL Create element]** botão.
+1. In the **[!UICONTROL Identification keys]** section, click the **[!UICONTROL Create element]** button.
 
    ![](assets/uc_idkey2.png)
 
@@ -76,7 +76,7 @@ Tópicos relacionados:
    ![](assets/uc_idkey7.png)
 
    >[!NOTE]
-   > Depois de clicar no botão mais, o nome do parâmetro é gerado automaticamente. Observe essas informações, pois será necessário usar o filtro das APIs.
+   > Depois de clicar no botão **+** , o nome do parâmetro é gerado automaticamente. Observe essas informações, pois será necessário usar o filtro das APIs.
 
 1. Repita as etapas acima com todos os campos que compõem a chave de identificação (&quot;categoria&quot;) e salve as alterações.
 
@@ -92,7 +92,7 @@ Para usar a definição de filtro da interface, use uma **[!UICONTROL Query]** a
 
 ![](assets/uc_idkey9.png)
 
-Para usar a definição de filtro das APIs Campaign Standard REST, use a sintaxe abaixo:
+Para usar a definição de filtro das APIs REST do Campaign Standard, use a sintaxe abaixo:
 
 ```
 GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<value>&<param2_parameter>=<value>
