@@ -12,9 +12,9 @@ discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '214'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Um template de importação está disponível em **[!UICONTROL Adobe Campaign > 
 
 Quando a importação é feita, a Adobe Campaign executa automaticamente as seguintes ações:
 
-* Endereços incorretos são incluir na lista de bloqueios no nível do perfil
+* Endereços incorretos são adicionados lista de bloqueios no nível do perfil
 * Os indicadores principais do delivery (KPIs) são atualizados
 * Os logs do delivery são atualizados
 
