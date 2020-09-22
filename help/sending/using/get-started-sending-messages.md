@@ -12,9 +12,9 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d90de8255f7b08da2187bb8d1b16624d0d94bd80
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '575'
 ht-degree: 13%
 
 ---
@@ -45,7 +45,7 @@ A preparação **da** mensagem de Campaign Standard analisa o público alvo, a p
 
 Aproveite os recursos de agendamento de Campanha para definir quando suas mensagens serão enviadas. Por exemplo, você pode adaptar o envio no fuso horário do recipient, otimizar a hora de envio ou calcular a data de envio.
 
-Use **tipologias** para verificar durante a preparação se a mensagem é válida e atende aos seus critérios de qualidade por meio de regras de fadiga, controle e definição de metas. Por exemplo, para verificar se seus emails sempre contêm uma linha de assunto ou para excluir os canceladores dos recipient de mensagem.
+Use **tipologias** para verificar, durante a preparação, se a mensagem é válida e atende aos seus critérios de qualidade por meio de regras de fadiga, controle e definição de metas. Por exemplo, para verificar se seus emails sempre contêm uma linha de assunto ou para excluir os canceladores dos recipient de mensagem.
 
 Leia mais:
 
@@ -97,5 +97,5 @@ Leia mais:
 * [Envie um teste, prepare e envie um email (vídeo)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
 * [Analisar um delivery de email e relatórios (vídeo)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [Introdução aos emails](https://helpx.adobe.com/br/campaign/kb/acs-get-started-with-emails.html)
-* [Práticas recomendadas para delivery](https://helpx.adobe.com/br/campaign/kb/delivery-best-practices.html)
+* [Práticas recomendadas para delivery](../../sending/using/delivery-best-practices.md)
 * [Adicionar um grupo de controle](../../sending/using/control-group.md)
