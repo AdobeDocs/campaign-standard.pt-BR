@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6aa48a9f36e0716b036288862d1a0064e489be92
+source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+workflow-type: tm+mt
+source-wordcount: '924'
+ht-degree: 6%
 
 ---
 
@@ -46,7 +49,7 @@ Você também pode criar um email [com conteúdo](#with-existing-content)existen
 
 Você pode criar um email com facilidade, adicionar componentes e personalizar seu conteúdo para enviar um delivery rapidamente. Você pode adaptar as opções de estilização ao seu conteúdo, se necessário. Para obter mais informações sobre como gerenciar configurações de estilo e atributos incorporados, consulte [Edição de estilos](../../designing/using/styles.md)de email.
 
-1. Crie um email.
+1. Criar um email.
 1. Fechar a página inicial.
 
 ### Adicionar uma linha de assunto {#add-a-subject-line}
@@ -75,33 +78,33 @@ Você pode adicionar vários componentes de conteúdo ao seu email, como imagem,
 
 * **Imagem**
 
-1. Em Componentes **** de conteúdo, arraste e solte a imagem em um dos componentes da sua estrutura.
-1. Clique em **Procurar**.
-1. Selecione o arquivo de imagem do computador.
+   1. Em Componentes **** de conteúdo, arraste e solte a imagem em um dos componentes da sua estrutura.
+   1. Clique em **Procurar**.
+   1. Selecione o arquivo de imagem do computador.
 
-![](assets/browse-image-quick-start.png)
+   ![](assets/browse-image-quick-start.png)
 
 * **Texto com personalização**
 
-1. Em Componentes **** de conteúdo, arraste e solte o texto em um dos componentes da sua estrutura.
-1. Clique no componente e insira seu texto.
-1. Para adicionar um campo de personalização, clique em **Inserir campo** de personalização na barra de ferramentas.
-1. Selecione o campo necessário, como Nome.
+   1. Em Componentes **** de conteúdo, arraste e solte o texto em um dos componentes da sua estrutura.
+   1. Clique no componente e insira seu texto.
+   1. Para adicionar um campo de personalização, clique em **Inserir campo** de personalização na barra de ferramentas.
+   1. Selecione o campo necessário, como Nome.
 
-![](assets/edit-text-quick-start.png)
+   ![](assets/edit-text-quick-start.png)
 
 * **HTML**
 
-1. Em Componentes **** de conteúdo, arraste e solte o HTML em um dos componentes da sua estrutura.
-1. Clique em **Mostrar o código** fonte.
-1. Insira seu conteúdo HTML.
-1. Clique em **Save**.
+   1. Em Componentes **** de conteúdo, arraste e solte o HTML em um dos componentes da sua estrutura.
+   1. Clique em **Mostrar o código** fonte.
+   1. Insira seu conteúdo HTML.
+   1. Clique em **Save**.
 
-![](assets/html-component-source-code.png)
+   ![](assets/html-component-source-code.png)
 
-Se você estiver familiarizado com o HTML, poderá copiar e colar o código HTML do rodapé original usando o componente de **[!UICONTROL Html]** conteúdo. Para obter mais informações, consulte [Sobre componentes](../../designing/using/designing-from-scratch.md#about-content-components)de conteúdo.
+   Se você estiver familiarizado com o HTML, poderá copiar e colar o código HTML do rodapé original usando o componente de **[!UICONTROL Html]** conteúdo. For more on this, see [About content components](../../designing/using/designing-from-scratch.md#about-content-components).
 
-![](assets/des_loading_compatible_fragment_9.png)
+   ![](assets/des_loading_compatible_fragment_9.png)
 
 ### Estilo do componente de email
 
@@ -123,15 +126,15 @@ Você pode criar um e-mail a partir de modelos prontos para uso, como mensagens 
 
 1. Crie um email e abra seu conteúdo. For more on this, see [Creating an email](../../channels/using/creating-an-email.md).
 1. Clique no ícone inicial para acessar o **[!UICONTROL Email Designer]** home page.
-1. Click the **[!UICONTROL Templates]** tab.
+1. Clique na guia **[!UICONTROL Templates]**.
 1. Escolha um modelo HTML pronto para uso.
 Os diferentes modelos apresentam várias combinações de vários tipos de elementos. Por exemplo, os modelos &#39;Difusão&#39; têm margens, enquanto os modelos &#39;Astro&#39; não têm. Para obter mais informações, consulte Modelos [de](../../designing/using/using-reusable-content.md#content-templates)conteúdo.
 1. Vá para a **[!UICONTROL Properties]** guia do home page do Email Designer (acessível pelo ícone inicial) e preencha a **[!UICONTROL Subject]** seção.
 1. É possível combinar esses elementos para criar várias variantes de email. Por exemplo, você pode duplicado uma seção de email selecionando um componente de estrutura e clicando **[!UICONTROL Duplicate]** na barra de ferramentas contextual.
-1. É possível mover os elementos ao redor usando a seta azul à esquerda para arrastar um componente de estrutura abaixo ou acima de outro. Para obter mais informações, consulte [Edição da estrutura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de email.
-1. Você também pode mover componentes para alterar a organização de cada elemento de estrutura. Para obter mais informações, consulte [Adicionar fragmentos e componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. É possível mover os elementos ao redor usando a seta azul à esquerda para arrastar um componente de estrutura abaixo ou acima de outro. Para obter mais informações, consulte [Edição da estrutura do email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Você também pode mover componentes para alterar a organização de cada elemento de estrutura. Para obter mais informações, consulte [Inclusão de fragmentos e componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Modifique o conteúdo de cada elemento de acordo com suas necessidades: imagens, texto, links.
-1. Adapte as opções de estilo ao seu conteúdo, se necessário. Para obter mais informações, consulte [Edição de estilos](../../designing/using/styles.md)de email.
+1. Adapte as opções de estilo ao seu conteúdo, se necessário. Para obter mais informações, consulte [Edição de estilos de email](../../designing/using/styles.md).
 
 ## Usar um conteúdo de email existente {#with-existing-content}
 
