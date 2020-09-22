@@ -1,6 +1,6 @@
 ---
 title: 'Criação e uso de conteúdo reutilizável '
-description: Comece a criar conteúdo de email reutilizável com o Designer de email.
+description: Start que cria conteúdo de email reutilizável com o Designer de email.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -12,33 +12,36 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+workflow-type: tm+mt
+source-wordcount: '1803'
+ht-degree: 1%
 
 ---
 
 # Criação e uso de conteúdo reutilizável {#using-reusable-content}
 
-Saiba mais sobre como dominar a edição de conteúdo de email. Com o Email Designer, você pode criar modelos e fragmentos com seu próprio conteúdo predefinido e reutilizá-los nas entregas a seguir.
+Saiba como principal a edição de conteúdo de email. Com o Email Designer, você pode criar modelos e fragmentos com seu próprio conteúdo predefinido e reutilizá-los para os seguintes delivery.
 
 ## Criar e-mails usando modelos {#designing-templates}
 
 >[!NOTE]
 >
-> No Adobe Campaign Standard, você pode criar diferentes tipos de modelos que podem ser acessados no menu **Recursos** > **Modelos** . Os modelos usados no Designer de email são modelos de conteúdo. Para obter mais informações, consulte [Sobre modelos](../../start/using/marketing-activity-templates.md).
+> No Adobe Campaign Standard, você pode criar diferentes tipos de modelos acessíveis no menu **Recursos** > **Modelos** . Os modelos usados no Designer de email são modelos de conteúdo. Para obter mais informações, consulte [Sobre modelos](../../start/using/marketing-activity-templates.md).
 
 ### Sobre templates de conteúdo {#content-templates}
 
-Você pode gerenciar o conteúdo HTML oferecido na guia da página inicial do **[!UICONTROL Templates]**Email Designer[](../../designing/using/designing-content-in-adobe-campaign.md).
+Você pode gerenciar o conteúdo HTML oferecido na **[!UICONTROL Templates]** guia do home page [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) .
 
-Os modelos prontos para uso de conteúdo de e-mail incluem dezoito layouts otimizados para dispositivos móveis e quatro modelos responsivos melhores do setor projetados por artistas Behance. Eles correspondem aos usos mais atuais, como mensagens de boas-vindas ao cliente, boletins informativos e e-mails de reenvolvimento, entre outros. Eles podem ser facilmente personalizados com o conteúdo de suas marcas para facilitar o processo de criação de emails do zero.
+Os modelos prontos para uso de conteúdo de email incluem dezoito layouts otimizados para dispositivos móveis e quatro modelos responsivos melhores do setor, projetados por artistas da Behance. Eles correspondem aos usos mais atuais, como mensagens de boas-vindas ao cliente, boletins informativos e e-mails de reenvolvimento, entre outros. Eles podem ser facilmente personalizados com o conteúdo de suas marcas para facilitar o processo de criação de e-mails do zero.
 
 ![](assets/template_content.png)
 
-Os modelos de conteúdo HTML podem ser acessados na tela **[!UICONTROL Resources]**>**[!UICONTROL Content templates & fragments]** do menu [](../../start/using/interface-description.md#advanced-menu)Avançado. A partir daí, você pode gerenciar modelos de conteúdo de página inicial, modelos de conteúdo de email e também fragmentos.
+Os modelos de conteúdo HTML podem ser acessados na tela **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** do menu [](../../start/using/interface-description.md#advanced-menu)Avançado. A partir daí, você pode gerenciar modelos de conteúdo de landing page, modelos de conteúdo de email e também fragmentos.
 
 ![](assets/content_templates_list.png)
 
-Os modelos de conteúdo prontos para uso são somente leitura. Para editar um deles, é necessário primeiro duplicar o modelo desejado.
+Os modelos de conteúdo prontos para uso são somente leitura. Para editar um deles, é necessário primeiro duplicado o modelo desejado.
 
 Você pode criar novos modelos ou fragmentos e definir seu próprio conteúdo. Para obter mais informações, consulte [Criar um modelo](#creating-a-content-template) de conteúdo e [Criar um fragmento](#creating-a-content-fragment)de conteúdo.
 
@@ -55,28 +58,29 @@ Você pode criar seus próprios modelos de conteúdo para usá-los quantas vezes
 
 O exemplo a seguir mostra como criar um modelo de conteúdo de email.
 
-1. Vá até **[!UICONTROL Resources]**>**[!UICONTROL Content templates & fragments]** e clique em **[!UICONTROL Create]**.
-1. Clique no rótulo do email para acessar a **[!UICONTROL Properties]**guia do Designer de email.
+1. Go to **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** and click **[!UICONTROL Create]**.
+1. Clique no rótulo do email para acessar a **[!UICONTROL Properties]** guia do Designer de email.
 1. Especifique um rótulo reconhecível e selecione os seguintes parâmetros para poder usar este modelo em emails:
 
-   * Selecione **[!UICONTROL Shared]**ou**[!UICONTROL Delivery]** na lista **[!UICONTROL Content type]**suspensa.
-   * Selecione **[!UICONTROL Template]**na lista**[!UICONTROL HTML type]** suspensa.
+   * Selecione **[!UICONTROL Shared]** ou **[!UICONTROL Delivery]** na lista **[!UICONTROL Content type]** suspensa.
+   * Selecione **[!UICONTROL Template]** na lista **[!UICONTROL HTML type]** suspensa.
+
    ![](assets/email_designer_create-template.png)
 
-1. Se necessário, é possível definir uma imagem que será usada como miniatura do modelo. Selecione-o na **[!UICONTROL Thumbnail]**guia das propriedades do modelo.
+1. Se necessário, é possível definir uma imagem que será usada como miniatura do modelo. Selecione-o na **[!UICONTROL Thumbnail]** guia das propriedades do modelo.
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   Essa miniatura será exibida na guia **[!UICONTROL Templates]**da página inicial do[Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
+   Essa miniatura será exibida na **[!UICONTROL Templates]** guia do home page [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) .
 
-1. Feche a **[!UICONTROL Properties]**guia para retornar à área de trabalho principal.
+1. Feche a **[!UICONTROL Properties]** guia para retornar à área de trabalho principal.
 1. Adicione componentes de estrutura e componentes de conteúdo que podem ser personalizados conforme necessário.
    >[!NOTE]
    >
    > Não é possível inserir campos de personalização ou conteúdo condicional dentro de um modelo de conteúdo.
 1. Depois de editado, salve o modelo.
 
-Esse modelo agora pode ser usado em qualquer email criado com o Designer de email. Selecione-o na **[!UICONTROL Templates]**guia da página inicial do[Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
+Esse modelo agora pode ser usado em qualquer email criado com o Designer de email. Selecione-o na **[!UICONTROL Templates]** guia do home page [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) .
 
 ![](assets/content_template_new.png)
 
@@ -88,7 +92,7 @@ Ao editar um email com o Designer de email, você pode salvar diretamente o cont
 >
 >You cannot save as template a structure containing personalization fields or dynamic content.-->
 
-1. Selecione **[!UICONTROL Save as template]**na barra de ferramentas principal do Email Designer.
+1. Selecione **[!UICONTROL Save as template]** na barra de ferramentas principal do Email Designer.
 
    ![](assets/email_designer_save-as-template.png)
 
@@ -96,9 +100,9 @@ Ao editar um email com o Designer de email, você pode salvar diretamente o cont
 
    ![](assets/email_designer_save-as-template_creation.png)
 
-1. Para encontrar o modelo que você acabou de criar, vá para **[!UICONTROL Resources]**>**[!UICONTROL Content templates & fragments]**.
+1. Para encontrar o modelo que você acabou de criar, vá para **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**.
 
-1. Para usar seu novo modelo, selecione-o na **[!UICONTROL Templates]**guia da página inicial do[Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
+1. Para usar seu novo modelo, selecione-o na **[!UICONTROL Templates]** guia do home page [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) .
 
    ![](assets/content_template_new.png)
 
@@ -107,16 +111,16 @@ Ao editar um email com o Designer de email, você pode salvar diretamente o cont
 Agora você pode criar um modelo de email com o Designer de email. Use os componentes de conteúdo para refletir as diferentes seções do seu email e ajustar as configurações para torná-las o mais próximas possível do seu boletim informativo original. Por fim, insira os fragmentos que você acabou de criar.
 
 1. Usando o Designer de email, crie um modelo. Para obter mais informações, consulte Modelos [de](#content-templates)conteúdo.
-1. Insira vários componentes de estrutura no modelo - correspondentes ao cabeçalho, rodapé e corpo do email. Para obter mais informações sobre como adicionar componentes de estrutura, consulte [Editar a estrutura de email com o Designer](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de email.
+1. Insira vários componentes de estrutura no modelo - correspondentes ao cabeçalho, rodapé e corpo do email. Para obter mais informações sobre como adicionar componentes de estrutura, consulte [Editar a estrutura de e-mail com o Designer](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de e-mail.
 1. Insira quantos componentes de conteúdo forem necessários para criar o corpo de seu boletim informativo. Este será o conteúdo editável do seu email que você atualizará todos os meses.
 
    ![](assets/des_loading_compatible_fragment_5.png)
 
-   Se você estiver familiarizado com o código HTML, a Adobe recomenda aproveitar **[!UICONTROL Html]**os componentes onde você pode copiar e colar os elementos mais complexos do email original. Use outros componentes, como**[!UICONTROL Button]**, **[!UICONTROL Image]**ou**[!UICONTROL Text]** para o restante do conteúdo. Para obter mais informações, consulte [Sobre componentes](../../designing/using/designing-from-scratch.md#about-content-components)de conteúdo.
+   Se você estiver familiarizado com o código HTML, o Adobe recomenda aproveitar **[!UICONTROL Html]** os componentes onde você pode copiar e colar os elementos mais complexos do email original. Use outros componentes, como **[!UICONTROL Button]**, **[!UICONTROL Image]** ou **[!UICONTROL Text]** para o restante do conteúdo. For more on this, see [About content components](../../designing/using/designing-from-scratch.md#about-content-components).
 
    >[!NOTE]
    >
-   >O uso do **[!UICONTROL Html]**componente resulta na criação de componentes editáveis com opções limitadas. Certifique-se de saber como lidar com o código HTML antes de selecionar esse componente.
+   >O uso do **[!UICONTROL Html]** componente resulta na criação de componentes editáveis com opções limitadas. Certifique-se de saber como lidar com o código HTML antes de selecionar esse componente.
 
 1. Ajuste os componentes de conteúdo para corresponder ao seu email original o máximo possível.
 
@@ -128,19 +132,24 @@ Agora você pode criar um modelo de email com o Designer de email. Use os compon
 
    ![](assets/des_loading_compatible_fragment_10.png)
 
-1. Salve o modelo.
+1. Salve o template.
 
-Agora você pode gerenciar totalmente esse modelo no Email Designer para criar e atualizar o boletim informativo que você enviará mensalmente para seus destinatários.
+Agora você pode gerenciar totalmente esse modelo no Email Designer para criar e atualizar o boletim informativo que você enviará mensalmente aos seus recipient.
 
 Para usá-lo, crie um email e selecione o modelo de conteúdo que você acabou de criar.
 
-**Tópico** relacionado:
+**Tópicos relacionados**:
 
-* [Criação de um de email](../../channels/using/creating-an-email.md)
+* [Criação de email](../../channels/using/creating-an-email.md)
 * [Vídeo de introdução ao Email Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=por_br)
 * [Criar um conteúdo de email do zero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
 ## Sobre fragmentos {#about-fragments}
+
+>[!CONTEXTUALHELP]
+>id="ac_fragments"
+>title="Sobre fragmentos"
+>abstract="Um fragmento é um componente reutilizável que pode ser referenciado em um ou mais emails."
 
 Um fragmento é um componente reutilizável que pode ser referenciado em um ou mais emails.
 Eles podem ser encontrados na interface em **Recursos** > Fragmentos e modelos **** de conteúdo.
@@ -148,7 +157,7 @@ Eles podem ser encontrados na interface em **Recursos** > Fragmentos e modelos *
 Para usar melhor os fragmentos no Designer de email:
 
 * Crie seus próprios fragmentos. Consulte [Criar um fragmento](#creating-a-content-fragment) de conteúdo e [Salvar conteúdo como um fragmento](#saving-content-as-a-fragment).
-* Use-os quantas vezes forem necessárias em seus emails. Consulte [Inserir elementos em um email](#inserting-elements-into-an-email).
+* Use-os quantas vezes forem necessárias em seus e-mails. Consulte [Inserir elementos em um email](#inserting-elements-into-an-email).
 * Ao editar um fragmento, as alterações são sincronizadas: são propagados automaticamente para todos os emails (desde que ainda não tenham sido preparados ou enviados) que contenham esse fragmento.
 
 Quando adicionados a um email, os fragmentos são bloqueados por padrão. Se quiser modificar um fragmento para um email específico, você pode interromper a sincronização com o fragmento original desbloqueando-o no email em que ele é usado. As alterações não serão mais sincronizadas.
@@ -189,27 +198,28 @@ Agora que sua estrutura de email está preenchida, você pode editar o estilo de
 
 >[!NOTE]
 >
->Se um fragmento for modificado, as alterações serão propagadas automaticamente nos e-mails em que são usadas. Para obter mais informações, consulte [Sobre fragmentos](#about-fragments).
+>Se um fragmento for modificado, as alterações serão propagadas automaticamente nos e-mails em que são usadas. For more on this, see [About fragments](#about-fragments).
 
-### Criação de um fragmento de conteúdo {#creating-a-content-fragment}
+### Creating a content fragment {#creating-a-content-fragment}
 
 Você pode criar seus próprios fragmentos de conteúdo para usá-los conforme necessário em um ou mais emails.
 
-1. Vá até **[!UICONTROL Resources]**>**[!UICONTROL Content templates & fragments]** e clique em **[!UICONTROL Create]**.
-1. Clique no rótulo do email para acessar a **[!UICONTROL Properties]**guia do Designer de email.
+1. Go to **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** and click **[!UICONTROL Create]**.
+1. Clique no rótulo do email para acessar a **[!UICONTROL Properties]** guia do Designer de email.
 1. Especifique um rótulo reconhecível e selecione os seguintes parâmetros para localizar o fragmento ao editar o conteúdo de email:
 
-   * Como os fragmentos são compatíveis apenas com emails, selecione **[!UICONTROL Delivery]**na lista**[!UICONTROL Content type]** suspensa.
-   * Selecione **[!UICONTROL Fragment]**na lista**[!UICONTROL HTML type]** suspensa para poder usar esse conteúdo como um fragmento.
+   * Como os fragmentos são compatíveis apenas com e-mails, selecione **[!UICONTROL Delivery]** na lista **[!UICONTROL Content type]** suspensa.
+   * Selecione **[!UICONTROL Fragment]** na lista **[!UICONTROL HTML type]** suspensa para poder usar esse conteúdo como um fragmento.
+
    ![](assets/email_designer_createfragment.png)
 
-1. Se necessário, é possível definir uma imagem que será usada como miniatura do fragmento. Selecione-o na **[!UICONTROL Thumbnail]**guia das propriedades do modelo.
+1. Se necessário, é possível definir uma imagem que será usada como miniatura do fragmento. Selecione-o na **[!UICONTROL Thumbnail]** guia das propriedades do modelo.
 
    ![](assets/email_designer_createfragment_thumbnail.png)
 
    Essa miniatura será exibida ao lado do rótulo do fragmento ao editar um email.
 
-1. Feche a **[!UICONTROL Properties]**guia para retornar à área de trabalho principal.
+1. Feche a **[!UICONTROL Properties]** guia para retornar à área de trabalho principal.
 1. Adicione componentes de estrutura e componentes de conteúdo que podem ser personalizados conforme necessário.
 
    >[!CAUTION]
@@ -218,25 +228,25 @@ Você pode criar seus próprios fragmentos de conteúdo para usá-los conforme n
    >
    >Evite salvar como um conteúdo de fragmento com componentes de estrutura vazios. Depois que o fragmento >for inserido, eles não poderão ser editados.
    >
-   >A exibição [](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) móvel não está disponível em fragmentos.
+   >A visualização [](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) móvel não está disponível em fragmentos.
 
 1. Depois de editado, salve o fragmento.
 
-Esse fragmento agora pode ser usado em qualquer email criado com o Designer de email. É exibido sob a **[!UICONTROL Fragments]**seção Paleta.
+Esse fragmento agora pode ser usado em qualquer email criado com o Designer de email. Ela é exibida sob a **[!UICONTROL Fragments]** seção Paleta.
 
 >[!NOTE]
 >
->Não é possível inserir campos de personalização dentro de um fragmento, a menos que sejam usados em um email e desbloqueados. Consulte [Sobre fragmentos](#about-fragments).
+>Não é possível inserir campos de personalização dentro de um fragmento, a menos que ele seja usado em um email e desbloqueado. Consulte [Sobre fragmentos](#about-fragments).
 
 ### Salvar conteúdo como um fragmento {#saving-content-as-a-fragment}
 
 Ao editar um email com o Designer de email, você pode salvar diretamente parte desse email como um fragmento.
 
-* Não é possível salvar como fragmento uma estrutura que contém campos de personalização, conteúdo dinâmico ou outro fragmento.
+* Não é possível salvar como fragmento uma estrutura que contenha campos de personalização, conteúdo dinâmico ou outro fragmento.
 * Você só pode selecionar estruturas adjacentes.
 <!-- - You cannot select an empty structure.-->
 
-1. Ao editar um email no Designer de email, selecione **[!UICONTROL Save as fragment]**na barra de ferramentas principal.
+1. Ao editar um email no Designer de email, selecione **[!UICONTROL Save as fragment]** na barra de ferramentas principal.
 
    ![](assets/email_designer_save-as-fragment.png)
 
@@ -255,16 +265,16 @@ Ao editar um email com o Designer de email, você pode salvar diretamente parte 
 
    ![](assets/email_designer_save-as-fragment_popup.png)
 
-1. Para localizar o fragmento que você acabou de criar, vá para **[!UICONTROL Resources]**>**[!UICONTROL Content templates & fragments]**.
+1. Para localizar o fragmento que você acabou de criar, vá para **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**.
 
    ![](assets/email_designer_save-as-fragment_list.png)
 
-1. Para usar o novo fragmento, abra qualquer conteúdo de email e selecione-o na lista de fragmentos.
+1. Para usar o novo fragmento, abra qualquer conteúdo de email e selecione-o na lista do fragmento.
 
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
 
 >[!NOTE]
->A exibição [](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) móvel não está disponível em fragmentos. Se quiser editar uma exibição móvel de email, faça-a antes de salvar seu conteúdo como um fragmento.
+>A visualização [](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) móvel não está disponível em fragmentos. Se quiser editar uma visualização para dispositivos móveis de email, faça-a antes de salvar seu conteúdo como um fragmento.
 
 <!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
@@ -288,22 +298,22 @@ Usando o Designer de email, crie um fragmento para cada seção reutilizável. N
 
 Para fazer isso, siga as etapas abaixo:
 
-1. No Adobe Campaign, acesse **[!UICONTROL Resources]**>**[!UICONTROL Content templates & fragments]** e crie um fragmento para o cabeçalho. Para obter mais informações, consulte [Criação de um fragmento](#creating-a-content-fragment)de conteúdo.
+1. No Adobe Campaign, vá até **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** e crie um fragmento para seu cabeçalho. Para obter mais informações, consulte [Criação de um fragmento](#creating-a-content-fragment)de conteúdo.
 1. Adicione quantos componentes de estrutura forem necessários ao fragmento.
 
-![](assets/des_loading_compatible_fragment_1.png)
+   ![](assets/des_loading_compatible_fragment_1.png)
 
 1. Insira componentes de imagem e texto na sua estrutura.
 
-![](assets/des_loading_compatible_fragment_2.png)
+   ![](assets/des_loading_compatible_fragment_2.png)
 
 1. Carregue a imagem correspondente, insira o texto e ajuste as configurações.
 
-![](assets/des_loading_compatible_fragment_3.png)
+   ![](assets/des_loading_compatible_fragment_3.png)
 
 1. Salve o fragmento.
 1. Proceda de forma semelhante para criar seu rodapé e salvá-lo.
 
-![](assets/des_loading_compatible_fragment_4.png)
+   ![](assets/des_loading_compatible_fragment_4.png)
 
 Seus fragmentos estão prontos para serem usados em um modelo.
