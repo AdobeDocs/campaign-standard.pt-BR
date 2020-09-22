@@ -13,7 +13,7 @@ context-tags: sms,main;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 16afc307df6902584624d6457954a472b11c5129
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 100%
@@ -29,11 +29,10 @@ ht-degree: 100%
 
 ![](assets/recurrentsms.png)
 
-A atividade **[!UICONTROL SMS delivery]** permite configurar o envio de um SMS em um workflow. Pode ser um SMS de **envio único** e enviado apenas uma vez ou pode ser um SMS **recorrente**.
+A atividade **[!UICONTROL SMS delivery]** permite configurar o envio de um SMS em um workflow. Pode ser um SMS de envio único e enviado apenas uma vez ou pode ser um SMS recorrente.
 
-As mensagens SMS de envio único são SMS padrão, enviadas uma vez.
-
-Mensagens SMS recorrentes permitem enviar o mesmo SMS várias vezes para públicos-alvos diferentes em um período definido. Você pode agregar os deliveries por período para obter relatórios que correspondam às suas necessidades.
+* **As mensagens SMS de envio único são SMS padrão, enviadas uma vez.**
+* **Mensagens SMS recorrentes permitem enviar o mesmo SMS várias vezes para públicos-alvos diferentes em um período definido.** Você pode agregar os deliveries por período para obter relatórios que correspondam às suas necessidades.
 
 ## Contexto de uso {#context-of-use}
 
