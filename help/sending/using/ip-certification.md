@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '323'
 ht-degree: 68%
 
 ---
@@ -27,7 +27,7 @@ A certificação IP é um programa de práticas recomendadas de envio que ajuda 
 
 Atualmente, dois provedores oferecem certificação IP: Return Path e Certified Senders Alliance.
 
-Os remetentes certificados são incluir na lista de permissões, usados por provedores de caixa de correio global e empresas de segurança de email. Essas  comerciais de lista de permissões baseiam-se em um sistema que permite ao remetente ignorar totalmente filtros antisspam ou receber pontos incrementais à medida que ele entra no sistema.
+Os remetentes certificados estão em lista de permissões e são usados por provedores globais de caixa de correio e empresas de segurança de email. Essas  comerciais de lista de permissões baseiam-se em um sistema que permite ao remetente ignorar totalmente filtros antisspam ou receber pontos incrementais à medida que ele entra no sistema.
 
 O programa [Return Path Certification](https://www.validity.com/products/returnpath/certification/) oferece vários benefícios, incluindo:
 * Um aumento mensurável no posicionamento da caixa de entrada nos principais provedores de caixa de correio, como Microsoft, AOL, Yahoo, Gmail, Comcast, Orange, Mail.ru e outros
