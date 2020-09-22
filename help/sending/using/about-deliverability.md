@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 82%
@@ -57,10 +57,10 @@ Em primeiro lugar, consulte a documentação sobre as ferramentas de entrega for
 * [Receber alertas quando ocorrerem falhas](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Noções básicas sobre falhas de delivery](../../sending/using/understanding-delivery-failures.md)
 * [Noções básicas sobre gestão de quarentena](../../sending/using/understanding-quarantine-management.md)
-* [Quarentena vs lista de bloqueios](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
+* [Quarentena vs lista de bloqueios](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 * [Relatórios dinâmicos](../../reporting/using/about-dynamic-reports.md)
 
-## Verificando a configuração da rede {#network-configuration}
+## Verificar a configuração da rede {#network-configuration}
 
 Os remetentes de spam tentam ocultar a verdadeira identidade e, assim, dificultam a identificação dos servidores. Uma configuração de rede legítima que não tente ocultar a identidade do servidor é essencial para enviar emails em grandes volumes.
 
