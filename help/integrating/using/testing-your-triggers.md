@@ -12,9 +12,9 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 6078a16c679d368dd85cecbb8b715e2de3da805a
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '443'
 ht-degree: 2%
 
 ---
@@ -64,7 +64,7 @@ Caso contrário, verifique se o acionador foi recebido do pipeline.
 
 Caso contrário, entre em contato com a Adobe para verificar a configuração dos pontos finais do pipeline.
 
-Se estiver, siga estas linhas de guia:
+Em caso afirmativo, siga estas orientações:
 
 * Verifique o tipo de ID de reconciliação na fonte de dados de Campanha.
 * A Fonte de Dados CustomerId é criada por meio dos Atributos do cliente.
@@ -74,10 +74,10 @@ Se estiver, siga estas linhas de guia:
 
 **O acionador está no status pendente?**
 
-Caso contrário, vá para a próxima etapa. Se estiver, siga estas linhas de guia:
+Caso contrário, vá para a próxima etapa. Em caso afirmativo, siga estas orientações:
 
 * Verifique se o modelo transacional foi publicado.
-* Verifique se o perfil não está incluir na lista de bloqueios.
+* Verifique se o perfil não está em lista de bloqueios.
 * Verifique a aplicação do regra de tipologia.
 * Verifique os registros do mensagen transacional.
 
