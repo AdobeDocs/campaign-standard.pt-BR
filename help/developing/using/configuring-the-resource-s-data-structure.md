@@ -12,9 +12,9 @@ discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
 context-tags: cusResource,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 81612f8158a19853e4b3ca05866fa335af493f67
+workflow-type: tm+mt
 source-wordcount: '1657'
 ht-degree: 100%
 
@@ -154,6 +154,7 @@ Um link detalha a associação que uma tabela tem com outras tabelas.
    * **[!UICONTROL 1 cardinality simple link]**: uma ocorrência da tabela de origem pode ter no máximo uma ocorrência correspondente da tabela de destino.
    * **[!UICONTROL N cardinality collection link]**: uma ocorrência da tabela de origem pode ter várias ocorrências correspondentes da tabela de destino, mas uma ocorrência da tabela de destino pode ter no máximo uma ocorrência correspondente da tabela de origem.
    * **[!UICONTROL 0 or 1 cardinality simple link]**: uma ocorrência da tabela de origem pode ter no máximo uma ocorrência correspondente da tabela de destino, ou nenhuma ocorrência. Observe que esse tipo de **[!UICONTROL Link type]** pode causar problemas de desempenho.
+
    ![](assets/schema_extension_29.png)
 
 1. Na tela **[!UICONTROL New link]**, os campos **[!UICONTROL Label]** e **[!UICONTROL ID]** são preenchidos por padrão, mas você pode editá-los.
@@ -161,8 +162,6 @@ Um link detalha a associação que uma tabela tem com outras tabelas.
    >[!NOTE]
    >
    >Use no máximo 30 caracteres.
-
-   >[!IMPORTANT]
    >
    >Não é possível renomear um link após a criação. Para renomear um link, você deve excluí-lo e criá-lo novamente.
 
@@ -178,6 +177,7 @@ Um link detalha a associação que uma tabela tem com outras tabelas.
 
    * **[!UICONTROL Use the primary key to make the join]**: essa definição de junção permite usar a chave primária de perfis para reconciliação com a chave primária de compras.
    * **[!UICONTROL Define specific join conditions]**: essa definição de junção permite selecionar manualmente os campos que unirão ambos os recursos. Observe que, se os dados não estiverem configurados corretamente, o registro **Purchase** não estará visível.
+
    ![](assets/schema_extension_17.png)
 
 Os links criados são exibidos na lista da seção **[!UICONTROL Links]**.
