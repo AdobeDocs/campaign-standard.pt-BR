@@ -12,10 +12,10 @@ discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b43e6be265ff2d8ce357ef44672a755028e2e5af
+source-git-commit: 3af649cfaae195ae5e75406ca3a0743b9b1f65d2
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '511'
+ht-degree: 91%
 
 ---
 
@@ -78,6 +78,13 @@ Este relatório apresenta as renderizações de email conforme elas são exibida
 >[!NOTE]
 >
 >O número de renderizações disponíveis está listado em seu contrato de licença. Cada delivery com a opção **Renderização de email** ativada diminui uma renderização das renderizações disponíveis (conhecidas como tokens).
+>
+>Tokens respondem por cada renderização individual e não por todo o relatório de renderização de email, o que significa que:
+>
+>**Cada vez que o relatório de renderização da Caixa de Entrada é gerado, é deduzido um token por cliente da mensagem: um token para a renderização do Outlook 2000, um para a renderização do Outlook , um para a renderização do Apple Mail e assim por diante.**
+>
+>**Para o mesmo delivery**, se você gerar a renderização por email novamente, o número de tokens disponíveis será novamente diminuído pelo número de renderizações geradas.
+
 
 O resumo do relatório apresenta o número de mensagens recebidas, indesejadas (spam), não recebidas ou recebimentos pendentes.
 
