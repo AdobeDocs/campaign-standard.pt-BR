@@ -13,10 +13,10 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 331769e7f1c1c30e3b7ff340252052c5aaa2eac9
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 55%
+source-wordcount: '459'
+ht-degree: 54%
 
 ---
 
@@ -38,30 +38,30 @@ Se o problema persistir, entre em contato com os serviços comerciais ou de entr
 
 ##  Lista de bloqueios quarentena {#denylist-versus-quarantine}
 
-* **Qual é a diferença entre um endereço de email incluir na lista de bloqueios e um endereço de email em quarentena?**
+* **Qual é a diferença entre um endereço de email em lista de bloqueios e um endereço de email em quarentena?**
 
-   * O status **[!UICONTROL Denylisted]** é resultado de um ciclo de feedback (quando uma pessoa reporta uma mensagem como spam).
+   * O status **[!UICONTROL On denylist]** é resultado de um ciclo de feedback (quando uma pessoa reporta uma mensagem como spam).
 
    * O status **[!UICONTROL Quarantined]** é resultado de um salto suave ou forte.
-   Para obter mais informações, consulte esta [seção](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list).
+   Para obter mais informações, consulte esta [seção](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
 
 * **O que significam os diferentes motivos de erro de quarentena?**
 
-   Aqui estão 10 possíveis motivos: não definido, usuário desconhecido, domínio inválido, endereço incluir na lista de bloqueios, recusado, erro ignorado, inacessível, conta desativada, caixa de correio cheia, não conectado.
+   Aqui estão 10 possíveis motivos: não definido, usuário desconhecido, domínio inválido, endereço na lista de bloqueios, recusado, erro ignorado, inacessível, conta desativada, caixa de correio cheia, não conectado.
 
    Para obter mais informações, consulte [Entendendo o gerenciamento da quarentena](../../sending/using/understanding-quarantine-management.md).
 
 ## Remoção de lista de bloqueios {#removing-from-denylist}
 
-* **Um dos meus recipient foi incluir na lista de bloqueios por engano. How do I remove them from the denylist so that I can start sending them messages again?**
+* **Um dos meus recipient foi adicionado à lista de bloqueios por engano. How do I remove them from the denylist so that I can start sending them messages again?**
 
    * Vá para **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
    * Nos detalhes do registro correspondente, defina o valor do campo **[!UICONTROL Status]** como **[!UICONTROL Valid]**.
    * Salve o registro.
 
-* **Como posso descobrir se um dos meus IPs está incluir na lista de bloqueios? Como remover meus IPs de uma lista de bloqueios?**
+* **Como posso descobrir se um dos meus IPs está na lista de bloqueios? Como remover meus IPs de uma lista de bloqueios?**
 
-   Para verificar se seu endereço IP está incluir na lista de bloqueios, você pode usar vários sites para verificá-lo, como:
+   Para verificar se o endereço IP está na lista de bloqueios, use vários sites para verificá-lo, como:
    * [Caixa de ferramentas MX](https://mxtoolbox.com/)
    * [Qual é o meu endereço IP](https://whatismyipaddress.com)
 
