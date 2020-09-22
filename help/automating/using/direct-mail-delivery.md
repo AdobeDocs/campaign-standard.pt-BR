@@ -13,7 +13,7 @@ context-tags: directMail,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 99%
@@ -29,11 +29,10 @@ ht-degree: 99%
 
 ![](assets/recurrentpaper.png)
 
-A atividade **[!UICONTROL Direct mail delivery]** permite configurar e preparar um arquivo contendo dados de perfil que você deseja usar para uma campanha de correspondência direta. Pode ser uma correspondência direta que é utilizada apenas uma vez ou pode ser uma correspondência direta **recorrente**.
+A atividade **[!UICONTROL Direct mail delivery]** permite configurar e preparar um arquivo contendo dados de perfil que você deseja usar para uma campanha de correspondência direta. Pode ser uma correspondência direta que é utilizada apenas uma vez ou pode ser uma correspondência direta recorrente.
 
-Correspondências diretas padrão são enviadas uma vez.
-
-Emails recorrentes permitem enviar a mesma correspondência direta várias vezes para públicos-alvos diferentes em um período definido. Você pode agregar os deliveries por período para obter relatórios que correspondam às suas necessidades.
+* **Correspondências diretas padrão são enviadas uma vez.**
+* **Emails recorrentes permitem enviar a mesma correspondência direta várias vezes para públicos-alvos diferentes em um período definido.** Você pode agregar os deliveries por período para obter relatórios que correspondam às suas necessidades.
 
 ## Contexto de uso {#context-of-use}
 
