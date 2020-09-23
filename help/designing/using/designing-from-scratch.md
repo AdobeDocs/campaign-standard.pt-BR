@@ -12,9 +12,9 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1241'
 ht-degree: 2%
 
 ---
@@ -46,12 +46,12 @@ Você também pode conferir este vídeo [de](https://video.tv.adobe.com/v/22771/
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
 >title="Sobre os componentes da Estrutura"
->abstract="Elementos estruturais que definem o layout do email."
+>abstract="Os componentes da estrutura definem o layout do email."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns"
 >title="Definição de colunas de email"
->abstract="O Designer de e-mail permite que você defina facilmente a estrutura de colunas do seu e-mail."
+>abstract="O Designer de e-mail permite que você defina facilmente o layout de seu e-mail definindo a estrutura da coluna."
 
 O Designer de e-mail permite que você defina facilmente a estrutura de seu e-mail. Ao adicionar e mover elementos estruturais com ações simples de arrastar e soltar, você pode projetar a forma do seu email em segundos.
 
@@ -76,7 +76,7 @@ Para editar a estrutura de um email:
 
 1. Estão disponíveis vários componentes de estrutura compostos por uma ou mais colunas.
 
-   Selecione o **[!UICONTROL n:n column]** componente para definir o número de colunas de sua escolha (entre 3 e 10). Também é possível definir a largura de cada coluna movendo as setas na parte inferior de cada coluna.
+   Selecione o **[!UICONTROL n:n column]** componente para definir o número de colunas de sua escolha (entre 3 e 10). Você também pode definir a largura de cada coluna movendo as setas na parte inferior de cada coluna.
 
    ![](assets/email_designer_n-n-column.png)
 
@@ -111,7 +111,7 @@ Você pode adicionar um **[!UICONTROL Content block]**, um **[!UICONTROL Dynamic
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
 >title="Sobre os componentes do conteúdo"
->abstract="Os componentes do conteúdo são componentes brutos e vazios que podem ser editados depois de enviados por email."
+>abstract="Os componentes do conteúdo são espaços reservados para conteúdo vazio que você pode editar para criar um email."
 
 Os componentes do conteúdo são componentes brutos e vazios que podem ser editados depois de enviados por email.
 
@@ -164,7 +164,9 @@ Quando você tem um conteúdo que não pode ser recriado, é possível copiar e 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video"
 >title="Configurações de vídeo"
->abstract="Use este componente para inserir um vídeo em seu email."
+>abstract="Use este componente para inserir um vídeo em seu email. Observe que os vídeos não funcionam em todos os clientes de email. Recomendamos definir uma imagem de fallback."
+>additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Informações adicionais"
+
 
 Insira o componente de vídeo em um componente de estrutura do email e insira o link de vídeo no **[!UICONTROL Component Settings]**.
 
@@ -187,7 +189,7 @@ Use este componente para inserir links para páginas de mídia social em seu ema
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="Configurações do carrossel"
->abstract="Saiba como inserir e configurar um carrossel em seu conteúdo."
+>abstract="Saiba como inserir e configurar um carrossel em seu conteúdo.Observe que o carrossel não funciona em todos os clientes de email e a imagem de fallback será exibida caso não seja compatível."
 
 1. Arraste e solte o **[!UICONTROL Carousel]** componente dentro de um componente de estrutura.
 1. Navegue para selecionar imagens do seu computador.
