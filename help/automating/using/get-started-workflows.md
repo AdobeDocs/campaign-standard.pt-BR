@@ -1,6 +1,6 @@
 ---
 title: Introdução a processos e gestões de dados
-description: O Adobe Campaign oferta um ambiente gráfico abrangente que permite projetar e automatizar processos.
+description: Aproveite os recursos de fluxo de trabalho da Adobe Campaign para automatizar processos através de um ambiente gráfico avançado e abrangente. Saiba como carregar dados, gerenciar audiências, enviar mensagens, implementar ciclos de gestão de dados, automatizar processos técnicos e muito mais.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a9fbf0479019dfbe2964c517a0370f015d0f380a
+source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 7%
+source-wordcount: '539'
+ht-degree: 8%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 7%
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#workflow-activities">atividades de fluxo de trabalho</a></p></td><td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="../../automating/using/workflow-created-query-with-complement.md">Casos de uso</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">Filtrar dados</a></p></td>
+<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#workflow-activities">Atividades de fluxo de trabalho</a></p></td><td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="../../automating/using/workflow-created-query-with-complement.md">Casos de uso</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">Filtrar dados</a></p></td>
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Importar/exportar dados</a></p></td></tr>
 </table>
 
-O Adobe Campaign oferta um ambiente gráfico abrangente que permite projetar processos complexos, incluindo segmentação, execução de campanhas, processamento de arquivos etc. Por exemplo, você pode usar um fluxo de trabalho para baixar um arquivo de um servidor, descompactá-lo e, em seguida, importar seus registros para o banco de dados do Adobe Campaign.
+A Adobe Campaign oferta um ambiente gráfico abrangente que permite projetar processos complexos, incluindo segmentação, execução de campanhas, processamento de arquivos etc. Por exemplo, você pode usar um fluxo de trabalho para baixar um arquivo de um servidor, descompactá-lo e, em seguida, importar seus registros para o banco de dados da Adobe Campaign.
 
 Um fluxo de trabalho também pode envolver usuários atribuindo tarefas ou fazendo com que eles aprovem tarefas executadas. Isso significa que você pode atribuir uma tarefa a um ou vários usuários para trabalhar com conteúdo ou especificar públicos alvos e aprovar provas antes de enviar a mensagem.
 
@@ -39,13 +39,13 @@ Workflows podem ser usados em contextos diferentes, como por exemplo:
 * Importação de dados para o banco de dados de Campanhas.
 * Processos técnicos, como limpeza do banco de dados, recuperação de informações de rastreamento etc.
 
-## atividades de fluxo de trabalho {#workflow-activities}
+## Atividades de fluxo de trabalho {#workflow-activities}
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
 Várias atividades estão disponíveis para ajudá-lo a criar seus workflows.
 
-[atividades](../../automating/using/about-targeting-activities.md) de definição de metas permitem criar um ou mais públicos alvos definindo conjuntos e dividindo ou combinando esses conjuntos usando operações de interseção, união ou exclusão.
+[Atividades](../../automating/using/about-targeting-activities.md) de definição de metas permitem criar um ou mais públicos alvos definindo conjuntos e dividindo ou combinando esses conjuntos usando operações de interseção, união ou exclusão.
 
 Com o [Execution atividade](../../automating/using/about-execution-activities.md), coordene seu fluxo de trabalho e suas atividades, enquanto o [Canal atividade](../../automating/using/about-channel-activities.md) permite combinar canais de comunicação Campaign Standard para criar workflows entre canais.
 
@@ -53,7 +53,7 @@ Finalmente, as atividades [](../../automating/using/about-data-management-activi
 
 Leia mais:
 
-* [Criação de um fluxo de trabalho](../../automating/using/building-a-workflow.md)
+* [Criar um workflow](../../automating/using/building-a-workflow.md)
 * [Execução de um fluxo de trabalho](../../automating/using/about-workflow-execution.md)
 * [Práticas recomendadas do fluxo de trabalho](../../automating/using/best-practices-workflows.md)
 
@@ -67,7 +67,7 @@ O editor de query vem com **filtros predefinidos e regras** para uma filtragem r
 
 Leia mais:
 
-* [Editar consultas](../../automating/using/editing-queries.md)
+* [Edição de consultas](../../automating/using/editing-queries.md)
 * [Edição de expressão avançada](../../automating/using/advanced-expression-editing.md)
 * [Lista de funções](../../automating/using/list-of-functions.md)
 
@@ -77,7 +77,7 @@ Leia mais:
 
 O Campaign Standard vem com vários recursos **de** gestão de dados para importar e exportar dados.
 
-[As atividades](../../automating/using/about-data-management-activities.md) de gestão de dados de Workflows permitem importar dados, executar atualizações em massa em campos, receber ou enviar arquivos ou vincular dados não identificados aos recursos existentes.
+[As atividades](../../automating/using/about-data-management-activities.md) de gestão de dados de workflows permitem importar dados, executar atualizações em massa em campos, receber ou enviar arquivos ou vincular dados não identificados aos recursos existentes.
 
 Com [Templates de importação](../../automating/using/importing-data-with-import-templates.md), gerencie certos tipos de importação definidos pelos administradores por meio de funções de importação simplificadas.
 
@@ -96,4 +96,4 @@ Leia mais:
 
 * [Vídeos de tutoriais de gestões de dados e processos](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/getting-started/create-workflow.html)
 * [Fluxos de trabalho técnicos](../../administration/using/technical-workflows.md)
-* [Introdução ao modelo de dados Campaign Standard](../../developing/using/get-started-data-model.md)
+* [Introdução ao modelo de dados do Campaign Standard](../../developing/using/get-started-data-model.md)
