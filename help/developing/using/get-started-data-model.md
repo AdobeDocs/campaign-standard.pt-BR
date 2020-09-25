@@ -1,6 +1,6 @@
 ---
-title: Introdução ao modelo de dados Campaign Standard
-description: Estenda o modelo de dados Campaign Standard com seus próprios campos e recursos e monitore todas as alterações no modelo de dados em uma única visualização.
+title: Introdução ao modelo de dados do Campaign Standard
+description: Acesse a descrição integrada do modelo de dados, estenda o modelo de dados Campaign Standard com campos e recursos personalizados e monitore todas as alterações no modelo de dados em uma única visualização.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,15 +12,15 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 11%
+source-wordcount: '357'
+ht-degree: 15%
 
 ---
 
 
-# Introdução ao modelo de dados Campaign Standard {#get-started-data-model}
+# Introdução ao modelo de dados do Campaign Standard {#get-started-data-model}
 
 <table>
 <tr>
@@ -64,10 +64,10 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-Com as APIs do Campaign Standard, crie integrações para o Adobe Campaign Standard e construa seu próprio ecossistema ao interligar a Campanha com o painel de tecnologias que você usa. [Introdução às APIs REST do Campaign Standard](../../api/using/get-started-apis.md)
+Com as APIs de Campaign Standard, crie integrações para Adobe Campaign Standard e construa seu próprio ecossistema, interagindo a Campanha com o painel de tecnologias que você usa. [Introdução às APIs REST do Campaign Standard](../../api/using/get-started-apis.md)
 
 ## Recursos adicionais
 
 * [Sobre o Conector de dados da Adobe Experience Platform](../../developing/using/aep-about-data-connector.md)
 * [Criação de recursos personalizados (vídeo)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/developing/custom-resources-develop/creating-custom-resources.html)
-* [Exportar / importar recursos personalizados](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
+* [Exportação/importação de recursos personalizados](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
