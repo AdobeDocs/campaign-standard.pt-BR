@@ -1,6 +1,6 @@
 ---
-title: Introdução às integrações de Campanhas
-description: O Adobe Campaign permite que você use outras soluções da Adobe e combine seus diferentes recursos.
+title: Introdução às integrações do Campaign
+description: Saiba como combinar os recursos de gestão de campanha avançados do Adobe Campaign com um conjunto de soluções criadas para ajudar a personalizar a experiência de seus usuários, como Adobe Analytics, Experience Manager, Público alvo, Dreamweaver e muito mais.
 page-status-flag: never-activated
 uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 18%
+source-wordcount: '656'
+ht-degree: 21%
 
 ---
 
@@ -24,21 +24,21 @@ ht-degree: 18%
 
 Esta seção detalha as integrações funcionais disponíveis entre a versão atual do Adobe Campaign e outras soluções e serviços.
 
-As diferentes integrações apresentadas abaixo permitem combinar o delivery e as funcionalidades avançadas de gestão de campanha com um conjunto de soluções criadas para ajudar a personalizar a experiência dos usuários.
+As diferentes integrações apresentadas abaixo permitem combinar o delivery e as funcionalidades avançadas de gestão de campanha da Adobe Campaign com um conjunto de soluções criadas para ajudar a personalizar a experiência dos usuários.
 
 >[!NOTE]
 >
-> Por padrão, o Adobe Campaign já está vinculado a uma conta da Adobe Experience Cloud.
+> Por padrão, a Adobe Campaign já está vinculada a uma conta Adobe Experience Cloud.
 
 Dependendo do seu ambiente, outras soluções também podem ser vinculadas à Adobe Experience Cloud. Eles são vinculados como organizações (também chamados de locatários).
 
 Uma organização é a entidade que permite a um administrador configurar grupos e usuários e controlar o logon único na Experience Cloud. A organização funciona como uma empresa de login que abrange todos os produtos e soluções da Experience Cloud. Na maioria das vezes, uma organização é o nome da sua empresa. No entanto, uma empresa pode ter muitas organizações. O gerenciamento de usuários e organizações é detalhado no portal [de ajuda da](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html)Adobe Experience Cloud.
 
-Se você quiser integrar fluxos de dados de outros sistemas com o Adobe Campaign, consulte nossa documentação [da](../../api/using/get-started-apis.md)API.
+Se você quiser integrar fluxos de dados de outros sistemas com a Adobe Campaign, consulte nossa documentação [de](../../api/using/get-started-apis.md)API.
 
 >[!NOTE]
 >
->O Adobe Campaign Standard também pode se conectar ao Microsoft Dynamics 365: essa integração permite a sincronização de todos os dados de contato disponíveis no sistema CRM, disponibilizando todos os dados de contato relevantes para atividades de campanha. Para obter mais informações sobre essa integração, consulte [Trabalhar com a Campanha e o Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
+>A Adobe Campaign Standard também pode se conectar ao Microsoft Dynamics 365: essa integração permite a sincronização de todos os dados de contato disponíveis no sistema CRM, disponibilizando todos os dados de contato relevantes para atividades de campanha. Para obter mais informações sobre essa integração, consulte [Trabalhar com a Campanha e o Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
 
 <table> 
@@ -58,7 +58,7 @@ Se você quiser integrar fluxos de dados de outros sistemas com o Adobe Campaign
     </td> 
   </tr> 
   <tr> 
-   <td> Target<br /> Classic, Standard<br /> </td> 
+   <td> Público alvo<br /> Classic, Standard<br /> </td> 
    <td> Allows you to insert images that are dynamically computed by Adobe Target when an email created and sent by Adobe Campaign is opened.<br /> </td> 
    <td> 
     <a href="../../integrating/using/about-campaign-target-integration.md">Trabalhe com Campanha e Público alvo</a> , <br/>integre Campanha e Público alvo <a href="https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html">,</a><br/>Personalize imagens de e-mail em vídeo em tempo <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html"></a> real (etapa 3)
@@ -68,12 +68,12 @@ Se você quiser integrar fluxos de dados de outros sistemas com o Adobe Campaign
    <td> Analytics<br /> Standard, Premium <br /> </td> 
    <td> Permite rastrear o sucesso de seus delivery de email diretamente no Adobe Analytics.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-analytics-integration.md">Compartilhe dados de Campanha com a Analytics</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">compartilhe KPIs para vídeo integrado de relatórios</a> de Campanha (etapa 1)
+    <a href="../../integrating/using/about-campaign-analytics-integration.md">Compartilhe dados de Campanha com o Analytics</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">compartilhe KPIs para vídeo integrado do relatórios</a> de Campanha (etapa 1)
     </td> 
   </tr> 
   <tr> 
-   <td> Serviço principal de Adobe Audience Manager e pessoas (Perfis e Audiências)<br /> </td> 
-   <td> Permita a troca de audiências com os diferentes aplicativos da Adobe Experience Cloud que você usa.<br /> </td> 
+   <td> Serviço principal para Adobe Audience Manager e Pessoas (Perfis e Audiências)<br /> </td> 
+   <td> Permita a troca de audiências com os diferentes aplicativos Adobe Experience Cloud que você usa.<br /> </td> 
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">Serviço principal de pessoas (Perfis e Audiências)</a><br /> </td> 
   </tr> 
   <tr> 
@@ -83,8 +83,8 @@ Se você quiser integrar fluxos de dados de outros sistemas com o Adobe Campaign
   </tr> 
   <tr> 
    <td> Pontos de interesse (Analytics para dispositivos móveis)<br /> </td> 
-   <td> Permite coletar dados de Pontos de interesse dos assinantes do aplicativo móvel para enviar mensagens de marketing personalizadas com o Adobe Campaign.<br /> </td> 
-   <td> <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">Enviar mensagens de marketing baseadas em localização com dados</a> de Campanha e Pontos de interesse (Analytics for Mobile)<br /> </td> 
+   <td> Permite coletar dados de Pontos de interesse dos assinantes do aplicativo móvel para enviar mensagens de marketing personalizadas com a Adobe Campaign.<br /> </td> 
+   <td> <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">Enviar mensagens de marketing baseadas em localização com dados</a> de Campanha e Pontos de interesse (Analytics para dispositivos móveis)<br /> </td> 
   </tr> 
   <tr> 
    <td> Experience Cloud Triggers<br /> </td> 
@@ -95,15 +95,15 @@ Se você quiser integrar fluxos de dados de outros sistemas com o Adobe Campaign
   </tr> 
   <tr> 
    <td> Dreamweaver<br /> </td> 
-   <td> Permite editar um conteúdo de email do Dreamweaver e sincronizá-lo com o Adobe Campaign.<br /> </td> 
+   <td> Permite que você edite um conteúdo de email da Dreamweaver e sincronize-o com a Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Criar emails personalizados com vídeo do Dreamweaver</a> <br/>, <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Usar extensão de Campanha para o Dreamweaver</a> 
+    <a href="https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">Criar emails personalizados com vídeo Dreamweaver</a> <br/>, <a href="https://helpx.adobe.com/br/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Usar extensão de Campanha para Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 
    <td> SDKs Experience Platform<br /> </td> 
    <td> Permite a automação do processo de ativação de propriedades do aplicativo móvel no Adobe Campaign usando os SDKs Experience Platform.<br /> </td> 
-   <td> <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">Configurar um aplicativo móvel usando SDKs Experience Platform</a><br /> </td> 
+   <td> <a href="https://helpx.adobe.com/br/campaign/kb/configuring-app-sdk.html">Configurar um aplicativo móvel usando SDKs Experience Platform</a><br /> </td> 
   </tr> 
  </tbody> 
 </table>
