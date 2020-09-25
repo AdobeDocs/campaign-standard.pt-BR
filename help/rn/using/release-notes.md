@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 893cd3a07063f8349dfeeae0f3274a6f54bf04f7
+source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
 source-wordcount: '2441'
 ht-degree: 4%
@@ -116,7 +116,7 @@ ht-degree: 4%
 * Ao publicar um recurso personalizado, um pop-up de confirmação é exibido depois da preparação.
 * A mensagem pop-up que aparece quando um recurso personalizado falha foi melhorada para maior clareza.
 * O editor de expressões em workflows foi aprimorado para evitar erros de execução. [Novas funções](../../automating/using/customizing-workflow-external-parameters.md) estão disponíveis: eles podem ser usados em todas as atividades que permitem usar variáveis de evento depois de chamar um fluxo de trabalho com parâmetros externos. Além disso, uma dica de ferramenta agora é exibida no editor de expressões com a descrição da função.
-* Foram adicionados novos filtros à lista de eventos transacionais. Eles permitem que você filtre as configurações do evento de acordo com seu status, bem como a última vez que um evento foi recebido.
+* [Novos filtros](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events) foram adicionados à lista de eventos transacionais. Eles permitem que você filtre as configurações do evento de acordo com seu status, bem como a última vez que um evento foi recebido.
 * Os registros exibidos ao exportar pacotes foram tornados mais específicos e detalhados sobre os erros encontrados em caso de falha.
 * Depois de enviar uma mensagem, agora é possível pesquisar, filtrar e exportar a lista de URLs [](../../sending/using/tracking-messages.md)rastreados.
 * A [sincronização automática entre o Launch e a Campanha](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) agora está ativada por padrão no GA.
