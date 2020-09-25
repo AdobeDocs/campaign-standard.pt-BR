@@ -1,6 +1,6 @@
 ---
 title: Introdução ao relatórios dinâmico
-description: Com relatórios dinâmicos, arraste e solte variáveis e dimensões em seu ambiente de forma livre e analise o sucesso de suas campanhas.
+description: Acesso a relatórios do delivery integrados da Campanha e arraste e solte variáveis e dimensões para criar novos relatórios dinâmicos e analisar o sucesso das campanhas.
 page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 787d1cb906acfba5887e6090f1d6b854bd096b0c
+source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '362'
 ht-degree: 12%
 
 ---
