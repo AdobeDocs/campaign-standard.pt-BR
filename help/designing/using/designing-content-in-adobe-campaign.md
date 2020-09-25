@@ -1,6 +1,6 @@
 ---
 title: Design de conteúdo no Adobe Campaign
-description: Saiba mais sobre todos os elementos que você pode definir em seu conteúdo com o Adobe Campaign.
+description: Use o Designer de e-mail de Campanha para criar e-mails cativantes e adaptados individualmente por meio de uma interface de arrastar e soltar. A partir de uma apresentação em branco, ou aproveitando fragmentos ou modelos de conteúdo existentes, projete e refine todo o conteúdo para cada email
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+source-git-commit: 3859c91e4aa083d897c02769495113f62e071f3c
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1162'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 Depois de criar um email no Adobe Campaign, é necessário definir seu conteúdo.
 
-O Designer de e-mail permite que você crie e-mails cativantes e adaptados individualmente por meio de uma interface de arrastar e soltar aumentada por integrações de Creative Cloud nativas. Esteja você iniciando em branco ou aproveitando fragmentos ou modelos de conteúdo existentes, projete e refine todo o conteúdo de cada email, seja promocional ou transacional.
+O Designer de e-mail permite que você crie e-mails cativantes e adaptados individualmente por meio de uma interface de arrastar e soltar. Esteja você iniciando em branco ou aproveitando fragmentos ou modelos de conteúdo existentes, projete e refine todo o conteúdo de cada email, seja promocional ou transacional.
 
 Criado para fornecer HTML otimizado para design responsivo, o Email Designer permite que você defina e aplique facilmente condições de visibilidade e conteúdo dinâmico a um email, modelo ou fragmento diretamente pela interface do usuário. Você pode alternar perfeitamente entre a interface de arrastar e soltar e o código HTML ao clicar em um botão.
 
