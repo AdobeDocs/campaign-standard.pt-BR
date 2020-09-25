@@ -1,6 +1,6 @@
 ---
 title: Introdução a testes e envios
-description: Descubra as diferentes etapas para testar e enviar uma mensagem.
+description: Saiba como preparar e testar suas mensagens, agendar, enviar e monitorar, compreender o gerenciamento de falhas e quarentenas e otimizar a entrega.
 page-status-flag: never-activated
 uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
+source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 13%
+source-wordcount: '586'
+ht-degree: 12%
 
 ---
 
@@ -45,7 +45,7 @@ A preparação **da** mensagem de Campaign Standard analisa o público alvo, a p
 
 Aproveite os recursos de agendamento de Campanha para definir quando suas mensagens serão enviadas. Por exemplo, você pode adaptar o envio no fuso horário do recipient, otimizar a hora de envio ou calcular a data de envio.
 
-Use **tipologias** para verificar, durante a preparação, se a mensagem é válida e atende aos seus critérios de qualidade por meio de regras de fadiga, controle e definição de metas. Por exemplo, para verificar se seus emails sempre contêm uma linha de assunto ou para excluir os canceladores dos recipient de mensagem.
+Use **tipologias** para verificar durante a preparação se a mensagem é válida e atende aos seus critérios de qualidade por meio de regras de fadiga, controle e definição de metas. Por exemplo, para verificar se seus emails sempre contêm uma linha de assunto ou para excluir os canceladores dos recipient de mensagem.
 
 Leia mais:
 
