@@ -1,6 +1,6 @@
 ---
 title: Introdução a canais de comunicação
-description: Saiba como enviar mensagens personalizadas em vários canais e criar campanhas entre canais para melhor público alvo de seus recipient.
+description: Saiba como criar mensagens personalizadas em vários canais (email, notificações por push, no aplicativo, SMS e mala direta). Descubra como usar modelos, criar landings page e verificar as práticas recomendadas do delivery.
 page-status-flag: never-activated
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '532'
 ht-degree: 16%
 
 ---
