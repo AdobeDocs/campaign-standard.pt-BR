@@ -1,6 +1,6 @@
 ---
 title: Introdução à administração do Campaign Standard
-description: Descubra como gerenciar usuários, definir funções e conceder permissões; saiba mais sobre as diretrizes de monitoramento, configurações específicas do canal e configurações do aplicativo, como target mapping, workflows técnicos, marca, retenção de dados e muito mais.
+description: Descubra os usuários e o gerenciamento de permissões, as diretrizes de monitoramento, as configurações específicas do canal e as diretrizes de configuração do aplicativo.
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 12674de42a9c6f4439a485b67a9aa0fecd32ba25
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '650'
 ht-degree: 14%
 
 ---
