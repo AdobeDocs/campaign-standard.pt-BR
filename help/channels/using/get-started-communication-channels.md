@@ -1,6 +1,6 @@
 ---
 title: Introdução a canais de comunicação
-description: Crie mensagens personalizadas em vários canais, use modelos, crie landings page e verifique as práticas recomendadas dos delivery.
+description: Crie mensagens personalizadas em vários canais, use modelos, crie landings page e verifique as práticas recomendadas.
 page-status-flag: never-activated
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 5636b2ab5a673b0a52158b1a5411e090e4b45ca7
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 16%
+source-wordcount: '517'
+ht-degree: 17%
 
 ---
 
