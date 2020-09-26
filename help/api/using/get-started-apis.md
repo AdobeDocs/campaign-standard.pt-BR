@@ -1,6 +1,6 @@
 ---
 title: Introdução às APIs do Campaign Standard
-description: As APIs de Campaign Standard têm o objetivo de permitir que você crie integrações e construa seu próprio ecossistema, interagindo a Campanha com o painel de tecnologias que você usa.
+description: Crie integrações e construa seu próprio ecossistema ao interligar a Campanha com um painel de tecnologias.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 20%
+source-wordcount: '233'
+ht-degree: 21%
 
 ---
 
