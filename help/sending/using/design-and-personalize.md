@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa77208174960a67c67af8a6de7edbbff47355a0
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 86%
@@ -142,4 +142,4 @@ Para serem acessadas de fora, as imagens usadas em emails e recursos públicos v
 
 A Adobe recomenda visualizar a mensagem para verificar a personalização e como os recipients verão o delivery.
 
-* In the Email designer, the **[!UICONTROL Preview]** button lets you view the rendering of each content for a recipient. Os campos de personalização e os elementos condicionais do conteúdo são substituídos pelas informações correspondentes para o perfil selecionado. [Saiba mais](../../sending/using/previewing-messages.md)
+In the Email designer, the **[!UICONTROL Preview]** button lets you view the rendering of each content for a recipient. Os campos de personalização e os elementos condicionais do conteúdo são substituídos pelas informações correspondentes para o perfil selecionado. [Saiba mais](../../sending/using/previewing-messages.md)
