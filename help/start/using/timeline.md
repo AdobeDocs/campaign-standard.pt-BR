@@ -12,11 +12,11 @@ discoiquuid: 53e3db10-5fed-4fc3-b41e-5226f1e05246
 context-tags: campaignCalendar,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
-source-wordcount: '380'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 91%
 
 ---
 
@@ -35,7 +35,10 @@ Cada programa é representado por uma caixa contendo a miniatura e o rótulo cor
 
 A linha vertical azul é um marcador cronológico para realçar a data atual. Por padrão, ele é encontrado no meio da tela. Você pode rolar a tela para a direita ou para a esquerda para modificar o período exibido.
 
-Os botões ![](assets/timeline_zoom_in.png) e ![](assets/timeline_zoom_out.png) permitem aumentar ou reduzir o perímetro. O botão ![](assets/timeline_zoom_in.png) também aumenta o nível de detalhes por um período mais limitado, até que os dias sejam exibidos, e o botão ![](assets/timeline_zoom_out.png) permite exibir um período maior.
+Use os ícones para;
+
+* ![](assets/timeline_zoom_in.png) reduzir o perímetro ou aumentar o nível de detalhes por um período mais limitado, até que os dias sejam exibidos
+* ![](assets/timeline_zoom_out.png) aumentar o perímetro ou exibir um período maior
 
 Clique na seta à direita de cada nome de programa para exibir o conteúdo correspondente. Um programa pode conter subprogramas, campanhas e landing pages. Uma campanha é implantada da mesma forma que um programa e pode conter emails, SMS e landing pages.
 
@@ -49,12 +52,12 @@ Quando o conteúdo de um programa ou de uma campanha é exibido, a caixa corresp
 
 Cada elemento tem um ícone que corresponde ao seu tipo:
 
-* ![](assets/timeline_program_icon.png) : Programa
-* ![](assets/timeline_campaign_icon.png) : Campanha
-* ![](assets/timeline_lp_icon.png) : Landing page
-* ![](assets/timeline_email_icon.png) : Email
-* ![](assets/timeline_sms_icon.png) : SMS
-* ![](assets/timeline_push_icon.png) : Notificações por push
+* ![](assets/timeline_program_icon.png) Programa
+* ![](assets/timeline_campaign_icon.png) Campanha
+* ![](assets/timeline_lp_icon.png) Landing page
+* ![](assets/timeline_email_icon.png) Email
+* ![](assets/timeline_sms_icon.png) SMS
+* ![](assets/timeline_push_icon.png) Notificações por push
 
 A linha colorida na borda esquerda de cada caixa indica o status do elemento em questão.
 
