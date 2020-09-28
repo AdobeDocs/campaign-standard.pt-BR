@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 28%
@@ -25,14 +25,14 @@ ht-degree: 28%
 
 ## Visão geral
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><br><p>Introdução ao conceito de mensagens <b>transacionais</b></p></td>
-<td ><br><p>As mensagens transacionais permitem que você <b>envie mensagens</b> individuais e únicas para seus clientes em tempo real.</p></td>
-<td>Pode ser mensagens de boas-vindas, confirmações de envio de pedidos, modificação de senha etc.</td>
-<td>A Adobe Campaign permite integrar essa funcionalidade a um sistema de informações que envia eventos que serão transformados em mensagens transacionais personalizados.</td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
+
+Introdução ao conceito de mensagens **transacionais**
+
+As mensagens transacionais permitem que você envie mensagens individuais e únicas para seus clientes em tempo real.
+
+Elas podem ser mensagens de boas-vindas, confirmações de envio de pedidos, atualizações de senha etc.
+A Adobe Campaign permite integrar essa funcionalidade a um sistema de informações que envia eventos que serão transformados em mensagens transacionais personalizados.
 
 As mensagens transacionais podem ser enviadas por email, SMS ou notificação por push, dependendo das suas opções. Verifique o contrato de licença.
 
@@ -73,16 +73,30 @@ As mensagens transacionais também estão disponíveis na API do Adobe Campaign 
 
 Dois tipos de mensagens transacionais estão disponíveis no Adobe Campaign:
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><p><a href="../../channels/using/event-transactional-messages.md">Mensagens transacionais de evento</a><br><b> que direcionam um evento</b></p></td>
-<td><p><ul><li>Mensagens transacionais de evento não contêm informações sobre perfis.</li><li>Não são compatíveis com regras <a href="../../sending/using/fatigue-rules.md">de</a> fadiga (mesmo no caso de um enriquecimento com perfis).</li><li>O público alvo do delivery é definido pelos dados contidos no próprio evento.</li></ul></p></td>
-</tr>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><p><a href="../../channels/using/profile-transactional-messages.md">Mensagens transacionais de perfil</a><br><b> que direcionam os perfis do banco de dados de marketing do Adobe Campaign</b></p></td>
-<td><p>Mensagens transacionais de perfis permitem:<ul><li>Apply marketing <a href="../../sending/using/managing-typology-rules.md">typology rules</a> or <a href="../../sending/using/fatigue-rules.md">fatigue rules</a>.</li><li>Incluir o link de unsubscription nas mensagens.</li><li>Adicionar as mensagens transacionais aos relatórios globais do delivery.</li><li>Usar as mensagens transacionais na jornada do cliente.</li></ul></p></td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_event.svg" width="60px">
+
+[Mensagens transacionais de evento](../../channels/using/event-transactional-messages.md) que direcionam um evento.
+
+* Mensagens transacionais de evento não contêm informações sobre perfis.
+
+* Não são compatíveis com regras [de](../../sending/using/fatigue-rules.md) fadiga (mesmo no caso de um enriquecimento com perfis).
+
+* O público alvo do delivery é definido pelos dados contidos no próprio evento.
+
+
+<img src="assets/do-not-localize/icon_profile.svg" width="60px">
+
+[Mensagens transacionais de perfil](../../channels/using/profile-transactional-messages.md) que direcionam os perfis do banco de dados de marketing do Campaign.
+
+Com mensagens transacionais de perfis, você pode:
+
+* Apply [marketing typology rules](../../sending/using/managing-typology-rules.md) or [fatigue rules](../../sending/using/fatigue-rules.md)
+
+* Incluir o link de unsubscription nas mensagens.
+
+* Adicionar as mensagens transacionais aos relatórios globais do delivery.
+
+* Usar as mensagens transacionais na jornada do cliente.
 
 O tipo de mensagem é definido ao configurar o evento que será transformado em mensagem transacional. Consulte [Configuração de mensagens transacionais](../../administration/using/configuring-transactional-messaging.md).
 
@@ -100,53 +114,57 @@ As etapas para a implementação são as seguintes:
 
 ### Etapa 1 - Criar e publicar a configuração do evento {#create-event-configuration}
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_config.svg" width="60px"><br><p><b>Configuração de evento transacional</b></p></td>
-<td><br><p>Configure um evento que será chamado de "abandono do carrinho" e publique essa configuração de evento.</p></td>
-<td>A API que será usada pelo desenvolvedor do site é implantada e um mensagen transacional é criado automaticamente.</td>
-<td>Observe que essa etapa deve ser executada por um usuário com direitos <a href="../../administration/using/users-management.md#functional-administrators">de</a>administração.</td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_config.svg" width="60px">
+
+**Configuração** do evento transacional:
+
+* Configure um evento que será chamado de &quot;abandono do carrinho&quot; e publique essa configuração de evento.
+
+* A API que será usada pelo desenvolvedor do site é implantada e um mensagen transacional é criado automaticamente.
+
+* Observe que essa etapa deve ser executada por um usuário com direitos [de](../../administration/using/users-management.md#functional-administrators)administração.
 
 A criação e a publicação de um evento são apresentadas na seção [Configuração de um evento para enviar uma mensagem transacional de evento](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
 ### Etapa 2 - Editar e publicar o mensagen transacional {#create-transactional-message}
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_notification.svg" width="40px"><br><p><b>Edição de mensagen transacional</b></p></td>
-<td><br><p>Edite e personalize o mensagen transacional, teste-o e publique-o.</p></td>
-<td>O mensagen transacional estará pronto para ser enviado.</td>
-<td>Essa etapa pode ser executada por qualquer usuário de marketing com direitos <a href="../../administration/using/users-management.md#basic-users">de acesso</a>básicos.
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_notification.svg" width="40px">
+
+**Edição de mensagen transacional**
+
+* Edite e personalize o mensagen transacional, teste-o e publique-o.
+
+* O mensagen transacional estará pronto para ser enviado.
+
+* Essa etapa pode ser executada por qualquer usuário de marketing com direitos [de acesso de usuário](../../administration/using/users-management.md#basic-users)padrão.
 
 For more on editing and publishing a transactional message, see [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 ### Etapa 3 - Integrar o acionamento do evento {#integrate-event-trigger}
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_api.svg" width="55px"><br><p><b>Evento acionando a integração</b></p></td>
-<td><br><p>Use a API Mensagens transacionais REST para integrar o evento ao seu site.</p></td>
-<td>O evento será acionado quando um cliente abandonar seu carrinho.</td>
-<td>Esta etapa é executada pelo desenvolvedor do seu site.
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_api.svg" width="55px">
+
+**Evento acionando a integração**
+
+* Use a API Mensagens transacionais REST para integrar o evento ao seu site.&lt;
+
+* O evento será acionado quando um cliente abandonar seu carrinho.
+
+* Esta etapa é executada pelo desenvolvedor do seu site.
 
 Para obter mais informações sobre como integrar o evento ao seu site, consulte Integração [do](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)site.
 
 ### Etapa 4 - delivery de mensagens {#message-delivery}
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p><b>Evento externo proveniente do seu site</b></p></td>
-<td><br><p>Assim que todas essas etapas forem realizadas, a mensagem poderá ser entregue.</p></td>
-<td>Assim que um usuário sair do site sem solicitar os produtos em seu carrinho, o evento de Campanha correspondente será acionado.</td>
-<td>O usuário recebe automaticamente um email de notificação.</td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_channels.svg" width="60px">
+
+**Evento externo proveniente do seu site**
+
+* Assim que todas essas etapas forem realizadas, a mensagem poderá ser entregue.
+
+* Assim que um usuário sair do site sem solicitar os produtos em seu carrinho, o evento de Campanha correspondente será acionado.
+
+* O usuário recebe automaticamente um email de notificação.
 
 ## Principais etapas{#key-steps}
 
@@ -154,7 +172,7 @@ As etapas principais ao criar e gerenciar mensagens transacionais personalizados
 
 ![](assets/message-center-overview.png)
 
-**Tópicos relacionados:**
+## Tópicos relacionados
 
 * [Etapas principais para enviar uma mensagem](../../channels/using/key-steps-to-send-a-message.md)
 * [Introdução a canais de comunicação](../../channels/using/get-started-communication-channels.md)
