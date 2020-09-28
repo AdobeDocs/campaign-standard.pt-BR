@@ -12,7 +12,7 @@ discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 13%
@@ -72,6 +72,7 @@ A empresa enviará uma notificação por push transacional por usuário (identif
    Para obter mais informações sobre como editar um conteúdo de notificação por push, consulte [Criar uma notificação](../../channels/using/preparing-and-sending-a-push-notification.md)por push.
 
 1. Salve as alterações e publique a mensagem. Consulte [Publicação de uma mensagem transacional](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
+
 1. Usando a API REST da Adobe Campaign Standard, envie um evento para um token de registro (ABCDEF123456789), usando um aplicativo móvel (WeFlight), no Android (gcm), que contém os dados de embarque.
 
    ```
@@ -114,13 +115,9 @@ Por exemplo, uma empresa aérea deseja enviar uma última chamada de embarque pa
 
 1. Acesse a mensagem transacional criada para editá-la. Consulte [Mensagens transacionais de evento](../../channels/using/event-transactional-messages.md).
 
-   <!--![](assets/message-center_push_message_profile.png)-->
-
 1. Click the **[!UICONTROL Content]** block to modify your message&#39;s title and body.
 
    Ao contrário das configurações baseadas em eventos em tempo real, você tem acesso direto a todas as informações do perfil para personalizar sua mensagem. Consulte [Inserção de um campo de personalização](../../designing/using/personalization.md#inserting-a-personalization-field).
-
-   <!--![](assets/message-center_push_content_profile.png)-->
 
    Para obter mais informações sobre como editar um conteúdo de notificação por push. Consulte [Criação de uma notificação](../../channels/using/preparing-and-sending-a-push-notification.md)por push.
 
@@ -142,4 +139,3 @@ Por exemplo, uma empresa aérea deseja enviar uma última chamada de embarque pa
    >[!NOTE]
    >
    >Não há campos de token de registro, aplicativo e plataforma de push. Neste exemplo, a reconciliação é executada com o campo de email.
-
