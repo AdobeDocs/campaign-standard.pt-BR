@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
+source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
 workflow-type: tm+mt
-source-wordcount: '2441'
+source-wordcount: '2442'
 ht-degree: 4%
 
 ---
@@ -120,7 +120,6 @@ ht-degree: 4%
 * Os registros exibidos ao exportar pacotes foram tornados mais específicos e detalhados sobre os erros encontrados em caso de falha.
 * Depois de enviar uma mensagem, agora é possível pesquisar, filtrar e exportar a lista de URLs [](../../sending/using/tracking-messages.md)rastreados.
 * A [sincronização automática entre o Launch e a Campanha](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) agora está ativada por padrão no GA.
-* Os mensagens transacionais podem ser enviados com alta prioridade mesmo no caso de uma carga de trabalho significativa de delivery em massa.
 * O tamanho dos pacotes de exportação de fluxo de trabalho foi otimizado com a remoção da exportação de prova de envio.
 * Uma nova mensagem foi adicionada para exibir o tamanho do arquivo baixado na atividade de transferência **de** arquivo.
 * Mensagens de erro para tokens de sessão inválidos foram aprimoradas.
@@ -134,6 +133,7 @@ ht-degree: 4%
 **Correções**
 
 * Correção de um problema que impedia o uso de um link de destino para notificações por push ou mensagens no aplicativo quando o rastreamento era ativado.
+* Correção de um problema em que a alta prioridade em mensagens transacionais não era respeitada no caso de delivery significativos em massa.
 * Correção de um problema que impedia a atribuição de marcas a um email transacional. Várias mensagens de erro podem ser exibidas durante a etapa de publicação. (CAMP-44988)
 * Correção de um problema na interface do usuário do fluxo de trabalho que podia impedir que as informações fossem salvas em campos que solicitavam valores numéricos. (CAMP-44025)
 * Correção de um problema que poderia exibir uma mensagem de erro ao usar uma atividade **de teste** em um fluxo de trabalho de template de importação. (CAMP-42910)
