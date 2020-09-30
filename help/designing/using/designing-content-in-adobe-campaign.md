@@ -12,9 +12,9 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5636b2ab5a673b0a52158b1a5411e090e4b45ca7
+source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1208'
 ht-degree: 4%
 
 ---
@@ -154,6 +154,8 @@ No que diz respeito aos fragmentos, observe o seguinte:
 
 * Ao editar estilos, somente as fontes da Web oficialmente suportadas pela maioria dos clientes de email estarão disponíveis.
 * Os estilos não podem ser salvos como um tema para reutilização futura. Entretanto, o estilo CSS pode ser salvo em um modelo de conteúdo ou em um email. For more on styles, see [this section](../../designing/using/styles.md).
+* A tag meta de quem indicou não é compatível com o Designer de email.
+* Os pares de substitutos, caracteres não incluídos no Plano Multilingue Básico do conjunto de caracteres Unicode, não podem ser armazenados em 2 bytes (16 bits) e precisam ser codificados em 2 caracteres UTF-16. Esses caracteres incluem algumas ideografias CJK, a maioria dos emojis e alguns idiomas.<br>Esses caracteres podem causar alguns problemas de incompatibilidade no texto dinâmico. É necessário realizar testes fortes antes de enviar suas mensagens.
 
 **Tópicos relacionados**
 
