@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
+source-git-commit: 7168162baa26c960475d8c9c613989d0338f95c2
 workflow-type: tm+mt
-source-wordcount: '2442'
+source-wordcount: '2387'
 ht-degree: 4%
 
 ---
@@ -89,7 +89,6 @@ ht-degree: 4%
 * **Melhorias** na execução do fluxo de trabalho (beta): no contexto de uma iniciativa global em torno dos workflows, foram desenvolvidas algumas melhorias importantes para estabilizar o gerenciamento da memória, reduzir a latência e otimizar a memória consumida pelos workflows durante a execução. Esses aprimoramentos estão atualmente na versão beta e só estão disponíveis para um conjunto de clientes. A disponibilidade geral está prevista para o início de 2021.
 * Para melhorar a segurança, o Campaign agora usa um mecanismo **de** assinatura para rastrear links em emails.
 * A configuração do aplicativo móvel foi aprimorada com mensagens **de erro** mais claras ao carregar certificados do iOS ou chaves do Android.
-* Um **novo mapeamento** de delivery (mapRtEventAppSubRcp) agora está disponível para perfis de definição de metas de mensagens de push transacionais. O delivery, a exclusão e os logs de rastreamento desses delivery agora estarão disponíveis nas tabelas wideLogAppSubRcp, excludeLogAppSubRcp e trackingLogAppSubRcp. Isso resolve um problema que causava a falha da análise do delivery ao enviar uma mensagem de push transacional usando a dimensão do público alvo do **Perfil** .
 * **O gerenciamento** de erros de SMS foi aprimorado para evitar que muitos perfis sejam adicionados à lista da quarentena. Por padrão, os erros de SMS agora são configurados como erros de software em vez de erros de hardware. Consulte [esta página](https://helpx.adobe.com/br/campaign/kb/sms-connector-protocol-and-settings.html).
 
 **Aprimoramentos do Email Designer**
