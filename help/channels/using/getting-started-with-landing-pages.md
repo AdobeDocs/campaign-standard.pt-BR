@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
+source-git-commit: 32f3b8ac0108bbce10e443c39f1f766ddf97db84
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 99%
@@ -95,9 +95,9 @@ Por motivos de segurança e desempenho da plataforma, recomendamos que você def
 
    ![](assets/lp-steps3.png)
 
-   >[!NOTE]
-   >
-   >Suas modificações só terão efeito para a landing page que está sendo editada. Se quiser aplicar essas modificações a outras landing pages, você poderá executá-las em um template dedicado e criar outras landing pages com base nesse template.
+>[!NOTE]
+>
+>Suas modificações só terão efeito para a landing page que está sendo editada. Se quiser aplicar essas modificações a outras landing pages, você poderá executá-las em um template dedicado e criar outras landing pages com base nesse template.
 
 ## Etapa 3: criar a landing page {#design-the-landing-page}
 
