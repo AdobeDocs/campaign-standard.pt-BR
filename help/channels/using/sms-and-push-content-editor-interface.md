@@ -12,9 +12,9 @@ discoiquuid: 4e214eb9-d299-4095-b786-8d1de9b1c8a2
 context-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ A barra de ação contém botões diferentes que permitem a interação com o co
   <tr> 
    <th> Ícone<br /> </th> 
    <th> Nome do botão<br /> </th> 
-   <th> Canal<br /> </th> 
+   <th> Canal <br /> </th> 
    <th> Descrição<br /> </th> 
   </tr> 
  </thead> 
@@ -96,4 +96,3 @@ O editor de conteúdo de SMS e push oferece as seguintes funcionalidades:
 * Adição de um bloco de conteúdo. Para saber mais, consulte [Adição de um bloco de conteúdo](../../designing/using/personalization.md#adding-a-content-block).
 * Adição de texto dinâmico. Para saber mais, consulte [Definição de texto dinâmico](../../channels/using/defining-dynamic-text.md).
 * Personalização do nome do remetente de SMS (somente SMS). Para saber mais, consulte [Configuração de SMS](../../administration/using/configuring-sms-channel.md#configuring-sms-properties).
-
