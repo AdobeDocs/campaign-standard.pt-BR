@@ -11,11 +11,11 @@ topic-tags: campaign-standard-release-planning
 discoiquuid: null
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b0c98e54893f1de5f378c74cec5182b1132ca995
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '458'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Todas as datas de lançamento estão sujeitas a alterações: recomendamos que v
 
 **NOVO!** Assine as [notificações de versão do Campaign Standard](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) para receber detalhes sobre as próximas versões diretamente na sua caixa de entrada.
 
-## Versão 20.4 - Versão de outubro {#release-20-4-oct-release}
+## Versão 20.4 – Versão de outubro {#release-20-4-oct-release}
 
 As atualizações de ambientes ocorrem em ondas, durante os intervalos de tempo indicados abaixo. Informações detalhadas sobre esta versão estão disponíveis nas [Notas de versão](../../rn/using/release-notes.md). Caso tenha mais dúvidas, entre em contato com o [Atendimento ao cliente da Adobe](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html).
 
@@ -46,11 +46,11 @@ As atualizações de ambientes ocorrem em ondas, durante os intervalos de tempo 
  <tbody>
   <tr>
    <td>Preparo<br /> </td>
-   <td>21-23 de setembro de 2020<br /> </td>
+   <td>De 21 a 23 de setembro de 2020<br /> </td>
   </tr>
   <tr>
    <td> Produção<br /> </td>
-   <td>28 de setembro - 5 de out de 2020<br /> </td>
+   <td>De 28 de setembro a 5 de outubro de 2020<br /> </td>
   </tr>
  </tbody>
 </table>
