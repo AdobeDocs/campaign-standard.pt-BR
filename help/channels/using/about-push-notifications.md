@@ -13,7 +13,7 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f9632e88b49c2280c76e709376cfb7a7a27abc1f
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '1280'
 ht-degree: 50%
@@ -164,5 +164,5 @@ Consulte esta [página](../../reporting/using/indicator-calculation.md#push-noti
 
 Sim, os deep links são suportados em mensagens de push. Os deep links devem incluir:
 
-* idioma que declara que o rastreamento de delivery precisa ser desativado para que os deep links funcionem.
+* Idioma que indica que o rastreamento de delivery precisa ser desativado para que os deep links funcionem.
 * Appsflyer com Branch como parceiros que podem fazer o rastreamento de deep link. Para obter mais informações sobre a integração entre o Branch e o Adobe Campaign Standard, consulte esta [página](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
