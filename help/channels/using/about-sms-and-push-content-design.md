@@ -12,9 +12,9 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 context-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
 
@@ -46,4 +46,3 @@ Para acessar o editor de conteúdo de SMS e notificação por push:
 
 * [Criar uma mensagem SMS](../../channels/using/creating-an-sms-message.md)
 * [Criação e envio de uma notificação por push](../../channels/using/preparing-and-sending-a-push-notification.md)
-
