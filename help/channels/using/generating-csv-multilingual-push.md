@@ -12,7 +12,7 @@ discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 772393c135b96374cb510a3d96e3c781274e857e
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 0%
@@ -28,22 +28,20 @@ Fazer upload de um arquivo CSV para gerar conteúdo para o delivery é um recurs
 
 O envio multilíngue requer 14 colunas no arquivo CSV:
 
-* título
-* messageBody
-* som
-* emblema
-* deeplinkURI
-* categoria
-* iosMediaAttachmentURL
-* androidMediaAttachmentURL
-* isContentAvailable
-* isMutableContent
-* customFields
-* locale
-* language
-* silentPush
-
-![](assets/multilingual_push_1.png)
+1. título
+1. messageBody
+1. som
+1. adge
+1. deeplinkURI
+1. categoria
+1. iosMediaAttachmentURL
+1. androidMediaAttachmentURL
+1. isContentAvailable
+1. isMutableContent
+1. customFields
+1. locale
+1. language
+1. silentPush
 
 Verifique a amostra CSV clicando **[!UICONTROL Download a sample file]** na janela **[!UICONTROL Manage Content Variants]** . For more on this, refer to the this [section](../../channels/using/creating-a-multilingual-push-notification.md).
 
@@ -128,8 +126,8 @@ Os seguintes idiomas são suportados:
 | az_az | Azeri - Azerbaijão |
 | be_by | Bielorrússia - Bielorrússia |
 | bs_ba | Bósnio - Bósnia |
-| bg_bg | Túnel - Bulgária |
-| localidade | Catalão - Espanha |
+| bg_bg | Búlgaro - Bulgária |
+| ca_es | Catalão - Espanha |
 | zh_cn | Chinês (Simplificado) - China |
 | zh_sg | Chinês (simplificado) - Cingapura |
 | zh_hk | Chinês (Tradicional) - RAE de Hong Kong da China |
@@ -137,29 +135,29 @@ Os seguintes idiomas são suportados:
 | hr_hr | Croata - Croácia |
 | cs_cz | Tcheco - Tcheco |
 | da_dk | Dinamarquês - Dinamarca |
-| nl_be | echner - Bélgica |
+| nl_be | Holandês - Bélgica |
 | nl_nl | Holandês - Países Baixos |
 | en_au | Inglês - Austrália |
 | en_bz | Inglês - Belize |
-| en_ca | en - Canadá |
-| Inglês_in | Inglês - Índia |
+| en_ca | Inglês - Canadá |
+| en_in | Inglês - Índia |
 | en_ie | Inglês - Irlanda |
 | en_jm | Inglês - Jamaica |
 | en_nz | Inglês - Nova Zelândia |
-| _ph | Inglês - Filipinas |
+| en_ph | Inglês - Filipinas |
 | en_za | Inglês - África do Sul |
 | en_tt | Inglês - Trinidad e Tobago |
 | en_gb | Inglês - Reino Unido |
 | en_us | Inglês - Estados Unidos |
 | en_zw | Inglês - Zimbábue |
 | et_ee | Estoniano - Estônia |
-| fi_fi | Finlandês - Finlândia |
+| Francês_fi | Finlandês - Finlândia |
 | fr_be | Francês - Bélgica |
-| fr_ca | Francês - Canadá |
+| fr_ca | de Francês - Canadá |
 | fr_fr | Francês - França |
 | fr_lu | Francês - Luxemburgo |
 | fr_ch | Francês - Suíça |
-| de_at | Alemão - Áustria |
+| _de | Alemão - Áustria |
 | de_de | Alemão - Alemanha |
 | de_lu | Alemão - Luxemburgo |
 | de_ch | Alemão - Suíça |
@@ -188,43 +186,43 @@ Os seguintes idiomas são suportados:
 | pt_pt | Português - Portugal |
 | pa_in | Punjabi - Índia |
 | ro_md | Romeno - Moldávia |
-| ro_ro | _Romeno - Romênia |
+| ro_ro | Romeno - Romênia |
 | ru_kz | Russo - Cazaquistão |
-| ru_ru | l. Russo - Rússia |
-| ru_ua | es. Russo - Ucrânia |
-| Russo_in | Sânscrito - Índia |
-| cr_ba | Sérvio - Bósnia |
+| ru_ru | Russo - Rússia |
+| ru_ua | Russo - Ucrânia |
+| a_in | Sânscrito - Índia |
+| sr_ba | Sérvio - Bósnia |
 | sr_rs | Sérvio - Sérvia |
 | sk_sk | Eslovaco - Eslováquia |
 | sl_si | Esloveno - Eslovênia |
 | es_ar | Espanhol - Argentina |
 | es_bo | Espanhol - Bolívia |
 | es_cl | Espanhol - Chile |
-| Romano_es | a espanhol - Colômbia |
+| es_co | Espanhol - Colômbia |
 | es_cr | Espanhol - Costa Rica |
 | es_do | Espanhol - República Dominicana |
-| Esp_ec | Espanhol - Equador |
+| es_ec | Espanhol - Equador |
 | es_sv | Espanhol - El Salvador |
 | es_gt | Espanhol - Guatemala |
 | es_hn | Espanhol - Honduras |
 | es_mx | Espanhol - México |
 | es_ni | Espanhol - Nicarágua |
-| es_pa | Espanhol - Panamá |
-| es_py | Espanhol - Paraguai |
-| Panes_pe | Espanhol - Peru |
+| Espa_pa | Espanhol - Panamá |
+| _py | Espanhol - Paraguai |
+| es_pe | Espanhol - Peru |
 | es_pr | Espanhol - Porto Rico |
-| es_es | Espanhol - Espanha |
-| es_uy | Espanhol - Uruguai |
-| es_ve | Espanhol - Venezuela |
+| es_es | es - Espanha |
+| es_uy | se Espanhol - Uruguai |
+| Espe_ve | v. Espanhol - Venezuela |
 | sw_ke | Suaíli - Quênia |
 | sv_fi | Sueco - Finlândia |
-| sv_se | Sueco - Suécia |
-| ta_in | Tamil - Índia |
+| sv_se | ta - Suécia |
+| - Ta_in | Tamil - Índia |
 | tt_ru | Tártaro - Russo |
-| Sujeita_in | Telugu - Índia |
-| Tailândia_th | se |
-| tr_cy | Turco - Chipre |
-| tr_tr | Turco - Turquia |
+| te_in | Telugu - Índia |
+| th_th | Tailandês - Tailândia |
+| tr_cy | es turcos - Chipre |
+| es_tr | Turco - Turquia |
 | uk_ua | Ucraniano - Ukrain |
 | ur_in | Urdu - Índia |
 | ur_pk | Urdu - Paquistão |
