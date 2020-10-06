@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
 source-wordcount: '6247'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -28,17 +28,17 @@ Além das [Notas de versão](../../rn/using/release-notes.md) do Adobe Campaign,
 
 **Novos recursos incluídos na versão**
 
-Control groups - [Read More](../../sending/using/control-group.md)
+Grupos de controle – [Saiba mais](../../sending/using/control-group.md)
 
-API externa (suporte a OAuth) - [Leia mais](../../automating/using/external-api.md)
+API externa (suporte a OAuth) – [Leia mais](../../automating/using/external-api.md)
 
-Integração da jornada AI - [Leia mais](../../sending/using/predictive.md)
+Integração com o Journey AI – [Leia mais](../../sending/using/predictive.md)
 
 **Outras atualizações de documentação incluídas na versão**
 
-A seção sobre como chamar um fluxo de trabalho com parâmetros externos foi aprimorada com novas funções disponíveis no Editor de Expressões. [Leia mais](../../automating/using/customizing-workflow-external-parameters.md)
+A seção sobre como chamar um workflow com parâmetros externos foi aprimorada com novas funções disponíveis no Editor de expressão. [Leia mais](../../automating/using/customizing-workflow-external-parameters.md)
 
-Uma recomendação foi adicionada às práticas recomendadas de workflows no número de atividades a serem usadas por fluxo de trabalho. [Leia mais](../../automating/using/best-practices-workflows.md#number-activities)
+Uma recomendação foi adicionada às práticas recomendadas de workflows no número de atividades a serem usadas por workflow. [Leia mais](../../automating/using/best-practices-workflows.md#number-activities)
 
 Uma nova seção sobre as práticas recomendadas do Delivery foi adicionada. [Leia mais](../../sending/using/delivery-best-practices.md)
 
@@ -46,49 +46,49 @@ Uma seção foi adicionada para descrever os novos filtros que permitem pesquisa
 
 ## Atualizações de documentação - Setembro de 2020 {#doc-updates-september-2020}
 
-A seção mensagens transacionais do Evento foi reorganizada e clarificada. [Leia mais](../../channels/using/event-transactional-messages.md)
+A seção mensagens transacionais do evento foi reorganizada e explicada. [Leia mais](../../channels/using/event-transactional-messages.md)
 
 Uma nota de advertência foi adicionada para avisar os usuários sobre a limitação de permissões relacionada ao acesso ao log. [Leia mais](../../administration/using/users-management.md)
 
 Uma nova seção foi adicionada para detalhar o processo de criação de uma nova marca. [Leia mais](../../administration/using/branding.md#creating-a-brand)
 
-A nova integração Campaign Standard - Microsoft Dynamics 365 está disponível. [Leia mais](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+Está disponível a nova integração entre o Campaign Standard e o Microsoft Dynamics 365. [Leia mais](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 Foram adicionadas informações sobre fontes anônimas no relatório perfis ativos. [Leia mais](../../audiences/using/active-profiles.md)
 
 ## Atualizações da documentação - Agosto de 2020 {#doc-updates-august-2020}
 
-Uma nova seção atualizada sobre como começar a usar mensagens transacionais está disponível. [Leia mais](../../channels/using/getting-started-with-transactional-msg.md)
+Está disponível uma nova seção atualizada sobre como começar a usar mensagens transacionais. [Leia mais](../../channels/using/getting-started-with-transactional-msg.md)
 
-A seção de limitações **de mensagens** transacionais foi movida [aqui](../../channels/using/transactional-messaging-limitations.md)
+A seção de **limitações de mensagens transacionais** foi movida [para cá](../../channels/using/transactional-messaging-limitations.md)
 
-A seção **Preparando o envio** foi movida [aqui](../../sending/using/preparing-the-send.md)
+A seção **Preparando o envio** foi movida [para cá](../../sending/using/preparing-the-send.md)
 
 ## Atualizações da documentação - Julho de 2020 {#doc-updates-july-2020}
 
-Uma nova seção foi adicionada com diretrizes relacionadas ao monitoramento de Campaign Standard. [Leia mais](../../administration/using/monitoring-guidelines.md)
+Uma nova seção foi adicionada com diretrizes relacionadas ao monitoramento do Campaign Standard. [Leia mais](../../administration/using/monitoring-guidelines.md)
 
-A seção Detalhes e limitações da API externa foi atualizada. [Leia mais](../../automating/using/external-api.md#guardrails)
+As medidas de proteção e limitações da API externa foram atualizadas. [Leia mais](../../automating/using/external-api.md#guardrails)
 
 A página Visão geral do gerenciamento de privacidade foi atualizada para incluir informações sobre a Lei de Proteção de Dados Pessoais (PDPA) da Tailândia e sobre a Lei Geral de Dados (LGPD) do Brasil. [Leia mais](https://helpx.adobe.com/br/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
-O guia do canal para portáteis foi reorganizado e melhorado. Um novo guia Configuração de canais móveis foi adicionado com documentação técnica sobre configuração móvel. [Leia mais](../../administration/using/push-tracking.md)
+O guia Canal para dispositivos móveis foi reorganizado e melhorado. Um novo guia Configuração de canais móveis foi adicionado com documentação técnica sobre configuração móvel. [Leia mais](../../administration/using/push-tracking.md)
 
-A página Gerenciamento de privacidade no Campaign Standard foi atualizada, incluindo esclarecimentos sobre como gerenciar solicitações de privacidade por meio da integração do Privacy Core Service. [Leia mais](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
+A página Gerenciamento de privacidade no Campaign Standard foi atualizada, incluindo esclarecimentos sobre como gerenciar solicitações de privacidade por meio da integração do Privacy Core Service. [Leia mais](https://helpx.adobe.com/br/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
-Novos recursos de e-mail com IA: envio de otimização de tempo e pontuação de perfis. [Leia mais](../../sending/using/predictive.md)
+Novos recursos de email alimentado por IA: envio de otimização de tempo e pontuação de perfis. [Leia mais](../../sending/using/predictive.md)
 
-## Atualizações da documentação - junho de 2020 {#doc-updates-june-2020}
+## Atualizações da documentação – junho de 2020 {#doc-updates-june-2020}
 
-Os casos de uso do fluxo de trabalho foram atualizados e reorganizados em seções temáticas. [Leia mais](../../automating/using/about-workflow-use-cases.md)
+Os casos de uso do workflow foram atualizados e reorganizados em seções temáticas. [Leia mais](../../automating/using/about-workflow-use-cases.md)
 
 Casos de uso foram adicionados em como [criptografar](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) e [descriptografar](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) dados usando o Painel de controle do Campaign e workflows do Campaign.
 
-As referências ao site de suporte herdado foram substituídas pelo novo URL. [Saiba mais](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
+As referências ao site de suporte herdado foram substituídas pelo novo URL. [Saiba mais](https://helpx.adobe.com/br/campaign/kb/ac-support.html#acs-support-req)
 
-A configuração personalizada da conta Litmus foi removida do recurso de renderização da Caixa de entrada. [Leia mais](../../sending/using/email-rendering.md)
+A configuração personalizada da conta Litmus foi removida do recurso de renderização da caixa de entrada. [Leia mais](../../sending/using/email-rendering.md)
 
-Campaign Standard - A integração do Microsoft Dynamics 365 está indisponível no momento. Um novo conector está sendo desenvolvido e estará disponível no futuro. As páginas de ajuda relacionadas foram removidas. [Leia mais](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+Campaign Standard – a integração do Microsoft Dynamics 365 está indisponível no momento. Um novo conector está sendo desenvolvido e estará disponível no futuro. As páginas de ajuda relacionadas foram removidas. [Leia mais](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 ## Atualizações da documentação - Maio de 2020 {#doc-updates-may-2020}
 
@@ -96,7 +96,7 @@ A página de visão geral do Campaign Standard foi enriquecida e reorganizada po
 
 A seção Parâmetros do canal de emails foi esclarecida com informações adicionais sobre os campos de máscaras autorizadas e a ID de relatórios do delivery. [Leia mais](../../administration/using/configuring-email-channel.md)
 
-A documentação sobre Configuração de um aplicativo para dispositivo móvel usando os SDKs da Adobe Experience Platform está agora disponível na documentação principal. Ela também contém informações sobre o fluxo de trabalho técnico Sincronizar AEPSDK do aplicativo para dispositivo móvel do Launch. [Leia mais](../../administration/using/configuring-a-mobile-application.md)
+A documentação sobre Configuração de um aplicativo para dispositivo móvel usando os SDKs da Adobe Experience Platform agora está disponível na documentação principal. Ela também contém informações sobre o workflow técnico Sincronizar AEPSDK do aplicativo para dispositivo móvel do Launch. [Leia mais](../../administration/using/configuring-a-mobile-application.md)
 
 ## Versão 20.3 - Maio de 2020 {#release-20-3---may-2020}
 
@@ -204,7 +204,7 @@ As Notas de versão foram reorganizadas e aprimoradas. [Leia mais](../../rn/usin
 
 Informações relacionadas ao grupo de segurança Administradores foram atualizadas, especificando que a unidade organizacional **[!UICONTROL All (all)]** está atribuída a ela e não pode ser modificada. [Leia mais](../../administration/using/managing-groups-and-users.md)
 
-Foram adicionadas informações sobre como definir um fuso horário específico para ser usado como padrão em um fluxo de trabalho. [Leia mais](../../automating/using/building-a-workflow.md)
+Foram adicionadas informações sobre como definir um fuso horário específico para ser usado como padrão em um workflow. [Leia mais](../../automating/using/building-a-workflow.md)
 
 Foram adicionadas informações no guia Working with APIs sobre o novo parâmetro **_forcePagination=true**, permitindo a execução de paginação em tabelas grandes. [Leia mais](../../api/using/pagination.md)
 
@@ -220,7 +220,7 @@ A seção Exportar logs foi atualizada para refletir a disponibilidade da ID de 
 
 A documentação de Avaliação do delivery foi atualizada com uma nova seção sobre Certificação de IP. [Leia mais](../../sending/using/ip-certification.md)
 
-Uma nova seção que descreve como criar um fluxo de trabalho de delivery entre canais está disponível. [Leia mais](../../automating/using/workflow-cross-channel-delivery.md)
+Uma nova seção que descreve como criar um workflow de delivery entre canais está disponível. [Leia mais](../../automating/using/workflow-cross-channel-delivery.md)
 
 A seção Cálculo de indicadores para relatórios dinâmicos foi atualizada. [Leia mais](../../reporting/using/indicator-calculation.md)
 
@@ -242,7 +242,7 @@ O guia de introdução sobre como exportar/importar recursos personalizados foi 
 
 ## Atualizações de documentação - Novembro de 2019 {#doc-updates-november-2019}
 
-Um novo caso de uso que descreve como criar um grupo de controle usando um fluxo de trabalho no Campaign Standard foi adicionado.
+Um novo caso de uso que descreve como criar um grupo de controle usando um workflow no Campaign Standard foi adicionado.
 
 Informações relacionadas às propriedades das páginas de aterrissagem foram movidas para uma seção dedicada. [Leia mais](../../channels/using/configuring-landing-page.md)
 
@@ -310,7 +310,7 @@ O guia do Designer de email foi reorganizado. [Leia mais](../../designing/using/
 
 Uma nova seção com casos de uso sobre fluxos de trabalho focados em consultas foi adicionada. [Leia mais](../../automating/using/workflow-created-query-with-complement.md)
 
-Um procedimento foi adicionado na seção Solução de problemas do fluxo de trabalho, sobre como exibir consultas SQL na guia Log. [Leia mais](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
+Um procedimento foi adicionado na seção Solução de problemas do workflow, sobre como exibir consultas SQL na guia Log. [Leia mais](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
 Um novo artigo de ajuda foi adicionado, com informações relacionadas a gerenciamento de subdomínios e gerenciamento de certificados no Painel de controle do Campaign. [Leia mais](https://docs.adobe.com/content/help/pt-BR/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
 
@@ -324,7 +324,7 @@ Uma nova seção sobre como salvar conteúdo de email como modelo no Designer de
 
 Atividade de API externa (Beta público) - [Leia mais](../../automating/using/external-api.md)
 
-Relatório no segmento do fluxo de trabalho - [Leia mais](../../reporting/using/creating-a-report-workflow-segment.md)
+Relatório no segmento do workflow – [Leia mais](../../reporting/using/creating-a-report-workflow-segment.md)
 
 **Outras atualizações de documentação incluídas na versão**
 
@@ -332,9 +332,9 @@ O Guia de implementação do Campaign Standard agora está ativo.[Leia mais](htt
 
 Um conjunto de novos artigos de ajuda foi criado sobre a implementação e o uso do conector do Microsoft Dynamics 365. Observe que esse recurso está atualmente com a Disponibilidade limitada.[Leia mais](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
-Uma observação foi adicionada na seção [Chamado de fluxo de trabalho com parâmetros](../../automating/using/calling-a-workflow-with-external-parameters.md) sobre a preparação do delivery e o período de agregação.
+Uma observação foi adicionada na seção [Chamado de workflow com parâmetros](../../automating/using/calling-a-workflow-with-external-parameters.md) sobre a preparação do delivery e o período de agregação.
 
-Foram adicionadas informações sobre como personalizar um rótulo de delivery com variáveis de evento declaradas na atividade de sinal externo do fluxo de trabalho. [Leia mais](../../automating/using/external-signal.md)
+Foram adicionadas informações sobre como personalizar um rótulo de delivery com variáveis de evento declaradas na atividade de sinal externo do workflow. [Leia mais](../../automating/using/external-signal.md)
 
 Uma nova seção foi adicionada detalhando como criar um usuário no Adobe Campaign Standard. [Leia mais](../../administration/using/users-management.md)
 
@@ -352,7 +352,7 @@ Uma nova seção sobre atualizações recomendadas do Email Designer foi adicion
 
 <!-- A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data) -->
 
-Uma nova seção sobre práticas recomendadas do fluxo de trabalho foi adicionada. [Leia mais](../../automating/using/best-practices-workflows.md)
+Uma nova seção sobre práticas recomendadas do workflow foi adicionada. [Leia mais](../../automating/using/best-practices-workflows.md)
 
 A lista de mensagens de erro do Campaign Standard e do Campaign Classic foi atualizada. [Leia mais](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
@@ -364,7 +364,7 @@ Uma nova página sobre limitações de Páginas de aterrissagem foi adicionada. 
 
 Um caso de uso sobre como chamar um perfil usando uma chave de identificação composta foi adicionado. [Leia mais](../../developing/using/uc-calling-resource-id-key.md)
 
-Uma recomendação foi adicionada sobre o uso de deliveries recorrentes sem período de agregação ao chamar um fluxo de trabalho com parâmetros. [Leia mais](../../automating/using/calling-a-workflow-with-external-parameters.md)
+Uma recomendação foi adicionada sobre o uso de deliveries recorrentes sem período de agregação ao chamar um workflow com parâmetros. [Leia mais](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
 A lista de mensagens de erro do Campaign Standard e do Campaign Classic foi atualizada. [Leia mais](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
@@ -378,7 +378,7 @@ Painel de controle do Campaign - [Leia mais](https://docs.adobe.com/content/help
 
 Notificações locais - [Leia mais](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
-Aprimoramento do fluxo de trabalho - Adicione um payload à atividade de sinal externo - [Leia mais](../../automating/using/calling-a-workflow-with-external-parameters.md)
+Aprimoramento do workflow – Adicione um payload à atividade de sinal externo - [Leia mais](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
 Aprimoramento das Páginas de aterrissagem - Google reCAPTCHA - [Leia mais](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)
 
@@ -404,11 +404,11 @@ A [documentação das APIs REST](../../api/using/get-started-apis.md) foi atuali
 * Uma coleção de solicitações de API pré-projetadas foi disponibilizada, representando casos de uso comuns.
 * Uma nova seção foi adicionada sobre como gerenciar Unidades organizacionais.
 * Foram adicionadas informações sobre como criar um serviço.
-* Foram adicionadas informações sobre como chamar um fluxo de trabalho com parâmetros.
+* Foram adicionadas informações sobre como chamar um workflow com parâmetros.
 
 Foram adicionadas informações sobre a nova atividade **Test**. [Leia mais](../../automating/using/test.md)
 
-O guia de Automatização foi atualizado com links para atividades de fluxo de trabalho relacionadas. [Leia mais](../../automating/using/workflow-interface.md#palette)
+O guia de Automatização foi atualizado com links para atividades de workflow relacionadas. [Leia mais](../../automating/using/workflow-interface.md#palette)
 
 A seção Cálculo de indicadores para relatórios dinâmicos foi atualizada. [Leia mais](../../reporting/using/indicator-calculation.md)
 
@@ -448,7 +448,7 @@ Integração do Launch para aplicativos de dispositivos móveis - [Leia mais](..
 
 Mensagens no aplicativo móvel - [Leia mais](../../channels/using/about-in-app-messaging.md)
 
-Melhorias no fluxo de trabalho - Leia mais [aqui](../../automating/using/workflow-interface.md#duplicating-workflow-activities) e [aqui](../../automating/using/load-file.md#configuration)
+Melhorias no workflow – Leia mais [aqui](../../automating/using/workflow-interface.md#duplicating-workflow-activities) e [aqui](../../automating/using/load-file.md#configuration)
 
 **Outras atualizações de documentação incluídas na versão**
 
@@ -486,7 +486,7 @@ Foram adicionadas informações ao importar campos compostos por colunas com com
 
 Foram adicionadas informações sobre a opção que permite manter as rejeições em um arquivo. Essa opção agora permite aplicar uma etapa de pós-processamento ao arquivo que contém as rejeições. [Leia mais](../../automating/using/load-file.md#configuration)
 
-Adição de uma nova seção sobre como duplicar atividades de fluxo de trabalho por meio de operações de copiar e colar. [Leia mais](../../automating/using/workflow-interface.md#duplicating-workflow-activities)
+Adição de uma nova seção sobre como duplicar atividades de workflow por meio de operações de copiar e colar. [Leia mais](../../automating/using/workflow-interface.md#duplicating-workflow-activities)
 
 Foram adicionadas informações sobre a nova opção das atividades de Query ( [Leia mais](../../automating/using/query-samples.md)) e Segmentação ( [Leia mais](../../automating/using/segmentation.md)), que permitem adicionar uma transição de saída após a atividade, caso a atividade não recupere dados.
 
@@ -510,7 +510,7 @@ Melhorias beta nas Mensagens no aplicativo - [Leia mais](../../channels/using/ab
 
 O guia Design de conteúdo foi atualizado para refletir a disponibilidade geral do Designer de email e a descontinuação do editor herdador de conteúdo de email. [Leia mais](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Updated the [In-App](../../channels/using/about-in-app-messaging.md) and [Push notification](../../channels/using/about-push-notifications.md) documentation.
+Atualização da documentação de [Mensagens no aplicativo](../../channels/using/about-in-app-messaging.md) e [Notificações de push](../../channels/using/about-push-notifications.md).
 
 Foram adicionadas mais informações sobre os diferentes tipos de públicos no Adobe Campaign. [Leia mais](../../audiences/using/about-audiences.md)
 
@@ -620,7 +620,7 @@ Foram adicionadas informações sobre tipos de logs de rastreamento. [Leia mais]
 
 A seção da atividade de consulta foi atualizada com amostras de consultas. [Leia mais](../../automating/using/query.md#query-samples)
 
-A seção dedicada às lista de bloqueios foi renomeada como &quot;Entendendo os processos de aceitação e não participação&quot;. Essa seção foi atualizada com informações sobre como gerenciar aceitações para canais específicos e como configurar páginas de aterrissagem para gerenciar aceitações e recusas. [Leia mais](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+A seção dedicada à inclusão na lista de bloqueios foi renomeada para “Conhecimento sobre os processos de aceitação e recusa”. Essa seção foi atualizada com informações sobre como gerenciar aceitações para canais específicos e como configurar páginas de aterrissagem para gerenciar aceitações e recusas. [Leia mais](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Conheças as práticas recomendadas para usar os servidores SFTP hospedados pela Adobe. [Leia mais](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -644,7 +644,7 @@ Uso de recursos personalizados em mensagens transacionais - [Leia mais](../../ad
 
 A API do GDPR reagrupa recursos que permitem o processamento automático de solicitações do GDPR. [Leia mais](../../api/using/creating-a-privacy-request.md)
 
-Foram adicionadas informações sobre como configurar landings page para que seus recipient possam estar em lista de bloqueios. [Leia mais](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Foram adicionadas informações sobre como configurar landing pages para que seus recipients possam ser incluídos na lista de bloqueios. [Leia mais](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 A seção [Configuração de mensagens transacionais](../../administration/using/configuring-transactional-messaging.md) foi reorganizada e um [caso de uso passo a passo](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) foi adicionado.
 
@@ -694,7 +694,7 @@ A seção que inclui a lista de autorizações foi retirada. [Leia mais](https:/
 
 Um caso de uso passo a passo foi adicionado sobre como usar a resposta automática do SMS. [Leia mais](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
-Foram adicionadas informações sobre como enviar um delivery dependendo dos fusos horários dos usuários em um fluxo de trabalho recorrente. [Leia mais](../../automating/using/recurring-push-notifications.md)
+Foram adicionadas informações sobre como enviar um delivery dependendo dos fusos horários dos usuários em um workflow recorrente. [Leia mais](../../automating/using/recurring-push-notifications.md)
 
 A seção **[!UICONTROL Customizing a push notification]** foi reorganizada com casos de uso passo a passo. [Leia mais](../../channels/using/customizing-a-push-notification.md)
 
@@ -702,7 +702,7 @@ Nova seção dedicada ao gerenciamento de lista de bloqueios. [Leia mais](../../
 
 Informações sobre falhas de delivery e quarentenas foram atualizadas. [Leia mais](../../sending/using/monitoring-a-delivery.md)
 
-Novas seções dedicadas a [mapeamentos de público alvo](../../administration/using/target-mappings-in-campaign.md) e [targeting dimensions e recursos](../../automating/using/query.md#targeting-dimensions-and-resources).
+Novas seções dedicadas a [mapeamentos de público-alvo](../../administration/using/target-mappings-in-campaign.md) e [targeting dimensions e recursos](../../automating/using/query.md#targeting-dimensions-and-resources).
 
 ## Versão 18.1 - Janeiro de 2018 {#release-18-1---january-2018}
 
@@ -726,7 +726,7 @@ Casos de uso foram adicionados para melhor compreensão de grupos e unidades de 
 
 Definições e cálculos de dimensões, métricas e segmentos em relatórios dinâmicos foram aprimorados. [Leia mais](../../reporting/using/list-of-components-.md)
 
-Foram adicionadas informações sobre como recuperar mensagens SMS recebidas com um fluxo de trabalho. [Leia mais](../../administration/using/configuring-sms-channel.md)
+Foram adicionadas informações sobre como recuperar mensagens SMS recebidas com um workflow. [Leia mais](../../administration/using/configuring-sms-channel.md)
 
 Foram adicionadas informações sobre Configurações de historização, da atividade Transfer file. [Leia mais](../../automating/using/transfer-file.md)
 
@@ -766,7 +766,7 @@ A [seção](https://helpx.adobe.com/br/campaign/kb/configuring-app-sdkv4.html) C
 
 A documentação do SMS foi atualizada com alguns esclarecimentos adicionados à seção [Respostas automáticas de SMS](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
-Nova seção dedicada ao gerenciamento de fluxo de trabalho por meio da API. [Leia mais](../../api/using/controlling-a-workflow.md)
+Nova seção dedicada ao gerenciamento de workflow por meio da API. [Leia mais](../../api/using/controlling-a-workflow.md)
 
 Nova seção dedicada às chaves primárias e ao uso de uma ID empresarial como chave na API. [Leia mais](../../api/using/get-started-apis.md)
 
@@ -808,9 +808,9 @@ Documentação adicionada à ID ACS. [Leia mais](../../developing/using/configur
 
 Novas funções de criptografia e hash forma adicionadas com exemplos. [Leia mais](../../automating/using/list-of-functions.md)
 
-A seção sobre a atividade do fluxo de trabalho Transfer file foi atualizada. [Leia mais](../../automating/using/transfer-file.md)
+A seção sobre a atividade do workflow Transferir arquivo foi atualizada. [Leia mais](../../automating/using/transfer-file.md)
 
-Informações foram adicionadas na opção &quot;Request confirmation before sending messages&quot;, na atividade do fluxo de trabalho Email Delivery. [Leia mais](../../automating/using/email-delivery.md)
+Informações foram adicionadas na opção “Solicitar confirmação antes de enviar mensagens”, na atividade do workflow Delivery de email. [Leia mais](../../automating/using/email-delivery.md)
 
 ## Versão 17.7 - Julho de 2017 {#release-17-7---july-2017}
 
@@ -860,7 +860,7 @@ Várias capturas de tela foram atualizadas para refletir as alterações na inte
 
 Uma nova nota técnica agora está disponível: &quot;Integração do SDK móvel da Adobe com seu aplicativo para dispositivos móveis&quot;. [Leia mais](https://helpx.adobe.com/br/campaign/kb/integrate-mobile-sdk.html)
 
-Foram adicionadas instruções para configurar o serviço principal de pessoas ou a integração de Audience Manager com o Adobe Campaign. [Leia mais](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Foram adicionadas instruções para configurar a integração do serviço principal do People ou Audience Manager com o Adobe Campaign. [Leia mais](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 A tabela de autorizações foi revisada para esclarecer melhor certas funções. [Leia mais](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf
 
@@ -886,7 +886,7 @@ Integração do Dreamweaver ativa - [Leia mais](https://docs.adobe.com/content/h
 
 Seção adicionada sobre os diferentes tipos de usuários do Adobe Campaign. [Leia mais](../../administration/using/users-management.md)
 
-O Guia do Fluxo de Trabalho foi reorganizado e estendido. Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/about-workflow-execution.md) a workflow, how to [target](../../automating/using/about-targeting-activities.md) and [manage](../../automating/using/about-targeting-activities.md#enriching-data) your data, how to [import and export](../../automating/using/about-data-import-and-export.md) data, and how to use workflow data to update the database or to send deliveries.
+O guia Workflow foi reorganizado e estendido. Descubra facilmente como [criar](../../automating/using/building-a-workflow.md) e [executar](../../automating/using/about-workflow-execution.md) um fluxo de trabalho, como [segmentar](../../automating/using/about-targeting-activities.md) e [gerenciar](../../automating/using/about-targeting-activities.md#enriching-data) os dados, como [importar e exportar](../../automating/using/about-data-import-and-export.md) dados e como usar os dados do workflow para atualizar o banco de dados ou enviar deliveries.
 
 O cálculo do indicador de relatórios agora está disponível para relatórios dinâmicos, incluindo descrição completa e fórmula de cálculo. [Leia mais](../../reporting/using/indicator-calculation.md)
 
@@ -924,27 +924,27 @@ Integração de acionadores: foram adicionados dois casos de usos. [Leia mais](.
 
 Reprojetamos a documentação da API do desenvolvedor com novas informações e trechos de código para uma melhor experiência do usuário. [Leia mais](../../api/using/get-started-apis.md)
 
-Descubra exemplos das novas atividades de fluxo de trabalho [Leitura de público](../../automating/using/read-audience.md) e [Sinal externo](../../automating/using/external-signal.md).
+Descubra exemplos das novas atividades de workflow [Ler público](../../automating/using/read-audience.md) e [Sinal externo](../../automating/using/external-signal.md).
 
-## Versão 17.1 - Janeiro de 2017 {#release-17-1---january-2017}
+## Versão 17.1 – Janeiro de 2017 {#release-17-1---january-2017}
 
 **Novos recursos incluídos na versão**
 
-Exportação de logs para relatórios externos - [Leia mais](../../automating/using/exporting-logs.md)
+Exportação de logs para relatórios externos – [Leia mais](../../automating/using/exporting-logs.md)
 
-API de mensagens transacionais - [Leia mais](../../api/using/get-started-apis.md)
+API de mensagens transacionais – [Leia mais](../../api/using/get-started-apis.md)
 
-Recursos de marketing para mensagens transacionais - [Leia mais](../../channels/using/profile-transactional-messages.md)
+Recursos de marketing para mensagens transacionais – [Leia mais](../../channels/using/profile-transactional-messages.md)
 
 **Outras atualizações de documentação incluídas na versão**
 
-Atividade do fluxo de trabalho Query incremental: novo modo incremental - [Leia mais](../../automating/using/incremental-query.md)
+Atividade do workflow Query incremental: novo modo incremental – [Leia mais](../../automating/using/incremental-query.md)
 
-Atualização da atividade do fluxo de trabalho Scheduler - [Leia mais](../../automating/using/scheduler.md)
+Atualização da atividade do workflow Scheduler – [Leia mais](../../automating/using/scheduler.md)
 
-Alteração de URL: Serviço principal Assets - [Leia mais](../../integrating/using/working-with-campaign-and-assets-core-service.md)
+Alteração de URL: Serviço principal do Assets – [Leia mais](../../integrating/using/working-with-campaign-and-assets-core-service.md)
 
-Alteração de URL: Serviço principal Pessoas - [Leia mais](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+Alteração de URL: Serviço principal do People – [Leia mais](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
 O guia de Perfis e Públicos foi reorganizado. [Leia mais](../../audiences/using/get-started-profiles-and-audiences.md)
 
