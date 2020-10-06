@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 73%
+ht-degree: 97%
 
 ---
 
@@ -19,16 +19,17 @@ ht-degree: 73%
 
 ## Novidades
 
-* **[Grupos de controle](sending/using/control-group.md)**<br/>Meça o impacto de suas campanhas excluindo uma parte de suas audiências
+* **[Grupos de controle](sending/using/control-group.md)**<br/>Meça o impacto de suas campanhas excluindo parte dos públicos
 
-* **[E-mails](sending/using/predictive.md)**<br/>alimentados por IA Otimize o design e o delivery com e-mails fornecidos por AI
+* **[Emails alimentados por IA](sending/using/predictive.md)**<br/>Otimize o design e o delivery com emails alimentados por IA
 
 * **[Gerenciamento de privacidade](https://helpx.adobe.com/br/campaign/kb/campaign-privacy.html)**<br/>
-Saiba mais sobre as ferramentas fornecidas pelo Adobe Campaign para ajudá-lo a estar em conformidade com a privacidade
+Saiba mais sobre as ferramentas fornecidas pelo Adobe Campaign para ajudar você a estar em conformidade com a privacidade
 
-* **[API](automating/using/external-api.md)**<br/>externa Use a atividade de API externa para trazer dados para o fluxo de trabalho de um sistema externo
+* **[API externa](automating/using/external-api.md)**<br/>Use a atividade de API externa para trazer dados ao workflow a partir de um sistema externo.
 
-* **[Introdução aos delivery](https://helpx.adobe.com/br/campaign/kb/acs-mobile.html)**<br/> para dispositivos móveisSaiba mais sobre as diretrizes gerais para delivery para dispositivos móveis (SMS, Push, No aplicativo)
+* **[Introdução a deliveries para dispositivos móveis](https://helpx.adobe.com/br/campaign/kb/acs-mobile.html)**<br/>
+Saiba mais sobre as diretrizes gerais para delivery para dispositivos móveis (SMS, Push, No aplicativo)
 
 [Clique aqui para obter mais atualizações](rn/using/documentation-updates.md)
 
