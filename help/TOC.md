@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '1652'
-ht-degree: 85%
+ht-degree: 99%
 
 ---
 
@@ -38,8 +38,8 @@ ht-degree: 85%
       + [Atividades de marketing](start/using/marketing-activities.md)
       + [Templates de atividades de marketing](start/using/marketing-activity-templates.md)
       + [Linha do tempo](start/using/timeline.md)
-+ Perfis e públicos-alvo {#profiles-and-audiences}
-   + [Introdução a perfis e públicos-alvos](audiences/using/get-started-profiles-and-audiences.md)
++ Perfis e públicos {#profiles-and-audiences}
+   + [Introdução a perfis e públicos](audiences/using/get-started-profiles-and-audiences.md)
    + Gerenciamento de perfis {#managing-profiles}
       + [Sobre perfis](audiences/using/about-profiles.md)
       + [Criação de perfis](audiences/using/creating-profiles.md)
@@ -65,7 +65,7 @@ ht-degree: 85%
    + Trabalhar com a Adobe Experience Platform {#working-with-adobe-experience-platform}
       + [Sobre o serviço Destinos do Audience](audiences/using/aep-about-audience-destinations-service.md)
       + [Gerenciamento de públicos da plataforma Adobe Experience](audiences/using/aep-managing-audiences.md)
-      + [Uso do Construtor de segmentos](audiences/using/aep-using-segment-builder.md)
+      + [Usar o Criador de segmentos](audiences/using/aep-using-segment-builder.md)
 + Canais de comunicação {#communication-channels}
    + [Introdução a canais de comunicação](channels/using/get-started-communication-channels.md)
    + Sobre os canais de comunicação {#about-communication-channels}
@@ -112,7 +112,7 @@ ht-degree: 85%
       + [Definição de público-alvo de correspondência direta](channels/using/defining-the-direct-mail-audience.md)
       + [Definição do conteúdo da correspondência direta](channels/using/defining-the-direct-mail-content.md)
    + Mensagens transacionais {#transactional-messaging}
-      + [Introdução às mensagens transacionais](channels/using/getting-started-with-transactional-msg.md)
+      + [Introdução a mensagens transacionais](channels/using/getting-started-with-transactional-msg.md)
       + [Limitações de mensagens transacionais](channels/using/transactional-messaging-limitations.md)
       + [Mensagens transacionais de evento](channels/using/event-transactional-messages.md)
       + [Mensagens transacionais de perfil](channels/using/profile-transactional-messages.md)
@@ -149,7 +149,7 @@ ht-degree: 85%
       + [Envio de provas](sending/using/sending-proofs.md)
       + [Testar mensagens de email usando perfis direcionados](sending/using/testing-messages-using-target.md)
       + [Teste da linha de assunto de um email](sending/using/testing-subject-line-email.md)
-      + [E-mails com alimentação AI](sending/using/predictive.md)
+      + [Emails alimentados por IA](sending/using/predictive.md)
       + [Renderização de email](sending/using/email-rendering.md)
       + [Adicionar um grupo de controle](sending/using/control-group.md)
       + [Uso de traps](sending/using/using-traps.md)
@@ -214,7 +214,7 @@ ht-degree: 85%
       + [Adicionar visualizações](reporting/using/adding-visualizations.md)
       + [Adicionar componentes](reporting/using/adding-components.md)
       + [Criar uma dimensão de perfil personalizada](reporting/using/creating-a-custom-profile-dimension.md)
-      + [Criar um relatório com base em segmentos de fluxo de trabalho](reporting/using/creating-a-report-workflow-segment.md)
+      + [Criar um relatório com base em segmentos de workflow](reporting/using/creating-a-report-workflow-segment.md)
 + Integração com outras soluções {#integrating-with-adobe-cloud}
    + [Introdução às integrações do Campaign](integrating/using/get-started-campaign-integrations.md)
    + Campaign e Experience Manager {#working-with-campaign-and-experience-manager}
@@ -248,17 +248,17 @@ ht-degree: 85%
       + [Casos de uso de acionadores de abandonos](integrating/using/abandonment-triggers-use-cases.md)
    + Campanha e Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Introdução à integração com o Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-      + [Gerenciar dados entre a Campanha e o Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
-      + [Solicite a integração](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-      + [Configurar E/S de Adobe](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [Gerenciar dados entre o Campaign e o Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+      + [Solicitar a integração](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+      + [Configurar o Adobe I/O](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + [Configurar o Dynamics 365 para integração com o Campaign](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-      + [Mapear recursos personalizados da Campanha e entidades personalizadas do Dynamics 365](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [Mapear recursos personalizados do Campaign e entidades personalizadas do Dynamics 365](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
       + [Usar a integração com o Dynamics 365](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
-      + [Garantias de integração](integrating/using/ms-dynamics-365-integration-guardrails.md)
+      + [Medidas de proteção de integração](integrating/using/ms-dynamics-365-integration-guardrails.md)
 + Gerenciamento de processos e dados {#managing-processes-and-data}
    + [Introdução ao gerenciamento de dados e processos](automating/using/get-started-workflows.md)
    + Operação geral do workflow {#workflow-general-operation}
-      + [Interface de fluxo de trabalho ](automating/using/workflow-interface.md)
+      + [Interface do workflow ](automating/using/workflow-interface.md)
       + [Criar um workflow](automating/using/building-a-workflow.md)
       + [Práticas recomendadas para workflows](automating/using/best-practices-workflows.md)
    + Execução de um workflow {#executing-a-workflow}
@@ -268,12 +268,12 @@ ht-degree: 85%
       + [Monitoramento da execução do workflow](automating/using/monitoring-workflow-execution.md)
       + [Gerenciamento de opções de execução](automating/using/managing-execution-options.md)
       + [Gerenciamento de propriedades de atividades](automating/using/activity-properties.md)
-   + Chamada de um fluxo de trabalho com parâmetros externos {#calling-workflow-external-parameters}
+   + Chamada de workflow com parâmetros externos {#calling-workflow-external-parameters}
       + [Visão geral](automating/using/calling-a-workflow-with-external-parameters.md)
       + [Declaração dos parâmetros na atividade de sinal externo](automating/using/declaring-parameters-external-signal.md)
-      + [Definição dos parâmetros ao chamar o fluxo de trabalho](automating/using/defining-parameters-calling-workflow.md)
+      + [Definição dos parâmetros ao chamar o workflow](automating/using/defining-parameters-calling-workflow.md)
       + [Monitoramento das variáveis de eventos](automating/using/monitoring-events-variables.md)
-      + [Personalização do fluxo de trabalho com parâmetros externos](automating/using/customizing-workflow-external-parameters.md)
+      + [Personalização do workflow com parâmetros externos](automating/using/customizing-workflow-external-parameters.md)
       + [Caso de uso](automating/using/use-case-calling-workflow.md)
    + Atividades de direcionamento {#targeting-activities}
       + [Sobre as atividades de direcionamento](automating/using/about-targeting-activities.md)
@@ -320,45 +320,45 @@ ht-degree: 85%
       + [Sobre a importação e exportação de dados](automating/using/about-data-import-and-export.md)
       + [Práticas recomendadas de importação](automating/using/import-best-practices.md)
       + [Importação de dados com modelos de importação](automating/using/importing-data-with-import-templates.md)
-      + [Criação de modelos de fluxo de trabalho para importar dados](automating/using/creating-import-workflow-templates.md)
+      + [Criação de modelos de workflow para importar dados](automating/using/creating-import-workflow-templates.md)
       + [Gerenciamento de dados criptografados](automating/using/managing-encrypted-data.md)
       + [Exportar logs](automating/using/exporting-logs.md)
       + [Gerenciamento de pacotes](automating/using/managing-packages.md)
       + [Exportar listas](automating/using/exporting-lists.md)
       + [Caso de uso: exportação / importação de recursos personalizados](automating/using/exporting-importing-custom-resources.md)
    + Casos de uso {#workflow-use-case}
-      + [Sobre casos de uso de fluxo de trabalho](automating/using/about-workflow-use-cases.md)
+      + [Sobre casos de uso de workflow](automating/using/about-workflow-use-cases.md)
       + Deliveries {#deliveries}
-         + [Criar entregas com um complemento](automating/using/workflow-created-query-with-complement.md)
-         + [Criação de delivery na data de criação dos perfis](automating/using/workflow-creation-date-query.md)
-         + [Criar uma entrega semanal](automating/using/workflow-weekly-offer.md)
-         + [Criação de uma entrega entre canais](automating/using/workflow-cross-channel-delivery.md)
-         + [Identificação de duplicados antes de um delivery](automating/using/identifying-duplicated-before-delivery.md)
+         + [Criar deliveries com um complemento](automating/using/workflow-created-query-with-complement.md)
+         + [Criar deliveries na data de criação de perfis](automating/using/workflow-creation-date-query.md)
+         + [Criar um delivery semanal](automating/using/workflow-weekly-offer.md)
+         + [Criar um delivery em vários canais](automating/using/workflow-cross-channel-delivery.md)
+         + [Identificação de duplicações antes de um delivery](automating/using/identifying-duplicated-before-delivery.md)
          + [Delivery de aniversário](automating/using/birthday-delivery.md)
-         + [Conexão de delivery de email e de mala direta](automating/using/coupling-email-direct-mail.md)
-         + [Envio de um email com campos aprimorados](automating/using/sending-email-enriched-fields.md)
+         + [Junção de deliveries de email e de correspondência direta](automating/using/coupling-email-direct-mail.md)
+         + [Envio de email com campos enriquecidos](automating/using/sending-email-enriched-fields.md)
          + [Personalização de um email com dados adicionais](automating/using/personalizing-email-with-additional-data.md)
-         + [Envio de uma notificação por push recorrente](automating/using/recurring-push-notifications.md)
+         + [Envio de uma notificação de push recorrente](automating/using/recurring-push-notifications.md)
       + Segmentação e direcionamento {#segmentation-targeting}
          + [Amostras de queries](automating/using/query-samples.md)
-         + [União em duas audiências refinadas](automating/using/union-on-two-refined-audiences.md)
+         + [União em dois públicos-alvo refinados](automating/using/union-on-two-refined-audiences.md)
          + [Criar uma segmentação no local](automating/using/workflow-segmentation-location.md)
          + [Redirecionamento de não-iniciadores](automating/using/workflow-cross-channel-retargeting.md)
-         + [Query incremental dos assinantes de um serviço](automating/using/incremental-query-on-subscribers.md)
-         + [Segmentação de acordo com grupos etários](automating/using/segmentation-age-groups.md)
+         + [Query incremental para assinantes de um serviço](automating/using/incremental-query-on-subscribers.md)
+         + [Segmentação por faixa etária](automating/using/segmentation-age-groups.md)
          + [Uso de recursos diferentes de targeting dimensions](automating/using/using-resources-different-from-targeting-dimensions.md)
-      + gerenciamento de dados {#data-management}
-         + [Reconciliar uma audiência de arquivo com o banco de dados](automating/using/reconcile-file-audience-with-database.md)
-         + [Desduplicando os dados de um arquivo importado](automating/using/deduplicating-data-imported-file.md)
-         + [Enriquecendo os dados do perfil com os dados contidos em um arquivo](automating/using/enriching-profile-data-file.md)
+      + Gerenciamento de dados {#data-management}
+         + [Reconciliar um público do tipo Arquivo com o banco de dados](automating/using/reconcile-file-audience-with-database.md)
+         + [Desduplicação de dados a partir de um arquivo importado](automating/using/deduplicating-data-imported-file.md)
+         + [Enriquecimento dos dados do perfil com os dados contidos em um arquivo](automating/using/enriching-profile-data-file.md)
          + [Atividade de sinal externo e importação de dados](automating/using/external-signal-data-import.md)
          + [Atualização do banco de dados com dados externos](automating/using/update-database-file.md)
          + [Atualização de dados com base em um download automático de arquivo](automating/using/update-data-automatic-download.md)
          + [Reconciliação de dados usando relações](automating/using/reconciliation-using-relations.md)
          + [Atualização de dados usando reconciliação](automating/using/data-update-reconciliation.md)
          + [Exportar perfis em um arquivo externo](automating/using/exporting-profiles-in-file.md)
-         + [Atualização de vários status de subscrição de um arquivo](automating/using/updating-subscriptions-from-file.md)
-         + [Assinatura de perfis de um arquivo para um serviço específico](automating/using/subscribing-profiles-from-file.md)
+         + [Atualização de vários status de assinatura diretamente de um arquivo](automating/using/updating-subscriptions-from-file.md)
+         + [Assinatura de perfis para um serviço específico a partir de um arquivo](automating/using/subscribing-profiles-from-file.md)
    + Trabalhar com públicos da Adobe Experience Platform {#working-with-aep-audiences}
       + [Definição de públicos da Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
       + [Personalização de campanhas usando atributos da Adobe Experience Platform](automating/using/aep-personalizing-campaigns.md)
@@ -428,11 +428,11 @@ ht-degree: 85%
    + Configuração de canais móveis {#configuring-mobile}
       + [Implementação do rastreamento de push](administration/using/push-tracking.md)
       + [Adicionar imagens e vídeos ao iOS](administration/using/image-push-notification.md)
-      + [Noções básicas sobre a estrutura de carga de notificações por push](administration/using/push-payload.md)
+      + [Como entender a estrutura de payload das notificações de push do ](administration/using/push-payload.md)
       + [Implementação do rastreamento de notificação local](administration/using/local-tracking.md)
-      + [Perguntas frequentes sobre sincronização de inicialização de Adobe](administration/using/syncwithlaunch-faq.md)
-      + [Perguntas frequentes sobre integração com o SDK do Experience Platform](administration/using/aep-faq.md)
-      + [Configuração das regras de lançamento para suportar casos de uso do Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
+      + [Perguntas frequentes sobre a sincronização do Adobe Launch](administration/using/syncwithlaunch-faq.md)
+      + [Perguntas frequentes sobre integração com o SDK da Experience Platform](administration/using/aep-faq.md)
+      + [Configuração das regras do Launch para suportar casos de uso do Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
       + [Casos de uso de publicação de conteúdo para dispositivos móveis compatíveis com o Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
    + Configurações do aplicativo {#application-settings}
       + [Sobre as configurações do Campaign Standard](administration/using/about-campaign-standard-settings.md)
@@ -446,7 +446,7 @@ ht-degree: 85%
 + Trabalho com APIs {#working-with-apis}
    + [Introdução às APIs do Campaign Standard](api/using/get-started-apis.md)
    + Sobre APIs do Campaign Standard {#about-campaign-standard-apis}
-      + [Por que usar APIs de Campaign Standard](api/using/why-using-campaign-standard-apis.md)
+      + [Por que usar APIs do Campaign Standard](api/using/why-using-campaign-standard-apis.md)
       + [Configuração do acesso à API](api/using/setting-up-api-access.md)
    + Conceitos globais {#global-concepts}
       + [Leitura obrigatória](api/using/must-read.md)
@@ -477,7 +477,7 @@ ht-degree: 85%
       + [Gerenciamento de auto-exclusão do CCPA](api/using/managing-ccpa-opt-out.md)
    + [Gerenciamento de mensagens transacionais](api/using/managing-transactional-messages.md)
    + Gerenciamento de fluxos de trabalho {#managing-workflows}
-      + [Controle de um fluxo de trabalho](api/using/controlling-a-workflow.md)
+      + [Controle de um workflow](api/using/controlling-a-workflow.md)
       + [Acionamento de uma atividade de sinal](api/using/triggering-a-signal-activity.md)
    + Gerenciamento de unidades organizacionais {#managing-organizational-units}
       + [Recuperação da unidade organizacional de um perfil](api/using/retrieving-an-organizational-unit.md)
