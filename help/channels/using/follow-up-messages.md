@@ -12,7 +12,7 @@ discoiquuid: 9615e369-754f-4f6a-a1b1-14462f946666
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 5%
@@ -129,4 +129,3 @@ Quando o fluxo de trabalho for iniciado, todos os clientes que tiverem recebido 
 >[!NOTE]
 >
 >Se você selecionou o **[!UICONTROL Profile]** targeting dimension ao criar a configuração do evento, a mensagem de acompanhamento também impulsionará o banco de dados de marketing da Adobe Campaign. Consulte [Mensagens transacionais de perfil](../../channels/using/profile-transactional-messages.md).
-
