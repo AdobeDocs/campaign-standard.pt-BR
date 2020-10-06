@@ -11,9 +11,9 @@ topic-tags: managing-templates
 discoiquuid: 064c5c4a-f579-4bab-adf3-51c92eb4518f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
 
@@ -41,6 +41,7 @@ Para criar um template de SMS ou de email, siga estas etapas:
    >Você também pode modificar um template padrão em um template multilíngue clicando no botão **[!UICONTROL Initialize content variant]** nas propriedades do template.
 
 1. Modifique as propriedades para personalizar o rótulo, o rastreamento etc.
+
 1. Modifique o número de variantes desejadas clicando no bloco de variantes. A janela a seguir é exibida.
 
    ![](assets/multi_template_variants.png)
@@ -54,6 +55,7 @@ Para criar um template de SMS ou de email, siga estas etapas:
    >Não exclua a variante “padrão”, pois ela é enviada para os perfis sem parâmetro de idioma preferencial preenchido.
 
 1. Personalize a variante de rótulo, se necessário, e clique em **[!UICONTROL Confirm]**.
+
 1. Você também pode adicionar diretamente o conteúdo de cada variante.
 
 Agora você está pronto para criar uma mensagem de email ou SMS com base nesse template multilíngue.
