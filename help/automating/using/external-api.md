@@ -9,11 +9,11 @@ topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9a8e3087ef6a0cf2f1d68cb145a67af3c05d27ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2269'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -40,17 +40,17 @@ As principais características dessa atividade são:
 
 ### Avisos de compatibilidade com versões anteriores {#from-beta-to-ga}
 
-Com a versão Campaign Standard 20.4, os guarda-chuva do limite de tamanho de dados de resposta http e do tempo limite de resposta foram reduzidos para alinhar-se às práticas recomendadas (consulte a seção &quot;Limitações e guarda-lamas&quot;). Essas modificações de garantia não entrarão em vigor nas atividades de API externas existentes; portanto, recomenda-se que você substitua atividades de API externas existentes por novas versões em todos os workflows.
+Com a versão Campaign Standard 20.4, o limite de tamanho dos dados de resposta http e as medidas de proteção do tempo de espera das resposta foram reduzidos para se alinharem às práticas recomendadas (consulte a seção &quot;Limitações e medidas de proteção&quot;). Essas modificações nas medidas de proteção não entrarão em vigor nas atividades de API externas existentes; portanto, é recomendado substituir as atividades de API externas existentes por novas versões em todos os workflows.
 
-Se você estiver atualizando do Campaign Standard 20.2 (ou anterior), observe que o recurso de API externa mudou de Beta para General Availability na versão Campaign Standard 20.3.
+Se você estiver atualizando a partir do Campaign Standard 20.2 (ou anterior), observe que o recurso de API externa mudou de Beta para Disponibilidade geral na versão Campaign Standard 20.3.
 
-Como consequência, se você estava usando atividades beta da API externa, é necessário substituí-las por atividades da API externa do GA em todos os workflows.  Os workflows que usam a versão beta da API externa não funcionarão a partir da versão Campaign Standard 20.3.
+Como consequência, se você estava usando atividades beta da API externa, é necessário substituí-las por atividades da API externa de disponibilidade geral em todos os workflows.  Os workflows que usam a versão beta da API externa não funcionarão a partir da versão Campaign Standard 20.3.
 
 Ao substituir as atividades de API externas, adicione a nova atividade ao workflow, copie manualmente os detalhes de configuração e exclua a atividade antiga.
 
 >[!NOTE]
 >
->Não será possível copiar os valores de cabeçalho específicos da atividade, pois eles são mascarados dentro da atividade.
+>Não será possível copiar os valores do cabeçalho específicos da atividade, pois eles são mascarados dentro da atividade.
 
 Em seguida, reconfigure no workflow outras atividades que apontam e/ou usam dados da atividade beta da API externa para apontar e/ou usar dados da nova atividade da API externa. Exemplos de atividades: delivery de email (campos de personalização), atividade de enriquecimento, etc.
 
@@ -58,13 +58,13 @@ Em seguida, reconfigure no workflow outras atividades que apontam e/ou usam dado
 
 Aplicam-se a esta atividade as seguintes medidas de proteção:
 
-* Limite de tamanho de dados de resposta http de 5 MB (observação: esta é uma alteração do limite de 50 MB na versão anterior)
-* O tempo limite da solicitação é de 1 minuto (observação: esta é uma alteração do tempo limite de 10 minutos na versão anterior)
+* Limite de tamanho de dados de resposta http de 5 MB (observação: é uma alteração do limite de 50 MB na versão anterior)
+* O tempo de espera da solicitação é de 1 minuto (observação: é uma alteração do tempo limite de 10 minutos na versão anterior)
 * Não são permitidos redirecionamentos HTTP
 * São rejeitados Urls que não sejam HTTPS
 * São permitidos cabeçalho de solicitação “Accept: application/json” e cabeçalho de resposta “Content-Type: application/json”
 
-Foram postos em prática garantias específicas:
+Foram colocadas em prática medidas de proteção específicas:
 
 * **Profundidade máx. JSON**: limite a profundidade máxima de um JSON aninhado e personalizado que pode ser processado para 10 níveis.
 * **Extensão máx. da chave JSON**: limite o comprimento máximo da chave interna gerada para 255. Essa chave está associada à ID da coluna.
@@ -122,13 +122,13 @@ Se a **análise for validada**, será exibida uma mensagem com um convite para p
 
 ### Execução
 
-Essa guia permite que você defina o terminal da conexão. O **[!UICONTROL URL]** campo permite definir o Ponto de Extremidade **** HTTPS que enviará dados para o ACS.
+Essa guia permite que você defina o ponto de extremidade da conexão. O campo **[!UICONTROL URL]** permite definir o **Ponto de extremidade HTTPS** que enviará dados para o ACS.
 
-Se necessário para o endpoint, dois tipos de método de autenticação estão disponíveis:
+Se necessário para o ponto de extremidade, dois tipos de método de autenticação estão disponíveis:
 
-* Autenticação básica: insira suas informações de nome de usuário/senha no **[!UICONTROL Request Header(s)]** campo.
+* Autenticação básica: insira suas informações de nome de usuário/senha no campo **[!UICONTROL Request Header(s)]**.
 
-* Autenticação OAuth: Ao clicar no botão, é possível selecionar uma conta externa na qual a autenticação OAuth é definida. **[!UICONTROL Use connection parameters defined in an external account]** For more information, refer to the [External accounts](../../administration/using/external-accounts.md) section.
+* Autenticação OAuth: ao clicar em **[!UICONTROL Use connection parameters defined in an external account]**, é possível selecionar uma conta externa na qual a autenticação OAuth é definida. Para obter mais informações, consulte a seção [Contas externas](../../administration/using/external-accounts.md).
 
 ![](assets/externalAPI-execution.png)
 
@@ -184,7 +184,7 @@ Essas mensagens de log são usadas para registrar informações sobre pontos de 
    <td> <p>Chamando o URL da API 'https://example.com/api/v1/web-coupon?count=2'.</p></td> 
   </tr> 
   <tr> 
-   <td> Tentando novamente o URL da API '%s' devido a %s em %d ms, tentativa %d.</td> 
+   <td> Tentando novamente o URL da API '%s' devido a %s em %d min, tentativa %d.</td> 
    <td> <p>Repetindo o URL da API 'https://example.com/api/v1/web-coupon?count=0' devido a HTTP - 401 em 2364 ms, tentativa 2.</p></td>
   </tr> 
   <tr> 
@@ -193,23 +193,23 @@ Essas mensagens de log são usadas para registrar informações sobre pontos de 
   </tr>
   <tr> 
    <td> Usando token de acesso em cache para a ID de provedor '%s'.</td> 
-   <td> <p>Uso do token de acesso em cache para a ID do provedor 'EXT25'. Observação:  EXT25 é a ID (ou o nome) da conta externa. </p></td> 
+   <td> <p>Usando token de acesso em cache para a ID do provedor 'EXT25'. Observação: EXT25 é a ID (ou o nome) da conta externa. </p></td> 
   </tr>
   <tr> 
    <td> Foi obtido um token de acesso do servidor para a ID do provedor '%s'.</td> 
    <td> <p>Foi obtido um token de acesso do servidor para a ID do provedor 'EXT25'. Observação: EXT25 é a ID (ou o nome) da conta externa.</p></td> 
   </tr>
   <tr> 
-   <td> Atualização do token de acesso OAuth devido a erro (HTTP: '%d').</td> 
-   <td> <p>Atualização do token de acesso OAuth devido a erro (HTTP: '401').</p></td> 
+   <td> Atualização do token de acesso OAuth devido a um erro (HTTP: '%d').</td> 
+   <td> <p>Atualização do token de acesso OAuth devido a um erro (HTTP: '401').</p></td> 
   </tr>
   <tr> 
    <td> Erro ao atualizar o token de acesso OAuth (erro: '%d'). </td> 
    <td> <p>Erro ao atualizar o token de acesso OAuth (erro: '404').</p></td> 
   </tr>
   <tr> 
-   <td> Falha ao obter o token de acesso OAuth usando a conta externa especificada na tentativa %d, tentando novamente em %d ms.</td> 
-   <td> <p>Falha ao buscar o token de acesso OAuth usando a conta externa especificada na tentativa 1, tentando novamente em 1387 ms.</p></td> 
+   <td> Falha ao obter o token de acesso OAuth usando a conta externa especificada na tentativa %d, tentando novamente em %d min.</td> 
+   <td> <p>Falha ao buscar o token de acesso OAuth usando a conta externa especificada na tentativa 1, tentando novamente em 1387 min.</p></td> 
   </tr>
  </tbody> 
 </table>
@@ -264,7 +264,7 @@ Essas mensagens de log são usadas para registrar informações sobre condiçõe
    <td> <p>A chave do cabeçalho HTTP não é permitida (chave do cabeçalho: 'Accept').</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - Um valor de cabeçalho HTTP é incorreto (valor de cabeçalho: '%s').</td> 
+   <td> WKF-560247 – O valor do cabeçalho HTTP é incorreto (valor do cabeçalho: '%s').</td> 
    <td> <p>O valor do cabeçalho HTTP é incorreto (valor do cabeçalho: '%s'). </p>
     <p>Observação: este erro é registrado quando o valor do cabeçalho personalizado falha na validação de acordo com a <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
@@ -284,36 +284,36 @@ Essas mensagens de log são usadas para registrar informações sobre condiçõe
         <p>Quando a atividade falha devido a um cabeçalho de tipo de conteúdo inválido. - Falha na atividade (motivo: 'Content-Type - application/html’).</p></td> 
   </tr>
   <tr> 
-   <td> WKF-560278 - "Erro ao inicializar o auxiliar OAuth (erro: '%d')".</td> 
-   <td> <p>Este erro indica que a atividade não pôde inicializar o recurso auxiliar OAuth2.0 interno, devido a um erro no uso dos atributos configurados na conta externa para inicializar o auxiliar.</p></td>
+   <td> WKF-560278 – "Erro ao inicializar o auxiliar OAuth (erro: '%d')".</td> 
+   <td> <p>Esse erro indica que a atividade não pôde inicializar o recurso auxiliar OAuth2.0 interno, devido a um erro no uso dos atributos configurados na conta externa para inicializar o auxiliar.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560279 - "A chave do cabeçalho HTTP não é permitida (chave do cabeçalho: '%s')."</td> 
-   <td> <p>Esta mensagem de aviso (não de erro) indica que a conta externa OAuth 2.0 foi configurada para adicionar uma credencial como cabeçalho HTTP, mas a chave de cabeçalho usada não é permitida porque é uma chave de cabeçalho reservada.</p></td>
+   <td> WKF-560279 – “A chave do cabeçalho HTTP não é permitida (chave do cabeçalho: '%s').”</td> 
+   <td> <p>Essa mensagem de aviso (não de erro) indica que a conta externa OAuth 2.0 foi configurada para adicionar uma credencial como cabeçalho HTTP, mas a chave de cabeçalho usada não é permitida porque é uma chave de cabeçalho reservada.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560280 - Conta externa da ID '%s' não encontrada.</td> 
-   <td> <p>Não é possível localizar a conta externa da ID 'EXT25'.  Observação: Esse erro indica que a atividade está configurada para usar uma conta externa, que não pode mais ser encontrada. Isso provavelmente acontece quando a conta é excluída do DB e, como tal, não é provável que aconteça em circunstâncias normais de operação.</p></td>
+   <td> WKF-560280 – Conta externa da ID '%s' não encontrada.</td> 
+   <td> <p>Não é possível localizar a conta externa da ID 'EXT25'.  Observação: esse erro indica que a atividade está configurada para usar uma conta externa, que não pode mais ser encontrada. Isso provavelmente acontece quando a conta é excluída do banco de dados e, como tal, não é provável que aconteça em circunstâncias normais de operação.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560281 - Conta externa da ID '%s' desabilitada.</td> 
-   <td> <p>A conta externa da ID 'EXT25' está desativada. Observação: Este erro indica que a atividade está configurada para usar uma conta externa, mas essa conta foi desativada (ou marcada como inativa).</p></td>
+   <td> WKF-560281 – Conta externa da ID '%s' desabilitada.</td> 
+   <td> <p>A conta externa da ID 'EXT25' está desativada. Observação: esse erro indica que a atividade está configurada para usar uma conta externa, mas essa conta foi desativada (ou marcada como inativa).</p></td>
   </tr>
   <tr> 
-   <td> WKF-560282 - Protocolo não suportado.</td> 
-   <td> <p>Esse erro indica que a conta externa associada à atividade não é uma conta externa OAuth2.0. Dessa forma, é improvável que esse erro ocorra, a menos que haja alguma corrupção ou alterações manuais na configuração da atividade.</p></td>
+   <td> WKF-560282 – Protocolo não aceito.</td> 
+   <td> <p>Esse erro indica que a conta externa associada à atividade não é uma conta externa OAuth2.0. Dessa forma, é improvável que esse erro ocorra, a menos que haja alguma corrupção ou alteração manual na configuração da atividade.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560283 - Falha ao buscar o token de acesso OAuth.</td> 
+   <td> WKF-560283 – Falha ao buscar o token de acesso OAuth.</td> 
    <td> <p>A causa mais comum desse erro é a configuração incorreta da conta externa (por exemplo, usando a conta externa sem testar se a conexão foi bem-sucedida). Talvez seja possível que url/credenciais na conta externa sejam alteradas.</p></td>
   </tr>
   <tr> 
-   <td> CRL-290199 - Não é possível acessar a página em: %s.</td> 
-   <td> <p>Esta mensagem de erro é exibida na tela da interface do usuário do conta externa ao configurá-la para OAuth. Isso significa que o URL do servidor de autorização externo está incorreto/alterado/a resposta do servidor não foi encontrada na Página.</p></td>
+   <td> CRL-290199 – Não é possível acessar a página em: %s.</td> 
+   <td> <p>Esta mensagem de erro é exibida na tela da interface do usuário da conta externa ao configurá-la para OAuth. Isso significa que o URL do servidor de autorização externo está incorreto, alterado ou a resposta do servidor é Página não encontrada.</p></td>
   </tr>
   <tr> 
-   <td> CRL-290200 - Credenciais incompletas/incorretas.</td> 
-   <td> <p>Esta mensagem de erro é exibida na tela da interface do usuário do conta externa ao configurá-la para OAuth. Isso significa que as credenciais estão incorretas ou não têm outras credenciais necessárias para se conectar ao servidor de autenticação.
+   <td> CRL-290200 – Credenciais incompletas/incorretas.</td> 
+   <td> <p>Esta mensagem de erro é exibida na tela da interface do usuário da conta externa ao configurá-la para OAuth. Isso significa que as credenciais estão incorretas ou faltam outras credenciais necessárias para se conectar ao servidor de autenticação.
 </p></td>
   </tr>
  </tbody> 
