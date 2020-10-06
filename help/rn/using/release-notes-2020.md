@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
 source-wordcount: '2948'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -71,18 +71,18 @@ ht-degree: 95%
 </tbody> 
 </table>
 
-**Recursos** adicionais (a partir de 13 de julho)
+**Recursos adicionais** (a partir de 13 de julho)
 
-* **Otimização do tempo de envio com recursos de AI e pontuação** do perfil - agora você pode otimizar o design e o delivery das viagens do cliente para prever a preferência de envolvimento de cada indivíduo. Com a tecnologia Journey AI, a Adobe Campaign pode analisar e prever taxas abertas, tempos de envio ideais e probabilidade de taxa com base em métricas de envolvimento do histórico. [Saiba mais](../../sending/using/predictive.md)
-* **Nova regulamentação** de privacidade do Brasil - Além das capacidades de privacidade já disponíveis na Campanha, a Adobe ajuda a facilitar a disposição para a Lei Geral de Proteçao de Datos (LGPD) no Brasil. Ao criar uma solicitação de privacidade, o regulamento LGPD foi adicionado ao Adobe Privacy Core Service. [Saiba mais](https://helpx.adobe.com/br/campaign/kb/campaign-privacy-overview.html)
+* **Otimização do tempo de envio com recursos de IA e pontuação do perfil** – agora você pode otimizar o design e o delivery das jornadas do cliente para prever a preferência de envolvimento de cada indivíduo. Com a tecnologia Journey AI, o Adobe Campaign pode analisar e prever taxas abertas, tempos de envio ideais e probabilidade de churn com base em métricas históricas de engajamento. [Saiba mais](../../sending/using/predictive.md)
+* **Nova regulamentação de privacidade do Brasil** – além das características de privacidade já disponíveis no Campaign, a Adobe ajuda a facilitar o preparo para a Lei Geral de Proteção de Dados (LGPD) do Brasil. Durante a criação de uma solicitação de acesso a dados pessoais, o regulamento LGPD foi adicionado ao Serviço Principal de Privacidade da Adobe. [Saiba mais](https://helpx.adobe.com/br/campaign/kb/campaign-privacy-overview.html)
 
 **Aprimoramentos**
 
 * O número de caracteres que podem ser usados no campo **Prefix** para [testar mensagens usando perfis direcionados](../../sending/using/testing-messages-using-target.md) aumentou de 32 para 500.
 * O número máximo de eventos em tempo real que podem ser publicados em uma instância aumentou de 350 para 2000. (CAMP-41608)
-* A sincronização entre o Adobe Launch e o Campaign Standard foi aprimorada usando o fluxo de trabalho técnico syncWithLaunch. Esse fluxo de trabalho permite a importação automática de todas as propriedades móveis do Adobe Launch para o Adobe Campaign Standard. Para saber mais, consulte [esta página](../../administration/using/technical-workflows.md).
+* A sincronização entre o Adobe Launch e o Campaign Standard foi aprimorada usando o workflow técnico syncWithLaunch. Esse workflow permite a importação automática de todas as propriedades móveis do Adobe Launch para o Adobe Campaign Standard. Para saber mais, consulte [esta página](../../administration/using/technical-workflows.md).
 
-   Você precisará enviar um tíquete ao Atendimento ao cliente da Adobe (diretamente ou por meio de seu contato da Adobe) para habilitar o fluxo de trabalho técnico syncWithLaunch na instância do Campaign. (CAMP-40082)
+   Você precisará enviar um tíquete ao Atendimento ao cliente da Adobe (diretamente ou por meio de seu contato da Adobe) para habilitar o workflow técnico syncWithLaunch na instância do Campaign. (CAMP-40082)
 
 **Aprimoramentos do Email Designer**
 
@@ -105,7 +105,7 @@ ht-degree: 95%
 
 **Integrações da Experience Platform**
 
-* A ativação dos [públicos-alvo da Adobe Experience Platform](../../automating/using/aep-targeting-audiences.md) da atividade **Read audience** foi aprimorada para oferecer melhor desempenho e estabilidade. Além disso, os logs de fluxo de trabalho ficaram mais claros e detalhados em relação aos trabalhos de ativação, facilitando o monitoramento e a solução de problemas durante a leitura dos públicos-alvo da Adobe Experience Platform.
+* A ativação dos [públicos-alvo da Adobe Experience Platform](../../automating/using/aep-targeting-audiences.md) da atividade **Read audience** foi aprimorada para oferecer melhor desempenho e estabilidade. Além disso, os logs de workflow ficaram mais claros e detalhados em relação aos trabalhos de ativação, facilitando o monitoramento e a solução de problemas durante a leitura dos públicos-alvo da Adobe Experience Platform.
 
 **Correções**
 
@@ -119,9 +119,9 @@ ht-degree: 95%
 * Correção de um problema que causava um problema de exibição de sobreposição de caracteres nos relatórios baixados.
 * Correção de um problema que impedia que a pré-visualização de um delivery funcionasse para substituição da prova.
 * Correção de um erro durante a exclusão de campos personalizados de uma notificação local no aplicativo.
-* Correção de um problema que impedia que a função charIndex funcionasse com uma atividade **End** ou **File transfer** em um fluxo de trabalho.
+* Correção de um problema que impedia que a função charIndex funcionasse com uma atividade **End** ou **File transfer** em um workflow.
 * Correção de um problema nos fluxos de trabalho que poderia ocorrer durante uma atividade **Enriquecimento** com duas atividades de entrada, inclusive direcionamento de recursos com um link entre elas. (CAMP-42133)
-* Correção de um problema que poderia impedir a execução de um fluxo de trabalho ao usar funções desconhecidas. (CAMP-41873)
+* Correção de um problema que poderia impedir a execução de um workflow ao usar funções desconhecidas. (CAMP-41873)
 * Correção de um problema nos fluxos de trabalho que poderia ocorrer durante a criação de públicos-alvo usando várias atividades **Save audience** com transições complementares de saída. (CAMP-39992)
 * Correção de um problema que causava discrepância de dados ao usar personalização em emails transacionais. (CAMP-41842)
 * Correção de problemas que ocorriam ao excluir campos personalizados em deliveries de notificação por push. (CAMP-37586)
