@@ -13,10 +13,10 @@ context-tags: delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 5%
+source-wordcount: '587'
+ht-degree: 6%
 
 ---
 
@@ -52,21 +52,11 @@ Dependendo dos parâmetros que foram configurados e do progresso feito, alguns �
 
    Para obter mais informações sobre o prova, consulte [Enviar provas](../../sending/using/sending-proofs.md).
 
-* **[!UICONTROL Send a test]**: permite que você selecione o modo de aprovação a ser usado: **[!UICONTROL Email rendering]**, **[!UICONTROL Proof]** ou ambos para um email. Para obter mais informações sobre perfis de teste, consulte [Envio de provas](../../sending/using/sending-proofs.md).
+* **[!UICONTROL Send a test]**: permite que você selecione o modo de aprovação a ser usado: **[!UICONTROL Email rendering]** (somente email), **[!UICONTROL Proof]** ou ambos. Para obter mais informações sobre perfis de teste, consulte [Envio de provas](../../sending/using/sending-proofs.md). Esse botão só é ativado depois que você cria perfis de teste.
 
-   Este botão só é ativado depois que você tiver estabelecido perfis de teste.
+* **[!UICONTROL Prepare send]**: start para preparar o envio. O **[!UICONTROL Deployment]** bloco é exibido e exibe o resultado da preparação. Este botão só é exibido depois que o público alvo é inserido. Pode interromper a preparação a qualquer momento usando o botão correspondente. For more on message preparation, refer to [Preparing the send](../../sending/using/preparing-the-send.md).
 
-   >[!NOTE]
-   >
-   >Para uma mensagem SMS, não há outra opção: é automaticamente um **[!UICONTROL Proof]**.
-
-* **[!UICONTROL Prepare send]**: start para preparar o envio. O **[!UICONTROL Deployment]** bloco é exibido e exibe o resultado da preparação. Este botão só é exibido depois que o público alvo é inserido. Pode interromper a preparação a qualquer momento usando o botão correspondente.
-
-   Para obter mais informações sobre a preparação da mensagem, [Prepare o envio](../../sending/using/preparing-the-send.md).
-
-* **[!UICONTROL Confirm send]**: confirma o envio da mensagem. As estatísticas de envio são exibidas no **[!UICONTROL Deployment]** bloco. Esse botão só aparece depois que o envio é preparado. Você pode interromper ou pausar o envio a qualquer momento usando os botões **Parar envio** e **[!UICONTROL Pause]** .
-
-   Para obter mais informações sobre como confirmar o envio, consulte [Enviar mensagens](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Confirm send]**: confirma o envio da mensagem. As estatísticas de envio são exibidas no **[!UICONTROL Deployment]** bloco. Esse botão só aparece depois que o envio é preparado. Você pode interromper ou pausar o envio a qualquer momento usando os botões **Parar envio** e **[!UICONTROL Pause]** . Para obter mais informações sobre como confirmar o envio, consulte [Enviar mensagens](../../sending/using/confirming-the-send.md).
 
 ## Blocos {#blocks}
 
@@ -97,7 +87,7 @@ Abaixo está uma lista das mensagens que podem ser exibidas:
 
 * *&quot;As mensagens não podem ser enviadas porque a afinidade IP atual não é tratada por nenhum processo de envio.&quot;*
 
-   Se você vir essa mensagem, há um problema no nível de definição da afinidade IP ou no nível do processo de envio. Entre em contato com o administrador do Adobe.
+   Se você vir essa mensagem, há um problema no nível de definição da afinidade IP ou no nível do processo de envio. Entre em contato com o administrador do Adobe 
 
 * *&quot;Este é um template de mensagem transacional pronto para usar. Se quiser modificá-la, você deve duplicado-la e trabalhar na sua cópia.&quot;*
 
