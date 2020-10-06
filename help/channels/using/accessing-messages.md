@@ -13,7 +13,10 @@ context-tags: activity,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 1%
 
 ---
 
@@ -33,7 +36,7 @@ As mensagens podem ser acessadas:
 Para acessar a lista de uma atividade de marketing da campanha:
 
 1. Vá para **[!UICONTROL Marketing activities]** a partir da barra de navegação superior.
-1. Select **[!UICONTROL Marketing activities > Marketing plans > Programs & Campaigns]**.
+1. Selecione **[!UICONTROL Marketing activities > Marketing plans > Programs & Campaigns]**.
 
    Você também pode clicar diretamente no **[!UICONTROL Programs & Campaigns]** cartão do home page. Para obter mais informações sobre o campanha, consulte a seção [Programas e campanhas](../../start/using/programs-and-campaigns.md) .
 
@@ -70,4 +73,3 @@ O status de uma mensagem é representado por uma cor específica nas listas. Os 
    >[!NOTE]
    >
    >Um banner de notificação amarelo pode aparecer acima do cartão quando uma ação é necessária, por exemplo, quando você precisa confirmar o envio de uma mensagem.
-
