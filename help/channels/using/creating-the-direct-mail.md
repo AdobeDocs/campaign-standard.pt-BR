@@ -13,7 +13,7 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 96%
@@ -25,11 +25,11 @@ ht-degree: 96%
 
 A criação de um delivery de correspondência direta é muito semelhante à criação de um email comum. As etapas a seguir descrevem a configuração específica para esse canal. Consulte [Criar um email](../../channels/using/creating-an-email.md) para obter mais informações sobre outras opções.
 
-1. Crie um novo delivery de correspondência direta. Você pode criar um na [home page](../../start/using/interface-description.md#home-page)do Adobe Campaign, em uma [campanha](../../start/using/marketing-activities.md#creating-a-marketing-activity) ou em uma [lista de atividades de marketing](../../start/using/programs-and-campaigns.md#creating-a-campaign).
+>[!NOTE]
+>
+>Você também pode adicionar uma atividade de correspondência direta em um workflow. Para mais informações, consulte o Guia [Fluxos de trabalho](../../automating/using/direct-mail-delivery.md).
 
-   >[!NOTE]
-   >
-   >Você também pode adicionar uma atividade de correspondência direta em um workflow. Para mais informações, consulte o Guia [Fluxos de trabalho](../../automating/using/direct-mail-delivery.md).
+1. Crie um novo delivery de correspondência direta. Você pode criar um na [home page](../../start/using/interface-description.md#home-page)do Adobe Campaign, em uma [campanha](../../start/using/marketing-activities.md#creating-a-marketing-activity) ou em uma [lista de atividades de marketing](../../start/using/programs-and-campaigns.md#creating-a-campaign).
 
    ![](assets/direct_mail_1.png)
 
