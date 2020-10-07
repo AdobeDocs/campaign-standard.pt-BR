@@ -9,11 +9,9 @@ audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
 discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 100%
 
