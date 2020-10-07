@@ -1,6 +1,6 @@
 ---
 title: Gerenciamento de públicos da plataforma Adobe Experience
-description: Saiba como gerenciar Adobe Experience Platform dentro do Campaign Standard.
+description: Saiba como gerenciar o Adobe Experience Platform no Campaign Standard.
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
 contentOwner: sauviat
@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: managing-audiences
 discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -25,29 +23,29 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->O Serviço de Destinos de Audiência está atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam estar hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente da Adobe se desejar acessar.
+>O Serviço de Destinos de audiência está atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam estar hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente do Adobe se desejar acessá-lo.
 
-## Acessar audiências Adobe Experience Platform
+## Acesso ao Adobe Experience Platform audiência
 
 Para acessar o construtor de segmentos Adobe Experience Platform, navegue até a **[!UICONTROL Audiences]** placa no home page do Campaign Standard (ou o **[!UICONTROL Audiences]** link no cabeçalho) e selecione o **[!UICONTROL Adobe Experience Platform]** ambiente.
 
 ![](assets/aep_audiences_access.png)
 
-Primeiro, você será direcionado para a página de lista do segmento Adobe Experience Platform, onde os segmentos do Adobe Experience Platform já existentes podem ser acessados para edição adicional.
+Primeiro, você será direcionado para a página lista de segmentos da Adobe Experience Platform, onde os segmentos da Adobe Experience Platform já existentes podem ser acessados para edição adicional.
 
-Uma barra de pesquisa e um filtro estão disponíveis para ajudá-lo a encontrar o segmento de Adobe Experience Platform desejado.
+Uma barra de pesquisa e um filtro estão disponíveis para ajudá-lo a encontrar o segmento do Adobe Experience Platform desejado.
 
 ![](assets/aep_audiences_list.png)
 
-## Criação de audiências Adobe Experience Platform
+## Criando Adobe Experience Platform audiência
 
 Para criar uma audiência Adobe Experience Platform diretamente no Campaign Standard, siga estas etapas:
 
-1. Na página lista do segmento Adobe Experience Platform, clique no **[!UICONTROL New audience]** botão localizado no canto direito.
+1. Na página lista de segmentos do Adobe Experience Platform, clique no **[!UICONTROL New audience]** botão localizado no canto direito.
 
    ![](assets/aep_audiences_creation_create.png)
 
-1. O Construtor de segmentos agora deve ser exibido em sua área de trabalho. Ele permite que você crie um segmento usando dados do Adobe Experience Platform que eventualmente serão usados para criar sua audiência.
+1. O Construtor de segmentos agora deve ser exibido em sua área de trabalho. Ele permite que você crie um segmento usando dados da Adobe Experience Platform que eventualmente serão usados para criar sua audiência.
 
 1. Nomeie o segmento no painel direito e insira uma descrição (opcional).
 
@@ -55,7 +53,7 @@ Para criar uma audiência Adobe Experience Platform diretamente no Campaign Stan
 
 1. Para criar com êxito um segmento, é necessário selecionar uma política **de** mesclagem que corresponda à sua finalidade de marketing para esse segmento.
 
-   No painel de configurações, uma política de mesclagem padrão do Platform é selecionada. Para obter mais informações sobre políticas de mesclagem, consulte a seção dedicada no guia [do usuário do Construtor de](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)segmentos.
+   No painel de configurações, uma política de mesclagem padrão da Plataforma é selecionada. Para obter mais informações sobre políticas de mesclagem, consulte a seção dedicada no guia [do usuário do Construtor de](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)segmentos.
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -65,9 +63,9 @@ Para criar uma audiência Adobe Experience Platform diretamente no Campaign Stan
 
    ![](assets/aep_audiences_creation_query.png)
 
-A audiência agora está pronta para ser ativada, você pode usá-la como um público alvo para suas campanhas (consulte [Direcionando audiências](../../automating/using/aep-targeting-audiences.md)de Adobe Experience Platform).
+A audiência está pronta para ser ativada, você pode usá-la como público alvo para suas campanhas (consulte [Direcionando audiências](../../automating/using/aep-targeting-audiences.md)do Adobe Experience Platform).
 
-## Edição de audiências
+## Edição de públicos-alvo
 
 Para editar uma audiência, abra-a e modifique as regras conforme necessário na interface do Construtor de segmentos (consulte [Uso do Construtor](../../audiences/using/aep-using-segment-builder.md)de segmentos).
 
