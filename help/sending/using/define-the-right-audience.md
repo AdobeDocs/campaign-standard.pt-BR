@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: deliveries-best-practices
 discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d5d9d50474142306457a8c76a24388c3c574791d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 69%
+ht-degree: 77%
 
 ---
 
@@ -58,7 +56,7 @@ Selecione os recipients de prova apropriados, porque eles validam a forma e o co
 
 Learn more about test profiles [in this section](../../audiences/using/managing-test-profiles.md).
 
-Você pode usar [Grupos de controle](../../sending/using/control-group.md) para medir o impacto de suas campanhas, excluindo uma parte de suas audiências. Poderá então comparar o comportamento da população do público alvo que recebeu a mensagem com o comportamento dos contatos que não foram visados. Com base nos registros de envio, você também pode público alvo um grupo de controle em futuras campanhas.
+You can use [Control groups](../../sending/using/control-group.md) to measure the impact of your campaigns by excluding a portion of their audience. Portanto você poderá comparar o comportamento do público-alvo que recebeu a mensagem com o comportamento dos contatos não atingidos. Com base nos logs de envio, você também poderá se concentrar em um grupo de controle em campanhas futuras.
 
 ## Cancelar endereços duplicados {#deduplicate-addresses}
 
