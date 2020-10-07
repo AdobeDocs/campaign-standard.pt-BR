@@ -9,18 +9,16 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '798'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
 
-# Perguntas frequentes sobre integração com o SDK do Experience Platform {#aep-faq}
+# Perguntas frequentes sobre integração com o SDK da Experience Platform {#aep-faq}
 
 Para enviar notificações por push e mensagens no aplicativo com o aplicativo Experience Platform SDK, um aplicativo móvel deve ser configurado no Adobe Experience Platform SDK e configurado no Adobe Campaign.
 
