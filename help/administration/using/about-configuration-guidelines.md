@@ -9,10 +9,8 @@ audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
 discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: cd2d38ec65ecc0ee5d6d60ce2ae46eb21da6cd45
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 11%
