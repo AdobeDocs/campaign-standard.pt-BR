@@ -1,30 +1,31 @@
 ---
 title: Personalização de listas
-description: '"Saiba como personalizar a exibição e agir em telas de lista no Adobe Campaign Standard:classificar, filtrar, excluir ou duplicar elementos. Lista telas que exibem elementos de um ou vários recursos especificados."'
-page-status-flag: nunca ativado
+description: '"Saiba como personalizar a exibição e agir em telas de lista no Adobe Campaign Standard:classificar, filtrar, excluir ou duplicar elementos. As telas do Lista exibem elementos de um ou vários recursos especificados."'
+page-status-flag: never-activated
 uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: referência
-topic-tags: discover-the-interface
+content-type: reference
+topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 1%
 
 ---
 
 
 # Personalização de listas{#customizing-lists}
 
-**Telas de lista** permitem exibir elementos de um ou vários recursos específicos.
+**Telas de lista** permitem exibir elementos de um ou vários recursos especificados.
 
-O Adobe Campaign tem dois tipos de listas:
+A Adobe Campaign tem dois tipos de listas:
 
-* Uma lista **homogênea** , que é quando contém um único tipo de recurso. Por exemplo, a lista de perfis contém apenas perfis.
-* Uma lista **heterogênea** , que é quando contém vários tipos de recursos. Por exemplo, a lista de atividades de marketing contém páginas iniciais, fluxos de trabalho, emails, SMS etc.
+* Uma lista **homogênea** , que é quando contém um único tipo de recurso. Por exemplo, a lista do perfil contém apenas perfis.
+* Uma lista **heterogênea** , que é quando contém vários tipos de recursos. Por exemplo, a lista de atividades de marketing contém landings page, workflows, emails, SMS etc.
 
 As listas são exibidas em colunas. Cada coluna pode ser classificada em ordem crescente ou decrescente, uma de cada vez.
 
@@ -34,9 +35,9 @@ Ao passar o mouse sobre um elemento na lista, ações **** rápidas. Essas açõ
 
 ![](assets/overview_list_quickactions.png)
 
-Você também pode configurar se as colunas de uma lista devem ser exibidas ou não. Para adicionar ou remover colunas:
+Você também pode configurar se as colunas em uma lista devem ser exibidas ou não. Para adicionar ou remover colunas:
 
-1. Verifique se a tela está no modo **Lista** .
+1. Verifique se a tela está no modo de **Lista** .
 
    ![](assets/export_list_mode_switch.png)
 
@@ -55,7 +56,7 @@ Você também pode configurar se as colunas de uma lista devem ser exibidas ou n
    * **[!UICONTROL DESC]**: Aplica uma classificação decrescente (decrescente) na coluna.
 
 1. Exclua as colunas que não deseja que sejam exibidas marcando as caixas correspondentes às colunas a serem excluídas. Em seguida, use o ![](assets/delete.png) botão da barra de ação para confirmar a exclusão.
-1. Depois que sua lista contiver as colunas corretas, você poderá alterar a ordem em que elas serão exibidas na lista, verificando as colunas que deseja mover. Depois, use as setas ![](assets/arrowdown.png) e ![](assets/arrowup.png) .
+1. Depois que a lista contiver as colunas corretas, você poderá alterar a ordem em que são exibidas na lista verificando as colunas que deseja mover. Depois, use as setas ![](assets/arrowdown.png) e ![](assets/arrowup.png) .
 1. Confirme a configuração da lista selecionando **[!UICONTROL OK]**.
 
 Sua lista agora é exibida conforme você a configurou.
