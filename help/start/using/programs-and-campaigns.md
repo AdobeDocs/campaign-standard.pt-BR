@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: marketing-plans
 discoiquuid: 21b84028-d1a7-4ad6-891a-862a94565514
 context-tags: campaign,overview;campaignExplorer,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 100%
 
