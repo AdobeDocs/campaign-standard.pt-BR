@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: channel-activities
 discoiquuid: 978592b8-989a-446a-8a84-12b7fecfc130
 context-tags: sms,main;delivery,smsContent,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 100%
