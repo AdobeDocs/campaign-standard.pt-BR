@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
 context-tags: workflow,wizard;workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: bbb059c2094558ec02661cb6f41d50a91038d58b
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 100%
