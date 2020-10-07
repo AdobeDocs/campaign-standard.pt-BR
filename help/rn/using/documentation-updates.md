@@ -9,10 +9,8 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '6247'
 ht-degree: 98%
