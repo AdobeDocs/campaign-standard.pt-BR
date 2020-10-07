@@ -9,10 +9,8 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '5400'
 ht-degree: 10%
@@ -521,7 +519,7 @@ _Fluxos de trabalho_
 * Correção de um problema que resultava em uma mensagem de erro ao usar dados adicionais em um query e adicionar aliases contendo espaços. Os caracteres não alfanuméricos agora são substituídos por &quot;_&quot;.
 * Correção de um problema em que o fluxo de trabalho técnico que calculava KPIs poderia ser interrompido por padrão em alguns casos.
 
-_Perfis e públicos-alvo_
+_Perfis e públicos_
 
 * Correção de um erro que ocorria ao adicionar vários filtros em um query.
 * Correção de um problema de exibição que ocorria ao alterar uma imagem de perfil.
