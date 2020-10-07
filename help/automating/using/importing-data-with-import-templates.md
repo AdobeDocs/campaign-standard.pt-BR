@@ -9,10 +9,8 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: fb511bb8-6be7-43f6-86ab-94d5cfa3efc9
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 99%
