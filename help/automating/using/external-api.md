@@ -7,11 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 9a8e3087ef6a0cf2f1d68cb145a67af3c05d27ec
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '2269'
 ht-degree: 100%
 
