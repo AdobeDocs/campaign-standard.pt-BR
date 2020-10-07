@@ -1,5 +1,5 @@
 ---
-title: Introdução a perfis e públicos-alvos
+title: Introdução a perfis e públicos
 description: Defina populações direcionadas, selecione audiências, filtre recipient, colete dados e atualize perfis.
 page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
@@ -9,18 +9,16 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 11%
+ht-degree: 21%
 
 ---
 
 
-# Introdução a perfis e públicos-alvos{#about-profiles-and-audiences}
+# Introdução a perfis e públicos{#about-profiles-and-audiences}
 
 <table>
 <tr>
@@ -29,11 +27,11 @@ ht-degree: 11%
 <td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">Conformidade com a privacidade</a></p></td></tr>
 </table>
 
-Perfis de clientes integrados à campanha permitem rastrear todas as interações com os clientes em todos os canais em uma única visualização, permitindo que você entregue mensagens relevantes e personalizadas aos seus clientes.
+Perfis de clientes integrados ao Campaign permitem rastrear todas as interações com os clientes em todos os canais em uma única visualização, permitindo que você entregue a seus clientes mensagens relevantes e personalizadas.
 
-Segmente seu banco de dados em audiências para otimizar o público alvo de suas campanhas de marketing.
+Segmente seu banco de dados em públicos para otimizar o público-alvo de suas campanhas de marketing.
 
-Gerencie a permissão e o consentimento dos clientes usando serviços e landings page para configurar mecanismos fáceis de aceitação e não participação.
+Gerencie a permissão e o consentimento dos clientes usando serviços e landing pages para configurar mecanismos simples de aceitação e recusa.
 
 ## Segmentação e definição de metas {#segmenting-targeting}
 
