@@ -1,6 +1,6 @@
 ---
 title: Exibir uma imagem a partir de uma notificação por push do Adobe Campaign Standard
-description: Saiba como exibir uma imagem de uma notificação por push de Adobe Campaign em um dispositivo iOS.
+description: Saiba como exibir uma imagem de uma notificação por push do Adobe Campaign em um dispositivo iOS.
 page-status-flag: never-activated
 uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
 contentOwner: sauviat
@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: cf43edcacbab9f1f33ce29e23c0957d8bfa64e7d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 8%
+ht-degree: 20%
 
 ---
 
@@ -27,7 +25,7 @@ ht-degree: 8%
 >
 >Este documento se aplica somente a dispositivos iOS.
 
-Neste documento, saiba como exibir uma imagem de uma notificação por push do iOS Adobe Campaign Standard.
+Neste documento, saiba como exibir uma imagem de uma notificação por push do Adobe Campaign Standard iOS.
 
 ## Etapa 1: Configurar notificação por push {#set-up-push}
 
@@ -35,15 +33,15 @@ A notificação por push é suportada pelos SDKs Experience Platform.
 
 Os aplicativos móveis que recebem notificações por push devem ser configurados por um administrador na interface do Adobe Campaign.
 
-Ao configurar o Adobe Campaign e o Adobe Mobile Services, você poderá usar os dados de seu aplicativo móvel para suas campanhas. Para obter mais informações, consulte esta [página](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+Ao configurar o Adobe Campaign e o Adobe Mobile Services, você poderá usar os dados do aplicativo móvel para suas campanhas. Para obter mais informações, consulte esta [página](https://helpx.adobe.com/br/campaign/kb/configuring-app-sdk.html).
 
-Para enviar notificações por push com um aplicativo Experience Cloud SDK, um aplicativo móvel deve ser configurado no Adobe Experience Platform Launch e configurado no Adobe Campaign. Para obter mais informações, consulte esta [página](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+Para enviar notificações por push com um aplicativo Experience Cloud SDK, um aplicativo móvel deve ser configurado no Adobe Experience Platform Launch e configurado no Adobe Campaign. Para obter mais informações, consulte esta [página](https://helpx.adobe.com/br/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
 
-## Etapa 2: Personalize sua notificação por push no Adobe Campaign {#customize-push}
+## Etapa 2: Personalizar sua notificação por push no Adobe Campaign {#customize-push}
 
-Para ajustar sua notificação por push, o Adobe Campaign permite que você acesse um conjunto de opções avançadas ao projetar uma notificação por push.
+Para ajustar as notificações por push, o Adobe Campaign permite o acesso a um conjunto de opções avançadas ao projetar uma notificação por push.
 
-1. Crie uma notificação por push. Para obter mais informações, consulte esta [página](../../channels/using/preparing-and-sending-a-push-notification.md).
+1. Criar uma notificação por push. Para obter mais informações, consulte esta [página](../../channels/using/preparing-and-sending-a-push-notification.md).
 
 1. Na página de conteúdo da notificação por push, acesse a **[!UICONTROL Advanced options]** seção.
 
