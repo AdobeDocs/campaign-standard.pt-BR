@@ -9,10 +9,11 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '499'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +22,7 @@ source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
 
 >[!IMPORTANT]
 >
->O Adobe Experience Platform Data Connector está atualmente em beta, que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam estar hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente da Adobe se desejar acessar.
+>O Adobe Experience Platform Data Connector está atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam estar hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente do Adobe se desejar acessá-lo.
 
 Nesta seção, você descobrirá como mapear um campo Campaign Standard com um campo do Modelo de dados de experiência (XDM).
 
@@ -39,13 +40,13 @@ Para executar essa tarefa, os pré-requisitos são:
 1. Preencha os campos obrigatórios e selecione:
 
    * um **targeting dimension**: este é o schema Campaign Standard para mapear
-   * um **conjunto de dados**: este é o pacote de dados associado a um schema XDM na Adobe Experience Platform.
+   * um **conjunto de dados**: este é o pacote de dados associado a um schema XDM no Adobe Experience Platform.
 
 >[!NOTE]
 >
 >Para que um lote seja ingerido no Perfil do cliente em tempo real ou no Serviço de identidade, o conjunto de dados deve ser [ativado para o Perfil](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/intro/get-started.html)do cliente em tempo real.
 >
->Se o conjunto de dados selecionado já estiver sendo usado em um mapeamento de dados existente, um aviso será exibido para informá-lo de que seus dados podem ser substituídos na Adobe Experience Platform. Isso pode acontecer quando há alguns recipient comuns em datamappings usando um mesmo conjunto de dados.
+>Se o conjunto de dados selecionado já estiver sendo usado em um mapeamento de dados existente, um aviso será exibido para informá-lo de que seus dados podem ser substituídos no Adobe Experience Platform. Isso pode acontecer quando há alguns recipient comuns em datamappings usando um mesmo conjunto de dados.
 
 A tela a seguir apresenta a **[!UICONTROL Field mappings]** seção na qual você pode criar um novo mapeamento para cada campo no schema Campaign Standard.
 
@@ -63,7 +64,7 @@ Os recursos estendidos definidos no Campaign Standard são mapeados como todos o
 
 Você pode personalizar a extensão XDM por meio da API e definir sua própria extensão, permitindo um melhor controle do mapeamento.
 
-Consulte o tutorial [da API do Registro de](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html) Schemas para obter mais detalhes sobre a API XDM.
+Consulte o tutorial [da API do Registro de](https://docs.adobe.com/content/help/pt-BR/experience-platform/xdm/api/getting-started.html) Schemas para obter mais detalhes sobre a API XDM.
 
 Para mapear um campo de lista discriminada, é necessário usar o editor de expressão para definir cada valor de lista discriminada correspondente ao valor XDM. Por exemplo, o postalAdressfield precisa ser definido como:
 
