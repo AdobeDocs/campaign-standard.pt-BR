@@ -9,10 +9,8 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9f33ca4e8b6326fce5fd301587b15ce706750c6e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1144'
 ht-degree: 96%
