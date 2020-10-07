@@ -7,10 +7,11 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '213'
+ht-degree: 11%
 
 ---
 
@@ -24,7 +25,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <th>Nome</th>
                   <th>Rótulo</th>
                   <th>Tipo (comprimento)</th>
-                  <th>Valores de enumeração</th>
+                  <th>valores de lista discriminada</th>
                </tr>
                <tr>
                   <td>PKey</td>
@@ -39,7 +40,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>created</td>
+                  <td>criado</td>
                   <td>Criado</td>
                   <td>date </td>
                   <td> </td>
@@ -76,7 +77,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>história</td>
-                  <td>Histórico de assinaturas</td>
+                  <td>histórico de subscrições</td>
                   <td>coleção </td>
                   <td> </td>
                </tr>
@@ -88,7 +89,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>isTemplate</td>
-                  <td>Modelo</td>
+                  <td>Template</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -118,8 +119,8 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>messageType</td>
-                  <td>Canal</td>
-                  <td>enumeração (byte) </td>
+                  <td>Canal </td>
+                  <td>lista discriminada (byte) </td>
                   <td>
                      <ul>
                         <li>Móvel (SMS) - sms - 1</li>
@@ -131,7 +132,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>modo</td>
                   <td>Modo</td>
-                  <td>enumeração (byte) </td>
+                  <td>lista discriminada (byte) </td>
                   <td>
                      <ul>
                         <li>Viral - 1</li>
@@ -166,19 +167,19 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>start</td>
-                  <td>Data de início</td>
+                  <td>data do start</td>
                   <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>subLandingPage (landingPageSubscriptionBase)</td>
-                  <td>Página inicial da assinatura</td>
+                  <td>Landing page subscrição</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>subScenario (deliveryMCTemplateBase)</td>
-                  <td>Confirmação de assinatura</td>
+                  <td>Confirmação de subscrição</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -189,14 +190,14 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>assinaturas</td>
+                  <td>subscrições</td>
                   <td>Subscrições</td>
                   <td>coleção </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>targetResource</td>
-                  <td>Dimensão de definição de metas</td>
+                  <td>Targeting dimension</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
@@ -220,13 +221,13 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>unsubLandingPage (landingPageUnsubscriptionBase)</td>
-                  <td>Cancelar assinatura da página inicial</td>
+                  <td>Landing page unsubscription</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>unsubScenario (deliveryMCTemplateBase)</td>
-                  <td>Confirmação de cancelamento de assinatura</td>
+                  <td>Confirmação de unsubscription</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -272,7 +273,7 @@ Por tipo de canal (byChannel)
 </tr>
 <tr>
 <td>canal</td>
-<td>enumeração</td>
+<td>lista discriminada</td>
 </tr>
 </table>
 
