@@ -1,5 +1,5 @@
 ---
-title: Interface de fluxo de trabalho 
+title: Interface do workflow 
 description: Saiba mais sobre a interface e as opções para criar, editar e executar um fluxo de trabalho.
 page-status-flag: never-activated
 uuid: aafe33ed-fa07-4dd9-825e-242099334f1a
@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: about-workflows-and-data-management
 discoiquuid: 147fbb0d-17d2-444b-a215-9ad14179c549
 context-tags: workflow,main;workflow,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 813f74458bef5e80e24cc0125ddd8d7de6252196
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 4%
@@ -21,7 +19,7 @@ ht-degree: 4%
 ---
 
 
-# Interface de fluxo de trabalho {#workflow-interface}
+# Interface do workflow {#workflow-interface}
 
 Você pode criar workflows para gerenciar processos inteiros em suas campanhas e programas.
 
