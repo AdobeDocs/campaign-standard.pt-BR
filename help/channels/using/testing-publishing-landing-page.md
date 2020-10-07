@@ -9,10 +9,8 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 discoiquuid: f7d4bb71-f957-4f86-97c7-8ac0a0030026
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 32f3b8ac0108bbce10e443c39f1f766ddf97db84
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 100%
