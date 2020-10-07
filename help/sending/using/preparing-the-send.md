@@ -9,10 +9,11 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 discoiquuid: 003abc83-7f07-471f-ab2f-1d352d22c26f
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 5%
 
 ---
 
@@ -37,7 +38,7 @@ A preparação corresponde à etapa de cálculo da população do público alvo 
 
    ![](assets/preparing_delivery_6.png)
 
-1. Sua mensagem é salva automaticamente durante a preparação para a fase de delivery. Se precisar fazer alterações no agendamento da sua mensagem após a etapa de preparação, será necessário clicar no **[!UICONTROL Prepare]** botão novamente para que essas alterações sejam levadas em consideração. Para obter mais informações sobre como agendar uma mensagem, consulte esta [página](../../sending/using/about-scheduling-messages.md).
+1. Sua mensagem é salva automaticamente durante a preparação para a fase de delivery. Se precisar fazer alterações no agendamento da sua mensagem após a etapa de preparação, será necessário clicar no **[!UICONTROL Prepare]** botão novamente para que essas alterações sejam levadas em consideração. For more information on how to schedule a message, refer to this [page](../../sending/using/about-scheduling-messages.md).
 
    ![](assets/preparing_delivery_5.png)
 
@@ -57,7 +58,7 @@ Quando a preparação estiver concluída, sua mensagem estará pronta para ser e
 
 **Regras de tipologia**
 
-O Adobe Campaign vem com um conjunto de regras de tipologia incorporadas que são aplicadas durante a preparação da mensagem. Eles são usados para verificar se uma mensagem é válida e atende aos seus critérios de qualidade. Consulte [Tipologias](../../sending/using/about-typology-rules.md). Você pode definir suas próprias regras de tipologia, por exemplo, pode definir regras globais de fadiga entre canais que excluirão automaticamente perfis supersolacionados do campanha. Consulte Regras de [fadiga](../../sending/using/fatigue-rules.md).
+O Adobe Campaign vem com um conjunto de regras de tipologia incorporadas que são aplicadas durante a preparação da mensagem. Eles são usados para verificar se uma mensagem é válida e atende aos seus critérios de qualidade. Consulte [Tipologias](../../sending/using/about-typology-rules.md). Você pode definir suas próprias regras de tipologia, por exemplo, pode definir regras globais de fadiga entre canais que excluirão automaticamente perfis supersolacionados do campanha. Consulte [Regras de fadiga](../../sending/using/fatigue-rules.md).
 
 **Verificação de mensagem SMS**
 
