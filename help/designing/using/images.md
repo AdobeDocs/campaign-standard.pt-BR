@@ -9,10 +9,11 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 881c89272884c6340e170ab13e84612a5af19acd
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '303'
+ht-degree: 7%
 
 ---
 
@@ -21,21 +22,21 @@ source-git-commit: 881c89272884c6340e170ab13e84612a5af19acd
 
 ## Inserção de imagens{#inserting-images}
 
-Você pode inserir imagens em seus emails e páginas iniciais.
+Você pode inserir imagens em seus emails e landings page.
 
 Os seguintes tipos de imagens estão disponíveis, dependendo de sua configuração:
 
 * Imagens locais
-* Imagens compartilhadas da Adobe Experience Cloud - consulte [Trabalhar com o Campaign e os ativos Principais serviços](../../integrating/using/working-with-campaign-and-assets-core-service.md) / Ativos sob demanda
-* Imagens dinâmicas do Adobe Target - consulte [Trabalhar com o Campaign e o Target](../../integrating/using/about-campaign-target-integration.md)
+* Imagens compartilhadas da Adobe Experience Cloud - consulte [Trabalhar com a Campanha e os ativos Principais serviços](../../integrating/using/working-with-campaign-and-assets-core-service.md) / Ativos sob demanda
+* Imagens dinâmicas do Adobe Target - consulte [Trabalhar com Campanha e Público alvo](../../integrating/using/about-campaign-target-integration.md)
 
 >[!CAUTION]
 >
 >Se você optar por adicionar uma imagem diretamente editando a versão HTML do email, não deverá chamar arquivos **externos em uma tag** &lt;script> da página HTML. Esses arquivos não serão importados para o servidor do Adobe Campaign.
 
-### Inserir imagens em um email {#inserting-images-in-an-email}
+### Inserting images in an email {#inserting-images-in-an-email}
 
-1. Adicione um componente de estrutura. Para obter mais informações, consulte [Edição da estrutura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de email.
+1. Adicione um componente de estrutura. Para obter mais informações, consulte [Edição da estrutura do email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Dentro desse componente de estrutura, adicione um componente de **[!UICONTROL Image]** conteúdo.
 
    ![](assets/des_insert_images_1.png)
@@ -55,9 +56,9 @@ Quando um bloco que contém uma imagem é selecionado, as seguintes propriedades
 
 * **Ativar personalização** permite personalizar a fonte de imagem. Consulte [Personalização de uma fonte](../../designing/using/personalization.md#personalizing-an-image-source)de imagem.
 * **Título** da imagem permite definir um título para a imagem.
-* **O texto** alternativo (email) ou **Legenda** (página inicial) permite que você defina a legenda vinculada à imagem (corresponde ao atributo HTML **alternativo** ).
+* **O texto** alternativo (email) ou **Legenda** (landing page) permite que você defina a legenda vinculada à imagem (corresponde ao atributo HTML **alternativo** ).
 * Ao editar um email, o **Estilo** permite especificar o tamanho da imagem, o plano de fundo e a borda.
-* Ao editar uma página inicial, as **Dimensões** permitem que você especifique o tamanho da imagem em pixels.
+* Ao editar uma landing page, as **Dimension** permitem que você especifique o tamanho da imagem em pixels.
 
 O editor permite trabalhar com **todos os tipos** de imagem cujos formatos são compatíveis com os navegadores. Para serem compatíveis com o editor, as animações **do tipo** &quot;Flash&quot; devem ser inseridas em uma página HTML da seguinte forma:
 
