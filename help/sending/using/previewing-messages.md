@@ -9,13 +9,11 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '624'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -38,7 +36,7 @@ Para pré-visualização de uma mensagem usando perfis de teste, siga estas etap
 
    Uma visualização de desktop e uma visualização móvel responsiva do seu email são exibidas lado a lado.
 
-1. Uma verificação automática de antisspam é executada durante cada pré-visualização. Clique no **[!UICONTROL Anti-spam analysis]** botão para saber mais sobre o aviso.
+1. Uma verificação automática de antispam é executada durante cada pré-visualização. Click the **[!UICONTROL Anti-spam analysis]** button to find out more about the warning.
 
    ![](assets/sending_anti-spam_analysis.png)
 
