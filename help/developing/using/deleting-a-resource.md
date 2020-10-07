@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 0130733d-4e3f-40cd-b959-56381f2c8f44
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '241'
+ht-degree: 14%
 
 ---
 
@@ -31,7 +32,7 @@ Para excluir um recurso, o recurso em questão deve ser um **[!UICONTROL Draft]*
 Para redesenhar e excluir um recurso publicado:
 
 1. Selecione o recurso que deseja redesenhar.
-1. Clique no **[!UICONTROL Re-draft]** botão na barra de ações.
+1. Clique no botão **[!UICONTROL Re-draft]** na barra de ações.
 
    ![](assets/schema_extension_uc26.png)
 
@@ -45,7 +46,7 @@ Para redesenhar e excluir um recurso publicado:
 
    >[!NOTE]
    >
-   >Se você redesenhar uma extensão do recurso predefinido de **Perfis (perfil)** , também será necessário redesenhar qualquer extensão de perfil **de teste (sementeMember)** que você tenha definido. Para obter mais informações sobre a extensão do recurso de perfil, consulte [esta seção](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
+   >Se você redesenhar uma extensão do recurso predefinido de **Perfis (perfil)** , também será necessário redesenhar qualquer extensão de perfil **de teste (sementeMember)** que você tenha definido. For more on extending the profile resource, see [this section](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
 
 1. Publique o recurso. Para obter etapas mais detalhadas, consulte [Publicação de um recurso](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)personalizado.
 
