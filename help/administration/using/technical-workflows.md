@@ -1,6 +1,6 @@
 ---
-title: Fluxos de trabalho técnicos
-description: Fluxos de trabalho técnicos  são fluxos de trabalho prontos para uso, criados para lidar com os processos técnicos em segundo plano no Adobe Campaign, garantindo o comportamento correto da plataforma.
+title: 'Fluxos de trabalho técnicos '
+description: Os workflows técnicos são workflows prontos para uso, projetados para lidar com processos técnicos em segundo plano no Adobe Campaign, garantindo o comportamento correto da plataforma.
 page-status-flag: never-activated
 uuid: 6e763dc1-e1d3-4d94-bc0b-ef5b1703d8e5
 contentOwner: sauviat
@@ -9,13 +9,11 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 discoiquuid: e9f147bd-6a5b-4b82-b9bb-311e38e22c62
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '678'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
