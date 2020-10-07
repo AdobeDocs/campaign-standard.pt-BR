@@ -1,5 +1,5 @@
 ---
-title: Chamada de um fluxo de trabalho com parâmetros externos
+title: Chamada de workflow com parâmetros externos
 description: Esta seção detalha como chamar um fluxo de trabalho com parâmetros externos.
 page-status-flag: never-activated
 uuid: beccd1b6-8e6d-4504-9152-9ff537459c4a
@@ -9,10 +9,8 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: ed920a9b08eb664c2825ba785c75092eb0f2be1e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 1%
