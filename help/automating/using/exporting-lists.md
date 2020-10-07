@@ -1,6 +1,6 @@
 ---
 title: Exportar listas
-description: 'O Adobe Campaign permite exportar os dados exibidos como listas de uma tela de visão geral diretamente em um arquivo para uso futuro. '
+description: 'A Adobe Campaign permite exportar os dados exibidos como lista de uma tela de visão geral diretamente em um arquivo para uso futuro. '
 page-status-flag: never-activated
 uuid: c64fe706-bd6e-4746-958e-f94226f4e2cb
 contentOwner: sauviat
@@ -9,46 +9,47 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: 12c874da-435f-44b6-a3c8-873301e177cc
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e35fdca6cb8cad79975f8150aa63bd65e50a4e1a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '423'
+ht-degree: 5%
 
 ---
 
 
 # Exportar listas{#exporting-lists}
 
-O Adobe Campaign permite exportar suas listas diretamente em um arquivo para uso futuro. Exportar uma lista em um arquivo gera uma entrada de log no **[!UICONTROL Export audits]**menu. Para obter mais informações sobre auditorias de exportação, consulte a seção[Auditando exportações](../../administration/using/auditing-export-logs.md).
+A Adobe Campaign permite exportar suas listas diretamente em um arquivo para uso futuro. Exportar uma lista em um arquivo gera uma entrada de log no **[!UICONTROL Export audits]** menu. Para obter mais informações sobre auditorias de exportação, consulte a seção [Auditar exportações](../../administration/using/auditing-export-logs.md).
 
-A opção de lista de exportação permite exportar um máximo de 100.000 linhas por padrão e definidas pela opção **Nms_ExportListLimit** . Essa opção pode ser gerenciada pelo administrador funcional, no menu **[!UICONTROL Administration]**>**[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
+The export list option allows you to export a maximum of 100,000 lines by default and defined by the **Nms_ExportListLimit** option. This option can be managed by the functional administrator, under the **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu.
 
-A lista Exportar está disponível em todas as telas que têm uma exibição no modo **Lista** , para usuários com a **[!UICONTROL EXPORT (export)]**função.
+A lista de exportação está disponível em todas as telas que têm uma visualização no modo de **Lista** , para usuários com a **[!UICONTROL EXPORT (export)]** função.
 
-1. Vá para a tela **Lista** escolhida. Por exemplo, a tela de visão geral do perfil de teste ( **[!UICONTROL Profiles & audiences]**>**[!UICONTROL Test profiles]** ).
-1. Verifique se a tela está no modo **Lista** .
+1. Vá para a tela de **Lista** escolhida. Por exemplo, a tela de visão geral do perfil de teste ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ).
+1. Verifique se a tela está no modo de **Lista** .
 
    ![](assets/export_list_mode_switch.png)
 
-1. Organize as colunas na lista na ordem em que deseja exportá-las usando o **[!UICONTROL Configure list]**botão, no canto superior direito. Além das colunas configuradas, a chave primária do recurso também será exportada.
+1. Organize as colunas na lista na ordem em que deseja exportá-las usando o **[!UICONTROL Configure list]** botão, no canto superior direito. Além das colunas configuradas, a chave primária do recurso também será exportada.
 1. Se desejar, você pode aplicar um filtro. Para fazer isso, clique no botão no canto superior esquerdo para mostrar o painel de pesquisa.
 
-   Se você realizar uma exportação de uma lista que contém recursos diferentes, deverá aplicar seus filtros para que apenas um tipo de recurso seja exibido na lista.
+   Se você realizar uma exportação de uma lista contendo recursos diferentes, deverá aplicar seus filtros para que apenas um tipo de recurso seja exibido na lista.
 
 1. Se desejar, classifique a(s) coluna(s) escolhida(s).
 1. Selecione o botão exportar ![](assets/exportlistbutton.png).
 
    Um pop-up será exibido para confirmar a exportação. Após confirmar a exportação, o arquivo será baixado automaticamente no computador.
 
-O arquivo é gerado no formato CSV com uma extensão .TXT. É nomeado de acordo com o recurso exportado e a data de exportação. Por exemplo: o nome profileBase_20150426_120253.txt seria aplicado a uma exportação de perfil realizada em 26 de abril de 2015 às 12:02:53. É codificado no formato UTF-8.
+O arquivo é gerado no formato CSV com uma extensão .TXT. É nomeado de acordo com o recurso exportado e a data de exportação. Por exemplo: o nome profileBase_20150426_120253.txt seria aplicado a uma exportação de perfil realizada em 26 de abril de 2015 às 12:02:53. Ele é codificado no formato UTF-8.
 
 Os valores numéricos e as datas levam em conta a hora local (localidade) do usuário que realiza a exportação. Por exemplo: DD-MM-AAAA ou MM-DD-AAAA.
 
-Para realizar uma exportação maior que essa, é necessário criar um fluxo de trabalho dedicado. Consulte a seção [Extrair arquivo](../../automating/using/extract-file.md) .
+Para realizar uma exportação maior que essa, é necessário criar um fluxo de trabalho dedicado. Refer to the [Extract file](../../automating/using/extract-file.md) section.
 
 **Exemplo**
 
-O exemplo a seguir é uma exportação realizada da lista de perfis definida abaixo:
+O exemplo a seguir é uma exportação realizada a partir da lista de perfil definida abaixo:
 
 * Colunas exibidas (em ordem): Sobrenome, Nome, Data de nascimento, Endereço de email.
 * Os nomes são classificados em ordem alfabética.
@@ -75,4 +76,4 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 * [Funções](../../administration/using/list-of-roles.md)
 * [Personalização de listas](../../start/using/customizing-lists.md)
-* [Configuração do vídeo da lista](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/configure-a-list.html)
+* [Configuração do vídeo de lista](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/configure-a-list.html)
