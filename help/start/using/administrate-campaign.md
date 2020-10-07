@@ -1,6 +1,6 @@
 ---
 title: Personalização de listas
-description: '"Saiba como personalizar a exibição e agir em telas de lista no Adobe Campaign Standard: classificar, filtrar, excluir ou duplicar elementos. As telas do Lista exibem elementos de um ou vários recursos especificados."'
+description: '"Saiba como personalizar a exibição e agir em telas de lista no Adobe Campaign Standard:classificar, filtrar, excluir ou duplicar elementos. As telas do Lista exibem elementos de um ou vários recursos especificados."'
 page-status-flag: never-activated
 uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
 contentOwner: sauviat
@@ -9,10 +9,11 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 49d76d7a1c0e12369ab1c533adca9f3da19946a8
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '295'
+ht-degree: 8%
 
 ---
 
@@ -35,14 +36,14 @@ source-git-commit: 49d76d7a1c0e12369ab1c533adca9f3da19946a8
     </td>
 </tr>
 <tr>
-<td>Modelo de dados de Campanha</td>
+<td>Modelo de dados do Campaign</td>
 <td>Trabalhar com APIs REST</td>
 <td>Gerenciar usuários</td>
 <td>Configure e monitore sua instância</td>
 </tr>
 </table>
 
-## Modelo de dados de Campanha
+## Modelo de dados do Campaign
 
 <img width="60px" alt="condições" src="assets/icon_profile.svg"/>
 
