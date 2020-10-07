@@ -1,6 +1,6 @@
 ---
 title: Personalização de listas
-description: '"Saiba como personalizar a exibição e agir em telas de lista em Adobe Campaign Standard: classificar, filtrar, excluir ou duplicar elementos. As telas do Lista exibem elementos de um ou vários recursos especificados."'
+description: '"Saiba como personalizar a exibição e agir em telas de lista no Adobe Campaign Standard:classificar, filtrar, excluir ou duplicar elementos. As telas do Lista exibem elementos de um ou vários recursos especificados."'
 page-status-flag: never-activated
 uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
 contentOwner: sauviat
@@ -9,13 +9,11 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '788'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
@@ -38,18 +36,18 @@ ht-degree: 9%
     </td>
 </tr>
 <tr>
-<td>perfis do cliente</td>
+<td>Perfis do cliente</td>
 <td>Enriquecendo seu banco de dados</td>
 <td>Organizar suas audiências</td>
 <td>Gerenciamento de privacidade</td>
 </tr>
 </table>
 
-## perfis do cliente {#customer-profiles}
+## Perfis do cliente {#customer-profiles}
 
 <img width="60px" alt="condições" src="assets/icon_profile.svg"/>
 
-perfis Adobe Campaign representam todos os contatos armazenados no banco de dados. Cada perfil corresponde a uma entrada no banco de dados que contém as informações necessárias para que o perfil seja direcionado, qualificado e rastreado individualmente. Isso significa que um perfil pode ser: um cliente, um prospecto, um indivíduo inscrito em um boletim informativo, um recipient, um usuário ou qualquer outra denominação dependendo da organização.
+Os perfis Adobe Campaign representam todos os contatos armazenados no banco de dados. Cada perfil corresponde a uma entrada no banco de dados que contém as informações necessárias para que o perfil seja direcionado, qualificado e rastreado individualmente. Isso significa que um perfil pode ser: um cliente, um prospecto, um indivíduo inscrito em um boletim informativo, um recipient, um usuário ou qualquer outra denominação dependendo da organização.
 
 **Leia mais**
 
@@ -64,7 +62,7 @@ O Campaign Standard oferta várias ferramentas para ajudá-lo a expandir seu ban
 
 ### Importação de dados por meio de workflows {#importing-data-through-workflows}
 
-Os Workflows permitem coletar dados e importá-los para o banco de dados de Campanha por meio do uso do [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) atividade. As informações genéricas e as práticas recomendadas ao importar dados por meio de workflows são apresentadas [nesta seção](../../automating/using/about-data-import-and-export.md).
+Os workflows permitem coletar dados e importá-los para o banco de dados de Campanha por meio do uso do [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) atividade. As informações genéricas e as práticas recomendadas ao importar dados por meio de workflows são apresentadas [nesta seção](../../automating/using/about-data-import-and-export.md).
 
 Além disso, você pode configurar modelos para importar dados. Usar templates de importação é uma prática recomendada se você precisar importar arquivos com a mesma estrutura regularmente. Você pode configurar dois tipos de modelos:
 
@@ -80,7 +78,7 @@ Landing page são formulários da Web que podem ser usados para coletar dados e 
 * Mapeie cada campo de entrada com o campo correspondente do banco de dados.
 * Disponibilize a landing page on-line por um site ou por meio de um link direto em uma mensagem.
 
-Para obter mais informações sobre o landing page, consulte a documentação [](../../channels/using/getting-started-with-landing-pages.md)dedicada.
+For more on landing pages, refer to the [dedicated documentation](../../channels/using/getting-started-with-landing-pages.md).
 
 **Leia mais**
 
@@ -118,7 +116,7 @@ As APIs de Campaign Standard permitem que você execute operações para atualiz
 
 <img width="60px" alt="condições" src="assets/icon_audience.svg"/>
 
-Para permitir que você forneça mensagens relevantes e eficazes e envolva seus clientes com eficiência, o Adobe Campaign integra funcionalidades avançadas de análise e segmentação.
+Para permitir que você forneça mensagens relevantes e eficazes e envolva seus clientes com eficiência, a Adobe Campaign integra funcionalidades avançadas de análise e direcionamento.
 
 Graças aos workflows e ao editor de query, você pode criar audiências que serão direcionadas pelas suas diferentes campanhas, dependendo das informações que você tiver sobre elas, suas atividades, seus idiomas, suas preferências ou seus históricos de marketing. Isso permite que você filtre perfis inscritos, por exemplo, ou crie audiências de públicos alvos em um número ilimitado de critérios.
 
@@ -131,9 +129,9 @@ Graças aos workflows e ao editor de query, você pode criar audiências que ser
 
 <img width="60px" alt="condições" src="assets/icon_privacy.svg"/>
 
-O GDPR é a nova lei de privacidade da União Europeia que concilia e moderniza os requisitos de proteção de dados. O GDPR aplica-se aos clientes do Adobe Campaign que coletam dados de residentes da UE. Além dos recursos de privacidade já disponíveis no Adobe Campaign (incluindo gerenciamento de consentimento, configurações de retenção de dados e funções de usuário), estamos aproveitando essa oportunidade em nossa função de Processador de dados para incluir recursos adicionais, para ajudar a facilitar sua preparação como Controlador de dados para determinadas solicitações do RGPD.
+O GDPR é a nova lei de privacidade da União Europeia que concilia e moderniza os requisitos de proteção de dados. O GDPR aplica-se aos clientes do Adobe Campaign que coletam dados de residentes da UE. Além dos recursos de privacidade já disponíveis na Adobe Campaign (incluindo gerenciamento de consentimento, configurações de retenção de dados e funções de usuário), estamos aproveitando essa oportunidade em nossa função de Processador de dados para incluir recursos adicionais, para ajudar a facilitar sua preparação como Controlador de dados para determinadas solicitações do RGPD.
 
-Consulte este [guia](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html) para saber mais sobre as ferramentas e funcionalidades fornecidas pelo Adobe Campaign para ajudá-lo a se tornar compatível com o RGPD.
+Consulte este [guia](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html) para saber mais sobre as ferramentas e funcionalidades fornecidas pela Adobe Campaign para ajudá-lo a se tornar compatível com o RGPD.
 
 **Leia mais**
 
