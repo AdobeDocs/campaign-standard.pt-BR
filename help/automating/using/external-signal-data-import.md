@@ -10,24 +10,22 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
 context-tags: signal,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 0%
+ht-degree: 79%
 
 ---
 
 
-# Sinal externo e importação de dados {#external-signal-data-import}
+# External signal and data import {#external-signal-data-import}
 
-O exemplo a seguir ilustra a **[!UICONTROL External signal]** atividade em um caso de uso comum. Uma importação de dados é executada em um fluxo de trabalho de origem. Quando a importação for concluída e o banco de dados for atualizado, um segundo fluxo de trabalho será acionado. Esse segundo fluxo de trabalho é usado para atualizar uma agregação nos dados importados.
+O exemplo a seguir ilustra a atividade **[!UICONTROL External signal]** em um caso de uso comum. Uma importação de dados é realizada em um workflow de origem. Quando a importação for concluída e o banco de dados for atualizado, um segundo workflow será acionado. Esse segundo workflow é usado para atualizar uma agregação nos dados importados.
 
-O fluxo de trabalho de origem é apresentado da seguinte maneira:
+O workflow de origem é apresentado da seguinte maneira:
 
-* Uma atividade [Carregar arquivo](../../automating/using/load-file.md) carrega um arquivo contendo novos dados de compra. Observe que o [banco de dados foi estendido](../../developing/using/data-model-concepts.md) de acordo com esse procedimento, pois os dados de compra não estão presentes por padrão no datamart.
+* Uma atividade [Load file](../../automating/using/load-file.md) carrega um arquivo contendo novos dados de compra. Observe que o [banco de dados foi estendido](../../developing/using/data-model-concepts.md) de acordo, pois dados de compra não estão presentes por padrão no datamart.
 
    Por exemplo:
 
@@ -42,15 +40,15 @@ O fluxo de trabalho de origem é apresentado da seguinte maneira:
    ```
 
 * Uma atividade de [Reconciliação](../../automating/using/reconciliation.md) cria os links entre os dados importados e o banco de dados para que os dados de transações sejam conectados corretamente a perfis e produtos.
-* Uma atividade de dados [](../../automating/using/update-data.md) Update insere e atualiza o recurso Transações do banco de dados com os dados recebidos.
-* Uma atividade [End](../../automating/using/start-and-end.md) aciona o fluxo de trabalho de destino, que é usado para atualizar o agregação.
+* Uma atividade [Atualizar dados](../../automating/using/update-data.md) insere e atualiza o recurso Transações do banco de dados com os dados recebidos.
+* An [End](../../automating/using/start-and-end.md) activity triggers the destination workflow, which is used to update aggregates.
 
 ![](assets/signal_example_source1.png)
 
-O fluxo de trabalho de destino é apresentado da seguinte forma:
+O workflow de destino é apresentado da seguinte forma:
 
-* Uma atividade de sinal [](../../automating/using/external-signal.md) externo aguarda a conclusão com êxito do fluxo de trabalho de origem.
-* Um perfil de públicos alvos de atividade [de](../../automating/using/query.md#enriching-data) Querye os enriquece com uma coleção definida para recuperar a data da última compra.
-* Uma atividade de dados [](../../automating/using/update-data.md) Update armazena os dados adicionais em um campo personalizado dedicado. Observe que o recurso de perfil foi estendido para adicionar o campo Data **da** última compra.
+* An [External signal](../../automating/using/external-signal.md) activity waits for the source workflow to be successfully finished.
+* Uma atividade de [Query](../../automating/using/query.md#enriching-data) é direcionada a perfis e os enriquece com uma coleção definida para recuperar a data da última compra.
+* Uma atividade [Atualizar dados](../../automating/using/update-data.md) armazena os dados adicionais em um campo personalizado dedicado. Observe que o recurso de perfil foi estendido para adicionar o campo **Last purchase date**.
 
 ![](assets/signal_example_source2.png)
