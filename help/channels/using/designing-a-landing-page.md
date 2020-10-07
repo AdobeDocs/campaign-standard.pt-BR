@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: landing-pages
 discoiquuid: bd77d6f0-3143-4030-a91b-988a2bebc534
 context-tags: landingPage,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: d762c73e6816011340a85a3cf2aaa35f05ee0541
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '1662'
 ht-degree: 100%
 
