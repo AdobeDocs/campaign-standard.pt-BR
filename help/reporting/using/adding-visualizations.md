@@ -1,18 +1,19 @@
 ---
 title: Adicionar visualizações
-description: Os relatórios dinâmicos oferecem um conjunto de visualizações para adicionar uma representação gráfica ao seu relatório.
-page-status-flag: nunca ativado
+description: Relatórios dinâmicos oferta um conjunto de visualizações para adicionar uma representação gráfica ao seu relatório.
+page-status-flag: never-activated
 uuid: f4d851c1-8ef8-4295-a7bc-eb9608fbc497
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: relatório
-content-type: referência
-topic-tags: personalização de relatórios
+audience: reporting
+content-type: reference
+topic-tags: customizing-reports
 discoiquuid: 6170342b-7e16-4cc5-81a0-fa0bef8569a8
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '220'
+ht-degree: 1%
 
 ---
 
@@ -34,11 +35,12 @@ A guia **Visualizações** permite arrastar e soltar itens de visualização, co
 
    * **Porcentagens**: Exibe os valores em porcentagem.
    * **Âncora do eixo Y em zero**: Força o eixo y a zero mesmo se os valores estiverem acima de zero.
-   * **Legenda visível**: Permite esconder a lenda.
+   * **Legenda visível**: Permite que você oculte a lenda.
    * **Normalização**: Força a correspondência dos valores.
    * **Exibir eixo** duplo: Adiciona outro eixo ao seu gráfico.
    * **Limitar itens** máximos: Limita o número de gráficos exibidos.
    * **Limiar**: Permitem definir um limite para o seu gráfico. Aparece como uma linha pontilhada preta.
+
    ![](assets/dynamic_report_visualization_3.png)
 
-Essa visualização permite que você tenha uma exibição mais clara dos seus dados em seus relatórios.
+Essa visualização permite que você tenha uma visualização mais clara dos seus dados em seus relatórios.
