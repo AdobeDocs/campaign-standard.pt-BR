@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 767d4233236019213003961aae1abb317198e581
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 100%
 
