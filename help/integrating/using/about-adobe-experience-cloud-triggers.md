@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: working-with-campaign-and-triggers
 discoiquuid: e526b205-2d01-4a8b-9685-ba1d9a1f459f
 context-tags: trigger,overview;trigger,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 1e790f550f6eb84954f199caeda88a8fd90dfd85
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 100%
 
