@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,wait,delivery
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 73a91344ada17d6eb0da0335e08ea27a1019b4fb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
 
-# Criação de uma entrega entre canais{#cross-channel-delivery}
+# Criar um delivery em vários canais{#cross-channel-delivery}
 
 Este documento permite descobrir a seguinte funcionalidade do Adobe Campaign por meio de um caso de uso padrão: criação de um fluxo de trabalho de delivery entre canais.
 
@@ -54,7 +52,7 @@ Depois que o fluxo de trabalho for criado, você poderá acessar sua interface.
 
 Insira uma atividade Query em seu fluxo de trabalho para segmentar os perfis que receberão seus deliveries.
 
-1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arraste e solte uma atividade de [Query](../../automating/using/query.md) .
+1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arraste e solte uma atividade de [Query](../../automating/using/query.md).
 1. Clique duas vezes na atividade.
 1. Na guia **[!UICONTROL Target]**, navegue pelos atalhos e selecione uma dos [públicos-alvo](../../audiences/using/about-audiences.md).
 1. Arraste e solte o atalho na zona de edição. De acordo com o tipo de atalho selecionado, uma janela será exibida.
@@ -115,7 +113,7 @@ A segunda transição agora também está configurada.
 
 ![](assets/wkf_segment_transitions.png)
 
-## Criação de deliveries {#creating-deliveries}
+## Criar deliveries {#creating-deliveries}
 
 As two transitions were already created, you must now add two types of deliveries to the outbound transitions of the Segmentation activity: an [Email delivery](../../automating/using/email-delivery.md) activity and an [SMS delivery](../../automating/using/sms-delivery.md) activity.
 
