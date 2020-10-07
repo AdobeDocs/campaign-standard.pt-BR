@@ -1,6 +1,6 @@
 ---
 title: Personalização de listas
-description: '"Saiba como personalizar a exibição e agir em telas de lista em Adobe Campaign Standard: classificar, filtrar, excluir ou duplicar elementos. As telas do Lista exibem elementos de um ou vários recursos especificados."'
+description: '"Saiba como personalizar a exibição e agir em telas de lista no Adobe Campaign Standard:classificar, filtrar, excluir ou duplicar elementos. As telas do Lista exibem elementos de um ou vários recursos especificados."'
 page-status-flag: never-activated
 uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
 contentOwner: sauviat
@@ -9,10 +9,8 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 5%
@@ -77,7 +75,7 @@ Lorem ipsum dolor sit amet, consagrtetur adipiscing elit. Vestibulum placerat ma
 
 Obtenha a atenção de seus clientes e melhore sua taxa de resposta usando conteúdo e cabeçalhos que são personalizados de acordo com seus perfis, suas preferências e suas atividades. Todas as suas informações de cliente estão centralizadas no Adobe Campaign e você pode oferta mensagens com conteúdo adaptado, por meio de diferentes canais.
 
-As mensagens personalizadas são fundamentais para enviar conteúdo relevante, oferta experiências personalizadas e aumentar as taxas de conversão e as experiências abertas. As mensagens entre canais enviadas pelo Adobe Campaign podem ser personalizadas de várias maneiras diferentes. Essas maneiras podem ser combinadas com critérios dependendo dos perfis. É possível:
+As mensagens personalizadas são fundamentais para enviar conteúdo relevante, oferta experiências personalizadas e aumentar as taxas de conversão e as experiências abertas. As mensagens entre canais entregues pela Adobe Campaign podem ser personalizadas de várias maneiras diferentes. Essas maneiras podem ser combinadas com critérios dependendo dos perfis. Você pode:
 
 * Inserir campos de personalização [](../../designing/using/personalization.md#inserting-a-personalization-field) dinâmicos em suas mensagens
 * Insert [predefined personalization blocks](../../designing/using/personalization.md#adding-a-content-block)
@@ -98,7 +96,7 @@ As mensagens personalizadas são fundamentais para enviar conteúdo relevante, o
 
 <img width="60px" alt="condições" src="assets/icon_profile.svg"/>
 
-Além dos modelos de relatórios avançados e prontos para uso, o Adobe Campaign permite que você crie relatórios personalizados em um nível de delivery, campanha, usuário ou segmento. Rastreie suas mensagens e entenda o comportamento de seus clientes enriquecendo progressivamente seus dados de perfis. As ferramentas de Relatórios e análise permitem que você capitalize em cada nova campanha, público alvo melhor suas ações de marketing e otimize seu impacto e retorno sobre o investimento.
+Além dos modelos de relatórios avançados e prontos para uso, a Adobe Campaign permite que você crie relatórios personalizados em nível de delivery, campanha, usuário ou segmento. Rastreie suas mensagens e entenda o comportamento de seus clientes enriquecendo progressivamente seus dados de perfis. As ferramentas de relatórios e análise permitem que você capitalize em cada nova campanha, público alvo melhor suas ações de marketing e otimize seu impacto e retorno sobre o investimento.
 
 A interface gráfica fornece acesso rápido e fácil aos principais indicadores e estatísticas de delivery.
 
@@ -112,7 +110,7 @@ Com o Adobe Campaign, você pode monitorar e rastrear cada delivery individualme
 **Leia mais**
 
 * [Acesso ao relatórios](../../reporting/using/about-dynamic-reports.md)
-* [Monitoramento de uma entrega](../../sending/using/monitoring-a-delivery.md)
+* [Monitoramento de um delivery](../../sending/using/monitoring-a-delivery.md)
 * [Rastreamento de mensagens](../../sending/using/tracking-messages.md)
 
 ## Configurar relatórios
