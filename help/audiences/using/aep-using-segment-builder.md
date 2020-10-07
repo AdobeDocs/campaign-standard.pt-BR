@@ -1,5 +1,5 @@
 ---
-title: Uso do Construtor de segmentos
+title: Usar o Criador de segmentos
 description: Saiba como usar o Construtor de segmentos para criar audiências.
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
@@ -10,22 +10,20 @@ content-type: reference
 topic-tags: managing-audiences
 discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '878'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
-# Using the Segment Builder {#using-the-segment-builder}
+# Usar o Criador de segmentos {#using-the-segment-builder}
 
 >[!IMPORTANT]
 >
->O serviço Destinos de Audiência está atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam estar hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente da Adobe se desejar acessar.
+>O serviço Destinos de audiência está atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam estar hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente do Adobe se desejar acessá-lo.
 
 O Construtor de segmentos permite criar audiências definindo regras com base nos dados provenientes do Perfil [Cliente em tempo](https://docs.adobe.com/content/help/pt-BR/experience-platform/profile/home.html)real.
 
@@ -43,7 +41,7 @@ A interface do Construtor de segmentos é composta da seguinte maneira:
 
 Para criar um segmento, siga estas etapas:
 
-O Construtor de segmentos agora deve ser exibido em sua área de trabalho. Ele permite que você crie um segmento usando dados do Adobe Experience Platform que eventualmente serão usados para criar sua audiência.
+O Construtor de segmentos agora deve ser exibido em sua área de trabalho. Ele permite que você crie um segmento usando dados da Adobe Experience Platform que eventualmente serão usados para criar sua audiência.
 
 1. Nomeie o segmento e insira uma descrição (opcional).
 
@@ -73,11 +71,11 @@ Os campos listados são atributos capturados pela sua empresa e disponibilizados
 
 Os campos são organizados em guias:
 
-* **[!UICONTROL Attributes]**: Atributos de perfis existentes que podem se originar do banco de dados e/ou Adobe Experience Platform. Referem-se a informações estáticas anexadas a um perfil (por exemplo, endereço de email, país de residência, status do programa de fidelidade, etc.).
+* **[!UICONTROL Attributes]**: Atributos de perfis existentes que podem se originar do seu banco de dados Adobe Campaign e/ou Adobe Experience Platform. Referem-se a informações estáticas anexadas a um perfil (por exemplo, endereço de email, país de residência, status do programa de fidelidade, etc.).
 
    ![](assets/aep_audiences_attributestab.png)
 
-* **[!UICONTROL Events]**: Atividades que identificam os consumidores que tiveram alguma interação com seus pontos de contato com o empresa, como &quot;qualquer pessoa que solicitou duas vezes em duas semanas&quot;. Isso pode ser transmitido do Adobe Analytics ou ingerido diretamente no Adobe Experience Platform usando ferramentas ETL de terceiros.
+* **[!UICONTROL Events]**: Atividades que identificam os consumidores que tiveram alguma interação com seus pontos de contato com o empresa, como &quot;qualquer pessoa que solicitou duas vezes em duas semanas&quot;. Isso pode ser transmitido da Adobe Analytics ou ingerido diretamente no Adobe Experience Platform usando ferramentas ETL de terceiros.
 
    ![](assets/aep_audiences_eventstab.png)
 
@@ -85,7 +83,7 @@ Os campos são organizados em guias:
 >
 >**A segmentação** de várias entidades permite estender os dados do Perfil com dados adicionais baseados em produtos, lojas ou outras classes que não sejam de perfil. Depois de conectados, os dados de classes adicionais ficam disponíveis como se fossem nativos para o schema do Perfil.
 >
->For more on this, refer to the [dedicated documentation](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html).
+>Para obter mais informações, consulte a [documentação dedicada](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html).
 
 Por padrão, o Construtor de segmentos exibe campos nos quais os dados já estão presentes. Para exibir o schema completo, incluindo campos para os quais os dados não estão presentes, ative a opção **[!UICONTROL Show full XDM schema]** nas configurações.
 
@@ -129,7 +127,7 @@ Uma vez vinculadas, as duas regras formam um container.
 
 O Construtor de segmentos permite que você compare dois campos para definir uma regra. Por exemplo, mulheres cujo endereço residencial está em um CEP diferente do endereço profissional.
 
-Para fazer isso, siga estas etapas:
+Para fazer isso, siga estes passos:
 
 1. Arraste o primeiro campo que deseja comparar (por exemplo, o código postal do endereço residencial) para a área de trabalho central.
 
