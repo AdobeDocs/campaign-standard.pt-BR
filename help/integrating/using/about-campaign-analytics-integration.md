@@ -9,10 +9,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
 discoiquuid: 2ea51543-fe4d-462b-b47e-9ccaa1d68dfa
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3534fb2cf9f77168eb3ca0021f4121a44a57916d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 6%
