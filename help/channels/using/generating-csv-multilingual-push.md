@@ -9,10 +9,8 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 0%
@@ -151,13 +149,13 @@ Os seguintes idiomas são suportados:
 | en_us | Inglês - Estados Unidos |
 | en_zw | Inglês - Zimbábue |
 | et_ee | Estoniano - Estônia |
-| Francês_fi | Finlandês - Finlândia |
+| fi_fi | Finlandês - Finlândia |
 | fr_be | Francês - Bélgica |
-| fr_ca | de Francês - Canadá |
+| fr_ca | Francês - Canadá |
 | fr_fr | Francês - França |
 | fr_lu | Francês - Luxemburgo |
 | fr_ch | Francês - Suíça |
-| _de | Alemão - Áustria |
+| de_at | Alemão - Áustria |
 | de_de | Alemão - Alemanha |
 | de_lu | Alemão - Luxemburgo |
 | de_ch | Alemão - Suíça |
@@ -207,22 +205,22 @@ Os seguintes idiomas são suportados:
 | es_hn | Espanhol - Honduras |
 | es_mx | Espanhol - México |
 | es_ni | Espanhol - Nicarágua |
-| Espa_pa | Espanhol - Panamá |
-| _py | Espanhol - Paraguai |
+| es_pa | Espanhol - Panamá |
+| es_py | Espanhol - Paraguai |
 | es_pe | Espanhol - Peru |
 | es_pr | Espanhol - Porto Rico |
-| es_es | es - Espanha |
-| es_uy | se Espanhol - Uruguai |
-| Espe_ve | v. Espanhol - Venezuela |
+| es_es | Espanhol - Espanha |
+| es_uy | Espanhol - Uruguai |
+| es_ve | Espanhol - Venezuela |
 | sw_ke | Suaíli - Quênia |
 | sv_fi | Sueco - Finlândia |
-| sv_se | ta - Suécia |
-| - Ta_in | Tamil - Índia |
+| sv_se | Sueco - Suécia |
+| ta_in | Tamil - Índia |
 | tt_ru | Tártaro - Russo |
 | te_in | Telugu - Índia |
 | th_th | Tailandês - Tailândia |
-| tr_cy | es turcos - Chipre |
-| es_tr | Turco - Turquia |
+| tr_cy | Turco - Chipre |
+| tr_tr | Turco - Turquia |
 | uk_ua | Ucraniano - Ukrain |
 | ur_in | Urdu - Índia |
 | ur_pk | Urdu - Paquistão |
