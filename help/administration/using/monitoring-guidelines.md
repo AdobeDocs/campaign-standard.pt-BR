@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: 8b33e6af-15c3-4b30-8ad6-d76a1f33be21
 index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b4bac585ec25340d1f1d047f9a1f8dcd8e243821
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 9%
@@ -44,7 +42,7 @@ O Campaign Standard fornece várias maneiras de monitorar suas instâncias para 
 
 >[!NOTE]
 >
->Observe que o Painel de controle do Campaign é acessível somente para usuários administradores e está disponível para todos os clientes que usam o Adobe Managed Services.
+>Observe que o Painel de controle do Campaign é acessível somente para usuários administradores e está disponível para todos os clientes que usam os Serviços gerenciados da Adobe.
 
 **Objetos** técnicos O **[!UICONTROL Diagnosis]** menu é uma ferramenta essencial para monitorar e analisar os diferentes objetos técnicos gerados pelo aplicativo: schemas de dados, páginas da Web, trabalhos em lote etc. [Leia mais](../../developing/using/monitoring-data-model-changes.md)
 
@@ -67,7 +65,7 @@ O Campaign Standard fornece várias maneiras de monitorar suas instâncias para 
 **O**Campaign Standard de notificações permite enviar notificações aos supervisores para monitorar a execução dos fluxos de trabalho e verificar se há algum erro que exija sua atenção.
 [Leia mais](../../automating/using/monitoring-workflow-execution.md#error-management)
 
-## Monitoramento de deliveries {#monitoring-deliveries}
+## Monitorar deliveries {#monitoring-deliveries}
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
@@ -77,7 +75,7 @@ O Campaign Standard fornece várias maneiras de monitorar suas instâncias para 
 **Delivery**Depois que suas mensagens são enviadas, os registros detalhados permitem que você monitore os delivery e meça o sucesso de sua campanha, bem como rastreie o comportamento dos recipient de mensagens.
 [Leia mais](../../sending/using/monitoring-a-delivery.md)
 
-**Alertas**do Delivery Com o recurso de alerta do Delivery, você pode configurar alertas que serão enviados automaticamente para um grupo de usuários em relação à execução dos delivery: falha no envio ou preparação, taxa de rejeição ruim, baixa throughput etc.
+**Alertas**do delivery Com o recurso de alerta do Delivery, você pode configurar alertas que serão enviados automaticamente para um grupo de usuários em relação à execução dos delivery: falha no envio ou preparação, taxa de rejeição ruim, baixa throughput etc.
 [Leia mais](../../sending/using/receiving-alerts-when-failures-happen.md)
 
 **O Dynamic relatórios**Dynamic relatórios fornece vários relatórios para ajudá-lo a ser mantido informado sobre o desempenho de seus delivery: rejeições, entregas mais visualizadas por recipient, throughput de delivery etc.
