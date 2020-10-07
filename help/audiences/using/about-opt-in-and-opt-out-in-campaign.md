@@ -9,10 +9,8 @@ audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 2f26ec22-0809-4541-b2a1-e84ff868ba6e
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 9%
@@ -26,7 +24,7 @@ A opção de não participação resulta em um perfil que não é mais direciona
 
 Para dar aos perfis a capacidade de opt in ou opt out, é necessário criar uma landing page dedicada. Para obter mais informações, consulte [Configuração de landings page](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#setting-up-opt-in-and-opt-out-landing-pages)de aceitação e não participação.
 
-Os Perfis também podem ser opt in ou removidos manualmente por um operador. Para obter mais informações, consulte [Gerenciamento de participação e não participação de um perfil](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
+Os perfis também podem ser opt in ou removidos manualmente por um operador. Para obter mais informações, consulte [Gerenciamento de participação e não participação de um perfil](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
 
 Os perfis de opção são excluídos automaticamente durante a análise do delivery para acelerar os delivery (a taxa de erro tem um efeito significativo na velocidade do delivery).
 
