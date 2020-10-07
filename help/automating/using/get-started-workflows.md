@@ -1,5 +1,5 @@
 ---
-title: Introdução a processos e gestões de dados
+title: Introdução a processos e gerenciamento de dados
 description: Automatize processos com workflows, gerencie dados e audiências, envie mensagens e muito mais.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
@@ -9,18 +9,16 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5636b2ab5a673b0a52158b1a5411e090e4b45ca7
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
 
-# Introdução a processos e gestões de dados {#get-started-processes-data-management}
+# Introdução a processos e gerenciamento de dados {#get-started-processes-data-management}
 
 <table>
 <tr>
