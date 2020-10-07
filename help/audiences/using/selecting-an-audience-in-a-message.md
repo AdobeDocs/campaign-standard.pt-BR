@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: managing-audiences
 discoiquuid: 158da6ff-8899-4e7b-b925-8a42c3de46a1
 context-tags: deliveryCreation,wizard;delivery,audience,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e725ef966bcd6df84ed0c82e17fad65f289fd013
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 83%
