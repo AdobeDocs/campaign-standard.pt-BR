@@ -9,13 +9,11 @@ audience: designing
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
 discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c542859937ac60df9f76f5954a414575eac0e83d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -57,13 +55,13 @@ Para obter mais informações, consulte [Criar um email do zero](../../designing
 
 ## Por que preciso atualizar fragmentos?
 
-O Designer de e-mail está em melhoria contínua. Se você criou um conteúdo de email do zero, de um modelo predefinido ou se criou fragmentos, pode ser necessário atualizar o conteúdo para a versão mais recente para evitar problemas como problemas de colisão de CSS.
+O Designer de email está em melhoria contínua. Se você criou um conteúdo de email do zero, de um modelo predefinido ou se criou fragmentos, pode ser necessário atualizar o conteúdo para a versão mais recente para evitar problemas como problemas de colisão de CSS.
 
 Para obter mais informações, consulte [Atualização de fragmentos](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
 
 ## Posso salvar estilos em um tema?
 
-Os estilos não podem ser salvos como um tema para reutilização futura. Entretanto, o estilo CSS pode ser salvo em um modelo de conteúdo ou em um email.
+Os estilos não podem ser salvos como um tema para futura reutilização. Entretanto, o estilo CSS pode ser salvo em um modelo de conteúdo ou em um email.
 
 Para obter mais informações, consulte [Estilos](../../designing/using/styles.md)
 
