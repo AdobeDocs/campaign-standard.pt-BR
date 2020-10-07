@@ -1,6 +1,6 @@
 ---
 title: Atualização de dados usando reconciliação
-description: O exemplo a seguir demonstra um fluxo de trabalho que cria uma audiência de perfis diretamente de um arquivo importado que contém novos clientes.
+description: O exemplo a seguir demonstra um fluxo de trabalho que cria um público-alvo de perfis diretamente de um arquivo importado que contém novos clientes.
 page-status-flag: never-activated
 uuid: 7884db8c-1717-4724-be15-3b0b32ccc071
 contentOwner: sauviat
@@ -10,24 +10,22 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: cb8c43f4-9cdd-4e85-99a4-004b36b336aa
 context-tags: reconciliation,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 175709a41607bb9d64da7fac77dd749fa84f7360
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 0%
+ht-degree: 67%
 
 ---
 
 
 # Atualização de dados usando reconciliação {#data-update-reconciliation}
 
-O exemplo a seguir demonstra um fluxo de trabalho que cria uma audiência de perfis diretamente de um arquivo importado que contém novos clientes. É composto pelas seguintes atividades:
+O exemplo a seguir demonstra um fluxo de trabalho que cria um público-alvo de perfis diretamente de um arquivo importado que contém novos clientes. Ele é composto pelas seguintes atividades:
 
 ![](assets/identification_example2.png)
 
-* Uma atividade de arquivo [](../../automating/using/load-file.md) Load, que carrega e detecta os dados do arquivo a ser importado. O arquivo importado contém os seguintes dados:
+* A [Load file](../../automating/using/load-file.md) activity, which loads and detects tshe data of the file to import. O arquivo importado contém os seguintes dados:
 
    ```
    lastname;firstname;email;dateofbirth
@@ -42,10 +40,10 @@ O exemplo a seguir demonstra um fluxo de trabalho que cria uma audiência de per
    tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
    ```
 
-* Uma atividade de [Reconciliação](../../automating/using/reconciliation.md) , que vincula cada coluna do arquivo carregado a uma coluna de dimensão de perfil. Os registros de arquivos que não podem ser identificados (dados ausentes, tipo de dados incompatível etc.) são ignorados para preservar a integridade dos dados de audiência finais.
+* A [Reconciliation](../../automating/using/reconciliation.md) activity, which links each column of the loaded file to a profile dimension column. Os registros de arquivo que não podem ser identificados (dados ausentes, tipos de dados incompatíveis etc.) são ignorados para preservar a integridade dos dados finais do público-alvo.
 
    ![](assets/identification_example1.png)
 
-* Uma atividade [Salvar audiência](../../automating/using/save-audience.md) , que salva a audiência dos perfis.
+* A [Save audience](../../automating/using/save-audience.md) activity, which saves the audience of profiles.
 
    ![](assets/identification_example3.png)
