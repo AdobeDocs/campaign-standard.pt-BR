@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 80961e73-42ec-463a-8496-cff69fab0475
 context-tags: incremental,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 98%
