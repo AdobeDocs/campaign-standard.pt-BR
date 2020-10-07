@@ -10,48 +10,46 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
 context-tags: fileExport,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 2%
+ht-degree: 68%
 
 ---
 
 
 # Exportar perfis em um arquivo externo {#exporting-profiles-external-file}
 
-O exemplo a seguir ilustra como configurar uma **[!UICONTROL Extract file]** atividade após uma **[!UICONTROL Query]** atividade.
+O exemplo a seguir ilustra como configurar uma atividade **[!UICONTROL Extract file]** após uma atividade **[!UICONTROL Query]**.
 
-O objetivo desse fluxo de trabalho é exportar uma lista de perfis na forma de um arquivo externo para que os dados possam ser usados fora do Adobe Campaign.
+O objetivo desse fluxo de trabalho é exportar uma lista de perfis como um arquivo externo para que os dados sejam usados fora do Adobe Campaign.
 
-1. Arraste e solte uma atividade de arquivo [](../../automating/using/extract-file.md) Extract (Extrair) no fluxo de trabalho e coloque-a depois da atividade do [Query](../../automating/using/query.md) .
+1. Drag and drop an [Extract file](../../automating/using/extract-file.md) activity into your workflow and place it after the [Query](../../automating/using/query.md) activity.
 
-   Neste exemplo, o query é realizado em todos os perfis com idade entre 18 e 30 anos.
+   Neste exemplo, o query é realizado em todos os perfis entre 18 e 30 anos.
 
-1. Abra a **[!UICONTROL Extract file]** atividade para editá-la.
+1. Open the **[!UICONTROL Extract file]** activity to edit it.
 1. Nomeie o arquivo de saída.
-1. Adicionar colunas de saída.
+1. Adicione colunas de saída.
 
    Neste exemplo, o email, a idade, a data de nascimento, o nome e o sobrenome dos perfis são adicionados como colunas de saída.
 
    ![](assets/wkf_data_export6.png)
 
-1. Clique na **[!UICONTROL File structure]** guia para definir:
+1. Clique na guia **[!UICONTROL File structure]** para definir:
 
-   * Formato de saída CSV
+   * O formato de saída CSV
 
       ![](assets/wkf_data_export7.png)
 
-   * Formato de data
+   * O formato de data
 
       ![](assets/wkf_data_export9.png)
 
 1. Confirme sua atividade.
-1. Arraste e solte uma atividade [Transferir arquivo](../../automating/using/transfer-file.md) após a **[!UICONTROL Extract file]** atividade para recuperar o arquivo de extração em uma conta externa.
-1. Abra a atividade e escolha a **[!UICONTROL File upload]** ação.
+1. Drag and drop a [Transfer file](../../automating/using/transfer-file.md) activity after the **[!UICONTROL Extract file]** activity to recover the extract file on an external account.
+1. Abra a atividade e escolha a ação **[!UICONTROL File upload]**.
 
    ![](assets/wkf_data_export11.png)
 
@@ -59,7 +57,7 @@ O objetivo desse fluxo de trabalho é exportar uma lista de perfis na forma de u
 
    ![](assets/wkf_data_export12.png)
 
-1. Confirme sua atividade e salve seu fluxo de trabalho.
-1. Inicie o workflow.
+1. Confirme sua atividade e salve o fluxo de trabalho.
+1. Inicie o fluxo de trabalho.
 
    Quando o fluxo de trabalho for executado corretamente, o arquivo extraído estará disponível na conta externa.
