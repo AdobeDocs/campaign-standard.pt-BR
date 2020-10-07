@@ -1,5 +1,5 @@
 ---
-title: Monitorando uma solicitação de privacidade
+title: Monitoramento de uma solicitação de acesso a dados pessoais
 description: Saiba como monitorar uma solicitação de privacidade com APIs
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -9,19 +9,20 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '54'
+ht-degree: 25%
 
 ---
 
 
-# Monitorando uma solicitação de privacidade {#monitoring-a-privacy-request}
+# Monitoramento de uma solicitação de acesso a dados pessoais {#monitoring-a-privacy-request}
 
-Você pode monitorar informações sobre uma solicitação de privacidade criada usando uma solicitação **GET** .
+Você pode monitorar informações sobre uma solicitação de privacidade criada usando uma solicitação de **GET** .
 
-A descrição da lista de status está disponível na documentação [do Gerenciamento de](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)privacidade.
+A descrição da lista de status está disponível na documentação [do Gerenciamento de](https://helpx.adobe.com/br/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)privacidade.
 
 <br/>
 
@@ -35,7 +36,7 @@ A descrição da lista de status está disponível na documentação [do Gerenci
 -H 'Content-Type: application/json;charset=utf-8'
 ```
 
-Resposta à solicitação GET.
+Resposta à solicitação de GET.
 
 ```
 {
