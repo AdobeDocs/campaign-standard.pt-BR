@@ -9,31 +9,32 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 2%
 
 ---
 
 
 # Acionamento de uma atividade de sinal {#triggering-a-signal-activity}
 
-Em um fluxo de trabalho Adobe Campaign Standard, pode haver uma ou mais atividades de sinal **** externo. Essas atividades são &quot;ouvintes&quot; que esperam para serem acionadas.
+Em um fluxo de trabalho do Adobe Campaign Standard, pode haver uma ou mais atividades de sinal **** externo. Essas atividades são &quot;ouvintes&quot; que esperam para serem acionadas.
 
 As APIs de Campaign Standard permitem disparar uma atividade de sinal **** externo para chamar um fluxo de trabalho. A chamada da API pode incluir parâmetros que serão assimilados nas variáveis de eventos do fluxo de trabalho (um nome de audiência para público alvo, um nome de arquivo a ser importado, uma parte do conteúdo da mensagem etc.). Dessa forma, você pode integrar facilmente suas automações de Campanha ao seu sistema externo.
 
 >[!NOTE]
 >
->atividades de sinal externo não podem ser acionadas com mais frequência do que a cada 10 minutos e o fluxo de trabalho de destino já deve estar em execução.
+>Atividades de sinal externo não podem ser acionadas com mais frequência do que a cada 10 minutos e o fluxo de trabalho de destino já deve estar em execução.
 
 Para acionar um fluxo de trabalho, siga as etapas abaixo:
 
-1. Execute uma solicitação **GET** no fluxo de trabalho para recuperar o URL de disparo da atividade de sinal externo.
+1. Execute uma solicitação de **GET** no fluxo de trabalho para recuperar o URL de disparo da atividade de sinal externo.
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. Execute uma solicitação **POST** no URL retornado para disparar a atividade do sinal, com o parâmetro **&quot;source&quot;** na carga. Esse atributo é obrigatório, permite que você indique a fonte de solicitação de acionamento.
+1. Execute uma solicitação de **POST** no URL retornado para disparar a atividade do sinal, com o parâmetro **&quot;source&quot;** na carga. Esse atributo é obrigatório, permite que você indique a fonte de solicitação de acionamento.
 
 Se você quiser chamar o fluxo de trabalho com parâmetros, adicione-os à carga com o atributo **&quot;parameters&quot;** . A sintaxe consiste no nome do parâmetro seguido pelo seu valor (os seguintes tipos são suportados: **string**, **número**, **booleano** e **data/hora**).
 
@@ -64,7 +65,7 @@ Se você quiser chamar o fluxo de trabalho com parâmetros, adicione-os à carga
 
 ***Solicitação de amostra***
 
-Execute uma solicitação GET no fluxo de trabalho.
+Execute uma solicitação de GET no fluxo de trabalho.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID> \
@@ -93,7 +94,7 @@ Ele retorna a atividade do sinal de fluxo de trabalho e o url de disparo associa
 }
 ```
 
-Para disparar uma atividade de sinal, execute uma solicitação POST no url de disparo com a &quot;fonte&quot;. Adicione os atributos &quot;parâmetros&quot; se desejar chamar o fluxo de trabalho com parâmetros.
+Para disparar uma atividade de sinal, execute uma solicitação de POST no url de disparo com a &quot;fonte&quot;. Adicione os atributos &quot;parâmetros&quot; se desejar chamar o fluxo de trabalho com parâmetros.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \
@@ -117,7 +118,7 @@ Para disparar uma atividade de sinal, execute uma solicitação POST no url de d
 
 <!-- + réponse -->
 
-Se um dos parâmetros não for declarado na atividade de sinal externo, a solicitação POST retornará o erro abaixo, indicando qual parâmetro está ausente.
+Se um dos parâmetros não for declarado na atividade de sinal externo, a solicitação de POST retornará o erro abaixo, indicando qual parâmetro está ausente.
 
 ```
 RST-360011 An error has occurred - please contact your administrator.
