@@ -1,5 +1,5 @@
 ---
-title: Criar uma entrega semanal
+title: Criar um delivery semanal
 description: Este caso de uso mostra como criar um delivery semanal.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,delivery,scheduler
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 81%
@@ -31,7 +29,7 @@ Você pode enviar um email todas as terças-feiras a todos os clientes com ofert
 
 ## Criação de uma atividade do Scheduler{#creating-a-scheduler-activity}
 
-1. Em **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, arraste e solte uma atividade de [Scheduler](../../automating/using/scheduler.md) .
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, drag and drop a [Scheduler](../../automating/using/scheduler.md) activity.
 1. Clique duas vezes na atividade.
 1. Configure a execução do delivery.
 1. Em **[!UICONTROL Execution frequency]**, selecione **[!UICONTROL Weekly]**.
