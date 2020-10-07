@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: application-settings
 discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: fc1dc9ca876a0f18b2dad0e02331cfc05a799aad
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1252'
 ht-degree: 80%
