@@ -7,10 +7,11 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '216'
+ht-degree: 13%
 
 ---
 
@@ -24,7 +25,7 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
                   <th>Nome</th>
                   <th>Rótulo</th>
                   <th>Tipo (comprimento)</th>
-                  <th>Valores de enumeração</th>
+                  <th>valores de lista discriminada</th>
                </tr>
                <tr>
                   <td>PKey</td>
@@ -34,7 +35,7 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
                </tr>
                <tr>
                   <td>atividades</td>
-                  <td>Atividades</td>
+                  <td>Activities</td>
                   <td>coleção </td>
                   <td> </td>
                </tr>
@@ -45,7 +46,7 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
                   <td> </td>
                </tr>
                <tr>
-                  <td>created</td>
+                  <td>criado</td>
                   <td>Criado</td>
                   <td>date </td>
                   <td> </td>
@@ -64,7 +65,7 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
                </tr>
                <tr>
                   <td>duração</td>
-                  <td>Duração da campanha</td>
+                  <td>duração da campanha</td>
                   <td>número </td>
                   <td> </td>
                </tr>
@@ -88,7 +89,7 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
                </tr>
                <tr>
                   <td>isTemplate</td>
-                  <td>Modelo</td>
+                  <td>Template</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -107,7 +108,7 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
                <tr>
                   <td>logicalStatus</td>
                   <td>Status de execução</td>
-                  <td>enumeration (string) (255)</td>
+                  <td>lista discriminada (string) (255)</td>
                   <td>
                      <ul>
                         <li>Em andamento - iniciado - iniciado</li>
@@ -138,7 +139,7 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
                   <td> </td>
                </tr>
                <tr>
-                  <td>program (programBase)</td>
+                  <td>programa (programBase)</td>
                   <td>Programa</td>
                   <td>link </td>
                   <td> </td>
@@ -151,14 +152,14 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
                </tr>
                <tr>
                   <td>start</td>
-                  <td>Data de início</td>
+                  <td>data do start</td>
                   <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>status</td>
                   <td>Status</td>
-                  <td>enumeração (byte) </td>
+                  <td>lista discriminada (byte) </td>
                   <td>
                      <ul>
                         <li>Iniciado - iniciado - 1</li>
@@ -170,7 +171,7 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
                </tr>
                <tr>
                   <td>template (campanha)</td>
-                  <td>Modelo de campanha</td>
+                  <td>Template de campanha</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -182,7 +183,7 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
                </tr>
                <tr>
                   <td>título</td>
-                  <td>Campaign</td>
+                  <td>Campanha</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
@@ -199,7 +200,7 @@ Por status lógico (byLogicalStatus)
     </tr>
     <tr>
     <td>estado</td>
-    <td>enumeração</td>
+    <td>lista discriminada</td>
     </tr>
 </table>
 
@@ -242,11 +243,11 @@ Por status (por estado)
     </tr>
     <tr>
     <td>estado</td>
-    <td>enumeração</td>
+    <td>lista discriminada</td>
     </tr>
 </table>
 
-Incluir entregas contínuas de uma lista heterogênea (com Contínuo)
+Incluir delivery contínuos de uma lista heterogênea (comContínuo)
 
 <table>
     <tr>
