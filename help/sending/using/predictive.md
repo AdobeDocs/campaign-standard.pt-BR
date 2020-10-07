@@ -9,11 +9,9 @@ audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
 discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: c277a6cb18e9a1d83f8a2632049e7cea36414052
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 100%
 
