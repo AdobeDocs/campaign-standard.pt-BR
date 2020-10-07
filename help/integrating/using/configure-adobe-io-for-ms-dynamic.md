@@ -9,10 +9,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 60a67adf51881b785ad2f0b40ff544a0b9988afd
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 3%
