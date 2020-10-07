@@ -1,6 +1,6 @@
 ---
-title: Recuperando a unidade geográfica de um perfil
-description: Saiba como recuperar a unidade Geográfica de um perfil com APIs.
+title: Recuperação da unidade geográfica de um perfil
+description: Saiba como recuperar uma unidade geográfica do perfil com APIs.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -9,18 +9,19 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '80'
+ht-degree: 12%
 
 ---
 
 
-# Recuperando a unidade geográfica de um perfil {#retrieving-geographical-unit}
+# Recuperação da unidade geográfica de um perfil {#retrieving-geographical-unit}
 
-1. Execute uma solicitação GET no perfil PKey para recuperar o URL **geoUnit** .
-1. Execute uma solicitação GET no URL para recuperar mais detalhes sobre a unidade Geográfica.
+1. Execute uma solicitação de GET no PKey do perfil para recuperar o URL **geoUnit** .
+1. Execute uma solicitação de GET no URL para recuperar mais detalhes sobre a unidade Geográfica.
 
 <br/>
 
@@ -50,7 +51,7 @@ Ele retorna o URL geoUnit do perfil.
 }
 ```
 
-Execute uma solicitação GET no URL para recuperar mais informações.
+Execute uma solicitação de GET no URL para recuperar mais informações.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/<PKEY> \
