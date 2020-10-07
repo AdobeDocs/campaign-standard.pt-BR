@@ -9,13 +9,11 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 16%
+ht-degree: 24%
 
 ---
 
@@ -28,7 +26,7 @@ ht-degree: 16%
 <td><img src="assets/do-not-localize/icon_custom.svg" width="60px"><p><a href="#custom-resources">Recursos personalizados</a></p></td><td><img src="assets/do-not-localize/icon_api.svg" width="60px"><p><a href="#custom-resources">Trabalhar com APIs</a></p></td></tr>
 </table>
 
-Estenda o modelo de dados Campaign Standard com seus próprios campos e recursos e monitore todas as alterações no modelo de dados em uma única visualização.
+Estenda o modelo de dados do Campaign Standard com seus próprios campos e recursos e monitore todas as alterações no modelo de dados em uma única visualização.
 
 ## Modelo de dados {#data-model}
 
@@ -64,7 +62,7 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-Com as APIs de Campaign Standard, crie integrações para Adobe Campaign Standard e construa seu próprio ecossistema, interagindo a Campanha com o painel de tecnologias que você usa. [Introdução às APIs REST do Campaign Standard](../../api/using/get-started-apis.md)
+Com as APIs de Campaign Standard, crie integrações para Adobe Campaign Standard e construa seu próprio ecossistema, interagindo a Campanha com o painel de tecnologias que você usa. [Introdução às REST APIs do Campaign Standard](../../api/using/get-started-apis.md)
 
 ## Recursos adicionais
 
