@@ -9,11 +9,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 discoiquuid: null
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: b0c98e54893f1de5f378c74cec5182b1132ca995
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 100%
 
