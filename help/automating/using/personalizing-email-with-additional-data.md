@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 83%
+ht-degree: 86%
 
 ---
 
 
-# Personalizing an email with additional data {#example--personalizing-an-email-with-additional-data}
+# Personalização de um email com dados adicionais {#example--personalizing-an-email-with-additional-data}
 
 O exemplo a seguir ilustra a adição de diferentes tipos de dados adicionais a um query e o uso de cada um deles como campo de personalização em um email. Para obter mais informações sobre como aprimorar os dados direcionados por uma **[!UICONTROL Query]** atividade, consulte [esta seção](../../automating/using/query.md#enriching-data).
 
