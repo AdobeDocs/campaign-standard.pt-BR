@@ -9,10 +9,11 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '920'
+ht-degree: 3%
 
 ---
 
@@ -42,13 +43,13 @@ Antes de personalizar sua notificação por push multilíngue, precisamos primei
 >Você também pode ignorar essa etapa se quiser criar uma variante manualmente para cada variante de idioma.
 
 1. No **[!UICONTROL Marketing activities]**, clique no **[!UICONTROL Create]** botão e selecione **[!UICONTROL Push notification]**.
-1. Selecione o modelo **[!UICONTROL Send multilingual push to Campaign profiles]** **[!UICONTROL Send multilingual push to app subscriber]** se desejar público alvo dos perfis Adobe Campaign que se inscreveram no aplicativo móvel ou no modelo para enviar uma notificação por push a todos os usuários que opt in receber notificações do aplicativo móvel.
+1. Selecione o modelo **[!UICONTROL Send multilingual push to Campaign profiles]** se desejar público alvo dos perfis Adobe Campaign que assinaram seu aplicativo móvel ou o modelo **[!UICONTROL Send multilingual push to app subscriber]** para enviar uma notificação por push a todos os usuários que opt in receber notificações de seu aplicativo móvel.
 
    ![](assets/multivariant_push_2.png)
 
-1. Digite as propriedades de notificação por push e selecione o aplicativo móvel no **[!UICONTROL Associate a Mobile App to a delivery]** campo.
+1. Enter your push notification properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field.
 
-   Observe que o menu suspenso exibirá os aplicativos SDK V4 e SDKs da plataforma Adobe Experience.
+   Observe que o menu suspenso exibirá os aplicativos SDK V4 e SDKs do Adobe Experience Platform.
 
 1. Nas **[!UICONTROL Audiences]** janelas, arraste e solte query para ajustar sua audiência.
 
@@ -61,7 +62,7 @@ Antes de personalizar sua notificação por push multilíngue, precisamos primei
 
 1. Na **[!UICONTROL Manage Content Variants]** janela, arraste e solte o arquivo ou selecione um arquivo do computador.
 
-   O arquivo deve ser codificado em UTF8 e ter um layout específico que pode ser encontrado clicando na **[!UICONTROL Download the sample file]** opção. Você também deve usar a sintaxe apropriada para valores de localidade. Para obter mais informações sobre o formato de arquivo e as localidades compatíveis, consulte esta [nota técnica](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
+   O arquivo deve ser codificado em UTF8 e ter um layout específico que pode ser encontrado clicando na **[!UICONTROL Download the sample file]** opção. Você também deve usar a sintaxe apropriada para valores de localidade. Para obter mais informações sobre o formato de arquivo e as localidades compatíveis, consulte esta [nota técnica](https://helpx.adobe.com/br/campaign/kb/acs-generate-csv-multilingual-push.html).
 
    ![](assets/multivariant_push_4.png)
 
@@ -98,7 +99,7 @@ Também é possível criar e editar mais variantes além das que são carregadas
 
 1. Você também pode clicar em uma variante de conteúdo para personalizá-la ainda mais, por exemplo, com campos de personalização.
 
-   Para obter mais informações sobre como personalizar sua notificação por push, consulte esta [seção](../../channels/using/customizing-a-push-notification.md).
+   For more information on how to customize your push notification, refer to this [section](../../channels/using/customizing-a-push-notification.md).
 
    ![](assets/multivariant_push_9.png)
 
@@ -133,5 +134,5 @@ Agora você pode medir o impacto de seu delivery de notificação por push multi
 **Tópicos relacionados:**
 
 * [Relatório de notificação por push](../../reporting/using/push-notification-report.md)
-* [Envio de uma notificação por push em um fluxo de trabalho](../../automating/using/push-notification-delivery.md)
-* [Alcançar audiências multilíngues usando um fluxo de trabalho](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
+* [Enviar uma notificação por push em um workflow](../../automating/using/push-notification-delivery.md)
+* [Alcançar audiências multilíngues usando um fluxo de trabalho](https://helpx.adobe.com/br/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
