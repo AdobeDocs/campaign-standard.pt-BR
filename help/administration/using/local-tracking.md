@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d0a0c59763af8babc9701206cc39fe41b98e0cd4
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 1%
@@ -35,9 +33,9 @@ O rastreamento de notificação local pode ser dividido em três tipos:
 
 * **Abertura** local - Quando uma notificação local é entregue ao dispositivo e o usuário clica na notificação que faz com que o aplicativo seja aberto. É semelhante ao clique local, exceto que uma abertura local não será acionada se a notificação for descartada.
 
-Para implementar o rastreamento para o Adobe Campaign Standard, o aplicativo móvel precisa incluir o SDK móvel no aplicativo. Esses SDKs estão disponíveis em [!DNL Adobe Mobile Services].
+Para implementar o rastreamento para Adobe Campaign Standard, o aplicativo móvel precisa incluir o Mobile SDK no aplicativo. Esses SDKs estão disponíveis em [!DNL Adobe Mobile Services].
 
-Para enviar informações de rastreamento, há três variáveis que precisam ser enviadas: dois são parte dos dados recebidos do Adobe Campaign e o outro é uma variável de ação que determina se é uma impressão, um clique ou uma abertura.
+Para enviar informações de rastreamento, há três variáveis que precisam ser enviadas: dois são parte dos dados recebidos da Adobe Campaign e o outro é uma variável de ação que determina se é uma impressão, um clique ou uma abertura.
 
 | Variável | Valor |
 | :-: | :-: |
@@ -51,7 +49,7 @@ Para o rastreamento de impressão, é necessário enviar o valor &quot;7&quot; p
 
 ### Para Android {#implement-local-impression-tracking-android}
 
-O SDK do Adobe Experience Platform Mobile start o rastreamento de impressão para notificações locais ao acioná-lo.
+O Adobe Experience Platform Mobile SDK start o rastreamento de impressão para notificação local ao acioná-lo.
 
 ### Para iOS {#implement-local-impression-tracking-ios}
 
@@ -65,7 +63,7 @@ Para explicar como implementar o rastreamento de impressão, precisamos entender
 
 Para que o rastreamento de impressão ainda funcione enquanto o aplicativo está em segundo plano, precisamos enviar &quot;Content-Available&quot; para informar ao aplicativo que o rastreamento precisa ser feito.
 
-O SDK do Adobe Experience Platform Mobile start o rastreamento de impressão para notificações locais ao acioná-lo.
+O Adobe Experience Platform Mobile SDK start o rastreamento de impressão para notificação local ao acioná-lo.
 
 >[!CAUTION]
 >
@@ -83,7 +81,7 @@ Para rastrear cliques, dois cenários precisam ser tratados:
 
 * O usuário visualiza a notificação e clica nela, isso se tornará um rastreamento aberto.
 
-O primeiro cenário de clique é rastreado pelo SDK do Adobe Experience Platform Mobile.
+O primeiro cenário de clique é rastreado pelo Adobe Experience Platform Mobile SDK.
 
 ### Para iOS {#implement-click-tracking-ios}
 
@@ -153,7 +151,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
 
 Para rastrear a abertura, precisamos criar intenções. Objetos intencionais permitem que o sistema operacional Android chame seu método quando determinadas ações são executadas, nesse caso, clicando na notificação para abrir o aplicativo.
 
-Esse código é baseado na implementação do rastreamento de impressão de cliques. Com a definição de intenção, agora é necessário enviar as informações de rastreamento de volta para o Adobe Campaign. Nesse caso, a(s) Visualização([!DNL Activity]) do Android que acionou a notificação será(ão) aberta(s) ou colocada em primeiro plano como resultado do clique por usuário. O objeto intent em [!DNL Activity] contém os dados de notificação que podem ser usados para rastrear a abertura.
+Esse código é baseado na implementação do rastreamento de impressão de cliques. Com a definição de intenção, agora é necessário enviar informações de rastreamento de volta para a Adobe Campaign. Nesse caso, a(s) Visualização([!DNL Activity]) do Android que acionou a notificação será(ão) aberta(s) ou colocada em primeiro plano como resultado do clique por usuário. O objeto intent em [!DNL Activity] contém os dados de notificação que podem ser usados para rastrear a abertura.
 
 MainActivity.java (estende [!DNL Activity])
 
