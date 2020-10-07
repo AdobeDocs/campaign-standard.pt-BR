@@ -9,31 +9,32 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 4%
 
 ---
 
 
 # Atualização de perfis {#updating-profiles}
 
-A atualização de perfis é realizada com uma solicitação **PATCH** .
+A atualização de perfis é realizada com uma solicitação de **PATCH** .
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
-1. A primeira etapa é **recuperar o perfil**.
+1. O primeiro passo é **recuperar o perfil**.
 
-1. Em uma segunda solicitação, realizaremos uma solicitação **** PATCH no perfil com as informações completas na carga.
+1. Em uma segunda solicitação, realizaremos uma solicitação **de** PATCH no perfil com as informações completas na carga.
 
-1. Para verificar se a solicitação PATCH atualizou o perfil, podemos executar uma solicitação GET final.
+1. Para verificar se a solicitação de PATCH atualizou o perfil, é possível executar uma solicitação de GET final.
 
 <br/>
 
 ***Solicitação de amostra***
 
-Amostra de solicitação GET para recuperar um perfil.
+Amostra de solicitação de GET para recuperar um perfil.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>\
@@ -59,7 +60,7 @@ Resposta à solicitação.
 }
 ```
 
-Solicitação PATCH para atualizar o atributo "phone".
+PATCH para atualizar o atributo &quot;phone&quot;.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
