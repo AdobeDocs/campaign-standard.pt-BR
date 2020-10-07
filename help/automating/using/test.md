@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 2650bf1f-0bce-4049-a226-2369f6666b95
 context-tags: jstest,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 91%
