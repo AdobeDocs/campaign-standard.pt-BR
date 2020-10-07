@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 9dabb328-ac0c-49fd-8996-8d56341ee7ac
 context-tags: cusResource,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 100%
 
@@ -78,6 +76,7 @@ A seção **[!UICONTROL Detail screen configuration]** da definição de tela pe
    * **[!UICONTROL Value]**: é um campo somente leitura.
    * **[!UICONTROL List]**: é uma tabela.
    * **[!UICONTROL Separator]**: divide os elementos em categorias.
+
    ![](assets/schema_extension_23.png)
 
 1. O elemento adicionado é exibido na lista. Você pode editar seu rótulo.
