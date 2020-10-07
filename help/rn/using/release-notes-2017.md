@@ -9,10 +9,8 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '4627'
 ht-degree: 8%
@@ -93,7 +91,7 @@ _Fluxos de trabalho_
 * Correção de um problema com a **[!UICONTROL Reconciliation]** atividade.
 * Correção de um problema com o uso de caracteres curinga na **[!UICONTROL File Transfer]** atividade.
 
-_Perfis e públicos-alvo_
+_Perfis e públicos_
 
 * Correção de um problema que impedia que uma condição de um query fosse considerada corretamente em alguns casos específicos, resultando em resultados errados.
 * Correção de um problema que impedia que perfis fossem acessados se fossem direcionados para uma mensagem que foi preparada, mas nunca enviada e expirada.
@@ -174,7 +172,7 @@ _Integrações_
 * As eVars e eventos agora são compatíveis com a integração do Analytics e da Campanha.
 * Ao enviar um email com o conteúdo do carrinho abandonado, o parâmetro de carga para elementos removidos do carrinho agora é opcional.
 
-_Perfis e públicos-alvo_
+_Perfis e públicos_
 
 * A Adobe Campaign agora fornece um relatório que exibe o número de perfis ativos. Este relatório é apenas informativo, não tem impacto direto na cobrança. Para obter mais informações, consulte a [documentação detalhada](../../audiences/using/active-profiles.md).
 * Correção de um problema que impedia a inscrição de perfis em um serviço ao usar a API Perfis e serviços.
@@ -408,7 +406,7 @@ _Notificações por push_
    <td> Com a integração entre Adobe Campaign e Dreamweaver, agora você tem um processo integrado para criar campanhas de e-mail com soluções de Adobe.<br /> Você pode editar emails da Adobe Campaign no Dreamweaver e fazer com que o conteúdo seja sincronizado perfeitamente entre ambas as soluções.<br /> Para a versão inicial, a integração está disponível como um recurso "Labs" e funciona somente com o Dreamweaver Pre-Release Beta. Se você quiser ativá-lo, entre em contato com AC-DW-integration@adobe.com.<br /> Para obter mais informações, consulte este <a href="https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">vídeo</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Otimização do tempo de envio manual<br /> </td> 
+   <td> Manual send time optimization<br /> </td> 
    <td> Agora é possível definir manualmente um tempo de envio personalizado por recipient - no nível do delivery ou usando um fluxo de trabalho. <br /> Duas novas opções estão disponíveis: <br /> 
     <ul> 
      <li> Todos os recipient recebem a mensagem levando em conta o fuso horário. </li> 
@@ -470,7 +468,7 @@ _Fluxos de trabalho_
 * Correção de um problema que impedia a leitura do conteúdo da transição de rejeição de uma **[!UICONTROL Load file]** atividade.
 * Correção de um problema que impedia que colunas trocadas fossem levadas em conta corretamente ao configurar uma **[!UICONTROL Load file]** atividade.
 
-## Versão 17.1 - Janeiro de 2017 {#release-17-1---january-2017}
+## Versão 17.1 – Janeiro de 2017 {#release-17-1---january-2017}
 
 **Novos recursos**
 
