@@ -9,10 +9,8 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: ed920a9b08eb664c2825ba785c75092eb0f2be1e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1940'
 ht-degree: 98%
