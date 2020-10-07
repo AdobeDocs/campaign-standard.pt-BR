@@ -9,10 +9,8 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 5%
@@ -24,7 +22,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->O serviço Destinos de Audiência está atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam estar hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente do Adobe se desejar acessá-lo.
+>O serviço Destinos de audiência está atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam estar hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente do Adobe se desejar acessá-lo.
 
 Depois de criar uma audiência [do](../../audiences/using/aep-about-audience-destinations-service.md) Adobe Experience Platform usando o Construtor de segmentos, você pode usá-la da mesma forma que faria para uma audiência de Campanha dentro dos workflows para personalizar e enviar mensagens.
 
