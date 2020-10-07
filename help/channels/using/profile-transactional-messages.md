@@ -9,10 +9,8 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 95%
