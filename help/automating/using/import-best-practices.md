@@ -9,13 +9,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 74%
+ht-degree: 75%
 
 ---
 
@@ -24,7 +22,7 @@ ht-degree: 74%
 
 >[!CAUTION]
 >
->Lembre-se dos limites de armazenamento SFTP, Armazenamento DB e perfil ativo conforme o contrato do AdobeCampaign, ao usar essa funcionalidade.
+>Lembre-se dos limites do armazenamento SFTP, Armazenamento DB e perfil ativo conforme o contrato da Adobe Campaign ao usar essa funcionalidade.
 
 Ser cuidadoso e seguir apenas algumas regras simples detalhadas abaixo ajudará a garantir a consistência dos dados dentro do banco de dados e evitar erros comuns durante a atualização ou exportação de dados.
 
@@ -47,9 +45,9 @@ Um exemplo de um modelo de fluxo de trabalho genérico projetado para importar d
 **Tópicos relacionados:**
 
 * [Carregar atividade de arquivo](../../automating/using/load-file.md)
-* [atividade de reconciliação](../../automating/using/reconciliation.md)
-* [atividade de segmentação](../../automating/using/segmentation.md)
-* [atividade Desduplicação-duplicada](../../automating/using/deduplication.md)
+* [Atividade de reconciliação](../../automating/using/reconciliation.md)
+* [Atividade de Segmentação](../../automating/using/segmentation.md)
+* [Atividade desduplicação-duplicada](../../automating/using/deduplication.md)
 * [Atualizar atividade de dados](../../automating/using/update-data.md)
 
 ## Uso dos formatos de arquivo simples {#using-flat-file-formats}
