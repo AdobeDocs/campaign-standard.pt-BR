@@ -10,26 +10,24 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
 
-# Understanding push notifications payload structure {#push-payload}
+# Como entender a estrutura de payload das notificações de push do {#push-payload}
 
-O Adobe Campaign permite enviar notificações por push personalizadas e segmentadas em dispositivos móveis iOS e Android para aplicativos móveis (aplicativo móvel).
+A Adobe Campaign permite enviar notificações por push personalizadas e segmentadas em dispositivos móveis iOS e Android para aplicativos móveis (aplicativo móvel).
 
 Cada notificação por push recebida em um aplicativo móvel contém algumas informações que são usadas pelo aplicativo para exibir a notificação por push se uma notificação por push de alerta for enviada e provavelmente também fará mais alguma computação, especialmente se uma notificação por push silenciosa for enviada.
 
-Essas informações são recebidas pelo código do aplicativo móvel em um manipulador de eventos que indica que uma notificação por push foi recebida. Ao enviar notificações por push do Adobe Campaign Standard, as informações recebidas no aplicativo móvel também podem conter informações específicas do Campaign Standard que podem ser usadas para aproveitar alguns recursos fornecidos pelo Campaign Standard. Além disso, a carga pode conter dados personalizados que podem ser consumidos pelo aplicativo móvel.
+Essas informações são recebidas pelo código do aplicativo móvel em um manipulador de eventos que indica que uma notificação por push foi recebida. Ao enviar notificações por push da Adobe Campaign Standard, as informações recebidas no aplicativo móvel também podem conter informações específicas ao Campaign Standard que podem ser usadas para aproveitar alguns recursos fornecidos pelo Campaign Standard. Além disso, a carga pode conter dados personalizados que podem ser consumidos pelo aplicativo móvel.
 
-Este documento descreve a estrutura da carga recebida em um aplicativo móvel quando uma notificação por push é enviada com êxito para um aplicativo do Adobe Campaign Standard.
+Este documento descreve a estrutura da carga recebida em um aplicativo móvel quando uma notificação por push é enviada com êxito para um aplicativo da Adobe Campaign Standard.
 
 >[!NOTE]
 >
@@ -117,7 +115,7 @@ Detalhes aprofundados sobre os atributos no aplicativo podem ser encontrados em 
 
 ### Para aplicativo Android {#payload-structure-android}
 
-**Amostra de envio de carga do Adobe Campaign para o aplicativo Android**
+**Amostra de envio de carga do aplicativo Adobe Campaign para Android**
 
 ```
 {
@@ -209,12 +207,12 @@ Para entender os aspectos de uma carga do Android, consulte Conceitos e opções
 
 ### Mapeamento entre configurações de Campaign Standard e atributos de carga {#mapping-payload}
 
-| Configuração da Campanha | Atributo afetado no iOS | Atributo afetado no Android | Descrição |
+| Configuração da campanha | Atributo afetado no iOS | Atributo afetado no Android | Descrição |
 |:-:|:-:|:-:|:-:|
 | Título da mensagem Corpo <br>da mensagem | alerta → alerta de título <br> → corpo | título <br>de corpo | Esses dados contêm detalhes específicos da mensagem de alerta.<br>O título e as chaves de corpo fornecem o conteúdo do alerta. |
 | Reproduzir um som | som | som | Um som personalizado para reproduzir com o alerta. |
 | Valor do crachá | emblema | emblema | Um valor inteiro a ser usado para marcar o ícone do aplicativo. |
-| Adicionar um deep link | uri | NA | Um deep link permite que você traga os usuários diretamente para o conteúdo localizado dentro do aplicativo (em vez de abrir uma página do navegador da Web). |
+| Adicionar um deep link | uri | NA | Um deeplink permite trazer os usuários diretamente ao conteúdo localizado dentro do aplicativo (em vez de abrir uma página do navegador da web). |
 | Categoria | categoria | categoria | Para exibir ações personalizadas com uma notificação remota. <br>A tecla categoria ajuda o sistema a exibir as ações para essa categoria como botões na interface de alerta. |
 | Campos personalizados | custom_field1, custom_field2 ... | custom_field1, custom_field2 ... | Todos os dados personalizados que você deseja enviar ao seu aplicativo. |
 | URL de conteúdo de mídia avançada (arquivos de imagem, gif, áudio e vídeo)<br>(aplicável somente para iOS 10 ou superior) | media-attachment-url | NA | URL dos arquivos de mídia para adicionar conteúdo avançado à sua notificação. <br>Ao fornecer um valor para esse URL, o sinalizador de conteúdo mutável é enviado automaticamente para a carga. <br> (Aplicável somente para iOS 10 ou superior) |
@@ -225,7 +223,7 @@ Para entender os aspectos de uma carga do Android, consulte Conceitos e opções
 
 ### Como recuperar informações de carga no código do aplicativo móvel {#payload-information}
 
-As informações de carga enviadas pelo servidor do aplicativo são recebidas pelo código do aplicativo móvel em um manipulador de eventos que indica que uma notificação por push foi recebida. Esse evento varia com base na plataforma móvel em que o aplicativo está sendo executado e também se baseia em se o aplicativo está sendo executado em primeiro ou segundo plano. A documentação a seguir o ajudará a identificar o manipulador de eventos que você deseja manipular com base no caso de uso.
+As informações de carga enviadas pelo servidor do aplicativo são recebidas pelo código do aplicativo móvel em um manipulador de eventos que indica que uma notificação por push foi recebida. Esse evento varia com base na plataforma móvel em que o aplicativo está sendo trabalhado e também se baseia em se o aplicativo está sendo executado em primeiro ou segundo plano. A documentação a seguir o ajudará a identificar o manipulador de eventos que você deseja manipular com base no caso de uso.
 
 * Aplicativos iOS: **Manuseio da seção Notificações** Remotas em Notificações [](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html)Remotas.
 * Aplicativos Android: [Recebendo mensagens em um aplicativo cliente Android](https://firebase.google.com/docs/cloud-messaging/android/receive)
