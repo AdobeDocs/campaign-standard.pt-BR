@@ -9,10 +9,8 @@ audience: reporting
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: a894e72bb02fbecb86d43c6d2a13adf7ab10f73e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 5%
@@ -177,4 +175,4 @@ O valor **N/A** pode, às vezes, aparecer em seus relatórios dinâmicos. Isso p
 
 * O delivery foi excluído e é mostrado aqui como **N/A** para não causar discrepância nos resultados.
 * Ao arrastar e soltar a **[!UICONTROL Transactional Delivery]** dimensão em seus relatórios, o valor **N/A** pode aparecer como resultado. Isso acontece porque o relatório dinâmico obtém cada delivery mesmo que não seja transacional.
-Isso também pode ocorrer ao arrastar e soltar a **[!UICONTROL Delivery]** dimensão para o relatório, mas, nesse caso, o valor **N/D** representará delivery transacionais.
+Isso também pode ocorrer ao arrastar e soltar a **[!UICONTROL Delivery]** dimensão no relatório, mas, nesse caso, o valor **N/D** representará delivery transacionais.
