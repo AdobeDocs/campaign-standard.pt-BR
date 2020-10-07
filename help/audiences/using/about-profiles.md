@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: managing-profiles
 discoiquuid: a35e736c-a17b-420c-8411-0debc3c6275a
 context-tags: recipient,overview
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 100%
 
