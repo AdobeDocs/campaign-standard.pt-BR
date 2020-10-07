@@ -1,5 +1,5 @@
 ---
-title: Criar um serviço
+title: Criação de um serviço
 description: Saiba como criar um serviço com APIs.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -9,17 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 8%
 
 ---
 
 
-# Criar um serviço {#creating-a-service}
+# Criação de um serviço {#creating-a-service}
 
-A criação de serviços é executada com uma solicitação **POST** no recurso de serviço.
+A criação de serviços é executada com uma solicitação de **POST** no recurso de serviço.
 
 Se desejar criar o serviço com atributos específicos, adicione-os à carga. Caso contrário, o novo serviço será criado com os serviços padrão.
 
@@ -27,7 +28,7 @@ Se desejar criar o serviço com atributos específicos, adicione-os à carga. Ca
 
 ***Solicitação de amostra***
 
-Amostra de solicitação POST para criar um serviço com atributos específicos.
+Amostra de solicitação de POST para criar um serviço com atributos específicos.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/ \
