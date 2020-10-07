@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: email-messages
 discoiquuid: 521463aa-dec0-4f4b-8b71-93a4572e2b33
 context-tags: deliveryCreation,wizard
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 22%
