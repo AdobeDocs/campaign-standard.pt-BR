@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: managing-audiences
 discoiquuid: df8bdcfb-be5e-4044-bc26-aa3466accbbe
 context-tags: readAudience,main;audience,overview;delivery,audience,back
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '969'
 ht-degree: 100%
 
