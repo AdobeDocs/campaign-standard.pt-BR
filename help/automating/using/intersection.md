@@ -9,11 +9,9 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 7a107d6b-edc3-44c3-bbb7-ba3dec8e43f9
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 100%
 
