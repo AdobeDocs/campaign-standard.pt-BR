@@ -1,6 +1,6 @@
 ---
 title: Compartilhamento de públicos-alvo com o Audience Manager ou o serviço principal do People
-description: Saiba como importar ou exportar sua audiência nas diferentes soluções da Adobe Experience Cloud.
+description: Saiba como importar ou exportar sua audiência dentro das diferentes soluções Adobe Experience Cloud.
 page-status-flag: never-activated
 uuid: a3701e72-5846-4241-afee-d713b499a27a
 contentOwner: sauviat
@@ -9,10 +9,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: 77af0772-52b5-46bc-a964-675b45965524
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 26%
@@ -24,7 +22,7 @@ ht-degree: 26%
 
 ## Importação de um público {#importing-an-audience}
 
-A integração do serviço principal de pessoas permite importar diretamente uma audiência por meio de um fluxo de trabalho técnico para enriquecer seu banco de dados. For more information on audience sharing in People core service, refer to this [documentation](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
+A integração do serviço principal de pessoas permite importar diretamente uma audiência para a Adobe Campaign por meio de um fluxo de trabalho técnico para enriquecer seu banco de dados. For more information on audience sharing in People core service, refer to this [documentation](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
 
 A importação de audiências/segmentos do serviço principal de Pessoas no Adobe Campaign pode ser realizada a partir do **[!UICONTROL Audiences]** menu somente por usuários conectados via IMS (autenticação via Adobe ID).
 
@@ -46,17 +44,17 @@ A importação de audiências/segmentos do serviço principal de Pessoas no Adob
 
    A audiência é então importada por meio de um fluxo de trabalho técnico. Ele é composto de registros dos quais a ID (&#39;ID do Visitante&#39; ou &#39;ID declarada&#39;) pode ser reconciliada com a dimensão do perfil. Os IDs dos segmentos de Serviço principal de pessoas que não são reconhecidos pelo Adobe Campaign não são importados.
 
-Sua audiência agora é importada no banco de dados do Adobe Campaign. O processo de importação leva de 24 a 36 horas para sincronizar, quando os segmentos são importados diretamente do Serviço principal de pessoas ou do Audience Manager. Após esse período, é possível encontrar e usar seu novo público no Adobe Campaign.
+Sua audiência agora é importada no banco de dados Adobe Campaign. O processo de importação leva de 24 a 36 horas para sincronizar, quando os segmentos são importados diretamente do Serviço principal de pessoas ou do Audience Manager. Após esse período, é possível encontrar e usar seu novo público no Adobe Campaign.
 
 >[!NOTE]
 >
->Se você estiver importando o audiência do Adobe Analytics para o Adobe Campaign, essas audiências devem ser compartilhadas primeiro no People Core Service ou no Audience Manager. Esse processo leva de 12 a 24 horas, e deve ser adicionado ao tempo de sincronização de 24 a 36 horas com o Campaign. Nesse caso específico, o período de compartilhamento de público pode durar até 60 horas. Para obter mais informações sobre o compartilhamento de público do Adobe Analytics no Serviço Principal de Pessoas e no Audience Manager, consulte esta [documentação](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
+>Se você estiver importando o audiência do Adobe Analytics para o Adobe Campaign, essas audiências devem ser compartilhadas primeiro no serviço ou no Audience Manager Core. Esse processo leva de 12 a 24 horas, e deve ser adicionado ao tempo de sincronização de 24 a 36 horas com o Campaign. Nesse caso específico, o período de compartilhamento de público pode durar até 60 horas. Para obter mais informações sobre o compartilhamento de público do Adobe Analytics no Serviço Principal de Pessoas e no Audience Manager, consulte esta [documentação](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
 
 ## Exportação de um público {#exporting-an-audience}
 
-Uma audiência pode ser exportada de Adobe Campaign para Audience Manager ou serviço principal de Pessoas usando um fluxo de trabalho e a **[!UICONTROL Save audience]** atividade.
+Uma audiência pode ser exportada do Adobe Campaign para o Audience Manager ou serviço principal de Pessoas usando um fluxo de trabalho e a **[!UICONTROL Save audience]** atividade.
 
-Pode ser executado em um novo fluxo de trabalho e somente por usuários conectados via IMS (autenticação via Adobe ID).
+Ele pode ser executado em um novo fluxo de trabalho e somente por usuários conectados via IMS (autenticação via Adobe ID).
 
 1. Crie um novo fluxo de trabalho a partir de um programa, uma campanha ou a lista de atividades de marketing.
 1. Usando as diferentes atividades disponíveis, público alvo um conjunto de perfis.
@@ -69,6 +67,7 @@ Pode ser executado em um novo fluxo de trabalho e somente por usuários conectad
 
    * Se você selecionar um público existente, somente os novos registros serão adicionados ao público.
    * To export your profile list into a new audience, complete the **[!UICONTROL Segment name]** field then click **[!UICONTROL Create]** before selecting the newly created audience.
+
    ![](assets/aam_save_audience_segment_picker.png)
 
    Para ser reconciliado e trocado, os registros devem ter uma Adobe Experience Cloud ID (&#39;ID do Visitante&#39; ou &#39;ID declarada&#39;). Os registros não reconciliados são ignorados ao importar e exportar audiências.
@@ -83,6 +82,6 @@ A sincronização entre o Adobe Campaign e o Serviço principal de pessoas leva 
 
 **Tópicos relacionados:**
 
-* [Workflows](../../automating/using/get-started-workflows.md)
+* [Fluxos de trabalho](../../automating/using/get-started-workflows.md)
 * [Públicos](../../audiences/using/about-audiences.md)
 
