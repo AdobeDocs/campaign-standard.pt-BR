@@ -7,15 +7,16 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 13%
 
 ---
 
 
-# Programa (nms:program)
+# Programa (nms:programa)
 
 ## Descrição do objeto
 
@@ -24,7 +25,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <th>Nome</th>
                   <th>Rótulo</th>
                   <th>Tipo (comprimento)</th>
-                  <th>Valores de enumeração</th>
+                  <th>valores de lista discriminada</th>
                </tr>
                <tr>
                   <td>PKey</td>
@@ -34,7 +35,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>atividades</td>
-                  <td>Atividades</td>
+                  <td>Activities</td>
                   <td>coleção </td>
                   <td> </td>
                </tr>
@@ -45,7 +46,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>created</td>
+                  <td>criado</td>
                   <td>Criado</td>
                   <td>date </td>
                   <td> </td>
@@ -82,7 +83,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>isTemplate</td>
-                  <td>Modelo</td>
+                  <td>Template</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -101,7 +102,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>logicalStatus</td>
                   <td>Status de execução</td>
-                  <td>enumeration (string) (255)</td>
+                  <td>lista discriminada (string) (255)</td>
                   <td>
                      <ul>
                         <li>Em andamento - iniciado - iniciado</li>
@@ -145,14 +146,14 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>start</td>
-                  <td>Data de início</td>
+                  <td>data do start</td>
                   <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>status</td>
                   <td>Status</td>
-                  <td>enumeração (byte) </td>
+                  <td>lista discriminada (byte) </td>
                   <td>
                      <ul>
                         <li>Iniciado - iniciado - 1</li>
@@ -164,7 +165,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>template (programa)</td>
-                  <td>Modelo do programa</td>
+                  <td>Modelo de programa</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -193,7 +194,7 @@ Por status lógico (byLogicalStatus)
     </tr>
     <tr>
     <td>estado</td>
-    <td>enumeração</td>
+    <td>lista discriminada</td>
     </tr>
 </table>
 
@@ -227,7 +228,7 @@ Por período (por período)
     </tr>
 </table>
 
-Incluir entregas contínuas de uma lista heterogênea (com Contínuo)
+Incluir delivery contínuos de uma lista heterogênea (comContínuo)
 
 <table>
     <tr>
