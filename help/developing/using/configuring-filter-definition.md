@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 993ab2bd-e05f-468e-9ef8-a603761247f8
 context-tags: cusResource,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: cabe064632c9c2e3de93bc1cff6fa217b4fdf3e6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 95%
