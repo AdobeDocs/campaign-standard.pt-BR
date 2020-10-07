@@ -1,5 +1,5 @@
 ---
-title: Introdução ao relatórios dinâmico
+title: Introdução aos relatórios dinâmicos
 description: Analise o sucesso de suas campanhas em relatórios dinâmicos incorporados ou personalizados.
 page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
@@ -9,18 +9,16 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 12%
+ht-degree: 15%
 
 ---
 
 
-# Get started with dynamic reporting {#get-started-reporting}
+# Introdução aos relatórios dinâmicos {#get-started-reporting}
 
 <table>
 <tr>
@@ -35,7 +33,7 @@ O Relatórios dinâmico fornece relatórios totalmente personalizáveis e em tem
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Com a interface **de** arrastar e soltar do relatórios dinâmico, você pode explorar dados, determinar como suas campanhas de e-mail tiveram desempenho em relação aos segmentos de clientes mais importantes e medir seu impacto nos recipient em um único lugar.
+With Dynamic reporting **drag-and-drop interface**, you can explore data, determine how your email campaigns performed against your most important customer segments and measure their impact on recipients from one single place.
 
 **Gerencie seus relatórios** dinâmicos graças a várias funcionalidades: atualize os dados em tempo real, imprima seus relatórios ou exporte-os como arquivos CSV. Você também pode compartilhar seus relatórios com usuários do Campaign Standard por meio de emails instantâneos ou recorrentes.
 
@@ -74,7 +72,7 @@ Leia mais:
 * [Adicionar visualizações](../../reporting/using/adding-visualizations.md)
 * [Adicionar componentes](../../reporting/using/adding-components.md)
 * [Criar uma dimensão de perfil personalizada](../../reporting/using/creating-a-custom-profile-dimension.md)
-* [Criar um relatório com base em segmentos de fluxo de trabalho](../../reporting/using/creating-a-report-workflow-segment.md)
+* [Criar um relatório com base em segmentos de workflow](../../reporting/using/creating-a-report-workflow-segment.md)
 
 ## Recursos adicionais
 
