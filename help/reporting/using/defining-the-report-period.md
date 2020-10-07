@@ -1,6 +1,6 @@
 ---
 title: Definição do período do relatório
-description: O período de tempo do relatório permite filtrar seus dados dependendo das datas escolhidas.
+description: O período de tempo do seu relatório permite que você filtre seus dados dependendo das datas escolhidas.
 page-status-flag: never-activated
 uuid: 8dfd1ae6-a5a0-4900-bd6f-7815749d0b60
 contentOwner: sauviat
@@ -9,10 +9,11 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 discoiquuid: 8ff74630-860c-4f1c-9aa7-21c3326e47da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '204'
+ht-degree: 3%
 
 ---
 
@@ -21,10 +22,10 @@ source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
 
 Antes de iniciar ou acessar um relatório, você deve aplicar um período de tempo. O período especificado pode ser acessado na parte superior direita do relatório.
 
-Por padrão, para uma campanha ou programa, o período de filtragem é definido para a data de início e término do programa ou campanha. Para uma entrega, a data de início corresponde à data de envio e a data de término à data de envio mais 7 dias.
+Por padrão, para uma campanha ou programa, o período de filtragem é definido como o start e a data final do programa ou campanha. Para um delivery, a data do start corresponde à data de envio e a data de término à data de envio, mais 7 dias.
 
-Para modificar o filtro, selecione uma data inicial e um período ou use o período predefinido como semana passada, dois meses atrás etc.
+Para modificar o filtro, selecione uma data de start e um período ou use o período predefinido como semana passada, dois meses atrás etc.
 
-O relatório é atualizado automaticamente quando um filtro é aplicado ou modificado. O período de relatório selecionado regerá os eventos que ocorreram no período, não todo o conjunto de dados de suas entregas que foram criados no intervalo, por exemplo, se uma entrega foi executada de 1º a 5º de janeiro e o período de relatório é de 1º a 2º de janeiro, você pode ver dados parciais. Isso pode afetar as contagens de abertura/clique, pois pode ocorrer abrir ou clicar até mesmo um mês depois que a entrega foi enviada.
+O relatório é atualizado automaticamente quando um filtro é aplicado ou modificado. O período de relatório selecionado regerá os eventos que ocorreram no período, não todo o conjunto de dados dos delivery que foram criados no intervalo, por exemplo, se um delivery foi executado de 1º a 5º de janeiro e o período de relatório é 1º a 2º de janeiro, você pode ver dados parciais. Isso pode afetar as contagens de abrir/clicar, pois pode ocorrer abrir ou clicar mesmo um mês depois do envio do delivery.
 
 ![](assets/campaign_reports_5.png)
