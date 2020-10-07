@@ -1,5 +1,5 @@
 ---
-title: Amostras de query
+title: Amostras de queries
 description: Esta seção apresenta o caso de uso ao usar uma atividade de Query.
 page-status-flag: never-activated
 uuid: b3c629fa-370e-481c-b347-fcf9f5a5e847
@@ -10,42 +10,40 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 1%
+ht-degree: 90%
 
 ---
 
 
-# Amostras de query {#query-samples}
+# Amostras de queries {#query-samples}
 
 Esta seção apresenta o caso de uso ao usar uma **[!UICONTROL Query]** atividade. For more on how to use a **[!UICONTROL Query]** activity, refer to [this section](../../automating/using/query.md).
 
-## Targeting on simple profile attributes {#targeting-on-simple-profile-attributes}
+## Direcionamento em atributos simples de perfil {#targeting-on-simple-profile-attributes}
 
-O exemplo a seguir mostra uma atividade de query configurada para homens públicos alvos entre 18 e 30 anos, morando em Londres.
+O exemplo a seguir mostra uma atividade de query configurada para direcionar homens entre 18 e 30 anos, que moram em Londres.
 
 ![](assets/query_sample_1.png)
 
-## Definição de metas em atributos de email {#targeting-on-email-attributes}
+## Direcionamento em atributos de email {#targeting-on-email-attributes}
 
-O exemplo a seguir mostra uma atividade de query configurada para público alvo de perfis com o domínio de endereço de email &quot;orange.co.uk&quot;.
+O exemplo a seguir mostra uma atividade de query configurada para direcionar perfis com o domínio de endereço de email “orange.co.uk”.
 
 ![](assets/query_sample_emaildomain.png)
 
-O exemplo a seguir mostra uma atividade de query configurada para públicos alvos cujo endereço de email foi fornecido.
+O exemplo a seguir mostra uma atividade de query configurada direcionar perfis cujo endereço de email foi fornecido.
 
 ![](assets/query_sample_emailnotempty.png)
 
-## Direcionando perfis cujo aniversário é hoje {#targeting-profiles-whose-birthday-is-today}
+## Direcionamento de perfis cuja data de nascimento é hoje {#targeting-profiles-whose-birthday-is-today}
 
-O exemplo a seguir mostra uma atividade de query configurada para públicos alvos cujo aniversário é hoje.
+O exemplo a seguir mostra uma atividade de query configurada para direcionar perfis cuja data de nascimento é hoje.
 
-1. Arraste o **[!UICONTROL Birthday]** filtro em seu query.
+1. Arraste o filtro **[!UICONTROL Birthday]** no seu query.
 
    ![](assets/query_sample_birthday.png)
 
@@ -53,11 +51,11 @@ O exemplo a seguir mostra uma atividade de query configurada para públicos alvo
 
    ![](assets/query_sample_birthday2.png)
 
-## perfis de definição de metas que abriram um delivery específico {#targeting-profiles-who-opened-a-specific-delivery}
+## Direcionamento de perfis que abriram um delivery específico {#targeting-profiles-who-opened-a-specific-delivery}
 
-O exemplo a seguir mostra uma atividade de query configurada para filtrar perfis que abriram o delivery com o rótulo &quot;Hora de verão&quot;.
+O exemplo a seguir mostra uma atividade de query configurada para filtrar perfis que abriram o delivery com o rótulo “Hora de verão”.
 
-1. Arraste o **[!UICONTROL Opened]** filtro em seu query.
+1. Arraste o filtro **[!UICONTROL Opened]** no seu query.
 
    ![](assets/query_sample_opened.png)
 
@@ -65,31 +63,31 @@ O exemplo a seguir mostra uma atividade de query configurada para filtrar perfis
 
    ![](assets/query_sample_opened2.png)
 
-## perfis de definição de metas para os quais delivery falharam por um motivo específico {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
+## Direcionamento de perfis com falha de deliveries por um motivo específico {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
 
-O exemplo a seguir mostra uma atividade de query configurada para filtrar perfis para os quais os delivery falharam porque sua caixa de correio estava cheia. Este query só está disponível para usuários com direitos administrativos e pertencentes às unidades organizacionais (consulte **[!UICONTROL All (all)]** esta seção [](../../administration/using/organizational-units.md)).
+O exemplo a seguir mostra uma atividade de query configurada para filtrar perfis com falha de deliveries porque a caixa de entrada estava cheia. Esse query só está disponível para usuários com direitos administrativos e pertencentes a unidades organizacionais **[!UICONTROL All (all)]** (consulte [esta seção](../../administration/using/organizational-units.md)).
 
-1. Selecione o **[!UICONTROL Delivery logs]** recurso para filtrar diretamente na tabela de log de delivery (consulte [Uso de recursos diferentes dos targeting dimension](../../automating/using/using-resources-different-from-targeting-dimensions.md)).
+1. Selecione o recurso **[!UICONTROL Delivery logs]** para filtrar diretamente na tabela de logs do delivery (consulte [Uso de recursos diferentes dos targeting dimensions](../../automating/using/using-resources-different-from-targeting-dimensions.md)).
 
    ![](assets/query_sample_failure1.png)
 
-1. Arraste o **[!UICONTROL Nature of failure]** filtro em seu query.
+1. Arraste o filtro **[!UICONTROL Nature of failure]** no seu query.
 
    ![](assets/query_sample_failure2.png)
 
-1. Selecione o tipo de falha que deseja público alvo. No nosso caso **[!UICONTROL Mailbox full]**.
+1. Selecione o tipo de falha que deseja direcionar. No nosso caso, o tipo de falha é **[!UICONTROL Mailbox full]**.
 
    ![](assets/query_sample_failure3.png)
 
-## perfis de definição de metas não contatados nos últimos 7 dias {#targeting-profiles-not-contacted-during-the-last-7-days}
+## Direcionamento de perfis não contatados nos últimos sete dias {#targeting-profiles-not-contacted-during-the-last-7-days}
 
-O exemplo a seguir mostra uma atividade de query configurada para filtrar perfis que não foram contatados nos últimos 7 dias.
+O exemplo a seguir mostra uma atividade de query configurada para filtrar perfis que não foram contatados nos últimos sete dias.
 
-1. Arraste o **[!UICONTROL Delivery logs (logs)]** filtro em seu query.
+1. Arraste o filtro **[!UICONTROL Delivery logs (logs)]** no seu query.
 
    ![](assets/query_sample_7days.png)
 
-   Selecione **[!UICONTROL Does not exist]** na lista suspensa e arraste o **[!UICONTROL Delivery]** filtro.
+   Selecione **[!UICONTROL Does not exist]** na lista suspensa e arraste o filtro **[!UICONTROL Delivery]**.
 
    ![](assets/query_sample_7days1.png)
 
@@ -97,16 +95,16 @@ O exemplo a seguir mostra uma atividade de query configurada para filtrar perfis
 
    ![](assets/query_sample_7days2.png)
 
-## perfis de definição de metas que clicaram em um link específico {#targeting-profiles-who-clicked-a-specific-link-}
+## Direcionamento de perfis que clicaram em um link específico {#targeting-profiles-who-clicked-a-specific-link-}
 
-1. Arraste o **[!UICONTROL Tracking logs (tracking)]** filtro em seu query.
+1. Arraste o filtro **[!UICONTROL Tracking logs (tracking)]** no seu query.
 
    ![](assets/query_sample_trackinglogs.png)
 
-1. Arraste o **[!UICONTROL Label (urlLabel)]** filtro.
+1. Arraste o filtro **[!UICONTROL Label (urlLabel)]**.
 
    ![](assets/query_sample_trackinglogs2.png)
 
-1. No **[!UICONTROL Value]** campo, digite o rótulo que foi definido ao inserir o link no delivery e, em seguida, confirme.
+1. No campo **[!UICONTROL Value]**, digite o rótulo que foi definido na inserção do link no delivery e, em seguida, confirme.
 
    ![](assets/query_sample_trackinglogs3.png)
