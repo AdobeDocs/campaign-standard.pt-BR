@@ -10,17 +10,18 @@ content-type: reference
 topic-tags: sms-messages
 discoiquuid: 6134fe72-77de-4fd0-b794-4d966effaccf
 delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '269'
+ht-degree: 32%
 
 ---
 
 
 # Sobre mensagens SMS{#about-sms-messages}
 
-O Adobe Campaign permite que você entregue mensagens SMS (Short Message Service).
+A Adobe Campaign permite que você entregue mensagens SMS (Short Message Service).
 
 >[!NOTE]
 >
@@ -30,29 +31,29 @@ Para mensagens SMS, você poderá criar, modificar e personalizar mensagens some
 
 O comprimento de uma mensagem SMS é restrito a 160 caracteres se estiver na codificação GSM e somente a 70 caracteres se estiver em Unicode. No entanto, determinados caracteres especiais podem influenciar o comprimento da mensagem. For more on this, refer to the [SMS encoding](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) section.
 
-As mensagens SMS podem ser criadas a partir do **[!UICONTROL Marketing activities]**menu, de uma campanha ou em um fluxo de trabalho, consulte[Criar uma mensagem](../../channels/using/creating-an-sms-message.md)SMS.
+As mensagens SMS podem ser criadas no **[!UICONTROL Marketing activities]** menu, em uma campanha ou em um fluxo de trabalho, consulte [Criar uma mensagem](../../channels/using/creating-an-sms-message.md)SMS.
 
 Para enviar mensagens SMS para um telefone celular, é necessário:
 
-* Uma conta **[!UICONTROL Routing]**externa configurada no**[!UICONTROL Mobile (SMS)]** canal com o **[!UICONTROL Bulk delivery]**modo. For more on this, refer to the[Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)section.
-* Um modelo de entrega vinculado corretamente a esta conta externa.
+* Uma conta externa de **[!UICONTROL Routing]** configurada no canal **[!UICONTROL Mobile (SMS)]** com o modo **[!UICONTROL Bulk delivery]**. Para mais informações, consulte a seção [Roteamento](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
+* Um template do delivery vinculado corretamente a essa conta externa.
 
 **Tópicos relacionados:**
 
 * [Gerenciamento de modelos](../../start/using/marketing-activity-templates.md)
 * [Configuração SMS](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
 * [Relatório SMS](../../reporting/using/sms-report.md)
-* [Guia móvel do Campaign Standard](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+* [Guia para Aplicativos de dispositivos móveis no Campaign Standard](https://helpx.adobe.com/br/campaign/kb/acs-mobile.html)
 
-## Modelo de entrega SMS {#sms-delivery-template}
+## TEMPLATE DO DELIVERY SMS {#sms-delivery-template}
 
-O Adobe Campaign oferece um modelo de entrega para dispositivos móveis. Esse modelo deve estar vinculado corretamente à conta externa usada para o **[!UICONTROL Mobile (SMS)]**canal. Para acessar e modificar:
+Adobe Campaign oferta um template do delivery para dispositivos móveis. Esse modelo deve estar vinculado corretamente à conta externa usada para o **[!UICONTROL Mobile (SMS)]** canal. Para acessá-lo e modificá-lo:
 
-1. Selecione **[!UICONTROL Resources]**>**[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**no menu avançado.
-1. Passe o mouse sobre o **[!UICONTROL Send via SMS]**modelo e selecione a opção** Duplicar elemento **.
+1. Selecione **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** no menu avançado.
+1. Passe o mouse sobre o **[!UICONTROL Send via SMS]** modelo e selecione a opção de elemento **do** Duplicado.
 1. Selecione o novo modelo.
 1. Clique no botão **[!UICONTROL Edit properties]**.
-1. Na **[!UICONTROL Advanced parameters]**seção das propriedades do modelo, verifique se o modelo está vinculado à conta externa a ser usada para fornecer SMS.
+1. Na **[!UICONTROL Advanced parameters]** seção das propriedades do modelo, verifique se o modelo está vinculado à conta externa a ser usada para fornecer SMS.
 
    ![](assets/sms_template.png)
 
