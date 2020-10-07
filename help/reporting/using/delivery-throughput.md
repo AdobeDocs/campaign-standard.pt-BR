@@ -10,10 +10,11 @@ content-type: reference
 topic-tags: list-of-reports
 discoiquuid: 394402ac-0290-41e7-a8e2-e7cdd9addf28
 context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;programThroughputReport,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 32cb3c8039e813143d45276958001b79e54c173c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 5%
 
 ---
 
