@@ -10,10 +10,11 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b44e4e7e6b48ebc5c618b014eacfc9909bc2661e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '1502'
+ht-degree: 4%
 
 ---
 
@@ -37,11 +38,11 @@ As etapas principais são as seguintes:
 1. **Pré-visualização** no Designer de e-mail de como a mensagem será exibida para os perfis.
 1. Envie as provas.
 
-Para obter mais informações sobre o processo global, consulte o vídeo tutorial disponível [aqui](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html).
+Para obter mais informações sobre o processo global, consulte o vídeo tutorial disponível [aqui](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.translate.html).
 
 >[!IMPORTANT]
 >
->Este recurso permite que você envie informações pessoais do perfil para endereços de email externos. Lembre-se de que a execução de solicitações de privacidade (RGPD e CCPA) no Campaign Standard NÃO executará essa solicitação externamente.
+>Esse recurso permite enviar informações pessoais do perfil para endereços de email externos. Lembre-se de que a execução de solicitações de privacidade (GDPR e CCPA) no Campaign Standard NÃO executará externamente essa solicitação.
 
 ## Selecionar perfis e endereços de substituição {#selecting-profiles}
 
@@ -115,7 +116,7 @@ Para importar perfis para uso em testes de uma audiência, siga estas etapas:
 
    ![](assets/substitution_preparation.png)
 
-1. Na **[!UICONTROL Profile substitutions]** guia, clique em **[!UICONTROL Import from an audience]**.
+1. Na guia **[!UICONTROL Profile substitutions]**, clique em **[!UICONTROL Import from an audience]**.
 
    ![](assets/substitution_audience_import.png)
 
@@ -143,7 +144,7 @@ Para importar perfis para uso em testes de uma audiência, siga estas etapas:
 
 >[!NOTE]
 >
->A Pré-visualização está disponível somente no Designer de email.
+>A pré-visualização está disponível somente no Designer de email.
 
 Para ser capaz de pré-visualização de mensagens usando perfis direcionados, certifique-se de ter adicionado esses perfis à **[!UICONTROL Profile substitution]** lista (consulte [Definição de perfis e endereços](#selecting-profiles)de substituição).
 
@@ -155,7 +156,7 @@ Para pré-visualização de mensagens usando substituição de perfil, siga esta
 
    ![](assets/substitution_preview_access.png)
 
-1. Selecione a **[!UICONTROL Preview]** guia e clique em **[!UICONTROL Change profile]**.
+1. Select the **[!UICONTROL Preview]** tab, then click **[!UICONTROL Change profile]**.
 
    ![](assets/substitution_preview_changeprofile.png)
 
@@ -194,6 +195,7 @@ As principais etapas para esse caso de uso são as seguintes:
    * **[!UICONTROL Load file]** atividade: Importa o arquivo CSV (para obter mais informações sobre essa atividade, consulte [esta seção](../../automating/using/load-file.md)).
    * **[!UICONTROL Reconciliation]** atividade: Vincula informações do arquivo a informações do banco de dados. Neste exemplo, usaremos o endereço de email do perfil como campo de reconciliação (para obter mais informações sobre essa atividade, consulte [esta seção](../../automating/using/reconciliation.md)).
    * **[!UICONTROL Save audience]** atividade: Cria uma audiência com base no arquivo importado (para obter mais informações sobre essa atividade, consulte [esta seção](../../automating/using/save-audience.md)).
+
    ![](assets/substitution_uc2.png)
 
 1. Execute o fluxo de trabalho e vá para a **[!UICONTROL Audiences]** guia para verificar se a audiência foi criada com as informações desejadas.
@@ -212,11 +214,11 @@ As principais etapas para esse caso de uso são as seguintes:
 
 ### Etapa 3: Configure a guia de substituição de Perfil da mensagem
 
-1. Open the **[!UICONTROL Email delivery]** activity. No painel da mensagem, clique no **[!UICONTROL Audience]** bloco.
+1. Open the **[!UICONTROL Email delivery]** activity. In the message dashboard, click the **[!UICONTROL Audience]** block.
 
    ![](assets/substitution_uc5.png)
 
-1. Selecione a **[!UICONTROL Profile substitutions]** guia e clique em **[!UICONTROL Import from an audience]**.
+1. Select the **[!UICONTROL Profile substitutions]** tab, then click **[!UICONTROL Import from an audience]**.
 
    ![](assets/substitution_uc6.png)
 
@@ -244,7 +246,7 @@ As principais etapas para esse caso de uso são as seguintes:
 
    ![](assets/substitution_uc10.png)
 
-1. Selecione a **[!UICONTROL Preview]** guia e clique em **[!UICONTROL Change profile]**.
+1. Select the **[!UICONTROL Preview]** tab, then click **[!UICONTROL Change profile]**.
 
    ![](assets/substitution_uc_preview.png)
 
@@ -260,7 +262,7 @@ As principais etapas para esse caso de uso são as seguintes:
 
 ### Etapa 5: Enviar provas
 
-1. No painel da mensagem, clique no **[!UICONTROL Test]** botão e, em seguida, confirme.
+1. In the message dashboard, click the **[!UICONTROL Test]** button, then confirm.
 
    ![](assets/substitution_uc_sendproof.png)
 
