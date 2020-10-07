@@ -9,10 +9,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 6078a16c679d368dd85cecbb8b715e2de3da805a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 2%
