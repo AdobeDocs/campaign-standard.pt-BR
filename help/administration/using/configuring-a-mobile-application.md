@@ -9,10 +9,8 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3161226c9ab28f8d519f55a408022284919954f6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 8%
@@ -110,7 +108,8 @@ Deve **[!UICONTROL Property Status]** ser **[!UICONTROL Ready to configure]**.
    >[!NOTE]
    >
    >Por padrão, para recuperar a lista de aplicativos móveis criados no Adobe Launch, o Campaign Standard usa o valor definido na opção NmsServer_URL para procurar propriedades correspondentes.
-Em alguns casos, o ponto de extremidade de Campanha para um aplicativo móvel pode ser diferente daquele definido em NmsServer_URL. Nesse caso, defina o terminal na opção Launch_URL_Campanha. A campanha usará o valor dessa opção para procurar as propriedades correspondentes na inicialização do Adobe.
+   >
+   >Em alguns casos, o ponto de extremidade de Campanha para um aplicativo móvel pode ser diferente daquele definido em NmsServer_URL. Nesse caso, defina o terminal na opção Launch_URL_Campanha. A campanha usará o valor dessa opção para procurar as propriedades correspondentes na inicialização do Adobe.
 
    ![](assets/launch_4.png)
 
