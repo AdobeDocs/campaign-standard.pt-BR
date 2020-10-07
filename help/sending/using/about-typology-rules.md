@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: working-with-typology-rules
 discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 100%
 
