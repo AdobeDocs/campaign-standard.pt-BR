@@ -9,24 +9,25 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '94'
+ht-degree: 10%
 
 ---
 
 
 # Atualização da unidade geográfica de um perfil {#updating-a-geographical-unit}
 
-1. Execute uma solicitação GET no recurso **geoUnitBase** para recuperar o PKey da unidade geográfica.
-1. Execute uma solicitação PATCH no perfil PKey, com a unidade Geográfica PKey desejada na carga.
+1. Execute uma solicitação de GET no recurso **geoUnitBase** para recuperar o PKey da unidade geográfica.
+1. Execute uma solicitação de PATCH na chave do perfil, com a unidade Geográfica PKey desejada na carga.
 
 <br/>
 
 ***Solicitação de amostra***
 
-Recuperar a lista de unidades geográficas.
+Recuperar a lista das unidades geográficas.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/ \
@@ -52,7 +53,7 @@ Retorna todas as unidades Geográficas. Recupere o PKey da unidade à qual você
 },
 ```
 
-Execute uma solicitação PATCH no perfil, com o PKey da unidade Geográfica desejada na carga.
+Execute uma solicitação de PATCH no perfil, com o PKey da unidade Geográfica desejada na carga.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \
