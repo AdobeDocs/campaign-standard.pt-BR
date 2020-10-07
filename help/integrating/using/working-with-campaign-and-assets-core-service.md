@@ -1,6 +1,6 @@
 ---
 title: Trabalhar com o serviço principal do Campaign e do Assets
-description: Use todos os recursos compartilhados na Adobe Experience Cloud em suas mensagens de Adobe Campaign e landings page, graças à integração do serviço principal do Assets.
+description: Use todos os recursos compartilhados no Adobe Experience Cloud em suas mensagens e landings page do Adobe Campaign graças à integração do serviço principal do Assets.
 page-status-flag: never-activated
 uuid: 264a1260-33d6-412b-b2c8-0d57ca10d025
 contentOwner: sauviat
@@ -9,10 +9,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
 discoiquuid: e6fefe10-afd5-4628-8d9b-69eeb38070eb
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 17%
@@ -22,7 +20,7 @@ ht-degree: 17%
 
 # Trabalhar com o serviço principal do Campaign e do Assets{#working-with-campaign-and-assets-core-service}
 
-A integração do serviço principal do Assets ou do Assets on Demand (dependendo da configuração do seu ambiente da Adobe Experience Cloud) com o Adobe Campaign permite que você use todos os ativos compartilhados na Adobe Experience Cloud em emails e landings page.
+Integrar o serviço principal do Assets ou os ativos sob demanda (dependendo da configuração do seu ambiente Adobe Experience Cloud) à Adobe Campaign permite que você use quaisquer ativos compartilhados dentro da Adobe Experience Cloud em seus e-mails e landings page da Adobe Campaign.
 
 Os recursos compartilhados da Adobe Experience Cloud podem ser usados em seus emails e landings page.
 
