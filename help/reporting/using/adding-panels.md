@@ -1,6 +1,6 @@
 ---
 title: Adicionar painéis
-description: O relatório dinâmico permite adicionar um painel para filtrar melhor seus dados, dependendo do período de tempo escolhido.
+description: O relatório dinâmico permite que você adicione o painel para filtrar melhor seus dados, dependendo do período de tempo escolhido.
 page-status-flag: never-activated
 uuid: 8e76e837-5efc-4250-8192-dee1a0bd62fe
 contentOwner: sauviat
@@ -9,10 +9,11 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +22,7 @@ source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ## Adicionar um painel em branco {#adding-a-blank-panel}
 
-Para iniciar seu relatório, você pode adicionar um conjunto de painéis a um relatório personalizado ou predefinido. Cada painel contém conjuntos de dados diferentes e é composto de tabelas e visualizações de forma livre.
+Para start de seu relatório, é possível adicionar um conjunto de painéis a um relatório personalizado ou predefinido. Cada painel contém conjuntos de dados diferentes e é composto de tabelas e visualizações de forma livre.
 
 Esse painel permite que você crie seus relatórios conforme necessário. Você pode adicionar quantos painéis desejar em seus relatórios para filtrar seus dados com períodos de tempo diferentes.
 
@@ -29,11 +30,11 @@ Esse painel permite que você crie seus relatórios conforme necessário. Você 
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. Arraste e solte o Painel em **branco** no seu painel.
+1. Arraste e solte o painel **em** branco no seu painel.
 
    ![](assets/dynamic_report_panel.png)
 
-Agora é possível adicionar uma tabela de forma livre ao painel para iniciar a definição de metas de dados.
+Agora é possível adicionar uma tabela de forma livre ao painel aos dados de direcionamento de start.
 
 ## Adicionar uma tabela de forma livre {#adding-a-freeform-table}
 
@@ -51,7 +52,7 @@ Cada tabela e visualização é redimensionável e pode ser movida para personal
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. O **[!UICONTROL Exclude proof]** segmento já está selecionado por padrão. Se necessário, é possível alterá-lo arrastando e soltando uma das **[!UICONTROL Segments]** da **[!UICONTROL Components]** guia na barra superior.
+1. O **[!UICONTROL Exclude proof]** segmento já está selecionado por padrão. Se necessário, você pode alterá-lo arrastando e soltando uma das **[!UICONTROL Segments]** da **[!UICONTROL Components]** guia na barra superior.
 
    ![](assets/dynamic_report_panel_3.png)
 
@@ -69,7 +70,7 @@ Cada tabela e visualização é redimensionável e pode ser movida para personal
    * **[!UICONTROL Percent]**: permite que você mostre ou oculte a porcentagem na coluna.
    * **[!UICONTROL Interpret zero as no value]**: permite mostrar ou ocultar quando o valor é igual a zero.
    * **[!UICONTROL Background]**: permite mostrar ou ocultar a barra de progresso horizontal nas células.
-   * **[!UICONTROL Include retries]**: permite incluir novas tentativas no resultado. Isso só está disponível para **[!UICONTROL Sent]** e **[!UICONTROL Bounces + Errors]**.
+   * **[!UICONTROL Include retries]**: permite incluir tentativas no resultado. Isso só está disponível para **[!UICONTROL Sent]** e **[!UICONTROL Bounces + Errors]**.
 
 1. Selecione uma ou várias linhas e clique no ícone **Visualizar** . Uma visualização é adicionada para refletir as linhas selecionadas.
 
