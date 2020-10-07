@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: working-with-typology-rules
 discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4c5fbb5e879bad114c4ca421cd2970f2ba5a3d50
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 100%
