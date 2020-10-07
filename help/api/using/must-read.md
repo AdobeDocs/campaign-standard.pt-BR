@@ -9,21 +9,22 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '320'
+ht-degree: 0%
 
 ---
 
 
-# Leitura obrigatória {#must-read}
+# Must-Read {#must-read}
 
 ## Requisitos técnicos
 
-* As APIs do Adobe Campaign devem ser usadas somente como Servidor para Servidor.
-* Verifique sempre com seu contato técnico da Adobe se o caso de uso que você deseja implementar está alinhado com a escala permitida pelas APIs do Adobe Campaign.
-* A configuração de um acesso AdobeIO requer permissões específicas, entre em contato com o suporte da Adobe para obter qualquer problema.
+* As APIs da Adobe Campaign devem ser usadas apenas como Servidor para Servidor.
+* Verifique sempre com seu contato técnico do Adobe se o caso de uso que você deseja implementar está alinhado com a escala permitida pelas APIs do Adobe Campaign.
+* A configuração de um acesso AdobeIO requer permissões específicas, entre em contato com o Suporte ao Adobe para encontrar qualquer problema.
 
 ## Representação de recursos
 
@@ -51,17 +52,17 @@ Todos os recursos da API estão disponíveis no **JSON** com uma extensão de UR
 
 * Não tente criar um URL sozinho. Todos os URLs são retornados pela API. No entanto, é possível criar um URL com base no nome do recurso de nível superior.
 
-* Os valores de chave primária automática (PKey) que ilustram os exemplos não devem funcionar em outra implantação específica. Eles são produzidos pela Adobe Campaign API.
+* Os valores de chave primária automática (PKey) que ilustram os exemplos não devem funcionar em outra implantação específica. Eles são produzidos pela API da Adobe Campaign.
 
-* Os valores de Chave primária automática gerados pelo Adobe Campaign nunca devem ser armazenados em um banco de dados ou site externo. Você deve gerar campos-chave específicos na definição do banco de dados e usá-los durante seus desenvolvimentos.
+* Os valores de Chave Primária Automática gerados pela Adobe Campaign nunca devem ser armazenados em um banco de dados ou site externo. Você deve gerar campos-chave específicos na definição do banco de dados e usá-los durante seus desenvolvimentos.
 
 ## Teclas personalizadas {#custom-keys}
 
-Se o recurso de perfil tiver sido estendido com um campo de chave personalizado, você poderá usar esse campo como uma chave em vez da Chave primária automática gerada pelo Adobe Campaign:
+Se o recurso de perfil tiver sido estendido com um campo de chave personalizado, você poderá usar esse campo como uma chave em vez da Chave primária automática gerada pela Adobe Campaign:
 
 `GET /.../profileAndServicesExt/profile/<customKey>`
 
-As chaves personalizadas não podem ser modificadas usando uma operação PATCH se o valor da chave for diferente da chave de origem ou se você estiver usando sua própria chave comercial como URI em vez da fornecida pela Adobe.
+As chaves personalizadas não podem ser modificadas usando uma operação PATCH se o valor da chave for diferente da chave de origem ou se você estiver usando sua própria chave de negócio como URI em vez da fornecida pelo Adobe.
 
 Use uma chave personalizada somente para recursos **de perfil de nível** superior. Os URLs são retornados pela API e nunca devem ser criados por você mesmo.
 
@@ -69,7 +70,7 @@ Use uma chave personalizada somente para recursos **de perfil de nível** superi
 
 ***Solicitação de amostra***
 
-Para recuperar as assinaturas de um perfil usando uma chave personalizada, execute uma operação GET na chave personalizada.
+Para recuperar as subscrições de um perfil usando uma chave personalizada, execute uma operação de GET na chave personalizada.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<customKey> \
@@ -79,7 +80,7 @@ Para recuperar as assinaturas de um perfil usando uma chave personalizada, execu
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Execute uma solicitação GET no URL de assinaturas retornado.
+Execute uma solicitação de GET no URL do subscrição retornado.
 
 ```
 -X GET <SUBSCRIPTION_URL> \
@@ -89,7 +90,7 @@ Execute uma solicitação GET no URL de assinaturas retornado.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Ele retorna a lista de assinaturas do perfil.
+Ele retorna a lista das subscrições para o perfil.
 
 ```
 "service": {
