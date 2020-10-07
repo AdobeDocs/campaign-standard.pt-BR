@@ -7,15 +7,16 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 6263623a5a8999c475255709a7d0150437e68c0b
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '144'
+ht-degree: 13%
 
 ---
 
 
-# Visitante (nms:visitor)
+# Visitante (nms:visitante)
 
 ## Descrição do objeto
 
@@ -24,7 +25,7 @@ source-git-commit: 6263623a5a8999c475255709a7d0150437e68c0b
         <th>Nome</th>
         <th>Rótulo</th>
         <th>Tipo (comprimento)</th>
-        <th>Valores de enumeração</th>
+        <th>valores de lista discriminada</th>
     </tr>
     <tr>
         <td>PKey</td>
@@ -34,12 +35,12 @@ source-git-commit: 6263623a5a8999c475255709a7d0150437e68c0b
     </tr>
     <tr>
         <td>comentário</td>
-        <td>Comentário do referenciador</td>
+        <td>Comentário quem indicou</td>
         <td>string (255)</td>
         <td> </td>
     </tr>
     <tr>
-        <td>created</td>
+        <td>criado</td>
         <td>Criado</td>
         <td>date </td>
         <td> </td>
@@ -51,14 +52,14 @@ source-git-commit: 6263623a5a8999c475255709a7d0150437e68c0b
         <td> </td>
     </tr>
     <tr>
-        <td>entrega (entrega)</td>
+        <td>delivery (delivery)</td>
         <td>Delivery</td>
         <td>link </td>
         <td> </td>
     </tr>
     <tr>
         <td>deliveryId</td>
-        <td>ID da última entrega</td>
+        <td>ID do último delivery</td>
         <td>integer </td>
         <td> </td>
     </tr>
@@ -125,7 +126,7 @@ source-git-commit: 6263623a5a8999c475255709a7d0150437e68c0b
     <tr>
         <td>origem</td>
         <td>Origem</td>
-        <td>enumeração (byte) </td>
+        <td>lista discriminada (byte) </td>
         <td>
             <ul>
             <li>Indefinido - indefinido - 0</li>
@@ -134,7 +135,7 @@ source-git-commit: 6263623a5a8999c475255709a7d0150437e68c0b
         </td>
     </tr>
     <tr>
-        <td>destinatário (destinatário)</td>
+        <td>recipient (recipient)</td>
         <td>Perfil identificado</td>
         <td>link </td>
         <td> </td>
@@ -147,31 +148,31 @@ source-git-commit: 6263623a5a8999c475255709a7d0150437e68c0b
     </tr>
     <tr>
         <td>referrerEmail</td>
-        <td>Email do referenciador</td>
+        <td>E-mail de quem indicou</td>
         <td>string (128)</td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerFirstName</td>
-        <td>Nome do referenciador</td>
+        <td>Nome da quem indicou</td>
         <td>string (30)</td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerId</td>
-        <td>ID do referenciador</td>
+        <td>ID da quem indicou</td>
         <td>integer </td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerLastName</td>
-        <td>Sobrenome do referenciador</td>
+        <td>sobrenome da quem indicou</td>
         <td>string (50)</td>
         <td> </td>
     </tr>
     <tr>
-        <td>referrerRcp (destinatário)</td>
-        <td>Referenciador</td>
+        <td>referrerRcp (recipient)</td>
+        <td>Quem indicou</td>
         <td>link </td>
         <td> </td>
     </tr>
