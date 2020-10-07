@@ -1,6 +1,6 @@
 ---
-title: Excluindo assinaturas
-description: Saiba como excluir assinaturas com APIs.
+title: Exclusão de assinaturas
+description: Saiba como excluir subscrições com APIs.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -9,23 +9,24 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '233'
+ht-degree: 1%
 
 ---
 
 
-# Excluindo assinaturas {#mdeleting-subscriptions}
+# Exclusão de assinaturas {#mdeleting-subscriptions}
 
-## Excluindo uma assinatura de serviço para um perfil específico
+## Excluindo uma subscrição de serviço para um perfil específico
 
 Este é um procedimento de três etapas.
 
-1. Recupere o URL de assinaturas do perfil desejado.
-1. Execute uma solicitação GET no URL de assinaturas.
-1. Execute uma solicitação DELETE no URL de serviço desejado.
+1. Recupere o URL do subscrição para o perfil desejado.
+1. Execute uma solicitação de GET no URL do subscrição.
+1. Execute uma solicitação de DELETE no URL de serviço desejado.
 
 Se a solicitação de exclusão for bem-sucedida, o status da resposta será 204 Sem conteúdo.
 
@@ -33,7 +34,7 @@ Se a solicitação de exclusão for bem-sucedida, o status da resposta será 204
 
 ***Solicitação de amostra***
 
-As cargas de amostra abaixo mostram como cancelar a assinatura de um perfil de um serviço. Primeiro, execute uma solicitação GET para recuperar o perfil.
+As cargas de amostra abaixo mostram como cancelar a assinatura de um perfil de um serviço. Primeiro, execute uma solicitação de GET para recuperar o perfil.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -43,7 +44,7 @@ As cargas de amostra abaixo mostram como cancelar a assinatura de um perfil de u
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Ele retorna o URL de assinaturas do perfil.
+Ele retorna o URL do subscrição para o perfil.
 
 ```
   {
@@ -56,7 +57,7 @@ Ele retorna o URL de assinaturas do perfil.
   }
 ```
 
-Execute uma solicitação GET no URL de assinaturas.
+Execute uma solicitação de GET no URL do subscrição.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -66,7 +67,7 @@ Execute uma solicitação GET no URL de assinaturas.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Ele retorna a lista de assinaturas para o perfil selecionado, com um URL para cada serviço inscrito.
+Ele retorna a lista do subscrição para o perfil selecionado, com um URL para cada serviço inscrito.
 
 ```
 ...
@@ -80,7 +81,7 @@ Ele retorna a lista de assinaturas para o perfil selecionado, com um URL para ca
 ...
 ```
 
-Execute uma solicitação DELETE no URL de serviço desejado.
+Execute uma solicitação de DELETE no URL de serviço desejado.
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -92,13 +93,13 @@ Execute uma solicitação DELETE no URL de serviço desejado.
 
 <!-- + réponse -->
 
-## Excluindo uma assinatura de serviço para um perfil específico
+## Excluindo uma subscrição de serviço para um perfil específico
 
 Este é um procedimento de três etapas.
 
-1. Recupere o serviço desejado e seu URL de assinatura.
-1. Execute uma solicitação GET no URL de assinaturas para recuperar todas as assinaturas de perfis.
-1. Execute uma solicitação DELETE no URL de assinatura do perfil desejado.
+1. Recupere o serviço desejado e seu URL de subscrição.
+1. Execute uma solicitação de GET no URL do subscrição para recuperar todas as subscrições.
+1. Execute uma solicitação de DELETE no URL de subscrição do perfil desejado.
 
 Se a solicitação de exclusão for bem-sucedida, o status da resposta será 204 Sem conteúdo.
 
@@ -116,7 +117,7 @@ Recuperar o registro de serviço.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Retorna o URL de assinaturas do serviço.
+Ele retorna o URL do subscrição para o serviço.
 
 ```
 {
@@ -133,7 +134,7 @@ Retorna o URL de assinaturas do serviço.
 },
 ```
 
-Execute uma solicitação GET no URL de assinaturas.
+Execute uma solicitação de GET no URL do subscrição.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -143,7 +144,7 @@ Execute uma solicitação GET no URL de assinaturas.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Ele retorna a lista de assinaturas para o serviço selecionado, com um URL (href) para cada assinatura de perfil.
+Ele retorna a lista do subscrição para o serviço selecionado, com um URL (href) para cada subscrição de perfil.
 
 ```
 {
@@ -160,7 +161,7 @@ Ele retorna a lista de assinaturas para o serviço selecionado, com um URL (href
 }
 ```
 
-Execute uma solicitação DELETE no URL de assinatura do perfil desejado.
+Execute uma solicitação de DELETE no URL de subscrição do perfil desejado.
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions/<PKEY> \
