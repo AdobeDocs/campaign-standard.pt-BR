@@ -9,10 +9,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
 discoiquuid: bc10c650-80cd-4146-ae82-c5981fc62bec
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 6%
@@ -26,7 +24,7 @@ Além de rastrear a presença on-line dos clientes, você também pode aproveita
 
 Os Pontos de interesse consistem em uma latitude, uma longitude e um raio associados a um rótulo. Eles são definidos na interface do [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) .
 
-Quando um assinante abre seu aplicativo móvel, se o local corresponder a um Ponto de interesse, o Adobe Campaign captura os dados por meio do SDK do Experience Cloud Mobile. Você pode usar essas informações para enviar mensagens personalizadas com base no local do usuário (como emails, notificações por push, mensagens SMS).
+Quando um assinante abre seu aplicativo móvel, se o local corresponder a um Ponto de interesse, a Adobe Campaign captura os dados por meio do SDK do Experience Cloud Mobile. Você pode usar essas informações para enviar mensagens personalizadas com base no local do usuário (como emails, notificações por push, mensagens SMS).
 
 Por exemplo, você pode enviar uma oferta de desconto de 10% para os clientes que usam seu aplicativo e visitaram uma de suas lojas em Boston nas últimas duas semanas.
 
