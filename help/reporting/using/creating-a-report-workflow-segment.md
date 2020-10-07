@@ -1,5 +1,5 @@
 ---
-title: Criar um relatório com base em segmentos de fluxo de trabalho
+title: Criar um relatório com base em segmentos de workflow
 description: Saiba como verificar o sucesso de seu delivery dependendo dos segmentos de seus workflows em seus relatórios.
 page-status-flag: never-activated
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
@@ -9,10 +9,8 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 2%
@@ -20,7 +18,7 @@ ht-degree: 2%
 ---
 
 
-# Criar um relatório com base em segmentos de fluxo de trabalho{#creating-a-report-workflow-segment}
+# Criar um relatório com base em segmentos de workflow{#creating-a-report-workflow-segment}
 
 Depois de criar um fluxo de trabalho e filtrar sua população em diferentes audiências direcionadas, você pode medir a eficiência de suas campanhas de marketing com base nos segmentos definidos neste fluxo de trabalho de definição de metas.
 Para público alvo desses segmentos em seus relatórios:
@@ -37,7 +35,7 @@ Para público alvo desses segmentos em seus relatórios:
 
 Antes do relatórios do código de segmento, é necessário atualizar o recurso **[!UICONTROL Profiles]** personalizado para que os códigos de segmento sejam armazenados.
 
-1. No menu avançado, por meio do logotipo Adobe Campaign, selecione **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]** e selecione o **[!UICONTROL Profile (profile)]** recurso.
+1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**, then select the **[!UICONTROL Profile (profile)]** resource.
 1. No **[!UICONTROL Sending logs extension]** menu da **[!UICONTROL Data structure]** guia, marque **[!UICONTROL Add segment code]** para permitir que o armazenamento de seus códigos de segmento seja direcionado para workflows de definição de metas e para enviá-lo para o relatórios dinâmico.
 
    O **[!UICONTROL Segment code]** estará disponível na seção de **[!UICONTROL Profile]** dimensão do seu relatório.
@@ -66,9 +64,9 @@ Primeiro, é necessário criar um fluxo de trabalho com população direcionada 
 
 1. Crie seu fluxo de trabalho. For more details on how to create your workflow, refer to this [page](../../automating/using/building-a-workflow.md).
 
-1. Adicione uma **[!UICONTROL Query]** atividade arrastando-a da paleta e soltando-a no espaço de trabalho.
+1. Add a **[!UICONTROL Query]** activity by dragging it from the palette and dropping it in the workspace.
 
-1. perfis Públicos alvos de 20 a 40 anos para depois segmentá-los em populações mais direcionadas.
+1. Perfis públicos alvos de 20 a 40 anos para depois segmentá-los em populações mais direcionadas.
 
    ![](assets/report_segment_1.png)
 
@@ -78,7 +76,7 @@ Primeiro, é necessário criar um fluxo de trabalho com população direcionada 
 
    ![](assets/report_segment_7.png)
 
-1. perfis de Query entre 20 e 30 anos e clique **[!UICONTROL Confirm]** quando concluído.
+1. Perfis de query entre 20 e 30 anos e clique **[!UICONTROL Confirm]** quando concluído.
 
    ![](assets/report_segment_8.png)
 
