@@ -1,5 +1,5 @@
 ---
-title: Recuperando arquivos de dados de privacidade
+title: Recuperação de arquivos de dados de privacidade
 description: Saiba como recuperar arquivos de dados de privacidade com APIs
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -9,33 +9,34 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '199'
+ht-degree: 14%
 
 ---
 
 
-# Recuperando arquivos de dados de privacidade {#retrieving-privacy-data-files}
+# Recuperação de arquivos de dados de privacidade {#retrieving-privacy-data-files}
 
 >[!CAUTION]
 >
->A Integração do Serviço [Principal de](https://adobe.io/apis/cloudplatform/gdpr.html) Privacidade é o método que você deve usar para todas as solicitações de acesso e exclusão. A partir da versão 19.4, o uso da API de campanha e da interface para acessar e excluir solicitações está obsoleto. Para obter mais informações sobre os recursos obsoletos e removidos do Campaign Standard, consulte [esta página](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
+>The [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) Integration is the method you should use for all access and delete requests. A partir da versão 19.4, o uso da API e da interface do Campaign para solicitações de acesso e exclusão ficará obsoleto. Para obter mais informações sobre os recursos desaprovados e removidos do Campaign Standard, consulte [esta página](https://helpx.adobe.com/br/campaign/kb/acs-deprecated-and-removed-features.html).
 
 Para recuperar o arquivo que contém todas as informações associadas a um valor de reconciliação, siga este procedimento de três etapas:
 
-1. Execute uma solicitação **POST** para criar uma nova solicitação com o atributo **type="access"**, consulte [Criação de uma nova solicitação](../../api/using/creating-a-privacy-request.md)de privacidade.
+1. Execute uma solicitação de **POST** para criar uma nova solicitação com o atributo **type=&quot;access&quot;**, consulte [Criação de uma nova solicitação](../../api/using/creating-a-privacy-request.md)de privacidade.
 
-1. Execute uma solicitação **GET** para recuperar informações sobre a solicitação.
+1. Execute uma solicitação de **GET** para recuperar informações sobre a solicitação.
 
-1. Recupere o arquivo de dados executando uma solicitação **POST** no URL **privacyRequestData** retornado, com o nome interno da solicitação de privacidade dentro da carga. Por exemplo: {"name":"PT17"}.
+1. Recupere o arquivo de dados executando uma solicitação de **POST** no URL **privacyRequestData** retornado, com o nome interno da solicitação de privacidade dentro da carga. Por exemplo: {&quot;name&quot;:&quot;PT17&quot;}.
 
 <br/>
 
 ***Solicitação de amostra***
 
-Crie uma solicitação de privacidade com o atributo type="access".
+Crie uma solicitação de privacidade com o atributo type=&quot;access&quot;.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
@@ -56,7 +57,7 @@ Crie uma solicitação de privacidade com o atributo type="access".
 
 <!-- + réponse -->
 
-Execute uma solicitação GET para recuperar informações sobre a solicitação.
+Execute uma solicitação de GET para recuperar informações sobre a solicitação.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
