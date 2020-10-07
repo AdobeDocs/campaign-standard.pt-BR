@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: direct-mail
 discoiquuid: 5b02227f-9438-4001-bc2f-3d8661d173b3
 context-tags: delivery,directMailContent,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 96%
