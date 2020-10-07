@@ -9,18 +9,19 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '1210'
+ht-degree: 5%
 
 ---
 
 # Designing using existing content {#designing-using-existing-content}
 
-## Selecionar um conteúdo existente{#selecting-an-existing-content}
+## Selecting an existing content{#selecting-an-existing-content}
 
-O Adobe Campaign vem com um conjunto de conteúdos predefinidos para ajudá-lo a começar. Você pode usar um desses ou, se o conteúdo da mensagem que você precisa enviar estiver sendo preparado fora do Adobe Campaign, você pode importá-lo do seu computador ou de um URL.
+A Adobe Campaign vem com um conjunto de conteúdos predefinidos para ajudá-lo a começar. Você pode usar um desses ou, se o conteúdo da mensagem que você precisa enviar estiver sendo preparado fora do Adobe Campaign, você pode importá-lo do seu computador ou de um URL.
 
 Ao criar um email ou uma landing page, você pode optar por carregar um conteúdo existente de outra fonte.
 
@@ -39,6 +40,7 @@ Ao criar um email ou uma landing page, você pode optar por carregar um conteúd
    * [Conteúdo desde o início](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)até start fresco: clique no **[!UICONTROL Create]** botão.
    * [Conteúdo do seu computador como um arquivo](#importing-content-from-a-file)ZIP ou HTML: clique no **[!UICONTROL Upload]** botão.
    * [Conteúdo de um URL](#importing-content-from-a-url) existente (somente para e-mails): clique no **[!UICONTROL Import from URL]** botão.
+
    ![](assets/des_loading_2.png)
 
 1. Carregue o conteúdo. O conteúdo selecionado substitui o conteúdo atual.
@@ -51,7 +53,7 @@ Ao criar um email ou uma landing page, você pode optar por carregar um conteúd
 
 **Tópicos relacionados:**
 
-* [Criação de um de email](../../channels/using/creating-an-email.md)
+* [Criação de email](../../channels/using/creating-an-email.md)
 * [Gerenciamento de landings page](../../channels/using/getting-started-with-landing-pages.md)
 
 ## Editar conteúdo existente com o Designer de email{#editing-existing-contents-with-the-email-designer}
@@ -64,7 +66,7 @@ Para tornar um conteúdo externo existente totalmente editável no Designer de e
 
 ## Importar um conteúdo de email existente {#importing}
 
-### Importar conteúdo de um arquivo {#importing-content-from-a-file}
+### Importing content from a file {#importing-content-from-a-file}
 
 No home page do Email Designer, clique no **[!UICONTROL Upload]** botão para fazer upload de um arquivo do seu computador e, em seguida, confirme.
 
@@ -79,7 +81,7 @@ Os formatos a seguir são suportados para importação:
 >
 >Para conteúdo de email, recomendamos que você importe arquivos HTML únicos com uma folha de estilos incorporada.
 
-#### Importar conteúdo de um URL {#importing-content-from-a-url}
+#### Importing content from a URL {#importing-content-from-a-url}
 
 Antes de importar o conteúdo de um URL, certifique-se de seguir os requisitos abaixo:
 
@@ -114,7 +116,7 @@ A importação de conteúdo de um URL durante a preparação da mensagem permite
 
 Para recuperar o conteúdo no momento da preparação, siga as etapas abaixo:
 
-1. Selecione a **[!UICONTROL Content imported during preparation]** opção.
+1. Selecione a opção **[!UICONTROL Content imported during preparation]**.
 
    ![](assets/email_designer_importfromurl2.png)
 
@@ -162,7 +164,7 @@ Para obter mais informações sobre como converter um email existente em um emai
 
 **Tópicos relacionados**:
 
-* [Criação de um de email](../../channels/using/creating-an-email.md)
+* [Criação de email](../../channels/using/creating-an-email.md)
 * [Vídeo de introdução ao Email Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=por_br)
 * [Criar um conteúdo de email do zero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
@@ -207,9 +209,9 @@ Se esse não for o caso, recorte os diferentes blocos do seu HTML. Por exemplo:
 Depois de identificar todos os blocos, no Designer de email, repita o seguinte procedimento para cada seção do email existente:
 
 1. Abra o Designer de email para criar um conteúdo de email vazio.
-1. Defina os atributos de nível de corpo: cores de fundo, largura, etc. Para obter mais informações, consulte [Edição de estilos](../../designing/using/styles.md)de email.
-1. Adicione um componente de estrutura. Para obter mais informações, consulte [Edição da estrutura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de email.
-1. Adicione um componente HTML. Para obter mais informações, consulte [Adicionar fragmentos e componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Defina os atributos de nível de corpo: cores de fundo, largura, etc. Para obter mais informações, consulte [Edição de estilos de email](../../designing/using/styles.md).
+1. Adicione um componente de estrutura. Para obter mais informações, consulte [Edição da estrutura do email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Adicione um componente HTML. Para obter mais informações, consulte [Inclusão de fragmentos e componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Copie e cole seu HTML nesse componente.
 1. Mude para visualização móvel. Para obter mais informações, consulte [esta seção](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
