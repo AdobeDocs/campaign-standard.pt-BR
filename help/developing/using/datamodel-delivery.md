@@ -7,15 +7,16 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '687'
+ht-degree: 10%
 
 ---
 
 
-# Entrega (nms:entrega)
+# Delivery (nms:delivery)
 
 ## Descrição do objeto
 
@@ -24,7 +25,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                   <th>Nome</th>
                   <th>Rótulo</th>
                   <th>Tipo (comprimento)</th>
-                  <th>Valores de enumeração</th>
+                  <th>valores de lista discriminada</th>
                </tr>
                <tr>
                   <td>FCP</td>
@@ -46,7 +47,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>advanced</td>
-                  <td>Entrega avançada</td>
+                  <td>Delivery avançado</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -88,7 +89,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>wideLogs</td>
-                  <td>Logs de entrega</td>
+                  <td>Logs do delivery</td>
                   <td>coleção </td>
                   <td> </td>
                </tr>
@@ -99,14 +100,14 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                   <td> </td>
                </tr>
                <tr>
-                  <td>campaign (campaignBase)</td>
-                  <td>Campaign</td>
+                  <td>campanha (campaignBase)</td>
+                  <td>Campanha</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>cmsAccount (extAccountAEMBase)</td>
-                  <td>Conta do Adobe Experience Manager</td>
+                  <td>Conta Adobe Experience Manager</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -125,7 +126,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                <tr>
                   <td>contentSource</td>
                   <td>Fonte do conteúdo</td>
-                  <td>enumeração (byte) </td>
+                  <td>lista discriminada (byte) </td>
                   <td>
                      <ul>
                         <li>Adobe Experience Manager - aem - 1</li>
@@ -141,7 +142,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                   <td> </td>
                </tr>
                <tr>
-                  <td>created</td>
+                  <td>criado</td>
                   <td>Criado</td>
                   <td>date </td>
                   <td> </td>
@@ -154,11 +155,11 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>deliveryMode</td>
-                  <td>Modo de entrega</td>
-                  <td>enumeração (byte) </td>
+                  <td>modo delivery</td>
+                  <td>lista discriminada (byte) </td>
                   <td>
                      <ul>
-                        <li>Entrega em massa - a granel - 1</li>
+                        <li>Delivery em massa - em massa - 1</li>
                         <li>Mid-sourcing - midSourcing - 4</li>
                         <li>Descrição - descritiva - 2</li>
                         <li>VALOR INVÁLIDO - __Valor_inválido__ - __Valor_inválido__</li>
@@ -180,7 +181,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>emailPreview</td>
-                  <td>Visualização de email</td>
+                  <td>Pré-visualização de email</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -198,14 +199,14 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>execução</td>
-                  <td>Parâmetros de execução de entrega</td>
+                  <td>Parâmetros de execução do delivery</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>executeType</td>
                   <td>Tipo de execução</td>
-                  <td>enumeração (byte) </td>
+                  <td>lista discriminada (byte) </td>
                   <td>
                      <ul>
                         <li>Único - uma vez - 0</li>
@@ -236,7 +237,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                <tr>
                   <td>ícone</td>
                   <td>Ícone</td>
-                  <td>enumeração (byte) </td>
+                  <td>lista discriminada (byte) </td>
                   <td>
                      <ul>
                         <li>Email transacional - emailLightning - 60</li>
@@ -262,19 +263,19 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>isMaster</td>
-                  <td>Mestre</td>
+                  <td>Principal</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isTemplate</td>
-                  <td>Modelo</td>
+                  <td>Template</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>iterações</td>
-                  <td>Entregas</td>
+                  <td>Deliveries</td>
                   <td>coleção </td>
                   <td> </td>
                </tr>
@@ -311,7 +312,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                <tr>
                   <td>logicalStatus</td>
                   <td>Status de execução</td>
-                  <td>enumeration (string) (255)</td>
+                  <td>lista discriminada (string) (255)</td>
                   <td>
                      <ul>
                         <li>Em andamento - iniciado - iniciado</li>
@@ -337,13 +338,13 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>mapeamento (deliveryMapping)</td>
-                  <td>Mapeamento de destino</td>
+                  <td>Target mapping</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>master (deliveryBase)</td>
-                  <td>Instância mestre</td>
+                  <td>principal (deliveryBase)</td>
+                  <td>instância principal</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -355,8 +356,8 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>messageType</td>
-                  <td>Canal</td>
-                  <td>enumeração (byte) </td>
+                  <td>Canal </td>
+                  <td>lista discriminada (byte) </td>
                   <td>
                      <ul>
                         <li>Fax - Fax - 4</li>
@@ -396,14 +397,14 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>parent (deliveryBase)</td>
-                  <td>Entrega principal</td>
+                  <td>Delivery pai</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>prioridade</td>
-                  <td>Prioridade de entrega</td>
-                  <td>enumeração (byte) </td>
+                  <td>Prioridade do delivery</td>
+                  <td>lista discriminada (byte) </td>
                   <td>
                      <ul>
                         <li>Alto - alto - 20</li>
@@ -413,7 +414,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                   </td>
                </tr>
                <tr>
-                  <td>program (programBase)</td>
+                  <td>programa (programBase)</td>
                   <td>Programa</td>
                   <td>link </td>
                   <td> </td>
@@ -426,7 +427,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>pushNotificationPreview</td>
-                  <td>Visualização da notificação por push</td>
+                  <td>Pré-visualização de notificação por push</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -456,13 +457,13 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>cenário</td>
-                  <td>Parâmetros do modelo de entrega</td>
+                  <td>Parâmetros do template do delivery</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>programação</td>
-                  <td>Programação de entrega</td>
+                  <td>Programação de delivery</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -474,17 +475,17 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>smsPreview</td>
-                  <td>Visualização de SMS</td>
+                  <td>PRÉ-VISUALIZAÇÃO SMS</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>estado</td>
                   <td>Status</td>
-                  <td>enumeração (byte) </td>
+                  <td>lista discriminada (byte) </td>
                   <td>
                      <ul>
-                        <li>Iniciar pendente - startWait - 51</li>
+                        <li>Start pendente - startWait - 51</li>
                         <li>Pronto para ser entregue - pronto - 45</li>
                         <li>Tentativa pendente - nova tentativa pendente - 61</li>
                         <li>Tentar novamente em andamento - tentarEmAndamento - 62</li>
@@ -500,27 +501,27 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                         <li>Falha na personalização ou contagem - prepareError - 37</li>
                         <li>Parado - cancelado - 85</li>
                         <li>Personalização em andamento - messagePreparação - 22</li>
-                        <li>Destino pronto - targetReady - 15</li>
+                        <li>Pronto para público alvo - targetReady - 15</li>
                         <li>VALOR INVÁLIDO - __Valor_inválido__ - __Valor_inválido__</li>
                         <li>Arbitragem em curso - targetArbitration - 13</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>metas</td>
-                  <td>População alvo da entrega</td>
+                  <td>públicos alvos</td>
+                  <td>População de públicos alvos delivery</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>template (deliveryTemplateSummary)</td>
-                  <td>Modelo de entrega</td>
+                  <td>Template do delivery</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>miniatura</td>
-                  <td>Miniatura da entrega</td>
+                  <td>Miniatura do delivery</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
@@ -550,7 +551,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>triggerMessage</td>
-                  <td>Parâmetros da mensagem transacional</td>
+                  <td>Parâmetros do mensagen transacional</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -569,7 +570,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                <tr>
                   <td>workflowStatus</td>
                   <td>Status do fluxo de trabalho</td>
-                  <td>enumeration (string) (255)</td>
+                  <td>lista discriminada (string) (255)</td>
                   <td>
                      <ul>
                         <li>Em andamento - iniciado - iniciado</li>
@@ -594,7 +595,7 @@ Por tipo de canal (byChannel)
     </tr>
     <tr>
     <td>canal</td>
-    <td>enumeração</td>
+    <td>lista discriminada</td>
     </tr>
 </table>
 
@@ -607,7 +608,7 @@ Por tipo de execução (byExecutionType)
     </tr>
     <tr>
     <td>executeType</td>
-    <td>enumeração</td>
+    <td>lista discriminada</td>
     </tr>
 </table>
 
@@ -620,7 +621,7 @@ Por status lógico (byLogicalStatus)
     </tr>
     <tr>
     <td>estado</td>
-    <td>enumeração</td>
+    <td>lista discriminada</td>
     </tr>
 </table>
 
@@ -680,7 +681,7 @@ Por status de publicação (byPublishingStatus)
     </tr>
     <tr>
     <td>pStatus</td>
-    <td>enumeração</td>
+    <td>lista discriminada</td>
     </tr>
 </table>
 
@@ -693,7 +694,7 @@ Por status (por estado)
     </tr>
     <tr>
     <td>estado</td>
-    <td>enumeração</td>
+    <td>lista discriminada</td>
     </tr>
 </table>
 
@@ -710,7 +711,7 @@ Mensagens de acompanhamento (showSegulowup)
     </tr>
 </table>
 
-Incluir entregas avançadas (comAdvanced)
+Incluir delivery avançados (comAdvanced)
 
 <table>
     <tr>
@@ -723,7 +724,7 @@ Incluir entregas avançadas (comAdvanced)
     </tr>
 </table>
 
-Incluir entregas contínuas de uma lista heterogênea (com Contínuo)
+Incluir delivery contínuos de uma lista heterogênea (comContínuo)
 
 <table>
     <tr>
