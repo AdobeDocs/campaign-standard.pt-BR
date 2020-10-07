@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4cda0d3a3e65959091cd24bec8af434ab07519f6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -29,11 +27,11 @@ O ![](assets/printpreview_darkgrey-24px.png) ícone abre o log de fluxo de traba
 
 O histórico do fluxo de trabalho é salvo pela duração especificada nas opções de execução do fluxo de trabalho (consulte as propriedades [do](../../automating/using/managing-execution-options.md)fluxo de trabalho). Durante esse período, todas as mensagens são salvas, mesmo após uma reinicialização. Se você não quiser salvar as mensagens de uma execução anterior, é necessário limpar o histórico clicando no ![](assets/delete_darkgrey-24px.png) botão.
 
-A **[!UICONTROL Log]** guia contém o histórico de execução de todas as atividades ou de qualquer atividade selecionada. Indica as operações efetuadas e os erros de execução por ordem cronológica.
+A **[!UICONTROL Log]** guia contém o histórico de execução de todas as atividades ou de qualquer atividade selecionada. Eles indicam as operações efetuadas e os erros de execução por ordem cronológica.
 
 ![](assets/wkf_execution_4.png)
 
-A **[!UICONTROL Tasks]** guia detalha a sequência de execução das atividades. Clique em uma tarefa para obter mais informações.
+The **[!UICONTROL Tasks]** tab details the execution sequencing of the activities. Clique em uma tarefa para obter mais informações.
 
 ![](assets/wkf_execution_5.png)
 
@@ -63,7 +61,7 @@ Nas propriedades [do](../../automating/using/managing-execution-options.md)fluxo
 
 As opções possíveis são:
 
-* **[!UICONTROL Supervisors]**: permite que você defina o grupo de pessoas a ser notificado (notificação por email e no aplicativo) se o fluxo de trabalho encontrar um erro. Se nenhum grupo for definido, ninguém será notificado. Para obter mais informações sobre notificações de Adobe Campaign, consulte notificações [de](../../administration/using/sending-internal-notifications.md)Adobe Campaign.
+* **[!UICONTROL Supervisors]**: permite que você defina o grupo de pessoas a ser notificado (notificação por email e no aplicativo) se o fluxo de trabalho encontrar um erro. Se nenhum grupo for definido, ninguém será notificado. Para obter mais informações sobre notificações Adobe Campaign, consulte notificações [da](../../administration/using/sending-internal-notifications.md)Adobe Campaign.
 
 * **[!UICONTROL In case of error]**: permite especificar a ação a ser executada caso a atividade encontre um erro. Há duas opções disponíveis para isso:
 
@@ -74,4 +72,4 @@ As opções possíveis são:
 
    * Se o número especificado for **[!UICONTROL 0]**, ou enquanto o número especificado não for atingido, as atividades que encontrarem erros serão ignoradas. As outras ramificações de fluxo de trabalho são executadas normalmente.
 
-   * Se o número especificado for atingido, todo o fluxo de trabalho será suspenso e se tornará **[!UICONTROL Erroneous]**. Se os supervisores tiverem sido definidos, eles serão automaticamente notificados por email. Consulte Notificações [de Adobe Campaign](../../administration/using/sending-internal-notifications.md).
+   * Se o número especificado for atingido, todo o fluxo de trabalho será suspenso e se tornará **[!UICONTROL Erroneous]**. Se os supervisores tiverem sido definidos, eles serão automaticamente notificados por email. Consulte [Notificações do Adobe Campaign](../../administration/using/sending-internal-notifications.md).
