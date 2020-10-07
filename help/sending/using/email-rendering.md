@@ -9,10 +9,8 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3af649cfaae195ae5e75406ca3a0743b9b1f65d2
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 91%
