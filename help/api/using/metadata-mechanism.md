@@ -9,17 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '227'
+ht-degree: 1%
 
 ---
 
 
 # Mecanismo de metadados {#metadata-mechanism}
 
-Você pode recuperar os metadados dos recursos usando **resourceType** em uma solicitação GET:
+Você pode recuperar os metadados dos recursos usando **resourceType** em uma solicitação de GET:
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
@@ -27,14 +28,14 @@ A resposta retorna os principais metadados do recurso (todos os outros campos s�
 
 * O nó **Conteúdo** retorna os campos do recurso. Para cada campo no nó **content** , podemos encontrar os seguintes campos:
 
-   * "apiName": nome do atributo usado nas APIs.
-   * "Tipo": esta é a definição de tipo de alto nível (string, número, link, coleção, enumeração...).
-   * "dataPolicy": o valor do campo deve seguir as regras de política fornecidas. Por exemplo, se a regra dataPolicy estiver definida como "email", o valor deverá ser um email válido. Durante um PATCH ou um POST, o dataPolicy pode verificar o valor ou modificar o valor a ser transformado (por exemplo, smartCase).
-   * "categoria": fornece a categoria do campo no editor de consultas.
-   * "resType": este é o tipo técnico.
+   * &quot;apiName&quot;: nome do atributo usado nas APIs.
+   * &quot;Tipo&quot;: esta é a definição de tipo de alto nível (cadeia de caracteres, número, link, coleção, lista discriminada...).
+   * &quot;dataPolicy&quot;: o valor do campo deve seguir as regras de política fornecidas. Por exemplo, se a regra dataPolicy estiver definida como &quot;email&quot;, o valor deverá ser um email válido. Durante um PATCH ou POST, o dataPolicy pode verificar o valor ou modificar o valor a ser transformado (por exemplo, smartCase).
+   * &quot;categoria&quot;: fornece a categoria do campo no editor de query.
+   * &quot;resType&quot;: este é o tipo técnico.
 
-      Se "type" for concluído com o valor "link" ou "collection", o valor resTarget será o nome do recurso direcionado pelo link.
-Se "type" for concluído com o valor "enumeration", um campo "values" será adicionado e cada valor de enumeração será detalhado no nó de **valores** .
+      Se &quot;type&quot; for concluído com o valor &quot;link&quot; ou &quot;collection&quot;, o valor resTarget será o nome do recurso direcionado pelo link.
+Se &quot;type&quot; for concluído com o valor &quot;lista discriminada&quot;, um campo &quot;values&quot; será adicionado e cada valor de lista discriminada será detalhado no nó **values** .
 
 * O nó **Filtros** retorna o URL para recuperar os filtros associados. For more on filters, refer to [this section](../../api/using/filtering.md) section.
 
@@ -47,7 +48,7 @@ si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
 
 ***Solicitação de amostra***
 
-Execute uma solicitação GET no recurso.
+Execute uma solicitação de GET no recurso.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
@@ -57,7 +58,7 @@ Execute uma solicitação GET no recurso.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Ele retorna a descrição completa do recurso de perfil.
+Ele retorna a descrição completa do recurso do perfil.
 
 ```
 {
