@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: list-of-reports
 discoiquuid: ecbc1ade-63d9-4ac2-9828-380a1aa95094
 context-tags: deliveryHotClicksReport,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 694fd5802578001ba80b35f0983a068a0a630dd0
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
