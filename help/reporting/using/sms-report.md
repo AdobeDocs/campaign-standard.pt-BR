@@ -1,29 +1,30 @@
 ---
 title: Relatório SMS
-description: 'Com o relatório predefinido do SMS, saiba mais sobre o sucesso de suas entregas de SMS. '
-page-status-flag: nunca ativado
+description: 'Com o relatório predefinido do SMS, saiba mais sobre o sucesso de seus delivery SMS. '
+page-status-flag: never-activated
 uuid: af672a56-f304-4ea9-99b1-e9886a6e1823
-contentOwner: molviato
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: relatório
-content-type: referência
-topic-tags: lista de relatórios
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
 discoiquuid: a9afbb76-d2b3-44c7-b97a-1694501aa913
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 5%
 
 ---
 
 
 # Relatório SMS{#sms-report}
 
-O relatório **SMS** fornece detalhes sobre entregas SMS, como taxas de devolução e de rejeição.
+O relatório **SMS** fornece detalhes sobre delivery SMS, como taxas de devolução e de rejeição.
 
 ![](assets/dynamic_report_sms.png)
 
-A tabela de resumo **do** SMS, os gráficos e os números de resumo contêm dados disponíveis para entregas do SMS que foram enviadas.
+A tabela de resumo **do** SMS, os gráficos e os números de resumo contêm dados disponíveis para delivery SMS que foram enviados.
 
 * **Processado/enviado**: O número de SMS enviados.
 * **Entregue**: O número de SMS entregues.
