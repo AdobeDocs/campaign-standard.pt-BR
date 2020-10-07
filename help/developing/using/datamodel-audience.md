@@ -7,15 +7,16 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 14%
 
 ---
 
 
-# Público-alvo (nms:audience)
+# Audiência (nms:audiência)
 
 ## Descrição do objeto
 
@@ -24,7 +25,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                   <th>Nome</th>
                   <th>Rótulo</th>
                   <th>Tipo (comprimento)</th>
-                  <th>Valores de enumeração</th>
+                  <th>valores de lista discriminada</th>
                </tr>
                <tr>
                   <td>PKey</td>
@@ -34,25 +35,25 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>aamMappingId</td>
-                  <td>ID de mapeamento do Audience Manager</td>
+                  <td>ID de mapeamento de Audience Manager</td>
                   <td>string (100)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>amcDataSource (amcDataSourceBase)</td>
-                  <td>Fonte de dados da Adobe Marketing Cloud (AMC)</td>
+                  <td>Fonte de dados da Adobe Experience Cloud (AMC)</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceData</td>
-                  <td>Visualizar população selecionada</td>
+                  <td>Pré-visualização selecionada</td>
                   <td>coleção </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceDataSchema</td>
-                  <td>Esquema de dados</td>
+                  <td>Schema de dados</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
@@ -87,7 +88,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                   <td> </td>
                </tr>
                <tr>
-                  <td>created</td>
+                  <td>criado</td>
                   <td>Criado</td>
                   <td>date </td>
                   <td> </td>
@@ -136,7 +137,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>isAMC</td>
-                  <td>Público-alvo da Adobe Marketing Cloud</td>
+                  <td>audiência Adobe Marketing Cloud</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -190,7 +191,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>sharedAudience</td>
-                  <td>Nome do público compartilhado</td>
+                  <td>Nome da audiência compartilhada</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -215,10 +216,10 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <tr>
                   <td>type</td>
                   <td>Tipo</td>
-                  <td>enumeration (string) (100)</td>
+                  <td>lista discriminada (string) (100)</td>
                   <td>
                      <ul>
-                        <li>Consulta - consulta - consulta</li>
+                        <li>Query - query - query</li>
                         <li>Lista - lista - lista</li>
                         <li>Arquivo - arquivo - arquivo</li>
                         <li>VALOR INVÁLIDO - __Valor_inválido__ - __Valor_inválido__</li>
@@ -227,13 +228,13 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>where</td>
-                  <td>Definição de consulta</td>
+                  <td>Definição de query</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>fluxo de trabalho (fluxo de trabalho)</td>
-                  <td>Workflow</td>
+                  <td>Fluxo de trabalho</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -241,7 +242,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
 
 ## Filtros
 
-Por dimensão de filtragem (byFilteringResource)
+Por dimensão do filtro (byFilteringResource)
 
 <table>
     <tr>
@@ -276,7 +277,7 @@ Por tipo (byType)
     </tr>
     <tr>
     <td>type</td>
-    <td>enumeração</td>
+    <td>lista discriminada</td>
     </tr>
     <tr>
     <td>isAMC</td>
