@@ -9,10 +9,8 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '7624'
 ht-degree: 9%
@@ -41,7 +39,7 @@ ht-degree: 9%
    <ul>
     <li>Direito de acesso e direito de exclusão: estamos nos beneficiando dos recursos que foram adicionadas ao GDPR. <a href="https://helpx.adobe.com/content/help/br/campaign/kb/acs-privacy.html#righttoaccess">Saiba mais</a> </li>
     <li><p>Ao criar uma solicitação de privacidade, o tipo de regulamento (RGPD ou CCPA) foi adicionado ao Privacy Core Service. Esse é método que você deve usar para todas as solicitações de acesso e exclusão. O uso da API e da interface do Campaign para solicitações de acesso e exclusão ficará obsoleto.  Consulte o <a href="https://helpx.adobe.com/br/campaign/kb/acs-deprecated-and-removed-features.html">artigo Recursos obsoletos e removidos</a>.</p></li>
-    <li>Um campo <strong>CCPA Opt-Out</strong> foi adicionado ao recurso Perfis para permitir que os usuários do Adobe Campaign rastreiem se um consumidor optou pela venda de Informações pessoais. <a href="https://helpx.adobe.com/content/help/br/campaign/kb/acs-privacy.html#ccpa">Saiba mais</a>.</li>
+    <li>Um campo <strong>CCPA Opt-Out</strong> foi adicionado ao recurso Perfis para permitir que os usuários do Adobe Campaign rastreiem se um consumidor optou pela venda de Informações pessoais. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">Saiba mais</a>.</li>
   </ul>
     <p>Consulte o <a href="https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/privacy/privacy-overview.translate.html">vídeo de instruções</a>.</p>
 </td> 
