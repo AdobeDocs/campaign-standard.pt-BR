@@ -1,6 +1,6 @@
 ---
 title: Introdução ao Campaign Standard
-description: Descubra os principais recursos, a interface do usuário e as diretrizes globais.
+description: Conheça os principais recursos, a interface do usuário e as diretrizes globais.
 page-status-flag: never-activated
 uuid: 027f6787-d2ef-44ae-a40a-8facdfe2ae77
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
