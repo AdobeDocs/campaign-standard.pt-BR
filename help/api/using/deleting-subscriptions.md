@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: dd0ec1a114df43606f2ba7555bad6982047b640e
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 1%
@@ -20,7 +20,9 @@ ht-degree: 1%
 
 # Exclusão de assinaturas {#mdeleting-subscriptions}
 
-## Excluindo uma subscrição de serviço para um perfil específico
+<!--NOTE TO WRITER: There are two duplicate headings that seem to have the same content. Delete one? Rename if different?-->
+
+## Excluindo uma subscrição de serviço para um perfil específico {#deleting-service-subscription}
 
 Este é um procedimento de três etapas.
 
