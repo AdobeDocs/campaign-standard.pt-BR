@@ -1,6 +1,6 @@
 ---
 title: Introdução a perfis e públicos
-description: Defina populações direcionadas, selecione audiências, filtre recipient, colete dados e atualize perfis.
+description: Defina populações direcionadas, selecione públicos, filtre destinatários, colete dados e atualize perfis.
 page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 21%
+ht-degree: 23%
 
 ---
 
