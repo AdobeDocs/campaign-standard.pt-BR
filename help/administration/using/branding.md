@@ -11,9 +11,9 @@ topic-tags: application-settings
 discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1250'
 ht-degree: 80%
 
 ---
@@ -92,13 +92,13 @@ Uma **Marca** é definida pelas seguintes características:
 
 Você pode adicionar novas entidades de sua organização na Campanha ou criar um novo tipo de email que você precisa enviar em um subdomínio diferente. Para fazer isso, siga as etapas abaixo:
 
-1. **Delegar um novo subdomínio** - para qualquer novo subdomínio ser usado pelo Adobe, a primeira etapa será delegá-lo. Você pode fazer isso através do Painel de controle do Campaign [da](https://docs.adobe.com/content/help/pt-BR/control-panel/using/subdomains-and-certificates/subdomains-branding.html) Campanha ou alcançar seu contato técnico. Learn more about subdomain delegation [in this article](https://helpx.adobe.com/br/campaign/kb/domain-name-delegation.html).
+1. **Configurar um novo subdomínio** - para que qualquer novo subdomínio seja usado pelo Adobe, a primeira etapa será configurá-lo. Você pode fazer isso através do Painel de controle do Campaign [da](https://docs.adobe.com/content/help/pt-BR/control-panel/using/subdomains-and-certificates/subdomains-branding.html) Campanha ou alcançar seu contato técnico. Learn more about subdomain configuration [in this article](https://helpx.adobe.com/br/campaign/kb/domain-name-delegation.html).
 
-1. **Criar um ticket** - Depois que o subdomínio for delegado, o Adobe precisará configurá-lo no ambiente de produção. Para solicitar isso, [crie um ticket para o Client Care](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) com as seguintes informações:
+1. **Criar um ticket** - Depois que o subdomínio é configurado, o Adobe precisará configurá-lo no ambiente de produção. Para solicitar isso, [crie um ticket para o Client Care](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) com as seguintes informações:
 
    * Assunto: Configuração da nova marca ACS
 
-   * Conteúdo: Um novo domínio foi delegado ao Adobe e gostaríamos de configurá-lo em nossa plataforma de Campanha
+   * Conteúdo: Um novo domínio foi configurado e gostaríamos de configurá-lo em nossa plataforma de Campanha
 
    * Domínio: XXX
 
