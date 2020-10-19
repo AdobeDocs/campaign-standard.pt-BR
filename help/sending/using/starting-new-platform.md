@@ -11,9 +11,9 @@ topic-tags: sheduling-messages
 discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '444'
 ht-degree: 55%
 
 ---
@@ -32,7 +32,7 @@ A inicialização de uma plataforma geralmente ocorre ao usar uma lista de ender
 * Se, mesmo assim, você quiser requalificar os endereços inválidos, é preferível fazer isso assim que a reputação da plataforma for estabelecida e pouco a pouco para &quot;diluir&quot; o uso de endereços inválidos ao longo do tempo.
 
 Para resumir os princípios a serem seguidos ao iniciar:
-* **Delegar um subdomínio** dedicado a um Adobe específico para campanhas de e-mail enviadas do Adobe.
+* **Configure um subdomínio** dedicado para trabalhar com Campanhas específicas para campanhas de e-mail enviadas do Adobe.
 * **Importe endereços inválidos/inativos para a tabela** de quarentena (se você tiver essas informações).
 * **Limite a taxa de transferência** do delivery (configuração técnica: limitação do número de crianças).
 * **Aumente progressivamente os volumes enviados**: não público alvo todo o banco de dados do próprio start, mas adicione uma fração extra da lista sempre que enviar. Isso deve permitir aumentar o volume em cada etapa e reduzir a taxa geral de endereços inválidos.
