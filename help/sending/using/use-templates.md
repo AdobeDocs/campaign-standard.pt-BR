@@ -11,15 +11,15 @@ topic-tags: deliveries-best-practices
 discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '802'
 ht-degree: 64%
 
 ---
 
 
-# Usar templates {#use-templates}
+# Usar modelos {#use-templates}
 
 Os templates do delivery oferecem mais eficiência ao fornecer cenários prontos para os tipos mais comuns de atividades. Com modelos, os profissionais de marketing podem implantar novas campanhas com personalização mínima em um período de tempo menor.
 
@@ -49,7 +49,7 @@ Na **[!UICONTROL Advanced parameters]** seção das propriedades de um modelo de
 
 ![](assets/template-parameters.png)
 
-O domínio de endereço deve ser o mesmo que o subdomínio que você delegou ao Adobe.
+O domínio de endereço deve ser o mesmo que o subdomínio configurado.
 
 Os **[!UICONTROL Reply to]** campos correspondem ao endereço de e-mail e ao nome usados para respostas.
 
