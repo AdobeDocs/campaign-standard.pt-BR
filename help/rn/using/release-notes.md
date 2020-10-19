@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: ca0d93129a259635427220dee050fe441346e0b5
 workflow-type: tm+mt
-source-wordcount: '2387'
-ht-degree: 99%
+source-wordcount: '2412'
+ht-degree: 98%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 99%
 # Versão mais recente{#latest-release}
 
 [Planejamento de versão](../../rn/using/release-planning.md) | [Versões do painel de controle do Campaign](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html) | [Atualizações da documentação](../../rn/using/documentation-updates.md) | [Notas de versão anteriores](../../rn/using/release-notes-2020.md) | [Recursos descontinuados](../../rn/using/deprecated-features.md)
+
+![](assets/do-not-localize/cp-icon.png) **Nova versão** de outubro de Painel de controle do Campaign com configuração de domínio usando CNAMEs e novos recursos de monitoramento de banco de dados. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html).
 
 ## Versão 20.4 - Outubro de 2020 {#release-20-4---october-2020}
 
