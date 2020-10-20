@@ -51,7 +51,7 @@ Finalmente, as atividades [](../../automating/using/about-data-management-activi
 
 Leia mais:
 
-* [Criar um workflow](../../automating/using/building-a-workflow.md)
+* [Criação de um fluxo de trabalho](../../automating/using/building-a-workflow.md)
 * [Execução de um fluxo de trabalho](../../automating/using/about-workflow-execution.md)
 * [Práticas recomendadas do fluxo de trabalho](../../automating/using/best-practices-workflows.md)
 
