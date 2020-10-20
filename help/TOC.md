@@ -78,7 +78,7 @@ ht-degree: 100%
       + [Otimizar o delivery](sending/using/optimize-delivery.md)
       + [Usar modelos](sending/using/use-templates.md)
       + [Criar conteúdo personalizado](sending/using/design-and-personalize.md)
-      + [Definir o público-alvo certo](sending/using/define-the-right-audience.md)
+      + [Definir o público-alvo correto](sending/using/define-the-right-audience.md)
       + [Verificar antes de enviar](sending/using/check-before-sending.md)
       + [Rastrear e monitorar](sending/using/track-and-monitor.md)
    + Mensagens de email {#email-messages}
@@ -164,7 +164,7 @@ ht-degree: 100%
       + [Rastreamento de mensagens](sending/using/tracking-messages.md)
       + [Arquivamento com email Cco](sending/using/archiving.md)
    + Monitoramento de mensagens {#monitoring-messages}
-      + [Monitoramento de um delivery](sending/using/monitoring-a-delivery.md)
+      + [Monitorar um delivery](sending/using/monitoring-a-delivery.md)
       + [Receber alertas quando ocorrerem falhas](sending/using/receiving-alerts-when-failures-happen.md)
       + [Noções básicas sobre falhas de delivery](sending/using/understanding-delivery-failures.md)
       + [Noções básicas sobre gestão de quarentena](sending/using/understanding-quarantine-management.md)
@@ -259,7 +259,7 @@ ht-degree: 100%
    + [Introdução ao gerenciamento de dados e processos](automating/using/get-started-workflows.md)
    + Operação geral do workflow {#workflow-general-operation}
       + [Interface do workflow ](automating/using/workflow-interface.md)
-      + [Criar um workflow](automating/using/building-a-workflow.md)
+      + [Criação de um fluxo de trabalho](automating/using/building-a-workflow.md)
       + [Práticas recomendadas para workflows](automating/using/best-practices-workflows.md)
    + Execução de um workflow {#executing-a-workflow}
       + [Monitoramento da execução de workflows](automating/using/about-workflow-execution.md)
@@ -280,7 +280,7 @@ ht-degree: 100%
       + [Query](automating/using/query.md)
       + [Query incremental](automating/using/incremental-query.md)
       + [União](automating/using/union.md)
-      + [Intersecção](automating/using/intersection.md)
+      + [Interseção](automating/using/intersection.md)
       + [Exclusão](automating/using/exclusion.md)
       + [Segmentação](automating/using/segmentation.md)
       + [Ler público-alvo](automating/using/read-audience.md)
@@ -327,7 +327,7 @@ ht-degree: 100%
       + [Exportar listas](automating/using/exporting-lists.md)
       + [Caso de uso: exportação / importação de recursos personalizados](automating/using/exporting-importing-custom-resources.md)
    + Casos de uso {#workflow-use-case}
-      + [Sobre casos de uso de workflow](automating/using/about-workflow-use-cases.md)
+      + [Sobre casos de uso de fluxo de trabalho](automating/using/about-workflow-use-cases.md)
       + Deliveries {#deliveries}
          + [Criar deliveries com um complemento](automating/using/workflow-created-query-with-complement.md)
          + [Criar deliveries na data de criação de perfis](automating/using/workflow-creation-date-query.md)
