@@ -69,7 +69,7 @@ Leia mais:
 * [Confirmação do envio](../../sending/using/confirming-the-send.md)
 * [Rastreamento de mensagens](../../sending/using/tracking-messages.md)
 * [Arquivamento com email Cco](../../sending/using/archiving.md)
-* [Monitoramento de uma entrega](../../sending/using/monitoring-a-delivery.md)
+* [Monitorar um delivery](../../sending/using/monitoring-a-delivery.md)
 * [Noções básicas sobre falhas de delivery](../../sending/using/understanding-delivery-failures.md)
 * [Noções básicas sobre gestão de quarentena](../../sending/using/understanding-quarantine-management.md)
 
