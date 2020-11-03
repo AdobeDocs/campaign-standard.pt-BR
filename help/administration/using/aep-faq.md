@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 8eaece864ca0f3795cd36ea0cc7a01737822d9e8
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 4%
+source-wordcount: '914'
+ht-degree: 3%
 
 ---
 
@@ -105,3 +105,11 @@ Confira os recursos abaixo:
 * Introdução à [documentação do Launch &amp; Experience Platform SDK](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)
 * Atualização para a [documentação do SDK do Experience Platform](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep)
 * Documentação [do Github Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
+
+## Estou recebendo o erro &quot;Você não tem acesso de gravação no delivery&quot; ao criar um delivery de notificação por push. {#write-access-error}
+
+Você deve verificar o seguinte:
+
+* O aplicativo móvel deve ser mapeado para a unidade organizacional do usuário que precisa criar e enviar delivery de push. O usuário de uma unidade organizacional secundária não pode criar um delivery de push usando um aplicativo mapeado para a unidade organizacional pai.
+
+* A campanha ou o programa dentro do qual o delivery de push é criado deve ser mapeado para a unidade organizacional do usuário que precisa criar e enviar delivery de push. O usuário da unidade organizacional secundária não pode criar um delivery de push em uma campanha ou programa mapeado para a unidade organizacional pai.
