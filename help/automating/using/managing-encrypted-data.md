@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 4e338fb9399f85127e1d8e5f7f178a8d3d0a47cc
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 53%
@@ -61,8 +61,6 @@ As etapas para executar esse caso de uso são as seguintes:
 
 1. No sistema externo, use a chave pública baixada do Painel de controle do Campaign para criptografar os dados a serem importados para o Campaign Standard.
 
-   ![](assets/do-not-localize/gpg_external.png)
-
 1. No Campaign Standard, crie um fluxo de trabalho para importar os dados criptografados e descriptografá-los usando a chave privada que foi instalada por meio do Painel de controle do Campaign. Para fazer isso, criaremos um workflow da seguinte maneira:
 
    ![](assets/gpg_workflow.png)
@@ -102,7 +100,7 @@ As etapas para executar esse caso de uso são as seguintes:
 
    ![](assets/gpg_install.png)
 
-1. No Campaign Standard, crie um fluxo de trabalho para exportar os dados e exportá-los usando a chave privada que foi instalada por meio do Painel de controle do Campaign. Para fazer isso, criaremos um workflow da seguinte maneira:
+1. No Campaign Standard, crie um fluxo de trabalho para exportar os dados e criptografá-los usando a chave privada que foi instalada por meio do Painel de controle do Campaign. Para fazer isso, criaremos um workflow da seguinte maneira:
 
    ![](assets/gpg-workflow-export.png)
 
@@ -127,5 +125,3 @@ As etapas para executar esse caso de uso são as seguintes:
    ![](assets/gpg-transfer-encrypt.png)
 
 1. Agora você pode executar o workflow. Após a execução, o direcionamento de dados pelo query será exportado para o servidor SFTP em um arquivo .gpg criptografado.
-
-   ![](assets/do-not-localize/gpg-sftp-encrypt.png)
