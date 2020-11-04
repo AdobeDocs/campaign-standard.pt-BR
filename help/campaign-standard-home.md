@@ -5,7 +5,7 @@ title: Documentação do produto Adobe Campaign Standard
 description: Consulte a documentação do produto Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 932e703ccb20ea3eefe82d7a695513076d4f4d19
+source-git-commit: 8da8c469fad3cab24046cd531ae036a79a053d75
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 91%
@@ -19,7 +19,7 @@ ht-degree: 91%
 
 ## Novidades
 
-* **[Planejamento](rn/using/release-planning.md)**<br/>de lançamento atualizadoAs datas de lançamento de janeiro serão adicionadas ao planejamento de lançamento
+* **[Atualizado planejamento](rn/using/release-planning.md)**<br/>de lançamento As datas de lançamentode fevereiro de 2021 foram adicionadas ao planejamento de lançamento
 
 * **[Grupos de controle](sending/using/control-group.md)**<br/>
 Meça o impacto de suas campanhas excluindo parte dos públicos
