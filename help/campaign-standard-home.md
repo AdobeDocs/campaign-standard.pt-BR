@@ -5,10 +5,10 @@ title: Documentação do produto Adobe Campaign Standard
 description: Consulte a documentação do produto Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
+source-git-commit: 932e703ccb20ea3eefe82d7a695513076d4f4d19
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 97%
+source-wordcount: '224'
+ht-degree: 91%
 
 ---
 
@@ -19,14 +19,16 @@ ht-degree: 97%
 
 ## Novidades
 
-* **[Grupos de controle](sending/using/control-group.md)**<br/>Meça o impacto de suas campanhas excluindo parte dos públicos
+* **[Planejamento](rn/using/release-planning.md)**<br/>de lançamento atualizadoAs datas de lançamento de janeiro serão adicionadas ao planejamento de lançamento
 
-* **[Emails alimentados por IA](sending/using/predictive.md)**<br/>Otimize o design e o delivery com emails alimentados por IA
+* **[Grupos de controle](sending/using/control-group.md)**<br/>
+Meça o impacto de suas campanhas excluindo parte dos públicos
 
-* **[Gerenciamento de privacidade](https://helpx.adobe.com/br/campaign/kb/campaign-privacy.html)**<br/>
-Saiba mais sobre as ferramentas fornecidas pelo Adobe Campaign para ajudar você a estar em conformidade com a privacidade
+* **[Emails alimentados por IA](sending/using/predictive.md)**<br/>
+Otimize o design e o delivery com emails alimentados por IA
 
-* **[API externa](automating/using/external-api.md)**<br/>Use a atividade de API externa para trazer dados ao workflow a partir de um sistema externo.
+* **[API externa](automating/using/external-api.md)**<br/>
+Use a atividade de API externa para trazer dados ao workflow a partir de um sistema externo.
 
 * **[Introdução a deliveries para dispositivos móveis](https://helpx.adobe.com/br/campaign/kb/acs-mobile.html)**<br/>
 Saiba mais sobre as diretrizes gerais para delivery para dispositivos móveis (SMS, Push, No aplicativo)
