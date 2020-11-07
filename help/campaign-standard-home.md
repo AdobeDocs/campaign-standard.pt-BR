@@ -5,10 +5,10 @@ title: Documentação do produto Adobe Campaign Standard
 description: Consulte a documentação do produto Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8da8c469fad3cab24046cd531ae036a79a053d75
+source-git-commit: 1b2c4e2105a75f31b0b895bee2de9a9a79850910
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 91%
+source-wordcount: '221'
+ht-degree: 90%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 
 ## Novidades
 
-* **[Atualizado planejamento](rn/using/release-planning.md)**<br/>de lançamento As datas de lançamentode fevereiro de 2021 foram adicionadas ao planejamento de lançamento
+* **[Atualizadas as datas de lançamento do planejamento](rn/using/release-planning.md)**<br/> de lançamento em fevereiro de 2021 foram adicionadas ao planejamento de lançamento
 
 * **[Grupos de controle](sending/using/control-group.md)**<br/>
 Meça o impacto de suas campanhas excluindo parte dos públicos
@@ -33,7 +33,7 @@ Use a atividade de API externa para trazer dados ao workflow a partir de um sist
 * **[Introdução a deliveries para dispositivos móveis](https://helpx.adobe.com/br/campaign/kb/acs-mobile.html)**<br/>
 Saiba mais sobre as diretrizes gerais para delivery para dispositivos móveis (SMS, Push, No aplicativo)
 
-[Clique aqui para obter mais atualizações](rn/using/documentation-updates.md)
+[Mais atualizações](rn/using/documentation-updates.md)
 
 ## Páginas principais
 
