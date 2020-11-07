@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 1b2c4e2105a75f31b0b895bee2de9a9a79850910
 workflow-type: tm+mt
-source-wordcount: '6247'
+source-wordcount: '6220'
 ht-degree: 98%
 
 ---
@@ -42,7 +42,7 @@ Uma nova seção sobre as práticas recomendadas do Delivery foi adicionada. [Le
 
 Uma seção foi adicionada para descrever os novos filtros que permitem pesquisar as configurações do evento de acordo com seu status e na última vez que um evento foi recebido. [Leia mais](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
 
-## Atualizações de documentação - Setembro de 2020 {#doc-updates-september-2020}
+## Setembro de 2020 {#doc-updates-september-2020}
 
 A seção mensagens transacionais do evento foi reorganizada e explicada. [Leia mais](../../channels/using/event-transactional-messages.md)
 
@@ -54,7 +54,7 @@ Está disponível a nova integração entre o Campaign Standard e o Microsoft Dy
 
 Foram adicionadas informações sobre fontes anônimas no relatório perfis ativos. [Leia mais](../../audiences/using/active-profiles.md)
 
-## Atualizações da documentação - Agosto de 2020 {#doc-updates-august-2020}
+## Agosto de 2020 {#doc-updates-august-2020}
 
 Está disponível uma nova seção atualizada sobre como começar a usar mensagens transacionais. [Leia mais](../../channels/using/getting-started-with-transactional-msg.md)
 
@@ -62,7 +62,7 @@ A seção de **limitações de mensagens transacionais** foi movida [para cá](.
 
 A seção **Preparando o envio** foi movida [para cá](../../sending/using/preparing-the-send.md)
 
-## Atualizações da documentação - Julho de 2020 {#doc-updates-july-2020}
+## Julho de 2020 {#doc-updates-july-2020}
 
 Uma nova seção foi adicionada com diretrizes relacionadas ao monitoramento do Campaign Standard. [Leia mais](../../administration/using/monitoring-guidelines.md)
 
@@ -76,7 +76,7 @@ A página Gerenciamento de privacidade no Campaign Standard foi atualizada, incl
 
 Novos recursos de email alimentado por IA: envio de otimização de tempo e pontuação de perfis. [Leia mais](../../sending/using/predictive.md)
 
-## Atualizações da documentação – junho de 2020 {#doc-updates-june-2020}
+## Junho de 2020 {#doc-updates-june-2020}
 
 Os casos de uso do workflow foram atualizados e reorganizados em seções temáticas. [Leia mais](../../automating/using/about-workflow-use-cases.md)
 
@@ -88,7 +88,7 @@ A configuração personalizada da conta Litmus foi removida do recurso de render
 
 Campaign Standard – a integração do Microsoft Dynamics 365 está indisponível no momento. Um novo conector está sendo desenvolvido e estará disponível no futuro. As páginas de ajuda relacionadas foram removidas. [Leia mais](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
-## Atualizações da documentação - Maio de 2020 {#doc-updates-may-2020}
+## Maio de 2020 {#doc-updates-may-2020}
 
 A página de visão geral do Campaign Standard foi enriquecida e reorganizada por temas. [Leia mais](../../start/using/about-campaign-standard.md)
 
@@ -116,7 +116,7 @@ Inclusão de um caso de uso para permitir a conversão de emails do editor herda
 
 Uma seção de perguntas frequentes sobre o Designer de email foi adicionada. [Leia mais](../../designing/using/faq-email-designer.md)
 
-## Atualizações da documentação - Abril de 2020 {#doc-updates-april-2020}
+## Abril de 2020 {#doc-updates-april-2020}
 
 A documentação da integração do Microsoft Dynamics 365 com o Adobe Campaign Standard está agora disponível na documentação principal. [Leia mais](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
@@ -168,7 +168,7 @@ As seções de mensagens transacionais foram atualizadas para refletir as pequen
 
 As informações relacionadas aos painéis de atividade da API externa foram atualizadas. [Leia mais](../../automating/using/external-api.md)
 
-## Atualizações da documentação - Março de 2020 {#doc-updates-march-2020}
+## Março de 2020 {#doc-updates-march-2020}
 
 Informações mais detalhadas sobre o MTA aprimorado foram adicionadas à documentação principal, especialmente no que se refere às regras de processamento de email e à qualificação de emails rejeitados. [Leia mais](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
@@ -214,7 +214,7 @@ Foram adicionadas observações sobre os URLs do servidor de aplicativos e do se
 
 A seção Exportar logs foi atualizada para refletir a disponibilidade da ID de log de delivery nos recursos Logs do delivery e Logs de rastreamento. A ID permite exportar um identificador exclusivo para cada log. [Leia mais](../../automating/using/exporting-logs.md)
 
-## Atualizações da documentação - Janeiro de 2020 {#doc-updates-january-2020}
+## Janeiro de 2020 {#doc-updates-january-2020}
 
 A documentação de Avaliação do delivery foi atualizada com uma nova seção sobre Certificação de IP. [Leia mais](../../sending/using/ip-certification.md)
 
@@ -228,7 +228,7 @@ A documentação Trabalho com o Campaign e o Experience Manager foi atualizada, 
 
 A página inicial da documentação das APIs foi aprimorada com redirecionamentos para os diferentes tópicos. [Leia mais](../../api/using/get-started-apis.md)
 
-## Atualizações de documentação - Dezembro de 2019 {#doc-updates-december-2019}
+## Nov. - Dez. 2019 {#doc-updates-december-2019}
 
 A documentação Configuração da conta externa S3 foi atualizada. [Leia mais](../../administration/using/external-accounts.md#amazon-s3-external-account)
 
@@ -237,8 +237,6 @@ A seção Design de conteúdo de email foi reorganizada. [Leia mais](../../desig
 O guia de introdução à Avaliação do delivery foi integrado à documentação principal e atualizado. [Leia mais](../../sending/using/about-deliverability.md)
 
 O guia de introdução sobre como exportar/importar recursos personalizados foi integrado à documentação principal. [Leia mais](../../automating/using/exporting-importing-custom-resources.md)
-
-## Atualizações de documentação - Novembro de 2019 {#doc-updates-november-2019}
 
 Um novo caso de uso que descreve como criar um grupo de controle usando um workflow no Campaign Standard foi adicionado.
 
@@ -282,7 +280,7 @@ Uma nova seção foi adicionada descrevendo como criar um estilo de links com o 
 
 Informações relacionadas à privacidade foram adicionadas à documentação das APIs [Clique aqui](../../api/using/creating-a-privacy-request.md)
 
-## Atualizações de documentação - Outubro de 2019 {#doc-updates-october-2019}
+## Sept. - Oct. 2019 {#doc-updates-october-2019}
 
 Uma nova seção relacionada às configurações do Campaign Standard foi adicionada. [Leia mais](../../administration/using/about-campaign-standard-settings.md)
 
@@ -291,8 +289,6 @@ Uma nova seção que descreve como enviar um email automático de confirmação 
 A seção Mensagens transacionais foi modificada com as atualizações mais recentes da interface, incluindo edição de conteúdo com o Designer de email. [Leia mais](../../channels/using/event-transactional-messages.md)
 
 O capítulo Páginas de aterrissagem foi reorganizado. Ele também foi enriquecido com uma nova seção que detalha as etapas para configurar uma página de aterrissagem. [Leia mais](../../channels/using/getting-started-with-landing-pages.md)
-
-## Atualizações de documentação - Setembro de 2019 {#doc-updates-september-2019}
 
 Uma nova seção foi adicionada na seção Notificações por push sobre como criar e atualizar informações de perfil com base nos dados de assinatura de um aplicativo para dispositivos móveis. [Leia mais](../../channels/using/updating-profile-with-mobile-app-data.md)
 
@@ -304,7 +300,7 @@ Uma observação sobre a opção **Launch_URL_Campaign** foi adicionada na pági
 
 O guia do Designer de email foi reorganizado. [Leia mais](../../designing/using/designing-content-in-adobe-campaign.md)
 
-## Atualizações da documentação - Agosto de 2019 {#doc-updates-august-2019}
+## Agosto de 2019 {#doc-updates-august-2019}
 
 Uma nova seção com casos de uso sobre fluxos de trabalho focados em consultas foi adicionada. [Leia mais](../../automating/using/workflow-created-query-with-complement.md)
 
@@ -356,7 +352,7 @@ A lista de mensagens de erro do Campaign Standard e do Campaign Classic foi atua
 
 Um aviso na documentação de recursos personalizados foi adicionado. Recomendamos o uso de no máximo 30 caracteres para IDs de recursos personalizados. Isso também se aplica a campos de recursos personalizados, chaves, índices e links. [Leia mais](../../developing/using/creating-or-extending-the-resource.md)
 
-## Atualizações da documentação - Julho de 2019 {#doc-updates-2019}
+## Junho - julho de 2019 {#doc-updates-2019}
 
 Uma nova página sobre limitações de Páginas de aterrissagem foi adicionada. [Leia mais](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
@@ -945,4 +941,3 @@ Alteração de URL: Serviço principal do Assets – [Leia mais](../../integrati
 Alteração de URL: Serviço principal do People – [Leia mais](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
 O guia de Perfis e Públicos foi reorganizado. [Leia mais](../../audiences/using/get-started-profiles-and-audiences.md)
-
