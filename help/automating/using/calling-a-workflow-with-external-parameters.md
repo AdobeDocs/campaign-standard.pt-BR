@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 2%
+source-wordcount: '186'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ Vejamos o exemplo a seguir, no qual queremos enviar emails diretamente de um CMS
 O processo para chamar um fluxo de trabalho com parâmetros é o seguinte:
 
 1. Declarar os parâmetros na **[!UICONTROL External signal]** atividade. See [Declaring the parameters in the External signal activity](../../automating/using/declaring-parameters-external-signal.md).
-1. Configure a **[!UICONTROL End]** atividade ou a chamada da API para definir os parâmetros e acionar a **[!UICONTROL External signal]** atividade do fluxo de trabalho. Consulte [](../../automating/using/defining-parameters-calling-workflow.md)
-1. Depois que o fluxo de trabalho é acionado, os parâmetros são ingeridos nas variáveis de eventos do fluxo de trabalho e podem ser usados no fluxo de trabalho. Consulte [](../../automating/using/customizing-workflow-external-parameters.md).
+1. Configure a **[!UICONTROL End]** atividade ou a chamada da API para definir os parâmetros e acionar a **[!UICONTROL External signal]** atividade do fluxo de trabalho. Consulte [esta página](../../automating/using/defining-parameters-calling-workflow.md)
+1. Depois que o fluxo de trabalho é acionado, os parâmetros são ingeridos nas variáveis de eventos do fluxo de trabalho e podem ser usados no fluxo de trabalho. Consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md).
 
 ![](assets/extsignal_process.png)
