@@ -11,7 +11,7 @@ topic-tags: execution-activities
 discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
 context-tags: signal,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 96%
@@ -54,7 +54,7 @@ Ao configurar um sinal externo, é importante primeiro configurar a atividade **
 1. Selecione e abra a atividade usando o botão ![](assets/edit_darkgrey-24px.png) das ações rápidas exibidas.
 1. Edite o rótulo da atividade. Esse rótulo é necessário ao configurar o workflow de origem que aciona **[!UICONTROL External signal]**.
 
-   Se quiser chamar o workflow com parâmetros, use a área **[!UICONTROL Parameters]** para declará-los. Para obter mais informações, consulte esta seção: [](../../automating/using/declaring-parameters-external-signal.md).
+   Se quiser chamar o workflow com parâmetros, use a área **[!UICONTROL Parameters]** para declará-los. Para obter mais informações, consulte [esta página](../../automating/using/declaring-parameters-external-signal.md).
 
    ![](assets/external_signal_configuration.png)
 
@@ -76,7 +76,7 @@ Ao configurar um sinal externo, é importante primeiro configurar a atividade **
 
    Ao definir uma **[!UICONTROL End]** atividade para acionar outro workflow, seu ícone é atualizado com um símbolo de sinal adicional.
 
-   Se quiser chamar o workflow com parâmetros, use a área **[!UICONTROL Parameters and values]**. Para obter mais informações, consulte esta seção: [](../../automating/using/defining-parameters-calling-workflow.md).
+   Se quiser chamar o workflow com parâmetros, use a área **[!UICONTROL Parameters and values]**. Para obter mais informações, consulte [esta página](../../automating/using/defining-parameters-calling-workflow.md).
 
    ![](assets/external_signal_end.png)
 
