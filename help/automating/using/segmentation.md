@@ -11,9 +11,9 @@ topic-tags: targeting-activities
 discoiquuid: 0ccd9d02-772e-406b-874a-5381dd0c8709
 context-tags: segmentation,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '851'
 ht-degree: 92%
 
 ---
@@ -64,7 +64,7 @@ A atividade **[!UICONTROL Segmentation]** geralmente é colocada após as ativid
    * **[!UICONTROL Limit segment population]**: permite limitar o tamanho do segmento.
    * **[!UICONTROL Filter and limit segment population]**: permite filtrar a população do segmento e limitar o tamanho.
    * **[!UICONTROL Label]**: rótulo do segmento.
-   * **[!UICONTROL Segment code]**: código atribuído à população do segmento. O código de segmento pode ser personalizado usando uma expressão padrão e variáveis de eventos (consulte [](../../automating/using/customizing-workflow-external-parameters.md)).
+   * **[!UICONTROL Segment code]**: código atribuído à população do segmento. O código de segmento pode ser personalizado usando uma expressão padrão e variáveis de eventos (consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
    * **[!UICONTROL Exclude segment from population]**: permite excluir o segmento especificado da população de saída da atividade. Essa opção só poderá ser usada se a opção **[!UICONTROL Generate all segments in the same transition]** estiver selecionada.
 
    ![](assets/wkf_segment_new_segment.png)
@@ -91,7 +91,6 @@ A atividade **[!UICONTROL Segmentation]** geralmente é colocada após as ativid
       >[!NOTE]
       >
       >É possível usar diferentes limitações para cada valor. Por exemplo, você pode especificar um agrupamento para o campo **[!UICONTROL Gender]** e limitar a população com 10 membros **[!UICONTROL Male]** e 30 membros **[!UICONTROL Female]**. Se você usar vários campos de agrupamento de dados, todos os agrupamentos deverão ter o mesmo tamanho.
-
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. Confirme a configuração do seu segmento.
