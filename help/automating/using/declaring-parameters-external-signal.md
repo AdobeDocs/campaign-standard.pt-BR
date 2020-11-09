@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '108'
 ht-degree: 5%
 
 ---
@@ -27,7 +27,7 @@ A primeira etapa para chamar um fluxo de trabalho com parâmetros é declará-lo
 
    >[!CAUTION]
    >
-   >Certifique-se de que o nome e o número de parâmetros sejam idênticos ao definido ao chamar o fluxo de trabalho (consulte [](../../automating/using/defining-parameters-calling-workflow.md)). Além disso, os tipos de parâmetros devem ser compatíveis com os valores esperados.
+   >Certifique-se de que o nome e o número de parâmetros sejam idênticos ao definido ao chamar o fluxo de trabalho (consulte [esta página](../../automating/using/defining-parameters-calling-workflow.md)). Além disso, os tipos de parâmetros devem ser compatíveis com os valores esperados.
 
    ![](assets/extsignal_declaringparameters_1.png)
 
