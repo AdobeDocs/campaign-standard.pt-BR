@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 9240686a36146b45de6dfd07fc50a71fab663001
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 3%
+source-wordcount: '148'
+ht-degree: 4%
 
 ---
 
@@ -31,7 +31,7 @@ Um status de recusa CCPA do perfil pode ser monitorado e gerenciado usando o atr
 >
 >O atributo &quot;CCPA Opt-Out&quot; só está disponível a partir de 19.4. Para ambientes 19.3, é necessário estender o recurso Perfis e adicionar um campo booleano. Esse campo será adicionado à API com o rótulo escolhido. Sugerimos que você use &quot;Recusar para CCPA&quot;.
 >
->For more on this, refer to the [Privacy management documentation](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa).
+>Para obter mais informações, consulte a documentação [Solicitações de](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)gerenciamento de privacidade.
 
 <br/>
 
