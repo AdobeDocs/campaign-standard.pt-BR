@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 7f0af4deeaf641e2aded9278b97eb498edd85d08
+source-git-commit: 2dc4ac62e3b10753f7b8681d86cfe7f3b3a30a20
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '928'
 ht-degree: 44%
 
 ---
@@ -49,7 +49,7 @@ In order to help you facilitate your Privacy readiness, Adobe Campaign allows yo
 
 * Also known as Data Erasure, the **Right to be Forgotten** (delete request) entitles the Data Subject to have the Data Controller erase his/her personal data, cease further dissemination of the data, and potentially have third parties halt processing of the data.
 
-To learn how you can create **Access** and **Delete** requests and how Adobe Campaign processes them, refer to the [implementation steps](https://helpx.adobe.com/br/campaign/kb/acs-privacy.html).
+To learn how you can create **Access** and **Delete** requests and how Adobe Campaign processes them, refer to the [implementation steps](../../start/using/privacy-requests.md#about-privacy-requests).
 
 Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=en#privacy).
 
@@ -71,7 +71,7 @@ Os recursos para ajudar a gerenciar alguns aspectos do consentimento são fundam
 
 Para obter mais informações sobre o Gerenciamento de conteúdo, consulte [Sobre o subscrição](../../audiences/using/about-subscriptions.md) e [Introdução ao landing page](../../channels/using/getting-started-with-landing-pages.md).
 
-Além das ferramentas de Gerenciamento de Consentimento fornecidas pela Adobe Campaign, você tem a possibilidade de rastrear se um consumidor optou pela venda de Informações Pessoais. Consulte [esta seção](https://helpx.adobe.com/br/campaign/kb/acs-privacy.html#ccpa).
+Além das ferramentas de Gerenciamento de Consentimento fornecidas pela Adobe Campaign, você tem a possibilidade de rastrear se um consumidor optou pela venda de Informações Pessoais. Consulte [esta seção](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 ### Retenção de dados {#data-retention}
 
