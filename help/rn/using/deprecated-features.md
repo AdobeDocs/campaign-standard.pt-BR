@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: campaign-standard-deprecated-features
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 2dc4ac62e3b10753f7b8681d86cfe7f3b3a30a20
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '662'
 ht-degree: 35%
 
 ---
@@ -66,7 +66,7 @@ Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em 
  <tbody> 
   <tr> 
    <td> <p>A partir da versão 19.4 da Campanha, o uso da API de Campanha e da interface para acessar e excluir solicitações está obsoleto. A exclusão do perfil de 2 etapas não estará disponível. Use o serviço <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">principal de privacidade do</a>Adobe.</p></br>
-   <p>Consulte também Gerenciamento de <a href="https://helpx.adobe.com/br/campaign/kb/acs-privacy.html">privacidade no Campaign Standard</a>.</p>
+   <p>Consulte também <a href="https://helpx.adobe.com/br/campaign/kb/acs-privacy.html">Gerenciamento de solicitações</a>de privacidade.</p>
   <p> 
   <em>Data de remoção do Target: 2021</em></p>
    </td> 
