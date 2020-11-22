@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Excluir um recurso
 description: 'Saiba como excluir um recurso '
-page-status-flag: never-activated
-uuid: 5de27589-6fa5-412c-8e5a-a4976de05715
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 0130733d-4e3f-40cd-b959-56381f2c8f44
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 14%
