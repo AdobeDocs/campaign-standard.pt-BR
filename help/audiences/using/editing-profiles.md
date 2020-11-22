@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Editar perfis
 description: Saiba como editar perfis existentes e acessar informações de contato, canais preferidos, logs de rastreamento, subscrições etc.
-page-status-flag: never-activated
-uuid: 6fcdb719-6149-48fc-b400-64c24a51487f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-discoiquuid: 8d3ba7bf-90ae-4c6d-aaeb-a48572a69f2f
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 8%
