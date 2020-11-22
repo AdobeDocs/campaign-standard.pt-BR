@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Usar acionadores no Campaign
 description: null
-page-status-flag: never-activated
-uuid: d844d013-b38a-4e69-9df5-0edc01fa9c6e
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 87%
