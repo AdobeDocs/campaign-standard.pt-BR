@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Gerenciamento de participação e não participação no Campaign
 description: Saiba como o opt-in e o opt-out são gerenciados no Adobe Campaign.
-page-status-flag: never-activated
-uuid: aa1801ec-562b-420e-8d79-c07d066b7b1a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 8%
