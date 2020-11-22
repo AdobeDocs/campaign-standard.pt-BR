@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Teste
 description: A atividade Test permite uma transição com base em um resultado de teste.
-page-status-flag: never-activated
-uuid: 1562ec7a-253a-4f4f-b66a-c2948b57775a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-discoiquuid: 2650bf1f-0bce-4049-a226-2369f6666b95
 context-tags: jstest,main
 translation-type: tm+mt
-source-git-commit: 121b36056317cc89909607220f988c02ae470f08
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 90%
