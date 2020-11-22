@@ -1,27 +1,24 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: lista de permissões no Adobe Campaign Standard
 description: Saiba como otimizar lista de permissões com o Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 68%
+ht-degree: 82%
 
 ---
 
 
 # Certificação IP {#ip-certification}
 
-A certificação IP é um programa de práticas recomendadas de envio que ajuda a garantir que os e-mails sejam recebidos sem serem bloqueados por filtros antisspam ou outros sistemas de bloqueio de e-mail.
+A certificação IP é um programa de práticas recomendadas de envio que ajuda a garantir que os emails sejam recebidos sem serem bloqueados por filtros anti-spam ou outros sistemas de bloqueio de email.
 
 Atualmente, dois provedores oferecem certificação IP: Return Path e Certified Senders Alliance.
 
@@ -40,6 +37,6 @@ A certificação da [Certified Senders Alliance](https://certified-senders.org/c
 * Proteção contra os riscos legais e financeiros através do pleno cumprimento das normas legais
 * Proteção da reputação através de avisos antecipados do CSA Complaints Office e de relatórios diários de captura de spam
 
-Os ISPs são livres para usar esses serviços e o número de ISPs pode variar dependendo da lista de permissões.
+Os ISPs podem usar livremente esses serviços e o número de ISPs pode variar dependendo da lista de permissões.
 
 No entanto, como cada vez mais ISPs criam seus filtros anti-spam com base no comportamento de cada proprietário da caixa de entrada, em vez de analisar o conteúdo da mensagem propriamente dita, o uso da certificação IP não pode ser uma garantia de inserção da caixa de entrada ou até mesmo do delivery.
