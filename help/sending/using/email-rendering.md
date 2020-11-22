@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Renderização de email
 description: Conheça o recurso de renderização de email.
-page-status-flag: never-activated
-uuid: c423e237-ad39-4797-ac3a-4320894a8f99
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 91%
