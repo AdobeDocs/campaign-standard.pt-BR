@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Criar uma mensagem SMS
 description: Siga estas etapas para criar uma mensagem SMS de envio único no Adobe Campaign.
-page-status-flag: never-activated
-uuid: 591ae97e-2d19-4f93-be4b-d8d20f1d2d12
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: sms-messages
-discoiquuid: b27381a9-19e5-4b65-b194-c72f475ba54d
 delivercontext-tags: deliveryCreation,wizard
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 100%
