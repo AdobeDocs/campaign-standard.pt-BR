@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: União
 description: A atividade Union permite reagrupar o resultado de várias atividades em um único público-alvo.
-page-status-flag: never-activated
-uuid: fafc3ce9-2212-4403-8754-cfbb28ba6e26
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 99a8c3a5-7d90-4dbb-aa37-1d0a84719cf6
 context-tags: union,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 98%
