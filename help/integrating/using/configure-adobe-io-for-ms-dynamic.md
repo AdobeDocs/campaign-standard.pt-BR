@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Configurar o Adobe IO para integração com o Microsoft Dynamics 365
 description: Saiba como configurar o E/S do Adobe para integração com o Microsoft Dynamics 365.
-page-status-flag: never-activated
-uuid: effa1028-66b2-4bef-b5e4-7319dbb23d5d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 3%
+source-wordcount: '504'
+ht-degree: 5%
 
 ---
 
@@ -66,7 +63,7 @@ Depois de baixado, você pode descompactar o arquivo para revelar as chaves púb
 
    ![](assets/adobeIO5.png)
 
-1. Na tela seguinte, você selecionará perfis de produtos para associar a este projeto. Selecione o perfil de produto que contém o título: A ID de locatário da sua instância de Campanha - [!UICONTROL Administrators]
+1. Na tela seguinte, você selecionará perfis de produtos para associar a este projeto. Selecione o perfil de produto que contém na solução: Produto padrão de campanha: campaignTitle: A ID de locatário da sua instância de Campanha - [!UICONTROL Administrators]
 
    Exemplo: Campaign Standard - your-campanha-locatário-ID - Administradores
 
