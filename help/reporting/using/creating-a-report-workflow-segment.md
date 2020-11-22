@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Criar um relatório com base em segmentos de workflow
 description: Saiba como verificar o sucesso de seu delivery dependendo dos segmentos de seus workflows em seus relatórios.
-page-status-flag: never-activated
-uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
-contentOwner: beneat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 2%
