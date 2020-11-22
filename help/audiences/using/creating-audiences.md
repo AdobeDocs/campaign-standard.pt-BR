@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Criação de públicos-alvo
 description: Saiba como criar públicos-alvo no Adobe Campaign.
-page-status-flag: never-activated
-uuid: fe99b31b-a949-4832-b0e6-2b36d1c8be80
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
-discoiquuid: df8bdcfb-be5e-4044-bc26-aa3466accbbe
 context-tags: readAudience,main;audience,overview;delivery,audience,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '969'
 ht-degree: 100%
