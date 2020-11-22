@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Preparação e envio de uma mensagem no aplicativo
 description: Crie uma mensagem no aplicativo que será direcionada aos assinantes do aplicativo com conteúdo específico.
-page-status-flag: never-activated
-uuid: a79b0466-8641-46cc-a70f-e4e839587bb2
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
-discoiquuid: 18bf5297-a688-4302-abe4-e2fbcafdb515
 context-tags: delivery,triggers,back;deliveryCreation,wizard
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1274'
 ht-degree: 98%
