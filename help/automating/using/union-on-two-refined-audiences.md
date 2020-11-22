@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: União em dois públicos-alvo refinados
 description: Este caso de uso mostra a união de duas atividades de audiência de leitura.
-page-status-flag: never-activated
-uuid: 58c54e71-f4a7-4ae9-80a3-33c379ab1db9
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 674684e5-8830-4d2f-ba97-59ed4ba7422f
 context-tags: readAudience,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 58%
