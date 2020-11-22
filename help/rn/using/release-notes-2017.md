@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Notas de versão 2017
 description: Essa página lista todas as versões 2017 do Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: d73f8186-e309-441b-969d-71d0a1c33cf4
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '4627'
 ht-degree: 8%
@@ -270,7 +267,7 @@ _Fluxos de trabalho_
    <td> Quebre a barreira digital e conecte-se ao mundo físico com o primeiro canal offline da Adobe Campaign Standard, Mala direta. Esse recurso permite que você personalize e gere o arquivo necessário para provedores de mala direta como parte de suas campanhas entre canais. Aproveite a Mala direta para envolver novamente os clientes ou aprimorar a experiência do cliente com um ponto de contato atraente e tátil, levando os clientes ao seu aplicativo, site ou loja.<br /> Para obter mais informações, consulte a <a href="../../channels/using/about-direct-mail.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Cco de email<br /> </td> 
+   <td> Email Cco<br /> </td> 
    <td> A Cco de email permite salvar mensagens de email únicas enviadas a recipient individuais, permitindo assim que a marca arquive essas mensagens. Ao adicionar um endereço de email CCO a todos os emails, os clientes da Adobe Campaign Standard podem manter uma cópia exata de cada email com este recurso. Este é um requisito legal comum para o setor de serviços financeiros e é útil para auxiliar os centros de atendimento ao cliente na resolução de conflitos em tempo real.<br /> Para obter mais informações, consulte a <a href="../../sending/using/archiving.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
  </tbody> 
