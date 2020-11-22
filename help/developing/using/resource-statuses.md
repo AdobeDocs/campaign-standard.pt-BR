@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Status dos recursos
 description: Descubra os diferentes status de recursos de acordo com o estado da publicação.
-page-status-flag: never-activated
-uuid: 215c0a2e-27ec-43f3-baac-1eaac7640784
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: about-custom-resources
-discoiquuid: 85516477-1b95-4273-a0a7-d2cbb9950afd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 1%
