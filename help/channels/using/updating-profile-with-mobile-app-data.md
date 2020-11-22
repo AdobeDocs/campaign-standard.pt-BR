@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Criação e atualização de informações de perfil com base em dados de aplicativo móvel
 description: Saiba como criar e atualizar informações de perfis com base nos dados de aplicativos móveis.
-page-status-flag: never-activated
-uuid: 8cf74cad-b1ba-4aad-83bd-7289cb22d5f4
-contentOwner: lemaitre
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-discoiquuid: dc944c85-2059-46df-b396-676fe3617dd1
 context-tags: delivery,mobileAppContent,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 5%
