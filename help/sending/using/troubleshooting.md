@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Solução de problemas de entrega no Adobe Campaign Standard
 description: Saiba o que fazer ao enfrentar problemas de entrega com a Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 54%
+ht-degree: 64%
 
 ---
 
@@ -34,7 +31,7 @@ Ao receber sempre a mesma mensagem de erro para um ISP, o email ou IP pode ter s
 
 Se o problema persistir, entre em contato com os serviços comerciais ou de entrega ou com o suporte da Adobe Campaign.
 
-##  Lista de bloqueios quarentena {#denylist-versus-quarantine}
+## Lista de bloqueios × quarentena {#denylist-versus-quarantine}
 
 * **Qual é a diferença entre um endereço de email em lista de bloqueios e um endereço de email em quarentena?**
 
@@ -49,7 +46,7 @@ Se o problema persistir, entre em contato com os serviços comerciais ou de entr
 
    Para obter mais informações, consulte [Entendendo o gerenciamento da quarentena](../../sending/using/understanding-quarantine-management.md).
 
-## Remoção de lista de bloqueios {#removing-from-denylist}
+## Remoção da lista de bloqueios {#removing-from-denylist}
 
 * **Um dos meus recipient foi adicionado à lista de bloqueios por engano. How do I remove them from the denylist so that I can start sending them messages again?**
 
@@ -60,14 +57,14 @@ Se o problema persistir, entre em contato com os serviços comerciais ou de entr
 * **Como posso descobrir se um dos meus IPs está na lista de bloqueios? Como remover meus IPs de uma lista de bloqueios?**
 
    Para verificar se o endereço IP está na lista de bloqueios, use vários sites para verificá-lo, como:
-   * [Caixa de ferramentas MX](https://mxtoolbox.com/)
-   * [Qual é o meu endereço IP](https://whatismyipaddress.com)
+   * [MX Toolbox](https://mxtoolbox.com/)
+   * [Qual é meu endereço IP](https://whatismyipaddress.com)
 
    Geralmente, o resultado da verificação de endereço IP retornará uma lista que contém detalhes da lista de bloqueios e também o nome do site que bloqueou o endereço IP.
 
    Ao clicar no link correspondente, é possível acessar os detalhes do site.
 
-   Em seguida, você pode solicitar que seu site seja excluído do site que adicionou o endereço IP à sua lista de bloqueios.
+   É possível solicitar que seu site seja excluído da lista de bloqueios do site que incluiu o endereço IP à lista de bloqueios.
 
    >[!NOTE]
    >
