@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Hot clicks
 description: Com o recurso Hot click out out-of-the-box, saiba onde o cliente clicou no seu delivery.
-page-status-flag: never-activated
-uuid: 7ed49dd3-d7ee-466a-9a7b-d2aa16961667
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: ecbc1ade-63d9-4ac2-9828-380a1aa95094
 context-tags: deliveryHotClicksReport,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
