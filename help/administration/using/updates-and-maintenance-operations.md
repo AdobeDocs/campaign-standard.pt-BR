@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Atualizações e operações de manutenção
 description: null
-page-status-flag: never-activated
-uuid: 8111bac6-4c9d-4b04-810b-5a84131083ac
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: application-settings
-discoiquuid: fb9a8bae-214e-4255-858e-b91a987191d3
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 49%
