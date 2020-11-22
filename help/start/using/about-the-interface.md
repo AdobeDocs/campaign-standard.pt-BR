@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Sobre a interface
 description: A área de trabalho da campanha é baseada em conceitos comuns a todas as soluções da Adobe Experience Cloud.
-page-status-flag: never-activated
-uuid: ed9e631c-5ad1-49f1-be1e-b710bc64dc91
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 1%
