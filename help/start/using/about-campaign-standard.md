@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Introdução ao Campaign Standard
 description: Conheça os principais recursos, a interface do usuário e as diretrizes globais.
-page-status-flag: never-activated
-uuid: 027f6787-d2ef-44ae-a40a-8facdfe2ae77
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
-discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 100%
