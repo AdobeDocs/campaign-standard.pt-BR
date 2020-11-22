@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Definição de público-alvo de correspondência direta
 description: Saiba como definir o público-alvo para o delivery de correspondência direta.
-page-status-flag: never-activated
-uuid: f843e368-5c07-4b53-8943-46f7bf45b62b
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-discoiquuid: f993d1b6-4b9a-4f95-81fc-60c126211bd2
 context-tags: delivery,directMailContent,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 100%
