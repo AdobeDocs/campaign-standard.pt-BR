@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Notas de versão 2019
 description: Essa página lista todas as versões 2019 do Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '7624'
 ht-degree: 9%
@@ -307,7 +304,7 @@ Introduziu uma série de melhorias e correções para otimizar fragmentos na ver
  <tbody> 
   <tr> 
    <td> Painel de controle<br /> </td> 
-   <td> <p>Para ajudar a aumentar a eficiência do seu trabalho como usuário administrador, você pode monitorar facilmente a capacidade e gerenciar as configurações de suas instâncias (começando pelo gerenciamento de servidores SFTP).</p><p>Para saber mais, consulte a <a href="https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.translate.html">documentação detalhada</a> e o <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">vídeo de instruções</a>.</p></td> 
+   <td> <p>Para ajudar a aumentar a eficiência do seu trabalho como usuário administrador, você pode monitorar facilmente a capacidade e gerenciar as configurações de suas instâncias (começando pelo gerenciamento de servidores SFTP).</p><p>Para saber mais, consulte a <a href="https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.translate.html">documentação detalhada</a> e o <a href="https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/control-panel/control-panel-overview.html">vídeo de instruções</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Notificações locais<br /> </td> 
