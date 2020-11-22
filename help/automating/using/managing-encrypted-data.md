@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Gerenciamento de dados criptografados
 description: Saiba como gerenciar dados criptografados.
-page-status-flag: never-activated
-uuid: d909d26a-cf50-46af-ae09-f0fd7258ca27
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 translation-type: tm+mt
-source-git-commit: 4e338fb9399f85127e1d8e5f7f178a8d3d0a47cc
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 53%
