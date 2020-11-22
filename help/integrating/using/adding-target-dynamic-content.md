@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Adicionar conteúdo dinâmico do Target
 description: Saiba como adicionar conteúdo dinâmico Adobe Target em um de seus delivery Adobe Campaign.
-page-status-flag: never-activated
-uuid: b3cc045f-7924-480e-8c61-8246510f3adb
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
-discoiquuid: 45ddf7b7-98f7-4fdd-bb4a-49ec8490e877
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 33%
+ht-degree: 35%
 
 ---
 
@@ -41,7 +38,7 @@ Antes de acessar a imagem no Adobe Campaign, as seguintes tarefas devem ser exec
    A integração só oferece suporte a imagens estáticas. O restante do conteúdo não é personalizável.
 
 1. Insira o nome do rawbox especificado no Adobe Target.
-1. Se você usar permissões do Enterprise em suas configurações no Adobe Target, adicione a propriedade correspondente nesse campo. Saiba mais sobre as permissões do Target Enterprise [nesta página](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html). Este campo é opcional e não é necessário se você não usar permissões do Enterprise no Target.
+1. Se você usar permissões do Enterprise em suas configurações no Adobe Target, adicione a propriedade correspondente nesse campo. Saiba mais sobre as permissões do Target Enterprise [nesta página](https://docs.adobe.com/content/help/pt-BR/target/using/administer/manage-users/enterprise/properties-overview.html). Este campo é opcional e não é necessário se você não usar permissões do Enterprise no Target.
 1. Em **[!UICONTROL Additional decision parameters]**, especifique o mapeamento entre os campos definidos nos segmentos do Adobe Target e os campos do Adobe Campaign.
 
    Os campos do Adobe Campaign usados devem ter sido especificados no rawbox. Aqui, definiremos experiências diferentes dependendo do gênero do recipient.
