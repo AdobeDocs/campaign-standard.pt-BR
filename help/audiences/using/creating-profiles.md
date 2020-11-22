@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Criação de perfis
 description: Saiba como criar perfis e coletar dados nos contatos usando APIs, recursos de importação, aquisição online, atualizações automáticas ou manuais.
-page-status-flag: never-activated
-uuid: a5f5a58a-e798-400f-8648-05dc843d5557
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 97%
