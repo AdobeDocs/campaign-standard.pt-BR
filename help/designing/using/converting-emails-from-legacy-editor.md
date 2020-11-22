@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 'Convertendo email do editor herdado para o Designer de email '
 description: Descubra como usar e-mails criados no Editor herdado e-mail para o Designer de e-mail.
-page-status-flag: never-activated
-uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 8%
