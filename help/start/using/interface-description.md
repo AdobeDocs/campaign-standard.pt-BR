@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Descrição da interface
 description: '"Saiba como navegar e usar o espaço de trabalho do Adobe Campaign: página inicial, barra superior, menus avançados e barras de ação."'
-page-status-flag: never-activated
-uuid: af9f0f1f-d24a-4dc7-b4a8-70290de6eb3f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1144'
 ht-degree: 96%
