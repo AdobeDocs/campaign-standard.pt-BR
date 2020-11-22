@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Indicadores de rastreamento
 description: Com os indicadores de rastreamento prontos para uso, saiba mais sobre o comportamento de seus clientes quando recebem mensagens de email.
-page-status-flag: never-activated
-uuid: b2df8846-4caf-45e6-a8ff-ee37655383c2
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 64abc885-2aec-423f-bf5b-5a623a16ca6d
 context-tags: deliveryTrackingReports,main;campaignTrackingReport,main;programTrackingReport,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 2%
