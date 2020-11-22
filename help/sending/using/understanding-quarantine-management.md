@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Noções básicas sobre gestão de quarentena
 description: Saiba como otimizar sua capacidade de delivery com o gerenciamento de quarentenas.
-page-status-flag: never-activated
-uuid: 3c287865-1ada-4351-b205-51807ff9f7ed
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 82%
+ht-degree: 84%
 
 ---
 
@@ -30,13 +27,13 @@ Em qualquer caso, o procedimento de quarentena está em conformidade com as regr
 
 Os perfis cujos endereços de email ou número de telefone estão em quarentena são excluídos automaticamente durante a preparação da mensagem (consulte [Identificação de endereços em quarentena para um delivery](#identifying-quarantined-addresses-for-a-delivery)). Isso irá acelerar os deliveries, pois a taxa de erro tem um efeito significativo na velocidade do delivery.
 
-Alguns provedores de acesso à Internet consideram automaticamente emails como spam se a taxa de endereços inválidos for muito alta. A quarentena, portanto, permite que você evite ser adicionada à lista de bloqueios por esses provedores.
+Alguns provedores de acesso à Internet consideram automaticamente emails como spam se a taxa de endereços inválidos for muito alta. A quarentena, portanto, evita que você seja adicionado à lista de bloqueios por esses provedores.
 
 Além disso, a quarentena ajuda a reduzir os custos de envio de SMS, excluindo números de telefone incorretos dos deliveries.
 
 Para obter mais informações sobre as práticas recomendadas para proteger e otimizar seus deliveries, consulte [esta página](https://helpx.adobe.com/br/campaign/kb/delivery-best-practices.html).
 
-### Quarentena vs Lista de bloqueios {#quarantine-vs-denylist}
+### Quarantine vs Denylist {#quarantine-vs-denylist}
 
 A **quarentena** se aplica somente a um endereço, não ao próprio perfil. Isso significa que, se dois perfis tiverem o mesmo endereço de email, eles serão afetados se o endereço estiver em quarentena.
 
