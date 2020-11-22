@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Configuração da estrutura de dados do recurso
 description: Saiba mais sobre como configurar a estrutura de dados.
-page-status-flag: never-activated
-uuid: 60fe80c0-9df6-4808-a432-60a1977216ea
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
 context-tags: cusResource,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1657'
 ht-degree: 100%
