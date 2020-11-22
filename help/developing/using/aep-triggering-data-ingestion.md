@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Acionando a assimilação de dados por meio de APIs
 description: Saiba como acionar a ingestão de dados por meio de APIs.
-page-status-flag: never-activated
-uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 translation-type: tm+mt
-source-git-commit: 66417375168a9e4cbecdba71b1dcd94e844589c2
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 5%
