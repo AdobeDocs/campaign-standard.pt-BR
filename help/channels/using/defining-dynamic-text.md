@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Definição de texto dinâmico
 description: Saiba como exibir textos diferentes dinamicamente para o usuário, de acordo com as condições definidas no Adobe Campaign.
-page-status-flag: never-activated
-uuid: bbcd200c-4fb4-467b-ba39-09b8bee9bcaa
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: defining-conditional-content
-discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 3%
