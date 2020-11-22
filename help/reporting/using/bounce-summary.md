@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Resumo da rejeição
 description: Com o relatório resumido de rejeição pronto para uso, saiba mais sobre o status de suas campanhas enviadas e os erros que elas podem ter encontrado.
-page-status-flag: never-activated
-uuid: 90087311-4236-4df9-ae7d-4a15c00c70ab
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 5ae561b4-03cf-4541-87ff-47f1027d53b8
 context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 8%
