@@ -1,16 +1,13 @@
 ---
-title: Intersecção
+solution: Campaign Standard
+product: campaign
+title: Interseção
 description: A atividade Intersecção permite manter somente os elementos comuns aos diferentes preenchimentos de entrada na atividade.
-page-status-flag: never-activated
-uuid: a60f9811-0158-44b3-952b-392685c006cc
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 7a107d6b-edc3-44c3-bbb7-ba3dec8e43f9
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 100%
@@ -18,7 +15,7 @@ ht-degree: 100%
 ---
 
 
-# Intersecção{#intersection}
+# Interseção{#intersection}
 
 ## Descrição {#description}
 
