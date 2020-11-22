@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Personalização de um email com dados adicionais
 description: Este caso de uso apresenta como adicionar diferentes tipos de dados adicionais a um query e usá-los como um campo de personalização em um email.
-page-status-flag: never-activated
-uuid: b3c629fa-370e-481c-b347-fcf9f5a5e847
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 86%
