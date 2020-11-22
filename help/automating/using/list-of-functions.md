@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Lista de funções
 description: A ferramenta de edição de query permite usar funções avançadas para fazer filtragens complexas.
-page-status-flag: never-activated
-uuid: fd50fc99-1e7a-479b-beb7-1f246b419d46
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: filtering-data
-discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1940'
 ht-degree: 98%
