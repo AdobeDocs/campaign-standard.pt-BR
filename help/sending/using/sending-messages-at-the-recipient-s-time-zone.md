@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Envio de mensagens no fuso horário do recipient
 description: Saiba como enviar mensagens no fuso horário do recipient.
-page-status-flag: never-activated
-uuid: 70228c07-451f-4ddb-8d26-92a5a4814e3a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: daa980ba-8c7c-4673-a68f-379d63e4b8bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 100%
