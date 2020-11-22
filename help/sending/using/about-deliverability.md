@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Sobre a capacidade de entrega no Adobe Campaign Standard
 description: Saiba mais sobre os conceitos e as práticas recomendadas relacionadas à capacidade de entrega, bem como sobre as ferramentas oferecidas pela Adobe Campaign Standard para otimizar o envio dos delivery.
-page-status-flag: never-activated
-uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 82%
@@ -51,11 +48,11 @@ Em primeiro lugar, consulte a documentação sobre as ferramentas de entrega for
 * [Otimização do tempo de envio](../../sending/using/optimizing-the-sending-time.md)
 * [Visualização de mensagens](../../sending/using/previewing-messages.md)
 * [Renderização de email](../../sending/using/email-rendering.md)
-* [Monitoramento de um delivery](../../sending/using/monitoring-a-delivery.md)
+* [Monitorar um delivery](../../sending/using/monitoring-a-delivery.md)
 * [Receber alertas quando ocorrerem falhas](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Noções básicas sobre falhas de delivery](../../sending/using/understanding-delivery-failures.md)
 * [Noções básicas sobre gestão de quarentena](../../sending/using/understanding-quarantine-management.md)
-* [Quarentena vs lista de bloqueios](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+* [Quarentena × lista de bloqueios](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 * [Relatórios dinâmicos](../../reporting/using/about-dynamic-reports.md)
 
 ## Verificar a configuração da rede {#network-configuration}
