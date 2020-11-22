@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Gerenciamento de grupos e usuários
 description: Saiba como criar grupos de segurança e gerenciar usuários.
-page-status-flag: never-activated
-uuid: b3a3a2e3-9d69-4231-b724-8f37419f7a61
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: 12f896ab-ee79-4d96-976d-cf34643491b4
 context-tags: user,overview;user,main;security,overview;security,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 97%
