@@ -1,19 +1,15 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Criar conteúdo personalizado
-seo-title: Criar conteúdo personalizado
-page-status-flag: never-activated
-uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '905'
 ht-degree: 86%
 
 ---
@@ -136,7 +132,7 @@ Tente tornar as imagens responsivas e redimensionáveis. Observe que isso pode t
 
 Para serem acessadas de fora, as imagens usadas em emails e recursos públicos vinculados a campanhas devem estar presentes em um servidor acessível externamente.
 
-## Visualizar sua mensagem  {#preview-msg}
+## Visualizar sua mensagem   {#preview-msg}
 
 A Adobe recomenda visualizar a mensagem para verificar a personalização e como os recipients verão o delivery.
 
