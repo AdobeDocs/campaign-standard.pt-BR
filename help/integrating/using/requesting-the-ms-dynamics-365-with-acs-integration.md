@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Solicitar e configurar a integração com o Microsoft Dynamics 365
 description: Saiba como solicitar e configurar o Microsoft Dynamics 365 com integração com o Campaign Standard
-page-status-flag: never-activated
-uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 3%
