@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 'Lista de componentes '
 description: Encontre aqui a lista de todos os componentes disponíveis em Relatórios dinâmicos, bem como suas definições.
-page-status-flag: never-activated
-uuid: a2403806-8df4-4bb1-bac2-2689dc584ae0
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1274'
 ht-degree: 2%
