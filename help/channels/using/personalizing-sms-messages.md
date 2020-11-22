@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Personalizar mensagens SMS
 description: Descubra a especificidade das opções de transliteração ao personalizar mensagens SMS.
-page-status-flag: never-activated
-uuid: 123fe70c-c279-40a3-88b6-6bfb2453ec83
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: sms-messages
-discoiquuid: 7c64785c-e3c2-4caa-a547-002990aae3f9
 delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back;delivery,smsContent,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 100%
