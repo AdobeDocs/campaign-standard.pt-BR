@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Delivery de aniversário
 description: Esse exemplo é um workflow de aniversário. Todos os dias, um email é enviado a perfis cujo aniversário é nesse dia.
-page-status-flag: never-activated
-uuid: 7de53431-84ae-4d21-8361-2775ad314ed2
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-discoiquuid: 5f288cf6-f8ff-4ac9-9c1a-8010260554bb
 context-tags: delivery,workflow,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 69%
