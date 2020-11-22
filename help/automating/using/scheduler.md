@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Scheduler
 description: A atividade Scheduler permite programar quando um fluxo de trabalho ou uma atividade será iniciada.
-page-status-flag: never-activated
-uuid: f5e50a11-8dc9-4d98-9531-024c0fb3f7da
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-discoiquuid: 0fb16cea-3941-404f-899c-33f81ced4ed5
 context-tags: schedule,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 97%
