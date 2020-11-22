@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Gerenciamento de usuários
 description: 'Os usuários do Adobe Campaign têm funções específicas. Descubra os principais tipos de usuários. '
-page-status-flag: never-activated
-uuid: 8c4cc74a-815f-4815-af66-a7c21bc754f1
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 96%
