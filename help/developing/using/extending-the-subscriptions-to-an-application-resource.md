@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Extensão das assinaturas para um recurso de aplicativo
 description: null
-page-status-flag: never-activated
-uuid: 8879b427-b31b-4311-bf54-258a91b1fb78
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
-discoiquuid: 59faa74e-86fc-42d3-90da-f48580b5ec13
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 25%
