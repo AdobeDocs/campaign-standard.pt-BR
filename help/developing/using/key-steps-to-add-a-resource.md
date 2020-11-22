@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Etapas principais da adição de um recurso
 description: Saiba mais sobre as etapas principais da adição de um recurso no modelo de dados da Adobe Campaign.
-page-status-flag: never-activated
-uuid: b8a32659-17ec-4e3e-92f2-0a0d6aaf2629
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 7e130e62-3f6e-41cc-8108-e64127d8d6ec
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 51%
