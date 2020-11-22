@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Receber alertas quando ocorrerem falhas
 description: Saiba como usar o sistema de gerenciamento de alertas.
-page-status-flag: never-activated
-uuid: a3ab733a-e3db-4adc-b930-cd4064b6dc1c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '2031'
 ht-degree: 3%
