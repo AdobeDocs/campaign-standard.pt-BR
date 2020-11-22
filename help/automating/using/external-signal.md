@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Sinal externo
 description: A atividade de sinal externo aciona um workflow quando algumas condições são atendidas com êxito em outro workflow.
-page-status-flag: never-activated
-uuid: 884b6daf-bfd9-440b-8336-004b80c76def
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
 context-tags: signal,main
 translation-type: tm+mt
-source-git-commit: 121b36056317cc89909607220f988c02ae470f08
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 96%
