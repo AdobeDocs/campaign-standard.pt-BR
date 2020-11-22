@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Sobre as atividades de gestão de dados
 description: Atividades de gestão de dados estão disponíveis no lado esquerdo da tela.
-page-status-flag: never-activated
-uuid: c377bdb6-ae4e-4f23-acb7-ba6b0e095241
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: 332bd6be-6ca3-4d38-b608-8a66c156d080
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 55%
