@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Salvar público-alvo
 description: A atividade Save audience permite atualizar um público-alvo ou criar um novo público-alvo a partir da população computada upstream em um fluxo de trabalho.
-page-status-flag: never-activated
-uuid: 8babb173-fa59-44a7-a2a5-49f45ba6bf99
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 1f6bb048-7abd-499b-a4b0-187f9492dc47
 context-tags: saveAudience,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 100%
@@ -67,7 +64,6 @@ A atividade **[!UICONTROL Save audience]** é usada essencialmente para manter o
       >[!NOTE]
       >
       >Essa opção só estará disponível se a funcionalidade de públicos-alvo compartilhadas com a Adobe Experience Cloud tiver sido configurada pelo administrador. Para saber mais, consulte [Trabalho com o Campaign e o serviço principal People](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
-
    O tipo de público-alvo salvo ou disponível durante uma atualização depende das atividades colocadas upstream no fluxo de trabalho.
 
    Se o targeting dimension do público-alvo for desconhecido quando for salvo (por exemplo, se for de um arquivo importado), o público-alvo será criado ou atualizado como sendo do tipo **[!UICONTROL File]**.
