@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Notas de versão 2018
 description: Essa página lista todas as versões 2018 do Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '5400'
 ht-degree: 10%
@@ -128,7 +125,7 @@ Visualização as atualizações [mais recentes da](../../rn/using/documentation
 
 **Aprimoramentos**
 
-* A integração entre Adobe Campaign e Adobe Target agora permite que você aproveite o recurso [Permissões](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html) do Público alvo. Ao incluir uma imagem dinâmica do Adobe Target em um email, agora é possível especificar uma Propriedade de Público alvo (código at_property).
+* A integração entre Adobe Campaign e Adobe Target agora permite que você aproveite o recurso [Permissões](https://docs.adobe.com/content/help/pt-BR/target/using/administer/manage-users/enterprise/properties-overview.html) do Público alvo. Ao incluir uma imagem dinâmica do Adobe Target em um email, agora é possível especificar uma Propriedade de Público alvo (código at_property).
 * Os recursos personalizados que têm um link de cópia própria para o recurso de perfis agora são considerados pelas solicitações de acesso/exclusão da Privacidade do RGPD. Para 1 cardinalidade links simples e N links de coleção de cardinalidade, é necessário selecionar &quot;Excluir/Duplicar o registro do público alvo implica excluir/duplicar os registros referenciados pelo link&quot; no recurso personalizado. Para links simples de cardinalidade 0 ou 1, selecione &quot;Excluir/Duplicar o registro implica excluir/duplicar o registro de públicos alvos referenciado pelo link&quot;.
 
 **Outras alterações**
@@ -233,10 +230,10 @@ Visualização as atualizações [mais recentes da](../../rn/using/documentation
 
 **Outras alterações**
 
-* A atividade de fluxo de trabalho Ler Audiência agora pode ler Experience Cloud audiência. Anteriormente, esta atividade só conseguia ler audiências Query e Listas. Consulte a documentação [](../../automating/using/read-audience.md)detalhada. (CAMP-23623)
+* A atividade de fluxo de trabalho Ler Audiência agora pode ler Experience Cloud audiência. Anteriormente, esta atividade só conseguia ler audiências Query e Listas. Refer to the [detailed documentation](../../automating/using/read-audience.md). (CAMP-23623)
 * O identificador da fonte de dados compartilhada padrão agora está no modo somente leitura e não pode mais ser alterado. A alteração desse identificador pode causar alguns problemas ao compartilhar audiências com o Experience Cloud.
 * Agora a importação de audiências do Audience Manager funciona com arquivos divididos. Anteriormente, somente o último arquivo do segmento era importado pelo workflow técnico importSharedAudience.
-* O AWS S3 conta externa agora suporta regiões e o mecanismo de autenticação da versão 4. Consulte a documentação [](../../administration/using/external-accounts.md)detalhada.
+* O AWS S3 conta externa agora suporta regiões e o mecanismo de autenticação da versão 4. Refer to the [detailed documentation](../../administration/using/external-accounts.md).
 * A janela de seleção de Ativo agora deve ser carregada mais rapidamente e permitir a seleção de um ativo, em seguida, sair da janela sem qualquer problema.
 * As propriedades e a estrutura dos workflows técnicos podem agora ser modificadas por usuários com direitos administrativos e pertencentes às unidades organizacionais e geográficas &quot;Todos&quot;.
 * Foram feitos aprimoramentos na interface de atividade de Segmentação ao criar novos segmentos: A guia Limitação agora aparece diretamente após a adição de uma limitação. Os nomes dos novos segmentos agora são incrementados (&quot;Segmento 1&quot;, &quot;Segmento 2&quot; etc.).
