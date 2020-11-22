@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Configuração da integração de dados do Campaign com os Pontos de interesse
 description: Saiba como configurar o recurso de dados de Pontos de interesse no Adobe Campaign para enviar mensagens personalizadas com base na localização dos assinantes.
-page-status-flag: never-activated
-uuid: 0689a06c-cc1a-442f-95b8-a07fcec85d79
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-discoiquuid: a967c6cc-c53b-41b4-866b-90860d78f463
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1340'
 ht-degree: 3%
@@ -65,7 +62,7 @@ Para poder coletar dados de Pontos de interesse com a Adobe Campaign, é necess�
 
 1. Clique no logotipo **[!UICONTROL Adobe Campaign]**, no canto superior esquerdo, em seguida selecione **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**.
 1. Clique em **[!UICONTROL Create]** para configurar um aplicativo.
-1. Digite um nome no **[!UICONTROL Application name]** campo e clique em **[!UICONTROL Create]**.
+1. Enter a name in the **[!UICONTROL Application name]** field and click **[!UICONTROL Create]**.
 
    Não preencha a **[!UICONTROL Device-specific settings]** seção. Isso se aplica somente à configuração de aplicativos que recebem notificações por push.
 
@@ -210,7 +207,7 @@ Uma lista dos assinantes do aplicativo também é exibida na guia **[!UICONTROL 
 Quando a configuração estiver concluída, os dados coletados de Pontos de interesse serão listados na **[!UICONTROL Places]** guia de cada perfil. Para acessar a lista:
 
 1. Selecione um perfil.
-1. Clique no **[!UICONTROL Edit profile properties]** botão à direita.
+1. Click the **[!UICONTROL Edit profile properties]** button on the right.
 1. Selecione a guia **[!UICONTROL Places]**.
 
    ![](assets/poi_profile_places.png)
