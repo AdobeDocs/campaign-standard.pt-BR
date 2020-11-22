@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Solução de problemas
 description: Saiba como solucionar problemas ao compartilhar recursos.
-page-status-flag: never-activated
-uuid: 1c764dd8-e09f-4e8e-9ccd-88ab3d714284
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-discoiquuid: c28e1d90-8074-4127-a6fc-ed39d69cdb19
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 18%
