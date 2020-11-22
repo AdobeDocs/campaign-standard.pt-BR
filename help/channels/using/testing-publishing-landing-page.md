@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Compartilhamento de uma landing page
 description: Saiba como testar e publicar uma landing page no Adobe Campaign.
-page-status-flag: never-activated
-uuid: fb7b087a-3292-496c-bc41-2e3012bacf59
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-discoiquuid: f7d4bb71-f957-4f86-97c7-8ac0a0030026
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 100%
