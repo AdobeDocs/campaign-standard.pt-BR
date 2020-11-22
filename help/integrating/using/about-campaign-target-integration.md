@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Sobre a integração do Campaign com o Target
 description: Com a integração do Adobe Target, você pode inserir imagens dinâmicas geradas pelo Adobe Target em suas mensagens do Adobe Campaign.
-page-status-flag: never-activated
-uuid: eb43f054-9c00-4ca4-acdd-e2306937af3c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
-discoiquuid: a416fae1-3812-4404-844e-ed6d6df0dcf5
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 38%
