@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Configuração de um processo duplo de aceitação
 description: Siga estas etapas para configurar um processo de participação dupla usando a landing page no Adobe Campaign.
-page-status-flag: never-activated
-uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1150'
 ht-degree: 90%
