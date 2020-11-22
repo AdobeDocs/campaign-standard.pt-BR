@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Extensão do recurso de perfil com um novo campo
 description: Saiba como estender o recurso de perfil.
-page-status-flag: never-activated
-uuid: 9b99e95c-93ff-4187-90f7-db0baf5369ad
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
-discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 100%
