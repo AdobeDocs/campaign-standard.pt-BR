@@ -1,20 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Otimizar o delivery de mensagem
-seo-title: Otimizar o delivery de mensagem
-page-status-flag: never-activated
-uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 82%
+source-wordcount: '732'
+ht-degree: 87%
 
 ---
 
@@ -63,7 +59,7 @@ Para alcançar a caixa de entrada de seus recipients sem ser rejeitado ou ser ma
 
 É de seu interesse manter bons processos de gerenciamento de quarentena.
 
-Ao começar a enviar e-mails em uma nova plataforma, você pode usar uma lista de endereços que não são totalmente qualificados. Se você enviar para endereços inválidos ou endereços honeypot (caixas de correio criadas apenas para enganar spammers), a reputação da sua plataforma será afetada. Os bons processos de gerenciamento de quarentenas ajudam a: mantenha a qualidade do endereço, evite lista de bloqueios por provedores de acesso à Internet e reduza sua taxa de erro, acelerando delivery e throughput.
+Ao começar a enviar e-mails em uma nova plataforma, você pode usar uma lista de endereços que não são totalmente qualificados. Se você enviar para endereços inválidos ou endereços honeypot (caixas de correio criadas apenas para enganar spammers), a reputação da sua plataforma será afetada. Bons processos de gerenciamento de quarentena ajudam a manter a qualidade do endereço, evitar a lista de bloqueios de provedores de acesso à internet, reduzir a taxa de erro acelerando os deliveries e a taxa de transferência.
 
 **Dicas**
 
@@ -71,7 +67,7 @@ Ao começar a enviar e-mails em uma nova plataforma, você pode usar uma lista d
 
 * O Adobe Campaign gerencia endereços incorretos de acordo com o tipo de erro retornado. Para obter mais informações, consulte [esta seção](../../sending/using/understanding-quarantine-management.md).
 
-* Alguns provedores de acesso à Internet consideram automaticamente emails como spam se a taxa de endereços inválidos for muito alta. A quarentena, portanto, permite que você evite ser adicionada à lista de bloqueios por esses provedores.
+* Alguns provedores de acesso à Internet consideram automaticamente emails como spam se a taxa de endereços inválidos for muito alta. A quarentena, portanto, evita que você seja adicionado à lista de bloqueios por esses provedores.
 
 * Além disso, o gerenciamento de quarentenas ajuda a reduzir os custos de envio de SMS, excluindo números de telefone incorretos dos deliveries.
 
