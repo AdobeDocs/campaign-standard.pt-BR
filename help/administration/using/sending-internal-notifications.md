@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Enviar notificações internas
 description: Saiba como enviar notificações do sistema em tempo real aos usuários do Adobe Campaign.
-page-status-flag: never-activated
-uuid: f196f025-dbb9-4268-9d7d-ff626994b447
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: application-settings
-discoiquuid: 4d51229a-745a-4f24-b1c2-22fa203b499c
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 2%
