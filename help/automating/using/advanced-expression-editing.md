@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Edição de expressão avançada
 description: O assistente de edição de queries permite definir expressões avançadas.
-page-status-flag: never-activated
-uuid: a635f999-27ce-41e0-a88c-8a3882e31efe
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: filtering-data
-discoiquuid: 4375153c-0621-4d4c-bfcc-66d157f04f6c
 context-tags: queryFilter,overview;audience,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 98%
