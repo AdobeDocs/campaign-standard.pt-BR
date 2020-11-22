@@ -1,15 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Introdução ao modelo de dados
 description: Saiba mais sobre o modelo de dados do Adobe Campaign.
-uuid: cacd563f-6936-4b3e-83e3-5d4ae31d44e8
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
-discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 100%
