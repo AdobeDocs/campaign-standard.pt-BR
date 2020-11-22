@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Cálculo do indicador
 description: Entenda os resultados de seus relatórios com uma lista da fórmula de cada métrica.
-page-status-flag: never-activated
-uuid: dfbc9d7e-62db-4e77-bb8e-0ac826ec7333
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 8%
