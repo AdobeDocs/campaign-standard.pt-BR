@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Início e término
 description: As atividades Start e End permitem que você marque claramente o início e o término do fluxo de trabalho.
-page-status-flag: never-activated
-uuid: 146b6337-122c-453d-8ffd-5c157db29217
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-discoiquuid: a0a8a725-8ede-4626-9798-b86924b58beb
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 100%
