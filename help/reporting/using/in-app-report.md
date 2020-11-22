@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Relatório no aplicativo
 description: Com o relatório predefinido no aplicativo, saiba mais sobre o sucesso de suas mensagens no aplicativo.
-page-status-flag: never-activated
-uuid: 802dc606-a314-46dd-b361-b746b0772303
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 3f17c2ad-8ba3-4795-93ed-288b2bcee872
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 1%
