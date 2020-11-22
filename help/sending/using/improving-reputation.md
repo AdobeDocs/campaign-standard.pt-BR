@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Melhorando sua reputação com a Adobe Campaign Standard
 description: Saiba como melhorar sua reputação com a Adobe Campaign Standard, gerenciando endereços de email e quarentenas de duplicados.
-page-status-flag: never-activated
-uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '458'
-ht-degree: 70%
+ht-degree: 75%
 
 ---
 
@@ -31,7 +28,7 @@ Ter endereços de email duplicados pode ter várias consequências:
 * A mesma mensagem é enviada mais de uma vez. Mesmo se o Campaign executar um procedimento de desduplicação por padrão antes de enviar, não há nada que impeça o envio da mesma mensagem por ações diferentes com o mesmo conteúdo quando um target é dividido.
 * Solicitações de cancelamento de assinatura não respeitadas. Se um recipient cancelar a inscrição depois de receber uma mensagem, o perfil duplicado ainda será qualificado para mensagens futuras.
 
-Além dessa revisão lateral dos procedimentos de aceitação, essa situação provavelmente levará os usuários a considerar as mensagens como spam e a acionar um procedimento de  lista de bloqueios no ISP.
+Além de evitar os procedimentos de aceitação, essa situação levará os usuários a considerar as mensagens como spam e a acionar um procedimento de lista de bloqueios no ISP.
 
 Você deve ter cuidado especial ao executar operações no banco de dados. Para evitar ao máximo as duplicações, as seguintes ações devem ser realizadas:
 * **As importações devem ser meticulosamente configuradas.** Isso é particularmente importante ao escolher a chave de reconciliação.
