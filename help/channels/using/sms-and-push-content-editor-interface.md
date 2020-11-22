@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Interface do editor de conteúdo de SMS e push
 description: Saiba como usar as diferentes seções do editor para modificar o conteúdo de SMS e push.
-page-status-flag: never-activated
-uuid: 4af5d247-555b-45c5-95a7-cb27f356b5a0
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-sms-and-push-content
-discoiquuid: 4e214eb9-d299-4095-b786-8d1de9b1c8a2
 context-tags: delivery,smsContent,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 100%
