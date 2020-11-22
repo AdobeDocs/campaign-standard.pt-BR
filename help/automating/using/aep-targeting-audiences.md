@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Definição de públicos da Adobe Experience Platform
 description: Saiba como público alvo audiências Adobe Experience Platform em workflows.
-page-status-flag: never-activated
-uuid: 528d9472-e447-47af-a6b2-3181aa5fb5ad
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 5%
@@ -67,6 +64,6 @@ Agora você pode configurar seu fluxo de trabalho com outras atividades. Por exe
 Para obter mais informações sobre como usar workflows e delivery, consulte estas seções:
 
 * [Introdução aos workflows](../../automating/using/get-started-workflows.md)
-* [Criar um workflow](../../automating/using/building-a-workflow.md)
+* [Criação de um fluxo de trabalho](../../automating/using/building-a-workflow.md)
 * [Introdução aos canais de comunicação](../../channels/using/get-started-communication-channels.md)
 * [Sobre as atividades de canal](../../automating/using/about-channel-activities.md)
