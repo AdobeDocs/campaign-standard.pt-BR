@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Configuração do canal SMS
 description: '“Descubra as etapas de configuração do SMS: roteamento, codificação, formatos e propriedades avançadas. "'
-page-status-flag: never-activated
-uuid: 5f13dbd5-9522-4199-8d9a-44c397cb2458
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: 356d4d4f-3d5a-468c-bff8-96767cd8fff6
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1625'
 ht-degree: 99%
