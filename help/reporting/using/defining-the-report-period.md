@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Definição do período do relatório
 description: O período de tempo do seu relatório permite que você filtre seus dados dependendo das datas escolhidas.
-page-status-flag: never-activated
-uuid: 8dfd1ae6-a5a0-4900-bd6f-7815749d0b60
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 8ff74630-860c-4f1c-9aa7-21c3326e47da
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 3%
