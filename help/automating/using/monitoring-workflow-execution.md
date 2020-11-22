@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Monitoramento da execução do workflow
 description: Saiba como monitorar a execução de um fluxo de trabalho.
-page-status-flag: never-activated
-uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
