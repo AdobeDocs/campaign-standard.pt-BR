@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Acessar mensagens
 description: '"Saiba como acessar mensagens e suas funcionalidades avançadas: criação, definição de metas, personalização, execução e relatórios."'
-page-status-flag: never-activated
-uuid: 77e57ed3-bcd5-46b3-aee1-3d03f0df6c11
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-discoiquuid: 72a7bd19-4ac7-460e-b3ef-e570d8a802e1
 context-tags: activity,overview
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 1%
@@ -42,7 +39,7 @@ Para acessar a lista de uma atividade de marketing da campanha:
 
    ![](assets/delivery_list_1.png)
 
-1. Clique na lista **[!UICONTROL Summary]** suspensa.
+1. Click the **[!UICONTROL Summary]** drop-down list.
 1. Clique **[!UICONTROL Search]** para filtrar a forma como as mensagens são exibidas (por nome, data ou status).
 
    Para filtrar mensagens recorrentes, você pode marcar a caixa correspondente.
