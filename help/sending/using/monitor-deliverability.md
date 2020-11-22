@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Monitoramento da entrega no Adobe Campaign Standard
 description: Use as ferramentas oferecidas pela Adobe Campaign Standard para monitorar a entrega da sua plataforma.
-page-status-flag: never-activated
-uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 58%
+ht-degree: 63%
 
 ---
 
@@ -28,7 +25,7 @@ Abaixo você encontrará detalhes sobre o **[!UICONTROL Delivery throughput]** r
 * Verifique a taxa de transferência de cada delivery para garantir que ela seja consistente com a validade do conteúdo do delivery (por exemplo, &quot;vendas rápidas&quot; devem ser entregues em minutos, não em dias).
 * Ao usar as ondas, verifique se cada onda tem tempo suficiente para terminar antes que a próxima seja acionada.
 * Verifique se o número de erros e as novas quarentenas estão consistentes com outros deliveries.
-* Consulte os logs do delivery cuidadosamente em detalhes para verificar o tipo de erros destacados (lista de bloqueios, problemas de DNS, regras antisspam, etc.).
+* Consulte detalhadamente os logs do delivery para verificar o tipo de erro destacado (lista de bloqueios, problemas de DNS, regras anti-spam, etc…).
 
 ## Taxa de transferência da entrega {#delivery-throughput}
 
@@ -42,7 +39,7 @@ Você pode configurar os valores exibidos alterando a escala de tempo.
 
 Outros relatórios estão disponíveis, como **[!UICONTROL Delivery summary]** ou **[!UICONTROL Non-deliverables and bounces]**. Para obter mais informações, consulte Relatórios [](../../reporting/using/about-dynamic-reports.md)dinâmicos.
 
-## Monitorar deliveries {#monitoring-deliveries}
+## Monitoramento de deliveries {#monitoring-deliveries}
 
 O painel de mensagem fornece acesso aos logs do delivery: **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** e **[!UICONTROL Tracked URLs]**. Eles mostram os detalhes do envio, o target que foi excluído e o motivo, bem como as informações de rastreamento, como aberturas e cliques.
 
