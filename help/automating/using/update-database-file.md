@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Atualização do banco de dados com dados externos
 description: Este caso de uso apresenta como adicionar ou atualizar perfis ao banco de dados da Adobe Campaign com os dados recuperados do arquivo.
-page-status-flag: never-activated
-uuid: 1dc55db5-affd-4688-b673-adfb8c1338b5
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: 4db83c95-4b75-4a16-8dbf-bd8940431fa9
 context-tags: writer,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 33%
