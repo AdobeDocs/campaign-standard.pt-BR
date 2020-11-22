@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Versão mais recente
 description: Esta página detalha o conteúdo da versão mais recente do Campaign Standard
-page-status-flag: never-activated
-uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
-contentOwner: vignes
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 translation-type: tm+mt
-source-git-commit: ca0d93129a259635427220dee050fe441346e0b5
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '2412'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -22,7 +19,7 @@ ht-degree: 98%
 
 [Planejamento de versão](../../rn/using/release-planning.md) | [Versões do painel de controle do Campaign](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html) | [Atualizações da documentação](../../rn/using/documentation-updates.md) | [Notas de versão anteriores](../../rn/using/release-notes-2020.md) | [Recursos descontinuados](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **Nova versão** de outubro de Painel de controle do Campaign com configuração de domínio usando CNAMEs e novos recursos de monitoramento de banco de dados. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nova versão de outubro do Painel de controle do Campaign** com configuração de domínio usando CNAMEs e novos recursos de monitoramento de banco de dados. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html).
 
 ## Versão 20.4 - Outubro de 2020 {#release-20-4---october-2020}
 
