@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Importação de dados com modelos de importação
 description: Saiba como coletar dados para alimentar seu banco de dados do Campaign.
-page-status-flag: never-activated
-uuid: bfc03235-2032-448a-a9ed-21ff2a83fa09
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: fb511bb8-6be7-43f6-86ab-94d5cfa3efc9
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 99%
