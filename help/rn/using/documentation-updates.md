@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Atualizações da documentação
 description: Saiba mais sobre todas as atualizações mais recentes da documentação do Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: 3bdc7d11-8421-4110-a5ba-7b1376a03dda
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 translation-type: tm+mt
-source-git-commit: 18cd7a2956a16972b41a797e580cc68ac76abdc8
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '6239'
 ht-degree: 98%
