@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Sincronizar com perguntas frequentes do fluxo de trabalho técnico do Launch
 description: Perguntas frequentes sobre o fluxo de trabalho técnico do Launch.
-page-status-flag: never-activated
-uuid: 4f538452-cc67-4e03-9e2f-2d9eecc081c7
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 2%
