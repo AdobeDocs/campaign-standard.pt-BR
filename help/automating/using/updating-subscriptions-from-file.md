@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Atualização de vários status de assinatura diretamente de um arquivo
 description: Este caso de uso mostra como importar um arquivo contendo perfis e atualizar sua subscrição para vários serviços especificados no arquivo.
-page-status-flag: never-activated
-uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
 context-tags: setOfService,workflow,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 76%
