@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Recursos removidos e obsoletos do Campaign Standard
 description: Esta página lista recursos obsoletos e removidos do Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: null
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
-discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 2dc4ac62e3b10753f7b8681d86cfe7f3b3a30a20
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 35%
