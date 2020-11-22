@@ -1,16 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Práticas recomendadas para fluxos de trabalho
 description: Saiba como aplicar as práticas recomendadas aos seus fluxos de trabalho.
-page-status-flag: never-activated
-uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 translation-type: tm+mt
-source-git-commit: 121b36056317cc89909607220f988c02ae470f08
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 93%
