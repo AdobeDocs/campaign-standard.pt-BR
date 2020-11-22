@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Enriquecimento da base de dados
 description: Saiba mais sobre os vários métodos para enriquecer o banco de dados.
-page-status-flag: never-activated
-uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
-contentOwner: lemaitre
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
-discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 3%
