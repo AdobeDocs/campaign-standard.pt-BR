@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Noções básicas sobre falhas de delivery
 description: Saiba mais sobre como gerenciar falhas de delivery com o Campaign.
-page-status-flag: never-activated
-uuid: 2735aa05-7b6f-47c9-98c4-a15cc33be39d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1285'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -65,15 +62,15 @@ Os possíveis motivos para uma falha de delivery são:
 | **[!UICONTROL Address empty]** | Grave | O endereço não está definido. |
 | **[!UICONTROL Mailbox full]** | Suave | A caixa de entrada deste usuário está cheia e não pode receber mais mensagens. Esse endereço pode ser removido da lista da quarentena para outra tentativa. Ele será removido automaticamente após 30 dias. Para que o endereço seja removido automaticamente da lista de endereços em quarentena, o workflow técnico de **[!UICONTROL Database cleanup]** deve ser iniciado. |
 | **[!UICONTROL Refused]** | Suave/Grave | O endereço foi colocado em quarentena devido a um feedback de segurança como um relatório de spam. De acordo com o erro retornado pelo provedor, o endereço será enviado diretamente para a quarentena, ou o delivery será tentado novamente até que o Campaign receba um erro que justifique o status Quarantine ou até que o número de erros atinja 5. |
-| **[!UICONTROL Duplicate]** | Ignored | O endereço já foi detectado na segmentação. |
+| **[!UICONTROL Duplicate]** | Ignorado | O endereço já foi detectado na segmentação. |
 | **[!UICONTROL Not defined]** | Suave | o endereço está em qualificação porque os erros ainda não foram aumentados. Esse tipo de erro ocorre quando uma nova mensagem de erro é enviada pelo servidor: pode ser um erro isolado, mas se ocorrer novamente, o contador de erros aumentará, o que alertará as equipes técnicas. |
-| **[!UICONTROL Error ignored]** | Ignored | O endereço está em lista de permissões e um e-mail será enviado para ele em qualquer caso. |
+| **[!UICONTROL Error ignored]** | Ignorado | O endereço está em lista de permissões e um e-mail será enviado para ele em qualquer caso. |
 | **[!UICONTROL Address on denylist]** | Grave | O endereço foi adicionado à lista de bloqueios no momento do envio. |
 | **[!UICONTROL Account disabled]** | Suave/Grave | Quando o Provedor de Acesso à Internet (IAP) detecta um longo período de inatividade, ele pode fechar a conta do usuário: delivery para o endereço do usuário serão impossíveis. O tipo Temporário ou Permanente depende do tipo de erro recebido: se a conta estiver temporariamente desativada devido a seis meses de inatividade e ainda puder ser ativada, o status **[!UICONTROL Erroneous]** será atribuído, e o delivery será repetido. Se o erro indicar que a conta está desativada permanentemente, ela será enviada diretamente para Quarentena. |
-| **[!UICONTROL Not connected]** | Ignored | O telefone móvel do perfil é desligado ou não está conectado à rede quando a mensagem é enviada. |
+| **[!UICONTROL Not connected]** | Ignorado | O telefone móvel do perfil é desligado ou não está conectado à rede quando a mensagem é enviada. |
 | **[!UICONTROL Invalid domain]** | Suave | O domínio do endereço de email está incorreto ou não existe mais. Este perfil será alvo novamente até que a contagem de erros chegue a 5. Após isso, o registro será definido como Status de Quarentena e não haverá nenhuma tentativa nova. |
-| **[!UICONTROL Text too long]** | Ignored | O número de caracteres na mensagem SMS excede o limite. Para obter mais informações, consulte [Codificação, comprimento e transliteração de SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration). |
-| **[!UICONTROL Character not supported by encoding]** | Ignored | A mensagem SMS contém um ou mais caracteres que não são suportados pela codificação. Para obter mais informações, consulte [Tabela de caracteres - GSM padrão](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard). |
+| **[!UICONTROL Text too long]** | Ignorado | O número de caracteres na mensagem SMS excede o limite. Para obter mais informações, consulte [Codificação, comprimento e transliteração de SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration). |
+| **[!UICONTROL Character not supported by encoding]** | Ignorado | A mensagem SMS contém um ou mais caracteres que não são suportados pela codificação. Para obter mais informações, consulte [Tabela de caracteres - GSM padrão](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard). |
 
 ## Tentativas após uma falha temporária de delivery {#retries-after-a-delivery-temporary-failure}
 
