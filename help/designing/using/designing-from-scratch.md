@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 'Criar e-mails do zero '
 description: Descubra como projetar emails do zero no conteúdo do email no Designer de email.
-page-status-flag: never-activated
-uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 2%
@@ -74,7 +71,7 @@ Para editar a estrutura de um email:
 
 1. Estão disponíveis vários componentes de estrutura compostos por uma ou mais colunas.
 
-   Selecione o **[!UICONTROL n:n column]** componente para definir o número de colunas de sua escolha (entre 3 e 10). Você também pode definir a largura de cada coluna movendo as setas na parte inferior de cada coluna.
+   Selecione o **[!UICONTROL n:n column]** componente para definir o número de colunas de sua escolha (entre 3 e 10). Também é possível definir a largura de cada coluna movendo as setas na parte inferior de cada coluna.
 
    ![](assets/email_designer_n-n-column.png)
 
