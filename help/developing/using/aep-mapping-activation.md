@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 3a4e8628b916291244d142d9cc4a6a84b799502b
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 1%
+source-wordcount: '478'
+ht-degree: 0%
 
 ---
 
@@ -39,9 +39,29 @@ Se você quiser monitorar todas as tarefas de exportação de dados, vá para **
 
 ![](assets/aep_statusmapping.png)
 
-Status do trabalho de ingestão de dados:
+Os status do trabalho de ingestão de dados são:
 
 * **[!UICONTROL Created]**: Um trabalho de ingestão de dados é criado e a ingestão de dados está em andamento.
 * **[!UICONTROL Failed]**: Falha em um trabalho de ingestão de dados. O campo reason descreve o motivo da falha. A falha pode ser transitória ou permanente. Em caso de falhas transitórias, um novo trabalho de ingestão é criado após um intervalo configurado. Como primeira etapa para a solução de problemas, o usuário pode verificar o campo do motivo da falha. Se o motivo redirecionar um usuário para a interface do usuário do Adobe Experience Platform, o usuário poderá fazer logon no Adobe Experience Platform e verificar o status do lote no conjunto de dados para determinar o motivo exato da falha.
 * **[!UICONTROL Uploaded]**: Um lote é criado primeiro no Adobe Experience Platform e os dados são ingeridos no lote. O campo ID do lote mostra a ID do lote para o lote no Adobe Experience Platform. A Adobe Experience Platform também executa uma validação de postagem no lote. O lote é marcado primeiro como carregado até que a Adobe Experience Platform conclua a etapa de validação posterior. Uma tarefa continua pesquisando o status do lote no Adobe Experience Platform após o upload. Um lote pode ir na validação de publicação em estado de falha ou de sucesso no Adobe Experience Platform.
 * **[!UICONTROL Success]**: Depois que um lote é carregado no Adobe Experience Platform, o status do trabalho (validação de publicação na plataforma) é verificado após um intervalo configurado. Um status &quot;Êxito&quot; identificou uma ingestão bem-sucedida de dados no Adobe Experience Platform.
+
+Em alguns casos, você pode obter o erro de validação abaixo ao publicar seu mapeamento.
+
+![](assets/aep_datamapping_ccpa.png)
+
+Isso ocorre quando o schema XDM que você está usando não foi atualizado com o campo XDM mais recente relacionado ao gerenciamento de privacidade e ainda contém o campo XDM &quot;cpa&quot; obsoleto.
+
+Para atualizar o schema XDM, siga estas etapas:
+
+1. Vá para o conjunto de dados no Adobe Experience Platform usando o link presente na página de mapeamento XDM.
+
+1. Navegue até seu schema XDM.
+
+1. Adicione a combinação &quot;Privacidade do provedor&quot; ao schema.
+
+   ![](assets/aep_datamapping_privacyfield.png)
+
+1. Salve o schema e tente publicar novamente o mapeamento. A publicação deve passar agora.
+
+   ![](assets/aep_save_mapping.png)
