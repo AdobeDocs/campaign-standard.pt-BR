@@ -7,7 +7,7 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 3523a067e4fc4b1d22159fc93171fd1e0b32f05c
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 53%
@@ -45,7 +45,7 @@ Depois que a solicitação for processada, os comandos de criptografia/descripto
 
 Nesse caso de uso, criaremos um workflow para importar dados que foram criptografados em um sistema externo usando uma chave gerada no Painel de controle do Campaign.
 
-Um vídeo tutorial sobre como usar uma chave GPG para descriptografar dados também está disponível [nesta seção](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/decrypting-data.html).
+Um vídeo tutorial sobre como usar uma chave GPG para descriptografar dados também está disponível [nesta seção](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#instance-settings).
 
 As etapas para executar esse caso de uso são as seguintes:
 
@@ -89,7 +89,7 @@ As etapas para executar esse caso de uso são as seguintes:
 
 Nesse caso de uso, criaremos um workflow para criptografar e exportar dados usando uma chave instalada no Painel de controle do Campaign.
 
-Um vídeo tutorial sobre como usar uma chave GPG para criptografar dados também está disponível [nesta seção](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/using-a-gpg-key-to-encrypt-data.html).
+Um vídeo tutorial sobre como usar uma chave GPG para criptografar dados também está disponível [nesta seção](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)).
 
 As etapas para executar esse caso de uso são as seguintes:
 
