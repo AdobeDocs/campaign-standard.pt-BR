@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
 workflow-type: tm+mt
-source-wordcount: '6239'
-ht-degree: 98%
+source-wordcount: '6311'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,12 @@ Além das [Notas de versão](../../rn/using/release-notes.md) do Adobe Campaign,
 ## Novembro de 2020 {#doc-updates-november-2020}
 
 A seção Privacidade foi movida e aprimorada com duas novas páginas: [Gerenciamento](../../start/using/privacy-management.md) de privacidade e [gerenciamento de solicitações](../../start/using/privacy-requests.md)de privacidade.
+
+Foram adicionadas informações na seção Adobe Experience Platform Data Connector sobre o erro de validação de mapeamento de dados relacionado ao gerenciamento de privacidade e como solucioná-lo. [Leia mais](../../developing/using/aep-mapping-activation.md)
+
+A seção Dados pessoais e personas foi atualizada com um cenário de caso de uso para ilustrar como as diferentes pessoas estão interagindo no que diz respeito à privacidade. [Leia mais](../../start/using/privacy.md#use-case-scenario)
+
+Uma nova seção que lista Perguntas frequentes sobre privacidade foi adicionada. [Leia mais](../../start/using/privacy-faq.md)
 
 ## Versão 20.4 - Outubro de 2020 {#release-20-4---october-2020}
 
