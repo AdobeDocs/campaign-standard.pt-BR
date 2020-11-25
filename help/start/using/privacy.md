@@ -1,21 +1,21 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Privacidade e consentimento no Adobe Campaign Standard
-description: Esta seção fornece uma visão geral da privacidade, dados pessoais e gerenciamento de consentimento no Adobe Campaign Standard, bem como das ferramentas disponíveis para lidar com esses problemas.
+title: Privacidade e consentimento
+description: Saiba mais sobre privacidade, dados pessoais e gerenciamento de consentimento na Adobe Campaign Standard
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: c76f4b6e3bc0feb50e5776836552fdceaff61ea7
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 75%
+source-wordcount: '1657'
+ht-degree: 66%
 
 ---
 
 
-# Privacidade e consentimento{#privacy-and-consent}
+# Privacidade e consentimento {#privacy-and-consent}
 
 ## Recomendações gerais {#general-recommendations}
 
@@ -37,7 +37,7 @@ Para gerenciar corretamente a privacidade e os dados pessoais, trabalhe dentro d
 
 >[!NOTE]
 >
->For more on how GDPR, CCPA, and PDPA apply to Adobe Campaign, see [this section](../../start/using/privacy-management.md#privacy-management-regulations).
+>For more on how GDPR, CCPA, PDPA, and LGPD apply to Adobe Campaign, see [this section](../../start/using/privacy-management.md#privacy-management-regulations).
 
 ### Privacidade da Adobe Experience Cloud {#experience-cloud-privacy}
 
@@ -75,6 +75,8 @@ Ao gerenciar a privacidade, é importante definir quais dados devem ser tratados
 * **Dados pessoais** são informações que podem identificar direta ou indiretamente um indivíduo vivo.
 * **Dados confidenciais pessoais** são informações relacionadas a raça, visão política, crenças religiosas, antecedentes criminais, informações genéticas, dados de saúde, preferência sexual, informações biométricas, bem como participação em uniões comerciais.
 
+When integrating Campaign with other Experience Cloud solutions where audiences can be transferred from one system to another, such as the [Audience Destinations service](../../audiences/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager or People core service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md), or with other solutions such as [Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md), you need to pay extra care to personal data protection.
+
 The [main regulations](#privacy-regulations) refer to the different entities that manage data as follows:
 * Um **Controlador de dados** é a autoridade que determina os meios e a finalidade de coleta, utilização e compartilhamento de dados pessoais.
 * Um **Processador de dados** é qualquer pessoa física ou parte que coleta, utiliza ou compartilha dados pessoais, conforme determinado pelo Controlador de dados.
@@ -82,7 +84,31 @@ The [main regulations](#privacy-regulations) refer to the different entities tha
 
 Portanto, como uma empresa que coleta e compartilha dados pessoais, você é o Controlador de dados, seus clientes são os Titulares dos dados e o Adobe Campaign atua como um Processador de dados ao tratar os dados pessoais indicados por você. Observe que é sua responsabilidade como Controlador de dados, tratar a relação com os Titulares dos dados, como ao gerenciar [solicitações de privacidade](#privacy-requests).
 
-When integrating Campaign with other Experience Cloud solutions where audiences can be transferred from one system to another, such as the [Audience Destinations service](../../audiences/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager or People core service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md), or with other solutions such as [Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md), you need to pay extra care to personal data protection.
+### Caso de uso {#use-case-scenario}
+
+Para ilustrar como as diferentes pessoas estão interagindo, veja um exemplo de um caso de uso de experiência de clientes de RGPD de alto nível.
+
+Neste exemplo, uma empresa aérea é o cliente Adobe Campaign. Esta empresa é o Controlador **de** dados e todos os clientes da empresa aérea são **Objetos** de dados. Laura, neste caso particular, é cliente da empresa aérea.
+
+Aqui estão as diferentes personalidades usadas neste exemplo:
+
+* **Laura** é a pessoa **dos dados**. Ela é a recipient que recebe mensagens da empresa aérea. Laura pode ser uma passageiro frequente, mas pode decidir a certa altura que não quer mensagens personalizadas de propaganda ou marketing da empresa aérea. Ela pedirá à empresa da companhia aérea (com base em seu processo) que exclua seu número de passageiro frequente.
+
+* **Anne** é a Controladora **de** Dados na empresa da companhia aérea. Ela recebe o pedido de Laura, recupera IDs úteis solicitadas para identificar a pessoa de dados e envia a solicitação na Adobe Campaign.
+
+* **A Adobe Campaign** é o Processador **de** Dados.
+
+![](assets/privacy-gdpr-flow.png)
+
+Este é o fluxo geral para este caso de uso:
+
+1. A **pessoa** de dados (Laura) envia uma solicitação do RGPD para o **Data Controller**, por email, atendimento ao cliente ou por um portal da Web.
+
+1. O Controlador **de** dados (Anne) envia a solicitação do RGPD para Campanha pela interface ou usando uma API.
+
+1. Depois que o Processador **de** dados (Adobe Campaign) receber as informações, ele tomará medidas na solicitação do RGPD e enviará uma resposta ou uma confirmação ao Controlador **de** dados (Anne).
+
+1. Em seguida, o Controlador **de** dados (Anne) revisa as informações e as envia para a **Pessoa** a quem os dados foram enviados (Laura).
 
 ## Aquisição de dados {#data-acquisition}
 
@@ -123,17 +149,9 @@ O Adobe Campaign fornece recursos adicionais para ajudar você se tornar um Cont
 
 * O **Direito de ser esquecido** (solicitação de exclusão) autoriza o Titular dos dados a ter seus dados pessoais cancelados pelo Controlador de dados.
 
->[!NOTE]
->
->Este conjunto de ferramentas está aqui para ajudá-lo com sua conformidade com a privacidade para RGPD, CCPA e PDPA. For more on these different regulations, see [this section](../../start/using/privacy-management.md#privacy-management-regulations).
+The **Access** and **Delete** requests are presented in [this section](../../start/using/privacy-management.md#right-access-forgotten).
 
-<!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
-
-* **CCPA** (California Consumer Privacy Act) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
-
-* **Thailand's PDPA** (Personal Data Protection Act) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. This regulation applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
-
-As solicitações de **Acesso** e **Exclusão** são apresentadas [nesta página](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess). The implementation steps to create these requests are detailed on [this page](https://helpx.adobe.com/br/campaign/kb/acs-privacy.html#ManagingPrivacyRequests). Tutorials também estão disponíveis [aqui](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html).
+As etapas de implementação para criar essas solicitações estão detalhadas nesta [seção](../../start/using/privacy-requests.md). Tutorials também estão disponíveis [aqui](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html).
 
 ## Recursos de rastreamento {#tracking-capabilities}
 
