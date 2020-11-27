@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: de8afa7e942b7ee831837b1f9506488f7ca835f0
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 98%
@@ -41,7 +41,7 @@ As atualizações de ambientes ocorrem em ondas, durante os intervalos de tempo 
  <tbody>
   <tr>
    <td>Preparo<br /> </td>
-   <td>25 de jan - 26 de 2021<br /> </td>
+   <td>25 de jan - 27 de 2021<br /> </td>
   </tr>
   <tr>
    <td> Produção<br /> </td>
