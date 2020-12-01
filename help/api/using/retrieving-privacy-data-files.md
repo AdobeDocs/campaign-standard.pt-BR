@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 14%
+source-wordcount: '194'
+ht-degree: 12%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 14%
 
 >[!CAUTION]
 >
->The [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) Integration is the method you should use for all access and delete requests. A partir da versão 19.4, o uso da API e da interface do Campaign para solicitações de acesso e exclusão ficará obsoleto. Para obter mais informações sobre os recursos desaprovados e removidos do Campaign Standard, consulte [esta página](https://helpx.adobe.com/br/campaign/kb/acs-deprecated-and-removed-features.html).
+>A integração [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) é o método que você deve usar para todas as solicitações de acesso e exclusão. A partir da versão 19.4, o uso da API e da interface do Campaign para solicitações de acesso e exclusão ficará obsoleto. Para obter mais informações sobre os recursos desaprovados e removidos do Campaign Standard, consulte [esta página](../../rn/using/deprecated-features.md).
 
 Para recuperar o arquivo que contém todas as informações associadas a um valor de reconciliação, siga este procedimento de três etapas:
 
-1. Execute uma solicitação de **POST** para criar uma nova solicitação com o atributo **type=&quot;access&quot;**, consulte [Criação de uma nova solicitação](../../api/using/creating-a-privacy-request.md)de privacidade.
+1. Execute uma solicitação **POST** para criar uma nova solicitação com o atributo **type=&quot;access&quot;**, consulte [Criar uma nova solicitação de privacidade](../../api/using/creating-a-privacy-request.md).
 
-1. Execute uma solicitação de **GET** para recuperar informações sobre a solicitação.
+1. Execute uma solicitação **GET** para recuperar informações sobre a solicitação.
 
-1. Recupere o arquivo de dados executando uma solicitação de **POST** no URL **privacyRequestData** retornado, com o nome interno da solicitação de privacidade dentro da carga. Por exemplo: {&quot;name&quot;:&quot;PT17&quot;}.
+1. Recupere o arquivo de dados executando uma solicitação **POST** no URL **privacyRequestData** retornado, com o nome interno da solicitação de privacidade dentro da carga. Por exemplo: {&quot;name&quot;:&quot;PT17&quot;}.
 
 <br/>
 
