@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '226'
 ht-degree: 100%
 
 ---
@@ -22,11 +22,11 @@ O Adobe Campaign permite definir e gerenciar as permissões atribuídas a usuár
 * **Unidades organizacionais**: permitem definir uma hierarquia de permissões nos diferentes objetos da plataforma (emails, fluxos de trabalho, templates, usuários, perfis etc.). Consulte a seção [Unidades organizacionais](../../administration/using/organizational-units.md).
 * **Funções**: um conjunto de direitos unitários que permitem definir as autorizações atribuídas a usuários e grupos de usuários. Consulte a seção [Lista de funções](../../administration/using/list-of-roles.md).
 
-   Combinadas com as unidades organizacionais, as funções exibem uma visualização filtrada da interface e definem o acesso dos usuários aos diferentes recursos. Para saber mais, consulte a [Tabela de autorizações](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+   Combinadas com as unidades organizacionais, as funções exibem uma visualização filtrada da interface e definem o acesso dos usuários aos diferentes recursos. Para saber mais, consulte a [Tabela de autorizações](../../administration/using/list-of-roles.md).
 
 >[!IMPORTANT]
 >
->Observe que o recurso de unidade geográfica foi removido. Para obter mais informações, consulte esta [página](https://helpx.adobe.com/br/campaign/kb/acs-deprecated-and-removed-features.html).
+>Observe que o recurso de unidade geográfica foi removido. Para obter mais informações, consulte esta [página](../../rn/using/deprecated-features.md).
 
 As funções, os grupos e as unidades organizacionais podem ser gerenciadas pelo administrador funcional da plataforma, no menu **[!UICONTROL Administration > Users & Security]**.
 
