@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: de8afa7e942b7ee831837b1f9506488f7ca835f0
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '452'
 ht-degree: 98%
 
 ---
@@ -41,7 +41,7 @@ As atualizações de ambientes ocorrem em ondas, durante os intervalos de tempo 
  <tbody>
   <tr>
    <td>Preparo<br /> </td>
-   <td>25 de jan - 27 de 2021<br /> </td>
+   <td>25 de jan - 27 de janeiro de 2021<br /> </td>
   </tr>
   <tr>
    <td> Produção<br /> </td>
@@ -54,7 +54,7 @@ As atualizações de ambientes ocorrem em ondas, durante os intervalos de tempo 
 
 **P: Qual é o impacto?**
 
-R: As alterações estão listadas nas [Notas de versão](../../rn/using/release-notes.md), incluindo links para a documentação relacionada. A Adobe também recomenda consultar a página [Recursos removidos e obsoletos](https://helpx.adobe.com/br/campaign/kb/acs-deprecated-and-removed-features.html). Essas páginas estarão disponíveis para a nova versão na data de atualização do ambiente de Preparo.
+R: As alterações estão listadas nas [Notas de versão](../../rn/using/release-notes.md), incluindo links para a documentação relacionada. A Adobe também recomenda consultar a página [Recursos removidos e obsoletos](../../rn/using/deprecated-features.md). Essas páginas estarão disponíveis para a nova versão na data de atualização do ambiente de Preparo.
 
 **P: Qual é o processo de validação?**
 
