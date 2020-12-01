@@ -7,16 +7,16 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 739943deccf6320de71bd6a255eb0b2fb20d5df5
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 5%
+source-wordcount: '1212'
+ht-degree: 6%
 
 ---
 
-# Designing using existing content {#designing-using-existing-content}
+# Projetando usando conteúdo existente {#designing-using-existing-content}
 
-## Selecting an existing content{#selecting-an-existing-content}
+## Selecionar um conteúdo existente{#selecting-an-existing-content}
 
 A Adobe Campaign vem com um conjunto de conteúdos predefinidos para ajudá-lo a começar. Você pode usar um desses ou, se o conteúdo da mensagem que você precisa enviar estiver sendo preparado fora do Adobe Campaign, você pode importá-lo do seu computador ou de um URL.
 
@@ -27,16 +27,16 @@ Ao criar um email ou uma landing page, você pode optar por carregar um conteúd
 >As imagens abaixo mostram como carregar um conteúdo existente usando o [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. Depois de criar o email ou a landing page, abra o conteúdo.
-1. Clique no ícone inicial para acessar o **[!UICONTROL Email Designer]** home page.
+1. Clique no ícone inicial para acessar o home page **[!UICONTROL Email Designer]**.
 
    ![](assets/des_loading_1.png)
 
 1. Selecione a origem do conteúdo que deseja carregar:
 
-   * [Modelos](../../designing/using/using-reusable-content.md#content-templates)de conteúdo: clique na **[!UICONTROL Templates]** guia.
-   * [Conteúdo desde o início](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)até start fresco: clique no **[!UICONTROL Create]** botão.
-   * [Conteúdo do seu computador como um arquivo](#importing-content-from-a-file)ZIP ou HTML: clique no **[!UICONTROL Upload]** botão.
-   * [Conteúdo de um URL](#importing-content-from-a-url) existente (somente para e-mails): clique no **[!UICONTROL Import from URL]** botão.
+   * [Modelos](../../designing/using/using-reusable-content.md#content-templates) de conteúdo: clique na  **[!UICONTROL Templates]** guia.
+   * [Conteúdo desde o início](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch) até start fresco: clique no  **[!UICONTROL Create]** botão.
+   * [Conteúdo do seu computador como um arquivo](#importing-content-from-a-file) ZIP ou HTML: clique no  **[!UICONTROL Upload]** botão.
+   * [Conteúdo de um URL](#importing-content-from-a-url)  existente (somente para e-mails): clique no  **[!UICONTROL Import from URL]** botão.
 
    ![](assets/des_loading_2.png)
 
@@ -46,7 +46,7 @@ Ao criar um email ou uma landing page, você pode optar por carregar um conteúd
 
    >[!NOTE]
    >
-   >O [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) usa marcação específica. O conteúdo HTML padrão carregado na Campanha deve corresponder à marcação esperada para ser totalmente compatível e editável no Designer de email. Se não for correspondente, seu conteúdo será carregado no modo [de](#compatibility-mode)compatibilidade. Para tornar o conteúdo existente compatível, consulte [esta seção](#editing-existing-contents-with-the-email-designer).
+   >O [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) usa marcação específica. O conteúdo HTML padrão carregado na Campanha deve corresponder à marcação esperada para ser totalmente compatível e editável no Designer de email. Se não for correspondente, seu conteúdo será carregado no [modo de compatibilidade](#compatibility-mode). Para tornar o conteúdo existente compatível, consulte [esta seção](#editing-existing-contents-with-the-email-designer).
 
 **Tópicos relacionados:**
 
@@ -57,15 +57,15 @@ Ao criar um email ou uma landing page, você pode optar por carregar um conteúd
 
 Para aproveitar totalmente as possibilidades de edição do [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), seu HTML carregado deve conter tags específicas que o tornem compatível com o editor WYSIWYG.
 
-Se todo o HTML ou parte dele não tiver essa marcação, o conteúdo será carregado no &quot;modo [de](#compatibility-mode)compatibilidade&quot;.
+Se todo ou parte do HTML não tiver essa marcação, o conteúdo será carregado no modo de compatibilidade [a1/>.](#compatibility-mode)
 
-Para tornar um conteúdo externo existente totalmente editável no Designer de email, consulte a seção [Projetando um email usando o conteúdo](../../designing/using/using-existing-content.md) existente.
+Para tornar um conteúdo externo existente totalmente editável no Designer de email, consulte a seção [Criação de um email usando o conteúdo existente](../../designing/using/using-existing-content.md).
 
-## Importar um conteúdo de email existente {#importing}
+## Importando um conteúdo de email existente {#importing}
 
-### Importing content from a file {#importing-content-from-a-file}
+### Importando conteúdo de um arquivo {#importing-content-from-a-file}
 
-No home page do Email Designer, clique no **[!UICONTROL Upload]** botão para fazer upload de um arquivo do seu computador e, em seguida, confirme.
+No home page do Email Designer, clique no botão **[!UICONTROL Upload]** para fazer upload de um arquivo do computador e, em seguida, confirme.
 
 Não há restrições na estrutura do arquivo zip. No entanto, a referência a arquivos HTML deve ser relativa e respeitar a estrutura em árvore da pasta zip.
 
@@ -78,7 +78,7 @@ Os formatos a seguir são suportados para importação:
 >
 >Para conteúdo de email, recomendamos que você importe arquivos HTML únicos com uma folha de estilos incorporada.
 
-#### Importing content from a URL {#importing-content-from-a-url}
+#### Importar conteúdo de um URL {#importing-content-from-a-url}
 
 Antes de importar o conteúdo de um URL, certifique-se de seguir os requisitos abaixo:
 
@@ -96,16 +96,18 @@ Antes de importar o conteúdo de um URL, certifique-se de seguir os requisitos a
 
 Para recuperar o conteúdo existente de um URL, siga as etapas abaixo:
 
-1. No home page do Email Designer, selecione o **[!UICONTROL Import from URL]** botão.
+1. No home page do Email Designer, selecione o botão **[!UICONTROL Import from URL]**.
 
    ![](assets/email_designer_importfromurl.png)
 
 1. Defina o URL a partir do qual o conteúdo será recuperado.
 1. Clique em **[!UICONTROL Confirm]**.
 
-**Tópicos relacionados:**
+Descubra este recurso no vídeo.
 
-[Importar conteúdo de um vídeo de URL](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#Workingwithexistingcontent)
+>[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
+
+Vídeos de procedimentos de Campaign Standard adicionais estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
 
 ### Recuperar conteúdo de um URL automaticamente no momento da preparação {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
@@ -123,22 +125,22 @@ Para recuperar o conteúdo no momento da preparação, siga as etapas abaixo:
    >
    >Nesta etapa, a exibição HTML no editor de conteúdo não deve ser considerada. Será recuperado na fase de preparação.
 
-1. Para pré-visualização do conteúdo do URL que foi recuperado, abra a mensagem depois de criada e clique no **[!UICONTROL Preview]** botão.
+1. Para pré-visualização do conteúdo do URL que foi recuperado, abra a mensagem depois de criada e clique no botão **[!UICONTROL Preview]**.
 
 É possível personalizar o URL remoto do qual o conteúdo será recuperado. Para fazer isso, siga as etapas abaixo:
 
-1. Clique no rótulo de e-mail na parte superior da tela para acessar a **[!UICONTROL Properties]** guia Designer de e-mail.
-1. Encontre o **[!UICONTROL Remote URL]** campo.
+1. Clique no rótulo de email na parte superior da tela para acessar a guia Email Designer **[!UICONTROL Properties]**.
+1. Localize o campo **[!UICONTROL Remote URL]**.
 
    ![](assets/email_designer_importfromurl4.png)
 
 1. Insira o campo de personalização, o bloco de conteúdo ou o texto dinâmico desejados.
 
-   O bloco de **[!UICONTROL Current date - YYYYMMDD]** conteúdo, por exemplo, permite inserir a data do dia.
+   O bloco de conteúdo **[!UICONTROL Current date - YYYYMMDD]**, por exemplo, permite inserir a data do dia.
 
    >[!NOTE]
    >
-   >Os campos de personalização disponíveis são vinculados somente aos atributos do **Delivery** (data de criação do email, status, etiqueta de campanha...).
+   >Os campos de personalização disponíveis estão vinculados somente aos atributos **Delivery** (data de criação do email, status, etiqueta de campanha...).
 
 ### Modo de compatibilidade {#compatibility-mode}
 
@@ -162,7 +164,7 @@ Para obter mais informações sobre como converter um email existente em um emai
 **Tópicos relacionados**:
 
 * [Criação de email](../../channels/using/creating-an-email.md)
-* [Vídeo de introdução ao Email Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=por_br)
+* [Vídeo de introdução ao Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Criar um conteúdo de email do zero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
 ## Conversão de conteúdo HTML {#converting-an-html-content}
