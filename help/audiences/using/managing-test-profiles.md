@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 100%
+source-wordcount: '449'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 ## Sobre perfis de teste {#about-test-profiles}
 
 Os perfis de teste permitem direcionar recipients adicionais que não correspondem aos critérios de direcionamento definidos. Eles são adicionados ao público-alvo de uma mensagem para detectar qualquer uso fraudulento do seu banco de dados de recipients ou para garantir que os emails cheguem às caixas de entrada.
+
+![](assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
 
 Você pode gerenciar os perfis de teste no menu avançado **[!UICONTROL Profiles & audiences > Test profiles]**.
 
@@ -65,10 +67,6 @@ Um perfil de teste contém informações de contato fictícias, ou informações
 
 O perfil de teste será então adicionado à lista de perfis.
 
-**Tópicos relacionados:**
-
-Vídeo [Criar um perfil de teste](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/profiles-and-audiences/test-profiles.translate.html)
-
 ## Editar perfis de teste {#editing-test-profiles}
 
 Para editar um perfil de teste e consultar os dados vinculados a ele ou para modificá-lo:
@@ -79,3 +77,11 @@ Para editar um perfil de teste e consultar os dados vinculados a ele ou para mod
    ![](assets/test_profile_edit.png)
 
 1. Clique em **[!UICONTROL Save]** se tiver inserido as alterações ou selecione o nome do perfil de teste e depois **[!UICONTROL Test profiles]** na seção localizada na parte superior da tela para retornar ao painel de perfis de teste.
+
+## Vídeo tutorial {#video}
+
+Este vídeo mostra como criar um perfil de teste.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
+
+Vídeos de procedimentos de Campaign Standard adicionais estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
