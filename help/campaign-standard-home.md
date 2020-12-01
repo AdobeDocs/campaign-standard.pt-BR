@@ -3,13 +3,13 @@ keywords: Campaign Standard;home;popular topics
 solution: Campaign Standard
 product: campaign
 title: Documentação do produto Adobe Campaign Standard
-description: Consulte a documentação do produto Campaign Standard
+description: Pesquisar a documentação do produto Campaign Standard
 topic: Premium
 translation-type: tm+mt
 source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
 source-wordcount: '216'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 91%
 
 ## Novidades
 
-* **[Atualizado o ](rn/using/release-planning.md)**<br/> planejamento da versãoAs datas de lançamento de fevereiro de 2021 foram adicionadas ao planejamento da versão
+* **[Planejamento de lançamento atualizado](rn/using/release-planning.md)**<br/> As datas do lançamento para fevereiro de 2021 foram adicionadas ao planejamento do lançamento
 
 * **[Grupos de controle](sending/using/control-group.md)**<br/>
 Meça o impacto de suas campanhas excluindo parte dos públicos
