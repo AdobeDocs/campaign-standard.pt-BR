@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: managing-subscriptions
 context-tags: service,wizard;service,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 # Criação de um serviço{#creating-a-service}
 
 Para gerenciar assinaturas, primeiro crie e configure um serviço. A configuração de um novo serviço permite especificar as confirmações por email que os perfis receberão quando assinarem ou cancelarem a assinatura do serviço. Você também definirá as landing pages de assinatura e unsubscription vinculadas ao serviço. Por exemplo, um link de assinatura de serviço inserido em um email direcionará o perfil automaticamente para a landing page de assinatura especificada no serviço.
+
+![](assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
 
 Para configurar um serviço:
 
@@ -55,7 +57,14 @@ Depois que um serviço é criado, você poderá promovê-lo.
 
 **Tópicos relacionados:**
 
-* Vídeo [Managing a service and subscriptions](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/profiles-and-audiences/services-and-subscriptions.translate.html)
 * [Promoção de um serviço](../../audiences/using/promoting-a-service.md)
 * [Criação de um público-alvo com assinantes](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [Vinculação de uma landing page a um serviço](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
+
+## Vídeo tutorial {#video}
+
+Este vídeo mostra como criar um serviço e gerenciar suas subscrições.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
+
+Vídeos de procedimentos de Campaign Standard adicionais estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
