@@ -3,24 +3,24 @@ keywords: Campaign Standard;home;popular topics
 solution: Campaign Standard
 product: campaign
 title: Documentação do produto Adobe Campaign Standard
-description: Consulte a documentação do produto Campaign Standard
+description: Pesquisar a documentação do produto Campaign Standard
 topic: Premium
 translation-type: tm+mt
 source-git-commit: 189cd93d12dfd7838dae87dd4c8de19c10926ce6
 workflow-type: tm+mt
 source-wordcount: '30'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
 
-# TOC padrão da campanha {#campaign-standard-partial-ignore}
+# Campaign-Standard-TOC {#campaign-standard-partial-ignore}
 
 + Administração{#administration}
    + [Regras de fadiga](sending/using/fatigue-rules.md)
    + [Sobre as regras de tipologia](sending/using/about-typology-rules.md)
-   + [Sobre o regra de tipologia - Lista](sending/using/about-typology-rules.md#typology-rules)
+   + [Sobre regras de tipologia – Lista](sending/using/about-typology-rules.md#typology-rules)
    + [Configuração do canal de email](administration/using/configuring-email-channel.md)
    + [Regras de filtragem](sending/using/filtering-rules.md)
-+ Starting{#starting}
++ Início{#starting}
    + [Sobre a interface](start/using/about-the-interface.md)
