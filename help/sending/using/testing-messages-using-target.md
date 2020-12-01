@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e20485978deba54f45010a41921b948f049222f2
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1514'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 ## Visão geral {#overview}
 
-Além disso, para [testar perfis](../../audiences/using/managing-test-profiles.md), você pode testar uma mensagem de email colocando-se na posição de um dos perfis direcionados. Isso permite obter uma representação exata da mensagem que o perfil receberá (campos personalizados, informações dinâmicas e personalizadas, incluindo dados adicionais de workflows...).
+Além de [perfis de teste](../../audiences/using/managing-test-profiles.md), você pode testar uma mensagem de email colocando-se na posição de um dos perfis direcionados. Isso permite obter uma representação exata da mensagem que o perfil receberá (campos personalizados, informações dinâmicas e personalizadas, incluindo dados adicionais de workflows...).
 
 >[!NOTE]
 >
@@ -28,34 +28,34 @@ Além disso, para [testar perfis](../../audiences/using/managing-test-profiles.m
 
 As etapas principais são as seguintes:
 
-1. Configure sua mensagem e inicie a fase **de preparação** .
-1. **Selecione um ou vários perfis** entre os perfis direcionados pela mensagem.
-1. Associe a cada perfil um endereço **de** substituição para o qual as provas serão enviadas.
-1. (opcional) Para cada perfil, defina um **prefixo** a ser adicionado à linha de assunto da prova.
-1. **Pré-visualização** no Designer de e-mail de como a mensagem será exibida para os perfis.
+1. Configure sua mensagem e inicie a fase **Preparação**.
+1. **Selecione um ou vários** perfis entre os perfis direcionados pela mensagem.
+1. Associe a cada perfil um **endereço de substituição** para o qual as provas serão enviadas.
+1. (opcional) Para cada perfil, defina um **prefixo** para adicionar à linha de assunto da prova.
+1. **Visualize** no Designer de email como a mensagem será exibida para os perfis.
 1. Envie as provas.
-
-Para obter mais informações sobre o processo global, consulte o vídeo tutorial disponível [aqui](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.translate.html).
 
 >[!IMPORTANT]
 >
 >Esse recurso permite enviar informações pessoais do perfil para endereços de email externos. Lembre-se de que a execução de solicitações de privacidade (GDPR e CCPA) no Campaign Standard NÃO executará externamente essa solicitação.
 
+![](assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
+
 ## Selecionar perfis e endereços de substituição {#selecting-profiles}
 
-Para usar perfis direcionados para testes, primeiro selecione-os e, em seguida, defina os endereços de substituição que receberão as provas. Para fazer isso, você pode [selecionar perfis](#selecting-individual-profiles) específicos entre os perfis direcionados ou [importar perfis de uma audiência](#importing-from-audience)existente.
+Para usar perfis direcionados para testes, primeiro selecione-os e, em seguida, defina os endereços de substituição que receberão as provas. Para fazer isso, você pode [selecionar perfis específicos](#selecting-individual-profiles) entre os perfis direcionados ou [importar perfis de uma audiência existente](#importing-from-audience).
 
 >[!NOTE]
 >
 >Você pode selecionar no máximo 100 perfis para teste.
 
-### Seleção de perfis individuais {#selecting-individual-profiles}
+### Selecionar perfis individuais {#selecting-individual-profiles}
 
-1. No painel de mensagens, verifique se a preparação da mensagem foi bem-sucedida e clique no **[!UICONTROL Audience]** bloco.
+1. No painel de mensagens, verifique se a preparação da mensagem foi bem-sucedida e clique no bloco **[!UICONTROL Audience]**.
 
    ![](assets/substitution_preparation.png)
 
-1. Na **[!UICONTROL Profile substitutions]** guia, clique no **[!UICONTROL Create element]** botão para selecionar os perfis a serem usados para teste.
+1. Na guia **[!UICONTROL Profile substitutions]**, clique no botão **[!UICONTROL Create element]** para selecionar os perfis a serem usados para teste.
 
    ![](assets/substitution_tab.png)
 
@@ -63,9 +63,9 @@ Para usar perfis direcionados para testes, primeiro selecione-os e, em seguida, 
 
    ![](assets/substitution_recipient_selection.png)
 
-1. Selecione o perfil a ser usado para teste, digite no **[!UICONTROL Address]** campo o endereço de substituição desejado e clique em **[!UICONTROL Confirm]**. Todas as provas que direcionam o perfil serão enviadas para este endereço de email, em vez da definida no banco de dados para este perfil.
+1. Selecione o perfil a ser usado para teste, digite no campo **[!UICONTROL Address]** o endereço de substituição desejado e clique em **[!UICONTROL Confirm]**. Todas as provas que direcionam o perfil serão enviadas para este endereço de email, em vez da definida no banco de dados para este perfil.
 
-   Se desejar adicionar um prefixo específico à linha de assunto do prova, preencha o campo **[!UICONTROL Subject line prefix]** .
+   Se desejar adicionar um prefixo específico à linha de assunto do prova, preencha o campo **[!UICONTROL Subject line prefix]**.
 
    >[!NOTE]
    >
@@ -87,9 +87,9 @@ Para usar perfis direcionados para testes, primeiro selecione-os e, em seguida, 
 
    ![](assets/substitution_multiple_addresses.png)
 
-1. Depois que todos os perfis e endereços de substituição forem definidos, você poderá enviar uma prova para testar a mensagem. Para fazer isso, clique no **[!UICONTROL Test]** botão e selecione o tipo de teste a ser executado.
+1. Depois que todos os perfis e endereços de substituição forem definidos, você poderá enviar uma prova para testar a mensagem. Para fazer isso, clique no botão **[!UICONTROL Test]** e selecione o tipo de teste a ser executado.
 
-   Observe que se nenhum perfil de teste tiver sido adicionado ao público alvo de mensagem, as opções **[!UICONTROL Email rendering]** e **[!UICONTROL Proof + Email rendering]** não estarão disponíveis.  For more information on proofs sending, refer to [this section](../../sending/using/sending-proofs.md).
+   Observe que se nenhum perfil de teste tiver sido adicionado ao público alvo de mensagem, as opções **[!UICONTROL Email rendering]** e **[!UICONTROL Proof + Email rendering]** não estarão disponíveis.  Para obter mais informações sobre como enviar provas, consulte [esta seção](../../sending/using/sending-proofs.md).
 
    ![](assets/substitution_send_test.png)
 
@@ -97,19 +97,19 @@ Para usar perfis direcionados para testes, primeiro selecione-os e, em seguida, 
 >
 >Se você fizer alguma alteração na sua mensagem, certifique-se de iniciar a preparação da mensagem novamente. Caso contrário, as alterações não serão refletidas na prova.
 
-### Importação de perfis de uma audiência {#importing-from-audience}
+### Importando perfis de uma audiência {#importing-from-audience}
 
 O Campaign Standard permite importar uma audiência de perfis que você pode usar para testes. Isso permite, por exemplo, enviar para um endereço de email exclusivo um conjunto inteiro de mensagens direcionadas a perfis diferentes.
 
-Além disso, se sua audiência já estiver configurada com as colunas de endereço e prefixo, você poderá importar essas informações na **[!UICONTROL Profile substitutions]** guia. Um exemplo de importação de audiência com endereços de substituição está detalhado na [presente seção](#use-case).
+Além disso, se sua audiência já estiver configurada com as colunas de endereço e prefixo, você poderá importar essas informações na guia **[!UICONTROL Profile substitutions]**. Um exemplo de importação de audiência com endereços de substituição está detalhado em [esta seção](#use-case).
 
 >[!NOTE]
 >
->Ao importar uma audiência, somente os perfis correspondentes ao público alvo de mensagem são selecionados e adicionados à **[!UICONTROL Profile substitutions]** guia.
+>Ao importar uma audiência, somente os perfis correspondentes ao público alvo de mensagem são selecionados e adicionados à guia **[!UICONTROL Profile substitutions]**.
 
 Para importar perfis para uso em testes de uma audiência, siga estas etapas:
 
-1. No painel de mensagens, verifique se a preparação da mensagem foi bem-sucedida e clique no **[!UICONTROL Audience]** bloco.
+1. No painel de mensagens, verifique se a preparação da mensagem foi bem-sucedida e clique no bloco **[!UICONTROL Audience]**.
 
    ![](assets/substitution_preparation.png)
 
@@ -125,11 +125,11 @@ Para importar perfis para uso em testes de uma audiência, siga estas etapas:
 
    ![](assets/substitution_audience_define.png)
 
-   Se os endereços de substituição e/ou prefixos a serem usados já tiverem sido definidos na audiência, selecione a **[!UICONTROL From Audience]** opção e especifique a coluna a ser usada para recuperar essas informações.
+   Se os endereços de substituição e/ou prefixos a serem usados já tiverem sido definidos na audiência, selecione a opção **[!UICONTROL From Audience]** e especifique a coluna a ser usada para recuperar essas informações.
 
    ![](assets/substitution_fromaudience.png)
 
-1. Clique no botão **[!UICONTROL Import]**. Os perfis da audiência que correspondem ao público alvo de mensagem são adicionados à **[!UICONTROL Profile substitution]** guia, bem como os endereços de substituição e os prefixos associados.
+1. Clique no botão **[!UICONTROL Import]**. Os perfis da audiência que correspondem ao público alvo de mensagem são adicionados à guia **[!UICONTROL Profile substitution]**, bem como os endereços de substituição e os prefixos associados.
 
 ![](assets/substitution_audience_imported.png)
 
@@ -143,9 +143,9 @@ Para importar perfis para uso em testes de uma audiência, siga estas etapas:
 >
 >A pré-visualização está disponível somente no Designer de email.
 
-Para ser capaz de pré-visualização de mensagens usando perfis direcionados, certifique-se de ter adicionado esses perfis à **[!UICONTROL Profile substitution]** lista (consulte [Definição de perfis e endereços](#selecting-profiles)de substituição).
+Para poder pré-visualização mensagens usando perfis direcionados, certifique-se de ter adicionado esses perfis à lista **[!UICONTROL Profile substitution]** (consulte [Definindo perfis e endereços de substituição](#selecting-profiles)).
 
-Se você quiser usar campos de personalização na mensagem, eles devem ser adicionados **antes** de iniciar a preparação da mensagem. Caso contrário, não serão tomadas em consideração na pré-visualização. Como resultado, inicie a preparação da mensagem novamente se houver alguma alteração nos campos de personalização.
+Se você quiser usar campos de personalização na mensagem, eles devem ser adicionados **antes de** iniciar a preparação da mensagem. Caso contrário, não serão tomadas em consideração na pré-visualização. Como resultado, inicie a preparação da mensagem novamente se houver alguma alteração nos campos de personalização.
 
 Para pré-visualização de mensagens usando substituição de perfil, siga estas etapas:
 
@@ -153,11 +153,11 @@ Para pré-visualização de mensagens usando substituição de perfil, siga esta
 
    ![](assets/substitution_preview_access.png)
 
-1. Select the **[!UICONTROL Preview]** tab, then click **[!UICONTROL Change profile]**.
+1. Selecione a guia **[!UICONTROL Preview]** e clique em **[!UICONTROL Change profile]**.
 
    ![](assets/substitution_preview_changeprofile.png)
 
-1. Clique na **[!UICONTROL Profile Substitution]** guia para exibir os perfis de substituição que foram adicionados para teste.
+1. Clique na guia **[!UICONTROL Profile Substitution]** para exibir os perfis de substituição que foram adicionados para teste.
 
    Selecione os perfis que deseja usar para a pré-visualização e clique em **[!UICONTROL Select]**.
 
@@ -189,13 +189,13 @@ As principais etapas para esse caso de uso são as seguintes:
 
 1. Crie o fluxo de trabalho para criar uma audiência a partir do arquivo. Para fazer isso, adicione e configure as atividades abaixo:
 
-   * **[!UICONTROL Load file]** atividade: Importa o arquivo CSV (para obter mais informações sobre essa atividade, consulte [esta seção](../../automating/using/load-file.md)).
+   * **[!UICONTROL Load file]** atividade: Importa o arquivo CSV (para obter mais informações sobre essa atividade, consulte  [esta seção](../../automating/using/load-file.md)).
    * **[!UICONTROL Reconciliation]** atividade: Vincula informações do arquivo a informações do banco de dados. Neste exemplo, usaremos o endereço de email do perfil como campo de reconciliação (para obter mais informações sobre essa atividade, consulte [esta seção](../../automating/using/reconciliation.md)).
-   * **[!UICONTROL Save audience]** atividade: Cria uma audiência com base no arquivo importado (para obter mais informações sobre essa atividade, consulte [esta seção](../../automating/using/save-audience.md)).
+   * **[!UICONTROL Save audience]** atividade: Cria uma audiência com base no arquivo importado (para obter mais informações sobre essa atividade, consulte  [esta seção](../../automating/using/save-audience.md)).
 
    ![](assets/substitution_uc2.png)
 
-1. Execute o fluxo de trabalho e vá para a **[!UICONTROL Audiences]** guia para verificar se a audiência foi criada com as informações desejadas.
+1. Execute o fluxo de trabalho e vá para a guia **[!UICONTROL Audiences]** para verificar se a audiência foi criada com as informações desejadas.
 
    Nesse exemplo, a audiência é composta por três perfis. Cada um deles está vinculado a um endereço de email de substituição que receberá a prova, com um prefixo para usar na linha de assunto da prova.
 
@@ -203,7 +203,7 @@ As principais etapas para esse caso de uso são as seguintes:
 
 ### Etapa 2: Crie um fluxo de trabalho para perfis de públicos alvos e envie a newsletter
 
-1. Adicione **[!UICONTROL Query]** e **[!UICONTROL Email delivery]** atividades e configure-as de acordo com suas necessidades (consulte as seções [Query](../../automating/using/query.md) e delivery [de](../../automating/using/email-delivery.md) email).
+1. Adicione **[!UICONTROL Query]** e **[!UICONTROL Email delivery]** atividades e configure-as de acordo com suas necessidades (consulte as seções [Query](../../automating/using/query.md) e [delivery de e-mail](../../automating/using/email-delivery.md)).
 
    ![](assets/substitution_uc4.png)
 
@@ -211,7 +211,7 @@ As principais etapas para esse caso de uso são as seguintes:
 
 ### Etapa 3: Configure a guia de substituição de Perfil da mensagem
 
-1. Abra a atividade **[!UICONTROL Email delivery]**. In the message dashboard, click the **[!UICONTROL Audience]** block.
+1. Abra a atividade **[!UICONTROL Email delivery]**. No painel da mensagem, clique no bloco **[!UICONTROL Audience]**.
 
    ![](assets/substitution_uc5.png)
 
@@ -219,13 +219,13 @@ As principais etapas para esse caso de uso são as seguintes:
 
    ![](assets/substitution_uc6.png)
 
-1. No **[!UICONTROL Audience]** campo, selecione a audiência criada no arquivo.
+1. No campo **[!UICONTROL Audience]**, selecione a audiência criada no arquivo.
 
    ![](assets/substitution_uc7.png)
 
 1. Defina o endereço de substituição e o prefixo da linha de assunto a serem usados ao enviar as provas.
 
-   Para fazer isso, selecione a **[!UICONTROL From audience]** opção e a coluna da audiência que contém as informações.
+   Para fazer isso, selecione a opção **[!UICONTROL From audience]** e a coluna da audiência que contém as informações.
 
    ![](assets/substitution_uc8.png)
 
@@ -235,7 +235,7 @@ As principais etapas para esse caso de uso são as seguintes:
 
    >[!NOTE]
    >
-   >No nosso caso, todos os perfis da audiência são alvo da **[!UICONTROL Query]** atividade. Se um desses perfis não fizesse parte do público alvo de mensagens, ele não seria adicionado à lista.
+   >Em nosso caso, todos os perfis da audiência são direcionados pela atividade **[!UICONTROL Query]**. Se um desses perfis não fizesse parte do público alvo de mensagens, ele não seria adicionado à lista.
 
 ### Etapa 4: Pré-visualização da mensagem usando perfis direcionados
 
@@ -243,11 +243,11 @@ As principais etapas para esse caso de uso são as seguintes:
 
    ![](assets/substitution_uc10.png)
 
-1. Select the **[!UICONTROL Preview]** tab, then click **[!UICONTROL Change profile]**.
+1. Selecione a guia **[!UICONTROL Preview]** e clique em **[!UICONTROL Change profile]**.
 
    ![](assets/substitution_uc_preview.png)
 
-1. Clique na **[!UICONTROL Profile Substitution]** guia para exibir os perfis de substituição que foram adicionados anteriormente.
+1. Clique na guia **[!UICONTROL Profile Substitution]** para exibir os perfis de substituição que foram adicionados anteriormente.
 
    Selecione os perfis que deseja usar para a pré-visualização e clique em **[!UICONTROL Select]**.
 
@@ -259,10 +259,18 @@ As principais etapas para esse caso de uso são as seguintes:
 
 ### Etapa 5: Enviar provas
 
-1. In the message dashboard, click the **[!UICONTROL Test]** button, then confirm.
+1. No painel da mensagem, clique no botão **[!UICONTROL Test]** e confirme.
 
    ![](assets/substitution_uc_sendproof.png)
 
-1. As provas são enviadas de acordo com o que foi configurado na **[!UICONTROL Profile substitutions]** guia.
+1. As provas são enviadas de acordo com o que foi configurado na guia **[!UICONTROL Profile substitutions]**.
 
    ![](assets/substitution_uc_proofs.png)
+
+## Vídeo tutorial {#video}
+
+Este vídeo mostra como você pode testar suas mensagens de email usando substituição de Perfil.
+
+>[!VIDEO](https://video.tv.adobe.com/v/32368?quality=12)
+
+Vídeos de procedimentos de Campaign Standard adicionais estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
