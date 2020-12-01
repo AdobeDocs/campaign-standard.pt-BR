@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '2948'
+source-wordcount: '2945'
 ht-degree: 99%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 # Notas de versão 2020{#release-notes-2020}
 
-[Planejamento de versão](https://helpx.adobe.com/br/campaign/kb/acs-release-planning.html) | [Versões do painel de controle do Campaign](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html) | [Atualizações da documentação](../../rn/using/documentation-updates.md) | [Notas de versão anteriores](../../rn/using/release-notes-2019.md) | [Recursos descontinuados](https://helpx.adobe.com/br/campaign/kb/acs-deprecated-and-removed-features.html)
+[Planejamento de versão](https://helpx.adobe.com/br/campaign/kb/acs-release-planning.html) | [Versões do painel de controle do Campaign](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html) | [Atualizações da documentação](../../rn/using/documentation-updates.md) | [Notas de versão anteriores](../../rn/using/release-notes-2019.md) | [Recursos descontinuados](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
 
 ![](assets/do-not-localize/cp-icon.png) **Nova versão de junho do Painel de controle do Campaign** com monitoramento de perfis ativos, auditoria de entregabilidade de subdomínio e gerenciamento de chaves GPG. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html).
 
@@ -291,7 +291,7 @@ ht-degree: 99%
 * A unidade organizacional do grupo de segurança Administrators não pode mais ser alterada.
 * Ao criar um perfil, o campo Organizational Unit deve ser preenchido.
 * Um Acionador da Experience Cloud agora só poderá ser excluído se o evento e o template transacional vinculados a ele forem excluídos.
-* [!DNL Adobe Creative SDK] foi desativada. Ele agora está obsoleto no Campaign Standard. Consulte a página [Recursos descontinuados e removidos](https://helpx.adobe.com/br/campaign/kb/acs-deprecated-and-removed-features.html).
+* [!DNL Adobe Creative SDK] foi desativada. Ele agora está obsoleto no Campaign Standard. Consulte a página [Recursos descontinuados e removidos](../../rn/using/deprecated-features.md).
 
 
 **Correções**
