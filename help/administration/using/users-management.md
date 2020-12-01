@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 96%
+source-wordcount: '1216'
+ht-degree: 95%
 
 ---
 
@@ -24,6 +24,8 @@ O Adobe Campaign permite atribuir um conjunto de funções aos usuários para de
 As funções específicas e as autorizações correspondentes são descritas nas seções [Compreensão das funções](../../administration/using/list-of-roles.md) e [Autorizações](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 
 Os administradores podem gerenciar os usuários no Admin Console. Os usuários são sincronizados automaticamente com o Adobe Campaign. Para saber mais, consulte a [documentação do Admin Console](https://helpx.adobe.com/br/enterprise/using/users.html).
+
+![](assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
 
 Para exibir os usuários no Adobe Campaign, clique no logotipo **[!UICONTROL Adobe Campaign]**, no canto superior esquerdo, e selecione **[!UICONTROL Administration > Users & Security > Users]**.
 
@@ -59,7 +61,7 @@ Os administradores funcionais são usuários que podem acessar as partes mais t�
 
 >[!CAUTION]
 >
->Somente administradores funcionais, com **[!UICONTROL Administration]** função e acesso a **Todas** as unidades podem acessar registros de envio, registros de mensagens, logs de rastreamento, registros de exclusão, registros de proposição e registros de subscrições. Um usuário não administrativo pode público alvo desses registros, mas iniciando em uma tabela vinculada (perfis, delivery).
+>Somente administradores funcionais, com a função **[!UICONTROL Administration]** e o acesso a **Todas** unidades podem acessar logs de envio, registros de mensagens, logs de rastreamento, registros de exclusão, registros de proposição e registros de subscrições. Um usuário não administrativo pode público alvo desses registros, mas iniciando em uma tabela vinculada (perfis, delivery).
 
 Os administradores funcionais são os únicos usuários que podem acessar o menu **[!UICONTROL Administration]** na interface do Adobe Campaign. Como esses usuários precisam acessar recursos técnicos, as funções mais avançadas devem ser atribuídas a eles, como as funções **[!UICONTROL Administration]** e **[!UICONTROL Datamodel]** prontas para uso. Essas funções são combinadas no grupo de segurança **[!UICONTROL Administrators]** pronto para uso. Para obter mais informações, consulte esta [seção](../../administration/using/list-of-roles.md).
 
@@ -151,3 +153,11 @@ Você pode verificar se o usuário foi sincronizado corretamente com o Adobe Cam
 1. Clique em **[!UICONTROL Save]**.
 
 Seu usuário está pronto para usar o Adobe Campaign Standard.
+
+## Vídeo tutorial (#video)
+
+Este vídeo mostra como gerenciar direitos de acesso do usuário.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
+
+Vídeos de procedimentos de Campaign Standard adicionais estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
