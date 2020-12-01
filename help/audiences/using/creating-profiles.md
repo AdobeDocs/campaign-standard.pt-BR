@@ -7,10 +7,10 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 97%
+source-wordcount: '380'
+ht-degree: 89%
 
 ---
 
@@ -22,6 +22,8 @@ No Adobe Campaign, os perfis são usados por padrão para definir o público-alv
 >[!NOTE]
 >
 >A criação de perfis também é possível usando a API do Adobe Campaign Standard. Para obter mais informações, consulte a [documentação dedicada](../../api/using/creating-profiles.md).
+
+![](assets/do-not-localize/how-to-video.png) [Descubra como importar perfis usando um fluxo de trabalho em vídeo](#video)
 
 Para criar ou atualizar um perfil no Campaign, você pode:
 
@@ -50,7 +52,7 @@ Por exemplo, para criar um novo perfil diretamente na interface do usuário, sig
    * A categoria **[!UICONTROL Channels]**, que contém o endereço de email, o número do telefone celular e as informações de recusa, informa em qual canal o perfil pode ser acessado.
    * A categoria **[!UICONTROL No longer contact]** é atualizada assim que o perfil cancela a assinatura em um canal.
    * A categoria **[!UICONTROL Address]** contém o CEP que precisa ser preenchido junto com a opção **[!UICONTROL Address specified]** para enviar [correspondência direta](../../channels/using/about-direct-mail.md) para esse perfil. Se a opção **[!UICONTROL Address specified]** não estiver marcada, esse perfil será excluído de todos os deliveries de correspondência direta.
-   * The **[!UICONTROL Access authorization]** category indicates the profile&#39;s organizational units to [manage permissions](../../administration/using/about-access-management.md). Para adicionar os campos organizacionais aos perfis, consulte a seção [Particionamento de perfis](../../administration/using/organizational-units.md#partitioning-profiles).
+   * A categoria **[!UICONTROL Access authorization]** indica que as unidades organizacionais do perfil [gerenciam permissões](../../administration/using/about-access-management.md). Para adicionar os campos organizacionais aos perfis, consulte a seção [Particionamento de perfis](../../administration/using/organizational-units.md#partitioning-profiles).
    * A categoria **[!UICONTROL Traceability]** atualiza automaticamente as informações referentes ao usuário que criou ou modificou o perfil.
 
 1. Clique em **[!UICONTROL Create]** para salvar o perfil.
@@ -60,7 +62,10 @@ O perfil agora será exibido na lista.
 >[!NOTE]
 >O campo de idioma preferencial é usado para selecionar o idioma ao enviar mensagens multilíngues. Para saber mais sobre as mensagens multilíngues, [consulte esta página](../../channels/using/creating-a-multilingual-email.md).
 
-**Tópicos relacionados:**
+## Vídeo tutorial {#video}
 
-* [Sobre o guia passo a passo das landing pages](../../channels/using/getting-started-with-landing-pages.md)
-* Vídeo [Importação de perfis](https://video.tv.adobe.com/v/24993?captions=por_br)
+Este vídeo mostra como importar perfis com um fluxo de trabalho.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
+
+Vídeos de procedimentos de Campaign Standard adicionais estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
