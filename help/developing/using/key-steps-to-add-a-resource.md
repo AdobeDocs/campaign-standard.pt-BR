@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 51%
+source-wordcount: '105'
+ht-degree: 47%
 
 ---
 
@@ -28,4 +28,10 @@ Para criar um novo recurso ou estender um recurso existente com novos campos, s�
 >[!CAUTION]
 >
 >A criação e a modificação de recursos são operações confidenciais que só devem ser realizadas por especialistas.
+
+Este vídeo mostra como criar recursos personalizados.
+
+>[!VIDEO](https://video.tv.adobe.com/v/27715?quality=9&captions=eng)
+
+Vídeos de procedimentos de Campaign Standard adicionais estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
 
