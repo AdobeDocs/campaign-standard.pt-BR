@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e20485978deba54f45010a41921b948f049222f2
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 14%
+source-wordcount: '589'
+ht-degree: 15%
 
 ---
 
@@ -30,17 +30,19 @@ Depois que as campanhas de marketing tiverem sido executadas e as diferentes men
 
 Por fim, aproveite as diretrizes e as ferramentas de entrega disponíveis no Campaign Standard para melhorar o número de mensagens entregues e garantir campanhas de marketing bem-sucedidas.
 
+![](assets/do-not-localize/how-to-video.png) [Descubra como enviar um email de teste, preparar e enviar um delivery por email em vídeo](#video)
+
 ## Preparar e testar {#prepare-test-send}
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
 
-A preparação **da** mensagem de Campaign Standard analisa o público alvo, a personalização e a validade da mensagem. Os erros detectados durante esta etapa devem ser corrigidos antes de poder continuar.
+Campaign Standard **preparação de mensagem** analisa o público alvo, a personalização e a validade da mensagem. Os erros detectados durante esta etapa devem ser corrigidos antes de poder continuar.
 
-**Pré-visualização e teste** suas mensagens usando vários recursos: envie provas para testar perfis ou perfis com metas, teste a linha de assunto de seus emails e verifique a renderização de suas mensagens para garantir que elas sejam exibidas da melhor forma em diversos clientes da Web, emails e dispositivos.
+**Pré-visualização e** teste suas mensagens usando vários recursos: envie provas para testar perfis ou perfis com metas, teste a linha de assunto de seus emails e verifique a renderização de suas mensagens para garantir que elas sejam exibidas da melhor forma em diversos clientes da Web, emails e dispositivos.
 
 Aproveite os recursos de agendamento de Campanha para definir quando suas mensagens serão enviadas. Por exemplo, você pode adaptar o envio no fuso horário do recipient, otimizar a hora de envio ou calcular a data de envio.
 
-Use **tipologias** para verificar, durante a preparação, se a mensagem é válida e atende aos seus critérios de qualidade por meio de regras de fadiga, controle e definição de metas. Por exemplo, para verificar se seus emails sempre contêm uma linha de assunto ou para excluir os canceladores dos recipient de mensagem.
+Use **typologies** para verificar durante a preparação se a mensagem é válida e atende aos seus critérios de qualidade por meio de regras de fadiga, controle e definição de metas. Por exemplo, para verificar se seus emails sempre contêm uma linha de assunto ou para excluir os canceladores dos recipient de mensagem.
 
 Leia mais:
 
@@ -55,11 +57,11 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 
-Quando a mensagem estiver pronta, você poderá confirmar os registros e relatórios de envio e acesso para **monitorar o delivery** e medir o sucesso da campanha. A Adobe Campaign também fornece um sistema de alerta por email para rastrear sucessos ou falhas do delivery, bem como recursos de gerenciamento de quarentenas.
+Quando sua mensagem estiver pronta, você poderá confirmar os registros de envio e acesso e os relatórios para **monitorar o delivery** e medir o sucesso de sua campanha. A Adobe Campaign também fornece um sistema de alerta por email para rastrear sucessos ou falhas do delivery, bem como recursos de gerenciamento de quarentenas.
 
-**Rastreie o comportamento** dos recipient de mensagens usando cookies permanentes e de sessão para recuperar informações de rastreamento (URLs clicados, mirrores page, mensagens abertas...).
+**Rastreie o** comportamento dos recipient de mensagens usando cookies permanentes e de sessão para recuperar informações de rastreamento (URLs clicados, mirrores page, mensagens abertas...).
 
-Por fim, você pode configurar a Adobe Campaign para **manter uma cópia dos emails** enviados de sua plataforma por meio do Email BCC. Em particular, se sua organização precisar arquivar todas as mensagens de email de saída para fins de conformidade, você poderá habilitar esse recurso.
+Por fim, você pode configurar o Adobe Campaign para **manter uma cópia de e-mails** enviados de sua plataforma por meio do Email BCC. Em particular, se sua organização precisar arquivar todas as mensagens de email de saída para fins de conformidade, você poderá habilitar esse recurso.
 
 Leia mais:
 
@@ -76,7 +78,7 @@ Leia mais:
 
 A capacidade de entrega permite medir o sucesso de suas campanhas ao chegar à sua caixa de entrada de recipient sem saltar ou ser marcado como spam.
 
-O Campaign Standard fornece várias ferramentas **de** entrega para ajudá-lo a melhorar o número de mensagens entregues com êxito: Relatórios de pensamento do delivery, otimização do tempo de envio, pré-visualização de mensagens, renderização de e-mail, gerenciamento de quarentenas etc.
+O Campaign Standard fornece várias **ferramentas de entrega** para ajudá-lo a melhorar o número de mensagens entregues com êxito: Relatórios de pensamento do delivery, otimização do tempo de envio, pré-visualização de mensagens, renderização de e-mail, gerenciamento de quarentenas etc.
 
 Leia mais:
 
@@ -89,8 +91,14 @@ Leia mais:
 ## Recursos adicionais
 
 * [Criação de emails de teste A/B](../../channels/using/designing-an-a-b-test-email.md)
-* [Envie um teste, prepare e envie um email (vídeo)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
-* [Analisar um delivery de email e relatórios (vídeo)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [Introdução aos emails](https://helpx.adobe.com/br/campaign/kb/acs-get-started-with-emails.html)
 * [Práticas recomendadas para delivery](../../sending/using/delivery-best-practices.md)
 * [Adicionar um grupo de controle](../../sending/using/control-group.md)
+
+## Vídeo tutorial {#video}
+
+Este vídeo mostra como enviar um email de teste, preparar e enviar um delivery por email no Campaign Standard.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24013/)
+
+Vídeos de procedimentos de Campaign Standard adicionais estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
