@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 16%
+source-wordcount: '210'
+ht-degree: 14%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 16%
 
 >[!CAUTION]
 >
->The [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) Integration is the method you should use for all access and delete requests. A partir da versão 19.4, o uso da API e da interface do Campaign para solicitações de acesso e exclusão ficará obsoleto. Para obter mais informações sobre os recursos desaprovados e removidos do Campaign Standard, consulte [esta página](https://helpx.adobe.com/br/campaign/kb/acs-deprecated-and-removed-features.html).
+>A integração [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) é o método que você deve usar para todas as solicitações de acesso e exclusão. A partir da versão 19.4, o uso da API e da interface do Campaign para solicitações de acesso e exclusão ficará obsoleto. Para obter mais informações sobre os recursos desaprovados e removidos do Campaign Standard, consulte [esta página](../../rn/using/deprecated-features.md).
 
-As solicitações de privacidade são criadas usando uma solicitação de **POST** .
+As solicitações de privacidade são criadas usando uma solicitação **POST**.
 
-Antes de criar solicitações, é necessário definir a namespace que será usada. Para obter mais informações, consulte a documentação [do Gerenciamento de](https://helpx.adobe.com/br/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)privacidade.
+Antes de criar solicitações, é necessário definir a namespace que será usada. Para obter mais informações, consulte a [documentação do Gerenciamento de privacidade](https://helpx.adobe.com/br/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
 
 A carga deve conter os seguintes parâmetros:
 
