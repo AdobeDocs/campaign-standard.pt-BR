@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,wizard;workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 100%
+source-wordcount: '983'
+ht-degree: 96%
 
 ---
 
@@ -36,10 +36,11 @@ O tipo de dados trocado entre uma atividade e outra pode afetar a forma como as 
 
 ![](assets/workflow_overview.png)
 
-
 ## Criação de um workflow {#creating-a-workflow}
 
 Você pode criar um workflow a partir de um programa, de uma campanha ou da lista de atividades de marketing.
+
+![](assets/do-not-localize/how-to-video.png) [Descubra como criar um fluxo de trabalho em vídeo](#video)
 
 A criação de uma atividade de marketing é detalhada na seção [Criar atividades de marketing](../../start/using/marketing-activities.md#creating-a-marketing-activity).
 
@@ -67,14 +68,13 @@ A criação de uma atividade de marketing é detalhada na seção [Criar ativida
 
 1. Confirme a criação da atividade. Em seguida, o painel da atividade será exibido. Para obter mais informações, consulte a seção [Interface de fluxo de trabalho](../../automating/using/workflow-interface.md).
 
-1. Quando o workflow estiver pronto para ser configurado, você poderá acessar opções adicionais clicando no botão **[!UICONTROL Edit properties]**. Por exemplo, é possível definir um fuso horário específico para usar por padrão em todas as atividades do workflow. Por padrão, o fuso horário do workflow é aquele definido para o operador atual do Campaign.
+1. Quando o workflow estiver pronto para ser configurado, você poderá acessar opções adicionais clicando no botão **[!UICONTROL Edit properties]**. 
+
+   Por exemplo, é possível definir um fuso horário específico para usar por padrão em todas as atividades do workflow. Por padrão, o fuso horário do workflow é aquele definido para o operador atual do Campaign.
+
+   Para obter mais informações sobre as propriedades dos workflows, consulte [esta página](../../automating/using/managing-execution-options.md).
 
    ![](assets/workflow_properties.png)
-
-**Tópicos relacionados:**
-
-* Vídeo sobre [Criação de um workflow](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.translate.html)
-* [Propriedades do workflow](../../automating/using/managing-execution-options.md)
 
 ## Adição e vínculo de atividades {#adding-and-linking-activities}
 
@@ -130,3 +130,11 @@ Por padrão, as atividades não estão definidas e não processarão os dados co
 1. Defina todas as opções diferentes de que você precisa para processar os dados. Consulte a seção específica da atividade dessa documentação para saber mais sobre as opções possíveis para cada atividade.
 1. Salve a atividade e repita essas operações para cada atividade do workflow.
 1. Salve o workflow.
+
+## Vídeo tutorial {#video}
+
+Este vídeo mostra como criar um fluxo de trabalho.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+
+Vídeos de procedimentos de Campaign Standard adicionais estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
