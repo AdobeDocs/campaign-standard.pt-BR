@@ -240,7 +240,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p>O Conector de dados da Adobe Experience Platform agora está integrado ao Adobe Campaign Standard. Você pode disponibilizar seus dados do Campaign na Adobe Experience Platform, mapeando dados XTK (dados assimilados no Campaign) para o Modelo de dados da Adobe Experience Platform (XDM). </p>
-    <p>Observe que esse recurso só está disponível para clientes hospedados no Azure. Para obter mais informações sobre esse recurso e as condições para ativá-lo, consulte a <a href="../../developing/using/aep-about-data-connector.md">documentação detalhada</a> e o <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">vídeo de instruções</a>.</p>
+    <p>Observe que esse recurso só está disponível para clientes hospedados no Azure. Para obter mais informações sobre esse recurso e as condições para ativá-lo, consulte a <a href="../../developing/using/aep-about-data-connector.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html?lang=pt-BR#administrating">vídeo de instruções</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -291,7 +291,7 @@ ht-degree: 99%
 * A unidade organizacional do grupo de segurança Administrators não pode mais ser alterada.
 * Ao criar um perfil, o campo Organizational Unit deve ser preenchido.
 * Um Acionador da Experience Cloud agora só poderá ser excluído se o evento e o template transacional vinculados a ele forem excluídos.
-* [!DNL Adobe Creative SDK] foi desativada. Ele agora está obsoleto no Campaign Standard. Consulte a página [Recursos descontinuados e removidos](../../rn/using/deprecated-features.md).
+* [!DNL Adobe Creative SDK] foi desativado. Ele agora está obsoleto no Campaign Standard. Consulte a página [Recursos descontinuados e removidos](../../rn/using/deprecated-features.md).
 
 
 **Correções**
