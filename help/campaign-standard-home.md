@@ -6,10 +6,10 @@ title: Documentação do produto Adobe Campaign Standard
 description: Consulte a documentação do produto Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 90%
+source-wordcount: '216'
+ht-degree: 91%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 ## Novidades
 
-* **[Atualizadas as datas de lançamento do planejamento](rn/using/release-planning.md)**<br/> de lançamento para fevereiro de 2021 foram adicionadas ao planejamento de lançamento
+* **[Atualizado o ](rn/using/release-planning.md)**<br/> planejamento da versãoAs datas de lançamento de fevereiro de 2021 foram adicionadas ao planejamento da versão
 
 * **[Grupos de controle](sending/using/control-group.md)**<br/>
 Meça o impacto de suas campanhas excluindo parte dos públicos
@@ -79,5 +79,5 @@ Saiba mais sobre as diretrizes gerais para delivery para dispositivos móveis (S
 | [Documentação do Painel de controle do Campaign](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.html) | [APIs do Campaign](api/using/get-started-apis.md) |
 | [Guia de implementação](https://helpx.adobe.com/br/campaign/kb/campaign-standard-implementation-guide.html) | [Lista de mensagens de erro](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Planejamento de versão](rn/using/release-planning.md) | [Modelo de dados do Campaign](developing/using/datamodel-introduction.md) |
-| [Recursos obsoletos e removidos](https://helpx.adobe.com/br/campaign/kb/acs-deprecated-and-removed-features.html) | [Guia multissoluções](integrating/using/get-started-campaign-integrations.md) |
+| [Recursos obsoletos e removidos](rn/using/deprecated-features.md)) | [Guia multissoluções](integrating/using/get-started-campaign-integrations.md) |
 | [Introdução ao Campaign Standard](start/using/about-campaign-standard.md) | [Notas técnicas](https://helpx.adobe.com/br/campaign/kb/acs-article-list.html) |
