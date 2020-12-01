@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Recursos removidos e obsoletos do Campaign Standard
+title: Recursos obsoletos e removidos do Campaign Standard
 description: Esta página lista recursos obsoletos e removidos do Adobe Campaign Standard.
 audience: rn
 content-type: reference
@@ -10,16 +10,16 @@ translation-type: tm+mt
 source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 32%
+ht-degree: 90%
 
 ---
 
 
-# Recursos descontinuados e removidos {#deprecated-and-removed-features}
+# Recursos obsoletos e removidos {#deprecated-and-removed-features}
 
-A Adobe avalia constantemente os recursos do produto para identificar aqueles mais antigos que devem ser substituídos por alternativas mais modernas de forma a melhorar o valor geral do cliente, sempre considerando cuidadosamente a compatibilidade com versões anteriores.
+A Adobe avalia constantemente os recursos do produto para identificar os mais antigos que devem ser substituídos por alternativas mais modernas para melhorar o valor geral oferecido ao cliente, sempre considerando cuidadosamente a compatibilidade com versões anteriores.
 
-Para comunicar a remoção/substituição iminente de recursos de Campaign Standard, as seguintes regras se aplicam:
+Para comunicar a remoção/substituição iminente dos recursos do Adobe Campaign Standard, são aplicadas as seguintes regras:
 
 * O anúncio da descontinuação vem primeiro. Embora os recursos obsoletos ainda possam estar disponíveis para os usuários existentes, eles não serão aprimorados nem documentados.
 * A remoção de recursos obsoletos ocorrerá na seguinte versão, o mais tardar. A data da remoção será anunciada nesta página.
@@ -32,22 +32,22 @@ Esse processo oferece aos clientes pelo menos um ciclo de lançamento para adapt
 
 ## Recursos obsoletos {#deprecated-features}
 
-Esta seção lista recursos e recursos que foram marcados como obsoletos com as versões mais recentes do Campaign Standard.
+Esta seção lista os recursos e funcionalidades marcados como obsoletos nas versões mais recentes do Campaign Standard.
 
 Geralmente, os recursos que estão planejados para serem removidos em uma versão futura são definidos como obsoletos primeiro, com uma alternativa fornecida. Esses recursos e funcionalidades não estão mais disponíveis para novos clientes do Campaign Standard ou não devem ser usados para novas implementações. Eles também foram removidos da documentação do produto.
 
-Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em sua implantação atual e a fazer planos para alterar sua implementação para usar a alternativa fornecida. Consulte a versão de remoção do público alvo para planejar suas atualizações de ambiente e projeto de acordo.
+Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em sua implantação atual e a fazer planos para alterar sua implementação para usar a alternativa fornecida. Consulte a versão de remoção de público alvo para planejar de modo adequado suas atualizações de ambiente e de projeto.
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Notificações por push com SDK v4</strong><br /> </th> 
+   <th> <strong>Notificações por push com o SDK v4</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> A partir da versão 20.1, o SDK v4 está obsoleto. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Saiba mais</a>.</p><br/>
-   <p>O <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (anteriormente referido como v5) oferecerá suporte exclusivo aos recursos e funcionalidades do Adobe Experience Cloud que estão por vir.</p></br>
+   <td> <p> A partir da versão 20.1, o SDK v4 estará obsoleto. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Saiba mais</a>.</p><br/>
+   <p>O <a href="https://aep-sdks.gitbook.io/docs/">SDK móvel da Adobe Experience Platform</a> (anteriormente conhecido como v5) oferecerá suporte exclusivo aos recursos e funcionalidades futuras da Adobe Experience Cloud.</p></br>
      <p>
      <em>Data de remoção do público alvo: 31 de agosto de 2021</em></p>
      </td> 
@@ -57,15 +57,15 @@ Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Solicitações de privacidade - API e interface de Campanha</strong><br /> </th> 
+   <th> <strong>Solicitações de privacidade – API e interface do Campaign</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>A partir da versão 19.4 da Campanha, o uso da API de Campanha e da interface para acessar e excluir solicitações está obsoleto. A exclusão do perfil de 2 etapas não estará disponível. Use <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
-   <p>Consulte também <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Gerenciar solicitações de privacidade</a>.</p>
+   <td> <p>A partir da versão 19.4 do Campaign, o uso da API e da interface do Campaign para solicitações de acesso e exclusão se tornará obsoleto. A exclusão do perfil de 2 etapas não estará disponível. Use o <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">serviço principal de privacidade da Adobe</a>.</p></br>
+   <p>Consulte também o <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Gerenciamento de solicitações de acesso a dados pessoais</a>.</p>
   <p> 
-  <em>Data de remoção do Target: 2021</em></p>
+  <em>Data de remoção do público alvo: 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -74,13 +74,13 @@ Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Design de e-mail - Editor de e-mail legado</strong><br /> </th> 
+   <th> <strong>Email Design – Editor de email legado</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>A partir da versão 19.0 da Campanha, o editor de e-mail herdado será substituído. Use <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign Email Designer</a> para criar e personalizar seu conteúdo de email. </p></br>
-   <p>Leia <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">esta seção</a> para saber como adaptar seus modelos de e-mail para o novo editor.</p></br>
+   <td> <p>A partir da versão 19.0 do Campaign, o editor de email legado se tornará obsoleto. Use <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign Email Designer</a> para criar e personalizar seu conteúdo de email. </p></br>
+   <p>Leia <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">esta seção</a> para saber como adaptar seus modelos de email ao novo editor.</p></br>
   <p> 
   <em>Data de remoção do público alvo: final de 2021</em></p>
    </td> 
@@ -91,12 +91,12 @@ Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Usuários e segurança - Unidades geográficas</strong><br /> </th> 
+   <th> <strong>Usuários e segurança – Unidades geográficas</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>A partir da versão 18.7, as unidades geográficas serão descontinuadas. As unidades organizacionais e geográficas são construções idênticas em Campanha. Os usuários devem usar unidades organizacionais sozinhas para criar a permissão do usuário/hierarquia de acesso aos dados. <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html">Saiba mais</a>. Observe que novas instâncias de Campaign Standard, bem como instâncias existentes sem unidades geográficas criadas, não podem ter esse recurso implementado a partir da versão 18.7.</p>
+   <td> <p>A partir da versão 18.7, as unidades geográficas se tornarão obsoletas. As unidades organizacionais e geográficas são construções idênticas no Campaign. Os usuários devem usar unidades organizacionais sozinhas para criar a permissão do usuário/hierarquia de acesso aos dados. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=pt-BR#administrating">Saiba mais</a>. Observe que novas instâncias do Campaign Standard, bem como instâncias existentes sem unidades geográficas criadas, não podem ter esse recurso implementado a partir da versão 18.7.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -109,12 +109,12 @@ Esta seção lista os recursos e funcionalidades removidos do Campaign Standard.
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Pontuação de propensão com acionadores de Experience Cloud</strong><br /> </th> 
+   <th> <strong>Pontuação de propensão com acionadores da Experience Cloud</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>A <b>Pontuação de propensão</b> foi desativada dos Acionadores da Adobe Experience Cloud. Como consequência, essa opção foi removida da Adobe Campaign Standard. Para evitar valores desatualizados de Pontuação de propensão nos schemas de Enriquecimento, recomendamos atualizar schemas para recuperar as alterações mais recentes e republicar os Acionadores existentes. Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html"> Publicando um acionador na Campanha </a>.
+   <td> <p>A <b>Pontuação de propensão</b> foi desativada dos acionadores da Adobe Experience Cloud. Como consequência, essa opção foi removida do Adobe Campaign Standard. Para evitar valores desatualizados de Pontuação de propensão nos esquema de enriquecimento, recomendamos a atualização de esquemas para recuperar as alterações mais recentes e republicar os acionadores existentes. Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html"> Publicar um acionador no Campaign </a>.
 </p></br>
    </td> 
   </tr> 
@@ -129,13 +129,13 @@ Esta seção lista os recursos e funcionalidades removidos do Campaign Standard.
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Creative SDK] foi descontinuado. Como consequência, a edição de imagem fornecida pelo [!DNL Creative SDK] em emails do Campaign Standard não está mais disponível a partir da versão 20.2 da Campaign.</p></br>
+   <td> <p>O [!DNL Adobe Creative SDK] foi desativado. Como consequência, a edição de imagem fornecida pelo [!DNL Creative SDK] em emails do Campaign Standard não está mais disponível a partir da versão 20.2 do Campaign.</p></br>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Fim da compatibilidade do {#end-of-compatibility}
+## Fim da compatibilidade {#end-of-compatibility}
 
 <table> 
  <thead> 
@@ -145,7 +145,7 @@ Esta seção lista os recursos e funcionalidades removidos do Campaign Standard.
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>A Adobe Campaign e a Adobe Experience Cloud deixaram de oferecer suporte ao Microsoft Internet Explorer 11 a partir do primeiro trimestre de 2019 e da versão Campaign 19.2. Alterne para o Microsoft Edge ou outro navegador compatível. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/about-configuration-guidelines.html">Saiba mais</a>.</p>
+   <td> <p>O Adobe Campaign e a Adobe Experience Cloud deixaram de oferecer suporte ao Microsoft Internet Explorer 11 a partir do segundo trimestre de 2019, e da versão 19.2 do Campaign. Use o Microsoft Edge ou outro navegador compatível. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/about-configuration-guidelines.html">Saiba mais</a>.</p>
    </td> 
   </tr> 
  </tbody> 
