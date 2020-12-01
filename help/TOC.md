@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 breadcrumb-title: Campaign Standard
 title: Guia do Campaign Standard
 translation-type: tm+mt
-source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
+source-git-commit: 817eebd4fe9ed33bdb2820912556cfda25ef66a5
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1664'
 ht-degree: 99%
 
 ---
@@ -29,20 +29,21 @@ ht-degree: 99%
    + [Recursos obsoletos](rn/using/deprecated-features.md)
 + Introdução {#getting-started}
    + [Sobre o Adobe Campaign Standard](start/using/about-campaign-standard.md)
-   + Privacidade {#privacy}
-      + [Privacidade e consentimento](start/using/privacy.md)
-      + [Gerenciamento de privacidade](start/using/privacy-management.md)
-      + [Solicitações de privacidade](start/using/privacy-requests.md)
-      + [Perguntas frequentes sobre privacidade](start/using/privacy-faq.md)
    + Descobrir a interface {#discovering-the-interface}
       + [Sobre a interface](start/using/about-the-interface.md)
       + [Descrição da interface](start/using/interface-description.md)
       + [Personalização de listas](start/using/customizing-lists.md)
+      + [Acessibilidade](start/using/accessibility.md)
    + Trabalhar com atividades de marketing {#marketing-plans}
       + [Programas e campanhas](start/using/programs-and-campaigns.md)
       + [Atividades de marketing](start/using/marketing-activities.md)
       + [Templates de atividades de marketing](start/using/marketing-activity-templates.md)
       + [Linha do tempo](start/using/timeline.md)
+   + Privacidade {#privacy}
+      + [Privacidade e consentimento](start/using/privacy.md)
+      + [Gerenciamento de privacidade](start/using/privacy-management.md)
+      + [Solicitações de privacidade](start/using/privacy-requests.md)
+      + [Perguntas frequentes sobre privacidade](start/using/privacy-faq.md)
 + Perfis e públicos {#profiles-and-audiences}
    + [Introdução a perfis e públicos](audiences/using/get-started-profiles-and-audiences.md)
    + Gerenciamento de perfis {#managing-profiles}
