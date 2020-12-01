@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Todas as datas de lançamento estão sujeitas a alterações: recomendamos que v
 
 **NOVO!** Assine as [notificações de versão do Campaign Standard](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) para receber detalhes sobre as próximas versões diretamente na sua caixa de entrada.
 
-## Versão 21.1 - Versão de fevereiro {#release-21-1-release}
+## Versão 21.1 – Versão de fevereiro {#release-21-1-release}
 
 As atualizações de ambientes ocorrem em ondas, durante os intervalos de tempo indicados abaixo. Informações detalhadas sobre esta versão estão disponíveis nas [Notas de versão](../../rn/using/release-notes.md). Caso tenha mais dúvidas, entre em contato com o [Atendimento ao cliente da Adobe](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html).
 
@@ -41,11 +41,11 @@ As atualizações de ambientes ocorrem em ondas, durante os intervalos de tempo 
  <tbody>
   <tr>
    <td>Preparo<br /> </td>
-   <td>25 de jan - 27 de janeiro de 2021<br /> </td>
+   <td>25 a 27 de janeiro de 2021<br /> </td>
   </tr>
   <tr>
    <td> Produção<br /> </td>
-   <td>1 de fev de 2021<br /> </td>
+   <td>1 a 8 de fevereiro de 2021<br /> </td>
   </tr>
  </tbody>
 </table>
