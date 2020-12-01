@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: email-messages
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '817'
 ht-degree: 100%
 
 ---
@@ -83,10 +83,6 @@ No contexto específico de um teste A/B:
    >Se houver um vínculo, a variante vencedora deverá ser selecionada manualmente. Você pode notificar o criador e o(s) modificador(es) de email que uma variante foi selecionada ou precisa ser selecionada. Consulte [Notificações do Adobe Campaign](../../administration/using/sending-internal-notifications.md).
 
 O email agora está definido e foi enviado. Você pode acessar os logs e relatórios para medir o sucesso da campanha.
-
-**Tópicos relacionados**:
-
-Vídeo [Criação de email ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)
 
 ## Sobre indicadores de teste A/B {#about-a-b-test-indicators}
 
