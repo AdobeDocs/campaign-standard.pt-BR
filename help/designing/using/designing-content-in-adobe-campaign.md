@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 15a4484ba846b1e08e5fa456a5448e76d60949c5
 workflow-type: tm+mt
-source-wordcount: '1208'
-ht-degree: 91%
+source-wordcount: '1225'
+ht-degree: 90%
 
 ---
 
@@ -19,15 +19,16 @@ ht-degree: 91%
 
 Após a criação de um email no Adobe Campaign, é necessário definir seu conteúdo.
 
-O Designer de e-mail permite que você crie e-mails cativantes e adaptados individualmente por meio de uma interface de arrastar e soltar. Esteja você iniciando do zero ou a partir de fragmentos e modelos de conteúdo existentes, projete e refine todo o conteúdo para cada email, seja ele promocional ou transacional.
+O Designer de e-mail permite que você crie e-mails cativantes e adaptados individualmente por meio de um arrastar e soltar
+interface. Esteja você iniciando do zero ou a partir de fragmentos e modelos de conteúdo existentes, projete e refine todo o conteúdo para cada email, seja ele promocional ou transacional.
 
 Criado para fornecer HTML otimizado para design responsivo, o Designer de email permite definir e aplicar facilmente condições de visibilidade e conteúdo dinâmico a um email, modelo ou fragmento diretamente pela interface do usuário. Você pode alternar facilmente entre a interface de arrastar e soltar e o código HTML clicando em um botão.
 
 O Designer de email permite a criação de conteúdo de email e modelos de conteúdo de email. Ele é compatível com emails simples, transacionais, de teste A/B, multilíngues e recorrentes.
 
-Para começar a usar o Designer de email, assista a esse [conjunto de vídeos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) que explicam a funcionalidade geral do Designer de email e como projetar um email do zero ou utilizando modelos.
-
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
+
+![](assets/do-not-localize/how-to-video.png) [Descubra o Designer de email em vídeo](#video)
 
 * Para descobrir como criar conteúdo de email, consulte [Introdução ao Designer de email](../../designing/using/quick-start.md).
 * Para obter uma visão geral do Designer de email, consulte [Uso do Designer de email](../../designing/using/designing-content-in-adobe-campaign.md).
@@ -117,7 +118,7 @@ Para fazer o uso correto do Designer de email e criar os melhores emails da mane
 
    Pré-visualização de mensagens antes do envio. O Adobe Campaign oferece uma maneira de testar a renderização de email usando o Litmus. Para obter mais informações, consulte [Renderização de email](../../sending/using/email-rendering.md).
 
-Na seção a seguir, são apresentadas mais práticas recomendadas de design e gerais relacionadas a mensagens: [Práticas](../../sending/using/delivery-best-practices.md)recomendadas para o delivery.
+Na seção a seguir, são apresentadas mais práticas recomendadas de design e gerais relacionadas a mensagens: [Práticas recomendadas do Delivery](../../sending/using/delivery-best-practices.md).
 
 ### Atualização de fragmentos {#email-designer-updates}
 
@@ -158,3 +159,11 @@ Quanto aos fragmentos, observe o seguinte:
 * [Design de uma landing page](../../channels/using/designing-a-landing-page.md)
 * [Criar uma mensagem SMS](../../channels/using/creating-an-sms-message.md)
 * [Criação e envio de uma notificação por push](../../channels/using/preparing-and-sending-a-push-notification.md)
+
+## Vídeo tutorial {#video}
+
+Este vídeo fornece uma visão geral do Designer de email.
+
+>[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
+
+Para começar a usar o Designer de email, assista a esse [conjunto de vídeos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) que explicam a funcionalidade geral do Designer de email e como projetar um email do zero ou utilizando modelos
