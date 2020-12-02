@@ -7,7 +7,7 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 47%
@@ -25,7 +25,7 @@ Para criar um novo recurso ou estender um recurso existente com novos campos, s�
 1. [Configuração da definição de filtro](../../developing/using/configuring-filter-definition.md)
 1. [Atualização da estrutura do banco de dados](../../developing/using/updating-the-database-structure.md)
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >A criação e a modificação de recursos são operações confidenciais que só devem ser realizadas por especialistas.
 
@@ -34,3 +34,4 @@ Este vídeo mostra como criar recursos personalizados.
 >[!VIDEO](https://video.tv.adobe.com/v/27715?quality=9&captions=eng)
 
 Vídeos de procedimentos de Campaign Standard adicionais estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
+
