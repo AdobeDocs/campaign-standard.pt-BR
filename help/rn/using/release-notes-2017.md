@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '4627'
 ht-degree: 8%
@@ -493,7 +493,7 @@ _Fluxos de trabalho_
      <li> Incluir o link de unsubscription nas mensagens. </li> 
      <li> Adicionar as mensagens transacionais aos relatórios globais do delivery. </li> 
      <li> Usar as mensagens transacionais na jornada do cliente. </li> 
-    </ul> Para obter mais informações, consulte a <a href="../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities">documentação detalhada</a>.<br /> </td> 
+    </ul> Para obter mais informações, consulte a <a href="../../channels/using/profile-transactional-messages.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> API de mensagens transacionais<br /> </td> 
