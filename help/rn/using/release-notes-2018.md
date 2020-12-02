@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '5402'
 ht-degree: 10%
@@ -41,7 +41,7 @@ Visualização as últimas [atualizações de documentação](../../rn/using/doc
   </tr> 
   <tr> 
    <td> Integração do Adobe Launch para aplicativos móveis (beta)<br /> </td> 
-   <td> A integração do Adobe Launch com a Adobe Campaign agora simplifica e automatiza o processo de ativação da propriedade do aplicativo móvel na Campanha usando o Mobile SDK V5.<br /> Para obter mais informações, consulte a <a href="https://helpx.adobe.com/br/campaign/kb/configuring-app-sdk.html">documentação detalhada</a>.<br /> </td> 
+   <td> A integração do Adobe Launch com a Adobe Campaign agora simplifica e automatiza o processo de ativação da propriedade do aplicativo móvel na Campanha usando o Mobile SDK V5.<br /> Para obter mais informações, consulte a <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">documentação detalhada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -110,7 +110,7 @@ Visualização as últimas [atualizações de documentação](../../rn/using/doc
   </tr> 
   <tr> 
    <td> Importação de conteúdo automatizada de um URL durante a preparação de mensagens<br /> </td> 
-   <td> Agora é possível importar conteúdo de email de um URL durante a fase de preparação. Para delivery de e-mail recorrentes, o conteúdo HTML mais recente é recuperado toda vez que a mensagem é preparada, garantindo que o conteúdo esteja sempre atualizado no momento em que o e-mail é enviado. Esse recurso também permite que você crie um agendo o delivery com conteúdo de um URL, mesmo se o conteúdo ainda não estiver pronto.<br /> Para obter mais informações, consulte a <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">documentação detalhada</a>.<br /> </td> 
+   <td> Agora é possível importar conteúdo de email de um URL durante a fase de preparação. Para delivery de email recorrentes, o conteúdo HTML mais recente é recuperado toda vez que a mensagem é preparada, garantindo que o conteúdo esteja sempre atualizado no momento em que o email é enviado. Esse recurso também permite que você crie um agendo o delivery com conteúdo de um URL, mesmo se o conteúdo ainda não estiver pronto.<br /> Para obter mais informações, consulte a <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Mensagem de notificação de versão de campanha<br /> </td> 
@@ -131,7 +131,7 @@ Visualização as últimas [atualizações de documentação](../../rn/using/doc
 **Outras alterações**
 
 * O tempo limite de compartilhamento de relatórios foi aumentado de um para quatro minutos para evitar erro de tempo limite.
-* Ao editar o conteúdo de um email, o novo Creative Designer é aberto por padrão. Se desejar, você ainda poderá voltar para o editor de conteúdo padrão a qualquer momento depois de salvar as alterações. For more on this, refer to the [detailed documentation](../../designing/using/designing-content-in-adobe-campaign.md).
+* Ao editar o conteúdo de um email, o novo Creative Designer é aberto por padrão. Se desejar, você ainda poderá voltar para o editor de conteúdo padrão a qualquer momento depois de salvar as alterações. Para obter mais informações, consulte a [documentação detalhada](../../designing/using/designing-content-in-adobe-campaign.md).
 * No Creative Designer, um novo componente de conteúdo agora pode ser adicionado a um email: o carrossel. Para obter mais informações, consulte a [documentação detalhada](../../designing/using/designing-from-scratch.md#about-content-components).
 * Em um relatório de clique com o botão direito do mouse em um mensagen transacional, quando você clica no botão **Alterar perfil**, agora apenas os perfis de teste vinculados ao evento definido para o seu mensagen transacional são listados.
 
@@ -327,7 +327,7 @@ _Recursos personalizados_
     <ul> 
      <li> Utilize campos personalizados como critérios de reconciliação para corresponder um mensagen transacional a um perfil </li> 
      <li> Aproveite perfis, serviços e dados vinculados completos para personalizar ainda mais os mensagens transacionais </li> 
-    </ul> Para obter mais informações, consulte a <a href="../../administration/using/configuring-transactional-messaging.md">documentação detalhada</a>.<br /> </td> 
+    </ul> Para obter mais informações, consulte a <a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">documentação detalhada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
