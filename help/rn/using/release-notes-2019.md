@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '7623'
 ht-degree: 9%
@@ -202,10 +202,10 @@ ht-degree: 9%
 **Outras melhorias**
 
 * Por meio da integração com o Adobe Experience Platform Location Services, a Adobe Campaign agora é compatível para enviar mensagens de marketing baseadas em localização aos assinantes do aplicativo móvel por meio do Experience Platform SDK. Para obter mais informações, consulte a [documentação detalhada](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
-* O recurso de relatórios foi aprimorado para proporcionar uma experiência melhor. Para usar esse recurso, é necessário aceitar o Contrato de uso dinâmico de Relatórios. For more on this, refer to the [detailed documentation](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
-* Em workflows, uma nova opção foi adicionada à pré-visualização das próximas dez execuções de um fluxo de trabalho. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
+* O recurso de relatórios foi aprimorado para proporcionar uma experiência melhor. Para usar esse recurso, é necessário aceitar o Contrato de uso dinâmico de Relatórios. Para obter mais informações, consulte a [documentação detalhada](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+* Em workflows, uma nova opção foi adicionada à pré-visualização das próximas dez execuções de um fluxo de trabalho. Para obter mais informações, consulte a [documentação detalhada](../../automating/using/scheduler.md).
 * Na atividade do Scheduler, uma nova opção permite selecionar um dia específico de uma semana específica para delivery mensais. Para obter mais informações, consulte a [documentação detalhada](../../automating/using/scheduler.md).
-* Ao criar delivery recorrentes sem período de agregação, o painel do delivery agora permite que você solicite a confirmação antes do envio do delivery. For more on this, refer to the [detailed documentation](../../sending/using/confirming-the-send.md).
+* Ao criar delivery recorrentes sem período de agregação, o painel do delivery agora permite que você solicite a confirmação antes do envio do delivery. Para obter mais informações, consulte a [documentação detalhada](../../sending/using/confirming-the-send.md).
 * Agora você pode personalizar o rótulo de um delivery com variáveis de evento que foram declaradas na atividade de sinal externo do fluxo de trabalho. Para obter mais informações, consulte a [documentação detalhada](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * O query de exclusão do RGPD foi aprimorado para melhorar o desempenho. (CAMP-33504)
 * A opção &quot;ftp&quot; foi removida da interface de configuração da conta externa. (CAMP-34472)
@@ -273,7 +273,7 @@ ht-degree: 9%
 
 ## Versão 19.2.3 - Junho de 2019 {#release-19-2-3---june-2019}
 
-**Email Designer**
+**Designer de email**
 
 Introduziu uma série de melhorias e correções para otimizar fragmentos na versão 19.2. Os fragmentos recém-criados funcionarão perfeitamente. Os fragmentos criados anteriormente ficaram esmaecidos e precisam ser migrados para o novo formato. Para fazer isso, clique em cada fragmento e valide sua migração para o novo formato. Recomendamos que você teste alguns fragmentos antes de migrar todos eles.
 
@@ -354,7 +354,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * O processo de mensagens transacionais foi otimizado para ser capaz de start em paralelo com várias análises da mesma mensagem.
 * Correção de um problema que resultava em throughput e latência inconsistentes para notificações por push transacionais.
 * Correção de um problema que exibia uma audiência de público alvo incorreta para delivery de execução de mensagens transacionais.
-* Correção de um problema que ocorria ao importar um pacote com uma configuração de evento e o mensagen transacional associado. For more on this, refer to the [detailed documentation](../../channels/using/getting-started-with-transactional-msg.md#exporting-and-importing-transactional-messages).
+* Correção de um problema que ocorria ao importar um pacote com uma configuração de evento e o mensagen transacional associado. Para obter mais informações, consulte a [documentação detalhada](../../channels/using/getting-started-with-transactional-msg.md#exporting-and-importing-transactional-messages).
 * Correção de um problema que excluía os dados de coleta dos perfis de teste criados para um mensagen transacional que continha listagens de produtos.
 
 **Outras alterações**
@@ -488,7 +488,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 
 **Outras alterações**
 
-* A Adobe Campaign e a Adobe Experience Cloud deixarão de oferecer suporte ao Microsoft Internet Explorer 11 a partir do primeiro trimestre de 2019 e da versão Campaign Standard 19.2. Alterne para o Microsoft Edge ou outro navegador compatível. Consulte a página [Recursos obsoletos e removidos](../../rn/using/deprecated-features.md).
+* A Adobe Campaign e a Adobe Experience Cloud deixarão de oferecer suporte ao Microsoft Internet Explorer 11 a partir do primeiro trimestre de 2019 e da versão Campaign Standard 19.2. Use o Microsoft Edge ou outro navegador compatível. Consulte a página [Recursos obsoletos e removidos](../../rn/using/deprecated-features.md).
 * O campo **Código do país** do recurso de Perfil foi renomeado para **Código do país/região**.
 
 **Correções**
@@ -539,7 +539,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
   </tr> 
   <tr> 
    <td> Listas de produtos em emails transacionais<br /> </td> 
-   <td> <p>Agora você pode fazer referência a uma ou mais coleções de produtos em uma mensagem de email transacional. Por exemplo, você pode enviar automaticamente um email de abandono de carrinho listando todos os produtos que estavam no carrinho do usuário com uma imagem, preço e link para cada produto.</p><p>Para saber mais, consulte a <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">documentação detalhada</a> e o <a href="https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.translate.html">vídeo de instruções</a>.</p> </td> 
+   <td> <p>Agora você pode fazer referência a uma ou mais coleções de produtos em uma mensagem de email transacional. Por exemplo, você pode enviar automaticamente um email de abandono de carrinho listando todos os produtos que estavam no carrinho do usuário com uma imagem, preço e link para cada produto.</p><p>Para saber mais, consulte a <a href="../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message">documentação detalhada</a> e o <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">vídeo de instruções</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Visualização móvel no Designer de email<br /> </td> 
@@ -568,7 +568,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * A lista dos países disponíveis ao definir um endereço de perfil foi enriquecida. (CAMP-26707)
 * Uma mensagem de erro agora é exibida ao tentar importar um fluxo de trabalho incorporado.
 
-**Email Designer**
+**Designer de email**
 
 * Correção de um problema que ativava o recurso de unidade geográfica em um modelo de e-mail ou em um fragmento de conteúdo criado com o Designer de e-mail, mesmo que esse recurso estivesse desabilitado no Adobe Campaign, o que tornava o modelo ou fragmento indisponível ao tentar acessá-lo novamente. (CAMP-28174)
 * Correção de um problema que impedia que condições de conteúdo dinâmico fossem salvas ao editar conteúdo com o Designer de email. (CAMP-27905)
