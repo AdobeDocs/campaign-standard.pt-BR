@@ -7,10 +7,10 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 22%
+source-wordcount: '524'
+ht-degree: 21%
 
 ---
 
@@ -32,9 +32,9 @@ Harmonizar todos os seus canais de marketing não é uma tarefa impossível. Com
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-**Aproveite o painel** de mensagens de Campanha para configurar e enviar suas mensagens de um único local, bem como acessar várias funcionalidades, como agendamento, mensagens multilíngues...
+**Utilize o** painel de mensagens de Campanha para configurar e enviar suas mensagens de um único local, bem como para acessar várias funcionalidades, como agendamento, mensagens multilíngues...
 
-**Gerencie modelos** para configurar as propriedades de mensagens e permitir que você ganhe tempo e consistência em toda a sua estratégia de mensagens. Por exemplo, para e-mails, o administrador funcional responsável pela configuração dos modelos pode definir os parâmetros padrão de um e-mail, como audiência, programação ou conteúdo, os parâmetros avançados relacionados ao envio, validade, rastreamento etc., ou os parâmetros de pré-configuração relativos à definição de metas e personalização (contexto de definição de metas).
+**Gerencie** modelos para configurar as propriedades de mensagens e permitir que você ganhe tempo e consistência em sua estratégia de mensagens. Por exemplo, para e-mails, o administrador funcional responsável pela configuração dos modelos pode definir os parâmetros padrão de um e-mail, como audiência, programação ou conteúdo, os parâmetros avançados relacionados ao envio, validade, rastreamento etc., ou os parâmetros de pré-configuração relativos à definição de metas e personalização (contexto de definição de metas).
 
 Leia mais:
 
@@ -48,11 +48,11 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**Cinco canais** de comunicação estão disponíveis no Adobe Campaign: Email, mensagem SMS, notificação por push, mensagem no aplicativo e delivery de mala direta.
+**Cinco** canais de comunicação estão disponíveis no Adobe Campaign: Email, mensagem SMS, notificação por push, mensagem no aplicativo e delivery de mala direta.
 
 Para cada canal, estão disponíveis funcionalidades específicas. Por exemplo, o canal de e-mail permite que você realize um teste A/B para testar até 3 versões de uma mensagem de e-mail. Com o canal SMS, gerencie mensagens SMS STOP e armazene SMS recebidos dos recipient no banco de dados.
 
-Além disso, aproveite a **personalização do Campaign Standard e os recursos** de conteúdo dinâmico para capturar seu interesse pela audiência.
+Além disso, aproveite a Campaign Standard **personalização e os recursos de conteúdo dinâmico** para capturar seu interesse pela audiência.
 
 Leia mais:
 
@@ -66,16 +66,17 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-**Envie mensagens** individuais e únicas aos seus clientes em tempo real: mensagens de boas-vindas, confirmações de envio de pedidos, modificação de senha, etc.
+**Envie** mensagens individuais e únicas aos seus clientes em tempo real: mensagens de boas-vindas, confirmações de envio de pedidos, modificação de senha, etc.
 
-Mensagens transacionais estão disponíveis para canais de email, SMS e notificação por push, dependendo de suas opções. Há dois tipos de mensagens: **mensagens transacionais** de evento direcionando eventos sem informações de perfil e mensagens transacionais **de** perfil direcionando perfis de seu banco de dados.
+Mensagens transacionais estão disponíveis para canais de email, SMS e notificação por push, dependendo de suas opções. Há dois tipos de mensagens: **mensagens transacionais de evento** definindo eventos de definição de metas sem informações de perfis e **mensagens transacionais de perfis** definindo perfis de definição de metas do seu banco de dados.
 
 Leia mais:
 
-* [Sobre mensagens transacionais](../../channels/using/getting-started-with-transactional-msg.md)
 * [Introdução a mensagens transacionais](../../channels/using/getting-started-with-transactional-msg.md)
-* [Mensagens transacionais de evento](../../channels/using/event-transactional-messages.md)
-* [Mensagens transacionais de perfil](../../channels/using/profile-transactional-messages.md)
+* [Configuração de um evento transacional](../../channels/using/configuring-transactional-event.md)
+* [Publicar um evento transacional](../../channels/using/publishing-transactional-event.md)
+* [Edição de um mensagen transacional](../../channels/using/editing-transactional-message.md)
+* [Publicação de mensagem transacional](../../channels/using/publishing-transactional-message.md)
 * [Notificações por push transacionais](../../channels/using/transactional-push-notifications.md)
 * [Mensagens de acompanhamento](../../channels/using/follow-up-messages.md)
 
@@ -83,9 +84,9 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_landing.svg" width="60px">
 
-A campanha vem com landings page que são formulários da Web que podem ser usados para **capturar informações em suas audiências**, oferta subscrições em um serviço, exibir dados e aumentar seu banco de dados.
+A campanha vem com landings page que são formulários da Web que podem ser usados para **capturar informações em seu audiência**, oferta subscrições em um serviço, exibe dados e amplia seu banco de dados.
 
-O Landing page também pode ser usado para **adquirir ou atualizar perfis** existentes e para configurar um mecanismo de aceitação de duplo, permitindo que você proteja a plataforma contra endereços de email errados ou inválidos, ou spambots.
+O Landing page também pode ser usado para **adquirir ou atualizar perfis existentes** e para configurar um mecanismo de aceitação de duplo, permitindo que você proteja a plataforma contra endereços de email errados ou inválidos, ou spambots.
 
 Leia mais:
 
