@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 6%
@@ -50,7 +50,7 @@ O conteúdo de email pode ser editado no Experience Manager e usado para uma ou 
 >title="Uso das listagens de produtos"
 >abstract="As listas de produtos permitem que você faça referência a uma coleção de dados e exiba-a no conteúdo do email."
 
-As listas de produtos permitem que você faça referência a uma ou mais coleções de dados no conteúdo do email. Essas listas estão disponíveis para e-mails transacionais. Uma seção dedicada para este recurso está disponível [aqui](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
+As listas de produtos permitem que você faça referência a uma ou mais coleções de dados no conteúdo do email. Essas listas estão disponíveis para e-mails transacionais. Uma seção dedicada para este recurso está disponível [aqui](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
 
 ## Comparação de opções de design de email {#email-design-options-comparison}
 
@@ -81,7 +81,7 @@ A Adobe Campaign oferta várias opções de criação de e-mail. O quadro abaixo
   <tr> 
    <td> <strong>Atualizar HTML</strong><br /> </td> 
    <td> Somente dentro de um componente HTML<br /> </td> 
-   <td> Not supported<br /> </td> 
+   <td> Não suportado<br /> </td> 
    <td> Suportado<br /> </td> 
   </tr> 
   <tr> 
@@ -93,8 +93,8 @@ A Adobe Campaign oferta várias opções de criação de e-mail. O quadro abaixo
   <tr> 
    <td> <strong>Personalização avançada</strong><br /> </td> 
    <td> Suportado<br /> </td> 
-   <td> Not supported<br /> </td> 
-   <td> Not supported<br /> </td> 
+   <td> Não suportado<br /> </td> 
+   <td> Não suportado<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Prova/Pré-visualização</strong><br /> </td> 
