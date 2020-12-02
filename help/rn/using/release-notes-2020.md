@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '2945'
 ht-degree: 99%
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 [Planejamento de versão](https://helpx.adobe.com/br/campaign/kb/acs-release-planning.html) | [Versões do painel de controle do Campaign](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html) | [Atualizações da documentação](../../rn/using/documentation-updates.md) | [Notas de versão anteriores](../../rn/using/release-notes-2019.md) | [Recursos descontinuados](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
 
-![](assets/do-not-localize/cp-icon.png) **Nova versão de junho do Painel de controle do Campaign** com monitoramento de perfis ativos, auditoria de entregabilidade de subdomínio e gerenciamento de chaves GPG. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nova versão de junho do Painel de controle do Campaign** com monitoramento de perfis ativos, auditoria de entregabilidade de subdomínio e gerenciamento de chaves GPG. [Saiba mais](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 ## Versão 20.3 - maio de 2020 {#release-20-3---may-2020}
 
@@ -123,7 +123,7 @@ ht-degree: 99%
 * Correção de um erro que impedia que os usuários fizessem alterações nos relatórios. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **O novo Painel de controle do Campaign pode ser lançado** com a renovação do certificado para subdomínios CNAME. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **O novo Painel de controle do Campaign pode ser lançado** com a renovação do certificado para subdomínios CNAME. [Saiba mais](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 ## Versão 20.2 - Abril de 2020 {#release-20-2---april-2020}
 
@@ -161,7 +161,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->Novos recursos serão lançados no Painel de controle do Campaign em abril, incluindo o gerenciamento de registros do Google TXT, monitoramento de espaço do banco de dados e alertas de email. Para obter mais informações sobre esses recursos, consulte a [Nota de versão do Painel de controle do Campaign](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html).
+>Novos recursos serão lançados no Painel de controle do Campaign em abril, incluindo o gerenciamento de registros do Google TXT, monitoramento de espaço do banco de dados e alertas de email. Para obter mais informações sobre esses recursos, consulte a [Nota de versão do Painel de controle do Campaign](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 **Aprimoramentos**
 
@@ -203,7 +203,7 @@ ht-degree: 99%
 
 * Correção de um problema com a atividade de workflow **Enriquecimento** que poderia ocorrer ao adicionar espaços no campo **Alias**, o que então criava um novo item de linha. (CAMP-39229)
 * Correção de um problema em que cada perfil de teste podia ser direcionado ao enviar uma mensagem de prova.
-* Correção de um problema que ocorria após a remoção da publicação e exclusão de uma configuração de evento. [Leia mais](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+* Correção de um problema que ocorria após a remoção da publicação e exclusão de uma configuração de evento. [Leia mais](../../channels/using/publishing-transactional-event.md#deleting-an-event)
 * Correção de um problema em que o botão **Save** desaparecia ao fazer alterações em workflows.
 * Correção de um problema ao excluir uma solicitação de acesso a dados pessoais manualmente no Campaign depois de ela ter sido processada, o que impedia que os dados associados à solicitação fossem excluídos mesmo após a limpeza.
 * Correção de um problema que podia ocorrer ao pré-visualizar ou enviar mensagens que incluíam caracteres especiais do Adobe Experience Manager.
