@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
 source-wordcount: '2412'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 [Planejamento de versão](../../rn/using/release-planning.md) | [Versões do painel de controle do Campaign](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html) | [Atualizações da documentação](../../rn/using/documentation-updates.md) | [Notas de versão anteriores](../../rn/using/release-notes-2020.md) | [Recursos descontinuados](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **Nova versão de outubro do Painel de controle do Campaign** com configuração de domínio usando CNAMEs e novos recursos de monitoramento de banco de dados. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nova versão de outubro do Painel de controle do Campaign** com configuração de domínio usando CNAMEs e novos recursos de monitoramento de banco de dados. [Saiba mais](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 ## Versão 20.4 - Outubro de 2020 {#release-20-4---october-2020}
 
@@ -35,7 +35,7 @@ ht-degree: 99%
 <tr> 
   <td> <p>Agora você pode usar <strong>Grupos de controle</strong> para medir o impacto das campanhas excluindo parte de seus públicos. Portanto você poderá comparar o comportamento do público-alvo que recebeu a mensagem com o comportamento dos contatos não atingidos. Com base nos logs de envio, você também poderá se concentrar em um grupo de controle em campanhas futuras.
 </p>
-<p>Para obter mais informações consulte a <a href="../../sending/using/control-group.md">documentação detalhada</a> e o <a href="https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">vídeo de instruções</a>.
+<p>Para obter mais informações consulte a <a href="../../sending/using/control-group.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=pt-BR#communication-channels">vídeo de instruções</a>.
 </p>
 </td> 
 </tr> 
@@ -112,7 +112,7 @@ ht-degree: 99%
 * Ao publicar um recurso personalizado, uma mensagem pop-up de confirmação é exibida após a preparação.
 * A mensagem pop-up que aparece quando um recurso personalizado apresenta falha foi melhorada para oferecer mais clareza.
 * O editor de expressão em workflows foi aprimorado para evitar erros de execução. [Novas funções](../../automating/using/customizing-workflow-external-parameters.md) estão disponíveis: elas podem ser usadas em todas as atividades que permitem usar variáveis de evento depois de chamar um workflow com parâmetros externos. Além disso, uma dica de ferramenta agora é exibida no editor de expressão com a descrição da função.
-* [Foram adicionados novos filtros à lista de eventos transacionais. ](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events) Eles permitem que você filtre as configurações do evento de acordo com seu status, bem como a última vez que um evento foi recebido.
+* [Foram adicionados novos filtros à lista de eventos transacionais. ](../../channels/using/configuring-transactional-event.md#searching-transactional-events) Eles permitem que você filtre as configurações do evento de acordo com seu status, bem como a última vez que um evento foi recebido.
 * Os logs exibidos ao exportar pacotes se tornaram mais específicos e detalhados quanto aos erros encontrados em caso de falha.
 * Agora é possível pesquisar, filtrar e exportar a lista de [URLs rastreados](../../sending/using/tracking-messages.md) após o envio de uma mensagem.
 * A [sincronização automática entre o Launch e o Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) agora está ativada por padrão na disponibilidade geral.
@@ -129,7 +129,7 @@ ht-degree: 99%
 **Correções**
 
 * Correção de um problema que impedia o uso de um link de destino para notificações de push ou mensagens no aplicativo quando o rastreamento era ativado.
-* Correção de um problema em que a alta prioridade em mensagens transacionais não era respeitada no caso de delivery significativos em massa.
+* Correção de um problema em que a alta prioridade em mensagens transacionais não era respeitada no caso de deliveries significativos em massa.
 * Correção de um problema que impedia a atribuição de marcas a um email transacional. Várias mensagens de erro poderiam ser exibidas durante a etapa de publicação. (CAMP-44988)
 * Correção de um problema na interface do usuário do workflow que podia impedir que as informações fossem salvas em campos que solicitavam valores numéricos. (CAMP-44025)
 * Correção de um problema que poderia exibir uma mensagem de erro ao usar uma atividade **de teste** em um workflow de template de importação. (CAMP-42910)
