@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '2573'
 ht-degree: 5%
@@ -167,7 +167,7 @@ O targeting dimension permite definir em qual tipo de mensagem você pode usar o
 
 Na verdade, ao editar uma mensagem, você só pode selecionar blocos de conteúdo com um targeting dimension que seja compatível com o targeting dimension dessa mensagem.
 
-Por exemplo, o targeting dimension do bloco **[!UICONTROL Unsubscription link]** é **[!UICONTROL Profiles]** porque contém campos de personalização específicos do recurso **[!UICONTROL Profiles]**. Portanto, você não pode usar um bloco **[!UICONTROL Unsubscription link]** em um mensagen transacional [evento](../../channels/using/event-transactional-messages.md), pois o targeting dimension desse tipo de mensagem é **[!UICONTROL Real-time events]**. No entanto, você pode usar o bloco **link de Unsubscription** em um mensagen transacional [perfil](../../channels/using/profile-transactional-messages.md), pois o targeting dimension desse tipo de mensagem é **Perfis**. Finalmente, o bloco **[!UICONTROL Link to mirror page]** não tem um targeting dimension, portanto, você pode usá-lo em qualquer mensagem.
+Por exemplo, o targeting dimension do bloco **[!UICONTROL Unsubscription link]** é **[!UICONTROL Profiles]** porque contém campos de personalização específicos do recurso **[!UICONTROL Profiles]**. Portanto, você não pode usar um bloco **[!UICONTROL Unsubscription link]** em um mensagen transacional [evento](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types), pois o targeting dimension desse tipo de mensagem é **[!UICONTROL Real-time events]**. No entanto, você pode usar o bloco **link de Unsubscription** em um mensagen transacional [perfil](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types), pois o targeting dimension desse tipo de mensagem é **Perfis**. Finalmente, o bloco **[!UICONTROL Link to mirror page]** não tem um targeting dimension, portanto, você pode usá-lo em qualquer mensagem.
 
 Se você deixar esse campo vazio, o bloco de conteúdo será compatível com todas as mensagens, independentemente do targeting dimension. Se você definir um targeting dimension, esse bloco só será compatível com mensagens que tenham o mesmo targeting dimension.
 
