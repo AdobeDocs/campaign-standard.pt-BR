@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 9ad23468d3d1cf386d9558e6cd2344ea2316fc82
+source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '600'
 ht-degree: 7%
 
 ---
@@ -22,27 +22,27 @@ Quando [configuration](../../channels/using/configuring-transactional-event.md) 
 
 >[!IMPORTANT]
 >
->A configuração e publicação do evento devem ser executadas por um [administrador](../../administration/using/users-management.md#functional-administrators).
+>Somente [Administradores funcionais](../../administration/using/users-management.md#functional-administrators) <!--being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) -->têm os direitos apropriados para publicar configurações de eventos.
 
 Um gráfico que ilustra todo o processo de publicação de mensagens transacionais, incluindo as configurações de publicação e despublicação de eventos, está disponível em [esta seção](../../channels/using/publishing-transactional-message.md).
 
 Após a publicação:
 * O mensagen transacional correspondente é criado automaticamente. Consulte [Edição de mensagens transacionais](../../channels/using/editing-transactional-message.md).
-* A API que será usada pelo desenvolvedor do site é implantada e os eventos transacionais agora podem ser enviados. Consulte Integrar acionamento de evento(../../channels/using/getting-started-with-transactional-msg.md#integration-evento-trigger).
+* A API que será usada pelo desenvolvedor do site é implantada e os eventos transacionais agora podem ser enviados. Consulte [Integrar o evento que dispara](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
 
-## Visualização e publicação do evento {#previewing-and-publishing-the-event}
+## Visualizar e publicar um evento {#previewing-and-publishing-the-event}
 
 Antes de poder usar o evento, você deve pré-visualização e publicá-lo.
 
 1. Clique no botão **[!UICONTROL API preview]** para ver uma simulação da REST API que será usada pelo desenvolvedor do seu site antes de ser publicada.
 
-   Depois que o evento é publicado, esse botão também permite que você veja uma pré-visualização da API em produção. Consulte Integrar acionamento de evento(../../channels/using/getting-started-with-transactional-msg.md#integration-evento-trigger).
+   Depois que o evento é publicado, esse botão também permite que você veja uma pré-visualização da API em produção. Consulte [Integrar o evento que dispara](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
 
    ![](assets/message-center_api_preview.png)
 
    >[!NOTE]
    >
-   >A API REST varia de acordo com o canal selecionado e o targeting dimension selecionado. Para obter mais detalhes sobre as várias configurações, consulte [Configurações específicas do evento transacional](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations).
+   >A API REST varia de acordo com o canal selecionado e o targeting dimension selecionado. Para obter mais detalhes sobre as várias configurações, consulte [esta seção](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations).
 
 1. Clique em **[!UICONTROL Publish]** para start da publicação.
 
@@ -66,11 +66,7 @@ Antes de poder usar o evento, você deve pré-visualização e publicá-lo.
 
    >[!NOTE]
    >
-   >* Para que o evento acione o envio de um mensagen transacional, é necessário modificar e publicar a mensagem que acabou de ser criada. Consulte [Edição](../../channels/using/editing-transactional-message.md) e [Publicar um mensagen transacional](../../channels/using/publishing-transactional-message.md) seções.
-      >
-      >
-   * Você também precisa [integrar este evento de disparo](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) ao seu site.
-
+   >Para que o evento acione o envio de um mensagen transacional, é necessário modificar e publicar a mensagem que acabou de ser criada. Consulte [Edição](../../channels/using/editing-transactional-message.md) e [Publicar um mensagen transacional](../../channels/using/publishing-transactional-message.md) seções. Você também precisa [integrar este evento de disparo](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) ao seu site.
 
 1. Depois que os start Adobe Campaign receberem eventos relacionados a essa configuração de evento, você poderá clicar no link **[!UICONTROL Latest transactional events]** na seção **[!UICONTROL History]** para acessar os eventos mais recentes enviados por seu serviço de terceiros e processados pela Adobe Campaign.
 
