@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 95%
+source-wordcount: '1220'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 
 O Adobe Campaign permite atribuir um conjunto de funções aos usuários para definir qual parte da interface eles podem acessar.
 
-As funções específicas e as autorizações correspondentes são descritas nas seções [Compreensão das funções](../../administration/using/list-of-roles.md) e [Autorizações](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+As funções específicas e as autorizações correspondentes são descritas nas seções [Compreensão das funções](../../administration/using/list-of-roles.md) e [Autorizações](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
 
 Os administradores podem gerenciar os usuários no Admin Console. Os usuários são sincronizados automaticamente com o Adobe Campaign. Para saber mais, consulte a [documentação do Admin Console](https://helpx.adobe.com/br/enterprise/using/users.html).
 
@@ -37,7 +37,7 @@ Para acessar a interface de gerenciamento de usuários no Adobe Campaign, clique
 
 * Vídeo [Managing user permissions](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/access-management.html)
 * [Lista de funções](../../administration/using/list-of-roles.md)
-* [Lista de autorizações](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
+* [Lista de autorizações](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 ## Tipos de usuários {#type-of-users}
 
@@ -59,7 +59,7 @@ Vamos nos concentrar em como as diferentes tarefas no Adobe Campaign são dividi
 
 Os administradores funcionais são usuários que podem acessar as partes mais técnicas da interface. Eles assumem a função **[!UICONTROL Administration]** e garantem que a plataforma esteja configurada para que os profissionais de marketing se concentrem apenas no delivery das campanhas.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Somente administradores funcionais, com a função **[!UICONTROL Administration]** e o acesso a **Todas** unidades podem acessar logs de envio, registros de mensagens, logs de rastreamento, registros de exclusão, registros de proposição e registros de subscrições. Um usuário não administrativo pode público alvo desses registros, mas iniciando em uma tabela vinculada (perfis, delivery).
 
