@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 1%
+source-wordcount: '678'
+ht-degree: 3%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 ## Sobre mensagens transacionais
 
-Depois de criar um evento, é necessário integrar o acionamento desse evento ao seu site.
+Depois de criar e publicar um evento transacional, é necessário integrar o acionamento desse evento ao seu site.
 
 >[!NOTE]
 >
->A criação e publicação de um evento são apresentadas em [A documentação da Campanha](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+>A configuração de um evento é apresentada em [esta seção](../../channels/using/configuring-transactional-event.md).
 
 Por exemplo, você deseja que um evento de &quot;abandono do carrinho&quot; seja acionado sempre que um de seus clientes sair do site antes de comprar os produtos no carrinho. Para isso, seu desenvolvedor da Web deve usar a REST Mensagen transacional API.
 
@@ -48,7 +48,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    (Observe que o ponto de extremidade da API de mensagens transacionais também está visível durante a pré-visualização da API)
 
-* **&lt;eventid>**: o tipo de evento que você deseja enviar. Essa ID é gerada ao criar a definição do evento. Consulte a [documentação da Campanha](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+* **&lt;eventid>**: o tipo de evento que você deseja enviar. Essa ID é gerada ao criar a configuração do evento (consulte [esta seção](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 
 ### cabeçalho de solicitação de POST
 
@@ -67,7 +67,7 @@ Você deve adicionar um charset, por exemplo **utf-8**. Observe que esse valor d
 
 ### corpo de solicitação de POST
 
-Os dados do evento estão contidos no corpo do POST JSON. A estrutura do evento depende de sua definição. O botão pré-visualização da API na tela de definição de recurso fornece uma amostra de solicitação. Consulte a [documentação da Campanha](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+Os dados do evento estão contidos no corpo do POST JSON. A estrutura do evento depende de sua definição. O botão pré-visualização da API na tela de definição de recurso fornece uma amostra de solicitação. Consulte [esta seção](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
 Os seguintes parâmetros opcionais podem ser adicionados ao conteúdo do evento para gerenciar o envio de mensagens transacionais vinculados ao evento:
 
@@ -138,7 +138,7 @@ Na resposta, o campo &quot;status&quot; permite que você saiba se o evento foi 
 
 * **pendente**: o evento está pendente - o evento assume esse status quando acaba de ser acionado.
 * **processamento**: o evento está com delivery pendente - ele está sendo transformado em uma mensagem e a mensagem está sendo enviada.
-* **pausado**: o processo de evento está sendo pausado. Não é mais processado, mas mantido em fila no banco de dados Adobe Campaign. Para obter mais informações, consulte a [documentação de Campanha](https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html#unpublishing-a-transactional-message).
+* **pausado**: o processo de evento está sendo pausado. Não é mais processado, mas mantido em fila no banco de dados Adobe Campaign. Para obter mais informações, consulte [esta seção](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication).
 * **processados**: o evento foi processado e a mensagem foi enviada com êxito.
 * **ignorado**: o evento foi ignorado pelo delivery, geralmente quando um endereço está na quarentena.
 * **deliveryFailed**: ocorreu um erro de delivery enquanto o evento estava sendo processado.
