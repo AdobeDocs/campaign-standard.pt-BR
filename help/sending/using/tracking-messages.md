@@ -7,9 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 79e172d08557bfeebd088d8a0e8756c5965318cb
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '487'
 ht-degree: 35%
 
 ---
@@ -23,7 +23,7 @@ Graças às suas funcionalidades de rastreamento, a Adobe Campaign permite rastr
 
 Você pode informar aos usuários que seus sites estão equipados com ferramentas de rastreamento da Web por meio de uma solicitação de autorização (que aparece na página, por exemplo) com uma caixa de seleção para autorizar o uso de cookies ou adicionar um banner na parte superior da primeira página em que eles chegam, etc. As janelas pop-up devem ser evitadas, pois geralmente são bloqueadas pelos navegadores.
 
-As informações de rastreamento estão disponíveis para cada contato do banco de dados no **[!UICONTROL integrated customer profiles]**. Para obter mais informações, consulte [esta seção](../../audiences/using/integrated-customer-profile.md).
+As informações de rastreamento estão disponíveis para cada contato do banco de dados em **[!UICONTROL integrated customer profiles]**. Para obter mais informações, consulte [esta seção](../../audiences/using/integrated-customer-profile.md).
 
 O Adobe Campaign usa dois tipos de cookies:
 
@@ -65,17 +65,17 @@ A guia **[!UICONTROL Tracking logs]** lista o histórico de rastreamento desse d
 
 >[!NOTE]
 >
->Se o rastreamento não estiver ativado para um delivery, essa guia não será exibida. Logs de rastreamento estão disponíveis somente para canais de notificação por **email** e **push** .
+>Se o rastreamento não estiver ativado para um delivery, essa guia não será exibida. Logs de rastreamento estão disponíveis somente para os canais **email** e **notificação por push**.
 
 ![](assets/tracking_logs.png)
 
 No exemplo acima, o recipient:
 
 * A mensagem foi aberta.
+* Clicado no link do mirror page.
 * Clicado no link personalizado &quot;APRENDER MAIS&quot;.
-* Clicado no link unsubscription e mirror page.
 
-Na **[!UICONTROL Type]** coluna, os valores possíveis são:
+Na coluna **[!UICONTROL Type]**, os valores possíveis são:
 
 * **[!UICONTROL Email click]**: os recipient clicaram em um link personalizado.
 * **[!UICONTROL Mirror page]**: o recipient clicou em um link para o mirror page.
@@ -84,14 +84,16 @@ Na **[!UICONTROL Type]** coluna, os valores possíveis são:
 
 >[!NOTE]
 >
->Para o canal de notificação **por** push, somente cliques em notificações móveis são rastreados. Nesse caso, o valor será **[!UICONTROL Click on mobile notification]**.
+>Para o canal **notificação por push**, somente cliques em notificações móveis são rastreados. Nesse caso, o valor será **[!UICONTROL Click on mobile notification]**.
 
 Para obter mais informações sobre como inserir links de rastreamento, consulte [esta página](../../designing/using/links.md#inserting-a-link).
 
-## URLs acompanhados {#tracked-urls}
+O relatório **[!UICONTROL Tracking indicators]** contém os principais indicadores para rastrear o comportamento após o recebimento de mensagens de email. Para obter mais informações, consulte esta [página](../../reporting/using/tracking-indicators.md).
 
-A **[!UICONTROL Tracked URLs]** guia agrupa os URLs contidos na mensagem enviada, incluindo o tipo de URL e o URL de origem.
+## URLs rastreados {#tracked-urls}
+
+A guia **[!UICONTROL Tracked URLs]** agrupa os URLs contidos na mensagem enviada, incluindo o tipo de URL e o URL de origem.
 
 ![](assets/sending_delivery6.png)
 
-For more on tracking links, refer to [this section](../../designing/using/links.md#about-tracked-urls).
+Para obter mais informações sobre links de rastreamento, consulte [esta seção](../../designing/using/links.md#about-tracked-urls).
