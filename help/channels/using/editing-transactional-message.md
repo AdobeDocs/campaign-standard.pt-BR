@@ -9,23 +9,27 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 9ad23468d3d1cf386d9558e6cd2344ea2316fc82
+source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 69%
+source-wordcount: '1488'
+ht-degree: 60%
 
 ---
 
 
 # Edição de um mensagen transacional {#editing-transactional-message}
 
-Depois de criar e publicar um evento<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->, o mensagen transacional correspondente é criado automaticamente. As etapas para configurar e publicar o evento são apresentadas na seção [Configuração de um evento transacional](../../channels/using/configuring-transactional-event.md) e [Publicação de um evento transacional](../../channels/using/publishing-transactional-event.md).
+Depois de criar e publicar um evento<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->, o mensagen transacional correspondente é criado automaticamente.
+
+As etapas para configurar e publicar o evento são apresentadas na seção [Configuração de um evento transacional](../../channels/using/configuring-transactional-event.md) e [Publicação de um evento transacional](../../channels/using/publishing-transactional-event.md).
 
 As etapas para acessar, editar e personalizar esta mensagem estão descritas abaixo.
 
-<!--Event transactional messages do not contain profile information, therefore they are not compatible with fatigue rules (even in the case of an enrichment with profiles). See [Fatigue rules](../../sending/using/fatigue-rules.md#choosing-the-channel).-->
+>[!IMPORTANT]
+>
+>Somente os usuários com a função [Administration](../../administration/using/users-management.md#functional-administrators) podem acessar e editar mensagens transacionais.
 
-Quando sua mensagem estiver pronta, ela poderá ser testada e publicada. Consulte [ciclo de vida do Mensagen transacional](../../channels/using/publishing-transactional-message.md).
+Quando sua mensagem estiver pronta, ela poderá ser testada e publicada. Consulte [Testando um mensagen transacional](../../channels/using/testing-transactional-message.md) e [ciclo de vida do Mensagen transacional](../../channels/using/publishing-transactional-message.md).
 
 ## Acessar mensagens transacionais {#accessing-transactional-messages}
 
@@ -38,19 +42,19 @@ Para acessar o mensagen transacional que você criou:
 
 1. Clique na mensagem de sua escolha para editá-la.
 
->[!IMPORTANT]
->
->Para acessar mensagens transacionais, você deve fazer parte do grupo de segurança **[!UICONTROL Administrators (all units)]**. Para obter mais informações, consulte [Gerenciamento de usuários](../../administration/using/users-management.md#functional-administrators).
+   ![](assets/message-center_message-board.png)
+
+Você também pode acessar diretamente um mensagen transacional pelo link localizado na área à esquerda da tela de configuração do evento correspondente. Consulte [Visualizar e publicar um evento](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 ## Personalização de uma mensagem transacional {#personalizing-a-transactional-message}
 
-Para configurar a personalização em uma mensagem transacional, siga as etapas abaixo.
+Para editar e personalizar um mensagen transacional, siga as etapas abaixo.
 
 >[!NOTE]
 >
->Esta seção descreve como personalizar um mensagen transacional **baseado em eventos**.  As etapas de configuração para criar um mensagen transacional baseado em eventos são apresentadas em [esta seção](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
+>Esta seção descreve como editar um mensagen transacional **baseado em eventos**. As especificidades do mensagen transacional **baseado em perfis** estão detalhadas [abaixo](#profile-transactional-message-specificities).
 >
->As especificidades do mensagen transacional **baseado em perfis** estão detalhadas [abaixo](#profile-transactional-message-specificities).
+>As etapas de configuração para criar um mensagen transacional baseado em eventos são apresentadas em [esta seção](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
 
 Por exemplo, você deseja enviar uma notificação para os usuários do seu site que adicionaram produtos ao carrinho e saíram do site sem ter que fazer compras. Este exemplo é apresentado na seção [Princípio operacional de mensagens transacionais](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle).
 
@@ -70,7 +74,7 @@ Por exemplo, você deseja enviar uma notificação para os usuários do seu site
 
    ![](assets/message-center_7.png)
 
-1. Para enriquecer o conteúdo da mensagem, adicione campos selecionando-os da tabela com a qual você vinculou seu evento. Neste exemplo, selecione o campo **[!UICONTROL Title (salutation)]** na tabela **[!UICONTROL Profile]** até **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
+1. Você também pode enriquecer o conteúdo de sua mensagem. Para fazer isso, adicione campos da tabela que você vinculou à configuração do evento (consulte [Enriquecendo o evento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)). Neste exemplo, selecione o campo **[!UICONTROL Title (salutation)]** na tabela **[!UICONTROL Profile]** até **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -84,15 +88,15 @@ Por exemplo, você deseja enviar uma notificação para os usuários do seu site
 
    ![](assets/message-center_9.png)
 
-   Você pode verificar se os campos de personalização correspondem às informações inseridas no perfil de teste. Para obter mais informações, consulte [Definição de um perfil de teste específico](../../channels/using/publishing-transactional-message.md#defining-specific-test-profile).
+   Você pode verificar se os campos de personalização correspondem às informações inseridas no perfil de teste. Para obter mais informações, consulte [Definição de um perfil de teste específico](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
 
 ## Uso de listas de produtos em uma mensagem transacional {#using-product-listings-in-a-transactional-message}
 
-É possível criar listas de produtos que façam referência a uma ou mais coleções de dados no conteúdo de um email transacional. Por exemplo, em um email de abandono de carrinho, você pode incluir uma lista de todos os produtos que estavam nos carrinhos dos usuários quando eles saíram do site, com uma imagem, o preço e um link para cada produto.
+Ao editar o conteúdo de um email transacional, você pode criar listas de produtos que façam referência a uma ou mais coleções de dados. Por exemplo, em um email de abandono de carrinho, você pode incluir uma lista de todos os produtos que estavam nos carrinhos dos usuários quando eles saíram do site, com uma imagem, o preço e um link para cada produto.
 
 >[!IMPORTANT]
 >
->As listas de produtos só estão disponíveis ao editar mensagens de email transacionais por meio da interface do [Designer de email](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
+>As listas de produtos só estão disponíveis para o canal de email, ao editar conteúdo de email transacional por meio da interface [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
 
 Para adicionar uma lista de produtos abandonados em uma mensagem transacional, siga as etapas abaixo.
 
@@ -204,7 +208,7 @@ Para obter mais informações sobre como criar uma coleção e campos relacionad
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   Para obter mais informações sobre como definir um perfil de teste em uma mensagem transacional, consulte [esta seção](../../channels/using/publishing-transactional-message.md#defining-specific-test-profile).
+   Para obter mais informações sobre como definir um perfil de teste em uma mensagem transacional, consulte [esta seção](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
 
 ## Especificidades de mensagen transacional baseadas em perfis {#profile-transactional-message-specificities}
 
@@ -214,9 +218,9 @@ Você pode enviar mensagens transacionais com base em perfis de marketing do cli
 
 * As etapas de configuração para criar um mensagen transacional baseado em perfis estão detalhadas em [nesta seção](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
 
-### Edição de um mensagen transacional de perfil {#editing-profile-transactional-message}
+<!--### Editing a profile transactional message {#editing-profile-transactional-message}-->
 
-As etapas para criar, personalizar e publicar um mensagen transacional de perfil são, em geral, as mesmas que para um mensagen transacional de evento.
+As etapas para criar, editar e personalizar um mensagen transacional de perfil são, em geral, as mesmas que para um mensagen transacional de evento.
 
 As diferenças são listadas abaixo.
 
@@ -235,29 +239,39 @@ As diferenças são listadas abaixo.
 
 1. Salve as alterações antes de publicar a mensagem. Para obter mais informações, consulte [Publicação de mensagem transacional](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
 
-### Monitoramento de um delivery de mensagem transacional de perfil {#monitoring-a-profile-transactional-message-delivery}
+<!--### Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}
 
-Quando a mensagem for publicada e a integração do site estiver concluída, você poderá monitorar o delivery.
+Once the message is published and your site integration is done, you can monitor the delivery.
 
-1. Para exibir o log de delivery da mensagem, clique no ícone na parte inferior direita do bloco **[!UICONTROL Deployment]**.
+1. To view the message delivery log, click the icon at the bottom right of the **[!UICONTROL Deployment]** block.
 
-   Para obter mais informações sobre como acessar os registros, consulte [Monitorando um delivery](../../sending/using/monitoring-a-delivery.md).
+1. Click the **[!UICONTROL Execution list]** tab.
 
-1. Selecione a guia **[!UICONTROL Sending logs]**. Na coluna **[!UICONTROL Status]**, **[!UICONTROL Sent]** indica que um perfil foi aceito.
+   ![](assets/message-center_execution_tab.png)
+
+1. Select the latest execution delivery.
+
+   An **execution delivery** is a non-actionable and non-functional technical message created once a month for each transactional message, and each time a transactional message is edited and published again
+
+1. Select the **[!UICONTROL Sending logs]** tab. In the **[!UICONTROL Status]** column, **[!UICONTROL Sent]** indicates that a profile has opted in.
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Selecione a guia **[!UICONTROL Exclusions logs]** para visualização de recipient que foram excluídos do público alvo de mensagens, como endereços em lista de bloqueios.
+1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on denylist.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-Para os perfis recusados, a regra de tipologia **[!UICONTROL Address on denylist]** exclui o recipient correspondente.
+>[!NOTE]
+>
+>For more information on accessing and using the logs, see [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md).
 
-Essa regra faz parte de uma tipologia específica aplicável a todas as mensagens transacionais baseadas na tabela **[!UICONTROL Profile]**.
+For any profile that has opted out, the **[!UICONTROL Address on denylist]** typology rule excluded the corresponding recipient.
+
+This rule is part of a specific typology that applies to all transactional messages based on the **[!UICONTROL Profile]** table.
 
 ![](assets/message-center_marketing_typology.png)
 
-**Tópicos relacionados**:
+**Related topics**:
 
-* Integrar acionamento de evento(../../channels/using/getting-started-with-transactional-msg.md#integration-evento-trigger)
-* [Sobre tipologias e regras de tipologia](../../sending/using/about-typology-rules.md)
+* [Integrate the event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
+* [About typologies and typology rules](../../sending/using/about-typology-rules.md)-->
