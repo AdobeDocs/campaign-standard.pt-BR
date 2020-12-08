@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 14%
+source-wordcount: '644'
+ht-degree: 15%
 
 ---
 
@@ -30,7 +30,7 @@ Como uma solução baseada em nuvem, os administradores do Adobe Campaign oferta
 >
 >Em caso de dúvidas ou solicitações sobre questões de implementação e configuração, entre em contato com o executivo de sua conta Adobe.
 
-Observe que, se sua instância estiver hospedada no AWS, os usuários administradores também poderão aproveitar o Painel de controle do Campaign de Campanha para gerenciar configurações e rastrear os usos de cada uma de suas instâncias. Para obter mais informações, consulte a [documentação dedicada](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html).
+Observe que, se sua instância estiver hospedada no AWS, os usuários administradores também poderão aproveitar o Painel de controle do Campaign de Campanha para gerenciar configurações e rastrear os usos de cada uma de suas instâncias. Para obter mais informações, consulte a [documentação dedicada](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR).
 
 ## Menu Administração {#administration-menu}
 
@@ -74,7 +74,7 @@ Todos os canais de comunicação no Adobe Campaign devem estar configurados corr
 
 Configure vários parâmetros **email**: regras de processamento para rejeição, quarentenas, propriedades de e-mail e parâmetros de roteamento, regras de tipos. Defina as configurações e propriedades do roteamento **SMS**, bem como a codificação e os formatos SMS.
 
-Configure **aplicativos móveis** para poder enviar mensagens no aplicativo e notificações por push usando SDKs do Adobe Experience Platform, e configure **mensagens transacionais** criando e configurando eventos.
+Configure **aplicativos móveis** para poder enviar mensagens no aplicativo e notificações por push usando SDKs do Adobe Experience Platform.
 
 Leia mais:
 
@@ -82,7 +82,6 @@ Leia mais:
 * [Configuração do canal de email](../../administration/using/configuring-email-channel.md)
 * [Configuração do canal SMS](../../administration/using/configuring-sms-channel.md)
 * [Configurar um aplicativo móvel](../../administration/using/configuring-a-mobile-application.md)
-* [Configuração de mensagens transacionais](../../administration/using/configuring-transactional-messaging.md)
 
 ## Configurações do aplicativo {#application-settings}
 
