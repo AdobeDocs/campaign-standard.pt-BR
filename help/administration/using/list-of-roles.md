@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: users-and-security
 context-tags: role,overview;role,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2c15273c7614204300f615e9060f29c93a4f8481
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 94%
+source-wordcount: '227'
+ht-degree: 84%
 
 ---
 
@@ -24,13 +24,18 @@ Combinadas com as unidades organizacionais, as funções exibem uma visualizaç�
 
 Para obter mais informações, consulte a tabela [Funções e permissões](/help/administration/using/assets/acs_rights.pdf), que detalha as funções disponíveis na interface, dependendo das autorizações selecionadas.
 
-[![imagem](assets/user_management_3.png)](https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
+[![imagem](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 Funções podem ser gerenciadas no menu **[!UICONTROL Administration > Users & Security > Roles]**.
 
 Os direitos padrão são:
 
 * **[!UICONTROL Administration]**: Direito de administração genérico.
+
+   >[!NOTE]
+   >
+   >Se precisar criar Acionadores, será necessário **[!UICONTROL Administration]** para poder acessar o menu Acionadores. Para obter mais informações sobre Acionadores, consulte esta [página](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+
 * **[!UICONTROL Datamodel]**: Direito de executar publicações e criar recursos personalizados.
 * **[!UICONTROL Generic import]**: Direito de executar uma importação genérica nos dados. Para que isso funcione, é necessário vincular a função **[!UICONTROL Generic import]** à função **[!UICONTROL Workflow]**.
 * **[!UICONTROL Prepare deliveries]**: Direito de criar, modificar, preparar e excluir deliveries. Os usuários com essa função podem preparar o delivery, mas não podem enviá-lo.
