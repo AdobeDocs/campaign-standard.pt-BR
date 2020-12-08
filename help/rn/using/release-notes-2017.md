@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '4627'
 ht-degree: 8%
@@ -224,7 +224,7 @@ _Emails, mensagens SMS e mala direta_
 * Correção de um problema com o fluxo de trabalho **updateDeliveryExecInfo** que definia o indicador **Entregar** como 0 para delivery SMS.
 * Em **Parâmetros avançados** das propriedades do template do delivery, a lista suspensa **Roteamento** agora exibe apenas contas externas correspondentes ao tipo de mensagem do modelo. Por exemplo, um template do delivery de email só exibe contas externas de email.
 * Correção de um problema com o formato do email preferencial **[!UICONTROL Text]** definido para perfis de teste.
-* Correção de um problema que resultava em um erro de Javascript ao selecionar o fuso horário padrão na tela de definição de agendamento de um delivery.
+* Correção de um problema que resultava em erro de Javascript ao selecionar o fuso horário padrão na tela de definição de agendamento de um delivery.
 * Correção de um problema que impedia a exibição de armadilhas nos registros de envio.
 * Na tela de seleção de modelo do assistente de criação de delivery, o acompanhamento e os modelos de teste A/B agora estão ocultos por padrão. Para obter mais informações, consulte [documentação detalhada](../../channels/using/creating-an-email.md).
 * Correção de um problema que permitia que qualquer usuário enviasse delivery. Agora, somente os usuários com a função **[!UICONTROL Start deliveries]** podem fazê-lo. Para obter mais informações, consulte [documentação detalhada](../../sending/using/confirming-the-send.md).
@@ -493,7 +493,7 @@ _Fluxos de trabalho_
      <li> Incluir o link de unsubscription nas mensagens. </li> 
      <li> Adicionar as mensagens transacionais aos relatórios globais do delivery. </li> 
      <li> Usar as mensagens transacionais na jornada do cliente. </li> 
-    </ul> Para obter mais informações, consulte a <a href="../../channels/using/profile-transactional-messages.md">documentação detalhada</a>.<br /> </td> 
+    </ul> Para obter mais informações, consulte a <a href="../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> API de mensagens transacionais<br /> </td> 
