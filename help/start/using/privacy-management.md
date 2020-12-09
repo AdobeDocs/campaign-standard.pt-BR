@@ -6,28 +6,28 @@ description: Saiba mais sobre os recursos do Adobe Campaign Standard para gerenc
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a9afa91302684ddd37a94a9999d90bf8c8e7abee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '964'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
 # Gerenciamento de privacidade {#privacy-management}
 
-A Adobe Campaign oferta um conjunto de ferramentas para ajudá-lo a cumprir [as regras de privacidade](#privacy-management-regulations) (incluindo o RGPD, CCPA, PDPA, LGPD).
+O Adobe Campaign oferece um conjunto de ferramentas para ajudar você a cumprir as [regras de privacidade](#privacy-management-regulations) (incluindo GDPR, CCPA, PDPA, LGPD).
 
-Estes são os cinco principais recursos oferecidos pela Adobe Campaign para garantir o RGPD e outras regulamentações de privacidade prontas:
+Estes são os cinco principais recursos oferecidos pelo Adobe Campaign para garantir a conformidade com o GDPR e outras regras de privacidade:
 
 ![](assets/privacy-gdpr-use-cases.png)
 
 * **Direito de acesso**
 
-* **Direito de excluir**
+* **Direito de exclusão**
 
-Para obter mais informações, consulte [Direito de acesso e direito de ser esquecido](#right-access-forgotten).
+Para obter mais informações, consulte [Direito de acesso e direito ao esquecimento](#right-access-forgotten).
 
 * **Gerenciamento de consentimento**
 
@@ -41,14 +41,14 @@ Para obter mais informações, consulte [Consentimento, Retenção e Funções](
 
 It also contains information on important features to manage Privacy ([consent, data retention and user roles](#consent-retention-roles)), as well as best practices to help you with your Privacy compliance when using Adobe Campaign.-->
 
-## Regulamentos sobre gerenciamento de privacidade {#privacy-management-regulations}
+## Regras sobre a gestão da privacidade {#privacy-management-regulations}
 
 Os recursos do Adobe Campaign ajudam você a cumprir os seguintes requisitos:
 
-* **O GDPR** ([Regulamento Geral sobre a Proteção de Dados](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)) é a lei de privacidade da União Europeia (UE) que adequa e moderniza os requisitos de proteção de dados nos países membros da UE. Siga os links abaixo para encontrar informações gerais sobre o RGPD:
+* **O GDPR** ([Regulamento Geral sobre a Proteção de Dados](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)) é a lei de privacidade da União Europeia (UE) que adequa e moderniza os requisitos de proteção de dados nos países membros da UE. Siga os links abaixo para encontrar informações gerais sobre o GDPR:
 
    * https://www.adobe.com/br/privacy/general-data-protection-regulation.html
-   * https://www.adobe.com/br/marketing-cloud/campaign/general-data-protection-regulation.html
+   * https://www.adobe.com/marketing-cloud/campaign/general-data-protection-regulation.html
 
 * **O CCPA** ([Ato de privacidade do consumidor da Califórnia](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=)) fornece aos residentes da Califórnia novos direitos no que diz respeito a suas informações pessoais e impõe responsabilidades de proteção de dados a determinadas entidades com negócios na Califórnia.
 * O **PDPA** ([Ato de proteção de dados pessoais)](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/) é a nova lei de privacidade que adequa e moderniza os requisitos de proteção de dados na Tailândia.
