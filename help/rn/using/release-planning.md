@@ -6,9 +6,9 @@ description: Esta página lista as próximas versões do Adobe Campaign Standard
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '452'
 ht-degree: 100%
 
