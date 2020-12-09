@@ -29,13 +29,13 @@ Uma nova página sobre acessibilidade foi adicionada para saber mais sobre o sup
 
 ## Novembro de 2020 {#doc-updates-november-2020}
 
-A seção Dados pessoais e personalidades foi atualizada com um cenário de caso de uso para ilustrar como as diferentes personalidades estão interagindo no que diz respeito à privacidade. [Leia mais](../../start/using/privacy.md#use-case-scenario)
+A seção Dados pessoais e personalidades foi atualizada com um cenário de caso de uso para ilustrar como as diferentes personalidades estão interagindo com relação à privacidade. [Leia mais](../../start/using/privacy.md#use-case-scenario)
 
-Foi adicionada uma nova seção que lista perguntas frequentes sobre privacidade. [Leia mais](../../start/using/privacy-faq.md)
+Adição de uma nova seção listando Perguntas frequentes sobre privacidade. [Leia mais](../../start/using/privacy-faq.md)
 
 A seção Privacidade foi alterada e enriquecida com duas novas páginas: [Gerenciamento de privacidade](../../start/using/privacy-management.md) e [Gerenciamento de solicitações de privacidade](../../start/using/privacy-requests.md).
 
-Foram adicionadas informações na seção Adobe Experience Platform Data Connector sobre o erro de validação de mapeamento de dados relacionado ao gerenciamento de privacidade e como solucioná-lo. [Leia mais](../../developing/using/aep-mapping-activation.md)
+Na seção Adobe Experience Platform Data Connector, foram adicionadas informações sobre o erro de validação de mapeamento de dados relacionado ao gerenciamento de privacidade e como solucioná-lo. [Leia mais](../../developing/using/aep-mapping-activation.md)
 
 ## Versão 20.4 - Outubro de 2020 {#release-20-4---october-2020}
 
