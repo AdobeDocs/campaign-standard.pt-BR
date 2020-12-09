@@ -5,9 +5,9 @@ product: campaign
 title: Documentação do produto Adobe Campaign Standard
 description: Pesquisar a documentação do produto Campaign Standard
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '216'
 ht-degree: 100%
 
@@ -80,4 +80,4 @@ Saiba mais sobre as diretrizes gerais para delivery para dispositivos móveis (S
 | [Guia de implementação](https://helpx.adobe.com/br/campaign/kb/campaign-standard-implementation-guide.html) | [Lista de mensagens de erro](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Planejamento de versão](rn/using/release-planning.md) | [Modelo de dados do Campaign](developing/using/datamodel-introduction.md) |
 | [Recursos obsoletos e removidos](rn/using/deprecated-features.md)) | [Guia multissoluções](integrating/using/get-started-campaign-integrations.md) |
-| [Introdução ao Campaign Standard](start/using/about-campaign-standard.md) | [Notas técnicas](https://helpx.adobe.com/br/campaign/kb/acs-article-list.html) |
+| [Introdução ao Campaign Standard](start/using/about-campaign-standard.md) | [Notas técnicas](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
