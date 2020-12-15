@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: 7b1d74760a3c33e4c1c74fe5b4512392b550379b
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 90%
+source-wordcount: '707'
+ht-degree: 85%
 
 ---
 
@@ -40,6 +40,18 @@ Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em 
 
 <table> 
  <thead> 
+ <tr> 
+   <th> <strong>Linha de Assunto Preditiva</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> A partir de 15 de dezembro de 2020, o recurso de Linha de assunto preditiva está obsoleto.</p><br/>
+   <p>Sugerimos que você aproveite os recursos de e-mail fornecidos por AI para analisar e prever taxas de abertura, tempos de envio ideais e probabilidade de taxa com base em métricas de envolvimento do histórico. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">Saiba mais</a></p></br>
+     <p>
+     <em>Remoção do público alvo: Abril de 2021</em></p>
+     </td> 
+  </tr> 
   <tr> 
    <th> <strong>Notificações por push com o SDK v4</strong><br /> </th> 
   </tr> 
@@ -65,7 +77,7 @@ Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em 
    <td> <p>A partir da versão 19.4 do Campaign, o uso da API e da interface do Campaign para solicitações de acesso e exclusão se tornará obsoleto. A exclusão do perfil de 2 etapas não estará disponível. Use o <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">serviço principal de privacidade da Adobe</a>.</p></br>
    <p>Consulte também o <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Gerenciamento de solicitações de acesso a dados pessoais</a>.</p>
   <p> 
-  <em>Data de remoção do público alvo: 2021</em></p>
+  <em>Data de remoção do Target: abril de 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
