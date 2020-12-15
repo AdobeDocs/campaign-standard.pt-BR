@@ -7,9 +7,9 @@ user-guide-description: 'Help Center para os principais recursos, tarefas, confi
 breadcrumb-title: Campaign Standard
 title: Guia do Campaign Standard
 translation-type: tm+mt
-source-git-commit: f4a42e6f6bfcc32f315f8a82f2b77b8169a56d95
+source-git-commit: 642b916369433d9a7a23d818e94f5e189a1c8596
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1696'
 ht-degree: 97%
 
 ---
@@ -162,7 +162,6 @@ ht-degree: 97%
       + [Pré-visualização de delivery](sending/using/previewing-messages.md)
       + [Envio de provas](sending/using/sending-proofs.md)
       + [Testar mensagens de email usando perfis direcionados](sending/using/testing-messages-using-target.md)
-      + [Teste da linha de assunto de um email](sending/using/testing-subject-line-email.md)
       + [Emails alimentados por IA](sending/using/predictive.md)
       + [Renderização de email](sending/using/email-rendering.md)
       + [Adicionar um grupo de controle](sending/using/control-group.md)
