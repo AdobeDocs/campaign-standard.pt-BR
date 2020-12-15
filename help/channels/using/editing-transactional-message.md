@@ -1,18 +1,17 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Mensagens transacionais de evento
-description: Saiba como criar e publicar uma mensagem transacional de evento.
-page-status-flag: never-activated
+title: Edição de um mensagen transacional
+description: Saiba como acessar, editar e personalizar um mensagen transacional.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 60%
+source-wordcount: '1489'
+ht-degree: 59%
 
 ---
 
