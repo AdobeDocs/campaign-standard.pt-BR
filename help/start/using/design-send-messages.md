@@ -7,9 +7,9 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '577'
 ht-degree: 5%
 
 ---
@@ -74,18 +74,18 @@ Obtenha a atenção de seus clientes e melhore sua taxa de resposta usando conte
 
 As mensagens personalizadas são fundamentais para enviar conteúdo relevante, oferta experiências personalizadas e aumentar as taxas de conversão e as experiências abertas. As mensagens entre canais entregues pela Adobe Campaign podem ser personalizadas de várias maneiras diferentes. Essas maneiras podem ser combinadas com critérios dependendo dos perfis. Você pode:
 
-* Inserir campos de personalização [](../../designing/using/personalization.md#inserting-a-personalization-field) dinâmicos em suas mensagens
-* Insert [predefined personalization blocks](../../designing/using/personalization.md#adding-a-content-block)
-* [Personalizar o remetente](../../designing/using/subject-line.md) de um email ou SMS
-* [Personalize a linha](../../designing/using/subject-line.md) de assunto de um email ou use os recursos de linha de assunto [](../../designing/using/subject-line.md#subject-line) preditivo para otimizá-lo
-* Criar conteúdo [condicional em um email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) ou [em uma landing page](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
-* Inserir texto [](../../channels/using/defining-dynamic-text.md) dinâmico em uma mensagem SMS ou uma notificação por push
+* Inserir [campos de personalização dinâmicos](../../designing/using/personalization.md#inserting-a-personalization-field) nas mensagens
+* Inserir [alocos de personalização predefinidos](../../designing/using/personalization.md#adding-a-content-block)
+* [Personalizar o ](../../designing/using/subject-line.md) remetente de um email ou SMS
+* [Personalizar a ](../../designing/using/subject-line.md) linha de assunto de um email
+* Criar [conteúdo condicional em um email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) ou [em uma landing page](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
+* Inserir [Texto dinâmico](../../channels/using/defining-dynamic-text.md) numa mensagem SMS ou numa notificação por push
 
 ![](assets/delivery_content_43.png)
 
 **Leia mais**
 
-* Descubra a personalização do email por meio de uma amostra [completa](../../designing/using/personalization.md#example-email-personalization)
+* Descubra a personalização do email por meio de uma [amostra completa](../../designing/using/personalization.md#example-email-personalization)
 * [Personalização de URLs](../../designing/using/personalization.md#personalizing-urls)
 * [Configurar a personalização de uma imagem](../../designing/using/personalization.md#personalizing-an-image-source)
 
