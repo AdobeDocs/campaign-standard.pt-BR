@@ -2,15 +2,15 @@
 solution: Campaign Standard
 product: campaign
 title: Notificações por push transacionais
-description: Saiba como criar e publicar um push transacional         notificação.
+description: Saiba como enviar notificações por push transacionais com a Adobe Campaign Standard.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1336'
 ht-degree: 4%
 
 ---
