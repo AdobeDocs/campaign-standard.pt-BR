@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 35%
+source-wordcount: '691'
+ht-degree: 38%
 
 ---
 
@@ -25,9 +25,9 @@ Para melhorar a taxa de entrega de e-mails e garantir que seus e-mails cheguem a
 * **Personalize seu email**: Personalizar o email aumenta as chances de sua mensagem ser aberta.
 * **Imagens e texto**: Respeite uma proporção decente de texto/imagem (por exemplo, 60% de texto e 40% de imagens).
 * **Unsubscription e landing page**: O link de unsubscription é essencial. Deve ser visível e válido e o formulário deve ser funcional.
-* **Use as ferramentas** oferecidas pela Adobe Campaign para otimizar o conteúdo de seu email (análise do delivery, análise antisspam).
+* **Use** ferramentas oferecidas pela Adobe Campaign para otimizar o conteúdo de seu email (análise do delivery, análise antisspam).
 
-Para obter informações adicionais sobre edição de conteúdo de email, consulte a visão geral [do](../../designing/using/designing-content-in-adobe-campaign.md) Email Designer e as práticas [recomendadas do design de](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)mensagem.
+Para obter informações adicionais sobre edição de conteúdo de email, consulte [Visão geral do Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) e [Práticas recomendadas de design de mensagens](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
 
 ## Nome e endereço do remetente {#sender-name}
 
@@ -35,21 +35,13 @@ Determinados ISPs verificam a validade do endereço do remetente (From) antes de
 
 ![](assets/delivery_content_edition16.png)
 
-Para obter mais informações, consulte [Personalizar o nome](../../designing/using/personalization.md#personalizing-the-sender)do remetente.
+Para obter mais informações, consulte [Personalizar o nome do remetente](../../designing/using/personalization.md#personalizing-the-sender).
 
-## Linha de assunto {#subject-line}
-
-Ao editar um email, você pode tentar diferentes linhas de assunto e obter uma estimativa de sua taxa de abertura antes de enviá-lo. Para obter mais informações, consulte [Testando a linha de assunto de um email](../../sending/using/testing-subject-line-email.md).
-
-![](assets/predictive_subject_line_example.png)
-
-Para obter mais informações sobre como definir a linha de assunto de um email, consulte [esta seção](../../designing/using/subject-line.md).
-
-## Send time optimization {#send-time-optimization}
+## Enviar otimização de tempo {#send-time-optimization}
 
 Para melhorar a taxa de sucesso de suas mensagens, é possível definir manualmente um tempo de envio por recipient. Cada perfil receberá a mensagem na data e hora especificadas, sempre que possível.
 
-Para obter mais informações, consulte [Otimizar o tempo](../../sending/using/optimizing-the-sending-time.md)de envio.
+Para obter mais informações, consulte [Otimizando o tempo de envio](../../sending/using/optimizing-the-sending-time.md).
 
 ## Link e formulário de opt-out {#opt-out}
 
@@ -63,9 +55,9 @@ Como regra geral, não tente impedir os recipients que desejam fazer o opt-out e
 
 ## Análise antisspam {#anti-spam-analysis}
 
-O editor de mensagens da Adobe Campaign integra uma análise **** antisspam que permite que você classifique emails para determinar se uma mensagem corre o risco de ser considerada spam pelas ferramentas antisspam usadas no recebimento. For more on this, see [Previewing messages](../../sending/using/previewing-messages.md).
+O editor de mensagens da Adobe Campaign integra uma **análise antisspam** que permite pontuar emails para determinar se uma mensagem corre o risco de ser considerada spam pelas ferramentas antisspam usadas após o recebimento. Para obter mais informações, consulte [Visualizar mensagens](../../sending/using/previewing-messages.md).
 
-No editor de conteúdo da mensagem, clique em **[!UICONTROL Preview]**. Uma mensagem avisa se a verificação antisspam detectou um alto risco para essa mensagem. Clique **[!UICONTROL Anti-spam analysis]** para obter detalhes sobre a visualização.
+No editor de conteúdo da mensagem, clique em **[!UICONTROL Preview]**. Uma mensagem avisa se a verificação antisspam detectou um alto risco para essa mensagem. Clique em **[!UICONTROL Anti-spam analysis]** para obter detalhes sobre a visualização.
 
 ![](assets/sending_anti-spam_analysis.png)
 
