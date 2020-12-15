@@ -1,16 +1,16 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Principais etapas para configurar um mensagen transacional
+title: Introdução a mensagens transacionais
 description: Descubra o que é mensagem transacional e aprenda as etapas principais para configurar um mensagen transacional no Adobe Campaign Standard.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: c276c468627208b584a0342414cdbe382e349f50
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '963'
 ht-degree: 9%
 
 ---
