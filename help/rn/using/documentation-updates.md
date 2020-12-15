@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
+source-git-commit: 3d271b7125a382f7864857df4541a6be28894992
 workflow-type: tm+mt
-source-wordcount: '6359'
+source-wordcount: '6357'
 ht-degree: 97%
 
 ---
@@ -21,11 +21,13 @@ Além das [Notas de versão](../../rn/using/release-notes.md) do Adobe Campaign,
 
 ## Dezembro de 2020 {#doc-updates-december-2020}
 
+A seção de mensagens transacionais foi reorganizada e melhorada, com uma seção de introdução esclarecida que inclui [schemas melhorados](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) e um [caso de utilização completo](../../channels/using/transactional-messaging-use-case.md) para ilustrar o processo completo. [Leia mais](../../channels/using/getting-started-with-transactional-msg.md)
+
 A seção Privacidade foi movida. [Leia mais](../../start/using/privacy.md)
 
-A seção Mensagens transacionais foi reorganizada e aprimorada, com uma seção de introdução esclarecida que inclui [gráficos aprimorados](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) e um [caso de uso completo](../../channels/using/transactional-messaging-use-case.md) para ilustrar o processo completo. [Leia mais](../../channels/using/getting-started-with-transactional-msg.md)
-
 Uma nova página sobre acessibilidade foi adicionada para saber mais sobre o suporte de acessibilidade na área de trabalho do Adobe Campaign Standard. [Leia mais](../../start/using/accessibility.md)
+
+Uma nova limitação foi adicionada à seção Mensagens transacionais, declarando que para obter o desempenho ideal, o número de mensagens transacionais publicados deve permanecer abaixo de 100. [Leia mais](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
 
 ## Novembro de 2020 {#doc-updates-november-2020}
 
@@ -176,8 +178,6 @@ Foi adicionada uma limitação com MCPNS ao configurar um aplicativo para dispos
 Uma nova seção de diretrizes de configuração foi adicionada ao Guia de administração. A seção sobre navegadores e sistemas operacionais compatíveis que estava no guia de Introdução foi movida para esta seção. A nota técnica sobre os pontos de extremidade de rede do Campaign Standard também foi adicionada a esta seção. [Leia mais](../../administration/using/about-configuration-guidelines.md)
 
 Uma nova seção que descreve como excluir uma configuração de evento está agora disponível. [Leia mais](../../channels/using/publishing-transactional-event.md#deleting-an-event)
-
-A página que descreve como testar a linha de assunto de um email para prever sua taxa de abertura foi atualizada e aprimorada. Inclui também uma nova seção de [solução de problemas](../../sending/using/testing-subject-line-email.md#troubleshooting). [Leia mais](../../sending/using/testing-subject-line-email.md)
 
 As seções de mensagens transacionais foram atualizadas para refletir as pequenas atualizações e aprimoramentos da interface de vários usuários. [Leia mais](../../channels/using/getting-started-with-transactional-msg.md)
 
