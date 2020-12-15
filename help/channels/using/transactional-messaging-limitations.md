@@ -2,16 +2,16 @@
 solution: Campaign Standard
 product: campaign
 title: Limitações de mensagens transacionais
-description: Saiba mais sobre as principais limitações e recomendações relacionadas aos mensagens transacionais no Adobe Campaign Standard.
+description: Saiba mais sobre as principais recomendações e limitações relacionadas aos mensagens transacionais no Adobe Campaign Standard.
 audience: channels
 content-type: reference
-topic-tags: landing-pages
-context-tags: landingPage,wizard;landingPage,overview;landingPage,main
+topic-tags: transactional-messaging
+context-tags: null
 translation-type: tm+mt
-source-git-commit: c276c468627208b584a0342414cdbe382e349f50
+source-git-commit: 0092ad11314fab232663f558ca6635b8fcc03133
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 77%
+source-wordcount: '742'
+ht-degree: 67%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 77%
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-A seção abaixo lista as práticas recomendadas e limitações que você deve conhecer antes de começar a criar mensagens transacionais.
+Esta seção lista as práticas recomendadas e limitações que você deve conhecer antes de começar a criar mensagens transacionais.
 
 <!--For more on transactional messages, including on how to configure and create them, see [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).-->
 
@@ -38,6 +38,12 @@ Como você está configurando e publicando eventos transacionais, algumas das et
 * Você não poderá alterar o targeting dimension (**[!UICONTROL Real-time event]** ou **[!UICONTROL Profile]**) após a criação do evento. Consulte [Criação de um evento](../../channels/using/configuring-transactional-event.md#creating-an-event).
 * Não é possível reverter uma publicação, mas você pode desfazer a publicação de um evento. Essa operação torna inacessíveis o evento e a mensagem transacional associada. Consulte [Desfazer a publicação de um evento](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 * A única mensagem transacional que pode ser associada a um evento é a criada automaticamente após a publicação do evento. Consulte [Pré-visualização e publicação do evento](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+
+## Número de mensagens transacionais {#transactional-message-number}
+
+O número de mensagens transacionais publicados pode ter um impacto significativo na sua plataforma. Para obter o desempenho ideal, o número de mensagens transacionais publicados deve permanecer abaixo de 100. Para garantir isso, cancele a publicação ou exclua quaisquer mensagens transacionais não utilizados. Consulte [Cancelar a publicação de um mensagen transacional](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) e [Excluindo um mensagen transacional](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
+
+Para garantir o melhor desempenho, você também pode cancelar a publicação ou excluir eventos não utilizados. Na verdade, cancelar a publicação ou excluir um evento também cancelará a publicação ou excluirá os mensagens transacionais correspondentes e seu envio e logs de rastreamento, se houver. Consulte [Cancelar a publicação de um evento](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) e [Excluindo um evento](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
 ## Personalização {#personalization}
 
