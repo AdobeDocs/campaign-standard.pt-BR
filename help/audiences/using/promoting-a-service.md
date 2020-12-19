@@ -23,10 +23,10 @@ Você pode usar a Campanha para promover um serviço:
 
 * [Inserir uma subscrição de serviço ou um link de unsubscription em um email](../../designing/using/links.md#inserting-a-link).
 
-* [Inserir um link para uma landing page ou subscrição em um email](../../designing/using/links.md). Nesse caso, o serviço deve ser referenciado diretamente nas propriedades das landings page relacionadas (consulte [Vinculação de uma landing page a um serviço](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)).
+* [Inserir um link para uma landing page ou subscrição em um email](../../designing/using/links.md). Nesse caso, o serviço deve ser referenciado diretamente nas propriedades das landings page relacionadas (consulte [Vinculando uma landing page a um serviço](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)).
 
    >[!NOTE]
    >
-   >É igualmente importante dar aos assinantes a possibilidade de cancelarem a sua inscrição. Para fazer isso, insira um link <b>de</b> Unsubscription de serviço no e-mail de confirmação (definido nas propriedades do serviço) enviado automaticamente para os novos assinantes, bem como em emails futuros de newsletters.
+   >É igualmente importante dar aos assinantes a possibilidade de cancelarem a sua inscrição. Para fazer isso, insira um serviço <b>link de Unsubscription</b> no e-mail de confirmação (definido nas propriedades do serviço) enviado automaticamente para os novos assinantes, bem como em emails futuros de newsletters.
 
 * Tornar uma subscrição ou landing page disponível em um site. Os URLs que fornecem acesso à landing page devem especificar parâmetros como o serviço associado, bem como a ID do perfil acessando-o. Essa ID pode ser definida nos parâmetros de landing page (consulte [Configuração de uma landing page](../../channels/using/configuring-landing-page.md)).
