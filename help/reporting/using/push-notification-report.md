@@ -19,9 +19,9 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Observe que é necessário arrastar e soltar as **[!UICONTROL Message type]** métricas em suas tabelas para dividir seus dados dependendo dos tipos de delivery, nesse caso, delivery de notificação por push.
+>Observe que é necessário arrastar e soltar as métricas **[!UICONTROL Message type]** em suas tabelas para dividir seus dados dependendo dos tipos de delivery, nesse caso, delivery de notificação por push.
 
-O relatório de notificação **por** push fornece detalhes do desempenho de marketing das notificações por push no Adobe Campaign. Esse relatório pronto para uso ajudará você a entender como os usuários interagem com notificações por push, aplicativos móveis e delivery.
+O relatório **Notificação por push** fornece detalhes do desempenho de marketing das notificações por push no Adobe Campaign. Esse relatório pronto para uso ajudará você a entender como os usuários interagem com notificações por push, aplicativos móveis e delivery.
 
 Algumas configurações são necessárias no aplicativo móvel para implementar o rastreamento de push. Consulte esta [página](../../administration/using/push-tracking.md) para obter as etapas detalhadas.
 
@@ -29,7 +29,7 @@ Algumas configurações são necessárias no aplicativo móvel para implementar 
 
 Cada tabela é representada por números de resumo e gráficos. Você pode alterar a forma como os detalhes são exibidos em suas respectivas configurações de visualização.
 
-A primeira tabela Resumo **do envolvimento da notificação por** push é dividida em três categorias: por dia, por aplicativo móvel e por delivery. Ele contém os dados disponíveis para a reatividade do recipient ao delivery:
+A primeira tabela **Resumo do envolvimento da notificação por push** é dividida em três categorias: por dia, por aplicativo móvel e por delivery. Ele contém os dados disponíveis para a reatividade do recipient ao delivery:
 
 * **[!UICONTROL Processed/sent]**: Número total de notificações por push enviadas.
 * **[!UICONTROL Delivered]**: Número de notificações por push enviadas com êxito, em relação ao número total de notificações por push enviadas.
@@ -40,7 +40,7 @@ A primeira tabela Resumo **do envolvimento da notificação por** push é dividi
 
 ![](assets/dynamic_report_push_2.png)
 
-A segunda tabela **Notificações por push Cliques e abertos** é dividida em três categorias: por dia, por aplicativo móvel e por delivery. Ele contém os dados disponíveis para o comportamento do recipient por delivery:
+A segunda tabela **Cliques e aberturas da notificação por push** é dividida em três categorias: por dia, por aplicativo móvel e por delivery. Ele contém os dados disponíveis para o comportamento do recipient por delivery:
 
 * **[!UICONTROL Impressions]**: Total de notificações por push vistas por recipient.
 * **[!UICONTROL Unique impressions]**: Número de impressões por recipient.
