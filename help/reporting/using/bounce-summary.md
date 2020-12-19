@@ -24,9 +24,9 @@ Esse relatório detalha os erros gerais de hardware e software encontrados duran
 
 Cada tabela é representada por números de resumo e gráficos. Você pode alterar a forma como os detalhes são exibidos em suas respectivas configurações de visualização.
 
-**A repartição** Flop 5 lista os cinco delivery com o maior número de quarentenas:
+**A** repartição da Flop 5 lista os cinco delivery com o maior número de quarentenas:
 
-A tabela de motivos **de** rejeição contém os dados disponíveis para os tipos de erros que causaram saltos para cada delivery:
+A tabela **Motivos de rejeição** contém os dados disponíveis para os tipos de erros que causaram saltos para cada delivery:
 
 * **[!UICONTROL User unknown]**: O tipo de erro gerado quando um delivery é enviado para um endereço de email inválido.
 * **[!UICONTROL Invalid domain]**: O tipo de erro gerado quando um delivery é enviado para um endereço de email cujo domínio está errado ou não existe mais.
@@ -41,4 +41,4 @@ A tabela de motivos **de** rejeição contém os dados disponíveis para os tipo
 
 * **[!UICONTROL Refused]**: O tipo de erro gerado quando um endereço é recusado pelo ISP (Internet provedor de serviço). Por exemplo, quando uma regra de segurança é aplicada por software antisspam.
 
-A tabela de repartição **de** domínio exibe os problemas gerais encontrados durante os delivery de acordo com o domínio do recipient.
+A tabela **Repartição de domínio** exibe os problemas gerais encontrados durante os delivery de acordo com o domínio do recipient.
