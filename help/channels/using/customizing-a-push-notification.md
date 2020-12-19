@@ -111,7 +111,7 @@ Definir uma data de expiração para sua notificação por push permite definir 
 
 Para adicionar uma data de expiração à sua notificação por push:
 
-1. Check the **[!UICONTROL Expire message]** option: by selecting the **[!UICONTROL Expire message]** option, the duration is automatically set to 0. Se você não alterar o valor, tanto o APNS quanto o FCM tentarão enviar a mensagem imediatamente. Se falhar, a mensagem não será reenviada.
+1. Verifique a opção **[!UICONTROL Expire message]**: ao selecionar a opção **[!UICONTROL Expire message]**, a duração é automaticamente definida como 0. Se você não alterar o valor, tanto o APNS quanto o FCM tentarão enviar a mensagem imediatamente. Se falhar, a mensagem não será reenviada.
 
 1. No campo **[!UICONTROL Duration]**, selecione a validade da sua notificação por push.
 
