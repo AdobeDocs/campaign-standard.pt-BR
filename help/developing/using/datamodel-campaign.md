@@ -33,7 +33,7 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>atividades</td>
-                  <td>Activities</td>
+                  <td>Atividades</td>
                   <td>coleção </td>
                   <td> </td>
                </tr>
