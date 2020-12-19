@@ -22,7 +22,7 @@ O exemplo a seguir demonstra um fluxo de trabalho que cria um público-alvo de p
 
 ![](assets/identification_example2.png)
 
-* A [Load file](../../automating/using/load-file.md) activity, which loads and detects tshe data of the file to import. O arquivo importado contém os seguintes dados:
+* Uma atividade [Carregar arquivo](../../automating/using/load-file.md), que carrega e detecta os dados do arquivo a ser importado. O arquivo importado contém os seguintes dados:
 
    ```
    lastname;firstname;email;dateofbirth
@@ -37,10 +37,10 @@ O exemplo a seguir demonstra um fluxo de trabalho que cria um público-alvo de p
    tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
    ```
 
-* A [Reconciliation](../../automating/using/reconciliation.md) activity, which links each column of the loaded file to a profile dimension column. Os registros de arquivo que não podem ser identificados (dados ausentes, tipos de dados incompatíveis etc.) são ignorados para preservar a integridade dos dados finais do público-alvo.
+* Uma atividade [Reconciliação](../../automating/using/reconciliation.md), que vincula cada coluna do arquivo carregado a uma coluna de dimensão de perfil. Os registros de arquivo que não podem ser identificados (dados ausentes, tipos de dados incompatíveis etc.) são ignorados para preservar a integridade dos dados finais do público-alvo.
 
    ![](assets/identification_example1.png)
 
-* A [Save audience](../../automating/using/save-audience.md) activity, which saves the audience of profiles.
+* Uma atividade [Salve a audiência](../../automating/using/save-audience.md), que salva a audiência dos perfis.
 
    ![](assets/identification_example3.png)
