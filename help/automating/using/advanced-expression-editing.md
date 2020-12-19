@@ -106,8 +106,7 @@ As expressões JavaScript são constituídas por uma ou várias condições e us
    * **&lt;value2>** é um campo, uma função ou um valor inserido manualmente.
 
    >[!NOTE]
-   >
-   >Os dados dos tipos **&lt;context>** e **&lt;value2>** devem ser idênticos. Por exemplo, se **&lt;context>** for uma data, **&lt;value2>** também deverá ser uma data.
+   Os dados dos tipos **&lt;context>** e **&lt;value2>** devem ser idênticos. Por exemplo, se **&lt;context>** for uma data, **&lt;value2>** também deverá ser uma data.
 
 * Se quiser usar várias condições, elas poderão ser combinadas usando operadores lógicos.
 
@@ -156,7 +155,7 @@ As condições devem ser vinculadas a valores usando um dos operadores a seguir.
   <tr> 
    <td> <span class="uicontrol">Less than</span> <br /> </td> 
    <td> &lt;<br /> </td> 
-   <td> &lt;<br /> </td> 
+   <td> &lt;&gt;<br /> </td> 
    <td> O primeiro valor deve ser categoricamente menor que o segundo.<br /> </td> 
    <td> <strong>@created &lt; DaysAgo(100)</strong> recupera todos os perfis criados no banco de dados há menos de 100 dias.<br /> </td> 
   </tr> 
@@ -170,7 +169,7 @@ As condições devem ser vinculadas a valores usando um dos operadores a seguir.
   <tr> 
    <td> <span class="uicontrol">Less than or equal to</span> <br /> </td> 
    <td> &lt;=<br /> </td> 
-   <td> &lt;=<br /> </td> 
+   <td> &lt;&gt;<br /> </td> 
    <td> O primeiro valor deve ser menor que ou igual ao segundo.<br /> </td> 
    <td> <strong>@age &lt;= 60</strong> recupera perfis com 60 anos ou menos.<br /> </td> 
   </tr> 
