@@ -108,7 +108,7 @@ Para mais informações, consulte [Atividade de Scheduler](../../automating/usin
 
 ## Chamada de fluxo de trabalho com parâmetros{#workflow-with-parameters}
 
-Certifique-se de que o nome e o número de parâmetros sejam idênticos ao que é definido ao chamar o fluxo de trabalho (consulte [esta página](../../automating/using/defining-parameters-calling-workflow.md). Os tipos de parâmetros também devem ser consistentes com os valores esperados.
+Certifique-se de que o nome e o número de parâmetros sejam idênticos ao definido ao chamar o fluxo de trabalho (consulte [esta página](../../automating/using/defining-parameters-calling-workflow.md). Os tipos de parâmetros também devem ser consistentes com os valores esperados.
 
 Verifique se todos os parâmetros foram declarados no **[!UICONTROL External signal activity]**. Caso contrário, ocorrerá um erro ao executar a atividade.
 
