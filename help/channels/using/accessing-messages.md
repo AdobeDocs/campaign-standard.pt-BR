@@ -30,17 +30,17 @@ As mensagens podem ser acessadas:
 
 Para acessar a lista de uma atividade de marketing da campanha:
 
-1. Vá para **[!UICONTROL Marketing activities]** a partir da barra de navegação superior.
+1. Vá para **[!UICONTROL Marketing activities]** na barra de navegação superior.
 1. Selecione **[!UICONTROL Marketing activities > Marketing plans > Programs & Campaigns]**.
 
-   Você também pode clicar diretamente no **[!UICONTROL Programs & Campaigns]** cartão do home page. Para obter mais informações sobre o campanha, consulte a seção [Programas e campanhas](../../start/using/programs-and-campaigns.md) .
+   Você também pode clicar diretamente no cartão **[!UICONTROL Programs & Campaigns]** do home page. Para obter mais informações sobre o campanha, consulte a seção [Programas e campanha](../../start/using/programs-and-campaigns.md).
 
 1. Selecione um programa e depois uma campanha.
 
    ![](assets/delivery_list_1.png)
 
-1. Click the **[!UICONTROL Summary]** drop-down list.
-1. Clique **[!UICONTROL Search]** para filtrar a forma como as mensagens são exibidas (por nome, data ou status).
+1. Clique na lista suspensa **[!UICONTROL Summary]**.
+1. Clique em **[!UICONTROL Search]** para filtrar a forma como as mensagens são exibidas (por nome, data ou status).
 
    Para filtrar mensagens recorrentes, você pode marcar a caixa correspondente.
 
@@ -50,9 +50,9 @@ Para acessar a lista completa de atividades de marketing de todas as campanhas c
 
 1. Selecione **[!UICONTROL Marketing activities]** na barra de navegação superior.
 
-   Você também pode acessá-lo a partir do **[!UICONTROL Marketing activities]** cartão no home page. Para obter mais informações sobre a lista das atividades de marketing, consulte a seção [Gerenciar atividades](../../start/using/marketing-activities.md#creating-a-marketing-activity) de marketing.
+   Você também pode acessá-lo da placa **[!UICONTROL Marketing activities]** no home page. Para obter mais informações sobre a lista de atividades de marketing, consulte a seção [Gerenciar atividades de marketing](../../start/using/marketing-activities.md#creating-a-marketing-activity).
 
-1. Para filtrar as atividades de marketing (por nome, data, status ou tipo de atividade), use os **[!UICONTROL Search]** campos à esquerda da lista das atividades de marketing.
+1. Para filtrar as atividades de marketing (por nome, data, status ou tipo de atividade), use os campos **[!UICONTROL Search]** à esquerda da lista das atividades de marketing.
 
 ![](assets/delivery_list_2.png)
 
