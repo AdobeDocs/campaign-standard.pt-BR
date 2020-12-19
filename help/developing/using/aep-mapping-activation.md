@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >O Adobe Experience Platform Data Connector está atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam estar hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente do Adobe se desejar acessá-lo.
 
-Quando a definição de mapeamento for concluída, você poderá publicar o mapeamento. Após a etapa de implantação, a replicação de dados entre o Campaign Standard e o Adobe Experience Platform é iniciada automaticamente. A qualquer momento, você pode interromper a replicação clicando no **[!UICONTROL Stop]** botão.
+Quando a definição de mapeamento for concluída, você poderá publicar o mapeamento. Após a etapa de implantação, a replicação de dados entre o Campaign Standard e o Adobe Experience Platform é iniciada automaticamente. A qualquer momento, você pode interromper a replicação clicando no botão **[!UICONTROL Stop]**.
 
 Dependendo das modificações de mapeamento, você pode optar por reenviar todos os registros para a Adobe Experience Platform.
 
@@ -31,11 +31,11 @@ No bloco de implantação, você pode acessar o log de publicação e os logs de
 
 ![](assets/aep_publog.png)
 
-Na **[!UICONTROL Export jobs]** guia, é possível monitorar a tarefa de exportação para o mapeamento publicado.
+Na guia **[!UICONTROL Export jobs]**, é possível monitorar o trabalho de exportação para o mapeamento publicado.
 
 ![](assets/aep_jobstatus.png)
 
-Se você quiser monitorar todas as tarefas de exportação de dados, vá para **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** menu.
+Se desejar monitorar todos os trabalhos de exportação de dados, vá para o menu **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]**.
 
 ![](assets/aep_statusmapping.png)
 
