@@ -17,18 +17,18 @@ ht-degree: 4%
 
 # Gerenciamento de auto-exclusão do CCPA {#managing-ccpa-optout}
 
-Um status de recusa CCPA do perfil pode ser monitorado e gerenciado usando o atributo do perfil **cpaOptOut** e os valores &quot;true&quot; ou &quot;false&quot;:
+Um status de recusa CCPA do perfil pode ser monitorado e gerenciado usando o atributo do perfil **ccpaOptOut** e os valores &quot;true&quot; ou &quot;false&quot;:
 
 `"ccpaOptOut": <value>`
 
-* **true**:  proíbe a venda de informações pessoais.
+* **true**: proíbe a venda de informações pessoais.
 * **false**: autoriza a venda de informações pessoais.
 
 >[!CAUTION]
 >
 >O atributo &quot;CCPA Opt-Out&quot; só está disponível a partir de 19.4. Para ambientes 19.3, é necessário estender o recurso Perfis e adicionar um campo booleano. Esse campo será adicionado à API com o rótulo escolhido. Sugerimos que você use &quot;Recusar para CCPA&quot;.
 >
->Para obter mais informações, consulte a documentação [Solicitações de](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)gerenciamento de privacidade.
+>Para obter mais informações, consulte a [documentação de solicitações de gerenciamento de privacidade](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 <br/>
 
