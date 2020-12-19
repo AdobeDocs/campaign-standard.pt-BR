@@ -21,7 +21,7 @@ Saiba como configurar a integração do Microsoft Dynamics 365 e ativar seus dad
 
 ## Visão geral
 
-Adobe Campaign Standard - A integração do Microsoft Dynamics 365 está descrita [nesta página](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
+Adobe Campaign Standard - a integração do Microsoft Dynamics 365 está descrita em [esta página](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
 Três sistemas que precisam ser provisionados para essa integração:
 
@@ -41,7 +41,7 @@ Este artigo destaca as etapas, no lado do Microsoft Dynamics 365, necessárias d
 
 Antes de executar a configuração de pré-integração neste documento, presume-se que você já provisionou e tem acesso de administrador à instância do Microsoft Dynamics 365 da sua organização.  Se isso não tiver acontecido, você precisará entrar em contato com o suporte ao cliente da Microsoft para concluir o provisionamento do Dynamics 365.
 
-Se você estiver configurando a integração para ambientes de armazenamento temporário e de produção, será necessário executar as etapas abaixo para as instâncias do Dynamics 365 de armazenamento temporário e produção. Algumas instruções a seguir variam um pouco, dependendo da configuração de uma instância do Stage ou do Production Dynamics 365 (por exemplo, por exemplo, selecione &quot;prod&quot; para `<stage or prod>`)
+Se você estiver configurando a integração para ambientes de armazenamento temporário e de produção, será necessário executar as etapas abaixo para as instâncias do Dynamics 365 de armazenamento temporário e produção. Algumas instruções abaixo variam um pouco, dependendo da configuração de uma instância do Stage ou do Production Dynamics 365 (por exemplo, por exemplo, para a instância de produção, selecione &quot;prod&quot; para `<stage or prod>`)
 
 ## Configuração de aplicativos e permissões
 
@@ -57,9 +57,9 @@ Para gerar o token de acesso OAuth, siga as etapas descritas abaixo.
 
 1. Em seu logon de administrador, faça logon no portal.azure.com.
 
-1. Clique em **[!UICONTROL Azure Active Directory]** no menu esquerdo; em seguida, clique **[!UICONTROL App registrations]** no submenu exibido.
+1. Clique em **[!UICONTROL Azure Active Directory]** no menu lateral esquerdo; em seguida, clique em **[!UICONTROL App registrations]** no submenu exibido.
 
-1. Clique **[!UICONTROL New registration]** na parte superior da tela.
+1. Clique em **[!UICONTROL New registration]** na parte superior da tela.
 
    ![](assets/do-not-localize/MSdynACSIntegration-7.png)
 
@@ -68,7 +68,7 @@ Para gerar o token de acesso OAuth, siga as etapas descritas abaixo.
    * Nome: adobe campanha `<stage or prod>`
    * Tipo de conta suportado: **[!UICONTROL Accounts in this organizational directory only]** (valor padrão)
 
-For more information about creating a new application, refer to [this section](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app).
+Para obter mais informações sobre como criar um novo aplicativo, consulte [esta seção](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app).
 
 >[!NOTE]
 >
@@ -91,11 +91,11 @@ Seu segredo de cliente agora é criado. Mantenha o valor temporariamente para a 
 
 ### Permissões de configuração
 
-1. Nessa tela ou na tela de visão geral do aplicativo, clique em **[!UICONTROL API permissions]** no submenu à esquerda.  Depois de clicar **[!UICONTROL Add a permission]**, é necessário selecionar **[!UICONTROL Dynamics CRM]** no menu.
+1. Nessa tela ou na tela de visão geral do aplicativo, clique em **[!UICONTROL API permissions]** no submenu à esquerda.  Depois de clicar em **[!UICONTROL Add a permission]**, é necessário selecionar **[!UICONTROL Dynamics CRM]** no menu.
 
    ![](assets/do-not-localize/MSdynACSIntegration-9.png)
 
-1. Em seguida, marque a caixa para **[!UICONTROL user_impersonation]** e clique no **[!UICONTROL Add permissions]** botão.
+1. Em seguida, marque a caixa para **[!UICONTROL user_impersonation]** e clique no botão **[!UICONTROL Add permissions]**.
 
    ![](assets/do-not-localize/MSdynACSIntegration-10.png)
 
@@ -107,19 +107,19 @@ Este novo usuário é um usuário genérico. Será utilizado pelo aplicativo: qu
 
 1. Navegue até sua instância do Dynamics 365 e faça logon como Administrador.
 
-1. Clique no ícone de engrenagem no canto superior direito e clique em **[!UICONTROL Advanced Settings]**. No banner superior, clique na lista suspensa ao lado de **[!UICONTROL Settings]**, clique em **[!UICONTROL Security > Users]**.
+1. Clique no ícone de engrenagem no canto superior direito e clique em **[!UICONTROL Advanced Settings]**. No banner superior, clique na lista suspensa ao lado de **[!UICONTROL Settings]** e clique em **[!UICONTROL Security > Users]**.
 
-1. Clique no menu suspenso para ir para **[!UICONTROL Application Users]**. Clique em **[!UICONTROL New]**.
+1. Clique no menu suspenso para ir até **[!UICONTROL Application Users]**. Clique em **[!UICONTROL New]**.
 
-1. Certifique-se de que a lista suspensa ao lado do ícone do usuário esteja exibida **[!UICONTROL USER:APPLICATION USER]**.
+1. Certifique-se de que a lista suspensa ao lado do ícone do usuário diga **[!UICONTROL USER:APPLICATION USER]**.
 
    Preencha a tela do novo usuário.  Sugestões de parâmetros:
 
    * **[!UICONTROL User Name]** (email): adobe_api_`<stage-or-prod>`@`<your-d365-hostname>`&quot; (por exemplo, adobe_api_stage@some-company.crm.dynamics.com)
    * **[!UICONTROL Application ID]**: ID do aplicativo que você registrou no Azure AD (isso é obrigatório)
    * Você pode deixar em branco **[!UICONTROL Application ID URI]** e **[!UICONTROL Azure AD Object ID]**
-   * **[!UICONTROL Full Name]**: API Adobe `<stage or prod>`
-   * **[!UICONTROL Email]**: igual a **[!UICONTROL User Name]** (ou ao email do administrador, se desejar)
+   * **[!UICONTROL Full Name]**: API Adobe  `<stage or prod>`
+   * **[!UICONTROL Email]**: igual ao  **[!UICONTROL User Name]** (ou ao email do administrador, se desejar)
 
    Para obter mais informações sobre a criação de usuários do aplicativo, consulte [esta seção](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
 
@@ -127,7 +127,7 @@ Este novo usuário é um usuário genérico. Será utilizado pelo aplicativo: qu
 
 <!-- ***getfile*** adobe campaign logo-->
 
-1. Abra a lista de funções do usuário clicando **[!UICONTROL MANAGE ROLES]** na faixa superior.
+1. Abra a lista de funções de usuário clicando em **[!UICONTROL MANAGE ROLES]** na faixa superior.
 
 1. Role para baixo e selecione **[!UICONTROL System administrator]** acesso para este usuário.
 
@@ -135,7 +135,7 @@ Este novo usuário é um usuário genérico. Será utilizado pelo aplicativo: qu
 
 ### Obter a ID do locatário
 
-Siga as instruções [nesta página](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id) para localizar sua ID de locatário.  Você precisará dessa ID durante a configuração da pré-integração na ferramenta de integração.
+Siga as instruções [nesta página](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id) para localizar a ID do locatário.  Você precisará dessa ID durante a configuração da pré-integração na ferramenta de integração.
 
 ## Instale o Campaign Standard para o Microsoft Dynamics 365
 
@@ -145,15 +145,15 @@ Para integrar o aplicativo Dynamics 365 ao seu ambiente Campaign Standard, siga 
 Como alternativa, você pode navegar até esse [link](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview).
 1. Siga as instruções para instalar o aplicativo para sua instância do Dynamics 365.
 1. Depois de instalado, navegue até a instância do Dynamics 365 e faça logon como administrador.
-1. Clique no ícone de engrenagem no canto superior direito e clique em **[!UICONTROL Advanced Settings]**. No banner superior, clique na lista suspensa ao lado de **[!UICONTROL Settings]**, clique em **[!UICONTROL Processes]** embaixo **[!UICONTROL Process Center]**.
-1. Procure por **[!UICONTROL Adobe Campaign Email Bounce]** tarefa e clique nela.
-1. Na **[!UICONTROL Administration]** guia, altere o proprietário para o usuário do aplicativo da API de Adobe criado anteriormente clicando **[!UICONTROL Actions]** na faixa superior e selecione **[!UICONTROL Assign to another User]** a opção, selecione **[!UICONTROL Adobe API application user]** na lista suspensa a ser atribuída.
+1. Clique no ícone de engrenagem no canto superior direito e clique em **[!UICONTROL Advanced Settings]**. No banner superior, clique na lista suspensa ao lado de **[!UICONTROL Settings]**, clique em **[!UICONTROL Processes]** em **[!UICONTROL Process Center]**.
+1. Procure **[!UICONTROL Adobe Campaign Email Bounce]** tarefa e clique nela.
+1. Na guia **[!UICONTROL Administration]**, altere o proprietário para o usuário do aplicativo da API de Adobe criado anteriormente clicando em **[!UICONTROL Actions]** na faixa superior e selecione **[!UICONTROL Assign to another User]** opção, selecione **[!UICONTROL Adobe API application user]** na lista suspensa para atribuir.
 1. Reative o processo.
-1. Faça o mesmo pela **[!UICONTROL Adobe Campaign Email Click]** tarefa.
+1. Faça o mesmo para a tarefa **[!UICONTROL Adobe Campaign Email Click]**.
 
 >[!NOTE]
 >
->Se, a qualquer momento, você desejar desativar esses processos, poderá fazê-lo nesta **[!UICONTROL Processes]** tela.
+>Se, a qualquer momento, você desejar desativar esses processos, poderá fazê-lo na tela **[!UICONTROL Processes]**.
 
 **Tópicos relacionados**
 
