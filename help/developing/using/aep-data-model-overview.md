@@ -31,7 +31,7 @@ O XDM Workspace oferece a capacidade de visualização, criação e extensão de
 
 Para acessar a interface do usuário XDM, abra o Adobe Experience Platform. Navegue até a janela Modelo de Dados para criar ou estender um schema XDM.
 
-Consulte a documentação [completa do](https://docs.adobe.com/content/help/pt-BR/experience-platform/xdm/api/getting-started.html)XDM Workspace.
+Consulte a documentação completa do [XDM Workspace](https://docs.adobe.com/content/help/pt-BR/experience-platform/xdm/api/getting-started.html).
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -46,4 +46,4 @@ Consulte a documentação [completa do](https://docs.adobe.com/content/help/pt-B
 * Descritores do schema da visualização
 * Criar, atualizar e excluir descritores de schema
 
-Todos os detalhes para manipular chamadas de API estão disponíveis no Guia [do](https://docs.adobe.com/content/help/pt-BR/experience-platform/xdm/api/getting-started.html)desenvolvedor.
+Todos os detalhes para manipular chamadas de API estão disponíveis no [Guia do desenvolvedor](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html).
