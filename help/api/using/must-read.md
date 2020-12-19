@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Must-Read {#must-read}
+# Leitura obrigatória {#must-read}
 
 ## Requisitos técnicos
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## Representação de recursos
 
-Todos os recursos da API estão disponíveis no **JSON** com uma extensão de URL ou dentro de um cabeçalho HTTP Accept:
+Todos os recursos da API estão disponíveis em **JSON** com uma extensão de URL ou dentro de um cabeçalho HTTP Accept:
 
 `GET /profileAndServices/<resourceName>.json`
 
@@ -61,7 +61,7 @@ Se o recurso de perfil tiver sido estendido com um campo de chave personalizado,
 
 As chaves personalizadas não podem ser modificadas usando uma operação PATCH se o valor da chave for diferente da chave de origem ou se você estiver usando sua própria chave de negócio como URI em vez da fornecida pelo Adobe.
 
-Use uma chave personalizada somente para recursos **de perfil de nível** superior. Os URLs são retornados pela API e nunca devem ser criados por você mesmo.
+Use uma chave personalizada apenas para **recursos de perfil de nível superior**. Os URLs são retornados pela API e nunca devem ser criados por você mesmo.
 
 <br/>
 
