@@ -25,7 +25,7 @@ Saiba como mapear recursos personalizados e entidades personalizadas no contexto
 
 ## Pré-requisitos
 
-A integração [do](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) Microsoft Dynamics 365-Adobe Campaign Standard oferece suporte a entidades personalizadas, permitindo que entidades personalizadas no Dynamics 365 sejam sincronizadas com os recursos personalizados correspondentes na Campanha.
+A [integração do Microsoft Dynamics 365-Adobe Campaign Standard](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) oferece suporte a entidades personalizadas, permitindo que as entidades personalizadas no Dynamics 365 sejam sincronizadas com os recursos personalizados correspondentes na Campanha.
 
 Os novos dados nos recursos personalizados podem ser usados para vários fins, incluindo segmentação e personalização.
 
@@ -43,10 +43,10 @@ Ao configurar fluxos de dados de entidade personalizados, é importante ter em m
 * Para fluxos de dados de entidade personalizados, o rastreamento de alterações deve ser ativado no Dynamics 365 para entidades personalizadas sincronizadas.
 * Se um registro pai e filho vinculado forem criados perto da mesma hora no Dynamics 365, devido ao processamento paralelo da integração, há uma pequena chance de que um novo registro filho possa ser gravado na Campanha antes de seu registro pai.
 
-* Se o pai e o filho estiverem vinculados na Campanha usando a opção de link **simples de cardinalidade** 1, o registro filho permanecerá oculto e inacessível (via interface do usuário ou API) até que o registro pai chegue à Campanha.
+* Se o pai e o filho estiverem vinculados na Campanha usando a opção **1 cardinality simple link**, o registro filho permanecerá oculto e inacessível (por UI ou API) até que o registro pai chegue na Campanha.
 
-* (Assumindo **1 conexão** simples de cardinalidade na Campanha) Se o registro filho for atualizado ou excluído no Dynamics 365 e essa alteração for gravada na Campanha antes que o registro pai seja exibido na Campanha (não é provável, mas uma possibilidade remota), essa atualização ou exclusão não será processada na Campanha e um erro será lançado. Em caso de atualização, o registro em questão terá de ser atualizado novamente no Dynamics 365 para sincronizar o registro atualizado. Em caso de supressão, o registro em questão terá de ser tratado separadamente do lado da Campanha, uma vez que já não existe um registro no Dynamics 365 para eliminar ou atualizar.
+* (Assumindo que **1 cardinality simple link** na Campanha) Se o registro filho for atualizado ou excluído no Dynamics 365 e essa alteração for gravada na Campanha antes que o registro pai seja exibido na Campanha (não é provável, mas uma possibilidade remota), essa atualização ou exclusão não será processada na Campanha e um erro será lançado. Em caso de atualização, o registro em questão terá de ser atualizado novamente no Dynamics 365 para sincronizar o registro atualizado. Em caso de supressão, o registro em questão terá de ser tratado separadamente do lado da Campanha, uma vez que já não existe um registro no Dynamics 365 para eliminar ou atualizar.
 
-* Se você encontrar uma situação em que acredita ter ocultado registros secundários e não ter como acessá-los, poderá alterar temporariamente o tipo de link de cardinalidade para **0 ou 1 simples link** de cardinalidade para acessar esses registros.
+* Se você encontrar uma situação em que acredita ter ocultado registros secundários e não ter como acessá-los, é possível alterar temporariamente o tipo de link de cardinalidade para **0 ou 1 simples de cardinalidade** para acessar esses registros.
 
 Uma visão geral mais abrangente dos recursos personalizados da Campanha pode ser encontrada [nesta seção](../../developing/using/key-steps-to-add-a-resource.md).
