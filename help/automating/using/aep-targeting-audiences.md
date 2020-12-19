@@ -21,13 +21,13 @@ ht-degree: 5%
 >
 >O serviço Destinos de audiência está atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam estar hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente do Adobe se desejar acessá-lo.
 
-Depois de criar uma audiência [do](../../audiences/using/aep-about-audience-destinations-service.md) Adobe Experience Platform usando o Construtor de segmentos, você pode usá-la da mesma forma que faria para uma audiência de Campanha dentro dos workflows para personalizar e enviar mensagens.
+Depois de criar uma [audiência do Adobe Experience Platform](../../audiences/using/aep-about-audience-destinations-service.md) usando o Construtor de segmentos, você pode usá-la da mesma forma que usaria para uma audiência de Campanha dentro dos workflows para personalizar e enviar mensagens.
 
 Para ativar uma audiência Adobe Experience Platform em seus workflows, siga estas etapas:
 
-1. Adicione uma **[!UICONTROL Read audience]** atividade ao fluxo de trabalho e abra-a.
+1. Adicione uma atividade **[!UICONTROL Read audience]** ao fluxo de trabalho e abra-a.
 
-1. Selecione a **[!UICONTROL Adobe Experience Platform]** opção em **[!UICONTROL Type of audience]** e adicione a audiência desejada.
+1. Selecione a opção **[!UICONTROL Adobe Experience Platform]** em **[!UICONTROL Type of audience]** e adicione a audiência desejada.
 
    ![](assets/aep_wkf_readaudience.png)
 
@@ -35,23 +35,23 @@ Para ativar uma audiência Adobe Experience Platform em seus workflows, siga est
 
    Clicar no botão de olho simplesmente o direcionará para o Construtor de segmentos (em outra guia) associado à audiência selecionada dentro da Campanha.
 
-1. Selecione um **[!UICONTROL Platform data mapping]** elemento para especificar o targeting dimension desejado para a audiência Adobe Experience Platform selecionada.
+1. Selecione um elemento **[!UICONTROL Platform data mapping]** para especificar o targeting dimension desejado para a audiência Adobe Experience Platform selecionada.
 
-   Por padrão, a chave primária (por exemplo, iRecipientID para a tabela do Perfil, iAppSubscriptionID para a tabela AppSubscription) usada para reconciliação estará automaticamente disponível na lista suspensa. Para público alvo fora da chave primária, é necessário criar uma **Namespace** personalizada.
+   Por padrão, a chave primária (por exemplo, iRecipientID para a tabela do Perfil, iAppSubscriptionID para a tabela AppSubscription) usada para reconciliação estará automaticamente disponível na lista suspensa. Para público alvo fora da chave primária, você deve criar uma **Namespace** personalizada.
 
    >[!NOTE]
    >
-   >Para públicos alvos fora da chave primária, você também deve criar um Target mapping personalizado que corresponda à Namespace personalizada. For more information on Target Mapping, refer to [this section](../../administration/using/target-mappings-in-campaign.md).
+   >Para públicos alvos fora da chave primária, você também deve criar um Target mapping personalizado que corresponda à Namespace personalizada. Para obter mais informações sobre o Target mapping, consulte [esta seção](../../administration/using/target-mappings-in-campaign.md).
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
-   Esta lista contém todos os mapeamentos do Modelo de Dados de Experiência (XDM) que foram configurados em sua instância. Para obter mais informações sobre o Adobe Experience Platform Data Connector, consulte [este documento](../../developing/using/aep-about-data-connector.md)dedicado.
+   Esta lista contém todos os mapeamentos do Modelo de Dados de Experiência (XDM) que foram configurados em sua instância. Para obter mais informações sobre o Adobe Experience Platform Data Connector, consulte [este documento dedicado](../../developing/using/aep-about-data-connector.md).
 
    ![](assets/aep_wkf_readaudience_namespace2.png)
 
-1. Depois que a audiência e os targeting dimension forem configurados corretamente, clique no **[!UICONTROL Confirm]** botão para salvar as alterações.
+1. Depois que a audiência e os targeting dimension forem configurados corretamente, clique no botão **[!UICONTROL Confirm]** para salvar as alterações.
 
-Agora você pode configurar seu fluxo de trabalho com outras atividades. Por exemplo, você pode vincular uma **[!UICONTROL Email delivery]** atividade para enviar um email para a audiência selecionada.
+Agora você pode configurar seu fluxo de trabalho com outras atividades. Por exemplo, você pode vincular uma atividade **[!UICONTROL Email delivery]** para enviar um email para a audiência selecionada.
 
 ![](assets/aep_wkf_email.png)
 
@@ -64,6 +64,6 @@ Agora você pode configurar seu fluxo de trabalho com outras atividades. Por exe
 Para obter mais informações sobre como usar workflows e delivery, consulte estas seções:
 
 * [Introdução aos workflows](../../automating/using/get-started-workflows.md)
-* [Criação de um fluxo de trabalho](../../automating/using/building-a-workflow.md)
+* [Criação de um workflow](../../automating/using/building-a-workflow.md)
 * [Introdução aos canais de comunicação](../../channels/using/get-started-communication-channels.md)
 * [Sobre as atividades de canal](../../automating/using/about-channel-activities.md)
