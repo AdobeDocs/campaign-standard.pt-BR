@@ -76,7 +76,7 @@ Antes de enviar as notificações por push, você deve:
 
 1. Para saber mais sobre as implementações dos casos de uso móveis, consulte as instruções detalhadas sobre extensões, as regras do Experience Platform Launch e a implementação do SDK em [Casos de uso móveis com suporte no Adobe Campaign Standard usando SDKs da Adobe Experience Platform](https://helpx.adobe.com/br/campaign/kb/configure-launch-rules-acs-use-cases.html).
 
-## Perguntas frequentes sobre notificações por push {#push-faq}
+## Perguntas frequentes sobre notificação por push {#push-faq}
 
 ### Quais seriam algumas recomendações de recursos úteis para saber mais sobre o canal de push? {#resource-push}
 
@@ -84,7 +84,7 @@ Confira os recursos abaixo:
 
 * [Tutoriais em vídeo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [Documentação do produto](../../channels/using/about-push-notifications.md)
-* Configurar usando a [documentação do AEP SDK](../../administration/using/configuring-a-mobile-application.md)
+* Configurar usando o AEP SDK [documentação](../../administration/using/configuring-a-mobile-application.md)
 * [Página da comunidade](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### O que devo fazer para adquirir um token de push na Campanha? {#push-token-acquisition}
@@ -125,7 +125,7 @@ Certifique-se de que seus certificados de push sejam válidos testando-os [aqui]
 
 ### Posso enviar notificações por push com êxito do pushtry.com, mas não por Campanha. {#push-not-sending}
 
-Verifique se você está seguindo as instruções de carga de push fornecidas [aqui](../../administration/using/push-payload.md).
+Certifique-se de seguir as instruções de carga de push fornecidas [aqui](../../administration/using/push-payload.md).
 
 Observe que para Android, a Campanha suporta apenas a carga de dados e não a carga de notificação
 
@@ -137,7 +137,7 @@ Um aplicativo precisa ter um certificado de push válido carregado também antes
 
 Abra um ticket de atendimento ao cliente.
 
-### As notificações por push são entregues pela Campanha, mas o arquivo de mídia não é exibido.{#media-file-unavailable}
+### As notificações por push estão sendo entregues pela Campanha, mas o arquivo de mídia não está sendo exibido.{#media-file-unavailable}
 
 Os desenvolvedores de aplicativos móveis precisam lidar com o suporte para arquivos de mídia no aplicativo. Às vezes, a largura de banda da rede também pode impedir a renderização de um arquivo de mídia. Consulte esta [página](../../administration/using/image-push-notification.md) para obter mais ponteiros.
 
@@ -145,14 +145,14 @@ Os desenvolvedores de aplicativos móveis precisam lidar com o suporte para arqu
 
 Siga as etapas abaixo:
 
-* Configure um postback de rastreamento de push. Instructions can be found [here](../../administration/using/configuring-a-mobile-application.md).
-* Implemente a API trackAction do Mobile Core. Refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) for more information.
+* Configure um postback de rastreamento de push. As instruções podem ser encontradas [aqui](../../administration/using/configuring-a-mobile-application.md).
+* Implemente a API trackAction do Mobile Core. Consulte esta [página](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) para obter mais informações.
 
 Instruções mais detalhadas podem ser encontradas nesta [página](../../administration/using/push-tracking.md).
 
 ### Quais relatórios estão disponíveis para o canal de push? {#push-report-available}
 
-Um relatório pronto para uso está disponível no Adobe Campaign para canal de push. Refer to this [documentation](../../reporting/using/push-notification-report.md).
+Um relatório pronto para uso está disponível no Adobe Campaign para canal de push. Consulte esta [documentação](../../reporting/using/push-notification-report.md).
 
 Consulte esta [página](../../reporting/using/indicator-calculation.md#push-notification-delivery) para entender como cada métrica de push é calculada.
 
