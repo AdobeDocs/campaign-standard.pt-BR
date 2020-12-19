@@ -19,7 +19,7 @@ ht-degree: 4%
 
 Os componentes ajudam você a personalizar seus relatórios com diferentes dimensões, métricas e períodos.
 
-1. Clique na **[!UICONTROL Components]** guia para acessar a lista dos componentes.
+1. Clique na guia **[!UICONTROL Components]** para acessar a lista dos componentes.
 
    ![](assets/dynamic_report_components.png)
 
@@ -29,9 +29,9 @@ Os componentes ajudam você a personalizar seus relatórios com diferentes dimen
 
    * **Dimension**: Obtenha detalhes no registro de delivery, como o navegador ou domínio do recipient, ou o sucesso de um delivery.
    * **Métricas**: Obtenha detalhes sobre o status de uma mensagem. Por exemplo, se uma mensagem foi entregue e o usuário a abriu.
-   * **[!UICONTROL Segments]**: Filtrar dados dependendo da faixa etária do recipient. **[!UICONTROL Segments]** pode ser arrastado e solto diretamente em uma tabela de forma livre ou na barra superior do painel. Por padrão, o **[!UICONTROL Exclude proof]** segmento já está selecionado, mas pode ser alterado se necessário.
+   * **[!UICONTROL Segments]**: Filtrar dados dependendo da faixa etária do recipient. **[!UICONTROL Segments]** pode ser arrastado e solto diretamente em uma tabela de forma livre ou na barra superior do painel. Por padrão, o segmento **[!UICONTROL Exclude proof]** já está selecionado, mas pode ser alterado se necessário.
 
-      Esta categoria só estará disponível depois que o administrador aprovar os termos e condições do Contrato de uso dinâmico de Relatórios que serão exibidos na tela. Se o administrador recusar o contrato, os segmentos não ficarão visíveis na guia **[!UICONTROL Components]** , e os dados não serão coletados.
+      Esta categoria só estará disponível depois que o administrador aprovar os termos e condições do Contrato de uso dinâmico de Relatórios que serão exibidos na tela. Se o administrador recusar o contrato, os segmentos não ficarão visíveis na guia **[!UICONTROL Components]** e os dados não serão coletados.
 
    * **Hora**: Defina um período para a tabela.
 
