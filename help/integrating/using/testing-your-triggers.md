@@ -21,7 +21,7 @@ As seguintes dicas de solução de problemas ajudarão você a resolver os probl
 
 **A funcionalidade está ativada?**
 
-Para verificar se a integração Acionadores - Campanha está ativada, clique no logotipo Adobe Campaign, no canto superior esquerdo, em seguida selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Você deveria ver o **[!UICONTROL Experience Cloud Triggers]** item.
+Para verificar se a integração Acionadores - Campanha está ativada, clique no logotipo Adobe Campaign, no canto superior esquerdo, em seguida selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Você deve ver o item **[!UICONTROL Experience Cloud Triggers]**.
 
 Se você vir, vá para a próxima etapa.
 
@@ -45,7 +45,7 @@ Se a publicação tiver êxito, siga para a próxima etapa. Caso contrário, ent
 
 **Gerar o acionador do site**
 
-Siga as etapas descritas em [Edição do template de mensagem transacional](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) para editar e publicar o modelo transacional. Em seguida, teste a geração do acionador a partir do site.
+Siga as etapas descritas em [Editar o template de mensagem transacional](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) para editar e publicar o modelo transacional. Em seguida, teste a geração do acionador a partir do site.
 
 Se o acionador for recebido pelo Analytics, vá para a próxima etapa. Caso contrário, verifique os seguintes itens:
 
