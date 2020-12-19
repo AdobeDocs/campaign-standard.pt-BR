@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Edição de um mensagen transacional
+title: Editar uma mensagem transacional
 description: Saiba como acessar, editar e personalizar um mensagen transacional.
 audience: channels
 content-type: reference
@@ -16,7 +16,7 @@ ht-degree: 59%
 ---
 
 
-# Edição de um mensagen transacional {#editing-transactional-message}
+# Editar uma mensagem transacional {#editing-transactional-message}
 
 Depois de criar e publicar um evento<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->, o mensagen transacional correspondente é criado automaticamente.
 
