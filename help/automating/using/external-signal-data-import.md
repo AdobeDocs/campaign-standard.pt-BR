@@ -16,7 +16,7 @@ ht-degree: 79%
 ---
 
 
-# External signal and data import {#external-signal-data-import}
+# Sinal externo e importação de dados {#external-signal-data-import}
 
 O exemplo a seguir ilustra a atividade **[!UICONTROL External signal]** em um caso de uso comum. Uma importação de dados é realizada em um workflow de origem. Quando a importação for concluída e o banco de dados for atualizado, um segundo workflow será acionado. Esse segundo workflow é usado para atualizar uma agregação nos dados importados.
 
@@ -38,13 +38,13 @@ O workflow de origem é apresentado da seguinte maneira:
 
 * Uma atividade de [Reconciliação](../../automating/using/reconciliation.md) cria os links entre os dados importados e o banco de dados para que os dados de transações sejam conectados corretamente a perfis e produtos.
 * Uma atividade [Atualizar dados](../../automating/using/update-data.md) insere e atualiza o recurso Transações do banco de dados com os dados recebidos.
-* An [End](../../automating/using/start-and-end.md) activity triggers the destination workflow, which is used to update aggregates.
+* Uma atividade [End](../../automating/using/start-and-end.md) aciona o fluxo de trabalho de destino, que é usado para atualizar o agregação.
 
 ![](assets/signal_example_source1.png)
 
 O workflow de destino é apresentado da seguinte forma:
 
-* An [External signal](../../automating/using/external-signal.md) activity waits for the source workflow to be successfully finished.
+* Uma atividade [sinal externo](../../automating/using/external-signal.md) aguarda a conclusão com êxito do fluxo de trabalho de origem.
 * Uma atividade de [Query](../../automating/using/query.md#enriching-data) é direcionada a perfis e os enriquece com uma coleção definida para recuperar a data da última compra.
 * Uma atividade [Atualizar dados](../../automating/using/update-data.md) armazena os dados adicionais em um campo personalizado dedicado. Observe que o recurso de perfil foi estendido para adicionar o campo **Last purchase date**.
 
