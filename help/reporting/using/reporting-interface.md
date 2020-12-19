@@ -107,26 +107,26 @@ A guia **Inserir** permite personalizar seus relatórios adicionando gráficos e
 
 ![](assets/tab_share_1.png)
 
-A **[!UICONTROL Share]** guia permite que você envie seus relatórios com usuários do Adobe Campaign por e-mails simples ou recorrentes. Os usuários direcionados receberão um email com seu relatório anexado.
+A guia **[!UICONTROL Share]** permite que você envie seus relatórios para usuários do Adobe Campaign por e-mails instantâneos ou recorrentes. Os usuários direcionados receberão um email com seu relatório anexado.
 
 * **[!UICONTROL Send report now]**: Envie seu relatório para uma lista de recipient escolhidos por meio de um e-mail de uma só vez.
 
-   1. Na **[!UICONTROL Send report]** janela, adicione uma descrição, se necessário.
+   1. Na janela **[!UICONTROL Send report]**, adicione uma descrição, se necessário.
 
       ![](assets/tab_share_4.png)
 
    1. Selecione os recipient para seu email clicando no campo e selecionando-os na lista suspensa ou digitando seus endereços de email.
-   1. Verifique **[!UICONTROL Show scheduling options]** se deseja enviar emails recorrentes. Isso também pode ser feito selecionando-se **[!UICONTROL Send Report on schedule]** na **[!UICONTROL Share]** guia.
+   1. Marque **[!UICONTROL Show scheduling options]** se desejar enviar emails recorrentes. Isso também pode ser feito selecionando **[!UICONTROL Send Report on schedule]** na guia **[!UICONTROL Share]**.
    1. Clique em **[!UICONTROL Send now]**. Seus recipient receberão um email com seu relatório anexado.
 
 * **[!UICONTROL Send report on schedule]**: Agende seu relatório e envie emails recorrentes para seus recipient.
 
-   1. Na **[!UICONTROL Send report]** janela, adicione uma descrição, se necessário.
+   1. Na janela **[!UICONTROL Send report]**, adicione uma descrição, se necessário.
    1. Selecione os recipient para seu email clicando no campo e selecionando-os na lista suspensa ou digitando seus endereços de email.
 
       ![](assets/tab_share_5.png)
 
-   1. Selecione sua data de início e término para configurar sua validade de email nos campos **[!UICONTROL Starting on]** e **[!UICONTROL Ending on]** .
+   1. Selecione sua data de início e término para configurar sua validade de email nos campos **[!UICONTROL Starting on]** e **[!UICONTROL Ending on]**.
    1. Escolha em que frequência seu email será enviado.
 
       ![](assets/tab_share_2.png)
@@ -135,13 +135,13 @@ A **[!UICONTROL Share]** guia permite que você envie seus relatórios com usuá
 
 * **[!UICONTROL Scheduled reports]**: Encontre e configure todos os seus relatórios agendados.
 
-   1. Na **[!UICONTROL Scheduled reports]** janela, localize todos os seus relatórios enviados recorrentes.
+   1. Na janela **[!UICONTROL Scheduled reports]**, localize todos os seus relatórios enviados recorrentes.
 
       ![](assets/tab_share_3.png)
 
    1. Se precisar excluir um de seus relatórios agendados, selecione o relatório agendado que deseja excluir e clique em **[!UICONTROL Delete the section]**.
    1. Para configurar ou verificar seus relatórios agendados, clique diretamente no relatório que você precisa alterar.
-   1. A **[!UICONTROL Edit scheduled report]** janela é exibida; agora você pode alterar os recipient ou a frequência do seu email, se necessário.
+   1. A janela **[!UICONTROL Edit scheduled report]** é exibida; agora, você pode alterar os recipient ou a frequência de seu email, se necessário.
 
 Os usuários direcionados receberão um email com seu relatório anexado diretamente em suas caixas de entrada. Os usuários sempre podem decidir parar de receber e-mails recorrentes usando um link de unsubscription disponível em cada e-mail recorrente.
 
