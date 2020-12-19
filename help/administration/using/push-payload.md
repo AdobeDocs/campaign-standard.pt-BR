@@ -36,7 +36,7 @@ Esta seção detalha a estrutura de uma carga de amostra para várias plataforma
 
 Os atributos de carga e seus valores variam com base nas configurações fornecidas nas opções avançadas de notificação por push. Esta seção também fornece um mapeamento entre essas configurações na interface do usuário do Campaign Standard e os atributos na carga para esclarecer como a carga será alterada ao configurar uma opção no Campaign Standard.
 
-### Para aplicativos móveis iOS {#payload-structure-ios}
+### Para iOS Mobile App {#payload-structure-ios}
 
 **Amostra de carga enviada do Adobe Campaign para o aplicativo iOS:**
 
@@ -78,7 +78,7 @@ Os atributos de carga e seus valores variam com base nas configurações forneci
     "_mId":"h138a"} 
 ```
 
-**Carga de amostra JSON a ser usada com o [iOS APNS Tester](https://pushtry.com/)**
+**Carga de amostra JSON a ser usada com o  [iOS APNS Tester](https://pushtry.com/)**
 
 ```
 {
@@ -108,9 +108,9 @@ Os atributos de carga e seus valores variam com base nas configurações forneci
 
 A seção mais importante da carga é o dicionário aps, que contém as chaves definidas pela Apple e é usado para determinar como o sistema que recebe a notificação deve alertar o usuário, se for o caso. Esta seção contém chaves predefinidas que são usadas pelo aplicativo móvel para formular o comportamento da notificação por push.
 
-Detalhes aprofundados sobre os atributos no aplicativo podem ser encontrados em documentos do desenvolvedor da Apple: [Criando a carga](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1)de notificação remota.
+Detalhes aprofundados sobre os atributos no aplicativo podem ser encontrados em documentos do desenvolvedor da Apple: [Criando a Carga de Notificação Remota](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1).
 
-### Para aplicativo Android {#payload-structure-android}
+### Para aplicativos Android {#payload-structure-android}
 
 **Amostra de envio de carga do aplicativo Adobe Campaign para Android**
 
@@ -152,7 +152,7 @@ Detalhes aprofundados sobre os atributos no aplicativo podem ser encontrados em 
 }
 ```
 
-**Carga de amostra JSON para usar o testador do [Google FCM](https://pushtry.com/)**
+**Carga de amostra JSON para usar o testador do  [Google FCM](https://pushtry.com/)**
 
 ```
 {
@@ -196,7 +196,7 @@ Detalhes aprofundados sobre os atributos no aplicativo podem ser encontrados em 
 
 A carga contém uma mensagem de dados que inclui todo o conteúdo do delivery de notificação por push, incluindo os pares de chave/valor personalizados, e o aplicativo cliente deve manipular a mensagem para criar e mostrar a notificação por push, se necessário, ou então adicionar qualquer outra lógica comercial.
 
-Para entender os aspectos de uma carga do Android, consulte Conceitos e opções de [mensagens (fcm)](https://firebase.google.com/docs/cloud-messaging/concept-options).
+Para entender os aspectos de uma carga do Android, consulte [Conceitos e opções de mensagens (fcm)](https://firebase.google.com/docs/cloud-messaging/concept-options).
 
 >[!NOTE]
 >
@@ -206,23 +206,23 @@ Para entender os aspectos de uma carga do Android, consulte Conceitos e opções
 
 | Configuração da campanha | Atributo afetado no iOS | Atributo afetado no Android | Descrição |
 |:-:|:-:|:-:|:-:|
-| Título da mensagem Corpo <br>da mensagem | alerta → alerta de título <br> → corpo | título <br>de corpo | Esses dados contêm detalhes específicos da mensagem de alerta.<br>O título e as chaves de corpo fornecem o conteúdo do alerta. |
+| Título da mensagem <br>Corpo da mensagem | alert → título <br> alerta → corpo | título <br>corpo | Esses dados contêm detalhes específicos da mensagem de alerta.<br>O título e as chaves de corpo fornecem o conteúdo do alerta. |
 | Reproduzir um som | som | som | Um som personalizado para reproduzir com o alerta. |
 | Valor do crachá | emblema | emblema | Um valor inteiro a ser usado para marcar o ícone do aplicativo. |
 | Adicionar um deep link | uri | NA | Um deeplink permite trazer os usuários diretamente ao conteúdo localizado dentro do aplicativo (em vez de abrir uma página do navegador da web). |
 | Categoria | categoria | categoria | Para exibir ações personalizadas com uma notificação remota. <br>A tecla categoria ajuda o sistema a exibir as ações para essa categoria como botões na interface de alerta. |
 | Campos personalizados | custom_field1, custom_field2 ... | custom_field1, custom_field2 ... | Todos os dados personalizados que você deseja enviar ao seu aplicativo. |
 | URL de conteúdo de mídia avançada (arquivos de imagem, gif, áudio e vídeo)<br>(aplicável somente para iOS 10 ou superior) | media-attachment-url | NA | URL dos arquivos de mídia para adicionar conteúdo avançado à sua notificação. <br>Ao fornecer um valor para esse URL, o sinalizador de conteúdo mutável é enviado automaticamente para a carga. <br> (Aplicável somente para iOS 10 ou superior) |
-| Conteúdo variável <br> (aplicável somente para iOS 10 ou superior) | mutable-content | NA | A extensão do serviço de notificação no aplicativo interceptará todas as notificações remotas com a chave de conteúdo mutável e permitirá que você manipule/manipule o conteúdo da carga da solicitação, que pode ser usada para personalizar a notificação. Os casos de uso desse recurso incluem baixar e exibir várias mídias, descriptografando quaisquer dados criptografados presentes na carga de push. Mais informações podem ser encontradas em [Modificar a carga de uma Notificação](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)Remota. <br>(Aplicável somente para iOS 10 ou superior) |
-| Conteúdo disponível | conteúdo disponível | NA | Selecionar essa opção ativa a ativação de um aplicativo iOS enquanto ele estiver em segundo plano/suspenso. A ativação implica que o aplicativo seja executado em segundo plano e o manipulador de eventos apropriado responsável por receber a carga de dados da notificação por push obtenha um controle e possa usar os dados para fazer qualquer cálculo, incluindo, mas não limitado a, criar notificação por push personalizada e exibir o mesmo. Mais informações podem ser encontradas no [aplicativo de ativação com delivery](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)de notificação. |
-| URL de conteúdo de mídia avançada (arquivos de imagem)<br>(aplicável somente para Android) | NA | media-attachment-url | URL dos arquivos de imagem para adicionar conteúdo avançado à sua notificação. |
-| NA | _mId<br>_dId | _mId <br>_dId | Valores de BroadlogId e deliveryId.<br>Esses atributos são necessários se o aplicativo desejar chamar um postback de rastreamento para rastrear quando a notificação por push foi clicada/aberta. Essas informações são computadas e enviadas internamente pelo servidor do aplicativo sem a intervenção do usuário.<br>Informações sobre postbacks podem ser encontradas nesta [página](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback). |
+| Conteúdo variável <br> (aplicável somente para iOS 10 ou superior) | mutable-content | NA | A extensão do serviço de notificação no aplicativo interceptará todas as notificações remotas com a chave de conteúdo mutável e permitirá que você manipule/manipule o conteúdo da carga da solicitação, que pode ser usada para personalizar a notificação. Os casos de uso desse recurso incluem baixar e exibir várias mídias, descriptografando quaisquer dados criptografados presentes na carga de push. Mais informações podem ser encontradas em [Modifique a carga de uma Notificação Remota](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(Aplicável somente para iOS 10 ou superior) |
+| Conteúdo disponível | conteúdo disponível | NA | Selecionar essa opção ativa a ativação de um aplicativo iOS enquanto ele estiver em segundo plano/suspenso. A ativação implica que o aplicativo seja executado em segundo plano e o manipulador de eventos apropriado responsável por receber a carga de dados da notificação por push obtenha um controle e possa usar os dados para fazer qualquer cálculo, incluindo, mas não limitado a, criar notificação por push personalizada e exibir o mesmo. Mais informações podem ser encontradas em [Ativar aplicativo com delivery de notificação](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
+| URL de conteúdo de mídia avançada (arquivos de imagem)<br> (aplicável somente para Android) | NA | media-attachment-url | URL dos arquivos de imagem para adicionar conteúdo avançado à sua notificação. |
+| NA | _mId<br>_dId | _mId <br>_dId | Valores de BroadlogId e deliveryId.<br>Esses atributos são necessários se o aplicativo desejar chamar um postback de rastreamento para rastrear quando a notificação por push foi clicada/aberta. Essas informações são computadas e enviadas internamente pelo servidor do aplicativo sem a intervenção do usuário.<br>Informações sobre postbacks podem ser encontradas nesta  [página](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback). |
 
 ### Como recuperar informações de carga no código do aplicativo móvel {#payload-information}
 
 As informações de carga enviadas pelo servidor do aplicativo são recebidas pelo código do aplicativo móvel em um manipulador de eventos que indica que uma notificação por push foi recebida. Esse evento varia com base na plataforma móvel em que o aplicativo está sendo trabalhado e também se baseia em se o aplicativo está sendo executado em primeiro ou segundo plano. A documentação a seguir o ajudará a identificar o manipulador de eventos que você deseja manipular com base no caso de uso.
 
-* Aplicativos iOS: **Manuseio da seção Notificações** Remotas em Notificações [](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html)Remotas.
+* Aplicativos iOS: **Manuseio de Notificações Remotas** seção em [Notificações Remotas](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html).
 * Aplicativos Android: [Recebendo mensagens em um aplicativo cliente Android](https://firebase.google.com/docs/cloud-messaging/android/receive)
 
 **Amostra para o aplicativo móvel iOS**
