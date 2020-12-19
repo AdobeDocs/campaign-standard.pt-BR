@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1448'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ Se desejar, a integração pode ser configurada para emitir chamadas de exclusã
 
 No entanto, uma exclusão de perfil é diferente de uma exclusão de privacidade. Uma exclusão de privacidade na Campanha removerá o registro do perfil da Campanha e as entradas de registro associadas; enquanto que, uma exclusão regular de perfis só excluirá o registro de perfis ACS, deixando os remanescentes para trás nos registros de Campanhas.
 
-Se o recurso de exclusão de perfil estiver ativado na integração, outras etapas deverão ser seguidas para processar corretamente as solicitações de privacidade do indivíduo de dados. Consulte as etapas na [seção abaixo](#manage-privacy-requests).
+Se o recurso de exclusão de perfil estiver ativado na integração, outras etapas deverão ser seguidas para processar corretamente as solicitações de privacidade do indivíduo de dados. Consulte as etapas na seção [abaixo](#manage-privacy-requests).
 
 ## Privacidade
 
@@ -39,7 +39,7 @@ A integração não emite nenhuma privacidade da pessoa de dados (por exemplo, o
 
 Se você configurou a integração para emitir chamadas de exclusão de perfil regulares para Campanha quando um contato é excluído no Dynamics 365, as etapas abaixo devem ser seguidas. Certifique-se de que não sejam feitas atualizações ao registro em questão durante este processo.
 
-1. Emitir solicitação de exclusão de privacidade para a [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experiencecloud/gdpr.html)
+1. Emita solicitação de exclusão de privacidade para [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 
 1. Monitorar solicitação até que seja concluída com êxito
 
@@ -99,7 +99,7 @@ Seu armazenamento SFTP de Campanha precisará ser utilizado pela integração no
 
 Essa integração sincronizará contatos e entidades personalizadas do Dynamics 365 com a Campanha. Os registros de campanha criados fora da integração (ou seja, não criados pela tarefa de sincronização) não serão modificados pela integração, incluindo registros de Campanha existentes no momento da configuração da integração.
 
-Como essa integração usa o **[!UICONTROL externalId]** campo na Campanha para sincronizar registros de perfis de Campanha com registros de contato do Dynamics 365, esse campo de Campanha (**[!UICONTROL externalId]** ) deve ser preenchido com o Dynamics 365 **[!UICONTROL contactId]** para os registros que você deseja sincronizar do Dynamics 365.  As entidades personalizadas também são sincronizadas usando uma ID exclusiva do Dynamics 365. A entidade personalizada Campanha precisará incluir esse atributo de ID como uma coluna de tabela. A coluna externalId pode ser usada para armazenar esse valor de atributo, mas não é necessária para entidades personalizadas de Campanha.
+Como essa integração usa o campo **[!UICONTROL externalId]** na Campanha para sincronizar registros de perfis de Campanha com registros de contato do Dynamics 365, esse campo de Campanha (**[!UICONTROL externalId]** ) deve ser preenchido com o Dynamics 365 **[!UICONTROL contactId]** para os registros que você deseja sincronizar do Dynamics 365.  As entidades personalizadas também são sincronizadas usando uma ID exclusiva do Dynamics 365. A entidade personalizada Campanha precisará incluir esse atributo de ID como uma coluna de tabela. A coluna externalId pode ser usada para armazenar esse valor de atributo, mas não é necessária para entidades personalizadas de Campanha.
 
 Lembre-se de que o Dynamics 365 ainda é a fonte da verdade e que os dados do perfil da Campanha podem ser sobrescritos à medida que a integração detecta atualizações do lado do Dynamics 365.  Pode haver outras etapas necessárias para habilitar a integração, dependendo da implantação existente; portanto, recomenda-se que você trabalhe em conjunto com seu contato técnico com o Adobe.
 
