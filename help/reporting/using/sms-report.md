@@ -21,7 +21,7 @@ O relatório **SMS** fornece detalhes sobre delivery SMS, como taxas de devoluç
 
 ![](assets/dynamic_report_sms.png)
 
-A tabela de resumo **do** SMS, os gráficos e os números de resumo contêm dados disponíveis para delivery SMS que foram enviados.
+A tabela **resumo do SMS**, os gráficos e os números de resumo contêm dados disponíveis para delivery SMS que foram enviados.
 
 * **Processado/enviado**: O número de SMS enviados.
 * **Entregue**: O número de SMS entregues.
