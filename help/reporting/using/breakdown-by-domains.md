@@ -22,7 +22,7 @@ Este relatório contém os dados de desempenho de cada domínio representado na 
 
 ![](assets/delivery_reports_6.png)
 
-A tabela Estatísticas **de** transmissão contém os dados disponíveis para possíveis erros encontrados em cada domínio, como:
+A tabela **Estatísticas de transmissão** contém os dados disponíveis para possíveis erros encontrados em cada domínio, como:
 
 * **Processado/enviado**: O número de emails enviados.
 * **Entregue**: O número de emails entregues.
@@ -30,7 +30,7 @@ A tabela Estatísticas **de** transmissão contém os dados disponíveis para po
 * **Rejeição** forçada: O número total de erros permanentes, como um endereço de email incorreto.
 * **Rejeição** suave: O número total de erros temporários, como uma caixa de entrada completa.
 
-A segunda tabela, Estatísticas **de** rastreamento, contém os dados disponíveis para a reatividade do recipient ao delivery, como:
+A segunda tabela, **Estatísticas de rastreamento**, contém os dados disponíveis para a reatividade do recipient ao delivery, como:
 
 * **Entregue**: O número de emails entregues
 * **Abrir**: O número de vezes que uma mensagem foi aberta em um delivery.
