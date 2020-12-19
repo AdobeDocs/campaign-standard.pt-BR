@@ -18,13 +18,13 @@ ht-degree: 1%
 
 # Resumo do delivery{#delivery-summary}
 
-O **[!UICONTROL Delivery summary]** relatório detalha as informações principais relativas a um e-mail ou vários e-mails.
+O relatório **[!UICONTROL Delivery summary]** detalha as informações principais relativas a um email ou vários emails.
 
 ![](assets/campaign_reports_1.png)
 
 Cada tabela é representada por números de resumo e gráficos. Você pode alterar a forma como os detalhes são exibidos em suas respectivas configurações de visualização.
 
-A tabela de estatísticas **de** Delivery contém os dados disponíveis para emails enviados, como:
+A tabela **Estatísticas do Delivery** contém os dados disponíveis para emails enviados, como:
 
 * **[!UICONTROL Processed/sent]**: O número total de envios para o delivery.
 * **[!UICONTROL Delivered]**: O número de mensagens enviadas com êxito, em relação ao número total de mensagens enviadas. Os erros levantados (rejeições) são tidos em conta. No entanto, as queixas (declarações de spam) e as mensagens de saída como &quot;fora do escritório&quot; não são levadas em conta.
@@ -35,6 +35,6 @@ A tabela **Abrir e clicar** contém os dados disponíveis para a atividade do re
 * **Clique**: O número de vezes que um conteúdo foi clicado em um delivery.
 * **Abrir**: O número de vezes que uma mensagem foi aberta em um delivery.
 * **Aberturas** exclusivas: O número de recipient que abriram o delivery.
-* **Cliques**&#x200B;únicos: O número de recipient que clicaram em um conteúdo em um delivery.
+* **Cliques** únicos: O número de recipient que clicaram em um conteúdo em um delivery.
 
-A tabela de repartição **de** domínio exibe o status dos delivery de acordo com o domínio do recipient.
+A tabela **Repartição de domínio** exibe o status dos delivery de acordo com o domínio do recipient.
