@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 48%
+ht-degree: 49%
 
 ---
 
@@ -31,7 +31,7 @@ Para controlar suas campanhas, você deve garantir que a mensagem tenha sido ent
 
 * No painel de mensagens, você pode acessar vários relatórios para essa mensagem específica.
 
-For more this, see [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md).
+Para obter mais informações, consulte [Monitorando um delivery](../../sending/using/monitoring-a-delivery.md).
 
 ## Rastreamento {#tracking-deliveries}
 
@@ -39,21 +39,21 @@ Para conhecer melhor o comportamento de seus perfis direcionados, você pode ras
 
 **Dica**: o rastreamento de mensagens é habilitado por padrão. Para configurar URLs, selecione a opção Exibir URLs na seção inferior do assistente do delivery. Para cada URL da mensagem, você pode escolher se deseja ativar o rastreamento.
 
-For more on this, refer to the [Tracking messages](../../sending/using/tracking-messages.md) section and the [Tracking indicators](../../reporting/using/tracking-indicators.md) description.
+Para obter mais informações, consulte a seção [Mensagens de rastreamento](../../sending/using/tracking-messages.md) e a descrição [Indicadores de rastreamento](../../reporting/using/tracking-indicators.md).
 
 ## Relatórios dinâmicos {#dyn-reports}
 
 Relatórios dinâmicos permitem criar relatórios totalmente personalizáveis e em tempo real para monitorar suas campanhas. Dimension, métricas e visualizações permitem medir o impacto e o sucesso de suas campanhas nos recipient.
 
-**Dica** - Relatórios incorporados estão disponíveis para você monitorar suas campanhas, mas esses relatórios também podem ser personalizados arrastando e soltando quaisquer métricas ou dimensões em seu relatório.
+**Dica**  - Relatórios incorporados estão disponíveis para você monitorar suas campanhas, mas esses relatórios também podem ser personalizados arrastando e soltando quaisquer métricas ou dimensões em seu relatório.
 
-For more on this, refer to the [Reporting guide](../../reporting/using/about-dynamic-reports.md).
+Para obter mais informações, consulte o [guia do Relatórios](../../reporting/using/about-dynamic-reports.md).
 
 ## Hot clicks
 
 O relatório de cliques ativos apresenta o conteúdo da mensagem (HTML e/ou texto) com a porcentagem de cliques em cada link. Ao exibir a porcentagem de cliques em cada conteúdo dinâmico, você pode avaliar qual conteúdo agrada mais aos destinatários.
 
-Para saber mais sobre isso, consulte o relatório [de](../../reporting/using/hot-clicks.md)cliques ativos.
+Para obter mais informações, consulte o [Relatório de cliques ativos](../../reporting/using/hot-clicks.md).
 
 ## Dicas de desempenho do delivery {#performance-tips}
 
