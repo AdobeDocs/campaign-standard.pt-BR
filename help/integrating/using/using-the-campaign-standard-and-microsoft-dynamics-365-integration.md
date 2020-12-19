@@ -97,7 +97,7 @@ Veja a seguir uma lista dos atributos e uma descrição:
 
 >[!NOTE]
 >
->O período de expiração do mirror page de email pode ser modificado na tela de configuração da atividade de canal de email de Campanha correspondente (consulte Parâmetros [do período de](../../administration/using/configuring-email-channel.md#validity-period-parameters)validade).
+>O período de expiração do mirror page de email pode ser modificado na tela de configuração da atividade de canal de email de Campanha correspondente (consulte [Parâmetros do período de validade](../../administration/using/configuring-email-channel.md#validity-period-parameters)).
 
 >[!NOTE]
 >
