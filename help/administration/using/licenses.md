@@ -17,13 +17,13 @@ ht-degree: 1%
 
 # Licenças{#licenses}
 
-A **[!UICONTROL Licenses]** janela permite que você visualização as licenças instaladas em sua instância e informações diferentes sobre elas, como o número da compilação, a versão da versão ou se os termos do contrato foram aceitos e por quem.
+A janela **[!UICONTROL Licenses]** permite que você visualização as licenças instaladas em sua instância e informações diferentes sobre elas, como o número da compilação, a versão da versão ou se os termos do contrato foram aceitos e por quem.
 
 ![](assets/license_1.png)
 
 Com uma nova compilação ou um novo recurso, os termos de licença podem ser alterados e precisam ser aceitos por um administrador funcional da instância.
 
-A janela a seguir será exibida para usuários padrão depois de fazer logon, nenhuma ação é necessária por parte deles. Eles ainda podem trabalhar no Adobe Campaign clicando no **[!UICONTROL OK]** botão.
+A janela a seguir será exibida para usuários padrão depois de fazer logon, nenhuma ação é necessária por parte deles. Eles ainda podem trabalhar no Adobe Campaign clicando no botão **[!UICONTROL OK]**.
 
 ![](assets/license_2.png)
 
