@@ -105,7 +105,7 @@ A configuração da atividade envolve duas etapas. Primeiro, é necessário defi
 
 1. Se o arquivo do qual você deseja carregar os dados for compactado em um arquivo GZIP (.gz), selecione a opção **[!UICONTROL Decompression]** no campo **[!UICONTROL Add a pre-processing step]**. Isso permitirá descompactar o arquivo antes de carregar os dados. Essa opção só estará disponível se o arquivo for proveniente da transição de entrada da atividade.
 
-   O **[!UICONTROL Add a pre-processing step]** campo também permite descriptografar um arquivo antes de importá-lo para o banco de dados. For more on how to work with encrypted files, refer to [this section](../../automating/using/managing-encrypted-data.md)
+   O campo **[!UICONTROL Add a pre-processing step]** também permite descriptografar um arquivo antes de importá-lo para o banco de dados. Para obter mais informações sobre como trabalhar com arquivos criptografados, consulte [esta seção](../../automating/using/managing-encrypted-data.md)
 
 1. A opção **[!UICONTROL Keep the rejects in a file]** permite baixar um arquivo com erros que ocorreram durante a importação e aplicar a ele uma etapa de pós-processamento. Quando a opção está ativada, a transição de saída é renomeada como “Rejects”.
 
