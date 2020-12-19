@@ -23,9 +23,9 @@ Você pode criar workflows para gerenciar processos inteiros em suas campanhas e
 A tela de edição do fluxo de trabalho é composta dos seguintes elementos:
 
 * A [Paleta](#palette), que faz referência às atividades disponíveis.
-* A [Workspace](#workspace), na qual as atividades são configuradas e organizadas.
-* A barra [](#action-bar)de Ação, que é composta de botões que permitem interagir com o fluxo de trabalho e/ou seus componentes.
-* As ações [](#quick-actions)Rápidas, que aparecem ao redor de uma atividade selecionada, permitem interagir com ela.
+* O [Workspace](#workspace), no qual as atividades são configuradas e organizadas.
+* A [Barra de ação](#action-bar), que é composta por botões que permitem interagir com o fluxo de trabalho e/ou seus componentes.
+* As [Ações rápidas](#quick-actions), que aparecem em torno de uma atividade selecionada, permitem interagir com ela.
 
 ![](assets/wkf_overview.png)
 
@@ -57,14 +57,14 @@ Transições que seguem atividades que processam dados contêm as populações i
 >Essa opção consome bastante espaço do disco e foi projetada para ajudar a criar um fluxo de trabalho e garantir a configuração e o comportamento adequados. Deixe-a desmarcada nas instâncias de produção.
 
 
-Quando uma atividade é selecionada, ações rápidas são exibidas ao redor da atividade, permitindo que você interaja com ela. Por exemplo, para configurar uma atividade, selecione-a e abra-a usando o ![](assets/edit_darkgrey-24px_table.png) botão nas ações rápidas.
+Quando uma atividade é selecionada, ações rápidas são exibidas ao redor da atividade, permitindo que você interaja com ela. Por exemplo, para configurar uma atividade, selecione-a e abra-a usando o botão ![](assets/edit_darkgrey-24px_table.png) nas ações rápidas.
 
 Determinadas funções são ativadas somente no espaço de trabalho:
 
 * Selecione várias atividades e transições desenhando uma zona ao seu redor.
-* Pressione **Ctrl** + clique esquerdo para selecionar várias atividades e/ou transições.
+* Pressione **Ctrl** + clique com o botão esquerdo para selecionar várias atividades e/ou transições.
 * Pressione **Enter** para visualização dos detalhes da atividade ou transição atualmente selecionada.
-* Pressione **Excluir** para excluir a atividade atualmente selecionada.
+* Pressione **Delete** para excluir a atividade atualmente selecionada.
 * Pressione **Ctrl + C** para copiar as atividades selecionadas e **Ctrl + V** para colá-las no espaço de trabalho.
 
 ![](assets/workflow_workspace.png)
@@ -119,7 +119,7 @@ Quando uma atividade é selecionada, os botões de ação rápida aparecem ao re
 
 <img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>Desativa a atividade.
 
-<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>Força o processamento imediato da seleção. Este botão só está disponível para as atividades <span class="uicontrol">Scheduler</span> e <span class="uicontrol">Espera</span> .
+<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>Força o processamento imediato da seleção. Este botão só está disponível para as atividades <span class="uicontrol">Scheduler</span> e <span class="uicontrol">Wait</span>.
 
 <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>Exclui as atividades selecionadas.
 
@@ -135,15 +135,15 @@ Depois que uma atividade é duplicada, toda a sua configuração é mantida. Par
 
 Para duplicado de uma atividade, siga as etapas abaixo:
 
-1. Selecione a atividade e clique no **[!UICONTROL Copy selection]** botão das ações rápidas.
+1. Selecione a atividade e clique no botão **[!UICONTROL Copy selection]** nas ações rápidas.
 
-   Você também pode usar o atalho de teclado **Ctrl + C** .
+   Você também pode usar o atalho de teclado **Ctrl + C**.
 
    ![](assets/wkf_copypaste1.png)
 
-1. Clique com o botão direito do mouse na área de trabalho do fluxo de trabalho do público alvo e clique no **[!UICONTROL Paste]** botão.
+1. Clique com o botão direito do mouse na área de trabalho do fluxo de trabalho do público alvo e clique no botão **[!UICONTROL Paste]**.
 
-   Você também pode usar o atalho de teclado **CTRL + V** .
+   Você também pode usar o atalho de teclado **CTRL + V**.
 
    ![](assets/wkf_copypaste2.png)
 
@@ -151,7 +151,7 @@ Para duplicado de uma atividade, siga as etapas abaixo:
 
 Também é possível copiar e colar várias atividades, permitindo que você duplicado um fluxo de trabalho inteiro.
 
-Para fazer isso, selecione as atividades desenhando uma zona ao seu redor. em seguida, clique no **[!UICONTROL Copy selection]** botão da barra de ação (ou pressione **Ctrl + C**). Em seguida, você pode colá-los no local desejado.
+Para fazer isso, selecione as atividades desenhando uma zona ao seu redor. em seguida, clique no botão **[!UICONTROL Copy selection]** na barra de ação (ou pressione **Ctrl + C**). Em seguida, você pode colá-los no local desejado.
 
 ![](assets/wkf_copypaste3.png)
 
