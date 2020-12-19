@@ -16,7 +16,7 @@ ht-degree: 53%
 ---
 
 
-# Subscribing profiles to a specific service after importing a file {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
+# Inscrever perfis em um serviço específico após importar um arquivo {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
 Este exemplo ilustra como importar um arquivo contendo perfis e fazer a assinatura de todos eles para um serviço existente. Após a importação do arquivo, é necessário fazer uma reconciliação para que os dados importados possam ser identificados como perfis. Para garantir que o arquivo não contenha nenhuma duplicata, uma atividade de desduplicação é executada nos dados.
 
@@ -24,7 +24,7 @@ O fluxo de trabalho é apresentado da seguinte forma:
 
 ![](assets/subscription_activity_example1.png)
 
-* A [Load file](../../automating/using/load-file.md) activity loads the profile file and defines the structure of the imported columns.
+* Uma atividade [Carregar arquivo](../../automating/using/load-file.md) carrega o arquivo de perfil e define a estrutura das colunas importadas.
 
    Neste exemplo, o arquivo carregado está no formato .csv e contém os seguintes dados:
 
@@ -43,14 +43,14 @@ O fluxo de trabalho é apresentado da seguinte forma:
 
    ![](assets/subscription_activity_example2.png)
 
-* A [Reconciliation](../../automating/using/reconciliation.md) activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. Somente a guia **[!UICONTROL Identification]** está configurada. Ela identifica os dados do arquivo de acordo com os endereços de email dos perfis.
+* Uma atividade [Reconciliation](../../automating/using/reconciliation.md) identifica os dados do arquivo como pertencendo à dimensão do perfil do banco de dados Adobe Campaign. Somente a guia **[!UICONTROL Identification]** está configurada. Ela identifica os dados do arquivo de acordo com os endereços de email dos perfis.
 
    ![](assets/subscription_activity_example3.png)
 
-* A [Deduplication](../../automating/using/deduplication.md) based on the **email** field of the temporary resource (resulting from the reconciliation) identifies any duplicates. Se os dados importados do arquivo tiverem duplicatas, a assinatura para um serviço falhará para todos os dados.
+* Um [Desduplicação-duplicado](../../automating/using/deduplication.md) baseado no campo **email** do recurso temporário (resultante da reconciliação) identifica quaisquer duplicados. Se os dados importados do arquivo tiverem duplicatas, a assinatura para um serviço falhará para todos os dados.
 
    ![](assets/subscription_activity_example5.png)
 
-* A [Subscription Services](../../automating/using/subscription-services.md) activity lets you select the service to which the profiles must be subscribed, the field corresponding to the subscription date, and the origin of the subscription.
+* Uma atividade [Subscrição no serviço](../../automating/using/subscription-services.md) permite selecionar o serviço ao qual os perfis devem ser inscritos, o campo correspondente à data da subscrição e a origem da subscrição.
 
    ![](assets/subscription_activity_example4.png)
