@@ -28,7 +28,7 @@ A Adobe Campaign Standard usará o serviço **Destinos de Audiência** para recu
 
 **Os** públicos-alvo são criados pela primeira vez  **criando segmentos**, que são essencialmente um conjunto de regras baseado em praticamente qualquer variável (por exemplo, dados de perfil, evento e várias entidades) dentro de um perfil de cliente da Adobe Experience Platform para criar um público alvo multidimensional. Os conceitos globais dos Serviços de segmentação e Perfil do cliente em tempo real são mencionados nestes documentos dedicados:
 
-* [Visão geral do Perfil do cliente em tempo real](https://docs.adobe.com/content/help/pt-BR/experience-platform/profile/home.html)
+* [Visão geral do Perfil do cliente em tempo real](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
 * [Visão geral do Serviço de segmentação](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)
 
 Depois que um segmento é criado, você pode ativá-lo como uma audiência para um delivery em [workflows Campaign Standard](../../automating/using/aep-targeting-audiences.md). Além disso, você pode usar dados contextuais do Adobe Experience Platform para [personalizar](../../automating/using/aep-personalizing-campaigns.md) e adicionar conteúdo dinâmico às campanhas.
