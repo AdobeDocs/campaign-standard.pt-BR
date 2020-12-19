@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e20485978deba54f45010a41921b948f049222f2
 workflow-type: tm+mt
 source-wordcount: '1514'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -215,7 +215,7 @@ As principais etapas para esse caso de uso são as seguintes:
 
    ![](assets/substitution_uc5.png)
 
-1. Select the **[!UICONTROL Profile substitutions]** tab, then click **[!UICONTROL Import from an audience]**.
+1. Selecione a guia **[!UICONTROL Profile substitutions]** e clique em **[!UICONTROL Import from an audience]**.
 
    ![](assets/substitution_uc6.png)
 
