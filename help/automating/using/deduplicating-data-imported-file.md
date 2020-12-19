@@ -24,7 +24,7 @@ Este fluxo de trabalho é composto por:
 
 ![](assets/deduplication_example2_workflow.png)
 
-* A file that contains a list of profiles is imported using a [Load file](../../automating/using/load-file.md) activity. Neste exemplo, o arquivo importado está no formato .csv e contém 10 perfis:
+* Um arquivo que contém uma lista de perfis é importado usando uma atividade [Load file](../../automating/using/load-file.md). Neste exemplo, o arquivo importado está no formato .csv e contém 10 perfis:
 
    ```
    lastname;firstname;dateofbirth;email
@@ -44,13 +44,13 @@ Este fluxo de trabalho é composto por:
 
    ![](assets/deduplication_example2_fileloading.png)
 
-* Uma atividade [Desduplicação-duplicada](../../automating/using/deduplication.md) . A desduplicação é feita diretamente após a importação do arquivo e antes da inserção dos dados no banco de dados. Por conseguinte, ela deve se basear no **[!UICONTROL Temporary resource]** da atividade de **[!UICONTROL Load file]**.
+* Uma atividade [Desduplicação-duplicada](../../automating/using/deduplication.md). A desduplicação é feita diretamente após a importação do arquivo e antes da inserção dos dados no banco de dados. Por conseguinte, ela deve se basear no **[!UICONTROL Temporary resource]** da atividade de **[!UICONTROL Load file]**.
 
    Neste exemplo, queremos manter uma única entrada por endereço de email exclusivo contido no arquivo. A identificação de duplicatas é, portanto, feita na coluna de **email** do recurso temporário. Com isso, dois endereços de email são exibidos duas vezes no arquivo. Assim sendo, duas linhas são consideradas duplicatas.
 
    ![](assets/deduplication_example2_dedup.png)
 
-* An [Update data](../../automating/using/update-data.md) activity allows you to insert the data kept from the deduplication process into the database. Somente quando os dados são atualizados é que os dados importados são identificados como pertencendo à dimensão do perfil.
+* Uma atividade [Atualizar dados](../../automating/using/update-data.md) permite inserir os dados mantidos do processo desduplicação-duplicado no banco de dados. Somente quando os dados são atualizados é que os dados importados são identificados como pertencendo à dimensão do perfil.
 
    Aqui, gostaríamos de **[!UICONTROL Insert only]** os perfis que ainda não existem no banco de dados. Vamos fazer isso usando a coluna de email do arquivo e o campo de email da dimensão do **Perfil** como a chave de reconciliação.
 
