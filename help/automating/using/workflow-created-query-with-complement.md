@@ -24,22 +24,22 @@ Você pode enviar um email para os clientes: um para clientes criados há menos 
 1. Selecione **[!UICONTROL New Workflow]** como tipo de fluxo de trabalho e clique em **[!UICONTROL Next]**.
 1. Insira as propriedades do fluxo de trabalho e clique em **[!UICONTROL Create]**.
 
-## Create a Query activity {#create-a-query-activity}
+## Criar uma atividade de Query {#create-a-query-activity}
 
 1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arraste e solte uma atividade de [Query](../../automating/using/query.md).
 1. Clique duas vezes na atividade.
-1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL email]** with the operator **[!UICONTROL is not empty]**.
-1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL no longer contact by email]** with the value **[!UICONTROL no]**.
+1. Em **[!UICONTROL Shortcuts]**, arraste e solte **[!UICONTROL Profiles]** e selecione **[!UICONTROL email]** com o operador **[!UICONTROL is not empty]**.
+1. Em **[!UICONTROL Shortcuts]**, arraste e solte **[!UICONTROL Profiles]** e selecione **[!UICONTROL no longer contact by email]** com o valor **[!UICONTROL no]**.
 1. Clique em **[!UICONTROL Confirm]**.
 
 ![](assets/wf-complement-query.png)
 
-## Create a Segmentation activity {#create-a-segmentation-activity}
+## Criar uma atividade de segmentação {#create-a-segmentation-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Segmentation](../../automating/using/segmentation.md) activity and double-click it.
-1. Passe o cursor do mouse sobre o segmento e clique em ![](assets/edit_darkgrey-24px.png) para clientes do público alvo adicionados este ano no banco de dados.
-1. Drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL Created]** with the filter type **[!UICONTROL Relative]**.
-1. Change the **[!UICONTROL Level of precision]** to **[!UICONTROL Year]** and select **[!UICONTROL This year]**.
+1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arraste e solte uma duplo [Segmentação](../../automating/using/segmentation.md) e clique nela.
+1. Passe o mouse sobre o segmento e clique em ![](assets/edit_darkgrey-24px.png) para que os clientes do público alvo adicionassem este ano no banco de dados.
+1. Arraste e solte **[!UICONTROL Profiles]** e selecione **[!UICONTROL Created]** com o tipo de filtro **[!UICONTROL Relative]**.
+1. Altere **[!UICONTROL Level of precision]** para **[!UICONTROL Year]** e selecione **[!UICONTROL This year]**.
 1. Clique em **[!UICONTROL Confirm]** duas vezes.
 1. Em **[!UICONTROL Advanced Options]**, marque **[!UICONTROL Generate complement]** para criar um segmento direcionando os recipient restantes.
 1. Clique em **[!UICONTROL Confirm]**.
@@ -53,7 +53,7 @@ Você pode enviar um email para os clientes: um para clientes criados há menos 
 
 ## Criação de um delivery de email {#create-an-email-delivery}
 
-1. Em **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, arraste e solte uma atividade de delivery [de e-](../../automating/using/email-delivery.md) mail após cada segmento.
+1. Em **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, arraste e solte uma atividade [delivery de e-mail](../../automating/using/email-delivery.md) após cada segmento.
 1. Clique na atividade e selecione ![](assets/edit_darkgrey-24px.png) para editar.
 1. Selecione **[!UICONTROL Single send email]** e clique em **[!UICONTROL Next]**.
 1. Selecione um template de email e clique em **[!UICONTROL Next]**.
