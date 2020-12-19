@@ -15,7 +15,7 @@ ht-degree: 8%
 ---
 
 
-# Conversão de conteúdo de email do editor herdado {#converting-an-html-content}
+# Convertendo conteúdo de email do editor herdado {#converting-an-html-content}
 
 Start que trabalha com o Email Designer e cria modelos e fragmentos reutilizáveis do seu HTML de email criado no Editor Herdado.
 
@@ -37,7 +37,7 @@ Esse caso de uso permite que você crie um modelo do Email Designer usando um em
 
 ## Criar sua estrutura de email
 
-1. Abra o arquivo **[!UICONTROL Email Designer]** para criar um conteúdo de email vazio.
+1. Abra o **[!UICONTROL Email Designer]** para criar um conteúdo de email vazio.
 1. Defina os atributos de nível de corpo: cores de fundo, largura, etc. Para obter mais informações, consulte [Edição de estilos de email](../../designing/using/styles.md).
 1. Adicione quantos componentes de estrutura você tiver seções. Para obter mais informações, consulte [Edição da estrutura do email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
@@ -48,7 +48,7 @@ Esse caso de uso permite que você crie um modelo do Email Designer usando um em
 
 ## Gerenciar o estilo do seu email {#manage-the-style-of-your-email}
 
-1. Mudar para **[!UICONTROL Mobile view]**. Para obter mais informações, consulte [esta seção](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
+1. Mude para **[!UICONTROL Mobile view]**. Para obter mais informações, consulte [esta seção](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
 1. Para corrigir isso, alterne para o modo de código fonte e copie e cole sua seção de estilo em uma nova seção de estilo. Por exemplo:
 
@@ -78,7 +78,7 @@ Esse caso de uso permite que você crie um modelo do Email Designer usando um em
 
 ## Caso de uso
 
-Vamos tentar converter este email, criado no editor herdado, em um **[!UICONTROL Email Designer]** modelo.
+Vamos tentar converter este email, criado no editor herdado, em um modelo **[!UICONTROL Email Designer]**.
 
 ### Identifique a seção do seu email
 
@@ -94,7 +94,7 @@ Para ver a versão HTML do email, clique em **[!UICONTROL Show source]**.
 
 ### Criar o modelo de email e sua estrutura
 
-1. Arraste e solte **[!UICONTROL Structure components]** refletindo o layout do nosso email.
+1. Arraste e solte **[!UICONTROL Structure components]** refletindo o layout de nosso email.
 
 1. Repita quantas vezes forem necessárias. Precisamos criar 11 componentes estruturais.
 
@@ -102,7 +102,7 @@ Para ver a versão HTML do email, clique em **[!UICONTROL Show source]**.
 
 ### Inserir componentes de conteúdo HTML
 
-1. Insira um **[!UICONTROL HTML component]** em cada **[!UICONTROL Structure component]** .
+1. Insira um **[!UICONTROL HTML component]** em cada **[!UICONTROL Structure component]**.
 
    ![](assets/html-components.png)
 
