@@ -50,7 +50,7 @@ Ao criar um email ou uma landing page, você pode optar por carregar um conteúd
 
 **Tópicos relacionados:**
 
-* [Criação de email](../../channels/using/creating-an-email.md)
+* [Criar email](../../channels/using/creating-an-email.md)
 * [Gerenciamento de landings page](../../channels/using/getting-started-with-landing-pages.md)
 
 ## Editar conteúdo existente com o Designer de email{#editing-existing-contents-with-the-email-designer}
@@ -163,7 +163,7 @@ Para obter mais informações sobre como converter um email existente em um emai
 
 **Tópicos relacionados**:
 
-* [Criação de email](../../channels/using/creating-an-email.md)
+* [Criar email](../../channels/using/creating-an-email.md)
 * [Vídeo de introdução ao Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Criar um conteúdo de email do zero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
