@@ -17,26 +17,26 @@ ht-degree: 13%
 
 # Definição dos parâmetros ao chamar o workflow {#defining-the-parameters-when-calling-the-workflow}
 
-Esta seção detalha como definir parâmetros ao chamar um fluxo de trabalho. Para obter mais informações sobre como executar essa operação a partir de uma chamada de API, consulte a documentação [](../../api/using/triggering-a-signal-activity.md)REST APIs.
+Esta seção detalha como definir parâmetros ao chamar um fluxo de trabalho. Para obter mais informações sobre como executar essa operação a partir de uma chamada de API, consulte a [documentação das APIs REST](../../api/using/triggering-a-signal-activity.md).
 
 Antes de definir os parâmetros, verifique se:
 
-* Os parâmetros foram declarados na **[!UICONTROL External Signal]** atividade. Consulte [esta página](../../automating/using/declaring-parameters-external-signal.md).
+* Os parâmetros foram declarados na atividade **[!UICONTROL External Signal]**. Consulte [esta página](../../automating/using/declaring-parameters-external-signal.md).
 * O fluxo de trabalho que contém a atividade de sinal está em execução.
 
-Para configurar a **[!UICONTROL End]** atividade, siga as etapas abaixo:
+Para configurar a atividade **[!UICONTROL End]**, siga as etapas abaixo:
 
-1. Open the **[!UICONTROL End]** activity, then select the **[!UICONTROL External signal]** tab.
+1. Abra a atividade **[!UICONTROL End]** e selecione a guia **[!UICONTROL External signal]**.
 1. Selecione o fluxo de trabalho e a atividade de sinal externo que você deseja chamar.
-1. Clique no **[!UICONTROL Create element]** botão para adicionar um parâmetro e, em seguida, preencha seu nome e valor.
+1. Clique no botão **[!UICONTROL Create element]** para adicionar um parâmetro e, em seguida, preencha seu nome e valor.
 
-   * **[!UICONTROL Name]**: o nome que foi declarado na **[!UICONTROL External signal]** atividade (consulte [esta página](../../automating/using/declaring-parameters-external-signal.md)).
-   * **[!UICONTROL Value]**: o valor que você deseja atribuir ao parâmetro. O valor deve seguir a sintaxe **Padrão, descrita** nesta seção [](../../automating/using/advanced-expression-editing.md#standard-syntax).
+   * **[!UICONTROL Name]**: o nome que foi declarado na  **[!UICONTROL External signal]** atividade (consulte  [esta página](../../automating/using/declaring-parameters-external-signal.md)).
+   * **[!UICONTROL Value]**: o valor que você deseja atribuir ao parâmetro. O valor deve seguir a **sintaxe Standard**, descrita em [esta seção](../../automating/using/advanced-expression-editing.md#standard-syntax).
 
    ![](assets/extsignal_definingparameters_2.png)
 
    >[!CAUTION]
    >
-   >Make sure that all the parameters have been declared in the **[!UICONTROL External signal]** activity. Caso contrário, ocorrerá um erro ao executar a atividade.
+   >Verifique se todos os parâmetros foram declarados na atividade **[!UICONTROL External signal]**. Caso contrário, ocorrerá um erro ao executar a atividade.
 
 1. Depois que os parâmetros tiverem sido definidos, confirme a atividade e salve seu fluxo de trabalho.
