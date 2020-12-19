@@ -36,13 +36,13 @@ Gerencie a permissão e o consentimento dos clientes usando serviços e landing 
 
 Ao criar campanhas ou mensagens, você pode especificar o público alvo dos delivery selecionando contatos no banco de dados de Campanha, usando critérios simples ou avançados ou selecionando audiências.
 
-Identifique os clientes de forma mais eficiente em todos os canais usando perfis **de clientes** integrados, segmentos **** personalizados e **grupos de controle**. Quando você conhece seus clientes, interesses, demografia e preferências de canal, é mais fácil criar experiências personalizadas que sejam notadas.
+Identifique os clientes com mais eficiência em todos os seus canais usando **perfis de clientes integrados**, **segmentos personalizados** e **grupos de controle**. Quando você conhece seus clientes, interesses, demografia e preferências de canal, é mais fácil criar experiências personalizadas que sejam notadas.
 
 A Adobe Campaign constrói perfis de clientes ricos em tempo real, permitindo que você forneça ofertas mais relevantes e personalizadas à medida que as preferências do cliente mudam. Além disso, a Adobe Campaign integra funcionalidades avançadas de análise, gestão de dados e segmentação para criar audiências.
 
-**Perfis** são contatos individuais armazenados no banco de dados. Cada perfil corresponde a uma entrada no banco de dados que contém as informações necessárias para que o perfil seja direcionado, qualificado e rastreado individualmente: A Adobe Campaign pode rastrear todas as interações de canais online e offline e mesclá-las em um único perfil.
+**Os** perfis são contatos individuais armazenados no banco de dados. Cada perfil corresponde a uma entrada no banco de dados que contém as informações necessárias para que o perfil seja direcionado, qualificado e rastreado individualmente: A Adobe Campaign pode rastrear todas as interações de canais online e offline e mesclá-las em um único perfil.
 
-**Audiências** são listas de perfis baseadas em um critério específico ou conjunto de critérios. Usando workflows e o editor de query, você pode criar audiências que serão direcionadas pelas suas campanhas de marketing, dependendo das informações que você tiver sobre elas, suas atividades e seus históricos de marketing. Isso permite filtrar perfis inscritos, amostras ou criar audiências de públicos alvos em um número ilimitado de critérios.
+**Os** públicos-alvo são listas de perfis baseadas em um critério específico ou conjunto de critérios. Usando workflows e o editor de query, você pode criar audiências que serão direcionadas pelas suas campanhas de marketing, dependendo das informações que você tiver sobre elas, suas atividades e seus históricos de marketing. Isso permite filtrar perfis inscritos, amostras ou criar audiências de públicos alvos em um número ilimitado de critérios.
 
 Leia mais:
 
@@ -60,28 +60,28 @@ Leia mais:
 
 Antes de começar a enviar mensagens para um contato, é necessário certificar-se de que você obtém a permissão. Caso contrário, seus emails podem ser marcados como spam e isso afetará a capacidade de entrega da plataforma. Para garantir a criação de um banco de dados de perfis saudável, proteja essa permissão como uma primeira etapa.
 
-Com a Campanha, recomendamos que você use mecanismos **fáceis de aceitação e não participação por meio de** serviços [e do](../../audiences/using/creating-a-service.md)landing page [](../../channels/using/getting-started-with-landing-pages.md) para atualizar suas informações de contato e aumentar seu banco de dados.
+Com a Campanha, recomendamos que você use **mecanismos fáceis de aceitação e de não participação** por meio de [serviços](../../audiences/using/creating-a-service.md) e [landing page](../../channels/using/getting-started-with-landing-pages.md) para atualizar suas informações de contato e aumentar seu banco de dados.
 
-Fornecer links **de** unsubscription em suas mensagens permitirá que Perfis sejam adicionados à lista de bloqueios, quando necessário, e, portanto, melhorar a capacidade de entrega da plataforma. For more on denylist management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Fornecer **links de unsubscription** em suas mensagens permitirá que Perfis sejam adicionados à lista de bloqueios, quando necessário, e, portanto, para melhorar a capacidade de entrega da plataforma. Para obter mais informações sobre o gerenciamento de lista de bloqueios, consulte [Sobre a aceitação e a recusa na Campanha](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
->Você deve respeitar a política [de uso aceitável da](https://www.adobe.com/legal/terms/aup.html)Adobe Campaign.
+>Você deve respeitar a [política de uso aceitável da Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
 
 Leia mais:
 
 * [Sobre assinaturas](../../audiences/using/about-subscriptions.md)
 * [Sobre participação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
-## Conformidade com a privacidade {#privacy}
+## Conformidade de privacidade {#privacy}
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
-Adobe Campaign offers a set of tools to help you with your **Privacy Compliance** for GDPR, CCPA, and other privacy laws.
+A Adobe Campaign oferta um conjunto de ferramentas para ajudá-lo com sua **Conformidade com Privacidade** para RGPD, CCPA e outras leis de privacidade.
 
-Saiba mais neste artigo [](https://helpx.adobe.com/br/campaign/kb/campaign-privacy.html) sobre o Gerenciamento de privacidade e os recursos que fornecemos para gerenciar o direito de acesso, o direito de ser esquecido, o consentimento, a retenção de dados e as funções do usuário.
+Saiba mais neste [artigo](https://helpx.adobe.com/br/campaign/kb/campaign-privacy.html) sobre o Gerenciamento de privacidade e os recursos que fornecemos para gerenciar o direito de acesso, o direito de ser esquecido, o consentimento, a retenção de dados e as funções do usuário.
 
-Privacidade e consentimento na Campanha e como gerenciá-los são apresentados [nesta seção](../../start/using/privacy.md). Você também encontrará as práticas recomendadas para ajudar você a estar em conformidade com a privacidade ao usar nosso serviço.
+Privacidade e consentimento na Campanha e como gerenciá-los são apresentados em [esta seção](../../start/using/privacy.md). Você também encontrará as práticas recomendadas para ajudar você a estar em conformidade com a privacidade ao usar nosso serviço.
 
 ## Recursos adicionais
 
