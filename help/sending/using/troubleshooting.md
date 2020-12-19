@@ -48,7 +48,7 @@ Se o problema persistir, entre em contato com os serviços comerciais ou de entr
 
 ## Remoção da lista de bloqueios {#removing-from-denylist}
 
-* **Um dos meus recipient foi adicionado à lista de bloqueios por engano. How do I remove them from the denylist so that I can start sending them messages again?**
+* **Um dos meus recipient foi adicionado à lista de bloqueios por engano. Como removê-los da lista de bloqueios para que eu possa start de enviar mensagens novamente?**
 
    * Vá para **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
    * Nos detalhes do registro correspondente, defina o valor do campo **[!UICONTROL Status]** como **[!UICONTROL Valid]**.
