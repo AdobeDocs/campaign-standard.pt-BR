@@ -16,7 +16,7 @@ ht-degree: 38%
 ---
 
 
-# Retargeting workflow sending a new delivery to non-openers{#retargeting-delivery-to-non-openers}
+# Fluxo de trabalho de redefinição de metas enviando um novo delivery para não iniciantes{#retargeting-delivery-to-non-openers}
 
 Você pode enviar um e-mail para os clientes e, em seguida, um sms para aqueles que não abriram o e-mail.
 
@@ -24,19 +24,19 @@ Você pode enviar um e-mail para os clientes e, em seguida, um sms para aqueles 
 1. Selecione **[!UICONTROL New Workflow]** como tipo de fluxo de trabalho e clique em **[!UICONTROL Next]**.
 1. Insira as propriedades do fluxo de trabalho e clique em **[!UICONTROL Create]**.
 
-## Creating a query activity{#creating-a-query-activity}
+## Criação de uma atividade de query{#creating-a-query-activity}
 
 1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arraste e solte uma atividade de [Query](../../automating/using/query.md).
 1. Clique duas vezes na atividade.
-1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL email]** with the operator **[!UICONTROL is not empty]**.
-1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL no longer contact by email]** with the value **[!UICONTROL no ]**.
+1. Em **[!UICONTROL Shortcuts]**, arraste e solte **[!UICONTROL Profiles]** e selecione **[!UICONTROL email]** com o operador **[!UICONTROL is not empty]**.
+1. Em **[!UICONTROL Shortcuts]**, arraste e solte **[!UICONTROL Profiles]** e selecione **[!UICONTROL no longer contact by email]** com o valor **[!UICONTROL no ]**.
 1. Clique em **[!UICONTROL Confirm]**.
 
 ![](assets/wf-complement-query.png)
 
 ## Criação de um delivery de email{#creating-an-email-delivery}
 
-1. Arraste e solte um delivery [de](../../automating/using/email-delivery.md) email após cada segmento.
+1. Arraste e solte um [delivery de e-mail](../../automating/using/email-delivery.md) após cada segmento.
 1. Clique na atividade e selecione ![](assets/edit_darkgrey-24px.png) para editar.
 1. Selecione **[!UICONTROL Simple email]** e clique em **[!UICONTROL Next]**.
 1. Selecione **[!UICONTROL Add an outbound transition without the population]** e clique em **[!UICONTROL Next]**.
@@ -50,27 +50,27 @@ Você pode enviar um e-mail para os clientes e, em seguida, um sms para aqueles 
 
 ## Direcionando não-iniciantes em uma atividade de query{#targeting-non-openers-in-a-query-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, drag and drop a [Wait](../../automating/using/wait.md) activity.
+1. Em **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, arraste e solte uma atividade [Wait](../../automating/using/wait.md).
 1. Em **[!UICONTROL Duration]**, clique em ![](assets/duration-icon.png) e selecione um dia.
 1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arraste e solte uma **[!UICONTROL Query activity]**.
 1. Clique duas vezes na atividade.
 1. Em **[!UICONTROL Shortcuts]**, arraste e solte **[!UICONTROL Tracking Logs]** e com o operador **[!UICONTROL exists]**.
-1. Em **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**, arraste e solte **[!UICONTROL delivery]** com o operador **[!UICONTROL is equal to]** e selecione o delivery como valor.
-1. Em **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**, arraste e solte **[!UICONTROL type]** e marque **[!UICONTROL Open]** como valor.
+1. Em **[!UICONTROL Shortcuts]** **[!UICONTROL Delivery]**, arraste e solte **[!UICONTROL delivery]** com o operador **[!UICONTROL is equal to]** e selecione o delivery como valor.
+1. Em **[!UICONTROL Shortcuts]** **[!UICONTROL Delivery]**, arraste e solte **[!UICONTROL type]** e marque **[!UICONTROL Open]** como valor.
 1. Selecione o operador entre as regras como **[!UICONTROL except]**.
 1. Clique em **[!UICONTROL Confirm]**.
 
-## Creating a sms delivery{#creating-a-sms-delivery}
+## Criação de um delivery sms{#creating-a-sms-delivery}
 
 1. Arraste e solte um delivery sms após cada segmento.
 1. Clique na atividade e selecione ![](assets/edit_darkgrey-24px.png) para editar.
 1. Selecione **[!UICONTROL Simple sms]** e clique em **[!UICONTROL Next]**.
-1. Select an sms template and click **[!UICONTROL Next]**.
-1. Enter the sms properties and click **[!UICONTROL Next]**.
-1. To create the layout of your sms, click on **[!UICONTROL Email Designer]**.
+1. Selecione um modelo sms e clique em **[!UICONTROL Next]**.
+1. Insira as propriedades do sms e clique em **[!UICONTROL Next]**.
+1. Para criar o layout do seu sms, clique em **[!UICONTROL Email Designer]**.
 1. Insira elementos ou selecione um template.
 1. Personalize seus sms com ofertas específicas para cada local.
-Para obter mais informações, consulte a seção [Design e sms](../../channels/using/creating-an-sms-message.md) .
+Para obter mais informações, consulte a seção [Projetando um sms](../../channels/using/creating-an-sms-message.md).
 1. Clique em **[!UICONTROL Preview]** para verificar o layout.
 1. Clique em **[!UICONTROL Save]**.
 
