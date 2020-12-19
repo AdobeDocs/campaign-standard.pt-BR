@@ -51,7 +51,7 @@ Os públicos-alvo podem ser definidos ao criar a mensagem com o assistente de cr
 
    Para saber mais sobre como configurar perfis de teste, consulte a seção [Perfis de teste](../../audiences/using/managing-test-profiles.md).
 
-1. Se necessário, é possível definir um grupo de controle usando a guia correspondente. Isso permitirá que você retire alguns perfis do seu público alvo para que eles não recebam a mensagem. For more on this, see [Adding a control group](../../sending/using/control-group.md).
+1. Se necessário, é possível definir um grupo de controle usando a guia correspondente. Isso permitirá que você retire alguns perfis do seu público alvo para que eles não recebam a mensagem. Para obter mais informações, consulte [Adicionar um grupo de controle](../../sending/using/control-group.md).
 
 1. Você também pode usar endereços de substituição para obter uma representação exata da mensagem que o perfil receberá.  Para mais informações, consulte [Testar mensagens de email usando perfis segmentados](../../sending/using/testing-messages-using-target.md).
 
