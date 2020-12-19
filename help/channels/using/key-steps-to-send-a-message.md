@@ -17,7 +17,7 @@ ht-degree: 93%
 
 # Etapas principais para enviar uma mensagem{#key-steps-to-send-a-message}
 
-To learn the delivery best practices, consult the [Delivery best practices](../../sending/using/delivery-best-practices.md) section.
+Para aprender as práticas recomendadas do delivery, consulte a seção [Práticas recomendadas do Delivery](../../sending/using/delivery-best-practices.md).
 
 As etapas para criar e enviar mensagens são as seguintes:
 
