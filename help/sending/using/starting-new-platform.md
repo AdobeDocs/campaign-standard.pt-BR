@@ -25,13 +25,13 @@ Começar a enviar emails em uma nova plataforma é uma etapa delicada, pois a pl
 Não se pode esperar atingir a velocidade operacional em termos de saída no início da fase de produção. Além disso, você não deve tentar enviar mensagens a essa taxa, pois isso pode levar os ISPs a bloquear os endereços de envio e comprometer seriamente o restante da fase de inicialização.
 
 A inicialização de uma plataforma geralmente ocorre ao usar uma lista de endereços pela primeira vez e que podem não ser totalmente qualificados. Se você enviar para endereços inválidos ou para endereços armadilha, isso contribuirá para diminuir a reputação da plataforma.
-* If you have a list of invalid addresses, it is in your best interests to import it into the quarantine table (**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Quarantines]** > **[!UICONTROL Addresses]**) before sending for the first times. Para obter mais informações, consulte esta [seção](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
+* Se você tiver uma lista de endereços inválidos, é do seu interesse importá-la para a tabela de quarentena (**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Quarantines]** > **[!UICONTROL Addresses]**) antes de enviar pela primeira vez. Para obter mais informações, consulte esta [seção](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
 * Se, mesmo assim, você quiser requalificar os endereços inválidos, é preferível fazer isso assim que a reputação da plataforma for estabelecida e pouco a pouco para &quot;diluir&quot; o uso de endereços inválidos ao longo do tempo.
 
 Para resumir os princípios a serem seguidos ao iniciar:
-* **Configure um subdomínio** dedicado para trabalhar com Campanhas específicas para campanhas de e-mail enviadas do Adobe.
-* **Importe endereços inválidos/inativos para a tabela** de quarentena (se você tiver essas informações).
-* **Limite a taxa de transferência** do delivery (configuração técnica: limitação do número de crianças).
+* **Configure um** subdomínio dedicado para trabalhar com Campanhas específicas para campanhas de e-mail enviadas do Adobe.
+* **Importe endereços inválidos/inativos para a tabela**  de quarentena (se você tiver essas informações).
+* **Limitar a** velocidade de processamento do delivery (definição técnica: limitação do número de crianças).
 * **Aumente progressivamente os volumes enviados**: não público alvo todo o banco de dados do próprio start, mas adicione uma fração extra da lista sempre que enviar. Isso deve permitir aumentar o volume em cada etapa e reduzir a taxa geral de endereços inválidos.
 * **Enviar mensagens regularmente**: até certo ponto, é melhor enviar regularmente campanhas pequenas em vez de esporadicamente.
 * **Monitore de perto os relatórios do delivery**: indicadores de erro elevados podem significar que uma configuração técnica está mal configurada.
