@@ -33,10 +33,10 @@ As assinaturas também podem ser gerenciadas com a API do Adobe Campaign Standar
 
 Siga as etapas abaixo para criar um mecanismo de subscrição:
 
-1. **Criar um serviço** - siga as etapas descritas [nesta seção](../../audiences/using/creating-a-service.md) para criar uma subscrição no serviço
-1. **Compartilhar o link** - saiba como promover e compartilhar seu serviço [nesta página](../../audiences/using/promoting-a-service.md)
-1. **Subscrições** do monitor - descubra várias maneiras de monitorar subscrições ao seu serviço [nesta seção](../../audiences/using/monitoring-subscriptions.md)
-1. **Confirmar subscrições** - siga [este tutorial](../../audiences/using/confirming-subscription-to-a-service.md) para enviar uma mensagem de confirmação de subscrição
+1. **Criar um serviço**  - siga as etapas descritas  [nesta ](../../audiences/using/creating-a-service.md) seção para criar uma subscrição no serviço
+1. **Compartilhe o link**  - saiba como promover e compartilhar seu serviço  [nesta página](../../audiences/using/promoting-a-service.md)
+1. **Monitorar subscrições**  - descubra várias maneiras de monitorar subscrições ao seu serviço  [nesta seção](../../audiences/using/monitoring-subscriptions.md)
+1. **Confirmar subscrições**  - siga  [este ](../../audiences/using/confirming-subscription-to-a-service.md) tutorial para enviar uma mensagem de confirmação de subscrição
 
 ## Recursos adicionais
 
