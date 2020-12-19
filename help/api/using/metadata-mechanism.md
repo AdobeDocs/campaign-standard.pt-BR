@@ -17,13 +17,13 @@ ht-degree: 1%
 
 # Mecanismo de metadados {#metadata-mechanism}
 
-Você pode recuperar os metadados dos recursos usando **resourceType** em uma solicitação de GET:
+Você pode recuperar os metadados de recursos usando **resourceType** em uma solicitação de GET:
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
 A resposta retorna os principais metadados do recurso (todos os outros campos são descritivos ou internos):
 
-* O nó **Conteúdo** retorna os campos do recurso. Para cada campo no nó **content** , podemos encontrar os seguintes campos:
+* O nó **Content** retorna os campos do recurso. Para cada campo no nó **content**, podemos encontrar os seguintes campos:
 
    * &quot;apiName&quot;: nome do atributo usado nas APIs.
    * &quot;Tipo&quot;: esta é a definição de tipo de alto nível (cadeia de caracteres, número, link, coleção, lista discriminada...).
@@ -32,9 +32,9 @@ A resposta retorna os principais metadados do recurso (todos os outros campos s�
    * &quot;resType&quot;: este é o tipo técnico.
 
       Se &quot;type&quot; for concluído com o valor &quot;link&quot; ou &quot;collection&quot;, o valor resTarget será o nome do recurso direcionado pelo link.
-Se &quot;type&quot; for concluído com o valor &quot;lista discriminada&quot;, um campo &quot;values&quot; será adicionado e cada valor de lista discriminada será detalhado no nó **values** .
+Se &quot;type&quot; for concluído com o valor &quot;lista discriminada&quot;, um campo &quot;values&quot; será adicionado e cada valor de lista discriminada será detalhado no nó **values**.
 
-* O nó **Filtros** retorna o URL para recuperar os filtros associados. For more on filters, refer to [this section](../../api/using/filtering.md) section.
+* O nó **Filtros** retorna o URL para recuperar os filtros associados. Para obter mais informações sobre filtros, consulte a seção [this section](../../api/using/filtering.md).
 
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
