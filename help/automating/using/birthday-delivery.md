@@ -24,14 +24,14 @@ Esse exemplo é um workflow de aniversário. Todos os dias, um email é enviado 
 
 Para criar o fluxo de trabalho, siga estas etapas:
 
-* The [Scheduler](../../automating/using/scheduler.md) allows you to start the workflow every day at 8am.
+* O start [a1/> permite que você Scheduler o fluxo de trabalho todos os dias às 8h00.](../../automating/using/scheduler.md)
 
    ![](assets/wkf_delivery_example_2.png)
 
-* The [Query](../../automating/using/query.md) activity allows you to calculate the profiles who have provided an email and whose birthday it is on the current day, every time the workflow is executed. O cálculo do aniversário é executado usando um filtro predefinido, disponível na paleta da ferramenta de edição de queries.
+* A atividade [Query](../../automating/using/query.md) permite calcular os perfis que forneceram um email e cujo aniversário é no dia atual, sempre que o fluxo de trabalho é executado. O cálculo do aniversário é executado usando um filtro predefinido, disponível na paleta da ferramenta de edição de queries.
 
    ![](assets/wkf_delivery_example_3.png)
 
-* O delivery [](../../automating/using/email-delivery.md) Email é recorrente. Os envios são agregados por mês. Assim, todos os emails enviados em um mês são agregados em uma única visualização. Portanto, em um ano, 365 deliveries são executados, mas são agrupados em 12 visualizações (também chamadas de **execuções recorrentes**) na interface do Adobe Campaign. O histórico e os detalhes do relatório são exibidos todos os meses e não para cada envio.
+* O delivery [Email](../../automating/using/email-delivery.md) é recorrente. Os envios são agregados por mês. Assim, todos os emails enviados em um mês são agregados em uma única visualização. Portanto, em um ano, 365 deliveries são executados, mas são agrupados em 12 visualizações (também chamadas de **execuções recorrentes**) na interface do Adobe Campaign. O histórico e os detalhes do relatório são exibidos todos os meses e não para cada envio.
 
    ![](assets/wkf_delivery_example_4.png)
