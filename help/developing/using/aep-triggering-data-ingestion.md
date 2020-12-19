@@ -34,9 +34,9 @@ Antes de usar as APIs, o mapeamento de dados deve ter sido configurado e publica
 
 Depois que o mapeamento de dados é criado, você deve impedir que ele seja executado para que você possa acioná-lo das APIs sempre que desejar. Para fazer isso, siga estes passos:
 
-1. No Campaign Standard, vá para o menu **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** .
+1. No Campaign Standard, vá para o menu **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]**.
 
-1. Clique no mapeamento de dados com o duplo do mouse para abri-lo e clique no **[!UICONTROL Stop]** botão.
+1. Clique com o duplo do mouse no mapeamento de dados para abri-lo e clique no botão **[!UICONTROL Stop]**.
 
    ![](assets/aep_datamapping_stop.png)
 
@@ -52,9 +52,10 @@ A ingestão imediata de um mapeamento XDM no Adobe Experience Platform é aciona
 
 >[!NOTE]
 >
->Para executar a chamada de API ingest POST, o usuário deve ter uma função de execução **de função** SQL, que pode ser fornecida por um administrador de Campaign Standard executando abaixo o Script JS:
+>Para executar a chamada de API ingest POST, o usuário deve ter uma função **execução da função SQL**, que pode ser fornecida por um administrador Campaign Standard executando abaixo o Script JS:
 >
->```
+>
+```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
@@ -105,7 +106,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->Informações detalhadas sobre o status da solicitação de mapeamento XDM e seus trabalhos relacionados estão disponíveis na interface do Campaign Standard, no **[!UICONTROL Status of data export to platform]** menu (consulte [Mapeamento da ativação](../../developing/using/aep-mapping-activation.md)).
+>Informações detalhadas sobre o status da solicitação de mapeamento XDM e seus trabalhos relacionados estão disponíveis na interface do Campaign Standard, no menu **[!UICONTROL Status of data export to platform]** (consulte [ativação de mapeamento](../../developing/using/aep-mapping-activation.md)).
 
 A operação de GET retorna as informações abaixo:
 
