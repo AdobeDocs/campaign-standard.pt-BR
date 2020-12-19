@@ -22,9 +22,9 @@ ht-degree: 4%
 >
 >O serviço Destinos de audiência está atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam estar hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente do Adobe se desejar acessá-lo.
 
-O Construtor de segmentos permite criar audiências definindo regras com base nos dados provenientes do Perfil [Cliente em tempo](https://docs.adobe.com/content/help/pt-BR/experience-platform/profile/home.html)real.
+O Construtor de segmentos permite que você crie audiências definindo regras com base nos dados provenientes do [Perfil do cliente em tempo real](https://docs.adobe.com/content/help/pt-BR/experience-platform/profile/home.html).
 
-Esta seção apresenta conceitos globais ao criar um segmento. Para obter informações detalhadas sobre o Construtor de segmentos propriamente dito, consulte o guia [do usuário do Construtor de](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)segmentos.
+Esta seção apresenta conceitos globais ao criar um segmento. Para obter informações detalhadas sobre o próprio Construtor de segmentos, consulte o [Guia do usuário do Construtor de segmentos](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
 A interface do Construtor de segmentos é composta da seguinte maneira:
 
@@ -46,7 +46,7 @@ O Construtor de segmentos agora deve ser exibido em sua área de trabalho. Ele p
 
 1. Certifique-se de que a política de mesclagem desejada esteja selecionada no painel de configurações.
 
-   Para obter mais informações sobre políticas de mesclagem, consulte a seção dedicada no guia [do usuário do Construtor de](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)segmentos.
+   Para obter mais informações sobre políticas de mesclagem, consulte a seção dedicada do [Guia do usuário do Construtor de segmentos](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -64,7 +64,7 @@ O Construtor de segmentos agora deve ser exibido em sua área de trabalho. Ele p
 
 O painel esquerdo lista todos os atributos, eventos e audiências disponíveis para uso na construção de regras.
 
-Os campos listados são atributos capturados pela sua empresa e disponibilizados pelo sistema [](https://docs.adobe.com/content/help/pt-BR/experience-platform/xdm/home.html)Experience Data Model (XDM).
+Os campos listados são atributos capturados pela sua empresa e disponibilizados pelo [Sistema do Modelo de Dados de Experiência (XDM)](https://docs.adobe.com/content/help/pt-BR/experience-platform/xdm/home.html).
 
 Os campos são organizados em guias:
 
@@ -78,7 +78,7 @@ Os campos são organizados em guias:
 
 >[!NOTE]
 >
->**A segmentação** de várias entidades permite estender os dados do Perfil com dados adicionais baseados em produtos, lojas ou outras classes que não sejam de perfil. Depois de conectados, os dados de classes adicionais ficam disponíveis como se fossem nativos para o schema do Perfil.
+>**A** segmentação de várias entidades permite estender os dados do Perfil com dados adicionais baseados em produtos, lojas ou outras classes que não sejam de perfil. Depois de conectados, os dados de classes adicionais ficam disponíveis como se fossem nativos para o schema do Perfil.
 >
 >Para obter mais informações, consulte a [documentação dedicada](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html).
 
@@ -94,7 +94,7 @@ O símbolo no final de cada campo fornece informações adicionais sobre o atrib
 
 >[!NOTE]
 >
->A seção abaixo fornece informações globais sobre a definição de regras. Para obter mais informações, consulte o guia [do usuário do Construtor de](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)segmentos.
+>A seção abaixo fornece informações globais sobre a definição de regras. Para obter mais informações, consulte o [Guia do usuário do Construtor de segmentos](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
 Para criar uma regra, siga estas etapas:
 
@@ -106,9 +106,9 @@ Para criar uma regra, siga estas etapas:
 
    ![](assets/aep_audiences_malegender.png)
 
-   A população estimada correspondente ao segmento é automaticamente recalculada na **[!UICONTROL Segment Properties]** seção.
+   A população estimada correspondente ao segmento é recalculada automaticamente na seção **[!UICONTROL Segment Properties]**.
 
-1. O **[!UICONTROL View Profiles]** botão fornece uma pré-visualização dos primeiros 20 registros correspondentes à regra, permitindo que você valide o segmento rapidamente.
+1. O botão **[!UICONTROL View Profiles]** oferece uma pré-visualização dos primeiros 20 registros correspondentes à regra, permitindo que você valide o segmento rapidamente.
 
    ![](assets/aep_audiences_samplepreview.png)
 
@@ -132,7 +132,7 @@ Para fazer isso, siga estes passos:
 
 1. Selecione o segundo campo (por exemplo, o código postal do endereço de trabalho) que será comparado ao primeiro campo.
 
-   Arraste-o para a área de trabalho central, no mesmo container do primeiro campo, na **[!UICONTROL Drop here to compare operands]** caixa.
+   Arraste-o para a área de trabalho central, no mesmo container do primeiro campo, na caixa **[!UICONTROL Drop here to compare operands]**.
 
    ![](assets/aep_audiences_comparing_2.png)
 
