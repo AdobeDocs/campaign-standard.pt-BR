@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -58,7 +58,7 @@ As seções a seguir descrevem as etapas principais para executar um mapeamento 
 
 * Serviço de ID de Experience Cloud (ECID) é um identificador de dispositivo enviado por padrão com Eventos de experiência.
 
-   É uma ID exclusiva e persistente atribuída a um visitante, que pode ser usada pelo Serviço de identificação da plataforma para identificar o mesmo visitante e seus dados em diferentes soluções de Experience Cloud. Para obter mais informações, consulte a [Ajuda do Experience Cloud Identity Service](https://docs.adobe.com/content/help/pt-BR/id-service/using/home.html).
+   É uma ID exclusiva e persistente atribuída a um visitante, que pode ser usada pelo Serviço de identificação da plataforma para identificar o mesmo visitante e seus dados em diferentes soluções de Experience Cloud. Para obter mais informações, consulte a [Ajuda do Experience Cloud Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html).
 
    >[!NOTE]
    >
@@ -68,7 +68,7 @@ As seções a seguir descrevem as etapas principais para executar um mapeamento 
 
 * A transferência predefinida de eventos de subscrição não é suportada. Para transferir eventos de subscrição, você pode criar XDM e conjunto de dados correspondentes no Adobe Experience Platform e, em seguida, configurar um mapeamento de dados personalizado para esses dados.
 
-* Quanto às solicitações de privacidade (tanto as ações de Acesso quanto Excluir), os clientes precisam colocar solicitações separadas por meio do [Privacy Core Service](https://docs.adobe.com/content/help/en/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests): um para Campanha e outro para Adobe Experience Platform. Para obter mais informações, consulte [Sobre solicitações de privacidade](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess) e [Gerenciando solicitações de privacidade](https://helpx.adobe.com/br/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) na Campanha.
+* Quanto às solicitações de privacidade (tanto as ações de Acesso quanto Excluir), os clientes precisam colocar solicitações separadas por meio do [Privacy Core Service](https://docs.adobe.com/content/help/en/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests): um para Campanha e outro para Adobe Experience Platform. Para obter mais informações, consulte [Sobre solicitações de privacidade](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=pt-BR#getting-started) e [Gerenciando solicitações de privacidade](https://helpx.adobe.com/br/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) na Campanha.
 
 * Para cada campo XDM, a rotulação DULE precisa ser feita no Adobe Experience Platform. Esta é a responsabilidade do cliente de aplicar etiquetas DULE.
 
@@ -82,4 +82,4 @@ Este vídeo fornece uma visão geral sobre o Adobe Experience Platform Data Conn
 
 https://video.tv.adobe.com/v/27304?quality=12&amp;captions=por_br
 
-Vídeos adicionais relacionados ao Adobe Experience Platform Data Connector estão disponíveis [aqui](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html).
+Vídeos adicionais relacionados ao Adobe Experience Platform Data Connector estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html?lang=pt-BR#administrating).
