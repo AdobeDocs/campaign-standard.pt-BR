@@ -52,15 +52,15 @@ As etapas abaixo descrevem um caso de uso passo a passo para importar e usar a c
 >
 >Nosso exemplo usa o Postman. Entretanto, sinta-se à vontade para usar seu cliente REST favorito.
 
-1. Baixe a coleção JSON clicando [aqui](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip).
+1. Baixe a coleção JSON clicando em [here](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip).
 
-1. Abra o Postman e selecione o menu **Arquivo** / **Importar** .
+1. Abra o Postman e selecione o menu **Arquivo** / **Importar**.
 
 1. Arraste e solte o arquivo baixado na janela. As solicitações de API pré-projetadas são exibidas, prontas para serem usadas.
 
    ![texto alternativo](assets/postman_collection.png)
 
-1. Selecione a solicitação **Criando um perfil** e atualize a solicitação de POST e a guia **Cabeçalhos** com suas próprias informações (&lt;ORGANIZAÇÃO>, &lt;API_KEY>, &lt;ACCESS_TOKEN>). Para obter mais informações, consulte [esta seção](../../api/using/setting-up-api-access.md).
+1. Selecione a solicitação **Criação de um perfil**, em seguida, atualize a solicitação POST e a guia **Cabeçalhos** com suas próprias informações (&lt;ORGANIZAÇÃO>, &lt;API_KEY>, &lt;ACCESS_TOKEN>). Para obter mais informações, consulte [esta seção](../../api/using/setting-up-api-access.md).
 
    ![texto alternativo](assets/postman_uc1.png)
 
