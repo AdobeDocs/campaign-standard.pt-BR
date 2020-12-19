@@ -21,17 +21,17 @@ O Relatórios dinâmico fornece relatórios totalmente personalizáveis e em tem
 
 >[!NOTE]
 >
->Somente os usuários com direitos administrativos ou com unidades organizacionais definidas como **Todos** podem criar ou salvar um novo relatório. Para obter mais informações, consulte esta [seção](../../administration/using/users-management.md).
+>Somente usuários com direitos administrativos ou com unidades organizacionais definidas como **Todos** podem criar ou salvar um novo relatório. Para obter mais informações, consulte esta [seção](../../administration/using/users-management.md).
 
-## Acesso a relatórios dinâmicos {#accessing-dynamic-reports}
+## Acessar relatórios dinâmicos {#accessing-dynamic-reports}
 
 Os relatórios podem ser acessados:
 
-* No home page, selecionando a **[!UICONTROL Reports]** guia na barra superior ou no **[!UICONTROL Reports]** cartão para acessar os relatórios de todos os delivery.
+* No home page, selecionando a guia **[!UICONTROL Reports]** na barra superior ou no cartão **[!UICONTROL Reports]** para acessar os relatórios de todos os delivery.
 
    ![](assets/campaign_reports_access.png)
 
-* Em cada programa, campanha e mensagem, no botão **Relatórios** , clicando em Relatórios **** dinâmicos para apenas visualização os relatórios específicos do delivery.
+* Em cada programa, campanha e mensagem, no botão **Relatórios** clicando em **Relatórios dinâmicos** para visualização apenas os relatórios específicos do delivery.
 
    ![](assets/campaign_reports_description.png)
 
@@ -39,8 +39,8 @@ Determinados relatórios não podem estar disponíveis imediatamente após um de
 
 Os relatórios dinâmicos são divididos em duas categorias:
 
-* **Modelos**, que podem ser modificados copiando-os usando a opção **Salvar como** (**Projeto > Salvar como...**) no modelo.
-* **Relatórios** personalizados (identificados em azul), que podem ser criados diretamente clicando no botão **Criar novo projeto** no home page **Relatórios** .
+* **Modelos**, que podem ser modificados copiando-os usando a opção  **Salvar** como (**Projeto > Salvar como...**) no modelo.
+* **Relatórios**  personalizados (identificados em azul), que podem ser criados diretamente clicando no botão  **Criar novo** projeto na página  **** Relatórios.
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ O objetivo do contrato de uso do relatórios dinâmico é funcionar como um cons
 
 Três opções estão disponíveis:
 
-* **[!UICONTROL Ask me later]**: Ao clicar em **Perguntar mais tarde**, a janela parará de ser exibida por 24 horas. Até que você aceite ou recuse o contrato, as dimensões do perfil não aparecerão em seus relatórios e as informações de identificação pessoal de seus clientes não serão coletadas ou enviadas.
+* **[!UICONTROL Ask me later]**: Ao clicar em  **Perguntar mais tarde**, a janela parará de ser exibida por 24 horas. Até que você aceite ou recuse o contrato, as dimensões do perfil não aparecerão em seus relatórios e as informações de identificação pessoal de seus clientes não serão coletadas ou enviadas.
 * **[!UICONTROL Accept]**: Ao aceitar este contrato, você autoriza a Adobe Campaign a coletar as informações de identificação pessoal de seus clientes e a transferi-las para o relatórios ou data center.
 * **[!UICONTROL Decline]**: Ao recusar o contrato, as dimensões do perfil não aparecerão em seus relatórios e as informações de identificação pessoal de seus clientes não serão coletadas ou enviadas. Observe que, nesse caso, a externalID ainda será coletada e usada para identificar os usuários finais.
 
@@ -62,17 +62,17 @@ A tabela abaixo exibe o que acontece depois de aceitar este contrato, dependendo
 
 |  | Relatórios dinâmico | Conector do Microsoft Dynamics 365 |
 |---|---|---|
-| Américas e APAC (Pacífico Asiático) | **Recurso disponível**. <br>Todas as informações prontas para uso (ou seja, cidade, país/região, estado, gênero e segmentos com base na idade) e perfis personalizados encaminhados para o centro de relatórios dos EUA. For more information on profile dimensions, refer to this [page](../../reporting/using/list-of-components-.md) | **Recurso disponível**. <br>Todos os campos de perfis prontos para uso e personalizados e os campos de evento Adobe Campaign Standard são processados no data center dos EUA. |
-| EMEA (Europa, Oriente Médio e África) | **Recurso disponível**. <br>Todas as informações prontas para uso (ou seja, cidade, país/região, estado, gênero e segmentos com base na idade) e perfis personalizados encaminhados para o centro de relatórios da EMEA. For more information on profile dimensions, refer to this [page](../../reporting/using/list-of-components-.md) | **Recurso disponível.** <br>Todos os campos predefinidos e personalizados de perfis e os campos de eventos Adobe Campaign Standard processados no data center da EMEA. <br>**[!UICONTROL Control data]**que contém dados de registro de E/S de Adobe e IDs de eventos de usuários finais de clientes enviados e armazenados no data center dos EUA. |
+| Américas e APAC (Pacífico Asiático) | **Recurso disponível**. <br>Todas as informações prontas para uso (ou seja, cidade, país/região, estado, gênero e segmentos com base na idade) e perfis personalizados encaminhados para o centro de relatórios dos EUA. Para obter mais informações sobre dimensões de perfil, consulte esta [página](../../reporting/using/list-of-components-.md) | **Recurso disponível**. <br>Todos os campos de perfis prontos para uso e personalizados e os campos de evento Adobe Campaign Standard são processados no data center dos EUA. |
+| EMEA (Europa, Oriente Médio e África) | **Recurso disponível**. <br>Todas as informações prontas para uso (ou seja, cidade, país/região, estado, gênero e segmentos com base na idade) e perfis personalizados encaminhados para o centro de relatórios da EMEA. Para obter mais informações sobre dimensões de perfil, consulte esta [página](../../reporting/using/list-of-components-.md) | **Recurso disponível.** <br>Todos os campos predefinidos e personalizados de perfis e os campos de eventos Adobe Campaign Standard processados no data center da EMEA. <br>**[!UICONTROL Control data]**que contém dados de registro da Adobe I/O e IDs de eventos do usuário final do cliente enviados e armazenados no data center dos EUA. |
 
 A tabela abaixo mostra o que acontece depois de recusar este contrato, dependendo da sua região. Observe que mesmo se você recusar este contrato, o relatórios sobre delivery e a integração com o Microsoft Dynamics 365 ainda estarão disponíveis.
 
 | Região | Relatórios dinâmico | Conector do Microsoft Dynamics 365 |
 |---|---|---|
-| Américas e APAC (Pacífico Asiático) | **Recurso disponível**. <br> Nenhuma informação predefinida e personalizada sobre perfis enviada para o centro de relatórios dos EUA, com exceção da ExternalID. | **Recurso disponível**. <br>Nenhum campo de perfil personalizado ou predefinido enviado para o data center dos EUA, com exceção da ID externa e da ID do Recipient. <br>Todos os campos do evento Adobe Campaign Standard processados no data center dos EUA, com exceção da ID do mirror page. <br>Para obter mais informações sobre a integração do Microsoft Dynamics 365, consulte esta [página](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md). |
-| EMEA (Europa, Oriente Médio e África) | **Recurso disponível**. <br>Nenhuma informação predefinida e personalizada sobre perfis enviada para o centro de relatórios da EMEA, com exceção da ExternalID. | **Recurso disponível.** <br>Nenhum campo de perfil personalizado ou predefinido enviado para o centro de dados da EMEA, com exceção da ID externa e da ID do Recipient. <br>Todos os campos do evento Adobe Campaign Standard processados no data center EMEA, com exceção da ID do mirror page.  <br>**[!UICONTROL Control data]**que contém dados de registro de E/S de Adobe e IDs de eventos de usuários finais de clientes enviados e armazenados no data center dos EUA.<br>Para obter mais informações sobre a integração do Microsoft Dynamics 365, consulte esta [página](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md). |
+| Américas e APAC (Pacífico Asiático) | **Recurso disponível**. <br> Nenhuma informação predefinida e personalizada sobre perfis enviada para o centro de relatórios dos EUA, com exceção da ExternalID. | **Recurso disponível**. <br>Nenhum campo de perfil personalizado ou predefinido enviado para o data center dos EUA, com exceção da ID externa e da ID do Recipient. <br>Todos os campos do evento Adobe Campaign Standard processados no data center dos EUA, com exceção da ID do mirror page. <br>Para obter mais informações sobre a integração do Microsoft Dynamics 365, consulte esta  [página](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md). |
+| EMEA (Europa, Oriente Médio e África) | **Recurso disponível**. <br>Nenhuma informação predefinida e personalizada sobre perfis enviada para o centro de relatórios da EMEA, com exceção da ExternalID. | **Recurso disponível.** <br>Nenhum campo de perfil personalizado ou predefinido enviado para o centro de dados da EMEA, com exceção da ID externa e da ID do Recipient. <br>Todos os campos do evento Adobe Campaign Standard processados no data center EMEA, com exceção da ID do mirror page.  <br>**[!UICONTROL Control data]**que contém dados de registro da Adobe I/O e IDs de eventos do usuário final do cliente enviados e armazenados no data center dos EUA.<br>Para obter mais informações sobre a integração do Microsoft Dynamics 365, consulte esta  [página](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md). |
 
-This choice is not final, you can always change it by selecting **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** in **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
+Essa opção não é final, você sempre pode alterá-la selecionando **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** em **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
 
 O valor pode ser alterado a qualquer momento. O valor 1 corresponde a **[!UICONTROL Ask me later]**, 2 **[!UICONTROL Decline]** e 3 **[!UICONTROL Accept]**.
 
