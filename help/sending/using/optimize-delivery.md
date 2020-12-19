@@ -25,15 +25,15 @@ A seção a seguir descreve as práticas e os procedimentos recomendados para a 
 
 Vários fatores podem afetar diretamente o desempenho do servidor e retardar a plataforma:
 
-* O número e o tipo de elementos de personalização: a personalização em emails extrai dados do banco de dados para cada recipient. Se houver muitos elementos de personalização, isso aumentará a quantidade de dados necessários para preparar o delivery.  Learn more about email personalization in [this section](../../designing/using/personalization.md)
+* O número e o tipo de elementos de personalização: a personalização em emails extrai dados do banco de dados para cada recipient. Se houver muitos elementos de personalização, isso aumentará a quantidade de dados necessários para preparar o delivery.  Saiba mais sobre a personalização de email em [esta seção](../../designing/using/personalization.md)
 
 * O servidor carrega: quando a Campanha está lidando com muitas tarefas diferentes ao mesmo tempo, pode retardar o desempenho. O servidor de precisa coordenar todos os dados de entrada e saída de todos os deliveries para garantir que os dados estejam corretos no momento correto.
 
    **Dica** - Para evitar isso, coordene a programação de deliveries com os outros membros da equipe, garantindo um melhor desempenho.
 
-* The [workflow execution](../../automating/using/about-workflow-execution.md): monitoring your workflows is essential to avoid platform performance issues. Follow the guidelines listed [in this page](../../automating/using/monitoring-workflow-execution.md). Saiba mais na seção de práticas [recomendadas de](../../automating/using/best-practices-workflows.md) fluxo de trabalho.
+* A [execução do fluxo de trabalho](../../automating/using/about-workflow-execution.md): o monitoramento de seus workflows é essencial para evitar problemas de desempenho da plataforma. Siga as diretrizes listadas [nesta página](../../automating/using/monitoring-workflow-execution.md). Saiba mais na seção [práticas recomendadas do fluxo de trabalho](../../automating/using/best-practices-workflows.md).
 
-* You can leverage [Campaign Contol Panel capabilities](https://docs.adobe.com/content/help/pt-BR/control-panel/using/discover-control-panel/key-features.html) to monitor your platform, using [performance monitoring](https://docs.adobe.com/content/help/pt-BR/control-panel/using/performance-monitoring/about-performance-monitoring.html) functionalities.
+* Você pode aproveitar os [recursos do Painel de controle de Campanha](https://docs.adobe.com/content/help/pt-BR/control-panel/using/discover-control-panel/key-features.html) para monitorar sua plataforma, usando as funcionalidades [de monitoramento de desempenho](https://docs.adobe.com/content/help/pt-BR/control-panel/using/performance-monitoring/about-performance-monitoring.html).
 
 ## Verificar a configuração da rede {#network-config}
 
@@ -77,4 +77,4 @@ Para evitar o envio de mensagens para endereços inválidos, limitar as comunica
 
 Os detalhes relativos à implementação deste mecanismo são descritos [nesta seção](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-Saiba mais em [Introdução aos perfis e audiências](../../audiences/using/get-started-profiles-and-audiences.md).
+Saiba mais em [Comece com perfis e audiência](../../audiences/using/get-started-profiles-and-audiences.md).
