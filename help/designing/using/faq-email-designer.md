@@ -41,7 +41,7 @@ Agora você pode adicionar um preenchimento a esse elemento.
 
 Você pode fazer upload de seu próprio conteúdo HTML para o Designer de email. Se não tiver sido criado por meio do Email Designer, ele será carregado no modo de compatibilidade, projetado para manter seu HTML original, mas limita determinados recursos de edição por meio da interface do usuário.
 
-Para obter mais informações, consulte o modo [Compatibilidade](../../designing/using/using-existing-content.md#compatibility-mode)
+Para obter mais informações, consulte [Modo de compatibilidade](../../designing/using/using-existing-content.md#compatibility-mode)
 
 ## Como criar meu primeiro conteúdo de email?
 
