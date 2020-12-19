@@ -28,7 +28,7 @@ Isso funcionará criando uma conta externa vinculada ao Adobe Analytics. Um flux
 
 Essa integração está disponível somente para delivery de email.
 
-Também está disponível uma integração entre os principais **acionadores** de serviço da Adobe Analytics e a Adobe Campaign. Ele permite enviar emails personalizados para seus clientes como uma reação a comportamentos específicos que são rastreados em seu site pela Adobe Analytics (dentro de 15 minutos).
+Uma integração entre o serviço principal da Adobe Analytics **Triggers** e o Adobe Campaign também está disponível. Ele permite enviar emails personalizados para seus clientes como uma reação a comportamentos específicos que são rastreados em seu site pela Adobe Analytics (dentro de 15 minutos).
 
 **Tópicos relacionados:**
 
