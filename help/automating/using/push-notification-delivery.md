@@ -23,14 +23,14 @@ ht-degree: 47%
 
 ![](assets/recurrentpush.png)
 
-The **[!UICONTROL Push notification]** activity allows you to configure sending a push notification in a workflow. Esta pode ser uma única notificação de envio e enviada apenas uma vez, ou pode ser uma notificação recorrente.
+A atividade **[!UICONTROL Push notification]** permite configurar o envio de uma notificação por push em um fluxo de trabalho. Esta pode ser uma única notificação de envio e enviada apenas uma vez, ou pode ser uma notificação recorrente.
 
-* **As notificações de envio único** são delivery de notificação por push de aplicativo móvel padrão, enviados uma vez.
-* **Notificações recorrentes** permitem enviar o mesmo delivery de notificação por push do aplicativo móvel várias vezes para públicos alvos diferentes em um período definido. Você pode agregar os deliveries por período para obter relatórios que correspondam às suas necessidades.
+* **As notificações do** Singlesend são delivery padrão de notificação por push do aplicativo móvel, enviados uma vez.
+* **As notificações** recorrentes permitem enviar o mesmo delivery de notificação por push do aplicativo móvel várias vezes para públicos alvos diferentes em um período definido. Você pode agregar os deliveries por período para obter relatórios que correspondam às suas necessidades.
 
 ## Contexto de uso {#context-of-use}
 
-The **[!UICONTROL Push notification]** activity is generally used to automate sending a notification to a target calculated in the same workflow.
+A atividade **[!UICONTROL Push notification]** geralmente é usada para automatizar o envio de uma notificação para um público alvo calculado no mesmo fluxo de trabalho.
 
 Quando vinculado a um scheduler, você pode definir notificações por push recorrentes.
 
@@ -54,11 +54,11 @@ A preparação da mensagem é acionada de acordo com os parâmetros de execuçã
 1. Selecione o modo de envio de notificação por push:
 
    * **[!UICONTROL Single notification]**: a notificação por push é enviada uma única vez. Aqui, você pode especificar se deseja ou não adicionar uma transição de saída à atividade. Os diferentes tipos de transições estão detalhados na etapa 7 deste procedimento.
-   * **[!UICONTROL Recurring notification]**: a notificação por push é enviada várias vezes, de acordo com a frequência definida em uma **[!UICONTROL Scheduler]** atividade. Selecione o período de agregação dos envios. This allows you to regroup all the sends that occur during the defined period in one single push notification that is also called **recurring execution** and can be accessed from the application&#39;s marketing activity list.
+   * **[!UICONTROL Recurring notification]**: a notificação por push é enviada várias vezes, de acordo com a frequência definida em uma  **[!UICONTROL Scheduler]** atividade. Selecione o período de agregação dos envios. Isso permite que você reagrupe todos os envios que ocorrem durante o período definido em uma única notificação por push que também é chamada de **execução recorrente** e que podem ser acessados a partir da lista de atividade de marketing do aplicativo.
 
       Por exemplo, para uma notificação de aniversário recorrente, que é enviada diariamente, você pode optar por agregação dos envios por mês. Isso permite que você receba relatórios sobre seu delivery mensalmente, embora a notificação seja enviada todos os dias.
 
-1. Selecione um tipo de notificação. Esses tipos vêm de modelos de notificações por push definidos no menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** .
+1. Selecione um tipo de notificação. Esses tipos vêm de modelos de notificações por push definidos no menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Insira as propriedades gerais para a notificação por push. Também é possível anexá-la a uma campanha existente. A etiqueta da atividade de delivery do fluxo de trabalho é atualizada com a etiqueta de notificação por push.
 1. Defina o conteúdo da notificação por push. Consulte [Criação de uma notificação por push](../../channels/using/preparing-and-sending-a-push-notification.md)
 1. Por padrão, a atividade **[!UICONTROL Push notification]** não inclui transições de saída. Se quiser adicionar uma transição de saída à sua atividade **[!UICONTROL Push Notification]**, acesse a guia **[!UICONTROL General]** das opções avançadas da atividade (o botão ![](assets/dlv_activity_params-24px.png) nas ações rápidas da atividade) e depois marque uma das seguintes opções:
@@ -76,4 +76,4 @@ Por padrão, iniciar um workflow de delivery aciona somente a preparação da me
 
 Os deliveries criados em um workflow podem ser acessados na lista de atividade de marketing do aplicativo. Você pode visualizar o status de execução do workflow usando o painel. Os links no painel de resumo da notificação por push permitem acessar diretamente os elementos vinculados (fluxo de trabalho, campanha etc.).
 
-In the parent deliveries, which can be accessed from the marketing activity list, you can view the total number of sends that have been processed (according to the aggregation period specified when the **[!UICONTROL Push notification]** activity was configured). Para fazer isso, abra a visualização detalhada do bloco **[!UICONTROL Deployment]** da entrega pai, selecionando ![](assets/wkf_dlv_detail_button.png).
+Nos delivery principais, que podem ser acessados a partir da lista de atividade de marketing, é possível visualização o número total de envios que foram processados (de acordo com o período de agregação especificado quando a atividade **[!UICONTROL Push notification]** foi configurada). Para fazer isso, abra a visualização detalhada do bloco **[!UICONTROL Deployment]** da entrega pai, selecionando ![](assets/wkf_dlv_detail_button.png).
