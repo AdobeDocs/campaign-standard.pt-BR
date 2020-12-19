@@ -17,9 +17,9 @@ ht-degree: 2%
 
 # Acionamento de uma atividade de sinal {#triggering-a-signal-activity}
 
-Em um fluxo de trabalho do Adobe Campaign Standard, pode haver uma ou mais atividades de sinal **** externo. Essas atividades são &quot;ouvintes&quot; que esperam para serem acionadas.
+Em um fluxo de trabalho do Adobe Campaign Standard, pode haver uma ou mais atividades **sinal externo**. Essas atividades são &quot;ouvintes&quot; que esperam para serem acionadas.
 
-As APIs de Campaign Standard permitem disparar uma atividade de sinal **** externo para chamar um fluxo de trabalho. A chamada da API pode incluir parâmetros que serão assimilados nas variáveis de eventos do fluxo de trabalho (um nome de audiência para público alvo, um nome de arquivo a ser importado, uma parte do conteúdo da mensagem etc.). Dessa forma, você pode integrar facilmente suas automações de Campanha ao seu sistema externo.
+As APIs de Campaign Standard permitem disparar uma atividade **sinal externo** para chamar um fluxo de trabalho. A chamada da API pode incluir parâmetros que serão assimilados nas variáveis de eventos do fluxo de trabalho (um nome de audiência para público alvo, um nome de arquivo a ser importado, uma parte do conteúdo da mensagem etc.). Dessa forma, você pode integrar facilmente suas automações de Campanha ao seu sistema externo.
 
 >[!NOTE]
 >
@@ -27,13 +27,13 @@ As APIs de Campaign Standard permitem disparar uma atividade de sinal **** exter
 
 Para acionar um fluxo de trabalho, siga as etapas abaixo:
 
-1. Execute uma solicitação de **GET** no fluxo de trabalho para recuperar o URL de disparo da atividade de sinal externo.
+1. Execute uma solicitação **GET** no fluxo de trabalho para recuperar o URL de disparo da atividade de sinal externo.
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. Execute uma solicitação de **POST** no URL retornado para disparar a atividade do sinal, com o parâmetro **&quot;source&quot;** na carga. Esse atributo é obrigatório, permite que você indique a fonte de solicitação de acionamento.
+1. Execute uma solicitação **POST** no URL retornado para disparar a atividade do sinal, com o parâmetro **&quot;source&quot;** na carga. Esse atributo é obrigatório, permite que você indique a fonte de solicitação de acionamento.
 
-Se você quiser chamar o fluxo de trabalho com parâmetros, adicione-os à carga com o atributo **&quot;parameters&quot;** . A sintaxe consiste no nome do parâmetro seguido pelo seu valor (os seguintes tipos são suportados: **string**, **número**, **booleano** e **data/hora**).
+Se você quiser chamar o fluxo de trabalho com parâmetros, adicione-os à carga com o atributo **&quot;parameters&quot;**. A sintaxe consiste no nome do parâmetro seguido pelo seu valor (os seguintes tipos são suportados: **string**, **number**, **boolean** e **data/hora**).
 
 ```
   -X POST <TRIGGER_URL>
@@ -56,7 +56,7 @@ Se você quiser chamar o fluxo de trabalho com parâmetros, adicione-os à carga
 
 >[!NOTE]
 >
->Ao adicionar um parâmetro à carga, verifique se seus valores de **nome** e **tipo** são consistentes com as informações declaradas na atividade de sinal externo. Além disso, a carga útil não deve exceder 64 Ko.
+>Ao adicionar um parâmetro à carga, certifique-se de que seus valores **name** e **type** estejam consistentes com as informações declaradas na atividade de sinal externo. Além disso, a carga útil não deve exceder 64 Ko.
 
 <br/>
 
