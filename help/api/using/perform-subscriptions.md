@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Execução de subscrições {#performing-subscriptions}
+# Realização do subscrição {#performing-subscriptions}
 
 ## Método 1: Inscrever um perfil em um serviço
 
