@@ -21,7 +21,7 @@ Integrar o serviço principal do Assets ou os ativos sob demanda (dependendo da 
 
 Os recursos compartilhados da Adobe Experience Cloud podem ser usados em seus emails e landings page.
 
-1. Ao editar o conteúdo de um email ou landing page, vá para um bloco de imagem e selecione-o **[!UICONTROL Image shared from Adobe Experience Cloud]** pelo menu contextual.
+1. Ao editar o conteúdo de um email ou landing page, vá para um bloco de imagem e selecione **[!UICONTROL Image shared from Adobe Experience Cloud]** pelo menu contextual.
 
    ![](assets/dam_insert_image_dce.png)
 
