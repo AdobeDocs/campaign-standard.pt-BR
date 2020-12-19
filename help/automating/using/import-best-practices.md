@@ -33,7 +33,7 @@ Em muitos projetos, as importações são criadas sem a atividade **[!UICONTROL 
 
 Não confie na suposição de que os dados de entrada são consistentes e corretos, ou que o departamento de TI ou o supervisor do Adobe Campaign irá resolver isso. Durante o projeto, mantenha a limpeza dos dados em mente. Elimine duplicatas, reconcilie e mantenha de consistência ao importar dados.
 
-Um exemplo de um modelo de fluxo de trabalho genérico projetado para importar dados está disponível no [Exemplo: Importar seção de modelo](../../automating/using/creating-import-workflow-templates.md) de fluxo de trabalho.
+Um exemplo de um modelo de fluxo de trabalho genérico projetado para importar dados está disponível no [Exemplo: Importar a seção do modelo de fluxo de trabalho](../../automating/using/creating-import-workflow-templates.md).
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 ## Uso da compactação {#using-compression}
 
-Use arquivos compactados para importações e exportações sempre que possível. O GZIP é suportado por padrão. Você pode adicionar pré-processamento ao importar arquivos ou pós-processamento ao extrair dados, respectivamente, nas atividades **[!UICONTROL Load file]** e **[!UICONTROL Extract file]** de fluxo de trabalho.
+Use arquivos compactados para importações e exportações sempre que possível. O GZIP é suportado por padrão. Você pode adicionar pré-processamento ao importar arquivos ou pós-processamento ao extrair dados, respectivamente nas atividades de fluxo de trabalho **[!UICONTROL Load file]** e **[!UICONTROL Extract file]**.
 
 **Tópicos relacionados:**
 
