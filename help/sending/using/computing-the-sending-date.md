@@ -19,7 +19,7 @@ ht-degree: 7%
 
 Você pode definir uma fórmula para enviar a mensagem para cada recipient em uma data e hora específicas.
 
-## Fórmula de data de personalização {#customizing-date-formula}
+## Personalizando fórmula de data {#customizing-date-formula}
 
 Por exemplo, você pode usar a otimização de tempo de envio durante o processo de rampa.
 
@@ -34,12 +34,12 @@ Você pode agendar isso usando um fluxo de trabalho.
 ![](assets/send-time_opt_workflow1.png)
 
 1. Acesse a lista da atividade de marketing e crie um novo fluxo de trabalho. Consulte [Criação de um workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
-1. Drag and drop a **Query** activity into your workflow and open it. Consulte a seção [Query](../../automating/using/query.md) .
-1. Selecione uma audiência, por exemplo, todos os clientes Gold e clique **[!UICONTROL Confirm]** para salvar o query.
-1. Drag and drop a **Segmentation** activity into your workflow and open it. Consulte a seção [Segmentação](../../automating/using/segmentation.md) .
+1. Arraste e solte uma atividade **Query** no seu fluxo de trabalho e abra-a. Consulte a seção [Query](../../automating/using/query.md).
+1. Selecione uma audiência, por exemplo, todos os clientes Gold e clique em **[!UICONTROL Confirm]** para salvar o query.
+1. Arraste e solte uma atividade **Segmentation** no seu fluxo de trabalho e abra-a. Consulte a seção [Segmentação](../../automating/using/segmentation.md).
 1. Defina cinco segmentos. Para cada segmento:
 
-   * Preencha o **[!UICONTROL Segment code]** campo: insira manualmente a data e a hora desejadas para enviar a mensagem.
+   * Preencha o campo **[!UICONTROL Segment code]**: insira manualmente a data e a hora desejadas para enviar a mensagem.
 
       Por exemplo, você deseja enviar o primeiro lote em 1º de junho às 10:00 AM GMT+1. Use o seguinte formato: **AAAA-MM-DD hh:mm:ss+tz**.
 
@@ -52,9 +52,9 @@ Você pode agendar isso usando um fluxo de trabalho.
       * **2017-06-03 10:00:00+01**
       * **2017-06-04 10:00:00+01**
       * **2017-06-05 10:00:00+01**
-   * Certifique-se de selecionar a **[!UICONTROL Limit the population of this segment]** opção.
+   * Certifique-se de selecionar a opção **[!UICONTROL Limit the population of this segment]**.
 
-      Na **[!UICONTROL Limitation]** guia, selecione **[!UICONTROL Random sampling]** e insira a porcentagem desejada para cada segmento: 10 para o primeiro lote, 15 para o segundo, e assim por diante.
+      Na guia **[!UICONTROL Limitation]**, selecione **[!UICONTROL Random sampling]** e insira a porcentagem desejada para cada segmento: 10 para o primeiro lote, 15 para o segundo, e assim por diante.
 
       ![](assets/send-time_opt_segment_limitation.png)
 
@@ -63,27 +63,27 @@ Você pode agendar isso usando um fluxo de trabalho.
 
    ![](assets/send-time_opt_segment_dates.png)
 
-1. Drag and drop an **Email delivery** activity into your workflow and open it. Consulte a seção delivery [de e-](../../automating/using/email-delivery.md) mail.
-1. Clique na **[!UICONTROL Schedule]** seção no painel de email e selecione **[!UICONTROL Messages to be sent automatically on the date specified below]**.
-1. No **[!UICONTROL Start sending from]** campo, defina uma data de contato.
+1. Arraste e solte uma atividade **delivery de e-mail** no seu fluxo de trabalho e abra-a. Consulte a seção [delivery de e-mail](../../automating/using/email-delivery.md).
+1. Clique na seção **[!UICONTROL Schedule]** no painel de email e selecione **[!UICONTROL Messages to be sent automatically on the date specified below]**.
+1. No campo **[!UICONTROL Start sending from]**, defina uma data de contato.
 1. No menu suspenso de otimização do tempo de envio, escolha **[!UICONTROL Send at a custom date defined by a formula]**.
-1. Clique no **[!UICONTROL Edit an expression]** botão do **[!UICONTROL Custom date formula]** campo.
+1. Clique no botão **[!UICONTROL Edit an expression]** do campo **[!UICONTROL Custom date formula]**.
 
    ![](assets/send-time_opt_formula_define.png)
 
-1. Crie a expressão a seguir usando a **[!UICONTROL ToDateTime]** função e o **[!UICONTROL Segment code]** campo. Você também pode digitar diretamente na expressão, mas certifique-se de usar a sintaxe e a ortografia corretas.
+1. Crie a seguinte expressão usando a função **[!UICONTROL ToDateTime]** e o campo **[!UICONTROL Segment code]**. Você também pode digitar diretamente na expressão, mas certifique-se de usar a sintaxe e a ortografia corretas.
 
    ```
    ToDateTime([targetData/@segmentCode])
    ```
 
-   A **[!UICONTROL ToDateTime]** função transforma o código de segmento de uma string de texto em um valor de data e hora.
+   A função **[!UICONTROL ToDateTime]** transforma o código de segmento de uma string de texto em um valor de data e hora.
 
    Confirme a expressão para retornar à tela anterior.
 
    ![](assets/send-time_opt_formula_define_segment.png)
 
-   Na **[!UICONTROL Schedule]** janela, a fórmula de data personalizada é exibida da seguinte maneira:
+   Na janela **[!UICONTROL Schedule]**, a fórmula de data personalizada é exibida da seguinte maneira:
 
    ```
    ToDateTime([targetData/@segmentCode])
@@ -99,7 +99,7 @@ O delivery será progressivamente enviado a todos os recipient-alvo ao longo de 
 >
 >Certifique-se de que todas as datas estejam no futuro ao confirmar o envio. Caso contrário, a mensagem será enviada assim que o envio for confirmado.
 
-## Uso de uma expressão {#using-an-expression}
+## Usando uma expressão {#using-an-expression}
 
 A otimização do tempo de envio também é útil para campanhas que envolvem uma central de atendimento. Você pode garantir que todas as mensagens não sejam recebidas ao mesmo tempo. Isso permite que sua organização processe o número de chamadas de acordo com sua capacidade.
 
@@ -110,9 +110,9 @@ Você pode agendar isso usando um fluxo de trabalho.
 ![](assets/send-time_opt_workflow2.png)
 
 1. Acesse a lista da atividade de marketing e crie um novo fluxo de trabalho. Consulte [Criação de um workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
-1. Drag and drop a **Query** activity into your workflow and open it. Consulte a seção [Query](../../automating/using/query.md) .
-1. Selecione uma audiência, por exemplo, mais de 35 perfis e clique em **[!UICONTROL Confirm]** para salvar o query.
-1. Drag and drop a **Segmentation** activity into your workflow and open it. Consulte a seção [Segmentação](../../automating/using/segmentation.md) .
+1. Arraste e solte uma atividade **Query** no seu fluxo de trabalho e abra-a. Consulte a seção [Query](../../automating/using/query.md).
+1. Selecione uma audiência, por exemplo, mais de 35 perfis, e clique em **[!UICONTROL Confirm]** para salvar o query.
+1. Arraste e solte uma atividade **Segmentation** no seu fluxo de trabalho e abra-a. Consulte a seção [Segmentação](../../automating/using/segmentation.md).
 1. Defina quatro segmentos. Para cada segmento:
 
    * Defina os códigos de segmento da seguinte maneira:
@@ -126,26 +126,26 @@ Você pode agendar isso usando um fluxo de trabalho.
       >
       >A data de contato será definida na atividade delivery de e-mail posteriormente no fluxo de trabalho.
 
-   * Certifique-se de selecionar a **[!UICONTROL Limit the population of this segment]** opção.
-   * Na **[!UICONTROL Limitation]** guia, selecione **[!UICONTROL Random sampling]** e insira a porcentagem desejada para cada segmento: **25**.
+   * Certifique-se de selecionar a opção **[!UICONTROL Limit the population of this segment]**.
+   * Na guia **[!UICONTROL Limitation]**, selecione **[!UICONTROL Random sampling]** e insira a porcentagem desejada para cada segmento: **25**.
 
 
 1. Depois que todos os segmentos forem definidos, selecione **[!UICONTROL Generate all segments in the same transition]** e clique em **[!UICONTROL Confirm]**.
 
    ![](assets/send-time_opt_segment.png)
 
-1. Drag and drop an **Email delivery** activity into your workflow and open it. Consulte a seção delivery [de e-](../../automating/using/email-delivery.md) mail.
-1. Clique na **[!UICONTROL Schedule]** seção no painel de email.
+1. Arraste e solte uma atividade **delivery de e-mail** no seu fluxo de trabalho e abra-a. Consulte a seção [delivery de e-mail](../../automating/using/email-delivery.md).
+1. Clique na seção **[!UICONTROL Schedule]** no painel de email.
 1. Selecione **[!UICONTROL Messages to be sent automatically on the date specified below]**.
-1. No **[!UICONTROL Start sending from]** campo, defina uma data de contato.
+1. No campo **[!UICONTROL Start sending from]**, defina uma data de contato.
 
    Neste exemplo, selecione 25 de maio às 8:00 da manhã.
 
-1. No menu suspenso de otimização do tempo de envio, escolha **[!UICONTROL Send at a custom date defined by a formula]** e clique no **[!UICONTROL Edit an expression]** botão.
+1. No menu suspenso de otimização do tempo de envio, escolha **[!UICONTROL Send at a custom date defined by a formula]** e clique no botão **[!UICONTROL Edit an expression]**.
 
    ![](assets/send-time_opt_formula_expression.png)
 
-1. No **[!UICONTROL Expression editor]**, defina a data e os códigos de segmento para calcular os dados de cada cliente.
+1. Em **[!UICONTROL Expression editor]**, defina a data e os códigos de segmento para calcular os dados de cada cliente.
 
    Na lista de funções, selecione **[!UICONTROL AddHours]**.
 
@@ -155,7 +155,7 @@ Você pode agendar isso usando um fluxo de trabalho.
 
    ![](assets/send-time_opt_formula_expression_contact_date.png)
 
-   Isso permite recuperar a data e a hora especificadas no **[!UICONTROL Start sending from]** campo.
+   Isso permite recuperar a data e a hora especificadas no campo **[!UICONTROL Start sending from]**.
 
    Na lista de funções, selecione **[!UICONTROL ToInteger]**. Nos campos disponíveis, selecione **[!UICONTROL Additional data]** > **[!UICONTROL Segment code]**.
 
