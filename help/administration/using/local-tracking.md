@@ -24,11 +24,11 @@ Nesta página, saiba como garantir que o rastreamento de notificação local foi
 
 O rastreamento de notificação local pode ser dividido em três tipos:
 
-* **Impressões** locais - quando uma notificação local é entregue ao dispositivo e está no centro de notificações, mas não foi tocada de forma alguma. Na maioria dos casos, o número de impressões deve ser semelhante se não for o mesmo que o número fornecido. Ele garante que o dispositivo recebeu a mensagem e retransmite essas informações ao servidor.
+* **Impressões**  locais - quando uma notificação local é entregue ao dispositivo e está no centro de notificações, mas não foi tocada de forma alguma. Na maioria dos casos, o número de impressões deve ser semelhante se não for o mesmo que o número fornecido. Ele garante que o dispositivo recebeu a mensagem e retransmite essas informações ao servidor.
 
-* **Clique** local - quando uma notificação local for entregue ao dispositivo e o usuário clicar no dispositivo. O usuário desejava visualização na notificação (que, por sua vez, mudará para o rastreamento local aberto) ou rejeitar a notificação.
+* **Clique**  local - Quando uma notificação local for entregue ao dispositivo e o usuário clicar no dispositivo. O usuário desejava visualização na notificação (que, por sua vez, mudará para o rastreamento local aberto) ou rejeitar a notificação.
 
-* **Abertura** local - Quando uma notificação local é entregue ao dispositivo e o usuário clica na notificação que faz com que o aplicativo seja aberto. É semelhante ao clique local, exceto que uma abertura local não será acionada se a notificação for descartada.
+* **Abertura**  local - Quando uma notificação local é entregue ao dispositivo e o usuário clica na notificação que causa a abertura do aplicativo. É semelhante ao clique local, exceto que uma abertura local não será acionada se a notificação for descartada.
 
 Para implementar o rastreamento para Adobe Campaign Standard, o aplicativo móvel precisa incluir o Mobile SDK no aplicativo. Esses SDKs estão disponíveis em [!DNL Adobe Mobile Services].
 
@@ -140,7 +140,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
     }
 ```
 
-## Implementação do rastreamento aberto {#implement-open-tracking}
+## Implementando o rastreamento aberto {#implement-open-tracking}
 
 É necessário enviar &quot;1&quot; e &quot;2&quot;, pois o usuário deve clicar na notificação para abrir o aplicativo. Se o aplicativo não for iniciado/aberto por meio da notificação local, nenhum evento de rastreamento ocorrerá.
 
@@ -148,7 +148,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
 
 Para rastrear a abertura, precisamos criar intenções. Objetos intencionais permitem que o sistema operacional Android chame seu método quando determinadas ações são executadas, nesse caso, clicando na notificação para abrir o aplicativo.
 
-Esse código é baseado na implementação do rastreamento de impressão de cliques. Com a definição de intenção, agora é necessário enviar informações de rastreamento de volta para a Adobe Campaign. Nesse caso, a(s) Visualização([!DNL Activity]) do Android que acionou a notificação será(ão) aberta(s) ou colocada em primeiro plano como resultado do clique por usuário. O objeto intent em [!DNL Activity] contém os dados de notificação que podem ser usados para rastrear a abertura.
+Esse código é baseado na implementação do rastreamento de impressão de cliques. Com a definição de intenção, agora é necessário enviar informações de rastreamento de volta para a Adobe Campaign. Nesse caso, a Visualização do Android([!DNL Activity]) que acionou a notificação será aberta ou trazida para o primeiro plano como resultado do clique pelo usuário. O objeto intent em [!DNL Activity] contém os dados de notificação que podem ser usados para rastrear a abertura.
 
 MainActivity.java (estende [!DNL Activity])
 
