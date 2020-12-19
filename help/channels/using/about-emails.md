@@ -27,4 +27,4 @@ Você pode enviar diferentes tipos de emails:
 * E-mails de teste A/B: teste até 3 versões de um email.
 * Emails transacionais: emails unitários que são acionados com base no comportamento dos clientes.
 
-Para saber mais sobre as práticas recomendadas ao criar e enviar emails, consulte a seção Práticas recomendadas para [Delivery](../../sending/using/delivery-best-practices.md) .
+Para aprender as práticas recomendadas ao criar e enviar emails, consulte a seção [Práticas recomendadas do Delivery](../../sending/using/delivery-best-practices.md).
