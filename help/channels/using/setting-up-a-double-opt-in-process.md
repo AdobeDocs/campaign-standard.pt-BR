@@ -27,7 +27,7 @@ O princípio é enviar um email para confirmar o contrato do visitante antes de 
 
 Para configurar, é necessário:
 
-1. Crie e publique uma landing page para que os visitantes possam se registrar e assinar. Essa landing page estará disponível em um site. Visitors who fill in and submit this landing page will be stored in the database but added to the denylist, in order not to receive any communication before the final validation (see [Denylist management in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+1. Crie e publique uma landing page para que os visitantes possam se registrar e assinar. Essa landing page estará disponível em um site. Os visitantes que preencherem e enviarem essa landing page serão armazenados no banco de dados, mas adicionados à lista de bloqueios, para não receber nenhuma comunicação antes da validação final (consulte [Lista de bloqueios gerenciamento de  na Campanha](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 1. Crie e envie automaticamente o email de participação, com um link de confirmação. Esse email terá como alvo a população que enviou a landing page. Ele será baseado em um template de email que permite direcionar perfis de &quot;recusa de participação&quot;.
 1. Redirecione para uma landing page de confirmação. Essa landing page final apresentará um botão de confirmação: os visitantes precisam clicar nele. Você pode compor um email de boas-vindas para ser enviado quando a confirmação for feita e, por exemplo, adicionar uma oferta especial no email para novos recipients.
 
@@ -101,7 +101,7 @@ Você precisa criar uma [tipologia](../../sending/using/about-typology-rules.md)
 1. No logotipo do Adobe Campaign, selecione **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** e clique em **[!UICONTROL Typologies]**.
 1. Duplique a tipologia predefinida **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
 1. Depois que a duplicação for confirmada, edite a nova tipologia e insira o rótulo **TYPOLOGY_PROFILE**.
-1. Remova o **Endereço lista de bloqueios regra de** .
+1. Remova a regra **Endereço lista de bloqueios**.
 1. Clique em **[!UICONTROL Save]**.
 
 Essa tipologia agora pode ser associada ao email de confirmação.
@@ -128,7 +128,7 @@ Para criar e configurar essa landing page, faça o seguinte:
 1. Projete uma [nova landing page](../../channels/using/getting-started-with-landing-pages.md) com base no template **[!UICONTROL Profile acquisition (acquisition)]**. Insira o rótulo &#39;**ACQUISITION**&#39;.
 1. Edite as propriedades da landing page: na seção **[!UICONTROL Job]** > **[!UICONTROL Additional data]**, clique em **[!UICONTROL Add an element]** e insira o seguinte caminho de contexto:
 
-   /context/profile/blackList
+   /context/perfil/blackList
 
    e defina o valor como **true**.
 
