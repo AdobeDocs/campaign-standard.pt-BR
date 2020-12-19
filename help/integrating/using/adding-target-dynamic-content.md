@@ -23,17 +23,17 @@ Ao editar um email, você pode inserir uma imagem dinâmica do Adobe Target que 
 
 Antes de acessar a imagem no Adobe Campaign, as seguintes tarefas devem ser executadas primeiro no Adobe Target:
 
-* Create one or several [redirect offers](https://docs.adobe.com/content/help/en/target/using/experiences/offers/offer-redirect.html), in which you must specify the URL of the image you will be using.
+* Crie um ou vários [ofertas de redirecionamento](https://docs.adobe.com/content/help/en/target/using/experiences/offers/offer-redirect.html), nos quais você deve especificar o URL da imagem que será usada.
 * Crie um ou vários [públicos](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html)para definir o target da atividade.
-* Create a [Form-based experience composer](https://docs.adobe.com/content/help/en/target/using/experiences/form-experience-composer.html) activity, in which you have to select a rawbox and specify several experiences, depending on the number of redirect offers created. Para cada experiência, você deve selecionar uma das ofertas de redirecionamento criadas.
+* Crie uma atividade [Criador de experiências baseado em forma](https://docs.adobe.com/content/help/en/target/using/experiences/form-experience-composer.html), na qual você precisa selecionar uma rawbox e especificar várias experiências, dependendo do número de ofertas de redirecionamento criadas. Para cada experiência, você deve selecionar uma das ofertas de redirecionamento criadas.
 * Crie segmentos usando informações da Adobe Campaign para especificar experiências. Para usar dados do Adobe Campaign nas regras de seleção da oferta, especifique os dados no rawbox no Adobe Target.
 
 1. Crie um delivery de email
-1. Ao editar o conteúdo de um email ou de uma landing page, vá para um bloco de imagem e selecione-o **[!UICONTROL Dynamic image from Adobe Target]** pelo menu contextual.
+1. Ao editar o conteúdo de um email ou de uma landing page, vá para um bloco de imagem e selecione **[!UICONTROL Dynamic image from Adobe Target]** pelo menu contextual.
 
    ![](assets/tar_insert_dynamic_image.png)
 
-1. Selecione a imagem que aparecerá por padrão no email. Você pode especificar diretamente o URL da imagem ou selecionar uma imagem compartilhada por meio dos [Ativos](../../integrating/using/working-with-campaign-and-assets-core-service.md).
+1. Selecione a imagem que aparecerá por padrão no email. Você pode especificar diretamente o URL da imagem ou selecionar uma imagem compartilhada via [Assets](../../integrating/using/working-with-campaign-and-assets-core-service.md).
 
    A integração só oferece suporte a imagens estáticas. O restante do conteúdo não é personalizável.
 
@@ -51,7 +51,7 @@ Seu delivery que contém a imagem dinâmica agora pode ser enviado. Seus resulta
 
 **Tópicos relacionados:**
 
-* [Portal da Adobe Target](https://docs.adobe.com/content/help/pt-BR/target/using/integrate/campaign-and-target.html)
+* [Portal da Adobe Target](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
 * [Sobre o design de conteúdo de email](../../designing/using/designing-content-in-adobe-campaign.md)
-* [Personalizar imagens de e-mail em vídeo em tempo](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) real
+* [Personalizar imagens de e-mail em ](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) vídeo em tempo real
 
