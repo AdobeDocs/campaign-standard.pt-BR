@@ -18,7 +18,7 @@ ht-degree: 86%
 
 # Personalização de um email com dados adicionais {#example--personalizing-an-email-with-additional-data}
 
-O exemplo a seguir ilustra a adição de diferentes tipos de dados adicionais a um query e o uso de cada um deles como campo de personalização em um email. Para obter mais informações sobre como aprimorar os dados direcionados por uma **[!UICONTROL Query]** atividade, consulte [esta seção](../../automating/using/query.md#enriching-data).
+O exemplo a seguir ilustra a adição de diferentes tipos de dados adicionais a um query e o uso de cada um deles como campo de personalização em um email. Para obter mais informações sobre como enriquecer os dados direcionados por uma atividade **[!UICONTROL Query]**, consulte [esta seção](../../automating/using/query.md#enriching-data).
 
 Neste exemplo, são usados [recursos personalizados](../../developing/using/data-model-concepts.md):
 
@@ -32,7 +32,7 @@ O fluxo de trabalho é apresentado da seguinte forma:
 
 ![](assets/enrichment_example1.png)
 
-1. Add a [Query](../../automating/using/query.md) activity, which allows you to target the profiles that have carried out at least one transaction.
+1. Adicione uma atividade [Query](../../automating/using/query.md), que permite público alvo dos perfis que realizaram pelo menos uma transação.
 
    ![](assets/enrichment_example2.png)
 
@@ -53,7 +53,7 @@ O fluxo de trabalho é apresentado da seguinte forma:
 
    ![](assets/enrichment_example5.png)
 
-1. Adicione uma atividade de delivery [](../../automating/using/email-delivery.md) de email. No conteúdo do email, insira os campos de personalização correspondentes aos dados calculados no query. Você pode encontrá-los no link **[!UICONTROL Additional data (targetData)]** do explorador de campos de personalização.
+1. Adicione uma atividade [delivery de e-mail](../../automating/using/email-delivery.md). No conteúdo do email, insira os campos de personalização correspondentes aos dados calculados no query. Você pode encontrá-los no link **[!UICONTROL Additional data (targetData)]** do explorador de campos de personalização.
 
    ![](assets/enrichment_example3.png)
 
