@@ -38,13 +38,13 @@ A atividade **[!UICONTROL Segmentation]** geralmente é colocada após as ativid
 
 **Tópicos relacionados**
 
-* [Caso de uso: Segmentação de perfis de acordo com seus grupos](../../automating/using/segmentation-age-groups.md)etários.
+* [Caso de uso: Segmentação de perfis de acordo com seus grupos](../../automating/using/segmentation-age-groups.md) etários.
 
 ## Configuração {#configuration}
 
 1. Arraste e solte uma atividade **[!UICONTROL Segmentation]** no seu fluxo de trabalho.
 1. Selecione e abra a atividade usando o botão ![](assets/edit_darkgrey-24px.png) das ações rápidas exibidas.
-1. In the **[!UICONTROL General]** tab, select the **[!UICONTROL Resource type]** on which the segmentation has to be carried out:
+1. Na guia **[!UICONTROL General]**, selecione **[!UICONTROL Resource type]** na qual a segmentação deve ser realizada:
 
    * **[!UICONTROL Database resource]** se a segmentação for realizada nos dados existentes no banco de dados. Selecione a **[!UICONTROL Filtering dimension]** dependendo dos dados que você deseja segmentar. Por padrão, a segmentação é realizada nos **perfis**.
    * **[!UICONTROL Temporary resource]** se a segmentação for realizada nos dados temporários do fluxo de trabalho. Selecione o **[!UICONTROL Targeted set]** que contêm os dados a serem segmentados. Esse caso de uso poderá ser encontrado após a importação de um arquivo ou se os dados no banco de dados tiverem sido enriquecidos.
@@ -61,7 +61,7 @@ A atividade **[!UICONTROL Segmentation]** geralmente é colocada após as ativid
    * **[!UICONTROL Limit segment population]**: permite limitar o tamanho do segmento.
    * **[!UICONTROL Filter and limit segment population]**: permite filtrar a população do segmento e limitar o tamanho.
    * **[!UICONTROL Label]**: rótulo do segmento.
-   * **[!UICONTROL Segment code]**: código atribuído à população do segmento. O código de segmento pode ser personalizado usando uma expressão padrão e variáveis de eventos (consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
+   * **[!UICONTROL Segment code]**: código atribuído à população do segmento. O código de segmento pode ser personalizado usando uma expressão padrão e variáveis de eventos (consulte  [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
    * **[!UICONTROL Exclude segment from population]**: permite excluir o segmento especificado da população de saída da atividade. Essa opção só poderá ser usada se a opção **[!UICONTROL Generate all segments in the same transition]** estiver selecionada.
 
    ![](assets/wkf_segment_new_segment.png)
@@ -96,6 +96,6 @@ A atividade **[!UICONTROL Segmentation]** geralmente é colocada após as ativid
 
    * Marque a opção **[!UICONTROL Enable overlapping of outbound populations]** se desejar que um membro da população de entrada pertença a vários segmentos ao mesmo tempo. A população de saída da atividade pode exceder a população de entrada.
    * Marque a opção **[!UICONTROL Concatenate the code of each segment]** se a população de entrada já tiver recebido um código de segmento que você deseja manter. O código de segmento especificado na atividade será adicionado ao código de segmento inicial.
-   * Marque a opção **[!UICONTROL Generate complement]** se desejar explorar a população restante. See [Use case: Creating deliveries with a complement](../../automating/using/workflow-created-query-with-complement.md).
+   * Marque a opção **[!UICONTROL Generate complement]** se desejar explorar a população restante. Consulte [Caso de uso: Criação de delivery com um complemento](../../automating/using/workflow-created-query-with-complement.md).
 
 1. Confirme a configuração da sua atividade e salve o fluxo de trabalho.
