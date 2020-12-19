@@ -19,15 +19,15 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Observe que é necessário arrastar e soltar as **[!UICONTROL Message type]** métricas em suas tabelas para dividir seus dados dependendo dos tipos de delivery, neste caso delivery no aplicativo.
+>Observe que é necessário arrastar e soltar as métricas **[!UICONTROL Message type]** em suas tabelas para dividir seus dados dependendo dos tipos de delivery, neste caso delivery no aplicativo.
 
-O relatório **no aplicativo** fornece detalhes relacionados aos delivery no aplicativo.
+O relatório **No aplicativo** fornece detalhes relacionados aos delivery no aplicativo.
 
 Cada tabela é representada por números de resumo e gráficos. Você pode alterar a forma como os detalhes são exibidos em suas respectivas configurações de visualização.
 
 ![](assets/inapp_report.png)
 
-A primeira tabela Resumo **de envolvimento** no aplicativo é dividida em três categorias: por dia, por aplicativo móvel e por delivery. Ele contém os dados disponíveis para a reatividade do recipient ao delivery:
+A primeira tabela **Resumo de envolvimento no aplicativo** é dividida em três categorias: por dia, por aplicativo móvel e por delivery. Ele contém os dados disponíveis para a reatividade do recipient ao delivery:
 
 * **[!UICONTROL Processed/sent]**: Número total de envios para o delivery no aplicativo.
 * **[!UICONTROL Delivered]**: Número de mensagens no aplicativo enviadas com êxito, em relação ao número total de mensagens enviadas.
@@ -38,7 +38,7 @@ A primeira tabela Resumo **de envolvimento** no aplicativo é dividida em três 
 
 ![](assets/inapp_report_1.png)
 
-A segunda tabela **Cliques e exclusões** no aplicativo é dividida em três categorias: por dia, por aplicativo móvel e por delivery. Ele contém os dados disponíveis para o comportamento do recipient por delivery:
+A segunda tabela **Cliques e exclusões no aplicativo** é dividida em três categorias: por dia, por aplicativo móvel e por delivery. Ele contém os dados disponíveis para o comportamento do recipient por delivery:
 
 * **[!UICONTROL In-App clicks]**: Número total de recipient que clicaram no Botão 1 ou no Botão 2.
 * **[!UICONTROL Unique In-App clicks]**: Número de vezes que os recipient clicaram no Botão 1 ou no Botão 2.
