@@ -19,7 +19,7 @@ ht-degree: 7%
 
 A integração entre a Adobe Campaign e a Adobe Analytics permite rastrear o sucesso dos delivery de email diretamente no Adobe Analytics.
 
-Campanhas **[!UICONTROL dimensions]** encontradas no Analytics estão listadas abaixo:
+A campanha **[!UICONTROL dimensions]** encontrada no Analytics está listada abaixo:
 
 <table> 
  <thead> 
@@ -34,29 +34,29 @@ Campanhas **[!UICONTROL dimensions]** encontradas no Analytics estão listadas a
    <td> Nome interno da campanha, como visto na Campanha<br /> </td> 
   </tr> 
   <tr> 
-   <td> etiqueta da campanha<br /> </td> 
-   <td> Etiqueta da campanha, conforme visto na Campanha<br /> </td> 
+   <td> Etiqueta de campanha<br /> </td> 
+   <td> Etiqueta da campanha, como visto na Campanha<br /> </td> 
   </tr> 
   <tr> 
    <td> ID do delivery<br /> </td> 
    <td> Nome interno do delivery, como visto na Campanha.<br /> Por exemplo, DM1 é um delivery recorrente programado para enviar delivery filhos toda semana. DM2, DM3 e DM4 são enviados nas três primeiras semanas. A dimensão da ID do Delivery exibirá os resultados de cada delivery, a saber, DM1 para DM4. <br /> </td> 
   </tr> 
   <tr> 
-   <td> Etiqueta do delivery<br /> </td> 
-   <td> Etiqueta do delivery, conforme visto na Campanha<br /> </td> 
+   <td> Rótulo do delivery<br /> </td> 
+   <td> Etiqueta do delivery, como visto na Campanha<br /> </td> 
   </tr> 
   <tr> 
-   <td> ID de delivery executada<br /> </td> 
+   <td> ID do delivery executado<br /> </td> 
    <td> Nome interno do delivery, como visto na Campanha. Isso só diz respeito ao delivery na execução na Campanhas.<br /> Por exemplo, DM1 é um delivery recorrente programado para enviar delivery filhos toda semana. DM2, DM3 e DM4 são enviados nas três primeiras semanas. A dimensão da ID de delivery Executada exibirá os resultados dos delivery executados, ou seja, os delivery filho DM2, DM3 e DM4. <br /> </td> 
   </tr> 
   <tr> 
    <td> Rótulo de delivery executado<br /> </td> 
-   <td> Etiqueta do delivery, como visto na Campanha. Isso só diz respeito ao delivery na execução na Campanhas.<br /> </td> 
+   <td> Etiqueta do delivery, como visto na Campanha. Isso só diz respeito ao delivery na execução na Campanha.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Campanhas **[!UICONTROL metrics]** encontradas no Analytics estão listadas abaixo:
+A campanha **[!UICONTROL metrics]** encontrada no Analytics está listada abaixo:
 
 <table> 
  <thead> 
@@ -83,7 +83,7 @@ Campanhas **[!UICONTROL metrics]** encontradas no Analytics estão listadas abai
    <td> Número total de envios para o delivery.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Total de rejeições<br /> </td> 
+   <td> Rejeições totais<br /> </td> 
    <td> Total de erros acumulados durante o processamento de retorno automático e delivery em relação ao número total de mensagens enviadas.<br /> </td> 
   </tr> 
   <tr> 
