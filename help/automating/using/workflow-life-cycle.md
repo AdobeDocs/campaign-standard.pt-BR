@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Ciclo de vida do fluxo de trabalho
+title: Ciclo de vida do workflow
 description: Saiba mais sobre o ciclo de vida do fluxo de trabalho
 audience: automating
 content-type: reference
@@ -20,11 +20,11 @@ ht-degree: 3%
 
 O ciclo de vida de um fluxo de trabalho inclui três etapas principais e cada etapa está vinculada a um status e a uma cor:
 
-* **Edição** (cinza)
+* **Edição**  (cinza)
 
-   Esta é a fase de design inicial de um fluxo de trabalho (consulte [Criação de um fluxo de trabalho](../../automating/using/building-a-workflow.md#creating-a-workflow)). O fluxo de trabalho ainda não é manipulado pelo servidor e pode ser modificado sem nenhum risco.
+   Esta é a fase de design inicial de um fluxo de trabalho (consulte [Criar um fluxo de trabalho](../../automating/using/building-a-workflow.md#creating-a-workflow)). O fluxo de trabalho ainda não é manipulado pelo servidor e pode ser modificado sem nenhum risco.
 
-* **Em andamento** (azul)
+* **Em andamento**  (azul)
 
    Quando a fase de design inicial estiver concluída, o fluxo de trabalho poderá ser iniciado e será manipulado pelo servidor.
 
@@ -36,12 +36,12 @@ Depois de iniciado, um fluxo de trabalho também pode ter dois outros status:
 
 * **Aviso** (amarelo)
 
-   O fluxo de trabalho não pôde ser concluído ou foi pausado usando os ![](assets/pause_darkgrey-24px.png) botões ou ![](assets/check_pause_darkgrey-24px.png) .
+   O fluxo de trabalho não pôde ser concluído ou foi pausado usando os botões ![](assets/pause_darkgrey-24px.png) ou ![](assets/check_pause_darkgrey-24px.png).
 
-* **Errado** (vermelho)
+* **Errôneo**  (vermelho)
 
-   Ocorreu um erro quando um fluxo de trabalho foi executado. O fluxo de trabalho foi interrompido e o usuário deve executar uma ação. Para saber mais sobre esse erro, use o ![](assets/printpreview_darkgrey-24px.png) botão para acessar o log do fluxo de trabalho (consulte [Monitoramento](../../automating/using/monitoring-workflow-execution.md)).
+   Ocorreu um erro quando um fluxo de trabalho foi executado. O fluxo de trabalho foi interrompido e o usuário deve executar uma ação. Para saber mais sobre esse erro, use o botão ![](assets/printpreview_darkgrey-24px.png) para acessar o log do fluxo de trabalho (consulte [Monitoramento](../../automating/using/monitoring-workflow-execution.md)).
 
-A lista de atividades de marketing permite exibir todos os workflows, bem como seus status. For more on this, see [Managing marketing activities](../../start/using/marketing-activities.md#about-marketing-activities).
+A lista de atividades de marketing permite exibir todos os workflows, bem como seus status. Para obter mais informações, consulte [Gerenciamento de atividades de marketing](../../start/using/marketing-activities.md#about-marketing-activities).
 
 ![](assets/wkf_execution_3.png)
