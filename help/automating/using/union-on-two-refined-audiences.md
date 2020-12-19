@@ -24,7 +24,7 @@ O fluxo de trabalho de reconciliação foi criado deste modo:
 
 ![](assets/readaudience_activity_example1.png)
 
-* A first [Read audience](../../automating/using/read-audience.md) activity that retrieves the Gold members audience and refines it by selecting only profiles that are between 18 and 30 years old.
+* Uma primeira atividade [Ler audiência](../../automating/using/read-audience.md) que recupera a audiência dos membros Gold e a refina selecionando apenas perfis com idade entre 18 e 30 anos.
 * Uma primeira atividade **[!UICONTROL Read audience]** que recupera o público-alvo dos membros Silver e o refina selecionando apenas os perfis entre 18 e 30 anos.
-* A [Union](../../automating/using/union.md) activity that unites populations from both **[!UICONTROL Read audiences]** activities into one final population.
-* An [Email delivery](../../automating/using/email-delivery.md) activity that sends the email to the population coming from the **[!UICONTROL Union]** activity.
+* Uma atividade [União](../../automating/using/union.md) que une populações de ambas as atividades **[!UICONTROL Read audiences]** em uma população final.
+* Uma atividade [delivery de email](../../automating/using/email-delivery.md) que envia o email para a população proveniente da atividade **[!UICONTROL Union]**.
