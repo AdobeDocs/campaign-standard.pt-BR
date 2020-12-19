@@ -28,15 +28,15 @@ O exemplo abaixo mostra como enviar um email usando dados adicionais recuperados
 
 Para criar o fluxo de trabalho, siga estas etapas:
 
-1. Drag and drop a [Query](../../automating/using/query.md) activity into your workflow and open it to define the main target.
+1. Arraste e solte uma atividade [Query](../../automating/using/query.md) no seu fluxo de trabalho e abra-a para definir o público alvo principal.
 
    <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
 
-1. Drag and drop a [Load file](../../automating/using/load-file.md) activity to assign some data to a profile. No exemplo, carregue um arquivo com os números de conta correspondentes a alguns perfis do banco de dados.
+1. Arraste e solte uma atividade [Carregar arquivo](../../automating/using/load-file.md) para atribuir alguns dados a um perfil. No exemplo, carregue um arquivo com os números de conta correspondentes a alguns perfis do banco de dados.
 
    ![](assets/load_file_activity.png)
 
-1. Drag and drop an [Enrichment](../../automating/using/enrichment.md) activity into your workflow and link the load file and query activities to it.
+1. Arraste e solte uma atividade [Enriquecimento](../../automating/using/enrichment.md) no seu fluxo de trabalho e vincule o arquivo de carregamento e as atividades do query a ele.
 
 1. Na guia **[!UICONTROL Advanced relations]** da atividade de enriquecimento, selecione o **[!UICONTROL 0 or 1 cardinality simple link]** e defina os campos que serão usados para reconciliação. Aqui usamos o sobrenome para reconciliar os dados com os perfis do banco de dados.
 
@@ -50,13 +50,13 @@ Para criar o fluxo de trabalho, siga estas etapas:
 
    Para saber mais, consulte a seção [Enriquecimento](../../automating/using/enrichment.md).
 
-1. Drag and drop a [Segmentation](../../automating/using/segmentation.md) activity into your workflow and open it to refine the main target.
+1. Arraste e solte uma atividade [Segmentation](../../automating/using/segmentation.md) no seu fluxo de trabalho e abra-a para refinar o público alvo principal.
 
    ![](assets/load_file_segmentation.png)
 
    Para saber mais, consulte a seção [Segmentação](../../automating/using/segmentation.md).
 
-1. Drag and drop an [Email delivery](../../automating/using/email-delivery.md) activity into your workflow and open it.
+1. Arraste e solte uma atividade [delivery de e-mail](../../automating/using/email-delivery.md) no seu fluxo de trabalho e abra-a.
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 
