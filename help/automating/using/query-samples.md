@@ -18,7 +18,7 @@ ht-degree: 90%
 
 # Amostras de queries {#query-samples}
 
-Esta seção apresenta o caso de uso ao usar uma **[!UICONTROL Query]** atividade. For more on how to use a **[!UICONTROL Query]** activity, refer to [this section](../../automating/using/query.md).
+Esta seção apresenta um caso de uso ao usar uma atividade **[!UICONTROL Query]**. Para obter mais informações sobre como usar uma atividade **[!UICONTROL Query]**, consulte [esta seção](../../automating/using/query.md).
 
 ## Direcionamento em atributos simples de perfil {#targeting-on-simple-profile-attributes}
 
