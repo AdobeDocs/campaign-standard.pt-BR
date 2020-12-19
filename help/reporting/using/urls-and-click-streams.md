@@ -18,14 +18,14 @@ ht-degree: 6%
 
 # Fluxos de clique e URLs{#urls-and-click-streams}
 
-Os **URLs e os fluxos** de cliques mostram os URLs mais clicados durante um delivery, ou vários delivery se estiverem vinculados a uma campanha ou programa.
+Os **URLs e os fluxos de cliques** mostram os URLs mais clicados durante um delivery, ou vários delivery se estiverem vinculados a uma campanha ou programa.
 
 ![](assets/delivery_reports_8.png)
 
 Cada tabela é representada por números de resumo e gráficos. Você pode alterar a forma como os detalhes são exibidos em suas respectivas configurações de visualização.
 
-A tabela de links **** mais visitados contém os dados disponíveis para o comportamento do recipient por delivery, como:
+A tabela **Links mais visitados** contém os dados disponíveis para o comportamento do recipient por delivery, como:
 
 * **Clique**: O número de vezes que o conteúdo foi clicado em um delivery.
-* **Cliques**&#x200B;únicos: O número de recipient que clicaram no conteúdo de um delivery.
+* **Cliques** únicos: O número de recipient que clicaram no conteúdo de um delivery.
 
