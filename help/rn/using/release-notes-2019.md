@@ -17,7 +17,7 @@ ht-degree: 9%
 
 # Notas de versão 2019{#release-notes-2019}
 
-[Planejamento](https://helpx.adobe.com/br/campaign/kb/acs-release-planning.html)  de lançamento| Versões [ de ](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html) Painel de controle do Campaign| Atualizações [ de ](../../rn/using/documentation-updates.md) documentação| Notas [ de versão ](../../rn/using/release-notes.md) mais recentes| Recursos  [obsoletos](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
+[Planejamento](https://helpx.adobe.com/br/campaign/kb/acs-release-planning.html)  de lançamento| Versões [ de ](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html) Painel de controle do Campaign| Atualizações [ de ](../../rn/using/documentation-updates.md) documentação| Notas [ de versão ](../../rn/using/release-notes.md) mais recentes| Recursos  [obsoletos](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=pt-BR#release-notes)
 
 ## Versão 19.4 - dezembro de 2019 {#release-19-4---october-2019}
 
