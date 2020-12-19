@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Criação de email
+title: Criar email
 description: Siga estas etapas para criar um email de envio único no Adobe Campaign.
 audience: channels
 content-type: reference
@@ -15,7 +15,7 @@ ht-degree: 20%
 ---
 
 
-# Criação de email{#creating-an-email}
+# Criar email{#creating-an-email}
 
 Você pode criar um email a partir de uma [campanha](../../start/using/marketing-activities.md#creating-a-marketing-activity), a partir do home page Adobe Campaign [ou ](../../start/using/interface-description.md#home-page), ou na lista [atividade de marketing](../../start/using/marketing-activities.md#about-marketing-activities). Também é possível criar emails recorrentes e de envio único a partir de um fluxo de trabalho.
 
