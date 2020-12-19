@@ -18,11 +18,11 @@ ht-degree: 5%
 
 # Não entregues e rejeitados{#non-deliverables-and-bounces}
 
-O **[!UICONTROL Non-deliverables and bounces]** relatório fornece detalhes sobre todos os erros encontrados durante um delivery.
+O relatório **[!UICONTROL Non-deliverables and bounces]** fornece detalhes sobre todos os erros encontrados durante um delivery.
 
 ![](assets/delivery_reports_7.png)
 
-A **[!UICONTROL Overview]** tabela contém os dados disponíveis referentes aos possíveis erros que podem ser encontrados para cada delivery, como:
+A tabela **[!UICONTROL Overview]** contém os dados disponíveis relacionados aos possíveis erros que podem ser encontrados para cada delivery, como:
 
 * **Processado/enviado**: O número de emails enviados.
 * **Entregue**: O número de emails entregues.
