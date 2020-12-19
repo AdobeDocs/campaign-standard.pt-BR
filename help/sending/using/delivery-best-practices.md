@@ -21,27 +21,27 @@ Conheça as práticas recomendadas relacionadas ao design e envio com o Adobe Ca
 
 <img src="assets/do-not-localize/optimize.svg"  width="60px">
 
-**[Otimizar o delivery](optimize-delivery.md)** - Proteger e otimizar o processo de envio
+**[Otimizar o delivery](optimize-delivery.md)**  - Proteger e otimizar o processo de envio
 
 <img src="assets/do-not-localize/design.svg"  width="60px">
 
-**[Usar modelos](use-templates.md)** - Facilitar e acionar novos delivery
+**[Usar modelos](use-templates.md)**  - Facilitar e acionar novos delivery
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
-**[Personalizar conteúdo](optimize-delivery.md)** - Aplicar configurações corretas
+**[Personalizar conteúdo](optimize-delivery.md)**  - Aplicar configurações corretas
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
-**[Definir a audiência](define-the-right-audience.md)** correta - Aplicar configurações corretas
+**[Definir a audiência](define-the-right-audience.md)**  correta - Aplicar configurações corretas
 
 <img src="assets/do-not-localize/start.svg"  width="60px">
 
-**[Verificar antes de enviar](check-before-sending.md)** - Evitar erros comuns
+**[Verificar antes de enviar](check-before-sending.md)**  - Evitar erros comuns
 
 <img src="assets/do-not-localize/troubleshoot.svg"  width="60px">
 
-**[Rastreamento e monitor](track-and-monitor.md)** - Controle o envio e a solução de problemas
+**[Rastreamento e monitor](track-and-monitor.md)**  - Controle o envio e a solução de problemas
 
 ## Conteúdo relacionado
 
