@@ -32,7 +32,7 @@ Quatro comandos de execução estão disponíveis para controlar um fluxo de tra
 * Retomar
 * Stop
 
-Para obter mais informações sobre os comandos de execução, consulte a documentação [da](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html)Campanha.
+Para obter mais informações sobre os comandos de execução, consulte a [documentação de Campanha](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
 
 <br/>
 
