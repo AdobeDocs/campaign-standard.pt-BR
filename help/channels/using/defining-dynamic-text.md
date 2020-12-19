@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Definição de texto dinâmico{#defining-dynamic-text}
 
-O texto dinâmico é definido da mesma forma que o conteúdo dinâmico. Consulte a seção [Definição de conteúdo](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) dinâmico.
+O texto dinâmico é definido da mesma forma que o conteúdo dinâmico. Consulte a seção [Definição de conteúdo dinâmico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ O exemplo abaixo mostra como definir um texto dinâmico em uma mensagem SMS.
 
    ![](assets/dynamic_text_sms_1.png)
 
-   A **[!UICONTROL Dynamic text]** opção é exibida na paleta. É configurado da mesma forma que o conteúdo dinâmico.
+   A opção **[!UICONTROL Dynamic text]** é exibida na paleta. É configurado da mesma forma que o conteúdo dinâmico.
 
 1. Selecione uma variante.
 
