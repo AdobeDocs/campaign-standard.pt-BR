@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 21%
+ht-degree: 23%
 
 ---
 
@@ -75,7 +75,7 @@ Leia mais:
 * [Introdução a mensagens transacionais](../../channels/using/getting-started-with-transactional-msg.md)
 * [Configuração de um evento transacional](../../channels/using/configuring-transactional-event.md)
 * [Publicar um evento transacional](../../channels/using/publishing-transactional-event.md)
-* [Edição de um mensagen transacional](../../channels/using/editing-transactional-message.md)
+* [Editar uma mensagem transacional](../../channels/using/editing-transactional-message.md)
 * [Publicação de mensagem transacional](../../channels/using/publishing-transactional-message.md)
 * [Notificações por push transacionais](../../channels/using/transactional-push-notifications.md)
 * [Mensagens de acompanhamento](../../channels/using/follow-up-messages.md)
