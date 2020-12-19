@@ -41,7 +41,7 @@ A atividade **[!UICONTROL Read audience]** é uma versão mais simples da ativid
 
    Você pode recuperar públicos-alvo dos seguintes tipos: **[!UICONTROL List]**, **[!UICONTROL Query]**, **[!UICONTROL File]** e **[!UICONTROL Experience Cloud]**. Para saber mais sobre tipos de público-alvo, consulte a documentação sobre [Públicos-alvo](../../audiences/using/about-audiences.md).
 
-   A opção **[!UICONTROL Use a dynamic audience]** permite definir o nome do público-alvo de direcionamento com base nas variáveis de eventos do fluxo de trabalho. For more on this, refer to [this page](../../automating/using/customizing-workflow-external-parameters.md) section.
+   A opção **[!UICONTROL Use a dynamic audience]** permite definir o nome do público-alvo de direcionamento com base nas variáveis de eventos do fluxo de trabalho. Para obter mais informações, consulte a seção [this page](../../automating/using/customizing-workflow-external-parameters.md).
 
    ![](assets/readaudience_activity1.png)
 
