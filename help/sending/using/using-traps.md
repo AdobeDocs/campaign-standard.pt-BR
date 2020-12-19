@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # Uso de traps {#using-traps}
 
-Ao usar armadilhas, a mensagem é enviada para o perfil [de](../../audiences/using/managing-test-profiles.md) teste da mesma forma que é enviada para o público alvo principal, como um meio de identificar se o arquivo cliente está sendo usado de forma fraudulenta.
+Ao usar armadilhas, a mensagem é enviada para o [perfil de teste](../../audiences/using/managing-test-profiles.md) da mesma forma que é enviada para o público alvo principal, como um meio de identificar se o arquivo cliente está sendo usado de forma fraudulenta.
 
 As armadilhas foram originalmente projetadas para delivery de mala direta. Eles permitem que você:
 
@@ -27,7 +27,7 @@ As armadilhas foram originalmente projetadas para delivery de mala direta. Eles 
 * Guarde uma cópia exata do correio enviado.
 * Verifique se a lista do cliente não foi usada indevidamente pelo provedor de mala direta. Na verdade, se qualquer outra comunicação for enviada para o endereço do perfil de teste, o arquivo do cliente pode ter sido usado sem que você saiba. É por esta razão que o endereço do perfil de ensaio deve ser utilizado apenas para este fim.
 
-Para obter mais informações sobre como adicionar armadilhas à audiência de uma mala direta, consulte [Adicionar perfis](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)de teste e armadilha.
+Para obter mais informações sobre como adicionar armadilhas à audiência de uma mala direta, consulte [Adicionar perfis de teste e armadilha](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles).
 
 Para outros canais de comunicação, você pode adicionar perfis de teste de armadilha ao público alvo principal para:
 
@@ -39,15 +39,15 @@ Para usar um perfil de teste como armadilha, ele deve ser incluído na audiênci
 
 >[!NOTE]
 >
->Ao contrário dos perfis de teste usados para [prova](../../sending/using/sending-proofs.md) ou renderização [por](../../sending/using/email-rendering.md)email, a mensagem é enviada ao mesmo tempo para o público alvo principal e para os perfis de teste usados como armadilhas.
+>Ao contrário dos perfis de teste usados para [prova](../../sending/using/sending-proofs.md) ou [renderização por email](../../sending/using/email-rendering.md), a mensagem é enviada ao mesmo tempo para o público alvo principal e para os perfis de teste usados como armadilhas.
 
 Ao definir a audiência de uma mensagem:
 
-1. Na **[!UICONTROL Test profiles]** guia, selecione um perfil de teste. Certifique-se de que tem **[!UICONTROL Trap]** o uso pretendido.
+1. Na guia **[!UICONTROL Test profiles]**, selecione um perfil de teste. Verifique se ele tem **[!UICONTROL Trap]** como o uso pretendido.
 
    ![](assets/trap_select.png)
 
-1. Quando o conteúdo da mensagem estiver pronto, clique no **[!UICONTROL Prepare]** botão. See [Preparing the send](../../sending/using/preparing-the-send.md).
+1. Quando o conteúdo da mensagem estiver pronto, clique no botão **[!UICONTROL Prepare]**. Consulte [Preparação do send](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
    >Verifique se você selecionou um público alvo principal. Caso contrário, sua mensagem não poderá ser enviada.
@@ -58,7 +58,7 @@ Ao definir a audiência de uma mensagem:
 
 A mensagem é enviada ao público alvo principal e ao perfil de teste.
 
-Você pode usar armadilhas ao enviar mensagens transacionais. Nesse caso, o perfil de teste receberá uma mensagem por configuração de evento. For more on transactional messaging, see this [section](../../channels/using/getting-started-with-transactional-msg.md).
+Você pode usar armadilhas ao enviar mensagens transacionais. Nesse caso, o perfil de teste receberá uma mensagem por configuração de evento. Para obter mais informações sobre mensagens transacionais, consulte esta [seção](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >
