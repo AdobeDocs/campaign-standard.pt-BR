@@ -19,31 +19,31 @@ ht-degree: 10%
 
 No Adobe Campaign, você pode usar os dados de Pontos de interesse coletados dos assinantes de seu aplicativo móvel para enviar mensagens de marketing personalizadas, como um email.
 
-Você só pode reagir em dados de Ponto de interesse com delivery padrão. [Os mensagens transacionais](../../channels/using/getting-started-with-transactional-msg.md) não podem usar dados de localização.
+Você só pode reagir em dados de Ponto de interesse com delivery padrão. [As ](../../channels/using/getting-started-with-transactional-msg.md) mensagens transacionais não podem usar dados de localização.
 
 A primeira coisa que você pode reagir é cerca de 10 minutos.
 
 Neste caso, você decide enviar um email para todos os assinantes que visitaram sua loja de Boston nas últimas duas semanas.
 
 1. Crie uma atividade de marketing por email.
-1. Ao definir a audiência do delivery, arraste e solte o **[!UICONTROL Subscriptions to an application]** elemento na área de trabalho.
+1. Ao definir a audiência do delivery, arraste e solte o elemento **[!UICONTROL Subscriptions to an application]** no espaço de trabalho.
 
    ![](assets/poi_subscriptions_app.png)
 
-   O gerenciamento de audiências é detalhado na seção [Definição de audiências](../../audiences/using/creating-audiences.md) .
+   O gerenciamento de audiências é detalhado na seção [Definição de audiências](../../audiences/using/creating-audiences.md).
 
-1. In the **[!UICONTROL Add a rule - Profile/Subscriptions to an application]** window, drag and drop the **[!UICONTROL POI Location Subscription]** element into the workspace.
+1. Na janela **[!UICONTROL Add a rule - Profile/Subscriptions to an application]**, arraste e solte o elemento **[!UICONTROL POI Location Subscription]** no espaço de trabalho.
 
    ![](assets/poi_add_rule_profile_subscription.png)
 
-1. Na **[!UICONTROL Add a rule - POI Location Subscription]** janela, informe o rótulo do Ponto de interesse que você deseja usar.
+1. Na janela **[!UICONTROL Add a rule - POI Location Subscription]**, informe o rótulo do Ponto de interesse que deseja usar.
 
    ![](assets/poi_location_subscription.png)
 
 1. No campo **[!UICONTROL Filter type]**, selecione **[!UICONTROL Relative]**.
-1. Marque a **[!UICONTROL Preceding days]** opção e insira **[!UICONTROL 15]** no campo correspondente.
+1. Marque a opção **[!UICONTROL Preceding days]** e digite **[!UICONTROL 15]** no campo correspondente.
 1. Defina o número de vezes que o usuário deve ter visitado o Ponto de interesse.
-1. Click **[!UICONTROL Confirm]** to save your audience.
+1. Clique em **[!UICONTROL Confirm]** para salvar sua audiência.
 
    ![](assets/poi_subscriptions_app_audience_defined.png)
 
@@ -61,7 +61,7 @@ O e-mail com a oferta de 10% de desconto será enviado aos assinantes que:
 
 **Tópicos relacionados:**
 
-* [Criação de email](../../channels/using/creating-an-email.md)
+* [Criar email](../../channels/using/creating-an-email.md)
 * [Definição de conteúdo](../../designing/using/personalization.md#example-email-personalization)
 * [Envio de mensagens](../../sending/using/confirming-the-send.md)
 
