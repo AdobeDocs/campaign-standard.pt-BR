@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # Indicadores de rastreamento{#tracking-indicators}
 
-O **[!UICONTROL Tracking indicators]** relatório contém os principais indicadores para rastrear o comportamento após o recebimento de mensagens de email.
+O relatório **[!UICONTROL Tracking indicators]** contém os principais indicadores para rastrear o comportamento após o recebimento de mensagens de email.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ O **[!UICONTROL Tracking indicators]** relatório contém os principais indicado
 
 ![](assets/delivery_reports_2.png)
 
-A **[!UICONTROL Tracking indicators]** tabela e o gráfico de 5 delivery **** principais contêm os dados disponíveis para o tracking de email, como:
+A tabela **[!UICONTROL Tracking indicators]** e o gráfico **Os 5 delivery principais** contêm os dados disponíveis para o tracking de email, como:
 
 * **[!UICONTROL Delivered]**: O número de mensagens enviadas com êxito. Os erros levantados (rejeições) são tidos em conta. no entanto, as queixas (declarações de spam) e as mensagens de saída como &quot;fora do escritório&quot; não são levadas em conta.
 * **Abrir**: O número de vezes que uma mensagem foi aberta em um delivery.
