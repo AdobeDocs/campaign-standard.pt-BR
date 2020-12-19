@@ -17,12 +17,12 @@ ht-degree: 10%
 
 # Interação com o histórico de marketing {#interacting-with-marketing-history}
 
-O endpoint de **histórico** permite que você interaja com um histórico de marketing.
+O endpoint **history** permite que você interaja com um histórico de marketing perfil.
 Dessa forma, você pode, por exemplo, recuperar facilmente o mirror page de um delivery que foi enviado para um perfil. Para fazer isso, siga as etapas abaixo:
 
-1. Execute um GET com o endpoint do **histórico** e a chave primária do perfil.
-1. Execute uma solicitação de GET nos **eventos** que href retornou.
-1. Ele retorna a lista de eventos para o perfil com links para mirrores page no nó **mirrorPage** .
+1. Execute um GET com o endpoint **history** e a chave primária do perfil.
+1. Execute uma solicitação de GET no href **eventos** retornado.
+1. Ele retorna a lista de eventos para o perfil com links para mirrores page no nó **mirrorPage**.
 
 <br/>
 
