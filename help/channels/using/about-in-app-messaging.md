@@ -61,17 +61,17 @@ Como as mensagens no aplicativo são extraídas pelo SDK da Campanha, queremos f
 * As mensagens criadas usando o modelo de Perfil só podem ser enviadas quando o usuário tiver feito logon no aplicativo.
 * Para facilitar esse handshake seguro, os desenvolvedores de aplicativos móveis devem passar detalhes adicionais de autenticação usando a API setLinkageField. Observe que os campos de vinculação são aqueles identificados como o link entre o Perfil do Mobile e o Perfil do CRM e, ao mesmo tempo, estendem a tabela appSubscriberRcp.
 * Eles devem liberar as mensagens no aplicativo armazenadas no dispositivo e resetLinkagefields quando o usuário faz logout do aplicativo usando resetLinkageField. Isso garante que, se um usuário diferente fizer logon no aplicativo, ele não visualizará as mensagens destinadas ao usuário anterior.
-* Consulte as APIs [do SDK do](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) Mobile para implementar este mecanismo de segurança do lado do cliente.
+* Consulte [APIs Mobile SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) para implementar este mecanismo de segurança do lado do cliente.
 
 ### O que devo fazer para ativar o relatórios no aplicativo na Campanha? {#enable-inapp-reporting}
 
-É necessário configurar o postback de rastreamento no aplicativo. Instructions can be found [here](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#InApptrackingpostback).
+É necessário configurar o postback de rastreamento no aplicativo. As instruções podem ser encontradas [aqui](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#InApptrackingpostback).
 
 Para implementar o rastreamento de notificação local, consulte esta [página](../../administration/using/local-tracking.md).
 
 ### Quais relatórios estão disponíveis para o canal no aplicativo? {#report-inapp}
 
-Um relatório pronto para uso está disponível no Adobe Campaign para o canal no aplicativo. Refer to this [documentation](../../reporting/using/in-app-report.md).
+Um relatório pronto para uso está disponível no Adobe Campaign para o canal no aplicativo. Consulte esta [documentação](../../reporting/using/in-app-report.md).
 
 Consulte esta [página](../../reporting/using/indicator-calculation.md#in-app-delivery) para entender como cada métrica no aplicativo é calculada.
 
