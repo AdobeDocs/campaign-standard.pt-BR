@@ -25,13 +25,13 @@ Siga os detalhes do fluxograma e do fluxograma abaixo para solicitar e configura
 
 Detalhes do fluxograma (mapeia para as etapas acima):
 
-* **Etapa 1** - Pressupõe-se que você já tenha ou esteja em processo de adquirir uma licença para o Microsoft Dynamics 365 para Vendas e para Adobe Campaign Standard.
+* **Etapa 1**  - Pressupõe-se que você já tenha ou esteja em processo de adquirir uma licença para o Microsoft Dynamics 365 para Vendas e para Adobe Campaign Standard.
 
-* **Etapa 2** - A oferta de integração padrão é gratuita para todos os clientes. no entanto, podem ser aplicados custos adicionais, dependendo de seus requisitos (consulte [Proteção de integração e limites](../../integrating/using/ms-dynamics-365-integration-guardrails.md). Será necessário assinar uma nova ordem de venda para aproveitar a integração.
+* **Etapa 2**  - A oferta de integração padrão é gratuita para todos os clientes. no entanto, podem ser aplicados custos adicionais, dependendo de seus requisitos (consulte  [Proteção de integração e limites](../../integrating/using/ms-dynamics-365-integration-guardrails.md). Será necessário assinar uma nova ordem de venda para aproveitar a integração.
 
-* **Etapa 3** - Complete as etapas de pré-integração para o Dynamics 365 e a Campanha. Consulte [Configurar esta integração](#configure-this-integration).
+* **Etapa 3**  - Complete as etapas de pré-integração para o Dynamics 365 e a Campanha. Consulte [Configurar esta integração](#configure-this-integration).
 
-* **Etapas 4 a 7** - A equipe de onboard do Adobe trabalhará com você durante o processo de onboard.
+* **Etapas 4 a 7**  - A equipe de onboard do Adobe trabalhará com você durante o processo de onboard.
 
 ## Configurar esta integração {#configure-this-integration}
 
@@ -43,7 +43,7 @@ Três sistemas precisam ser provisionados e configurados para essa integração:
 >
 >As etapas nos artigos abaixo o guiarão pela criação de integrações/registros que envolvam a atribuição de permissões e/ou acesso administrativo.  É sua responsabilidade garantir que essas etapas estejam em conformidade com suas políticas de empresa antes de serem executadas e executá-las cuidadosamente.
 
-No ADOBE CAMPAIGN, é necessário configurar o acesso à API e uma nova integração para a ferramenta de integração. Para fazer isso, consulte [este artigo](../../integrating/using/configure-adobe-io-for-ms-dynamic.md).
+No ADOBE CAMPAIGN, é necessário configurar o acesso à API e uma nova integração para a ferramenta de integração. Para conseguir isso, consulte [este artigo](../../integrating/using/configure-adobe-io-for-ms-dynamic.md).
 
 No MICROSOFT DYNAMICS 365, é necessário criar um novo registro de aplicativo e permitir que o usuário do aplicativo use a integração.  Para configurar o Microsoft Dynamics 365 para essa integração, consulte [este artigo](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
 
