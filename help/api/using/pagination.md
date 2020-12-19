@@ -19,13 +19,13 @@ ht-degree: 1%
 
 Por padrão, 25 recursos são carregados em uma lista.
 
-O parâmetro **_lineCount** permite limitar o número de recursos listados na resposta.  Em seguida, você pode usar o **próximo** nó para exibir os resultados seguintes.
+O parâmetro **_lineCount** permite limitar o número de recursos listados na resposta.  Você pode usar o nó **next** para exibir os resultados seguintes.
 
 >[!NOTE]
 >
->Sempre use o valor de URL retornado no nó **seguinte** para executar uma solicitação de paginação.
+>Use sempre o valor do URL retornado no nó **next** para executar uma solicitação de paginação.
 >
->A solicitação **_lineStart** é calculada e deve ser sempre usada dentro do URL retornado no **próximo** nó.
+>A solicitação **_lineStart** é calculada e deve ser sempre usada dentro do URL retornado no nó **next**.
 
 <br/>
 
@@ -41,7 +41,7 @@ Amostra de solicitação de GET para exibir 1 registro do recurso de perfil.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Resposta à solicitação, com o **próximo** nó para executar a paginação.
+Resposta à solicitação, com o nó **next** para executar a paginação.
 
 ```
 {
@@ -62,7 +62,7 @@ Resposta à solicitação, com o **próximo** nó para executar a paginação.
 }
 ```
 
-Por padrão, o nó **seguinte** não está disponível ao interagir com tabelas com grande quantidade de dados. Para poder executar a paginação, você deve adicionar o parâmetro **_forcePagination=true** ao URL da chamada.
+Por padrão, o nó **next** não está disponível ao interagir com tabelas com uma grande quantidade de dados. Para poder executar a paginação, você deve adicionar o parâmetro **_forcePagination=true** ao URL da sua chamada.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
@@ -74,4 +74,4 @@ Por padrão, o nó **seguinte** não está disponível ao interagir com tabelas 
 
 >[!NOTE]
 >
->O número de registros acima dos quais uma tabela é considerada grande é definido na opção Campaign Standard **XtkBigTableThreshold** . O valor padrão é 100.000 registros.
+>O número de registros acima dos quais uma tabela é considerada grande é definido na opção Campaign Standard **XtkBigTableThreshold**. O valor padrão é 100.000 registros.
