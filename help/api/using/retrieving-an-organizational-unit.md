@@ -17,7 +17,7 @@ ht-degree: 12%
 
 # Recuperação da unidade organizacional de um perfil {#retrieving-organizational-units}
 
-1. Execute uma solicitação de GET na pasta de trabalho do perfil para recuperar o URL **orgUnit** .
+1. Execute uma solicitação de GET no diretório de publicação do perfil para recuperar o URL **orgUnit**.
 1. Execute uma solicitação de GET no URL para recuperar mais detalhes sobre a unidade organizacional.
 
 <br/>
