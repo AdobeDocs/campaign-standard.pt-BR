@@ -15,12 +15,12 @@ ht-degree: 5%
 ---
 
 
-# Declaring the parameters in the External signal activity {#declaring-the-parameters-in-the-external-signal-activity}
+# Declaração dos parâmetros na atividade de sinal externo {#declaring-the-parameters-in-the-external-signal-activity}
 
-A primeira etapa para chamar um fluxo de trabalho com parâmetros é declará-los em uma **[!UICONTROL External signal]** atividade.
+A primeira etapa para chamar um fluxo de trabalho com parâmetros é declará-los em uma atividade **[!UICONTROL External signal]**.
 
-1. Open the **[!UICONTROL External signal]** activity, then select the **[!UICONTROL Parameters]** tab.
-1. Clique no **[!UICONTROL Create element]** botão e especifique o nome e o tipo de cada parâmetro.
+1. Abra a atividade **[!UICONTROL External signal]** e selecione a guia **[!UICONTROL Parameters]**.
+1. Clique no botão **[!UICONTROL Create element]** e especifique o nome e o tipo de cada parâmetro.
 
    >[!CAUTION]
    >
