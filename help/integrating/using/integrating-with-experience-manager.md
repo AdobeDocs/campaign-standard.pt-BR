@@ -21,7 +21,7 @@ Essa integração entre a Adobe Campaign Standard e a Adobe Experience Manager p
 
 Portanto, você pode aproveitar ao máximo as funcionalidades de edição de conteúdo da Adobe Experience Manager, bem como os recursos de delivery e gestão de dados da Adobe Campaign. Observe que não é possível executar testes A/B para conteúdo importado da Adobe Experience Manager.
 
-A Adobe Campaign Standard é compatível com Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 e 6.5. As seções a seguir apresentam uma visão geral das ações que você pode executar. Para obter mais informações, consulte as seções dedicadas à [configuração](https://docs.adobe.com/content/help/en/experience-manager-65/administering/integration/campaignstandard.html) e ao [uso](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/aem-adobe-campaign/campaign.html) da integração.
+A Adobe Campaign Standard é compatível com Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 e 6.5. As seções a seguir apresentam uma visão geral das ações que você pode executar. Para obter mais informações, consulte as seções dedicadas a [configuration](https://docs.adobe.com/content/help/en/experience-manager-65/administering/integration/campaignstandard.html) e [use](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/aem-adobe-campaign/campaign.html) da integração.
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ A Adobe Campaign Standard é compatível com Adobe Experience Manager 6.1, 6.2, 
 
    Como os modelos de e-mail são editáveis no Adobe Experience Manager, pode parecer mais fácil editar qualquer modelo no Adobe Experience Manager. Mas certos modelos não são facilmente acomodados. Modelos individuais específicos de um cliente não são recomendados para essa integração e devem ser editados diretamente no Adobe Campaign Standard.
 
-   For more information on templates, refer to this [page](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/templates.html).
+   Para obter mais informações sobre modelos, consulte esta [página](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/templates.html).
 
 * **Verifique se o Externalizador foi configurado durante a implementação**
 
@@ -45,7 +45,7 @@ A Adobe Campaign Standard é compatível com Adobe Experience Manager 6.1, 6.2, 
 
    Manter os modelos organizados garante que os modelos apropriados estejam nas pastas apropriadas e que não escolha os errados por engano. Durante a implementação, os caminhos devem ser criados para salvar modelos nos locais certos.
 
-   For more information on templates, refer to this [page](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/templates.html#template-availability).
+   Para obter mais informações sobre modelos, consulte esta [página](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/templates.html#template-availability).
 
 * **Comece rapidamente com componentes prontos para uso.**
 
@@ -67,7 +67,7 @@ Há sete componentes prontos para uso no Experience Manager que você pode start
 * **Desvincule o conteúdo dos modelos e reutilize-os várias vezes.**
 
    Ao configurar seus emails no Campaign Standard e selecionar um modelo de Experience Manager, você só pode escolher um que ainda não tenha sido vinculado a outra campanha. Caso contrário, se você alterar o conteúdo no Adobe Experience Manager para uma campanha e atualizar, poderá afetar o conteúdo de forma não intencional na outra campanha.
-Para evitar isso, depois que você terminar de usar seu modelo, poderá desvinculá-lo para usá-lo novamente. Basta selecionar o modelo e clicar em **[!UICONTROL Delete the link with Adobe Experience Manager content]**.
+Para evitar isso, depois que você terminar de usar seu modelo, poderá desvinculá-lo para usá-lo novamente. Você só precisa selecionar o modelo e clicar em **[!UICONTROL Delete the link with Adobe Experience Manager content]**.
 
 * **Use o Adobe Experience Manager para criar variações de e-mails para o Adobe Campaign Standard.**
 
