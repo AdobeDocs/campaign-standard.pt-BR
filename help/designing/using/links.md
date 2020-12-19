@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '592'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -27,7 +27,7 @@ Você pode inserir um link em qualquer elemento de página: imagem, palavra, gru
 >
 >As imagens abaixo mostram como inserir um link usando o [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) em um email.
 
-1. Selecione um elemento e clique **[!UICONTROL Insert link]** na barra de ferramentas contextual.
+1. Selecione um elemento e clique em **[!UICONTROL Insert link]** na barra de ferramentas contextual.
 
    ![](assets/des_insert_link.png)
 
@@ -35,7 +35,7 @@ Você pode inserir um link em qualquer elemento de página: imagem, palavra, gru
 
    * **Link** externo: insira um link para um URL externo.
 
-      Você pode definir a personalização para seus URLs. Consulte [Personalização de URLs](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
+      Você pode definir a personalização para seus URLs. Consulte [Personalizando URLs](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
 
    * **Landing page**: dê acesso a uma landing page Adobe Campaign.
    * **Link** de subscrição: insira um link para assinar um serviço Adobe Campaign.
@@ -46,7 +46,7 @@ Você pode inserir um link em qualquer elemento de página: imagem, palavra, gru
       >
       >Esse tipo de link só está disponível para landing page.
 
-1. Você pode modificar o texto exibido no recipient.
+1. É possível modificar o texto exibido no recipient.
 1. Você pode definir o comportamento do navegador quando o usuário clicar no link (por exemplo, abrir uma nova janela).
 
    >[!NOTE]
@@ -59,13 +59,13 @@ Depois que o link for criado, você ainda poderá modificá-lo do painel Configu
 
 ![](assets/des_link_edit.png)
 
-Ao editar um email com o [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), você pode acessar e modificar facilmente os links criados na tabela que lista todos os URLs incluídos no email. Essa lista permite que você tenha uma visualização centralizada e localize cada URL no conteúdo do email. Para acessá-lo, consulte [Sobre URLs](#about-tracked-urls)rastreados.
+Ao editar um email com o [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), você pode acessar e modificar facilmente os links criados na tabela que listam todos os URLs incluídos no email. Essa lista permite que você tenha uma visualização centralizada e localize cada URL no conteúdo do email. Para acessá-lo, consulte [Sobre URLs rastreados](#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 
 >[!NOTE]
 >
->URLs personalizados, como URL **de** Mirror page ou link de **Unsubscription** , não podem ser modificados desta lista. Todos os outros links são editáveis.
+>URLs personalizados, como o link **URL do Mirror page** ou **Unsubscription**, não podem ser modificados desta lista. Todos os outros links são editáveis.
 
 **Tópicos relacionados**:
 
@@ -75,15 +75,15 @@ Ao editar um email com o [Email Designer](../../designing/using/designing-conten
 
 ## Sobre URLs rastreados {#about-tracked-urls}
 
-A Adobe Campaign permite que você rastreie o comportamento de seus recipient quando eles clicam em um URL incluído em um email. For more on tracking, see [this section](../../sending/using/tracking-messages.md#about-tracking).
+A Adobe Campaign permite que você rastreie o comportamento de seus recipient quando eles clicam em um URL incluído em um email. Para obter mais informações sobre rastreamento, consulte [esta seção](../../sending/using/tracking-messages.md#about-tracking).
 
-O **[!UICONTROL Links]** ícone na barra de ações exibe automaticamente a lista de todos os URLs do conteúdo que serão rastreados.
+O ícone **[!UICONTROL Links]** na barra de ações exibe automaticamente a lista de todos os URLs do seu conteúdo que serão acompanhados.
 
 ![](assets/des_links.png)
 
 >[!NOTE]
 >
->O rastreamento é ativado por padrão. Esta funcionalidade só está disponível para e-mails se o rastreamento tiver sido ativado no Adobe Campaign. For more on the tracking parameters, refer to [this section](../../administration/using/configuring-email-channel.md#tracking-parameters).
+>O rastreamento é ativado por padrão. Esta funcionalidade só está disponível para e-mails se o rastreamento tiver sido ativado no Adobe Campaign. Para obter mais informações sobre os parâmetros de rastreamento, consulte [esta seção](../../administration/using/configuring-email-channel.md#tracking-parameters).
 
 O URL, a categoria, o rótulo e o tipo de rastreamento de cada link podem ser modificados a partir dessa lista. Para editar um link, clique no ícone de lápis correspondente.
 
@@ -102,13 +102,13 @@ Você também pode desativar ou ativar o rastreamento para cada URL.
 
 >[!NOTE]
 >
->Por padrão no Adobe Campaign, todos os URLs de conteúdo são rastreados, exceto URL **do** Mirror page e link de **Unsubscription** .
+>Por padrão no Adobe Campaign, todos os URLs de conteúdo são rastreados, exceto pelo link **URL do Mirror page** e **Unsubscription**.
 
-Você pode agrupar seus URLs editando o **[!UICONTROL Category]** campo, dependendo dos URLs usados na mensagem. These categories can be displayed reports, as for example in [URLs and click streams](../../reporting/using/urls-and-click-streams.md).
+Você pode agrupar seus URLs editando o campo **[!UICONTROL Category]**, dependendo dos URLs usados na mensagem. Essas categorias podem ser exibidas nos relatórios, como por exemplo em [URLs e em streams](../../reporting/using/urls-and-click-streams.md).
 
 ![](assets/des_link_tracking_category.png)
 
-Ao criar um relatório, na **[!UICONTROL Components]** guia, selecione **[!UICONTROL Dimension]** e role para baixo na lista para acessar os componentes de rastreamento. Por exemplo, arraste e solte **[!UICONTROL Tracking URL Category]** no espaço de trabalho para exibir resultados de acordo com a categoria de rastreamento de cada URL clicado.
+Ao criar um relatório, na guia **[!UICONTROL Components]**, selecione **[!UICONTROL Dimension]** e role para baixo na lista para acessar os componentes de rastreamento. Por exemplo, arraste e solte **[!UICONTROL Tracking URL Category]** no espaço de trabalho para exibir os resultados de acordo com a categoria de rastreamento de cada URL clicado.
 
 ![](assets/des_link_tracking_report.png)
 
