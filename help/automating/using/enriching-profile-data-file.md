@@ -24,8 +24,8 @@ O fluxo de trabalho é configurado da seguinte maneira:
 
 ![](assets/enrichment_example_workflow.png)
 
-* A [Query](../../automating/using/query.md) activity that targets the profiles who will receive the message.
-* A [Load file](../../automating/using/load-file.md) activity that loads the purchase data. Por exemplo:
+* Uma atividade [Query](../../automating/using/query.md) que público alvo os perfis que receberão a mensagem.
+* Uma atividade [Carregar arquivo](../../automating/using/load-file.md) que carrega os dados da compra. Por exemplo:
 
    ```
    tcode;tdate;customer;product;tamount
@@ -39,7 +39,7 @@ O fluxo de trabalho é configurado da seguinte maneira:
 
    Com esse arquivo de exemplo, usaremos o endereço de email para reconciliar os dados com os perfis do banco de dados. Você também pode ativar IDs exclusivas conforme descrito [neste documento](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 
-* An [Enrichment](../../automating/using/enrichment.md) activity that creates a link between the transaction data loaded from the file and the profiles selected in the **[!UICONTROL Query]**. O link é definido na guia **[!UICONTROL Advanced relations]** da atividade. O link é baseado na transição proveniente da atividade **[!UICONTROL Load file]**. Ele usa o campo &quot;email&quot; do recurso de perfil e a coluna &quot;cliente&quot; do arquivo importado como critérios de reconciliação.
+* Uma atividade [Enriquecimento](../../automating/using/enrichment.md) que cria um link entre os dados de transação carregados do arquivo e os perfis selecionados em **[!UICONTROL Query]**. O link é definido na guia **[!UICONTROL Advanced relations]** da atividade. O link é baseado na transição proveniente da atividade **[!UICONTROL Load file]**. Ele usa o campo &quot;email&quot; do recurso de perfil e a coluna &quot;cliente&quot; do arquivo importado como critérios de reconciliação.
 
    ![](assets/enrichment_example_workflow2.png)
 
@@ -77,11 +77,11 @@ O fluxo de trabalho é configurado da seguinte maneira:
 
       ![](assets/enrichment_example_workflow9.png)
 
-* A [Segmentation](../../automating/using/segmentation.md) activity with only one segment, that retrieves profiles of the initial target that have at least two transactions recorded. Perfis com somente uma transação são excluídos. Para isso, a consulta da segmentação é feita na agregação definida anteriormente.
+* Uma atividade [Segmentação](../../automating/using/segmentation.md) com apenas um segmento, que recupera perfis do público alvo inicial que têm pelo menos duas transações registradas. Perfis com somente uma transação são excluídos. Para isso, a consulta da segmentação é feita na agregação definida anteriormente.
 
    ![](assets/enrichment_example_workflow5.png)
 
-* An [Email delivery](../../automating/using/email-delivery.md) activity that uses the additional data defined in the **[!UICONTROL Enrichment]** to dynamically retrieve the two last purchases made by the profile. Os dados adicionais podem ser encontrados no nó **Additional data (TargetData)** ao adicionar um campo de personalização.
+* Uma atividade [delivery de e-mail](../../automating/using/email-delivery.md) que usa os dados adicionais definidos em **[!UICONTROL Enrichment]** para recuperar dinamicamente as duas últimas compras feitas pelo perfil. Os dados adicionais podem ser encontrados no nó **Additional data (TargetData)** ao adicionar um campo de personalização.
 
    ![](assets/enrichment_example_workflow10.png)
 
