@@ -17,41 +17,42 @@ ht-degree: 2%
 
 # Perguntas frequentes sobre a sincronização do Adobe Launch {#syncwithlaunch-faq}
 
-É possível importar as propriedades do Adobe Launch para o Adobe Campaign Standard por meio do fluxo de trabalho técnico **[!UICONTROL Sync with Launch]** dedicado. Para obter mais informações, consulte esta [página](../../administration/using/technical-workflows.md)
+Você pode importar as propriedades do Adobe Launch para o Adobe Campaign Standard por meio do fluxo de trabalho técnico dedicado **[!UICONTROL Sync with Launch]**. Para obter mais informações, consulte esta [página](../../administration/using/technical-workflows.md)
 
 A seção abaixo lista perguntas comuns sobre essa sincronização.
 
 ## Criei uma propriedade em [!DNL Launch] (não administrador da unidade organizacional ALL). Meu aplicativo está no estado Pronto para configurar no Adobe Campaign, mas não consigo abri-lo/configurá-lo. {#configuring-property}
 
-Somente o administrador da unidade organizacional ALL pode configurar aplicativos móveis no Adobe Campaign Standard. Depois de configurado, somente os usuários da unidade organizacional atribuída podem editar o aplicativo. For more information on organizational unit, refer to this [page](../../administration/using/organizational-units.md).
+Somente o administrador da unidade organizacional ALL pode configurar aplicativos móveis no Adobe Campaign Standard. Depois de configurados, somente os usuários da unidade organizacional atribuída podem editar a variável
+aplicativo. Para obter mais informações sobre a unidade organizacional, consulte esta [página](../../administration/using/organizational-units.md).
 
 ## Não consigo editar um aplicativo móvel configurado no Adobe Campaign Standard e os aplicativos móveis estão somente no modo de Leitura. {#read-mode-mobile-app}
 
-Verifique a unidade organizacional do aplicativo móvel na **[!UICONTROL Access Authorization ]** seção. Somente os usuários da unidade organizacional atribuída podem editar o aplicativo móvel.
+Verifique a unidade organizacional do aplicativo móvel na seção **[!UICONTROL Access Authorization ]**. Somente os usuários da unidade organizacional atribuída podem editar o aplicativo móvel.
 
-For more information on organizational unit, refer to this [page](../../administration/using/organizational-units.md).
+Para obter mais informações sobre a unidade organizacional, consulte esta [página](../../administration/using/organizational-units.md).
 
 ## Sou um administrador com a unidade da organização ALL no Adobe Campaign Standard, mas não posso configurar o aplicativo móvel. {#org-unit-mobile}
 
-Um administrador com a unidade da organização definida como ALL deve ter direitos para todas as propriedades móveis para configurar [!DNL Launch] o aplicativo móvel.
+Um administrador com a unidade da organização definida como ALL deve ter direitos para todas as propriedades móveis em [!DNL Launch] para configurar o aplicativo móvel.
 
-For more information on organizational unit, refer to this [page](../../administration/using/organizational-units.md).
+Para obter mais informações sobre a unidade organizacional, consulte esta [página](../../administration/using/organizational-units.md).
 
-## Criei uma propriedade móvel no [!DNL Launch] , mas minha propriedade não está visível no Adobe Campaign Standard. {#visibility-mobile-property}
+## Criei uma propriedade móvel em [!DNL Launch], mas minha propriedade não está visível no Adobe Campaign Standard. {#visibility-mobile-property}
 
-1. Verifique se a extensão Adobe Campaign Standard está instalada na propriedade móvel em [!DNL Launch].
+1. Verifique se a extensão do Adobe Campaign Standard está instalada na propriedade mobile em [!DNL Launch].
 
 1. Verifique se os pontos de extremidade da instância estão configurados corretamente na extensão.
 
 1. Verifique se &#39;Launch_URL_Campanha&#39; ou &#39;NmsServer_URL&#39; estão corretos.
 
-1. Em seguida, verifique se a sincronização entre o [!DNL Launch] Adobe Campaign e o foi concluída com o fluxo de trabalho **[!UICONTROL syncWithLaunch]** técnico.
+1. Em seguida, verifique se a sincronização entre [!DNL Launch] e a Adobe Campaign foi concluída com o fluxo de trabalho técnico **[!UICONTROL syncWithLaunch]**.
 
 ## Como verificar se a sincronização entre o Adobe Campaign e o Launch foi concluída? {#sync-campaign-launch}
 
 1. No Adobe Campaign Standard, no menu avançado, selecione **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**.
 
-1. Abra o **[!UICONTROL syncWithLaunch]** fluxo de trabalho.
+1. Abra o fluxo de trabalho **[!UICONTROL syncWithLaunch]**.
 
 1. Verifique se o fluxo de trabalho terminou sem erro.
 
@@ -63,7 +64,7 @@ For more information on organizational unit, refer to this [page](../../administ
 
 1. Defina um novo URL na extensão do Adobe Campaign Standard para a qual o PKey foi redefinido.
 
-1. Salve-o e permita que o fluxo de trabalho seja sincronizado entre o Adobe Campaign e o [!DNL Launch].
+1. Salve-o e permita a sincronização do fluxo de trabalho entre o Adobe Campaign e [!DNL Launch].
 
 1. Depois que a sincronização for concluída, abra a propriedade mobile em [!DNL Launch].
 
@@ -71,7 +72,7 @@ For more information on organizational unit, refer to this [page](../../administ
 
 1. Salve-o e permita que a sincronização do fluxo de trabalho seja executada novamente.
 
-1. Somente então a propriedade aparecerá no **[!UICONTROL Ready to Configure]** estado no Adobe Campaign e poderá ser configurada.
+1. Somente então a propriedade aparecerá no estado **[!UICONTROL Ready to Configure]** no Adobe Campaign e agora poderá ser configurada.
 
 ## Quero configurar uma propriedade móvel no Adobe Campaign. Terei que aguardar a sincronização do fluxo de trabalho técnico entre o Adobe Launch e o Adobe Campaign?
 
@@ -79,6 +80,6 @@ Você pode executar imediatamente o fluxo de trabalho:
 
 1. No Adobe Campaign Standard, no menu avançado, selecione **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**.
 
-1. Abra o **[!UICONTROL syncWithLaunch]** fluxo de trabalho.
+1. Abra o fluxo de trabalho **[!UICONTROL syncWithLaunch]**.
 
-1. Click on the **[!UICONTROL Scheduler]** activity and select **[!UICONTROL Immediate execution]**.
+1. Clique na atividade **[!UICONTROL Scheduler]** e selecione **[!UICONTROL Immediate execution]**.
