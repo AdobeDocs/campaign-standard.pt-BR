@@ -136,7 +136,7 @@ Para usá-lo, crie um email e selecione o modelo de conteúdo que você acabou d
 
 **Tópicos relacionados**:
 
-* [Criação de email](../../channels/using/creating-an-email.md)
+* [Criar email](../../channels/using/creating-an-email.md)
 * [Vídeo de introdução ao Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Criar um conteúdo de email do zero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
