@@ -82,7 +82,7 @@ O Campaign Standard fornece várias **ferramentas de entrega** para ajudá-lo a 
 
 Leia mais:
 
-* [Sobre a entregabilidade](../../sending/using/about-deliverability.md)
+* [Sobre a capacidade de delivery](../../sending/using/about-deliverability.md)
 * [Monitoramento da capacidade de entrega](../../sending/using/monitor-deliverability.md)
 * [Aprimoramento da reputação](../../sending/using/improving-reputation.md)
 * [Recomendações técnicas](../../sending/using/technical-recommendations.md)
