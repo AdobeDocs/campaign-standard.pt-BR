@@ -38,10 +38,10 @@ O envio multilíngue requer 14 colunas no arquivo CSV:
 1. language
 1. silentPush
 
-Verifique a amostra CSV clicando **[!UICONTROL Download a sample file]** na janela **[!UICONTROL Manage Content Variants]** . For more on this, refer to the this [section](../../channels/using/creating-a-multilingual-push-notification.md).
+Verifique a amostra CSV clicando em **[!UICONTROL Download a sample file]** na janela **[!UICONTROL Manage Content Variants]**. Para obter mais informações, consulte esta [seção](../../channels/using/creating-a-multilingual-push-notification.md).
 
 * **título, messageBody, som, emblema, deeplinkURI, categoria, iosMediaAttachmentURL, androidMediaAttachmentURL**: conteúdo regular da carga de push. É necessário fornecer essas informações de maneira semelhante à criação de delivery de push.
-* **Campos** personalizados:  use o formato JSON para os campos personalizados, por exemplo, `{"key1":"value1","key2":"value2"}`. Consulte o arquivo de amostra acima para ver um exemplo de campos personalizados.
+* **Campos** personalizados: use o formato JSON para os campos personalizados, por exemplo,  `{"key1":"value1","key2":"value2"}`. Consulte o arquivo de amostra acima para ver um exemplo de campos personalizados.
 * **isContentAvailable**: sinalizador para verificação de Conteúdo disponível, valor 1 implica true, valor 0 implica false. O valor padrão é 0. Se deixar essa coluna em branco, o valor será considerado 0.
 * **isMutableContent**: sinalizador para Conteúdo variável, valor 1 implica true, valor 0 implica false. O valor padrão é 0. Se deixar essa coluna em branco, o valor será considerado 0.
 * **localidade**: locale é o campo para variantes de idioma, por exemplo, &quot;pt_br&quot; para inglês dos EUA e &quot;fr_fr&quot; para francês.
@@ -68,7 +68,7 @@ Um valor em branco para esta coluna resultará em uma falha no carregamento do a
 
 ## Inserção do campo de personalização no arquivo csv {#personalization-field-csv}
 
-Se quiser usar campos de personalização, inclua <span> uma tag no arquivo.
+Se quiser usar campos de personalização, inclua a tag <span> no arquivo.
 
 Para inserir o campo de personalização &quot;firstName&quot; em messageBody, a mensagem precisa ser:
 
@@ -86,7 +86,7 @@ No intervalo, há dois atributos obrigatórios:
 
 * Uma é a classe que é estática. Não importa qual campo de personalização você planeja usar, ele sempre será class=&quot;nl-dce-field nl-dce-done&quot;.
 
-* Outro é o data-nl-expr, que é o caminho do campo de personalização. Por exemplo, se você inserir o campo de personalização &quot;firstName&quot; da interface do usuário, o caminho de navegação será **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (como mostrado na imagem abaixo). Nesse caso, o caminho será
+* Outro é o data-nl-expr, que é o caminho do campo de personalização. Por exemplo, se você inserir o campo de personalização &quot;firstName&quot; da interface do usuário, o caminho de navegação será **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (conforme mostrado na imagem abaixo). Nesse caso, o caminho será
 
    ```
    /context/profile/firstName. data-nl-expr="/context/profile/firstName".
@@ -98,7 +98,7 @@ No intervalo, há dois atributos obrigatórios:
 
 Os seguintes idiomas são suportados:
 
-| locale | language |
+| locale | linguagem |
 |:-:|:-:|
 | af_za | Afrikaans - África do Sul |
 | sq_al | Albanês - Albânia |
