@@ -23,6 +23,6 @@ Este relatório só pode ser acessado a partir da sua página de Serviço pelo m
 
 ![](assets/service-summary.png)
 
-A **[!UICONTROL Subscription evolution curves]** visualização detalha o número de subscrições e unsubscription, dependendo da **[!UICONTROL Period]** opção selecionada na barra suspensa.
+A visualização **[!UICONTROL Subscription evolution curves]** detalha o número de subscrições e unsubscription, dependendo do **[!UICONTROL Period]** escolhido na barra suspensa.
 
-O **[!UICONTROL Overall subscription evolution]** permite que você veja a evolução de seus assinantes durante diferentes períodos de tempo.
+O **[!UICONTROL Overall subscription evolution]** permite que você veja a evolução de seus assinantes em diferentes períodos de tempo.
