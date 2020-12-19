@@ -64,7 +64,6 @@ A atividade **[!UICONTROL Save audience]** é usada essencialmente para manter o
       >[!NOTE]
       >
       >Essa opção só estará disponível se a funcionalidade de públicos-alvo compartilhadas com a Adobe Experience Cloud tiver sido configurada pelo administrador. Para saber mais, consulte [Trabalho com o Campaign e o serviço principal People](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
-
    O tipo de público-alvo salvo ou disponível durante uma atualização depende das atividades colocadas upstream no fluxo de trabalho.
 
    Se o targeting dimension do público-alvo for desconhecido quando for salvo (por exemplo, se for de um arquivo importado), o público-alvo será criado ou atualizado como sendo do tipo **[!UICONTROL File]**.
