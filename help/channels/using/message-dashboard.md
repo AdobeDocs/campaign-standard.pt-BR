@@ -27,7 +27,7 @@ O painel de mensagem é um espaço de trabalho composto de ícones diferentes - 
 A barra cinza agrupa vários ícones vinculados à sua mensagem.
 
 * **[!UICONTROL Summary]**: mostra/oculta as principais informações relacionadas à mensagem.
-* **[!UICONTROL Edit properties]**: permite que você edite os parâmetros [](../../administration/using/configuring-email-channel.md#list-of-email-properties)avançados da mensagem.
+* **[!UICONTROL Edit properties]**: permite que você edite os parâmetros [ ](../../administration/using/configuring-email-channel.md#list-of-email-properties)avançados da mensagem.
 * **[!UICONTROL Reports]**: fornece acesso aos relatórios relacionados à mensagem.
 
 **Tópicos relacionados:**
@@ -45,24 +45,24 @@ Dependendo dos parâmetros que foram configurados e do progresso feito, alguns �
 
 * **[!UICONTROL Show proofs]**: mostra/oculta a lista de provas que foram enviadas, se elas existirem. Esse botão só é ativado depois que você envia o prova.
 
-   Para obter mais informações sobre o prova, consulte [Enviar provas](../../sending/using/sending-proofs.md).
+   Para obter mais informações sobre o prova, consulte [Envio de provas](../../sending/using/sending-proofs.md).
 
-* **[!UICONTROL Send a test]**: permite que você selecione o modo de aprovação a ser usado: **[!UICONTROL Email rendering]** (somente email), **[!UICONTROL Proof]** ou ambos. Para obter mais informações sobre perfis de teste, consulte [Envio de provas](../../sending/using/sending-proofs.md). Esse botão só é ativado depois que você cria perfis de teste.
+* **[!UICONTROL Send a test]**: permite que você selecione o modo de aprovação a ser usado:  **[!UICONTROL Email rendering]** (somente email)  **[!UICONTROL Proof]** ou ambos. Para obter mais informações sobre perfis de teste, consulte [Envio de provas](../../sending/using/sending-proofs.md). Esse botão só é ativado depois que você cria perfis de teste.
 
-* **[!UICONTROL Prepare send]**: start para preparar o envio. O **[!UICONTROL Deployment]** bloco é exibido e exibe o resultado da preparação. Este botão só é exibido depois que o público alvo é inserido. Pode interromper a preparação a qualquer momento usando o botão correspondente. For more on message preparation, refer to [Preparing the send](../../sending/using/preparing-the-send.md).
+* **[!UICONTROL Prepare send]**: start para preparar o envio. O bloco **[!UICONTROL Deployment]** é exibido e exibe o resultado da preparação. Este botão só é exibido depois que o público alvo é inserido. Pode interromper a preparação a qualquer momento usando o botão correspondente. Para obter mais informações sobre a preparação da mensagem, consulte [Preparando o envio](../../sending/using/preparing-the-send.md).
 
-* **[!UICONTROL Confirm send]**: confirma o envio da mensagem. As estatísticas de envio são exibidas no **[!UICONTROL Deployment]** bloco. Esse botão só aparece depois que o envio é preparado. Você pode interromper ou pausar o envio a qualquer momento usando os botões **Parar envio** e **[!UICONTROL Pause]** . Para obter mais informações sobre como confirmar o envio, consulte [Enviar mensagens](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Confirm send]**: confirma o envio da mensagem. As estatísticas de envio são exibidas no bloco **[!UICONTROL Deployment]**. Esse botão só aparece depois que o envio é preparado. Você pode interromper ou pausar o envio a qualquer momento usando os botões **Parar envio** e **[!UICONTROL Pause]**. Para obter mais informações sobre como confirmar o envio, consulte [Enviar mensagens](../../sending/using/confirming-the-send.md).
 
-## Blocos {#blocks}
+## Bloqueia {#blocks}
 
 A tela principal é composta por blocos diferentes. Clique dentro de um bloco para acessar a tela de parâmetros correspondente:
 
 ![](assets/delivery_dashboard_3.png)
 
-* **[!UICONTROL Deployment]**: permite que você rastreie o progresso da preparação ou envio da mensagem. Clique no botão localizado na seção inferior direita deste bloco para acessar os registros de envio e análise. Este bloco só aparece depois que o envio é preparado. Para saber mais sobre isso. See [Confirming send](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Deployment]**: permite que você rastreie o progresso da preparação ou envio da mensagem. Clique no botão localizado na seção inferior direita deste bloco para acessar os registros de envio e análise. Este bloco só aparece depois que o envio é preparado. Para saber mais sobre isso. Consulte [Confirmando o envio](../../sending/using/confirming-the-send.md).
 * **[!UICONTROL Audience]**: permite estabelecer o público alvo principal da mensagem, bem como os perfis de teste. Consulte [Criação de públicos-alvo](../../audiences/using/creating-audiences.md).
 * **[!UICONTROL Schedule]**: permite que você especifique a data em que sua mensagem será enviada. Consulte [Agendamento](../../sending/using/about-scheduling-messages.md).
-* **[!UICONTROL Content]**: permite que você defina o conteúdo da mensagem e a pré-visualização. See [Key steps to send a message](../../channels/using/key-steps-to-send-a-message.md).
+* **[!UICONTROL Content]**: permite que você defina o conteúdo da mensagem e a pré-visualização. Consulte [Etapas principais para enviar uma mensagem](../../channels/using/key-steps-to-send-a-message.md).
 
 ## Avisos {#warnings}
 
@@ -78,7 +78,7 @@ Abaixo está uma lista das mensagens que podem ser exibidas:
 
 * *&quot;A conta externa do Roteamento foi desativada.&quot;*
 
-   For more on this, see [External accounts](../../administration/using/external-accounts.md).
+   Para obter mais informações, consulte [Conta externa](../../administration/using/external-accounts.md).
 
 * *&quot;As mensagens não podem ser enviadas porque a afinidade IP atual não é tratada por nenhum processo de envio.&quot;*
 
@@ -90,4 +90,4 @@ Abaixo está uma lista das mensagens que podem ser exibidas:
 
 * *&quot;Essa mensagem é um template de mensagem transacional técnico. Não é possível modificá-la ou publicá-la.&quot;*
 
-   Esse aviso é exibido em templates de mensagem transacionais vazios que não são editáveis. For more on transactional messages, see [this section](../../channels/using/getting-started-with-transactional-msg.md).
+   Esse aviso é exibido em templates de mensagem transacionais vazios que não são editáveis. Para obter mais informações sobre mensagens transacionais, consulte [esta seção](../../channels/using/getting-started-with-transactional-msg.md).
