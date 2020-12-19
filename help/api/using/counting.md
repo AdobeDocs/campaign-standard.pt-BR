@@ -17,13 +17,13 @@ ht-degree: 2%
 
 # Contagem
 
-A API REST do Adobe Campaign pode contar o número de registros em uma solicitação. Para fazer isso, use o URL retornado no nó **count** .
+A API REST do Adobe Campaign pode contar o número de registros em uma solicitação. Para fazer isso, use o URL retornado no nó **count**.
 
 <br/>
 
 ***Solicitação de amostra***
 
-Para contar todos os serviços que têm um valor **messageType** igual a &quot;sms&quot;, execute uma solicitação de GET com o filtro **byChannel** .
+Para contar todos os serviços que têm um valor **messageType** igual a &quot;sms&quot;, execute uma solicitação de GET com o filtro **byChannel**.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \
@@ -54,7 +54,7 @@ Ele retorna os serviços correspondentes ao filtro.
 }
 ```
 
-Execute uma solicitação de GET no URL do nó de **contagem** para recuperar o número de resultados.
+Execute uma solicitação de GET no URL do nó **count** para recuperar o número de resultados.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/_count?channel=sms&_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy \
