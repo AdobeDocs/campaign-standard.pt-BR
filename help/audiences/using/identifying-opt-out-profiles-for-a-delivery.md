@@ -17,7 +17,7 @@ ht-degree: 41%
 
 # Identificar perfis de não participação para uma entrega{#identifying-opt-out-profiles-for-a-delivery}
 
-Os perfis de opção de não participação para um delivery específico são listados após a fase de preparação, na **[!UICONTROL Exclusion logs]** guia do painel do delivery.
+Os perfis de recusa para um delivery específico são listados depois da fase de preparação, na guia **[!UICONTROL Exclusion logs]** do painel do delivery.
 
 ![](assets/exclusion_blocklisting.png)
 
