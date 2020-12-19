@@ -19,7 +19,7 @@ ht-degree: 1%
 
 ## Recuperando metadados de filtros
 
-Filtros estão disponíveis para cada recurso. Para identificar os filtros associados a um recurso, é necessário executar uma solicitação de GET nos metadados do recurso. Essa solicitação retorna o URL no qual todos os filtros são definidos para um determinado recurso. For more on metadata, refer to [this section](../../api/using/metadata-mechanism.md).
+Filtros estão disponíveis para cada recurso. Para identificar os filtros associados a um recurso, é necessário executar uma solicitação de GET nos metadados do recurso. Essa solicitação retorna o URL no qual todos os filtros são definidos para um determinado recurso. Para obter mais informações sobre metadados, consulte [esta seção](../../api/using/metadata-mechanism.md).
 
 Para identificar os metadados de um filtro e determinar como usá-lo, é necessário executar uma solicitação de GET no URL retornado anteriormente.
 
@@ -67,9 +67,9 @@ Execute uma solicitação de GET no URL. Ele retorna a lista de filtros para o r
 A mesma estrutura de metadados está disponível para cada filtro:
 
 * Os campos **@formType** e **@webPage** são campos técnicos.
-* O campo de **dados** fornece uma amostra de como usar o filtro.
-* O nó **metadata** descreve os parâmetros de filtro.
-* O nó de **condição** descreve o que o filtro deve fazer. Os parâmetros de filtro descritos no nó de metadados são usados para criar condições de filtro. Para cada condição de filtro, se **enabledIf** for true, o **expr** será aplicado.
+* O campo **data** fornece uma amostra de como usar o filtro.
+* O nó **metadata** descreve os parâmetros do filtro.
+* O nó **condition** descreve o que o filtro deve fazer. Os parâmetros de filtro descritos no nó de metadados são usados para criar condições de filtro. Para cada condição de filtro, se **enabledIf** for verdadeiro, o **expr** será aplicado.
 
 <br/>
 
@@ -133,7 +133,8 @@ A filtragem é realizada com a seguinte solicitação:
    }
    ```
 
-* Solicitação de amostra de GET para recuperar os recursos do &quot;perfil&quot; que contêm &quot;Doe&quot; nos campos de email ou sobrenome (o filtro byText pesquisa nos campos de email e sobrenome).
+* Amostra de solicitação de GET para recuperar os recursos do &quot;perfil&quot; que contêm &quot;Doe&quot; em
+os campos de email ou sobrenome (o filtro por texto pesquisa tanto nos campos de email quanto de sobrenome).
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
@@ -202,7 +203,7 @@ Se você quiser usar um filtro personalizado, é necessário criá-lo e personal
 Para obter mais informações, consulte a documentação do Campaign Standard:
 
 * [Configuração da definição de filtro](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
-* [Caso de uso: Chamar um recurso usando uma chave](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)de identificação composta.
+* [Caso de uso: Chamar um recurso usando uma chave](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html) de identificação composta.
 
 <br/>
 
