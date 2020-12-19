@@ -16,7 +16,7 @@ ht-degree: 7%
 ---
 
 
-# Configurando um evento transacional {#configuring-transactional-event}
+# Configuração de um evento transacional {#configuring-transactional-event}
 
 Para enviar um mensagen transacional com a Adobe Campaign, primeiro é necessário descrever a estrutura dos dados do evento criando e configurando um evento.
 
