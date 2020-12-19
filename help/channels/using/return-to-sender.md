@@ -25,7 +25,7 @@ Para que essa funcionalidade funcione, o template do delivery padrão de mala di
 
 ![](assets/direct_mail_return_sender_1.png)
 
-Um template de importação está disponível em **[!UICONTROL Adobe Campaign > Resources > Templates > Import templates > Update Direct Mail quarantines and delivery logs]**. Duplicado este modelo para criar seu próprio. Para obter mais informações sobre como usar templates de importação, consulte [Uso de templates de importação](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates).
+Um template de importação está disponível em **[!UICONTROL Adobe Campaign > Resources > Templates > Import templates > Update Direct Mail quarantines and delivery logs]**. Duplicado este modelo para criar seu próprio. Para obter mais informações sobre como usar templates de importação, consulte [Usando templates de importação](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates).
 
 ![](assets/direct_mail_return_sender_2.png)
 
