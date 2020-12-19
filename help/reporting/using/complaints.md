@@ -22,6 +22,6 @@ O relatório **[!UICONTROL Complaints]** identifica as entregas que receberam ma
 
 ![](assets/delivery_reports_complaints.png)
 
-A tabela **Flop** , classificada por domínio do recipient, exibe o número de recipient que declararam um email ou lixo eletrônico. Os resultados da tabela também estão disponíveis em um gráfico e em números de resumo.
+A tabela **Flop**, classificada por domínio do recipient, exibe o número de recipient que declararam um email ou lixo eletrônico. Os resultados da tabela também estão disponíveis em um gráfico e em números de resumo.
 
-A tabela **Entregue versus Em Lista de bloqueios** lista o número de recipient que declararam um email como spam ou lixo eletrônico. A tabela é classificada por delivery.
+A tabela **Entregue vs On Lista de bloqueios** lista o número de recipient que declararam um email como spam ou lixo eletrônico. A tabela é classificada por delivery.
