@@ -18,7 +18,7 @@ ht-degree: 14%
 
 # Gerenciamento de opções de execução {#managing-execution-options}
 
-Para modificar as opções de execução de um fluxo de trabalho, use o ![](assets/edit_darkgrey-24px.png) botão para acessar as propriedades do fluxo de trabalho e selecione a **[!UICONTROL Execution]** seção.
+Para modificar as opções de execução de um fluxo de trabalho, use o botão ![](assets/edit_darkgrey-24px.png) para acessar as propriedades do fluxo de trabalho e selecione a seção **[!UICONTROL Execution]**.
 
 ![](assets/wkf_execution_6.png)
 
@@ -26,13 +26,13 @@ As opções possíveis são:
 
 * **[!UICONTROL Default affinity]**: esse campo permite forçar a execução de um fluxo de trabalho ou de uma atividade de fluxo de trabalho em uma máquina específica.
 
-* **[!UICONTROL History in days]**: especifica o número de dias após os quais o histórico deve ser expurgado. O histórico contém elementos relacionados ao fluxo de trabalho: registros, tarefas, eventos (objetos técnicos vinculados à operação do fluxo de trabalho), bem como arquivos baixados pela **[!UICONTROL Transfer file]** atividade. O valor padrão é 30 dias para modelos de fluxo de trabalho predefinidos.
+* **[!UICONTROL History in days]**: especifica o número de dias após os quais o histórico deve ser expurgado. O histórico contém elementos relacionados ao fluxo de trabalho: registros, tarefas, eventos (objetos técnicos vinculados à operação do fluxo de trabalho), bem como arquivos baixados pela atividade **[!UICONTROL Transfer file]**. O valor padrão é 30 dias para modelos de fluxo de trabalho predefinidos.
 
-   A remoção do histórico é executada pelo fluxo de trabalho técnico de limpeza do Banco de Dados, que é executado por padrão todos os dias (consulte [Lista de workflows técnicos](../../administration/using/technical-workflows.md)).
+   A remoção do histórico é executada pelo fluxo de trabalho técnico de limpeza do Banco de Dados, que é executado por padrão todos os dias (consulte [Lista de workflows técnicos](../../administration/using/technical-workflows.md).)
 
    >[!IMPORTANT]
    >
-   >Se o **[!UICONTROL History in days]** campo ficar em branco, seu valor será considerado como &quot;1&quot;, o que significa que o histórico será limpo após 1 dia.
+   >Se o campo **[!UICONTROL History in days]** for deixado em branco, seu valor será considerado como &quot;1&quot;, o que significa que o histórico será limpo após 1 dia.
 
 * **[!UICONTROL Save SQL queries in the log]**: permite salvar os query SQL do fluxo de trabalho nos logs.
 
@@ -46,4 +46,4 @@ As opções possíveis são:
 
 * **[!UICONTROL Severity]**: permite que você especifique um nível de prioridade para executar workflows na sua instância do Adobe Campaign. Este campo é usado pelas equipes de Adobe apenas para fins de monitoramento.
 
-A **[!UICONTROL Error management]** seção fornece opções adicionais que permitem gerenciar como os workflows se comportam em caso de erros. Essas opções são detalhadas na seção Gerenciamento [de](../../automating/using/monitoring-workflow-execution.md#error-management) erros.
+A seção **[!UICONTROL Error management]** fornece opções adicionais que permitem gerenciar como os workflows se comportam em caso de erros. Essas opções são detalhadas na seção [Gerenciamento de erros](../../automating/using/monitoring-workflow-execution.md#error-management).
