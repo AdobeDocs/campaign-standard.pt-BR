@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 44%
+ht-degree: 64%
 
 ---
 
@@ -27,11 +27,11 @@ A seguir estão os valores de retenção padrão para tabelas padrão. Esteja ci
 * **Eventos**: 1 mês
 * **Estatísticas de processamento de evento**: 6 meses
 * **Eventos arquivados**: 6 meses
-* **Entidades** temporárias: 7 dias
+* **Entidades temporárias**: 7 dias
 * **Eventos de pipeline ignorados**: 1 mês
 * **Alertas de entrega**: 1 mês
 * **Auditoria de exportação**: 6 meses
 
 Usando a funcionalidade padrão do fluxo de trabalho, é possível configurar períodos de retenção para qualquer tabela personalizada.
 
-Entre em contato com os consultores Adobe ou administradores técnicos para saber mais sobre retenção ou se é necessário definir retenção para tabelas personalizadas.
+Entre em contato com os consultores da Adobe ou administradores técnicos para saber mais sobre retenção ou se é necessário definir a retenção para tabelas personalizadas.
