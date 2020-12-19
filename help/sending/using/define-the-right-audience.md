@@ -29,7 +29,7 @@ Para que seu delivery seja bem-sucedido, o conteúdo personalizado mais relevant
 
 ## Target mappings {#target-mappings}
 
-By default, delivery templates target **Profiles**. O Adobe Campaign oferece outros target mappings para seus deliveries, que podem ser modificados conforme suas necessidades.
+Por padrão, templates do delivery públicos alvos **Perfis**. O Adobe Campaign oferece outros target mappings para seus deliveries, que podem ser modificados conforme suas necessidades.
 
 Esses mapeamentos são apresentados [nesta seção](../../automating/using/query.md#targeting-dimensions-and-resources).
 
@@ -43,16 +43,16 @@ Você pode enviar deliveries para destinatários armazenados em um arquivo exter
 
 Para enviar mensagens aos assinantes de um informativo, é possível direcionar diretamente os assinantes para o serviço de informação correspondente. Saiba mais [nesta seção](../../audiences/using/about-subscriptions.md).
 
-**Dica** - você pode criar uma audiência de Lista que público alvo os assinantes para o seu boletim informativo usando um fluxo de trabalho. Você pode selecionar essa audiência em um delivery. Para obter mais informações, consulte [Criação de audiências](../../audiences/using/creating-audiences.md#creating-list-audiences)de lista.
+**Dica** : você pode criar uma audiência de Lista que público alvo os assinantes para o seu boletim informativo usando um fluxo de trabalho. Você pode selecionar essa audiência em um delivery. Para obter mais informações, consulte [Criando audiências de lista](../../audiences/using/creating-audiences.md#creating-list-audiences).
 
 ## Provas, perfis de teste e grupos de controle {#proofs-test-control-groups}
 
 Para testar seu delivery, use provas antes de enviar para o público-alvo principal.
 Selecione os recipients de prova apropriados, porque eles validam a forma e o conteúdo da mensagem. As etapas para enviar provas são apresentadas [nesta seção](../../sending/using/sending-proofs.md).
 
-Learn more about test profiles [in this section](../../audiences/using/managing-test-profiles.md).
+Saiba mais sobre perfis de teste [nesta seção](../../audiences/using/managing-test-profiles.md).
 
-You can use [Control groups](../../sending/using/control-group.md) to measure the impact of your campaigns by excluding a portion of their audience. Portanto você poderá comparar o comportamento do público-alvo que recebeu a mensagem com o comportamento dos contatos não atingidos. Com base nos logs de envio, você também poderá se concentrar em um grupo de controle em campanhas futuras.
+Você pode usar [Grupos de controle](../../sending/using/control-group.md) para medir o impacto de suas campanhas, excluindo uma parte de sua audiência. Portanto você poderá comparar o comportamento do público-alvo que recebeu a mensagem com o comportamento dos contatos não atingidos. Com base nos logs de envio, você também poderá se concentrar em um grupo de controle em campanhas futuras.
 
 ## Cancelar endereços duplicados {#deduplicate-addresses}
 
