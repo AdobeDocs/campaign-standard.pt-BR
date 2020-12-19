@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Ciclo de vida do mensagen transacional
+title: Ciclo de vida da mensagem transacional
 description: Saiba como publicar, pausar, cancelar a publicação e excluir um mensagen transacional.
 audience: channels
 content-type: reference
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
 source-wordcount: '651'
-ht-degree: 74%
+ht-degree: 76%
 
 ---
 
 
-# Ciclo de vida do mensagen transacional {#publishing-transactional-message}
+# Ciclo de vida da mensagem transacional {#publishing-transactional-message}
 
 Quando [mensagen transacional](../../channels/using/editing-transactional-message.md) estiver pronto para ser enviado, ele poderá ser publicado.
 
@@ -99,7 +99,7 @@ Para acessar os relatórios referentes à sua mensagem transacional, use o botã
 ![](assets/message-center_13.png)
 
 **Tópicos relacionados**:
-* [Edição de um mensagen transacional](../../channels/using/editing-transactional-message.md)
+* [Editar uma mensagem transacional](../../channels/using/editing-transactional-message.md)
 * [Teste de mensagem transacional](../../channels/using/testing-transactional-message.md)
 * [Integrar o acionamento do evento](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
