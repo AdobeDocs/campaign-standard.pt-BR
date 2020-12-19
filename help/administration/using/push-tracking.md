@@ -28,15 +28,15 @@ Isso pressupõe que você já tenha implementado as primeiras partes da implemen
 
 O Rastreamento de push é separado em três tipos:
 
-* **Impressões** por push: quando uma notificação por push é entregue ao dispositivo e está no centro de notificações, mas não foi tocada de forma alguma.  Isso é considerado uma impressão.  Na maioria dos casos, os números de impressões devem ser semelhantes se não forem iguais ao número fornecido. Isso garante que o dispositivo recebeu a mensagem e repassou essas informações para o servidor.
+* **Impressões**  por push: quando uma notificação por push é entregue ao dispositivo e está no centro de notificações, mas não foi tocada de forma alguma.  Isso é considerado uma impressão.  Na maioria dos casos, os números de impressões devem ser semelhantes se não forem iguais ao número fornecido. Isso garante que o dispositivo recebeu a mensagem e repassou essas informações para o servidor.
 
-* **Clique** para enviar - quando uma notificação por push for entregue ao dispositivo e o usuário clicar no dispositivo.  O usuário desejava visualização na notificação (que, por sua vez, se moverá para o rastreamento Push Open) ou rejeitar a notificação.
+* **Cliques**  em push: quando uma notificação por push é entregue ao dispositivo e o usuário clica no dispositivo.  O usuário desejava visualização na notificação (que, por sua vez, se moverá para o rastreamento Push Open) ou rejeitar a notificação.
 
-* **Abrir** push - quando uma notificação por push é entregue ao dispositivo e o usuário clica na notificação que faz com que o aplicativo seja aberto.  Isso é semelhante ao clique de push, exceto que a opção Abrir push não será acionada se a notificação for descartada.
+* **Empurrar aberto** : quando uma notificação por push é entregue ao dispositivo e o usuário clica na notificação que faz com que o aplicativo seja aberto.  Isso é semelhante ao clique de push, exceto que a opção Abrir push não será acionada se a notificação for descartada.
 
 Para implementar o rastreamento para o Campaign Standard, o aplicativo móvel precisa incluir o SDK móvel. Esses SDK estão disponíveis no Adobe Mobile Services. Para obter mais informações, consulte esta [página](../../administration/using/configuring-a-mobile-application.md).
 
-Para enviar informações de rastreamento, há três variáveis que precisam ser enviadas. Dois que são parte dos dados recebidos do Campaign Standard e uma variável de ação que determina se é uma **Impressão**, um **Clique** ou um **Abrir**.
+Para enviar informações de rastreamento, há três variáveis que precisam ser enviadas. Dois que fazem parte dos dados recebidos do Campaign Standard e uma variável de ação que determina se é uma **Impressão**, **Clique** ou **Abrir**.
 
 | Variável | Valor |
 |:-:|:-:|
@@ -48,7 +48,7 @@ Para enviar informações de rastreamento, há três variáveis que precisam ser
 
 ### Como implementar o rastreamento de impressão de push {#push-impression-tracking-android}
 
-Para o rastreamento de impressão, é necessário enviar o valor &quot;7&quot; para a ação ao chamar a **[!UICONTROL trackAction()]** função.
+Para o rastreamento de impressão, será necessário enviar o valor &quot;7&quot; para a ação ao chamar a função **[!UICONTROL trackAction()]**.
 
 ```
 @Override
@@ -70,7 +70,7 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 
 ### Como implementar o rastreamento de cliques {#push-click-tracking-android}
 
-Para o rastreamento de cliques, é necessário enviar o valor &quot;2&quot; para a ação ao chamar a **[!UICONTROL trackAction()]** função.
+Para o rastreamento de cliques, é necessário enviar o valor &quot;2&quot; para a ação ao chamar a função **[!UICONTROL trackAction()]**.
 
 Para rastrear cliques, dois cenários precisam ser tratados:
 
@@ -108,7 +108,7 @@ private void sendNotification(Map<String, String> data) {
 }
 ```
 
-Para que o trabalho **[!UICONTROL BroadcastReceiver]** funcione, é necessário registrá-lo no **[!UICONTROL AndroidManifest.xml]**
+Para que **[!UICONTROL BroadcastReceiver]** funcione, é necessário registrá-lo no **[!UICONTROL AndroidManifest.xml]**
 
 ```
 <manifest>
@@ -149,7 +149,7 @@ Você precisará enviar &quot;1&quot; e &quot;2&quot;, pois o usuário precisa c
 
 Para rastrear a abertura, é necessário criar Propósito. Objetos intencionais permitem que o sistema operacional Android chame seu método quando determinadas ações são realizadas. Nesse caso, clique na notificação para abrir o aplicativo.
 
-Esse código é baseado na implementação do rastreamento de impressão de cliques. Com **[!UICONTROL Intent]** definido, agora é necessário enviar informações de rastreamento de volta para a Adobe Campaign Standard. Nesse caso, é necessário definir **[!UICONTROL Open Intent]** o para abrir em uma determinada visualização no aplicativo, isso chamará o método onResume com os dados de notificação no **[!UICONTROL Intent Object]**.
+Esse código é baseado na implementação do rastreamento de impressão de cliques. Com **[!UICONTROL Intent]** definido, agora é necessário enviar informações de rastreamento de volta para a Adobe Campaign Standard. Nesse caso, é necessário definir **[!UICONTROL Open Intent]** para abrir em uma determinada visualização no aplicativo, isso chamará o método onResume com os dados de notificação no **[!UICONTROL Intent Object]**.
 
 ```
 @Override
@@ -191,7 +191,7 @@ private void handleTracking() {
 
 ### Como implementar o rastreamento de impressão de push {#push-impression-tracking-iOS}
 
-Para o rastreamento de impressão, é necessário enviar o valor &quot;7&quot; para a ação ao chamar a **[!UICONTROL trackAction()]** função.
+Para o rastreamento de impressão, será necessário enviar o valor &quot;7&quot; para a ação ao chamar a função **[!UICONTROL trackAction()]**.
 
 Para entender como as notificações do iOS funcionam, os três estados de um aplicativo precisam ser detalhados:
 
@@ -201,7 +201,7 @@ Para entender como as notificações do iOS funcionam, os três estados de um ap
 
 Se um aplicativo for fechado, a Apple não chamará o aplicativo até que ele seja reiniciado. Isso significa que você não poderá saber quando a notificação foi recebida no iOS.
 
-Para que o **[!UICONTROL Impression]** rastreamento ainda funcione enquanto o aplicativo está em segundo plano, precisamos enviar **[!UICONTROL Content-Available]** para informar ao aplicativo que um rastreamento deve ser feito.
+Para que o rastreamento **[!UICONTROL Impression]** ainda funcione enquanto o aplicativo está em segundo plano, precisamos enviar **[!UICONTROL Content-Available]** para informar ao aplicativo que um rastreamento deve ser feito.
 
 >[!CAUTION]
 >
@@ -247,7 +247,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
 
 ### Como implementar o rastreamento de cliques {#push-click-tracking-iOS}
 
-Para o rastreamento de cliques, é necessário enviar o valor &quot;2&quot; para a ação ao chamar a **[!UICONTROL trackAction()]** função.
+Para o rastreamento de cliques, é necessário enviar o valor &quot;2&quot; para a ação ao chamar a função **[!UICONTROL trackAction()]**.
 
 ```
 // AppDelegate.swift
@@ -288,7 +288,7 @@ Agora, ao enviar notificações por push, é necessário adicionar uma categoria
 
 ![](assets/tracking_push.png)
 
-Em seguida, para manipular **[!UICONTROL Dismiss]** e enviar informações de rastreamento, é necessário adicionar o seguinte:
+Em seguida, para manipular o **[!UICONTROL Dismiss]** e enviar uma informação de rastreamento, é necessário adicionar o seguinte:
 
 ```
 func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
