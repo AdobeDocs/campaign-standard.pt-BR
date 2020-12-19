@@ -23,19 +23,19 @@ O objetivo é acionar um fluxo de trabalho a partir de uma chamada de API com pa
 
 Para executar esse caso de uso, é necessário executar as ações abaixo:
 
-1. **Faça uma chamada** de API para acionar o Workflow 1 com parâmetros externos. Consulte a [Etapa 1: Configuração da chamada](../../automating/using/use-case-calling-workflow.md#step-1--configuring-the-api-call)da API.
-1. **Criar fluxo de trabalho 1**: o fluxo de trabalho transferirá um arquivo e o carregará no banco de dados. Em seguida, ele testará se os dados estão vazios ou não e, eventualmente, salvará os perfis em uma audiência. Finalmente, acionará o Workflow 2. Consulte a [Etapa 2: Configuração do fluxo de trabalho 1](../../automating/using/use-case-calling-workflow.md#step-2--configuring-workflow-1).
-1. **Criar fluxo de trabalho 2**: o fluxo de trabalho lerá a audiência criada no Fluxo de trabalho 1 e, em seguida, enviará uma mensagem personalizada aos perfis, com um código de segmento personalizado com os parâmetros. Consulte a [Etapa 3: Configuração do fluxo de trabalho 2](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2).
+1. **Faça uma** chamada de API para acionar o Workflow 1 com parâmetros externos. Consulte [Etapa 1: Configurando a chamada da API](../../automating/using/use-case-calling-workflow.md#step-1--configuring-the-api-call).
+1. **Criar fluxo de trabalho 1**: o fluxo de trabalho transferirá um arquivo e o carregará no banco de dados. Em seguida, ele testará se os dados estão vazios ou não e, eventualmente, salvará os perfis em uma audiência. Finalmente, acionará o Workflow 2. Consulte [Etapa 2: Configurando o fluxo de trabalho 1](../../automating/using/use-case-calling-workflow.md#step-2--configuring-workflow-1).
+1. **Criar fluxo de trabalho 2**: o fluxo de trabalho lerá a audiência criada no Fluxo de trabalho 1 e, em seguida, enviará uma mensagem personalizada aos perfis, com um código de segmento personalizado com os parâmetros. Consulte [Etapa 3: Configurando o fluxo de trabalho 2](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2).
 
 ![](assets/extsignal_uc_process.png)
 
 ## Pré-requisitos {#prerequisites}
 
-Antes de configurar os workflows, é necessário criar o Fluxo de trabalho 1 e 2 com uma **[!UICONTROL External signal]** atividade em cada um deles. Dessa forma, você poderá público alvo essas atividades de sinal ao chamar os workflows.
+Antes de configurar os workflows, é necessário criar o Fluxo de trabalho 1 e 2 com uma atividade **[!UICONTROL External signal]** em cada um deles. Dessa forma, você poderá público alvo essas atividades de sinal ao chamar os workflows.
 
 ## Etapa 1: Configurar a chamada de API {#step-1--configuring-the-api-call}
 
-Faça uma chamada de API para acionar o Workflow 1 com parâmetros. Para obter mais informações sobre a sintaxe de chamada da API, consulte a documentação [](../../api/using/triggering-a-signal-activity.md)Campaign Standard REST APIs.
+Faça uma chamada de API para acionar o Workflow 1 com parâmetros. Para obter mais informações sobre a sintaxe de chamada da API, consulte a documentação [APIs REST do Campaign Standard](../../api/using/triggering-a-signal-activity.md).
 
 Em nosso caso, queremos chamar o fluxo de trabalho com os parâmetros abaixo:
 
@@ -74,12 +74,12 @@ O fluxo de trabalho 1 será criado como abaixo:
 
 Siga as etapas abaixo para configurar o fluxo de trabalho:
 
-1. Declarar os parâmetros que foram definidos na chamada da API. Para fazer isso, abra a **[!UICONTROL External signal]** atividade e adicione os nomes e os tipos dos parâmetros.
+1. Declarar os parâmetros que foram definidos na chamada da API. Para fazer isso, abra a atividade **[!UICONTROL External signal]** e adicione os nomes e os tipos dos parâmetros.
 
    ![](assets/extsignal_uc1.png)
 
-1. Adicione uma **[!UICONTROL Transfer file]** atividade para importar dados para o banco de dados.Para fazer isso, arraste e solte a atividade, abra-a e selecione a **[!UICONTROL Protocol]** guia.
-1. Selecione a **[!UICONTROL Use a dynamic file path]** opção e use o parâmetro **fileToTarget** como o arquivo a ser transferido:
+1. Adicione uma atividade **[!UICONTROL Transfer file]** para importar dados para o banco de dados.Para fazer isso, arraste e solte a atividade, abra-a e selecione a guia **[!UICONTROL Protocol]**.
+1. Selecione a opção **[!UICONTROL Use a dynamic file path]** e use o parâmetro **fileToTarget** como o arquivo a ser transferido:
 
    ```
    $(vars/@fileToTarget)
@@ -89,19 +89,19 @@ Siga as etapas abaixo para configurar o fluxo de trabalho:
 
 1. Carregue os dados do arquivo no banco de dados.
 
-   Para fazer isso, arraste e solte uma **[!UICONTROL Load file]** atividade no fluxo de trabalho e configure-a de acordo com suas necessidades.
+   Para fazer isso, arraste e solte uma atividade **[!UICONTROL Load file]** no fluxo de trabalho e configure-a de acordo com suas necessidades.
 
 1. Insira e atualize o banco de dados com dados do arquivo importado.
 
-   Para fazer isso, arraste e solte uma **[!UICONTROL Update data]** atividade e, em seguida, selecione a guia **[!UICONTROL Identification]** para adicionar um critério de reconciliação (no nosso caso, o campo de **email** ).
+   Para fazer isso, arraste e solte uma atividade **[!UICONTROL Update data]** e selecione a guia **[!UICONTROL Identification]** para adicionar um critério de reconciliação (no nosso caso, o campo **email**).
 
    ![](assets/extsignal_uc3.png)
 
-1. Selecione a **[!UICONTROL Fields to update]** guia e especifique os campos a serem atualizados no banco de dados (no nosso caso, os campos **first name** e **email** ).
+1. Selecione a guia **[!UICONTROL Fields to update]** e especifique os campos a serem atualizados no banco de dados (no nosso caso, os campos **firstname** e **email**).
 
    ![](assets/extsignal_uc4.png)
 
-1. Verifique se os dados são recuperados do arquivo. Para fazer isso, arraste e solte uma **[!UICONTROL Test]** atividade no fluxo de trabalho e clique no **[!UICONTROL Add an element]** botão para adicionar uma condição.
+1. Verifique se os dados são recuperados do arquivo. Para fazer isso, arraste e solte uma atividade **[!UICONTROL Test]** no fluxo de trabalho e clique no botão **[!UICONTROL Add an element]** para adicionar uma condição.
 1. Nomeie e defina a condição. Em nosso caso, queremos testar se a transição de saída contém dados com a sintaxe abaixo:
 
    ```
@@ -110,8 +110,8 @@ Siga as etapas abaixo para configurar o fluxo de trabalho:
 
    ![](assets/extsignal_uc5.png)
 
-1. Se os dados forem recuperados, salve-os em uma audiência. Para fazer isso, adicione uma **[!UICONTROL Save audience]** atividade ao **Público alvo e não a transição vazia** e abra-a.
-1. Selecione a **[!UICONTROL Use a dynamic label]** opção e use o parâmetro **fileToTarget** como o rótulo da audiência:
+1. Se os dados forem recuperados, salve-os em uma audiência. Para fazer isso, adicione uma atividade **[!UICONTROL Save audience]** à transição **e não vazia** e abra-a.
+1. Selecione a opção **[!UICONTROL Use a dynamic label]** e use o parâmetro **fileToTarget** como o rótulo da audiência:
 
    ```
    $(vars/@fileToTarget)
@@ -119,11 +119,11 @@ Siga as etapas abaixo para configurar o fluxo de trabalho:
 
    ![](assets/extsignal_uc6.png)
 
-1. Arraste e solte uma **[!UICONTROL End]** atividade que chamará o Workflow 2 com parâmetros e, em seguida, abra-a.
-1. Selecione a **[!UICONTROL External signal]** guia e especifique o fluxo de trabalho a ser acionado e sua atividade de sinal associada.
+1. Arraste e solte uma atividade **[!UICONTROL End]** que chamará o Workflow 2 com parâmetros e, em seguida, abra-a.
+1. Selecione a guia **[!UICONTROL External signal]** e especifique o fluxo de trabalho a ser acionado e a atividade de sinal associada.
 1. Defina os parâmetros que você deseja usar dentro do Workflow 2 e seus valores associados.
 
-   Em nosso caso, queremos passar os parâmetros originalmente definidos na chamada da API (**fileToTarget** e **discountDesc**) e um parâmetro **segmentCode** adicional com um valor constante (&quot;desconto de 20%&quot;).
+   Em nosso caso, queremos passar os parâmetros originalmente definidos na chamada da API (**fileToTarget** e **discountDesc**), além de um parâmetro adicional **segmentCode** com um valor constante (&quot;20% de desconto&quot;).
 
    ![](assets/extsignal_uc7.png)
 
@@ -143,12 +143,12 @@ Siga as etapas abaixo para configurar o fluxo de trabalho:
 
 1. Declarar os parâmetros que foram definidos no Workflow 1.
 
-   Para fazer isso, abra a **[!UICONTROL External signal]** atividade e adicione o nome e o tipo de cada parâmetro definido na **[!UICONTROL End]** atividade do Workflow 1.
+   Para fazer isso, abra a atividade **[!UICONTROL External signal]** e adicione o nome e o tipo de cada parâmetro definido na atividade **[!UICONTROL End]** do Workflow 1.
 
    ![](assets/extsignal_uc8.png)
 
-1. Use a audiência salva no Fluxo de trabalho 1. Para fazer isso, arraste e solte uma **[!UICONTROL Read audience]** atividade no fluxo de trabalho e abra-a.
-1. Selecione a **[!UICONTROL Use a dynamic audience]** opção e use o parâmetro **fileToTarget** como o nome da audiência para ler:
+1. Use a audiência salva no Fluxo de trabalho 1. Para fazer isso, arraste e solte uma atividade **[!UICONTROL Read audience]** no fluxo de trabalho e abra-a.
+1. Selecione a opção **[!UICONTROL Use a dynamic audience]** e use o parâmetro **fileToTarget** como o nome da audiência a ser lida:
 
    ```
    $(vars/@fileToTarget)
@@ -156,9 +156,9 @@ Siga as etapas abaixo para configurar o fluxo de trabalho:
 
    ![](assets/extsignal_uc9.png)
 
-1. Nomeie a transição de saída de acordo com o parâmetro **segmentCode** .
+1. Nomeie a transição de saída de acordo com o parâmetro **segmentCode**.
 
-   To do this, select the **[!UICONTROL Transition]** tab, then the **[!UICONTROL Use a dynamic segment code]** option.
+   Para fazer isso, selecione a guia **[!UICONTROL Transition]** e a opção **[!UICONTROL Use a dynamic segment code]**.
 
 1. Use o parâmetro **segmentCode** como o nome da transição de saída:
 
@@ -168,8 +168,8 @@ Siga as etapas abaixo para configurar o fluxo de trabalho:
 
    ![](assets/extsignal_uc10.png)
 
-1. Arraste e solte uma **[!UICONTROL Email delivery]** atividade para enviar uma mensagem para a audiência.
-1. Identifique os parâmetros a serem usados na mensagem para personalizá-la com o parâmetro **discountDesc** . Para fazer isso, abra as opções avançadas do atividade e adicione o nome e o valor do parâmetro.
+1. Arraste e solte uma atividade **[!UICONTROL Email delivery]** para enviar uma mensagem para a audiência.
+1. Identifique os parâmetros a serem usados na mensagem para personalizá-la com o parâmetro **discountDesc**. Para fazer isso, abra as opções avançadas do atividade e adicione o nome e o valor do parâmetro.
 
    ![](assets/extsignal_uc10b.png)
 
