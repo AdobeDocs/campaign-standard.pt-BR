@@ -42,6 +42,6 @@ Há, contudo, casos em que duplicidades entre as diferentes partições são nor
 
 O Adobe Campaign gerencia uma lista de endereços em quarentena. Os recipients cujos endereços estão em quarentena são excluídos por padrão durante a análise de delivery: não são direcionados.
 
-Quarantine management is detailed in [this section](../../sending/using/understanding-quarantine-management.md).
+O gerenciamento de quarentenas está detalhado em [nesta seção](../../sending/using/understanding-quarantine-management.md).
 
-Um endereço de email pode ser colocado em quarentena, por exemplo, quando a caixa de entrada estiver cheia ou se o endereço não existir. Em todos os casos, a quarentena corresponde às regras específicas apresentadas na [presente seção](../../sending/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine).
+Um endereço de email pode ser colocado em quarentena, por exemplo, quando a caixa de entrada estiver cheia ou se o endereço não existir. Em todos os casos, a quarentena corresponde às regras específicas apresentadas em [esta seção](../../sending/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine).
