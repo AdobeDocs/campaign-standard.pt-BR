@@ -19,16 +19,16 @@ ht-degree: 1%
 
 A guia **Visualizações** permite arrastar e soltar itens de visualização, como área, rosca e gráfico. As visualizações fornecem representações gráficas dos seus dados.
 
-1. Na **[!UICONTROL Visualizations]** guia, arraste e solte um item de visualização em um painel.
+1. Na guia **[!UICONTROL Visualizations]**, arraste e solte um item de visualização em um painel.
 
    ![](assets/dynamic_report_visualization_1.png)
 
 1. Após adicionar uma visualização ao painel, os relatórios dinâmicos detectam automaticamente os dados na tabela de forma livre. Selecione as configurações para sua visualização.
-1. Se você tiver mais de uma tabela de forma livre, escolha a fonte de dados disponível para adicionar em seu gráfico na janela Configurações **da fonte de** dados. Essa janela também está disponível ao clicar no ponto colorido ao lado do título da visualização.
+1. Se você tiver mais de uma tabela de forma livre, escolha a fonte de dados disponível para adicionar em seu gráfico na janela **Configurações da fonte de dados**. Essa janela também está disponível ao clicar no ponto colorido ao lado do título da visualização.
 
    ![](assets/dynamic_report_visualization_2.png)
 
-1. Clique no botão de **[!UICONTROL Visualization]** configurações para alterar diretamente o tipo de gráfico ou o que é exibido nele, como:
+1. Clique no botão **[!UICONTROL Visualization]** settings (Configurações de &lt;a0/>) para alterar diretamente o tipo de gráfico ou o que é exibido nele, como:
 
    * **Porcentagens**: Exibe os valores em porcentagem.
    * **Âncora do eixo Y em zero**: Força o eixo y a zero mesmo se os valores estiverem acima de zero.
