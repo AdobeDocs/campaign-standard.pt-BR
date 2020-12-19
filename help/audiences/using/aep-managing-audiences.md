@@ -24,7 +24,7 @@ ht-degree: 3%
 
 ## Acesso ao Adobe Experience Platform audiência
 
-Para acessar o construtor de segmentos Adobe Experience Platform, navegue até a **[!UICONTROL Audiences]** placa no home page do Campaign Standard (ou o **[!UICONTROL Audiences]** link no cabeçalho) e selecione o **[!UICONTROL Adobe Experience Platform]** ambiente.
+Para acessar o construtor de segmentos da Adobe Experience Platform, navegue até a placa **[!UICONTROL Audiences]** no home page Campaign Standard (ou o link **[!UICONTROL Audiences]** no cabeçalho) e selecione o ambiente **[!UICONTROL Adobe Experience Platform]**.
 
 ![](assets/aep_audiences_access.png)
 
@@ -38,7 +38,7 @@ Uma barra de pesquisa e um filtro estão disponíveis para ajudá-lo a encontrar
 
 Para criar uma audiência Adobe Experience Platform diretamente no Campaign Standard, siga estas etapas:
 
-1. Na página lista de segmentos do Adobe Experience Platform, clique no **[!UICONTROL New audience]** botão localizado no canto direito.
+1. Na página lista de segmentos do Adobe Experience Platform, clique no botão **[!UICONTROL New audience]** localizado no canto direito.
 
    ![](assets/aep_audiences_creation_create.png)
 
@@ -48,24 +48,24 @@ Para criar uma audiência Adobe Experience Platform diretamente no Campaign Stan
 
    ![](assets/aep_audiences_creation_edit_name.png)
 
-1. Para criar com êxito um segmento, é necessário selecionar uma política **de** mesclagem que corresponda à sua finalidade de marketing para esse segmento.
+1. Para criar com êxito um segmento, você deve selecionar uma **política de mesclagem** que corresponda à sua finalidade de marketing para esse segmento.
 
-   No painel de configurações, uma política de mesclagem padrão da Plataforma é selecionada. Para obter mais informações sobre políticas de mesclagem, consulte a seção dedicada no guia [do usuário do Construtor de](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)segmentos.
+   No painel de configurações, uma política de mesclagem padrão da Plataforma é selecionada. Para obter mais informações sobre políticas de mesclagem, consulte a seção dedicada do [Guia do usuário do Construtor de segmentos](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
 1. Defina as regras que identificarão os perfis a serem recuperados em sua audiência.
 
-   Para fazer isso, arraste os atributos e/ou eventos desejados do painel esquerdo para a área de trabalho, defina as regras correspondentes e clique no **[!UICONTROL Create segment]** botão para salvar o segmento (consulte [Uso do Construtor](../../audiences/using/aep-using-segment-builder.md)de segmentos).
+   Para fazer isso, arraste os atributos e/ou eventos desejados do painel esquerdo para o espaço de trabalho, defina as regras correspondentes e clique no botão **[!UICONTROL Create segment]** para salvar o segmento (consulte [Usando o Construtor de segmentos](../../audiences/using/aep-using-segment-builder.md)).
 
    ![](assets/aep_audiences_creation_query.png)
 
-A audiência está pronta para ser ativada, você pode usá-la como público alvo para suas campanhas (consulte [Direcionando audiências](../../automating/using/aep-targeting-audiences.md)do Adobe Experience Platform).
+A audiência está pronta para ser ativada, você pode usá-la como um público alvo para suas campanhas (consulte [Direcionando o Adobe Experience Platform audiência](../../automating/using/aep-targeting-audiences.md)).
 
 ## Edição de públicos-alvo
 
-Para editar uma audiência, abra-a e modifique as regras conforme necessário na interface do Construtor de segmentos (consulte [Uso do Construtor](../../audiences/using/aep-using-segment-builder.md)de segmentos).
+Para editar uma audiência, abra-a e modifique as regras conforme necessário na interface do Construtor de segmentos (consulte [Usando o Construtor de segmentos](../../audiences/using/aep-using-segment-builder.md)).
 
-Depois que as alterações forem concluídas, clique no **[!UICONTROL Save segment]** botão para atualizar sua audiência.
+Depois que as alterações forem concluídas, clique no botão **[!UICONTROL Save segment]** para atualizar sua audiência.
 
 ![](assets/aep_audiences_editing.png)
