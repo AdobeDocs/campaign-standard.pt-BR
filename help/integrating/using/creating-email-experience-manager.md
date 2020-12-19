@@ -42,12 +42,12 @@ Por padrão, dois modelos predefinidos permitem que você crie conteúdo de emai
 
 1. No Adobe Experience Manager, crie um novo **[!UICONTROL Page]**.
 
-1. Select the **[!UICONTROL Adobe Campaign Email]** template. Consulte o vídeo a seguir para ver as etapas detalhadas.
+1. Selecione o modelo **[!UICONTROL Adobe Campaign Email]**. Consulte o vídeo a seguir para ver as etapas detalhadas.
    >[!VIDEO](https://video.tv.adobe.com/v/29997)
 
 1. Abra seu novo conteúdo de email.
 
-1. No **[!UICONTROL Page properties]**, defina **[!UICONTROL Adobe Campaign]** como o **[!UICONTROL Cloud Service Configuration]**. Isso permite a comunicação entre seu conteúdo e sua instância do Adobe Campaign.
+1. Em **[!UICONTROL Page properties]**, defina **[!UICONTROL Adobe Campaign]** como **[!UICONTROL Cloud Service Configuration]**. Isso permite a comunicação entre seu conteúdo e sua instância do Adobe Campaign.
 
    Para obter mais informações, assista ao seguinte vídeo:
 
@@ -59,14 +59,14 @@ Você pode editar o conteúdo do email adicionando componentes e ativos. Os camp
 
 Para criar um conteúdo de email no Adobe Experience Manager:
 
-1. Edite o assunto e a **[!UICONTROL Plain text]** versão do seu email acessando a guia **[!UICONTROL Page properties]** > **[!UICONTROL Email]** no sidekick.
+1. Edite o assunto e a versão **[!UICONTROL Plain text]** do seu email acessando a guia **[!UICONTROL Page properties]** > **[!UICONTROL Email]** do sidekick.
 
-1. Adicione **[!UICONTROL Personalization fields]** **[!UICONTROL Text & Personalization]** o componente. Cada componente corresponde a um uso específico: inserir imagens, adicionar personalização etc.
+1. Adicione **[!UICONTROL Personalization fields]** pelo componente **[!UICONTROL Text & Personalization]**. Cada componente corresponde a um uso específico: inserir imagens, adicionar personalização etc.
 
    Para obter mais informações, assista ao seguinte vídeo:
    >[!VIDEO](https://video.tv.adobe.com/v/29998)
 
-1. Na **[!UICONTROL Workflow]** guia, selecione o fluxo de trabalho de **[!UICONTROL Approve for Adobe Campaign]** validação. Você não poderá enviar um e-mail no Adobe Campaign se ele usar um conteúdo que não tenha sido aprovado.
+1. Na guia **[!UICONTROL Workflow]**, selecione o fluxo de trabalho de validação **[!UICONTROL Approve for Adobe Campaign]**. Você não poderá enviar um e-mail no Adobe Campaign se ele usar um conteúdo que não tenha sido aprovado.
 
 1. Depois que o conteúdo e os parâmetros de envio forem definidos, você poderá continuar aprovando, preparando e enviando o email no Adobe Campaign Standard.
 
