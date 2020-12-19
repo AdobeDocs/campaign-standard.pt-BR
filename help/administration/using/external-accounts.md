@@ -30,7 +30,7 @@ Você pode configurar os seguintes tipos de contas externas:
 * Adobe Analytics. Para obter mais informações, consulte [esta seção](../../integrating/using/configure-campaign-analytics-integration.md).
 * Google reCAPTCHA. Para obter mais informações, consulte [esta seção](#google-recaptcha-external-account).
 * Armazenamento do Microsoft Azure Blob. Para obter mais informações, consulte [esta seção](#microsoft-azure-external-account).
-* OAuth 2.0. For more on this, refer to [this section](#oauth-account).
+* OAuth 2.0. Para obter mais informações, consulte [esta seção](#oauth-account).
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ Para evitar esses problemas, a Adobe recomenda seguir as práticas recomendadas 
 * Ocasionalmente, conecte-se no SFTP para verificar diretamente o que encontra-se lá.
 * Lembre-se de que o gerenciamento de disco SFTP é predominantemente sua responsabilidade.
 
-Além disso, observe que os IPs públicos dos quais você está tentando iniciar a conexão SFTP devem ser adicionados à lista de permissões na instância da Campanha. Adding IP addresses to the allowlist can be requested via a [support ticket](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
+Além disso, observe que os IPs públicos dos quais você está tentando iniciar a conexão SFTP devem ser adicionados à lista de permissões na instância da Campanha. A adição de endereços IP à lista de permissões pode ser solicitada por meio de um [tíquete de suporte](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html), junto com o fornecimento da chave pública a ser usada para autenticação.
 
 Servidores SFTP podem ser gerenciados no Painel de controle do Campaign. Para obter mais informações, consulte a [documentação do Painel de controle do Campaign](https://docs.adobe.com/content/help/pt-BR/control-panel/using/sftp-management/about-sftp-management.html).
 
@@ -96,12 +96,12 @@ Servidores SFTP podem ser gerenciados no Painel de controle do Campaign. Para ob
 
 Para uma conta externa OAuth 2.0, forneça os seguintes detalhes:
 
-* Um tipo **de** concessão: somente as credenciais **do** cliente são suportadas.
-* Um URL **da API** segura: insira o endpoint de autorização.
+* Um **Tipo de concessão**: só há suporte para **credenciais de cliente**.
+* Um **URL da API segura**: insira o endpoint de autorização.
 * **Credenciais** confidenciais do OAuth 2.0: Esta seção destina-se a credenciais sensíveis à natureza. Os valores das credenciais serão mascarados no ecrã depois de adicionados; nessa altura, não serão legíveis nem editáveis. Se o endpoint de autorização exigir que uma credencial específica seja inserida no cabeçalho de autorização HTTP em vez do parâmetro POST body, você poderá selecionar a opção Incluir no cabeçalho para essa credencial.
 * **Credenciais** não confidenciais do OAuth 2.0: Esta seção destina-se a credenciais que não são sensíveis por natureza. Os valores das credenciais serão visíveis no ecrã depois de adicionados; eles também serão editáveis.  Se o endpoint de autorização exigir que uma credencial específica seja inserida no cabeçalho de autorização HTTP em vez do parâmetro POST body, você poderá selecionar a opção Incluir no cabeçalho para essa credencial.
 
-Quando a configuração terminar, clique em **Test Connector (Conector** de teste) para verificar se a conta externa está configurada corretamente.
+Quando terminar a configuração, clique em **Test Connector** para verificar se a conta externa está configurada corretamente.
 
 ![](assets/external_accounts_OAuth.png)
 
@@ -187,7 +187,7 @@ Para uma conta externa de armazenamento do Microsoft Azure Blob, forneça os seg
 * Um **[!UICONTROL Label]** e **[!UICONTROL ID]** da sua conta externa
 * **[!UICONTROL Type]**: armazenamento do Microsoft Azure Blob
 * Seu **[!UICONTROL Account name]** e **[!UICONTROL Account key]**. Para saber onde encontrar o nome e a chave da sua conta, consulte esta [página](https://docs.microsoft.com/pt-BR/azure/storage/common/storage-account-keys-manage).
-* Seu **[!UICONTROL Endpoint suffix]**. Ele pode ser encontrado no **[!UICONTROL Connection string]** do menu **[!UICONTROL Access keys]** no Portal do Azure. Para obter mais informações, consulte esta [página](https://docs.microsoft.com/pt-BR/azure/storage/common/storage-account-keys-manage).
+* Seu **[!UICONTROL Endpoint suffix]**. Ele pode ser encontrado no **[!UICONTROL Connection string]** do menu **[!UICONTROL Access keys]** no Portal do Azure. Para obter mais informações, consulte esta [página](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
 * Seu nome **[!UICONTROL Container]**. Se você estiver planejando usar mais de um container, será necessário criar o mesmo número de contas externas e containers.
 * A opção **[!UICONTROL Concurrency]** permite ajustar a velocidade das transferências de arquivos.
 
