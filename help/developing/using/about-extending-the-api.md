@@ -21,7 +21,7 @@ Esse caso de uso detalha a exposição de campos estendidos para os Perfis de re
 
 >[!NOTE]
 >
->Para publicar a API, verifique se você tem a **[!UICONTROL Datamodel]** função.
+>Para publicar a API, verifique se você tem a função **[!UICONTROL Datamodel]**.
 
 As etapas para expor campos estendidos na API pública são as seguintes:
 
