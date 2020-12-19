@@ -21,10 +21,10 @@ ht-degree: 5%
 Este relatório contém dados relacionados à throughput do delivery de um envio ou vários envios. Ele fornece:
 
 * O número de mensagens processadas por hora
-* A **[!UICONTROL Top 5 deliveries]** tabela e os números de resumo complementares que mostram os cinco delivery com o melhor ganho em tentativas.
+* A tabela **[!UICONTROL Top 5 deliveries]** e os números de resumo complementares que mostram os cinco delivery com o melhor ganho nas tentativas.
 
 ![](assets/delivery_reports_1.png)
 
 >[!NOTE]
 >
->The **[!UICONTROL Delivery throughput]** page displays the throughput speed for the relay of your messages from Campaign over to the Adobe Campaign Enhanced MTA.
+>A página **[!UICONTROL Delivery throughput]** exibe a velocidade de throughput para o relay de suas mensagens da Campanha para o Adobe Campaign Enhanced MTA.
