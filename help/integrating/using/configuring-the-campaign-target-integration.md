@@ -27,11 +27,11 @@ Para este procedimento, são necessários os seguintes elementos:
 * Um locatário da Adobe Target
 * Um rawbox do Adobe Target especificado para estabelecer a conexão com o Adobe Campaign
 
-1. No menu avançado, pelo logotipo Adobe Campaign no canto superior esquerdo, selecione **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
+1. No menu avançado, por meio do logotipo Adobe Campaign no canto superior esquerdo, selecione **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 1. Para configurar as opções de servidor e locatário para Adobe Target, preencha os seguintes campos de acordo:
 
    * **[!UICONTROL TNT_TenantName]**: nome do locatário do Adobe Target. Esse valor corresponde ao nome do **[!UICONTROL Client]** do Adobe Target.
-   * **[!UICONTROL TNT_EdgeServer]**: Servidor Adobe Target usado para integração. Essa opção já é fornecida por padrão. This value corresponds to the Adobe Target **[!UICONTROL Server Domain]**, followed by the **/m2** value. Por exemplo: **tt.omtrdc.net/m2**.
+   * **[!UICONTROL TNT_EdgeServer]**: Servidor Adobe Target usado para integração. Essa opção já é fornecida por padrão. Esse valor corresponde ao Adobe Target **[!UICONTROL Server Domain]**, seguido pelo valor **/m2**. Por exemplo: **tt.omtrdc.net/m2**.
 
    ![](assets/tar_options.png)
 
