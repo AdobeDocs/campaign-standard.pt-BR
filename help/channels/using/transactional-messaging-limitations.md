@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 0092ad11314fab232663f558ca6635b8fcc03133
+source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 67%
@@ -64,7 +64,7 @@ O modo de personalização de um conteúdo de mensagem depende do tipo de mensag
 
 ### Lista de produtos
 
-Observe que as listas de produtos estão disponíveis somente em **mensagens de email transacionais**. Consulte [Uso das listagens de produtos em uma mensagem transacional](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
+Observe que as listas de produtos estão disponíveis somente em **mensagens de email transacionais**. Consulte [Uso das listagens de produtos em uma mensagem transacional](../../designing/using/using-product-listings.md).
 
 ## Identidade visual {#permissions-and-branding}
 
