@@ -5,11 +5,11 @@ product: campaign
 title: Documentação do produto Adobe Campaign Standard
 description: Pesquisar a documentação do produto Campaign Standard
 topic: Premium
-translation-type: ht
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
-workflow-type: ht
-source-wordcount: '216'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 74645dbd3ae24be49475be7ec50d0d3464823ec2
+workflow-type: tm+mt
+source-wordcount: '234'
+ht-degree: 86%
 
 ---
 
@@ -20,7 +20,9 @@ ht-degree: 100%
 
 ## Novidades
 
-* **[Planejamento de lançamento atualizado](rn/using/release-planning.md)**<br/> As datas do lançamento para fevereiro de 2021 foram adicionadas ao planejamento do lançamento
+* **[Atualizar ](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> rejeições incorretas de disco rígidoSaiba como atualizar rejeições incorretas de disco rígido após a interrupção do Gmail
+
+* **[Planejamento ](rn/using/release-planning.md)**<br/> de lançamentoAs datas de lançamento de fevereiro de 2021 foram adicionadas ao planejamento de lançamento
 
 * **[Grupos de controle](sending/using/control-group.md)**<br/>
 Meça o impacto de suas campanhas excluindo parte dos públicos
@@ -79,5 +81,5 @@ Saiba mais sobre as diretrizes gerais para delivery para dispositivos móveis (S
 | [Documentação do Painel de controle do Campaign](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.html) | [APIs do Campaign](api/using/get-started-apis.md) |
 | [Guia de implementação](https://helpx.adobe.com/br/campaign/kb/campaign-standard-implementation-guide.html) | [Lista de mensagens de erro](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Planejamento de versão](rn/using/release-planning.md) | [Modelo de dados do Campaign](developing/using/datamodel-introduction.md) |
-| [Recursos obsoletos e removidos](rn/using/deprecated-features.md)) | [Guia multissoluções](integrating/using/get-started-campaign-integrations.md) |
+| [Recursos obsoletos e removidos](rn/using/deprecated-features.md) | [Guia multissoluções](integrating/using/get-started-campaign-integrations.md) |
 | [Introdução ao Campaign Standard](start/using/about-campaign-standard.md) | [Notas técnicas](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
