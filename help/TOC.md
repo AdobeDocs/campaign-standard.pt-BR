@@ -3,14 +3,14 @@ solution: Campaign Standard
 product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
-user-guide-description: 'Help Center para os principais recursos, tarefas, configurações e outros recursos necessários para usar o Campaign Standard. '
+user-guide-description: 'Centro de ajuda para os principais recursos, tarefas, configurações e outros recursos necessários para usar o Campaign Standard. '
 breadcrumb-title: Campaign Standard
 title: Guia do Campaign Standard
 translation-type: tm+mt
-source-git-commit: 642b916369433d9a7a23d818e94f5e189a1c8596
+source-git-commit: b5f982ee320cb98174153a53fe8f28b4b6c31790
 workflow-type: tm+mt
-source-wordcount: '1696'
-ht-degree: 97%
+source-wordcount: '1710'
+ht-degree: 99%
 
 ---
 
@@ -124,14 +124,14 @@ ht-degree: 97%
       + Configuração do evento {#event-configuration}
          + [Configuração de um evento transacional](channels/using/configuring-transactional-event.md)
          + [Publicar um evento transacional](channels/using/publishing-transactional-event.md)
-      + Edição de mensagen transacional {#transactional-message-edition}
-         + [Edição de um mensagen transacional](channels/using/editing-transactional-message.md)
+      + Edição de mensagem transacional {#transactional-message-edition}
+         + [Editar uma mensagem transacional](channels/using/editing-transactional-message.md)
          + [Teste de mensagem transacional](channels/using/testing-transactional-message.md)
-         + [Ciclo de vida do mensagen transacional](channels/using/publishing-transactional-message.md)
-         + [Execução e acompanhamento](channels/using/transactional-message-execution.md)
+         + [Ciclo de vida da mensagem transacional](channels/using/publishing-transactional-message.md)
+         + [Execução e monitoramento](channels/using/transactional-message-execution.md)
       + [Notificações por push transacionais](channels/using/transactional-push-notifications.md)
       + [Mensagens de acompanhamento](channels/using/follow-up-messages.md)
-      + [Caso de uso de mensagens transacionais](channels/using/transactional-messaging-use-case.md)
+      + [Caso de uso de mensagem transacional](channels/using/transactional-messaging-use-case.md)
    + Landing pages {#landing-pages}
       + [Introdução às landing pages](channels/using/getting-started-with-landing-pages.md)
       + [Sobre templates de landing page](channels/using/landing-page-templates.md)
@@ -152,6 +152,7 @@ ht-degree: 97%
       + [Edição de texto sem formatação, HTML e e-mails móveis](designing/using/plain-text-html-modes.md)
       + [Conversão de emails do Editor herdado para o Email Designer](designing/using/converting-emails-from-legacy-editor.md)
    + [Personalização de conteúdo de e-mail](designing/using/personalization.md)
+   + [Uso das listagens de produtos](designing/using/using-product-listings.md)
    + [Gerenciamento de estilos de email](designing/using/styles.md)
    + [Gerenciamento de links](designing/using/links.md)
    + [Gerenciamento de imagens](designing/using/images.md)
@@ -435,7 +436,6 @@ ht-degree: 97%
    + Configuração de canais {#configuring-channels}
       + [Sobre a configuração de canal](administration/using/about-channel-configuration.md)
       + [Configuração do canal de email](administration/using/configuring-email-channel.md)
-      + [Configuração do canal SMS](administration/using/configuring-sms-channel.md)
       + [Configurar um aplicativo móvel](administration/using/configuring-a-mobile-application.md)
    + Configuração de canais móveis {#configuring-mobile}
       + [Implementação do rastreamento de push](administration/using/push-tracking.md)
@@ -446,6 +446,10 @@ ht-degree: 97%
       + [Perguntas frequentes sobre integração com o SDK da Experience Platform](administration/using/aep-faq.md)
       + [Configuração das regras do Launch para suportar casos de uso do Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
       + [Casos de uso de publicação de conteúdo para dispositivos móveis compatíveis com o Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
+   + Configuração do canal SMS {#configuring-sms}
+      + [Implementação do canal SMS](administration/using/configuring-sms-channel.md)
+      + [Protocolo e configurações do conector SMS](administration/using/sms-protocol.md)
+      + [Solução de problemas de SMS](administration/using/troubleshooting-sms.md)
    + Configurações do aplicativo {#application-settings}
       + [Sobre as configurações do Campaign Standard](administration/using/about-campaign-standard-settings.md)
       + [Contas externas](administration/using/external-accounts.md)
