@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 3d271b7125a382f7864857df4541a6be28894992
+source-git-commit: 77abbdf824be705b0a3409442e45d28dc0abaa2f
 workflow-type: tm+mt
-source-wordcount: '6357'
-ht-degree: 99%
+source-wordcount: '6372'
+ht-degree: 98%
 
 ---
 
@@ -21,13 +21,19 @@ Além das [Notas de versão](../../rn/using/release-notes.md) do Adobe Campaign,
 
 ## Dezembro de 2020 {#doc-updates-december-2020}
 
-A seção de mensagens transacionais foi reorganizada e melhorada, com uma seção de introdução esclarecida que inclui [schemas melhorados](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) e um [caso de utilização completo](../../channels/using/transactional-messaging-use-case.md) para ilustrar o processo completo. [Leia mais](../../channels/using/getting-started-with-transactional-msg.md)
+**A** vinculabilidade do assunto preditivo está agora obsoleta. [Leia mais](../../rn/using/deprecated-features.md)
 
-A seção Privacidade foi movida. [Leia mais](../../start/using/privacy.md)
+A seção **Mensagens transacionais** de introdução agora inclui [schemas melhorados](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) e um [caso de utilização completo](../../channels/using/transactional-messaging-use-case.md) para ilustrar o processo de implementação. [Leia mais](../../channels/using/getting-started-with-transactional-msg.md)
 
-Uma nova página sobre acessibilidade foi adicionada para oferecer mais informações sobre o suporte de acessibilidade na área de trabalho do Adobe Campaign Standard. [Leia mais](../../start/using/accessibility.md)
+A seção **Privacy** foi movida [aqui](../../start/using/privacy.md).
 
-Uma nova limitação foi adicionada à seção Mensagens transacionais, declarando que para obter o desempenho ideal, o número de mensagens transacionais publicados deve permanecer abaixo de 100. [Leia mais](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
+Uma nova página **Acessibilidade** está disponível: ele detalha o suporte de acessibilidade na área de trabalho do Adobe Campaign Standard. [Leia mais](../../start/using/accessibility.md)
+
+Uma nota de advertência foi adicionada informando que, para um desempenho ótimo, o número de mensagens transacionais publicados deve permanecer abaixo de 100. [Leia mais](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
+
+O protocolo e a página de configurações do conector SMS foram movidos [aqui](../../administration/using/sms-protocol.md).
+
+A seção **Utilizar listas de produtos numa seção mensagen transacional** foi movida [para aqui](../../designing/using/using-product-listings.md).
 
 ## Novembro de 2020 {#doc-updates-november-2020}
 
@@ -509,7 +515,7 @@ Foram adicionadas informações na seção da atividade Extrair arquivo sobre a 
 
 Disponibilidade geral do Designer de email - [Leia mais](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Listas de produtos em Emails transacionais - [Leia mais](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
+Listas de produtos em Emails transacionais - [Leia mais](../../designing/using/using-product-listings.md)
 
 Visualização de publicação de conteúdo para dispositivos móveis no Designer de email - [Leia mais](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
