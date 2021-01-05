@@ -6,11 +6,11 @@ description: Saiba mais sobre o suporte à acessibilidade no Adobe Campaign Stan
 audience: designing
 content-type: reference
 topic-tags: accessibility
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6ea28c457b1024dab315b60281adaee56eb80cd0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '607'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
@@ -19,23 +19,23 @@ ht-degree: 45%
 
 Saiba mais sobre o suporte à acessibilidade no Adobe Campaign Standard Workspace.
 
-Acessibilidade refere-se à utilização de produtos para pessoas com limitações visuais, auditivas, cognitivas, motoras e outras. Exemplos de recursos de acessibilidade para produtos de software incluem conteúdo semeticamente estruturado, suporte a leitores de tela, equivalentes de texto para gráficos, atalhos de teclado e assim por diante.
+Acessibilidade refere-se à utilização de produtos para pessoas com limitações visuais, auditivas, cognitivas, motoras e outras. Exemplos de recursos de acessibilidade para produtos de software incluem conteúdo semanticamente estruturado, suporte a leitores de tela, equivalentes de texto para gráficos, atalhos de teclado e outros.
 
-A Adobe Campaign Standard fornece recursos que tornam mais acessível o uso, como contraste, rótulos, conteúdo estruturado, navegação pelo teclado e ajuda contextual.
+O Adobe Campaign Standard fornece recursos que tornam sua utilização mais acessível, como contraste, rótulos, conteúdo estruturado, navegação pelo teclado e ajuda contextual.
 
 ## Recursos de acessibilidade {#accessibility-features}
 
 ### Contraste e cor {#contrast}
 
-A interface do usuário do Adobe Campaign Standard se esforça para fornecer contraste suficiente no aplicativo para garantir uma experiência de visualização acessível para usuários com deficiências visuais ou coloridas baixas.
+A interface do usuário do Adobe Campaign Standard se esforça para fornecer contraste suficiente no aplicativo e assim garantir uma experiência de exibição acessível para usuários com limitações visuais ou de percepção de cor.
 
 * Texto e cabeçalhos grandes foram aprimorados para atender a uma taxa de contraste de 3:1.
 
    ![](assets/accessibility_2.png)
 
-* O conteúdo da ajuda e o texto do corpo no aplicativo foram atualizados para atender a uma taxa de contraste de 4.5:1.
+* O conteúdo de ajuda e o texto do corpo do aplicativo foram atualizados para atender a uma taxa de contraste de 4.5:1.
 
-* Os ícones de pausa e cancelamento de workflows foram atualizados para melhorar o contraste entre as cores do plano de fundo e do primeiro plano.
+* Os ícones de pausa e cancelamento de workflows foram atualizados para melhorar o contraste entre o plano de fundo e as cores do primeiro plano.
 
    ![](assets/accessibility_1.png)
 
@@ -43,9 +43,9 @@ A interface do usuário do Adobe Campaign Standard se esforça para fornecer con
 
 ### Interface do usuário {#user-interface}
 
-A interface do usuário do Adobe Campaign Standard facilita a interação de todos os usuários com o conteúdo, adicionando textos alternativos aos elementos visuais e usando a estrutura semântica para transmitir informações visualmente e programaticamente.
+A interface do usuário do Adobe Campaign Standard facilita a interação de todos os usuários com o conteúdo, adicionando textos alternativos aos elementos visuais e usando a estrutura semântica para transmitir informações de forma visual e programática.
 
-* Quando o usuário deixa um campo de ID obrigatório em branco, um gráfico indica visualmente qual campo está com erro com texto de mensagem de erro e que as mesmas informações são transmitidas programaticamente para usuários com tecnologias de assistência, como leitores de tela.
+* Quando o usuário deixa um campo de ID obrigatório em branco, um gráfico indica visualmente qual campo está com erro através de uma mensagem de texto e que as mesmas informações são transmitidas programaticamente para usuários com tecnologias de assistência, como leitores de tela.
 
    ![](assets/accessibility_3.png)
 
@@ -67,7 +67,7 @@ Adobe Campaign Standard allows you to design and test emails and push notificati
 
 ## Ajuda contextual {#contextual-help}
 
-A ajuda contextual pode ajudá-lo a entender melhor os diferentes campos e recursos solicitados disponíveis. Ele também orienta você na documentação do produto para obter mais informações sobre o recurso selecionado.
+A ajuda contextual pode ajudar você a entender melhor os diferentes campos e recursos disponíveis solicitados. Ele também orienta você na documentação do produto para obter mais informações sobre o recurso selecionado.
 
 Ao criar um email, você pode acessar uma dica de ferramenta que fornecerá descrições de recursos e links para a documentação do produto.
 
@@ -75,13 +75,13 @@ Ao criar um email, você pode acessar uma dica de ferramenta que fornecerá desc
 
 ## Suporte para tecnologia assistiva {#screen-magnifiers}
 
-Procuramos tornar o aplicativo Adobe Campaign Standard o mais utilizável possível por várias tecnologias de assistência, incluindo, mas não limitado a, teclados modificados, softwares de aumento de tela, leitores de tela, software de reconhecimento de voz e outros dispositivos de assistência.
+Procuramos maximizar a utilização do aplicativo Adobe Campaign Standard por meio de várias tecnologias de assistência, incluindo, mas não limitado a, teclados modificados, softwares de aumento de tela, leitores de tela, software de reconhecimento de voz e outros dispositivos de assistência.
 
 ## Trabalhe no seu idioma preferido {#languages}
 
 O Adobe Campaign Standard está disponível em diferentes idiomas: inglês, francês e alemão.
 
-Observe que o idioma está configurado na instalação e não pode ser alterado posteriormente.
+Observe que o idioma é configurado durante a instalação e não pode ser alterado posteriormente.
 
 ## Atalhos de teclado {#shortcuts}
 
