@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 6ac2a2d5b2a0924847e54068145d6def22f8023f
+source-git-commit: 458517259c6668e08a25f8c3cd3f193f27e536fb
 workflow-type: tm+mt
 source-wordcount: '8382'
 ht-degree: 0%
@@ -104,7 +104,7 @@ No modo separado **Transmissor+receptor**, a conexão usada depende do tipo de m
 
 Por exemplo, ao enviar um MT, a conexão do transmissor é usada e o `RESP` que reconhece o MT também é enviado pelo canal do transmissor. Quando você recebe um MO (ou um SR), a conexão do receptor é usada para receber o MO e para enviar o `RESP` que reconhece o MO.
 
-![](assets/sms_protocol_1.png)
+![](assets/do-not-localize/sms_protocol_1.png)
 
 No Adobe Campaign Standard, a reconciliação MT e SR é nativa do MTA, portanto, não há processo de SMS dedicado.
 
@@ -500,7 +500,7 @@ A janela é o número de `SUBMIT_SM PDU`s que podem ser enviados sem esperar por
 
 Exemplo de uma transmissão com uma janela máxima de 4:
 
-![](assets/sms_protocol_2.png)
+![](assets/do-not-localize/sms_protocol_2.png)
 
 A janela ajuda a aumentar a throughput quando o link da rede tem uma latência alta.  O valor da janela deve ser pelo menos o número de SMS/s multiplicado pela latência do link em segundos para que o conector nunca aguarde `SUBMIT_SM_RESP` antes de enviar a próxima mensagem.
 Se a janela for muito grande, você pode enviar mais mensagens de duplicado em caso de problemas de conexão. Além disso, a maioria dos provedores tem um limite muito restrito para a janela e recusa mensagens que ultrapassam o limite.
@@ -758,7 +758,7 @@ O período de validade é transmitido no campo `validity_period` de `SUBMIT_SM P
 
 ## Conector SMPP {#ACS-SMPP-connector}
 
-![](assets/sms_protocol_3.png)
+![](assets/do-not-localize/sms_protocol_3.png)
 
 As setas representam o fluxo de dados.
 
