@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 46bcdeec3731a7da12997cb195195fecfa2f84e5
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 88%
+source-wordcount: '1299'
+ht-degree: 87%
 
 ---
 
@@ -77,6 +77,7 @@ Os possíveis motivos para uma falha de delivery são:
 Se uma mensagem falhar devido a um erro temporário do tipo **Ignorado**, as tentativas serão executadas durante a duração do delivery. Para obter mais informações sobre os tipos de erros, consulte [Tipos e motivos de falha de delivery](#delivery-failure-types-and-reasons).
 
 O número de tentativas (quantas tentativas devem ser executadas no dia seguinte ao início do envio) e o atraso mínimo entre as tentativas agora são gerenciados pelo MTA aprimorado do Adobe Campaign, com base no desempenho histórico e atual de um IP em um determinado domínio. As configurações de **Tentativas** no Campaign são ignoradas.
+Observe que o Adobe Campaign Enhanced MTA não está disponível para o canal de push.
 
 Para modificar a duração de um delivery, vá para os parâmetros avançados do delivery ou do template do delivery e edite o campo **[!UICONTROL Delivery duration]** da seção [Validity period](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
