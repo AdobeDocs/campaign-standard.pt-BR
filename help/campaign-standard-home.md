@@ -5,11 +5,11 @@ product: campaign
 title: Documentação do produto Adobe Campaign Standard
 description: Pesquisar a documentação do produto Campaign Standard
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 74645dbd3ae24be49475be7ec50d0d3464823ec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '234'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 86%
 
 ## Novidades
 
-* **[Atualizar ](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> rejeições incorretas de disco rígidoSaiba como atualizar rejeições incorretas de disco rígido após a interrupção do Gmail
+* **[Atualizar devoluções permanentes incorretas](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Saiba como atualizar devoluções permanentes incorretas após a interrupção do Gmail
 
-* **[Planejamento ](rn/using/release-planning.md)**<br/> de lançamentoAs datas de lançamento de fevereiro de 2021 foram adicionadas ao planejamento de lançamento
+* **[Planejamento de versão](rn/using/release-planning.md)**<br/> As datas de versão futuras de fevereiro de 2021 foram adicionadas ao planejamento de versão
 
 * **[Grupos de controle](sending/using/control-group.md)**<br/>
 Meça o impacto de suas campanhas excluindo parte dos públicos
