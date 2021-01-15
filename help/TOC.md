@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centro de ajuda para os principais recursos, tarefas, configurações e outros recursos necessários para usar o Campaign Standard. '
 breadcrumb-title: Campaign Standard
 title: Guia do Campaign Standard
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b5f982ee320cb98174153a53fe8f28b4b6c31790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1710'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -151,7 +151,7 @@ ht-degree: 99%
       + [Uso de integrações de várias soluções](designing/using/using-integrations.md)
       + [Edição de texto sem formatação, HTML e e-mails móveis](designing/using/plain-text-html-modes.md)
       + [Conversão de emails do Editor herdado para o Email Designer](designing/using/converting-emails-from-legacy-editor.md)
-   + [Personalização de conteúdo de e-mail](designing/using/personalization.md)
+   + [Personalização de conteúdo de email](designing/using/personalization.md)
    + [Uso das listagens de produtos](designing/using/using-product-listings.md)
    + [Gerenciamento de estilos de email](designing/using/styles.md)
    + [Gerenciamento de links](designing/using/links.md)
@@ -436,7 +436,7 @@ ht-degree: 99%
    + Configuração de canais {#configuring-channels}
       + [Sobre a configuração de canal](administration/using/about-channel-configuration.md)
       + [Configuração do canal de email](administration/using/configuring-email-channel.md)
-      + [Configurar um aplicativo móvel](administration/using/configuring-a-mobile-application.md)
+      + [Configurar um aplicativo para dispositivos móveis](administration/using/configuring-a-mobile-application.md)
    + Configuração de canais móveis {#configuring-mobile}
       + [Implementação do rastreamento de push](administration/using/push-tracking.md)
       + [Adicionar imagens e vídeos ao iOS](administration/using/image-push-notification.md)
