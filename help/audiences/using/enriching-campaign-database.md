@@ -7,7 +7,7 @@ audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 3%
@@ -54,7 +54,7 @@ Para obter mais informações sobre o landing page, consulte a [documentação d
 A integração do Campaign Standard com o Microsoft Dynamics 365 permite transmitir dados de contato do Microsoft Dynamics 365 para o banco de dados de Campanhas.
 Esses contatos ficam visíveis na lista de Perfis e podem ser direcionados para campanhas de marketing.
 
-Para obter mais informações sobre essa integração, consulte a [documentação dedicada](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
+Para obter mais informações sobre essa integração, consulte a [documentação dedicada](../../integrating/using/d365-acs-get-started.md).
 
 >[!NOTE]
 >
