@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centro de ajuda para os principais recursos, tarefas, configurações e outros recursos necessários para usar o Campaign Standard. '
 breadcrumb-title: Campaign Standard
 title: Guia do Campaign Standard
-translation-type: ht
-source-git-commit: b5f982ee320cb98174153a53fe8f28b4b6c31790
-workflow-type: ht
-source-wordcount: '1710'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+workflow-type: tm+mt
+source-wordcount: '1728'
+ht-degree: 97%
 
 ---
 
@@ -261,14 +261,17 @@ ht-degree: 100%
       + [Testar os acionadores](integrating/using/testing-your-triggers.md)
       + [Casos de uso de acionadores de abandonos](integrating/using/abandonment-triggers-use-cases.md)
    + Campanha e Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Introdução à integração com o Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-      + [Gerenciar dados entre o Campaign e o Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
-      + [Solicitar a integração](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-      + [Configurar o Adobe I/O](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-      + [Configurar o Dynamics 365 para integração com o Campaign](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-      + [Mapear recursos personalizados do Campaign e entidades personalizadas do Dynamics 365](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
-      + [Usar a integração com o Dynamics 365](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
-      + [Medidas de proteção de integração](integrating/using/ms-dynamics-365-integration-guardrails.md)
+      + [Introdução à integração do Microsoft Dynamics 365](integrating/using/d365-acs-get-started.md)
+      + [Práticas recomendadas e limitações](integrating/using/d365-acs-notices-and-recommendations.md)
+      + [Configurar o Microsoft Dynamics 365](integrating/using/d365-acs-configure-d365.md)
+      + [Configurar o Campaign e o Adobe I/O](integrating/using/d365-acs-configure-adobe-io.md)
+      + Configurar o aplicativo de integração {#configure-integration-tool}
+         + [Introdução ao aplicativo de integração](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
+         + [Acesso ao aplicativo de integração](integrating/using/d365-acs-self-service-app-control-access.md)
+         + [Conecte sistemas com o aplicativo de integração](integrating/using/d365-acs-self-service-app-settings.md)
+         + [Gerenciar workflows de sincronização](integrating/using/d365-acs-self-service-app-workflows.md)
+         + [Mapear dados entre o Microsoft Dynamics 365 e a Campanha](integrating/using/d365-acs-self-service-app-data-sync.md)
+      + [Usar a integração com o Microsoft Dynamics 365](integrating/using/d365-acs-using-the-integration.md)
 + Gerenciamento de processos e dados {#managing-processes-and-data}
    + [Introdução ao gerenciamento de dados e processos](automating/using/get-started-workflows.md)
    + Operação geral do workflow {#workflow-general-operation}
