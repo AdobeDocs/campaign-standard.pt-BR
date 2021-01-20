@@ -7,7 +7,7 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 90%
@@ -30,7 +30,7 @@ Para criar ou atualizar um perfil no Campaign, você pode:
 * Importar uma lista de perfis de um arquivo, por meio de um [fluxo de trabalho](../../automating/using/creating-import-workflow-templates.md)
 * Coletar dados online, usando [landing pages](../../channels/using/getting-started-with-landing-pages.md)
 * Criar um volume em massa por meio da [API REST](../../api/using/get-started-apis.md)
-* Sincronizar perfis do [Microsoft Dynamics](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* Sincronizar perfis do [Microsoft Dynamics](../../integrating/using/d365-acs-get-started.md)
 * Insira dados usando as telas de interface gráfica, como explicado abaixo.
 
 Por exemplo, para criar um novo perfil diretamente na interface do usuário, siga as etapas abaixo:
