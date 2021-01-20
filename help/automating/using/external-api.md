@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 translation-type: tm+mt
-source-git-commit: 79e0b945e2c34bc396b7852851df848a76d62979
+source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
 workflow-type: tm+mt
 source-wordcount: '2156'
 ht-degree: 98%
@@ -114,7 +114,7 @@ Se a **análise for validada**, será exibida uma mensagem com um convite para p
 
 ### Execução
 
-Essa guia permite que você defina o ponto de extremidade da conexão. O campo **[!UICONTROL URL]** permite definir o **Ponto de extremidade HTTPS** que enviará dados para o ACS.
+Essa guia permite que você defina o ponto de extremidade da conexão. O campo **[!UICONTROL URL]** permite definir o **Ponto Final HTTPS** que enviará dados para a Campanha.
 
 Se necessário para o ponto de extremidade, dois tipos de método de autenticação estão disponíveis:
 
