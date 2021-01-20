@@ -7,7 +7,7 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 6%
@@ -69,8 +69,8 @@ A tabela abaixo mostra o que acontece depois de recusar este contrato, dependend
 
 | Região | Relatórios dinâmico | Conector do Microsoft Dynamics 365 |
 |---|---|---|
-| Américas e APAC (Pacífico Asiático) | **Recurso disponível**. <br> Nenhuma informação predefinida e personalizada sobre perfis enviada para o centro de relatórios dos EUA, com exceção da ExternalID. | **Recurso disponível**. <br>Nenhum campo de perfil personalizado ou predefinido enviado para o data center dos EUA, com exceção da ID externa e da ID do Recipient. <br>Todos os campos do evento Adobe Campaign Standard processados no data center dos EUA, com exceção da ID do mirror page. <br>Para obter mais informações sobre a integração do Microsoft Dynamics 365, consulte esta  [página](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md). |
-| EMEA (Europa, Oriente Médio e África) | **Recurso disponível**. <br>Nenhuma informação predefinida e personalizada sobre perfis enviada para o centro de relatórios da EMEA, com exceção da ExternalID. | **Recurso disponível.** <br>Nenhum campo de perfil personalizado ou predefinido enviado para o centro de dados da EMEA, com exceção da ID externa e da ID do Recipient. <br>Todos os campos do evento Adobe Campaign Standard processados no data center EMEA, com exceção da ID do mirror page.  <br>**[!UICONTROL Control data]**que contém dados de registro da Adobe I/O e IDs de eventos do usuário final do cliente enviados e armazenados no data center dos EUA.<br>Para obter mais informações sobre a integração do Microsoft Dynamics 365, consulte esta  [página](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md). |
+| Américas e APAC (Pacífico Asiático) | **Recurso disponível**. <br> Nenhuma informação predefinida e personalizada sobre perfis enviada para o centro de relatórios dos EUA, com exceção da ExternalID. | **Recurso disponível**. <br>Nenhum campo de perfil personalizado ou predefinido enviado para o data center dos EUA, com exceção da ID externa e da ID do Recipient. <br>Todos os campos do evento Adobe Campaign Standard processados no data center dos EUA, com exceção da ID do mirror page. <br>Para obter mais informações sobre a integração do Microsoft Dynamics 365, consulte esta  [página](../../integrating/using/d365-acs-get-started.md). |
+| EMEA (Europa, Oriente Médio e África) | **Recurso disponível**. <br>Nenhuma informação predefinida e personalizada sobre perfis enviada para o centro de relatórios da EMEA, com exceção da ExternalID. | **Recurso disponível.** <br>Nenhum campo de perfil personalizado ou predefinido enviado para o centro de dados da EMEA, com exceção da ID externa e da ID do Recipient. <br>Todos os campos do evento Adobe Campaign Standard processados no data center EMEA, com exceção da ID do mirror page.  <br>**[!UICONTROL Control data]**que contém dados de registro da Adobe I/O e IDs de eventos do usuário final do cliente enviados e armazenados no data center dos EUA.<br>Para obter mais informações sobre a integração do Microsoft Dynamics 365, consulte esta  [página](../../integrating/using/d365-acs-get-started.md). |
 
 Essa opção não é final, você sempre pode alterá-la selecionando **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** em **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
 
