@@ -9,10 +9,10 @@ topic-tags: campaign-standard-releases
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: a1a670f32201ba6b8fa4488a5ab3dd881aece097
+source-git-commit: 1bf35c654b9c526330a70f7647ec7d9fd87e2335
 workflow-type: tm+mt
-source-wordcount: '2618'
-ht-degree: 4%
+source-wordcount: '2586'
+ht-degree: 3%
 
 ---
 
@@ -41,12 +41,13 @@ Esta página descreve novos recursos, melhorias e correções incluídos na pró
 <tbody> 
 <tr> 
 <td>
-<p>O EFS (Email Feedback Service) é um serviço escalável que captura o feedback do MTA aprimorado diretamente, melhorando assim a precisão do relatórios. Esse recurso é lançado como um beta privado e estará progressivamente disponível para todos os clientes em versões futuras.</p>
+<p>O EFS (Email Feedback Service) é um serviço escalável que melhora a precisão do relatórios ao capturar feedback de email diretamente do MTA aprimorado.</p>
 <ul>
-<li>Todas as categorias de eventos são capturadas: Atrasos, Entregues, Enviados, Cancelados A Assinatura (Link, Lista), Comentários (Reclamações De Spam, eventos Assíncronos).</li>
+<li>Todas as categorias de eventos são capturadas: Atrasos, Entregues, Enviados, Cancelados a Assinatura (Link, Lista), Feedback (reclamações de spam, eventos assíncronos).</li>
 <li>O cálculo dos indicadores Enviados/Entregues agora se baseia no feedback em tempo real do MTA aprimorado para melhorar a precisão e a reatividade.</li>
 <li>O EFS soluciona o problema de rejeições síncronas de atrasos de relatórios e retira 80% da carga do processo inMail.</li>
 </ul>
+<p>Esse recurso é lançado como um <strong>beta privado</strong> e estará progressivamente disponível para todos os clientes em versões futuras.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -61,7 +62,8 @@ Esta página descreve novos recursos, melhorias e correções incluídos na pró
 <tbody> 
 <tr> 
 <td>
-<p>A integração com a Adobe Experience Manager foi aprimorada: agora você pode importar conteúdo multilíngue mais facilmente do Adobe Experience Manager. A Adobe Campaign Standard agora detecta automaticamente as variantes de idioma do conteúdo da Adobe Experience Manager e permite a importação e criação de variantes em massa, simplificando significativamente o número de etapas que um profissional precisa seguir para criar uma campanha multilíngue com base no conteúdo da Adobe Experience Manager.
+<p>A integração da campanha com a Adobe Experience Manager foi aprimorada: agora você pode importar conteúdo multilíngue mais facilmente do Adobe Experience Manager. <p>
+<p>A Adobe Campaign Standard agora detecta automaticamente as variantes de idioma do conteúdo da Adobe Experience Manager e permite a importação e criação de variantes em massa, simplificando significativamente o número de etapas que um profissional precisa seguir para criar uma campanha multilíngue com base no conteúdo da Adobe Experience Manager.</p>
 </p>
 </td> 
 </tr> 
@@ -90,27 +92,22 @@ Esta página descreve novos recursos, melhorias e correções incluídos na pró
 
 **Aprimoramentos**
 
-* A integração do Microsoft Dynamics 365 foi aprimorada com um aplicativo dedicado de integração de autoatendimento e um processo de implementação aprimorado. [Saiba mais](../../integrating/using/d365-acs-get-started.md)
+* **A** integração do Microsoft Dynamics 3655 foi aprimorada com um aplicativo dedicado de integração de autoatendimento e um processo de implementação aprimorado. [Saiba mais](../../integrating/using/d365-acs-get-started.md)
 
-* Correção de um problema que fazia com que os delivery fossem executados muito lentamente devido a determinados processos. Isso se deve a unidades incorretas definidas para vários parâmetros (milissegundos em vez de segundos, por exemplo).
+* Foi feito um aprimoramento para facilitar a solução de problemas ao encontrar problemas com o **processo de mensagens transacionais**. Os administradores técnicos do Adobe agora podem usar o rastreamento em qualquer processo sem reiniciá-lo.
 
-* Corrigido um problema quando o SDK móvel enviava uma solicitação de rastreamento aberta com base na condição de que deliveryId/MessageID não fosse nulo. Isso resultaria em 404 erros para delivery com rastreamento desativado. Uma variável adicional (acsDeliveryTracking) com informações sobre o status de rastreamento do delivery agora é enviada na carga. Essa variável pode ter dois valores ativados ou desativados dependendo do status de rastreamento definido.
+* A lista **Perfis** agora permite que você pesquise por registros com base em um destes campos: email, nome, sobrenome ou campos personalizados que foram adicionados na filtragem avançada ao estender o recurso de perfil. Esse recurso também está disponível em APIs de Campaign Standard usando o parâmetro filterType.
 
-* Foi feito um aprimoramento para facilitar a solução de problemas ao encontrar problemas com o processo de mensagens transacionais. Os administradores técnicos do Adobe agora podem usar o rastreamento em qualquer processo sem reiniciá-lo.
+* Um parâmetro foi ajustado para o número de container que executam o processo de pool de **mensagens transacionais** banco de dados. Isso permite que a carga seja distribuída uniformemente em todos os container usados e alcance o desempenho ideal.
 
-* A lista Perfis agora permite que você pesquise por registros com base em um desses campos: email, nome, sobrenome ou campos personalizados que foram adicionados na filtragem avançada ao estender o recurso de perfil. Esse recurso também está disponível em APIs de Campaign Standard usando o parâmetro filterType.
+* Uma nova função **GetOption** agora está disponível no atividade usando variáveis de evento depois de chamar um fluxo de trabalho com parâmetros externos. Permite retornar o valor de uma função especificada.
 
-* Um parâmetro foi ajustado para o número de container que executam o processo de pooling do banco de dados de mensagens transacionais. Isso permite que a carga seja distribuída uniformemente em todos os container usados e alcance o desempenho ideal.
+* Uma nova opção permite que o Campaign Standard para **verifique a memória física** disponível no sistema antes de iniciar um fluxo de trabalho. Se a quantidade de memória for muito baixa, a execução do fluxo de trabalho será atrasada até que a memória do sistema atinja esse limite. Isso evita uma maior degradação do desempenho e reduz o risco de uma interrupção. O fluxo de trabalho será retomado automaticamente quando a carga no servidor diminuir e a memória aumentar. Observe que essa opção é somente leitura e não pode ser modificada.
 
-* Uma nova função (GetOption) agora está disponível no atividade usando variáveis de evento após chamar um fluxo de trabalho com parâmetros externos. Permite retornar o valor de uma função especificada.
-
-* Uma nova opção técnica foi adicionada. Ele permite que o Campaign Standard verifique se há memória física suficiente disponível no sistema antes de iniciar um fluxo de trabalho. Se a quantidade de memória for muito baixa, a execução do fluxo de trabalho será atrasada até que a memória do sistema atinja esse limite. Isso é feito para evitar uma maior degradação do desempenho e mitigar o risco de uma interrupção. Tente reagendar este fluxo de trabalho para um tempo de menos atividade e tente novamente. O fluxo de trabalho será retomado automaticamente assim que a tensão do servidor for relaxada. Observe que essa opção é somente leitura e não pode ser modificada.
 
 **Outras alterações**
 
 * Alteração de um erro para um aviso durante a preparação da mensagem, quando o limite de 100 downloads de conteúdo por hora de rolagem é atingido. Um aviso agora é exibido quando o limite é atingido, o que permite continuar com o delivery.
-
-* Um novo mapeamento de delivery (mapRtEventAppSubRcp) agora está disponível para perfis de definição de metas de mensagens de push transacionais. O delivery, a exclusão e os logs de rastreamento desses deliveries agora estarão disponíveis nas tabelas broadLogAppSubRcp, excludeLogAppSubRcp e trackingLogAppSubRcp. Isso resolve um problema que causava a falha da análise do delivery ao enviar uma mensagem de push transacional usando a dimensão do público-alvo do perfil.
 
 * Ao enriquecer um conteúdo de mensagen transacional, os links não são mais recuperados ao buscar dados da tabela do Perfil, o que reduz a latência durante a preparação da mensagem e evita dados vazios do perfil devido a uma relação incorreta definida com a tabela do perfil.
 
@@ -120,15 +117,13 @@ Esta página descreve novos recursos, melhorias e correções incluídos na pró
 
 * A atividade **Transferir arquivo** agora gera uma variável adicional (filesCount) que contém o número de arquivos carregados ou baixados. (CAMP-45842)
 
-* O conector SMS agora pode enviar vários parâmetros opcionais com cada mensagem.
+* O **conector SMS** agora pode enviar vários parâmetros opcionais com cada mensagem.
 
-* Correção de um problema que impedia que usuários com a função MODELO DE DADOS publicassem extensões de log de delivery. Esta operação agora estará disponível para a função MODELO DE DADOS. (CAMP-46604)
-
-* Correção de um problema em workflows que ocorria ao copiar e colar uma atividade **Desduplicação-duplicada** executada uma vez e que aproveitava um recurso temporário. Depois de duplicado, o recurso de atividade foi automaticamente definido como vazio, resultando em problemas em outras atividades do fluxo de trabalho. Depois de colado, o recurso de atividade permanecerá o mesmo, para que o erro seja acionado o mais rápido possível, em vez de posteriormente, no fluxo de trabalho. (CAMP-46903)
+* Os usuários com a função DATAMODEL agora podem publicar extensões de log de delivery. (CAMP-46604)
 
 * A mensagem de erro exibida ao tentar publicar um recurso direcionando um recurso personalizado que não existe mais foi tornada mais clara. (CAMP-46893)
 
-* Os seguintes idiomas foram adicionados à lista de idioma preferencial: Indonésia - Indonésia (in-id), Inglês - Suécia (en-se), Inglês - Pacífico Asiático (en-ap), Inglês - Japão (en-jp), Espanhol - América Latina (es-la). (CAMP-46351)
+* Os seguintes idiomas foram adicionados à lista **Idioma preferencial**: Indonésia - Indonésia (in-id), Inglês - Suécia (en-se), Inglês - Pacífico Asiático (en-ap), Inglês - Japão (en-jp), Espanhol - América Latina (es-la). (CAMP-46351)
 
 * O seletor de perfis ao testar uma landing page agora usará o recurso profilBase em vez do perfil para evitar o tempo limite.
 
@@ -138,19 +133,23 @@ Esta página descreve novos recursos, melhorias e correções incluídos na pró
 
 * Mensagens de aviso ou erro aprimoradas nos registros de preparação de delivery.
 
-* Registros de erros aprimorados ao tentar se conectar ao IMS.
+* Registros de erros aprimorados ao tentar se conectar ao Adobe Identity Management Service (IMS).
 
-* Agora é possível filtrar ainda mais as dimensões de Delivery e Campanha usando a barra de pesquisa no relatórios dinâmico.
+* Agora você pode filtrar ainda mais as dimensões de Delivery e Campanha usando a barra de pesquisa em **relatórios dinâmico**.
 
-* A data de validade da mensagem SMS transacional agora pode ser definida pelo valor definido para o parâmetro de expiração na API de Mensagens transacionais. (CAMP-36600)
+* A data de validade da mensagem SMS transacional agora pode ser definida pelo valor definido para o parâmetro de expiração na API **Mensagens transacionais**. (CAMP-36600)
 
 * No relatórios dinâmico, o relatório **resumo do Delivery** integrado estava mostrando dados incorretos para a métrica de taxa não subscrita. Uma nova métrica chamada **unsubscription exclusiva** foi adicionada para corrigir isso. (CAMP-46445)
 
 **Correções**
 
+* Correção de um problema que fazia com que os delivery fossem executados muito lentamente devido a determinados processos. Isso se deve a unidades incorretas definidas para vários parâmetros (milissegundos em vez de segundos, por exemplo).
+* Correção de um problema em workflows que ocorria ao copiar e colar uma atividade **Desduplicação-duplicada** executada uma vez e que aproveitava um recurso temporário. Depois de duplicado, o recurso de atividade foi automaticamente definido como vazio, resultando em problemas em outras atividades do fluxo de trabalho. Depois de colado, o recurso de atividade permanecerá o mesmo, para que o erro seja acionado o mais rápido possível, em vez de posteriormente, no fluxo de trabalho. (CAMP-46903)
+* Correção de um problema quando o SDK móvel enviava uma solicitação de rastreamento aberta com base na condição de que deliveryID/MessageID não fosse nulo. Isso resultaria em 404 erros para delivery com rastreamento desativado. Uma variável adicional (acsDeliveryTracking) com informações sobre o status de rastreamento do delivery agora é enviada na carga. Essa variável pode ter dois valores ativados ou desativados dependendo do status de rastreamento definido.
 * Correção de um problema que impedia a execução de relatórios do delivery quando 5000 linhas eram exibidas.
 * Correção de um problema com o teste A/B que impedia que o conteúdo da variante B fosse atualizado após a modificação do template do delivery. (CAMP-45235)
 * Correção de um problema que causava a interrupção do processo de mensagens transacionais, impedindo o envio de mensagens.
+* Correção de um problema que causava a falha da análise do delivery ao enviar uma mensagem de push transacional usando a dimensão público alvo do Perfil. Um novo mapeamento de delivery (mapRtEventAppSubRcp) agora está disponível para perfis de definição de metas de mensagens de push transacionais. O delivery, a exclusão e os logs de rastreamento desses deliveries agora estarão disponíveis nas tabelas broadLogAppSubRcp, excludeLogAppSubRcp e trackingLogAppSubRcp.
 * Correção de um problema que resultava em problemas de navegação após clicar em um link interno (por exemplo, ao acessar o delivery pai de uma tela de resumo de prova).
 * Correção de um problema que impedia que todos os modelos de conteúdo de Experience Manager disponíveis fossem exibidos ao criar um delivery. (CAMP-45990)
 * Correção de um problema em workflows que impedia a exibição de mensagens de falha nos logs do delivery após a adição da coluna **Razão** à guia de dados adicional. (CAMP-45139)
