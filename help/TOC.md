@@ -7,9 +7,9 @@ user-guide-description: 'Centro de ajuda para os principais recursos, tarefas, c
 breadcrumb-title: Campaign Standard
 title: Guia do Campaign Standard
 translation-type: tm+mt
-source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+source-git-commit: 77fe514d4862fafcc6201d0cec9045469bb2643d
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '1731'
 ht-degree: 97%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 97%
 + [Atualizações mais recentes](rn/using/documentation-updates.md)
 + Notas de versão {#release-notes}
    + [Versão mais recente](rn/using/release-notes.md)
+   + [Notas de versão anteriores](rn/using/early-release-notes.md)
    + Versões anteriores {#previous-releases}
       + [Notas de versão 2020](rn/using/release-notes-2020.md)
       + [Notas de versão 2019](rn/using/release-notes-2019.md)
