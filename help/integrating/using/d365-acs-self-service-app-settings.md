@@ -5,7 +5,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 6be7a20cde8fcaee73972b8919765ea631f2f1ee
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 2%
@@ -23,7 +23,7 @@ A tela **[!UICONTROL Settings]** permite que você especifique as credenciais da
 
 As credenciais do Microsoft Dynamics 365 concedem ao aplicativo de integração permissão para extrair seus dados do Microsoft Dynamics 365.  Primeiro, siga as etapas na tela [Configure o Microsoft Dynamics 365 para integração de Campanha](../../integrating/using/d365-acs-configure-d365.md) para gerar os valores que serão colados nesta tela. As entradas descritas abaixo farão referência a esta tela.
 
-![](assets/d365-to-acs-ui-page-workflows-settings-d365.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-d365.png)
 
 * **[!UICONTROL Client ID]**: Saiba como fazer referência à ID do cliente  [nesta seção](../../integrating/using/d365-acs-configure-d365.md#register-a-new-app)
 
@@ -39,7 +39,7 @@ As credenciais do Adobe Campaign são geradas usando [Adobe I/O](https://www.ado
 
 A imagem a seguir explicará detalhadamente o mapeamento entre o Adobe I/O e as entradas da tela de configurações.
 
-![](assets/d365-to-acs-ui-page-workflows-settings-adobeio.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
 
 * *Chave* privada: o processo para definir esses start clicando no botão &quot;Gerar um par de chaves público/privado&quot;. Isso criará um arquivo zip que precisa ser baixado. Depois de baixá-lo, descompacte o arquivo, o que resultará em dois arquivos chamados certificate_pub.crt e private.key. Certifique-se de colocar a chave privada em um local seguro e não compartilhá-la. Abra o arquivo private.key em um editor de texto. Copie o valor inteiro no editor de texto (ctrl-A em seguida, ctrl-C em um PC, ou cmd-A em seguida cmd-C em um Mac). Isto deve incluir as linhas com &quot;BEGIN PRIVATE KEY&quot; e &quot;END PRIVATE KEY&quot; na sua totalidade. Cole todo este texto de várias linhas na entrada &quot;Chave privada&quot; na tela Configurações.
 
@@ -58,7 +58,7 @@ O outro motivo para configurar o servidor SFTP seria se você planeja executar o
 
 Para definir configurações de SFTP de Campanha para a integração com o Microsoft Dynamics 365, acesse a seguinte seção:
 
-![](assets/d365-to-acs-ui-page-workflows-settings-sftp.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-sftp.png)
 
 É necessário especificar:
 
