@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 99%
+source-wordcount: '1095'
+ht-degree: 92%
 
 ---
 
@@ -136,13 +136,15 @@ O protocolo **[!UICONTROL File(s) present on the Adobe Campaign server]** corres
 Escolha se deseja **[!UICONTROL Define a file path]** ou **[!UICONTROL Use a dynamic file path]**.
 A opção **[!UICONTROL Use a dynamic file path]** permite usar uma expressão padrão e variáveis de eventos para personalizar o nome do arquivo a ser transferido. Para obter mais informações, consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md).
 
-Observe que o caminho deve ser relativo ao diretório do espaço de armazenamento do servidor do Adobe Campaign. Os arquivos estão localizados no diretório **sftp&lt;yourinstancename>/**. Você também não pode pesquisar os diretórios acima do espaço de armazenamento. Por exemplo:
+Observe que o caminho deve ser relativo ao diretório do espaço de armazenamento do servidor do Adobe Campaign. Os arquivos estão localizados no diretório **sftp&lt;yourinstancename>/**. Você também não pode pesquisar os diretórios acima do espaço de armazenamento.
 
-    >**user&amp;lt;yourinstancename>/my_recipients.csv** está correto.
-    >
-    >**../hello/my_recipients.csv** está incorreto.
-    >
-    >**//myserver/hello/myrecipients.csv** está incorreto.
+Por exemplo:
+
+`user&lt;yourinstancename>/my_recipients.csv` está correto.
+
+`../hello/my_recipients.csv` está incorreto.
+
+`//myserver/hello/myrecipients.csv` está incorreto.
 
 ## Configurações de histórico {#historization-settings}
 
@@ -161,3 +163,16 @@ Toda vez que a atividade é executada, a pasta é verificada da seguinte maneira
 >[!NOTE]
 >
 >Se a atividade não for executada novamente, a pasta correspondente não será verificada nem eliminada. Por isso, tenha cuidado ao transferir arquivos grandes.
+
+## Variáveis de saída {#output-variables}
+
+A atividade **[!UICONTROL Transfer file]** gera variáveis de evento como saída, que podem ser aproveitadas em outras atividades, por exemplo, para verificar o número de arquivos baixados usando uma atividade [Test](../../automating/using/test.md).
+
+Observe que as variáveis de evento também podem ser passadas para outro fluxo de trabalho usando um sinal externo (consulte [Personalizar um fluxo de trabalho com parâmetros externos](../../automating/using/customizing-workflow-external-parameters.md)).
+
+As variáveis de saída disponíveis são:
+
+* **[!UICONTROL fileName]**: nome dos arquivos transferidos.
+* **[!UICONTROL filesCount]**: número de arquivos transferidos.
+
+
