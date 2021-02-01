@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: about-custom-resources
 context-tags: cusResource,overview;eventCusResource,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 84%
+ht-degree: 79%
 
 ---
 
@@ -34,7 +34,7 @@ Os campos de extensão são gerados com um prefixo para não entrarem em conflit
 
 >[!NOTE]
 >
->Uma representação de modelo de dados para os recursos incorporados está disponível [nesta página](../../developing/using/datamodel-introduction.md).
+>Você pode encontrar uma representação de modelo de dados para os recursos incorporados em [esta página](../../developing/using/datamodel-introduction.md).
 
 Você também pode [configurar a navegação](configuring-the-screen-definition.md) nas telas correspondentes ao recurso criado.
 
