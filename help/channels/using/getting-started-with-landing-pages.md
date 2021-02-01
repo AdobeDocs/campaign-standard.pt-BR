@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 97%
@@ -40,7 +40,7 @@ A seção abaixo lista as limitações que devem ser observadas antes de iniciar
 * As landing pages só são limitadas aos recursos **[!UICONTROL Profile]** e **[!UICONTROL Subscription]**. O registro pode ser salvo e atualizado de **[!UICONTROL Profile]** e uma assinatura/unsubscription para um **[!UICONTROL Service]**.
 Para saber mais sobre a configuração de recursos, consulte [Configuração da estrutura de dados do recurso](../../developing/using/configuring-the-resource-s-data-structure.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Uma landing page não pode exibir ou atualizar dados de nenhum outro recurso diferente de **[!UICONTROL Profile]** e **[!UICONTROL Subscription]**.
 
@@ -113,7 +113,7 @@ Assim que a landing page estiver definida, você poderá simular como ela será 
 
 ![](assets/lp-steps5.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Os testes de landing page só podem ser realizados com perfis, e não com perfis de teste. Quando o formulário for enviado, os dados do perfil selecionado serão atualizados. Para evitar modificar perfis reais, use um perfil falso de cliente.
 
