@@ -7,9 +7,9 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 translation-type: tm+mt
-source-git-commit: 6fffc6a3574c71c01f1e07ff4e6e6aa194479079
+source-git-commit: e129cde33b24831122433bd4b400204f38799b11
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1295'
 ht-degree: 3%
 
 ---
@@ -247,8 +247,12 @@ As tabelas abaixo fornecem a lista das métricas usadas nos relatórios e suas d
    <td> Número de recipient que abriram o delivery.<br /> </td> 
   </tr> 
   <tr> 
+   <td> Unsubscription exclusiva<br /> </td> 
+   <td> Número de recipient que clicaram no link de unsubscription.<br /> </td> 
+  </tr> 
+  <tr> 
    <td> Cancelar assinatura da taxa<br /> </td> 
-   <td> Porcentagem de unsubscription por recipient em relação às mensagens entregues.<br /> </td> 
+   <td> Número de unsubscription exclusivas comparadas às mensagens entregues.<br /> </td> 
   </tr> 
   <tr> 
    <td> Inscrito<br /> </td> 
