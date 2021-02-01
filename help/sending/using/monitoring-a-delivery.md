@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: monitoring-messages
 context-tags: delivery,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 89%
@@ -19,7 +19,8 @@ ht-degree: 89%
 # Monitorar um delivery{#monitoring-a-delivery}
 
 Há várias maneiras de monitorar um delivery e medir o impacto. Como administrador funcional, você pode acessar os registros de mensagens e logs do delivery.
->[!CAUTION]
+
+>[!IMPORTANT]
 >
 >Somente os [administradores](../../administration/using/users-management.md#functional-administrators) funcionais, com a função **[!UICONTROL Administration]** e o acesso a **Todas** unidades podem acessar registros de envio, registros de mensagens, logs de rastreamento, exclusão ou registros de subscrições. Um usuário não administrativo pode público alvo desses registros, mas iniciando em uma tabela vinculada (perfis, delivery).
 
