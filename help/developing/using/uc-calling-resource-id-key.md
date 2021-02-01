@@ -4,7 +4,7 @@ product: campaign
 title: Chamada de um recurso usando uma chave de identificação composta
 description: Saiba como chamar um recurso usando uma chave de identificação composta
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 7%
@@ -37,7 +37,7 @@ Tópicos relacionados:
 
 1. Antes de configurar a chave de identificação, verifique se o recurso foi estendido com os campos desejados e se foi publicado. Para obter mais informações, consulte [esta seção](../../developing/using/creating-or-extending-the-resource.md).
 
-1. Vá para o menu **[!UICONTROL Administration]** / **[!UICONTROL Developement]** / **[!UICONTROL Custom resources]** e abra o recurso **[!UICONTROL Profile]**.
+1. Vá para o menu **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Custom resources]** e abra o recurso **[!UICONTROL Profile]**.
 
    ![](assets/uc_idkey1.png)
 
