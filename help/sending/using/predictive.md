@@ -7,7 +7,7 @@ audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
 translation-type: tm+mt
-source-git-commit: 127964c5360344c83dc5ad6a0e2e8523d8995739
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 98%
@@ -29,7 +29,7 @@ O Adobe Campaign Standard oferece dois novos modelos de aprendizado de máquina:
 
 * **Pontuação preditiva de engajamento**: A pontuação preditiva de engajamento prevê a probabilidade de um recipient se envolver com uma mensagem, bem como a probabilidade de opt out (cancelamento de inscrição) nos 7 dias seguintes ao envio do próximo email. As probabilidades são divididas em lotes de acordo com o risco específico de desvinculação, sendo médio ou baixo. Nesse percurso, o modelo também fornece a classificação do percentual de risco para que os clientes entendam a classificação de um determinado cliente em relação aos outros.
 
->[!CAUTION]
+>[!IMPORTANT]
 >Esse recurso não está disponível para uso imediato como parte do produto. A implementação exige o engajamento da Adobe Consulting. Entre em contato com seu representante da Adobe para obter mais detalhes.
 >
 >O recurso exige o uso de um armazenamento do Azure ou Amazon S3 que deve ser fornecido pelo cliente.
