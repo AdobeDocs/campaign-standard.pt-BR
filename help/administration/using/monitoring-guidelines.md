@@ -68,7 +68,7 @@ tarefasO monitoramento de logs de fluxo de trabalho é uma etapa essencial para 
 [Leia mais](../../automating/using/monitoring-workflow-execution.md#workflow-log-and-tasks)
 
 ****
-Notificações O Campaign Standard permite que você envie notificações aos supervisores para monitorar a execução de seus workflows e verificar se há algum erro que exija sua atenção.
+NotificaçõesO Campaign Standard permite enviar notificações aos supervisores para monitorar a execução dos workflows e verificar se há algum erro que exija sua atenção.
 [Leia mais](../../automating/using/monitoring-workflow-execution.md#error-management)
 
 ## Monitoramento de deliveries {#monitoring-deliveries}
