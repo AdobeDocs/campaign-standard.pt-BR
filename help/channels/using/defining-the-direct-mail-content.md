@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
@@ -34,7 +34,7 @@ A tela de definição **[!UICONTROL Content]** é específica do canal de corres
 
 1. Clique no botão **[!UICONTROL +]** ou **[!UICONTROL Add an element]** para adicionar uma coluna de saída. As **[!UICONTROL Output columns]** permitem que você defina as informações (colunas) do perfil a serem exportadas para o arquivo de saída.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Verifique se os perfis incluem o CEP, pois essa informação é essencial para o provedor de correspondência direta. Verifique também se você marcou a caixa **[!UICONTROL Address specified]** nas informações dos perfis. Consulte [Recomendações](../../channels/using/about-direct-mail.md#recommendations).
 
