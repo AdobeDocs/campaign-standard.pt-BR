@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: jstest,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 4f62d2381403d7d88167334cee54071a19a7c3a8
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 90%
+source-wordcount: '190'
+ht-degree: 82%
 
 ---
 
@@ -47,7 +47,9 @@ As condições podem ser baseadas em **funções** ou **variáveis**, por exempl
 
    Ao editar o campo **[!UICONTROL Condition]**, dois botões ajudam a chamar as variáveis de eventos e editar expressões que combinam variáveis e funções:
 
-   * ![](assets/extsignal_picker.png): selecione a variável de eventos entre todas as variáveis disponíveis no fluxo de trabalho (consulte  [esta página](../../automating/using/customizing-workflow-external-parameters.md))
+   * ![](assets/extsignal_picker.png): selecione a variável de eventos entre todas as variáveis disponíveis no fluxo de trabalho (consulte  [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
+
+      Por exemplo, você pode verificar o número de arquivos baixados após uma atividade [File transfer](../../automating/using/transfer-file.md) usando a variável **[!UICONTROL filesCount]**.
 
       ![](assets/wkf_test_activity_variables.png)
 
