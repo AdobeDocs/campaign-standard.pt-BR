@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: introduction
 index: y
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 9%
@@ -64,11 +64,11 @@ solução de problemasSeguir as práticas recomendadas e as diretrizes de soluç
 [Leia mais](../../automating/using/best-practices-workflows.md)
 
 **Logs e**
-tarefasO monitoramento de registros de trabalho é uma etapa essencial para analisar seus workflows e verificar se eles estão sendo executados corretamente.
+tarefasO monitoramento de logs de fluxo de trabalho é uma etapa essencial para analisar seus workflows e garantir que eles estejam sendo executados corretamente.
 [Leia mais](../../automating/using/monitoring-workflow-execution.md#workflow-log-and-tasks)
 
 ****
-NotificaçõesO Campaign Standard permite enviar notificações aos supervisores para monitorar a execução dos fluxos de trabalho e verificar se há algum erro que exija sua atenção.
+Notificações O Campaign Standard permite que você envie notificações aos supervisores para monitorar a execução de seus workflows e verificar se há algum erro que exija sua atenção.
 [Leia mais](../../automating/using/monitoring-workflow-execution.md#error-management)
 
 ## Monitoramento de deliveries {#monitoring-deliveries}
@@ -76,7 +76,7 @@ NotificaçõesO Campaign Standard permite enviar notificações aos supervisores
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
 ****
-DisponibilidadeO Campaign Standard fornece várias ferramentas de entrega para ajudá-lo a melhorar o número de mensagens entregues com êxito: Relatórios de pensamento do delivery, otimização do tempo de envio, pré-visualização de mensagens, renderização de e-mail, gerenciamento de quarentenas etc.
+DisponibilidadeO Campaign Standard fornece várias ferramentas de entrega para ajudá-lo a melhorar o número de mensagens entregues com êxito: Relatórios de throughput do delivery, otimização do tempo de envio, pré-visualização de mensagens, renderização de email, gerenciamento de quarentenas etc.
 [Leia mais](../../sending/using/about-deliverability.md)
 
 ****
@@ -88,5 +88,5 @@ EntregasDepois que suas mensagens são enviadas, os registros detalhados permite
 [Leia mais](../../sending/using/receiving-alerts-when-failures-happen.md)
 
 **Relatório dinâmico**
-O relatórios dinâmico fornece vários relatórios para ajudar você a ser mantido informado sobre o desempenho de seus delivery: rejeições, entregas mais visualizadas por recipient, throughput de delivery etc.
+O relatórios dinâmico fornece vários relatórios para ajudar você a ser mantido informado sobre o desempenho de seus delivery: rejeições, delivery mais vistos por recipient, throughput de delivery etc.
 [Leia mais](../../reporting/using/about-dynamic-reports.md)
