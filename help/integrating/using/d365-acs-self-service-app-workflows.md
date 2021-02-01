@@ -5,7 +5,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 6be7a20cde8fcaee73972b8919765ea631f2f1ee
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 1%
@@ -19,7 +19,7 @@ A página **[!UICONTROL Workflows]** lista os workflows técnicos e seu status.
 
 O aplicativo de integração tem três workflows:
 
-![](assets/d365-to-acs-ui-page-workflows.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows.png)
 
 **Microsoft Dynamics 365 para Campanha**
 * Envie *contatos* do Microsoft Dynamics 365 para o Adobe Campaign
@@ -71,4 +71,4 @@ Quando você edita um fluxo de trabalho, suas atualizações NÃO são incorpora
 
 Uma indicação de aviso é adicionada ao botão **Parar** para informá-lo quando você (a) fez atualizações no fluxo de trabalho, mas (b) não fez uma Parada/Start desse fluxo de trabalho.
 
-![](assets/d365-to-acs-icon-stop-with-changes.png)
+![](assets/do-not-localize/d365-to-acs-icon-stop-with-changes.png)
