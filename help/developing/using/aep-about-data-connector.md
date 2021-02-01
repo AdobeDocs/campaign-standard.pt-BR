@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '783'
 ht-degree: 6%
 
 ---
@@ -32,7 +32,7 @@ As seções a seguir descrevem as etapas principais para executar um mapeamento 
 ![](assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
 
 >[!NOTE]
->Depois que o Adobe Experience Platform Data Connector for configurado e os dados forem assimilados com êxito no Adobe Experience Platform, será necessário ativar o conjunto de dados para que os dados sejam incluídos no Perfil do cliente em tempo real.
+>Depois que o Adobe Experience Platform Data Connector for configurado e os dados forem ingeridos com êxito no Adobe Experience Platform, será necessário ativar o conjunto de dados para que os dados sejam incluídos no Perfil Cliente em tempo real.
 >
 >Isso pode ser feito por meio das APIs ou da interface do Adobe Experience Platform. Para obter mais informações, consulte as documentações dedicadas:
 >
@@ -44,7 +44,7 @@ As seções a seguir descrevem as etapas principais para executar um mapeamento 
 
 * O Mapeamento fora da caixa só está disponível para campos que são fornecidos no Campaign Standard por padrão. Para assimilar todos os campos e recursos personalizados, cada cliente precisa definir seu próprio mapeamento.
 
-* O Adobe Experience Platform Data Connector envia dados do perfil pela plataforma em intervalos regulares. &#x200B; A duração do intervalo é de 15 mn. Esse valor pode ser modificado usando [APIs do Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html).
+* O Adobe Experience Platform Data Connector envia dados do perfil pela plataforma em intervalos regulares. &#x200B; A duração do intervalo é de 15 minutos. Esse valor pode ser modificado usando [APIs do Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html).
 
 * O engenheiro de dados pode publicar, modificar e pausar o mapeamento da Campanha para o Adobe Experience Platform.
 
@@ -80,6 +80,6 @@ As seções a seguir descrevem as etapas principais para executar um mapeamento 
 
 Este vídeo fornece uma visão geral sobre o Adobe Experience Platform Data Connector.
 
-https://video.tv.adobe.com/v/27304?quality=12&amp;captions=por_br
+>[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
 Vídeos adicionais relacionados ao Adobe Experience Platform Data Connector estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html?lang=pt-BR#administrating).
