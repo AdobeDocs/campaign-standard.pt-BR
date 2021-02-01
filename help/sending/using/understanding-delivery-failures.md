@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 translation-type: tm+mt
-source-git-commit: 46bcdeec3731a7da12997cb195195fecfa2f84e5
+source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 87%
+source-wordcount: '1256'
+ht-degree: 76%
 
 ---
 
@@ -76,20 +76,23 @@ Os possíveis motivos para uma falha de delivery são:
 
 Se uma mensagem falhar devido a um erro temporário do tipo **Ignorado**, as tentativas serão executadas durante a duração do delivery. Para obter mais informações sobre os tipos de erros, consulte [Tipos e motivos de falha de delivery](#delivery-failure-types-and-reasons).
 
-O número de tentativas (quantas tentativas devem ser executadas no dia seguinte ao início do envio) e o atraso mínimo entre as tentativas agora são gerenciados pelo MTA aprimorado do Adobe Campaign, com base no desempenho histórico e atual de um IP em um determinado domínio. As configurações de **Tentativas** no Campaign são ignoradas.
-Observe que o Adobe Campaign Enhanced MTA não está disponível para o canal de push.
+O número de tentativas (quantas tentativas devem ser executadas no dia seguinte ao início do envio) e o atraso mínimo entre as tentativas agora são<!--managed by the Adobe Campaign Enhanced MTA,--> com base no desempenho histórico e atual de um IP em determinado domínio. As configurações de **Tentativas** no Campaign são ignoradas.
+
+<!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
 Para modificar a duração de um delivery, vá para os parâmetros avançados do delivery ou do template do delivery e edite o campo **[!UICONTROL Delivery duration]** da seção [Validity period](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
 >[!IMPORTANT]
 >
->**O parâmetro **[!UICONTROL Delivery duration]**nos deliveries do Campaign agora apenas será usado se definido para 3,5 dias ou menos.** Se você definir um valor superior a 3,5 dias, ele não será considerado, pois agora é gerenciado pelo MTA aprimorado do Adobe Campaign.
+>**O parâmetro **[!UICONTROL Delivery duration]**nos deliveries do Campaign agora apenas será usado se definido para 3,5 dias ou menos.** Se você definir um valor superior a 3,5 dias, ele não será considerado.
 
-Por exemplo, se você quiser que as tentativas de um delivery parem depois de um dia, será possível definir a duração do delivery como **1d**, e o MTA aprimorado seguirá essa configuração, removendo mensagens na fila de tentativas após um dia.
+Por exemplo, se você deseja que o tentativas de um delivery pare após um dia, é possível definir a duração do delivery como **1d**, e as mensagens na fila de tentativas serão removidas após um dia.
+
+<!--For example, if you want retries for a delivery to stop after one day, you can set the delivery duration to **1d**, and the Enhanced MTA will honor that setting by removing messages in the retry queue after one day.-->
 
 >[!NOTE]
 >
->Quando uma mensagem estiver na fila do MTA aprimorado por 3,5 dias e não for entregue, o tempo limite expirará, e seu status será atualizado de **[!UICONTROL Sent]** para **[!UICONTROL Failed]** nos [logs de delivery](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+>Quando uma mensagem estiver na fila de tentativas por um máximo de 3,5 dias e não for entregue, o tempo limite expirará e seu status será atualizado<!--from **[!UICONTROL Sent]**--> para **[!UICONTROL Failed]** nos logs do delivery [a3/>.](../../sending/using/monitoring-a-delivery.md#delivery-logs)
 
 <!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
@@ -102,13 +105,13 @@ Um delivery pode falhar imediatamente (erro síncrono), ou posteriormente, após
 
 ## Qualificação de email de devolução {#bounce-mail-qualification}
 
-Para mensagens de erro de falha síncrona de entrega, o MTA aprimorado determina o tipo de rejeição e a qualificação e retorna essas informações ao Campaign.
-
-As rejeições assíncronas ainda são qualificadas pelo processo do InMail por meio das regras **[!UICONTROL Inbound email]**. Para acessar essas regras, clique no logotipo **[!UICONTROL Adobe Campaign]**, na parte superior esquerda, selecione **[!UICONTROL Administration > Channels > Email > Email processing rules]** e depois selecione **[!UICONTROL Bounce mails]**. Para obter mais informações sobre esse módulo, consulte esta[seção](../../administration/using/configuring-email-channel.md#email-processing-rules).
+Para mensagens de erro de falha síncrona de delivery, o Adobe Campaign Enhanced MTA (Message Transfer Agent) determina o tipo de rejeição e a qualificação e envia essas informações para a Campanha.
 
 >[!NOTE]
 >
->A qualificação de email de rejeição agora é gerenciada pelo MTA aprimorado do Adobe Campaign. As qualificações de rejeição na tabela **[!UICONTROL Message qualification]** do Campaign não são mais usadas.
+>As qualificações de rejeição na tabela **[!UICONTROL Message qualification]** do Campaign não são mais usadas.
+
+As rejeições assíncronas ainda são qualificadas pelo processo do InMail por meio das regras **[!UICONTROL Inbound email]**. Para acessar essas regras, clique no logotipo **[!UICONTROL Adobe Campaign]**, na parte superior esquerda, selecione **[!UICONTROL Administration > Channels > Email > Email processing rules]** e depois selecione **[!UICONTROL Bounce mails]**. Para obter mais informações sobre esse módulo, consulte esta[seção](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
 <!--Bounces can have the following qualification statuses:
 
@@ -120,7 +123,7 @@ To list the various bounces and their associated error types et reasons, click t
 
 ![](assets/qualification.png)-->
 
-## Otimizar a capacidade de delivery de emails com o mecanismo de participação dupla {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
+## Otimização da entrega por email com o mecanismo de aceitação de duplo {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
 
 O mecanismo de participação dupla é uma prática recomendada para enviar emails. Ele protege a plataforma contra endereços de email incorretos ou inválidos e spambots, além de evitar possíveis reclamações de spam.
 
