@@ -7,10 +7,10 @@ user-guide-description: 'Centro de ajuda para os principais recursos, tarefas, c
 breadcrumb-title: Campaign Standard
 title: Guia do Campaign Standard
 translation-type: tm+mt
-source-git-commit: 77fe514d4862fafcc6201d0cec9045469bb2643d
+source-git-commit: 36efc64f9be3863e5e16381aaba445d2f13eac4d
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 97%
+source-wordcount: '1755'
+ht-degree: 95%
 
 ---
 
@@ -237,6 +237,7 @@ ht-degree: 97%
       + [Configuração da integração do Campaign com o Experience Manager](integrating/using/configure-experience-manager.md)
       + [Criação de conteúdo de e-mail no Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
       + [Criar um formulário do Campaign no Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+      + [Criação de um email multilíngue com a integração do Adobe Experience Manager](integrating/using/creating-multilingual-email-aem.md)
    + Campaign e Target {#working-with-campaign-and-target}
       + [Sobre a integração do Campaign com o Target](integrating/using/about-campaign-target-integration.md)
       + [Configuração da integração do Campaign com o Target](integrating/using/configuring-the-campaign-target-integration.md)
@@ -450,6 +451,7 @@ ht-degree: 97%
       + [Perguntas frequentes sobre integração com o SDK da Experience Platform](administration/using/aep-faq.md)
       + [Configuração das regras do Launch para suportar casos de uso do Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
       + [Casos de uso de publicação de conteúdo para dispositivos móveis compatíveis com o Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
+      + [Como migrar seu aplicativo móvel do SDK v4 para o SDK do Adobe Experience Platform](administration/using/sdkv4-migration.md)
    + Configuração do canal SMS {#configuring-sms}
       + [Implementação do canal SMS](administration/using/configuring-sms-channel.md)
       + [Protocolo e configurações do conector SMS](administration/using/sms-protocol.md)
