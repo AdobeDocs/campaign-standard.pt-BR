@@ -7,7 +7,7 @@ audience: developing
 content-type: reference
 topic-tags: about-custom-resources
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 1%
@@ -34,7 +34,7 @@ Há duas colunas dedicadas à exibição desses status na tela **[!UICONTROL Cus
    >
    >A opção **[!UICONTROL Cancel re-draft]** está disponível quando o recurso que você deseja redesenhar ainda contém links por meio de outros recursos com o status &quot;Publicado&quot;. Essa opção permite reverter o processo de &quot;rerascunho&quot;. Os recursos personalizados retornarão aos status originais.
 
-* **Publicado**: o recurso foi publicado. Se o recurso for modificado após a última data de modificação, uma mensagem será exibida para convidá-lo a republicar o recurso a fim de levar em conta as modificações mais recentes.
+* **Publicado**: o recurso foi publicado. Se o recurso for modificado após a última data modificada, uma mensagem será exibida para convidá-lo a publicar novamente o recurso a fim de levar em conta as modificações mais recentes.
 
 O campo **[!UICONTROL Do not publish latest modifications]** impede que modificações sejam consideradas durante publicações futuras.
 
