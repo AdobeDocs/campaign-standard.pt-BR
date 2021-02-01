@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+source-git-commit: a039818cb5d4169ae921df39e9ea9bc9230fceb0
 workflow-type: tm+mt
-source-wordcount: '6372'
-ht-degree: 100%
+source-wordcount: '6511'
+ht-degree: 98%
 
 ---
 
@@ -18,6 +18,26 @@ ht-degree: 100%
 # Atualizações da documentação{#documentation-updates}
 
 Além das [Notas de versão](../../rn/using/release-notes.md) do Adobe Campaign, esta página lista todas as atualizações na documentação do Adobe Campaign Standard.
+
+## Versão 21.1 - Fevereiro de 2021 {#release-21-1---february-2021}
+
+**Novos recursos incluídos na versão**
+
+Serviço de Comentários por Correio Eletrônico - [Leia mais](../../sending/using/confirming-the-send.md#email-feedback-service)
+
+Melhorias na integração do Adobe Experience Manager - [Leia mais](../../integrating/using/creating-multilingual-email-aem.md)
+
+Interface de Experience Cloud unificada - [Leia mais](../../start/using/interface-description.md#top-bar)
+
+**Outras atualizações de documentação que vêm com a versão**
+
+Foram adicionadas informações sobre como procurar um perfil com base no email, nome, sobrenome ou qualquer campo personalizado. [Leia mais](../../audiences/using/integrated-customer-profile.md)
+
+Foram adicionadas informações sobre a nova função GetOption que permite retornar o valor de uma função especificada ao chamar um fluxo de trabalho com parâmetros externos. [Leia mais](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
+
+Foram adicionadas informações sobre a nova variável de saída **[!UICONTROL filesCount]** disponível depois de usar uma atividade **[!UICONTROL Transfer file]**. [Leia mais](../../automating/using/transfer-file.md#output-variables)
+
+A seção **Configuração do canal de email** foi atualizada para esclarecer quais são as configurações de email mais recentes aplicáveis. Alguns parâmetros herdados ainda em uso para determinados clientes estão listados na parte inferior desta página. [Leia mais](../../administration/using/configuring-email-channel.md)
 
 ## Dezembro de 2020 {#doc-updates-december-2020}
 
