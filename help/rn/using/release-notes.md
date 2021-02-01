@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 87b17e36af2e4bc15a93291e340843060ba18d7b
+source-git-commit: 41f2280c72a2f6bee3e4e972fab17a7ac94b966c
 workflow-type: tm+mt
 source-wordcount: '2610'
 ht-degree: 4%
@@ -97,7 +97,7 @@ ht-degree: 4%
 
 * Uma nova função **GetOption** agora está disponível no atividade usando variáveis de evento depois de chamar um fluxo de trabalho com parâmetros externos. Permite retornar o valor de uma função especificada. [Saiba mais](../../automating/using/customizing-workflow-external-parameters.md)
 
-* Uma nova opção permite que o Campaign Standard para **verifique a memória física** disponível no sistema antes de iniciar um fluxo de trabalho. Se a quantidade de memória for muito baixa, a execução do fluxo de trabalho será atrasada até que a memória do sistema atinja esse limite. Isso evita uma maior degradação do desempenho e reduz o risco de uma interrupção. O fluxo de trabalho será retomado automaticamente quando a carga no servidor diminuir e a memória aumentar. Observe que essa opção é somente leitura e não pode ser modificada. [Saiba mais](../../automating/using/best-practices-workflows.md#execution)
+* Uma nova opção permite que o Campaign Standard verifique a disponibilidade da memória física **no seu sistema antes de iniciar um fluxo de trabalho.** Se a quantidade de memória for muito baixa, a execução do fluxo de trabalho será atrasada até que a memória do sistema atinja esse limite. Isso evita uma maior degradação do desempenho e reduz o risco de uma interrupção. O fluxo de trabalho será retomado automaticamente quando a carga no servidor diminuir e a memória aumentar. Observe que essa opção é somente leitura e não pode ser modificada. [Saiba mais](../../automating/using/best-practices-workflows.md#execution)
 
 * Um novo processo está disponível no Adobe Campaign Standard, que permite migrar mais facilmente do aplicativo móvel legado SDK v4 para **Adobe Experience Platform Mobile SDK**. Consulte [esta página](../../administration/using/sdkv4-migration.md).
 
