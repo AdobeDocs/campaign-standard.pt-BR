@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 translation-type: tm+mt
-source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
+source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
 workflow-type: tm+mt
-source-wordcount: '2156'
-ht-degree: 98%
+source-wordcount: '2180'
+ht-degree: 95%
 
 ---
 
@@ -114,13 +114,13 @@ Se a **análise for validada**, será exibida uma mensagem com um convite para p
 
 ### Execução
 
-Essa guia permite que você defina o ponto de extremidade da conexão. O campo **[!UICONTROL URL]** permite definir o **Ponto Final HTTPS** que enviará dados para a Campanha.
+Essa guia permite que você defina o ponto de extremidade da conexão. O campo **[!UICONTROL URL]** permite que você defina o **Ponto Final HTTPS** com o qual o Campaign Standard se comunicará.
 
 Se necessário para o ponto de extremidade, dois tipos de método de autenticação estão disponíveis:
 
-* Autenticação básica: insira suas informações de nome de usuário/senha no campo **[!UICONTROL Request Header(s)]**.
+* Autenticação básica: insira as informações de nome de usuário/senha na seção **[!UICONTROL Request Header(s)]**.
 
-* Autenticação OAuth: ao clicar em **[!UICONTROL Use connection parameters defined in an external account]**, é possível selecionar uma conta externa na qual a autenticação OAuth é definida. Para obter mais informações, consulte a seção [Contas externas](../../administration/using/external-accounts.md).
+* Autenticação OAuth: Ao clicar em **[!UICONTROL Use connection parameters defined in an external account]** em uma conta externa, você pode selecionar uma conta externa na qual a autenticação OAuth é definida. Para obter mais informações, consulte a seção [Contas externas](../../administration/using/external-accounts.md).
 
 ![](assets/externalAPI-execution.png)
 
@@ -155,6 +155,10 @@ Essa guia permite ativar a **transição de saída** e seu rótulo. Essa transi�
 Esta guia está disponível na maioria das atividades de workflow. Para obter mais informações, consulte a seção [Propriedades de atividade](../../automating/using/activity-properties.md).
 
 ![](assets/externalAPI-options.png)
+
+## Teste
+
+Para testar a funcionalidade da API externa com um terminal de teste simples, você pode usar o Postman Echo: https://docs.postman-echo.com.
 
 ## Solução de problemas
 
@@ -256,8 +260,8 @@ Essas mensagens de log são usadas para registrar informações sobre condiçõe
    <td> <p>A chave do cabeçalho HTTP não é permitida (chave do cabeçalho: 'Accept').</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 -  A HTTP header value is bad (header value: '%s').</td> 
-   <td> <p>HTTP header value is bad (header value: '%s'). </p>
+   <td> WKF-560247 - Um valor de cabeçalho HTTP incorreto (valor de cabeçalho: '%s').</td> 
+   <td> <p>O valor do cabeçalho HTTP é incorreto (valor do cabeçalho: '%s'). </p>
     <p>Observação: este erro é registrado quando o valor do cabeçalho personalizado falha na validação de acordo com a <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
   <tr> 
