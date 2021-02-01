@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 translation-type: tm+mt
-source-git-commit: 15a4484ba846b1e08e5fa456a5448e76d60949c5
+source-git-commit: 300ffd374d7542817ffb7f37614e67804549cc3d
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 90%
+source-wordcount: '1250'
+ht-degree: 91%
 
 ---
 
@@ -118,7 +118,9 @@ Para fazer o uso correto do Designer de email e criar os melhores emails da mane
 
    Pré-visualização de mensagens antes do envio. O Adobe Campaign oferece uma maneira de testar a renderização de email usando o Litmus. Para obter mais informações, consulte [Renderização de email](../../sending/using/email-rendering.md).
 
-Na seção a seguir, são apresentadas mais práticas recomendadas de design e gerais relacionadas a mensagens: [Práticas recomendadas do Delivery](../../sending/using/delivery-best-practices.md).
+* A tag meta de quem indicou não é compatível com o Designer de email.
+
+Mais práticas recomendadas gerais e de criação relacionadas às mensagens são apresentadas no seguinte guia passo a passo do Adobe Campaign: [Práticas recomendadas do delivery com o Adobe Campaign](https://helpx.adobe.com/br/campaign/kb/delivery-best-practices.html).
 
 ### Atualização de fragmentos {#email-designer-updates}
 
