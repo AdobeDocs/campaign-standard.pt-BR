@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 3a4e8628b916291244d142d9cc4a6a84b799502b
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Para atualizar o schema XDM, siga estas etapas:
 
 1. Navegue até seu schema XDM.
 
-1. Adicione a combinação &quot;Privacidade do provedor&quot; ao schema.
+1. Adicione a combinação **[!UICONTROL Profile Privacy]** ao schema.
 
    ![](assets/aep_datamapping_privacyfield.png)
 
