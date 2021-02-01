@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Sobre a programação de mensagens{#about-scheduling-messages}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Sempre que você fizer alterações na programação de um delivery, prepare novamente o delivery clicando no botão **Prepare** antes de clicar em **Confirm**.
 
@@ -42,7 +42,7 @@ As propriedades **[!UICONTROL Schedule]** permitem definir as opções de envio 
 
    ![](assets/delivery_planning.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Ao duplicar um delivery, todas as configurações de programação são excluídas. A menos que você programe uma nova data de contato, o delivery duplicado será enviado assim que o envio for confirmado.
 
