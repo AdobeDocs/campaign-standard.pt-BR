@@ -7,9 +7,9 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 4a039670745810de40fe3622d21d7830d6e33d2c
+source-git-commit: 64eb4fd9bf50cf4a4fb16c1bf8ee29f3f2f583c2
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1249'
 ht-degree: 81%
 
 ---
@@ -47,7 +47,7 @@ A página inicial é composta por um conjunto de cartões que fornecem acesso r�
 
 ## Barra superior {#top-bar}
 
-A barra superior fica visível em todas as telas e permite navegar pelas funcionalidades do Adobe Campaign, bem como acessar o perfil Adobe, as notificações, os serviços e soluções da Adobe Experience Cloud e a documentação.
+A barra superior fica visível em todas as telas e permite navegar pelas funcionalidades do Adobe Campaign, bem como acessar o perfil Adobe, as notificações, as soluções Adobe Experience Cloud e a documentação de Campanha.
 
 Os princípios de navegação são:
 
@@ -58,24 +58,27 @@ Os princípios de navegação são:
 * O link **[!UICONTROL Home]** permite exibir a página inicial do Adobe Campaign.
 * Os links **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** e **[!UICONTROL Reports]** possibilitam o acesso às visualizações vinculadas a essas funcionalidades.
 * O ícone **Alternador de soluções** permite alternar entre suas organizações ou para um aplicativo diferente.
-* O botão **[!UICONTROL Help]** dá acesso à documentação do Adobe Campaign Standard, aos vídeos, às notas de versão e ao planejamento de versões, bem como aos links para a comunidade Adobe Experience Cloud e o atendimento ao cliente.
-* O botão da organização
+* O ícone **[!UICONTROL Help]** está descrito [abaixo](#help).
 * O ícone **Notifications** exibe os alertas ou as informações mais recentes.
-* O ícone **User** permite exibir informações vinculadas ao seu perfil. Fornece acesso ao botão **[!UICONTROL Sign out]** e à tela **[!UICONTROL About]**.
+* O ícone **User** permite exibir informações vinculadas ao seu perfil. Use esse ícone se precisar **[!UICONTROL Sign out]**.
 
 ### Ajuda {#help}
 
-* **[!UICONTROL Search]** traz a Adobe Experience League para o produto: os resultados da pesquisa incluem documentação e artigos de ajuda, resultados de fóruns da comunidade e mais conteúdo de vídeo, facilitando o acesso a mais conteúdo para ajudar a aproveitar ao máximo o aplicativo.
-* **[!UICONTROL Help]** Guia
-   * Os links fornecem acesso rápido à documentação, aos vídeos e às notas de versão do Adobe Campaign Standard.
-   * **[!UICONTROL Learning]** esse link permite acessar a biblioteca de conteúdo do Adobe Campaign.
-   * **[!UICONTROL Community]** este link permite acessar o fórum dedicado a suas perguntas sobre o ACS.
+O ícone **Help** traz o Adobe Experience League para o produto.
 
-* **[!UICONTROL Support]** permite que você abra um caso de suporte e entre em contato conosco por telefone ou Twitter.
+![](assets/ux_help.png)
 
-* **[!UICONTROL Feedback]**  facilita relatar problemas ou compartilhar suas ideias.
+* **[!UICONTROL Search]** campo: os resultados da pesquisa incluem documentação e artigos de ajuda, resultados de fóruns da comunidade e mais conteúdo de vídeo, facilitando o acesso a mais conteúdo para ajudar a aproveitar ao máximo o aplicativo.
 
-   ![](assets/ux_help.png)
+Três guias ajudam você a encontrar ajuda e assistência:
+
+1. A guia **[!UICONTROL Help]** contém:
+   * um acesso rápido à documentação do Adobe Campaign Standard com links contextuais.
+   * um link **[!UICONTROL Learning]** que permite acessar a biblioteca de cursos do Adobe Campaign.
+   * um link **[!UICONTROL Community]** para acessar o fórum dedicado a suas perguntas sobre Campanhas.
+   * Um acesso direto a: Centro de ajuda, Atendimento ao cliente, status do produto Experience Cloud, conexão de desenvolvedores, notas de versão, planejamento de versão e tela **[!UICONTROL About]**.
+1. A guia **[!UICONTROL Support]** permite que você abra um caso de suporte e entre em contato conosco por telefone ou Twitter.
+1. A guia **[!UICONTROL Feedback]** facilita relatar problemas ou compartilhar suas ideias.
 
 ## Menu avançado {#advanced-menu}
 
