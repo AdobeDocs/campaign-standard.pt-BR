@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: managing-profiles
 context-tags: marketingHistory,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 100%
+source-wordcount: '281'
+ht-degree: 48%
 
 ---
 
@@ -22,18 +22,32 @@ Um perfil de cliente integrado está disponível para cada contato do banco de d
 
 Para acessar o perfil do cliente integrado, siga estas etapas:
 
-1. Na página inicial do Adobe Campaign, clique no cartão **[!UICONTROL Customer profiles]** ou na guia **Perfis**.
-1. Selecione um contato.
+1. No home page Adobe Campaign, clique na placa **[!UICONTROL Customer profiles]** ou na guia **Perfis** para exibir a lista de perfis.
+
+1. Para pesquisar um perfil com base em um campo específico, abra o painel de pesquisa e selecione o campo no qual deseja realizar a pesquisa.
+
+
+   ![](assets/profile-search.png)
+
+1. Especifique o valor que deseja pesquisar e pressione Enter.
+
+   >[!NOTE]
+   >
+   >Observe que as pesquisas podem ser realizadas com base nos campos de email, nome e sobrenome, bem como nos campos personalizados que foram adicionados ao estender o recurso.
+   >
+   >As pesquisas fazem distinção entre maiúsculas e minúsculas e são executadas somente em prefixos. Por exemplo, você não poderá procurar por um perfil usando as últimas letras do seu sobrenome.
+
+1. Selecione um contato para abrir seu perfil.
 
    ![](assets/mkt_hist_access.png)
 
 Em seguida, você pode acessar o **Histórico de marketing** desse contato.
 
-![](assets/mkt_hist_view.png)
-
 As informações principais sobre o perfil estão agrupadas nesta página, bem como a lista de eventos.
 
-Clique em um evento na lista para abri-lo: você pode acessar a mensagem que foi enviada ou o serviço ao qual o perfil se inscreveu.
+Clique em um evento na lista para abri-lo: você pode acessar as mensagens que foram enviadas ou os serviços aos quais o perfil se inscreveu.
+
+![](assets/mkt_hist_view.png)
 
 >[!NOTE]
 >
