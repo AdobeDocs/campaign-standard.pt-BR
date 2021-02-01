@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: a8730046710445022f6df1e7af407bb078a3edf9
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 2%
@@ -28,7 +28,7 @@ aplicativo. Para obter mais informações sobre a unidade organizacional, consul
 
 ## Não consigo editar um aplicativo móvel configurado no Adobe Campaign Standard e os aplicativos móveis estão somente no modo de Leitura. {#read-mode-mobile-app}
 
-Verifique a unidade organizacional do aplicativo móvel na seção **[!UICONTROL Access Authorization ]**. Somente os usuários da unidade organizacional atribuída podem editar o aplicativo móvel.
+Verifique a unidade organizacional do aplicativo móvel na seção **[!UICONTROL Access Authorization]**. Somente os usuários da unidade organizacional atribuída podem editar o aplicativo móvel.
 
 Para obter mais informações sobre a unidade organizacional, consulte esta [página](../../administration/using/organizational-units.md).
 
