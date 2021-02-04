@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: ac669a4dbb3b0f5f8f7352d1271460054913a1b4
+source-git-commit: fb16fc4e24a4345d73e0b2a0ad58a78771a93b8a
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 96%
+source-wordcount: '466'
+ht-degree: 94%
 
 ---
 
@@ -29,7 +29,9 @@ Todas as datas de lançamento estão sujeitas a alterações: recomendamos que v
 
 ## Versão 21.1 – Versão de fevereiro {#release-21-1-release}
 
-As atualizações de ambientes ocorrem em ondas, durante os intervalos de tempo indicados abaixo. Informações detalhadas sobre esta versão estão disponíveis nas [Notas de versão](../../rn/using/release-notes.md) quando o ambiente Stage atualiza o start. Caso tenha mais dúvidas, entre em contato com o [Atendimento ao cliente da Adobe](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html).
+As atualizações de ambientes ocorrem em ondas, durante os intervalos de tempo indicados abaixo. As datas exatas são comunicadas por email a cada cliente.
+
+Informações detalhadas sobre esta versão estão disponíveis nas [Notas de versão](../../rn/using/release-notes.md) quando o ambiente Stage atualiza o start.
 
 <table>
  <thead>
@@ -41,7 +43,7 @@ As atualizações de ambientes ocorrem em ondas, durante os intervalos de tempo 
  <tbody>
   <tr>
    <td>Preparo<br /> </td>
-   <td>1 a 2 de fevereiro de 2021<br /> </td>
+   <td>1 a 10 de fevereiro de 2021<br /> </td>
   </tr>
   <tr>
    <td> Produção<br /> </td>
@@ -49,6 +51,8 @@ As atualizações de ambientes ocorrem em ondas, durante os intervalos de tempo 
   </tr>
  </tbody>
 </table>
+
+Caso tenha mais dúvidas, entre em contato com o [Atendimento ao cliente da Adobe](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html).
 
 ## Perguntas e respostas {#questions-and-answers}
 
