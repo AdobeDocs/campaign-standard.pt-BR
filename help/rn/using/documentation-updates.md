@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a039818cb5d4169ae921df39e9ea9bc9230fceb0
+source-git-commit: b040a5c6948967d053130268329a8ba4879e363b
 workflow-type: tm+mt
-source-wordcount: '6511'
-ht-degree: 98%
+source-wordcount: '6540'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,7 @@ Além das [Notas de versão](../../rn/using/release-notes.md) do Adobe Campaign,
 
 **Novos recursos incluídos na versão**
 
-Serviço de Comentários por Correio Eletrônico - [Leia mais](../../sending/using/confirming-the-send.md#email-feedback-service)
+Serviço de feedback por email - [Leia mais](../../sending/using/confirming-the-send.md#email-feedback-service)
 
 Melhorias na integração do Adobe Experience Manager - [Leia mais](../../integrating/using/creating-multilingual-email-aem.md)
 
@@ -37,13 +37,15 @@ Foram adicionadas informações sobre a nova função GetOption que permite reto
 
 Foram adicionadas informações sobre a nova variável de saída **[!UICONTROL filesCount]** disponível depois de usar uma atividade **[!UICONTROL Transfer file]**. [Leia mais](../../automating/using/transfer-file.md#output-variables)
 
-A seção **Configuração do canal de email** foi atualizada para esclarecer quais são as configurações de email mais recentes aplicáveis. Alguns parâmetros herdados ainda em uso para determinados clientes estão listados na parte inferior desta página. [Leia mais](../../administration/using/configuring-email-channel.md)
+A seção **Configuração do canal de email** foi atualizada para esclarecer quais são as configurações de email mais recentes aplicáveis. Alguns parâmetros herdados ainda em uso para determinados clientes estão listados na parte inferior da página. [Leia mais](../../administration/using/configuring-email-channel.md)
 
 ## Dezembro de 2020 {#doc-updates-december-2020}
 
 **O recurso Linha de assunto preditiva** está obsoleto agora. [Leia mais](../../rn/using/deprecated-features.md)
 
-A seção **Mensagens transacionais** de introdução agora inclui [esquemas melhorados](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) e um [caso de uso completo](../../channels/using/transactional-messaging-use-case.md) para ilustrar o processo de implementação. [Leia mais](../../channels/using/getting-started-with-transactional-msg.md)
+A seção **Introdução às mensagens transacionais** agora inclui [schemas melhorados](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) para uma melhor compreensão do processo.
+
+Um caso de uso completo para ilustrar o processo de implementação de mensagens transacionais está disponível. [Leia mais](../../channels/using/transactional-messaging-use-case.md)
 
 A seção **Privacidade** foi movida para [este local](../../start/using/privacy.md).
 
@@ -57,11 +59,13 @@ A seção **Utilizar listas de produtos em uma mensagem transacional** foi movid
 
 ## Novembro de 2020 {#doc-updates-november-2020}
 
-A seção Dados pessoais e personalidades foi atualizada com um cenário de caso de uso para ilustrar como as diferentes personalidades estão interagindo com relação à privacidade. [Leia mais](../../start/using/privacy.md#use-case-scenario)
+A seção **Dados Pessoais e Personas** foi atualizada com um cenário de caso de uso para ilustrar como as diferentes pessoas estão interagindo quando se trata de Privacidade. [Leia mais](../../start/using/privacy.md#use-case-scenario)
 
 Adição de uma nova seção listando Perguntas frequentes sobre privacidade. [Leia mais](../../start/using/privacy-faq.md)
 
-A seção Privacidade foi alterada e enriquecida com duas novas páginas: [Gerenciamento de privacidade](../../start/using/privacy-management.md) e [Gerenciamento de solicitações de privacidade](../../start/using/privacy-requests.md).
+A seção **Privacy** foi movida e enriquecida com duas novas páginas: [Gerenciamento de privacidade](../../start/using/privacy-management.md) e [Gerenciamento de solicitações de privacidade](../../start/using/privacy-requests.md).
+
+A seção **Mensagens transacionais** foi reorganizada e reunida num único local para uma navegação melhorada. [Leia mais](../../channels/using/getting-started-with-transactional-msg.md)
 
 Na seção Adobe Experience Platform Data Connector, foram adicionadas informações sobre o erro de validação de mapeamento de dados relacionado ao gerenciamento de privacidade e como solucioná-lo. [Leia mais](../../developing/using/aep-mapping-activation.md)
 
@@ -87,7 +91,7 @@ Adição de uma seção para descrever os novos filtros que permitem pesquisar a
 
 ## Setembro de 2020 {#doc-updates-september-2020}
 
-A seção mensagens transacionais do evento foi reorganizada e explicada. [Leia mais](../../channels/using/editing-transactional-message.md)
+A seção **mensagens transacionais de Evento** foi reorganizada e esclarecida. [Leia mais](../../channels/using/editing-transactional-message.md)
 
 Uma nota de advertência foi adicionada para avisar os usuários sobre a limitação de permissões relacionada ao acesso ao log. [Leia mais](../../administration/using/users-management.md)
 
@@ -101,9 +105,9 @@ Foram adicionadas informações sobre fontes anônimas no relatório perfis ativ
 
 Está disponível uma nova seção atualizada sobre como começar a usar mensagens transacionais. [Leia mais](../../channels/using/getting-started-with-transactional-msg.md)
 
-A seção de **limitações de mensagens transacionais** foi movida [para cá](../../channels/using/transactional-messaging-limitations.md)
+A seção de **limitações de mensagens transacionais** foi movida [para cá](../../channels/using/transactional-messaging-limitations.md).
 
-A seção **Preparando o envio** foi movida [para cá](../../sending/using/preparing-the-send.md)
+A seção **Preparando o envio** foi movida [para cá](../../sending/using/preparing-the-send.md).
 
 ## Julho de 2020 {#doc-updates-july-2020}
 
