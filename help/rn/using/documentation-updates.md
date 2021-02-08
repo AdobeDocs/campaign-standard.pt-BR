@@ -9,8 +9,8 @@ topic-tags: campaign-standard-releases
 translation-type: tm+mt
 source-git-commit: b040a5c6948967d053130268329a8ba4879e363b
 workflow-type: tm+mt
-source-wordcount: '6540'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,9 +25,9 @@ Além das [Notas de versão](../../rn/using/release-notes.md) do Adobe Campaign,
 
 Serviço de feedback por email - [Leia mais](../../sending/using/confirming-the-send.md#email-feedback-service)
 
-Melhorias na integração do Adobe Experience Manager - [Leia mais](../../integrating/using/creating-multilingual-email-aem.md)
+Melhorias na integração do Adobe Experience Manager: [leia mais](../../integrating/using/creating-multilingual-email-aem.md)
 
-Interface de Experience Cloud unificada - [Leia mais](../../start/using/interface-description.md#top-bar)
+Interface unificada da Experience Cloud: [leia mais](../../start/using/interface-description.md#top-bar)
 
 **Outras atualizações de documentação que vêm com a versão**
 
@@ -637,7 +637,7 @@ Adicionada uma seção na documentação da API relacionada aos **filtros person
 
 **Novos recursos incluídos na versão**
 
-GDPR: Integração de serviço principal - [Leia mais](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
+GDPR: Integração de serviço principal - [Leia mais](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=pt-BR)
 
 Aprimoramentos de Notificações por push - feedback detalhado do delivery - [Leia mais](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
 
