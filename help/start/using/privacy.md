@@ -9,11 +9,11 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2879066634a8a123ef5d07d46aa96479f156a923
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1479'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Para gerenciar corretamente a privacidade e os dados pessoais, trabalhe dentro d
 
 >[!NOTE]
 >
->Para obter mais informações sobre como o RGPD, CCPA e PDPA se aplicam ao Adobe Campaign, consulte [esta página](https://helpx.adobe.com/br/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>Para obter mais informações sobre como o GDPR, o CCPA e o PDPA se aplicam ao Adobe Campaign, consulte [esta página](https://helpx.adobe.com/br/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
 
 ### Privacidade da Adobe Experience Cloud {#experience-cloud-privacy}
 
@@ -128,7 +128,7 @@ O Adobe Campaign fornece recursos adicionais para ajudar você se tornar um Cont
 
 >[!NOTE]
 >
->Este conjunto de ferramentas ajuda com a conformidade de privacidade para o GDPR, CCPA e PDPA. Para obter mais informações sobre esses diferentes regulamentos, consulte [esta página](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>Este conjunto de ferramentas ajuda com a conformidade de privacidade para o GDPR, CCPA e PDPA. Para obter mais informações sobre esses diferentes regulamentos, consulte [esta página](https://helpx.adobe.com/br/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
@@ -140,7 +140,7 @@ As solicitações de **Acesso** e **Exclusão** são apresentadas [nesta página
 
 ## Recursos de rastreamento {#tracking-capabilities}
 
-Graças às suas funcionalidades de rastreamento, o Adobe Campaign permite rastrear a comportamento dos seus recipients de delivery utilizando cookies de seção e cookies permanentes. Para obter mais informações sobre o rastreamento, consulte [esta página](../../sending/using/tracking-messages.md).
+Graças às suas funcionalidades de rastreamento, o Adobe Campaign permite rastrear a comportamento dos seus recipients de delivery utilizando cookies de seção e cookies permanentes. Para obter mais informações sobre rastreamento, consulte [esta página](../../sending/using/tracking-messages.md).
 
 >[!NOTE]
 >
