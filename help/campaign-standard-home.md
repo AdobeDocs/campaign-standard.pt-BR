@@ -5,11 +5,11 @@ product: campaign
 title: Documentação do produto Adobe Campaign Standard
 description: Pesquisar a documentação do produto Campaign Standard
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 658e1916e39cb3deec15a87891d07e3e9172dc78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 
 ## Novidades
 
-* **[Campanha 21.1 Fevereiro Versão disponível!](rn/using/release-notes.md)**<br/> Descubra novos recursos, atualizações e correções mais recentes
+* **[A versão de fevereiro do Campaign 21.1 está disponível!](rn/using/release-notes.md)**<br/> Descubra novos recursos, atualizações e correções mais recentes
 
 * **[Atualizar devoluções permanentes incorretas](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Saiba como atualizar devoluções permanentes incorretas após a interrupção do Gmail
 
