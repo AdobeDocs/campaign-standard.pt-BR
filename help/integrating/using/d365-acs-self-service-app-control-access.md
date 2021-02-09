@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: cce30fd5cd3d5d63563d1dab3bb1e7554c26fb3e
+source-git-commit: 974ae83a746c81b417e287fc2665dfa5982eff85
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 1%
@@ -34,11 +34,11 @@ Nesta seção, você aprenderá a conceder acesso à integração do Adobe Campa
 1. Navegue até https://experience.adobe.com/ e faça logon no Adobe Experience Cloud.
 1. Acesse **Admin Console**.
 
-   ![](assets/d365-to-acs-access-3.png)
+   ![](assets/do-not-localize/d365-to-acs-access-3.png)
 
 1. Clique em **[!UICONTROL Products]** para acessar suas soluções Experience Cloud.
 
-   ![](assets/d365-to-acs-access-6.png)
+   ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
 
    >[!IMPORTANT]
@@ -47,11 +47,11 @@ Nesta seção, você aprenderá a conceder acesso à integração do Adobe Campa
 
 1. Clique na primeira instância para configurar.
 
-   ![](assets/d365-to-acs-access-6.png)
+   ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
    A página de instância deve ser semelhante a:
 
-   ![](assets/d365-to-acs-access-8.png)
+   ![](assets/do-not-localize/d365-to-acs-access-8.png)
 
 1. Clique no botão **[!UICONTROL New Profile]** e adicione uma nova entrada chamada: **Campaign Standard - your-prod-instance-name - Integração entre D365/ACS**
 
@@ -63,11 +63,11 @@ Nesta seção, você aprenderá a conceder acesso à integração do Adobe Campa
 
 1. Se as entradas forem semelhantes às seguintes, clique no botão **[!UICONTROL Done]**.
 
-   ![](assets/d365-to-acs-access-14.png)
+   ![](assets/do-not-localize/d365-to-acs-access-14.png)
 
    O novo perfil de produto foi adicionado.
 
-   ![](assets/d365-to-acs-access-15.png)
+   ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
 ## Conceder acesso aos usuários {#add-users-to-profile}
 
@@ -75,11 +75,11 @@ Na página **[!UICONTROL Products]**, selecione a instância de Campanha e siga 
 
 1. Clique no novo perfil criado anteriormente:  **Campaign Standard - your-prod-instance-name - Integração com D365/ACS**
 
-   ![](assets/d365-to-acs-access-15.png)
+   ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
 1. Clique na guia **[!UICONTROL Developers]**. 
 
-   ![](assets/d365-to-acs-access-18.png)
+   ![](assets/do-not-localize/d365-to-acs-access-18.png)
 
 1. Clique no botão **[!UICONTROL Add Developer]**
 
