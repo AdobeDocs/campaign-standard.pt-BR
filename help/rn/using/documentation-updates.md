@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: b040a5c6948967d053130268329a8ba4879e363b
+source-git-commit: 87c43d3f97747da03e66634d7236d30a3ec733dc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '6540'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ Além das [Notas de versão](../../rn/using/release-notes.md) do Adobe Campaign,
 
 **Novos recursos incluídos na versão**
 
-Serviço de feedback por email - [Leia mais](../../sending/using/confirming-the-send.md#email-feedback-service)
+Serviço de feedback por email - [Leia mais](../../sending/using/confirming-the-send.md#message-indicators)
 
 Melhorias na integração do Adobe Experience Manager: [leia mais](../../integrating/using/creating-multilingual-email-aem.md)
 
