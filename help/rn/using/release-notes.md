@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 46d864de0ffd5dce718a2a2c055c3194e45fcdd2
+source-git-commit: cb903760fc8fa6168b97a2b02ab7896cd1a8b250
 workflow-type: tm+mt
-source-wordcount: '2610'
-ht-degree: 99%
+source-wordcount: '2627'
+ht-degree: 98%
 
 ---
 
@@ -79,6 +79,8 @@ ht-degree: 99%
 <li>Notificações aprimoradas: o menu suspenso Notificações agora tem duas guias, uma para suas próprias notificações de produtos e uma para anúncios de produtos mais globais.</li>
 </ul>
 <p>Para obter mais informações consulte a <a href="../../start/using/interface-description.md#top-bar">documentação detalhada</a>.
+</p>
+<p>NOTA: Essa mudança será progressivamente distribuída para todos os ambientes do cliente entre 10 de fevereiro e 1 de março.
 </p>
 </td> 
 </tr> 
