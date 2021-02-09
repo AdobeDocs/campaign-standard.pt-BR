@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
+source-git-commit: 160eb4f23d9d683695457c1a1f35be1c300b7793
 workflow-type: tm+mt
-source-wordcount: '8666'
+source-wordcount: '8665'
 ht-degree: 86%
 
 ---
@@ -478,7 +478,7 @@ A especificação de código curto é útil para dois recursos:
 
 * A visualização exibirá o código curto se nenhum número de origem for fornecido. Isso refletirá o verdadeiro comportamento do dispositivo móvel.
 
-* A configuração de lista de bloqueios do recurso de resposta automática só envia para a quarentena o usuário para um código curto específico.
+* A configuração de lista de bloqueios do recurso de resposta automática envia somente para a quarentena do usuário por um código curto específico.
 
 #### Origem TON/NPI, destino TON/NPI {#ton-npi}
 
@@ -705,7 +705,7 @@ Essa configuração permite adicionar apenas uma opção TLV por mensagem.
 
 ### Resposta automática enviada ao MO {#automatic-reply}
 
-Esse recurso permite responder rapidamente ao texto para o MO e processar o envio por código curto para a lista de bloqueios.
+Esse recurso permite responder rapidamente o texto ao MO e manipular o envio por código curto para lista de bloqueios.
 
 As colunas **Palavra-chave** e **Código curto** definem condições para acionar a resposta automática. Se ambos os campos forem correspondentes, o MO será enviado, e a ação adicional será acionada. Para especificar um curinga, deixe o campo vazio. A palavra-chave corresponde à primeira palavra alfanumérica no texto MO, ignorando a pontuação e os espaços à esquerda. Isso significa que o campo **Palavra-chave** não pode conter espaços e deve ser uma única palavra.
 
