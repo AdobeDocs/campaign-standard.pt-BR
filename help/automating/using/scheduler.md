@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: schedule,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 9b76f02b03ba1180f852b446f0dbbae26a27d4bd
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 97%
+source-wordcount: '614'
+ht-degree: 89%
 
 ---
 
@@ -33,6 +33,8 @@ Ao criar seu fluxo de trabalho, use apenas uma atividade **[!UICONTROL Scheduler
 >[!CAUTION]
 >
 >A **[!UICONTROL Repetition frequency]** da atividade não pode ser inferior a 10 minutos. Isso significa que um fluxo de trabalho não pode ser executado automaticamente mais de uma vez a cada 10 minutos.
+
+Ao projetar um fluxo de trabalho programado que inclui várias atividades, é necessário verificar se o fluxo de trabalho não é reprogramado até que seja concluído. Para fazer isso, é necessário configurar seu fluxo de trabalho para impedir sua execução se uma ou mais tarefas de uma execução anterior ainda estiverem pendentes. Para obter mais informações, consulte [esta página](../../automating/using/scheduled-workflows-execution.md).
 
 **Tópicos relacionados:**
 
