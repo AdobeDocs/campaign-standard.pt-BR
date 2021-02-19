@@ -110,7 +110,7 @@ Visualização as últimas [atualizações de documentação](../../rn/using/doc
   </tr> 
   <tr> 
    <td> Importação de conteúdo automatizada de um URL durante a preparação de mensagens<br /> </td> 
-   <td> Agora é possível importar conteúdo de email de um URL durante a fase de preparação. Para delivery de email recorrentes, o conteúdo HTML mais recente é recuperado toda vez que a mensagem é preparada, garantindo que o conteúdo esteja sempre atualizado no momento em que o email é enviado. Esse recurso também permite que você crie um agendo o delivery com conteúdo de um URL, mesmo se o conteúdo ainda não estiver pronto.<br /> Para obter mais informações, consulte a <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">documentação detalhada</a>.<br /> </td> 
+   <td> Agora é possível importar conteúdo de email de um URL durante a fase de preparação. Para delivery de e-mail recorrentes, o conteúdo HTML mais recente é recuperado toda vez que a mensagem é preparada, garantindo que o conteúdo esteja sempre atualizado no momento em que o e-mail é enviado. Esse recurso também permite que você crie um agendo o delivery com conteúdo de um URL, mesmo se o conteúdo ainda não estiver pronto.<br /> Para obter mais informações, consulte a <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Mensagem de notificação de versão de campanha<br /> </td> 
@@ -118,7 +118,7 @@ Visualização as últimas [atualizações de documentação](../../rn/using/doc
   </tr> 
   <tr> 
    <td> Gerenciamento de usuários<br /> </td> 
-   <td> A capacidade da unidade geográfica agora não está disponível para novas instâncias de Campaign Standard, bem como para instâncias existentes sem unidades geográficas criadas, a partir da versão 18.7.<br /><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=pt-BR#release-notes"> Para saber mais, consulte esta página</a>.<br /> </td> 
+   <td> A capacidade da unidade geográfica agora não está disponível para novas instâncias de Campaign Standard, bem como para instâncias existentes sem unidades geográficas criadas, a partir da versão 18.7.<br /><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=pt-BR#release-notes"> Para obter mais informações, consulte esta página</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -203,7 +203,7 @@ Visualização as últimas [atualizações de documentação](../../rn/using/doc
  <tbody> 
   <tr> 
    <td> RGPD: Integração do serviço principal<br /> </td> 
-   <td> A Integração do Privacy Core Service permite que você automatize suas solicitações de RGPD em um contexto de várias soluções por meio de uma única chamada de API JSON. <br /> As solicitações de RGPD enviadas do Privacy Core Service para todas as soluções de Experience Cloud agora são automaticamente tratadas pela Campanha. <br /> Para obter mais informações, consulte a <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">documentação detalhada</a>.<br /> </td> 
+   <td> A Integração do Privacy Core Service permite que você automatize suas solicitações de RGPD em um contexto de várias soluções por meio de uma única chamada de API JSON. <br /> As solicitações de RGPD enviadas do Privacy Core Service para todas as soluções de Experience Cloud agora são automaticamente tratadas pela Campanha. <br /> Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=pt-BR">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Aprimoramentos de push - feedback detalhado do delivery<br /> </td> 
