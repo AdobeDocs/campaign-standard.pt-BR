@@ -143,7 +143,7 @@ Para importar perfis para uso em testes de uma audiência, siga estas etapas:
 >
 >A pré-visualização está disponível somente no Designer de email.
 
-Para poder pré-visualização mensagens usando perfis direcionados, certifique-se de ter adicionado esses perfis à lista **[!UICONTROL Profile substitution]** (consulte [Definindo perfis e endereços de substituição](#selecting-profiles)).
+Para ser capaz de pré-visualização de mensagens usando perfis direcionados, certifique-se de ter adicionado esses perfis à lista **[!UICONTROL Profile substitution]** (consulte [Definindo perfis e endereços de substituição](#selecting-profiles)).
 
 Se você quiser usar campos de personalização na mensagem, eles devem ser adicionados **antes de** iniciar a preparação da mensagem. Caso contrário, não serão tomadas em consideração na pré-visualização. Como resultado, inicie a preparação da mensagem novamente se houver alguma alteração nos campos de personalização.
 
