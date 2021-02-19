@@ -224,7 +224,7 @@ _Emails, mensagens SMS e mala direta_
 * Correção de um problema com o fluxo de trabalho **updateDeliveryExecInfo** que definia o indicador **Entregar** como 0 para delivery SMS.
 * Em **Parâmetros avançados** das propriedades do template do delivery, a lista suspensa **Roteamento** agora exibe apenas contas externas correspondentes ao tipo de mensagem do modelo. Por exemplo, um template do delivery de email só exibe contas externas de email.
 * Correção de um problema com o formato do email preferencial **[!UICONTROL Text]** definido para perfis de teste.
-* Correção de um problema que resultava em um erro de Javascript ao selecionar o fuso horário padrão na tela de definição de agendamento de um delivery.
+* Correção de um problema que resultava em erro de Javascript ao selecionar o fuso horário padrão na tela de definição de agendamento de um delivery.
 * Correção de um problema que impedia a exibição de armadilhas nos registros de envio.
 * Na tela de seleção de modelo do assistente de criação de delivery, o acompanhamento e os modelos de teste A/B agora estão ocultos por padrão. Para obter mais informações, consulte [documentação detalhada](../../channels/using/creating-an-email.md).
 * Correção de um problema que permitia que qualquer usuário enviasse delivery. Agora, somente os usuários com a função **[!UICONTROL Start deliveries]** podem fazê-lo. Para obter mais informações, consulte [documentação detalhada](../../sending/using/confirming-the-send.md).
@@ -423,7 +423,7 @@ _Notificações por push_
   </tr> 
   <tr> 
    <td> Workflows: nova atividade de sinal<br /> </td> 
-   <td> Acione um fluxo de trabalho de outro fluxo de trabalho usando a nova atividade <span class="uicontrol">Signal</span>.<br /> Com a capacidade de start de um fluxo de trabalho de outro, agora você pode oferecer suporte a jornadas de clientes mais complexas. É possível monitorar melhor as viagens do cliente e reagir em caso de problemas.<br /> Várias atividades de fluxo de trabalho foram atualizadas:<br /> 
+   <td> Acione um fluxo de trabalho de outro fluxo de trabalho usando a nova atividade <span class="uicontrol">Signal</span>.<br /> Com a capacidade de start de um fluxo de trabalho de outro, agora você pode oferecer suporte a jornadas mais complexas do cliente. É melhor monitorar as jornadas do cliente e reagir em caso de problemas.<br /> Várias atividades de fluxo de trabalho foram atualizadas:<br /> 
     <ul> 
      <li> <span class="uicontrol"></span> Endactivity: uma nova guia permite que você especifique um fluxo de trabalho a ser acionado após a execução dessa atividade. </li> 
      <li> <span class="uicontrol">Atualizar </span> atividade de dados: use a nova transição de saída vazia para adicionar uma  <strong></strong> Endactivity que aciona outro fluxo de trabalho. Transições de saída vazias não carregam dados e não consomem espaço desnecessário no sistema </li> 
