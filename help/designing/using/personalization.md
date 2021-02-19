@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Personalização de conteúdo de e-mail
+title: Personalização de conteúdo de email
 description: Descubra como personalizar um email no Designer de email.
 audience: designing
 content-type: reference
@@ -15,7 +15,7 @@ ht-degree: 5%
 ---
 
 
-# Personalização de conteúdo de e-mail {#personalization}
+# Personalização de conteúdo de email {#personalization}
 
 O conteúdo e a exibição de mensagens entregues pela Adobe Campaign podem ser personalizados de várias maneiras diferentes. Essas maneiras podem ser combinadas de acordo com critérios dependendo dos perfis. Em geral, o Adobe Campaign permite:
 
