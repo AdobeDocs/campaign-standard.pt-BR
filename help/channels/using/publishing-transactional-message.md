@@ -107,7 +107,7 @@ Para acessar os relatórios referentes à sua mensagem transacional, use o botã
 
 Você pode suspender a publicação da mensagem transacional usando o botão **[!UICONTROL Pause]**, por exemplo, para modificar os dados contidos na mensagem. Portanto, os eventos não são mais processados, mas mantidos em fila no banco de dados do Adobe Campaign.
 
-Os eventos em fila são mantidos durante um período definido na REST API (consulte a [documentação REST API](../../api/using/managing-transactional-messages.md)) ou no evento de disparo se você estiver usando o serviço principal Acionadores (consulte [Sobre Acionadores Adobe Experience Cloud](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+Os eventos em fila são mantidos durante um período definido na REST API (consulte a [documentação REST API](../../api/using/managing-transactional-messages.md)) ou no evento de disparo se você estiver usando o serviço principal Triggers (consulte [Sobre o Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
