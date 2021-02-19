@@ -22,7 +22,7 @@ Este relatório contém os dados de desempenho de cada domínio representado na 
 
 ![](assets/delivery_reports_6.png)
 
-A tabela **Estatísticas de transmissão** contém os dados disponíveis para possíveis erros encontrados em cada domínio, como:
+A tabela **Transmitir estatísticas** contém os dados disponíveis para possíveis erros encontrados em cada domínio, como:
 
 * **Processado/enviado**: O número de emails enviados.
 * **Entregue**: O número de emails entregues.
