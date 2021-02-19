@@ -50,6 +50,6 @@ Seus dados agora estão disponíveis no Adobe Analytics.
 **Tópicos relacionados:**
 
 * [Contas externas](../../administration/using/external-accounts.md)
-* [Fluxos de trabalho técnicos](../../administration/using/technical-workflows.md)
+* [Workflows técnicos](../../administration/using/technical-workflows.md)
 * [Compartilhar KPIs para vídeo de ](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) relatório de Campanha integrada
 
