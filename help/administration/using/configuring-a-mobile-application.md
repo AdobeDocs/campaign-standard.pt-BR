@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Configurar um aplicativo móvel
+title: Configurar um aplicativo para dispositivos móveis
 description: Descubra como configurar o Adobe Campaign para enviar notificações por push ou mensagens no aplicativo usando o SDK V4 ou o SDK do Experience Platform.
 audience: administration
 content-type: reference
@@ -15,7 +15,7 @@ ht-degree: 8%
 ---
 
 
-# Configurar um aplicativo móvel{#configuring-a-mobile-application}
+# Configurar um aplicativo para dispositivos móveis{#configuring-a-mobile-application}
 
 ## Configurar um aplicativo móvel usando Adobe Experience Platform SDKs {#using-adobe-experience-platform-sdk}
 
@@ -110,7 +110,7 @@ Seu **[!UICONTROL Property Status]** deve ser **[!UICONTROL Ready to configure]*
 
    ![](assets/launch_4.png)
 
-1. Você pode alterar a unidade organizacional do aplicativo móvel na seção **[!UICONTROL Access Authorization]** para limitar o acesso a esse aplicativo móvel a unidades específicas da organização. Para saber mais, consulte esta página.
+1. Você pode alterar a unidade organizacional do aplicativo móvel na seção **[!UICONTROL Access Authorization]** para limitar o acesso a esse aplicativo móvel a unidades específicas da organização. Para obter mais informações, consulte esta página.
 
    Aqui, o administrador pode atribuir unidades suborganizacionais selecionando-as no menu suspenso.
 
