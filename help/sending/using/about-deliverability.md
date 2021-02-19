@@ -32,7 +32,7 @@ A taxa de delivery depende de vários fatores, especialmente:
 
 ## Pontos principais a serem verificados {#deliverability-key-points}
 
-Para otimizar a capacidade de delivery de emails do Adobe Campaign, recomendamos o uso das práticas recomendadas listadas abaixo. Os problemas de capacidade de entrega estão geralmente ligados a medidas de proteção contra spam implementadas por provedores de serviço da Internet e administradores de servidores de e-mail.
+Para otimizar a capacidade de delivery de emails do Adobe Campaign, recomendamos o uso das práticas recomendadas listadas abaixo. Os problemas de entrega estão geralmente ligados às medidas de proteção contra spam implementadas por provedores de serviço da Internet e administradores de servidores de e-mail.
 
 A capacidade de fornecimento de email refere-se ao conjunto de características que determinam a capacidade de uma mensagem de alcançar seu destino por meio de um endereço de email pessoal, dentro de um curto período e com a qualidade esperada em termos de conteúdo e formato. Essas características estão em quatro categorias principais: qualidade de dados, mensagem e conteúdo, infraestrutura de envio e reputação. Juntos, elas formam a base de um programa bem-sucedido de capacidade de fornecimento de email.
 
