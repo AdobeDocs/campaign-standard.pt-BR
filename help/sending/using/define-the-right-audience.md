@@ -43,7 +43,7 @@ Você pode enviar deliveries para destinatários armazenados em um arquivo exter
 
 Para enviar mensagens aos assinantes de um informativo, é possível direcionar diretamente os assinantes para o serviço de informação correspondente. Saiba mais [nesta seção](../../audiences/using/about-subscriptions.md).
 
-**Dica** : você pode criar uma audiência de Lista que público alvo os assinantes para o seu boletim informativo usando um fluxo de trabalho. Você pode selecionar essa audiência em um delivery. Para obter mais informações, consulte [Criando audiências de lista](../../audiences/using/creating-audiences.md#creating-list-audiences).
+**Dica** : você pode criar uma audiência de Lista que público alvo os assinantes para o seu boletim informativo usando um fluxo de trabalho. Você pode selecionar essa audiência em um delivery. Para obter mais informações, consulte [Criação de audiências de lista](../../audiences/using/creating-audiences.md#creating-list-audiences).
 
 ## Provas, perfis de teste e grupos de controle {#proofs-test-control-groups}
 
