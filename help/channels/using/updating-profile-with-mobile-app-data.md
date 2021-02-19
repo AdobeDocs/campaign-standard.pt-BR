@@ -48,7 +48,7 @@ Neste exemplo, a seção **[!UICONTROL Fields]** reflete os dados PII enviados p
 
 O mapeamento de Dados de Perfil ao estender o recurso **[!UICONTROL Subscriptions to an Application]** é SOMENTE LEITURA. É usado para reconciliação. O perfil deve ser inserido no sistema com os dados necessários para reconciliar o perfil com os dados de PII. Em nosso caso, um endereço de e-mail do perfil deve corresponder a um e-mail da PII de coleta para que a reconciliação ocorra:
 
-* A PII de coleta é recebida de um aplicativo móvel para um usuário cujo nome é &quot;Jane&quot;, Sobrenome &quot;Doe&quot; e endereço de email é janedoe@doe.com.
+* A coleta de PII é recebida de um aplicativo móvel para um usuário cujo nome é &quot;Jane&quot;, Sobrenome &quot;Doe&quot; e endereço de email é janedoe@doe.com.
 * Separadamente, os Dados do Perfil devem existir (por exemplo, os dados devem ser inseridos manualmente ou já vêm de algum outro recurso), onde o endereço de email do perfil é janedoe@doe.com.
 
 **Tópicos relacionados:**
