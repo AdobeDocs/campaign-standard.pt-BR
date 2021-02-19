@@ -6,9 +6,9 @@ description: Saiba mais sobre os recursos do Adobe Campaign Standard para gerenc
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a9afa91302684ddd37a94a9999d90bf8c8e7abee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 100%
 
