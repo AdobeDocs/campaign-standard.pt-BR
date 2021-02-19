@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 'Fluxos de trabalho técnicos '
+title: 'Workflows técnicos '
 description: Os workflows técnicos são workflows prontos para uso, projetados para lidar com processos técnicos em segundo plano no Adobe Campaign, garantindo o comportamento correto da plataforma.
 audience: administration
 content-type: reference
