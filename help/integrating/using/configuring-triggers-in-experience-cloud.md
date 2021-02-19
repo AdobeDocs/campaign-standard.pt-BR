@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: Configuração de acionadores na Experience Cloud
-description: 'Saiba como configurar a integração dos Adobe Experience Cloud Triggers para o envio de delivery personalizados por start aos seus clientes com base em seus comportamentos anteriores. '
+description: 'Saiba como configurar a integração do Adobe Experience Cloud Triggers para enviar delivery personalizados para seus clientes com base em seus comportamentos anteriores. '
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
