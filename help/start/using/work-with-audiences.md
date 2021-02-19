@@ -128,7 +128,7 @@ Graças aos workflows e ao editor de query, você pode criar audiências que ser
 
 O GDPR é a nova lei de privacidade da União Europeia que concilia e moderniza os requisitos de proteção de dados. O GDPR aplica-se aos clientes do Adobe Campaign que coletam dados de residentes da UE. Além dos recursos de privacidade já disponíveis na Adobe Campaign (incluindo gerenciamento de consentimento, configurações de retenção de dados e funções de usuário), estamos aproveitando essa oportunidade em nossa função de Processador de dados para incluir recursos adicionais, para ajudar a facilitar sua preparação como Controlador de dados para determinadas solicitações do RGPD.
 
-Consulte este [guia](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html) para saber mais sobre as ferramentas e funcionalidades fornecidas pela Adobe Campaign para ajudá-lo a se tornar compatível com o RGPD.
+Consulte este [guia](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=pt-BR) para saber mais sobre as ferramentas e funcionalidades fornecidas pela Adobe Campaign para ajudá-lo a se tornar compatível com o RGPD.
 
 **Leia mais**
 
