@@ -76,7 +76,7 @@ O Campaign Standard vem com vários **recursos de gestão de dados** para import
 
 Com [Templates de importação](../../automating/using/importing-data-with-import-templates.md), gerencie certos tipos de importação definidos pelos administradores por meio de funções de importação simplificadas.
 
-[Exportar ](../../automating/using/exporting-logs.md) lojas para exportar dados de log por meio de um fluxo de trabalho simples, permitindo que você analise os resultados de suas campanhas de marketing em suas próprias ferramentas de relatórios ou BI.
+[Exportar ](../../automating/using/exporting-logs.md) o log-let para exportar dados de log por meio de um fluxo de trabalho simples, permitindo que você analise os resultados das campanhas de marketing em suas próprias ferramentas de relatórios ou BI.
 
 Utilize [Packages](../../automating/using/managing-packages.md) para trocar recursos entre diferentes instâncias de campanha, por exemplo, para replicar a configuração de uma instância ou para transferir dados de um servidor para outro, incluindo recursos personalizados.
 
@@ -90,5 +90,5 @@ Leia mais:
 ## Recursos adicionais
 
 * [Vídeos de tutoriais de gestões de dados e processos](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/getting-started/create-workflow.html)
-* [Fluxos de trabalho técnicos](../../administration/using/technical-workflows.md)
+* [Workflows técnicos](../../administration/using/technical-workflows.md)
 * [Introdução ao modelo de dados do Campaign Standard](../../developing/using/get-started-data-model.md)
