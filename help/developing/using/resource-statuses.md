@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: Status dos recursos
-description: Descubra os diferentes status de recursos de acordo com o estado da publicação.
+description: Descubra os diferentes status de recursos de acordo com seu estado de publicação.
 audience: developing
 content-type: reference
 topic-tags: about-custom-resources
