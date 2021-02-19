@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 75%
+ht-degree: 82%
 
 ---
 
@@ -44,7 +44,7 @@ Um exemplo de um modelo de fluxo de trabalho genérico projetado para importar d
 * [Carregar atividade de arquivo](../../automating/using/load-file.md)
 * [Atividade de reconciliação](../../automating/using/reconciliation.md)
 * [Atividade de Segmentação](../../automating/using/segmentation.md)
-* [Atividade desduplicação-duplicada](../../automating/using/deduplication.md)
+* [Atividade de desduplicação](../../automating/using/deduplication.md)
 * [Atualizar atividade de dados](../../automating/using/update-data.md)
 
 ## Uso dos formatos de arquivo simples {#using-flat-file-formats}
@@ -68,9 +68,9 @@ Smith;Clara;08/02/1989;hayden.smith@example.com;124567
 Durance;Allison;15/12/1978;allison.durance@example.com;120987
 ```
 
-## Uso da compactação {#using-compression}
+## Utilização da compactação {#using-compression}
 
-Use arquivos compactados para importações e exportações sempre que possível. O GZIP é suportado por padrão. Você pode adicionar pré-processamento ao importar arquivos ou pós-processamento ao extrair dados, respectivamente nas atividades de fluxo de trabalho **[!UICONTROL Load file]** e **[!UICONTROL Extract file]**.
+Use arquivos compactados para importações e exportações sempre que possível. O GZIP é compatível por padrão. Você pode adicionar pré-processamento ao importar arquivos ou pós-processamento ao extrair dados, respectivamente nas atividades de fluxo de trabalho **[!UICONTROL Load file]** e **[!UICONTROL Extract file]**.
 
 **Tópicos relacionados:**
 
@@ -79,7 +79,7 @@ Use arquivos compactados para importações e exportações sempre que possível
 
 ## Importação no modo Delta {#importing-in-delta-mode}
 
-As importações regulares devem ser efetuadas no modo delta. Isso significa que somente os dados modificados ou novos são enviados ao Adobe Campaign, em vez da tabela toda sempre.
+Importações regulares devem ser feitas no modo delta. Isso significa que somente os dados modificados ou novos são enviados ao Adobe Campaign, em vez da tabela toda sempre.
 
 As importações completas devem ser usadas somente para carregamento inicial.
 
