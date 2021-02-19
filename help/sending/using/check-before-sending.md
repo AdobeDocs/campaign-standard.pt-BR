@@ -39,7 +39,7 @@ Para permitir isso, o Adobe Campaign captura a renderização e a disponibiliza 
 
 * Você pode visualizar a mensagem enviada nos diferentes contextos nos quais ela pode ser recebida: webmail, serviço de mensagens, celular, etc.
 
-* Os recursos de renderização de e-mail são fundamentais para identificar se suas campanhas de e-mail ultrapassam com êxito os filtros dos principais ISPs (Provedores de serviço de Internet) e serviços de e-mail. Essas ferramentas enviam uma cópia de pré-impressão de um email para uma rede de caixas de entrada de teste, para que você possa ver como a mensagem será exibida ou irá renderizar nesses serviços. Elas também podem incluir relatórios e opções de correção de código que ajudam a identificar e fazer correções rapidamente que melhoram a capacidade de entrega.
+* Os recursos de renderização de e-mail são fundamentais para identificar se suas campanhas de e-mail ultrapassam com êxito os filtros dos principais ISPs (Provedores de serviço da Internet) e serviços de e-mail. Essas ferramentas enviam uma cópia de pré-impressão de um email para uma rede de caixas de entrada de teste, para que você possa ver como a mensagem será exibida ou irá renderizar nesses serviços. Elas também podem incluir relatórios e opções de correção de código que ajudam a identificar e fazer correções rapidamente que melhoram a capacidade de entrega.
 
 Saiba mais [nesta seção](../../sending/using/email-rendering.md).
 
