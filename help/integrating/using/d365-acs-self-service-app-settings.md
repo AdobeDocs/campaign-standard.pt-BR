@@ -13,7 +13,7 @@ ht-degree: 2%
 ---
 
 
-# Conecte sistemas com o aplicativo de integração
+# Conectar sistemas com o aplicativo de integração
 
 ## Adicionar credenciais ao aplicativo de integração
 
