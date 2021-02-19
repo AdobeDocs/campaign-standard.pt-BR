@@ -28,7 +28,7 @@ A guia **Visualizações** permite arrastar e soltar itens de visualização, co
 
    ![](assets/dynamic_report_visualization_2.png)
 
-1. Clique no botão **[!UICONTROL Visualization]** settings (Configurações de &lt;a0/>) para alterar diretamente o tipo de gráfico ou o que é exibido nele, como:
+1. Clique no botão **[!UICONTROL Visualization]** settings (Configurações de ) para alterar diretamente o tipo de gráfico ou o que é exibido nele, como:
 
    * **Porcentagens**: Exibe os valores em porcentagem.
    * **Âncora do eixo Y em zero**: Força o eixo y a zero mesmo se os valores estiverem acima de zero.
