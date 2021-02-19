@@ -191,7 +191,7 @@ Para enviar um mensagen transacional baseado em eventos, primeiro é necessário
 
 ### Mensagens transacionais baseadas em perfil {#profile-based-transactional-messages}
 
-Você pode enviar mensagens transacionais com base em perfis do cliente, o que permite aplicar regras de tipologia de marketing, incluir o link para cancelar a inscrição, adicionar a mensagem ao relatórios global do delivery e aproveitá-la na jornada do cliente.
+Você pode enviar mensagens transacionais com base em perfis do cliente, o que permite aplicar regras de tipologia de marketing, incluir o link para cancelar a inscrição, adicionar a mensagem ao relatórios global do delivery e aproveitá-lo na jornada do cliente.
 
 Para enviar um mensagen transacional baseado em perfis, primeiro é necessário criar e configurar um evento direcionando **dados do banco de dados da Adobe Campaign**.
 
