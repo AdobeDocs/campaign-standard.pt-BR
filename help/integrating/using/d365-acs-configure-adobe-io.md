@@ -1,6 +1,6 @@
 ---
 title: Configurar o Adobe IO para integração com o Microsoft Dynamics 365
-description: Saiba como configurar o E/S de Adobe para integração com o Microsoft Dynamics 365.
+description: Saiba como configurar o E/S do Adobe para integração com o Microsoft Dynamics 365.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
