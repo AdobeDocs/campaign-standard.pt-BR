@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: 6c171d45d655e4055d4a3c7927f1dd8e0913eeaa
 workflow-type: tm+mt
 source-wordcount: '1202'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Como migrar seu aplicativo móvel do SDK v4 para o SDK do Adobe Experience Platform {#sdkv4-migration}
+# Como migrar seu aplicativo para dispositivos móveis do SDK v4 para o SDK da Adobe Experience Platform {#sdkv4-migration}
 
 >[!IMPORTANT]
 >
@@ -91,7 +91,7 @@ Antes de migrar, você deve levar em conta as seguintes recomendações:
 Após essa migração, os assinantes coletados pela versão V4 do aplicativo móvel e os novos assinantes coletados pela versão AEP do aplicativo móvel estarão disponíveis no aplicativo migrado.
 
 Para distinguir os dois tipos diferentes de assinantes, você pode adicionar um novo campo personalizado do tipo **[!UICONTROL Text]** ao expandir o recurso personalizado **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** como `sdkversion` ou `appVersion`, por exemplo. Para obter mais informações sobre como estender um recurso personalizado, consulte esta [página](../../developing/using/creating-or-extending-the-resource.md).
-Você precisará configurar o Launch **[!UICONTROL Mobile property]** associado para enviar esse valor de campo personalizado na chamada Coletar PII e alterar a configuração do aplicativo móvel de acordo.
+Você precisará configurar o Launch **[!UICONTROL Mobile property]** associado para enviar esse valor de campo personalizado na chamada Collect PII e alterar a configuração do aplicativo móvel de acordo.
 
 ## Perguntas frequentes {#faq}
 
