@@ -220,7 +220,7 @@ Para entender os aspectos de uma carga do Android, consulte [Conceitos e opçõe
 
 ### Como recuperar informações de carga no código do aplicativo móvel {#payload-information}
 
-As informações de carga enviadas pelo servidor do aplicativo são recebidas pelo código do aplicativo móvel em um manipulador de eventos que indica que uma notificação por push foi recebida. Esse evento varia com base na plataforma móvel em que o aplicativo está sendo trabalhado e também se baseia em se o aplicativo está sendo executado em primeiro ou segundo plano. A documentação a seguir o ajudará a identificar o manipulador de eventos que você deseja manipular com base no caso de uso.
+As informações de carga enviadas pelo servidor do aplicativo são recebidas pelo código do aplicativo móvel em um manipulador de eventos que indica que uma notificação por push foi recebida. Esse evento varia com base na plataforma móvel em que o aplicativo está sendo executado e também se baseia em se o aplicativo está sendo executado em primeiro ou segundo plano. A documentação a seguir o ajudará a identificar o manipulador de eventos que você deseja manipular com base no caso de uso.
 
 * Aplicativos iOS: **Manuseio de Notificações Remotas** seção em [Notificações Remotas](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html).
 * Aplicativos Android: [Recebendo mensagens em um aplicativo cliente Android](https://firebase.google.com/docs/cloud-messaging/android/receive)
