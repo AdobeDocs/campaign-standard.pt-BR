@@ -52,7 +52,7 @@ Para exibir um relatório detalhando a evolução das subscrições e unsubscrip
 
 1. Vá para a lista de serviços através do menu avançado **Perfis e audiências** > **Serviços**, que pode ser acessado a partir do logotipo da Adobe Campaign.
 1. Selecione o serviço de sua escolha para exibir o painel correspondente.
-1. Clique no botão **Relatórios** na barra de ação e, em seguida, **Monitoramento de Subscrição** na tela de seleção.
+1. Clique no botão **Relatórios** na barra de ações e, em seguida, **Monitoramento de Subscrições** na tela de seleção.
 
    ![](assets/lp_monitoring_subscriptions_3.png)
 
