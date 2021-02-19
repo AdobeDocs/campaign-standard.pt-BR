@@ -30,7 +30,7 @@ A notificação por push é suportada pelos SDKs Experience Platform.
 
 Os aplicativos móveis que recebem notificações por push devem ser configurados por um administrador na interface do Adobe Campaign.
 
-Ao configurar o Adobe Campaign e o Adobe Mobile Services, você poderá usar os dados do aplicativo móvel para suas campanhas. Para obter mais informações, consulte esta [página](https://helpx.adobe.com/br/campaign/kb/configuring-app-sdk.html).
+Ao configurar o Adobe Campaign e o Adobe Mobile Services, você poderá usar os dados do seu aplicativo móvel para suas campanhas. Para obter mais informações, consulte esta [página](https://helpx.adobe.com/br/campaign/kb/configuring-app-sdk.html).
 
 Para enviar notificações por push com um aplicativo Experience Cloud SDK, um aplicativo móvel deve ser configurado no Adobe Experience Platform Launch e configurado no Adobe Campaign. Para obter mais informações, consulte esta [página](https://helpx.adobe.com/br/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
 
