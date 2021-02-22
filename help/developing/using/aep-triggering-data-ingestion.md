@@ -54,8 +54,7 @@ A ingestão imediata de um mapeamento XDM no Adobe Experience Platform é aciona
 >
 >Para executar a chamada de API ingest POST, o usuário deve ter uma função **execução da função SQL**, que pode ser fornecida por um administrador Campaign Standard executando abaixo o Script JS:
 >
->
-```
+>```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```

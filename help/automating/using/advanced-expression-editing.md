@@ -106,7 +106,8 @@ As expressões JavaScript são constituídas por uma ou várias condições e us
    * **&lt;value2>** é um campo, uma função ou um valor inserido manualmente.
 
    >[!NOTE]
-   Os dados dos tipos **&lt;context>** e **&lt;value2>** devem ser idênticos. Por exemplo, se **&lt;context>** for uma data, **&lt;value2>** também deverá ser uma data.
+   >
+   >Os dados dos tipos **&lt;context>** e **&lt;value2>** devem ser idênticos. Por exemplo, se **&lt;context>** for uma data, **&lt;value2>** também deverá ser uma data.
 
 * Se quiser usar várias condições, elas poderão ser combinadas usando operadores lógicos.
 
