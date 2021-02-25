@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: cb903760fc8fa6168b97a2b02ab7896cd1a8b250
+source-git-commit: d4f689084974c18e5b2836ec0f2867ebdc137a4d
 workflow-type: tm+mt
-source-wordcount: '2627'
-ht-degree: 98%
+source-wordcount: '2478'
+ht-degree: 99%
 
 ---
 
@@ -63,29 +63,31 @@ ht-degree: 98%
 </tbody> 
 </table>
 
+<!--
 <table> 
 <thead> 
 <tr> 
-<th> <strong>Interface unificada da Experience Cloud</strong><br /> </th> 
+<th> <strong>Unified Experience Cloud interface</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
 <td>
-<p>A barra de cabeçalho do Adobe Campaign foi alterada para unificar e melhorar sua experiência em todos os produtos e serviços da Experience Cloud. Essas alterações foram projetadas para facilitar sua vida, inclusive:</p>
+<p>Adobe Campaign header bar has been changed to unify and improve your experience across all Experience Cloud products and services. These changes are designed to make your life easier, including:</p>
 <ul>
-<li>É mais fácil alternar entre suas organizações ou mudar de aplicativo.</li>
-<li>Ajuda do usuário aprimorada: com a inclusão da Experience League no produto, os resultados da pesquisa também abrangem resultados de fóruns da comunidade e mais conteúdo de vídeo, facilitando o acesso a mais conteúdo para aproveitar ao máximo o aplicativo. Também adicionamos um mecanismo de feedback diretamente no menu Ajuda, facilitando o relato de problemas ou o compartilhamento de suas ideias.</li>
-<li>Notificações aprimoradas: o menu suspenso Notificações agora tem duas guias, uma para suas próprias notificações de produtos e uma para anúncios de produtos mais globais.</li>
+<li>Easier switching between your organizations or to a different application.</li>
+<li>Improved User Help – Bringing the Experience League into the product, search results also include results from community forums and more video content, giving you easier access to more content to help get the most out of the application. We've also added a feedback mechanism right in the Help menu, making it easier to report issues or share your ideas.</li>
+<li>Improved Notifications – Notifications drop-down now has two tabs: one for your own product notifications, and one for more global product announcements.</li>
 </ul>
-<p>Para obter mais informações consulte a <a href="../../start/using/interface-description.md#top-bar">documentação detalhada</a>.
+<p>For more information refer to the <a href="../../start/using/interface-description.md#top-bar">detailed documentation</a>.
 </p>
-<p>NOTA: Essa mudança será progressivamente distribuída para todos os ambientes do cliente entre 10 de fevereiro e 1 de março.
+<p>NOTE: This change will be progressively rolled out to all customer environments between Feb 10 and March 1st.
 </p>
 </td> 
 </tr> 
 </tbody> 
 </table>
+-->
 
 **Aprimoramentos**
 
@@ -99,7 +101,7 @@ ht-degree: 98%
 
 * Uma nova função **GetOption** agora está disponível em atividades usando variáveis de evento depois de chamar um fluxo de trabalho com parâmetros externos. Permite retornar o valor de uma função especificada. [Saiba mais](../../automating/using/customizing-workflow-external-parameters.md)
 
-* Uma nova opção permite que o Campaign Standard verifique a disponibilidade da memória física **no seu sistema antes de iniciar um fluxo de trabalho.** Se a quantidade de memória for muito baixa, a execução do fluxo de trabalho será atrasada até que a memória do sistema atinja esse limite. Isso evita uma maior degradação do desempenho e reduz o risco de uma interrupção. O fluxo de trabalho será retomado automaticamente quando a carga no servidor diminuir e a memória aumentar. Observe que essa opção é somente leitura e não pode ser modificada. [Saiba mais](../../automating/using/best-practices-workflows.md#execution)
+* Uma nova opção permite que o Campaign Standard verifique a disponibilidade da memória física **no seu sistema antes de iniciar um fluxo de trabalho.** Se a quantidade de memória for muito baixa, a execução do workflow será atrasada até que a memória do sistema atinja esse limite. Isso evita uma maior degradação do desempenho e reduz o risco de uma interrupção. O workflow será retomado automaticamente quando a carga no servidor diminuir e a memória aumentar. Observe que essa opção é somente leitura e não pode ser modificada. [Saiba mais](../../automating/using/best-practices-workflows.md#execution)
 
 * No Adobe Campaign Standard, está disponível um novo processo que permite migrar mais facilmente do aplicativo para dispositivos móveis herdado SDK v4 para o **SDK móvel da Adobe Experience Platform**. Consulte [esta página](../../administration/using/sdkv4-migration.md).
 
@@ -145,7 +147,7 @@ ht-degree: 98%
 
 * Correção de um problema quando o SDK móvel enviava uma solicitação de rastreamento aberta com base na condição de que deliveryId/MessageID não fosse nulo. Isso resultava em erros 404 para entregas com rastreamento desativado. Uma variável adicional (acsDeliveryTracking) com informações sobre o status de rastreamento da entrega agora é enviada na carga. Essa variável pode ter dois valores ativados ou desativados dependendo do status de rastreamento definido. [Saiba mais](../../administration/using/push-tracking.md).
 
-* Correção de um problema em workflows que ocorria ao copiar e colar uma atividade **Desduplicação** executada uma vez e que aproveitava um recurso temporário. Depois de duplicado, o recurso de atividade era automaticamente definido como vazio, resultando em problemas em outras atividades do fluxo de trabalho. Depois de colado, o recurso de atividade permanecerá o mesmo, para que o erro seja acionado o mais rápido possível, em vez de posteriormente, no fluxo de trabalho. (CAMP-46903)
+* Correção de um problema em workflows que ocorria ao copiar e colar uma atividade **Desduplicação** executada uma vez e que aproveitava um recurso temporário. Depois de duplicado, o recurso de atividade era automaticamente definido como vazio, resultando em problemas em outras atividades do workflow. Depois de colado, o recurso de atividade permanecerá o mesmo, para que o erro seja acionado o mais rápido possível, em vez de posteriormente, no workflow. (CAMP-46903)
 
 * Correção de um problema que causava falha na análise da entrega ao enviar perfis de direcionamento de mensagem transacional por push introduzindo um novo [target mapping](../../administration/using/target-mappings-in-campaign.md): **Perfil - evento em tempo real para Push** (*mapRtEventAppSubRcp*). A entrega, a exclusão e os logs de rastreamento de [notificações por push transacionais direcionadas a um perfil](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) serão armazenados nas tabelas *broadLogAppSubRcp*, *excludeLogAppSubRcp* e *trackingLogAppSubRcp*.
 * Correção de um problema que impedia a execução de relatórios do delivery quando 5000 linhas eram exibidas.
@@ -180,7 +182,7 @@ ht-degree: 98%
 * Correção de um problema que poderia impedir o recebimento de relatórios agendados por email. (CAMP-46891)
 * Correção de um problema que ocorria ao vincular um recurso personalizado ao recurso do perfil com um link simples de cardinalidade 1. Ao acessar um perfil com o campo de recurso personalizado vazio, agora uma mensagem de erro é exibida em vez de uma lista vazia.
 * Correção de um problema ao usar substituição de perfil em um fluxo de trabalho em que a página não carregava os perfis de entrega ao selecionar o perfil a ser substituído. (CAMP-46522)
-* Correção de uma regressão em que o fluxo de trabalho técnico **Limpeza de banco de dados** tentava soltar as tabelas de trabalho de entrega expiradas, resultando nos seguintes erros: (CAMP-46536)
+* Correção de uma regressão em que o fluxo de trabalho técnico **Limpeza de banco de dados** tentava eliminar as tabelas de trabalho de entrega expiradas, resultando nos seguintes erros: (CAMP-46536)
 
 ```
    PGS-220000 PostgreSQL error: ERROR: table ""wkdlv_24439460_data"" does not exist and WDB-200001 SQL statement 'DROP TABLE wkdlv_24448131_data' could not be executed.
