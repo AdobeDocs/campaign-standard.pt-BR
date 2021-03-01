@@ -53,7 +53,7 @@ Os diferentes menus disponíveis são:
 
 <img src="assets/do-not-localize/icon_users.svg"  width="60px">
 
-Convide usuários para acessar o aplicativo e gerenciar **grupos de segurança**, que são conjuntos de usuários que compartilham as mesmas funções e direitos em sua organização. Por padrão, a Adobe Campaign oferta um conjunto de **funções** que permite definir autorizações unitárias atribuídas a usuários e grupos de usuários. Combinadas com **unidades organizacionais**, as funções fornecem aos usuários uma visualização filtrada da interface e definem seu acesso aos diferentes recursos.
+Convide usuários para acessar o aplicativo e gerenciar **grupos de segurança**, que são conjuntos de usuários que compartilham as mesmas funções e direitos em sua organização. Por padrão, o Adobe Campaign oferece um conjunto de **funções** que permite definir autorizações unitárias atribuídas a usuários e grupos de usuários. Combinadas com **unidades organizacionais**, as funções dão aos usuários uma visualização filtrada da interface e definem o acesso aos diferentes recursos.
 
 O padrão de campanha também permite monitorar informações relacionadas à segurança. Você pode recuperar informações relacionadas às exportações de dados realizadas pelos usuários por meio da tela **[!UICONTROL Export audits]** e aproveitar a tela **[!UICONTROL Licenses]** para monitorar todas as licenças de Campanha instaladas em sua organização, bem como informações diferentes, como o número da compilação, a versão da versão e os termos do contrato.
 
