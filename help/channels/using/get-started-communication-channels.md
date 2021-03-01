@@ -57,10 +57,10 @@ Além disso, aproveite a Campaign Standard **personalização e os recursos de c
 Leia mais:
 
 * [Criação de emails](../../channels/using/about-emails.md)
-* [Criando mensagem SMS](../../channels/using/about-sms-messages.md)
-* [Criando notificações por push](../../channels/using/about-push-notifications.md)
+* [Criar mensagem SMS](../../channels/using/about-sms-messages.md)
+* [Criação de notificações por push](../../channels/using/about-push-notifications.md)
 * [Criar mensagens no aplicativo](../../channels/using/about-in-app-messaging.md)
-* [Criando delivery de mala direta](../../channels/using/about-direct-mail.md)
+* [Criação de deliveries de correspondência direta](../../channels/using/about-direct-mail.md)
 
 ## Mensagens transacionais {#transactional-messages}
 
