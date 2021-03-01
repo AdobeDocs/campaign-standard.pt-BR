@@ -32,7 +32,7 @@ O Relatórios dinâmico fornece relatórios totalmente personalizáveis e em tem
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Com o relatórios dinâmico **arraste e solte a interface**, você pode explorar dados, determinar como suas campanhas de e-mail foram executadas em relação aos segmentos de clientes mais importantes e medir seu impacto nos recipient de um único lugar.
+Com a **interface de arrastar e soltar do Dynamic Reporting**, você pode explorar dados, determinar o desempenho de suas campanhas de email em relação aos segmentos de clientes mais importantes e medir seu impacto nos recipients de um único lugar.
 
 **Gerencie seus** relatórios dinâmicos graças a várias funcionalidades: atualize os dados em tempo real, imprima seus relatórios ou exporte-os como arquivos CSV. Você também pode compartilhar seus relatórios com usuários do Campaign Standard por meio de emails instantâneos ou recorrentes.
 
@@ -80,8 +80,8 @@ Leia mais:
 
 ## Vídeo tutorial {#video}
 
-Este vídeo fornece uma visão geral sobre os recursos do relatórios Adobe Campaign Standard.
+Este vídeo fornece uma visão geral sobre os recursos de relatório do Adobe Campaign Standard.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
 
-Vídeos de procedimentos de Campaign Standard adicionais estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
+Os vídeos de instruções adicionais do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
