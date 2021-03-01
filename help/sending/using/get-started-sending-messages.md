@@ -76,7 +76,7 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_deliverability.svg"  width="60px">
 
-A capacidade de entrega permite medir o sucesso de suas campanhas ao chegar à sua caixa de entrada de recipient sem saltar ou ser marcado como spam.
+A capacidade de delivery permite medir o sucesso das campanhas em chegar à caixa de entrada dos recipients sem rejeição ou sem serem marcadas como spam.
 
 O Campaign Standard fornece várias **ferramentas de entrega** para ajudá-lo a melhorar o número de mensagens entregues com êxito: Relatórios de pensamento do delivery, otimização do tempo de envio, pré-visualização de mensagens, renderização de e-mail, gerenciamento de quarentenas etc.
 
@@ -91,7 +91,7 @@ Leia mais:
 ## Recursos adicionais
 
 * [Criação de emails de teste A/B](../../channels/using/designing-an-a-b-test-email.md)
-* [Introdução aos emails](https://helpx.adobe.com/br/campaign/kb/acs-get-started-with-emails.html)
+* [Introdução a emails](https://helpx.adobe.com/br/campaign/kb/acs-get-started-with-emails.html)
 * [Práticas recomendadas para delivery](../../sending/using/delivery-best-practices.md)
 * [Adicionar um grupo de controle](../../sending/using/control-group.md)
 
@@ -101,4 +101,4 @@ Este vídeo mostra como enviar um email de teste, preparar e enviar um delivery 
 
 >[!VIDEO](https://video.tv.adobe.com/v/24013/)
 
-Vídeos de procedimentos de Campaign Standard adicionais estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
+Os vídeos de instruções adicionais do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
