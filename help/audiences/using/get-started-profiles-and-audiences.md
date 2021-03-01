@@ -62,7 +62,7 @@ Antes de começar a enviar mensagens para um contato, é necessário certificar-
 
 Com a Campanha, recomendamos que você use **mecanismos fáceis de aceitação e de não participação** por meio de [serviços](../../audiences/using/creating-a-service.md) e [landing page](../../channels/using/getting-started-with-landing-pages.md) para atualizar suas informações de contato e aumentar seu banco de dados.
 
-Fornecer **links de unsubscription** em suas mensagens permitirá que Perfis sejam adicionados à lista de bloqueios, quando necessário, e, portanto, para melhorar a capacidade de entrega da plataforma. Para obter mais informações sobre o gerenciamento de lista de bloqueios, consulte [Sobre a aceitação e a recusa na Campanha](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Fornecer **links de unsubscription** em suas mensagens permitirá que Perfis sejam adicionados à lista de bloqueios, quando necessário, e, portanto, para melhorar a capacidade de entrega da plataforma. Para obter mais informações sobre o gerenciamento de lista de bloqueios, consulte [Sobre a inclusão e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
@@ -77,7 +77,7 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
-A Adobe Campaign oferta um conjunto de ferramentas para ajudá-lo com sua **Conformidade com Privacidade** para RGPD, CCPA e outras leis de privacidade.
+O Adobe Campaign oferece um conjunto de ferramentas para ajudá-lo com sua **Conformidade com privacidade** para GDPR, CCPA e outras leis de privacidade.
 
 Saiba mais neste [artigo](https://helpx.adobe.com/br/campaign/kb/campaign-privacy.html) sobre o Gerenciamento de privacidade e os recursos que fornecemos para gerenciar o direito de acesso, o direito de ser esquecido, o consentimento, a retenção de dados e as funções do usuário.
 
