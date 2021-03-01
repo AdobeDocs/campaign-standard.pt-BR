@@ -23,7 +23,7 @@ ht-degree: 13%
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Importar/exportar dados</a></p></td></tr>
 </table>
 
-A Adobe Campaign oferta um ambiente gráfico abrangente que permite projetar processos complexos, incluindo segmentação, execução de campanhas, processamento de arquivos etc. Por exemplo, você pode usar um fluxo de trabalho para baixar um arquivo de um servidor, descompactá-lo e, em seguida, importar seus registros para o banco de dados da Adobe Campaign.
+A Adobe Campaign oferta um ambiente gráfico abrangente que permite projetar processos complexos, incluindo segmentação, execução de campanhas, processamento de arquivos etc. Por exemplo, você pode usar um workflow para baixar um arquivo de um servidor, descompactá-lo e importar seus registros para o banco de dados do Adobe Campaign.
 
 Um fluxo de trabalho também pode envolver usuários atribuindo tarefas ou fazendo com que eles aprovem tarefas executadas. Isso significa que você pode atribuir uma tarefa a um ou vários usuários para trabalhar com conteúdo ou especificar públicos alvos e aprovar provas antes de enviar a mensagem.
 
@@ -40,7 +40,7 @@ Workflows podem ser usados em contextos diferentes, como por exemplo:
 
 Várias atividades estão disponíveis para ajudá-lo a criar seus workflows.
 
-[Atividades de definição de metas ](../../automating/using/about-targeting-activities.md) permitem criar um ou mais públicos alvos definindo conjuntos e dividindo ou combinando esses conjuntos usando operações de interseção, união ou exclusão.
+[As ](../../automating/using/about-targeting-activities.md) atividades de direcionamento permitem criar um ou mais targets definindo conjuntos e dividindo ou combinando esses conjuntos usando operações de interseção, união ou exclusão.
 
 Com [atividades de execução](../../automating/using/about-execution-activities.md), coordene seu fluxo de trabalho e suas atividades, enquanto [o Canal atividade](../../automating/using/about-channel-activities.md) permite que você combine canais de comunicação Campaign Standard para criar workflows entre canais.
 
