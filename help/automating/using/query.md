@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: bdeb3e0c81cf729436a722bfd349a39d5dcad351
 workflow-type: tm+mt
-source-wordcount: '1710'
-ht-degree: 95%
+source-wordcount: '1757'
+ht-degree: 93%
 
 ---
 
@@ -50,6 +50,11 @@ A atividade **[!UICONTROL Query]** pode ser usada para várias finalidades:
    Para saber mais, consulte [Targeting dimensions e recursos](#targeting-dimensions-and-resources).
 
 1. Na guia **[!UICONTROL Target]**, execute o query definindo e combinando regras.
+
+   >[!NOTE]
+   >
+   >Ao direcionar um público-alvo, observe que a definição do público-alvo não é referenciada, mas **copiada** no query. Se você fizer qualquer alteração no público-alvo depois que ele tiver sido direcionado em um query, certifique-se de configurar o query novamente para considerar a nova definição.
+
 1. Você pode definir **[!UICONTROL Additional data]** para a população direcionada em uma guia dedicada. Esses dados são armazenados em colunas adicionais e só podem ser usados para o workflow em andamento. Especificamente, você pode adicionar dados das tabelas do banco de dados do Adobe Campaign vinculadas ao targeting dimension do query. Consulte a seção [Enriquecimento de dados](#enriching-data).
 
    >[!NOTE]
@@ -58,7 +63,7 @@ A atividade **[!UICONTROL Query]** pode ser usada para várias finalidades:
 
 1. Na guia **[!UICONTROL Transition]**, a opção **[!UICONTROL Enable an outbound transition]** permite adicionar uma transição de saída após a atividade de query, mesmo que ela não recupere dados.
 
-   O código de segmento de saída pode ser personalizado usando uma expressão padrão e variáveis de eventos (consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
+   O código de segmento da transição de saída pode ser personalizado usando uma expressão padrão e variáveis de eventos (consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
 
 1. Confirme a configuração da sua atividade e salve o fluxo de trabalho.
 
@@ -66,7 +71,7 @@ A atividade **[!UICONTROL Query]** pode ser usada para várias finalidades:
 
 Os targeting dimensions e os recursos permitem definir em quais elementos um query se baseará para determinar o público alvo de um delivery.
 
-Eles são configurados em [target mapping](../../administration/using/target-mappings-in-campaign.md) e são definidos ao criar um fluxo de trabalho, na guia **[!UICONTROL Properties]** de uma atividade de Query.
+Eles são configurados em [target mappings](../../administration/using/target-mappings-in-campaign.md) e são definidos ao criar um workflow, na guia **[!UICONTROL Properties]** de uma atividade Query .
 
 >[!NOTE]
 >
@@ -96,7 +101,7 @@ Exemplo de filtros disponíveis para o recurso **[!UICONTROL Deliveries (deliver
 
 Por padrão, o targeting dimension e o recurso são definidos para direcionar perfis. Entretanto, convém usar um recurso diferente do targeting dimension se você quiser procurar um registro específico em uma tabela distante.
 
-Para obter mais informações, consulte este caso de uso: [Utilizar recursos diferentes de targeting dimension](../../automating/using/using-resources-different-from-targeting-dimensions.md)
+Para obter mais informações, consulte este caso de uso: [Uso de recursos diferentes de targeting dimensions](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## Enriquecimento de dados {#enriching-data}
 
@@ -118,7 +123,7 @@ Após adicionar dados adicionais, você poderá aplicar mais um nível de filtro
 >
 >Por padrão, a opção **[!UICONTROL Remove duplicate rows (DISTINCT)]** está marcada nas **[!UICONTROL Advanced options]** da guia **[!UICONTROL Additional data]** do query. Se a atividade **[!UICONTROL Query]** contiver vários (de 100) dados adicionais definidos, é recomendável desmarcar essa opção para otimizar o desempenho. Observe que se essa opção for desmarcada, poderão ocorrer duplicatas, dependendo dos dados consultados.
 
-Um caso de uso sobre como personalizar um email com dados adicionais é apresentado em [esta seção](../../automating/using/personalizing-email-with-additional-data.md).
+Um caso de uso sobre como personalizar um email com dados adicionais é apresentado em [this section](../../automating/using/personalizing-email-with-additional-data.md).
 
 ### Adição de um campo simples {#adding-a-simple-field}
 
