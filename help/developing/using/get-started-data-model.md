@@ -7,7 +7,7 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 translation-type: tm+mt
-source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
+source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 30%
@@ -29,9 +29,9 @@ Estenda o modelo de dados do Campaign Standard com seus próprios campos e recur
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-Os dados usados pela Campanha são definidos por meio de diferentes recursos definidos em um **modelo de dados predefinido**. O modelo de dados exibe uma estrutura SQL predefinida para um conjunto de recursos relacionados a marketing: delivery, audiência, landings page, perfil etc. Cada recurso vem com filtros associados, permitindo que você navegue pelos recursos.
+Os dados usados pelo Campaign são definidos por meio de diferentes recursos definidos em um **modelo de dados predefinido**. O modelo de dados exibe uma estrutura SQL pronta para uso para um conjunto de recursos relacionados a marketing: entrega, público-alvo, páginas de aterrissagem, perfil, etc. Cada recurso vem com filtros associados, permitindo navegar pelos recursos.
 
-O menu **Diagnosis** permite que você lista os objetos técnicos gerados pelo Campaign Standard: schemas de dados, páginas da Web, filtros etc., que permitem monitorar o modelo de dados e qualquer alteração feita nele.
+O menu **Diagnosis** permite listar os objetos técnicos gerados pelo Campaign Standard: esquemas de dados, páginas da Web, filtros etc., que permitem monitorar o modelo de dados e qualquer alteração feita nele.
 
 Leia mais:
 
@@ -44,9 +44,9 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_custom.svg" width="60px">
 
-O Campaign Standard permite **Enriquecer o modelo de dados predefinido** para criar seus próprios recursos (por exemplo, para adicionar tabelas de Compra ou Produto), ou estender os recursos existentes com novos campos. Você também pode configurar telas de Campanha para otimizar a navegação pelos novos recursos e campos que foram criados.
+O Campaign Standard permite **Enriquecer o modelo de dados predefinido** para criar seus próprios recursos (por exemplo, para adicionar tabelas de Compra ou Produto) ou estender os recursos existentes com novos campos. Você também pode configurar as telas do Campaign para otimizar a navegação por meio dos novos recursos e campos que foram criados.
 
-Além disso, você pode **estender APIs Campaign Standard REST** para expor os campos estendidos das APIs para os Perfis de recursos personalizados. Isso permite, por exemplo, atualizar o perfil de um cliente com um código promocional gerado de um sistema de cobrança.
+Além disso, você pode **estender APIs REST do Campaign Standard** para expor nos campos estendidos das APIs os perfis de recursos personalizados. Isso permite, por exemplo, atualizar o perfil de um cliente com um código promocional gerado de um sistema de cobrança.
 
 Leia mais:
 
@@ -63,5 +63,5 @@ Com as APIs do Campaign Standard, crie integrações para o Adobe Campaign Stand
 
 ## Recursos adicionais
 
-* [Sobre o Conector de dados da Adobe Experience Platform](../../developing/using/aep-about-data-connector.md)
+* [Sobre o Conector de dados da Adobe Experience Platform](../../integrating/using/aep-about-data-connector.md)
 * [Exportação/importação de recursos personalizados](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
