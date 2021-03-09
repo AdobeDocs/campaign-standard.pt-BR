@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: 558f88a129264560851832ca70628509661cb208
+source-git-commit: 1b971fbf7b5d36283434db0389534a3dda2ebb45
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '466'
 ht-degree: 97%
 
 ---
@@ -25,9 +25,7 @@ As atualizações são implantadas em duas fases. Primeiro, as instâncias de Pr
 
 Todas as datas de lançamento estão sujeitas a alterações: recomendamos que você visite esta página regularmente para verificar se há atualizações.
 
-**NOVO!** Assine as [notificações de versão do Campaign Standard](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) para receber detalhes sobre as próximas versões diretamente na sua caixa de entrada.
-
-## Versão 21.1 – Versão de fevereiro {#release-21-1-release}
+## Versão 21.2 - Versão de maio {#release-21-2-release}
 
 As atualizações de ambientes ocorrem em ondas, durante os intervalos de tempo indicados abaixo. As datas exatas são comunicadas por email a cada cliente.
 
@@ -43,16 +41,18 @@ Informações detalhadas sobre esta versão estão disponíveis nas [Notas de ve
  <tbody>
   <tr>
    <td>Preparo<br /> </td>
-   <td>1º a 22 de fevereiro de 2021<br /> </td>
+   <td>19 de abril - 20 de abril de 2021<br /> </td>
   </tr>
   <tr>
    <td> Produção<br /> </td>
-   <td>8 de fev - 1 de março de 2021<br /> </td>
+   <td>26 de abril - 3 de maio de 2021<br /> </td>
   </tr>
  </tbody>
 </table>
 
 Caso tenha mais dúvidas, entre em contato com o [Atendimento ao cliente da Adobe](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html).
+
+Assine as [notificações de versão do Campaign Standard](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) para receber detalhes sobre as próximas versões diretamente na sua caixa de entrada.
 
 ## Perguntas e respostas {#questions-and-answers}
 
