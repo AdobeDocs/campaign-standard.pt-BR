@@ -7,9 +7,9 @@ user-guide-description: 'Centro de ajuda para os principais recursos, tarefas, c
 breadcrumb-title: Central de ajuda
 title: Guia do Campaign Standard
 translation-type: tm+mt
-source-git-commit: b6fe1491e3ff519f50e1492abcac7b79dc0e64e6
+source-git-commit: c9db89a98d8b246217add34ce09e6405ce3d5cde
 workflow-type: tm+mt
-source-wordcount: '1759'
+source-wordcount: '1756'
 ht-degree: 99%
 
 ---
@@ -70,10 +70,6 @@ ht-degree: 99%
       + [Sobre participação e não participação no Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Gerenciamento de participação e não participação no Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [Identificar perfis de não participação para uma entrega](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
-   + Trabalhar com a Adobe Experience Platform {#working-with-adobe-experience-platform}
-      + [Sobre o serviço Destinos do Audience](audiences/using/aep-about-audience-destinations-service.md)
-      + [Gerenciamento de públicos da plataforma Adobe Experience](audiences/using/aep-managing-audiences.md)
-      + [Usar o Criador de segmentos](audiences/using/aep-using-segment-builder.md)
 + Canais de comunicação {#communication-channels}
    + [Introdução a canais de comunicação](channels/using/get-started-communication-channels.md)
    + Sobre os canais de comunicação {#about-communication-channels}
@@ -274,6 +270,19 @@ ht-degree: 99%
          + [Gerenciar workflows de sincronização](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Mapear dados entre o Microsoft Dynamics 365 e o Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [Usar a integração com o Microsoft Dynamics 365](integrating/using/d365-acs-using-the-integration.md)
+   + Campanha e Adobe Experience Platform {#adobe-experience-platform}
+      + Serviço de destinos do público-alvo {#audience-destinations}
+         + [Sobre o serviço Destinos do Audience](integrating/using/aep-about-audience-destinations-service.md)
+         + [Gerenciamento de públicos da plataforma Adobe Experience](integrating/using/aep-managing-audiences.md)
+         + [Usar o Criador de segmentos](integrating/using/aep-using-segment-builder.md)
+         + [Definição de públicos da Adobe Experience Platform](integrating/using/aep-targeting-audiences.md)
+         + [Personalização de campanhas usando atributos da Adobe Experience Platform](integrating/using/aep-personalizing-campaigns.md)
+      + Conector de dados da Adobe Experience Platform {#data-connector}
+         + [Sobre o Conector de dados da Adobe Experience Platform](integrating/using/aep-about-data-connector.md)
+         + [Visão geral do Modelo de dados da Experience Platform](integrating/using/aep-data-model-overview.md)
+         + [Definição de mapeamento](integrating/using/aep-mapping-definition.md)
+         + [Ativação de mapeamento](integrating/using/aep-mapping-activation.md)
+         + [Acionando a assimilação de dados por meio de APIs](integrating/using/aep-triggering-data-ingestion.md)
 + Gerenciamento de processos e dados {#managing-processes-and-data}
    + [Introdução ao gerenciamento de dados e processos](automating/using/get-started-workflows.md)
    + Operação geral do workflow {#workflow-general-operation}
@@ -287,7 +296,7 @@ ht-degree: 99%
       + [Monitoramento da execução do workflow](automating/using/monitoring-workflow-execution.md)
       + [Gerenciamento de opções de execução](automating/using/managing-execution-options.md)
       + [Gerenciamento de propriedades de atividades](automating/using/activity-properties.md)
-      + [Workflows programados que sobrepõem a execução](automating/using/scheduled-workflows-execution.md)
+      + [Execução sobreposta de workflows agendados](automating/using/scheduled-workflows-execution.md)
    + Chamada de workflow com parâmetros externos {#calling-workflow-external-parameters}
       + [Visão geral](automating/using/calling-a-workflow-with-external-parameters.md)
       + [Declaração dos parâmetros na atividade de sinal externo](automating/using/declaring-parameters-external-signal.md)
@@ -379,9 +388,6 @@ ht-degree: 99%
          + [Exportar perfis em um arquivo externo](automating/using/exporting-profiles-in-file.md)
          + [Atualização de vários status de assinatura diretamente de um arquivo](automating/using/updating-subscriptions-from-file.md)
          + [Assinatura de perfis para um serviço específico a partir de um arquivo](automating/using/subscribing-profiles-from-file.md)
-   + Trabalhar com públicos da Adobe Experience Platform {#working-with-aep-audiences}
-      + [Definição de públicos da Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
-      + [Personalização de campanhas usando atributos da Adobe Experience Platform](automating/using/aep-personalizing-campaigns.md)
 + Desenvolvimento {#developing}
    + [Introdução ao modelo de dados do Campaign Standard](developing/using/get-started-data-model.md)
    + Sobre recursos personalizados {#about-custom-resources}
@@ -421,12 +427,6 @@ ht-degree: 99%
       + [Logs de rastreamento](developing/using/datamodel-tracking.md)
       + [Evento de cancelamento de assinatura](developing/using/datamodel-unsubscription.md)
       + [Visitante](developing/using/datamodel-visitor.md)
-   + Conector de dados da Adobe Experience Platform {#mapping-campaign-and-aep-data}
-      + [Sobre o Conector de dados da Adobe Experience Platform](developing/using/aep-about-data-connector.md)
-      + [Visão geral do Modelo de dados da Experience Platform](developing/using/aep-data-model-overview.md)
-      + [Definição de mapeamento](developing/using/aep-mapping-definition.md)
-      + [Ativação de mapeamento](developing/using/aep-mapping-activation.md)
-      + [Acionando a assimilação de dados por meio de APIs](developing/using/aep-triggering-data-ingestion.md)
 + Administração {#administrating}
    + [Introdução à administração do Campaign Standard](administration/using/get-started-campaign-administration.md)
    + [Orientações de monitoramento](administration/using/monitoring-guidelines.md)
