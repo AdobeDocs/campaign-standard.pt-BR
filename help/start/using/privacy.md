@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 2879066634a8a123ef5d07d46aa96479f156a923
+source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
 workflow-type: tm+mt
 source-wordcount: '1479'
 ht-degree: 100%
@@ -85,7 +85,7 @@ As [principais legislações](#privacy-regulations) referem-se às diferentes en
 
 Portanto, como uma empresa que coleta e compartilha dados pessoais, você é o Controlador de dados, seus clientes são os Titulares dos dados e o Adobe Campaign atua como um Processador de dados ao tratar os dados pessoais indicados por você. Observe que é sua responsabilidade como Controlador de dados, tratar a relação com os Titulares dos dados, como ao gerenciar [solicitações de privacidade](#privacy-requests).
 
-Ao integrar o Campaign a outras soluções da Experience Cloud, onde os públicos-alvo podem ser transferidos de um sistema para outro, como o serviço do [Audience Destinations](../../audiences/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager ou o serviço principal People](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md), ou outras soluções como o [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md), é necessário ter cuidado extra com a proteção de dados pessoais.
+Ao integrar o Campaign a outras soluções da Experience Cloud, onde os públicos-alvo podem ser transferidos de um sistema para outro, como o serviço do [Audience Destinations](../../integrating/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager ou o serviço principal People](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md), ou outras soluções como o [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md), é necessário ter cuidado extra com a proteção de dados pessoais.
 
 ## Aquisição de dados {#data-acquisition}
 
