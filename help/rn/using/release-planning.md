@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 1b971fbf7b5d36283434db0389534a3dda2ebb45
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -29,7 +29,7 @@ Todas as datas de lançamento estão sujeitas a alterações: recomendamos que v
 
 As atualizações de ambientes ocorrem em ondas, durante os intervalos de tempo indicados abaixo. As datas exatas são comunicadas por email a cada cliente.
 
-Informações detalhadas sobre esta versão estão disponíveis nas [Notas de versão](../../rn/using/release-notes.md) quando as atualizações do ambiente de preparo começam.
+Informações detalhadas sobre esta versão ficam disponíveis nas [Notas de versão](../../rn/using/release-notes.md) quando as atualizações do ambiente de preparo começam.
 
 <table>
  <thead>
