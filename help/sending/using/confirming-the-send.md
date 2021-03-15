@@ -7,11 +7,14 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 context-tags: delivery,deployment,back
+feature: Monitoramento de desempenho
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: d08821c526d54dabc3b74651449a2f01e99c2a6a
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 19%
+source-wordcount: '947'
+ht-degree: 65%
 
 ---
 
@@ -76,7 +79,7 @@ Depois que uma mensagem é enviada, você pode rastrear o comportamento de seus 
 * [Rastreamento de mensagens](../../sending/using/tracking-messages.md)
 * [Monitorar um delivery](../../sending/using/monitoring-a-delivery.md)
 
-### Relatório de delivery bem-sucedido {#delivered-status-report}
+### Relatórios de sucesso do delivery {#delivered-status-report}
 
 >[!NOTE]
 >
@@ -84,47 +87,47 @@ Depois que uma mensagem é enviada, você pode rastrear o comportamento de seus 
 
 Na visualização **[!UICONTROL Summary]** de cada email, a porcentagem **[!UICONTROL Delivered]** começa em 100% e depois diminui progressivamente durante todo o [período de validade](../../administration/using/configuring-email-channel.md#validity-period-parameters) do delivery, à medida que as devoluções temporárias e permanentes são relatadas<!--from the Enhanced MTA to Campaign-->.
 
-Na verdade, todas as mensagens são exibidas como **[!UICONTROL Sent]** no [logs de envio](../../sending/using/monitoring-a-delivery.md#sending-logs) assim que são retransmitidas com êxito do Campaign para o MTA aprimorado (Agente de transferência de mensagens). Eles permanecem nesse status a menos que ou até que um [bounce](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) para essa mensagem seja comunicado de volta do MTA aprimorado para o Campaign.
+Na verdade, todas as mensagens são exibidas como **[!UICONTROL Sent]** no [logs de envio](../../sending/using/monitoring-a-delivery.md#sending-logs) assim que são retransmitidas com êxito do Campaign para o MTA aprimorado (Agente de transferência de mensagens). Eles permanecem com esse status, a menos que uma [rejeição](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) para essa mensagem seja comunicada do MTA aprimorado para o Campaign.
 
-Quando as mensagens de rejeição permanente são relatadas pelo MTA aprimorado, o status muda de **[!UICONTROL Sent]** para **[!UICONTROL Failed]** e a porcentagem **[!UICONTROL Delivered]** é diminuída de acordo.
+Quando mensagens de rejeição permanente são relatadas do MTA aprimorado, seu status muda de **[!UICONTROL Sent]** para **[!UICONTROL Failed]** e a porcentagem de **[!UICONTROL Delivered]** é diminuída de maneira apropriada.
 
-Quando mensagens de rejeição temporária são relatadas no MTA aprimorado, elas ainda são exibidas como **[!UICONTROL Sent]** e a porcentagem **[!UICONTROL Delivered]** ainda não é atualizada. As mensagens de rejeição temporária são então [repetidas](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) durante todo o período de validade do delivery:
+Quando mensagens de rejeição temporária são relatadas do MTA aprimorado, elas ainda são exibidas como **[!UICONTROL Sent]** e a porcentagem de **[!UICONTROL Delivered]** ainda não é atualizada. As mensagens de rejeição temporária são então [tentadas](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) durante todo o período de validade do delivery:
 
-* Se uma tentativa for bem-sucedida antes do fim do período de validade, o status da mensagem permanecerá como **[!UICONTROL Sent]** e a porcentagem **[!UICONTROL Delivered]** permanecerá inalterada.
+* Se uma tentativa for bem-sucedida antes do fim do período de validade, o status da mensagem permanecerá como **[!UICONTROL Sent]** e a porcentagem de **[!UICONTROL Delivered]** permanecerá inalterada.
 
-* Caso contrário, o status será alterado para **[!UICONTROL Failed]** e a porcentagem **[!UICONTROL Delivered]** será diminuída adequadamente.
+* Caso contrário, o status mudará para **[!UICONTROL Failed]** e a porcentagem de **[!UICONTROL Delivered]** será diminuída de maneira apropriada.
 
 Portanto, você deve aguardar até o fim do período de validade para ver a porcentagem final **[!UICONTROL Delivered]** e o número final das mensagens **[!UICONTROL Sent]** e **[!UICONTROL Failed]**.
 
-### Serviço de feedback de email (beta) {#email-feedback-service}
+### Serviço de feedback por email (beta) {#email-feedback-service}
 
-Com o recurso EFS (Serviço de feedback de email), o status de cada email é relatado com precisão, pois o feedback é capturado diretamente do MTA aprimorado (Agente de transferência de mensagens).
+Com o recurso Serviço de feedback por email (EFS), o status de cada email é relatado com precisão, pois o feedback é capturado diretamente do MTA aprimorado (Agente de transferência de mensagem).
 
 >[!IMPORTANT]
 >
->O Serviço de feedback de email está disponível no momento como um recurso beta.
+>O Serviço de feedback por email está disponível no momento como um recurso beta.
 
-Depois que o delivery for iniciado, não haverá alteração na porcentagem **[!UICONTROL Delivered]** quando a mensagem for retransmitida com êxito do Campaign para o MTA aprimorado.
+Depois que o delivery é iniciado, não há alteração na porcentagem de **[!UICONTROL Delivered]** quando a mensagem é transmitida com êxito do Campaign para o MTA aprimorado.
 
 ![](assets/efs-sending.png)
 
-Os logs do delivery mostram o status **[!UICONTROL Pending]** de cada endereço direcionado.
+Os logs do delivery mostram o status **[!UICONTROL Pending]** para cada endereço direcionado.
 
 ![](assets/efs-pending.png)
 
-Quando o delivery de mensagem para os perfis segmentados é relatado em tempo real a partir do MTA aprimorado, os logs do delivery mostram o status **[!UICONTROL Sent]** para cada endereço que recebeu a mensagem com êxito. A porcentagem **[!UICONTROL Delivered]** é aumentada de acordo com cada delivery bem-sucedido.
+Quando o delivery de mensagem para os perfis segmentados é relatado em tempo real a partir do MTA aprimorado, os logs do delivery mostram o status **[!UICONTROL Sent]** para cada endereço que recebeu a mensagem com êxito. A porcentagem de **[!UICONTROL Delivered]** aumenta de acordo com cada delivery bem-sucedido.
 
 Quando mensagens de rejeição permanente são relatadas pelo MTA aprimorado, o status do log muda de **[!UICONTROL Pending]** para **[!UICONTROL Failed]** e a porcentagem **[!UICONTROL Bounces + errors]** é aumentada adequadamente.
 
-Quando as mensagens de rejeição temporária são relatadas de volta do MTA aprimorado, o status do log também muda de **[!UICONTROL Pending]** para **[!UICONTROL Failed]** e a porcentagem **[!UICONTROL Bounces + errors]** é aumentada adequadamente. A porcentagem **[!UICONTROL Delivered]** permanece inalterada. Mensagens de rejeição automática são repetidas durante todo o [período de validade](../../administration/using/configuring-email-channel.md#validity-period-parameters) do delivery:
+Quando as mensagens de rejeição temporária são relatadas de volta do MTA aprimorado, o status do log também muda de **[!UICONTROL Pending]** para **[!UICONTROL Failed]** e a porcentagem **[!UICONTROL Bounces + errors]** é aumentada adequadamente. A porcentagem de **[!UICONTROL Delivered]** permanece inalterada. As mensagens com rejeição temporária são então repetidas durante todo o [período de validade do delivery](../../administration/using/configuring-email-channel.md#validity-period-parameters)
 
-* Se uma tentativa for bem-sucedida antes do fim do período de validade, o status da mensagem será alterado para **[!UICONTROL Sent]** e a porcentagem **[!UICONTROL Delivered]** será aumentada adequadamente.
+* Se uma nova tentativa for bem-sucedida antes do fim do período de validade, o status da mensagem mudará para **[!UICONTROL Sent]** e a porcentagem **[!UICONTROL Delivered]** será aumentada de maneira apropriada.
 
 * Caso contrário, o status permanecerá como **[!UICONTROL Failed]**. As porcentagens **[!UICONTROL Delivered]** e **[!UICONTROL Bounces + errors]** permanecem inalteradas.
 
 >[!NOTE]
 >
->Para obter mais informações sobre devoluções permanentes e temporárias, consulte [esta seção](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+>Para obter mais informações sobre rejeições permanentes e temporárias, consulte [esta seção](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 >
 >Para obter mais informações sobre tentativas após uma falha temporária de delivery, consulte [esta seção](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
@@ -132,24 +135,24 @@ Quando as mensagens de rejeição temporária são relatadas de volta do MTA apr
 
 ### Alterações introduzidas pelo EFS {#changes-introduced-by-efs}
 
-As tabelas abaixo mostram as alterações em KPIs e status de logs de envio introduzidas pelo recurso EFS.
+As tabelas abaixo mostram as alterações nos KPIs e no envio de status de logs introduzidos pelo recurso EFS.
 
-**Com o serviço de feedback de email**
+**Com o serviço de feedback por email**
 
-| Etapa no processo de envio | Resumo de KPI | Enviando status de logs |
+| Etapa do processo de envio | Resumo do KPI | Envio de status de logs |
 |--- |--- |--- |
-| A mensagem é retransmitida com êxito do Campaign para o MTA aprimorado | <ul><li>**[!UICONTROL Delivered]** porcentagem começa em 0%</li><li>**[!UICONTROL Bounces + errors]** porcentagem começa em 0%</li></ul> | Pending |
-| Mensagens de rejeição permanente são relatadas no MTA aprimorado | <ul><li>Nenhuma alteração na porcentagem **[!UICONTROL Delivered]**</li><li>**[!UICONTROL Bounces + errors]** a percentagem é aumentada em conformidade</li></ul> | Failed |
-| Mensagens de rejeição temporária são relatadas no MTA aprimorado | <ul><li>Nenhuma alteração na porcentagem **[!UICONTROL Delivered]**</li><li>**[!UICONTROL Bounces + errors]** a percentagem é aumentada em conformidade</li></ul> | Falha |
-| As tentativas de rejeição automática de mensagens são bem-sucedidas | <ul><li>**[!UICONTROL Delivered]** a percentagem é aumentada em conformidade</li><li>**[!UICONTROL Bounces + errors]** a porcentagem é diminuída de acordo</li></ul> | Sent |
-| Falha nas tentativas de mensagens de rejeição suave | <ul><li> Nenhuma alteração na porcentagem **[!UICONTROL Delivered]** </li><li> Nenhuma alteração na porcentagem **[!UICONTROL Bounces + errors]** </li></ul> | Falha |
+| A mensagem foi transmitida com êxito do Campaign para o MTA aprimorado | <ul><li>**[!UICONTROL Delivered]** porcentagem começa em 0%</li><li>**[!UICONTROL Bounces + errors]** porcentagem começa em 0%</li></ul> | Pending |
+| Mensagens com rejeição permanente são relatadas de volta do MTA aprimorado | <ul><li>Nenhuma alteração na porcentagem de **[!UICONTROL Delivered]**</li><li>A porcentagem de **[!UICONTROL Bounces + errors]** é aumentada de maneira apropriada</li></ul> | Com falha |
+| Mensagens com rejeição temporária são relatadas de volta do MTA aprimorado | <ul><li>Nenhuma alteração na porcentagem de **[!UICONTROL Delivered]**</li><li>A porcentagem de **[!UICONTROL Bounces + errors]** é aumentada de maneira apropriada</li></ul> | Com falha |
+| Tentativas de mensagens com rejeição temporária são bem-sucedidas | <ul><li>A porcentagem de **[!UICONTROL Delivered]** é aumentada de maneira apropriada</li><li>A porcentagem de **[!UICONTROL Bounces + errors]** é reduzida de maneira apropriada</li></ul> | Enviada |
+| Falha nas tentativas de mensagens com rejeição temporária | <ul><li> Nenhuma alteração na porcentagem de **[!UICONTROL Delivered]** </li><li> Nenhuma alteração na porcentagem de **[!UICONTROL Bounces + errors]** </li></ul> | Com falha |
 
-**Sem o serviço de feedback por email**
+**Sem Serviço de feedback por email**
 
-| Etapa no processo de envio | Resumo de KPI | Enviando status de logs |
+| Etapa do processo de envio | Resumo do KPI | Envio de status de logs |
 |--- |--- |--- |
-| A mensagem é retransmitida com êxito do Campaign para o MTA aprimorado | <ul><li>**[!UICONTROL Delivered]** porcentagem começa em 100%</li><li>**[!UICONTROL Bounces + errors]** porcentagem começa em 0%</li></ul> | Enviado |
-| Mensagens de rejeição permanente são relatadas no MTA aprimorado | <ul><li>**[!UICONTROL Delivered]** a porcentagem é diminuída de acordo</li><li>**[!UICONTROL Bounces + errors]** a percentagem é aumentada em conformidade</li></ul> | Falha |
-| Mensagens de rejeição temporária são relatadas no MTA aprimorado | <ul><li>Nenhuma alteração na porcentagem **[!UICONTROL Delivered]**</li><li>Nenhuma alteração na porcentagem **[!UICONTROL Bounces + errors]**</li></ul> | Enviado |
-| As tentativas de rejeição automática de mensagens são bem-sucedidas | <ul><li>Nenhuma alteração na porcentagem **[!UICONTROL Delivered]**</li><li>Nenhuma alteração na porcentagem **[!UICONTROL Bounces + errors]**</li></ul> | Enviado |
-| Falha nas tentativas de mensagens de rejeição suave | <ul><li>**[!UICONTROL Delivered]** a porcentagem é diminuída de acordo</li><li>**[!UICONTROL Bounces + errors]** a percentagem é aumentada em conformidade</li></ul> | Falha |
+| A mensagem foi transmitida com êxito do Campaign para o MTA aprimorado | <ul><li>A porcentagem de **[!UICONTROL Delivered]** começa em 100%</li><li>A porcentagem de **[!UICONTROL Bounces + errors]** começa em 0%</li></ul> | Enviada |
+| Mensagens com rejeição permanente são relatadas de volta do MTA aprimorado | <ul><li>A porcentagem de **[!UICONTROL Delivered]** é reduzida de maneira apropriada</li><li>A porcentagem de **[!UICONTROL Bounces + errors]** é aumentada de maneira apropriada</li></ul> | Com falha |
+| Mensagens com rejeição temporária são relatadas de volta do MTA aprimorado | <ul><li>Nenhuma alteração na porcentagem de **[!UICONTROL Delivered]**</li><li>Nenhuma alteração na porcentagem de **[!UICONTROL Bounces + errors]**</li></ul> | Enviada |
+| Tentativas de mensagens com rejeição temporária são bem-sucedidas | <ul><li>Nenhuma alteração na porcentagem de **[!UICONTROL Delivered]**</li><li>Nenhuma alteração na porcentagem de **[!UICONTROL Bounces + errors]**</li></ul> | Enviada |
+| Falha nas tentativas de mensagens com rejeição temporária | <ul><li>A porcentagem de **[!UICONTROL Delivered]** é reduzida de maneira apropriada</li><li>A porcentagem de **[!UICONTROL Bounces + errors]** é aumentada de maneira apropriada</li></ul> | Com falha |
