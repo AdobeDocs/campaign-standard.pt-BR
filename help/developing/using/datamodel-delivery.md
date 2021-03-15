@@ -2,13 +2,16 @@
 solution: Campaign Standard
 product: campaign
 title: DataModel
-description: Saiba mais sobre o modelo de dados
+description: Saiba mais sobre o datamodel
 audience: developing
 content-type: reference
+feature: Modelo de dados
+role: Desenvolvedor
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '691'
 ht-degree: 10%
 
 ---
@@ -23,7 +26,7 @@ ht-degree: 10%
                   <th>Nome</th>
                   <th>Rótulo</th>
                   <th>Tipo (comprimento)</th>
-                  <th>valores de lista discriminada</th>
+                  <th>Valores de enumeração</th>
                </tr>
                <tr>
                   <td>FCP</td>
@@ -33,7 +36,7 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>ID do recurso principal</td>
+                  <td>ID de recurso principal</td>
                   <td>string </td>
                   <td> </td>
                </tr>
@@ -44,7 +47,7 @@ ht-degree: 10%
                   <td> </td>
                </tr>
                <tr>
-                  <td>advanced</td>
+                  <td>avançado</td>
                   <td>Delivery avançado</td>
                   <td>booleano </td>
                   <td> </td>
@@ -57,7 +60,7 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>aemContents</td>
-                  <td>Conteúdo do Adobe Experience Manager</td>
+                  <td>Conteúdos do Adobe Experience Manager</td>
                   <td>coleção </td>
                   <td> </td>
                </tr>
@@ -74,7 +77,7 @@ ht-degree: 10%
                   <td> </td>
                </tr>
                <tr>
-                  <td>ligação</td>
+                  <td>anexo</td>
                   <td>Arquivos anexados</td>
                   <td>coleção </td>
                   <td> </td>
@@ -86,19 +89,19 @@ ht-degree: 10%
                   <td> </td>
                </tr>
                <tr>
-                  <td>wideLogs</td>
+                  <td>broadLogs</td>
                   <td>Logs do delivery</td>
                   <td>coleção </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>buildIn</td>
-                  <td>Objeto de aplicativo incorporado</td>
+                  <td>build</td>
+                  <td>Objeto de aplicativo integrado</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>campanha (campaignBase)</td>
+                  <td>campaign (campaignBase)</td>
                   <td>Campanha</td>
                   <td>link </td>
                   <td> </td>
@@ -123,13 +126,13 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>contentSource</td>
-                  <td>Fonte do conteúdo</td>
-                  <td>lista discriminada (byte) </td>
+                  <td>Fonte de conteúdo</td>
+                  <td>enumeração (byte) </td>
                   <td>
                      <ul>
                         <li>Adobe Experience Manager - aem - 1</li>
                         <li>Adobe Campaign - campanha - 0</li>
-                        <li>VALOR INVÁLIDO - __Valor_inválido__ - __Valor_inválido__</li>
+                        <li>VALOR INVÁLIDO - __Valor_Inválido__ - __Valor_Inválido__</li>
                      </ul>
                   </td>
                </tr>
@@ -142,7 +145,7 @@ ht-degree: 10%
                <tr>
                   <td>criado</td>
                   <td>Criado</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -153,14 +156,14 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>deliveryMode</td>
-                  <td>modo delivery</td>
-                  <td>lista discriminada (byte) </td>
+                  <td>Modo de entrega</td>
+                  <td>enumeração (byte) </td>
                   <td>
                      <ul>
                         <li>Delivery em massa - em massa - 1</li>
                         <li>Mid-sourcing - midSourcing - 4</li>
                         <li>Descrição - descritiva - 2</li>
-                        <li>VALOR INVÁLIDO - __Valor_inválido__ - __Valor_inválido__</li>
+                        <li>VALOR INVÁLIDO - __Valor_Inválido__ - __Valor_Inválido__</li>
                         <li>Externo - externo - 0</li>
                      </ul>
                   </td>
@@ -179,7 +182,7 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>emailPreview</td>
-                  <td>Pré-visualização de email</td>
+                  <td>Visualização de email</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -202,15 +205,15 @@ ht-degree: 10%
                   <td> </td>
                </tr>
                <tr>
-                  <td>executeType</td>
+                  <td>executionType</td>
                   <td>Tipo de execução</td>
-                  <td>lista discriminada (byte) </td>
+                  <td>enumeração (byte) </td>
                   <td>
                      <ul>
-                        <li>Único - uma vez - 0</li>
+                        <li>Exclusivo - uma vez - 0</li>
                         <li>Contínuo - contínuo - 1</li>
                         <li>Centro de mensagens - messageCenter - 2</li>
-                        <li>VALOR INVÁLIDO - __Valor_inválido__ - __Valor_inválido__</li>
+                        <li>VALOR INVÁLIDO - __Valor_Inválido__ - __Valor_Inválido__</li>
                      </ul>
                   </td>
                </tr>
@@ -235,27 +238,27 @@ ht-degree: 10%
                <tr>
                   <td>ícone</td>
                   <td>Ícone</td>
-                  <td>lista discriminada (byte) </td>
+                  <td>enumeração (byte) </td>
                   <td>
                      <ul>
                         <li>Email transacional - emailLightning - 60</li>
-                        <li>Fax - Fax - 4</li>
+                        <li>Fax - 4</li>
                         <li>Móvel (SMS) - sms - 1</li>
                         <li>Email recorrente - emailRefresh - 30</li>
-                        <li>Mala direta - papel - 3</li>
-                        <li>Telefone - telefone - 2</li>
+                        <li>Correspondência direta - papel - 3</li>
+                        <li>Telefone - Telefone - 2</li>
                         <li>Outros - outros - 120</li>
                         <li>SMS recorrente - smsRefresh - 31</li>
-                        <li>Aplicativo móvel - pushNotification - 40</li>
+                        <li>Aplicativo móvel - notificação por push - 40</li>
                         <li>SMS transacional - smsLightning - 61</li>
                         <li>Email - email - 0</li>
-                        <li>VALOR INVÁLIDO - __Valor_inválido__ - __Valor_inválido__</li>
+                        <li>VALOR INVÁLIDO - __Valor_Inválido__ - __Valor_Inválido__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>É um recurso externo</td>
+                  <td>É recurso externo</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -279,7 +282,7 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>trabalho</td>
-                  <td>Trabalho</td>
+                  <td>Tarefa</td>
                   <td>coleção </td>
                   <td> </td>
                </tr>
@@ -304,13 +307,13 @@ ht-degree: 10%
                <tr>
                   <td>lastModified</td>
                   <td>Última modificação</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>logicalStatus</td>
                   <td>Status de execução</td>
-                  <td>lista discriminada (string) (255)</td>
+                  <td>enumeration (string) (255)</td>
                   <td>
                      <ul>
                         <li>Em andamento - iniciado - iniciado</li>
@@ -318,31 +321,31 @@ ht-degree: 10%
                         <li>Concluído - concluído - concluído</li>
                         <li>Aviso - aviso - aviso</li>
                         <li>Errado - erro - erro</li>
-                        <li>VALOR INVÁLIDO - __Valor_inválido__ - __Valor_inválido__</li>
+                        <li>VALOR INVÁLIDO - __Valor_Inválido__ - __Valor_Inválido__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>mailParameters</td>
-                  <td>Parâmetros de cabeçalho de email</td>
+                  <td>Parâmetros do cabeçalho do email</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>mainDate</td>
                   <td>Data</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>mapeamento (deliveryMapping)</td>
+                  <td>mapping (deliveryMapping)</td>
                   <td>Target mapping</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>principal (deliveryBase)</td>
-                  <td>instância principal</td>
+                  <td>Instância principal</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -355,17 +358,17 @@ ht-degree: 10%
                <tr>
                   <td>messageType</td>
                   <td>Canal </td>
-                  <td>lista discriminada (byte) </td>
+                  <td>enumeração (byte) </td>
                   <td>
                      <ul>
-                        <li>Fax - Fax - 4</li>
+                        <li>Fax - 4</li>
                         <li>Móvel (SMS) - sms - 1</li>
                         <li>Email - email - 0</li>
-                        <li>Telefone - telefone - 2</li>
-                        <li>Mala direta - papel - 3</li>
-                        <li>Aplicativo móvel - pushNotification - 40</li>
+                        <li>Telefone - Telefone - 2</li>
+                        <li>Correspondência direta - papel - 3</li>
+                        <li>Aplicativo móvel - notificação por push - 40</li>
                         <li>Outros - outros - 120</li>
-                        <li>VALOR INVÁLIDO - __Valor_inválido__ - __Valor_inválido__</li>
+                        <li>VALOR INVÁLIDO - __Valor_Inválido__ - __Valor_Inválido__</li>
                      </ul>
                   </td>
                </tr>
@@ -400,19 +403,19 @@ ht-degree: 10%
                   <td> </td>
                </tr>
                <tr>
-                  <td>prioridade</td>
+                  <td>priority</td>
                   <td>Prioridade do delivery</td>
-                  <td>lista discriminada (byte) </td>
+                  <td>enumeração (byte) </td>
                   <td>
                      <ul>
-                        <li>Alto - alto - 20</li>
-                        <li>VALOR INVÁLIDO - __Valor_inválido__ - __Valor_inválido__</li>
+                        <li>Alta - alta - 20</li>
+                        <li>VALOR INVÁLIDO - __Valor_Inválido__ - __Valor_Inválido__</li>
                         <li>Normal - normal - 10</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>programa (programBase)</td>
+                  <td>program (programBase)</td>
                   <td>Programa</td>
                   <td>link </td>
                   <td> </td>
@@ -425,13 +428,13 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>pushNotificationPreview</td>
-                  <td>Pré-visualização de notificação por push</td>
+                  <td>Visualização da notificação por push</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>pushnotificationParameters</td>
-                  <td>Parâmetros de PushNotification</td>
+                  <td>Parâmetros PushNotification</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -449,13 +452,13 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>ribbonMessage</td>
-                  <td>Mensagem de faixa</td>
+                  <td>Mensagem de fita</td>
                   <td>string </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>cenário</td>
-                  <td>Parâmetros do template do delivery</td>
+                  <td>Parâmetros do template Delivery</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -467,53 +470,53 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>smsParameters</td>
-                  <td>Parâmetros SMS</td>
+                  <td>Parâmetros de SMS</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>smsPreview</td>
-                  <td>PRÉ-VISUALIZAÇÃO SMS</td>
+                  <td>Visualização de SMS</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>estado</td>
+                  <td>state</td>
                   <td>Status</td>
-                  <td>lista discriminada (byte) </td>
+                  <td>enumeração (byte) </td>
                   <td>
                      <ul>
-                        <li>Start pendente - startWait - 51</li>
+                        <li>Iniciar pendente - startPending - 51</li>
                         <li>Pronto para ser entregue - pronto - 45</li>
-                        <li>Tentativa pendente - nova tentativa pendente - 61</li>
-                        <li>Tentar novamente em andamento - tentarEmAndamento - 62</li>
+                        <li>Tentativa pendente - retryPending - 61</li>
+                        <li>Tentativa em andamento - retryInProgress - 62</li>
                         <li>Falha - falha - 87</li>
                         <li>Em andamento - iniciado - 55</li>
-                        <li>Definição de metas pendente - targetPrepCurrent - 11</li>
-                        <li>Personalização pendente - messagePrepCurrent - 21</li>
+                        <li>Direcionamento pendente - targetPrepPending - 11</li>
+                        <li>Personalização pendente - messagePrepPending - 21</li>
                         <li>Pausado - pausado - 75</li>
                         <li>Edição - edição - 0</li>
                         <li>Concluído - concluído - 95</li>
                         <li>Contagem em andamento - targetSelection - 12</li>
                         <li>Mensagem finalizada - messageReady - 25</li>
-                        <li>Falha na personalização ou contagem - prepareError - 37</li>
+                        <li>Falha na personalização ou contagem - preparationError - 37</li>
                         <li>Parado - cancelado - 85</li>
-                        <li>Personalização em andamento - messagePreparação - 22</li>
-                        <li>Pronto para público alvo - targetReady - 15</li>
-                        <li>VALOR INVÁLIDO - __Valor_inválido__ - __Valor_inválido__</li>
-                        <li>Arbitragem em curso - targetArbitration - 13</li>
+                        <li>Personalização em andamento - messagePreparation - 22</li>
+                        <li>Pronto para Target - targetReady - 15</li>
+                        <li>VALOR INVÁLIDO - __Valor_Inválido__ - __Valor_Inválido__</li>
+                        <li>Arbitragem em andamento - targetArbitration - 13</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>públicos alvos</td>
-                  <td>População de públicos alvos delivery</td>
+                  <td>targets</td>
+                  <td>População do target de delivery</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>template (deliveryTemplateSummary)</td>
-                  <td>Template do delivery</td>
+                  <td>Modelo de delivery</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -530,7 +533,7 @@ ht-degree: 10%
                   <td> </td>
                </tr>
                <tr>
-                  <td>rastreamento</td>
+                  <td>tracking</td>
                   <td>Parâmetros de rastreamento</td>
                   <td>item </td>
                   <td> </td>
@@ -543,13 +546,13 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>trackingUrls</td>
-                  <td>URLs acompanhados</td>
+                  <td>URLs rastreados</td>
                   <td>coleção </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>triggerMessage</td>
-                  <td>Parâmetros do mensagen transacional</td>
+                  <td>Parâmetros da mensagem transacional</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -561,14 +564,14 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>workflow (workflowBase)</td>
-                  <td>Fluxo de trabalho de definição de metas</td>
+                  <td>Fluxo de trabalho de direcionamento</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>workflowStatus</td>
-                  <td>Status do fluxo de trabalho</td>
-                  <td>lista discriminada (string) (255)</td>
+                  <td>Status do workflow</td>
+                  <td>enumeration (string) (255)</td>
                   <td>
                      <ul>
                         <li>Em andamento - iniciado - iniciado</li>
@@ -576,7 +579,7 @@ ht-degree: 10%
                         <li>Concluído - concluído - concluído</li>
                         <li>Aviso - aviso - aviso</li>
                         <li>Errado - erro - erro</li>
-                        <li>VALOR INVÁLIDO - __Valor_inválido__ - __Valor_inválido__</li>
+                        <li>VALOR INVÁLIDO - __Valor_Inválido__ - __Valor_Inválido__</li>
                      </ul>
                   </td>
                </tr>
@@ -584,7 +587,7 @@ ht-degree: 10%
 
 ## Filtros
 
-Por tipo de canal (byChannel)
+Por tipo de canal (porCanal)
 
 <table>
     <tr>
@@ -593,7 +596,7 @@ Por tipo de canal (byChannel)
     </tr>
     <tr>
     <td>canal</td>
-    <td>lista discriminada</td>
+    <td>enumeração</td>
     </tr>
 </table>
 
@@ -605,8 +608,8 @@ Por tipo de execução (byExecutionType)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>executeType</td>
-    <td>lista discriminada</td>
+    <td>executionType</td>
+    <td>enumeração</td>
     </tr>
 </table>
 
@@ -618,12 +621,12 @@ Por status lógico (byLogicalStatus)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>estado</td>
-    <td>lista discriminada</td>
+    <td>state</td>
+    <td>enumeração</td>
     </tr>
 </table>
 
-Por nome ou rótulo (por texto)
+Por nome ou rótulo (byText)
 
 <table>
     <tr>
@@ -640,7 +643,7 @@ Por nome ou rótulo (por texto)
     </tr>
 </table>
 
-Por período (por período)
+Por período (porPeríodo)
 
 <table>
     <tr>
@@ -653,7 +656,7 @@ Por período (por período)
     </tr>
 </table>
 
-Por período (porStartPeriod)
+Por período (byStartPeriod)
 
 <table>
     <tr>
@@ -662,7 +665,7 @@ Por período (porStartPeriod)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
     <tr>
     <td>timePeriod</td>
@@ -670,7 +673,7 @@ Por período (porStartPeriod)
     </tr>
 </table>
 
-Por status de publicação (byPublishingStatus)
+Por status de publicação (byPublicationStatus)
 
 <table>
     <tr>
@@ -679,11 +682,11 @@ Por status de publicação (byPublishingStatus)
     </tr>
     <tr>
     <td>pStatus</td>
-    <td>lista discriminada</td>
+    <td>enumeração</td>
     </tr>
 </table>
 
-Por status (por estado)
+Por status (porEstado)
 
 <table>
     <tr>
@@ -691,8 +694,8 @@ Por status (por estado)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>estado</td>
-    <td>lista discriminada</td>
+    <td>state</td>
+    <td>enumeração</td>
     </tr>
 </table>
 
@@ -709,7 +712,7 @@ Mensagens de acompanhamento (showSegulowup)
     </tr>
 </table>
 
-Incluir delivery avançados (comAdvanced)
+Incluir deliveries avançados (comAdvanced)
 
 <table>
     <tr>
@@ -717,12 +720,12 @@ Incluir delivery avançados (comAdvanced)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>advanced</td>
+    <td>avançado</td>
     <td>booleano</td>
     </tr>
 </table>
 
-Incluir delivery contínuos de uma lista heterogênea (comContínuo)
+Incluir deliveries contínuos de uma lista heterogênea (com Contínuo)
 
 <table>
     <tr>
@@ -743,12 +746,12 @@ Incluir provas (com FCP)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>withFCP</td>
+    <td>comFCP</td>
     <td>booleano</td>
     </tr>
 </table>
 
-Planejado durante o período especificado (pelo Planning)
+Planejado durante o período especificado (byPlanning)
 
 <table>
     <tr>
@@ -757,15 +760,15 @@ Planejado durante o período especificado (pelo Planning)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
 </table>
 
-Presente durante determinado período (porCalendar)
+Apresentar durante um determinado período (porCalendário)
 
 <table>
     <tr>
@@ -774,15 +777,15 @@ Presente durante determinado período (porCalendar)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
 </table>
 
-Mostrar predefinido (showOob)
+Mostrar pronto para uso (showOob)
 
 <table>
     <tr>
@@ -790,7 +793,7 @@ Mostrar predefinido (showOob)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>bobajada</td>
+    <td>oob</td>
     <td>booleano</td>
     </tr>
 </table>
