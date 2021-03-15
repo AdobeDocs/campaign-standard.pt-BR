@@ -2,15 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: '"Etapa 2: publicar a extensão"'
-description: null
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
+feature: Modelo de dados
+role: Desenvolvedor
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 33%
+source-wordcount: '97'
+ht-degree: 31%
 
 ---
 
@@ -25,11 +27,11 @@ ht-degree: 33%
 
    >[!NOTE]
    >
-   >Se a API já tiver sido publicada (ou seja, se você já tiver verificado essa opção uma vez, para este recurso ou outro recurso), a atualização da API será forçada.
+   >Se a API já tiver sido publicada (ou seja, se você já tiver verificado essa opção uma vez, para esse recurso ou outro recurso), a atualização da API será forçada.
 
 1. Clique na guia **[!UICONTROL Profiles & Services API Preview]**.
 
-   Isso mostrará as alterações que a publicação da API aplicará à versão atual da API profileAndServicesExt.
+   Isso mostrará as alterações que a publicação da API aplicará à versão atual da API profilesAndServicesExt.
 
    Aqui, o campo Código promocional (ID: cusBrand) será inserida na API.
 
