@@ -2,29 +2,32 @@
 solution: Campaign Standard
 product: campaign
 title: Atualização dos atributos de uma unidade organizacional
-description: Saiba como atualizar os atributos de uma unidade organizacional
+description: Saiba como atualizar atributos de uma unidade organizacional
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 11%
+source-wordcount: '88'
+ht-degree: 12%
 
 ---
 
 
 # Atualização dos atributos de uma unidade organizacional {#updating-organizational-unit-attributes}
 
-1. Execute uma solicitação de GET no recurso **orgUnitBase** para recuperar o PKey da unidade organizacional.
-1. Execute uma solicitação de PATCH na unidade organizacional, com os atributos a serem atualizados na carga.
+1. Execute uma solicitação GET no recurso **orgUnitBase** para recuperar a PKey da unidade organizacional.
+1. Execute uma solicitação de PATCH na unidade organizacional, com os atributos a serem atualizados na carga útil.
 
 <br/>
 
-***Solicitação de amostra***
+***Solicitação de exemplo***
 
-Recupere a lista das unidades organizacionais.
+Recupere a lista de unidades organizacionais.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/ \
@@ -34,7 +37,7 @@ Recupere a lista das unidades organizacionais.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Retorna todas as unidades organizacionais. Recupere o PKey da unidade desejada.
+Retorna todas as unidades organizacionais. Recupere a chave da unidade desejada.
 
 ```
 {
@@ -50,7 +53,7 @@ Retorna todas as unidades organizacionais. Recupere o PKey da unidade desejada.
 },
 ```
 
-Execute uma solicitação de PATCH na unidade organizacional, com os atributos a serem atualizados na carga.
+Execute uma solicitação de PATCH na unidade organizacional, com os atributos a serem atualizados na carga útil.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \
