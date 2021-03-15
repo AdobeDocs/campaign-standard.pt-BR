@@ -6,10 +6,13 @@ description: Descubra como gerenciar imagens em emails com o Designer de email.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
+feature: Design de email
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '308'
 ht-degree: 7%
 
 ---
@@ -19,17 +22,17 @@ ht-degree: 7%
 
 ## Inserção de imagens{#inserting-images}
 
-Você pode inserir imagens em seus emails e landings page.
+Você pode inserir imagens em seus emails e landing pages.
 
 Os seguintes tipos de imagens estão disponíveis, dependendo de sua configuração:
 
 * Imagens locais
-* Imagens compartilhadas da Adobe Experience Cloud - consulte [Trabalhar com a Campanha e os Ativos Principais Serviços](../../integrating/using/working-with-campaign-and-assets-core-service.md) / Ativos sob demanda
-* Imagens dinâmicas do Adobe Target - consulte [Trabalhar com Campanha e Público alvo](../../integrating/using/about-campaign-target-integration.md)
+* Imagens compartilhadas do Adobe Experience Cloud - consulte [Trabalhar com o Campaign e o Assets Core Service](../../integrating/using/working-with-campaign-and-assets-core-service.md) / Ativos sob demanda
+* Imagens dinâmicas do Adobe Target - consulte [Trabalhar com o Campaign e o Target](../../integrating/using/about-campaign-target-integration.md)
 
 >[!CAUTION]
 >
->Se você optar por adicionar uma imagem diretamente editando a versão HTML do email, não deverá chamar **arquivos externos em uma &lt;script> tag** da página HTML. Esses arquivos não serão importados para o servidor do Adobe Campaign.
+>Se você optar por adicionar uma imagem diretamente editando a versão HTML do email, não deverá chamar **arquivos externos em uma tag &lt;script>** da página HTML. Esses arquivos não serão importados para o servidor do Adobe Campaign.
 
 ### Inserir imagens em um email {#inserting-images-in-an-email}
 
@@ -51,13 +54,13 @@ Os seguintes tipos de imagens estão disponíveis, dependendo de sua configuraç
 
 Quando um bloco que contém uma imagem é selecionado, as seguintes propriedades são oferecidas na paleta:
 
-* **Ativar a** personalização permite personalizar a fonte de imagem. Consulte [Personalizar uma fonte de imagem](../../designing/using/personalization.md#personalizing-an-image-source).
-* **Os** Títulos de imagem que você define um título para a imagem.
-* **O texto**  alternativo (email) ou  **Legenda**  (landing page) permite que você defina a legenda vinculada à imagem (corresponde ao atributo  **** altHTML).
-* Ao editar um email, **Estilo** permite que você especifique o tamanho da imagem, o plano de fundo e a borda.
-* Ao editar uma landing page, **Dimension** permite que você especifique o tamanho da imagem em pixels.
+* **Ativar** personalização permite personalizar a fonte de imagem. Consulte [Personalização de uma fonte de imagem](../../designing/using/personalization.md#personalizing-an-image-source).
+* **Os** Títulos de imagem permitem que você defina um título para a imagem.
+* **O texto**  alternativo (email) ou  **Legenda**  (página de aterrissagem) permite definir a legenda vinculada à imagem (corresponde ao atributo  **** altHTML).
+* Ao editar um email, **Style** permite que você especifique o tamanho da imagem, o plano de fundo e a borda.
+* Ao editar uma página de aterrissagem, **Dimension** permite que você especifique o tamanho da imagem em pixels.
 
-O editor permite trabalhar com **todos os tipos de imagem** cujos formatos são compatíveis com navegadores. Para ser compatível com o editor, as animações do tipo **&quot;Flash&quot;** devem ser inseridas em uma página HTML da seguinte forma:
+O editor permite trabalhar com **todos os tipos de imagem** cujos formatos são compatíveis com os navegadores. Para ser compatível com o editor, as animações do tipo **&quot;Flash&quot;** precisam ser inseridas em uma página HTML da seguinte maneira:
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">
