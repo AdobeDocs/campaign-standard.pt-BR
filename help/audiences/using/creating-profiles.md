@@ -6,11 +6,14 @@ description: Saiba como criar perfis e coletar dados nos contatos usando APIs, r
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
+feature: Perfis
+role: Profissional
+level: Iniciante
 translation-type: tm+mt
-source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 90%
+source-wordcount: '384'
+ht-degree: 89%
 
 ---
 
@@ -52,7 +55,7 @@ Por exemplo, para criar um novo perfil diretamente na interface do usuário, sig
    * A categoria **[!UICONTROL Channels]**, que contém o endereço de email, o número do telefone celular e as informações de recusa, informa em qual canal o perfil pode ser acessado.
    * A categoria **[!UICONTROL No longer contact]** é atualizada assim que o perfil cancela a assinatura em um canal.
    * A categoria **[!UICONTROL Address]** contém o CEP que precisa ser preenchido junto com a opção **[!UICONTROL Address specified]** para enviar [correspondência direta](../../channels/using/about-direct-mail.md) para esse perfil. Se a opção **[!UICONTROL Address specified]** não estiver marcada, esse perfil será excluído de todos os deliveries de correspondência direta.
-   * A categoria **[!UICONTROL Access authorization]** indica que as unidades organizacionais do perfil [gerenciam permissões](../../administration/using/about-access-management.md). Para adicionar os campos organizacionais aos perfis, consulte a seção [Particionamento de perfis](../../administration/using/organizational-units.md#partitioning-profiles).
+   * A categoria **[!UICONTROL Access authorization]** indica as unidades organizacionais do perfil para [gerenciar permissões](../../administration/using/about-access-management.md). Para adicionar os campos organizacionais aos perfis, consulte a seção [Particionamento de perfis](../../administration/using/organizational-units.md#partitioning-profiles).
    * A categoria **[!UICONTROL Traceability]** atualiza automaticamente as informações referentes ao usuário que criou ou modificou o perfil.
 
 1. Clique em **[!UICONTROL Create]** para salvar o perfil.
@@ -68,4 +71,4 @@ Este vídeo mostra como importar perfis com um fluxo de trabalho.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
 
-Vídeos de procedimentos de Campaign Standard adicionais estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
+Os vídeos de instruções adicionais do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
