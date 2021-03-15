@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Auditoria de logs de exportação
-description: Os administradores podem rastrear as exportações feitas da Adobe Campaign.
+description: Os administradores podem rastrear as exportações feitas do Adobe Campaign.
 audience: administration
 content-type: reference
 topic-tags: users-and-security
+feature: Gerenciamento de acesso
+role: Administrador
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '117'
 ht-degree: 5%
 
 ---
@@ -17,16 +20,16 @@ ht-degree: 5%
 
 # Auditoria de logs de exportação{#auditing-export-logs}
 
-De **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**, os administradores podem visualização uma lista de todas as seguintes exportações, incluindo a data e o usuário que realizou a exportação:
+Em **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**, os administradores podem exibir uma lista de todas as seguintes exportações, incluindo a data e o usuário que realizou a exportação:
 
-* Carregamento de arquivo de uma atividade **[!UICONTROL Transfer file]** em um fluxo de trabalho.
-* Exportação de lista de uma lista ou sublista.
-* Arquivo baixado do painel do delivery de uma mensagem de mala direta.
+* Upload de arquivo de uma atividade **[!UICONTROL Transfer file]** em um workflow.
+* Listar exportação de uma lista ou de uma sublista.
+* Arquivo baixado do painel de delivery de uma mensagem Direct mail.
 
 >[!NOTE]
 >
->Outras exportações não são rastreadas. Por padrão, a lista das exportações é apagada a cada seis meses.
+>Outras exportações não são rastreadas. A lista de exportações é removida a cada 6 meses por padrão.
 
-No painel esquerdo, você pode filtrar as exportações que deseja exibir com base em suas necessidades.
+No painel esquerdo, você pode filtrar as exportações que deseja exibir com base nas suas necessidades.
 
-Você pode exportar a lista como um arquivo separado, conforme descrito na seção [Exportando lista](../../automating/using/exporting-lists.md).
+É possível exportar a lista como um arquivo separado, conforme descrito na seção [Exportar listas](../../automating/using/exporting-lists.md).
