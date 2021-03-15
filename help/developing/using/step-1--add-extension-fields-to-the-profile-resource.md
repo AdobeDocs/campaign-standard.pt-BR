@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: '"Etapa 1: adicionar campos de extensão ao recurso de perfil"'
-description: Descubra como estender o recurso do perfil.
+description: Descubra como estender o recurso de perfil.
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
+feature: Modelo de dados
+role: Desenvolvedor
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 55%
+source-wordcount: '65'
+ht-degree: 52%
 
 ---
 
@@ -22,5 +25,5 @@ ht-degree: 55%
 1. Escolha a opção **[!UICONTROL Extend an existing resource]**.
 1. Selecione o recurso **[!UICONTROL Profile]**.
 1. Clique em **[!UICONTROL Create]**.
-1. Adicione o campo **[!UICONTROL Text]** type **[!UICONTROL Promo code]** com a ID **[!UICONTROL Brand]** nos campos de recursos.
+1. Adicione o campo **[!UICONTROL Text]** tipo **[!UICONTROL Promo code]** com a ID **[!UICONTROL Brand]** nos campos de recurso.
 
