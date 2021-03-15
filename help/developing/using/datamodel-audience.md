@@ -2,19 +2,22 @@
 solution: Campaign Standard
 product: campaign
 title: DataModel
-description: Saiba mais sobre o modelo de dados
+description: Saiba mais sobre o datamodel
 audience: developing
 content-type: reference
+feature: Modelo de dados
+role: Desenvolvedor
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 14%
+source-wordcount: '211'
+ht-degree: 13%
 
 ---
 
 
-# Audiência (nms:audiência)
+# Público-alvo (nms:audience)
 
 ## Descrição do objeto
 
@@ -23,11 +26,11 @@ ht-degree: 14%
                   <th>Nome</th>
                   <th>Rótulo</th>
                   <th>Tipo (comprimento)</th>
-                  <th>valores de lista discriminada</th>
+                  <th>Valores de enumeração</th>
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>ID do recurso principal</td>
+                  <td>ID de recurso principal</td>
                   <td>string </td>
                   <td> </td>
                </tr>
@@ -45,7 +48,7 @@ ht-degree: 14%
                </tr>
                <tr>
                   <td>audienceData</td>
-                  <td>Pré-visualização selecionada</td>
+                  <td>Visualizar população selecionada</td>
                   <td>coleção </td>
                   <td> </td>
                </tr>
@@ -76,7 +79,7 @@ ht-degree: 14%
                <tr>
                   <td>countDate</td>
                   <td>Data de contagem</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -88,7 +91,7 @@ ht-degree: 14%
                <tr>
                   <td>criado</td>
                   <td>Criado</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -118,7 +121,7 @@ ht-degree: 14%
                <tr>
                   <td>expirationDate</td>
                   <td>Expira em</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -135,13 +138,13 @@ ht-degree: 14%
                </tr>
                <tr>
                   <td>isAMC</td>
-                  <td>audiência Adobe Marketing Cloud</td>
+                  <td>Público-alvo do Adobe Marketing Cloud</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>É um recurso externo</td>
+                  <td>É recurso externo</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -160,7 +163,7 @@ ht-degree: 14%
                <tr>
                   <td>lastModified</td>
                   <td>Última modificação</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -182,20 +185,20 @@ ht-degree: 14%
                   <td> </td>
                </tr>
                <tr>
-                  <td>cancelFilename</td>
+                  <td>rejectFilename</td>
                   <td>Arquivo de rejeição</td>
                   <td>string </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>sharedAudience</td>
-                  <td>Nome da audiência compartilhada</td>
+                  <td>Nome do público-alvo compartilhado</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>fonte</td>
-                  <td>Fonte</td>
+                  <td>source</td>
+                  <td>Origem</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -214,24 +217,24 @@ ht-degree: 14%
                <tr>
                   <td>type</td>
                   <td>Tipo</td>
-                  <td>lista discriminada (string) (100)</td>
+                  <td>enumeration (string) (100)</td>
                   <td>
                      <ul>
                         <li>Query - query - query</li>
                         <li>Lista - lista - lista</li>
                         <li>Arquivo - arquivo - arquivo</li>
-                        <li>VALOR INVÁLIDO - __Valor_inválido__ - __Valor_inválido__</li>
+                        <li>VALOR INVÁLIDO - __Valor_Inválido__ - __Valor_Inválido__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>where</td>
+                  <td>em que</td>
                   <td>Definição de query</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>fluxo de trabalho (fluxo de trabalho)</td>
+                  <td>workflow (workflow)</td>
                   <td>Fluxo de trabalho</td>
                   <td>link </td>
                   <td> </td>
@@ -240,7 +243,7 @@ ht-degree: 14%
 
 ## Filtros
 
-Por dimensão do filtro (byFilteringResource)
+Por dimensão de filtro (byFilteringResource)
 
 <table>
     <tr>
@@ -253,7 +256,7 @@ Por dimensão do filtro (byFilteringResource)
     </tr>
 </table>
 
-Por nome ou rótulo (por texto)
+Por nome ou rótulo (byText)
 
 <table>
     <tr>
@@ -275,7 +278,7 @@ Por tipo (byType)
     </tr>
     <tr>
     <td>type</td>
-    <td>lista discriminada</td>
+    <td>enumeração</td>
     </tr>
     <tr>
     <td>isAMC</td>
