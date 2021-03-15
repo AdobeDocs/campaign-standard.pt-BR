@@ -6,11 +6,14 @@ description: Conheça o recurso de renderização de email.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
+feature: Enviar Otimização de Tempo
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 83%
+source-wordcount: '519'
+ht-degree: 82%
 
 ---
 
@@ -23,7 +26,7 @@ Para permitir isso, o Adobe Campaign captura a renderização e a disponibiliza 
 
 Os clientes de dispositivos móveis, mensagens e webmail disponíveis para a **Renderização de email** no Adobe Campaign estão listados no [site](https://litmus.com/email-testing) do Litmus (clique em **Exibir todos os clientes de email**).
 
-## Gerando renderização de email {#checking-the-email-rendering-report}
+## Gerar renderização de email {#checking-the-email-rendering-report}
 
 Após criar o delivery de email e definir seu conteúdo, assim como o público-alvo, siga as etapas abaixo.
 
@@ -70,15 +73,15 @@ O relatório de renderização de email dedicado é exibido. Consulte [Descriç�
 
 Este relatório apresenta as renderizações de email conforme elas são exibidas para o recipient. As renderizações de email podem ser diferentes com base em como o recipient abre o delivery de email: em um navegador, em um dispositivo móvel ou por um aplicativo de email.
 
-### Enviar tokens por email
+### Tokens de renderização de email
 
 O número de renderizações disponíveis está listado em seu contrato de licença. Cada delivery com a opção **Renderização de email** ativada diminui uma renderização das renderizações disponíveis (conhecidas como tokens).
 
-Tokens respondem por cada renderização individual e não por todo o relatório de renderização de email, o que significa que:
+Os tokens são contabilizados para cada renderização individual e não para todo o relatório de Renderização de email, o que significa que:
 
-* **Cada** vez que o relatório de renderização por email é gerado, um token por cliente de mensagem é deduzido: um token para a renderização do Outlook 2000, um para a renderização do Outlook, outro para a renderização do Apple Mail e assim por diante.
+* **Cada** vez que o relatório de Renderização de email é gerado, um token por cliente de mensagem é deduzido: um token para a renderização do Outlook 2000, um para a renderização do Outlook, um para a renderização do Apple Mail e assim por diante.
 
-* **Para o mesmo delivery**, se você gerar a renderização por email novamente, o número de tokens disponíveis será novamente diminuído pelo número de renderizações geradas.
+* **Para o mesmo delivery**, se você gerar a renderização de Email novamente, o número de tokens disponíveis será reduzido novamente pelo número de renderizações geradas.
 
 ### Resumo do relatório
 
