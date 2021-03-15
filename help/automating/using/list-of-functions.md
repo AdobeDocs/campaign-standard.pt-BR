@@ -6,10 +6,13 @@ description: A ferramenta de edição de query permite usar funções avançadas
 audience: automating
 content-type: reference
 topic-tags: filtering-data
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: ef170f2282fcc46e36c90dada2083dea25b95f7c
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '1944'
 ht-degree: 98%
 
 ---
@@ -35,7 +38,7 @@ Vários tipos de função estão disponíveis, dependendo dos resultados desejad
 
 >[!NOTE]
 >
->Funções adicionais estão disponíveis em todas as atividades que permitem usar variáveis de eventos após chamar um fluxo de trabalho com parâmetros externos. Eles são detalhados [nesta seção](../../automating/using/customizing-workflow-external-parameters.md).
+>Funções adicionais estão disponíveis em todas as atividades que permitem usar variáveis de eventos após chamar um workflow com parâmetros externos. Eles são detalhados [nesta seção](../../automating/using/customizing-workflow-external-parameters.md).
 
 ## Datas {#dates}
 
