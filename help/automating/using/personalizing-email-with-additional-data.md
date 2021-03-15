@@ -2,16 +2,19 @@
 solution: Campaign Standard
 product: campaign
 title: Personalização de um email com dados adicionais
-description: Este caso de uso apresenta como adicionar diferentes tipos de dados adicionais a um query e usá-los como um campo de personalização em um email.
+description: Este caso de uso apresenta como adicionar diferentes tipos de dados adicionais a um query e usá-lo como um campo de personalização em um email.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 86%
+source-wordcount: '483'
+ht-degree: 85%
 
 ---
 
@@ -32,7 +35,7 @@ O fluxo de trabalho é apresentado da seguinte forma:
 
 ![](assets/enrichment_example1.png)
 
-1. Adicione uma atividade [Query](../../automating/using/query.md), que permite público alvo dos perfis que realizaram pelo menos uma transação.
+1. Adicione uma atividade [Query](../../automating/using/query.md), que permite direcionar os perfis que executaram pelo menos uma transação.
 
    ![](assets/enrichment_example2.png)
 
@@ -53,7 +56,7 @@ O fluxo de trabalho é apresentado da seguinte forma:
 
    ![](assets/enrichment_example5.png)
 
-1. Adicione uma atividade [delivery de e-mail](../../automating/using/email-delivery.md). No conteúdo do email, insira os campos de personalização correspondentes aos dados calculados no query. Você pode encontrá-los no link **[!UICONTROL Additional data (targetData)]** do explorador de campos de personalização.
+1. Adicione uma atividade [Email delivery](../../automating/using/email-delivery.md) . No conteúdo do email, insira os campos de personalização correspondentes aos dados calculados no query. Você pode encontrá-los no link **[!UICONTROL Additional data (targetData)]** do explorador de campos de personalização.
 
    ![](assets/enrichment_example3.png)
 
