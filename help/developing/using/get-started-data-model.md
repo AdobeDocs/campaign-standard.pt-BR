@@ -6,10 +6,13 @@ description: Enriqueça o modelo de dados do Campaign Standard com campos e recu
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
+feature: Modelo de dados
+role: Desenvolvedor
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '340'
 ht-degree: 30%
 
 ---
@@ -46,7 +49,7 @@ Leia mais:
 
 O Campaign Standard permite **Enriquecer o modelo de dados predefinido** para criar seus próprios recursos (por exemplo, para adicionar tabelas de Compra ou Produto) ou estender os recursos existentes com novos campos. Você também pode configurar as telas do Campaign para otimizar a navegação por meio dos novos recursos e campos que foram criados.
 
-Além disso, você pode **estender APIs REST do Campaign Standard** para expor nos campos estendidos das APIs os perfis de recursos personalizados. Isso permite, por exemplo, atualizar o perfil de um cliente com um código promocional gerado de um sistema de cobrança.
+Além disso, você pode **estender as APIs REST do Campaign Standard** para expor os campos estendidos das APIs para os perfis de recursos personalizados. Isso permite, por exemplo, atualizar o perfil de um cliente com um código promocional gerado de um sistema de cobrança.
 
 Leia mais:
 
