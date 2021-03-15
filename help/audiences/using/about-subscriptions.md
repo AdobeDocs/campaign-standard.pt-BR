@@ -6,11 +6,14 @@ description: Saiba mais sobre serviços e assinaturas no Campaign Standard.
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
+feature: Públicos
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 53%
+source-wordcount: '226'
+ht-degree: 52%
 
 ---
 
@@ -29,18 +32,18 @@ Cada serviço vem com:
 
 As assinaturas também podem ser gerenciadas com a API do Adobe Campaign Standard. Para obter mais informações, consulte a [documentação dedicada](../../api/using/creating-a-service.md).
 
-## Etapas principais para configurar e gerenciar o subscrição
+## Etapas principais para configurar e gerenciar assinaturas
 
-Siga as etapas abaixo para criar um mecanismo de subscrição:
+Siga as etapas abaixo para criar um mecanismo de assinatura:
 
-1. **Criar um serviço**  - siga as etapas descritas  [nesta ](../../audiences/using/creating-a-service.md) seção para criar uma subscrição no serviço
-1. **Compartilhe o link**  - saiba como promover e compartilhar seu serviço  [nesta página](../../audiences/using/promoting-a-service.md)
-1. **Monitorar subscrições**  - descubra várias maneiras de monitorar subscrições ao seu serviço  [nesta seção](../../audiences/using/monitoring-subscriptions.md)
-1. **Confirmar subscrições**  - siga  [este ](../../audiences/using/confirming-subscription-to-a-service.md) tutorial para enviar uma mensagem de confirmação de subscrição
+1. **Criar um serviço**  - siga as etapas descritas  [nesta ](../../audiences/using/creating-a-service.md) seção para criar um serviço de assinatura
+1. **Compartilhar o link**  - saiba como promover e compartilhar seu serviço  [nesta página](../../audiences/using/promoting-a-service.md)
+1. **Monitorar assinaturas**  - descubra várias maneiras de monitorar assinaturas de seu serviço  [nesta seção](../../audiences/using/monitoring-subscriptions.md)
+1. **Confirmar assinaturas**  - siga  [este ](../../audiences/using/confirming-subscription-to-a-service.md) tutorial para enviar uma mensagem de confirmação da assinatura
 
 ## Recursos adicionais
 
-* [Caso de uso: Query incremental dos assinantes de um serviço](../../automating/using/incremental-query-on-subscribers.md)
-* [Caso de uso: Atualização de vários status de subscrição de um arquivo](../../automating/using/updating-subscriptions-from-file.md)
+* [Caso de uso: Query incremental para assinantes de um serviço](../../automating/using/incremental-query-on-subscribers.md)
+* [Caso de uso: Atualização de vários status de assinatura a partir de um arquivo](../../automating/using/updating-subscriptions-from-file.md)
 * [Assinatura de perfis para um serviço específico após a importação de um arquivo](../../automating/using/subscribing-profiles-from-file.md)
-* [Inclusão e exclusão na Campanha](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Aceitação e recusa no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
