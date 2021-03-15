@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: Ciclo de vida do workflow
-description: Saiba mais sobre o ciclo de vida do fluxo de trabalho
+description: Saiba mais sobre o ciclo de vida do workflow
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Iniciante
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '204'
 ht-degree: 3%
 
 ---
@@ -22,25 +25,25 @@ O ciclo de vida de um fluxo de trabalho inclui três etapas principais e cada et
 
 * **Edição**  (cinza)
 
-   Esta é a fase de design inicial de um fluxo de trabalho (consulte [Criar um fluxo de trabalho](../../automating/using/building-a-workflow.md#creating-a-workflow)). O fluxo de trabalho ainda não é manipulado pelo servidor e pode ser modificado sem nenhum risco.
+   Esta é a fase inicial de design de um workflow (consulte [Criação de um workflow](../../automating/using/building-a-workflow.md#creating-a-workflow)). O workflow ainda não foi manipulado pelo servidor e pode ser modificado sem riscos.
 
 * **Em andamento**  (azul)
 
-   Quando a fase de design inicial estiver concluída, o fluxo de trabalho poderá ser iniciado e será manipulado pelo servidor.
+   Quando a fase inicial de design for concluída, o workflow poderá ser iniciado e será manipulado pelo servidor.
 
-* **Concluído** (verde)
+* **Finished**  (verde)
 
-   Um fluxo de trabalho é concluído quando não há mais tarefas em andamento ou quando um operador tiver parado explicitamente a instância.
+   Um workflow é concluído quando não há mais nenhuma tarefa em andamento ou quando um operador tiver interrompido explicitamente a instância.
 
-Depois de iniciado, um fluxo de trabalho também pode ter dois outros status:
+Depois de iniciado, um workflow também pode ter dois outros status:
 
-* **Aviso** (amarelo)
+* **Aviso**  (amarelo)
 
    O fluxo de trabalho não pôde ser concluído ou foi pausado usando os botões ![](assets/pause_darkgrey-24px.png) ou ![](assets/check_pause_darkgrey-24px.png).
 
-* **Errôneo**  (vermelho)
+* **Errado**  (vermelho)
 
-   Ocorreu um erro quando um fluxo de trabalho foi executado. O fluxo de trabalho foi interrompido e o usuário deve executar uma ação. Para saber mais sobre esse erro, use o botão ![](assets/printpreview_darkgrey-24px.png) para acessar o log do fluxo de trabalho (consulte [Monitoramento](../../automating/using/monitoring-workflow-execution.md)).
+   Ocorreu um erro ao executar um fluxo de trabalho. O fluxo de trabalho foi interrompido e o usuário deve executar uma ação . Para saber mais sobre esse erro, use o botão ![](assets/printpreview_darkgrey-24px.png) para acessar o log do workflow (consulte [Monitoring](../../automating/using/monitoring-workflow-execution.md)).
 
 A lista de atividades de marketing permite exibir todos os workflows, bem como seus status. Para obter mais informações, consulte [Gerenciamento de atividades de marketing](../../start/using/marketing-activities.md#about-marketing-activities).
 
