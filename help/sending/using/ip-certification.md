@@ -7,11 +7,14 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
+feature: Avaliação do delivery
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 82%
+source-wordcount: '327'
+ht-degree: 81%
 
 ---
 
@@ -22,7 +25,7 @@ A certificação IP é um programa de práticas recomendadas de envio que ajuda 
 
 Atualmente, dois provedores oferecem certificação IP: Return Path e Certified Senders Alliance.
 
-Os remetentes certificados estão em lista de permissões e são usados por provedores globais de caixa de correio e empresas de segurança de email. Essas  comerciais de lista de permissões baseiam-se em um sistema que permite ao remetente ignorar totalmente filtros antisspam ou receber pontos incrementais à medida que ele entra no sistema.
+Os remetentes certificados estão em lista de permissões e são usados por provedores de caixa de correio global e empresas de segurança de email. Essas  comerciais de lista de permissões são baseadas em um sistema que permite que o remetente ignore os filtros antisspam ou receba pontos incrementais ao entrarem no sistema.
 
 O programa [Return Path Certification](https://www.validity.com/products/returnpath/certification/) oferece vários benefícios, incluindo:
 * Um aumento mensurável no posicionamento da caixa de entrada nos principais provedores de caixa de correio, como Microsoft, AOL, Yahoo, Gmail, Comcast, Orange, Mail.ru e outros
