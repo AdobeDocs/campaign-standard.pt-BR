@@ -6,11 +6,14 @@ description: Crie conteúdo de email começando do zero, importando HTML ou apro
 audience: designing
 content-type: reference
 topic-tags: about-content-design
+feature: Design de email
+role: Profissional
+level: Iniciante
 translation-type: tm+mt
-source-git-commit: 300ffd374d7542817ffb7f37614e67804549cc3d
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1250'
-ht-degree: 91%
+source-wordcount: '1255'
+ht-degree: 90%
 
 ---
 
@@ -19,7 +22,7 @@ ht-degree: 91%
 
 Após a criação de um email no Adobe Campaign, é necessário definir seu conteúdo.
 
-O Designer de e-mail permite que você crie e-mails cativantes e adaptados individualmente por meio de um arrastar e soltar
+O Designer de email permite criar emails atraentes e personalizados por meio de um arrastar e soltar
 interface. Esteja você iniciando do zero ou a partir de fragmentos e modelos de conteúdo existentes, projete e refine todo o conteúdo para cada email, seja ele promocional ou transacional.
 
 Criado para fornecer HTML otimizado para design responsivo, o Designer de email permite definir e aplicar facilmente condições de visibilidade e conteúdo dinâmico a um email, modelo ou fragmento diretamente pela interface do usuário. Você pode alternar facilmente entre a interface de arrastar e soltar e o código HTML clicando em um botão.
@@ -118,7 +121,7 @@ Para fazer o uso correto do Designer de email e criar os melhores emails da mane
 
    Pré-visualização de mensagens antes do envio. O Adobe Campaign oferece uma maneira de testar a renderização de email usando o Litmus. Para obter mais informações, consulte [Renderização de email](../../sending/using/email-rendering.md).
 
-* A tag meta de quem indicou não é compatível com o Designer de email.
+* A meta tag do referenciador não é compatível com o Designer de email.
 
 Mais práticas recomendadas gerais e de criação relacionadas às mensagens são apresentadas no seguinte guia passo a passo do Adobe Campaign: [Práticas recomendadas do delivery com o Adobe Campaign](https://helpx.adobe.com/br/campaign/kb/delivery-best-practices.html).
 
@@ -152,8 +155,8 @@ Quanto aos fragmentos, observe o seguinte:
 
 * Ao editar estilos, somente as fontes da web oficialmente compatíveis pela maioria dos clientes de email estarão disponíveis.
 * Os estilos não podem ser salvos como um tema para futura reutilização. Entretanto, o estilo CSS pode ser salvo em um modelo de conteúdo ou em um email. Para obter mais informações sobre estilos, consulte [esta seção](../../designing/using/styles.md).
-* A tag meta de quem indicou não é compatível com o Designer de email.
-* Os pares de substitutos, caracteres não incluídos no Plano Multilingue Básico do conjunto de caracteres Unicode, não podem ser armazenados em 2 bytes (16 bits) e precisam ser codificados em 2 caracteres UTF-16. Esses caracteres incluem algumas ideografias CJK, a maioria dos emojis e alguns idiomas.<br>Esses caracteres podem causar alguns problemas de incompatibilidade no texto dinâmico. É necessário realizar testes fortes antes de enviar suas mensagens.
+* A meta tag do referenciador não é compatível com o Designer de email.
+* Pares substitutos, caracteres não incluídos no Plano Multilíngue Básico do conjunto de caracteres Unicode, não podem ser armazenados em 2 bytes (16 bits) e precisam ser codificados em 2 caracteres UTF-16. Esses caracteres incluem alguns ideogramas CJK, a maioria dos emojis e alguns idiomas.<br>Esses caracteres podem causar alguns problemas de incompatibilidade no texto dinâmico. Você precisa realizar testes fortes antes de enviar suas mensagens.
 
 **Tópicos relacionados**
 
