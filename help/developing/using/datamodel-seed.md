@@ -2,19 +2,22 @@
 solution: Campaign Standard
 product: campaign
 title: DataModel
-description: Saiba mais sobre o modelo de dados
+description: Saiba mais sobre o datamodel
 audience: developing
 content-type: reference
+feature: Modelo de dados
+role: Desenvolvedor
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 19%
+source-wordcount: '175'
+ht-degree: 18%
 
 ---
 
 
-# Membro das sementes (nms:sementeMember)
+# Membro de Sementes (nms:seedMember)
 
 ## Descrição do objeto
 
@@ -23,11 +26,11 @@ ht-degree: 19%
                   <th>Nome</th>
                   <th>Rótulo</th>
                   <th>Tipo (comprimento)</th>
-                  <th>valores de lista discriminada</th>
+                  <th>Valores de enumeração</th>
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>ID do recurso principal</td>
+                  <td>ID de recurso principal</td>
                   <td>string </td>
                   <td> </td>
                </tr>
@@ -40,7 +43,7 @@ ht-degree: 19%
                <tr>
                   <td>criado</td>
                   <td>Criado</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -81,14 +84,14 @@ ht-degree: 19%
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>É um recurso externo</td>
+                  <td>É recurso externo</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>lastModified</td>
                   <td>Última modificação</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -171,7 +174,7 @@ ht-degree: 19%
                </tr>
                <tr>
                   <td>sampleData</td>
-                  <td>Dados de amostra</td>
+                  <td>Dados de exemplo</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -228,7 +231,7 @@ Por tipo de evento (byEventType)
         </tr>
     </table>
 
-Por nome ou rótulo (por texto)
+Por nome ou rótulo (byText)
 
 <table>
         <tr>
@@ -241,7 +244,7 @@ Por nome ou rótulo (por texto)
         </tr>
     </table>
 
-Por uso (porUso)
+Por uso (byUsage)
 
 <table>
         <tr>
@@ -270,7 +273,7 @@ Perfil de teste (perfil)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>sementeMember</td>
+    <td>seedMember</td>
     <td>link</td>
     </tr>
 </table>
