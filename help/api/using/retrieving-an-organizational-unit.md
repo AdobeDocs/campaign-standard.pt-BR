@@ -2,27 +2,30 @@
 solution: Campaign Standard
 product: campaign
 title: Recuperação da unidade organizacional de um perfil
-description: Saiba como fazer uma unidade organizacional de perfis com APIs.
+description: Saiba como criar a unidade organizacional de um perfil com APIs.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 12%
+source-wordcount: '83'
+ht-degree: 13%
 
 ---
 
 
 # Recuperação da unidade organizacional de um perfil {#retrieving-organizational-units}
 
-1. Execute uma solicitação de GET no diretório de publicação do perfil para recuperar o URL **orgUnit**.
-1. Execute uma solicitação de GET no URL para recuperar mais detalhes sobre a unidade organizacional.
+1. Execute uma solicitação GET na PKey do perfil para recuperar o URL **orgUnit**.
+1. Execute uma solicitação GET no URL para recuperar mais detalhes sobre a unidade organizacional.
 
 <br/>
 
-***Solicitação de amostra***
+***Solicitação de exemplo***
 
 Recupere o registro do perfil.
 
@@ -34,7 +37,7 @@ Recupere o registro do perfil.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Ele retorna o URL orgUnit do perfil.
+Retorna o URL orgUnit do perfil.
 
 ```
 {
@@ -48,7 +51,7 @@ Ele retorna o URL orgUnit do perfil.
 }
 ```
 
-Execute uma solicitação de GET no URL para recuperar mais informações.
+Execute uma solicitação GET no URL para recuperar mais informações.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \
