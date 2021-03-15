@@ -7,10 +7,13 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 context-tags: marketingHistory,main
+feature: Perfis
+role: Profissional
+level: Iniciante
 translation-type: tm+mt
-source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '285'
 ht-degree: 48%
 
 ---
@@ -22,7 +25,7 @@ Um perfil de cliente integrado está disponível para cada contato do banco de d
 
 Para acessar o perfil do cliente integrado, siga estas etapas:
 
-1. No home page Adobe Campaign, clique na placa **[!UICONTROL Customer profiles]** ou na guia **Perfis** para exibir a lista de perfis.
+1. Na página inicial do Adobe Campaign, clique no cartão **[!UICONTROL Customer profiles]** ou na guia **Profiles** para exibir a lista de perfis.
 
 1. Para pesquisar um perfil com base em um campo específico, abra o painel de pesquisa e selecione o campo no qual deseja realizar a pesquisa.
 
@@ -33,9 +36,9 @@ Para acessar o perfil do cliente integrado, siga estas etapas:
 
    >[!NOTE]
    >
-   >Observe que as pesquisas podem ser realizadas com base nos campos de email, nome e sobrenome, bem como nos campos personalizados que foram adicionados ao estender o recurso.
+   >Observe que as pesquisas podem ser executadas com base nos campos de email, nome e sobrenome, bem como nos campos personalizados que foram adicionados ao estender o recurso.
    >
-   >As pesquisas fazem distinção entre maiúsculas e minúsculas e são executadas somente em prefixos. Por exemplo, você não poderá procurar por um perfil usando as últimas letras do seu sobrenome.
+   >As pesquisas fazem distinção entre maiúsculas e minúsculas e são executadas somente em prefixos. Por exemplo, você não poderá procurar um perfil usando as últimas letras do seu sobrenome.
 
 1. Selecione um contato para abrir seu perfil.
 
@@ -45,7 +48,7 @@ Em seguida, você pode acessar o **Histórico de marketing** desse contato.
 
 As informações principais sobre o perfil estão agrupadas nesta página, bem como a lista de eventos.
 
-Clique em um evento na lista para abri-lo: você pode acessar as mensagens que foram enviadas ou os serviços aos quais o perfil se inscreveu.
+Clique em um evento na lista para abri-lo: é possível acessar as mensagens enviadas ou os serviços aos quais o perfil se inscreveu.
 
 ![](assets/mkt_hist_view.png)
 
