@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: enrichment,main
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 96%
+source-wordcount: '545'
+ht-degree: 95%
 
 ---
 
@@ -34,8 +37,8 @@ Com a atividade de **[!UICONTROL Enrichment]**, você pode aproveitar a transiç
 
 **Tópicos relacionados**
 
-* [Caso de uso: Enriquecendo dados de perfil com dados contidos em um arquivo](../../automating/using/enriching-profile-data-file.md).
-* [Caso de uso: Envio de um email com campos aprimorados](../../automating/using/sending-email-enriched-fields.md)
+* [Caso de uso: Enriquecimento dos dados do perfil com os dados contidos em um arquivo](../../automating/using/enriching-profile-data-file.md).
+* [Caso de uso: Envio de email com campos enriquecidos](../../automating/using/sending-email-enriched-fields.md)
 
 ## Configuração {#configuration}
 
