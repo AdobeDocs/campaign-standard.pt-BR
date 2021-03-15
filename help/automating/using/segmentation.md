@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: segmentation,main
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '855'
 ht-degree: 92%
 
 ---
@@ -30,7 +33,7 @@ A atividade **[!UICONTROL Segmentation]** permite criar um ou vários segmentos 
 
 **Tópicos relacionados:**
 * [Caso de uso: Segmentação no local](../../automating/using/workflow-segmentation-location.md)
-* [Caso de uso: Segmentação de acordo com grupos etários](../../automating/using/segmentation-age-groups.md)
+* [Caso de uso: Segmentação por faixa etária](../../automating/using/segmentation-age-groups.md)
 
 ## Contexto de uso {#context-of-use}
 
@@ -38,13 +41,13 @@ A atividade **[!UICONTROL Segmentation]** geralmente é colocada após as ativid
 
 **Tópicos relacionados**
 
-* [Caso de uso: Segmentação de perfis de acordo com seus grupos](../../automating/using/segmentation-age-groups.md) etários.
+* [Caso de uso: Segmentação de perfis de acordo com sua faixa etária](../../automating/using/segmentation-age-groups.md).
 
 ## Configuração {#configuration}
 
 1. Arraste e solte uma atividade **[!UICONTROL Segmentation]** no seu fluxo de trabalho.
 1. Selecione e abra a atividade usando o botão ![](assets/edit_darkgrey-24px.png) das ações rápidas exibidas.
-1. Na guia **[!UICONTROL General]**, selecione **[!UICONTROL Resource type]** na qual a segmentação deve ser realizada:
+1. Na guia **[!UICONTROL General]** , selecione o **[!UICONTROL Resource type]** no qual a segmentação deve ser realizada:
 
    * **[!UICONTROL Database resource]** se a segmentação for realizada nos dados existentes no banco de dados. Selecione a **[!UICONTROL Filtering dimension]** dependendo dos dados que você deseja segmentar. Por padrão, a segmentação é realizada nos **perfis**.
    * **[!UICONTROL Temporary resource]** se a segmentação for realizada nos dados temporários do fluxo de trabalho. Selecione o **[!UICONTROL Targeted set]** que contêm os dados a serem segmentados. Esse caso de uso poderá ser encontrado após a importação de um arquivo ou se os dados no banco de dados tiverem sido enriquecidos.
@@ -88,7 +91,6 @@ A atividade **[!UICONTROL Segmentation]** geralmente é colocada após as ativid
       >[!NOTE]
       >
       >É possível usar diferentes limitações para cada valor. Por exemplo, você pode especificar um agrupamento para o campo **[!UICONTROL Gender]** e limitar a população com 10 membros **[!UICONTROL Male]** e 30 membros **[!UICONTROL Female]**. Se você usar vários campos de agrupamento de dados, todos os agrupamentos deverão ter o mesmo tamanho.
-
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. Confirme a configuração do seu segmento.
@@ -97,6 +99,6 @@ A atividade **[!UICONTROL Segmentation]** geralmente é colocada após as ativid
 
    * Marque a opção **[!UICONTROL Enable overlapping of outbound populations]** se desejar que um membro da população de entrada pertença a vários segmentos ao mesmo tempo. A população de saída da atividade pode exceder a população de entrada.
    * Marque a opção **[!UICONTROL Concatenate the code of each segment]** se a população de entrada já tiver recebido um código de segmento que você deseja manter. O código de segmento especificado na atividade será adicionado ao código de segmento inicial.
-   * Marque a opção **[!UICONTROL Generate complement]** se desejar explorar a população restante. Consulte [Caso de uso: Criação de delivery com um complemento](../../automating/using/workflow-created-query-with-complement.md).
+   * Marque a opção **[!UICONTROL Generate complement]** se desejar explorar a população restante. Consulte [Caso de uso: Criar deliveries com um complemento](../../automating/using/workflow-created-query-with-complement.md).
 
 1. Confirme a configuração da sua atividade e salve o fluxo de trabalho.
