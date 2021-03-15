@@ -6,11 +6,15 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: Saiba como proteger e otimizar o fluxo do processo de envio.
+feature: Avaliação do delivery
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 87%
+source-wordcount: '746'
+ht-degree: 86%
 
 ---
 
@@ -27,13 +31,13 @@ Vários fatores podem afetar diretamente o desempenho do servidor e retardar a p
 
 * O número e o tipo de elementos de personalização: a personalização em emails extrai dados do banco de dados para cada recipient. Se houver muitos elementos de personalização, isso aumentará a quantidade de dados necessários para preparar o delivery.  Saiba mais sobre a personalização de email em [esta seção](../../designing/using/personalization.md)
 
-* O servidor carrega: quando a Campanha está lidando com muitas tarefas diferentes ao mesmo tempo, pode retardar o desempenho. O servidor de precisa coordenar todos os dados de entrada e saída de todos os deliveries para garantir que os dados estejam corretos no momento correto.
+* A carga do servidor: quando o Campaign estiver lidando com várias tarefas diferentes ao mesmo tempo, ele poderá retardar o desempenho. O servidor de precisa coordenar todos os dados de entrada e saída de todos os deliveries para garantir que os dados estejam corretos no momento correto.
 
    **Dica** - Para evitar isso, coordene a programação de deliveries com os outros membros da equipe, garantindo um melhor desempenho.
 
-* A [execução do fluxo de trabalho](../../automating/using/about-workflow-execution.md): o monitoramento de seus workflows é essencial para evitar problemas de desempenho da plataforma. Siga as diretrizes listadas [nesta página](../../automating/using/monitoring-workflow-execution.md). Saiba mais na seção [práticas recomendadas do fluxo de trabalho](../../automating/using/best-practices-workflows.md).
+* A [execução do workflow](../../automating/using/about-workflow-execution.md): o monitoramento de seus workflows é essencial para evitar problemas de desempenho na plataforma. Siga as diretrizes listadas [nesta página](../../automating/using/monitoring-workflow-execution.md). Saiba mais na seção [práticas recomendadas de workflow](../../automating/using/best-practices-workflows.md) .
 
-* Você pode aproveitar os [recursos do Painel de controle de Campanha](https://docs.adobe.com/content/help/pt-BR/control-panel/using/discover-control-panel/key-features.html) para monitorar sua plataforma, usando as funcionalidades [de monitoramento de desempenho](https://docs.adobe.com/content/help/pt-BR/control-panel/using/performance-monitoring/about-performance-monitoring.html).
+* Você pode aproveitar os [recursos do Painel de controle do Campaign](https://docs.adobe.com/content/help/pt-BR/control-panel/using/discover-control-panel/key-features.html) para monitorar sua plataforma, usando as funcionalidades de [monitoramento de desempenho](https://docs.adobe.com/content/help/pt-BR/control-panel/using/performance-monitoring/about-performance-monitoring.html).
 
 ## Verificar a configuração da rede {#network-config}
 
@@ -77,4 +81,4 @@ Para evitar o envio de mensagens para endereços inválidos, limitar as comunica
 
 Os detalhes relativos à implementação deste mecanismo são descritos [nesta seção](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-Saiba mais em [Comece com perfis e audiência](../../audiences/using/get-started-profiles-and-audiences.md).
+Saiba mais em [Introdução a perfis e públicos-alvo](../../audiences/using/get-started-profiles-and-audiences.md).
