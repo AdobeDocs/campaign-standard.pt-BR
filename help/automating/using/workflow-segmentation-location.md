@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,segmentation,delivery
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '272'
 ht-degree: 83%
 
 ---
@@ -36,7 +39,7 @@ Você pode enviar um email de direcionamento para clientes com ofertas em suas l
 
 ## Criação de uma atividade de Segmentação{#creating-a-segmentation-activity}
 
-1. Arraste e solte uma atividade [Segmentation](../../automating/using/segmentation.md) e clique nela com o duplo do mouse.
+1. Arraste e solte uma atividade [Segmentation](../../automating/using/segmentation.md) e clique duas vezes nela.
 1. Clique no segmento e abra a transição para segmentar as pessoas na primeira cidade. Neste caso, Boston.
 1. Arraste e solte a **[!UICONTROL Location]** e selecione **[!UICONTROL City]** com o operador **[!UICONTROL equals to]** e o valor **[!UICONTROL Boston]**.
 Observação: para acessar todas as pessoas que digitaram Boston, desmarque a opção que faz distinção entre maiúsculas e minúsculas.
@@ -48,7 +51,7 @@ Observação: para acessar todas as pessoas que digitaram Boston, desmarque a op
 
 ## Criação de um delivery de email{#creating-an-email-delivery}
 
-1. Em **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, arraste e solte uma atividade [delivery de e-mail](../../automating/using/email-delivery.md) após cada segmento.
+1. Em **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, arraste e solte uma atividade [Email delivery](../../automating/using/email-delivery.md) após cada segmento.
 1. Clique na atividade e selecione ![](assets/edit_darkgrey-24px.png) para editar.
 1. Selecione **[!UICONTROL Simple email]** e clique em **[!UICONTROL Next]**.
 1. Selecione um template de email e clique em **[!UICONTROL Next]**.
