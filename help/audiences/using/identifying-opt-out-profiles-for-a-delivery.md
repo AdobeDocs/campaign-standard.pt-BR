@@ -6,18 +6,21 @@ description: Descubra como identificar perfis de não participação para um del
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
+feature: Públicos
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 41%
+source-wordcount: '52'
+ht-degree: 40%
 
 ---
 
 
 # Identificar perfis de não participação para uma entrega{#identifying-opt-out-profiles-for-a-delivery}
 
-Os perfis de recusa para um delivery específico são listados depois da fase de preparação, na guia **[!UICONTROL Exclusion logs]** do painel do delivery.
+Os perfis de rejeição para um delivery específico são listados após a fase de preparação, na guia **[!UICONTROL Exclusion logs]** do painel de delivery.
 
 ![](assets/exclusion_blocklisting.png)
 
