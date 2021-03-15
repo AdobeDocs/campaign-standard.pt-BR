@@ -7,11 +7,14 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 context-tags: cusResource,main
+feature: Modelo de dados
+role: Desenvolvedor
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 95%
+source-wordcount: '545'
+ht-degree: 94%
 
 ---
 
@@ -81,8 +84,8 @@ Em vez de configurá-lo, eles precisarão apenas inserir o valor desejado na cai
 
 ![](assets/custom_resource_filter-definition_email-audience_filter.png)
 
-Depois que um filtro é configurado, você pode usá-lo das APIs de Campaign Standard usando esta sintaxe:
+Depois que um filtro é configurado, é possível usá-lo das APIs do Campaign Standard usando esta sintaxe:
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-Para obter mais informações, consulte a documentação das APIs [Campaign Standard](../../api/using/filtering.md#custom-filters).
+Para obter mais informações, consulte a [documentação das APIs do Campaign Standard](../../api/using/filtering.md#custom-filters).
