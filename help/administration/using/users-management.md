@@ -6,11 +6,14 @@ description: 'Os usuários do Adobe Campaign têm funções específicas. Descub
 audience: administration
 content-type: reference
 topic-tags: users-and-security
+feature: Gerenciamento de acesso
+role: Administrador
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 95%
+source-wordcount: '1224'
+ht-degree: 94%
 
 ---
 
@@ -61,7 +64,7 @@ Os administradores funcionais são usuários que podem acessar as partes mais t�
 
 >[!IMPORTANT]
 >
->Somente administradores funcionais, com a função **[!UICONTROL Administration]** e o acesso a **Todas** unidades podem acessar logs de envio, registros de mensagens, logs de rastreamento, registros de exclusão, registros de proposição e registros de subscrições. Um usuário não administrativo pode público alvo desses registros, mas iniciando em uma tabela vinculada (perfis, delivery).
+>Somente administradores Funcionais, com função **[!UICONTROL Administration]** e acesso a **Todas** unidades podem acessar logs de envio, logs de mensagem, logs de rastreamento, logs de exclusão, logs de propostas e logs de assinatura. Um usuário não administrador pode direcionar esses logs, mas começar em uma tabela vinculada (perfis, delivery).
 
 Os administradores funcionais são os únicos usuários que podem acessar o menu **[!UICONTROL Administration]** na interface do Adobe Campaign. Como esses usuários precisam acessar recursos técnicos, as funções mais avançadas devem ser atribuídas a eles, como as funções **[!UICONTROL Administration]** e **[!UICONTROL Datamodel]** prontas para uso. Essas funções são combinadas no grupo de segurança **[!UICONTROL Administrators]** pronto para uso. Para obter mais informações, consulte esta [seção](../../administration/using/list-of-roles.md).
 
@@ -160,4 +163,4 @@ Este vídeo mostra como gerenciar direitos de acesso do usuário.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
 
-Vídeos de procedimentos de Campaign Standard adicionais estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
+Os vídeos de instruções adicionais do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
