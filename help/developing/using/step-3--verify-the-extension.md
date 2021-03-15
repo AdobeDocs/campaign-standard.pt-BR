@@ -2,22 +2,25 @@
 solution: Campaign Standard
 product: campaign
 title: '"Etapa 3: verificar a extensão"'
-description: Saiba mais sobre como acessar o campo estendido com a Rest API.
+description: Saiba como acessar o campo estendido com a API Rest.
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
+feature: Modelo de dados
+role: Desenvolvedor
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 13%
+source-wordcount: '63'
+ht-degree: 12%
 
 ---
 
 
 # Etapa 3: verificar a extensão{#step-verify-the-extension}
 
-1. Faça uma operação de GET nos metadados da API de extensão de Perfis e serviços para verificar se o campo adicionado no recurso personalizado de Perfis está disponível.
+1. Faça uma operação GET nos metadados da API da extensão de perfis e serviços para verificar se o campo adicionado ao recurso personalizado Perfis agora está disponível.
 
    ```
    GET profileAndServicesExt/resourceType/profile
@@ -27,5 +30,5 @@ ht-degree: 13%
 
    ![](assets/extendpandsapiview.png)
 
-   O campo está agora disponível para novos desenvolvimentos e integrações.
+   O campo agora está disponível para novos desenvolvimentos e integrações.
 
