@@ -1,16 +1,19 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Entendendo a estrutura de carga de notificações por push de Campaign Standard
-description: Este documento destina-se a descrever a estrutura da carga recebida em aplicativos móveis.
+title: Como entender a estrutura de payload das notificações por push do Campaign Standard
+description: Este documento destina-se a descrever a estrutura da carga útil recebida em aplicativos móveis.
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
+feature: Configurações de instância
+role: Administrador
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1152'
 ht-degree: 4%
 
 ---
@@ -18,27 +21,27 @@ ht-degree: 4%
 
 # Como entender a estrutura de payload das notificações de push do {#push-payload}
 
-A Adobe Campaign permite enviar notificações por push personalizadas e segmentadas em dispositivos móveis iOS e Android para aplicativos móveis (aplicativo móvel).
+O Adobe Campaign permite enviar notificações por push personalizadas e segmentadas em dispositivos móveis iOS e Android para aplicativos móveis (aplicativo móvel).
 
-Cada notificação por push recebida em um aplicativo móvel contém algumas informações que são usadas pelo aplicativo para exibir a notificação por push se uma notificação por push de alerta for enviada e provavelmente também fará mais alguma computação, especialmente se uma notificação por push silenciosa for enviada.
+Cada notificação por push recebida em um aplicativo móvel contém algumas informações usadas pelo aplicativo para exibir a notificação por push se uma notificação por push de alerta for enviada e provavelmente também fará mais cálculo, especialmente se uma notificação por push silenciosa for enviada.
 
-Essas informações são recebidas pelo código do aplicativo móvel em um manipulador de eventos que indica que uma notificação por push foi recebida. Ao enviar notificações por push da Adobe Campaign Standard, as informações recebidas no aplicativo móvel também podem conter informações específicas ao Campaign Standard que podem ser usadas para aproveitar alguns recursos fornecidos pelo Campaign Standard. Além disso, a carga pode conter dados personalizados que podem ser consumidos pelo aplicativo móvel.
+Essas informações são recebidas pelo código do aplicativo móvel em um manipulador de evento que indica que uma notificação por push foi recebida. Ao enviar notificações por push do Adobe Campaign Standard, as informações recebidas no aplicativo móvel também podem conter informações específicas do Campaign Standard, que podem ser usadas para aproveitar alguns recursos fornecidos pelo Campaign Standard. Além disso, a carga pode conter dados personalizados que podem ser consumidos pelo aplicativo móvel.
 
-Este documento descreve a estrutura da carga recebida em um aplicativo móvel quando uma notificação por push é enviada com êxito para um aplicativo da Adobe Campaign Standard.
+Este documento descreve a estrutura da carga útil recebida em um aplicativo móvel quando uma notificação por push é enviada com êxito para um aplicativo da Adobe Campaign Standard.
 
 >[!NOTE]
 >
->A estrutura de carga varia dependendo do tipo de aplicativo móvel (ou seja, aplicativo iOS, aplicativo Android habilitado para FCM).
+>A estrutura de payload varia dependendo do tipo de aplicativo móvel (ou seja, aplicativo iOS, aplicativo Android habilitado para FCM).
 
 ## Estrutura de carga de push {#push-payload-structure}
 
-Esta seção detalha a estrutura de uma carga de amostra para várias plataformas móveis e descreve os principais atributos contidos nela. Esta é a estrutura da carga recebida no código do aplicativo móvel no manipulador de eventos que indica que uma notificação por push foi recebida.
+Esta seção detalha a estrutura de uma carga de amostra para várias plataformas móveis e descreve os principais atributos contidos nela. Essa é a estrutura da carga recebida no código do aplicativo móvel no manipulador de eventos que indica que uma notificação por push foi recebida.
 
-Os atributos de carga e seus valores variam com base nas configurações fornecidas nas opções avançadas de notificação por push. Esta seção também fornece um mapeamento entre essas configurações na interface do usuário do Campaign Standard e os atributos na carga para esclarecer como a carga será alterada ao configurar uma opção no Campaign Standard.
+Os atributos de carga e seus valores variam com base nas configurações fornecidas nas opções avançadas da notificação por push. Esta seção também fornece um mapeamento entre essas configurações na interface do usuário do Campaign Standard e os atributos na carga útil para esclarecer como a carga será alterada ao configurar uma opção no Campaign Standard.
 
-### Para iOS Mobile App {#payload-structure-ios}
+### Para aplicativo móvel iOS {#payload-structure-ios}
 
-**Amostra de carga enviada do Adobe Campaign para o aplicativo iOS:**
+**Exemplo de carga enviada do Adobe Campaign para o aplicativo iOS:**
 
 ```
 {
@@ -78,7 +81,7 @@ Os atributos de carga e seus valores variam com base nas configurações forneci
     "_mId":"h138a"} 
 ```
 
-**Carga de amostra JSON a ser usada com o  [iOS APNS Tester](https://pushtry.com/)**
+**Carga de amostra JSON a ser usada com o Testor APNS  [iOS](https://pushtry.com/)**
 
 ```
 {
@@ -106,13 +109,13 @@ Os atributos de carga e seus valores variam com base nas configurações forneci
 }
 ```
 
-A seção mais importante da carga é o dicionário aps, que contém as chaves definidas pela Apple e é usado para determinar como o sistema que recebe a notificação deve alertar o usuário, se for o caso. Esta seção contém chaves predefinidas que são usadas pelo aplicativo móvel para formular o comportamento da notificação por push.
+A seção mais importante do payload é o dicionário aps, que contém chaves definidas pela Apple e é usado para determinar como o sistema que recebe a notificação deve alertar o usuário, se for o caso. Esta seção contém chaves predefinidas usadas pelo aplicativo móvel para formular o comportamento da notificação por push.
 
-Detalhes aprofundados sobre os atributos no aplicativo podem ser encontrados em documentos do desenvolvedor da Apple: [Criando a Carga de Notificação Remota](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1).
+Detalhes detalhados sobre os atributos nos aplicativos podem ser encontrados nos documentos do desenvolvedor da Apple: [Criando a Carga de Notificação Remota](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1).
 
-### Para aplicativos Android {#payload-structure-android}
+### Para aplicativo Android {#payload-structure-android}
 
-**Amostra de envio de carga do aplicativo Adobe Campaign para Android**
+**Exemplo de carga enviada do Adobe Campaign para o aplicativo Android**
 
 ```
 {
@@ -152,7 +155,7 @@ Detalhes aprofundados sobre os atributos no aplicativo podem ser encontrados em 
 }
 ```
 
-**Carga de amostra JSON para usar o testador do  [Google FCM](https://pushtry.com/)**
+**Carga de amostra JSON para usar o testador FCM  [do Google](https://pushtry.com/)**
 
 ```
 {
@@ -196,36 +199,36 @@ Detalhes aprofundados sobre os atributos no aplicativo podem ser encontrados em 
 
 A carga contém uma mensagem de dados que inclui todo o conteúdo do delivery de notificação por push, incluindo os pares de chave/valor personalizados, e o aplicativo cliente deve manipular a mensagem para criar e mostrar a notificação por push, se necessário, ou então adicionar qualquer outra lógica comercial.
 
-Para entender os aspectos de uma carga do Android, consulte [Conceitos e opções de mensagens (fcm)](https://firebase.google.com/docs/cloud-messaging/concept-options).
+Para entender os aspectos de uma carga do android, consulte [Conceitos e opções de mensagens (fcm)](https://firebase.google.com/docs/cloud-messaging/concept-options).
 
 >[!NOTE]
 >
->O suporte para mensagens de notificação na carga do Android foi removido a partir de janeiro de 2018 para permitir a ativação do aplicativo e a transmissão do controle para o aplicativo móvel sem a necessidade de interação do usuário com o aplicativo.
+>O suporte para mensagens de notificação no payload do Android foi removido em janeiro de 2018 para habilitar a ativação do aplicativo e transmitir o controle para o aplicativo móvel sem precisar que o usuário interaja com o aplicativo.
 
 ### Mapeamento entre configurações de Campaign Standard e atributos de carga {#mapping-payload}
 
 | Configuração da campanha | Atributo afetado no iOS | Atributo afetado no Android | Descrição |
 |:-:|:-:|:-:|:-:|
-| Título da mensagem <br>Corpo da mensagem | alert → título <br> alerta → corpo | título <br>corpo | Esses dados contêm detalhes específicos da mensagem de alerta.<br>O título e as chaves de corpo fornecem o conteúdo do alerta. |
+| Título da mensagem <br>Corpo da mensagem | alerta → título <br> alerta → corpo | título <br>corpo | Esses dados contêm especificidades da mensagem de alerta.<br>O título e as chaves de corpo fornecem o conteúdo do alerta. |
 | Reproduzir um som | som | som | Um som personalizado para reproduzir com o alerta. |
-| Valor do crachá | emblema | emblema | Um valor inteiro a ser usado para marcar o ícone do aplicativo. |
+| Valor do selo | emblema | emblema | Um valor inteiro a ser usado para marcar o ícone do aplicativo. |
 | Adicionar um deep link | uri | NA | Um deeplink permite trazer os usuários diretamente ao conteúdo localizado dentro do aplicativo (em vez de abrir uma página do navegador da web). |
-| Categoria | categoria | categoria | Para exibir ações personalizadas com uma notificação remota. <br>A tecla categoria ajuda o sistema a exibir as ações para essa categoria como botões na interface de alerta. |
-| Campos personalizados | custom_field1, custom_field2 ... | custom_field1, custom_field2 ... | Todos os dados personalizados que você deseja enviar ao seu aplicativo. |
-| URL de conteúdo de mídia avançada (arquivos de imagem, gif, áudio e vídeo)<br>(aplicável somente para iOS 10 ou superior) | media-attachment-url | NA | URL dos arquivos de mídia para adicionar conteúdo avançado à sua notificação. <br>Ao fornecer um valor para esse URL, o sinalizador de conteúdo mutável é enviado automaticamente para a carga. <br> (Aplicável somente para iOS 10 ou superior) |
-| Conteúdo variável <br> (aplicável somente para iOS 10 ou superior) | mutable-content | NA | A extensão do serviço de notificação no aplicativo interceptará todas as notificações remotas com a chave de conteúdo mutável e permitirá que você manipule/manipule o conteúdo da carga da solicitação, que pode ser usada para personalizar a notificação. Os casos de uso desse recurso incluem baixar e exibir várias mídias, descriptografando quaisquer dados criptografados presentes na carga de push. Mais informações podem ser encontradas em [Modifique a carga de uma Notificação Remota](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(Aplicável somente para iOS 10 ou superior) |
-| Conteúdo disponível | conteúdo disponível | NA | Selecionar essa opção ativa a ativação de um aplicativo iOS enquanto ele estiver em segundo plano/suspenso. A ativação implica que o aplicativo seja executado em segundo plano e o manipulador de eventos apropriado responsável por receber a carga de dados da notificação por push obtenha um controle e possa usar os dados para fazer qualquer cálculo, incluindo, mas não limitado a, criar notificação por push personalizada e exibir o mesmo. Mais informações podem ser encontradas em [Ativar aplicativo com delivery de notificação](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
-| URL de conteúdo de mídia avançada (arquivos de imagem)<br> (aplicável somente para Android) | NA | media-attachment-url | URL dos arquivos de imagem para adicionar conteúdo avançado à sua notificação. |
-| NA | _mId<br>_dId | _mId <br>_dId | Valores de BroadlogId e deliveryId.<br>Esses atributos são necessários se o aplicativo desejar chamar um postback de rastreamento para rastrear quando a notificação por push foi clicada/aberta. Essas informações são computadas e enviadas internamente pelo servidor do aplicativo sem a intervenção do usuário.<br>Informações sobre postbacks podem ser encontradas nesta  [página](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback). |
+| Categoria | categoria | categoria | Para exibir ações personalizadas com uma notificação remota. <br>A tecla de categoria ajuda o sistema a exibir as ações dessa categoria como botões na interface de alerta. |
+| Campos personalizados | custom_field1, custom_field2 ... | custom_field1, custom_field2 ... | Quaisquer dados personalizados que você deseja enviar para seu aplicativo. |
+| URL de conteúdo de mídia avançada (arquivos de imagem, gif, áudio e vídeo)<br>(Aplicável somente para iOS 10 ou superior) | media-attachment-url | NA | URL dos seus arquivos de mídia para adicionar conteúdo avançado à sua notificação. <br>Ao fornecer um valor para esse URL, o sinalizador de conteúdo mutável é enviado automaticamente para o payload. <br> (Aplicável somente para iOS 10 ou superior) |
+| Conteúdo variável <br> (aplicável somente para iOS 10 ou superior) | mutable-content | NA | A extensão do serviço de notificação no aplicativo interceptará todas as notificações remotas com a chave de conteúdo mutável e permitirá manipular/manipular o conteúdo da carga da solicitação, que pode ser usada para personalizar a notificação. Os casos de uso desse recurso incluem o download e a exibição de várias mídias, a descriptografia de quaisquer dados criptografados presentes na carga de push. Mais informações podem ser encontradas em [Modificar a carga de uma Notificação remota](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(Aplicável somente para iOS 10 ou superior) |
+| Conteúdo disponível | conteúdo disponível | NA | Selecionar essa opção permite ativar um aplicativo iOS enquanto ele estiver em segundo plano/suspenso. A ativação implica que o aplicativo é executado em segundo plano e o manipulador de eventos apropriado responsável por receber a carga de dados da notificação por push obtém um controle e pode usar os dados para fazer qualquer cálculo, incluindo, entre outros, a criação de notificações por push personalizadas e a exibição da mesma. Mais informações podem ser encontradas em [Ativar aplicativo com entrega de notificação](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
+| URL de conteúdo de mídia avançada (arquivos de imagem)<br>(Aplicável somente para Android) | NA | media-attachment-url | URL dos arquivos de imagem para adicionar conteúdo avançado à sua notificação. |
+| NA | _mId<br>_dId | _mId <br>_dId | Valores de broadlogId e deliveryId.<br>Esses atributos são necessários se o aplicativo quiser chamar um postback de rastreamento para rastrear quando a notificação por push foi clicada/aberta. Essas informações são computadas e enviadas internamente pelo servidor de aplicativos sem a intervenção do usuário.<br>Informações sobre postbacks podem ser encontradas nesta  [página](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback). |
 
 ### Como recuperar informações de carga no código do aplicativo móvel {#payload-information}
 
-As informações de carga enviadas pelo servidor do aplicativo são recebidas pelo código do aplicativo móvel em um manipulador de eventos que indica que uma notificação por push foi recebida. Esse evento varia com base na plataforma móvel em que o aplicativo está sendo executado e também se baseia em se o aplicativo está sendo executado em primeiro ou segundo plano. A documentação a seguir o ajudará a identificar o manipulador de eventos que você deseja manipular com base no caso de uso.
+As informações de carga enviadas pelo servidor de aplicativos são recebidas pelo código do aplicativo móvel em um manipulador de eventos que indica que uma notificação por push foi recebida. Esse evento varia com base na plataforma móvel em andamento e também se baseia em se o aplicativo está sendo executado em primeiro ou segundo plano. A documentação a seguir ajudará a identificar o manipulador de eventos que você deseja manipular com base no seu caso de uso.
 
-* Aplicativos iOS: **Manuseio de Notificações Remotas** seção em [Notificações Remotas](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html).
+* Aplicativos iOS: **Manipular notificações remotas** na seção [Notificações remotas](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html).
 * Aplicativos Android: [Recebendo mensagens em um aplicativo cliente Android](https://firebase.google.com/docs/cloud-messaging/android/receive)
 
-**Amostra para o aplicativo móvel iOS**
+**Exemplo de aplicativo para dispositivos móveis iOS**
 
 ```
  - (void)application:(UIApplication *)application
@@ -257,7 +260,7 @@ didReceiveRemoteNotification:(NSDictionary *)userInfo {
 }
 ```
 
-**Amostra para o aplicativo FCM do Android Mobile**
+**Exemplo de aplicativo FCM para dispositivos móveis Android**
 
 ```
 public void onMessageReceived(RemoteMessage message) {
