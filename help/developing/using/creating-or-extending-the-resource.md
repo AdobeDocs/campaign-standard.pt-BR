@@ -6,18 +6,21 @@ description: Descubra como definir um recurso do zero.
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
+feature: Modelo de dados
+role: Desenvolvedor
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 11%
+source-wordcount: '157'
+ht-degree: 10%
 
 ---
 
 
 # Criação ou extensão do recurso{#creating-or-extending-the-resource}
 
-Os administradores podem criar um novo recurso do zero ou criar uma extensão de um recurso existente se você precisar trabalhar em dados que não façam parte do modelo de dados incorporado.
+Os administradores podem criar um novo recurso do zero ou criar uma extensão de um recurso existente se você precisar trabalhar em dados que não fazem parte do modelo de dados integrado.
 
 Somente os seguintes recursos incorporados podem ser estendidos:
 
@@ -36,7 +39,7 @@ Para criar ou estender um recurso:
 1. Em **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**, clique no botão **[!UICONTROL Create]**.
 1. Escolha a ação que deseja executar:
 
-   * **[!UICONTROL Create a new resource]**: Insira os  **[!UICONTROL Label]** campos  **[!UICONTROL ID]** e. O campo **[!UICONTROL ID]** é obrigatório. Se você deixar o campo Rótulo vazio, ele será automaticamente preenchido a partir da ID.
+   * **[!UICONTROL Create a new resource]**: Insira os  **[!UICONTROL Label]** campos  **[!UICONTROL ID]** e . O campo **[!UICONTROL ID]** é obrigatório. Se você deixar o campo Label vazio, ele será automaticamente preenchido a partir da ID.
 
       ![](assets/schema_extension_2.png)
 
