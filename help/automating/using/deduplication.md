@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: dedup,main
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 97%
+source-wordcount: '571'
+ht-degree: 96%
 
 ---
 
@@ -36,8 +39,8 @@ Por conseguinte, é aconselhável que uma desduplicação tenha somente uma tran
 
 **Tópicos relacionados**
 
-* [Caso de uso: Identificação de duplicados antes de um delivery](../../automating/using/identifying-duplicated-before-delivery.md)
-* [Caso de uso: Desduplicando os dados de um arquivo importado](../../automating/using/deduplicating-data-imported-file.md)
+* [Caso de uso: Identificação de duplicatas antes de um delivery](../../automating/using/identifying-duplicated-before-delivery.md)
+* [Caso de uso: Desduplicação de dados de um arquivo importado](../../automating/using/deduplicating-data-imported-file.md)
 
 ## Configuração {#configuration}
 
