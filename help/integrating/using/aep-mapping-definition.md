@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Definição de mapeamento
-description: Saiba como mapear um campo do Campaign Standard com um campo Experience Data Model (XDM).
+description: Saiba como mapear um campo Campaign Standard com um campo Experience Data Model (XDM).
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
+feature: Integração do Microsoft CRM
+role: Arquiteto de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '505'
 ht-degree: 2%
 
 ---
@@ -19,9 +22,9 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->O Conector de dados da Adobe Experience Platform está atualmente em beta, que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente da Adobe se desejar acesso.
+>No momento, o Adobe Experience Platform Data Connector está em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente do Adobe se desejar acesso.
 
-Nesta seção, você descobrirá como mapear um campo do Campaign Standard com um campo Experience Data Model (XDM).
+Nesta seção, você descobrirá como mapear um campo Campaign Standard com um campo do Experience Data Model (XDM).
 
 Para executar essa tarefa, os pré-requisitos são:
 
@@ -36,22 +39,22 @@ Para executar essa tarefa, os pré-requisitos são:
 
 1. Preencha os campos obrigatórios e selecione:
 
-   * a **targeting dimension**: este é o esquema do Campaign Standard a ser mapeado
-   * a **conjunto de dados**: esse é o pacote de dados associado a um esquema XDM na Adobe Experience Platform.
+   * a **targeting dimension**: este é o schema Campaign Standard para mapear
+   * a **conjunto de dados**: esse é o pacote de dados associado a um esquema XDM no Adobe Experience Platform.
 
 >[!NOTE]
 >
 >Para que um lote seja assimilado no Perfil do cliente em tempo real ou no Serviço de identidade, o conjunto de dados deve estar [ativado para o Perfil do cliente em tempo real](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/intro/get-started.html).
 >
->Se o conjunto de dados selecionado já estiver sendo usado em um mapeamento de dados existente, um aviso será exibido para informá-lo de que seus dados podem ser substituídos na Adobe Experience Platform. Isso pode acontecer quando há alguns recipients comuns em mapeamentos de dados usando um mesmo conjunto de dados.
+>Se o conjunto de dados selecionado já estiver sendo usado em um mapeamento de dados existente, um aviso será exibido para informá-lo de que seus dados podem ser substituídos no Adobe Experience Platform. Isso pode acontecer quando há alguns recipients comuns em mapeamentos de dados usando um mesmo conjunto de dados.
 
-A tela a seguir apresenta a seção **[!UICONTROL Field mappings]** onde você pode criar um novo mapeamento para cada campo no esquema do Campaign Standard.
+A tela a seguir apresenta a seção **[!UICONTROL Field mappings]** onde você pode criar um novo mapeamento para cada campo no schema Campaign Standard.
 
 ![](assets/aep_fieldmappings.png)
 
 O botão **[!UICONTROL Create new field mapping]** permite selecionar o campo Campaign Standard e a expressão do caminho do campo correspondente no esquema XDM.
 
-Se não conseguir localizar um campo do Adobe Campaign Standard, você pode usar o campo de pesquisa para pesquisar pelo campo. Atualmente, a pesquisa só funciona para campos que estão abertos na hierarquia.
+Se não conseguir localizar um campo do Adobe Campaign Standard, você poderá usar o campo de pesquisa para pesquisar pelo campo. Atualmente, a pesquisa só funciona para campos que estão abertos na hierarquia.
 
 ![](assets/aep_mapfield.png)
 
