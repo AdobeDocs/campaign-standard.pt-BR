@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: Sobre as atividades de gestão de dados
-description: Atividades de gestão de dados estão disponíveis no lado esquerdo da tela.
+description: As atividades de gestão de dados estão disponíveis no lado esquerdo da tela.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 55%
+source-wordcount: '124'
+ht-degree: 54%
 
 ---
 
@@ -32,4 +35,4 @@ A seção **[!UICONTROL Data management (ETL)]** inclui as seguintes atividades:
 * [Extrair arquivo](../../automating/using/extract-file.md)
 * [Serviços de assinatura](../../automating/using/subscription-services.md)
 
-**[!UICONTROL Data management (ETL)]** O atividade permite que você defina  **códigos de** segmento para suas transições de saída. Em seguida, você poderá criar relatórios com base nesses códigos de segmento para medir a eficiência das suas campanhas de marketing. Para obter mais informações, consulte [esta seção](../../reporting/using/creating-a-report-workflow-segment.md).
+**[!UICONTROL Data management (ETL)]** As atividades do permitem definir os  **códigos** de segmento para as transições de saída. Em seguida, você poderá criar relatórios com base nesses códigos de segmento para medir a eficiência das suas campanhas de marketing. Para obter mais informações, consulte [esta seção](../../reporting/using/creating-a-report-workflow-segment.md).
