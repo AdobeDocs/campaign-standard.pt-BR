@@ -6,11 +6,13 @@ description: Saiba mais sobre as práticas recomendadas a serem seguidas ao impo
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
+feature: Fluxos de trabalho
+role: Arquiteto de dados
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 82%
+source-wordcount: '572'
+ht-degree: 81%
 
 ---
 
@@ -19,7 +21,7 @@ ht-degree: 82%
 
 >[!CAUTION]
 >
->Lembre-se dos limites do armazenamento SFTP, Armazenamento DB e perfil ativo conforme o contrato da Adobe Campaign ao usar essa funcionalidade.
+>Lembre-se do armazenamento SFTP, do armazenamento de banco de dados e dos limites de perfil ativos conforme o contrato da Adobe Campaign ao usar essa funcionalidade.
 
 Ser cuidadoso e seguir apenas algumas regras simples detalhadas abaixo ajudará a garantir a consistência dos dados dentro do banco de dados e evitar erros comuns durante a atualização ou exportação de dados.
 
@@ -33,19 +35,19 @@ Em muitos projetos, as importações são criadas sem a atividade **[!UICONTROL 
 
 Não confie na suposição de que os dados de entrada são consistentes e corretos, ou que o departamento de TI ou o supervisor do Adobe Campaign irá resolver isso. Durante o projeto, mantenha a limpeza dos dados em mente. Elimine duplicatas, reconcilie e mantenha de consistência ao importar dados.
 
-Um exemplo de um modelo de fluxo de trabalho genérico projetado para importar dados está disponível no [Exemplo: Importar a seção do modelo de fluxo de trabalho](../../automating/using/creating-import-workflow-templates.md).
+Um exemplo de um template de workflow genérico projetado para importar dados está disponível no [Exemplo: Importar a seção do template do workflow](../../automating/using/creating-import-workflow-templates.md).
 
 >[!NOTE]
 >
->Você também pode usar [templates de importação](../../automating/using/importing-data-with-import-templates.md). São modelos de fluxo de trabalho definidos por um administrador que, uma vez ativado, apenas oferta a possibilidade de especificar o arquivo que contém os dados a serem importados.
+>Você também pode usar [importar templates](../../automating/using/importing-data-with-import-templates.md). Eles são templates de workflow definidos por um administrador que, uma vez ativados, oferece apenas a possibilidade de especificar o arquivo que contém os dados a serem importados.
 
 **Tópicos relacionados:**
 
-* [Carregar atividade de arquivo](../../automating/using/load-file.md)
+* [Atividade de carregamento de arquivo](../../automating/using/load-file.md)
 * [Atividade de reconciliação](../../automating/using/reconciliation.md)
 * [Atividade de Segmentação](../../automating/using/segmentation.md)
 * [Atividade de desduplicação](../../automating/using/deduplication.md)
-* [Atualizar atividade de dados](../../automating/using/update-data.md)
+* [Atividade de atualização de dados](../../automating/using/update-data.md)
 
 ## Uso dos formatos de arquivo simples {#using-flat-file-formats}
 
@@ -74,8 +76,8 @@ Use arquivos compactados para importações e exportações sempre que possível
 
 **Tópicos relacionados:**
 
-* [Carregar atividade de arquivo](../../automating/using/load-file.md)
-* [Extrair atividade de arquivo](../../automating/using/extract-file.md)
+* [Atividade de carregamento de arquivo](../../automating/using/load-file.md)
+* [Atividade Extrair arquivo](../../automating/using/extract-file.md)
 
 ## Importação no modo Delta {#importing-in-delta-mode}
 
