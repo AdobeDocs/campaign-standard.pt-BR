@@ -2,23 +2,26 @@
 solution: Campaign Standard
 product: campaign
 title: Amostras de queries
-description: Esta seção apresenta o caso de uso ao usar uma atividade de Query.
+description: Esta seção apresenta um caso de uso ao usar uma atividade Query .
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 90%
+source-wordcount: '338'
+ht-degree: 89%
 
 ---
 
 
 # Amostras de queries {#query-samples}
 
-Esta seção apresenta um caso de uso ao usar uma atividade **[!UICONTROL Query]**. Para obter mais informações sobre como usar uma atividade **[!UICONTROL Query]**, consulte [esta seção](../../automating/using/query.md).
+Esta seção apresenta um caso de uso ao usar uma atividade **[!UICONTROL Query]** . Para obter mais informações sobre como usar uma atividade **[!UICONTROL Query]**, consulte [esta seção](../../automating/using/query.md).
 
 ## Direcionamento em atributos simples de perfil {#targeting-on-simple-profile-attributes}
 
