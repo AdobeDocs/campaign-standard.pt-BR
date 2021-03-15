@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Visão geral do Experience Data Model
-description: O Experience Data Model (XDM) é um conjunto padrão de esquemas de dados em que os dados podem ser assimilados para uso com as soluções e os produtos da Adobe Experience Platform.
+description: O Experience Data Model (XDM) é um conjunto padrão de esquemas de dados em que os dados podem ser assimilados para uso com soluções e produtos da Adobe Experience Platform.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
+feature: Integração do Microsoft CRM
+role: Arquiteto de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '255'
 ht-degree: 7%
 
 ---
@@ -19,9 +22,9 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->O Conector de dados da Adobe Experience Platform está atualmente em beta, que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente da Adobe se desejar acesso.
+>No momento, o Adobe Experience Platform Data Connector está em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente do Adobe se desejar acesso.
 
-O Experience Data Model (XDM) é um conjunto padrão de esquemas de dados em que os dados podem ser assimilados para uso com as soluções e os produtos da Adobe Experience Platform.
+O Experience Data Model (XDM) é um conjunto padrão de esquemas de dados em que os dados podem ser assimilados para uso com soluções e produtos da Adobe Experience Platform.
 
 A criação e o gerenciamento de esquemas XDM estão disponíveis com uma API dedicada ou com a interface do usuário XDM.
 
@@ -29,7 +32,7 @@ A criação e o gerenciamento de esquemas XDM estão disponíveis com uma API de
 
 O Espaço de trabalho XDM oferece a capacidade de exibir, criar e estender esquemas de dados.
 
-Para acessar a interface do usuário do XDM, abra a Adobe Experience Platform. Navegue até a janela Modelo de dados para criar ou estender um esquema XDM.
+Para acessar a interface do usuário do XDM, abra o Adobe Experience Platform. Navegue até a janela Modelo de dados para criar ou estender um esquema XDM.
 
 Consulte a [documentação completa do Espaço de Trabalho XDM](https://docs.adobe.com/content/help/pt-BR/experience-platform/xdm/api/getting-started.html).
 
