@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: Atualização de vários status de assinatura diretamente de um arquivo
-description: Este caso de uso mostra como importar um arquivo contendo perfis e atualizar sua subscrição para vários serviços especificados no arquivo.
+description: Este caso de uso mostra como importar um arquivo contendo perfis e atualizar sua assinatura para vários serviços especificados no arquivo.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '421'
 ht-degree: 76%
 
 ---
@@ -24,7 +27,7 @@ O fluxo de trabalho é apresentado da seguinte forma:
 
 ![](assets/subscription_activity_example1.png)
 
-* Uma atividade [Carregar arquivo](../../automating/using/load-file.md) carrega o arquivo de perfil e define a estrutura das colunas importadas.
+* Uma atividade [Load file](../../automating/using/load-file.md) carrega o arquivo de perfil e define a estrutura das colunas importadas.
 
    Neste exemplo, o arquivo carregado está no formato .csv e contém os seguintes dados:
 
@@ -49,7 +52,7 @@ O fluxo de trabalho é apresentado da seguinte forma:
 
    Se o arquivo já usar &quot;0&quot; e &quot;1&quot; para identificar a operação, não é necessário remapear esses valores. Verifique somente se a coluna é processada como **Booliana** ou **Integer** na guia **[!UICONTROL Column definition]**.
 
-* Uma atividade [Reconciliation](../../automating/using/reconciliation.md) identifica os dados do arquivo como pertencendo à dimensão do perfil do banco de dados Adobe Campaign. Na guia **[!UICONTROL Identification]**, o campo de **email** do arquivo corresponde ao campo de **email** do recurso de perfil.
+* Uma atividade [Reconciliation](../../automating/using/reconciliation.md) identifica os dados do arquivo como pertencente à dimensão de perfil do banco de dados do Adobe Campaign. Na guia **[!UICONTROL Identification]**, o campo de **email** do arquivo corresponde ao campo de **email** do recurso de perfil.
 
    ![](assets/subscription_activity_example3.png)
 
@@ -57,11 +60,11 @@ O fluxo de trabalho é apresentado da seguinte forma:
 
    ![](assets/subscription_example_service_relation.png)
 
-* Um [Desduplicação-duplicado](../../automating/using/deduplication.md) baseado no campo **email** do recurso temporário (resultante da reconciliação) identifica duplicados. É importante eliminar duplicatas, caso contrário, haverá falha para todos os dados na assinatura para um serviço.
+* Uma [Desduplicação](../../automating/using/deduplication.md) com base no campo **email** do recurso temporário (resultante da reconciliação) identifica duplicatas. É importante eliminar duplicatas, caso contrário, haverá falha para todos os dados na assinatura para um serviço.
 
    ![](assets/subscription_activity_example5.png)
 
-* Uma atividade [Subscrição no serviço](../../automating/using/subscription-services.md) identifica os serviços a serem atualizados como provenientes da transição, através do link criado na atividade **[!UICONTROL Reconciliation]**.
+* Uma atividade [Subscription Services](../../automating/using/subscription-services.md) identifica os serviços a serem atualizados como provenientes da transição, por meio do link criado na atividade **[!UICONTROL Reconciliation]**.
 
    O **[!UICONTROL Operation type]** é identificado como proveniente do campo de **operação** do arquivo. Somente os campos Booliano ou Integer podem ser selecionados aqui. Se a coluna do arquivo que contém a operação a ser executada não aparecer na lista, verifique se você definiu corretamente o formato da coluna na atividade **[!UICONTROL Load file]**, conforme explicado anteriormente nesse exemplo.
 
