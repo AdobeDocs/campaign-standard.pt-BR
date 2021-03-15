@@ -6,11 +6,14 @@ description: Saiba mais sobre os recursos do Adobe Campaign Standard para gerenc
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
+feature: Privacidade
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: a9afa91302684ddd37a94a9999d90bf8c8e7abee
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 100%
+source-wordcount: '968'
+ht-degree: 99%
 
 ---
 
