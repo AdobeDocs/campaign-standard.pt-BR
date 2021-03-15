@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Gerando um arquivo CSV para Notificação por push multilíngue com Campaign Standard
-description: Fazer upload de um arquivo CSV para gerar conteúdo para o delivery é um recurso usado para suportar notificações por push multilíngues.
+description: Fazer upload de um arquivo CSV para gerar conteúdo para entrega é um recurso usado para suportar notificações por push multilíngues.
 audience: channels
 content-type: reference
 topic-tags: email-messages
+feature: Empurrar
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
@@ -17,11 +20,11 @@ ht-degree: 0%
 
 # Gerando um arquivo CSV para Notificação por push multilíngue{#generating-csv-multilingual-push}
 
-Fazer upload de um arquivo CSV para gerar conteúdo para o delivery é um recurso usado para suportar notificações por push multilíngues. O formato do arquivo CSV precisa seguir determinadas diretrizes para que o upload do arquivo seja bem-sucedido e, consequentemente, possa criar um delivery. As seções a seguir descrevem o formato do arquivo e suas considerações.
+Fazer upload de um arquivo CSV para gerar conteúdo para entrega é um recurso usado para suportar notificações de push multilíngues. O formato do arquivo CSV precisa seguir determinadas diretrizes para que o upload do arquivo seja bem-sucedido e, consequentemente, possa criar um delivery. As seções a seguir descrevem o formato do arquivo e suas considerações.
 
 ## Formato de arquivo {#file-format}
 
-O envio multilíngue requer 14 colunas no arquivo CSV:
+O push multilíngue requer 14 colunas no arquivo CSV:
 
 1. título
 1. messageBody
@@ -36,41 +39,41 @@ O envio multilíngue requer 14 colunas no arquivo CSV:
 1. customFields
 1. locale
 1. language
-1. silentPush
+1. quietPush
 
 Verifique a amostra CSV clicando em **[!UICONTROL Download a sample file]** na janela **[!UICONTROL Manage Content Variants]**. Para obter mais informações, consulte esta [seção](../../channels/using/creating-a-multilingual-push-notification.md).
 
-* **título, messageBody, som, emblema, deeplinkURI, categoria, iosMediaAttachmentURL, androidMediaAttachmentURL**: conteúdo regular da carga de push. É necessário fornecer essas informações de maneira semelhante à criação de delivery de push.
-* **Campos** personalizados: use o formato JSON para os campos personalizados, por exemplo,  `{"key1":"value1","key2":"value2"}`. Consulte o arquivo de amostra acima para ver um exemplo de campos personalizados.
-* **isContentAvailable**: sinalizador para verificação de Conteúdo disponível, valor 1 implica true, valor 0 implica false. O valor padrão é 0. Se deixar essa coluna em branco, o valor será considerado 0.
-* **isMutableContent**: sinalizador para Conteúdo variável, valor 1 implica true, valor 0 implica false. O valor padrão é 0. Se deixar essa coluna em branco, o valor será considerado 0.
-* **localidade**: locale é o campo para variantes de idioma, por exemplo, &quot;pt_br&quot; para inglês dos EUA e &quot;fr_fr&quot; para francês.
-* **idioma**: nome do idioma associado à localidade. Por exemplo, se locale for &quot;en_us&quot;, o nome do idioma deverá ser &quot;Inglês-Estados Unidos&quot;.
-* **silentPush**: sinalizador para o tipo de notificação por push. Se for uma notificação por push regular, o valor deve ser 0. Se for um push silencioso, o valor deve ser 1. O valor padrão é 0. Se deixar essa coluna em branco, o valor será considerado 0.
+* **título, messageBody, som, selo, deeplinkURI, categoria, iosMediaAttachmentURL, androidMediaAttachmentURL**: conteúdo regular de carga de push. É necessário fornecer essas informações de maneira semelhante ao criar deliveries por push.
+* **Campos** personalizados: usar o formato JSON para os campos personalizados, por exemplo  `{"key1":"value1","key2":"value2"}`. Consulte o arquivo de exemplo acima para obter um exemplo de campos personalizados.
+* **isContentAvailable**: sinalizador para verificação de Conteúdo disponível, o valor 1 implica true, o valor 0 implica false. O valor padrão é 0. Se deixar essa coluna em branco, o valor será considerado 0.
+* **isMutableContent**: sinalizador para Conteúdo variável, o valor 1 implica verdadeiro, o valor 0 implica falso. O valor padrão é 0. Se deixar essa coluna em branco, o valor será considerado 0.
+* **localidade**: locale é o campo para variantes de idioma, por exemplo &quot;en_us&quot; para inglês dos EUA e &quot;fr_fr&quot; para francês-francês.
+* **idioma**: nome do idioma associado à localidade. Por exemplo, se a localidade for &quot;en_us&quot;, o nome do idioma deverá ser &quot;English-United States&quot;.
+* **quietPush**: sinalizador para o tipo de notificação por push. Se for uma notificação por push regular, o valor deve ser 0. Se for um push silencioso, o valor deve ser 1. O valor padrão é 0. Se deixar essa coluna em branco, o valor será considerado 0.
 
 ## Restrições e Diretrizes para a criação do arquivo csv {#constraints-guideline-csv}
 
 **O nome de cada coluna é fixo**.
-Você deve incluir o nome de cada coluna no arquivo CSV, se não usar nenhuma coluna para o conteúdo, deixe-a em branco.
+Você deve incluir o nome de cada coluna no arquivo CSV. Caso não use nenhuma coluna para o conteúdo, deixe-a em branco.
 
 **As colunas &quot;locale&quot; e &quot;language&quot; são obrigatórias e o valor é exclusivo para cada linha.**
-Um valor em branco para esta coluna resultará em uma falha no carregamento do arquivo.
+Um valor em branco para essa coluna resultará em uma falha no upload do arquivo.
 
 **A ordem das colunas é importante**. A ordem das colunas no arquivo carregado deve seguir o mesmo formato do arquivo de amostra.
 
-**Conteúdo** da coluna de aspas. Como este é um arquivo CSV (sigla de Valores separados por vírgulas), qualquer conteúdo de coluna que inclui vírgula (,) deve ser mencionado. Por exemplo, &quot;Olá, Tom!&quot;
+**Citar conteúdo da coluna**. Como esse é um arquivo CSV (ou seja, valores separados por vírgula), qualquer conteúdo de coluna que inclui vírgula (,) deve ser cotado. Por exemplo, &quot;Olá, Tom!&quot;
 
 **A codificação UTF-8 é necessária para caracteres internacionais.**
 
 **Se você gerar o arquivo por texto simples, separe cada coluna por &quot;,&quot;.**
 
-**Variante Incompatível.** Se você usar audiências de blocos de conteúdo e públicos alvos com idiomas específicos, precisará lista de cada idioma direcionado no arquivo CSV ou aparecerá um erro ao enviar o delivery.
+**Incompatibilidade de Variante.** Se você usar o bloco de conteúdo e os públicos-alvo com idiomas específicos, será necessário listar cada idioma direcionado no arquivo CSV ou ocorrerá um erro ao enviar o delivery.
 
-## Inserção do campo de personalização no arquivo csv {#personalization-field-csv}
+## Inserção de campo de personalização no arquivo csv {#personalization-field-csv}
 
 Se quiser usar campos de personalização, inclua a tag <span> no arquivo.
 
-Para inserir o campo de personalização &quot;firstName&quot; em messageBody, a mensagem precisa ser:
+Para inserir o campo de personalização &quot;firstName&quot; no messageBody, a mensagem precisa ser:
 
 ```
  "Hello <span class="nl-dce-field nl-dce-done"  data-nl-expr="/context/profile/firstName">First name</span>, this is message".
@@ -82,11 +85,11 @@ O campo &quot;firstName&quot; é representado por:
  <span class="nl-dce-field nl-dce-done" data-nl-expr="/context/profile/firstName">First name</span>
 ```
 
-No intervalo, há dois atributos obrigatórios:
+No span há dois atributos obrigatórios:
 
 * Uma é a classe que é estática. Não importa qual campo de personalização você planeja usar, ele sempre será class=&quot;nl-dce-field nl-dce-done&quot;.
 
-* Outro é o data-nl-expr, que é o caminho do campo de personalização. Por exemplo, se você inserir o campo de personalização &quot;firstName&quot; da interface do usuário, o caminho de navegação será **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (conforme mostrado na imagem abaixo). Nesse caso, o caminho será
+* Outro é data-nl-expr, que é o caminho do campo de personalização. Por exemplo, se você inserir o campo de personalização &quot;firstName&quot; na interface do usuário, o caminho de navegação será **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (conforme mostrado na imagem abaixo). Nesse caso, o caminho será
 
    ```
    /context/profile/firstName. data-nl-expr="/context/profile/firstName".
@@ -94,14 +97,14 @@ No intervalo, há dois atributos obrigatórios:
 
 ![](assets/multilingual_push_2.png)
 
-## Nomes de localidade e idioma {#locale-language-names}
+## Localidade e nomes de idioma {#locale-language-names}
 
 Os seguintes idiomas são suportados:
 
-| locale | linguagem |
+| locale | idioma |
 |:-:|:-:|
 | af_za | Afrikaans - África do Sul |
-| sq_al | Albanês - Albânia |
+| sq_al | Albânia - Albânia |
 | ar_dz | Árabe - Argélia |
 | ar_bh | Árabe - Bahrein |
 | ar_iq | Árabe - Iraque |
@@ -124,8 +127,8 @@ Os seguintes idiomas são suportados:
 | bg_bg | Búlgaro - Bulgária |
 | ca_es | Catalão - Espanha |
 | zh_cn | Chinês (Simplificado) - China |
-| zh_sg | Chinês (simplificado) - Cingapura |
-| zh_hk | Chinês (Tradicional) - RAE de Hong Kong da China |
+| zh_sg | Chinês (Simplificado) - Singapura |
+| zh_hk | Chinês (Tradicional) - Região Administrativa Especial de Hong Kong da China |
 | zh_tw | Chinês (Tradicional) - Região de Taiwan |
 | hr_hr | Croata - Croácia |
 | cs_cz | Tcheco - Tcheco |
@@ -160,18 +163,18 @@ Os seguintes idiomas são suportados:
 | el_gr | Grego - Grécia |
 | gu_in | Gujarati - Índia |
 | he_il | Hebraico - Israel |
-| hi_in | Hindi - Índia |
+| hi_in | Híndi - Índia |
 | hu_hu | Húngaro - Hungria |
 | is_is | Islandês - Islândia |
-| id_id | Indonésia - Indonésia |
+| id_id | Indonésio - Indonésia |
 | it_it | Italiano - Itália |
 | it_ch | Italiano - Suíça |
 | ja_jp | Japonês - Japão |
-| kn_in | Canada - Índia |
+| kn_in | Kannada - Índia |
 | kk_kz | Cazaque - Cazaquistão |
 | ko_kr | Coreano - Coreia do Sul |
 | lv_lv | Letão - Letónia |
-| lt_lt | Lituânia - Lituânia |
+| lt_lt | Lituano - Lituânia |
 | mk_mk | Macedônio - Macedônia |
 | ms_my | Malaio - Malásia |
 | mr_in | Marathi - Índia |
