@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,wait,delivery
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '860'
 ht-degree: 86%
 
 ---
@@ -65,7 +68,7 @@ Use o botão **[!UICONTROL Count]** para ver uma estimativa do número de perfis
 
 Depois que o público-alvo for identificado pela atividade Query, é necessário selecionar um critério para segmentar o público-alvo em duas populações diferentes: uma receberá um email e a outra receberá um SMS.
 
-É necessário usar uma atividade [Segmentation](../../automating/using/segmentation.md) para criar um ou vários segmentos a partir de uma população computada em upstream em um query.
+Você precisa usar uma atividade de [Segmentação](../../automating/using/segmentation.md) para criar um ou vários segmentos a partir de uma população computada upstream em uma query.
 
 ![](assets/wkf_segment_activity.png)
 
@@ -112,7 +115,7 @@ A segunda transição agora também está configurada.
 
 ## Criar deliveries {#creating-deliveries}
 
-Como duas transições já foram criadas, você deve adicionar dois tipos de delivery às transições de saída da atividade de Segmentação: uma atividade [delivery de e-mail](../../automating/using/email-delivery.md) e uma atividade [delivery SMS](../../automating/using/sms-delivery.md).
+Como duas transições já foram criadas, agora você deve adicionar dois tipos de delivery às transições de saída da atividade de Segmentação: uma atividade [Email delivery](../../automating/using/email-delivery.md) e uma atividade [SMS delivery](../../automating/using/sms-delivery.md) .
 
 O Adobe Campaign permite adicionar deliveries a um fluxo de trabalho. Para fazer isso, selecione um delivery na categoria **[!UICONTROL Channels]** da paleta de atividades do fluxo de trabalho.
 
@@ -120,7 +123,7 @@ O Adobe Campaign permite adicionar deliveries a um fluxo de trabalho. Para fazer
 
 Para criar um delivery de email:
 
-1. Arraste e solte uma atividade [delivery de e-mail](../../automating/using/email-delivery.md) após o primeiro segmento.
+1. Arraste e solte uma atividade [Email delivery](../../automating/using/email-delivery.md) após o primeiro segmento.
 1. Clique duas vezes na atividade para editá-la.
 1. Selecione **[!UICONTROL Simple email]**.
 1. Selecione **[!UICONTROL Add an outbound transition with the population]** e clique em **[!UICONTROL Next]**.
@@ -137,7 +140,7 @@ Para criar um delivery de email:
 
 Para criar um delivery de SMS:
 
-1. Arraste e solte uma atividade [delivery SMS](../../automating/using/sms-delivery.md) depois do outro segmento.
+1. Arraste e solte uma atividade [SMS delivery](../../automating/using/sms-delivery.md) após o outro segmento.
 1. Clique duas vezes na atividade para editá-la.
 1. Selecione **[!UICONTROL SMS]** e clique em **[!UICONTROL Next]**.
 1. Selecione um modelo de SMS e clique em **[!UICONTROL Next]**.
@@ -150,7 +153,7 @@ Depois de os deliveries serem criados e editados, o fluxo de trabalho estará pr
 
 ## Execução do fluxo de trabalho {#running-the-workflow}
 
-Assim que o fluxo de trabalho for iniciado, a população alvo da atividade **[!UICONTROL Query]** será segmentada para receber um delivery de email ou SMS.
+Depois que o workflow for iniciado, a população direcionada pela atividade **[!UICONTROL Query]** será segmentada para receber um delivery de email ou SMS.
 
 Para executar o fluxo de trabalho, clique no botão **[!UICONTROL Start]** da barra de ações.
 
