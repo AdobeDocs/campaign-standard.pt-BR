@@ -6,11 +6,14 @@ description: Saiba como enviar mensagens no fuso horário do recipient.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
+feature: Provas
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 100%
+source-wordcount: '379'
+ht-degree: 98%
 
 ---
 
