@@ -6,10 +6,12 @@ description: Prepare, teste, agende, envie e monitore suas mensagens.
 audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: e20485978deba54f45010a41921b948f049222f2
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '592'
 ht-degree: 15%
 
 ---
@@ -21,28 +23,28 @@ ht-degree: 15%
 <tr>
 <td><img src="assets/do-not-localize/icon_prepare.svg" width="60px"><p><a href="#prepare-test-send">Preparar e testar</a></p></td>
 <td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#send-track-messages">Enviar, monitorar e rastrear</a></p></td>
-<td><img src="assets/do-not-localize/icon_deliverability.svg" width="60px"><p><a href="#improve-deliverability">Diretrizes de entregabilidade</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_deliverability.svg" width="60px"><p><a href="#improve-deliverability">Diretrizes de capacidade de delivery</a></p></td></tr>
 </table>
 
-Depois de definir o público alvo e criar o conteúdo de uma mensagem, é necessário preparar e testar o conteúdo dos delivery, personalização, renderização e configuração. Isso permite que você se certifique de que tudo esteja correto antes de enviar a mensagem para o público alvo principal. Para fazer isso, várias funcionalidades estão disponíveis como pré-visualização, provas, teste de linha de assunto do email ou renderização de email.
+Depois de definir o público-alvo e criar o conteúdo de uma mensagem, é necessário preparar e testar o conteúdo, a personalização, a renderização e a configuração dos deliveries. Isso permite verificar se tudo está correto antes de enviar a mensagem para o público-alvo principal. Para fazer isso, várias funcionalidades estão disponíveis, como pré-visualização, provas, teste de assunto de email ou renderização de email.
 
-Depois que as campanhas de marketing tiverem sido executadas e as diferentes mensagens tiverem sido enviadas, monitore-as usando registros para verificar o sucesso de sua campanha e recupere as informações de rastreamento nos recipient.
+Depois que as campanhas de marketing tiverem sido executadas e as diferentes mensagens tiverem sido enviadas, monitore-as usando registros para verificar o sucesso de sua campanha e recupere as informações de rastreamento dos recipients.
 
-Por fim, aproveite as diretrizes e as ferramentas de entrega disponíveis no Campaign Standard para melhorar o número de mensagens entregues e garantir campanhas de marketing bem-sucedidas.
+Por fim, aproveite as diretrizes e ferramentas de deliverability disponíveis no Campaign Standard para melhorar o número de mensagens entregues e garantir campanhas de marketing bem-sucedidas.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra como enviar um email de teste, preparar e enviar um delivery por email em vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Descubra como enviar um email de teste, preparar e enviar um delivery de email em vídeo](#video)
 
-## Preparar e testar {#prepare-test-send}
+## Prepare e teste {#prepare-test-send}
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
 
-Campaign Standard **preparação de mensagem** analisa o público alvo, a personalização e a validade da mensagem. Os erros detectados durante esta etapa devem ser corrigidos antes de poder continuar.
+Campaign Standard **message preparation** analisa o target, a personalização e a validade da mensagem. Os erros detectados durante esta etapa devem ser corrigidos antes de poderem prosseguir.
 
-**Pré-visualização e** teste suas mensagens usando vários recursos: envie provas para testar perfis ou perfis com metas, teste a linha de assunto de seus emails e verifique a renderização de suas mensagens para garantir que elas sejam exibidas da melhor forma em diversos clientes da Web, emails e dispositivos.
+**Visualize e** teste suas mensagens usando vários recursos: envie provas para testar perfis ou perfis segmentados, teste a linha de assunto de seus emails e verifique a renderização de suas mensagens para garantir que ela será exibida com eficiência em uma variedade de clientes da Web, Webmails e dispositivos.
 
-Aproveite os recursos de agendamento de Campanha para definir quando suas mensagens serão enviadas. Por exemplo, você pode adaptar o envio no fuso horário do recipient, otimizar a hora de envio ou calcular a data de envio.
+Aproveite os recursos de programação do Campaign para definir quando suas mensagens serão enviadas. Por exemplo, você pode adaptar o envio no fuso horário do recipient, otimizar a hora de envio ou calcular a data de envio.
 
-Use **typologies** para verificar durante a preparação se a mensagem é válida e atende aos seus critérios de qualidade por meio de regras de fadiga, controle e definição de metas. Por exemplo, para verificar se seus emails sempre contêm uma linha de assunto ou para excluir os canceladores dos recipient de mensagem.
+Use **typologies** para verificar, durante a preparação, se a mensagem é válida e atende aos seus critérios de qualidade por meio de fadiga, controle e regras de definição de metas. Por exemplo, para verificar se os emails sempre contêm uma linha de assunto ou para excluir assinantes dos recipients da mensagem.
 
 Leia mais:
 
@@ -57,11 +59,11 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 
-Quando sua mensagem estiver pronta, você poderá confirmar os registros de envio e acesso e os relatórios para **monitorar o delivery** e medir o sucesso de sua campanha. A Adobe Campaign também fornece um sistema de alerta por email para rastrear sucessos ou falhas do delivery, bem como recursos de gerenciamento de quarentenas.
+Quando a mensagem estiver pronta, você poderá confirmar os logs de envio e acesso e os relatórios para **monitorar o delivery** e medir o sucesso da campanha. O Adobe Campaign também fornece um sistema de alerta por email para acompanhar sucessos ou falhas do delivery, bem como recursos de gerenciamento de quarentena.
 
-**Rastreie o** comportamento dos recipient de mensagens usando cookies permanentes e de sessão para recuperar informações de rastreamento (URLs clicados, mirrores page, mensagens abertas...).
+**Rastreie o** comportamento dos recipients da mensagem usando cookies permanentes e de sessão para recuperar informações de rastreamento (URLs clicados, mirror pages, mensagens abertas...).
 
-Por fim, você pode configurar o Adobe Campaign para **manter uma cópia de e-mails** enviados de sua plataforma por meio do Email BCC. Em particular, se sua organização precisar arquivar todas as mensagens de email de saída para fins de conformidade, você poderá habilitar esse recurso.
+Finalmente, você pode configurar o Adobe Campaign para **manter uma cópia dos emails** enviados de sua plataforma por meio do Email Cco. Especificamente, se sua organização precisar arquivar todas as mensagens de email de saída para fins de conformidade, você poderá habilitar esse recurso.
 
 Leia mais:
 
@@ -72,13 +74,13 @@ Leia mais:
 * [Noções básicas sobre falhas de delivery](../../sending/using/understanding-delivery-failures.md)
 * [Noções básicas sobre gestão de quarentena](../../sending/using/understanding-quarantine-management.md)
 
-## Diretrizes de entregabilidade {#improve-deliverability}
+## Diretrizes de capacidade de entrega {#improve-deliverability}
 
 <img src="assets/do-not-localize/icon_deliverability.svg"  width="60px">
 
 A capacidade de delivery permite medir o sucesso das campanhas em chegar à caixa de entrada dos recipients sem rejeição ou sem serem marcadas como spam.
 
-O Campaign Standard fornece várias **ferramentas de entrega** para ajudá-lo a melhorar o número de mensagens entregues com êxito: Relatórios de pensamento do delivery, otimização do tempo de envio, pré-visualização de mensagens, renderização de e-mail, gerenciamento de quarentenas etc.
+O Campaign Standard fornece várias **ferramentas de deliverability** para ajudar você a melhorar o número de mensagens entregues com êxito: relatórios de delivery, otimização de tempo de envio, pré-visualização de mensagens, renderização de email, gerenciamento de quarentena etc.
 
 Leia mais:
 
@@ -86,7 +88,7 @@ Leia mais:
 * [Monitoramento da capacidade de entrega](../../sending/using/monitor-deliverability.md)
 * [Aprimoramento da reputação](../../sending/using/improving-reputation.md)
 * [Recomendações técnicas](../../sending/using/technical-recommendations.md)
-* [Controlar a taxa de transferência do Delivery](../../reporting/using/delivery-throughput.md)
+* [Controle da taxa de transferência de delivery](../../reporting/using/delivery-throughput.md)
 
 ## Recursos adicionais
 
@@ -97,7 +99,7 @@ Leia mais:
 
 ## Vídeo tutorial {#video}
 
-Este vídeo mostra como enviar um email de teste, preparar e enviar um delivery por email no Campaign Standard.
+Este vídeo mostra como enviar um email de teste, preparar e enviar um delivery de email no Campaign Standard.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24013/)
 
