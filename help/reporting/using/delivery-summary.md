@@ -2,16 +2,19 @@
 solution: Campaign Standard
 product: campaign
 title: Resumo do delivery
-description: Com o relatório de resumo do Delivery pronto para uso, saiba mais sobre as estatísticas do delivery, como número de envios, rejeições e aberturas.
+description: Com o relatório pronto para uso do Delivery summary , saiba mais sobre as estatísticas de delivery, como número de envios, rejeições e aberturas.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryCirculationReport,main;campaignCirculationReport,main;programCirculationReport,main
+feature: Relatórios
+role: Líder
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 1%
+source-wordcount: '221'
+ht-degree: 2%
 
 ---
 
@@ -22,19 +25,19 @@ O relatório **[!UICONTROL Delivery summary]** detalha as informações principa
 
 ![](assets/campaign_reports_1.png)
 
-Cada tabela é representada por números de resumo e gráficos. Você pode alterar a forma como os detalhes são exibidos em suas respectivas configurações de visualização.
+Cada tabela é representada por números de resumo e gráficos. Você pode alterar como os detalhes são mostrados em suas respectivas configurações de visualização.
 
-A tabela **Estatísticas do Delivery** contém os dados disponíveis para emails enviados, como:
+A tabela **Delivery statistics** contém os dados disponíveis para emails enviados, como:
 
 * **[!UICONTROL Processed/sent]**: O número total de envios para o delivery.
-* **[!UICONTROL Delivered]**: O número de mensagens enviadas com êxito, em relação ao número total de mensagens enviadas. Os erros levantados (rejeições) são tidos em conta. No entanto, as queixas (declarações de spam) e as mensagens de saída como &quot;fora do escritório&quot; não são levadas em conta.
-* **[!UICONTROL Bounces + Errors]**: O número total de erros acumulados durante o processamento de retorno automático e delivery em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Delivered]**: O número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas. Erros gerados (rejeições) são considerados. No entanto, as reclamações (declarações de spam) e mensagens de saída, como &quot;ausência temporária&quot;, não são consideradas.
+* **[!UICONTROL Bounces + Errors]**: O número total de erros acumulados durante o delivery e o processamento automático de retorno em relação ao número total de mensagens enviadas.
 
-A tabela **Abrir e clicar** contém os dados disponíveis para a atividade do recipient para cada delivery, como:
+A tabela **Open and clicks** contém os dados disponíveis para a atividade do recipient para cada delivery, como:
 
-* **Clique**: O número de vezes que um conteúdo foi clicado em um delivery.
+* **Clique em**: O número de vezes que um conteúdo foi clicado em um delivery.
 * **Abrir**: O número de vezes que uma mensagem foi aberta em um delivery.
-* **Aberturas** exclusivas: O número de recipient que abriram o delivery.
-* **Cliques** únicos: O número de recipient que clicaram em um conteúdo em um delivery.
+* **Aberturas** exclusivas: O número de recipients que abriram o delivery.
+* **Cliques** exclusivos: O número de recipients que clicaram em um conteúdo em um delivery.
 
-A tabela **Repartição de domínio** exibe o status dos delivery de acordo com o domínio do recipient.
+A tabela **Delegação de domínio** exibe o status dos deliveries de acordo com o domínio do recipient.
