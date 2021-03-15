@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,delivery,scheduler
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 81%
+source-wordcount: '246'
+ht-degree: 80%
 
 ---
 
@@ -43,7 +46,7 @@ Você pode enviar um email todas as terças-feiras a todos os clientes com ofert
 
 ## Criação de uma atividade Query{#creating-a-query-activity}
 
-1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, para selecionar recipient, arraste e solte uma atividade [Query](../../automating/using/query.md) e clique nela com o duplo.
+1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, para selecionar recipients, arraste e solte uma atividade [Query](../../automating/using/query.md) e clique duas vezes nela.
 1. Em **[!UICONTROL Shortcuts]** > **[!UICONTROL Profile]**, arraste e solte **[!UICONTROL Email]**.
 1. Selecione **[!UICONTROL is not empty]** como operador.
 1. Em **[!UICONTROL Shortcuts]** > **[!UICONTROL General]**, adicione perfis e selecione **[!UICONTROL no longer contact by email]** com o valor **[!UICONTROL No]**.
@@ -53,7 +56,7 @@ Você pode enviar um email todas as terças-feiras a todos os clientes com ofert
 
 ## Criação de um delivery de email{#creating-an-email-delivery}
 
-1. Em **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, arraste e solte uma atividade [delivery de e-mail](../../automating/using/email-delivery.md).
+1. Em **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, arraste e solte uma atividade [Email delivery](../../automating/using/email-delivery.md).
 1. Clique na atividade e selecione ![](assets/edit_darkgrey-24px.png) para editar.
 1. Selecione **[!UICONTROL Recurring email]** e clique em **[!UICONTROL Next]**.
 1. Selecione um template de email e clique em **[!UICONTROL Next]**.
