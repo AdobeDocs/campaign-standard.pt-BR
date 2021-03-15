@@ -2,19 +2,22 @@
 solution: Campaign Standard
 product: campaign
 title: DataModel
-description: Saiba mais sobre o modelo de dados
+description: Saiba mais sobre o datamodel
 audience: developing
 content-type: reference
+feature: Modelo de dados
+role: Desenvolvedor
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '148'
 ht-degree: 13%
 
 ---
 
 
-# Visitante (nms:visitante)
+# Visitante (nms:visitor)
 
 ## Descrição do objeto
 
@@ -23,24 +26,24 @@ ht-degree: 13%
         <th>Nome</th>
         <th>Rótulo</th>
         <th>Tipo (comprimento)</th>
-        <th>valores de lista discriminada</th>
+        <th>Valores de enumeração</th>
     </tr>
     <tr>
         <td>PKey</td>
-        <td>ID do recurso principal</td>
+        <td>ID de recurso principal</td>
         <td>string </td>
         <td> </td>
     </tr>
     <tr>
         <td>comentário</td>
-        <td>Comentário quem indicou</td>
+        <td>Comentário do referenciador</td>
         <td>string (255)</td>
         <td> </td>
     </tr>
     <tr>
         <td>criado</td>
         <td>Criado</td>
-        <td>date </td>
+        <td>data </td>
         <td> </td>
     </tr>
     <tr>
@@ -57,7 +60,7 @@ ht-degree: 13%
     </tr>
     <tr>
         <td>deliveryId</td>
-        <td>ID do último delivery</td>
+        <td>ID da última delivery</td>
         <td>integer </td>
         <td> </td>
     </tr>
@@ -100,7 +103,7 @@ ht-degree: 13%
     <tr>
         <td>lastModified</td>
         <td>Última modificação</td>
-        <td>date </td>
+        <td>data </td>
         <td> </td>
     </tr>
     <tr>
@@ -124,11 +127,11 @@ ht-degree: 13%
     <tr>
         <td>origem</td>
         <td>Origem</td>
-        <td>lista discriminada (byte) </td>
+        <td>enumeração (byte) </td>
         <td>
             <ul>
             <li>Indefinido - indefinido - 0</li>
-            <li>VALOR INVÁLIDO - __Valor_inválido__ - __Valor_inválido__</li>
+            <li>VALOR INVÁLIDO - __Valor_Inválido__ - __Valor_Inválido__</li>
             </ul>
         </td>
     </tr>
@@ -139,38 +142,38 @@ ht-degree: 13%
         <td> </td>
     </tr>
     <tr>
-        <td>receiptId</td>
+        <td>recipientId</td>
         <td>ID do perfil</td>
         <td>integer </td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerEmail</td>
-        <td>E-mail de quem indicou</td>
+        <td>Email do referenciador</td>
         <td>string (128)</td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerFirstName</td>
-        <td>Nome da quem indicou</td>
+        <td>Nome do referenciador</td>
         <td>string (30)</td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerId</td>
-        <td>ID da quem indicou</td>
+        <td>ID de referenciador</td>
         <td>integer </td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerLastName</td>
-        <td>sobrenome da quem indicou</td>
+        <td>Sobrenome do referenciador</td>
         <td>string (50)</td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerRcp (recipient)</td>
-        <td>Quem indicou</td>
+        <td>Referenciador</td>
         <td>link </td>
         <td> </td>
     </tr>
@@ -184,7 +187,7 @@ ht-degree: 13%
 
 ## Filtros
 
-Por sobrenome, nome ou email (por texto)</p>
+Por sobrenome, nome ou email (porText)</p>
 
 <table>
         <tr>
