@@ -1,16 +1,19 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Melhorando sua reputação com a Adobe Campaign Standard
-description: Saiba como melhorar sua reputação com a Adobe Campaign Standard, gerenciando endereços de email e quarentenas de duplicados.
+title: Aprimoramento da reputação com o Adobe Campaign Standard
+description: Saiba como melhorar sua reputação com o Adobe Campaign Standard gerenciando endereços de email e quarentenas duplicados.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
+feature: Avaliação do delivery
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '462'
 ht-degree: 75%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 75%
 
 # Aprimoramento da reputação{#improving-reputation}
 
-Para não esgotar os recipients, exclua endereços de email duplicados do destino. Essa etapa protege a reputação de envio e garante um bom gerenciamento de quarentena. A Adobe Campaign oferta as ferramentas necessárias para implementar essas recomendações e evitar o risco de serem adicionadas à lista de bloqueios pelos ISPs.
+Para não esgotar os recipients, exclua endereços de email duplicados do destino. Essa etapa protege a reputação de envio e garante um bom gerenciamento de quarentena. O Adobe Campaign oferece as ferramentas necessárias para implementar essas recomendações e evitar o risco de serem adicionadas à lista de bloqueios pelos ISPs.
 
 Abaixo você encontrará detalhes sobre o gerenciamento de duplicidade e quarentena.
 
@@ -33,7 +36,7 @@ Além de evitar os procedimentos de aceitação, essa situação levará os usu�
 Você deve ter cuidado especial ao executar operações no banco de dados. Para evitar ao máximo as duplicações, as seguintes ações devem ser realizadas:
 * **As importações devem ser meticulosamente configuradas.** Isso é particularmente importante ao escolher a chave de reconciliação.
 * **Preste atenção ao modificar endereços de email.** Endereços de email alterados também podem ser uma fonte de duplicidades. Em particular, dois endereços com domínios diferentes podem ser roteados para a mesma caixa de correio, por exemplo, no caso de uma empresa que mudou de nome e manteve o domínio anterior por um determinado período de tempo: joe.doe@amce-co.com e joe.doe@acme-rebranded.com.
-* **Preste atenção durante as importações automáticas.** Independentemente de listas ou de outras bases de dados, são elementos a ter em conta na gestão de perfis. O que acontece quando você exclui ou move um perfil em outra partição? Ele pode ser recriado na partição inicial por uma importação automática, por exemplo, quando um pedido de compra é feito.
+* **Preste atenção durante as importações automáticas.** Independentemente de listas ou de outros bancos de dados, eles são elementos a serem considerados ao gerenciar perfis. O que acontece quando você exclui ou move um perfil em outra partição? Ele pode ser recriado na partição inicial por uma importação automática, por exemplo, quando um pedido de compra é feito.
 * **Os perfis devem ser classificados em pastas diferentes.**
 
 Há, contudo, casos em que duplicidades entre as diferentes partições são normais. Por exemplo, ao enviar para terceiros ou entidades de empresas diferentes, é lógico que a mesma pessoa seja um recipient por vários motivos. No entanto, raramente é normal encontrar duplicidades na mesma partição.
@@ -42,6 +45,6 @@ Há, contudo, casos em que duplicidades entre as diferentes partições são nor
 
 O Adobe Campaign gerencia uma lista de endereços em quarentena. Os recipients cujos endereços estão em quarentena são excluídos por padrão durante a análise de delivery: não são direcionados.
 
-O gerenciamento de quarentenas está detalhado em [nesta seção](../../sending/using/understanding-quarantine-management.md).
+A gestão de quarentena é detalhada em [this section](../../sending/using/understanding-quarantine-management.md).
 
-Um endereço de email pode ser colocado em quarentena, por exemplo, quando a caixa de entrada estiver cheia ou se o endereço não existir. Em todos os casos, a quarentena corresponde às regras específicas apresentadas em [esta seção](../../sending/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine).
+Um endereço de email pode ser colocado em quarentena, por exemplo, quando a caixa de entrada estiver cheia ou se o endereço não existir. Em todos os casos, a quarentena corresponde às regras específicas apresentadas em [this section](../../sending/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine).
