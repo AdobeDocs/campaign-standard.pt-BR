@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Promoção de um serviço
-description: Use a Adobe Campaign para promover um serviço e envolver seus clientes por meio de landings page dedicadas, e-mails ou diretamente em seu site.
+description: Use o Adobe Campaign para promover um serviço e envolver seus clientes por meio de landing pages dedicadas, emails ou diretamente do seu site.
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
+feature: Públicos
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '200'
 ht-degree: 3%
 
 ---
@@ -17,16 +20,16 @@ ht-degree: 3%
 
 # Promoção de um serviço{#promoting-a-service}
 
-Você pode oferta subscrições a um serviço de várias maneiras e dar aos seus visitantes a capacidade de gerenciar suas subscrições.
+É possível oferecer assinaturas de um serviço de várias maneiras e fornecer aos visitantes a capacidade de gerenciar sua assinatura.
 
-Você pode usar a Campanha para promover um serviço:
+Você pode usar o Campaign para promover um serviço ao:
 
-* [Inserir uma subscrição de serviço ou um link de unsubscription em um email](../../designing/using/links.md#inserting-a-link).
+* [Inserção de uma assinatura de serviço ou de um link de unsubscription em um email](../../designing/using/links.md#inserting-a-link).
 
-* [Inserir um link para uma landing page ou subscrição em um email](../../designing/using/links.md). Nesse caso, o serviço deve ser referenciado diretamente nas propriedades das landings page relacionadas (consulte [Vinculando uma landing page a um serviço](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)).
+* [Inserção de um link para uma landing page de assinatura ou unsubscription em um email](../../designing/using/links.md). Nesse caso, o serviço deve ser referenciado diretamente nas propriedades das landing pages relacionadas (consulte [Vincular uma landing page a um serviço](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)).
 
    >[!NOTE]
    >
-   >É igualmente importante dar aos assinantes a possibilidade de cancelarem a sua inscrição. Para fazer isso, insira um serviço <b>link de Unsubscription</b> no e-mail de confirmação (definido nas propriedades do serviço) enviado automaticamente para os novos assinantes, bem como em emails futuros de newsletters.
+   >É igualmente importante dar aos assinantes a possibilidade de cancelarem a subscrição. Para fazer isso, insira um serviço <b>Unsubscription link</b> no email de confirmação (definido nas propriedades do serviço) enviado automaticamente aos novos assinantes, bem como em futuros emails de informativo.
 
-* Tornar uma subscrição ou landing page disponível em um site. Os URLs que fornecem acesso à landing page devem especificar parâmetros como o serviço associado, bem como a ID do perfil acessando-o. Essa ID pode ser definida nos parâmetros de landing page (consulte [Configuração de uma landing page](../../channels/using/configuring-landing-page.md)).
+* Disponibilizar uma landing page de assinatura ou unsubscription em um site. Os URLs que fornecem acesso à landing page devem especificar parâmetros como o serviço associado, bem como a ID de perfil que a acessa. Essa ID pode ser definida nos parâmetros da landing page (consulte [Configuração de uma landing page](../../channels/using/configuring-landing-page.md)).
