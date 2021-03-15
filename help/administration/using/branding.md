@@ -7,10 +7,13 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: branding,overview;branding,main
+feature: Configurações de instância
+role: Administrador
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1254'
 ht-degree: 80%
 
 ---
@@ -28,7 +31,7 @@ Os administradores técnicos podem definir uma ou várias marcas para centraliza
 
 O princípio principal de configurar e usar marcas é:
 
-1. Criar e configurar a marca - essa operação requer permissões específicas e é feita pelo administrador técnico do Adobe Campaign. As etapas para obter uma nova marca na Campanha estão detalhadas [nesta seção](#creating-a-brand).
+1. Criar e configurar a marca - essa operação requer permissões específicas e é feita pelo administrador técnico do Adobe Campaign. As etapas para obter uma nova marca no Campaign são detalhadas [nesta seção](#creating-a-brand).
 1. Criar um ou vários modelos de delivery e de páginas de aterrissagem para esta marca. Consulte a seção [Criação de um modelo](../../start/using/marketing-activity-templates.md).
 1. Criar mensagens e páginas de aterrissagem com base nesse modelo. Consulte as seções [Criação de emails](../../channels/using/creating-an-email.md) e [Criação de uma página de aterrissagem](../../channels/using/designing-a-landing-page.md).
 
@@ -87,23 +90,23 @@ Uma **Marca** é definida pelas seguintes características:
 
 ## Criação de uma nova marca {#creating-a-brand}
 
-Você pode adicionar novas entidades de sua organização na Campanha ou criar um novo tipo de email que você precisa enviar em um subdomínio diferente. Para fazer isso, siga as etapas abaixo:
+Você pode adicionar novas entidades de sua organização ao Campaign ou criar um novo tipo de email que deve ser enviado em um subdomínio diferente. Para fazer isso, siga as etapas abaixo:
 
-1. **Configurar um novo subdomínio**  - para que qualquer novo subdomínio seja usado pelo Adobe, a primeira etapa será configurá-lo. Você pode fazer isso por meio de [Painel de controle do Campaign de Campanha](https://docs.adobe.com/content/help/pt-BR/control-panel/using/subdomains-and-certificates/subdomains-branding.html) ou entrar em contato com seu contato técnico de Adobe. Saiba mais sobre a configuração de subdomínio [neste artigo](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
+1. **Configurar um novo subdomínio**  - para que qualquer novo subdomínio seja usado pelo Adobe, a primeira etapa será configurá-lo. Você pode fazer isso por meio do [Painel de controle do Campaign](https://docs.adobe.com/content/help/pt-BR/control-panel/using/subdomains-and-certificates/subdomains-branding.html) ou entrar em contato com o contato técnico do Adobe. Saiba mais sobre a configuração de subdomínio [neste artigo](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
 
-1. **Criar um tíquete** : assim que o subdomínio for configurado, o Adobe precisará configurá-lo no ambiente de produção. Para solicitar isso, [crie um ticket para o Client Care](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) com as seguintes informações:
+1. **Criar um tíquete**  - Depois que o subdomínio é configurado, o Adobe precisará configurá-lo no ambiente de produção. Para solicitar isso, [crie um ticket para o Atendimento ao cliente](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) com as seguintes informações:
 
    * Assunto: Configuração da nova marca ACS
 
-   * Conteúdo: Um novo domínio foi configurado e gostaríamos de configurá-lo em nossa plataforma de Campanha
+   * Conteúdo: Um novo domínio foi configurado e gostaríamos de configurá-lo em nossa plataforma do Campaign
 
    * Domínio: XXX
 
-   * URL de produção: XXX.campanha.adobe.com
+   * URL de produção: XXX.campaign.adobe.com
 
-1. **Criar um template do delivery**  - Assim que a nova marca estiver disponível, a prática recomendada é criar pelo menos um novo template do delivery em branco que faça referência a essa nova marca. [Saiba mais](#linking-a-brand-to-a-template).
+1. **Criar um template do delivery**  - Quando a nova marca estiver disponível, a prática recomendada é criar pelo menos um novo template do delivery em branco que faça referência a essa nova marca. [Saiba mais](#linking-a-brand-to-a-template).
 
-1. **Consulte as diretrizes**  de entrega - Antes de começar a usar o novo domínio, a estratégia deve ser discutida com a equipe de Disponibilidade do Adobe. Eles ajudarão a definir as práticas recomendadas, caso uma nova afinidade deva ser criada para dividir os IPs entre domínios, por exemplo, e/ou se um plano de atualização deve ser definido. Saiba mais sobre as práticas recomendadas de Disponibilidade [nesta seção](../../sending/using/about-deliverability.md).
+1. **Verificar diretrizes de deliverability**  - Antes de começar a usar o novo domínio, a estratégia deve ser discutida com a equipe de Deliverability do Adobe. Eles ajudarão a definir as práticas recomendadas, caso uma nova afinidade deva ser criada para dividir os IPs entre domínios, por exemplo, e/ou se um plano de aumento deve ser definido. Saiba mais sobre as Práticas recomendadas de capacidade de entrega [nesta seção](../../sending/using/about-deliverability.md).
 
 ## Atribuição de uma marca a um email {#assigning-a-brand-to-an-email}
 
