@@ -6,11 +6,14 @@ description: Esta página lista recursos obsoletos e removidos do Adobe Campaign
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
+feature: Visão geral
+role: Profissional
+level: Iniciante
 translation-type: tm+mt
-source-git-commit: becaf20fefb6fce05db0824baa69670f810966dc
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 80%
+source-wordcount: '738'
+ht-degree: 79%
 
 ---
 
@@ -41,15 +44,15 @@ Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em 
 <table> 
  <thead> 
  <tr> 
-   <th> <strong>Linha de Assunto Preditiva</strong><br /> </th> 
+   <th> <strong>Linha de assunto preditiva</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> A partir de 15 de dezembro de 2020, o recurso de Linha de assunto preditiva está obsoleto.</p><br/>
-   <p>Sugerimos que você aproveite os recursos de e-mail fornecidos por AI para analisar e prever taxas de abertura, tempos de envio ideais e probabilidade de taxa com base em métricas de envolvimento do histórico. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">Saiba mais</a></p></br>
+   <td> <p> A partir de 15 de dezembro de 2020, o recurso de Linha de assunto preditiva ficará obsoleto.</p><br/>
+   <p>Sugerimos que você aproveite os recursos de email alimentados por IA para analisar e prever taxas abertas, tempos de envio ideais e probabilidade de churn com base em métricas históricas de engajamento. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">Saiba mais</a></p></br>
      <p>
-     <em>Remoção do público alvo: Abril de 2021</em></p>
+     <em>Remoção do Target: Abril de 2021</em></p>
      </td> 
   </tr> 
   </tbody> 
@@ -62,11 +65,11 @@ Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> A partir da versão 20.1 da Campanha, o SDK v4 foi descontinuado. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Saiba mais</a>.</p><br/>
+   <td> <p> A partir da versão 20.1 do Campaign, o SDK v4 ficará obsoleto. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Saiba mais</a>.</p><br/>
    <p>O <a href="https://aep-sdks.gitbook.io/docs/">SDK móvel da Adobe Experience Platform</a> (anteriormente conhecido como v5) oferecerá suporte exclusivo aos recursos e funcionalidades futuras da Adobe Experience Cloud.</p>
    <p>Saiba como migrar do SDK v4 para o SDK do Adobe Experience Platform Mobile <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">nesta página</a>.</p></br>
      <p>
-     <em>Data de remoção do público alvo: 31 de agosto de 2021</em></p>
+     <em>Data de remoção do Target: 31 de agosto de 2021</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -99,7 +102,7 @@ Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em 
    <td> <p>A partir da versão 19.0 do Campaign, o editor de email legado se tornará obsoleto. Use <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign Email Designer</a> para criar e personalizar seu conteúdo de email. </p></br>
    <p>Leia <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">esta seção</a> para saber como adaptar seus modelos de email ao novo editor.</p></br>
   <p> 
-  <em>Data de remoção do público alvo: final de 2021</em></p>
+  <em>Data de remoção do Target: fim de 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -113,7 +116,7 @@ Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>A partir da versão 18.7 da Campanha, as unidades geográficas serão descontinuadas. As unidades organizacionais e geográficas são construções idênticas no Campaign. Os usuários devem usar unidades organizacionais sozinhas para criar a permissão do usuário/hierarquia de acesso aos dados. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=pt-BR#administrating">Saiba mais</a>. Observe que novas instâncias do Campaign Standard, bem como instâncias existentes sem unidades geográficas criadas, não podem ter esse recurso implementado a partir da versão 18.7.</p>
+   <td> <p>A partir da versão 18.7 do Campaign, as unidades geográficas ficarão obsoletas. As unidades organizacionais e geográficas são construções idênticas no Campaign. Os usuários devem usar unidades organizacionais sozinhas para criar a permissão do usuário/hierarquia de acesso aos dados. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=pt-BR#administrating">Saiba mais</a>. Observe que novas instâncias do Campaign Standard, bem como instâncias existentes sem unidades geográficas criadas, não podem ter esse recurso implementado a partir da versão 18.7.</p>
    </td> 
   </tr> 
  </tbody> 
