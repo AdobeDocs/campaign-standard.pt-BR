@@ -7,11 +7,14 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: role,overview;role,main
+feature: Gerenciamento de acesso
+role: Administrador
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: ae2b6587d71f0915da05e53bf45c67c7a37a42c8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 85%
+source-wordcount: '239'
+ht-degree: 83%
 
 ---
 
@@ -30,7 +33,7 @@ Os direitos padrão são:
 
    >[!NOTE]
    >
-   >Se precisar trabalhar com Experience Cloud Triggers, você precisará do **[!UICONTROL Administration]** direito para acessar o menu Experience Cloud Triggers. Para obter mais informações sobre Acionadores de Experience Cloud, consulte esta [página](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+   >Se precisar trabalhar com Experience Cloud Triggers, será necessário o **[!UICONTROL Administration]** direito para acessar o menu Experience Cloud Triggers. Para obter mais informações sobre Experience Cloud Triggers, consulte esta [página](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
 * **[!UICONTROL Datamodel]**: Direito de executar publicações e criar recursos personalizados.
 * **[!UICONTROL Generic import]**: Direito de executar uma importação genérica nos dados. Para que isso funcione, é necessário vincular a função **[!UICONTROL Generic import]** à função **[!UICONTROL Workflow]**.
