@@ -6,11 +6,14 @@ description: Saiba como executar operações de contagem.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 2%
+source-wordcount: '91'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +24,7 @@ A API REST do Adobe Campaign pode contar o número de registros em uma solicita�
 
 <br/>
 
-***Solicitação de amostra***
+***Solicitação de exemplo***
 
 Para contar todos os serviços que têm um valor **messageType** igual a &quot;sms&quot;, execute uma solicitação de GET com o filtro **byChannel**.
 
@@ -33,7 +36,7 @@ Para contar todos os serviços que têm um valor **messageType** igual a &quot;s
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Ele retorna os serviços correspondentes ao filtro.
+Retorna os serviços correspondentes ao filtro.
 
 ```
 {
@@ -54,7 +57,7 @@ Ele retorna os serviços correspondentes ao filtro.
 }
 ```
 
-Execute uma solicitação de GET no URL do nó **count** para recuperar o número de resultados.
+Execute uma solicitação GET no URL do nó **count** para recuperar o número de resultados.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/_count?channel=sms&_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy \
@@ -64,7 +67,7 @@ Execute uma solicitação de GET no URL do nó **count** para recuperar o númer
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Ele retorna o número de registros.
+Retorna o número de registros.
 
 ```
 {
