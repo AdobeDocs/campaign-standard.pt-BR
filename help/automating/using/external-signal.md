@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: signal,main
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 96%
+source-wordcount: '604'
+ht-degree: 95%
 
 ---
 
@@ -40,8 +43,8 @@ Observe que uma atividade **[!UICONTROL External signal]** pode ser acionada a p
 
 **Tópicos relacionados**
 
-* [Caso de uso: Atividade do sinal externo e importação](../../automating/using/external-signal-data-import.md) de dados.
-* [Caso de uso: Como chamar um fluxo de trabalho para criar uma audiência a partir de um arquivo usando parâmetros externos](../../automating/using/use-case-calling-workflow.md)
+* [Caso de uso: Atividade de sinal externo e importação](../../automating/using/external-signal-data-import.md) de dados.
+* [Caso de uso: Chamada de workflow para criar um público-alvo a partir de um arquivo usando parâmetros externos](../../automating/using/use-case-calling-workflow.md)
 
 ## Configuração {#configuration}Fi
 
