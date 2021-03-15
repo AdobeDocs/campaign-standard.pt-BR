@@ -6,10 +6,13 @@ description: Com a integração do Adobe Experience Manager, você pode criar co
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
+feature: Triggers
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 3672f0bc4ebc551c4eb34660a3a55d44fa726f1a
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '345'
 ht-degree: 17%
 
 ---
@@ -17,13 +20,13 @@ ht-degree: 17%
 
 # Configuração da integração do Campaign com o Experience Manager {#configuration-aem}
 
-Essa integração entre a Adobe Campaign Standard e a Adobe Experience Manager permite que você use o conteúdo criado no Adobe Experience Manager nos emails da Adobe Campaign.
+Essa integração entre o Adobe Campaign Standard e o Adobe Experience Manager permite usar o conteúdo criado no Adobe Experience Manager nos emails do Adobe Campaign.
 
-Com esse caso de uso, você aprenderá a criar e gerenciar conteúdo de email no Adobe Experience Manager e, em seguida, a usá-los para suas campanhas de marketing importando-os em seus emails para o Adobe Campaign Standard.
+Com esse caso de uso, você aprenderá a criar e gerenciar conteúdo de email no Adobe Experience Manager e, em seguida, a usá-lo em suas campanhas de marketing, importando-o em seus emails para o Adobe Campaign Standard.
 
 ## Pré-requisitos {#prerequisites}
 
-Verifique se você tem os seguintes elementos antecipadamente:
+Você deve ter certeza de que tem os seguintes elementos antecipadamente:
 
 * Uma instância de **criação** do Adobe Experience Manager
 * Uma instância de **publicação** do Adobe Experience Manager
@@ -36,11 +39,11 @@ Para configurar o Adobe Campaign:
 
 1. Primeiro, é necessário configurar a conta externa **[!UICONTROL Adobe Experience Manager instance]** em **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts menu]**.
 
-1. Configure a conta externa de tipo Adobe Experience Manager com seu URL **[!UICONTROL Server]**, **[!UICONTROL Account]** e **[!UICONTROL Password]**.
+1. Configure a conta externa do tipo Adobe Experience Manager com seu URL **[!UICONTROL Server]**, **[!UICONTROL Account]** e **[!UICONTROL Password]**.
 
    ![](assets/aem_1.png)
 
-1. Verifique se a opção **[!UICONTROL AEMResourceTypeFilter]** foi configurada corretamente. Acesse o menu **[!UICONTROL Options]** no menu **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
+1. Verifique se a opção **[!UICONTROL AEMResourceTypeFilter]** foi configurada corretamente. Acesse o menu **[!UICONTROL Options]** em **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 
 1. No campo **[!UICONTROL Value (text)]**, verifique se a seguinte sintaxe está correta:
 
@@ -50,7 +53,7 @@ Para configurar o Adobe Campaign:
 
    ![](assets/aem_2.png)
 
-1. Em seguida, no menu avançado em **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**, duplicado um dos modelos existentes para criar um modelo de email específico para Adobe Experience Manager.
+1. Em seguida, no menu avançado em **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**, duplique um dos modelos existentes para criar um template de email específico para o Adobe Experience Manager.
 
    ![](assets/aem_3.png)
 
@@ -58,7 +61,7 @@ Para configurar o Adobe Campaign:
 
    ![](assets/aem_4.png)
 
-1. Na lista suspensa **[!UICONTROL Content]**, selecione **[!UICONTROL Adobe Experience Manager]** no campo **[!UICONTROL Content source]** e depois selecione a conta externa criada anteriormente em **[!UICONTROL Adobe Experience Manager account]**.
+1. No menu suspenso **[!UICONTROL Content]**, selecione **[!UICONTROL Adobe Experience Manager]** no campo **[!UICONTROL Content source]** e depois a conta externa criada anteriormente no **[!UICONTROL Adobe Experience Manager account]**.
 
 Agora é necessário configurar a integração no Adobe Experience Manager.
 
