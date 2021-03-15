@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: Limitações de mensagens transacionais
-description: Saiba mais sobre as principais recomendações e limitações relacionadas aos mensagens transacionais no Adobe Campaign Standard.
+description: Saiba mais sobre as principais recomendações e limitações relacionadas às mensagens transacionais no Adobe Campaign Standard.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
+feature: Mensagens transacionais
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '747'
 ht-degree: 67%
 
 ---
@@ -28,9 +31,9 @@ Esta seção lista as práticas recomendadas e limitações que você deve conhe
 
 Somente os usuários com a função [Administration](../../administration/using/users-management.md#functional-administrators) podem configurar eventos transacionais e acessar mensagens transacionais.
 
-## Configuração e publicação do evento {#design-and-publication}
+## Configuração e publicação de eventos {#design-and-publication}
 
-Como você está configurando e publicando eventos transacionais, algumas das etapas que você precisa executar não podem ser revertidas. Você deve estar ciente das seguintes limitações:
+Ao configurar e publicar eventos transacionais, algumas etapas necessárias não poderão ser revertidas. Você deve estar ciente das seguintes limitações:
 
 * Os canais disponíveis para mensagens transacionais são: **[!UICONTROL Email]**, **[!UICONTROL Mobile (SMS)]** e **[!UICONTROL Push notification]**.
 * Somente um canal pode ser usado para cada configuração de evento. Consulte [Criação de um evento](../../channels/using/configuring-transactional-event.md#creating-an-event).
@@ -41,28 +44,28 @@ Como você está configurando e publicando eventos transacionais, algumas das et
 
 ## Número de mensagens transacionais {#transactional-message-number}
 
-O número de mensagens transacionais publicados pode ter um impacto significativo na sua plataforma. Para obter o desempenho ideal, o número de mensagens transacionais publicados deve permanecer abaixo de 100. Para garantir isso, cancele a publicação ou exclua quaisquer mensagens transacionais não utilizados. Consulte [Cancelar a publicação de um mensagen transacional](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) e [Excluindo um mensagen transacional](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
+O número de mensagens transacionais publicadas pode ter um impacto significativo na plataforma. Para obter o melhor desempenho, o número de mensagens transacionais publicadas deve permanecer abaixo de 100. Para garantir isso, cancele a publicação ou exclua quaisquer mensagens transacionais não usadas. Consulte [Desfazer a publicação de uma mensagem transacional](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) e [Excluir uma mensagem transacional](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
 
-Para garantir o melhor desempenho, você também pode cancelar a publicação ou excluir eventos não utilizados. Na verdade, cancelar a publicação ou excluir um evento também cancelará a publicação ou excluirá os mensagens transacionais correspondentes e seu envio e logs de rastreamento, se houver. Consulte [Cancelar a publicação de um evento](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) e [Excluindo um evento](../../channels/using/publishing-transactional-event.md#deleting-an-event).
+Para garantir o melhor desempenho, também é possível cancelar a publicação ou excluir eventos não utilizados. Na verdade, cancelar a publicação ou excluir um evento também cancelará a publicação ou excluirá as mensagens transacionais correspondentes e seus logs de rastreamento e envios, se houver. Consulte [Cancelar a publicação de um evento](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) e [Excluir um evento](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
 ## Personalização {#personalization}
 
-O modo de personalização de um conteúdo de mensagem depende do tipo de mensagem transacional. As especificidades estão listadas abaixo.
+O modo de personalização de um conteúdo de mensagem depende do tipo de mensagem transacional. As especificidades são listadas abaixo.
 
 ### Mensagens transacionais baseadas em evento
 
-* Os dados contidos no evento são a fonte das informações de personalização. Consulte [configuração de mensagen transacional baseada em Eventos](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
-* Você **não pode** usar **[!UICONTROL Unsubscription link]** blocos de conteúdo em um mensagen transacional de evento.
-* As mensagens transacionais baseadas em evento só devem usar os dados contidos no evento enviado para definir o recipient e a personalização do conteúdo da mensagem. No entanto, você pode enriquecer o conteúdo da mensagem transacional usando informações do banco de dados do Adobe Campaign. Consulte [Enriquecendo um evento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) e [Personalizando um mensagen transacional](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
+* Os dados contidos no evento são a fonte das informações de personalização. Consulte [Configuração de mensagem transacional baseada em eventos](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
+* Você **não pode** usar **[!UICONTROL Unsubscription link]** blocos de conteúdo em uma mensagem transacional de evento.
+* As mensagens transacionais baseadas em evento só devem usar os dados contidos no evento enviado para definir o recipient e a personalização do conteúdo da mensagem. No entanto, você pode enriquecer o conteúdo da mensagem transacional usando informações do banco de dados do Adobe Campaign. Consulte [Enriquecimento de um evento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) e [Personalização de uma mensagem transacional](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 * Como as mensagens transacionais de evento não contêm informações sobre perfis, elas não são compatíveis com as regras de fadiga, até mesmo no caso de um enriquecimento com perfis.
 
 ### Mensagens transacionais baseadas em perfil
 
-* Os dados contidos no evento ou do registro do perfil reconciliado podem ser a fonte das informações de personalização. Consulte [Configuração de mensagen transacional baseada em Perfis](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) e [Especificações de mensagens transacionais baseadas em Perfis](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
-* Você **pode** usar **[!UICONTROL Unsubscription link]** blocos de conteúdo em um mensagen transacional de perfil. Consulte [Adição de um bloco de conteúdo](../../designing/using/personalization.md#adding-a-content-block).
+* Os dados contidos no evento ou do registro do perfil reconciliado podem ser a fonte das informações de personalização. Consulte [Configuração de mensagem transacional baseada em perfil](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) e [Especificidades de mensagem transacional baseadas em perfil](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
+* Você **pode** usar **[!UICONTROL Unsubscription link]** blocos de conteúdo em uma mensagem transacional de perfil. Consulte [Adição de um bloco de conteúdo](../../designing/using/personalization.md#adding-a-content-block).
 * As regras de fadiga são compatíveis com as mensagens transacionais de perfil. Consulte [Regras de fadiga](../../sending/using/fatigue-rules.md).
 
-### Lista de produtos
+### Listas de produtos
 
 Observe que as listas de produtos estão disponíveis somente em **mensagens de email transacionais**. Consulte [Uso das listagens de produtos em uma mensagem transacional](../../designing/using/using-product-listings.md).
 
