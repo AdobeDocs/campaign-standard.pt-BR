@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Sobre a integração Campaign-Audience Manager ou do serviço principal do People
-description: Com a integração do serviço principal de Audience Manager / Pessoas, você pode compartilhar audiências ou segmentos em diferentes soluções Adobe Experience Cloud.
+description: Com a integração Audience Manager / Serviços principais de pessoas, você pode compartilhar públicos ou segmentos em diferentes soluções da Adobe Experience Cloud.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
+feature: Triggers
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '472'
 ht-degree: 10%
 
 ---
@@ -19,32 +22,32 @@ ht-degree: 10%
 
 >[!CAUTION]
 >
->Dependendo dos dados trocados, a importação de audiências no Adobe Campaign pode estar sujeita a restrições legais.
+>Dependendo dos dados trocados, a importação de públicos no Adobe Campaign pode estar sujeita a restrições legais.
 
-A Adobe Campaign permite que você troque e compartilhe audiências/segmentos com diferentes aplicativos Adobe Experience Cloud. A integração **Adobe Campaign** com **serviço principal de pessoas** (também conhecido como **serviço principal de Perfis e Audiência**) ou Adobe Audience Manager permite:
+O Adobe Campaign permite trocar e compartilhar públicos/segmentos com os diferentes aplicativos do Adobe Experience Cloud. A integração de **Adobe Campaign** com **Serviço principal de pessoas** (também conhecido como **Serviço principal de perfis e públicos**) ou Adobe Audience Manager permite:
 
-* Importe audiências/segmentos de diferentes soluções Adobe Experience Cloud para o Adobe Campaign. O Audiência pode ser importado do menu **[!UICONTROL Audiences]** no Adobe Campaign.
-* Exporte audiências como audiências/segmentos compartilhados. Esses audiences podem ser usados nas diferentes soluções da Adobe Experience Cloud que você usa. As audiências podem ser exportadas após a definição de metas de atividades em um fluxo de trabalho, usando a atividade **[!UICONTROL Save audience]**.
+* Importar públicos/segmentos de diferentes soluções da Adobe Experience Cloud para o Adobe Campaign. Os públicos podem ser importados do menu **[!UICONTROL Audiences]** no Adobe Campaign.
+* Exportar públicos-alvo como públicos-alvo/segmentos compartilhados. Esses audiences podem ser usados nas diferentes soluções da Adobe Experience Cloud que você usa. Os públicos podem ser exportados após as atividades de direcionamento em um workflow, usando a atividade **[!UICONTROL Save audience]** .
 
-A integração suporta dois tipos de Adobe Experience Cloud IDs:
+A integração oferece suporte a dois tipos de Adobe Experience Cloud IDs:
 
-* **ID** do visitante: esse tipo de ID permite reconciliar visitantes Adobe Experience Cloud com perfis Adobe Campaign. Assim que uma conexão é ativada via Adobe IMS, o serviço de ID do Visitante é ativado, substituindo o cookie permanente usado pela Adobe Campaign. Isso permite identificar um visitante e, em seguida, vinculá-lo a um perfil.
-   <br>Uma ID de visitante é vinculada a um perfil assim que o perfil clica em um email enviado via Adobe Campaign:
-   * Se o perfil já tiver uma ID de visitante, os dados do navegador do perfil permitirão que a Adobe Campaign recupere e vincule automaticamente o perfil à ID do visitante.
-   * Se nenhuma ID de visitante for encontrada, uma nova ID será criada. Essa ID de visitante é armazenada nos logs de rastreamento de perfil.
+* **ID** do visitante: esse tipo de ID permite reconciliar visitantes do Adobe Experience Cloud com perfis do Adobe Campaign. Assim que uma conexão é habilitada via Adobe IMS, o Serviço de ID do visitante do Marketing Cloud é ativado, o que substitui o cookie permanente usado pelo Adobe Campaign. Isso permite identificar um visitante e vinculá-lo a um perfil.
+   <br>Uma ID de visitante é vinculada a um perfil assim que o perfil clica em um email enviado pelo Adobe Campaign:
+   * Se o perfil já tiver uma ID de visitante, os dados do navegador do perfil permitirão que o Adobe Campaign recupere e vincule automaticamente o perfil à ID de visitante.
+   * Se nenhuma ID de visitante for encontrada, uma nova ID será criada. Essa ID de visitante é armazenada nos logs de rastreamento do perfil.
 
-   A ID será então reconhecida pelos outros aplicativos Adobe Marketing Cloud com o mesmo CNAME.
+   A ID será reconhecida pelos outros aplicativos da Adobe Marketing Cloud com o mesmo CNAME.
 
-* **ID** declarada: esse tipo de ID permite reconciliar qualquer tipo de dados com elementos do banco de dados da Adobe Campaign. Ele é representado no Adobe Campaign como uma chave de reconciliação predefinida. Ao trocar dados, os identificadores de banco de dados do Adobe Campaign são hash. Essas IDs com hash são comparadas às IDs com hash da audiência da Adobe Marketing Cloud envolvidas na importação ou exportação.
-   <br>Essa integração suporta IDs declaradas regulares, IDs declaradas com hash e IDs declaradas criptografadas.
+* **ID** declarada: esse tipo de ID permite reconciliar qualquer tipo de dados com elementos do banco de dados do Adobe Campaign. Ele é representado no Adobe Campaign como uma chave de reconciliação predefinida. Ao trocar dados, os identificadores de banco de dados do Adobe Campaign são atribuídos a hash. Essas IDs com hash são comparadas às IDs com hash do público-alvo da Adobe Marketing Cloud envolvidas na importação ou exportação.
+   <br>Essa integração oferece suporte a IDs declaradas comuns, IDs declaradas com hash e IDs declaradas criptografadas.
 
    >[!CAUTION]
    >
-   >A ID declarada só funcionará com a Adobe Audience Manager. A ID declarada não funcionará sem ela.
+   >A ID declarada funcionará somente com o Adobe Audience Manager. A ID declarada não funcionará sem ela.
 
-   A criptografia permite que você compartilhe dados criptografados em fontes de dados (por exemplo, PII) usando a ID declarada especificando o algoritmo de criptografia.
+   A criptografia permite compartilhar dados criptografados em fontes de dados (por exemplo, PII) usando a ID declarada, especificando o algoritmo de criptografia.
 
-   Por exemplo, com a capacidade de descriptografar endereços de email criptografados ou números de SMS, você também pode enviar mensagens disparadas para seus usuários mesmo se o perfil deles não existir no banco de dados Adobe Campaign.
+   Por exemplo, com a capacidade de descriptografar endereços de email criptografados ou números de SMS, você também pode enviar mensagens acionadas para seus usuários, mesmo que o perfil não exista no banco de dados do Adobe Campaign.
 
 O diagrama a seguir detalha o funcionamento dessa integração. Aqui, AAM significa Adobe Audience Manager e ACS para Adobe Campaign Standard.
 
