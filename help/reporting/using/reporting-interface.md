@@ -6,10 +6,13 @@ description: Saiba mais sobre a base da interface do relatório dinâmico e como
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
+feature: Relatórios
+role: Líder
+level: Iniciante
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '734'
 ht-degree: 3%
 
 ---
@@ -24,21 +27,21 @@ A barra de ferramentas superior permite, por exemplo, modificar, salvar ou impri
 Use a guia **Projeto** para:
 
 * **Abrir...**: Abre um relatório criado anteriormente ou um modelo.
-* **Salvar como...**: Modelos de duplicados para poder modificá-los.
-* **Atualizar projeto**: Atualiza seu relatório com base em novos dados e alterações em filtros.
+* **Salvar como...**: Duplica modelos para poder modificá-los.
+* **Atualizar projeto**: Atualiza seu relatório com base em novos dados e alterações nos filtros.
 * **Baixar CSV**: Exporta seus relatórios para um arquivo CSV.
 
-A guia **Editar** permite:
+A guia **Edit** permite:
 
-* **Desfazer**: Cancela sua última ação em seu painel.
-* **Limpar tudo**: Exclui todos os painéis do seu painel.
+* **Desfazer**: Cancela sua última ação no painel.
+* **Limpar tudo**: Exclui cada painel no painel.
 
-A tabela **Inserir** permite personalizar seus relatórios adicionando gráficos e tabelas ao seu painel:
+A tabela **Insert** permite personalizar os relatórios ao adicionar gráficos e tabelas ao painel:
 
-* **Novo painel** em branco: Adiciona um novo painel em branco ao seu painel.
-* **Nova forma livre**: Adiciona uma nova tabela de forma livre ao seu painel.
-* **Nova linha**: Adiciona um novo gráfico de linhas ao seu painel.
-* **Nova barra**: Adiciona um novo gráfico de barras ao seu painel.
+* **Novo painel** em branco: Adiciona um novo painel em branco ao painel.
+* **Nova forma livre**: Adiciona uma nova tabela de forma livre ao painel.
+* **Nova linha**: Adiciona um novo gráfico de linha ao painel.
+* **Nova Barra**: Adiciona um novo gráfico de barras ao painel.
 
 **Tópicos relacionados:**
 
@@ -49,14 +52,14 @@ A tabela **Inserir** permite personalizar seus relatórios adicionando gráficos
 
 ## Guias {#tabs}
 
-As guias à esquerda permitem que você crie seu relatório e filtre seus dados conforme necessário.
+As guias à esquerda permitem criar o relatório e filtrar os dados, conforme necessário.
 
 ![](assets/dynamic_report_interface.png)
 
 Essas guias fornecem acesso aos seguintes itens:
 
-* **[!UICONTROL Panels]**: adicione um painel em branco ou forma livre ao seu relatório para filtrar seus dados por start. Para obter mais informações, consulte a seção Adição de painéis
-* **[!UICONTROL Visualizations]**: arraste e solte uma seleção de itens de visualização para dar ao seu relatório uma dimensão gráfica. Para obter mais informações, consulte a seção Adicionar visualizações.
+* **[!UICONTROL Panels]**: adicione um painel em branco ou de forma livre ao relatório para começar a filtrar os dados. Para obter mais informações, consulte a seção Adição de painéis
+* **[!UICONTROL Visualizations]**: arraste e solte uma seleção de itens de visualização para dar ao seu relatório uma dimensão gráfica. Para obter mais informações, consulte a seção Adição de visualizações .
 * **[!UICONTROL Components]**: personalize seus relatórios com diferentes dimensões, métricas, segmentos e períodos.
 
 ## Barra de ferramentas {#toolbar}
@@ -78,72 +81,72 @@ A barra de ferramentas pode ser encontrada acima do seu espaço de trabalho. Com
 Use a guia **Projeto** para:
 
 * **Abrir...**: Abre um relatório criado anteriormente ou um modelo.
-* **Salvar como...**: Modelos de duplicados para poder modificá-los.
-* **Atualizar projeto**: Atualiza seu relatório com base em novos dados e alterações em filtros.
+* **Salvar como...**: Duplica modelos para poder modificá-los.
+* **Atualizar projeto**: Atualiza seu relatório com base em novos dados e alterações nos filtros.
 * **Baixar CSV**: Exporta seus relatórios para um arquivo CSV.
 * **[!UICONTROL Print]**: Imprima seu relatório.
 
-### Guia Editar {#edit-tab}
+### Editar guia {#edit-tab}
 
 ![](assets/tab_edit.png)
 
-A guia **Editar** permite:
+A guia **Edit** permite:
 
-* **Desfazer**: Cancela sua última ação em seu painel.
-* **Limpar tudo**: Exclui todos os painéis do seu painel.
+* **Desfazer**: Cancela sua última ação no painel.
+* **Limpar tudo**: Exclui cada painel no painel.
 
 ### Inserir guia {#insert-tab}
 
 ![](assets/tab_insert.png)
 
-A guia **Inserir** permite personalizar seus relatórios adicionando gráficos e tabelas ao seu painel:
+A guia **Insert** permite personalizar os relatórios ao adicionar gráficos e tabelas ao painel:
 
-* **Novo painel** em branco: Adiciona um novo painel em branco ao seu painel.
-* **Nova forma livre**: Adiciona uma nova tabela de forma livre ao seu painel.
-* **Nova linha**: Adiciona um novo gráfico de linhas ao seu painel.
-* **Nova barra**: Adiciona um novo gráfico de barras ao seu painel.
+* **Novo painel** em branco: Adiciona um novo painel em branco ao painel.
+* **Nova forma livre**: Adiciona uma nova tabela de forma livre ao painel.
+* **Nova linha**: Adiciona um novo gráfico de linha ao painel.
+* **Nova Barra**: Adiciona um novo gráfico de barras ao painel.
 
 ### Guia Compartilhar {#share-tab}
 
 ![](assets/tab_share_1.png)
 
-A guia **[!UICONTROL Share]** permite que você envie seus relatórios para usuários do Adobe Campaign por e-mails instantâneos ou recorrentes. Os usuários direcionados receberão um email com seu relatório anexado.
+A guia **[!UICONTROL Share]** permite enviar seus relatórios com usuários do Adobe Campaign por meio de emails instantâneos ou recorrentes. Os usuários alvos receberão um email com seu relatório anexado.
 
-* **[!UICONTROL Send report now]**: Envie seu relatório para uma lista de recipient escolhidos por meio de um e-mail de uma só vez.
+* **[!UICONTROL Send report now]**: Envie seu relatório para uma lista de recipients escolhidos por meio de um email de uma só vez.
 
-   1. Na janela **[!UICONTROL Send report]**, adicione uma descrição, se necessário.
+   1. Na janela **[!UICONTROL Send report]**, adicione uma descrição se necessário.
 
       ![](assets/tab_share_4.png)
 
-   1. Selecione os recipient para seu email clicando no campo e selecionando-os na lista suspensa ou digitando seus endereços de email.
+   1. Selecione os recipients do seu email clicando no campo e selecionando-os na lista suspensa ou digitando seus endereços de email.
    1. Marque **[!UICONTROL Show scheduling options]** se desejar enviar emails recorrentes. Isso também pode ser feito selecionando **[!UICONTROL Send Report on schedule]** na guia **[!UICONTROL Share]**.
-   1. Clique em **[!UICONTROL Send now]**. Seus recipient receberão um email com seu relatório anexado.
+   1. Clique em **[!UICONTROL Send now]**. Seus recipients receberão um email com seu relatório anexado.
 
-* **[!UICONTROL Send report on schedule]**: Agende seu relatório e envie emails recorrentes para seus recipient.
+* **[!UICONTROL Send report on schedule]**: Programe seu relatório e envie emails recorrentes para seus recipients.
 
-   1. Na janela **[!UICONTROL Send report]**, adicione uma descrição, se necessário.
-   1. Selecione os recipient para seu email clicando no campo e selecionando-os na lista suspensa ou digitando seus endereços de email.
+   1. Na janela **[!UICONTROL Send report]**, adicione uma descrição se necessário.
+   1. Selecione os recipients do seu email clicando no campo e selecionando-os na lista suspensa ou digitando seus endereços de email.
 
       ![](assets/tab_share_5.png)
 
-   1. Selecione sua data de início e término para configurar sua validade de email nos campos **[!UICONTROL Starting on]** e **[!UICONTROL Ending on]**.
+   1. Selecione a data inicial e final para configurar a validade do email nos campos **[!UICONTROL Starting on]** e **[!UICONTROL Ending on]**.
    1. Escolha em que frequência seu email será enviado.
 
       ![](assets/tab_share_2.png)
 
-   1. Clique em **[!UICONTROL Send on schedule]**, seus recipient receberão seu email periódico dependendo da frequência escolhida.
+   1. Clique em **[!UICONTROL Send on schedule]**, seus recipients receberão seu email recorrente dependendo da frequência escolhida.
 
-* **[!UICONTROL Scheduled reports]**: Encontre e configure todos os seus relatórios agendados.
+* **[!UICONTROL Scheduled reports]**: Encontre e configure todo o seu relatório agendado.
 
-   1. Na janela **[!UICONTROL Scheduled reports]**, localize todos os seus relatórios enviados recorrentes.
+   1. Na janela **[!UICONTROL Scheduled reports]**, localize todos os relatórios enviados recorrentes.
 
       ![](assets/tab_share_3.png)
 
-   1. Se precisar excluir um de seus relatórios agendados, selecione o relatório agendado que deseja excluir e clique em **[!UICONTROL Delete the section]**.
+   1. Se precisar excluir um de seu relatório agendado, selecione o relatório agendado que deseja excluir e clique em **[!UICONTROL Delete the section]**.
    1. Para configurar ou verificar seus relatórios agendados, clique diretamente no relatório que você precisa alterar.
-   1. A janela **[!UICONTROL Edit scheduled report]** é exibida; agora, você pode alterar os recipient ou a frequência de seu email, se necessário.
+   1. A janela **[!UICONTROL Edit scheduled report]** é exibida. Agora é possível alterar os recipients ou a frequência do email, se necessário.
 
-Os usuários direcionados receberão um email com seu relatório anexado diretamente em suas caixas de entrada. Os usuários sempre podem decidir parar de receber e-mails recorrentes usando um link de unsubscription disponível em cada e-mail recorrente.
+Os usuários alvos receberão um email com seu relatório anexado diretamente em suas caixas de entrada. Os usuários sempre podem decidir parar de receber emails recorrentes usando um link de unsubscription disponível em cada email recorrente.
 
 **Tópicos relacionados:**
 
