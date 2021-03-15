@@ -4,12 +4,14 @@ solution: Campaign Standard
 product: campaign
 title: Documentação do produto Adobe Campaign Standard
 description: Pesquisar a documentação do produto Campaign Standard
-topic: Premium
+feature: Visão geral
+role: Profissional
+level: Iniciante
 translation-type: tm+mt
-source-git-commit: 658e1916e39cb3deec15a87891d07e3e9172dc78
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 100%
+source-wordcount: '242'
+ht-degree: 98%
 
 ---
 
