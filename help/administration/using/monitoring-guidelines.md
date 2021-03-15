@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: Orientações de monitoramento
-description: A presente seção apresenta orientações gerais para a monitorização do Campaign Standard.
+description: Esta seção apresenta as diretrizes gerais para monitoramento do Campaign Standard.
 audience: production
 content-type: reference
 topic-tags: introduction
 index: y
+feature: Gerenciamento de acesso
+role: Administrador
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '500'
 ht-degree: 9%
 
 ---
@@ -24,35 +27,35 @@ ht-degree: 9%
 <td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">Monitoramento de deliveries</a></p></td></tr>
 </table>
 
-O Campaign Standard fornece várias maneiras de monitorar suas instâncias para garantir que seu sistema esteja saudável e, eventualmente, solucionar problemas que podem ocorrer ao configurar workflows, enviar delivery etc.
+O Campaign Standard fornece várias maneiras de monitorar as instâncias para garantir que o sistema esteja íntegro e, eventualmente, solucionar problemas que podem ocorrer ao configurar workflows, enviar deliveries etc.
 
 ## Monitoramento do sistema {#monitoring-system}
 
 <img src="assets/do-not-localize/icon_system.svg" width="60px">
 
-**Notificações do sistemaA interface do Campaign Standard fornece um painel de notificação que permite que você seja mantido informado sobre o que está acontecendo no sistema:**
- status de eventos, atualizações do sistema, ação necessária etc. [Leia mais](../../start/using/interface-description.md#top-bar)
+**A interface do**
+Campaign Standard fornece um painel de notificação que permite que você seja informado sobre o que está acontecendo no sistema: status de eventos, atualizações do sistema, ação necessária, etc. [Leia mais](../../start/using/interface-description.md#top-bar)
 
 
-**Fluxos de**
-trabalho técnicosOs workflows técnicos são operações ou trabalhos programados para serem executados regularmente no servidor. Para garantir que sua instância esteja saudável e funcionando corretamente, é necessário certificar-se de que elas estejam sempre funcionando. [Leia mais](../../administration/using/technical-workflows.md)
+**Fluxos**
+de trabalho técnicosOs fluxos de trabalho técnicos são operações ou tarefas programadas para serem executadas regularmente no servidor. Para garantir que sua instância esteja funcionando corretamente, é necessário garantir que esteja sempre ativa e em execução. [Leia mais](../../administration/using/technical-workflows.md)
 
 **Painel**
-de controleO Painel de controle do Campaign permite gerenciar várias configurações da sua instância: Permissões de URL, verifique os detalhes da instância, como as versões de compilação dos servidores, monitore o uso de perfis ativos etc. Também permite monitorar o espaço disponível nos servidores SFTP conectados à sua instância. [Leia mais](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.translate.html).
+de controleO Painel de controle do Campaign permite gerenciar várias configurações da sua instância: Permissões de URL, verifique os detalhes da instância, como as versões de criação dos servidores, monitore o uso de perfis ativos etc. Ela também permite monitorar o espaço disponível nos servidores SFTP conectados à sua instância. [Leia mais](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.translate.html).
 
 >[!NOTE]
 >
->Observe que o Painel de controle do Campaign é acessível somente para usuários administradores e está disponível para todos os clientes que usam os Serviços gerenciados da Adobe.
+>Observe que o Painel de controle é acessível somente para usuários administradores e está disponível para todos os clientes que usam o Adobe Managed Services.
 
-**Objetos técnicos**
-O  **[!UICONTROL Diagnosis]** menu é uma ferramenta essencial para monitorar e analisar os diferentes objetos técnicos gerados pelo aplicativo: schemas de dados, páginas da Web, trabalhos em lote etc. [Leia mais](../../developing/using/monitoring-data-model-changes.md)
+**Objetos técnicosO**
+  **[!UICONTROL Diagnosis]** menu é uma ferramenta essencial para monitorar e analisar os diferentes objetos técnicos gerados pelo aplicativo: esquemas de dados, páginas da Web, trabalhos em lote etc. [Leia mais](../../developing/using/monitoring-data-model-changes.md)
 
 **Exportar**
-auditoriasAs auditorias de exportação permitem que você monitore as exportações realizadas em suas instâncias: arquivos carregados de workflows, exportações de listas e arquivos baixados de mensagens de mala direta.
+auditoriasAs auditorias de exportação permitem que você monitore as exportações realizadas em suas instâncias: arquivos carregados de workflows, exportações de lista e arquivos baixados de mensagens de mala direta.
 [Leia mais](../../administration/using/auditing-export-logs.md)
 
 ****
-LicençasCom o  **[!UICONTROL Licenses]** menu, monitore as informações sobre suas instâncias: licenças instaladas, versões de criação e aceitações de termos e contratos.
+LicençasCom o  **[!UICONTROL Licenses]** menu, monitore as informações sobre suas instâncias: licenças instaladas, versões de compilação e aceitações do contrato de termos.
 [Leia mais](../../administration/using/licenses.md)
 
 ## Monitoramento de workflows {#monitoring-workflows}
@@ -64,11 +67,11 @@ solução de problemasSeguir as práticas recomendadas e as diretrizes de soluç
 [Leia mais](../../automating/using/best-practices-workflows.md)
 
 **Logs e**
-tarefasO monitoramento de logs de fluxo de trabalho é uma etapa essencial para analisar seus workflows e garantir que eles estejam sendo executados corretamente.
+tarefasO monitoramento de logs do fluxo de trabalho é uma etapa essencial para analisar seus fluxos de trabalho e garantir que eles estejam sendo executados corretamente.
 [Leia mais](../../automating/using/monitoring-workflow-execution.md#workflow-log-and-tasks)
 
 ****
-NotificaçõesO Campaign Standard permite enviar notificações aos supervisores para monitorar a execução dos workflows e verificar se há algum erro que exija sua atenção.
+NotificationsCampaign Standard permite enviar notificações para supervisores para monitorar a execução dos workflows e ver se há algum erro que exija sua atenção.
 [Leia mais](../../automating/using/monitoring-workflow-execution.md#error-management)
 
 ## Monitoramento de deliveries {#monitoring-deliveries}
@@ -76,17 +79,17 @@ NotificaçõesO Campaign Standard permite enviar notificações aos supervisores
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
 ****
-DisponibilidadeO Campaign Standard fornece várias ferramentas de entrega para ajudá-lo a melhorar o número de mensagens entregues com êxito: Relatórios de throughput do delivery, otimização do tempo de envio, pré-visualização de mensagens, renderização de email, gerenciamento de quarentenas etc.
+DeliverabilityO Campaign Standard fornece várias ferramentas de deliverability para ajudar você a melhorar o número de mensagens entregues com êxito: relatórios de taxa de transferência de delivery, otimização de tempo de envio, pré-visualização de mensagens, renderização de email, gerenciamento de quarentena etc.
 [Leia mais](../../sending/using/about-deliverability.md)
 
 ****
-EntregasDepois que suas mensagens são enviadas, os registros detalhados permitem que você monitore os delivery e meça o sucesso de sua campanha, bem como rastreie o comportamento dos recipient de mensagens.
+DeliveriesDepois que as mensagens são enviadas, os logs detalhados permitem monitorar as entregas e medir o sucesso da campanha, bem como rastrear o comportamento dos recipients das mensagens.
 [Leia mais](../../sending/using/monitoring-a-delivery.md)
 
-**Alertas do deliveryCom o recurso de alerta do Delivery, você pode configurar alertas que serão enviados automaticamente para um grupo de usuários em relação à execução dos delivery:**
- falha no envio ou preparação, taxa de rejeição ruim, baixa throughput etc.
+**Alertas de**
+deliveryCom o recurso de Alerta de delivery, é possível configurar alertas que serão enviados automaticamente para um grupo de usuários em relação à execução dos deliveries: falha no envio ou preparação, taxa de devoluções incorretas, baixa taxa de transferência etc.
 [Leia mais](../../sending/using/receiving-alerts-when-failures-happen.md)
 
 **Relatório dinâmico**
-O relatórios dinâmico fornece vários relatórios para ajudar você a ser mantido informado sobre o desempenho de seus delivery: rejeições, delivery mais vistos por recipient, throughput de delivery etc.
+Os relatórios dinâmicos fornecem vários relatórios para ajudar você a ser informado sobre como seus deliveries estão funcionando: devoluções, deliveries mais vistos por recipients, taxa de transferência dos deliveries etc.
 [Leia mais](../../reporting/using/about-dynamic-reports.md)
