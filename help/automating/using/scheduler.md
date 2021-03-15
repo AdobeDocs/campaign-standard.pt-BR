@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: schedule,main
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 9b76f02b03ba1180f852b446f0dbbae26a27d4bd
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 89%
+source-wordcount: '618'
+ht-degree: 88%
 
 ---
 
@@ -34,12 +37,12 @@ Ao criar seu fluxo de trabalho, use apenas uma atividade **[!UICONTROL Scheduler
 >
 >A **[!UICONTROL Repetition frequency]** da atividade não pode ser inferior a 10 minutos. Isso significa que um fluxo de trabalho não pode ser executado automaticamente mais de uma vez a cada 10 minutos.
 
-Ao projetar um fluxo de trabalho programado que inclui várias atividades, é necessário verificar se o fluxo de trabalho não é reprogramado até que seja concluído. Para fazer isso, é necessário configurar seu fluxo de trabalho para impedir sua execução se uma ou mais tarefas de uma execução anterior ainda estiverem pendentes. Para obter mais informações, consulte [esta página](../../automating/using/scheduled-workflows-execution.md).
+Ao projetar um workflow agendado que inclui várias atividades, é necessário garantir que o workflow não seja reagendado até sua conclusão. Para fazer isso, é necessário configurar o workflow para impedir a execução se uma ou mais tarefas de uma execução anterior ainda estiverem pendentes. Para obter mais informações, consulte [esta página](../../automating/using/scheduled-workflows-execution.md).
 
 **Tópicos relacionados:**
 
-* [Caso de uso: Criação de delivery na data de criação dos perfis](../../automating/using/workflow-creation-date-query.md)
-* [Caso de uso: Criação de um delivery de email todas as terças-feiras](../../automating/using/workflow-weekly-offer.md)
+* [Caso de uso: Criar deliveries na data de criação de perfis](../../automating/using/workflow-creation-date-query.md)
+* [Caso de uso: Criação de delivery de email todas as terças-feiras](../../automating/using/workflow-weekly-offer.md)
 
 ## Configuração {#configuration}
 
