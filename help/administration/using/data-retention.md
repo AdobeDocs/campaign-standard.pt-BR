@@ -2,22 +2,24 @@
 solution: Campaign Standard
 product: campaign
 title: Retenção de dados
-description: null
 audience: administration
 content-type: reference
 topic-tags: application-settings
+feature: Configurações de instância
+role: Administrador
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 64%
+source-wordcount: '135'
+ht-degree: 62%
 
 ---
 
 
 # Retenção de dados{#data-retention}
 
-As tabelas de log padrão na Campanha têm períodos de retenção predefinidos, geralmente limitando seu armazenamento de dados a 6 meses ou menos.
+As tabelas de log padrão no Campaign têm períodos de retenção predefinidos, geralmente limitando seu armazenamento de dados a 6 meses ou menos.
 
 A seguir estão os valores de retenção padrão para tabelas padrão. Esteja ciente de que a configuração de retenção é definida pelos administradores técnicos da Adobe durante a implementação e os valores podem variar com base nos requisitos do cliente.
 
@@ -32,6 +34,6 @@ A seguir estão os valores de retenção padrão para tabelas padrão. Esteja ci
 * **Alertas de entrega**: 1 mês
 * **Auditoria de exportação**: 6 meses
 
-Usando a funcionalidade padrão do fluxo de trabalho, é possível configurar períodos de retenção para qualquer tabela personalizada.
+Usando a funcionalidade padrão do workflow, é possível configurar períodos de retenção para qualquer tabela personalizada.
 
 Entre em contato com os consultores da Adobe ou administradores técnicos para saber mais sobre retenção ou se é necessário definir a retenção para tabelas personalizadas.
