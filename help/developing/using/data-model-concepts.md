@@ -7,11 +7,14 @@ audience: developing
 content-type: reference
 topic-tags: about-custom-resources
 context-tags: cusResource,overview;eventCusResource,overview
+feature: Modelo de dados
+role: Desenvolvedor
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 79%
+source-wordcount: '248'
+ht-degree: 78%
 
 ---
 
@@ -34,7 +37,7 @@ Os campos de extensão são gerados com um prefixo para não entrarem em conflit
 
 >[!NOTE]
 >
->Você pode encontrar uma representação de modelo de dados para os recursos incorporados em [esta página](../../developing/using/datamodel-introduction.md).
+>Você pode encontrar uma representação de modelo de dados para os recursos incorporados em [this page](../../developing/using/datamodel-introduction.md).
 
 Você também pode [configurar a navegação](configuring-the-screen-definition.md) nas telas correspondentes ao recurso criado.
 
@@ -42,4 +45,4 @@ Você também pode [configurar a navegação](configuring-the-screen-definition.
 
 >[!CAUTION]
 >
->Somente os [administradores](../../administration/using/users-management.md#functional-administrators) funcionais, com a função **[!UICONTROL Administration]** e o acesso a **Todas** unidades podem acessar registros de envio, registros de mensagens, logs de rastreamento, exclusão ou registros de subscrições. Um usuário não administrativo pode público alvo desses registros, mas iniciando em uma tabela vinculada (perfis, delivery).
+>Somente os [administradores](../../administration/using/users-management.md#functional-administrators) funcionais, com a função **[!UICONTROL Administration]** e o acesso a **Todas** unidades podem acessar logs de envio, logs de mensagem, logs de rastreamento, exclusões ou logs de assinatura. Um usuário não administrador pode direcionar esses logs, mas começar em uma tabela vinculada (perfis, delivery).
