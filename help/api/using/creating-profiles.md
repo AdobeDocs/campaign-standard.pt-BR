@@ -6,30 +6,33 @@ description: Saiba mais sobre como criar perfis com APIs.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 3%
+source-wordcount: '108'
+ht-degree: 4%
 
 ---
 
 
 # Criação de perfis {#creating-profiles}
 
-A criação de perfis é realizada com uma solicitação **POST** no recurso de perfil.
+A criação de perfis é executada com uma solicitação **POST** no recurso de perfil.
 
 >[!CAUTION]
 >
->Se você quiser associar uma <b>orgUnit</b> ao perfil criado, é necessário estender o recurso do perfil a esse campo e, após a publicação da extensão, executar uma solicitação POST no terminal <b>ProfileAndServicesExt</b>.
+>Se quiser associar um <b>orgUnit</b> ao perfil criado, é necessário estender o recurso de perfil a este campo e, após a publicação da extensão, executar uma solicitação de POST no terminal <b>ProfileAndServicesExt</b>.
 >
->Para obter mais informações sobre a extensão de recursos do perfil, consulte a <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">documentação da Campanha</a>.
+>Para obter mais informações sobre a extensão de recurso do perfil, consulte a <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">documentação do Campaign</a>.
 
 <br/>
 
-***Solicitação de amostra***
+***Solicitação de exemplo***
 
-Amostra de solicitação de POST para criar um perfil com o email &quot;john.doe@mail.com&quot;.
+Amostra de solicitação do POST para criar um perfil com o email &quot;john.doe@mail.com&quot;.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -41,7 +44,7 @@ Amostra de solicitação de POST para criar um perfil com o email &quot;john.doe
 -d '{"email":"john.doe@mail.com"}'
 ```
 
-Ele retorna o perfil recém-criado, com o endereço de email &quot;john.doe@mail.com&quot;.
+Retorna o perfil recém-criado, com o endereço de email &quot;john.doe@mail.com&quot;.
 
 ```
 {
