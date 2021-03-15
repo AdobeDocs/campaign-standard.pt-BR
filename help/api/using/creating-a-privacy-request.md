@@ -6,10 +6,13 @@ description: Saiba como criar uma solicitação de privacidade com APIs
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '214'
 ht-degree: 14%
 
 ---
@@ -19,26 +22,26 @@ ht-degree: 14%
 
 >[!CAUTION]
 >
->A integração [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) é o método que você deve usar para todas as solicitações de acesso e exclusão. A partir da versão 19.4, o uso da API e da interface do Campaign para solicitações de acesso e exclusão ficará obsoleto. Para obter mais informações sobre os recursos desaprovados e removidos do Campaign Standard, consulte [esta página](../../rn/using/deprecated-features.md).
+>A integração [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) é o método que você deve usar para todas as solicitações de acesso e exclusão. A partir da versão 19.4, o uso da API e da interface do Campaign para solicitações de acesso e exclusão ficará obsoleto. Para obter mais informações sobre recursos obsoletos e removidos do Campaign Standard, consulte [esta página](../../rn/using/deprecated-features.md).
 
 As solicitações de privacidade são criadas usando uma solicitação **POST**.
 
-Antes de criar solicitações, é necessário definir a namespace que será usada. Para obter mais informações, consulte a [documentação do Gerenciamento de privacidade](https://helpx.adobe.com/br/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
+Antes de criar solicitações, é necessário definir o namespace que será usado. Para obter mais informações, consulte a [documentação de gerenciamento de privacidade](https://helpx.adobe.com/br/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
 
 A carga deve conter os seguintes parâmetros:
 
 * **name**: um nome interno exclusivo
-* **namespace**: o nome da namespace configurado na interface do Campaign Standard
-* **validationValue**: o valor de reconciliação com base na chave de reconciliação definida na namespace
-* **rótulo**: a etiqueta de solicitação
-* **tipo**: o tipo de solicitação. Os valores aceitos são &quot;access&quot; ou &quot;delete&quot;.
-* **regulamento**: tipo de regulamento. Exemplo: &quot;RGPD&quot;, &quot;CCPA&quot;. Esse parâmetro é obrigatório e está disponível a partir da versão de Campaign Standard 19.4. Se você estiver em uma versão mais antiga, não precisará adicioná-la à sua carga útil.
+* **namespace**: o nome do namespace configurado na interface do Campaign Standard
+* **reconciliationValue**: o valor de reconciliação com base na chave de reconciliação definida no namespace
+* **rótulo**: o rótulo da solicitação
+* **tipo**: o tipo de solicitação. Os valores aceitos são &quot;acesso&quot; ou &quot;exclusão&quot;.
+* **regulamento**: o tipo de regulamento. Exemplo: &quot;GDPR&quot;, &quot;CCPA&quot;. Esse parâmetro é obrigatório e está disponível a partir da versão do Campaign Standard 19.4. Se você estiver em uma build mais antiga, não precisará adicioná-la à carga útil.
 
 <br/>
 
-***Solicitação de amostra***
+***Solicitação de exemplo***
 
-Esta solicitação de POST cria uma solicitação de privacidade com base em uma chave de reconciliação de email definida na namespace AMCDS2:
+Essa solicitação de POST cria uma solicitação de privacidade com base em uma chave de reconciliação de email definida no namespace AMCDS2:
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
@@ -57,7 +60,7 @@ Esta solicitação de POST cria uma solicitação de privacidade com base em uma
 }
 ```
 
-Resposta à solicitação de POST.
+Resposta à solicitação do POST.
 
 ```
 {
