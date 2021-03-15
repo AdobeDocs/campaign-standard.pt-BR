@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: dedup,main
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '289'
 ht-degree: 78%
 
 ---
@@ -24,11 +27,11 @@ Este fluxo de trabalho é composto por:
 
 ![](assets/deduplication_example_workflow.png)
 
-* Um [Query](../../automating/using/query.md) que permite definir o público alvo do email. Aqui, o fluxo de trabalho segmenta todos os perfis com idade entre 18 e 25 anos que estão no banco de dados do cliente por mais de um ano.
+* Um [Query](../../automating/using/query.md) que permite definir o público-alvo do email. Aqui, o fluxo de trabalho segmenta todos os perfis com idade entre 18 e 25 anos que estão no banco de dados do cliente por mais de um ano.
 
    ![](assets/deduplication_example_query.png)
 
-* Uma atividade [Desduplicação-duplicada](../../automating/using/deduplication.md), que permite identificar os duplicados que vêm do query anterior. Neste exemplo, somente um registro é salvo para cada duplicata. As duplicatas são identificadas usando o endereço de email. Isso significa que o delivery de email só pode ser enviado uma vez para cada endereço que esteja presente no direcionamento.
+* Uma atividade [Deduplication](../../automating/using/deduplication.md), que permite identificar os duplicados que vêm da query anterior. Neste exemplo, somente um registro é salvo para cada duplicata. As duplicatas são identificadas usando o endereço de email. Isso significa que o delivery de email só pode ser enviado uma vez para cada endereço que esteja presente no direcionamento.
 
    O método de desduplicação selecionado é **[!UICONTROL Non-empty value]**. Esse método assegura que, entre os registros mantidos em caso de duplicatas, seja dada prioridade àqueles em que foi fornecido o **nome**. Esse método se tornará mais coerente se o nome for usado nos campos de personalização do conteúdo do email.
 
@@ -36,5 +39,5 @@ Este fluxo de trabalho é composto por:
 
    ![](assets/deduplication_example_dedup.png)
 
-* Um [delivery de e-mail](../../automating/using/email-delivery.md) colocado depois da transição de saída principal do desduplicação-duplicado.
-* Uma atividade [Salve a audiência](../../automating/using/save-audience.md) colocada após a transição adicional do desduplicação-duplicado para salvar os duplicados em uma audiência **Duplicados**. Esse público-alvo pode ser reutilizado para excluir diretamente membros de cada delivery de email.
+* Um [Email delivery](../../automating/using/email-delivery.md) colocado após a transição de saída principal da desduplicação.
+* Uma atividade [Save audience](../../automating/using/save-audience.md) colocada após a transição adicional da desduplicação para salvar as duplicatas em um público **Duplicates**. Esse público-alvo pode ser reutilizado para excluir diretamente membros de cada delivery de email.
