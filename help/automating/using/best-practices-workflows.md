@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Iniciante
 translation-type: tm+mt
-source-git-commit: 9b76f02b03ba1180f852b446f0dbbae26a27d4bd
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1183'
 ht-degree: 85%
 
 ---
@@ -52,7 +55,7 @@ Em contextos específicos, talvez seja necessário executar mais de 20 fluxos de
 
 >[!NOTE]
 >
->Antes de iniciar um fluxo de trabalho, [!DNL Campaign Standard] verificará se há memória física suficiente do sistema para executar o fluxo de trabalho. Se não houver memória disponível suficiente, uma mensagem informará que a execução do fluxo de trabalho será atrasada até que a carga no servidor seja baixada e a memória do sistema aumente.
+>Antes de iniciar um workflow, [!DNL Campaign Standard] verificará se há memória física do sistema suficiente para executar o workflow. Se não houver memória disponível suficiente, uma mensagem informará que a execução do workflow será adiada até que a carga no servidor seja reduzida e a memória do sistema aumente.
 
 ### Frequência
 
@@ -75,13 +78,13 @@ As propriedades do fluxo de trabalho permitem definir um fuso horário específi
 
 ## Atividade{#activity}
 
-### Número de atividades por fluxo de trabalho {#number-activities}
+### Número de atividades por workflow {#number-activities}
 
-Recomendamos usar até 100 atividades em um único fluxo de trabalho. Mais de 100 atividades, você pode encontrar alguns problemas de desempenho ao projetar e configurar seu fluxo de trabalho.
+Recomendamos usar até 100 atividades em um único workflow. Mais de 100 atividades, você pode encontrar alguns problemas de desempenho ao projetar e configurar seu fluxo de trabalho.
 
 ### Design do fluxo de trabalho
 
-Para garantir que o fluxo de trabalho termine corretamente, evite deixar a última transição de um fluxo de trabalho por conta própria usando um **[!UICONTROL End activity]**.
+Para garantir que o workflow termine corretamente, evite deixar a última transição de um workflow por conta própria usando um **[!UICONTROL End activity]**.
 
 Para acessar a visualização detalhada das transições, marque a opção **[!UICONTROL Keep interim results]**, na seção Execução das propriedades do fluxo de trabalho.
 
@@ -110,11 +113,11 @@ Você pode pré-visualizar as próximas dez execuções de seus fluxos de trabal
 
 Para mais informações, consulte [Atividade de Scheduler](../../automating/using/scheduler.md).
 
-Ao projetar um fluxo de trabalho programado que inclui várias atividades, é necessário verificar se o fluxo de trabalho não é reprogramado até que seja concluído. Para fazer isso, é necessário configurar seu fluxo de trabalho para impedir sua execução se uma ou mais tarefas de uma execução anterior ainda estiverem pendentes. Para obter mais informações, consulte [esta página](../../automating/using/scheduled-workflows-execution.md).
+Ao projetar um workflow agendado que inclui várias atividades, é necessário garantir que o workflow não seja reagendado até sua conclusão. Para fazer isso, é necessário configurar o workflow para impedir a execução se uma ou mais tarefas de uma execução anterior ainda estiverem pendentes. Para obter mais informações, consulte [esta página](../../automating/using/scheduled-workflows-execution.md).
 
 ## Chamada de fluxo de trabalho com parâmetros{#workflow-with-parameters}
 
-Certifique-se de que o nome e o número de parâmetros sejam idênticos ao definido ao chamar o fluxo de trabalho (consulte [esta página](../../automating/using/defining-parameters-calling-workflow.md). Os tipos de parâmetros também devem ser consistentes com os valores esperados.
+Certifique-se de que o nome e a quantidade de parâmetros sejam idênticos ao definido ao chamar o workflow (consulte [esta página](../../automating/using/defining-parameters-calling-workflow.md). Os tipos de parâmetros também devem ser consistentes com os valores esperados.
 
 Verifique se todos os parâmetros foram declarados no **[!UICONTROL External signal activity]**. Caso contrário, ocorrerá um erro ao executar a atividade.
 
