@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: readAudience,main
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 87%
+source-wordcount: '210'
+ht-degree: 86%
 
 ---
 
@@ -30,8 +33,8 @@ A atividade **[!UICONTROL Read audience]** é uma versão mais simples da ativid
 
 **Tópicos relacionados**
 
-* [Caso de uso: União em duas audiências refinadas](../../automating/using/union-on-two-refined-audiences.md)
-* [Caso de uso: Reconciliar uma audiência de arquivo com o banco de dados](../../automating/using/reconcile-file-audience-with-database.md)
+* [Caso de uso: União em dois públicos-alvo refinados](../../automating/using/union-on-two-refined-audiences.md)
+* [Caso de uso: Reconciliar um público do tipo Arquivo com o banco de dados](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Configuração {#configuration}
 
@@ -41,7 +44,7 @@ A atividade **[!UICONTROL Read audience]** é uma versão mais simples da ativid
 
    Você pode recuperar públicos-alvo dos seguintes tipos: **[!UICONTROL List]**, **[!UICONTROL Query]**, **[!UICONTROL File]** e **[!UICONTROL Experience Cloud]**. Para saber mais sobre tipos de público-alvo, consulte a documentação sobre [Públicos-alvo](../../audiences/using/about-audiences.md).
 
-   A opção **[!UICONTROL Use a dynamic audience]** permite definir o nome do público-alvo de direcionamento com base nas variáveis de eventos do fluxo de trabalho. Para obter mais informações, consulte a seção [this page](../../automating/using/customizing-workflow-external-parameters.md).
+   A opção **[!UICONTROL Use a dynamic audience]** permite definir o nome do público-alvo de direcionamento com base nas variáveis de eventos do fluxo de trabalho. Para obter mais informações, consulte a seção [this page](../../automating/using/customizing-workflow-external-parameters.md) .
 
    ![](assets/readaudience_activity1.png)
 
