@@ -9,11 +9,14 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
+feature: Privacidade
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 500a9575157a0652eac2504d2360f7a1cbd6189e
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 100%
+source-wordcount: '817'
+ht-degree: 99%
 
 ---
 
