@@ -6,10 +6,13 @@ description: Saiba como acionar a assimilação de dados por meio de APIs.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
+feature: Integração do Microsoft CRM
+role: Arquiteto de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '470'
 ht-degree: 5%
 
 ---
@@ -19,7 +22,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->O Conector de dados da Adobe Experience Platform está atualmente em beta, que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente da Adobe se desejar acesso.
+>No momento, o Adobe Experience Platform Data Connector está em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente do Adobe se desejar acesso.
 
 O Adobe Campaign Standard permite acionar a assimilação imediata de mapeamentos de dados por meio de APIs e recuperar o status das solicitações de assimilação.
 
@@ -46,13 +49,13 @@ A execução do mapeamento de dados agora está interrompida. Você pode usar as
 
 ## Iniciando a assimilação imediata de mapeamento de dados {#starting-immediate-ingestion}
 
-A assimilação imediata de um mapeamento XDM na Adobe Experience Platform é acionada com uma operação POST:
+A assimilação imediata de um mapeamento XDM no Adobe Experience Platform é acionada com uma operação de POST:
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest`
 
 >[!NOTE]
 >
->Para executar a chamada de assimilação da API POST, o usuário deve ter uma função **SQL function execution**, que pode ser fornecida por um administrador do Campaign Standard executando abaixo o script JS:
+>Para executar a chamada de assimilar POST API, o usuário deve ter uma função **SQL function execution**, que pode ser fornecida por um administrador do Campaign Standard executando abaixo o Script JS:
 >
 >
 ```
@@ -97,7 +100,7 @@ A operação POST retorna informações sobre o status da solicitação criada:
 
 ## Recuperar o status de uma solicitação de assimilação {#retrieving-status}
 
-O status de uma solicitação de assimilação pode ser recuperado com uma operação GET e a ID da solicitação desejada nos parâmetros:
+O status de uma solicitação de assimilação pode ser recuperado com uma operação GET e a ID de solicitação desejada nos parâmetros:
 
 ```
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest
@@ -115,7 +118,7 @@ A operação GET retorna as informações abaixo:
 * **numRecords**: o número de registros que foram assimilados (somente status de sucesso),
 * **status**: o status da solicitação de assimilação (sucesso/falha/em andamento)
 
-As possíveis respostas para a operação GET são:
+As possíveis respostas para a operação do GET são:
 
 * Solicitação de assimilação bem-sucedida:
 
