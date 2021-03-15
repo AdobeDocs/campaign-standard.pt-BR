@@ -6,38 +6,41 @@ description: Saiba mais sobre o gerenciamento de recursos personalizados com API
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 5%
+source-wordcount: '208'
+ht-degree: 6%
 
 ---
 
 
 # Recursos personalizados {#custom-resources}
 
-A Adobe Campaign vem com um modelo de dados predefinido, onde os dados são definidos por meio de diferentes recursos. Você pode aprimorar o modelo de dados fornecido estendendo os recursos para adicionar seus próprios campos personalizados ou tabelas personalizadas, como tabelas de produtos ou de compras.
+O Adobe Campaign vem com um modelo de dados predefinido, onde os dados são definidos por meio de diferentes recursos. Você pode enriquecer o modelo de dados fornecido estendendo os recursos para adicionar seus próprios campos personalizados ou tabelas personalizadas, como tabelas de produtos ou de compras.
 
-Os recursos personalizados são acessíveis por meio de APIs usando o terminal **/profileAndServicesExt** e o nome do recurso personalizado.
+Os recursos personalizados podem ser acessados por meio de APIs usando o endpoint **/profileAndServicesExt** e o nome do recurso personalizado.
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/`
 
 >[!NOTE]
 >
->Para recursos que não estão prontos para uso, use sempre o prefixo <b>&quot;cus&quot;</b> antes do nome do recurso.
+>Para recursos que não estão prontos, sempre use o prefixo <b>&quot;cus&quot;</b> antes do nome do recurso.
 
-É possível executar qualquer operação com recursos personalizados, desde que estejam vinculados à tabela de Perfis. Por exemplo, vamos considerar a estrutura de tabelas abaixo:
+Você pode executar qualquer operação com recursos personalizados, desde que eles estejam vinculados à tabela Perfil. Por exemplo, vamos considerar a estrutura de tabelas abaixo:
 
 ![texto alternativo](assets/cusresources.png)
 
-Nesse caso, todos os recursos das tabelas **Transaction**, **TransactionDetails** e **Product** estão disponíveis desde que estejam vinculados à tabela **Perfil**.
+Nesse caso, todos os recursos das tabelas **Transaction**, **TransactionDetails** e **Product** estão disponíveis, desde que estejam vinculadas à tabela **Profile**.
 
 <br/>
 
-***Solicitação de amostra***
+***Solicitação de exemplo***
 
-Amostra de solicitação de GET para acessar o recurso profileAndServicesExt estendido.
+Solicitação de exemplo do GET para acessar o recurso profileAndServicesExt estendido.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/\
@@ -47,7 +50,7 @@ Amostra de solicitação de GET para acessar o recurso profileAndServicesExt est
 -H 'X-Api-Key: <API_KEY>' \
 ```
 
-Ele retorna a lista de todos os recursos personalizados vinculados. Você pode usar os URLs de recursos para executar qualquer tarefa de API descrita nesta documentação.
+Retorna a lista de todos os recursos personalizados vinculados. Você pode usar os URLs de recursos para executar qualquer tarefa de API descrita nesta documentação.
 
 ```
 {
@@ -72,7 +75,7 @@ Ele retorna a lista de todos os recursos personalizados vinculados. Você pode u
 }
 ```
 
-Para obter mais informações sobre a extensão do modelo de dados, consulte a documentação da Campanha:
+Para obter mais informações sobre a extensão do modelo de dados, consulte a documentação do Campaign:
 
 * [Conceitos do modelo de dados](../../developing/using/data-model-concepts.md)
 * [Extensão da API](../../developing/using/about-extending-the-api.md)
