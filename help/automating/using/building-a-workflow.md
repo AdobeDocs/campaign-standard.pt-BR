@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,wizard;workflow,main
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '987'
 ht-degree: 96%
 
 ---
@@ -72,7 +75,7 @@ A criação de uma atividade de marketing é detalhada na seção [Criar ativida
 
    Por exemplo, é possível definir um fuso horário específico para usar por padrão em todas as atividades do workflow. Por padrão, o fuso horário do workflow é aquele definido para o operador atual do Campaign.
 
-   Para obter mais informações sobre as propriedades dos workflows, consulte [esta página](../../automating/using/managing-execution-options.md).
+   Para obter mais informações sobre as propriedades dos fluxos de trabalho, consulte [esta página](../../automating/using/managing-execution-options.md).
 
    ![](assets/workflow_properties.png)
 
@@ -133,8 +136,8 @@ Por padrão, as atividades não estão definidas e não processarão os dados co
 
 ## Vídeo tutorial {#video}
 
-Este vídeo mostra como criar um fluxo de trabalho.
+Este vídeo mostra como criar um workflow.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-Vídeos de procedimentos de Campaign Standard adicionais estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
+Os vídeos de instruções adicionais do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
