@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Desfechos
-description: Saiba mais sobre os pontos finais das APIs.
+description: Saiba mais sobre os endpoints de APIs.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '247'
 ht-degree: 10%
 
 ---
@@ -17,20 +20,20 @@ ht-degree: 10%
 
 # Desfechos {#endpoints}
 
-Os pontos de extremidade disponíveis para a API REST do Adobe Campaign:
+Os endpoints disponíveis para a API REST do Adobe Campaign:
 
-* **/profileAndServices**: interagir com campos fora da caixa. Os campos estendidos não estão acessíveis com este endpoint.
-* **/profileAndServicesExt**: interagir com campos personalizados adicionados durante a extensão de recurso personalizado do Perfil ou dos Serviços. Para obter mais informações sobre recursos personalizados, consulte [esta seção](../../api/using/custom-resources.md).
-* **/&lt;transactionalapi>**: interaja com a API de mensagens transacionais (o nome do terminal da API de mensagens transacionais depende da configuração da sua instância). Para obter mais informações, consulte [esta seção](../../api/using/managing-transactional-messages.md).
-* **/workflow/execução**: interagir com workflows. Para obter mais informações, consulte [esta seção](../../api/using/controlling-a-workflow.md).
-* **/privacy/privacyFerramenta**: interaja com a API de privacidade para permitir o processo automático de solicitações de privacidade. Para obter mais informações, consulte [esta seção](../../api/using/creating-a-privacy-request.md).
-* **/histórico**: recupere o histórico de marketing do perfil. Para obter mais informações sobre os perfis integrados do cliente na Campanha, consulte a [documentação da Campanha](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html).
+* **/profileAndServices**: interaja com os campos prontos para uso. Os campos estendidos não podem ser acessados com este ponto de extremidade.
+* **/profileAndServicesExt**: interaja com campos personalizados adicionados durante a extensão de recurso personalizado Perfil ou Serviços . Para obter mais informações sobre recursos personalizados, consulte [esta seção](../../api/using/custom-resources.md).
+* **/&lt;transactionalapi>**: interaja com a API de mensagens transacionais (o nome do endpoint da API de mensagens transacionais depende da configuração da instância). Para obter mais informações, consulte [esta seção](../../api/using/managing-transactional-messages.md).
+* **/workflow/execution**: interagir com fluxos de trabalho. Para obter mais informações, consulte [esta seção](../../api/using/controlling-a-workflow.md).
+* **/privacy/privacyTool**: interaja com a API de privacidade para permitir o processo automático de solicitações de privacidade. Para obter mais informações, consulte [esta seção](../../api/using/creating-a-privacy-request.md).
+* **/histórico**: recupere o histórico de marketing dos perfis. Para obter mais informações sobre perfis de clientes integrados no Campaign, consulte a [documentação do Campaign](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html).
 
 Por padrão, os principais recursos disponíveis para as APIs **profileAndServices** e **profileAndServicesExt** são:
 
-* **/perfil**: interagir com perfis do banco de dados de Campanhas. Para adicionar perfis a um serviço, use o terminal **/service**. Para obter mais informações sobre perfis na Campanha, consulte a [documentação da Campanha](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html).
-* **/serviço**: gerenciar subscrições no serviço. Para obter mais informações sobre os serviços na Campanha, consulte a [documentação da Campanha](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html).
+* **/perfil**: interaja com perfis do banco de dados do Campaign. Para adicionar perfis a um serviço, use o terminal **/service**. Para obter mais informações sobre perfis no Campaign, consulte a [documentação do Campaign](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html).
+* **/serviço**: gerenciar serviços de assinatura. Para obter mais informações sobre serviços no Campaign, consulte a [documentação do Campaign](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html).
 
 >[!NOTE]
 >
->Todos os outros recursos que foram estendidos ou criados estão disponíveis somente pela API **ProfileAndServicesExt**. Eles devem estar vinculados ao recurso **Perfil** para que possam ser acessados.
+>Todos os outros recursos que foram estendidos ou criados estão disponíveis somente por meio da API **ProfileAndServicesExt** . Eles devem estar vinculados ao recurso **Profile** para serem acessíveis.
