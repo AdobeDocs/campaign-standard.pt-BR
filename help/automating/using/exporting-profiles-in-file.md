@@ -2,16 +2,19 @@
 solution: Campaign Standard
 product: campaign
 title: Exportar perfis em um arquivo externo
-description: Este caso de uso mostra como exportar uma lista de perfis na forma de um arquivo externo para que os dados possam ser usados fora do Adobe Campaign.
+description: Este caso de uso mostra como exportar uma lista de perfis no formato de um arquivo externo para que os dados possam ser usados fora do Adobe Campaign.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileExport,main
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 68%
+source-wordcount: '231'
+ht-degree: 67%
 
 ---
 
@@ -22,7 +25,7 @@ O exemplo a seguir ilustra como configurar uma atividade **[!UICONTROL Extract f
 
 O objetivo desse fluxo de trabalho é exportar uma lista de perfis como um arquivo externo para que os dados sejam usados fora do Adobe Campaign.
 
-1. Arraste e solte uma atividade [Extrair arquivo](../../automating/using/extract-file.md) no seu fluxo de trabalho e coloque-a depois da atividade [Query](../../automating/using/query.md).
+1. Arraste e solte uma atividade [Extract file](../../automating/using/extract-file.md) no seu fluxo de trabalho e coloque-a depois da atividade [Query](../../automating/using/query.md).
 
    Neste exemplo, o query é realizado em todos os perfis entre 18 e 30 anos.
 
@@ -45,7 +48,7 @@ O objetivo desse fluxo de trabalho é exportar uma lista de perfis como um arqui
       ![](assets/wkf_data_export9.png)
 
 1. Confirme sua atividade.
-1. Arraste e solte uma atividade [Transferir arquivo](../../automating/using/transfer-file.md) após a atividade **[!UICONTROL Extract file]** para recuperar o arquivo de extração em uma conta externa.
+1. Arraste e solte uma atividade [Transfer file](../../automating/using/transfer-file.md) após a atividade **[!UICONTROL Extract file]** para recuperar o arquivo de extração em uma conta externa.
 1. Abra a atividade e escolha a ação **[!UICONTROL File upload]**.
 
    ![](assets/wkf_data_export11.png)
