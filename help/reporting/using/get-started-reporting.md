@@ -6,10 +6,13 @@ description: Analise o sucesso de suas campanhas em relatórios dinâmicos incor
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
+feature: Relatórios
+role: Líder
+level: Iniciante
 translation-type: tm+mt
-source-git-commit: e20485978deba54f45010a41921b948f049222f2
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '375'
 ht-degree: 20%
 
 ---
@@ -20,13 +23,13 @@ ht-degree: 20%
 <table>
 <tr>
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#manage-share-reports">Gerenciar e compartilhar relatórios dinâmicos</a></p></td>
-<td><img src="assets/do-not-localize/icon_build.svg" width="60px"><p><a href="#build-reports">Criar seus relatórios</a></p></td>
+<td><img src="assets/do-not-localize/icon_build.svg" width="60px"><p><a href="#build-reports">Criar relatórios</a></p></td>
 <td><img src="assets/do-not-localize/icon_customize.svg" width="60px"><p><a href="#customize-reports">Personalizar seus relatórios</a></p></td></tr>
 </table>
 
-O Relatórios dinâmico fornece relatórios totalmente personalizáveis e em tempo real para medir o impacto de suas atividades de marketing. Ele adiciona acesso aos dados do perfil, permitindo a análise demográfica por dimensões de perfil, como gênero, cidade e idade, além de dados funcionais de campanha de email, como abrir e clicar.
+Os Relatórios dinâmicos fornecem relatórios totalmente personalizáveis e em tempo real para medir o impacto de suas atividades de marketing. Ele adiciona acesso aos dados do perfil, permitindo a análise demográfica por dimensões de perfil, como gênero, cidade e idade, além de dados funcionais de campanha de email, como aberturas e cliques.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra o relatórios dinâmico em vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Descubra o relatório dinâmico no vídeo](#video)
 
 ## Gerenciar e compartilhar relatórios {#manage-share-reports}
 
@@ -34,7 +37,7 @@ O Relatórios dinâmico fornece relatórios totalmente personalizáveis e em tem
 
 Com a **interface de arrastar e soltar do Dynamic Reporting**, você pode explorar dados, determinar o desempenho de suas campanhas de email em relação aos segmentos de clientes mais importantes e medir seu impacto nos recipients de um único lugar.
 
-**Gerencie seus** relatórios dinâmicos graças a várias funcionalidades: atualize os dados em tempo real, imprima seus relatórios ou exporte-os como arquivos CSV. Você também pode compartilhar seus relatórios com usuários do Campaign Standard por meio de emails instantâneos ou recorrentes.
+**Gerencie seus** relatórios dinâmicos graças a várias funcionalidades: atualize os dados em tempo real, imprima seus relatórios ou exporte-os como arquivos CSV. Você também pode compartilhar seus relatórios com usuários do Campaign Standard por meio de emails recorrentes ou pontuais.
 
 Leia mais:
 
@@ -45,9 +48,9 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-O Campaign Standard vem com um conjunto de **relatórios dinâmicos prontos para uso** que permite avaliar vários aspectos de suas campanhas de marketing: rejeições, delivery que foram declarados mais como spam ou lixo eletrônico, delivery mais visualizados por recipient, relatórios relacionados a canais, throughput de delivery e relatórios de rastreamento...
+O Campaign Standard vem com um conjunto de **relatórios dinâmicos prontos para uso** permitindo que você meça vários aspectos de suas campanhas de marketing: devoluções, deliveries que foram mais declarados como spam ou lixo eletrônico, deliveries mais vistos por recipients, relatórios relacionados a canais, taxa de transferência de delivery e relatórios de rastreamento...
 
-**Combine componentes**  diferentes (dimensões, métricas e segmentos, períodos) para criar seus próprios relatórios ou personalizar relatórios prontos para uso.
+**Combine diferentes componentes**  (dimensões, métricas e segmentos, períodos de tempo) para criar seus próprios relatórios ou personalizar relatórios prontos para uso.
 
 Leia mais:
 
@@ -55,7 +58,7 @@ Leia mais:
 * [Cálculo do indicador](../../reporting/using/indicator-calculation.md)
 * [Lista de relatórios](../../reporting/using/defining-the-report-period.md)
 
-## Personalizar seus relatórios {#customize-reports}
+## Personalize seus relatórios {#customize-reports}
 
 <img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
@@ -63,7 +66,7 @@ Leia mais:
 
 Arraste e solte **itens de visualização** para adicionar representações gráficas de seus dados em seus relatórios e configurá-los de acordo com suas necessidades.
 
-Crie relatórios com base em **dados de perfil personalizados** criados durante a extensão do recurso de Perfil e **relatórios baseados em segmentos** definidos em workflows de definição de metas.
+Crie relatórios com base em **custom profile data** criados durante a extensão de recurso do Perfil e **relatórios baseados em segmentos** definidos em workflows para construção do target.
 
 Leia mais:
 
@@ -80,7 +83,7 @@ Leia mais:
 
 ## Vídeo tutorial {#video}
 
-Este vídeo fornece uma visão geral sobre os recursos de relatório do Adobe Campaign Standard.
+Este vídeo fornece uma visão geral sobre os recursos de relatórios do Adobe Campaign Standard.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
 
