@@ -6,11 +6,14 @@ description: Use outras soluções da Adobe e combine suas diferentes funcionali
 audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
+feature: Triggers
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 91%
+source-wordcount: '636'
+ht-degree: 90%
 
 ---
 
@@ -92,7 +95,7 @@ Se você quiser integrar fluxos de dados de outros sistemas ao Adobe Campaign, c
    <td> Dreamweaver<br /> </td> 
    <td> Permite editar um conteúdo de email do Dreamweaver e sincronizá-lo com o Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">Criar emails personalizados com vídeo do </a> Dreamweavervideo,  <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Usar extensão do Campaign para Dreamweaver</a> 
+    <a href="https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">Criar emails personalizados com o </a> Dreamweavervideo,  <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Usar extensão do Campaign para Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 
