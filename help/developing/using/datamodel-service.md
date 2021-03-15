@@ -2,13 +2,16 @@
 solution: Campaign Standard
 product: campaign
 title: DataModel
-description: Saiba mais sobre o modelo de dados
+description: Saiba mais sobre o datamodel
 audience: developing
 content-type: reference
+feature: Modelo de dados
+role: Desenvolvedor
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '217'
 ht-degree: 11%
 
 ---
@@ -23,24 +26,24 @@ ht-degree: 11%
                   <th>Nome</th>
                   <th>Rótulo</th>
                   <th>Tipo (comprimento)</th>
-                  <th>valores de lista discriminada</th>
+                  <th>Valores de enumeração</th>
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>ID do recurso principal</td>
+                  <td>ID de recurso principal</td>
                   <td>string </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>buildIn</td>
-                  <td>Objeto de aplicativo incorporado</td>
+                  <td>build</td>
+                  <td>Objeto de aplicativo integrado</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>criado</td>
                   <td>Criado</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -63,8 +66,8 @@ ht-degree: 11%
                </tr>
                <tr>
                   <td>end</td>
-                  <td>Data de término</td>
-                  <td>date </td>
+                  <td>Data final</td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -75,13 +78,13 @@ ht-degree: 11%
                </tr>
                <tr>
                   <td>história</td>
-                  <td>histórico de subscrições</td>
+                  <td>Histórico de subscrição</td>
                   <td>coleção </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>É um recurso externo</td>
+                  <td>É recurso externo</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -100,7 +103,7 @@ ht-degree: 11%
                <tr>
                   <td>lastModified</td>
                   <td>Última modificação</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -118,24 +121,24 @@ ht-degree: 11%
                <tr>
                   <td>messageType</td>
                   <td>Canal </td>
-                  <td>lista discriminada (byte) </td>
+                  <td>enumeração (byte) </td>
                   <td>
                      <ul>
                         <li>Móvel (SMS) - sms - 1</li>
                         <li>Email - email - 0</li>
-                        <li>VALOR INVÁLIDO - __Valor_inválido__ - __Valor_inválido__</li>
+                        <li>VALOR INVÁLIDO - __Valor_Inválido__ - __Valor_Inválido__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>modo</td>
                   <td>Modo</td>
-                  <td>lista discriminada (byte) </td>
+                  <td>enumeração (byte) </td>
                   <td>
                      <ul>
                         <li>Viral - 1</li>
-                        <li>Newsletter - newsletter - 0</li>
-                        <li>VALOR INVÁLIDO - __Valor_inválido__ - __Valor_inválido__</li>
+                        <li>Informativo - boletim informativo - 0</li>
+                        <li>VALOR INVÁLIDO - __Valor_Inválido__ - __Valor_Inválido__</li>
                      </ul>
                   </td>
                </tr>
@@ -165,19 +168,19 @@ ht-degree: 11%
                </tr>
                <tr>
                   <td>start</td>
-                  <td>data do start</td>
-                  <td>date </td>
+                  <td>Data de início</td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>subLandingPage (landingPageSubscriptionBase)</td>
-                  <td>Landing page subscrição</td>
+                  <td>Página de aterrissagem da assinatura</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>subScenario (deliveryMCTemplateBase)</td>
-                  <td>Confirmação de subscrição</td>
+                  <td>Confirmação de assinatura</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -188,14 +191,14 @@ ht-degree: 11%
                   <td> </td>
                </tr>
                <tr>
-                  <td>subscrições</td>
+                  <td>assinaturas</td>
                   <td>Subscrições</td>
                   <td>coleção </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>targetResource</td>
-                  <td>Targeting dimension</td>
+                  <td>Dimensão de direcionamento</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
@@ -219,13 +222,13 @@ ht-degree: 11%
                </tr>
                <tr>
                   <td>unsubLandingPage (landingPageUnsubscriptionBase)</td>
-                  <td>Landing page unsubscription</td>
+                  <td>Página de aterrissagem de cancelamento de assinatura</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>unsubScenario (deliveryMCTemplateBase)</td>
-                  <td>Confirmação de unsubscription</td>
+                  <td>Confirmação de cancelamento de assinatura</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -236,7 +239,7 @@ ht-degree: 11%
                   <td> </td>
                </tr>
                <tr>
-                  <td>validDuration</td>
+                  <td>validityDuration</td>
                   <td>Duração da validade</td>
                   <td>número </td>
                   <td> </td>
@@ -245,7 +248,7 @@ ht-degree: 11%
 
 ## Filtros
 
-Disponível durante o período especificado (pelo Planning)
+Disponível durante o período especificado (byPlanning)
 
 <table>
     <tr>
@@ -254,15 +257,15 @@ Disponível durante o período especificado (pelo Planning)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
 </table>
 
-Por tipo de canal (byChannel)
+Por tipo de canal (porCanal)
 
 <table>
 <tr>
@@ -271,11 +274,11 @@ Por tipo de canal (byChannel)
 </tr>
 <tr>
 <td>canal</td>
-<td>lista discriminada</td>
+<td>enumeração</td>
 </tr>
 </table>
 
-Por nome ou rótulo (por texto)
+Por nome ou rótulo (byText)
 
 <table>
 <tr>
@@ -288,7 +291,7 @@ Por nome ou rótulo (por texto)
 </tr>
 </table>
 
-Por recurso de definição de metas (byTargetResource)
+Por recurso de direcionamento (byTargetResource)
 
 <table>
 <tr>
