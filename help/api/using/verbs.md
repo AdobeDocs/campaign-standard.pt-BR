@@ -1,21 +1,24 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: GET / POST / PATCH / DELETE / verbos
+title: GET / POST / PATCH / DELETE verbos
 description: Saiba mais sobre os verbos usados nas APIs do Campaign Standard.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
 
 
-# GET / POST / PATCH / DELETE / verbos {#verbs}
+# GET / POST / PATCH / DELETE verbs {#verbs}
 
 Os verbos disponíveis para executar operações nos recursos são:
 
@@ -28,9 +31,9 @@ Os verbos disponíveis para executar operações nos recursos são:
 
 <br/>
 
-***Pedidos de amostra***
+***Solicitações de exemplo***
 
-* Solicitação de amostra de GET na coleção de perfis.
+* Solicitação de GET de exemplo na coleção de perfis.
 
 
    ```
@@ -42,7 +45,7 @@ Os verbos disponíveis para executar operações nos recursos são:
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   Ele retorna uma série de perfis.
+   Ele retorna uma matriz de perfis.
 
 
    ```
@@ -66,7 +69,7 @@ Os verbos disponíveis para executar operações nos recursos são:
    }
    ```
 
-* Solicitação de amostra de GET em um perfil específico.
+* Solicitação de GET de exemplo em um perfil específico.
 
 
    ```
@@ -78,7 +81,7 @@ Os verbos disponíveis para executar operações nos recursos são:
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   Ele retorna o perfil solicitado.
+   Retorna o perfil solicitado.
 
 
    ```
@@ -92,7 +95,7 @@ Os verbos disponíveis para executar operações nos recursos são:
    }
    ```
 
-* Amostra de solicitação de POST para criar um perfil.
+* Amostra de solicitação do POST para criar um perfil.
 
 
    ```
@@ -104,7 +107,7 @@ Os verbos disponíveis para executar operações nos recursos são:
    -d '{"lastName":"Doe"}'
    ```
 
-   Ele retorna o perfil com os campos padrão.
+   Retorna o perfil com os campos padrão.
 
    ```
    {
@@ -116,7 +119,7 @@ Os verbos disponíveis para executar operações nos recursos são:
    }
    ```
 
-* Amostra de solicitação de PATCH para atualizar um perfil.
+* Exemplo de solicitação de PATCH para atualizar um perfil.
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -127,7 +130,7 @@ Os verbos disponíveis para executar operações nos recursos são:
    -d '{"firstName":"Mark"',"lastName":"Smith"}'
    ```
 
-   Ele retorna a PKEY e o URL para recuperar o perfil atualizado.
+   Retorna a PKEY e o URL para recuperar o perfil atualizado.
 
    ```
    {
@@ -136,7 +139,7 @@ Os verbos disponíveis para executar operações nos recursos são:
    }
    ```
 
-* Amostra de solicitação de DELETE para excluir um perfil.
+* Exemplo de solicitação de DELETE para excluir um perfil.
 
    ```
    -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
