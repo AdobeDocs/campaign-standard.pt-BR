@@ -6,10 +6,13 @@ description: Saiba como personalizar suas campanhas usando atributos da Adobe Ex
 audience: automating
 content-type: reference
 topic-tags: channel-activities
+feature: Integração do Microsoft CRM
+role: Arquiteto de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '277'
 ht-degree: 9%
 
 ---
@@ -19,11 +22,11 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->O serviço Audience Destinations está atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente da Adobe se desejar acesso.
+>O serviço Audience Destinations está atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente do Adobe se desejar acesso.
 >
->**** Os canais  **de push no** aplicativo ainda não estão disponíveis para personalização usando dados contextuais da Adobe Experience Platform.
+>**** Os canais  **de push no** aplicativo ainda não estão disponíveis para personalização usando dados contextuais do Adobe Experience Platform.
 
-Depois que seu fluxo de trabalho for configurado com um [público da Adobe Experience Platform](../../integrating/using/aep-about-audience-destinations-service.md), você poderá personalizar mensagens com atributos de perfil que existem exclusivamente no Experience Data Model (XDM).
+Depois que seu fluxo de trabalho for configurado com um [Adobe Experience Platform audience](../../integrating/using/aep-about-audience-destinations-service.md), você poderá personalizar mensagens com atributos de perfil que existem exclusivamente no Experience Data Model (XDM).
 
 Para fazer isso, você deve adicionar esses atributos na atividade **[!UICONTROL Read audience]** :
 
