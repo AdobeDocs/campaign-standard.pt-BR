@@ -7,11 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
+feature: Correspondência direta
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 98%
 
 ---
 
