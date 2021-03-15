@@ -2,15 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: API externa
-description: null
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '2180'
+source-wordcount: '2184'
 ht-degree: 95%
 
 ---
@@ -38,7 +40,7 @@ As principais características dessa atividade são:
 
 ### Avisos de compatibilidade com versões anteriores {#from-beta-to-ga}
 
-Com a versão Campaign Standard 20.4, os guarda-chuva do limite de tamanho de dados de resposta http e do tempo limite de resposta foram reduzidos para alinhar-se às práticas recomendadas - consulte [Limitações e guardrails](#guardrails). Essas modificações nas medidas de proteção não entrarão em vigor nas atividades de API externas existentes; portanto, é recomendado substituir as atividades de API externas existentes por novas versões em todos os workflows.
+Com a versão do Campaign Standard 20.4, o limite de tamanho dos dados de resposta http e as medidas de proteção do tempo limite de resposta foram reduzidos para se alinharem às práticas recomendadas - consulte [Limitações e medidas de proteção](#guardrails). Essas modificações nas medidas de proteção não entrarão em vigor nas atividades de API externas existentes; portanto, é recomendado substituir as atividades de API externas existentes por novas versões em todos os workflows.
 
 Ao substituir as atividades de API externas, adicione a nova atividade ao workflow, copie manualmente os detalhes de configuração e exclua a atividade antiga.
 
@@ -114,13 +116,13 @@ Se a **análise for validada**, será exibida uma mensagem com um convite para p
 
 ### Execução
 
-Essa guia permite que você defina o ponto de extremidade da conexão. O campo **[!UICONTROL URL]** permite que você defina o **Ponto Final HTTPS** com o qual o Campaign Standard se comunicará.
+Essa guia permite que você defina o ponto de extremidade da conexão. O campo **[!UICONTROL URL]** permite definir o **Ponto de extremidade HTTPS** com o qual o Campaign Standard se comunicará.
 
 Se necessário para o ponto de extremidade, dois tipos de método de autenticação estão disponíveis:
 
-* Autenticação básica: insira as informações de nome de usuário/senha na seção **[!UICONTROL Request Header(s)]**.
+* Autenticação básica: insira suas informações de nome de usuário/senha na seção **[!UICONTROL Request Header(s)]** .
 
-* Autenticação OAuth: Ao clicar em **[!UICONTROL Use connection parameters defined in an external account]** em uma conta externa, você pode selecionar uma conta externa na qual a autenticação OAuth é definida. Para obter mais informações, consulte a seção [Contas externas](../../administration/using/external-accounts.md).
+* Autenticação OAuth: Ao clicar em **[!UICONTROL Use connection parameters defined in an external account]** em uma conta externa, é possível selecionar uma conta externa na qual a autenticação OAuth é definida. Para obter mais informações, consulte a seção [Contas externas](../../administration/using/external-accounts.md).
 
 ![](assets/externalAPI-execution.png)
 
@@ -260,7 +262,7 @@ Essas mensagens de log são usadas para registrar informações sobre condiçõe
    <td> <p>A chave do cabeçalho HTTP não é permitida (chave do cabeçalho: 'Accept').</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - Um valor de cabeçalho HTTP incorreto (valor de cabeçalho: '%s').</td> 
+   <td> WKF-560247 - Um valor de cabeçalho HTTP é incorreto (valor do cabeçalho: '%s').</td> 
    <td> <p>O valor do cabeçalho HTTP é incorreto (valor do cabeçalho: '%s'). </p>
     <p>Observação: este erro é registrado quando o valor do cabeçalho personalizado falha na validação de acordo com a <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
