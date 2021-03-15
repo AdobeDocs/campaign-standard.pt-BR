@@ -6,10 +6,13 @@ description: Saiba como gerenciar dados criptografados.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '934'
 ht-degree: 53%
 
 ---
@@ -19,20 +22,20 @@ ht-degree: 53%
 
 ## Sobre os estágios de pré-processamento {#about-preprocessing-stages}
 
-Em alguns casos, os dados que você deseja importar Servidores de Campanha podem precisar ser criptografados, por exemplo, se contiverem dados de PII.
+Em alguns casos, os dados que você deseja importar Servidores do Campaign podem precisar ser criptografados, por exemplo, se contiverem dados PII.
 
-Para poder criptografar dados de saída ou descriptografar dados de entrada, é necessário gerenciar chaves GPG usando o [Painel de controle do Campaign](https://docs.adobe.com/content/help/pt-BR/control-panel/using/instances-settings/gpg-keys-management.html).
+Para poder criptografar dados de saída ou descriptografar dados de entrada, você precisa gerenciar chaves GPG usando o [Painel de controle](https://docs.adobe.com/content/help/pt-BR/control-panel/using/instances-settings/gpg-keys-management.html).
 
 >[!NOTE]
 >
 >O Painel de controle do Campaign está disponível para todos os clientes hospedados no AWS (exceto para clientes que hospedam suas instâncias de marketing no local).
 
-Se você não estiver qualificado para usar o Painel de controle do Campaign, entre em contato com o Atendimento ao cliente do Adobe para que ele forneça à instância os comandos de criptografia/descriptografia necessários. Para fazer isso, envie uma solicitação indicando:
+Se você não estiver qualificado para usar o Painel de controle do Campaign, será necessário entrar em contato com o Atendimento ao Cliente do Adobe para que ele forneça à sua instância os comandos de criptografia/descriptografia necessários. Para fazer isso, envie uma solicitação indicando:
 
-* O **label** que será exibido na interface de Campanha para usar o comando. Por exemplo, &quot;Criptografar arquivo&quot;.
-* O **comando** a ser instalado na sua instância.
+* O **label** que será exibido na interface do Campaign para usar o comando. Por exemplo, &quot;Criptografar arquivo&quot;.
+* O **comando** para instalar em sua instância.
 
-Depois que a solicitação for processada, os comandos de criptografia/descriptografia estarão disponíveis no campo **[!UICONTROL Pre-processing stage]** das atividades **[!UICONTROL Load file]** e **[!UICONTROL Extract file]**. Você pode usá-los para descriptografar ou criptografar os arquivos que deseja importar ou exportar.
+Depois que a solicitação é processada, os comandos de criptografia / descriptografia estarão disponíveis no campo **[!UICONTROL Pre-processing stage]** das atividades **[!UICONTROL Load file]** e **[!UICONTROL Extract file]**. Você pode usá-los para descriptografar ou criptografar os arquivos que deseja importar ou exportar.
 
 ![](assets/preprocessing-encryption.png)
 
@@ -56,18 +59,18 @@ As etapas para executar esse caso de uso são as seguintes:
 
    ![](assets/gpg_generate.png)
 
-1. No sistema externo, use a chave pública baixada do Painel de controle do Campaign para criptografar os dados a serem importados para o Campaign Standard.
+1. No sistema externo, use a chave pública baixada do Painel de controle do Campaign para criptografar os dados que serão importados para o Campaign Standard.
 
-1. No Campaign Standard, crie um fluxo de trabalho para importar os dados criptografados e descriptografá-los usando a chave privada que foi instalada por meio do Painel de controle do Campaign. Para fazer isso, criaremos um workflow da seguinte maneira:
+1. No Campaign Standard, crie um workflow para importar os dados criptografados e descriptografá-los usando a chave privada que foi instalada por meio do Painel de controle do Campaign. Para fazer isso, criaremos um workflow da seguinte maneira:
 
    ![](assets/gpg_workflow.png)
 
-   * **[!UICONTROL Transfer file]** atividade: Transfere o arquivo de uma fonte externa para a Campanha. Neste exemplo, queremos transferir o arquivo de um servidor SFTP.
+   * **[!UICONTROL Transfer file]** atividade : Transfere o arquivo de uma fonte externa para o Campaign. Neste exemplo, queremos transferir o arquivo de um servidor SFTP.
    * Atividade **[!UICONTROL Load file]**: carrega os dados do arquivo no banco de dados e os decodifica usando a chave privada gerada no Painel de controle do Campaign.
 
 1. Abra a atividade **[!UICONTROL Transfer file]** e configure-a de acordo com suas necessidades. Os conceitos globais sobre como configurar a atividade estão disponíveis [nesta seção](../../automating/using/load-file.md).
 
-   Na guia **[!UICONTROL Protocol]**, especifique detalhes sobre o servidor sftp e o arquivo .gpg criptografado que você deseja transferir.
+   Na guia **[!UICONTROL Protocol]** , especifique os detalhes sobre o servidor sftp e o arquivo .gpg criptografado que deseja transferir.
 
    ![](assets/gpg_transfer.png)
 
@@ -77,7 +80,7 @@ As etapas para executar esse caso de uso são as seguintes:
 
    >[!NOTE]
    >
-   >Observe que não é necessário especificar a chave privada a ser usada para descriptografar os dados. A chave privada é armazenada no Painel de controle do Campaign, o que detectará automaticamente a chave a ser usada para descriptografar o arquivo.
+   >Observe que não é necessário especificar a chave privada a ser usada para descriptografar os dados. A chave privada é armazenada no Painel de controle do Campaign, que detecta automaticamente a chave a ser usada para descriptografar o arquivo.
 
    ![](assets/gpg_load.png)
 
@@ -97,25 +100,25 @@ As etapas para executar esse caso de uso são as seguintes:
 
    ![](assets/gpg_install.png)
 
-1. No Campaign Standard, crie um fluxo de trabalho para exportar os dados e criptografá-los usando a chave privada que foi instalada por meio do Painel de controle do Campaign. Para fazer isso, criaremos um workflow da seguinte maneira:
+1. No Campaign Standard, crie um workflow para exportar os dados e criptografá-los usando a chave privada que foi instalada por meio do Painel de controle do Campaign. Para fazer isso, criaremos um workflow da seguinte maneira:
 
    ![](assets/gpg-workflow-export.png)
 
    * Atividade **[!UICONTROL Query]**: neste exemplo, queremos executar um query para direcionar os dados do banco de dados que queremos exportar.
-   * **[!UICONTROL Extract file]** atividade: Criptografa e extrai os dados em um arquivo.
-   * **[!UICONTROL Transfer file]** atividade: Transfere o arquivo que contém os dados criptografados para um servidor SFTP.
+   * **[!UICONTROL Extract file]** atividade : Criptografa e extrai os dados em um arquivo.
+   * **[!UICONTROL Transfer file]** atividade : Transfere o arquivo contendo os dados criptografados para um servidor SFTP.
 
 1. Configure a atividade **[!UICONTROL Query]** para direcionar os dados desejados a partir do banco de dados. Para obter mais informações, consulte [esta seção](../../automating/using/query.md).
 
-1. Abra a atividade **[!UICONTROL Extract file]** e configure-a de acordo com suas necessidades (arquivo de saída, colunas, formato etc.). Os conceitos globais sobre como configurar a atividade estão disponíveis [nesta seção](../../automating/using/extract-file.md).
+1. Abra a atividade **[!UICONTROL Extract file]** e a configure de acordo com suas necessidades (arquivo de saída, colunas, formato etc.). Os conceitos globais sobre como configurar a atividade estão disponíveis [nesta seção](../../automating/using/extract-file.md).
 
-   Adicione um estágio de pré-processamento à atividade para criptografar os dados a serem extraídos. Para fazer isso, selecione a chave GPG de criptografia a ser usada para criptografar os dados.
+   Adicione um estágio de pré-processamento à atividade para criptografar os dados que serão extraídos. Para fazer isso, selecione a chave GPG de criptografia a ser usada para criptografar os dados.
 
    ![](assets/gpg-extract-stage.png)
 
    >[!NOTE]
    >
-   >O valor entre parênteses é o **comment** que você definiu ao gerar o par de chaves usando a ferramenta de criptografia GPG. Certifique-se de selecionar a chave correspondente correta; caso contrário, o recipient não conseguirá descriptografar o arquivo.
+   >O valor entre parênteses é o **comentário** que você definiu ao gerar o par de chaves usando a ferramenta de criptografia GPG. Certifique-se de selecionar a chave correspondente correta; caso contrário, o recipient não poderá descriptografar o arquivo.
 
 1. Abra a atividade **[!UICONTROL Transfer file]** e especifique o servidor SFTP para o qual deseja enviar o arquivo. Os conceitos globais sobre como configurar a atividade estão disponíveis [nesta seção](../../automating/using/transfer-file.md).
 
@@ -133,4 +136,4 @@ Este vídeo mostra como usar uma chave GPG para criptografar dados.
 
 >[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12)
 
-Vídeos de procedimentos de Campaign Standard adicionais estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
+Os vídeos de instruções adicionais do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
