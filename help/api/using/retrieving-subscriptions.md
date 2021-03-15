@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Recuperação de assinaturas
-description: Saiba como recuperar subscrições com APIs.
+description: Saiba como recuperar assinaturas com APIs.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '200'
 ht-degree: 2%
 
 ---
@@ -17,22 +20,22 @@ ht-degree: 2%
 
 # Recuperação de assinaturas {#retrieving-subscriptions}
 
-## Recuperando os perfis que se inscreveram em um serviço
+## Recuperação de perfis que assinaram um serviço
 
-Este é um procedimento de duas etapas.
+Este é um procedimento em duas etapas.
 
-1. Recupere o URL do subscrição para o serviço desejado.
-1. Execute uma solicitação de GET no URL do subscrição. Ele retorna a lista do subscrição para o serviço, com cada perfil associado.
+1. Recupere o URL de assinaturas do serviço desejado.
+1. Execute uma solicitação GET no URL de assinaturas. Retorna a lista de subscrições do serviço, com cada perfil associado.
 
 >[!CAUTION]
 >
->A REST API retorna a propriedade &quot;href&quot;, que contém o URL a ser usado. <b>Sempre use o URL contido na resposta para fazer a solicitação</b> de API subsequente.
+>A API REST retorna a propriedade &quot;href&quot;, que contém o URL a ser usado. <b>Sempre use o URL contido na resposta para fazer a solicitação</b> de API subsequente.
 
 <br/>
 
-***Solicitação de amostra***
+***Solicitação de exemplo***
 
-Execute uma solicitação de GET para recuperar o serviço.
+Execute uma solicitação GET para recuperar o serviço.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -42,7 +45,7 @@ Execute uma solicitação de GET para recuperar o serviço.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Ele retorna o URL do subscrição para o serviço.
+Retorna o URL de subscrições do serviço.
 
 ```
   {
@@ -56,7 +59,7 @@ Ele retorna o URL do subscrição para o serviço.
   },
 ```
 
-Execute uma solicitação de GET no URL do subscrição.
+Execute uma solicitação GET no URL de assinaturas.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -66,7 +69,7 @@ Execute uma solicitação de GET no URL do subscrição.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-A lista das subscrições para o serviço é exibida, com cada perfil associado.
+A lista de assinaturas do serviço é exibida, com cada perfil associado.
 
 ```
   {
@@ -83,18 +86,18 @@ A lista das subscrições para o serviço é exibida, com cada perfil associado.
   }
 ```
 
-## Recuperando os serviços aos quais um perfil se inscreveu
+## Recuperação dos serviços aos quais um perfil se inscreveu
 
-Este é um procedimento de duas etapas.
+Este é um procedimento em duas etapas.
 
-1. Recupere o URL do subscrição para um determinado perfil.
-1. Execute uma solicitação de GET no URL. Ele retorna a lista do subscrição para o perfil, com cada serviço associado.
+1. Recupere o URL de assinaturas de um determinado perfil.
+1. Execute uma solicitação GET no URL. Retorna a lista de assinaturas do perfil, com cada serviço associado.
 
 <br/>
 
-***Solicitação de amostra***
+***Solicitação de exemplo***
 
-Execute uma solicitação de GET para recuperar o perfil.
+Execute uma solicitação do GET para recuperar o perfil.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -104,7 +107,7 @@ Execute uma solicitação de GET para recuperar o perfil.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Ele retorna o URL do subscrição para o perfil.
+Retorna o URL de assinaturas do perfil.
 
 ```
   {
@@ -118,7 +121,7 @@ Ele retorna o URL do subscrição para o perfil.
   }
 ```
 
-Execute uma solicitação de GET no URL do subscrição.
+Execute uma solicitação GET no URL de assinaturas.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -128,7 +131,7 @@ Execute uma solicitação de GET no URL do subscrição.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Ele retorna a lista de serviços aos quais o perfil se inscreveu.
+Retorna a lista de serviços aos quais o perfil se inscreveu.
 
 ```
   {
