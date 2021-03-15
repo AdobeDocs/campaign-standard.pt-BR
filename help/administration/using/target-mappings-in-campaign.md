@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Mapeamentos do Target no Campaign
-description: Target mapping são objetos técnicos usados pela Campanha para entregar mensagens. Elas contêm todas as configurações técnicas necessárias para enviar delivery.
+description: Os target mappings são objetos técnicos usados pelo Campaign para entregar mensagens. Eles contêm todas as configurações técnicas necessárias para enviar deliveries.
 audience: administration
 content-type: reference
 topic-tags: application-settings
+feature: Configurações de instância
+role: Administrador
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '105'
 ht-degree: 16%
 
 ---
@@ -17,8 +20,8 @@ ht-degree: 16%
 
 # Mapeamentos do Target no Campaign{#target-mappings-in-campaign}
 
-Target mapping são objetos técnicos usados pela Campanha para entregar mensagens. Elas contêm todas as configurações técnicas necessárias para enviar delivery (endereços, números de telefone, indicadores de aceitação, identificadores adicionais...).
+Os target mappings são objetos técnicos usados pelo Campaign para entregar mensagens. Eles contêm todas as configurações técnicas necessárias para enviar deliveries (endereços, números de telefone, indicadores de aceitação, identificadores adicionais..).
 
-Os administradores podem acessar target mapping no menu **[!UICONTROL Administration > Application settings > Target mappings]**.
+Os administradores podem acessar os target mappings no menu **[!UICONTROL Administration > Application settings > Target mappings]**.
 
-A criação ou modificação de target mapping é possível para cobrir necessidades específicas. Em qualquer caso, seu targeting dimension deve sempre corresponder a perfis ( **[!UICONTROL nms:recipient]** tabela). Para saber mais sobre targeting dimensions, consulte [esta página](../../automating/using/query.md#targeting-dimensions-and-resources).
+A criação ou modificação do target mapping é possível para cobrir necessidades específicas. Em qualquer caso, seu targeting dimension deve sempre corresponder aos perfis (tabela **[!UICONTROL nms:recipient]** ). Para saber mais sobre targeting dimensions, consulte [esta página](../../automating/using/query.md#targeting-dimensions-and-resources).
