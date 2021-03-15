@@ -6,10 +6,13 @@ description: Saiba mais sobre as diretrizes de configuração do Campaign Standa
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
+feature: Gerenciamento de acesso
+role: Administrador
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '121'
 ht-degree: 11%
 
 ---
@@ -19,11 +22,11 @@ ht-degree: 11%
 
 ## Navegadores compatíveis{#compatible-browsers}
 
-A Adobe Campaign Standard é compatível com a maioria dos navegadores para computadores, assim como com os principais sistemas operacionais para tablets.
+O Adobe Campaign Standard é compatível com a maioria dos navegadores para computadores, assim como com os principais sistemas operacionais para tablets.
 
 O Adobe Campaign Standard suporta apenas o modo paisagem como modo de exibição em tablets.
 
-Esta é a lista dos navegadores compatíveis com o Adobe Campaign Standard:
+Esta é a lista de navegadores compatíveis com o Adobe Campaign Standard:
 
 **Computador:**
 
@@ -43,11 +46,11 @@ Estes são os diferentes pontos de extremidade usados no Campaign Standard.
 
 | Contexto | URL |
 |--- |--- |
-| Instâncias de campanha | `https://*.experiencecloud.adobe.com` (ID do locatário * + domínio do cliente)<br>`https://*.campaign.adobe.com` (locatário da instância de Campanha) |
+| Instâncias da campanha | `https://*.experiencecloud.adobe.com` (ID do locatário * + domínio do cliente)<br>`https://*.campaign.adobe.com`  (locatário da instância do Campaign) |
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
 | Experience Cloud | `https://experiencecloud.adobe.com` |
 | Rastreamento | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
 | Integração de ativos | `https://*.marketing-assets.adobe.com` |
-| Serviços internos de Adobe | `https://*.adobe.io` |
+| Serviços de Adobe interno | `https://*.adobe.io` |
 | Pesquisas | `https://adobe.allegiancetech.com` |
 | URL de marca padrão (antes da configuração do cliente) | `https://*.adobe-campaign.com` |
