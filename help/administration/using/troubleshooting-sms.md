@@ -6,10 +6,13 @@ description: Solução de problemas de SMS
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
+feature: Configurações de instância
+role: Administrador
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 80e4f752a1b9b6c8b0125a502c05c19796e98104
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '2696'
+source-wordcount: '2700'
 ht-degree: 90%
 
 ---
@@ -87,7 +90,7 @@ O Adobe Campaign dá suporte à manipulação de vários códigos curtos na mesm
 
 Uma conexão será considerada instável se qualquer uma das seguintes situações ocorrer:
 
-* Reiniciar o MTA corrigirá os problemas temporariamente. Isso significa que uma conexão instável aciona o controle MTA no Adobe Campaign Standard, reiniciando o MTA para limpar o controle. Acontecerá novamente até que a causa raiz seja encontrada.
+* Reiniciar o MTA corrigirá os problemas temporariamente. Isso significa que uma conexão instável aciona o controle de MTA no Adobe Campaign Standard, reiniciando o MTA limpa o controle. Isso acontecerá novamente até que a causa raiz seja encontrada.
 
 * O provedor envia `UNBIND PDU`s.
 
@@ -147,7 +150,7 @@ Diminuição na quantidade de duplicatas quando há uma nova tentativa:
 
 * Verifique se `DELIVER_SM PDU` vem do provedor e se está corretamente formado.
 
-* Verifique se o Adobe Campaign responde com um `DELIVER_SM_RESP PDU` bem-sucedido em tempo hábil. No Adobe Campaign Standard, isso garante que toda a lógica de processamento tenha sido aplicada, se esse não for o caso, é garantido que haja uma mensagem de erro nos logs explicando por que o processamento falhou.
+* Verifique se o Adobe Campaign responde com um `DELIVER_SM_RESP PDU` bem-sucedido em tempo hábil. No Adobe Campaign Standard, isso garante que toda a lógica de processamento tenha sido aplicada, se esse não for o caso, é garantido que haja uma mensagem de erro nos logs informando por que o processamento falhou.
 
 Se `DELIVER_SM PDU` não for confirmado com êxito, verifique o seguinte:
 
@@ -155,9 +158,9 @@ Se `DELIVER_SM PDU` não for confirmado com êxito, verifique o seguinte:
 
 * Verifique se os erros foram devidamente provisionados na tabela `broadLogMsg`.
 
-* Para Adobe Campaign Standard, verifique se as tabelas `broadLog` e `broadLogExec` estão sincronizadas corretamente.
+* Para o Adobe Campaign Standard, verifique se as tabelas `broadLog` e `broadLogExec` estão sincronizadas corretamente.
 
-Se você corrigiu tudo, mas alguns SR inválidos ainda estão nos buffers do provedor, é possível ignorá-los usando a opção **ID inválida reconhecendo count**. Isso deverá ser usado com cuidado e redefinido como 0 o mais rápido possível depois que os buffers estiverem limpos.
+Se você corrigiu tudo, menos alguns SR inválidos, ainda estão nos buffers do provedor, é possível ignorá-los usando a opção **ID confirm count** inválida. Isso deverá ser usado com cuidado e redefinido como 0 o mais rápido possível depois que os buffers estiverem limpos.
 
 ## Problema ao processar o MO (e lista de bloqueio/resposta automática){#issue-process-MO}
 
@@ -167,9 +170,9 @@ Se você corrigiu tudo, mas alguns SR inválidos ainda estão nos buffers do pro
 
 * Se o MO (`DELIVER_SM PDU`) não aparece nos rastreamentos, o problema se refere ao provedor. Ele terá que solucionar problemas em sua plataforma.
 
-* Se `DELIVER_SM PDU` for exibido, verifique se ele foi confirmado pelo Adobe Campaign com um `DELIVER_SM_RESP PDU` bem-sucedido (código 0). Esse RESP garante que toda a lógica de processamento foi aplicada pelo Adobe Campaign (resposta automática e lista de permissão/bloqueio). Se esse não for o caso, procure uma mensagem de erro nos registros MTA.
+* Se `DELIVER_SM PDU` for exibido, verifique se ele foi confirmado pelo Adobe Campaign com um `DELIVER_SM_RESP PDU` bem-sucedido (código 0). Esse RESP garante que toda a lógica de processamento foi aplicada pelo Adobe Campaign (resposta automática e lista de permissão/bloqueio). Se não for o caso, procure por uma mensagem de erro nos logs MTA.
 
-* Se as respostas automáticas estiverem ativadas, verifique se `SUBMIT_SM` foi enviado ao provedor. Caso contrário, é garantido encontrar uma mensagem de erro nos registros MTA.
+* Se as respostas automáticas estiverem ativadas, verifique se `SUBMIT_SM` foi enviado ao provedor. Caso contrário, é garantido encontrar uma mensagem de erro nos logs MTA.
 
 * Se o `SUBMIT_SM MT PDU` que contém a resposta for encontrado nos rastreamentos, mas o SMS não chegar ao telefone celular, você terá que entrar em contato com o provedor para obter assistência na solução de problemas.
 
@@ -247,7 +250,7 @@ Nem sempre é necessária uma captura de rede. Geralmente, as mensagens SMPP det
 
 * Há suspeita de que o tráfego esteja misturado entre conexões diferentes.
 
-Em todas as outras situações, tente analisar as mensagens SMPP detalhadas primeiro e solicitar uma captura de rede somente se estiver claro que as informações estão ausentes nos registros detalhados.
+Em todas as outras situações, tente analisar primeiro mensagens SMPP completas e solicitar uma captura de rede somente se estiver claro que as informações estão ausentes nos logs detalhados.
 
 Em alguns casos, a captura do tráfego de rede não é necessária. As situações mais comuns são:
 
@@ -269,19 +272,19 @@ O novo conector dá suporte a logs estendidos por meio de rastreamentos: SMPP. O
 
 **Ativação por conta externa (método preferencial)**
 
-1. Na Conta externa ****, selecione **Ativar rastreamentos SMPP detalhados no arquivo de log**.
-1. Salvar, o conector se reconectará com rastreamentos ativados.
+1. Na **External account**, selecione **Enable verbose SMPP traces in the log file**.
+1. Salve, o conector se reconectará com os rastreamentos ativados.
 
-**Ativando dinamicamente**
+**Ativação em tempo real**
 
-O Adobe Campaign Standard MTA tem uma interface de controle HTTP que permite alterar o filtro de rastreamento dinamicamente.
+O MTA do Adobe Campaign Standard tem uma interface de controle HTTP que permite alterar o filtro de rastreamento em tempo real.
 Uma chamada de POST pode ativar/desativar rastreamentos. Exemplo de URL para ativar rastreamentos SMPP:
 
 ```
 POST http://host:7780/mta/trace?filter=SMPP
 ```
 
-Para desativar os rastreamentos, defina um filtro vazio:
+Para desativar rastreamentos, defina um filtro vazio:
 
 ```
 POST http://host:7780/mta/trace?filter=
