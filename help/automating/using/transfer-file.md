@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1099'
 ht-degree: 92%
 
 ---
@@ -168,7 +171,7 @@ Toda vez que a atividade é executada, a pasta é verificada da seguinte maneira
 
 A atividade **[!UICONTROL Transfer file]** gera variáveis de evento como saída, que podem ser aproveitadas em outras atividades, por exemplo, para verificar o número de arquivos baixados usando uma atividade [Test](../../automating/using/test.md).
 
-Observe que as variáveis de evento também podem ser passadas para outro fluxo de trabalho usando um sinal externo (consulte [Personalizar um fluxo de trabalho com parâmetros externos](../../automating/using/customizing-workflow-external-parameters.md)).
+Observe que as variáveis de evento também podem ser passadas para outro workflow usando um sinal externo (consulte [Personalização de um workflow com parâmetros externos](../../automating/using/customizing-workflow-external-parameters.md)).
 
 As variáveis de saída disponíveis são:
 
