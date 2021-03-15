@@ -2,19 +2,22 @@
 solution: Campaign Standard
 product: campaign
 title: DataModel
-description: Saiba mais sobre o modelo de dados
+description: Saiba mais sobre o datamodel
 audience: developing
 content-type: reference
+feature: Modelo de dados
+role: Desenvolvedor
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '81'
 ht-degree: 12%
 
 ---
 
 
-# Evento de subscrição (nms:rtEvent)
+# Evento de assinatura (nms:rtEvent)
 
 ## Descrição do objeto
 
@@ -23,17 +26,17 @@ ht-degree: 12%
         <th>Nome</th>
         <th>Rótulo</th>
         <th>Tipo (comprimento)</th>
-        <th>valores de lista discriminada</th>
+        <th>Valores de enumeração</th>
     </tr>
     <tr>
         <td>PKey</td>
-        <td>ID do recurso principal</td>
+        <td>ID de recurso principal</td>
         <td>string </td>
         <td> </td>
     </tr>
     <tr>
         <td>ctx</td>
-        <td>contexto do evento</td>
+        <td>Contexto do evento</td>
         <td>item </td>
         <td> </td>
     </tr>
@@ -45,20 +48,20 @@ ht-degree: 12%
     </tr>
     <tr>
         <td>emailFormat</td>
-        <td>Formato do email</td>
-        <td>lista discriminada (byte) </td>
+        <td>Formato de email</td>
+        <td>enumeração (byte) </td>
         <td>
             <ul>
             <li>Texto - texto - 1</li>
             <li>HTML - html - 2</li>
-            <li>VALOR INVÁLIDO - __Valor_inválido__ - __Valor_inválido__</li>
+            <li>VALOR INVÁLIDO - __Valor_Inválido__ - __Valor_Inválido__</li>
             <li>Desconhecido - desconhecido - 0</li>
             </ul>
         </td>
     </tr>
     <tr>
         <td>eventHistoId</td>
-        <td>ID do evento arquivada</td>
+        <td>ID de evento arquivada</td>
         <td>integer </td>
         <td> </td>
     </tr>
@@ -100,7 +103,7 @@ Por status ou tipo (byStatusOrType)
         </tr>
         <tr>
         <td>status</td>
-        <td>lista discriminada</td>
+        <td>enumeração</td>
         </tr>
         <tr>
         <td>type</td>
