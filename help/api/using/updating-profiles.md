@@ -6,32 +6,35 @@ description: Saiba mais sobre como atualizar perfis com APIs.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 4%
+source-wordcount: '100'
+ht-degree: 5%
 
 ---
 
 
 # Atualização de perfis {#updating-profiles}
 
-A atualização de perfis é realizada com uma solicitação **PATCH**.
+A atualização de perfis é executada com uma solicitação **PATCH**.
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
 1. A primeira etapa é **recuperar o perfil**.
 
-1. Em uma segunda solicitação, realizaremos uma **solicitação de PATCH** no perfil com as informações completas na carga.
+1. Em uma segunda solicitação, executaremos uma **PATCH request** no perfil com as informações concluídas no payload.
 
-1. Para verificar se a solicitação de PATCH atualizou o perfil, é possível executar uma solicitação de GET final.
+1. Para verificar se a solicitação do PATCH atualizou o perfil, podemos executar uma solicitação final do GET.
 
 <br/>
 
-***Solicitação de amostra***
+***Solicitação de exemplo***
 
-Amostra de solicitação de GET para recuperar um perfil.
+Solicitação de exemplo do GET para recuperar um perfil.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>\
@@ -57,7 +60,7 @@ Resposta à solicitação.
 }
 ```
 
-PATCH para atualizar o atributo &quot;phone&quot;.
+Solicitação de PATCH para atualizar o atributo &quot;phone&quot;.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -68,7 +71,7 @@ PATCH para atualizar o atributo &quot;phone&quot;.
 -d '{"phone":"3301020304"}'
 ```
 
-Ele retorna a PKEY e o URL para recuperar o perfil atualizado.
+Retorna a PKEY e o URL para recuperar o perfil atualizado.
 
 ```
 {
