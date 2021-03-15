@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Gerenciamento de auto-exclusão do CCPA
-description: Saiba como gerenciar a recusa de CCPA com APIs
+description: Saiba como gerenciar a recusa do CCPA com APIs
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '152'
 ht-degree: 4%
 
 ---
@@ -17,24 +20,24 @@ ht-degree: 4%
 
 # Gerenciamento de auto-exclusão do CCPA {#managing-ccpa-optout}
 
-Um status de recusa CCPA do perfil pode ser monitorado e gerenciado usando o atributo do perfil **ccpaOptOut** e os valores &quot;true&quot; ou &quot;false&quot;:
+O status de recusa da CCPA de um perfil pode ser monitorado e gerenciado usando o atributo de perfil **ccpaOptOut** e os valores &quot;true&quot; ou &quot;false&quot;:
 
 `"ccpaOptOut": <value>`
 
-* **true**: proíbe a venda de informações pessoais.
+* **true**: Proíbe a venda de informações pessoais.
 * **false**: autoriza a venda de informações pessoais.
 
 >[!CAUTION]
 >
->O atributo &quot;CCPA Opt-Out&quot; só está disponível a partir de 19.4. Para ambientes 19.3, é necessário estender o recurso Perfis e adicionar um campo booleano. Esse campo será adicionado à API com o rótulo escolhido. Sugerimos que você use &quot;Recusar para CCPA&quot;.
+>O atributo &quot;Não participação na CCPA&quot; só está disponível a partir da versão 19.4. Para ambientes 19.3, é necessário estender o recurso Perfis e adicionar um campo booleano. Esse campo será adicionado à API com o rótulo escolhido. Sugerimos que você use a opção &quot;Não participação na CCPA&quot;.
 >
->Para obter mais informações, consulte a [documentação de solicitações de gerenciamento de privacidade](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
+>Para obter mais informações, consulte a [documentação sobre gerenciamento de solicitações de privacidade](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 <br/>
 
-***Pedidos de amostra***
+***Solicitações de exemplo***
 
-* Amostra de solicitação de GET para recuperar um status de recusa do CCPA do perfil.
+* Exemplo de solicitação do GET para recuperar o status de recusa do CCPA do perfil.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -44,7 +47,7 @@ Um status de recusa CCPA do perfil pode ser monitorado e gerenciado usando o atr
    -H 'Content-Type: application/json;charset=utf-8'
    ```
 
-   Resposta à solicitação de GET.
+   Resposta à solicitação do GET.
 
    ```
    {
@@ -56,7 +59,7 @@ Um status de recusa CCPA do perfil pode ser monitorado e gerenciado usando o atr
    }
    ```
 
-* Solicitação de POST de amostra para marcar um perfil para recusa de CCPA.
+* Exemplo de solicitação do POST para marcar um perfil para não participação no CCPA.
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
@@ -73,7 +76,7 @@ Um status de recusa CCPA do perfil pode ser monitorado e gerenciado usando o atr
    -d }'
    ```
 
-   Resposta à solicitação de GET.
+   Resposta à solicitação do GET.
 
    ```
    {
@@ -86,7 +89,7 @@ Um status de recusa CCPA do perfil pode ser monitorado e gerenciado usando o atr
    }
    ```
 
-* Amostra de solicitação de PATCH para atualizar um perfil para cancelamento de CCPA.
+* Exemplo de solicitação do PATCH para atualizar um perfil para não participação no CCPA.
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -100,7 +103,7 @@ Um status de recusa CCPA do perfil pode ser monitorado e gerenciado usando o atr
    -d }'
    ```
 
-   Resposta à solicitação de GET.
+   Resposta à solicitação do GET.
 
    ```
    {
