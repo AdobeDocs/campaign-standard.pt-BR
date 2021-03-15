@@ -6,10 +6,13 @@ description: Saiba mais sobre como gerenciar falhas de delivery com o Campaign.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
+feature: Avaliação do delivery
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1260'
 ht-degree: 76%
 
 ---
@@ -63,20 +66,20 @@ Os possíveis motivos para uma falha de delivery são:
 | **[!UICONTROL Mailbox full]** | Suave | A caixa de entrada deste usuário está cheia e não pode receber mais mensagens. Esse endereço pode ser removido da lista da quarentena para outra tentativa. Ele será removido automaticamente após 30 dias. Para que o endereço seja removido automaticamente da lista de endereços em quarentena, o workflow técnico de **[!UICONTROL Database cleanup]** deve ser iniciado. |
 | **[!UICONTROL Refused]** | Suave/Grave | O endereço foi colocado em quarentena devido a um feedback de segurança como um relatório de spam. De acordo com o erro retornado pelo provedor, o endereço será enviado diretamente para a quarentena, ou o delivery será tentado novamente até que o Campaign receba um erro que justifique o status Quarantine ou até que o número de erros atinja 5. |
 | **[!UICONTROL Duplicate]** | Ignorado | O endereço já foi detectado na segmentação. |
-| **[!UICONTROL Not defined]** | Suave | o endereço está em qualificação porque os erros ainda não foram aumentados. Esse tipo de erro ocorre quando uma nova mensagem de erro é enviada pelo servidor: pode ser um erro isolado, mas se ocorrer novamente, o contador de erros aumentará, o que alertará as equipes técnicas. |
-| **[!UICONTROL Error ignored]** | Ignorado | O endereço está em lista de permissões e um e-mail será enviado para ele em qualquer caso. |
+| **[!UICONTROL Not defined]** | Suave | o endereço está em qualificação porque os erros ainda não foram incrementados. Esse tipo de erro ocorre quando uma nova mensagem de erro é enviada pelo servidor: pode ser um erro isolado, mas se ocorrer novamente, o contador de erros aumentará, o que alertará as equipes técnicas. |
+| **[!UICONTROL Error ignored]** | Ignorado | O endereço está em lista de permissões e um email será enviado para ele em qualquer caso. |
 | **[!UICONTROL Address on denylist]** | Grave | O endereço foi adicionado à lista de bloqueios no momento do envio. |
-| **[!UICONTROL Account disabled]** | Suave/Grave | Quando o Provedor de Acesso à Internet (IAP) detecta um longo período de inatividade, ele pode fechar a conta do usuário: delivery para o endereço do usuário serão impossíveis. O tipo Temporário ou Permanente depende do tipo de erro recebido: se a conta estiver temporariamente desativada devido a seis meses de inatividade e ainda puder ser ativada, o status **[!UICONTROL Erroneous]** será atribuído, e o delivery será repetido. Se o erro indicar que a conta está desativada permanentemente, ela será enviada diretamente para Quarentena. |
-| **[!UICONTROL Not connected]** | Ignorado | O telefone móvel do perfil é desligado ou não está conectado à rede quando a mensagem é enviada. |
+| **[!UICONTROL Account disabled]** | Suave/Grave | Quando o Provedor de Acesso à Internet (IAP) detecta um longo período de inatividade, ele pode fechar a conta do usuário: os deliveries ao endereço do usuário serão impossíveis. O tipo Temporário ou Permanente depende do tipo de erro recebido: se a conta estiver temporariamente desativada devido a seis meses de inatividade e ainda puder ser ativada, o status **[!UICONTROL Erroneous]** será atribuído, e o delivery será repetido. Se o erro indicar que a conta está desativada permanentemente, ela será enviada diretamente para Quarentena. |
+| **[!UICONTROL Not connected]** | Ignorado | O telefone celular do perfil está desligado ou não está conectado à rede quando a mensagem é enviada. |
 | **[!UICONTROL Invalid domain]** | Suave | O domínio do endereço de email está incorreto ou não existe mais. Este perfil será alvo novamente até que a contagem de erros chegue a 5. Após isso, o registro será definido como Status de Quarentena e não haverá nenhuma tentativa nova. |
 | **[!UICONTROL Text too long]** | Ignorado | O número de caracteres na mensagem SMS excede o limite. Para obter mais informações, consulte [Codificação, comprimento e transliteração de SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration). |
-| **[!UICONTROL Character not supported by encoding]** | Ignorado | A mensagem SMS contém um ou mais caracteres que não são suportados pela codificação. Para obter mais informações, consulte [Tabela de caracteres - GSM padrão](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard). |
+| **[!UICONTROL Character not supported by encoding]** | Ignorado | A mensagem SMS contém um ou mais caracteres que não são compatíveis pela codificação. Para obter mais informações, consulte [Tabela de caracteres - GSM padrão](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard). |
 
 ## Tentativas após uma falha temporária de delivery {#retries-after-a-delivery-temporary-failure}
 
 Se uma mensagem falhar devido a um erro temporário do tipo **Ignorado**, as tentativas serão executadas durante a duração do delivery. Para obter mais informações sobre os tipos de erros, consulte [Tipos e motivos de falha de delivery](#delivery-failure-types-and-reasons).
 
-O número de tentativas (quantas tentativas devem ser executadas no dia seguinte ao início do envio) e o atraso mínimo entre as tentativas agora são<!--managed by the Adobe Campaign Enhanced MTA,--> com base no desempenho histórico e atual de um IP em determinado domínio. As configurações de **Tentativas** no Campaign são ignoradas.
+O número de tentativas (quantas tentativas devem ser executadas no dia seguinte ao início do envio) e o atraso mínimo entre as tentativas agora são<!--managed by the Adobe Campaign Enhanced MTA,--> com base no desempenho histórico e atual de um IP em um determinado domínio. As configurações de **Tentativas** no Campaign são ignoradas.
 
 <!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
@@ -86,13 +89,13 @@ Para modificar a duração de um delivery, vá para os parâmetros avançados do
 >
 >**O parâmetro **[!UICONTROL Delivery duration]**nos deliveries do Campaign agora apenas será usado se definido para 3,5 dias ou menos.** Se você definir um valor superior a 3,5 dias, ele não será considerado.
 
-Por exemplo, se você deseja que o tentativas de um delivery pare após um dia, é possível definir a duração do delivery como **1d**, e as mensagens na fila de tentativas serão removidas após um dia.
+Por exemplo, se você quiser que as tentativas de um delivery parem depois de um dia, poderá definir a duração do delivery como **1d**, e as mensagens na fila de tentativas serão removidas após um dia.
 
 <!--For example, if you want retries for a delivery to stop after one day, you can set the delivery duration to **1d**, and the Enhanced MTA will honor that setting by removing messages in the retry queue after one day.-->
 
 >[!NOTE]
 >
->Quando uma mensagem estiver na fila de tentativas por um máximo de 3,5 dias e não for entregue, o tempo limite expirará e seu status será atualizado<!--from **[!UICONTROL Sent]**--> para **[!UICONTROL Failed]** nos logs do delivery [a3/>.](../../sending/using/monitoring-a-delivery.md#delivery-logs)
+>Quando uma mensagem estiver na fila de tentativas por um máximo de 3,5 dias e não for entregue, o tempo limite expirará, e seu status será atualizado<!--from **[!UICONTROL Sent]**--> para **[!UICONTROL Failed]** nos [logs do delivery](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
 <!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
@@ -105,7 +108,7 @@ Um delivery pode falhar imediatamente (erro síncrono), ou posteriormente, após
 
 ## Qualificação de email de devolução {#bounce-mail-qualification}
 
-Para mensagens de erro de falha síncrona de delivery, o Adobe Campaign Enhanced MTA (Message Transfer Agent) determina o tipo de rejeição e a qualificação e envia essas informações para a Campanha.
+Para mensagens de erro de falha síncrona de delivery, o MTA aprimorado do Adobe Campaign (Message Transfer Agent) determina o tipo de rejeição e a qualificação e envia essas informações para o Campaign.
 
 >[!NOTE]
 >
@@ -123,7 +126,7 @@ To list the various bounces and their associated error types et reasons, click t
 
 ![](assets/qualification.png)-->
 
-## Otimização da entrega por email com o mecanismo de aceitação de duplo {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
+## Otimização da capacidade de fornecimento de email com o mecanismo de participação dupla {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
 
 O mecanismo de participação dupla é uma prática recomendada para enviar emails. Ele protege a plataforma contra endereços de email incorretos ou inválidos e spambots, além de evitar possíveis reclamações de spam.
 
