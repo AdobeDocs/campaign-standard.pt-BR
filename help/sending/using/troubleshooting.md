@@ -1,16 +1,19 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Solução de problemas de entrega no Adobe Campaign Standard
-description: Saiba o que fazer ao enfrentar problemas de entrega com a Adobe Campaign Standard.
+title: Solução de problemas de capacidade de entrega no Adobe Campaign Standard
+description: Saiba o que fazer quando enfrentar problemas de capacidade de entrega com o Adobe Campaign Standard.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
+feature: Avaliação do delivery
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '463'
 ht-degree: 64%
 
 ---
@@ -33,7 +36,7 @@ Se o problema persistir, entre em contato com os serviços comerciais ou de entr
 
 ## Lista de bloqueios × quarentena {#denylist-versus-quarantine}
 
-* **Qual é a diferença entre um endereço de email em lista de bloqueios e um endereço de email em quarentena?**
+* **Qual é a diferença entre um endereço de email em lista de bloqueios e um email em quarentena?**
 
    * O status **[!UICONTROL On denylist]** é resultado de um ciclo de feedback (quando uma pessoa reporta uma mensagem como spam).
 
@@ -42,25 +45,25 @@ Se o problema persistir, entre em contato com os serviços comerciais ou de entr
 
 * **O que significam os diferentes motivos de erro de quarentena?**
 
-   Aqui estão 10 possíveis motivos: não definido, usuário desconhecido, domínio inválido, endereço na lista de bloqueios, recusado, erro ignorado, inacessível, conta desativada, caixa de correio cheia, não conectado.
+   Aqui estão 10 possíveis motivos: não definido, usuário desconhecido, domínio inválido, endereço em lista de bloqueios, recusado, erro ignorado, inacessível, conta desativada, caixa de correio cheia, não conectado.
 
    Para obter mais informações, consulte [Entendendo o gerenciamento da quarentena](../../sending/using/understanding-quarantine-management.md).
 
 ## Remoção da lista de bloqueios {#removing-from-denylist}
 
-* **Um dos meus recipient foi adicionado à lista de bloqueios por engano. Como removê-los da lista de bloqueios para que eu possa start de enviar mensagens novamente?**
+* **Um dos meus recipients foi adicionado à lista de bloqueios por engano. Como faço para removê-los da  de lista de bloqueios para que eu possa iniciar o envio de mensagens para eles novamente?**
 
    * Vá para **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
    * Nos detalhes do registro correspondente, defina o valor do campo **[!UICONTROL Status]** como **[!UICONTROL Valid]**.
    * Salve o registro.
 
-* **Como posso descobrir se um dos meus IPs está na lista de bloqueios? Como remover meus IPs de uma lista de bloqueios?**
+* **Como é possível descobrir se um dos IPs está em lista de bloqueios? Como remover meus IPs de uma lista de bloqueios?**
 
-   Para verificar se o endereço IP está na lista de bloqueios, use vários sites para verificá-lo, como:
+   Para verificar se o endereço IP está em lista de bloqueios, você pode usar vários sites para verificá-lo, como:
    * [MX Toolbox](https://mxtoolbox.com/)
    * [Qual é meu endereço IP](https://whatismyipaddress.com)
 
-   Geralmente, o resultado da verificação de endereço IP retornará uma lista que contém detalhes da lista de bloqueios e também o nome do site que bloqueou o endereço IP.
+   Geralmente, o resultado da verificação do endereço IP retornará uma lista que contém os detalhes da lista de bloqueios e também o nome do site que bloqueou o endereço IP.
 
    Ao clicar no link correspondente, é possível acessar os detalhes do site.
 
