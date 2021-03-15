@@ -2,19 +2,22 @@
 solution: Campaign Standard
 product: campaign
 title: DataModel
-description: Saiba mais sobre o modelo de dados
+description: Saiba mais sobre o datamodel
 audience: developing
 content-type: reference
+feature: Modelo de dados
+role: Desenvolvedor
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '226'
 ht-degree: 13%
 
 ---
 
 
-# Programa (nms:programa)
+# Programa (nms:program)
 
 ## Descrição do objeto
 
@@ -23,11 +26,11 @@ ht-degree: 13%
                   <th>Nome</th>
                   <th>Rótulo</th>
                   <th>Tipo (comprimento)</th>
-                  <th>valores de lista discriminada</th>
+                  <th>Valores de enumeração</th>
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>ID do recurso principal</td>
+                  <td>ID de recurso principal</td>
                   <td>string </td>
                   <td> </td>
                </tr>
@@ -38,15 +41,15 @@ ht-degree: 13%
                   <td> </td>
                </tr>
                <tr>
-                  <td>buildIn</td>
-                  <td>Objeto de aplicativo incorporado</td>
+                  <td>build</td>
+                  <td>Objeto de aplicativo integrado</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>criado</td>
                   <td>Criado</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -63,8 +66,8 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>end</td>
-                  <td>Data de término</td>
-                  <td>date </td>
+                  <td>Data final</td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -75,7 +78,7 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>É um recurso externo</td>
+                  <td>É recurso externo</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -94,13 +97,13 @@ ht-degree: 13%
                <tr>
                   <td>lastModified</td>
                   <td>Última modificação</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>logicalStatus</td>
                   <td>Status de execução</td>
-                  <td>lista discriminada (string) (255)</td>
+                  <td>enumeration (string) (255)</td>
                   <td>
                      <ul>
                         <li>Em andamento - iniciado - iniciado</li>
@@ -108,7 +111,7 @@ ht-degree: 13%
                         <li>Concluído - concluído - concluído</li>
                         <li>Aviso - aviso - aviso</li>
                         <li>Errado - erro - erro</li>
-                        <li>VALOR INVÁLIDO - __Valor_inválido__ - __Valor_inválido__</li>
+                        <li>VALOR INVÁLIDO - __Valor_Inválido__ - __Valor_Inválido__</li>
                      </ul>
                   </td>
                </tr>
@@ -144,25 +147,25 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>start</td>
-                  <td>data do start</td>
-                  <td>date </td>
+                  <td>Data de início</td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>status</td>
                   <td>Status</td>
-                  <td>lista discriminada (byte) </td>
+                  <td>enumeração (byte) </td>
                   <td>
                      <ul>
                         <li>Iniciado - iniciado - 1</li>
                         <li>Edição - edição - 0</li>
                         <li>Concluído - concluído - 2</li>
-                        <li>VALOR INVÁLIDO - __Valor_inválido__ - __Valor_inválido__</li>
+                        <li>VALOR INVÁLIDO - __Valor_Inválido__ - __Valor_Inválido__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>template (programa)</td>
+                  <td>modelo (programa)</td>
                   <td>Modelo de programa</td>
                   <td>link </td>
                   <td> </td>
@@ -191,12 +194,12 @@ Por status lógico (byLogicalStatus)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>estado</td>
-    <td>lista discriminada</td>
+    <td>state</td>
+    <td>enumeração</td>
     </tr>
 </table>
 
-Por nome ou rótulo (por texto)
+Por nome ou rótulo (byText)
 
 <table>
     <tr>
@@ -209,7 +212,7 @@ Por nome ou rótulo (por texto)
     </tr>
 </table>
 
-Por período (por período)
+Por período (porPeríodo)
 
 <table>
     <tr>
@@ -218,7 +221,7 @@ Por período (por período)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
     <tr>
     <td>timePeriod</td>
@@ -226,7 +229,7 @@ Por período (por período)
     </tr>
 </table>
 
-Incluir delivery contínuos de uma lista heterogênea (comContínuo)
+Incluir deliveries contínuos de uma lista heterogênea (com Contínuo)
 
 <table>
     <tr>
@@ -252,7 +255,7 @@ Incluir subprogramas (comPai)
         </tr>
     </table>
 
-Somente os pais elegíveis (pais elegíveis)
+Apenas os pais elegíveis (eligibleParents)
 
 <table>
     <tr>
@@ -265,7 +268,7 @@ Somente os pais elegíveis (pais elegíveis)
     </tr>
 </table>
 
-Planejado para o período especificado (pelo Planning)
+Planejado para o período especificado (byPlanning)
 
 <table>
     <tr>
@@ -274,15 +277,15 @@ Planejado para o período especificado (pelo Planning)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
 </table>
 
-Presente durante determinado período (porCalendar)
+Apresentar durante um determinado período (porCalendário)
 
 <table>
     <tr>
@@ -291,10 +294,10 @@ Presente durante determinado período (porCalendar)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
 </table>
