@@ -6,11 +6,15 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: '"Quando seu conteúdo estiver pronto, saiba como definir cuidadosamente quem receberá sua mensagem."'
+feature: Avaliação do delivery
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 77%
+source-wordcount: '520'
+ht-degree: 74%
 
 ---
 
@@ -29,7 +33,7 @@ Para que seu delivery seja bem-sucedido, o conteúdo personalizado mais relevant
 
 ## Target mappings {#target-mappings}
 
-Por padrão, templates do delivery públicos alvos **Perfis**. O Adobe Campaign oferece outros target mappings para seus deliveries, que podem ser modificados conforme suas necessidades.
+Por padrão, templates de delivery têm como target **Profiles**. O Adobe Campaign oferece outros target mappings para seus deliveries, que podem ser modificados conforme suas necessidades.
 
 Esses mapeamentos são apresentados [nesta seção](../../automating/using/query.md#targeting-dimensions-and-resources).
 
@@ -37,13 +41,13 @@ Você também pode criar e usar um target mapping personalizado. Para obter mais
 
 ## Dados externos {#external-data}
 
-Você pode enviar deliveries para destinatários armazenados em um arquivo externo em vez de salvos no banco de dados. Para fazer isso, projete um fluxo de trabalho para carregar dados no banco de dados a partir de um arquivo e crie uma audiência associada.  Saiba mais [neste caso de uso](../../automating/using/use-case-calling-workflow.md). Consulte também [Chamar um fluxo de trabalho com parâmetros](../../automating/using/calling-a-workflow-with-external-parameters.md).
+Você pode enviar deliveries para destinatários armazenados em um arquivo externo em vez de salvos no banco de dados. Para fazer isso, crie um workflow para carregar dados no banco de dados de um arquivo e criar um público-alvo associado.  Saiba mais [neste caso de uso](../../automating/using/use-case-calling-workflow.md). Consulte também [Chamar um workflow com parâmetros](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 ## Enviar para seus assinantes {#send-to-subscribers}
 
 Para enviar mensagens aos assinantes de um informativo, é possível direcionar diretamente os assinantes para o serviço de informação correspondente. Saiba mais [nesta seção](../../audiences/using/about-subscriptions.md).
 
-**Dica** : você pode criar uma audiência de Lista que público alvo os assinantes para o seu boletim informativo usando um fluxo de trabalho. Você pode selecionar essa audiência em um delivery. Para obter mais informações, consulte [Criação de audiências de lista](../../audiences/using/creating-audiences.md#creating-list-audiences).
+**Dica**  - É possível criar um público-alvo da Lista que direciona os assinantes do seu informativo usando um fluxo de trabalho. Você pode selecionar esse público-alvo em um delivery. Para obter mais informações, consulte [Criação de públicos-alvo da lista](../../audiences/using/creating-audiences.md#creating-list-audiences).
 
 ## Provas, perfis de teste e grupos de controle {#proofs-test-control-groups}
 
@@ -52,7 +56,7 @@ Selecione os recipients de prova apropriados, porque eles validam a forma e o co
 
 Saiba mais sobre perfis de teste [nesta seção](../../audiences/using/managing-test-profiles.md).
 
-Você pode usar [Grupos de controle](../../sending/using/control-group.md) para medir o impacto de suas campanhas, excluindo uma parte de sua audiência. Portanto você poderá comparar o comportamento do público-alvo que recebeu a mensagem com o comportamento dos contatos não atingidos. Com base nos logs de envio, você também poderá se concentrar em um grupo de controle em campanhas futuras.
+Você pode usar [Grupos de controle](../../sending/using/control-group.md) para medir o impacto de suas campanhas excluindo parte de seu público-alvo. Portanto você poderá comparar o comportamento do público-alvo que recebeu a mensagem com o comportamento dos contatos não atingidos. Com base nos logs de envio, você também poderá se concentrar em um grupo de controle em campanhas futuras.
 
 ## Cancelar endereços duplicados {#deduplicate-addresses}
 
