@@ -6,10 +6,13 @@ description: Crie mensagens personalizadas em vários canais, use modelos, crie 
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
+feature: Visão geral
+role: Profissional
+level: Iniciante
 translation-type: tm+mt
-source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '528'
 ht-degree: 23%
 
 ---
@@ -25,16 +28,16 @@ ht-degree: 23%
 <td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">Landing pages</a></p></td></tr>
 </table>
 
-A Adobe Campaign permite que você inicie, meça e automatize campanhas em todos os canais.
-Harmonizar todos os seus canais de marketing não é uma tarefa impossível. Com a ajuda da Adobe Campaign, você pode transferir dados do cliente de diferentes sistemas, dispositivos e canais para um único perfil. Em seguida, forneça campanhas oportunas e relevantes que atendam aos seus clientes nos locais certos e da maneira certa ao longo da jornada dos clientes.
+O Adobe Campaign permite iniciar, medir e automatizar campanhas em todos os canais.
+Harmonizar todos os seus canais de marketing não é uma tarefa impossível. Com a ajuda do Adobe Campaign, você pode trazer dados do cliente de diferentes sistemas, dispositivos e canais para um único perfil. Em seguida, forneça campanhas oportunas e relevantes que atendam seus clientes nos lugares certos e da maneira certa ao longo da jornada dos clientes.
 
 ## Conceitos globais {#global-concepts}
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-**Utilize o** painel de mensagens de Campanha para configurar e enviar suas mensagens de um único local, bem como para acessar várias funcionalidades, como agendamento, mensagens multilíngues...
+**Aproveite o** painel de mensagens do Campaign para configurar e enviar suas mensagens de um único local, bem como acessar várias funcionalidades, como agendamento, mensagens multilíngues...
 
-**Gerencie** modelos para configurar as propriedades de mensagens e permitir que você ganhe tempo e consistência em sua estratégia de mensagens. Por exemplo, para e-mails, o administrador funcional responsável pela configuração dos modelos pode definir os parâmetros padrão de um e-mail, como audiência, programação ou conteúdo, os parâmetros avançados relacionados ao envio, validade, rastreamento etc., ou os parâmetros de pré-configuração relativos à definição de metas e personalização (contexto de definição de metas).
+**Gerencie** modelos para configurar as propriedades das mensagens e permitir que você ganhe tempo e consistência em toda a sua estratégia de mensagens. Como exemplo, para emails, o administrador funcional responsável pela configuração dos modelos pode definir os parâmetros padrão de um email, como público, agendamento ou conteúdo, os parâmetros avançados relacionados ao envio, validade, rastreamento etc., ou os parâmetros de pré-configuração relativos ao direcionamento e à personalização (contexto de direcionamento).
 
 Leia mais:
 
@@ -50,25 +53,25 @@ Leia mais:
 
 **Cinco** canais de comunicação estão disponíveis no Adobe Campaign: Email, mensagem SMS, notificação por push, mensagem no aplicativo e delivery de mala direta.
 
-Para cada canal, estão disponíveis funcionalidades específicas. Por exemplo, o canal de e-mail permite que você realize um teste A/B para testar até 3 versões de uma mensagem de e-mail. Com o canal SMS, gerencie mensagens SMS STOP e armazene SMS recebidos dos recipient no banco de dados.
+Para cada canal, funcionalidades específicas estão disponíveis. Por exemplo, o canal de email permite executar testes A/B para testar até 3 versões de uma mensagem de email. Com o canal SMS, gerencie mensagens STOP SMS e armazene SMSs recebidos dos recipients no seu banco de dados.
 
-Além disso, aproveite a Campaign Standard **personalização e os recursos de conteúdo dinâmico** para capturar seu interesse pela audiência.
+Além disso, aproveite o Campaign Standard **personalização e recursos de conteúdo dinâmico** para capturar o interesse do seu público-alvo.
 
 Leia mais:
 
-* [Criação de emails](../../channels/using/about-emails.md)
+* [Criar emails](../../channels/using/about-emails.md)
 * [Criar mensagem SMS](../../channels/using/about-sms-messages.md)
 * [Criação de notificações por push](../../channels/using/about-push-notifications.md)
-* [Criar mensagens no aplicativo](../../channels/using/about-in-app-messaging.md)
+* [Criação de mensagens no aplicativo](../../channels/using/about-in-app-messaging.md)
 * [Criação de deliveries de correspondência direta](../../channels/using/about-direct-mail.md)
 
 ## Mensagens transacionais {#transactional-messages}
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-**Envie** mensagens individuais e únicas aos seus clientes em tempo real: mensagens de boas-vindas, confirmações de envio de pedidos, modificação de senha, etc.
+**Envie** mensagens individuais e exclusivas aos seus clientes em tempo real: mensagens de boas-vindas, confirmações de envio de pedidos, modificação de senha etc.
 
-Mensagens transacionais estão disponíveis para canais de email, SMS e notificação por push, dependendo de suas opções. Há dois tipos de mensagens: **mensagens transacionais de evento** definindo eventos de definição de metas sem informações de perfis e **mensagens transacionais de perfis** definindo perfis de definição de metas do seu banco de dados.
+As mensagens transacionais estão disponíveis para os canais de email, SMS e notificação por push, dependendo de suas opções. Há dois tipos de mensagens: **mensagens transacionais de evento** direcionando eventos sem informações de perfil e **perfis de mensagens transacionais de perfil** direcionando perfis do seu banco de dados.
 
 Leia mais:
 
@@ -84,9 +87,9 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_landing.svg" width="60px">
 
-A campanha vem com landings page que são formulários da Web que podem ser usados para **capturar informações em seu audiência**, oferta subscrições em um serviço, exibe dados e amplia seu banco de dados.
+O Campaign vem com landing pages que são formulários web que podem ser usados para **capturar informações em seus públicos**, oferecer assinaturas de um serviço, exibir dados e expandir seu banco de dados.
 
-O Landing page também pode ser usado para **adquirir ou atualizar perfis existentes** e para configurar um mecanismo de aceitação de duplo, permitindo que você proteja a plataforma contra endereços de email errados ou inválidos, ou spambots.
+As landing pages também podem ser usadas para **adquirir ou atualizar perfis existentes** e para configurar um mecanismo de participação dupla, permitindo proteger a plataforma de endereços de email incorretos ou inválidos ou spambots.
 
 Leia mais:
 
@@ -97,10 +100,10 @@ Leia mais:
 
 ## Recursos adicionais
 
-* [Otimização da entrega](../../sending/using/about-deliverability.md)
+* [Otimização da capacidade de entrega](../../sending/using/about-deliverability.md)
 * [Práticas recomendadas para delivery](../../sending/using/delivery-best-practices.md)
-* [Criar um conteúdo de email](../../designing/using/designing-content-in-adobe-campaign.md)
-* [Importação de um conteúdo AEM](../../integrating/using/creating-email-experience-manager.md)
-* [Envio de mensagens com workflows](../../automating/using/about-channel-activities.md)
-* [Vídeos do tutorial canais de comunicação](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
+* [Criação de conteúdo de email](../../designing/using/designing-content-in-adobe-campaign.md)
+* [Importação de conteúdo AEM](../../integrating/using/creating-email-experience-manager.md)
+* [Envio de mensagens com fluxos de trabalho](../../automating/using/about-channel-activities.md)
+* [Vídeos tutoriais sobre canais de comunicação](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
 * [Caso de uso: Criação de um delivery entre canais](../../automating/using/workflow-cross-channel-delivery.md)
