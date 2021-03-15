@@ -6,11 +6,14 @@ description: Saiba como usar tempo de envio preditivo e pontuação de engajamen
 audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
+feature: Enviar Otimização de Tempo
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 98%
+source-wordcount: '1070'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +35,7 @@ O Adobe Campaign Standard oferece dois novos modelos de aprendizado de máquina:
 >[!IMPORTANT]
 >Esse recurso não está disponível para uso imediato como parte do produto. A implementação exige o engajamento da Adobe Consulting. Entre em contato com seu representante da Adobe para obter mais detalhes.
 >
->O recurso exige o uso de um armazenamento do Azure ou Amazon S3 que deve ser fornecido pelo cliente.
+>O recurso requer o uso de um armazenamento do Azure ou Amazon S3 que deve ser fornecido pelo cliente.
 
 ## Otimização preditiva do tempo de envio{#predictive-send-time}
 
