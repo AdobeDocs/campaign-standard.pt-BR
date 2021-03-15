@@ -7,10 +7,13 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
+feature: Integração do Microsoft CRM
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '884'
 ht-degree: 4%
 
 ---
@@ -20,7 +23,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->O serviço Audience Destinations está atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente da Adobe se desejar acesso.
+>O serviço Audience Destinations está atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente do Adobe se desejar acesso.
 
 O Construtor de segmentos permite que você crie públicos-alvo definindo regras com base nos dados provenientes do [Perfil do cliente em tempo real](https://docs.adobe.com/content/help/pt-BR/experience-platform/profile/home.html).
 
@@ -38,7 +41,7 @@ A interface do Construtor de segmentos é composta da seguinte maneira:
 
 Para criar um segmento, siga estas etapas:
 
-O Construtor de segmentos agora deve ser exibido em seu espaço de trabalho. Ela permite criar um segmento usando dados da Adobe Experience Platform que serão usados eventualmente para criar seu público-alvo.
+O Construtor de segmentos agora deve ser exibido em seu espaço de trabalho. Ele permite criar um segmento usando dados do Adobe Experience Platform que eventualmente serão usados para criar seu público-alvo.
 
 1. Nomeie o segmento e insira uma descrição (opcional).
 
@@ -68,11 +71,11 @@ Os campos listados são atributos capturados pela sua empresa e disponibilizados
 
 Os campos são organizados em guias:
 
-* **[!UICONTROL Attributes]**: Atributos de perfis existentes que podem se originar do banco de dados do Adobe Campaign e/ou da Adobe Experience Platform. Elas se referem a informações estáticas anexadas a um perfil (por exemplo, endereço de email, país de residência, status do programa de fidelidade etc.).
+* **[!UICONTROL Attributes]**: Atributos de perfis existentes que podem se originar do banco de dados do Adobe Campaign e/ou Adobe Experience Platform. Elas se referem a informações estáticas anexadas a um perfil (por exemplo, endereço de email, país de residência, status do programa de fidelidade etc.).
 
    ![](assets/aep_audiences_attributestab.png)
 
-* **[!UICONTROL Events]**: Atividades que identificam consumidores que tiveram alguma interação com os pontos de contato do cliente de sua empresa, como &quot;qualquer pessoa que tenha feito pedidos duas vezes em duas semanas&quot;. Isso pode ser transmitido do Adobe Analytics ou assimilado diretamente na Adobe Experience Platform usando ferramentas de ETL de terceiros.
+* **[!UICONTROL Events]**: Atividades que identificam consumidores que tiveram alguma interação com os pontos de contato do cliente de sua empresa, como &quot;qualquer pessoa que tenha feito pedidos duas vezes em duas semanas&quot;. Isso pode ser transmitido da Adobe Analytics ou assimilado diretamente na Adobe Experience Platform usando ferramentas ETL de terceiros.
 
    ![](assets/aep_audiences_eventstab.png)
 
