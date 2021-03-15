@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: enrichment,main
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '532'
 ht-degree: 78%
 
 ---
@@ -24,8 +27,8 @@ O fluxo de trabalho é configurado da seguinte maneira:
 
 ![](assets/enrichment_example_workflow.png)
 
-* Uma atividade [Query](../../automating/using/query.md) que público alvo os perfis que receberão a mensagem.
-* Uma atividade [Carregar arquivo](../../automating/using/load-file.md) que carrega os dados da compra. Por exemplo:
+* Uma atividade [Query](../../automating/using/query.md) que segmenta os perfis que receberão a mensagem.
+* Uma atividade [Load file](../../automating/using/load-file.md) que carrega os dados de compra. Por exemplo:
 
    ```
    tcode;tdate;customer;product;tamount
@@ -39,7 +42,7 @@ O fluxo de trabalho é configurado da seguinte maneira:
 
    Com esse arquivo de exemplo, usaremos o endereço de email para reconciliar os dados com os perfis do banco de dados. Você também pode ativar IDs exclusivas conforme descrito [neste documento](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 
-* Uma atividade [Enriquecimento](../../automating/using/enrichment.md) que cria um link entre os dados de transação carregados do arquivo e os perfis selecionados em **[!UICONTROL Query]**. O link é definido na guia **[!UICONTROL Advanced relations]** da atividade. O link é baseado na transição proveniente da atividade **[!UICONTROL Load file]**. Ele usa o campo &quot;email&quot; do recurso de perfil e a coluna &quot;cliente&quot; do arquivo importado como critérios de reconciliação.
+* Uma atividade [Enrichment](../../automating/using/enrichment.md) que cria um link entre os dados de transação carregados do arquivo e os perfis selecionados no **[!UICONTROL Query]**. O link é definido na guia **[!UICONTROL Advanced relations]** da atividade. O link é baseado na transição proveniente da atividade **[!UICONTROL Load file]**. Ele usa o campo &quot;email&quot; do recurso de perfil e a coluna &quot;cliente&quot; do arquivo importado como critérios de reconciliação.
 
    ![](assets/enrichment_example_workflow2.png)
 
@@ -77,11 +80,11 @@ O fluxo de trabalho é configurado da seguinte maneira:
 
       ![](assets/enrichment_example_workflow9.png)
 
-* Uma atividade [Segmentação](../../automating/using/segmentation.md) com apenas um segmento, que recupera perfis do público alvo inicial que têm pelo menos duas transações registradas. Perfis com somente uma transação são excluídos. Para isso, a consulta da segmentação é feita na agregação definida anteriormente.
+* Uma atividade de [Segmentação](../../automating/using/segmentation.md) com apenas um segmento, que recupera perfis do público alvo inicial que tenham pelo menos duas transações registradas. Perfis com somente uma transação são excluídos. Para isso, a consulta da segmentação é feita na agregação definida anteriormente.
 
    ![](assets/enrichment_example_workflow5.png)
 
-* Uma atividade [delivery de e-mail](../../automating/using/email-delivery.md) que usa os dados adicionais definidos em **[!UICONTROL Enrichment]** para recuperar dinamicamente as duas últimas compras feitas pelo perfil. Os dados adicionais podem ser encontrados no nó **Additional data (TargetData)** ao adicionar um campo de personalização.
+* Uma atividade [Email delivery](../../automating/using/email-delivery.md) que usa os dados adicionais definidos no **[!UICONTROL Enrichment]** para recuperar dinamicamente as duas últimas compras feitas pelo perfil. Os dados adicionais podem ser encontrados no nó **Additional data (TargetData)** ao adicionar um campo de personalização.
 
    ![](assets/enrichment_example_workflow10.png)
 
