@@ -7,10 +7,13 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
+feature: Mensagens transacionais
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '745'
 ht-degree: 63%
 
 ---
@@ -18,19 +21,19 @@ ht-degree: 63%
 
 # Execução e monitoramento de mensagens transacionais {#transactional-messaging-execution}
 
-## Delivery de execução de mensagen transacional {#transactional-message-execution-delivery}
+## Delivery de execução de mensagem transacional {#transactional-message-execution-delivery}
 
-Quando a mensagem é publicada e a integração do site é concluída, quando um evento é acionado, ela é atribuída a um delivery de execução.
+Quando a mensagem é publicada e a integração do site é concluída, quando um evento é acionado, ele é atribuído a um delivery de execução.
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-Um **delivery de execução** é uma mensagem técnica não acionável e não funcional criada uma vez por mês para cada mensagen transacional e sempre que um mensagen transacional é editado e publicado novamente.
+Um **execution delivery** é uma mensagem técnica não acionável e não funcional criada uma vez por mês para cada mensagem transacional e cada vez que uma mensagem transacional é editada e publicada novamente.
 
 **Tópicos relacionados**:
 * [Publicação de mensagem transacional](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 * [Integrar o acionamento do evento](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
-## Processo de repetição de mensagens transacionais {#transactional-message-retry-process}
+## Processo de nova tentativa de mensagens transacionais {#transactional-message-retry-process}
 
 Uma mensagem transacional temporariamente não entregue está sujeita a tentativas automáticas que são executadas até que o delivery expire. Para mais informações sobre a duração do delivery, consulte [Parâmetros do período de validade](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
@@ -55,9 +58,9 @@ Depois que o evento tiver sido atribuído a um delivery de execução, a mensage
 
 >[!NOTE]
 >
->Quando um evento é atribuído a um delivery de execução, ele é exibido nos logs de envio desse delivery de execução e apenas no momento. Os delivery com falha são exibidos na guia **[!UICONTROL Execution list]** dos logs de envio de mensagens transacionais.
+>Quando um evento é atribuído a um delivery de execução, ele é exibido nos logs de envio desse delivery de execução e apenas no momento. Os deliveries com falha são exibidos na guia **[!UICONTROL Execution list]** dos logs de envio de mensagem transacional.
 
-### Repetir limitações do processo {#limitations}
+### Repetir as limitações do processo {#limitations}
 
 **Envio de atualização de logs**
 
@@ -67,11 +70,11 @@ No processo de repetição, os logs de envio do novo delivery de execução não
 
 Não é possível interromper um delivery de execução. No entanto, se o delivery de execução atual falhar, um novo será criado assim que um novo evento for recebido, e todos os novos eventos serão processados por esse novo delivery de execução. Nenhum novo evento é processado pelo delivery de execução com falha.
 
-Se alguns eventos já atribuídos a um delivery de execução tiverem sido adiados como parte do processo de nova tentativa e esse delivery falhar, o sistema de nova tentativa não atribuirá os eventos adiados ao novo delivery de execução, o que significa que esses eventos são perdidos. Verifique os [logs do delivery](#monitoring-transactional-message-delivery) para ver os recipient que podem ter sido afetados.
+Se alguns eventos já atribuídos a um delivery de execução tiverem sido adiados como parte do processo de nova tentativa e esse delivery falhar, o sistema de nova tentativa não atribuirá os eventos adiados ao novo delivery de execução, o que significa que esses eventos são perdidos. Verifique os [logs do delivery](#monitoring-transactional-message-delivery) para ver os recipients que podem ter sido afetados.
 
-## Monitorando mensagens transacionais {#monitoring-transactional-message-delivery}
+## Monitoramento de mensagens transacionais {#monitoring-transactional-message-delivery}
 
-Para monitorar um mensagen transacional, é necessário acessar os delivery de execução [correspondentes](#transactional-message-execution-delivery).
+Para monitorar uma mensagem transacional, é necessário acessar os [deliveries de execução](#transactional-message-execution-delivery) correspondentes.
 
 1. Para exibir o log de delivery da mensagem, clique no ícone na parte inferior direita do bloco **[!UICONTROL Deployment]**.
 
@@ -89,17 +92,17 @@ Para monitorar um mensagen transacional, é necessário acessar os delivery de e
 
    ![](assets/message-center_execution_access_logs.png)
 
-   Para cada delivery de execução, você pode consultar os logs do delivery como faria para um delivery padrão. Para obter mais informações sobre como acessar e usar os registros, consulte [Monitorando um delivery](../../sending/using/monitoring-a-delivery.md).
+   Para cada delivery de execução, você pode consultar os logs de delivery como faria para um delivery padrão. Para obter mais informações sobre como acessar e usar os logs, consulte [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md).
 
-### Especificidades de mensagen transacional baseadas em perfis {#profile-transactional-message-monitoring}
+### Especificidades de mensagens transacionais baseadas em perfil {#profile-transactional-message-monitoring}
 
-Para mensagens transacionais baseados em perfis, você pode monitorar as seguintes informações do perfil.
+Para mensagens transacionais baseadas em perfil, você pode monitorar as seguintes informações de perfil.
 
 Selecione a guia **[!UICONTROL Sending logs]**. Na coluna **[!UICONTROL Status]**, **[!UICONTROL Sent]** indica que um perfil foi aceito.
 
 ![](assets/message-center_marketing_sending_logs.png)
 
-Selecione a guia **[!UICONTROL Exclusions logs]** para visualização de recipient que foram excluídos do público alvo de mensagens, como endereços em lista de bloqueios.
+Selecione a guia **[!UICONTROL Exclusions logs]** para exibir os recipients que foram excluídos do público-alvo da mensagem, como endereços em lista de bloqueios.
 
 ![](assets/message-center_marketing_exclusion_logs.png)
 
