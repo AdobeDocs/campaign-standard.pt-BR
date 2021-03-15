@@ -6,10 +6,13 @@ description: Saiba como executar operações de paginação.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '161'
 ht-degree: 1%
 
 ---
@@ -19,19 +22,19 @@ ht-degree: 1%
 
 Por padrão, 25 recursos são carregados em uma lista.
 
-O parâmetro **_lineCount** permite limitar o número de recursos listados na resposta.  Você pode usar o nó **next** para exibir os resultados seguintes.
+O parâmetro **_lineCount** permite limitar o número de recursos listados na resposta.  Você pode usar o nó **next** para exibir os próximos resultados.
 
 >[!NOTE]
 >
->Use sempre o valor do URL retornado no nó **next** para executar uma solicitação de paginação.
+>Sempre use o valor do URL retornado no nó **next** para executar uma solicitação de paginação.
 >
->A solicitação **_lineStart** é calculada e deve ser sempre usada dentro do URL retornado no nó **next**.
+>A solicitação **_lineStart** é calculada e deve sempre ser usada dentro do URL retornado no nó **next**.
 
 <br/>
 
-***Solicitação de amostra***
+***Solicitação de exemplo***
 
-Amostra de solicitação de GET para exibir 1 registro do recurso de perfil.
+Solicitação de exemplo do GET para exibir 1 registro do recurso de perfil.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
@@ -62,7 +65,7 @@ Resposta à solicitação, com o nó **next** para executar a paginação.
 }
 ```
 
-Por padrão, o nó **next** não está disponível ao interagir com tabelas com uma grande quantidade de dados. Para poder executar a paginação, você deve adicionar o parâmetro **_forcePagination=true** ao URL da sua chamada.
+Por padrão, o nó **next** não está disponível ao interagir com tabelas com uma grande quantidade de dados. Para poder executar a paginação, você deve adicionar o parâmetro **_forcePagination=true** ao URL da chamada.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
