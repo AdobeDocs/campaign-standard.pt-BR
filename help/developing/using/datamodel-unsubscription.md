@@ -2,19 +2,22 @@
 solution: Campaign Standard
 product: campaign
 title: DataModel
-description: Saiba mais sobre o modelo de dados
+description: Saiba mais sobre o datamodel
 audience: developing
 content-type: reference
+feature: Modelo de dados
+role: Desenvolvedor
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 16%
+source-wordcount: '57'
+ht-degree: 15%
 
 ---
 
 
-# Evento de unsubscription (nms:rtEvent)
+# Evento de cancelamento de assinatura (nms:rtEvent)
 
 ## Descrição do objeto
 
@@ -46,7 +49,7 @@ ht-degree: 16%
                <tr>
                   <td>emailFormat</td>
                   <td>Falso</td>
-                  <td>lista discriminada</td>
+                  <td>enumeração</td>
                   <td>Falso</td>
                </tr>
                <tr>
@@ -57,7 +60,7 @@ ht-degree: 16%
                </tr>
                <tr>
                   <td>serverUrl</td>
-                  <td>True</td>
+                  <td>Verdadeiro</td>
                   <td>string</td>
                   <td>Falso</td>
                </tr>
@@ -87,7 +90,7 @@ byStatusOrType
         </tr>
         <tr>
         <td>status</td>
-        <td>lista discriminada</td>
+        <td>enumeração</td>
         </tr>
         <tr>
         <td>type</td>
