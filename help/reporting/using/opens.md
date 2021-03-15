@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: Aberturas
-description: Com o relatório de Aberturas, saiba qual delivery foi mais visualizado de acordo com vários critérios.
+description: Com o relatório Aberturas , saiba qual delivery foi o mais exibido de acordo com vários critérios.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryOpenRateReport,main;campaignOpenRateReport,main;programOpenRateReport,main
+feature: Relatórios
+role: Líder
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '67'
 ht-degree: 43%
 
 ---
@@ -22,7 +25,7 @@ O relatório **[!UICONTROL Opens]** identifica as entregas que foram mais vistas
 
 ![](assets/delivery_reports_opens.png)
 
-Quatro tabelas e gráficos detalham o número total de recipient que abriram um email com base em:
+Quatro tabelas e gráficos dividem o número total de recipients que abriram um email com base em:
 
 * Navegador
 * Dispositivo
