@@ -8,24 +8,27 @@ content-type: reference
 topic-tags: campaign-standard-releases
 hide: true
 hidefromtoc: true
+feature: Visão geral
+role: Profissional
+level: Iniciante
 translation-type: tm+mt
-source-git-commit: c5807da6bc9a33adcba6fc9825b0496bb5dc609b
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '2587'
+source-wordcount: '2591'
 ht-degree: 84%
 
 ---
 
 
-# Notas de versão anteriores {#new-release}
+# Notas de versão antecipadas {#new-release}
 
-[Planejamento](../../rn/using/release-planning.md)  de lançamento| Versões [ de ](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html) Painel de controle do Campaign| Atualizações [ de ](../../rn/using/documentation-updates.md) documentação| Notas [ de versão ](../../rn/using/release-notes.md) mais recentes| Recursos  [obsoletos](../../rn/using/deprecated-features.md)
+[Planejamento de versão](../../rn/using/release-planning.md)  | Versões do  [Painel de controle](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html)  |  [Atualizações da documentação](../../rn/using/documentation-updates.md)  | Notas de versão  [mais recentes](../../rn/using/release-notes.md)  | Recursos  [obsoletos](../../rn/using/deprecated-features.md)
 
 Esta página descreve novos recursos, melhorias e correções incluídos na próxima versão do Campaign Standard.
 
 >[!CAUTION]
 >
-> Este conteúdo está sujeito a alterações sem aviso prévio até a data de atualização dos ambientes de estágio. Saiba mais na [página de planejamento de versão](../../rn/using/release-planning.md).
+> Esse conteúdo está sujeito a alterações sem aviso prévio até a data de atualização dos ambientes de estágio. Saiba mais na [página de planejamento de versão](../../rn/using/release-planning.md).
 
 
 ## Versão 21.1 - fevereiro de 2021 {#release-21-1---febuary-2021}
@@ -41,11 +44,11 @@ Esta página descreve novos recursos, melhorias e correções incluídos na pró
 <tbody> 
 <tr> 
 <td>
-<p>O EFS (Email Feedback Service) é um serviço escalável que melhora a precisão do relatórios ao capturar feedback de email diretamente do MTA aprimorado.</p>
+<p>O Serviço de feedback de email (EFS) é um serviço escalável que melhora a precisão dos relatórios ao capturar o feedback de email diretamente do MTA aprimorado.</p>
 <ul>
-<li>Todas as categorias de eventos são capturadas: Atrasos, Entregues, Enviados, Cancelados a Assinatura (Link, Lista), Feedback (reclamações de spam, eventos assíncronos).</li>
+<li>Todas as categorias de eventos são capturadas: Atrasos, Entregues, Para Enviar, Cancelar A Assinatura (Link, Lista), Feedback (reclamações De Spam, Eventos assíncronos).</li>
 <li>O cálculo dos indicadores Enviados/Entregues agora se baseia no feedback em tempo real do MTA aprimorado para melhorar a precisão e a reatividade.</li>
-<li>O EFS soluciona o problema de rejeições síncronas de atrasos de relatórios e retira 80% da carga do processo inMail.</li>
+<li>O EFS soluciona o problema de rejeições síncronas de atrasos de relatórios e tira 80% da carga do processo inMail.</li>
 </ul>
 <p>Esse recurso é lançado como um <strong>beta privado</strong> e estará progressivamente disponível para todos os clientes em versões futuras.</p>
 </td> 
@@ -92,17 +95,17 @@ Esta página descreve novos recursos, melhorias e correções incluídos na pró
 
 **Aprimoramentos**
 
-* **A** integração do Microsoft Dynamics 3655 foi aprimorada com um aplicativo dedicado de integração de autoatendimento e um processo de implementação aprimorado. [Saiba mais](../../integrating/using/d365-acs-get-started.md)
+* **A integração com o Microsoft Dynamics 365**  foi aprimorada com um aplicativo de integração de autoatendimento dedicado e um processo de implementação aprimorado. [Saiba mais](../../integrating/using/d365-acs-get-started.md)
 
-* Foi feito um aprimoramento para facilitar a solução de problemas ao encontrar problemas com o **processo de mensagens transacionais**. Os administradores técnicos da Adobe agora podem usar o rastreamento em qualquer processo sem reiniciá-lo.
+* Foi feito um aprimoramento para facilitar a solução de problemas ao encontrar problemas com o **Processo de mensagens transacionais**. Os administradores técnicos da Adobe agora podem usar o rastreamento em qualquer processo sem reiniciá-lo.
 
 * A lista **Perfis** agora permite que você pesquise por registros com base em um destes campos: email, nome, sobrenome ou campos personalizados que foram adicionados à filtragem avançada ao estender o recurso de perfil. Esse recurso também está disponível em APIs do Campaign Standard usando o parâmetro filterType.
 
-* Um parâmetro foi ajustado para o número de container que executam o processo de pool de **mensagens transacionais** banco de dados. Isso permite que a carga seja distribuída uniformemente em todos os containers usados e alcance o desempenho ideal.
+* Um parâmetro foi ajustado para o número de contêineres que executam o processo de pooling de banco de dados de **Transactional messaging**. Isso permite que a carga seja distribuída uniformemente em todos os containers usados e alcance o desempenho ideal.
 
 * Uma nova função **GetOption** agora está disponível em atividades usando variáveis de evento depois de chamar um fluxo de trabalho com parâmetros externos. Permite retornar o valor de uma função especificada.
 
-* Uma nova opção permite que o Campaign Standard **verifique a memória física** disponível no sistema antes de iniciar um fluxo de trabalho. Se a quantidade de memória for muito baixa, a execução do fluxo de trabalho será atrasada até que a memória do sistema atinja esse limite. Isso evita uma maior degradação do desempenho e reduz o risco de uma interrupção. O fluxo de trabalho será retomado automaticamente quando a carga no servidor diminuir e a memória aumentar. Observe que essa opção é somente leitura e não pode ser modificada.
+* Uma nova opção permite que o Campaign Standard **verifique a memória física** disponível no sistema antes de iniciar um workflow. Se a quantidade de memória for muito baixa, a execução do workflow será atrasada até que a memória do sistema atinja esse limite. Isso evita uma maior degradação do desempenho e reduz o risco de uma interrupção. O workflow será retomado automaticamente quando a carga no servidor diminuir e a memória aumentar. Observe que essa opção é somente leitura e não pode ser modificada.
 
 
 **Outras alterações**
@@ -135,21 +138,21 @@ Esta página descreve novos recursos, melhorias e correções incluídos na pró
 
 * Logs de erros aprimorados ao tentar se conectar ao Adobe Identity Management Service (IMS).
 
-* Agora você pode filtrar ainda mais as dimensões de Delivery e Campanha usando a barra de pesquisa em **relatórios dinâmico**.
+* Agora você pode filtrar ainda mais as dimensões Delivery e Campaign usando a barra de pesquisa em **Dynamic Reporting**.
 
-* A data de validade da mensagem SMS transacional agora pode ser definida pelo valor definido para o parâmetro de expiração na API **Mensagens transacionais**. (CAMP-36600)
+* A data de validade da mensagem SMS transacional agora pode ser definida pelo valor definido para o parâmetro de expiração na **API de mensagens transacionais**. (CAMP-36600)
 
 * Nos relatórios dinâmicos, o relatório integrado **Resumo da entrega** mostrava dados incorretos para a métrica de taxa não assinada. Uma nova métrica chamada **Unsubscription única** foi adicionada para corrigir isso. (CAMP-46445)
 
 **Correções**
 
 * Correção de um problema que fazia com que as entregas fossem executadas muito lentamente devido a determinados processos. Isso acontecia porque unidades incorretas estavam definidas para vários parâmetros (milissegundos em vez de segundos, por exemplo).
-* Correção de um problema em workflows que ocorria ao copiar e colar uma atividade **Desduplicação** executada uma vez e que aproveitava um recurso temporário. Depois de duplicado, o recurso de atividade era automaticamente definido como vazio, resultando em problemas em outras atividades do fluxo de trabalho. Depois de colado, o recurso de atividade permanecerá o mesmo, para que o erro seja acionado o mais rápido possível, em vez de posteriormente, no fluxo de trabalho. (CAMP-46903)
-* Correção de um problema quando o SDK móvel enviava uma solicitação de rastreamento aberta com base na condição de que deliveryID/MessageID não fosse nulo. Isso resultava em erros 404 para entregas com rastreamento desativado. Uma variável adicional (acsDeliveryTracking) com informações sobre o status de rastreamento da entrega agora é enviada na carga. Essa variável pode ter dois valores ativados ou desativados dependendo do status de rastreamento definido.
+* Correção de um problema em workflows que ocorria ao copiar e colar uma atividade **Desduplicação** executada uma vez e que aproveitava um recurso temporário. Depois de duplicado, o recurso de atividade era automaticamente definido como vazio, resultando em problemas em outras atividades do workflow. Depois de colado, o recurso de atividade permanecerá o mesmo, para que o erro seja acionado o mais rápido possível, em vez de posteriormente, no workflow. (CAMP-46903)
+* Correção de um problema em que o SDK móvel enviava uma solicitação de rastreamento aberta com base na condição de que deliveryID/MessageID não fosse nulo. Isso resultava em erros 404 para entregas com rastreamento desativado. Uma variável adicional (acsDeliveryTracking) com informações sobre o status de rastreamento da entrega agora é enviada na carga. Essa variável pode ter dois valores ativados ou desativados dependendo do status de rastreamento definido.
 * Correção de um problema que impedia a execução de relatórios do delivery quando 5000 linhas eram exibidas.
 * Correção de um problema com o teste AB que impedia que o conteúdo da variante B fosse atualizado após a modificação do template do delivery. (CAMP-45235)
 * Correção de um problema que causava a interrupção do processo de mensagens transacionais, impedindo o envio de mensagens.
-* Correção de um problema que causava a falha da análise do delivery ao enviar uma mensagem de push transacional usando a dimensão público alvo do Perfil. Um novo mapeamento de delivery (mapRtEventAppSubRcp) agora está disponível para perfis de definição de metas de mensagens de push transacionais. O delivery, a exclusão e os logs de rastreamento desses deliveries agora estarão disponíveis nas tabelas broadLogAppSubRcp, excludeLogAppSubRcp e trackingLogAppSubRcp.
+* Correção de um problema que causava a falha da análise de delivery ao enviar uma mensagem de push transacional usando a dimensão de Direcionamento de perfil . Um novo mapeamento de delivery (mapRtEventAppSubRcp) agora está disponível para perfis de definição de metas de mensagens de push transacionais. O delivery, a exclusão e os logs de rastreamento desses deliveries agora estarão disponíveis nas tabelas broadLogAppSubRcp, excludeLogAppSubRcp e trackingLogAppSubRcp.
 * Correção de um problema que resultava em problemas de navegação após clicar em um link interno (por exemplo, ao acessar a entrega pai de uma tela de resumo de prova).
 * Correção de um problema que impedia que todos os modelos de conteúdo do Experience Manager disponíveis fossem exibidos ao criar uma entrega. (CAMP-45990)
 * Correção de um problema em workflows que impedia a exibição de mensagens de falha nos logs do delivery após a adição da coluna **Motivo** à guia de dados adicional. (CAMP-45139)
@@ -179,7 +182,7 @@ Esta página descreve novos recursos, melhorias e correções incluídos na pró
 * Correção de um problema que poderia impedir o recebimento de relatórios agendados por email. (CAMP-46891)
 * Correção de um problema que ocorria ao vincular um recurso personalizado ao recurso do perfil com um link simples de cardinalidade 1. Ao acessar um perfil com o campo de recurso personalizado vazio, agora uma mensagem de erro é exibida em vez de uma lista vazia.
 * Correção de um problema ao usar substituição de perfil em um fluxo de trabalho em que a página não carregava os perfis de entrega ao selecionar o perfil a ser substituído. (CAMP-46522)
-* Correção de uma regressão em que o fluxo de trabalho técnico **Limpeza de banco de dados** tentava soltar as tabelas de trabalho de entrega expiradas, resultando nos seguintes erros: (CAMP-46536)
+* Correção de uma regressão em que o fluxo de trabalho técnico **Limpeza de banco de dados** tentava eliminar as tabelas de trabalho de entrega expiradas, resultando nos seguintes erros: (CAMP-46536)
 
 ```
    PGS-220000 PostgreSQL error: ERROR: table ""wkdlv_24439460_data"" does not exist and WDB-200001 SQL statement 'DROP TABLE wkdlv_24448131_data' could not be executed.
@@ -197,13 +200,13 @@ Esta página descreve novos recursos, melhorias e correções incluídos na pró
 * Correção de um problema ao usar uma atividade **Segmentação** com entregas recorrentes em um fluxo de trabalho que fazia com que a entrega fosse enviada para o público errado. (CAMP-46275, CAMP-46470)
 * Correção de um erro em que a publicação de recursos personalizados falhava ao tentar estender o recurso de Perfil para criar dimensões de perfil personalizadas para relatórios dinâmicos. (CAMP-46266)
 * Correção de um erro que ocorria ao adicionar um link a uma tabela de importação de arquivo. Depois de adicionar uma atividade **Enriquecimento** à atividade **Importação de arquivos**, o link configurado anteriormente desaparecia. (CAMP-46557)
-* Correção de um problema ao usar recursos personalizados vinculados aos dados do Perfil em que a ordem de exibição na tela de configuração Detalhe era alterada ao salvar. (CAMP-46312)
-* Correção de um problema que impedia a exibição de dados no relatórios dinâmico devido a delivery com base em um mapeamento de delivery personalizado.
-* Correção de um erro que poderia impedir a seleção de uma coleção com um público alvo de recurso incorreto em uma atividade de query de fluxo de trabalho.
+* Correção de um problema ao usar recursos personalizados vinculados a dados de Perfil, em que a ordem de exibição na tela Configuração de detalhes era alterada ao salvar. (CAMP-46312)
+* Correção de um problema que impedia a exibição de dados em relatórios dinâmicos devido a deliveries com base em um mapeamento de delivery personalizado.
+* Correção de um erro que poderia impedir a seleção de uma coleção com um destino de recurso incorreto em uma atividade de query de workflow.
 * Correção de um problema que fazia com que o processo InMail validasse as devoluções definitivas incorretamente.
 * Correção de um erro que ocorria ao abrir uma tela de perfil devido a um erro de link.
 * Correção de um problema que impedia a exclusão de dados do GDPR do fluxo de trabalho de limpeza.
-* Correção de um erro que ocorria quando a configuração de agendamento era atualizada manualmente com teclado tipo nos parâmetros de agendamento do delivery de email.
+* Correção de um erro que ocorria quando a configuração de agendamento era atualizada manualmente com teclado digitado nos parâmetros de agendamento de delivery de email.
 * Correção de um problema que podia impedir a edição de um perfil devido a parâmetros incorretos na unidade organizacional.
 * Correção de um problema que deixava o campo de extensão Serviço vazio e impossível de ser definido nas Propriedades de email, mesmo que estivesse definido no template do delivery.
 * Correção de um problema que podia fazer as provas demorarem mais para serem processadas. (CAMP-45048)
