@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: segmentation,main
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 66%
+source-wordcount: '202'
+ht-degree: 65%
 
 ---
 
@@ -26,9 +29,9 @@ O objetivo do fluxo de trabalho é enviar um email específico para cada faixa e
 
 O fluxo de trabalho é composto dos seguintes elementos:
 
-* Uma [atividade de Scheduler](../../automating/using/segmentation.md) para especificar a data de execução do fluxo de trabalho.
-* Uma atividade [Query](../../automating/using/query.md) para públicos alvos de pessoas cujo aniversário e endereço de email foram inseridos.
-* Uma atividade [Segmentação](../../automating/using/segmentation.md) para criar três segmentos divididos em diferentes transições de saída: Com 18-25 anos, 26-32 anos e perfis com mais de 32 anos. Os segmentos são definidos de acordo com os seguintes parâmetros:
+* Um [Scheduler activity](../../automating/using/segmentation.md) para especificar a data de execução do workflow.
+* Uma atividade [Query](../../automating/using/query.md) para direcionar perfis de pessoas cujas datas de nascimento e endereços de email foram inseridos.
+* Uma atividade de [Segmentação](../../automating/using/segmentation.md) para criar três segmentos divididos em transições de saída diferentes: 18-25 anos, 26-32 anos e perfis acima de 32 anos. Os segmentos são definidos de acordo com os seguintes parâmetros:
 
    ![](assets/wkf_segment_example_3.png)
 
@@ -40,4 +43,4 @@ O fluxo de trabalho é composto dos seguintes elementos:
 
       ![](assets/wkf_segment_example_1.png)
 
-* Uma atividade [delivery de email](../../automating/using/email-delivery.md) por segmento.
+* Uma atividade [Email delivery](../../automating/using/email-delivery.md) por segmento.
