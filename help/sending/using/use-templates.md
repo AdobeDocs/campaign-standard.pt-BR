@@ -6,11 +6,15 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: '"Os templates do delivery oferecem mais eficiência ao fornecer cenários prontos para os tipos mais comuns de atividades."'
+feature: Avaliação do delivery
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 64%
+source-wordcount: '819'
+ht-degree: 65%
 
 ---
 
@@ -27,7 +31,7 @@ Um [template do delivery](../../start/using/marketing-activity-templates.md#crea
 
 Quando você gerencia várias marcas no Adobe Campaign, a Adobe recomenda ter um subdomínio por marca. Por exemplo, um banco pode ter vários subdomínios correspondentes a cada uma de suas agências regionais. Se um banco for proprietário do domínio bluebank.com, seus subdomínios podem ser @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, etc. Ter um template do delivery por subdomínio permite usar sempre os parâmetros pré-configurados certos para cada marca, o que evita erros e economiza tempo.
 
-**Dica**: Para evitar erros de configuração na Campanha, recomendamos que você duplicado um modelo nativo e altere suas propriedades em vez de criar um novo modelo.
+**Dica**: Para evitar erros de configuração no Campaign, recomendamos que você duplique um template nativo e altere suas propriedades em vez de criar um novo template.
 
 ## Configurar endereços
 
@@ -45,29 +49,29 @@ Na seção **[!UICONTROL Advanced parameters]** das propriedades de um modelo de
 
 ![](assets/template-parameters.png)
 
-O domínio de endereço deve ser o mesmo que o subdomínio configurado.
+O domínio de endereço deve ser o mesmo subdomínio que você configurou.
 
-Os campos **[!UICONTROL Reply to]** correspondem ao endereço de email e ao nome usados para respostas.
+Os campos **[!UICONTROL Reply to]** correspondem ao endereço de email e nome usados para respostas.
 
-**Dica**  - o Adobe recomenda usar um endereço real existente, como o atendimento ao cliente da sua marca. Nesse caso, se um recipient enviar uma resposta, o atendimento ao cliente poderá resolvê-lo.
+**Dica**  - a Adobe recomenda o uso de um endereço real existente, como o atendimento ao cliente da sua marca. Nesse caso, se um recipient enviar uma resposta, o atendimento ao cliente poderá resolvê-lo.
 
-Para alterar o nome do remetente que aparecerá no cabeçalho das mensagens enviadas, vá para a guia **[!UICONTROL Properties]** do home page do Email Designer (acessível por meio do ícone inicial) e clique no bloco **[!UICONTROL Default sender name]**.
+Para alterar o nome do remetente que aparecerá no cabeçalho das mensagens enviadas, vá para a guia **[!UICONTROL Properties]** da página inicial do Designer de email (acessível pelo ícone inicial) e clique no bloco **[!UICONTROL Default sender name]**.
 
 ![](assets/template-content.png)
 
 Para aumentar a taxa de abertura de suas entregas, a Adobe recomenda usar um nome que seja facilmente identificável pelos destinatários, como o nome da sua marca.
 
-**Dica**  - Para melhorar ainda mais a experiência do recipient, adicione o nome de uma pessoa, por exemplo &quot;Emma from Megastore&quot;.
+**Dica**  - Para melhorar ainda mais a experiência do recipient, você pode adicionar o nome de uma pessoa, por exemplo &quot;Emma da Megastore&quot;.
 
-Para obter mais informações sobre como personalizar o nome do remetente, consulte [Enviar email para o remetente](../../designing/using/subject-line.md#email-sender).
+Para obter mais informações sobre como personalizar o nome do remetente, consulte [Remetente de email](../../designing/using/subject-line.md#email-sender).
 
 ## Personalizar o nome do remetente do SMS
 
-Na seção **Parâmetros avançados** das propriedades de um modelo SMS, a opção **De** permite que você personalize o nome do remetente de mensagens SMS usando uma sequência de caracteres. Ele aparecerá como o nome do remetente da mensagem SMS no celular do recipient.
+Na seção **Advanced parameters** das propriedades de um template SMS, a opção **From** permite personalizar o nome do remetente da mensagem SMS usando uma cadeia de caracteres. Ele aparecerá como o nome do remetente da mensagem SMS no celular do recipient.
 
 Se esse campo estiver vazio, será usado o número de origem fornecido na conta externa. Se nenhum número de origem for fornecido, o código curto será usado. Para saber mais, consulte [Configuração de SMS](../../administration/using/configuring-sms-channel.md).
 
-**Dica**  - Verifique a legislação em seu país sobre a modificação do endereço do remetente. Você também deve consultar seu provedor de serviço SMS se ele oferecer essa funcionalidade.
+**Dica**  - Verifique a legislação do seu país em relação à modificação do endereço do remetente. Você também deve consultar seu provedor de serviço SMS se ele oferecer essa funcionalidade.
 
 ## Configurar um grupo de controle
 
@@ -85,14 +89,14 @@ Para obter mais informações sobre tipologias, consulte [esta seção](../../se
 
 ## Vincular uma marca a um modelo
 
-Os parâmetros dos e-mails enviados relacionados à identidade de uma marca (como o logotipo da marca ou o endereço do remetente) são gerenciados centralmente no Adobe Campaign. Você pode criar uma ou várias marcas e vinculá-las aos templates do delivery.
+Os parâmetros dos e-mails enviados relacionados à identidade de uma marca (como o logotipo da marca ou o endereço do remetente) são gerenciados centralmente no Adobe Campaign. Você pode criar uma ou várias marcas e vinculá-las a templates do delivery.
 
-Para obter mais informações sobre como usar e configurar marcas no Adobe Campaign, consulte Branding.
+Para obter mais informações sobre como usar e configurar marcas no Adobe Campaign, consulte Identidade visual.
 
-Para exibir ou alterar a marca atribuída a um template do delivery, selecione o botão Editar propriedades do modelo e navegue até os detalhes da marca.
+Para exibir ou alterar a marca atribuída a um modelo de entrega, selecione o botão Editar propriedades do modelo e navegue até os detalhes da marca.
 
 ![](assets/template-brand.png)
 
-Para obter mais informações sobre como vincular uma marca a um modelo, consulte [Atribuindo uma marca a um email](../../administration/using/branding.md#assigning-a-brand-to-an-email).
+Para obter mais informações sobre vincular uma marca a um modelo, consulte [Atribuição de uma marca a um email](../../administration/using/branding.md#assigning-a-brand-to-an-email).
 
 Saiba como criar e configurar uma marca [nesta seção](../../administration/using/branding.md#creating-a-brand).
