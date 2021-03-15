@@ -2,26 +2,29 @@
 solution: Campaign Standard
 product: campaign
 title: Trabalhar com o serviço principal do Campaign e do Assets
-description: Use todos os recursos compartilhados no Adobe Experience Cloud em suas mensagens e landings page do Adobe Campaign graças à integração do serviço principal do Assets.
+description: Use quaisquer recursos compartilhados no Adobe Experience Cloud em suas mensagens e landing pages da Adobe Campaign graças à integração do Serviço principal de ativos .
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
+feature: Integração do Serviço principal de pessoas
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 22%
+source-wordcount: '164'
+ht-degree: 21%
 
 ---
 
 
 # Trabalhar com o serviço principal do Campaign e do Assets{#working-with-campaign-and-assets-core-service}
 
-Integrar o serviço principal do Assets ou os ativos sob demanda (dependendo da configuração do seu ambiente Adobe Experience Cloud) à Adobe Campaign permite que você use quaisquer ativos compartilhados dentro da Adobe Experience Cloud em seus e-mails e landings page da Adobe Campaign.
+A integração do Serviço principal de ativos ou dos ativos sob demanda (dependendo da configuração do ambiente do Adobe Experience Cloud) com o Adobe Campaign permite usar todos os ativos compartilhados no Adobe Experience Cloud nos emails e landing pages do Adobe Campaign.
 
-Os recursos compartilhados da Adobe Experience Cloud podem ser usados em seus emails e landings page.
+Os recursos compartilhados do Adobe Experience Cloud podem ser usados em seus emails e landing pages.
 
-1. Ao editar o conteúdo de um email ou landing page, vá para um bloco de imagem e selecione **[!UICONTROL Image shared from Adobe Experience Cloud]** pelo menu contextual.
+1. Ao editar o conteúdo de um email ou página de aterrissagem, vá para um bloco de imagem e selecione **[!UICONTROL Image shared from Adobe Experience Cloud]** pelo menu contextual.
 
    ![](assets/dam_insert_image_dce.png)
 
@@ -29,7 +32,7 @@ Os recursos compartilhados da Adobe Experience Cloud podem ser usados em seus em
 
    ![](assets/dam_shared_image_selection.png)
 
-A imagem é inserida. O delivery agora pode ser personalizado conforme necessário e enviado.
+A imagem é então inserida. O delivery agora pode ser personalizado conforme necessário e enviado.
 
 **Tópicos relacionados:**
 
