@@ -6,11 +6,15 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: '"Quando a mensagem estiver pronta, saiba como executar todas as verificações antes de enviar"'
+feature: Avaliação do delivery
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 93%
+source-wordcount: '414'
+ht-degree: 89%
 
 ---
 
@@ -39,7 +43,7 @@ Para permitir isso, o Adobe Campaign captura a renderização e a disponibiliza 
 
 * Você pode visualizar a mensagem enviada nos diferentes contextos nos quais ela pode ser recebida: webmail, serviço de mensagens, celular, etc.
 
-* Os recursos de renderização de e-mail são fundamentais para identificar se suas campanhas de e-mail ultrapassam com êxito os filtros dos principais ISPs (Provedores de serviço da Internet) e serviços de e-mail. Essas ferramentas enviam uma cópia de pré-impressão de um email para uma rede de caixas de entrada de teste, para que você possa ver como a mensagem será exibida ou irá renderizar nesses serviços. Elas também podem incluir relatórios e opções de correção de código que ajudam a identificar e fazer correções rapidamente que melhoram a capacidade de entrega.
+* Os recursos de renderização de email são cruciais para identificar se suas campanhas de email terão êxito em atravessar os filtros dos principais ISPs (provedores de serviço de Internet) e serviços de webmail. Essas ferramentas enviam uma cópia de pré-impressão de um email para uma rede de caixas de entrada de teste, para que você possa ver como a mensagem será exibida ou irá renderizar nesses serviços. Elas também podem incluir relatórios e opções de correção de código que ajudam a identificar e fazer correções rapidamente que melhoram a capacidade de entrega.
 
 Saiba mais [nesta seção](../../sending/using/email-rendering.md).
 
