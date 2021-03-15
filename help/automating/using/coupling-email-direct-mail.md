@@ -2,16 +2,19 @@
 solution: Campaign Standard
 product: campaign
 title: Junção de deliveries de email e de correspondência direta
-description: Este caso de uso apresenta um exemplo de envio de email e mala direta a partir de um fluxo de trabalho.
+description: Esse caso de uso apresenta um exemplo de envio de email e mala direta a partir de um workflow.
 audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 84%
+source-wordcount: '123'
+ht-degree: 82%
 
 ---
 
@@ -32,5 +35,5 @@ Este é um exemplo de fluxo de trabalho que mescla canais de email e correspond�
 
 **Tópicos relacionados:**
 
-* [Atividade de delivery de mala direta](../../automating/using/direct-mail-delivery.md)
+* [Atividade de delivery de correspondência direta](../../automating/using/direct-mail-delivery.md)
 * [Sobre correspondência direta](../../channels/using/about-direct-mail.md)
