@@ -6,10 +6,13 @@ description: Defina populações direcionadas, selecione públicos, filtre desti
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
+feature: Perfis
+role: Profissional
+level: Iniciante
 translation-type: tm+mt
-source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '608'
 ht-degree: 23%
 
 ---
@@ -38,7 +41,7 @@ Ao criar campanhas ou mensagens, você pode especificar o público-alvo dos deli
 
 Identifique clientes de forma mais eficaz em todos os canais usando **perfis de cliente integrados**, **segmentos personalizados** e **grupos de controle**. Quando você conhece seus clientes, interesses, demografia e preferências de canal, é mais fácil criar experiências personalizadas que são notadas.
 
-O Adobe Campaign cria perfis ricos de clientes em tempo real, permitindo que você entregue ofertas mais relevantes e personalizadas à medida que as preferências do cliente mudam. Além disso, o Adobe Campaign integra funcionalidades avançadas de análise, gerenciamento de dados e direcionamento para construir públicos-alvo.
+O Adobe Campaign cria perfis de clientes avançados em tempo real, permitindo que você forneça ofertas mais relevantes e personalizadas à medida que as preferências do cliente mudam. Além disso, o Adobe Campaign integra funcionalidades avançadas de análise, gestão de dados e direcionamento para construir públicos-alvo.
 
 **** Perfis são contatos individuais armazenados no banco de dados. Cada perfil corresponde a uma entrada no banco de dados que contém as informações necessárias para que esse perfil seja direcionado, qualificado e rastreado individualmente: O Adobe Campaign pode rastrear todas as interações de canais online e offline e mesclá-las em um único perfil.
 
@@ -62,7 +65,7 @@ Antes de começar a enviar mensagens para um contato, você precisa ter certeza 
 
 Com o Campaign, recomendamos usar **mecanismos fáceis de aceitação e recusa** por meio de [services](../../audiences/using/creating-a-service.md) e [landing pages](../../channels/using/getting-started-with-landing-pages.md) para atualizar suas informações de contato e expandir seu banco de dados.
 
-Fornecer **links de unsubscription** em suas mensagens permitirá que os Perfis sejam adicionados à lista de bloqueios, quando necessário, e portanto melhorará a capacidade de delivery da sua plataforma. Para obter mais informações sobre o gerenciamento de lista de bloqueios, consulte [Sobre a inclusão e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Fornecer **links de unsubscription** em suas mensagens permitirá que os Perfis sejam adicionados à  de lista de bloqueios, quando necessário, e portanto melhorar a capacidade de delivery da sua plataforma. Para obter mais informações sobre lista de bloqueios gerenciamento de , consulte [Sobre participação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
@@ -77,7 +80,7 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
-O Adobe Campaign oferece um conjunto de ferramentas para ajudá-lo com sua **Conformidade com privacidade** para GDPR, CCPA e outras leis de privacidade.
+A Adobe Campaign oferece um conjunto de ferramentas para ajudá-lo com a **Conformidade com a privacidade** para GDPR, CCPA e outras leis de privacidade.
 
 Saiba mais neste [este artigo](https://helpx.adobe.com/br/campaign/kb/campaign-privacy.html) sobre o Gerenciamento de privacidade e os recursos que fornecemos para gerenciar o Direito de acesso, o Direito de ser esquecido, o consentimento, a retenção de dados e as funções de usuário.
 
@@ -87,6 +90,6 @@ Privacidade e consentimento no Campaign e como gerenciá-los são apresentados [
 
 * [Trabalhar com o serviço Destinos do público-alvo](../../integrating/using/aep-about-audience-destinations-service.md)
 * [Trabalhar com o Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
-* [Públicos-alvo compartilhados da Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
+* [Públicos-alvo compartilhados do Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Uso de fluxos de trabalho para importar perfis](../../automating/using/creating-import-workflow-templates.md)
 * [Vídeos de perfis e públicos](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
