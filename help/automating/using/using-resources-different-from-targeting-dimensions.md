@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '297'
 ht-degree: 81%
 
 ---
@@ -20,7 +23,7 @@ ht-degree: 81%
 
 Esses casos de uso apresentam como usar um recurso diferente do targeting dimension, por exemplo, para procurar um registro específico em uma tabela distante.
 
-Para obter mais informações sobre targeting dimension e recursos, consulte [esta seção](../../automating/using/query.md#targeting-dimensions-and-resources)
+Para obter mais informações sobre targeting dimensions e recursos, consulte [esta seção](../../automating/using/query.md#targeting-dimensions-and-resources)
 
 **Exemplo 1: identificação de perfis direcionados pelo delivery com o rótulo “Bem-vindo de volta!”**.
 
