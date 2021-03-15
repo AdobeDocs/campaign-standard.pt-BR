@@ -6,16 +6,19 @@ description: Saiba mais sobre todas as atualizações mais recentes da documenta
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
+feature: Visão geral
+role: Profissional
+level: Iniciante
 translation-type: tm+mt
-source-git-commit: 6dd54dc72fdaf3261d13ca972f1258bcbb3c1e3a
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '6616'
-ht-degree: 97%
+source-wordcount: '6620'
+ht-degree: 99%
 
 ---
 
 
-# Atualizações da documentação{#documentation-updates}
+# Atualizações de documentação{#documentation-updates}
 
 Além das [Notas de versão](../../rn/using/release-notes.md) do Adobe Campaign, esta página lista todas as atualizações na documentação do Adobe Campaign Standard.
 
@@ -23,13 +26,13 @@ Além das [Notas de versão](../../rn/using/release-notes.md) do Adobe Campaign,
 
 Foram adicionadas informações para especificar que, ao selecionar um público em um query, sua definição é copiada e não referenciada. [Leia mais](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-As informações relacionadas ao Serviço de destinos de público-alvo e ao Conector de dados da Adobe Experience Platform foram reagrupadas em uma nova seção. [Leia mais](../../integrating/using/aep-about-audience-destinations-service.md)
+As informações relacionadas ao Serviço de destinos do público-alvo e ao Conector de dados do Adobe Experience Platform foram reagrupadas em uma nova seção. [Leia mais](../../integrating/using/aep-about-audience-destinations-service.md)
 
 ## Versão 21.1 - Fevereiro de 2021 {#release-21-1---february-2021}
 
 **Novos recursos incluídos na versão**
 
-Serviço de feedback de email - [Leia mais](../../sending/using/confirming-the-send.md#message-indicators)
+Serviço de feedback por email - [Leia mais](../../sending/using/confirming-the-send.md#message-indicators)
 
 Melhorias na integração do Adobe Experience Manager: [leia mais](../../integrating/using/creating-multilingual-email-aem.md)
 
@@ -43,9 +46,9 @@ Foram adicionadas informações sobre a nova função GetOption que permite reto
 
 Foram adicionadas informações sobre a nova variável de saída **[!UICONTROL filesCount]** disponível depois de usar uma atividade **[!UICONTROL Transfer file]**. [Leia mais](../../automating/using/transfer-file.md#output-variables)
 
-A seção **Configuração do canal de email** foi atualizada para esclarecer quais são as configurações de email mais recentes aplicáveis. Alguns parâmetros herdados ainda estão sendo usados para determinados clientes são listados na parte inferior da página. [Leia mais](../../administration/using/configuring-email-channel.md)
+A seção **Configuração do canal de email** foi atualizada para esclarecer quais são as configurações de email mais recentes aplicáveis. Alguns parâmetros herdados ainda em uso para determinados clientes estão listados na parte inferior da página. [Leia mais](../../administration/using/configuring-email-channel.md)
 
-Foram adicionadas informações sobre como garantir que um workflow agendado não seja reagendado até que uma ou mais tarefas de uma execução anterior ainda estejam pendentes. [Leia mais](../../automating/using/scheduled-workflows-execution.md)
+Foram adicionadas informações sobre como garantir que um fluxo de trabalho agendado não seja reagendado até que uma ou mais tarefas de uma execução anterior ainda estejam pendentes. [Leia mais](../../automating/using/scheduled-workflows-execution.md)
 
 ## Dezembro de 2020 {#doc-updates-december-2020}
 
@@ -53,7 +56,7 @@ Foram adicionadas informações sobre como garantir que um workflow agendado nã
 
 A seção **Introdução a mensagens transacionais** agora inclui [esquemas aprimorados](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) para obter uma melhor compreensão do processo.
 
-Um caso de uso completo para ilustrar o processo de implementação de mensagens transacionais está disponível. [Leia mais](../../channels/using/transactional-messaging-use-case.md)
+Um caso de uso completo para ilustrar o processo de implementação de mensagens transacionais está disponível agora. [Leia mais](../../channels/using/transactional-messaging-use-case.md)
 
 A seção **Privacidade** foi movida para [este local](../../start/using/privacy.md).
 
@@ -67,13 +70,13 @@ A seção **Utilizar listas de produtos em uma mensagem transacional** foi movid
 
 ## Novembro de 2020 {#doc-updates-november-2020}
 
-A seção **Personal Data and Personas** foi atualizada com um cenário de caso de uso para ilustrar como as diferentes personas estão interagindo em relação à Privacidade. [Leia mais](../../start/using/privacy.md#use-case-scenario)
+A seção **Dados pessoais e personalidades** foi atualizada com um cenário de caso de uso para ilustrar como as diferentes personalidades estão interagindo com relação à privacidade. [Leia mais](../../start/using/privacy.md#use-case-scenario)
 
 Adição de uma nova seção listando Perguntas frequentes sobre privacidade. [Leia mais](../../start/using/privacy-faq.md)
 
-A seção **Privacy** foi movida e enriquecida com duas novas páginas: [Gerenciamento de privacidade](../../start/using/privacy-management.md) e [Gerenciamento de solicitações de privacidade](../../start/using/privacy-requests.md).
+A seção **Privacidade** foi movida e enriquecida com duas novas páginas: [Gerenciamento de privacidade](../../start/using/privacy-management.md) e [Solicitações de gerenciamento de privacidade](../../start/using/privacy-requests.md).
 
-A seção **Transactional messaging** foi reorganizada e reunida em um único local para navegação aprimorada. [Leia mais](../../channels/using/getting-started-with-transactional-msg.md)
+A seção **Mensagens transacionais** foi reorganizada e reunida em um único local para navegação aprimorada. [Leia mais](../../channels/using/getting-started-with-transactional-msg.md)
 
 Na seção Adobe Experience Platform Data Connector, foram adicionadas informações sobre o erro de validação de mapeamento de dados relacionado ao gerenciamento de privacidade e como solucioná-lo. [Leia mais](../../integrating/using/aep-mapping-activation.md)
 
@@ -99,7 +102,7 @@ Adição de uma seção para descrever os novos filtros que permitem pesquisar a
 
 ## Setembro de 2020 {#doc-updates-september-2020}
 
-A seção **Event transactional messages** foi reorganizada e esclarecida. [Leia mais](../../channels/using/editing-transactional-message.md)
+A seção **Mensagens transacionais do evento** foi reorganizada e explicada. [Leia mais](../../channels/using/editing-transactional-message.md)
 
 Uma nota de advertência foi adicionada para avisar os usuários sobre a limitação de permissões relacionada ao acesso ao log. [Leia mais](../../administration/using/users-management.md)
 
@@ -115,7 +118,7 @@ Está disponível uma nova seção atualizada sobre como começar a usar mensage
 
 A seção de **limitações de mensagens transacionais** foi movida [para cá](../../channels/using/transactional-messaging-limitations.md).
 
-A seção **Preparando o envio** foi movida [para cá](../../sending/using/preparing-the-send.md).
+A seção **Preparação do envio** foi movida [para cá](../../sending/using/preparing-the-send.md).
 
 ## Julho de 2020 {#doc-updates-july-2020}
 
