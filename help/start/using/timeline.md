@@ -7,10 +7,13 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaignCalendar,main
+feature: Campanhas
+role: Profissional
+level: Iniciante
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '376'
 ht-degree: 91%
 
 ---
@@ -33,7 +36,7 @@ A linha vertical azul é um marcador cronológico para realçar a data atual. Po
 Use os ícones para;
 
 * ![](assets/timeline_zoom_in.png) reduzir o perímetro ou aumentar o nível de detalhes por um período mais limitado, até que os dias sejam exibidos
-* ![](assets/timeline_zoom_out.png) aumentar o perímetro ou exibir um período maior
+* ![](assets/timeline_zoom_out.png) aumente o perímetro ou exiba um período de tempo maior
 
 Clique na seta à direita de cada nome de programa para exibir o conteúdo correspondente. Um programa pode conter subprogramas, campanhas e landing pages. Uma campanha é implantada da mesma forma que um programa e pode conter emails, SMS e landing pages.
 
