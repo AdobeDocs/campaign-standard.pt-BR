@@ -7,22 +7,25 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 context-tags: delivery,main
+feature: Monitoramento de desempenho
+role: Profissional
+level: Iniciante
 translation-type: tm+mt
-source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 89%
+source-wordcount: '466'
+ht-degree: 88%
 
 ---
 
 
 # Monitorar um delivery{#monitoring-a-delivery}
 
-Há várias maneiras de monitorar um delivery e medir o impacto. Como administrador funcional, você pode acessar os registros de mensagens e logs do delivery.
+Há várias maneiras de monitorar um delivery e medir o impacto. Como administrador funcional, você pode acessar logs de mensagens e logs do delivery.
 
 >[!IMPORTANT]
 >
->Somente os [administradores](../../administration/using/users-management.md#functional-administrators) funcionais, com a função **[!UICONTROL Administration]** e o acesso a **Todas** unidades podem acessar registros de envio, registros de mensagens, logs de rastreamento, exclusão ou registros de subscrições. Um usuário não administrativo pode público alvo desses registros, mas iniciando em uma tabela vinculada (perfis, delivery).
+>Somente os [administradores](../../administration/using/users-management.md#functional-administrators) funcionais, com a função **[!UICONTROL Administration]** e o acesso a **Todas** unidades podem acessar logs de envio, logs de mensagem, logs de rastreamento, exclusões ou logs de assinatura. Um usuário não administrador pode direcionar esses logs, mas começar em uma tabela vinculada (perfis, delivery).
 
 * **Logs de mensagem**: esses logs podem ser acessados diretamente do painel de mensagens. Eles mostram os detalhes do envio, o target que foi excluído e o motivo, bem como as informações de rastreamento, como aberturas e cliques.
 
