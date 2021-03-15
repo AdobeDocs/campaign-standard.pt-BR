@@ -7,10 +7,13 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
+feature: Regras de tipologia
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '557'
 ht-degree: 96%
 
 ---
@@ -67,7 +70,7 @@ No modo de operação padrão, as regras são aplicadas na seguinte sequência:
 1. Regras de controle, se elas forem aplicadas no início do direcionamento.
 1. Regras de filtragem:
 
-   * Regras nativas para a qualificação de endereço: endereço definido / endereço não verificado / endereço em lista de bloqueios / endereço em quarentena / qualidade do endereço.
+   * Regras de candidatura nativas para a qualificação de endereço: endereço definido / endereço não verificado / endereço em lista de bloqueios / endereço em quarentena / qualidade do endereço.
    * Filtrar regras definidas pelo usuário.
 
 1. Regras de controle, se elas forem aplicadas no final do direcionamento.
