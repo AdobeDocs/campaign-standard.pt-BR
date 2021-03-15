@@ -2,16 +2,19 @@
 solution: Campaign Standard
 product: campaign
 title: União em dois públicos-alvo refinados
-description: Este caso de uso mostra a união de duas atividades de audiência de leitura.
+description: Este caso de uso mostra a união de duas atividades Read audience .
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: readAudience,main
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 58%
+source-wordcount: '154'
+ht-degree: 57%
 
 ---
 
@@ -24,7 +27,7 @@ O fluxo de trabalho de reconciliação foi criado deste modo:
 
 ![](assets/readaudience_activity_example1.png)
 
-* Uma primeira atividade [Ler audiência](../../automating/using/read-audience.md) que recupera a audiência dos membros Gold e a refina selecionando apenas perfis com idade entre 18 e 30 anos.
+* Uma primeira atividade [Read audience](../../automating/using/read-audience.md) que recupera o público-alvo dos membros Gold e o refina selecionando apenas os perfis entre 18 e 30 anos.
 * Uma primeira atividade **[!UICONTROL Read audience]** que recupera o público-alvo dos membros Silver e o refina selecionando apenas os perfis entre 18 e 30 anos.
-* Uma atividade [União](../../automating/using/union.md) que une populações de ambas as atividades **[!UICONTROL Read audiences]** em uma população final.
-* Uma atividade [delivery de email](../../automating/using/email-delivery.md) que envia o email para a população proveniente da atividade **[!UICONTROL Union]**.
+* Uma atividade [Union](../../automating/using/union.md) que une as populações das duas atividades **[!UICONTROL Read audiences]** em uma população final.
+* Uma atividade [Email delivery](../../automating/using/email-delivery.md) que envia o email para a população proveniente da atividade **[!UICONTROL Union]**.
