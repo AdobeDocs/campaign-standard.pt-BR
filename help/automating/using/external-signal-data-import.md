@@ -2,16 +2,19 @@
 solution: Campaign Standard
 product: campaign
 title: Sinal externo e importação de dados
-description: O exemplo a seguir ilustra a atividade de sinal Externo usada com a importação de dados.
+description: O exemplo a seguir ilustra a atividade External signal usada na importação de dados.
 audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: signal,main
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 79%
+source-wordcount: '233'
+ht-degree: 78%
 
 ---
 
@@ -38,13 +41,13 @@ O workflow de origem é apresentado da seguinte maneira:
 
 * Uma atividade de [Reconciliação](../../automating/using/reconciliation.md) cria os links entre os dados importados e o banco de dados para que os dados de transações sejam conectados corretamente a perfis e produtos.
 * Uma atividade [Atualizar dados](../../automating/using/update-data.md) insere e atualiza o recurso Transações do banco de dados com os dados recebidos.
-* Uma atividade [End](../../automating/using/start-and-end.md) aciona o fluxo de trabalho de destino, que é usado para atualizar o agregação.
+* Uma atividade [End](../../automating/using/start-and-end.md) aciona o workflow de destino, que é usado para atualizar agregações.
 
 ![](assets/signal_example_source1.png)
 
 O workflow de destino é apresentado da seguinte forma:
 
-* Uma atividade [sinal externo](../../automating/using/external-signal.md) aguarda a conclusão com êxito do fluxo de trabalho de origem.
+* Uma atividade [External signal](../../automating/using/external-signal.md) aguarda a conclusão com êxito do workflow de origem.
 * Uma atividade de [Query](../../automating/using/query.md#enriching-data) é direcionada a perfis e os enriquece com uma coleção definida para recuperar a data da última compra.
 * Uma atividade [Atualizar dados](../../automating/using/update-data.md) armazena os dados adicionais em um campo personalizado dedicado. Observe que o recurso de perfil foi estendido para adicionar o campo **Last purchase date**.
 
