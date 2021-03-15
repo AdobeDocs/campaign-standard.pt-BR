@@ -6,10 +6,13 @@ description: Saiba mais sobre como recuperar perfis com APIs.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: da0aa6c111f3e44bb502c1e5c4ad7feff9108d81
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '233'
 ht-degree: 5%
 
 ---
@@ -19,15 +22,15 @@ ht-degree: 5%
 
 A recuperação de perfis é realizada com uma solicitação **GET**.
 
-Você pode refinar sua pesquisa usando filtros, pedidos e paginação. Para obter mais informações, consulte a seção [Operações adicionais](../../api/using/sorting.md).
+Você pode refinar sua pesquisa usando filtros, pedidos e paginação. Para obter mais informações, consulte a seção [Additional operations](../../api/using/sorting.md).
 
-Além disso, as APIs de Campaign Standard permitem pesquisar perfis com base em um desses campos: email, nome, sobrenome ou qualquer campo personalizado. Para obter mais informações, consulte [esta seção](#searching-field).
+Além disso, as APIs do Campaign Standard permitem pesquisar perfis com base em um desses campos: email, nome, sobrenome ou qualquer campo personalizado. Para obter mais informações, consulte [esta seção](#searching-field).
 
 <br/>
 
-***Pedidos de amostra***
+***Solicitações de exemplo***
 
-* Amostra de solicitação de GET para recuperar todos os perfis.
+* Amostra de solicitação do GET para recuperar todos os perfis.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -53,7 +56,7 @@ Além disso, as APIs de Campaign Standard permitem pesquisar perfis com base em 
    }
    ```
 
-* Amostra de solicitação de GET para recuperar os primeiros 10 valores de email.
+* Solicitação de exemplo do GET para recuperar os primeiros 10 valores de email.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \
@@ -63,7 +66,7 @@ Além disso, as APIs de Campaign Standard permitem pesquisar perfis com base em 
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   Resposta à solicitação. O nó &quot;próximo&quot; retorna o URL que fornece acesso aos 10 valores de e-mail seguintes.
+   Resposta à solicitação. O nó &quot;next&quot; retorna o URL que dá acesso aos 10 próximos valores de email.
 
    ```
    {
@@ -86,17 +89,17 @@ Além disso, as APIs de Campaign Standard permitem pesquisar perfis com base em 
    }
    ```
 
-## Procurando perfis com base em um campo {#searching-field}
+## Armazenamento de perfis com base em um campo {#searching-field}
 
-O parâmetro **[!UICONTROL filterType]** permite recuperar perfis com base em um destes campos: email, nome, sobrenome ou qualquer campo personalizado que tenha sido adicionado na filtragem Avançada ao estender o recurso de perfil.
+O parâmetro **[!UICONTROL filterType]** permite recuperar perfis com base em um desses campos: email, nome, sobrenome ou qualquer campo personalizado que tenha sido adicionado na Filtragem avançada ao estender o recurso de perfil.
 
 >[!NOTE]
 >
->As pesquisas fazem distinção entre maiúsculas e minúsculas e são executadas somente em prefixos. Por exemplo, você não poderá procurar por um perfil usando as últimas letras do seu sobrenome.
+>As pesquisas fazem distinção entre maiúsculas e minúsculas e são executadas somente em prefixos. Por exemplo, você não poderá procurar um perfil usando as últimas letras do seu sobrenome.
 
-***Pedidos de amostra***
+***Solicitações de exemplo***
 
-* Solicitação de amostra para filtrar perfis com base no nome.
+* Solicitação de exemplo para filtrar perfis com base no nome.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John&filterType=firstName \
@@ -106,7 +109,7 @@ O parâmetro **[!UICONTROL filterType]** permite recuperar perfis com base em um
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-* Solicitação de amostra para filtrar perfis com base no sobrenome.
+* Solicitação de exemplo para filtrar perfis com base no sobrenome.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Miller&filterType=lastName \
@@ -116,7 +119,7 @@ O parâmetro **[!UICONTROL filterType]** permite recuperar perfis com base em um
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-* Solicitação de amostra para filtrar perfis com base em email.
+* Solicitação de exemplo para filtrar perfis com base no email.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John%40gmail.com&filterType=email \
@@ -126,7 +129,7 @@ O parâmetro **[!UICONTROL filterType]** permite recuperar perfis com base em um
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-* Solicitação de amostra para filtrar perfis com base no campo personalizado &quot;Hobby&quot;.
+* Solicitação de exemplo para filtrar perfis com base no campo personalizado &quot;Hobby&quot;.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byText?cusHobby=Dancing&filterType=Hobby \
