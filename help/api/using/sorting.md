@@ -6,10 +6,13 @@ description: Saiba mais sobre como executar operações de classificação
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '93'
 ht-degree: 11%
 
 ---
@@ -23,9 +26,9 @@ Para saber se um campo pode ser classificado, verifique o parâmetro &quot;class
 
 <br/>
 
-***Pedidos de amostra***
+***Solicitações de exemplo***
 
-* Solicitação de amostra de GET para recuperar e-mails no banco de dados ordenados alfabeticamente.
+* Solicitação de exemplo do GET para recuperar emails no banco de dados em ordem alfabética.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email/email?_order=email \
@@ -50,7 +53,7 @@ Para saber se um campo pode ser classificado, verifique o parâmetro &quot;class
    }
    ```
 
-* Amostra de solicitação de GET para recuperar o email no banco de dados em uma ordem alfabética decrescente.
+* Solicitação de amostra do GET para recuperar o email no banco de dados em uma ordem alfabética decrescente.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \
