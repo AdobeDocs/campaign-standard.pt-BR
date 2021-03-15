@@ -7,10 +7,13 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: activity,overview
+feature: Campanhas
+role: Profissional
+level: Iniciante
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '491'
 ht-degree: 83%
 
 ---
@@ -85,12 +88,12 @@ De acordo com o contexto, você pode:
 * Criar um SMS - [Saiba mais](../../channels/using/creating-an-sms-message.md)
 * Criar uma notificação por push - [Saiba mais](../../channels/using/preparing-and-sending-a-push-notification.md)
 * Criar uma mensagem no aplicativo - [Saiba mais](../../channels/using/about-in-app-messaging.md)
-* Criar um fluxo de trabalho - [Saiba mais](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* Criar um workflow - [Saiba mais](../../automating/using/building-a-workflow.md#creating-a-workflow)
 * Criar uma landing page - [Saiba mais](../../channels/using/getting-started-with-landing-pages.md)
 * Criar uma campanha - [Saiba mais](../../start/using/programs-and-campaigns.md#creating-a-campaign)
 * Criar um programa - [Saiba mais](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
->Você também pode criar uma atividade de marketing na lista de atividades de marketing. Nesse caso, é possível criar qualquer tipo de atividade e escolher vincular a atividade de marketing a uma campanha pai (ou a um programa pai, se você criar um programa) pelas propriedades da atividade.
+>Você também pode criar uma atividade de marketing na lista de atividades de marketing. Nesse caso, é possível criar qualquer tipo de atividade e optar por vincular a atividade de marketing a uma campanha principal (ou a um programa principal, se você criar um programa) por meio das propriedades da atividade.
 
