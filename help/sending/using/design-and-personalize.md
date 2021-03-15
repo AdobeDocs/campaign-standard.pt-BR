@@ -6,18 +6,22 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: Saiba como criar o conteúdo da mensagem e tentar evitar problemas comuns que podem impedir a execução do delivery. 
+feature: Avaliação do delivery
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 86%
+source-wordcount: '930'
+ht-degree: 83%
 
 ---
 
 
 # Criar conteúdo personalizado {#build-personalized-content}
 
-Ao criar o conteúdo da sua mensagem, tente evitar problemas comuns que possam impedir a execução do delivery. Na maioria das vezes, possíveis erros estão relacionados à [personalização](../../designing/using/personalization.md), formatação quando [usar um conteúdo existente](../../designing/using/using-existing-content.md) - e [conversão de um conteúdo HTML](../../designing/using/using-existing-content.md#converting-an-html-content) - e [imagens](../../designing/using/images.md).
+Ao criar o conteúdo da sua mensagem, tente evitar problemas comuns que possam impedir a execução do delivery. Na maioria das vezes, possíveis erros estão relacionados a [personalização](../../designing/using/personalization.md), formatação quando [usar um conteúdo existente](../../designing/using/using-existing-content.md) - e [conversão de um conteúdo HTML](../../designing/using/using-existing-content.md#converting-an-html-content) - e [imagens](../../designing/using/images.md).
 
 ## Otimizar personalização {#optimize-personalization}
 
@@ -31,7 +35,7 @@ Verifique se o conteúdo da sua mensagem foi projetado corretamente para evitar 
 O conteúdo dinâmico pode ser adicionado manualmente para exibir um conteúdo diferente para seus destinatários, de acordo com as condições definidas no editor de expressão. Ao adicionar conteúdo dinâmico, você sempre deve deixar uma variante padrão para destinatários que não atendem às condições selecionadas.
 Para obter mais informações sobre conteúdo dinâmico, consulte [esta seção](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
-**Dicas**  - Pré-visualização seu email com perfis de teste diferentes para verificar se o conteúdo dinâmico foi configurado corretamente.
+**Dicas**  - Visualize seu email com diferentes perfis de teste para garantir que seu conteúdo dinâmico esteja configurado corretamente.
 
 ## Criar conteúdo otimizado {#optimize-content}
 
@@ -63,9 +67,9 @@ Sempre inclua um link de mirror page. A posição preferencial é a parte superi
 
 ### Link de unsubscription
 
-O link de unsubscription é essencial. Deve ser visível e válido e o formulário deve ser funcional. Saiba mais sobre as diretrizes de link de unsubscription [nesta seção](../../designing/using/personalization.md#about-targeting-dimension).
+O link de unsubscription é essencial. Deve ser visível e válido e o formulário deve ser funcional. Saiba mais sobre as diretrizes de link de cancelamento de subscrição [nesta seção](../../designing/using/personalization.md#about-targeting-dimension).
 
-Por padrão, quando a mensagem é analisada, um controle [regra de tipologia](../../sending/using/control-rules.md) verifica se um link de opção de não participação foi incluído e gera um aviso se estiver faltando.
+Por padrão, quando a mensagem é analisada, um controle [typology rule](../../sending/using/control-rules.md) verifica se um link para opção de não participação foi incluído e gera um aviso se estiver ausente.
 
 **Dica**: como o erro humano é sempre possível, verifique se o link para opção de não participação funciona corretamente antes de cada envio. Por exemplo, ao enviar a prova, verifique se o link é válido, se o formulário está online e se o campo “Não contatar mais este recipient” foi alterado para Sim.
 
@@ -106,9 +110,9 @@ O design responsivo garante que o email seja processado de maneira ideal para o 
 
 * Use HTML responsivo de email em vez de HTML para web
 
-* Use o modo de visualização e envie provas para testar a renderização no máximo de dispositivos possível. Saiba como [mensagem de pré-visualização](../../sending/using/previewing-messages.md) antes de enviar.
+* Use o modo de visualização e envie provas para testar a renderização no máximo de dispositivos possível. Saiba como [visualizar mensagem](../../sending/using/previewing-messages.md) antes de enviar.
 
-* O Campaign Email Designer vem com modelos de design responsivos formatados para dispositivos móveis. Saiba mais [nesta página](../../designing/using/using-reusable-content.md#content-templates).
+* O Campaign Email Designer vem com modelos formatados com design responsivo para dispositivos móveis. Saiba mais [nesta página](../../designing/using/using-reusable-content.md#content-templates).
 
 ## Gestão de imagens {#manage-images}
 
@@ -136,4 +140,4 @@ Para serem acessadas de fora, as imagens usadas em emails e recursos públicos v
 
 A Adobe recomenda visualizar a mensagem para verificar a personalização e como os recipients verão o delivery.
 
-No Designer de email, o botão **[!UICONTROL Preview]** permite que você visualização a renderização de cada conteúdo para um recipient. Os campos de personalização e os elementos condicionais do conteúdo são substituídos pelas informações correspondentes para o perfil selecionado. [Saiba mais](../../sending/using/previewing-messages.md)
+No Designer de email, o botão **[!UICONTROL Preview]** permite visualizar a renderização de cada conteúdo para um recipient. Os campos de personalização e os elementos condicionais do conteúdo são substituídos pelas informações correspondentes para o perfil selecionado. [Saiba mais](../../sending/using/previewing-messages.md)
