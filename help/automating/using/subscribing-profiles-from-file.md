@@ -2,21 +2,24 @@
 solution: Campaign Standard
 product: campaign
 title: Assinatura de perfis para um serviço específico a partir de um arquivo
-description: Este caso de uso mostra como importar um arquivo contendo perfis e assiná-los em um serviço existente.
+description: Este caso de uso mostra como importar um arquivo contendo perfis e assiná-los a um serviço existente.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 53%
+source-wordcount: '242'
+ht-degree: 52%
 
 ---
 
 
-# Inscrever perfis em um serviço específico após importar um arquivo {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
+# Assinatura de perfis para um serviço específico após importar um arquivo {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
 Este exemplo ilustra como importar um arquivo contendo perfis e fazer a assinatura de todos eles para um serviço existente. Após a importação do arquivo, é necessário fazer uma reconciliação para que os dados importados possam ser identificados como perfis. Para garantir que o arquivo não contenha nenhuma duplicata, uma atividade de desduplicação é executada nos dados.
 
@@ -24,7 +27,7 @@ O fluxo de trabalho é apresentado da seguinte forma:
 
 ![](assets/subscription_activity_example1.png)
 
-* Uma atividade [Carregar arquivo](../../automating/using/load-file.md) carrega o arquivo de perfil e define a estrutura das colunas importadas.
+* Uma atividade [Load file](../../automating/using/load-file.md) carrega o arquivo de perfil e define a estrutura das colunas importadas.
 
    Neste exemplo, o arquivo carregado está no formato .csv e contém os seguintes dados:
 
@@ -43,14 +46,14 @@ O fluxo de trabalho é apresentado da seguinte forma:
 
    ![](assets/subscription_activity_example2.png)
 
-* Uma atividade [Reconciliation](../../automating/using/reconciliation.md) identifica os dados do arquivo como pertencendo à dimensão do perfil do banco de dados Adobe Campaign. Somente a guia **[!UICONTROL Identification]** está configurada. Ela identifica os dados do arquivo de acordo com os endereços de email dos perfis.
+* Uma atividade [Reconciliation](../../automating/using/reconciliation.md) identifica os dados do arquivo como pertencente à dimensão de perfil do banco de dados do Adobe Campaign. Somente a guia **[!UICONTROL Identification]** está configurada. Ela identifica os dados do arquivo de acordo com os endereços de email dos perfis.
 
    ![](assets/subscription_activity_example3.png)
 
-* Um [Desduplicação-duplicado](../../automating/using/deduplication.md) baseado no campo **email** do recurso temporário (resultante da reconciliação) identifica quaisquer duplicados. Se os dados importados do arquivo tiverem duplicatas, a assinatura para um serviço falhará para todos os dados.
+* Uma [Desduplicação](../../automating/using/deduplication.md) com base no campo **email** do recurso temporário (resultante da reconciliação) identifica duplicatas. Se os dados importados do arquivo tiverem duplicatas, a assinatura para um serviço falhará para todos os dados.
 
    ![](assets/subscription_activity_example5.png)
 
-* Uma atividade [Subscrição no serviço](../../automating/using/subscription-services.md) permite selecionar o serviço ao qual os perfis devem ser inscritos, o campo correspondente à data da subscrição e a origem da subscrição.
+* Uma atividade [Subscription Services](../../automating/using/subscription-services.md) permite selecionar o serviço ao qual os perfis devem ser subscritos, o campo correspondente à data da assinatura e a origem da assinatura.
 
    ![](assets/subscription_activity_example4.png)
