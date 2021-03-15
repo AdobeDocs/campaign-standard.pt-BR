@@ -2,16 +2,19 @@
 solution: Campaign Standard
 product: campaign
 title: Reconciliar um público do tipo Arquivo com o banco de dados
-description: Este exemplo mostra como usar a atividade Ler audiência para reconciliar uma audiência criada diretamente de uma importação de arquivo.
+description: Este exemplo mostra como usar a atividade Read audience para reconciliar um público-alvo criado diretamente de uma importação de arquivo.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: readAudience,main
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 87%
+source-wordcount: '258'
+ht-degree: 86%
 
 ---
 
@@ -50,6 +53,6 @@ O fluxo de trabalho de reconciliação foi criado da seguinte forma:
 
 ![](assets/readaudience_activity_example2.png)
 
-* Uma atividade [Ler audiência](../../automating/using/read-audience.md) carrega a audiência Arquivo criada no fluxo de trabalho de importação. Os dados do público-alvo ainda não foram reconciliados com o banco de dados do Adobe Campaign.
+* Uma atividade [Read audience](../../automating/using/read-audience.md) faz upload do público-alvo File criado no fluxo de trabalho de importação. Os dados do público-alvo ainda não foram reconciliados com o banco de dados do Adobe Campaign.
 * Uma atividade [Reconciliation](../../automating/using/reconciliation.md) identifica os dados recebidos como perfis por meio da guia **[!UICONTROL Identification]**. Por exemplo, usando o campo **email** como critério de reconciliação.
 * Uma atividade [Update data](../../automating/using/update-data.md) insere e atualiza o recurso de perfis do banco de dados com os dados recebidos. Como os dados já estão identificados como perfis, você pode selecionar a opção **[!UICONTROL Directly using the targeting dimension]** e selecionar **[!UICONTROL Profiles]** na guia **[!UICONTROL Identification]** da atividade. Em seguida, adicione a lista de campos que precisam ser atualizados na guia correspondente.
