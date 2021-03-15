@@ -2,29 +2,32 @@
 solution: Campaign Standard
 product: campaign
 title: Atualização dos atributos de uma unidade geográfica
-description: Saiba como atualizar os atributos de uma unidade geográfica com as APIs
+description: Saiba como atualizar atributos de uma unidade geográfica com APIs
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 11%
+source-wordcount: '90'
+ht-degree: 12%
 
 ---
 
 
 # Atualização dos atributos de uma unidade geográfica {#managing-geographical-units}
 
-1. Execute uma solicitação de GET no recurso **geoUnitBase** para recuperar o PKey da unidade geográfica.
-1. Execute uma solicitação de PATCH na unidade Geográfica, com os atributos a serem atualizados na carga.
+1. Execute uma solicitação GET no recurso **geoUnitBase** para recuperar a PKey da unidade geográfica.
+1. Execute uma solicitação de PATCH na unidade geográfica, com os atributos a serem atualizados na carga útil.
 
 <br/>
 
-***Solicitação de amostra***
+***Solicitação de exemplo***
 
-Recuperar a lista das unidades geográficas.
+Recupere a lista de unidades geográficas.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/ \
@@ -34,7 +37,7 @@ Recuperar a lista das unidades geográficas.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Retorna todas as unidades Geográficas. Recupere o PKey da unidade desejada.
+Retorna todas as unidades geográficas. Recupere a chave da unidade desejada.
 
 ```
 {
@@ -50,7 +53,7 @@ Retorna todas as unidades Geográficas. Recupere o PKey da unidade desejada.
 },
 ```
 
-Execute uma solicitação de PATCH na unidade Geográfica, com os atributos a serem atualizados na carga.
+Execute uma solicitação de PATCH na unidade geográfica, com os atributos a serem atualizados na carga útil.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \
