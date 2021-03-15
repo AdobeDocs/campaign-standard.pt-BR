@@ -7,11 +7,14 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
+feature: Configurações de instância
+role: Administrador
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1773'
-ht-degree: 85%
+source-wordcount: '1777'
+ht-degree: 84%
 
 ---
 
@@ -82,7 +85,7 @@ Para evitar esses problemas, a Adobe recomenda seguir as práticas recomendadas 
 * Ocasionalmente, conecte-se no SFTP para verificar diretamente o que encontra-se lá.
 * Lembre-se de que o gerenciamento de disco SFTP é predominantemente sua responsabilidade.
 
-Além disso, observe que os IPs públicos dos quais você está tentando iniciar a conexão SFTP devem ser adicionados à lista de permissões na instância da Campanha. A adição de endereços IP à lista de permissões pode ser solicitada por meio de um [tíquete de suporte](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html), junto com o fornecimento da chave pública a ser usada para autenticação.
+Além disso, observe que os IPs públicos dos quais você está tentando iniciar a conexão SFTP devem ser adicionados à lista de permissões na instância do Campaign. A adição de endereços IP à  de lista de permissões pode ser solicitada por meio de um [tíquete de suporte](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html), juntamente com o fornecimento da chave pública para uso na autenticação.
 
 Servidores SFTP podem ser gerenciados no Painel de controle do Campaign. Para obter mais informações, consulte a [documentação do Painel de controle do Campaign](https://docs.adobe.com/content/help/pt-BR/control-panel/using/sftp-management/about-sftp-management.html).
 
@@ -96,18 +99,18 @@ Servidores SFTP podem ser gerenciados no Painel de controle do Campaign. Para ob
 
 Para uma conta externa OAuth 2.0, forneça os seguintes detalhes:
 
-* Um **Tipo de concessão**: só há suporte para **credenciais de cliente**.
+* Um **Tipo de concessão**: somente **credenciais de cliente** são suportadas.
 * Um **URL da API segura**: insira o endpoint de autorização.
-* **Credenciais** confidenciais do OAuth 2.0: Esta seção destina-se a credenciais sensíveis à natureza. Os valores das credenciais serão mascarados no ecrã depois de adicionados; nessa altura, não serão legíveis nem editáveis. Se o endpoint de autorização exigir que uma credencial específica seja inserida no cabeçalho de autorização HTTP em vez do parâmetro POST body, você poderá selecionar a opção Incluir no cabeçalho para essa credencial.
-* **Credenciais** não confidenciais do OAuth 2.0: Esta seção destina-se a credenciais que não são sensíveis por natureza. Os valores das credenciais serão visíveis no ecrã depois de adicionados; eles também serão editáveis.  Se o endpoint de autorização exigir que uma credencial específica seja inserida no cabeçalho de autorização HTTP em vez do parâmetro POST body, você poderá selecionar a opção Incluir no cabeçalho para essa credencial.
+* **Credenciais** confidenciais do OAuth 2.0: Esta seção destina-se a credenciais confidenciais. Os valores de credenciais serão mascarados na tela após a sua adição; nesse momento, eles não serão legíveis nem editáveis. Se o endpoint de autorização exigir que uma credencial específica seja inserida no cabeçalho de autorização HTTP em vez do parâmetro POST body , é possível selecionar a opção Include in header para essa credencial.
+* **Credenciais** não confidenciais do OAuth 2.0: Esta seção destina-se a credenciais que não são confidenciais. Os valores de credenciais estarão visíveis na tela após a sua adição; eles também serão editáveis.  Se o endpoint de autorização exigir que uma credencial específica seja inserida no cabeçalho de autorização HTTP em vez do parâmetro POST body , é possível selecionar a opção Include in header para essa credencial.
 
-Depois de inserir as informações da conta, clique em **Testar conexão** para verificar se a conta externa foi configurada corretamente.
+Depois de inserir as informações da conta, clique em **Test connection** para verificar se a conta externa foi configurada corretamente.
 
 ![](assets/external_accounts_OAuth.png)
 
 >[!NOTE]
 >
->As credenciais &quot;Content-Type: application/x-www-form-urlencoded&quot; e &quot;Grant_type=client_entials&quot; serão automaticamente adicionados à chamada da API; portanto, não será necessário adicioná-los na seção de credenciais.
+>As credenciais &quot;Content-Type: application/x-www-form-urlencoded&quot; e &quot;grant_type=client_credentials&quot; serão automaticamente adicionadas à chamada da API; portanto, não será necessário adicioná-los na seção credenciais.
 
 ## Conta externa do Amazon S3 {#amazon-s3-external-account}
 
