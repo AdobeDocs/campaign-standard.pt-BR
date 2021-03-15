@@ -5,10 +5,13 @@ products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
+feature: Integração do Microsoft CRM
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 93e4310c606cb39a1071b8e20d88978839007765
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1077'
 ht-degree: 2%
 
 ---
@@ -69,7 +72,7 @@ Ao navegar pela primeira vez na interface do usuário, você deve ver uma págin
 
 >[!NOTE]
 >
-> É normal receber alertas que mencionam que é &quot;não é possível se conectar&quot; ao Adobe Campaign Standard ou ao Microsoft Dynamics 365 se as configurações do aplicativo ainda não tiverem sido definidas.
+> É normal receber alertas que mencionam que é &quot;não é possível se conectar&quot; ao Adobe Campaign Standard ou ao Microsoft Dynamics 365 se as configurações do aplicativo ainda não foram definidas.
 
 Verifique se as seleções &quot;ORG&quot; e &quot;INSTANCE&quot; são as que você planeja configurar.  Caso contrário, clique na lista suspensa e selecione a organização e a instância corretas.
 
@@ -84,7 +87,7 @@ Se tiver a organização e a instância corretas, clique no menu &quot;hamburger
 Na página **[!UICONTROL Settings]**, preencha as seguintes seções:
 
 * Credenciais do Microsoft Dynamics 365
-* Credenciais da Adobe
+* Credenciais do Adobe
 
 Vá [aqui](../../integrating/using/d365-acs-self-service-app-settings.md) para encontrar informações mais detalhadas sobre onde encontrar as informações para cada entrada. Quando terminar, clique no botão **[!UICONTROL Save]** na parte inferior.
 
@@ -128,11 +131,11 @@ Um menu suspenso será exibido ao clicar no botão com as três linhas horizonta
 
 As entradas no menu suspenso são:
 
-* **Configurações**: Selecionar essa opção enviará você para uma tela que permite especificar credenciais da API para o Microsoft Dynamics 365 e o Adobe Campaign, bem como outras configurações gerais para o aplicativo.
+* **Configurações**: Selecionar essa opção enviará você para uma tela que permite especificar credenciais da API para o Microsoft Dynamics 365 e Adobe Campaign, bem como outras configurações gerais para o aplicativo.
 
 * **Documentação**: Essa opção é um link para a Documentação do Adobe Campaign específico para essa integração
 
-* **Atendimento** ao cliente: Este é um link para a documentação da Experience Cloud relacionada à abertura de um ticket do Atendimento ao cliente
+* **Atendimento** ao cliente: Este é um link para a documentação do Experience Cloud relacionada à abertura de um ticket do Atendimento ao cliente
 
 * **Fazer logoff**: Isso permitirá que você saia do aplicativo e faça logon novamente como outro usuário.
 
