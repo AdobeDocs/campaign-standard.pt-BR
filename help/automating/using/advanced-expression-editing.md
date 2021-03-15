@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1096'
 ht-degree: 98%
 
 ---
@@ -24,7 +27,7 @@ A edição de uma expressão envolve a inserção manual de condições para for
 
 Esse modo permite usar funções avançadas. Essas funções permitem manipular os valores usados para realizar consultas específicas, como manipular datas, strings, campos numéricos, classificação etc.
 
-Também é possível usar as variáveis de eventos de workflows ao editar a expressão. Para obter mais informações, consulte a seção [Personalização de atividades com variáveis de eventos](../../automating/using/customizing-workflow-external-parameters.md).
+Também é possível usar variáveis de eventos de workflows ao editar a expressão. Para obter mais informações, consulte a seção [Personalização de atividades com variáveis de eventos](../../automating/using/customizing-workflow-external-parameters.md).
 
 É possível editar expressões para:
 
@@ -106,8 +109,7 @@ As expressões JavaScript são constituídas por uma ou várias condições e us
    * **&lt;value2>** é um campo, uma função ou um valor inserido manualmente.
 
    >[!NOTE]
-   >
-   >Os dados dos tipos **&lt;context>** e **&lt;value2>** devem ser idênticos. Por exemplo, se **&lt;context>** for uma data, **&lt;value2>** também deverá ser uma data.
+   Os dados dos tipos **&lt;context>** e **&lt;value2>** devem ser idênticos. Por exemplo, se **&lt;context>** for uma data, **&lt;value2>** também deverá ser uma data.
 
 * Se quiser usar várias condições, elas poderão ser combinadas usando operadores lógicos.
 
