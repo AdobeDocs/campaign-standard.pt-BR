@@ -2,25 +2,28 @@
 solution: Campaign Standard
 product: campaign
 title: Atualização do banco de dados com dados externos
-description: Este caso de uso apresenta como adicionar ou atualizar perfis ao banco de dados da Adobe Campaign com os dados recuperados do arquivo.
+description: Este caso de uso apresenta como adicionar ou atualizar perfis ao banco de dados do Adobe Campaign com os dados recuperados do arquivo.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: writer,main
+feature: Fluxos de trabalho
+role: Arquiteto de dados
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 33%
+source-wordcount: '110'
+ht-degree: 32%
 
 ---
 
 
 # Atualização do banco de dados com dados externos {#update-database-file}
 
-O exemplo a seguir mostra a configuração de uma atividade **[!UICONTROL Update data]** após uma atividade **[!UICONTROL Load file]**. O objetivo desse fluxo de trabalho é adicionar ou atualizar perfis ao banco de dados do Adobe Campaign com os dados recuperados do arquivo.
+O exemplo a seguir mostra a configuração de uma atividade **[!UICONTROL Update data]** após uma atividade **[!UICONTROL Load file]** . O objetivo desse fluxo de trabalho é adicionar ou atualizar perfis ao banco de dados do Adobe Campaign com os dados recuperados do arquivo.
 
-Neste exemplo, a chave de reconciliação usada é o **endereço de email**. O arquivo carregado na atividade [Load file](../../automating/using/load-file.md) é um arquivo de formato **.txt** que contém os seguintes dados de exemplo:
+Neste exemplo, a chave de reconciliação usada é o **endereço de email**. O arquivo carregado na atividade [Load file](../../automating/using/load-file.md) é um arquivo de formato **.txt** contendo os seguintes exemplos de dados:
 
 ```
 lastname;firstname;email;birthdate
@@ -35,7 +38,7 @@ grimes;daryl;daryl_890@testmail.com;12/06/1979
 tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
 ```
 
-A atividade [Atualizar dados](../../automating/using/update-data.md) está configurada da seguinte forma:
+A atividade [Update data](../../automating/using/update-data.md) é configurada da seguinte maneira:
 
 ![](assets/deduplication_example2_writer1.png)
 
