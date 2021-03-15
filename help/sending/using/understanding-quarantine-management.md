@@ -6,11 +6,14 @@ description: Saiba como otimizar sua capacidade de delivery com o gerenciamento 
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
+feature: Avaliação do delivery
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 84%
+source-wordcount: '785'
+ht-degree: 83%
 
 ---
 
@@ -33,17 +36,17 @@ Além disso, a quarentena ajuda a reduzir os custos de envio de SMS, excluindo n
 
 Para obter mais informações sobre as práticas recomendadas para proteger e otimizar seus deliveries, consulte [esta página](../../sending/using/delivery-best-practices.md).
 
-### Quarentena vs Lista de bloqueios {#quarantine-vs-denylist}
+### Quarentena versus Lista de bloqueios {#quarantine-vs-denylist}
 
 A **quarentena** se aplica somente a um endereço, não ao próprio perfil. Isso significa que, se dois perfis tiverem o mesmo endereço de email, eles serão afetados se o endereço estiver em quarentena.
 
 Da mesma forma, um perfil cujo endereço de email está em quarentena poderia atualizar seu perfil e inserir um novo endereço e pode ser alvo de ações de delivery novamente.
 
-Estar na **Lista de bloqueios perfil**, por outro lado, fará com que o  não seja mais direcionado por nenhum delivery, por exemplo, após uma unsubscription (recusa). Para obter mais informações sobre o processo de  lista de bloqueios, consulte [Sobre aceitação e recusa na Campanha](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Por outro lado, com a **Lista de bloqueios**, o perfil não será mais alvo de qualquer delivery, por exemplo, depois da unsubscription (recusa). Para obter mais informações sobre o processo de  de lista de bloqueios, consulte [Sobre participação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!NOTE]
 >
->Quando um usuário responde a uma mensagem SMS com uma palavra-chave como &quot;PARAR&quot; para recusar delivery SMS, seu perfil não está em lista de bloqueios como no processo de recusa por email. O número de telefone do perfil é enviado para a quarentena com o status **[!UICONTROL On denylist]**. Esse status se refere apenas ao número de telefone, o perfil não está em lista de bloqueios para que o usuário continue recebendo mensagens de email. Para obter mais informações, consulte [esta seção](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
+>Quando um usuário responde a uma mensagem SMS com uma palavra-chave, como &quot;PARAR&quot;, para recusar os deliveries de SMS, seu perfil não está em lista de bloqueios, como no processo de recusa de email. O número de telefone do perfil é enviado para a quarentena com o status **[!UICONTROL On denylist]**. Esse status se refere apenas ao número de telefone. O perfil não está lista de bloqueios para que o usuário continue recebendo mensagens de email. Para obter mais informações, consulte [esta seção](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
 ## Identificação de endereços em quarentena {#identifying-quarantined-addresses}
 
@@ -83,11 +86,10 @@ O Adobe Campaign gerencia a quarentena de acordo com o tipo de falha do delivery
 
    Quando um delivery é bem-sucedido após uma tentativa, o contador de erros do endereço anterior à quarentena é reinicializado. O status do endereço é alterado para **[!UICONTROL Valid]** e excluído da lista de quarentenas após dois dias pelo fluxo de trabalho **[!UICONTROL Database cleanup]**.
 
-Se um usuário qualificar um email como spam (**Loop de feedback**), a mensagem será automaticamente redirecionada para uma caixa de entrada técnica gerenciada pelo Campaign. Em seguida, o endereço de email do usuário será enviado automaticamente para quarentena com o status **[!UICONTROL On denylist]**. Esse status se refere apenas ao endereço, o perfil não está na lista de bloqueios, portanto, o usuário continua recebendo mensagens SMS e notificações por push.
+Se um usuário qualificar um email como spam (**Loop de feedback**), a mensagem será automaticamente redirecionada para uma caixa de entrada técnica gerenciada pelo Campaign. Em seguida, o endereço de email do usuário será enviado automaticamente para quarentena com o status **[!UICONTROL On denylist]**. Esse status se refere somente ao endereço, o perfil não está na lista de bloqueios, portanto, o usuário continua recebendo mensagens SMS e notificações por push.
 
 >[!NOTE]
->
->A quarentena no Adobe Campaign diferencia maiúsculas de minúsculas. Certifique-se de importar endereços de email em letras minúsculas, para que não sejam redirecionados posteriormente.
+A quarentena no Adobe Campaign diferencia maiúsculas de minúsculas. Certifique-se de importar endereços de email em letras minúsculas, para que não sejam redirecionados posteriormente.
 
 Na lista de endereços em quarentena (consulte [Identificação de endereços em quarentena para toda a plataforma](#identifying-quarantined-addresses-for-the-entire-platform)), o campo **[!UICONTROL Error reason]** indica por que o endereço selecionado foi colocado em quarentena.
 
