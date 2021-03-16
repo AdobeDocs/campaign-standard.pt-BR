@@ -11,9 +11,9 @@ feature: Configurações de instância
 role: Administrador
 level: Experienciado
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '581'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ O rastreamento de notificação local pode ser dividido em três tipos:
 
 * **Impressões locais**  - Quando uma notificação local é entregue ao dispositivo e está sentada no centro de notificações, mas não foi tocada. Na maioria dos casos, o número de impressões deve ser semelhante se não for o mesmo que o número fornecido. Ele garante que o dispositivo recebeu a mensagem e retorna essa informação ao servidor.
 
-* **Clique local**  - Quando uma notificação local for entregue ao dispositivo e o usuário clicar no dispositivo. O usuário quis exibir a notificação (que, por sua vez, mudará para o rastreamento aberto local) ou rejeitar a notificação.
+* **Clique local**  - Quando uma notificação local for entregue ao dispositivo e o usuário clicar na notificação. O usuário quis exibir a notificação (que, por sua vez, mudará para o rastreamento aberto local) ou rejeitar a notificação.
 
 * **Local open**  - Quando uma notificação local é entregue ao dispositivo e o usuário clicou na notificação que causa a abertura do aplicativo. Isso é semelhante ao clique local, exceto que uma abertura local não será acionada se a notificação for descartada.
 
@@ -39,39 +39,17 @@ Para enviar informações de rastreamento, há três variáveis que precisam ser
 
 | Variável | Valor |
 | :-: | :-: |
-| deliveryId | &quot;deliveryId&quot; dos dados de entrada (semelhante ao rastreamento de push, onde&quot;_dld&quot; é usado) |
-| broadlogId | &quot;broadlogId&quot; dos dados de entrada (semelhante ao rastreamento de push, onde &quot;_mld&quot; é usado) |
+| deliveryId | `deliveryId` de dados de entrada (semelhante ao rastreamento de push, em que  `_dld` é usado) |
+| broadlogId | `broadlogId` de dados de entrada (semelhante ao rastreamento de push, em que  `_mld` é usado) |
 | ação | &quot;1&quot; para Abrir, &quot;2&quot; para Clique e &quot;7&quot; para Impressão |
 
-## Implementação do rastreamento de impressão local {#implement-local-impression-tracking}
+## Implementar o rastreamento de impressões local {#implement-local-impression-tracking}
 
-Para o rastreamento de impressões, é necessário enviar o valor &quot;7&quot; para a ação ao chamar as funções collectMessageInfo() ou trackAction() .
+O SDK do Adobe Experience Platform Mobile enviará automaticamente o evento de impressão para Android e iOS, sem qualquer configuração adicional.
 
-### Para Android {#implement-local-impression-tracking-android}
+## Implementar o rastreamento de cliques {#implementing-click-tracking}
 
-O SDK do Adobe Experience Platform Mobile inicia o rastreamento de impressões para notificações locais ao acioná-lo.
-
-### Para iOS {#implement-local-impression-tracking-ios}
-
-Para explicar como implementar o rastreamento de impressão, precisamos entender os três estados de um aplicativo:
-
-* **Primeiro plano**: quando o aplicativo estiver ativo no momento e na tela em primeiro plano.
-
-* **Plano de fundo**: quando o aplicativo não estiver na tela, mas o processo também não estiver fechado. Ao clicar duas vezes no botão inicial, ele normalmente mostra todos os aplicativos em segundo plano.
-
-* **Desligado/Fechado**: quando o processo do aplicativo foi interrompido. Se um aplicativo for fechado, a Apple não o chamará até que o aplicativo seja reiniciado. Isso significa que você nunca pode realmente saber quando a notificação foi recebida no iOS.
-
-Para que o rastreamento de impressões continue funcionando enquanto o aplicativo está em segundo plano, precisamos enviar &quot;Content-Available&quot; para informar ao aplicativo que o rastreamento precisa ser feito.
-
-O SDK do Adobe Experience Platform Mobile inicia o rastreamento de impressões para notificações locais ao acioná-lo.
-
->[!CAUTION]
->
->O rastreamento de impressões do iOS não é preciso e não deve ser observado de forma confiável.
-
-## Implementação do rastreamento de cliques {#implementing-click-tracking}
-
-Para o rastreamento de cliques, é necessário enviar o valor &quot;2&quot; para a ação ao chamar as funções collectMessageInfo() ou trackAction() .
+Para o rastreamento de cliques, é necessário enviar o valor &quot;2&quot; para a ação ao chamar as funções `collectMessageInfo()` ou `trackAction()`.
 
 ### Para Android {#implement-click-tracking-android}
 
@@ -79,51 +57,26 @@ Para rastrear cliques, dois cenários precisam ser tratados:
 
 * O usuário vê a notificação, mas a limpa.
 
+   Para rastrear cliques no caso de desativação, adicione o receptor da transmissão `NotificationDismissalHandler` no arquivo AndroidManifest do módulo de aplicativo.
+
+   ```
+   <receiver
+   android:name="com.adobe.marketing.mobile.NotificationDismissalHandler">
+   </receiver>
+   ```
+
 * O usuário vê a notificação e clica nela, isso se transformará em um rastreamento aberto.
 
-O primeiro cenário de clique é rastreado pelo Adobe Experience Platform Mobile SDK.
+   Esse cenário deve produzir um clique e uma abertura. O rastreamento desse clique fará parte da implementação necessária para rastrear a abertura. Consulte [Implementação do rastreamento aberto](#implement-open-tracking).
 
 ### Para iOS {#implement-click-tracking-ios}
 
-```
-// AppDelegate.swift
-...
-import os.log
-import UserNotifications
-...
-  
-func registerForPushNotifications() {
-        let center = UNUserNotificationCenter.current()
-        center.delegate = notificationDelegate
-        //Here we are creating a new Category that allows us to handle Dismiss Actions
-        let defaultCategory = UNNotificationCategory(identifier: "DEFAULT", actions: [], intentIdentifiers: [], options: .customDismissAction)
-        //Add it to our array of Category, in this case we only have one
-        center.setNotificationCategories([defaultCategory])
-        center.requestAuthorization(options: [.alert, .sound, .badge]) {
-            (granted, error) in
-            os_log("Permission granted: %{public}@", type:. debug, granted.description)
-            if error != nil {
-                return
-            }
-            if granted {
-                os_log("Notifications allowed", type: .debug)
-            }
-            else {
-                os_log("Notifications denied", type: .debug)
-            }
-  
-            // 2. Attempt registration for remote notifications on the main thread
-            DispatchQueue.main.async {
-                UIApplication.shared.registerForRemoteNotifications()
-            }
-        }
-    }
-```
-
-Em seguida, para lidar com o descarte e enviar uma informação de rastreamento, é necessário adicionar o seguinte:
+Para enviar as informações de rastreamento de cliques, é necessário adicionar o seguinte:
 
 ```
-func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
+
+   func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
         let userInfo = response.notification.request.content.userInfo
         switch response.actionIdentifier {
         case UNNotificationDismissActionIdentifier:
@@ -131,19 +84,25 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
             let deliveryId = userInfo["deliveryId"] as? String
             let broadlogId = userInfo["broadlogId"] as? String
             if (deliveryId != nil && broadlogId != nil) {
-                // If you're using  ACPCore v2.3.0 or later, use the line below.
+                
+                //If you are using ACPCore v2.3.0 or later, use the next line.
+                
                 ACPCore.collectMessageInfo(["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
-                // Else comment out the above line and uncomment the line below
+                
+                //Else comment out the above line and uncomment the line below
+                
                 // ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
             }
         default:
+            
             ////MORE CODE
         }
         completionHandler()
     }
+}
 ```
 
-## Implementação do rastreamento aberto {#implement-open-tracking}
+## Implementar o rastreamento aberto {#implement-open-tracking}
 
 É necessário enviar &quot;1&quot; e &quot;2&quot;, pois o usuário deve clicar na notificação para abrir o aplicativo. Se o aplicativo não for iniciado/aberto por meio da notificação local, nenhum evento de rastreamento ocorrerá.
 
@@ -161,38 +120,50 @@ protected void onResume() {
     super.onResume();
     handleTracking();
 }
-  
-  
+ 
+ 
 private void handleTracking() {
+
     //Check to see if this view was opened based on a notification
+
     Intent intent = getIntent();
     Bundle data = intent.getExtras();
-  
+ 
     if (data != null) {
-        //Looks it was opened based on the notification, lets get the tracking we passed on.
+
+        //Opened based on the notification, you need to get the tracking that was passed on.
+
         Map<String, String> notificationData = (Map<String, Object>)data.getSerializableExtra("NOTIFICATION_USER_INFO");
         String deliveryId = (String)notificationData.get("deliveryId");
         String messageId = (String)notificationData.get("broadlogId");
-  
-  
-  
+
         if (deliveryId != null && messageId != null) {
             HashMap<String, String> contextData = new HashMap<>();
             contextData.put("deliveryId", deliveryId);
             contextData.put("broadlogId", messageId);
-  
-            //Send Click Tracking since the user did click on the notification
+ 
+            //Send click tracking since the user did click on the notification
+
             contextData.put("action", "2");
-            // If you're using  ACPCore v1.4.0 or later, use the next line.
+
+            //If you are using ACPCore v1.4.0 or later, use the next line.
+    
             MobileCore.collectMessageInfo(contextData);
-            // Else comment out the above line and uncomment the line below
+
+            //Else comment out the above line and uncomment the line below
+
             // MobileCore.trackAction("tracking", contextData);
-  
-            //Send Open Tracking since the user opened the app
+ 
+            //Send open tracking since the user opened the app
+
             contextData.put("action", "1");
-            // If you're using  ACPCore v1.4.0 or later, use the next line.
+
+            //If you are using  ACPCore v1.4.0 or later, use the next line.
+
             MobileCore.collectMessageInfo(contextData);
-            // Else comment out the above line and uncomment the line below
+
+            //Else comment out the above line and uncomment the line below
+
             // MobileCore.trackAction("tracking", contextData);
         }
     }
@@ -207,34 +178,45 @@ import Foundation
 import UserNotifications
 import UserNotificationsUI
 import ACPCore
-  
+ 
 class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
-  
-    // Called when user clicks the local notification or also called from willPresent()
+ 
+    //Called when user clicks the local notification or also called from willPresent()
+
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
-  
+ 
         let userInfo = response.notification.request.content.userInfo
         os_log("App push data %{public}@, in userNotificationCenter:didReceive()", type: .debug, userInfo)
         switch response.actionIdentifier {
         case UNNotificationDismissActionIdentifier:
-            //This is to handle the Dismiss Action
+
+            //This is to handle the Dismiss action
+
             let deliveryId = userInfo["deliveryId"] as? String
             let broadlogId = userInfo["broadlogId"] as? String
             if (deliveryId != nil && broadlogId != nil) {
-            // If you're using  ACPCore v2.3.0 or later, use the line below.
+
+                //If you are using ACPCore v2.3.0 or later, use the next line.
+
                 ACPCore.collectMessageInfo(["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
-            // Else comment out the above line and uncomment the line below
-            // ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
+
+                //Else comment out the above line and uncomment the line below
+
+                // ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
             }
         default:
             //This is to handle the tracking when the app opens
             let deliveryId = userInfo["deliveryId"] as? String
             let broadlogId = userInfo["broadlogId"] as? String
             if (deliveryId != nil && broadlogId != nil) {
-               // If you're using  ACPCore v2.3.0 or later, use the line below.
+
+               //If you are using ACPCore v2.3.0 or later, use the next line.
+
                ACPCore.collectMessageInfo(["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
                ACPCore.collectMessageInfo(["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"1"])
-               // Else comment out the above line and uncomment the line below
+
+               //Else comment out the above line and uncomment the line below
+
                // ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
                // ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"1"])
             }
