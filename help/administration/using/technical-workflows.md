@@ -10,9 +10,9 @@ feature: Configurações de instância
 role: Administrador
 level: Experienciado
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '658'
 ht-degree: 96%
 
 ---
@@ -77,11 +77,6 @@ Os fluxos de trabalho técnicos são usados para lidar com processos técnicos e
    <td> <span class="uicontrol">Reconciliação de KPIs com o Adobe Analytics</span> <br /> </td> 
    <td> <span class="uicontrol">kpiReconciliation</span> <br /> </td> 
    <td> Este fluxo de trabalho obtém os KPIs do serviço Reporting uma vez por dia e os reconcilia com os dados do Adobe Analytics. Em seguida, envia por push a diferença, se necessário. Por padrão, ele é iniciado todos os dias às 4:20.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">Gerenciamento de recusas do NMAC</span> <br /> </td> 
-   <td> <span class="uicontrol">mobileAppOptOutMgt</span> <br /> </td> 
-   <td> Este fluxo de trabalho atualiza as unsubscriptions para notificações nos dispositivos móveis. Por padrão, ele é iniciado a cada 6 horas entre 1:00 e meia-noite.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Arquivamento local do centro de mensagens</span> <br /> </td> 
