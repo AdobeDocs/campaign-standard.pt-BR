@@ -271,8 +271,8 @@ ht-degree: 99%
          + [Gerenciar workflows de sincronização](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Mapear dados entre o Microsoft Dynamics 365 e o Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [Usar a integração com o Microsoft Dynamics 365](integrating/using/d365-acs-using-the-integration.md)
-   + Campanha e Adobe Experience Platform {#adobe-experience-platform}
-      + Serviço de destinos do público-alvo {#audience-destinations}
+   + Campaign e Adobe Experience Platform {#adobe-experience-platform}
+      + Serviço Audience Destinations {#audience-destinations}
          + [Sobre o serviço Destinos do Audience](integrating/using/aep-about-audience-destinations-service.md)
          + [Gerenciamento de públicos da plataforma Adobe Experience](integrating/using/aep-managing-audiences.md)
          + [Usar o Criador de segmentos](integrating/using/aep-using-segment-builder.md)
