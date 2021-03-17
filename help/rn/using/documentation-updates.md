@@ -26,9 +26,9 @@ Além das [Notas de versão](../../rn/using/release-notes.md) do Adobe Campaign,
 
 A seção que lista as principais etapas para enviar uma mensagem foi aprimorada com informações e referências adicionais. [Leia mais](../../channels/using/key-steps-to-send-a-message.md)
 
-Foram adicionadas informações para especificar que, ao selecionar um público em um query, sua definição é copiada e não referenciada. [Leia mais](../../audiences/using/selecting-an-audience-in-a-message.md)
+Foram adicionadas informações para especificar que, ao selecionar uma audiência em um query, sua definição é copiada e não referenciada. [Leia mais](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-As informações relacionadas ao Serviço de destinos do público-alvo e ao Conector de dados do Adobe Experience Platform foram reagrupadas em uma nova seção. [Leia mais](../../integrating/using/aep-about-audience-destinations-service.md)
+As informações relacionadas ao Serviço Audience Destinations e ao Conector de dados da Adobe Experience Platform foram reagrupadas em uma nova seção. [Leia mais](../../integrating/using/aep-about-audience-destinations-service.md)
 
 ## Versão 21.1 - Fevereiro de 2021 {#release-21-1---february-2021}
 
