@@ -11,10 +11,10 @@ feature: Avaliação do delivery
 role: Profissional
 level: Intermediário
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 64%
+source-wordcount: '471'
+ht-degree: 59%
 
 ---
 
@@ -38,7 +38,7 @@ Se o problema persistir, entre em contato com os serviços comerciais ou de entr
 
 * **Qual é a diferença entre um endereço de email em lista de bloqueios e um email em quarentena?**
 
-   * O status **[!UICONTROL On denylist]** é resultado de um ciclo de feedback (quando uma pessoa reporta uma mensagem como spam).
+   * O status **[!UICONTROL On denylist]** é resultado de um [ciclo de feedback](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) (quando uma pessoa relata uma mensagem como spam).
 
    * O status **[!UICONTROL Quarantined]** é resultado de um salto suave ou forte.
    Para obter mais informações, consulte esta [seção](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
