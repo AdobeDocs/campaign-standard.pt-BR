@@ -11,10 +11,10 @@ feature: Fluxos de trabalho
 role: Arquiteto de dados
 level: Iniciante
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: b82335a0c0bf1abc7b9645beee83ac659c4d6b83
 workflow-type: tm+mt
 source-wordcount: '1183'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -50,7 +50,7 @@ Você pode duplicar fluxos de trabalho. Em **[!UICONTROL Marketing Activities]**
 
 ### Quantidade de fluxos de trabalhos
 
-Por padrão, recomendamos não executar mais de 20 fluxos de trabalho ativos simultaneamente. Após atingir esse limite, os fluxos de trabalho serão enfileirados para não afetar o desempenho. Da mesma forma, a Adobe recomenda que você separe a execução do fluxo de trabalho ao longo do tempo.
+Por padrão, recomendamos não executar mais de 20 fluxos de trabalho ativos simultaneamente. Após atingir esse limite, os fluxos de trabalho serão enfileirados para não afetar o desempenho. Da mesma forma, o Adobe recomenda que você separe a execução do fluxo de trabalho ao longo do tempo.
 Em contextos específicos, talvez seja necessário executar mais de 20 fluxos de trabalho. Isso não se aplica a fluxos de trabalho que estejam aguardando uma execução programada.  Em caso afirmativo, verifique os casos de uso com um especialista do Campaign e entre em contato com o Atendimento ao cliente da Adobe para aumentar o limite.
 
 >[!NOTE]
