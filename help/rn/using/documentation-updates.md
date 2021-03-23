@@ -10,10 +10,10 @@ feature: Visão geral
 role: Profissional
 level: Iniciante
 translation-type: tm+mt
-source-git-commit: a632087e69a952ff71b828670a1df19ead3dc2c8
+source-git-commit: dd71d843436220c0313d08d76c17633306301456
 workflow-type: tm+mt
-source-wordcount: '6639'
-ht-degree: 99%
+source-wordcount: '6736'
+ht-degree: 98%
 
 ---
 
@@ -29,6 +29,12 @@ A seção que lista as principais etapas para enviar uma mensagem foi aprimorada
 Foram adicionadas informações para especificar que, ao selecionar uma audiência em um query, sua definição é copiada e não referenciada. [Leia mais](../../audiences/using/selecting-an-audience-in-a-message.md)
 
 As informações relacionadas ao Serviço Audience Destinations e ao Conector de dados da Adobe Experience Platform foram reagrupadas em uma nova seção. [Leia mais](../../integrating/using/aep-about-audience-destinations-service.md)
+
+**A fonte** de dados da ID declarada agora também pode ser usada com a integração do serviço principal Pessoas. Foram adicionadas informações na documentação de integração do Campaign-Audience Manager ou do serviço principal Pessoas. [Leia mais](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+
+Foram adicionadas informações sobre como implementar o rastreamento local para aplicativo móvel. [Leia mais](../../administration/using/local-tracking.md)
+
+A seção [Deliverability](../../sending/using/about-deliverability.md) foi atualizada e agora inclui links para o novo [Adobe Deliverability Best Practice Guide](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html). Todas as informações genéricas relacionadas à capacidade de entrega que podem ser aplicadas a várias soluções do Adobe foram movidas para o [Guia de Práticas Recomendadas Apêndice](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources).
 
 ## Versão 21.1 - Fevereiro de 2021 {#release-21-1---february-2021}
 
@@ -274,7 +280,7 @@ A seção Exportar logs foi atualizada para refletir a disponibilidade da ID de 
 
 ## Janeiro de 2020 {#doc-updates-january-2020}
 
-A documentação de Avaliação do delivery foi atualizada com uma nova seção sobre Certificação de IP. [Leia mais](../../sending/using/ip-certification.md)
+A documentação de Avaliação do delivery foi atualizada com uma nova seção sobre Certificação de IP.<!--[Read more](../../sending/using/ip-certification.md)-->
 
 Uma nova seção que descreve como criar um workflow de delivery entre canais está disponível. [Leia mais](../../automating/using/workflow-cross-channel-delivery.md)
 
