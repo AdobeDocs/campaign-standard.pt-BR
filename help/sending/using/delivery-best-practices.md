@@ -11,10 +11,10 @@ feature: Avaliação do delivery
 role: Profissional
 level: Intermediário
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 48%
+ht-degree: 50%
 
 ---
 
@@ -33,7 +33,7 @@ Conheça as práticas recomendadas relacionadas ao design e envio com o Adobe Ca
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
-**[Personalizar conteúdo](optimize-delivery.md)**  - Aplicar configurações corretas
+**[Personalizar conteúdo](design-and-personalize.md)**  - Aplicar configurações corretas
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
