@@ -11,10 +11,10 @@ feature: Avaliação do delivery
 role: Profissional
 level: Intermediário
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 86%
+source-wordcount: '754'
+ht-degree: 85%
 
 ---
 
@@ -55,7 +55,7 @@ Para alcançar a caixa de entrada de seus recipients sem ser rejeitado ou ser ma
 
    * Ao verificar seu email quanto à capacidade de delivery, você deseja se concentrar em quatro categorias principais: qualidade de dados, mensagem e conteúdo, infraestrutura de envio e reputação. Para aprofundar esse tópico, consulte [esta seção](../../sending/using/about-deliverability.md).
 
-* Ao iniciar uma nova plataforma, aplique as recomendações detalhadas [nesta página](../../sending/using/starting-new-platform.md).
+* Ao iniciar uma nova plataforma, aplique as recomendações detalhadas em [this page](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
 
 * Entre em contato com seu representante da Adobe para obter assistência.
 
