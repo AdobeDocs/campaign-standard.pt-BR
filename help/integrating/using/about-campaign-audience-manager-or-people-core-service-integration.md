@@ -10,10 +10,10 @@ feature: Triggers
 role: Arquiteto de dados
 level: Intermediário
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a6272db76fbfca7b9ebcc3734368f7c032b234af
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 10%
+source-wordcount: '522'
+ht-degree: 9%
 
 ---
 
@@ -41,9 +41,12 @@ A integração oferece suporte a dois tipos de Adobe Experience Cloud IDs:
 * **ID** declarada: esse tipo de ID permite reconciliar qualquer tipo de dados com elementos do banco de dados do Adobe Campaign. Ele é representado no Adobe Campaign como uma chave de reconciliação predefinida. Ao trocar dados, os identificadores de banco de dados do Adobe Campaign são atribuídos a hash. Essas IDs com hash são comparadas às IDs com hash do público-alvo da Adobe Marketing Cloud envolvidas na importação ou exportação.
    <br>Essa integração oferece suporte a IDs declaradas comuns, IDs declaradas com hash e IDs declaradas criptografadas.
 
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >A ID declarada funcionará somente com o Adobe Audience Manager. A ID declarada não funcionará sem ela.
+   >A fonte de dados da ID declarada agora também pode ser usada com a integração do Serviço principal de pessoas.
+   >
+   >Se estiver usando a integração do serviço principal Pessoas e quiser adicionar a integração do Audience Manager, será necessário a ajuda de um consultor da Adobe Audience Manager para evitar a perda de todas as sincronizações de ID coletadas durante a transição para o uso dessa fonte de dados de ID declarada em um contexto Adobe Audience Manager.
+
 
    A criptografia permite compartilhar dados criptografados em fontes de dados (por exemplo, PII) usando a ID declarada, especificando o algoritmo de criptografia.
 
