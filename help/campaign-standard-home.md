@@ -8,10 +8,10 @@ feature: Visão geral
 role: Profissional
 level: Iniciante
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e9de904801c0cf49c1dad415a30e75e9b49e4b1d
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Saiba mais sobre as diretrizes gerais para delivery para dispositivos móveis (S
 
 ## Páginas principais
 
-<table>
+<table style="table-layout:fixed">
 <tr>
   <td valign="top">
     <a href="administration/using/about-access-management.md">
