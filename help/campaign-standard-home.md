@@ -8,7 +8,7 @@ feature: Visão geral
 role: Profissional
 level: Iniciante
 translation-type: tm+mt
-source-git-commit: e9de904801c0cf49c1dad415a30e75e9b49e4b1d
+source-git-commit: 8d47cc5546a392283e90914e3b6c9d7e70aaa218
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 100%
