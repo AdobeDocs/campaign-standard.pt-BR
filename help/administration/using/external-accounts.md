@@ -11,10 +11,10 @@ feature: Configurações de instância
 role: Administrador
 level: Experienciado
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 84%
+source-wordcount: '1778'
+ht-degree: 83%
 
 ---
 
@@ -91,9 +91,7 @@ Servidores SFTP podem ser gerenciados no Painel de controle do Campaign. Para ob
 
 >[!NOTE]
 >
->O Painel de controle do Campaign está disponível somente para usuários Administradores de clientes hospedados na AWS.
->
->Verifique [aqui](https://docs.adobe.com/content/help/pt-BR/control-panel/using/faq.html#ims-org-id) se a sua instância está hospedada na AWS.
+>O Painel de controle do Campaign é acessível a todos os usuários administradores. As etapas para conceder acesso de Administrador a um usuário estão detalhadas em [this page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
 
 ## Conta OAuth 2.0 {#oauth-account}
 
