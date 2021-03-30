@@ -8,9 +8,9 @@ feature: Visão geral
 role: Profissional
 level: Iniciante
 translation-type: tm+mt
-source-git-commit: 8d47cc5546a392283e90914e3b6c9d7e70aaa218
+source-git-commit: 89f2557865ea943405cec1ac53ea20f08ca32aaa
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
@@ -66,7 +66,7 @@ Saiba mais sobre as diretrizes gerais para delivery para dispositivos móveis (S
   </td>
   <td valign="top">
        <img alt="Suporte" src="start/using/assets/do-not-localize/help.jpeg" />
-    <div><a href="https://helpx.adobe.com/br/campaign/kb/ac-support.html">
+    <div><a href="support.md">
     <strong>Obter suporte</strong></a>
     </div>
     <p><em>Acesse as perguntas frequentes, práticas recomendadas, recursos de ajuda e conecte-se com especialistas</em></p>
