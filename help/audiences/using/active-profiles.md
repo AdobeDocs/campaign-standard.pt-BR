@@ -10,9 +10,9 @@ feature: Perfis
 role: Profissional
 level: Intermediário
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '310'
 ht-degree: 12%
 
 ---
@@ -26,10 +26,9 @@ O Adobe Campaign fornece um relatório que exibe o número de perfis ativos. Est
 
 >[!NOTE]
 >
->Se você estiver hospedado no AWS e usando o Campaign Standard a partir da build 10368, também poderá monitorar o número de perfis ativos usados em suas instâncias diretamente do Painel de controle do Campaign. Para obter mais informações, consulte a [documentação do Painel de controle do Campaign](https://docs.adobe.com/content/help/pt-BR/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+>Se você estiver usando o Campaign Standard da build 10368, também poderá monitorar o número de perfis ativos usados em suas instâncias diretamente do Painel de controle do Campaign. Para obter mais informações, consulte a [documentação do Painel de controle do Campaign](https://docs.adobe.com/content/help/pt-BR/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 >
 >Observe que a métrica Perfis ativos está disponível e é relevante somente para **Instâncias de marketing**. Não é aplicável nem está disponível para instâncias de Execução, ou seja, instâncias de MID (mid-sourcing) e RT (Centro de mensagens/Mensagens em tempo real).
-
 
 Os perfis excluídos durante a preparação do delivery (regras de tipologia, quarentenas, grupos de controle) não são considerados. Um perfil que foi direcionado por vários deliveries será contado apenas uma vez. Na parte inferior do relatório, você encontrará a lista de perfis ativos para cada targeting dimension.
 
