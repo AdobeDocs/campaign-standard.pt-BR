@@ -10,7 +10,7 @@ feature: Visão geral
 role: Profissional
 level: Iniciante
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
 workflow-type: tm+mt
 source-wordcount: '4631'
 ht-degree: 8%
@@ -44,7 +44,7 @@ Visualize as [atualizações de documentação](../../rn/using/documentation-upd
   </tr> 
   <tr> 
    <td> Criação de conteúdo: Importar de um URL<br /> </td> 
-   <td> Importar de um URL permite recuperar rapidamente seu conteúdo criativo de um site para criar emails para qualquer delivery. Além disso, você pode simplificar seu processo criativo, permitindo que terceiros compartilhem conteúdo diretamente por meio de um URL. O conteúdo importado pode ser usado de forma flexível como parte de um único delivery ou no nível de template, garantindo a consistência da marca em todas as campanhas relacionadas, sejam elas baseadas em fluxo de trabalho ou mensagens transacionais, e incluir testes A/B ou multivariados. A importação de um URL converte e rastreia automaticamente todos os links para monitorar o desempenho do email por meio do Dynamic Reporting.<br /> Para obter mais informações, consulte a <a href="../../designing/using/using-existing-content.md#importing-content-from-a-url">documentação detalhada</a>.<br /> </td> 
+   <td> Importar de um URL permite recuperar rapidamente seu conteúdo criativo de um site para criar emails para qualquer delivery. Além disso, você pode simplificar seu processo criativo, permitindo que terceiros compartilhem conteúdo diretamente por meio de um URL. O conteúdo importado pode ser usado de forma flexível como parte de um único delivery ou no nível de template, garantindo a consistência da marca em todas as campanhas relacionadas, sejam elas baseadas em fluxo de trabalho ou mensagens transacionais, e incluir testes A/B ou multivariados. A importação de um URL converte e rastreia automaticamente todos os links para monitorar o desempenho do email por meio do Dynamic Reporting.<br /> Para obter mais informações, consulte a <a href="../../designing/using/using-existing-content.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
