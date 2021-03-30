@@ -450,7 +450,7 @@ Um novo artigo de Planejamento de versão foi publicado para compartilhar datas 
 
 Os links de ajuda contextual disponíveis diretamente do Adobe Campaign foram atualizados.
 
-Esta [página](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/overview.translate.html) é agora a página oficial de Vídeos do Adobe Campaign Standard.
+Esta [página](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/overview.html) é agora a página oficial de Vídeos do Adobe Campaign Standard.
 
 Uma seção foi adicionada sobre retenção de dados que inclui os valores de retenção padrão para tabelas padrão. [Leia mais](../../administration/using/data-retention.md)
 
@@ -732,7 +732,7 @@ Atividade de Enriquecimento - enriqueça os dados com base em transições anter
 
 A maioria dos URLs para integrações do Campaign e das soluções Adobe foi alterada! Verifique os marcadores. [Leia mais](../../integrating/using/get-started-campaign-integrations.md)
 
-O datamodel v1 agora está disponível com a estrutura SQL para recursos incorporados - [Leia mais](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/developing/datamodel/datamodel-audience.translate.html)
+O datamodel v1 agora está disponível com a estrutura SQL para recursos incorporados - [Leia mais](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/developing/datamodel/datamodel-audience.html)
 
 Foram adicionadas informações sobre como preparar uma mensagem em um delivery [Leia mais](../../sending/using/preparing-the-send.md)
 
@@ -938,7 +938,7 @@ Notificações por push recorrentes - [Leia mais](../../automating/using/push-no
 
 Conector S3 (Simple Storage Service) da Amazon - [Leia mais](../../administration/using/external-accounts.md)
 
-Integração do Dreamweaver ativa - [Leia mais](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html)
+Integração do Dreamweaver ativa - [Leia mais](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 **Outras atualizações de documentação incluídas na versão**
 
