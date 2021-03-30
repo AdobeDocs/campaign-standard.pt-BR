@@ -24,7 +24,7 @@ ht-degree: 100%
 
 * **[A versão de fevereiro do Campaign 21.1 está disponível!](rn/using/release-notes.md)**<br/> Descubra novos recursos, atualizações e correções mais recentes
 
-* **[Atualizar devoluções permanentes incorretas](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Saiba como atualizar devoluções permanentes incorretas após a interrupção do Gmail
+* **[Atualizar devoluções permanentes incorretas](https://helpx.adobe.com/br/campaign/kb/update-bounce-qualification.html)**<br/> Saiba como atualizar devoluções permanentes incorretas após a interrupção do Gmail
 
 * **[Grupos de controle](sending/using/control-group.md)**<br/>
 Meça o impacto de suas campanhas excluindo parte dos públicos
@@ -84,4 +84,4 @@ Saiba mais sobre as diretrizes gerais para delivery para dispositivos móveis (S
 | [Guia de implementação](https://helpx.adobe.com/br/campaign/kb/campaign-standard-implementation-guide.html) | [Lista de mensagens de erro](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Planejamento de versão](rn/using/release-planning.md) | [Modelo de dados do Campaign](developing/using/datamodel-introduction.md) |
 | [Recursos obsoletos e removidos](rn/using/deprecated-features.md) | [Guia multissoluções](integrating/using/get-started-campaign-integrations.md) |
-| [Introdução ao Campaign Standard](start/using/about-campaign-standard.md) | [Notas técnicas](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
+| [Introdução ao Campaign Standard](start/using/about-campaign-standard.md) | [Notas técnicas](https://helpx.adobe.com/br/campaign/kb/acs-article-list.html) |
