@@ -10,10 +10,10 @@ feature: Visão geral
 role: Profissional
 level: Iniciante
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
 workflow-type: tm+mt
 source-wordcount: '2482'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 99%
 <li>O cálculo do indicador <b>Entregue</b> agora se baseia no feedback em tempo real do MTA aprimorado para melhorar a precisão e a reatividade.</li>
 <li>O EFS soluciona o problema de atrasos de relatórios síncronos de devoluções temporárias.</li>
 </ul>
-<p>Para obter mais informações consulte a <a href="../../sending/using/confirming-the-send.md#message-indicators">documentação detalhada</a>.
+<p>Para obter mais informações consulte a <a href="../../sending/using/confirming-the-send.md">documentação detalhada</a>.
 </p>
 </td> 
 </tr> 
