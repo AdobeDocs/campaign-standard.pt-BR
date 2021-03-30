@@ -9,11 +9,11 @@ topic-tags: campaign-standard-release-planning
 feature: Visão geral
 role: Profissional
 level: Iniciante
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '470'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Todas as datas de lançamento estão sujeitas a alterações: recomendamos que v
 
 ## Versão 21.2 - Versão de maio {#release-21-2-release}
 
-As atualizações de ambientes ocorrem em ondas, durante os intervalos de tempo indicados abaixo. As datas exatas são comunicadas por email a cada cliente.
+As atualizações de ambientes ocorrem em ondas, durante os intervalos indicados abaixo. As datas exatas são comunicadas por email a cada cliente.
 
 Informações detalhadas sobre esta versão ficam disponíveis nas [Notas de versão](../../rn/using/release-notes.md) quando as atualizações do ambiente de preparo começam.
 
@@ -44,7 +44,7 @@ Informações detalhadas sobre esta versão ficam disponíveis nas [Notas de ver
  <tbody>
   <tr>
    <td>Preparo<br /> </td>
-   <td>19 de abril - 20 de abril de 2021<br /> </td>
+   <td>19 - 20 de abril de 2021<br /> </td>
   </tr>
   <tr>
    <td> Produção<br /> </td>
@@ -65,7 +65,7 @@ R: As alterações estão listadas nas [Notas de versão](../../rn/using/release
 
 **P: Qual é o processo de validação?**
 
-R: À medida que a sua instância de preparo for atualizada, a Adobe recomenda validar se os seus processos e casos de uso estão funcionando corretamente com essa nova versão e comunicar qualquer problema ao [Atendimento ao cliente da Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
+R: À medida que a sua instância de preparo for atualizada, a Adobe recomenda validar se os seus processos e casos de uso estão funcionando corretamente com essa nova versão e comunicar qualquer problema ao [Atendimento ao cliente da Adobe](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html).
 
 **P: Haverá acesso à instância durante o processo de atualização?**
 
@@ -87,4 +87,4 @@ R: Sim, eles funcionarão. Não é possível enviar novos emails durante a atual
 
 R: Ao fazer logon no Campaign, um pop-up de notificação de versão será exibido com a versão mais recente.
 
-Para outras perguntas, entre em contato com o [Atendimento ao cliente da Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
+Para outras perguntas, entre em contato com o [Atendimento ao cliente da Adobe](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html).
