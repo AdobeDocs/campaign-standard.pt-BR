@@ -7,16 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 feature: Monitoramento de desempenho
-role: Profissional
+role: Profissional de negócios
 level: Intermediário
+exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: f7d77f524a6c141066056e53fc8616f35189fc39
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '367'
 ht-degree: 16%
 
 ---
-
 
 # Arquivamento com email Cco{#archiving-emails}
 
@@ -41,7 +41,7 @@ Depois de habilitado, é necessário ativar o Email Cco na opção **[!UICONTROL
 
 >[!NOTE]
 >
->Atualmente, os emails arquivados não podem ser enviados com o MTA aprimorado do Adobe Campaign.
+>Atualmente, os emails arquivados ainda são enviados pelo módulo de arquivamento herdado que usa uma retransmissão SMTP simples.
 
 ## Ativação do arquivamento de email {#activating-email-archiving}
 
