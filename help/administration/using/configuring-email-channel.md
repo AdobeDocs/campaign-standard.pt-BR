@@ -9,15 +9,15 @@ topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
 feature: Configurações de instância
 role: Administrador
-level: Experienciado
+level: Experiente
+exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: b899d1926526fccb2fe1fa42db7a4e4317ddb1cb
 workflow-type: tm+mt
-source-wordcount: '2568'
-ht-degree: 77%
+source-wordcount: '2602'
+ht-degree: 76%
 
 ---
-
 
 # Configuração do canal de email{#configuring-email-channel}
 
@@ -311,7 +311,7 @@ A seção **[!UICONTROL Access authorization]** contém os seguintes parâmetros
 
 ## Configurações herdadas {#legacy-settings}
 
-Se você **não** estiver executando a versão mais recente do Campaign, os parâmetros e as seções da interface do usuário descritas abaixo ainda se aplicam a você.
+Se você estiver **NOT** executando a versão mais recente do Campaign, os parâmetros e as seções da interface do usuário descritas abaixo ainda se aplicam a você.
 
 ### Tentativas {#legacy-retries}
 
@@ -340,6 +340,10 @@ As rejeições podem ter os seguintes status de qualificação:
 * **[!UICONTROL To qualify]**: o email de devolução precisa ser qualificado. A qualificação deve ser feita pela equipe de Deliverability para garantir que a capacidade de delivery da plataforma funcione corretamente. Contanto que não esteja qualificado, o email de devolução não é usado para enriquecer a lista de regras de processamento de email.
 * **[!UICONTROL Keep]**: o email de devolução foi qualificado e será usado pelo workflow  **Update for** deliverability para ser comparado às regras de processamento de email existentes e enriquecer a lista.
 * **[!UICONTROL Ignore]**: o email de devolução foi qualificado, mas não será usado pelo workflow  **Update for** deliverability . Portanto, ele não será enviado para as instâncias do cliente.
+
+>[!NOTE]
+>
+>No caso de uma interrupção de um ISP, os emails enviados pelo Campaign serão marcados incorretamente como rejeições. Para corrigir isso, você precisa atualizar a qualificação de devolução. Para obter mais informações, consulte [esta seção](../../administration/using/update-bounce-qualification.md).
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
