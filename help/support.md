@@ -10,11 +10,11 @@ hidefromtoc: true
 feature: Opções de ajuda e suporte
 role: Profissional
 level: Iniciante
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -38,11 +38,11 @@ Obtenha suporte usando nossas perguntas frequentes, melhores práticas, recursos
 <img src="start/using/assets/do-not-localize/icon-faq.svg" width="60px">
 
 <table>
-    <tr><td><strong>Perguntas e respostas sobre tópicos</strong></td><td><strong>Problemas comuns</strong></td><td><strong>Melhores práticas</strong></td><td><strong>Como</strong></td></tr>
+    <tr><td><strong>Perguntas e respostas sobre tópicos</strong></td><td><strong>Problemas comuns</strong></td><td><strong>Práticas recomendadas</strong></td><td><strong>Como</strong></td></tr>
     <tr>
     <td valign="top">
         <ul>
-        <li><a href="sending/using/monitor-deliverability.md">Avaliação do delivery</a></li>
+        <li><a href="sending/using/monitor-deliverability.md">Capacidade de delivery</a></li>
         <li><a href="administration/using/aep-faq.md">Notificações por push e InApp</a></li>
         <li><a href="designing/using/faq-email-designer.md">Email Designer</a></li>
         </ul>
@@ -50,22 +50,22 @@ Obtenha suporte usando nossas perguntas frequentes, melhores práticas, recursos
     <td valign="top">
         <ul>
         <li><a href="automating/using/monitoring-workflow-execution.md#error-management">Gerenciamento de erros em workflows</a></li>
-        <li><a href="automating/using/best-practices-workflows.md">Soluções de problemas de execução de workflow</a></li>
-        <li><a href="api/using/troubleshooting.md">Solução de problemas de API</a></li>
+        <li><a href="automating/using/best-practices-workflows.md">Soluções de problemas de execução de fluxo de trabalho</a></li>
+        <li><a href="api/using/troubleshooting.md">Soluções de problemas de API</a></li>
         <li><a href="sending/using/understanding-delivery-failures.md">Entender as falhas de delivery</a></li>
         </ul>
     </td>
    <td valign="top">
         <ul>
-        <li><a href="automating/using/best-practices-workflows.md">Práticas recomendadas do fluxo de trabalho</a></li>
+        <li><a href="automating/using/best-practices-workflows.md">Práticas recomendadas de fluxo de trabalho</a></li>
         <li><a href="automating/using/about-workflow-execution.md">Monitoramento de fluxo de trabalho</a></li>
         <li><a href="sending/using/tracking-messages.md">Entender o gerenciamento de rastreamento</a></li>
-        <li><a href="sending/using/about-deliverability.md">Melhores práticas de avaliação do delivery</a></li>
+        <li><a href="sending/using/about-deliverability.md">Práticas recomendadas de capacidade de delivery</a></li>
         <li><a href="automating/using/creating-import-workflow-templates.md">Importar dados com workflows</a></li>
         <li><a href="sending/using/sending-messages-at-the-recipient-s-time-zone.md">Gerenciamento de fuso horário</a></li>
         <li><a href="sending/using/receiving-alerts-when-failures-happen.md">Receber uma notificação quando ocorrer uma falha</a></li>
         <li><a href="designing/using/using-existing-content.md">Importar ou converter um conteúdo de email</a></li>
-        <li><a href="sending/using/delivery-best-practices.md">Práticas recomendadas para delivery</a></li>
+        <li><a href="sending/using/delivery-best-practices.md">Práticas recomendadas de delivery</a></li>
         </ul>
     </td>
     <td valign="top">
@@ -74,9 +74,9 @@ Obtenha suporte usando nossas perguntas frequentes, melhores práticas, recursos
         <li><a href="sending/using/monitoring-a-delivery.md">Monitorar um delivery</a></li>
         <li><a href="sending/using/understanding-quarantine-management.md">Entender o gerenciamento de quarentenas</a></li>
         <li><a href="start/using/privacy-management.md">Gestão do consentimento e da privacidade</a></li>
-        <li><a href="automating/using/query.md">Criar um query</a></li>
+        <li><a href="automating/using/query.md">Criar uma query</a></li>
         <li><a href="automating/using/query-samples.md">Amostras de query</a></li>
-        <li><a href="https://helpx.adobe.com/campaiacs-mobile.html">Configurar canais móveis</a></li>
+        <li><a href="https://helpx.adobe.com/br/campaiacs-mobile.html">Configurar canais móveis</a></li>
         </ul>
     </td>
     </tr>
@@ -93,11 +93,11 @@ O Painel de controle do Campaign ajuda a aumentar a eficiência do seu trabalho 
 
 >[!NOTE]
 >
->O Painel de controle do Campaign é acessível a todos os usuários administradores. As etapas para conceder acesso de Administrador a um usuário estão detalhadas em [this page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>O Painel de controle do Campaign é acessível a todos os usuários administradores. As etapas para conceder acesso de Administrador a um usuário estão detalhadas [nesta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=pt-BR#discover-control-panel).
 
 ### Como acessar o Painel de controle do Campaign?
 
-O Painel de controle do Campaign está disponível diretamente na Adobe Experience Cloud. [Clique aqui](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel) para obter mais informações.
+O Painel de controle do Campaign está disponível diretamente na Adobe Experience Cloud. [Clique aqui](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=pt-BR#discover-control-panel) para obter mais informações.
 
 ### Perguntas frequentes sobre o Painel de controle do Campaign
 
@@ -119,7 +119,7 @@ Você pode monitorar os subdomínios e seus certificados. Saiba mais:
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-O novo sistema de emissão de bilhetes passou por [Adobe Admin Console](https://adminconsole.adobe.com/overview). O novo sistema exige novas contas individuais para cada usuário, com as permissões corretas. Se você não conseguir fazer logon com sua Adobe ID, solicite acesso por meio da Experience League, e a equipe de Atendimento ao cliente resolverá o problema o mais rápido possível. [Saiba mais](https://helpx.adobe.com/br/enterprise/admin-guide.html/br/enterprise/using/support-for-experience-cloud.ug.html)
+O novo sistema de emissão de tíquetes passou pelo [Adobe Admin Console](https://adminconsole.adobe.com/overview). O novo sistema exige novas contas individuais para cada usuário, com as permissões corretas. Se você não conseguir fazer logon com sua Adobe ID, solicite acesso por meio da Experience League, e a equipe de Atendimento ao cliente resolverá o problema o mais rápido possível. [Saiba mais](https://helpx.adobe.com/br/enterprise/admin-guide.html/br/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### Pergunte aos especialistas.
 
@@ -127,8 +127,8 @@ Associe-se à Comunidade do Campaign Classic: procure respostas em perguntas exi
 
 ### Criar um tíquete ou iniciar um chat
 
-A criação de um caso permite que você entre em contato com a equipe de suporte ao cliente da Adobe sobre qualquer problema que você tiver com seus produtos da Adobe. Para ajudar a resolver ou solucionar problemas, o Adobe Admin Console permitirá que você fale com o Suporte ao cliente da Adobe.
+A criação de um caso permite que você entre em contato com a Equipe de suporte ao cliente da Adobe sobre qualquer problema que você tiver com produtos da Adobe. Para ajudar a resolver ou solucionar problemas, o Adobe Admin Console permitirá que você fale com o Suporte ao cliente da Adobe.
 
 Para registrar um problema ou iniciar uma sessão de chat nesse novo sistema, conecte-se ao [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
-Siga o procedimento detalhado descrito [nesta página](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+Siga o procedimento detalhado descrito [nesta página](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
