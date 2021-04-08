@@ -182,7 +182,7 @@ ht-degree: 99%
       + [Noções básicas sobre gestão de quarentena](sending/using/understanding-quarantine-management.md)
    + Gerenciamento da capacidade de delivery {#managing-deliverability}
       + [Sobre a entregabilidade](sending/using/about-deliverability.md)
-      + [Controle de conteúdo de e-mail](sending/using/control-email-content.md)
+      + [Controle de conteúdo de email](sending/using/control-email-content.md)
       + [Monitoramento da capacidade de entrega](sending/using/monitor-deliverability.md)
       + [Solução de problemas](sending/using/troubleshooting.md)
    + Como trabalhar com regras de tipologia {#working-with-typology-rules}
