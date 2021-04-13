@@ -7,16 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 feature: Perfis
-role: Profissional
-level: Iniciante
+role: Business Practitioner
+level: Beginner
+exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: c5a9c27a2ce459dfd0f04159095bfc8a2cf4c0f6
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '607'
 ht-degree: 23%
 
 ---
-
 
 # Introdução a perfis e públicos{#about-profiles-and-audiences}
 
@@ -88,7 +88,7 @@ Privacidade e consentimento no Campaign e como gerenciá-los são apresentados [
 
 ## Recursos adicionais
 
-* [Trabalhar com o serviço Destinos do público-alvo](../../integrating/using/aep-about-audience-destinations-service.md)
+* [Assimilar públicos da Adobe Experience Platform no Campaign](../../integrating/using/ingest-aep-data.md)
 * [Trabalhar com o Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Públicos-alvo compartilhados do Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Uso de fluxos de trabalho para importar perfis](../../automating/using/creating-import-workflow-templates.md)
