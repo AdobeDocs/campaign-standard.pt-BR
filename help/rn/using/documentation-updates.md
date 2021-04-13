@@ -7,16 +7,16 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: Visão geral
-role: Profissional
-level: Iniciante
+role: Business Practitioner
+level: Beginner
+exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 translation-type: ht
-source-git-commit: 7bea3b75467d52cb4ffed77416df7c0baf5480e2
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '6748'
+source-wordcount: '6745'
 ht-degree: 100%
 
 ---
-
 
 # Atualizações de documentação{#documentation-updates}
 
