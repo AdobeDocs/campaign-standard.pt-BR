@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centro de ajuda para os principais recursos, tarefas, configurações e outros recursos necessários para usar o Campaign Standard. '
 title: Manual do Campaign Standard
 breadcrumb-title: Central de ajuda
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 918e73c66cd372a84c87f1f686ce67026858c849
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1750'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -439,7 +439,7 @@ ht-degree: 99%
    + Configuração de canais {#configuring-channels}
       + [Sobre a configuração de canal](administration/using/about-channel-configuration.md)
       + [Configuração do canal de email](administration/using/configuring-email-channel.md)
-      + [Atualizar qualificação de devolução após uma interrupção de ISP](administration/using/update-bounce-qualification.md)
+      + [Atualizar qualificação de rejeição após uma interrupção de ISP](administration/using/update-bounce-qualification.md)
       + [Configurar um aplicativo para dispositivos móveis](administration/using/configuring-a-mobile-application.md)
    + Configuração de canais móveis {#configuring-mobile}
       + [Implementação do rastreamento de push](administration/using/push-tracking.md)
