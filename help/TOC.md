@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centro de ajuda para os principais recursos, tarefas, configurações e outros recursos necessários para usar o Campaign Standard. '
 title: Manual do Campaign Standard
 breadcrumb-title: Central de ajuda
-translation-type: ht
-source-git-commit: 918e73c66cd372a84c87f1f686ce67026858c849
-workflow-type: ht
-source-wordcount: '1750'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 479819df78953e7703738f31e3ef8bd9146416d5
+workflow-type: tm+mt
+source-wordcount: '1779'
+ht-degree: 98%
 
 ---
 
@@ -268,13 +268,17 @@ ht-degree: 100%
          + [Mapear dados entre o Microsoft Dynamics 365 e o Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [Usar a integração com o Microsoft Dynamics 365](integrating/using/d365-acs-using-the-integration.md)
    + Campaign e Adobe Experience Platform {#adobe-experience-platform}
-      + Serviço Audience Destinations {#audience-destinations}
+      + Fontes e destinos do Adobe Experience Platform {#aep-sources-destinations}
+         + [Introdução a fontes e destinos](integrating/using/get-started-sources-destinations.md)
+         + [Assimilar públicos da Adobe Experience Platform no Campaign](integrating/using/ingest-aep-data.md)
+         + [Exportar dados do Campaign para o Adobe Experience Platform](integrating/using/export-campaign-data.md)
+      + Serviço de destinos de público-alvo (beta) {#audience-destinations}
          + [Sobre o serviço Destinos do Audience](integrating/using/aep-about-audience-destinations-service.md)
          + [Gerenciamento de públicos da plataforma Adobe Experience](integrating/using/aep-managing-audiences.md)
          + [Usar o Criador de segmentos](integrating/using/aep-using-segment-builder.md)
          + [Definição de públicos da Adobe Experience Platform](integrating/using/aep-targeting-audiences.md)
          + [Personalização de campanhas usando atributos da Adobe Experience Platform](integrating/using/aep-personalizing-campaigns.md)
-      + Conector de dados da Adobe Experience Platform {#data-connector}
+      + Conector de dados da Adobe Experience Platform (beta) {#data-connector}
          + [Sobre o Conector de dados da Adobe Experience Platform](integrating/using/aep-about-data-connector.md)
          + [Visão geral do Modelo de dados da Experience Platform](integrating/using/aep-data-model-overview.md)
          + [Definição de mapeamento](integrating/using/aep-mapping-definition.md)
