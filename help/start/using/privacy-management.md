@@ -7,16 +7,16 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 feature: Privacidade
-role: Profissional
-level: Intermediário
+role: Business Practitioner
+level: Intermediate
+exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '968'
+source-wordcount: '965'
 ht-degree: 100%
 
 ---
-
 
 # Gerenciamento de privacidade {#privacy-management}
 
