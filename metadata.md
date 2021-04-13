@@ -5,11 +5,11 @@ solution: Campaign, Campaign Standard
 version: Standard
 git-repo: https://git.corp.adobe.com/AdobeDocs/campaign-standard.pt-BR
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 206af1eb703372d39b7a05a168f4682a2637c6ec
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '9'
+ht-degree: 100%
 
 ---
 
