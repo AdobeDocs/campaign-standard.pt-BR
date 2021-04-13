@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: latest-release-notes
 hidefromtoc: true
 feature: Opções de ajuda e suporte
-role: Profissional
-level: Iniciante
+role: Business Practitioner
+level: Beginner
+exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 translation-type: ht
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '593'
+source-wordcount: '590'
 ht-degree: 100%
 
 ---
-
 
 # Opções de ajuda e suporte para o Campaign Standard {#help-support-options}
 
