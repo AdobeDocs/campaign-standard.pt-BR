@@ -7,16 +7,16 @@ audience: designing
 content-type: reference
 topic-tags: accessibility
 feature: Campanhas
-role: Profissional
-level: Intermediário
+role: Business Practitioner
+level: Intermediate
+exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '611'
+source-wordcount: '608'
 ht-degree: 100%
 
 ---
-
 
 # Acessibilidade no Adobe Campaign Standard {#accessibility-acs}
 
