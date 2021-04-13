@@ -10,16 +10,16 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 feature: Privacidade
-role: Profissional
-level: Intermediário
+role: Business Practitioner
+level: Intermediate
+exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1483'
+source-wordcount: '1480'
 ht-degree: 100%
 
 ---
-
 
 # Privacidade e consentimento{#privacy-and-consent}
 
