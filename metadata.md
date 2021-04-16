@@ -3,11 +3,12 @@ cloud: Experience Cloud
 product: campaign
 solution: Campaign, Campaign Standard
 version: Standard
+feature-set: Campaign
 git-repo: https://git.corp.adobe.com/AdobeDocs/campaign-standard.pt-BR
 index: true
-translation-type: ht
-source-git-commit: 206af1eb703372d39b7a05a168f4682a2637c6ec
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 715556cb8161bf5ebef7703753b9212a03c0d210
+workflow-type: tm+mt
 source-wordcount: '9'
 ht-degree: 100%
 
