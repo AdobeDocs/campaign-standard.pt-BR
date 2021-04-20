@@ -6,9 +6,9 @@ description: Saiba como ser notificado de um endereço incorreto e excluí-lo de
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-feature: Correspondência direta
-role: Profissional
-level: Intermediário
+feature: Direct Mail
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

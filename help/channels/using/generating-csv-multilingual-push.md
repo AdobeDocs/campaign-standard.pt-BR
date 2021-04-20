@@ -6,9 +6,9 @@ description: Fazer upload de um arquivo CSV para gerar conteúdo para entrega é
 audience: channels
 content-type: reference
 topic-tags: email-messages
-feature: Empurrar
-role: Profissional
-level: Intermediário
+feature: Push
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

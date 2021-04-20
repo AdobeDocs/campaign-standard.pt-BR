@@ -3,9 +3,9 @@ solution: Campaign Standard
 product: campaign
 title: Chamada de um recurso usando uma chave de identificação composta
 description: Saiba como chamar um recurso usando uma chave de identificação composta
-feature: Modelo de dados
-role: Desenvolvedor
-level: Experienciado
+feature: Data Model
+role: Developer
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

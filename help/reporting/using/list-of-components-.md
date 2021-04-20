@@ -6,9 +6,9 @@ description: Encontre aqui a lista de todos os componentes disponíveis em     R
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Relatórios
-role: Líder
-level: Iniciante
+feature: Reporting
+role: Leader
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

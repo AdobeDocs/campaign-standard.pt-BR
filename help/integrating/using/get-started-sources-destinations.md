@@ -5,7 +5,7 @@ title: Introdução a fontes e destinos
 description: Saiba mais sobre Fontes e Destinos do Adobe Experience Platform.
 audience: integrating
 content-type: reference
-feature: Fontes e destinos
+feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
 translation-type: tm+mt

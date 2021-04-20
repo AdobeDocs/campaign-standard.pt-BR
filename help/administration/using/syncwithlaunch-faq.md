@@ -6,9 +6,9 @@ description: Perguntas comuns sobre o workflow técnico do Launch.
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Configurações de instância
-role: Administrador
-level: Experienciado
+feature: Instance Settings
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

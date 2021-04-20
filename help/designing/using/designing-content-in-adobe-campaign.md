@@ -6,9 +6,9 @@ description: Crie conteúdo de email começando do zero, importando HTML ou apro
 audience: designing
 content-type: reference
 topic-tags: about-content-design
-feature: Design de email
-role: Profissional
-level: Iniciante
+feature: Email Design
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

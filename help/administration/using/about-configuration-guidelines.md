@@ -6,9 +6,9 @@ description: Saiba mais sobre as diretrizes de configuração do Campaign Standa
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: Gerenciamento de acesso
-role: Administrador
-level: Experienciado
+feature: Access Management
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

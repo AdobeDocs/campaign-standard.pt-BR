@@ -6,9 +6,9 @@ description: Saiba como definir e executar deliveries de emails/SMS multilíngue
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: Mensagens multilíngues
-role: Profissional
-level: Intermediário
+feature: Multilingual Messages
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

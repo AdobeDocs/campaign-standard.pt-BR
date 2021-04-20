@@ -6,9 +6,9 @@ description: Saiba como editar perfis existentes e acessar informações de cont
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: Perfis
-role: Profissional
-level: Intermediário
+feature: Profiles
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

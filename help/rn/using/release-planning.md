@@ -6,7 +6,7 @@ description: Esta página lista as próximas versões do Adobe Campaign Standard
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-feature: Visão geral
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1

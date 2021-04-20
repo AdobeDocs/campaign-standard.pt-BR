@@ -5,7 +5,7 @@ title: Assimilar públicos da Adobe Experience Platform no Campaign
 description: Saiba como assimilar públicos-alvo do Adobe Experience Platform no Campaign Standard.
 audience: integrating
 content-type: reference
-feature: Fontes e destinos
+feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
 translation-type: tm+mt

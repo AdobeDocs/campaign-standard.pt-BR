@@ -6,9 +6,9 @@ description: Saiba como personalizar suas campanhas usando atributos da Adobe Ex
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-feature: Integração do Microsoft CRM
-role: Arquiteto de dados
-level: Experienciado
+feature: Microsoft CRM Integration
+role: Data Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

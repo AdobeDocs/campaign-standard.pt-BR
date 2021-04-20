@@ -6,9 +6,9 @@ description: Você pode acessar um relatório dedicado sobre as métricas do cli
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: Perfis
-role: Profissional
-level: Intermediário
+feature: Profiles
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt

@@ -6,7 +6,7 @@ description: Saiba como gerenciar solicitações de privacidade no Adobe Campaig
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Privacidade
+feature: Privacy
 role: Business Practitioner
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b

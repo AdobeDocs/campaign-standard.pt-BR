@@ -6,9 +6,9 @@ description: 'Os usuários do Adobe Campaign têm funções específicas. Descub
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Gerenciamento de acesso
-role: Administrador
-level: Experienciado
+feature: Access Management
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

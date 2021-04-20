@@ -6,9 +6,9 @@ description: Siga estas etapas para criar e enviar mensagens com o Adobe Campaig
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: Visão geral
-role: Profissional
-level: Iniciante
+feature: Overview
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt

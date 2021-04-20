@@ -6,9 +6,9 @@ description: Descubra os diferentes status de recursos de acordo com seu estado 
 audience: developing
 content-type: reference
 topic-tags: about-custom-resources
-feature: Modelo de dados
-role: Desenvolvedor
-level: Experienciado
+feature: Data Model
+role: Developer
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

@@ -6,9 +6,9 @@ description: Saiba como criar perfis e coletar dados nos contatos usando APIs, r
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: Perfis
-role: Profissional
-level: Iniciante
+feature: Profiles
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

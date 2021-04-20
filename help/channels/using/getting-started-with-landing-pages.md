@@ -7,8 +7,8 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
-feature: Landing pages
-role: Profissional
+feature: Landing Pages
+role: Business Practitioner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

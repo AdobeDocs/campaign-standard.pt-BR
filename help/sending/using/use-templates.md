@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"Os templates do delivery oferecem mais eficiência ao fornecer cenários prontos para os tipos mais comuns de atividades."'
-feature: Avaliação do delivery
-role: Profissional
-level: Intermediário
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

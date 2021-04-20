@@ -6,9 +6,9 @@ description: A atividade In-App delivery permite configurar o envio de uma mensa
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-feature: Fluxos de trabalho
-role: Arquiteto de dados
-level: Intermediário
+feature: Workflows
+role: Data Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

@@ -6,9 +6,9 @@ description: Essa página lista todas as versões 2020 do Adobe Campaign Standar
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Visão geral
-role: Profissional
-level: Iniciante
+feature: Overview
+role: Business Practitioner
+level: Beginner
 translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: ht

@@ -6,7 +6,7 @@ description: Defina populações direcionadas, selecione públicos, filtre desti
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
-feature: Perfis
+feature: Profiles
 role: Business Practitioner
 level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f

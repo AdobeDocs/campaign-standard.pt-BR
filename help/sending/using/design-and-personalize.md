@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Saiba como criar o conteúdo da mensagem e tentar evitar problemas comuns que podem impedir a execução do delivery. 
-feature: Avaliação do delivery
-role: Profissional
-level: Intermediário
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

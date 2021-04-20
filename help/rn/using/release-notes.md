@@ -6,7 +6,7 @@ description: Esta página detalha o conteúdo da versão mais recente do Campaig
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Visão geral
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113

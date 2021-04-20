@@ -6,9 +6,9 @@ description: Saiba como personalizar um email no Designer de email.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Design de email
-role: Profissional
-level: Intermediário
+feature: Email Design
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt

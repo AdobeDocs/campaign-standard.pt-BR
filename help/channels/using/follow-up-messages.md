@@ -6,9 +6,9 @@ description: Saiba como criar, gerenciar e enviar uma mensagem de acompanhamento
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-feature: Mensagens transacionais
-role: Profissional
-level: Intermediário
+feature: Transactional Messaging
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
