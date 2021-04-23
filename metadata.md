@@ -6,9 +6,9 @@ version: Standard
 feature-set: Campaign
 git-repo: https://git.corp.adobe.com/AdobeDocs/campaign-standard.pt-BR
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 715556cb8161bf5ebef7703753b9212a03c0d210
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '9'
 ht-degree: 100%
 
