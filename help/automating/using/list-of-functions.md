@@ -9,14 +9,14 @@ topic-tags: filtering-data
 feature: Workflows
 role: Data Architect
 level: Experienced
+exl-id: d1575626-55bb-4303-a796-ad323a399330
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 33cba2254bb90951880126cd9978f1890ee72e9c
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '1941'
 ht-degree: 98%
 
 ---
-
 
 # Lista de funções{#list-of-functions}
 
@@ -660,7 +660,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
    <td> Criptografa usando o algoritmo AES (modo de bloco CBC) uma string de caracteres (primeiro parâmetro) com uma chave (segundo parâmetro) e um vetor de inicialização (terceiro parâmetro). A chave e o vetor de inicialização devem ser fornecidos em uma representação hexadecimal (começando com <strong>\x</strong>). O resultado será hexadecimal sem o <strong>\x</strong>.<br /> Observe que o tamanho da chave pode ser de 128 bits, 192 bits, 256 bits (16, 24, 32 caracteres hexadecimais), mas recomendamos que você use 256 bits e um IV aleatório com o mesmo comprimento da chave.<br /> </td> 
-   <td> encryption_aescbcEncrypt(&lt;Cadeia de caracteres&gt;, &lt;Cadeia de caracteres&gt;, &lt;Cadeia de caracteres&gt;)<br /> Por exemplo: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
+   <td> encryption_aescbcEncrypt(&lt;Cadeia de caracteres&gt;, &lt;Cadeia de caracteres&gt;, &lt;Cadeia de caracteres&gt;)<br /> Por exemplo: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456 789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -749,4 +749,3 @@ As funções de representação são usadas para ordenar valores.
   </tr> 
  </tbody> 
 </table>
-
