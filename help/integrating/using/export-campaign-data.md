@@ -1,31 +1,31 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Exportar dados do Campaign para o Adobe Experience Platform
+title: Exportar dados do Campaign para a Adobe Experience Platform
 description: Saiba como exportar dados do Campaign Standard para o Adobe Experience Platform.
 audience: integrating
 content-type: reference
-feature: Sources and Destinations
+feature: Fontes e destinos
 role: Data Architect
 level: Intermediate
+exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
 translation-type: tm+mt
-source-git-commit: bf442b12506ef71cc76aa7fffb0e4c8bb2ce70da
+source-git-commit: 4855585539653a0bb496d210b001765b5b557570
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 1%
+source-wordcount: '529'
+ht-degree: 4%
 
 ---
 
+# Exportar dados do Campaign para a Adobe Experience Platform {#sources}
 
-# Exportar dados do Campaign para o Adobe Experience Platform {#sources}
-
-Para exportar dados do Campaign Standard para a Plataforma de dados do cliente em tempo real (RTCDP) do Adobe, primeiro é necessário criar um fluxo de trabalho no Campaign Standard para exportar para seu local de armazenamento de blobs do S3 ou do Azure os dados que você deseja compartilhar.
+Para exportar dados do Campaign Standard para a Plataforma de dados do cliente em tempo real (RTCDP) do Adobe, primeiro é necessário criar um fluxo de trabalho no Campaign Standard para exportar para seu local de armazenamento do Amazon Storage Service (S3) ou do Azure Blob os dados que você deseja compartilhar.
 
 Depois que o fluxo de trabalho tiver sido configurado e os dados forem enviados para o local de armazenamento, é necessário conectar o local de armazenamento de blobs do S3 ou do Azure como um **Source** na Adobe experience Platform.
 
 >[!NOTE]
-
-Observe que é recomendável exportar apenas os dados gerados pelo Campaign (por exemplo, envios, aberturas, cliques etc.) para o Adobe Experience Platform. Os dados assimilados de uma fonte de terceiros (como seu CRM) devem ser importados diretamente para o Adobe Experience Platform.
+>
+>Observe que é recomendável exportar apenas os dados gerados pelo Campaign (por exemplo, envios, aberturas, cliques etc.) para o Adobe Experience Platform. Os dados assimilados de uma fonte de terceiros (como seu CRM) devem ser importados diretamente para o Adobe Experience Platform.
 
 ## Criar um workflow de exportação no Campaign Standard
 
@@ -55,7 +55,7 @@ Tópicos relacionados:
 
 ## Conecte seu local de armazenamento como uma Fonte
 
-As principais etapas para conectar seu local de armazenamento de blobs do S3 ou do Azure como um **Source** na Plataforma de experiência do Adobe estão listadas abaixo. Informações detalhadas sobre cada uma dessas etapas estão disponíveis na [Documentação dos conectores de origem](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html).
+As principais etapas para conectar seu Serviço de Armazenamento da Amazon (S3) ou o local de armazenamento do Azure Blob como um **Source** na Plataforma de experiência do Adobe estão listadas abaixo. Informações detalhadas sobre cada uma dessas etapas estão disponíveis na [Documentação dos conectores de origem](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html).
 
 1. No menu da Adobe Experience Platform **[!UICONTROL Sources]**, crie uma conexão com o local de armazenamento:
 
