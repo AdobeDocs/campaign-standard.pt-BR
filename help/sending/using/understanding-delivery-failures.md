@@ -6,17 +6,17 @@ description: Saiba mais sobre como gerenciar falhas de delivery com o Campaign.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Deliverability
+feature: Capacidade de delivery
 role: Business Practitioner
 level: Intermediate
+exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
 translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+source-git-commit: dbc176188d936160e04956e7598bd219ba80347e
 workflow-type: tm+mt
-source-wordcount: '1310'
-ht-degree: 73%
+source-wordcount: '1307'
+ht-degree: 74%
 
 ---
-
 
 # Noções básicas sobre falhas de delivery{#understanding-delivery-failures}
 
@@ -78,8 +78,8 @@ Os possíveis motivos para uma falha de delivery são:
 
 
 **Tópicos relacionados:**
-* [Devoluções permanentes](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
-* [Devoluções temporárias](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+* [Devoluções permanentes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [Devoluções temporárias](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## Tentativas após uma falha temporária de delivery {#retries-after-a-delivery-temporary-failure}
 
