@@ -1,45 +1,49 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Perfis ativos
-description: Você pode acessar um relatório dedicado sobre as métricas do cliente e visualizar perfis ativos no banco de dados do Campaign.
-audience: audiences
-content-type: reference
-topic-tags: managing-profiles
-feature: Profiles
+title: Perfis ativos do Campaign
+description: Saiba como acessar métricas do cliente e perfis ativos
+feature: Perfis
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: 22516348-7695-4579-99eb-480e5b723ccc
+source-git-commit: d2fcf2ca22bb5fe3632280f922dfed0972f6eb09
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 12%
+source-wordcount: '290'
+ht-degree: 11%
 
 ---
 
+# Métricas do cliente {#customer-metrics}
 
-# Perfis ativos{#active-profiles}
-
-O Adobe Campaign fornece um relatório que exibe o número de perfis ativos. Este relatório é apenas informativo, não tem impacto direto na cobrança. Somente administradores podem acessar esse relatório, em **[!UICONTROL Administration > Customer metrics]**.
+Os administradores funcionais de campanha podem acessar o relatório **[!UICONTROL Customer metrics]** de **[!UICONTROL Administration > Customer metrics]**.
 
 ![](assets/audience_active_profiles1.png)
 
+Este relatório exibe:
+
+* a Experience Cloud ID
+* a IMS Organization ID
+* o número de **perfis ativos**
+* a lista de targeting dimensions disponíveis na instância
+
+Este relatório é gerado todos os meses pelo workflow técnico **[!UICONTROL Billing]**.
+
+## Perfis ativos{#active-profiles}
+
+De acordo com seu contrato, cada uma das instâncias do Campaign é provisionada com um número específico de perfis ativos. Consulte seu contrato de licença para obter uma referência sobre o número de perfis ativos adquiridos.
+
 >[!NOTE]
 >
->Se você estiver usando o Campaign Standard da build 10368, também poderá monitorar o número de perfis ativos usados em suas instâncias diretamente do Painel de controle do Campaign. Para obter mais informações, consulte a [documentação do Painel de controle do Campaign](https://docs.adobe.com/content/help/pt-BR/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
->
->Observe que a métrica Perfis ativos está disponível e é relevante somente para **Instâncias de marketing**. Não é aplicável nem está disponível para instâncias de Execução, ou seja, instâncias de MID (mid-sourcing) e RT (Centro de mensagens/Mensagens em tempo real).
+>Como um usuário administrador, você também pode monitorar o número de perfis ativos usados em suas instâncias diretamente do Painel de controle do Campaign. Para obter mais informações, consulte a [documentação do Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=pt-BR#performance-monitoring).
 
-Os perfis excluídos durante a preparação do delivery (regras de tipologia, quarentenas, grupos de controle) não são considerados. Um perfil que foi direcionado por vários deliveries será contado apenas uma vez. Na parte inferior do relatório, você encontrará a lista de perfis ativos para cada targeting dimension.
 
-Este relatório é gerado todos os meses pelo workflow técnico **[!UICONTROL Billing]**. Ele contém o número de perfis ativos que foram direcionados durante os últimos 12 meses do período.
-
-Observe que os perfis excluídos durante a preparação do delivery (regras de tipologia, quarentenas) não são considerados. Além disso, um perfil que foi direcionado por vários deliveries será contado apenas uma vez.
+Um &quot;Perfil&quot; é um registro de informações que representam um cliente final, um prospecto ou um cliente potencial. Os perfis são considerados **ativos** se tiverem sido direcionados por um delivery de Campanha nos últimos 12 meses por meio de qualquer canal. Os perfis excluídos durante a preparação do delivery (por regras de tipologia ou mecanismo de quarentena, por exemplo) não são considerados. Um perfil que foi direcionado por vários deliveries será contado apenas uma vez. Este relatório é apenas informativo, não tem impacto direto na cobrança.
 
 ![](assets/audience_active_profiles2.png)
 
-Na parte inferior do relatório, você encontrará a lista de perfis ativos processados pelo workflow de cobrança:
+Na parte inferior do relatório, você encontrará a lista de perfis ativos para cada targeting dimension. Ele mostra o número de perfis ativos que foram direcionados durante os últimos 12 meses do período.
 
-* A fonte **[!UICONTROL NmsRecipient]** inclui todos os clientes que foram contatados usando informações de seu perfil do Campaign Standard.
+* A fonte **[!UICONTROL NmsRecipient]** inclui todos os perfis que foram contatados usando informações do perfil do Campaign Standard.
 
-* Por outro lado, os clientes que foram direcionados usando apenas uma parte específica das informações (endereço de email, número de telefone), sem relação com o perfil do Campaign, ficarão na fonte **[!UICONTROL anonymous]**.
+* A fonte **[!UICONTROL anonymous]** dos clientes mostra o número de perfis que foram direcionados usando apenas uma parte específica das informações (endereço de email, número de telefone), sem relação com o perfil do Campaign.
