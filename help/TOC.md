@@ -6,10 +6,10 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centro de ajuda para os principais recursos, tarefas, configurações e outros recursos necessários para usar o Campaign Standard. '
 title: Manual do Campaign Standard
 breadcrumb-title: Central de ajuda
-source-git-commit: c656aba6c9db769208a8af120d492f6a8a2a944e
+source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 99%
+source-wordcount: '1783'
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 99%
       + [Criação de perfis](audiences/using/creating-profiles.md)
       + [Editar perfis](audiences/using/editing-profiles.md)
       + [Perfil de cliente integrado](audiences/using/integrated-customer-profile.md)
-      + [Métricas e perfis ativos](audiences/using/active-profiles.md)
+      + [Perfis ativos](audiences/using/active-profiles.md)
       + [Gerenciamento de perfis de teste](audiences/using/managing-test-profiles.md)
       + [Enriquecer o banco de dados do Campaign](audiences/using/enriching-campaign-database.md)
    + Gerenciamento de públicos-alvo {#managing-audiences}
