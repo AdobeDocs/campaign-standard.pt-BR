@@ -3,24 +3,20 @@ solution: Campaign Standard
 product: campaign
 title: Sobre assinaturas
 description: Saiba mais sobre serviços e assinaturas no Campaign Standard.
-audience: audiences
-content-type: reference
-topic-tags: managing-subscriptions
-feature: Audiences
+feature: Públicos
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 177f0115-d269-44e8-94e0-123360ea6299
+source-git-commit: 326683683c1564dc4c828d1ed34a3c13bae3a46e
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 52%
+source-wordcount: '221'
+ht-degree: 40%
 
 ---
 
-
 # Sobre assinaturas{#about-subscriptions}
 
-O Adobe Campaign permite criar e gerenciar informativos e comunicações entre canais usando um conjunto de **serviços**. As mensagens só podem ser enviadas aos perfis que assinaram (aceitaram) o serviço. Esses perfis são identificados usando um filtro dedicado ao criar uma mensagem.
+Use o Adobe Campaign para criar e gerenciar informativos e comunicações entre canais, por meio de um conjunto de **serviços**: as mensagens só são enviadas aos perfis que assinaram o serviço (aceitaram). Esses perfis são identificados usando um filtro dedicado ao criar uma mensagem.
 
 Os mecanismos de assinatura podem ser configurados para permitir que os clientes assinem esses serviços, principalmente por meio de **emails** e **landing pages**.
 
