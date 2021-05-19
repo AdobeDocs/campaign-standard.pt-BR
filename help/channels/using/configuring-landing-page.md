@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: Landing Pages
+feature: Landing pages
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
+source-git-commit: 2cf8b960789ccf32b4782faa337654986e3fddbf
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 99%
+source-wordcount: '659'
+ht-degree: 97%
 
 ---
-
 
 # Configuração de uma landing page {#configuring-landing-page}
 
@@ -70,12 +69,11 @@ No caso de visitantes identificados, você pode pré-carregar os dados deles na 
 
    Se um visitante da página corresponder a um perfil no banco de dados, os dados dele serão exibidos nos campos do formulário mapeados com os dados do banco de dados e os elementos de personalização da landing page serão considerados.
 
-   ![](assets/lp_parameters_3.png)
+   ![](assets/lp_parameters_3_temp.png)
 
-Você também pode:
+Você também pode autorizar qualquer visitante a acessar a landing page, usando a opção **[!UICONTROL Authorize unidentified visitors]** .
 
-* Usar os parâmetros de URL para identificar os visitantes com a opção **[!UICONTROL Authorize visitor identification via URL parameters]**. Em seguida, você escolhe a chave de carregamento e mapeia os parâmetros de filtro com os parâmetros do URL correspondente.
-* Autorize qualquer visitante a acessar a landing page, usando a opção **[!UICONTROL Authorize unidentified visitors]**.
+<!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 
 As landing pages também podem ser vinculadas a uma unidade organizacional. Isso definirá o acesso dos usuários às diferentes landing pages. Para atribuir uma unidade organizacional:
 
@@ -111,7 +109,7 @@ Depois que sua conta externa do Google reCAPTCHA V3 for configurada, você poder
 1. Marque a opção **[!UICONTROL Use reCAPTCHA to protect your site from spam and abuse]**.
 1. Selecione a conta externa do Google reCAPTCHA criada anteriormente.
 
-   ![](assets/lp_parameters_google.png)
+   ![](assets/lp_parameters_google_temp.png)
 
 1. Clique em **[!UICONTROL Confirm]**.
 
