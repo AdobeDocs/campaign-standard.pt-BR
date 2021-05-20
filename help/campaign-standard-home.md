@@ -9,9 +9,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 93%
 
 * **[Integração Campaign - RTCDP](integrating/using/get-started-sources-destinations.md)**<br/> Saiba como compartilhar dados entre o Campaign e a Plataforma de dados do cliente em tempo real (RTCDP)
 
-* **[Atualizar ](https://helpx.adobe.com/br/campaign/kb/update-bounce-qualification.html)**<br/> devoluções incorretasSaiba como atualizar devoluções incorretas após uma interrupção de email
+* **[Atualizar rejeições permanentes incorretas](https://helpx.adobe.com/br/campaign/kb/update-bounce-qualification.html)**<br/> Saiba como atualizar rejeições permanentes incorretas após uma falha de email
 
 * **[Grupos de controle](sending/using/control-group.md)**<br/>
 Meça o impacto de suas campanhas excluindo parte dos públicos
