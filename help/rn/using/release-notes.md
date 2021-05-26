@@ -6,15 +6,14 @@ description: Esta página detalha o conteúdo da versão mais recente do Campaig
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Overview
+feature: Visão geral
 role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '2479'
-ht-degree: 100%
+source-git-commit: e996a5c6722c211c931427ff59f8d219d493aca7
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -65,32 +64,6 @@ ht-degree: 100%
 </tr> 
 </tbody> 
 </table>
-
-<!--
-<table> 
-<thead> 
-<tr> 
-<th> <strong>Unified Experience Cloud interface</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td>
-<p>Adobe Campaign header bar has been changed to unify and improve your experience across all Experience Cloud products and services. These changes are designed to make your life easier, including:</p>
-<ul>
-<li>Easier switching between your organizations or to a different application.</li>
-<li>Improved User Help – Bringing the Experience League into the product, search results also include results from community forums and more video content, giving you easier access to more content to help get the most out of the application. We've also added a feedback mechanism right in the Help menu, making it easier to report issues or share your ideas.</li>
-<li>Improved Notifications – Notifications drop-down now has two tabs: one for your own product notifications, and one for more global product announcements.</li>
-</ul>
-<p>For more information refer to the <a href="../../start/using/interface-description.md#top-bar">detailed documentation</a>.
-</p>
-<p>NOTE: This change will be progressively rolled out to all customer environments between Feb 10 and March 1st.
-</p>
-</td> 
-</tr> 
-</tbody> 
-</table>
--->
 
 **Aprimoramentos**
 
