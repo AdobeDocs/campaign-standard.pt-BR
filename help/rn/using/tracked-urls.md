@@ -3,9 +3,10 @@ solution: Campaign Standard
 product: campaign
 title: Problema de assinatura de URLs rastreados
 description: Problema de assinatura de URLs rastreados
-translation-type: ht
-source-git-commit: 830c003e36cec41e5cf480f66812900312609e9f
-workflow-type: ht
+hidefromtoc: true
+hide: true
+source-git-commit: 65c81f2f9e4fc80e7b2f7c0bdc0302e90f068b1e
+workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 100%
 
