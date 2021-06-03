@@ -7,10 +7,10 @@ feature: Perfis
 role: Business Practitioner
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
-source-git-commit: d30ce292ca07b9eb0b6965e47e12ddd4e24041ad
+source-git-commit: f66a4e35e1f42a3d7630556d020ce76adfea5891
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 17%
+source-wordcount: '228'
+ht-degree: 14%
 
 ---
 
@@ -28,7 +28,17 @@ De acordo com seu contrato, cada uma das instâncias do Campaign é provisionada
 
 ![](assets/audience_active_profiles_list.png)
 
-Os perfis excluídos durante a preparação do delivery (por regras de tipologia ou mecanismo de quarentena, por exemplo) não são considerados. Um perfil que foi direcionado por vários deliveries será contado apenas uma vez. Este relatório é apenas informativo, não tem impacto direto na cobrança.
+
+
+* Os perfis excluídos durante a preparação do delivery (por regras de tipologia ou mecanismo de quarentena, por exemplo) não são considerados.
+
+* Os recipients das Mensagens transacionais são contados em Perfis ativos.
+
+* Um perfil que foi direcionado por vários deliveries será contado apenas uma vez.
+
+* Este relatório é apenas informativo, não tem impacto direto na cobrança.
+
+Na parte inferior da página, os targeting dimensions estão listados com o número de perfis para cada. Os recipients de mensagens transacionais são associados à dimensão **Anônimo** .
 
 >[!NOTE]
 >
