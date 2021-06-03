@@ -6,17 +6,16 @@ description: Saiba como o Campaign Standard e o Microsoft Dynamics 365 gerenciam
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-feature: Microsoft CRM Integration
+feature: Integração do Microsoft CRM
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
+source-git-commit: f28aab2ac295d8a45598f5d76a86e594deeece4a
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2510'
 ht-degree: 1%
 
 ---
-
 
 # Práticas recomendadas e limitações {#acs-msdyn-best-practices}
 
@@ -170,19 +169,19 @@ As seguintes medidas de proteção devem ser tomadas em consideração ao planej
 
    Ao estimar o volume geral de chamadas do mecanismo do Campaign, é importante considerar outras fontes de chamadas do mecanismo, incluindo landing pages, WebApps, JSSP, APIs, registros de aplicativos móveis etc.
 
-   Veja as informações do pacote do Campaign aqui: https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html
+   Veja as informações do pacote Adobe Campaign Standard aqui: [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)
 
-* A integração oferece suporte a no máximo 30 milhões de contatos.
+* A integração oferece suporte a no máximo 15 milhões de registros totais para a sincronização inicial com recursos no Campaign. A sincronização incremental é limitada pelo pacote do Adobe Campaign Standard.
 
-* A oferta de integração padrão inclui suporte para até cinco entidades personalizadas, cada uma com um máximo de 50 colunas em tamanho.
+* A oferta de integração padrão inclui suporte para até vinte entidades personalizadas, cada uma com no máximo 50 colunas em tamanho.
 
 * Será necessário criar e publicar os recursos personalizados antes de implementar a integração.
 
 * A profundidade máxima da tabela ao vincular tabelas é de dois (ou seja, tabela1->tabela2->tabela3)
 
-* Há suporte limitado para os tipos de dados do Microsoft Dynamic 365. Se o modelo de dados contiver um tipo de dados diferente dos tipos simples de dados (por exemplo, sequências, números inteiros, decimais, etc.), talvez seja necessário atualizar o modelo de dados antes de usar a integração.
+* A integração oferece suporte a até 5 colunas vinculadas por recurso personalizado. A vinculação de várias colunas entre recursos personalizados pode ter impactos significativos no desempenho. **0 ou 1 cardinalidade simple** linkis prefere sobre  **1 cardinalidade simple link**.
 
-* Se você optar por preservar os dados existentes nas entidades personalizadas do Campaign, será necessário preparar os dados para a integração.
+* A integração suporta transformação entre tipos de dados primitivos do Microsoft Dynamics 365 (Booliano, Integer, Decimal, Double, String, DateTime, Date) e tipos de dados do Adobe Campaign Standard (número inteiro, booleano, flutuante, duplo, data, data e hora, string). Os tipos de dados mais avançados são interpretados como strings e são sincronizados como estão.
 
 * Talvez seja necessário estabelecer janelas de manutenção de integração entre o Adobe e o cliente.
 
