@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
+feature: Mensagens transacionais
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
+source-git-commit: 33d3dc43a64b9670666844a3266e2aa2458a1c40
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1453'
 ht-degree: 4%
 
 ---
-
 
 # Notificações por push transacionais{#transactional-push-notifications}
 
@@ -196,3 +195,37 @@ O usuário correspondente recebe uma notificação por push transacional incluin
 >[!NOTE]
 >
 >Não há campos de token de registro, aplicativo e plataforma de push. Neste exemplo, a reconciliação é executada com o campo de email .
+
+## Alteração do target mapping em uma notificação por push transacional {#change-target-mapping}
+
+As notificações por push transacionais usam um [target mapping](../../administration/using/target-mappings-in-campaign.md) específico que contém as configurações técnicas necessárias para enviar esse tipo de delivery.
+
+Para alterar esse target mapping, siga as etapas abaixo:
+
+1. Na lista de mensagens transacionais, selecione uma notificação por push.
+
+1. No painel da mensagem, clique no botão **[!UICONTROL Edit properties]**.
+
+   ![](assets/message-center_push_edit.png)
+
+1. Expanda a seção **[!UICONTROL Advanced parameters]**.
+
+1. Clique em **[!UICONTROL Select a 'Target mapping' element]**.
+
+   ![](assets/message-center_push_target-mapping.png)
+
+1. Selecione um target mapping na lista.
+
+   >[!NOTE]
+   >
+   >Para obter o tempo e o desempenho ideais de preparação de delivery ao enviar **notificações por push transacionais baseadas em perfil**, use o target mapping **[!UICONTROL Profile - Real-time event for Push (mapRtEventAppSubRcp)]**.
+
+   ![](assets/message-center_push_target-mapping_change.png)
+
+1. Confirme sua alteração e publique a mensagem. Consulte [Publicação de uma mensagem transacional](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
+
+   >[!IMPORTANT]
+   >
+   >Você deve publicar a mensagem novamente para que a alteração seja efetiva, caso contrário, o target mapping anterior ainda será usado.
+
+
