@@ -10,14 +10,13 @@ delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back;delivery,s
 feature: SMS
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6c01662e-1e19-4cec-aa21-6e84b9b7a677
+source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 99%
+source-wordcount: '432'
+ht-degree: 100%
 
 ---
-
 
 # Personalizar mensagens SMS{#personalizing-sms-messages}
 
@@ -39,4 +38,15 @@ Aqui, usamos um exemplo de mensagem SMS contendo campos de personalização que,
 
 ## Remetente do SMS {#sms-sender}
 
-Você pode personalizar o nome do remetente do SMS. Para obter mais informações, consulte a seção [Configuração de SMS](../../administration/using/configuring-sms-channel.md#configuring-sms-properties).
+>[!IMPORTANT]
+>
+>Consulte a legislação do seu país quanto à modificação do endereço do remetente. Você também deve consultar seu provedor de serviço SMS se ele oferecer essa funcionalidade.
+
+A opção **[!UICONTROL From]** permite personalizar o nome do remetente da mensagem SMS usando uma sequência de caracteres. Ele aparecerá como o nome do remetente da mensagem SMS no celular do recipient.
+
+Se esse campo estiver vazio, será usado o número de origem fornecido na conta externa. Se nenhum número de origem for fornecido, o código curto será usado. A conta externa específica do delivery de SMS é apresentada na seção [Definição de um roteamento de SMS](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
+
+![](assets/sms_creation_8.png)
+
+
+
