@@ -10,10 +10,10 @@ feature: Visão geral
 role: Business Practitioner
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
+source-git-commit: 2daf09071482ab858c73bc8f4f287495e9f8be4b
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 97%
+source-wordcount: '461'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Todas as datas de lançamento estão sujeitas a alterações: recomendamos que v
 
 As atualizações de ambientes ocorrem em ondas, durante os intervalos indicados abaixo. As datas exatas são comunicadas por email a cada cliente.
 
-Informações detalhadas sobre esta versão estão disponíveis nas [Notas de versão antecipadas](../../rn/using/e-release-notes.md).
+Informações detalhadas sobre esta versão estão disponíveis nas [Notas de versão](../../rn/using/release-notes.md).
 
 <table>
  <thead>
