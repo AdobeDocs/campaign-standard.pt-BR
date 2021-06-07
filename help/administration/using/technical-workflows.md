@@ -1,22 +1,21 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 'Workflows técnicos '
+title: Workflows técnicos
 description: Os fluxos de trabalho técnicos são fluxos de trabalho prontos para uso, projetados para lidar com processos técnicos em segundo plano no Adobe Campaign, garantindo o comportamento correto da plataforma.
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instance Settings
+feature: Configurações de instância
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
+source-git-commit: 6d25a618b2520c867393bf0ef795567de4c57e98
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 96%
+source-wordcount: '695'
+ht-degree: 92%
 
 ---
-
 
 # Fluxos de trabalho técnicos{#technical-workflows}
 
@@ -100,9 +99,14 @@ Os fluxos de trabalho técnicos são usados para lidar com processos técnicos e
    <td> Este fluxo de trabalho sincroniza as propriedades móveis do Adobe Launch importadas no Adobe Campaign Standard. Ele é iniciado a cada 15 minutos.<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">Atualizar a execução do delivery</span> <br /> </td> 
-   <td> <span class="uicontrol">updateDeliveryExecInfo</span> <br /> </td> 
-   <td> Este fluxo de trabalho atualiza o rastreamento do delivery. Por padrão, ele é iniciado a cada 10 minutos.<br /> </td> 
+   <td> <span class="uicontrol">Recuperação de logs de rastreamento</span> <br /> </td> 
+   <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
+   <td> Este fluxo de trabalho sincroniza as propriedades móveis do Adobe Launch importadas no Adobe Campaign Standard. Ele é iniciado a cada 15 minutos.<br /> </td> 
+  </tr>
+  <tr> 
+   <td> <span class="uicontrol">Recuperar logs de rastreamento</span> <br /> </td> 
+   <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
+   <td> Esse workflow restaura os logs de rastreamento perdidos. Observe que esse workflow técnico é usado em contextos específicos e está restrito somente ao uso interno do Adobe. <br> Por padrão, ele é iniciado a cada 10 minutos.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Atualizar os indicadores de delivery</span> <br /> </td> 
@@ -121,4 +125,3 @@ Os fluxos de trabalho técnicos são usados para lidar com processos técnicos e
   </tr> 
  </tbody> 
 </table>
-
