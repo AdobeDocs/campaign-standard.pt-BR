@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
-feature: Instance Settings
+feature: Configurações de instância
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
+source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
 workflow-type: tm+mt
-source-wordcount: '1629'
-ht-degree: 99%
+source-wordcount: '1567'
+ht-degree: 95%
 
 ---
-
 
 # Configuração do canal SMS{#configuring-sms-channel}
 
@@ -333,15 +332,11 @@ Os parâmetros específicos para envio de mensagens SMS são reagrupados nas se�
 
 Na seção **[!UICONTROL Advanced parameters]**:
 
-* A opção **[!UICONTROL From]** permite personalizar o nome do remetente da mensagem SMS usando uma sequência de caracteres. Ele aparecerá como o nome do remetente da mensagem SMS no celular do recipient.
+* O **[!UICONTROL Short code]** permite adicionar um código curto específico ao delivery. Os recipients que optaram por esse código curto específico serão excluídos automaticamente durante a preparação da mensagem. Para obter mais informações sobre como configurar o código curto, consulte [esta seção](../../channels/using/managing-incoming-sms.md).
 
-   Se esse campo estiver vazio, será usado o número de origem fornecido na conta externa. Se nenhum número de origem for fornecido, o código curto será usado. A conta externa específica do delivery de SMS é apresentada na seção [Definição de um roteamento de SMS](#defining-an-sms-routing).
-
-   ![](assets/sms_smpp_2.png)
-
-   >[!IMPORTANT]
+   >[!NOTE]
    >
-   >Consulte a legislação do seu país quanto à modificação do endereço do remetente. Você também deve consultar seu provedor de serviço SMS se ele oferecer essa funcionalidade.
+   >Se o campo **[!UICONTROL Short code]** ficar vazio, o valor do campo **[!UICONTROL Short code]** definido na conta externa será usado.
 
 Na seção **[!UICONTROL Send]** de um template SMS:
 
