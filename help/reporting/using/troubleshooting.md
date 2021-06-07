@@ -6,14 +6,13 @@ description: Encontre aqui perguntas comuns relacionadas aos Relatórios dinâmi
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
-feature: Reporting
+feature: Relatórios
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-translation-type: tm+mt
-source-git-commit: 6a2ddd03b327beabc6055448aa2fa53de12f0b6f
+source-git-commit: 81ffe6a7e59a745a6f61941dff69be85edf4fe45
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '704'
 ht-degree: 5%
 
 ---
@@ -132,7 +131,7 @@ Os relatórios devem ter a seguinte aparência:
    <td align="center"> <strong>100</strong><br/> </td> 
    <td align="center"> <strong>90º</strong><br/> </td> 
    <td align="center"> <strong>10º</strong><br/> </td> 
-   <td align="center"> <strong>3</strong><br/> </td> 
+   <td align="center"> <strong>1</strong><br/> </td> 
   </tr> 
   <tr> 
    <td align="center"> RC1<br/> </td> 
@@ -176,8 +175,11 @@ Por exemplo, aqui, definimos **[!UICONTROL Upper limit]** como 500 e **[!UICONTR
 
 ![](assets/troubleshooting_3.png)
 
-O valor **N/A** pode, às vezes, aparecer em seus relatórios dinâmicos. Isso pode ser exibido por dois motivos:
+O valor **N/A** pode, às vezes, aparecer em seus relatórios dinâmicos. Isso pode ser exibido por três motivos:
 
 * O delivery foi excluído e é mostrado aqui como **N/A** para não causar discrepância nos resultados.
-* Ao arrastar e soltar a dimensão **[!UICONTROL Transactional Delivery]** em seus relatórios, o valor **N/A** pode aparecer como resultado. Isso acontece porque o relatório dinâmico obtém cada delivery mesmo que não seja transacional.
-Isso também pode acontecer ao arrastar e soltar a dimensão **[!UICONTROL Delivery]** no relatório, mas nesse caso, o valor **N/A** representará deliveries transacionais.
+* Ao arrastar e soltar a dimensão **[!UICONTROL Transactional Delivery]** em seus relatórios, o valor **N/A** pode aparecer como resultado. Isso acontece porque o relatório dinâmico obtém cada delivery mesmo que não seja transacional. Isso também pode acontecer ao arrastar e soltar a dimensão **[!UICONTROL Delivery]** no relatório, mas nesse caso, o valor **N/A** representará deliveries transacionais.
+* Quando uma dimensão é usada com uma métrica que não está relacionada à dimensão. No exemplo abaixo, um detalhamento é adicionado com a dimensão **[!UICONTROL Tracking URL]** mesmo que a contagem **[!UICONTROL Click]** esteja definida como 0 neste delivery.
+
+   ![](assets/troubleshooting_4.png)
+
