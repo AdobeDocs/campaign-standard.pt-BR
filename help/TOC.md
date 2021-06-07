@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centro de ajuda para os principais recursos, tarefas, configurações e outros recursos necessários para usar o Campaign Standard. '
 title: Manual do Campaign Standard
 breadcrumb-title: Central de ajuda
-source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
+source-git-commit: 633992a3120eeef4aacd1dadeb4e0b47dbbcb999
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1785'
 ht-degree: 99%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 99%
    + [Versão mais recente](rn/using/release-notes.md)
    + [Notas de versão anteriores](rn/using/e-release-notes.md)
    + Versões anteriores {#previous-releases}
+      + [Notas de versão 2021](rn/using/release-notes-2021.md)
       + [Notas de versão 2020](rn/using/release-notes-2020.md)
       + [Notas de versão 2019](rn/using/release-notes-2019.md)
       + [Notas de versão 2018](rn/using/release-notes-2018.md)
@@ -59,7 +60,7 @@ ht-degree: 99%
       + [Enriquecer o banco de dados do Campaign](audiences/using/enriching-campaign-database.md)
    + Gerenciamento de públicos-alvo {#managing-audiences}
       + [Sobre públicos-alvo](audiences/using/about-audiences.md)
-      + [Criação de públicos-alvo](audiences/using/creating-audiences.md)
+      + [Criação de públicos](audiences/using/creating-audiences.md)
       + [Seleção de um público-alvo em uma mensagem](audiences/using/selecting-an-audience-in-a-message.md)
    + Gerenciamento de assinaturas {#managing-subscriptions}
       + [Sobre assinaturas](audiences/using/about-subscriptions.md)
