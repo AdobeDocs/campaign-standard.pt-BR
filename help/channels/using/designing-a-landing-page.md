@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: Landing Pages
+feature: Landing pages
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
+source-git-commit: c9d2edbc0731734967af033dc318f5f60ea5cc8d
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 99%
+source-wordcount: '1668'
+ht-degree: 97%
 
 ---
-
 
 # Design de uma landing page{#designing-a-landing-page}
 
@@ -27,19 +26,19 @@ Páginas de aterrissagem são criadas como qualquer [atividade de marketing](../
 
 Ao criar uma página de aterrissagem, é necessário definir o conteúdo da própria página, a página de confirmação e a página de erro. Use o alternador na barra de ações para exibir e configurar cada uma dessas páginas.
 
-O conteúdo da página de aterrissagem é projetado por meio do editor de conteúdo do Campaign.
+O conteúdo da landing page é projetado por meio do editor de conteúdo do Campaign.
 
 >[!NOTE]
 >
->Se sua instância foi instalada antes da versão 19.0 do Adobe Campaign Standard, você ainda terá acesso ao editor herdado de conteúdo de email. A interface, os princípios de uso e a configuração são os mesmos descritos abaixo para páginas de aterrissagem. No entanto, todos os recursos podem não estar disponíveis ou mantidos no editor herdado de conteúdo de email, que foi substituído a partir da versão 19.0. Para editar rapidamente o conteúdo de email por meio de uma interface de arrastar e soltar com funcionalidades estendidas, use o [Designer de email](../../designing/using/designing-content-in-adobe-campaign.md).
+>Para design de email, se sua instância foi instalada antes da versão 19.0 do Adobe Campaign Standard, você ainda terá acesso ao editor herdado de conteúdo de email. A interface, os princípios de uso e a configuração são os mesmos descritos abaixo para páginas de aterrissagem. No entanto, todos os recursos podem não estar disponíveis ou mantidos no editor herdado de conteúdo de email, que foi substituído a partir da versão 19.0. Para editar rapidamente o conteúdo de email por meio de uma interface de arrastar e soltar com funcionalidades estendidas, use o [Designer de email](../../designing/using/designing-content-in-adobe-campaign.md).
 
 Esta página descreve as especificidades do editor de conteúdo das páginas de aterrissagem. Para mais informações sobre as ações comuns a uma ou mais atividades de marketing, consulte estas seções do guia **Criação do conteúdo de email** l:
 
 * [Inserção de um campo de personalização](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Inclusão de um bloco de conteúdo](../../designing/using/personalization.md#adding-a-content-block).
-* [Inserção de um link](../../designing/using/links.md#inserting-a-link).
-* [Inserção de imagens](../../designing/using/images.md).
-* [Práticas recomendadas gerais para design de conteúdo](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
+* [Inclusão de um bloco de conteúdo](../../designing/using/personalization.md#adding-a-content-block)
+* [Inserção de um link](../../designing/using/links.md#inserting-a-link)
+* [Inserção de imagens](../../designing/using/images.md)
+* [Práticas recomendadas gerais para design de conteúdo](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)
 
 >[!NOTE]
 >Se você tiver uma página de aterrissagem que já esteja predefinida no formato HTML, poderá importá-la diretamente usando o botão **[!UICONTROL Change content]**.
