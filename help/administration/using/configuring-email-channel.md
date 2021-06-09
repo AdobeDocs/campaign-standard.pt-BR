@@ -7,15 +7,14 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
-feature: Instance Settings
+feature: Configurações de instância
 role: Administrator
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-translation-type: tm+mt
-source-git-commit: b899d1926526fccb2fe1fa42db7a4e4317ddb1cb
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
 workflow-type: tm+mt
-source-wordcount: '2602'
-ht-degree: 76%
+source-wordcount: '2598'
+ht-degree: 77%
 
 ---
 
@@ -34,7 +33,7 @@ A tela de configuração de email permite definir os parâmetros do canal de ema
    A seção **[!UICONTROL Header parameters of sent emails]** lista os endereços de email autorizados que você pode usar para enviar emails para os seus recipients (endereço do remetente) e permitir que eles enviem respostas automatizadas, como rejeições assíncronas, respostas fora do escritório etc. (endereço de erro).  O Adobe Campaign verifica se os endereços inseridos são válidos durante a fase de preparação da mensagem. Esse modo operacional garante que não sejam usados endereços que possam causar problemas de entrega.
    * O endereço de remetente e de erro são configurados pela Adobe. Esses campos não podem estar vazios.
    * Não é possível editar esses campos. Para atualizar um endereço, entre em contato com a equipe de Atendimento ao cliente da Adobe.
-   * Para adicionar outro endereço, use o [Painel de controle do Campaign](https://docs.adobe.com/content/help/pt-BR/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) para configurar um novo subdomínio ou entre em contato com a equipe de Atendimento ao cliente da Adobe. Observe que, se forem usadas várias máscaras, elas serão separadas por vírgulas.
+   * Para adicionar outro endereço, use o [Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=pt-BR) para configurar um novo subdomínio ou entre em contato com a equipe de Atendimento ao cliente da Adobe. Observe que, se forem usadas várias máscaras, elas serão separadas por vírgulas.
    * É uma boa prática definir endereços usando uma estrela, como *@yourdomain.com. Ela permite que você use qualquer endereço que termine com seu nome de subdomínio.
 
 * **Avaliação do delivery**
@@ -343,7 +342,7 @@ As rejeições podem ter os seguintes status de qualificação:
 
 >[!NOTE]
 >
->No caso de uma interrupção de um ISP, os emails enviados pelo Campaign serão marcados incorretamente como rejeições. Para corrigir isso, você precisa atualizar a qualificação de devolução. Para obter mais informações, consulte [esta seção](../../administration/using/update-bounce-qualification.md).
+>No caso de uma interrupção de um ISP, os emails enviados pelo Campaign serão marcados incorretamente como rejeições. Para corrigir isso, você precisa atualizar a qualificação de rejeição. Para obter mais informações, consulte [esta seção](../../administration/using/update-bounce-qualification.md).
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
