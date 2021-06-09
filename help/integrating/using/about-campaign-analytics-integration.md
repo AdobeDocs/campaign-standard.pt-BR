@@ -6,17 +6,16 @@ description: Ao coletar os dados de KPI do Adobe Campaign Standard, agora é pos
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
-feature: Triggers
+feature: Acionadores
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ada1a5d1-879b-49cd-b4ef-43d7a40bafdb
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '207'
 ht-degree: 7%
 
 ---
-
 
 # Sobre a integração do Campaign com o Analytics{#about-campaign-analytics-integration}
 
@@ -35,6 +34,6 @@ Uma integração entre o serviço principal da Adobe Analytics **Triggers** e o 
 
 **Tópicos relacionados:**
 
-* [Visão geral da integração do Campaign Standard com o Analytics](https://docs.adobe.com/content/help/en/analytics/integration/adobe-campaign.html)
-* [Configurar a integração do Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
+* [Visão geral da integração do Campaign Standard com o Analytics](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
+* [Configurar a integração do Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
 * [Dimensões e métricas do Campaign no Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
