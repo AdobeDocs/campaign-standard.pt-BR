@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: branding,overview;branding,main
-feature: Instance Settings
+feature: Configurações de instância
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
 workflow-type: tm+mt
-source-wordcount: '1286'
-ht-degree: 78%
+source-wordcount: '1282'
+ht-degree: 80%
 
 ---
-
 
 # Identidade visual{#branding}
 
@@ -92,11 +91,11 @@ Uma **Marca** é definida pelas seguintes características:
 
 Você pode adicionar novas entidades de sua organização ao Campaign ou criar um novo tipo de email que deve ser enviado em um subdomínio diferente. Para fazer isso, siga as etapas abaixo:
 
-1. **Configurar um novo subdomínio**  - para que qualquer novo subdomínio seja usado pelo Adobe, a primeira etapa será configurá-lo. Você pode fazer isso por meio do [Painel de controle do Campaign](https://docs.adobe.com/content/help/pt-BR/control-panel/using/subdomains-and-certificates/subdomains-branding.html) ou entrar em contato com o contato técnico do Adobe. Saiba mais sobre a configuração de subdomínio [neste artigo](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
+1. **Configurar um novo subdomínio**  - para que qualquer novo subdomínio seja usado pelo Adobe, a primeira etapa será configurá-lo. Você pode fazer isso por meio do [Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=pt-BR) ou entrar em contato com o contato técnico do Adobe. Saiba mais sobre a configuração de subdomínio [neste artigo](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=pt-BR).
 
    >[!NOTE]
    >
-   >O Painel de controle do Campaign é acessível a todos os usuários administradores. As etapas para conceder acesso de Administrador a um usuário estão detalhadas em [this page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+   >O Painel de controle do Campaign é acessível a todos os usuários administradores. As etapas para conceder acesso de Administrador a um usuário estão detalhadas [nesta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=pt-BR#discover-control-panel).
 
 1. **Criar um tíquete**  - Depois que o subdomínio é configurado, o Adobe precisará configurá-lo no ambiente de produção. Para solicitar isso, [crie um ticket para o Atendimento ao cliente](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) com as seguintes informações:
 
@@ -200,4 +199,3 @@ Para criar um email vinculado a uma marca, siga as etapas abaixo:
 1. O email já está configurado. Você pode verificar as informações antes de testá-las usando os perfis de teste e depois enviá-las para o público-alvo.
 
    ![](assets/branding_16.png)
-
