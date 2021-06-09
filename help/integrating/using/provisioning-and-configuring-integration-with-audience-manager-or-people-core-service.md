@@ -6,17 +6,16 @@ description: 'Saiba como configurar a integração do serviço principal de Pess
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: People Core Service Integration
+feature: Integração do Serviço principal de pessoas
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '721'
 ht-degree: 42%
 
 ---
-
 
 # Provisionamento e configuração da integração com o Audience Manager ou o serviço principal do People{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
 
@@ -127,10 +126,10 @@ Para criar a fonte de dados **[!UICONTROL Declared ID]**:
 
 Para a configuração da integração com o Serviço Principal de Pessoas ou o Audience Manager, também é necessário configurar o servidor de rastreamento do Campaign.
 
-Aqui, você precisa verificar se o Servidor de rastreamento de campanha está registrado no domínio (CNAME). Você pode encontrar mais informações sobre a configuração do nome de domínio em [este artigo](https://helpx.adobe.com/br/campaign/kb/domain-name-delegation.html).
+Aqui, você precisa verificar se o Servidor de rastreamento de campanha está registrado no domínio (CNAME). Você pode encontrar mais informações sobre a configuração do nome de domínio em [este artigo](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=pt-BR).
 
 ### Etapa 4: configurar o Serviço de ID de visitante {#step-4--configure-the-visitor-id-service}
 
-Se o serviço de ID do visitante nunca foi configurado em suas propriedades da Web ou sites, consulte este [documento](https://docs.adobe.com/content/help/pt-BR/id-service/using/implementation/setup-aam-analytics.html) para saber como configurar o serviço ou este [vídeo](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
+Se o serviço de ID do visitante nunca foi configurado em suas propriedades da Web ou sites, consulte este [documento](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html?lang=pt-BR) para saber como configurar o serviço ou este [vídeo](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
 
 Sua configuração e provisionamento estão finalizados, a integração agora pode ser usada para importar e exportar públicos ou segmentos.
