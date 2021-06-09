@@ -7,17 +7,16 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Saiba como proteger e otimizar o fluxo do processo de envio.
-feature: Deliverability
+feature: Capacidade de delivery
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
+source-git-commit: 8a62ee661b77c3e3062e46477bfce5911e9415ff
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '747'
 ht-degree: 85%
 
 ---
-
 
 # Otimizar o delivery{#optimize-delivery}
 
@@ -37,7 +36,7 @@ Vários fatores podem afetar diretamente o desempenho do servidor e retardar a p
 
 * A [execução do workflow](../../automating/using/about-workflow-execution.md): o monitoramento de seus workflows é essencial para evitar problemas de desempenho na plataforma. Siga as diretrizes listadas [nesta página](../../automating/using/monitoring-workflow-execution.md). Saiba mais na seção [práticas recomendadas de workflow](../../automating/using/best-practices-workflows.md) .
 
-* Você pode aproveitar os [recursos do Painel de controle do Campaign](https://docs.adobe.com/content/help/pt-BR/control-panel/using/discover-control-panel/key-features.html) para monitorar sua plataforma, usando as funcionalidades de [monitoramento de desempenho](https://docs.adobe.com/content/help/pt-BR/control-panel/using/performance-monitoring/about-performance-monitoring.html).
+* Você pode aproveitar os [recursos do Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=pt-BR) para monitorar sua plataforma, usando as funcionalidades de [monitoramento de desempenho](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=pt-BR).
 
 ## Verificar a configuração da rede {#network-config}
 
@@ -71,7 +70,7 @@ Ao começar a enviar e-mails em uma nova plataforma, você pode usar uma lista d
 
 * O Adobe Campaign gerencia endereços incorretos de acordo com o tipo de erro retornado. Para obter mais informações, consulte [esta seção](../../sending/using/understanding-quarantine-management.md).
 
-* Alguns provedores de acesso à Internet consideram automaticamente emails como spam se a taxa de endereços inválidos for muito alta. A quarentena, portanto, evita que você seja adicionado à lista de bloqueios por esses provedores.
+* Alguns provedores de acesso à Internet consideram automaticamente emails como spam se a taxa de endereços inválidos é muito alta. A quarentena, portanto, evita que você seja adicionado à lista de bloqueios por esses provedores.
 
 * Além disso, o gerenciamento de quarentenas ajuda a reduzir os custos de envio de SMS, excluindo números de telefone incorretos dos deliveries.
 
