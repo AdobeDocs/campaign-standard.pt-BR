@@ -9,14 +9,13 @@ topic-tags: about-workflows-and-data-management
 feature: Workflows
 role: Data Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 26be942a-c252-458f-a590-eb235567ca67
+source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 13%
+source-wordcount: '518'
+ht-degree: 40%
 
 ---
-
 
 # Introdução a processos e gerenciamento de dados {#get-started-processes-data-management}
 
@@ -26,14 +25,14 @@ ht-degree: 13%
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Importar/exportar dados</a></p></td></tr>
 </table>
 
-O Adobe Campaign oferece um ambiente gráfico abrangente que permite projetar processos complexos, incluindo segmentação, execução de campanha, processamento de arquivos etc. Por exemplo, você pode usar um workflow para baixar um arquivo de um servidor, descompactá-lo e importar seus registros para o banco de dados do Adobe Campaign.
+O Adobe Campaign oferece um ambiente gráfico abrangente que permite projetar processos complexos, incluindo segmentação, execução de campanha, processamento de arquivos etc. Você pode usar um fluxo de trabalho, por exemplo, para baixar um arquivo de um servidor, descompactá-lo e importar seus registros no banco de dados do Adobe Campaign.
 
-Um workflow também pode envolver usuários atribuindo tarefas ou fazendo com que eles aprovem tarefas realizadas. Isso significa que é possível atribuir uma tarefa a um ou vários usuários para trabalhar no conteúdo ou especificar alvos e aprovar provas antes de enviar a mensagem.
+Um fluxo de trabalho também pode envolver usuários atribuindo tarefas ou fazendo com que eles aprovem tarefas realizadas. Isso significa que é possível atribuir uma tarefa a um ou vários usuários para trabalhar no conteúdo ou especificar alvos e aprovar provas antes de enviar a mensagem.
 
-Os workflows podem ser usados em contextos diferentes, como por exemplo:
+Os workflows podem ser usados em contextos diferentes, por exemplo:
 
-* Direcionamento para gerenciar públicos-alvo ou enviar mensagens.
-* Gestão de dados (ETL) para manipular dados.
+* Direcionamento para gerenciar públicos ou enviar mensagens.
+* Gerenciamento de dados (ETL) para manipular dados.
 * Importação de dados para o banco de dados do Campaign.
 * Processos técnicos, como limpeza do banco de dados, recuperação de informações de rastreamento etc.
 
@@ -53,7 +52,7 @@ Leia mais:
 
 * [Criação de um workflow](../../automating/using/building-a-workflow.md)
 * [Execução de um fluxo de trabalho](../../automating/using/about-workflow-execution.md)
-* [Práticas recomendadas do fluxo de trabalho](../../automating/using/best-practices-workflows.md)
+* [Práticas recomendadas de fluxo de trabalho](../../automating/using/best-practices-workflows.md)
 
 ## Filtrar dados {#filter-data}
 
@@ -92,6 +91,6 @@ Leia mais:
 
 ## Recursos adicionais
 
-* [Vídeos tutoriais sobre processos e gerenciamento de dados](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/getting-started/create-workflow.html)
+* [Vídeos tutoriais sobre processos e gerenciamento de dados](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/creating-a-workflow.html?lang=pt-BR)
 * [Workflows técnicos](../../administration/using/technical-workflows.md)
 * [Introdução ao modelo de dados do Campaign Standard](../../developing/using/get-started-data-model.md)
