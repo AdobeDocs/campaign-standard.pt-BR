@@ -10,9 +10,9 @@ feature: Visão geral
 role: Business Practitioner
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: 21820131ef4ef13782a416535b170f260ab5efea
+source-git-commit: 4a8dfc0b8f321447e0ebc23a9f5bbef337454d9f
 workflow-type: tm+mt
-source-wordcount: '2538'
+source-wordcount: '2536'
 ht-degree: 95%
 
 ---
