@@ -6,17 +6,16 @@ description: Crie conteúdo de email começando do zero, importando HTML ou apro
 audience: designing
 content-type: reference
 topic-tags: about-content-design
-feature: Email Design
+feature: Design de email
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
+source-git-commit: 7133ee5561c60d795c8d396c167ea79a9266392b
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1250'
 ht-degree: 90%
 
 ---
-
 
 # Designer de email do Campaign{#designing-content-in-adobe-campaign}
 
@@ -160,15 +159,15 @@ Quanto aos fragmentos, observe o seguinte:
 
 **Tópicos relacionados**
 
-* [Criação de email](../../channels/using/creating-an-email.md)
+* [Criar email](../../channels/using/creating-an-email.md)
 * [Design de uma landing page](../../channels/using/designing-a-landing-page.md)
 * [Criar uma mensagem SMS](../../channels/using/creating-an-sms-message.md)
 * [Criação e envio de uma notificação por push](../../channels/using/preparing-and-sending-a-push-notification.md)
 
-## Vídeo tutorial {#video}
+## Tutorial em vídeo {#video}
 
 Este vídeo fornece uma visão geral do Designer de email.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-Para começar a usar o Designer de email, assista a esse [conjunto de vídeos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) que explicam a funcionalidade geral do Designer de email e como projetar um email do zero ou utilizando modelos
+Para começar a usar o Designer de email, assista a esse [conjunto de vídeos](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) que explicam a funcionalidade geral do Designer de email e como projetar um email do zero ou utilizando modelos
