@@ -6,17 +6,16 @@ description: Crie mensagens personalizadas em vários canais, use modelos, crie 
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: Overview
+feature: Visão geral
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
+source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '523'
 ht-degree: 23%
 
 ---
-
 
 # Introdução a canais de comunicação {#discovering-communication-channels}
 
@@ -83,7 +82,7 @@ Leia mais:
 * [Notificações por push transacionais](../../channels/using/transactional-push-notifications.md)
 * [Mensagens de acompanhamento](../../channels/using/follow-up-messages.md)
 
-## Landing pages {#landing-pages}
+## Páginas de aterrissagem {#landing-pages}
 
 <img src="assets/do-not-localize/icon_landing.svg" width="60px">
 
@@ -101,9 +100,9 @@ Leia mais:
 ## Recursos adicionais
 
 * [Otimização da capacidade de entrega](../../sending/using/about-deliverability.md)
-* [Práticas recomendadas para delivery](../../sending/using/delivery-best-practices.md)
+* [Práticas recomendadas de delivery](../../sending/using/delivery-best-practices.md)
 * [Criação de conteúdo de email](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Importação de conteúdo AEM](../../integrating/using/creating-email-experience-manager.md)
 * [Envio de mensagens com fluxos de trabalho](../../automating/using/about-channel-activities.md)
-* [Vídeos tutoriais sobre canais de comunicação](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
+* [Vídeos tutoriais sobre canais de comunicação](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html?lang=pt-BR)
 * [Caso de uso: Criação de um delivery entre canais](../../automating/using/workflow-cross-channel-delivery.md)
