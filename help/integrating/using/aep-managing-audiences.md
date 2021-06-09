@@ -7,17 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: Microsoft CRM Integration
+feature: Integração do Microsoft CRM
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2f6c5cc6-0634-4418-a2ee-e1c133d9cbd2
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '390'
 ht-degree: 3%
 
 ---
-
 
 # Gerenciamento de públicos da plataforma Adobe Experience {#about-audiences}
 
@@ -53,7 +52,7 @@ Para criar um público-alvo do Adobe Experience Platform diretamente no Campaign
 
 1. Para criar um segmento com êxito, você deve selecionar uma **política de mesclagem** que corresponda à sua finalidade de marketing para este segmento.
 
-   No painel de configurações, uma política de mesclagem padrão da Plataforma é selecionada. Para obter mais informações sobre políticas de mesclagem, consulte a seção dedicada do [Guia do usuário do Construtor de segmento](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
+   No painel de configurações, uma política de mesclagem padrão da Plataforma é selecionada. Para obter mais informações sobre políticas de mesclagem, consulte a seção dedicada do [Guia do usuário do Construtor de segmento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
