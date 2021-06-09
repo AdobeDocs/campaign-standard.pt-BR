@@ -6,17 +6,16 @@ description: Descubra como configurar o Adobe Campaign para enviar notificaçõe
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instance Settings
+feature: Configurações de instância
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
 workflow-type: tm+mt
-source-wordcount: '1287'
-ht-degree: 8%
+source-wordcount: '1281'
+ht-degree: 7%
 
 ---
-
 
 # Configurar um aplicativo para dispositivos móveis{#configuring-a-mobile-application}
 
@@ -56,8 +55,8 @@ Esta etapa permite que o usuário faça logon no Experience Platform Launch para
 1. No Experience Platform Launch, clique na guia **[!UICONTROL Extensions]**, vá para **[!UICONTROL Catalog]** e pesquise a extensão **[!UICONTROL Adobe Campaign Standard]**. Para obter mais informações, consulte [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
 1. Para suportar casos de uso de localização no Campaign Standard, instale a extensão **[!UICONTROL Places]** e a extensão **[!UICONTROL Places Monitor]**.
-   * Instale a extensão **[!UICONTROL Places]** no Experience Platform Launch. Consulte esta [página](https://docs.adobe.com/content/help/pt-BR/places/using/places-ext-aep-sdks/places-extension/places-extension.translate.html).
-   * Instale a extensão **[!UICONTROL Places Monitor]** no Experience Platform Launch. Consulte esta [página](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
+   * Instale a extensão **[!UICONTROL Places]** no Experience Platform Launch. Consulte esta [página](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+   * Instale a extensão **[!UICONTROL Places Monitor]** no Experience Platform Launch. Consulte esta [página](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
 
 1. No Adobe Campaign Standard, configure a propriedade móvel que você criou no Experience Platform Launch. Consulte [Configuração do aplicativo Adobe Experience Platform Launch no Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
