@@ -6,17 +6,16 @@ description: 'Saiba como configurar a integração do Adobe Experience Cloud Tri
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Triggers
+feature: Acionadores
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 8%
+source-wordcount: '859'
+ht-degree: 7%
 
 ---
-
 
 # Configuração de acionadores na Experience Cloud{#configuring-triggers-in-experience-cloud}
 
@@ -98,7 +97,7 @@ Um acionador da Adobe Experience Cloud precisa ser criado para que você possa u
 
 Crie um novo acionador no Experience Cloud e verifique se você selecionou o conjunto de relatórios usado em seu site. Certifique-se de escolher a dimensão correta para que o acionador seja acionado.
 
-Consulte a [documentação do Adobe Experience Cloud](https://docs.adobe.com/content/help/pt-BR/core-services/interface/activation/triggers.html) e assista a este [vídeo](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
+Consulte a [documentação do Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html) e assista a este [vídeo](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
 
 ## Aciona práticas recomendadas e limitações {#triggers-best-practices-and-limitations}
 
@@ -115,4 +114,3 @@ Esta é uma lista de práticas recomendadas e limitações para o uso da integra
 >[!CAUTION]
 >
 >Seu site deve estar em execução no mesmo domínio que o servidor do Adobe Campaign. Caso contrário, você não poderá usar a id de visitante para reconciliar e entrar em contato com usuários que visitam o site anonimamente.
-
