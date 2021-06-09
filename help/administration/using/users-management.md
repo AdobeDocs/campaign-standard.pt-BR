@@ -6,17 +6,16 @@ description: 'Os usuários do Adobe Campaign têm funções específicas. Descub
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Access Management
+feature: Gerenciamento de acesso
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
+source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1220'
 ht-degree: 94%
 
 ---
-
 
 # Gerenciamento de usuários{#users-management}
 
@@ -38,7 +37,7 @@ Para acessar a interface de gerenciamento de usuários no Adobe Campaign, clique
 
 **Tópicos relacionados:**
 
-* Vídeo [Managing user permissions](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/access-management.html)
+* Vídeo [Managing user permissions](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)
 * [Lista de funções](../../administration/using/list-of-roles.md)
 * [Lista de autorizações](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
