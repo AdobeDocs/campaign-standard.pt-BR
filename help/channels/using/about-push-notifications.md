@@ -10,14 +10,13 @@ context-tags: mobileApp,overview
 feature: Push
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
+source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1279'
 ht-degree: 50%
 
 ---
-
 
 # Sobre as notificações por push{#about-push-notifications}
 
@@ -85,7 +84,7 @@ Antes de enviar as notificações por push, você deve:
 
 Confira os recursos abaixo:
 
-* [Tutoriais em vídeo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [Tutoriais em vídeo](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [Documentação do produto](../../channels/using/about-push-notifications.md)
 * Configurar usando o SDK do AEP [documentação](../../administration/using/configuring-a-mobile-application.md)
 * [Página da comunidade](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
