@@ -1,23 +1,22 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Orientações de monitoramento
+title: Diretrizes de monitoramento
 description: Esta seção apresenta as diretrizes gerais para monitoramento do Campaign Standard.
 audience: production
 content-type: reference
 topic-tags: introduction
 index: y
-feature: Access Management
+feature: Gerenciamento de acesso
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 14%
+source-wordcount: '507'
+ht-degree: 21%
 
 ---
-
 
 # Orientações de monitoramento {#monitoring-guidelines}
 
@@ -44,11 +43,11 @@ Eles são operações ou trabalhos programados para serem executados regularment
 
 **Painel de controle do Campaign**
 
-O Painel de controle do Campaign permite gerenciar várias configurações da sua instância: Permissões de URL, verifique os detalhes da instância, como as versões de criação dos servidores, monitore o uso de perfis ativos etc. Ela também permite monitorar o espaço disponível nos servidores SFTP conectados à sua instância. [Leia mais](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.translate.html).
+O Painel de controle do Campaign permite gerenciar várias configurações da sua instância: Permissões de URL, verifique os detalhes da instância, como as versões de criação dos servidores, monitore o uso de perfis ativos etc. Ela também permite monitorar o espaço disponível nos servidores SFTP conectados à sua instância. [Leia mais](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR).
 
 >[!NOTE]
 >
->O Painel de controle do Campaign é acessível a todos os usuários administradores. As etapas para conceder acesso de Administrador a um usuário estão detalhadas em [this page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>O Painel de controle do Campaign é acessível a todos os usuários administradores. As etapas para conceder acesso de Administrador a um usuário estão detalhadas [nesta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=pt-BR#discover-control-panel).
 
 **Objetos técnicos**
 
