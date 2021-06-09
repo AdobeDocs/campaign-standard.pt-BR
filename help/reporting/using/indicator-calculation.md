@@ -6,17 +6,16 @@ description: Entenda os resultados de seus relatórios com uma lista de todas as
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Reporting
+feature: Relatórios
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
+source-git-commit: a9a91df349b107b06f229db33812a27addfb5c27
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '727'
 ht-degree: 8%
 
 ---
-
 
 # Cálculo do indicador{#indicator-calculation}
 
@@ -191,7 +190,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
   <tr> 
    <td> Cliques exclusivos<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Cliques exclusivos são calculados usando os conceitos do ThetaSketch. Para obter mais informações, consulte este <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplo</a>.<br /> </td> 
+   <td> Cliques exclusivos são calculados usando os conceitos do ThetaSketch. Para obter mais informações, consulte este <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplo</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -271,7 +270,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
   <tr> 
    <td> Aberturas exclusivas<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> As aberturas exclusivas são calculadas usando os conceitos de ThetaSketch de RecipientIds exclusivos. Para obter mais informações, consulte este <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplo</a>.<br /> </td> 
+   <td> As aberturas exclusivas são calculadas usando os conceitos de ThetaSketch de RecipientIds exclusivos. Para obter mais informações, consulte este <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressões<br /> </td> 
@@ -291,7 +290,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
   <tr> 
    <td> Cliques exclusivos<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Cliques exclusivos são calculados usando os conceitos do ThetaSketch. Para obter mais informações, consulte este <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplo</a>.<br /> </td> 
+   <td> Cliques exclusivos são calculados usando os conceitos do ThetaSketch. Para obter mais informações, consulte este <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Índice de click-through<br /> </td> 
@@ -375,4 +374,3 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
   </tr> 
  </tbody> 
 </table>
-
