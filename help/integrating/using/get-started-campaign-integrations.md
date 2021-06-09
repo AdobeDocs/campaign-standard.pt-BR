@@ -10,10 +10,10 @@ feature: Acionadores
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: bc2a4af29e7ed9e9e7b338b7aa7d8bb30628f0b6
+source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 83%
+source-wordcount: '714'
+ht-degree: 81%
 
 ---
 
@@ -29,7 +29,7 @@ As diferentes integrações apresentadas abaixo permitem combinar o delivery e a
 
 Dependendo do ambiente, outras soluções podem ser vinculadas à Adobe Experience Cloud. Elas são vinculadas como organizações (também chamadas de locatários).
 
-Uma organização é a entidade que permite a um administrador configurar grupos e usuários e controlar o logon único na Experience Cloud. A organização funciona como uma empresa de login que abrange todos os produtos e soluções da Experience Cloud. Na maioria das vezes, uma organização é o nome da sua empresa. No entanto, uma empresa pode ter muitas organizações. O gerenciamento de usuários e organizações é detalhado no [portal de ajuda da Adobe Experience Cloud](https://docs.adobe.com/content/help/pt-BR/core-services/interface/manage-users-and-products/organizations.html).
+Uma organização é a entidade que permite a um administrador configurar grupos e usuários e controlar o logon único na Experience Cloud. A organização funciona como uma empresa de login que abrange todos os produtos e soluções da Experience Cloud. Na maioria das vezes, uma organização é o nome da sua empresa. No entanto, uma empresa pode ter muitas organizações. O gerenciamento de usuários e organizações é detalhado no [portal de ajuda da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=pt-BR).
 
 Se você quiser integrar fluxos de dados de outros sistemas ao Adobe Campaign, consulte nossa [documentação de API](../../api/using/get-started-apis.md).
 
@@ -58,7 +58,7 @@ Se você quiser integrar fluxos de dados de outros sistemas ao Adobe Campaign, c
    <td> Adobe Target<br /> </td> 
    <td> Permite inserir imagens que são dinamicamente calculadas pelo Adobe Target quando o email criado e enviado pelo Adobe Campaign é aberto.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Trabalhe com o Campaign e o Target</a>,  <a href="https://docs.adobe.com/content/help/pt-BR/target/using/integrate/campaign-and-target.html">integre o Campaign e o Target</a>,  <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">personalize imagens de email em </a> vídeo em tempo real (etapa 3)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Trabalhe com o Campaign e o Target</a>,  <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">integre o Campaign e o Target</a>,  <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">personalize imagens de email em </a> vídeo em tempo real (etapa 3)
     </td> 
   </tr> 
   <tr> 
@@ -104,7 +104,7 @@ Se você quiser integrar fluxos de dados de outros sistemas ao Adobe Campaign, c
    <td> Adobe Dreamweaver<br /> </td> 
    <td> Permite editar um conteúdo de email do Dreamweaver e sincronizá-lo com o Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">Criar emails personalizados com o </a> Dreamweavervideo,  <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Usar extensão do Campaign para Dreamweaver</a> 
+    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Criar emails personalizados com o </a> Dreamweavervideo,  <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Usar extensão do Campaign para Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 
