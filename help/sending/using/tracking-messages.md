@@ -6,17 +6,16 @@ description: Saiba como rastrear o comportamento dos recipients do seu delivery.
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-feature: Performance Monitoring
+feature: Monitoramento de desempenho
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
+source-git-commit: 8a62ee661b77c3e3062e46477bfce5911e9415ff
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 38%
+source-wordcount: '487'
+ht-degree: 36%
 
 ---
-
 
 # Rastreamento de mensagens{#tracking-messages}
 
@@ -31,7 +30,7 @@ As informações de rastreamento estão disponíveis para cada contato do banco 
 O Adobe Campaign usa dois tipos de cookies:
 
 * Um cookie de sessão (nlid). Ele contém o identificador do email enviado ao contato (broadlogId) e o identificador do modelo de mensagem (deliveryId). Ele é adicionado quando o contato clica em um URL incluído em um email enviado pelo Adobe Campaign e permite que você acompanhe seu comportamento na Web. Esse cookie de sessão é apagado automaticamente quando o navegador é fechado. O contato pode configurar o navegador para recusar cookies.
-* Um cookie compartilhado entre as soluções da Adobe Experience Cloud. Ele permite identificar os usuários que interagem com as soluções da Experience Cloud quando visitam um site. A descrição deste cookie está disponível [aqui](https://docs.adobe.com/content/help/pt-BR/core-services/interface/ec-cookies/cookies-mc.html).
+* Um cookie compartilhado entre as soluções da Adobe Experience Cloud. Ele permite identificar os usuários que interagem com as soluções da Experience Cloud quando visitam um site. A descrição deste cookie está disponível [aqui](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html).
 
 O rastreamento com a Adobe Campaign Standard permite acessar as seguintes funcionalidades:
 
