@@ -6,21 +6,20 @@ description: Essa página lista todas as versões 2019 do Adobe Campaign Standar
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Overview
+feature: Visão geral
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
+source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
 workflow-type: tm+mt
-source-wordcount: '7611'
+source-wordcount: '7591'
 ht-degree: 9%
 
 ---
 
-
 # Notas de versão 2019{#release-notes-2019}
 
-[Planejamento de versão](https://helpx.adobe.com/br/campaign/kb/acs-release-planning.html)  | Versões do  [Painel de controle](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html)  |  [Atualizações da documentação](../../rn/using/documentation-updates.md)  | Notas de versão  [mais recentes](../../rn/using/release-notes.md)  | Recursos  [obsoletos](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=pt-BR#release-notes)
+[Planejamento de versão](https://helpx.adobe.com/br/campaign/kb/acs-release-planning.html)  | Versões do  [Painel de controle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=pt-BR)  |  [Atualizações da documentação](../../rn/using/documentation-updates.md)  | Notas de versão  [mais recentes](../../rn/using/release-notes.md)  | Recursos  [obsoletos](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=pt-BR#release-notes)
 
 ## Versão 19.4 - dezembro de 2019 {#release-19-4---october-2019}
 
@@ -39,9 +38,9 @@ ht-degree: 9%
    <ul>
     <li>Direito de acesso e direito de exclusão: estamos nos beneficiando dos recursos que foram adicionadas ao GDPR. <a href="https://helpx.adobe.com/content/help/br/campaign/kb/acs-privacy.html#righttoaccess">Saiba mais</a> </li>
     <li><p>Ao criar uma solicitação de privacidade, o tipo de regulamento (GDPR ou CCPA) foi adicionado ao Serviço principal de privacidade. Esse é método que você deve usar para todas as solicitações de acesso e exclusão. O uso da API e da interface do Campaign para solicitações de acesso e exclusão ficará obsoleto.  Consulte o <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">artigo Recursos obsoletos e removidos</a>.</p></li>
-    <li>Um campo <strong>Não participação na CCPA</strong> foi adicionado ao recurso Perfis para permitir que os usuários da Adobe Campaign rastreiem se um consumidor optou por não participar da venda de Informações pessoais. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">Saiba mais</a>.</li>
+    <li>Um campo <strong>Não participação na CCPA</strong> foi adicionado ao recurso Perfis para permitir que os usuários da Adobe Campaign rastreiem se um consumidor optou por não participar da venda de Informações pessoais. <a href="https://helpx.adobe.com/content/help/br/campaign/kb/acs-privacy.html#ccpa">Saiba mais</a>.</li>
   </ul>
-    <p>Consulte o <a href="https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/privacy/privacy-overview.translate.html">vídeo de instruções</a>.</p>
+    <p>Consulte o <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">vídeo de instruções</a>.</p>
 </td> 
   </tr> 
  </tbody> 
@@ -162,11 +161,11 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td> Atividade de API externa (Beta público)<br /> </td> 
-   <td> <p>Para personalização mais profunda, a Atividade da API externa permite trazer dados de sistemas externos para um workflow por meio de uma chamada à API REST. Os endpoints REST podem ser um sistema de gerenciamento de clientes, um terminal REST do Adobe I/O Runtime ou Adobe Experience Cloud (por exemplo, Plataforma de dados, Target, Analytics, Campaign).</p><p>No momento, esse recurso está em beta público.</p><p>Para saber mais, consulte a <a href="../../automating/using/external-api.md">documentação detalhada</a> e o <a href="https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.translate.html">vídeo de instruções</a>.</p></td> 
+   <td> <p>Para personalização mais profunda, a Atividade da API externa permite trazer dados de sistemas externos para um workflow por meio de uma chamada à API REST. Os endpoints REST podem ser um sistema de gerenciamento de clientes, um terminal REST do Adobe I/O Runtime ou Adobe Experience Cloud (por exemplo, Plataforma de dados, Target, Analytics, Campaign).</p><p>No momento, esse recurso está em beta público.</p><p>Para saber mais, consulte a <a href="../../automating/using/external-api.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">vídeo de instruções</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Relatório no segmento do workflow<br /> </td> 
-   <td> <p>Esse recurso permite que os profissionais de marketing analisem seu desempenho de entrega por código de segmento. Ao criar um workflow e usar uma atividade de segmentação para atribuir segmentos à população de delivery, esses segmentos agora podem entrar na mesma delivery. Isso permite exibir as estatísticas de aberturas/cliques com base em vários segmentos em um único delivery.</p><p>Para saber mais, consulte a <a href="../../reporting/using/creating-a-report-workflow-segment.md">documentação detalhada</a> e o <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">vídeo de instruções</a>.</p></td>
+   <td> <p>Esse recurso permite que os profissionais de marketing analisem seu desempenho de entrega por código de segmento. Ao criar um workflow e usar uma atividade de segmentação para atribuir segmentos à população de delivery, esses segmentos agora podem entrar na mesma delivery. Isso permite exibir as estatísticas de aberturas/cliques com base em vários segmentos em um único delivery.</p><p>Para saber mais, consulte a <a href="../../reporting/using/creating-a-report-workflow-segment.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">vídeo de instruções</a>.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -307,7 +306,7 @@ Introdução de uma série de melhorias e correções para otimizar fragmentos n
  <tbody> 
   <tr> 
    <td> Painel de controle<br /> </td> 
-   <td> <p>Para ajudar a aumentar a eficiência em seu trabalho como um usuário administrador, é possível monitorar facilmente a capacidade e gerenciar as configurações de suas instâncias (começando pelo gerenciamento de servidores SFTP).</p><p>Para saber mais, consulte a <a href="https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.translate.html">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=en">vídeo de instruções</a>.</p></td> 
+   <td> <p>Para ajudar a aumentar a eficiência em seu trabalho como um usuário administrador, é possível monitorar facilmente a capacidade e gerenciar as configurações de suas instâncias (começando pelo gerenciamento de servidores SFTP).</p><p>Para saber mais, consulte a <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=en">vídeo de instruções</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Notificações locais<br /> </td> 
@@ -315,7 +314,7 @@ Introdução de uma série de melhorias e correções para otimizar fragmentos n
   </tr> 
   <tr> 
    <td> Aprimoramento do workflow - Adicione uma carga à atividade de sinal externo<br /> </td> 
-   <td> <p>Inicie um workflow com uma carga quando as condições definidas forem cumpridas com êxito de outro workflow ou uma chamada à API REST para integrar com seus sistemas externos. Isso também inclui uma nova atividade <strong>test</strong> , onde você pode executar testes nesta funcionalidade.</p><p>Para saber mais, consulte a <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">documentação detalhada</a> e o <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">vídeo de instruções</a>.</p></td> 
+   <td> <p>Inicie um workflow com uma carga quando as condições definidas forem cumpridas com êxito de outro workflow ou uma chamada à API REST para integrar com seus sistemas externos. Isso também inclui uma nova atividade <strong>test</strong> , onde você pode executar testes nesta funcionalidade.</p><p>Para saber mais, consulte a <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">vídeo de instruções</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Aprimoramento das Páginas de aterrissagem - Google reCAPTCHA<br /> </td> 
@@ -433,7 +432,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
   </tr> 
   <tr> 
    <td> Mensagens no aplicativo móvel<br /> </td> 
-   <td> <p>Esta versão contém a versão GA do canal no aplicativo no Campaign. De um ponto de vista funcional, as adições mais notáveis da versão Beta são os Relatórios dinâmicos para o Canal no aplicativo e uma interação segura entre o Mobile SDK e MCIAS (Marketing Cloud In-App Messaging Service, que fornece as regras no aplicativo para o SDK). O handshake seguro garante que os dados PII de seus usuários não caiam em mãos mal-intencionadas, além de permitir que você mantenha a privacidade dos usuários em um dispositivo compartilhado, limpando o cache de mensagens sempre que o usuário fizer logoff.</p><p>Para obter mais informações, consulte a <a href="../../channels/using/about-in-app-messaging.md">documentação detalhada</a> e o <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">Tutorial no aplicativo</a> dedicado.</p> </td> 
+   <td> <p>Esta versão contém a versão GA do canal no aplicativo no Campaign. De um ponto de vista funcional, as adições mais notáveis da versão Beta são os Relatórios dinâmicos para o Canal no aplicativo e uma interação segura entre o Mobile SDK e MCIAS (Marketing Cloud In-App Messaging Service, que fornece as regras no aplicativo para o SDK). O handshake seguro garante que os dados PII de seus usuários não caiam em mãos mal-intencionadas, além de permitir que você mantenha a privacidade dos usuários em um dispositivo compartilhado, limpando o cache de mensagens sempre que o usuário fizer logoff.</p><p>Para obter mais informações, consulte a <a href="../../channels/using/about-in-app-messaging.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">Tutorial no aplicativo</a> dedicado.</p> </td> 
   </tr> 
   <tr> 
    <td> Melhorias no workflow<br /> </td> 
@@ -475,7 +474,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * Correção de um problema que impedia a atualização da linha de assunto ao clicar na opção **Atualizar AEM conteúdo** após modificar o assunto no Adobe Experience Manager. (CAMP-29984)
 * Correção de vários problemas que impediam o uso de imagens dinâmicas do Adobe Target.
 * Correção de um problema que impedia a atualização da visualização ao recuperar o conteúdo no momento da preparação, caso o conteúdo tivesse sido importado anteriormente de um URL.
-* O ícone do YouTube foi adicionado ao componente de conteúdo **Social**.
+* O ícone YouTube foi adicionado ao componente de conteúdo **Social** .
 * A exibição **Lista** foi adicionada para componentes e fragmentos de conteúdo exibidos na paleta Designer de email.
 
 **Outras melhorias**
@@ -538,11 +537,11 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
      <li> A capacidade de <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">recuperar conteúdo de um URL automaticamente no momento da preparação</a> </li> 
      <li> Compatível totalmente com <a href="../../designing/using/using-reusable-content.md#content-templates">modelos de conteúdo prontos para uso</a>. </li> 
     </ul> 
-    <p>Para saber mais, consulte a <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentação detalhada</a> e o <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">vídeo de instruções</a>. Os aprimoramentos e correções estão listados abaixo.</p><p>Como consequência, o editor herdado de conteúdo de email foi descontinuado. Para obter mais informações, consulte esta <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">página</a>.</p> </td> 
+    <p>Para saber mais, consulte a <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">vídeo de instruções</a>. Os aprimoramentos e correções estão listados abaixo.</p><p>Como consequência, o editor herdado de conteúdo de email foi descontinuado. Para obter mais informações, consulte esta <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">página</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Listas de produtos em Emails transacionais<br /> </td> 
-   <td> <p>Agora é possível fazer referência a uma ou mais coleções de produtos em uma mensagem de email transacional. Por exemplo, você pode enviar automaticamente um email de abandono de carrinho listando todos os produtos que estavam no carrinho com uma imagem, preço e link para cada produto.</p><p>Para saber mais, consulte a <a href="../../designing/using/using-product-listings.md">documentação detalhada</a> e o <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">vídeo de instruções</a>.</p> </td> 
+   <td> <p>Agora é possível fazer referência a uma ou mais coleções de produtos em uma mensagem de email transacional. Por exemplo, você pode enviar automaticamente um email de abandono de carrinho listando todos os produtos que estavam no carrinho com uma imagem, preço e link para cada produto.</p><p>Para saber mais, consulte a <a href="../../designing/using/using-product-listings.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">vídeo de instruções</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Exibição móvel no Designer de email<br /> </td> 
@@ -621,4 +620,3 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * A taxa de transferência de envio foi aprimorada e estabilizada para mensagens SMS.
 * Correção de um problema que impedia o uso do caractere &quot;~&quot; em uma mensagem SMS. (CAMP-29172)
 * Correção de um problema nos deliveries com a opção de otimização Send time . (CAMP-29231)
-
