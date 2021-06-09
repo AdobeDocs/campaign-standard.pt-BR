@@ -5,17 +5,16 @@ title: Usar acionadores no Campaign
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Triggers
+feature: Acionadores
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '750'
 ht-degree: 83%
 
 ---
-
 
 # Usar acionadores no Campaign{#using-triggers-in-campaign}
 
@@ -25,7 +24,7 @@ ht-degree: 83%
 >
 >Para criar Acionadores, você precisará da função **[!UICONTROL Administration]** ou do grupo de segurança **[!UICONTROL Administrators]**. Para obter mais informações sobre essas operações, consulte esta [página](../../administration/using/list-of-roles.md).
 
-É recomendável definir os comportamentos que deseja monitorar antecipadamente na Adobe Experience Cloud (serviço principal de **[!UICONTROL Triggers]**). Para obter mais informações, consulte a [documentação da Adobe Experience Cloud](https://docs.adobe.com/content/help/pt-BR/core-services/interface/activation/triggers.html). Observe que, ao definir o acionador, é necessário ativar os aliases. Para cada comportamento (navegação/abandono de formulário, adição/exclusão de produtos, sessão expirada etc.), um novo acionador deve ser adicionado na Adobe Experience Cloud.
+É recomendável definir os comportamentos que deseja monitorar antecipadamente na Adobe Experience Cloud (serviço principal de **[!UICONTROL Triggers]**). Para obter mais informações, consulte a [documentação da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html). Observe que, ao definir o acionador, é necessário ativar os aliases. Para cada comportamento (navegação/abandono de formulário, adição/exclusão de produtos, sessão expirada etc.), um novo acionador deve ser adicionado na Adobe Experience Cloud.
 
 Agora é necessário criar um evento de acionador no Adobe Campaign com base em um acionador existente da Adobe Experience Cloud.
 
@@ -102,4 +101,3 @@ Para exibir o relatório de acionador dedicado no Adobe Campaign, abra o evento 
 O relatório mostra o número de eventos processados em comparação ao número de eventos enviados pelo Analytics. Ele também exibe uma lista de todos os acionadores recentes.
 
 ![](assets/trigger_uc_browse_14.png)
-
