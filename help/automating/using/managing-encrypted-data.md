@@ -9,14 +9,13 @@ topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
+source-git-commit: 05e7de6d59420f532e0095ddb1fd7f158519518b
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 53%
+source-wordcount: '925'
+ht-degree: 51%
 
 ---
-
 
 # Gerenciamento de dados criptografados {#managing-encrypted-data}
 
@@ -24,7 +23,7 @@ ht-degree: 53%
 
 Em alguns casos, os dados que você deseja importar Servidores do Campaign podem precisar ser criptografados, por exemplo, se contiverem dados PII.
 
-Para poder criptografar dados de saída ou descriptografar dados de entrada, você precisa gerenciar chaves GPG usando o [Painel de controle](https://docs.adobe.com/content/help/pt-BR/control-panel/using/instances-settings/gpg-keys-management.html).
+Para poder criptografar dados de saída ou descriptografar dados de entrada, você precisa gerenciar chaves GPG usando o [Painel de controle](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=pt-BR).
 
 >[!NOTE]
 >
@@ -46,13 +45,13 @@ Depois que a solicitação é processada, os comandos de criptografia / descript
 
 ## Caso de uso: importação de dados criptografados usando uma chave gerada pelo Painel de controle do Campaign {#use-case-gpg-decrypt}
 
-Nesse caso de uso, criaremos um workflow para importar dados que foram criptografados em um sistema externo usando uma chave gerada no Painel de controle do Campaign.
+Nesse caso de uso, criaremos um fluxo de trabalho para importar dados que foram criptografados em um sistema externo usando uma chave gerada no Painel de controle do Campaign.
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
 
 As etapas para executar esse caso de uso são as seguintes:
 
-1. Use o Painel de controle do Campaign para gerar um par de chaves (público/privado). As etapas detalhadas estão disponíveis na [documentação do Painel de controle do Campaign](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
+1. Use o Painel de controle do Campaign para gerar um par de chaves (público/privado). As etapas detalhadas estão disponíveis na [documentação do Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
 
    * A chave pública será compartilhada com o sistema externo, que a usará para criptografar os dados que serão enviados para o Campaign.
    * A chave privada será usada pelo Campaign para descriptografar os dados criptografados recebidos.
@@ -90,13 +89,13 @@ As etapas para executar esse caso de uso são as seguintes:
 
 ## Caso de uso: criptografar e exportar dados usando uma chave instalada no Painel de controle do Campaign {#use-case-gpg-encrypt}
 
-Nesse caso de uso, criaremos um workflow para criptografar e exportar dados usando uma chave instalada no Painel de controle do Campaign.
+Nesse caso de uso, criaremos um fluxo de trabalho para criptografar e exportar dados usando uma chave instalada no Painel de controle do Campaign.
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
 
 As etapas para executar esse caso de uso são as seguintes:
 
-1. Gere um par de chaves GPG (público/privado) usando um utilitário GPG e, em seguida, instale a chave pública no Painel de controle do Campaign. As etapas detalhadas estão disponíveis na [documentação do Painel de controle do Campaign](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
+1. Gere um par de chaves GPG (público/privado) usando um utilitário GPG e, em seguida, instale a chave pública no Painel de controle do Campaign. As etapas detalhadas estão disponíveis na [documentação do Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
 
    ![](assets/gpg_install.png)
 
@@ -126,7 +125,7 @@ As etapas para executar esse caso de uso são as seguintes:
 
 1. Agora você pode executar o workflow. Após a execução, o direcionamento de dados pelo query será exportado para o servidor SFTP em um arquivo .gpg criptografado.
 
-## Vídeos tutoriais {#video}
+## Tutoriais em vídeo {#video}
 
 Este vídeo mostra como usar uma chave GPG para descriptografar dados.
 
