@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
+feature: Configurações de instância
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '428'
 ht-degree: 20%
 
 ---
-
 
 # Adicionar imagens e vídeos ao iOS {#image-push}
 
@@ -58,7 +57,7 @@ Após personalizar sua notificação por push no Adobe Campaign, é necessário 
 
 >[!NOTE]
 >
->Se seu aplicativo estiver em Objetive-C, consulte a seguinte [documentação](https://docs.adobe.com/content/help/en/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
+>Se seu aplicativo estiver em Objetive-C, consulte a seguinte [documentação](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
 
 Se o aplicativo estiver em [!DNL Swift], siga as etapas abaixo:
 
@@ -160,4 +159,3 @@ userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_im
 Agora é possível testar a criação do aplicativo e o delivery criado na etapa 2 acima. Para obter mais informações sobre como preparar e enviar a notificação por push, consulte esta [página](../../channels/using/preparing-and-sending-a-push-notification.md).
 
 ![](assets/push_notif_advanced_34.png)
-
