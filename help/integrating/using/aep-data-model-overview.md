@@ -6,17 +6,16 @@ description: O Experience Data Model (XDM) é um conjunto padrão de esquemas de
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM Integration
+feature: Integração do Microsoft CRM
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: cc1aa669-30cd-4ea4-9fab-4d1b6c373744
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 7%
+source-wordcount: '248'
+ht-degree: 0%
 
 ---
-
 
 # Visão geral do Experience Data Model {#experience-data-model-overview}
 
@@ -34,7 +33,7 @@ O Espaço de trabalho XDM oferece a capacidade de exibir, criar e estender esque
 
 Para acessar a interface do usuário do XDM, abra o Adobe Experience Platform. Navegue até a janela Modelo de dados para criar ou estender um esquema XDM.
 
-Consulte a [documentação completa do Espaço de Trabalho XDM](https://docs.adobe.com/content/help/pt-BR/experience-platform/xdm/api/getting-started.html).
+Consulte a [documentação completa do Espaço de Trabalho XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -49,4 +48,4 @@ Você pode executar as seguintes ações por meio da API do esquema XDM:
 * Exibir descritores de esquema
 * Criar, atualizar e excluir descritores de esquema
 
-Todos os detalhes para manipular chamadas da API estão disponíveis no [Guia do desenvolvedor](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html).
+Todos os detalhes para manipular chamadas da API estão disponíveis no [Guia do desenvolvedor](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
