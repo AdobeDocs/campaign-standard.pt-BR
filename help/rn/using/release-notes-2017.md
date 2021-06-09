@@ -6,17 +6,16 @@ description: Essa página lista todas as versões 2017 do Adobe Campaign Standar
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Overview
+feature: Visão geral
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
+exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
+source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
 workflow-type: tm+mt
-source-wordcount: '4631'
+source-wordcount: '4625'
 ht-degree: 8%
 
 ---
-
 
 # Notas de versão 2017{#release-notes}
 
@@ -330,7 +329,7 @@ _Notificações por push_
   </tr> 
   <tr> 
    <td> Integração do Dreamweaver ao vivo<br /> </td> 
-   <td> A integração entre o Adobe Campaign e o Dreamweaver está ativa. Agora funciona com a última versão oficial do Dreamweaver (17.0.2).<br /> Isso requer a instalação da extensão de Integração do Adobe Campaign a partir daqui:  <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_</a><br /> addonPara obter mais informações, consulte este  <a href="https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">vídeo</a>.<br /> </td> 
+   <td> A integração entre o Adobe Campaign e o Dreamweaver está ativa. Agora funciona com a última versão oficial do Dreamweaver (17.0.2).<br /> Isso requer a instalação da extensão de Integração do Adobe Campaign a partir daqui:  <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_</a><br /> addonPara obter mais informações, consulte este  <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">vídeo</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -403,7 +402,7 @@ _Notificações por push_
   </tr> 
   <tr> 
    <td> Integração do Dreamweaver (Labs)<br /> </td> 
-   <td> Com a integração Adobe Campaign e Dreamweaver, agora você tem um processo integrado para criar campanhas por email com soluções do Adobe.<br /> Você pode editar emails do Adobe Campaign no Dreamweaver e ter o conteúdo sincronizado facilmente entre as duas soluções.<br /> Na versão inicial, a integração está disponível como um recurso "Labs" e funciona somente com o Dreamweaver Pre-Release Beta. Se quiser ativá-la, entre em contato com AC-DW-integration@adobe.com.<br /> Para obter mais informações, consulte este  <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">vídeo</a>.<br /> </td> 
+   <td> Com a integração Adobe Campaign e Dreamweaver, agora você tem um processo integrado para criar campanhas por email com soluções do Adobe.<br /> Você pode editar emails do Adobe Campaign no Dreamweaver e ter o conteúdo sincronizado facilmente entre as duas soluções.<br /> Na versão inicial, a integração está disponível como um recurso "Labs" e funciona somente com o Dreamweaver Pre-Release Beta. Se quiser ativá-la, entre em contato com AC-DW-integration@adobe.com.<br /> Para obter mais informações, consulte este  <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">vídeo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Otimização manual do tempo de envio<br /> </td> 
@@ -543,4 +542,3 @@ _Integrações_
 * Correção de um problema que poderia ter causado um erro ao implantar um acionador de evento no Adobe Campaign. Esse erro ocorria quando os metadados &quot;Probabilidade de retorno em 30 dias&quot; eram adicionados ao acionador de Abandono no Adobe Marketing Cloud.
 * Correção de um problema que poderia ter causado a limpeza do workflow técnico no campo Dimension do Target ao importar públicos do serviço principal Pessoas . As consultas subsequentes não conseguiram recuperar os públicos importados.
 * Correção de um problema que poderia causar falha na atividade **[!UICONTROL Save audience]** de um workflow quando a opção **[!UICONTROL Share in Adobe Marketing Cloud]** era marcada.
-
