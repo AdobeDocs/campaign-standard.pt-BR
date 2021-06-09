@@ -6,17 +6,16 @@ description: Essa página lista todas as versões 2018 do Adobe Campaign Standar
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Overview
+feature: Visão geral
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
+source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
 workflow-type: tm+mt
-source-wordcount: '5406'
+source-wordcount: '5402'
 ht-degree: 10%
 
 ---
-
 
 # Notas de versão 2018{#release-notes}
 
@@ -128,7 +127,7 @@ Visualize as [atualizações de documentação](../../rn/using/documentation-upd
 
 **Aprimoramentos**
 
-* A integração Adobe Campaign e Adobe Target agora permite aproveitar o recurso [Permissões](https://docs.adobe.com/content/help/pt-BR/target/using/administer/manage-users/enterprise/properties-overview.html) do Target. Ao incluir uma imagem dinâmica do Adobe Target em um email, agora você pode especificar uma Propriedade do Target (código at_property).
+* A integração Adobe Campaign e Adobe Target agora permite aproveitar o recurso [Permissões](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=pt-BR) do Target. Ao incluir uma imagem dinâmica do Adobe Target em um email, agora você pode especificar uma Propriedade do Target (código at_property).
 * Os recursos personalizados que têm um link de cópia própria para o recurso de perfis agora são considerados pelas solicitações de acesso/exclusão da Privacidade de GDPR. Para 1 cardinalidade links simples e N links de coleção de cardinalidade, é necessário selecionar &quot;Excluir/Duplicar o registro de destino implica excluir/duplicar os registros referenciados pelo link&quot; no recurso personalizado. Para links simples de cardinalidade 0 ou 1, selecione &quot;Excluir/Duplicar o registro implica na exclusão/duplicação do registro de destino referenciado pelo link&quot;.
 
 **Outras alterações**
@@ -526,4 +525,3 @@ _Perfis e públicos_
 * Adição de uma dica de ferramenta que exibe o número exato do resultado após a contagem da população de um query.
 * Correção de um problema que impedia um usuário de selecionar um público ou fechar a janela do seletor de público.
 * A lista de funções disponíveis no editor de expressão foi atualizada. As funções **FormatCurrency** e **ConvertCurrency** foram removidas.
-
