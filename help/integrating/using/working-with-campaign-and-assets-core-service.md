@@ -10,10 +10,10 @@ feature: Integração do Serviço principal de pessoas
 role: Data Architect
 level: Intermediate
 exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
-source-git-commit: ef3480d3da9c5c0597af90c89a73a1aff0a87809
+source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 20%
+source-wordcount: '171'
+ht-degree: 15%
 
 ---
 
@@ -39,5 +39,5 @@ A imagem é então inserida. O delivery agora pode ser personalizado conforme ne
 
 **Tópicos relacionados:**
 
-* [Ativos e compartilhamento](https://docs.adobe.com/content/help/pt-BR/core-services/interface/assets/experience-cloud-assets.html)
+* [Ativos e compartilhamento](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html)
 * [Editor de conteúdo](../../designing/using/personalization.md#example-email-personalization)
