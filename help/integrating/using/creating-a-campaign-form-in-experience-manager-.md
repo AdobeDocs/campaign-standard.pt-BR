@@ -6,17 +6,16 @@ description: Com a integração do Adobe Experience Manager, você pode criar fo
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
-feature: Triggers
+feature: Acionadores
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 61683639-3f71-4652-a138-acfc0e91e868
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '182'
 ht-degree: 12%
 
 ---
-
 
 # Criar um formulário do Campaign no Experience Manager {#creating-a-campaign-form-in-experience-manager}
 
@@ -41,4 +40,4 @@ Para criar um formulário Adobe Campaign no site AEM:
 1. Edite o conteúdo do formulário adicionando diferentes campos e componentes que podem ser mapeados para os campos do banco de dados do Adobe Campaign.
 1. Teste e publique o formulário para torná-lo acessível no site AEM.
 
-Para obter mais informações, consulte a [documentação detalhada](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html).
+Para obter mais informações, consulte a [documentação detalhada](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html).
