@@ -6,15 +6,14 @@ description: Defina populações direcionadas, selecione públicos, filtre desti
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
-feature: Profiles
+feature: Perfis
 role: Business Practitioner
 level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
-translation-type: tm+mt
-source-git-commit: c5a9c27a2ce459dfd0f04159095bfc8a2cf4c0f6
+source-git-commit: bc55ccea9691d904bbc1b64d93d0a7b8486940e5
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 23%
+source-wordcount: '605'
+ht-degree: 25%
 
 ---
 
@@ -92,4 +91,4 @@ Privacidade e consentimento no Campaign e como gerenciá-los são apresentados [
 * [Trabalhar com o Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Públicos-alvo compartilhados do Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Uso de fluxos de trabalho para importar perfis](../../automating/using/creating-import-workflow-templates.md)
-* [Vídeos de perfis e públicos](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
+* [Vídeos de perfis e públicos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
