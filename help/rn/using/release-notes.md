@@ -10,10 +10,10 @@ feature: Visão geral
 role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: d5bea4a96576dc13aa06939876ef6549115a2b75
+source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 6%
+source-wordcount: '990'
+ht-degree: 5%
 
 ---
 
@@ -39,8 +39,6 @@ Novos recursos, melhorias e correções incluídos na próxima versão do Campai
 * Em deliveries com várias variantes, os usuários não poderão mais criar cópias de idioma se a variante padrão tiver sido excluída. Uma mensagem agora é exibida durante a criação da cópia de idioma. (CAMP-48235)
 
 * O processo de exclusão de perfil de duas etapas (obsoleto a partir da versão 19.4 do Campaign) agora está desativado por padrão. Anteriormente, era necessário desativá-lo manualmente na interface do Campaign antes de usar o Privacy Core Service. Não fazer isso faria com que as solicitações de exclusão permanecessem no estado pendente sem concluir.
-
-* Uma nova função de agregação &quot;StringAgg&quot; foi introduzida para concatenar os valores de uma coluna do tipo string. (CAMP-47077) [Saiba mais](../../automating/using/list-of-functions.md#aggregates)
 
 * Nos Relatórios dinâmicos, o segmento **Excluir prova** foi removido. (CAMP-46161)
 
