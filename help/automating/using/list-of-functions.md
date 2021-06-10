@@ -10,10 +10,10 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: 2672d2f58a2d46394454a88e63f8d09ea7e96148
+source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
 workflow-type: tm+mt
-source-wordcount: '1971'
-ht-degree: 96%
+source-wordcount: '1941'
+ht-degree: 98%
 
 ---
 
@@ -707,11 +707,7 @@ As funções de agregação são usadas para realizar cálculos em um conjunto d
    <td> Retorna o valor mínimo de uma coluna numérica, de string ou de data.<br /> </td> 
    <td> Min(&lt;valor&gt;)<br /> </td> 
   </tr>
-  <tr> 
-   <td> <strong>StringAgg</strong>, agregação de string<br /> </td> 
-   <td> Retorna a concatenação dos valores de uma coluna do tipo string, separada pelo caractere no segundo argumento (o separador padrão é vírgula).<br /> </td> 
-   <td> StringAgg(&lt;valores de string&gt;,&lt;separador&gt;)
-  </tr>
+
 
 
 
