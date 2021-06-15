@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centro de ajuda para os principais recursos, tarefas, configurações e outros recursos necessários para usar o Campaign Standard. '
 title: Manual do Campaign Standard
 breadcrumb-title: Documentação do Adobe Campaign Standard
-source-git-commit: 5b94e57efb29ba1c3feeba21b41e68571bd646b1
+source-git-commit: 49b9e97c1eb53b99c8118e08e5ba1ca94bc59c65
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1788'
 ht-degree: 99%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 # Ajuda do Adobe Campaign Standard {#using}
 
-+ [Documentação do produto](campaign-standard-home.md)
++ [Documentação do Campaign Standard](campaign-standard-home.md)
 + [Atualizações mais recentes](rn/using/documentation-updates.md)
 + Notas de versão {#release-notes}
    + [Versão mais recente](rn/using/release-notes.md)
