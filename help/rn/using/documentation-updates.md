@@ -13,7 +13,7 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
 source-wordcount: '6852'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -25,9 +25,9 @@ Além das [Notas de versão](../../rn/using/release-notes.md) do Adobe Campaign,
 
 **Novos recursos incluídos na versão**
 
-Validação de landing pages - agora é possível adicionar uma opção de contrato obrigatório às landing pages. [Leia mais](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)
+Validação de páginas de aterrissagem — agora é possível adicionar uma opção de contrato obrigatório às páginas de aterrissagem [Leia mais](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)
 
-A seção **Email size** foi atualizada com informações sobre o tamanho máximo de um email, que agora é definido como 100 MB por padrão. [Leia mais](../../sending/using/design-and-personalize.md#email-size)
+A seção **Tamanho do email** foi atualizada com informações sobre o tamanho máximo de um email, que agora é definido como 100 MB por padrão. [Leia mais](../../sending/using/design-and-personalize.md#email-size)
 
 **Outras atualizações de documentação incluídas na versão**
 
