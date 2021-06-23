@@ -14,9 +14,9 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 source-git-commit: 694d596ea3c7b85759716ae44b2713ed3f8b5dcf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1478'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -130,7 +130,7 @@ O Adobe Campaign fornece recursos adicionais para ajudar você se tornar um Cont
 
 >[!NOTE]
 >
->Este conjunto de ferramentas ajuda com a conformidade de privacidade para o GDPR, CCPA e PDPA. Para obter mais informações sobre esses diferentes regulamentos, consulte [esta página](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>Este conjunto de ferramentas ajuda com a conformidade de privacidade para o GDPR, CCPA e PDPA. Para obter mais informações sobre esses diferentes regulamentos, consulte [esta página](https://helpx.adobe.com/br/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
@@ -138,7 +138,7 @@ O Adobe Campaign fornece recursos adicionais para ajudar você se tornar um Cont
 
 * **Thailand's PDPA** (Personal Data Protection Act) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. This regulation applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
 
-As solicitações de **Acesso** e **Exclusão** são apresentadas [nesta página](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=pt-BR#getting-started). As etapas de implementação para criar essas solicitações estão detalhadas [nesta página](https://helpx.adobe.com/br/campaign/kb/acs-privacy.html#ManagingPrivacyRequests). Os tutoriais também estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html).
+As solicitações de **Acesso** e **Exclusão** são apresentadas [nesta página](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=pt-BR#getting-started). As etapas de implementação para criar essas solicitações estão detalhadas [nesta página](https://helpx.adobe.com/br/campaign/kb/acs-privacy.html#ManagingPrivacyRequests). Os tutoriais também estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=pt-BR).
 
 ## Recursos de rastreamento {#tracking-capabilities}
 
