@@ -6,28 +6,27 @@ description: Use as regras de filtragem para refinar o público das mensagens.
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-feature: Typology Rules
+feature: Regras de tipologia
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
+source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '655'
 ht-degree: 22%
 
 ---
-
 
 # Regras de filtragem {#filtering-rules}
 
 As regras de filtragem permitem excluir uma parte do público-alvo da mensagem de acordo com critérios definidos em uma consulta, como perfis em quarentena ou perfis que já receberam um determinado número de emails.
 
-## Regras de tipologia de filtragem padrão {#default-filtering-typology-rules}
+## Regras padrão de tipologia de filtragem {#default-filtering-typology-rules}
 
 A tabela abaixo fornece informações sobre regras de filtragem prontas para uso, bem como seus canais relacionados.
 
 | Rótulo | Canal  | Descrição |
----------|----------|---------
+| ---------|----------|---------|
 | **[!UICONTROL Address not specified]** | Todos | Exclui o público-alvo sem endereço especificado (email, endereço postal etc.) de acordo com o canal selecionado). |
 | **[!UICONTROL Address on denylist]** | Todos | Exclui endereços que estão na lista de bloqueios. |
 | **[!UICONTROL Duplicate]** | Todos | Exclui duplicatas com base no campo **[!UICONTROL Address]** da população do target. |
@@ -83,7 +82,7 @@ Para criar uma regra de tipologia de filtragem, siga estas etapas:
 
 Sempre que essa regra for usada em uma mensagem, os assinantes considerados menores serão excluídos automaticamente.
 
-## Configuração do contexto de definição de metas das regras de filtragem {#configuring-filtering-rules-targeting-context}
+## Configuração do contexto de direcionamento das regras de filtragem {#configuring-filtering-rules-targeting-context}
 
 O Campaign Standard permite configurar as dimensões **Direcionamento** e **Filtragem** para usar, dependendo dos dados que deseja direcionar.
 
