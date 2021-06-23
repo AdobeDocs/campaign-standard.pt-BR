@@ -6,17 +6,16 @@ description: Saiba como reforçar a verificação de qualidade de suas mensagens
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-feature: Typology Rules
+feature: Regras de tipologia
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6461c128-1e42-4685-88f8-507244147e6f
+source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '442'
 ht-degree: 17%
 
 ---
-
 
 # Regras de controle {#control-rules}
 
@@ -31,7 +30,7 @@ As regras de controle permitem verificar a validade e a qualidade das mensagens 
 Um conjunto de regras padrão garante os controles padrão. A tabela abaixo fornece informações sobre essas regras, bem como seu canal relacionado e [fases de execução](#control-rules-execution-phases).
 
 | Rótulo | Canal  | Fase de execução | Descrição |
----------|----------|---------|---------
+|---------|----------|---------|---------
 | **[!UICONTROL A/B Test]** | Email | At the start of personalization | Extrai a população de teste para um delivery com um teste A/B. |
 | **[!UICONTROL Check delivery size]** | Todos | After targeting | Verifica o tamanho das mensagens. |
 | **[!UICONTROL Check email content is not empty]** | Email | Depois do direcionamento | Gera um erro se o conteúdo da mensagem estiver vazio. |
