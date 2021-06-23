@@ -10,15 +10,14 @@ feature: Capacidade de delivery
 role: Business Practitioner
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-translation-type: tm+mt
-source-git-commit: dbc176188d936160e04956e7598bd219ba80347e
+source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 74%
 
 ---
 
-# Noções básicas sobre falhas de delivery{#understanding-delivery-failures}
+# Noções básicas sobre falhas de entrega{#understanding-delivery-failures}
 
 ## Sobre falhas de delivery {#about-delivery-failures}
 
@@ -37,7 +36,7 @@ As mensagens também podem ser excluídas durante a preparação do delivery se 
 **Tópicos relacionados:**
 
 * [Noções básicas sobre gestão de quarentena](../../sending/using/understanding-quarantine-management.md)
-* [Sobre participação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Sobre aceitação e recusa no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 * [Rejeições](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## Identificação de falhas de delivery para uma mensagem {#identifying-delivery-failures-for-a-message}
@@ -59,7 +58,7 @@ Há três tipos de erros quando um delivery falha:
 Os possíveis motivos para uma falha de delivery são:
 
 | Rótulo de erro | Tipo de erro | Descrição |
----------|----------|---------
+| ---------|----------|---------|
 | **[!UICONTROL User unknown]** | Grave | O endereço não existe. Não haverá mais tentativas de delivery para esse perfil. |
 | **[!UICONTROL Quarantined address]** | Grave | O endereço foi colocado em quarentena. |
 | **[!UICONTROL Unreachable]** | Suave/Grave | Ocorreu um erro na cadeia de delivery de mensagens (como domínio temporariamente inacessível). De acordo com o erro retornado pelo provedor, o endereço será enviado diretamente para a quarentena, ou o delivery será tentado novamente até que o Campaign receba um erro que justifique o status Quarantine ou até que o número de erros atinja 5. |
@@ -67,7 +66,7 @@ Os possíveis motivos para uma falha de delivery são:
 | **[!UICONTROL Mailbox full]** | Suave | A caixa de entrada deste usuário está cheia e não pode receber mais mensagens. Esse endereço pode ser removido da lista da quarentena para outra tentativa. Ele será removido automaticamente após 30 dias. Para que o endereço seja removido automaticamente da lista de endereços em quarentena, o workflow técnico de **[!UICONTROL Database cleanup]** deve ser iniciado. |
 | **[!UICONTROL Refused]** | Suave/Grave | O endereço foi colocado em quarentena devido a um feedback de segurança como um relatório de spam. De acordo com o erro retornado pelo provedor, o endereço será enviado diretamente para a quarentena, ou o delivery será tentado novamente até que o Campaign receba um erro que justifique o status Quarantine ou até que o número de erros atinja 5. |
 | **[!UICONTROL Duplicate]** | Ignorado | O endereço já foi detectado na segmentação. |
-| **[!UICONTROL Not defined]** | Suave | o endereço está em qualificação porque os erros ainda não foram incrementados. Esse tipo de erro ocorre quando uma nova mensagem de erro é enviada pelo servidor: pode ser um erro isolado, mas se ocorrer novamente, o contador de erros aumentará, o que alertará as equipes técnicas. |
+| **[!UICONTROL Not defined]** | Suave | o endereço está em qualificação porque os erros não foram aumentados. | ainda. Esse tipo de erro ocorre quando uma nova mensagem de erro é enviada pelo servidor: pode ser um erro isolado, mas se ocorrer novamente, o contador de erros aumentará, o que alertará as equipes técnicas. |
 | **[!UICONTROL Error ignored]** | Ignorado | O endereço está em lista de permissões e um email será enviado para ele em qualquer caso. |
 | **[!UICONTROL Address on denylist]** | Grave | O endereço foi adicionado à lista de bloqueios no momento do envio. |
 | **[!UICONTROL Account disabled]** | Suave/Grave | Quando o Provedor de Acesso à Internet (IAP) detecta um longo período de inatividade, ele pode fechar a conta do usuário: os deliveries ao endereço do usuário serão impossíveis. O tipo Temporário ou Permanente depende do tipo de erro recebido: se a conta estiver temporariamente desativada devido a seis meses de inatividade e ainda puder ser ativada, o status **[!UICONTROL Erroneous]** será atribuído, e o delivery será repetido. Se o erro indicar que a conta está desativada permanentemente, ela será enviada diretamente para Quarentena. |
@@ -111,7 +110,7 @@ Um delivery pode falhar imediatamente (erro síncrono), ou posteriormente, após
 * **Erro síncrono**: o servidor remoto contatado pelo servidor de entrega do Adobe Campaign retornou imediatamente uma mensagem de erro, o delivery não tem permissão para ser enviado ao servidor do perfil.
 * **Erro assíncrono**: um email de devolução ou um Relatório de Status foi reenviado posteriormente pelo servidor receptor. Podem ocorrer erros assíncronos até uma semana depois do envio.
 
-## Qualificação de email de devolução {#bounce-mail-qualification}
+## Qualificação de email de rejeição {#bounce-mail-qualification}
 
 Para mensagens de erro de falha síncrona de delivery, o MTA aprimorado do Adobe Campaign (Message Transfer Agent) determina o tipo de rejeição e a qualificação e envia essas informações para o Campaign.
 
