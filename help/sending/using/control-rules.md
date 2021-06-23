@@ -10,7 +10,7 @@ feature: Regras de tipologia
 role: Business Practitioner
 level: Intermediate
 exl-id: 6461c128-1e42-4685-88f8-507244147e6f
-source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
+source-git-commit: f75df49e7957437df72c814aa9055d34770f22d6
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 17%
@@ -30,7 +30,7 @@ As regras de controle permitem verificar a validade e a qualidade das mensagens 
 Um conjunto de regras padrão garante os controles padrão. A tabela abaixo fornece informações sobre essas regras, bem como seu canal relacionado e [fases de execução](#control-rules-execution-phases).
 
 | Rótulo | Canal  | Fase de execução | Descrição |
-|---------|----------|---------|---------
+|---------|----------|---------|---------|
 | **[!UICONTROL A/B Test]** | Email | At the start of personalization | Extrai a população de teste para um delivery com um teste A/B. |
 | **[!UICONTROL Check delivery size]** | Todos | After targeting | Verifica o tamanho das mensagens. |
 | **[!UICONTROL Check email content is not empty]** | Email | Depois do direcionamento | Gera um erro se o conteúdo da mensagem estiver vazio. |
