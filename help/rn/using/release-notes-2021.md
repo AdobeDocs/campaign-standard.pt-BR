@@ -1,8 +1,8 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Notas de versão 2021
-description: Essa página lista todas as versões 2021 do Adobe Campaign Standard.
+title: Notas de versão de 2021
+description: Essa página lista todas as versões de 2021 do Adobe Campaign Standard.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
@@ -11,13 +11,13 @@ role: Business Practitioner
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 source-git-commit: 4a8dfc0b8f321447e0ebc23a9f5bbef337454d9f
-workflow-type: tm+mt
-source-wordcount: '2536'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '2535'
+ht-degree: 100%
 
 ---
 
-# Notas de versão 2021{#release-notes-2021}
+# Notas de versão de 2021{#release-notes-2021}
 
 [Planejamento de versão](../../rn/using/release-planning.md) | [Versões do painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=pt-BR) | [Atualizações da documentação](../../rn/using/documentation-updates.md) | [Notas de versão anteriores](../../rn/using/release-notes-2020.md) | [Recursos descontinuados](../../rn/using/deprecated-features.md)
 
@@ -151,11 +151,11 @@ ht-degree: 95%
 
 * Correção de um problema em workflows que ocorria ao copiar e colar uma atividade **Desduplicação** executada uma vez e que aproveitava um recurso temporário. Depois de duplicado, o recurso de atividade era automaticamente definido como vazio, resultando em problemas em outras atividades do workflow. Depois de colado, o recurso de atividade permanecerá o mesmo, para que o erro seja acionado o mais rápido possível, em vez de posteriormente, no workflow. (CAMP-46903)
 
-* Correção de problemas que resultavam em falha na análise de delivery ao enviar um perfil de direcionamento de notificação por push transacional, ao introduzir um novo [target mapping](../../administration/using/target-mappings-in-campaign.md): **Perfil - Evento em tempo real para Push** (*mapRtEventAppSubRcp*). Os logs de delivery, exclusão e rastreamento de [notificações transacionais por push baseadas em perfil](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) agora serão armazenados nas tabelas *broadLogAppSubRcp*, *excludeLogAppSubRcp* e *trackingLogAppSubRcp*.
+* Correção de problemas que faziam com que a análise de entrega falhasse ao enviar perfis de direcionamento de notificação push transacional, introduzindo um novo [target mapping](../../administration/using/target-mappings-in-campaign.md): **Perfil — Evento em tempo real para push** (*mapRtEventAppSubRcp*). Os logs de entrega, exclusão e rastreamento para [notificações por push transacionais baseadas em perfil](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) agora serão armazenado nas tabelas *broadLogAppSubRcp*, *excludeLogAppSubRcp* e *trackingLogAppSubRcp*.
 
    >[!IMPORTANT]
    >
-   >Devido a essa alteração, se estiver usando uma notificação transacional por push baseada em perfil (criada antes da atualização para o Adobe Campaign 21.1), é recomendável atualizar o target mapping para o novo e publicar a mensagem novamente. Veja as etapas detalhadas [aqui](../../channels/using/transactional-push-notifications.md#change-target-mapping). Usar o target mapping anterior **Profile - Real-time event** (*mapRtEventRcp*) pode resultar em tempos de preparação de delivery mais longos e degradação de desempenho.
+   >Devido a essa alteração, se você está usando uma notificação transacional por push baseada em perfil (criada antes da atualização para o Adobe Campaign 21.1), é recomendável atualizar o target mapping para o novo e publicar a mensagem novamente. Veja as etapas detalhadas [aqui](../../channels/using/transactional-push-notifications.md#change-target-mapping). Usar o target mapping anterior **Perfil — Evento em tempo real** (*mapRtEventRcp*) pode resultar em tempos de preparação de entrega mais longos e diminuição de desempenho.
 
 * Correção de um problema que impedia a execução de relatórios do delivery quando 5000 linhas eram exibidas.
 * Correção de um problema com o teste AB que impedia que o conteúdo da variante B fosse atualizado após a modificação do template do delivery. (CAMP-45235)
