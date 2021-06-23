@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Chamada de workflow com parâmetros externos
+title: Chamada de fluxo de trabalho com parâmetros externos
 description: Esta seção detalha como chamar um workflow com parâmetros externos.
 audience: automating
 content-type: reference
@@ -9,14 +9,13 @@ topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 8c1a47ed-3467-4fcd-8747-86f0e8f15cec
+source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '814'
 ht-degree: 1%
 
 ---
-
 
 # Personalização de um workflow com parâmetros externos {#customizing-a-workflow-with-external-parameters}
 
@@ -58,7 +57,7 @@ Ao usar uma variável em uma atividade, a interface fornece ajuda para chamá-la
    Além disso, você pode usar as funções abaixo, que estão disponíveis em todas as atividades que permitem usar variáveis de eventos após chamar um workflow com parâmetros externos (consulte [esta seção](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
 
    | Nome | Descrição | Sintaxe |
-   ---------|----------|---------
+   | ---------|----------|---------|
    | EndWith | Indica se uma string (primeiro parâmetro) termina com uma string específica (segundo parâmetro). | EndWith(&lt;Cadeia de caracteres>,&lt;Cadeia de caracteres>) |
    | startWith | Indica se uma string (primeiro parâmetro) começa com uma string específica (segundo parâmetro). | startWith(&lt;Cadeia de caracteres>,&lt;Cadeia de caracteres>) |
    | Extract | Retorna os primeiros caracteres de uma string usando um separador. | Extract(&lt;Cadeia de caracteres>,&lt;Separador>) |
@@ -100,7 +99,7 @@ Para obter mais informações sobre como usar a atividade, consulte [esta seçã
 >
 >A preparação de deliveries recorrentes é baseada no **período de agregação** do delivery. Por exemplo, se o período de agregação for &quot;por dia&quot;, o delivery será repreparado apenas uma vez por dia. Se o valor de um parâmetro de delivery for modificado durante o dia, ele não será atualizado no delivery, pois já foi preparado uma vez.
 >
->Se você planeja chamar o workflow várias vezes por dia, use a opção [!UICONTROL No aggregation] para que os parâmetros de delivery sejam atualizados sempre. Para obter mais informações sobre configuração de deliveries recorrentes, consulte [esta seção](/help/automating/using/email-delivery.md#configuration).
+>Se você planeja chamar o workflow várias vezes por dia, use a opção [!UICONTROL No aggregation] para que os parâmetros de delivery sejam atualizados toda vez. Para obter mais informações sobre configuração de deliveries recorrentes, consulte [esta seção](/help/automating/using/email-delivery.md#configuration).
 
 Para personalizar um delivery com base nas variáveis de eventos, primeiro declare na atividade de delivery as variáveis que deseja usar:
 
