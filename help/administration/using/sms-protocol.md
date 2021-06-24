@@ -6,23 +6,22 @@ description: Saiba mais sobre o conector SMS e como configurá-lo.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instance Settings
+feature: Configurações de instância
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ea936128-1c51-483d-914c-6d06708456d6
+source-git-commit: f849e668cffaaca05261f0b91726a350a47676e4
 workflow-type: tm+mt
-source-wordcount: '8669'
+source-wordcount: '8666'
 ht-degree: 86%
 
 ---
-
 
 # Protocolo e configurações do conector de SMS {#sms-connector-protocol}
 
 >[!NOTE]
 >
->O **protocolo e as configurações do conector SMS** para Adobe Campaign Classic podem ser encontradas neste [page](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.htmln#sending-messages).
+>O **protocolo e as configurações do conector SMS** para Adobe Campaign Classic podem ser encontradas neste [page](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html).
 >
 >Por meio desse documento, todas as referências a detalhes sobre o protocolo, nomes de campos e valores se referem à [especificação SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
@@ -894,7 +893,7 @@ Com `DELIVER_SM_RESP PDU`:
 * Verifique se ele foi enviado rapidamente depois de receber o `DELIVER_SM PDU`, normalmente menos de um segundo.
 * Verifique se foi bem-sucedido, command_status = 0.
 
-### Pergunte ao provedor se tudo está OK {#provider}
+### Pergunte ao provedor se tudo está bem {#provider}
 
 Mesmo se o SMS for bem-sucedido, entre em contato com o provedor para verificar se tudo está em ordem.
 
