@@ -10,14 +10,13 @@ context-tags: fileTransfer,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
+source-git-commit: 643b8cb973a95155e64fed7df04e15aa2332a22d
 workflow-type: tm+mt
-source-wordcount: '1099'
-ht-degree: 92%
+source-wordcount: '1116'
+ht-degree: 91%
 
 ---
-
 
 # Transferir arquivo{#transfer-file}
 
@@ -54,7 +53,7 @@ Você pode usar essa atividade para recuperar dados que serão estruturados com 
    * [HTTP](#HTTP-configuration-wf)
    * [SFTP](#SFTP-configuration-wf)
    * [Amazon S3](#S3-configuration-wf)
-   * [Armazenamento de blobs do Microsoft Azure](#azure-blob-configuration-wf)
+   * [Armazenamento do Microsoft Azure Blob](#azure-blob-configuration-wf)
    * [Arquivos presentes no servidor do Adobe Campaign](#files-server-configuration-wf)
 
 1. A seção **[!UICONTROL Additional options]**, disponível dependendo do protocolo selecionado, permite que adicionar parâmetros ao seu protocolo. Você pode:
@@ -106,6 +105,12 @@ O protocolo Amazon S3 permite iniciar o download de um arquivo de um URL ou de u
 3. Especifique o caminho do arquivo a ser baixado.
 
    ![](assets/wkf_file_transfer_08.png)
+
+   >[!CAUTION]
+   >
+   > Os curingas não são compatíveis com o Amazon S3.
+   >
+   > Para direcionar vários arquivos, como `my_file_02` e `my _file_3433`, você pode usar a seguinte sintaxe: `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
 
 4. Se quiser excluir os arquivos de origem quando a transferência for concluída, marque **[!UICONTROL Delete the source files after transfer]**.
 
@@ -177,5 +182,3 @@ As variáveis de saída disponíveis são:
 
 * **[!UICONTROL fileName]**: nome dos arquivos transferidos.
 * **[!UICONTROL filesCount]**: número de arquivos transferidos.
-
-
