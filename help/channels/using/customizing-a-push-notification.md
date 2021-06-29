@@ -10,14 +10,13 @@ context-tags: delivery,mobileAppContent,back
 feature: Push
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3fe3495b-e360-4169-b295-86ad93753468
+source-git-commit: f19b2d618828cb4d83aa3acbc6fbb3ffb4d3af20
 workflow-type: tm+mt
-source-wordcount: '1498'
-ht-degree: 98%
+source-wordcount: '1511'
+ht-degree: 97%
 
 ---
-
 
 # Personalização de uma notificação por push{#customizing-a-push-notification}
 
@@ -45,7 +44,9 @@ Um som alertará os usuários sobre uma notificação por push, dando mais visib
 
    ![](assets/push_notif_advanced_7.png)
 
-1. O arquivo de som será reproduzido ao fornecer a notificação se estiver definido no pacote desse aplicativo móvel. Caso contrário, o som padrão do dispositivo será reproduzido.
+1. O arquivo de som será reproduzido ao fornecer a notificação se estiver definido no pacote desse aplicativo móvel. Você pode defini-lo como **padrão** para reproduzir o som padrão do dispositivo.
+
+   Se o campo **[!UICONTROL Play a sound]** ficar vazio, nenhum som será reproduzido.
 
 O usuário receberá a notificação por push e o som somente se o telefone não estiver com a função mudo ativada.
 
