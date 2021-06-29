@@ -1,24 +1,26 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Criar relatório com base em segmentos de workflow
+title: Criar relatório com base em segmentos de fluxo de trabalho
 description: Saiba como verificar o sucesso do delivery dependendo dos segmentos dos workflows em seus relatórios.
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: Reporting
+feature: Relatórios
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 514bffa0-2413-4212-b1b9-e070031c462f
+source-git-commit: c001aaba50bdce8d949acc6daf74f3c7738bd117
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '625'
 ht-degree: 2%
 
 ---
 
+# Criar relatório com base em segmentos de fluxo de trabalho{#creating-a-report-workflow-segment}
 
-# Criar relatório com base em segmentos de workflow{#creating-a-report-workflow-segment}
+>[!CAUTION]
+> **[!UICONTROL Segment code]**O só pode direcionar deliveries de email e SMS.
 
 Depois de criar um workflow e filtrar sua população em diferentes públicos-alvo, você pode medir a eficiência de suas campanhas de marketing com base nos segmentos definidos nesse workflow de direcionamento.
 Para direcionar esses segmentos em seus relatórios:
@@ -29,6 +31,7 @@ Para direcionar esses segmentos em seus relatórios:
 
 >[!CAUTION]
 >O contrato de uso do Dynamic Reporting deve ser aceito para começar a coletar esses dados.
+>
 >Para obter mais informações sobre este contrato, consulte esta [página](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 ## Etapa 1: Atualizar recurso personalizado Perfis com segmentos{#step-1--update-profiles-custom-resource-segments}
@@ -55,7 +58,7 @@ Agora é possível começar a criar seu fluxo de trabalho com códigos de segmen
 
 Observe que os códigos de segmento serão coletados assim que você ativar o código do segmento no **[!UICONTROL Sending logs extension]**.
 
-## Etapa 2: Criar um workflow com segmentos {#step-2--create-a-workflow-segments}
+## Etapa 2: Criar um fluxo de trabalho com segmentos {#step-2--create-a-workflow-segments}
 
 >[!NOTE]
 >Se a transição de entrada do delivery de email estiver vazia, o código do Segment da transição anterior será adicionado por padrão.
