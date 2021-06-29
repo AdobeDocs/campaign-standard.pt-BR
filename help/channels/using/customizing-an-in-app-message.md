@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,inAppContent,back
-feature: In App
+feature: No aplicativo
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '977'
 ht-degree: 99%
 
 ---
-
 
 # Personalização de mensagem no aplicativo{#customizing-an-in-app-message}
 
@@ -128,7 +127,7 @@ Você pode adicionar até dois botões à mensagem no aplicativo.
 1. Insira o URL da Web ou deep link no campo **[!UICONTROL Destination URL]**, se você escolher a ação **[!UICONTROL Redirect]**.
 1. Verifique o conteúdo da mensagem na janela de pré-visualização ou clicando no botão Preview.
 
-   Consulte a página [Visualização de mensagens no aplicativo](#previewing-the-in-app-message).
+   Consulte a página [Visualização de mensagens no aplicativo](../../channels/using/preparing-and-sending-an-in-app-message.md#previewing-the-in-app-message).
 
    ![](assets/inapp_customize_11.png)
 
@@ -190,18 +189,3 @@ Você também pode encontrar uma lista de requisitos de HTML personalizados para
 ![](assets/inapp_customize_3.png)
 
 Depois que o HTML for importado, você poderá encontrar uma pré-visualização do seu arquivo em diferentes dispositivos na janela de pré-visualização.
-
-## Pré-visualização da mensagem no aplicativo {#previewing-the-in-app-message}
-
-Antes de enviar a mensagem no aplicativo, você pode testá-la com os perfis de teste para verificar o que o público-alvo verá ao receber o delivery.
-
-1. Clique no botão **[!UICONTROL Preview]**.
-
-   ![](assets/inapp_sending_2.png)
-
-1. Clique no botão **[!UICONTROL Select a test profile]** e selecione um dos perfis de teste para começar a pré-visualização do delivery. Para obter mais informações sobre perfis de teste, consulte esta [seção](../../audiences/using/managing-test-profiles.md).
-1. Verifique a mensagem em diferentes dispositivos, como celulares Android, iPhone ou até mesmo tablets. Você também pode verificar se os campos de personalização estão recuperando os dados corretos.
-
-   ![](assets/inapp_sending_3.png)
-
-1. Agora você pode enviar a mensagem e medir seu impacto com relatórios do delivery. Para obter mais informações sobre relatórios, consulte [esta seção](../../reporting/using/in-app-report.md).
