@@ -6,19 +6,18 @@ description: Perguntas frequentes sobre integração do Adobe Experience Platfor
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instance Settings
+feature: Configurações de instância
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '916'
 ht-degree: 4%
 
 ---
 
-
-# Perguntas frequentes sobre integração com o SDK da Experience Platform {#aep-faq}
+# Perguntas frequentes sobre a integração com o SDK da Experience Platform {#aep-faq}
 
 Para enviar notificações por push e mensagens no aplicativo com o aplicativo Experience Platform SDK, um aplicativo para dispositivos móveis deve ser configurado no Adobe Experience Platform SDK e configurado no Adobe Campaign.
 
@@ -27,10 +26,10 @@ A seção abaixo lista perguntas comuns sobre essa sincronização.
 Para obter mais informações sobre push ou no aplicativo, consulte as seguintes perguntas frequentes:
 
 * [Perguntas frequentes sobre notificação por push](../../channels/using/about-push-notifications.md#push-faq)
-* [Perguntas frequentes no aplicativo](../../channels/using/about-in-app-messaging.md#in-app-faq)
+* [Perguntas frequentes no aplicativo](../../channels/using/in-app-faq.md)
 * [Perguntas frequentes sobre sincronização com o workflow técnico do Launch](../../administration/using/syncwithlaunch-faq.md)
 
-## Recursos úteis antes de iniciar {#resource-mobile-property}
+## Recursos úteis antes de começar {#resource-mobile-property}
 
 Confira os recursos abaixo para obter mais informações sobre o SDK do Adobe Experience Platform e a integração do Campaign Standard:
 
