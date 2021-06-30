@@ -9,9 +9,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: c0362e6b440f19dcbce965910d9594a1bc3991ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 90%
 
 ## Novidades
 
-* **[Perguntas ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html)**<br/> frequentes sobre a proteção da privacidade do Apple MailEncontre orientações iniciais em resposta ao anúncio da Apple sobre o iOS 15
+* **[Perguntas frequentes sobre a proteção de privacidade do Apple Mail](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=pt-BR)**<br/> Encontre orientações iniciais em resposta ao anúncio da Apple sobre o iOS 15
 
-* **[Integração Campaign - RTCDP](integrating/using/get-started-sources-destinations.md)**<br/> Saiba como compartilhar dados entre o Campaign e a Plataforma de dados do cliente em tempo real (RTCDP)
+* **[Integração Campaign — RTCDP](integrating/using/get-started-sources-destinations.md)**<br/> Saiba como compartilhar dados entre o Campaign e a Plataforma de dados do cliente em tempo real (RTCDP)
 
 * **[Grupos de controle](sending/using/control-group.md)**<br/>
 Meça o impacto de suas campanhas excluindo parte dos públicos
