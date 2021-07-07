@@ -10,10 +10,10 @@ feature: Visão geral
 role: Business Practitioner
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: a68adf4de790e30ab9dd1f79e5daeb7feb45c83b
+source-git-commit: e86cc930f9b6b3f3990f3b16b3d8fd2d19e126b7
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 80%
+source-wordcount: '773'
+ht-degree: 76%
 
 ---
 
@@ -39,6 +39,22 @@ Esta seção lista os recursos e funcionalidades marcados como obsoletos nas ver
 Geralmente, os recursos que estão planejados para serem removidos em uma versão futura são definidos como obsoletos primeiro, com uma alternativa fornecida. Esses recursos e funcionalidades não estão mais disponíveis para novos clientes do Campaign Standard ou não devem ser usados para novas implementações. Eles também foram removidos da documentação do produto.
 
 Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em sua implantação atual e a fazer planos para alterar sua implementação para usar a alternativa fornecida. Consulte a versão de remoção de público alvo para planejar de modo adequado suas atualizações de ambiente e de projeto.
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Integração do Experience Cloud Assets</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> A partir de julho de 2021, o Assets agora é um serviço principal herdado, em sustentabilidade. <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/assets/experience-cloud-assets.html?lang=en">Saiba mais</a>.</p>
+   <p>Para nova implementação, não é mais possível integrar os Ativos do Experience Cloud com o Adobe Campaign Standard.</p>
+     <em>Data de remoção do Target: 2022</em></p>
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 <table> 
  <thead> 
