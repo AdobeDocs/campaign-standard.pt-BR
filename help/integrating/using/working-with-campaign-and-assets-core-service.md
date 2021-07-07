@@ -10,20 +10,22 @@ feature: Integração do Serviço principal de pessoas
 role: Data Architect
 level: Intermediate
 exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
-source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
+source-git-commit: e86cc930f9b6b3f3990f3b16b3d8fd2d19e126b7
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 15%
+source-wordcount: '192'
+ht-degree: 14%
 
 ---
 
 # Trabalhar com o serviço principal do Campaign e do Assets{#working-with-campaign-and-assets-core-service}
 
-A integração do Serviço principal de ativos ou dos ativos sob demanda (dependendo da configuração do ambiente do Adobe Experience Cloud) com o Adobe Campaign permite usar todos os ativos compartilhados no Adobe Experience Cloud nos emails e landing pages do Adobe Campaign.
-
 >[!CAUTION]
 >
-> A integração com o Serviço principal de ativos é restrita a [Administradores funcionais](../../administration/using/users-management.md#functional-administrators).
+> O Experience Cloud Assets foi descontinuado. Para nova implementação, não é mais possível integrar os Ativos do Experience Cloud com o Adobe Campaign Standard.
+
+A integração do Serviço principal de ativos ou dos ativos sob demanda (dependendo da configuração do ambiente do Adobe Experience Cloud) com o Adobe Campaign permite usar todos os ativos compartilhados no Adobe Experience Cloud nos emails e landing pages do Adobe Campaign.
+
+A integração com o Serviço principal de ativos é restrita a [Administradores funcionais](../../administration/using/users-management.md#functional-administrators).
 
 Os recursos compartilhados do Adobe Experience Cloud podem ser usados em seus emails e landing pages, da seguinte maneira:
 
