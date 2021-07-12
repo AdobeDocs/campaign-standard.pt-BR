@@ -7,17 +7,16 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Saiba como o Adobe Campaign permite acompanhar as mensagens enviadas e descobrir como os recipients reagem ao seu delivery
-feature: Deliverability
-role: Business Practitioner
+feature: Capacidade de delivery
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '433'
 ht-degree: 46%
 
 ---
-
 
 # Rastrear e monitorar {#track-and-monitor}
 
@@ -59,7 +58,7 @@ O relatório Hot clicks apresenta o conteúdo da mensagem (HTML e/ou texto) com 
 
 Para obter mais informações, consulte o [Relatório de cliques ativos](../../reporting/using/hot-clicks.md).
 
-## Dicas de desempenho de delivery {#performance-tips}
+## Dicas de desempenho do delivery {#performance-tips}
 
 * Não mantenha os deliveries em estado de falha na instância, pois tabelas temporárias serão mantidas e o desempenho será afetado.
 
@@ -69,5 +68,5 @@ Para obter mais informações, consulte o [Relatório de cliques ativos](../../r
 
 **Tópicos relacionados:**
 
-* [Receber alertas quando ocorrerem falhas](../../sending/using/receiving-alerts-when-failures-happen.md)
+* [Recebimento de alertas quando ocorrerem falhas](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Relatórios](../../reporting/using/about-dynamic-reports.md)
