@@ -1,24 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Gerenciamento de participação e não participação no Campaign
+title: Gerenciamento de aceitação e recusa no Campaign
 description: Entenda como o opt-in e o opt-out são gerenciados no Adobe Campaign.
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-feature: Audiences
-role: Business Practitioner
+feature: Públicos
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4aeb90c5-f5b5-4cfe-93fb-2fd01fb8d70e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 8%
+source-wordcount: '310'
+ht-degree: 9%
 
 ---
 
-
-# Gerenciamento de participação e não participação no Campaign{#managing-opt-in-and-opt-out-in-campaign}
+# Gerenciamento de aceitação e recusa no Campaign{#managing-opt-in-and-opt-out-in-campaign}
 
 ## Gerenciamento de participação e não participação de um perfil {#managing-opt-in-and-opt-out-from-a-profile}
 
@@ -28,7 +27,7 @@ Na seção **[!UICONTROL No longer contact (on denylist)]** , as caixas de sele�
 
 ![](assets/optin_landingpage_3.png)
 
-## Configuração de landing pages de opt-in e opt-out {#setting-up-opt-in-and-opt-out-landing-pages}
+## Configuração de landing pages de aceitação e recusa {#setting-up-opt-in-and-opt-out-landing-pages}
 
 Para dar aos usuários a capacidade de aceitar ou rejeitar, é necessário criar e publicar uma landing page **[!UICONTROL Profile acquisition]**. Eles poderão selecionar os canais de acordo com suas necessidades. Para fazer isso, siga as etapas abaixo.
 
@@ -59,4 +58,3 @@ Para dar aos usuários a capacidade de optar por não participar de todos os del
 Depois que um usuário clica no link da landing page, a opção **[!UICONTROL No longer contact (by any channel)]** no perfil é selecionada automaticamente.
 
 ![](assets/blocklisting_allchannels.png)
-
