@@ -7,18 +7,17 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 feature: Seed Address
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ac8c1265-f530-4438-ab2d-3ca17615ca85
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '626'
 ht-degree: 16%
 
 ---
 
-
-# Pré-visualização de delivery {#previewing-messages}
+# Pré-visualização de entregas {#previewing-messages}
 
 ## Pré-visualização de emails {#previewing-emails}
 
@@ -51,7 +50,7 @@ Para visualizar uma mensagem usando perfis de teste, siga estas etapas:
 **Tópicos relacionados**
 
 * [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md)
-* [Testar mensagens de email usando perfis direcionados](../../sending/using/testing-messages-using-target.md)
+* [Teste de mensagens de email usando perfis direcionados](../../sending/using/testing-messages-using-target.md)
 * [Envio de provas](../../sending/using/sending-proofs.md)
 
 ## Pré-visualização de mensagens SMS {#previewing-sms}
@@ -83,8 +82,8 @@ Agora é possível ver a representação exata de sua mensagem, dependendo dos p
 **Tópicos relacionados**
 
 * [Sobre mensagens SMS](../../channels/using/about-sms-messages.md)
-* [Criar uma mensagem SMS](../../channels/using/creating-an-sms-message.md)
-* [Personalizar mensagens SMS](../../channels/using/personalizing-sms-messages.md)
+* [Criação de uma mensagem SMS](../../channels/using/creating-an-sms-message.md)
+* [Personalização de mensagens SMS](../../channels/using/personalizing-sms-messages.md)
 
 ## Visualização de notificações por push {#previewing-push}
 
@@ -110,7 +109,7 @@ Agora é possível ver a representação exata de sua mensagem, dependendo dos p
 
 **Tópicos relacionados**
 
-* [Sobre as notificações por push](../../channels/using/about-push-notifications.md)
+* [Sobre notificações por push](../../channels/using/about-push-notifications.md)
 * [Preparação e envio de uma notificação por push](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Personalização de uma notificação por push](../../channels/using/customizing-a-push-notification.md)
 
