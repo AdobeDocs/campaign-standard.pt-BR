@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
-feature: Access Management
-role: Administrator
+feature: Gerenciamento de acesso
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '844'
 ht-degree: 5%
 
 ---
-
 
 # Unidades organizacionais{#organizational-units}
 
@@ -43,7 +42,7 @@ Quando o usuário recebe uma unidade organizacional, essa unidade sempre será a
 >
 >Quando um usuário está em vários grupos vinculados a unidades diferentes, certas regras são aplicadas. Para obter mais informações, consulte a seção [Gerenciamento de grupos e usuários](../../administration/using/managing-groups-and-users.md) .
 
-## Criar e gerenciar unidades {#creating-and-managing-units}
+## Criação e gerenciamento de unidades {#creating-and-managing-units}
 
 As unidades organizacionais permitem filtrar a instância, dependendo da organização à qual os usuários estão vinculados. Essa unidade pode representar uma região, país ou até mesmo uma marca em sua instância.
 
@@ -124,5 +123,4 @@ O campo da unidade organizacional é adicionado aos perfis na seção **[!UICONT
 **Tópicos relacionados**:
 
 * [Sobre unidades](../../administration/using/organizational-units.md#about-units)
-* [Sobre o gerenciamento de acesso](../../administration/using/about-access-management.md)
-
+* [Sobre gerenciamento de acesso](../../administration/using/about-access-management.md)
