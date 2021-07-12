@@ -7,35 +7,34 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Deliverability
-role: Business Practitioner
+feature: Capacidade de delivery
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: debbc70d-4094-44c0-b7cb-c999effda1a6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 28%
+source-wordcount: '791'
+ht-degree: 54%
 
 ---
 
-
-# Controle de conteúdo de e-mail{#control-email-content}
+# Controle de conteúdo de email{#control-email-content}
 
 <!--TO KEEP because specific to Campaign-->
 
 Para garantir que seus emails cheguem aos recipients e melhorem a taxa de capacidade de delivery de email, eles devem respeitar várias regras. Caso contrário, o conteúdo de determinadas mensagens pode ser detectado como spam. O Adobe Campaign fornece várias ferramentas para fazer com que o conteúdo esteja em conformidade com essas regras.
 
-Siga os princípios listados abaixo ao criar o conteúdo da sua mensagem:
+Siga os princípios listados abaixo ao criar o conteúdo da mensagem:
 
-* [Nome e endereço](#sender-name) do remetente: o endereço deve identificar explicitamente o remetente. O domínio deve ser de propriedade e registrado pelo remetente. O registro de domínio não deve ser privatizado.
+* [Nome e endereço](#sender-name) do remetente: o endereço deve identificar explicitamente o remetente. O domínio deve ser de propriedade do remetente e registrado por ele. O registro de domínio não deve ser privatizado.
 
    <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
 * [Personalização e otimização](#perso-send-time-optimization) de tempo de envio: personalizar o conteúdo e definir um tempo de envio por recipient aumentam as chances de sua mensagem ser aberta.
-* Imagens e texto: respeitar uma proporção decente de texto/imagem (por exemplo, 60% de texto e 40% de imagens).
-* [Cancelar ](#opt-out) link de assinatura e landing page: o link unsubscription é essencial. Deve ser visível e válido e o formulário deve ser funcional.
+* Imagens e texto: respeitar uma proporção adequada de texto/imagem (por exemplo, 60% de texto e 40% de imagens).
+* [Link de unsubscription ](#opt-out) e landing page: o link de unsubscription é essencial. Deve ser visível e válido e o formulário deve ser funcional.
 * Visualizar: use as ferramentas oferecidas pelo Adobe Campaign para verificar e otimizar o conteúdo do seu email ([Análise antisspam](#anti-spam-analysis), [Renderização de email](#message-responsiveness)).
 
-Para obter dicas adicionais para otimizar a capacidade de entrega ao projetar conteúdo, consulte o [Guia de práticas recomendadas de capacidade de entrega do Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html).
+Para obter dicas adicionais para otimizar a capacidade de delivery ao projetar conteúdo, consulte o [Manual de práticas recomendadas de capacidade de delivery da Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html?lang=pt-BR).
 
 >[!NOTE]
 >
@@ -43,7 +42,7 @@ Para obter dicas adicionais para otimizar a capacidade de entrega ao projetar co
 
 ## Nome e endereço do remetente {#sender-name}
 
-Determinados ISPs verificam a validade do endereço do remetente (**[!UICONTROL From]**) antes de aceitar mensagens. Um endereço mal formado pode resultar na rejeição pelo servidor de recebimento.
+Determinados ISPs verificam a validade do endereço do remetente (**[!UICONTROL From]**) antes de aceitar mensagens. Um endereço formado incorretamente pode resultar na rejeição pelo servidor de recebimento.
 
 ![](assets/delivery_content_edition16.png)
 
@@ -53,11 +52,11 @@ Para obter mais informações, consulte [Definição do remetente de email de um
 
 ## Personalização e otimização de tempo de envio {#perso-send-time-optimization}
 
-Para melhorar a experiência dos recipients e abri-los, o Adobe Campaign permite personalizar suas mensagens. Para obter mais informações, consulte [esta seção](../../designing/using/personalization.md).
+Para melhorar a experiência dos recipients e fazer com que eles abram seu email, o Adobe Campaign permite personalizar as mensagens. Para obter mais informações, consulte [esta seção](../../designing/using/personalization.md).
 
 Para aumentar a taxa de abertura das mensagens, também é possível definir manualmente uma hora de envio por recipient. Cada perfil receberá a mensagem na data e hora especificadas, sempre que possível. Para obter mais informações, consulte [Otimizando o tempo de envio](../../sending/using/optimizing-the-sending-time.md).
 
-## Link e formulário de opt-out {#opt-out}
+## Formulário e link para opção de não participação {#opt-out}
 
 Por padrão, quando a mensagem é analisada, uma regra de tipologia verifica se há um link de opt-out e gera um aviso se estiver faltando. Para obter mais informações sobre gerenciamento de links, consulte [esta seção](../../designing/using/links.md).
 
@@ -81,7 +80,7 @@ No editor de conteúdo da mensagem, clique em **[!UICONTROL Preview]**. Uma mens
 
 ## Renderização de email {#message-responsiveness}
 
-Antes de enviar sua mensagem, você pode testar sua capacidade de resposta da mensagem, verificando como sua mensagem será exibida em diferentes dispositivos. Isso garante que ele seja exibido de maneira ideal em uma variedade de clientes Web, Webmails e dispositivos.
+Antes de enviar a mensagem, você pode testar a capacidade de resposta dela verificando como a mensagem será exibida em diferentes dispositivos. Isso é para garantir que ela seja exibida de maneira ideal em uma variedade de clientes web, emails da web e dispositivos.
 
 ![](assets/inbox_rendering_report_3.png)
 
