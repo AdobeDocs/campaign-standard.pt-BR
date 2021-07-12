@@ -1,24 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Sobre participação e não participação no Campaign
+title: Sobre aceitação e recusa no Campaign
 description: A recusa resulta em um perfil que não é mais direcionado por qualquer delivery ou delivery de um canal específico.
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-feature: Audiences
-role: Business Practitioner
+feature: Públicos
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ccb35aeb-2b32-4444-969b-50021111a0d6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '221'
 ht-degree: 9%
 
 ---
 
-
-# Sobre participação e não participação no Campaign{#about-opt-in-and-opt-out-in-campaign}
+# Sobre aceitação e recusa no Campaign{#about-opt-in-and-opt-out-in-campaign}
 
 A recusa resulta em um perfil que não é mais direcionado por qualquer delivery ou delivery de um canal específico.
 
