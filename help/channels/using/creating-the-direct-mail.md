@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
-feature: Direct Mail
-role: Business Practitioner
+feature: Correspondência direta
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 95%
+source-wordcount: '596'
+ht-degree: 96%
 
 ---
-
 
 # Criação de correspondência direta{#creating-the-direct-mail}
 
