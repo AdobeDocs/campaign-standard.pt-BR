@@ -7,17 +7,16 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaign,overview;campaignExplorer,main
-feature: Campaigns
-role: Business Practitioner
+feature: Campanhas
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3f4f9307-c65f-47bb-bc92-ce8b5d06557f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 99%
+source-wordcount: '642'
+ht-degree: 100%
 
 ---
-
 
 # Programas e campanhas{#programs-and-campaigns}
 
@@ -37,7 +36,7 @@ Com os relatórios sobre programas e campanhas é possível analisar o impacto d
 **Tópicos relacionados:**
 
 * [Linha do tempo](../../start/using/timeline.md)
-* [Sobre Relatórios dinâmicos](../../reporting/using/about-dynamic-reports.md)
+* [Sobre relatórios dinâmicos](../../reporting/using/about-dynamic-reports.md)
 
 ## Criação de um programa {#creating-a-program}
 
@@ -103,4 +102,3 @@ Cada programa e cada campanha na lista tem um símbolo visual e um ícone cuja c
 * Verde: o programa/campanha terminou - status **[!UICONTROL Finished]**. Por padrão, a data atual é exibida automaticamente como a data inicial de validade, e a data final é calculada de acordo com a data inicial (**D+186 dias**). É possível alterar essas datas nas propriedades do programa ou da campanha.
 
 ![](assets/programs_and_campaigns.png)
-
