@@ -6,17 +6,16 @@ description: '"Saiba como navegar e usar o espaço de trabalho do Adobe Campaign
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Overview
-role: Business Practitioner
+feature: Visão geral
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1290'
 ht-degree: 92%
 
 ---
-
 
 # Descrição da interface{#interface-description}
 
