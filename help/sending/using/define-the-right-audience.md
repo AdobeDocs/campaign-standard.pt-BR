@@ -1,25 +1,24 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Definir o público-alvo correto
+title: Definir o público correto
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"Quando seu conteúdo estiver pronto, saiba como definir cuidadosamente quem receberá sua mensagem."'
-feature: Deliverability
-role: Business Practitioner
+feature: Capacidade de delivery
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 74%
+source-wordcount: '517'
+ht-degree: 75%
 
 ---
 
-
-# Definir o público-alvo correto {#define-the-right-audience}
+# Definir o público correto {#define-the-right-audience}
 
 A segmentação de público-alvo é fundamental: crie suas listas cuidadosamente, teste seus emails em clientes de email populares e dispositivos móveis e verifique se suas listas de email estão atualizadas (sem endereços desconhecidos ou obsoletos). Você também pode enviar provas que ajudam a configurar um ciclo de validação completo.
 
