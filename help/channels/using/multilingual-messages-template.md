@@ -6,19 +6,18 @@ description: Saiba como definir e executar deliveries de emails/SMS multilíngue
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: Multilingual Messages
-role: Business Practitioner
+feature: Mensagens multilíngues
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3d869f31-7dfb-4546-aba5-80a2787e00be
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 98%
+source-wordcount: '296'
+ht-degree: 99%
 
 ---
 
-
-# Templates de mensagens multilíngues {#multilingual-messages-template}
+# Modelos de mensagens multilíngues {#multilingual-messages-template}
 
 Um template multilíngue é específico para gerenciar mensagens multilíngues. Esse tipo de template está disponível para mensagens de **email** e **SMS** e pode ser usado no modo independente, em um fluxo de trabalho ou em um delivery recorrente.
 
