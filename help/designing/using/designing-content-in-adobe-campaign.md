@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 feature: Design de email
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-source-git-commit: 7133ee5561c60d795c8d396c167ea79a9266392b
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1250'
 ht-degree: 90%
@@ -159,9 +159,9 @@ Quanto aos fragmentos, observe o seguinte:
 
 **Tópicos relacionados**
 
-* [Criar email](../../channels/using/creating-an-email.md)
-* [Design de uma landing page](../../channels/using/designing-a-landing-page.md)
-* [Criar uma mensagem SMS](../../channels/using/creating-an-sms-message.md)
+* [Criação de um email](../../channels/using/creating-an-email.md)
+* [Design de uma página de aterrissagem](../../channels/using/designing-a-landing-page.md)
+* [Criação de uma mensagem SMS](../../channels/using/creating-an-sms-message.md)
 * [Criação e envio de uma notificação por push](../../channels/using/preparing-and-sending-a-push-notification.md)
 
 ## Tutorial em vídeo {#video}
