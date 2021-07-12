@@ -4,10 +4,10 @@ product: campaign
 title: Perfis ativos do Campaign
 description: Saiba como acessar métricas do cliente e perfis ativos
 feature: Perfis
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
-source-git-commit: f66a4e35e1f42a3d7630556d020ce76adfea5891
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 14%
@@ -42,5 +42,5 @@ Na parte inferior da página, os targeting dimensions estão listados com o núm
 
 >[!NOTE]
 >
->Como um usuário administrador, você também pode monitorar o número de perfis ativos usados em suas instâncias diretamente do Painel de controle do Campaign. Para obter mais informações, consulte a [documentação do Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=pt-BR#performance-monitoring).
+>Como um usuário administrador, você também pode monitorar o número de perfis ativos usados em suas instâncias diretamente do Painel de controle do Campaign. Para obter mais informações, consulte a [documentação do Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=pt-BR).
 
