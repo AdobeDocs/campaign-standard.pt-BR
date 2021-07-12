@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
-feature: Typology Rules
-role: Business Practitioner
+feature: Regras de tipologia
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 10bd4e4f-78b4-4318-bded-4cf33b466f1d
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 99%
+source-wordcount: '310'
+ht-degree: 100%
 
 ---
-
 
 # Gerenciamento de tipologias {#managing-typologies}
 
