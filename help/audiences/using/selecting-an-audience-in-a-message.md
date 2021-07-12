@@ -7,19 +7,18 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: deliveryCreation,wizard;delivery,audience,back
-feature: Audiences
-role: Business Practitioner
+feature: Públicos
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 239959ad-6386-42bf-a86a-5694cdaecd83
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 73%
+source-wordcount: '412'
+ht-degree: 74%
 
 ---
 
-
-# Seleção de um público-alvo em uma mensagem{#selecting-an-audience-in-a-message}
+# Seleção de um público em uma mensagem{#selecting-an-audience-in-a-message}
 
 O Adobe Campaign permite configurar vários tipos de perfil no público-alvo de uma mensagem.
 
@@ -63,4 +62,3 @@ Os públicos-alvo podem ser definidos ao criar a mensagem com o assistente de cr
 O bloco de públicos-alvo é atualizado e mostra que um público-alvo e perfis de teste foram selecionados para o email específico.
 
 ![](assets/delivery_audience_definition_3.png)
-
