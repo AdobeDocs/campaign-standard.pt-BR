@@ -8,16 +8,15 @@ content-type: reference
 topic-tags: editing-sms-and-push-content
 context-tags: delivery,smsContent,back
 feature: SMS
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d430d0e7-1201-49c6-aad3-a2c03d02290c
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 99%
+source-wordcount: '331'
+ht-degree: 100%
 
 ---
-
 
 # Interface do editor de conteúdo de SMS e push{#sms-and-push-content-editor-interface}
 
