@@ -1,24 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Editar perfis
+title: Edição de perfis
 description: Saiba como editar perfis existentes e acessar informações de contato, canais preferidos, logs de rastreamento, assinaturas etc.
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: Profiles
-role: Business Practitioner
+feature: Perfis
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d0c7dc09-6f2b-4336-b545-7afe3a704164
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '315'
 ht-degree: 8%
 
 ---
 
-
-# Editar perfis{#editing-profiles}
+# Edição de perfis{#editing-profiles}
 
 ## Acesso às propriedades do perfil {#accessing-profile-properties}
 
@@ -62,7 +61,7 @@ As guias **[!UICONTROL Sending logs]** e **[!UICONTROL Tracking logs]** agrupam 
 
 Para obter mais informações sobre logs de rastreamento e envio, consulte as seções [logs do delivery](../../sending/using/monitoring-a-delivery.md#delivery-logs) e [mensagens de rastreamento](../../sending/using/tracking-messages.md).
 
-## Subscrições {#subscriptions}
+## Assinaturas {#subscriptions}
 
 As assinaturas do contato são listadas na guia correspondente. Para obter mais informações sobre assinatura de um serviço, consulte [esta seção](../../audiences/using/about-subscriptions.md).
 
