@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Mensagens transacionais
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ee1a9705-4c21-4d46-a178-fde2e059f443
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '506'
 ht-degree: 4%
 
 ---
-
 
 # Caso de uso de mensagem transacional {#transactional-messaging-use-case}
 
@@ -87,7 +86,7 @@ As principais etapas para implementar esse caso de uso são apresentadas abaixo.
 
 1. Quando o conteúdo estiver pronto, salve as alterações e publique a mensagem. Consulte [Publicação de uma mensagem transacional](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
 
-## Etapa 3 - Integrar o evento que aciona {#integrate-event-trigger}
+## Etapa 3 - Integrar o acionamento do evento {#integrate-event-trigger}
 
 Integre o evento em seu site. Consulte [Integrar o evento que aciona](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
 
