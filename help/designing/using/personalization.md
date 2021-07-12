@@ -6,17 +6,16 @@ description: Saiba como personalizar um email no Designer de email.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Design de email
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2575'
 ht-degree: 5%
 
 ---
-
 
 # Personalização de conteúdo de email {#personalization}
 
@@ -164,7 +163,7 @@ O bloco de conteúdo agora pode ser usado no editor de conteúdo de uma mensagem
 >
 >Ao editar o conteúdo de um bloco, verifique se não há espaços em branco extras entre o início e o fim de suas instruções *if*. Em HTML, os espaços em branco são exibidos na tela e, portanto, afetarão o layout do conteúdo.
 
-### Sobre o targeting dimension {#about-targeting-dimension}
+### Sobre a targeting dimension {#about-targeting-dimension}
 
 O targeting dimension permite definir em qual tipo de mensagem você pode usar o bloco de conteúdo. Isso é para evitar o uso de blocos inadequados em uma mensagem, o que pode levar a erros.
 
@@ -374,7 +373,7 @@ Neste exemplo, o conteúdo dinâmico aplicado às imagens é configurado da segu
 
 Seu conteúdo dinâmico está configurado corretamente.
 
-### Configurar texto {#configuring-text}
+### Configuração de texto {#configuring-text}
 
 Neste exemplo, o conteúdo dinâmico aplicado aos textos é configurado da seguinte maneira:
 
@@ -428,6 +427,5 @@ A imagem mudou graças ao conteúdo dinâmico, e o slogan que aparece é o sloga
 
 **Tópicos relacionados:**
 
-* [Criação de públicos-alvo](../../audiences/using/creating-audiences.md)
+* [Criação de públicos](../../audiences/using/creating-audiences.md)
 * [Preparação do envio](../../sending/using/preparing-the-send.md)
-
