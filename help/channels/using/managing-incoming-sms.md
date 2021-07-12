@@ -1,26 +1,26 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Gerenciar SMS de entrada
+title: Gerenciamento de SMS de entrada
 description: Saiba como gerenciar STOP SMS e armazenar SMS recebido no Adobe Campaign.
 audience: channels
 content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: delivery,smsContent,back
 feature: SMS
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
-source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 8%
 
 ---
 
-# Gerenciar SMS de entrada{#managing-incoming-sms}
+# Gerenciamento de SMS de entrada{#managing-incoming-sms}
 
-## Gerenciando SMS STOP {#managing-stop-sms}
+## Gerenciar SMS STOP {#managing-stop-sms}
 
 Quando um perfil responde a uma mensagem SMS enviada pelo Campaign, você pode configurar mensagens que serão automaticamente enviadas para ele, bem como a ação a ser executada.
 
@@ -67,7 +67,7 @@ Seus recipients agora podem ser automaticamente cancelados na assinatura de suas
 
 O SMS de entrada pode ser armazenado se necessário. Para obter mais informações, consulte esta [seção](#storing-incoming-sms).
 
-## Armazenando SMS de entrada {#storing-incoming-sms}
+## Armazenamento de SMS de entrada {#storing-incoming-sms}
 
 Na conta externa **[!UICONTROL SMS routing via SMPP]**, você pode optar por armazenar mensagens recebidas, por exemplo, quando um assinante responde &quot;PARAR&quot; em uma mensagem SMS para ser removido das listas de recipients.
 
