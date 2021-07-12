@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 feature: Mensagens transacionais
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
-source-git-commit: 33d3dc43a64b9670666844a3266e2aa2458a1c40
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 4%
