@@ -6,13 +6,13 @@ description: Comece a criar conteúdo de email reutilizável com o Designer de e
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Design de email
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1824'
+source-wordcount: '1821'
 ht-degree: 1%
 
 ---
@@ -139,11 +139,11 @@ Para usá-lo, crie um email e selecione o template de conteúdo que você acabou
 
 **Tópicos relacionados**:
 
-* [Criar email](../../channels/using/creating-an-email.md)
+* [Criação de um email](../../channels/using/creating-an-email.md)
 * [Vídeo de introdução ao Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Criar um conteúdo de email do zero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-### Vídeo tutorial {#video}
+### Tutorial em vídeo {#video}
 
 Estes vídeos mostram como criar seu próprio modelo.
 
@@ -175,7 +175,7 @@ Para desbloquear um fragmento dentro de um email, selecione-o e clique no ícone
 
 Esse fragmento se torna um componente independente que não está mais vinculado ao fragmento original. Ele pode ser editado como qualquer outro componente de conteúdo. Consulte [Sobre componentes de conteúdo](../../designing/using/designing-from-scratch.md#about-content-components).
 
-### Inserir fragmentos em um email {#inserting-elements-into-an-email}
+### Inserção de fragmentos em um email {#inserting-elements-into-an-email}
 
 Para definir o conteúdo do seu email, você pode adicionar elementos de conteúdo nos componentes de estrutura que você colocou anteriormente. Consulte [Edição da estrutura do email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
@@ -245,7 +245,7 @@ Esse fragmento agora pode ser usado em qualquer email criado com o Designer de e
 >
 >Não é possível inserir campos de personalização dentro de um fragmento, a menos que ele seja usado em um email e desbloqueado. Consulte [Sobre fragmentos](#about-fragments).
 
-### Salvar conteúdo como um fragmento {#saving-content-as-a-fragment}
+### Salvar conteúdo como fragmento {#saving-content-as-a-fragment}
 
 Ao editar um email com o Designer de email, você pode salvar diretamente parte desse email como um fragmento.
 
