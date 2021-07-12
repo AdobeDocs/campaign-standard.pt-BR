@@ -7,19 +7,18 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: readAudience,main;audience,overview;delivery,audience,back
-feature: Audiences
-role: Business Practitioner
+feature: Públicos
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 99%
+source-wordcount: '970'
+ht-degree: 100%
 
 ---
 
-
-# Criação de públicos-alvo{#creating-audiences}
+# Criação de públicos{#creating-audiences}
 
 ## Criação de públicos-alvo de query {#creating-query-audiences}
 
@@ -78,7 +77,7 @@ Para criar um público-alvo do tipo **Lista**, siga estas etapas:
 
    ![](assets/audiences_list_4.png)
 
-## Criação de públicos-alvo do tipo Arquivo{#creating-file-audiences}
+## Criação de públicos-alvo do tipo Arquivo {#creating-file-audiences}
 
 Esta seção detalha como criar um público-alvo do tipo **Arquivo** importando um arquivo para um fluxo de trabalho. Você também pode criar públicos-alvo de uma atividade de direcionamento em um [fluxo de trabalho](../../automating/using/get-started-workflows.md) ou usando um query do menu **[!UICONTROL Audiences]**.
 
@@ -147,4 +146,3 @@ A data de expiração está configurada. Assim que essa data for atingida, o pú
 Ou, se for necessário excluir um público-alvo, selecione um ou vários públicos-alvo e clique no botão **[!UICONTROL Delete element]**.
 
 ![](assets/audience_delete_1.png)
-
