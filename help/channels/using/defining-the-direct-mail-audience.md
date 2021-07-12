@@ -7,19 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
-feature: Direct Mail
-role: Business Practitioner
+feature: Correspondência direta
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ea167fec-d4df-4147-9dcd-33001d8a1c9b
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 98%
+source-wordcount: '280'
+ht-degree: 100%
 
 ---
 
-
-# Definição de público-alvo de correspondência direta{#defining-the-direct-mail-audience}
+# Definição de público de correspondência direta{#defining-the-direct-mail-audience}
 
 Você pode definir o público-alvo no assistente de criação ou clicando na seção **Audience** do painel do delivery.
 
