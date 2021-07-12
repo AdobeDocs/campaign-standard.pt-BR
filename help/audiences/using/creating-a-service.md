@@ -7,17 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 context-tags: service,wizard;service,main
-feature: Audiences
-role: Business Practitioner
+feature: Públicos
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6f42251e-75da-4707-a855-6ba9a86256c9
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 94%
+source-wordcount: '441'
+ht-degree: 95%
 
 ---
-
 
 # Criação de um serviço{#creating-a-service}
 
@@ -64,7 +63,7 @@ Depois que um serviço é criado, você poderá promovê-lo.
 * [Criação de um público-alvo com assinantes](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [Vinculação de uma landing page a um serviço](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
 
-## Vídeo tutorial {#video}
+## Tutorial em vídeo {#video}
 
 Este vídeo mostra como criar um serviço e gerenciar suas assinaturas.
 
