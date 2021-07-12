@@ -7,21 +7,20 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
-feature: Typology Rules
-role: Business Practitioner
+feature: Regras de tipologia
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5ef66b1b-1c81-42fb-a18c-fcf7f21e1ff7
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '554'
 ht-degree: 96%
 
 ---
 
-
 # Gerenciamento de regras de tipologia {#managing-typology-rules}
 
-## Sobre regras de tipologia {#about-typology-rules}
+## Sobre as regras de tipologia {#about-typology-rules}
 
 Regras de tipologia são regras de negócios que permitem executar verificações e filtrar a mensagem antes de enviá-la. Os tipos disponíveis de regras de tipologia são:
 
