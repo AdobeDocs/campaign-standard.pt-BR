@@ -6,17 +6,16 @@ description: Saiba como definir a preparação antes do envio.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: Send Time Optimization
-role: Business Practitioner
+feature: Enviar Otimização de Tempo
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0140c41a-7255-4b77-a1b7-c6f7b1135e51
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '462'
 ht-degree: 5%
 
 ---
-
 
 # Preparação do envio{#preparing-the-send}
 
