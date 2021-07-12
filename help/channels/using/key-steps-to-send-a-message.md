@@ -6,17 +6,16 @@ description: Siga estas etapas para criar e enviar mensagens com o Adobe Campaig
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: Overview
-role: Business Practitioner
+feature: Visão geral
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+exl-id: a903d7e2-7654-46b3-bc61-4653a065faad
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 12%
+source-wordcount: '369'
+ht-degree: 14%
 
 ---
-
 
 # Etapas principais para enviar uma mensagem{#key-steps-to-send-a-message}
 
@@ -24,7 +23,7 @@ Nesta seção, você aprenderá a criar e enviar mensagens personalizadas para u
 
 Informações específicas sobre como criar e configurar cada canal de comunicação estão disponíveis nas seguintes seções:
 
-* [Criar email](../../channels/using/creating-an-email.md)
+* [Criação de um email](../../channels/using/creating-an-email.md)
 * [Criação de SMS](../../channels/using/creating-an-sms-message.md)
 * [Criação de um delivery de mala direta](../../channels/using/creating-the-direct-mail.md)
 * [Criação de uma notificação por push](../../channels/using/preparing-and-sending-a-push-notification.md).
@@ -42,7 +41,7 @@ As mensagens podem ser criadas a partir da lista de atividades de marketing ou d
 
 ![](assets/steps-channel.png)
 
-## Definir o público
+## Definir o público-alvo
 
 Defina os recipients da mensagem. Para fazer isso, use o [Editor de consultas](../../automating/using/editing-queries.md) do painel esquerdo para filtrar os dados contidos no banco de dados e criar regras para direcionar seu público-alvo.
 
@@ -53,7 +52,7 @@ Há vários tipos de públicos-alvo disponíveis:
 
 ![](assets/steps-audience.png)
 
-## Design e personalização de conteúdo
+## Projetar e personalizar conteúdo
 
 No bloco **[!UICONTROL Content]** , crie e personalize o conteúdo da mensagem usando campos do banco de dados. Para obter mais informações sobre como criar o conteúdo para um canal específico, consulte as seções listadas na parte superior desta página.
 
