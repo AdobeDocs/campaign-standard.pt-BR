@@ -7,17 +7,16 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaignCalendar,main
-feature: Campaigns
-role: Business Practitioner
+feature: Campanhas
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d012e2e7-8022-4bfe-8290-3c512b60d9cf
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '373'
 ht-degree: 91%
 
 ---
-
 
 # Linha do tempo{#timeline}
 
