@@ -6,20 +6,20 @@ description: Descubra como criar emails usando conteúdo de email existente no D
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Design de email
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1214'
 ht-degree: 6%
 
 ---
 
-# Criação usando conteúdo existente {#designing-using-existing-content}
+# Design com conteúdo existente {#designing-using-existing-content}
 
-## Seleção de um conteúdo existente{#selecting-an-existing-content}
+## Seleção de conteúdo existente{#selecting-an-existing-content}
 
 O Adobe Campaign vem com um conjunto de conteúdos predefinidos para ajudá-lo a começar. Você pode usar uma dessas opções ou, se o conteúdo da mensagem que você precisa enviar estiver sendo preparado fora do Adobe Campaign, poderá importá-lo do seu computador ou de um URL.
 
@@ -53,7 +53,7 @@ Ao criar um email ou uma landing page, você pode optar por carregar um conteúd
 
 **Tópicos relacionados:**
 
-* [Criar email](../../channels/using/creating-an-email.md)
+* [Criação de um email](../../channels/using/creating-an-email.md)
 * [Gerenciamento de landing pages](../../channels/using/getting-started-with-landing-pages.md)
 
 ## Edição de conteúdo existente com o Designer de email{#editing-existing-contents-with-the-email-designer}
@@ -64,7 +64,7 @@ Se todo o HTML ou parte dele não tiver essa marcação, o conteúdo será carre
 
 Para tornar um conteúdo externo existente totalmente editável no Designer de email, consulte a seção [Criação de email usando conteúdo existente](../../designing/using/using-existing-content.md) .
 
-## Importar um conteúdo de email existente {#importing}
+## Importação de conteúdo de email existente {#importing}
 
 ### Importar conteúdo de um arquivo {#importing-content-from-a-file}
 
@@ -112,7 +112,7 @@ Descubra este recurso no vídeo.
 
 Os vídeos de instruções adicionais do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
 
-### Recuperar conteúdo de um URL automaticamente no momento de preparação {#retrieving-content-from-a-url-automatically-at-preparation-time}
+### Recuperação de conteúdo de um URL automaticamente no momento de preparação {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
 Importar conteúdo de um URL durante a preparação da mensagem permite recuperar o conteúdo HTML mais recente sempre que o email for preparado. Dessa forma, o conteúdo de emails recorrentes é sempre atualizado no momento do envio. Esse recurso também permite que você crie uma mensagem agendada em uma data específica, mesmo se o conteúdo ainda não estiver pronto.
 
@@ -166,7 +166,7 @@ Para obter mais informações sobre como converter um email existente em um emai
 
 **Tópicos relacionados**:
 
-* [Criar email](../../channels/using/creating-an-email.md)
+* [Criação de um email](../../channels/using/creating-an-email.md)
 * [Vídeo de introdução ao Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Criar um conteúdo de email do zero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
