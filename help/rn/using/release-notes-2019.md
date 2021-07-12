@@ -1,23 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Notas de versão 2019
-description: Essa página lista todas as versões 2019 do Adobe Campaign Standard.
+title: Notas de versão de 2019
+description: Essa página lista todas as versões de 2019 do Adobe Campaign Standard.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: Visão geral
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '7591'
+source-wordcount: '7590'
 ht-degree: 9%
 
 ---
 
-# Notas de versão 2019{#release-notes-2019}
+# Notas de versão de 2019{#release-notes-2019}
 
 [Planejamento de versão](https://helpx.adobe.com/br/campaign/kb/acs-release-planning.html)  | Versões do  [Painel de controle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=pt-BR)  |  [Atualizações da documentação](../../rn/using/documentation-updates.md)  | Notas de versão  [mais recentes](../../rn/using/release-notes.md)  | Recursos  [obsoletos](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=pt-BR#release-notes)
 
@@ -62,7 +62,7 @@ ht-degree: 9%
  </tbody> 
 </table>
 
-**Aprimoramentos**
+**Melhorias**
 
 * A janela pop-up de consentimento do Dynamic Reporting foi atualizada para incluir a integração do Adobe Campaign Standard e do Microsoft Dynamics 365. Ao aceitar os termos, os dados do perfil serão incluídos ao usar a integração do Adobe Campaign Standard / Microsoft Dynamics 365 e o Dynamic Reporting. [Leia mais](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)  (CAMP-29766)
 * Correção de um problema que exibia datas de contato incorretas ao receber alertas de delivery.
@@ -72,7 +72,7 @@ ht-degree: 9%
 * Foram feitos aprimoramentos na atividade **Load file**: os logs de workflow foram tornados mais claros e detalhados sobre o erro que ocorre quando um arquivo falha ao carregar. A transição de saída gerada ao ativar a opção **Keep the rejects in a file** foi renomeada para **Rejects**. [Leia mais](../../automating/using/load-file.md)
 * Vários logs relacionados foram adicionados aos logs de envio para entender melhor as falhas de envio devido à falta de idiomas nos arquivos CSV carregados.
 
-**Aprimoramentos de segurança**
+**Melhorias de segurança**
 
 * Correção de um problema ao excluir informações de perfil em quarentena por meio de uma solicitação de acesso a dados pessoais, que removia todos os dados, exceto o endereço de email na lista de quarentena.
 * A segurança foi aprimorada para proteção contra injeções em cabeçalhos de email.
@@ -170,7 +170,7 @@ ht-degree: 9%
  </tbody> 
 </table>
 
-**Aprimoramentos de segurança**
+**Melhorias de segurança**
 
 * Correção de um problema de segurança para impedir ataques de negação de serviço (DoS) em solicitações inválidas para obter imagens. (CAMP-33454)
 
@@ -260,7 +260,7 @@ ht-degree: 9%
 
 ## Versão 19.2.7 - Julho de 2019 {#release-19-2-7---july-2019}
 
-**Aprimoramentos**
+**Melhorias**
 
 * A consulta de exclusão do GDPR foi aprimorada para melhorar o desempenho.
 * Correção de um problema que poderia causar falhas na Web após a atualização 19.2. (CAMP-34862)
@@ -446,7 +446,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
  </tbody> 
 </table>
 
-**Aprimoramentos de segurança**
+**Melhorias de segurança**
 
 * O código HTML da página de aterrissagem gerada foi atualizado para impedir a indexação do mecanismo de pesquisa.
 
@@ -516,7 +516,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * Correção de um problema que causava discrepância entre os perfis segmentados ao criar um delivery no aplicativo e os exibidos no painel do delivery. (CAMP-28722)
 * Correção de um problema com a integração do Campaign e do Assets Core Service que poderia impedir a seleção de um ativo compartilhado em um email.
 
-## Versão 19.0 - Janeiro de 2019 {#release-19-0---january-2019}
+## Versão 19.0 – Janeiro de 2019 {#release-19-0---january-2019}
 
 **Novidades**
 
