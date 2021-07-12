@@ -1,25 +1,24 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Publicar um evento transacional
+title: Publicação de um evento transacional
 description: Saiba como visualizar, publicar, cancelar a publicação e excluir uma configuração de evento transacional.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Mensagens transacionais
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6bcd8dcd-d710-4ca3-937d-bf4339f36069
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '609'
 ht-degree: 8%
 
 ---
 
-
-# Publicar um evento transacional {#publishing-transactional-event}
+# Publicação de um evento transacional {#publishing-transactional-event}
 
 Quando [configuration](../../channels/using/configuring-transactional-event.md) for concluído, o evento estará pronto para ser publicado. As etapas para visualizar, publicar, cancelar a publicação e excluir um evento estão descritas abaixo.
 
@@ -77,7 +76,7 @@ Antes de poder usar o evento, você deve pré-visualizá-lo e publicá-lo.
 
 Os eventos (no formato JSON) são listados do mais recente para o mais antigo. Essa lista permite verificar dados como o conteúdo ou o status de um evento, para fins de controle e depuração.
 
-## Cancelamento de publicação de evento {#unpublishing-an-event}
+## Desfazer a publicação de um evento {#unpublishing-an-event}
 
 O botão **[!UICONTROL Unpublish]** permite cancelar a publicação do evento, o que exclui da API REST o recurso correspondente ao evento criado anteriormente.
 
