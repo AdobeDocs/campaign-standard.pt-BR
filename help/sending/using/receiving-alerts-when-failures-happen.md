@@ -1,24 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Receber alertas quando ocorrerem falhas
+title: Recebimento de alertas quando ocorrerem falhas
 description: Saiba como usar o sistema de gerenciamento de alertas.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Proofs
-role: Business Practitioner
+feature: Provas
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '2035'
+source-wordcount: '2032'
 ht-degree: 3%
 
 ---
 
-
-# Receber alertas quando ocorrerem falhas{#receiving-alerts-when-failures-happen}
+# Recebimento de alertas quando ocorrerem falhas{#receiving-alerts-when-failures-happen}
 
 ## Sobre alertas de delivery {#about-delivery-alerting}
 
@@ -74,7 +73,7 @@ Na interface do Adobe Campaign, é possível:
 
 ![](assets/delivery-alerting_dashboard.png)
 
-### Criar um painel de alerta de delivery {#creating-a-delivery-alerting-dashboard}
+### Criar um painel de alertas de delivery {#creating-a-delivery-alerting-dashboard}
 
 Se desejar enviar notificações baseadas em critérios específicos para diferentes grupos de usuários, é necessário usar vários painéis. Para criar um novo painel:
 
@@ -181,9 +180,9 @@ Após a criação, esses critérios podem ser adicionados a um painel de alertas
 
 **Tópicos relacionados:**
 
-[Adicionar ou estender um recurso](../../developing/using/key-steps-to-add-a-resource.md)
+[Adição ou extensão de um recurso](../../developing/using/key-steps-to-add-a-resource.md)
 
-## Parâmetros de alerta de delivery {#delivery-alerting-parameters}
+## Parâmetros de alerta do delivery {#delivery-alerting-parameters}
 
 ### Parâmetros de critérios {#criteria-parameters}
 
@@ -210,7 +209,7 @@ Na guia **[!UICONTROL Criteria parameters]** de um [painel de alerta de delivery
 * **[!UICONTROL Minimum expected throughput (in sent messages per hour)]**: Somente os deliveries com uma taxa de transferência inferior ao valor especificado são considerados para o  **[!UICONTROL Deliveries with low throughput]** critério.
 * **[!UICONTROL Minimum processed ratio required for 'Deliveries in progress' criterion]**: Somente os deliveries com uma porcentagem de mensagens processadas superior à porcentagem especificada são considerados.
 
-### Frequência de alerta {#alerting-frequency}
+### Frequência dos alertas {#alerting-frequency}
 
 A opção **[!UICONTROL Frequency of delivery alerting]** permite definir o atraso entre dois envios de alerta. Por padrão, é definido como 10 minutos.
 
@@ -220,7 +219,7 @@ Você pode alterar essa configuração usando o menu **[!UICONTROL Administratio
 >
 >Essa opção se aplica a todos os painéis definidos no Adobe Campaign. Não é possível definir uma frequência específica para cada painel.
 
-## Motivos de alerta de delivery {#delivery-alerting-reasons}
+## Motivos de alerta do delivery {#delivery-alerting-reasons}
 
 O recurso **Delivery alerting** mantém todos os usuários envolvidos do Adobe Campaign informados automaticamente sobre o status de execução da entrega, por email e pelo painel.
 
@@ -239,7 +238,7 @@ Estes são alguns motivos possíveis para receber notificações de alerta de ac
    * Um problema da capacidade de entrega
    * Um workflow incorreto
 
-   Se o delivery for acionado com um workflow, verifique se ele foi iniciado corretamente. Para obter mais informações, consulte [Execução de um workflow](../../automating/using/about-workflow-execution.md). Caso contrário, entre em contato com o administrador do Adobe Campaign para resolver o problema.
+   Se o delivery for acionado com um workflow, verifique se esse workflow foi iniciado corretamente. Para obter mais informações, consulte [Execução de um workflow](../../automating/using/about-workflow-execution.md). Caso contrário, entre em contato com o administrador do Adobe Campaign para resolver o problema.
 
 * **[!UICONTROL Deliveries with preparation failed]**: Um erro pode ocorrer durante a preparação do delivery nos seguintes casos:
 
@@ -281,6 +280,5 @@ Estes são alguns motivos possíveis para receber notificações de alerta de ac
 **Tópicos relacionados:**
 
 * [Noções básicas sobre falhas de delivery](../../sending/using/understanding-delivery-failures.md)
-* [Noções básicas sobre gestão de quarentena](../../sending/using/understanding-quarantine-management.md)
-* [Sobre participação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-
+* [Compreensão do gerenciamento de quarentena](../../sending/using/understanding-quarantine-management.md)
+* [Sobre aceitação e recusa no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
