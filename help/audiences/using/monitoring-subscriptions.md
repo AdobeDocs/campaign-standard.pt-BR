@@ -1,24 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Monitoramento de assinaturas
+title: Monitoramento de subscrições
 description: Saiba como rastrear seus assinantes e medir o sucesso de seus serviços usando painéis e relatórios.
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-feature: Audiences
-role: Business Practitioner
+feature: Públicos
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ad380122-6791-4580-b0eb-fce75b1ec863
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '358'
 ht-degree: 1%
 
 ---
 
-
-# Monitoramento de assinaturas{#monitoring-subscriptions}
+# Monitoramento de subscrições{#monitoring-subscriptions}
 
 Use a interface da Adobe Campaign para rastrear seus assinantes e medir o sucesso dos serviços.
 
@@ -29,7 +28,7 @@ Você tem várias opções para monitorar assinaturas e unsubscriptions:
 * Exiba um relatório detalhando a evolução das subscrições e unsubscriptions no serviço **Reports**. Consulte [Relatórios de serviço](#service-reports).
 * Encontre a lista de serviços que uma pessoa assinou de seu **Perfil**. Consulte [Histórico de eventos vinculados a um perfil](#history-of-events-linked-to-a-profile).
 
-## Painel de serviço {#service-dashboard}
+## Painel de serviços {#service-dashboard}
 
 Para exibir a lista de pessoas assinadas a um serviço:
 
@@ -68,4 +67,3 @@ Para exibir um relatório detalhando a evolução das subscrições e unsubscrip
 Para consultar a lista de serviços que um contato assinou, consulte o histórico de marketing. Para obter mais informações, consulte a seção [Perfil de cliente integrado](../../audiences/using/integrated-customer-profile.md) .
 
 ![](assets/lp_monitoring_subscriptions_5.png)
-
