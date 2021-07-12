@@ -7,17 +7,17 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: Visão geral
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '5298'
 ht-degree: 98%
 
 ---
 
-# Notas de versão 2020{#release-notes-2020}
+# Notas de versão de 2020{#release-notes-2020}
 
 [Planejamento de versão](https://helpx.adobe.com/br/campaign/kb/acs-release-planning.html) | [Versões do painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=pt-BR) | [Atualizações da documentação](../../rn/using/documentation-updates.md) | [Notas de versão anteriores](../../rn/using/release-notes-2019.md) | [Recursos descontinuados](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=pt-BR#release-notes)
 
@@ -191,7 +191,7 @@ ht-degree: 98%
 
 
 
-## Versão 20.3 - maio de 2020 {#release-20-3---may-2020}
+## Versão 20.3 - Maio de 2020 {#release-20-3---may-2020}
 
 **Novidades**
 
