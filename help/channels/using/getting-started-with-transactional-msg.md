@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Mensagens transacionais
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 10%
+source-wordcount: '965'
+ht-degree: 31%
 
 ---
-
 
 # Introdução a mensagens transacionais {#getting-started-with-transactional-messaging}
 
@@ -25,11 +24,11 @@ ht-degree: 10%
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-Uma mensagem transacional é uma comunicação individual e exclusiva, enviada em tempo real por um provedor, como um site. É particularmente esperado, pois contém informações importantes que o recipient deseja verificar ou confirmar.
+Uma mensagem transacional é uma comunicação individual e única enviada em tempo real a um usuário por um provedor, como um site. É particularmente esperado, pois contém informações importantes que o recipient deseja verificar ou confirmar.
 
-* **Quando é devido?** Como essa mensagem contém informações importantes, o usuário espera que ela seja enviada em tempo real. Consequentemente, o atraso entre o evento acionado e a mensagem recebida deve ser muito curto.
+* **Quando a entrega é feita?** Como essa mensagem contém informações importantes, o usuário espera que ela seja enviada em tempo real. Portanto, o atraso entre o evento acionado e a mensagem recebida deve ser muito curto.
 
-* **Por que é importante?** Geralmente, uma mensagem transacional tem altas taxas de abertura. Por conseguinte, deve ser cuidadosamente concebido, uma vez que pode ter um forte impacto no comportamento dos clientes, na medida em que define a relação com o cliente.
+* **Por que é importante?** Geralmente, uma mensagem transacional tem altas taxas de abertura. Potanto, ela deve ser criada cuidadosamente, uma vez que pode ter um forte impacto no comportamento dos clientes porque define a relação com o cliente.
 
 * **Por exemplo?** Pode ser uma mensagem de boas-vindas após criar uma conta, uma confirmação de que um pedido foi enviado, uma fatura, uma mensagem confirmando uma alteração de senha ou uma notificação depois que um cliente navegou em seu site, etc.
 
@@ -39,7 +38,7 @@ As mensagens transacionais podem ser enviadas por email, SMS ou [notificação p
 
 >[!NOTE]
 >
->O Adobe Campaign prioriza o processamento de mensagens transacionais antes de qualquer outro delivery.
+>O Adobe Campaign prioriza o processamento das mensagens transacionais antes de qualquer outra entrega.
 
 <!--Guidelines to implement transactional messaging capabilities in your website are detailed in [this section](../../api/using/managing-transactional-messages.md).-->
 
@@ -51,11 +50,11 @@ O processo geral de mensagens transacionais pode ser descrito da seguinte maneir
 
 ![](assets/message-center-process.png)
 
-Por exemplo, imagine que você é uma empresa com um site em que seus clientes podem comprar produtos.
+Por exemplo, imagine que você é uma empresa com um site onde os clientes podem comprar produtos.
 
-O Adobe Campaign permite enviar um email de notificação para clientes que adicionaram produtos ao carrinho. Quando um deles sai do site sem passar pelas compras (evento externo que aciona um evento de Campanha), um email de abandono de carrinho é enviado automaticamente a eles (delivery de mensagem transacional).
+O Adobe Campaign permite enviar um email de notificação para clientes que adicionaram produtos ao carrinho. Quando um deles sai do site sem concluir a compra (evento externo que aciona um evento do Campaign), um email de abandono de carrinho é enviado automaticamente a eles (entrega de mensagem transacional).
 
-As principais etapas para colocar isso em prática são detalhadas abaixo em [this section](#key-steps).
+As principais etapas para colocar isso em prática são detalhadas abaixo [nesta seção](#key-steps).
 
 ## Tipos de mensagem transacional {#transactional-message-types}
 
@@ -80,7 +79,7 @@ Por exemplo, você pode usar esse tipo de mensagem ao entrar em contato com seus
 
 O tipo de mensagem é definido ao configurar o evento que será transformado em mensagem transacional. Consulte as seções de configuração [Mensagens transacionais baseadas em eventos](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages) e [Mensagens transacionais baseadas em perfil](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) .
 
-## Principais etapas{#key-steps}
+## Principais etapas {#key-steps}
 
 As principais etapas ao criar e gerenciar mensagens transacionais personalizadas no Adobe Campaign são resumidas no schema abaixo.
 
@@ -112,7 +111,7 @@ A criação e a publicação de um evento são apresentadas nas seções [Config
 
 Para obter mais informações sobre como editar e publicar uma mensagem transacional, consulte [Edição de mensagens transacionais](../../channels/using/editing-transactional-message.md) e [Ciclo de vida da mensagem transacional](../../channels/using/publishing-transactional-message.md).
 
-### Etapa 3 - Integrar o evento que aciona {#integrate-event-trigger}
+### Etapa 3 - Integrar o acionamento do evento {#integrate-event-trigger}
 
 <img src="assets/do-not-localize/icon_api.svg" width="55px">
 
