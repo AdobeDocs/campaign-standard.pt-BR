@@ -7,18 +7,17 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
-feature: Landing Pages
-role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+feature: Páginas de aterrissagem
+role: User
+exl-id: 8015c555-9521-478c-8669-66b9cc145887
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1029'
 ht-degree: 97%
 
 ---
 
-
-# Introdução às landing pages {#getting-started-with-landing-pages}
+# Introdução às páginas de aterrissagem {#getting-started-with-landing-pages}
 
 As principais etapas ao configurar landing pages são as seguintes:
 
@@ -135,7 +134,7 @@ Depois de publicada, sua landing page estará pronta para ser usada. Depois diss
 
 Para saber mais sobre publicação da landing page, consulte [esta seção](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page).
 
-## Vídeo tutorial {#video}
+## Tutorial em vídeo {#video}
 
 Este vídeo mostra como criar e editar uma landing page.
 
