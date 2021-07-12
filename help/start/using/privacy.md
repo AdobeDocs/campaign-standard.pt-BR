@@ -10,11 +10,11 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 feature: Privacidade
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
-source-git-commit: 694d596ea3c7b85759716ae44b2713ed3f8b5dcf
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1478'
 ht-degree: 100%
 
@@ -74,7 +74,7 @@ O Adobe Campaign faz parte das soluções da Adobe Experience Cloud. A maneira c
 
 Para obter mais detalhes sobre a privacidade da Adobe Experience Cloud, consulte [esta página](https://www.adobe.com/br/privacy/marketing-cloud.html).
 
-## Dados pessoais e Personalidades {#personal-data}
+## Dados pessoais e Personas {#personal-data}
 
 Ao gerenciar a privacidade, é importante definir quais dados devem ser tratados com cuidado e por quem.
 * **Dados pessoais** são informações que podem identificar direta ou indiretamente um indivíduo vivo.
@@ -130,7 +130,7 @@ O Adobe Campaign fornece recursos adicionais para ajudar você se tornar um Cont
 
 >[!NOTE]
 >
->Este conjunto de ferramentas ajuda com a conformidade de privacidade para o GDPR, CCPA e PDPA. Para obter mais informações sobre esses diferentes regulamentos, consulte [esta página](https://helpx.adobe.com/br/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>Este conjunto de ferramentas ajuda com a conformidade de privacidade para o GDPR, CCPA e PDPA. Para obter mais informações sobre esses diferentes regulamentos, consulte [esta página](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
