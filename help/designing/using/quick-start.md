@@ -1,23 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Introdução ao Email Designer
+title: Introdução ao Designer de email
 description: Comece a criar conteúdo de email com o Designer de email.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Design de email
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 47f53290-2190-4181-bcd5-e60287189c41
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '926'
 ht-degree: 6%
 
 ---
 
-# Introdução ao Email Designer {#quick-start}
+# Introdução ao Designer de email {#quick-start}
 
 O Designer de email fornece quatro maneiras de criar emails.
 
@@ -50,7 +50,7 @@ Você pode criar um email facilmente, adicionar componentes e personalizar seu c
 1. Criar um email.
 1. Fechar página inicial.
 
-### Adicionar uma linha de assunto {#add-a-subject-line}
+### Adição de uma linha de assunto {#add-a-subject-line}
 
 As linhas de assunto são obrigatórias ao enviar um email. Para obter mais informações, consulte [Definição da linha de assunto de um email](../../designing/using/subject-line.md).
 
@@ -58,7 +58,7 @@ As linhas de assunto são obrigatórias ao enviar um email. Para obter mais info
 
 ![](assets/subject-line-quick-start.png)
 
-### Adicionar componentes de estrutura {#add-structure-components}
+### Adição de componentes de estrutura {#add-structure-components}
 
 Os componentes da estrutura definirão o layout do seu email. Para obter mais informações, consulte [Definição da estrutura de um email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
@@ -118,7 +118,7 @@ Você pode adicionar vários componentes de conteúdo ao seu email, como imagem,
 
 Agora você pode salvar e enviar seu email.
 
-### Criar conteúdo de um modelo pronto para uso {#building-content-from-an-out-of-the-box-template}
+### Criação de conteúdo a partir de um template pronto para uso {#building-content-from-an-out-of-the-box-template}
 
 Você pode criar um email a partir de templates prontos para uso, como mensagens de boas-vindas do cliente, informativos e emails de reengajamento e personalizá-los.
 
