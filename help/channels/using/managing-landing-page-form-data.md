@@ -7,18 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: Landing pages
-role: Business Practitioner
+feature: Páginas de aterrissagem
+role: User
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
-source-git-commit: d84a11d4064938792a2e2c365b6085c263f55648
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 62%
+ht-degree: 63%
 
 ---
 
-# Gerenciamento de dados de formulário de landing page{#managing-landing-page-form-data}
+# Gerenciamento de dados de formulário de página de aterrissagem{#managing-landing-page-form-data}
 
 ## Alteração das propriedades dos dados de formulário de landing page{#changing-a-landing-page-form-data-properties}
 
