@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Mensagens transacionais
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4cea7207-469c-46c5-9921-ae2f8f12d141
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '742'
 ht-degree: 63%
 
 ---
-
 
 # Execução e monitoramento de mensagens transacionais {#transactional-messaging-execution}
 
@@ -60,7 +59,7 @@ Depois que o evento tiver sido atribuído a um delivery de execução, a mensage
 >
 >Quando um evento é atribuído a um delivery de execução, ele é exibido nos logs de envio desse delivery de execução e apenas no momento. Os deliveries com falha são exibidos na guia **[!UICONTROL Execution list]** dos logs de envio de mensagem transacional.
 
-### Repetir as limitações do processo {#limitations}
+### Repetir limitações do processo {#limitations}
 
 **Envio de atualização de logs**
 
@@ -115,4 +114,4 @@ Essa regra faz parte de uma tipologia específica aplicável a todas as mensagen
 **Tópicos relacionados**:
 
 * [Sobre tipologias e regras de tipologia](../../sending/using/about-typology-rules.md)
-* [Monitorar um delivery](../../sending/using/monitoring-a-delivery.md)
+* [Monitoramento de uma entrega](../../sending/using/monitoring-a-delivery.md)
