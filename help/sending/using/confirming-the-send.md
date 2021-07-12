@@ -7,17 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 context-tags: delivery,deployment,back
-feature: Performance Monitoring
-role: Business Practitioner
+feature: Monitoramento de desempenho
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 65%
+source-wordcount: '944'
+ht-degree: 66%
 
 ---
-
 
 # Confirmação do envio{#confirming-the-send}
 
@@ -77,7 +76,7 @@ A mensagem pode ser exibida no histórico de um dos perfis direcionados. Consult
 Depois que uma mensagem é enviada, você pode rastrear o comportamento de seus recipients e monitorá-la para medir seu impacto. Para saber mais, consulte estas seções:
 
 * [Rastreamento de mensagens](../../sending/using/tracking-messages.md)
-* [Monitorar um delivery](../../sending/using/monitoring-a-delivery.md)
+* [Monitoramento de uma entrega](../../sending/using/monitoring-a-delivery.md)
 
 ### Relatórios de sucesso do delivery {#delivered-status-report}
 
