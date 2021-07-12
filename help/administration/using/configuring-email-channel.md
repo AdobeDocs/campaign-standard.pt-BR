@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
 feature: Configurações de instância
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '2598'
 ht-degree: 77%
@@ -346,7 +346,7 @@ As rejeições podem ter os seguintes status de qualificação:
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
-### Relatório do indicador entregue {#legacy-delivered-status-report}
+### Relatório de indicador entregue {#legacy-delivered-status-report}
 
 Na visualização **[!UICONTROL Summary]** de cada mensagem, a porcentagem **[!UICONTROL Delivered]** aumentará progressivamente durante todo o período de validade do delivery, à medida que as devoluções temporárias e permanentes forem relatadas de volta.
 
