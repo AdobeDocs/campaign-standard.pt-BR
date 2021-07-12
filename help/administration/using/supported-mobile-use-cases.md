@@ -7,19 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
-role: Administrator
+feature: Configurações de instância
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '955'
 ht-degree: 1%
 
 ---
 
-
-# Casos de uso de publicação de conteúdo para dispositivos móveis compatíveis com o Adobe Campaign Standard {#mobile-use-cases}
+# Casos de uso para dispositivos móveis compatíveis com o Adobe Campaign Standard {#mobile-use-cases}
 
 Nesta página, você encontrará a lista de todos os casos de uso de dispositivos móveis suportados em [!DNL Adobe Campaign Standard] usando o [!DNL Adobe Experience Platform SDKs]. Observe que o suporte a esses casos de uso envolve instalar e configurar os [!DNL Adobe Experience Platform SDKs], [!DNL Adobe Experience Platform Launch] e [!DNL Adobe Campaign Standard]. Para obter mais informações sobre essas operações, consulte esta [página](../../administration/using/configuring-a-mobile-application.md).
 
@@ -39,7 +38,7 @@ Para configurar esses casos de uso, você precisa das seguintes extensões de [!
 * **[!DNL Mobile Core]**, que é instalado automaticamente. <br>Para obter mais informações sobre a extensão Mobile Core, consulte  [Mobile Core](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core).
 * **[!DNL Profile]**, que é instalado automaticamente. <br>Para obter mais informações sobre a extensão Profile, consulte  [Perfil](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/profile).
 
-## Registre um perfil móvel no Campaign Standard {#register-mobile-profile}
+## Registrar um perfil móvel no Campaign Standard {#register-mobile-profile}
 
 ### Com iOS {#register-mobile-profile-ios}
 
@@ -292,7 +291,7 @@ contextData.put("action", "2");
 MobileCore.trackAction("tracking", contextData);
 ```
 
-## Implemente um evento personalizado em seu aplicativo para acionar mensagens no aplicativo {#custom-event-inapp}
+## Implementar um evento personalizado no aplicativo para acionar mensagens no aplicativo {#custom-event-inapp}
 
 ### Com iOS {#custom-event-inapp-ios}
 
