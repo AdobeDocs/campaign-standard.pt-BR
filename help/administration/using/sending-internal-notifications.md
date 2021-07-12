@@ -1,24 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Enviar notificações internas
+title: Envio de notificações internas
 description: Saiba como enviar notificações do sistema em tempo real para seus usuários do Adobe Campaign.
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instance Settings
-role: Administrator
+feature: Configurações de instância
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7e04275a-5413-4f03-b18c-b64ab482d7d5
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '266'
 ht-degree: 2%
 
 ---
 
-
-# Enviar notificações internas{#sending-internal-notifications}
+# Envio de notificações internas{#sending-internal-notifications}
 
 O Adobe Campaign oferece a possibilidade de receber notificações sobre atividades importantes do sistema diretamente no aplicativo. As notificações em tempo real mantêm os participantes relevantes informados e fornecem aos usuários a capacidade de agir imediata e diretamente nas notificações de atividades dentro do aplicativo. O resultado para as equipes é agilidade avançada, eficiência e execução mais suave de campanhas.
 
