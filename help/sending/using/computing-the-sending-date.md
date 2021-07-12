@@ -1,24 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Calcular a data de envio
+title: Cálculo da data de envio
 description: Descubra como enviar uma mensagem em uma data e hora específicas.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: Performance Monitoring
-role: Business Practitioner
+feature: Monitoramento de desempenho
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1000'
 ht-degree: 7%
 
 ---
 
-
-# Calcular a data de envio{#computing-the-sending-date}
+# Cálculo da data de envio{#computing-the-sending-date}
 
 Você pode definir uma fórmula para enviar a mensagem a cada recipient em uma data e hora específicas.
 
@@ -178,4 +177,3 @@ Você pode agendar isso usando um workflow.
 * O segundo segmento receberá a mensagem duas horas depois (25 de maio às 10h).
 * O terceiro segmento receberá a mensagem seis horas depois (25 de maio às 14:00).
 * O quarto segmento receberá a mensagem oito horas depois (25 de maio às 16h).
-
