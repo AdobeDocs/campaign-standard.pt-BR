@@ -8,10 +8,10 @@ topic-tags: deliveries-best-practices
 index: y
 description: Saiba como criar o conteúdo da mensagem e tentar evitar problemas comuns que podem impedir a execução do delivery. 
 feature: Capacidade de delivery
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
-source-git-commit: d84a11d4064938792a2e2c365b6085c263f55648
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1034'
 ht-degree: 74%
@@ -145,7 +145,7 @@ Tente tornar as imagens responsivas e redimensionáveis. Observe que isso pode t
 
 Para serem acessadas de fora, as imagens usadas em emails e recursos públicos vinculados a campanhas devem estar presentes em um servidor acessível externamente.
 
-## Visualizar sua mensagem  {#preview-msg}
+## Visualizar sua mensagem {#preview-msg}
 
 A Adobe recomenda visualizar a mensagem para verificar a personalização e como os recipients verão o delivery.
 
