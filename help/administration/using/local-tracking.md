@@ -7,19 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
-role: Administrator
+feature: Configurações de instância
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '579'
 ht-degree: 1%
 
 ---
 
-
-# Implementação do rastreamento local {#local-tracking}
+# Implementação de rastreamento local {#local-tracking}
 
 ## Sobre o rastreamento local {#about-local-tracking}
 
@@ -43,7 +42,7 @@ Para enviar informações de rastreamento, há três variáveis que precisam ser
 | broadlogId | `broadlogId` de dados de entrada (semelhante ao rastreamento de push, em que  `_mld` é usado) |
 | ação | &quot;1&quot; para Abrir, &quot;2&quot; para Clique e &quot;7&quot; para Impressão |
 
-## Implementar o rastreamento de impressões local {#implement-local-impression-tracking}
+## Implementar o rastreamento de impressão local {#implement-local-impression-tracking}
 
 O SDK do Adobe Experience Platform Mobile enviará automaticamente o evento de impressão para Android e iOS, sem qualquer configuração adicional.
 
