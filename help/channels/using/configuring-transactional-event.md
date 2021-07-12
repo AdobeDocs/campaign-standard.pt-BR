@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Mensagens transacionais
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1674'
 ht-degree: 7%
 
 ---
-
 
 # Configuração de um evento transacional {#configuring-transactional-event}
 
@@ -148,7 +147,7 @@ Depois que o evento e a mensagem forem publicados, esse link permitirá enriquec
 * [Personalização de uma mensagem transacional](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)
 * [Publicação de mensagem transacional](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
-## Pesquisar eventos transacionais {#searching-transactional-events}
+## Pesquisa de eventos transacionais {#searching-transactional-events}
 
 Para acessar e pesquisar os eventos transacionais já criados, siga as etapas abaixo.
 
