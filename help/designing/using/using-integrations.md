@@ -6,17 +6,16 @@ description: Descubra como criar emails por meio de integrações Adobe Campaign
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Design de email
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '723'
 ht-degree: 8%
 
 ---
-
 
 # Design de email de várias soluções {#multi-solution-email-design}
 
@@ -42,7 +41,7 @@ Esse recurso é detalhado na Documentação do Dreamweaver acessível [aqui](htt
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
 
-## Edição de conteúdo em Experience Manager {#editing-content-in-experience-manager}
+## Edição de conteúdo no Experience Manager {#editing-content-in-experience-manager}
 
 O conteúdo de email pode ser editado no Experience Manager e, em seguida, usado para uma ou várias mensagens de email no Adobe Campaign Standard. Consulte [este documento](../../integrating/using/integrating-with-experience-manager.md).
 
@@ -50,7 +49,7 @@ O conteúdo de email pode ser editado no Experience Manager e, em seguida, usado
 
 >[!CONTEXTUALHELP]
 >id="ac_product_listing"
->title="Uso das listagens de produtos"
+>title="Utilização de listagens de produtos"
 >abstract="As listas de produtos permitem que você faça referência a uma coleta de dados e a exiba no conteúdo do email."
 
 As listas de produtos permitem fazer referência a uma ou mais coleções de dados no conteúdo do email. Essas listas estão disponíveis para emails transacionais. Uma seção dedicada para este recurso está disponível [aqui](../../designing/using/using-product-listings.md).
@@ -156,7 +155,7 @@ O Adobe Campaign oferece várias opções de criação de email. A tabela abaixo
  </tbody> 
 </table>
 
-## Vídeo tutorial {#video}
+## Tutorial em vídeo {#video}
 
 Este vídeo mostra como criar e editar conteúdo para o Adobe Campaign Standard usando o Dreamweaver.
 
