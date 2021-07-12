@@ -7,18 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: Landing pages
-role: Business Practitioner
+feature: Páginas de aterrissagem
+role: User
 level: Intermediate
 exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
-source-git-commit: c9d2edbc0731734967af033dc318f5f60ea5cc8d
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1668'
 ht-degree: 97%
 
 ---
 
-# Design de uma landing page{#designing-a-landing-page}
+# Design de uma página de aterrissagem{#designing-a-landing-page}
 
 ## Sobre o design de conteúdo de uma página de aterrissagem {#about-content-design}
 
