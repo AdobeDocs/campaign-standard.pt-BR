@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Configurações de instância
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
-source-git-commit: f849e668cffaaca05261f0b91726a350a47676e4
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '8666'
 ht-degree: 86%
@@ -152,7 +152,7 @@ Campos de destaque em `BIND_* PDU`:
 
 `BIND_*_RESP` não tem um campo específico. Confirma se a conexão foi bem-sucedida ou não.
 
-#### UNBIND {#unbind}
+#### DESVINCULAR {#unbind}
 
 Essa PDU deve ser enviada pelo sistema antes da desconexão. Deve aguardar a `UNBIND_RESP PDU` correspondente antes de fechar a conexão.
 
@@ -833,7 +833,7 @@ Se você precisar ter várias contas na mesma instância do Adobe Campaign que s
 Você deve sempre ativar rastreamentos SMPP detalhados durante as verificações.
 Mesmo se você não conseguir verificar os registros sozinho, será mais fácil para o Suporte ajudá-lo.
 
-### Testar seu SMS {#test}
+### Testar o SMS {#test}
 
 * **Enviar SMS com todos os tipos de caracteres**
 Se você precisar enviar SMS com caracteres não GSM ou não ASCII, tente enviar algumas mensagens com o maior número possível de caracteres diferentes. Se você configurar uma tabela de mapeamento de caracteres personalizada, envie pelo menos um SMS para todos os possíveis 
