@@ -7,17 +7,16 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 context-tags: null
-feature: Email Design
-role: Business Practitioner
+feature: Design de email
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 81%
+source-wordcount: '851'
+ht-degree: 82%
 
 ---
-
 
 # Uso de listas de produtos em uma mensagem transacional {#using-product-listings}
 
