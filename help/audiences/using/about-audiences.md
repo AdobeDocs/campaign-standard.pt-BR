@@ -7,19 +7,18 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: Audiences
-role: Business Practitioner
+feature: Públicos
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f99987d8-b1bf-4ec7-885c-fb511f4168ac
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 90%
+source-wordcount: '250'
+ht-degree: 91%
 
 ---
 
-
-# Sobre públicos-alvo{#about-audiences}
+# Sobre públicos{#about-audiences}
 
 Um público-alvo é uma lista de perfis com base em regras e atributos.
 
