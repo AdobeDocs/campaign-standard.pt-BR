@@ -7,18 +7,17 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 feature: Push
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 0%
+source-wordcount: '1128'
+ht-degree: 1%
 
 ---
 
-
-# Gerando um arquivo CSV para Notificação por push multilíngue{#generating-csv-multilingual-push}
+# Gerar um arquivo CSV para Notificação por push multilíngue{#generating-csv-multilingual-push}
 
 Fazer upload de um arquivo CSV para gerar conteúdo para entrega é um recurso usado para suportar notificações de push multilíngues. O formato do arquivo CSV precisa seguir determinadas diretrizes para que o upload do arquivo seja bem-sucedido e, consequentemente, possa criar um delivery. As seções a seguir descrevem o formato do arquivo e suas considerações.
 
