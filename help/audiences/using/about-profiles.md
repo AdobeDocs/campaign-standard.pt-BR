@@ -7,17 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 context-tags: recipient,overview
-feature: Profiles
-role: Business Practitioner
+feature: Perfis
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 65310e00-567f-4fae-89bc-b1d5591fca77
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 98%
+source-wordcount: '156'
+ht-degree: 100%
 
 ---
-
 
 # Sobre perfis{#about-profiles}
 
