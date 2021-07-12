@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: marketing-plans
 context-tags: activity,overview
 feature: Campanhas
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: c75471aa-b947-4488-a569-5412d3825c64
-source-git-commit: 6ca6fabc42f63791f4c2b0f1d2d6bd8ea5e27f7a
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 84%
