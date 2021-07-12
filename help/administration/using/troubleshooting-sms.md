@@ -6,17 +6,16 @@ description: Solução de problemas de SMS
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instance Settings
-role: Administrator
+feature: Configurações de instância
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2698'
 ht-degree: 90%
 
 ---
-
 
 # Solução de problemas de SMS {#sms-troubleshooting}
 
