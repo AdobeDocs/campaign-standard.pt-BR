@@ -6,21 +6,20 @@ description: “Os templates do Adobe Campaign permitem pré-configurar parâmet
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: Campaigns
-role: Business Practitioner
+feature: Campanhas
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a0f02f69-d72d-48ca-8b38-aaab8d1acfad
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 99%
+source-wordcount: '403'
+ht-degree: 100%
 
 ---
 
+# Modelos de atividades de marketing {#marketing-activity-templates}
 
-# Templates de atividades de marketing {#marketing-activity-templates}
-
-## Sobre templates {#about-templates}
+## Sobre modelos {#about-templates}
 
 Ao criar uma nova atividade de marketing, a primeira tela do assistente solicita que você selecione um tipo ou template. Os templates permitem pré-configurar parâmetros específicos de acordo com as necessidades. O template pode conter uma configuração completa ou parcial da atividade de marketing. O gerenciamento de templates é feito pelo administrador funcional.
 
