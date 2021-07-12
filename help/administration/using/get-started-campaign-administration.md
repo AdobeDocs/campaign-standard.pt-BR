@@ -6,17 +6,16 @@ description: Descubra o gerenciamento de usuários e permissões, as diretrizes 
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: Access Management
-role: Administrator
+feature: Gerenciamento de acesso
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '639'
 ht-degree: 15%
 
 ---
-
 
 # Introdução à administração do Campaign Standard {#about-administrating-adobe-campaign}
 
@@ -84,7 +83,7 @@ Leia mais:
 * [Sobre a configuração de canal](../../administration/using/about-channel-configuration.md)
 * [Configuração do canal de email](../../administration/using/configuring-email-channel.md)
 * [Configuração do canal SMS](../../administration/using/configuring-sms-channel.md)
-* [Configurar um aplicativo móvel](../../administration/using/configuring-a-mobile-application.md)
+* [Configurar um aplicativo para dispositivos móveis](../../administration/using/configuring-a-mobile-application.md)
 
 ## Configurações do aplicativo {#application-settings}
 
@@ -101,6 +100,6 @@ Leia mais:
 * [Sobre as configurações do Campaign Standard](../../administration/using/about-campaign-standard-settings.md)
 * [Contas externas](../../administration/using/external-accounts.md)
 * [Mapeamentos do Target no Campaign](../../administration/using/target-mappings-in-campaign.md)
-* [Fluxos de trabalho técnicos](../../administration/using/technical-workflows.md)
-* [Identidade visual](../../administration/using/branding.md)
-* [Enviar notificações internas](../../administration/using/sending-internal-notifications.md)
+* [Workflows técnicos](../../administration/using/technical-workflows.md)
+* [Marca](../../administration/using/branding.md)
+* [Envio de notificações internas](../../administration/using/sending-internal-notifications.md)
