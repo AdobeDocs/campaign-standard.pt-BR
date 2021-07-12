@@ -7,16 +7,15 @@ audience: designing
 content-type: reference
 topic-tags: defining-conditional-content
 feature: SMS
-role: Business Practitioner
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 649e3428-a3bf-470f-923c-04d9a57a208f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '214'
 ht-degree: 3%
 
 ---
-
 
 # Definição de texto dinâmico{#defining-dynamic-text}
 
