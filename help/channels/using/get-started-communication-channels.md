@@ -7,10 +7,10 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 feature: Visão geral
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
-source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 23%
@@ -43,8 +43,8 @@ Leia mais:
 * [Etapas principais para enviar uma mensagem](../../channels/using/key-steps-to-send-a-message.md)
 * [Acessar mensagens](../../channels/using/accessing-messages.md)
 * [Painel de mensagens](../../channels/using/message-dashboard.md)
-* [Templates de mensagens multilíngues](../../channels/using/multilingual-messages-template.md)
-* [Templates de atividades de marketing](../../start/using/marketing-activity-templates.md)
+* [Modelos de mensagens multilíngues](../../channels/using/multilingual-messages-template.md)
+* [Modelos de atividades de marketing](../../start/using/marketing-activity-templates.md)
 
 ## Canais de comunicação {#available-communication-channels}
 
@@ -76,13 +76,13 @@ Leia mais:
 
 * [Introdução a mensagens transacionais](../../channels/using/getting-started-with-transactional-msg.md)
 * [Configuração de um evento transacional](../../channels/using/configuring-transactional-event.md)
-* [Publicar um evento transacional](../../channels/using/publishing-transactional-event.md)
-* [Editar uma mensagem transacional](../../channels/using/editing-transactional-message.md)
+* [Publicação de um evento transacional](../../channels/using/publishing-transactional-event.md)
+* [Edição de uma mensagem transacional](../../channels/using/editing-transactional-message.md)
 * [Publicação de mensagem transacional](../../channels/using/publishing-transactional-message.md)
 * [Notificações por push transacionais](../../channels/using/transactional-push-notifications.md)
 * [Mensagens de acompanhamento](../../channels/using/follow-up-messages.md)
 
-## Páginas de aterrissagem {#landing-pages}
+## Landing pages {#landing-pages}
 
 <img src="assets/do-not-localize/icon_landing.svg" width="60px">
 
@@ -92,15 +92,15 @@ As landing pages também podem ser usadas para **adquirir ou atualizar perfis ex
 
 Leia mais:
 
-* [Introdução às landing pages](../../channels/using/getting-started-with-landing-pages.md)
+* [Introdução às páginas de aterrissagem](../../channels/using/getting-started-with-landing-pages.md)
 * [Templates de landing page](../../channels/using/landing-page-templates.md)
-* [Gerenciamento de dados de formulário de landing page](../../channels/using/managing-landing-page-form-data.md)
+* [Gerenciamento de dados de formulário de página de aterrissagem](../../channels/using/managing-landing-page-form-data.md)
 * [Configuração de um processo duplo de aceitação](../../channels/using/setting-up-a-double-opt-in-process.md)
 
 ## Recursos adicionais
 
 * [Otimização da capacidade de entrega](../../sending/using/about-deliverability.md)
-* [Práticas recomendadas de delivery](../../sending/using/delivery-best-practices.md)
+* [Práticas recomendadas de entrega](../../sending/using/delivery-best-practices.md)
 * [Criação de conteúdo de email](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Importação de conteúdo AEM](../../integrating/using/creating-email-experience-manager.md)
 * [Envio de mensagens com fluxos de trabalho](../../automating/using/about-channel-activities.md)
