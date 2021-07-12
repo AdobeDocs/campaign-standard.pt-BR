@@ -7,10 +7,10 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 feature: Perfis
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
-source-git-commit: bc55ccea9691d904bbc1b64d93d0a7b8486940e5
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 25%
@@ -51,10 +51,10 @@ Leia mais:
 * [Sobre perfis](../../audiences/using/about-profiles.md)
 * [Perfis ativos](../../audiences/using/active-profiles.md)
 * [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md)
-* [Enriquecer o banco de dados do Campaign](../../audiences/using/enriching-campaign-database.md)
-* [Sobre públicos-alvo](../../audiences/using/about-audiences.md)
-* [Seleção de um público-alvo em uma mensagem](../../audiences/using/selecting-an-audience-in-a-message.md)
-* [Adicionar um grupo de controle](../../sending/using/control-group.md)
+* [Enriquecimento do banco de dados do Campaign](../../audiences/using/enriching-campaign-database.md)
+* [Sobre públicos](../../audiences/using/about-audiences.md)
+* [Seleção de um público em uma mensagem](../../audiences/using/selecting-an-audience-in-a-message.md)
+* [Adição de um grupo de controle](../../sending/using/control-group.md)
 
 ## Permissão e consentimento {#permission}
 
@@ -73,7 +73,7 @@ Fornecer **links de unsubscription** em suas mensagens permitirá que os Perfis 
 Leia mais:
 
 * [Sobre assinaturas](../../audiences/using/about-subscriptions.md)
-* [Sobre participação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Sobre aceitação e recusa no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 ## Conformidade com a privacidade {#privacy}
 
