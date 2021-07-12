@@ -7,19 +7,18 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Conheça as práticas recomendadas relacionadas ao design e envio com o Adobe Campaign.
-feature: Deliverability
-role: Business Practitioner
+feature: Capacidade de delivery
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: ba080b64-9106-4d5b-958b-3c5e738cb42a
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '96'
 ht-degree: 50%
 
 ---
 
-
-# Práticas recomendadas para delivery {#delivery-best-practices}
+# Práticas recomendadas de entrega {#delivery-best-practices}
 
 Conheça as práticas recomendadas relacionadas ao design e envio com o Adobe Campaign. Use os links abaixo para navegar pelos tópicos e encontrar orientação.
 
