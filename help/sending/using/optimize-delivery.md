@@ -8,17 +8,17 @@ topic-tags: deliveries-best-practices
 index: y
 description: Saiba como proteger e otimizar o fluxo do processo de envio.
 feature: Capacidade de delivery
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: 8a62ee661b77c3e3062e46477bfce5911e9415ff
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 85%
 
 ---
 
-# Otimizar o delivery{#optimize-delivery}
+# Otimizar a entrega {#optimize-delivery}
 
 Antes mesmo de começar a criar os deliveries, você pode realizar várias ações para proteger e otimizar o fluxo do processo de envio.
 
@@ -44,7 +44,7 @@ Para otimizar o delivery ao manipular emails em grandes volumes e evitar ser con
 
 **Dica**: use um endereço de remetente transparente, correspondente ao site da sua marca. Por exemplo, a empresa TravelAgency gerencia a cadeia de hotéis Valentino. É proprietária do domínio valentino.com para o seu site. Para promover o hotel Valentino em Paris, ele usa o subdomínio paris.valentino.com. Portanto, um endereço de remetente relevante pode ser hotel@paris.valentino.com.
 
-## Gerenciamento da capacidade de entrega {#deliverability-management}
+## Gerenciamento de deliverability {#deliverability-management}
 
 Para alcançar a caixa de entrada de seus recipients sem ser rejeitado ou ser marcado como spam, você precisa melhorar a taxa de entrega de suas mensagens.
 
