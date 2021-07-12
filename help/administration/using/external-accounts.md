@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
 feature: Configurações de instância
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1774'
 ht-degree: 84%
@@ -137,7 +137,7 @@ Para ajudar você a configurar a conta do Amazon S3, siga estas recomendações:
 * Ao criar uma conta externa, ative a criptografia para armazenar dados confidenciais no bucket do S3, marcando a caixa **[!UICONTROL Keep files in S3 encrypted]**.
 * Conceda permissões de bucket para especificar quem pode acessar o objeto em um bucket. Para obter mais informações sobre permissão de buckets, consulte a [documentação do Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html).
 
-## Conta externa do Adobe Experience Manager.{#adobe-experience-manager-external-account}
+## Conta externa do Adobe Experience Manager. {#adobe-experience-manager-external-account}
 
 Contas externas do Adobe Experience Manager são usadas ao integrar o Campaign ao Experience Manager.
 
