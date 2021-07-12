@@ -6,17 +6,16 @@ description: Saiba como gerenciar estilos de email no Designer de email.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Design de email
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 1%
+source-wordcount: '1054'
+ht-degree: 2%
 
 ---
-
 
 # Gerenciamento de estilos de email {#managing-styles}
 
@@ -100,7 +99,7 @@ Para **[!UICONTROL Padding]** e **[!UICONTROL Margin]**, clique no ícone de blo
 
    ![](assets/des_set_vertical_alignment.png)
 
-## Definir planos de fundo {#about-backgrounds}
+## Configuração de planos de fundo {#about-backgrounds}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
