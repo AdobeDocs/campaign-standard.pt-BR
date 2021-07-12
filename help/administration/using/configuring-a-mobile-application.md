@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Configurações de instância
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 7%
@@ -130,7 +130,7 @@ Seu **[!UICONTROL Property Status]** deve ser **[!UICONTROL Ready to configure]*
 
    Para obter mais informações, consulte [Publicar configuração](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-configuration).
 
-## Configuração do aplicativo específico do canal no Adobe Campaign {#channel-specific-config}
+## Configuração do aplicativo específico para canal no Adobe Campaign {#channel-specific-config}
 
 Seu aplicativo móvel agora está pronto para ser usado no Campaign para notificação por push ou deliveries no aplicativo. Agora você pode configurá-lo ainda mais, se necessário, para criar eventos que acionarão suas mensagens no aplicativo e/ou farão upload de certificados por push.
 
@@ -164,7 +164,7 @@ Seu aplicativo móvel agora está pronto para ser usado no Campaign para notific
 
 1. Clique na guia **[!UICONTROL Mobile application subscribers]** para ver uma lista de assinantes e outras informações sobre esses assinantes, por exemplo, se eles recusaram suas notificações.
 
-## Excluindo seu aplicativo Adobe Experience Platform Launch {#delete-app}
+## Exclusão do aplicativo Adobe Experience Platform Launch {#delete-app}
 
 A exclusão do aplicativo Experience Platform Launch não pode ser revertida.
 
