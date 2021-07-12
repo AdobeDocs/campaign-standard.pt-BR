@@ -7,19 +7,18 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,segmentation,delivery
-feature: Control Groups
-role: Business Practitioner
+feature: Grupos de controle
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 553897d4-2652-453f-960e-bb2993889f37
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 99%
+source-wordcount: '1334'
+ht-degree: 100%
 
 ---
 
-
-# Adicionar um grupo de controle {#adding-control-group}
+# Adição de um grupo de controle {#adding-control-group}
 
 Você pode usar grupos de controle para evitar o envio de mensagens para uma parte do público para medir o impacto das campanhas.
 
