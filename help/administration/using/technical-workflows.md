@@ -7,17 +7,17 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 feature: Configurações de instância
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: 6d25a618b2520c867393bf0ef795567de4c57e98
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 92%
 
 ---
 
-# Fluxos de trabalho técnicos{#technical-workflows}
+# Workflows técnicos{#technical-workflows}
 
 Os fluxos de trabalho técnicos são fornecidos prontos para uso com o Adobe Campaign. Eles são operações ou trabalhos programados para serem executados regularmente no servidor.
 
@@ -31,7 +31,7 @@ Os administradores funcionais podem acessar os fluxos de trabalho técnicos no m
 
 ![](assets/technical_workflows.png)
 
-## Lista de fluxos de trabalho técnicos {#list-of-technical-workflows}
+## Lista de workflows técnicos {#list-of-technical-workflows}
 
 Os fluxos de trabalho técnicos são usados para lidar com processos técnicos e em segundo plano acionados automaticamente no Adobe Campaign.
 
