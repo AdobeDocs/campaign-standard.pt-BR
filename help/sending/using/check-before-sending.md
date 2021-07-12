@@ -7,17 +7,16 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"Quando a mensagem estiver pronta, saiba como executar todas as verificações antes de enviar"'
-feature: Deliverability
-role: Business Practitioner
+feature: Capacidade de delivery
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 89%
+source-wordcount: '411'
+ht-degree: 90%
 
 ---
-
 
 # Executar todas as verificações antes de enviar {#perform-all-checks}
 
@@ -64,4 +63,3 @@ Se você tiver vários conteúdos para um delivery de email, poderá usar o test
 * Selecione aquela com a maior taxa de sucesso e envie-a para o restante do seu público-alvo
 
 Saiba mais [nesta seção](../../channels/using/designing-an-a-b-test-email.md).
-
