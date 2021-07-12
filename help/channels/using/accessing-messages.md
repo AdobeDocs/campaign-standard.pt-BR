@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 context-tags: activity,overview
-feature: Overview
-role: Business Practitioner
+feature: Visão geral
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 830ca459-39c5-4761-a533-b6d345a326fc
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '290'
 ht-degree: 2%
 
 ---
-
 
 # Acessar mensagens{#accessing-messages}
 
