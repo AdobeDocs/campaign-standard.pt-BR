@@ -1,24 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 'Criar e-mails do zero '
+title: 'Criação de emails do zero '
 description: Descubra como projetar emails do zero no conteúdo de email do Designer de email.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Design de email
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1241'
 ht-degree: 2%
 
 ---
 
-
-# Criar e-mails do zero {#designing-an-email-content-from-scratch}
+# Criação de emails do zero {#designing-an-email-content-from-scratch}
 
 Saiba como principal a edição de conteúdo de email. Com o Email Designer, você pode criar emails e modelos começando com ou sem seu próprio conteúdo predefinido.
 
@@ -203,8 +202,8 @@ O componente carrossel não é compatível com todos os programas de email. Carr
 
 **Tópicos relacionados**:
 
-- [Criação de email](../../channels/using/creating-an-email.md)
-- [Seleção de um público-alvo em uma mensagem](../../audiences/using/selecting-an-audience-in-a-message.md)
+- [Criação de um email](../../channels/using/creating-an-email.md)
+- [Seleção de um público em uma mensagem](../../audiences/using/selecting-an-audience-in-a-message.md)
 - [Agendamento de mensagens](../../sending/using/about-scheduling-messages.md)
 - [Visualização de mensagens](../../sending/using/previewing-messages.md)
 - [Renderização de email](../../sending/using/email-rendering.md)
