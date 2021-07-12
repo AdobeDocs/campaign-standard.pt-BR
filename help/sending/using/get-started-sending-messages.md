@@ -6,16 +6,15 @@ description: Prepare, teste, agende, envie e monitore suas mensagens.
 audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 15%
+source-wordcount: '595'
+ht-degree: 17%
 
 ---
-
 
 # Introdução a testes e envios {#about-sending-messages-with-campaign}
 
@@ -34,7 +33,7 @@ Por fim, aproveite as diretrizes e ferramentas de deliverability disponíveis no
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra como enviar um email de teste, preparar e enviar um delivery de email em vídeo](#video)
 
-## Prepare e teste {#prepare-test-send}
+## Preparar e testar {#prepare-test-send}
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
 
@@ -70,11 +69,11 @@ Leia mais:
 * [Confirmação do envio](../../sending/using/confirming-the-send.md)
 * [Rastreamento de mensagens](../../sending/using/tracking-messages.md)
 * [Arquivamento com email Cco](../../sending/using/archiving.md)
-* [Monitorar um delivery](../../sending/using/monitoring-a-delivery.md)
-* [Noções básicas sobre falhas de delivery](../../sending/using/understanding-delivery-failures.md)
-* [Noções básicas sobre gestão de quarentena](../../sending/using/understanding-quarantine-management.md)
+* [Monitoramento de uma entrega](../../sending/using/monitoring-a-delivery.md)
+* [Compreensão de falhas de entrega](../../sending/using/understanding-delivery-failures.md)
+* [Compreensão do gerenciamento de quarentena](../../sending/using/understanding-quarantine-management.md)
 
-## Diretrizes de capacidade de entrega {#improve-deliverability}
+## Diretrizes de capacidade de delivery {#improve-deliverability}
 
 <img src="assets/do-not-localize/icon_deliverability.svg"  width="60px">
 
@@ -84,19 +83,19 @@ O Campaign Standard fornece várias **ferramentas de deliverability** para ajuda
 
 Leia mais:
 
-* [Sobre a capacidade de delivery](../../sending/using/about-deliverability.md)
+* [Sobre a capacidade de entrega](../../sending/using/about-deliverability.md)
 * [Monitoramento da capacidade de entrega](../../sending/using/monitor-deliverability.md)
-* [Guia de práticas recomendadas de capacidade de entrega do Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)
+* [Guia de práticas recomendadas de capacidade de entrega do Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=pt-BR)
 * [Controle da taxa de transferência do delivery](../../reporting/using/delivery-throughput.md)
 
 ## Recursos adicionais
 
 * [Criação de emails de teste A/B](../../channels/using/designing-an-a-b-test-email.md)
 * [Introdução a emails](https://helpx.adobe.com/br/campaign/kb/acs-get-started-with-emails.html)
-* [Práticas recomendadas para delivery](../../sending/using/delivery-best-practices.md)
-* [Adicionar um grupo de controle](../../sending/using/control-group.md)
+* [Práticas recomendadas de entrega](../../sending/using/delivery-best-practices.md)
+* [Adição de um grupo de controle](../../sending/using/control-group.md)
 
-## Vídeo tutorial {#video}
+## Tutorial em vídeo {#video}
 
 Este vídeo mostra como enviar um email de teste, preparar e enviar um delivery de email no Campaign Standard.
 
