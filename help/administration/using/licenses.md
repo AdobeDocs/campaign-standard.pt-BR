@@ -6,17 +6,16 @@ description: Saiba mais sobre as licenças instaladas em sua instância.
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Access Management
-role: Administrator
+feature: Gerenciamento de acesso
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 1%
+source-wordcount: '171'
+ht-degree: 2%
 
 ---
-
 
 # Licenças{#licenses}
 
@@ -37,4 +36,3 @@ Um administrador precisa ler e confirmar os novos termos do contrato nos 30 dias
 Passados esses 30 dias se o contrato não for aceito, nenhum usuário poderá usar essa instância. Os usuários padrão não poderão acessar as funcionalidades do Adobe Campaign e verão a seguinte mensagem somente até que um administrador funcional aceite os termos do contrato.
 
 ![](assets/license_4.png)
-
