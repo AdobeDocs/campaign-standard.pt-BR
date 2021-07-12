@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: role,overview;role,main
-feature: Access Management
-role: Administrator
+feature: Gerenciamento de acesso
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 83%
+source-wordcount: '237'
+ht-degree: 85%
 
 ---
-
 
 # Lista de funções{#list-of-roles}
 
@@ -47,5 +46,5 @@ Para obter mais informações, consulte a tabela [Funções e permissões](/help
 
 **Tópicos relacionados:**
 
-* [Sobre o gerenciamento de acesso](../../administration/using/about-access-management.md)
+* [Sobre gerenciamento de acesso](../../administration/using/about-access-management.md)
 * [Gerenciamento de grupos e usuários](../../administration/using/managing-groups-and-users.md)
