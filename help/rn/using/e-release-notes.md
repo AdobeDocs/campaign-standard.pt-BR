@@ -4,12 +4,13 @@ product: campaign
 title: Notas de versão anteriores
 description: Notas de versão anteriores
 feature: Visão geral
-role: Business Practitioner
+role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 7eb12fbb89f677eb7184cb5ff200d3f8a466d3c8
-workflow-type: ht
+exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 100%
 
@@ -24,7 +25,7 @@ Esta página descreve novos recursos, melhorias e correções incluídos na pró
 > Esse conteúdo está sujeito a alterações sem aviso prévio até a data de atualização dos ambientes de estágio. Saiba mais na [página de planejamento de versão](../../rn/using/release-planning.md).
 
 
-## Versão 21.2 — junho de 2021 {#release-21-2---june-2021}
+## Versão 21.2 - Junho de 2021 {#release-21-2---june-2021}
 
 **Melhorias**
 
@@ -61,7 +62,7 @@ Esta página descreve novos recursos, melhorias e correções incluídos na pró
 
 * Correção de um problema que impedia que a opção de expiração da tabela de log do processo em lote (**xtkjoblog**) fosse aplicada. Isso impedia que a tabela fosse removida corretamente.
 
-* Correção de um problema que impedia a alteração da ordem dos filtros em uma atividade de fluxo de trabalho de **Segmentação** . (CAMP-48357)
+* Correção de um problema que impedia a alteração da ordem dos filtros em uma atividade de fluxo de trabalho de **Segmentação**. (CAMP-48357)
 
 * Correção de uma regressão de 20.4 que podia resultar em falha de entregas com um erro de valor nulo. (CAMP-48591)
 
@@ -75,7 +76,7 @@ Esta página descreve novos recursos, melhorias e correções incluídos na pró
 
 * Correção de um problema que podia exibir uma mensagem de erro ao ser feita uma tentativa de editar, excluir ou enviar um relatório personalizado. (CAMP-47789, CAMP-47798)
 
-* Correção de um problema que resultava em falha nas chamadas de APIs ao ser criado um novo recurso personalizado e ao ser ativada a opção **Não sincronizar**. (CAMP-48014)
+* Correção de um problema que resultava em falha nas chamadas de APIs ao criar um novo recurso personalizado e ativar a opção **Não sincronizar**. (CAMP-48014)
 
 * Correção de um problema em que os recursos personalizados com a opção **Não sincronizar** ativada podiam fazer referência a um esquema que tinha sido reformulado ou excluído. Esse problema causava um erro durante a publicação dos recursos personalizados.
 
