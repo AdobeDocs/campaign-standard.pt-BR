@@ -1,25 +1,24 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Testar mensagens de email usando perfis direcionados
+title: Teste de mensagens de email usando perfis direcionados
 description: Saiba como testar mensagens usando perfis direcionados e endereços de substituição.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-feature: Control Groups
-role: Business Practitioner
+feature: Grupos de controle
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1516'
 ht-degree: 5%
 
 ---
 
-
-# Testar mensagens de email usando perfis direcionados {#testing-message-profiles}
+# Teste de mensagens de email usando perfis direcionados {#testing-message-profiles}
 
 ## Visão geral {#overview}
 
@@ -44,7 +43,7 @@ As principais etapas são as seguintes:
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
 
-## Selecionar perfis e endereços de substituição {#selecting-profiles}
+## Seleção de perfis e endereços de substituição {#selecting-profiles}
 
 Para usar perfis direcionados para testes, primeiro você deve selecioná-los e definir os endereços de substituição que receberão as provas. Para fazer isso, você pode [selecionar perfis específicos](#selecting-individual-profiles) entre os perfis direcionados ou [importar perfis de um público existente](#importing-from-audience).
 
@@ -52,7 +51,7 @@ Para usar perfis direcionados para testes, primeiro você deve selecioná-los e 
 >
 >Você pode selecionar no máximo 100 perfis para teste.
 
-### Selecionar perfis individuais {#selecting-individual-profiles}
+### Seleção de perfis individuais {#selecting-individual-profiles}
 
 1. No painel de mensagens, verifique se a preparação da mensagem foi bem-sucedida e clique no bloco **[!UICONTROL Audience]** .
 
@@ -100,7 +99,7 @@ Para usar perfis direcionados para testes, primeiro você deve selecioná-los e 
 >
 >Se você fizer qualquer alteração na mensagem, certifique-se de iniciar a preparação da mensagem novamente. Caso contrário, as alterações não serão refletidas na prova.
 
-### Importar perfis de um público-alvo {#importing-from-audience}
+### Importação de perfis de um público {#importing-from-audience}
 
 O Campaign Standard permite importar um público-alvo de perfis que você pode usar para testes. Isso permite, por exemplo, enviar para um endereço de email exclusivo um conjunto inteiro de mensagens direcionadas a diferentes perfis.
 
@@ -270,7 +269,7 @@ As principais etapas para esse caso de uso são as seguintes:
 
    ![](assets/substitution_uc_proofs.png)
 
-## Vídeo tutorial {#video}
+## Tutorial em vídeo {#video}
 
 Este vídeo mostra como você pode testar suas mensagens de email usando a substituição do perfil.
 
