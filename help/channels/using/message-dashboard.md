@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 context-tags: delivery,main
-feature: Overview
-role: Business Practitioner
+feature: Visão geral
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 886aae39-2029-471c-b4d1-c6ca57d0e568
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '588'
 ht-degree: 6%
 
 ---
-
 
 # Painel de mensagens{#message-dashboard}
 
@@ -56,7 +55,7 @@ Dependendo dos parâmetros que foram configurados e do progresso realizado, algu
 
 * **[!UICONTROL Confirm send]**: confirma o envio da mensagem. As estatísticas de envio aparecem no bloco **[!UICONTROL Deployment]** . Esse botão só aparecerá depois que o envio tiver sido preparado. Você pode interromper ou pausar o envio a qualquer momento usando os botões **Stop send** e **[!UICONTROL Pause]**. Para obter mais informações sobre confirmação de envio, consulte [Envio de mensagens](../../sending/using/confirming-the-send.md).
 
-## Bloqueios {#blocks}
+## Blocos {#blocks}
 
 A tela principal é composta por blocos diferentes. Clique dentro de um bloco para acessar a tela de parâmetro correspondente:
 
