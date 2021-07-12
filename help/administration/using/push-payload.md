@@ -7,19 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
-role: Administrator
+feature: Configurações de instância
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1150'
 ht-degree: 4%
 
 ---
 
-
-# Como entender a estrutura de payload das notificações de push do {#push-payload}
+# Como entender a estrutura de carga das notificações por push {#push-payload}
 
 O Adobe Campaign permite enviar notificações por push personalizadas e segmentadas em dispositivos móveis iOS e Android para aplicativos móveis (aplicativo móvel).
 
@@ -33,7 +32,7 @@ Este documento descreve a estrutura da carga útil recebida em um aplicativo mó
 >
 >A estrutura de payload varia dependendo do tipo de aplicativo móvel (ou seja, aplicativo iOS, aplicativo Android habilitado para FCM).
 
-## Estrutura de carga de push {#push-payload-structure}
+## Estrutura da carga útil de push {#push-payload-structure}
 
 Esta seção detalha a estrutura de uma carga de amostra para várias plataformas móveis e descreve os principais atributos contidos nela. Essa é a estrutura da carga recebida no código do aplicativo móvel no manipulador de eventos que indica que uma notificação por push foi recebida.
 
@@ -221,7 +220,7 @@ Para entender os aspectos de uma carga do android, consulte [Conceitos e opçõe
 | URL de conteúdo de mídia avançada (arquivos de imagem)<br>(Aplicável somente para Android) | NA | media-attachment-url | URL dos arquivos de imagem para adicionar conteúdo avançado à sua notificação. |
 | NA | _mId<br>_dId | _mId <br>_dId | Valores de broadlogId e deliveryId.<br>Esses atributos são necessários se o aplicativo quiser chamar um postback de rastreamento para rastrear quando a notificação por push foi clicada/aberta. Essas informações são computadas e enviadas internamente pelo servidor de aplicativos sem a intervenção do usuário.<br>Informações sobre postbacks podem ser encontradas nesta  [página](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback). |
 
-### Como recuperar informações de carga no código do aplicativo móvel {#payload-information}
+### Como recuperar informações de carga no código de aplicativo móvel {#payload-information}
 
 As informações de carga enviadas pelo servidor de aplicativos são recebidas pelo código do aplicativo móvel em um manipulador de eventos que indica que uma notificação por push foi recebida. Esse evento varia com base na plataforma móvel em andamento e também se baseia em se o aplicativo está sendo executado em primeiro ou segundo plano. A documentação a seguir ajudará a identificar o manipulador de eventos que você deseja manipular com base no seu caso de uso.
 
