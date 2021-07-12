@@ -6,19 +6,18 @@ description: Saiba como gerenciar links com o Designer de email.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Design de email
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d1714101-bad0-40c1-8d60-90469d033197
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '594'
 ht-degree: 10%
 
 ---
 
-
-# Adicionar links {#links}
+# Adição de links {#links}
 
 ## Inserção de um link {#inserting-a-link}
 
