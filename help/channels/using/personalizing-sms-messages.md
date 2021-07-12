@@ -8,17 +8,17 @@ content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back;delivery,smsContent,back
 feature: SMS
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 6c01662e-1e19-4cec-aa21-6e84b9b7a677
-source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 100%
 
 ---
 
-# Personalizar mensagens SMS{#personalizing-sms-messages}
+# Personalização de mensagens SMS{#personalizing-sms-messages}
 
 Os princípios para personalizar mensagens SMS são os mesmos válidos para [emails](../../designing/using/personalization.md#inserting-a-personalization-field). No entanto, você deve estar ciente das opções de transliteração, pois elas podem afetar a codificação e, portanto, o número de mensagens SMS que serão enviadas. Para obter mais informações, consulte a seção [Transliteração e comprimento do SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
