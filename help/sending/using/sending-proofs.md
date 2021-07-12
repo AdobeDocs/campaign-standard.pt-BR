@@ -7,17 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-feature: Proofs
-role: Business Practitioner
+feature: Provas
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 75b64c43-f066-45e7-8d61-95eba8f52b05
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '584'
 ht-degree: 99%
 
 ---
-
 
 # Envio de provas {#sending-proofs}
 
@@ -41,7 +40,7 @@ Há dois tipos de recipients de prova:
    >
    >Esse recurso está disponível somente para o canal de email.
 
-## Envio de prova {#sending-a-proof}
+## Envio de uma prova {#sending-a-proof}
 
 Para enviar provas, siga estas etapas:
 
@@ -107,7 +106,7 @@ Para ocultar o número da prova na linha de assunto, ative a opção **[!UICONTR
 **Tópicos relacionados:**
 
 * Vídeo [Envio de teste, preparação e envio de email](../../sending/using/get-started-sending-messages.md#video)
-* [Testar mensagens de email usando perfis direcionados](../../sending/using/testing-messages-using-target.md)
+* [Teste de mensagens de email usando perfis direcionados](../../sending/using/testing-messages-using-target.md)
 * [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md)
 * [Visualização de mensagens](../../sending/using/previewing-messages.md)
 * [Configuração do canal de email](../../administration/using/configuring-email-channel.md)
