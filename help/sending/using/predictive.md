@@ -6,17 +6,16 @@ description: Saiba como usar tempo de envio preditivo e pontuação de engajamen
 audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
-feature: Send Time Optimization
-role: Business Practitioner
+feature: Enviar Otimização de Tempo
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1067'
 ht-degree: 97%
 
 ---
-
 
 # Otimizar o design e o delivery com emails alimentados por IA{#journey-ai}
 
@@ -113,7 +112,7 @@ AddHours([currentDelivery/scheduling/@contactDate],
 
 
 
-## Pontuação preditiva de engajamento {#predictive-scoring}
+## Pontuação de envolvimento preditivo {#predictive-scoring}
 
 A pontuação preditiva de engajamento permite:
 
@@ -153,26 +152,3 @@ Ao usar uma atividade de query em um workflow, a pontuação pode ser usada para
 Por exemplo, com os critérios **Nível de retenção**:
 
 ![](assets/do-not-localize/predictive_score_query.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
