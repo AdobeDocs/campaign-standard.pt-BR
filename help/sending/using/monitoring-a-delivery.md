@@ -7,19 +7,18 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 context-tags: delivery,main
-feature: Performance Monitoring
-role: Business Practitioner
+feature: Monitoramento de desempenho
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ddc92077-df73-411d-a161-3263581e6945
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '463'
 ht-degree: 88%
 
 ---
 
-
-# Monitorar um delivery{#monitoring-a-delivery}
+# Monitoramento de uma entrega{#monitoring-a-delivery}
 
 Há várias maneiras de monitorar um delivery e medir o impacto. Como administrador funcional, você pode acessar logs de mensagens e logs do delivery.
 
@@ -47,7 +46,7 @@ Há várias maneiras de monitorar um delivery e medir o impacto. Como administra
 
 **Tópicos relacionados:**
 
-* [Receber alertas quando ocorrerem falhas](../../sending/using/receiving-alerts-when-failures-happen.md)
+* [Recebimento de alertas quando ocorrerem falhas](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Relatórios](../../reporting/using/about-dynamic-reports.md)
 
 ## Logs do delivery {#delivery-logs}
@@ -78,7 +77,7 @@ A guia **[!UICONTROL Exclusion logs]** lista todas as mensagens que foram exclu�
 
 ![](assets/sending_delivery4.png)
 
-### Causas da exclusão {#exclusion-causes}
+### Causas de exclusão {#exclusion-causes}
 
 A guia **[!UICONTROL Exclusion causes]** exibe o volume (em número) das mensagens que foram excluídas do público-alvo enviado.
 
