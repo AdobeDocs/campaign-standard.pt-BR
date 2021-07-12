@@ -6,17 +6,16 @@ description: Os target mappings são objetos técnicos usados pelo Campaign para
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instance Settings
-role: Administrator
+feature: Configurações de instância
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d5e5cfa8-03f0-47be-9645-b9ee6ac4643c
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '103'
 ht-degree: 16%
 
 ---
-
 
 # Mapeamentos do Target no Campaign{#target-mappings-in-campaign}
 
