@@ -8,18 +8,17 @@ content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard
 feature: SMS
-role: Business Practitioner
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '539'
 ht-degree: 96%
 
 ---
 
-
-# Criar uma mensagem SMS{#creating-an-sms-message}
+# Criação de uma mensagem SMS{#creating-an-sms-message}
 
 A criação de um delivery de SMS é muito semelhante à criação de um email comum. As etapas a seguir descrevem a configuração específica para esse canal. Consulte [Criar um email](../../channels/using/creating-an-email.md) para obter mais informações sobre outras opções.
 
@@ -84,7 +83,7 @@ Quando o envio estiver concluído, você pode iniciar a medição do impacto de 
 * [Sobre SMS e edição de conteúdo de notificações por push](../../channels/using/about-sms-and-push-content-design.md)
 * [Gerenciamento de modelos](../../start/using/marketing-activity-templates.md)
 
-## Vídeo tutorial {#video}
+## Tutorial em vídeo {#video}
 
 Este vídeo mostra como criar um delivery de SMS.
 
