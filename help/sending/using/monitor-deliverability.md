@@ -7,17 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Deliverability
-role: Business Practitioner
+feature: Capacidade de delivery
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 59%
+source-wordcount: '307'
+ht-degree: 58%
 
 ---
-
 
 # Monitoramento da capacidade de entrega{#monitor-deliverability}
 
@@ -49,7 +48,7 @@ Para obter mais informações, consulte [Monitoramento de um delivery](../../sen
 
 ![](assets/sending_delivery1.png)
 
-## Recebendo alertas {#receiving-alerts}
+## Receber alertas {#receiving-alerts}
 
 O recurso **[!UICONTROL Delivery alerting]** é um sistema de gerenciamento de alertas que permite que um grupo de usuários receba automaticamente notificações contendo informações sobre a execução de seus deliveries.
 
