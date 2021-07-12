@@ -1,25 +1,24 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Editar uma mensagem transacional
+title: Edição de uma mensagem transacional
 description: Saiba como acessar, editar e personalizar uma mensagem transacional.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Mensagens transacionais
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '655'
 ht-degree: 30%
 
 ---
 
-
-# Editar uma mensagem transacional {#editing-transactional-message}
+# Edição de uma mensagem transacional {#editing-transactional-message}
 
 Depois de criar e publicar um evento<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->, a mensagem transacional correspondente será criada automaticamente.
 
@@ -33,7 +32,7 @@ As etapas para acessar, editar e personalizar essa mensagem estão descritas aba
 
 Quando a mensagem estiver pronta, ela poderá ser testada e publicada. Consulte [Testando uma mensagem transacional](../../channels/using/testing-transactional-message.md) e [Ciclo de vida da mensagem transacional](../../channels/using/publishing-transactional-message.md).
 
-## Acessar mensagens transacionais {#accessing-transactional-messages}
+## Acesso a mensagens transacionais {#accessing-transactional-messages}
 
 Para acessar a mensagem transacional criada:
 
