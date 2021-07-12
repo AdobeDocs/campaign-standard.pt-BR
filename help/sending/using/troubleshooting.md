@@ -7,17 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Deliverability
-role: Business Practitioner
+feature: Capacidade de delivery
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: 0470b986-c00a-4441-8621-82c7112a9953
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 59%
+source-wordcount: '468'
+ht-degree: 61%
 
 ---
-
 
 # Solução de problemas{#troubleshooting}
 
@@ -38,7 +37,7 @@ Se o problema persistir, entre em contato com os serviços comerciais ou de entr
 
 * **Qual é a diferença entre um endereço de email em lista de bloqueios e um email em quarentena?**
 
-   * O status **[!UICONTROL On denylist]** é resultado de um [ciclo de feedback](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) (quando uma pessoa relata uma mensagem como spam).
+   * O status **[!UICONTROL On denylist]** é resultado de um [ciclo de feedback](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=pt-BR#feedback-loops) (quando uma pessoa relata uma mensagem como spam).
 
    * O status **[!UICONTROL Quarantined]** é resultado de um salto suave ou forte.
    Para obter mais informações, consulte esta [seção](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
