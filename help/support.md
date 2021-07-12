@@ -7,13 +7,12 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 hidefromtoc: true
-feature: Help and support options
-role: Business Practitioner
+feature: Opções de ajuda e suporte
+role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 100%
 
@@ -23,7 +22,7 @@ ht-degree: 100%
 
 Precisa de suporte para o Campaign Standard? Você está no lugar certo.
 
-Obtenha suporte usando nossas perguntas frequentes, melhores práticas, recursos online e portal de suporte. Você também pode associar-se à comunidade do Campaign, perguntar aos especialistas ou registrar um problema.
+Obtenha suporte usando as perguntas frequentes, as práticas recomendadas, os recursos online e o portal de suporte. Você também pode associar-se à comunidade do Campaign, perguntar aos especialistas ou registrar um problema.
 
 <table>
     <tr>
@@ -131,4 +130,4 @@ A criação de um caso permite que você entre em contato com a Equipe de suport
 
 Para registrar um problema ou iniciar uma sessão de chat nesse novo sistema, conecte-se ao [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
-Siga o procedimento detalhado descrito [nesta página](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+Siga o procedimento detalhado descrito [nesta página](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
