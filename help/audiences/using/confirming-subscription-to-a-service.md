@@ -6,19 +6,18 @@ description: Siga estas etapas para configurar uma mensagem de confirmação par
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-feature: Audiences
-role: Business Practitioner
+feature: Públicos
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1322'
 ht-degree: 96%
 
 ---
 
-
-# Confirmação de assinatura de um serviço{#confirming-subscription-to-a-service}
+# Confirmação de subscrição de um serviço{#confirming-subscription-to-a-service}
 
 ## Sobre o envio de confirmação da assinatura {#sending-subscription-confirmation}
 
