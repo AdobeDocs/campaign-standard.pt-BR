@@ -8,17 +8,17 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
 feature: Configurações de instância
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 20%
 
 ---
 
-# Adicionar imagens e vídeos ao iOS {#image-push}
+# Adição de imagens e vídeos ao iOS {#image-push}
 
 >[!NOTE]
 >
