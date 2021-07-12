@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Mensagens transacionais
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 75%
+source-wordcount: '653'
+ht-degree: 76%
 
 ---
-
 
 # Ciclo de vida da mensagem transacional {#publishing-transactional-message}
 
@@ -102,7 +101,7 @@ Para acessar os relatórios referentes à sua mensagem transacional, use o botã
 ![](assets/message-center_13.png)
 
 **Tópicos relacionados**:
-* [Editar uma mensagem transacional](../../channels/using/editing-transactional-message.md)
+* [Edição de uma mensagem transacional](../../channels/using/editing-transactional-message.md)
 * [Teste de mensagem transacional](../../channels/using/testing-transactional-message.md)
 * [Integrar o acionamento do evento](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
