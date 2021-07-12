@@ -8,17 +8,17 @@ content-type: reference
 topic-tags: introduction
 index: y
 feature: Gerenciamento de acesso
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 21%
 
 ---
 
-# Orientações de monitoramento {#monitoring-guidelines}
+# Diretrizes de monitoramento {#monitoring-guidelines}
 
 <table>
 <tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-system">Monitoramento do sistema</a></p></td>
