@@ -6,19 +6,18 @@ description: Saiba como usar emails criados no Editor herdado Email para o Desig
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Design de email
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2b024052-ed42-44f3-9990-be7425cc79d7
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '440'
 ht-degree: 8%
 
 ---
 
-
-# Conversão do conteúdo de email do editor herdado {#converting-an-html-content}
+# Conversão de conteúdo de email do editor herdado {#converting-an-html-content}
 
 Comece a trabalhar com o Email Designer e crie modelos e fragmentos reutilizáveis do HTML de email criado no Editor herdado.
 
