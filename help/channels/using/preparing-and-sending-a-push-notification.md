@@ -8,16 +8,15 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
 feature: Push
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '858'
 ht-degree: 4%
 
 ---
-
 
 # Preparação e envio de uma notificação por push{#preparing-and-sending-a-push-notification}
 
