@@ -6,17 +6,16 @@ description: Conheça o recurso de renderização de email.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: Send Time Optimization
-role: Business Practitioner
+feature: Enviar Otimização de Tempo
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 31f4e557-55b3-4bf5-8d5d-9d412b7670a6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '516'
 ht-degree: 82%
 
 ---
-
 
 # Renderização de email{#email-rendering}
 
@@ -26,7 +25,7 @@ Para permitir isso, o Adobe Campaign captura a renderização e a disponibiliza 
 
 Os clientes de dispositivos móveis, mensagens e webmail disponíveis para a **Renderização de email** no Adobe Campaign estão listados no [site](https://litmus.com/email-testing) do Litmus (clique em **Exibir todos os clientes de email**).
 
-## Gerar renderização de email {#checking-the-email-rendering-report}
+## Geração de renderização de email {#checking-the-email-rendering-report}
 
 Após criar o delivery de email e definir seu conteúdo, assim como o público-alvo, siga as etapas abaixo.
 
@@ -65,7 +64,7 @@ O relatório de renderização de email dedicado é exibido. Consulte [Descriç�
 
 **Tópicos relacionados**:
 
-* [Criação de email](../../channels/using/creating-an-email.md)
+* [Criação de um email](../../channels/using/creating-an-email.md)
 * [Envio de provas](../../sending/using/sending-proofs.md)
 * [Editor de consultas](../../automating/using/editing-queries.md#about-query-editor)
 
