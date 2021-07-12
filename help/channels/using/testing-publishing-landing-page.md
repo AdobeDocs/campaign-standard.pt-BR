@@ -6,19 +6,18 @@ description: Saiba como testar e publicar uma landing page no Adobe Campaign.
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-feature: Landing Pages
-role: Business Practitioner
+feature: Páginas de aterrissagem
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: af849377-686f-45b3-bf6e-5069a8966987
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 99%
+source-wordcount: '385'
+ht-degree: 100%
 
 ---
 
-
-# Teste e publicação de uma landing page{#testing-publishing--landing-page}
+# Teste e publicação de uma página de aterrissagem{#testing-publishing--landing-page}
 
 ## Sobre publicação de uma landing page {#about-landing-page-publication}
 
