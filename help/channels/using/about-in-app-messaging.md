@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
 feature: No aplicativo
-role: Business Practitioner
+role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 99%
