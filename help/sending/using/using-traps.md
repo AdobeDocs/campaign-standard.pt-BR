@@ -1,25 +1,24 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Uso de traps
+title: Utilização de traps
 description: Saiba como usar coberturas em mensagens.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
 feature: Seed Address
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0482a946-35b1-426f-8505-42adcd1c3bbb
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '384'
 ht-degree: 2%
 
 ---
 
-
-# Uso de traps {#using-traps}
+# Utilização de traps {#using-traps}
 
 Ao usar coberturas, a mensagem é enviada para o [perfil de teste](../../audiences/using/managing-test-profiles.md) da mesma forma que é enviada para o público-alvo principal, como um meio de identificar se o arquivo do cliente está sendo usado de forma fraudulenta.
 
