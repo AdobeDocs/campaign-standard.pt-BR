@@ -1,24 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Criar email
+title: Criação de um email
 description: Siga estas etapas para criar um email de envio único no Adobe Campaign.
 audience: channels
 content-type: reference
 topic-tags: email-messages
 feature: Email
-role: Business Practitioner
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4483e469-0a2b-494d-b768-950168759727
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 20%
+source-wordcount: '557'
+ht-degree: 21%
 
 ---
 
-
-# Criar email{#creating-an-email}
+# Criação de um email{#creating-an-email}
 
 Você pode criar um email a partir de uma [campanha](../../start/using/marketing-activities.md#creating-a-marketing-activity), a partir da [página inicial](../../start/using/interface-description.md#home-page) do Adobe Campaign ou na [lista de atividades de marketing](../../start/using/marketing-activities.md#about-marketing-activities). Também é possível criar emails recorrentes e de envio único a partir de um fluxo de trabalho.
 
@@ -97,7 +96,7 @@ Você pode criar um email a partir de uma [campanha](../../start/using/marketing
 * [Integração entre Adobe Campaign e Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 * [Integração com o Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
 
-## Vídeo tutorial {#video}
+## Tutorial em vídeo {#video}
 
 Este vídeo mostra como criar um email.
 
