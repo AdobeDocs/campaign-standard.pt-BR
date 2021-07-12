@@ -7,17 +7,17 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 feature: Capacidade de delivery
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 74%
 
 ---
 
-# Noções básicas sobre falhas de entrega{#understanding-delivery-failures}
+# Compreensão de falhas de entrega{#understanding-delivery-failures}
 
 ## Sobre falhas de delivery {#about-delivery-failures}
 
@@ -35,7 +35,7 @@ As mensagens também podem ser excluídas durante a preparação do delivery se 
 
 **Tópicos relacionados:**
 
-* [Noções básicas sobre gestão de quarentena](../../sending/using/understanding-quarantine-management.md)
+* [Compreensão do gerenciamento de quarentena](../../sending/using/understanding-quarantine-management.md)
 * [Sobre aceitação e recusa no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 * [Rejeições](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
@@ -47,7 +47,7 @@ Quando um delivery é enviado, a guia **[!UICONTROL Sending logs]** (consulte [e
 
 Um relatório pronto para uso dedicado também está disponível. Esse relatório detalha os erros gerais de hardware e software encontrados durante os deliveries, bem como o processamento automático de rejeições. Para obter mais informações, consulte [esta seção](../../reporting/using/bounce-summary.md).
 
-## Tipos e motivos de falha de delivery {#delivery-failure-types-and-reasons}
+## Tipos e motivos de falha de entrega {#delivery-failure-types-and-reasons}
 
 Há três tipos de erros quando um delivery falha:
 
