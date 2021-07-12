@@ -8,16 +8,15 @@ content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back
 feature: SMS
-role: Business Practitioner
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a7f22d92-dbf9-4c2b-8fc1-1e31d1e5e79c
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '270'
 ht-degree: 32%
 
 ---
-
 
 # Sobre mensagens SMS{#about-sms-messages}
 
@@ -42,8 +41,8 @@ Para enviar mensagens SMS para um celular, você precisa:
 
 * [Gerenciamento de modelos](../../start/using/marketing-activity-templates.md)
 * [Configuração de SMS](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
-* [Relatório SMS](../../reporting/using/sms-report.md)
-* [Guia para Aplicativos de dispositivos móveis no Campaign Standard](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+* [Relatório de SMS](../../reporting/using/sms-report.md)
+* [Guia para Aplicativos de dispositivos móveis no Campaign Standard](https://helpx.adobe.com/br/campaign/kb/acs-mobile.html)
 
 ## Modelo de delivery de SMS {#sms-delivery-template}
 
