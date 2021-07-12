@@ -6,17 +6,16 @@ description: Perguntas frequentes sobre o Email Designer.
 audience: designing
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
-feature: Email Design
-role: Business Practitioner
+feature: Design de email
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f3208380-a4cf-4944-aa24-883995d1075d
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '442'
 ht-degree: 7%
 
 ---
-
 
 # Perguntas frequentes sobre o Designer de email
 
