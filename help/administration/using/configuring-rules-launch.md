@@ -8,17 +8,17 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
 feature: Configurações de instância
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: fba2ecddb2ebbf600be28724c8658d6d61eb9ecd
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 5%
 
 ---
 
-# Configuração das regras do Launch para suportar casos de uso do Adobe Campaign Standard {#configuring-rules-launch}
+# Configuração das regras do Launch para oferecer suporte a casos de uso do Adobe Campaign Standard {#configuring-rules-launch}
 
 Em [!DNL Adobe Experience Platform Launch], é necessário criar elementos de dados e regras para enviar PII e outros dados de aplicativos móveis para [!DNL Adobe Campaign Standard].
 
@@ -66,7 +66,7 @@ Para criar esses elementos de dados:
 
 1. No menu suspenso **[!UICONTROL Extension]**, selecione **[!UICONTROL Adobe Campaign Standard]**. Em seguida, **[!UICONTROL Campaign Server]** no menu suspenso **[!UICONTROL Data element]** tipo .
 
-## Criando regras {#creating-rules}
+## Criação de regras {#creating-rules}
 
 Você precisa criar regras para o seguinte:
 
@@ -182,7 +182,7 @@ Para enviar dados de rastreamento para [!DNL Adobe Campaign Standard] para gerar
 
    ![](assets/do-not-localize/rules_3.png)
 
-### Notificações por push rastreando postback {#push-tracking-postback}
+### Postback de rastreamento de notificações por push {#push-tracking-postback}
 
 >[!NOTE]
 >
