@@ -10,10 +10,10 @@ feature: Enviar Otimização de Tempo
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 356bac989a6bd4c9039910e2d9c59f33ce1153f8
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 97%
+source-wordcount: '1048'
+ht-degree: 99%
 
 ---
 
@@ -33,8 +33,7 @@ O Adobe Campaign Standard oferece dois novos modelos de aprendizado de máquina:
 
 >[!IMPORTANT]
 >Esse recurso não está disponível para uso imediato como parte do produto. A implementação exige o engajamento da Adobe Consulting. Entre em contato com seu representante da Adobe para obter mais detalhes.
->
->O recurso requer o uso de um armazenamento do Azure ou Amazon S3 que deve ser fornecido pelo cliente.
+
 
 ## Otimização preditiva do tempo de envio{#predictive-send-time}
 
