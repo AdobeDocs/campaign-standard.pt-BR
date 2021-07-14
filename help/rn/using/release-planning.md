@@ -12,8 +12,8 @@ level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ As atualizações são implantadas em duas fases. Primeiro, as instâncias de Pr
 
 Todas as datas de lançamento estão sujeitas a alterações: recomendamos que você visite esta página regularmente para verificar se há atualizações.
 
-## Versão 21.3 - Versão de junho de 2021 {#release-21-3-release}
+## Versão 21.3 — lançamento de junho de 2021 {#release-21-3-release}
 
 As atualizações de ambientes ocorrem em ondas, durante os intervalos indicados abaixo. As datas exatas são comunicadas por email a cada cliente.
 
@@ -43,11 +43,11 @@ Informações detalhadas sobre esta versão estão disponíveis nas [Notas de ve
  <tbody>
   <tr>
    <td>Preparo<br /> </td>
-   <td>7 a 8 de setembro de 2021<br /> </td>
+   <td>7‒8 de setembro de 2021<br /> </td>
   </tr>
   <tr>
    <td>Produção<br /> </td>
-   <td>14-21 de setembro de 2021<br /> </td>
+   <td>14‒21 de setembro de 2021<br /> </td>
   </tr>
  </tbody>
 </table>
