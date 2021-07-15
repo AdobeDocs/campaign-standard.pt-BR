@@ -10,16 +10,22 @@ feature: Visão geral
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: c56d0e0ab4496ae769dc504107f677ef6ea74068
 workflow-type: tm+mt
-source-wordcount: '6852'
-ht-degree: 100%
+source-wordcount: '6893'
+ht-degree: 99%
 
 ---
 
 # Atualizações da documentação{#documentation-updates}
 
 Além das [Notas de versão](../../rn/using/release-notes.md) do Adobe Campaign, esta página lista todas as atualizações na documentação do Adobe Campaign Standard.
+
+## Julho de 2021 {#doc-updates-july-2021}
+
+Uma nova seção foi adicionada para descrever como permitir que os usuários assinem ou cancelem a assinatura de vários serviços de uma única landing page. [Leia mais](../../channels/using/managing-landing-page-form-data.md#multiple-subscriptions)
+
+A seção **Managing landing page form data** foi atualizada e esclarecida. [Leia mais](../../channels/using/managing-landing-page-form-data.md)
 
 ## Versão 21.2 - Junho de 2021 {#release-21-2---june-2021}
 
