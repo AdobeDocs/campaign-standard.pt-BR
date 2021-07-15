@@ -11,43 +11,70 @@ feature: Páginas de aterrissagem
 role: User
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: c56d0e0ab4496ae769dc504107f677ef6ea74068
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 63%
+source-wordcount: '837'
+ht-degree: 16%
 
 ---
 
 # Gerenciamento de dados de formulário de página de aterrissagem{#managing-landing-page-form-data}
 
-## Alteração das propriedades dos dados de formulário de landing page{#changing-a-landing-page-form-data-properties}
+No conteúdo da landing page, os campos de entrada são usados para armazenar ou atualizar dados do banco de dados do Campaign.
 
-Você pode vincular campos de banco de dados à zona de entrada, ao botão de opção ou aos blocos de tipo de caixa de seleção. Para fazer isso, selecione o bloco e acesse o **[!UICONTROL Form data]** na paleta.
+Para fazer isso, esses campos devem ser mapeados para campos do banco de dados.
 
-![](assets/delivery_content_9.png)
+É possível definir e gerenciar o mapeamento na seção **[!UICONTROL Form data]** da paleta esquerda.
 
-* A zona de entrada **Field** permite selecionar um campo de banco de dados a ser vinculado ao campo de formulário.
-* A opção **Mandatory** permite autorizar o envio da página somente se o usuário tiver preenchido o campo. Se um campo obrigatório não estiver preenchido, uma mensagem de erro será exibida.
+![](assets/lp_form-data.png)
 
 ## Mapeamento de campos de formulário {#mapping-form-fields}
 
-Os campos de entrada são usados para armazenar ou atualizar dados no banco de dados do Campaign. Para isso, você precisa vincular campos de banco de dados à zona de entrada, ao botão de opção ou aos blocos de tipo de caixa de seleção. Para fazer isso:
+Para atualizar o banco de dados do Campaign de acordo com suas necessidades, vincule campos de banco de dados relevantes à zona de entrada, ao botão de opção ou aos blocos de tipo de caixa de seleção da landing page.
 
-1. Selecione um bloco na landing page.
-1. Preencha a parte **[!UICONTROL Form data]** na paleta.
+Para fazer isso, siga as etapas abaixo:
 
-   ![](assets/editing_lp_content_4.png)
+1. Selecione um bloco no conteúdo da página de aterrissagem.
 
-1. Escolha um campo de banco de dados a ser vinculado ao campo de formulário na zona de seleção **[!UICONTROL Field]**. As landing pages só podem ser mapeadas com **Perfis**.
+   >[!NOTE]
+   >
+   >Os campos padrão das landing pages incorporadas são pré-configurados. Você pode modificá-los conforme necessário.
 
-1. Marque a opção **[!UICONTROL Mandatory]**, se necessário. A página só poderá ser enviada se o usuário tiver preenchido esse campo. Se um campo obrigatório não estiver preenchido, uma mensagem de erro será exibida quando o usuário validar a página.
+1. Acesse a seção **[!UICONTROL Form data]** na paleta esquerda.
 
-1. Defina o tipo de campo escolhendo, por exemplo **[!UICONTROL Text]**, **[!UICONTROL Number]** ou **[!UICONTROL Date]** na área de seleção **[!UICONTROL HTML type of the field]**.
-Se você escolher uma **[!UICONTROL Checkbox]** obrigatória, verifique se ela é do tipo **[!UICONTROL Field]**.
+1. Para alterar o tipo de campo, selecione um valor na lista suspensa **[!UICONTROL HTML type of the field]**.
 
->[!NOTE]
->
->Os campos padrão das landing pages incorporadas são pré-configurados. Você pode modificá-los conforme necessário.
+   ![](assets/lp_html-field-type.png)
+
+   >[!NOTE]
+   >
+   >Para obter mais informações sobre como usar o tipo de caixa de seleção em uma landing page, consulte as seções [Atualizar várias assinaturas de serviço](#multiple-subscriptions) e [Caixa de seleção do contrato](#agreement-checkbox) .
+
+1. Se você selecionar um tipo de campo que não seja compatível com o campo de banco de dados atualmente selecionado na zona **[!UICONTROL Field]**, uma mensagem de aviso será exibida. Para obter o mapeamento ideal, selecione um valor apropriado.
+
+   ![](assets/lp_field-type-warning.png)
+
+1. Use a zona **[!UICONTROL Field]** para selecionar um campo de banco de dados que será vinculado ao campo de formulário.
+
+   ![](assets/lp_select-database-field.png)
+
+   >[!NOTE]
+   >
+   >As landing pages só podem ser mapeadas com os recursos **[!UICONTROL Profiles]** ou **[!UICONTROL Service]**.
+
+   Neste exemplo, mapeie o campo **Name** da landing page para o campo **[!UICONTROL Last name]** do recurso **[!UICONTROL Profiles]**.
+
+   ![](assets/lp_database-field-example.png)
+
+1. Marque a opção **[!UICONTROL Mandatory]**, se necessário. Nesse caso, a landing page só poderá ser enviada se o usuário tiver preenchido esse campo.
+
+   ![](assets/lp_mandatory-option.png)
+
+   Se um campo obrigatório não for preenchido, uma mensagem de erro será exibida quando o usuário enviar a página.
+
+1. Clique em **[!UICONTROL Confirm]** para salvar as alterações.
+
+<!--If you choose a mandatory **[!UICONTROL Checkbox]**, make sure that it is of **[!UICONTROL Field]** type.-->
 
 ## Armazenamento e reconciliação de dados{#data-storage-and-reconciliation}
 
@@ -57,11 +84,57 @@ Para fazer isso:
 
 1. Edite as propriedades de landing page acessadas pelo ícone ![](assets/edit_darkgrey-24px.png) no painel da landing page e exiba os parâmetros **[!UICONTROL Job]**.
 
-   ![](assets/lp_parameters_4.png)
+   ![](assets/lp_parameters_job.png)
 
-1. Selecione a **[!UICONTROL Reconciliation key]**: esses campos de banco de dados (por exemplo: email, nome, sobrenome) são usados para determinar se o visitante tem um perfil já conhecido no banco de dados do Adobe Campaign. Isso permite atualizar ou criar um perfil, de acordo com os parâmetros de estratégia de atualização definidos.
+1. Selecione o **[!UICONTROL Reconciliation key]**: esse campo de banco de dados é usado para determinar se o visitante tem um perfil já conhecido no banco de dados do Adobe Campaign. Pode ser, por exemplo, email, nome, sobrenome. A chave de reconciliação permite atualizar ou criar um perfil, de acordo com o parâmetro **[!UICONTROL Update strategy]** definido abaixo.
+
 1. Defina o **[!UICONTROL Form parameter mapping]**: esta seção permite mapear os parâmetros do campo de landing page e os usados na chave de reconciliação.
-1. Selecione a **[!UICONTROL Update strategy]**: se a chave de reconciliação recuperar um perfil de banco de dados, você poderá optar por atualizar esse perfil com os dados inseridos no formulário ou impedir essa atualização.
+
+1. Selecione o **[!UICONTROL Update strategy]**: se a chave de reconciliação recuperar um perfil de banco de dados existente, você poderá optar por atualizar esse perfil com os dados inseridos no formulário ou impedir essa atualização.
+
+   ![](assets/lp_parameters_update-strategy.png)
+
+## Várias assinaturas de serviço {#multiple-subscriptions}
+
+Você pode usar várias caixas de seleção em uma única landing page para permitir que os usuários assinem ou cancelem a assinatura de vários serviços.
+
+Para fazer isso, siga as etapas abaixo:
+
+1. Ao criar a landing page:
+
+   * Selecione um bloco e, na seção **[!UICONTROL Form data]**, escolha **[!UICONTROL Checkbox]** como o tipo de campo.
+
+      ![](assets/lp_field-type-checkbox.png)
+
+   * Se você estiver familiarizado com HTML, também poderá inserir manualmente uma caixa de seleção usando o botão **[!UICONTROL Show source]**.
+
+      ![](assets/lp_show_source.png)
+
+      Isso permite inserir a caixa de seleção onde for conveniente na página.
+
+      ![](assets/lp_manual-checkbox.png)
+
+1. Certifique-se de que a caixa de seleção esteja selecionada no seu conteúdo. A lista suspensa **[!UICONTROL Type]** é exibida na seção **[!UICONTROL Form data]** da paleta esquerda. Selecione **[!UICONTROL Service and subscription]** na lista.
+
+   ![](assets/lp_service-and-subscription.png)
+
+1. Escolha uma opção na lista suspensa **[!UICONTROL Behavior]**.
+
+   ![](assets/lp_checkbox-behavior.png)
+
+1. Selecione um [serviço](../../audiences/using/creating-a-service.md) na lista correspondente.
+
+   ![](assets/lp_checkbox-service.png)
+
+1. Verifique se a opção **[!UICONTROL Mandatory]** está desmarcada. Caso contrário, os usuários não terão escolha.
+
+   ![](assets/lp_uncheck-mandatory.png)
+
+1. Para adicionar mais caixas de seleção que permitem assinar outros serviços, repita as etapas acima quantas vezes forem necessárias.
+
+   ![](assets/lp_multiple-checkboxes.png)
+
+Depois que a landing page é publicada, os usuários podem marcar várias caixas de seleção para assinar vários informativos da mesma página.
 
 ## Caixa de seleção Contrato {#agreement-checkbox}
 
@@ -69,39 +142,31 @@ Você pode adicionar uma caixa de seleção que o perfil deve marcar antes de en
 
 Por exemplo, isso permite solicitar o consentimento dos usuários para a política de privacidade ou fazer com que eles aceitem seus termos e condições, antes de enviarem o formulário.
 
-<!--This is particularly useful in the following case:
-
-When a profile opens the landing page from an Outlook.com mailbox, Outlook checks whether the links on the landing page are suspicious. However, this Outlook security feature (called safelinks) has an unwanted effect: it automatically activates the buttons included on the landing page. Consequently, profiles are automatically subscribed or unsubscribed without confirmation when the landing page is displayed after clicking the email link, even if they do not submit the form.
-
-![](assets/lp_submit_button.png)
-
-To avoid this, Adobe recommends you always add to your landing page a checkbox which enables the profile to agree before proceeding with subscription or unsubscription.-->
-
 >[!IMPORTANT]
 >
 >Marcar essa caixa de seleção é obrigatório para seus usuários. Se não estiver selecionada, ela não poderá enviar a landing page.
 
 Para inserir e configurar essa caixa de seleção, faça o seguinte:
 
-1. Ao criar a landing page, clique em **[!UICONTROL Show source]**.
+1. Ao criar a landing page:
 
-   ![](assets/lp_show_source.png)
+   * Selecione um bloco e, na seção **[!UICONTROL Form data]**, escolha **[!UICONTROL Checkbox]** como o tipo de campo.
 
-1. Insira uma caixa de seleção manualmente, como no exemplo abaixo:
+      ![](assets/lp_field-type-checkbox.png)
 
-   ![](assets/lp_checkbox_code.png)
+   * Se você estiver familiarizado com HTML, também poderá inserir manualmente uma caixa de seleção usando o botão **[!UICONTROL Show source]**.
 
-   <!--
-   <div id="HtmlPage_htmlPage.line3" data-nl-format="datetime"><input type="checkbox" class="nl-dce-todo" data-nl-bindto="agreement" data-nl-agreementmsg="You must agree with the terms and conditions before proceeding" />I agree with the terms and conditions</div>
-   -->
+      ![](assets/lp_show_source.png)
 
-1. Clique em **[!UICONTROL Hide source]**.
+      <!--Manually insert a checkbox, such as in the example below:
 
-1. A nova caixa de seleção é exibida. Selecione-o.
+      <!--Click **[!UICONTROL Hide source]**.-->
+
+1. Certifique-se de que a caixa de seleção esteja selecionada.
 
    ![](assets/lp_select_checkbox.png)
 
-1. A lista suspensa correspondente é exibida na seção **[!UICONTROL Form data]** da paleta. Selecione **[!UICONTROL Agreement]** na lista.
+1. A lista suspensa **[!UICONTROL Type]** é exibida na seção **[!UICONTROL Form data]** da paleta esquerda. Selecione **[!UICONTROL Agreement]** na lista.
 
    ![](assets/lp_form_data_drop-down.png)
 
