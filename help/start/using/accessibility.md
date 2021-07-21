@@ -11,7 +11,7 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
 ht-degree: 100%
 
@@ -77,7 +77,7 @@ Ao criar um email, você pode acessar uma dica de ferramenta que fornecerá desc
 
 ## Suporte para tecnologia assistiva {#screen-magnifiers}
 
-Procuramos maximizar a utilização do aplicativo Adobe Campaign Standard por meio de várias tecnologias de assistência, incluindo, mas não limitado a, teclados modificados, softwares de aumento de tela, leitores de tela, software de reconhecimento de voz e outros dispositivos de assistência.
+Procuramos maximizar a utilização do aplicativo Adobe Campaign Standard por meio de várias tecnologias de assistência, incluindo, mas não limitado a, teclados modificados, software de aumento de tela, leitores de tela, software de reconhecimento de voz e outros dispositivos de assistência.
 
 ## Trabalhe no seu idioma preferido {#languages}
 
