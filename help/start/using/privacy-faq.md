@@ -14,7 +14,7 @@ role: User
 level: Intermediate
 exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
 ht-degree: 100%
 
@@ -111,7 +111,7 @@ Os relatórios do Adobe Campaign são baseados em indicadores computados em dado
 
 Ao receber uma solicitação de exclusão, o controlador de dados precisará garantir que todos os dados necessários sobre o titular dos dados sejam excluídos de todos os sistemas.
 
-## Nova inclusão {#opt-in-again}
+## Aceitar novamente {#opt-in-again}
 
 **Um titular de dados, cujos dados tenham sido apagados do Adobe Campaign, pode ser reinserido?**
 
