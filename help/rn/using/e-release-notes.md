@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1032'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Esta página descreve novos recursos, melhorias e correções incluídos na pró
 > Esse conteúdo está sujeito a alterações sem aviso prévio até a data de atualização dos ambientes de estágio. Saiba mais na [página de planejamento de versão](../../rn/using/release-planning.md).
 
 
-## Versão 21.2 - Junho de 2021 {#release-21-2---june-2021}
+## Versão 21.2 — junho de 2021 {#release-21-2---june-2021}
 
 **Melhorias**
 
