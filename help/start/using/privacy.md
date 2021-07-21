@@ -14,7 +14,7 @@ role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1478'
 ht-degree: 100%
 
@@ -130,7 +130,7 @@ O Adobe Campaign fornece recursos adicionais para ajudar você se tornar um Cont
 
 >[!NOTE]
 >
->Este conjunto de ferramentas ajuda com a conformidade de privacidade para o GDPR, CCPA e PDPA. Para obter mais informações sobre esses diferentes regulamentos, consulte [esta página](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>Este conjunto de ferramentas ajuda com a conformidade de privacidade para o GDPR, CCPA e PDPA. Para obter mais informações sobre esses diferentes regulamentos, consulte [esta página](https://helpx.adobe.com/br/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
@@ -142,7 +142,7 @@ As solicitações de **Acesso** e **Exclusão** são apresentadas [nesta página
 
 ## Recursos de rastreamento {#tracking-capabilities}
 
-Graças às suas funcionalidades de rastreamento, o Adobe Campaign permite rastrear a comportamento dos seus recipients de delivery utilizando cookies de seção e cookies permanentes. Para obter mais informações sobre rastreamento, consulte [esta página](../../sending/using/tracking-messages.md).
+Graças às funcionalidades de rastreamento, o Adobe Campaign permite rastrear o comportamento dos recipients de entrega utilizando cookies de seção e cookies permanentes. Para obter mais informações sobre rastreamento, consulte [esta página](../../sending/using/tracking-messages.md).
 
 >[!NOTE]
 >
