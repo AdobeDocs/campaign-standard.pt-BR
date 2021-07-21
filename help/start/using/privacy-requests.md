@@ -11,7 +11,7 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1624'
 ht-degree: 100%
 
@@ -89,7 +89,7 @@ Você também pode consultar este [tutorial](https://experienceleague.adobe.com/
 
 1. Clique em **[!UICONTROL Create]**. Agora você pode criar uma solicitação de acesso a dados pessoais com base em seu novo namespace. Se você usar vários namespaces, será necessário criar uma solicitação de privacidade por namespace.
 
-### Criação de uma solicitação de acesso a dados pessoais {#create-privacy-request}
+### Criar uma solicitação de privacidade {#create-privacy-request}
 
 >[!IMPORTANT]
 >
@@ -143,7 +143,7 @@ Para funcionar, é necessário selecionar a opção **[!UICONTROL Deleting the t
 
    ![](assets/privacy-cus-resource-option.png)
 
-### Status de solicitação de acesso a dados pessoais {#privacy-request-statuses}
+### Status de solicitação de privacidade {#privacy-request-statuses}
 
 Estes são os diferentes status de solicitações de acesso a dados pessoais:
 
