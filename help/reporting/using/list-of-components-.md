@@ -6,17 +6,16 @@ description: Encontre aqui a lista de todos os componentes disponíveis em     R
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Reporting
+feature: Relatórios
 role: Leader
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
+source-git-commit: 8062995481a889d8865267e6134efa74648753f6
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1272'
 ht-degree: 3%
 
 ---
-
 
 # Lista de componentes {#list-of-components}
 
@@ -384,10 +383,6 @@ As tabelas abaixo fornecem a lista de métricas usadas nos relatórios e suas de
 
 ## Segmentos {#segments}
 
->[!NOTE]
->
->Por padrão, o segmento **[!UICONTROL Exclude proof]** já está selecionado para filtrar os relatórios, mas pode ser alterado se necessário.
-
 A tabela abaixo fornece a lista de segmentos usados nos relatórios e suas definições.
 
 <table> 
@@ -461,11 +456,6 @@ A tabela abaixo fornece a lista de segmentos usados nos relatórios e suas defin
   <tr> 
    <td> Todas as visitas<br /> </td> 
    <td> Cada recipient<br /> </td> 
-  </tr> 
-    <tr> 
-   <td> Excluir prova<br /> </td> 
-   <td> Excluir provas de seus relatórios<br /> </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
-
