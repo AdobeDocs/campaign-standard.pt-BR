@@ -10,9 +10,9 @@ feature: Relatórios
 role: Leader
 level: Intermediate
 exl-id: 3db44dec-c48a-4903-a4c6-6bfea33fc38a
-source-git-commit: cc464da0e455ae9c95fc3fe3f00bb3e1c6ff22ae
+source-git-commit: 8062995481a889d8865267e6134efa74648753f6
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '280'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ Os componentes ajudam você a personalizar seus relatórios com diferentes dimen
 
    * **Dimension**: Obtenha detalhes do log de deliveries, como o navegador ou domínio do recipient, ou o sucesso de um delivery.
    * **Métricas**: Obtenha detalhes sobre o status de uma mensagem. Por exemplo, se uma mensagem foi entregue e o usuário a abriu.
-   * **[!UICONTROL Segments]**: Filtrar dados dependendo da faixa etária do recipient. **[!UICONTROL Segments]** podem ser arrastadas e soltas diretamente em uma tabela de forma livre ou na barra superior do painel. Por padrão, o segmento **[!UICONTROL Exclude proof]** já está selecionado, mas pode ser alterado se necessário.
+   * **[!UICONTROL Segments]**: Filtrar dados dependendo da faixa etária do recipient. **[!UICONTROL Segments]** podem ser arrastadas e soltas diretamente em uma tabela de forma livre ou na barra superior do painel.
 
       Esta categoria só estará disponível depois que o administrador aprovar os termos e condições do Contrato de uso de relatórios dinâmicos que serão exibidos na tela. Se o administrador recusar o contrato, os segmentos não estarão visíveis na guia **[!UICONTROL Components]** e os dados não serão coletados.
 
