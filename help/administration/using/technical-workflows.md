@@ -10,10 +10,10 @@ feature: Configurações de instância
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 8204ed1118b5445420d99dbc0438752a4dc26846
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 92%
+source-wordcount: '719'
+ht-degree: 90%
 
 ---
 
@@ -107,7 +107,12 @@ Os fluxos de trabalho técnicos são usados para lidar com processos técnicos e
    <td> <span class="uicontrol">Recuperar logs de rastreamento</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
    <td> Esse workflow restaura os logs de rastreamento perdidos. Observe que esse workflow técnico é usado em contextos específicos e está restrito somente ao uso interno do Adobe. <br> Por padrão, ele é iniciado a cada 10 minutos.<br /> </td> 
-  </tr> 
+  </tr>
+  <tr> 
+   <td> <span class="uicontrol">Atualizar a execução do delivery</span> <br/> </td> 
+   <td> <span class="uicontrol">updateDeliveryExecInfo</span> <br/> </td> 
+   <td> Esse workflow copia os broadlogs e os logs de rastreamento no banco de dados local. Por padrão, ele é iniciado a cada 10 minutos.<br/> </td> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">Atualizar os indicadores de delivery</span> <br /> </td> 
    <td> <span class="uicontrol">updateDeliveryIndicators</span> <br /> </td> 
