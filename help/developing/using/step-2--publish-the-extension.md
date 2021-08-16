@@ -2,20 +2,20 @@
 solution: Campaign Standard
 product: campaign
 title: '"Etapa 2: publicar a extensão"'
+description: Saiba como publicar a extensão no Campaign Standard. Parte 2 de uma série.
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
-feature: Data Model
+feature: Modelo de dados
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e3bebded-764c-4d2e-9580-c413f1576a2c
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 31%
+source-wordcount: '108'
+ht-degree: 28%
 
 ---
-
 
 # Etapa 2: publicar a extensão{#step-publish-the-extension}
 
@@ -38,4 +38,3 @@ ht-degree: 31%
    ![](assets/extendpandsapi_diff.png)
 
 1. Clique no botão **[!UICONTROL Publish]**.
-
