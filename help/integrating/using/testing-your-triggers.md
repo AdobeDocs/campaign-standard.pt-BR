@@ -1,23 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Testar os acionadores
+title: Testar acionadores
+description: Saiba mais sobre como solucionar problemas para ajudá-lo a resolver os problemas mais comuns que você pode encontrar ao usar Triggers com o Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Triggers
+feature: Acionadores
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '464'
 ht-degree: 2%
 
 ---
 
-
-# Testar os acionadores{#testing-your-triggers}
+# Testar acionadores{#testing-your-triggers}
 
 As seguintes dicas de solução de problemas ajudarão você a resolver os problemas mais comuns que poderá encontrar ao usar Triggers com o Adobe Campaign:
 
@@ -84,4 +84,3 @@ Se a mensagem não for válida, verifique os seguintes itens:
 
 * Para acionar campos de personalização de enriquecimento marcados como inválidos, valide o modelo transacional das coleções eventCusResource associadas.
 * Validar o formato da mensagem
-
