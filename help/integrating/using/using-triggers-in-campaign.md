@@ -1,7 +1,8 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Usar acionadores no Campaign
+title: Utilização de acionadores no Campaign
+description: Crie um evento de acionador no Adobe Campaign com base em um acionador Adobe Experience Cloud existente.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
@@ -9,14 +10,14 @@ feature: Acionadores
 role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 83%
+source-wordcount: '765'
+ht-degree: 81%
 
 ---
 
-# Usar acionadores no Campaign{#using-triggers-in-campaign}
+# Utilização de acionadores no Campaign{#using-triggers-in-campaign}
 
 ## Criação de um acionador mapeado no Campaign {#creating-a-mapped-trigger-in-campaign}
 
