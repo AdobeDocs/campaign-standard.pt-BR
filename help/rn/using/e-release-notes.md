@@ -9,10 +9,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1032'
-ht-degree: 100%
+source-git-commit: fc542488cb52c4ff4e0457025a8312d2f2814cea
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 45%
 
 ---
 
@@ -25,93 +25,84 @@ Esta página descreve novos recursos, melhorias e correções incluídos na pró
 > Esse conteúdo está sujeito a alterações sem aviso prévio até a data de atualização dos ambientes de estágio. Saiba mais na [página de planejamento de versão](../../rn/using/release-planning.md).
 
 
-## Versão 21.2 — junho de 2021 {#release-21-2---june-2021}
+## Versão 21.3 - Setembro de 2021 {#release-21-3---sept-2021}
+
+
+**Novidades**
+
+
+<table> 
+<thead> 
+<tr> 
+<th> <strong>Interface unificada da Experience Cloud</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td>
+<p>A barra de cabeçalho do Adobe Campaign foi alterada para unificar e melhorar sua experiência em todos os produtos e serviços da Experience Cloud. Essas alterações foram projetadas para facilitar sua vida, inclusive:</p>
+<ul>
+<li>É mais fácil alternar entre suas organizações ou mudar de aplicativo.</li>
+<li>Ajuda do usuário aprimorada: com a inclusão da Experience League no produto, os resultados da pesquisa também abrangem resultados de fóruns da comunidade e mais conteúdo de vídeo, facilitando o acesso a mais conteúdo para aproveitar ao máximo o aplicativo. Também adicionamos um mecanismo de feedback diretamente no menu Ajuda, facilitando o relato de problemas ou o compartilhamento de suas ideias.</li>
+<li>Notificações aprimoradas: o menu suspenso Notificações agora tem duas guias, uma para suas próprias notificações de produtos e uma para anúncios de produtos mais globais.</li>
+</ul>
+<!--<p>For more information refer to the <a href="../../start/using/interface-description.md#top-bar">detailed documentation</a>.
+</p>-->
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead> 
+<tr> 
+<th> <strong>Trilha de auditoria</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td>
+<p>O novo recurso Trilha de auditoria captura, em tempo real, uma lista abrangente de ações e eventos que ocorrem no Adobe Campaign. Ele inclui uma maneira de autoatendimento para acessar um histórico de dados que ajudam a responder perguntas como:</p>
+<ul>
+<li>O que aconteceu com esse workflow e quem o atualizou pela última vez?</li>
+<li>Quem fez as últimas mudanças?</li>
+<li>Qual era o estado anterior?</li>
+</ul>
+<p>A Adobe Campaign agora audita ações de criação, edição e exclusão para: fluxos de trabalho, opções, recursos personalizados. As modificações desses itens também são rastreadas.</p>
+<!--<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
+</p>-->
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+
+<table> 
+<thead> 
+<tr> 
+<th> <strong>Modo de diagnóstico do workflow</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td>
+<p>Agora você pode executar workflows do Campaign no modo de diagnóstico. Esse modo registra informações para ajudar a solucionar problemas de execução. Todo o plano de execução é registrado se uma consulta de workflow levar, por padrão, mais de um minuto.</p>
+<!--<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
+</p>-->
+</td> 
+</tr> 
+</tbody> 
+</table>
 
 **Melhorias**
 
-* Ao criar uma página de aterrissagem, agora é possível adicionar uma caixa de seleção obrigatória que os perfis precisam marcar antes de enviar o formulário.
-
-* Para a integração dos acionadores, a mensagem de erro exibida quando não há dados de reconciliação chegando na carga do acionador foi aprimorada: &quot;Dados de alias ausentes na carga&quot;.
-
-* O desempenho para recuperar notificações por push da fila foi aprimorado.
-
-**Outras alterações**
-
-* O mecanismo de assinatura do URL para links de rastreamento foi desabilitado para evitar um problema que fazia com que alguns links de rastreamento válidos e assinados fossem bloqueados incorretamente após serem modificados por ferramentas de segurança de terceiros.
-
-* Em entregas com muitas variantes, os usuários não poderão mais criar cópias de idioma se a variante padrão tiver sido excluída. Uma mensagem agora é exibida durante a criação da cópia de idioma. (CAMP-48235)
-
-* O processo de exclusão de perfil de duas etapas (descontinuado a partir da versão 19.4 do Campaign) agora está desativado por padrão. Anteriormente, era necessário desativá-lo manualmente na interface do Campaign antes de usar o Serviço principal de privacidade. Não fazer isso levava as solicitações de exclusão a permanecerem no estado pendente sem conclusão.
-
-* Uma nova função de agregação &quot;StringAgg&quot; foi introduzida para concatenar os valores de uma coluna do tipo string. (CAMP-47077)
-
-* Nos Relatórios dinâmicos, o segmento **Excluir prova** foi removido. (CAMP-46161)
-
-* Uma nova mensagem de aviso foi adicionada para informar ao usuário quando um certificado iOS é carregado sem o valor platformPrincipal no aplicativo Campaign.
-
-* O tamanho máximo de um email agora é definido como 100 MB por padrão. Esse limite permite evitar qualquer erro que possa aumentar indefinidamente o tamanho de um email, o que pode causar uma falha do sistema. (CAMP-47445)
-
-* A integração do Serviço principal de ativos com o Designer de email agora pode ser usada por usuários padrão.
-
-* Uma nova mensagem foi adicionada para confirmar uma migração bem-sucedida de um aplicativo de push v4 para um aplicativo de push v5.
-
-* Durante a criação de tokens JSONWeb para autenticar na API do Campaign Standard, os perfis de produto agora são **considerados**. Isso significa que as unidades organizacionais e as funções alocadas ao grupo de segurança (que corresponde ao perfil do produto no AdobeIO) serão aplicadas à conta técnica IMS necessária para chamadas de API Rest do Campaign Standard. (CAMP-47479)
-
+* Ao criar um delivery recorrente em um workflow, vinculado a um conteúdo da Adobe Experience Manager, o status de aprovação do conteúdo agora é verificado antes do envio.
+* O limite de conexão de banco de dados agora está alinhado ao pacote do Campaign para evitar erros de conexão.
+* Adição de uma verificação de consistência ao criar índices em recursos personalizados e melhoria das mensagens de erro.
 
 **Correções**
 
-* Correção de um problema que impedia que a opção de expiração da tabela de log do processo em lote (**xtkjoblog**) fosse aplicada. Isso impedia que a tabela fosse removida corretamente.
-
-* Correção de um problema que impedia a alteração da ordem dos filtros em uma atividade de fluxo de trabalho de **Segmentação**. (CAMP-48357)
-
-* Correção de uma regressão de 20.4 que podia resultar em falha de entregas com um erro de valor nulo. (CAMP-48591)
-
-* Correção de um problema que impedia o envio de um relatório por meio do menu **Compartilhar** > **Enviar relatório agora** ou **Enviar relatório na programação**. (CAMP-47798)
-
-* Correção de uma regressão introduzida no Campaign que podia gerar taxas de abertura incorretas para o Gmail devido à filtragem de eventos de rastreamento recebidos das contas do Gmail. (CAMP-46504)
-
-* Correção de vários problemas que causavam discrepância de dados entre relatórios no Adobe Campaign Standard e relatórios no Adobe Analytics. (CAMP-47671, CAMP-47296)
-
-* Correção de um problema que impedia o acesso aos logs do delivery após a falha da preparação. (CAMP-48296)
-
-* Correção de um problema que podia exibir uma mensagem de erro ao ser feita uma tentativa de editar, excluir ou enviar um relatório personalizado. (CAMP-47789, CAMP-47798)
-
-* Correção de um problema que resultava em falha nas chamadas de APIs ao criar um novo recurso personalizado e ativar a opção **Não sincronizar**. (CAMP-48014)
-
-* Correção de um problema em que os recursos personalizados com a opção **Não sincronizar** ativada podiam fazer referência a um esquema que tinha sido reformulado ou excluído. Esse problema causava um erro durante a publicação dos recursos personalizados.
-
-* Correção de um problema de recusa de SMS ao serem usados vários códigos curtos na mesma conta externa.
-
-* Correção de um problema que impedia o acesso a um novo critério de alerta de entrega (&quot;o recurso que você está tentando acessar está inacessível&quot;) após a publicação do banco de dados. (CAMP-48221)
-
-* Correção de um problema em que os logs de rastreamento estavam ausentes em algumas instâncias. Um novo fluxo de trabalho técnico foi adicionado (**trackingLogRecovery**) para restaurar esses logs de rastreamento perdidos e deve ser usado apenas internamente pela Adobe.
-
-* Correção de um problema em que nenhum dado da entrega era exibido em Relatórios dinâmicos. Os relatórios eram definidos como 0. (CAMP-47480)
-
-* Correção de um problema que impedia o Cliente HTTP JavaScript do servidor de se conectar ao URL externo.
-
-* Correção de um problema que redefinia uma atividade **Query incremental** após a alteração do nome interno do fluxo de trabalho. Isso ocorria quando um campo de data era usado como modo incremental. (CAMP-47674)
-
-* Correção de um problema que impedia a pré-visualização da miniatura no resumo da entrega ao ser criado um email multilíngue com a integração do Adobe Experience Manager. Esse problema ocorria ao ser usado o botão **Criação de cópia de idioma** para criar as variantes de email. (CAMP-47810)
-
-* Correção de um problema que impedia os usuários de acessar a entrega principal por meio da entrega secundária de email ou SMS. (CAMP-47986)
-
-* Correção de um problema que podia causar consumo excessivo de CPU e memória ao serem enviadas mensagens transacionais por meio da API REST com um evento personalizado ausente. (CAMP-47147)
-
-* Correção de um erro na API de mensagens transacionais que, ocasionalmente, impedia o envio de mensagens em tempo real.
-
-* Correção de um problema em que os relatórios não eram recebidos após o uso da opção **Enviar relatório na programação**. (CAMP-48583)
-
-* Correção de um problema em que os relatórios recebidos após o uso da opção **Enviar relatório agora** estavam incompletos e com dados faltando. (CAMP-48583)
-
-* Correção de um problema na opção **Enviar relatório na programação** no relatório Dinâmico, em que o fluxo de trabalho interno **Compartilhamento instantâneo de relatório** (reportSendingNow) não gerava relatórios. (CAMP-47786)
-
-* Correção de um problema no Designer de email, em que as dimensões de uma imagem eram reduzidas ao ser carregada uma imagem. (CAMP-47017)
-
-* Correção de um problema que impedia que cada modelo do Experience Manager disponível fosse exibido ao ser criada uma entrega. (CAMP-48132)
-
-* Correção de um erro que impedia que o link Campanha na página Resumo de uma entrega enviada de redirecionar os usuários para a campanha relacionada. (CAMP-48012)
-
-* Correção de um problema no Designer de email em que a integração do Serviço principal de ativos continuava falhando ao ser feita a tentativa de selecionar um ativo. (CAMP-47446)
-
-* Correção de um problema que bloqueava algumas entregas do Journey Orchestration porque o Campaign não aceitava carimbos de data e hora com um valor exato (ou seja, terminando em 00) enviados por eventos do Journey Orchestration.
+* Correção de um erro de tempo limite ao importar conteúdo de email de um URL. (CAMP-49054)
+* Correção de um erro (-69) causado pelo fim da sessão, ao acessar um URL marcado ou atualizar uma página do navegador. (CAMP-49003, CAMP-48930, CAMP-48894)
+* Correção de um problema ao sincronizar regras do servidor de capacidade de entrega herdado para o novo servidor de capacidade de entrega. (CAMP-48923)
+* Correção de um problema ao carregar um modelo de email com tags HTML no Designer de email. (CAMP-48243)
