@@ -1,41 +1,39 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Introdução a fontes e destinos
-description: Saiba mais sobre Fontes e Destinos do Adobe Experience Platform.
+title: Introdução a origens e destinos
+description: Saiba mais sobre origens e destinos da Adobe Experience Platform.
 audience: integrating
 content-type: reference
-feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ebbdea387a547cd95c96681faed0a20b37edaf0f
+exl-id: ba6205fa-dbcf-497a-882f-f15c00f12e68
+source-git-commit: ca8473f50b132b2d5ca58c6403d144fbf62741b0
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 1%
+source-wordcount: '307'
+ht-degree: 64%
 
 ---
 
+# Introdução a origens e destinos {#rtcdp}
 
-# Introdução às Fontes e Destinos {#rtcdp}
+## Sobre origens e destinos
 
-## Sobre fontes e destinos
+Com o Adobe Experience Platform, você pode compartilhar dados entre o Campaign Standard e o Adobe Real-time Customer Data Platform (RTCDP). Isso permite direcionar os públicos da Adobe Experience Platform nos workflows do Campaign e enviar de volta para a Plataforma de dados do cliente em tempo real da Adobe relacionados a esses públicos, como envios, aberturas e cliques.
 
-Com o Adobe Experience Platform, você pode compartilhar dados entre o Campaign Standard e o Adobe Real-time Customer Data Platform (RTCDP). Isso permite direcionar os públicos-alvo da Adobe Experience Platform nos fluxos de trabalho do Campaign e enviar de volta para o Adobe Real-time Customer Data Platform relacionados a esses públicos-alvo, como envios, aberturas e cliques.
-
-* Com **Destinos**, assimile públicos do Adobe Experience Platform ao Campaign Standard. Isso permite ativar seus dados conhecidos e desconhecidos para suas campanhas de marketing.
-* Com **Fontes**, exporte dados Campaign Standard (por exemplo, envia, abre, clica) para o Adobe Experience Platform. Isso permite centralizar os dados coletados de fontes diferentes em um único local e usar os insights obtidos com eles para fazer mais.
+* Com **Destinos**, assimile públicos do Adobe Experience Platform ao Campaign Standard. Isso permite ativar os dados conhecidos e desconhecidos para suas campanhas de marketing.
+* Com **Fontes**, exporte dados Campaign Standard (por exemplo, envia, abre, clica) para o Adobe Experience Platform. Isso permite centralizar os dados coletados de origens diferentes em um único local e usar os insights obtidos com eles para fazer mais.
 
 
 >[!IMPORTANT]
 >
->Lembre-se dos limites de armazenamento SFTP, limites de armazenamento de banco de dados e limites de perfil ativos de acordo com seu contrato da Adobe Campaign ao executar essa integração.
+>Lembre-se dos limites de armazenamento SFTP, armazenamento do banco de dados e perfil ativo conforme o contrato do Adobe Campaign ao fazer essa integração.
 
-Para obter uma visão geral mais detalhada do Adobe Real-time Customer Data Platform, Destinos e Fontes, consulte estas páginas:
+Para obter uma visão geral mais detalhada da Plataforma de dados do cliente em tempo real da Adobe, Origens e Fontes, consulte estas páginas:
 
-* [Plataforma de dados do cliente em tempo real da Adobe](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)
-* [Documentação de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html)
-* [Documentação de fontes](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
+* [Plataforma de dados do cliente em tempo real da Adobe](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=pt-BR)
+* [Documentação de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=pt-BR)
+* [Documentação de origens](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR)
 
 ## Conecte o Campaign Standard ao Adobe Experience Platform
 
@@ -48,4 +46,4 @@ Após configurar os conectores, é possível configurar uma importação de dado
 Para obter mais detalhes sobre como configurar esses processos de importação e exportação, consulte estas seções:
 
 * [Assimilar públicos da Adobe Experience Platform no Campaign](../../integrating/using/ingest-aep-data.md)
-* [Exportar dados do Campaign para o Adobe Experience Platform](../../integrating/using/export-campaign-data.md)
+* [Exportar dados do Campaign para a Adobe Experience Platform](../../integrating/using/export-campaign-data.md)
