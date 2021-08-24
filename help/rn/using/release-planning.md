@@ -10,10 +10,10 @@ feature: Visão geral
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '461'
-ht-degree: 100%
+source-git-commit: 0137067de4528a5138a5fdc233fefe99b006eed3
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 96%
 
 ---
 
@@ -27,11 +27,11 @@ As atualizações são implantadas em duas fases. Primeiro, as instâncias de Pr
 
 Todas as datas de lançamento estão sujeitas a alterações: recomendamos que você visite esta página regularmente para verificar se há atualizações.
 
-## Versão 21.3 — lançamento de junho de 2021 {#release-21-3-release}
+## Versão 21.3 - Versão de setembro de 2021 {#release-21-3-release}
 
 As atualizações de ambientes ocorrem em ondas, durante os intervalos indicados abaixo. As datas exatas são comunicadas por email a cada cliente.
 
-Informações detalhadas sobre esta versão estão disponíveis nas [Notas de versão](../../rn/using/release-notes.md).
+Informações detalhadas sobre esta versão estão disponíveis nas [Notas de versão antecipadas](../../rn/using/e-release-notes.md).
 
 <table>
  <thead>
@@ -54,8 +54,6 @@ Informações detalhadas sobre esta versão estão disponíveis nas [Notas de ve
 
 Caso tenha mais dúvidas, entre em contato com o [Atendimento ao cliente da Adobe](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html).
 
-Assine as [notificações de versão do Campaign Standard](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) para receber detalhes sobre as próximas versões diretamente na sua caixa de entrada.
-
 ## Perguntas e respostas {#questions-and-answers}
 
 **P: Qual é o impacto?**
@@ -64,7 +62,7 @@ R: As alterações estão listadas nas [Notas de versão](../../rn/using/release
 
 **P: Qual é o processo de validação?**
 
-R: À medida que a sua instância de preparo for atualizada, a Adobe recomenda validar se os seus processos e casos de uso estão funcionando corretamente com essa nova versão e comunicar qualquer problema ao [Atendimento ao cliente da Adobe](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html).
+R: À medida que a sua instância de preparo for atualizada, a Adobe recomenda validar se os seus processos e casos de uso estão funcionando corretamente com essa nova versão e comunicar qualquer problema ao [Atendimento ao cliente da Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
 
 **P: Haverá acesso à instância durante o processo de atualização?**
 
@@ -86,4 +84,4 @@ R: Sim, eles funcionarão. Não é possível enviar novos emails durante a atual
 
 R: Ao fazer logon no Campaign, um pop-up de notificação de versão será exibido com a versão mais recente.
 
-Para outras perguntas, entre em contato com o [Atendimento ao cliente da Adobe](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html).
+Para outras perguntas, entre em contato com o [Atendimento ao cliente da Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
