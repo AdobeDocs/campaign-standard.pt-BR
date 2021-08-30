@@ -6,22 +6,18 @@ description: Use quaisquer recursos compartilhados no Adobe Experience Cloud em 
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
-feature: Integração do Serviço principal de pessoas
+feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
-source-git-commit: e86cc930f9b6b3f3990f3b16b3d8fd2d19e126b7
+source-git-commit: 92edfbc2b7bb035d311f107b5b4c39f2521b07f6
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 14%
+source-wordcount: '167'
+ht-degree: 20%
 
 ---
 
 # Trabalhar com o serviço principal do Campaign e do Assets{#working-with-campaign-and-assets-core-service}
-
->[!CAUTION]
->
-> O Experience Cloud Assets foi descontinuado. Para nova implementação, não é mais possível integrar os Ativos do Experience Cloud com o Adobe Campaign Standard.
 
 A integração do Serviço principal de ativos ou dos ativos sob demanda (dependendo da configuração do ambiente do Adobe Experience Cloud) com o Adobe Campaign permite usar todos os ativos compartilhados no Adobe Experience Cloud nos emails e landing pages do Adobe Campaign.
 
@@ -41,5 +37,5 @@ A imagem é então inserida. O delivery agora pode ser personalizado conforme ne
 
 **Tópicos relacionados:**
 
-* [Ativos e compartilhamento](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html)
+* [Ativos e compartilhamento](https://experienceleague.adobe.com/docs/core-services/interface/services/assets/experience-cloud-assets.html?lang=pt-BR)
 * [Editor de conteúdo](../../designing/using/personalization.md#example-email-personalization)
