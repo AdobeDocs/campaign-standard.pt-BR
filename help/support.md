@@ -11,7 +11,7 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: ca8473f50b132b2d5ca58c6403d144fbf62741b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '586'
 ht-degree: 100%
 
@@ -117,7 +117,7 @@ Você pode monitorar os subdomínios e seus certificados. Saiba mais:
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-O novo sistema de emissão de tíquetes passou pelo [Adobe Admin Console](https://adminconsole.adobe.com/overview). O novo sistema exige novas contas individuais para cada usuário, com as permissões corretas. Se você não conseguir fazer logon com sua Adobe ID, solicite acesso por meio da Experience League, e a equipe de Atendimento ao cliente resolverá o problema o mais rápido possível. [Saiba mais](https://helpx.adobe.com/br/enterprise/admin-guide.html/br/enterprise/using/support-for-experience-cloud.ug.html)
+O novo sistema de emissão de tíquetes passou pelo [Adobe Admin Console](https://adminconsole.adobe.com/overview). O novo sistema exige novas contas individuais para cada usuário, com as permissões corretas. Se você não conseguir fazer logon com sua Adobe ID, solicite acesso por meio da Experience League, e a equipe de Atendimento ao cliente resolverá o problema o mais rápido possível. [Saiba mais](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### Pergunte aos especialistas.
 
@@ -129,4 +129,4 @@ A criação de um caso permite que você entre em contato com a Equipe de suport
 
 Para registrar um problema ou iniciar uma sessão de chat nesse novo sistema, conecte-se ao [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
-Siga o procedimento detalhado descrito [nesta página](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+Siga o procedimento detalhado descrito [nesta página](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
