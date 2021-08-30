@@ -6,14 +6,14 @@ description: Esta página lista as próximas versões do Adobe Campaign Standard
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-feature: Visão geral
+feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 89514dad1e318f32dafd3d8add664c37b03c8fb7
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 96%
+source-wordcount: '426'
+ht-degree: 100%
 
 ---
 
