@@ -10,7 +10,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: 084838ff5ff369aaaa7715f5bec87a5133093750
+source-git-commit: c37437678a669f7ce90082ee17a7896cddec9284
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 51%
@@ -41,7 +41,7 @@ A quarentena e a lista de bloqueios não se aplicam ao mesmo objeto:
 
 * **** A quarentena se aplica somente a um  **endereço**  (ou número de telefone, etc.), não ao próprio perfil. Por exemplo, um perfil cujo endereço de email está em quarentena poderia atualizar seu perfil e inserir um novo endereço e pode ser alvo de ações de delivery novamente. Da mesma forma, se dois perfis tiverem o mesmo número de telefone, eles serão afetados se o número estiver em quarentena.
 
-   Os endereços em quarentena ou números de telefone são exibidos nos [logs de exclusão](identifying-quarantined-addresses-for-a-delivery) (para um delivery) ou na [lista de quarentena](#identifying-quarantined-addresses-for-the-entire-platform) (para toda a plataforma).
+   Os endereços em quarentena ou números de telefone são exibidos nos [logs de exclusão](#identifying-quarantined-addresses-for-a-delivery) (para um delivery) ou na [lista de quarentena](#identifying-quarantined-addresses-for-the-entire-platform) (para toda a plataforma).
 
 * Estar no **lista de bloqueios**, por outro lado, resultará no **perfil** não sendo mais direcionado pelo delivery, como após um cancelamento de subscrição (opt-out), para um determinado canal. Por exemplo, se um perfil na  lista de bloqueios para o canal de email tiver dois endereços de email, ambos os endereços serão excluídos do delivery. Para obter mais informações sobre o processo de  de lista de bloqueios, consulte [Sobre participação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
