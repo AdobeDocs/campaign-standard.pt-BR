@@ -6,20 +6,20 @@ description: Saiba mais sobre como gerenciar falhas de delivery com o Campaign.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Capacidade de delivery
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 7efdb8aa4f931268cf9a0899179819cbc1f86757
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 74%
+source-wordcount: '1303'
+ht-degree: 71%
 
 ---
 
 # Compreensão de falhas de entrega{#understanding-delivery-failures}
 
-## Sobre falhas de delivery {#about-delivery-failures}
+## Sobre falhas de entrega {#about-delivery-failures}
 
 Quando um delivery não pode ser enviado a um perfil, o servidor remoto envia automaticamente uma mensagem de erro, que é recebida pela plataforma do Adobe Campaign, que determina se o endereço de email ou o número de telefone deve ir para a quarentena. Consulte [Qualificação de email de devolução](#bounce-mail-qualification).
 
@@ -80,9 +80,9 @@ Os possíveis motivos para uma falha de delivery são:
 * [Devoluções permanentes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
 * [Devoluções temporárias](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
-## Tentativas após uma falha temporária de delivery {#retries-after-a-delivery-temporary-failure}
+## Tentativas após uma falha temporária de entrega {#retries-after-a-delivery-temporary-failure}
 
-Se uma mensagem falhar devido a um erro temporário do tipo **Ignorado**, as tentativas serão executadas durante a duração do delivery. Para obter mais informações sobre os tipos de erros, consulte [Tipos e motivos de falha de delivery](#delivery-failure-types-and-reasons).
+Se uma mensagem falhar devido a um erro temporário, novas tentativas serão executadas durante a duração do delivery. Para obter mais informações sobre os tipos de erros, consulte [Tipos e motivos de falha de delivery](#delivery-failure-types-and-reasons).
 
 O número de tentativas (quantas tentativas devem ser executadas no dia seguinte ao início do envio) e o atraso mínimo entre as tentativas agora são<!--managed by the Adobe Campaign Enhanced MTA,--> com base no desempenho histórico e atual de um IP em um determinado domínio. As configurações de **Tentativas** no Campaign são ignoradas.
 
@@ -118,7 +118,7 @@ Para mensagens de erro de falha síncrona de delivery, o MTA aprimorado do Adobe
 >
 >As qualificações de rejeição na tabela **[!UICONTROL Message qualification]** do Campaign não são mais usadas.
 
-As rejeições assíncronas ainda são qualificadas pelo processo do InMail por meio das regras **[!UICONTROL Inbound email]**. Para acessar essas regras, clique no logotipo **[!UICONTROL Adobe Campaign]**, na parte superior esquerda, selecione **[!UICONTROL Administration > Channels > Email > Email processing rules]** e depois selecione **[!UICONTROL Bounce mails]**. Para obter mais informações sobre essa regra, consulte [esta seção](../../administration/using/configuring-email-channel.md#email-processing-rules).
+As rejeições assíncronas ainda são qualificadas pelo processo do InMail por meio das regras **[!UICONTROL Inbound email]**. Para acessar essas regras, clique no logotipo **Adobe**, na parte superior esquerda, selecione **[!UICONTROL Administration > Channels > Email > Email processing rules]** e selecione **[!UICONTROL Bounce mails]**. Para obter mais informações sobre essa regra, consulte [esta seção](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
 Para obter mais informações sobre devoluções e os diferentes tipos de devoluções, consulte [esta seção](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
 
@@ -130,7 +130,7 @@ Bounces can have the following qualification statuses:
 * **[!UICONTROL Keep]**: the bounce mail was qualified and will be used by the **Update for deliverability** workflow to be compared to existing email processing rules and enrich the list.
 * **[!UICONTROL Ignore]**: the bounce mail was qualified but will not be used by the **Update for deliverability** workflow. So it will not be sent to the client instances.
 
-To list the various bounces and their associated error types et reasons, click the **[!UICONTROL Adobe Campaign]** logo, in the top left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+To list the various bounces and their associated error types et reasons, click the **Adobe** logo, in the top left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 ![](assets/qualification.png)-->
 

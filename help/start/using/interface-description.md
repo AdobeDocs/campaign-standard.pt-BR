@@ -6,14 +6,14 @@ description: '"Saiba como navegar e usar o espaço de trabalho do Adobe Campaign
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Visão geral
+feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 92%
+source-wordcount: '1258'
+ht-degree: 79%
 
 ---
 
@@ -30,7 +30,7 @@ Todas as telas do Adobe Campaign são compostas pelos seguintes elementos:
 
 ![](assets/ux_interface_01.png)
 
-## Página inicial {#home-page}
+## Home page {#home-page}
 
 A página inicial é composta por um conjunto de cartões que fornecem acesso rápido às principais funcionalidades do Adobe Campaign. A lista de capacidades que você pode ver na página inicial do Campaign depende de suas permissões e das opções configuradas para a sua organização.
 
@@ -53,7 +53,7 @@ A barra superior é visível em todas as telas e permite navegar pelas funcional
 
 Os princípios de navegação são:
 
-* O logotipo **[!UICONTROL Adobe Campaign]**, no canto superior esquerdo da página, fornece acesso aos recursos e configurações avançados. Os menus dependem do perfil e das permissões.
+* O logotipo **Adobe** no canto superior esquerdo da página fornece acesso aos recursos e configurações avançados. Os menus dependem do perfil e das permissões.
 
    O menu avançado é apresentado na seção [Menu avançado](#advanced-menu).
 
@@ -66,23 +66,21 @@ Os princípios de navegação são:
 
 ### Ajuda {#help}
 
-A barra superior é visível em todas as telas e perite navegar pelas funcionalidades do Adobe Campaign. Também é possível acessar o perfil da Adobe conectado, as notificações, outros serviços e soluções da Adobe Experience Cloud e a documentação.
+No canto superior direito, o ícone **Ajuda** traz o Adobe Experience League para o produto.
 
-Os princípios de navegação são:
+![](assets/ux_help.png)
 
-* O logotipo **[!UICONTROL Adobe Campaign]**, no canto superior esquerdo da página, fornece acesso aos recursos e configurações avançados. Os menus dependem do perfil e das permissões.
+Use o campo **[!UICONTROL Search]** para encontrar orientação. Os resultados da pesquisa incluem documentação e artigos de ajuda, resultados de fóruns da comunidade e conteúdo em vídeo, facilitando o acesso a mais conteúdo para ajudar a aproveitar ao máximo o aplicativo.
 
-   O menu avançado é apresentado na seção [Menu avançado](#advanced-menu).
+Três guias ajudam a encontrar ajuda e assistência:
 
-* O link **[!UICONTROL Home]** permite exibir a página inicial do Adobe Campaign.
-* Os links **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** e **[!UICONTROL Reports]** possibilitam o acesso às visualizações vinculadas a essas funcionalidades.
-* O botão **[!UICONTROL Help]** dá acesso à documentação do produto e à ajuda contextual, às notas de versão, números de versão, avisos legais, aos links para a comunidade da Adobe Experience Cloud e ao Atendimento ao cliente.
-
-   ![](assets/ux_help.png)
-
-* O ícone **Select solution** possibilita alternar para outra solução da Adobe Experience Cloud e para as configurações do perfil.
-* O ícone **Notifications** exibe os alertas ou as informações mais recentes.
-* O ícone **User** permite exibir informações vinculadas ao seu perfil. Ele dá acesso ao botão **[!UICONTROL Sign out]**.
+1. A guia **[!UICONTROL Help]** contém:
+   * um acesso rápido à documentação do Adobe Campaign Standard com links contextuais.
+   * um link **[!UICONTROL Learning]** que permite acessar a biblioteca de cursos do Adobe Campaign.
+   * um link **[!UICONTROL Community]** para acessar o fórum dedicado às suas perguntas no Campaign.
+   * Um acesso direto a: Central de ajuda, Atendimento ao cliente, status do produto Experience Cloud, conexão de desenvolvedores, Notas de versão, Planejamento de versão e a tela **[!UICONTROL About]**.
+1. A guia **[!UICONTROL Support]** permite abrir um caso de suporte e entrar em contato conosco por telefone ou Twitter.
+1. A guia **[!UICONTROL Feedback]** facilita o relatório de problemas ou o compartilhamento de suas ideias.
 
 ## Menu avançado {#advanced-menu}
 

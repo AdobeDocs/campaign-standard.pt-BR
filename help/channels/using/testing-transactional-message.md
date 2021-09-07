@@ -7,14 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Mensagens transacionais
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 5138826d-ae08-403b-91ef-91027ef6e78e
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 41%
+source-wordcount: '279'
+ht-degree: 37%
 
 ---
 
@@ -44,7 +44,7 @@ Defina um perfil de teste que será vinculado ao evento, que permitirá pré-vis
 
 Você também pode criar um novo perfil de teste ou usar um que já existe no menu **[!UICONTROL Test profiles]**. Para fazer isso:
 
-1. Clique no logotipo **[!UICONTROL Adobe Campaign]**, no canto superior esquerdo, em seguida, selecione **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
+1. Clique no logotipo **Adobe**, no canto superior esquerdo, em seguida, selecione **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
 1. Na seção **[!UICONTROL Event]**, selecione o evento que acabou de criar. Neste exemplo, selecione &quot;Abandono de carrinho (EVTcartAbandonment)&quot;.
 1. Especifique as informações para enviar no formato JSON na caixa de texto **[!UICONTROL Event data]**.
 
@@ -56,7 +56,7 @@ Você também pode criar um novo perfil de teste ou usar um que já existe no me
 **Tópicos relacionados:**
 
 * [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md)
-* [Criação de públicos](../../audiences/using/creating-audiences.md)
+* [Criação de públicos-alvo](../../audiences/using/creating-audiences.md)
 
 ## Envio de uma prova {#sending-proof}
 

@@ -9,14 +9,13 @@ topic-tags: working-with-campaign-and-triggers
 feature: Triggers
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 99%
+source-wordcount: '994'
+ht-degree: 98%
 
 ---
-
 
 # Casos de uso de acionadores de abandonos{#abandonment-triggers-use-cases}
 
@@ -47,7 +46,7 @@ Para mais informações, consulte [Configuração de soluções e serviços](../
 
 Nesse caso de uso, criaremos um acionador simples que será acionado toda vez que um cliente abandonar uma visita no site. Esse exemplo supõe que o DTM já está coletando e enviando dados para o Adobe Analytics e que todos os eventos já foram criados.
 
-### Criar um Acionador da Experience Cloud {#creating-an-experience-cloud-trigger}
+### Criar um acionador da Experience Cloud {#creating-an-experience-cloud-trigger}
 
 1. Selecione **[!UICONTROL Manage Triggers]** no menu do Serviço principal de ativação da Experience Cloud.
 
@@ -67,7 +66,7 @@ Agora que criamos um Acionador da Experience Cloud, vamos usá-lo no Adobe Campa
 
 No Adobe Campaign, é necessário criar um Acionador vinculado ao que você criou na Experience Cloud.
 
-1. Para criar o Acionador no Adobe Campaign, clique no logotipo da **[!UICONTROL Adobe Campaign]**, no canto superior esquerdo, depois selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
+1. Para criar o Acionador no Adobe Campaign, clique no logotipo **Adobe**, no canto superior esquerdo, em seguida, selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
 
    ![](assets/remarketing_1.png)
 
@@ -164,4 +163,3 @@ Na seção **[!UICONTROL Include Meta Data]** você pode passar quaisquer dados 
 1. Momentos depois, o mesmo visitante/recipient recebe uma mensagem de remarketing. A mensagem inclui o destino pesquisado recentemente.
 
    ![](assets/trigger_uc_search_7.png)
-

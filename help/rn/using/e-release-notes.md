@@ -1,28 +1,30 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Versão mais recente
-description: Esta página detalha o conteúdo da versão mais recente do Campaign Standard
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
+title: Notas de versão anteriores
+description: Notas de versão anteriores
 feature: Overview
 role: User
 level: Beginner
-exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 08d2e4552bcb5f5eef9f92e5a0293270b577f873
+hide: true
+hidefromtoc: true
+exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
+source-git-commit: ac129fd21382d1d89263acae2fdbe280709f5946
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 38%
+ht-degree: 43%
 
 ---
 
+# Notas de versão anteriores {#new-release}
 
-# Versão mais recente{#latest-release}
+Esta página descreve novos recursos, melhorias e correções incluídos na próxima versão do Campaign Standard.
+
+>[!CAUTION]
+>
+> Esse conteúdo está sujeito a alterações sem aviso prévio até a data de atualização dos ambientes de estágio. Saiba mais na [página de planejamento de versão](../../rn/using/release-planning.md).
 
 ## Versão 21.3 - Setembro de 2021 {#release-21-3---sept-2021}
-
-Novos recursos, melhorias e correções incluídos na versão mais recente do Campaign Standard estão listados abaixo.
 
 **Novidades**
 
@@ -98,7 +100,7 @@ Novos recursos, melhorias e correções incluídos na versão mais recente do Ca
 
 * Ao ser criada uma entrega recorrente em um fluxo de trabalho, vinculado a um conteúdo do Adobe Experience Manager, o status de aprovação do conteúdo agora é verificado antes do envio.
 * O limite de conexão de banco de dados agora está alinhado ao pacote do Campaign para evitar erros de conexão.
-* Uma nova verificação de consistência na publicação de recursos personalizados impede que os usuários criem índices duplicados, o que faz com que a publicação falhe. Uma mensagem de erro aprimorada solicita que o usuário renomeie o índice, se necessário.
+* Adição de uma verificação de consistência ao criar índices em recursos personalizados e melhoria das mensagens de erro.
 
 **Outras alterações**
 

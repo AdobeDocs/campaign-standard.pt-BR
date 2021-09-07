@@ -7,13 +7,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
-feature: Configurações de instância
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2597'
 ht-degree: 77%
 
 ---
@@ -332,7 +332,7 @@ As regras **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** e **[!UI
 
 ### Qualificação de email de rejeição {#legacy-bounce-mail-qualification}
 
-Para listar as várias rejeições e seus tipos de erro associados e motivos, clique no logotipo **[!UICONTROL Adobe Campaign]**, na parte superior esquerda, e selecione **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+Para listar as várias rejeições e seus tipos de erro associados e motivos, clique no logotipo **Adobe**, na parte superior esquerda, e selecione **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 As rejeições podem ter os seguintes status de qualificação:
 

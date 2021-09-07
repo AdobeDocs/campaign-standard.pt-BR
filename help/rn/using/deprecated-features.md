@@ -10,10 +10,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 92edfbc2b7bb035d311f107b5b4c39f2521b07f6
+source-git-commit: bb964907851b11f8cc247425024f6e7c828aed5d
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 80%
+source-wordcount: '871'
+ht-degree: 66%
 
 ---
 
@@ -43,20 +43,35 @@ Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Notificações por push com o SDK v4</strong><br /> </th> 
+   <th> <strong>Integração com o serviço Destinos do público-alvo</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> A partir da versão 20.1 do Campaign, o SDK v4 ficará obsoleto. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Saiba mais</a>.</p><br/>
-   <p>O <a href="https://aep-sdks.gitbook.io/docs/">SDK móvel da Adobe Experience Platform</a> (anteriormente conhecido como v5) oferecerá suporte exclusivo aos recursos e funcionalidades futuras da Adobe Experience Cloud.</p>
-   <p>Saiba como migrar do SDK v4 para o SDK do Adobe Experience Platform Mobile <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">nesta página</a>.</p></br>
-     <p>
-     <em>Data de remoção do Target: 31 de agosto de 2021</em></p>
+   <td> <p> A partir da versão do Campaign Standard 21.3, a integração com o serviço de Destinos do público-alvo será descontinuada. </p>
+   <p>Para uma nova implementação, não é mais possível integrar o serviço Destinos do público-alvo ao Adobe Campaign Standard. No entanto, é possível integrar o Campaign e o Adobe Experience Platform por meio de Fontes e Destinos. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Saiba mais</a>.</p>
+     <em>Data de remoção do Target: 2022</em></p>
      </td> 
   </tr> 
  </tbody> 
 </table>
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Integração com o Adobe Experience Platform Data Connector</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> A partir da versão Campaign Standard 21.3, a integração com o Adobe Experience Platform Data Connector será substituída. </p>
+   <p>Para nova implementação, não é mais possível integrar o Adobe Experience Platform Data Connector ao Adobe Campaign Standard. No entanto, é possível integrar o Campaign e o Adobe Experience Platform por meio de Fontes e Destinos. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Saiba mais</a>.</p>
+     <em>Data de remoção do Target: 2022</em></p>
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 
 <table> 
  <thead> 
@@ -69,7 +84,7 @@ Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em 
    <td> <p>A partir da versão 19.0 do Campaign, o editor de email legado se tornará obsoleto. Use <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign Email Designer</a> para criar e personalizar seu conteúdo de email. </p></br>
    <p>Leia <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">esta seção</a> para saber como adaptar seus modelos de email ao novo editor.</p></br>
   <p> 
-  <em>Data de remoção do Target: fim de 2021</em></p>
+  <em>Data de remoção do Target: 2022</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -93,6 +108,24 @@ Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em 
 
 Esta seção lista os recursos e funcionalidades removidos do Campaign Standard.
 
+
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Notificações por push com o SDK v4</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> A partir da versão 20.1 do Campaign, o SDK v4 ficará obsoleto. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Saiba mais</a>.</p><br/>
+   <p>O <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (anteriormente conhecido como v5) agora oferece suporte exclusivo aos recursos e funcionalidades futuros do Adobe Experience Cloud.</p>
+   <p>Após 31 de agosto de 2021, os clientes podem continuar baixando e usando os SDKs versão 4, mas não haverá suporte do Atendimento ao cliente nem acesso aos fóruns.</p>
+   <p>Saiba como migrar do SDK v4 para o SDK do Adobe Experience Platform Mobile <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">nesta página</a>.</p></br>
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 <table> 
  <thead> 

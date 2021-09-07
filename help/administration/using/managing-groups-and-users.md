@@ -7,14 +7,14 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: user,overview;user,main;security,overview;security,main
-feature: Gerenciamento de acesso
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 88%
+source-wordcount: '941'
+ht-degree: 87%
 
 ---
 
@@ -126,7 +126,7 @@ Os grupos de segurança recém-criados agora estão criados no Admin Console. Pa
 
 O usuário Administrador precisa criar o conjunto de grupos de segurança que são usados para atribuir as unidades organizacionais Geometrixx e Geometrixx Clothes. Para saber como criar unidades organizacionais, consulte [Criação e gerenciamento de unidades](../../administration/using/organizational-units.md#creating-and-managing-units).
 
-1. Clique no logotipo do **[!UICONTROL Adobe Campaign]**, no canto superior esquerdo e selecione **[!UICONTROL Administration > Users & Security > Security groups]**.
+1. Clique no logotipo **Adobe**, no canto superior esquerdo, em seguida, selecione **[!UICONTROL Administration > Users & Security > Security groups]**.
 1. Crie o novo grupo de segurança e especifique o **[!UICONTROL Label]** e a **[!UICONTROL ID]**.
 
    A ID precisa ser a mesma escolhida no Admin Console.

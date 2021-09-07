@@ -6,13 +6,13 @@ description: Saiba como personalizar um email no Designer de email.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Design de email
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 671fd9e7ff0551ae9ae5fec26cee0b4c4939ab2f
 workflow-type: tm+mt
-source-wordcount: '2575'
+source-wordcount: '2583'
 ht-degree: 5%
 
 ---
@@ -53,7 +53,9 @@ O Adobe Campaign permite personalizar um ou vários URLs na mensagem, adicionand
 
 >[!NOTE]
 >
->A personalização de URLs não pode ser aplicada ao nome de domínio, nem à extensão de URL. Uma mensagem de erro será exibida durante a análise da mensagem se a personalização estiver incorreta. Ao selecionar um bloco de conteúdo, você não tem permissão para selecionar elementos como **Link to mirror page**. Esse tipo de bloco é proibido dentro de um link.
+>Quando o mecanismo de assinatura do URL para links de rastreamento está desativado, a personalização de URLs não pode ser aplicada ao nome do domínio nem à extensão do URL. Uma mensagem de erro será exibida durante a análise da mensagem se a personalização estiver incorreta.
+>
+>Ao selecionar um bloco de conteúdo, você não tem permissão para selecionar elementos como **Link to mirror page**. Esse tipo de bloco é proibido dentro de um link.
 
 ## Inserção de um campo de personalização{#inserting-a-personalization-field}
 
@@ -427,5 +429,5 @@ A imagem mudou graças ao conteúdo dinâmico, e o slogan que aparece é o sloga
 
 **Tópicos relacionados:**
 
-* [Criação de públicos](../../audiences/using/creating-audiences.md)
+* [Criação de públicos-alvo](../../audiences/using/creating-audiences.md)
 * [Preparação do envio](../../sending/using/preparing-the-send.md)

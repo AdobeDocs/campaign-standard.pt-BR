@@ -6,20 +6,20 @@ description: Saiba como configurar o recurso de dados Pontos de interesse no Ado
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-feature: Públicos
+feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1330'
 ht-degree: 3%
 
 ---
 
 # Configuração da integração de dados do Campaign com os Pontos de interesse{#configuring-campaign-points-of-interest-data-integration}
 
-## Configuração da integração de dados do Campaign com os Pontos de interesse com os SDKs do Adobe Experience Platform {#configuring-campaign-poi-aep-sdk}
+## Configuração da integração de dados do Campaign com os Pontos de interesse com os SDKs da Adobe Experience Platform {#configuring-campaign-poi-aep-sdk}
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Para usar o recurso de dados do Ponto de interesse com aplicativos móveis confi
 
 Para coletar dados de pontos de interesse com o Adobe Campaign, você deve configurar o aplicativo móvel do qual a Adobe Campaign receberá dados.
 
-1. Clique no logotipo **[!UICONTROL Adobe Campaign]**, no canto superior esquerdo, em seguida selecione **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**.
+1. Clique no logotipo **Adobe**, no canto superior esquerdo, em seguida, selecione **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**.
 1. Clique em **[!UICONTROL Create]** para configurar um aplicativo.
 1. Insira um nome no campo **[!UICONTROL Application name]** e clique em **[!UICONTROL Create]**.
 
@@ -91,7 +91,7 @@ Você deve ter acesso ao Adobe Analytics para fazer a seguinte configuração. S
 
 1. Faça logon em [mobilemarketing.adobe.com](https://mobilemarketing.adobe.com/).
 1. Crie o aplicativo ou selecione um existente.
-1. Vá para a página **[!UICONTROL Manage App Settings]** .
+1. Acesse a página **[!UICONTROL Manage App Settings]**.
 1. Na seção **Visitor ID Service**, marque **Enable** e selecione sua organização na lista suspensa. Clique em **Save**.
 
    >[!CAUTION]
@@ -185,7 +185,7 @@ Para definir os Pontos de interesse usados para coletar dados de localização:
 
    Para obter mais informações sobre como gerenciar Pontos de interesse, consulte a [documentação do Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html).
 
-### Coletando dados de Pontos de Interesse dos assinantes {#collecting-subscribers--points-of-interest-data}
+### Coleta de dados dos pontos de interesse dos assinantes {#collecting-subscribers--points-of-interest-data}
 
 Um recurso personalizado específico permite definir os dados que você deseja coletar dos assinantes de aplicativos.
 
@@ -196,7 +196,7 @@ Essa etapa é descrita na página [Configuração de um aplicativo móvel usando
 
 Para acessar os aplicativos criados com êxito no Adobe Campaign:
 
-1. Clique no logotipo **[!UICONTROL Adobe Campaign]** no canto superior esquerdo.
+1. Clique no logotipo **Adobe**, no canto superior esquerdo.
 1. Selecione **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (SDK v4)]** ou **[!UICONTROL Mobile app (AEP SDK)]** dependendo do SDK.
 1. Selecione um aplicativo móvel na lista para exibir suas propriedades.
 

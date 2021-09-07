@@ -6,13 +6,13 @@ description: A recusa resulta em um perfil que não é mais direcionado por qual
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-feature: Públicos
+feature: Audiences
 role: User
 level: Beginner
 exl-id: ccb35aeb-2b32-4444-969b-50021111a0d6
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 6b293db5bc8f299a3237aa83c003339f0e697c6f
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '222'
 ht-degree: 9%
 
 ---
@@ -29,6 +29,6 @@ Os perfis de cancelamento são excluídos automaticamente durante a análise de 
 
 >[!NOTE]
 >
->A recusa se aplica a **Profiles**, em vez de quarentena que está vinculada a um **endereço de email** ou **número de telefone**. A recusa de um perfil excluirá dos deliveries todos os endereços vinculados a ele. Se um usuário tiver dois perfis no banco de dados, ele ainda será direcionado por deliveries, pois apenas um desses perfis é de opt out. Para garantir que todos os endereços sejam excluídos, adicione-os aos endereços em quarentena. Para obter mais informações, consulte [esta página](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
+>A recusa se aplica a **Profiles**, em vez de quarentena que está vinculada a um **endereço de email** ou **número de telefone**. A recusa de um perfil excluirá dos deliveries todos os endereços vinculados a ele. No entanto, se um usuário tiver dois perfis no banco de dados, ele ainda será direcionado por deliveries, pois apenas um desses perfis foi rejeitado. Para garantir que todos os endereços sejam excluídos, adicione-os aos endereços em quarentena. Para obter mais informações, consulte [esta página](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
 
 Para obter mais informações sobre assinaturas de serviços, consulte [esta página](../../audiences/using/about-subscriptions.md).
