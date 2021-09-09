@@ -10,10 +10,10 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
+source-git-commit: cedb8a0837d9c0339149efd2a99c777a12ef260d
 workflow-type: tm+mt
-source-wordcount: '1941'
-ht-degree: 98%
+source-wordcount: '1970'
+ht-degree: 96%
 
 ---
 
@@ -222,7 +222,7 @@ As funções de data são usadas para manipular valores de data ou hora.
   </tr> 
   <tr> 
    <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
-   <td> Converte uma string em uma data + fuso horário.<br /> Exemplo: ToDateTimeWithTimezone ("2019-02-19 08:09:00", "Asia/Tehran")<br /> </td> 
+   <td> Converte uma string em uma data + fuso horário.<br /> Exemplo: ToDateTimeWithTimezone ("2019-02-19 08:09:00", "Ásia/Teerão")<br /> </td> 
    <td> ToDateTimeWithTimezone(&lt;cadeia de caracteres&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -707,11 +707,12 @@ As funções de agregação são usadas para realizar cálculos em um conjunto d
    <td> Retorna o valor mínimo de uma coluna numérica, de string ou de data.<br /> </td> 
    <td> Min(&lt;valor&gt;)<br /> </td> 
   </tr>
-
-
-
-
-<tr> 
+  <tr>
+   <td> <strong>StringAgg</strong>, agregação de string<br /> </td>
+   <td> Retorna a concatenação dos valores de uma coluna do tipo string, separada pelo caractere no segundo argumento (o separador padrão é vírgula).<br /> </td>
+   <td> StringAgg(&lt;valores de string&gt;,&lt;separador&gt;)
+  </tr>
+  <tr> 
    <td> <strong>Sum</strong>, Soma<br /> </td> 
    <td> Retorna a soma dos valores em uma coluna numérica.<br /> </td> 
    <td> Sum(&lt;valor&gt;)<br /> </td> 

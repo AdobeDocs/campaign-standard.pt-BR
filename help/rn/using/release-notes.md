@@ -10,9 +10,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 08d2e4552bcb5f5eef9f92e5a0293270b577f873
+source-git-commit: cedb8a0837d9c0339149efd2a99c777a12ef260d
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1074'
 ht-degree: 38%
 
 ---
@@ -104,7 +104,7 @@ Novos recursos, melhorias e correções incluídos na versão mais recente do Ca
 
 * O serviço Adobe Experience Platform Data Connector e Audience Destinations agora está obsoleto no Campaign Standard. Se estiver usando esses recursos, será necessário migrar para Fontes e Destinos do Adobe e adaptar sua implementação. [Saiba mais](../../integrating/using/get-started-sources-destinations.md)
 * Os recursos obsoletos e removidos são listados em [this page](deprecated-features.md).
-* Uma nova função de agregação &quot;StringAgg&quot; foi introduzida para concatenar os valores de uma coluna do tipo string. (CAMP-47077)
+* Uma nova função de agregação &quot;StringAgg&quot; foi introduzida para concatenar os valores de uma coluna do tipo string. (CAMP-47077) [Saiba mais](../../automating/using/list-of-functions.md#aggregates)
 * O workflow técnico **Update delivery indicators** (updateDeliveryIndicators) foi aprimorado para melhorar o desempenho.
 * Os modelos de mensagens no aplicativo agora estão disponíveis para todos os idiomas suportados no Campaign Standard.
 * O tempo de preparação de delivery foi otimizado para mensagens transacionais, reduzindo o número de chamadas para o servidor de rastreamento durante a análise de delivery.
