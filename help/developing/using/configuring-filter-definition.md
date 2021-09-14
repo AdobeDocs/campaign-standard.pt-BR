@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configuração da definição de filtro
 description: Descubra o recurso de filtro para gerenciar grandes conjuntos de dados.
 audience: developing
@@ -10,14 +8,13 @@ context-tags: cusResource,main
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 342911c5-0746-4205-b380-be195b9cb82a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 94%
+source-wordcount: '541'
+ht-degree: 95%
 
 ---
-
 
 # Configuração da definição de filtro{#configuring-filter-definition}
 

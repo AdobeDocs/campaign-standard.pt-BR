@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Criar deliveries na data de criação do perfil
 description: Este caso de uso mostra como criar deliveries na data de criação do perfil.
 audience: automating
@@ -10,16 +8,15 @@ context-tags: workflow,use-case,query
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f611e023-f74c-476e-83b9-aff451f68c81
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '354'
 ht-degree: 38%
 
 ---
 
-
-# Criar deliveries na data de criação de perfis {#creation-date-query}
+# Criar entregas na data de criação de perfis {#creation-date-query}
 
 Você pode enviar uma oferta por email no aniversário da criação do perfil do cliente.
 

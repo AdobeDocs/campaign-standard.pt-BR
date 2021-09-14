@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Lista de funções
 description: A ferramenta de edição de query permite usar funções avançadas para fazer filtragens complexas.
 audience: automating
@@ -10,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: cedb8a0837d9c0339149efd2a99c777a12ef260d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1970'
 ht-degree: 96%

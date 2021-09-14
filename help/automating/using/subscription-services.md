@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Serviços de assinatura
 description: A atividade de Serviços de assinatura permite assinar ou cancelar a assinatura de um serviço para perfis em massa.
 audience: automating
@@ -10,16 +8,15 @@ context-tags: setOfService,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 612b6203-1cc9-4015-a026-e5a249f3d03d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 97%
+source-wordcount: '1110'
+ht-degree: 98%
 
 ---
 
-
-# Serviços de assinatura {#subscription-services}
+# Serviços de subscrição {#subscription-services}
 
 ## Descrição {#description}
 
@@ -161,4 +158,3 @@ O fluxo de trabalho é apresentado da seguinte forma:
    O **[!UICONTROL Operation type]** é identificado como proveniente do campo de **operação** do arquivo. Somente os campos Booliano ou Integer podem ser selecionados aqui. Se a coluna do arquivo que contém a operação a ser executada não aparecer na lista, verifique se você definiu corretamente o formato da coluna na atividade **[!UICONTROL Load file]**, conforme explicado anteriormente nesse exemplo.
 
    ![](assets/subscription_activity_example_from_file.png)
-

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Introdução ao modelo de dados do Campaign Standard
 description: Enriqueça o modelo de dados do Campaign Standard com campos e recursos personalizados e estenda as APIs REST para expor campos estendidos.
 audience: automating
@@ -10,11 +8,10 @@ feature: Data Model
 role: Developer
 level: Intermediate
 exl-id: a8d15053-c20f-4334-a732-3b36cb00794d
-translation-type: tm+mt
-source-git-commit: c5a9c27a2ce459dfd0f04159095bfc8a2cf4c0f6
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 28%
+source-wordcount: '338'
+ht-degree: 31%
 
 ---
 
@@ -53,7 +50,7 @@ Além disso, você pode **estender as APIs REST do Campaign Standard** para expo
 
 Leia mais:
 
-* [Adicionar ou estender um recurso](../../developing/using/key-steps-to-add-a-resource.md)
+* [Adição ou extensão de um recurso](../../developing/using/key-steps-to-add-a-resource.md)
 * [Extensão da API](../../developing/using/about-extending-the-api.md)
 * [Caso de uso: Extensão do recurso de perfil com um novo campo](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
 * [Caso de uso: Extensão das assinaturas para um recurso de aplicativo](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
@@ -67,4 +64,4 @@ Com as APIs do Campaign Standard, crie integrações para o Adobe Campaign Stand
 ## Recursos adicionais
 
 * [Exportação/importação de recursos personalizados](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
-* [Exportar dados do Campaign para o Adobe Experience Platform](../../integrating/using/export-campaign-data.md)
+* [Exportar dados do Campaign para a Adobe Experience Platform](../../integrating/using/export-campaign-data.md)

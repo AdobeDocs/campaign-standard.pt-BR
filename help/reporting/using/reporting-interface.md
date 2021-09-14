@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Interface de relatórios
 description: Saiba mais sobre a base da interface do relatório dinâmico e como navegar pelas diferentes guias e menus.
 audience: reporting
@@ -9,14 +7,13 @@ topic-tags: about-reporting
 feature: Reporting
 role: Leader
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 37e9acff-9576-472f-9fdf-2c0f6da773d1
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '731'
 ht-degree: 3%
 
 ---
-
 
 # Interface de relatórios{#reporting-interface}
 
@@ -47,7 +44,7 @@ A tabela **Insert** permite personalizar os relatórios ao adicionar gráficos e
 
 * [Adicionar painéis](../../reporting/using/adding-panels.md)
 * [Adicionar visualizações](../../reporting/using/adding-visualizations.md)
-* [Adicionar componentes](../../reporting/using/adding-components.md)
+* [Adição de componentes](../../reporting/using/adding-components.md)
 * [Compartilhamento de relatórios automaticamente com as partes interessadas por email](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
 
 ## Guias {#tabs}
@@ -72,7 +69,7 @@ A barra de ferramentas pode ser encontrada acima do seu espaço de trabalho. Com
 
 * [Adicionar painéis](../../reporting/using/adding-panels.md)
 * [Adicionar visualizações](../../reporting/using/adding-visualizations.md)
-* [Adicionar componentes](../../reporting/using/adding-components.md)
+* [Adição de componentes](../../reporting/using/adding-components.md)
 
 ### Guia Projeto {#project-tab}
 
@@ -86,7 +83,7 @@ Use a guia **Projeto** para:
 * **Baixar CSV**: Exporta seus relatórios para um arquivo CSV.
 * **[!UICONTROL Print]**: Imprima seu relatório.
 
-### Editar guia {#edit-tab}
+### Guia Editar {#edit-tab}
 
 ![](assets/tab_edit.png)
 

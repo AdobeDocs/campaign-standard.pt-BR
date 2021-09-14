@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Delivery entre canais
 description: Este caso de uso mostra como criar um delivery entre canais
 audience: automating
@@ -10,16 +8,15 @@ context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9cee2005-a99b-47cb-b573-a25812614409
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '856'
 ht-degree: 86%
 
 ---
 
-
-# Criar um delivery em vários canais{#cross-channel-delivery}
+# Criar uma entrega em vários canais{#cross-channel-delivery}
 
 Este documento permite descobrir a seguinte funcionalidade do Adobe Campaign por meio de um caso de uso padrão: criação de um fluxo de trabalho de delivery entre canais.
 
@@ -32,7 +29,7 @@ Para obter mais detalhes sobre os fluxos de trabalho e os diferentes canais disp
 * [Introdução aos workflows](../../automating/using/get-started-workflows.md)
 * [Introdução aos canais de comunicação](../../channels/using/get-started-communication-channels.md)
 
-## Criação de um workflow {#creating-workflow}
+## Criar um fluxo de trabalho {#creating-workflow}
 
 Para enviar dois delivery diferentes para um determinado grupo, primeiro defina o público-alvo.
 
@@ -64,7 +61,7 @@ Insira uma atividade Query em seu fluxo de trabalho para segmentar os perfis que
 
 Use o botão **[!UICONTROL Count]** para ver uma estimativa do número de perfis segmentados pelo query.
 
-## Criação de uma atividade de segmentação {#creating-segmentation-activity}
+## Criação de uma atividade de Segmentação {#creating-segmentation-activity}
 
 Depois que o público-alvo for identificado pela atividade Query, é necessário selecionar um critério para segmentar o público-alvo em duas populações diferentes: uma receberá um email e a outra receberá um SMS.
 
@@ -113,7 +110,7 @@ A segunda transição agora também está configurada.
 
 ![](assets/wkf_segment_transitions.png)
 
-## Criar deliveries {#creating-deliveries}
+## Criação de entregas {#creating-deliveries}
 
 Como duas transições já foram criadas, agora você deve adicionar dois tipos de delivery às transições de saída da atividade de Segmentação: uma atividade [Email delivery](../../automating/using/email-delivery.md) e uma atividade [SMS delivery](../../automating/using/sms-delivery.md) .
 

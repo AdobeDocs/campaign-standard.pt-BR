@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Enriquecimento
 description: A atividade de Enriquecimento é uma atividade avançada com a qual é possível definir dados adicionais que serão processados no fluxo de trabalho.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: enrichment,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c8af67b0-6789-4b4e-9d01-e2dfa14f1e8f
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 95%
+source-wordcount: '541'
+ht-degree: 96%
 
 ---
-
 
 # Enriquecimento{#enrichment}
 

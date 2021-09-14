@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configurar um aplicativo para dispositivos móveis
 description: Descubra como configurar o Adobe Campaign para enviar notificações por push ou mensagens no aplicativo usando o SDK V4 ou o Experience Platform SDK.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Configurações de instância
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1279'
 ht-degree: 7%
 
 ---

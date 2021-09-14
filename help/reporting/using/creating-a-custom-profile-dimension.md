@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Criar uma dimensão de perfil personalizada
+title: Criação de uma dimensão de perfil personalizada
 description: Saiba como criar uma dimensão de perfil personalizada com base em dados de perfil personalizados.
 audience: reporting
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: customizing-reports
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 98516af1-d4dd-4c1f-b360-f19208c22f82
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '813'
 ht-degree: 5%
 
 ---
 
-
-# Criar uma dimensão de perfil personalizada{#creating-a-custom-profile-dimension}
+# Criação de uma dimensão de perfil personalizada{#creating-a-custom-profile-dimension}
 
 Os relatórios também podem ser criados e gerenciados com base em dados de perfil personalizados criados durante a extensão de recurso personalizado do perfil.
 
@@ -59,7 +56,7 @@ Para fazer isso:
 
    ![](assets/custom_profile_13.png)
 
-1. Insira **[!UICONTROL Label]** e **[!UICONTROL Value]**, em seguida, clique em **[!UICONTROL Add]**. Para este exemplo, precisamos criar o valor ouro, prata e bronze. Clique em **[!UICONTROL Confirm]** quando terminar.
+1. Insira **[!UICONTROL Label]** e **[!UICONTROL Value]**, em seguida, clique em **[!UICONTROL Add]**. Para este exemplo, precisamos criar o valor ouro, prata e bronze. Clique em **[!UICONTROL Confirm]** ao concluir.
 
    ![](assets/custom_profile_14.png)
 
@@ -146,7 +143,7 @@ Depois que o campo de perfil for publicado, você poderá iniciar o delivery. Ne
 
 Depois que o email for enviado corretamente aos recipients selecionados, você poderá começar a filtrar os dados e rastrear o sucesso do delivery com relatórios.
 
-## Etapa 4: Crie um relatório dinâmico para filtrar recipients com a dimensão de perfil personalizada {#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension}
+## Etapa 4: Criar um relatório dinâmico para filtrar recipients com a dimensão de perfil personalizada {#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension}
 
 Após enviar o delivery, é possível detalhar os relatórios usando a dimensão de perfil personalizada na tabela **[!UICONTROL Profile]**.
 

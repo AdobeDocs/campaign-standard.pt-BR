@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Sobre as atividades de canal
 description: As atividades de canal estão disponíveis no lado esquerdo da tela.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: channel-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 67d56f3d-5e73-4541-8f1c-af2ef23ce5d5
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 95%
+source-wordcount: '65'
+ht-degree: 100%
 
 ---
-
 
 # Sobre as atividades de canal{#about-channel-activities}
 
@@ -28,9 +25,8 @@ Essas atividades representam os diferentes canais de comunicação disponíveis.
 
 A seção **[!UICONTROL Channels]** inclui as seguintes atividades:
 
-* [Delivery por email](../../automating/using/email-delivery.md)
-* [Delivery por SMS](../../automating/using/sms-delivery.md)
+* [Entrega por email](../../automating/using/email-delivery.md)
+* [Entrega por SMS](../../automating/using/sms-delivery.md)
 * [Entrega por notificação por push](../../automating/using/push-notification-delivery.md)
-* [Delivery de correspondência direta](../../automating/using/direct-mail-delivery.md)
+* [Entrega de correspondência direta](../../automating/using/direct-mail-delivery.md)
 * [Entrega no aplicativo](../../automating/using/in-app-delivery.md)
-

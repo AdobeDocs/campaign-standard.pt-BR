@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configurar o Microsoft Dynamics 365 para integração com o Campaign
 description: Saiba como configurar o Microsoft Dynamics 365 para integração com o Campaign.
 audience: integrating
@@ -9,14 +7,13 @@ topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '911'
 ht-degree: 1%
 
 ---
-
 
 # Configurar o Microsoft Dynamics 365 para integração com o Adobe Campaign Standard
 
@@ -65,7 +62,7 @@ Para obter mais informações sobre como criar um novo aplicativo, consulte [est
 >
 >O diretório do Microsoft Azure atribui uma ID de aplicativo exclusiva (cliente) ao seu aplicativo. Posteriormente, essa ID será necessária na configuração do Dynamics 365, bem como na execução da configuração da ferramenta de integração.
 
-### Gerar segredo de cliente {#generate-a-client-secret}
+### Gerar segredo do cliente {#generate-a-client-secret}
 
 1. Na tela de visão geral do aplicativo, no submenu à esquerda, clique em **[!UICONTROL Certificates and Secrets > New client secret]**
 
@@ -126,7 +123,7 @@ Este novo usuário é um usuário genérico. Ele será usado pelo aplicativo: qu
 
 Siga as instruções [nesta página](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id) para localizar sua ID de locatário.  Você precisará dessa ID durante a configuração de pré-integração na ferramenta de integração.
 
-## Instale o Campaign Standard para Microsoft Dynamics 365 {#install-appsource-app}
+## Instalar o Campaign Standard para o Microsoft Dynamics 365 {#install-appsource-app}
 
 Para integrar o aplicativo Dynamics 365 ao seu ambiente Campaign Standard, siga as etapas abaixo:
 

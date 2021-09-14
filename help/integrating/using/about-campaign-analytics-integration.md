@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Sobre a integração do Campaign com o Analytics
 description: Ao coletar os dados de KPI do Adobe Campaign Standard, agora é possível compartilhar dados de campanha com o Adobe Analytics para medir métricas de marketing por email do Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
-feature: Acionadores
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ada1a5d1-879b-49cd-b4ef-43d7a40bafdb
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 7%
+source-wordcount: '206'
+ht-degree: 6%
 
 ---
 

@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Taxa de transferência de delivery
+title: Taxa de transferência da entrega
 description: Com o relatório pronto para uso Delivery throughput , saiba mais sobre o sucesso do seu delivery.
 audience: reporting
 content-type: reference
@@ -10,14 +8,13 @@ context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;progra
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 53bb4efb-949e-4831-af0d-e7af0ffa6b81
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 5%
+source-wordcount: '82'
+ht-degree: 4%
 
 ---
-
 
 # Taxa de transferência da entrega{#delivery-throughput}
 

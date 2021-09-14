@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Notas de versão de 2017
 description: Essa página lista todas as versões de 2017 do Adobe Campaign Standard.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Visão geral
+feature: Overview
 role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '4624'
+source-wordcount: '4623'
 ht-degree: 8%
 
 ---
@@ -39,11 +37,11 @@ Visualize as [atualizações de documentação](../../rn/using/documentation-upd
  <tbody> 
   <tr> 
    <td> Gerenciamento de fadiga<br /> </td> 
-   <td> O Gerenciamento de fadiga permite criar regras de fadiga para gerenciar a comunicação excessiva com perfis. As regras de fadiga são facilmente criadas, mas são extremamente flexíveis com recursos como a contagem de mensagens em vários canais (incluindo mensagens transacionais), contagem de entregas específicas somente ou aplicação de regras a perfis específicos.<br /><a href="../../sending/using/fatigue-rules.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
+   <td> O Gerenciamento de fadiga permite criar regras de fadiga para gerenciar a comunicação excessiva com perfis. As regras de fadiga são facilmente criadas, mas são extremamente flexíveis com recursos como a contagem de mensagens em vários canais (incluindo mensagens transacionais), contagem de entregas específicas somente ou aplicação de regras a perfis específicos.<br /> Para obter mais informações, consulte a <a href="../../sending/using/fatigue-rules.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Criação de conteúdo: Importar de um URL<br /> </td> 
-   <td> Importar de um URL permite recuperar rapidamente seu conteúdo criativo de um site para criar emails para qualquer delivery. Além disso, você pode simplificar seu processo criativo, permitindo que terceiros compartilhem conteúdo diretamente por meio de um URL. O conteúdo importado pode ser usado de forma flexível como parte de um único delivery ou no nível de template, garantindo a consistência da marca em todas as campanhas relacionadas, sejam elas baseadas em fluxo de trabalho ou mensagens transacionais, e incluir testes A/B ou multivariados. A importação de um URL converte e rastreia automaticamente todos os links para monitorar o desempenho do email por meio do Dynamic Reporting.<br /><a href="../../designing/using/using-existing-content.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
+   <td> Importar de um URL permite recuperar rapidamente seu conteúdo criativo de um site para criar emails para qualquer delivery. Além disso, você pode simplificar seu processo criativo, permitindo que terceiros compartilhem conteúdo diretamente por meio de um URL. O conteúdo importado pode ser usado de forma flexível como parte de um único delivery ou no nível de template, garantindo a consistência da marca em todas as campanhas relacionadas, sejam elas baseadas em fluxo de trabalho ou mensagens transacionais, e incluir testes A/B ou multivariados. A importação de um URL converte e rastreia automaticamente todos os links para monitorar o desempenho do email por meio do Dynamic Reporting.<br /> Para obter mais informações, consulte a <a href="../../designing/using/using-existing-content.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -118,15 +116,15 @@ _Recursos personalizados_
  <tbody> 
   <tr> 
    <td> Biblioteca de modelos de email<br /> </td> 
-   <td> Apresentando dezoito novos modelos responsivos projetados em dois lindos temas: o Astro e o Feather. Esses modelos personalizáveis são independentes do setor e estão prontos para serem usados imediatamente. Os modelos incluem conteúdo para uma variedade de casos de uso para que suas campanhas de marketing por email sejam projetadas e entregues de forma mais rápida, eficiente e bonita do que nunca.<br /><a href="../../designing/using/using-reusable-content.md#content-templates"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
+   <td> Apresentando dezoito novos modelos responsivos projetados em dois lindos temas: o Astro e o Feather. Esses modelos personalizáveis são independentes do setor e estão prontos para serem usados imediatamente. Os modelos incluem conteúdo para uma variedade de casos de uso para que suas campanhas de marketing por email sejam projetadas e entregues de forma mais rápida, eficiente e bonita do que nunca.<br /> Para obter mais informações, consulte a <a href="../../designing/using/using-reusable-content.md#content-templates">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Relatórios dinâmicos com dados de perfil<br /> </td> 
-   <td> Os Relatórios dinâmicos fornecem relatórios comerciais totalmente personalizáveis e em tempo real. Com esta versão, um aprimoramento poderoso nos Relatórios dinâmicos adiciona acesso aos dados do perfil, permitindo a análise demográfica por dimensões de perfil, como gênero, cidade, código postal e idade, além de dados funcionais de campanha de email, como aberturas e cliques. Com a mesma interface de arrastar e soltar fácil de usar, determinar o desempenho de sua campanha de email em relação aos segmentos de clientes mais importantes é mais fácil do que nunca.<br /><a href="../../reporting/using/about-dynamic-reports.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
+   <td> Os Relatórios dinâmicos fornecem relatórios comerciais totalmente personalizáveis e em tempo real. Com esta versão, um aprimoramento poderoso nos Relatórios dinâmicos adiciona acesso aos dados do perfil, permitindo a análise demográfica por dimensões de perfil, como gênero, cidade, código postal e idade, além de dados funcionais de campanha de email, como aberturas e cliques. Com a mesma interface de arrastar e soltar fácil de usar, determinar o desempenho de sua campanha de email em relação aos segmentos de clientes mais importantes é mais fácil do que nunca.<br /> Para obter mais informações, consulte a <a href="../../reporting/using/about-dynamic-reports.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Assinatura em massa com origem e data<br /> </td> 
-   <td> Com essa melhoria na Assinatura em massa, agora é possível armazenar informações de assinatura (origem e data) diretamente no banco de dados do Adobe Campaign Standard por meio da atividade Serviços de assinatura em um workflow.<br /><a href="../../automating/using/subscription-services.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
+   <td> Com essa melhoria na Assinatura em massa, agora é possível armazenar informações de assinatura (origem e data) diretamente no banco de dados do Adobe Campaign Standard por meio da atividade Serviços de assinatura em um workflow.<br /> Para obter mais informações, consulte a <a href="../../automating/using/subscription-services.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -266,11 +264,11 @@ _Fluxos de trabalho_
  <tbody> 
   <tr> 
    <td> Correspondência direta<br /> </td> 
-   <td> Quebre a barreira digital e conecte-se ao mundo físico com o primeiro canal offline da Adobe Campaign Standard, Mala direta. Esse recurso permite personalizar e gerar o arquivo exigido por provedores de correspondência direta como parte de suas campanhas entre canais. Aproveite a Mala direta para engajar novamente os clientes ou aprimorar a experiência deles com um ponto de contato atraente e tátil, direcionando os clientes para seu aplicativo, site ou loja.<br /><a href="../../channels/using/about-direct-mail.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
+   <td> Quebre a barreira digital e conecte-se ao mundo físico com o primeiro canal offline da Adobe Campaign Standard, Mala direta. Esse recurso permite personalizar e gerar o arquivo exigido por provedores de correspondência direta como parte de suas campanhas entre canais. Aproveite a Mala direta para engajar novamente os clientes ou aprimorar a experiência deles com um ponto de contato atraente e tátil, direcionando os clientes para seu aplicativo, site ou loja.<br /> Para obter mais informações, consulte a <a href="../../channels/using/about-direct-mail.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> CCO de email<br /> </td> 
-   <td> A Cco de email permite salvar mensagens de email exclusivas enviadas para destinatários individuais, permitindo que a marca arquive essas mensagens. Ao adicionar um endereço de email CCO a todos os emails, os clientes do Adobe Campaign Standard podem manter uma cópia exata de cada email com esse recurso. Trata-se de um requisito legal comum para o setor dos serviços financeiros e é útil para ajudar os centros de atendimento ao cliente na resolução de conflitos em tempo real.<br /><a href="../../sending/using/archiving.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
+   <td> A Cco de email permite salvar mensagens de email exclusivas enviadas para destinatários individuais, permitindo que a marca arquive essas mensagens. Ao adicionar um endereço de email CCO a todos os emails, os clientes do Adobe Campaign Standard podem manter uma cópia exata de cada email com esse recurso. Trata-se de um requisito legal comum para o setor dos serviços financeiros e é útil para ajudar os centros de atendimento ao cliente na resolução de conflitos em tempo real.<br /> Para obter mais informações, consulte a <a href="../../sending/using/archiving.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -313,19 +311,19 @@ _Notificações por push_
  <tbody> 
   <tr> 
    <td> Recursos aprimorados de edição de imagens com o Creative SDK<br /> </td> 
-   <td> Agora você tem acesso a um conjunto completo de recursos fornecidos pelo Creative SDK para aprimorar suas imagens diretamente no editor de conteúdo ao editar emails ou landing pages.<br /> Esse recurso não requer a aquisição de soluções Creative Cloud adicionais.<br /><a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
+   <td> Agora você tem acesso a um conjunto completo de recursos fornecidos pelo Creative SDK para aprimorar suas imagens diretamente no editor de conteúdo ao editar emails ou landing pages.<br /> Esse recurso não requer a aquisição de soluções Creative Cloud adicionais.<br /> Para obter mais informações, consulte a <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Notificações por push transacionais<br /> </td> 
-   <td> O canal de aplicativo móvel foi adicionado aos recursos de mensagens transacionais do Adobe Campaign. Três canais agora são compatíveis com mensagens transacionais: notificações por email, SMS e push.<br /><a href="../../channels/using/transactional-push-notifications.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
+   <td> O canal de aplicativo móvel foi adicionado aos recursos de mensagens transacionais do Adobe Campaign. Três canais agora são compatíveis com mensagens transacionais: notificações por email, SMS e push.<br /> Para obter mais informações, consulte a <a href="../../channels/using/transactional-push-notifications.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Notificações por push recorrentes<br /> </td> 
-   <td> Agora você pode configurar notificações por push recorrentes em um workflow. Você pode usar notificações por push recorrentes em situações em que seus clientes esperam atualizações periódicas, como lembretes semanais, para verificar novos conteúdos ou promoções.<br /><a href="../../automating/using/push-notification-delivery.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
+   <td> Agora você pode configurar notificações por push recorrentes em um workflow. Você pode usar notificações por push recorrentes em situações em que seus clientes esperam atualizações periódicas, como lembretes semanais, para verificar novos conteúdos ou promoções.<br /> Para obter mais informações, consulte a <a href="../../automating/using/push-notification-delivery.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Conector S3 (Simple Storage Service) da Amazon<br /> </td> 
-   <td> O conector do Serviço de Armazenamento Simples da Amazon (S3) agora pode ser usado para importar ou exportar dados para o Adobe Campaign. Ele pode ser configurado em uma atividade de workflow. A configuração é feita em uma conta externa.<br /><a href="../../administration/using/external-accounts.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
+   <td> O conector do Serviço de Armazenamento Simples da Amazon (S3) agora pode ser usado para importar ou exportar dados para o Adobe Campaign. Ele pode ser configurado em uma atividade de workflow. A configuração é feita em uma conta externa.<br /> Para obter mais informações, consulte a <a href="../../administration/using/external-accounts.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Integração do Dreamweaver ao vivo<br /> </td> 
@@ -384,7 +382,7 @@ _Notificações por push_
 * Correção de um problema em que uma mensagem de erro não era exibida ao criar um aplicativo Android vinculado a um aplicativo móvel que falhava ao ser criado no MCPNS.
 * Correção de um problema que permitia ao usuário adicionar sons a uma notificação silenciosa.
 
-## Versão 17.2 - março de 2017 {#release-17-2---march-2017}
+## Versão 17.2 - Março de 2017 {#release-17-2---march-2017}
 
 **Novos recursos**
 
@@ -398,7 +396,7 @@ _Notificações por push_
  <tbody> 
   <tr> 
    <td> Relatórios dinâmicos<br /> </td> 
-   <td> Os Relatórios dinâmicos fornecem uma nova geração de relatórios comerciais totalmente personalizáveis e em tempo real. Baseado em tabelas dinâmicas visuais e gráficos dinâmicos, esse recurso permite arrastar e soltar variáveis e dimensões para analisar a eficiência e a eficácia de suas campanhas de marketing. Os relatórios dinâmicos também permitem que você crie seus próprios relatórios de negócios do zero e os salve para uso posterior.<br /><a href="../../reporting/using/about-dynamic-reports.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
+   <td> Os Relatórios dinâmicos fornecem uma nova geração de relatórios comerciais totalmente personalizáveis e em tempo real. Baseado em tabelas dinâmicas visuais e gráficos dinâmicos, esse recurso permite arrastar e soltar variáveis e dimensões para analisar a eficiência e a eficácia de suas campanhas de marketing. Os relatórios dinâmicos também permitem que você crie seus próprios relatórios de negócios do zero e os salve para uso posterior.<br /> Para obter mais informações, consulte a <a href="../../reporting/using/about-dynamic-reports.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Integração do Dreamweaver (Labs)<br /> </td> 
@@ -433,15 +431,15 @@ _Notificações por push_
   </tr> 
   <tr> 
    <td> Fluxos de trabalho: nova atividade Ler público<br /> </td> 
-   <td> Inicie o processo de direcionamento com um público-alvo existente que pode ser facilmente selecionado e refinado em uma atividade.<br /><a href="../../automating/using/read-audience.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
+   <td> Inicie o processo de direcionamento com um público-alvo existente que pode ser facilmente selecionado e refinado em uma atividade.<br /> Para obter mais informações, consulte a <a href="../../automating/using/read-audience.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dados de pontos de interesse<br /> </td> 
-   <td> Os dados de pontos de interesse integram o Adobe Campaign ao Adobe Analytics for Mobile. Uma marca pode coletar dados de locais móveis dos usuários - chamados <strong>Pontos de interesse</strong> - quando eles abrem o aplicativo da marca. Isso permite que a marca aproveite os fluxos de trabalho do Adobe Campaign para enviar mensagens personalizadas com base na localização dos usuários. Esse canal utiliza o SDK do serviço principal móvel.<br /> Observe que para usar esse recurso é necessário ter o Analytics for Mobile, que é uma solução paga.<br /><a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
+   <td> Os dados de pontos de interesse integram o Adobe Campaign ao Adobe Analytics for Mobile. Uma marca pode coletar dados de locais móveis dos usuários - chamados <strong>Pontos de interesse</strong> - quando eles abrem o aplicativo da marca. Isso permite que a marca aproveite os fluxos de trabalho do Adobe Campaign para enviar mensagens personalizadas com base na localização dos usuários. Esse canal utiliza o SDK do serviço principal móvel.<br /> Observe que para usar esse recurso é necessário ter o Analytics for Mobile, que é uma solução paga.<br /> Para obter mais informações, consulte a <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> REST APIs<br /> </td> 
-   <td> Os recursos vinculados em qualquer nível aos perfis ou aos recursos de serviços agora estão disponíveis na API.<br /><a href="../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension"> Para obter mais informações, consulte a documentação detalhada</a>.<br /> </td> 
+   <td> Os recursos vinculados em qualquer nível aos perfis ou aos recursos de serviços agora estão disponíveis na API.<br /> Para obter mais informações, consulte a <a href="../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension">documentação detalhada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

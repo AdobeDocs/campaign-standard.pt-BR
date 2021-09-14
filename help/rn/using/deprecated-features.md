@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Recursos obsoletos e removidos do Campaign Standard
 description: Esta página lista recursos obsoletos e removidos do Adobe Campaign Standard.
 audience: rn
@@ -10,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: bb964907851b11f8cc247425024f6e7c828aed5d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '871'
-ht-degree: 66%
+ht-degree: 67%
 
 ---
 
@@ -136,7 +134,7 @@ Esta seção lista os recursos e funcionalidades removidos do Campaign Standard.
  <tbody> 
   <tr> 
    <td> <p>A partir da versão 21.2 do Campaign, o uso da API e da interface do Campaign para solicitações de acesso e exclusão se tornará obsoleto. A exclusão do perfil de 2 etapas não estará disponível. Use o <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">serviço principal de privacidade da Adobe</a>.</p></br>
-   <p>Consulte também o <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Gerenciamento de solicitações de acesso a dados pessoais</a>.</p>
+   <p>Consulte também o <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=br">Gerenciamento de solicitações de acesso a dados pessoais</a>.</p>
   </td> 
   </tr> 
  </tbody> 

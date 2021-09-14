@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Atualizações da documentação
 description: Saiba mais sobre todas as atualizações mais recentes da documentação do Adobe Campaign Standard.
 audience: rn
@@ -10,7 +8,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: b80e09a141aa0725533ceda07330699b5667d301
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '6954'
 ht-degree: 98%

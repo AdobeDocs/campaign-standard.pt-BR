@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Exclusão de assinaturas
+title: Exclusão de subscrições
 description: Saiba como excluir assinaturas com APIs.
 audience: developing
 content-type: reference
@@ -9,20 +7,19 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 76e2d102-c877-41a6-af87-2f407201a572
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 2%
+source-wordcount: '233'
+ht-degree: 1%
 
 ---
 
-
-# Exclusão de assinaturas {#mdeleting-subscriptions}
+# Exclusão de subscrições {#mdeleting-subscriptions}
 
 <!--NOTE TO WRITER: There are two duplicate headings that seem to have the same content. Delete one? Rename if different?-->
 
-## Excluindo uma assinatura de serviço para um perfil específico {#deleting-service-subscription}
+## Exclusão de uma assinatura de serviço para um perfil específico {#deleting-service-subscription}
 
 Trata-se de um procedimento em três etapas.
 

@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Sobre correspondência direta
 description: Descubra as principais especificidades do canal de correspondência direta no Adobe Campaign.
 audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back;deliveryCreation,wizard
-feature: Correspondência direta
+feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 815b4a0d-0486-4867-b751-b5ca8b643cb9
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '455'
 ht-degree: 98%
 
 ---

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Indicadores de rastreamento
 description: Com os indicadores de rastreamento prontos para uso, saiba mais sobre o comportamento dos clientes ao receberem mensagens de email.
 audience: reporting
@@ -10,14 +8,13 @@ context-tags: deliveryTrackingReports,main;campaignTrackingReport,main;programTr
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5071c124-07b7-49c3-8f36-5928ded3c544
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 3%
+source-wordcount: '149'
+ht-degree: 2%
 
 ---
-
 
 # Indicadores de rastreamento{#tracking-indicators}
 
@@ -37,4 +34,3 @@ A tabela **[!UICONTROL Tracking indicators]** e o gráfico **Os 5 principais del
 * **Inscrições canceladas**: O número de cliques no link de subscrição.
 * **Spam:** O número de recipients que declararam um email como spam.
 * **Mirror Page**: O número de cliques no link da mirror page.
-

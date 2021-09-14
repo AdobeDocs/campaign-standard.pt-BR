@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Monitoramento de uma solicitação de acesso a dados pessoais
+title: Monitoramento de uma solicitação de privacidade
 description: Saiba como monitorar uma solicitação de privacidade com APIs
 audience: developing
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 63864f0f-2c22-4a65-86ae-21897031f30a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '54'
 ht-degree: 25%
 
 ---
 
-
-# Monitoramento de uma solicitação de acesso a dados pessoais {#monitoring-a-privacy-request}
+# Monitoramento de uma solicitação de privacidade {#monitoring-a-privacy-request}
 
 Você pode monitorar informações sobre uma solicitação de privacidade criada usando uma solicitação **GET**.
 

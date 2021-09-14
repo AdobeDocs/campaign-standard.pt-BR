@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Por que usar APIs do Campaign Standard?
 description: Saiba mais sobre as APIs do Campaign Standard e por que usá-las.
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '491'
 ht-degree: 3%
 
 ---
-
 
 # Por que usar APIs do Campaign Standard {#why-using-campaign-standard-apis}
 

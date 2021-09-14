@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Retornar ao remetente
 description: Saiba como ser notificado de um endereço incorreto e excluí-lo de comunicações futuras.
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-feature: Correspondência direta
+feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 6783aa68-7fd7-4f53-86bf-853c0fea5899
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 3%
+source-wordcount: '214'
+ht-degree: 2%
 
 ---
 

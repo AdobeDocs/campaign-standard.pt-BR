@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Solução de problemas
 description: Encontre aqui perguntas comuns relacionadas aos Relatórios dinâmicos.
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
-feature: Relatórios
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: 81ffe6a7e59a745a6f61941dff69be85edf4fe45
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '703'
 ht-degree: 5%
 
 ---
@@ -92,7 +90,7 @@ Isso resultará na seguinte tabela:
 >
 >As contagens exclusivas são baseadas em um rascunho baseado em HLL, isso pode causar pequenas imprecisões em contagens grandes.
 
-## Contagens abertas não correspondem à contagem do Banco de Dados {#open-counts-no-match-database}
+## Contagens abertas não correspondem à contagem Banco de dados {#open-counts-no-match-database}
 
 Isso pode ser devido ao fato de que as heurísticas são usadas no Dynamic Reporting para rastrear aberturas mesmo quando não podemos rastrear a ação **[!UICONTROL Open]**.
 

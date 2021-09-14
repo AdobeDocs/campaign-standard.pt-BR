@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Exportar listas
+title: Exportação de listas
 description: 'O Adobe Campaign permite exportar os dados exibidos como listas de uma tela de visão geral diretamente em um arquivo para uso futuro. '
 audience: automating
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: importing-and-exporting-data
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b39ce1f6-0c5b-4270-86a1-b79c49cd199c
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '444'
 ht-degree: 7%
 
 ---
 
-
-# Exportar listas{#exporting-lists}
+# Exportação de listas{#exporting-lists}
 
 O Adobe Campaign permite exportar suas listas diretamente em um arquivo para uso futuro. Exportar uma lista em um arquivo gera uma entrada de log no menu **[!UICONTROL Export audits]** . Para obter mais informações sobre auditorias de exportação, consulte a seção [Auditar exportações](../../administration/using/auditing-export-logs.md).
 
@@ -43,7 +40,7 @@ A lista de exportação está disponível em todas as telas que têm uma exibiç
 
    Um pop-up será exibido para confirmar a exportação. Depois de confirmar a exportação, o arquivo é baixado automaticamente no computador.
 
-O arquivo é gerado no formato CSV com uma extensão .TXT. Ele é nomeado de acordo com o recurso exportado e a data de exportação. Por exemplo: o nome profileBase_20150426_120253.txt seria aplicado a uma exportação de perfil realizada em 26 de abril de 2015 às 12:02:53. Ele é codificado no formato UTF-8.
+O arquivo é gerado no formato CSV com uma extensão .TXT. Ele é nomeado de acordo com o recurso exportado e a data de exportação. Por exemplo: o nome profileBase_20150426_120253.txt seria aplicado a uma exportação de perfil realizada em 26 de abril de 2015 em 12:02:53. Ele é codificado no formato UTF-8.
 
 Os valores numéricos e as datas levam em consideração a hora local (localidade) do usuário que realiza a exportação. Por exemplo: DD-MM-AAAA ou MM-DD-AAAA.
 
@@ -79,7 +76,7 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 * [Funções](../../administration/using/list-of-roles.md)
 * [Personalização de listas](../../start/using/customizing-lists.md)
 
-## Vídeo tutorial {#video}
+## Tutorial em vídeo {#video}
 
 Este vídeo mostra como configurar listas.
 

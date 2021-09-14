@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Solução de problemas
 description: Saiba como solucionar problemas ao compartilhar recursos.
 audience: integrating
@@ -9,14 +7,13 @@ topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: Triggers
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5882ada6-dff4-4fd1-a433-0eb31570f73c
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '345'
 ht-degree: 18%
 
 ---
-
 
 # Solução de problemas{#troubleshooting}
 

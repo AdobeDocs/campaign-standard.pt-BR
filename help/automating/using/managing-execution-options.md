@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Gerenciamento de opções de execução
 description: Saiba como gerenciar opções de execução de workflows.
 audience: automating
@@ -11,7 +9,7 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: b0cc38fe-cf71-4350-8b4e-7daf0bf94066
-source-git-commit: 8092eda6241e83a9bb4c23d8955cd12b6509432a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 7%

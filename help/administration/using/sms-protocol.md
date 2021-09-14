@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Protocolo e configurações do conector de SMS
 description: Saiba mais sobre o conector SMS e como configurá-lo.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Configurações de instância
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '8666'
+source-wordcount: '8664'
 ht-degree: 86%
 
 ---
@@ -250,7 +248,7 @@ Há duas maneiras de enviar SMS longos:
 
 Consulte a descrição dos campos `esm_class`, `short_message` e `message_payload` do [SUBMIT_SM PDU](../../administration/using/sms-protocol.md#information-pdu) para obter mais detalhes sobre o protocolo e os formatos.
 
-### Captura de rendimento e janela {#throughput-capping}
+### Limite e janelas de tráfego {#throughput-capping}
 
 A maioria dos provedores exige um limite de rendimento para cada conexão SMPP. Isso pode ser feito por meio da definição de um número de SMS na conta externa. Observe que a limitação de rendimento ocorre por conexão. O rendimento efetivo total é o limite por conexão multiplicado pelo número total de conexões. Isso é detalhado na seção [Conexões simultâneas](../../administration/using/sms-protocol.md#connection-settings).
 
@@ -492,7 +490,7 @@ Eles são transmitidos como estão nos campos `source_addr_ton`, `source_addr_np
 
 Esse campo é transmitido como está no campo `service_type` de `SUBMIT_SM PDU`. Defina isso de acordo com as necessidades do provedor.
 
-### Tráfego e tempos limite {#throughput-timeouts}
+### Taxa de transferência e tempos limite {#throughput-timeouts}
 
 Essas configurações controlam todos os aspectos de tempo do canal SMPP. Alguns provedores exigem controle muito preciso da taxa de mensagens, da janela e dos tempos de novas tentativas. Essas configurações devem ser definidas com valores que correspondam à capacidade do provedor e às condições indicadas no contrato.
 
@@ -516,7 +514,7 @@ Como calcular a fórmula ideal da janela de envio:
 
 Exemplo: se você tiver 300 SMS/s definidos com rendimento máximo de MT e houver uma latência de 100 ms entre `SUBMIT_SM` e `SUBMIT_SM_RESP` em média, o valor ideal será `300×0.1 = 30`.
 
-#### Rendimento máximo de tráfego de MT {#max-mt-throughput}
+#### Taxa de transferência máxima de MT {#max-mt-throughput}
 
 Número máximo de MT por segundo e por conexão. Essa configuração é estritamente imposta. O MTA nunca encaminhará mensagens mais rapidamente do que esse limite. É útil para provedores que exigem limitação precisa.
 
@@ -530,7 +528,7 @@ Geralmente, é recomendável manter essa configuração abaixo de 1000, pois é 
 
 Quando a conexão TCP for perdida, o conector aguardará esse número de segundos antes de tentar fazer uma conexão.
 
-#### Período de validade do MT {#expiration-period}
+#### Período de vigência do MT {#expiration-period}
 
 Tempo limite entre `SUBMIT_SM` e o `SUBMIT_SM_RESP` correspondente. Se `RESP` não for recebido a tempo, a mensagem será considerada como tendo sofrido falha, e a política global de novas tentativas do MTA será aplicada.
 
@@ -538,7 +536,7 @@ Tempo limite entre `SUBMIT_SM` e o `SUBMIT_SM_RESP` correspondente. Se `RESP` n�
 
 Tempo limite entre a tentativa de conexão TCP e a resposta `BIND_*_RESP`. Quando o tempo limite for atingido, a conexão será fechada pelo conector do Adobe Campaign e aguardará pelo tempo antes da reconexão antes de tentar novamente.
 
-#### Período inquire_link {#enquire-link-period}
+#### período enquire_link {#enquire-link-period}
 
 `enquire_link` é um tipo especial de PDU enviada para manter a conexão ativa. Esse período é em segundos. O conector do Campaign envia `enquire_link` somente quando a conexão está ociosa, para conservar a largura de banda. Se não for recebido nenhum RESP após o dobro desse período, a conexão será considerada inoperante, e um processo de reconexão será acionado.
 
@@ -631,7 +629,7 @@ Definir esse campo como 0 desativa o mecanismo no qual a **ID da Mensagem invál
 
 Definir esse campo como 1 faz com que o conector sempre responda &quot;OK&quot;, mesmo que a ID seja inválida. Isso deve ser definido como 1 somente sob supervisão, para solução de problemas e pelo período mínimo, por exemplo, para se recuperar de um problema do provedor.
 
-#### Registro do regex da ID no SR {#regex-extraction}
+#### Regex de extração da ID no SR {#regex-extraction}
 
 O formato SR não é estritamente aplicado pela especificação do protocolo SMPP. É apenas uma recomendação descrita no [Apêndice B](../../administration/using/sms-protocol.md#sr-error-management) (página 167) da especificação. Alguns implementadores de SMPP formatam esse campo de forma diferente. Portanto, o Adobe Campaign precisa de uma maneira de extrair o campo correto.
 
@@ -729,9 +727,9 @@ A partir da versão 21.1, você pode adicionar parâmetros opcionais ao MT de re
 
 Para obter mais informações sobre parâmetros opcionais, consulte esta [seção](../../administration/using/sms-protocol.md#smpp-optional-parameters).
 
-## Parâmetros de template do delivery do SMS {#sms-delivery-template-parameters}
+## Parâmetros de modelo de entrega do SMS {#sms-delivery-template-parameters}
 
-Alguns parâmetros podem ser definidos por template do delivery.
+Alguns parâmetros podem ser definidos por modelo de entrega.
 
 ### Do campo {#from-field}
 
@@ -739,7 +737,7 @@ Este campo é opcional. Permite substituir o endereço do remetente (oADC). O co
 
 O campo é limitado a 21 caracteres pela especificação SMPP, mas alguns provedores podem permitir valores mais longos. Observe também que restrições muito rigorosas podem ser aplicadas em alguns países; por exemplo, comprimento, conteúdo, caracteres permitidos.
 
-### Parâmetros do delivery {#delivery-parameters}
+### Parâmetros de entrega {#delivery-parameters}
 
 #### Número máximo de SMS por mensagem {#maximum-sms}
 
@@ -793,7 +791,7 @@ O número de threads não pode ser alterado pelo cliente, pois requer a alteraç
 
 ### Descrição do comportamento do conector SMPP {#behavior-smpp-connector}
 
-#### Correspondência de MT, SR e entradas de catálogo {#matching-mt-sr}
+#### Correspondência de MT, SR e entradas de broadlog {#matching-mt-sr}
 
 No Adobe Campaign, uma mensagem é uma entrada de broadlog. No Adobe Campaign Standard, os conectores externos só precisam saber sobre a tabela de broadlog em funcionamento: `nmsBroadLogExec`. Um workflow é encarregado de copiar entradas de broadlog para seus targeting dimensions específicos (nmsBroadLogXXX).
 

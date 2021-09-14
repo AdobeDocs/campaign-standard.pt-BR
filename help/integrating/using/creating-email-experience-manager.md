@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Criação de conteúdo de e-mail no Adobe Experience Manager.
+title: Criação de conteúdo de email no Adobe Experience Manager.
 description: Com a integração do Adobe Experience Manager, você pode criar conteúdo diretamente no AEM e usá-lo posteriormente no Adobe Campaign.
 audience: integrating
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 72b99864-d9d9-4cf4-be06-dc5719a2e4f2
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '414'
 ht-degree: 16%
 
 ---
 
-
-# Importação de um conteúdo Adobe Experience Manager para um email do Adobe Campaign {#creating-email-aem}
+# Importação de conteúdo Adobe Experience Manager para um email do Adobe Campaign {#creating-email-aem}
 
 Com este documento, você aprenderá a criar e gerenciar conteúdo de email no Adobe Experience Manager e, em seguida, a usá-lo em suas campanhas de marketing, importando-o em seus emails para o Adobe Campaign Standard.
 
@@ -56,7 +53,7 @@ Por padrão, dois templates predefinidos permitem criar conteúdo de email para 
 
    >[!VIDEO](https://video.tv.adobe.com/v/29999)
 
-## Editar e enviar um email {#editing-email-aem}
+## Edição e envio de email {#editing-email-aem}
 
 É possível editar o conteúdo do email adicionando componentes e ativos. Os campos de personalização podem ser usados para fornecer uma mensagem mais relevante com base nos dados dos recipients no Adobe Campaign.
 

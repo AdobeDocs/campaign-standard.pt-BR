@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Exportação/importação de recursos personalizados
 description: Este tutorial explica como exportar e importar um pacote de recursos personalizados.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: data-management-activities
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f8e7eb96-9541-4d28-9d8d-f06af822debd
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 99%
+source-wordcount: '629'
+ht-degree: 100%
 
 ---
-
 
 # Exportação/importação de recursos personalizados {#exporting-importing-custom-resources}
 
@@ -35,7 +32,7 @@ Recursos adicionais:
 
 * [Gerenciamento de pacotes](../../automating/using/managing-packages.md)
 * [Implantação de pacotes: princípio de funcionamento](../../developing/using/data-model-concepts.md)
-* [Adicionar ou estender um recurso](../../developing/using/key-steps-to-add-a-resource.md)
+* [Adição ou extensão de um recurso](../../developing/using/key-steps-to-add-a-resource.md)
 
 ## Exportação da estrutura {#exporting-the-structure}
 

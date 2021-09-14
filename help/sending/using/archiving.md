@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Arquivamento de mensagens no Adobe Campaign Standard
 description: Saiba como arquivar emails com o Adobe Campaign Standard usando um endereço de email CCO.
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-feature: Monitoramento de desempenho
+feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 15%
+source-wordcount: '362'
+ht-degree: 16%
 
 ---
 

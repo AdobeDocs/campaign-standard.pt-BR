@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Testar acionadores
 description: Saiba mais sobre como solucionar problemas para ajudá-lo a resolver os problemas mais comuns que você pode encontrar ao usar Triggers com o Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Acionadores
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
-source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 2%
+source-wordcount: '463'
+ht-degree: 1%
 
 ---
 

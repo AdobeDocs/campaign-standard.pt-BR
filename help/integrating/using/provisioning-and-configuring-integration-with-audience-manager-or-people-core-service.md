@@ -1,23 +1,21 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Provisionamento e configuração da integração com o Audience Manager ou o serviço principal do People
+title: Provisionamento e configuração da integração com o Audience Manager ou o Serviço principal de pessoas
 description: 'Saiba como configurar a integração do serviço principal de Pessoas/Audience Manager para começar a compartilhar públicos ou segmentos com as diferentes soluções da Adobe Experience Cloud. '
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: Integração do Serviço principal de pessoas
+feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '717'
 ht-degree: 42%
 
 ---
 
-# Provisionamento e configuração da integração com o Audience Manager ou o serviço principal do People{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
+# Provisionamento e configuração da integração com o Audience Manager ou o Serviço principal de pessoas{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
 
 O provisionamento e a configuração do Audience Manager e do núcleo de Pessoas no Adobe Campaign seguem duas etapas: [Envio de solicitação para Adobe](#submitting-request-to-adobe) e então [Configuração da integração no Adobe Campaign](#configuring-the-integration-in-adobe-campaign).
 
@@ -86,7 +84,7 @@ Para fazer isso:
 
 Suas contas externas estão configuradas para essa integração.
 
-### Etapa 2: Configurar as Fontes de Dados {#step-2--configure-the-data-sources}
+### Etapa 2: Configurar as fontes de dados {#step-2--configure-the-data-sources}
 
 As duas fontes de dados a seguir são criadas dentro do Audience Manager: Adobe Campaign (MID) e Adobe Campaign (DeclarredId). Ao mesmo tempo, essas duas fontes de dados estão disponíveis no Adobe Campaign:
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Contagem
 description: Saiba como executar operações de contagem.
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d6354249-3b0d-4532-951f-b0fae953f7e1
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 3%
+source-wordcount: '87'
+ht-degree: 2%
 
 ---
-
 
 # Contagem
 
@@ -74,4 +71,3 @@ Retorna o número de registros.
     "count": 26
 }
 ```
-

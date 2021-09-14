@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Entrega por notificação por push
 description: A atividade Push notification delivery permite configurar o envio de uma única notificação por push ou de uma notificação por push recorrente em um workflow.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: channel-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b6a43d51-32d4-4806-b4e4-33236f1e27f5
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 46%
+source-wordcount: '772'
+ht-degree: 47%
 
 ---
-
 
 # Entrega por notificação por push{#push-notification-delivery}
 

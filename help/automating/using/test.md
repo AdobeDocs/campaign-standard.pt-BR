@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Teste
 description: A atividade Test permite uma transição com base em um resultado de teste.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: jstest,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 62a064f7-6d0b-49ca-9834-eccb5bf42496
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 80%
+source-wordcount: '190'
+ht-degree: 82%
 
 ---
-
 
 # Teste{#test}
 
@@ -40,7 +37,7 @@ As condições podem ser baseadas em **funções** ou **variáveis**, por exempl
 **Tópicos relacionados:**
 
 * [Lista de funções](../../automating/using/list-of-functions.md)
-* [Chamada de um fluxo de trabalho com parâmetros externos](../../automating/using/calling-a-workflow-with-external-parameters.md)
+* [Chamada de fluxo de trabalho com parâmetros externos](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
 ## Configuração {#configuration}
 

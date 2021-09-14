@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Reconciliação
 description: A atividade Reconciliation permite vincular dados não identificados aos recursos existentes.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: reconciliation,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '482'
 ht-degree: 95%
 
 ---
-
 
 # Reconciliação{#reconciliation}
 

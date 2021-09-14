@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Redirecionamento de não-iniciadores
+title: Redirecionamento de não iniciadores
 description: Este caso de uso mostra como redirecionar não abridores.
 audience: automating
 content-type: reference
@@ -10,14 +8,13 @@ context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: cba4e5c6-8acd-47a1-824e-14415e90d451
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '308'
 ht-degree: 38%
 
 ---
-
 
 # Workflow de redirecionamento enviando um novo delivery para não abridores{#retargeting-delivery-to-non-openers}
 
@@ -37,7 +34,7 @@ Você pode enviar um email para clientes e depois um sms para aqueles que não a
 
 ![](assets/wf-complement-query.png)
 
-## Criação de um delivery de email{#creating-an-email-delivery}
+## Criação de uma entrega de email{#creating-an-email-delivery}
 
 1. Arraste e solte um [Email delivery](../../automating/using/email-delivery.md) após cada segmento.
 1. Clique na atividade e selecione ![](assets/edit_darkgrey-24px.png) para editar.

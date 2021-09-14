@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Práticas recomendadas do modelo de dados no Adobe Campaign Standard
 description: Saiba mais sobre as práticas recomendadas ao projetar seu modelo de dados Adobe Campaign Standard.
 audience: developing
@@ -10,14 +8,13 @@ context-tags: cusResource,overview;eventCusResource,overview
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 58d4e02f-3c9a-4e5d-a6aa-fdbcec0d8dda
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1556'
 ht-degree: 1%
 
 ---
-
 
 # Práticas recomendadas do modelo de dados{#data-model-best-practices}
 
@@ -60,7 +57,7 @@ While some of this data cleansing might be performed in Adobe Campaign, the reco
 
 Be able to provide a primary customer record which will be sent to Adobe Campaign.-->
 
-### Dados para Adobe Campaign {#data-for-campaign}
+### Dados do Adobe Campaign {#data-for-campaign}
 
 Quais dados devem ser enviados para o Adobe Campaign? É importante determinar os dados necessários para suas atividades de marketing.
 
@@ -160,7 +157,7 @@ Para garantir melhor desempenho a qualquer momento, siga as práticas recomendad
 * Use uma ou várias tabelas de referência em vez de duplicar um campo em cada linha. Ao usar pares de chave/valor, é preferível escolher uma chave numérica.
 * Uma string curta permanece aceitável. Caso as tabelas de referências já estejam em vigor em um sistema externo, reutilizar a mesma facilitará a integração de dados com o Adobe Campaign.
 
-### Relações de um para muitos {#one-to-many-relationships}
+### Relações um para muitos {#one-to-many-relationships}
 
 * O design de dados afeta a usabilidade e a funcionalidade. Se você projetar seu modelo de dados com muitas relações um para muitos, torna mais difícil para os usuários construir uma lógica significativa no aplicativo. A lógica de filtro one-to-many pode ser difícil para profissionais de marketing não técnicos construírem e compreenderem corretamente.
 * É bom ter todos os campos essenciais em uma tabela, pois facilita a criação de consultas por parte dos usuários. Às vezes, também é bom que o desempenho duplique alguns campos nas tabelas se puder evitar uma junção.

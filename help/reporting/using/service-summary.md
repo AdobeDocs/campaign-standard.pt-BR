@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Resumo do serviço
 description: Com o relatório de resumo do serviço pronto para uso, saiba mais sobre a evolução das subscrições e unsubscriptions.
 audience: reporting
@@ -10,14 +8,13 @@ context-tags: deliveryTopUrlReport,main;campaignTopUrlReport,main;programTopUrlR
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b680b0c3-a65b-416f-8e28-46a9b494c754
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 15%
+source-wordcount: '82'
+ht-degree: 14%
 
 ---
-
 
 # Resumo do serviço{#service-summary}
 

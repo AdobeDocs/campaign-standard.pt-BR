@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Início e término
 description: As atividades Start e End permitem que você marque claramente o início e o término do fluxo de trabalho.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: execution-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1dfc547f-747d-403e-a5b7-a68f56191c71
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 98%
+source-wordcount: '274'
+ht-degree: 100%
 
 ---
-
 
 # Início e término{#start-and-end}
 
@@ -51,4 +48,3 @@ Na guia **[!UICONTROL External signal]** de uma atividade **[!UICONTROL End]**, 
 O exemplo a seguir mostra como um fluxo de trabalho complexo é executado com uma atividade **[!UICONTROL Start]** e várias atividades **[!UICONTROL End]**. A caixa **[!UICONTROL Stop all tasks in progress]** foi marcada para a primeira atividade **[!UICONTROL End]**. Quando a tarefa correspondente for concluída, todo o fluxo de trabalho será interrompido: isso terá o mesmo efeito do botão ![](assets/stop_darkgrey-24px.png) (consulte a seção [Barra de ação](../../automating/using/workflow-interface.md#action-bar)).
 
 ![](assets/wkf_start_end_example.png)
-

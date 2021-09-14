@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Detalhamento por domínios
 description: Com o relatório Análise por domínios pronto para uso, saiba mais sobre os dados de desempenho de seus deliveries, dependendo do domínio de cada cliente.
 audience: reporting
@@ -10,14 +8,13 @@ context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,m
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 513d74ae-10c0-4d41-a7d1-8ed655e1a2d1
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '235'
 ht-degree: 3%
 
 ---
-
 
 # Detalhamento por domínios{#breakdown-by-domains}
 
@@ -41,4 +38,3 @@ A segunda tabela, **Tracking statistics**, contém os dados disponíveis para a 
 * **Inscrições canceladas**: O número de cliques no link de subscrição.
 * **Mirror Page**: O número de cliques no link da mirror page.
 * **Na** lista de bloqueios: O número de recipients que declararam um email como spam ou lixo eletrônico. [Saiba mais](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-

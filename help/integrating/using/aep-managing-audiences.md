@@ -1,24 +1,22 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Gerenciamento de públicos da plataforma Adobe Experience
+title: Gerenciamento de públicos da Adobe Experience Platform
 description: Saiba como gerenciar o Adobe Experience Platform no Campaign Standard.
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: Integração do Microsoft CRM
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 2f6c5cc6-0634-4418-a2ee-e1c133d9cbd2
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '387'
 ht-degree: 3%
 
 ---
 
-# Gerenciamento de públicos da plataforma Adobe Experience {#about-audiences}
+# Gerenciamento de públicos da Adobe Experience Platform {#about-audiences}
 
 >[!IMPORTANT]
 >

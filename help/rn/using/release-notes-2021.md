@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Notas de versão de 2021
 description: Essa página lista todas as versões de 2021 do Adobe Campaign Standard.
 audience: rn
@@ -10,7 +8,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: a723d0c2b67d2a0d54a1bc2f89a16481da96f606
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '3509'
 ht-degree: 100%

@@ -1,13 +1,10 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Personalização de listas
-description: '"Saiba como personalizar a exibição e agir em telas de lista no Adobe Campaign Standard:classificar, filtrar, excluir ou duplicar elementos. As telas do Lista exibem elementos de um ou vários recursos especificados."'
+description: '"Saiba como personalizar a exibição e atuar em telas de lista no Adobe Campaign Standard: classificação, filtragem, exclusão ou duplicação de elementos. Lista as telas que exibem elementos de um ou vários recursos especificados."'
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 8%
@@ -44,7 +41,7 @@ ht-degree: 8%
 
 <img width="60px" alt="condições" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consagrtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Látula de lula do gluctus inteiro. Nulla quis vehicula augue, uma lacinia risus. Nunc pharetra fringilla enim eu suspirit. Mauris consagrtetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus sactetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consagrtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Lácula de inteiros do luctus blandit. Nulla quis vehicula augue, lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris sactetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique ceri sagru, pulvinar elementum dui.
 
 **Leia mais**
 
@@ -55,7 +52,7 @@ Lorem ipsum dolor sit amet, consagrtetur adipiscing elit. Vestibulum placerat ma
 
 <img width="60px" alt="condições" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consagrtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Látula de lula do gluctus inteiro. Nulla quis vehicula augue, uma lacinia risus. Nunc pharetra fringilla enim eu suspirit. Mauris consagrtetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus sactetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consagrtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Lácula de inteiros do luctus blandit. Nulla quis vehicula augue, lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris sactetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique ceri sagru, pulvinar elementum dui.
 
 **Leia mais**
 
@@ -66,7 +63,7 @@ Lorem ipsum dolor sit amet, consagrtetur adipiscing elit. Vestibulum placerat ma
 
 <img width="60px" alt="condições" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consagrtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Látula de lula do gluctus inteiro. Nulla quis vehicula augue, uma lacinia risus. Nunc pharetra fringilla enim eu suspirit. Mauris consagrtetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus sactetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consagrtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Lácula de inteiros do luctus blandit. Nulla quis vehicula augue, lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris sactetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique ceri sagru, pulvinar elementum dui.
 
 **Leia mais**
 
@@ -77,7 +74,7 @@ Lorem ipsum dolor sit amet, consagrtetur adipiscing elit. Vestibulum placerat ma
 
 <img width="60px" alt="condições" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consagrtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Látula de lula do gluctus inteiro. Nulla quis vehicula augue, uma lacinia risus. Nunc pharetra fringilla enim eu suspirit. Mauris consagrtetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus sactetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consagrtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Lácula de inteiros do luctus blandit. Nulla quis vehicula augue, lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris sactetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique ceri sagru, pulvinar elementum dui.
 
 **Leia mais**
 

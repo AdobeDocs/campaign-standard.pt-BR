@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Scheduler
 description: A atividade Scheduler permite programar quando um fluxo de trabalho ou uma atividade será iniciada.
 audience: automating
@@ -10,16 +8,15 @@ context-tags: schedule,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 88%
+source-wordcount: '614'
+ht-degree: 89%
 
 ---
 
-
-# Scheduler{#scheduler}
+# Agendamentos{#scheduler}
 
 ## Descrição {#description}
 
@@ -82,4 +79,3 @@ Ao projetar um workflow agendado que inclui várias atividades, é necessário g
 No exemplo a seguir, a atividade é configurada para iniciar o fluxo de trabalho todas as segundas-feiras, às 7h, por tempo indeterminado.
 
 ![](assets/wkf_scheduler_example.png)
-

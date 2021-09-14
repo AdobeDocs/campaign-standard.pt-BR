@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Recursos preditivos de engajamento do usuário
 description: Saiba como usar tempo de envio preditivo e pontuação de engajamento.
 audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
-feature: Enviar Otimização de Tempo
+feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: 356bac989a6bd4c9039910e2d9c59f33ce1153f8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 99%
+source-wordcount: '1045'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +31,6 @@ O Adobe Campaign Standard oferece dois novos modelos de aprendizado de máquina:
 
 >[!IMPORTANT]
 >Esse recurso não está disponível para uso imediato como parte do produto. A implementação exige o engajamento da Adobe Consulting. Entre em contato com seu representante da Adobe para obter mais detalhes.
-
 
 ## Otimização preditiva do tempo de envio{#predictive-send-time}
 
@@ -108,7 +105,6 @@ AddHours([currentDelivery/scheduling/@contactDate],
 >[!NOTE]
 >
 >O modelo de dados pode ser diferente dependendo da implementação.
-
 
 
 ## Pontuação de envolvimento preditivo {#predictive-scoring}

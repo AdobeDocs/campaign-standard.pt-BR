@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: '"Etapa 3: verificar a extensão"'
 description: Saiba como acessar o campo estendido com a API Rest.
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: use-case--extending-the-api
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 34cb416c-ee3d-4b7c-a75b-640432db320d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 12%
+source-wordcount: '59'
+ht-degree: 13%
 
 ---
-
 
 # Etapa 3: verificar a extensão{#step-verify-the-extension}
 
@@ -31,4 +28,3 @@ ht-degree: 12%
    ![](assets/extendpandsapiview.png)
 
    O campo agora está disponível para novos desenvolvimentos e integrações.
-

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Gerenciamento de pacotes
 description: Os administradores podem definir pacotes para trocar recursos entre diferentes instâncias do Adobe Campaign usando arquivos XML estruturados.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: packageDef,overview;packageInstall,main
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f9b36b4d-0e9d-4dcf-9079-91dc83764102
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 99%
+source-wordcount: '1053'
+ht-degree: 100%
 
 ---
-
 
 # Gerenciamento de pacotes{#managing-packages}
 

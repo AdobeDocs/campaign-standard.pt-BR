@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Criar e enviar uma notificação por push
 description: Siga estas etapas para criar uma notificação por push de envio único no Adobe Campaign.
 audience: channels
@@ -11,9 +9,9 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '857'
 ht-degree: 4%
 
 ---

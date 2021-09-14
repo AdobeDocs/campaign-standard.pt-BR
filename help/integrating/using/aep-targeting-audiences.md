@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Definição de públicos da Adobe Experience Platform
+title: Direcionamento de públicos da Adobe Experience Platform
 description: Saiba como direcionar públicos do Adobe Experience Platform em fluxos de trabalho.
 audience: automating
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: channel-activities
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 11e2cd7e-99b7-45cc-a0c2-41049128fe49
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '404'
 ht-degree: 5%
 
 ---
 
-
-# Definição de públicos da Adobe Experience Platform {#targeting-aep-audiences}
+# Direcionamento de públicos da Adobe Experience Platform {#targeting-aep-audiences}
 
 >[!IMPORTANT]
 >
@@ -67,6 +64,6 @@ Agora é possível configurar o workflow com outras atividades. Você pode, por 
 Para obter mais informações sobre como usar workflows e deliveries, consulte estas seções:
 
 * [Introdução aos workflows](../../automating/using/get-started-workflows.md)
-* [Criação de um workflow](../../automating/using/building-a-workflow.md)
+* [Criação de um fluxo de trabalho](../../automating/using/building-a-workflow.md)
 * [Introdução aos canais de comunicação](../../channels/using/get-started-communication-channels.md)
 * [Sobre as atividades de canal](../../automating/using/about-channel-activities.md)

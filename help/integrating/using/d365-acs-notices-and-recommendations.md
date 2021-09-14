@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Gerenciamento de dados do Campaign e do Microsoft Dynamics 365
 description: Saiba como o Campaign Standard e o Microsoft Dynamics 365 gerenciam dados comuns
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-feature: Integração do Microsoft CRM
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: f28aab2ac295d8a45598f5d76a86e594deeece4a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2507'
 ht-degree: 1%
 
 ---
@@ -55,7 +53,7 @@ Abaixo estão os links para ajudar a orientá-lo na implementação de solicita�
 >
 >Se qualquer registro de recurso personalizado do Campaign contiver informações pessoais, aplicáveis ao uso do Campaign por um cliente, esse registro deverá ser vinculado a um registro de perfil do Campaign correspondente (diretamente ou por meio de outro recurso personalizado), de modo que uma exclusão relacionada à privacidade no registro de perfil também possa excluir o registro de recurso personalizado vinculado contendo informações pessoais; as opções de vinculação e exclusão entre as entidades devem ser configuradas para permitir essa remoção em cascata dos registros vinculados. As informações pessoais não devem ser inseridas em um recurso personalizado que não esteja vinculado ao perfil.
 
-## Rejeitar {#opt-out}
+## Recusar {#opt-out}
 
 Devido às diferenças nos atributos de opt out entre o Microsoft Dynamics 365 e o Campaign, e às diferenças nas necessidades de negócios de cada cliente, o mapeamento de opt out foi deixado como um exercício para o cliente concluir.  É importante garantir que as opções de não participação sejam mapeadas corretamente entre sistemas para que as preferências de não participação do usuário final sejam mantidas e eles não recebam uma comunicação por meio de um canal do qual tenham optado.
 

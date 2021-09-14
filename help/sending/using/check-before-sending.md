@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Verificar antes de enviar
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"Quando a mensagem estiver pronta, saiba como executar todas as verificações antes de enviar"'
-feature: Capacidade de delivery
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '410'
 ht-degree: 90%
 
 ---
@@ -24,7 +22,7 @@ Quando a mensagem estiver pronta, certifique-se de que seu conteúdo está sendo
 
 Antes de enviar a mensagem, verifique também se os parâmetros e a configuração estão consistentes com o delivery.
 
-## Por que a validação é a chave {#validation-is-key}
+## Importância da validação {#validation-is-key}
 
 Antes de enviar um delivery, você precisa garantir que seus recipients receberão a mensagem que você realmente deseja enviar. Para fazer isso é necessário validar o conteúdo da mensagem e os parâmetros do delivery.
 
@@ -52,7 +50,7 @@ O envio de provas permite a verificação do link de opção de não participaç
 
 Saiba mais [nesta seção](../../sending/using/sending-proofs.md).
 
-## Configurar deliveries de teste A/B {#a-b-testing-deliveries}
+## Configurar entregas de teste A/B {#a-b-testing-deliveries}
 
 Se você tiver vários conteúdos para um delivery de email, poderá usar o teste A/B para descobrir qual versão terá o maior impacto na população direcionada.
 

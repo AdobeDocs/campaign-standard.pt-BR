@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Sinal externo
 description: A atividade de sinal externo aciona um workflow quando algumas condições são atendidas com êxito em outro workflow.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: signal,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a4fbd6b5-7cfb-44ad-bf3a-f3aabc122b77
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 95%
+source-wordcount: '600'
+ht-degree: 96%
 
 ---
-
 
 # Sinal externo{#external-signal}
 
@@ -46,7 +43,7 @@ Observe que uma atividade **[!UICONTROL External signal]** pode ser acionada a p
 * [Caso de uso: Atividade de sinal externo e importação](../../automating/using/external-signal-data-import.md) de dados.
 * [Caso de uso: Chamada de workflow para criar um público-alvo a partir de um arquivo usando parâmetros externos](../../automating/using/use-case-calling-workflow.md)
 
-## Configuração {#configuration}Fi
+## Configuração {#configuration}
 
 Ao configurar um sinal externo, é importante primeiro configurar a atividade **[!UICONTROL External signal]** no workflow de destino. Quando essa configuração for concluída, a **[!UICONTROL External signal]** atividade desse workflow ficará disponível para configurar a atividade **[!UICONTROL End]** do workflow de origem.
 

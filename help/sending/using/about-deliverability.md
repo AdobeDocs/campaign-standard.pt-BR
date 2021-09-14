@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Sobre a capacidade de entrega no Adobe Campaign Standard
 description: Saiba mais sobre os conceitos e as práticas recomendadas relacionadas à capacidade de entrega, bem como sobre as ferramentas oferecidas pelo Adobe Campaign Standard para otimizar o envio de seus deliveries.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Capacidade de delivery
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 5e523519-7192-4031-9d96-559af23074d9
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '745'
 ht-degree: 75%
 
 ---
@@ -26,7 +24,7 @@ Mais precisamente, a capacidade de delivery refere-se ao conjunto de caracterís
 
 Para aprofundar o assunto e saber mais sobre os termos, conceitos e abordagens principais da capacidade de delivery, consulte o [Manual de práticas recomendadas de capacidade de delivery da Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=pt-BR).
 
-## Como melhorar a capacidade de delivery {#deliverability-key-points}
+## Como melhorar a capacidade de entrega {#deliverability-key-points}
 
 Os problemas de capacidade de delivery estão geralmente ligados às medidas de proteção contra spam implementadas pelos provedores de serviços de Internet e administradores de servidores de correio.
 
@@ -53,7 +51,7 @@ Com o Adobe Campaign, a taxa da capacidade de delivery depende de vários fatore
 * Autenticação de mensagem (SPF, DKIM, DMARC): consulte [esta seção](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=pt-BR#authentication).
 * Reputação do remetente: para saber como os principais ISPs avaliam a reputação de um remetente, consulte [esta seção](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html?lang=pt-BR).
 
-## Ferramentas de capacidade de delivery do Campaign {#deliverability-tools}
+## Ferramentas de capacidade de entrega do Campaign {#deliverability-tools}
 
 O Adobe Campaign fornece várias ferramentas para acompanhar e melhorar o desempenho de deliverability de sua plataforma. Esta página também destaca os princípios mais importantes que você deve ter em mente para otimizar a capacidade de delivery ao usar o Campaign.
 

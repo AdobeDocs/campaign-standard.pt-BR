@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Sobre as atividades de execução
+title: Sobre atividades de execução
 description: As atividades de execução estão disponíveis no lado esquerdo da tela.
 audience: automating
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: execution-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e2841f26-6f87-4bc4-baf7-c3c29dd69eae
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 65%
+source-wordcount: '65'
+ht-degree: 67%
 
 ---
 
-
-# Sobre as atividades de execução{#about-execution-activities}
+# Sobre atividades de execução{#about-execution-activities}
 
 Na paleta, no lado esquerdo da tela, expanda a seção **[!UICONTROL Execution]**.
 
@@ -35,4 +32,3 @@ A seção **[!UICONTROL Execution]** inclui as seguintes atividades:
 * [Aguardar](../../automating/using/wait.md)
 * [Sinal externo](../../automating/using/external-signal.md)
 * [Teste](../../automating/using/test.md)
-

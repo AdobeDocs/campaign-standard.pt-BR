@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Relatório no aplicativo
 description: Com o relatório pronto para uso no aplicativo, saiba mais sobre o sucesso das mensagens no aplicativo.
 audience: reporting
@@ -9,14 +7,13 @@ topic-tags: list-of-reports
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b2ac9b82-fbe2-4a19-848c-94597b6141f0
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 2%
+source-wordcount: '242'
+ht-degree: 1%
 
 ---
-
 
 # Relatório no aplicativo{#in-app-report}
 
@@ -47,4 +44,3 @@ A segunda tabela **Cliques e descartes no aplicativo** é dividida em três cate
 * **[!UICONTROL Unique In-App clicks]**: Número de vezes que os destinatários clicaram no Botão 1 ou no Botão 2.
 * **[!UICONTROL In-App dismissal]**: Número total de mensagens que os recipients rejeitaram clicando no botão Fechar ou descartando automaticamente.
 * **[!UICONTROL Unique In-App dismissal]**: Número de vezes em que os recipients rejeitaram uma mensagem no aplicativo.
-

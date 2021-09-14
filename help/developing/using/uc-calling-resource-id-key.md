@@ -1,19 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Chamada de um recurso usando uma chave de identificação composta
 description: Saiba como chamar um recurso usando uma chave de identificação composta
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c7aca0c3-525d-4195-8c04-2fad32ca43b7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '588'
 ht-degree: 7%
 
 ---
-
 
 # Chamada de um recurso usando uma chave de identificação composta{#calling-a-resource-using-a-composite-identification-key}
 
@@ -57,7 +54,7 @@ Tópicos relacionados:
 
 1. Agora você pode configurar a definição de filtro para poder chamar o recurso usando sua chave de identificação.
 
-## Etapa 2: Configure a definição de filtro{#step-2-configure-the-filter-definition}
+## Etapa 2: Configurar a definição de filtro{#step-2-configure-the-filter-definition}
 
 >[!NOTE]
 > Os conceitos globais ao configurar definições de filtro são detalhados em [this section](../../developing/using/configuring-filter-definition.md).
@@ -89,7 +86,7 @@ Tópicos relacionados:
 
 1. A definição do filtro está configurada. Você pode publicar o recurso para que o filtro esteja disponível.
 
-## Etapa 3: Chame o recurso com base em sua chave de identificação{#step-3-call-the-resource-based-on-its-identification-key}
+## Etapa 3: Chamar o recurso com base em sua chave de identificação{#step-3-call-the-resource-based-on-its-identification-key}
 
 Depois que a chave de identificação e sua definição de filtro forem configuradas, você poderá usá-las para chamar o recurso, na interface padrão do Campaign ou em APIs REST.
 

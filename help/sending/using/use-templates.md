@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Usar templates do delivery
+title: Usar modelos de entrega
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"Os templates do delivery oferecem mais eficiência ao fornecer cenários prontos para os tipos mais comuns de atividades."'
-feature: Capacidade de delivery
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '815'
 ht-degree: 65%
 
 ---
@@ -24,7 +22,7 @@ Os templates do delivery oferecem mais eficiência ao fornecer cenários prontos
 
 Saiba mais sobre templates do delivery [nesta seção](../../start/using/marketing-activity-templates.md).
 
-## Introdução a templates do delivery {#gs-templates}
+## Introdução a modelos de entrega {#gs-templates}
 
 Um [template do delivery](../../start/using/marketing-activity-templates.md#creating-a-new-template) permite definir uma única vez um conjunto de propriedades técnicas e funcionais que atendam às suas necessidades e que possam ser reutilizadas para delivery futuros. Você pode economizar tempo e padronizar deliveries quando necessário.
 
@@ -38,7 +36,7 @@ Quando você gerencia várias marcas no Adobe Campaign, a Adobe recomenda ter um
 
 * Alguns ISPs (provedores de serviço de internet) verificam a validade do endereço do remetente antes de aceitarem mensagens.
 
-* Um endereço mal formado pode resultar na rejeição pelo servidor de recebimento. Você precisa ter certeza de que o endereço informado está correto.
+* Um endereço formado incorretamente pode resultar na rejeição pelo servidor de recebimento. Você precisa ter certeza de que o endereço informado está correto.
 
 * O endereço deve identificar explicitamente o remetente. O domínio deve ser de propriedade e registrado pelo remetente.
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: União
 description: A atividade Union permite reagrupar o resultado de várias atividades em um único público-alvo.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: union,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3189745c-dcc9-4719-b080-85ffa3bb66be
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 97%
+source-wordcount: '377'
+ht-degree: 98%
 
 ---
-
 
 # União{#union}
 

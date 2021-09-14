@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Chamada de fluxo de trabalho com parâmetros externos
 description: Esta seção detalha como chamar um workflow com parâmetros externos.
 audience: automating
@@ -10,9 +8,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 8c1a47ed-3467-4fcd-8747-86f0e8f15cec
-source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '813'
 ht-degree: 1%
 
 ---

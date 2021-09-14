@@ -1,22 +1,19 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Atualizar qualificação de devolução após uma interrupção de ISP
-description: Saiba como atualizar a qualificação de devolução após uma interrupção do ISP.
+title: Atualizar qualificação de rejeição após uma interrupção do ISP
+description: Saiba como atualizar a qualificação de rejeição após uma interrupção do ISP.
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
-translation-type: tm+mt
-source-git-commit: f58a6d067a562e5e157e249e6b97c02669caf3a5
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 1%
+ht-degree: 91%
 
 ---
 
-# Atualizar qualificação de rejeição após uma interrupção de ISP {#update-bounce-qualification.md}
+# Atualizar qualificação de rejeição após uma interrupção do ISP {#update-bounce-qualification.md}
 
 Se NÃO estiver executando a versão mais recente do Campaign, esta seção pode se aplicar a você. Consulte o representante da Adobe Campaign.
 
@@ -24,16 +21,16 @@ Se NÃO estiver executando a versão mais recente do Campaign, esta seção pode
 
 No caso de uma interrupção de um ISP, os emails enviados por meio do Campaign não podem ser entregues com êxito ao recipient: esses emails serão marcados incorretamente como rejeições.
 
-Em dezembro de 2020, um problema global no Gmail resultou em mensagens de email enviadas para endereços de email Gmail válidos serem devolvidas incorretamente como endereços de email inválidos pelos servidores Gmail com a seguinte resposta: *&quot;550-5.1.1 A conta de email que você tentou acessar não existe.&quot;*
+Em dezembro de 2020, um problema global no Gmail fez com que mensagens de email enviadas para endereços de email Gmail válidos fossem rejeitadas incorretamente como endereços de email inválidos pelos servidores do Gmail, com a seguinte resposta: *&quot;550-5.1.1 A conta de email que você tentou acessar não existe.&quot;*
 
-O Google declarou que as interrupções e interrupções do Gmail que causaram esse problema começaram em 14 de dezembro às 6:55 e terminaram às 6:09 PM EST em 15 de dezembro. Nossa análise de dados também mostrou um pico muito curto em rejeições de Gmail às 2:06AM EST no dia 16 de dezembro, com a maioria ocorrendo no dia 15 de dezembro entre as 14:00 EST e 18:30 EST.
+O Google declarou que as interrupções e as falhas do Gmail que causaram esse problema começaram em 14 de dezembro às 6h55 e terminaram às 18h09 EST em 15 de dezembro. Nossa análise de dados também mostrou um pico muito curto de rejeições no Gmail às 2h06 EST no dia 16 de dezembro, com a maioria ocorrendo no dia 15 de dezembro entre 14h EST e 18h30 EST.
 
 >[!NOTE]
 >
->Você pode verificar o Painel de status do Google Workspace em [esta página](https://www.google.com/appsstatus#hl=en&amp;v=status).
+>Você pode verificar o Painel de status do Google Workspace [nesta página](https://www.google.com/appsstatus#hl=en&amp;v=status).
 
 
-De acordo com a lógica padrão de manipulação de rejeição, o Adobe Campaign adicionou automaticamente esses recipients à lista de quarentena com uma configuração **[!UICONTROL Status]** de **[!UICONTROL Quarantine]**. Para corrigir isso, você precisa atualizar a tabela de quarentena no Campaign localizando e removendo esses recipients ou alterando seus **[!UICONTROL Status]** para **[!UICONTROL Valid]** para que o workflow de limpeza noturna os remova.
+De acordo com a lógica padrão de manipulação de rejeição, o Adobe Campaign adicionou automaticamente esses recipients à lista de quarentena com uma configuração **[!UICONTROL Status]** de **[!UICONTROL Quarantine]**. Para corrigir isso, você precisa atualizar a tabela de quarentena no Campaign localizando e removendo esses recipients ou alterando seus **[!UICONTROL Status]** para **[!UICONTROL Valid]** para que o fluxo de trabalho de limpeza noturna os remova.
 
 Para encontrar os recipients que foram afetados por esse problema do Gmail, ou caso isso aconteça novamente com qualquer outro ISP, consulte as instruções abaixo.
 
@@ -41,7 +38,7 @@ Para encontrar os recipients que foram afetados por esse problema do Gmail, ou c
 
 Você precisará executar um query na tabela de quarentena para filtrar todos os recipients do Gmail (ou de outro ISP) que foram potencialmente afetados pela interrupção para que possam ser removidos da lista de quarentena e incluídos em futuros deliveries de email do Campaign.
 
-Com base no período do incidente, abaixo estão as diretrizes recomendadas para essa consulta.
+Com base no período do incidente, abaixo estão as diretrizes recomendadas para esse query.
 
 >[!IMPORTANT]
 >
@@ -49,12 +46,12 @@ Com base no período do incidente, abaixo estão as diretrizes recomendadas para
 
 Para instâncias do Campaign com informações de resposta de rejeição SMTP no campo **[!UICONTROL Error text]** da lista de quarentena:
 
-* **O texto de erro (texto de quarentena)** contém &quot;550-5.1.1 A conta de email que você tentou acessar não existe&quot; E o texto de  **Erro (texto de quarentena)** contém &quot;support.google.com&quot; **
-* **Atualizar status (@lastModified)** em ou após 14/12/2020 6:55:00
-* **Atualizar status (@lastModified)** em ou antes de 16/12/2020 6:00:00
+* **O texto de erro (texto de quarentena)** contém &quot;550-5.1.1 A conta de email que você tentou acessar não existe&quot; E o texto de **Erro (texto de quarentena)** contém &quot;support.google.com&quot; **
+* **Atualizar status (@lastModified)** em ou após 14/12/2020 6:55:00 AM
+* **Atualizar status (@lastModified)** em ou antes de 16/12/2020 6:00:00 AM
 
-Depois de ter a lista de recipients afetados, você pode defini-los como um status **[!UICONTROL Valid]** para que sejam removidos da lista de quarentena pelo workflow **[!UICONTROL Database cleanup]** ou simplesmente excluí-los da tabela.
+Depois de ter a lista de recipients afetados, você pode defini-los como um status **[!UICONTROL Valid]** para que sejam removidos da lista de quarentena pelo fluxo de trabalho **[!UICONTROL Database cleanup]** ou simplesmente excluí-los da tabela.
 
 **Tópicos relacionados:**
-* [Compreender as falhas de delivery](../../sending/using/understanding-delivery-failures.md)
+* [Compreender as falhas de entrega](../../sending/using/understanding-delivery-failures.md)
 * [Qualificação de email de rejeição](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)

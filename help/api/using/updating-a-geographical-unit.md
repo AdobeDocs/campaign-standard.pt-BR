@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Atualização da unidade geográfica de um perfil
 description: Saiba como gerenciar unidades geográficas com APIs.
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9dc07d86-00b2-4885-b6ac-0a6f9bc45236
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 11%
+source-wordcount: '94'
+ht-degree: 10%
 
 ---
-
 
 # Atualização da unidade geográfica de um perfil {#updating-a-geographical-unit}
 

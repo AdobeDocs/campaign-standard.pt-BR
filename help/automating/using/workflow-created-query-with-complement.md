@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Criar deliveries com um complemento
+title: Criar entregas com um complemento
 description: Este caso de uso mostra como criar deliveries com um complemento.
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: workflow,use-case,segmentation
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5cd71e07-f955-4c15-bdfb-14b0daccec1a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 40%
+source-wordcount: '239'
+ht-degree: 41%
 
 ---
 
-
-# Criar deliveries com um complemento {#deliveries-with-complement}
+# Criar entregas com um complemento {#deliveries-with-complement}
 
 Você pode enviar um email para os clientes: um para clientes criados há menos de um ano, um para clientes criados há mais de um ano.
 
@@ -27,7 +24,7 @@ Você pode enviar um email para os clientes: um para clientes criados há menos 
 1. Selecione **[!UICONTROL New Workflow]** como tipo de fluxo de trabalho e clique em **[!UICONTROL Next]**.
 1. Insira as propriedades do fluxo de trabalho e clique em **[!UICONTROL Create]**.
 
-## Criar uma atividade de Query {#create-a-query-activity}
+## Criar uma atividade Query {#create-a-query-activity}
 
 1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arraste e solte uma atividade de [Query](../../automating/using/query.md).
 1. Clique duas vezes na atividade.
@@ -37,7 +34,7 @@ Você pode enviar um email para os clientes: um para clientes criados há menos 
 
 ![](assets/wf-complement-query.png)
 
-## Criar uma atividade de Segmentação {#create-a-segmentation-activity}
+## Criar uma atividade de segmentação {#create-a-segmentation-activity}
 
 1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arraste e solte uma atividade de [Segmentação](../../automating/using/segmentation.md) e clique duas vezes nela.
 1. Passe o mouse sobre o segmento e clique em ![](assets/edit_darkgrey-24px.png) para direcionar os clientes adicionados este ano no banco de dados.

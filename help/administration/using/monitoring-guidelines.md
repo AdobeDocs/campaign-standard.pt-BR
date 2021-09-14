@@ -1,20 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Diretrizes de monitoramento
 description: Esta seção apresenta as diretrizes gerais para monitoramento do Campaign Standard.
 audience: production
 content-type: reference
 topic-tags: introduction
 index: y
-feature: Gerenciamento de acesso
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 21%
+source-wordcount: '505'
+ht-degree: 20%
 
 ---
 
@@ -23,7 +21,7 @@ ht-degree: 21%
 <table>
 <tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-system">Monitoramento do sistema</a></p></td>
 <td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#moniroting-workflows">Monitoramento de workflows</a></p></td>
-<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">Monitoramento de deliveries</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">Monitoramento de entregas</a></p></td></tr>
 </table>
 
 O Campaign Standard fornece várias maneiras de monitorar as instâncias para garantir que o sistema esteja íntegro e, eventualmente, solucionar problemas que podem ocorrer ao configurar workflows, enviar deliveries etc.
@@ -47,7 +45,7 @@ O Painel de controle do Campaign permite gerenciar várias configurações da su
 
 >[!NOTE]
 >
->O Painel de controle do Campaign é acessível a todos os usuários administradores. As etapas para conceder acesso de Administrador a um usuário estão detalhadas [nesta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=pt-BR#discover-control-panel).
+>O Painel de controle do Campaign é acessível a todos os usuários administradores. As etapas para conceder acesso de Administrador a um usuário estão detalhadas [nesta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=br#discover-control-panel).
 
 **Objetos técnicos**
 
@@ -82,7 +80,7 @@ O monitoramento de logs do fluxo de trabalho é uma etapa essencial para analisa
 O Campaign Standard permite enviar notificações para supervisores a fim de monitorar a execução dos workflows e ver se há algum erro que exija sua atenção.
 [Leia mais](../../automating/using/monitoring-workflow-execution.md#error-management)
 
-## Monitoramento de deliveries {#monitoring-deliveries}
+## Monitoramento de entregas {#monitoring-deliveries}
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 

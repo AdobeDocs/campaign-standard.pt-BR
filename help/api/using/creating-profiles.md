@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Criação de perfis
 description: Saiba mais sobre como criar perfis com APIs.
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 69e8d034-6bdd-4b82-bcd7-1ef4be0a59b3
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 4%
+source-wordcount: '104'
+ht-degree: 3%
 
 ---
-
 
 # Criação de perfis {#creating-profiles}
 

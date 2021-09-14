@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Delivery de aniversário
+title: Entrega de aniversário
 description: Esse exemplo é um workflow de aniversário. Todos os dias, um email é enviado a perfis cujo aniversário é nesse dia.
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: delivery,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 535ddbce-d8ba-4578-9e37-10604291c95d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 68%
+source-wordcount: '172'
+ht-degree: 69%
 
 ---
 
-
-# Delivery de aniversário {#birthday-delivery}
+# Entrega de aniversário {#birthday-delivery}
 
 ![](assets/wkf_delivery_example_1.png)
 

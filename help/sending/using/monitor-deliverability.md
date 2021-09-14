@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Monitoramento da capacidade de entrega no Adobe Campaign Standard
 description: Use as ferramentas oferecidas pelo Adobe Campaign Standard para monitorar a capacidade de entrega da sua plataforma.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Capacidade de delivery
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '306'
 ht-degree: 58%
 
 ---
@@ -40,7 +38,7 @@ Você pode configurar os valores exibidos alterando a escala de tempo.
 
 Outros relatórios estão disponíveis, como **[!UICONTROL Delivery summary]** ou **[!UICONTROL Non-deliverables and bounces]**. Para obter mais informações, consulte [Relatórios dinâmicos](../../reporting/using/about-dynamic-reports.md).
 
-## Monitoramento de deliveries {#monitoring-deliveries}
+## Monitoramento de entregas {#monitoring-deliveries}
 
 O painel de mensagens oferece acesso aos logs do delivery: **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** e **[!UICONTROL Tracked URLs]**. Eles mostram os detalhes do envio, o target que foi excluído e o motivo, bem como as informações de rastreamento, como aberturas e cliques.
 

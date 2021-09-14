@@ -1,16 +1,13 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Personalização de listas
-description: '"Saiba como personalizar a exibição e agir em telas de lista no Adobe Campaign Standard:classificar, filtrar, excluir ou duplicar elementos. As telas do Lista exibem elementos de um ou vários recursos especificados."'
+description: '"Saiba como personalizar a exibição e atuar em telas de lista no Adobe Campaign Standard: classificação, filtragem, exclusão ou duplicação de elementos. Lista as telas que exibem elementos de um ou vários recursos especificados."'
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
-source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -36,85 +33,85 @@ ht-degree: 5%
     </td>
 </tr>
 <tr>
-<td>Projete seus delivery</td>
-<td>Criar delivery</td>
-<td>Personalize e torne seus delivery dinâmicos</td>
-<td>Rastreie e monitore seus delivery</td>
+<td>Projetar os deliveries</td>
+<td>Criar entregas</td>
+<td>Personalize e torne seus deliveries dinâmicos</td>
+<td>Rastrear e monitorar seus deliveries</td>
 <td>Configurar relatórios</td>
 </tr>
 </table>
 
-## Projete seus delivery
+## Projetar os deliveries
 
 <img width="60px" alt="condições" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consagrtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Látula de lula do gluctus inteiro. Nulla quis vehicula augue, uma lacinia risus. Nunc pharetra fringilla enim eu suspirit. Mauris consagrtetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus sactetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consagrtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Lácula de inteiros do luctus blandit. Nulla quis vehicula augue, lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris sactetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique ceri sagru, pulvinar elementum dui.
 
 **Leia mais**
 
 * xxxx
 * xxxx
 
-## Criar delivery
+## Criar entregas
 
 <img width="60px" alt="condições" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consagrtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Látula de lula do gluctus inteiro. Nulla quis vehicula augue, uma lacinia risus. Nunc pharetra fringilla enim eu suspirit. Mauris consagrtetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus sactetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consagrtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Lácula de inteiros do luctus blandit. Nulla quis vehicula augue, lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris sactetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique ceri sagru, pulvinar elementum dui.
 
 **Leia mais**
 
 * xxxx
 * xxxx
 
-## Personalize e torne seus delivery dinâmicos
+## Personalize e torne seus deliveries dinâmicos
 
 <img width="60px" alt="condições" src="assets/icon_profile.svg"/>
 
-Obtenha a atenção de seus clientes e melhore sua taxa de resposta usando conteúdo e cabeçalhos que são personalizados de acordo com seus perfis, suas preferências e suas atividades. Todas as suas informações de cliente estão centralizadas no Adobe Campaign e você pode oferta mensagens com conteúdo adaptado, por meio de diferentes canais.
+Obtenha a atenção de seus clientes e melhore sua taxa de resposta usando conteúdo e cabeçalhos personalizados de acordo com seus perfis, suas preferências e suas atividades. Todas as suas informações de cliente estão centralizadas no Adobe Campaign e você pode oferecer mensagens contendo conteúdo adaptado, por meio de canais diferentes.
 
-As mensagens personalizadas são fundamentais para enviar conteúdo relevante, oferta experiências personalizadas e aumentar as taxas de conversão e as experiências abertas. As mensagens entre canais entregues pela Adobe Campaign podem ser personalizadas de várias maneiras diferentes. Essas maneiras podem ser combinadas com critérios dependendo dos perfis. Você pode:
+As mensagens personalizadas são fundamentais para enviar conteúdo relevante, oferecer experiências personalizadas e aumentar as taxas de abertura e conversão. As mensagens entre canais entregues pelo Adobe Campaign podem ser personalizadas de várias maneiras diferentes. Essas maneiras podem ser combinadas com critérios dependendo dos perfis. Você pode:
 
-* Inserir [campos de personalização dinâmicos](../../designing/using/personalization.md#inserting-a-personalization-field) nas mensagens
-* Inserir [alocos de personalização predefinidos](../../designing/using/personalization.md#adding-a-content-block)
+* Insira [campos de personalização dinâmica](../../designing/using/personalization.md#inserting-a-personalization-field) em suas mensagens
+* Inserir [blocos de personalização predefinidos](../../designing/using/personalization.md#adding-a-content-block)
 * [Personalizar o ](../../designing/using/subject-line.md) remetente de um email ou SMS
 * [Personalizar a ](../../designing/using/subject-line.md) linha de assunto de um email
 * Criar [conteúdo condicional em um email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) ou [em uma landing page](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
-* Inserir [Texto dinâmico](../../channels/using/defining-dynamic-text.md) numa mensagem SMS ou numa notificação por push
+* Inserir [Texto dinâmico](../../channels/using/defining-dynamic-text.md) em uma mensagem SMS ou uma notificação por push
 
 ![](assets/delivery_content_43.png)
 
 **Leia mais**
 
-* Descubra a personalização do email por meio de uma [amostra completa](../../designing/using/personalization.md#example-email-personalization)
+* Descubra a personalização de email por meio de uma [amostra completa](../../designing/using/personalization.md#example-email-personalization)
 * [Personalização de URLs](../../designing/using/personalization.md#personalizing-urls)
-* [Configurar a personalização de uma imagem](../../designing/using/personalization.md#personalizing-an-image-source)
+* [Configuração da personalização de uma imagem](../../designing/using/personalization.md#personalizing-an-image-source)
 
-## Rastreie e monitore seus delivery
+## Rastrear e monitorar seus deliveries
 
 <img width="60px" alt="condições" src="assets/icon_profile.svg"/>
 
-Além dos modelos de relatórios avançados e prontos para uso, a Adobe Campaign permite que você crie relatórios personalizados em nível de delivery, campanha, usuário ou segmento. Rastreie suas mensagens e entenda o comportamento de seus clientes enriquecendo progressivamente seus dados de perfis. As ferramentas de relatórios e análise permitem que você capitalize em cada nova campanha, público alvo melhor suas ações de marketing e otimize seu impacto e retorno sobre o investimento.
+Além de modelos de relatórios avançados e prontos para uso, o Adobe Campaign permite criar relatórios personalizados em um delivery, campanha, usuário ou nível de segmento. Acompanhe suas mensagens e entenda o comportamento dos clientes, enriquecendo progressivamente os dados de perfil. As ferramentas de análise e geração de relatórios permitem capitalizar cada nova campanha, melhor direcionar suas ações de marketing e otimizar seu impacto e retorno sobre o investimento.
 
 A interface gráfica fornece acesso rápido e fácil aos principais indicadores e estatísticas de delivery.
 
 ![](assets/dynamic_report_intro.png)
 
-A interface do usuário do relatórios de campanhas facilita a criação de relatórios dinâmicos. Você pode usar variáveis de arrastar e soltar para personalizar seus relatórios e analisar o sucesso de suas campanhas. Dependendo da complexidade de seus query e cálculos, os dados podem ser agregados em uma visualização de lista ou acessados em um formato que facilita a geração de relatórios de análise de marketing.
+A interface do usuário dos relatórios de campanha facilita a criação de relatórios dinâmicos. Você pode usar variáveis de arrastar e soltar para personalizar seus relatórios e analisar o sucesso de suas campanhas. Dependendo da complexidade de suas consultas e cálculos, os dados podem ser agregados em uma exibição de lista ou acessados em um formato que facilita a geração de relatórios de análise de marketing.
 
-Com o Adobe Campaign, você pode monitorar e rastrear cada delivery individualmente. O painel de mensagens exibe registros dedicados para processos de acompanhamento, regras e identificar possíveis erros e avisos.
+Com o Adobe Campaign, você pode monitorar e rastrear cada delivery individualmente. O painel de mensagens exibe logs dedicados para acompanhar processos, regras e identificar possíveis erros e avisos.
 
 
 **Leia mais**
 
-* [Acesso ao relatórios](../../reporting/using/about-dynamic-reports.md)
-* [Monitorar um delivery](../../sending/using/monitoring-a-delivery.md)
+* [Acesso a relatórios](../../reporting/using/about-dynamic-reports.md)
+* [Monitoramento de uma entrega](../../sending/using/monitoring-a-delivery.md)
 * [Rastreamento de mensagens](../../sending/using/tracking-messages.md)
 
 ## Configurar relatórios
 
 <img width="60px" alt="condições" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consagrtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Látula de lula do gluctus inteiro. Nulla quis vehicula augue, uma lacinia risus. Nunc pharetra fringilla enim eu suspirit. Mauris consagrtetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus sactetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consagrtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Lácula de inteiros do luctus blandit. Nulla quis vehicula augue, lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris sactetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique ceri sagru, pulvinar elementum dui.
 
 **Leia mais**
 

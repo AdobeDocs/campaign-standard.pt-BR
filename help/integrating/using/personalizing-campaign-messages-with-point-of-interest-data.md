@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Personalização de mensagens do Campaign com dados de Ponto de interesse
 description: Saiba como criar uma mensagem personalizada com base na localização dos assinantes com a integração de dados do Ponto de interesse.
 audience: integrating
@@ -9,14 +7,13 @@ topic-tags: working-with-campaign-and-analytics-for-mobile
 feature: Audiences
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: fcc79829-902d-4547-87c5-8a213e1257b7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '260'
 ht-degree: 10%
 
 ---
-
 
 # Personalização de mensagens do Campaign com dados de Ponto de interesse{#personalizing-campaign-messages-with-point-of-interest-data}
 
@@ -64,7 +61,6 @@ O email com a oferta de desconto de 10% será enviado para assinantes que:
 
 **Tópicos relacionados:**
 
-* [Criar email](../../channels/using/creating-an-email.md)
+* [Criação de um email](../../channels/using/creating-an-email.md)
 * [Definição do conteúdo](../../designing/using/personalization.md#example-email-personalization)
 * [Envio de mensagens](../../sending/using/confirming-the-send.md)
-

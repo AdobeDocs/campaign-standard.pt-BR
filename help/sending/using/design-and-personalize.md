@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Criar conteúdo personalizado
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Saiba como criar o conteúdo da mensagem e tentar evitar problemas comuns que podem impedir a execução do delivery. 
-feature: Capacidade de delivery
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1033'
 ht-degree: 74%
 
 ---
@@ -123,7 +121,7 @@ O design responsivo garante que o email seja processado de maneira ideal para o 
 
 * O Campaign Email Designer vem com modelos formatados com design responsivo para dispositivos móveis. Saiba mais [nesta página](../../designing/using/using-reusable-content.md#content-templates).
 
-## Gestão de imagens {#manage-images}
+## Gerenciamento de imagens {#manage-images}
 
 Siga as diretrizes abaixo ao usar imagens.
 
@@ -147,6 +145,6 @@ Para serem acessadas de fora, as imagens usadas em emails e recursos públicos v
 
 ## Visualizar sua mensagem {#preview-msg}
 
-A Adobe recomenda visualizar a mensagem para verificar a personalização e como os recipients verão o delivery.
+A Adobe recomenda visualizar a mensagem para verificar a personalização e como os recipients verão a entrega.
 
 No Designer de email, o botão **[!UICONTROL Preview]** permite visualizar a renderização de cada conteúdo para um recipient. Os campos de personalização e os elementos condicionais do conteúdo são substituídos pelas informações correspondentes para o perfil selecionado. [Saiba mais](../../sending/using/previewing-messages.md)

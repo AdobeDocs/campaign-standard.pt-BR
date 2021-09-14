@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Reconciliação de dados usando relações
 description: O exemplo a seguir demonstra um fluxo de trabalho que atualiza o banco de dados usando os dados de compra de um arquivo.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: reconciliation,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7d0e3f17-ef04-4890-b63b-6957fc6cd648
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 85%
+source-wordcount: '338'
+ht-degree: 86%
 
 ---
-
 
 # Reconciliação de dados usando relações {#reconciliation-relations}
 

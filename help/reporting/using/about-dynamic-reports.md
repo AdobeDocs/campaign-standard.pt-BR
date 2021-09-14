@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Introdução a relatórios dinâmicos
 description: Com relatórios dinâmicos, arraste e solte variáveis e dimensões em seu ambiente de forma livre e analise o sucesso de suas campanhas.
 audience: reporting
@@ -9,14 +7,13 @@ topic-tags: about-reporting
 feature: Reporting
 role: Leader
 level: Beginner
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: fc3b28f3-63f6-4edc-923d-c7eb7925d1b7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '791'
 ht-degree: 6%
 
 ---
-
 
 # Introdução a relatórios dinâmicos {#about-dynamic-reports}
 
@@ -51,7 +48,7 @@ Os relatórios dinâmicos são divididos em duas categorias:
 
 ![](assets/dynamic_report_overview.png)
 
-## Contrato de uso do relatório dinâmico {#dynamic-reporting-usage-agreement}
+## Contrato de uso de relatórios dinâmicos {#dynamic-reporting-usage-agreement}
 
 O objetivo do contrato de uso do Dynamic Reporting é funcionar como um consentimento pop-up para o processamento de dados. Por padrão, o contrato é visível apenas e só pode ser aceito ou recusado por usuários atribuídos com direitos administrativos.
 

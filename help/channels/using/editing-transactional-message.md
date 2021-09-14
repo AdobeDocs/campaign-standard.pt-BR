@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Edição de uma mensagem transacional
 description: Saiba como acessar, editar e personalizar uma mensagem transacional.
 audience: channels
@@ -11,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
-source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 30%

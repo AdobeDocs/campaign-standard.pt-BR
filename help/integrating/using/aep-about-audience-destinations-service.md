@@ -1,24 +1,22 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Sobre o serviço Destinos do Audience
+title: Sobre o serviço de destinos de público
 description: Saiba mais sobre o serviço Destinos do público-alvo.
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: Integração do Microsoft CRM
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 34235749-d056-4d4c-9939-7dc52f980a76
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '376'
 ht-degree: 2%
 
 ---
 
-# Sobre o serviço Destinos do Audience {#about-audiences}
+# Sobre o serviço de destinos de público {#about-audiences}
 
 >[!IMPORTANT]
 >

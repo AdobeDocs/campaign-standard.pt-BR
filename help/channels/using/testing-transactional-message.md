@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Teste de mensagem transacional
 description: Saiba como testar uma mensagem transacional no Adobe Campaign.
 audience: channels
@@ -11,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 5138826d-ae08-403b-91ef-91027ef6e78e
-source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 37%

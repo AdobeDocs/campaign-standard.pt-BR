@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Delivery por email
 description: A atividade Email delivery permite configurar o envio de um único email de envio ou de um email recorrente em um workflow.
 audience: automating
@@ -10,16 +8,15 @@ context-tags: delivery,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e38ff3dd-8fb0-419b-9090-a3165852bf83
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '857'
 ht-degree: 94%
 
 ---
 
-
-# Delivery por email{#email-delivery}
+# Entrega por email{#email-delivery}
 
 ## Descrição {#description}
 

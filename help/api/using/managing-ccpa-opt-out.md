@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Gerenciamento de auto-exclusão do CCPA
+title: Gerenciamento de recusa do CCPA
 description: Saiba como gerenciar a recusa do CCPA com APIs
 audience: developing
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: bfc52511-f66f-4948-a939-d0d77e8ef03c
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '148'
 ht-degree: 4%
 
 ---
 
-
-# Gerenciamento de auto-exclusão do CCPA {#managing-ccpa-optout}
+# Gerenciamento de recusa do CCPA {#managing-ccpa-optout}
 
 O status de recusa da CCPA de um perfil pode ser monitorado e gerenciado usando o atributo de perfil **ccpaOptOut** e os valores &quot;true&quot; ou &quot;false&quot;:
 

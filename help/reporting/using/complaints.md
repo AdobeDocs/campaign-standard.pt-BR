@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Reclamações
 description: Com o relatório de Complaints pronto para uso, saiba quantas vezes a entrega foi declarada spam.
 audience: reporting
@@ -10,14 +8,13 @@ context-tags: deliveryComplaintsReport,main;campaignComplaintsReport,main;progra
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 8de120e9-014f-4faa-948b-843b2ec03f5e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '86'
 ht-degree: 17%
 
 ---
-
 
 # Reclamações{#complaints}
 

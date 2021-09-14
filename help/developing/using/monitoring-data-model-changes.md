@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Monitoramento de alterações no modelo de dados
 description: Saiba como diagnosticar o modelo de dados Adobe Campaign.
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: about-custom-resources
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ced9a897-47e9-4128-84fb-35660c553cd4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 15%
+source-wordcount: '59'
+ht-degree: 16%
 
 ---
-
 
 # Monitoramento de alterações no modelo de dados{#monitoring-data-model-changes}
 
@@ -30,9 +27,8 @@ O menu **[!UICONTROL Diagnosis]** permite consultar os diferentes objetos técni
 
 É possível exibir os seguintes tipos de objetos:
 
-* Schemas de dados
+* Esquemas de dados
 * Páginas da Web
 * Filtros
 * Navegação
 * Trabalhos em lote
-

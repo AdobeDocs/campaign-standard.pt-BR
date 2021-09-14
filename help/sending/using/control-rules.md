@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Regras de controle
 description: Saiba como reforçar a verificação de qualidade de suas mensagens com regras de controle.
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-feature: Regras de tipologia
+feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 6461c128-1e42-4685-88f8-507244147e6f
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '440'
 ht-degree: 17%
 
 ---

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Recuperação de arquivos de dados de privacidade
 description: Saiba como recuperar arquivos de dados de privacidade com APIs
 audience: developing
@@ -9,20 +7,19 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: df06cb86-dba2-41e4-81d0-66f3a86e47bd
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 12%
+source-wordcount: '194'
+ht-degree: 21%
 
 ---
-
 
 # Recuperação de arquivos de dados de privacidade {#retrieving-privacy-data-files}
 
 >[!CAUTION]
 >
->A integração [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) é o método que você deve usar para todas as solicitações de acesso e exclusão. A partir da versão 19.4, o uso da API e da interface do Campaign para solicitações de acesso e exclusão ficará obsoleto. Para obter mais informações sobre recursos obsoletos e removidos do Campaign Standard, consulte [esta página](../../rn/using/deprecated-features.md).
+>A integração [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) é o método que você deve usar para todas as solicitações de acesso e exclusão. A partir da versão 19.4, o uso da API e da interface do Campaign para solicitações de acesso e exclusão se tornará obsoleto. Para obter mais informações sobre recursos obsoletos e removidos do Campaign Standard, consulte [esta página](../../rn/using/deprecated-features.md).
 
 Para recuperar o arquivo que contém todas as informações associadas a um valor de reconciliação, siga este procedimento de três etapas:
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: DataModel
 description: Saiba mais sobre o datamodel
 audience: developing
@@ -8,14 +6,13 @@ content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 652c22a5-7fff-4d08-9396-f0b292aaca76
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1248'
 ht-degree: 6%
 
 ---
-
 
 # Perfil (nms:recipient)
 
@@ -290,7 +287,7 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>assinaturas</td>
-                  <td>Subscrições</td>
+                  <td>Assinaturas</td>
                   <td>coleção </td>
                   <td> </td>
                </tr>

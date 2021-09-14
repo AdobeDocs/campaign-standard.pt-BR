@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Excluir um recurso
+title: Exclusão de um recurso
 description: 'Saiba como excluir um recurso '
 audience: developing
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: adding-or-extending-a-resource
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4ddfdbcc-a154-4c10-a97e-73ad888d1f1f
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '242'
 ht-degree: 14%
 
 ---
 
-
-# Excluir um recurso{#deleting-a-resource}
+# Exclusão de um recurso{#deleting-a-resource}
 
 Para excluir um recurso, o recurso em questão deve ser **[!UICONTROL Draft]**. O recurso está no status **[!UICONTROL Draft]** se:
 

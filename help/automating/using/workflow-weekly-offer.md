@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Criar um delivery semanal
+title: Criar uma entrega semanal
 description: Este caso de uso mostra como criar um delivery semanal.
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: workflow,use-case,query,delivery,scheduler
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 32d9d174-8438-48d7-b876-33a0c35d9549
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 80%
+source-wordcount: '242'
+ht-degree: 81%
 
 ---
 
-
-# Criação de um delivery de email todas as terças-feiras{#creating-email-every-tuesday}
+# Criação de delivery de email todas as terças-feiras{#creating-email-every-tuesday}
 
 Você pode enviar um email todas as terças-feiras a todos os clientes com ofertas especiais.
 

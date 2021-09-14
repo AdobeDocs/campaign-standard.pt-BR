@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Importação de dados com modelos de importação
 description: Saiba como coletar dados para alimentar seu banco de dados do Campaign.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: importing-and-exporting-data
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5e93b39e-cdd1-4632-8f65-dfa76a735626
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1090'
 ht-degree: 99%
 
 ---
-
 
 # Importação de dados com modelos de importação{#importing-data-with-import-templates}
 
@@ -45,7 +42,7 @@ As importações podem ser filtradas de acordo com o modelo a partir do qual for
 
 Os detalhes da execução da importação agora estão disponíveis. Tanto o arquivo importado quanto o que contém os dados rejeitados (dados que não foram importados) podem ser baixados no computador.
 
-## Configuração de modelos de importação {#setting-up-import-templates}
+## Configuração de templates de importação {#setting-up-import-templates}
 
 Os templates de importação permitem que o administrador predefina um certo número de configurações técnicas de importação. Esses templates depois podem ser disponibilizados para os usuários padrão executarem e fazerem upload de arquivos.
 

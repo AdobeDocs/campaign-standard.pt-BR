@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Confirmação de assinatura de um serviço
 description: Siga estas etapas para configurar uma mensagem de confirmação para os perfis que estão assinando um serviço no Adobe Campaign.
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-feature: Públicos
+feature: Audiences
 role: User
 level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1321'
 ht-degree: 96%
 
 ---

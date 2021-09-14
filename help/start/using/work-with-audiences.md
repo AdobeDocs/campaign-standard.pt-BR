@@ -1,13 +1,10 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Personalização de listas
-description: '"Saiba como personalizar a exibição e agir em telas de lista no Adobe Campaign Standard:classificar, filtrar, excluir ou duplicar elementos. As telas do Lista exibem elementos de um ou vários recursos especificados."'
+description: '"Saiba como personalizar a exibição e atuar em telas de lista no Adobe Campaign Standard: classificação, filtragem, exclusão ou duplicação de elementos. Lista as telas que exibem elementos de um ou vários recursos especificados."'
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
-source-git-commit: 434edb8e1c3396ad29edd9ee60866c93e82a2c1b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 11%
@@ -15,7 +12,7 @@ ht-degree: 11%
 ---
 
 
-# Trabalhar com perfis e audiências
+# Trabalhar com perfis e públicos
 
 <table>
 <tr>
@@ -34,8 +31,8 @@ ht-degree: 11%
 </tr>
 <tr>
 <td>Perfis do cliente</td>
-<td>Enriquecendo seu banco de dados</td>
-<td>Organizar suas audiências</td>
+<td>Enriquecimento do banco de dados</td>
+<td>Organize seus públicos-alvo</td>
 <td>Gerenciamento de privacidade</td>
 </tr>
 </table>
@@ -44,52 +41,52 @@ ht-degree: 11%
 
 <img width="60px" alt="condições" src="assets/icon_profile.svg"/>
 
-Os perfis Adobe Campaign representam todos os contatos armazenados no banco de dados. Cada perfil corresponde a uma entrada no banco de dados que contém as informações necessárias para que o perfil seja direcionado, qualificado e rastreado individualmente. Isso significa que um perfil pode ser: um cliente, um prospecto, um indivíduo inscrito em um boletim informativo, um recipient, um usuário ou qualquer outra denominação dependendo da organização.
+Os perfis do Adobe Campaign representam todos os contatos armazenados no banco de dados. Cada perfil corresponde a uma entrada no banco de dados que contém as informações necessárias para que esse perfil seja direcionado, qualificado e rastreado individualmente. Isso significa que um perfil pode ser: um cliente, um prospecto, um indivíduo que se inscreveu em um boletim informativo, um recipient, um usuário ou qualquer outra denominação dependendo da organização.
 
 **Leia mais**
 
 * [Sobre perfis](../../audiences/using/about-profiles.md)
-* [Acessar o número de Perfis ativos em sua organização](../../audiences/using/active-profiles.md)
+* [Acessar o número de perfis ativos na organização](../../audiences/using/active-profiles.md)
 
-## Enriquecendo seu banco de dados {#populating-database}
+## Enriquecimento do banco de dados {#populating-database}
 
 <img width="60px" alt="condições" src="assets/icon_populate.svg"/>
 
-O Campaign Standard oferta várias ferramentas para ajudá-lo a expandir seu banco de dados de marketing. Esta seção detalha os diferentes métodos que podem ser usados para injetar dados na Campanha, com referências às documentações dedicadas.
+O Campaign Standard oferece várias ferramentas para ajudá-lo a expandir seu banco de dados de marketing. Esta seção detalha os diferentes métodos que podem ser usados para inserir dados no Campaign, com referências às documentações dedicadas.
 
 ### Importação de dados por meio de workflows {#importing-data-through-workflows}
 
-Os workflows permitem coletar dados e importá-los para o banco de dados de Campanha por meio do uso do [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) atividade. Informações genéricas e práticas recomendadas ao importar dados por meio de workflows são apresentadas em [esta seção](../../automating/using/about-data-import-and-export.md).
+Os workflows permitem coletar dados e importá-los para o banco de dados do Campaign usando atividades [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) . As informações genéricas e as práticas recomendadas ao importar dados por meio de workflows são apresentadas em [this section](../../automating/using/about-data-import-and-export.md).
 
-Além disso, você pode configurar modelos para importar dados. Usar templates de importação é uma prática recomendada se você precisar importar arquivos com a mesma estrutura regularmente. Você pode configurar dois tipos de modelos:
+Além disso, é possível configurar modelos para importar dados. O uso de templates de importação é uma prática recomendada se você precisar importar arquivos com a mesma estrutura regularmente. Você pode configurar dois tipos de templates:
 
-* **Modelos** de fluxo de trabalho: são workflows pré-configurados que podem ser configurados uma vez, de acordo com suas necessidades, e reutilizados sempre que você quiser importar dados e atualizar o banco de dados. Um exemplo de modelo de fluxo de trabalho para importar dados está detalhado em [esta seção](../../automating/using/creating-import-workflow-templates.md).
+* **Templates** de workflow: esses são workflows pré-configurados que podem ser configurados uma vez de acordo com suas necessidades e reutilizados sempre que você quiser importar dados e atualizar o banco de dados. Um exemplo de template de workflow para importar dados é detalhado em [this section](../../automating/using/creating-import-workflow-templates.md).
 
-* **Importar modelos** de dados: como os modelos de fluxo de trabalho, esses são modelos baseados em workflows, que estão configurados para carregar arquivos para atualizar o banco de dados. Depois de configurados, eles ficam disponíveis para usuários com uma visualização simplificada no menu **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]**. Para obter mais informações sobre como importar modelos de dados, consulte a [documentação dedicada](../../automating/using/importing-data-with-import-templates.md).
+* **Importar modelos** de dados: como modelos de workflow, esses são modelos baseados em workflows, que são configurados para carregar arquivos para atualizar o banco de dados. Depois de configurados, eles são disponibilizados para usuários com uma visualização simplificada no menu **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]**. Para obter mais informações sobre importar templates de dados, consulte a [documentação dedicada](../../automating/using/importing-data-with-import-templates.md).
 
-### Coleta de dados do landing page {#collecting-data-from-landing-pages}
+### Coleta de dados de landing pages {#collecting-data-from-landing-pages}
 
-Landing page são formulários da Web que podem ser usados para coletar dados e criar ou atualizar informações existentes no banco de dados. O princípio é o seguinte:
+As landing pages são formulários web que podem ser usados para coletar dados e criar ou atualizar informações existentes no banco de dados. O princípio é o seguinte:
 
-* Crie e crie sua landing page adicionando campos de entrada para coletar dados (nome, sobrenome, email etc.).
+* Crie e projete sua landing page adicionando campos de entrada para coletar dados (nome, sobrenome, email, etc.).
 * Mapeie cada campo de entrada com o campo correspondente do banco de dados.
-* Disponibilize a landing page on-line por um site ou por meio de um link direto em uma mensagem.
+* Disponibilizar a landing page online através de um site ou por meio de um link direto em uma mensagem.
 
-Para obter mais informações sobre o landing page, consulte a [documentação dedicada](../../channels/using/getting-started-with-landing-pages.md).
+Para obter mais informações sobre landing pages, consulte a [documentação dedicada](../../channels/using/getting-started-with-landing-pages.md).
 
 **Leia mais**
 
 * xxxx
 * xxxx
 
-### Sincronizando perfis do Microsoft Dynamics 365
+### Sincronizar perfis do Microsoft Dynamics 365
 
-A integração do Campaign Standard com o Microsoft Dynamics 365 permite transmitir dados de contato do Microsoft Dynamics 365 para o banco de dados de Campanhas.
-Esses contatos ficam visíveis na lista de Perfis e podem ser direcionados para campanhas de marketing. Para obter mais informações sobre essa integração, consulte a [documentação dedicada](../../integrating/using/d365-acs-get-started.md).
+A integração do Campaign Standard com o Microsoft Dynamics 365 permite transmitir dados de contato do Microsoft Dynamics 365 para o banco de dados do Campaign.
+Esses contatos ficam visíveis na lista Perfis e podem ser direcionados para campanhas de marketing. Para obter mais informações sobre essa integração, consulte a [documentação dedicada](../../integrating/using/d365-acs-get-started.md).
 
 >[!NOTE]
 >
->Observe que o conector Campaign Standard-Microsoft Dynamics 365 está atualmente em Disponibilidade Limitada e está sujeito a várias limitações, detalhadas na documentação.
+>Observe que o conector Campaign Standard-Microsoft Dynamics 365 está atualmente com Disponibilidade Limitada e está sujeito a várias limitações, detalhadas na documentação.
 
 **Leia mais**
 
@@ -98,7 +95,7 @@ Esses contatos ficam visíveis na lista de Perfis e podem ser direcionados para 
 
 ### Importação de dados por meio de chamadas de API
 
-As APIs de Campaign Standard permitem que você execute operações para atualizar o banco de dados, como criação, atualização ou exclusão de perfis ou serviços. Para obter mais informações sobre como usar as APIs, consulte a [documentação dedicada](../../api/using/get-started-apis.md).
+As APIs do Campaign Standard permitem executar operações para atualizar o banco de dados, como criação, atualização ou exclusão de perfis ou serviços. Para obter mais informações sobre como usar as APIs, consulte a [documentação dedicada](../../api/using/get-started-apis.md).
 
 >[!CAUTION]
 >
@@ -109,26 +106,26 @@ As APIs de Campaign Standard permitem que você execute operações para atualiz
 * xxxx
 * xxxx
 
-## Organizar suas audiências {#organizing-audiences}
+## Organizar os públicos {#organizing-audiences}
 
 <img width="60px" alt="condições" src="assets/icon_audience.svg"/>
 
-Para permitir que você forneça mensagens relevantes e eficazes e envolva seus clientes com eficiência, a Adobe Campaign integra funcionalidades avançadas de análise e direcionamento.
+Para permitir que você entregue mensagens relevantes e eficazes e envolva seus clientes com eficiência, o Adobe Campaign integra funcionalidades avançadas de análise e direcionamento.
 
-Graças aos workflows e ao editor de query, você pode criar audiências que serão direcionadas pelas suas diferentes campanhas, dependendo das informações que você tiver sobre elas, suas atividades, seus idiomas, suas preferências ou seus históricos de marketing. Isso permite que você filtre perfis inscritos, por exemplo, ou crie audiências de públicos alvos em um número ilimitado de critérios.
+Graças aos fluxos de trabalho e ao editor de consultas, você pode criar públicos-alvo que serão direcionados por suas diferentes campanhas, dependendo das informações que você tem sobre eles, suas atividades, idioma, preferências ou histórico de marketing. Isso permite filtrar os perfis subscritos, por exemplo, ou criar públicos-alvo em um número ilimitado de critérios.
 
 **Leia mais**
 
-* [Sobre públicos-alvo](../../audiences/using/about-audiences.md)
-* [Criação de públicos-alvo](../../audiences/using/creating-audiences.md)
+* [Sobre públicos](../../audiences/using/about-audiences.md)
+* [Criação de públicos](../../audiences/using/creating-audiences.md)
 
 ## Gerenciamento de privacidade {#privacy-management}
 
 <img width="60px" alt="condições" src="assets/icon_privacy.svg"/>
 
-O GDPR é a nova lei de privacidade da União Europeia que concilia e moderniza os requisitos de proteção de dados. O GDPR aplica-se aos clientes do Adobe Campaign que coletam dados de residentes da UE. Além dos recursos de privacidade já disponíveis na Adobe Campaign (incluindo gerenciamento de consentimento, configurações de retenção de dados e funções de usuário), estamos aproveitando essa oportunidade em nossa função de Processador de dados para incluir recursos adicionais, para ajudar a facilitar sua preparação como Controlador de dados para determinadas solicitações do RGPD.
+O GDPR é a nova lei de privacidade da União Europeia que concilia e moderniza os requisitos de proteção de dados. O GDPR aplica-se aos clientes do Adobe Campaign que coletam dados de residentes da UE. Além dos recursos de privacidade já disponíveis no Adobe Campaign (incluindo o gerenciamento de consentimento, as configurações de retenção de dados e as funções de usuários), aproveitamos a oportunidade, em função de nosso papel como Processador de Dados, para incluir recursos adicionais que ajudam o Controlador de Dados a estar de acordo com determinadas solicitações do GDPR.
 
-Consulte este [guia](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=pt-BR) para saber mais sobre as ferramentas e funcionalidades fornecidas pela Adobe Campaign para ajudá-lo a se tornar compatível com o RGPD.
+Consulte este [guia](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=pt-BR) para saber mais sobre as ferramentas e as funcionalidades fornecidas pelo Adobe Campaign para ajudá-lo a se tornar compatível com o GDPR.
 
 **Leia mais**
 

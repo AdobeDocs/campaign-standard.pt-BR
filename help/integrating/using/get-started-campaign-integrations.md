@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Introdução às integrações do Campaign
 description: Use outras soluções da Adobe e combine suas diferentes funcionalidades com o Campaign.
 audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
-feature: Acionadores
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 81%
+source-wordcount: '713'
+ht-degree: 83%
 
 ---
 
@@ -58,7 +56,7 @@ Se você quiser integrar fluxos de dados de outros sistemas ao Adobe Campaign, c
    <td> Adobe Target<br /> </td> 
    <td> Permite inserir imagens que são dinamicamente calculadas pelo Adobe Target quando o email criado e enviado pelo Adobe Campaign é aberto.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Trabalhe com o Campaign e o Target</a>,  <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">integre o Campaign e o Target</a>,  <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">personalize imagens de email em </a> vídeo em tempo real (etapa 3)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Trabalhe com o Campaign e o Target</a>,  <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=pt-BR">integre o Campaign e o Target</a>,  <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">personalize imagens de email em </a> vídeo em tempo real (etapa 3)
     </td> 
   </tr> 
   <tr> 
@@ -104,7 +102,7 @@ Se você quiser integrar fluxos de dados de outros sistemas ao Adobe Campaign, c
    <td> Adobe Dreamweaver<br /> </td> 
    <td> Permite editar um conteúdo de email do Dreamweaver e sincronizá-lo com o Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Criar emails personalizados com o </a> Dreamweavervideo,  <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Usar extensão do Campaign para Dreamweaver</a> 
+    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=pt-BR">Criar emails personalizados com o </a> Dreamweavervideo,  <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Usar extensão do Campaign para Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 

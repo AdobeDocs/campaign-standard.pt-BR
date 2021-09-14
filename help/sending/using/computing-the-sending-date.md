@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Cálculo da data de envio
 description: Descubra como enviar uma mensagem em uma data e hora específicas.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: Monitoramento de desempenho
+feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '998'
 ht-degree: 7%
 
 ---

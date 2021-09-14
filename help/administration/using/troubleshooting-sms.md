@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Solução de problemas de SMS
 description: Solução de problemas de SMS
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Configurações de instância
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '2698'
+source-wordcount: '2696'
 ht-degree: 90%
 
 ---
@@ -143,7 +141,7 @@ Diminuição na quantidade de duplicatas quando há uma nova tentativa:
 
 * Diminua a janela de envio. A janela de envio deve ser grande o suficiente para abranger a latência `SUBMIT_SM_RESP`. Seu valor representa o número máximo de mensagens que poderão ser duplicadas se ocorrer um erro enquanto a janela estiver cheia.
 
-## Problema ao processar SR (recibos de delivery) {#issue-process-SR}
+## Problema ao processar SR (recibos de entrega) {#issue-process-SR}
 
 * Você precisará de rastreamentos SMPP ativados para realizar qualquer tipo de solução de problemas de SR.
 
@@ -175,7 +173,7 @@ Se você corrigiu tudo, menos alguns SR inválidos, ainda estão nos buffers do 
 
 * Se o `SUBMIT_SM MT PDU` que contém a resposta for encontrado nos rastreamentos, mas o SMS não chegar ao telefone celular, você terá que entrar em contato com o provedor para obter assistência na solução de problemas.
 
-## Problema durante a preparação do delivery sem a exclusão de recipient em quarentena (em quarentena pelo recurso de resposta automática) {#issue-delivery-preparation}
+## Problema durante a preparação de entrega sem a exclusão de recipient em quarentena (em quarentena pelo recurso de resposta automática) {#issue-delivery-preparation}
 
 * Verifique se o formato do número de telefone é exatamente o mesmo na tabela de quarentena e no log de delivery.  Caso contrário, consulte esta [seção](../../administration/using/sms-protocol.md#automatic-reply) se tiver problemas com o prefixo &quot;+&quot; do formato de número de telefone internacional.
 

@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Sobre públicos-alvo
 description: Saiba como criar públicos-alvo a partir de um query, uma lista ou um arquivo e como importá-los da Adobe Experience Cloud.
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: Públicos
+feature: Audiences
 role: User
 level: Beginner
 exl-id: f99987d8-b1bf-4ec7-885c-fb511f4168ac
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '249'
 ht-degree: 91%
 
 ---

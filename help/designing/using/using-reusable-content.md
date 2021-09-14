@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 'Criar e usar conteúdo reutilizável '
 description: Comece a criar conteúdo de email reutilizável com o Designer de email.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Design de email
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1819'
 ht-degree: 1%
 
 ---
@@ -29,7 +27,7 @@ Saiba como principal a edição de conteúdo de email. Com o Email Designer, voc
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra como criar modelos em vídeo](#video)
 
-### Sobre templates de conteúdo {#content-templates}
+### Sobre modelos de conteúdo {#content-templates}
 
 Você pode gerenciar o conteúdo HTML oferecido na guia **[!UICONTROL Templates]** da página inicial do [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 

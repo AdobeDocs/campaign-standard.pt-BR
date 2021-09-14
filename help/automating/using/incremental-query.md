@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Query incremental
 description: A atividade Query incremental permite filtrar e extrair uma população de elementos do banco de dados do Adobe Campaign.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: incremental,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 18d6ffc0-cfc3-436e-8f0c-ea9c307541e4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '614'
 ht-degree: 98%
 
 ---
-
 
 # Query incremental{#incremental-query}
 

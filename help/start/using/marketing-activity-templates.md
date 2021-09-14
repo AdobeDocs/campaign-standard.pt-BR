@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Sobre templates
 description: “Os templates do Adobe Campaign permitem pré-configurar parâmetros dependendo das necessidades. Eles podem conter uma configuração completa ou parcial da atividade de marketing para simplificar o Adobe Campaign para os usuários finais não técnicos.”
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: Campanhas
+feature: Campaigns
 role: User
 level: Beginner
 exl-id: a0f02f69-d72d-48ca-8b38-aaab8d1acfad
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '402'
 ht-degree: 100%
 
 ---
@@ -44,7 +42,7 @@ Os templates estão disponíveis para as seguintes atividades de marketing:
 * Importação
 * Mensagens transacionais
 
-## Criação de um novo template {#creating-a-new-template}
+## Criação de um novo modelo {#creating-a-new-template}
 
 Os templates de mensagem podem ser gerenciados pelo administrador funcional da plataforma, no menu **[!UICONTROL Resources > Templates]**. Os templates prontos para uso não podem ser modificados ou excluídos. Para criar um novo template, você deve duplicar um template existente.
 

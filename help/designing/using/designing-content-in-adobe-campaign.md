@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Criação de conteúdo no Adobe Campaign
 description: Crie conteúdo de email começando do zero, importando HTML ou aproveitando modelos existentes.
 audience: designing
 content-type: reference
 topic-tags: about-content-design
-feature: Design de email
+feature: Email Design
 role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1248'
 ht-degree: 90%
 
 ---

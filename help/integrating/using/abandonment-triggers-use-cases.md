@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Casos de uso de acionadores de abandonos
 description: Saiba como usar a integração dos Acionadores da Experience Cloud com esses diferentes casos de uso.
 audience: integrating
@@ -10,7 +8,7 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 98%

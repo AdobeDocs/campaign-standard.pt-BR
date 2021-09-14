@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Extensão das assinaturas para um recurso de aplicativo
+title: Extensão das subscrições para um recurso de aplicativo
 description: Saiba como estender a assinatura para um recurso de aplicativo
 audience: developing
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: use-cases--extending-resources
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ac9c556d-c0f6-4b33-8855-1f5f669c148f
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 23%
+source-wordcount: '232'
+ht-degree: 24%
 
 ---
 
-
-# Extensão das assinaturas para um recurso de aplicativo{#extending-the-subscriptions-to-an-application-resource}
+# Extensão das subscrições para um recurso de aplicativo{#extending-the-subscriptions-to-an-application-resource}
 
 No Adobe Campaign, os dados de atributos do perfil móvel enviados de dispositivo móvel são armazenados no recurso **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**, que permite definir os dados que você deseja coletar dos assinantes de aplicativos. Para obter mais informações sobre recursos personalizados, consulte [esta página](../../developing/using/key-steps-to-add-a-resource.md).
 
@@ -49,4 +46,3 @@ Esse recurso pode ser estendido para coletar dados que você pretende enviar do 
    ![](assets/in_app_personal_data_3.png)
 
 1. **[!UICONTROL Save]** e publicar o recurso personalizado. Para obter mais informações sobre publicação de recursos personalizados, consulte esta [página](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
-

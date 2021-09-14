@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Edição de expressão avançada
 description: O assistente de edição de queries permite definir expressões avançadas.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: queryFilter,overview;audience,main
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1092'
 ht-degree: 98%
 
 ---
-
 
 # Edição de expressão avançada{#advanced-expression-editing}
 
@@ -213,4 +210,3 @@ As condições devem ser vinculadas a valores usando um dos operadores a seguir.
   </tr> 
  </tbody> 
 </table>
-

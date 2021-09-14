@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Preparação do envio
 description: Saiba como definir a preparação antes do envio.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: Enviar Otimização de Tempo
+feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: 0140c41a-7255-4b77-a1b7-c6f7b1135e51
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '459'
 ht-degree: 5%
 
 ---

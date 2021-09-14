@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Práticas recomendadas de importação
 description: Saiba mais sobre as práticas recomendadas a serem seguidas ao importar dados para o banco de dados.
 audience: automating
@@ -8,14 +6,13 @@ content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 81%
+source-wordcount: '568'
+ht-degree: 80%
 
 ---
-
 
 # Práticas recomendadas de importação {#import-best-practices}
 
@@ -23,7 +20,7 @@ ht-degree: 81%
 >
 >Lembre-se do armazenamento SFTP, do armazenamento de banco de dados e dos limites de perfil ativos conforme o contrato da Adobe Campaign ao usar essa funcionalidade.
 
-Ser cuidadoso e seguir apenas algumas regras simples detalhadas abaixo ajudará a garantir a consistência dos dados dentro do banco de dados e evitar erros comuns durante a atualização ou exportação de dados.
+Ser cuidadoso e seguir as regras simples detalhadas abaixo ajudará a garantir a consistência dos dados dentro do banco de dados e evitar erros comuns durante a atualização ou exportação de dados.
 
 ## Uso de templates de importação {#using-import-templates}
 

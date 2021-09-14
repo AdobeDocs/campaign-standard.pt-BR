@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Assinatura de perfis para um serviço específico a partir de um arquivo
+title: Subscrição de perfis para um serviço específico a partir de um arquivo
 description: Este caso de uso mostra como importar um arquivo contendo perfis e assiná-los a um serviço existente.
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: setOfService,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 06ae4a5c-f112-4aac-b776-437ac35a8f02
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 52%
+source-wordcount: '238'
+ht-degree: 53%
 
 ---
 
-
-# Assinatura de perfis para um serviço específico após importar um arquivo {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
+# Assinatura de perfis para um serviço específico após a importação de um arquivo {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
 Este exemplo ilustra como importar um arquivo contendo perfis e fazer a assinatura de todos eles para um serviço existente. Após a importação do arquivo, é necessário fazer uma reconciliação para que os dados importados possam ser identificados como perfis. Para garantir que o arquivo não contenha nenhuma duplicata, uma atividade de desduplicação é executada nos dados.
 

@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Edição de perfis
 description: Saiba como editar perfis existentes e acessar informações de contato, canais preferidos, logs de rastreamento, assinaturas etc.
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: Perfis
+feature: Profiles
 role: User
 level: Intermediate
 exl-id: d0c7dc09-6f2b-4336-b545-7afe3a704164
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '314'
 ht-degree: 8%
 
 ---

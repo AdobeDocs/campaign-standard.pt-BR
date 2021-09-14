@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Cálculo do indicador
 description: Entenda os resultados de seus relatórios com uma lista de todas as fórmulas de métricas.
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Relatórios
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
-source-git-commit: a9a91df349b107b06f229db33812a27addfb5c27
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '726'
 ht-degree: 8%
 
 ---
@@ -25,7 +23,7 @@ ht-degree: 8%
 
 As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatórios e suas fórmulas de cálculo, dependendo do tipo de delivery.
 
-## Delivery por email {#email-delivery}
+## Entrega por email {#email-delivery}
 
 <table> 
  <thead> 

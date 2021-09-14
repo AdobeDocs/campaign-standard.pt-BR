@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Identificação de duplicações antes de um delivery
+title: Identificação de duplicações antes de uma entrega
 description: O exemplo a seguir ilustra uma desduplicação que possibilita excluir os duplicados de um público alvo antes de enviar um email. Isso significa evitar o envio de uma comunicação várias vezes para o mesmo perfil.
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: dedup,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a09b101b-f76f-4377-9854-1fcffaad4f9a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '285'
 ht-degree: 78%
 
 ---
 
-
-# Identificação de duplicações antes de um delivery {#identifying-duplicates-before-a-delivery}
+# Identificação de duplicações antes de uma entrega {#identifying-duplicates-before-a-delivery}
 
 O exemplo a seguir ilustra uma desduplicação que possibilita excluir os duplicados de um público alvo antes de enviar um email. Isso significa evitar o envio de uma comunicação várias vezes para o mesmo perfil.
 

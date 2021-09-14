@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Notas de versão de 2019
 description: Essa página lista todas as versões de 2019 do Adobe Campaign Standard.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Visão geral
+feature: Overview
 role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '7590'
+source-wordcount: '7589'
 ht-degree: 9%
 
 ---
@@ -267,13 +265,13 @@ ht-degree: 9%
 * Correção de um problema que impedia que usuários que não fossem administradores salvassem ou agendassem relatórios. (CAMP-31133)
 * Correção de um problema ao usar &quot;|&quot; como separador de data na atividade de workflow Carregar arquivo . (CAMP-34706)
 
-## Versão 19.2.4 - Junho de 2019 {#release-19-2-4---june-2019}
+## Versão 19.2.4 — junho de 2019 {#release-19-2-4---june-2019}
 
 **Email Designer**
 
 * Correção de um problema que impedia usuários de editar fragmentos quando tags de estilo vazias eram usadas no HTML. Esta é uma correção de acompanhamento para CAMP-33778 em 19.2.3.
 
-## Versão 19.2.3 - Junho de 2019 {#release-19-2-3---june-2019}
+## Versão 19.2.3 — junho de 2019 {#release-19-2-3---june-2019}
 
 **Email Designer**
 
@@ -306,7 +304,7 @@ Introdução de uma série de melhorias e correções para otimizar fragmentos n
  <tbody> 
   <tr> 
    <td> Painel de controle<br /> </td> 
-   <td> <p>Para ajudar a aumentar a eficiência em seu trabalho como um usuário administrador, é possível monitorar facilmente a capacidade e gerenciar as configurações de suas instâncias (começando pelo gerenciamento de servidores SFTP).</p><p>Para saber mais, consulte a <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=en">vídeo de instruções</a>.</p></td> 
+   <td> <p>Para ajudar a aumentar a eficiência em seu trabalho como um usuário administrador, é possível monitorar facilmente a capacidade e gerenciar as configurações de suas instâncias (começando pelo gerenciamento de servidores SFTP).</p><p>Para saber mais, consulte a <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=br">vídeo de instruções</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Notificações locais<br /> </td> 
@@ -396,7 +394,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * Correção de um problema que resultava na desativação do workflow Deliverability se ele não fosse concluído com êxito.
 * Correção de um problema que impedia usuários de salvar ou agendar relatórios. (CAMP-31133)
 
-## Versão 19.1.3 - março de 2019 {#release-19-1-3---march-2019}
+## Versão 19.1.3 - Março de 2019 {#release-19-1-3---march-2019}
 
 **Aprimoramentos do Email Designer**
 

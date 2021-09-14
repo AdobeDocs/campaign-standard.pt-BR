@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Sobre as atividades de direcionamento
+title: Sobre atividades de direcionamento
 description: As atividades de direcionamento podem ser acessadas no lado esquerdo da tela.
 audience: automating
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: targeting-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '434'
 ht-degree: 52%
 
 ---
 
-
-# Sobre as atividades de direcionamento{#about-targeting-activities}
+# Sobre atividades de direcionamento{#about-targeting-activities}
 
 Na paleta, no lado esquerdo da tela, expanda a seção **[!UICONTROL Targeting]**.
 
@@ -28,14 +25,14 @@ Essas atividades são específicas para direcionamento, manipulação de dados d
 
 A seção **[!UICONTROL Targeting]** inclui as seguintes atividades:
 
-* [Query](../../automating/using/query.md)
+* [Consulta](../../automating/using/query.md)
 * [Query incremental](../../automating/using/incremental-query.md)
 * [União](../../automating/using/union.md)
-* [Interseção](../../automating/using/intersection.md)
+* [Intersecção](../../automating/using/intersection.md)
 * [Exclusão](../../automating/using/exclusion.md)
 * [Segmentação](../../automating/using/segmentation.md)
-* [Ler público-alvo](../../automating/using/read-audience.md)
-* [Salvar público-alvo](../../automating/using/save-audience.md)
+* [Ler público](../../automating/using/read-audience.md)
+* [Salvar público](../../automating/using/save-audience.md)
 * [Desduplicação](../../automating/using/deduplication.md)
 * [Enriquecimento](../../automating/using/enrichment.md)
 

@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Definir o público correto
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"Quando seu conteúdo estiver pronto, saiba como definir cuidadosamente quem receberá sua mensagem."'
-feature: Capacidade de delivery
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '516'
 ht-degree: 75%
 
 ---
@@ -24,13 +22,13 @@ A segmentação de público-alvo é fundamental: crie suas listas cuidadosamente
 
 Saiba mais sobre as populações de públicos-alvos [nesta seção](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-## Direcionar o público-alvo correto {#target-the-right-audience}
+## Direcionar ao público-alvo correto {#target-the-right-audience}
 
 Quando seu conteúdo estiver pronto, será necessário definir com cuidado quem receberá sua mensagem.
 
 Para que seu delivery seja bem-sucedido, o conteúdo personalizado mais relevante deve ser enviado aos recipients corretos. O Adobe Campaign permite criar o público mais preciso: você pode selecionar os recipients de acordo com a idade, localização, o que compraram, se clicaram em um link em um delivery anterior, etc. Com o Adobe Campaign, também é possível definir perfis de teste, grupos de controle e endereços de seed para verificar se o público-alvo está correto.
 
-## Target mappings {#target-mappings}
+## Direcionar mapeamentos {#target-mappings}
 
 Por padrão, templates de delivery têm como target **Profiles**. O Adobe Campaign oferece outros target mappings para seus deliveries, que podem ser modificados conforme suas necessidades.
 
@@ -42,7 +40,7 @@ Você também pode criar e usar um target mapping personalizado. Para obter mais
 
 Você pode enviar deliveries para destinatários armazenados em um arquivo externo em vez de salvos no banco de dados. Para fazer isso, crie um workflow para carregar dados no banco de dados de um arquivo e criar um público-alvo associado.  Saiba mais [neste caso de uso](../../automating/using/use-case-calling-workflow.md). Consulte também [Chamar um workflow com parâmetros](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
-## Enviar para seus assinantes {#send-to-subscribers}
+## Enviar para os assinantes {#send-to-subscribers}
 
 Para enviar mensagens aos assinantes de um informativo, é possível direcionar diretamente os assinantes para o serviço de informação correspondente. Saiba mais [nesta seção](../../audiences/using/about-subscriptions.md).
 

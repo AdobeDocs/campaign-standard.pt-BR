@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Preparação e envio de uma mensagem no aplicativo
 description: Crie uma mensagem no aplicativo que será direcionada aos assinantes do aplicativo com conteúdo específico.
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back;deliveryCreation,wizard
-feature: No aplicativo
+feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1171'
 ht-degree: 98%
 
 ---

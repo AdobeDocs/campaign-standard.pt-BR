@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Desduplicação
 description: A atividade de Desduplicação permite excluir duplicados no(s) resultado(s) das atividades de entrada.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: dedup,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 57c56e4a-892c-46d6-9bb4-6a345a8d9f5b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 96%
+source-wordcount: '567'
+ht-degree: 97%
 
 ---
-
 
 # Desduplicação{#deduplication}
 

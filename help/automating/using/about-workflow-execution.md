@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Monitoramento da execução de workflows
+title: Sobre a execução de fluxo de trabalho
 description: Saiba mais sobre a execução do workflow.
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3b95fc66-d6f4-44b2-be33-925c1109a57f
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '374'
 ht-degree: 9%
 
 ---
 
-
-# Monitoramento da execução de workflows {#about-workflow-execution}
+# Sobre a execução de fluxo de trabalho {#about-workflow-execution}
 
 Um workflow é sempre iniciado manualmente. No entanto, uma vez iniciado, ele pode permanecer inativo, dependendo das informações especificadas em uma atividade [Scheduler](../../automating/using/scheduler.md).
 

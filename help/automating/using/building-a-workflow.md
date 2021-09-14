@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Criação de um fluxo de trabalho
 description: Esta seção detalha os principais princípios e as práticas recomendadas para criar um novo workflow.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: workflow,wizard;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '983'
 ht-degree: 96%
 
 ---
-
 
 # Criação de um fluxo de trabalho{#building-a-workflow}
 
@@ -39,7 +36,7 @@ O tipo de dados trocado entre uma atividade e outra pode afetar a forma como as 
 
 ![](assets/workflow_overview.png)
 
-## Criação de um workflow {#creating-a-workflow}
+## Criar um fluxo de trabalho {#creating-a-workflow}
 
 Você pode criar um workflow a partir de um programa, de uma campanha ou da lista de atividades de marketing.
 
@@ -134,7 +131,7 @@ Por padrão, as atividades não estão definidas e não processarão os dados co
 1. Salve a atividade e repita essas operações para cada atividade do workflow.
 1. Salve o workflow.
 
-## Vídeo tutorial {#video}
+## Tutorial em vídeo {#video}
 
 Este vídeo mostra como criar um workflow.
 

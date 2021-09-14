@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Chamada de workflow com parâmetros externos
+title: Chamada de fluxo de trabalho com parâmetros externos
 description: Esta seção detalha como chamar um workflow com parâmetros externos.
 audience: automating
 content-type: reference
@@ -9,14 +7,13 @@ topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7a21f4f6-316f-4f3d-9d53-37d406a46aae
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '977'
 ht-degree: 1%
 
 ---
-
 
 # Caso de uso {#use-case}
 
@@ -36,7 +33,7 @@ Para executar esse caso de uso, é necessário executar as ações abaixo:
 
 Antes de configurar os workflows, é necessário criar o Workflow 1 e 2 com uma atividade **[!UICONTROL External signal]** em cada um deles. Dessa forma, você poderá direcionar essas atividades de sinal ao chamar os workflows.
 
-## Etapa 1: Configurar a chamada da API {#step-1--configuring-the-api-call}
+## Etapa 1: Configuração da chamada da API {#step-1--configuring-the-api-call}
 
 Faça uma chamada de API para acionar o Fluxo de trabalho 1 com parâmetros. Para obter mais informações sobre a sintaxe de chamada de API, consulte a [documentação sobre APIs REST do Campaign Standard](../../api/using/triggering-a-signal-activity.md).
 
@@ -61,7 +58,7 @@ Em nosso caso, queremos chamar o workflow com os parâmetros abaixo:
 -d } 
 ```
 
-## Etapa 2: Configurar o fluxo de trabalho 1 {#step-2--configuring-workflow-1}
+## Etapa 2: Configuração do fluxo de trabalho 1 {#step-2--configuring-workflow-1}
 
 O workflow 1 será criado conforme abaixo:
 
@@ -132,7 +129,7 @@ Siga as etapas abaixo para configurar o workflow:
 
 O workflow 1 está configurado, agora você pode criar o Workflow 2. Para obter mais informações, consulte [esta seção](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2).
 
-## Etapa 3: Configurar o fluxo de trabalho 2 {#step-3--configuring-workflow-2}
+## Etapa 3: Configurar Fluxo de Trabalho 2 {#step-3--configuring-workflow-2}
 
 O workflow 2 será criado conforme abaixo:
 
@@ -189,6 +186,6 @@ Siga as etapas abaixo para configurar o workflow:
 
    ![](assets/extsignal_uc14.png)
 
-## Execução dos workflows {#executing-the-workflows}
+## Execução dos fluxos de trabalho {#executing-the-workflows}
 
 Depois que os workflows forem criados, você poderá executá-los. Verifique se os dois fluxos de trabalho foram iniciados antes de executar a chamada da API.

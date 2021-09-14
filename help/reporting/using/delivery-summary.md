@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Resumo do delivery
+title: Resumo da entrega
 description: Com o relatório pronto para uso do Delivery summary , saiba mais sobre as estatísticas de delivery, como número de envios, rejeições e aberturas.
 audience: reporting
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: deliveryCirculationReport,main;campaignCirculationReport,main;prog
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d6ddc022-16ad-438b-8c6e-fc6abc704f09
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 2%
+source-wordcount: '218'
+ht-degree: 1%
 
 ---
 
-
-# Resumo do delivery{#delivery-summary}
+# Resumo da entrega{#delivery-summary}
 
 O relatório **[!UICONTROL Delivery summary]** detalha as informações principais relativas a um email ou vários emails.
 

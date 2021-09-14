@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Introdução a perfis e públicos
 description: Defina populações direcionadas, selecione públicos, filtre destinatários, colete dados e atualize perfis.
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
-feature: Perfis
+feature: Profiles
 role: User
 level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '604'
 ht-degree: 25%
 
 ---

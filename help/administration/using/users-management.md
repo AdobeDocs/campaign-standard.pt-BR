@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Gerenciamento de usuários
 description: 'Os usuários do Adobe Campaign têm funções específicas. Descubra os principais tipos de usuários. '
 audience: administration
@@ -10,7 +8,7 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1218'
 ht-degree: 93%

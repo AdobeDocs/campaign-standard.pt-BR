@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Comandos de execução
 description: Saiba como usar comandos de execução de workflows.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: fddd88b1-603a-465b-b5e7-624632c0d5cd
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '317'
 ht-degree: 4%
 
 ---
-
 
 # Comandos de execução {#execution-commands}
 

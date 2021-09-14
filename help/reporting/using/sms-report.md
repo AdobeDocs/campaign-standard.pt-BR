@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Relatório SMS
+title: Relatório de SMS
 description: 'Com o relatório pronto para uso do SMS, saiba mais sobre o sucesso dos deliveries de SMS. '
 audience: reporting
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: list-of-reports
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1d04bcd0-77f7-4bf0-a322-ec5cb5c1ce14
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 6%
+source-wordcount: '73'
+ht-degree: 5%
 
 ---
 
-
-# Relatório SMS{#sms-report}
+# Relatório de SMS{#sms-report}
 
 O relatório **SMS** fornece detalhes sobre deliveries de SMS, como taxas de devolução e rejeição.
 
@@ -29,4 +26,3 @@ A tabela **Resumo do SMS**, os gráficos e os números de resumo contêm dados d
 * **Processado/enviado**: O número de SMS enviados.
 * **Entregue**: O número de SMS entregues.
 * **Rejeições + Erros**: O número de mensagens que não puderam ser entregues.
-

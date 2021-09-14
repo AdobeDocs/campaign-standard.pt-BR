@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Exportar logs
+title: Exportação de logs
 description: Os dados de log, sejam eles relacionados a deliveries ou assinaturas, podem ser exportados por meio de um fluxo de trabalho simples.
 audience: automating
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: importing-and-exporting-data
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d74e2a2c-3ce1-44d6-a058-67b0600360ca
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '597'
 ht-degree: 14%
 
 ---
 
-
-# Exportar logs{#exporting-logs}
+# Exportação de logs{#exporting-logs}
 
 Os dados de log, sejam eles relacionados a deliveries ou assinaturas, podem ser exportados por meio de um fluxo de trabalho simples. Ele permite analisar os resultados de suas campanhas em seus próprios relatórios ou ferramentas de BI.
 

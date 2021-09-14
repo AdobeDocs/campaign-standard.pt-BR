@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: DataModel
 description: Saiba mais sobre o datamodel
 audience: developing
@@ -8,14 +6,13 @@ content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7f2a3139-57eb-48ff-9b1a-ac2caad2f691
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1204'
 ht-degree: 6%
 
 ---
-
 
 # Histórico de marketing (nms:history)
 

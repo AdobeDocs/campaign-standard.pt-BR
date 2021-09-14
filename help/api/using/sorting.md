@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Classificação
 description: Saiba mais sobre como executar operações de classificação
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7db25b8d-a6f1-4151-bf37-c47e9991ae48
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '89'
 ht-degree: 11%
 
 ---
-
 
 # Classificação
 

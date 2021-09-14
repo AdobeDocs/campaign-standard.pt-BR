@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Exportar perfis em um arquivo externo
+title: Exportação de perfis em um arquivo externo
 description: Este caso de uso mostra como exportar uma lista de perfis no formato de um arquivo externo para que os dados possam ser usados fora do Adobe Campaign.
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: fileExport,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3fc286a9-bba4-4e3d-95cd-600eed4943e7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 67%
+source-wordcount: '227'
+ht-degree: 68%
 
 ---
 
-
-# Exportar perfis em um arquivo externo {#exporting-profiles-external-file}
+# Exportação de perfis em um arquivo externo {#exporting-profiles-external-file}
 
 O exemplo a seguir ilustra como configurar uma atividade **[!UICONTROL Extract file]** após uma atividade **[!UICONTROL Query]**.
 

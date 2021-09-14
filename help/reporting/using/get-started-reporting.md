@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Introdução aos relatórios dinâmicos
 description: Analise o sucesso de suas campanhas em relatórios dinâmicos incorporados ou personalizados.
 audience: reporting
@@ -9,14 +7,13 @@ topic-tags: about-reporting
 feature: Reporting
 role: Leader
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9ecb4ba6-c7a3-4b1f-ab73-5eb512ebb016
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '372'
 ht-degree: 20%
 
 ---
-
 
 # Introdução aos relatórios dinâmicos {#get-started-reporting}
 
@@ -41,10 +38,10 @@ Com a **interface de arrastar e soltar do Dynamic Reporting**, você pode explor
 
 Leia mais:
 
-* [Sobre Relatórios dinâmicos](../../reporting/using/about-dynamic-reports.md)
+* [Sobre relatórios dinâmicos](../../reporting/using/about-dynamic-reports.md)
 * [Interface de relatórios](../../reporting/using/reporting-interface.md)
 
-## Crie seus relatórios {#build-reports}
+## Criar relatórios {#build-reports}
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
@@ -58,7 +55,7 @@ Leia mais:
 * [Cálculo do indicador](../../reporting/using/indicator-calculation.md)
 * [Lista de relatórios](../../reporting/using/defining-the-report-period.md)
 
-## Personalize seus relatórios {#customize-reports}
+## Personalizar seus relatórios {#customize-reports}
 
 <img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
@@ -72,16 +69,16 @@ Leia mais:
 
 * [Adicionar painéis](../../reporting/using/adding-panels.md)
 * [Adicionar visualizações](../../reporting/using/adding-visualizations.md)
-* [Adicionar componentes](../../reporting/using/adding-components.md)
-* [Criar uma dimensão de perfil personalizada](../../reporting/using/creating-a-custom-profile-dimension.md)
-* [Criar um relatório com base em segmentos de workflow](../../reporting/using/creating-a-report-workflow-segment.md)
+* [Adição de componentes](../../reporting/using/adding-components.md)
+* [Criação de uma dimensão de perfil personalizada](../../reporting/using/creating-a-custom-profile-dimension.md)
+* [Criar relatório com base em segmentos de fluxo de trabalho](../../reporting/using/creating-a-report-workflow-segment.md)
 
 ## Recursos adicionais
 
-* [Exportar logs](../../automating/using/exporting-logs.md)
+* [Exportação de logs](../../automating/using/exporting-logs.md)
 * [Sobre a integração do Campaign com o Analytics](../../integrating/using/about-campaign-analytics-integration.md)
 
-## Vídeo tutorial {#video}
+## Tutorial em vídeo {#video}
 
 Este vídeo fornece uma visão geral sobre os recursos de relatórios do Adobe Campaign Standard.
 

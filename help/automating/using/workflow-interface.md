@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Interface do workflow 
+title: Interface de fluxo de trabalho
 description: Saiba mais sobre a interface e as opções para criar, editar e executar um workflow.
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: workflow,main;workflow,overview
 feature: Workflows
 role: Data Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '802'
 ht-degree: 4%
 
 ---
 
-
-# Interface do workflow {#workflow-interface}
+# Interface de fluxo de trabalho{#workflow-interface}
 
 Você pode criar fluxos de trabalho para gerenciar processos inteiros em suas campanhas e programas.
 
@@ -47,7 +44,7 @@ Para usar uma atividade da paleta no fluxo de trabalho, arraste-a e solte-a no e
 
 ![](assets/workflow_palette.png)
 
-## Espaço de trabalho {#workspace}
+## Workspace {#workspace}
 
 O espaço de trabalho é a zona central no editor de fluxo de trabalho. É nessa zona que você pode soltar suas atividades, vinculá-las usando transições e configurá-las.
 
@@ -157,4 +154,3 @@ Também é possível copiar e colar várias atividades, permitindo que você dup
 Para fazer isso, selecione as atividades desenhando uma zona ao redor delas. em seguida, clique no botão **[!UICONTROL Copy selection]** na barra de ações (ou pressione **Ctrl + C**). Em seguida, você pode colá-los no local desejado.
 
 ![](assets/wkf_copypaste3.png)
-

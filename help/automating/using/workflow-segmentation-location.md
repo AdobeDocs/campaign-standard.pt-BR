@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Segmentação no local"
 description: Este caso de uso mostra como executar a segmentação no local.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: workflow,use-case,query,segmentation,delivery
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: feedc2f5-63da-44a5-b8f0-15afdfd47daa
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '268'
 ht-degree: 83%
 
 ---
-
 
 # Segmentação no local {#segmentation-on-location}
 
@@ -49,7 +46,7 @@ Observação: para acessar todas as pessoas que digitaram Boston, desmarque a op
 1. Para acessar todas as pessoas que digitaram Chicago, desconsidere a opção que faz distinção entre maiúsculas e minúsculas.
 1. Clique em **[!UICONTROL Confirm]**.
 
-## Criação de um delivery de email{#creating-an-email-delivery}
+## Criação de uma entrega de email{#creating-an-email-delivery}
 
 1. Em **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, arraste e solte uma atividade [Email delivery](../../automating/using/email-delivery.md) após cada segmento.
 1. Clique na atividade e selecione ![](assets/edit_darkgrey-24px.png) para editar.
@@ -66,4 +63,3 @@ Observação: para acessar todas as pessoas que digitaram Boston, desmarque a op
 1. Clique em **[!UICONTROL Save]**.
 
 ![](assets/wf-segmentation-location.png)
-

@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Renderização de email
 description: Conheça o recurso de renderização de email.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: Enviar Otimização de Tempo
+feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: 31f4e557-55b3-4bf5-8d5d-9d412b7670a6
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 82%
+source-wordcount: '513'
+ht-degree: 83%
 
 ---
 

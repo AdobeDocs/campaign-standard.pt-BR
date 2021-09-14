@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Práticas recomendadas para fluxos de trabalho
 description: Saiba como aplicar as práticas recomendadas aos seus fluxos de trabalho.
 audience: automating
@@ -10,16 +8,15 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: b82335a0c0bf1abc7b9645beee83ac659c4d6b83
+exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1179'
 ht-degree: 84%
 
 ---
 
-
-# Práticas recomendadas para workflows{#workflow-best-practices}
+# Práticas recomendadas de fluxo de trabalho{#workflow-best-practices}
 
 Com o Adobe Campaign, você pode configurar todos os tipos de fluxo de trabalho para executar um amplo escopo de tarefas. No entanto, ao projetar e executar fluxos de trabalhos, é necessário ter muito cuidado, pois uma implementação inadequada pode causar baixo desempenho, erros e problemas da plataforma. Abaixo você encontrará uma lista de práticas recomendadas e dicas para solução de problemas.
 
@@ -128,7 +125,7 @@ Para mais informações, consulte [Chamar um fluxo de trabalho com parâmetros e
 Para exportar pacotes, os recursos exportados não devem conter IDs padrão. Portanto, as IDs de recursos exportáveis devem ser alteradas usando um nome diferente dos modelos fornecidos como padrão pelo Adobe Campaign Standard.
 Para mais informações, consulte [Gerenciamento de pacotes](../../automating/using/managing-packages.md).
 
-## Exportar listas{#exporting-lists}
+## Exportação de listas{#exporting-lists}
 
 A opção Exportar lista permite exportar um máximo de 100 mil linhas por padrão, definidas pela opção **Nms_ExportListLimit**. Essa opção pode ser gerenciada pelo administrador funcional, em **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 Para mais informações, consulte [Exportação de listas](../../automating/using/exporting-lists.md).

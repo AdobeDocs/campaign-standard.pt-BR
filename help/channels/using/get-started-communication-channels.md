@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Introdução a canais de comunicação
 description: Crie mensagens personalizadas em vários canais, use modelos, crie páginas de aterrissagem e verifique as práticas recomendadas.
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: Visão geral
+feature: Overview
 role: User
 level: Beginner
 exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '522'
 ht-degree: 23%
 
 ---

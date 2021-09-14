@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Atualização da estrutura do banco de dados
 description: Descubra como atualizar o banco de dados do Adobe Campaign.
 audience: developing
@@ -10,14 +8,13 @@ context-tags: deploy,main;eventCusResource,overview
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 98%
+source-wordcount: '735'
+ht-degree: 99%
 
 ---
-
 
 # Atualização da estrutura do banco de dados{#updating-the-database-structure}
 

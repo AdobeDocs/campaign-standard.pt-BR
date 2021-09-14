@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Diretrizes de configuração
 description: Saiba mais sobre as diretrizes de configuração do Campaign Standard.
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: Gerenciamento de acesso
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 88684ed6-6d8d-4691-987f-812e7e1d834c
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 13%
+source-wordcount: '117'
+ht-degree: 11%
 
 ---
 
@@ -50,6 +48,6 @@ Estes são os diferentes pontos de extremidade usados no Campaign Standard.
 | Experience Cloud | `https://experiencecloud.adobe.com` |
 | Rastreamento | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
 | Integração de ativos | `https://*.marketing-assets.adobe.com` |
-| Serviços de Adobe interno | `https://*.adobe.io` |
+| Serviços internos da Adobe | `https://*.adobe.io` |
 | Pesquisas | `https://adobe.allegiancetech.com` |
 | URL de marca padrão (antes da configuração do cliente) | `https://*.adobe-campaign.com` |

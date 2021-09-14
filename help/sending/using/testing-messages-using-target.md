@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Teste de mensagens de email usando perfis direcionados
 description: Saiba como testar mensagens usando perfis direcionados e endereços de substituição.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-feature: Grupos de controle
+feature: Control Groups
 role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1514'
 ht-degree: 5%
 
 ---

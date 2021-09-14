@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Execução e monitoramento de mensagens transacionais
 description: Saiba mais sobre a execução de mensagens transacionais e descubra como monitorar mensagens transacionais.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Mensagens transacionais
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 4cea7207-469c-46c5-9921-ae2f8f12d141
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '740'
 ht-degree: 63%
 
 ---

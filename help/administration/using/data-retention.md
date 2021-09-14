@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Retenção de dados
 description: As tabelas de log padrão no Campaign têm períodos de retenção predefinidos, geralmente limitando seu armazenamento de dados a 6 meses ou menos. Saiba mais sobre os valores de retenção padrão para tabelas padrão.
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Configurações de instância
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 52%
+source-wordcount: '160'
+ht-degree: 53%
 
 ---
 

@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Junção de deliveries de email e de correspondência direta
+title: Junção de entregas de email e de correspondência direta
 description: Esse caso de uso apresenta um exemplo de envio de email e mala direta a partir de um workflow.
 audience: channels
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: delivery,directMailContent,back
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2783f282-681a-40c0-ae57-d25ad641b124
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 82%
+source-wordcount: '119'
+ht-degree: 84%
 
 ---
 
-
-# Junção de deliveries de email e de correspondência direta {#coupling-email-direct-mail}
+# Junção de entregas de email e de correspondência direta {#coupling-email-direct-mail}
 
 Como comerciante, você pode enviar catálogos por correspondência direta. No catálogo impresso, certas páginas oferecem um desconto de 10% usando um código promocional e um link para comprar o produto no site.
 

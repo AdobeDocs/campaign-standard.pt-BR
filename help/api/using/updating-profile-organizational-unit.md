@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Atualização da unidade organizacional de um perfil
+title: Atualização da entidade organizacional de um perfil
 description: Saiba como atualizar a unidade organizacional de um perfil com APIs.
 audience: developing
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6ce49aeb-a113-43ee-bfe3-f26a4a9e2a56
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 11%
+source-wordcount: '96'
+ht-degree: 10%
 
 ---
 
-
-# Atualização da unidade organizacional de um perfil {#managing-organizational-units}
+# Atualização da entidade organizacional de um perfil {#managing-organizational-units}
 
 1. Execute uma solicitação GET no recurso **orgUnitBase** para recuperar a unidade organizacional PKey
 1. Execute uma solicitação de PATCH na chave de perfil, com a chave da unidade organizacional desejada na carga.

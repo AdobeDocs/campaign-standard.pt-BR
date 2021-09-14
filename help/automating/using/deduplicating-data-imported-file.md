@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Desduplicação de dados a partir de um arquivo importado
 description: Este exemplo mostra como desduplicar dados de um arquivo importado antes de carregá-los no banco de dados.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: dedup,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 631eb661-a696-4352-aa58-9097b391723e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 88%
+source-wordcount: '328'
+ht-degree: 89%
 
 ---
-
 
 # Desduplicação de dados a partir de um arquivo importado {#deduplicating-the-data-from-an-imported-file}
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Sobre a extensão da API
 description: Saiba como expor campos estendidos para o recurso personalizado Perfis na API Perfis públicos.
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: use-case--extending-the-api
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7dc64938-f28f-43eb-a6a3-870e5a41a431
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '114'
 ht-degree: 11%
 
 ---
-
 
 # Sobre a extensão da API{#about-extending-the-api}
 

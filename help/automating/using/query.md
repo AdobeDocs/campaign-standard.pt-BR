@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Query
 description: A atividade Query permite filtrar e extrair uma população de elementos do banco de dados do Adobe Campaign.
 audience: automating
@@ -10,16 +8,15 @@ context-tags: query,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1757'
 ht-degree: 93%
 
 ---
 
-
-# Query{#query}
+# Consulta{#query}
 
 ## Descrição {#description}
 
@@ -31,7 +28,7 @@ A atividade usa a ferramenta Editor de consultas. Essa ferramenta é detalhada e
 
 **Tópicos relacionados:**
 
-* [Amostras de queries](../../automating/using/query-samples.md)
+* [Amostras de consulta](../../automating/using/query-samples.md)
 * [Caso de uso: workflow de redirecionamento enviando um novo delivery para não abridores](../../automating/using/workflow-cross-channel-retargeting.md)
 
 ## Contexto de uso {#context-of-use}

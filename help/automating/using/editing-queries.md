@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Edição de consultas
 description: Crie uma população com regras e filtros predefinidos.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: queryFilter,overview;audience,main
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 99%
+source-wordcount: '782'
+ht-degree: 100%
 
 ---
-
 
 # Edição de consultas{#editing-queries}
 
@@ -53,13 +50,13 @@ Os elementos nas guias devem ser movidos para o espaço de trabalho para serem c
 * Definir regras simples para os campos escolhidos
 * Definir regras avançadas para aplicar funções a campos específicos
 
-### Espaço de trabalho {#workspace}
+### Workspace {#workspace}
 
 O espaço de trabalho é a zona central onde você pode configurar e combinar regras, públicos e filtros predefinidos adicionados da paleta.
 
 Quando um elemento é movido da paleta para o espaço de trabalho, uma nova janela é aberta e você pode começar a [criação de consultas](#creating-queries).
 
-## Criação de consultas {#creating-queries}
+## Criação de query {#creating-queries}
 
 O Editor de consultas pode ser usado para definir um público ou um perfil de teste em uma mensagem, uma população em um fluxo de trabalho e para criar um público do tipo consulta.
 

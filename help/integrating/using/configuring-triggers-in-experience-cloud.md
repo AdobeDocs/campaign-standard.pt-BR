@@ -1,25 +1,23 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configuração de acionadores na Experience Cloud
 description: 'Saiba como configurar a integração do Adobe Experience Cloud Triggers para começar a enviar deliveries personalizados para seus clientes com base em seus comportamentos anteriores. '
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Acionadores
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '858'
 ht-degree: 7%
 
 ---
 
 # Configuração de acionadores na Experience Cloud{#configuring-triggers-in-experience-cloud}
 
-## Ativar a funcionalidade {#activating-the-functionality}
+## Ativação da funcionalidade {#activating-the-functionality}
 
 A funcionalidade deve ser ativada no Adobe Campaign pelo Adobe. Entre em contato com o executivo da sua conta Adobe ou com o parceiro de serviços profissionais.
 
@@ -67,7 +65,7 @@ Você precisa configurar o [Experience Cloud DTM Core Service](#configuring-expe
 
    ![](assets/trigger_uc_conf_2.png)
 
-### Configurando o Serviço Principal de Pessoas do Experience Cloud {#configuring-experience-cloud-people-core-service}
+### Configuração do serviço principal Experience Cloud People {#configuring-experience-cloud-people-core-service}
 
 O alias mencionado anteriormente no DTM precisa ser criado no Serviço principal de pessoas do Experience Cloud por meio de um Atributo do cliente. Crie um novo e faça referência ao mesmo alias do DTM no código de integração (por exemplo, &quot;visitorid&quot;).
 
@@ -99,7 +97,7 @@ Crie um novo acionador no Experience Cloud e verifique se você selecionou o con
 
 Consulte a [documentação do Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html) e assista a este [vídeo](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
 
-## Aciona práticas recomendadas e limitações {#triggers-best-practices-and-limitations}
+## Práticas recomendadas e limitações do Triggers {#triggers-best-practices-and-limitations}
 
 Esta é uma lista de práticas recomendadas e limitações para o uso da integração Campaign - Triggers:
 

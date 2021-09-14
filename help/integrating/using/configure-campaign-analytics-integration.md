@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configurar a integração do Campaign com o Analytics
 description: Saiba como configurar a integração do Adobe Analytics para começar a medir o sucesso de seus deliveries de email.
 audience: integrating
@@ -9,14 +7,13 @@ topic-tags: working-with-campaign-and-analytics
 feature: Triggers
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a6748b4b-36c5-4961-a599-ace73a8504cc
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '216'
 ht-degree: 11%
 
 ---
-
 
 # Configurar a integração do Campaign com o Analytics{#configure-campaign-analytics-integration}
 
@@ -55,4 +52,3 @@ Seus dados agora estão disponíveis no Adobe Analytics.
 * [Contas externas](../../administration/using/external-accounts.md)
 * [Workflows técnicos](../../administration/using/technical-workflows.md)
 * [Compartilhar KPIs para vídeo integrado de ](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) relatórios do Campaign
-

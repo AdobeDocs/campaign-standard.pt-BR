@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Criação de uma solicitação de acesso a dados pessoais
+title: Criação de uma solicitação de privacidade
 description: Saiba como criar uma solicitação de privacidade com APIs
 audience: developing
 content-type: reference
@@ -9,20 +7,19 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 06ad2e13-922b-4f35-8726-007427125c63
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 14%
+source-wordcount: '210'
+ht-degree: 22%
 
 ---
 
-
-# Criação de uma solicitação de acesso a dados pessoais {#creating-a-privacy-request}
+# Criação de uma solicitação de privacidade {#creating-a-privacy-request}
 
 >[!CAUTION]
 >
->A integração [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) é o método que você deve usar para todas as solicitações de acesso e exclusão. A partir da versão 19.4, o uso da API e da interface do Campaign para solicitações de acesso e exclusão ficará obsoleto. Para obter mais informações sobre recursos obsoletos e removidos do Campaign Standard, consulte [esta página](../../rn/using/deprecated-features.md).
+>A integração [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) é o método que você deve usar para todas as solicitações de acesso e exclusão. A partir da versão 19.4, o uso da API e da interface do Campaign para solicitações de acesso e exclusão se tornará obsoleto. Para obter mais informações sobre recursos obsoletos e removidos do Campaign Standard, consulte [esta página](../../rn/using/deprecated-features.md).
 
 As solicitações de privacidade são criadas usando uma solicitação **POST**.
 

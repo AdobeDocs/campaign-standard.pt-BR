@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Introdução ao Designer de email
 description: Comece a criar conteúdo de email com o Designer de email.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Design de email
+feature: Email Design
 role: User
 level: Beginner
 exl-id: 47f53290-2190-4181-bcd5-e60287189c41
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '924'
 ht-degree: 6%
 
 ---

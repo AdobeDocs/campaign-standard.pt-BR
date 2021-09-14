@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Não entregues e rejeitados
 description: 'Com o relatório pronto para uso Non-deliverables and bounces , saiba mais sobre os erros que podem ocorrer no delivery. '
 audience: reporting
@@ -10,14 +8,13 @@ context-tags: deliveryNonDeliverablesBouncesReport,main;campaignNonDeliverablesB
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c527e890-2b49-4422-a866-e55a6468c54b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '117'
 ht-degree: 5%
 
 ---
-
 
 # Não entregues e rejeitados{#non-deliverables-and-bounces}
 

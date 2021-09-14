@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Notas de versão anteriores
 description: Notas de versão anteriores
 feature: Overview
@@ -9,7 +7,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: ac129fd21382d1d89263acae2fdbe280709f5946
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 43%

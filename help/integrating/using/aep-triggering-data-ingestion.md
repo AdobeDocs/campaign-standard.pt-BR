@@ -1,24 +1,21 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Acionando a assimilação de dados por meio de APIs
+title: Acionamento da assimilação de dados por meio de APIs
 description: Saiba como acionar a assimilação de dados por meio de APIs.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Integração do Microsoft CRM
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
-translation-type: tm+mt
-source-git-commit: a4e1edc23cf750e44026f388f7b0fff3a80ec663
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '464'
 ht-degree: 5%
 
 ---
 
-# Acionando a assimilação de dados por meio de APIs {#triggering-data-ingestion-apis}
+# Acionamento da assimilação de dados por meio de APIs {#triggering-data-ingestion-apis}
 
 >[!IMPORTANT]
 >
@@ -47,7 +44,7 @@ Depois que o mapeamento de dados for criado, é necessário impedi-lo de ser exe
 
 A execução do mapeamento de dados agora está interrompida. Você pode usar as APIs do Campaign Standard para acioná-las manualmente.
 
-## Iniciando a assimilação imediata de mapeamento de dados {#starting-immediate-ingestion}
+## Início da assimilação imediata de mapeamento de dados {#starting-immediate-ingestion}
 
 A assimilação imediata de um mapeamento XDM no Adobe Experience Platform é acionada com uma operação de POST:
 
@@ -98,7 +95,7 @@ A operação POST retorna informações sobre o status da solicitação criada:
 }
 ```
 
-## Recuperar o status de uma solicitação de assimilação {#retrieving-status}
+## Recuperação do status de uma solicitação de assimilação {#retrieving-status}
 
 O status de uma solicitação de assimilação pode ser recuperado com uma operação GET e a ID de solicitação desejada nos parâmetros:
 

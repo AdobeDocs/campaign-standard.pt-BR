@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Introdução a processos e gerenciamento de dados
 description: Automatize processos com workflows, gerencie dados e públicos, envie mensagens e muito mais.
 audience: automating
@@ -10,9 +8,9 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '517'
 ht-degree: 40%
 
 ---
@@ -36,7 +34,7 @@ Os workflows podem ser usados em contextos diferentes, por exemplo:
 * Importação de dados para o banco de dados do Campaign.
 * Processos técnicos, como limpeza do banco de dados, recuperação de informações de rastreamento etc.
 
-## Atividades do workflow {#workflow-activities}
+## Atividades de workflow {#workflow-activities}
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
@@ -50,7 +48,7 @@ Por fim, [Data management activities](../../automating/using/about-data-manageme
 
 Leia mais:
 
-* [Criação de um workflow](../../automating/using/building-a-workflow.md)
+* [Criação de um fluxo de trabalho](../../automating/using/building-a-workflow.md)
 * [Execução de um fluxo de trabalho](../../automating/using/about-workflow-execution.md)
 * [Práticas recomendadas de fluxo de trabalho](../../automating/using/best-practices-workflows.md)
 
@@ -87,7 +85,7 @@ Finalmente, [Exportar listas](../../automating/using/exporting-lists.md) permite
 Leia mais:
 
 * [Importação e exportação de dados](../../automating/using/about-data-import-and-export.md)
-* [Caso de uso: exportação / importação de recursos personalizados](../../automating/using/exporting-importing-custom-resources.md)
+* [Caso de uso: exportação/importação de recursos personalizados](../../automating/using/exporting-importing-custom-resources.md)
 
 ## Recursos adicionais
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Bifurcação
 description: A atividade Fork permite criar transições de saída para iniciar várias atividades ao mesmo tempo.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: fork,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1a5e1ecd-b3f1-4dbe-a816-12d27a3bc0f7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 98%
+source-wordcount: '210'
+ht-degree: 100%
 
 ---
-
 
 # Bifurcação{#fork}
 
@@ -44,4 +41,3 @@ A atividade **[!UICONTROL Fork]** permite realizar várias atividades diferentes
 O exemplo a seguir mostra uma intersecção de duas atividades de query que segmenta perfis do banco de dados do Adobe Campaign, neste caso, mulheres morando em Paris. A atividade Fork, portanto, permite que você use várias atividades ao mesmo tempo: uma que salva o público para lembrar a população calculada, e outra que segmenta a população para enviar dois emails diferentes com um conteúdo direcionado para cada segmento. O primeiro email é enviado para mulheres parisienses entre 18 e 40 anos e outro para mulheres parisienses com mais de 40 anos.
 
 ![](assets/wkf_fork_example.png)
-

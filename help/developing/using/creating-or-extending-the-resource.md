@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Criação ou extensão do recurso
 description: Descubra como definir um recurso do zero.
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: adding-or-extending-a-resource
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b8731088-a675-4070-9036-bf2b5254e4e8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 10%
+source-wordcount: '153'
+ht-degree: 11%
 
 ---
-
 
 # Criação ou extensão do recurso{#creating-or-extending-the-resource}
 

@@ -1,24 +1,22 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Sobre os acionadores da Adobe Experience Cloud
 description: Agora é possível enviar emails personalizados para os clientes no Adobe Campaign ao rastrear comportamentos específicos dos clientes com o Adobe Analytics.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 context-tags: trigger,overview;trigger,main
-feature: Acionadores
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '473'
 ht-degree: 98%
 
 ---
 
-# Sobre os acionadores da Adobe Experience Cloud{#about-adobe-experience-cloud-triggers}
+# Sobre acionadores da Adobe Experience Cloud{#about-adobe-experience-cloud-triggers}
 
 A integração entre o serviço principal **[!UICONTROL Triggers]** da Ativação da Experience Cloud e o Adobe Campaign permite enviar emails personalizados para os clientes como uma reação a comportamentos específicos que são rastreados no site pelo Adobe Analytics (em 15 minutos).
 

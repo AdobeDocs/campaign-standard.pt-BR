@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Criação de perfis
 description: Saiba como criar perfis e coletar dados nos contatos usando APIs, recursos de importação, aquisição online, atualizações automáticas ou manuais.
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: Perfis
+feature: Profiles
 role: User
 level: Beginner
 exl-id: 827df9f6-070c-466a-890c-e363de6b129b
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '380'
 ht-degree: 90%
 
 ---
