@@ -9,7 +9,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8c4e38a3fc66e4d819575fcd64616a822e0e1f82
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 5%
@@ -109,6 +109,8 @@ Para enviar dados PII para [!DNL Adobe Campaign Standard], crie uma regra em [!D
    {
    "marketingCloudId":
    "{%%mcid%%}",
+   "pushPlatform":
+   "{%contextdata.pushPlatform%}",
    "cusEmail":
    "{%contextdata.email%}",
    "cusFirstName":
@@ -126,6 +128,7 @@ Para enviar dados PII para [!DNL Adobe Campaign Standard], crie uma regra em [!D
    ```
    {
    "marketingCloudId":"{%%mcid%%}",
+   "pushPlatform":"{%contextdata.pushPlatform%}",
    "cusDayslastlaunch": "{%%DaysSinceLastUse%%}", 
    "cusDaysfirstlaunch": "{%%DaysSinceFirstUse%%}", 
    "cusLaunches": "{%%Launches%%}"
