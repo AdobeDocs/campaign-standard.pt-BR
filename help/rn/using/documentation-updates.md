@@ -11,7 +11,7 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '6954'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ Além das [Notas de versão](../../rn/using/release-notes.md) do Adobe Campaign,
 
 **Novos recursos incluídos na versão**
 
-Interface de Experience Cloud unificada aprimorada - [Leia mais](../../start/using/interface-description.md#top-bar)
+Interface unificada aprimorada da Experience Cloud — [Leia mais](../../start/using/interface-description.md#top-bar)
 
-Novo recurso de Trilha de Auditoria - [Leia mais](../../administration/using/audit.md)
+Novo recurso de trilha de auditoria — [Leia mais](../../administration/using/audit.md)
 
-Modo de diagnóstico do fluxo de trabalho - [Leia mais](../../automating/using/managing-execution-options.md)
+Modo de diagnóstico de fluxo de trabalho — [Leia mais](../../automating/using/managing-execution-options.md)
 
 **Outras atualizações de documentação que vêm com a versão**
 
@@ -62,7 +62,7 @@ A página **Planejamento de versão** foi atualizada com novas datas. [Leia mais
 
 ## Abril de 2021 {#doc-updates-april-2021}
 
-Uma nova seção foi adicionada sobre como trabalhar com Fontes e Destinos da Adobe Experience Platform para compartilhar dados entre o Campaign Standard e o Adobe Real-time Customer Data Platform (RTCDP). [Leia mais](../../integrating/using/get-started-sources-destinations.md)
+Uma nova seção foi adicionada sobre como trabalhar com Fontes e Destinos da Adobe Experience Platform para compartilhar dados entre o Campaign Standard e o a Adobe Real-time Customer Data Platform (RTCDP). [Leia mais](../../integrating/using/get-started-sources-destinations.md)
 
 ## Março de 2021 {#doc-updates-march-2021}
 
