@@ -8,7 +8,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '2696'
 ht-degree: 90%
@@ -159,7 +159,7 @@ Se `DELIVER_SM PDU` não for confirmado com êxito, verifique o seguinte:
 
 Se você corrigiu tudo, menos alguns SR inválidos, ainda estão nos buffers do provedor, é possível ignorá-los usando a opção **ID confirm count** inválida. Isso deverá ser usado com cuidado e redefinido como 0 o mais rápido possível depois que os buffers estiverem limpos.
 
-## Problema ao processar o MO (e lista de bloqueio/resposta automática){#issue-process-MO}
+## Problema ao processar MO (e /responder automaticamente){#issue-process-MO}
 
 * Ativar rastreamentos SMPP durante testes. Se você não ativar o TLS, deverá fazer uma captura de rede ao solucionar problemas do MO para verificar se as PDUs contêm as informações corretas e estão formatadas adequadamente.
 

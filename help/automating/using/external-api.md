@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '2200'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -325,7 +325,7 @@ The workflow is presented as follows:
 ![](assets/externalAPI_activity_example1.png)
 
 1. Drag and drop an **External API** activity
-    1. Parse the JSON sample responsa as {"data":[{"code":"value"}]}.
+    1. Parse the JSON sample response as {"data":[{"code":"value"}]}.
     1. Add the **Rest endpoint URL** and define authentication setting if needed
     ![](assets/externalAPI_activity_example2.png)
     1. In the **column definition** tab, add a new column called **code** that will store the code value.
@@ -351,6 +351,6 @@ The workflow is presented as follows:
     1. The transition **Data Structure** will contain:
         ![](assets/externalAPI_activity_example7.png)
 1. Finally drag and drop a **Send via Email** activity.
-    You can modify your email template by adding the **code** personnalized field.
+    You can modify your email template by adding the **code** personalized field.
 
 -->

@@ -8,9 +8,9 @@ hidefromtoc: true
 role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 87e91e169fedf962471f82754b1d40a14e5fc32a
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '585'
 ht-degree: 100%
 
 ---
@@ -72,7 +72,7 @@ Obtenha suporte usando as perguntas frequentes, as práticas recomendadas, os re
         <li><a href="start/using/privacy-management.md">Gestão do consentimento e da privacidade</a></li>
         <li><a href="automating/using/query.md">Criar uma query</a></li>
         <li><a href="automating/using/query-samples.md">Amostras de query</a></li>
-        <li><a href="https://helpx.adobe.com/br/campaiacs-mobile.html">Configurar canais móveis</a></li>
+        <li><a href="administration/using/push-tracking.md">Configurar canais móveis</a></li>
         </ul>
     </td>
     </tr>
@@ -119,7 +119,7 @@ O novo sistema de emissão de tíquetes passou pelo [Adobe Admin Console](https:
 
 ### Pergunte aos especialistas.
 
-Associe-se à Comunidade do Campaign Classic: procure respostas em perguntas existentes ou faça sua pergunta à comunidade. [Participe da conversa](https://experienceleaguecommunities.adobe.cadobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Associe-se à Comunidade do Campaign Classic: procure respostas em perguntas existentes ou faça sua pergunta à comunidade. [Participe da conversa](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Criar um tíquete ou iniciar um chat
 

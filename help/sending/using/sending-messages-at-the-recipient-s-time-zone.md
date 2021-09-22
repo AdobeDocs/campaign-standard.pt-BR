@@ -8,16 +8,16 @@ feature: Proofs
 role: User
 level: Intermediate
 exl-id: 48f222bd-9c2f-4eeb-a12b-bbfc62119024
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # Envio de mensagens no fuso horário do recipient{#sending-messages-at-the-recipient-s-time-zone}
 
-Ao gerenciar uma campanha na qual a data e a hora são importantes, você pode programar um delivery que considere a hora local de cada recipient: eles receberão email, SMS ou notificações por push na hora programada, em seu próprio fuso horário.
+Ao gerenciar uma campanha na qual a data e a hora são importantes, é possível agendar um delivery que leve em conta a hora local de cada recipient: eles receberão notificações por email, SMS ou push no momento agendado, em seu próprio fuso horário.
 
 >[!NOTE]
 >

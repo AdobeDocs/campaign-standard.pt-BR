@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 8c1a47ed-3467-4fcd-8747-86f0e8f15cec
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 1%
@@ -97,7 +97,7 @@ Para obter mais informações sobre como usar a atividade, consulte [esta seçã
 >
 >A preparação de deliveries recorrentes é baseada no **período de agregação** do delivery. Por exemplo, se o período de agregação for &quot;por dia&quot;, o delivery será repreparado apenas uma vez por dia. Se o valor de um parâmetro de delivery for modificado durante o dia, ele não será atualizado no delivery, pois já foi preparado uma vez.
 >
->Se você planeja chamar o workflow várias vezes por dia, use a opção [!UICONTROL No aggregation] para que os parâmetros de delivery sejam atualizados toda vez. Para obter mais informações sobre configuração de deliveries recorrentes, consulte [esta seção](/help/automating/using/email-delivery.md#configuration).
+>Se você planeja chamar o workflow várias vezes por dia, use a opção [!UICONTROL No aggregation] para que os parâmetros de delivery sejam atualizados sempre. Para obter mais informações sobre configuração de deliveries recorrentes, consulte [esta seção](/help/automating/using/email-delivery.md#configuration).
 
 Para personalizar um delivery com base nas variáveis de eventos, primeiro declare na atividade de delivery as variáveis que deseja usar:
 

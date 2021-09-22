@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '5400'
+source-wordcount: '5403'
 ht-degree: 10%
 
 ---
@@ -469,7 +469,7 @@ Alguns problemas podem ocorrer ao usar links de ajuda contextual da interface do
      <li> baixar imagens ou outros arquivos de mídia e adicioná-los como anexos a uma notificação </li> 
      <li> alterar o texto do corpo ou do título de uma notificação </li> 
      <li> adicionar um identificador de thread a uma notificação </li> 
-    </ul> Para obter mais informações sobre Conteúdo disponível e Conteúdo mutável, consulte a <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentação detalhada</a>.<br /> <strong>Aviso:</strong> essas atualizações nas notificações por push exigem que os clientes atualizem seus aplicativos móveis. Consulte <a href="https://helpx.adobe.com/br/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">esta nota técnica</a> para obter mais informações.<br /> </td> 
+    </ul> Para obter mais informações sobre Conteúdo disponível e Conteúdo mutável, consulte a <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentação detalhada</a>.<br /> <strong>Aviso:</strong> essas atualizações nas notificações por push exigem que os clientes atualizem seus aplicativos móveis. Consulte <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">esta nota técnica</a> para obter mais informações.<br /> </td> 
   </tr> 
   <tr> 
    <td> Deliveries otimizados para fuso horário<br /> </td> 

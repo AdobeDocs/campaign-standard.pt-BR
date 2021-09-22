@@ -9,9 +9,9 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1500'
 ht-degree: 97%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 Para ajustar as notificações por push, o Adobe Campaign permite o acesso a um conjunto de opções avançadas ao projetar uma notificação por push.
 
-Como um usuário especializado, para configurar aplicativos móveis no Adobe Campaign, consulte a seguinte nota técnica [Como entender a estrutura de payload das notificações por push do Campaign Standard](https://helpx.adobe.com/br/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html).
+Como um usuário especializado, para configurar aplicativos móveis no Adobe Campaign, consulte a seguinte nota técnica [Como entender a estrutura de payload das notificações por push do Campaign Standard](../../administration/using/push-payload.md).
 
 ![](assets/push_notif_advanced.png)
 
@@ -150,7 +150,7 @@ Para incluir mídia avançada na notificação por push:
 1. Abra a notificação por push e acesse a seção **[!UICONTROL Advanced options]**.
 1. Insira o URL do arquivo no campo **[!UICONTROL Rich media content URL]** para cada formato: iOS e Android.
 
-   No iOS 10 ou superior, você pode inserir arquivos de imagem, gif, áudio e vídeo. Para versões anteriores do iOS, a notificação por push será exibida sem conteúdo avançado. Para obter etapas detalhadas sobre como exibir uma imagem de uma notificação por push do Adobe Campaign em um dispositivo iOS, consulte esta [página](https://helpx.adobe.com/br/campaign/kb/display-image-push.html).
+   No iOS 10 ou superior, você pode inserir arquivos de imagem, gif, áudio e vídeo. Para versões anteriores do iOS, a notificação por push será exibida sem conteúdo avançado. Para obter etapas detalhadas sobre como exibir uma imagem de uma notificação por push do Adobe Campaign em um dispositivo iOS, consulte esta [página](../../administration/using/image-push-notification.md).
 
    Para o Android, apenas é possível incluir imagens.
 

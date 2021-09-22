@@ -8,10 +8,10 @@ feature: Campaigns
 role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 100%
+source-wordcount: '650'
+ht-degree: 88%
 
 ---
 
@@ -87,38 +87,38 @@ Observe que o idioma é configurado durante a instalação e não pode ser alter
 
 ### Página inicial {#homepage-shortcuts}
 
-| Atalho | Ação |
-|:-:|:-:|
-| Guia | Navegar pelos elementos individuais da interface do usuário |
-| Enter ou Space | Ativar o item selecionado |
+| Ação | Atalho |
+| --- | --- |
+| Navegar pelos elementos individuais da interface do usuário | Guia |
+| Ativar o item selecionado | Inserir ou Barra de espaço |
 
 ### Designer de email {#email-designer-shortcuts}
 
-| Atalho | Ação |
-|:-:|:-:|
-| CTRL + Z | Desfazer |
-| CTRL + Y | Refazer |
+| Ação | Atalho do Windows | Atalho do macOS |
+| --- | --- | --- |
+| Desfazer | Ctrl + Z | Comando + Z |
+| Refazer | Ctrl + Y | Shift + Command + Z |
 
 ### Relatórios dinâmicos {#report-shortcuts}
 
-| Atalho | Ação |
-|:-:|:-:|
-| CTRL + O | Abrir projeto |
-| CTRL + S | Salvar |
-| Shift + CTRL + S | Salvar como |
-| Alt + R | Atualizar projeto |
-| Shift + CTRL + V | Baixar CSV |
-| Alt + P | Imprimir |
-| CTRL + Z | Desfazer |
-| CTRL + Shift + Z | Refazer |
-| Alt + B | Novo painel em branco |
-| Alt + A | Nova forma livre |
-| Alt + 1 | Nova tabela de forma livre |
-| Alt + 2 | Nova linha |
-| Alt + 3 | Nova barra |
-| Alt + S | Enviar relatório agora |
-| Shift + Alt + S | Enviar relatório programado |
-| Shift = Alt + L | Relatórios agendados |
+| Ação | Atalho do Windows | Atalho do macOS |
+| --- | --- | --- |
+| Abrir um projeto | Ctrl + O | Comando + O |
+| Salvar | Ctrl + S | Comando + S |
+| Salvar como | Shift + Ctrl + S | Shift + Command + S |
+| Atualizar projeto | Alt + R | Comando + R |
+| Baixar arquivo CSV | Shift + Ctrl + V | Shift + Command + V |
+| Imprimir | Alt + P | Comando + P |
+| Desfazer | Ctrl + Z | Comando + Z |
+| Refazer | Ctrl + Y | Shift + Command + Z |
+| Novo painel em branco | Alt + B | Opção + B |
+| Nova forma livre | Alt + A | Opção + A |
+| Nova tabela de forma livre | Alt + 1 | Opção + 1 |
+| Nova linha | Alt + 2 | Opção + 2 |
+| Nova barra | Alt + 3 | Opção + 3 |
+| Enviar relatório agora | Alt + S | Opção + S |
+| Enviar relatório programado | Shift + Alt + S | Shift + Opção + S |
+| Relatórios agendados | Shift + Alt + L | <!-- Should be 'Shift + Option + L ' but does not work on Mac --> |
 
 ## Leitura adicional {#further-reading}
 

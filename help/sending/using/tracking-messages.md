@@ -8,10 +8,10 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 36%
+source-wordcount: '480'
+ht-degree: 37%
 
 ---
 
@@ -38,7 +38,7 @@ O rastreamento com a Adobe Campaign Standard permite acessar as seguintes funcio
         <a href="../../administration/using/configuring-email-channel.md#tracking-parameters"><img width="60px" alt="condições" src="assets/icon_email_parameters.png"/></a>
     </td>
     <td valign="top">
-        <a href="https://helpx.adobe.com/campaign/kb/push-tracking.html"><img width="60px" alt="condições" src="assets/icon_push_parameters.png"/></a>
+        <a href="../../administration/using/push-tracking.md"><img width="60px" alt="condições" src="assets/icon_push_parameters.png"/></a>
     </td>
     <td valign="top">
         <a href="../../designing/using/links.md#about-tracked-urls"><img width="60px" alt="condições" src="assets/icon_url.png"/></a>

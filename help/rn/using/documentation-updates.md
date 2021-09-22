@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '6954'
-ht-degree: 100%
+source-wordcount: '6933'
+ht-degree: 99%
 
 ---
 
@@ -204,7 +204,7 @@ A página de visão geral do Campaign Standard foi enriquecida e reorganizada po
 
 A seção Parâmetros do canal de emails foi esclarecida com informações adicionais sobre os campos de máscaras autorizadas e a ID de relatórios do delivery. [Leia mais](../../administration/using/configuring-email-channel.md)
 
-A documentação sobre Configuração de um aplicativo para dispositivo móvel usando os SDKs da Adobe Experience Platform agora está disponível na documentação principal. Ela também contém informações sobre o workflow técnico Sincronizar AEPSDK do aplicativo para dispositivo móvel do Launch. [Leia mais](../../administration/using/configuring-a-mobile-application.md)
+A documentação principal sobre Configuração de um aplicativo para dispositivos móveis usando SDKs do Adobe Experience Platform está disponível com mais informações sobre o fluxo de trabalho técnico Sincronizar AEPSDK do aplicativo para dispositivos móveis no Launch . [Leia mais](../../administration/using/configuring-a-mobile-application.md)
 
 ## Versão 20.3 - Maio de 2020 {#release-20-3---may-2020}
 
@@ -572,9 +572,9 @@ Um caso de uso foi adicionado sobre como estender o recurso personalizado de per
 
 Foram adicionadas informações sobre como vincular recursos personalizados. [Leia mais](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
 
-Uma nova nota técnica foi adicionada sobre como exibir uma imagem de uma notificação por push do Adobe Campaign Standard. [Leia mais](https://helpx.adobe.com/content/help/br/campaign/kb/display-image-push.html)
+Uma nova nota técnica foi adicionada sobre como exibir uma imagem de uma notificação por push do Adobe Campaign Standard. [Leia mais](../../administration/using/image-push-notification.md)
 
-Uma nova nota técnica sobre implementação do rastreamento de notificação por push foi adicionada. [Leia mais](https://helpx.adobe.com/content/help/br/campaign/kb/push-tracking.html)
+Uma nova nota técnica sobre implementação do rastreamento de notificação por push foi adicionada. [Leia mais](../../administration/using/push-tracking.md)
 
 A lista de mensagens de erro do Campaign Standard e do Campaign Classic foi atualizada. [Leia mais](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
@@ -862,7 +862,7 @@ A seção Recursos personalizados foi esclarecida com um procedimento mais detal
 
 A [nota técnica](https://helpx.adobe.com/br/campaign/kb/integrate-mobile-sdk.html) sobre como integrar o SDK móvel da Adobe Marketing Cloud com um aplicativo para dispositivos móveis foi atualizada e esclarecida. A integração permite receber notificações por push do Adobe Campaign Standard.
 
-Uma nota técnica foi adicionada explicando a estrutura do payload recebido em um aplicativo móvel. [Leia mais.](https://helpx.adobe.com/br/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
+Uma nota técnica foi adicionada explicando a estrutura do payload recebido em um aplicativo móvel. [Leia mais.](../../administration/using/push-payload.md)
 
 A [seção](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) Configuração do canal de push foi atualizada com novos dados de payload na versão do OS a serem adicionados ao definir postbacks na interface do Adobe Mobile Services.
 

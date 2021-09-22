@@ -4,7 +4,7 @@ description: '"Saiba como personalizar a exibição e atuar em telas de lista no
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 6%

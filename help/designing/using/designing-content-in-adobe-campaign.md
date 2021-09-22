@@ -8,10 +8,10 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '1248'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ Após a criação de um email no Adobe Campaign, é necessário definir seu cont
 O Designer de email permite criar emails atraentes e personalizados por meio de um arrastar e soltar
 interface. Esteja você iniciando do zero ou a partir de fragmentos e modelos de conteúdo existentes, projete e refine todo o conteúdo para cada email, seja ele promocional ou transacional.
 
-Criado para fornecer HTML otimizado para design responsivo, o Designer de email permite definir e aplicar facilmente condições de visibilidade e conteúdo dinâmico a um email, modelo ou fragmento diretamente pela interface do usuário. Você pode alternar facilmente entre a interface de arrastar e soltar e o código HTML clicando em um botão.
+Criado para fornecer HTML otimizado para design responsivo, o Designer de email permite definir e aplicar facilmente condições de visibilidade e conteúdo dinâmico a um email, modelo ou fragmento diretamente pela interface do usuário. Você pode alternar facilmente entre a interface de arrastar e soltar e o código HTML ao clicar em um botão.
 
 O Designer de email permite a criação de conteúdo de email e modelos de conteúdo de email. Ele é compatível com emails simples, transacionais, de teste A/B, multilíngues e recorrentes.
 

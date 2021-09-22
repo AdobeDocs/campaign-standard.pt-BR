@@ -7,7 +7,7 @@ topic-tags: about-sending-messages-with-campaign
 role: User
 level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 17%
@@ -77,7 +77,7 @@ Leia mais:
 
 A capacidade de delivery permite medir o sucesso das campanhas em chegar à caixa de entrada dos recipients sem rejeição ou sem serem marcadas como spam.
 
-O Campaign Standard fornece várias **ferramentas de deliverability** para ajudar você a melhorar o número de mensagens entregues com êxito: relatórios de delivery, otimização de tempo de envio, pré-visualização de mensagens, renderização de email, gerenciamento de quarentena etc.
+O Campaign Standard fornece várias **ferramentas de deliverability** para ajudar você a melhorar o número de mensagens entregues com êxito: relatórios de taxa de transferência de delivery, otimização de tempo de envio, pré-visualização de mensagens, renderização de email, gerenciamento de quarentena etc.
 
 Leia mais:
 

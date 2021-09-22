@@ -9,10 +9,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 41366b6fa7647dbf0e4e5df71e2755189f4ffc42
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 99%
+source-wordcount: '779'
+ht-degree: 93%
 
 ---
 
@@ -46,6 +46,10 @@ Para aplicar as alterações feitas nos recursos, é necessário executar uma at
    Para saber mais sobre a ação a ser executada na API de Perfis e serviços, consulte [Publicação de um recurso com extensão de API](#publishing-a-resource-with-api-extension).
 
    ![](assets/schema_extension_13.png)
+
+   >[!NOTE]
+   >
+   >Como índices duplicados causam falha na publicação, a etapa de preparação verifica se o índice definido para o recurso já existe com o mesmo nome para outro recurso. Se isso acontecer, uma mensagem de erro será exibida, solicitando que você renomeie o índice. Consulte [Definição de índices](configuring-the-resource-s-data-structure.md#defining-indexes).
 
 1. Depois que a publicação for feita, clique no botão **[!UICONTROL Publish]** para aplicar as novas configurações.
 1. Depois de publicado, o painel de **[!UICONTROL Summary]** de cada recurso indica que o status está agora **[!UICONTROL Published]** e especifica a data da última publicação.

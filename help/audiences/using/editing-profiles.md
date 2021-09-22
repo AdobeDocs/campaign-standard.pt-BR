@@ -1,6 +1,6 @@
 ---
 title: Edição de perfis
-description: Saiba como editar perfis existentes e acessar informações de contato, canais preferidos, logs de rastreamento, assinaturas etc.
+description: Saiba como editar perfis existentes e acessar informações de contato, canais preferenciais, logs de rastreamento, assinaturas etc.
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
@@ -8,7 +8,7 @@ feature: Profiles
 role: User
 level: Intermediate
 exl-id: d0c7dc09-6f2b-4336-b545-7afe3a704164
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 8%

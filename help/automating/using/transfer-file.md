@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '1115'
-ht-degree: 91%
+ht-degree: 88%
 
 ---
 
@@ -72,7 +72,8 @@ Você pode usar essa atividade para recuperar dados que serão estruturados com 
 
 O protocolo HTTP permite iniciar o download de um arquivo de uma conta externa ou de um URL.
 
-Com esse protocolo, você pode optar por **[!UICONTROL Use connection parameters defined in an external account]**. Nesse caso, selecione a conta desejada e especifique o caminho do arquivo para download.
+Com este protocolo, você pode optar por **[!UICONTROL Use connection parameters defined in an external account]** . Nesse caso, selecione a conta desejada e especifique o caminho do arquivo para download.
+
 ![](assets/wkf_file_transfer_03.png)
 
 Você também pode escolher a opção **[!UICONTROL Quick configuration]**. Você só precisa inserir o URL no campo URL.
@@ -82,7 +83,7 @@ Você também pode escolher a opção **[!UICONTROL Quick configuration]**. Voc�
 
 O protocolo SFTP permite iniciar o download de um arquivo de uma conta externa ou de um URL.
 
-Com esse protocolo, você pode escolher a opção **[!UICONTROL Use connection parameters defined in an external account]**, selecionar a conta desejada e especificar o caminho do arquivo a ser baixado.
+Com esse protocolo, você pode optar por **[!UICONTROL Use connection parameters defined in an external account]** , selecionar a conta desejada e especificar o caminho do arquivo a ser baixado.
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]

@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 19bfeecb-da60-479c-a929-0cfb72ef59e3
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 3%
@@ -23,7 +23,7 @@ O endpoint /customResources tem exatamente o mesmo comportamento do endpoint /pr
 
 Os recursos personalizados expostos dentro dessa API são:
 
-* todas as entidades não expostas em /profileAndServicesExt
+* todas as entidades que não estão expostas em /profileAndServicesExt
 * todas as entidades não vinculadas ao perfil e, para essas entidades, seus filhos e netos.
 * por padrão, todas as entidades que não estão vinculadas a nada, e seus filhos e netos.
 
