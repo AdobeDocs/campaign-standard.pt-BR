@@ -7,8 +7,7 @@ topic-tags: mobile-guide
 feature: Overview
 role: User
 level: Beginner
-hidefromtoc: true
-source-git-commit: 34270a2caff0932b56d00ccf721bdba87eb61f81
+source-git-commit: e583ba4e93b16389be9d06c4b7fa8eebf4ee3cfc
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 23%
