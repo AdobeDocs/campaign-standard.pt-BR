@@ -8,27 +8,25 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '672'
 ht-degree: 3%
 
 ---
 
 # Gerenciamento de mensagens transacionais {#managing-transactional-messages}
 
-## Sobre mensagens transacionais
-
 Depois de criar e publicar um evento transacional, é necessário integrar o acionamento desse evento no site.
 
 >[!NOTE]
 >
->A configuração de um evento é apresentada em [nesta seção](../../channels/using/configuring-transactional-event.md).
+>A configuração do evento é detalhada em [this section](../../channels/using/configuring-transactional-event.md).
 
-Por exemplo, você deseja que um evento de &quot;Abandono do carrinho&quot; seja acionado sempre que um dos clientes sair do site antes de comprar os produtos no carrinho. Para fazer isso, o desenvolvedor da Web deve usar a API REST Transactional Messages .
+Por exemplo, você deseja que um evento de &quot;Abandono do carrinho&quot; seja acionado sempre que um dos clientes sair do site antes de comprar os produtos no carrinho. Para fazer isso, como desenvolvedor da Web, você deve usar a REST Transactional Messages API.
 
-1. O desenvolvedor envia uma solicitação de acordo com o método POST, que aciona o [envio do evento transacional](#sending-a-transactional-event).
-1. A resposta à solicitação POST contém uma Chave primária, que permite ao desenvolvedor enviar uma ou várias solicitações por meio de uma solicitação GET. Dessa forma, ele poderá obter o [status do evento](#transactional-event-status).
+1. Envie uma solicitação de acordo com o método POST, que aciona o [envio do evento transacional](#sending-a-transactional-event).
+1. A resposta à solicitação POST contém uma Chave primária, que permite enviar uma ou várias solicitações por meio de uma solicitação GET. Você poderá obter o [status do evento](#transactional-event-status).
 
 ## Envio de um evento transacional {#sending-a-transactional-event}
 
@@ -46,7 +44,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
-   (Observe que o endpoint da API de mensagens transacionais também está visível durante a visualização da API)
+   Observe que o endpoint da API de mensagens transacionais também é visível durante a visualização da API.
 
 * **&lt;eventid>**: o tipo de evento que você deseja enviar. Essa ID é gerada ao criar a configuração do evento (consulte [esta seção](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 

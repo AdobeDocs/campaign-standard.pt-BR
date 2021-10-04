@@ -8,9 +8,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: acfe0b9c-77a4-46ad-8151-7bf9c21fa4b0
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 >
 >Observe que é necessário arrastar e soltar as métricas **[!UICONTROL Message type]** em suas tabelas para dividir os dados dependendo dos tipos de delivery, nesse caso, os deliveries de notificação por push.
 
-O relatório **Notificação por push** fornece detalhes do desempenho de marketing das notificações por push no Adobe Campaign. Esse relatório pronto para uso ajudará você a entender como os usuários interagem com notificações por push, aplicativos móveis e deliveries.
+O relatório **Notificação por push** fornece detalhes do desempenho de marketing das notificações por push no Adobe Campaign. Esse relatório pronto para uso ajuda você a entender como os usuários interagem com notificações por push, aplicativos móveis e deliveries.
 
 Algumas configurações são necessárias no aplicativo móvel para implementar o rastreamento por push, consulte esta [página](../../administration/using/push-tracking.md) para obter as etapas detalhadas.
 

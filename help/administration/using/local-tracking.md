@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '570'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ O rastreamento de notificação local pode ser dividido em três tipos:
 
 Para implementar o rastreamento para Adobe Campaign Standard, o aplicativo móvel precisa incluir SDK móvel no aplicativo. Esses SDKs estão disponíveis em [!DNL Adobe Mobile Services].
 
-Para enviar informações de rastreamento, há três variáveis que precisam ser enviadas: dois são parte dos dados recebidos do Adobe Campaign e o outro é uma variável de ação que determina se é uma impressão, clique ou abertura.
+Para enviar informações de rastreamento, há três variáveis que devem ser enviadas: dois são parte dos dados recebidos do Adobe Campaign e o outro é uma variável de ação que determina se é uma impressão, clique ou abertura.
 
 | Variável | Valor |
 | :-: | :-: |
@@ -46,11 +46,11 @@ O SDK do Adobe Experience Platform Mobile enviará automaticamente o evento de i
 
 ## Implementar o rastreamento de cliques {#implementing-click-tracking}
 
-Para o rastreamento de cliques, é necessário enviar o valor &quot;2&quot; para a ação ao chamar as funções `collectMessageInfo()` ou `trackAction()`.
+Para o rastreamento de cliques, você deve enviar o valor &quot;2&quot; para a ação ao chamar as funções `collectMessageInfo()` ou `trackAction()`.
 
 ### Para Android {#implement-click-tracking-android}
 
-Para rastrear cliques, dois cenários precisam ser tratados:
+Para rastrear cliques, dois cenários devem ser implementados:
 
 * O usuário vê a notificação, mas a limpa.
 
@@ -68,7 +68,7 @@ Para rastrear cliques, dois cenários precisam ser tratados:
 
 ### Para iOS {#implement-click-tracking-ios}
 
-Para enviar as informações de rastreamento de cliques, é necessário adicionar o seguinte:
+Para enviar as informações de rastreamento de cliques, você deve adicionar o seguinte:
 
 ```
 class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
@@ -101,13 +101,13 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
 
 ## Implementar o rastreamento aberto {#implement-open-tracking}
 
-É necessário enviar &quot;1&quot; e &quot;2&quot;, pois o usuário deve clicar na notificação para abrir o aplicativo. Se o aplicativo não for iniciado/aberto por meio da notificação local, nenhum evento de rastreamento ocorrerá.
+Você deve enviar &quot;1&quot; e &quot;2&quot;, pois o usuário deve clicar na notificação para abrir o aplicativo. Se o aplicativo não for iniciado/aberto por meio da notificação local, nenhum evento de rastreamento ocorrerá.
 
 ### Para Android {#implement-open-tracking-android}
 
-Para rastrear a abertura, precisamos criar intenção. Os objetos de intenção permitem que o sistema operacional Android chame o método quando determinadas ações forem executadas, nesse caso clicando na notificação para abrir o aplicativo.
+Para rastrear aberturas, devemos criar intenções. Os objetos de intenção permitem que o sistema operacional Android chame o método quando determinadas ações forem executadas, nesse caso clicando na notificação para abrir o aplicativo.
 
-Esse código é baseado na implementação do rastreamento de impressões de cliques. Com a intenção definida, agora é necessário enviar informações de rastreamento de volta ao Adobe Campaign. Nesse caso, o Android View([!DNL Activity]) que acionou a notificação será aberto ou trazido para o primeiro plano como resultado do clique por usuário. O objeto intent em [!DNL Activity] contém os dados de notificação que podem ser usados para rastrear aberturas.
+Esse código é baseado na implementação do rastreamento de impressões de cliques. Com a intenção definida, agora você deve enviar informações de rastreamento de volta ao Adobe Campaign. Nesse caso, o Android View([!DNL Activity]) que acionou a notificação será aberto ou trazido para o primeiro plano como resultado do clique por usuário. O objeto intent em [!DNL Activity] contém os dados de notificação que podem ser usados para rastrear aberturas.
 
 MainActivity.java (estende [!DNL Activity])
 
@@ -128,7 +128,7 @@ private void handleTracking() {
  
     if (data != null) {
 
-        //Opened based on the notification, you need to get the tracking that was passed on.
+        //Opened based on the notification, you must get the tracking that was passed on.
 
         Map<String, String> notificationData = (Map<String, Object>)data.getSerializableExtra("NOTIFICATION_USER_INFO");
         String deliveryId = (String)notificationData.get("deliveryId");

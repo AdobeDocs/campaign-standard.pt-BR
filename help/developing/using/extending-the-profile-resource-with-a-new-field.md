@@ -8,10 +8,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -71,7 +71,7 @@ Para criar o novo campo **Interest** para os perfis, primeiro estenda o recurso 
 
 1. Clique em **[!UICONTROL Add an element]** e inclua quantos valores forem necessários adicionando um **[!UICONTROL Label]** e um **[!UICONTROL ID]** e clicando em **[!UICONTROL Add]**.
 
-   Aqui, criaremos os valores de Books, Exhibitions, Movies e N/A para que os perfis escolham entre essas opções.
+   Neste exemplo, crie os valores de Livros, Exposições, Filmes e N/A para que os perfis escolham entre essas opções.
 
    ![](assets/schema_extension_uc11.png)
 

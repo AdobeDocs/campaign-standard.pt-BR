@@ -1,5 +1,5 @@
 ---
-title: Sobre casos de uso de fluxo de trabalho
+title: Sobre casos de uso de workflows
 description: Saiba mais sobre casos de uso que você pode executar usando workflows do Campaign Standard.
 audience: automating
 content-type: reference
@@ -7,18 +7,18 @@ topic-tags: about-workflows-and-data-management
 feature: Workflows
 role: Data Architect
 exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 94%
+source-wordcount: '233'
+ht-degree: 86%
 
 ---
 
-# Sobre casos de uso de fluxo de trabalho {#about-workflow-use-cases}
+# Sobre casos de uso de workflows {#about-workflow-use-cases}
 
 Nesta seção você encontrará vários casos de uso que usam os recursos dos workflows do Campaign.
 
-Eles ajudarão você a descobrir os diferentes contextos nos quais os workflows podem ser usados e a atender às suas necessidades.
+Eles ajudam você a descobrir os diferentes contextos nos quais os workflows podem ser usados e a responder às suas necessidades.
 
 ## Entregas {#deliveries}
 

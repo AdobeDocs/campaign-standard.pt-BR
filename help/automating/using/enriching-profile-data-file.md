@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 78%
+source-wordcount: '526'
+ht-degree: 75%
 
 ---
 
@@ -37,7 +37,7 @@ O fluxo de trabalho é configurado da seguinte maneira:
    aze128;04/03/2017;clara.smith@example.com;Phone;149
    ```
 
-   Com esse arquivo de exemplo, usaremos o endereço de email para reconciliar os dados com os perfis do banco de dados. Você também pode ativar IDs exclusivas conforme descrito [neste documento](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
+   Com esse arquivo de exemplo, use o endereço de email para reconciliar os dados com os perfis do banco de dados. Você também pode ativar IDs exclusivas conforme descrito [neste documento](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 
 * Uma atividade [Enrichment](../../automating/using/enrichment.md) que cria um link entre os dados de transação carregados do arquivo e os perfis selecionados no **[!UICONTROL Query]**. O link é definido na guia **[!UICONTROL Advanced relations]** da atividade. O link é baseado na transição proveniente da atividade **[!UICONTROL Load file]**. Ele usa o campo &quot;email&quot; do recurso de perfil e a coluna &quot;cliente&quot; do arquivo importado como critérios de reconciliação.
 

@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '764'
 ht-degree: 80%
 
 ---

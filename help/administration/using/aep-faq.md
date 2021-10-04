@@ -8,9 +8,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '913'
 ht-degree: 4%
 
 ---
@@ -36,7 +36,7 @@ Confira os recursos abaixo para obter mais informações sobre o SDK do Adobe Ex
 
 ## A integração do SDK do Adobe Experience Platform está disponível para Adobe Campaign Standard e Adobe Campaign Classic? {#aep-validity}
 
-Sim, a integração [!DNL Adobe Experience Platform SDK] está disponível para Adobe Campaign Standard e Adobe Campaign Classic. Você precisa instalar o **[!UICONTROL Extension]** correspondente via [!DNL Adobe Launch] para habilitar a integração.
+Sim, a integração [!DNL Adobe Experience Platform SDK] está disponível para Adobe Campaign Standard e Adobe Campaign Classic. Você deve instalar o **[!UICONTROL Extension]** correspondente via [!DNL Adobe Launch] para habilitar a integração.
 
 Para obter mais informações, consulte esta [página](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
@@ -76,7 +76,7 @@ Para isso, siga as etapas abaixo:
 
 ## O que preciso fazer para enriquecer um perfil móvel no Campaign? {#enrich-mobile-profile}
 
-Você precisa configurar um postback CollectPII (consulte esta [página](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback)) e implementar a API CollectPII a partir do SDK (consulte esta [página](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)).
+Você deve configurar um postback CollectPII (consulte esta [página](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback)) e implementar a API CollectPII a partir do SDK (consulte esta [página](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)).
 
 ## Com que frequência uma chamada CollectPII deve ser disparada? {#collect-pii}
 

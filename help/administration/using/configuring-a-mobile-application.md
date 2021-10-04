@@ -8,10 +8,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 7%
+source-wordcount: '1273'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->A notificação por push e as implementações no aplicativo devem ser executadas por usuários especialistas. Se precisar de auxílio, entre em contato com seu executivo de conta da Adobe ou com os parceiros de serviços Professional.
+>A notificação por push e as implementações no aplicativo devem ser executadas por usuários especialistas. Para obter ajuda, entre em contato com o executivo da sua conta Adobe ou com o parceiro de serviços Professional.
 
 Para enviar notificações por push e mensagens no aplicativo com o aplicativo Experience Platform SDK, um aplicativo para dispositivos móveis deve ser configurado no Adobe Experience Platform Experience Platform e configurado no Adobe Campaign.
 
@@ -85,9 +85,9 @@ Seu fluxo de trabalho agora será reiniciado e sincronizado as propriedades móv
 
 ## Configuração do aplicativo Adobe Experience Platform Launch no Adobe Campaign {#set-up-campaign}
 
-Para usar uma propriedade Experience Platform Launch mobile no Campaign, também é necessário configurar essa propriedade no Adobe Campaign. No Adobe Campaign, verifique se o usuário IMS faz parte dos Perfis de produto padrão do usuário e do administrador.
+Para usar uma propriedade Experience Platform Launch mobile no Campaign, você também deve configurar essa propriedade no Adobe Campaign. No Adobe Campaign, verifique se o usuário IMS faz parte dos Perfis de produto padrão do usuário e do administrador.
 
-Você precisará aguardar a execução do workflow técnico e sincronizar a propriedade móvel do Launch para o Adobe Campaign. Em seguida, você pode configurá-lo no Adobe Campaign.
+É necessário aguardar a execução do workflow técnico e sincronizar a propriedade móvel do Launch com o Adobe Campaign. Em seguida, você pode configurá-lo no Adobe Campaign.
 
 Para obter mais informações sobre Sincronizar AEPSDK do aplicativo móvel do workflow técnico do Launch, consulte esta [seção](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
 

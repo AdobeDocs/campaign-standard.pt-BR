@@ -9,9 +9,9 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 5138826d-ae08-403b-91ef-91027ef6e78e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '278'
 ht-degree: 37%
 
 ---

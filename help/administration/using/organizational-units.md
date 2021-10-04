@@ -9,9 +9,9 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '840'
 ht-degree: 5%
 
 ---
@@ -28,7 +28,7 @@ Cada objeto e usuário da plataforma é vinculado a uma unidade organizacional. 
 >
 >Por padrão, a unidade organizacional **[!UICONTROL All (all)]** está atribuída ao grupo de segurança **[!UICONTROL Administrators]**. Ela é somente leitura e não pode ser modificada.
 
-Um usuário tem acesso somente leitura a todos os objetos nas unidades pai. Ele tem acesso de leitura e gravação a todos os objetos de sua unidade e unidades-filho. Um usuário não tem acesso a objetos em ramificações paralelas.
+Um usuário tem acesso somente leitura a todos os objetos nas unidades pai. Esse usuário tem acesso de leitura e gravação a todos os objetos de sua unidade e unidades secundárias. Um usuário não tem acesso a objetos em ramificações paralelas.
 
 Por padrão, somente as unidades **[!UICONTROL All]** estão disponíveis.
 
@@ -79,17 +79,17 @@ Para ver o impacto da atribuição de unidades diferentes a grupos de segurança
 
 1. Siga os mesmos procedimentos para criar o segundo template atribuído à unidade organizacional Geometrixx Clothes criada anteriormente.
 
-O usuário atribuído aos grupos Usuário padrão e Roupas do Geometrixx poderá ver ambos os modelos. Devido à estrutura hierárquica das unidades organizacionais, ele terá acesso de leitura e gravação ao template vinculado à unidade Geometrixx Clothes e somente acesso de leitura ao template vinculado à unidade Geometrixx.
+Os usuários atribuídos aos grupos **Usuário padrão** e **Geometrixx Clothes** poderão ver ambos os modelos. Devido à estrutura hierárquica das unidades organizacionais, elas terão acesso de leitura e gravação ao template vinculado à unidade Geometrixx Clothes e somente acesso de leitura ao template vinculado à unidade Geometrixx.
 
 ![](assets/manage_units_7.png)
 
-Como a unidade Geometrixx Clothes é uma unidade filho do Geometrixx, a seguinte mensagem aparece quando o usuário tenta modificar o template do Geometrixx:
+Como a unidade Geometrixx Clothes é uma unidade filho do Geometrixx, a seguinte mensagem é exibida quando os usuários tentam modificar o template do Geometrixx:
 
 ![](assets/manage_units_8.png)
 
-As unidades organizacionais podem restringir o acesso a diferentes recursos, como perfis. Por exemplo, se nosso usuário do Geometrixx Clothes acessar a guia **[!UICONTROL Profiles]**, ele poderá acessar e modificar totalmente os perfis com a unidade organizacional Geometrixx Clothes.
+As unidades organizacionais podem restringir o acesso a diferentes recursos, como perfis. Por exemplo, se nossos usuários do Geometrixx Clothes acessarem a guia **[!UICONTROL Profiles]** , poderão acessar e modificar totalmente os perfis com a unidade organizacional Geometrixx Clothes .
 
-Embora os perfis com a unidade organizacional do Geometrixx sejam somente leitura, o seguinte erro aparecerá se o usuário tentar modificar um perfil: **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**.
+Embora os perfis com a unidade organizacional do Geometrixx sejam somente leitura, o seguinte erro aparecerá se os usuários tentarem modificar um perfil: **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**.
 
 ![](assets/manage_units_10.png)
 

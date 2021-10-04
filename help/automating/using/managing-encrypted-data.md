@@ -8,10 +8,10 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 52%
+source-wordcount: '916'
+ht-degree: 45%
 
 ---
 
@@ -43,7 +43,7 @@ Depois que a solicitação é processada, os comandos de criptografia / descript
 
 ## Caso de uso: importação de dados criptografados usando uma chave gerada pelo Painel de controle do Campaign {#use-case-gpg-decrypt}
 
-Nesse caso de uso, criaremos um fluxo de trabalho para importar dados que foram criptografados em um sistema externo usando uma chave gerada no Painel de controle do Campaign.
+Nesse caso de uso, crie um workflow para importar dados que foram criptografados em um sistema externo usando uma chave gerada no Painel de controle do Campaign.
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
 
@@ -58,7 +58,7 @@ As etapas para executar esse caso de uso são as seguintes:
 
 1. No sistema externo, use a chave pública baixada do Painel de controle do Campaign para criptografar os dados que serão importados para o Campaign Standard.
 
-1. No Campaign Standard, crie um workflow para importar os dados criptografados e descriptografá-los usando a chave privada que foi instalada por meio do Painel de controle do Campaign. Para fazer isso, criaremos um workflow da seguinte maneira:
+1. No Campaign Standard, crie um workflow para importar os dados criptografados e descriptografá-los usando a chave privada que foi instalada por meio do Painel de controle do Campaign. Para fazer isso, crie um workflow da seguinte maneira:
 
    ![](assets/gpg_workflow.png)
 
@@ -87,7 +87,7 @@ As etapas para executar esse caso de uso são as seguintes:
 
 ## Caso de uso: criptografar e exportar dados usando uma chave instalada no Painel de controle do Campaign {#use-case-gpg-encrypt}
 
-Nesse caso de uso, criaremos um fluxo de trabalho para criptografar e exportar dados usando uma chave instalada no Painel de controle do Campaign.
+Nesse caso de uso, crie um workflow para criptografar e exportar dados usando uma chave instalada no Painel de controle do Campaign.
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
 
@@ -97,7 +97,7 @@ As etapas para executar esse caso de uso são as seguintes:
 
    ![](assets/gpg_install.png)
 
-1. No Campaign Standard, crie um workflow para exportar os dados e criptografá-los usando a chave privada que foi instalada por meio do Painel de controle do Campaign. Para fazer isso, criaremos um workflow da seguinte maneira:
+1. No Campaign Standard, crie um workflow para exportar os dados e criptografá-los usando a chave privada que foi instalada por meio do Painel de controle do Campaign. Para fazer isso, crie um workflow da seguinte maneira:
 
    ![](assets/gpg-workflow-export.png)
 

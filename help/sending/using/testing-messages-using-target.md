@@ -9,9 +9,9 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1512'
 ht-degree: 5%
 
 ---
@@ -190,7 +190,7 @@ As principais etapas para esse caso de uso são as seguintes:
 1. Crie o workflow para criar um público-alvo a partir do arquivo . Para fazer isso, adicione e configure as atividades abaixo:
 
    * **[!UICONTROL Load file]** atividade : Importa o arquivo CSV (para obter mais informações sobre essa atividade, consulte  [esta seção](../../automating/using/load-file.md)).
-   * **[!UICONTROL Reconciliation]** atividade : Vincula informações do arquivo às informações do banco de dados. Neste exemplo, usaremos o endereço de email do perfil como campo de reconciliação (para obter mais informações sobre essa atividade, consulte [esta seção](../../automating/using/reconciliation.md)).
+   * **[!UICONTROL Reconciliation]** atividade : Vincula informações do arquivo às informações do banco de dados. Neste exemplo, use o endereço de email do perfil como campo de reconciliação (para obter mais informações sobre essa atividade, consulte [esta seção](../../automating/using/reconciliation.md)).
    * **[!UICONTROL Save audience]** atividade : Cria um público-alvo com base no arquivo importado (para obter mais informações sobre essa atividade, consulte  [esta seção](../../automating/using/save-audience.md)).
 
    ![](assets/substitution_uc2.png)

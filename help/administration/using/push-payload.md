@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1147'
 ht-degree: 4%
 
 ---
@@ -220,7 +220,7 @@ Para entender os aspectos de uma carga do android, consulte [Conceitos e opçõe
 
 ### Como recuperar informações de carga no código de aplicativo móvel {#payload-information}
 
-As informações de carga enviadas pelo servidor de aplicativos são recebidas pelo código do aplicativo móvel em um manipulador de eventos que indica que uma notificação por push foi recebida. Esse evento varia com base na plataforma móvel em andamento e também se baseia em se o aplicativo está sendo executado em primeiro ou segundo plano. A documentação a seguir ajudará a identificar o manipulador de eventos que você deseja manipular com base no seu caso de uso.
+As informações de carga enviadas pelo servidor de aplicativos são recebidas pelo código do aplicativo móvel em um manipulador de eventos que indica que uma notificação por push foi recebida. Esse evento varia com base na plataforma móvel em andamento e também se baseia em se o aplicativo está sendo executado em primeiro ou segundo plano. A documentação a seguir ajuda a identificar o manipulador de eventos que você deseja manipular com base no seu caso de uso.
 
 * Aplicativos iOS: **Manipular notificações remotas** na seção [Notificações remotas](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html).
 * Aplicativos Android: [Recebendo mensagens em um aplicativo cliente Android](https://firebase.google.com/docs/cloud-messaging/android/receive)

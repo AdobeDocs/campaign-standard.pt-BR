@@ -8,10 +8,10 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 96%
+source-wordcount: '1315'
+ht-degree: 90%
 
 ---
 
@@ -116,11 +116,11 @@ O email de confirmação é uma mensagem transacional baseada no evento que voc�
 
 1. Clique em **[!UICONTROL Confirm]** e salve o serviço.
 
-Agora, sempre que um perfil assinar esse serviço, ele receberá a mensagem transacional que você definiu, com campos personalizados mapeados para o serviço selecionado.
+Agora, quando os perfis assinam esse serviço, eles recebem a mensagem transacional que você definiu, com campos personalizados mapeados para o serviço selecionado.
 
 >[!NOTE]
 >
->Uma mensagem só será enviada na primeira vez que o usuário fizer a assinatura.
+>Uma mensagem é enviada somente na primeira vez que o usuário assinar.
 
 ## Configuração da mensagem de confirmação de uma landing page {#configuring-confirmation-message-from-landing-page}
 
@@ -190,8 +190,8 @@ Para criar e configurar essa landing page, siga as etapas abaixo:
 
 1. [Teste e publique](../../channels/using/testing-publishing-landing-page.md) a landing page.
 
-Agora, sempre que um perfil assinar seu informativo enviando a landing page, ele receberá a mensagem transacional que você definiu com campos personalizados mapeados para o serviço.
+Agora, quando os perfis assinam seu informativo enviando a landing page, eles recebem a mensagem de confirmação que você definiu com campos personalizados mapeados para o serviço.
 
 >[!NOTE]
 >
->Uma mensagem será enviada sempre que a landing page for enviada, mesmo que o perfil já tenha feito a assinatura.
+>Uma mensagem é enviada sempre que a landing page é enviada, mesmo que o perfil já tenha feito a assinatura.

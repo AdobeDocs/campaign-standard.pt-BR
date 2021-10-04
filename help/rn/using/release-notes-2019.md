@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '7589'
+source-wordcount: '7588'
 ht-degree: 9%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 9%
  </tbody> 
 </table>
 
-**Melhorias**
+**Aprimoramentos**
 
 * A janela pop-up de consentimento do Dynamic Reporting foi atualizada para incluir a integração do Adobe Campaign Standard e do Microsoft Dynamics 365. Ao aceitar os termos, os dados do perfil serão incluídos ao usar a integração do Adobe Campaign Standard / Microsoft Dynamics 365 e o Dynamic Reporting. [Leia mais](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)  (CAMP-29766)
 * Correção de um problema que exibia datas de contato incorretas ao receber alertas de delivery.
@@ -258,7 +258,7 @@ ht-degree: 9%
 
 ## Versão 19.2.7 - Julho de 2019 {#release-19-2-7---july-2019}
 
-**Melhorias**
+**Aprimoramentos**
 
 * A consulta de exclusão do GDPR foi aprimorada para melhorar o desempenho.
 * Correção de um problema que poderia causar falhas na Web após a atualização 19.2. (CAMP-34862)
@@ -454,7 +454,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 
    Para obter mais informações, consulte a [documentação detalhada](../../designing/using/using-reusable-content.md#content-templates).
 
-* Nossa nova experiência de integração ajudará você a iniciar a criação de emails mais rapidamente e a facilitar o acesso à documentação e aos tutoriais.
+* Nossa nova experiência de integração ajuda você a iniciar a criação de emails mais rapidamente e a facilitar o acesso à documentação e aos tutoriais.
 
    Para obter mais informações, consulte a [documentação detalhada](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page).
 

@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 84%
+source-wordcount: '1763'
+ht-degree: 81%
 
 ---
 
@@ -157,9 +157,9 @@ Como você está configurando essa nova conta externa, é necessário fornecer o
 >
 >A configuração do Google reCAPTCHA requer uma conta do Google.
 
-O mecanismo Google reCAPTCHA permite proteger sua landing page contra spam e abuso causado por bots. Esse mecanismo não é intrusivo para os clientes, pois não requer nenhuma interação deles e se baseia em interações com seu site. Para registrar seu site, consulte esta [página](https://www.google.com/recaptcha/admin/create). É necessário escolher o tipo V3 reCAPTCHA.
+O mecanismo Google reCAPTCHA permite proteger sua landing page contra spam e abuso causado por bots. Esse mecanismo não é intrusivo para os clientes, pois não requer nenhuma interação deles e se baseia em interações com seu site. Para registrar seu site, consulte esta [página](https://www.google.com/recaptcha/admin/create). Você deve escolher o tipo V3 reCAPTCHA.
 
-Para adicionar o Google reCAPTCHA V3 à sua landing page, primeiro é necessário configurá-lo na sua conta externa. Para obter mais informações sobre como adicioná-lo à sua landing page, consulte esta [seção](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
+Para adicionar o Google reCAPTCHA V3 à sua landing page, configure-o em sua conta externa. Para obter mais informações sobre como adicioná-lo à sua landing page, consulte esta [seção](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
 
 Para uma conta externa do Google reCAPTCHA V3, forneça os seguintes detalhes:
 
@@ -186,7 +186,7 @@ Para uma conta externa de armazenamento do Microsoft Azure Blob, forneça os seg
 * **[!UICONTROL Type]**: armazenamento do Microsoft Azure Blob
 * Seu **[!UICONTROL Account name]** e **[!UICONTROL Account key]**. Para saber onde encontrar o nome e a chave da sua conta, consulte esta [página](https://docs.microsoft.com/pt-BR/azure/storage/common/storage-account-keys-manage).
 * Seu **[!UICONTROL Endpoint suffix]**. Ele pode ser encontrado no **[!UICONTROL Connection string]** do menu **[!UICONTROL Access keys]** no Portal do Azure. Para obter mais informações, consulte esta [página](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
-* Seu nome **[!UICONTROL Container]**. Se você estiver planejando usar mais de um container, será necessário criar o mesmo número de contas externas e containers.
+* Seu nome **[!UICONTROL Container]**. Se você estiver planejando usar mais de um contêiner, crie quantas contas externas forem contêineres.
 * A opção **[!UICONTROL Concurrency]** permite ajustar a velocidade das transferências de arquivos.
 
 ![](assets/external_accounts_4.png)

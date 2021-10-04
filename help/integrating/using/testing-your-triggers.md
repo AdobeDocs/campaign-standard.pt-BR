@@ -8,16 +8,16 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '461'
 ht-degree: 1%
 
 ---
 
 # Testar acionadores{#testing-your-triggers}
 
-As seguintes dicas de solução de problemas ajudarão você a resolver os problemas mais comuns que poderá encontrar ao usar Triggers com o Adobe Campaign:
+As seguintes dicas de solução de problemas ajudam a resolver os problemas mais comuns que você pode encontrar ao usar Triggers com o Adobe Campaign:
 
 **A funcionalidade está ativada?**
 

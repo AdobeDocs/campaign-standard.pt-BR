@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 95%
+source-wordcount: '1563'
+ht-degree: 93%
 
 ---
 
@@ -56,9 +56,9 @@ Se quiser usar o protocolo SMPP, você também poderá criar uma nova conta exte
 
    Você pode especificar a taxa de transferência máxima das mensagens de saída (“MT”, Mobile Terminated) em MT por segundo. Se inserir &quot;0&quot; no campo correspondente, a taxa de transferência será ilimitada.
 
-   Os valores de todos os campos correspondentes às durações precisam ser preenchidos em segundos.
+   Os valores de todos os campos correspondentes às durações devem ser preenchidos em segundos.
 
-1. Determine os parâmetros específicos do SMS-C caso precise definir um mapeamento de codificação específico. Para saber mais, consulte a seção [Especificações do SMSC](#smsc-specifics).
+1. Defina os parâmetros específicos do SMS-C caso precise definir um mapeamento de codificação específico. Para saber mais, consulte a seção [Especificações do SMSC](#smsc-specifics).
 
    Ative a opção **[!UICONTROL Send full phone number (send characters other than digits)]** se não quiser respeitar o protocolo SMPP e transfira o prefixo **[!UICONTROL +]** para o servidor do provedor de SMS (SMS-C).
 

@@ -8,10 +8,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1623'
-ht-degree: 100%
+source-wordcount: '1599'
+ht-degree: 91%
 
 ---
 
@@ -45,15 +45,15 @@ O Adobe Campaign oferece ferramentas de Controladores de dados para criar e proc
 
 ### Namespaces {#namesspaces}
 
-Antes de criar solicitações de privacidade, é necessário definir o namespace que será usado. O namespace é a chave que será usada para identificar o Titular de dados no banco de dados do Adobe Campaign. Dois namespaces estão disponíveis e prontos para a utilização: email e celular. Se precisar de um namespace diferente, como por exemplo um campo de perfil personalizado, siga as etapas a seguir.
+Antes de criar solicitações de Privacidade, defina o namespace que será usado. O namespace é a chave que será usada para identificar o Titular de dados no banco de dados do Adobe Campaign. Dois namespaces estão disponíveis e prontos para a utilização: email e celular. Se precisar de um namespace diferente, como por exemplo um campo de perfil personalizado, siga as etapas a seguir.
 
 Você também pode consultar este [tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=pt-BR#privacy) para criar um namespace.
 
 >[!NOTE]
 >
->Se você usar vários namespaces, será necessário criar uma solicitação de privacidade por namespace.
+>Se você usar vários namespaces, crie uma solicitação de Privacidade por namespace.
 
-1. Clique no logotipo do Adobe Campaign, no canto superior esquerdo, e selecione **[!UICONTROL Administration]** > **[!UICONTROL Namespaces]**.
+1. Clique no logotipo do Adobe Campaign no canto superior esquerdo e selecione **[!UICONTROL Administration]** > **[!UICONTROL Namespaces]**.
 
    ![](assets/privacy-namespaces.png)
 
@@ -75,9 +75,9 @@ Você também pode consultar este [tutorial](https://experienceleague.adobe.com/
 
    Para saber mais sobre namespaces de identidade, consulte a documentação da [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=pt-BR).
 
-1. Um namespace do serviço de identidade está mapeado a um namespace no Campaign. É necessário especificar como o namespace será reconciliado no Campaign.
+1. Um namespace do serviço de identidade está mapeado a um namespace no Campaign. Você deve especificar como o namespace será reconciliado no Campaign.
 
-   Selecione um target mapping (**[!UICONTROL Recipients]**, **[!UICONTROL Real-time event]** ou **[!UICONTROL Subscriptions to an application]**)  Se quiser usar vários target mappings, será necessário criar um namespace por target mapping.
+   Selecione um target mapping (**[!UICONTROL Recipients]**, **[!UICONTROL Real-time event]** ou **[!UICONTROL Subscriptions to an application]**)  Se quiser usar vários mapeamentos de destino, crie um namespace por mapeamento de destino.
 
    ![](assets/privacy-namespace-target-mapping.png)
 
@@ -85,7 +85,7 @@ Você também pode consultar este [tutorial](https://experienceleague.adobe.com/
 
    ![](assets/privacy-namespace-reconciliation-key.png)
 
-1. Clique em **[!UICONTROL Create]**. Agora você pode criar uma solicitação de acesso a dados pessoais com base em seu novo namespace. Se você usar vários namespaces, será necessário criar uma solicitação de privacidade por namespace.
+1. Clique em **[!UICONTROL Create]**. Agora você pode criar uma solicitação de acesso a dados pessoais com base em seu novo namespace. Se você usar vários namespaces, crie uma solicitação de Privacidade por namespace.
 
 ### Criar uma solicitação de privacidade {#create-privacy-request}
 
@@ -127,7 +127,7 @@ Se você criou recursos personalizados com um link para o recurso de perfis (tip
 
 Consulte este [tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=pt-BR#privacy) sobre modificação de recursos personalizados.
 
-Para funcionar, é necessário selecionar a opção **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** no recurso personalizado:
+Para que isso funcione, é necessário selecionar a opção **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** no recurso personalizado:
 
 1. Clique no logotipo do Adobe Campaign no canto superior esquerdo e selecione **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**.
 
@@ -177,7 +177,7 @@ A configuração e utilização dos pedidos de acesso e exclusão são comuns. a
 
 Além das ferramentas de [Gerenciamento de consentimento](../../start/using/privacy-management.md#consent-management) oferecidas pelo Adobe Campaign, existe a possibilidade de monitorar se o cliente optou pela não participação na venda de Informações pessoais.
 
-Um cliente decide, por meio do sistema, que não permite que suas informações pessoais sejam vendidas para terceiros. No Adobe Campaign, você poderá armazenar e rastrear essas informações.
+Quando os usuários decidirem, por meio de seu sistema, que não permitem que suas informações pessoais sejam vendidas para terceiros, você poderá armazenar e rastrear essas informações.
 
 >[!NOTE]
 >
@@ -191,7 +191,7 @@ Um cliente decide, por meio do sistema, que não permite que suas informações 
 
 A partir da versão 19.4, o campo **[!UICONTROL CCPA Opt-Out]** já está pronto para ser utilizado na interface e API do Campaign. Por padrão, o campo está disponível para o recurso **[!UICONTROL Profile]**.
 
-Se você usar um recurso de perfil personalizado, precisará estender o recurso e adicionar o campo. Recomendamos que você use um nome diferente do campo predefinido, por exemplo:  **[!UICONTROL Opt-Out for CCPA]** (optoutccpa). Quando um campo é criado, ele se torna automaticamente compatível com a API do Campaign.
+Se você usar um recurso de perfil personalizado, deverá estender o recurso e adicionar o campo . Recomendamos que você use um nome diferente do campo predefinido, por exemplo:  **[!UICONTROL Opt-Out for CCPA]** (optoutccpa). Quando um campo é criado, ele se torna automaticamente compatível com a API do Campaign.
 
 Para obter informações mais detalhadas sobre como estender o recurso do perfil, consulte [esta seção](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
 

@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 80%
+source-wordcount: '1279'
+ht-degree: 77%
 
 ---
 
@@ -95,7 +95,7 @@ Você pode adicionar novas entidades de sua organização ao Campaign ou criar u
    >
    >O Painel de controle do Campaign é acessível a todos os usuários administradores. As etapas para conceder acesso de Administrador a um usuário estão detalhadas [nesta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=br#discover-control-panel).
 
-1. **Criar um tíquete**  - Depois que o subdomínio é configurado, o Adobe precisará configurá-lo no ambiente de produção. Para solicitar isso, [crie um ticket para o Atendimento ao cliente](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) com as seguintes informações:
+1. **Criar um tíquete**  - Depois que o subdomínio é configurado, o Adobe o configurará no ambiente de produção. Para solicitar isso, [crie um ticket para o Atendimento ao cliente](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) com as seguintes informações:
 
    * Assunto: Configuração da nova marca ACS
 
@@ -145,13 +145,13 @@ O modelo está vinculado à marca. No editor de email, elementos como **Endereç
 
 Neste exemplo, vamos criar uma nova marca relacionada a viagens e usá-la em um email.
 
-#### Configuração de uma nova marca {#configure-a-new-brand}
+#### Etapa 1: Configuração de uma nova marca {#configure-a-new-brand}
 
 >[!IMPORTANT]
 >
 >A configuração da marca é gerenciada pela Adobe somente porque requer permissões específicas e configurações técnicas.
 
-1. O administrador do Adobe Campaign cria a marca em **[!UICONTROL Administration > Instance settings > Brand configuration]**. Ele acrescenta o elemento **Férias nos trópicos**, do menu avançado, e configura a **[!UICONTROL ID]** e os **[!UICONTROL Header parameters of sent emails]** da marca.
+1. O administrador do Adobe Campaign primeiro cria a marca a partir do menu **[!UICONTROL Administration > Instance settings > Brand configuration]** e adiciona o elemento **Férias nos trópicos** e configura o **[!UICONTROL ID]** e o **[!UICONTROL Header parameters of sent emails]** da marca.
 
    ![](assets/branding_07.png)
 
@@ -163,7 +163,7 @@ Neste exemplo, vamos criar uma nova marca relacionada a viagens e usá-la em um 
 
 A marca foi criada e configurada corretamente. Ela agora pode ser usada pelas equipes de marketing.
 
-#### Implementação de uma nova marca {#implement-a-new-brand}
+#### Etapa 2: Implementar uma nova marca {#implement-a-new-brand}
 
 Como gerente de delivery, você é responsável pela criação dos templates de delivery para usar a nova marca. Para fazer isso, siga as etapas abaixo:
 
@@ -182,7 +182,7 @@ Como gerente de delivery, você é responsável pela criação dos templates de 
 
    Agora você pode usar o template do delivery para criar emails que serão enviados para um público.
 
-#### Usar a nova marca em um delivery {#use-the-new-brand-in-a-delivery}
+#### Etapa 3: Usar a nova marca em um delivery {#use-the-new-brand-in-a-delivery}
 
 Para criar um email vinculado a uma marca, siga as etapas abaixo:
 

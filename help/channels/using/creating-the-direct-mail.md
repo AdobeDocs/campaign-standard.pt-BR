@@ -9,10 +9,10 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 96%
+source-wordcount: '593'
+ht-degree: 95%
 
 ---
 
@@ -54,7 +54,7 @@ A criação de um delivery de correspondência direta é muito semelhante à cri
 
 1. Se você tiver adicionado perfis de teste (consulte [Adicionar perfis de teste e trap](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)), será possível testar o delivery antes de preparar o arquivo final. O teste permite criar um arquivo de amostra contendo apenas os perfis de teste selecionados.
 
-   Clique em **[!UICONTROL Test]** para gerar o arquivo de amostra. Clique em **[!UICONTROL Summary]**, no canto superior esquerdo e selecione **[!UICONTROL Proofs]**. Na parte esquerda da tela, selecione a prova e clique em **[!UICONTROL Download file]**.
+   Clique em **[!UICONTROL Test]** para gerar o arquivo de amostra. Clique em **[!UICONTROL Summary]**, no canto superior esquerdo, em seguida, selecione **[!UICONTROL Proofs]**. Na parte esquerda da tela, selecione a prova e clique em **[!UICONTROL Download file]**.
 
    >[!NOTE]
    >

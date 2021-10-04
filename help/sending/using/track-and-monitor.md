@@ -9,16 +9,16 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 46%
+source-wordcount: '431'
+ht-degree: 44%
 
 ---
 
 # Rastrear e monitorar {#track-and-monitor}
 
-Você clicou no botão Enviar? Vamos ver o que acontece. Depois que o delivery é enviado, o Adobe Campaign permite acompanhar as mensagens enviadas e descobrir como os recipients reagem ao seu delivery. Isso o ajudará a melhorar o envio futuro e a otimizar as próximas campanhas.
+Você clicou no botão Enviar? Vamos ver o que acontece. Depois que o delivery é enviado, o Adobe Campaign permite acompanhar as mensagens enviadas e descobrir como os recipients reagem ao seu delivery. Isso ajuda você a melhorar o envio futuro e otimizar suas próximas campanhas.
 
 ## Monitoramento de entregas {#monitoring-deliveries}
 

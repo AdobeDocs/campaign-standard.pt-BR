@@ -9,10 +9,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 87%
+source-wordcount: '940'
+ht-degree: 77%
 
 ---
 
@@ -49,9 +49,9 @@ Para restringir o acesso de um usuário, não o adicione ao grupo de usuários d
 
 >[!IMPORTANT]
 >
->Observe que, no Admin Console, os grupos de segurança são chamados de perfis.
+>Observe que no Admin Console, os grupos de segurança são chamados de perfis.
 
-Você poderá criar grupos de segurança se os grupos predefinidos não forem suficientes para gerenciar seus usuários. Eles poderão ser gerenciados pelos administradores que têm acesso aos menus de administração do Adobe Campaign e ao Admin Console. Para saber mais sobre o Admin Console, consulte esta [documentação](https://helpx.adobe.com/br/enterprise/managing/user-guide.html).
+Você poderá criar grupos de segurança se os grupos predefinidos não forem suficientes para gerenciar seus usuários. Eles podem ser gerenciados por administradores que têm acesso aos menus de administração do Adobe Campaign e ao Admin Console. Para obter mais informações sobre o Admin Console, consulte esta [documentação](https://helpx.adobe.com/br/enterprise/managing/user-guide.html).
 
 Aqui, precisamos primeiro atribuir os dois grupos predefinidos Usuário padrão e Administrador aos nossos usuários. Esses grupos de segurança restringirão algumas funcionalidades do Adobe Campaign: o Usuário padrão tem acesso básico ao Adobe Campaign, enquanto o Administrador pode acessar os menus de administração, por exemplo.
 
@@ -63,7 +63,7 @@ Em seguida, criaremos um conjunto de grupos de segurança Geometrixx e Geometrix
 
 Primeiro, é necessário atribuir um dos grupos de segurança predefinidos aos usuários:
 
-1. No Admin Console, selecione sua instância e, em seguida, a guia **Users**.
+1. No Admin Console, selecione a instância e, em seguida, a guia **Users**.
 
    ![](assets/manage_security_group_2.png)
 
@@ -120,7 +120,7 @@ Assim que os dois usuários estiverem conectados aos grupos de segurança predef
 
    ![](assets/manage_security_group_9.png)
 
-Os grupos de segurança recém-criados agora estão criados no Admin Console. Para que eles sejam completamente sincronizados, você também precisa criá-los no Adobe Campaign.
+Os grupos de segurança recém-criados agora são criados no Admin Console. Para que eles sejam completamente sincronizados, você também precisa criá-los no Adobe Campaign.
 
 O usuário Administrador precisa criar o conjunto de grupos de segurança que são usados para atribuir as unidades organizacionais Geometrixx e Geometrixx Clothes. Para saber como criar unidades organizacionais, consulte [Criação e gerenciamento de unidades](../../administration/using/organizational-units.md#creating-and-managing-units).
 

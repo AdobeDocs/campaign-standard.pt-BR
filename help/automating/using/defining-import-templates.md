@@ -4,10 +4,10 @@ description: Os templates de importação permitem reduzir as configurações ne
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 100%
+source-wordcount: '786'
+ht-degree: 96%
 
 ---
 
@@ -48,7 +48,7 @@ Esses templates padrão são somente leitura e não estão visíveis para usuár
 
 1. Acesse a guia **[!UICONTROL Workflow]**. Aqui você pode enriquecer o fluxo de trabalho oferecido por padrão adicionando novas atividades de acordo com suas necessidades.
 
-   Para saber mais sobre como configurar as atividades de fluxo de trabalho, consulte o caso de uso descrito nesta seção: [Exemplo: importar template de fluxo de trabalho](../../automating/using/creating-import-workflow-templates.md). Esse caso de uso ajudará você a configurar um fluxo de trabalho que poderá ser reutilizado para importar os perfis de um CRM no banco de dados do Adobe Campaign.
+   Para saber mais sobre como configurar as atividades de fluxo de trabalho, consulte o caso de uso descrito nesta seção: [Exemplo: importar template de fluxo de trabalho](../../automating/using/creating-import-workflow-templates.md). Esse caso de uso ajuda a configurar um fluxo de trabalho que pode ser reutilizado para importar perfis provenientes de um CRM no banco de dados do Adobe Campaign.
 
 1. Salve o template para que a configuração do fluxo de trabalho seja considerada corretamente.
 1. Carregue um arquivo de amostra da guia **[!UICONTROL Properties]**. O arquivo carregado só poderá ter colunas necessárias para importações futuras ou dados de amostra. Os dados no arquivo de amostra permitem testar a importação simplificada assim que o fluxo de trabalho for definido.

@@ -8,10 +8,10 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: ccb35aeb-2b32-4444-969b-50021111a0d6
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 9%
+source-wordcount: '223'
+ht-degree: 8%
 
 ---
 

@@ -9,16 +9,16 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: 8c4e38a3fc66e4d819575fcd64616a822e0e1f82
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '946'
 ht-degree: 5%
 
 ---
 
 # Configuração das regras do Launch para oferecer suporte a casos de uso do Adobe Campaign Standard {#configuring-rules-launch}
 
-Em [!DNL Adobe Experience Platform Launch], é necessário criar elementos de dados e regras para enviar PII e outros dados de aplicativos móveis para [!DNL Adobe Campaign Standard].
+Em [!DNL Adobe Experience Platform Launch], crie elementos de dados e regras para enviar PII e outros dados de aplicativos móveis para [!DNL Adobe Campaign Standard].
 
 Para garantir que todas as alterações de configuração em [!DNL Adobe Experience Platform Launch] entrem em vigor, você deve publicar essas alterações. Para obter mais informações, consulte [Publicação](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
 
@@ -66,7 +66,7 @@ Para criar esses elementos de dados:
 
 ## Criação de regras {#creating-rules}
 
-Você precisa criar regras para o seguinte:
+Você deve criar regras para o seguinte:
 
 * [Postback PII](../../administration/using/configuring-rules-launch.md#pii-postback)
 * [Postback de rastreamento no aplicativo](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)
@@ -77,7 +77,7 @@ Você precisa criar regras para o seguinte:
 
 >[!NOTE]
 >
->Para enviar informações de PII de um aplicativo móvel para o Adobe Campaign, é necessário implementar uma API do SDK. Para obter mais informações, vá para [CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii).
+>Para enviar informações de PII de um aplicativo móvel para o Adobe Campaign, você deve implementar uma API do SDK. Para obter mais informações, vá para [CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii).
 
 Para enviar dados PII para [!DNL Adobe Campaign Standard], crie uma regra em [!DNL Experience Platform Launch]:
 
@@ -264,7 +264,7 @@ Para rastrear ações do aplicativo, use a API trackAction . Para obter mais inf
 
    >[!NOTE]
    >
-   >No exemplo acima, os elementos de dados no lado direito precisam ser configurados em [!DNL Experience Platform Launch] aproveitando as etapas em [Criação de elementos de dados](../../administration/using/configuring-rules-launch.md#create-data-elements). Os elementos de dados no lado esquerdo são suportados em [!DNL Adobe Campaign Standard] e não precisam de configuração. Se você precisar de dados adicionais, precisará realizar extensões de recursos personalizados em [!DNL Adobe Campaign Standard].
+   >No exemplo acima, os elementos de dados no lado direito devem ser configurados em [!DNL Experience Platform Launch] aproveitando as etapas em [Criação de elementos de dados](../../administration/using/configuring-rules-launch.md#create-data-elements). Os elementos de dados no lado esquerdo são suportados em [!DNL Adobe Campaign Standard] e não precisam de configuração. Se você precisar de dados adicionais, deverá realizar extensões de recursos personalizados em [!DNL Adobe Campaign Standard].
 
 1. Em **[!UICONTROL Content Type]**, digite **application/json**.
 

@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 3%
@@ -28,7 +28,7 @@ O acesso à API do Adobe Campaign Standard é configurado pelas etapas abaixo. C
 1. **Crie um JSON Web Token (JWT)** a partir das credenciais geradas anteriormente e assine-o com sua chave privada. O JWT codifica todas as informações de identidade e segurança necessárias para o Adobe verificar sua identidade e conceder acesso à API.
 1. **Troque seu JWT por um** Tokenthrough em uma solicitação de POST. Esse Token de acesso precisará ser usado em cada cabeçalho das solicitações de API.
 
-Para estabelecer uma sessão de Adobe I/O de serviço a serviço seguro, cada solicitação para um serviço do Adobe deve incluir no cabeçalho de Autorização as informações abaixo.
+Para estabelecer uma sessão de Adobe I/O de serviço para serviço seguro, cada solicitação para um serviço da Adobe deve incluir no cabeçalho de Autorização as informações abaixo.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
