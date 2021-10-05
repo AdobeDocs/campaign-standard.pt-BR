@@ -8,9 +8,9 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '668'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ Como as mensagens no aplicativo são obtidas pelo SDK do Campaign, queremos forn
 
 ## O que preciso fazer para ativar os Relatórios no aplicativo no Campaign? {#enable-inapp-reporting}
 
-Você precisa configurar o postback de rastreamento no aplicativo. Instruções podem ser encontradas [aqui](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#InApptrackingpostback).
+Você precisa configurar o postback de rastreamento no aplicativo. Instruções podem ser encontradas [aqui](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback).
 
 Para implementar o rastreamento de notificação local, consulte esta [página](../../administration/using/local-tracking.md).
 

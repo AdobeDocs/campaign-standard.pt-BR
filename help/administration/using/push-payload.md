@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1141'
 ht-degree: 4%
 
 ---
@@ -216,7 +216,7 @@ Para entender os aspectos de uma carga do android, consulte [Conceitos e opçõe
 | Conteúdo variável <br> (aplicável somente para iOS 10 ou superior) | mutable-content | NA | A extensão do serviço de notificação no aplicativo interceptará todas as notificações remotas com a chave de conteúdo mutável e permitirá manipular/manipular o conteúdo da carga da solicitação, que pode ser usada para personalizar a notificação. Os casos de uso desse recurso incluem o download e a exibição de várias mídias, a descriptografia de quaisquer dados criptografados presentes na carga de push. Mais informações podem ser encontradas em [Modificar a carga de uma Notificação remota](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(Aplicável somente para iOS 10 ou superior) |
 | Conteúdo disponível | conteúdo disponível | NA | Selecionar essa opção permite ativar um aplicativo iOS enquanto ele estiver em segundo plano/suspenso. A ativação implica que o aplicativo é executado em segundo plano e o manipulador de eventos apropriado responsável por receber a carga de dados da notificação por push obtém um controle e pode usar os dados para fazer qualquer cálculo, incluindo, entre outros, a criação de notificações por push personalizadas e a exibição da mesma. Mais informações podem ser encontradas em [Ativar aplicativo com entrega de notificação](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
 | URL de conteúdo de mídia avançada (arquivos de imagem)<br>(Aplicável somente para Android) | NA | media-attachment-url | URL dos arquivos de imagem para adicionar conteúdo avançado à sua notificação. |
-| NA | _mId<br>_dId | _mId <br>_dId | Valores de broadlogId e deliveryId.<br>Esses atributos são necessários se o aplicativo quiser chamar um postback de rastreamento para rastrear quando a notificação por push foi clicada/aberta. Essas informações são computadas e enviadas internamente pelo servidor de aplicativos sem a intervenção do usuário.<br>Informações sobre postbacks podem ser encontradas nesta  [página](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback). |
+| NA | _mId<br>_dId | _mId <br>_dId | Valores de broadlogId e deliveryId.<br>Esses atributos são necessários se o aplicativo quiser chamar um postback de rastreamento para rastrear quando a notificação por push foi clicada/aberta. Essas informações são computadas e enviadas internamente pelo servidor de aplicativos sem a intervenção do usuário.<br>Informações sobre postbacks podem ser encontradas nesta  [página](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback). |
 
 ### Como recuperar informações de carga no código de aplicativo móvel {#payload-information}
 

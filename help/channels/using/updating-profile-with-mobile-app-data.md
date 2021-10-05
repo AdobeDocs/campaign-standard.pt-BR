@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 5%
+source-wordcount: '996'
+ht-degree: 4%
 
 ---
 
@@ -32,8 +32,8 @@ O objetivo desse caso de uso é criar ou atualizar um perfil de Campaign Standar
 Há várias etapas de configuração a seguir para ativar as notificações por push no Campaign Standard, antes que os Perfis possam ser criados ou atualizados com base nos dados de assinatura do aplicativo móvel:
 
 1. [Criar um aplicativo móvel](../../administration/using/configuring-a-mobile-application.md)
-1. [Integre o SDK do Adobe Mobile ao seu aplicativo](https://helpx.adobe.com/br/campaign/kb/integrate-mobile-sdk.html) móvel.
-1. [Configure o Adobe Campaign para enviar notificações](https://helpx.adobe.com/br/campaign/kb/configuring-app-sdkv4.html) por push.
+1. [Integre o SDK do Adobe Mobile ao seu aplicativo](../../administration/using/supported-mobile-use-cases.md) móvel.
+1. [Configure o Adobe Campaign para enviar notificações](../../administration/using/configuring-a-mobile-application.md) por push.
 
 ## Etapa 1 - Estender o recurso de perfil para notificações/assinaturas por push
 

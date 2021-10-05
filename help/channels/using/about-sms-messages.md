@@ -9,10 +9,10 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: a7f22d92-dbf9-4c2b-8fc1-1e31d1e5e79c
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 32%
+source-wordcount: '264'
+ht-degree: 31%
 
 ---
 
@@ -40,7 +40,7 @@ Para enviar mensagens SMS para um celular, você precisa:
 * [Gerenciamento de modelos](../../start/using/marketing-activity-templates.md)
 * [Configuração de SMS](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
 * [Relatório de SMS](../../reporting/using/sms-report.md)
-* [Guia para Aplicativos de dispositivos móveis no Campaign Standard](https://helpx.adobe.com/br/campaign/kb/acs-mobile.html)
+* [Guia para Aplicativos de dispositivos móveis no Campaign Standard](../../channels/using/get-started-communication-channels.md)
 
 ## Modelo de delivery de SMS {#sms-delivery-template}
 

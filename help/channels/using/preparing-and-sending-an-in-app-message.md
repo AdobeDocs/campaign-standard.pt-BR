@@ -8,9 +8,9 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 2ad76d55785f123b590e00c8d33552f4617c32e2
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1157'
 ht-degree: 98%
 
 ---
@@ -58,7 +58,7 @@ As etapas para criar uma mensagem independente no aplicativo com o Adobe Campaig
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. Insira as propriedades de mensagens no aplicativo e selecione o aplicativo móvel no campo **[!UICONTROL Associate a Mobile App to a delivery]**. Observe que, se você não tiver configurado o aplicativo móvel com o Adobe Campaign Standard, ele não aparecerá na lista. Para obter mais informações sobre a configuração de aplicativos móveis, consulte esta [página](https://helpx.adobe.com/br/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+1. Insira as propriedades de mensagens no aplicativo e selecione o aplicativo móvel no campo **[!UICONTROL Associate a Mobile App to a delivery]**. Observe que, se você não tiver configurado o aplicativo móvel com o Adobe Campaign Standard, ele não aparecerá na lista. Para obter mais informações sobre a configuração de aplicativos móveis, consulte esta [página](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
    ![](assets/inapp_creating_3.png)
 
@@ -74,7 +74,7 @@ As etapas para criar uma mensagem independente no aplicativo com o Adobe Campaig
 
    * **[!UICONTROL Mobile Application events]**: eventos personalizados implementados no aplicativo móvel.
 
-      Para obter mais informações sobre a criação de eventos, consulte esta [página](https://helpx.adobe.com/br/campaign/kb/configuring-app-sdk.html).
+      Para obter mais informações sobre a criação de eventos, consulte esta [página](../../administration/using/configuring-a-mobile-application.md).
 
    * **[!UICONTROL Life Cycle events]**: eventos de ciclo de vida predefinidos com suporte pelo Adobe Mobile SDK.
 
@@ -86,7 +86,7 @@ As etapas para criar uma mensagem independente no aplicativo com o Adobe Campaig
 
    * **[!UICONTROL Places]**: as três categorias a seguir usam os dados de localização em tempo real para fornecer experiências móveis relevantes contextualmente: dados de contexto do Places, metadados personalizados do Places ou tipo de evento do Places.
 
-      Para obter mais informações sobre o Adobe Places, consulte a [documentação do Places](https://placesdocs.com/).
+      Para obter mais informações sobre o Adobe Places, consulte a [documentação do Places](https://experienceleague.adobe.com/docs/places/using/home.html).
    ![](assets/inapp_creating_4.png)
 
 1. Se você usar um **[!UICONTROL Analytics Events]**, o Adobe Analytics e eventos de estado de Exibição serão automaticamente preenchidos com base nos conjuntos de relatórios configurados na extensão Analytics do Adobe Experience Platform Launch, enquanto Eventos de dados de contexto precisam ser adicionados manualmente.
@@ -103,7 +103,7 @@ As etapas para criar uma mensagem independente no aplicativo com o Adobe Campaig
 
    ![](assets/inapp_creating_5.png)
 
-1. Edite o conteúdo da mensagem e defina as opções avançadas. Consulte [Personalizar uma mensagem no aplicativo](https://helpx.adobe.com/campaign/standard/channels/using/customizing-an-in-app-message.html).
+1. Edite o conteúdo da mensagem e defina as opções avançadas. Consulte [Personalizar uma mensagem no aplicativo](../../channels/using/customizing-an-in-app-message.md).
 
    ![](assets/inapp_creating_6.png)
 

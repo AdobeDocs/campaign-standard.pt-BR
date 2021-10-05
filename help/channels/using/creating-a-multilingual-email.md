@@ -8,10 +8,10 @@ feature: Email
 role: User
 level: Intermediate
 exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 25%
+source-wordcount: '278'
+ht-degree: 24%
 
 ---
 
@@ -43,6 +43,3 @@ O público-alvo é baseado em perfis com uma informação completa sobre o idiom
 1. Programe o envio com o **[!UICONTROL Send after confirmation option]**.
 1. Depois que seu email for enviado, você poderá acessar seus logs e relatórios para medir o sucesso de sua campanha. Para obter mais informações sobre relatórios, consulte [esta seção](../../reporting/using/about-dynamic-reports.md).
 
-**Tópicos relacionados:**
-
-* [Alcance de públicos-alvo multilíngues usando um fluxo de trabalho](https://helpx.adobe.com/br/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
