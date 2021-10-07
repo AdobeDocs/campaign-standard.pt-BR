@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1072'
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
@@ -102,40 +102,40 @@ Esta página descreve novos recursos, melhorias e correções incluídos na pró
 
 **Outras alterações**
 
-* O serviço Adobe Experience Platform Data Connector e Audience Destinations agora está obsoleto no Campaign Standard. Se estiver usando esses recursos, será necessário migrar para Fontes e Destinos do Adobe e adaptar sua implementação. [Saiba mais](../../integrating/using/get-started-sources-destinations.md)
-* Os recursos obsoletos e removidos são listados em [this page](deprecated-features.md).
+* O serviço Adobe Experience Platform Data Connector e Audience Destinations foi descontinuado no Campaign Standard. Se você estiver usando esses recursos, será necessário migrar para Fontes e Destinos do Adobe e adaptar sua implementação. [Saiba mais](../../integrating/using/get-started-sources-destinations.md)
+* Os recursos obsoletos e removidos estão listados [nesta página](deprecated-features.md).
 * Uma nova função de agregação &quot;StringAgg&quot; foi introduzida para concatenar os valores de uma coluna do tipo string. (CAMP-47077)
-* O workflow técnico **Update delivery indicators** (updateDeliveryIndicators) foi aprimorado para melhorar o desempenho.
-* Os modelos de mensagens no aplicativo agora estão disponíveis para todos os idiomas suportados no Campaign Standard.
-* O tempo de preparação de delivery foi otimizado para mensagens transacionais, reduzindo o número de chamadas para o servidor de rastreamento durante a análise de delivery.
+* O fluxo de trabalho técnico **Atualizar indicadores de entrega** (updateDeliveryIndicators) foi aprimorado para melhorar o desempenho.
+* Os modelos de mensagens no aplicativo agora estão disponíveis para todos os idiomas aceitos no Campaign Standard.
+* O tempo de preparo da entrega foi otimizado para mensagens transacionais, reduzindo o número de chamadas para o servidor de rastreamento durante a análise da entrega.
 * Uma nova mensagem de alerta informa aos usuários uma alta taxa de rejeição.
 * Mensagens e avisos de erro de log aprimorados para facilitar a depuração quando os logs de rastreamento falharam ao serem recuperados corretamente. (CAMP-48939, CAMP-47360)
-* Agora é possível personalizar totalmente as URLs, incluindo o nome do domínio. [Saiba mais](../../designing/using/personalization.md#personalizing-urls)
+* Agora é possível personalizar totalmente os URLs, incluindo o nome do domínio. [Saiba mais](../../designing/using/personalization.md#personalizing-urls)
 
 **Correções**
 
 * Correção de um erro de tempo limite ao importar conteúdo de email de um URL. (CAMP-49054)
-* Correção de um erro (-69) causado por um fim de sessão, ao acessar um URL marcado ou atualizar uma página do navegador. (CAMP-49003, CAMP-48930, CAMP-48894)
+* Correção de um erro (-69) causado pelo fim da sessão ao acessar um URL marcado ou atualizar uma página do navegador. (CAMP-49003, CAMP-48930, CAMP-48894)
 * Correção de um problema ao sincronizar regras do servidor de capacidade de entrega herdado para o novo servidor de capacidade de entrega. (CAMP-48923)
 * Correção de um problema ao carregar um modelo de email com tags HTML no Designer de email. (CAMP-48243)
-* Correção de um erro em que o conteúdo do Adobe Experience Manager não era carregado ao criar mensagens transacionais com o Designer de email. (CAMP-49075)
+* Correção de um erro em que o conteúdo do Adobe Experience Manager não era carregado ao serem criadas mensagens transacionais com o Designer de email. (CAMP-49075)
 * Correção de um problema na interface em que um preenchimento excessivo era adicionado entre a barra superior e o conteúdo.
-* Correção de um problema com mensagens transacionais que poderia levar a um erro de publicação ao usar blocos de conteúdo do Campaign no conteúdo do Adobe Experience Manager. (CAMP-49233)
-* Correção de um problema que poderia resultar em uma mensagem de erro quando a autenticação falhava. O usuário agora é redirecionado para a página de logon.
+* Correção de um problema com mensagens transacionais que podia causar um erro de publicação ao serem usados blocos de conteúdo do Campaign no conteúdo do Adobe Experience Manager. (CAMP-49233)
+* Correção de um problema que podia resultar em uma mensagem de erro quando a autenticação falhava. O usuário agora é redirecionado para a página de logon.
 * Correção de um problema de exibição de token que impedia os usuários de editar ou compartilhar um relatório.
 * Correção de um problema durante a publicação de um recurso personalizado usando uma expressão de filtro com relações de tabela 1-n. (CAMP-48740)
-* Correção de um problema de formatação de data que impedia que as datas de contato do delivery fossem recuperadas em transições de workflow. (CAMP-48871)
+* Correção de um problema de formatação de data que impedia que as datas de contato da entrega fossem recuperadas em transições do fluxo de trabalho. (CAMP-48871)
 * Correção de um problema que impedia a extensão de logs de envio durante a criação de uma dimensão de perfil personalizada.
-* Correção de um problema que resultava em falha de deliveries com várias variantes de idioma. A partir de agora, se um usuário excluir a variante de idioma padrão, outra variante de idioma deverá ser definida como padrão antes da criação de cópias de idiomas. (CAMP-48235)
-* Correção de um problema que fazia com que as mensagens de email mostrassem espaços em branco extras no Outlook se o usuário tivesse selecionado a opção **Mostrar somente em dispositivos móveis** ao projetar a mensagem. (CAMP-48902)
-* Correção de um problema que fazia com que a data da última execução do campo de atividade de query incremental ficasse ausente na guia **Dados processados** após a execução do workflow de query incremental. (CAMP-48879)
-* Correção de um problema que impedia a definição adequada de um código de segmento dinâmico na atividade de workflow de **Segmentação**. (CAMP-48727)
-* Correção de um erro que ocorria aleatoriamente ao tentar salvar um workflow após editá-lo. (CAMP-48695)
+* Correção de um problema que resultava em falha de entrega com múltiplas variantes de idioma. A partir de agora, se um usuário excluir a variante de idioma padrão, outra variante de idioma deverá ser definida como padrão antes da criação de cópias de idiomas. (CAMP-48235)
+* Correção de um problema que fazia com que as mensagens de email mostrassem espaços em branco extras no Outlook se o usuário selecionasse a opção **Mostrar somente em dispositivos móveis** ao projetar a mensagem. (CAMP-48902)
+* Correção de um problema que fazia com que a data da última execução do campo de atividade de query incremental ficasse ausente na guia **Dados processados** após a execução do fluxo de trabalho de query incremental. (CAMP-48879)
+* Correção de um problema que impedia a definição adequada de um código de segmento dinâmico na atividade de fluxo de trabalho **Segmentação**. (CAMP-48727)
+* Correção de um erro que ocorria aleatoriamente ao tentar salvar um fluxo de trabalho após editá-lo. (CAMP-48695)
 * Correção de um problema que impedia a publicação de recursos personalizados devido à permanência de um esquema de dados do acionador mesmo após a exclusão do acionador. (CAMP-48523)
-* Correção de um problema que impedia que as solicitações do loop de comentários fossem atendidas, pois o processo do InMail não podia recuperar os logs do delivery para atualizar. (CAMP-48705)
-* Correção de um problema que impedia definir corretamente as opções de exclusão na atividade de workflow **Exclusion** .(CAMP-48355)
-* Correção de um problema que ocorria quando atividades de enriquecimento em workflows envolviam assinaturas ou unsubscriptions de um serviço. Esse problema causou falha.
+* Correção de um problema que impedia que as solicitações do loop de comentários fossem atendidas, pois o processo do InMail não podia recuperar os logs do delivery para atualização. (CAMP-48705)
+* Correção de um problema que impedia a definição correta das opções de exclusão na atividade de fluxo de trabalho **Exclusão**.(CAMP-48355)
+* Correção de um problema que ocorria quando atividades de enriquecimento em workflows envolviam assinaturas ou cancelamentos de assinaturas de um serviço. Esse problema causou uma falha.
 * Correção de um problema que impedia a execução de workflows.
 * Correção de um problema que impedia os usuários de renomear ou excluir grupos de segurança predefinidos da interface do usuário.
 * Correção de um problema que impedia usuários de excluir um trabalho de publicação de evento incompleto.
-* Correção de um problema em que o workflow de limpeza do banco de dados falhava com um erro. (CAMP-49097)
+* Correção de um problema em que o fluxo de trabalho de limpeza do banco de dados falhava com um erro. (CAMP-49097)
