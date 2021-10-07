@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: 87e91e169fedf962471f82754b1d40a14e5fc32a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '585'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ Obtenha suporte usando as perguntas frequentes, as práticas recomendadas, os re
         <li><a href="automating/using/monitoring-workflow-execution.md#error-management">Gerenciamento de erros em workflows</a></li>
         <li><a href="automating/using/best-practices-workflows.md">Soluções de problemas de execução de fluxo de trabalho</a></li>
         <li><a href="api/using/troubleshooting.md">Soluções de problemas de API</a></li>
-        <li><a href="sending/using/understanding-delivery-failures.md">Entender as falhas de delivery</a></li>
+        <li><a href="sending/using/understanding-delivery-failures.md">Entender as falhas de entrega</a></li>
         </ul>
     </td>
    <td valign="top">
@@ -127,4 +127,4 @@ A criação de um caso permite que você entre em contato com a Equipe de suport
 
 Para registrar um problema ou iniciar uma sessão de chat nesse novo sistema, conecte-se ao [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
-Siga o procedimento detalhado descrito [nesta página](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+Siga o procedimento detalhado descrito [nesta página](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
