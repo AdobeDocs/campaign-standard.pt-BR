@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 41366b6fa7647dbf0e4e5df71e2755189f4ffc42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1076'
 ht-degree: 100%
 
@@ -96,7 +96,7 @@ Os novos recursos, melhorias e correções incluídos na versão mais recente do
 
 * Ao ser criada uma entrega recorrente em um fluxo de trabalho, vinculado a um conteúdo do Adobe Experience Manager, o status de aprovação do conteúdo agora é verificado antes do envio.
 * O limite de conexão de banco de dados agora está alinhado ao pacote do Campaign para evitar erros de conexão.
-* Uma nova verificação de consistência na publicação de recursos personalizados impede que os usuários criem índices duplicados, o que faz com que a publicação falhe. Uma mensagem de erro aprimorada solicita que o usuário renomeie o índice se for necessário. [Saiba mais](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)
+* Uma nova verificação de consistência na publicação de recursos personalizados impede que os usuários criem índices duplicados, o que faz com que a publicação falhe. Uma mensagem de erro aprimorada solicita que o usuário renomeie o índice, se necessário. [Saiba mais](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)
 
 **Outras alterações**
 
