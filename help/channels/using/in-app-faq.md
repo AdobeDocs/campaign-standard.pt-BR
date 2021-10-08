@@ -7,8 +7,7 @@ topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
 feature: In App
 role: User
-exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 2%
@@ -57,7 +56,7 @@ No entanto, se o objetivo for enviar uma mensagem no aplicativo em um idioma dif
 
 ![](assets/faq_inapp.png)
 
-## Os campos de personalização do Campaign podem ser adicionados ao HTML personalizado? {#custom-html-inapp}
+## Os campos de personalização do Campaign podem ser adicionados ao Custom HTML? {#custom-html-inapp}
 
 Não, isso ainda não é suportado.
 
@@ -65,7 +64,7 @@ Não, isso ainda não é suportado.
 
 Para mensagens de alerta, pelo menos um botão de descarte (principal ou secundário deve ter uma ação de descarte) é necessário. Caso contrário, é possível salvar a mensagem, mas ela não será recebida.
 
-## Se o som personalizado iOS de notificações locais não for reproduzido; o som padrão será reproduzido? {#local-notification-sound}
+## Se Notificações locais o som personalizado iOS não é reproduzido; o som padrão será reproduzido? {#local-notification-sound}
 
 Para som personalizado no iOS, é necessário fornecer um nome de arquivo com extensão ao criar uma notificação local (por exemplo, sound.caf). Se essa extensão não for fornecida, o som padrão será usado.
 
