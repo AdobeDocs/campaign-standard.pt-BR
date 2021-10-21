@@ -5,9 +5,9 @@ user-guide-description: 'Centro de ajuda para os principais recursos, tarefas, c
 title: Manual do Campaign Standard
 breadcrumb-title: Documentação do Adobe Campaign Standard
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1798'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -281,7 +281,7 @@ ht-degree: 99%
          + [Personalização de campanhas usando atributos da Adobe Experience Platform](integrating/using/aep-personalizing-campaigns.md)
       + Conector de dados da Adobe Experience Platform (beta) {#data-connector}
          + [Sobre o Conector de dados da Adobe Experience Platform](integrating/using/aep-about-data-connector.md)
-         + [Visão geral do modelo de dados Experience Platform](integrating/using/aep-data-model-overview.md)
+         + [Visão geral do modelo de dados da Experience Platform](integrating/using/aep-data-model-overview.md)
          + [Definição de mapeamento](integrating/using/aep-mapping-definition.md)
          + [Ativação de mapeamento](integrating/using/aep-mapping-activation.md)
          + [Acionamento da assimilação de dados por meio de APIs](integrating/using/aep-triggering-data-ingestion.md)
