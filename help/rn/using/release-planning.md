@@ -8,28 +8,28 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: ce3c7cf767a0b6f72f5ca35779b492271d025227
+source-git-commit: 85c42129e105999483d23865f2534c90406251e4
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 94%
+source-wordcount: '423'
+ht-degree: 74%
 
 ---
 
 # Planejamento de versão {#release-planning}
 
-A Adobe melhora continuamente suas soluções, adicionando novos recursos, melhorias e correções.
+O Adobe melhora continuamente suas soluções, adicionando novos recursos, melhorias e correções.
 
 Todas as instâncias do Adobe Campaign Standard são atualizadas com cada nova versão. Nenhuma ação é necessária para fazer a atualização.
 
-As atualizações são implantadas em duas fases. Primeiro, as instâncias de Preparo são atualizadas para permitir que nossos clientes testem novos recursos e adaptem suas configurações, se necessário. As instâncias de Produção são atualizadas posteriormente.
+As atualizações são implantadas em duas fases. Primeiro, as instâncias de Preparo são atualizadas para permitir que você teste novos recursos e adapte sua configuração, se necessário. As instâncias de Produção são atualizadas.
 
-Todas as datas de lançamento estão sujeitas a alterações: recomendamos que você visite esta página regularmente para verificar se há atualizações.
+Todas as datas de lançamento estão sujeitas a alterações: visite esta página regularmente para verificar se há atualizações.
 
 ## Versão 22.1 - Versão de fevereiro de 2022 {#release-22-1-release}
 
 As atualizações de ambientes ocorrem em ondas, durante os intervalos indicados abaixo. As datas exatas são comunicadas por email a cada cliente.
 
-Informações detalhadas sobre esta versão serão disponibilizadas no [Notas de versão](../../rn/using/release-notes.md) na data de atualização do ambiente de preparo.
+Informações detalhadas sobre esta versão estão disponíveis no [Notas de versão](../../rn/using/release-notes.md) na data de atualização do ambiente de preparo.
 
 <table>
  <thead>
@@ -45,7 +45,7 @@ Informações detalhadas sobre esta versão serão disponibilizadas no [Notas de
   </tr>
   <tr>
    <td>Produção<br /> </td>
-   <td>15º a 22 de fevereiro de 2021<br /> </td>
+   <td>15-22 de fevereiro de 2022<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -68,11 +68,11 @@ R: Não. Durante a atualização da instância, o banco de dados pode não ficar
 
 **P: As mensagens continuarão a ser enviadas?**
 
-R: Não. Mensagens não serão enviadas durante alguns minutos. Assim que a atualização for concluída, os processos serão reiniciados automaticamente.
+R: Não. Mensagens não serão enviadas durante alguns minutos. Quando a atualização é concluída, os processos são reiniciados automaticamente.
 
 **P: Os workflows continuarão em execução e enviarão os deliveries?**
 
-R: Não. Durante a atualização da build, o servidor de workflow e o MTA são ambos interrompidos. Isso significa que os workflows não serão executados e os deliveries não serão enviados durante alguns minutos. Nenhuma ação é necessária: os workflows serão iniciados novamente assim que a instância for atualizada.
+R: Não. Durante a atualização da build, o servidor de workflow e o MTA são ambos interrompidos. Como consequência, os workflows não serão executados e os deliveries não serão enviados durante alguns minutos. Nenhuma ação é necessária: os workflows serão iniciados novamente assim que a instância for atualizada.
 
 **P: Os links de rastreamento nas mensagens ainda funcionarão durante a atualização?**
 
