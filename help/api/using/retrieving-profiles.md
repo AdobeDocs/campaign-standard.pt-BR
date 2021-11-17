@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 5%
@@ -17,9 +17,9 @@ ht-degree: 5%
 
 # Recuperação de perfis {#retrieving-profiles}
 
-A recuperação de perfis é realizada com uma solicitação **GET**.
+A recuperação de perfis é realizada com uma **GET** solicitação.
 
-Você pode refinar sua pesquisa usando filtros, pedidos e paginação. Para obter mais informações, consulte a seção [Additional operations](../../api/using/sorting.md).
+Você pode refinar sua pesquisa usando filtros, pedidos e paginação. Para obter mais informações, consulte [Operações adicionais](../../api/using/sorting.md) seção.
 
 Além disso, as APIs do Campaign Standard permitem pesquisar perfis com base em um desses campos: email, nome, sobrenome ou qualquer campo personalizado. Para obter mais informações, consulte [esta seção](#searching-field).
 
@@ -88,11 +88,11 @@ Além disso, as APIs do Campaign Standard permitem pesquisar perfis com base em 
 
 ## Pesquisa de perfis com base em um campo {#searching-field}
 
-O parâmetro **[!UICONTROL filterType]** permite recuperar perfis com base em um desses campos: email, nome, sobrenome ou qualquer campo personalizado que tenha sido adicionado na Filtragem avançada ao estender o recurso de perfil.
+O **[!UICONTROL filterType]** permite recuperar perfis com base em um desses campos: email, nome, sobrenome ou qualquer campo personalizado que tenha sido adicionado na Filtragem avançada ao estender o recurso de perfil.
 
 >[!NOTE]
 >
->As pesquisas fazem distinção entre maiúsculas e minúsculas e são executadas somente em prefixos. Por exemplo, você não poderá procurar um perfil usando as últimas letras do seu sobrenome.
+>As pesquisas fazem distinção entre maiúsculas e minúsculas e são executadas somente em prefixos. Por exemplo, você não poderá procurar um perfil usando as últimas letras do sobrenome.
 
 ***Solicitações de exemplo***
 

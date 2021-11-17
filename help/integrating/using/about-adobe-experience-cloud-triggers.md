@@ -9,10 +9,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 98%
+ht-degree: 90%
 
 ---
 
@@ -22,7 +22,7 @@ A integração entre o serviço principal **[!UICONTROL Triggers]** da Ativaçã
 
 Na Adobe Experience Cloud, você define os diferentes acionadores, ou seja, os comportamentos dos clientes que gostaria de monitorar, por exemplo, todos os clientes que abandonaram a visita no site, fizeram uma pesquisa, mas não fizeram uma compra no site ou até mesmo os clientes cuja sessão expirou. Ao criar um acionador, você define a condição dele e os dados que serão enviados no evento (upload) para o Adobe Campaign.
 
-No Adobe Campaign, você seleciona o acionador que foi criado, aprimora os dados do evento com dados do datamart e define um template de mensagem transacional vinculado a esse acionador. Por exemplo, quando um cliente abandona a visita no site, um evento é enviado ao Adobe Campaign, que pode aproveitá-lo por meio de um email de remarketing para o cliente em 15 minutos.
+No Adobe Campaign, você seleciona o acionador que foi criado, aprimora os dados do evento com dados do datamart e define um template de mensagem transacional vinculado a esse acionador. Por exemplo, quando um cliente abandona a visita no seu site, um evento é enviado ao Adobe Campaign, que pode aproveitá-lo por meio de um email de remarketing que é enviado ao cliente em 15 minutos.
 
 O diagrama a seguir detalha o funcionamento dessa integração.
 

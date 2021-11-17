@@ -8,7 +8,7 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 188b1750-e062-4328-9829-6f2848356b5c
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 89%
@@ -27,7 +27,7 @@ O princípio é enviar um email para confirmar o contrato do visitante antes de 
 
 Para configurar, é necessário:
 
-1. Crie e publique uma landing page para que os visitantes possam se registrar e assinar. Essa landing page estará disponível em um site. Os visitantes que preencherem e enviarem essa landing page serão armazenados no banco de dados, mas adicionados à lista de bloqueios, para não receberem nenhuma comunicação antes da validação final (consulte [Lista de bloqueios gerenciamento de  no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+1. Crie e publique uma landing page para que os visitantes possam se registrar e assinar. Essa landing page estará disponível em um site. Os visitantes que preencherem e enviarem essa landing page serão armazenados no banco de dados, mas adicionados à lista de bloqueios, para não receberem nenhuma comunicação antes da validação final (consulte [Gerenciamento de Lista de bloqueios no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 1. Crie e envie automaticamente o email de participação, com um link de confirmação. Esse email terá como alvo a população que enviou a landing page. Ele será baseado em um template de email que permite direcionar perfis de &quot;recusa de participação&quot;.
 1. Redirecione para uma landing page de confirmação. Essa landing page final apresentará um botão de confirmação: os visitantes precisam clicar nele. Você pode compor um email de boas-vindas para ser enviado quando a confirmação for feita e, por exemplo, adicionar uma oferta especial no email para novos recipients.
 
@@ -101,7 +101,7 @@ Você precisa criar uma [tipologia](../../sending/using/about-typology-rules.md)
 1. No logotipo do Adobe Campaign, selecione **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** e clique em **[!UICONTROL Typologies]**.
 1. Duplique a tipologia predefinida **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
 1. Depois que a duplicação for confirmada, edite a nova tipologia e insira o rótulo **TYPOLOGY_PROFILE**.
-1. Remova o **Endereço na regra de**.
+1. Remova o **Endereço lista de bloqueios** regra.
 1. Clique em **[!UICONTROL Save]**.
 
 Essa tipologia agora pode ser associada ao email de confirmação.

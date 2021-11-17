@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
-source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1500'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -42,9 +42,9 @@ Um som alertará os usuários sobre uma notificação por push, dando mais visib
 
    ![](assets/push_notif_advanced_7.png)
 
-1. O arquivo de som será reproduzido ao fornecer a notificação se estiver definido no pacote desse aplicativo móvel. Você pode defini-lo como **padrão** para reproduzir o som padrão do dispositivo.
+1. O arquivo de som será reproduzido ao fornecer a notificação se estiver definido no pacote desse aplicativo móvel. Você pode defini-lo como **default** para reproduzir o som padrão do dispositivo.
 
-   Se o campo **[!UICONTROL Play a sound]** ficar vazio, nenhum som será reproduzido.
+   Se a variável **[!UICONTROL Play a sound]** deixado em branco, nenhum som será reproduzido.
 
 O usuário receberá a notificação por push e o som somente se o telefone não estiver com a função mudo ativada.
 
@@ -113,7 +113,7 @@ Definir uma data de expiração para sua notificação por push permite definir 
 
 Para adicionar uma data de expiração à sua notificação por push:
 
-1. Marque a opção **[!UICONTROL Expire message]**: ao selecionar a opção **[!UICONTROL Expire message]**, a duração é automaticamente definida como 0. Se você não alterar o valor, tanto o APNS quanto o FCM tentarão enviar a mensagem imediatamente. Se falhar, a mensagem não será reenviada.
+1. Verifique a **[!UICONTROL Expire message]** opção: selecionando o **[!UICONTROL Expire message]** , a duração é automaticamente definida como 0. Se você não alterar o valor, tanto o APNS quanto o FCM tentarão enviar a mensagem imediatamente. Se falhar, a mensagem não será reenviada.
 
 1. No campo **[!UICONTROL Duration]**, selecione a validade da sua notificação por push.
 

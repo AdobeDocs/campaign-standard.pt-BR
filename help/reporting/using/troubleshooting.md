@@ -8,7 +8,7 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 5%
@@ -53,9 +53,9 @@ Esta é uma representação visual da interação dos perfis com o email enviado
  </tbody> 
 </table>
 
-Para entender o número geral de aberturas exclusivas, precisamos somar as contagens de linha de **[!UICONTROL Unique Opens]** que nos fornece o valor 3. Mas como o email foi direcionado para apenas 2 perfis, a taxa de abertura deve mostrar 150%.
+Para entender o número geral de aberturas exclusivas, precisamos somar as contagens de linha de **[!UICONTROL Unique Opens]** que nos dá o valor 3. Mas como o email foi direcionado para apenas 2 perfis, a taxa de abertura deve mostrar 150%.
 
-Para não obter uma porcentagem superior a 100, a definição de **[!UICONTROL Unique Opens]** é mantida para ser o número de broadlogs exclusivos que foram abertos. Nesse caso, mesmo se P1 tiver aberto o email no Dia 1 e no Dia 2, suas aberturas exclusivas ainda serão 1.
+Para não obter uma porcentagem superior a 100, a definição de **[!UICONTROL Unique Opens]** é mantido como o número de broadlogs exclusivos que foram abertos. Nesse caso, mesmo se P1 tiver aberto o email no Dia 1 e no Dia 2, suas aberturas exclusivas ainda serão 1.
 
 Isso resultará na seguinte tabela:
 
@@ -70,7 +70,7 @@ Isso resultará na seguinte tabela:
  <tbody> 
   <tr> 
    <td align="center"> <strong> Day </strong><br /> </td> 
-   <td align="center"> <strong> 6  </strong><br /> </td> 
+   <td align="center"> <strong> 6 </strong><br /> </td> 
    <td align="center"> <strong> 2</strong><br /> </td>
   </tr> 
   <tr> 
@@ -92,13 +92,13 @@ Isso resultará na seguinte tabela:
 
 ## Contagens abertas não correspondem à contagem Banco de dados {#open-counts-no-match-database}
 
-Isso pode ser devido ao fato de que as heurísticas são usadas no Dynamic Reporting para rastrear aberturas mesmo quando não podemos rastrear a ação **[!UICONTROL Open]**.
+Isso pode ser devido ao fato de que, as heurísticas são usadas no Dynamic Reporting para rastrear aberturas mesmo quando não podemos rastrear a variável **[!UICONTROL Open]** ação.
 
-Por exemplo, se um usuário desabilitou imagens em seu cliente e clicar em um link no email, o **[!UICONTROL Open]** pode não ser rastreado pelo banco de dados, mas o **[!UICONTROL Click]** será.
+Por exemplo, se um usuário tiver desativado imagens em seu cliente e clicar em um link no email, a variável **[!UICONTROL Open]** não pode ser rastreado pelo banco de dados, mas o **[!UICONTROL Click]** o fará.
 
-Portanto, as contagens dos logs de rastreamento **[!UICONTROL Open]** podem não ter a mesma contagem no banco de dados.
+Por conseguinte, o **[!UICONTROL Open]** as contagens de logs de rastreamento podem não ter a mesma contagem no banco de dados.
 
-Essas ocorrências são adicionadas como **&quot;um clique de email implica uma abertura de email&quot;**.
+Essas ocorrências são adicionadas como **&quot;um clique por email implica a abertura de um email&quot;**.
 
 >[!NOTE]
 >
@@ -108,7 +108,7 @@ Essas ocorrências são adicionadas como **&quot;um clique de email implica uma 
 
 Ao trabalhar com deliveries recorrentes e transacionais, as contagens serão atribuídas aos deliveries pai e filho.
 Podemos ver o exemplo de um delivery recorrente chamado **R1** definido para ser executado todos os dias no dia 1 (RC1), no dia 2 (RC2) e no dia 3 (RC3).
-Vamos supor que apenas uma única pessoa abriu todas as entregas secundárias várias vezes. Nesse caso, os deliveries secundários recorrentes individuais mostrarão a contagem **[!UICONTROL Open]** como 1 para cada um.
+Vamos supor que apenas uma única pessoa abriu todas as entregas secundárias várias vezes. Nesse caso, os deliveries secundários individuais recorrentes mostrarão a variável **[!UICONTROL Open]** contar como 1 para cada.
 No entanto, como a mesma pessoa clicou em todos os deliveries, o delivery recorrente pai também terá **[!UICONTROL Unique open]** como 1.
 
 Os relatórios devem ter a seguinte aparência:
@@ -129,26 +129,26 @@ Os relatórios devem ter a seguinte aparência:
    <td align="center"> <strong>100</strong><br/> </td> 
    <td align="center"> <strong>90º</strong><br/> </td> 
    <td align="center"> <strong>10º</strong><br/> </td> 
-   <td align="center"> <strong>1</strong><br/> </td> 
+   <td align="center"> <strong>3</strong><br/> </td> 
   </tr> 
   <tr> 
    <td align="center"> RC1<br/> </td> 
-   <td align="center"> 20<br /> </td> 
-   <td align="center"> 20<br /> </td> 
+   <td align="center"> 20º<br /> </td> 
+   <td align="center"> 20º<br /> </td> 
    <td align="center"> 6<br /> </td> 
    <td align="center"> 1<br /> </td> 
   </tr>
     <tr> 
    <td align="center"> RC2<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 30<br /> </td> 
+   <td align="center"> 40º<br /> </td> 
+   <td align="center"> 30º<br /> </td> 
    <td align="center"> 2<br /> </td> 
    <td align="center"> 1<br /> </td> 
   </tr> 
     <tr> 
    <td align="center"> RC3<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 40<br /> </td> 
+   <td align="center"> 40º<br /> </td> 
+   <td align="center"> 40º<br /> </td> 
    <td align="center"> 2<br /> </td> 
    <td align="center"> 1<br /> </td> 
   </tr> 
@@ -163,9 +163,9 @@ No exemplo abaixo, a célula é da mesma cor, pois seu valor é 100%.
 
 ![](assets/troubleshooting_1.png)
 
-Se você alterar o **[!UICONTROL Conditional formatting]** para personalizado, quando o valor atingir o limite superior, a célula ficará mais verde. Enquanto que, se atingir o limite inferior, ficará mais vermelho.
+Se você alterar a variável **[!UICONTROL Conditional formatting]** para personalizar, quando o valor atingir o limite superior, a célula ficará mais verde. Enquanto que, se atingir o limite inferior, ficará mais vermelho.
 
-Por exemplo, aqui, definimos **[!UICONTROL Upper limit]** como 500 e **[!UICONTROL Lower limit]** como 0.
+Por exemplo, aqui, definimos a variável **[!UICONTROL Upper limit]** a 500 e **[!UICONTROL Lower limit]** para 0.
 
 ![](assets/troubleshooting_2.png)
 
@@ -173,11 +173,11 @@ Por exemplo, aqui, definimos **[!UICONTROL Upper limit]** como 500 e **[!UICONTR
 
 ![](assets/troubleshooting_3.png)
 
-O valor **N/A** pode, às vezes, aparecer em seus relatórios dinâmicos. Isso pode ser exibido por três motivos:
+O valor **N/D** às vezes podem aparecer em seus relatórios dinâmicos. Isso pode ser exibido por três motivos:
 
-* O delivery foi excluído e é mostrado aqui como **N/A** para não causar discrepância nos resultados.
-* Ao arrastar e soltar a dimensão **[!UICONTROL Transactional Delivery]** em seus relatórios, o valor **N/A** pode aparecer como resultado. Isso acontece porque o relatório dinâmico obtém cada delivery mesmo que não seja transacional. Isso também pode acontecer ao arrastar e soltar a dimensão **[!UICONTROL Delivery]** no relatório, mas nesse caso, o valor **N/A** representará deliveries transacionais.
-* Quando uma dimensão é usada com uma métrica que não está relacionada à dimensão. No exemplo abaixo, um detalhamento é adicionado com a dimensão **[!UICONTROL Tracking URL]** mesmo que a contagem **[!UICONTROL Click]** esteja definida como 0 neste delivery.
+* O delivery foi excluído e é mostrado aqui como **N/D** para não causar discrepância nos resultados.
+* Ao arrastar e soltar a **[!UICONTROL Transactional Delivery]** para seus relatórios, o valor **N/D** pode aparecer como resultado. Isso acontece porque o relatório dinâmico obtém cada delivery mesmo que não seja transacional. Isso também pode acontecer ao arrastar e soltar a variável **[!UICONTROL Delivery]** para seu relatório, mas nesse caso, a variável **N/D** representará deliveries transacionais.
+* Quando uma dimensão é usada com uma métrica que não está relacionada à dimensão. No exemplo abaixo, um detalhamento é adicionado com a variável **[!UICONTROL Tracking URL]** mesmo que a variável **[!UICONTROL Click]** é definida como 0 neste delivery.
 
    ![](assets/troubleshooting_4.png)
 

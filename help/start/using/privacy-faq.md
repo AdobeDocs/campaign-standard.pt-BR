@@ -9,14 +9,14 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
-feature: Privacidade
+feature: Privacy
 role: User
 level: Intermediate
 exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '814'
-ht-degree: 100%
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
+source-wordcount: '812'
+ht-degree: 96%
 
 ---
 
@@ -115,6 +115,6 @@ Ao receber uma solicitação de exclusão, o controlador de dados precisará gar
 
 **Um titular de dados, cujos dados tenham sido apagados do Adobe Campaign, pode ser reinserido?**
 
-É possível que um titular de dados seja novamente aceito ou seja adicionado como um novo recipient depois que seus dados forem apagados do Adobe Campaign.
+É possível que um Titular de dados volte a aceitar ou seja adicionado como um novo recipient depois que seus dados forem apagados do Adobe Campaign.
 
 Você pode usar a trilha de auditoria que detalha quando a exclusão anterior foi executada e quando o novo recipient foi criado.

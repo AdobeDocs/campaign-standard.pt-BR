@@ -8,7 +8,7 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 6783aa68-7fd7-4f53-86bf-853c0fea5899
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # Retornar ao remetente{#return-to-sender}
 
-Há suporte para trocas de arquivos simples com provedores de Correspondência direta incorporando informações Retornar para o remetente. Isso permite que endereços postais correspondentes sejam excluídos de futuras comunicações. Isso também permite que você seja notificado sobre um endereço incorreto e interaja com o cliente por meio de outros canais ou para incentivá-lo a atualizar seu endereço postal.
+Há suporte para trocas de arquivos simples com provedores de Correspondência direta incorporando informações Retornar para o remetente. Isso permite que endereços postais correspondentes sejam excluídos de futuras comunicações. Isso também permite que você seja notificado sobre um endereço incorreto e interaja com o cliente por meio de outros canais ou incentive-o a atualizar seu endereço postal.
 
 Por exemplo, um contato foi movido para um novo local e não lhe forneceu o novo endereço postal. O provedor recupera a lista de endereços incorretos e envia essas informações para a Adobe Campaign, que lista de bloqueios automaticamente os endereços incorretos.
 

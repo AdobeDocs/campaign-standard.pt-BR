@@ -8,7 +8,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 51%
@@ -37,17 +37,17 @@ Para obter mais informações sobre as práticas recomendadas para proteger e ot
 
 A quarentena e a lista de bloqueios não se aplicam ao mesmo objeto:
 
-* **** A quarentena se aplica somente a um  **endereço**  (ou número de telefone, etc.), não ao próprio perfil. Por exemplo, um perfil cujo endereço de email está em quarentena poderia atualizar seu perfil e inserir um novo endereço e pode ser alvo de ações de delivery novamente. Da mesma forma, se dois perfis tiverem o mesmo número de telefone, eles serão afetados se o número estiver em quarentena.
+* **Quarentena** se aplica somente a um **endereço** (ou número de telefone, etc.), não no próprio perfil. Por exemplo, um perfil cujo endereço de email está em quarentena poderia atualizar seu perfil e inserir um novo endereço e pode ser alvo de ações de delivery novamente. Da mesma forma, se dois perfis tiverem o mesmo número de telefone, eles serão afetados se o número estiver em quarentena.
 
-   Os endereços em quarentena ou números de telefone são exibidos nos [logs de exclusão](#identifying-quarantined-addresses-for-a-delivery) (para um delivery) ou na [lista de quarentena](#identifying-quarantined-addresses-for-the-entire-platform) (para toda a plataforma).
+   Os endereços em quarentena ou os números de telefone são exibidos na variável [logs de exclusão](#identifying-quarantined-addresses-for-a-delivery) (para um delivery) ou na variável [lista de quarentena](#identifying-quarantined-addresses-for-the-entire-platform) (para toda a plataforma).
 
-* Estar no **lista de bloqueios**, por outro lado, resultará no **perfil** não sendo mais direcionado pelo delivery, como após um cancelamento de subscrição (opt-out), para um determinado canal. Por exemplo, se um perfil na  lista de bloqueios para o canal de email tiver dois endereços de email, ambos os endereços serão excluídos do delivery. Para obter mais informações sobre o processo de  de lista de bloqueios, consulte [Sobre participação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* Estando no **lista de bloqueios**, por outro lado, resultará em **perfil** O não está mais sendo direcionado pelo delivery, como após um cancelamento de subscrição (opt-out), para um determinado canal. Por exemplo, se um perfil na  lista de bloqueios para o canal de email tiver dois endereços de email, ambos os endereços serão excluídos do delivery. Para obter mais informações sobre o processo de  de lista de bloqueios, consulte [Sobre participação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-   Você pode verificar se um perfil está na lista de bloqueios de um ou mais canais na seção **[!UICONTROL No longer contact (on denylist)]** da guia **[!UICONTROL General]** do perfil. Consulte [esta seção](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
+   Você pode verificar se um perfil está na lista de bloqueios para um ou mais canais na **[!UICONTROL No longer contact (on denylist)]** da seção do perfil **[!UICONTROL General]** guia . Consulte [esta seção](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
 
 >[!NOTE]
 >
->A quarentena inclui um status **Na lista de bloqueios**, que se aplica quando os recipients relatam sua mensagem como spam ou respondem a uma mensagem SMS com uma palavra-chave, como &quot;PARAR&quot;. Nesse caso, o endereço ou número de telefone envolvido do perfil é enviado para quarentena com o status **[!UICONTROL On denylist]**. Para obter mais informações sobre como gerenciar mensagens SMS STOP, consulte [esta seção](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
+>A quarentena inclui uma **Na  lista de bloqueios** , que se aplica quando os recipients relatam sua mensagem como spam ou respondem a uma mensagem SMS com uma palavra-chave como &quot;PARAR&quot;. Nesse caso, o endereço envolvido do perfil ou o número de telefone é enviado para quarentena com o **[!UICONTROL On denylist]** status. Para obter mais informações sobre como gerenciar mensagens SMS STOP, consulte [esta seção](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
 <!--When a user replies to an SMS message with a keyword such as STOP in order to opt-out from SMS deliveries, his profile is not added to the denylist like in the email opt-out process. Instead, the profile's phone number is sent to quarantine with the **[!UICONTROL On denylist]** status. This status refers to the phone number only, meaning that the profile will continue receiving email messages.<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
 
@@ -67,7 +67,7 @@ Os endereços em quarentena para um delivery específico são listados durante a
 
 ### Identificação de endereços em quarentena para toda a plataforma {#identifying-quarantined-addresses-for-the-entire-platform}
 
-Os administradores podem acessar a lista detalhada dos endereços de email em quarentena para toda a plataforma do menu **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
+Os administradores podem acessar a lista detalhada dos endereços de email em quarentena para toda a plataforma do **[!UICONTROL Administration > Channels > Quarantines > Addresses]** menu.
 
 <!--
 This menu lists quarantined elements for **Email**, **SMS** and **Push notification** channels.
@@ -89,7 +89,7 @@ Para editar uma entrada, clique na linha correspondente e modifique os campos co
 
 ![](assets/quarantines-edit.png)
 
-Para adicionar manualmente uma nova entrada, use o botão **[!UICONTROL Create]**.
+Para adicionar manualmente uma nova entrada, use o **[!UICONTROL Create]** botão.
 
 ![](assets/quarantines-create-button.png)
 
@@ -106,7 +106,7 @@ Para remover manualmente um endereço da lista da quarentena, execute uma das a�
 >[!IMPORTANT]
 Excluir manualmente um endereço de email da quarentena significa que você reiniciará o delivery para esse endereço. Consequentemente, isso pode ter graves impactos na capacidade de entrega e reputação do IP, o que pode eventualmente levar ao bloqueio do seu endereço IP ou domínio de envio. Continue com muito cuidado ao considerar a remoção de qualquer endereço da quarentena. Em caso de dúvida, entre em contato com um especialista em deliverability.
 
-* Selecione o endereço na lista **[!UICONTROL Administration > Channels > Quarantines > Addresses]** e selecione **[!UICONTROL Delete element]**.
+* Selecione o endereço do **[!UICONTROL Administration > Channels > Quarantines > Addresses]** e selecione **[!UICONTROL Delete element]**.
 
    ![](assets/quarantine-delete-address.png)
 
@@ -125,9 +125,9 @@ Os endereços são removidos automaticamente da lista de quarentena nos seguinte
 O status muda então para **[!UICONTROL Valid]**.
 
 >[!IMPORTANT]
-Os recipients com um endereço em um status **[!UICONTROL Quarantine]** ou **[!UICONTROL On denylist]** nunca serão removidos automaticamente, mesmo que recebam um email.
+Recipients com um endereço em um **[!UICONTROL Quarantine]** ou **[!UICONTROL On denylist]** O status nunca será removido automaticamente, mesmo que ele receba um email.
 
-O número máximo de tentativas a serem executadas no caso de status **[!UICONTROL Erroneous]** e o atraso mínimo entre tentativas agora se baseiam no desempenho histórico e atual de um IP em um determinado domínio.
+O número máximo de tentativas a serem executadas em caso de **[!UICONTROL Erroneous]** O status e o atraso mínimo entre tentativas agora se baseiam no desempenho histórico e atual de um IP em um determinado domínio.
 
 ## Condições para enviar um endereço para quarentena {#conditions-for-sending-an-address-to-quarantine}
 
