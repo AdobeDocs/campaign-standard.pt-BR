@@ -52,7 +52,7 @@ O email de confirmação é uma mensagem transacional, pois reage a um evento: a
 1. Crie um evento no menu **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**, acessível pelo logotipo do Adobe Campaign.
 1. Insira um rótulo, selecione um targeting dimension e clique em **[!UICONTROL Create]**.
 
-   As etapas de configuração são apresentadas na seção [Configuração de um evento transacional](../../channels/using/configuring-transactional-event.md) .
+   As etapas de configuração são apresentadas na seção [Configuração de um evento transacional](../../channels/using/configuring-transactional-event.md) seção.
 
 1. Na seção **[!UICONTROL Fields]**, clique em **[!UICONTROL Create element]** e adicione **[!UICONTROL publicLabel]** à estrutura de dados para ativar a reconciliação.
 
@@ -141,7 +141,7 @@ O email de confirmação é uma [mensagem transacional](../../channels/using/get
 1. Crie um evento no menu **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**, acessível pelo logotipo do Adobe Campaign.
 1. Insira um rótulo, selecione um targeting dimension e clique em **[!UICONTROL Create]**.
 
-   As etapas de configuração são apresentadas na seção [Configuração de um evento transacional](../../channels/using/configuring-transactional-event.md) .
+   As etapas de configuração são apresentadas na seção [Configuração de um evento transacional](../../channels/using/configuring-transactional-event.md) seção.
 
 1. Na seção **[!UICONTROL Fields]**, clique em **[!UICONTROL Create element]** e adicione **[!UICONTROL serviceName]** à estrutura de dados para ativar a reconciliação.
 

@@ -22,7 +22,7 @@ Há várias maneiras de monitorar um delivery e medir o impacto. Como administra
 
 >[!IMPORTANT]
 >
->Somente os [administradores](../../administration/using/users-management.md#functional-administrators) funcionais, com a função **[!UICONTROL Administration]** e o acesso a **Todas** unidades podem acessar logs de envio, logs de mensagem, logs de rastreamento, exclusões ou logs de assinatura. Um usuário não administrador pode direcionar esses logs, mas começar em uma tabela vinculada (perfis, delivery).
+>Apenas funcional [administradores](../../administration/using/users-management.md#functional-administrators), com **[!UICONTROL Administration]** funções e acesso a **Todos** as unidades podem acessar logs de envio, logs de mensagem, logs de rastreamento, exclusão ou logs de assinatura. Um usuário não administrador pode direcionar esses logs, mas começar em uma tabela vinculada (perfis, delivery).
 
 * **Logs de mensagem**: esses logs podem ser acessados diretamente do painel de mensagens. Eles mostram os detalhes do envio, o target que foi excluído e o motivo, bem como as informações de rastreamento, como aberturas e cliques.
 

@@ -7,13 +7,13 @@ topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
 feature: In App
 role: User
-source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
+exl-id: 0101773d-b109-49a3-89d4-b4bb226d9ebd
+source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 2%
 
 ---
-
 
 # Perguntas frequentes no aplicativo {#in-app-faq}
 
@@ -34,19 +34,19 @@ Como as mensagens no aplicativo são obtidas pelo SDK do Campaign, queremos forn
 * As mensagens criadas usando o modelo de Perfil só podem ser enviadas quando o usuário tiver feito logon no aplicativo.
 * Para facilitar esse handshake seguro, os desenvolvedores de aplicativos móveis devem passar detalhes de autenticação adicionais usando a API setLinkageField . Observe que o campo de vinculação é aquele identificado como o link entre o Perfil móvel e o Perfil de CRM ao estender a tabela appSubscriberRcp.
 * Eles devem liberar as mensagens no aplicativo armazenadas no dispositivo e os campos resetLinkagequando o usuário sair do aplicativo usando resetLinkageField. Isso garante que, se um usuário diferente fizer logon no aplicativo, ele não visualize as mensagens destinadas ao usuário anterior.
-* Consulte [APIs do SDK móvel](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) para implementar este mecanismo de segurança no lado do cliente.
+* Consulte [APIs do SDK móvel](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) implementar este mecanismo de segurança no lado do cliente.
 
 ## O que preciso fazer para ativar os Relatórios no aplicativo no Campaign? {#enable-inapp-reporting}
 
-Você precisa configurar o postback de rastreamento no aplicativo. Instruções podem ser encontradas [aqui](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback).
+Você precisa configurar o postback de rastreamento no aplicativo. Instruções podem ser encontradas [here](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback).
 
-Para implementar o rastreamento de notificação local, consulte esta [página](../../administration/using/local-tracking.md).
+Para implementar o rastreamento de notificação local, consulte esta seção [página](../../administration/using/local-tracking.md).
 
 ## Quais relatórios estão disponíveis para o canal no aplicativo? {#report-inapp}
 
 Um relatório pronto para uso está disponível no Adobe Campaign para canal no aplicativo. Consulte esta [documentação](../../reporting/using/in-app-report.md).
 
-Consulte esta [página](../../reporting/using/indicator-calculation.md#in-app-delivery) para entender como cada métrica no aplicativo é calculada.
+Veja isso [página](../../reporting/using/indicator-calculation.md#in-app-delivery) para entender como cada métrica no aplicativo é calculada.
 
 ## Você suporta variantes de conteúdo multilíngue para no aplicativo semelhantes ao push? {#multilingual-inapp}
 
@@ -73,7 +73,7 @@ Para som personalizado no iOS, é necessário fornecer um nome de arquivo com ex
 Sim, os deep links são suportados nas mensagens no aplicativo. Os deep links devem incluir:
 
 * idioma que declara que o rastreamento de delivery precisa ser desativado para que os deep links funcionem.
-* Appsflyer com Ramificação como parceiros que podem fazer o rastreamento de deep link. Para obter mais informações sobre a integração do Branch e do Adobe Campaign Standard, consulte esta [página](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* Appsflyer com Ramificação como parceiros que podem fazer o rastreamento de deep link. Para obter mais informações sobre a integração do Branch e do Adobe Campaign Standard, consulte esta seção [página](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
 
 ## Uma mensagem no aplicativo pode ser acionada quando o usuário inicia o aplicativo por meio de uma notificação por push? {#inapp-push-trigger}
 

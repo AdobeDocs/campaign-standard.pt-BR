@@ -51,7 +51,7 @@ O modo como os dados serão extraídos é definido na configuração da atividad
 
 1. Se desejar, você pode compactar o arquivo de saída selecionando **[!UICONTROL Compression]** no campo **[!UICONTROL Add a post-processing stage]**. O arquivo de saída será compactado em um arquivo GZIP (.gz).
 
-   O campo **[!UICONTROL Add a post-processing stage]** também permite criptografar um arquivo antes de extraí-lo. Para obter mais informações sobre como trabalhar com arquivos criptografados, consulte [esta seção](../../automating/using/managing-encrypted-data.md)
+   O **[!UICONTROL Add a post-processing stage]** O campo também permite criptografar um arquivo antes de extraí-lo. Para obter mais informações sobre como trabalhar com arquivos criptografados, consulte [esta seção](../../automating/using/managing-encrypted-data.md)
 
 1. Clique no botão **[!UICONTROL Create element]** para adicionar uma coluna de saída.
 

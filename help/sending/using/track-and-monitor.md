@@ -32,29 +32,29 @@ Para controlar suas campanhas, você deve garantir que a mensagem tenha sido ent
 
 * No painel de mensagens, é possível acessar vários relatórios para essa mensagem específica.
 
-Para obter mais informações, consulte [Monitorando um delivery](../../sending/using/monitoring-a-delivery.md).
+Para obter mais informações, consulte [Monitoramento de um delivery](../../sending/using/monitoring-a-delivery.md).
 
 ## Rastreamento {#tracking-deliveries}
 
-Para conhecer melhor o comportamento dos perfis segmentados, você pode acompanhar como eles reagem a um delivery: recepção, abertura, cliques em links, unsubscriptions, etc. Consulte a guia **Tracking logs** do delivery.
+Para conhecer melhor o comportamento dos perfis segmentados, você pode acompanhar como eles reagem a um delivery: recepção, abertura, cliques em links, unsubscriptions, etc. Consulte a **Logs de rastreamento** do delivery.
 
 **Dica**: o rastreamento de mensagens é habilitado por padrão. Para configurar URLs, selecione a opção Exibir URLs na seção inferior do assistente do delivery. Para cada URL da mensagem, você pode escolher se deseja ativar o rastreamento.
 
-Para obter mais informações, consulte a seção [Tracking messages](../../sending/using/tracking-messages.md) e a descrição [Tracking indicators](../../reporting/using/tracking-indicators.md).
+Para obter mais informações, consulte [Rastreamento de mensagens](../../sending/using/tracking-messages.md) e a [Indicadores de rastreamento](../../reporting/using/tracking-indicators.md) descrição.
 
 ## Relatórios dinâmicos {#dyn-reports}
 
 Relatórios dinâmicos permitem que você crie relatórios totalmente personalizáveis e em tempo real para monitorar suas campanhas. Dimension, métricas e visualizações permitem medir o impacto e o sucesso de suas campanhas nos recipients.
 
-**Dica**  - Relatórios integrados estão disponíveis para você monitorar suas campanhas, mas esses relatórios também podem ser personalizados arrastando e soltando quaisquer métricas ou dimensões em seu relatório.
+**Ponta** - Relatórios integrados estão disponíveis para você monitorar suas campanhas, mas esses relatórios também podem ser personalizados arrastando e soltando quaisquer métricas ou dimensões em seu relatório.
 
-Para obter mais informações, consulte o [Guia de relatórios](../../reporting/using/about-dynamic-reports.md).
+Para obter mais informações, consulte [Guia de relatórios](../../reporting/using/about-dynamic-reports.md).
 
 ## Hot clicks
 
 O relatório Hot clicks apresenta o conteúdo da mensagem (HTML e/ou texto) com a porcentagem de cliques em cada link. Ao exibir a porcentagem de cliques em cada conteúdo dinâmico, você pode avaliar qual conteúdo agrada mais aos destinatários.
 
-Para obter mais informações, consulte o [Relatório de cliques ativos](../../reporting/using/hot-clicks.md).
+Para obter mais informações, consulte [Relatório de cliques ativos](../../reporting/using/hot-clicks.md).
 
 ## Dicas de desempenho do delivery {#performance-tips}
 

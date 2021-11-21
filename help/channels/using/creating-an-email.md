@@ -17,7 +17,7 @@ ht-degree: 20%
 
 # Criação de um email{#creating-an-email}
 
-Você pode criar um email a partir de uma [campanha](../../start/using/marketing-activities.md#creating-a-marketing-activity), a partir da [página inicial](../../start/using/interface-description.md#home-page) do Adobe Campaign ou na [lista de atividades de marketing](../../start/using/marketing-activities.md#about-marketing-activities). Também é possível criar emails recorrentes e de envio único a partir de um fluxo de trabalho.
+Você pode criar um email a partir de um [campanha](../../start/using/marketing-activities.md#creating-a-marketing-activity), da Adobe Campaign [página inicial](../../start/using/interface-description.md#home-page)ou no [lista de atividades de marketing](../../start/using/marketing-activities.md#about-marketing-activities). Também é possível criar emails recorrentes e de envio único a partir de um fluxo de trabalho.
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
 
@@ -29,9 +29,9 @@ Você pode criar um email a partir de uma [campanha](../../start/using/marketing
 
    >[!NOTE]
    >
-   >Os modelos de teste A/B e de acompanhamento estão ocultos por padrão. Marque as caixas no lado esquerdo ( **[!UICONTROL Filter]** painel lateral) se desejar exibi-las.
+   >Os modelos de teste A/B e de acompanhamento estão ocultos por padrão. Marque as caixas no lado esquerdo ( **[!UICONTROL Filter]** painel lateral) se desejar exibi-los.
 
-1. Insira as propriedades gerais do email. Você pode inserir um nome no campo **Label** e editar a ID. O nome da atividade e sua ID são exibidos na interface, mas não são visíveis para os recipients da mensagem.
+1. Insira as propriedades gerais do email. Você pode inserir um nome no **Rótulo** e edite a ID. O nome da atividade e sua ID são exibidos na interface, mas não são visíveis para os recipients da mensagem.
 
    É possível adicionar uma descrição que o usuário pode ver no conteúdo da campanha.
 
@@ -58,11 +58,11 @@ Você pode criar um email a partir de uma [campanha](../../start/using/marketing
 
    >[!NOTE]
    >
-   >Para salvar seu email, primeiro é necessário fazer algumas edições no conteúdo. Se você clicar em **[!UICONTROL Cancel]** nesse ponto, não concluirá o assistente e seu email não será criado.
+   >Para salvar seu email, primeiro é necessário fazer algumas edições no conteúdo. Se você clicar em **[!UICONTROL Cancel]** nesse ponto, você não concluirá o assistente e seu email não será criado.
 
-   O painel de email é exibido. Ela permite verificar sua mensagem e [preparar o envio](../../sending/using/preparing-the-send.md).
+   O painel de email é exibido. Ela permite que você verifique sua mensagem e [preparar o envio](../../sending/using/preparing-the-send.md).
 
-   O botão **[!UICONTROL Edit properties]** no canto superior direito permite editar as propriedades do email. Você pode, por exemplo, configurar o email para que seu rótulo seja computado no momento da preparação do delivery.  Os parâmetros disponíveis são listados em [this section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+   O **[!UICONTROL Edit properties]** no canto superior direito permite editar as propriedades do email. Você pode, por exemplo, configurar o email para que seu rótulo seja computado no momento da preparação do delivery.  Os parâmetros disponíveis estão listados em [esta seção](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/delivery_dashboard_2.png)
 
@@ -70,7 +70,7 @@ Você pode criar um email a partir de uma [campanha](../../start/using/marketing
 
    ![](assets/delivery_planning.png)
 
-1. Prepare sua mensagem para analisar seu público-alvo. Consulte [Preparando o envio](../../sending/using/confirming-the-send.md).
+1. Prepare sua mensagem para analisar seu público-alvo. Consulte [Preparação do envio](../../sending/using/confirming-the-send.md).
 
    ![](assets/preparing_delivery_2.png)
 
@@ -90,7 +90,7 @@ Você pode criar um email a partir de uma [campanha](../../start/using/marketing
 
 **Tópicos relacionados**:
 
-* [Criação de um guia passo a passo ](../../channels/using/key-steps-to-send-a-message.md) de email personalizado
+* [Criação de email personalizado](../../channels/using/key-steps-to-send-a-message.md) guia passo a passo
 * [Integração entre Adobe Campaign e Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 * [Integração com o Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
 
@@ -100,4 +100,4 @@ Este vídeo mostra como criar um email.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12)
 
-Os vídeos de instruções adicionais do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
+Vídeos tutoriais adicionais do Campaign Standard estão disponíveis [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

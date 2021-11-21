@@ -18,15 +18,15 @@ ht-degree: 1%
 
 # Resumo da rejeição{#bounce-summary}
 
-Esse relatório detalha os erros gerais de hardware e software encontrados durante os deliveries, bem como o processamento automático de rejeições (consulte [Entendendo as falhas de delivery](../../sending/using/understanding-delivery-failures.md)).
+Esse relatório detalha os erros gerais de hardware e software encontrados durante os deliveries, bem como o processamento automático de rejeições (consulte [Noções básicas sobre falhas de delivery](../../sending/using/understanding-delivery-failures.md)).
 
 ![](assets/campaign_reports_bounces.png)
 
 Cada tabela é representada por números de resumo e gráficos. Você pode alterar como os detalhes são mostrados em suas respectivas configurações de visualização.
 
-**A** repartição Flop 5 lista os cinco deliveries com o maior número de quarentenas:
+**Repartição Flop 5** lista os cinco deliveries com o maior número de quarentenas:
 
-A tabela **Bounce reasons** contém os dados disponíveis para os tipos de erros que causaram devoluções para cada delivery:
+O **Motivos de rejeição** A tabela contém os dados disponíveis para os tipos de erros que causaram devoluções para cada delivery:
 
 * **[!UICONTROL User unknown]**: O tipo de erro gerado quando um delivery é enviado a um endereço de email inválido.
 * **[!UICONTROL Invalid domain]**: O tipo de erro gerado quando um delivery é enviado a um endereço de email cujo domínio está errado ou não existe mais.
@@ -41,4 +41,4 @@ A tabela **Bounce reasons** contém os dados disponíveis para os tipos de erros
 
 * **[!UICONTROL Refused]**: O tipo de erro gerado quando um endereço é recusado pelo provedor de serviços de Internet (ISP). Por exemplo, quando uma regra de segurança é aplicada por um software antisspam.
 
-A tabela **Domain repartição** exibe os problemas gerais encontrados durante os deliveries de acordo com o domínio do recipient.
+O **Repartição de domínio** exibe os problemas gerais encontrados durante os deliveries de acordo com o domínio do recipient.

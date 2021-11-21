@@ -24,7 +24,7 @@ ht-degree: 3%
 
 ## Acesso a públicos do Adobe Experience Platform
 
-Para acessar o construtor de segmentos do Adobe Experience Platform, navegue até o cartão **[!UICONTROL Audiences]** na página inicial do Campaign Standard (ou o link **[!UICONTROL Audiences]** no cabeçalho) e selecione o ambiente **[!UICONTROL Adobe Experience Platform]**.
+Para acessar o construtor de segmentos do Adobe Experience Platform, navegue até o **[!UICONTROL Audiences]** cartão na página inicial do Campaign Standard (ou o **[!UICONTROL Audiences]** no cabeçalho) e selecione o **[!UICONTROL Adobe Experience Platform]** ambiente.
 
 ![](assets/aep_audiences_access.png)
 
@@ -38,7 +38,7 @@ Uma barra de pesquisa e um filtro estão disponíveis para ajudá-lo a encontrar
 
 Para criar um público-alvo do Adobe Experience Platform diretamente no Campaign Standard, siga estas etapas:
 
-1. Na página da lista de segmentos do Adobe Experience Platform, clique no botão **[!UICONTROL New audience]** localizado no canto direito.
+1. Na página da lista de segmentos do Adobe Experience Platform , clique no link **[!UICONTROL New audience]** no canto direito.
 
    ![](assets/aep_audiences_creation_create.png)
 
@@ -48,9 +48,9 @@ Para criar um público-alvo do Adobe Experience Platform diretamente no Campaign
 
    ![](assets/aep_audiences_creation_edit_name.png)
 
-1. Para criar um segmento com êxito, você deve selecionar uma **política de mesclagem** que corresponda à sua finalidade de marketing para este segmento.
+1. Para criar um segmento com êxito, é necessário selecionar um **política de mesclagem** que corresponde à sua finalidade de marketing para este segmento.
 
-   No painel de configurações, uma política de mesclagem padrão da Plataforma é selecionada. Para obter mais informações sobre políticas de mesclagem, consulte a seção dedicada do [Guia do usuário do Construtor de segmento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   No painel de configurações, uma política de mesclagem padrão da Plataforma é selecionada. Para obter mais informações sobre políticas de mesclagem, consulte a seção dedicada do [Guia do usuário do Construtor de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -64,7 +64,7 @@ O público-alvo agora está pronto para ser ativado, você pode usá-lo como um 
 
 ## Edição de públicos-alvo
 
-Para editar um público-alvo, abra-o e modifique as regras conforme necessário na interface do Construtor de segmentos (consulte [Usar o Construtor de segmentos](../../integrating/using/aep-using-segment-builder.md)).
+Para editar um público-alvo, abra-o e modifique as regras conforme necessário na interface do Construtor de segmentos (consulte [Uso do Construtor de segmentos](../../integrating/using/aep-using-segment-builder.md)).
 
 Depois que as alterações forem concluídas, clique no botão **[!UICONTROL Save segment]** para atualizar seu público-alvo.
 

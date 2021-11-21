@@ -32,7 +32,7 @@ Uma mensagem transacional é uma comunicação individual e única enviada em te
 
 O Adobe Campaign permite integrar essa funcionalidade a um sistema de informações que envia eventos que serão transformados em mensagens transacionais personalizadas.
 
-As mensagens transacionais podem ser enviadas por email, SMS ou [notificação por push](../../channels/using/transactional-push-notifications.md), dependendo de suas opções. Verifique o contrato de licença.
+As mensagens transacionais podem ser enviadas por email, SMS ou [notificação por push](../../channels/using/transactional-push-notifications.md), dependendo das suas opções. Verifique o contrato de licença.
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ As mensagens transacionais podem ser enviadas por email, SMS ou [notificação p
 
 <!--Guidelines to implement transactional messaging capabilities in your website are detailed in [this section](../../api/using/managing-transactional-messages.md).-->
 
-Antes de começar com mensagens transacionais, leia as [práticas recomendadas e limitações](../../channels/using/transactional-messaging-limitations.md) correspondentes.
+Antes de começar com mensagens transacionais, leia as [práticas recomendadas e limitações](../../channels/using/transactional-messaging-limitations.md).
 
 ## Princípio operacional das mensagens transacionais {#transactional-messaging-operating-principle}
 
@@ -58,24 +58,24 @@ As principais etapas para colocar isso em prática são detalhadas abaixo [nesta
 
 Dois tipos de mensagens transacionais estão disponíveis no Adobe Campaign.
 
-**Dados de** segmentação de mensagens transacionais de evento contidos no próprio evento. Essas mensagens:
+**Mensagens transacionais de evento** dados do target contidos no próprio evento. Essas mensagens:
 * Não contém informações de perfil e, portanto, não pode incluir links de unsubscription.
 * Não são compatíveis com as regras de fadiga (mesmo no caso de um enriquecimento com perfis).
 * Ter o target de delivery definido pelos dados contidos no próprio evento.
 
 Você pode enviar uma mensagem transacional de evento para um cliente que precisa recuperar uma senha esquecida, por exemplo, ou para confirmar um pedido. Na verdade, você não deseja que o recipient cancele a assinatura desse tipo de comunicação e essa notificação não deve ser adicionada ao contador de mensagens de marketing como parte de uma regra de fadiga.
 
-**Perfil de perfis de** segmentação de mensagens transacionais do banco de dados de marketing do Campaign. Com esse tipo de mensagem, você pode:
+**Mensagens transacionais de perfil** direcionar perfis do banco de dados de marketing do Campaign. Com esse tipo de mensagem, você pode:
 * Aproveite os dados contidos no banco de dados do Adobe Campaign.
-* Personalize sua mensagem com informações de perfil adicionando um [enriquecimento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) à configuração do evento.
-* Aplique [regras de tipologia de marketing](../../sending/using/managing-typology-rules.md) ou [regras de fadiga](../../sending/using/fatigue-rules.md).
+* Personalize sua mensagem com informações do perfil adicionando um [enriquecimento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) à configuração do evento.
+* Aplicar [regras de tipologia de marketing](../../sending/using/managing-typology-rules.md) ou [regras de fadiga](../../sending/using/fatigue-rules.md).
 * Incluir o link de unsubscription nas mensagens.
 * Adicionar as mensagens transacionais aos relatórios globais do delivery.
 * Usar as mensagens transacionais na jornada do cliente.
 
 Por exemplo, você pode usar esse tipo de mensagem ao entrar em contato com seus clientes depois que eles abandonarem o carrinho em seu site, para incentivá-los a prosseguir com a compra. Ao fazer isso, você pode personalizar mais facilmente sua mensagem com acesso direto a todas as informações do banco de dados de perfis, aplicar regras de marketing e incluir essa mensagem na jornada global do cliente e gerar relatórios para obter uma melhor visão do comportamento do cliente.
 
-O tipo de mensagem é definido ao configurar o evento que será transformado em mensagem transacional. Consulte as seções de configuração [Mensagens transacionais baseadas em eventos](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages) e [Mensagens transacionais baseadas em perfil](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) .
+O tipo de mensagem é definido ao configurar o evento que será transformado em mensagem transacional. Consulte a [Mensagens transacionais baseadas em evento](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages) e [Mensagens transacionais baseadas em perfil](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) seções de configuração.
 
 ## Principais etapas {#key-steps}
 
@@ -87,7 +87,7 @@ Cada uma dessas etapas é detalhada abaixo.
 
 >[!IMPORTANT]
 >
->Somente os usuários com a função [Administration](../../administration/using/users-management.md#functional-administrators) podem configurar eventos transacionais e acessar mensagens transacionais.
+>Somente usuários com a variável [Administração](../../administration/using/users-management.md#functional-administrators) pode configurar eventos transacionais e acessar mensagens transacionais.
 
 ### Etapa 1 - Criar e publicar a configuração do evento {#create-event-configuration}
 
@@ -95,9 +95,9 @@ Cada uma dessas etapas é detalhada abaixo.
 
 | Usuário | Ação | Resultado |
 |--- |--- |--- |
-| Esta etapa deve ser executada por um administrador com [direitos de administração](../../administration/using/users-management.md#functional-administrators). | Configure um evento que será chamado de &quot;Abandono do carrinho&quot; e publique essa configuração. | A API que será usada pelo desenvolvedor do site é implantada e uma mensagem transacional é criada automaticamente. |
+| Esta etapa deve ser executada por um administrador que esteja mantendo [direitos administrativos](../../administration/using/users-management.md#functional-administrators). | Configure um evento que será chamado de &quot;Abandono do carrinho&quot; e publique essa configuração. | A API que será usada pelo desenvolvedor do site é implantada e uma mensagem transacional é criada automaticamente. |
 
-A criação e a publicação de um evento são apresentadas nas seções [Configuração de um evento transacional](../../channels/using/configuring-transactional-event.md) e [Publicação de um evento transacional](../../channels/using/publishing-transactional-event.md) .
+A criação e a publicação de um evento são apresentadas na seção [Configuração de um evento transacional](../../channels/using/configuring-transactional-event.md) e [Publicação de um evento transacional](../../channels/using/publishing-transactional-event.md) seções.
 
 ### Etapa 2 - Editar e publicar a mensagem transacional {#create-transactional-message}
 
@@ -105,7 +105,7 @@ A criação e a publicação de um evento são apresentadas nas seções [Config
 
 | Usuário | Ação | Resultado |
 |--- |--- |--- |
-| Essa etapa pode ser executada por um usuário de marketing com [direitos de administração](../../administration/using/users-management.md#functional-administrators). | Edite e personalize a mensagem transacional, teste-a e publique-a. | A mensagem transacional estará pronta para ser enviada. |
+| Esta etapa pode ser executada por um usuário de marketing que esteja mantendo [direitos administrativos](../../administration/using/users-management.md#functional-administrators). | Edite e personalize a mensagem transacional, teste-a e publique-a. | A mensagem transacional estará pronta para ser enviada. |
 
 Para obter mais informações sobre como editar e publicar uma mensagem transacional, consulte [Edição de mensagens transacionais](../../channels/using/editing-transactional-message.md) e [Ciclo de vida da mensagem transacional](../../channels/using/publishing-transactional-message.md).
 
@@ -119,9 +119,9 @@ Para obter mais informações sobre como editar e publicar uma mensagem transaci
 |--- |--- |--- |
 | Esta etapa é executada pelo desenvolvedor do seu site. | Use a REST Transactional Messages API para integrar o evento ao seu site. | O evento será acionado quando um cliente abandonar o carrinho. |
 
-Depois de criar um evento, é necessário integrar o acionamento desse evento no site.<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> Para fazer isso, o desenvolvedor da Web do site deve usar a API REST do  **Adobe Campaign Standard**.
+Depois de criar um evento, é necessário integrar o acionamento desse evento no site.<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> Para fazer isso, o desenvolvedor da Web do seu site deve usar o **API REST do Adobe Campaign Standard**.
 
-Para obter mais informações sobre como usar a API REST do Campaign para gerenciar mensagens transacionais, consulte a [documentação da API REST](../../api/using/managing-transactional-messages.md).
+Para obter mais informações sobre como usar a API REST do Campaign para gerenciar mensagens transacionais, consulte o [Documentação da API REST](../../api/using/managing-transactional-messages.md).
 
 ### Etapa 4 - Delivery de mensagem {#message-delivery}
 

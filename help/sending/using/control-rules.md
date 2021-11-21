@@ -48,9 +48,9 @@ As regras de controle podem ser aplicadas em diferentes fases do ciclo de vida d
 
 * **No início do direcionamento**: A regra de controle pode ser aplicada nesta fase para que a etapa de personalização não seja executada no caso de um erro.
 
-* **Após o direcionamento**: A execução após o direcionamento permite conhecer o volume do target para aplicar a regra de controle.
+* **Depois do direcionamento**: A execução após o direcionamento permite conhecer o volume do target para aplicar a regra de controle.
 
-   Por exemplo, a regra de controle **Check proof size** se aplica após o estágio do direcionamento: essa regra impede a preparação da personalização da mensagem se houver muitos recipients de prova.
+   Por exemplo, a variável **Verificar tamanho da prova** a regra de controle se aplica após o estágio de direcionamento: essa regra impede a preparação da personalização da mensagem se houver muitos recipients de prova.
 
 * **No início da personalização**: Aplica-se quando a verificação está relacionada à aprovação de personalização da mensagem. A personalização da mensagem é realizada durante a fase de análise.
 

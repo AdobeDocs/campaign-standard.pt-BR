@@ -18,23 +18,23 @@ ht-degree: 1%
 
 # Resumo da entrega{#delivery-summary}
 
-O relatório **[!UICONTROL Delivery summary]** detalha as informações principais relativas a um email ou vários emails.
+O **[!UICONTROL Delivery summary]** detalha as informações principais relativas a um email ou vários emails.
 
 ![](assets/campaign_reports_1.png)
 
 Cada tabela é representada por números de resumo e gráficos. Você pode alterar como os detalhes são mostrados em suas respectivas configurações de visualização.
 
-A tabela **Delivery statistics** contém os dados disponíveis para emails enviados, como:
+O **Estatísticas de delivery** A tabela contém os dados disponíveis para emails enviados, como:
 
 * **[!UICONTROL Processed/sent]**: O número total de envios para o delivery.
 * **[!UICONTROL Delivered]**: O número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas. Erros gerados (rejeições) são considerados. No entanto, as reclamações (declarações de spam) e mensagens de saída, como &quot;ausência temporária&quot;, não são consideradas.
 * **[!UICONTROL Bounces + Errors]**: O número total de erros acumulados durante o delivery e o processamento automático de retorno em relação ao número total de mensagens enviadas.
 
-A tabela **Open and clicks** contém os dados disponíveis para a atividade do recipient para cada delivery, como:
+O **Abrir e cliques** tabela, contém os dados disponíveis para a atividade do recipient para cada delivery, como:
 
 * **Clique em**: O número de vezes que um conteúdo foi clicado em um delivery.
 * **Abrir**: O número de vezes que uma mensagem foi aberta em um delivery.
-* **Aberturas** exclusivas: O número de recipients que abriram o delivery.
-* **Cliques** exclusivos: O número de recipients que clicaram em um conteúdo em um delivery.
+* **Aberturas exclusivas**: O número de recipients que abriram o delivery.
+* **Cliques únicos**: O número de recipients que clicaram em um conteúdo em um delivery.
 
-A tabela **Delegação de domínio** exibe o status dos deliveries de acordo com o domínio do recipient.
+O **Repartição de domínio** exibe o status dos deliveries de acordo com o domínio do recipient.

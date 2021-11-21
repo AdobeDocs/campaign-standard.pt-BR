@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ## Sobre o rastreamento de push {#about-push-tracking}
 
-Para garantir que a notificação por push tenha sido totalmente desenvolvida, verifique se a parte de rastreamento foi implementada corretamente, pois nem todas as notificações por push têm o rastreamento ativado. Para habilitar isso, os desenvolvedores precisam identificar quais deliveries têm o rastreamento ativado, o Adobe Campaign Standard enviará um sinalizador chamado `_acsDeliveryTracking` com dois valores **em** ou **off**. O desenvolvedor do aplicativo deve enviar uma solicitação de rastreamento somente nos deliveries que têm a variável definida como **on**.
+Para garantir que a notificação por push tenha sido totalmente desenvolvida, verifique se a parte de rastreamento foi implementada corretamente, pois nem todas as notificações por push têm o rastreamento ativado. Para habilitar isso, os desenvolvedores precisam identificar quais deliveries têm o rastreamento ativado, o Adobe Campaign Standard enviará um sinalizador chamado `_acsDeliveryTracking` com dois valores **on** ou **off**. O desenvolvedor do aplicativo deve enviar uma solicitação de rastreamento somente nos deliveries que têm a variável definida como **on**.
 
 >[!IMPORTANT]
 >
@@ -28,15 +28,15 @@ Para garantir que a notificação por push tenha sido totalmente desenvolvida, v
 
 O Rastreamento de push é separado em três tipos:
 
-* **Impressões de push**  - Quando uma notificação por push é entregue ao dispositivo e está sentado no centro de notificações, mas não foi tocada.  Isso é considerado uma impressão.  Na maioria dos casos, os números de impressões devem ser semelhantes se não forem iguais ao número entregue. Ele garante que o dispositivo recebeu a mensagem e reenviou essas informações ao servidor.
+* **Impressões por push** - Quando uma notificação por push é entregue ao dispositivo e está sentado no centro de notificações, mas não foi tocada.  Isso é considerado uma impressão.  Na maioria dos casos, os números de impressões devem ser semelhantes se não forem iguais ao número entregue. Ele garante que o dispositivo recebeu a mensagem e reenviou essas informações ao servidor.
 
-* **Clique por push**  - quando uma notificação por push for entregue ao dispositivo e o usuário clicar no dispositivo.  O usuário deseja exibir a notificação (que, por sua vez, será movida para o rastreamento Push Open) ou ignorar a notificação.
+* **Clique por push** - Quando uma notificação por push for entregue ao dispositivo e o usuário clicar no dispositivo.  O usuário deseja exibir a notificação (que, por sua vez, será movida para o rastreamento Push Open) ou ignorar a notificação.
 
-* **Push Open**  - Quando uma notificação por push é entregue ao dispositivo e o usuário clicou na notificação que faz com que o aplicativo seja aberto.  Isso é semelhante ao Clique de push, exceto que a opção Abrir por push não será acionada se a notificação for descartada.
+* **Empurrar Abertura** - Quando uma notificação por push é entregue ao dispositivo e o usuário clica na notificação que faz com que o aplicativo seja aberto.  Isso é semelhante ao Clique de push, exceto que a opção Abrir por push não será acionada se a notificação for descartada.
 
 Para implementar o rastreamento para o Campaign Standard, o aplicativo móvel precisa incluir SDK móvel. Esses SDK estão disponíveis no Adobe Mobile Services. Para obter mais informações, consulte esta [página](../../administration/using/configuring-a-mobile-application.md).
 
-Para enviar informações de rastreamento, há três variáveis que precisam ser enviadas. Dois que são parte dos dados recebidos do Campaign Standard e uma variável de ação que determina se é **Impression**, **Click** ou **Open**.
+Para enviar informações de rastreamento, há três variáveis que precisam ser enviadas. Dois que fazem parte dos dados recebidos do Campaign Standard e uma variável de ação que determina se é um **Impressão**, **Clique em** ou **Abrir**.
 
 | Variável | Valor |
 |:-:|:-:|
@@ -48,9 +48,9 @@ Para enviar informações de rastreamento, há três variáveis que precisam ser
 
 ### Como implementar o rastreamento de impressões de push {#push-impression-tracking-android}
 
-Para o rastreamento de impressão, é necessário enviar o valor &quot;7&quot; para a ação ao chamar a função **[!UICONTROL trackAction()]**.
+Para o rastreamento de impressões, é necessário enviar o valor &quot;7&quot; para a ação ao chamar **[!UICONTROL trackAction()]** .
 
-Para deliveries criados antes da versão 21.1 ou deliveries com template personalizado, consulte esta [seção](../../administration/using/push-tracking.md#about-push-tracking).
+Para deliveries criados antes da versão 21.1 ou deliveries com modelo personalizado, consulte esta seção [seção](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 @Override
@@ -82,7 +82,7 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 
 ### Como implementar o rastreamento de cliques {#push-click-tracking-android}
 
-Para o rastreamento de cliques, é necessário enviar o valor &quot;2&quot; para a ação ao chamar a função **[!UICONTROL trackAction()]** .
+Para o rastreamento de cliques, é necessário enviar o valor &quot;2&quot; para a ação ao chamar **[!UICONTROL trackAction()]** .
 
 Para rastrear cliques, dois cenários precisam ser tratados:
 
@@ -91,7 +91,7 @@ Para rastrear cliques, dois cenários precisam ser tratados:
 
 Para lidar com isso, você precisa usar duas intenções: um para clicar na notificação e outro para descartar a notificação.
 
-Para deliveries criados antes da versão 21.1 ou deliveries com template personalizado, consulte esta [seção](../../administration/using/push-tracking.md#about-push-tracking).
+Para deliveries criados antes da versão 21.1 ou deliveries com modelo personalizado, consulte esta seção [seção](../../administration/using/push-tracking.md#about-push-tracking).
 
 **[!UICONTROL MyFirebaseMessagingService.java]**
 
@@ -122,7 +122,7 @@ private void sendNotification(Map<String, String> data) {
 }
 ```
 
-Para que o **[!UICONTROL BroadcastReceiver]** funcione, é necessário registrá-lo no **[!UICONTROL AndroidManifest.xml]**
+Para **[!UICONTROL BroadcastReceiver]** para trabalhar, você precisa registrá-lo no **[!UICONTROL AndroidManifest.xml]**
 
 ```
 <manifest>
@@ -172,9 +172,9 @@ Será necessário enviar &quot;1&quot; e &quot;2&quot;, pois o usuário deve cli
 
 Para rastrear a abertura, é necessário criar Propósito. Os objetos de intenção permitem que o sistema operacional Android chame o método quando determinadas ações forem executadas. Nesse caso, clicando na notificação para abrir o aplicativo.
 
-Esse código é baseado na implementação do rastreamento de impressões de cliques. Com **[!UICONTROL Intent]** definido, agora é necessário enviar informações de rastreamento de volta para o Adobe Campaign Standard. Nesse caso, é necessário definir **[!UICONTROL Open Intent]** para abrir em uma determinada exibição no aplicativo, isso chamará o método onResume com os dados de notificação no **[!UICONTROL Intent Object]**.
+Esse código é baseado na implementação do rastreamento de impressões de cliques. Com **[!UICONTROL Intent]** , agora é necessário enviar informações de rastreamento para o Adobe Campaign Standard. Nesse caso, é necessário definir a variável **[!UICONTROL Open Intent]** para abrir para uma determinada exibição no aplicativo, isso chamará o método onResume com os dados de notificação no **[!UICONTROL Intent Object]**.
 
-Para deliveries criados antes da versão 21.1 ou deliveries com template personalizado, consulte esta [seção](../../administration/using/push-tracking.md#about-push-tracking).
+Para deliveries criados antes da versão 21.1 ou deliveries com modelo personalizado, consulte esta seção [seção](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 @Override
@@ -224,23 +224,23 @@ private void handleTracking() {
 
 ### Como implementar o rastreamento de impressões de push {#push-impression-tracking-iOS}
 
-Para o rastreamento de impressão, é necessário enviar o valor &quot;7&quot; para a ação ao chamar a função **[!UICONTROL trackAction()]**.
+Para o rastreamento de impressões, é necessário enviar o valor &quot;7&quot; para a ação ao chamar **[!UICONTROL trackAction()]** .
 
 Para entender como as notificações do iOS funcionam, os três estados de um aplicativo precisam ser detalhados:
 
 * **Primeiro plano**: quando o aplicativo está ativo no momento e está na tela (em primeiro plano).
-* **Plano de fundo**: quando o aplicativo is não está na tela, mas o processo não está fechado. Ao clicar duas vezes no botão inicial, ele normalmente mostrará todos os aplicativos que estão em segundo plano.
+* **Histórico**: quando o aplicativo is não está na tela, mas o processo não está fechado. Ao clicar duas vezes no botão inicial, ele normalmente mostrará todos os aplicativos que estão em segundo plano.
 * **Desligado/fechado**: um aplicativo cujo processo foi interrompido.
 
 Se um aplicativo for fechado, a Apple não chamará o aplicativo até que ele seja reiniciado. Isso significa que você não poderá saber quando a notificação foi recebida no iOS.
 
-Para ainda ter o **[!UICONTROL Impression]** rastreamento funcionando enquanto o aplicativo está em segundo plano, precisamos enviar **[!UICONTROL Content-Available]** para que o aplicativo saiba que um rastreamento deve ser feito.
+Para ainda ter **[!UICONTROL Impression]** rastreamento funcionando enquanto o aplicativo está em segundo plano, precisamos enviar **[!UICONTROL Content-Available]** para que o aplicativo saiba que um rastreamento deve ser feito.
 
 >[!CAUTION]
 >
 >O rastreamento de impressões do iOS não é preciso e não deve ser considerado confiável.
 
-Para deliveries criados antes da versão 21.1 ou deliveries com template personalizado, consulte esta [seção](../../administration/using/push-tracking.md#about-push-tracking).
+Para deliveries criados antes da versão 21.1 ou deliveries com modelo personalizado, consulte esta seção [seção](../../administration/using/push-tracking.md#about-push-tracking).
 
 O código a seguir direciona o aplicativo em segundo plano:
 
@@ -296,8 +296,8 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
 
 ### Como implementar o rastreamento de cliques {#push-click-tracking-iOS}
 
-Para o rastreamento de cliques, é necessário enviar o valor &quot;2&quot; para a ação ao chamar a função **[!UICONTROL trackAction()]** .
-Para deliveries criados antes da versão 21.1 ou deliveries com template personalizado, consulte esta [seção](../../administration/using/push-tracking.md#about-push-tracking).
+Para o rastreamento de cliques, é necessário enviar o valor &quot;2&quot; para a ação ao chamar **[!UICONTROL trackAction()]** .
+Para deliveries criados antes da versão 21.1 ou deliveries com modelo personalizado, consulte esta seção [seção](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 // AppDelegate.swift
@@ -338,7 +338,7 @@ Agora, ao enviar notificações por push, é necessário adicionar uma categoria
 
 ![](assets/tracking_push.png)
 
-Em seguida, para manipular o **[!UICONTROL Dismiss]** e enviar uma informação de rastreamento, é necessário adicionar o seguinte:
+Em seguida, manipule o **[!UICONTROL Dismiss]** e envie uma informação de rastreamento que você precisa adicionar o seguinte:
 
 ```
 func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
@@ -369,7 +369,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
 
 Será necessário enviar &quot;1&quot; e &quot;2&quot;, pois o usuário deve clicar na notificação para abrir o aplicativo. Se o aplicativo não for iniciado/aberto por meio da notificação por push, nenhum evento de rastreamento ocorrerá.
 
-Para deliveries criados antes da versão 21.1 ou deliveries com template personalizado, consulte esta [seção](../../administration/using/push-tracking.md#about-push-tracking).
+Para deliveries criados antes da versão 21.1 ou deliveries com modelo personalizado, consulte esta seção [seção](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 import Foundation

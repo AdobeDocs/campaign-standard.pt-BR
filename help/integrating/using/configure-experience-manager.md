@@ -34,15 +34,15 @@ Você deve ter certeza de que tem os seguintes elementos antecipadamente:
 Para usar essas duas soluções em conjunto, você deve configurá-las para se conectarem.
 Para configurar o Adobe Campaign:
 
-1. Primeiro, é necessário configurar a conta externa **[!UICONTROL Adobe Experience Manager instance]** em **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts menu]**.
+1. Primeiro, é necessário configurar o **[!UICONTROL Adobe Experience Manager instance]** conta externa em **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts menu]**.
 
-1. Configure a conta externa do tipo Adobe Experience Manager com seu URL **[!UICONTROL Server]**, **[!UICONTROL Account]** e **[!UICONTROL Password]**.
+1. Configure a conta externa do tipo Adobe Experience Manager com seu **[!UICONTROL Server]** URL, **[!UICONTROL Account]** e **[!UICONTROL Password]**.
 
    ![](assets/aem_1.png)
 
-1. Verifique se a opção **[!UICONTROL AEMResourceTypeFilter]** foi configurada corretamente. Acesse o menu **[!UICONTROL Options]** em **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
+1. Verifique se a variável **[!UICONTROL AEMResourceTypeFilter]** foi configurada corretamente. Acesse o **[!UICONTROL Options]** menu em **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu.
 
-1. No campo **[!UICONTROL Value (text)]**, verifique se a seguinte sintaxe está correta:
+1. No **[!UICONTROL Value (text)]** verifique se a sintaxe a seguir está correta:
 
    ```
    mcm/campaign/components/newsletter,mcm/campaign/components/campaign_newsletterpage,mcm/neolane/components/newsletter
@@ -50,7 +50,7 @@ Para configurar o Adobe Campaign:
 
    ![](assets/aem_2.png)
 
-1. Em seguida, no menu avançado em **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**, duplique um dos modelos existentes para criar um template de email específico para o Adobe Experience Manager.
+1. Em seguida, no menu avançado em **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**, duplique um dos templates existentes para criar um template de email específico do Adobe Experience Manager.
 
    ![](assets/aem_3.png)
 
@@ -58,7 +58,7 @@ Para configurar o Adobe Campaign:
 
    ![](assets/aem_4.png)
 
-1. No menu suspenso **[!UICONTROL Content]**, selecione **[!UICONTROL Adobe Experience Manager]** no campo **[!UICONTROL Content source]** e depois a conta externa criada anteriormente no **[!UICONTROL Adobe Experience Manager account]**.
+1. Em **[!UICONTROL Content]** , selecione **[!UICONTROL Adobe Experience Manager]** no **[!UICONTROL Content source]** , em seguida, sua conta externa criada anteriormente na **[!UICONTROL Adobe Experience Manager account]**.
 
 Agora é necessário configurar a integração no Adobe Experience Manager.
 
@@ -68,6 +68,6 @@ Para configurar o Adobe Experience Manager com o Adobe Campaign Standard, siga e
 
 1. Primeiro, é necessário configurar a replicação entre as instâncias de criação e publicação do Adobe Experience Manager. Consulte esta [seção](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-adobe-experience-manager).
 
-1. Em seguida, conecte o Adobe Experience Manager ao Adobe Campaign configurando um **[!UICONTROL Cloud Service]** dedicado. Consulte esta [seção](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#connecting-aem-to-adobe-campaign).
+1. Em seguida, conecte o Adobe Experience Manager ao Adobe Campaign configurando um **[!UICONTROL Cloud Service]**. Consulte esta [seção](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#connecting-aem-to-adobe-campaign).
 
 1. Agora é necessário configurar o externalizador no Adobe Experience Manager na instância do autor. Consulte esta [seção](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-the-externalizer).

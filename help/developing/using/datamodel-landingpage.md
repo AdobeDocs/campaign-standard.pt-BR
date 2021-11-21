@@ -143,7 +143,7 @@ ht-degree: 2%
                <li>Alemão - de - de</li>
                <li>Dinamarquês - da - da</li>
                <li>Finlandês - fi</li>
-               <li>Húngaro - Hu - Hu</li>
+               <li>Húngaro - Hu - hu</li>
                <li>Sueco (Finlândia) - sv_FI - sv_FI</li>
                <li>Japonês - ja - ja</li>
                <li>Hebraico - ele -</li>
@@ -209,7 +209,7 @@ ht-degree: 2%
                <li>Alemão - de - de</li>
                <li>Dinamarquês - da - da</li>
                <li>Finlandês - fi</li>
-               <li>Húngaro - Hu - Hu</li>
+               <li>Húngaro - Hu - hu</li>
                <li>Sueco (Finlândia) - sv_FI - sv_FI</li>
                <li>Japonês - ja - ja</li>
                <li>Hebraico - ele -</li>

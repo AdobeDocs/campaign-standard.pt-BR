@@ -35,13 +35,13 @@ Por fim, aproveite as diretrizes e ferramentas de deliverability disponíveis no
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
 
-Campaign Standard **message preparation** analisa o target, a personalização e a validade da mensagem. Os erros detectados durante esta etapa devem ser corrigidos antes de poderem prosseguir.
+Campaign Standard **preparação de mensagem** analisa o target, a personalização e a validade da mensagem. Os erros detectados durante esta etapa devem ser corrigidos antes de poderem prosseguir.
 
-**Visualize e** teste suas mensagens usando vários recursos: envie provas para testar perfis ou perfis segmentados, teste a linha de assunto de seus emails e verifique a renderização de suas mensagens para garantir que ela será exibida com eficiência em uma variedade de clientes da Web, Webmails e dispositivos.
+**Visualizar e testar** suas mensagens usando vários recursos: envie provas para testar perfis ou perfis segmentados, teste a linha de assunto de seus emails e verifique a renderização de suas mensagens para garantir que ela será exibida com eficiência em uma variedade de clientes da Web, Webmails e dispositivos.
 
 Aproveite os recursos de programação do Campaign para definir quando suas mensagens serão enviadas. Por exemplo, você pode adaptar o envio no fuso horário do recipient, otimizar a hora de envio ou calcular a data de envio.
 
-Use **typologies** para verificar, durante a preparação, se a mensagem é válida e atende aos seus critérios de qualidade por meio de fadiga, controle e regras de definição de metas. Por exemplo, para verificar se os emails sempre contêm uma linha de assunto ou para excluir assinantes dos recipients da mensagem.
+Use **tipologias** para verificar durante a preparação se a mensagem é válida e atende aos seus critérios de qualidade por meio de regras de fadiga, controle e definição de metas. Por exemplo, para verificar se os emails sempre contêm uma linha de assunto ou para excluir assinantes dos recipients da mensagem.
 
 Leia mais:
 
@@ -56,11 +56,11 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 
-Quando a mensagem estiver pronta, você poderá confirmar os logs de envio e acesso e os relatórios para **monitorar o delivery** e medir o sucesso da campanha. O Adobe Campaign também fornece um sistema de alerta por email para acompanhar sucessos ou falhas do delivery, bem como recursos de gerenciamento de quarentena.
+Quando a mensagem estiver pronta, você poderá confirmar os logs de envio e acesso e os relatórios para **monitorar o delivery** e avalie o sucesso de sua campanha. O Adobe Campaign também fornece um sistema de alerta por email para acompanhar sucessos ou falhas do delivery, bem como recursos de gerenciamento de quarentena.
 
-**Rastreie o** comportamento dos recipients da mensagem usando cookies permanentes e de sessão para recuperar informações de rastreamento (URLs clicados, mirror pages, mensagens abertas...).
+**Rastrear o comportamento** dos recipients da mensagem usando a sessão e cookies permanentes para recuperar informações de rastreamento (URLs clicados, mirror pages, mensagens abertas..).
 
-Finalmente, você pode configurar o Adobe Campaign para **manter uma cópia dos emails** enviados de sua plataforma por meio do Email Cco. Especificamente, se sua organização precisar arquivar todas as mensagens de email de saída para fins de conformidade, você poderá habilitar esse recurso.
+Por fim, você pode configurar o Adobe Campaign para **manter uma cópia dos emails** enviado da sua plataforma por meio de email Cco. Especificamente, se sua organização precisar arquivar todas as mensagens de email de saída para fins de conformidade, você poderá habilitar esse recurso.
 
 Leia mais:
 
@@ -77,7 +77,7 @@ Leia mais:
 
 A capacidade de delivery permite medir o sucesso das campanhas em chegar à caixa de entrada dos recipients sem rejeição ou sem serem marcadas como spam.
 
-O Campaign Standard fornece várias **ferramentas de deliverability** para ajudar você a melhorar o número de mensagens entregues com êxito: relatórios de taxa de transferência de delivery, otimização de tempo de envio, pré-visualização de mensagens, renderização de email, gerenciamento de quarentena etc.
+O Campaign Standard fornece vários **ferramentas de deliverability** para ajudá-lo a melhorar o número de mensagens entregues com êxito: relatórios de taxa de transferência de delivery, otimização de tempo de envio, pré-visualização de mensagens, renderização de email, gerenciamento de quarentena etc.
 
 Leia mais:
 
@@ -99,4 +99,4 @@ Este vídeo mostra como enviar um email de teste, preparar e enviar um delivery 
 
 >[!VIDEO](https://video.tv.adobe.com/v/24013/)
 
-Os vídeos de instruções adicionais do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
+Vídeos tutoriais adicionais do Campaign Standard estão disponíveis [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

@@ -32,9 +32,9 @@ Harmonizar todos os seus canais de marketing não é uma tarefa impossível. Com
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-**Aproveite o** painel de mensagens do Campaign para configurar e enviar suas mensagens de um único local, bem como acessar várias funcionalidades, como agendamento, mensagens multilíngues...
+**Aproveite o painel de mensagens do Campaign** para configurar e enviar suas mensagens de um único local, bem como acessar várias funcionalidades, como agendamento, mensagens multilíngues...
 
-**Gerencie** modelos para configurar as propriedades das mensagens e permitir que você ganhe tempo e consistência em toda a sua estratégia de mensagens. Como exemplo, para emails, o administrador funcional responsável pela configuração dos modelos pode definir os parâmetros padrão de um email, como público, agendamento ou conteúdo, os parâmetros avançados relacionados ao envio, validade, rastreamento etc., ou os parâmetros de pré-configuração relativos ao direcionamento e à personalização (contexto de direcionamento).
+**Gerenciar modelos** para configurar as propriedades das mensagens e permitir que você ganhe tempo e consistência em sua estratégia de mensagens. Como exemplo, para emails, o administrador funcional responsável pela configuração dos modelos pode definir os parâmetros padrão de um email, como público, agendamento ou conteúdo, os parâmetros avançados relacionados ao envio, validade, rastreamento etc., ou os parâmetros de pré-configuração relativos ao direcionamento e à personalização (contexto de direcionamento).
 
 Leia mais:
 
@@ -48,7 +48,7 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**Cinco** canais de comunicação estão disponíveis no Adobe Campaign: Email, mensagem SMS, notificação por push, mensagem no aplicativo e delivery de mala direta.
+**Cinco canais de comunicação** estão disponíveis no Adobe Campaign: Email, mensagem SMS, notificação por push, mensagem no aplicativo e delivery de mala direta.
 
 Para cada canal, funcionalidades específicas estão disponíveis. Por exemplo, o canal de email permite executar testes A/B para testar até 3 versões de uma mensagem de email. Com o canal SMS, gerencie mensagens STOP SMS e armazene SMSs recebidos dos recipients no seu banco de dados.
 
@@ -66,9 +66,9 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-**Envie** mensagens individuais e exclusivas aos seus clientes em tempo real: mensagens de boas-vindas, confirmações de envio de pedidos, modificação de senha etc.
+**Enviar mensagens individuais e exclusivas** aos seus clientes em tempo real: mensagens de boas-vindas, confirmações de envio de pedidos, modificação de senha etc.
 
-As mensagens transacionais estão disponíveis para os canais de email, SMS e notificação por push, dependendo de suas opções. Há dois tipos de mensagens: **mensagens transacionais de evento** direcionando eventos sem informações de perfil e **perfis de mensagens transacionais de perfil** direcionando perfis do seu banco de dados.
+As mensagens transacionais estão disponíveis para os canais de email, SMS e notificação por push, dependendo de suas opções. Há dois tipos de mensagens: **mensagens transacionais de evento** direcionamento de eventos sem informações de perfil, e **mensagens transacionais de perfil** perfis de direcionamento do seu banco de dados.
 
 Leia mais:
 
@@ -84,7 +84,7 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_landing.svg" width="60px">
 
-O Campaign vem com landing pages que são formulários web que podem ser usados para **capturar informações em seus públicos**, oferecer assinaturas de um serviço, exibir dados e expandir seu banco de dados.
+O Campaign vem com landing pages que são formulários web que podem ser usados para **capturar informações em seus públicos**, oferecem subscrições a um serviço, exibem dados e expandem seu banco de dados.
 
 As landing pages também podem ser usadas para **adquirir ou atualizar perfis existentes** e para configurar um mecanismo de participação dupla, permitindo proteger a plataforma de endereços de email incorretos ou inválidos ou spambots.
 

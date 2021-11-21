@@ -40,9 +40,9 @@ Para ajustar as notificações por push, o Adobe Campaign permite o acesso a um 
 
 1. Criar uma notificação por push. Para obter mais informações, consulte esta [página](../../channels/using/preparing-and-sending-a-push-notification.md).
 
-1. Na página de conteúdo da notificação por push, acesse a seção **[!UICONTROL Advanced options]** .
+1. Na página de conteúdo da notificação por push, acesse o **[!UICONTROL Advanced options]** seção.
 
-1. Insira o URL do arquivo no campo **[!UICONTROL Rich media content URL]** .
+1. Insira o URL do seu arquivo no **[!UICONTROL Rich media content URL]** campo.
 No iOS 10 ou superior, você pode inserir arquivos de imagem, gif, áudio e vídeo.
 
    ![](assets/push_notif_advanced_6.png)
@@ -55,19 +55,19 @@ Após personalizar sua notificação por push no Adobe Campaign, é necessário 
 
 >[!NOTE]
 >
->Se seu aplicativo estiver em Objetive-C, consulte a seguinte [documentação](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
+>Se seu aplicativo estiver em Objetive-C, consulte o seguinte [documentação](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
 
-Se o aplicativo estiver em [!DNL Swift], siga as etapas abaixo:
+Se o aplicativo estiver em [!DNL Swift]siga as etapas abaixo:
 
-1. Abra o projeto [!DNL Xcode].
+1. Abra seu [!DNL Xcode] projeto.
 
-1. No projeto [!DNL Xcode], selecione **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
+1. Em seu [!DNL Xcode] projeto, selecione **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
 
 1. Selecione **[!UICONTROL Notification Service Extension]**.
 
    ![](assets/push_notif_advanced_12.png)
 
-1. Verifique se a classe de arquivo **NotificationService.swift** foi criada.
+1. Verifique se a variável **NotificationService.swift** a classe de arquivo é criada.
 
 1. Edite essa classe e substitua o conteúdo padrão pelo seguinte.
 Isso permite que o aplicativo manipule o parâmetro de entrada com o URL da imagem, analise-o, copie-o localmente e, em seguida, exiba-o da notificação por push.
@@ -154,6 +154,6 @@ userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_im
 
 ## Etapa 4: Teste o envio do push {#test-send-push}
 
-Agora é possível testar a criação do aplicativo e o delivery criado na etapa 2 acima. Para obter mais informações sobre como preparar e enviar a notificação por push, consulte esta [página](../../channels/using/preparing-and-sending-a-push-notification.md).
+Agora é possível testar a criação do aplicativo e o delivery criado na etapa 2 acima. Para obter mais informações sobre como preparar e enviar a notificação por push, consulte esta seção [página](../../channels/using/preparing-and-sending-a-push-notification.md).
 
 ![](assets/push_notif_advanced_34.png)

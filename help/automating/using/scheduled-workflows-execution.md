@@ -22,7 +22,7 @@ ht-degree: 1%
 
 No Campaign Standard, o mecanismo de workflow garante que uma instância de workflow seja executada por apenas um processo. Bloquear atividades como importações, consultas de longa duração ou gravações no banco de dados impede a execução de qualquer outra tarefa ao ser executada.
 
-Por outro lado, as atividades de não bloqueio não bloqueiam a execução de outras tarefas (normalmente atividades aguardando um evento como a atividade **[!UICONTROL Scheduler]** ).
+Por outro lado, as atividades de não bloqueio não bloqueiam a execução de outras tarefas (normalmente, atividades aguardando um evento como o **[!UICONTROL Scheduler]** atividade ).
 
 Isso pode levar a um cenário em que um fluxo de trabalho baseado em agendamento pode começar a ser executado mesmo quando a execução anterior desse mesmo fluxo de trabalho ainda não tiver sido concluída, possivelmente levando a problemas inesperados de dados.
 
@@ -30,11 +30,11 @@ Portanto, ao projetar um workflow agendado que inclui várias atividades, é nec
 
 ## Configuração do workflow
 
-Para verificar se uma ou mais tarefas de uma execução anterior do workflow ainda estão pendentes, é necessário usar uma atividade **[!UICONTROL Query]** e **[!UICONTROL Test]** .
+Para verificar se uma ou mais tarefas de uma execução anterior do workflow ainda estão pendentes, é necessário usar um **[!UICONTROL Query]** e **[!UICONTROL Test]** atividade .
 
-1. Adicione uma atividade **[!UICONTROL Query]** após a atividade **[!UICONTROL Scheduler]** e a configure como apresentado a seguir.
+1. Adicione um **[!UICONTROL Query]** após a **[!UICONTROL Scheduler]** , em seguida, configure-a da seguinte maneira.
 
-1. Altere o recurso da atividade para **[!UICONTROL WorkflowTaskDetail]**, o que significa que ela direcionará as tarefas atuais do fluxo de trabalho.
+1. Altere o recurso da atividade para **[!UICONTROL WorkflowTaskDetail]**, o que significa que ele direcionará as tarefas atuais do fluxo de trabalho.
 
    ![](assets/scheduled-wkf-resource.png)
 
@@ -46,11 +46,11 @@ Para verificar se uma ou mais tarefas de uma execução anterior do workflow ain
 
       >[!NOTE]
       >
-      >Quando uma atividade **[!UICONTROL Scheduler]** é iniciada, ela adiciona imediatamente outra tarefa de agendamento para execução no próximo horário agendado e inicia o workflow. Portanto, é importante filtrar o query e agendar tarefas ao procurar tarefas pendentes de uma execução anterior.
+      >Quando uma **[!UICONTROL Scheduler]** A atividade é iniciada, ela adiciona imediatamente outra tarefa de agendamento para ser executada na próxima hora agendada e iniciar o workflow. Portanto, é importante filtrar o query e agendar tarefas ao procurar tarefas pendentes de uma execução anterior.
 
    * A segunda regra determina se qualquer tarefa de uma execução anterior do workflow ainda está ativa (pendente), o que corresponde ao status de execução 0.
 
-1. Adicione uma atividade **[!UICONTROL Test]** para verificar o número de tarefas pendentes retornadas pela atividade **[!UICONTROL Query]**. Para fazer isso, configure duas transições de saída.
+1. Adicione um **[!UICONTROL Test]** para verificar o número de tarefas pendentes retornadas pela variável **[!UICONTROL Query]** atividade . Para fazer isso, configure duas transições de saída.
 
    ![](assets/scheduled-wkf-test.png)
 

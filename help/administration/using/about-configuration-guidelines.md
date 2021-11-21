@@ -43,7 +43,7 @@ Estes são os diferentes pontos de extremidade usados no Campaign Standard.
 
 | Contexto | URL |
 |--- |--- |
-| Instâncias da campanha | `https://*.experiencecloud.adobe.com` (ID do locatário * + domínio do cliente)<br>`https://*.campaign.adobe.com`  (locatário da instância do Campaign) |
+| Instâncias da campanha | `https://*.experiencecloud.adobe.com` (ID do locatário * + domínio do cliente)<br>`https://*.campaign.adobe.com` (locatário da instância do Campaign) |
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
 | Experience Cloud | `https://experiencecloud.adobe.com` |
 | Rastreamento | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |

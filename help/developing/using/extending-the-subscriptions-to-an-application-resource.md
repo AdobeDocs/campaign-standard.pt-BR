@@ -22,12 +22,12 @@ No Adobe Campaign, os dados de atributos do perfil móvel enviados de dispositiv
 Esse recurso pode ser estendido para coletar dados que você pretende enviar do dispositivo móvel para o Adobe Campaign.
 
 1. No menu avançado, selecione **[!UICONTROL Administration]** > **[!UICONTROL Development]** e **[!UICONTROL Custom resources]** pelo logotipo do Adobe Campaign.
-1. Clique em **[!UICONTROL Create]** e escolha a opção **[!UICONTROL Extend an existing resource]**.
-1. Selecione o recurso **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** e clique em **[!UICONTROL Create]**.
+1. Clique em **[!UICONTROL Create]** e escolha a **[!UICONTROL Extend an existing resource]** opção.
+1. Selecione o **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** e clique em **[!UICONTROL Create]**.
 
    ![](assets/in_app_personal_data_4.png)
 
-1. Na categoria **[!UICONTROL Fields]** da guia **[!UICONTROL Data structure]**, defina os dados do cliente que deseja recuperar do aplicativo móvel clicando no botão **[!UICONTROL Add field]**.
+1. No **[!UICONTROL Fields]** categoria da **[!UICONTROL Data structure]** , defina os dados do cliente que deseja recuperar do aplicativo móvel clicando no link **[!UICONTROL Add field]** botão.
 
    >[!NOTE]
    >
@@ -35,14 +35,14 @@ Esse recurso pode ser estendido para coletar dados que você pretende enviar do 
 
    ![](assets/in_app_personal_data.png)
 
-1. Adicione um **[!UICONTROL Label]** e um **[!UICONTROL ID]** ao novo campo. Selecione o **[!UICONTROL Type]** do seu campo.
+1. Adicione um **[!UICONTROL Label]** e um **[!UICONTROL ID]** ao novo campo. Selecione o **[!UICONTROL Type]**.
 
    ![](assets/schema_extension_uc9.png)
 
-1. Na categoria **[!UICONTROL Link to profiles]**, configure a chave de reconciliação usada para vincular os perfis do banco de dados do Adobe Campaign aos assinantes de aplicativos, como o email.
+1. No **[!UICONTROL Link to profiles]** , configure a chave de reconciliação usada para vincular os perfis do banco de dados do Adobe Campaign aos assinantes de aplicativos, como o email.
 
    Observe que para suas mensagens no aplicativo, você só pode definir uma chave de reconciliação para todos os seus aplicativos móveis.
 
    ![](assets/in_app_personal_data_3.png)
 
-1. **[!UICONTROL Save]** e publicar o recurso personalizado. Para obter mais informações sobre publicação de recursos personalizados, consulte esta [página](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. **[!UICONTROL Save]** e publicar o recurso personalizado. Para obter mais informações sobre publicação de recursos personalizados, consulte esta seção [página](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).

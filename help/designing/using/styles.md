@@ -18,7 +18,7 @@ ht-degree: 2%
 # Gerenciamento de estilos de email {#managing-styles}
 
 
-No Designer de email, ao selecionar um elemento, várias opções específicas para o tipo de conteúdo selecionado são exibidas no painel **[!UICONTROL Settings]**. Você pode usar essas opções para alterar facilmente o estilo do seu email.
+No Designer de email, ao selecionar um elemento, várias opções específicas para o tipo de conteúdo selecionado são exibidas na variável **[!UICONTROL Settings]** painel. Você pode usar essas opções para alterar facilmente o estilo do seu email.
 
 ## Selecionar um elemento {#selecting-an-element}
 
@@ -39,19 +39,19 @@ Navegar na árvore de estrutura permite fazer uma seleção mais precisa. Você 
 
 Para selecionar uma coluna, você também pode fazer o seguinte:
 
-1. Selecione um componente de estrutura (diretamente no email ou usando a árvore de estrutura disponível à esquerda **Paleta**).
-1. Na **barra de ferramentas contextual**, clique em **[!UICONTROL Select a column]** para escolher a coluna desejada.
+1. Selecione um componente de estrutura (diretamente no email ou usando a árvore de estrutura disponível à esquerda) **Paleta**).
+1. No **barra de ferramentas contextual**, clique em **[!UICONTROL Select a column]** para escolher a coluna desejada.
 
-Veja um exemplo em [this section](#example--adjusting-vertical-alignment-and-padding).
+Veja um exemplo em [esta seção](#example--adjusting-vertical-alignment-and-padding).
 
 ## Ajustar configurações de estilo {#adjusting-style-settings}
 
 1. Selecione um elemento no seu email. Para obter mais informações, consulte [Selecionar um elemento](#selecting-an-element).
 1. Ajuste as configurações de acordo com suas necessidades. Cada elemento selecionado oferece um conjunto diferente de configurações.
 
-   Você pode inserir planos de fundo, alterar tamanhos, modificar o alinhamento horizontal ou vertical, gerenciar cores, adicionar [preenchimento ou margem](#selecting-an-element) e assim por diante.
+   Você pode inserir planos de fundo, alterar tamanhos, modificar o alinhamento horizontal ou vertical, gerenciar cores, adicionar [preenchimento ou margem](#selecting-an-element)e assim por diante.
 
-   Para fazer isso, use as opções exibidas no painel **[!UICONTROL Settings]** ou [adicionar atributos de estilo em linha](#adding-inline-styling-attributes).
+   Para fazer isso, use as opções exibidas na **[!UICONTROL Settings]** painel ou [adicionar atributos de estilo em linha](#adding-inline-styling-attributes).
 
    ![](assets/des_settings_pane.png)
 
@@ -68,7 +68,7 @@ A interface do Designer de email permite que você ajuste rapidamente as configu
 Por exemplo:
 
 * Use o preenchimento para definir margens nos lados esquerdo e direito de uma imagem.
-* Use o preenchimento superior e inferior para adicionar mais espaçamento a um componente **[!UICONTROL Text]** ou **[!UICONTROL Divider]**.
+* Use o preenchimento superior e inferior para adicionar mais espaçamento a um **[!UICONTROL Text]** ou **[!UICONTROL Divider]** componente.
 * Para definir bordas entre colunas dentro de um elemento de estrutura, defina o preenchimento de cada coluna.
 
 **[!UICONTROL Margin]**: essa configuração permite gerenciar o espaço entre a borda do elemento e o próximo elemento.
@@ -77,19 +77,19 @@ Por exemplo:
 
 >[!NOTE]
 >
->Dependendo da sua seleção (componente de estrutura, coluna ou componente de conteúdo), o resultado não será o mesmo. O Adobe recomenda definir os parâmetros **[!UICONTROL Padding]** e **[!UICONTROL Margin]** no nível da coluna.
+>Dependendo da sua seleção (componente de estrutura, coluna ou componente de conteúdo), o resultado não será o mesmo. O Adobe recomenda definir a variável **[!UICONTROL Padding]** e **[!UICONTROL Margin]** no nível da coluna.
 
-Para **[!UICONTROL Padding]** e **[!UICONTROL Margin]**, clique no ícone de bloqueio para interromper a sincronização entre os parâmetros superior e inferior ou direito e esquerdo. Isso permite ajustar cada parâmetro separadamente.
+Para ambos **[!UICONTROL Padding]** e **[!UICONTROL Margin]**, clique no ícone de bloqueio para interromper a sincronização entre os parâmetros superior e inferior ou direita e esquerda. Isso permite ajustar cada parâmetro separadamente.
 
 ![](assets/des_padding_lock_icon.png)
 
 ## Alinhamento do estilo {#about-alignment}
 
-* **Alinhamento** do texto: coloque o cursor do mouse em um texto e use a barra de ferramentas contextual para alinhá-lo.
+* **Alinhamento de texto**: coloque o cursor do mouse em um texto e use a barra de ferramentas contextual para alinhá-lo.
 
    ![](assets/des_text_alignment.png)
 
-* **O** alinhamento horizontal pode ser aplicado ao texto, às imagens e aos botões - atualmente não aos componentes  **[!UICONTROL Divider]** e  **[!UICONTROL Social]** .
+* **Alinhamento horizontal** pode ser aplicada ao texto, às imagens e aos botões - atualmente não à função **[!UICONTROL Divider]** e **[!UICONTROL Social]** componentes.
 
    ![](assets/des_horizontal_alignment.png)
 
@@ -113,7 +113,7 @@ Quando se trata de definir planos de fundo com o Email Designer, o Adobe recomen
 
 Abaixo estão as configurações de fundo disponíveis que você pode usar.
 
-* Defina um **[!UICONTROL Background color]** para o email inteiro. Selecione as configurações de corpo na árvore de navegação acessível na paleta esquerda.
+* Defina um **[!UICONTROL Background color]** para todo o email. Selecione as configurações de corpo na árvore de navegação acessível na paleta esquerda.
 
    ![](assets/des_background_body.png)
 
@@ -150,11 +150,11 @@ Abaixo estão as configurações de fundo disponíveis que você pode usar.
 Você deseja ajustar o preenchimento e o alinhamento vertical dentro de um componente de estrutura composto de três colunas. Para fazer isso, siga as etapas abaixo:
 
 1. Selecione o componente de estrutura diretamente no email ou usando a árvore de estrutura disponível à esquerda **Paleta**.
-1. Na **barra de ferramentas contextual**, clique em **[!UICONTROL Select a column]** e escolha aquela que deseja editar. Também é possível selecioná-lo na árvore de estrutura.
+1. No **barra de ferramentas contextual**, clique em **[!UICONTROL Select a column]** e escolha aquele que deseja editar. Também é possível selecioná-lo na árvore de estrutura.
 
    ![](assets/des_selecting_column.png)
 
-   Os parâmetros editáveis para essa coluna são exibidos no painel **[!UICONTROL Settings]** à direita.
+   Os parâmetros editáveis para essa coluna são exibidos no **[!UICONTROL Settings]** painel à direita.
 
 1. Em **[!UICONTROL Vertical alignment]**, selecione **[!UICONTROL Up]**.
 
@@ -180,7 +180,7 @@ Você deseja ajustar o preenchimento e o alinhamento vertical dentro de um compo
 
 1. Em um componente onde um link é inserido, selecione o texto do rótulo do link.
 
-1. Nas configurações do componente, marque **[!UICONTROL Underline link]** para sublinhar o texto do rótulo do link.
+1. Nas configurações do componente, marque **[!UICONTROL Underline link]** para sublinhar o texto do rótulo de seu link.
 
    ![](assets/stylelinks-selecttext.png)
 
@@ -203,10 +203,10 @@ Você deseja ajustar o preenchimento e o alinhamento vertical dentro de um compo
 Na interface do Designer de email, ao selecionar um elemento e exibir suas configurações no painel lateral, é possível personalizar os atributos em linha e o valor desse elemento específico.
 
 1. Selecione um elemento no seu conteúdo.
-1. No painel lateral, procure pelas configurações **[!UICONTROL Styles Inline]**.
+1. No painel lateral, procure a variável **[!UICONTROL Styles Inline]** configurações.
 
    ![](assets/email_designer_inlineattributes.png)
 
-1. Modifique os valores dos atributos existentes ou adicione novos usando o botão **+**. Você pode adicionar qualquer atributo e valor compatível com CSS.
+1. Modifique os valores dos atributos existentes ou adicione novos usando o **+** botão. Você pode adicionar qualquer atributo e valor compatível com CSS.
 
 O estilo é aplicado ao elemento selecionado. Se os elementos filho não tiverem atributos de estilo específicos definidos, o estilo do elemento pai será herdado.

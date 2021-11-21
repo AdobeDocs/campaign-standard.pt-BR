@@ -24,9 +24,9 @@ ht-degree: 9%
 * Configure target mappings para gerenciar configurações técnicas necessárias para enviar deliveries,
 * Configurar notificações internas no aplicativo etc.
 
-Essas configurações estão disponíveis no menu **[!UICONTROL Administration]** / **[!UICONTROL Application settings]**.
+Essas configurações estão disponíveis no **[!UICONTROL Administration]** / **[!UICONTROL Application settings]** menu.
 
-Além disso, as opções técnicas estão disponíveis no menu **[!UICONTROL Options]**, permitindo que você configure o aplicativo mais especificamente. Alguns deles são incorporados ao instalar o Campaign e outros podem ser adicionados manualmente quando necessário (as opções disponíveis variam de acordo com os pacotes instalados com sua instância).
+Além disso, as opções técnicas estão disponíveis na variável **[!UICONTROL Options]** , permitindo configurar o aplicativo mais especificamente. Alguns deles são incorporados ao instalar o Campaign e outros podem ser adicionados manualmente quando necessário (as opções disponíveis variam de acordo com os pacotes instalados com sua instância).
 
 >[!IMPORTANT]
 >

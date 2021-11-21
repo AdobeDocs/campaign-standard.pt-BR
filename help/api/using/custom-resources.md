@@ -19,19 +19,19 @@ ht-degree: 5%
 
 O Adobe Campaign vem com um modelo de dados predefinido, onde os dados são definidos por meio de diferentes recursos. Você pode enriquecer o modelo de dados fornecido estendendo os recursos para adicionar seus próprios campos personalizados ou tabelas personalizadas, como tabelas de produtos ou de compras.
 
-Os recursos personalizados podem ser acessados por meio de APIs usando o endpoint **/profileAndServicesExt** e o nome do recurso personalizado.
+Os recursos personalizados podem ser acessados por meio de APIs usando o **/profileAndServicesExt** endpoint e o nome do recurso personalizado.
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/`
 
 >[!NOTE]
 >
->Para recursos que não estão prontos, sempre use o prefixo <b>&quot;cus&quot;</b> antes do nome do recurso.
+>Para recursos que não estão prontos, sempre use a variável <b>&quot;cus&quot;</b> antes do nome do recurso.
 
 Você pode executar qualquer operação com recursos personalizados, desde que eles estejam vinculados à tabela Perfil. Por exemplo, vamos considerar a estrutura de tabelas abaixo:
 
 ![texto alternativo](assets/cusresources.png)
 
-Nesse caso, todos os recursos das tabelas **Transaction**, **TransactionDetails** e **Product** estão disponíveis, desde que estejam vinculadas à tabela **Profile**.
+Nesse caso, todos os recursos do **Transação**, **Detalhes da transação** e **Produto** as tabelas estão disponíveis desde que estejam vinculadas à variável **Perfil** tabela.
 
 <br/>
 

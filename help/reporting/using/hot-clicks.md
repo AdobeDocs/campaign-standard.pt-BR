@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Hot clicks{#hot-clicks}
 
-Este relatório pode ser acessado pelo botão **[!UICONTROL Reports]** em cada delivery ou mensagem transacional.
+Este relatório pode ser acessado na **[!UICONTROL Reports]** em cada delivery ou mensagem transacional.
 
 ![](assets/delivery_reports_hot-clicks_4.png)
 
@@ -26,14 +26,14 @@ Ele apresenta o conteúdo da mensagem (HTML e/ou texto) com a porcentagem de cli
 
 ![](assets/delivery_reports_10.png)
 
-Se você criou conteúdo dinâmico para o delivery, é possível visualizar as porcentagens para cada condição definida. Para obter mais informações sobre como inserir conteúdo condicional em um delivery, consulte [Definição de conteúdo dinâmico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+Se você criou conteúdo dinâmico para o delivery, é possível visualizar as porcentagens para cada condição definida. Para obter mais informações sobre como inserir conteúdo condicional em um delivery, consulte [Definição do conteúdo dinâmico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 Por exemplo, imagine que você criou um delivery com as seguintes condições:
 
 * O link na imagem principal é diferente se o recipient for um homem ou uma mulher.
 * Você também adicionou um link a uma oferta especial que é visível apenas para recipients com mais de 25 anos.
 
-Depois que a mensagem for enviada, selecione **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** no painel do delivery.
+Depois que a mensagem for enviada, selecione **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** no painel de delivery.
 
 Por padrão, nenhum perfil é selecionado. Somente os cliques para recipients cujo sexo é desconhecido e para recipients com menos de 25 anos ou cuja idade é desconhecida são exibidos.
 
@@ -43,7 +43,7 @@ Para exibir cliques para mulheres, clique no botão **[!UICONTROL Change profile
 
 ![](assets/delivery_reports_hot-clicks_2.png)
 
-Para exibir cliques para recipients com mais de 25 anos, clique no botão **[!UICONTROL Change profile]** e selecione um perfil de teste cuja data de nascimento corresponda a essa condição.
+Para exibir cliques para recipients acima de 25, clique no botão **[!UICONTROL Change profile]** e selecione um perfil de teste cuja data de nascimento corresponda a essa condição.
 
 Para obter mais informações sobre perfis de teste, consulte [Sobre perfis de teste](../../audiences/using/managing-test-profiles.md).
 
@@ -59,7 +59,7 @@ Um delivery de execução é uma mensagem técnica não acionável e não funcio
 
    Por exemplo, se o workflow que gerencia esse delivery for executado uma vez por mês, haverá um delivery de execução por mês. Além disso, cada vez que o conteúdo do delivery é atualizado, um delivery de execução adicional é criado.
 
-   Para obter mais informações sobre deliveries de email recorrentes, consulte [Delivery de email](../../automating/using/email-delivery.md).
+   Para obter mais informações sobre deliveries de email recorrentes, consulte [Delivery por email](../../automating/using/email-delivery.md).
 
 * Por padrão, uma vez por mês para mensagens transacionais e sempre que uma mensagem transacional for editada e publicada novamente.
 
@@ -69,7 +69,7 @@ Um delivery de execução é uma mensagem técnica não acionável e não funcio
 >
 >Como as IDs dos URLs rastreados são diferentes para cada execução, os dados de cliques ativos não podem ser agregados para todos os deliveries de execução de uma determinada mensagem. Ele só pode ser exibido para um delivery de execução por vez.
 
-Depois que a mensagem for enviada, selecione **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** no painel do delivery.
+Depois que a mensagem for enviada, selecione **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** no painel de delivery.
 
 Por padrão, o delivery da última execução é selecionado. Clique no botão **[!UICONTROL Change execution delivery]** para selecionar outro.
 

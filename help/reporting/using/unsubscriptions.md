@@ -22,4 +22,4 @@ O relatório **[!UICONTROL Unsubscriptions]** identifica as entregas com mais ca
 
 ![](assets/delivery_reports_unsub.png)
 
-A tabela e o gráfico **[!UICONTROL TOP 5 deliveries]** exibe os cinco principais deliveries com o maior número de mensagens entregues e o número de recipients que cancelaram a assinatura. Os dados listados aqui são baseados no número de cliques no link de unsubscription da mensagem.
+O **[!UICONTROL TOP 5 deliveries]** tabela e gráfico exibem os cinco principais deliveries com o maior número de mensagens entregues e o número de recipients que cancelaram a assinatura. Os dados listados aqui são baseados no número de cliques no link de unsubscription da mensagem.

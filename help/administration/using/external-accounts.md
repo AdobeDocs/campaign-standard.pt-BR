@@ -82,7 +82,7 @@ Para evitar esses problemas, a Adobe recomenda seguir as práticas recomendadas 
 * Ocasionalmente, conecte-se no SFTP para verificar diretamente o que encontra-se lá.
 * Lembre-se de que o gerenciamento de disco SFTP é predominantemente sua responsabilidade.
 
-Além disso, observe que os IPs públicos dos quais você está tentando iniciar a conexão SFTP devem ser adicionados à lista de permissões na instância do Campaign. A adição de endereços IP à  de lista de permissões pode ser solicitada por meio de um [tíquete de suporte](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html), juntamente com o fornecimento da chave pública para uso na autenticação.
+Além disso, observe que os IPs públicos dos quais você está tentando iniciar a conexão SFTP devem ser adicionados à lista de permissões na instância do Campaign. A adição de endereços IP à  de lista de permissões pode ser solicitada por meio de um [tíquete de suporte](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html), além de fornecer a chave pública a ser usada para autenticação.
 
 Servidores SFTP podem ser gerenciados no Painel de controle do Campaign. Para obter mais informações, consulte a [documentação do Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html).
 
@@ -94,12 +94,12 @@ Servidores SFTP podem ser gerenciados no Painel de controle do Campaign. Para ob
 
 Para uma conta externa OAuth 2.0, forneça os seguintes detalhes:
 
-* Um **Tipo de concessão**: somente **credenciais de cliente** são suportadas.
-* Um **URL da API segura**: insira o endpoint de autorização.
-* **Credenciais** confidenciais do OAuth 2.0: Esta seção destina-se a credenciais confidenciais. Os valores de credenciais serão mascarados na tela após a sua adição; nesse momento, eles não serão legíveis nem editáveis. Se o endpoint de autorização exigir que uma credencial específica seja inserida no cabeçalho de autorização HTTP em vez do parâmetro POST body , é possível selecionar a opção Include in header para essa credencial.
-* **Credenciais** não confidenciais do OAuth 2.0: Esta seção destina-se a credenciais que não são confidenciais. Os valores de credenciais estarão visíveis na tela após a sua adição; eles também serão editáveis.  Se o endpoint de autorização exigir que uma credencial específica seja inserida no cabeçalho de autorização HTTP em vez do parâmetro POST body , é possível selecionar a opção Include in header para essa credencial.
+* A **Tipo de concessão**: only **credenciais do cliente** é compatível.
+* A **URL da API segura**: insira o endpoint de autorização.
+* **Credenciais confidenciais do OAuth 2.0**: Esta seção destina-se a credenciais confidenciais. Os valores de credenciais serão mascarados na tela após a sua adição; nesse momento, eles não serão legíveis nem editáveis. Se o endpoint de autorização exigir que uma credencial específica seja inserida no cabeçalho de autorização HTTP em vez do parâmetro POST body , é possível selecionar a opção Include in header para essa credencial.
+* **Credenciais não confidenciais do OAuth 2.0**: Esta seção destina-se a credenciais que não são confidenciais. Os valores de credenciais estarão visíveis na tela após a sua adição; eles também serão editáveis.  Se o endpoint de autorização exigir que uma credencial específica seja inserida no cabeçalho de autorização HTTP em vez do parâmetro POST body , é possível selecionar a opção Include in header para essa credencial.
 
-Depois de inserir as informações da conta, clique em **Test connection** para verificar se a conta externa foi configurada corretamente.
+Depois de inserir as informações da conta, clique em **Testar conexão** para verificar se a conta externa foi configurada corretamente.
 
 ![](assets/external_accounts_OAuth.png)
 

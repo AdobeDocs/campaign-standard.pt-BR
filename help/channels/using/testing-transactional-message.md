@@ -24,7 +24,7 @@ Antes de publicar a mensagem transacional, você pode criar um perfil de teste e
 
 Defina um perfil de teste que será vinculado ao evento, que permitirá pré-visualizar a mensagem e enviar uma prova relevante.
 
-1. No [painel de mensagens transacionais](../../channels/using/editing-transactional-message.md#accessing-transactional-messages), clique no botão **[!UICONTROL Create test profile]**.
+1. No [painel de mensagens transacionais](../../channels/using/editing-transactional-message.md#accessing-transactional-messages), clique no botão **[!UICONTROL Create test profile]** botão.
 
    ![](assets/message-center_test-profile.png)
 
@@ -34,7 +34,7 @@ Defina um perfil de teste que será vinculado ao evento, que permitirá pré-vis
 
    >[!NOTE]
    >
-   >Se você enriqueceu sua mensagem, também pode inserir informações relacionadas a outra tabela, como **[!UICONTROL Profile]**. Consulte [Enriquecendo o evento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) e [Personalizando uma mensagem transacional](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
+   >Se você enriqueceu sua mensagem, também pode inserir informações relacionadas a outra tabela, como **[!UICONTROL Profile]**. Consulte [Enriquecimento do evento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) e [Personalização de uma mensagem transacional](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 
 1. Depois de criado, o perfil de teste será pré-especificado na mensagem transacional. Clique no bloco **[!UICONTROL Test profiles]** da mensagem para verificar o público-alvo da prova.
 
@@ -42,14 +42,14 @@ Defina um perfil de teste que será vinculado ao evento, que permitirá pré-vis
 
 Você também pode criar um novo perfil de teste ou usar um que já existe no menu **[!UICONTROL Test profiles]**. Para fazer isso:
 
-1. Clique no logotipo **Adobe**, no canto superior esquerdo, em seguida, selecione **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
-1. Na seção **[!UICONTROL Event]**, selecione o evento que acabou de criar. Neste exemplo, selecione &quot;Abandono de carrinho (EVTcartAbandonment)&quot;.
+1. Clique no botão **Adobe** logotipo , no canto superior esquerdo, em seguida, selecione **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
+1. No **[!UICONTROL Event]** selecione o evento que acabou de criar. Neste exemplo, selecione &quot;Abandono de carrinho (EVTcartAbandonment)&quot;.
 1. Especifique as informações para enviar no formato JSON na caixa de texto **[!UICONTROL Event data]**.
 
    ![](assets/message-center_3.png)
 
 1. Salve as alterações.
-1. [Acesse a ](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) mensagem criada e selecione o perfil de teste atualizado.
+1. [Acessar a mensagem](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) que você criou e selecionou o perfil de teste atualizado.
 
 **Tópicos relacionados:**
 
@@ -62,4 +62,4 @@ Depois de criar um ou mais perfis de teste específicos e salvar a mensagem tran
 
 ![](assets/message-center_10.png)
 
-As etapas para enviar uma prova são detalhadas na seção [Envio de provas](../../sending/using/sending-proofs.md) .
+As etapas para enviar uma prova estão detalhadas na variável [Envio de provas](../../sending/using/sending-proofs.md) seção.

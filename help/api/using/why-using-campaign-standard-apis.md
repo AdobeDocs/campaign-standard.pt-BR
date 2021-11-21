@@ -28,7 +28,7 @@ Veja alguns exemplos:
 * Acionamento da comunicação transacional com base em evento - confirmação de pedido, reserva do Itinerário, redefinição de senha etc.
 * Até mesmo comunicação por email de abandono de carrinho.
 
-As landing pages de assinatura fornecem uma maneira para os clientes ou prospetos registrarem seu nome e endereço de email. Depois que o Campaign Standard captura as informações e preferências do perfil, ele pode enviar mensagens personalizadas com base nos interesses da pessoa.
+Inscrever-se em landing pages fornece aos clientes ou prospetos uma maneira de registrar seu nome e endereço de email. Depois que o Campaign Standard captura as informações e preferências do perfil, ele pode enviar mensagens personalizadas com base nos interesses da pessoa.
 
 Eles são construídos com os elementos abaixo:
 
@@ -52,19 +52,19 @@ As etapas abaixo descrevem um caso de uso passo a passo para importar e usar a c
 >
 >Nosso exemplo usa o Postman. Entretanto, sinta-se à vontade para usar seu cliente REST favorito.
 
-1. Baixe a coleção JSON clicando [aqui](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip).
+1. Baixe a coleção JSON clicando em [here](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip).
 
-1. Abra o Postman e selecione o menu **File** / **Import**.
+1. Abra o Postman e selecione o **Arquivo** / **Importar** menu.
 
 1. Arraste e solte o arquivo baixado na janela . As solicitações de API pré-projetadas são exibidas, prontas para serem usadas.
 
    ![texto alternativo](assets/postman_collection.png)
 
-1. Selecione a solicitação **Criação de um perfil** e atualize a solicitação do POST e a guia **Cabeçalhos** com suas próprias informações (&lt;ORGANIZAÇÃO>, &lt;API_KEY>, &lt;ACCESS_TOKEN>). Para obter mais informações, consulte [esta seção](../../api/using/setting-up-api-access.md).
+1. Selecione o **Criação de um perfil** e, em seguida, atualize a solicitação POST e o **Cabeçalhos** com suas próprias informações (&lt;organization>, &lt;api_key>, &lt;access_token>). Para obter mais informações, consulte [esta seção](../../api/using/setting-up-api-access.md).
 
    ![texto alternativo](assets/postman_uc1.png)
 
-1. Preencha a guia **Body** com as informações que deseja adicionar ao novo perfil e clique no botão **Send** para executar a solicitação.
+1. Preencha o **Corpo** com as informações que deseja adicionar ao novo perfil, em seguida, clique no botão **Enviar** para executar a solicitação.
 
    ![texto alternativo](assets/postman_uc2.png)
 

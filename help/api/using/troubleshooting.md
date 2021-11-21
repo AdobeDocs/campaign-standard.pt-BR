@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Solução de problemas {#troubleshooting}
 
-* **Ao acessar o console do Adobe.io, você recebe o seguinte erro: &quot;O console Adobe I/O só está disponível para selecionar membros de contas corporativas. Se você acha que deve ter acesso, entre em contato com o Administrador do sistema.&quot;**
+* **Ao acessar o console do Adobe.io, você recebe o seguinte erro: &quot;O console Adobe I/O só está disponível para selecionar membros de contas corporativas. Se você acha que deve ter acesso, entre em contato com o administrador do sistema.&quot;**
 
 Você só pode criar Chaves de API para as organizações IMS das quais é administrador. Se essa mensagem for exibida e você quiser criar Chaves de API e solicitar um administrador da organização IMS.
 
@@ -87,7 +87,7 @@ Seu token é inválido (chamada IMS incorreta usada para gerar um token) ou seu 
 
 * **Não vejo meu perfil após a criação**
 
-Dependendo da configuração da instância, o perfil criado precisa ser associado a um **orgUnit**. Para entender como adicionar este campo à sua criação, consulte [esta seção](../../api/using/creating-profiles.md).
+Dependendo da configuração da instância, o perfil criado precisa ser associado a um **orgUnit**. Para entender como adicionar esse campo à criação, consulte [esta seção](../../api/using/creating-profiles.md).
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
 

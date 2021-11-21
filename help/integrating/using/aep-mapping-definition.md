@@ -28,7 +28,7 @@ Para executar essa tarefa, os pré-requisitos são:
 * uma definição de Esquema XDM por meio da interface ou usando a API REST associada ao XDM
 * uma criação de conjunto de dados com base na definição do esquema XDM
 
-1. Vá para **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** e escolha a entrada **[!UICONTROL Data mappings]**.
+1. Ir para **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** e escolha a **[!UICONTROL Data mappings]** entrada.
 
 1. Clique em **[!UICONTROL Create]** para iniciar um novo mapeamento XDM.
 
@@ -41,15 +41,15 @@ Para executar essa tarefa, os pré-requisitos são:
 
 >[!NOTE]
 >
->Para que um lote seja assimilado no Perfil do cliente em tempo real ou no Serviço de identidade, o conjunto de dados deve estar [ativado para o Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
+>Para que um lote seja assimilado no Perfil do cliente em tempo real ou no Serviço de identidade, o conjunto de dados deve ser [habilitado para o Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
 >
 >Se o conjunto de dados selecionado já estiver sendo usado em um mapeamento de dados existente, um aviso será exibido para informá-lo de que seus dados podem ser substituídos no Adobe Experience Platform. Isso pode acontecer quando há alguns recipients comuns em mapeamentos de dados usando um mesmo conjunto de dados.
 
-A tela a seguir apresenta a seção **[!UICONTROL Field mappings]** onde você pode criar um novo mapeamento para cada campo no schema Campaign Standard.
+A tela a seguir apresenta o **[!UICONTROL Field mappings]** seção na qual você pode criar um novo mapeamento para cada campo no schema Campaign Standard.
 
 ![](assets/aep_fieldmappings.png)
 
-O botão **[!UICONTROL Create new field mapping]** permite selecionar o campo Campaign Standard e a expressão do caminho do campo correspondente no esquema XDM.
+O **[!UICONTROL Create new field mapping]** permite selecionar o campo Campaign Standard e a expressão do caminho do campo correspondente no esquema XDM.
 
 Se não conseguir localizar um campo do Adobe Campaign Standard, você poderá usar o campo de pesquisa para pesquisar pelo campo. Atualmente, a pesquisa só funciona para campos que estão abertos na hierarquia.
 
@@ -67,7 +67,7 @@ Para mapear um campo de enumeração, é necessário usar o editor de expressão
 
 ![](assets/aep_enummapping.png)
 
-Se o valor XDM for definido como uma enumeração no Esquema XDM, você poderá usar a função EXDM nativa que substituirá automaticamente a sintaxe **lif**.
+Se o valor XDM for definido como uma enumeração no Esquema XDM, você poderá usar a função EXDM nativa que substituirá automaticamente a variável **lif** sintaxe.
 
 ![](assets/aep_enummappingexdm.png)
 
@@ -77,4 +77,4 @@ Para editar um mapeamento XDM, abra-o, modifique as informações desejadas e sa
 
 >[!IMPORTANT]
 >
->Por enquanto, se você editar um valor na seção **[!UICONTROL Field mappings]** e clicar fora do campo, sua alteração não será exibida na interface até que clique no botão **[!UICONTROL Save]**. Esse comportamento ocorre apenas uma vez, quando a edição em **[!UICONTROL Field Mappings]** é a primeira edição na página.
+>Por enquanto, se você editar um valor na variável **[!UICONTROL Field mappings]** em seguida, clique fora do campo , sua alteração não será exibida na interface até que você clique no botão **[!UICONTROL Save]** botão. Esse comportamento ocorre apenas uma vez, quando a edição em **[!UICONTROL Field Mappings]** é a primeira edição na página.

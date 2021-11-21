@@ -24,10 +24,10 @@ Para garantir que seus emails cheguem aos recipients e melhorem a taxa de capaci
 
 Siga os princípios listados abaixo ao criar o conteúdo da mensagem:
 
-* [Nome e endereço](#sender-name) do remetente: o endereço deve identificar explicitamente o remetente. O domínio deve ser de propriedade do remetente e registrado por ele. O registro de domínio não deve ser privatizado.
+* [Nome e endereço do remetente](#sender-name): o endereço deve identificar explicitamente o remetente. O domínio deve ser de propriedade do remetente e registrado por ele. O registro de domínio não deve ser privatizado.
 
    <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
-* [Personalização e otimização](#perso-send-time-optimization) de tempo de envio: personalizar o conteúdo e definir um tempo de envio por recipient aumentam as chances de sua mensagem ser aberta.
+* [Personalização e otimização de tempo de envio](#perso-send-time-optimization): personalizar o conteúdo e definir um tempo de envio por recipient aumentam as chances de sua mensagem ser aberta.
 * Imagens e texto: respeitar uma proporção adequada de texto/imagem (por exemplo, 60% de texto e 40% de imagens).
 * [Link de unsubscription ](#opt-out) e landing page: o link de unsubscription é essencial. Deve ser visível e válido e o formulário deve ser funcional.
 * Visualizar: use as ferramentas oferecidas pelo Adobe Campaign para verificar e otimizar o conteúdo do seu email ([Análise antisspam](#anti-spam-analysis), [Renderização de email](#message-responsiveness)).
@@ -36,7 +36,7 @@ Para obter dicas adicionais para otimizar a capacidade de delivery ao projetar c
 
 >[!NOTE]
 >
->Para obter mais informações sobre edição de conteúdo de email, consulte a [Visão geral do Designer de email](../../designing/using/designing-content-in-adobe-campaign.md) e as [Práticas recomendadas de design de mensagens](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
+>Para obter mais informações sobre edição de conteúdo de email, consulte o [Visão geral do Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) e [Práticas recomendadas para o design de mensagens](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
 
 ## Nome e endereço do remetente {#sender-name}
 
@@ -52,13 +52,13 @@ Para obter mais informações, consulte [Definição do remetente de email de um
 
 Para melhorar a experiência dos recipients e fazer com que eles abram seu email, o Adobe Campaign permite personalizar as mensagens. Para obter mais informações, consulte [esta seção](../../designing/using/personalization.md).
 
-Para aumentar a taxa de abertura das mensagens, também é possível definir manualmente uma hora de envio por recipient. Cada perfil receberá a mensagem na data e hora especificadas, sempre que possível. Para obter mais informações, consulte [Otimizando o tempo de envio](../../sending/using/optimizing-the-sending-time.md).
+Para aumentar a taxa de abertura das mensagens, também é possível definir manualmente uma hora de envio por recipient. Cada perfil receberá a mensagem na data e hora especificadas, sempre que possível. Para obter mais informações, consulte [Otimização do tempo de envio](../../sending/using/optimizing-the-sending-time.md).
 
 ## Formulário e link para opção de não participação {#opt-out}
 
 Por padrão, quando a mensagem é analisada, uma regra de tipologia verifica se há um link de opt-out e gera um aviso se estiver faltando. Para obter mais informações sobre gerenciamento de links, consulte [esta seção](../../designing/using/links.md).
 
-Você deve verificar se o link de opt-out funciona corretamente antes de cada vez que enviar. Por exemplo, ao [enviar a prova](../../sending/using/sending-proofs.md), verifique se o link é válido, se o formulário está online e se a validação está marcada nas caixas **[!UICONTROL No longer contact]**. Você deve fazer essa verificação sistematicamente, pois sempre é possível que ocorra um erro humano ao inserir o link ou ao alterar o formulário. Para obter mais informações sobre o gerenciamento de aceitação e recusa, consulte [esta seção](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md).
+Você deve verificar se o link de opt-out funciona corretamente antes de cada vez que enviar. Por exemplo, quando [envio da prova](../../sending/using/sending-proofs.md), certifique-se de que o link seja válido, que o formulário esteja online e que a validação verifique a **[!UICONTROL No longer contact]** caixas. Você deve fazer essa verificação sistematicamente, pois sempre é possível que ocorra um erro humano ao inserir o link ou ao alterar o formulário. Para obter mais informações sobre o gerenciamento de participação e não participação, consulte [esta seção](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md).
 
 ![](assets/optin_landingpage_3.png)
 
@@ -70,9 +70,9 @@ Solicitar confirmação adicional não é confiável: um usuário pode ter dois 
 
 ## Análise antisspam {#anti-spam-analysis}
 
-O editor de mensagens de Adobe Campaign do integra uma **Análise antisspam** que permite que você marque emails para determinar se uma mensagem corre o risco de ser considerada spam pelas ferramentas antisspam usadas no recebimento. Para obter mais informações, consulte [Pré-visualização de mensagens](../../sending/using/previewing-messages.md).
+O editor de mensagens da Adobe Campaign integra um **Análise antisspam** O que permite que você marque emails para determinar se uma mensagem corre o risco de ser considerada spam pelas ferramentas antisspam usadas no recebimento. Para obter mais informações, consulte [Pré-visualização de mensagens](../../sending/using/previewing-messages.md).
 
-No editor de conteúdo da mensagem, clique em **[!UICONTROL Preview]**. Uma mensagem avisa se a verificação antisspam detectou um alto risco para essa mensagem. Clique em **[!UICONTROL Anti-spam analysis]** para visualizar os detalhes.
+No editor de conteúdo da mensagem, clique em **[!UICONTROL Preview]**. Uma mensagem avisa se a verificação antisspam detectou um alto risco para essa mensagem. Clique em **[!UICONTROL Anti-spam analysis]** para exibir detalhes.
 
 ![](assets/sending_anti-spam_analysis.png)
 

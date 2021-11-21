@@ -24,18 +24,18 @@ O workflow é composto pelos seguintes elementos:
 
 ![](assets/incremental_query_example1.png)
 
-* Uma atividade [Scheduler](../../automating/using/scheduler.md) , para executar o workflow todas as segundas-feiras às 6 horas.
+* A [Scheduler](../../automating/using/scheduler.md) , para executar o workflow todas as segundas-feiras às 6 horas.
 
    ![](assets/incremental_query_example2.png)
 
-* Uma atividade [Incremental query](../../automating/using/incremental-query.md), que segmenta todos os assinantes atuais durante a primeira execução, em seguida, somente os novos assinantes daquela semana durante as execuções a seguir.
+* Um [Query incremental](../../automating/using/incremental-query.md) atividade , que direciona todos os assinantes atuais durante a primeira execução, depois somente os novos assinantes daquela semana durante as execuções a seguir.
 
    ![](assets/incremental_query_example3.png)
 
-* Uma atividade [Email delivery](../../automating/using/email-delivery.md) . O workflow é executado uma vez por semana, mas você pode agregar os emails enviados e os resultados por mês, por exemplo, para gerar relatórios durante um período de um mês inteiro e não apenas uma única semana.
+* Um [Delivery por email](../../automating/using/email-delivery.md) atividade . O workflow é executado uma vez por semana, mas você pode agregar os emails enviados e os resultados por mês, por exemplo, para gerar relatórios durante um período de um mês inteiro e não apenas uma única semana.
 
    Para fazer isso, escolha criar um **[!UICONTROL Recurring email]** aqui, reagrupando os emails e os resultados **[!UICONTROL By month]**.
 
-   Defina o conteúdo do seu email e insira o código promocional de boas-vindas. Para obter mais informações, consulte as seções [Definição do conteúdo do email](../../designing/using/personalization.md) .
+   Defina o conteúdo do seu email e insira o código promocional de boas-vindas. Para obter mais informações, consulte [Definição do conteúdo do email](../../designing/using/personalization.md) seções.
 
 Em seguida, inicie a execução do workflow. Todas as semanas, os novos assinantes receberão o email de boas-vindas com o código promocional.

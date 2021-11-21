@@ -7,8 +7,9 @@ topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
-workflow-type: ht
+exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
+source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
+workflow-type: tm+mt
 source-wordcount: '3509'
 ht-degree: 100%
 

@@ -21,15 +21,15 @@ Você pode criar &quot;formulários&quot; nos sites de AEM e mapear os campos em
 
 Para criar um formulário Adobe Campaign no site AEM:
 
-1. No seu site de AEM, crie uma nova página com base no modelo **Adobe Campaign Profile**.
+1. No seu site de AEM, crie uma nova página com base no **Perfil do Adobe Campaign** modelo .
 
    ![](assets/aem_content_forms.png)
 
-1. Nas propriedades da página, selecione o **[!UICONTROL Cloud Service]** correspondente à instância do Adobe Campaign.
+1. Nas propriedades da página, selecione o **[!UICONTROL Cloud Service]** correspondente à sua instância do Adobe Campaign.
 
    ![](assets/aem_content_forms_2.png)
 
-1. Selecione o tipo de formulário no componente **[!UICONTROL Form Start]**:
+1. Selecione o tipo de formulário no **[!UICONTROL Form Start]** componente:
 
    * **Adobe Campaign: Salvar perfil**
    * **Adobe Campaign: Inscrever-se nos Serviços**

@@ -43,9 +43,9 @@ Nesse caso, verifique se os seguintes elementos estão configurados corretamente
    Se o algoritmo de criptografia AES estiver selecionado, os seguintes campos adicionais deverão ser definidos corretamente:
 
    * **Chave de criptografia** para AES
-   * **Criptografia IV**  (vetor de inicialização) para AES
-   * **Canal**  (Email/SMS/Outro): Este campo permite descriptografar diretamente endereços de email e números de SMS. Certifique-se de que a chave de reconciliação corresponda à configuração do campo **Channel**. Se você selecionar &quot;Outro&quot;, essa descriptografia específica não ocorrerá e a chave de reconciliação será usada para reconciliar os dados.
+   * **Criptografia IV** (Vetor de inicialização) para AES
+   * **Canal** (Email/SMS/Outro): Este campo permite descriptografar diretamente endereços de email e números de SMS. Certifique-se de que a chave de reconciliação corresponda à configuração do **Canal** campo. Se você selecionar &quot;Outro&quot;, essa descriptografia específica não ocorrerá e a chave de reconciliação será usada para reconciliar os dados.
 
-   Os públicos-alvo do Experience Cloud podem não ser compartilhados porque o workflow técnico parou ou foi pausado. Acesse o workflow **[!UICONTROL Import shared audience]** clicando diretamente na opção **[!UICONTROL Show ImportShared Audience workflow]** na Fonte de dados.
+   Os públicos-alvo do Experience Cloud podem não ser compartilhados porque o workflow técnico parou ou foi pausado. Acesse o **[!UICONTROL Import shared audience]** clicando diretamente no botão **[!UICONTROL Show ImportShared Audience workflow]** na sua Fonte de dados.
 
 Alguns dados podem faltar ao compartilhar um público através do Serviço principal de pessoas ou ao importar um público. Somente registros dos quais a ID (&#39;ID do visitante&#39; ou &#39;ID declarada&#39;) podem ser reconciliadas com a dimensão de perfil são transferidas. Os IDs dos segmentos de Serviço principal de pessoas que não são reconhecidos pelo Adobe Campaign não são importados.

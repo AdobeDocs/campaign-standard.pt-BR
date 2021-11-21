@@ -114,11 +114,11 @@ Se a **análise for validada**, será exibida uma mensagem com um convite para p
 
 ### Execução
 
-Essa guia permite que você defina o ponto de extremidade da conexão. O campo **[!UICONTROL URL]** permite definir o **Ponto de extremidade HTTPS** com o qual o Campaign Standard se comunicará.
+Essa guia permite que você defina o ponto de extremidade da conexão. O **[!UICONTROL URL]** permite definir a variável **Ponto de extremidade HTTPS** aquele Campaign Standard vai se comunicar.
 
 Se necessário para o ponto de extremidade, dois tipos de método de autenticação estão disponíveis:
 
-* Autenticação básica: insira suas informações de nome de usuário/senha na seção **[!UICONTROL Request Header(s)]** .
+* Autenticação básica: insira suas informações de nome de usuário/senha no **[!UICONTROL Request Header(s)]** seção.
 
 * Autenticação OAuth: Ao clicar em **[!UICONTROL Use connection parameters defined in an external account]** em uma conta externa, é possível selecionar uma conta externa na qual a autenticação OAuth é definida. Para obter mais informações, consulte a seção [Contas externas](../../administration/using/external-accounts.md).
 

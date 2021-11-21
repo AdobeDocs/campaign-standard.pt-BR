@@ -36,7 +36,7 @@ Esta seção detalha a estrutura de uma carga de amostra para várias plataforma
 
 Os atributos de carga e seus valores variam com base nas configurações fornecidas nas opções avançadas da notificação por push. Esta seção também fornece um mapeamento entre essas configurações na interface do usuário do Campaign Standard e os atributos na carga útil para esclarecer como a carga será alterada ao configurar uma opção no Campaign Standard.
 
-### Para aplicativo móvel iOS {#payload-structure-ios}
+### Para aplicativo móvel do iOS {#payload-structure-ios}
 
 **Exemplo de carga enviada do Adobe Campaign para o aplicativo iOS:**
 
@@ -78,7 +78,7 @@ Os atributos de carga e seus valores variam com base nas configurações forneci
     "_mId":"h138a"} 
 ```
 
-**Carga de amostra JSON a ser usada com o Testor APNS  [iOS](https://pushtry.com/)**
+**Carga de amostra JSON a ser usada com [Testador APNS iOS](https://pushtry.com/)**
 
 ```
 {
@@ -106,9 +106,9 @@ Os atributos de carga e seus valores variam com base nas configurações forneci
 }
 ```
 
-A seção mais importante do payload é o dicionário aps, que contém chaves definidas pela Apple e é usado para determinar como o sistema que recebe a notificação deve alertar o usuário, se for o caso. Esta seção contém chaves predefinidas usadas pelo aplicativo móvel para formular o comportamento da notificação por push.
+A seção mais importante do payload é o dicionário aps, que contém chaves definidas pelo Apple e é usado para determinar como o sistema que recebe a notificação deve alertar o usuário, se for o caso. Esta seção contém chaves predefinidas usadas pelo aplicativo móvel para formular o comportamento da notificação por push.
 
-Detalhes detalhados sobre os atributos nos aplicativos podem ser encontrados nos documentos do desenvolvedor da Apple: [Criando a Carga de Notificação Remota](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1).
+Detalhes detalhados sobre os atributos nos aplicativos podem ser encontrados nos documentos do desenvolvedor do Apple: [Criação da carga de notificação remota](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1).
 
 ### Para aplicativo Android {#payload-structure-android}
 
@@ -152,7 +152,7 @@ Detalhes detalhados sobre os atributos nos aplicativos podem ser encontrados nos
 }
 ```
 
-**Carga de amostra JSON para usar o testador FCM  [do Google](https://pushtry.com/)**
+**Carga de amostra JSON para usar [Testador Google FCM](https://pushtry.com/)**
 
 ```
 {
@@ -213,19 +213,19 @@ Para entender os aspectos de uma carga do android, consulte [Conceitos e opçõe
 | Categoria | categoria | categoria | Para exibir ações personalizadas com uma notificação remota. <br>A tecla de categoria ajuda o sistema a exibir as ações dessa categoria como botões na interface de alerta. |
 | Campos personalizados | custom_field1, custom_field2 ... | custom_field1, custom_field2 ... | Quaisquer dados personalizados que você deseja enviar para seu aplicativo. |
 | URL de conteúdo de mídia avançada (arquivos de imagem, gif, áudio e vídeo)<br>(Aplicável somente para iOS 10 ou superior) | media-attachment-url | NA | URL dos seus arquivos de mídia para adicionar conteúdo avançado à sua notificação. <br>Ao fornecer um valor para esse URL, o sinalizador de conteúdo mutável é enviado automaticamente para o payload. <br> (Aplicável somente para iOS 10 ou superior) |
-| Conteúdo variável <br> (aplicável somente para iOS 10 ou superior) | mutable-content | NA | A extensão do serviço de notificação no aplicativo interceptará todas as notificações remotas com a chave de conteúdo mutável e permitirá manipular/manipular o conteúdo da carga da solicitação, que pode ser usada para personalizar a notificação. Os casos de uso desse recurso incluem o download e a exibição de várias mídias, a descriptografia de quaisquer dados criptografados presentes na carga de push. Mais informações podem ser encontradas em [Modificar a carga de uma Notificação remota](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(Aplicável somente para iOS 10 ou superior) |
-| Conteúdo disponível | conteúdo disponível | NA | Selecionar essa opção permite ativar um aplicativo iOS enquanto ele estiver em segundo plano/suspenso. A ativação implica que o aplicativo é executado em segundo plano e o manipulador de eventos apropriado responsável por receber a carga de dados da notificação por push obtém um controle e pode usar os dados para fazer qualquer cálculo, incluindo, entre outros, a criação de notificações por push personalizadas e a exibição da mesma. Mais informações podem ser encontradas em [Ativar aplicativo com entrega de notificação](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
+| Conteúdo variável <br> (Aplicável somente para iOS 10 ou superior) | mutable-content | NA | A extensão do serviço de notificação no aplicativo interceptará todas as notificações remotas com a chave de conteúdo mutável e permitirá manipular/manipular o conteúdo da carga da solicitação, que pode ser usada para personalizar a notificação. Os casos de uso desse recurso incluem o download e a exibição de várias mídias, a descriptografia de quaisquer dados criptografados presentes na carga de push. Mais informações podem ser encontradas em [Modificar a carga de uma notificação remota](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(Aplicável somente para iOS 10 ou superior) |
+| Conteúdo disponível | conteúdo disponível | NA | Selecionar essa opção permite ativar um aplicativo do iOS enquanto ele estiver em segundo plano/suspenso. A ativação implica que o aplicativo é executado em segundo plano e o manipulador de eventos apropriado responsável por receber a carga de dados da notificação por push obtém um controle e pode usar os dados para fazer qualquer cálculo, incluindo, entre outros, a criação de notificações por push personalizadas e a exibição da mesma. Mais informações podem ser encontradas em [Ativar aplicativo com entrega de notificação](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
 | URL de conteúdo de mídia avançada (arquivos de imagem)<br>(Aplicável somente para Android) | NA | media-attachment-url | URL dos arquivos de imagem para adicionar conteúdo avançado à sua notificação. |
-| NA | _mId<br>_dId | _mId <br>_dId | Valores de broadlogId e deliveryId.<br>Esses atributos são necessários se o aplicativo quiser chamar um postback de rastreamento para rastrear quando a notificação por push foi clicada/aberta. Essas informações são computadas e enviadas internamente pelo servidor de aplicativos sem a intervenção do usuário.<br>Informações sobre postbacks podem ser encontradas nesta  [página](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback). |
+| NA | _mId<br>_dId | _mId <br>_dId | Valores de broadlogId e deliveryId.<br>Esses atributos são necessários se o aplicativo quiser chamar um postback de rastreamento para rastrear quando a notificação por push foi clicada/aberta. Essas informações são computadas e enviadas internamente pelo servidor de aplicativos sem a intervenção do usuário.<br>Informações sobre postbacks podem ser encontradas neste [página](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback). |
 
 ### Como recuperar informações de carga no código de aplicativo móvel {#payload-information}
 
 As informações de carga enviadas pelo servidor de aplicativos são recebidas pelo código do aplicativo móvel em um manipulador de eventos que indica que uma notificação por push foi recebida. Esse evento varia com base na plataforma móvel em andamento e também se baseia em se o aplicativo está sendo executado em primeiro ou segundo plano. A documentação a seguir ajuda a identificar o manipulador de eventos que você deseja manipular com base no seu caso de uso.
 
-* Aplicativos iOS: **Manipular notificações remotas** na seção [Notificações remotas](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html).
+* Aplicativos iOS: **Manipular notificações remotas** seção em [Notificações remotas](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html).
 * Aplicativos Android: [Recebendo mensagens em um aplicativo cliente Android](https://firebase.google.com/docs/cloud-messaging/android/receive)
 
-**Exemplo de aplicativo para dispositivos móveis iOS**
+**Exemplo para o aplicativo móvel do iOS**
 
 ```
  - (void)application:(UIApplication *)application

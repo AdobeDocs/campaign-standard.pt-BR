@@ -22,18 +22,18 @@ Você pode usar o Adobe Campaign para enviar notificações transacionais por pu
 
 >[!NOTE]
 >
->O canal de push é opcional. Verifique o contrato de licença. Para obter mais informações sobre notificações por push padrão, consulte [Sobre notificações por push](../../channels/using/about-push-notifications.md).
+>O canal de push é opcional. Verifique o contrato de licença. Para obter mais informações sobre notificações por push padrão, consulte [Sobre as notificações por push](../../channels/using/about-push-notifications.md).
 
 Para enviar notificações transacionais por push, é necessário configurar o Adobe Campaign adequadamente. Consulte [Configuração de um aplicativo móvel](../../administration/using/configuring-a-mobile-application.md).
 
 Você pode enviar dois tipos de notificações transacionais por push:
 
 * [Notificações por push transacionais direcionadas a um evento](#transactional-push-notifications-targeting-an-event)
-* [Notificações por push transacionais direcionadas a ](#transactional-push-notifications-targeting-a-profile) perfis do banco de dados do Adobe Campaign
+* [Notificações por push transacionais direcionadas a perfis](#transactional-push-notifications-targeting-a-profile) do banco de dados do Adobe Campaign
 
 ## Notificações por push transacionais direcionadas a um evento {#transactional-push-notifications-targeting-an-event}
 
-Você pode usar o Adobe Campaign para enviar **notificações transacionais por push anônimas a todos os usuários** que optaram por receber notificações do aplicativo móvel.
+Você pode usar o Adobe Campaign para enviar **notificações transacionais por push anônimas para todos os usuários** que optaram por receber notificações do aplicativo móvel.
 
 Nesse caso, somente **os dados contidos no próprio evento são usados para definir o target do delivery**. Nenhum dado do banco de dados de perfis integrados do Adobe Campaign é aproveitado.
 
@@ -43,31 +43,31 @@ Para enviar uma notificação por push transacional para todos os usuários que 
 
 >[!NOTE]
 >
->Você ainda pode personalizar o conteúdo de uma notificação por push transacional baseada em eventos usando [atributos de evento](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes) (dados do evento) e [enriquecimento de evento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) (dados do banco de dados do Campaign). Consulte [o exemplo abaixo](#sending-event-based-transactional-push-notification).
+>Você ainda pode personalizar o conteúdo de uma notificação por push transacional baseada em eventos usando [atributos do evento](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes) (dados do evento) e [enriquecimento do evento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) (dados do banco de dados do Campaign). Consulte [o exemplo abaixo](#sending-event-based-transactional-push-notification).
 
 O evento deve conter os três elementos a seguir:
 
-* Um **token de registro**, que é o ID do usuário para um aplicativo móvel e um dispositivo. Pode não corresponder a nenhum perfil do banco de dados do Adobe Campaign.
-* Um **nome do aplicativo móvel** (um para todos os dispositivos - Android e iOS). Essa é a ID do aplicativo móvel configurado no Adobe Campaign que será usada para receber notificações por push nos dispositivos dos usuários. Para obter mais informações, consulte [Configuração de um aplicativo móvel](../../administration/using/configuring-a-mobile-application.md).
-* Uma **plataforma de push** (&quot;gcm&quot; para Android ou &quot;apns&quot; para iOS).
+* A **token de registro**, que é a ID do usuário para um aplicativo móvel e um dispositivo. Pode não corresponder a nenhum perfil do banco de dados do Adobe Campaign.
+* A **nome do aplicativo móvel** (um para todos os dispositivos - Android e iOS). Essa é a ID do aplicativo móvel configurado no Adobe Campaign que será usada para receber notificações por push nos dispositivos dos usuários. Para obter mais informações, consulte [Configuração de um aplicativo móvel](../../administration/using/configuring-a-mobile-application.md).
+* A **plataforma de push** (&quot;gcm&quot; para Android ou &quot;apns&quot; para iOS).
 
 Para configurar o evento, siga as etapas abaixo:
 
-1. Ao criar a configuração do evento, selecione o canal **[!UICONTROL Push notification]** e o targeting dimension **[!UICONTROL Real-time event]** (consulte [Criação de um evento](../../channels/using/configuring-transactional-event.md#creating-an-event)).
+1. Ao criar a configuração do evento, selecione o **[!UICONTROL Push notification]** e o **[!UICONTROL Real-time event]** targeting dimension (consulte [Criação de um evento](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 1. Adicione campos ao evento. Isso permitirá personalizar a mensagem transacional (consulte [Definição dos atributos de evento](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes)). Neste exemplo, defina os campos &quot;gateNumber&quot;, &quot;lastname&quot; e &quot;firstname&quot;.
-1. Você também pode enriquecer o conteúdo de sua mensagem. Para fazer isso, adicione campos da tabela que você vinculou à configuração do evento (consulte [Enriquecendo o evento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)).
+1. Você também pode enriquecer o conteúdo de sua mensagem. Para fazer isso, adicione campos da tabela que você vinculou à configuração do evento (consulte [Enriquecimento do evento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)).
 
    <!--Event-based transactional messaging is supposed to use only the data that are in the sent event to define the recipient and the message content personalization. However, you can enrich the content of your transactional message using information from the Adobe Campaign database.-->
 
-1. [Visualize e publique o evento](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+1. [Visualizar e publicar o evento](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
    Ao visualizar o evento, a API REST contém os atributos &quot;registrationToken&quot;, &quot;application&quot; e &quot;pushPlatform&quot; que serão usados para direcionar o delivery.
 
    ![](assets/message-center_push_api.png)
 
-   Depois que o evento for publicado, uma notificação por push transacional vinculada ao novo evento será criada automaticamente. Agora você pode modificar e publicar a mensagem que acabou de ser criada (consulte [esta seção](#sending-event-based-transactional-push-notification)).
+   Depois que o evento for publicado, uma notificação por push transacional vinculada ao novo evento será criada automaticamente. Agora você pode modificar e publicar a mensagem que acabou de criar (consulte [esta seção](#sending-event-based-transactional-push-notification)).
 
-1. Integre o evento em seu site (consulte [Integrar o evento que aciona](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
+1. Integre o evento em seu site (consulte [Integrar o acionamento do evento](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
 ### Envio de uma notificação por push transacional baseada em eventos {#sending-event-based-transactional-push-notification}
 
@@ -79,9 +79,9 @@ A empresa enviará uma notificação por push transacional por usuário (identif
 
    ![](assets/message-center_push_message.png)
 
-1. Clique no bloco **[!UICONTROL Content]** para modificar o título e o corpo da mensagem.
+1. Clique no botão **[!UICONTROL Content]** bloco para modificar o título e o corpo da mensagem.
 
-1. Você pode inserir campos de personalização para adicionar elementos definidos ao criar o evento (consulte [Definição dos atributos do evento](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes)).
+1. Você pode inserir campos de personalização para adicionar elementos definidos ao criar seu evento (consulte [Definição dos atributos de evento](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes)).
 
    ![](assets/message-center_push_content.png)
 
@@ -89,13 +89,13 @@ A empresa enviará uma notificação por push transacional por usuário (identif
 
    ![](assets/message-center_push_personalization.png)
 
-   Para obter mais informações sobre como editar o conteúdo de uma notificação por push, consulte [Preparação e envio de uma notificação por push](../../channels/using/preparing-and-sending-a-push-notification.md).
+   Para obter mais informações sobre edição de conteúdo de notificações por push, consulte [Preparação e envio de uma notificação por push](../../channels/using/preparing-and-sending-a-push-notification.md).
 
-1. Você também pode enriquecer o conteúdo da mensagem transacional se desejar usar informações adicionais do banco de dados do Adobe Campaign (consulte [Enriquecendo o evento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)).
+1. Você também pode enriquecer o conteúdo da mensagem transacional se desejar usar informações adicionais do banco de dados do Adobe Campaign (consulte [Enriquecimento do evento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)).
 
 1. Salve as alterações e publique a mensagem. Consulte [Publicação de uma mensagem transacional](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
 
-1. Usando a API REST do Adobe Campaign Standard, envie um evento para um token de registro (ABCDEF123456789), usando um aplicativo móvel (WeFlight), no Android (gcm), com os dados de embarque:
+1. Usando a API REST do Adobe Campaign Standard, envie um evento para um token de registro (ABCDEF123456789), usando um aplicativo móvel (WeFlight), no Android (gcm), contendo os dados de embarque:
 
    ```
    {
@@ -111,21 +111,21 @@ A empresa enviará uma notificação por push transacional por usuário (identif
    }
    ```
 
-   Para obter mais informações sobre como integrar o acionamento de um evento em um sistema externo, consulte [Integrar o evento que aciona](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
+   Para obter mais informações sobre como integrar o acionamento de um evento em um sistema externo, consulte [Integrar o acionamento do evento](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
 
 Se o token de registro existir, o usuário correspondente receberá uma notificação por push transacional, incluindo o seguinte conteúdo:
 
-*&quot;Olá Jane Green, o embarque acabou de começar! Prossiga para o Portão B18.&quot;*
+*&quot;Olá Jane Green, o embarque acabou de começar! Por favor, prossiga para a Porta B18.&quot;*
 
 ## Notificações por push transacionais direcionadas a um perfil {#transactional-push-notifications-targeting-a-profile}
 
-Você pode enviar uma notificação por push transacional **para os perfis do Adobe Campaign que assinaram seu aplicativo móvel**. Esse delivery pode conter [campos de personalização](../../designing/using/personalization.md#inserting-a-personalization-field), como o nome do recipient, recuperados diretamente do banco de dados do Adobe Campaign.
+Você pode enviar uma notificação por push transacional **aos perfis do Adobe Campaign que assinaram seu aplicativo móvel**. Este delivery pode conter [campos de personalização](../../designing/using/personalization.md#inserting-a-personalization-field), como o nome do recipient, recuperado diretamente do banco de dados do Adobe Campaign.
 
 Nesse caso, o evento deve conter alguns campos **permitindo a reconciliação com um perfil do banco de dados do Adobe Campaign**.
 
 Ao direcionar perfis, uma notificação por push transacional é enviada por aplicativo móvel e por dispositivo. Por exemplo, se um usuário do Adobe Campaign se inscreveu em dois aplicativos, esse usuário receberá duas notificações. Se um usuário se inscreveu no mesmo aplicativo com dois dispositivos diferentes, esse usuário receberá uma notificação em cada dispositivo.
 
-Os aplicativos móveis que um perfil assinou são listados na guia **[!UICONTROL Mobile App Subscriptions]** desse perfil. Para acessar essa guia, selecione um perfil e clique no botão **[!UICONTROL Edit profile properties]** à direita.
+Os aplicativos móveis que um perfil assinou são listados na variável **[!UICONTROL Mobile App Subscriptions]** desse perfil. Para acessar essa guia, selecione um perfil e clique no botão **[!UICONTROL Edit profile properties]** à direita.
 
 ![](assets/push_notif_subscriptions.png)
 
@@ -135,31 +135,31 @@ Para obter mais informações sobre acesso e edição de perfis, consulte [Sobre
 
 Para enviar uma notificação por push transacional para os perfis do Adobe Campaign que assinaram seu aplicativo móvel, primeiro é necessário criar e configurar um evento direcionado ao banco de dados do Adobe Campaign.
 
-1. Ao criar a configuração do evento, selecione o canal **[!UICONTROL Push notification]** e o targeting dimension **[!UICONTROL Profile]** (consulte [Criação de um evento](../../channels/using/configuring-transactional-event.md#creating-an-event)).
+1. Ao criar a configuração do evento, selecione o **[!UICONTROL Push notification]** e o **[!UICONTROL Profile]** targeting dimension (consulte [Criação de um evento](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 
    Por padrão, a notificação por push transacional será enviada para todos os aplicativos móveis aos quais os recipients assinaram. Para enviar a notificação por push para um aplicativo móvel específico, selecione-a na lista. Os outros aplicativos móveis serão direcionados pela mensagem, mas serão excluídos do envio.
 
    ![](assets/message-center_push_appfilter.png)
 
-1. Adicione campos ao evento, se desejar personalizar a mensagem transacional (consulte [Definição dos atributos do evento](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes)).
+1. Adicione campos ao evento, se desejar personalizar a mensagem transacional (consulte [Definição dos atributos de evento](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes)).
 
    >[!NOTE]
    >
-   >Você deve adicionar pelo menos um campo para criar um enriquecimento. Você não precisa criar outros campos, como **First name** e **Last name**, pois poderá usar campos de personalização do banco de dados do Adobe Campaign.
+   >Você deve adicionar pelo menos um campo para criar um enriquecimento. Não é necessário criar outros campos, como **Nome** e **Sobrenome** como você poderá usar campos de personalização do banco de dados do Adobe Campaign.
 
-1. Crie um enriquecimento para vincular o evento ao recurso **[!UICONTROL Profile]** (consulte [Enriquecendo o evento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)) e selecione esse enriquecimento como o **[!UICONTROL Targeting enrichment]**.
+1. Crie um enriquecimento para vincular o evento à variável **[!UICONTROL Profile]** recurso (consulte [Enriquecimento do evento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)) e selecione este enriquecimento como **[!UICONTROL Targeting enrichment]**.
 
    >[!IMPORTANT]
    >
    >Esta etapa é obrigatória para eventos baseados em perfil.
 
-1. [Visualize e publique o evento](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+1. [Visualizar e publicar o evento](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
-   Ao visualizar o evento, a API REST não contém um atributo especificando o token de registro, o nome do aplicativo e a plataforma de push, conforme serão recuperados do recurso **[!UICONTROL Profile]**.
+   Ao visualizar o evento, a API REST não contém um atributo especificando o token de registro, o nome do aplicativo e a plataforma de push, como serão recuperados do **[!UICONTROL Profile]** recurso.
 
-   Depois que o evento for publicado, uma notificação por push transacional vinculada ao novo evento será criada automaticamente. Agora você pode modificar e publicar a mensagem que acabou de ser criada (consulte [esta seção](#sending-profile-based-transactional-push-notification)).
+   Depois que o evento for publicado, uma notificação por push transacional vinculada ao novo evento será criada automaticamente. Agora você pode modificar e publicar a mensagem que acabou de criar (consulte [esta seção](#sending-profile-based-transactional-push-notification)).
 
-1. Integre o evento em seu site (consulte [Integrar o evento que aciona](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
+1. Integre o evento em seu site (consulte [Integrar o acionamento do evento](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
 ### Envio de uma notificação por push transacional baseada em perfil {#sending-profile-based-transactional-push-notification}
 
@@ -167,11 +167,11 @@ Por exemplo, uma companhia aérea deseja enviar uma última chamada de internaç
 
 1. Acesse a mensagem transacional criada para editá-la. Consulte [Acesso a mensagens transacionais](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
 
-1. Clique no bloco **[!UICONTROL Content]** para modificar o título e o corpo da mensagem.
+1. Clique no botão **[!UICONTROL Content]** bloco para modificar o título e o corpo da mensagem.
 
    Ao contrário das configurações baseadas em eventos em tempo real, você tem acesso direto a todas as informações de perfil para personalizar sua mensagem. Consulte [Inserção de um campo de personalização](../../designing/using/personalization.md#inserting-a-personalization-field).
 
-   Para obter mais informações sobre como editar o conteúdo de uma notificação por push, consulte [Preparação e envio de uma notificação por push](../../channels/using/preparing-and-sending-a-push-notification.md).
+   Para obter mais informações sobre edição de conteúdo de notificações por push, consulte [Preparação e envio de uma notificação por push](../../channels/using/preparing-and-sending-a-push-notification.md).
 
 1. Salve as alterações e publique a mensagem. Consulte [Publicação de uma mensagem transacional](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
 1. Com a API REST do Adobe Campaign Standard, envie um evento para um perfil:
@@ -186,7 +186,7 @@ Por exemplo, uma companhia aérea deseja enviar uma última chamada de internaç
    }
    ```
 
-Para obter mais informações sobre como integrar o acionamento de um evento em um sistema externo, consulte [Integrar o evento que aciona](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
+Para obter mais informações sobre como integrar o acionamento de um evento em um sistema externo, consulte [Integrar o acionamento do evento](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
 
 O usuário correspondente recebe uma notificação por push transacional incluindo todos os elementos de personalização recuperados do banco de dados do Adobe Campaign.
 
@@ -196,17 +196,17 @@ O usuário correspondente recebe uma notificação por push transacional incluin
 
 ## Alteração do target mapping em uma notificação por push transacional {#change-target-mapping}
 
-As notificações por push transacionais usam um [target mapping](../../administration/using/target-mappings-in-campaign.md) específico que contém as configurações técnicas necessárias para enviar esse tipo de delivery.
+As notificações por push transacionais usam um [target mapping](../../administration/using/target-mappings-in-campaign.md) que contém as configurações técnicas necessárias para enviar esse tipo de delivery.
 
 Para alterar esse target mapping, siga as etapas abaixo:
 
 1. Na lista de mensagens transacionais, selecione uma notificação por push.
 
-1. No painel da mensagem, clique no botão **[!UICONTROL Edit properties]**.
+1. No painel de mensagens, clique no botão **[!UICONTROL Edit properties]** botão.
 
    ![](assets/message-center_push_edit.png)
 
-1. Expanda a seção **[!UICONTROL Advanced parameters]**.
+1. Expanda o **[!UICONTROL Advanced parameters]** seção.
 
 1. Clique em **[!UICONTROL Select a 'Target mapping' element]**.
 
@@ -216,7 +216,7 @@ Para alterar esse target mapping, siga as etapas abaixo:
 
    >[!NOTE]
    >
-   >Para obter o tempo e o desempenho ideais de preparação de delivery ao enviar **notificações por push transacionais baseadas em perfil**, use o target mapping **[!UICONTROL Profile - Real-time event for Push (mapRtEventAppSubRcp)]**.
+   >Para obter o tempo e o desempenho ideais de preparação de delivery ao enviar **baseado em perfil** notificações transacionais por push, use o **[!UICONTROL Profile - Real-time event for Push (mapRtEventAppSubRcp)]** target mapping.
 
    ![](assets/message-center_push_target-mapping_change.png)
 

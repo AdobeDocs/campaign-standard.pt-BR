@@ -35,7 +35,7 @@ Se o problema persistir, entre em contato com os serviços comerciais ou de entr
 
 * **Qual é a diferença entre um endereço de email em lista de bloqueios e um email em quarentena?**
 
-   * O status **[!UICONTROL On denylist]** é resultado de um [ciclo de feedback](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=pt-BR#feedback-loops) (quando uma pessoa relata uma mensagem como spam).
+   * O status **[!UICONTROL On denylist]** é resultado de um [loop de comentários](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=pt-BR#feedback-loops) (quando uma pessoa reporta uma mensagem como spam).
 
    * O status **[!UICONTROL Quarantined]** é resultado de um salto suave ou forte.
    Para obter mais informações, consulte esta [seção](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
@@ -48,7 +48,7 @@ Se o problema persistir, entre em contato com os serviços comerciais ou de entr
 
 ## Remoção da lista de bloqueios {#removing-from-denylist}
 
-* **Um dos meus recipients foi adicionado à lista de bloqueios por engano. Como faço para removê-los da  de lista de bloqueios para que eu possa iniciar o envio de mensagens para eles novamente?**
+* **Um dos meus recipients foi adicionado à lista de bloqueios por engano. Como faço para removê-los da lista de bloqueios para que eu possa iniciar o envio de mensagens para eles novamente?**
 
    * Vá para **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
    * Nos detalhes do registro correspondente, defina o valor do campo **[!UICONTROL Status]** como **[!UICONTROL Valid]**.

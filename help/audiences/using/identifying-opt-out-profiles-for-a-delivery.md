@@ -17,7 +17,7 @@ ht-degree: 41%
 
 # Identificação de perfis de recusa para uma entrega{#identifying-opt-out-profiles-for-a-delivery}
 
-Os perfis de rejeição para um delivery específico são listados após a fase de preparação, na guia **[!UICONTROL Exclusion logs]** do painel de delivery.
+Os perfis de rejeição para um delivery específico são listados após a fase de preparação, na **[!UICONTROL Exclusion logs]** do painel de delivery.
 
 ![](assets/exclusion_blocklisting.png)
 

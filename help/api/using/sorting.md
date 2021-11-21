@@ -17,7 +17,7 @@ ht-degree: 11%
 
 # Classificação
 
-A classificação está disponível em ordem crescente ou decrescente. Para fazer isso, use o parâmetro **%20desc** ou **%20asc** para sua solicitação.
+A classificação está disponível em ordem crescente ou decrescente. Para fazer isso, use o **%20desc** ou **%20asc** à sua solicitação.
 
 Para saber se um campo pode ser classificado, verifique o parâmetro &quot;classificável&quot; nos metadados do recurso. Para obter mais informações, consulte [esta seção](../../api/using/metadata-mechanism.md).
 

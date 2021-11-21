@@ -67,4 +67,4 @@ Este vídeo mostra como criar um serviço e gerenciar suas assinaturas.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
 
-Os vídeos de instruções adicionais do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
+Vídeos tutoriais adicionais do Campaign Standard estão disponíveis [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

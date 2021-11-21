@@ -17,7 +17,7 @@ ht-degree: 12%
 
 # Recuperação da entidade organizacional de um perfil {#retrieving-organizational-units}
 
-1. Execute uma solicitação GET na PKey do perfil para recuperar o URL **orgUnit**.
+1. Execute uma solicitação de GET na chave de perfil para recuperar a variável **orgUnit** URL.
 1. Execute uma solicitação GET no URL para recuperar mais detalhes sobre a unidade organizacional.
 
 <br/>

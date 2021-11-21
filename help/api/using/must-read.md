@@ -21,7 +21,7 @@ ht-degree: 0%
 
 * As APIs do Adobe Campaign devem ser usadas somente do Servidor para o Servidor.
 * Verifique sempre com seu contato técnico do Adobe se o caso de uso que você deseja implementar está alinhado com a escala permitida pelas APIs do Adobe Campaign.
-* A configuração de um acesso AdobeIO requer permissões específicas. Entre em contato com o Suporte do Adobe para verificar se há problemas.
+* A configuração de um acesso do Adobe IO requer permissões específicas. Entre em contato com o Suporte do Adobe para verificar se há problemas.
 
 ## Direitos e acesso
 
@@ -31,13 +31,13 @@ ht-degree: 0%
 
 ## Representação de recursos
 
-Todos os recursos da API estão disponíveis em **JSON** com uma extensão de URL ou dentro de um Cabeçalho de Aceitação HTTP:
+Todos os recursos da API estão disponíveis em **JSON** com uma extensão de URL ou dentro de um Cabeçalho aceito HTTP:
 
 `GET /profileAndServices/<resourceName>.json`
 
 >[!NOTE]
 >
->Sem a extensão no URL, o formato **json é o padrão** para o tipo de conteúdo.
+>Sem a extensão no URL, a variável **o formato json é o padrão** para o tipo de conteúdo.
 
 <br/>
 
@@ -67,7 +67,7 @@ Se o recurso de perfil tiver sido estendido com um campo de chave personalizada,
 
 As chaves personalizadas não podem ser modificadas usando uma operação PATCH se o valor da chave for diferente da chave de origem ou se estiver usando sua própria chave comercial como URI em vez da fornecida pelo Adobe.
 
-Use uma chave personalizada somente para **recursos de perfil de nível superior**. Os URLs são retornados pela API e nunca devem ser criados por você mesmo.
+Usar uma chave personalizada para **recursos de perfil de nível superior** somente. Os URLs são retornados pela API e nunca devem ser criados por você mesmo.
 
 <br/>
 

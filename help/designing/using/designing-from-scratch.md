@@ -25,12 +25,12 @@ Estas são as principais etapas para criar e projetar um conteúdo de email do z
 1. Adicione componentes de estrutura para moldar o email. Consulte [Edição da estrutura do email](#defining-the-email-structure).
 1. Insira componentes de conteúdo e fragmentos nos componentes da estrutura. Consulte [Adição de fragmentos e componentes de conteúdo](#defining-the-email-structure).
 1. Adicione imagens e edite o texto do email. Consulte [Inserção de imagens](../../designing/using/images.md#inserting-images).
-1. Personalize seu email adicionando campos de personalização, links e assim por diante. Consulte [Inserir um campo de personalização](../../designing/using/personalization.md#inserting-a-personalization-field), [Inserir um link](../../designing/using/links.md#inserting-a-link) e [Definir conteúdo dinâmico em um email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
-1. Defina a linha de assunto do email. Consulte [Personalizar a linha de assunto de um email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
+1. Personalize seu email adicionando campos de personalização, links e assim por diante. Consulte [Inserção de um campo de personalização](../../designing/using/personalization.md#inserting-a-personalization-field), [Inserção de um link](../../designing/using/links.md#inserting-a-link) e [Definição de conteúdo dinâmico em um email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+1. Defina a linha de assunto do email. Consulte [Personalização da linha de assunto de um email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
 1. Pré-visualizar seu email.
 1. Salve o conteúdo e prossiga com a mensagem depois de garantir que você tenha definido um público-alvo e agendado o envio corretamente.
 
-Você também pode verificar este [vídeo de introdução](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
+Você também pode fazer check-out [vídeo de introdução](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ O Designer de email permite que você defina facilmente a estrutura do seu email
 Para editar a estrutura de um email:
 
 1. Abra um conteúdo existente ou crie um novo conteúdo de email.
-1. Acesse o **[!UICONTROL Structure components]** selecionando o ícone **+** à esquerda.
+1. Acesse o **[!UICONTROL Structure components]** selecionando o **+** à esquerda.
 
    ![](assets/email_designer_structure.png)
 
@@ -71,7 +71,7 @@ Para editar a estrutura de um email:
 
 1. Vários componentes de estrutura compostos de uma ou mais colunas estão disponíveis.
 
-   Selecione o componente **[!UICONTROL n:n column]** para definir o número de colunas de sua escolha (entre 3 e 10). Você também pode definir a largura de cada coluna, movendo as setas na parte inferior de cada coluna.
+   Selecione o **[!UICONTROL n:n column]** para definir o número de colunas de sua escolha (entre 3 e 10). Você também pode definir a largura de cada coluna, movendo as setas na parte inferior de cada coluna.
 
    ![](assets/email_designer_n-n-column.png)
 
@@ -90,11 +90,11 @@ Após definir a estrutura, é possível adicionar fragmentos de conteúdo e comp
 
 Um precabeçalho é um texto resumido curto que segue a linha de assunto ao visualizar um email de sua caixa de entrada. O pré-cabeçalho oferece uma taxa de abertura mais alta.
 
-Selecione a caixa de edição **[!UICONTROL Preheader]** e preencha o conteúdo.
+Selecione o **[!UICONTROL Preheader]** editar e concluir o conteúdo.
 
 ![](assets/email_designer_preheader.png)
 
-Você pode adicionar um **[!UICONTROL Content block]**, um **[!UICONTROL Dynamic content]** ou um **[!UICONTROL Personalization fields]** no conteúdo do pré-cabeçalho.
+Você pode adicionar uma **[!UICONTROL Content block]**, a **[!UICONTROL Dynamic content]** ou **[!UICONTROL Personalization fields]** no conteúdo do pré-cabeçalho.
 
 >[!NOTE]
 >
@@ -115,15 +115,15 @@ Esta é a lista de componentes disponíveis no Designer de email:
 
 ### **[!UICONTROL Button]**
 
-Se você precisar usar vários botões, em vez de editar cada botão do zero, poderá duplicar o componente **[!UICONTROL Button]** usando a barra de ferramentas contextual.
+Se você precisar usar vários botões, em vez de editar cada botão do zero, poderá duplicar a variável **[!UICONTROL Button]** componente que usa a barra de ferramentas contextual.
 
 Também é possível salvar botões em fragmentos que podem ser reutilizados. Para obter mais informações, consulte [Criação de um fragmento de conteúdo](../../designing/using/using-reusable-content.md#creating-a-content-fragment) e [Salvar conteúdo como fragmento](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
-Selecione **[!UICONTROL Fallback view]** para exibir a imagem de fallback no Designer de email.
+Selecionar **[!UICONTROL Fallback view]** para exibir a imagem de fallback no Designer de email.
 
 ### **[!UICONTROL Text]**
 
-Use esse componente para inserir texto no seu email. Você pode ajustar a cor, o estilo e o tamanho do texto em **[!UICONTROL Component Settings]**.
+Use esse componente para inserir texto no seu email. É possível ajustar a cor, o estilo e o tamanho do texto em **[!UICONTROL Component Settings]**.
 
 ### **[!UICONTROL Divider]**
 
@@ -131,15 +131,15 @@ Use esse componente para inserir uma linha divisória no seu email. Você pode s
 
 ### **[!UICONTROL HTML]**
 
-Use esse componente para copiar e colar as diferentes partes do seu HTML existente. Isso permite criar componentes HTML modulares gratuitos.
+Use esse componente para copiar e colar as diferentes partes do HTML existente. Isso permite criar componentes HTML modulares gratuitos.
 
 >[!NOTE]
 >
->Um componente HTML gratuito é editável com opções limitadas. Se todos os estilos não estiverem em linha, adicione o CSS correto na seção **head** do código HTML; caso contrário, o email não será responsivo. Use o botão **[!UICONTROL Preview]** para testar a capacidade de resposta do seu conteúdo (consulte [Pré-visualização de mensagens](../../sending/using/previewing-messages.md)).
+>Um componente HTML gratuito pode ser editado com opções limitadas. Se todos os estilos não estiverem embutidos, adicione o CSS correto na **cabeça** do código do HTML, caso contrário, o email não será responsivo. Use o **[!UICONTROL Preview]** para testar a capacidade de resposta do seu conteúdo (consulte [Pré-visualização de mensagens](../../sending/using/previewing-messages.md)).
 
 Para simplesmente tornar um conteúdo externo compatível com o Designer de email, o Adobe recomenda criar uma mensagem do zero e copiar o conteúdo do email existente em fragmentos e componentes.
 
-Quando você tem um conteúdo que não pode ser recriado, você pode copiar e colar o código HTML do email original usando o componente de conteúdo **[!UICONTROL Html]** . Familiarize-se com o HTML antes de continuar.
+Quando você tem um conteúdo que não pode ser recriado, é possível copiar e colar o código do HTML do email original usando o **[!UICONTROL Html]** componente de conteúdo. Familiarize-se com o HTML antes de continuar.
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ Quando você tem um conteúdo que não pode ser recriado, você pode copiar e co
 
 1. No email original, identifique as seções reutilizáveis das seções que serão exclusivas para cada email que você enviará.
 1. Salve todas as imagens e ativos que deseja usar.
-1. Se você estiver familiarizado com HTML, divida seu conteúdo HTML original em partes diferentes.
+1. Se você estiver familiarizado com o HTML, divida o conteúdo de HTML original em diferentes partes.
 
 ### Vídeo {#video-settings}
 
@@ -159,7 +159,7 @@ Quando você tem um conteúdo que não pode ser recriado, você pode copiar e co
 >abstract="Use esse componente para inserir um vídeo no seu email. Observe que os vídeos não funcionam em todos os clientes de email. Recomendamos definir uma imagem de fallback."
 >additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Informações adicionais"
 
-Insira o componente de vídeo em um componente de estrutura do email e insira o link do vídeo no **[!UICONTROL Component Settings]**.
+Insira o componente de vídeo em um componente de estrutura do email e insira o link de vídeo na **[!UICONTROL Component Settings]**.
 
 >[!NOTE]
 >
@@ -182,12 +182,12 @@ Use esse componente para inserir links às páginas de redes sociais no seu emai
 >title="Configurações do carrossel"
 >abstract="Saiba como inserir e configurar um carrossel no seu conteúdo.Observe que o carrossel não funciona em todo o cliente de email e a imagem de fallback será exibida caso não seja compatível."
 
-1. Arraste e solte o componente **[!UICONTROL Carousel]** dentro de um componente de estrutura.
+1. Arraste e solte a **[!UICONTROL Carousel]** componente dentro de um componente de estrutura.
 1. Navegue para selecionar imagens de seu computador.
 
    ![](assets/des_carousel_browse.png)
 
-1. No painel **[!UICONTROL Settings]**, defina o número de miniaturas que deseja usar no carrossel.
+1. No **[!UICONTROL Settings]** , defina o número de miniaturas que deseja usar no carrossel.
 1. Selecione uma imagem de fallback de seu computador.
 
    ![](assets/des_carousel_fallback.png)

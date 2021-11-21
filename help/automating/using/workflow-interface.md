@@ -22,10 +22,10 @@ Você pode criar fluxos de trabalho para gerenciar processos inteiros em suas ca
 
 A tela de edição do workflow é composta pelos seguintes elementos:
 
-* A [Paleta](#palette), que faz referência às atividades disponíveis.
-* O [Workspace](#workspace), no qual as atividades são configuradas e organizadas.
-* A [Barra de ação](#action-bar), que é composta por botões que permitem interagir com o fluxo de trabalho e/ou seus componentes.
-* As [Ações rápidas](#quick-actions), que aparecem ao redor de uma atividade selecionada, permitem que você interaja com ela.
+* O [Paleta](#palette), que faz referência às atividades disponíveis.
+* O [Workspace](#workspace), em que as atividades são configuradas e organizadas.
+* O [Barra de ação](#action-bar), que é composto de botões que permitem interagir com o fluxo de trabalho e/ou seus componentes.
+* O [Ações rápidas](#quick-actions), que aparecem ao redor de uma atividade selecionada, permitem que você interaja com ela.
 
 ![](assets/wkf_overview.png)
 
@@ -50,22 +50,22 @@ O espaço de trabalho é a zona central no editor de fluxo de trabalho. É nessa
 
 Para vincular duas atividades, mova o final da seta da primeira atividade para a seguinte atividade até que elas se conectem. Também é possível mover a atividade em direção ao ponto da seta atrás dela para vinculá-la à atividade anterior. Se você mover qualquer uma das atividades, elas permanecerão vinculadas.
 
-As transições que seguem atividades que processam dados contêm as populações intermediárias. Você pode acessá-los se marcar a opção **[!UICONTROL Keep interim results]** na seção **[!UICONTROL Execution]** das propriedades do workflow.
+As transições que seguem atividades que processam dados contêm as populações intermediárias. Você pode acessá-los se marcar a opção **[!UICONTROL Keep interim results]** na **[!UICONTROL Execution]** das propriedades do workflow.
 
 >[!CAUTION]
 >
 >Essa opção consome bastante espaço do disco e foi projetada para ajudar a criar um fluxo de trabalho e garantir a configuração e o comportamento adequados. Deixe-a desmarcada nas instâncias de produção.
 
 
-Quando uma atividade é selecionada, as ações rápidas aparecem ao redor da atividade, permitindo que você interaja com ela. Por exemplo, para configurar uma atividade, selecione-a e depois a abra usando o botão ![](assets/edit_darkgrey-24px_table.png) nas ações rápidas.
+Quando uma atividade é selecionada, as ações rápidas aparecem ao redor da atividade, permitindo que você interaja com ela. Por exemplo, para configurar uma atividade, selecione-a e depois a abra usando o ![](assets/edit_darkgrey-24px_table.png) nas ações rápidas.
 
 Certas funções só são ativadas no espaço de trabalho:
 
 * Selecione várias atividades e transições desenhando uma zona ao seu redor.
-* Pressione **Ctrl** + clique com o botão esquerdo para selecionar várias atividades e/ou transições.
-* Pressione **Enter** para visualizar os detalhes da atividade ou transição atualmente selecionada.
-* Pressione **Delete** para excluir a atividade selecionada no momento.
-* Pressione **Ctrl + C** para copiar as atividades selecionadas e **Ctrl + V** para colá-las no espaço de trabalho.
+* Press **Ctrl** + clique com o botão esquerdo para selecionar várias atividades e/ou transições.
+* Press **Enter** para exibir os detalhes da atividade ou transição selecionada no momento.
+* Press **Excluir** para excluir a atividade selecionada no momento.
+* Press **Ctrl + C** para copiar as atividades selecionadas, e **Ctrl + V** para colá-los no espaço de trabalho.
 
 ![](assets/workflow_workspace.png)
 
@@ -119,7 +119,7 @@ Quando uma atividade é selecionada, os botões de ação rápida aparecem ao re
 
 <img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>Desativa a atividade.
 
-<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>Força o processamento imediato da seleção. Este botão só está disponível para as atividades <span class="uicontrol">Scheduler</span> e <span class="uicontrol">Wait</span>.
+<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>Força o processamento imediato da seleção. Esse botão só está disponível para a variável <span class="uicontrol">Scheduler</span> e <span class="uicontrol">Aguardar</span> atividades.
 
 <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>Exclui as atividades selecionadas.
 
@@ -137,13 +137,13 @@ Para duplicar uma atividade, siga as etapas abaixo:
 
 1. Selecione a atividade e clique no botão **[!UICONTROL Copy selection]** nas ações rápidas.
 
-   Você também pode usar o atalho de teclado **Ctrl + C**.
+   Também é possível usar a variável **Ctrl + C** atalho do teclado.
 
    ![](assets/wkf_copypaste1.png)
 
-1. Clique com o botão direito do mouse no espaço de trabalho do workflow de destino e clique no botão **[!UICONTROL Paste]**.
+1. Clique com o botão direito do mouse no espaço de trabalho do workflow de destino e clique no botão **[!UICONTROL Paste]** botão.
 
-   Você também pode usar o atalho de teclado **CTRL + V**.
+   Também é possível usar a variável **CTRL + V** atalho do teclado.
 
    ![](assets/wkf_copypaste2.png)
 

@@ -27,11 +27,11 @@ Informações específicas sobre como criar e configurar cada canal de comunica�
 * [Criação de uma notificação por push](../../channels/using/preparing-and-sending-a-push-notification.md).
 * [Preparação e envio de uma mensagem no aplicativo](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
-Para saber mais sobre as práticas recomendadas de delivery, consulte a seção [Práticas recomendadas de delivery](../../sending/using/delivery-best-practices.md) .
+Para saber mais sobre as práticas recomendadas de delivery, consulte o [Práticas recomendadas para delivery](../../sending/using/delivery-best-practices.md) seção.
 
 ## Criar sua mensagem
 
-Aproveite o Campaign Standard [marketing activities](../../start/using/marketing-activities.md) para criar um email, SMS, correspondência direta, notificação por push ou mensagem no aplicativo.
+Aproveite o Campaign Standard [atividades de marketing](../../start/using/marketing-activities.md) para criar um email, SMS, correspondência direta, notificação por push ou mensagem no aplicativo.
 
 ![](assets/marketing-activities.png)
 
@@ -41,43 +41,43 @@ As mensagens podem ser criadas a partir da lista de atividades de marketing ou d
 
 ## Definir o público-alvo
 
-Defina os recipients da mensagem. Para fazer isso, use o [Editor de consultas](../../automating/using/editing-queries.md) do painel esquerdo para filtrar os dados contidos no banco de dados e criar regras para direcionar seu público-alvo.
+Defina os recipients da mensagem. Para fazer isso, use o [editor de consultas](../../automating/using/editing-queries.md) no painel esquerdo para filtrar os dados contidos no banco de dados e criar regras para direcionar o público-alvo.
 
 Há vários tipos de públicos-alvo disponíveis:
 
 * **[!UICONTROL Target]** é o principal público-alvo do seu email,
-* **[!UICONTROL Test profiles]** são os perfis usados para testar e validar seu email (consulte  [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md)).
+* **[!UICONTROL Test profiles]** são os perfis usados para testar e validar seu email (consulte [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md)).
 
 ![](assets/steps-audience.png)
 
 ## Projetar e personalizar conteúdo
 
-No bloco **[!UICONTROL Content]** , crie e personalize o conteúdo da mensagem usando campos do banco de dados. Para obter mais informações sobre como criar o conteúdo para um canal específico, consulte as seções listadas na parte superior desta página.
+No **[!UICONTROL Content]** bloqueie, crie e personalize o conteúdo da mensagem usando campos do banco de dados. Para obter mais informações sobre como criar o conteúdo para um canal específico, consulte as seções listadas na parte superior desta página.
 
 ![](assets/steps-content.png)
 
 ## Preparar e testar
 
-[](../../sending/using/preparing-the-send.md) Prepare a mensagem. Esse processo calcula a população do target e prepara a mensagem personalizada.
+[Preparar](../../sending/using/preparing-the-send.md) a mensagem. Esse processo calcula a população do target e prepara a mensagem personalizada.
 
 ![](assets/steps-prepare.png)
 
-**Verifique e teste sua** mensagem antes de enviá-la usando os recursos do Campaign Standard: pré-visualização, renderização de email, prova, etc. Para obter mais informações, consulte [esta seção](../../sending/using/previewing-messages.md).
+**Verificar e testar sua mensagem** antes de enviá-lo usando os recursos do Campaign Standard: pré-visualização, renderização de email, prova, etc. Para obter mais informações, consulte [esta seção](../../sending/using/previewing-messages.md).
 
-Use o bloco **[!UICONTROL Schedule]** para definir quando suas mensagens serão enviadas (consulte [Agendamento de mensagens](../../sending/using/about-scheduling-messages.md)).
+Use o **[!UICONTROL Schedule]** bloco para definir quando suas mensagens serão enviadas (consulte [Agendamento de mensagens](../../sending/using/about-scheduling-messages.md)).
 
 ![](assets/steps-schedule.png)
 
 ## Enviar e rastrear
 
-Quando a mensagem estiver pronta, você poderá confirmar o envio. O bloco **[!UICONTROL Deployment]** exibe o progresso do envio e o resultado.
+Quando a mensagem estiver pronta, você poderá confirmar o envio. O **[!UICONTROL Deployment]** bloco exibe o progresso do envio e o resultado.
 
 ![](assets/steps-send.png)
 
-Vários logs estão disponíveis para ajudá-lo a monitorar a entrega de suas mensagens (consulte [monitorando um delivery](../../sending/using/monitoring-a-delivery.md)). Você também pode rastrear os recipients do delivery graças ao comportamento do Campaign Standard [tracking funcionalidades](../../sending/using/tracking-messages.md).
+Vários logs estão disponíveis para ajudá-lo a monitorar a entrega de suas mensagens (consulte [monitoramento de um delivery](../../sending/using/monitoring-a-delivery.md)). Você também pode rastrear o comportamento dos recipients do seu delivery graças ao Campaign Standard [funcionalidades de rastreamento](../../sending/using/tracking-messages.md).
 
 ![](../../sending/using/assets/tracking_logs.png)
 
-Meça a eficácia de suas mensagens e a evolução de seus envios e campanhas por meio de vários indicadores e gráficos (consulte [Acesso a relatórios](../../reporting/using/about-dynamic-reports.md)).
+Meça a eficácia de suas mensagens e a evolução de seus envios e campanhas por meio de vários indicadores e gráficos (consulte [Acesso aos relatórios](../../reporting/using/about-dynamic-reports.md)).
 
 ![](assets/steps-reports.png)

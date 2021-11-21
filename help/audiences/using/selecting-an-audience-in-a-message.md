@@ -47,7 +47,7 @@ Os públicos-alvo podem ser definidos ao criar a mensagem com o assistente de cr
 
    >[!NOTE]
    >
-   >Ao direcionar um público-alvo, observe que a definição do público-alvo não é referenciada, mas **copiada** no query. Se você fizer qualquer alteração no público-alvo depois que ele tiver sido direcionado em um query, certifique-se de configurar o query novamente para considerar a nova definição.
+   >Ao direcionar um público-alvo, observe que a definição do público-alvo não é mencionada, mas **copiado** no query. Se você fizer qualquer alteração no público-alvo depois que ele tiver sido direcionado em um query, certifique-se de configurar o query novamente para considerar a nova definição.
 
 1. Defina os **[!UICONTROL Test profiles]** que deseja usar para o email. Os perfis de teste receberão as provas que você enviar para testar o email antes que ele seja enviado ao público-alvo principal.
 

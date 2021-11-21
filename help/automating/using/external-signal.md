@@ -40,7 +40,7 @@ Observe que uma atividade **[!UICONTROL External signal]** pode ser acionada a p
 
 **Tópicos relacionados**
 
-* [Caso de uso: Atividade de sinal externo e importação](../../automating/using/external-signal-data-import.md) de dados.
+* [Caso de uso: Atividade de sinal externo e importação de dados](../../automating/using/external-signal-data-import.md).
 * [Caso de uso: Chamada de workflow para criar um público-alvo a partir de um arquivo usando parâmetros externos](../../automating/using/use-case-calling-workflow.md)
 
 ## Configuração {#configuration}

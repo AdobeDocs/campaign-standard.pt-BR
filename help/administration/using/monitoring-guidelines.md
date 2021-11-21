@@ -49,7 +49,7 @@ O Painel de controle do Campaign permite gerenciar várias configurações da su
 
 **Objetos técnicos**
 
-O menu **[!UICONTROL Diagnosis]** é uma ferramenta essencial para monitorar e analisar os diferentes objetos técnicos gerados pelo aplicativo: esquemas de dados, páginas da Web, trabalhos em lote etc. [Leia mais](../../developing/using/monitoring-data-model-changes.md)
+O **[!UICONTROL Diagnosis]** é uma ferramenta essencial para monitorar e analisar os diferentes objetos técnicos gerados pelo aplicativo: esquemas de dados, páginas da Web, trabalhos em lote etc. [Leia mais](../../developing/using/monitoring-data-model-changes.md)
 
 **Auditorias à exportação**
 
@@ -58,7 +58,7 @@ As auditorias de exportação permitem monitorar as exportações realizadas em 
 
 **Licenças**
 
-Com o menu **[!UICONTROL Licenses]**, monitore as informações sobre suas instâncias: licenças instaladas, versões de compilação e aceitações do contrato de termos.
+Com o **[!UICONTROL Licenses]** , monitore informações sobre suas instâncias: licenças instaladas, versões de compilação e aceitações do contrato de termos.
 [Leia mais](../../administration/using/licenses.md)
 
 ## Monitoramento de workflows {#monitoring-workflows}

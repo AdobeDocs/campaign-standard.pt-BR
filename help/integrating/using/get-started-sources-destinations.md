@@ -19,8 +19,8 @@ ht-degree: 64%
 
 Com o Adobe Experience Platform, você pode compartilhar dados entre o Campaign Standard e o Adobe Real-time Customer Data Platform (RTCDP). Isso permite direcionar os públicos da Adobe Experience Platform nos workflows do Campaign e enviar de volta para a Plataforma de dados do cliente em tempo real da Adobe relacionados a esses públicos, como envios, aberturas e cliques.
 
-* Com **Destinos**, assimile públicos do Adobe Experience Platform ao Campaign Standard. Isso permite ativar os dados conhecidos e desconhecidos para suas campanhas de marketing.
-* Com **Fontes**, exporte dados Campaign Standard (por exemplo, envia, abre, clica) para o Adobe Experience Platform. Isso permite centralizar os dados coletados de origens diferentes em um único local e usar os insights obtidos com eles para fazer mais.
+* Com **Destinos**, assimilar públicos-alvo do Adobe Experience Platform no Campaign Standard. Isso permite ativar os dados conhecidos e desconhecidos para suas campanhas de marketing.
+* Com **Fontes**, exportar dados do Campaign Standard (por exemplo, envia, abre, clica) para o Adobe Experience Platform. Isso permite centralizar os dados coletados de origens diferentes em um único local e usar os insights obtidos com eles para fazer mais.
 
 
 >[!IMPORTANT]
@@ -35,7 +35,7 @@ Para obter uma visão geral mais detalhada da Plataforma de dados do cliente em 
 
 ## Conecte o Campaign Standard ao Adobe Experience Platform
 
-Para compartilhar dados entre o Adobe Experience Platform e o Campaign Standard, primeiro é necessário conectar o Adobe Campaign como um **Destino** e conectar seu local de armazenamento de blobs do AWS S3 ou Azure como um **Origem** na Adobe experience Platform.
+Para compartilhar dados entre o Adobe Experience Platform e o Campaign Standard, primeiro é necessário conectar o Adobe Campaign as a **Destino** e conecte seu local de armazenamento de blobs do AWS S3 ou Azure como um **Origem** na Adobe experience Platform.
 
 Após configurar os conectores, é possível configurar uma importação de dados ou exportar para o Campaign Standard usando workflows.
 

@@ -9,13 +9,13 @@ exl-id: 5c266c44-535b-4954-862d-74c83a6f6406
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 57%
+ht-degree: 68%
 
 ---
 
 # Assimilar públicos da Adobe Experience Platform no Campaign {#destinations}
 
-Para assimilar públicos do Adobe Experience Platform no Campaign e usá-los em seus fluxos de trabalho, primeiro é necessário conectar o Adobe Campaign como um Adobe Experience Platform **Destination** e configurá-lo com o segmento a ser exportado.
+Para assimilar públicos da Adobe Experience Platform no Campaign e usá-los em seus workflows, primeiro é necessário conectar o Adobe Campaign como um **Destino** da Adobe Experience Platform e configurá-lo com o segmento a ser exportado.
 
 Depois que o Destino for configurado, os dados serão exportados para o local de armazenamento e você precisará criar um fluxo de trabalho dedicado no Campaign Standard para assimilá-lo.
 
@@ -43,7 +43,7 @@ Como exemplo, o fluxo de trabalho abaixo faz o download do arquivo do local de a
 
 ![](assets/rtcdp-workflow.png)
 
-Exemplos de workflows de gerenciamento de dados estão disponíveis na seção [workflows use cases](../../automating/using/about-workflow-use-cases.md#management) .
+Exemplos de workflows de gestão de dados estão disponíveis na variável [casos de uso de fluxos de trabalho](../../automating/using/about-workflow-use-cases.md#management) seção.
 
 Tópicos relacionados:
 

@@ -22,9 +22,9 @@ Neste exemplo, você deseja usar a funcionalidade de mensagens transacionais do 
 
 Os pré-requisitos são os seguintes:
 
-* Verifique se o recurso **[!UICONTROL Profile]** foi estendido com um novo campo correspondente à ID do CRM.
+* Certifique-se de que a variável **[!UICONTROL Profile]** O recurso foi estendido com um novo campo correspondente à ID do CRM.
 
-* Crie e publique um recurso personalizado correspondente às compras e o vincule ao recurso **[!UICONTROL Profile]** . Dessa forma, você poderá recuperar informações desse recurso para enriquecer o conteúdo da mensagem.
+* Crie e publique um recurso personalizado correspondente às compras e vincule-o à variável **[!UICONTROL Profile]** recurso. Dessa forma, você poderá recuperar informações desse recurso para enriquecer o conteúdo da mensagem.
 
 Para obter mais informações sobre a extensão, criação e publicação de recursos, consulte [esta seção](../../developing/using/key-steps-to-add-a-resource.md).
 
@@ -36,29 +36,29 @@ As principais etapas para implementar esse caso de uso são apresentadas abaixo.
 
 ## Etapa 1 - Criar e publicar a configuração do evento {#create-event-configuration}
 
-1. Crie um novo evento usando o canal **[!UICONTROL Email]** . Consulte [Criação de um evento](../../channels/using/configuring-transactional-event.md#creating-an-event).
+1. Crie um novo evento usando o **[!UICONTROL Email]** canal. Consulte [Criação de um evento](../../channels/using/configuring-transactional-event.md#creating-an-event).
 
-1. Selecione a **[!UICONTROL Profile]** targeting dimension para criar uma [mensagem transacional baseada em perfil](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
+1. Selecione o **[!UICONTROL Profile]** targeting dimension para criar um [mensagem transacional baseada em perfil](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
 
 1. Defina os atributos que estarão disponíveis para personalizar a mensagem transacional. Neste exemplo, adicione os campos &quot;ID do CRM&quot; e &quot;Identificador do produto&quot;. Consulte [Definição dos atributos de evento](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes).
 
    ![](assets/message-center_usecase1.png)
 
-1. Para enriquecer o conteúdo da mensagem com informações relacionadas às compras do cliente, crie um enriquecimento direcionado ao recurso **[!UICONTROL Purchase]**. Consulte [Enriquecendo o evento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content).
+1. Para enriquecer o conteúdo da mensagem com informações relacionadas às compras do cliente, crie um enriquecimento direcionado à **[!UICONTROL Purchase]** recurso. Consulte [Enriquecimento do evento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content).
 
    ![](assets/message-center_usecase2.png)
 
-1. Crie uma condição de associação entre o campo &quot;Identificador de produto&quot; que foi adicionado anteriormente ao evento e o campo correspondente do recurso **[!UICONTROL Purchase]**.
+1. Crie uma condição de associação entre o campo &quot;Identificador do produto&quot; que foi adicionado anteriormente ao evento e o campo correspondente da variável **[!UICONTROL Purchase]** recurso.
 
    ![](assets/message-center_usecase3.png)
 
-1. Como é obrigatório para eventos baseados em perfil, também é necessário criar um enriquecimento direcionado ao recurso **[!UICONTROL Profile]**.
+1. Como é obrigatório para eventos com base em perfil, também é necessário criar um enriquecimento direcionado à variável **[!UICONTROL Profile]** recurso.
 
-1. Crie uma condição de associação entre o campo &quot;ID do CRM&quot; que foi adicionado anteriormente à mensagem e o campo correspondente do recurso **[!UICONTROL Profile]** que você estendeu. <!--What's the purpose to have created a CRM ID for this event and to have the CRM ID as a join condition? could it be any other field provided you created it in the event?-->
+1. Crie uma condição de associação entre o campo &quot;ID do CRM&quot; que foi adicionado anteriormente à mensagem e o campo correspondente da variável **[!UICONTROL Profile]** recurso que você estendeu. <!--What's the purpose to have created a CRM ID for this event and to have the CRM ID as a join condition? could it be any other field provided you created it in the event?-->
 
    ![](assets/message-center_usecase4.png)
 
-1. Na seção **[!UICONTROL Targeting enrichment]** , selecione o enriquecimento no recurso **[!UICONTROL Profile]**, que será usado como o público alvo da mensagem durante a execução do delivery.
+1. No **[!UICONTROL Targeting enrichment]** selecione o enriquecimento na seção **[!UICONTROL Profile]** , que será usado como o target da mensagem durante a execução do delivery.
 
    ![](assets/message-center_usecase5.png)
 
@@ -70,23 +70,23 @@ As principais etapas para implementar esse caso de uso são apresentadas abaixo.
 
 1. Edite e personalize a mensagem. Consulte [Edição de uma mensagem transacional de perfil](../../channels/using/editing-transactional-message.md#editing-profile-transactional-message).
 
-1. Por meio da reconciliação com o campo &quot;ID do CRM&quot; adicionado ao recurso **[!UICONTROL Profile]**, você tem acesso direto a todas as informações de perfil para [personalizar](../../designing/using/personalization.md#inserting-a-personalization-field) sua mensagem.
+1. Por meio da reconciliação com o campo &quot;ID do CRM&quot; que você adicionou ao **[!UICONTROL Profile]** , você tem acesso direto a todas as informações de perfil para [personalizar](../../designing/using/personalization.md#inserting-a-personalization-field) sua mensagem.
 
    ![](assets/message-center_usecase6.png)
 
-1. Por meio da reconciliação com o campo &quot;Identificador de produto&quot;, é possível enriquecer o conteúdo da mensagem com informações relacionadas às compras do cliente, adicionando qualquer campo do recurso **[!UICONTROL Purchase]**.
+1. Por meio da reconciliação com o campo &quot;Identificador de produto&quot;, é possível enriquecer o conteúdo da mensagem com informações relacionadas às compras do cliente, adicionando qualquer campo da variável **[!UICONTROL Purchase]** recurso.
 
    ![](assets/message-center_usecase7.png)
 
-   Para fazer isso, selecione **[!UICONTROL Insert personalization field]** na barra de ferramentas contextual. No nó **[!UICONTROL Context]** > **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]** , abra o nó correspondente ao recurso personalizado **[!UICONTROL Purchase]** e selecione qualquer campo.
+   Para fazer isso, selecione **[!UICONTROL Insert personalization field]** na barra de ferramentas contextual. No **[!UICONTROL Context]** > **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]** , abra o nó correspondente ao nó **[!UICONTROL Purchase]** recurso personalizado e selecione qualquer campo.
 
-1. Você pode testar sua mensagem usando um perfil de teste específico. Consulte [Testando uma mensagem transacional](../../channels/using/testing-transactional-message.md#testing-a-transactional-message).
+1. Você pode testar sua mensagem usando um perfil de teste específico. Consulte [Teste de mensagem transacional](../../channels/using/testing-transactional-message.md#testing-a-transactional-message).
 
 1. Quando o conteúdo estiver pronto, salve as alterações e publique a mensagem. Consulte [Publicação de uma mensagem transacional](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
 
 ## Etapa 3 - Integrar o acionamento do evento {#integrate-event-trigger}
 
-Integre o evento em seu site. Consulte [Integrar o evento que aciona](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
+Integre o evento em seu site. Consulte [Integrar o acionamento do evento](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
 
 ## Etapa 4 - Delivery de mensagem {#message-delivery}
 

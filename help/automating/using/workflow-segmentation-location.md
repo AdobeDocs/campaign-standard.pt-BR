@@ -26,7 +26,7 @@ Você pode enviar um email de direcionamento para clientes com ofertas em suas l
 
 ## Seleção dos recipients contatáveis por email{#selecting-recipients-contactable-via-email}
 
-1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arraste e solte uma atividade [Query](../../automating/using/query.md) ![](assets/query.png).
+1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arraste e solte uma [Query](../../automating/using/query.md) atividade ![](assets/query.png).
 1. Clique duas vezes na atividade.
 1. Em **[!UICONTROL Shortcuts]**, arraste e solte **[!UICONTROL Profiles]** e selecione o campo **[!UICONTROL email]** com o operador **[!UICONTROL is not empty]**.
 1. Em **[!UICONTROL Shortcuts]**, arraste e solte **[!UICONTROL Profiles]** e selecione o campo **[!UICONTROL no longer contact by email]** com o valor **[!UICONTROL no]**.
@@ -36,7 +36,7 @@ Você pode enviar um email de direcionamento para clientes com ofertas em suas l
 
 ## Criação de uma atividade de Segmentação{#creating-a-segmentation-activity}
 
-1. Arraste e solte uma atividade [Segmentation](../../automating/using/segmentation.md) e clique duas vezes nela.
+1. Arraste e solte uma [Segmentação](../../automating/using/segmentation.md) e clique duas vezes nela.
 1. Clique no segmento e abra a transição para segmentar as pessoas na primeira cidade. Neste caso, Boston.
 1. Arraste e solte a **[!UICONTROL Location]** e selecione **[!UICONTROL City]** com o operador **[!UICONTROL equals to]** e o valor **[!UICONTROL Boston]**.
 Observação: para acessar todas as pessoas que digitaram Boston, desmarque a opção que faz distinção entre maiúsculas e minúsculas.
@@ -48,7 +48,7 @@ Observação: para acessar todas as pessoas que digitaram Boston, desmarque a op
 
 ## Criação de uma entrega de email{#creating-an-email-delivery}
 
-1. Em **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, arraste e solte uma atividade [Email delivery](../../automating/using/email-delivery.md) após cada segmento.
+1. Em **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, arraste e solte uma [Delivery por email](../../automating/using/email-delivery.md) atividade após cada segmento.
 1. Clique na atividade e selecione ![](assets/edit_darkgrey-24px.png) para editar.
 1. Selecione **[!UICONTROL Simple email]** e clique em **[!UICONTROL Next]**.
 1. Selecione um template de email e clique em **[!UICONTROL Next]**.

@@ -38,7 +38,7 @@ A página inicial é composta por um conjunto de cartões que fornecem acesso r�
 * O cartão **[!UICONTROL Create an SMS]** direciona você ao assistente de criação de SMS. Esse assistente possibilita escolher um tipo de SMS, selecionar os recipients da mensagem e definir o conteúdo. Consulte a seção [Criação de SMS](../../channels/using/creating-an-sms-message.md).
 * O cartão **[!UICONTROL Create a Direct mail]** direciona você ao assistente de criação de correspondência direta. Consulte a seção [Criação de correspondência direta](../../channels/using/creating-the-direct-mail.md).
 * O cartão **[!UICONTROL Create a push notification]** direciona você ao assistente de criação de notificações. Esse assistente possibilita escolher um tipo de notificação por push, selecionar os recipients da mensagem e definir o conteúdo. Consulte a seção [Criação de notificações por push](../../channels/using/preparing-and-sending-a-push-notification.md).
-* O cartão **[!UICONTROL Create an In-App message]** direciona você ao assistente de criação de mensagens no aplicativo. Esse assistente permite selecionar o tipo de mensagem no aplicativo que deseja criar, definir suas propriedades, público-alvo e conteúdo. Consulte a seção [Criação de uma mensagem no aplicativo](../../channels/using/about-in-app-messaging.md) .
+* O **[!UICONTROL Create an In-App message]** O cartão direciona você ao assistente de criação de mensagens no aplicativo. Esse assistente permite selecionar o tipo de mensagem no aplicativo que deseja criar, definir suas propriedades, público-alvo e conteúdo. Consulte a [Criação de uma mensagem no aplicativo](../../channels/using/about-in-app-messaging.md) seção.
 * O cartão **[!UICONTROL Marketing activities]** direciona você à lista completa de todas as atividades, programas e campanhas, especialmente emails, SMS, fluxos de trabalho e páginas de aterrissagem. Desse ponto, você pode filtrar os elementos pesquisando por nome, data, status ou tipo de atividade. Para obter mais informações, consulte a seção [Lista de atividades de marketing](../../start/using/marketing-activities.md#about-marketing-activities).
 * O cartão **[!UICONTROL Programs & campaigns]** leva você à lista de programas em que é possível criar e gerenciar suas campanhas. Consulte a [Lista de programas](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
 * O cartão **[!UICONTROL Timeline]** direciona você para uma linha do tempo interativa de suas atividades de marketing, onde é possível consultar os programas em andamento e seu conteúdo. Consulte a [Linha do tempo](../../start/using/timeline.md).
@@ -51,38 +51,38 @@ A barra superior é visível em todas as telas e permite navegar pelas funcional
 
 Os princípios de navegação são:
 
-* O logotipo **Adobe** no canto superior esquerdo da página fornece acesso aos recursos e configurações avançados. Os menus dependem do perfil e das permissões.
+* O **Adobe** no canto superior esquerdo da página, você tem acesso aos recursos e configurações avançados. Os menus dependem do perfil e das permissões.
 
    O menu avançado é apresentado na seção [Menu avançado](#advanced-menu).
 
 * O link **[!UICONTROL Home]** permite exibir a página inicial do Adobe Campaign.
 * Os links **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** e **[!UICONTROL Reports]** possibilitam o acesso às visualizações vinculadas a essas funcionalidades.
-* O ícone **Solution switcher** permite alternar entre suas organizações ou para um aplicativo diferente.
-* O ícone **[!UICONTROL Help]** é descrito [abaixo](#help).
+* O **Alternador de soluções** permite alternar entre suas organizações ou para um aplicativo diferente.
+* O **[!UICONTROL Help]** ícone é descrito [below](#help).
 * O ícone **Notifications** exibe os alertas ou as informações mais recentes.
-* O ícone **User** permite exibir informações vinculadas ao seu perfil. Use esse ícone se precisar **[!UICONTROL Sign out]**.
+* O ícone **User** permite exibir informações vinculadas ao seu perfil. Use este ícone se precisar **[!UICONTROL Sign out]**.
 
 ### Ajuda {#help}
 
-No canto superior direito, o ícone **Ajuda** traz o Adobe Experience League para o produto.
+No canto superior direito, a variável **Ajuda** O ícone traz o Adobe Experience League para o produto.
 
 ![](assets/ux_help.png)
 
-Use o campo **[!UICONTROL Search]** para encontrar orientação. Os resultados da pesquisa incluem documentação e artigos de ajuda, resultados de fóruns da comunidade e conteúdo em vídeo, facilitando o acesso a mais conteúdo para ajudar a aproveitar ao máximo o aplicativo.
+Use o **[!UICONTROL Search]** para encontrar orientação. Os resultados da pesquisa incluem documentação e artigos de ajuda, resultados de fóruns da comunidade e conteúdo em vídeo, facilitando o acesso a mais conteúdo para ajudar a aproveitar ao máximo o aplicativo.
 
 Três guias ajudam a encontrar ajuda e assistência:
 
 1. A guia **[!UICONTROL Help]** contém:
    * um acesso rápido à documentação do Adobe Campaign Standard com links contextuais.
-   * um link **[!UICONTROL Learning]** que permite acessar a biblioteca de cursos do Adobe Campaign.
-   * um link **[!UICONTROL Community]** para acessar o fórum dedicado às suas perguntas no Campaign.
-   * Um acesso direto a: Central de ajuda, Atendimento ao cliente, status do produto Experience Cloud, conexão de desenvolvedores, Notas de versão, Planejamento de versão e a tela **[!UICONTROL About]**.
-1. A guia **[!UICONTROL Support]** permite abrir um caso de suporte e entrar em contato conosco por telefone ou Twitter.
-1. A guia **[!UICONTROL Feedback]** facilita o relatório de problemas ou o compartilhamento de suas ideias.
+   * a **[!UICONTROL Learning]** link que permite acessar a biblioteca de cursos do Adobe Campaign.
+   * a **[!UICONTROL Community]** para acessar o fórum dedicado às suas perguntas no Campaign.
+   * Um acesso direto a: Central de ajuda, Atendimento ao cliente, status do Experience Cloud, conexão de desenvolvedores, Notas de versão, Planejamento de versão e **[!UICONTROL About]** tela.
+1. O **[!UICONTROL Support]** permite abrir um caso de suporte e entrar em contato conosco por telefone ou Twitter.
+1. O **[!UICONTROL Feedback]**  facilita a criação de relatórios de problemas ou o compartilhamento de ideias.
 
 ## Menu avançado {#advanced-menu}
 
-O menu avançado é exibido clicando no ícone **Adobe Campaign**, no canto superior esquerdo de cada tela. O menu avançado pode variar dependendo do contrato e das permissões do usuário.
+O menu avançado é exibido clicando no botão **Adobe Campaign** no canto superior esquerdo de cada tela. O menu avançado pode variar dependendo do contrato e das permissões do usuário.
 
 Esse menu permite navegar até funcionalidades e configurações específicas.
 

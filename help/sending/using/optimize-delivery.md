@@ -26,15 +26,15 @@ A seção a seguir descreve as práticas e os procedimentos recomendados para a 
 
 Vários fatores podem afetar diretamente o desempenho do servidor e retardar a plataforma:
 
-* O número e o tipo de elementos de personalização: a personalização em emails extrai dados do banco de dados para cada recipient. Se houver muitos elementos de personalização, isso aumentará a quantidade de dados necessários para preparar o delivery.  Saiba mais sobre a personalização de email em [esta seção](../../designing/using/personalization.md)
+* O número e o tipo de elementos de personalização: a personalização em emails extrai dados do banco de dados para cada recipient. Se houver muitos elementos de personalização, isso aumentará a quantidade de dados necessários para preparar o delivery.  Saiba mais sobre a personalização de email no [esta seção](../../designing/using/personalization.md)
 
 * A carga do servidor: quando o Campaign estiver lidando com várias tarefas diferentes ao mesmo tempo, ele poderá retardar o desempenho. O servidor de precisa coordenar todos os dados de entrada e saída de todos os deliveries para garantir que os dados estejam corretos no momento correto.
 
    **Dica** - Para evitar isso, coordene a programação de deliveries com os outros membros da equipe, garantindo um melhor desempenho.
 
-* A [execução do workflow](../../automating/using/about-workflow-execution.md): o monitoramento de seus workflows é essencial para evitar problemas de desempenho na plataforma. Siga as diretrizes listadas [nesta página](../../automating/using/monitoring-workflow-execution.md). Saiba mais na seção [práticas recomendadas de workflow](../../automating/using/best-practices-workflows.md) .
+* O [execução do workflow](../../automating/using/about-workflow-execution.md): o monitoramento de seus workflows é essencial para evitar problemas de desempenho na plataforma. Siga as diretrizes listadas [nesta página](../../automating/using/monitoring-workflow-execution.md). Saiba mais na [práticas recomendadas do workflow](../../automating/using/best-practices-workflows.md) seção.
 
-* Você pode aproveitar os [recursos do Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=pt-BR) para monitorar sua plataforma, usando as funcionalidades de [monitoramento de desempenho](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=pt-BR).
+* Você pode aproveitar [Recursos do Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=pt-BR) para monitorar sua plataforma, usando [monitoramento de desempenho](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=pt-BR) funcionalidades.
 
 ## Verificar configuração de rede {#network-config}
 
@@ -52,7 +52,7 @@ Para alcançar a caixa de entrada de seus recipients sem ser rejeitado ou ser ma
 
    * Ao verificar seu email quanto à capacidade de delivery, você deseja se concentrar em quatro categorias principais: qualidade de dados, mensagem e conteúdo, infraestrutura de envio e reputação. Para aprofundar esse tópico, consulte [esta seção](../../sending/using/about-deliverability.md).
 
-* Ao iniciar uma nova plataforma, aplique as recomendações detalhadas em [this page](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
+* Ao iniciar uma nova plataforma, aplique as recomendações detalhadas em [esta página](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
 
 * Entre em contato com seu representante da Adobe para obter assistência.
 
@@ -78,4 +78,4 @@ Para evitar o envio de mensagens para endereços inválidos, limitar as comunica
 
 Os detalhes relativos à implementação deste mecanismo são descritos [nesta seção](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-Saiba mais em [Introdução a perfis e públicos-alvo](../../audiences/using/get-started-profiles-and-audiences.md).
+Saiba mais em [Introdução a perfis e públicos](../../audiences/using/get-started-profiles-and-audiences.md).

@@ -21,7 +21,7 @@ Esse caso de uso detalha a exposição de campos estendidos para o recurso perso
 
 >[!NOTE]
 >
->Para publicar a API, verifique se você tem a função **[!UICONTROL Datamodel]** .
+>Para publicar a API, verifique se você tem a variável **[!UICONTROL Datamodel]** função.
 
 As etapas para expor campos estendidos na API pública são as seguintes:
 

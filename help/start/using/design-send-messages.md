@@ -71,18 +71,18 @@ Obtenha a atenção de seus clientes e melhore sua taxa de resposta usando conte
 
 As mensagens personalizadas são fundamentais para enviar conteúdo relevante, oferecer experiências personalizadas e aumentar as taxas de abertura e conversão. As mensagens entre canais entregues pelo Adobe Campaign podem ser personalizadas de várias maneiras diferentes. Essas maneiras podem ser combinadas com critérios dependendo dos perfis. Você pode:
 
-* Insira [campos de personalização dinâmica](../../designing/using/personalization.md#inserting-a-personalization-field) em suas mensagens
+* Inserir [campos de personalização dinâmicos](../../designing/using/personalization.md#inserting-a-personalization-field) nas suas mensagens
 * Inserir [blocos de personalização predefinidos](../../designing/using/personalization.md#adding-a-content-block)
-* [Personalizar o ](../../designing/using/subject-line.md) remetente de um email ou SMS
-* [Personalizar a ](../../designing/using/subject-line.md) linha de assunto de um email
-* Criar [conteúdo condicional em um email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) ou [em uma landing page](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
-* Inserir [Texto dinâmico](../../channels/using/defining-dynamic-text.md) em uma mensagem SMS ou uma notificação por push
+* [Personalizar o remetente](../../designing/using/subject-line.md) de um email ou SMS
+* [Personalizar a linha de assunto](../../designing/using/subject-line.md) de um email
+* Criar [conteúdo condicional em um email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) ou [em uma página de aterrissagem](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
+* Inserir [Texto dinâmico](../../channels/using/defining-dynamic-text.md) em uma mensagem SMS ou notificação por push
 
 ![](assets/delivery_content_43.png)
 
 **Leia mais**
 
-* Descubra a personalização de email por meio de uma [amostra completa](../../designing/using/personalization.md#example-email-personalization)
+* Personalização de email do Discover por meio de um [Amostra completa](../../designing/using/personalization.md#example-email-personalization)
 * [Personalização de URLs](../../designing/using/personalization.md#personalizing-urls)
 * [Configuração da personalização de uma imagem](../../designing/using/personalization.md#personalizing-an-image-source)
 

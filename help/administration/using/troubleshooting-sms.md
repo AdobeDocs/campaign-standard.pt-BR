@@ -105,7 +105,7 @@ Como corrigir problemas de estabilidade de conexão:
 
 * Fazer uma captura de rede às vezes é a única maneira de ver como a conexão é fechada.
 
-* Se o provedor fechar as conexões enviando um pacote `TCP FIN` ou `TCP RST`, pergunte ao provedor mais informações.
+* Se o provedor fechar as conexões enviando um `TCP FIN` ou `TCP RST` , peça mais informações ao seu provedor.
 
 * Se o provedor fechar a conexão depois de enviar um erro limpo, como`DELIVER_SM_RESP`, com um código de erro, ele deverá corrigir o conector. Caso contrário, isso impedirá que outros tipos de mensagens sejam transmitidas e acionará a limitação do MTA. Isso é especialmente importante no modo transceptor, em que o fechamento da conexão afeta tanto o MT quanto o SR.
 
@@ -155,9 +155,9 @@ Se `DELIVER_SM PDU` não for confirmado com êxito, verifique o seguinte:
 
 * Verifique se os erros foram devidamente provisionados na tabela `broadLogMsg`.
 
-* Para o Adobe Campaign Standard, verifique se as tabelas `broadLog` e `broadLogExec` estão sincronizadas corretamente.
+* Para o Adobe Campaign Standard, verifique se `broadLog` e `broadLogExec` as tabelas são sincronizadas corretamente.
 
-Se você corrigiu tudo, menos alguns SR inválidos, ainda estão nos buffers do provedor, é possível ignorá-los usando a opção **ID confirm count** inválida. Isso deverá ser usado com cuidado e redefinido como 0 o mais rápido possível depois que os buffers estiverem limpos.
+Se você corrigiu tudo, menos alguns SR inválidos, ainda estão nos buffers do provedor, você pode ignorá-los usando a variável **Contagem de confirmação de ID inválida** opção. Isso deverá ser usado com cuidado e redefinido como 0 o mais rápido possível depois que os buffers estiverem limpos.
 
 ## Problema ao processar MO (e /responder automaticamente){#issue-process-MO}
 
@@ -269,7 +269,7 @@ O novo conector dá suporte a logs estendidos por meio de rastreamentos: SMPP. O
 
 **Ativação por conta externa (método preferencial)**
 
-1. Na **External account**, selecione **Enable verbose SMPP traces in the log file**.
+1. No **Conta externa**, selecione **Habilitar rastreamentos SMPP detalhados no arquivo de log**.
 1. Salve, o conector se reconectará com os rastreamentos ativados.
 
 **Ativação em tempo real**

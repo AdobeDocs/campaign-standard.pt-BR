@@ -20,7 +20,7 @@ ht-degree: 66%
 
 Quando terminar de preparar as mensagens e as etapas de aprovação forem executadas, você poderá enviá-las. Para saber mais sobre a preparação de mensagens, consulte [Preparação do envio](../../sending/using/preparing-the-send.md).
 
-Somente usuários com a função **[!UICONTROL Start deliveries]** podem confirmar o envio. Para saber mais, consulte a seção [Lista de funções](../../administration/using/list-of-roles.md).
+Somente usuários com a variável **[!UICONTROL Start deliveries]** pode confirmar o envio. Para saber mais, consulte a seção [Lista de funções](../../administration/using/list-of-roles.md).
 
 <!--Users without this role will see the following message: 
 
@@ -30,11 +30,11 @@ Somente usuários com a função **[!UICONTROL Start deliveries]** podem confirm
 
 Quando a preparação estiver concluída, siga as etapas abaixo para enviar sua mensagem.
 
-1. Clique no botão **[!UICONTROL Confirm send]** localizado na barra de ação da mensagem.
+1. Clique no botão **[!UICONTROL Confirm send]** na barra de ação da mensagem.
 
    ![](assets/confirm_delivery.png)
 
-1. Finalize o envio clicando no botão **[!UICONTROL OK]**.
+1. Finalize o envio clicando no botão **[!UICONTROL OK]** botão.
 
    ![](assets/confirm_delivery1.png)
 
@@ -44,7 +44,7 @@ Quando a preparação estiver concluída, siga as etapas abaixo para enviar sua 
 >
 >Se a mensagem estiver programada, ela será enviada quando o horário de envio for atingido. Para saber mais sobre como programar mensagens, consulte [esta seção](../../sending/using/about-scheduling-messages.md).
 
-Se estiver usando um delivery recorrente sem nenhum período de agregação, você poderá solicitar uma confirmação antes de o delivery ser enviado. Ao configurar sua mensagem, abra o bloco **[!UICONTROL Schedule]** do painel de delivery e ative a opção dedicada.
+Se estiver usando um delivery recorrente sem nenhum período de agregação, você poderá solicitar uma confirmação antes de o delivery ser enviado. Ao configurar sua mensagem, abra o **[!UICONTROL Schedule]** bloco do painel de delivery e ative a opção dedicada.
 
 ![](assets/confirmation_recurring_deliveries.png)
 
@@ -65,7 +65,7 @@ Depois que a mensagem é enviada aos contatos, a zona **[!UICONTROL Deployment]*
 
 ![](assets/sending_delivery.png)
 
-Se os KPIs demorarem para atualizar ou não refletirem os resultados dos logs de envio, clique no botão **[!UICONTROL Compute stats]** na janela **[!UICONTROL Deployment]**.
+Se os KPIs levarem muito tempo para atualizar ou não refletirem os resultados dos logs de envio, clique no link **[!UICONTROL Compute stats]** no botão **[!UICONTROL Deployment]** janela.
 
 ![](assets/sending_delivery7.png)
 
@@ -82,9 +82,9 @@ Depois que uma mensagem é enviada, você pode rastrear o comportamento de seus 
 >
 >Esta seção se aplica somente ao canal de email.
 
-Na visualização **[!UICONTROL Summary]** de cada email, a porcentagem **[!UICONTROL Delivered]** começa em 100% e depois diminui progressivamente durante todo o [período de validade](../../administration/using/configuring-email-channel.md#validity-period-parameters) do delivery, à medida que as devoluções temporárias e permanentes são relatadas<!--from the Enhanced MTA to Campaign-->.
+No **[!UICONTROL Summary]** exibição de cada email, a **[!UICONTROL Delivered]** a porcentagem começa em 100% e depois diminui progressivamente durante o delivery [período de validade](../../administration/using/configuring-email-channel.md#validity-period-parameters), à medida que as devoluções temporárias e rígidas são relatadas<!--from the Enhanced MTA to Campaign-->.
 
-Na verdade, todas as mensagens são exibidas como **[!UICONTROL Sent]** no [logs de envio](../../sending/using/monitoring-a-delivery.md#sending-logs) assim que são retransmitidas com êxito do Campaign para o MTA aprimorado (Agente de transferência de mensagens). Eles permanecem com esse status, a menos que uma [rejeição](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) para essa mensagem seja comunicada do MTA aprimorado para o Campaign.
+Na verdade, todas as mensagens são exibidas como **[!UICONTROL Sent]** no [enviando logs](../../sending/using/monitoring-a-delivery.md#sending-logs) assim que forem reenviados com êxito do Campaign para o MTA aprimorado (Message Transfer Agent). Eles permanecem com esse status, a menos que uma [rejeição](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) para essa mensagem seja comunicada do MTA aprimorado para o Campaign.
 
 Quando mensagens de rejeição permanente são relatadas do MTA aprimorado, seu status muda de **[!UICONTROL Sent]** para **[!UICONTROL Failed]** e a porcentagem de **[!UICONTROL Delivered]** é diminuída de maneira apropriada.
 
@@ -94,7 +94,7 @@ Quando mensagens de rejeição temporária são relatadas do MTA aprimorado, ela
 
 * Caso contrário, o status mudará para **[!UICONTROL Failed]** e a porcentagem de **[!UICONTROL Delivered]** será diminuída de maneira apropriada.
 
-Portanto, você deve aguardar até o fim do período de validade para ver a porcentagem final **[!UICONTROL Delivered]** e o número final das mensagens **[!UICONTROL Sent]** e **[!UICONTROL Failed]**.
+Portanto, você deve aguardar até o fim do período de validade para ver o final **[!UICONTROL Delivered]** porcentagem e o número final de **[!UICONTROL Sent]** e **[!UICONTROL Failed]** mensagens.
 
 ### Serviço de feedback por email (beta) {#email-feedback-service}
 
@@ -112,15 +112,15 @@ Os logs do delivery mostram o status **[!UICONTROL Pending]** para cada endereç
 
 ![](assets/efs-pending.png)
 
-Quando o delivery de mensagem para os perfis segmentados é relatado em tempo real a partir do MTA aprimorado, os logs do delivery mostram o status **[!UICONTROL Sent]** para cada endereço que recebeu a mensagem com êxito. A porcentagem de **[!UICONTROL Delivered]** aumenta de acordo com cada delivery bem-sucedido.
+Quando o delivery de mensagem para os perfis segmentados é relatado em tempo real pelo MTA aprimorado, os logs do delivery mostram a variável **[!UICONTROL Sent]** status para cada endereço que recebeu a mensagem com êxito. A porcentagem de **[!UICONTROL Delivered]** aumenta de acordo com cada delivery bem-sucedido.
 
-Quando mensagens de rejeição permanente são relatadas pelo MTA aprimorado, o status do log muda de **[!UICONTROL Pending]** para **[!UICONTROL Failed]** e a porcentagem **[!UICONTROL Bounces + errors]** é aumentada adequadamente.
+Quando mensagens de rejeição permanente são relatadas pelo MTA aprimorado, o status do log muda de **[!UICONTROL Pending]** para **[!UICONTROL Failed]** e **[!UICONTROL Bounces + errors]** a percentagem é aumentada em conformidade.
 
-Quando as mensagens de rejeição temporária são relatadas de volta do MTA aprimorado, o status do log também muda de **[!UICONTROL Pending]** para **[!UICONTROL Failed]** e a porcentagem **[!UICONTROL Bounces + errors]** é aumentada adequadamente. A porcentagem de **[!UICONTROL Delivered]** permanece inalterada. As mensagens com rejeição temporária são então repetidas durante todo o [período de validade do delivery](../../administration/using/configuring-email-channel.md#validity-period-parameters)
+Quando mensagens de rejeição temporária são relatadas pelo MTA aprimorado, o status do log também muda de **[!UICONTROL Pending]** para **[!UICONTROL Failed]** e **[!UICONTROL Bounces + errors]** a percentagem é aumentada em conformidade. A porcentagem de **[!UICONTROL Delivered]** permanece inalterada. As mensagens com rejeição temporária são então repetidas durante todo o [período de validade do delivery](../../administration/using/configuring-email-channel.md#validity-period-parameters)
 
 * Se uma nova tentativa for bem-sucedida antes do fim do período de validade, o status da mensagem mudará para **[!UICONTROL Sent]** e a porcentagem **[!UICONTROL Delivered]** será aumentada de maneira apropriada.
 
-* Caso contrário, o status permanecerá como **[!UICONTROL Failed]**. As porcentagens **[!UICONTROL Delivered]** e **[!UICONTROL Bounces + errors]** permanecem inalteradas.
+* Caso contrário, o status permanecerá como **[!UICONTROL Failed]**. O **[!UICONTROL Delivered]** e **[!UICONTROL Bounces + errors]** as percentagens permanecem inalteradas.
 
 >[!NOTE]
 >

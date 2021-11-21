@@ -38,13 +38,13 @@ O push multilíngue requer 14 colunas no arquivo CSV:
 1. language
 1. quietPush
 
-Verifique a amostra CSV clicando em **[!UICONTROL Download a sample file]** na janela **[!UICONTROL Manage Content Variants]**. Para obter mais informações, consulte esta [seção](../../channels/using/creating-a-multilingual-push-notification.md).
+Verifique a amostra de CSV clicando no botão **[!UICONTROL Download a sample file]** no **[!UICONTROL Manage Content Variants]** janela. Para obter mais informações, consulte [seção](../../channels/using/creating-a-multilingual-push-notification.md).
 
 * **título, messageBody, som, selo, deeplinkURI, categoria, iosMediaAttachmentURL, androidMediaAttachmentURL**: conteúdo regular de carga de push. É necessário fornecer essas informações de maneira semelhante ao criar deliveries por push.
-* **Campos** personalizados: usar o formato JSON para os campos personalizados, por exemplo  `{"key1":"value1","key2":"value2"}`. Consulte o arquivo de exemplo acima para obter um exemplo de campos personalizados.
+* **Campos personalizados**: usar o formato JSON para os campos personalizados, por exemplo `{"key1":"value1","key2":"value2"}`. Consulte o arquivo de exemplo acima para obter um exemplo de campos personalizados.
 * **isContentAvailable**: sinalizador para verificação de Conteúdo disponível, o valor 1 implica true, o valor 0 implica false. O valor padrão é 0. Se deixar essa coluna em branco, o valor será considerado 0.
 * **isMutableContent**: sinalizador para Conteúdo variável, o valor 1 implica verdadeiro, o valor 0 implica falso. O valor padrão é 0. Se deixar essa coluna em branco, o valor será considerado 0.
-* **localidade**: locale é o campo para variantes de idioma, por exemplo &quot;en_us&quot; para inglês dos EUA e &quot;fr_fr&quot; para francês-francês.
+* **locale**: locale é o campo para variantes de idioma, por exemplo &quot;en_us&quot; para inglês dos EUA e &quot;fr_fr&quot; para francês-francês.
 * **idioma**: nome do idioma associado à localidade. Por exemplo, se a localidade for &quot;en_us&quot;, o nome do idioma deverá ser &quot;English-United States&quot;.
 * **quietPush**: sinalizador para o tipo de notificação por push. Se for uma notificação por push regular, o valor deve ser 0. Se for um push silencioso, o valor deve ser 1. O valor padrão é 0. Se deixar essa coluna em branco, o valor será considerado 0.
 
@@ -56,7 +56,7 @@ Você deve incluir o nome de cada coluna no arquivo CSV. Caso não use nenhuma c
 **As colunas &quot;locale&quot; e &quot;language&quot; são obrigatórias e o valor é exclusivo para cada linha.**
 Um valor em branco para essa coluna resultará em uma falha no upload do arquivo.
 
-**A ordem das colunas é importante**. A ordem das colunas no arquivo carregado deve seguir o mesmo formato do arquivo de amostra.
+**Ordem dos assuntos das colunas**. A ordem das colunas no arquivo carregado deve seguir o mesmo formato do arquivo de amostra.
 
 **Citar conteúdo da coluna**. Como esse é um arquivo CSV (ou seja, valores separados por vírgula), qualquer conteúdo de coluna que inclui vírgula (,) deve ser cotado. Por exemplo, &quot;Olá, Tom!&quot;
 
@@ -68,7 +68,7 @@ Um valor em branco para essa coluna resultará em uma falha no upload do arquivo
 
 ## Inserção de campo de personalização no arquivo csv {#personalization-field-csv}
 
-Se quiser usar campos de personalização, inclua a tag <span> no arquivo.
+Se quiser usar campos de personalização, inclua <span> no arquivo.
 
 Para inserir o campo de personalização &quot;firstName&quot; no messageBody, a mensagem precisa ser:
 
@@ -86,7 +86,7 @@ No span há dois atributos obrigatórios:
 
 * Uma é a classe que é estática. Não importa qual campo de personalização você planeja usar, ele sempre será class=&quot;nl-dce-field nl-dce-done&quot;.
 
-* Outro é data-nl-expr, que é o caminho do campo de personalização. Por exemplo, se você inserir o campo de personalização &quot;firstName&quot; na interface do usuário, o caminho de navegação será **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (conforme mostrado na imagem abaixo). Nesse caso, o caminho será
+* Outro é data-nl-expr, que é o caminho do campo de personalização. Por exemplo, se você inserir o campo de personalização &quot;firstName&quot; na interface do usuário, o caminho de navegação será **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (como mostrado na imagem abaixo). Nesse caso, o caminho será
 
    ```
    /context/profile/firstName. data-nl-expr="/context/profile/firstName".

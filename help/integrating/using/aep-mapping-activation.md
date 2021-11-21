@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >No momento, o Adobe Experience Platform Data Connector está em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente do Adobe se desejar acesso.
 
-Quando a definição de mapeamento for concluída, você poderá publicar o mapeamento. Após a etapa de implantação, a replicação de dados entre o Campaign Standard e o Adobe Experience Platform é iniciada automaticamente. A qualquer momento, você pode interromper a replicação clicando no botão **[!UICONTROL Stop]** .
+Quando a definição de mapeamento for concluída, você poderá publicar o mapeamento. Após a etapa de implantação, a replicação de dados entre o Campaign Standard e o Adobe Experience Platform é iniciada automaticamente. A qualquer momento, você pode interromper a replicação clicando no botão **[!UICONTROL Stop]** botão.
 
 Dependendo das modificações de mapeamento, você pode optar por reenviar todos os registros para o Adobe Experience Platform.
 
@@ -31,11 +31,11 @@ No bloco de implantação , é possível acessar o log de publicação e os logs
 
 ![](assets/aep_publog.png)
 
-Na guia **[!UICONTROL Export jobs]**, é possível monitorar o trabalho de exportação para o mapeamento publicado.
+No **[!UICONTROL Export jobs]** , é possível monitorar o trabalho de exportação para o mapeamento publicado.
 
 ![](assets/aep_jobstatus.png)
 
-Para monitorar todos os trabalhos de exportação de dados, vá para o menu **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** .
+Para monitorar todos os trabalhos de exportação de dados, acesse **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** menu.
 
 ![](assets/aep_statusmapping.png)
 
@@ -58,7 +58,7 @@ Para atualizar o esquema XDM, siga estas etapas:
 
 1. Navegue até o esquema XDM.
 
-1. Adicione o mixin **[!UICONTROL Profile Privacy]** ao schema.
+1. Adicione o **[!UICONTROL Profile Privacy]** mixin para o schema .
 
    ![](assets/aep_datamapping_privacyfield.png)
 

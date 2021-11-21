@@ -18,7 +18,7 @@ ht-degree: 74%
 
 # Criar conteúdo personalizado {#build-personalized-content}
 
-Ao criar o conteúdo da sua mensagem, tente evitar problemas comuns que possam impedir a execução do delivery. Na maioria das vezes, possíveis erros estão relacionados a [personalização](../../designing/using/personalization.md), formatação quando [usar um conteúdo existente](../../designing/using/using-existing-content.md) - e [conversão de um conteúdo HTML](../../designing/using/using-existing-content.md#converting-an-html-content) - e [imagens](../../designing/using/images.md).
+Ao criar o conteúdo da sua mensagem, tente evitar problemas comuns que possam impedir a execução do delivery. Na maioria das vezes, possíveis erros estão relacionados a [personalização](../../designing/using/personalization.md), formatação ao [uso de um conteúdo existente](../../designing/using/using-existing-content.md) - e [conversão de um conteúdo de HTML](../../designing/using/using-existing-content.md#converting-an-html-content) - e [imagens](../../designing/using/images.md).
 
 ## Otimizar personalização {#optimize-personalization}
 
@@ -30,9 +30,9 @@ As noções básicas de personalização são apresentadas [nesta seção](../..
 Verifique se o conteúdo da sua mensagem foi projetado corretamente para evitar erros, que geralmente estão relacionados à personalização.
 
 O conteúdo dinâmico pode ser adicionado manualmente para exibir um conteúdo diferente para seus destinatários, de acordo com as condições definidas no editor de expressão. Ao adicionar conteúdo dinâmico, você sempre deve deixar uma variante padrão para destinatários que não atendem às condições selecionadas.
-Para obter mais informações sobre conteúdo dinâmico, consulte [esta seção](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+Para obter mais informações sobre conteúdo dinâmico, consulte a [esta seção](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
-**Dicas**  - Visualize seu email com diferentes perfis de teste para garantir que seu conteúdo dinâmico esteja configurado corretamente.
+**Dicas** - Visualize seu email com perfis de teste diferentes para garantir que seu conteúdo dinâmico esteja configurado corretamente.
 
 ## Criar conteúdo otimizado {#optimize-content}
 
@@ -64,9 +64,9 @@ Sempre inclua um link de mirror page. A posição preferencial é a parte superi
 
 ### Link de unsubscription
 
-O link de unsubscription é essencial. Deve ser visível e válido e o formulário deve ser funcional. Saiba mais sobre as diretrizes de link de cancelamento de subscrição [nesta seção](../../designing/using/personalization.md#about-targeting-dimension).
+O link de unsubscription é essencial. Deve ser visível e válido e o formulário deve ser funcional. Saiba mais sobre diretrizes de link de cancelamento de subscrição [nesta seção](../../designing/using/personalization.md#about-targeting-dimension).
 
-Por padrão, quando a mensagem é analisada, um controle [typology rule](../../sending/using/control-rules.md) verifica se um link para opção de não participação foi incluído e gera um aviso se estiver ausente.
+Por padrão, quando a mensagem é analisada, um controle [regra de tipologia](../../sending/using/control-rules.md) verifica se um link para opção de não participação foi incluído e gera um aviso se estiver ausente.
 
 **Dica**: como o erro humano é sempre possível, verifique se o link para opção de não participação funciona corretamente antes de cada envio. Por exemplo, ao enviar a prova, verifique se o link é válido, se o formulário está online e se o campo “Não contatar mais este recipient” foi alterado para Sim.
 
@@ -80,17 +80,17 @@ Para manter o email abaixo do limite, considere o seguinte:
 
 * Remover estilos redundantes ou em desuso
 
-* Mova algum conteúdo de email para uma [landing page](../../channels/using/getting-started-with-landing-pages.md)
+* Mova algum conteúdo de email para um [página de aterrissagem](../../channels/using/getting-started-with-landing-pages.md)
 
 * Minimizar o uso de código
 
 Verificar se você testou as alterações antes do envio final.
 
-No Adobe Campaign, o tamanho máximo padrão de um email é definido como **100MB**. <!--This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash.-->
+No Adobe Campaign, o tamanho máximo padrão de um email é definido como **100 MB**. <!--This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash.-->
 
 Se o limite for atingido, a mensagem que excede o limite falhará e uma mensagem de erro será exibida nos logs do delivery. As outras mensagens do mesmo delivery não serão afetadas. Nesse caso, você deve adaptar a parte dinâmica do template de email ou os fragmentos de conteúdo usados pelo delivery. <!--If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.-->
 
-Adobe recomenda manter o valor padrão máximo do tamanho da mensagem. No entanto, esse valor pode ser alterado na opção **[!UICONTROL Maximum message size]**, por meio do menu **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**, somente por [administradores funcionais](../../administration/using/users-management.md#functional-administrators).
+Adobe recomenda manter o valor padrão máximo do tamanho da mensagem. No entanto, esse valor pode ser alterado na variável **[!UICONTROL Maximum message size]** , por meio da **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** , por [administradores funcionais](../../administration/using/users-management.md#functional-administrators) somente.
 
 >[!IMPORTANT]
 >
@@ -117,7 +117,7 @@ O design responsivo garante que o email seja processado de maneira ideal para o 
 
 * Use HTML responsivo de email em vez de HTML para web
 
-* Use o modo de visualização e envie provas para testar a renderização no máximo de dispositivos possível. Saiba como [visualizar mensagem](../../sending/using/previewing-messages.md) antes de enviar.
+* Use o modo de visualização e envie provas para testar a renderização no máximo de dispositivos possível. Saiba como [mensagem de pré-visualização](../../sending/using/previewing-messages.md) antes de enviar.
 
 * O Campaign Email Designer vem com modelos formatados com design responsivo para dispositivos móveis. Saiba mais [nesta página](../../designing/using/using-reusable-content.md#content-templates).
 
@@ -147,4 +147,4 @@ Para serem acessadas de fora, as imagens usadas em emails e recursos públicos v
 
 A Adobe recomenda visualizar a mensagem para verificar a personalização e como os recipients verão a entrega.
 
-No Designer de email, o botão **[!UICONTROL Preview]** permite visualizar a renderização de cada conteúdo para um recipient. Os campos de personalização e os elementos condicionais do conteúdo são substituídos pelas informações correspondentes para o perfil selecionado. [Saiba mais](../../sending/using/previewing-messages.md)
+No Designer de email, a variável **[!UICONTROL Preview]** permite visualizar a renderização de cada conteúdo para um recipient. Os campos de personalização e os elementos condicionais do conteúdo são substituídos pelas informações correspondentes para o perfil selecionado. [Saiba mais](../../sending/using/previewing-messages.md)

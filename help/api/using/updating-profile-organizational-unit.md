@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # Atualização da entidade organizacional de um perfil {#managing-organizational-units}
 
-1. Execute uma solicitação GET no recurso **orgUnitBase** para recuperar a unidade organizacional PKey
+1. Execute uma solicitação de GET no **orgUnitBase** recurso para recuperar a chave da unidade organizacional
 1. Execute uma solicitação de PATCH na chave de perfil, com a chave da unidade organizacional desejada na carga.
 
 <br/>

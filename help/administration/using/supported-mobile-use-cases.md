@@ -18,7 +18,7 @@ ht-degree: 1%
 
 # Casos de uso para dispositivos móveis compatíveis com o Adobe Campaign Standard {#mobile-use-cases}
 
-Nesta página, você encontrará a lista de todos os casos de uso de dispositivos móveis suportados em [!DNL Adobe Campaign Standard] usando o [!DNL Adobe Experience Platform SDKs]. Observe que o suporte a esses casos de uso envolve instalar e configurar os [!DNL Adobe Experience Platform SDKs], [!DNL Adobe Experience Platform Launch] e [!DNL Adobe Campaign Standard]. Para obter mais informações sobre essas operações, consulte esta [página](../../administration/using/configuring-a-mobile-application.md).
+Nesta página, você encontrará a lista de todos os casos de uso de dispositivos móveis compatíveis com o [!DNL Adobe Campaign Standard] usando o [!DNL Adobe Experience Platform SDKs]. Observe que o suporte a esses casos de uso envolve instalar e configurar o [!DNL Adobe Experience Platform SDKs], [!DNL Adobe Experience Platform Launch]e [!DNL Adobe Campaign Standard]. Para obter mais informações sobre essas operações, consulte esta [página](../../administration/using/configuring-a-mobile-application.md).
 
 O Adobe Campaign Standard oferece suporte para os seguintes casos de uso:
 
@@ -32,20 +32,20 @@ O Adobe Campaign Standard oferece suporte para os seguintes casos de uso:
 
 Para configurar esses casos de uso, você precisa das seguintes extensões de [!DNL Experience Platform Launch]:
 
-* **[!DNL Adobe Campaign Standard]** <br>Para instalar e configurar a extensão do Campaign Standard, consulte  [Configurar a extensão do Campaign Standard no Experience Platform Launch](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch).
-* **[!DNL Mobile Core]**, que é instalado automaticamente. <br>Para obter mais informações sobre a extensão Mobile Core, consulte  [Mobile Core](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core).
-* **[!DNL Profile]**, que é instalado automaticamente. <br>Para obter mais informações sobre a extensão Profile, consulte  [Perfil](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/profile).
+* **[!DNL Adobe Campaign Standard]** <br>Para instalar e configurar a extensão do Campaign Standard, consulte [Configurar a extensão do Campaign Standard no Experience Platform Launch](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch).
+* **[!DNL Mobile Core]**, que é instalado automaticamente. <br>Para obter mais informações sobre a extensão Mobile Core, consulte [Mobile Core](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core).
+* **[!DNL Profile]**, que é instalado automaticamente. <br>Para obter mais informações sobre a extensão Profile, consulte [Perfil](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/profile).
 
 ## Registrar um perfil móvel no Campaign Standard {#register-mobile-profile}
 
 ### Com iOS {#register-mobile-profile-ios}
 
-No iOS, os seguintes [!DNL Experience Platform APIs] são necessários:
+No iOS, o seguinte [!DNL Experience Platform APIs] são necessárias:
 
 * **[!UICONTROL Lifecycle Start]**, quando o aplicativo é iniciado e quando ele está em primeiro plano.
 * **[!UICONTROL Lifecycle Pause]**, quando o aplicativo estiver em segundo plano.
 
-Para obter mais informações, consulte [Extensão do ciclo de vida no iOS](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-ios).
+Para obter mais informações, consulte [Extensão do Lifecycle no iOS](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-ios).
 
 Esta é uma amostra da implementação deste caso de uso com o iOS:
 
@@ -83,12 +83,12 @@ func applicationDidEnterBackground(_ application: UIApplication) {
 
 ### Com Android {#register-mobile-profile-android}
 
-No Android, os seguintes [!DNL Experience Platform APIs] são necessários:
+No Android, o seguinte [!DNL Experience Platform APIs] são necessárias:
 
 * **[!UICONTROL OnResume]**
 * **[!UICONTROL OnPause]**
 
-Para obter mais informações, consulte [Extensão do ciclo de vida no Android](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android).
+Para obter mais informações, consulte [Extensão do Lifecycle no Android](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android).
 
 Esta é uma amostra de implementação para este caso de uso com Android:
 
@@ -113,11 +113,11 @@ public void onResume() {
 
 ### Com iOS {#send-push-token-ios}
 
-No iOS, o seguinte [!DNL Experience Platform SDK] é necessário:
+No iOS, o seguinte [!DNL Experience Platform SDK] é obrigatório:
 
-* **[!UICONTROL setPushIdentifier]** <br>Para obter mais informações, consulte  [setPushIdentifier](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#setpushidentifier).
+* **[!UICONTROL setPushIdentifier]** <br>Para obter mais informações, consulte [setPushIdentifier](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#setpushidentifier).
 
-Esta é a amostra de implementação para este caso de uso com iOS:
+Esta é a amostra de implementação para este caso de uso com o iOS:
 
 ```
 func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
@@ -128,9 +128,9 @@ func application(_ application: UIApplication, didRegisterForRemoteNotifications
 
 ### Com Android {#send-push-token-android}
 
-No Android, o seguinte [!DNL Experience Platform SDK] é necessário:
+No Android, o seguinte [!DNL Experience Platform SDK] é obrigatório:
 
-* **[!UICONTROL setPushIdentifier]** <br>Para obter mais informações, consulte  [setPushIdentifier](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#setpushidentifier).
+* **[!UICONTROL setPushIdentifier]** <br>Para obter mais informações, consulte [setPushIdentifier](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#setpushidentifier).
 
 Esta é a amostra de implementação para este caso de uso com Android:
 
@@ -144,11 +144,11 @@ public void onNewToken(String token) {
 
 ## Enriqueça um perfil móvel com dados personalizados do seu aplicativo {#enrich-mobile-profile-custom}
 
-Para que esse caso de uso funcione, é necessário criar regras para postbacks de PII. Para obter mais informações, consulte [PII Postbacks](../../administration/using/configuring-rules-launch.md#pii-postback).
+Para que esse caso de uso funcione, é necessário criar regras para postbacks de PII. Para obter mais informações, consulte [Postbacks de PII](../../administration/using/configuring-rules-launch.md#pii-postback).
 
 ### Com iOS {#enrich-mobile-profile-custom-ios}
 
-No iOS, o seguinte [!DNL Experience Platform API] é necessário:
+No iOS, o seguinte [!DNL Experience Platform API] é obrigatório:
 
 * collectPII <br> Para obter mais informações, consulte collectPII.
 
@@ -160,7 +160,7 @@ ACPCore.collectPii(["pushPlatform":"apns", "email":email, "firstName":firstName,
 
 ### Com Android {#enrich-mobile-profile-custom-android}
 
-No Android, o seguinte [!DNL Experience Platform API] é necessário:
+No Android, o seguinte [!DNL Experience Platform API] é obrigatório:
 
 * collectPII <br> Para obter mais informações, consulte collectPII.
 
@@ -177,7 +177,7 @@ MobileCore.collectPii(data);
 
 ## Enriqueça um perfil móvel com dados do ciclo de vida de seu aplicativo {#enrich-mobile-profile-lifecycle}
 
-Para que esse caso de uso funcione, é necessário criar regras para postbacks de PII. Para obter mais informações, consulte [PII Postbacks](../../administration/using/configuring-rules-launch.md#pii-postback).
+Para que esse caso de uso funcione, é necessário criar regras para postbacks de PII. Para obter mais informações, consulte [Postbacks de PII](../../administration/using/configuring-rules-launch.md#pii-postback).
 
 >[!NOTE]
 >
@@ -185,12 +185,12 @@ Para que esse caso de uso funcione, é necessário criar regras para postbacks d
 
 ### Com iOS {#enrich-mobile-profile-lifecycle-ios}
 
-No iOS, os seguintes [!DNL Experience Platform APIs] são necessários:
+No iOS, o seguinte [!DNL Experience Platform APIs] são necessárias:
 
 * **[!UICONTROL Lifecycle Start]**, quando o aplicativo é iniciado e quando ele está em primeiro plano.
 * **[!UICONTROL Lifecycle Pause]**, quando o aplicativo estiver em segundo plano.
 
-Para obter mais informações, consulte [Extensão do ciclo de vida no iOS](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-ios).
+Para obter mais informações, consulte [Extensão do Lifecycle no iOS](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-ios).
 
 Esta é uma amostra da implementação deste caso de uso com o iOS:
 
@@ -228,12 +228,12 @@ func applicationDidEnterBackground(_ application: UIApplication) {
 
 ### Com Android {#enrich-mobile-profile-lifecycle-android}
 
-No Android, os seguintes [!DNL Experience Platform APIs] são necessários:
+No Android, o seguinte [!DNL Experience Platform APIs] são necessárias:
 
 * **[!UICONTROL OnResume]**
 * **[!UICONTROL OnPause]**
 
-Para obter mais informações, consulte [Extensão do ciclo de vida no Android](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android).
+Para obter mais informações, consulte [Extensão do Lifecycle no Android](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android).
 
 Esta é uma amostra de implementação para este caso de uso com Android:
 
@@ -256,11 +256,11 @@ public void onResume() {
 
 ## Rastrear a interação do usuário com notificações por push {#track-user-push}
 
-É necessário criar regras para notificações por push rastreando postback. Para obter mais informações, consulte [Push notifications tracking postback](../../administration/using/configuring-rules-launch.md#push-tracking-postback).
+É necessário criar regras para notificações por push rastreando postback. Para obter mais informações, consulte [Postback de rastreamento de notificações por push](../../administration/using/configuring-rules-launch.md#push-tracking-postback).
 
 ### Com iOS {#track-user-push-ios}
 
-No iOS, o seguinte [!DNL Experience Platform SDK] é necessário:
+No iOS, o seguinte [!DNL Experience Platform SDK] é obrigatório:
 
 * **[!UICONTROL trackAction]**. Para obter mais informações, consulte [Rastrear ações do aplicativo](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
 
@@ -276,10 +276,10 @@ if (deliveryId != nil && broadlogId != nil) {
 
 ### Com Android {#track-user-push-android}
 
-No Android, o seguinte [!DNL Experience Platform SDK] é necessário:
+No Android, o seguinte [!DNL Experience Platform SDK] é obrigatório:
 
 * **[!UICONTROL trackAction]**
-Para obter mais informações, consulte  [Rastrear ações do aplicativo](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
+Para obter mais informações, consulte [Rastrear ações do aplicativo](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
 
 Esta é uma amostra de implementação para este caso de uso com Android:
 
@@ -294,7 +294,7 @@ MobileCore.trackAction("tracking", contextData);
 
 ### Com iOS {#custom-event-inapp-ios}
 
-No iOS, o seguinte [!DNL Experience Platform SDK] é necessário:
+No iOS, o seguinte [!DNL Experience Platform SDK] é obrigatório:
 
 * **[!UICONTROL trackAction]**. Para obter mais informações, consulte [Rastrear ações do aplicativo](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
 
@@ -306,10 +306,10 @@ ACPCore.trackAction(mobileEventName, data: [:] )
 
 ### Com Android {#custom-event-inapp-android}
 
-No Android, o seguinte [!DNL Experience Platform SDK] é necessário:
+No Android, o seguinte [!DNL Experience Platform SDK] é obrigatório:
 
 * **[!UICONTROL trackAction]**
-Para obter mais informações, consulte  [Rastrear ações do aplicativo](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
+Para obter mais informações, consulte [Rastrear ações do aplicativo](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
 
 Esta é uma amostra de implementação para este caso de uso com Android:
 
@@ -321,7 +321,7 @@ MobileCore.trackAction(mobileEventText, new HashMap<String,String>());
 
 ### Com iOS {#linkage-fields-inapp-ios}
 
-Para definir campos de vinculação para autenticação adicional para o modelo de perfil baseado em mensagens no aplicativo no iOS, é necessário o seguinte [!DNL Experience Platform SDK]:
+Para definir campos de vinculação para autenticação adicional para o modelo de perfil baseado em mensagens no aplicativo no iOS, faça o seguinte [!DNL Experience Platform SDK] é obrigatório:
 
 * Definir campos de vinculação <br>Para obter mais informações, consulte [Definir campos de vinculação](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#set-linkage-fields).
 * Redefinir campos de vinculação <br>Para obter mais informações, consulte [Redefinir campos de vinculação](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#reset-linkage-fields).

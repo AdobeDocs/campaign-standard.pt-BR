@@ -21,12 +21,12 @@ ht-degree: 3%
 
 Você pode usar o Campaign para promover um serviço ao:
 
-* [Inserção de uma assinatura de serviço ou de um link de unsubscription em um email](../../designing/using/links.md#inserting-a-link).
+* [Inserção de uma assinatura de serviço ou de um link de cancelamento de subscrição em um email](../../designing/using/links.md#inserting-a-link).
 
 * [Inserção de um link para uma landing page de assinatura ou unsubscription em um email](../../designing/using/links.md). Nesse caso, o serviço deve ser referenciado diretamente nas propriedades das landing pages relacionadas (consulte [Vincular uma landing page a um serviço](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)).
 
    >[!NOTE]
    >
-   >É igualmente importante dar aos assinantes a possibilidade de cancelarem a subscrição. Para fazer isso, insira um serviço <b>Unsubscription link</b> no email de confirmação (definido nas propriedades do serviço) enviado automaticamente aos novos assinantes, bem como em futuros emails de informativo.
+   >É igualmente importante dar aos assinantes a possibilidade de cancelarem a subscrição. Para fazer isso, insira um serviço <b>Link de cancelamento de assinatura</b> no email de confirmação (definido nas propriedades do serviço) enviado automaticamente para os novos assinantes, bem como em emails de informativo futuros.
 
 * Disponibilizar uma landing page de assinatura ou unsubscription em um site. Os URLs que fornecem acesso à landing page devem especificar parâmetros como o serviço associado, bem como a ID de perfil que a acessa. Essa ID pode ser definida nos parâmetros da landing page (consulte [Configuração de uma landing page](../../channels/using/configuring-landing-page.md)).

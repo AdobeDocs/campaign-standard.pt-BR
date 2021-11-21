@@ -26,7 +26,7 @@ Você pode enviar um email todas as terças-feiras a todos os clientes com ofert
 
 ## Criação de uma atividade do Scheduler{#creating-a-scheduler-activity}
 
-1. Em **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, arraste e solte uma atividade [Scheduler](../../automating/using/scheduler.md).
+1. Em **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, arraste e solte uma [Scheduler](../../automating/using/scheduler.md) atividade .
 1. Clique duas vezes na atividade.
 1. Configure a execução do delivery.
 1. Em **[!UICONTROL Execution frequency]**, selecione **[!UICONTROL Weekly]**.
@@ -43,7 +43,7 @@ Você pode enviar um email todas as terças-feiras a todos os clientes com ofert
 
 ## Criação de uma atividade Query{#creating-a-query-activity}
 
-1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, para selecionar recipients, arraste e solte uma atividade [Query](../../automating/using/query.md) e clique duas vezes nela.
+1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, para selecionar destinatários, arraste e solte uma [Query](../../automating/using/query.md) e clique duas vezes nela.
 1. Em **[!UICONTROL Shortcuts]** > **[!UICONTROL Profile]**, arraste e solte **[!UICONTROL Email]**.
 1. Selecione **[!UICONTROL is not empty]** como operador.
 1. Em **[!UICONTROL Shortcuts]** > **[!UICONTROL General]**, adicione perfis e selecione **[!UICONTROL no longer contact by email]** com o valor **[!UICONTROL No]**.
@@ -53,7 +53,7 @@ Você pode enviar um email todas as terças-feiras a todos os clientes com ofert
 
 ## Criação de um delivery de email{#creating-an-email-delivery}
 
-1. Em **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, arraste e solte uma atividade [Email delivery](../../automating/using/email-delivery.md).
+1. Em **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, arraste e solte uma [Delivery por email](../../automating/using/email-delivery.md) atividade .
 1. Clique na atividade e selecione ![](assets/edit_darkgrey-24px.png) para editar.
 1. Selecione **[!UICONTROL Recurring email]** e clique em **[!UICONTROL Next]**.
 1. Selecione um template de email e clique em **[!UICONTROL Next]**.

@@ -32,9 +32,9 @@ Os Relatórios dinâmicos fornecem relatórios totalmente personalizáveis e em 
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Com a **interface de arrastar e soltar do Dynamic Reporting**, você pode explorar dados, determinar o desempenho de suas campanhas de email em relação aos segmentos de clientes mais importantes e medir seu impacto nos recipients de um único lugar.
+Com relatórios dinâmicos **interface de arrastar e soltar**, você pode explorar dados, determinar o desempenho de suas campanhas de email em relação aos segmentos de clientes mais importantes e medir seu impacto nos recipients em um único local.
 
-**Gerencie seus** relatórios dinâmicos graças a várias funcionalidades: atualize os dados em tempo real, imprima seus relatórios ou exporte-os como arquivos CSV. Você também pode compartilhar seus relatórios com usuários do Campaign Standard por meio de emails recorrentes ou pontuais.
+**Gerenciar seus relatórios dinâmicos** graças a várias funcionalidades: atualize os dados em tempo real, imprima seus relatórios ou exporte-os como arquivos CSV. Você também pode compartilhar seus relatórios com usuários do Campaign Standard por meio de emails recorrentes ou pontuais.
 
 Leia mais:
 
@@ -45,9 +45,9 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-O Campaign Standard vem com um conjunto de **relatórios dinâmicos prontos para uso** permitindo que você meça vários aspectos de suas campanhas de marketing: devoluções, deliveries que foram mais declarados como spam ou lixo eletrônico, deliveries mais vistos por recipients, relatórios relacionados a canais, taxa de transferência de delivery e relatórios de rastreamento...
+Campaign Standard vem com um conjunto de **relatórios dinâmicos prontos para uso** permitindo medir vários aspectos de suas campanhas de marketing: devoluções, deliveries que foram mais declarados como spam ou lixo eletrônico, deliveries mais vistos por recipients, relatórios relacionados a canais, taxa de transferência de delivery e relatórios de rastreamento...
 
-**Combine diferentes componentes**  (dimensões, métricas e segmentos, períodos de tempo) para criar seus próprios relatórios ou personalizar relatórios prontos para uso.
+**Combinar diferentes componentes** (dimensões, métricas e segmentos, períodos de tempo) para criar seus próprios relatórios ou personalizar relatórios prontos para uso.
 
 Leia mais:
 
@@ -59,11 +59,11 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
-**Personalize seus** relatórios aproveitando os recursos de criação de relatórios dinâmicos: adicione quantos componentes forem necessários (painéis e tabelas de forma livre) para analisar seus dados usando a métrica e as dimensões disponíveis.
+**Personalizar seus relatórios** aproveitando os recursos dinâmicos de criação de relatórios: adicione quantos componentes forem necessários (painéis e tabelas de forma livre) para analisar seus dados usando a métrica e as dimensões disponíveis.
 
-Arraste e solte **itens de visualização** para adicionar representações gráficas de seus dados em seus relatórios e configurá-los de acordo com suas necessidades.
+Arrastar e soltar **itens de visualização** para adicionar representações gráficas de seus dados em seus relatórios e configurá-los de acordo com suas necessidades.
 
-Crie relatórios com base em **custom profile data** criados durante a extensão de recurso do Perfil e **relatórios baseados em segmentos** definidos em workflows para construção do target.
+Criar relatórios com base em **dados de perfil personalizados** criado durante a extensão de recurso Perfil e **relatórios com base em segmentos** definido em workflows para construção do target.
 
 Leia mais:
 
@@ -84,4 +84,4 @@ Este vídeo fornece uma visão geral sobre os recursos de relatórios do Adobe C
 
 >[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
 
-Os vídeos de instruções adicionais do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
+Vídeos tutoriais adicionais do Campaign Standard estão disponíveis [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

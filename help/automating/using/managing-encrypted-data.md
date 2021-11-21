@@ -21,7 +21,7 @@ ht-degree: 45%
 
 Em alguns casos, os dados que você deseja importar Servidores do Campaign podem precisar ser criptografados, por exemplo, se contiverem dados PII.
 
-Para poder criptografar dados de saída ou descriptografar dados de entrada, você precisa gerenciar chaves GPG usando o [Painel de controle](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=pt-BR).
+Para poder criptografar dados de saída ou descriptografar dados de entrada, você precisa gerenciar chaves GPG usando o [Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=pt-BR).
 
 >[!NOTE]
 >
@@ -30,9 +30,9 @@ Para poder criptografar dados de saída ou descriptografar dados de entrada, voc
 Se você não estiver qualificado para usar o Painel de controle do Campaign, será necessário entrar em contato com o Atendimento ao Cliente do Adobe para que ele forneça à sua instância os comandos de criptografia/descriptografia necessários. Para fazer isso, envie uma solicitação indicando:
 
 * O **label** que será exibido na interface do Campaign para usar o comando. Por exemplo, &quot;Criptografar arquivo&quot;.
-* O **comando** para instalar em sua instância.
+* O **comando** para instalar na instância.
 
-Depois que a solicitação é processada, os comandos de criptografia / descriptografia estarão disponíveis no campo **[!UICONTROL Pre-processing stage]** das atividades **[!UICONTROL Load file]** e **[!UICONTROL Extract file]**. Você pode usá-los para descriptografar ou criptografar os arquivos que deseja importar ou exportar.
+Depois que a solicitação for processada, os comandos de criptografia / descriptografia estarão disponíveis na variável **[!UICONTROL Pre-processing stage]** do campo **[!UICONTROL Load file]** e **[!UICONTROL Extract file]** atividades. Você pode usá-los para descriptografar ou criptografar os arquivos que deseja importar ou exportar.
 
 ![](assets/preprocessing-encryption.png)
 
@@ -67,13 +67,13 @@ As etapas para executar esse caso de uso são as seguintes:
 
 1. Abra a atividade **[!UICONTROL Transfer file]** e configure-a de acordo com suas necessidades. Os conceitos globais sobre como configurar a atividade estão disponíveis [nesta seção](../../automating/using/load-file.md).
 
-   Na guia **[!UICONTROL Protocol]** , especifique os detalhes sobre o servidor sftp e o arquivo .gpg criptografado que deseja transferir.
+   No **[!UICONTROL Protocol]** , especifique detalhes sobre o servidor sftp e o arquivo .gpg criptografado que deseja transferir.
 
    ![](assets/gpg_transfer.png)
 
 1. Abra a atividade **[!UICONTROL Load file]** e configure-a de acordo com suas necessidades. Os conceitos globais sobre como configurar a atividade estão disponíveis [nesta seção](../../automating/using/load-file.md).
 
-   Adicione um estágio de pré-processamento à atividade para descriptografar os dados recebidos. Para fazer isso, selecione a opção **[!UICONTROL Decryption GPG]** na lista.
+   Adicione um estágio de pré-processamento à atividade para descriptografar os dados recebidos. Para fazer isso, selecione o **[!UICONTROL Decryption GPG]** na lista.
 
    >[!NOTE]
    >
@@ -107,7 +107,7 @@ As etapas para executar esse caso de uso são as seguintes:
 
 1. Configure a atividade **[!UICONTROL Query]** para direcionar os dados desejados a partir do banco de dados. Para obter mais informações, consulte [esta seção](../../automating/using/query.md).
 
-1. Abra a atividade **[!UICONTROL Extract file]** e a configure de acordo com suas necessidades (arquivo de saída, colunas, formato etc.). Os conceitos globais sobre como configurar a atividade estão disponíveis [nesta seção](../../automating/using/extract-file.md).
+1. Abra o **[!UICONTROL Extract file]** em seguida, configure-a de acordo com suas necessidades (arquivo de saída, colunas, formato etc.). Os conceitos globais sobre como configurar a atividade estão disponíveis [nesta seção](../../automating/using/extract-file.md).
 
    Adicione um estágio de pré-processamento à atividade para criptografar os dados que serão extraídos. Para fazer isso, selecione a chave GPG de criptografia a ser usada para criptografar os dados.
 
@@ -133,4 +133,4 @@ Este vídeo mostra como usar uma chave GPG para criptografar dados.
 
 >[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12)
 
-Os vídeos de instruções adicionais do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
+Vídeos tutoriais adicionais do Campaign Standard estão disponíveis [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

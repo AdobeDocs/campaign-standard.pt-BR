@@ -44,7 +44,7 @@ A atividade **[!UICONTROL Segmentation]** geralmente é colocada após as ativid
 
 1. Arraste e solte uma atividade **[!UICONTROL Segmentation]** no seu fluxo de trabalho.
 1. Selecione e abra a atividade usando o botão ![](assets/edit_darkgrey-24px.png) das ações rápidas exibidas.
-1. Na guia **[!UICONTROL General]** , selecione o **[!UICONTROL Resource type]** no qual a segmentação deve ser realizada:
+1. No **[!UICONTROL General]** selecione a guia **[!UICONTROL Resource type]** em que a segmentação deve ser realizada:
 
    * **[!UICONTROL Database resource]** se a segmentação for realizada nos dados existentes no banco de dados. Selecione a **[!UICONTROL Filtering dimension]** dependendo dos dados que você deseja segmentar. Por padrão, a segmentação é realizada nos **perfis**.
    * **[!UICONTROL Temporary resource]** se a segmentação for realizada nos dados temporários do fluxo de trabalho. Selecione o **[!UICONTROL Targeted set]** que contêm os dados a serem segmentados. Esse caso de uso poderá ser encontrado após a importação de um arquivo ou se os dados no banco de dados tiverem sido enriquecidos.
@@ -61,7 +61,7 @@ A atividade **[!UICONTROL Segmentation]** geralmente é colocada após as ativid
    * **[!UICONTROL Limit segment population]**: permite limitar o tamanho do segmento.
    * **[!UICONTROL Filter and limit segment population]**: permite filtrar a população do segmento e limitar o tamanho.
    * **[!UICONTROL Label]**: rótulo do segmento.
-   * **[!UICONTROL Segment code]**: código atribuído à população do segmento. O código de segmento pode ser personalizado usando uma expressão padrão e variáveis de eventos (consulte  [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
+   * **[!UICONTROL Segment code]**: código atribuído à população do segmento. O código de segmento pode ser personalizado usando uma expressão padrão e variáveis de eventos (consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
    * **[!UICONTROL Exclude segment from population]**: permite excluir o segmento especificado da população de saída da atividade. Essa opção só poderá ser usada se a opção **[!UICONTROL Generate all segments in the same transition]** estiver selecionada.
 
    ![](assets/wkf_segment_new_segment.png)

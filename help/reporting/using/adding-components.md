@@ -19,11 +19,11 @@ ht-degree: 4%
 
 Os componentes ajudam você a personalizar seus relatórios com diferentes dimensões, métricas e períodos.
 
-1. Clique na guia **[!UICONTROL Components]** para acessar a lista de componentes.
+1. Clique no botão **[!UICONTROL Components]** para acessar a lista de componentes.
 
    ![](assets/dynamic_report_components.png)
 
-1. Cada categoria apresentada na guia **[!UICONTROL Components]** exibe os cinco itens mais usados, clique no nome de uma categoria para acessar a lista completa de componentes.
+1. Cada categoria apresentada na **[!UICONTROL Components]** exibe os cinco itens mais usados, clique no nome de uma categoria para acessar a lista completa de componentes.
 
    A tabela de componentes é dividida em quatro categorias:
 
@@ -31,7 +31,7 @@ Os componentes ajudam você a personalizar seus relatórios com diferentes dimen
    * **Métricas**: Obtenha detalhes sobre o status de uma mensagem. Por exemplo, se uma mensagem foi entregue e o usuário a abriu.
    * **[!UICONTROL Segments]**: Filtrar dados dependendo da faixa etária do recipient. **[!UICONTROL Segments]** podem ser arrastadas e soltas diretamente em uma tabela de forma livre ou na barra superior do painel.
 
-      Esta categoria só estará disponível depois que o administrador aprovar os termos e condições do Contrato de uso de relatórios dinâmicos que serão exibidos na tela. Se o administrador recusar o contrato, os segmentos não estarão visíveis na guia **[!UICONTROL Components]** e os dados não serão coletados.
+      Esta categoria só estará disponível depois que o administrador aprovar os termos e condições do Contrato de uso de relatórios dinâmicos que serão exibidos na tela. Se o administrador recusar o contrato, os segmentos não estarão visíveis na variável **[!UICONTROL Components]** e os dados não serão coletados.
 
    * **Hora**: Defina um período de tempo para a tabela.
 
@@ -39,11 +39,11 @@ Os componentes ajudam você a personalizar seus relatórios com diferentes dimen
 
    ![](assets/dynamic_report_components_2.png)
 
-1. Depois de arrastar e soltar seu componente, você pode configurar ainda mais a tabela com a opção **[!UICONTROL Row settings]**.
+1. Depois de arrastar e soltar seu componente, você pode configurar ainda mais a tabela com o **[!UICONTROL Row settings]** opção.
 
    ![](assets/dynamic_report_components_3.png)
 
-1. Você também pode filtrar ainda mais sua tabela clicando no ícone **Pesquisar**. Com essa pesquisa, você pode procurar resultados específicos, como um delivery específico ou navegador, por exemplo.
+1. Também é possível filtrar ainda mais a tabela clicando no botão **Pesquisar** ícone . Com essa pesquisa, você pode procurar resultados específicos, como um delivery específico ou navegador, por exemplo.
 
    ![](assets/dynamic_report_components_4.png)
 

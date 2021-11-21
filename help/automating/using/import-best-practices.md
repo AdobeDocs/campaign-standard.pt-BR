@@ -10,7 +10,7 @@ exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
@@ -32,11 +32,11 @@ Em muitos projetos, as importações são criadas sem a atividade **[!UICONTROL 
 
 Não confie na suposição de que os dados de entrada são consistentes e corretos, ou que o departamento de TI ou o supervisor do Adobe Campaign irá resolver isso. Durante o projeto, mantenha a limpeza dos dados em mente. Elimine duplicatas, reconcilie e mantenha de consistência ao importar dados.
 
-Um exemplo de um template de workflow genérico projetado para importar dados está disponível no [Exemplo: Importar a seção do template do workflow](../../automating/using/creating-import-workflow-templates.md).
+Um exemplo de um template de workflow genérico projetado para importar dados está disponível na variável [Exemplo: Importar modelo de fluxo de trabalho](../../automating/using/creating-import-workflow-templates.md) seção.
 
 >[!NOTE]
 >
->Você também pode usar [importar templates](../../automating/using/importing-data-with-import-templates.md). Eles são templates de workflow definidos por um administrador que, uma vez ativados, oferece apenas a possibilidade de especificar o arquivo que contém os dados a serem importados.
+>Você também pode usar [importar modelos](../../automating/using/importing-data-with-import-templates.md). Eles são templates de workflow definidos por um administrador que, uma vez ativados, oferece apenas a possibilidade de especificar o arquivo que contém os dados a serem importados.
 
 **Tópicos relacionados:**
 

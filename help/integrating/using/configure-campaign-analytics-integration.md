@@ -23,25 +23,25 @@ Para iniciar a integração entre o Adobe Campaign Standard e o Adobe Analytics,
 
 Contas externas e workflows técnicos só podem ser gerenciados pelo administrador funcional da plataforma.
 
-1. No menu avançado, selecione **[!UICONTROL Administration > Application settings > External accounts]** pelo logotipo do Adobe Campaign.
+1. No menu avançado, selecione pelo logotipo do Adobe Campaign **[!UICONTROL Administration > Application settings > External accounts]**.
 1. Selecione a conta externa **[!UICONTROL Share KPIs with Adobe Analytics]**.
 
    ![](assets/analytics_2.png)
 
-1. Especifique seus **[!UICONTROL Web services user name]** e **[!UICONTROL Web services share secret]** no campo **[!UICONTROL Connection]**.
+1. Especifique seu **[!UICONTROL Web services user name]** e **[!UICONTROL Web services share secret]** no **[!UICONTROL Connection]** campo.
 
    Esses parâmetros podem ser encontrados no Analytics selecionando **[!UICONTROL Admin > Company settings > Web services]**.
 
    ![](assets/analytics_1.png)
 
 1. Clique no botão **[!UICONTROL Refresh report suites]**.
-1. Selecione na lista suspensa **[!UICONTROL Analytics default report suite]** o conjunto de relatórios do Adobe Analytics que você deseja enriquecer com dados do Adobe Campaign.
+1. Selecione no **[!UICONTROL Analytics default report suite]** menu suspenso do conjunto de relatórios do Adobe Analytics que você deseja enriquecer com dados do Adobe Campaign.
 
-   Sua conta externa agora está pronta e vinculada ao Adobe Analytics. Você pode desativá-lo a qualquer momento marcando a caixa **[!UICONTROL Enabled]**.
+   Sua conta externa agora está pronta e vinculada ao Adobe Analytics. Você pode desativá-lo a qualquer momento marcando a **[!UICONTROL Enabled]** caixa.
 
    ![](assets/analytics.png)
 
-O workflow técnico **[!UICONTROL Share KPIs with Adobe Analytics]** agora será iniciado automaticamente e poderá ser visualizado no menu avançado selecionando **[!UICONTROL Administration > Application settings > Workflow]**. Esse workflow técnico será executado automaticamente a cada 15 minutos e enviará dados de até 6 meses no Adobe Analytics.
+O **[!UICONTROL Share KPIs with Adobe Analytics]** o workflow técnico agora será iniciado automaticamente e poderá ser visualizado no menu avançado selecionando **[!UICONTROL Administration > Application settings > Workflow]**. Esse workflow técnico será executado automaticamente a cada 15 minutos e enviará dados de até 6 meses no Adobe Analytics.
 
 ![](assets/analytics_3.png)
 
@@ -51,4 +51,4 @@ Seus dados agora estão disponíveis no Adobe Analytics.
 
 * [Contas externas](../../administration/using/external-accounts.md)
 * [Workflows técnicos](../../administration/using/technical-workflows.md)
-* [Compartilhar KPIs para vídeo integrado de ](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) relatórios do Campaign
+* [Compartilhar KPIs para relatórios integrados do Campaign](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) vídeo

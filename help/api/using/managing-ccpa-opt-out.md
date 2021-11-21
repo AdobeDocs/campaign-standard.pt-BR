@@ -17,7 +17,7 @@ ht-degree: 4%
 
 # Gerenciamento de recusa do CCPA {#managing-ccpa-optout}
 
-O status de recusa da CCPA de um perfil pode ser monitorado e gerenciado usando o atributo de perfil **ccpaOptOut** e os valores &quot;true&quot; ou &quot;false&quot;:
+O status de recusa do CCPA de um perfil pode ser monitorado e gerenciado com o uso da variável **ccpaOptOut** atributo de perfil e os valores &quot;true&quot; ou &quot;false&quot;:
 
 `"ccpaOptOut": <value>`
 
@@ -28,7 +28,7 @@ O status de recusa da CCPA de um perfil pode ser monitorado e gerenciado usando 
 >
 >O atributo &quot;Não participação na CCPA&quot; só está disponível a partir da versão 19.4. Para ambientes 19.3, é necessário estender o recurso Perfis e adicionar um campo booleano. Esse campo será adicionado à API com o rótulo escolhido. Sugerimos que você use a opção &quot;Não participação na CCPA&quot;.
 >
->Para obter mais informações, consulte a [documentação sobre gerenciamento de solicitações de privacidade](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
+>Para obter mais informações, consulte [Gerenciamento da documentação de solicitações de privacidade](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 <br/>
 

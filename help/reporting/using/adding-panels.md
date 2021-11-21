@@ -23,11 +23,11 @@ Para iniciar seu relatório, você pode adicionar um conjunto de painéis a um r
 
 Esse painel permite que você crie seus relatórios, conforme necessário. Você pode adicionar quantos painéis desejar em seus relatórios para filtrar seus dados com períodos de tempo diferentes.
 
-1. Clique no ícone **Painéis**. Você também pode adicionar um painel clicando no **Inserir guia** e selecionando **Novo painel em branco**.
+1. Clique no botão **Painéis** ícone . Você também pode adicionar um painel clicando no botão **Inserir guia** e seleção **Novo painel em branco**.
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. Arraste e solte o **Painel em branco** no seu painel.
+1. Arraste e solte a **Painel em branco** no painel.
 
    ![](assets/dynamic_report_panel.png)
 
@@ -35,7 +35,7 @@ Agora é possível adicionar uma tabela de forma livre ao painel para iniciar o 
 
 ## Adicionar uma tabela de forma livre {#adding-a-freeform-table}
 
-As tabelas de forma livre permitem criar uma tabela para analisar seus dados usando as diferentes métricas e dimensões disponíveis na tabela **Component**.
+As tabelas de forma livre permitem criar uma tabela para analisar seus dados usando as diferentes métricas e dimensões disponíveis no **Componente** tabela.
 
 Cada tabela e visualização é redimensionável e pode ser movida para personalizar melhor seu relatório.
 
@@ -43,21 +43,21 @@ Cada tabela e visualização é redimensionável e pode ser movida para personal
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. Arraste e solte o item **[!UICONTROL Freeform]** no seu painel.
+1. Arraste e solte a **[!UICONTROL Freeform]** no seu painel.
 
-   Você também pode adicionar uma tabela clicando na guia **[!UICONTROL Insert]** e selecionando **[!UICONTROL New Freeform]** ou clicando em **[!UICONTROL Add a freeform table]** em um painel vazio.
+   Também é possível adicionar uma tabela clicando no botão **[!UICONTROL Insert]** e seleção **[!UICONTROL New Freeform]** ou clicando em **[!UICONTROL Add a freeform table]** em um painel vazio.
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. No campo **[!UICONTROL Drop a segment here]** , adicione um **[!UICONTROL Segment]** da guia **[!UICONTROL Components]** na barra superior.
+1. No **[!UICONTROL Drop a segment here]** , adicione uma **[!UICONTROL Segment]** do **[!UICONTROL Components]** na barra superior.
 
    ![](assets/dynamic_report_panel_3.png)
 
-1. Arraste e solte itens da guia **[!UICONTROL Components]** nas colunas e linhas para criar a tabela.
+1. Arraste e solte itens do **[!UICONTROL Components]** nas colunas e linhas para criar a tabela.
 
    ![](assets/dynamic_report_freeform_3.png)
 
-1. Clique no ícone **[!UICONTROL Settings]** para alterar como os dados são exibidos em suas colunas.
+1. Clique no botão **[!UICONTROL Settings]** ícone para alterar como os dados são exibidos em suas colunas.
 
    ![](assets/dynamic_report_freeform_4.png)
 
@@ -69,7 +69,7 @@ Cada tabela e visualização é redimensionável e pode ser movida para personal
    * **[!UICONTROL Background]**: permite mostrar ou ocultar a barra de progresso horizontal nas células.
    * **[!UICONTROL Include retries]**: permite incluir novas tentativas no resultado. Isso só está disponível para **[!UICONTROL Sent]** e **[!UICONTROL Bounces + Errors]**.
 
-1. Selecione uma ou várias linhas e clique no ícone **[!UICONTROL Visualize]**. Uma visualização é adicionada para refletir as linhas selecionadas.
+1. Selecione uma ou várias linhas e clique no botão **[!UICONTROL Visualize]** ícone . Uma visualização é adicionada para refletir as linhas selecionadas.
 
    ![](assets/dynamic_report_freeform_5.png)
 

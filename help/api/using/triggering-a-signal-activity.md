@@ -17,9 +17,9 @@ ht-degree: 2%
 
 # Acionamento de uma atividade de sinal {#triggering-a-signal-activity}
 
-Em um workflow do Adobe Campaign Standard, pode haver uma ou mais atividades **External signal**. Essas atividades são &quot;ouvintes&quot; que aguardam para serem acionadas.
+Em um workflow do Adobe Campaign Standard, pode haver um ou mais **Sinal externo** atividades. Essas atividades são &quot;ouvintes&quot; que aguardam para serem acionadas.
 
-As APIs do Campaign Standard permitem acionar uma atividade **External signal** para chamar um workflow. A chamada da API pode incluir parâmetros que serão assimilados nas variáveis de eventos do fluxo de trabalho (um nome de público-alvo a ser direcionado, um nome de arquivo a ser importado, uma parte do conteúdo da mensagem etc.). Dessa forma, você pode integrar facilmente suas automações do Campaign com seu sistema externo.
+As APIs do Campaign Standard permitem acionar um **Sinal externo** para chamar um workflow. A chamada da API pode incluir parâmetros que serão assimilados nas variáveis de eventos do fluxo de trabalho (um nome de público-alvo a ser direcionado, um nome de arquivo a ser importado, uma parte do conteúdo da mensagem etc.). Dessa forma, você pode integrar facilmente suas automações do Campaign com seu sistema externo.
 
 >[!NOTE]
 >
@@ -27,13 +27,13 @@ As APIs do Campaign Standard permitem acionar uma atividade **External signal** 
 
 Para acionar um workflow, siga as etapas abaixo:
 
-1. Execute uma solicitação **GET** no workflow para recuperar o URL do acionador da atividade External signal .
+1. Executar um **GET** no workflow para recuperar o URL do acionador da atividade External signal .
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. Execute uma solicitação **POST** no URL retornado para acionar a atividade do sinal, com o parâmetro **&quot;source&quot;** no payload. Esse atributo é obrigatório e permite indicar a fonte de solicitação de acionamento.
+1. Executar um **POST** solicitação no URL retornado para acionar a atividade do sinal, com o **&quot;source&quot;** na carga. Esse atributo é obrigatório e permite indicar a fonte de solicitação de acionamento.
 
-Se quiser chamar o workflow com parâmetros, adicione-os ao payload com o atributo **&quot;parameters&quot;**. A sintaxe consiste no nome do parâmetro seguido pelo seu valor (os seguintes tipos são compatíveis: **sequência**, **número**, **booleano** e **data/hora**).
+Se quiser chamar o workflow com parâmetros, adicione-os ao payload com a variável **&quot;parameters&quot;** atributo. A sintaxe consiste no nome do parâmetro seguido pelo seu valor (os seguintes tipos são compatíveis: **string**, **número**, **booleano** e **data/hora**).
 
 ```
   -X POST <TRIGGER_URL>
@@ -56,7 +56,7 @@ Se quiser chamar o workflow com parâmetros, adicione-os ao payload com o atribu
 
 >[!NOTE]
 >
->Ao adicionar um parâmetro à carga útil, verifique se os valores **name** e **type** estão consistentes com as informações declaradas na atividade External signal . Além disso, o tamanho da carga não deve exceder 64 Ko.
+>Ao adicionar um parâmetro à carga, verifique se **name** e **type** Os valores são consistentes com as informações declaradas na atividade External signal . Além disso, o tamanho da carga não deve exceder 64 Ko.
 
 <br/>
 

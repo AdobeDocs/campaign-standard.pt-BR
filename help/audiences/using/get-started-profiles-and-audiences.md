@@ -36,13 +36,13 @@ Gerencie a permissão e o consentimento dos clientes usando serviços e landing 
 
 Ao criar campanhas ou mensagens, você pode especificar o público-alvo dos deliveries selecionando entre os contatos do banco de dados do Campaign, usando critérios simples ou avançados ou selecionando públicos-alvo.
 
-Identifique clientes de forma mais eficaz em todos os canais usando **perfis de cliente integrados**, **segmentos personalizados** e **grupos de controle**. Quando você conhece seus clientes, interesses, demografia e preferências de canal, é mais fácil criar experiências personalizadas que são notadas.
+Identifique clientes com mais eficiência em todos os canais usando **perfis de cliente integrados**, **segmentos personalizados** e **grupos de controle**. Quando você conhece seus clientes, interesses, demografia e preferências de canal, é mais fácil criar experiências personalizadas que são notadas.
 
 O Adobe Campaign cria perfis de clientes avançados em tempo real, permitindo que você forneça ofertas mais relevantes e personalizadas à medida que as preferências do cliente mudam. Além disso, o Adobe Campaign integra funcionalidades avançadas de análise, gestão de dados e direcionamento para construir públicos-alvo.
 
-**** Perfis são contatos individuais armazenados no banco de dados. Cada perfil corresponde a uma entrada no banco de dados que contém as informações necessárias para que esse perfil seja direcionado, qualificado e rastreado individualmente: O Adobe Campaign pode rastrear todas as interações de canais online e offline e mesclá-las em um único perfil.
+**Perfis** são contatos individuais armazenados no banco de dados. Cada perfil corresponde a uma entrada no banco de dados que contém as informações necessárias para que esse perfil seja direcionado, qualificado e rastreado individualmente: O Adobe Campaign pode rastrear todas as interações de canais online e offline e mesclá-las em um único perfil.
 
-**** Públicos-alvo são listas de perfis baseadas em um critério específico ou um conjunto de critérios. Usando workflows e o editor de query, você pode criar públicos-alvo que serão direcionados por suas campanhas de marketing, dependendo das informações que você tem sobre eles, suas atividades e seu histórico de marketing. Isso permite filtrar perfis subscritos, amostras ou criar públicos-alvo de destino em um número ilimitado de critérios.
+**Públicos-alvo** são listas de perfis criadas com base em um critério específico ou em um conjunto de critérios. Usando workflows e o editor de query, você pode criar públicos-alvo que serão direcionados por suas campanhas de marketing, dependendo das informações que você tem sobre eles, suas atividades e seu histórico de marketing. Isso permite filtrar perfis subscritos, amostras ou criar públicos-alvo de destino em um número ilimitado de critérios.
 
 Leia mais:
 
@@ -58,15 +58,15 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_permission.svg"  width="60px">
 
-Antes de começar a enviar mensagens para um contato, você precisa ter certeza de que recebeu a permissão. Caso contrário, seus emails poderão ser marcados como spam e isso afetará a capacidade de entrega da plataforma. Para garantir a criação de um banco de dados de perfil íntegro, proteja essa permissão como uma primeira etapa.
+Antes de começar a enviar mensagens para um contato, você precisa ter certeza de que recebeu a permissão. Caso contrário, seus emails poderão ser marcados como spam e isso afetará a capacidade de entrega da plataforma. Para garantir a criação de um banco de dados de perfis íntegro, proteja essa permissão como uma primeira etapa.
 
-Com o Campaign, recomendamos usar **mecanismos fáceis de aceitação e recusa** por meio de [services](../../audiences/using/creating-a-service.md) e [landing pages](../../channels/using/getting-started-with-landing-pages.md) para atualizar suas informações de contato e expandir seu banco de dados.
+Com o Campaign, recomendamos que você use **mecanismos fáceis de aceitação e de recusa** through [serviços](../../audiences/using/creating-a-service.md)e [páginas de aterrissagem](../../channels/using/getting-started-with-landing-pages.md) para atualizar suas informações de contato e expandir seu banco de dados.
 
-Fornecer **links de unsubscription** em suas mensagens permitirá que os Perfis sejam adicionados à  de lista de bloqueios, quando necessário, e portanto melhorar a capacidade de delivery da sua plataforma. Para obter mais informações sobre lista de bloqueios gerenciamento de , consulte [Sobre participação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Fornecimento **links de unsubscription** em suas mensagens, permitirá que Perfis sejam adicionados à  de lista de bloqueios, quando necessário, e portanto melhore a capacidade de entrega da plataforma. Para obter mais informações sobre gerenciamento de lista de bloqueios, consulte [Sobre participação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
->Você deve respeitar a [política de uso aceitável do Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
+>Você deve respeitar a variável [Política de uso aceitável para Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
 
 Leia mais:
 
@@ -77,11 +77,11 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
-A Adobe Campaign oferece um conjunto de ferramentas para ajudá-lo com a **Conformidade com a privacidade** para GDPR, CCPA e outras leis de privacidade.
+A Adobe Campaign oferece um conjunto de ferramentas para ajudá-lo com seu **Conformidade com a privacidade** para GDPR, CCPA e outras leis de privacidade.
 
-Saiba mais neste [este artigo](https://helpx.adobe.com/br/campaign/kb/campaign-privacy.html) sobre o Gerenciamento de privacidade e os recursos que fornecemos para gerenciar o Direito de acesso, o Direito de ser esquecido, o consentimento, a retenção de dados e as funções de usuário.
+Saiba mais nesta seção [este artigo](https://helpx.adobe.com/br/campaign/kb/campaign-privacy.html) sobre o Gerenciamento de privacidade e os recursos que fornecemos para gerenciar o Direito de acesso, o Direito de ser esquecido, o consentimento, a retenção de dados e as funções de usuário.
 
-Privacidade e consentimento no Campaign e como gerenciá-los são apresentados [nesta seção](../../start/using/privacy.md). Você também encontrará as práticas recomendadas para ajudar você a estar em conformidade com a privacidade ao usar nosso serviço.
+Privacidade e consentimento no Campaign e como gerenciá-los são apresentados em [esta seção](../../start/using/privacy.md). Você também encontrará as práticas recomendadas para ajudar você a estar em conformidade com a privacidade ao usar nosso serviço.
 
 ## Recursos adicionais
 

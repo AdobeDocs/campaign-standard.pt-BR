@@ -17,9 +17,9 @@ ht-degree: 25%
 
 # Monitoramento de uma solicitação de privacidade {#monitoring-a-privacy-request}
 
-Você pode monitorar informações sobre uma solicitação de privacidade criada usando uma solicitação **GET**.
+Você pode monitorar informações sobre uma solicitação de privacidade criada usando um **GET** solicitação.
 
-A descrição da lista de status está disponível na [Documentação de gerenciamento de privacidade](https://helpx.adobe.com/br/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
+A descrição da lista de status está disponível na variável [Documentação de gerenciamento de privacidade](https://helpx.adobe.com/br/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
 
 <br/>
 

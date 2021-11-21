@@ -17,14 +17,14 @@ ht-degree: 5%
 
 # Declaração dos parâmetros na atividade External signal {#declaring-the-parameters-in-the-external-signal-activity}
 
-A primeira etapa para chamar um workflow com parâmetros é declará-los em uma atividade **[!UICONTROL External signal]**.
+A primeira etapa para chamar um workflow com parâmetros é declará-los em um **[!UICONTROL External signal]** atividade .
 
-1. Abra a atividade **[!UICONTROL External signal]** e selecione a guia **[!UICONTROL Parameters]** .
-1. Clique no botão **[!UICONTROL Create element]** e especifique o nome e o tipo de cada parâmetro.
+1. Abra o **[!UICONTROL External signal]** e, em seguida, selecione a **[!UICONTROL Parameters]** guia .
+1. Clique no botão **[!UICONTROL Create element]** , em seguida, especifique o nome e o tipo de cada parâmetro.
 
    >[!CAUTION]
    >
-   >Certifique-se de que o nome e o número de parâmetros sejam idênticos ao definido ao chamar o workflow (consulte [esta página](../../automating/using/defining-parameters-calling-workflow.md)). Além disso, os tipos de parâmetros devem ser consistentes com os valores esperados.
+   >Verifique se o nome e a quantidade de parâmetros são idênticos ao definido ao chamar o fluxo de trabalho (consulte [esta página](../../automating/using/defining-parameters-calling-workflow.md)). Além disso, os tipos de parâmetros devem ser consistentes com os valores esperados.
 
    ![](assets/extsignal_declaringparameters_1.png)
 

@@ -21,11 +21,11 @@ As seguintes dicas de solução de problemas ajudam a resolver os problemas mais
 
 **A funcionalidade está ativada?**
 
-Para verificar se a integração Triggers - Campaign está ativada, clique no logotipo do Adobe Campaign, no canto superior esquerdo, em seguida, selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Você deve ver o item **[!UICONTROL Experience Cloud Triggers]**.
+Para verificar se a integração Triggers - Campaign está ativada, clique no logotipo do Adobe Campaign, no canto superior esquerdo, e selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Você deve ver o **[!UICONTROL Experience Cloud Triggers]** item.
 
 Se vir, vá para a próxima etapa.
 
-Caso contrário, entre em contato com o executivo da sua conta Adobe ou com o parceiro de serviços profissionais. Consulte [Ativando a funcionalidade](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
+Caso contrário, entre em contato com o executivo da sua conta Adobe ou com o parceiro de serviços profissionais. Consulte [Ativação da funcionalidade](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
 
 **Tente criar um acionador**
 
@@ -45,7 +45,7 @@ Se a publicação tiver êxito, vá para a próxima etapa. Caso contrário, entr
 
 **Gerar o acionador a partir do site**
 
-Siga as etapas descritas em [Editing the transactional message template](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) para editar e publicar o template transacional. Em seguida, teste a geração do acionador a partir do site.
+Siga as etapas descritas em [Edição do template de mensagem transacional](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) para editar e publicar o template transacional. Em seguida, teste a geração do acionador a partir do site.
 
 Se o acionador for recebido pelo Analytics, vá para a próxima etapa. Caso contrário, verifique os seguintes itens:
 

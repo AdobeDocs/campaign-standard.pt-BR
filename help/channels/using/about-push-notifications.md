@@ -107,7 +107,7 @@ Você verá a seguinte mensagem.
 
 ![](assets/faq_2.png)
 
-### É possível fazer upload de certificados de Produção e de Sandbox ao mesmo tempo para aplicativos iOS (N/A para Android)? {#prod-sandbox-certificate}
+### É possível fazer upload de certificados de Produção e de Sandbox ao mesmo tempo para o aplicativo iOS (N/A para Android)? {#prod-sandbox-certificate}
 
 Não, os aplicativos funcionarão no modo de sandbox ou de produção e não poderão ser alterados para o outro (ou seja, sandbox para aplicativo de produção) após a configuração. Recomendamos que você teste seu aplicativo no modo sandbox primeiro e depois faça a transição para o modo de produção.
 
@@ -119,11 +119,11 @@ Sim, o Campaign suporta ambas as plataformas ao mesmo tempo e permite carregar c
 
 ### Fiz upload de certificados de push com êxito, mas nenhuma mensagem de push é enviada. {#push-certificates-upload}
 
-Certifique-se de que seus certificados de push sejam válidos testando-os [aqui](https://pushtry.com/).
+Certifique-se de que seus certificados de push sejam válidos testando-os [here](https://pushtry.com/).
 
 ### Posso enviar notificações por push com êxito de pushtry.com, mas não por meio do Campaign. {#push-not-sending}
 
-Certifique-se de que você está seguindo as instruções de carga de push fornecidas [aqui](../../administration/using/push-payload.md).
+Certifique-se de que você está seguindo as instruções de carga de push fornecidas [here](../../administration/using/push-payload.md).
 
 Observe que para Android, o Campaign só oferece suporte à carga de dados e não à carga de notificação
 
@@ -137,26 +137,26 @@ Abra um tíquete de atendimento ao cliente.
 
 ### As notificações por push estão sendo entregues pelo Campaign, mas o arquivo de mídia não está sendo exibido.{#media-file-unavailable}
 
-Os desenvolvedores de aplicativos móveis precisam lidar com o suporte para arquivos de mídia no aplicativo. Às vezes, a largura de banda da rede também pode impedir a renderização de um arquivo de mídia. Consulte esta [página](../../administration/using/image-push-notification.md) para obter mais ponteiros.
+Os desenvolvedores de aplicativos móveis precisam lidar com o suporte para arquivos de mídia no aplicativo. Às vezes, a largura de banda da rede também pode impedir a renderização de um arquivo de mídia. Consulte esta [página](../../administration/using/image-push-notification.md) para impressoras adicionais.
 
 ### O que preciso fazer para ativar o Relatório de push no Campaign? {#push-reporting-enable}
 
 Siga as etapas abaixo:
 
-* Configure um postback de rastreamento de push. Instruções podem ser encontradas [aqui](../../administration/using/configuring-a-mobile-application.md).
+* Configure um postback de rastreamento de push. Instruções podem ser encontradas [here](../../administration/using/configuring-a-mobile-application.md).
 * Implemente a API trackAction a partir do Mobile Core. Consulte esta [página](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) para obter mais informações.
 
-Instruções mais detalhadas podem ser encontradas neste [page](../../administration/using/push-tracking.md).
+Instruções mais detalhadas podem ser encontradas neste [página](../../administration/using/push-tracking.md).
 
 ### Quais relatórios estão disponíveis para o Canal de push? {#push-report-available}
 
 Um relatório pronto para uso está disponível no Adobe Campaign for Push channel. Consulte esta [documentação](../../reporting/using/push-notification-report.md).
 
-Consulte esta [página](../../reporting/using/indicator-calculation.md#push-notification-delivery) para entender como cada métrica de push é calculada.
+Veja isso [página](../../reporting/using/indicator-calculation.md#push-notification-delivery) para entender como cada métrica de push é calculada.
 
 ### Os deep links são suportados em mensagens de push e no aplicativo? {#deeplink-push}
 
 Sim, os deep links são suportados nas mensagens de push. Os deep links devem incluir:
 
 * Idioma que declara que o rastreamento de delivery precisa ser desativado para que os deep links funcionem.
-* Appsflyer com Ramificação como parceiros que podem fazer o rastreamento de deep link. Para obter mais informações sobre a integração do Branch e do Adobe Campaign Standard, consulte esta [página](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* Appsflyer com Ramificação como parceiros que podem fazer o rastreamento de deep link. Para obter mais informações sobre a integração do Branch e do Adobe Campaign Standard, consulte esta seção [página](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).

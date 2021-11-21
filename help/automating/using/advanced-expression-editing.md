@@ -155,7 +155,7 @@ As condições devem ser vinculadas a valores usando um dos operadores a seguir.
   <tr> 
    <td> <span class="uicontrol">Less than</span> <br /> </td> 
    <td> &lt;<br /> </td> 
-   <td> &lt;&gt;<br /> </td> 
+   <td> &lt;<br /> </td> 
    <td> O primeiro valor deve ser categoricamente menor que o segundo.<br /> </td> 
    <td> <strong>@created &lt; DaysAgo(100)</strong> recupera todos os perfis criados no banco de dados há menos de 100 dias.<br /> </td> 
   </tr> 
@@ -169,7 +169,7 @@ As condições devem ser vinculadas a valores usando um dos operadores a seguir.
   <tr> 
    <td> <span class="uicontrol">Less than or equal to</span> <br /> </td> 
    <td> &lt;=<br /> </td> 
-   <td> &lt;&gt;<br /> </td> 
+   <td> &lt;=<br /> </td> 
    <td> O primeiro valor deve ser menor que ou igual ao segundo.<br /> </td> 
    <td> <strong>@age &lt;= 60</strong> recupera perfis com 60 anos ou menos.<br /> </td> 
   </tr> 
@@ -190,21 +190,21 @@ As condições devem ser vinculadas a valores usando um dos operadores a seguir.
   <tr> 
    <td> <span class="uicontrol">Like</span> <br /> </td> 
    <td> LIKE<br /> </td> 
-   <td> N/A<br /> </td> 
+   <td> N/D<br /> </td> 
    <td> <span class="uicontrol">Like</span> é muito semelhante ao operador <span class="uicontrol">Contains</span>. Permite inserir um caractere curinga <span class="uicontrol">%</span> no valor que está sendo pesquisado.<br /> </td> 
    <td> <strong>@lastName LIKE Mart%n</strong>. Aqui, o caractere de substituição <strong>%</strong> serve como "joker" para encontrar o nome "Martin" no caso hipotético de a ortografia não estar correta.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Not like</span> <br /> </td> 
    <td> NOT<br /> </td> 
-   <td> N/A<br /> </td> 
+   <td> N/D<br /> </td> 
    <td> É semelhante a <span class="uicontrol">Like</span>. Permite que você não recupere o valor inserido. Aqui o valor inserido também deve conter o caractere curinga <span class="uicontrol">%</span>.<br /> </td> 
    <td> <strong>@lastName NOT Smi%h</strong>. Aqui, os destinatários correspondem ao nome 'Smi%h' (então Smith, etc.) não são retornados como resultado.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Is empty</span> <br /> </td> 
    <td> IS NULL<br /> </td> 
-   <td> N/A<br /> </td> 
+   <td> N/D<br /> </td> 
    <td> O primeiro valor deve corresponder a um valor vazio.<br /> </td> 
    <td> <strong>@mobilePhone IS NULL</strong> recupera todos os perfis cujo número de telefone celular não foi fornecido.<br /> </td> 
   </tr> 

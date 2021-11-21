@@ -21,21 +21,21 @@ O Campaign Standard oferece várias ferramentas para ajudá-lo a expandir seu ba
 
 ## Importação de dados por meio de workflows {#importing-data-through-workflows}
 
-Os workflows permitem coletar dados e importá-los para o banco de dados do Campaign usando atividades [[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md) .
+Os workflows permitem coletar dados e importá-los para o banco de dados do Campaign por meio do uso de [[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md) atividades.
 
-As informações genéricas e as práticas recomendadas ao importar dados por meio de workflows são apresentadas em [this section](../../automating/using/about-data-import-and-export.md).
+Informações genéricas e práticas recomendadas ao importar dados por meio de workflows são apresentadas em [esta seção](../../automating/using/about-data-import-and-export.md).
 
 Além disso, é possível configurar modelos para importar dados. O uso de templates de importação é uma prática recomendada se você precisar importar arquivos com a mesma estrutura regularmente.
 
 Você pode configurar dois tipos de templates:
 
-* **Templates** de workflow: são workflows pré-configurados que podem ser configurados uma vez de acordo com suas necessidades e reutilizados sempre que quiser importar dados e atualizar o banco de dados.
+* **Templates de workflow**: são workflows pré-configurados que podem ser configurados uma vez de acordo com suas necessidades e reutilizados sempre que quiser importar dados e atualizar o banco de dados.
 
-   Um exemplo de template de workflow para importar dados é detalhado em [this section](../../automating/using/creating-import-workflow-templates.md).
+   Um exemplo de template de workflow para importar dados é detalhado em [esta seção](../../automating/using/creating-import-workflow-templates.md).
 
-* **Importar modelos** de dados: como modelos de workflow, esses são modelos baseados em workflows, que são configurados para carregar arquivos para atualizar o banco de dados. Depois de configurados, eles são disponibilizados para usuários com uma visualização simplificada no menu **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]**.
+* **Importar modelos de dados**: como modelos de workflow, esses são modelos baseados em workflows, que são configurados para carregar arquivos para atualizar o banco de dados. Depois de configurados, eles são disponibilizados para usuários com uma visualização simplificada na **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** menu.
 
-   Para obter mais informações sobre importar templates de dados, consulte a [documentação dedicada](../../automating/using/importing-data-with-import-templates.md).
+   Para obter mais informações sobre importação de templates de dados, consulte [documentação dedicada](../../automating/using/importing-data-with-import-templates.md).
 
 ## Coleta de dados de landing pages {#collecting-data-from-landing-pages}
 
@@ -47,14 +47,14 @@ O princípio é o seguinte:
 * Mapeie cada campo de entrada com o campo correspondente do banco de dados.
 * Disponibilizar a landing page online através de um site ou por meio de um link direto em uma mensagem.
 
-Para obter mais informações sobre landing pages, consulte a [documentação dedicada](../../channels/using/getting-started-with-landing-pages.md).
+Para obter mais informações sobre landing pages, consulte o [documentação dedicada](../../channels/using/getting-started-with-landing-pages.md).
 
 ## Sincronizar perfis do Microsoft Dynamics 365
 
 A integração do Campaign Standard com o Microsoft Dynamics 365 permite transmitir dados de contato do Microsoft Dynamics 365 para o banco de dados do Campaign.
 Esses contatos ficam visíveis na lista Perfis e podem ser direcionados para campanhas de marketing.
 
-Para obter mais informações sobre essa integração, consulte a [documentação dedicada](../../integrating/using/d365-acs-get-started.md).
+Para obter mais informações sobre essa integração, consulte [documentação dedicada](../../integrating/using/d365-acs-get-started.md).
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ Para obter mais informações sobre essa integração, consulte a [documentaçã
 
 As APIs do Campaign Standard permitem executar operações para atualizar o banco de dados, como criação, atualização ou exclusão de perfis ou serviços.
 
-Para obter mais informações sobre como usar as APIs, consulte a [documentação dedicada](../../api/using/get-started-apis.md).
+Para obter mais informações sobre como usar as APIs, consulte [documentação dedicada](../../api/using/get-started-apis.md).
 
 >[!IMPORTANT]
 >

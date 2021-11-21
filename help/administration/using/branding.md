@@ -89,13 +89,13 @@ Uma **Marca** é definida pelas seguintes características:
 
 Você pode adicionar novas entidades de sua organização ao Campaign ou criar um novo tipo de email que deve ser enviado em um subdomínio diferente. Para fazer isso, siga as etapas abaixo:
 
-1. **Configurar um novo subdomínio**  - para que qualquer novo subdomínio seja usado pelo Adobe, a primeira etapa será configurá-lo. Você pode fazer isso por meio do [Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=pt-BR) ou entrar em contato com o contato técnico do Adobe. Saiba mais sobre a configuração de subdomínio [neste artigo](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
+1. **Configurar um novo subdomínio** - Para qualquer novo subdomínio a ser usado pelo Adobe, a primeira etapa será configurá-lo. Você pode fazer isso por meio de [Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=pt-BR) ou entre em contato com o contato técnico do Adobe. Saiba mais sobre a configuração de subdomínio [neste artigo](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
 
    >[!NOTE]
    >
    >O Painel de controle do Campaign é acessível a todos os usuários administradores. As etapas para conceder acesso de Administrador a um usuário estão detalhadas [nesta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=br#discover-control-panel).
 
-1. **Criar um tíquete**  - Depois que o subdomínio é configurado, o Adobe o configurará no ambiente de produção. Para solicitar isso, [crie um ticket para o Atendimento ao cliente](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) com as seguintes informações:
+1. **Criar um tíquete** - Após configurar o subdomínio, o Adobe o configurará no ambiente de produção. Para solicitar isso, [criar um tíquete para o Atendimento ao cliente](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) com as seguintes informações:
 
    * Assunto: Configuração da nova marca ACS
 
@@ -105,9 +105,9 @@ Você pode adicionar novas entidades de sua organização ao Campaign ou criar u
 
    * URL de produção: XXX.campaign.adobe.com
 
-1. **Criar um template do delivery**  - Quando a nova marca estiver disponível, a prática recomendada é criar pelo menos um novo template do delivery em branco que faça referência a essa nova marca. [Saiba mais](#linking-a-brand-to-a-template).
+1. **Criar um template de delivery** - Quando a nova marca estiver disponível, a prática recomendada é criar pelo menos um novo template do delivery em branco que faça referência a essa nova marca. [Saiba mais](#linking-a-brand-to-a-template).
 
-1. **Verificar diretrizes de deliverability**  - Antes de começar a usar o novo domínio, a estratégia deve ser discutida com a equipe de Deliverability do Adobe. Eles ajudarão a definir as práticas recomendadas, caso uma nova afinidade deva ser criada para dividir os IPs entre domínios, por exemplo, e/ou se um plano de aumento deve ser definido. Saiba mais sobre as Práticas recomendadas de capacidade de entrega [nesta seção](../../sending/using/about-deliverability.md).
+1. **Verificar diretrizes de entrega** - Antes de começar a usar o novo domínio, a estratégia deve ser discutida com a equipe de capacidade de entrega do Adobe. Eles ajudarão a definir as práticas recomendadas, caso uma nova afinidade deva ser criada para dividir os IPs entre domínios, por exemplo, e/ou se um plano de aumento deve ser definido. Saiba mais sobre as práticas recomendadas de capacidade de delivery [nesta seção](../../sending/using/about-deliverability.md).
 
 ## Atribuição de uma marca a um email {#assigning-a-brand-to-an-email}
 
@@ -151,7 +151,7 @@ Neste exemplo, vamos criar uma nova marca relacionada a viagens e usá-la em um 
 >
 >A configuração da marca é gerenciada pela Adobe somente porque requer permissões específicas e configurações técnicas.
 
-1. O administrador do Adobe Campaign primeiro cria a marca a partir do menu **[!UICONTROL Administration > Instance settings > Brand configuration]** e adiciona o elemento **Férias nos trópicos** e configura o **[!UICONTROL ID]** e o **[!UICONTROL Header parameters of sent emails]** da marca.
+1. O administrador do Adobe Campaign primeiro cria a marca do **[!UICONTROL Administration > Instance settings > Brand configuration]** e adiciona o **Férias nos trópicos** e configura o **[!UICONTROL ID]** e **[!UICONTROL Header parameters of sent emails]** da marca.
 
    ![](assets/branding_07.png)
 

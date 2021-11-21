@@ -16,7 +16,7 @@ ht-degree: 89%
 
 ---
 
-# Agendamentos{#scheduler}
+# Scheduler{#scheduler}
 
 ## Descrição {#description}
 
@@ -34,7 +34,7 @@ Ao criar seu fluxo de trabalho, use apenas uma atividade **[!UICONTROL Scheduler
 >
 >A **[!UICONTROL Repetition frequency]** da atividade não pode ser inferior a 10 minutos. Isso significa que um fluxo de trabalho não pode ser executado automaticamente mais de uma vez a cada 10 minutos.
 
-Ao projetar um workflow agendado que inclui várias atividades, é necessário garantir que o workflow não seja reagendado até sua conclusão. Para fazer isso, é necessário configurar o workflow para impedir a execução se uma ou mais tarefas de uma execução anterior ainda estiverem pendentes. Para obter mais informações, consulte [esta página](../../automating/using/scheduled-workflows-execution.md).
+Ao projetar um workflow agendado que inclui várias atividades, você precisa garantir que o workflow não seja reagendado até que seja concluído. Para fazer isso, é necessário configurar o workflow para impedir a execução se uma ou mais tarefas de uma execução anterior ainda estiverem pendentes. Para obter mais informações, consulte [esta página](../../automating/using/scheduled-workflows-execution.md).
 
 **Tópicos relacionados:**
 

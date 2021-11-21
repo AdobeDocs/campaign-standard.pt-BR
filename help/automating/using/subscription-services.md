@@ -16,7 +16,7 @@ ht-degree: 98%
 
 ---
 
-# Serviços de subscrição {#subscription-services}
+# Serviços de assinatura {#subscription-services}
 
 ## Descrição {#description}
 

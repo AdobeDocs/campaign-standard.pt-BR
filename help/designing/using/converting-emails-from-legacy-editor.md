@@ -17,13 +17,13 @@ ht-degree: 8%
 
 # Conversão de conteúdo de email do editor herdado {#converting-an-html-content}
 
-Comece a trabalhar com o Email Designer e crie modelos e fragmentos reutilizáveis do HTML de email criado no Editor herdado.
+Comece a trabalhar com o Email Designer e crie modelos e fragmentos reutilizáveis do seu HTML de email criado no Editor herdado.
 
-Esse caso de uso permite criar um modelo do Designer de email usando um email HTML e dividindo-o em componentes HTML no Designer de email.
+Esse caso de uso permite criar um modelo do Designer de email usando um email do HTML e dividindo-o em componentes do HTML no Designer de email.
 
 >[!NOTE]
 >
->Como o modo de compatibilidade, um componente HTML é editável com opções limitadas: só é possível executar edição no local.
+>Como o modo de compatibilidade, um componente HTML pode ser editado com opções limitadas: só é possível executar edição no local.
 
 >[!IMPORTANT]
 >
@@ -31,24 +31,24 @@ Esse caso de uso permite criar um modelo do Designer de email usando um email HT
 
 ## Preparação do conteúdo do email
 
-1. Selecione um email HTML.
-1. Identifique as seções para dividir o email HTML.
-1. Recorte os diferentes blocos do seu HTML.
+1. Selecione um HTML email.
+1. Identifique as seções para dividir o email do HTML.
+1. Corte os diferentes blocos do seu HTML.
 
 ## Criar sua estrutura de email
 
-1. Abra o **[!UICONTROL Email Designer]** para criar um conteúdo de email vazio.
+1. Abra o **[!UICONTROL Email Designer]**  para criar um conteúdo de email vazio.
 1. Defina os atributos de nível de corpo: cores de fundo, largura, etc. Para obter mais informações, consulte [Edição de estilos de email](../../designing/using/styles.md).
 1. Adicione quantos componentes da estrutura tiver seções. Para obter mais informações, consulte [Edição da estrutura do email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 ## Adicionar conteúdo HTML
 
 1. Adicione um componente HTML a cada componente de estrutura. Para obter mais informações, consulte [Inclusão de fragmentos e componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. Copie e cole seu HTML em cada componente.
+1. Copie e cole o HTML em cada componente.
 
 ## Gerenciar o estilo do seu email {#manage-the-style-of-your-email}
 
-1. Alterne para **[!UICONTROL Mobile view]**. Para obter mais informações, consulte [esta seção](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
+1. Mudar para **[!UICONTROL Mobile view]**. Para obter mais informações, consulte [esta seção](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
 1. Para corrigir isso, alterne para o modo de código-fonte e copie e cole sua seção de estilo em uma nova seção de estilo. Por exemplo:
 
@@ -78,7 +78,7 @@ Esse caso de uso permite criar um modelo do Designer de email usando um email HT
 
 ## Caso de uso
 
-Vamos tentar converter esse email, criado no editor herdado, em um template **[!UICONTROL Email Designer]**.
+Vamos tentar converter este email, criado no editor herdado, em um **[!UICONTROL Email Designer]** modelo .
 
 ### Identifique a seção do seu email
 
@@ -90,19 +90,19 @@ Para identificar qual elemento é qual seção do HTML, você pode selecioná-lo
 
 ![](assets/breadcrumbs.png)
 
-Para ver a versão HTML do email, clique em **[!UICONTROL Show source]**.
+Para ver a versão do HTML do email, clique em **[!UICONTROL Show source]**.
 
 ### Criar o modelo de email e sua estrutura
 
-1. Arraste e solte **[!UICONTROL Structure components]** refletindo o layout do nosso email.
+1. Arrastar e soltar **[!UICONTROL Structure components]**  refletindo o layout do email.
 
 1. Repita quantas vezes forem necessárias. Precisamos criar 11 componentes de estrutura.
 
    ![](assets/structure-components-migration.png)
 
-### Inserção de componentes de conteúdo HTML
+### Inserção de componentes de conteúdo do HTML
 
-1. Insira um **[!UICONTROL HTML component]** em cada **[!UICONTROL Structure component]** .
+1. Insira um **[!UICONTROL HTML component]**  em cada **[!UICONTROL Structure component]** .
 
    ![](assets/html-components.png)
 
@@ -110,7 +110,7 @@ Para ver a versão HTML do email, clique em **[!UICONTROL Show source]**.
 
    ![](assets/show-source-code.png)
 
-1. Insira a seção HTML .
+1. Insira a seção HTML.
 
 1. Clique em **[!UICONTROL Save]**.
 

@@ -34,9 +34,9 @@ Antes de usar as APIs, o mapeamento de dados deve ter sido configurado e publica
 
 Depois que o mapeamento de dados for criado, é necessário impedi-lo de ser executado para que possa acioná-lo a partir das APIs sempre que desejar. Para fazer isso, siga estes passos:
 
-1. No Campaign Standard, vá para o menu **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]**.
+1. No Campaign Standard, acesse **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** menu.
 
-1. Clique duas vezes no mapeamento de dados para abri-lo, depois clique no botão **[!UICONTROL Stop]**.
+1. Clique duas vezes no mapeamento de dados para abri-lo, depois clique no botão **[!UICONTROL Stop]** botão.
 
    ![](assets/aep_datamapping_stop.png)
 
@@ -52,7 +52,7 @@ A assimilação imediata de um mapeamento XDM no Adobe Experience Platform é ac
 
 >[!NOTE]
 >
->Para executar a chamada de assimilar POST API, o usuário deve ter uma função **SQL function execution**, que pode ser fornecida por um administrador do Campaign Standard executando abaixo o Script JS:
+>Para executar uma chamada de API de POST de assimilação, o usuário deve ter um **Execução da função SQL** , que pode ser fornecida por um administrador do Campaign Standard executando abaixo o Script JS:
 >
 >
 ```
@@ -106,7 +106,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->Informações detalhadas sobre o status da solicitação de mapeamento XDM e suas tarefas relacionadas estão disponíveis na interface do Campaign Standard, no menu **[!UICONTROL Status of data export to platform]** (consulte [Ativação de mapeamento](../../integrating/using/aep-mapping-activation.md)).
+>Informações detalhadas sobre o status da solicitação de mapeamento XDM e suas tarefas relacionadas estão disponíveis na interface do Campaign Standard, na **[!UICONTROL Status of data export to platform]** (consulte [Ativação de mapeamento](../../integrating/using/aep-mapping-activation.md)).
 
 A operação GET retorna as informações abaixo:
 

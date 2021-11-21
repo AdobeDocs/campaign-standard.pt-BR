@@ -42,16 +42,16 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Em lista de bloqueios<br /> </td> 
+   <td> Na  lista de bloqueios<br /> </td> 
    <td> @blacklist<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> Taxa de  Lista de bloqueios<br /> </td> 
-   <td> @rateBlacklisted<br /> </td> 
+   <td> @rateBlacklist<br /> </td> 
    <td> @blacklist/@sent<br /> </td> 
-   <td> O denominador para cálculo de taxa é baseado na contagem de Enviados (Entregues + Devoluções).<br /> </td> 
+   <td> O denominador para cálculo de taxa é baseado na contagem de Enviados (Entregues + Rejeições).<br /> </td> 
   </tr> 
   <tr> 
    <td> Rejeições + Erros<br /> </td> 
@@ -75,7 +75,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> Índice de click-through<br /> </td> 
    <td> @clickthrough<br /> </td> 
    <td> @uniqueclicks/@delivery<br /> </td> 
-   <td> O denominador para cálculo de taxa é baseado apenas em Delivered.<br /> </td> 
+   <td> O denominador para cálculo de taxa é baseado apenas em Delivered .<br /> </td> 
   </tr> 
   <tr> 
    <td> Entregue<br /> </td> 
@@ -84,10 +84,10 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Taxa entregue<br /> </td> 
+   <td> Taxa de delivery<br /> </td> 
    <td> @rateDelivered<br /> </td> 
    <td> @delivery/@sent<br /> </td> 
-   <td> O denominador para cálculo de taxa é baseado na contagem de Enviados (Entregues + Devoluções).<br /> </td> 
+   <td> O denominador para cálculo de taxa é baseado na contagem de Enviados (Entregues + Rejeições).<br /> </td> 
   </tr> 
   <tr> 
    <td> Devoluções permanentes<br /> </td> 
@@ -99,7 +99,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> Taxa de devoluções permanentes<br /> </td> 
    <td> @rateHardBounces<br /> </td> 
    <td> @hardBounces/@sent<br /> </td> 
-   <td> O denominador para cálculo de taxa é baseado na contagem de Enviados (Entregues + Devoluções).<br /> </td> 
+   <td> O denominador para cálculo de taxa é baseado na contagem de Enviados (Entregues + Rejeições).<br /> </td> 
   </tr> 
   <tr> 
    <td> Domínio inválido<br /> </td> 
@@ -117,7 +117,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> Mirror page<br /> </td> 
    <td> @mirrorPage<br /> </td> 
    <td> count(@trackingUrlType=6)<br /> </td> 
-   <td> O denominador para cálculo de taxa é baseado apenas em Delivered.<br /> </td> 
+   <td> O denominador para cálculo de taxa é baseado apenas em Delivered .<br /> </td> 
   </tr> 
   <tr> 
    <td> Taxa de mirror page<br /> </td> 
@@ -141,7 +141,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> Taxa de abertura<br /> </td> 
    <td> @rateOpens<br /> </td> 
    <td> @opens/@delivery<br /> </td> 
-   <td> O denominador para cálculo de taxa é baseado apenas em Delivered.<br /> </td> 
+   <td> O denominador para cálculo de taxa é baseado apenas em Delivered .<br /> </td> 
   </tr> 
   <tr> 
    <td> Quarentena<br /> </td> 
@@ -153,7 +153,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> Taxa de quarentena<br /> </td> 
    <td> @rateQuarantine<br /> </td> 
    <td> @quarantine/@sent<br /> </td> 
-   <td> O denominador para cálculo de taxa é baseado na contagem de Enviados (Entregues + Devoluções).<br /> </td> 
+   <td> O denominador para cálculo de taxa é baseado na contagem de Enviados (Entregues + Rejeições).<br /> </td> 
   </tr>
   <tr> 
    <td> Rejeitada<br /> </td> 
@@ -165,7 +165,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> Taxa rejeitada<br /> </td> 
    <td> @rateRejected<br /> </td> 
    <td> @rejected/@sent<br /> </td> 
-   <td> O denominador para cálculo de taxa é baseado na contagem de Enviados (Entregues + Devoluções).<br /> </td> 
+   <td> O denominador para cálculo de taxa é baseado na contagem de Enviados (Entregues + Rejeições).<br /> </td> 
   </tr> 
   <tr> 
    <td> Processado/enviado<br /> </td> 
@@ -183,12 +183,12 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> Taxa de rejeição suave<br /> </td> 
    <td> @rateSoftBounces<br /> </td> 
    <td> @softBounces/@sent<br /> </td> 
-   <td> O denominador para cálculo de taxa é baseado na contagem de Enviados (Entregues + Devoluções).<br /> </td> 
+   <td> O denominador para cálculo de taxa é baseado na contagem de Enviados (Entregues + Rejeições).<br /> </td> 
   </tr> 
   <tr> 
-   <td> Cliques exclusivos<br /> </td> 
+   <td> Cliques únicos<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Cliques exclusivos são calculados usando os conceitos do ThetaSketch. Para obter mais informações, consulte este <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplo</a>.<br /> </td> 
+   <td> Cliques exclusivos são calculados usando os conceitos do ThetaSketch. Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplo</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -213,7 +213,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> Taxa de cancelamento de inscrição<br /> </td> 
    <td> @rateUnsubscribes<br /> </td> 
    <td> @unsubscribes/@delivery<br /> </td> 
-   <td> O denominador para cálculo de taxa é baseado apenas em Delivered.<br /> </td> 
+   <td> O denominador para cálculo de taxa é baseado apenas em Delivered .<br /> </td> 
   </tr> 
   <tr> 
    <td> Usuário desconhecido<br /> </td> 
@@ -246,14 +246,14 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> @count(status=delivered)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Taxa entregue<br /> </td> 
+   <td> Taxa de delivery<br /> </td> 
    <td> @rateDelivered<br /> </td> 
-   <td> (@delivery/@sent)*100<br /> </td> 
+   <td> (@delivered/@sent)*100<br /> </td> 
   </tr> 
   <tr> 
    <td> Rejeição + Taxa de erro<br /> </td> 
    <td> @rateBounces<br /> </td> 
-   <td> (@delivery/@sent)*100<br /> </td> 
+   <td> (@delivered/@sent)*100<br /> </td> 
   </tr> 
   <tr> 
    <td> Abertura<br /> </td> 
@@ -268,7 +268,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
   <tr> 
    <td> Aberturas exclusivas<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> As aberturas exclusivas são calculadas usando os conceitos de ThetaSketch de RecipientIds exclusivos. Para obter mais informações, consulte este <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplo</a>.<br /> </td> 
+   <td> As aberturas exclusivas são calculadas usando os conceitos de ThetaSketch de RecipientIds exclusivos. Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressões<br /> </td> 
@@ -276,7 +276,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> @count(status=delivered)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Impressões exclusivas<br /> </td> 
+   <td> Impressões únicas<br /> </td> 
    <td> @uniqueimpressões<br /> </td> 
    <td> @unique(@count(status=view))<br /> </td> 
   </tr> 
@@ -286,9 +286,9 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> @count(status=interact)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Cliques exclusivos<br /> </td> 
+   <td> Cliques únicos<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Cliques exclusivos são calculados usando os conceitos do ThetaSketch. Para obter mais informações, consulte este <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplo</a>.<br /> </td> 
+   <td> Cliques exclusivos são calculados usando os conceitos do ThetaSketch. Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Índice de click-through<br /> </td> 
@@ -329,10 +329,10 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Impressões exclusivas<br /> </td> 
+   <td> Impressões únicas<br /> </td> 
    <td> @uniqueimpressões<br /> </td> 
    <td> @unique(@count(status=view))<br /> </td> 
-   <td> Para usuários do <span class="uicontrol">Target com base no modelo do perfil da campanha (inAppProfile)</span>, usuário = Id do destinatário.<br /> Para  <span class="uicontrol">direcionar todos os usuários de um aplicativo móvel (inAppBroadcast)</span> e usuários do  <span class="uicontrol">Target com base em seus modelos de perfil móvel (inApp)</span> , usuário = MC Id ou equivalente que representa uma combinação exclusiva de usuário, aplicativo móvel e dispositivo.<br /> </td> 
+   <td> Para <span class="uicontrol">Direcione usuários com base em seu perfil do Campaign (inAppProfile)</span> modelo, usuário = Id do destinatário.<br /> Para <span class="uicontrol">Direcionar todos os usuários de um aplicativo móvel (inAppBroadcast)</span> e <span class="uicontrol">Direcionar usuários com base em seu perfil móvel (inApp)</span> modelos, usuário = MC Id ou equivalente que representa uma combinação exclusiva de usuário, aplicativo móvel e dispositivo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Cliques no aplicativo <br /> </td> 
@@ -344,10 +344,10 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> Cliques únicos no aplicativo<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @unique(@count (status=clicks))<br /> </td> 
-   <td> Para usuários do <span class="uicontrol">Target com base no modelo do perfil da campanha (inAppProfile)</span>, usuário = Id do destinatário.<br /> Para  <span class="uicontrol">direcionar todos os usuários de um aplicativo móvel (inAppBroadcast)</span> e usuários do  <span class="uicontrol">Target com base em seus modelos de perfil móvel (inApp)</span> , usuário = MC Id ou equivalente que representa uma combinação exclusiva de usuário, aplicativo móvel e dispositivo.<br /> </td> 
+   <td> Para <span class="uicontrol">Direcione usuários com base em seu perfil do Campaign (inAppProfile)</span> modelo, usuário = Id do destinatário.<br /> Para <span class="uicontrol">Direcionar todos os usuários de um aplicativo móvel (inAppBroadcast)</span> e <span class="uicontrol">Direcionar usuários com base em seu perfil móvel (inApp)</span> modelos, usuário = MC Id ou equivalente que representa uma combinação exclusiva de usuário, aplicativo móvel e dispositivo.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Índice de click-through no aplicativo<br /> </td> 
+   <td> Taxa de click-through no aplicativo<br /> </td> 
    <td> @inappclickthrough<br /> </td> 
    <td> Total de cliques no Botão 1 ou no Botão 2/total de impressões*100<br /> </td> 
    <td> </td> 
@@ -362,10 +362,10 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> Despedimentos únicos no aplicativo<br /> </td> 
    <td> @uniquedismiss<br /> </td> 
    <td> @unique(@count (status=close))<br /> </td> 
-   <td> Para usuários do <span class="uicontrol">Target com base no modelo do perfil da campanha (inAppProfile)</span>, usuário = Id do destinatário.<br /> Para  <span class="uicontrol">direcionar todos os usuários de um aplicativo móvel (inAppBroadcast)</span> e usuários do  <span class="uicontrol">Target com base em seus modelos de perfil móvel (inApp)</span> , usuário = MC Id ou equivalente que representa uma combinação exclusiva de usuário, aplicativo móvel e dispositivo.<br /> </td> 
+   <td> Para <span class="uicontrol">Direcione usuários com base em seu perfil do Campaign (inAppProfile)</span> modelo, usuário = Id do destinatário.<br /> Para <span class="uicontrol">Direcionar todos os usuários de um aplicativo móvel (inAppBroadcast)</span> e <span class="uicontrol">Direcionar usuários com base em seu perfil móvel (inApp)</span> modelos, usuário = MC Id ou equivalente que representa uma combinação exclusiva de usuário, aplicativo móvel e dispositivo.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Taxa de desativação no aplicativo<br /> </td> 
+   <td> Taxa de demissão no aplicativo<br /> </td> 
    <td> @dismissalrate<br /> </td> 
    <td> Total de impressões de fechamento/total*100<br /> </td> 
    <td> </td> 

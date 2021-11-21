@@ -92,11 +92,11 @@ Para modificar a duração de um delivery, vá para os parâmetros avançados do
 >
 >**O parâmetro **[!UICONTROL Delivery duration]**nos deliveries do Campaign agora apenas será usado se definido para 3,5 dias ou menos.** Se você definir um valor superior a 3,5 dias, ele não será considerado.
 
-Por exemplo, se você quiser que as tentativas de um delivery parem depois de um dia, poderá definir a duração do delivery como **1d**, e as mensagens na fila de tentativas serão removidas após um dia.
+Por exemplo, se você quiser que as tentativas de um delivery parem depois de um dia, poderá definir a duração do delivery como **1d** e as mensagens na fila de tentativas serão removidas após um dia.
 
 >[!NOTE]
 >
->Quando uma mensagem estiver na fila de tentativas por um máximo de 3,5 dias e não for entregue, o tempo limite expirará, e seu status será atualizado<!--from **[!UICONTROL Sent]**--> para **[!UICONTROL Failed]** nos [logs do delivery](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+>Quando uma mensagem estiver na fila de tentativas por um máximo de 3,5 dias e não for entregue, o tempo limite expirará, e seu status será atualizado<!--from **[!UICONTROL Sent]**--> para **[!UICONTROL Failed]** no [logs do delivery](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
@@ -116,7 +116,7 @@ Para mensagens de erro de falha síncrona de delivery, o MTA aprimorado do Adobe
 >
 >As qualificações de rejeição na tabela **[!UICONTROL Message qualification]** do Campaign não são mais usadas.
 
-As rejeições assíncronas ainda são qualificadas pelo processo do InMail por meio das regras **[!UICONTROL Inbound email]**. Para acessar essas regras, clique no logotipo **Adobe**, na parte superior esquerda, selecione **[!UICONTROL Administration > Channels > Email > Email processing rules]** e selecione **[!UICONTROL Bounce mails]**. Para obter mais informações sobre essa regra, consulte [esta seção](../../administration/using/configuring-email-channel.md#email-processing-rules).
+As rejeições assíncronas ainda são qualificadas pelo processo do InMail por meio das regras **[!UICONTROL Inbound email]**. Para acessar essas regras, clique no botão **Adobe** logotipo , na parte superior esquerda e, em seguida, selecione **[!UICONTROL Administration > Channels > Email > Email processing rules]** e selecione **[!UICONTROL Bounce mails]**. Para obter mais informações sobre essa regra, consulte [esta seção](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
 Para obter mais informações sobre devoluções e os diferentes tipos de devoluções, consulte [esta seção](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
 

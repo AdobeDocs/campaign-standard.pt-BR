@@ -34,7 +34,7 @@ Os campos de extensão são gerados com um prefixo para não entrarem em conflit
 
 >[!NOTE]
 >
->Você pode encontrar uma representação de modelo de dados para os recursos incorporados em [this page](../../developing/using/datamodel-introduction.md).
+>Você pode encontrar uma representação de modelo de dados para os recursos incorporados no [esta página](../../developing/using/datamodel-introduction.md).
 
 Você também pode [configurar a navegação](configuring-the-screen-definition.md) nas telas correspondentes ao recurso criado.
 
@@ -42,4 +42,4 @@ Você também pode [configurar a navegação](configuring-the-screen-definition.
 
 >[!CAUTION]
 >
->Somente os [administradores](../../administration/using/users-management.md#functional-administrators) funcionais, com a função **[!UICONTROL Administration]** e o acesso a **Todas** unidades podem acessar logs de envio, logs de mensagem, logs de rastreamento, exclusões ou logs de assinatura. Um usuário não administrador pode direcionar esses logs, mas começar em uma tabela vinculada (perfis, delivery).
+>Apenas funcional [administradores](../../administration/using/users-management.md#functional-administrators), com **[!UICONTROL Administration]** funções e acesso a **Todos** as unidades podem acessar logs de envio, logs de mensagem, logs de rastreamento, exclusão ou logs de assinatura. Um usuário não administrador pode direcionar esses logs, mas começar em uma tabela vinculada (perfis, delivery).

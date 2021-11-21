@@ -57,7 +57,7 @@ A tela de configuração de email permite definir os parâmetros do canal de ema
 
    >[!IMPORTANT]
    >
-   >O número máximo de tentativas a serem executadas e o atraso mínimo entre tentativas agora se baseiam no desempenho histórico e atual de um IP em um determinado domínio. As configurações **[!UICONTROL Retry period]** e **[!UICONTROL Number of retries]** no Campaign serão ignoradas.
+   >O número máximo de tentativas a serem executadas e o atraso mínimo entre tentativas agora se baseiam no desempenho histórico e atual de um IP em um determinado domínio. O **[!UICONTROL Retry period]** e **[!UICONTROL Number of retries]** configurações no Campaign serão ignoradas.
 
    <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
@@ -88,9 +88,9 @@ As **[!UICONTROL Email processing rules]** podem ser acessadas pelos administrad
 
 >[!IMPORTANT]
 >
->Os domínios de email e as regras MX agora são gerenciados automaticamente<!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)--> e não podem ser alterados.
+>Os domínios de email e as regras MX agora são gerenciados automaticamente<!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)--> e não podem ser alteradas.
 
-* **A assinatura de autenticação de email DKIM (DomainKeys Identified Mail)**  é feita para todas as mensagens com todos os domínios. Ele não faz logon com **ID do remetente**, **DomainKeys** ou **S/MIME**.
+* **DKIM (DomainKeys Identified Mail)** a assinatura de autenticação de email é feita para todas as mensagens com todos os domínios. Ele não faz logon com **ID do remetente**, **DomainKeys** ou **S/MIME**.
 * As regras MX personalizam automaticamente sua taxa de transferência por domínio com base em sua própria reputação histórica de email e no feedback em tempo real proveniente dos domínios em que você está enviando emails.
 
 <!--Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
@@ -161,7 +161,7 @@ As mensagens temporariamente não entregues estão sujeitas a uma nova tentativa
 
 >[!IMPORTANT]
 >
->O atraso mínimo entre as tentativas e o número máximo de tentativas a serem executadas agora se baseia no desempenho histórico e atual de um IP em um determinado domínio. As configurações **[!UICONTROL Retry period]** e **[!UICONTROL Max. number of retries]** no Campaign serão ignoradas.
+>O atraso mínimo entre as tentativas e o número máximo de tentativas a serem executadas agora se baseia no desempenho histórico e atual de um IP em um determinado domínio. O **[!UICONTROL Retry period]** e **[!UICONTROL Max. number of retries]** configurações no Campaign serão ignoradas.
 
 A **configuração de duração do delivery** (definida na seção [Parâmetros do período de validade](#validity-period-parameters)) **configurada no Campaign ainda será respeitada, mas somente até 3,5 dias**. A essa altura, qualquer mensagem na fila de tentativas será removida e enviada de volta como uma rejeição. Para obter mais informações, consulte esta [seção](../../sending/using/understanding-delivery-failures.md#about-delivery-failures).
 
@@ -308,35 +308,35 @@ A seção **[!UICONTROL Access authorization]** contém os seguintes parâmetros
 
 ## Configurações herdadas {#legacy-settings}
 
-Se você estiver **NOT** executando a versão mais recente do Campaign, os parâmetros e as seções da interface do usuário descritas abaixo ainda se aplicam a você.
+Se você **NOT** ao executar a versão mais recente do Campaign, os parâmetros e as seções da interface do usuário descritas abaixo ainda se aplicam a você.
 
 ### Tentativas {#legacy-retries}
 
-As configurações **[!UICONTROL Retries]** no menu de [Configuração](#email-channel-parameters) e no [Envio de parâmetros](#retries-parameters) das propriedades de email indicam quantas repetições deverão ser executadas no dia seguinte ao início do envio (**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**) e o atraso mínimo entre as tentativas (**[!UICONTROL Retry period]**).
+O **[!UICONTROL Retries]** nas [Menu Configuração](#email-channel-parameters) e na [Envio de parâmetros](#retries-parameters) das propriedades do email indicam quantas tentativas devem ser executadas no dia seguinte ao início do envio (**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**) e o atraso mínimo entre as tentativas (**[!UICONTROL Retry period]**).
 
 O número de tentativas pode ser alterado globalmente (entre em contato com o administrador técnico do Adobe) ou para cada delivery ou template de delivery.
 
-Por padrão, cinco tentativas são agendadas para o primeiro dia com um intervalo mínimo de uma hora, distribuídas pelas 24 horas do dia. Uma nova tentativa por dia é programada depois disso e até o prazo do delivery, que é definido globalmente na seção **[!UICONTROL Delivery parameters]** do menu **[!UICONTROL Configuration]**, ou na seção **[!UICONTROL Validity period]** no nível do delivery (consulte a seção [Delivery duration](#legacy-delivery-duration) abaixo).
+Por padrão, cinco tentativas são agendadas para o primeiro dia com um intervalo mínimo de uma hora, distribuídas pelas 24 horas do dia. Uma nova tentativa por dia é programada depois disso e até o prazo do delivery, que é definido globalmente na variável **[!UICONTROL Delivery parameters]** da seção **[!UICONTROL Configuration]** ou no **[!UICONTROL Validity period]** no nível do delivery (consulte a seção [Duração do delivery](#legacy-delivery-duration) abaixo).
 
 ### Duração do delivery {#legacy-delivery-duration}
 
-O parâmetro **[!UICONTROL Message delivery duration]** no menu [Configuração](#email-channel-parameters) permite especificar o período no qual qualquer mensagem no delivery que encontre um erro temporário ou uma rejeição temporária será repetida.
+O **[!UICONTROL Message delivery duration]** no [Menu Configuração](#email-channel-parameters) permite especificar o período no qual qualquer mensagem no delivery que encontre um erro temporário ou uma rejeição temporária será repetida.
 
-O parâmetro **[!UICONTROL Delivery duration]** ou **[!UICONTROL Validity limit for sending messages]** na seção [Validity period parameters](#validity-period-parameters) permite especificar a duração durante a qual as mensagens podem ser enviadas.
+O **[!UICONTROL Delivery duration]** ou **[!UICONTROL Validity limit for sending messages]** no [Parâmetros do período de validade](#validity-period-parameters) permite especificar a duração em que as mensagens podem ser enviadas.
 
 ### Regras de processamento de emails {#legacy-email-processing-rules}
 
-As regras **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** e **[!UICONTROL Domain management]** podem ser acessadas e modificadas pelos administradores através do menu **[!UICONTROL Administration > Channels > Email > Email processing rules]** [](#email-processing-rules).
+O **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** e **[!UICONTROL Domain management]** as regras podem ser acessadas e modificadas pelos administradores por meio da variável **[!UICONTROL Administration > Channels > Email > Email processing rules]** [menu](#email-processing-rules).
 
 ### Qualificação de email de rejeição {#legacy-bounce-mail-qualification}
 
-Para listar as várias rejeições e seus tipos de erro associados e motivos, clique no logotipo **Adobe**, na parte superior esquerda, e selecione **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+Para listar as várias rejeições e seus tipos de erro associados e os motivos, clique no botão **Adobe** logotipo , no canto superior esquerdo, em seguida, selecione **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 As rejeições podem ter os seguintes status de qualificação:
 
 * **[!UICONTROL To qualify]**: o email de devolução precisa ser qualificado. A qualificação deve ser feita pela equipe de Deliverability para garantir que a capacidade de delivery da plataforma funcione corretamente. Contanto que não esteja qualificado, o email de devolução não é usado para enriquecer a lista de regras de processamento de email.
-* **[!UICONTROL Keep]**: o email de devolução foi qualificado e será usado pelo workflow  **Update for** deliverability para ser comparado às regras de processamento de email existentes e enriquecer a lista.
-* **[!UICONTROL Ignore]**: o email de devolução foi qualificado, mas não será usado pelo workflow  **Update for** deliverability . Portanto, ele não será enviado para as instâncias do cliente.
+* **[!UICONTROL Keep]**: o email de devolução foi qualificado e será usado pela variável **Atualização para entregabilidade** para ser comparado às regras de processamento de email existentes e enriquecer a lista.
+* **[!UICONTROL Ignore]**: o email de devolução foi qualificado, mas não será usado pelo **Atualização para entregabilidade** fluxo de trabalho. Portanto, ele não será enviado para as instâncias do cliente.
 
 >[!NOTE]
 >
@@ -346,6 +346,6 @@ As rejeições podem ter os seguintes status de qualificação:
 
 ### Relatório de indicador entregue {#legacy-delivered-status-report}
 
-Na visualização **[!UICONTROL Summary]** de cada mensagem, a porcentagem **[!UICONTROL Delivered]** aumentará progressivamente durante todo o período de validade do delivery, à medida que as devoluções temporárias e permanentes forem relatadas de volta.
+No **[!UICONTROL Summary]** exibição de cada mensagem, a variável **[!UICONTROL Delivered]** a porcentagem aumentará progressivamente durante o período de validade do delivery, à medida que as devoluções temporárias e permanentes forem sendo relatadas novamente.
 
-As mensagens de rejeição temporária serão exibidas como **[!UICONTROL Failed]** após o dia do delivery e serão repetidas em cada dia adicional do período de validade do delivery.
+Mensagens de rejeição automática serão exibidas como **[!UICONTROL Failed]** após o dia um do delivery, e eles serão repetidos em cada dia adicional do período de validade do delivery.

@@ -19,7 +19,7 @@ ht-degree: 7%
 
 A integração Adobe Campaign e Adobe Analytics permite rastrear o sucesso de seus deliveries de email diretamente no Adobe Analytics.
 
-A campanha **[!UICONTROL dimensions]** encontrada no Analytics estão listadas abaixo:
+Campanha **[!UICONTROL dimensions]** Os encontrados no Analytics estão listados abaixo:
 
 <table> 
  <thead> 
@@ -42,7 +42,7 @@ A campanha **[!UICONTROL dimensions]** encontrada no Analytics estão listadas a
    <td> O nome interno do delivery, como visto no Campaign.<br /> Por exemplo, DM1 é um delivery recorrente agendado para enviar deliveries filho toda semana. DM2, DM3 e DM4 são enviados nas três primeiras semanas. A dimensão ID da entrega exibirá os resultados para cada delivery, especificamente DM1 para DM4. <br /> </td> 
   </tr> 
   <tr> 
-   <td> Rótulo de entrega<br /> </td> 
+   <td> Rótulo da entrega<br /> </td> 
    <td> O rótulo da entrega como visto no Campaign<br /> </td> 
   </tr> 
   <tr> 
@@ -56,7 +56,7 @@ A campanha **[!UICONTROL dimensions]** encontrada no Analytics estão listadas a
  </tbody> 
 </table>
 
-A campanha **[!UICONTROL metrics]** encontrada no Analytics estão listadas abaixo:
+Campanha **[!UICONTROL metrics]** Os encontrados no Analytics estão listados abaixo:
 
 <table> 
  <thead> 
@@ -67,12 +67,12 @@ A campanha **[!UICONTROL metrics]** encontrada no Analytics estão listadas abai
  </thead> 
  <tbody> 
   <tr> 
-   <td> Clicado em<br /> </td> 
+   <td> Clicado<br /> </td> 
    <td> Número de vezes que um conteúdo foi clicado em um delivery.<br /> </td> 
   </tr> 
   <tr> 
    <td> Entregue<br /> </td> 
-   <td> Número de mensagens enviadas com êxito, em relação ao número total de mensagens enviadas.<br /> </td> 
+   <td> Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.<br /> </td> 
   </tr> 
   <tr> 
    <td> Aberto<br /> </td> 

@@ -18,7 +18,7 @@ ht-degree: 58%
 
 # Monitoramento da capacidade de entrega{#monitor-deliverability}
 
-Abaixo você encontrará detalhes sobre o relatório **[!UICONTROL Delivery throughput]**, bem como as diferentes ferramentas de monitoramento oferecidas pelo Adobe Campaign. Estas são algumas diretrizes adicionais sobre o monitoramento da capacidade de entrega:
+Abaixo você encontrará detalhes sobre o **[!UICONTROL Delivery throughput]** , bem como as diferentes ferramentas de monitoramento oferecidas pelo Adobe Campaign. Estas são algumas diretrizes adicionais sobre o monitoramento da capacidade de entrega:
 * Verifique regularmente a taxa de transferência do delivery de toda a plataforma para verificar se ela é consistente com a configuração original.
 * Verifique se as tentativas estão configuradas corretamente (30 minutos para o período de nova tentativa e mais de 20 tentativas) nos templates do delivery.
 * Verifique regularmente se a caixa de rejeição está acessível e se a conta não está prestes a expirar.
@@ -26,7 +26,7 @@ Abaixo você encontrará detalhes sobre o relatório **[!UICONTROL Delivery thro
 * Verifique se o número de erros e as novas quarentenas estão consistentes com outros deliveries.
 * Consulte detalhadamente os logs do delivery para verificar o tipo de erro destacado (lista de bloqueios, problemas de DNS, regras anti-spam, etc…).
 
-## Taxa de transferência da entrega {#delivery-throughput}
+## Taxa de transferência de delivery {#delivery-throughput}
 
 Este relatório contém informações sobre a taxa de transferência de delivery da plataforma inteira por um determinado período para medir a velocidade em que as mensagens são entregues.
 
@@ -48,9 +48,9 @@ Para obter mais informações, consulte [Monitoramento de um delivery](../../sen
 
 ## Receber alertas {#receiving-alerts}
 
-O recurso **[!UICONTROL Delivery alerting]** é um sistema de gerenciamento de alertas que permite que um grupo de usuários receba automaticamente notificações contendo informações sobre a execução de seus deliveries.
+O **[!UICONTROL Delivery alerting]** é um sistema de gerenciamento de alertas que permite que um grupo de usuários receba automaticamente notificações contendo informações sobre a execução de seus deliveries.
 
-Para obter mais informações, consulte [Recebendo alertas quando ocorrerem falhas](../../sending/using/receiving-alerts-when-failures-happen.md).
+Para obter mais informações, consulte [Receber alertas quando ocorrerem falhas](../../sending/using/receiving-alerts-when-failures-happen.md).
 
 <!--## External tools (#external-tools)
 

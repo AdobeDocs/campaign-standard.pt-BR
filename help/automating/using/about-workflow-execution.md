@@ -18,13 +18,13 @@ ht-degree: 9%
 
 # Sobre a execução de fluxo de trabalho {#about-workflow-execution}
 
-Um workflow é sempre iniciado manualmente. No entanto, uma vez iniciado, ele pode permanecer inativo, dependendo das informações especificadas em uma atividade [Scheduler](../../automating/using/scheduler.md).
+Um workflow é sempre iniciado manualmente. No entanto, uma vez iniciado, ele pode permanecer inativo, dependendo das informações especificadas em um [Scheduler](../../automating/using/scheduler.md) atividade .
 
 >[!CAUTION]
 >
 > O Adobe recomenda que os clientes priorizem execuções de workflow e executem até vinte execuções de workflow simultâneas para alcançar consistentemente o máximo de desempenho em sua instância. Mais de vinte execuções simultâneas de workflow podem ser planejadas e serão executadas sequencialmente por padrão. Você pode ajustar as configurações padrão para o número máximo de execuções simultâneas de fluxo de trabalho enviando um ticket para o Atendimento ao cliente.
 
-Ações relacionadas à execução (iniciar, parar, pausar etc.) são processos **assíncronos**: o comando é salvo e entrará em vigor assim que o servidor estiver disponível para aplicá-lo.
+Ações relacionadas à execução (iniciar, parar, pausar etc.) são **assíncrono** processos: o comando é salvo e entrará em vigor assim que o servidor estiver disponível para aplicá-lo.
 
 Em um workflow, o resultado de cada atividade geralmente é enviado para a atividade seguinte por meio de uma transição, representada por uma seta.
 
@@ -42,12 +42,12 @@ Depois que uma atividade é executada, o número de registros enviados na transi
 
 É possível abrir transições para verificar se os dados enviados estão corretos durante ou após a execução do workflow. É possível exibir os dados e a estrutura dos dados.
 
-Por padrão, somente os detalhes da última transição do workflow podem ser acessados. Para acessar os resultados das atividades anteriores, é necessário marcar a opção **[!UICONTROL Keep interim results]** na seção **[!UICONTROL Execution]** das propriedades do workflow, antes de iniciar o workflow.
+Por padrão, somente os detalhes da última transição do workflow podem ser acessados. Para acessar os resultados das atividades anteriores, é necessário verificar a variável **[!UICONTROL Keep interim results]** na **[!UICONTROL Execution]** seção das propriedades do workflow, antes de iniciar o workflow.
 
 >[!NOTE]
 >
 >Essa opção consome muita memória e foi projetada para ajudar a construir um fluxo de trabalho e garantir que ele esteja configurado e funcionando corretamente. Deixe-a desmarcada nas instâncias de produção.
 
-Quando uma transição é aberta, você pode editar seu **[!UICONTROL Label]** ou vincular um **[!UICONTROL Segment code]** a ela. Para fazer isso, edite os campos correspondentes e confirme suas modificações.
+Quando uma transição estiver aberta, você poderá editar sua **[!UICONTROL Label]** ou vincular um **[!UICONTROL Segment code]** a ela. Para fazer isso, edite os campos correspondentes e confirme suas modificações.
 
-Usando as APIs REST do Campaign Standard, você pode **iniciar**, **pausar**, **retomar** e **parar** um fluxo de trabalho. Você pode encontrar mais detalhes e exemplos de chamadas REST na documentação [API.](../../api/using/controlling-a-workflow.md)
+Com as APIs REST do Campaign Standard, é possível **start**, **pause**, **resume** e **stop** um fluxo de trabalho. Você pode encontrar mais detalhes e exemplos de chamadas REST no [Documentação da API.](../../api/using/controlling-a-workflow.md)

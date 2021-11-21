@@ -16,7 +16,7 @@ ht-degree: 84%
 
 ---
 
-# Práticas recomendadas de fluxo de trabalho{#workflow-best-practices}
+# Práticas recomendadas de workflow{#workflow-best-practices}
 
 Com o Adobe Campaign, você pode configurar todos os tipos de fluxo de trabalho para executar um amplo escopo de tarefas. No entanto, ao projetar e executar fluxos de trabalhos, é necessário ter muito cuidado, pois uma implementação inadequada pode causar baixo desempenho, erros e problemas da plataforma. Abaixo você encontrará uma lista de práticas recomendadas e dicas para solução de problemas.
 
@@ -37,7 +37,7 @@ Por exemplo:
 * 010 – Exportar – Exportar logs de deliveries
 * 011 – Exportar – Exportar logs de rastreamento
 
-## Fluxos de trabalho duplicados{#duplicating-workflows}
+## Duplicação de workflows{#duplicating-workflows}
 
 Você pode duplicar fluxos de trabalho. Em **[!UICONTROL Marketing Activities]**, passe o mouse sobre o fluxo de trabalho e clique em **[!UICONTROL Duplicate element]**. Após a duplicação, as modificações do fluxo de trabalho não são transferidas para a cópia do fluxo de trabalho. A cópia do fluxo de trabalho pode ser editada.
 
@@ -52,7 +52,7 @@ Em contextos específicos, talvez seja necessário executar mais de 20 fluxos de
 
 >[!NOTE]
 >
->Antes de iniciar um workflow, [!DNL Campaign Standard] verificará se há memória física do sistema suficiente para executar o workflow. Se não houver memória disponível suficiente, uma mensagem informará que a execução do workflow será adiada até que a carga no servidor seja reduzida e a memória do sistema aumente.
+>Antes de iniciar um workflow, [!DNL Campaign Standard] verificará se há memória física do sistema suficiente para executar o fluxo de trabalho. Se não houver memória disponível suficiente, uma mensagem informará que a execução do workflow será adiada até que a carga no servidor seja reduzida e a memória do sistema aumente.
 
 ### Frequência
 
@@ -110,11 +110,11 @@ Você pode pré-visualizar as próximas dez execuções de seus fluxos de trabal
 
 Para mais informações, consulte [Atividade de Scheduler](../../automating/using/scheduler.md).
 
-Ao projetar um workflow agendado que inclui várias atividades, é necessário garantir que o workflow não seja reagendado até sua conclusão. Para fazer isso, é necessário configurar o workflow para impedir a execução se uma ou mais tarefas de uma execução anterior ainda estiverem pendentes. Para obter mais informações, consulte [esta página](../../automating/using/scheduled-workflows-execution.md).
+Ao projetar um workflow agendado que inclui várias atividades, você precisa garantir que o workflow não seja reagendado até que seja concluído. Para fazer isso, é necessário configurar o workflow para impedir a execução se uma ou mais tarefas de uma execução anterior ainda estiverem pendentes. Para obter mais informações, consulte [esta página](../../automating/using/scheduled-workflows-execution.md).
 
 ## Chamada de fluxo de trabalho com parâmetros{#workflow-with-parameters}
 
-Certifique-se de que o nome e a quantidade de parâmetros sejam idênticos ao definido ao chamar o workflow (consulte [esta página](../../automating/using/defining-parameters-calling-workflow.md). Os tipos de parâmetros também devem ser consistentes com os valores esperados.
+Verifique se o nome e a quantidade de parâmetros são idênticos ao definido ao chamar o fluxo de trabalho (consulte [esta página](../../automating/using/defining-parameters-calling-workflow.md). Os tipos de parâmetros também devem ser consistentes com os valores esperados.
 
 Verifique se todos os parâmetros foram declarados no **[!UICONTROL External signal activity]**. Caso contrário, ocorrerá um erro ao executar a atividade.
 
