@@ -30,7 +30,7 @@ Para direcionar esses segmentos em seus relatórios:
 >[!CAUTION]
 >O contrato de uso do Dynamic Reporting deve ser aceito para começar a coletar esses dados.
 >
->For more on this agreement, refer to this [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+>Para obter mais informações sobre esse contrato, consulte esta seção [página](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 ## Etapa 1: Atualizar recurso personalizado Perfis com segmentos{#step-1--update-profiles-custom-resource-segments}
 
@@ -56,16 +56,16 @@ Agora é possível começar a criar seu fluxo de trabalho com códigos de segmen
 
 Observe que os códigos de segmento serão coletados assim que você ativar o código do segmento na **[!UICONTROL Sending logs extension]**.
 
-## Step 2: Create a workflow with segments {#step-2--create-a-workflow-segments}
+## Etapa 2: Criar um fluxo de trabalho com segmentos {#step-2--create-a-workflow-segments}
 
 >[!NOTE]
 >Se a transição de entrada do delivery de email estiver vazia, o código do Segment da transição anterior será adicionado por padrão.
 
-Primeiro, é necessário criar um workflow com uma população direcionada diferente. Here, we want to send an email that will be personalized depending on the age of our audience: one delivery for 20 to 30 years old profiles and another for profiles between 30 to 40 years old.
+Primeiro, é necessário criar um workflow com uma população direcionada diferente. Aqui, queremos enviar um email que será personalizado dependendo da idade do público-alvo: uma delivery para perfis com idade entre 20 e 30 anos e outra para perfis entre 30 e 40 anos.
 
 1. Crie seu workflow. Para obter mais detalhes sobre como criar o workflow, consulte esta seção [página](../../automating/using/building-a-workflow.md).
 
-1. Add a **[!UICONTROL Query]** activity by dragging it from the palette and dropping it in the workspace.
+1. Adicione um **[!UICONTROL Query]** arrastando-a da paleta e soltando-a no espaço de trabalho.
 
 1. Direcione perfis de 20 a 40 anos para segmentá-los posteriormente em populações mais direcionadas.
 
@@ -73,7 +73,7 @@ Primeiro, é necessário criar um workflow com uma população direcionada difer
 
 1. Adicione um **[!UICONTROL Segmentation]** atividade para dividir os resultados da consulta em duas populações direcionadas. Para obter mais informações sobre segmentação, consulte esta seção [página](../../automating/using/segmentation.md).
 
-1. Double click the **[!UICONTROL Segmentation]** activity to configure it. Edite o primeiro segmento clicando em **[!UICONTROL Edit properties]**.
+1. Clique duas vezes na **[!UICONTROL Segmentation]** para configurá-la. Edite o primeiro segmento clicando em **[!UICONTROL Edit properties]**.
 
    ![](assets/report_segment_7.png)
 
@@ -118,6 +118,6 @@ Após enviar os deliveries com o workflow, é possível detalhar os relatórios 
 
    ![](assets/report_segment_6.png)
 
-1. Drag and drop a visualization in your workspace if needed.
+1. Arraste e solte uma visualização em seu espaço de trabalho, se necessário.
 
    ![](assets/report_segment_10.png)

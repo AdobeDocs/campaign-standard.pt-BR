@@ -17,13 +17,13 @@ ht-degree: 3%
 
 # Configuração do Adobe Campaign Standard e Adobe I/O para a integração do Microsoft Dynamics 365
 
-This article will explain how to configure Adobe Campaign Standard and Adobe I/O to give the integration application access to the data.
+Este artigo explicará como configurar o Adobe Campaign Standard e o Adobe I/O para dar ao aplicativo de integração acesso aos dados.
 
 ## Configurar o Adobe Campaign Standard {#campaign-standard}
 
 ### Extensões de perfil
 
-Ative &quot;extensões de perfil&quot; no Adobe Campaign Standard.   This is needed in order for custom fields in the Profile resource to be synced from Microsoft Dynamics 365.   The steps to enable them are:
+Ative &quot;extensões de perfil&quot; no Adobe Campaign Standard.   Isso é necessário para que campos personalizados no recurso Perfil sejam sincronizados do Microsoft Dynamics 365.   As etapas para habilitá-los são:
 
 1. Vá para Configurações -> Administração -> Desenvolvimento -> Publicação.
 1. Clique em &quot;Prepare publication&quot; para preparar uma publicação.
@@ -35,7 +35,7 @@ O Adobe I/O permite habilitar o acesso da API ao Adobe Campaign Standard e a out
 
 ### Visão geral
 
-Antes de executar a configuração de pré-integração neste artigo, presume-se que você já tenha sido provisionado e tenha acesso de administrador à instância do Campaign Standard de sua organização.  If this has not happened, then you will need to get in contact with Adobe Customer Care to complete Campaign provisioning.
+Antes de executar a configuração de pré-integração neste artigo, presume-se que você já tenha sido provisionado e tenha acesso de administrador à instância do Campaign Standard de sua organização.  Se isso não tiver acontecido, será necessário entrar em contato com o Atendimento ao cliente do Adobe para concluir o provisionamento do Campaign.
 
 >[!CAUTION]
 >
@@ -43,7 +43,7 @@ Antes de executar a configuração de pré-integração neste artigo, presume-se
 
 ### Configuração
 
-You will need to create a new Adobe IO project and configure it for the integration.
+Será necessário criar um novo projeto do Adobe IO e configurá-lo para a integração.
 
 #### Criar um novo projeto
 
@@ -63,13 +63,13 @@ Para isso, siga o procedimento abaixo:
 
    ![](assets/adobeIO3.png)
 
-1. On the next screen you will have the option to upload your own public key or let Adobe IO generate the key pair for you. Essas instruções seguirão a última opção. Se você decidir permitir que o Adobe IO gere o par de chaves, clique na opção 1; em seguida, clique no botão **[!UICONTROL Generate keypair]** botão.
+1. Na próxima tela, você terá a opção de carregar sua própria chave pública ou permitir que o Adobe IO gere o par de chaves para você. Essas instruções seguirão a última opção. Se você decidir permitir que o Adobe IO gere o par de chaves, clique na opção 1; em seguida, clique no botão **[!UICONTROL Generate keypair]** botão.
 
    ![](assets/adobeIO4.png)
 
 1. Na próxima tela, você será solicitado a nomear e selecionar o local de download do arquivo zip do par de chaves.
 
-Once downloaded, you can unzip the file to reveal the public and private keys. O Adobe IO já aplicou a chave pública ao seu projeto do Adobe IO. Você precisará manter sua chave privada para mais tarde; a chave privada será usada durante a configuração de pré-integração da ferramenta de integração.
+Após o download, é possível descompactar o arquivo para revelar as chaves públicas e privadas. O Adobe IO já aplicou a chave pública ao seu projeto do Adobe IO. Você precisará manter sua chave privada para mais tarde; a chave privada será usada durante a configuração de pré-integração da ferramenta de integração.
 
 1. Clique em **[!UICONTROL Next]** para continuar
 
@@ -87,13 +87,13 @@ Once downloaded, you can unzip the file to reveal the public and private keys. O
 
    ![](assets/adobeIO7.png)
 
-1. On the next screen you will need to select the I/O Events API, then click **[!UICONTROL Next]**.
+1. Na próxima tela, você precisará selecionar a API de Eventos de E/S e clicar em **[!UICONTROL Next]**.
 
 1. Na próxima tela, clique em **[!UICONTROL Save the configured API]**.  Você será retornado à tela de detalhes do projeto.
 
 1. Em seguida, clique em **[!UICONTROL Add to Project]** no canto superior esquerdo da tela e selecione **API** no menu suspenso , como você fez anteriormente.
 
-1. On the next screen you will need to select the I/O Management API and click **[!UICONTROL Next]**.
+1. Na próxima tela, você precisará selecionar a API de gerenciamento de E/S e clicar em **[!UICONTROL Next]**.
 
 1. Na próxima tela, clique em **[!UICONTROL Save the configured API]**.
 
@@ -106,5 +106,5 @@ A configuração de pré-integração no Campaign está concluída.
 
 
 * [Adobe IO - Integração da conta de serviço](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
-* [Campaign Standard - API Access Setup](../../api/using/setting-up-api-access.md)
+* [Campaign Standard - Configuração de acesso à API](../../api/using/setting-up-api-access.md)
 * [Campaign Standard - Integração com o Dynamics 365](../../integrating/using/d365-acs-configure-d365.md)

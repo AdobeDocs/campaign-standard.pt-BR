@@ -82,7 +82,7 @@ Depois que uma mensagem é enviada, você pode rastrear o comportamento de seus 
 >
 >Esta seção se aplica somente ao canal de email.
 
-No **[!UICONTROL Summary]** exibição de cada email, a **[!UICONTROL Delivered]** a porcentagem começa em 100% e depois diminui progressivamente durante o delivery [período de validade](../../administration/using/configuring-email-channel.md#validity-period-parameters), à medida que as devoluções temporárias e rígidas são relatadas<!--from the Enhanced MTA to Campaign-->.
+No **[!UICONTROL Summary]** exibição de cada email, a **[!UICONTROL Delivered]** a porcentagem começa em 100% e depois diminui progressivamente durante o delivery [período de validade](../../administration/using/configuring-email-channel.md#validity-period-parameters), à medida que as devoluções permanentes e temporárias são relatadas<!--from the Enhanced MTA to Campaign-->.
 
 Na verdade, todas as mensagens são exibidas como **[!UICONTROL Sent]** no [enviando logs](../../sending/using/monitoring-a-delivery.md#sending-logs) assim que forem reenviados com êxito do Campaign para o MTA aprimorado (Message Transfer Agent). Eles permanecem com esse status, a menos que uma [rejeição](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) para essa mensagem seja comunicada do MTA aprimorado para o Campaign.
 
