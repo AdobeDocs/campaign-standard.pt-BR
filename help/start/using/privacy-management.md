@@ -11,7 +11,7 @@ exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '963'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Para facilitar a conformidade com a privacidade, o Adobe Campaign permite manipu
 
 * O **Direito de acesso** é o direito do Titular de dados de obter a confirmação do Controlador de dados, caso os dados relativos a ele estiverem sendo processados, onde e com qual finalidade. O Controlador de dados deve fornecer uma cópia gratuita dos dados pessoais em formato eletrônico.
 
-* Também conhecido como Eliminação de dados, o **Direito ao esquecimento** (solicitação de exclusão) autoriza o Titular de dados a fazer com que o Controlador de dados apague seus dados pessoais, interrompa a divulgação dos dados e possivelmente o processamento dos dados por parte de terceiros.
+* Também conhecido como Eliminação de dados, o **Direito ao esquecimento** (solicitação de exclusão) permite que o Titular de dados tenha seus dados pessoais apagados pelo Controlador de dados, interrompendo a divulgação e, possivelmente, o processamento desses dados por parte de terceiros.
 
 Para saber como criar solicitações de **Acesso** e **Exclusão** e como o Adobe Campaign as processa, consulte os [passos de implementação](../../start/using/privacy-requests.md#about-privacy-requests).
 
