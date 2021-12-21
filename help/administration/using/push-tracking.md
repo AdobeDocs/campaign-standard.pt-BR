@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 95d4b9fbb41f5204f387971be3710817a281a8c4
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '954'
 ht-degree: 1%
 
 ---
@@ -232,13 +232,11 @@ Para entender como as notificações do iOS funcionam, os três estados de um ap
 * **Histórico**: quando o aplicativo is não está na tela, mas o processo não está fechado. Ao clicar duas vezes no botão inicial, ele normalmente mostrará todos os aplicativos que estão em segundo plano.
 * **Desligado/fechado**: um aplicativo cujo processo foi interrompido.
 
-Se um aplicativo for fechado, a Apple não chamará o aplicativo até que ele seja reiniciado. Isso significa que você não poderá saber quando a notificação foi recebida no iOS.
-
 Para ainda ter **[!UICONTROL Impression]** rastreamento funcionando enquanto o aplicativo está em segundo plano, precisamos enviar **[!UICONTROL Content-Available]** para que o aplicativo saiba que um rastreamento deve ser feito.
 
 >[!CAUTION]
 >
->O rastreamento de impressões do iOS não é preciso e não deve ser considerado confiável.
+> Se um aplicativo for fechado, a Apple não chamará o aplicativo até que ele seja reiniciado. Isso significa que você não poderá saber quando a notificação foi recebida no iOS. </br> Por esse motivo, o rastreamento de impressões do iOS pode não ser preciso e não deve ser considerado confiável.
 
 Para deliveries criados antes da versão 21.1 ou deliveries com modelo personalizado, consulte esta seção [seção](../../administration/using/push-tracking.md#about-push-tracking).
 
