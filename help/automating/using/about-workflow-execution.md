@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 3b95fc66-d6f4-44b2-be33-925c1109a57f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 9%
+source-wordcount: '353'
+ht-degree: 10%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 9%
 
 Um workflow é sempre iniciado manualmente. No entanto, uma vez iniciado, ele pode permanecer inativo, dependendo das informações especificadas em um [Scheduler](../../automating/using/scheduler.md) atividade .
 
->[!CAUTION]
+>[!IMPORTANT]
 >
-> O Adobe recomenda que os clientes priorizem execuções de workflow e executem até vinte execuções de workflow simultâneas para alcançar consistentemente o máximo de desempenho em sua instância. Mais de vinte execuções simultâneas de workflow podem ser planejadas e serão executadas sequencialmente por padrão. Você pode ajustar as configurações padrão para o número máximo de execuções simultâneas de fluxo de trabalho enviando um ticket para o Atendimento ao cliente.
+> O Adobe recomenda que os clientes não executem mais de 20 workflows ativos simultaneamente e priorizem e distribuam a execução do workflow ao longo do tempo. Para obter mais informações, consulte as práticas recomendadas fornecidas em [esta página](../../automating/using/best-practices-workflows.md).
 
 Ações relacionadas à execução (iniciar, parar, pausar etc.) são **assíncrono** processos: o comando é salvo e entrará em vigor assim que o servidor estiver disponível para aplicá-lo.
 

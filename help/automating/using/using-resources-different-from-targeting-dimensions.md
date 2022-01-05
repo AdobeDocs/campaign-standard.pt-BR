@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 5805bdfa-fb33-4a46-ba1e-7a10b067349b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 9c14fc3de60d8e0304f8a7ebd46e7be34d2e0499
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 81%
+ht-degree: 76%
 
 ---
 
@@ -25,7 +25,7 @@ Para obter mais informações sobre targeting dimensions e recursos, consulte [e
 **Exemplo 1: identificação de perfis direcionados pelo delivery com o rótulo “Bem-vindo de volta!”**.
 
 * Nesse caso, queremos direcionar os perfis. Definiremos o targeting dimension como **[!UICONTROL Profiles (profile)]**.
-* Queremos filtrar os perfis selecionados de acordo com o rótulo do delivery. Por isso, definiremos o recurso como **[!UICONTROL Delivery logs]**. Assim, estamos filtrando diretamente na tabela de logs do delivery, o que oferece melhores desempenhos.
+* Queremos filtrar os perfis selecionados de acordo com o rótulo do delivery. Por isso, definiremos o recurso como **[!UICONTROL Delivery logs]**. Dessa forma, estamos filtrando diretamente na tabela de logs do delivery, o que oferecerá melhor desempenho.
 
 ![](assets/targeting_dimension6.png)
 

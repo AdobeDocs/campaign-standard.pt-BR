@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 84%
+source-wordcount: '1200'
+ht-degree: 80%
 
 ---
 
@@ -47,12 +47,15 @@ Você pode duplicar fluxos de trabalho. Em **[!UICONTROL Marketing Activities]**
 
 ### Quantidade de fluxos de trabalhos
 
-Por padrão, recomendamos não executar mais de 20 fluxos de trabalho ativos simultaneamente. Após atingir esse limite, os fluxos de trabalho serão enfileirados para não afetar o desempenho. Da mesma forma, o Adobe recomenda que você separe a execução do fluxo de trabalho ao longo do tempo.
-Em contextos específicos, talvez seja necessário executar mais de 20 fluxos de trabalho. Isso não se aplica a fluxos de trabalho que estejam aguardando uma execução programada.  Em caso afirmativo, verifique os casos de uso com um especialista do Campaign e entre em contato com o Atendimento ao cliente da Adobe para aumentar o limite.
+Por padrão, recomendamos **não executar mais de 20 workflows ativos simultaneamente** (isso não se aplica a workflows que aguardam uma execução agendada). Após atingir esse limite, os fluxos de trabalho serão enfileirados para não afetar o desempenho.
 
->[!NOTE]
+Em contextos específicos, talvez seja necessário executar mais de 20 fluxos de trabalho. Em caso afirmativo, verifique os casos de uso com um especialista do Campaign e entre em contato com o Atendimento ao cliente da Adobe para aumentar o limite.
+
+>[!IMPORTANT]
 >
->Antes de iniciar um workflow, [!DNL Campaign Standard] verificará se há memória física do sistema suficiente para executar o fluxo de trabalho. Se não houver memória disponível suficiente, uma mensagem informará que a execução do workflow será adiada até que a carga no servidor seja reduzida e a memória do sistema aumente.
+>Mesmo que você não esteja atingindo o limite de 20 workflows, o Adobe recomenda **espalhar a execução do workflow ao longo do tempo**. O escalonamento da execução dos workflows garantirá um melhor desempenho da instância.
+
+Antes de iniciar um workflow, [!DNL Campaign Standard] verificará se há memória física do sistema suficiente para executar o fluxo de trabalho. Se não houver memória disponível suficiente, uma mensagem informará que a execução do workflow será adiada até que a carga no servidor seja reduzida e a memória do sistema aumente.
 
 ### Frequência
 
