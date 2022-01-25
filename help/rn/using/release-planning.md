@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 85c42129e105999483d23865f2534c90406251e4
+source-git-commit: 830b81a8adffd39f00b7568dde56cf482eab0806
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '418'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ Todas as datas de lançamento estão sujeitas a alterações. Visite esta págin
 
 As atualizações de ambientes ocorrem em ondas, durante os intervalos indicados abaixo. As datas exatas são comunicadas por email a cada cliente.
 
-Informações detalhadas sobre esta versão estarão disponíveis nas [Notas da versão](../../rn/using/release-notes.md) quando as atualizações do ambiente de Preparo forem lançadas.
+Informações detalhadas sobre esta versão estão disponíveis nas [Notas de versão antecipadas](../../rn/using/e-release-notes.md).
 
 <table>
  <thead>
