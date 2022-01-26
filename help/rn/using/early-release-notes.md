@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 8bc0b1186e177b6937c1ae72c1f8763c480b12a9
+source-git-commit: 5435e1dbfbe08399c488322320ac5bb8e681a79d
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '734'
 ht-degree: 10%
 
 ---
@@ -53,6 +53,9 @@ Esta página descreve novos recursos, melhorias e correções incluídos na pró
 * Depois de enviar as mensagens no aplicativo, você pode optar por desativar o delivery. Isso permite excluir seu delivery sem perder nenhum dado de relatório. (CAMP-48469)
 * Para evitar qualquer problema, os usuários não podem mais usar o mesmo nome para uma coluna de tabela personalizada que a usada para a Chave primária automática no banco de dados, `"<dataType><resourceName>Id"`. (CAMP-49358)
 * Agora você pode monitorar seu delivery e rastrear logs de trabalhos com o novo **Histórico de tarefas** no painel de suas mensagens. (CAMP-49840)
+* Melhorou a estabilidade e a integridade do banco de dados, ao reduzir tuplas inativas, quando um grande número de mensagens são enviadas por todos os canais ao longo do tempo. (CAMP-49755, CAMP-49792, CAMP-49849)
+* Para garantir que as conexões do banco de dados sejam atualizadas automaticamente em caso de falha ou reinicialização do banco de dados, as melhorias foram implementadas no Campaign Mail Transfer Agent (MTA). (CAMP-48063)
+
 
 **Correções**
 
