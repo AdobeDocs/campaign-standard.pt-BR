@@ -1,23 +1,34 @@
 ---
 title: Atualizações da documentação
-description: Saiba mais sobre todas as atualizações mais recentes da documentação do Adobe Campaign Standard.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
+description: Saiba mais sobre todas as atualizações mais recentes da documentação do Adobe Campaign Standard
 feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 85c32143f87b1c46dd9aa32e9aac17f5fa9b7c62
 workflow-type: tm+mt
-source-wordcount: '6933'
-ht-degree: 100%
+source-wordcount: '7089'
+ht-degree: 97%
 
 ---
 
 # Atualizações da documentação{#documentation-updates}
 
 Além das [Notas de versão](../../rn/using/release-notes.md) do Adobe Campaign, esta página lista todas as atualizações na documentação do Adobe Campaign Standard.
+
+## Fevereiro de 2022 {#doc-updates-feb-2022}
+
+Aprimorado o mecanismo de repetição para deliveries, incluindo conteúdo importado de um URL. [Saiba mais](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
+
+Adição de uma observação de aviso sobre palavras-chave que acionam respostas automáticas de SMS: eles devem conter somente caracteres alfanuméricos. [Saiba mais](../../channels/using/managing-incoming-sms.md)
+
+Atualização do nível de acesso das opções que controlam Auditoria: opções anteriores para ativar/desativar [Trilha de auditoria](../../administration/using/audit.md) não estão acessíveis para [administradores funcionais](../../administration/using/users-management.md#functional-administrators). Com essa alteração, o nível de acesso da auditoria é modificado para fornecer controle aos administradores funcionais. [Saiba mais](../../administration/using/audit.md#enable-disable-audit)
+
+Adição de uma observação à seção de email de teste A/B: se a população total for inferior a 50 mil, cada variante precisa representar pelo menos 10% da população total. Caso contrário, os logs exibirão um aviso. [Saiba mais](../../channels/using/designing-an-a-b-test-email.md)
+
+Atualização da descrição do **[!UICONTROL Delete the source files after transfer]** na **Transferir arquivo** , incluindo um lembrete para monitorar manualmente o tamanho do conteúdo arquivado no diretório SFTP, caso a opção não esteja selecionada. [Saiba mais](../../automating/using/transfer-file.md)
+
+Atualização de todos os links obsoletos no **Privacidade** seções. [Saiba mais](../../start/using/privacy.md)
 
 ## Versão 21.3 - Setembro de 2021 {#release-21-3---september-2021}
 

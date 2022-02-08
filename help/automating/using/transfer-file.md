@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: 41be9f7c13a4b3e0a20e714cc42b9d054812ec07
+source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 84%
+source-wordcount: '1168'
+ht-degree: 83%
 
 ---
 
@@ -59,7 +59,11 @@ Você pode usar essa atividade para recuperar dados que serão estruturados com 
    Você pode:
 
    * **[!UICONTROL Delete the source files after transfer]**: apaga os arquivos no servidor remoto. Se deixar essa opção desmarcada, monitore manualmente o tamanho do conteúdo arquivado no diretório SFTP.
-   * **[!UICONTROL Disable passive mode]**: permite que você especifique a porta de conexão a ser usada para transferência de dados.
+
+   * **[!UICONTROL Sorting files]**: permite classificar arquivos alfanuméricos. Essa opção está desabilitada por padrão.
+
+      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
+
    * **[!UICONTROL List all files]**: essa opção está disponível ao selecionar a variável **[!UICONTROL File listing]** na **[!UICONTROL General]** guia . Ela permite indexar todos os arquivos no servidor na variável de evento **vars.filenames** na qual os nomes de arquivo são separados pelos caracteres **&#39;n&#39;**.
 
 1. A seção **[!UICONTROL If no files are found]** da guia **[!UICONTROL Advanced options]** permite configurar ações específicas se forem detectados erros ou arquivos inexistentes quando a atividade for iniciada.
@@ -80,6 +84,8 @@ Com este protocolo, você pode optar por **[!UICONTROL Use connection parameters
 
 Você também pode escolher a opção **[!UICONTROL Quick configuration]**. Você só precisa inserir o URL no campo URL.
 ![](assets/wkf_file_transfer_04.png)
+
+**[!UICONTROL Follow redirections]**, **[!UICONTROL Ignore the HTTP return code]** e **[!UICONTROL Add received HTTP headers to the file]** são as opções adicionais disponíveis ao selecionar o protocolo HTTP.
 
 ### Configuração com SFTP {#SFTP-configuration-wf}
 

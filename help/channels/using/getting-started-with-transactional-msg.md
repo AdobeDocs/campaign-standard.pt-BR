@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0538958289ce19982889f76ed195090a8455fdeb
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 31%
@@ -91,7 +91,7 @@ Cada uma dessas etapas é detalhada abaixo.
 
 ### Etapa 1 - Criar e publicar a configuração do evento {#create-event-configuration}
 
-<img src="assets/do-not-localize/icon_config.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_config.svg" width="60px">-->
 
 | Usuário | Ação | Resultado |
 |--- |--- |--- |
@@ -101,7 +101,7 @@ A criação e a publicação de um evento são apresentadas na seção [Configur
 
 ### Etapa 2 - Editar e publicar a mensagem transacional {#create-transactional-message}
 
-<img src="assets/do-not-localize/icon_notification.svg" width="40px">
+<!--<img src="assets/do-not-localize/icon_notification.svg" width="40px">-->
 
 | Usuário | Ação | Resultado |
 |--- |--- |--- |
@@ -111,7 +111,7 @@ Para obter mais informações sobre como editar e publicar uma mensagem transaci
 
 ### Etapa 3 - Integrar o acionamento do evento {#integrate-event-trigger}
 
-<img src="assets/do-not-localize/icon_api.svg" width="55px">
+<!--<img src="assets/do-not-localize/icon_api.svg" width="55px">-->
 
 <!--**Event triggering integration**-->
 
@@ -125,7 +125,7 @@ Para obter mais informações sobre como usar a API REST do Campaign para gerenc
 
 ### Etapa 4 - Delivery de mensagem {#message-delivery}
 
-<img src="assets/do-not-localize/icon_channels.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_channels.svg" width="60px">-->
 
 Depois que todas essas etapas forem executadas, a mensagem poderá ser entregue.
 
