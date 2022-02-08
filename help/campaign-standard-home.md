@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 9aae75653e3f517e59aae91eaa94c65d247a14dc
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 ![](start/using/assets/do-not-localize/banner_acs_doc.jpg)
 
 ## Novidades
+
+* **[Notas de versão do Campaign 2.1 estão ativas](rn/using/release-notes.md)**<br/> Descubra novos recursos, melhorias e correções que vêm com a versão Campaign Standard 2.1
 
 * **[Perguntas frequentes sobre a proteção de privacidade do Apple Mail](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=pt-BR)**<br/> Encontre orientações iniciais em resposta ao anúncio da Apple sobre o iOS 15
 

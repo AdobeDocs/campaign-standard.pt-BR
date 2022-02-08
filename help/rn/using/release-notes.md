@@ -1,14 +1,11 @@
 ---
 title: Versão mais recente
 description: Esta página detalha o conteúdo da versão mais recente do Campaign Standard
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 5eb01b215a898c28c0a12ceec074d0682cdec0af
+source-git-commit: 9aae75653e3f517e59aae91eaa94c65d247a14dc
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 99%
