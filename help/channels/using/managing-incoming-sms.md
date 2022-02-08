@@ -9,9 +9,9 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 30d0c2552bea3a7cbd8500be4e8c0c74e5a40a99
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '625'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,10 @@ Para fazer isso:
 1. Escolha a palavra-chave que acionará essa resposta automática. As palavras-chave não diferenciam maiúsculas de minúsculas. Por exemplo, aqui, se os recipients enviarem a palavra-chave &quot;PARAR&quot;, eles receberão a resposta automática.
 
    Deixe essa coluna vazia se desejar enviar a mesma resposta independentemente da palavra-chave.
+
+   >[!IMPORTANT]
+   >
+   >Somente caracteres alfanuméricos são autorizados.
 
    ![](assets/sms_mo_2.png)
 

@@ -9,10 +9,10 @@ feature: Performance Monitoring
 role: User
 level: Beginner
 exl-id: ddc92077-df73-411d-a161-3263581e6945
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ed60bde4785da9a8cc5a6cc0efcdb24e2c1f65e3
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 89%
+source-wordcount: '499'
+ht-degree: 82%
 
 ---
 
@@ -37,6 +37,12 @@ Há várias maneiras de monitorar um delivery e medir o impacto. Como administra
    Você pode exportar o log clicando no botão **[!UICONTROL Export list]**.
 
    ![](assets/sending_delivery2.png)
+
+* **Logs de trabalho**: Uma lista dos trabalhos em lote acionados pelo delivery pode ser acessada no painel de mensagens ao selecionar **[!UICONTROL Job history]** do **[!UICONTROL Summary]** lista suspensa.
+
+   Selecione qualquer trabalho da lista para ver os detalhes do **[!UICONTROL Batch job]**.
+
+   ![](assets/sending_delivery8.png)
 
 * **Alertas de delivery**: para rastrear os sucessos ou as falhas do delivery, o Adobe Campaign tem um sistema de alerta por email que envia notificações para informar os usuários sobre atividades importantes do sistema.
 * **Relatórios**: no painel de mensagens, você pode acessar vários relatórios para a mensagem específica. O menu **[!UICONTROL Reports]** permite acessar uma lista completa de relatórios incorporados ou personalizados que você pode usar para destacar métricas específicas relacionadas à mensagem ou campanha.

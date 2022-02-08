@@ -9,9 +9,9 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: a6768af0cea8891411f81e1782a873b5adb70a0e
 workflow-type: tm+mt
-source-wordcount: '1672'
+source-wordcount: '1705'
 ht-degree: 6%
 
 ---
@@ -122,6 +122,10 @@ Para obter mais informações sobre criação e publicação de recursos, consul
 1. Use o **[!UICONTROL Create element]** para vincular um campo do recurso selecionado a um dos campos que você adicionou anteriormente ao evento (consulte [Definição dos atributos de evento](#defining-the-event-attributes)).
 
    ![](assets/message-center_enrichment-join.png)
+
+   >[!NOTE]
+   >
+   >Se você definir uma condição que poderia permitir a seleção de vários recipients (como um campo que pode ter o mesmo valor para vários perfis), não mais de um perfil será direcionado.
 
 1. Neste exemplo, reconciliamos a variável **[!UICONTROL Last name]** e **[!UICONTROL First name]** com os campos correspondentes na **[!UICONTROL Profile]** recurso.
 

@@ -8,10 +8,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
 workflow-type: tm+mt
-source-wordcount: '1599'
-ht-degree: 100%
+source-wordcount: '1591'
+ht-degree: 94%
 
 ---
 
@@ -23,9 +23,7 @@ Essa informação se aplica a GDPR, CCPA, PDPA e LGPD. Para obter mais informaç
 
 A recusa pela venda de informações pessoais, específica para o CCPA, é explicada nesta [seção](#sale-of-personal-information-ccpa).
 
->[!IMPORTANT]
->
->A utilização da API e da interface do Campaign para solicitações de acesso e exclusão se tornará obsoleta a partir da versão 19.4. Para qualquer solicitação de acesso e exclusão de RGPR, CCPA, PDPA ou LGPD, é necessário usar o método de integração do [Privacy Core Service](#create-privacy-request).
+<!--Starting 19.4, the use of the Campaign API and interface for Access and Delete requests is deprecated. For any GDPR, CCPA, PDPA, or LGPD Access and Delete requests, you need to use the [Privacy Core Service](#create-privacy-request) integration method.-->
 
 ## Sobre solicitações de privacidade {#about-privacy-requests}
 
@@ -89,15 +87,17 @@ Você também pode consultar este [tutorial](https://experienceleague.adobe.com/
 
 ### Criar uma solicitação de privacidade {#create-privacy-request}
 
->[!IMPORTANT]
->
->A integração do **Privacy Core Service** é o método que deve ser usado para todas as solicitações de acesso e exclusão.
->
->A utilização da API e da interface do Campaign para solicitações de acesso e exclusão se tornará obsoleta a partir da versão 19.4. Use o Privacy Core Service para qualquer solicitação de acesso e exclusão do GDPR, CCPA, PDPA ou LGPD.
+<!--Starting 19.4, the use of the Campaign API and interface for Access and Delete requests is deprecated. Use the **Privacy Core Service** for any GDPR, CCPA, PDPA, or LGPD Access and Delete requests.-->
 
 A Integração do Privacy Core Service permite automatizar suas solicitações de acesso a dados pessoais em um contexto de várias soluções por meio de uma única chamada JSON API. As solicitações de privacidade transmitidas pelo Privacy Core Service para todas as soluções da Experience Cloud são tratadas automaticamente pelo Campaign, por meio de um fluxo de trabalho específico.
 
 Consulte a documentação do [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR) para saber como criar solicitações de acesso a dados pessoais pelo Privacy Core Service.
+
+>[!IMPORTANT]
+>
+>Para enviar uma solicitação usando o tipo de namespace personalizado, aproveite o [método JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#json){target=&quot;_blank&quot;} e adicionar o namespaceId à solicitação, ou usar o [Chamada de API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=en#access-delete){target=&quot;_blank&quot;} para fazer a solicitação.
+>
+>Use somente o [Interface do usuário de privacidade](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder){target=&quot;_blank&quot;} para enviar solicitações usando o tipo de namespace padrão.
 
 Cada tarefa do Privacy Core Service é dividida em várias solicitações de privacidade no Campaign com base no número de namespaces que estão sendo utilizados, onde cada solicitação corresponde a um namespace. Além disso, um trabalho pode ser executado em múltiplas instâncias. Portanto, vários arquivos são criados para uma tarefa. Por exemplo, se uma solicitação tiver dois namespaces e estiver em execução em três instâncias, então será enviado um total de seis arquivos. Um arquivo por namespace e instância.
 
@@ -189,7 +189,7 @@ Quando os usuários decidem, por meio de seu sistema, que não permitem que suas
 
 ### Pré-requisito para tabelas personalizadas {#ccpa-prerequisite}
 
-A partir da versão 19.4, o campo **[!UICONTROL CCPA Opt-Out]** já está pronto para ser utilizado na interface e API do Campaign. Por padrão, o campo está disponível para o recurso **[!UICONTROL Profile]**.
+O **[!UICONTROL CCPA Opt-Out]** é fornecido pronto para uso na interface e API do Campaign. Por padrão, o campo está disponível para o recurso **[!UICONTROL Profile]**.
 
 Se você usar um recurso de perfil personalizado, precisará estender o recurso e adicionar o campo. Recomendamos que você use um nome diferente do campo predefinido, por exemplo:  **[!UICONTROL Opt-Out for CCPA]** (optoutccpa). Quando um campo é criado, ele se torna automaticamente compatível com a API do Campaign.
 

@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 41be9f7c13a4b3e0a20e714cc42b9d054812ec07
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 88%
+source-wordcount: '1157'
+ht-degree: 84%
 
 ---
 
@@ -54,11 +54,13 @@ Você pode usar essa atividade para recuperar dados que serão estruturados com 
    * [Armazenamento do Microsoft Azure Blob](#azure-blob-configuration-wf)
    * [Arquivos presentes no servidor do Adobe Campaign](#files-server-configuration-wf)
 
-1. A seção **[!UICONTROL Additional options]**, disponível dependendo do protocolo selecionado, permite que adicionar parâmetros ao seu protocolo. Você pode:
+1. A seção **[!UICONTROL Additional options]**, disponível dependendo do protocolo selecionado, permite que adicionar parâmetros ao seu protocolo.
 
-   * **[!UICONTROL Delete the source files after transfer]**
-   * **[!UICONTROL Disable passive mode]**
-   * **[!UICONTROL List all files]**: esta opção está disponível ao selecionar a ação **[!UICONTROL File listing]** na guia **[!UICONTROL General]**. Ela permite indexar todos os arquivos no servidor na variável de evento **vars.filenames** na qual os nomes de arquivo são separados pelos caracteres **&#39;n&#39;**.
+   Você pode:
+
+   * **[!UICONTROL Delete the source files after transfer]**: apaga os arquivos no servidor remoto. Se deixar essa opção desmarcada, monitore manualmente o tamanho do conteúdo arquivado no diretório SFTP.
+   * **[!UICONTROL Disable passive mode]**: permite que você especifique a porta de conexão a ser usada para transferência de dados.
+   * **[!UICONTROL List all files]**: essa opção está disponível ao selecionar a variável **[!UICONTROL File listing]** na **[!UICONTROL General]** guia . Ela permite indexar todos os arquivos no servidor na variável de evento **vars.filenames** na qual os nomes de arquivo são separados pelos caracteres **&#39;n&#39;**.
 
 1. A seção **[!UICONTROL If no files are found]** da guia **[!UICONTROL Advanced options]** permite configurar ações específicas se forem detectados erros ou arquivos inexistentes quando a atividade for iniciada.
 

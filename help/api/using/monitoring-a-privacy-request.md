@@ -8,10 +8,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 63864f0f-2c22-4a65-86ae-21897031f30a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 013293fce8a923e771e10585c41e4ad482003080
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 25%
+source-wordcount: '48'
+ht-degree: 16%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 25%
 
 Você pode monitorar informações sobre uma solicitação de privacidade criada usando um **GET** solicitação.
 
-A descrição da lista de status está disponível na variável [Documentação de gerenciamento de privacidade](https://helpx.adobe.com/br/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
+A descrição da lista de status está disponível na variável [Documentação de gerenciamento de privacidade](../../start/using/privacy-requests.md).
 
 <br/>
 

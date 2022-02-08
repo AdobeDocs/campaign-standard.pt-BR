@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 0523c7cc68661a5593ae2c58382f839c2379f2db
+source-git-commit: 99111a0d8d3bf46aae39b80851ebcabaf30be0a0
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 95%
+source-wordcount: '1245'
+ht-degree: 89%
 
 ---
 
@@ -159,6 +159,18 @@ Depois que você terminar de preparar o delivery e as etapas de aprovação tive
    ![](assets/inapp_sending_7.png)
 
 1. Avalie o impacto das mensagens no aplicativo com relatórios do delivery. Para obter mais informações sobre relatórios, consulte [esta seção](../../reporting/using/in-app-report.md).
+
+1. Depois de enviar as mensagens no aplicativo, você pode optar por desativar o delivery. Isso pode ser útil se você quiser interromper um delivery específico ou se quiser executar um novo delivery com o mesmo acionador, por exemplo.
+
+   Clique em **[!UICONTROL Deactivate]** then **[!UICONTROL Ok]** para iniciar a solicitação de desativação.
+
+   ![](assets/inapp_sending_8.png)
+
+1. Depois que a solicitação for enviada, seu delivery será desativado e nenhuma outra mensagem será enviada.
+
+   Observe que seus relatórios para esse delivery ainda estarão acessíveis.
+
+   ![](assets/inapp_sending_9.png)
 
 **Tópicos relacionados:**
 
