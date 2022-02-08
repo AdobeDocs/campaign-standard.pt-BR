@@ -1,15 +1,12 @@
 ---
 title: Diretrizes de monitoramento
-description: Esta seção apresenta as diretrizes gerais para monitoramento do Campaign Standard.
+description: Esta página apresenta as diretrizes gerais para monitoramento do Campaign Standard
 audience: production
-content-type: reference
-topic-tags: introduction
-index: y
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 20%
@@ -32,12 +29,12 @@ O Campaign Standard fornece várias maneiras de monitorar as instâncias para ga
 
 **Notificações do sistema**
 
-A interface do Campaign Standard fornece um painel de notificação que permite que você seja informado sobre o que está acontecendo no sistema: status de eventos, atualizações do sistema, ação necessária, etc. [Leia mais](../../start/using/interface-description.md#top-bar)
+A interface do Campaign Standard fornece um painel de notificação que permite que você seja informado sobre o que está acontecendo no sistema: status de eventos, atualizações do sistema, ação necessária, etc. [Saiba mais](../../start/using/interface-description.md#top-bar)
 
 
 **Workflows técnicos**
 
-Eles são operações ou trabalhos programados para serem executados regularmente no servidor. Para garantir que sua instância esteja funcionando corretamente, é necessário garantir que esteja sempre ativa e em execução. [Leia mais](../../administration/using/technical-workflows.md)
+Eles são operações ou trabalhos programados para serem executados regularmente no servidor. Para garantir que sua instância esteja funcionando corretamente, é necessário garantir que esteja sempre ativa e em execução. [Saiba mais](../../administration/using/technical-workflows.md)
 
 **Painel de controle do Campaign**
 
@@ -49,17 +46,17 @@ O Painel de controle do Campaign permite gerenciar várias configurações da su
 
 **Objetos técnicos**
 
-O **[!UICONTROL Diagnosis]** é uma ferramenta essencial para monitorar e analisar os diferentes objetos técnicos gerados pelo aplicativo: esquemas de dados, páginas da Web, trabalhos em lote etc. [Leia mais](../../developing/using/monitoring-data-model-changes.md)
+O **[!UICONTROL Diagnosis]** é uma ferramenta essencial para monitorar e analisar os diferentes objetos técnicos gerados pelo aplicativo: esquemas de dados, páginas da Web, trabalhos em lote etc. [Saiba mais](../../developing/using/monitoring-data-model-changes.md)
 
 **Auditorias à exportação**
 
 As auditorias de exportação permitem monitorar as exportações realizadas em suas instâncias: arquivos carregados de workflows, exportações de lista e arquivos baixados de mensagens de mala direta.
-[Leia mais](../../administration/using/auditing-export-logs.md)
+[Saiba mais](../../administration/using/auditing-export-logs.md)
 
 **Licenças**
 
 Com o **[!UICONTROL Licenses]** , monitore informações sobre suas instâncias: licenças instaladas, versões de compilação e aceitações do contrato de termos.
-[Leia mais](../../administration/using/licenses.md)
+[Saiba mais](../../administration/using/licenses.md)
 
 ## Monitoramento de workflows {#monitoring-workflows}
 
@@ -68,17 +65,17 @@ Com o **[!UICONTROL Licenses]** , monitore informações sobre suas instâncias:
 **Práticas recomendadas e solução de problemas**
 
 Seguir as práticas recomendadas e as diretrizes de solução de problemas ao usar workflows pode ajudar a melhorar o desempenho.
-[Leia mais](../../automating/using/best-practices-workflows.md)
+[Saiba mais](../../automating/using/best-practices-workflows.md)
 
 **Logs e tarefas**
 
 O monitoramento de logs do fluxo de trabalho é uma etapa essencial para analisar seus fluxos de trabalho e garantir que eles estejam em execução corretamente.
-[Leia mais](../../automating/using/monitoring-workflow-execution.md#workflow-log-and-tasks)
+[Saiba mais](../../automating/using/monitoring-workflow-execution.md#workflow-log-and-tasks)
 
 **Notificações**
 
 O Campaign Standard permite enviar notificações para supervisores a fim de monitorar a execução dos workflows e ver se há algum erro que exija sua atenção.
-[Leia mais](../../automating/using/monitoring-workflow-execution.md#error-management)
+[Saiba mais](../../automating/using/monitoring-workflow-execution.md#error-management)
 
 ## Monitoramento de entregas {#monitoring-deliveries}
 
@@ -87,19 +84,19 @@ O Campaign Standard permite enviar notificações para supervisores a fim de mon
 **Avaliação do delivery**
 
 O Campaign Standard oferece várias ferramentas de deliverability para ajudar você a melhorar o número de mensagens entregues com êxito: relatórios de taxa de transferência de delivery, otimização de tempo de envio, pré-visualização de mensagens, renderização de email, gerenciamento de quarentena etc.
-[Leia mais](../../sending/using/about-deliverability.md)
+[Saiba mais](../../sending/using/about-deliverability.md)
 
 **Deliveries**
 
 Depois que as mensagens são enviadas, os logs detalhados permitem monitorar os deliveries e medir o sucesso da campanha, bem como rastrear o comportamento dos recipients das mensagens.
-[Leia mais](../../sending/using/monitoring-a-delivery.md)
+[Saiba mais](../../sending/using/monitoring-a-delivery.md)
 
 **Alerta de delivery**
 
 Com o recurso de Alerta de delivery, é possível configurar alertas que serão enviados automaticamente para um grupo de usuários em relação à execução dos deliveries: falha no envio ou preparação, taxa de devoluções incorretas, baixa taxa de transferência etc.
-[Leia mais](../../sending/using/receiving-alerts-when-failures-happen.md)
+[Saiba mais](../../sending/using/receiving-alerts-when-failures-happen.md)
 
 **Relatórios dinâmicos**
 
 Os Relatórios dinâmicos fornecem vários relatórios para ajudar você a ser informado sobre o desempenho de seus deliveries: devoluções, deliveries mais vistos por recipients, taxa de transferência dos deliveries etc.
-[Leia mais](../../reporting/using/about-dynamic-reports.md)
+[Saiba mais](../../reporting/using/about-dynamic-reports.md)

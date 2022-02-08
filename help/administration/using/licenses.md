@@ -1,14 +1,12 @@
 ---
 title: Licenças
-description: Saiba mais sobre as licenças instaladas em sua instância.
+description: Saiba mais sobre as licenças instaladas em sua instância
 audience: administration
-content-type: reference
-topic-tags: users-and-security
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc
-source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 1%

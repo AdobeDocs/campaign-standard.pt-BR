@@ -1,17 +1,14 @@
 ---
 title: Casos de uso de publicação de conteúdo para dispositivos móveis compatíveis com o Adobe Campaign Standard por meio dos SDKs do Adobe Experience Platform
-description: Este documento fornece informações sobre como suportar casos de uso de dispositivos móveis.
+description: Saiba como suportar casos de uso de dispositivos móveis
 audience: channels
-content-type: reference
-topic-tags: push-notifications
-context-tags: mobileApp,overview
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
-source-git-commit: 8c4e38a3fc66e4d819575fcd64616a822e0e1f82
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '949'
 ht-degree: 1%
 
 ---

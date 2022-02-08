@@ -2,11 +2,9 @@
 title: Atualizar qualificação de rejeição após uma interrupção do ISP
 description: Saiba como atualizar a qualificação de rejeição após uma interrupção do ISP.
 audience: delivery
-content-type: reference
-topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 91%

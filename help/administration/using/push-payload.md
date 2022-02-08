@@ -1,17 +1,14 @@
 ---
 title: Como entender a estrutura de payload das notificações por push do Campaign Standard
-description: Este documento destina-se a descrever a estrutura da carga útil recebida em aplicativos móveis.
+description: Saiba mais sobre a estrutura do payload recebido em aplicativos móveis
 audience: channels
-content-type: reference
-topic-tags: push-notifications
-context-tags: mobileApp,overview
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1137'
 ht-degree: 4%
 
 ---

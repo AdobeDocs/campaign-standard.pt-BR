@@ -1,15 +1,13 @@
 ---
-title: Identidade visual
-description: Descubra todas as ferramentas disponíveis para gerenciar as identidades da sua marca.
+title: Marca
+description: Descubra todas as ferramentas disponíveis para gerenciar as identidades da sua marca
 audience: administration
-content-type: reference
-topic-tags: application-settings
 context-tags: branding,overview;branding,main
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '1282'
 ht-degree: 76%
