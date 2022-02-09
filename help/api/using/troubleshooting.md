@@ -1,21 +1,18 @@
 ---
 title: Solução de problemas
-description: Saiba mais sobre problemas comuns relacionados às APIs do Campaign Standard.
-audience: developing
-content-type: reference
-topic-tags: use-case--extending-the-api
+description: Saiba mais sobre problemas comuns relacionados a APIs do Campaign Standard
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
 
-# Solução de problemas {#troubleshooting}
+# Solução de problemas de API {#troubleshooting}
 
 * **Ao acessar o console do Adobe.io, você recebe o seguinte erro: &quot;O console Adobe I/O só está disponível para selecionar membros de contas corporativas. Se você acha que deve ter acesso, entre em contato com o administrador do sistema.&quot;**
 
@@ -87,7 +84,7 @@ Seu token é inválido (chamada IMS incorreta usada para gerar um token) ou seu 
 
 * **Não vejo meu perfil após a criação**
 
-Dependendo da configuração da instância, o perfil criado precisa ser associado a um **orgUnit**. Para entender como adicionar esse campo à criação, consulte [esta seção](../../api/using/creating-profiles.md).
+Dependendo da configuração da instância, o perfil criado precisa ser associado a um **orgUnit**. Para entender como adicionar esse campo à criação, consulte [esta seção](../../api/using/creating-profiles-api.md).
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
 
