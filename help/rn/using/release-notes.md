@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 46bb0c52b5437d29173ab4ccb510aeef67bd5c2d
+source-git-commit: 13894dd2ce3922a54e8754dfcb164eb37b18c76c
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 98%
+source-wordcount: '724'
+ht-degree: 97%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 98%
 * Processamento de dados de relatório aprimorado para evitar sobrecarga do sistema. (CAMP-47578)
 * Depois de enviar mensagens no aplicativo, é possível optar por desativar o delivery. Isso permite excluir o delivery sem perder nenhum dado de relatório. (CAMP-48469)
 * Para evitar qualquer problema, os usuários não podem mais usar o mesmo nome da Chave primária automática no banco de dados em uma coluna de tabela personalizada, `"<dataType><resourceName>Id"`. (CAMP-49358)
-* Agora é possível monitorar o delivery e rastrear logs de trabalhos com o novo menu suspenso de **Histórico de tarefas** no painel de suas mensagens. (CAMP-49840)
+* Agora é possível monitorar o delivery e rastrear logs de trabalhos com o novo menu suspenso de **Histórico de tarefas** no painel de suas mensagens. [Saiba mais](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
 * Aprimoramento da estabilidade e integridade do banco de dados, ao reduzir tuplas inativas quando um grande número de mensagens são enviadas por todos os canais ao longo do tempo. (CAMP-49755, CAMP-49792, CAMP-49849)
 * Para garantir que as conexões do banco de dados sejam atualizadas automaticamente em caso de falha ou reinicialização do banco de dados, foram implementadas melhorias no Mail Transfer Agent (MTA) do Campaign. (CAMP-48063)
 
