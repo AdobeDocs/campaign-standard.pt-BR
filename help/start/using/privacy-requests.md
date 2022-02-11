@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1591'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -95,9 +95,9 @@ Consulte a documentação do [Experience Platform Privacy Service](https://exper
 
 >[!IMPORTANT]
 >
->Para enviar uma solicitação usando o tipo de namespace personalizado, aproveite o [método JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#json){target=&quot;_blank&quot;} e adicionar o namespaceId à solicitação, ou usar o [Chamada de API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=en#access-delete){target=&quot;_blank&quot;} para fazer a solicitação.
+>Para enviar uma solicitação usando o tipo de namespace personalizado, utilize o [método JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR#json){target=&quot;_blank&quot;} e adicione o namespaceId à solicitação, ou use a [Chamada de API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=br#access-delete){target=&quot;_blank&quot;} para fazer a solicitação.
 >
->Use somente o [Interface do usuário de privacidade](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder){target=&quot;_blank&quot;} para enviar solicitações usando o tipo de namespace padrão.
+>Use somente a [Interface do usuário de privacidade](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=br#request-builder){target=&quot;_blank&quot;} para enviar solicitações usando o tipo de namespace padrão.
 
 Cada tarefa do Privacy Core Service é dividida em várias solicitações de privacidade no Campaign com base no número de namespaces que estão sendo utilizados, onde cada solicitação corresponde a um namespace. Além disso, um trabalho pode ser executado em múltiplas instâncias. Portanto, vários arquivos são criados para uma tarefa. Por exemplo, se uma solicitação tiver dois namespaces e estiver em execução em três instâncias, então será enviado um total de seis arquivos. Um arquivo por namespace e instância.
 
@@ -189,7 +189,7 @@ Quando os usuários decidem, por meio de seu sistema, que não permitem que suas
 
 ### Pré-requisito para tabelas personalizadas {#ccpa-prerequisite}
 
-O **[!UICONTROL CCPA Opt-Out]** é fornecido pronto para uso na interface e API do Campaign. Por padrão, o campo está disponível para o recurso **[!UICONTROL Profile]**.
+O campo **[!UICONTROL CCPA Opt-Out]** já está pronto para ser utilizado na interface e API do Campaign. Por padrão, o campo está disponível para o recurso **[!UICONTROL Profile]**.
 
 Se você usar um recurso de perfil personalizado, precisará estender o recurso e adicionar o campo. Recomendamos que você use um nome diferente do campo predefinido, por exemplo:  **[!UICONTROL Opt-Out for CCPA]** (optoutccpa). Quando um campo é criado, ele se torna automaticamente compatível com a API do Campaign.
 
