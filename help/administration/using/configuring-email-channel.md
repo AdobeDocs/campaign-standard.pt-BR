@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
 workflow-type: tm+mt
-source-wordcount: '2596'
+source-wordcount: '2614'
 ht-degree: 77%
 
 ---
@@ -234,6 +234,7 @@ A seção **[!UICONTROL Tracking]** contém os seguintes parâmetros:
 * **[!UICONTROL Activate tracking]**: permite ativar/desativar o rastreamento de URL da mensagem. Para gerenciar o rastreamento de cada URL de mensagem, use o ícone **[!UICONTROL Links]** na barra de ação do Designer de email. Consulte [Sobre URLs rastreados](../../designing/using/links.md#about-tracked-urls).
 * **[!UICONTROL Tracking validity limit]**: permite definir a duração para a qual o rastreamento será ativado nos URLs.
 * **[!UICONTROL Substitution URL for expired URLs]**: você pode inserir um URL para uma página da Web que será exibida depois que o rastreamento expirar.
+* **[!UICONTROL Use tracking pixel at the top of email]**: O permite mover o pixel de rastreamento na parte superior do email, em vez de na parte inferior.
 
 ### Parâmetros avançados {#advanced-parameters}
 
@@ -311,7 +312,7 @@ Se você **NOT** ao executar a versão mais recente do Campaign, os parâmetros 
 
 O **[!UICONTROL Retries]** nas [Menu Configuração](#email-channel-parameters) e na [Envio de parâmetros](#retries-parameters) das propriedades do email indicam quantas tentativas devem ser executadas no dia seguinte ao início do envio (**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**) e o atraso mínimo entre as tentativas (**[!UICONTROL Retry period]**).
 
-O número de tentativas pode ser alterado globalmente (entre em contato com o administrador técnico do Adobe) ou para cada delivery ou template de delivery.
+O número de tentativas pode ser alterado globalmente (entre em contato com o administrador técnico da Adobe) ou para cada delivery ou modelo do delivery.
 
 Por padrão, cinco tentativas são agendadas para o primeiro dia com um intervalo mínimo de uma hora, distribuídas pelas 24 horas do dia. Uma nova tentativa por dia é programada depois disso e até o prazo do delivery, que é definido globalmente na variável **[!UICONTROL Delivery parameters]** da seção **[!UICONTROL Configuration]** ou no **[!UICONTROL Validity period]** no nível do delivery (consulte a seção [Duração do delivery](#legacy-delivery-duration) abaixo).
 
