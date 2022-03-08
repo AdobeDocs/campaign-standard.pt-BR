@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '762'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 95%
 * Agora é possível monitorar o delivery e rastrear logs de trabalhos com o novo menu suspenso de **Histórico de tarefas** no painel de suas mensagens. [Saiba mais](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
 * Aprimoramento da estabilidade e integridade do banco de dados, ao reduzir tuplas inativas quando um grande número de mensagens são enviadas por todos os canais ao longo do tempo. (CAMP-49755, CAMP-49792, CAMP-49849)
 * Para garantir que as conexões do banco de dados sejam atualizadas automaticamente em caso de falha ou reinicialização do banco de dados, foram implementadas melhorias no Mail Transfer Agent (MTA) do Campaign. (CAMP-48063)
-* Uma nova opção de rastreamento **Usar o rastreamento de pixel na parte superior do email** O foi adicionado às propriedades de email, permitindo mover o pixel de rastreamento na parte superior do email, em vez de na parte inferior. (CAMP-49672)
+* Uma nova opção de rastreamento para **Usar o pixel de rastreamento na parte superior do email** foi adicionada às propriedades de email, permitindo mover o pixel de rastreamento na parte superior do email, em vez de na parte inferior. (CAMP-49672)
 
 **Correções**
 
