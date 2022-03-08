@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
 source-git-commit: 8f04bb9fa8b47b990f0cd6359ce6569d836a9b64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4587'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -110,7 +110,7 @@ Os novos recursos, melhorias e correções incluídos na versão mais recente do
 * Uma nova mensagem de alerta informa aos usuários uma alta taxa de rejeição.
 * Mensagens e avisos de erro de log aprimorados para facilitar a depuração quando os logs de rastreamento falharam ao serem recuperados corretamente. (CAMP-48939, CAMP-47360)
 * Agora é possível personalizar totalmente os URLs, incluindo o nome do domínio. [Saiba mais](../../designing/using/personalization.md#personalizing-urls)
-* Perfis de prova e trap foram excluídos do cálculo de desempenho do delivery em Relatórios dinâmicos. (CAMP-47338)
+* Os perfis de prova e captura foram excluídos do cálculo de desempenho de delivery nos Relatórios dinâmicos. (CAMP-47338)
 
 **Correções**
 
