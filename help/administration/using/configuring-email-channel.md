@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
+source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
 workflow-type: tm+mt
-source-wordcount: '2614'
-ht-degree: 77%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -234,7 +234,7 @@ A seção **[!UICONTROL Tracking]** contém os seguintes parâmetros:
 * **[!UICONTROL Activate tracking]**: permite ativar/desativar o rastreamento de URL da mensagem. Para gerenciar o rastreamento de cada URL de mensagem, use o ícone **[!UICONTROL Links]** na barra de ação do Designer de email. Consulte [Sobre URLs rastreados](../../designing/using/links.md#about-tracked-urls).
 * **[!UICONTROL Tracking validity limit]**: permite definir a duração para a qual o rastreamento será ativado nos URLs.
 * **[!UICONTROL Substitution URL for expired URLs]**: você pode inserir um URL para uma página da Web que será exibida depois que o rastreamento expirar.
-* **[!UICONTROL Use tracking pixel at the top of email]**: O permite mover o pixel de rastreamento na parte superior do email, em vez de na parte inferior.
+* **[!UICONTROL Use tracking pixel at the top of email]**: O permite mover o pixel de rastreamento na parte superior do email, em vez de na parte inferior. Por padrão, esse pixel está localizado na parte inferior dos emails. Se você enviar mensagens grandes, considere mover esse pixel na parte superior dos emails, em vez de na parte inferior, para melhorar o rastreamento aberto; caso contrário, o pixel de rastreamento pode ser cortado por alguns provedores de email.
 
 ### Parâmetros avançados {#advanced-parameters}
 

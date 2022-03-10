@@ -6,10 +6,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,11 +28,11 @@ O Adobe Campaign permite definir e gerenciar as permissões atribuídas a usuár
 
 As funções, os grupos e as unidades organizacionais podem ser gerenciadas pelo administrador funcional da plataforma, no menu **[!UICONTROL Administration > Users & Security]**.
 
-![](assets/user_management_1.png)
+![Menu Gerenciamento de usuários](assets/user_management_1.png)
 
-Os usuários são gerenciados no Admin Console (consulte a seção [Gerenciamento de grupos e usuários](../../administration/using/managing-groups-and-users.md) ou a [Documentação do Admin Console](https://helpx.adobe.com/br/enterprise/managing/user-guide.html)).
+Os usuários são gerenciados no Admin Console. Saiba mais na [Gerenciamento de grupos e usuários](../../administration/using/managing-groups-and-users.md) e na seção [Documentação do Admin Console](https://helpx.adobe.com/br/enterprise/managing/user-guide.html).
 
-![](assets/user_management_6.png)
+![Acessar perfis de produto](assets/user_management_6.png)
 
 >[!IMPORTANT]
 >
