@@ -1,12 +1,12 @@
 ---
-title: Implementação do rastreamento de push
+title: Implementação de rastreamento local
 description: Saiba como garantir que o rastreamento de notificação por push tenha sido implementado corretamente no iOS e Android
 audience: channels
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 1%
@@ -27,7 +27,7 @@ O rastreamento de notificação local pode ser dividido em três tipos:
 
 * **Abertura local** - Quando uma notificação local é entregue ao dispositivo e o usuário clica na notificação que causa a abertura do aplicativo. Isso é semelhante ao clique local, exceto que uma abertura local não será acionada se a notificação for descartada.
 
-Para implementar o rastreamento para Adobe Campaign Standard, o aplicativo móvel precisa incluir SDK móvel no aplicativo. Esses SDKs estão disponíveis em [!DNL Adobe Mobile Services].
+Para implementar o rastreamento para o Adobe Campaign Standard, o aplicativo móvel precisa incluir o Mobile SDK no aplicativo. Esses SDKs estão disponíveis em [!DNL Adobe Mobile Services].
 
 Para enviar informações de rastreamento, há três variáveis que devem ser enviadas: dois são parte dos dados recebidos do Adobe Campaign e o outro é uma variável de ação que determina se é uma impressão, clique ou abertura.
 
@@ -39,7 +39,7 @@ Para enviar informações de rastreamento, há três variáveis que devem ser en
 
 ## Implementar o rastreamento de impressão local {#implement-local-impression-tracking}
 
-O SDK do Adobe Experience Platform Mobile enviará automaticamente o evento de impressão para Android e iOS sem qualquer configuração adicional.
+O Adobe Experience Platform Mobile SDK enviará automaticamente o evento de impressão para Android e iOS sem qualquer configuração adicional.
 
 ## Implementar o rastreamento de cliques {#implementing-click-tracking}
 

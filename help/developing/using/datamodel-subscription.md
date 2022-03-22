@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: Evento de assinatura do DataModel
 description: Saiba mais sobre o datamodel
 audience: developing
 content-type: reference
@@ -7,10 +7,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: cf0fac4e-59fd-4d6e-a411-41361f45938d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 12%
+source-wordcount: '79'
+ht-degree: 15%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 12%
     </tr>
     <tr>
         <td>mobilePhone</td>
-        <td>Número do celular</td>
+        <td>Número Mobile</td>
         <td>string (32)</td>
         <td> </td>
     </tr>

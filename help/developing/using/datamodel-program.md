@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: Programa DataModel
 description: Saiba mais sobre o datamodel
 audience: developing
 content-type: reference
@@ -7,10 +7,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: b05dc67a-6447-4d22-99f2-8a14a0ee46d2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 14%
+source-wordcount: '223'
+ht-degree: 22%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 14%
                   <td> </td>
                </tr>
                <tr>
-                  <td>atividades</td>
+                  <td>Atividades</td>
                   <td>Atividades</td>
                   <td>coleção </td>
                   <td> </td>
@@ -126,7 +126,7 @@ ht-degree: 14%
                </tr>
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
-                  <td>Unidade organizacional</td>
+                  <td>Entidade organizacional</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -144,7 +144,7 @@ ht-degree: 14%
                </tr>
                <tr>
                   <td>start</td>
-                  <td>Data de início</td>
+                  <td>Data inicial</td>
                   <td>data </td>
                   <td> </td>
                </tr>

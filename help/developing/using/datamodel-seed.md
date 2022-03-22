@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: Membro de origem do DataModel
 description: Saiba mais sobre o datamodel
 audience: developing
 content-type: reference
@@ -7,10 +7,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 19%
+source-wordcount: '173'
+ht-degree: 30%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 19%
                </tr>
                <tr>
                   <td>mobileApp</td>
-                  <td>Aplicativo móvel</td>
+                  <td>aplicativo Mobile</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -141,7 +141,7 @@ ht-degree: 19%
                </tr>
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
-                  <td>Unidade organizacional</td>
+                  <td>Entidade organizacional</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -207,7 +207,7 @@ ht-degree: 19%
                </tr>
                <tr>
                   <td>armadilha</td>
-                  <td>Cobertura</td>
+                  <td>Interceptação</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>

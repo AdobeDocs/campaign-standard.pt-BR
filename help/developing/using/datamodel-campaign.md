@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: Campanha do DataModel
 description: Saiba mais sobre o datamodel
 audience: developing
 content-type: reference
@@ -7,10 +7,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: a63fe730-a6b2-4ae0-93da-9f8ee7824c9f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 13%
+source-wordcount: '217'
+ht-degree: 22%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 13%
                   <td> </td>
                </tr>
                <tr>
-                  <td>atividades</td>
+                  <td>Atividades</td>
                   <td>Atividades</td>
                   <td>coleção </td>
                   <td> </td>
@@ -132,7 +132,7 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
-                  <td>Unidade organizacional</td>
+                  <td>Entidade organizacional</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -150,7 +150,7 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>start</td>
-                  <td>Data de início</td>
+                  <td>Data inicial</td>
                   <td>data </td>
                   <td> </td>
                </tr>
@@ -181,7 +181,7 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>título</td>
-                  <td>Campaign</td>
+                  <td>Campanha</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>

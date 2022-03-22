@@ -1,5 +1,5 @@
 ---
-title: Solução de problemas
+title: Solução de problemas de integração
 description: Saiba como solucionar problemas ao compartilhar recursos.
 audience: integrating
 content-type: reference
@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 5882ada6-dff4-4fd1-a433-0eb31570f73c
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '347'
 ht-degree: 18%
 
 ---

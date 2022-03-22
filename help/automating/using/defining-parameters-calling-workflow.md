@@ -1,5 +1,5 @@
 ---
-title: Chamada de fluxo de trabalho com parâmetros externos
+title: Definição dos parâmetros ao chamar o fluxo de trabalho
 description: Esta seção detalha como chamar um workflow com parâmetros externos.
 audience: automating
 content-type: reference
@@ -8,9 +8,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: f7de0186-4136-4603-8f80-9f58c641cd9d
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '189'
 ht-degree: 13%
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: Serviço do DataModel
 description: Saiba mais sobre o datamodel
 audience: developing
 content-type: reference
@@ -7,10 +7,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 11%
+source-wordcount: '214'
+ht-degree: 21%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 11%
                   <td>enumeração (byte) </td>
                   <td>
                      <ul>
-                        <li>Móvel (SMS) - sms - 1</li>
+                        <li>Mobile (SMS) - sms - 1</li>
                         <li>Email - email - 0</li>
                         <li>VALOR INVÁLIDO - __Valor_Inválido__ - __Valor_Inválido__</li>
                      </ul>
@@ -153,7 +153,7 @@ ht-degree: 11%
                </tr>
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
-                  <td>Unidade organizacional</td>
+                  <td>Entidade organizacional</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -165,7 +165,7 @@ ht-degree: 11%
                </tr>
                <tr>
                   <td>start</td>
-                  <td>Data de início</td>
+                  <td>Data inicial</td>
                   <td>data </td>
                   <td> </td>
                </tr>
