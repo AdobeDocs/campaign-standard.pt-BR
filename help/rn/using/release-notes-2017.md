@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
-source-wordcount: '4623'
+source-wordcount: '4613'
 ht-degree: 8%
 
 ---
@@ -315,7 +315,7 @@ _Notificações por push_
   </tr> 
   <tr> 
    <td> Notificações por push transacionais<br /> </td> 
-   <td> O canal de aplicativo móvel foi adicionado aos recursos de mensagens transacionais do Adobe Campaign. Agora, três canais são compatíveis com mensagens transacionais: notificações por email, SMS e push.<br /> Para obter mais informações, consulte a <a href="../../channels/using/transactional-push-notifications.md">documentação detalhada</a>.<br /> </td> 
+   <td> O canal de aplicativo Mobile foi adicionado aos recursos de mensagens transacionais do Adobe Campaign. Agora, três canais são compatíveis com mensagens transacionais: notificações por email, SMS e push.<br /> Para obter mais informações, consulte a <a href="../../channels/using/transactional-push-notifications.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Notificações por push recorrentes<br /> </td> 
@@ -327,7 +327,7 @@ _Notificações por push_
   </tr> 
   <tr> 
    <td> Integração do Dreamweaver ao vivo<br /> </td> 
-   <td> A integração entre o Adobe Campaign e o Dreamweaver está ativa. Agora funciona com a última versão oficial do Dreamweaver (17.0.2).<br /> Isso requer a instalação da extensão de Integração do Adobe Campaign a partir daqui: <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon</a><br /> Para obter mais informações, consulte esta seção <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=pt-BR">vídeo</a>.<br /> </td> 
+   <td> A integração entre o Adobe Campaign e o Dreamweaver está ativa. Agora funciona com a última versão oficial do Dreamweaver (17.0.2).<br /> Isso requer a instalação da extensão de Integração do Adobe Campaign. Para obter mais informações, consulte esta seção <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=pt-BR">vídeo</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -435,7 +435,7 @@ _Notificações por push_
   </tr> 
   <tr> 
    <td> Dados dos pontos de interesse<br /> </td> 
-   <td> Os dados de pontos de interesse integram o Adobe Campaign ao Adobe Analytics for Mobile. Uma marca pode coletar dados de locais móveis dos usuários - chamada de <strong>Pontos de interesse</strong> - quando os usuários abrem o aplicativo da marca. Isso permite que a marca aproveite os fluxos de trabalho do Adobe Campaign para enviar mensagens personalizadas com base na localização dos usuários. Esse canal utiliza o SDK do serviço principal móvel.<br /> Observe que para usar esse recurso é necessário ter o Analytics for Mobile, que é uma solução paga.<br /> Para obter mais informações, consulte a <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">documentação detalhada</a>.<br /> </td> 
+   <td> Os dados de pontos de interesse integram o Adobe Campaign ao Adobe Analytics for Mobile. Uma marca pode coletar dados de locais móveis dos usuários - chamada de <strong>Pontos de interesse</strong> - quando os usuários abrem o aplicativo da marca. Isso permite que a marca aproveite os fluxos de trabalho do Adobe Campaign para enviar mensagens personalizadas com base na localização dos usuários. Esse canal utiliza o SDK do serviço principal da Mobile.<br /> Observe que para usar esse recurso é necessário ter o Analytics for Mobile, que é uma solução paga.<br /> Para obter mais informações, consulte a <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> REST APIs<br /> </td> 

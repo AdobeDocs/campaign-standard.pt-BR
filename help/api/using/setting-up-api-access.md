@@ -8,9 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '364'
 ht-degree: 3%
 
 ---
@@ -43,7 +43,7 @@ Para estabelecer uma sessão de Adobe I/O de serviço para serviço seguro, cada
    * &lt;organization> : sua instância de produção,
    * &lt;organization-mkt-stage>: sua instância do estágio.
 
-   Para obter o valor da ID da ORGANIZAÇÃO, consulte o administrador ou o contato técnico do Adobe. Você também pode recuperá-la no Adobe I/O ao criar uma nova integração, na lista de licenças (consulte <a href="https://www.adobe.io/authentication.html">Documentação do Adobe IO</a>).
+   Para obter o valor da ID da ORGANIZAÇÃO, consulte o administrador ou o contato técnico do Adobe. Você também pode recuperá-la no Adobe I/O ao criar uma nova integração, na lista de licenças (consulte <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Documentação do Adobe IO</a>).
 
 * **&lt;access_token>**: Seu token de acesso pessoal, que foi recuperado ao trocar seu token Web JSON por meio de uma solicitação POST.
 
