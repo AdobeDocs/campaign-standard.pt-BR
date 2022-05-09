@@ -5,9 +5,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b65bf28565c25072c6a95cebdb999ce38a2e2e1a
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '355'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 * **Ao acessar o console do Adobe.io, você recebe o seguinte erro: &quot;O console Adobe I/O só está disponível para selecionar membros de contas corporativas. Se você acha que deve ter acesso, entre em contato com o administrador do sistema.&quot;**
 
-Você só pode criar Chaves de API para as organizações IMS das quais é administrador. Se essa mensagem for exibida e você quiser criar Chaves de API e solicitar um administrador da organização IMS.
+Você só pode criar Chaves de API para as organizações das quais é administrador. Se esta mensagem for exibida e você quiser criar Chaves de API e solicitar um dos administradores da organização.
 
 * **Ao fazer uma solicitação ao Adobe.io, você obtém o {&quot;error_code&quot;:&quot;403023&quot;, &quot;message&quot;:&quot;Profile is not valid&quot;}**
 

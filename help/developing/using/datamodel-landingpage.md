@@ -233,7 +233,7 @@ ht-degree: 3%
       </tr>
       <tr>
          <td>end</td>
-         <td>Data de expiração</td>
+         <td>Data de validade</td>
          <td>data </td>
          <td> </td>
       </tr>

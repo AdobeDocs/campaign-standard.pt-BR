@@ -1,6 +1,6 @@
 ---
 title: Evento de cancelamento de assinatura do DataModel
-description: Saiba mais sobre o datamodel
+description: Learn about the datamodel
 audience: developing
 content-type: reference
 feature: Data Model
@@ -10,13 +10,13 @@ exl-id: 508361d1-6a0b-4476-a058-4162fb3e8d5e
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 20%
+ht-degree: 43%
 
 ---
 
 # Evento de cancelamento de assinatura (nms:rtEvent)
 
-## Descrição do objeto
+## Object description
 
 <table>
                <tr>
@@ -87,7 +87,7 @@ byStatusOrType
         </tr>
         <tr>
         <td>status</td>
-        <td>enumeração</td>
+        <td>enumeration</td>
         </tr>
         <tr>
         <td>type</td>

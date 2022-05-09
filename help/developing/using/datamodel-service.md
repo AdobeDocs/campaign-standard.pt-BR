@@ -121,7 +121,7 @@ ht-degree: 21%
                   <td>enumeração (byte) </td>
                   <td>
                      <ul>
-                        <li>Mobile (SMS) - sms - 1</li>
+                        <li>Móvel (SMS) - sms - 1</li>
                         <li>Email - email - 0</li>
                         <li>VALOR INVÁLIDO - __Valor_Inválido__ - __Valor_Inválido__</li>
                      </ul>
@@ -165,7 +165,7 @@ ht-degree: 21%
                </tr>
                <tr>
                   <td>start</td>
-                  <td>Data inicial</td>
+                  <td>Data de início</td>
                   <td>data </td>
                   <td> </td>
                </tr>

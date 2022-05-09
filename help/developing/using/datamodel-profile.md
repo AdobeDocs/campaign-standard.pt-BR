@@ -556,7 +556,7 @@ Clicado em (hasClickedDelivery)
 <th>Tipo</th>
 </tr>
 <tr>
-<td>delivery</td>
+<td>entrega</td>
 <td>link</td>
 </tr>
 </table>
@@ -569,7 +569,7 @@ Aberto (hasOpenedDelivery)
 <th>Tipo</th>
 </tr>
 <tr>
-<td>delivery</td>
+<td>entrega</td>
 <td>link</td>
 </tr>
 </table>
@@ -595,7 +595,7 @@ Recebido (hasReceivedDelivery)
 <th>Tipo</th>
 </tr>
 <tr>
-<td>delivery</td>
+<td>entrega</td>
 <td>link</td>
 </tr>
 </table>

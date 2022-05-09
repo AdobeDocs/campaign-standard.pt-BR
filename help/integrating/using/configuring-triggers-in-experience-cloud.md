@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 7%
+source-wordcount: '853'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ A funcionalidade deve ser ativada no Adobe Campaign pelo Adobe. Entre em contato
 A equipe do Adobe precisará das seguintes informações para ativar acionadores:
 
 * Nome da empresa do Marketing Cloud
-* IMS Organization ID
+* ID da organização
 * Empresa de logon do Analytics (pode ser igual ao Nome da empresa do Marketing Cloud)
 
 ## Configuração de soluções e serviços {#configuring-solutions-and-services}
@@ -101,7 +101,7 @@ Consulte a [Documentação do Adobe Experience Cloud](https://experienceleague.a
 
 Esta é uma lista de práticas recomendadas e limitações para o uso da integração Campaign - Triggers:
 
-* Se você tiver várias instâncias do Campaign Standard, os acionadores poderão ser recebidos por todas as instâncias, desde que estejam na mesma IMS Organization ID. O Analytics também precisa estar na mesma IMS Organization ID.
+* Se você tiver várias instâncias do Campaign Standard, os acionadores poderão ser recebidos por todas as instâncias, desde que estejam na mesma organização. O Analytics também precisa estar na mesma organização.
 * Não é possível criar um acionador no serviço principal do acionador usando eventos de dois conjuntos de relatórios diferentes.
 * Os acionadores são baseados em mensagens transacionais. As mensagens transacionais são usadas sempre que é necessário enviar uma mensagem muito rapidamente. Não é possível enfileirar mensagens transacionais e, em seguida, repeti-las em lote.
 * Os acionadores não são de natureza determinista. Quando um acionador é gerado, ele envia todos os aliases associados ao cookie. Portanto, no caso de navegadores compartilhados, como em quiosques de varejo, bibliotecas, cyber cafés ou dispositivos compartilhados em casa (marido e esposa fazendo logon pelo mesmo dispositivo), não é possível mapear para a ID correta. Todas as IDs usadas para fazer logon com o navegador são enviadas para o Campaign, que envia uma mensagem com base na primeira reconciliação. Se houver várias &quot;IDs de email&quot; qualificadas para reconciliação, o Campaign não enviará um email. Não há como o Campaign saber qual é a ID de email correta, a menos que seja capturada e enviada pelo Analytics.

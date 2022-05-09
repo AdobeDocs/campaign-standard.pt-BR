@@ -10,7 +10,7 @@ exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -240,13 +240,13 @@ ht-degree: 14%
                      <ul>
                         <li>Email transacional - emailLightning - 60</li>
                         <li>Fax - 4</li>
-                        <li>Mobile (SMS) - sms - 1</li>
+                        <li>Móvel (SMS) - sms - 1</li>
                         <li>Email recorrente - emailRefresh - 30</li>
                         <li>Correspondência direta - papel - 3</li>
                         <li>Telefone - Telefone - 2</li>
                         <li>Outros - outros - 120</li>
                         <li>SMS recorrente - smsRefresh - 31</li>
-                        <li>Aplicativo Mobile - pushNotification - 40</li>
+                        <li>Aplicativo móvel - notificação por push - 40</li>
                         <li>SMS transacional - smsLightning - 61</li>
                         <li>Email - email - 0</li>
                         <li>VALOR INVÁLIDO - __Valor_Inválido__ - __Valor_Inválido__</li>
@@ -359,11 +359,11 @@ ht-degree: 14%
                   <td>
                      <ul>
                         <li>Fax - 4</li>
-                        <li>Mobile (SMS) - sms - 1</li>
+                        <li>Móvel (SMS) - sms - 1</li>
                         <li>Email - email - 0</li>
                         <li>Telefone - Telefone - 2</li>
                         <li>Correspondência direta - papel - 3</li>
-                        <li>Aplicativo Mobile - pushNotification - 40</li>
+                        <li>Aplicativo móvel - notificação por push - 40</li>
                         <li>Outros - outros - 120</li>
                         <li>VALOR INVÁLIDO - __Valor_Inválido__ - __Valor_Inválido__</li>
                      </ul>
@@ -490,15 +490,15 @@ ht-degree: 14%
                         <li>Falha - falha - 87</li>
                         <li>Em andamento - iniciado - 55</li>
                         <li>Direcionamento pendente - targetPrepPending - 11</li>
-                        <li>Personalization pendente - messagePrepPending - 21</li>
+                        <li>Personalização pendente - messagePrepPending - 21</li>
                         <li>Pausado - pausado - 75</li>
                         <li>Edição - edição - 0</li>
                         <li>Concluído - concluído - 95</li>
                         <li>Contagem em andamento - targetSelection - 12</li>
                         <li>Mensagem finalizada - messageReady - 25</li>
-                        <li>Personalization ou contagem falhou - preparationError - 37</li>
+                        <li>Falha na personalização ou contagem - preparationError - 37</li>
                         <li>Parado - cancelado - 85</li>
-                        <li>Personalization em andamento - messagePreparation - 22</li>
+                        <li>Personalização em andamento - messagePreparation - 22</li>
                         <li>Pronto para Target - targetReady - 15</li>
                         <li>VALOR INVÁLIDO - __Valor_Inválido__ - __Valor_Inválido__</li>
                         <li>Arbitragem em andamento - targetArbitration - 13</li>

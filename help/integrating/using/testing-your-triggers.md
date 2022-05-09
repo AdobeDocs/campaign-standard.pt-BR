@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '460'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Siga as etapas descritas em [Criação de um acionador mapeado no Campaign](../.
 Se o acionador for criado, vá para a próxima etapa. Caso contrário, significa que a conexão do ponto final do acionador falhou. Verifique se os Acionadores foram provisionados no Experience Cloud (Serviços de ativação). Caso contrário, entre em contato com o executivo da sua conta Adobe ou com o parceiro de serviços profissionais. As seguintes informações são obrigatórias:
 
 * Nome da empresa do Marketing Cloud
-* IMS Organization ID
+* ID da organização
 * Empresa de logon do Analytics (pode ser igual ao Nome da empresa do Marketing Cloud)
 
 **Tente publicar o acionador**

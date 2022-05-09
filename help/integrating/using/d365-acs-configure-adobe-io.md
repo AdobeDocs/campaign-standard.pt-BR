@@ -8,10 +8,10 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
-source-git-commit: 7c34df594d4f649f259fb7edd946477f7b8d92d7
+source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 3%
+source-wordcount: '625'
+ht-degree: 4%
 
 ---
 
@@ -49,7 +49,7 @@ Será necessário criar um novo projeto do Adobe IO e configurá-lo para a integ
 
 Para isso, siga o procedimento abaixo:
 
-1. Navegar para [Console do Adobe IO](https://console.adobe.io/home#) e selecione a ID da organização do Adobe IMS no menu suspenso na parte superior direita da tela.
+1. Navegar para [Console do Adobe IO](https://console.adobe.io/home#) e selecione a ID da organização do Adobe no menu suspenso na parte superior direita da tela.
 
 1. Em seguida, clique em **[!UICONTROL Create new project]** under **[!UICONTROL Quick Start]**.
 
