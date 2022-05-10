@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: 47d0f4c42d84e2107da65fae5528af0705f2165f
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 64%
+source-wordcount: '868'
+ht-degree: 63%
 
 ---
 
@@ -48,7 +48,7 @@ Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em 
   <tr> 
    <td> <p> A partir da versão do Campaign Standard 21.3, a integração com o serviço de Destinos do público-alvo será descontinuada. </p>
    <p>Para uma nova implementação, não é mais possível integrar o serviço Destinos do público-alvo ao Adobe Campaign Standard. No entanto, é possível integrar o Campaign e o Adobe Experience Platform por meio de Fontes e Destinos. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Saiba mais</a>.</p>
-     <em>Data de remoção do Target: 2022</em></p>
+     <em>Data de remoção do Target: Setembro de 2022</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -64,7 +64,7 @@ Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em 
   <tr> 
    <td> <p> A partir da versão Campaign Standard 21.3, a integração com o Adobe Experience Platform Data Connector será substituída. </p>
    <p>Para nova implementação, não é mais possível integrar o Adobe Experience Platform Data Connector ao Adobe Campaign Standard. No entanto, é possível integrar o Campaign e o Adobe Experience Platform por meio de Fontes e Destinos. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Saiba mais</a>.</p>
-     <em>Data de remoção do Target: 2022</em></p>
+     <em>Data de remoção do Target: Setembro de 2022</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -82,7 +82,7 @@ Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em 
    <td> <p>A partir da versão 19.0 do Campaign, o editor de email legado se tornará obsoleto. Use <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Designer de email do Campaign</a> para criar e personalizar o conteúdo do email. </p></br>
    <p>Leia <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">esta seção</a> para saber como adaptar seus modelos de email ao novo editor.</p></br>
   <p> 
-  <em>Data de remoção do Target: 2022</em></p>
+  <em>Data de remoção do target: fim de 2022</em></p>
    </td> 
   </tr> 
  </tbody> 
