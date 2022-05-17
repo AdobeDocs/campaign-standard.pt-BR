@@ -9,10 +9,10 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: d903c6b5e9eefd65f7494fc17fd754a97e44e49e
 workflow-type: tm+mt
-source-wordcount: '1512'
-ht-degree: 5%
+source-wordcount: '1532'
+ht-degree: 4%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 5%
 
 Além disso, [perfis de teste](../../audiences/using/managing-test-profiles.md), você pode testar uma mensagem de email ao se colocar na posição de um dos perfis segmentados. Isso permite obter uma representação exata da mensagem que o perfil receberá (campos personalizados, informações dinâmicas e personalizadas, incluindo dados adicionais de workflows...).
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> Esse recurso está disponível somente com mensagens de email.
+>Esse recurso permite enviar informações pessoais do perfil para endereços de email externos. Lembre-se de que a execução de solicitações de privacidade (GDPR e CCPA) no Campaign Standard NÃO executará externamente essa solicitação.
 
 As principais etapas são as seguintes:
 
@@ -35,9 +35,9 @@ As principais etapas são as seguintes:
 1. **Visualizar** no Designer de email, como a mensagem será exibida para os perfis.
 1. Envie as provas.
 
->[!IMPORTANT]
->
->Esse recurso permite enviar informações pessoais do perfil para endereços de email externos. Lembre-se de que a execução de solicitações de privacidade (GDPR e CCPA) no Campaign Standard NÃO executará externamente essa solicitação.
+   >[!IMPORTANT]
+   >
+   >Provas são processadas por [!DNL Campaign Standard] como deliveries padrão. Como resultado, o envio de provas usando substituição de perfil adicionará registros ao delivery e logs de rastreamento dos perfis selecionados.
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
 
@@ -177,7 +177,7 @@ As principais etapas para esse caso de uso são as seguintes:
 1. Crie um workflow para direcionar perfis e enviar o boletim informativo.
 1. Configure as substituições de perfil da mensagem.
 1. Visualize a mensagem usando perfis direcionados.
-1. Envie provas.
+1. Enviar provas.
 
 ### Etapa 1: Criar o público-alvo a ser usado para teste
 
