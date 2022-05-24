@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 104855851906b96f79a89179108548b3dde17b4f
+source-git-commit: bdcbde7fbc460eb3a52e43af5c2050ea69f8d115
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '167'
+ht-degree: 31%
 
 ---
 
@@ -27,8 +27,6 @@ Esta página descreve novos recursos, melhorias e correções incluídos na pró
 **Aprimoramentos**
 
 * **Serviço de notificação de Adobe** - O Campaign vem com o Serviço de notificação Adobe que permite que as soluções do Experience Cloud alertem os usuários sobre atividades do Experience Cloud que são importantes para eles. A partir da versão 2.2, a experiência do usuário foi aprimorada: as notificações são priorizadas e as notificações geradas pelo produto são separadas dos anúncios de status do Adobe. Além disso, quando a notificação se refere a um workflow específico, agora é possível acessar o workflow correspondente diretamente do email ou da notificação no produto.  Para obter mais informações sobre notificações do Adobe Campaign, consulte [Notificações do Adobe Campaign](../../administration/using/sending-internal-notifications.md).
-
-* **Início atrasado do workflow** - Agora é possível atrasar a execução dos workflows para evitar sobrecarga. Ativado pelo Adobe por meio de uma opção dedicada, essa garantia garante que haja um atraso na inicialização entre workflows. As opções de recurso definem o número de workflows que podem ser executados simultaneamente e o atraso (em segundos) entre eles.
 
 
 **Atualização de segurança**
