@@ -26,10 +26,10 @@ Esta página descreve novos recursos, melhorias e correções incluídos na pró
 
 **Melhoria**
 
-* **Serviço de notificação de Adobe** - O Campaign vem com o Serviço de notificação Adobe que permite que as soluções do Experience Cloud alertem os usuários sobre atividades do Experience Cloud que são importantes para eles. A partir da versão 2.2, a experiência do usuário foi aprimorada: as notificações são priorizadas e as notificações geradas pelo produto são separadas dos anúncios de status do Adobe. Além disso, quando a notificação se refere a um workflow específico, agora é possível acessar o workflow correspondente diretamente do email ou da notificação no produto.  Para obter mais informações sobre notificações do Adobe Campaign, consulte [Notificações do Adobe Campaign](../../administration/using/sending-internal-notifications.md).
+* **Serviço de notificação da Adobe** - o Campaign vem com o Serviço de notificação da Adobe, que permite que as soluções da Experience Cloud alertem os usuários sobre atividades que são importantes para eles. A experiência do usuário foi aprimorada a partir da versão 22.2: as notificações foram priorizadas e as notificações geradas por produtos foram separadas dos avisos de status da Adobe. Além disso, quando a notificação se refere a um fluxo de trabalho específico, agora é possível acessar o fluxo de trabalho correspondente diretamente do email ou da notificação no produto.  Para obter mais informações sobre notificações do Adobe Campaign, consulte [Notificações do Adobe Campaign](../../administration/using/sending-internal-notifications.md).
 
 
 **Atualização de segurança**
 
-* Essa versão vem com uma atividade de atualização de segurança para atenuar a vulnerabilidade do Apache e tornar seu ambiente de instância mais seguro. [Saiba mais](https://experienceleague.adobe.com/docs/campaign-classic/using/technotes/technote-migration/acc-apache-upgrade.html){target=&quot;_blank&quot;}.
+* Essa versão vem com uma atividade de atualização de segurança para atenuar a vulnerabilidade do Apache e tornar seu ambiente de instância mais seguro. [Saiba mais](https://experienceleague.adobe.com/docs/campaign-classic/using/technotes/technote-migration/acc-apache-upgrade.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
