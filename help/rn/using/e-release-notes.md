@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: e2de69844275a9a97f609c7c76cce290c68d09ac
+source-git-commit: 75bc042701ac29d2e525884dc929063147c1cdce
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '383'
+ht-degree: 37%
 
 ---
 
@@ -28,8 +28,19 @@ Esta página descreve novos recursos, melhorias e correções incluídos na pró
 
 * **Serviço de notificação da Adobe** - o Campaign vem com o Serviço de notificação da Adobe, que permite que as soluções da Experience Cloud alertem os usuários sobre atividades que são importantes para eles. A experiência do usuário foi aprimorada a partir da versão 22.2: as notificações foram priorizadas e as notificações geradas por produtos foram separadas dos avisos de status da Adobe. Além disso, quando a notificação se refere a um fluxo de trabalho específico, agora é possível acessar o fluxo de trabalho correspondente diretamente do email ou da notificação no produto.  Para obter mais informações sobre notificações do Adobe Campaign, consulte [Notificações do Adobe Campaign](../../administration/using/sending-internal-notifications.md).
 
+* **Otimização na inicialização do fluxo de trabalho** - o Adobe adicionou um novo recurso que pode ajustar o número de fluxos de trabalho que começam ao mesmo tempo. Isso ajudaria a evitar picos da CPU que poderiam levar a interrupções do serviço ou tempo de inatividade. O Adobe o ativaria após a versão 2.2. Não há mais nenhum item de ação no cliente em relação ao mesmo.
 
 **Atualização de segurança**
 
-* Essa versão vem com uma atividade de atualização de segurança para atenuar a vulnerabilidade do Apache e tornar seu ambiente de instância mais seguro. [Saiba mais](https://experienceleague.adobe.com/docs/campaign-classic/using/technotes/technote-migration/acc-apache-upgrade.html?lang=pt-BR){target=&quot;_blank&quot;}.
+* O Apache Tomcat foi atualizado da versão 7 para a versão 8.5.
 
+**Correções**
+
+* Correção de um problema no workflow técnico Faturamento devido a um erro de chave duplicada. (CAMP-51029)
+* Adição da categoria ausente do navegador Microsoft Edge em Relatórios de rastreamento. Eles foram categorizados anteriormente com aberturas do Microsoft Chrome. (CAMP-51165)
+* Correção de um problema com solicitações do GDPR que não excluíam dados de tabelas secundárias. (CAMP-48276)
+* Correção de um problema no Designer de email que fazia com que a condição de visibilidade de um fragmento não fosse salva em um modelo de mensagem transacional. (CAMP-50338)
+* Correção de um problema nos Relatórios de campanha que fazia com que o intervalo de datas não fosse considerado. (CAMP-50991)
+* Correção de um erro que causava a falha de emails agendados: a análise de delivery não pôde ser iniciada, pois o delivery ainda estava no status &quot;Retry pending&quot;. (CAMP-50302)
+* Correção de um problema no Designer de email ao visualizar um email com uma substituição de perfil. (CAMP-49312)
+* Correção de um problema com valor vazio em enumerações personalizadas: ao criar um recurso personalizado com um campo que é uma enumeração de texto e contém apenas um valor, esse valor é definido agora por padrão, para que você possa criar uma consulta nesse campo como uma solicitação simples. (CAMP-50606)
