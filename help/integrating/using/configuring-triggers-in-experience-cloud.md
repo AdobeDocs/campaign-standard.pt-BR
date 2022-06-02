@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
+source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -87,7 +87,7 @@ O alias mencionado anteriormente no DTM precisa ser criado no Serviço principal
 
    >[!NOTE]
    >
-   >É possível reconciliar os acionadores para usuários anônimos e conectados. Para usuários anônimos, o perfil deve existir no Adobe Campaign e um email foi enviado ao usuário antes. Para isso, a configuração da ID de visitante é suficiente. No entanto, se quiser reconciliar acionadores para usuários conectados, é necessário configurar a Fonte de Dados de ID declarada. Para obter mais informações, consulte [Configuração da fonte de dados](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
+   >É possível reconciliar os acionadores para usuários anônimos e conectados. Para usuários anônimos, o perfil deve existir no Adobe Campaign e um email foi enviado ao usuário antes. Para isso, a configuração da ID de visitante é suficiente. No entanto, se quiser reconciliar acionadores para usuários conectados, é necessário configurar a Fonte de Dados de ID declarada. Para obter mais informações, consulte [Configuração da fonte de dados](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
 
 ## Criação de um acionador na interface do Experience Cloud {#creating-a-trigger-in-the-experience-cloud-interface}
 
