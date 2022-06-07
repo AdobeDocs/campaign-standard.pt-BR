@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 75bc042701ac29d2e525884dc929063147c1cdce
+source-git-commit: b00a0b9e4536d388ccfef3cca0315cabd0d99670
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 37%
+source-wordcount: '468'
+ht-degree: 30%
 
 ---
 
@@ -24,11 +24,18 @@ Esta página descreve novos recursos, melhorias e correções incluídos na pró
 
 ## Versão 22.2 — junho de 2022 {#rn-2022}
 
-**Melhoria**
+**Aprimoramentos**
 
 * **Serviço de notificação da Adobe** - o Campaign vem com o Serviço de notificação da Adobe, que permite que as soluções da Experience Cloud alertem os usuários sobre atividades que são importantes para eles. A experiência do usuário foi aprimorada a partir da versão 22.2: as notificações foram priorizadas e as notificações geradas por produtos foram separadas dos avisos de status da Adobe. Além disso, quando a notificação se refere a um fluxo de trabalho específico, agora é possível acessar o fluxo de trabalho correspondente diretamente do email ou da notificação no produto.  Para obter mais informações sobre notificações do Adobe Campaign, consulte [Notificações do Adobe Campaign](../../administration/using/sending-internal-notifications.md).
 
 * **Otimização na inicialização do fluxo de trabalho** - o Adobe adicionou um novo recurso que pode ajustar o número de fluxos de trabalho que começam ao mesmo tempo. Isso ajudaria a evitar picos da CPU que poderiam levar a interrupções do serviço ou tempo de inatividade. O Adobe o ativaria após a versão 2.2. Não há mais nenhum item de ação no cliente em relação ao mesmo.
+
+* **Acessibilidade** - O Adobe fez muitas correções de acessibilidade para melhorar a facilidade geral de uso do aplicativo. Esses recursos estão ativados no momento apenas para um conjunto de participantes iniciais e serão implantados em todos os clientes na versão ACS 2.3. Exemplos de melhorias de acessibilidade incluem:
+
+   * Garantia de que haja um indicador de foco visível para elementos focalizáveis em cada tela
+   * Criação de marcos de página para navegação mais fácil
+   * Adicionar o nome, a função, o valor e o estado para muitos controles
+   * Correção de problemas encontrados com a ordem de foco dinâmico nas telas principais
 
 **Atualização de segurança**
 
