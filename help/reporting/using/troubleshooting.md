@@ -8,10 +8,10 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 5%
+source-wordcount: '790'
+ht-degree: 4%
 
 ---
 
@@ -157,13 +157,13 @@ Os relatórios devem ter a seguinte aparência:
 
 ## Qual é o significado das cores na tabela dos meus relatórios? {#reports-color-signification}
 
-Colors displayed on your reports are randomized and cannot be personalized. Elas representam uma barra de progresso e são exibidas para ajudá-lo a destacar melhor o valor máximo atingido em seus relatórios.
+As cores exibidas em seus relatórios são aleatorizadas e não podem ser personalizadas. Elas representam uma barra de progresso e são exibidas para ajudá-lo a destacar melhor o valor máximo atingido em seus relatórios.
 
-In the example below, the cell is of the same color since its value is 100%.
+No exemplo abaixo, a célula é da mesma cor, pois seu valor é 100%.
 
 ![](assets/troubleshooting_1.png)
 
-If you change the **[!UICONTROL Conditional formatting]** to custom, when the value reaches the upper limit the cell will get greener. Enquanto que, se atingir o limite inferior, ficará mais vermelho.
+Se você alterar a variável **[!UICONTROL Conditional formatting]** para personalizar, quando o valor atingir o limite superior, a célula ficará mais verde. Enquanto que, se atingir o limite inferior, ficará mais vermelho.
 
 Por exemplo, aqui, definimos a variável **[!UICONTROL Upper limit]** a 500 e **[!UICONTROL Lower limit]** para 0.
 
@@ -176,8 +176,17 @@ Por exemplo, aqui, definimos a variável **[!UICONTROL Upper limit]** a 500 e **
 O valor **N/D** às vezes podem aparecer em seus relatórios dinâmicos. Isso pode ser exibido por três motivos:
 
 * O delivery foi excluído e é mostrado aqui como **N/D** para não causar discrepância nos resultados.
-* When drag and dropping the **[!UICONTROL Transactional Delivery]** dimension to your reports, the value **N/A** might appear as a result. Isso acontece porque o relatório dinâmico obtém cada delivery mesmo que não seja transacional. Isso também pode acontecer ao arrastar e soltar a variável **[!UICONTROL Delivery]** para seu relatório, mas nesse caso, a variável **N/D** representará deliveries transacionais.
+* Ao arrastar e soltar a **[!UICONTROL Transactional Delivery]** para seus relatórios, o valor **N/D** pode aparecer como resultado. Isso acontece porque o relatório dinâmico obtém cada delivery mesmo que não seja transacional. Isso também pode acontecer ao arrastar e soltar a variável **[!UICONTROL Delivery]** para seu relatório, mas nesse caso, a variável **N/D** representará deliveries transacionais.
 * Quando uma dimensão é usada com uma métrica que não está relacionada à dimensão. No exemplo abaixo, um detalhamento é adicionado com a variável **[!UICONTROL Tracking URL]** mesmo que a variável **[!UICONTROL Click]** é definida como 0 neste delivery.
 
    ![](assets/troubleshooting_4.png)
 
+## Os relatórios dos deliveries mostram dados incompletos ao usar o mapeamento personalizado do Target
+
+Se estiver usando mapeamentos personalizados do Target importados nos deliveries e nenhum dado for exibido nos diferentes relatórios, isso pode significar que os enriquecimentos de relatórios não foram criados para esses mapeamentos do Target.
+
+Para resolver isso:
+
+* Após importar o mapeamento do Target de um XML, também será necessário importar o enriquecimento do Reporting.
+
+* Em vez de importar o mapeamento do Target, você pode criá-lo diretamente no Adobe Campaign Standard, o que criará automaticamente o enriquecimento do Reporting.

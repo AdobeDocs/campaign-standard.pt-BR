@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 99111a0d8d3bf46aae39b80851ebcabaf30be0a0
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 89%
+source-wordcount: '1246'
+ht-degree: 84%
 
 ---
 
@@ -91,7 +91,7 @@ As etapas para criar uma mensagem independente no aplicativo com o Adobe Campaig
       Para obter mais informações sobre o Adobe Places, consulte a [documentação do Places](https://experienceleague.adobe.com/docs/places/using/home.html).
    ![](assets/inapp_creating_4.png)
 
-1. Se você usar um **[!UICONTROL Analytics Events]**, o Adobe Analytics e eventos de estado de Exibição serão automaticamente preenchidos com base nos conjuntos de relatórios configurados na extensão Analytics do Adobe Experience Platform Launch, enquanto Eventos de dados de contexto precisam ser adicionados manualmente.
+1. Se você usar um **[!UICONTROL Analytics Events]**, o Adobe Analytics e os eventos de estado de Exibição serão automaticamente preenchidos com base nos conjuntos de relatórios configurados na extensão do Analytics na interface do usuário da coleta de dados, enquanto os eventos de dados de contexto precisam ser adicionados manualmente.
 
    Observe que esses eventos só estarão disponíveis se você tiver uma licença do Adobe Analytics.
 
@@ -99,7 +99,7 @@ As etapas para criar uma mensagem independente no aplicativo com o Adobe Campaig
 
 1. Se você usar um acionador **[!UICONTROL Places]**, dados de contexto do Places, metadados personalizados do Places ou o tipo de evento do Places serão automaticamente preenchidos com base em todas as Bibliotecas e seus Pontos de interesse criados no Adobe Places.
 
-   Observe que esse acionador será aplicado ao dispositivo somente para os Pontos de interesse das Bibliotecas selecionadas na extensão Places do Experience Platform Launch. Para obter mais informações sobre a extensão Places e como instalá-la, consulte esta [documentação](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+   Observe que esse acionador será aplicado ao dispositivo somente para os Pontos de interesse das Bibliotecas selecionadas na extensão Places da interface do usuário para coleta de dados. Para obter mais informações sobre a extensão Places e como instalá-la, consulte esta [documentação](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
 
 1. Na guia **[!UICONTROL Frequency & duration]**, escolha a frequência do acionador, a data de início e de término, o dia da semana e a hora do dia em que a mensagem no aplicativo estará ativa.
 

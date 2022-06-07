@@ -8,9 +8,9 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 37e9acff-9576-472f-9fdf-2c0f6da773d1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '717'
 ht-degree: 3%
 
 ---
@@ -115,14 +115,14 @@ O **[!UICONTROL Share]** permite enviar seus relatórios com usuários do Adobe 
 
       ![](assets/tab_share_4.png)
 
-   1. Selecione os recipients do seu email clicando no campo e selecionando-os na lista suspensa ou digitando seus endereços de email.
+   1. Selecione os recipients no menu suspenso . Observe que não é possível selecionar usuários fora da organização.
    1. Verificar **[!UICONTROL Show scheduling options]** se desejar enviar emails recorrentes. Isso também pode ser feito selecionando **[!UICONTROL Send Report on schedule]** no **[!UICONTROL Share]** guia .
    1. Clique em **[!UICONTROL Send now]**. Seus recipients receberão um email com seu relatório anexado.
 
 * **[!UICONTROL Send report on schedule]**: Programe seu relatório e envie emails recorrentes para seus recipients.
 
    1. No **[!UICONTROL Send report]** , adicione uma descrição, se necessário.
-   1. Selecione os recipients do seu email clicando no campo e selecionando-os na lista suspensa ou digitando seus endereços de email.
+   1. Selecione os recipients no menu suspenso . Observe que não é possível selecionar usuários fora da organização.
 
       ![](assets/tab_share_5.png)
 

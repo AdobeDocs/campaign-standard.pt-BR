@@ -8,9 +8,9 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1327'
 ht-degree: 3%
 
 ---
@@ -27,11 +27,11 @@ Os aplicativos móveis usados para coletar dados de localização devem ser conf
 
 Para usar os Serviços de localização da Adobe Experience Platform com aplicativos móveis configurados com o Adobe Experience Platform SDK, é necessário:
 
-1. Adicione o **[!UICONTROL Places]** e **[!UICONTROL Places Monitor]** extensões para a configuração do aplicativo móvel no Adobe Experience Platform Launch. Configure seu aplicativo móvel no Adobe Campaign. Consulte [Instalar a extensão do Places no Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) e [Instale a extensão do Places Monitor no Experience Platform Launch](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch).
+1. Adicione o **[!UICONTROL Places]** e **[!UICONTROL Places Monitor]** extensões à configuração do aplicativo móvel na interface do usuário da coleta de dados. Configure seu aplicativo móvel no Adobe Campaign. Consulte [Instalar a extensão do Places](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) e [Instalar a extensão do Places Monitor](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch).
 
-1. Depois que as extensões forem configuradas, crie elementos de dados em **[!UICONTROL Adobe Experience Platform Launch]** para recuperar dados dessas extensões. Consulte esta [página](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) para criar seus elementos de dados.
+1. Depois que as extensões forem configuradas, crie elementos de dados na interface do usuário da coleção de dados para recuperar dados dessas extensões. Consulte esta [página](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) para criar seus elementos de dados.
 
-1. Em seguida, em **[!UICONTROL Adobe Experience Platform Launch]**, é necessário criar regras para suportar casos de uso móvel entre Ponto de interesse e Adobe Campaign.\
+1. Em seguida, na interface do usuário da Coleta de dados, é necessário criar regras para suportar casos de uso móveis entre o Ponto de interesse e o Adobe Campaign.\
    Essa regra será acionada quando um usuário entrar em uma zona geográfica **[!UICONTROL Point of Interest]**. Consulte esta [página](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) para criar sua regra.
 
 1. Defina as **[!UICONTROL Points of Interest]** no Places. Consulte [Criar um ponto de interesse](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html).
@@ -188,7 +188,6 @@ Para definir os Pontos de interesse usados para coletar dados de localização:
 Um recurso personalizado específico permite definir os dados que você deseja coletar dos assinantes de aplicativos.
 
 Essa etapa é descrita na seção [Configurar um aplicativo para dispositivos móveis usando o SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) página.
-
 
 ## Acesso a aplicativos móveis usados para coletar dados de localização {#accessing-mobile-apps-used-to-collect-location-data}
 

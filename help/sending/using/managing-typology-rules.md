@@ -9,7 +9,7 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 5ef66b1b-1c81-42fb-a18c-fcf7f21e1ff7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 96%
@@ -30,7 +30,7 @@ Regras de tipologia são regras de negócios que permitem executar verificaçõe
 
 As Regras de tipologia estão disponíveis no menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**.
 
-Por padrão, várias regras de tipologia de **Filtragem** e **Controle** estão disponíveis prontas para uso. Elas estão detalhadas nas seções [Regras de filtragem](../../sending/using/fatigue-rules.md) e [Regras de controle](../../sending/using/control-rules.md).
+Por padrão, várias regras de tipologia de **Filtragem** e **Controle** estão disponíveis prontas para uso. Elas estão detalhadas nas seções [Regras de filtragem](../../sending/using/filtering-rules.md) e [Regras de controle](../../sending/using/control-rules.md).
 
 De acordo com suas necessidades, você pode modificar as regras de tipologia existentes ou criar novas, com exceção das regras de **[!UICONTROL Control]**, que são somente leitura e não podem ser modificadas.
 

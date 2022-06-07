@@ -8,7 +8,7 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 22%
@@ -66,7 +66,7 @@ Para criar uma regra de tipologia de filtragem, siga estas etapas:
 
    ![](assets/typology_create-rule-subscriber.png)
 
-1. Selecione o **[!UICONTROL Age]** e defina as condições do filtro para que a idade dos assinantes seja 18 ou superior.
+1. Selecione o **[!UICONTROL Age]** e defina as condições do filtro para que a idade dos assinantes seja menor que 18.
 
    ![](assets/typology_create-rule-age.png)
 

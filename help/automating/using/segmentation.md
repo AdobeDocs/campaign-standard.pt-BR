@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 92%
+source-wordcount: '878'
+ht-degree: 82%
 
 ---
 
@@ -94,8 +94,10 @@ A atividade **[!UICONTROL Segmentation]** geralmente é colocada após as ativid
 1. Adicione quantos segmentos forem necessários repetindo as etapas de 6 a 10 desse procedimento.
 1. Se for necessário, edite os parâmetros na guia **[!UICONTROL Advanced options]**:
 
-   * Marque a opção **[!UICONTROL Enable overlapping of outbound populations]** se desejar que um membro da população de entrada pertença a vários segmentos ao mesmo tempo. A população de saída da atividade pode exceder a população de entrada.
-   * Marque a opção **[!UICONTROL Concatenate the code of each segment]** se a população de entrada já tiver recebido um código de segmento que você deseja manter. O código de segmento especificado na atividade será adicionado ao código de segmento inicial.
-   * Marque a opção **[!UICONTROL Generate complement]** se desejar explorar a população restante. Consulte [Caso de uso: Criar deliveries com um complemento](../../automating/using/workflow-created-query-with-complement.md).
+   * O **[!UICONTROL Enable overlapping of outbound populations]** define como gerenciar perfis pertencentes a vários segmentos:
+      * Quando a opção não estiver ativada, a variável **[!UICONTROL Segmentation]** O atividade verifica se um perfil não está presente em várias transições de saída, mesmo que esse perfil atenda aos critérios de vários subconjuntos.
+      * Quando a opção estiver ativada, os perfis poderão ser encontrados em vários subconjuntos se atenderem aos critérios de filtro.
+   * Se a população de entrada já tiver recebido um código de segmento que você deseja manter, verifique o **[!UICONTROL Concatenate the code of each segment]** opção. O código de segmento especificado na atividade será adicionado ao código de segmento inicial.
+   * Se precisar explorar a população restante, marque a opção **[!UICONTROL Generate complement]** opção. Consulte [Caso de uso: Criar deliveries com um complemento](../../automating/using/workflow-created-query-with-complement.md).
 
 1. Confirme a configuração da sua atividade e salve o fluxo de trabalho.
