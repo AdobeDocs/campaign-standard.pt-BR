@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 9000b7737e8579aa2389d517d83fde958d8945fe
 workflow-type: tm+mt
 source-wordcount: '7221'
 ht-degree: 99%
@@ -20,7 +20,7 @@ Além das [Notas de versão](../../rn/using/release-notes.md) do Adobe Campaign,
 
 **Melhoria incluída na versão**
 
-* **Serviço de notificação da Adobe** - o Campaign vem com o Serviço de notificação da Adobe, que permite que as soluções da Experience Cloud alertem os usuários sobre atividades que são importantes para eles. [Leia mais](../../administration/using/sending-internal-notifications.md).
+**Serviço de notificação da Adobe** - o Campaign vem com o Serviço de notificação da Adobe, que permite que as soluções da Experience Cloud alertem os usuários sobre atividades que são importantes para eles. [Leia mais](../../administration/using/sending-internal-notifications.md).
 
 **Outras alterações**
 
