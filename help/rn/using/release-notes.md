@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 199a40da4ae168fced2bada7d0515839bfe38c15
 workflow-type: ht
-source-wordcount: '1182'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -33,9 +33,6 @@ ht-degree: 100%
    * Adição de nome, função, valor e estado para diversos controles
    * Correção de problemas relacionados à ordem de foco dinâmico nas telas principais
 
-**Atualização de segurança**
-
-* O Apache Tomcat foi atualizado da versão 7 para a versão 8.5.
 
 **Correções**
 
