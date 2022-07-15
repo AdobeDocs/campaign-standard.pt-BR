@@ -1,6 +1,6 @@
 ---
 title: Introdução à administração do Campaign Standard
-description: Saiba mais sobre gerenciamento de usuários e permissões, diretrizes de monitoramento, configurações específicas por canal e diretrizes de configurações de aplicativos
+description: Saiba mais sobre as permissões e o gerenciamento de usuários, as diretrizes de monitoramento, as configurações específicas por canal e as diretrizes de configuração do aplicativo
 audience: administration
 feature: Access Management
 role: Admin
@@ -9,7 +9,7 @@ exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '637'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 

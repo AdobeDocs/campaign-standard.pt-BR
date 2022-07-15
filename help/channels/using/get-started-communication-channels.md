@@ -98,7 +98,7 @@ Leia mais:
 ## Recursos adicionais
 
 * [Otimização da capacidade de entrega](../../sending/using/about-deliverability.md)
-* [Práticas recomendadas de entrega](../../sending/using/delivery-best-practices.md)
+* [Práticas recomendadas de delivery](../../sending/using/delivery-best-practices.md)
 * [Criação de conteúdo de email](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Importação de conteúdo AEM](../../integrating/using/creating-email-experience-manager.md)
 * [Envio de mensagens com fluxos de trabalho](../../automating/using/about-channel-activities.md)

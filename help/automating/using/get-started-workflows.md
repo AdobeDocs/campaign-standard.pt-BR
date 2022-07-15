@@ -11,7 +11,7 @@ exl-id: 26be942a-c252-458f-a590-eb235567ca67
 source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
 source-wordcount: '553'
-ht-degree: 37%
+ht-degree: 38%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 37%
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#workflow-activities">Atividades de workflow</a></p></td><td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="../../automating/using/workflow-created-query-with-complement.md">Casos de uso</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">Filtrar dados</a></p></td>
+<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#workflow-activities">Atividades de fluxos de trabalho</a></p></td><td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="../../automating/using/workflow-created-query-with-complement.md">Casos de uso</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">Filtrar dados</a></p></td>
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Importar/exportar dados</a></p></td></tr>
 </table>
 
@@ -38,7 +38,7 @@ Os workflows podem ser usados em contextos diferentes, por exemplo:
 >
 > O Adobe recomenda que os clientes não executem mais de 20 workflows ativos simultaneamente e priorizem e distribuam a execução do workflow ao longo do tempo. Para obter mais informações, consulte as práticas recomendadas fornecidas em [esta página](../../automating/using/best-practices-workflows.md).
 
-## Atividades de workflow {#workflow-activities}
+## Atividades de fluxos de trabalho {#workflow-activities}
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 

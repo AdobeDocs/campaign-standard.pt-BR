@@ -90,7 +90,7 @@ Leia mais:
 
 * [Criação de emails de teste A/B](../../channels/using/designing-an-a-b-test-email.md)
 * [Introdução a mensagens](../../channels/using/key-steps-to-send-a-message.md)
-* [Práticas recomendadas de entrega](../../sending/using/delivery-best-practices.md)
+* [Práticas recomendadas de delivery](../../sending/using/delivery-best-practices.md)
 * [Adição de um grupo de controle](../../sending/using/control-group.md)
 
 ## Tutorial em vídeo {#video}
