@@ -9,7 +9,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 34235749-d056-4d4c-9939-7dc52f980a76
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+hide: true
+hidefromtoc: true
+source-git-commit: 26394f3f6fd9b67996c30924c376533380e8f4d6
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 2%
