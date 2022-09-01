@@ -1,14 +1,12 @@
 ---
 title: Notas de versão de 2017
 description: Essa página lista todas as versões de 2017 do Adobe Campaign Standard.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
 workflow-type: tm+mt
 source-wordcount: '4613'
 ht-degree: 8%
@@ -315,7 +313,7 @@ _Notificações por push_
   </tr> 
   <tr> 
    <td> Notificações por push transacionais<br /> </td> 
-   <td> O canal de aplicativo Mobile foi adicionado aos recursos de mensagens transacionais do Adobe Campaign. Agora, três canais são compatíveis com mensagens transacionais: notificações por email, SMS e push.<br /> Para obter mais informações, consulte a <a href="../../channels/using/transactional-push-notifications.md">documentação detalhada</a>.<br /> </td> 
+   <td> O canal de aplicativo móvel foi adicionado aos recursos de mensagens transacionais do Adobe Campaign. Agora, três canais são compatíveis com mensagens transacionais: notificações por email, SMS e push.<br /> Para obter mais informações, consulte a <a href="../../channels/using/transactional-push-notifications.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Notificações por push recorrentes<br /> </td> 

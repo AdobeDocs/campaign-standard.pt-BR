@@ -1,14 +1,12 @@
 ---
 title: Notas de versão de 2018
 description: Essa página lista todas as versões de 2018 do Adobe Campaign Standard.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
 workflow-type: tm+mt
 source-wordcount: '5401'
 ht-degree: 9%
@@ -46,7 +44,7 @@ Exibir o mais recente [atualizações da documentação](../../rn/using/document
  </tbody> 
 </table>
 
-**Aprimoramentos** 
+**Aprimoramentos**
 
 * O Adobe Campaign Standard agora é compatível com a versão 4 da API do Amazon S3.
 
@@ -123,7 +121,7 @@ Exibir o mais recente [atualizações da documentação](../../rn/using/document
  </tbody> 
 </table>
 
-**Aprimoramentos** 
+**Aprimoramentos**
 
 * A integração do Adobe Campaign e do Adobe Target agora permite que você aproveite as [Permissões](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=pt-BR) recurso. Ao incluir uma imagem dinâmica do Adobe Target em um email, agora você pode especificar uma Propriedade do Target (código at_property).
 * Os recursos personalizados que têm um link de cópia própria para o recurso de perfis agora são considerados pelas solicitações de acesso/exclusão da Privacidade de GDPR. Para 1 cardinalidade links simples e N links de coleção de cardinalidade, é necessário selecionar &quot;Excluir/Duplicar o registro de destino implica excluir/duplicar os registros referenciados pelo link&quot; no recurso personalizado. Para links simples de cardinalidade 0 ou 1, selecione &quot;Excluir/Duplicar o registro implica na exclusão/duplicação do registro de destino referenciado pelo link&quot;.
@@ -138,7 +136,7 @@ Exibir o mais recente [atualizações da documentação](../../rn/using/document
 **Correções**
 
 * Correção de um problema com o filtro de query byEmail que não retornava resultados. (CAMP-23420)
-* Correção de um problema que permitia que um usuário padrão acessasse determinados recursos ou telas restritas a administradores (/rest/head/* endpoints, telas de mensagens transacionais, perfis e públicos-alvo importando telas).
+* Correção de um problema que permitia que um usuário padrão acessasse determinados recursos ou telas restritas a administradores (/rest/head/&#42; endpoints, telas de mensagens transacionais, perfis e públicos-alvo (telas de importação).
 * Correção de um problema que impedia a exclusão de solicitações de Privacidade de GDPR do processamento de recursos personalizados se o nome começasse por um número.
 * Correção de um erro que impedia que a atividade Salvar público-alvo compartilhasse assinantes de aplicativos no Adobe Experience Cloud.
 * Correção de um problema com a atividade Transferência de arquivo que ocorria quando o nome do arquivo continha espaços em branco. (CAMP-25936)
@@ -153,7 +151,7 @@ Exibir o mais recente [atualizações da documentação](../../rn/using/document
 
 ## Versão 18.6 - Junho de 2018 {#release-18-6---june-2018}
 
-**Aprimoramentos** 
+**Aprimoramentos**
 
 * O **[!UICONTROL History]** A API foi adicionada ao Adobe.IO. Ele permite acessar informações relacionadas ao histórico de marketing de um perfil: número de pontos de contato, deliveries enviados, URL da mirror page etc. Para obter mais informações, consulte [caso de uso dedicado](../../api/using/interacting-with-marketing-history.md) .
 * O **[!UICONTROL Database cleanup]** o fluxo de trabalho técnico foi otimizado para garantir melhor desempenho para backup de banco de dados.
@@ -224,7 +222,7 @@ Exibir o mais recente [atualizações da documentação](../../rn/using/document
  </tbody> 
 </table>
 
-**Aprimoramentos** 
+**Aprimoramentos**
 
 * A memória geral e o uso da CPU do aplicativo foram aprimorados
 

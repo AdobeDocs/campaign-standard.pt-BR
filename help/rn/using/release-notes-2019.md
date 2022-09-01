@@ -1,14 +1,12 @@
 ---
 title: Notas de versão de 2019
 description: Essa página lista todas as versões de 2019 do Adobe Campaign Standard.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
 workflow-type: tm+mt
 source-wordcount: '7588'
 ht-degree: 9%
@@ -60,7 +58,7 @@ ht-degree: 9%
  </tbody> 
 </table>
 
-**Aprimoramentos** 
+**Aprimoramentos**
 
 * A janela pop-up de consentimento do Dynamic Reporting foi atualizada para incluir a integração do Adobe Campaign Standard e do Microsoft Dynamics 365. Ao aceitar os termos, os dados do perfil serão incluídos ao usar a integração do Adobe Campaign Standard / Microsoft Dynamics 365 e Dynamic Reporting. [Leia mais](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * Correção de um problema que exibia datas de contato incorretas ao receber alertas de delivery.
@@ -258,20 +256,20 @@ ht-degree: 9%
 
 ## Versão 19.2.7 - Julho de 2019 {#release-19-2-7---july-2019}
 
-**Aprimoramentos** 
+**Aprimoramentos**
 
 * A consulta de exclusão do GDPR foi aprimorada para melhorar o desempenho.
 * Correção de um problema que poderia causar falhas na Web após a atualização 19.2. (CAMP-34862)
 * Correção de um problema que impedia que usuários que não fossem administradores salvassem ou agendassem relatórios. (CAMP-31133)
 * Correção de um problema ao usar &quot;|&quot; como separador de data na atividade de workflow Carregar arquivo . (CAMP-34706)
 
-## Versão 19.2.4 — junho de 2019 {#release-19-2-4---june-2019}
+## Versão 19.2.4 - junho de 2019 {#release-19-2-4---june-2019}
 
 **Email Designer**
 
 * Correção de um problema que impedia usuários de editar fragmentos quando tags de estilo vazias eram usadas no HTML. Esta é uma correção de acompanhamento para CAMP-33778 em 19.2.3.
 
-## Versão 19.2.3 — junho de 2019 {#release-19-2-3---june-2019}
+## Versão 19.2.3 - junho de 2019 {#release-19-2-3---june-2019}
 
 **Email Designer**
 
