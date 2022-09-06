@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: ab4abe7221c88f2c92e765ba2d158b6fb9c2075f
+source-git-commit: 17baeabf1e01c58fe0ecbb03f9d4b45831fbaaf7
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 99%
+source-wordcount: '421'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ As atualizações são implantadas em duas fases. Primeiro, as instâncias de Pr
 
 Todas as datas de lançamento estão sujeitas a alterações. Visite esta página regularmente para verificar se há atualizações.
 
-## Versão 22.3 - Versão de setembro de 2022 {#release-22-3-release}
+## Versão 22.3 - Versão de outono/inverno de 2022 {#release-22-3-release}
 
 As atualizações de ambientes ocorrem em ondas, durante os intervalos indicados abaixo. As datas exatas são comunicadas por email a cada cliente.
 
@@ -34,18 +34,18 @@ Informações detalhadas sobre esta versão estão disponíveis nas [Notas de ve
 <table>
  <thead>
   <tr>
-   <th> Ambiente<br /> </th>
+   <th> Ambientes<br /> </th>
    <th> Datas<br /> </th>
   </tr>
  </thead>
  <tbody>
   <tr>
    <td>Preparo<br /> </td>
-   <td>De 6 a 7 de setembro de 2022<br /> </td>
+   <td>8 de setembro de 2022 - início de 2023<br /> </td>
   </tr>
   <tr>
    <td>Produção<br /> </td>
-   <td>De 13 a 29 de setembro de 2022<br /> </td>
+   <td>15 de setembro de 2022 - início de 2023<br /> </td>
   </tr>
  </tbody>
 </table>
