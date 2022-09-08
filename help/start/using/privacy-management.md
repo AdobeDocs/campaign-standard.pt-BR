@@ -8,9 +8,9 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: ede4bd97ffddca4a5e24f1e4114d50ca5140a01d
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '827'
 ht-degree: 100%
 
 ---
@@ -68,7 +68,7 @@ Para facilitar a conformidade com a privacidade, o Adobe Campaign permite manipu
 
 * Também conhecido como Eliminação de dados, o **Direito ao esquecimento** (solicitação de exclusão) permite que o Titular de dados tenha seus dados pessoais apagados pelo Controlador de dados, interrompendo a divulgação e, possivelmente, o processamento desses dados por parte de terceiros.
 
-Para saber como criar solicitações de **Acesso** e **Exclusão** e como o Adobe Campaign as processa, consulte os [passos de implementação](../../start/using/privacy-requests.md#about-privacy-requests).
+Para saber como criar solicitações de **Acesso** e **Exclusão** e como o Adobe Campaign as processa, consulte as [etapas de implementação](../../start/using/privacy-requests.md#about-privacy-requests).
 
 Os tutoriais sobre o Gerenciamento de privacidade no Campaign Standard também estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=pt-BR#privacy).
 
@@ -81,7 +81,7 @@ Os tutoriais sobre o Gerenciamento de privacidade no Campaign Standard também e
 Além dos recursos mais recentes de **Direito de acesso** e **Direito ao esquecimento**, o Adobe Campaign oferece outros recursos importantes, essenciais para a privacidade:
 
 * [Gerenciamento do consentimento](#consent-management): funcionalidade de assinatura para gerenciamento de preferências
-* [Retenção de dados](#data-retention): períodos de retenção de dados em todas as tabelas de log padrão; períodos de retenção adicionais podem ser configurados com workflows
+* [Retenção de dados](../../administration/using/data-retention.md): períodos de retenção de dados em todas as tabelas de log padrão; períodos de retenção adicionais podem ser configurados com workflows
 * [Gerenciamento de direitos](#rights-management): acesso a dados gerenciados por direito nomeado     
 
 ### Gerenciamento de consentimento {#consent-management}
@@ -95,27 +95,6 @@ Os recursos para ajudar a gerenciar alguns aspectos do consentimento são fundam
 Para obter mais informações sobre o Gerenciamento de consentimento , consulte [Sobre assinaturas](../../audiences/using/about-subscriptions.md) e [Introdução a landing pages](../../channels/using/getting-started-with-landing-pages.md).
 
 Além das ferramentas de Gerenciamento de consentimento oferecidas pelo Adobe Campaign, existe a possibilidade de monitorar se o cliente optou pela não participação na venda de Informações pessoais. Consulte [esta seção](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
-
-### Retenção de dados {#data-retention}
-
-Quanto à retenção, as tabelas de log integradas no Campaign têm períodos de retenção predefinidos, geralmente limitando o armazenamento dos dados a seis meses ou menos.
-
-A seguir estão os valores de retenção padrão para tabelas integradas. Esteja ciente de que a configuração de retenção é definida pelos administradores técnicos da Adobe durante a implementação e os valores podem variar com base nos requisitos do cliente.
-
-* **Rastreamento consolidado**: 6 meses
-* **Registros de entrega**: 6 meses
-* **Registros de monitoramento**: 6 meses
-* **Eventos**: 1 mês
-* **Estatísticas de processamento de evento**: 6 meses
-* **Eventos arquivados**: 6 meses
-* **Entidades temporárias**: 7 dias
-* **Eventos de pipeline ignorados**: 1 mês
-* **Alertas de entrega**: 1 mês
-* **Auditoria de exportação**: 6 meses
-
-De modo semelhante à exclusão, a funcionalidade padrão do workflow possibilita configurar períodos de retenção para qualquer tabela personalizada.
-
-Entre em contato com os consultores da Adobe ou administradores técnicos para saber mais sobre retenção ou se é necessário definir a retenção para tabelas personalizadas.
 
 ### Gerenciamento de direitos {#rights-management}
 

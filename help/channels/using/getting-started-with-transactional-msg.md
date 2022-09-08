@@ -9,18 +9,14 @@ feature: Transactional Messaging
 role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
-source-git-commit: 0538958289ce19982889f76ed195090a8455fdeb
+source-git-commit: 0e486e87c94e273442de23d6eb65c99f065e5a71
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '988'
 ht-degree: 31%
 
 ---
 
 # Introdução a mensagens transacionais {#getting-started-with-transactional-messaging}
-
-## Visão geral {#overview}
-
-<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
 Uma mensagem transacional é uma comunicação individual e única enviada em tempo real a um usuário por um provedor, como um site. É particularmente esperado, pois contém informações importantes que o recipient deseja verificar ou confirmar.
 
@@ -93,9 +89,9 @@ Cada uma dessas etapas é detalhada abaixo.
 
 <!--<img src="assets/do-not-localize/icon_config.svg" width="60px">-->
 
-| Usuário | Ação | Resultado |
-|--- |--- |--- |
-| Esta etapa deve ser executada por um administrador que esteja mantendo [direitos administrativos](../../administration/using/users-management.md#functional-administrators). | Configure um evento que será chamado de &quot;Abandono do carrinho&quot; e publique essa configuração. | A API que será usada pelo desenvolvedor do site é implantada e uma mensagem transacional é criada automaticamente. |
+| Criar um evento | Usuário  | Ação | Resultado |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_config.svg" width="60px"> | Esta etapa deve ser executada por um administrador que esteja mantendo [direitos administrativos](../../administration/using/users-management.md#functional-administrators). | Configure um evento que será chamado de &quot;Abandono do carrinho&quot; e publique essa configuração. | A API que será usada pelo desenvolvedor do site é implantada e uma mensagem transacional é criada automaticamente. |
 
 A criação e a publicação de um evento são apresentadas na seção [Configuração de um evento transacional](../../channels/using/configuring-transactional-event.md) e [Publicação de um evento transacional](../../channels/using/publishing-transactional-event.md) seções.
 
@@ -103,9 +99,9 @@ A criação e a publicação de um evento são apresentadas na seção [Configur
 
 <!--<img src="assets/do-not-localize/icon_notification.svg" width="40px">-->
 
-| Usuário | Ação | Resultado |
-|--- |--- |--- |
-| Esta etapa pode ser executada por um usuário de marketing que esteja mantendo [direitos administrativos](../../administration/using/users-management.md#functional-administrators). | Edite e personalize a mensagem transacional, teste-a e publique-a. | A mensagem transacional estará pronta para ser enviada. |
+| Editar a mensagem | Usuário  | Ação | Resultado |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_notification.svg" width="40px"> | Esta etapa pode ser executada por um usuário de marketing que esteja mantendo [direitos administrativos](../../administration/using/users-management.md#functional-administrators). | Edite e personalize a mensagem transacional, teste-a e publique-a. | A mensagem transacional estará pronta para ser enviada. |
 
 Para obter mais informações sobre como editar e publicar uma mensagem transacional, consulte [Edição de mensagens transacionais](../../channels/using/editing-transactional-message.md) e [Ciclo de vida da mensagem transacional](../../channels/using/publishing-transactional-message.md).
 
@@ -113,13 +109,11 @@ Para obter mais informações sobre como editar e publicar uma mensagem transaci
 
 <!--<img src="assets/do-not-localize/icon_api.svg" width="55px">-->
 
-<!--**Event triggering integration**-->
-
-| Usuário | Ação | Resultado |
-|--- |--- |--- |
-| Esta etapa é executada pelo desenvolvedor do seu site. | Use a REST Transactional Messages API para integrar o evento ao seu site. | O evento será acionado quando um cliente abandonar o carrinho. |
-
 Depois de criar um evento, é necessário integrar o acionamento desse evento no site.<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> Para fazer isso, o desenvolvedor da Web do seu site deve usar o **API REST do Adobe Campaign Standard**.
+
+| Implementar o acionador | Usuário  | Ação | Resultado |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_api.svg" width="55px"> | Esta etapa é executada pelo desenvolvedor do seu site. | Use a REST Transactional Messages API para integrar o evento ao seu site. | O evento será acionado quando um cliente abandonar o carrinho. |
 
 Para obter mais informações sobre como usar a API REST do Campaign para gerenciar mensagens transacionais, consulte o [Documentação da API REST](../../api/using/managing-transactional-messages.md).
 
@@ -127,9 +121,11 @@ Para obter mais informações sobre como usar a API REST do Campaign para gerenc
 
 <!--<img src="assets/do-not-localize/icon_channels.svg" width="60px">-->
 
-Depois que todas essas etapas forem executadas, a mensagem poderá ser entregue.
+Depois que todas as etapas acima forem executadas, a mensagem poderá ser entregue.
 
-Assim que um usuário sair do site sem solicitar os produtos no carrinho, o evento correspondente do Campaign é acionado. O usuário recebe automaticamente um email de notificação.
+| Enviar a mensagem | Usuário  | Ação | Resultado |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_channels.svg" width="60px"> | Essa etapa é executada por clientes que visitam seu site. | Assim que um usuário sair do site sem solicitar os produtos no carrinho, o evento correspondente do Campaign é acionado. | O usuário recebe automaticamente um email de notificação. |
 
 ## Tópicos relacionados
 

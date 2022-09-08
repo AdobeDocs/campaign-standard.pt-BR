@@ -9,10 +9,10 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 9bfae9e956fa86254578eda821aedd240c81288c
 workflow-type: tm+mt
-source-wordcount: '1332'
-ht-degree: 100%
+source-wordcount: '1300'
+ht-degree: 98%
 
 ---
 
@@ -155,7 +155,7 @@ Você pode extrair os **logs de envio** para comparar como foi a ação do grupo
 
 >[!IMPORTANT]
 >
->Você precisa ter uma [função de Administrador](../../administration/using/users-management.md#functional-administrators) e fazer parte da **[!UICONTROL All]** [unidade organizacional](../../administration/using/organizational-units.md) para se conectar ao Adobe Campaign. Se você quiser restringir o acesso de um usuário ou grupo de usuários específico, não vincule-o às unidades **[!UICONTROL All]** para poder acessar os logs do delivery.
+>Para acessar logs do delivery, é necessário ter um [Função de administrador](../../administration/using/users-management.md#functional-administrators) e fazer parte do **[!UICONTROL All]** [unidade organizacional](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
 
 ### Verificar os logs do delivery {#checking-logs}
 
