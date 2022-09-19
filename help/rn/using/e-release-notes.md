@@ -8,16 +8,16 @@ hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '130'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
 
 # Notas de versão anteriores {#e-new-release}
 
-Esta página descreve aprimoramentos e correções incluídos na próxima versão do Campaign Standard.
+Esta página descreve as melhorias e correções incluídas na próxima versão do Campaign Standard.
 
 >[!CAUTION]
 >
@@ -43,6 +43,6 @@ Esta versão vem com a seguinte atualização de segurança: O Apache Tomcat foi
 ### Correções{#e-rn-fixes}
 
 * Correção de um problema com relatórios agendados, que eram acionados uma hora antes do tempo agendado. (CAMP-51502)
-* Correção de um problema nos Indicadores de delivery no Painel de delivery que não correspondia aos Logs de envio (nms:broadLogRcp). (CAMP-51127)
-* Correção de um problema que impedia a extensão de recursos personalizados com o ACS Connector (Prime Offering). (CAMP-51033)
-* Aprimorado o processo de publicação de respostas de solicitações de Privacidade para evitar atraso. (CAMP-50613)
+* Correção de um problema nos indicadores de delivery do painel Delivery que não correspondiam aos logs de envio (nms:broadLogRcp). (CAMP-51127)
+* Correção de um problema que impedia a extensão de recursos personalizados com o Conector ACS (oferta principal). (CAMP-51033)
+* Melhoria do processo de publicação de respostas de solicitações de privacidade para evitar atraso. (CAMP-50613)
