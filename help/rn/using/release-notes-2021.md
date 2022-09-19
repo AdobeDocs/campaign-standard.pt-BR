@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
 source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4569'
 ht-degree: 100%
 
@@ -125,7 +125,7 @@ Os novos recursos, melhorias e correções incluídos na versão mais recente do
 * Correção de um problema que impedia a extensão de logs de envio durante a criação de uma dimensão de perfil personalizada.
 * Correção de um problema que resultava em falha de entrega com múltiplas variantes de idioma. A partir de agora, se um usuário excluir a variante de idioma padrão, outra variante de idioma deverá ser definida como padrão antes da criação de cópias de idiomas. (CAMP-48235)
 * Correção de um problema que fazia com que as mensagens de email mostrassem espaços em branco extras no Outlook se o usuário selecionasse a opção **Mostrar somente em dispositivos móveis** ao projetar a mensagem. (CAMP-48902)
-* Correção de um problema que fazia com que a data da última execução do campo de atividade de query incremental ficasse ausente na guia **Dados processados** após a execução do fluxo de trabalho de query incremental. (CAMP-48879)
+* Correção de um problema que fazia com que a data da última execução do campo de atividade de consulta incremental não fosse exibida na guia **Dados processados** após a execução do fluxo de trabalho de query incremental. (CAMP-48879)
 * Correção de um problema que impedia a definição adequada de um código de segmento dinâmico na atividade de fluxo de trabalho **Segmentação**. (CAMP-48727)
 * Correção de um erro que ocorria aleatoriamente ao tentar salvar um fluxo de trabalho após editá-lo. (CAMP-48695)
 * Correção de um problema que impedia a publicação de recursos personalizados devido à permanência de um esquema de dados do acionador mesmo após a exclusão do acionador. (CAMP-48523)
@@ -134,7 +134,7 @@ Os novos recursos, melhorias e correções incluídos na versão mais recente do
 * Correção de um problema que ocorria quando atividades de enriquecimento em workflows envolviam assinaturas ou cancelamentos de assinaturas de um serviço. Esse problema causou uma falha.
 * Correção de um problema que impedia a execução de workflows.
 * Correção de um problema que impedia os usuários de renomear ou excluir grupos de segurança predefinidos da interface do usuário.
-* Correção de um problema que impedia usuários de excluir um trabalho de publicação de evento incompleto.
+* Correção de um problema que impedia usuários de excluir um processo de publicação de evento incompleto.
 * Correção de um problema em que o fluxo de trabalho de limpeza do banco de dados falhava com um erro. (CAMP-49097)
 
 
@@ -144,9 +144,9 @@ Os novos recursos, melhorias e correções incluídos na próxima versão do Cam
 
 **Melhorias**
 
-* Ao criar uma página de aterrissagem, agora é possível adicionar uma caixa de seleção obrigatória que os perfis precisam marcar antes de enviar o formulário. Para obter mais informações consulte a [documentação detalhada](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox).
+* Ao criar uma página de destino, agora é possível adicionar uma caixa de seleção obrigatória que os perfis devem marcar antes de enviar o formulário. Para obter mais informações consulte a [documentação detalhada](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox).
 
-* Para a integração dos acionadores, a mensagem de erro exibida quando não há dados de reconciliação chegando na carga do acionador foi aprimorada: &quot;Dados de alias ausentes na carga&quot;.
+* Para a integração do Triggers, a mensagem de erro exibida quando o conteúdo do acionador não recebe dados de reconciliação foi aprimorada: “Dados de alias ausentes no conteúdo”.
 
 * O desempenho para recuperar notificações por push da fila foi aprimorado.
 
@@ -168,7 +168,7 @@ Os novos recursos, melhorias e correções incluídos na próxima versão do Cam
 
 * Uma nova mensagem foi adicionada para confirmar uma migração bem-sucedida de um aplicativo de push v4 para um aplicativo de push v5.
 
-* Durante a criação de tokens JSONWeb para autenticar na API do Campaign Standard, os perfis de produto agora são **considerados**. Isso significa que as unidades organizacionais e as funções alocadas ao grupo de segurança (que corresponde ao perfil do produto no AdobeIO) serão aplicadas à conta técnica IMS necessária para chamadas de API Rest do Campaign Standard. (CAMP-47479)
+* Durante a criação de tokens JSONWeb para autenticar na API do Campaign Standard, os perfis de produto agora são **considerados**. Isso significa que as entidades organizacionais e funções alocadas ao grupo de segurança (que corresponde ao perfil do produto no AdobeIO) serão aplicadas à conta técnica IMS necessária para chamadas de API Rest do Campaign Standard. (CAMP-47479)
 
 **Correções**
 
@@ -202,7 +202,7 @@ Os novos recursos, melhorias e correções incluídos na próxima versão do Cam
 
 * Correção de um problema que impedia o Cliente HTTP JavaScript do servidor de se conectar ao URL externo.
 
-* Correção de um problema que redefinia uma atividade **Query incremental** após a alteração do nome interno do fluxo de trabalho. Isso ocorria quando um campo de data era usado como modo incremental. (CAMP-47674)
+* Correção de um problema que redefinia uma atividade **Consulta incremental** após a alteração do nome interno do fluxo de trabalho. Isso ocorria quando um campo de data era usado como modo incremental. (CAMP-47674)
 
 * Correção de um problema que impedia a pré-visualização da miniatura no resumo da entrega ao ser criado um email multilíngue com a integração do Adobe Experience Manager. Esse problema ocorria ao ser usado o botão **Criação de cópia de idioma** para criar as variantes de email. (CAMP-47810)
 
@@ -328,11 +328,11 @@ Os novos recursos, melhorias e correções incluídos na próxima versão do Cam
 
 * Os usuários com a função DATAMODEL agora podem publicar extensões de log de entrega. (CAMP-46604)
 
-* A mensagem de erro exibida ao tentar publicar um recurso que direciona um recurso personalizado que não existe mais foi tornada mais clara. (CAMP-46893)
+* A mensagem de erro exibida ao tentar publicar um recurso que direciona um recurso personalizado que não existe mais foi esclarecida para melhor compreensão. (CAMP-46893)
 
 * Os seguintes idiomas foram adicionados à lista **Idioma preferencial**: Indonésio - Indonésia (in-id), Inglês - Suécia (en-se), Inglês - Ásia Pacífico (en-ap), Inglês - Japão (en-jp), Espanhol - América Latina (es-la). (CAMP-46351)
 
-* O seletor de perfis ao testar uma página de aterrissagem agora usará o recurso profilBase em vez do perfil para evitar o tempo limite.
+* Ao testar uma página de destino, o seletor de perfis agora usará o recurso profilBase em vez do perfil para evitar atingir o tempo limite.
 
 * O formato de log SMPP foi aprimorado.
 
@@ -352,7 +352,7 @@ Os novos recursos, melhorias e correções incluídos na próxima versão do Cam
 
 * Correção de um problema que fazia com que as entregas fossem executadas muito lentamente devido a determinados processos. Isso acontecia porque unidades incorretas estavam definidas para vários parâmetros (milissegundos em vez de segundos, por exemplo).
 
-* Correção de um problema quando o SDK móvel enviava uma solicitação de rastreamento aberta com base na condição de que deliveryId/MessageID não fosse nulo. Isso resultava em erros 404 para entregas com rastreamento desativado. Uma variável adicional (acsDeliveryTracking) com informações sobre o status de rastreamento da entrega agora é enviada na carga. Essa variável pode ter dois valores ativados ou desativados dependendo do status de rastreamento definido. [Saiba mais](../../administration/using/push-tracking.md).
+* Correção de um problema quando o SDK móvel enviava uma solicitação de rastreamento aberta com base na condição de que deliveryId/MessageID não fosse nulo. Isso resultava em erros 404 para entregas com rastreamento desativado. Uma variável adicional (acsDeliveryTracking) com informações sobre o status de rastreamento da entrega agora é enviada junto com o conteúdo. Essa variável pode ter dois valores ativados ou desativados dependendo do status de rastreamento definido. [Saiba mais](../../administration/using/push-tracking.md).
 
 * Correção de um problema em workflows que ocorria ao copiar e colar uma atividade **Desduplicação** executada uma vez e que aproveitava um recurso temporário. Depois de duplicado, o recurso de atividade era automaticamente definido como vazio, resultando em problemas em outras atividades do workflow. Depois de colado, o recurso de atividade permanecerá o mesmo, para que o erro seja acionado o mais rápido possível, em vez de posteriormente, no workflow. (CAMP-46903)
 
@@ -371,7 +371,7 @@ Os novos recursos, melhorias e correções incluídos na próxima versão do Cam
 * Correção de um problema que ocorria quando duas chamadas de assinatura do aplicativo tinham a mesma ID da Marketing Cloud (erro &quot;o valor de chave duplicado viola a restrição única&quot;).
 * Correção de um problema que resultava em problemas de lentidão ao arrastar e soltar atividades em um fluxo de trabalho contendo uma grande quantidade de atividades **Consulta** e **Ler público**. (CAMP-44511)
 * Correção de um erro que ocorria ao final da preparação da mensagem transacional, impedindo que as informações de redirecionamento fossem carregadas nos servidores de rastreamento.
-* Correção de um problema que podia exibir mensagens de erro ao tentar abrir templates de importação ou trabalhos de importação anteriores após a personalização do recurso de fluxo de trabalho. (CAMP-46183)
+* Correção de um problema que podia exibir mensagens de erro ao tentar abrir modelos de importação ou processos de importação anteriores após a personalização do recurso de fluxo de trabalho. (CAMP-46183)
 * Correção de um problema que impedia a execução de uma atividade **Ler público** se ela estivesse configurada com um nome de público dinâmico. (CAMP-46047)
 * Correção de um problema que impedia a exibição do botão **Exportar lista**
 * Correção de um problema que resultava na falha do fluxo de trabalho **Relatórios agregados**. (CAMP-45979)
@@ -419,7 +419,7 @@ Os novos recursos, melhorias e correções incluídos na próxima versão do Cam
 * Correção de um erro que ocorria ao abrir uma tela de perfil devido a um erro de link.
 * Correção de um problema que impedia a exclusão de dados do GDPR do fluxo de trabalho de limpeza.
 * Correção de um erro que ocorria quando a configuração de programação era atualizada manualmente com o teclado nos parâmetros de programação da entrega de email.
-* Correção de um problema que podia impedir a edição de um perfil devido a parâmetros incorretos na unidade organizacional.
+* Correção de um problema que podia impedir a edição de um perfil devido a parâmetros incorretos na entidade organizacional.
 * Correção de um problema que deixava o campo de extensão **Serviço** vazio e impossível de ser definido nas **Propriedades de email**, mesmo que estivesse definido no template do delivery.
 * Correção de um problema que podia fazer as provas demorarem mais para serem processadas. (CAMP-45048)
 * Correção de um problema que impedia a classificação de colunas em uma tela de visão geral do perfil.
