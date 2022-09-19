@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: bba1461acf0db47fd2eefca30f5e759c503a6dc7
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '254'
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Saiba mais sobre as diretrizes gerais para delivery para dispositivos móveis (S
 
 | Páginas úteis | Recursos para desenvolvedores |
 |---|---|
-| [Notas de versão](rn/using/release-notes.md) | [Acionadores da Experience Cloud](integrating/using/about-adobe-experience-cloud-triggers.md) |
+| [Notas de versão](rn/using/release-notes.md) | [Experience Cloud Triggers](integrating/using/about-adobe-experience-cloud-triggers.md) |
 | [Documentação do Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR) | [APIs do Campaign](api/using/get-started-apis.md) |
 | [Guia de implementação](https://helpx.adobe.com/br/campaign/kb/campaign-standard-implementation-guide.html) | [Lista de mensagens de erro](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html) |
 | [Planejamento de versão](rn/using/release-planning.md) | [Modelo de dados do Campaign](developing/using/datamodel-introduction.md) |
