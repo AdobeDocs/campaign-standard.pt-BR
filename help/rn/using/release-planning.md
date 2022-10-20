@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: bba1461acf0db47fd2eefca30f5e759c503a6dc7
-workflow-type: ht
-source-wordcount: '420'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -60,7 +60,7 @@ R: As alterações estão listadas nas [Notas de versão](../../rn/using/release
 
 **P: Qual é o processo de validação?**
 
-R: À medida que a sua instância de preparo for atualizada, a Adobe recomenda validar se os seus processos e casos de uso estão funcionando corretamente com essa nova versão e comunicar qualquer problema ao [Atendimento ao cliente da Adobe](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html).
+R: À medida que a sua instância de preparo for atualizada, a Adobe recomenda validar se os seus processos e casos de uso estão funcionando corretamente com essa nova versão e comunicar qualquer problema ao [Atendimento ao cliente da Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
 
 **P: Haverá acesso à instância durante o processo de atualização?**
 
@@ -82,4 +82,4 @@ R: Sim, eles funcionarão. Não é possível enviar novos emails durante a atual
 
 R: Ao fazer logon no Campaign, um pop-up de notificação de versão será exibido com a versão mais recente.
 
-Para outras perguntas, entre em contato com o [Atendimento ao cliente da Adobe](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html).
+Para outras perguntas, entre em contato com o [Atendimento ao cliente da Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).

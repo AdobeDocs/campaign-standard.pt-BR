@@ -87,7 +87,7 @@ Se você quiser integrar fluxos de dados de outros sistemas ao Adobe Campaign, c
    <td> <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">Enviar mensagens de marketing de acordo com a localização com dados do Campaign e Pontos de interesse</a> (Analytics para dispositivos móveis)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Acionadores da Adobe Experience Cloud<br /> </td> 
+   <td> Adobe Experience Cloud Triggers<br /> </td> 
    <td> Permite enviar emails personalizados para seus clientes no Adobe Campaign como uma reação a comportamentos específicos que são rastreados em seu site pelo Adobe Analytics.<br /> </td> 
    <td> 
     <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Use os acionadores da Experience Cloud no Campaign Standard</a>, <a href="../../integrating/using/abandonment-triggers-use-cases.md">casos de uso de acionadores de abandono do Campaign</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">mensagens de remarketing com base no vídeo de atividade do site</a> (etapa 2)
