@@ -9,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
-source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
+source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '983'
 ht-degree: 96%
 
 ---
@@ -56,7 +56,7 @@ A criação de uma atividade de marketing é detalhada na seção [Criar ativida
 
    ![](assets/workflow_creation_2.png)
 
-   É possível inserir um nome no campo **Label** e modificar a ID.
+   É possível inserir um nome no campo **Label** e modificar a ID. O nome da atividade e a ID são exibidos na interface, mas não são visíveis pelos recipients da mensagem.
 
    >[!NOTE]
    >

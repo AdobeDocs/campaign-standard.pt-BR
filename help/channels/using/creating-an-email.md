@@ -8,9 +8,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
+source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '551'
 ht-degree: 20%
 
 ---
@@ -31,9 +31,7 @@ Você pode criar um email a partir de um [campanha](../../start/using/marketing-
    >
    >Os modelos de teste A/B e de acompanhamento estão ocultos por padrão. Marque as caixas no lado esquerdo ( **[!UICONTROL Filter]** painel lateral) se desejar exibi-los.
 
-1. Insira as propriedades gerais do email. Você pode inserir um nome no **Rótulo** e edite a ID.
-
-   {{$include /help/_includes/channel-activities-name-id-fields.md}}
+1. Insira as propriedades gerais do email. Você pode inserir um nome no **Rótulo** e edite a ID. O nome da atividade e sua ID são exibidos na interface, mas não são visíveis para os recipients da mensagem.
 
    É possível adicionar uma descrição que o usuário pode ver no conteúdo da campanha.
 
