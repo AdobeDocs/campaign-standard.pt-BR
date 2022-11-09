@@ -9,10 +9,10 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 96%
+source-wordcount: '561'
+ht-degree: 89%
 
 ---
 
@@ -45,7 +45,11 @@ Para criar e enviar mensagens SMS para um telefone celular, é necessário:
 
    ![](assets/sms_creation_2.png)
 
-   O rótulo da atividade e sua ID aparecem na interface, mas não são visíveis para os recipients da mensagem.
+   >[!NOTE]
+   >
+   >O nome da atividade e sua ID são exibidos na interface, mas não são visíveis para os recipients da mensagem.
+   >
+   >Certifique-se de que o campo de ID não contenha nenhum espaço em branco para evitar discrepâncias, por exemplo, ao integrar com o Adobe Analytics.
 
 1. Especifique o público que deseja segmentar. É possível selecionar um público existente ou segmentar diretamente uma população definindo e combinando regras.
 

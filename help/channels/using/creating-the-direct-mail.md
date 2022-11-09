@@ -9,10 +9,10 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 95%
+source-wordcount: '636'
+ht-degree: 88%
 
 ---
 
@@ -35,6 +35,12 @@ A criação de um delivery de correspondência direta é muito semelhante à cri
 1. Insira as propriedades gerais do delivery.
 
    ![](assets/direct_mail_3.png)
+
+   >[!NOTE]
+   >
+   >O nome da atividade e sua ID são exibidos na interface, mas não são visíveis para os recipients da mensagem.
+   >
+   >Certifique-se de que o campo de ID não contenha nenhum espaço em branco para evitar discrepâncias, por exemplo, ao integrar com o Adobe Analytics.
 
 1. Defina o público-alvo que você deseja incluir no arquivo de extração, bem como os perfis de teste e trap. Consulte [Definição do público-alvo de mala direto](../../channels/using/defining-the-direct-mail-audience.md).
 

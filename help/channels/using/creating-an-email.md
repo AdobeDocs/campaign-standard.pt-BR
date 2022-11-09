@@ -8,10 +8,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 20%
+source-wordcount: '574'
+ht-degree: 19%
 
 ---
 
@@ -31,7 +31,13 @@ Você pode criar um email a partir de um [campanha](../../start/using/marketing-
    >
    >Os modelos de teste A/B e de acompanhamento estão ocultos por padrão. Marque as caixas no lado esquerdo ( **[!UICONTROL Filter]** painel lateral) se desejar exibi-los.
 
-1. Insira as propriedades gerais do email. Você pode inserir um nome no **Rótulo** e edite a ID. O nome da atividade e sua ID são exibidos na interface, mas não são visíveis para os recipients da mensagem.
+1. Insira as propriedades gerais do email. Você pode inserir um nome no **Rótulo** e edite a ID.
+
+   >[!NOTE]
+   >
+   >O nome da atividade e sua ID são exibidos na interface, mas não são visíveis para os recipients da mensagem.
+   >
+   >Certifique-se de que o campo de ID não contenha nenhum espaço em branco para evitar discrepâncias, por exemplo, ao integrar com o Adobe Analytics.
 
    É possível adicionar uma descrição que o usuário pode ver no conteúdo da campanha.
 

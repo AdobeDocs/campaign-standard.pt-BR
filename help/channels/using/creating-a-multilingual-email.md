@@ -8,7 +8,7 @@ feature: Email
 role: User
 level: Intermediate
 exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 24%
@@ -28,6 +28,7 @@ O público-alvo é baseado em perfis com uma informação completa sobre o idiom
    ![](assets/multi_create1.png)
 
 1. Defina as propriedades gerais e o público-alvo do email, assim como para um email padrão. Consulte a seção [Criação de públicos](../../audiences/using/creating-audiences.md).
+
 1. Na quarta etapa do assistente de criação, defina as opções da variante. Se a variável [modelo multilíngue](../../channels/using/multilingual-messages-template.md) já contém todos os parâmetros corretos, você pode clicar diretamente no botão **[!UICONTROL Create]** botão.
 
    ![](assets/multi_create4.png)
