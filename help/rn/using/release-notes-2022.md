@@ -4,8 +4,9 @@ description: Essa página lista todas as versões de 2022 do Adobe Campaign Stan
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
-workflow-type: ht
+exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
+source-git-commit: 77c5baaf51b82ea001326f3f20c8ab183155f9e6
+workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 100%
 
@@ -96,4 +97,3 @@ ht-degree: 100%
 * Os desempenhos ao duplicar públicos foram aprimorados para evitar problemas ao trabalhar com públicos grandes. (CAMP-49639)
 * Correção de um problema que impedia que um filtro personalizado exibisse os resultados corretos quando usado em uma atividade de **Consulta**. (CAMP-49417)
 * Correção de um erro que exibia uma mensagem de erro ao tentar usar um fragmento em um delivery com uma vírgula em seu nome. O problema foi resolvido e agora as vírgulas podem ser usadas nos nomes dos fragmentos. (CAMP-49216)
-
