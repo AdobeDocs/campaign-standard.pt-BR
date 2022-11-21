@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 88035d0e4f77d66e8b2a74650857bf4ef45744c3
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 86%
+source-wordcount: '438'
+ht-degree: 79%
 
 ---
 
@@ -73,6 +73,12 @@ O modo como os dados serão extraídos é definido na configuração da atividad
 1. Clique na guia **[!UICONTROL File structure]** para configurar os formatos de saída, data e número para o arquivo que será exportado.
 
    Marque a opção **[!UICONTROL Export labels instead of internal values of enumerations]** caso exporte valores de uma lista discriminada. Essa opção permite recuperar rótulos mais curtos, que são fáceis de entender, em vez de IDs.
+
+   ![](assets/extract-file-file-structure.png)
+
+   >[!NOTE]
+   >
+   >Se quiser extrair dados para um arquivo CSV com uma codificação específica, primeiro selecione o formato de saída &quot;Texto&quot;. Escolha a codificação desejada na lista suspensa e altere o formato de saída para &quot;CSV (Excel)&quot;.
 
 1. Na guia **[!UICONTROL Properties]**, selecione a opção **[!UICONTROL Do not generate a file if the inbound transition is empty]** para evitar a criação e o upload de arquivos vazios em servidores SFTP se a transição de entrada estiver vazia.
 1. Confirme a configuração da sua atividade e salve o fluxo de trabalho.
