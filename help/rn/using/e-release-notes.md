@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
-workflow-type: ht
-source-wordcount: '130'
-ht-degree: 100%
+source-git-commit: 1cfc5d51c3eeff35664118f3ee114a40067db3cc
+workflow-type: tm+mt
+source-wordcount: '147'
+ht-degree: 90%
 
 ---
 
@@ -23,20 +23,15 @@ Esta página descreve as melhorias e correções incluídas na próxima versão 
 >
 > Esse conteúdo está sujeito a alterações sem aviso prévio até a data de atualização dos ambientes de estágio. Saiba mais na [página de planejamento de versão](../../rn/using/release-planning.md).
 
-## Versão 22.3 - outono/inverno de 2022 {#e-rn-2022}
+## Versão 22.3.2 {#dec-22}
 
-<!--
-### Improvement{#e-rn-improvements}
+### Atualização de segurança{#rn-security2}
 
+Esta versão vem com a seguinte atualização de segurança: O Debian foi atualizado para v11.0.
 
-**Accessibility**
+## Versão 22.3 - outono/inverno de 2022 {#sept-22}
 
-Campaign Standard 22.3 comes with accessibility fixes and improvements which facilitate users to navigate and get the most out of Adobe Campaign.
-
-These capabilities are released in Limited Availability and rolled out to a set of customers only. To have these improvements enabled on your Campaign environment(s), contact your Adobe representative.
--->
-
-### Atualização de segurança{#e-rn-security}
+### Atualização de segurança{#rn-security}
 
 Esta versão vem com a seguinte atualização de segurança: O Apache Tomcat foi atualizado da v7.0 para a v8.0.
 
@@ -46,3 +41,4 @@ Esta versão vem com a seguinte atualização de segurança: O Apache Tomcat foi
 * Correção de um problema nos indicadores de delivery do painel Delivery que não correspondiam aos logs de envio (nms:broadLogRcp). (CAMP-51127)
 * Correção de um problema que impedia a extensão de recursos personalizados com o Conector ACS (oferta principal). (CAMP-51033)
 * Melhoria do processo de publicação de respostas de solicitações de privacidade para evitar atraso. (CAMP-50613)
+
