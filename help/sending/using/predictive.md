@@ -8,7 +8,7 @@ feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: e9d0add383410681dfee43c5a67d37455bc31373
+source-git-commit: 16801092547f41dd94f12e4dbe9c9afe0b550a36
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 56%
@@ -20,6 +20,7 @@ ht-degree: 56%
 Com o Campaign, você pode otimizar o design e o delivery de jornadas de clientes para prever a preferência de engajamento de cada pessoa. Desenvolvido pela IA e pelo aprendizado de máquina, a Otimização de tempo de envio da Adobe Campaign e a Pontuação preditiva de engajamento podem analisar e prever taxas abertas, tempos de envio ideais e churn provável de acordo com as métricas históricas de engajamento.
 
 >[!IMPORTANT]
+>
 >Esse recurso não está disponível para uso imediato como parte do produto. A implementação exige o engajamento da Adobe Consulting. Entre em contato com seu representante da Adobe para obter mais detalhes.
 
 A Adobe Campaign oferece dois novos modelos de aprendizado de máquina: **Otimização preditiva do tempo de envio** e **Pontuação preditiva de engajamento**. Esses dois modelos são modelos de aprendizado automatizado específicos para projetar e fornecer melhores jornadas para o cliente.
@@ -35,6 +36,7 @@ A Otimização preditiva de tempo de envio prevê qual é o melhor tempo de envi
 No modelo de Otimização preditiva de tempo de envio, há dois submodelos:
 
 * **O tempo preditivo de envio para abrir é o melhor horário para o envio da comunicação ao cliente para maximizar as aberturas**
+
 * **O tempo preditivo de envio para cliques é o melhor horário para o envio de uma comunicação ao cliente para maximizar os cliques**
 
 **Entrada do modelo**: Logs do delivery, logs de rastreamento e atributos de perfil (não PII)
@@ -77,6 +79,7 @@ Por padrão, as pontuações do perfil oferecerão o melhor horário do dia para
 ### Enviar mensagens no melhor momento{#use-predictive-send-time}
 
 Para que os emails sejam enviados no horário ideal por perfil, o delivery deve ser programado usando a opção **[!UICONTROL Send at a custom date defined by a formula]**.
+
 Saiba como calcular a data de envio [nesta seção](../../sending/using/computing-the-sending-date.md).
 
 A fórmula precisa ser preenchida com o melhor horário específico do dia em que o delivery for lançado.
@@ -86,7 +89,7 @@ A fórmula precisa ser preenchida com o melhor horário específico do dia em qu
 Exemplo de fórmula:
 
 ```
-AddHours([currentDelivery/scheduling/@contactDate], 
+AddHours([currentDelivery/scheduling/@contactDate],
 [cusSendTimeScoreByClickprofile_link/@EMAIL_BEST_TIME_TO_CLICK_WEDNESDAY])
 ```
 
