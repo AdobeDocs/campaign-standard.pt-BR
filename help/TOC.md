@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Centro de ajuda para os principais recursos, tarefas, configurações e outros recursos necessários para usar o Campaign Standard.
 title: Manual do Campaign Standard
 breadcrumb-title: Documentação do Adobe Campaign Standard
-source-git-commit: 1d1869a6c503773f4aaecb6a77f1b72585c88865
-workflow-type: ht
-source-wordcount: '1812'
+source-git-commit: e9d0add383410681dfee43c5a67d37455bc31373
+workflow-type: tm+mt
+source-wordcount: '1814'
 ht-degree: 100%
 
 ---
@@ -163,7 +163,7 @@ ht-degree: 100%
       + [Pré-visualização de entregas](sending/using/previewing-messages.md)
       + [Envio de provas](sending/using/sending-proofs.md)
       + [Teste de mensagens de email usando perfis direcionados](sending/using/testing-messages-using-target.md)
-      + [Emails habilitados por IA](sending/using/predictive.md)
+      + [Recursos preditivos de engajamento do usuário](sending/using/predictive.md)
       + [Renderização de email](sending/using/email-rendering.md)
       + [Adição de um grupo de controle](sending/using/control-group.md)
       + [Utilização de traps](sending/using/using-traps.md)
@@ -310,7 +310,7 @@ ht-degree: 100%
    + Atividades de direcionamento {#targeting-activities}
       + [Sobre atividades de direcionamento](automating/using/about-targeting-activities.md)
       + [Consulta](automating/using/query.md)
-      + [Query incremental](automating/using/incremental-query.md)
+      + [Consulta incremental](automating/using/incremental-query.md)
       + [União](automating/using/union.md)
       + [Intersecção](automating/using/intersection.md)
       + [Exclusão](automating/using/exclusion.md)
