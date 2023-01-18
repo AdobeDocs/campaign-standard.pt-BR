@@ -8,10 +8,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 827df9f6-070c-466a-890c-e363de6b129b
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: e26d0d78126a7795f3341d4f07ee380605d83c77
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 87%
+source-wordcount: '393'
+ht-degree: 84%
 
 ---
 
@@ -50,6 +50,10 @@ Por exemplo, para criar um novo perfil diretamente na interface do usuário, sig
    * As informações de contato, como nome, sobrenome, sexo, data de nascimento, foto, idioma preferencial (para [emails multilíngues](../../channels/using/creating-a-multilingual-email.md)), ajudam a personalizar melhor os deliveries.
    * O perfil **[!UICONTROL Time zone]** é usado para enviar deliveries no fuso horário do perfil. Para obter mais informações, consulte esta [seção](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
    * A categoria **[!UICONTROL Channels]**, que contém o endereço de email, o número do telefone celular e as informações de recusa, informa em qual canal o perfil pode ser acessado.
+
+      >[!NOTE]
+      > Os números dos telefones celulares devem sempre estar em formato internacional (`+<country><number>`) na tabela de perfis.
+
    * A categoria **[!UICONTROL No longer contact]** é atualizada assim que o perfil cancela a assinatura em um canal.
    * A categoria **[!UICONTROL Address]** contém o CEP que precisa ser preenchido junto com a opção **[!UICONTROL Address specified]** para enviar [correspondência direta](../../channels/using/about-direct-mail.md) para esse perfil. Se a opção **[!UICONTROL Address specified]** não estiver marcada, esse perfil será excluído de todos os deliveries de correspondência direta.
    * O **[!UICONTROL Access authorization]** indica as unidades organizacionais do perfil para [gerenciar permissões](../../administration/using/about-access-management.md). Para adicionar os campos organizacionais aos perfis, consulte a seção [Particionamento de perfis](../../administration/using/organizational-units.md#partitioning-profiles).
