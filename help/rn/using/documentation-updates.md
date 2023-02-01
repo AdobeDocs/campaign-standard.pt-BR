@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 88035d0e4f77d66e8b2a74650857bf4ef45744c3
+source-git-commit: bfa34136950218d2fd56870247d39be00c725427
 workflow-type: ht
-source-wordcount: '7293'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Foram adicionadas informações na página de atividade do fluxo de trabalho **[
 
 As notas da versão 22.3 (lançamento de outono/inverno) do Campaign Standard foram publicadas. [Leia mais](release-notes.md)
 
-Os períodos de retenção de dados foram atualizados para refletir as alterações da versão 22.3. [Leia mais](../../administration/using/data-retention.md)
+<!--Data retention periods have been updated to reflect changes coming with 22.3 release. [Read more](../../administration/using/data-retention.md)-->
 
 
 ## Versão 22.2 - junho de 2022 {#release-22-2}
