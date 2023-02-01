@@ -6,47 +6,32 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: ede4bd97ffddca4a5e24f1e4114d50ca5140a01d
+source-git-commit: 4d67d1d0239c7439cc1f4b8e1fd7fb2f7a99adec
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 55%
+source-wordcount: '178'
+ht-degree: 13%
 
 ---
 
 # Retenção de dados{#data-retention}
 
-As tabelas de log padrão no Campaign têm períodos de retenção predefinidos, limitando a duração do armazenamento de dados.
+As tabelas de log padrão no Campaign têm períodos de retenção predefinidos, limitando a duração do armazenamento de dados, para evitar sobrecarga do sistema.
 
-A seguir estão os valores de retenção padrão para tabelas padrão. Esteja ciente de que a configuração de retenção é definida pelos administradores técnicos da Adobe durante a implementação e os valores podem variar com base nos requisitos do cliente.
+A configuração da retenção de dados é definida pelos administradores técnicos do Adobe durante a implementação e os valores podem variar para cada implementação, com base nos requisitos do cliente.
 
-+++[!DNL Campaign Standard] 2.3 ou superior
+Entre em contato com os consultores do Adobe ou administradores técnicos para saber mais sobre os períodos de retenção aplicáveis ao seu ambiente ou para definir períodos de retenção personalizados.
 
-* **Rastreamento consolidado**: 1 meses
-* **Registros de entrega**: 1 meses
-* **Registros de monitoramento**: 1 meses
+Observe que, usando a funcionalidade padrão do workflow, é possível configurar períodos de retenção para qualquer tabela personalizada.
+
+Abaixo estão os períodos de retenção padrão para tabelas padrão. Sempre que possível e dependendo do uso dos dados, o Adobe sugere que você migre para os períodos de retenção recomendados para melhorar o desempenho da instância do Campaign.
+
+* **Rastreamento consolidado**: 6 meses (recomendado: 1 mês)
+* **Logs do delivery**: 6 meses (recomendado: 1 mês)
+* **Logs de rastreamento**: 6 meses (recomendado: 1 mês)
 * **Eventos**: 1 mês
-* **Estatísticas de processamento de evento**: 1 meses
-* **Eventos arquivados**: 1 meses
+* **Estatísticas de processamento de evento**: 6 meses (recomendado: 1 mês)
+* **Eventos arquivados**: 6 meses (recomendado: 1 mês)
 * **Entidades temporárias**: 7 dias
 * **Eventos de pipeline ignorados**: 1 mês
 * **Alertas de entrega**: 1 mês
-* **Auditoria de exportação**: 1 meses
-+++
-
-+++ Anterior [!DNL Campaign Standard] builds
-
-* **Rastreamento consolidado**: 6 meses
-* **Registros de entrega**: 6 meses
-* **Registros de monitoramento**: 6 meses
-* **Eventos**: 1 mês
-* **Estatísticas de processamento de evento**: 6 meses
-* **Eventos arquivados**: 6 meses
-* **Entidades temporárias**: 7 dias
-* **Eventos de pipeline ignorados**: 1 mês
-* **Alertas de entrega**: 1 mês
-* **Auditoria de exportação**: 6 meses
-+++
-
-Usando a funcionalidade padrão do workflow, é possível configurar períodos de retenção para qualquer tabela personalizada.
-
-Entre em contato com os consultores do Adobe ou administradores técnicos para saber mais sobre retenção ou definir a retenção para tabelas personalizadas.
+* **Auditoria de exportação**: 6 meses (recomendado: 1 mês)
