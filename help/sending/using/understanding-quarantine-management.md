@@ -8,7 +8,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: 7243a97bdc8f0b6ecba42b606d048a3fbd322a63
+source-git-commit: eec8c66d4947e04cd0eb3dcf0f09d395d9db68b9
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 53%
@@ -98,9 +98,6 @@ Defina o endereço (ou número de telefone etc.) e tipo de canal. Você pode def
 ![](assets/quarantines-create-last-delivery.png)
 
 ## Remoção de um endereço da quarentena {#removing-a-quarantined-address}
-
-
-
 
 ### Atualizações automáticas {#unquarantine-auto}
 
