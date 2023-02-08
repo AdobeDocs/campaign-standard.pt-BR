@@ -8,9 +8,9 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1311'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ Os aplicativos móveis usados para coletar dados de localização devem ser conf
 
 Para usar os Serviços de localização da Adobe Experience Platform com aplicativos móveis configurados com o Adobe Experience Platform SDK, é necessário:
 
-1. Adicione o **[!UICONTROL Places]** e **[!UICONTROL Places Monitor]** extensões à configuração do aplicativo móvel na interface do usuário da coleta de dados. Configure seu aplicativo móvel no Adobe Campaign. Consulte [Instalar a extensão do Places](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) e [Instalar a extensão do Places Monitor](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch).
+1. Adicione o **[!UICONTROL Places]** extensão para a configuração do aplicativo móvel na interface do usuário da coleta de dados. Configure seu aplicativo móvel no Adobe Campaign. Consulte [Instalar a extensão do Places](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch).
 
 1. Depois que as extensões forem configuradas, crie elementos de dados na interface do usuário da coleção de dados para recuperar dados dessas extensões. Consulte esta [página](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) para criar seus elementos de dados.
 
@@ -187,7 +187,7 @@ Para definir os Pontos de interesse usados para coletar dados de localização:
 
 Um recurso personalizado específico permite definir os dados que você deseja coletar dos assinantes de aplicativos.
 
-Essa etapa é descrita na seção [Configurar um aplicativo para dispositivos móveis usando o SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) página.
+Essa etapa é descrita na seção [Configurar um aplicativo para dispositivos móveis usando o SDK V4](https://helpx.adobe.com/br/campaign/kb/configuring-app-sdkv4.html) página.
 
 ## Acesso a aplicativos móveis usados para coletar dados de localização {#accessing-mobile-apps-used-to-collect-location-data}
 
