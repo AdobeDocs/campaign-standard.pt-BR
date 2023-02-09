@@ -6,10 +6,10 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '4569'
-ht-degree: 9%
+source-wordcount: '4562'
+ht-degree: 8%
 
 ---
 
@@ -392,7 +392,7 @@ _Notificações por push_
   </tr> 
   <tr> 
    <td> Integração do Dreamweaver (Labs)<br /> </td> 
-   <td> Com a integração Adobe Campaign e Dreamweaver, agora você tem um processo integrado para criar campanhas por email com soluções do Adobe.<br /> Você pode editar emails do Adobe Campaign no Dreamweaver e ter o conteúdo sincronizado facilmente entre as duas soluções.<br /> Na versão inicial, a integração está disponível como um recurso "Labs" e funciona somente com o Dreamweaver Pre-Release Beta. Se quiser ativá-la, entre em contato com AC-DW-integration@adobe.com.<br /> Para obter mais informações, consulte esta seção <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">vídeo</a>.<br /> </td> 
+   <td> Com a integração Adobe Campaign e Dreamweaver, agora você tem um processo integrado para criar campanhas por email com soluções do Adobe.<br /> Você pode editar emails do Adobe Campaign no Dreamweaver e ter o conteúdo sincronizado facilmente entre as duas soluções.<br /> Na versão inicial, a integração está disponível como um recurso "Labs" e funciona somente com o Dreamweaver Pre-Release Beta. Se quiser ativá-la, entre em contato com AC-DW-integration@adobe.com.<br /> Para obter mais informações, consulte esta seção <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=pt-BR">vídeo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Otimização manual do tempo de envio<br /> </td> 
@@ -489,9 +489,9 @@ _Fluxos de trabalho_
   </tr> 
   <tr> 
    <td> API de mensagens transacionais<br /> </td> 
-   <td> A API de mensagens transacionais agora está disponível por meio de <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">adobe.io</a>, facilitando o uso e o monitoramento:<br /> 
+   <td> A API de mensagens transacionais agora está disponível, facilitando o uso e o monitoramento:<br /> 
     <ul> 
-     <li> Você pode se beneficiar dos recursos de monitoramento e emissão de relatórios da plataforma adobe.io. </li> 
+     <li> Você pode se beneficiar dos recursos de relatório e monitoramento da plataforma Adobe Developer. </li> 
      <li> A autenticação agora é realizada usando a autenticação baseada em token adobe.io em vez do  de IP incluir na lista de permissões, tornando o processo de segurança mais simples. </li> 
      <li> Todas as APIs agora são integradas em uma única plataforma, tornando mais simples do que nunca adicionar recursos de mensagens transacionais à integração, se você já oferecer suporte à API de Perfil e Serviços. </li> 
     </ul> </td> 

@@ -1,13 +1,13 @@
 ---
 title: Personalização de listas
-description: '"Saiba como personalizar a exibição e atuar em telas de lista no Adobe Campaign Standard: classificação, filtragem, exclusão ou duplicação de elementos. Lista as telas que exibem elementos de um ou vários recursos especificados."'
+description: "Saiba como personalizar a exibição e atuar em telas de lista no Adobe Campaign Standard: classificação, filtragem, exclusão ou duplicação de elementos. Lista as telas que exibem elementos de um ou vários recursos especificados."
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 11%
+source-wordcount: '776'
+ht-degree: 10%
 
 ---
 
@@ -125,7 +125,7 @@ Graças aos fluxos de trabalho e ao editor de consultas, você pode criar públi
 
 O GDPR é a nova lei de privacidade da União Europeia que concilia e moderniza os requisitos de proteção de dados. O GDPR aplica-se aos clientes do Adobe Campaign que coletam dados de residentes da UE. Além dos recursos de privacidade já disponíveis no Adobe Campaign (incluindo o gerenciamento de consentimento, as configurações de retenção de dados e as funções de usuários), aproveitamos a oportunidade, em função de nosso papel como Processador de Dados, para incluir recursos adicionais que ajudam o Controlador de Dados a estar de acordo com determinadas solicitações do GDPR.
 
-Consulte esta [guia](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=pt-BR) para saber mais sobre as ferramentas e as funcionalidades fornecidas pelo Adobe Campaign para ajudá-lo a se tornar compatível com o GDPR.
+Consulte [esta seção](../../start/using/privacy.md) para saber mais sobre as ferramentas e as funcionalidades fornecidas pelo Adobe Campaign para ajudá-lo a se tornar compatível com o GDPR.
 
 **Leia mais**
 

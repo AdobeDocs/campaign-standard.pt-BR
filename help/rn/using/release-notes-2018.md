@@ -6,9 +6,9 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '5357'
+source-wordcount: '5355'
 ht-degree: 9%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td> Integração do Adobe Launch para aplicativos móveis (beta)<br /> </td> 
-   <td> A integração do Adobe Launch com o Adobe Campaign agora simplifica e automatiza o processo de ativação da Propriedade de aplicativo móvel no Campaign usando o Mobile SDK V5.<br /> Para obter mais informações, consulte a <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">documentação detalhada</a>.<br /> </td> 
+   <td> A integração do Adobe Launch com o Adobe Campaign agora simplifica e automatiza o processo de ativação da Propriedade de aplicativo móvel no Campaign usando o Mobile SDK V5.<br /> Para obter mais informações, consulte a <a href="https://helpx.adobe.com/br/campaign/kb/configuring-app-sdk.html">documentação detalhada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -195,7 +195,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td> GDPR: Integração de serviços principais<br /> </td> 
-   <td> A Integração do serviço principal de privacidade permite automatizar as solicitações do GDPR em um contexto de várias soluções por meio de uma única chamada de API JSON. <br /> As solicitações do GDPR enviadas do Serviço principal de privacidade para todas as soluções do Experience Cloud agora são tratadas automaticamente pelo Campaign. <br /> Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=pt-BR">documentação detalhada</a>.<br /> </td> 
+   <td> A Integração do serviço principal de privacidade permite automatizar as solicitações do GDPR em um contexto de várias soluções por meio de uma única chamada de API JSON. <br /> As solicitações do GDPR enviadas do Serviço principal de privacidade para todas as soluções do Experience Cloud agora são tratadas automaticamente pelo Campaign. <br /> Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Melhorias nas notificações por push - feedback detalhado do delivery<br /> </td> 
@@ -297,7 +297,7 @@ _Recursos personalizados_
     <ul> 
      <li> Direito de acesso: permite que o Titular de dados receba uma cópia de seus dados pessoais capturados pelos Controladores de dados, incluindo potencialmente dados armazenados no Adobe Campaign. </li> 
      <li> Direito de Exclusão: possibilita que o Titular de dados apague seus dados pessoais capturados pelos Controladores de dados, possivelmente incluindo os dados armazenados no Adobe Campaign. </li> 
-    </ul> Para obter mais informações, consulte a <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">documentação detalhada</a>.<br /> </td> 
+    </ul> Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer para Email (Beta)<br /> </td> 
