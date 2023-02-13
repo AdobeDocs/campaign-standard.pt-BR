@@ -158,7 +158,7 @@ Esta guia está disponível na maioria das atividades de workflow. Para obter ma
 
 ## Teste
 
-Para testar a funcionalidade da API externa com um terminal de teste simples, você pode usar o Postman Echo: https://docs.postman-echo.com.
+Para testar a funcionalidade da API externa com um terminal de teste simples, é possível usar o Postman Echo: https://docs.postman-echo.com.
 
 ## Solução de problemas
 
@@ -261,7 +261,7 @@ Essas mensagens de log são usadas para registrar informações sobre condiçõe
   </tr> 
   <tr> 
    <td> WKF-560247 - Um valor de cabeçalho HTTP é incorreto (valor do cabeçalho: '%s').</td> 
-   <td> <p>O valor do cabeçalho HTTP é incorreto (valor do cabeçalho: '%s'). </p>
+   <td> <p>HTTP header value is bad (header value: '%s'). </p>
     <p>Observação: este erro é registrado quando o valor do cabeçalho personalizado falha na validação de acordo com a <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
   <tr> 

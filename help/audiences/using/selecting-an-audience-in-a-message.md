@@ -33,7 +33,7 @@ Os públicos-alvo podem ser definidos ao criar a mensagem com o assistente de cr
    A tela para definir os públicos-alvo é aberta. Ela tem duas guias que permitem definir separadamente cada tipo de público-alvo que receberá a mensagem:
 
    * Target
-   * Testar perfis
+   * Perfis de teste
 
    ![](assets/delivery_audience_definition_2.png)
 

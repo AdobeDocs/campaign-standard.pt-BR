@@ -10,7 +10,7 @@ exl-id: 53da6c4e-d4fb-4677-acff-744e3eb10960
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 21%
+ht-degree: 43%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 21%
                   <th>Nome</th>
                   <th>Rótulo</th>
                   <th>Tipo (comprimento)</th>
-                  <th>Valores de enumeração</th>
+                  <th>Valores de lista discriminada</th>
                </tr>
                <tr>
                   <td>PKey</td>
                   <td>ID de recurso principal</td>
-                  <td>string </td>
+                  <td>sequência de caracteres </td>
                   <td> </td>
                </tr>
                <tr>
@@ -40,7 +40,7 @@ ht-degree: 21%
                <tr>
                   <td>amcDataSource (amcDataSourceBase)</td>
                   <td>Fonte de dados da Adobe Experience Cloud (AMC)</td>
-                  <td>link </td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
@@ -70,31 +70,31 @@ ht-degree: 21%
                <tr>
                   <td>count</td>
                   <td>Contagem</td>
-                  <td>integer </td>
+                  <td>inteiro </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>countDate</td>
                   <td>Data de contagem</td>
-                  <td>data </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>countPreview</td>
                   <td>CountPreview</td>
-                  <td>item </td>
+                  <td>Item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>criado</td>
                   <td>Criado</td>
-                  <td>data </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Criado por</td>
-                  <td>link </td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
@@ -105,26 +105,26 @@ ht-degree: 21%
                </tr>
                <tr>
                   <td>doNotPersist</td>
-                  <td>Não historizar este trabalho</td>
+                  <td>Não historicizar este processo</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>errorLimit</td>
-                  <td>Erros antes de abortar</td>
-                  <td>integer </td>
+                  <td>Erros antes de anular</td>
+                  <td>inteiro </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>expirationDate</td>
                   <td>Expira em</td>
-                  <td>data </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unidade geográfica</td>
-                  <td>link </td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
@@ -160,13 +160,13 @@ ht-degree: 21%
                <tr>
                   <td>lastModified</td>
                   <td>Última modificação</td>
-                  <td>data </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
-                  <td>Modificado por</td>
-                  <td>link </td>
+                  <td>Modificação por</td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
@@ -178,31 +178,31 @@ ht-degree: 21%
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Entidade organizacional</td>
-                  <td>link </td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>rejectFilename</td>
                   <td>Arquivo de rejeição</td>
-                  <td>string </td>
+                  <td>sequência de caracteres </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>sharedAudience</td>
                   <td>Nome do público-alvo compartilhado</td>
-                  <td>item </td>
+                  <td>Item </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>source</td>
+                  <td>origem</td>
                   <td>Origem</td>
-                  <td>item </td>
+                  <td>Item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>sourceId</td>
                   <td>Source Id</td>
-                  <td>integer </td>
+                  <td>inteiro </td>
                   <td> </td>
                </tr>
                <tr>
@@ -212,7 +212,7 @@ ht-degree: 21%
                   <td> </td>
                </tr>
                <tr>
-                  <td>type</td>
+                  <td>tipo</td>
                   <td>Tipo</td>
                   <td>enumeration (string) (100)</td>
                   <td>
@@ -226,14 +226,14 @@ ht-degree: 21%
                </tr>
                <tr>
                   <td>em que</td>
-                  <td>Definição de query</td>
-                  <td>item </td>
+                  <td>Definição da consulta</td>
+                  <td>Item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>workflow (workflow)</td>
                   <td>Fluxo de trabalho</td>
-                  <td>link </td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
             </table>
@@ -249,7 +249,7 @@ Por dimensão de filtro (byFilteringResource)
     </tr>
     <tr>
     <td>filteringResource</td>
-    <td>string</td>
+    <td>sequência de caracteres</td>
     </tr>
 </table>
 
@@ -262,7 +262,7 @@ Por nome ou rótulo (byText)
     </tr>
     <tr>
     <td>texto</td>
-    <td>string</td>
+    <td>sequência de caracteres</td>
     </tr>
 </table>
 
@@ -274,11 +274,11 @@ Por tipo (byType)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>type</td>
+    <td>tipo</td>
     <td>enumeração</td>
     </tr>
     <tr>
     <td>isAMC</td>
-    <td>string</td>
+    <td>sequência de caracteres</td>
     </tr>
 </table>

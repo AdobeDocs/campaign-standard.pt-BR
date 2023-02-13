@@ -10,7 +10,7 @@ exl-id: 20dafd81-8546-450a-87a0-59a2509efb7a
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 23%
+ht-degree: 45%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 23%
         <th>Nome</th>
         <th>Rótulo</th>
         <th>Tipo (comprimento)</th>
-        <th>Valores de enumeração</th>
+        <th>Valores de lista discriminada</th>
     </tr>
     <tr>
         <td>PKey</td>
         <td>ID de recurso principal</td>
-        <td>string </td>
+        <td>sequência de caracteres </td>
         <td> </td>
     </tr>
     <tr>
@@ -40,25 +40,25 @@ ht-degree: 23%
     <tr>
         <td>criado</td>
         <td>Criado</td>
-        <td>data </td>
+        <td>date </td>
         <td> </td>
     </tr>
     <tr>
         <td>createdBy (userBase)</td>
         <td>Criado por</td>
-        <td>link </td>
+        <td>Link  </td>
         <td> </td>
     </tr>
     <tr>
         <td>delivery (delivery)</td>
-        <td>Delivery</td>
-        <td>link </td>
+        <td>Entrega</td>
+        <td>Link  </td>
         <td> </td>
     </tr>
     <tr>
         <td>deliveryId</td>
         <td>ID da última delivery</td>
-        <td>integer </td>
+        <td>inteiro </td>
         <td> </td>
     </tr>
     <tr>
@@ -94,13 +94,13 @@ ht-degree: 23%
     <tr>
         <td>geoUnit (geoUnitBase)</td>
         <td>Unidade geográfica</td>
-        <td>link </td>
+        <td>Link  </td>
         <td> </td>
     </tr>
     <tr>
         <td>lastModified</td>
         <td>Última modificação</td>
-        <td>data </td>
+        <td>date </td>
         <td> </td>
     </tr>
     <tr>
@@ -111,14 +111,14 @@ ht-degree: 23%
     </tr>
     <tr>
         <td>modifiedBy (userBase)</td>
-        <td>Modificado por</td>
-        <td>link </td>
+        <td>Modificação por</td>
+        <td>Link  </td>
         <td> </td>
     </tr>
     <tr>
         <td>orgUnit (orgUnitBase)</td>
         <td>Entidade organizacional</td>
-        <td>link </td>
+        <td>Link  </td>
         <td> </td>
     </tr>
     <tr>
@@ -135,13 +135,13 @@ ht-degree: 23%
     <tr>
         <td>recipient (recipient)</td>
         <td>Perfil identificado</td>
-        <td>link </td>
+        <td>Link  </td>
         <td> </td>
     </tr>
     <tr>
         <td>recipientId</td>
         <td>ID do perfil</td>
-        <td>integer </td>
+        <td>inteiro </td>
         <td> </td>
     </tr>
     <tr>
@@ -159,7 +159,7 @@ ht-degree: 23%
     <tr>
         <td>referrerId</td>
         <td>ID de referenciador</td>
-        <td>integer </td>
+        <td>inteiro </td>
         <td> </td>
     </tr>
     <tr>
@@ -171,7 +171,7 @@ ht-degree: 23%
     <tr>
         <td>referrerRcp (recipient)</td>
         <td>Referenciador</td>
-        <td>link </td>
+        <td>Link  </td>
         <td> </td>
     </tr>
     <tr>
@@ -193,6 +193,6 @@ Por sobrenome, nome ou email (porText)</p>
         </tr>
         <tr>
         <td>texto</td>
-        <td>string</td>
+        <td>sequência de caracteres</td>
         </tr>
     </table>

@@ -9,11 +9,11 @@ exl-id: aaaceb3a-5e54-47da-9be4-b70747282830
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Perguntas frequentes sobre tags na sincronização do Adobe Experience Platform {#syncwithlaunch-faq}
+# Perguntas frequentes sobre tags na sincronização da Adobe Experience Platform {#syncwithlaunch-faq}
 
 É possível importar propriedades móveis de tags para o Adobe Campaign Standard por meio do **[!UICONTROL Sync with Launch]** fluxo de trabalho técnico dedicado. Para obter mais informações, consulte esta [página](../../administration/using/technical-workflows.md)
 

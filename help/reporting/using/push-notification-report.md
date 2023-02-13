@@ -1,6 +1,6 @@
 ---
 title: Relatório de notificação por push
-description: With the Push notification out-of-the-box report, learn about the success of your push notifications.
+description: Com o relatório de notificação por push pronto para uso, saiba mais sobre o sucesso das notificações por push.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -27,20 +27,20 @@ Algumas configurações são necessárias no aplicativo móvel para implementar 
 
 ![](assets/dynamic_report_push.png)
 
-Each table is represented by summary numbers and charts. You can change how the details are shown in their respective visualization settings.
+Cada tabela é representada por números de resumo e gráficos. Você pode alterar como os detalhes são mostrados em suas respectivas configurações de visualização.
 
 A primeira tabela **Resumo de Envolvimento da Notificação por Push** divide-se em três categorias: por dia, por aplicativo móvel e por delivery. Ele contém os dados disponíveis para a reatividade do recipient no delivery:
 
 * **[!UICONTROL Processed/sent]**: Número total de notificações por push enviadas.
-* **[!UICONTROL Delivered]**: Number of push notifications successfully sent, in relation to the total number of sent push notifications.
-* **[!UICONTROL Impressions]**: Número de vezes que uma notificação por push foi entregue ao dispositivo e deixou-o intocado no centro de notificações. Na maioria dos casos, o número de impressões deve ser semelhante ao número entregue. This ensures that the device got the message and relayed that information back to the server.
-* **[!UICONTROL Unique impressions]**: Number of impressions by recipient.
+* **[!UICONTROL Delivered]**: Número de notificações por push enviadas com êxito em relação ao número total de notificações por push enviadas.
+* **[!UICONTROL Impressions]**: Número de vezes que uma notificação por push foi entregue ao dispositivo e deixou-o intocado no centro de notificações. Na maioria dos casos, o número de impressões deve ser semelhante ao número entregue. Isso garante que o dispositivo receba a mensagem e reenvie essas informações de volta para o servidor.
+* **[!UICONTROL Unique impressions]**: Número de impressões por recipient.
 * **[!UICONTROL Click through rate]**: Porcentagem de usuários que interagiram com a notificação por push.
 * **[!UICONTROL Open rate]**: Porcentagem de notificações por push abertas.
 
 ![](assets/dynamic_report_push_2.png)
 
-The second table **Push notification Clicks &amp; opens** is split into three categories: by day, by mobile app and by delivery. Ele contém os dados disponíveis para o comportamento do recipient por delivery:
+A segunda tabela **Cliques e aberturas da notificação por push** divide-se em três categorias: por dia, por aplicativo móvel e por delivery. Ele contém os dados disponíveis para o comportamento do recipient por delivery:
 
 * **[!UICONTROL Impressions]**: Total de notificações por push vistas pelos recipients.
 * **[!UICONTROL Unique impressions]**: Número de impressões por recipient.

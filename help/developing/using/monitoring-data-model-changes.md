@@ -11,7 +11,7 @@ exl-id: ced9a897-47e9-4128-84fb-35660c553cd4
 source-git-commit: 5fef74296a4790102c75e609c270e52d5ead1d58
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -32,7 +32,7 @@ No **[!UICONTROL Diagnosis]** é possível exibir os objetos técnicos gerados p
 * Filtros
 * Navegação
 * Componentes
-* Trabalhos em lote
+* Processos em lote
 
 Você pode alterar a configuração da lista:
 

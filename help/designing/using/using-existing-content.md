@@ -1,5 +1,5 @@
 ---
-title: 'Criar emails usando conteúdo existente '
+title: Criar emails usando conteúdo existente
 description: Descubra como criar emails usando conteúdo de email existente no Designer de email.
 audience: designing
 content-type: reference

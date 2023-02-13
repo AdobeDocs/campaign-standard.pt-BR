@@ -1,5 +1,5 @@
 ---
-title: 'Criação de emails do zero '
+title: Criação de emails do zero
 description: Descubra como projetar emails do zero no conteúdo de email do Designer de email.
 audience: designing
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1239'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -98,7 +98,7 @@ Você pode adicionar uma **[!UICONTROL Content block]**, a **[!UICONTROL Dynamic
 
 >[!NOTE]
 >
->Observe que o pré-cabeçalho não é compatível com todos os programas de email. Quando não houver suporte, o pré-cabeçalho não será exibido.
+>Observe que o pré-cabeçalho não é compatível com todos os programas de email. Quando este for o caso, o pré-cabeçalho não será exibido.
 
 ## Uso de componentes de conteúdo {#about-content-components}
 
@@ -163,7 +163,7 @@ Insira o componente de vídeo em um componente de estrutura do email e insira o 
 
 >[!NOTE]
 >
->Observe que o vídeo não é compatível com todos os programas de email. Quando não houver suporte, o fallback será exibido.
+>Observe que o vídeo não é compatível com todos os programas de email. Quando este for o caso, o fallback será exibido.
 
 ### Imagem
 

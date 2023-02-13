@@ -10,7 +10,7 @@ exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 31%
+ht-degree: 50%
 
 ---
 
@@ -23,30 +23,30 @@ ht-degree: 31%
                   <th>Nome</th>
                   <th>Rótulo</th>
                   <th>Tipo (comprimento)</th>
-                  <th>Valores de enumeração</th>
+                  <th>Valores de lista discriminada</th>
                </tr>
                <tr>
                   <td>PKey</td>
                   <td>ID de recurso principal</td>
-                  <td>string </td>
+                  <td>sequência de caracteres </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>país (países)</td>
                   <td>Country</td>
-                  <td>link </td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>criado</td>
                   <td>Criado</td>
-                  <td>data </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Criado por</td>
-                  <td>link </td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
@@ -76,7 +76,7 @@ ht-degree: 31%
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unidade geográfica</td>
-                  <td>link </td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
@@ -88,13 +88,13 @@ ht-degree: 31%
                <tr>
                   <td>lastModified</td>
                   <td>Última modificação</td>
-                  <td>data </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>localização</td>
-                  <td>Local</td>
-                  <td>item </td>
+                  <td>Localização</td>
+                  <td>Item </td>
                   <td> </td>
                </tr>
                <tr>
@@ -105,8 +105,8 @@ ht-degree: 31%
                </tr>
                <tr>
                   <td>mobileApp</td>
-                  <td>Aplicativo móvel</td>
-                  <td>item </td>
+                  <td>Aplicativo para dispositivos móveis</td>
+                  <td>Item </td>
                   <td> </td>
                </tr>
                <tr>
@@ -117,8 +117,8 @@ ht-degree: 31%
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
-                  <td>Modificado por</td>
-                  <td>link </td>
+                  <td>Modificação por</td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
@@ -130,19 +130,19 @@ ht-degree: 31%
                <tr>
                   <td>nms_recipient</td>
                   <td>Perfil</td>
-                  <td>item </td>
+                  <td>Item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>nms_rtEvent</td>
                   <td>Evento</td>
-                  <td>item </td>
+                  <td>Item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Entidade organizacional</td>
-                  <td>link </td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
@@ -184,13 +184,13 @@ ht-degree: 31%
                <tr>
                   <td>stateLink (estado)</td>
                   <td>Estado</td>
-                  <td>link </td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>targetData</td>
                   <td>Extensão</td>
-                  <td>string </td>
+                  <td>sequência de caracteres </td>
                   <td> </td>
                </tr>
                <tr>
@@ -201,7 +201,8 @@ ht-degree: 31%
                </tr>
                <tr>
                   <td>título</td>
-                  <td>Perfil de teste</td>
+                  <td>Perfil de teste
+</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
@@ -224,7 +225,7 @@ Por tipo de evento (byEventType)
         </tr>
         <tr>
         <td>eventType</td>
-        <td>string</td>
+        <td>sequência de caracteres</td>
         </tr>
     </table>
 
@@ -237,7 +238,7 @@ Por nome ou rótulo (byText)
         </tr>
         <tr>
         <td>texto</td>
-        <td>string</td>
+        <td>sequência de caracteres</td>
         </tr>
     </table>
 
@@ -271,6 +272,6 @@ Perfil de teste (perfil)
     </tr>
     <tr>
     <td>seedMember</td>
-    <td>link</td>
+    <td>Link </td>
     </tr>
 </table>

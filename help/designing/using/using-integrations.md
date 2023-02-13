@@ -1,5 +1,5 @@
 ---
-title: 'Criar emails por meio de integrações do Adobe Campaign '
+title: Criar emails por meio de integrações do Adobe Campaign
 description: Descubra como criar emails por meio de integrações Adobe Campaign no Designer de email.
 audience: designing
 content-type: reference
@@ -139,7 +139,7 @@ O Adobe Campaign oferece várias opções de criação de email. A tabela abaixo
    <td> Conteúdo dinâmico não suportado<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Audience</strong><br /> </td> 
+   <td> <strong>Público</strong><br /> </td> 
    <td> Profissionais de marketing que desejam manter a flexibilidade para usar os componentes do HTML em combinação com os recursos de arrastar e soltar<br /> </td> 
    <td> Os profissionais de marketing já usam o Experience Manager que desejam usar modelos de email padrão com pouca personalização<br /> </td> 
    <td> Desenvolvedores que desejam codificar o conteúdo do email e integrar-se diretamente ao Adobe Campaign<br /> </td> 

@@ -1,6 +1,6 @@
 ---
 title: Provisionamento e configuração da integração com o Audience Manager ou o Serviço principal de pessoas
-description: 'Saiba como configurar a integração do serviço principal de Pessoas/Audience Manager para começar a compartilhar públicos ou segmentos com as diferentes soluções da Adobe Experience Cloud. '
+description: Saiba como configurar a integração do serviço principal de Pessoas/Audience Manager para começar a compartilhar públicos ou segmentos com as diferentes soluções da Adobe Experience Cloud.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service

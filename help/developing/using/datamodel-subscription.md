@@ -10,7 +10,7 @@ exl-id: cf0fac4e-59fd-4d6e-a411-41361f45938d
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '79'
-ht-degree: 15%
+ht-degree: 32%
 
 ---
 
@@ -23,18 +23,18 @@ ht-degree: 15%
         <th>Nome</th>
         <th>Rótulo</th>
         <th>Tipo (comprimento)</th>
-        <th>Valores de enumeração</th>
+        <th>Valores de lista discriminada</th>
     </tr>
     <tr>
         <td>PKey</td>
         <td>ID de recurso principal</td>
-        <td>string </td>
+        <td>sequência de caracteres </td>
         <td> </td>
     </tr>
     <tr>
         <td>ctx</td>
         <td>Contexto do evento</td>
-        <td>item </td>
+        <td>Item </td>
         <td> </td>
     </tr>
     <tr>
@@ -45,7 +45,7 @@ ht-degree: 15%
     </tr>
     <tr>
         <td>emailFormat</td>
-        <td>Formato de email</td>
+        <td>Formato do email</td>
         <td>enumeração (byte) </td>
         <td>
             <ul>
@@ -59,7 +59,7 @@ ht-degree: 15%
     <tr>
         <td>eventHistoId</td>
         <td>ID de evento arquivada</td>
-        <td>integer </td>
+        <td>inteiro </td>
         <td> </td>
     </tr>
     <tr>
@@ -71,7 +71,7 @@ ht-degree: 15%
     <tr>
         <td>serverUrl</td>
         <td>ServerUrl</td>
-        <td>string </td>
+        <td>sequência de caracteres </td>
         <td> </td>
     </tr>
 </table>
@@ -87,7 +87,7 @@ Por email (por email)
     </tr>
     <tr>
     <td>email</td>
-    <td>string</td>
+    <td>sequência de caracteres</td>
     </tr>
 </table>
 
@@ -103,7 +103,7 @@ Por status ou tipo (byStatusOrType)
         <td>enumeração</td>
         </tr>
         <tr>
-        <td>type</td>
-        <td>string</td>
+        <td>tipo</td>
+        <td>sequência de caracteres</td>
         </tr>
     </table>

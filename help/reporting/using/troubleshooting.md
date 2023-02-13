@@ -116,7 +116,7 @@ Os relatórios devem ter a seguinte aparência:
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>Delivery</strong> <br /> </th> 
+   <th align="center"> <strong>Entrega</strong> <br /> </th> 
    <th align="center"> <strong>Sent</strong> <br /> </th> 
    <th align="center"> <strong>Entregue</strong> <br /> </th>
    <th align="center"> <strong>Aberturas</strong> <br /> </th> 
@@ -127,28 +127,28 @@ Os relatórios devem ter a seguinte aparência:
   <tr> 
    <td align="center"> <strong>R1</strong><br/> </td> 
    <td align="center"> <strong>100</strong><br/> </td> 
-   <td align="center"> <strong>90º</strong><br/> </td> 
-   <td align="center"> <strong>10º</strong><br/> </td> 
+   <td align="center"> <strong>90</strong><br/> </td> 
+   <td align="center"> <strong>10</strong><br/> </td> 
    <td align="center"> <strong>3</strong><br/> </td> 
   </tr> 
   <tr> 
    <td align="center"> RC1<br/> </td> 
-   <td align="center"> 20º<br /> </td> 
-   <td align="center"> 20º<br /> </td> 
+   <td align="center"> 20<br /> </td> 
+   <td align="center"> 20<br /> </td> 
    <td align="center"> 6<br /> </td> 
    <td align="center"> 1<br /> </td> 
   </tr>
     <tr> 
    <td align="center"> RC2<br /> </td> 
-   <td align="center"> 40º<br /> </td> 
-   <td align="center"> 30º<br /> </td> 
+   <td align="center"> 40<br /> </td> 
+   <td align="center"> 30<br /> </td> 
    <td align="center"> 2<br /> </td> 
    <td align="center"> 1<br /> </td> 
   </tr> 
     <tr> 
    <td align="center"> RC3<br /> </td> 
-   <td align="center"> 40º<br /> </td> 
-   <td align="center"> 40º<br /> </td> 
+   <td align="center"> 40<br /> </td> 
+   <td align="center"> 40<br /> </td> 
    <td align="center"> 2<br /> </td> 
    <td align="center"> 1<br /> </td> 
   </tr> 

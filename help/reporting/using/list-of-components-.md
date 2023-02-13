@@ -1,5 +1,5 @@
 ---
-title: 'Lista de componentes '
+title: Lista de componentes
 description: Encontre aqui a lista de todos os componentes disponíveis em Relatórios dinâmicos, bem como suas definições.
 audience: reporting
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1271'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ Para saber mais sobre a compatibilidade entre dimensões e métricas, consulte e
 
 [![imagem](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
 
-## Dimension {#dimensions}
+## Dimensões {#dimensions}
 
 A tabela abaixo fornece a lista de dimensões usadas nos relatórios e suas definições.
 
@@ -86,7 +86,7 @@ A tabela abaixo fornece a lista de dimensões usadas nos relatórios e suas defi
    <td> Reagrupa campos prontos para uso e de perfil personalizados criados durante a extensão de recurso de perfil. Para obter mais informações, consulte <a href="../../developing/using/key-steps-to-add-a-resource.md">página</a> ou <a href="../../reporting/using/creating-a-custom-profile-dimension.md">exemplo</a>.<br /> Observe que os dados dessa dimensão são recuperados assim que o recurso personalizado vinculado ao campo de perfil é publicado.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Plataforma por push<br /> </td> 
+   <td> Plataforma de push<br /> </td> 
    <td> Plataforma do dispositivo do qual a notificação por push foi aberta, como iOS ou Android.<br /> </td> 
   </tr> 
   <tr> 

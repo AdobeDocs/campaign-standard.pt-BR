@@ -10,7 +10,7 @@ exl-id: b05dc67a-6447-4d22-99f2-8a14a0ee46d2
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 22%
+ht-degree: 37%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 22%
                   <th>Nome</th>
                   <th>Rótulo</th>
                   <th>Tipo (comprimento)</th>
-                  <th>Valores de enumeração</th>
+                  <th>Valores de lista discriminada</th>
                </tr>
                <tr>
                   <td>PKey</td>
                   <td>ID de recurso principal</td>
-                  <td>string </td>
+                  <td>sequência de caracteres </td>
                   <td> </td>
                </tr>
                <tr>
@@ -46,13 +46,13 @@ ht-degree: 22%
                <tr>
                   <td>criado</td>
                   <td>Criado</td>
-                  <td>data </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Criado por</td>
-                  <td>link </td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
@@ -64,13 +64,13 @@ ht-degree: 22%
                <tr>
                   <td>end</td>
                   <td>Data final</td>
-                  <td>data </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unidade geográfica</td>
-                  <td>link </td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
@@ -94,12 +94,12 @@ ht-degree: 22%
                <tr>
                   <td>lastModified</td>
                   <td>Última modificação</td>
-                  <td>data </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>logicalStatus</td>
-                  <td>Status de execução</td>
+                  <td>Status da execução</td>
                   <td>enumeration (string) (255)</td>
                   <td>
                      <ul>
@@ -114,8 +114,8 @@ ht-degree: 22%
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
-                  <td>Modificado por</td>
-                  <td>link </td>
+                  <td>Modificação por</td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
@@ -127,25 +127,25 @@ ht-degree: 22%
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Entidade organizacional</td>
-                  <td>link </td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>parent (programBase)</td>
                   <td>Programa pai</td>
-                  <td>link </td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>realtimeReport</td>
                   <td>Relatórios em tempo real</td>
-                  <td>item </td>
+                  <td>Item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>start</td>
-                  <td>Data de início</td>
-                  <td>data </td>
+                  <td>Data inicial</td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -164,7 +164,7 @@ ht-degree: 22%
                <tr>
                   <td>modelo (programa)</td>
                   <td>Modelo de programa</td>
-                  <td>link </td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
@@ -205,7 +205,7 @@ Por nome ou rótulo (byText)
     </tr>
     <tr>
     <td>texto</td>
-    <td>string</td>
+    <td>sequência de caracteres</td>
     </tr>
 </table>
 
@@ -218,11 +218,11 @@ Por período (porPeríodo)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>data</td>
+    <td>date</td>
     </tr>
     <tr>
     <td>timePeriod</td>
-    <td>string</td>
+    <td>sequência de caracteres</td>
     </tr>
 </table>
 
@@ -261,7 +261,7 @@ Apenas os pais elegíveis (eligibleParents)
     </tr>
     <tr>
     <td>Programa do </td>
-    <td>link</td>
+    <td>Link </td>
     </tr>
 </table>
 
@@ -274,11 +274,11 @@ Planejado para o período especificado (byPlanning)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>data</td>
+    <td>date</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>data</td>
+    <td>date</td>
     </tr>
 </table>
 
@@ -291,10 +291,10 @@ Apresentar durante um determinado período (porCalendário)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>data</td>
+    <td>date</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>data</td>
+    <td>date</td>
     </tr>
 </table>

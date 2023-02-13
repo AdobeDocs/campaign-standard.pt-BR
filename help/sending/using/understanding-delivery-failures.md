@@ -75,7 +75,7 @@ Os possíveis motivos para uma falha de delivery são:
 
 
 **Tópicos relacionados:**
-* [Devoluções permanentes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [Devoluções permanentes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=pt-BR#hard-bounces)
 * [Devoluções temporárias](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## Tentativas após uma falha temporária de entrega {#retries-after-a-delivery-temporary-failure}

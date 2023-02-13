@@ -45,7 +45,7 @@ Seu público-alvo agora é importado no banco de dados do Adobe Campaign. O proc
 
 >[!NOTE]
 >
->Se você estiver importando públicos do Adobe Analytics para o Adobe Campaign, esses públicos precisam primeiro ser compartilhados no Serviço principal de pessoas ou no Audience Manager. Esse processo leva de 12 a 24 horas, e deve ser adicionado ao tempo de sincronização de 24 a 36 horas com o Campaign. Nesse caso específico, o período de compartilhamento de público pode durar até 60 horas. Para obter mais informações sobre o compartilhamento de público do Adobe Analytics no Serviço Principal de Pessoas e no Audience Manager, consulte esta [documentação](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
+>Se você estiver importando públicos do Adobe Analytics para o Adobe Campaign, esses públicos precisam primeiro ser compartilhados no Serviço principal de pessoas ou no Audience Manager. Esse processo leva de 12 a 24 horas, e deve ser adicionado ao tempo de sincronização de 24 a 36 horas com o Campaign. Nesse caso específico, o período de compartilhamento de público pode durar até 60 horas. Para obter mais informações sobre o compartilhamento de público do Adobe Analytics no Serviço Principal de Pessoas e no Audience Manager, consulte esta [documentação](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=pt-BR).
 
 ## Exportação de um público-alvo {#exporting-an-audience}
 

@@ -1,5 +1,5 @@
 ---
-title: Configuração de regras de tags para suportar casos de uso do Adobe Campaign Standard
+title: Configuração das regras de tag para oferecer suporte a casos de uso do Adobe Campaign Standard
 description: Saiba como configurar regras de tags para suportar casos de uso do Adobe Campaign Standard
 audience: channels
 content-type: reference
@@ -12,11 +12,11 @@ exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '998'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
-# Configuração de regras de tags para suportar casos de uso do Adobe Campaign Standard {#configuring-rules-launch}
+# Configuração das regras de tag para oferecer suporte a casos de uso do Adobe Campaign Standard {#configuring-rules-launch}
 
 Na interface do usuário da coleta de dados, crie elementos e regras de dados para enviar PII e outros dados de aplicativos móveis para [!DNL Adobe Campaign Standard].
 

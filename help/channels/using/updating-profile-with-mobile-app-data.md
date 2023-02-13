@@ -69,8 +69,8 @@ As principais etapas para criar o workflow são:
 
 Os seguintes requisitos são assumidos neste workflow:
 
-* Any/All fields that have been extended should be available to create/update the Profile Table.
-* The Profile table can be extended to support fields that are not natively supported (for example, T-Shirt Size).
+* Todos os campos/Todos que foram estendidos devem estar disponíveis para criar/atualizar a Tabela de perfil.
+* A tabela Perfil pode ser estendida para oferecer suporte a campos que não são nativamente aceitos (por exemplo, Tamanho da camisa T).
 * Qualquer campo da tabela AppSubscription que esteja em branco não deve ser atualizado na Tabela de perfis.
 * Qualquer registro que tenha sido atualizado na tabela AppSubscription deve ser incluído na próxima execução do fluxo de trabalho.
 

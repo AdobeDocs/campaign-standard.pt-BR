@@ -1,6 +1,6 @@
 ---
 title: Acessar mensagens
-description: '"Saiba como acessar mensagens e suas funcionalidades avançadas: criação, direcionamento, personalização, execução e relatórios."'
+description: "Saiba como acessar mensagens e suas funcionalidades avançadas: criação, direcionamento, personalização, execução e relatórios."
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels

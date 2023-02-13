@@ -99,7 +99,7 @@ O delivery será enviado progressivamente para todos os recipients alvos por cin
 >
 >Certifique-se de que todas as datas estejam no futuro ao confirmar o envio. Caso contrário, a mensagem será enviada assim que o envio for confirmado.
 
-## Uso de uma expressão {#using-an-expression}
+## Usar uma expressão {#using-an-expression}
 
 A otimização de tempo de envio também é útil para campanhas que envolvam uma central de atendimento. Você pode garantir que todas as mensagens não sejam recebidas ao mesmo tempo. Isso permite que sua organização processe o número de chamadas de acordo com sua capacidade.
 

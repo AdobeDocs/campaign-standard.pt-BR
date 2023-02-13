@@ -68,7 +68,7 @@ Como regra geral, você não deve tentar impedir os recipients que desejam recus
 
 Solicitar confirmação adicional não é confiável: um usuário pode ter dois endereços de email redirecionados para a mesma caixa (por exemplo: firstname.lastname@club.com e firstname.lastname@internet-club.com). Se o perfil conseguir lembrar somente o primeiro endereço e desejar cancelar a assinatura por meio de uma mensagem enviada para o outro, o formulário recusará essa ação, pois o identificador criptografado e o endereço de email inserido não corresponderão.
 
-## Análise antisspam {#anti-spam-analysis}
+## Análise anti-spam {#anti-spam-analysis}
 
 O editor de mensagens da Adobe Campaign integra um **Análise antisspam** O que permite que você marque emails para determinar se uma mensagem corre o risco de ser considerada spam pelas ferramentas antisspam usadas no recebimento. Para obter mais informações, consulte [Pré-visualização de mensagens](../../sending/using/previewing-messages.md).
 

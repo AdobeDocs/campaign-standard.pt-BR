@@ -1,5 +1,5 @@
 ---
-title: 'Conversão do Editor herdado de email para o Email Designer '
+title: Conversão do Editor herdado de email para o Email Designer
 description: Saiba como usar emails criados no Editor herdado Email para o Designer de email.
 audience: designing
 content-type: reference

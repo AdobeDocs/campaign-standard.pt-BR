@@ -19,7 +19,7 @@ ht-degree: 98%
 
 ![](assets/do-not-localize/cp-icon.png) **Nova versão de junho do Painel de controle do Campaign** com monitoramento de perfis ativos, auditoria de entregabilidade de subdomínio e gerenciamento de chaves GPG. [Saiba mais](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=pt-BR).
 
-![](assets/do-not-localize/cp-icon.png) **Nova versão de outubro do Painel de controle do Campaign** com configuração de domínio usando CNAMEs e novos recursos de monitoramento de banco de dados. [Saiba mais](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nova versão de outubro do Painel de controle do Campaign** com configuração de domínio usando CNAMEs e novos recursos de monitoramento de banco de dados. [Saiba mais](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=pt-BR).
 
 ## Versão 20.4 - Outubro de 2020 {#release-20-4---october-2020}
 
@@ -289,7 +289,7 @@ ht-degree: 98%
 * Correção de um erro que impedia que os usuários fizessem alterações nos relatórios. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **O novo Painel de controle do Campaign pode ser lançado** com a renovação do certificado para subdomínios CNAME. [Saiba mais](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **O novo Painel de controle do Campaign pode ser lançado** com a renovação do certificado para subdomínios CNAME. [Saiba mais](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=pt-BR).
 
 ## Versão 20.2 - Abril de 2020 {#release-20-2---april-2020}
 
@@ -318,7 +318,7 @@ ht-degree: 98%
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Além de testar perfis, agora você pode testar seus emails em perfis direcionados reais. Você pode obter uma representação exata da mensagem que o perfil receberá: campos personalizados, informações dinâmicas e personalizadas, incluindo dados adicionais de workflows etc. </p>
+   <td> <p>Além dos perfis de teste, agora você pode testar seus emails em perfis direcionados reais. Você pode obter uma representação exata da mensagem que o perfil receberá: campos personalizados, informações dinâmicas e personalizadas, incluindo dados adicionais de workflows etc. </p>
     <p>Para obter mais informações, consulte a <a href="../../sending/using/testing-messages-using-target.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">vídeo tutorial</a>. </p>
    </td> 
   </tr> 
@@ -327,13 +327,13 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->Novos recursos serão lançados no Painel de controle do Campaign em abril, incluindo o gerenciamento de registros do Google TXT, monitoramento de espaço do banco de dados e alertas de email. Para obter mais informações sobre esses recursos, consulte a [Nota de versão do Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
+>Novos recursos serão lançados no Painel de controle do Campaign em abril, incluindo o gerenciamento de registros do Google TXT, monitoramento de espaço do banco de dados e alertas de email. Para obter mais informações sobre esses recursos, consulte a [Nota de versão do Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=pt-BR).
 
 **Aprimoramentos**
 
 * A experiência do usuário de mensagens transacionais foi aprimorada, e a consistência da interface foi aprimorada. [Leia mais](../../channels/using/getting-started-with-transactional-msg.md)
 * O Campaign Standard agora permite enviar provas para perfis de Teste usando dados adicionais de workflows.
-* As garantias para a atividade API externa foram atualizadas. [Leia mais](../../automating/using/external-api.md)
+* As medidas de proteção para a atividade API externa foram atualizadas. [Leia mais](../../automating/using/external-api.md)
 
 **Aprimoramentos do Email Designer**
 

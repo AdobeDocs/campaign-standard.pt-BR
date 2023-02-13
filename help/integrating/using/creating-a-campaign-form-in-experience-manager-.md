@@ -1,5 +1,5 @@
 ---
-title: 'Criação de um formulário do Campaign no Experience Manager '
+title: Criação de um formulário do Campaign no Experience Manager
 description: Com a integração do Adobe Experience Manager, você pode criar formulários diretamente no AEM para criar e atualizar perfis ou gerenciar assinaturas.
 audience: integrating
 content-type: reference

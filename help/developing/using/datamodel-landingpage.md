@@ -12,7 +12,7 @@ exl-id: bd12a214-5998-4fb9-9f54-0c886067b58b
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '1728'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 3%
          <th>Nome</th>
          <th>Rótulo</th>
          <th>Tipo (comprimento)</th>
-         <th>Valores de enumeração</th>
+         <th>Valores de lista discriminada</th>
       </tr>
       <tr>
          <td>PKey</td>
          <td>ID de recurso principal</td>
-         <td>string </td>
+         <td>sequência de caracteres </td>
          <td> </td>
       </tr>
       <tr>
@@ -41,8 +41,8 @@ ht-degree: 3%
       </tr>
       <tr>
          <td>additionalLanguages</td>
-         <td>Outras línguas</td>
-         <td>item </td>
+         <td>Outros idiomas</td>
+         <td>Item </td>
          <td> </td>
       </tr>
       <tr>
@@ -54,7 +54,7 @@ ht-degree: 3%
       <tr>
          <td>marca (brandingBase)</td>
          <td>Marca</td>
-         <td>link </td>
+         <td>Link  </td>
          <td> </td>
       </tr>
       <tr>
@@ -66,37 +66,37 @@ ht-degree: 3%
       <tr>
          <td>cache</td>
          <td>Cache</td>
-         <td>string </td>
+         <td>sequência de caracteres </td>
          <td> </td>
       </tr>
       <tr>
          <td>campaign (campaignBase)</td>
          <td>Campanha</td>
-         <td>link </td>
+         <td>Link  </td>
          <td> </td>
       </tr>
       <tr>
          <td>closedLog</td>
          <td>Registro de "Landing page closed"</td>
-         <td>string </td>
+         <td>sequência de caracteres </td>
          <td> </td>
       </tr>
       <tr>
          <td>contextResourceType</td>
          <td>ContextResourceType</td>
-         <td>string </td>
+         <td>sequência de caracteres </td>
          <td> </td>
       </tr>
       <tr>
          <td>criado</td>
          <td>Criado</td>
-         <td>data </td>
+         <td>date </td>
          <td> </td>
       </tr>
       <tr>
          <td>createdBy (userBase)</td>
          <td>Criado por</td>
-         <td>link </td>
+         <td>Link  </td>
          <td> </td>
       </tr>
       <tr>
@@ -162,7 +162,7 @@ ht-degree: 3%
       <tr>
          <td>defaultOrigin (delivery)</td>
          <td>Fonte de tráfego</td>
-         <td>link </td>
+         <td>Link  </td>
          <td> </td>
       </tr>
       <tr>
@@ -234,25 +234,25 @@ ht-degree: 3%
       <tr>
          <td>end</td>
          <td>Data de validade</td>
-         <td>data </td>
+         <td>date </td>
          <td> </td>
       </tr>
       <tr>
          <td>errorContextResourceType</td>
          <td>ErrorContextResourceType</td>
-         <td>string </td>
+         <td>sequência de caracteres </td>
          <td> </td>
       </tr>
       <tr>
          <td>errorPage</td>
          <td>Página de erro</td>
-         <td>item </td>
+         <td>Item </td>
          <td> </td>
       </tr>
       <tr>
          <td>geoUnit (geoUnitBase)</td>
          <td>Unidade geográfica</td>
-         <td>link </td>
+         <td>Link  </td>
          <td> </td>
       </tr>
       <tr>
@@ -287,7 +287,7 @@ ht-degree: 3%
       </tr>
       <tr>
          <td>trabalho</td>
-         <td>Tarefa</td>
+         <td>Processo</td>
          <td>coleção </td>
          <td> </td>
       </tr>
@@ -306,13 +306,13 @@ ht-degree: 3%
       <tr>
          <td>lastModified</td>
          <td>Última modificação</td>
-         <td>data </td>
+         <td>date </td>
          <td> </td>
       </tr>
       <tr>
          <td>loadingFilter (queryFilterBase)</td>
          <td>Chave de carregamento</td>
-         <td>link </td>
+         <td>Link  </td>
          <td> </td>
       </tr>
       <tr>
@@ -323,7 +323,7 @@ ht-degree: 3%
       </tr>
       <tr>
          <td>logicalStatus</td>
-         <td>Status de execução</td>
+         <td>Status da execução</td>
          <td>enumeration (string) (255)</td>
          <td>
             <ul>
@@ -345,13 +345,13 @@ ht-degree: 3%
       <tr>
          <td>messageActionDelivery (deliveryMCTemplateBase)</td>
          <td>Mensagem transacional</td>
-         <td>link </td>
+         <td>Link  </td>
          <td> </td>
       </tr>
       <tr>
          <td>modifiedBy (userBase)</td>
-         <td>Modificado por</td>
-         <td>link </td>
+         <td>Modificação por</td>
+         <td>Link  </td>
          <td> </td>
       </tr>
       <tr>
@@ -363,7 +363,7 @@ ht-degree: 3%
       <tr>
          <td>orgUnit (orgUnitBase)</td>
          <td>Entidade organizacional</td>
-         <td>link </td>
+         <td>Link  </td>
          <td> </td>
       </tr>
       <tr>
@@ -375,25 +375,25 @@ ht-degree: 3%
       <tr>
          <td>program (programBase)</td>
          <td>Programa</td>
-         <td>link </td>
+         <td>Link  </td>
          <td> </td>
       </tr>
       <tr>
          <td>publicUrl</td>
          <td>URL público</td>
-         <td>string </td>
+         <td>sequência de caracteres </td>
          <td> </td>
       </tr>
       <tr>
          <td>publishDate</td>
          <td>Data de publicação</td>
-         <td>data </td>
+         <td>date </td>
          <td> </td>
       </tr>
       <tr>
          <td>reconciliationFilter (queryFilterBase)</td>
          <td>Chave de reconciliação</td>
-         <td>link </td>
+         <td>Link  </td>
          <td> </td>
       </tr>
       <tr>
@@ -417,7 +417,7 @@ ht-degree: 3%
       <tr>
          <td>service (serviceBase)</td>
          <td>Serviço de assinatura</td>
-         <td>link </td>
+         <td>Link  </td>
          <td> </td>
       </tr>
       <tr>
@@ -437,7 +437,7 @@ ht-degree: 3%
       <tr>
          <td>start</td>
          <td>Data de implantação</td>
-         <td>data </td>
+         <td>date </td>
          <td> </td>
       </tr>
       <tr>
@@ -463,13 +463,13 @@ ht-degree: 3%
       <tr>
          <td>modelo (landingPage)</td>
          <td>Modelo de página de aterrissagem</td>
-         <td>link </td>
+         <td>Link  </td>
          <td> </td>
       </tr>
       <tr>
          <td>testUrl</td>
          <td>URL de teste</td>
-         <td>string </td>
+         <td>sequência de caracteres </td>
          <td> </td>
       </tr>
       <tr>
@@ -620,11 +620,11 @@ ht-degree: 3%
       <tr>
          <td>trackingUrlName</td>
          <td>Nome do URL de rastreamento</td>
-         <td>string </td>
+         <td>sequência de caracteres </td>
          <td> </td>
       </tr>
       <tr>
-         <td>type</td>
+         <td>tipo</td>
          <td>Tipo</td>
          <td>enumeração (byte) </td>
          <td>
@@ -641,12 +641,12 @@ ht-degree: 3%
       <tr>
          <td>uuid</td>
          <td>ID de segurança</td>
-         <td>string </td>
+         <td>sequência de caracteres </td>
          <td> </td>
       </tr>
       <tr>
          <td>webTrackingEnabled</td>
-         <td>Ativar o rastreamento Web</td>
+         <td>Habilitar rastreamento web</td>
          <td>booleano </td>
          <td> </td>
       </tr>
@@ -676,7 +676,7 @@ Por nome ou rótulo (byText)
     </tr>
     <tr>
     <td>texto</td>
-    <td>string</td>
+    <td>sequência de caracteres</td>
     </tr>
 </table>
 
@@ -702,7 +702,7 @@ Por recurso de direcionamento (byTargetResource)
 </tr>
 <tr>
 <td>targetResource</td>
-<td>string</td>
+<td>sequência de caracteres</td>
 </tr>
 </table>
 
@@ -741,11 +741,11 @@ Apresentar durante um determinado período (porCalendário)
         </tr>
         <tr>
         <td>startDate</td>
-        <td>data</td>
+        <td>date</td>
         </tr>
         <tr>
         <td>endDate</td>
-        <td>data</td>
+        <td>date</td>
         </tr>
     </table>
 
@@ -758,10 +758,10 @@ Publicado durante um determinado período (peloPlanning)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>data</td>
+    <td>date</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>data</td>
+    <td>date</td>
     </tr>
 </table>

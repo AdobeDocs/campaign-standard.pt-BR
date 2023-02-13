@@ -1,6 +1,6 @@
 ---
 title: Exclusão de um recurso
-description: 'Saiba como excluir um recurso '
+description: Saiba como excluir um recurso
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
@@ -11,7 +11,7 @@ exl-id: 4ddfdbcc-a154-4c10-a97e-73ad888d1f1f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 

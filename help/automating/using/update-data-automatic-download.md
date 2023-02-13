@@ -1,6 +1,6 @@
 ---
 title: Atualização de dados com base em um download automático de arquivo
-description: 'O exemplo a seguir mostra o resultado de uma atividade de carregamento de arquivo baixada automaticamente por meio de uma atividade de transferência de arquivo, seguida por uma atividade de atualização de dados. '
+description: O exemplo a seguir mostra o resultado de uma atividade de carregamento de arquivo baixada automaticamente por meio de uma atividade de transferência de arquivo, seguida por uma atividade de atualização de dados.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities

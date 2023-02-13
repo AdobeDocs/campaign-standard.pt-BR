@@ -27,20 +27,20 @@ As regras de controle permitem verificar a validade e a qualidade das mensagens 
 
 Um conjunto de regras padrão garante os controles padrão. A tabela abaixo fornece informações sobre essas regras, bem como seu canal relacionado e [fases de execução](#control-rules-execution-phases).
 
-| Rótulo | Canal  | Fase de execução | Descrição |
+| Rótulo | Canal | Fase de execução | Descrição |
 |---------|----------|---------|---------|
 | **[!UICONTROL A/B Test]** | Email | At the start of personalization | Extrai a população de teste para um delivery com um teste A/B. |
 | **[!UICONTROL Check delivery size]** | Todos | After targeting | Verifica o tamanho das mensagens. |
-| **[!UICONTROL Check email content is not empty]** | Email | Depois do direcionamento | Gera um erro se o conteúdo da mensagem estiver vazio. |
+| **[!UICONTROL Check email content is not empty]** | Email | After targeting | Gera um erro se o conteúdo da mensagem estiver vazio. |
 | **[!UICONTROL Check In-App content for broadcast template]** | No aplicativo | No início da personalização | Verifica se o conteúdo/acionadores no aplicativo não estão vazios para o modelo de transmissão. |
-| **[!UICONTROL Check In-App content for profile template]** | No aplicativo | No início da personalização | Verifica se o conteúdo / acionadores no aplicativo não estão vazios para o modelo de perfil. |
-| **[!UICONTROL Check In-App content for subscriber template]** | No aplicativo | No início da personalização | Verifica se o conteúdo/acionadores no aplicativo não estão vazios para o modelo do assinante. |
-| **[!UICONTROL Check proof size]** | Todos | Depois do direcionamento | Gera uma mensagem de erro se a população do target de prova exceder 100 recipients. |
-| **[!UICONTROL Check social network sharing link]** | Email | No início da personalização | Verifica a presença de um link para uma mirror page ao incluir um link de compartilhamento de rede social (ViralLinks) no conteúdo. |
-| **[!UICONTROL Check subject]** | Email | No início da personalização | Verifica se o assunto e o endereço do remetente não contêm caracteres especiais que podem causar problemas em determinados agentes de transferência de email e verifica se o assunto da mensagem foi concluído. |
-| **[!UICONTROL Check unsubscription link]** | Email | No início da personalização | Verifica a presença de pelo menos um URL de cancelamento de subscrição (opt-out) em cada conteúdo (HTML e Text). |
-| **[!UICONTROL Check URL labels]** | Email | No início da personalização | Verifica se cada URL de rastreamento tem um rótulo. |
-| **[!UICONTROL Check URLs]** | Email | No início da personalização | Verifica as URLs de rastreamento (presença do caractere &quot;&amp;&quot;). |
+| **[!UICONTROL Check In-App content for profile template]** | No aplicativo | At the start of personalization | Verifica se o conteúdo / acionadores no aplicativo não estão vazios para o modelo de perfil. |
+| **[!UICONTROL Check In-App content for subscriber template]** | No aplicativo | At the start of personalization | Verifica se o conteúdo/acionadores no aplicativo não estão vazios para o modelo do assinante. |
+| **[!UICONTROL Check proof size]** | Todos | After targeting | Gera uma mensagem de erro se a população do target de prova exceder 100 recipients. |
+| **[!UICONTROL Check social network sharing link]** | Email | At the start of personalization | Verifica a presença de um link para uma mirror page ao incluir um link de compartilhamento de rede social (ViralLinks) no conteúdo. |
+| **[!UICONTROL Check subject]** | Email | At the start of personalization | Verifica se o assunto e o endereço do remetente não contêm caracteres especiais que podem causar problemas em determinados agentes de transferência de email e verifica se o assunto da mensagem foi concluído. |
+| **[!UICONTROL Check unsubscription link]** | Email | At the start of personalization | Verifica a presença de pelo menos um URL de cancelamento de subscrição (opt-out) em cada conteúdo (HTML e Text). |
+| **[!UICONTROL Check URL labels]** | Email | At the start of personalization | Verifica se cada URL de rastreamento tem um rótulo. |
+| **[!UICONTROL Check URLs]** | Email | At the start of personalization | Verifica as URLs de rastreamento (presença do caractere &quot;&amp;&quot;). |
 
 ## Fases de execução das regras de controle {#control-rules-execution-phases}
 

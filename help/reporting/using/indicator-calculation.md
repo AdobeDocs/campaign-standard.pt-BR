@@ -229,7 +229,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Rótulo</strong> <br /> </th> 
+   <th> <strong>Label</strong> <br /> </th> 
    <th> <strong>Nome do campo</strong> <br /> </th> 
    <th> <strong>Fórmula do cálculo de indicador</strong> <br /> </th> 
   </tr> 
@@ -303,7 +303,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Rótulo</strong> <br /> </th> 
+   <th> <strong>Label</strong> <br /> </th> 
    <th> <strong>Nome do campo</strong> <br /> </th> 
    <th> <strong>Fórmula do cálculo de indicador</strong> <br /> </th> 
    <th> <strong>Comentários</strong><br /> </th> 

@@ -1,6 +1,6 @@
 ---
 title: Personalização de listas
-description: '"Saiba como personalizar a exibição e atuar em telas de lista no Adobe Campaign Standard: classificação, filtragem, exclusão ou duplicação de elementos. Lista as telas que exibem elementos de um ou vários recursos especificados."'
+description: "Saiba como personalizar a exibição e atuar em telas de lista no Adobe Campaign Standard: classificação, filtragem, exclusão ou duplicação de elementos. Lista as telas que exibem elementos de um ou vários recursos especificados."
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -26,7 +26,7 @@ O Adobe Campaign tem dois tipos de listas:
 
 As listas são exibidas em colunas. Cada coluna pode ser classificada em ordem crescente ou decrescente, uma de cada vez.
 
-Os elementos de uma lista têm uma caixa de seleção que permite selecioná-los. Ao selecionar um ou vários elementos, você pode realizar várias ações, como editar, duplicar e excluir esses elementos.
+Os elementos de uma lista têm uma caixa de seleção que permite selecioná-los. Ao selecionar um ou vários elementos, é possível realizar várias ações, como editar, duplicar e excluir esses elementos.
 
 Ao passar o cursor do mouse sobre um elemento da lista, **ações rápidas**. Essas ações permitem que o usuário execute várias ações no elemento focalizado, como editar, selecionar, excluir ou mostrar detalhes.
 

@@ -1,13 +1,13 @@
 ---
 title: Personalização de listas
-description: '"Saiba como personalizar a exibição e atuar em telas de lista no Adobe Campaign Standard: classificação, filtragem, exclusão ou duplicação de elementos. Lista as telas que exibem elementos de um ou vários recursos especificados."'
+description: "Saiba como personalizar a exibição e atuar em telas de lista no Adobe Campaign Standard: classificação, filtragem, exclusão ou duplicação de elementos. Lista as telas que exibem elementos de um ou vários recursos especificados."
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 6%
+ht-degree: 23%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 6%
 
 <img width="60px" alt="condições" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consagrtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Lácula de inteiros do luctus blandit. Nulla quis vehicula augue, lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris sactetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique ceri sagru, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Lácula de inteiros do luctus blandit. Nulla quis vehicula augue, lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris sactetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique ceri sagru, pulvinar elementum dui.
 
 **Leia mais**
 
@@ -56,7 +56,7 @@ Lorem ipsum dolor sit amet, consagrtetur adipiscing elit. Vestibulum placerat ma
 
 <img width="60px" alt="condições" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consagrtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Lácula de inteiros do luctus blandit. Nulla quis vehicula augue, lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris sactetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique ceri sagru, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Lácula de inteiros do luctus blandit. Nulla quis vehicula augue, lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris sactetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique ceri sagru, pulvinar elementum dui.
 
 **Leia mais**
 
@@ -90,13 +90,13 @@ As mensagens personalizadas são fundamentais para enviar conteúdo relevante, o
 
 <img width="60px" alt="condições" src="assets/icon_profile.svg"/>
 
-Além de modelos de relatórios avançados e prontos para uso, o Adobe Campaign permite criar relatórios personalizados em um delivery, campanha, usuário ou nível de segmento. Acompanhe suas mensagens e entenda o comportamento dos clientes, enriquecendo progressivamente os dados de perfil. As ferramentas de análise e geração de relatórios permitem capitalizar cada nova campanha, melhor direcionar suas ações de marketing e otimizar seu impacto e retorno sobre o investimento.
+Além de modelos de relatórios avançados e prontos para uso, o Adobe Campaign permite criar relatórios personalizados em nível de delivery, campanha, usuário ou segmento. Acompanhe suas mensagens e entenda o comportamento dos clientes, enriquecendo progressivamente os dados de perfil. As ferramentas de análise e geração de relatórios permitem capitalizar cada nova campanha, melhor direcionar suas ações de marketing e otimizar seu impacto e retorno sobre o investimento.
 
 A interface gráfica fornece acesso rápido e fácil aos principais indicadores e estatísticas de delivery.
 
 ![](assets/dynamic_report_intro.png)
 
-A interface do usuário dos relatórios de campanha facilita a criação de relatórios dinâmicos. Você pode usar variáveis de arrastar e soltar para personalizar seus relatórios e analisar o sucesso de suas campanhas. Dependendo da complexidade de suas consultas e cálculos, os dados podem ser agregados em uma exibição de lista ou acessados em um formato que facilita a geração de relatórios de análise de marketing.
+A interface do usuário dos relatórios de campanha facilita a criação de relatórios dinâmicos. Você pode usar variáveis do tipo arrastar e soltar para personalizar seus relatórios e analisar o sucesso de suas campanhas. Dependendo da complexidade de suas consultas e cálculos, os dados podem ser agregados em uma visualização de lista ou acessados em um formato que facilita a geração de relatórios de análise de marketing.
 
 Com o Adobe Campaign, você pode monitorar e rastrear cada delivery individualmente. O painel de mensagens exibe logs dedicados para acompanhar processos, regras e identificar possíveis erros e avisos.
 
@@ -111,7 +111,7 @@ Com o Adobe Campaign, você pode monitorar e rastrear cada delivery individualme
 
 <img width="60px" alt="condições" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consagrtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Lácula de inteiros do luctus blandit. Nulla quis vehicula augue, lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris sactetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique ceri sagru, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Lácula de inteiros do luctus blandit. Nulla quis vehicula augue, lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris sactetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique ceri sagru, pulvinar elementum dui.
 
 **Leia mais**
 

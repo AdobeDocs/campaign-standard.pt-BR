@@ -9,7 +9,7 @@ exl-id: 88684ed6-6d8d-4691-987f-812e7e1d834c
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -30,7 +30,7 @@ Esta é a lista de navegadores compatíveis com o Adobe Campaign Standard:
 * Safari (versão mais recente)
 * Microsoft Edge (versão mais recente)
 
-**Comprimido:**
+**Tablet:**
 
 * iOS (versão 7 e posterior)
 * Android (versão 4.4 e posterior)

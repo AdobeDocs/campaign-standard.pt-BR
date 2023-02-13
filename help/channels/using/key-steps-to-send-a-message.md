@@ -39,7 +39,7 @@ As mensagens podem ser criadas a partir da lista de atividades de marketing ou d
 
 ![](assets/steps-channel.png)
 
-## Definir o público-alvo
+## Definir a audiência
 
 Defina os recipients da mensagem. Para fazer isso, use o [editor de consultas](../../automating/using/editing-queries.md) no painel esquerdo para filtrar os dados contidos no banco de dados e criar regras para direcionar o público-alvo.
 

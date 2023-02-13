@@ -9,7 +9,7 @@ exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
 workflow-type: tm+mt
 source-wordcount: '2681'
-ht-degree: 62%
+ht-degree: 64%
 
 ---
 
@@ -177,7 +177,7 @@ Você pode configurar o formato de emails que serão enviados. Há três opçõe
 
 #### Modo de teste SMTP {#smtp-test-mode}
 
-Use o **[!UICONTROL Enable SMTP test mode]** opção para testar o envio de emails por uma conexão SMTP sem realmente enviar mensagens. O delivery é processado para conexão com o servidor SMTP, mas não é enviado: para cada recipient do delivery, o Campaign se conecta ao servidor do provedor SMTP, executa o comando SMTP RCPT TO e fecha a conexão antes do comando SMTP DATA.
+Use o **[!UICONTROL Enable SMTP test mode]** opção para testar o envio de emails por uma conexão SMTP sem realmente enviar mensagens. A entrega é processada até a conexão com o servidor SMTP, mas não é enviada: para cada destinatário do delivery, o Campaign se conecta ao servidor do provedor SMTP, executa o comando SMTP RCPT TO e encerra a conexão antes do comando SMTP DATA.
 
 ![](assets/smtp-test-mode.png)
 
@@ -314,7 +314,7 @@ O número de tentativas pode ser alterado globalmente (entre em contato com o ad
 
 Por padrão, cinco tentativas são agendadas para o primeiro dia com um intervalo mínimo de uma hora, distribuídas pelas 24 horas do dia. Uma nova tentativa por dia é programada depois disso e até o prazo do delivery, que é definido globalmente na variável **[!UICONTROL Delivery parameters]** da seção **[!UICONTROL Configuration]** ou no **[!UICONTROL Validity period]** no nível do delivery (consulte a seção [Duração do delivery](#legacy-delivery-duration) abaixo).
 
-### Duração do delivery {#legacy-delivery-duration}
+### Duração da entrega {#legacy-delivery-duration}
 
 Use o **[!UICONTROL Message delivery duration]** no [Menu Configuração](#email-channel-parameters) para especificar o período no qual qualquer mensagem no delivery que encontre um erro temporário ou uma rejeição temporária será repetida.
 

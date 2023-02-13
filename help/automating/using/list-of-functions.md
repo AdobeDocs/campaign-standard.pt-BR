@@ -220,7 +220,7 @@ As funções de data são usadas para manipular valores de data ou hora.
   </tr> 
   <tr> 
    <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
-   <td> Converte uma string em uma data + fuso horário.<br /> Example: ToDateTimeWithTimezone ("2019-02-19 08:09:00", "Asia/Tehran")<br /> </td> 
+   <td> Converte uma string em uma data + fuso horário.<br /> Exemplo: ToDateTimeWithTimezone ("2019-02-19 08:09:00", "Ásia/Teerão")<br /> </td> 
    <td> ToDateTimeWithTimezone(&lt;cadeia de caracteres&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -707,7 +707,7 @@ As funções de agregação são usadas para realizar cálculos em um conjunto d
   </tr>
   <tr>
    <td> <strong>StringAgg</strong>, agregação de string<br /> </td>
-   <td> Returns the concatenation of the values of a string type column, separated by the character in the second argument (default separator is comma).<br /> </td>
+   <td> Retorna a concatenação dos valores de uma coluna do tipo string, separada pelo caractere no segundo argumento (o separador padrão é vírgula).<br /> </td>
    <td> StringAgg(&lt;string values=""&gt;,&lt;separator&gt;)
   </tr>
   <tr> 

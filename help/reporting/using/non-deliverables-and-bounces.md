@@ -1,6 +1,6 @@
 ---
 title: Não entregues e devolvidos
-description: 'Com o relatório pronto para uso Non-deliverables and bounces , saiba mais sobre os erros que podem ocorrer no delivery. '
+description: Com o relatório pronto para uso Non-deliverables and bounces , saiba mais sobre os erros que podem ocorrer no delivery.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports

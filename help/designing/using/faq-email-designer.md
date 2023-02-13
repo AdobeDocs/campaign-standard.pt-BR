@@ -1,5 +1,5 @@
 ---
-title: 'Perguntas frequentes sobre o Designer de email '
+title: Perguntas frequentes sobre o Designer de email
 description: Perguntas frequentes sobre o Email Designer.
 audience: designing
 content-type: reference

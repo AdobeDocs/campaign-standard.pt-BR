@@ -11,7 +11,7 @@ exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
 
@@ -23,15 +23,15 @@ As regras de filtragem permitem excluir uma parte do público-alvo da mensagem d
 
 A tabela abaixo fornece informações sobre regras de filtragem prontas para uso, bem como seus canais relacionados.
 
-| Rótulo | Canal  | Descrição |
+| Rótulo | Canal | Descrição |
 | ---------|----------|---------|
 | **[!UICONTROL Address not specified]** | Todos | Exclui o público-alvo sem endereço especificado (email, endereço postal etc.) de acordo com o canal selecionado). |
 | **[!UICONTROL Address on denylist]** | Todos | Exclui endereços que estão na lista de bloqueios. |
 | **[!UICONTROL Duplicate]** | Todos | Exclui duplicatas com base na população do target **[!UICONTROL Address]** campo. |
-| **[!UICONTROL Exclude mobile applications]** | Aplicativo móvel | Exclui assinaturas de aplicativo que não correspondem ao aplicativo móvel definido na mensagem. |
+| **[!UICONTROL Exclude mobile applications]** | Aplicativo para dispositivos móveis | Exclui assinaturas de aplicativo que não correspondem ao aplicativo móvel definido na mensagem. |
 | **[!UICONTROL Exclude mobile applications for In-App]** | No aplicativo | Exclui assinaturas de aplicativo que não correspondem ao aplicativo móvel definido na mensagem (modelo no aplicativo). |
 | **[!UICONTROL Exclude mobile applications for In-App broadcast]** | No aplicativo | Exclui assinaturas de aplicativo que não correspondem ao aplicativo móvel definido na mensagem (modelo de transmissão no aplicativo) |
-| **[!UICONTROL Exclude mobile applications for Push]** | Aplicativo móvel | Exclui assinaturas de aplicativo que não correspondem ao aplicativo móvel definido na mensagem (para Push) |
+| **[!UICONTROL Exclude mobile applications for Push]** | Aplicativo para dispositivos móveis | Exclui assinaturas de aplicativo que não correspondem ao aplicativo móvel definido na mensagem (para Push) |
 | **[!UICONTROL Quarantined address]** | Todos | Exclui endereços em quarentena. |
 | **[!UICONTROL Target limited in size]** | Todos | Verifica se o tamanho máximo de delivery foi atingido para o target. Aplica-se a deliveries de correspondência direta com a opção &quot;limite de delivery&quot; ativada. |
 

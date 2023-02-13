@@ -26,7 +26,7 @@ Essas atividades são específicas para direcionamento, manipulação de dados d
 A seção **[!UICONTROL Targeting]** inclui as seguintes atividades:
 
 * [Consulta](../../automating/using/query.md)
-* [Query incremental](../../automating/using/incremental-query.md)
+* [Consulta incremental](../../automating/using/incremental-query.md)
 * [União](../../automating/using/union.md)
 * [Intersecção](../../automating/using/intersection.md)
 * [Exclusão](../../automating/using/exclusion.md)

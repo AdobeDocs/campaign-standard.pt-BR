@@ -11,7 +11,7 @@ exl-id: 6516c71a-efa8-4778-82bb-10615378f985
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -42,7 +42,7 @@ Campanha **[!UICONTROL dimensions]** Os encontrados no Analytics estão listados
    <td> O nome interno do delivery, como visto no Campaign.<br /> Por exemplo, DM1 é um delivery recorrente agendado para enviar deliveries filho toda semana. DM2, DM3 e DM4 são enviados nas três primeiras semanas. A dimensão ID da entrega exibirá os resultados para cada delivery, especificamente DM1 para DM4. <br /> </td> 
   </tr> 
   <tr> 
-   <td> Rótulo da entrega<br /> </td> 
+   <td> Rótulo de entrega<br /> </td> 
    <td> O rótulo da entrega como visto no Campaign<br /> </td> 
   </tr> 
   <tr> 

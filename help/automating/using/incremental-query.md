@@ -16,7 +16,7 @@ ht-degree: 98%
 
 ---
 
-# Query incremental{#incremental-query}
+# Consulta incremental{#incremental-query}
 
 ## Descrição {#description}
 

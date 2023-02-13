@@ -11,7 +11,7 @@ exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 37%
+ht-degree: 38%
 
 ---
 
@@ -52,5 +52,5 @@ O delivery contendo a imagem dinâmica agora pode ser enviado. Seus resultados p
 **Tópicos relacionados:**
 
 * [Adobe Target Portal](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=pt-BR)
-* [Sobre design de conteúdo de email](../../designing/using/designing-content-in-adobe-campaign.md)
+* [Sobre o design de conteúdo de email](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Personalizar imagens de email em tempo real](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) vídeo

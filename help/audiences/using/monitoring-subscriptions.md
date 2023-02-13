@@ -36,7 +36,7 @@ Para exibir a lista de pessoas assinadas a um serviço:
 
 ![](assets/lp_monitoring_subscriptions_1.png)
 
-## Histórico de subscrição {#subscription-history}
+## Histórico de assinatura {#subscription-history}
 
 Para consultar o histórico de subscrição e unsubscription:
 

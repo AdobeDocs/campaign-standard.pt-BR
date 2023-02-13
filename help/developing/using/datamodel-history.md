@@ -10,7 +10,7 @@ exl-id: 7f2a3139-57eb-48ff-9b1a-ac2caad2f691
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 7%
+ht-degree: 13%
 
 ---
 
@@ -23,24 +23,24 @@ ht-degree: 7%
                   <th>Nome</th>
                   <th>Rótulo</th>
                   <th>Tipo (comprimento)</th>
-                  <th>Valores de enumeração</th>
+                  <th>Valores de lista discriminada</th>
                </tr>
                <tr>
                   <td>PKey</td>
                   <td>ID de recurso principal</td>
-                  <td>string </td>
+                  <td>sequência de caracteres </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>age</td>
                   <td>Idade</td>
-                  <td>integer </td>
+                  <td>inteiro </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>birthDate</td>
                   <td>Data de nascimento</td>
-                  <td>data </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -57,7 +57,7 @@ ht-degree: 7%
                </tr>
                <tr>
                   <td>blackListFax</td>
-                  <td>Não entrar mais em contato por fax</td>
+                  <td>Não contatar mais por fax</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -69,13 +69,13 @@ ht-degree: 7%
                </tr>
                <tr>
                   <td>blackListPhone</td>
-                  <td>Não entrar mais em contato por telefone</td>
+                  <td>Não contatar mais por telefone</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListPostalMail</td>
-                  <td>Não entrar mais em contato por mala direta</td>
+                  <td>Não contatar mais por correspondência direta</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -88,19 +88,19 @@ ht-degree: 7%
                <tr>
                   <td>countBroadLogEvents</td>
                   <td>CountBroadLogEvents</td>
-                  <td>integer </td>
+                  <td>inteiro </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>countSubHistoEvents</td>
                   <td>CountSubHistoEvents</td>
-                  <td>integer </td>
+                  <td>inteiro </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>país (países)</td>
                   <td>Country</td>
-                  <td>link </td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
@@ -112,25 +112,25 @@ ht-degree: 7%
                <tr>
                   <td>criado</td>
                   <td>Criado</td>
-                  <td>data </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Criado por</td>
-                  <td>link </td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>cusHobbieslink (cusHobbies)</td>
                   <td>CusHobbieslink</td>
-                  <td>link </td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>cusLastTransactionDate</td>
                   <td>Data da Última Transação</td>
-                  <td>data </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -185,13 +185,13 @@ ht-degree: 7%
                <tr>
                   <td>kpisAndChart</td>
                   <td>KpisAndChart</td>
-                  <td>item </td>
+                  <td>Item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>lastModified</td>
                   <td>Última modificação</td>
-                  <td>data </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -202,8 +202,8 @@ ht-degree: 7%
                </tr>
                <tr>
                   <td>localização</td>
-                  <td>Local</td>
-                  <td>item </td>
+                  <td>Localização</td>
+                  <td>Item </td>
                   <td> </td>
                </tr>
                <tr>
@@ -215,13 +215,13 @@ ht-degree: 7%
                <tr>
                   <td>minBroadLogEvents</td>
                   <td>MinBroadLogEvents</td>
-                  <td>data </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>minSubHistoEvents</td>
                   <td>MinSubHistoEvents</td>
-                  <td>data </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -232,8 +232,8 @@ ht-degree: 7%
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
-                  <td>Modificado por</td>
-                  <td>link </td>
+                  <td>Modificação por</td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
@@ -251,7 +251,7 @@ ht-degree: 7%
                <tr>
                   <td>stateLink (estado)</td>
                   <td>Estado</td>
-                  <td>link </td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
@@ -407,15 +407,15 @@ Aniversário (aniversário)
 </tr>
 <tr>
 <td>previousUnitsValue</td>
-<td>integer</td>
+<td>inteiro</td>
 </tr>
 <tr>
 <td>nextUnitsValue</td>
-<td>integer</td>
+<td>inteiro</td>
 </tr>
 <tr>
 <td>endDay</td>
-<td>data</td>
+<td>date</td>
 </tr>
 <tr>
 <td>precisão</td>
@@ -423,11 +423,11 @@ Aniversário (aniversário)
 </tr>
 <tr>
 <td>relativeValue</td>
-<td>string</td>
+<td>sequência de caracteres</td>
 </tr>
 <tr>
 <td>mês</td>
-<td>data</td>
+<td>date</td>
 </tr>
 <tr>
 <td>operador</td>
@@ -439,15 +439,15 @@ Aniversário (aniversário)
 </tr>
 <tr>
 <td>endMonth</td>
-<td>data</td>
+<td>date</td>
 </tr>
 <tr>
-<td>type</td>
+<td>tipo</td>
 <td>enumeração</td>
 </tr>
 <tr>
 <td>dia</td>
-<td>data</td>
+<td>date</td>
 </tr>
 </table>
 
@@ -460,7 +460,7 @@ Por email (por email)
 </tr>
 <tr>
 <td>email</td>
-<td>string</td>
+<td>sequência de caracteres</td>
 </tr>
 </table>
 
@@ -473,7 +473,7 @@ Por chaves (byKeysProfile)
 </tr>
 <tr>
 <td>email</td>
-<td>string</td>
+<td>sequência de caracteres</td>
 </tr>
 </table>
 
@@ -486,7 +486,7 @@ Por nome ou email (byText)
 </tr>
 <tr>
 <td>texto</td>
-<td>string</td>
+<td>sequência de caracteres</td>
 </tr>
 </table>
 
@@ -499,7 +499,7 @@ Por público-alvo estático (por StaticAudience)
 </tr>
 <tr>
 <td>público-alvo</td>
-<td>link</td>
+<td>Link </td>
 </tr>
 </table>
 
@@ -512,7 +512,7 @@ Clicado em (hasClickedDelivery)
 </tr>
 <tr>
 <td>entrega</td>
-<td>link</td>
+<td>Link </td>
 </tr>
 </table>
 
@@ -525,7 +525,7 @@ Aberto (hasOpenedDelivery)
 </tr>
 <tr>
 <td>entrega</td>
-<td>link</td>
+<td>Link </td>
 </tr>
 </table>
 
@@ -538,7 +538,7 @@ Perfil (perfil)
 </tr>
 <tr>
 <td>perfil</td>
-<td>link</td>
+<td>Link </td>
 </tr>
 </table>
 
@@ -551,7 +551,7 @@ Recebido (hasReceivedDelivery)
 </tr>
 <tr>
 <td>entrega</td>
-<td>link</td>
+<td>Link </td>
 </tr>
 </table>
 
@@ -564,6 +564,6 @@ Assinantes (assinantes)
 </tr>
 <tr>
 <td>service</td>
-<td>link</td>
+<td>Link </td>
 </tr>
 </table>

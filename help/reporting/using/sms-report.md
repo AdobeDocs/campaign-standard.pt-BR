@@ -1,6 +1,6 @@
 ---
 title: Relatório de SMS
-description: 'Com o relatório pronto para uso do SMS, saiba mais sobre o sucesso dos deliveries de SMS. '
+description: Com o relatório pronto para uso do SMS, saiba mais sobre o sucesso dos deliveries de SMS.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports

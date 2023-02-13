@@ -10,7 +10,7 @@ exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 21%
+ht-degree: 41%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 21%
                   <th>Nome</th>
                   <th>Rótulo</th>
                   <th>Tipo (comprimento)</th>
-                  <th>Valores de enumeração</th>
+                  <th>Valores de lista discriminada</th>
                </tr>
                <tr>
                   <td>PKey</td>
                   <td>ID de recurso principal</td>
-                  <td>string </td>
+                  <td>sequência de caracteres </td>
                   <td> </td>
                </tr>
                <tr>
@@ -40,19 +40,19 @@ ht-degree: 21%
                <tr>
                   <td>criado</td>
                   <td>Criado</td>
-                  <td>data </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Criado por</td>
-                  <td>link </td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>cusPrice</td>
                   <td>Preço</td>
-                  <td>integer </td>
+                  <td>inteiro </td>
                   <td> </td>
                </tr>
                <tr>
@@ -64,18 +64,18 @@ ht-degree: 21%
                <tr>
                   <td>end</td>
                   <td>Data final</td>
-                  <td>data </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unidade geográfica</td>
-                  <td>link </td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>história</td>
-                  <td>Histórico de subscrição</td>
+                  <td>Histórico de assinatura</td>
                   <td>coleção </td>
                   <td> </td>
                </tr>
@@ -100,7 +100,7 @@ ht-degree: 21%
                <tr>
                   <td>lastModified</td>
                   <td>Última modificação</td>
-                  <td>data </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -117,7 +117,7 @@ ht-degree: 21%
                </tr>
                <tr>
                   <td>messageType</td>
-                  <td>Canal </td>
+                  <td>Canal</td>
                   <td>enumeração (byte) </td>
                   <td>
                      <ul>
@@ -141,8 +141,8 @@ ht-degree: 21%
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
-                  <td>Modificado por</td>
-                  <td>link </td>
+                  <td>Modificação por</td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
@@ -154,7 +154,7 @@ ht-degree: 21%
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Entidade organizacional</td>
-                  <td>link </td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
@@ -165,26 +165,26 @@ ht-degree: 21%
                </tr>
                <tr>
                   <td>start</td>
-                  <td>Data de início</td>
-                  <td>data </td>
+                  <td>Data inicial</td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>subLandingPage (landingPageSubscriptionBase)</td>
                   <td>Página de aterrissagem da assinatura</td>
-                  <td>link </td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>subScenario (deliveryMCTemplateBase)</td>
                   <td>Confirmação de assinatura</td>
-                  <td>link </td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>subScenarioEventType</td>
                   <td>SubScenarioEventType</td>
-                  <td>string </td>
+                  <td>sequência de caracteres </td>
                   <td> </td>
                </tr>
                <tr>
@@ -202,7 +202,7 @@ ht-degree: 21%
                <tr>
                   <td>template (serviço)</td>
                   <td>Modelo de serviço</td>
-                  <td>link </td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
@@ -220,19 +220,19 @@ ht-degree: 21%
                <tr>
                   <td>unsubLandingPage (landingPageUnsubscriptionBase)</td>
                   <td>Página de aterrissagem de cancelamento de assinatura</td>
-                  <td>link </td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>unsubScenario (deliveryMCTemplateBase)</td>
                   <td>Confirmação de cancelamento de assinatura</td>
-                  <td>link </td>
+                  <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>unsubScenarioEventType</td>
                   <td>UnsubScenarioEventType</td>
-                  <td>string </td>
+                  <td>sequência de caracteres </td>
                   <td> </td>
                </tr>
                <tr>
@@ -254,11 +254,11 @@ Disponível durante o período especificado (byPlanning)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>data</td>
+    <td>date</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>data</td>
+    <td>date</td>
     </tr>
 </table>
 
@@ -284,7 +284,7 @@ Por nome ou rótulo (byText)
 </tr>
 <tr>
 <td>texto</td>
-<td>string</td>
+<td>sequência de caracteres</td>
 </tr>
 </table>
 
@@ -297,6 +297,6 @@ Por recurso de direcionamento (byTargetResource)
 </tr>
 <tr>
 <td>targetResource</td>
-<td>string</td>
+<td>sequência de caracteres</td>
 </tr>
 </table>

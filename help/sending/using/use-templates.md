@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: '"Os templates do delivery oferecem mais eficiência ao fornecer cenários prontos para os tipos mais comuns de atividades."'
+description: "Os templates do delivery oferecem mais eficiência ao fornecer cenários prontos para os tipos mais comuns de atividades."
 feature: Deliverability
 role: User
 level: Intermediate

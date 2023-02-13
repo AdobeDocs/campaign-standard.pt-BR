@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
-workflow-type: ht
-source-wordcount: '1591'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1573'
+ht-degree: 98%
 
 ---
 
@@ -95,9 +95,9 @@ Consulte a documentação do [Experience Platform Privacy Service](https://exper
 
 >[!IMPORTANT]
 >
->Para enviar uma solicitação usando o tipo de namespace personalizado, utilize o [método JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR#json){target=&quot;_blank&quot;} e adicione o namespaceId à solicitação, ou use a [Chamada de API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=br#access-delete){target=&quot;_blank&quot;} para fazer a solicitação.
+>Para enviar uma solicitação usando o tipo de namespace personalizado, aproveite o [método JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=br#access-delete){target="_blank"} para fazer o pedido.
 >
->Use somente a [Interface do usuário de privacidade](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=br#request-builder){target=&quot;_blank&quot;} para enviar solicitações usando o tipo de namespace padrão.
+>Use somente o [Interface do usuário de privacidade](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=br#request-builder){target="_blank"} para enviar solicitações usando o tipo de namespace padrão.
 
 Cada tarefa do Privacy Core Service é dividida em várias solicitações de privacidade no Campaign com base no número de namespaces que estão sendo utilizados, onde cada solicitação corresponde a um namespace. Além disso, um trabalho pode ser executado em múltiplas instâncias. Portanto, vários arquivos são criados para uma tarefa. Por exemplo, se uma solicitação tiver dois namespaces e estiver em execução em três instâncias, então será enviado um total de seis arquivos. Um arquivo por namespace e instância.
 

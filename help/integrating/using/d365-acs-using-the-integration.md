@@ -19,9 +19,9 @@ ht-degree: 1%
 
 Há vários fluxos de dados que a Integração do Adobe Campaign Standard com o Microsoft Dynamics 365 executa. Esses fluxos são detalhados em [esta página](../../integrating/using/d365-acs-self-service-app-workflows.md).
 
-More details on the data flows can be found further down in this document in the [Data Flows](#data-flows)  section.
+Mais detalhes sobre os fluxos de dados podem ser encontrados mais abaixo neste documento na [Fluxos de dados](#data-flows)  seção.
 
-## Adobe Campaign Standard user experience
+## Experiência do usuário do Adobe Campaign Standard
 
 Quando um contato é criado, modificado ou excluído (se excluído estiver habilitado) no Microsoft Dynamics 365, ele será enviado para o Campaign Standard. Esses contatos estarão visíveis na tela Perfis no Campaign e podem ser direcionados para campanhas de marketing. Consulte a tela Perfis abaixo.
 
@@ -79,25 +79,25 @@ Veja a seguir uma lista dos atributos e uma descrição:
 
 * **Nome do delivery**: A ID de entrega no Campaign Standard
 
-* **Date Sent/Opened/Clicked/Bounced**: Date/time when the event was created
+* **Data de envio/abertura/clique/rejeição**: Data/hora em que o evento foi criado
 
 * **URL de rastreamento**: URL que foi clicado
 
-* **URL da Mirror Page**: O URL para a mirror page do email que foi enviado/aberto/clicado/retornado. The expiry period of the email mirror page can be modified in the configuration screen of the corresponding Campaign email channel activity. [Saiba mais](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+* **URL da Mirror Page**: O URL para a mirror page do email que foi enviado/aberto/clicado/retornado. O período de expiração da mirror page de email pode ser modificado na tela de configuração da atividade correspondente do canal de email do Campaign. [Saiba mais](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
 >[!NOTE]
 >
->For opt-out, when an opt-out attribute is modified in Microsoft Dynamics 365, it will be reflected in Campaign if you selected the **Unidirectional (Campaign to Microsoft Dynamics 365)** or **Bidirectional** opt-out configuration, and if you have that particular attribute mapped correctly.
+>Para opção de não participação, quando um atributo de opção de não participação é modificado no Microsoft Dynamics 365, ele será refletido no Campaign se você selecionou a variável **Unidirecional (Campanha para Microsoft Dynamics 365)** ou **Bidirecional** configuração de não participação e se você tiver esse atributo específico mapeado corretamente.
 
 ## Fluxos de dados {#data-flows}
 
 ### Entrada de entidade personalizada e de contato
 
-New, updated, and deleted records (Note: deleted must be enabled) are sent from the Microsoft Dynamics 365 contact table to the Campaign profile table.
+Registros novos, atualizados e excluídos (Observação: excluídos devem estar ativados) são enviados da tabela de contatos do Microsoft Dynamics 365 para a tabela de perfil do Campaign.
 
 Os mapeamentos de tabela podem ser configurados na interface do usuário do aplicativo de integração para mapear os atributos de tabela do Microsoft Dynamics 365 para atributos de tabela do Campaign. Os mapeamentos da tabela podem ser modificados para adicionar/remover atributos, conforme necessário.
 
-The initial run of the data flow is designed to transfer all mapped records, including those marked as &quot;inactive&quot;; subsequently, the integration will only process incremental updates. A exceção a isso ocorre se os dados forem repetidos ou se um filtro for configurado; regras básicas de filtragem baseadas em atributos podem ser configuradas para determinar quais registros sincronizar com o Campaign.
+A execução inicial do fluxo de dados foi concebida para transferir todos os registros mapeados, incluindo os marcados como &quot;inativos&quot;; posteriormente, a integração processará apenas atualizações incrementais. A exceção a isso ocorre se os dados forem repetidos ou se um filtro for configurado; regras básicas de filtragem baseadas em atributos podem ser configuradas para determinar quais registros sincronizar com o Campaign.
 
 As regras básicas de substituição podem ser configuradas na interface do usuário do aplicativo de integração para substituir um valor de atributo por um valor diferente (por exemplo, &quot;verde&quot; para &quot;#00FF00&quot;, &quot;F&quot; para 1, etc.).
 
@@ -113,7 +113,7 @@ O atributo externalId da tabela de perfil do Campaign deve ser preenchido com a 
 
 O [Integração do Microsoft Dynamics 365 com o Adobe Campaign Standard](../../integrating/using/d365-acs-get-started.md) O suporta entidades personalizadas, permitindo que entidades personalizadas no Dynamics 365 sejam sincronizadas com os recursos personalizados correspondentes no Campaign.
 
-The new data in the custom resources can be used for several purposes, including segmentation and personalization.
+Os novos dados nos recursos personalizados podem ser usados para várias finalidades, incluindo segmentação e personalização.
 
 A integração oferece suporte a tabelas vinculadas e não vinculadas. A vinculação é compatível até três níveis (ou seja, nível1->nível2->nível3).
 
@@ -127,7 +127,7 @@ Ao configurar fluxos de dados de entidade personalizados, é importante estar ci
 * Para fluxos de dados de entidade personalizados, o rastreamento de alterações deve ser ativado no Dynamics 365 para entidades personalizadas sincronizadas.
 * Se um registro pai e um registro filho vinculado forem criados próximo ao mesmo tempo no Dynamics 365, devido ao processamento paralelo da integração, há uma pequena chance de que um novo registro filho possa ser gravado no Campaign antes de seu registro pai.
 
-* If the parent and child are linked on the Campaign side using the **1 cardinality simple link** option, the child record will remain hidden and inaccessible (via UI or API) until the parent record arrives in Campaign.
+* Se o pai e o filho estiverem vinculados no lado da Campanha usando a variável **1 cardinalidade simple link** , o registro filho permanecerá oculto e inacessível (por meio da interface do usuário ou da API) até que o registro pai chegue ao Campaign.
 
 * (Assumindo **1 cardinalidade simple link** no Campaign) Se o registro filho for atualizado ou excluído no Dynamics 365 e essa alteração for gravada no Campaign antes que o registro pai seja exibido no Campaign (não é provável, mas uma possibilidade remota), essa atualização ou exclusão não será processada no Campaign e um erro será lançado. No caso de atualização, o registro em questão precisará ser atualizado novamente no Dynamics 365 para sincronizar o registro atualizado. No caso de exclusão, o registro em questão precisará ser tratado separadamente no lado da campanha, pois não há mais um registro no Dynamics 365 para excluir ou atualizar.
 
@@ -139,9 +139,9 @@ Uma visão geral mais abrangente dos recursos personalizados do Campaign pode se
 
 Os eventos de marketing por email são enviados do Campaign para o Microsoft Dynamics 365 para serem exibidos na exibição Linha do tempo.
 
-Supported marketing event types:
-* Send – email sent to recipient
-* Open – email opened by recipient
+Tipos de evento de marketing suportados:
+* Enviar - email enviado para o recipient
+* Abrir - email aberto por recipient
 * Clique em - URL no email clicado por recipient
 * Rejeição - email para recipient teve uma rejeição permanente
 

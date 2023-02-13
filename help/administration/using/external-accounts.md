@@ -81,7 +81,7 @@ Para evitar esses problemas, a Adobe recomenda seguir as práticas recomendadas 
 
 Além disso, observe que os IPs públicos dos quais você está tentando iniciar a conexão SFTP devem ser adicionados à lista de permissões na instância do Campaign. A adição de endereços IP à  de lista de permissões pode ser solicitada por meio de um [tíquete de suporte](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html), além de fornecer a chave pública a ser usada para autenticação.
 
-Servidores SFTP podem ser gerenciados no Painel de controle do Campaign. Para obter mais informações, consulte a [documentação do Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html).
+Servidores SFTP podem ser gerenciados no Painel de controle do Campaign. Para obter mais informações, consulte a [documentação do Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=pt-BR).
 
 >[!NOTE]
 >
@@ -182,7 +182,7 @@ Para uma conta externa de armazenamento do Microsoft Azure Blob, forneça os seg
 * Um **[!UICONTROL Label]** e **[!UICONTROL ID]** da sua conta externa
 * **[!UICONTROL Type]**: armazenamento do Microsoft Azure Blob
 * Seu **[!UICONTROL Account name]** e **[!UICONTROL Account key]**. Para saber onde encontrar o nome e a chave da sua conta, consulte esta [página](https://docs.microsoft.com/pt-BR/azure/storage/common/storage-account-keys-manage).
-* Seu **[!UICONTROL Endpoint suffix]**. Ele pode ser encontrado no **[!UICONTROL Connection string]** do menu **[!UICONTROL Access keys]** no Portal do Azure. Para obter mais informações, consulte esta [página](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
+* Seu **[!UICONTROL Endpoint suffix]**. Ele pode ser encontrado no **[!UICONTROL Connection string]** do menu **[!UICONTROL Access keys]** no Portal do Azure. Para obter mais informações, consulte esta [página](https://docs.microsoft.com/pt-BR/azure/storage/common/storage-account-keys-manage).
 * Seu nome **[!UICONTROL Container]**. Se você estiver planejando usar mais de um contêiner, crie quantas contas externas forem contêineres.
 * A opção **[!UICONTROL Concurrency]** permite ajustar a velocidade das transferências de arquivos.
 
