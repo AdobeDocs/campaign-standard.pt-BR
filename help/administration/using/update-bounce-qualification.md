@@ -4,16 +4,14 @@ description: Saiba como atualizar a qualificação de rejeição após uma inter
 audience: delivery
 hidefromtoc: true
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 91%
+source-wordcount: '425'
+ht-degree: 96%
 
 ---
 
 # Atualizar qualificação de rejeição após uma interrupção do ISP {#update-bounce-qualification.md}
-
-Se NÃO estiver executando a versão mais recente do Campaign, esta seção pode se aplicar a você. Consulte o representante da Adobe Campaign.
 
 ## Contexto
 
