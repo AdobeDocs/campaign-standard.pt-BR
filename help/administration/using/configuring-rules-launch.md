@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '999'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 Na interface do usuário da coleta de dados, crie elementos e regras de dados para enviar PII e outros dados de aplicativos móveis para [!DNL Adobe Campaign Standard].
 
-Para garantir que todas as alterações de configuração na interface do usuário da coleta de dados tenham efeito, você deve publicar essas alterações. Para obter mais informações, consulte [Publicação](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
+Para garantir que todas as alterações de configuração na interface do usuário da coleta de dados tenham efeito, você deve publicar essas alterações. Para obter mais informações, consulte [Publicação](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration).
 
 Para criar regras na interface do usuário da Coleta de dados, siga estas etapas:
 
@@ -77,7 +77,7 @@ Você deve criar regras para o seguinte:
 
 >[!NOTE]
 >
->Para enviar informações de PII de um aplicativo móvel para o Adobe Campaign, você deve implementar uma API do SDK. Para obter mais informações, acesse [CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii).
+>Para enviar informações de PII de um aplicativo móvel para o Adobe Campaign, você deve implementar uma API do SDK. Para obter mais informações, acesse [CollectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii).
 
 Para enviar dados de PII para [!DNL Adobe Campaign Standard], crie uma regra na interface do usuário da coleção de dados:
 

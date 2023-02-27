@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 0101773d-b109-49a3-89d4-b4bb226d9ebd
-source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -34,7 +34,7 @@ Como as mensagens no aplicativo são obtidas pelo SDK do Campaign, queremos forn
 * As mensagens criadas usando o modelo de Perfil só podem ser enviadas quando o usuário tiver feito logon no aplicativo.
 * Para facilitar esse handshake seguro, os desenvolvedores de aplicativos móveis devem passar detalhes de autenticação adicionais usando a API setLinkageField . Observe que o campo de vinculação é aquele identificado como o link entre o Perfil móvel e o Perfil de CRM ao estender a tabela appSubscriberRcp.
 * Eles devem liberar as mensagens no aplicativo armazenadas no dispositivo e os campos resetLinkagequando o usuário sair do aplicativo usando resetLinkageField. Isso garante que, se um usuário diferente fizer logon no aplicativo, ele não visualize as mensagens destinadas ao usuário anterior.
-* Consulte [APIs do SDK móvel](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) implementar este mecanismo de segurança no lado do cliente.
+* Consulte [APIs do SDK móvel](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/) implementar este mecanismo de segurança no lado do cliente.
 
 ## O que preciso fazer para ativar os Relatórios no aplicativo no Campaign? {#enable-inapp-reporting}
 

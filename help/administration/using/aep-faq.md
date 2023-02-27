@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 5%
+source-wordcount: '910'
+ht-degree: 2%
 
 ---
 
@@ -36,7 +36,7 @@ Confira os recursos abaixo para obter mais informações sobre o SDK do Adobe Ex
 
 Sim, [!DNL Adobe Experience Platform SDK] A integração está disponível para Adobe Campaign Standard e Adobe Campaign Classic. Você deve instalar o **[!UICONTROL Extension]** através da [!DNL Data Collection UI] para habilitar a integração.
 
-Para obter mais informações, consulte esta [página](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+Para obter mais informações, consulte [página]https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
 ## Quais recursos a integração do SDK do Adobe Experience Platform facilita no Adobe Campaign? {#aep-capabilities}
 
@@ -65,16 +65,16 @@ Para isso, siga as etapas abaixo:
 1. Configure um **[!UICONTROL Mobile property]** em [!DNL Launch].
 1. Instale a extensão Adobe Campaign Standard. Observe que a extensão Adobe Campaign Standard também requer **[!UICONTROL Mobile Core]**, **[!UICONTROL Profile]** e **[!UICONTROL Lifecycle]** extensões instaladas por padrão no [!DNL Launch].
    * Os usuários devem configurar o tempo limite da sessão em **[!UICONTROL Mobile Core]** extensão que afeta a frequência dos eventos do ciclo de vida.
-   * Depois que a extensão é configurada, os usuários devem adicionar as dependências apropriadas no aplicativo móvel usando Cocoapods for iOS e Gradle for Android. Siga as instruções [here](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+   * Depois que a extensão é configurada, os usuários devem adicionar as dependências apropriadas no aplicativo móvel usando Cocoapods for iOS e Gradle for Android. Siga as instruções [here](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
    * Sempre pegue as versões mais recentes das bibliotecas.
-   * No aplicativo móvel, registre-se **[!UICONTROL Campaign]**, **[!UICONTROL UserProfile]**, **[!UICONTROL Identity]**, **[!UICONTROL Lifecycle]** e **[!UICONTROL Signal]** extensões. Siga as instruções [here](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#register-the-campaign-standard-extension-with-mobile-core).
+   * No aplicativo móvel, registre-se **[!UICONTROL Campaign]**, **[!UICONTROL UserProfile]**, **[!UICONTROL Identity]**, **[!UICONTROL Lifecycle]** e **[!UICONTROL Signal]** extensões. Siga as instruções [here](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#register-the-campaign-standard-extension-with-mobile-core).
    * Depois que as extensões forem registradas, inicie o ACPCore. Para Android, certifique-se de definir Application onCreate(). Siga as instruções exatas fornecidas em Instruções de instalação em dispositivos móveis para sua propriedade móvel no Launch.
-   * As APIs do SDK a seguir também serão necessárias. Implemente as APIs de início e pausa do ciclo de vida conforme descrito [here](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android) para Android e aqui para iOS.
+   * As APIs do SDK a seguir também serão necessárias. Implemente as APIs de início e pausa do ciclo de vida conforme descrito [here](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android) para Android e aqui para iOS.
 1. Configure um **[!UICONTROL Mobile Property]** no Adobe Campaign Standard. Siga o procedimento [here](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 ## O que preciso fazer para enriquecer um perfil móvel no Campaign? {#enrich-mobile-profile}
 
-Você deve configurar um postback CollectPII (consulte esta seção) [página](../../administration/using/configuring-rules-launch.md#pii-postback)) e implementar a API CollectPII a partir do SDK (consulte esta seção [página](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)).
+Você deve configurar um postback CollectPII (consulte esta seção) [página](../../administration/using/configuring-rules-launch.md#pii-postback)) e implementar a API CollectPII a partir do SDK (consulte esta seção [página](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference)).
 
 ## Com que frequência uma chamada CollectPII deve ser disparada? {#collect-pii}
 
@@ -96,9 +96,9 @@ Esse é um problema conhecido e ocorre devido à expiração do token. Você dev
 
 Confira os recursos abaixo:
 
-* Experience Platform SDK [documentação](https://aep-sdks.gitbook.io/docs/)
-* Introdução ao Launch e ao Experience Platform SDK [documentação](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)
-* Atualização para o SDK do Experience Platform [documentação](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep)
+* Experience Platform SDK [documentação](https://developer.adobe.com/client-sdks/documentation/)
+* Introdução ao Launch e ao Experience Platform SDK [documentação](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)
+* Atualização para o SDK do Experience Platform [documentação](https://developer.adobe.com/client-sdks/documentation/upgrade-platform-sdks)
 * SDK do Experience Platform Github [documentação](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
 
 ## Estou recebendo o erro &quot;Você não tem acesso de gravação no delivery&quot; ao criar um delivery de notificação por push. {#write-access-error}

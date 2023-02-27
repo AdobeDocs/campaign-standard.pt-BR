@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '1238'
-ht-degree: 41%
+source-wordcount: '1239'
+ht-degree: 40%
 
 ---
 
@@ -64,7 +64,7 @@ Antes de enviar as notificações por push, você deve:
 
 1. Verifique se o usuário tem as permissões necessárias no Adobe Campaign Standard e as tags no Adobe Experience Platform.
 
-1. Na interface do usuário da Coleta de dados , crie uma propriedade móvel. Para saber mais, consulte [Configurar uma propriedade móvel](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
+1. Na interface do usuário da Coleta de dados , crie uma propriedade móvel. Para saber mais, consulte [Configurar uma propriedade móvel](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/).
 
 1. Na interface do usuário da coleta de dados , instale o **[!UICONTROL Adobe Campaign Standard]** extensão.
 
@@ -87,7 +87,7 @@ Confira os recursos abaixo:
 
 ### O que preciso fazer para adquirir um token de push no Campaign? {#push-token-acquisition}
 
-Certifique-se de que a equipe de provisionamento concluiu o provisionamento do canal de push no Adobe Campaign Standard. Implemente a API setPushIdentifier do SDK. Para obter mais informações, consulte esta [página](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging).
+Certifique-se de que a equipe de provisionamento concluiu o provisionamento do canal de push no Adobe Campaign Standard. Implemente a API setPushIdentifier do SDK. Para obter mais informações, consulte esta [página](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#set-up-push-messaging).
 
 ### Depois que eu tiver o token de push e o ECID no Campaign, o que mais preciso para enviar uma notificação por push? {#sending-push}
 
@@ -144,7 +144,7 @@ Os desenvolvedores de aplicativos móveis precisam lidar com o suporte para arqu
 Siga as etapas abaixo:
 
 * Configure um postback de rastreamento de push. Instruções podem ser encontradas [here](../../administration/using/configuring-a-mobile-application.md).
-* Implemente a API trackAction a partir do Mobile Core. Consulte esta [página](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) para obter mais informações.
+* Implemente a API trackAction a partir do Mobile Core. Consulte esta [página](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/) para obter mais informações.
 
 Instruções mais detalhadas podem ser encontradas neste [página](../../administration/using/push-tracking.md).
 
