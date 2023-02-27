@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 6c96a5d294c6e96d20571d176898290c9c026f0b
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1591'
 ht-degree: 90%
 
 ---
@@ -20,6 +20,10 @@ Para enviar mensagens SMS, uma ou várias contas externas devem ser configuradas
 As etapas para criar e modificar uma conta externa são detalhadas na seção [Contas externas](../../administration/using/external-accounts.md). Você encontrará abaixo os parâmetros específicos das contas externas para enviar mensagens SMS.
 
 ## Definição de um roteamento SMS {#defining-an-sms-routing}
+
+>[!IMPORTANT]
+>
+>Usar a mesma conta e senha para várias contas externas de SMS pode resultar em conflitos e sobreposição entre as contas. Consulte a [Página de solução de problemas de SMS](troubleshooting-sms.md#external-account-conflict).
 
 A conta externa **[!UICONTROL SMS routing via SMPP]** é fornecida por padrão, mas convém adicionar outras contas.
 
