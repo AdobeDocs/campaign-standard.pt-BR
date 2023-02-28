@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: c2c8d2d05bbc376e2153448ca0a9e6ba0f367420
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 95%
+source-wordcount: '558'
+ht-degree: 78%
 
 ---
 
@@ -42,13 +42,10 @@ A atividade **[!UICONTROL Reconciliation]** é basicamente utilizada para fins d
 
    Por exemplo, você poderá salvar um público-alvo, atualizar o banco de dados etc.
 
-Por exemplo, a atividade **[!UICONTROL Reconciliation]** pode ser colocada após uma atividade de carregamento de dados com o objetivo de importar dados não padrão para o banco de dados.
+Por exemplo, a variável **[!UICONTROL Reconciliation]** pode ser colocada após uma atividade de carregamento de dados para importar dados não padrão para o banco de dados.
 
-**Tópicos relacionados:**
+Enquanto a variável **Enriquecimento** permite definir dados adicionais que serão processados no fluxo de trabalho (use um **Enriquecimento** atividade para combinar dados provenientes de vários conjuntos ou criar links para um recurso temporário), a variável **Reconciliação** permite vincular dados não identificados aos recursos existentes. A operação de reconciliação implica que os dados das dimensões vinculadas já estejam no banco de dados. Os casos de uso estão disponíveis em [esta seção](#use-cases-reconciliation).
 
-* [Caso de uso: Reconciliação de dados usando relações](../../automating/using/reconciliation-using-relations.md)
-* [Caso de uso: Atualização de dados usando reconciliação](../../automating/using/data-update-reconciliation.md)
-* [Caso de uso: Reconciliar um público do tipo Arquivo com o banco de dados](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Configuração {#configuration}
 
@@ -70,3 +67,12 @@ Por exemplo, a atividade **[!UICONTROL Reconciliation]** pode ser colocada após
    * **[!UICONTROL Keep in the outbound population]**: todos os dados da transição de entrada são mantidos na transição de saída da atividade.
 
 1. Confirme a configuração da sua atividade e salve o fluxo de trabalho.
+
+
+## Casos de uso{#use-cases-reconciliation}
+
+Saiba como usar essa atividade nos seguintes casos de uso:
+
+* [Caso de uso: Reconciliação de dados usando relações](../../automating/using/reconciliation-using-relations.md)
+* [Caso de uso: Atualização de dados usando reconciliação](../../automating/using/data-update-reconciliation.md)
+* [Caso de uso: Reconciliar um público do tipo Arquivo com o banco de dados](../../automating/using/reconcile-file-audience-with-database.md)
