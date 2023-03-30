@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Centro de ajuda para os principais recursos, tarefas, configurações e outros recursos necessários para usar o Campaign Standard.
 title: Manual do Campaign Standard
 breadcrumb-title: Documentação do Adobe Campaign Standard
-source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
+source-git-commit: d7e0912dd7d19a1f5dd2172235f28a40e130cac1
 workflow-type: tm+mt
-source-wordcount: '1814'
-ht-degree: 100%
+source-wordcount: '1818'
+ht-degree: 99%
 
 ---
 
@@ -121,6 +121,7 @@ ht-degree: 100%
    + Mensagens transacionais {#transactional-messaging}
       + [Introdução a mensagens transacionais](channels/using/getting-started-with-transactional-msg.md)
       + [Práticas recomendadas e limitações](channels/using/transactional-messaging-limitations.md)
+      + [Atualizações de permissão de mensagens transacionais](channels/using/transactional-message-permission.md)
       + Configuração do evento {#event-configuration}
          + [Configuração de um evento transacional](channels/using/configuring-transactional-event.md)
          + [Publicação de um evento transacional](channels/using/publishing-transactional-event.md)
@@ -132,13 +133,13 @@ ht-degree: 100%
       + [Notificações por push transacionais](channels/using/transactional-push-notifications.md)
       + [Mensagens de acompanhamento](channels/using/follow-up-messages.md)
       + [Caso de uso de mensagem transacional](channels/using/transactional-messaging-use-case.md)
-   + Páginas de aterrissagem {#landing-pages}
-      + [Introdução às páginas de aterrissagem](channels/using/getting-started-with-landing-pages.md)
-      + [Sobre modelos de página de aterrissagem](channels/using/landing-page-templates.md)
-      + [Configuração de uma página de aterrissagem](channels/using/configuring-landing-page.md)
-      + [Design de uma página de aterrissagem](channels/using/designing-a-landing-page.md)
-      + [Gerenciamento de dados de formulário de página de aterrissagem](channels/using/managing-landing-page-form-data.md)
-      + [Teste e publicação de uma página de aterrissagem](channels/using/testing-publishing-landing-page.md)
+   + Landing page {#landing-pages}
+      + [Introdução às landing pages](channels/using/getting-started-with-landing-pages.md)
+      + [Sobre modelos de landing pages](channels/using/landing-page-templates.md)
+      + [Configuração de uma landing page](channels/using/configuring-landing-page.md)
+      + [Design de uma landing page](channels/using/designing-a-landing-page.md)
+      + [Gerenciamento de dados de formulário de landing page](channels/using/managing-landing-page-form-data.md)
+      + [Teste e publicação de uma landing page](channels/using/testing-publishing-landing-page.md)
       + [Configuração de um processo duplo de aceitação](channels/using/setting-up-a-double-opt-in-process.md)
 + Criação de conteúdo de email {#designing-content}
    + [Designer de email do Campaign](designing/using/designing-content-in-adobe-campaign.md)
@@ -420,7 +421,7 @@ ht-degree: 100%
       + [Público](developing/using/datamodel-audience.md)
       + [Campaign](developing/using/datamodel-campaign.md)
       + [Entrega](developing/using/datamodel-delivery.md)
-      + [Páginas de aterrissagem](developing/using/datamodel-landingpage.md)
+      + [Landing pages](developing/using/datamodel-landingpage.md)
       + [Histórico de marketing](developing/using/datamodel-history.md)
       + [Perfil](developing/using/datamodel-profile.md)
       + [Programa](developing/using/datamodel-program.md)
