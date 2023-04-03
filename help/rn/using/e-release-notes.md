@@ -1,13 +1,27 @@
 ---
-source-git-commit: 48b6c5de8871e9e1f12c91474376abc53a199bc8
+title: Notas de versão anteriores
+description: Notas de versão anteriores
+feature: Overview
+role: User
+level: Beginner
+hide: true
+hidefromtoc: true
+exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
+source-git-commit: 1a8e623c034a2fbacd9ddf37711488a8f6b99442
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
+
+
+# Notas de versão anteriores {#e-new-release}
+
+Esta página descreve as melhorias e correções incluídas na próxima versão do Campaign Standard.
 >[!CAUTION]
 >
 > Esse conteúdo está sujeito a alterações sem aviso prévio até a data de atualização dos ambientes de estágio. Saiba mais na [página de planejamento de versão](../../rn/using/release-planning.md).
+
 ## Versão 22.3.2 {#dec-22}
 
 ### Atualização de segurança{#rn-security2}
