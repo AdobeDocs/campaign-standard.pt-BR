@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 87afaf6fed5bc3db134f10444cd7b6b5f35640f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '420'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ As atualizações são implantadas em duas fases. Primeiro, as instâncias de Pr
 
 Todas as datas de lançamento estão sujeitas a alterações. Visite esta página regularmente para verificar se há atualizações.
 
-## Versão 23.1 - Versão da primavera/Verão de 2023 {#release-23-1-release}
+## Versão 23.1 - Versão de primavera/verão de 2023 {#release-23-1-release}
 
 As atualizações de ambientes ocorrem em ondas, durante os intervalos indicados abaixo. As datas exatas são comunicadas por email a cada cliente.
 
@@ -41,11 +41,11 @@ Informações detalhadas sobre esta versão estão disponíveis nas [Notas de ve
  <tbody>
   <tr>
    <td>Preparo<br /> </td>
-   <td>11 de abril de 2023 - julho de 2023<br /> </td>
+   <td>11 de abril de 2023 - Julho de 2023<br /> </td>
   </tr>
   <tr>
    <td>Produção<br /> </td>
-   <td>18 de abril de 2023 - julho de 2023<br /> </td>
+   <td>18 de abril de 2023 - Julho de 2023<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -70,9 +70,9 @@ R: Não. Durante a atualização da instância, o banco de dados pode não ficar
 
 R: Não. Mensagens não serão enviadas durante alguns minutos. Quando a atualização é concluída, os processos são reiniciados automaticamente.
 
-**P: Os workflows continuarão em execução e enviarão os deliveries?**
+**P: Os workflows continuarão em execução e enviarão as entregas?**
 
-R: Não. Durante a atualização da build, o servidor de workflow e o MTA são ambos interrompidos. Isso significa que os workflows não serão executados e os deliveries não serão enviados durante alguns minutos. Nenhuma ação é necessária: os workflows serão iniciados novamente assim que a instância for atualizada.
+R: Não. Durante a atualização da build, o servidor de workflow e o MTA são ambos interrompidos. Isso significa que os workflows não serão executados e as entregas não serão enviadas durante alguns minutos. Nenhuma ação é necessária: os workflows serão iniciados novamente assim que a instância for atualizada.
 
 **P: Os links de rastreamento nas mensagens ainda funcionarão durante a atualização?**
 
