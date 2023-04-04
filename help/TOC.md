@@ -5,9 +5,9 @@ user-guide-description: Centro de ajuda para os principais recursos, tarefas, co
 title: Manual do Campaign Standard
 breadcrumb-title: Documentação do Adobe Campaign Standard
 source-git-commit: d7e0912dd7d19a1f5dd2172235f28a40e130cac1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1818'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -252,12 +252,12 @@ ht-degree: 99%
       + [Sobre a integração de dados do Campaign com os Pontos de interesse](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [Configuração da integração de dados do Campaign com os Pontos de interesse](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [Personalização de mensagens do Campaign com dados de Ponto de interesse](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
-   + Campaign e acionadores {#working-with-campaign-and-triggers}
-      + [Sobre acionadores da Adobe Experience Cloud](integrating/using/about-adobe-experience-cloud-triggers.md)
-      + [Configuração de acionadores na Experience Cloud](integrating/using/configuring-triggers-in-experience-cloud.md)
-      + [Utilização de acionadores no Campaign](integrating/using/using-triggers-in-campaign.md)
+   + Campaign e Triggers {#working-with-campaign-and-triggers}
+      + [Sobre o Adobe Experience Cloud Triggers](integrating/using/about-adobe-experience-cloud-triggers.md)
+      + [Configuração do Triggers na Experience Cloud](integrating/using/configuring-triggers-in-experience-cloud.md)
+      + [Utilização do Triggers no Campaign](integrating/using/using-triggers-in-campaign.md)
       + [Testar acionadores](integrating/using/testing-your-triggers.md)
-      + [Casos de uso de acionadores de abandonos](integrating/using/abandonment-triggers-use-cases.md)
+      + [Casos de uso do Triggers de abandonos](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign e Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Introdução à integração com o Microsoft Dynamics 365](integrating/using/d365-acs-get-started.md)
       + [Práticas recomendadas e limitações](integrating/using/d365-acs-notices-and-recommendations.md)
@@ -479,7 +479,7 @@ ht-degree: 99%
       + [Configuração do acesso à API](api/using/setting-up-api-access.md)
    + Conceitos globais {#global-concepts}
       + [Leitura obrigatória](api/using/must-read.md)
-      + [Pontos de extremidade](api/using/endpoints.md)
+      + [Pontos de acesso](api/using/endpoints.md)
       + [Mecanismo de metadados](api/using/metadata-mechanism.md)
       + [Verbos](api/using/verbs.md)
       + Operações adicionais {#additional-operations}
