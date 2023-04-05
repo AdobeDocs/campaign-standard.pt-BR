@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 1a8e623c034a2fbacd9ddf37711488a8f6b99442
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 25e842d2b012a07b3f1ef1ff5490a6b4afa0e887
+workflow-type: tm+mt
+source-wordcount: '216'
+ht-degree: 27%
 
 ---
 
@@ -22,21 +22,19 @@ Esta página descreve as melhorias e correções incluídas na próxima versão 
 >
 > Esse conteúdo está sujeito a alterações sem aviso prévio até a data de atualização dos ambientes de estágio. Saiba mais na [página de planejamento de versão](../../rn/using/release-planning.md).
 
-## Versão 22.3.2 {#dec-22}
+## Versão 23.1 - Versão de primavera/verão de 2023 {#apr-23}
 
-### Atualização de segurança{#rn-security2}
+### Aprimoramentos {#e-rn-improvements}
 
-Esta versão inclui a seguinte atualização de segurança: o Debian foi atualizado para a v11.0.
+* O serviço de mensagens de push foi modernizado para otimizar a manutenção. (CAMP-47959)
+* O serviço de mensagens SMS foi modernizado para proporcionar uma estabilidade aprimorada. (CAMP-52217)
+* O pronto para uso **Fluxo de trabalho de criação do enriquecimento de relatórios** foi adicionada. Após importar um target mapping de uma instância para outra, basta executar o workflow para importar as entradas de enriquecimento de relatório correspondentes. (CAMP-52452)
 
-## Versão 22.3 - outono/inverno de 2022 {#sept-22}
+### Correções{#e-rn-patches}
 
-### Atualização de segurança{#rn-security}
-
-Esta versão vem com a seguinte atualização de segurança: O Apache Tomcat foi atualizado da v7.0 para a v8.0.
-
-### Correções{#e-rn-fixes}
-
-* Correção de um problema com relatórios agendados, que eram acionados uma hora antes do tempo agendado. (CAMP-51502)
-* Correção de um problema nos indicadores de delivery do painel Delivery que não correspondiam aos logs de envio (nms:broadLogRcp). (CAMP-51127)
-* Correção de um problema que impedia a extensão de recursos personalizados com o Conector ACS (oferta principal). (CAMP-51033)
-* Melhoria do processo de publicação de respostas de solicitações de privacidade para evitar atraso. (CAMP-50613)
+* Correção de um problema que poderia resultar em erro de tempo limite ao exibir o **Hot click** relatório. (CAMP-51582)
+* Correção de um problema que poderia impedir o uso da integração com o **Places** serviço. (CAMP-51923)
+* Correção de um problema que impedia que o agendador do workflow funcionasse corretamente. (CAMP-52003)
+* Correção de um problema que impedia a exibição dos detalhes de detalhamento ao visualizar a versão PDF de um relatório dinâmico personalizado com um grande volume de dados. (CAMP-52178)
+* Correção de um problema que poderia exibir um erro ao acessar relatórios. (CAMP-52500)
+* Correção de um problema que aplicou incorretamente a variável **Limitar instâncias de MTA para esta conta** Parâmetro do conector SMS para todos os canais em vez de aplicar somente ao SMS. (CAMP-52640)
