@@ -5,14 +5,33 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
-source-git-commit: 77c5baaf51b82ea001326f3f20c8ab183155f9e6
+source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1201'
 ht-degree: 100%
 
 ---
 
 # Notas de versão de 2022{#release-notes-2022}
+
+## Versão 22.3.2 {#feb-23}
+
+### Atualização de segurança{#rn-security2}
+
+Esta versão inclui a seguinte atualização de segurança: o Debian foi atualizado para a v11.0.
+
+## Versão 22.3 - outono/inverno de 2022 {#sept-22}
+
+### Atualização de segurança{#rn-security}
+
+Esta versão vem com a seguinte atualização de segurança: O Apache Tomcat foi atualizado da v7.0 para a v8.0.
+
+### Correções{#rn-fixes}
+
+* Correção de um problema com relatórios agendados, que eram acionados uma hora antes do tempo agendado. (CAMP-51502)
+* Correção de um problema nos indicadores de delivery do painel Delivery que não correspondiam aos logs de envio (nms:broadLogRcp). (CAMP-51127)
+* Correção de um problema que impedia a extensão de recursos personalizados com o Conector ACS (oferta principal). (CAMP-51033)
+* Melhoria do processo de publicação de respostas de solicitações de privacidade para evitar atraso. (CAMP-50613)
 
 ## Versão 22.2 - junho de 2022 {#june-2022}
 
@@ -90,8 +109,8 @@ ht-degree: 100%
 * Correção de um problema que poderia resultar em erros ao abrir um relatório. (CAMP-49222)
 * Correção de um problema que poderia resultar na falha da preparação do email após a exclusão de um link para conteúdo AEM. (CAMP-49877)
 * Para resolver vários problemas, o mecanismo de repetição foi aprimorado para deliveries, incluindo conteúdo importado de um URL. [Saiba mais](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time) (CAMP-48888)
-* Correção de um problema que ocorria ao criar um novo filtro em um recurso personalizado e depois usá-lo como uma chave de reconciliação em uma página de destino. Se o recurso personalizado fosse publicado novamente, o filtro era removido da lista de chaves de reconciliação disponíveis para a página de destino. (CAMP-49516)
-* Correção de um problema nas páginas de destino ao usar condições dinâmicas com caixas de seleção. (CAMP-48604)
+* Correção de um problema que ocorria ao criar um novo filtro em um recurso personalizado e depois usá-lo como uma chave de reconciliação em uma landing page. Se o recurso personalizado fosse publicado novamente, o filtro era removido da lista de chaves de reconciliação disponíveis para a landing page. (CAMP-49516)
+* Correção de um problema nas landing pages ao usar condições dinâmicas com caixas de seleção. (CAMP-48604)
 * Correção de um problema que ocorria em uma atividade de **Consulta** ao usar a condição de filtro &quot;Em ou antes de outubro&quot;. Ao trabalhar de uma instância definida para um fuso horário europeu, o mês selecionado para o filtro mostrava setembro em vez de outubro, devido a um problema na conversão do fuso horário. (CAMP-48602)
 * Para otimizar a entregabilidade, o Adobe Campaign agora envia emails usando codificação de 7 bits em vez de 8 bits. Isso impede que retransmissões intermediárias invalidem a assinatura DKIM, o que pode afetar a autenticidade das mensagens. (CAMP-49016)
 * Os desempenhos ao duplicar públicos foram aprimorados para evitar problemas ao trabalhar com públicos grandes. (CAMP-49639)

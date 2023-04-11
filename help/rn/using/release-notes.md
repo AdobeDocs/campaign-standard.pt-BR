@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: f04fd1542dc3b8ccd5e9fe53edd206061edbc3c5
+source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 100%
+source-wordcount: '259'
+ht-degree: 16%
 
 ---
 
@@ -17,22 +17,26 @@ ht-degree: 100%
 
 ![Painel de controle](assets/do-not-localize/cp-icon.png) **Nova versão do Painel de controle**. [Saiba mais](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=pt-BR){target="_blank"}.
 
-## Versão 22.3.2 {#feb-23}
+## Versão 23.1 - Versão de primavera/verão de 2023 {#apr-23}
 
-### Atualização de segurança{#rn-security2}
+### Aprimoramentos {#e-rn-improvements}
 
-Esta versão inclui a seguinte atualização de segurança: o Debian foi atualizado para a v11.0.
+* O serviço de mensagens de push foi modernizado para melhorar o suporte. (CAMP-47959)
+* O serviço de mensagens SMS foi aprimorado para oferecer uma melhor estabilidade. (CAMP-52217)
+* O Adobe fez muitas correções de acessibilidade para melhorar a facilidade geral de uso do aplicativo. Estes são alguns exemplos de melhorias de acessibilidade:
+   * A acessibilidade do teclado da interface foi otimizada em várias telas.
+   * O aplicativo foi aprimorado para usuários de tela sensível ao toque.
+   * A cor de vários itens na interface foi alterada para melhorar a visibilidade.
 
-## Versão 22.3 - outono/inverno de 2022 {#sept-22}
+### Outras alterações {#e-rn-changes}
 
-### Atualização de segurança{#rn-security}
+* O pronto para uso **Fluxo de trabalho de criação do enriquecimento de relatórios** foi adicionada. Após importar um target mapping de uma instância para outra, basta executar o workflow para importar as entradas de enriquecimento de relatório correspondentes. (CAMP-52452)
 
-Esta versão vem com a seguinte atualização de segurança: O Apache Tomcat foi atualizado da v7.0 para a v8.0.
+### Problemas corrigidos{#e-rn-patches}
 
-### Correções{#e-rn-fixes}
-
-* Correção de um problema com relatórios agendados, que eram acionados uma hora antes do tempo agendado. (CAMP-51502)
-* Correção de um problema nos indicadores de delivery do painel Delivery que não correspondiam aos logs de envio (nms:broadLogRcp). (CAMP-51127)
-* Correção de um problema que impedia a extensão de recursos personalizados com o Conector ACS (oferta principal). (CAMP-51033)
-* Melhoria do processo de publicação de respostas de solicitações de privacidade para evitar atraso. (CAMP-50613)
-
+* Correção de um problema que poderia resultar em erro de tempo limite ao exibir o **Hot click** relatório. (CAMP-51582)
+* Correção de um problema que poderia impedir o uso da integração com o **Places** serviço. (CAMP-51923)
+* Correção de um problema que impedia que o agendador do workflow funcionasse corretamente. (CAMP-52003)
+* Correção de um problema que impedia a exibição dos detalhes de detalhamento ao visualizar a versão PDF de um relatório dinâmico personalizado com um grande volume de dados. (CAMP-52178)
+* Correção de um problema que poderia exibir um erro ao acessar relatórios. (CAMP-52500)
+* Correção de um problema que aplicou incorretamente a variável **Limitar instâncias de MTA para esta conta** Parâmetro do conector SMS para todos os canais em vez de aplicar somente ao SMS. (CAMP-52640)
