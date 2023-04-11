@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 25e842d2b012a07b3f1ef1ff5490a6b4afa0e887
+source-git-commit: 485927b217fb68064897dd877c2f4a6dd208d443
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 27%
+source-wordcount: '275'
+ht-degree: 21%
 
 ---
 
@@ -26,11 +26,18 @@ Esta página descreve as melhorias e correções incluídas na próxima versão 
 
 ### Aprimoramentos {#e-rn-improvements}
 
-* O serviço de mensagens de push foi modernizado para otimizar a manutenção. (CAMP-47959)
-* O serviço de mensagens SMS foi modernizado para proporcionar uma estabilidade aprimorada. (CAMP-52217)
+* O serviço de mensagens de push foi modernizado para melhorar o suporte. (CAMP-47959)
+* O serviço de mensagens SMS foi aprimorado para oferecer uma melhor estabilidade. (CAMP-52217)
+* O Adobe fez muitas correções de acessibilidade para melhorar a facilidade geral de uso do aplicativo. Estes são alguns exemplos de melhorias de acessibilidade:
+   * A acessibilidade do teclado da interface foi otimizada em várias telas.
+   * O aplicativo foi aprimorado para usuários de tela sensível ao toque.
+   * A cor de vários itens na interface foi alterada para melhorar a visibilidade.
+
+### Outras alterações {#e-rn-changes}
+
 * O pronto para uso **Fluxo de trabalho de criação do enriquecimento de relatórios** foi adicionada. Após importar um target mapping de uma instância para outra, basta executar o workflow para importar as entradas de enriquecimento de relatório correspondentes. (CAMP-52452)
 
-### Correções{#e-rn-patches}
+### Problemas corrigidos{#e-rn-patches}
 
 * Correção de um problema que poderia resultar em erro de tempo limite ao exibir o **Hot click** relatório. (CAMP-51582)
 * Correção de um problema que poderia impedir o uso da integração com o **Places** serviço. (CAMP-51923)
