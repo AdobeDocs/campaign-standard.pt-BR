@@ -6,8 +6,8 @@ role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
 source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
-workflow-type: tm+mt
-source-wordcount: '1201'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ Esta versão vem com a seguinte atualização de segurança: O Apache Tomcat foi
 ### Correções{#rn-fixes}
 
 * Correção de um problema com relatórios agendados, que eram acionados uma hora antes do tempo agendado. (CAMP-51502)
-* Correção de um problema nos indicadores de delivery do painel Delivery que não correspondiam aos logs de envio (nms:broadLogRcp). (CAMP-51127)
+* Correção de um problema nos indicadores de entrega do painel Entrega que não correspondiam aos logs de envio (nms:broadLogRcp). (CAMP-51127)
 * Correção de um problema que impedia a extensão de recursos personalizados com o Conector ACS (oferta principal). (CAMP-51033)
 * Melhoria do processo de publicação de respostas de solicitações de privacidade para evitar atraso. (CAMP-50613)
 
