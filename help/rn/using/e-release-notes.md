@@ -9,8 +9,8 @@ hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: 485927b217fb68064897dd877c2f4a6dd208d443
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 21%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,13 +35,13 @@ Esta página descreve as melhorias e correções incluídas na próxima versão 
 
 ### Outras alterações {#e-rn-changes}
 
-* O pronto para uso **Fluxo de trabalho de criação do enriquecimento de relatórios** foi adicionada. Após importar um target mapping de uma instância para outra, basta executar o workflow para importar as entradas de enriquecimento de relatório correspondentes. (CAMP-52452)
+* O **fluxo de trabalho de criação do enriquecimento de relatórios** pronto para uso foi adicionado. Após importar um target mapping de uma instância para outra, basta executar o fluxo de trabalho para importar as entradas de enriquecimento de relatório correspondentes. (CAMP-52452)
 
 ### Problemas corrigidos{#e-rn-patches}
 
-* Correção de um problema que poderia resultar em erro de tempo limite ao exibir o **Hot click** relatório. (CAMP-51582)
-* Correção de um problema que poderia impedir o uso da integração com o **Places** serviço. (CAMP-51923)
-* Correção de um problema que impedia que o agendador do workflow funcionasse corretamente. (CAMP-52003)
-* Correção de um problema que impedia a exibição dos detalhes de detalhamento ao visualizar a versão PDF de um relatório dinâmico personalizado com um grande volume de dados. (CAMP-52178)
+* Correção de um problema que poderia resultar em um erro de tempo limite ao exibir o relatório **Hot click**. (CAMP-51582)
+* Correção de um problema que poderia impedir o uso da integração com o serviço **Places**. (CAMP-51923)
+* Correção de um problema que poderia impedir o funcionamento adequado do Scheduler de fluxos de trabalho. (CAMP-52003)
+* Correção de um problema que impedia a exibição do detalhamento ao visualizar a versão PDF de um relatório dinâmico personalizado com um grande volume de dados. (CAMP-52178)
 * Correção de um problema que poderia exibir um erro ao acessar relatórios. (CAMP-52500)
-* Correção de um problema que aplicou incorretamente a variável **Limitar instâncias de MTA para esta conta** Parâmetro do conector SMS para todos os canais em vez de aplicar somente ao SMS. (CAMP-52640)
+* Correção de um problema que aplicava incorretamente o parâmetro do conector SMS **Limitar instâncias de MTA desta conta** para todos os canais em vez de aplicar somente ao de SMS. (CAMP-52640)
