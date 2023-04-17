@@ -144,7 +144,7 @@ Os novos recursos, melhorias e correções incluídos na próxima versão do Cam
 
 **Melhorias**
 
-* Ao criar uma página de destino, agora é possível adicionar uma caixa de seleção obrigatória que os perfis devem marcar antes de enviar o formulário. Para obter mais informações consulte a [documentação detalhada](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox).
+* Ao criar uma landing page, agora é possível adicionar uma caixa de seleção obrigatória que os perfis devem marcar antes de enviar o formulário. Para obter mais informações consulte a [documentação detalhada](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox).
 
 * Para a integração do Triggers, a mensagem de erro exibida quando o conteúdo do acionador não recebe dados de reconciliação foi aprimorada: “Dados de alias ausentes no conteúdo”.
 
@@ -216,7 +216,7 @@ Os novos recursos, melhorias e correções incluídos na próxima versão do Cam
 
 * Correção de um problema em que os relatórios recebidos após o uso da opção **Enviar relatório agora** estavam incompletos e com dados faltando. (CAMP-48583)
 
-* Correção de um problema no Designer de email, em que as dimensões de uma imagem eram reduzidas ao ser carregada uma imagem. (CAMP-47017)
+* Correção de um problema no Designer de email, em que as dimensões de uma imagem eram reduzidas ao fazer upload da imagem. (CAMP-47017)
 
 * Correção de um problema que impedia que cada modelo do Experience Manager disponível fosse exibido ao ser criada uma entrega. (CAMP-48132)
 
@@ -332,7 +332,7 @@ Os novos recursos, melhorias e correções incluídos na próxima versão do Cam
 
 * Os seguintes idiomas foram adicionados à lista **Idioma preferencial**: Indonésio - Indonésia (in-id), Inglês - Suécia (en-se), Inglês - Ásia Pacífico (en-ap), Inglês - Japão (en-jp), Espanhol - América Latina (es-la). (CAMP-46351)
 
-* Ao testar uma página de destino, o seletor de perfis agora usará o recurso profilBase em vez do perfil para evitar atingir o tempo limite.
+* Ao testar uma landing page, o seletor de perfis agora usará o recurso profilBase em vez do perfil para evitar atingir o tempo limite.
 
 * O formato de log SMPP foi aprimorado.
 

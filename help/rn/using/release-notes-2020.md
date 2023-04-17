@@ -17,9 +17,9 @@ ht-degree: 98%
 
 # Notas de versão de 2020{#release-notes-2020}
 
-![](assets/do-not-localize/cp-icon.png) **Nova versão de junho do Painel de controle do Campaign** com monitoramento de perfis ativos, auditoria de entregabilidade de subdomínio e gerenciamento de chaves GPG. [Saiba mais](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=pt-BR).
+![](assets/do-not-localize/cp-icon.png) **Nova versão de junho do Painel de controle** com monitoramento de perfis ativos, auditoria de entregabilidade de subdomínio e gerenciamento de chaves GPG. [Saiba mais](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=pt-BR).
 
-![](assets/do-not-localize/cp-icon.png) **Nova versão de outubro do Painel de controle do Campaign** com configuração de domínio usando CNAMEs e novos recursos de monitoramento de banco de dados. [Saiba mais](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=pt-BR).
+![](assets/do-not-localize/cp-icon.png) **Nova versão de outubro do Painel de controle** com configuração de domínio usando CNAMEs e novos recursos de monitoramento de banco de dados. [Saiba mais](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=pt-BR).
 
 ## Versão 20.4 - Outubro de 2020 {#release-20-4---october-2020}
 
@@ -85,7 +85,7 @@ ht-degree: 98%
 * **Gerenciamento de privacidade**: o campo **recusa do CCPA**, que estava disponível por meio da interface do Campaign e da API, agora também é compatível com o Serviço principal de privacidade. Esse campo permite que os usuários do Adobe Campaign façam o rastreamento caso um consumidor tenha optado pela venda de informações pessoais. [Saiba mais](https://helpx.adobe.com/content/help/br/campaign/kb/acs-privacy.html#ccpa)
 * **Melhorias na execução do workflow** (beta): no contexto de uma iniciativa global em torno dos workflows, foram desenvolvidas algumas melhorias importantes para estabilizar o gerenciamento da memória, reduzir a latência e otimizar a memória consumida pelos workflows durante a execução. Esses aprimoramentos estão atualmente na versão beta e só estão disponíveis para um conjunto de clientes. A disponibilidade geral está prevista para o início de 2021.
 * Para melhorar a segurança, o Campaign agora usa um **mecanismo de assinatura** para rastrear links em emails.
-* A configuração do aplicativo móvel foi aprimorada com **mensagens de erro mais claras** ao carregar certificados do iOS ou chaves do Android.
+* A configuração do aplicativo móvel foi aprimorada com **mensagens de erro mais claras** ao fazer upload de certificados do iOS ou chaves do Android.
 * **O gerenciamento de erros de SMS** foi aprimorado para evitar a adição de muitos perfis à lista de quarentena. Por padrão, os erros de SMS agora são configurados como erros leves ao invés de erros graves. Consulte [esta página](https://helpx.adobe.com/br/campaign/kb/sms-connector-protocol-and-settings.html).
 
 **Aprimoramentos do Email Designer**
@@ -95,7 +95,7 @@ ht-degree: 98%
 * Correção de um problema que impedia que a versão em texto simples de um modelo HTML fosse gerada e sincronizada automaticamente. (CAMP-44195)
 * Correção de um problema que ocorria ao redimensionar imagens. Depois que as mensagens eram enviadas, as imagens não eram exibidas corretamente no Microsoft Outlook. (CAMP-44656)
 * Correção de um problema que ocorria ao inserir um botão e definir sua largura como &quot;auto&quot;. Depois que a mensagem era enviada, o conteúdo do botão não era exibido totalmente. (CAMP-44560)
-* Correção de um problema que ocorria ao carregar conteúdo de um arquivo HTML anexado. Depois que a mensagem era enviada para um endereço Gmail, o CSS não era aplicado, causando um problema de renderização. (CAMP-44085)
+* Correção de um problema que ocorria ao fazer upload de conteúdo de um arquivo HTML anexado. Depois que a mensagem era enviada para um endereço Gmail, o CSS não era aplicado, causando um problema de renderização. (CAMP-44085)
 * Correção de um problema que impedia que fragmentos de conteúdo usados anteriormente em uma mensagem fossem atualizados quando modificados diretamente no modelo de conteúdo. (CAMP-43973)
 * Correção de um problema com a barra de pesquisa **Fragmentos**. Ao pesquisar por um fragmento existente, a barra de pesquisa não apresentava nenhum resultado. (CAMP-44223)
 * Correção de um problema com as barras de pesquisa **Blocos de conteúdo** e **Fragmentos**. Ao usar uma das barras de pesquisa, os resultados só eram exibidos se você clicasse em **Mostrar mais resultados...**. (CAMP-44205)
@@ -103,7 +103,7 @@ ht-degree: 98%
 * Correção de um problema ao duplicar um fragmento. Após a duplicação do fragmento, faltavam linhas HTML no fragmento original. (CAMP-45207)
 * Correção de um erro que causava problemas de renderização no Microsoft Outlook. (CAMP-44749)
 * Correção de um erro que ocorria ao modificar o preenchimento do **Componente de estrutura** em um template do delivery. As guias CSS não carregavam as alterações feitas no preenchimento, causando um problema de renderização. (CAMP-45381)
-* Correção de um problema ao carregar uma imagem. A altura da imagem era automaticamente definida como 0, causando um problema de renderização. (CAMP-45366)
+* Correção de um problema ao fazer upload de imagem. A altura da imagem era automaticamente definida como 0, causando um problema de renderização. (CAMP-45366)
 
 **Outras alterações**
 
@@ -174,7 +174,7 @@ ht-degree: 98%
 * Correção de um problema de desempenho ao exibir a visão geral dos recursos personalizados com um grande volume de dados.
 * Correção de um problema que impedia a importação de um delivery usando substituições de perfil.
 * Correção de um problema ao usar substituição de perfil que impedia o envio imediato de provas se o delivery fosse programado.
-* Correção de um problema que ocorria ao carregar uma chave do Android para um aplicativo móvel. A mensagem que aparecia depois de carregar a chave com êxito exibia o valor da chave anterior.
+* Correção de um problema que ocorria ao fazer upload de uma chave do Android em aplicativo móvel. A mensagem que aparecia depois de fazer upload da chave com êxito exibia o valor da chave anterior.
 * Correção de um problema que impedia a criação de perfis de teste a partir de mensagens transacionais após a criação de uma configuração de evento com uma coleção sem atributo.
 * Correção de um problema que poderia impedir a publicação de recursos personalizados após a criação de um novo filtro usando uma agregação.
 * Correção de um problema causado pelo proxy de imagem do Gmail que ocasionava uma taxa de abertura de rastreamento incorreta para recipients do Gmail.
@@ -289,7 +289,7 @@ ht-degree: 98%
 * Correção de um erro que impedia que os usuários fizessem alterações nos relatórios. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **O novo Painel de controle do Campaign pode ser lançado** com a renovação do certificado para subdomínios CNAME. [Saiba mais](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=pt-BR).
+![](assets/do-not-localize/cp-icon.png) **O novo Painel de controle pode ser lançado** com a renovação do certificado para subdomínios CNAME. [Saiba mais](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=pt-BR).
 
 ## Versão 20.2 - Abril de 2020 {#release-20-2---april-2020}
 
@@ -327,7 +327,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->Novos recursos serão lançados no Painel de controle do Campaign em abril, incluindo o gerenciamento de registros do Google TXT, monitoramento de espaço do banco de dados e alertas de email. Para obter mais informações sobre esses recursos, consulte a [Nota de versão do Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=pt-BR).
+>Novos recursos serão lançados no Painel de controle do Campaign em abril, incluindo o gerenciamento de registros do Google TXT, monitoramento de espaço do banco de dados e alertas de email. Para obter mais informações sobre esses recursos, consulte a [Nota de versão do Painel de controle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=pt-BR).
 
 **Aprimoramentos**
 
@@ -353,7 +353,7 @@ ht-degree: 98%
 **Outras alterações**
 
 * A **Reconciliação de KPIs com o workflow predefinido do Adobe Analytics** agora é executada até a data atual, em vez de ser executada por um único dia.
-* O MCPNS não oferece suporte para a adição de APNS e APNS-SANDBOX como plataformas em um aplicativo. Depois de adicionar o certificado com êxito no Adobe Campaign Standard, você não poderá mais alterar as configurações novamente, pois apenas uma plataforma APNS (produção ou caixa de proteção) pode ser adicionada ao aplicativo MCPNS.
+* O MCPNS não oferece suporte para a adição de APNS e APNS-SANDBOX como plataformas em um aplicativo. Depois de adicionar o certificado com êxito no Adobe Campaign Standard, você não poderá mais alterar as configurações novamente, pois apenas uma plataforma APNS (produção ou sandbox) pode ser adicionada ao aplicativo MCPNS.
 
 **Integrações da Experience Platform**
 
@@ -470,7 +470,7 @@ ht-degree: 98%
 * Correção de um problema que resultava em erro ao usar uma atividade **[!UICONTROL Reconciliation]** em contextos específicos, por exemplo, com duas atividades de entrada, uma delas sendo uma atividade de exclusão. (CAMP-37490)
 * Correção de problemas de desempenho que podem ocorrer ao selecionar e atualizar perfis de teste. (CAMP-37976)
 * Correção de um problema que podia exibir páginas de erro ao assinar ou cancelar a assinatura via landing pages. (CAMP-37771)
-* Correção de um problema que ocorria ao carregar conteúdo no formato zip, com arquivos PNG referenciados no HTML com sua extensão em letras maiúsculas. (CAMP-37913)
+* Correção de um problema que ocorria ao fazer upload de conteúdo no formato zip, com arquivos PNG referenciados no HTML com sua extensão em letras maiúsculas. (CAMP-37913)
 * Correção de um problema que impedia o envio de mensagens no aplicativo ao adicionar um perfil de teste ao delivery.
 * Correção de um erro com a atividade de workflow API externa que falhava quando vinculada a atividades de enriquecimento.
 * Correção de um problema que resultava na exibição incorreta do status de mensagens SMS.

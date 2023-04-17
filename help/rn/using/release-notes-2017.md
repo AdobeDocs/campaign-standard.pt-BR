@@ -343,7 +343,7 @@ _Mensagens transacionais_
 
 * O campo rtEventHistoId não é mais exposto como um campo de personalização em um template de mensagem transacional.
 
-_Páginas de aterrissagem_
+_Landing pages_
 
 * Otimizamos o **[!UICONTROL by email]** filtro usado em landing pages para reconciliar novos assinantes com perfis de banco de dados.
 * Correção de um problema que exibia entradas de texto livre em vez de caixas de seleção ao usar campos booleanos em uma configuração de formulário.
@@ -448,7 +448,7 @@ _Emails e mensagens SMS_
 * Correção de um problema que poderia impedir a despublicação de emails transacionais.
 * Correção de um problema em que o conteúdo não podia ser sincronizado corretamente com as alterações mais recentes antes de visualizar um delivery.
 
-_Páginas de aterrissagem_
+_Landing pages_
 
 * Correção de um erro que impedia o usuário de editar ao clicar no conteúdo de uma landing page.
 

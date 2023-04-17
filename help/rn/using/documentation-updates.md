@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '7230'
 ht-degree: 100%
 
@@ -85,15 +85,15 @@ A seção **Quarentena versus Lista de bloqueios** foi esclarecida. [Leia mais](
 
 ## Julho de 2021 {#doc-updates-july-2021}
 
-Uma nova seção foi adicionada que descreve como permitir que os usuários assinem ou cancelem a inscrição de vários serviços a partir de uma única página de destino. [Leia mais](../../channels/using/managing-landing-page-form-data.md#multiple-subscriptions)
+Uma nova seção foi adicionada que descreve como permitir que os usuários assinem ou cancelem a inscrição de vários serviços a partir de uma única landing page. [Leia mais](../../channels/using/managing-landing-page-form-data.md#multiple-subscriptions)
 
-A seção **Gerenciamento de dados de formulário da página de destino** foi atualizada e explicada. [Leia mais](../../channels/using/managing-landing-page-form-data.md)
+A seção **Gerenciamento de dados de formulário da landing page** foi atualizada e explicada. [Leia mais](../../channels/using/managing-landing-page-form-data.md)
 
 ## Versão 21.2 - Junho de 2021 {#release-21-2---june-2021}
 
 **Novos recursos incluídos na versão**
 
-Validação de páginas de destino - agora é possível adicionar uma opção de contrato obrigatório às páginas de destino. [Leia mais](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)
+Validação de landing pages - agora é possível adicionar uma opção de contrato obrigatório às landing pages. [Leia mais](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)
 
 A seção **Tamanho do email** foi atualizada com informações sobre o tamanho máximo de um email, que agora é definido como 100 MB por padrão. [Leia mais](../../sending/using/design-and-personalize.md#email-size)
 
@@ -366,7 +366,7 @@ Uma nova seção que descreve os avisos que podem ser exibidos em um painel de m
 
 A documentação do MTA aprimorado do Adobe Campaign, que descreve a infraestrutura de envio atualizada, permitindo avaliação aprimorada do delivery, produtividade e manipulação de rejeição, está disponível. [Leia mais](https://helpx.adobe.com/br/campaign/kb/campaign-enhanced-mta.html)
 
-Foram adicionadas observações sobre os URLs do servidor de aplicativos e do servidor de mirror pages. Eles devem estar protegidos para que as pré-visualizações de páginas de destino e mirror pages sejam exibidas na interface do Campaign. [Leia mais](../../administration/using/branding.md#configuring-and-using-brands)
+Foram adicionadas observações sobre os URLs do servidor de aplicativos e do servidor de mirror pages. Eles devem estar protegidos para que as pré-visualizações de landing page e mirror pages sejam exibidas na interface do Campaign. [Leia mais](../../administration/using/branding.md#configuring-and-using-brands)
 
 A seção Exportar logs foi atualizada para refletir a disponibilidade da ID de log de delivery nos recursos Logs do delivery e Logs de rastreamento. A ID permite exportar um identificador exclusivo para cada log. [Leia mais](../../automating/using/exporting-logs.md)
 
@@ -396,7 +396,7 @@ O guia de introdução sobre como exportar/importar recursos personalizados foi 
 
 Um novo caso de uso que descreve como criar um grupo de controle usando um workflow no Campaign Standard foi adicionado.
 
-Informações relacionadas às propriedades das páginas de destino foram movidas para uma seção dedicada. [Leia mais](../../channels/using/configuring-landing-page.md)
+Informações relacionadas às propriedades das landing pages foram movidas para uma seção dedicada. [Leia mais](../../channels/using/configuring-landing-page.md)
 
 A documentação do Painel de controle foi integrada ao novo conjunto de documentação colaborativa. [Leia mais](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR)
 
@@ -444,7 +444,7 @@ Uma nova seção que descreve como enviar um email automático de confirmação 
 
 A seção Mensagens transacionais foi modificada com as atualizações mais recentes da interface, incluindo edição de conteúdo com o Designer de email. [Leia mais](../../channels/using/editing-transactional-message.md)
 
-O capítulo sobre páginas de destino foi reorganizado. Também foi adicionada uma nova seção que detalha as etapas de configuração de uma página de destino. [Leia mais](../../channels/using/getting-started-with-landing-pages.md)
+O capítulo sobre landing pages foi reorganizado. Também foi adicionada uma nova seção que detalha as etapas de configuração de uma landing page. [Leia mais](../../channels/using/getting-started-with-landing-pages.md)
 
 Uma nova seção foi adicionada na seção Notificações por push sobre como criar e atualizar informações de perfil com base nos dados de assinatura de um aplicativo para dispositivos móveis. [Leia mais](../../channels/using/updating-profile-with-mobile-app-data.md)
 
@@ -462,7 +462,7 @@ Uma nova seção com casos de uso sobre fluxos de trabalho focados em consultas 
 
 Um procedimento foi adicionado na seção Solução de problemas do workflow, sobre como exibir consultas SQL na guia Log. [Leia mais](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-Um novo artigo de ajuda foi adicionado, com informações relacionadas a gerenciamento de subdomínios e gerenciamento de certificados no Painel de controle do Campaign. [Leia mais](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=pt-BR)
+Um novo artigo de ajuda foi adicionado, com informações relacionadas a gerenciamento de subdomínios e gerenciamento de certificados no Painel de controle. [Leia mais](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=pt-BR)
 
 A seção que descreve os modelos e fragmentos de conteúdo foi atualizada. [Leia mais](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -510,7 +510,7 @@ Um aviso na documentação de recursos personalizados foi adicionado. Recomendam
 
 ## Jun - Jul de 2019 {#doc-updates-2019}
 
-Uma nova página sobre limitações de páginas de destino foi adicionada. [Leia mais](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
+Uma nova página sobre limitações de landing pages foi adicionada. [Leia mais](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
 Um caso de uso sobre como chamar um perfil usando uma chave de identificação composta foi adicionado. [Leia mais](../../developing/using/uc-calling-resource-id-key.md)
 
@@ -524,13 +524,13 @@ Um aviso na documentação de recursos personalizados foi adicionado. Recomendam
 
 **Novos recursos incluídos na versão**
 
-Painel de controle do Campaign - [Leia mais](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR)
+Painel de controle - [Leia mais](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR)
 
 Notificações locais - [Leia mais](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
 Aprimoramento do fluxo de trabalho - Adicione um conteúdo à atividade de sinal externo - [Leia mais](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-Aprimoramento das páginas de destino - Google reCAPTCHA - [Leia mais](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)
+Aprimoramento das landing pages - Google reCAPTCHA - [Leia mais](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)
 
 **Outras atualizações de documentação incluídas na versão**
 
@@ -770,7 +770,7 @@ Foram adicionadas informações sobre tipos de logs de rastreamento. [Leia mais]
 
 A seção da atividade de consulta foi atualizada com amostras de consultas. [Leia mais](../../automating/using/query.md#query-samples)
 
-A seção dedicada à inclusão na lista de bloqueios foi renomeada para “Conhecimento sobre os processos de aceitação e recusa”. Essa seção foi atualizada com informações sobre como gerenciar aceitações para canais específicos e como configurar páginas de destino para gerenciar aceitações e recusas. [Leia mais](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+A seção dedicada à inclusão na lista de bloqueios foi renomeada para “Conhecimento sobre os processos de aceitação e recusa”. Essa seção foi atualizada com informações sobre como gerenciar aceitações para canais específicos e como configurar landing pages para gerenciar aceitações e recusas. [Leia mais](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Conheças as práticas recomendadas para usar os servidores SFTP hospedados pela Adobe. [Leia mais](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -794,7 +794,7 @@ Uso de recursos personalizados em mensagens transacionais - [Leia mais](../../ch
 
 A API do GDPR reagrupa recursos que permitem o processamento automático de solicitações do GDPR. [Leia mais](../../api/using/creating-a-privacy-request.md)
 
-Foram adicionadas informações sobre como configurar páginas de destino para que seus destinatários possam ser incluídos na lista de bloqueios. [Leia mais](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Foram adicionadas informações sobre como configurar landing pages para que seus destinatários possam ser incluídos na lista de bloqueios. [Leia mais](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 A seção [Configuração de mensagens transacionais](../../channels/using/configuring-transactional-event.md) foi reorganizada e um [caso de uso passo a passo](../../channels/using/transactional-messaging-use-case.md) foi adicionado.
 
