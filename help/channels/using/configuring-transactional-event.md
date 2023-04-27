@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: a6768af0cea8891411f81e1782a873b5adb70a0e
+source-git-commit: fc6788bf62fa66bd43b3e50fb9bc676ccb466078
 workflow-type: tm+mt
 source-wordcount: '1705'
 ht-degree: 6%
@@ -50,7 +50,7 @@ Para começar, crie o evento correspondente às suas necessidades.
 
 >[!NOTE]
 >
->O número de eventos transacionais pode afetar sua plataforma. Para garantir o melhor desempenho, exclua os eventos não utilizados. Consulte [Excluir um evento](../../channels/using/publishing-transactional-event.md#deleting-an-event).
+>A quantidade de eventos transacionais pode afetar sua plataforma. Para garantir o melhor desempenho, exclua os eventos não utilizados. Consulte [Excluir um evento](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
 ## Definição dos atributos de evento {#defining-the-event-attributes}
 
