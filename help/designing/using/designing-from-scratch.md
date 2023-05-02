@@ -11,7 +11,7 @@ exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1239'
-ht-degree: 7%
+ht-degree: 19%
 
 ---
 
@@ -27,7 +27,7 @@ Estas são as principais etapas para criar e projetar um conteúdo de email do z
 1. Adicione imagens e edite o texto do email. Consulte [Inserção de imagens](../../designing/using/images.md#inserting-images).
 1. Personalize seu email adicionando campos de personalização, links e assim por diante. Consulte [Inserção de um campo de personalização](../../designing/using/personalization.md#inserting-a-personalization-field), [Inserção de um link](../../designing/using/links.md#inserting-a-link) e [Definição de conteúdo dinâmico em um email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 1. Defina a linha de assunto do email. Consulte [Personalização da linha de assunto de um email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-1. Pré-visualizar seu email.
+1. Visualizar seu email.
 1. Salve o conteúdo e prossiga com a mensagem depois de garantir que você tenha definido um público-alvo e agendado o envio corretamente.
 
 Você também pode fazer check-out [vídeo de introdução](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
@@ -40,8 +40,8 @@ Você também pode fazer check-out [vídeo de introdução](https://video.tv.ado
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
->title="Sobre componentes da estrutura"
->abstract="Os componentes da estrutura definem o layout do email."
+>title="Sobre os componentes de estrutura"
+>abstract="Os componentes de estrutura definem o layout do email."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns"
@@ -104,8 +104,8 @@ Você pode adicionar uma **[!UICONTROL Content block]**, a **[!UICONTROL Dynamic
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
->title="Sobre componentes de conteúdo"
->abstract="Os componentes do conteúdo são espaços reservados vazios para o conteúdo que você pode editar para criar um email."
+>title="Sobre os componentes de conteúdo"
+>abstract="Componentes de conteúdo são espaços reservados de conteúdo vazios que podem ser editados para criar um email."
 
 Os componentes do conteúdo são componentes brutos e vazios que podem ser editados depois de colocados no email.
 
@@ -156,7 +156,7 @@ Quando você tem um conteúdo que não pode ser recriado, é possível copiar e 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video"
 >title="Configurações de vídeo"
->abstract="Use esse componente para inserir um vídeo no seu email. Observe que os vídeos não funcionam em todos os clientes de email. Recomendamos definir uma imagem de fallback."
+>abstract="Use esse componente para inserir um vídeo no seu email. Observe que os vídeos não funcionam em todos os clientes de email. Recomendamos definir uma imagem alternativa."
 >additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Informações adicionais"
 
 Insira o componente de vídeo em um componente de estrutura do email e insira o link de vídeo na **[!UICONTROL Component Settings]**.
@@ -180,7 +180,7 @@ Use esse componente para inserir links às páginas de redes sociais no seu emai
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="Configurações do carrossel"
->abstract="Saiba como inserir e configurar um carrossel no seu conteúdo.Observe que o carrossel não funciona em todo o cliente de email e a imagem de fallback será exibida caso não seja compatível."
+>abstract="Saiba como inserir e configurar um carrossel no seu conteúdo. Observe que o carrossel não funciona em todo o cliente de email e a imagem alternativa será exibida caso não seja compatível."
 
 1. Arraste e solte a **[!UICONTROL Carousel]** componente dentro de um componente de estrutura.
 1. Navegue para selecionar imagens de seu computador.

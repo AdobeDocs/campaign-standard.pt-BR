@@ -11,7 +11,7 @@ exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91
 source-git-commit: 5435e1dbfbe08399c488322320ac5bb8e681a79d
 workflow-type: tm+mt
 source-wordcount: '1038'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -101,8 +101,8 @@ Para ambos **[!UICONTROL Padding]** e **[!UICONTROL Margin]**, clique no ícone 
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
->title="Configurações de plano de fundo"
->abstract="O Designer de email permite que você personalize a cor do fundo ou a imagem do fundo para o seu conteúdo.Observe que a imagem do fundo não é suportada por todos os clientes de email."
+>title="Configurações de fundo"
+>abstract="O Designer de email permite que você personalize a cor do fundo ou a imagem do fundo para o seu conteúdo. Observe que a imagem do fundo não é compatível com todos os clientes de email."
 
 Quando se trata de definir planos de fundo com o Email Designer, o Adobe recomenda o seguinte:
 

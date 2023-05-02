@@ -11,7 +11,7 @@ exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -48,7 +48,7 @@ O conteúdo de email pode ser editado no Experience Manager e, em seguida, usado
 >[!CONTEXTUALHELP]
 >id="ac_product_listing"
 >title="Utilização de listagens de produtos"
->abstract="As listas de produtos permitem que você faça referência a uma coleta de dados e a exiba no conteúdo do email."
+>abstract="As listas de produtos permitem que você faça referência a uma coleção de dados e a exiba no conteúdo do email."
 
 As listas de produtos permitem fazer referência a uma ou mais coleções de dados no conteúdo do email. Essas listas estão disponíveis para emails transacionais. Uma seção dedicada para este recurso está disponível [here](../../designing/using/using-product-listings.md).
 
@@ -60,7 +60,7 @@ O Adobe Campaign oferece várias opções de criação de email. A tabela abaixo
  <thead> 
   <tr> 
    <th> </th> 
-   <th> Email Designer<br /> </th> 
+   <th> Designer de email<br /> </th> 
    <th> Experience Manager<br /> </th> 
    <th> Dreamweaver<br /> </th> 
   </tr> 
