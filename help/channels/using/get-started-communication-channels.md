@@ -90,9 +90,9 @@ As landing pages também podem ser usadas para **adquirir ou atualizar perfis ex
 
 Leia mais:
 
-* [Introdução às páginas de aterrissagem](../../channels/using/getting-started-with-landing-pages.md)
+* [Introdução às landing pages](../../channels/using/getting-started-with-landing-pages.md)
 * [Templates de landing page](../../channels/using/landing-page-templates.md)
-* [Gerenciamento de dados de formulário de página de aterrissagem](../../channels/using/managing-landing-page-form-data.md)
+* [Gerenciamento de dados de formulário de landing page](../../channels/using/managing-landing-page-form-data.md)
 * [Configuração de um processo duplo de aceitação](../../channels/using/setting-up-a-double-opt-in-process.md)
 
 ## Recursos adicionais
