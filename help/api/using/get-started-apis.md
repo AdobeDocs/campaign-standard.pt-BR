@@ -1,6 +1,6 @@
 ---
 title: Introdução às APIs do Campaign Standard
-description: Crie integrações e construa seu próprio ecossistema ao interligar o Campaign a um painel de tecnologias.
+description: Crie integrações e construa seu próprio ecosistema interligando o Campaign a um painel de tecnologias.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
