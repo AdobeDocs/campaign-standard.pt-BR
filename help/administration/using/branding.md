@@ -7,9 +7,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1280'
 ht-degree: 76%
 
 ---
@@ -20,15 +20,15 @@ ht-degree: 76%
 
 Cada empresa tem diretrizes técnicas e visuais da marca. Com o Adobe Campaign, é possível definir um conjunto de especificações para apresentar uma marca consistente aos seus clientes, de logotipos a aspectos técnicos, como remetente de email, URL ou domínios.
 
-Os administradores técnicos podem definir uma ou várias marcas para centralizar os parâmetros que afetam a identidade de uma marca. Isso inclui o logotipo da marca, o domínio do URL de acesso da página de aterrissagem ou as configurações de rastreamento de mensagens. Com o Adobe Campaign, você pode criar essas marcas e vinculá-las a mensagens ou páginas de aterrissagem. Essa configuração é gerenciada em modelos.
+Os administradores técnicos podem definir uma ou várias marcas para centralizar os parâmetros que afetam a identidade de uma marca. Isso inclui o logotipo da marca, o domínio do URL de acesso da landing page ou as configurações de rastreamento de mensagens. Com o Adobe Campaign, você pode criar essas marcas e vinculá-las a mensagens ou landing pages. Essa configuração é gerenciada em modelos.
 
 ## Configuração e uso de marcas {#configuring-and-using-brands}
 
 O princípio principal de configurar e usar marcas é:
 
 1. Criar e configurar a marca - essa operação requer permissões específicas e é feita pelo administrador técnico do Adobe Campaign. As etapas para obter uma nova marca no Campaign são detalhadas [nesta seção](#creating-a-brand).
-1. Criar um ou vários modelos de delivery e de páginas de aterrissagem para esta marca. Consulte a seção [Criação de um modelo](../../start/using/marketing-activity-templates.md).
-1. Criar mensagens e páginas de aterrissagem com base nesse modelo. Consulte as seções [Criação de emails](../../channels/using/creating-an-email.md) e [Criação de uma página de aterrissagem](../../channels/using/designing-a-landing-page.md).
+1. Criar um ou vários modelos de delivery e de landing pages para esta marca. Consulte a seção [Criação de um modelo](../../start/using/marketing-activity-templates.md).
+1. Criar mensagens e landing pages com base nesse modelo. Consulte as seções [Criação de emails](../../channels/using/creating-an-email.md) e [Criação de uma landing page](../../channels/using/designing-a-landing-page.md).
 
 >[!IMPORTANT]
 >
@@ -65,17 +65,17 @@ Uma **Marca** é definida pelas seguintes características:
    >
    >Após atualizar os parâmetros de cabeçalho dos emails, caso o nome e o endereço de email do remetente não tiverem sido alterados no email criado a partir do modelo, verifique as configurações avançadas do modelo.
 
-* O(s) **servidor(e)s exposto(s) na Internet** define(m) os servidores usados para rastreamento, mas também para acesso à página de aterrissagem. Esta seção contém os seguintes campos:
+* O(s) **servidor(e)s exposto(s) na Internet** define(m) os servidores usados para rastreamento, mas também para acesso à landing page. Esta seção contém os seguintes campos:
 
    ![](assets/configure_branding_04.png)
 
-   * **URL externo do servidor de aplicativos** usado para hospedar e acessar as diferentes páginas de aterrissagem criadas por você.
+   * **URL externo do servidor de aplicativos** usado para hospedar e acessar as diferentes landing pages criadas por você.
    * **URL externo do servidor de rastreamento** usado como o URL rastreado durante os deliveries.
    * **URL externo do servidor de mirror pages** usado como mirror page padrão em seus deliveries.
 
    >[!NOTE]
    >
-   >Para exibir a pré-visualização da página de aterrissagem e a renderização da mirror page na interface do usuário do Campaign, os URLs do servidor de aplicativos e de mirror pages devem estar protegidos. Nesse caso, use https:// em vez de http:// ao configurar esses URLs.
+   >Para exibir a pré-visualização da landing page e a renderização da mirror page na interface do usuário do Campaign, os URLs do servidor de aplicativos e de mirror pages devem estar protegidos. Nesse caso, use https:// em vez de http:// ao configurar esses URLs.
 
 * **[!UICONTROL Tracking URL configuration (Web Analytics)]**, que define a configuração do rastreamento de URLs para sua marca.
 
@@ -85,33 +85,33 @@ Uma **Marca** é definida pelas seguintes características:
 
 ## Criação de uma nova marca {#creating-a-brand}
 
-Você pode adicionar novas entidades de sua organização ao Campaign ou criar um novo tipo de email que deve ser enviado em um subdomínio diferente. Para fazer isso, siga as etapas abaixo:
+Você pode adicionar novas entidades da organização no Campaign ou criar um novo tipo de email que deve ser enviado em um subdomínio diferente. Para fazer isso, siga as etapas abaixo:
 
-1. **Configurar um novo subdomínio** - Para qualquer novo subdomínio a ser usado pelo Adobe, a primeira etapa será configurá-lo. Você pode fazer isso por meio de [Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=pt-BR) ou entre em contato com o contato técnico do Adobe. Saiba mais sobre a configuração de subdomínio [neste artigo](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
+1. **Configurar um novo subdomínio** - Para qualquer novo subdomínio ser usado pelo Adobe, a primeira etapa será configurá-lo. Você pode executar isso até [Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=pt-BR) ou entre em contato com seu contato técnico da Adobe. Saiba mais sobre configuração de subdomínio [neste artigo](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
 
    >[!NOTE]
    >
-   >O Painel de controle do Campaign é acessível a todos os usuários administradores. As etapas para conceder acesso de Administrador a um usuário estão detalhadas [nesta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=br#discover-control-panel).
+   >O Painel de controle é acessível a todos os usuários administradores. As etapas para conceder acesso de Administrador a um usuário estão detalhadas [nesta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=pt-BR#discover-control-panel).
 
-1. **Criar um tíquete** - Após configurar o subdomínio, o Adobe o configurará no ambiente de produção. Para solicitar isso, [criar um tíquete para o Atendimento ao cliente](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) com as seguintes informações:
+1. **Criar um tíquete** - Depois que o subdomínio for configurado, o Adobe o configurará no ambiente de produção. Para solicitar isso, [criar um tíquete para o Atendimento ao cliente](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) com as seguintes informações:
 
-   * Assunto: Configuração da nova marca ACS
+   * Assunto: ACS Nova marca criada
 
-   * Conteúdo: Um novo domínio foi configurado e gostaríamos de configurá-lo em nossa plataforma do Campaign
+   * Conteúdo: um novo domínio foi configurado e gostaríamos de configurá-lo na nossa plataforma do Campaign
 
    * Domínio: XXX
 
    * URL de produção: XXX.campaign.adobe.com
 
-1. **Criar um template de delivery** - Quando a nova marca estiver disponível, a prática recomendada é criar pelo menos um novo template do delivery em branco que faça referência a essa nova marca. [Saiba mais](#linking-a-brand-to-a-template).
+1. **Criar um template do delivery** - Quando a nova marca estiver disponível, a prática recomendada é criar pelo menos um novo template do delivery em branco que faça referência a essa nova marca. [Saiba mais](#linking-a-brand-to-a-template).
 
-1. **Verificar diretrizes de entrega** - Antes de começar a usar o novo domínio, a estratégia deve ser discutida com a equipe de capacidade de entrega do Adobe. Eles ajudarão a definir as práticas recomendadas, caso uma nova afinidade deva ser criada para dividir os IPs entre domínios, por exemplo, e/ou se um plano de aumento deve ser definido. Saiba mais sobre as práticas recomendadas de capacidade de delivery [nesta seção](../../sending/using/about-deliverability.md).
+1. **Verificar diretrizes de entrega** - Antes de começar a usar o novo domínio, a estratégia deve ser discutida com a equipe de avaliação do Adobe. Eles ajudarão a definir as práticas recomendadas, se uma nova afinidade deve ser criada para dividir os IPs entre domínios, por exemplo, e/ou se um plano de aumento deve ser definido. Saiba mais sobre as Práticas recomendadas de capacidade de entrega [nesta seção](../../sending/using/about-deliverability.md).
 
 ## Atribuição de uma marca a um email {#assigning-a-brand-to-an-email}
 
 ### Associação de uma marca a um modelo {#linking-a-brand-to-a-template}
 
-Para usar os parâmetros definidos para uma marca, ele deve estar vinculado a um template do delivery ou de página de aterrissagem. Para fazer isso, é necessário criar ou editar um template.
+Para usar os parâmetros definidos para uma marca, ele deve estar vinculado a um template do delivery ou de landing page. Para fazer isso, é necessário criar ou editar um template.
 
 >[!NOTE]
 >
@@ -143,17 +143,17 @@ O modelo está vinculado à marca. No editor de email, elementos como **Endereç
 
 Neste exemplo, vamos criar uma nova marca relacionada a viagens e usá-la em um email.
 
-#### Etapa 1: Configuração de uma nova marca {#configure-a-new-brand}
+#### Etapa 1: configurar uma nova marca {#configure-a-new-brand}
 
 >[!IMPORTANT]
 >
 >A configuração da marca é gerenciada pela Adobe somente porque requer permissões específicas e configurações técnicas.
 
-1. O administrador do Adobe Campaign primeiro cria a marca do **[!UICONTROL Administration > Instance settings > Brand configuration]** e adiciona o **Férias nos trópicos** e configura o **[!UICONTROL ID]** e **[!UICONTROL Header parameters of sent emails]** da marca.
+1. Primeiro, o administrador do Adobe Campaign cria a marca a partir da **[!UICONTROL Administration > Instance settings > Brand configuration]** e adiciona a variável **Férias nos trópicos** e configura o **[!UICONTROL ID]** e a variável **[!UICONTROL Header parameters of sent emails]** da marca.
 
    ![](assets/branding_07.png)
 
-1. Em seguida, o administrador configura o URL do(s) **servidor(es) exposto(s) na Internet**, para que a página de aterrissagem possa ser usada, e depois os URLs de rastreamento.
+1. Em seguida, o administrador configura o URL do(s) **servidor(es) exposto(s) na Internet**, para que a landing page possa ser usada, e depois os URLs de rastreamento.
 
    Neste exemplo, a ferramenta **Web Analytics** usada é o **Google Analytics**. O administrador configura o URL de rastreamento da seguinte maneira:
 
@@ -161,7 +161,7 @@ Neste exemplo, vamos criar uma nova marca relacionada a viagens e usá-la em um 
 
 A marca foi criada e configurada corretamente. Ela agora pode ser usada pelas equipes de marketing.
 
-#### Etapa 2: Implementar uma nova marca {#implement-a-new-brand}
+#### Etapa 2: implementar uma nova marca {#implement-a-new-brand}
 
 Como gerente de delivery, você é responsável pela criação dos templates de delivery para usar a nova marca. Para fazer isso, siga as etapas abaixo:
 
@@ -180,7 +180,7 @@ Como gerente de delivery, você é responsável pela criação dos templates de 
 
    Agora você pode usar o template do delivery para criar emails que serão enviados para um público.
 
-#### Etapa 3: Usar a nova marca em um delivery {#use-the-new-brand-in-a-delivery}
+#### Etapa 3: usar a nova marca em um delivery {#use-the-new-brand-in-a-delivery}
 
 Para criar um email vinculado a uma marca, siga as etapas abaixo:
 

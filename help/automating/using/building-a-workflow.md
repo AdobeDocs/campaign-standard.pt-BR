@@ -9,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '981'
 ht-degree: 96%
 
 ---
@@ -40,7 +40,7 @@ O tipo de dados trocado entre uma atividade e outra pode afetar a forma como as 
 
 Você pode criar um workflow a partir de um programa, de uma campanha ou da lista de atividades de marketing.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra como criar um fluxo de trabalho em vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Descubra como criar um workflow em vídeo](#video)
 
 A criação de uma atividade de marketing é detalhada na seção [Criar atividades de marketing](../../start/using/marketing-activities.md#creating-a-marketing-activity).
 
@@ -137,4 +137,4 @@ Este vídeo mostra como criar um workflow.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-Vídeos tutoriais adicionais do Campaign Standard estão disponíveis [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
+Vídeos extras explicativos sobre o Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

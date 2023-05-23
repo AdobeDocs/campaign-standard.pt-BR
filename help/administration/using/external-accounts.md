@@ -1,14 +1,14 @@
 ---
 title: Contas externas
-description: Saiba como configurar contas externas para configurar conexões com sistemas externos, como servidores SFTP
+description: Saiba como configurar contas externas para definir conexões com sistemas externos, como servidores SFTP
 audience: administration
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1766'
+source-wordcount: '1764'
 ht-degree: 80%
 
 ---
@@ -27,7 +27,7 @@ Você pode configurar os seguintes tipos de contas externas:
 * Adobe Analytics. Para obter mais informações, consulte [esta seção](../../integrating/using/configure-campaign-analytics-integration.md).
 * Google reCAPTCHA. Para obter mais informações, consulte [esta seção](#google-recaptcha-external-account).
 * Armazenamento do Microsoft Azure Blob. Para obter mais informações, consulte [esta seção](#microsoft-azure-external-account).
-* OAuth 2.0. Para obter mais informações, consulte [esta seção](#oauth-account).
+* OAuth 2.0 Para obter mais informações, consulte [nesta seção](#oauth-account).
 
 >[!NOTE]
 >
@@ -79,22 +79,22 @@ Para evitar esses problemas, a Adobe recomenda seguir as práticas recomendadas 
 * Ocasionalmente, conecte-se no SFTP para verificar diretamente o que encontra-se lá.
 * Lembre-se de que o gerenciamento de disco SFTP é predominantemente sua responsabilidade.
 
-Além disso, observe que os IPs públicos dos quais você está tentando iniciar a conexão SFTP devem ser adicionados à lista de permissões na instância do Campaign. A adição de endereços IP à  de lista de permissões pode ser solicitada por meio de um [tíquete de suporte](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html), além de fornecer a chave pública a ser usada para autenticação.
+Além disso, observe que os IPs públicos dos quais você está tentando iniciar a conexão SFTP devem ser adicionados ao incluo na lista de permissões na instância do Campaign. A adição de endereços IP no incluo na lista de permissões pode ser solicitada por meio de um [tíquete de suporte](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html), além de fornecer a chave pública para uso na autenticação.
 
-Servidores SFTP podem ser gerenciados no Painel de controle do Campaign. Para obter mais informações, consulte a [documentação do Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=pt-BR).
+Servidores SFTP podem ser gerenciados no Painel de controle. Para obter mais informações, consulte a [documentação do Painel de controle](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=pt-BR).
 
 >[!NOTE]
 >
->O Painel de controle do Campaign é acessível a todos os usuários administradores. As etapas para conceder acesso de Administrador a um usuário estão detalhadas [nesta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=br#discover-control-panel).
+>O Painel de controle é acessível a todos os usuários administradores. As etapas para conceder acesso de Administrador a um usuário estão detalhadas [nesta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=pt-BR#discover-control-panel).
 
-## Conta OAuth 2.0 {#oauth-account}
+## Conta do OAuth 2.0 {#oauth-account}
 
 Para uma conta externa OAuth 2.0, forneça os seguintes detalhes:
 
-* A **Tipo de concessão**: only **credenciais do cliente** é compatível.
-* A **URL da API segura**: insira o endpoint de autorização.
-* **Credenciais confidenciais do OAuth 2.0**: Esta seção destina-se a credenciais confidenciais. Os valores de credenciais serão mascarados na tela após a sua adição; nesse momento, eles não serão legíveis nem editáveis. Se o endpoint de autorização exigir que uma credencial específica seja inserida no cabeçalho de autorização HTTP em vez do parâmetro POST body , é possível selecionar a opção Include in header para essa credencial.
-* **Credenciais não confidenciais do OAuth 2.0**: Esta seção destina-se a credenciais que não são confidenciais. Os valores de credenciais estarão visíveis na tela após a sua adição; eles também serão editáveis.  Se o endpoint de autorização exigir que uma credencial específica seja inserida no cabeçalho de autorização HTTP em vez do parâmetro POST body , é possível selecionar a opção Include in header para essa credencial.
+* A **Tipo de concessão**: somente **credenciais do cliente** é compatível.
+* A **URL seguro da API**: digite o endpoint de autorização.
+* **Credenciais confidenciais do OAuth 2.0**: esta seção destina-se às credenciais de natureza confidencial. Os valores de credencial serão mascarados na tela após serem adicionados; nesse ponto, eles não serão legíveis nem editáveis. Se o ponto de extremidade de autorização exigir que uma credencial específica seja inserida no cabeçalho de autorização HTTP em vez do parâmetro do corpo de POST, você poderá selecionar a opção Incluir no cabeçalho dessa credencial.
+* **Credenciais não confidenciais do OAuth 2.0**: esta seção destina-se às credenciais de natureza não confidencial. Os valores de credencial estarão visíveis na tela após serem adicionados; eles também serão editáveis.  Se o ponto de extremidade de autorização exigir que uma credencial específica seja inserida no cabeçalho de autorização HTTP em vez do parâmetro do corpo de POST, você poderá selecionar a opção Incluir no cabeçalho dessa credencial.
 
 Depois de inserir as informações da conta, clique em **Testar conexão** para verificar se a conta externa foi configurada corretamente.
 
@@ -102,7 +102,7 @@ Depois de inserir as informações da conta, clique em **Testar conexão** para 
 
 >[!NOTE]
 >
->As credenciais &quot;Content-Type: application/x-www-form-urlencoded&quot; e &quot;grant_type=client_credentials&quot; serão automaticamente adicionadas à chamada da API; portanto, não será necessário adicioná-los na seção credenciais.
+>As credenciais &quot;Content-Type: application/x-www-form-urlencoded&quot; e &quot;grant_type=client_credentials&quot; serão adicionadas automaticamente à chamada de API; portanto, não será necessário adicioná-las na seção de credenciais.
 
 ## Conta externa do Amazon S3 {#amazon-s3-external-account}
 
@@ -156,7 +156,7 @@ Como você está configurando essa nova conta externa, é necessário fornecer o
 
 O mecanismo Google reCAPTCHA permite proteger sua landing page contra spam e abuso causado por bots. Esse mecanismo não é intrusivo para os clientes, pois não requer nenhuma interação deles e se baseia em interações com seu site. Para registrar seu site, consulte esta [página](https://www.google.com/recaptcha/admin/create). Você deve escolher o tipo V3 reCAPTCHA.
 
-Para adicionar o Google reCAPTCHA V3 à sua landing page, configure-o em sua conta externa. Para obter mais informações sobre como adicioná-lo à sua landing page, consulte esta [seção](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
+Para adicionar o Google reCAPTCHA V3 à sua landing page, configure-o na sua conta externa. Para obter mais informações sobre como adicioná-lo à sua landing page, consulte esta [seção](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
 
 Para uma conta externa do Google reCAPTCHA V3, forneça os seguintes detalhes:
 
@@ -183,7 +183,7 @@ Para uma conta externa de armazenamento do Microsoft Azure Blob, forneça os seg
 * **[!UICONTROL Type]**: armazenamento do Microsoft Azure Blob
 * Seu **[!UICONTROL Account name]** e **[!UICONTROL Account key]**. Para saber onde encontrar o nome e a chave da sua conta, consulte esta [página](https://docs.microsoft.com/pt-BR/azure/storage/common/storage-account-keys-manage).
 * Seu **[!UICONTROL Endpoint suffix]**. Ele pode ser encontrado no **[!UICONTROL Connection string]** do menu **[!UICONTROL Access keys]** no Portal do Azure. Para obter mais informações, consulte esta [página](https://docs.microsoft.com/pt-BR/azure/storage/common/storage-account-keys-manage).
-* Seu nome **[!UICONTROL Container]**. Se você estiver planejando usar mais de um contêiner, crie quantas contas externas forem contêineres.
+* Seu nome **[!UICONTROL Container]**. Se você estiver planejando usar mais de um contêiner, crie quantas contas externas forem os contêineres.
 * A opção **[!UICONTROL Concurrency]** permite ajustar a velocidade das transferências de arquivos.
 
 ![](assets/external_accounts_4.png)

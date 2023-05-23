@@ -8,10 +8,10 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
-source-git-commit: f75df49e7957437df72c814aa9055d34770f22d6
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 4%
+source-wordcount: '778'
+ht-degree: 3%
 
 ---
 
@@ -19,74 +19,74 @@ ht-degree: 4%
 
 ## Adicionar credenciais ao aplicativo de integração
 
-O **[!UICONTROL Settings]** permite especificar as credenciais do Microsoft Dynamics 365 e do Adobe API. Você também pode definir configurações relacionadas à instância SFTP da Adobe Campaign.
+A variável **[!UICONTROL Settings]** permite especificar credenciais de API do Microsoft Dynamics 365 e Adobe. Você também pode definir configurações relacionadas à instância do SFTP da Adobe Campaign.
 
 ### Credenciais do Microsoft Dynamics 365
 
-As credenciais do Microsoft Dynamics 365 dão ao aplicativo de integração permissão para extrair seus dados do Microsoft Dynamics 365.  Siga primeiro as etapas na tela [Configurar o Microsoft Dynamics 365 para integração com o Campaign](../../integrating/using/d365-acs-configure-d365.md) para gerar os valores que serão colados nesta tela. As entradas descritas abaixo farão referência a esta tela.
+As Credenciais do Microsoft Dynamics 365 dão ao aplicativo de integração permissão para extrair seus dados do Microsoft Dynamics 365.  Você deve primeiro seguir as etapas na tela [Configurar o Microsoft Dynamics 365 para integração com o Campaign](../../integrating/using/d365-acs-configure-d365.md) para gerar os valores que serão colados nesta tela. As entradas descritas abaixo referenciarão esta tela.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-d365.png)
 
-* **[!UICONTROL Client ID]**: Saiba como fazer referência à ID do cliente em [esta seção](../../integrating/using/d365-acs-configure-d365.md#register-a-new-app)
+* **[!UICONTROL Client ID]**: saiba como fazer referência à ID do cliente no [nesta seção](../../integrating/using/d365-acs-configure-d365.md#register-a-new-app)
 
-* **[!UICONTROL Client Secret]**: Saiba como gerar seu Segredo do cliente em [esta seção](../../integrating/using/d365-acs-configure-d365.md#generate-a-client-secret)
+* **[!UICONTROL Client Secret]**: saiba como gerar o segredo do cliente no [nesta seção](../../integrating/using/d365-acs-configure-d365.md#generate-a-client-secret)
 
-* **[!UICONTROL Tenant]**: Saiba como encontrar sua ID de locatário no [esta seção](../../integrating/using/d365-acs-configure-d365.md#get-the-tenant-id)
+* **[!UICONTROL Tenant]**: saiba como encontrar sua ID de locatário no [nesta seção](../../integrating/using/d365-acs-configure-d365.md#get-the-tenant-id)
 
-* **[!UICONTROL URL]**: O url terá o formato `https://&lt;servername&gt;.api.crm.dynamics.com/`
+* **[!UICONTROL URL]**: o url terá o formato `https://&lt;servername&gt;.api.crm.dynamics.com/`
 
-### Credenciais da API do Adobe
+### Credenciais da API Adobe
 
 As credenciais do Adobe Campaign são geradas usando [Adobe I/O](https://www.adobe.io/). Você precisará visitar a tela [Configurar Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) e siga as instruções antes de poder preencher as entradas nesta seção.
 
-A imagem a seguir explicará detalhadamente o mapeamento entre o Adobe I/O e as entradas da tela de configurações.
+A imagem a seguir explicará em detalhes o mapeamento entre o Adobe I/O e as entradas da tela de configurações.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
 
-* *Chave de privacidade*: o processo para definir isso começa clicando no botão &quot;Gerar par chave pública/privada&quot;. Isso criará um arquivo zip que deve ser baixado. Depois de baixá-lo, descompacte o arquivo, o que resultará em dois arquivos chamados certificate_pub.crt e private.key. Coloque a chave privada em um local seguro e não a compartilhe. Abra o arquivo private.key em um editor de texto. Copie o valor inteiro no editor de texto (ctrl-A em seguida ctrl-C em um PC ou cmd-A em seguida cmd-C em um Mac). Isso deve incluir as linhas com &quot;BEGIN PRIVATE KEY&quot; e &quot;END PRIVATE KEY&quot; em sua totalidade. Cole todo este texto de várias linhas na entrada &quot;Chave privada&quot; na tela Configurações.
+* *Chave privada*: o processo para definir isso começa clicando no botão &quot;Gerar par de chaves públicas/privadas&quot;. Isso criará um arquivo zip que você deve baixar. Depois de baixá-lo, descompacte o arquivo, que resultará em dois arquivos chamados certificate_pub.crt e private.key. Certifique-se de colocar a chave privada em um local seguro e não a compartilhe. Abra o arquivo private.key em um editor de texto. Copie o valor inteiro no editor de texto (ctrl-A e ctrl-C em um PC ou cmd-A e cmd-C em uma Mac). Isso deve incluir as linhas com &quot;BEGIN PRIVATE KEY&quot; e &quot;END PRIVATE KEY&quot; em sua totalidade. Cole esse texto inteiro em várias linhas na entrada &quot;Private Key&quot; na tela Settings.
 
-* *URL*: Esse valor se ajustará ao padrão https\://mc.adobe.io/&lt;campaign-instance-name>. O cabeçalho do aplicativo de integração inclui &quot;Org&quot; e &quot;Instance&quot;. A parte &quot;campaign-instance-name&quot; do url seria simplesmente o nome encontrado neste valor de instância.
+* *URL*: este valor se ajustará ao padrão https\://mc.adobe.io/&lt;campaign-instance-name>. O cabeçalho do aplicativo de integração inclui &quot;Org&quot; e &quot;Instance&quot;. A parte &quot;campaign-instance-name&quot; do url seria simplesmente o nome encontrado nesse valor de instância.
 
-## Configurações SFTP da Adobe Campaign {#ac-smtp-settings}
+## Configurações SFTP do Adobe Campaign {#ac-smtp-settings}
 
-Essas configurações são opcionais. Você precisa defini-los se planeja usar sua instância SFTP da Adobe Campaign para logs de saída do conector. Isso será útil se você tiver problemas quando a integração estiver em execução e precisar depurar por que a saída não atende às suas expectativas.
+Essas configurações são opcionais. É necessário defini-los se você planeja usar sua instância do Adobe Campaign SFTP para logs de saída do conector. Isso será útil se tiver problemas quando a integração estiver em execução e precisar depurar por que a saída não atende às suas expectativas.
 
-O outro motivo para configurar o servidor SFTP seria se você planeja executar o fluxo de trabalho de aceitação/rejeição e há um fluxo de dados do Adobe Campaign para o Microsoft Dynamics 365, seja **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]** ou **[!UICONTROL Bidirectional]**.
+O outro motivo para configurar o servidor SFTP seria se você planejasse executar o fluxo de trabalho de aceitação/recusa e houver um fluxo de dados do Adobe Campaign para o Microsoft Dynamics 365: **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]** ou **[!UICONTROL Bidirectional]**.
 
 >[!IMPORTANT]
 >
->Você é responsável pelas informações que acessa e baixa das pastas SFTP. Se as informações contiverem dados pessoais, você será responsável por seguir todas as leis e regulamentos de privacidade aplicáveis. [Saiba mais](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
+>Você é responsável pelas informações que acessar e baixar das pastas SFTP. Se as informações contiverem dados pessoais, você será responsável por cumprir as leis e regulamentos de privacidade aplicáveis. [Saiba mais](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
 
-Para definir configurações do SFTP do Campaign para a integração com o Microsoft Dynamics 365, acesse a seguinte seção:
+Para definir as configurações de SFTP do Campaign para a integração com o Microsoft Dynamics 365, acesse a seguinte seção:
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-sftp.png)
 
-Você precisa especificar:
+É necessário especificar:
 
-* **Host SFTP**: este campo conterá &lt;campaign-instance-name>.campaign.adobe.com. O cabeçalho do aplicativo de integração inclui a variável **Org** e **Instância**. A parte &quot;campaign-instance-name&quot; do url seria simplesmente o nome encontrado neste valor de instância.
+* **Host SFTP**: este campo conterá &lt;campaign-instance-name>.campaign.adobe.com. O cabeçalho do aplicativo de integração inclui a variável **Org** e **Instância**. A parte &quot;campaign-instance-name&quot; do url seria simplesmente o nome encontrado nesse valor de instância.
 
-* **Usuário SFTP**: Se você tiver o usuário SFTP, adicione-o aqui. Caso contrário, consulte [esta seção](#ac-control-panel-settings). Como parte do processo, você receberá o nome de usuário.
+* **Usuário SFTP**: se você tiver o usuário SFTP, adicione-o aqui. Senão, consulte [nesta seção](#ac-control-panel-settings). Como parte do processo, você receberá o nome de usuário.
 
-* **Chave SFTP**: Se você tiver uma chave SSH, adicione-a aqui. Caso contrário, consulte [esta seção](#ac-control-panel-settings).
+* **Chave SFTP**: Se você tiver uma chave SSH, adicione-a aqui. Senão, consulte [nesta seção](#ac-control-panel-settings).
 
-* O **Intervalos de IP** precisará ser incluído na configuração SFTP da Adobe Campaign. Eles precisarão ser incluir na lista de permissões para que a integração use o ponto de extremidade SFTP.
+* A variável **Intervalos de IP** precisará ser incluído na configuração SFTP da Adobe Campaign. Incluir na lista de permissões Eles precisarão ser resolvidos para que a integração use o terminal SFTP.
 
-* O **Deseja exportar logs para o SFTP da Adobe Campaign?** O permite determinar se a integração gerará informações de log para o ponto de extremidade SFTP. Isso pode ser usado para ajudar na depuração se o Adobe Campaign ou o Microsoft Dynamics 365 não estiver mostrando as informações que você está esperando.
+* A variável **Deseja exportar logs para o Adobe Campaign SFTP?** permite determinar se a integração exibirá informações de log para o endpoint do SFTP. Isso pode ser usado para ajudar na depuração se o Adobe Campaign ou o Microsoft Dynamics 365 não estiver mostrando as informações que você espera.
 
 ## Configuração do SFTP no Adobe Campaign {#ac-control-panel-settings}
 
-Descubra o gerenciamento SFTP com [Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=br) nestas seções:
+Descubra o gerenciamento SFTP com o [Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR) nestas seções:
 
-* [Sobre o gerenciamento de SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=pt-BR#sftp-management)
+* [Sobre o gerenciamento de SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html#sftp-management)
 
-* [Gerenciamento de armazenamentos SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=en#installing-ssh-key)
+* [Gerenciamento de armazenamentos SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#installing-ssh-key)
 
-* [Adicionar intervalos IP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html?lang=en#sftp-management)
+* [Adicionar intervalos de IP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html#sftp-management)
 
-* [Gerenciar chaves](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=en#sftp-management)
+* [Gerenciar chaves](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#sftp-management)
 
-* [Faça logon no servidor SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html?lang=en#sftp-management)
+* [Fazer logon no servidor SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html#sftp-management)
 
-Quando a configuração for concluída, faça logon no servidor SFTP com a chave privada e crie o diretório &quot;d365_loads/exports&quot;.
+Depois que a configuração for concluída, faça logon no servidor SFTP com a chave privada e crie o diretório &quot;d365_loads/exports&quot;.
 
-[Visitar esta página](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management) para obter informações sobre o servidor SFTP da Adobe Campaign Standard.
+[Visitar esta página](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=pt-BR#sftp-management) para obter informações sobre o servidor SFTP da Adobe Campaign Standard.

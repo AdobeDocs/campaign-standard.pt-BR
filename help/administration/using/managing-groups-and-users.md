@@ -6,10 +6,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 73%
+source-wordcount: '931'
+ht-degree: 72%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 73%
 
 >[!IMPORTANT]
 >
->O **[!UICONTROL Access to the deliverability parameters (Deliverability)]** e **[!UICONTROL Message Center agents (mcExec)]** os grupos de segurança são internos do Adobe somente e não devem ser atribuídos a nenhum usuário.
+>A variável **[!UICONTROL Access to the deliverability parameters (Deliverability)]** e **[!UICONTROL Message Center agents (mcExec)]** os grupos de segurança são apenas internos em Adobe e não devem ser atribuídos a nenhum usuário.
 
 Os grupos de segurança são conjuntos de usuários que compartilham as mesmas funções e direitos na organização.
 
-Os usuários devem estar sempre vinculados a um grupo de segurança. Assim, você poderá atribuir funções específicas e unidades organizacionais a eles. Para restringir o acesso de um usuário, não o adicione à Campanha **[!UICONTROL Standard Users]** , pois está vinculado a **[!UICONTROL All]** unidade organizacional.
+Os usuários devem estar sempre vinculados a um grupo de segurança. Assim, você poderá atribuir funções específicas e unidades organizacionais a eles. Para restringir o acesso de um usuário, não o adicione à Campanha **[!UICONTROL Standard Users]** agrupar, pois está vinculado a **[!UICONTROL All]** unidade organizacional.
 
-Para obter mais informações sobre funções, a tabela na página a seguir apresenta as operações possíveis disponíveis de acordo com as funções de um usuário: [Autorizações Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
+Para obter mais informações sobre funções, a tabela na página a seguir apresenta possíveis operações disponíveis de acordo com as funções de um usuário: [Autorizações Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
 
 Os grupos de segurança padrão são:
 
@@ -42,7 +42,7 @@ Observe que esses grupos de segurança incorporados são somente leitura e não 
 >
 >Observe que no Admin Console, os grupos de segurança são chamados de perfis.
 
-Você poderá criar grupos de segurança se os grupos predefinidos não forem suficientes para gerenciar seus usuários. Eles podem ser gerenciados por administradores que têm acesso aos menus de administração do Adobe Campaign e ao Admin Console. Para obter mais informações sobre a Admin Console, consulte esta seção [documentação](https://helpx.adobe.com/br/enterprise/managing/user-guide.html).
+Você poderá criar grupos de segurança se os grupos predefinidos não forem suficientes para gerenciar seus usuários. Eles podem ser gerenciados por administradores que têm acesso aos menus de administração do Adobe Campaign e ao Admin Console. Para obter mais informações sobre o Admin Console, consulte esta [documentação](https://helpx.adobe.com/br/enterprise/managing/user-guide.html).
 
 Aqui, precisamos primeiro atribuir os dois grupos predefinidos Usuário padrão e Administrador aos nossos usuários. Esses grupos de segurança restringirão algumas funcionalidades do Adobe Campaign: o Usuário padrão tem acesso básico ao Adobe Campaign, enquanto o Administrador pode acessar os menus de administração, por exemplo.
 
@@ -54,7 +54,7 @@ Em seguida, criaremos um conjunto de grupos de segurança Geometrixx e Geometrix
 
 Primeiro, é necessário atribuir um dos grupos de segurança predefinidos aos usuários:
 
-1. No Admin Console , selecione a instância e, em seguida, a variável **Usuários** guia .
+1. No Admin Console, selecione a instância e, em seguida, a variável **Usuários** guia.
 
    ![](assets/manage_security_group_2.png)
 
@@ -69,7 +69,7 @@ Primeiro, é necessário atribuir um dos grupos de segurança predefinidos aos u
 
 Assim que os dois usuários estiverem conectados aos grupos de segurança predefinidos **[!UICONTROL Administrators]** e **[!UICONTROL Standard users]** que atribuirão funções aos nossos usuários, o usuário Administrador poderá criar os dois grupos de segurança **Geometrixx** e **Geometrixx Clothes** que atribuirão unidades organizacionais aos usuários, além dos grupos de segurança predefinidos.
 
-1. No Admin Console , selecione a instância e, em seguida, a variável **Produtos** guia .
+1. No Admin Console, selecione a instância e, em seguida, a variável **Produtos** guia.
 1. Clique no botão **Novo perfil** para criar o grupo de segurança **Geometrixx**.
 
    ![](assets/create_security_1.png)
@@ -111,11 +111,11 @@ Assim que os dois usuários estiverem conectados aos grupos de segurança predef
 
    ![](assets/manage_security_group_9.png)
 
-Os grupos de segurança recém-criados agora são criados no Admin Console. Para que eles sejam completamente sincronizados, você também precisa criá-los no Adobe Campaign.
+Os grupos de segurança recém-criados agora estão criados no Admin Console. Para que eles sejam completamente sincronizados, você também precisa criá-los no Adobe Campaign.
 
 O usuário Administrador precisa criar o conjunto de grupos de segurança que são usados para atribuir as unidades organizacionais Geometrixx e Geometrixx Clothes. Para saber como criar unidades organizacionais, consulte [Criação e gerenciamento de unidades](../../administration/using/organizational-units.md#creating-and-managing-units).
 
-1. Clique no botão **Adobe** logotipo , no canto superior esquerdo, em seguida, selecione **[!UICONTROL Administration > Users & Security > Security groups]**.
+1. Clique em **Adobe** no canto superior esquerdo e selecione **[!UICONTROL Administration > Users & Security > Security groups]**.
 1. Crie o novo grupo de segurança e especifique o **[!UICONTROL Label]** e a **[!UICONTROL ID]**.
 
    A ID precisa ser a mesma escolhida no Admin Console.
@@ -124,7 +124,7 @@ O usuário Administrador precisa criar o conjunto de grupos de segurança que s�
 
    >[!NOTE]
    >
-   >Se você estiver atribuindo um grupo de segurança pronto para uso aos usuários, será necessário redefinir a unidade organizacional.
+   >Se você estiver atribuindo um grupo de segurança predefinido aos usuários, será necessário redefinir a unidade organizacional.
 
    ![](assets/manage_security_group_6.png)
 
@@ -137,4 +137,4 @@ Seus usuários agora estão atribuídos a um grupo de segurança e podem se cone
 
 >[!IMPORTANT]
 >
->Se os usuários forem removidos de um grupo de segurança no Admin Console, eles continuarão fazendo parte do grupo de segurança Adobe Campaign e não poderão mais fazer logon no Adobe Campaign. Nesse caso, remova os endereços de email dos usuários no Admin Console para impedir que eles recebam informações confidenciais.
+>Se os usuários forem removidos de um grupo de segurança no Admin Console, eles continuarão fazendo parte do grupo de segurança do Adobe Campaign e não poderão mais fazer logon no Adobe Campaign. Nesse caso, remova os endereços de email dos usuários no Admin Console para impedir que eles recebam informações confidenciais.

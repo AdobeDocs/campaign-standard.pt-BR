@@ -8,49 +8,49 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: b39ce1f6-0c5b-4270-86a1-b79c49cd199c
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 7%
+source-wordcount: '441'
+ht-degree: 6%
 
 ---
 
 # Exportação de listas{#exporting-lists}
 
-O Adobe Campaign permite exportar suas listas diretamente em um arquivo para uso futuro. Exportar uma lista em um arquivo gera uma entrada de log no **[!UICONTROL Export audits]** menu. Para obter mais informações sobre auditorias de exportação, consulte a seção [Auditar exportações](../../administration/using/auditing-export-logs.md).
+O Adobe Campaign permite exportar suas listas diretamente em um arquivo para uso futuro. A exportação de uma lista em um arquivo gera uma entrada de log no **[!UICONTROL Export audits]** menu. Para obter mais informações sobre auditorias de exportação, consulte a seção [Auditar exportações](../../administration/using/auditing-export-logs.md).
 
-![](assets/do-not-localize/how-to-video.png) [Descubra como configurar uma lista no vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Descubra como configurar uma lista em vídeo](#video)
 
-A opção Exportar lista permite exportar um máximo de 100.000 linhas por padrão, definidas pelo **Nms_ExportListLimit** opção. Essa opção pode ser gerenciada pelo administrador funcional, no **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu.
+A opção Exportar lista permite exportar um máximo de 100.000 linhas por padrão, definidas pelo **Nms_ExportListLimit** opção. Essa opção pode ser gerenciada pelo administrador funcional, sob o **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu.
 
-A lista de exportação está disponível em todas as telas que têm uma **Lista** exibição de modo, para usuários com o **[!UICONTROL EXPORT (export)]** função.
+A lista de exportação está disponível em todas as telas com uma **Lista** modo de exibição, para usuários com **[!UICONTROL EXPORT (export)]** função.
 
-1. Vá para o **Lista** tela. Por exemplo, a tela de visão geral do perfil de teste ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ).
-1. Verifique se a tela está no **Lista** modo.
+1. Ir para o escolhido **Lista** tela. Por exemplo, a tela de visão geral do perfil de teste ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ).
+1. Verifique se a tela está no estado **Lista** modo.
 
    ![](assets/export_list_mode_switch.png)
 
-1. Organize as colunas na lista na ordem em que deseja exportá-las usando a **[!UICONTROL Configure list]** no canto superior direito. Além das colunas configuradas, a chave primária do recurso também será exportada.
+1. Organize as colunas na lista na ordem em que deseja exportá-las usando o **[!UICONTROL Configure list]** no canto superior direito. Além das colunas configuradas, a chave primária do recurso também será exportada.
 1. Se desejar, você pode aplicar um filtro. Para fazer isso, clique no botão no canto superior esquerdo para mostrar o painel de pesquisa.
 
-   Se você realizar uma exportação de uma lista contendo recursos diferentes, deverá aplicar seus filtros para que apenas um tipo de recurso seja exibido na lista.
+   Se você realizar uma exportação de uma lista contendo recursos diferentes, será necessário aplicar os filtros para que apenas um tipo de recurso seja exibido na lista.
 
-1. Se desejar, classifique as colunas escolhidas.
-1. Selecione o botão exportar ![](assets/exportlistbutton.png).
+1. Se desejar, classifique a(s) coluna(s) escolhida(s).
+1. Selecione o botão de exportação ![](assets/exportlistbutton.png).
 
-   Um pop-up será exibido para confirmar a exportação. Depois de confirmar a exportação, o arquivo é baixado automaticamente no computador.
+   Um pop-up será exibido para confirmar a exportação. Após confirmar a exportação, o arquivo será baixado automaticamente no computador.
 
-O arquivo é gerado no formato CSV com uma extensão .TXT. Ele é nomeado de acordo com o recurso exportado e a data de exportação. Por exemplo: o nome profileBase_20150426_120253.txt seria aplicado a uma exportação de perfil realizada em 26 de abril de 2015 em 12:02:53. Ele é codificado no formato UTF-8.
+O arquivo é gerado no formato CSV com uma extensão .TXT. Ele é nomeado de acordo com o recurso exportado e a data de exportação. Por exemplo: o nome profileBase_20150426_120253.txt seria aplicado a uma exportação de perfil realizada em 26 de abril de 2015 às 12:02:53. Está codificado no formato UTF-8.
 
-Os valores numéricos e as datas levam em consideração a hora local (localidade) do usuário que realiza a exportação. Por exemplo: DD-MM-AAAA ou MM-DD-AAAA.
+Os valores numéricos e as datas levam em conta a hora local (localidade) do usuário que realiza a exportação. Por exemplo: DD-MM-AAAA ou MM-DD-AAAA.
 
-Para realizar uma exportação maior que essa, é necessário criar um workflow dedicado. Consulte a [Extrair arquivo](../../automating/using/extract-file.md) seção.
+Para realizar uma exportação maior que isso, você deve criar um fluxo de trabalho dedicado. Consulte a [Extrair arquivo](../../automating/using/extract-file.md) seção.
 
 **Exemplo**
 
 O exemplo a seguir é uma exportação realizada da lista de perfis definida abaixo:
 
-* Colunas exibidas (em ordem): Sobrenome, nome, data de nascimento, endereço de email.
+* Colunas exibidas (em ordem): Sobrenome, Nome, Data de nascimento, Endereço de email.
 * Os nomes são classificados em ordem alfabética.
 
 ![](assets/export_list_example1.png)
@@ -82,4 +82,4 @@ Este vídeo mostra como configurar listas.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
 
-Vídeos tutoriais adicionais do Campaign Standard estão disponíveis [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
+Vídeos extras explicativos sobre o Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

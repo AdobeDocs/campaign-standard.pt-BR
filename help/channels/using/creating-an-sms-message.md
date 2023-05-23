@@ -9,9 +9,9 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '559'
 ht-degree: 89%
 
 ---
@@ -47,9 +47,9 @@ Para criar e enviar mensagens SMS para um telefone celular, é necessário:
 
    >[!NOTE]
    >
-   >O nome da atividade e sua ID são exibidos na interface, mas não são visíveis para os recipients da mensagem.
+   >O nome da atividade e sua ID aparecem na interface, mas não são visíveis para os recipients da mensagem.
    >
-   >Certifique-se de que o campo de ID não contenha nenhum espaço em branco para evitar discrepâncias, por exemplo, ao integrar com o Adobe Analytics.
+   >Verifique se o campo de ID não contém nenhum espaço em branco para evitar discrepâncias, por exemplo, ao integrar com o Adobe Analytics.
 
 1. Especifique o público que deseja segmentar. É possível selecionar um público existente ou segmentar diretamente uma população definindo e combinando regras.
 
@@ -87,8 +87,8 @@ Quando o envio estiver concluído, você pode iniciar a medição do impacto de 
 
 ## Tutorial em vídeo {#video}
 
-Este vídeo mostra como criar um delivery de SMS.
+Este vídeo mostra como criar uma entrega de SMS.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
 
-Vídeos tutoriais adicionais do Campaign Standard estão disponíveis [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
+Vídeos extras explicativos sobre o Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

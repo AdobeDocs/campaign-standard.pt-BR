@@ -9,9 +9,9 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '847'
 ht-degree: 79%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 79%
 
 >[!IMPORTANT]
 >
->As listas de produtos só estão disponíveis para **mensagens de email transacionais** através da [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) interface.
+>As listas de produtos só estão disponíveis para **mensagens de email transacionais** por meio da [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) interface.
 
-Ao editar o conteúdo de um email transacional, é possível criar listas de produtos que façam referência a uma ou mais coleções de dados. Por exemplo, em um email de abandono de carrinho, você pode incluir uma lista de todos os produtos que estavam nos carrinhos dos usuários quando eles saíram do site, com uma imagem, o preço e um link para cada produto.
+Ao editar o conteúdo de um email transacional, você pode criar listas de produtos que façam referência a uma ou mais coleções de dados. Por exemplo, em um email de abandono de carrinho, você pode incluir uma lista de todos os produtos que estavam nos carrinhos dos usuários quando eles saíram do site, com uma imagem, o preço e um link para cada produto.
 
 Para adicionar uma lista de produtos abandonados em uma mensagem transacional, siga as etapas abaixo.
 
-Você também pode assistir [esse conjunto de vídeos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails) explicando as etapas necessárias para configurar as listagens de produtos em um email transacional.
+Você também pode assistir [este conjunto de vídeos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html#configure-product-listings-in-transactional-emails) explicando as etapas necessárias para configurar as listas de produtos em um email transacional.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Você também pode assistir [esse conjunto de vídeos](https://experienceleague.
 Antes de usar uma lista de produtos em uma mensagem transacional, é necessário definir no nível do evento a lista de produtos e os campos para cada produto da lista que você deseja exibir. Para obter mais informações, consulte [Definição de coleções de dados](../../channels/using/configuring-transactional-event.md#defining-data-collections).
 
 1. Na mensagem transacional, clique no bloco **[!UICONTROL Content]** para modificar o conteúdo do email.
-1. Arraste e solte um componente de estrutura no espaço de trabalho. Para obter mais informações, consulte [Definição da estrutura do email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Arraste e solte um componente de estrutura no espaço de trabalho. Para obter mais informações, consulte [Definição da estrutura de email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
    Por exemplo, selecione um componente de estrutura de uma coluna e adicione um componente de texto, um componente de imagem e um componente de botão. Para obter mais informações, consulte [Uso de componentes de conteúdo](../../designing/using/designing-from-scratch.md#about-content-components).
 
@@ -56,7 +56,7 @@ Antes de usar uma lista de produtos em uma mensagem transacional, é necessário
 
    >[!NOTE]
    >
-   >A opção **[!UICONTROL Column]** só está disponível ao usar um componente de estrutura de várias colunas ( **[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** e **[!UICONTROL 4:4 column]** ). Ao editar a lista de produtos, preencha apenas a primeira coluna: as outras colunas não serão consideradas. Para obter mais informações sobre a seleção de componentes da estrutura, consulte [Definição da estrutura do email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+   >A opção **[!UICONTROL Column]** só está disponível ao usar um componente de estrutura de várias colunas ( **[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** e **[!UICONTROL 4:4 column]** ). Ao editar a lista de produtos, preencha apenas a primeira coluna: as outras colunas não serão consideradas. Para obter mais informações sobre a seleção de componentes de estrutura, consulte [Definição da estrutura de email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 1. Selecione a coleção de dados criada ao configurar o evento relacionado à mensagem transacional. Você pode encontrá-la no nó **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
@@ -127,7 +127,7 @@ Para obter mais informações sobre como criar uma coleção e campos relacionad
 
    ![](assets/message-center_loop_fallback.png)
 
-   O conteúdo de fallback será exibido se a coleção estiver vazia quando o evento for acionado, por exemplo, se um cliente não tiver nada em seu carrinho.
+   O conteúdo de fallback será exibido se a coleção estiver vazia quando o evento for acionado. Por exemplo, se um cliente não tiver nada em seu carrinho.
 
 1. No painel Configurações, edite os estilos para a lista de produtos. Para obter mais informações, consulte [Gerenciamento de estilos de email](../../designing/using/styles.md).
 1. Pré-visualize o email usando um perfil de teste vinculado ao evento transacional relevante e para o qual você definiu os dados da coleta. Por exemplo, adicione as seguintes informações na seção **[!UICONTROL Event data]** para o perfil de teste que você deseja usar:
