@@ -1,6 +1,6 @@
 ---
 title: Leitura obrigatória
-description: Leitura obrigatória antes de usar APIs.
+description: Deve ser lido antes de usar APIs.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -19,19 +19,19 @@ ht-degree: 0%
 
 ## Requisitos técnicos
 
-* As APIs do Adobe Campaign devem ser usadas somente do Servidor para o Servidor.
-* Verifique sempre com seu contato técnico do Adobe se o caso de uso que você deseja implementar está alinhado com a escala permitida pelas APIs do Adobe Campaign.
-* A configuração de um acesso do Adobe IO requer permissões específicas. Entre em contato com o Suporte do Adobe para verificar se há problemas.
+* As APIs do Adobe Campaign devem ser usadas somente Servidor para Servidor.
+* Verifique sempre com seu contato técnico Adobe se o caso de uso que deseja implementar está alinhado com a escala permitida pelas APIs do Adobe Campaign.
+* A configuração de um acesso do Adobe IO requer permissões específicas. Entre em contato com o Suporte do Adobe para resolver qualquer problema.
 
 ## Direitos e acesso
 
 * Por padrão, as APIs do Adobe Campaign usam o contexto de administrador e, portanto, as unidades e funções da organização não se aplicam.
 * As APIs do Adobe Campaign são excluídas do contexto de função.
-* Se quiser configurar as APIs com uma unidade ou funções de organização, verifique primeiro com seu contato técnico do Adobe.
+* Se quiser configurar as APIs com uma unidade organizacional ou funções, verifique primeiro com seu contato técnico para Adobe.
 
 ## Representação de recursos
 
-Todos os recursos da API estão disponíveis em **JSON** com uma extensão de URL ou dentro de um Cabeçalho aceito HTTP:
+Todos os recursos da API estão disponíveis em **JSON** com uma extensão de URL ou dentro de um Cabeçalho HTTP Accept:
 
 `GET /profileAndServices/<resourceName>.json`
 
@@ -41,7 +41,7 @@ Todos os recursos da API estão disponíveis em **JSON** com uma extensão de UR
 
 <br/>
 
-***exemplo de solicitação***
+***amostra de solicitação***
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile.json \
@@ -55,25 +55,25 @@ Todos os recursos da API estão disponíveis em **JSON** com uma extensão de UR
 
 * Não tente criar um URL sozinho. Todos os URLs são retornados pela API. No entanto, é possível criar um URL com base no nome do recurso de nível superior.
 
-* Os valores da chave primária automática (PKey) que ilustram os exemplos não devem funcionar em outra implantação específica. Eles são produzidos pela API do Adobe Campaign.
+* Os valores de chave primária automática (PKey) que ilustram os exemplos não devem funcionar em outra implantação específica. Eles são produzidos pela API do Adobe Campaign.
 
 * Os valores de Chave primária automática gerados pelo Adobe Campaign nunca devem ser armazenados em um banco de dados ou site externo. Você deve gerar campos-chave específicos na definição do banco de dados e usá-los durante os desenvolvimentos.
 
 ## Chaves personalizadas {#custom-keys}
 
-Se o recurso de perfil tiver sido estendido com um campo de chave personalizada, você poderá usar esse campo como uma chave em vez da Chave primária automática gerada pelo Adobe Campaign:
+Se o recurso de perfil tiver sido estendido com um campo de chave personalizado, você poderá usar esse campo como uma chave em vez da Chave primária automática gerada pelo Adobe Campaign:
 
 `GET /.../profileAndServicesExt/profile/<customKey>`
 
-As chaves personalizadas não podem ser modificadas usando uma operação PATCH se o valor da chave for diferente da chave de origem ou se estiver usando sua própria chave comercial como URI em vez da fornecida pelo Adobe.
+Chaves personalizadas não podem ser modificadas usando uma operação PATCH se o valor da chave for diferente da chave de origem, ou se você estiver usando sua própria chave comercial como URI em vez do fornecido pelo Adobe.
 
-Usar uma chave personalizada para **recursos de perfil de nível superior** somente. Os URLs são retornados pela API e nunca devem ser criados por você mesmo.
+Use uma chave personalizada para **recursos de perfil de nível superior** somente. Os URLs são retornados pela API e nunca devem ser criados por você mesmo.
 
 <br/>
 
-***Solicitação de exemplo***
+***Exemplo de solicitação***
 
-Para recuperar as assinaturas de um perfil usando uma chave personalizada, execute uma operação de GET na chave personalizada.
+Para recuperar as assinaturas de um perfil usando uma chave personalizada, execute uma operação GET na chave personalizada.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<customKey> \

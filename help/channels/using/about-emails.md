@@ -22,9 +22,9 @@ O canal de email é um dos canais principais do Adobe Campaign, permitindo agend
 
 Você pode enviar diferentes tipos de emails:
 
-* Emails de envio único: emails básicos que você pode enviar uma vez para um target definido.
-* Emails recorrentes: envie o mesmo email regularmente e agregue cada envio e seus relatórios periodicamente. Um exemplo comum é um email de aniversário. Emails recorrentes estão disponíveis somente por meio de workflows.
+* Emails de envio único: emails básicos que você pode enviar uma vez para um público-alvo definido.
+* Emails recorrentes: envie o mesmo email regularmente e agregue cada envio e seus relatórios periodicamente. Um exemplo comum é um email de aniversário. Os emails recorrentes estão disponíveis somente por meio de workflows.
 * Emails de teste A/B: teste até 3 versões de um email.
 * Emails transacionais: emails unitários que são acionados com base no comportamento dos clientes.
 
-Para saber mais sobre as práticas recomendadas ao criar e enviar emails, consulte o [Práticas recomendadas para delivery](../../sending/using/delivery-best-practices.md) seção.
+Para saber mais sobre as práticas recomendadas ao criar e enviar emails, consulte o [Práticas recomendadas de entrega](../../sending/using/delivery-best-practices.md) seção.

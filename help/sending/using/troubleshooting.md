@@ -1,6 +1,6 @@
 ---
 title: Solução de problemas de capacidade de entrega no Adobe Campaign Standard
-description: Saiba o que fazer quando enfrentar problemas de capacidade de entrega com o Adobe Campaign Standard.
+description: Saiba o que fazer quando houver problemas de capacidade de delivery com o Adobe Campaign Standard.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
@@ -29,11 +29,11 @@ Ao receber sempre a mesma mensagem de erro para um ISP, o email ou IP pode ter s
 * Atualize os formulários de subscrição para detectar qualquer erro nos nomes de domínio inseridos (por exemplo: gmaul.com ou yaho.com).
 * Se ocorrer erros que indicam que as mensagens são declaradas como spam ou que estão constantemente bloqueadas, tente excluir os destinatários que não abriram ou clicaram em uma das mensagens nos últimos 12 meses a partir do público-alvo.
 
-Se o problema persistir, entre em contato com os serviços comerciais ou de entrega ou com o suporte da Adobe Campaign.
+Se o problema persistir, entre em contato com os serviços comerciais, de entrega ou com o suporte da Adobe Campaign.
 
 ## Lista de bloqueios × quarentena {#denylist-versus-quarantine}
 
-* **Qual é a diferença entre um endereço de email em lista de bloqueios e um email em quarentena?**
+* **Qual é a diferença entre um endereço de email na inclui na lista de bloqueios e um endereço de email na quarentena?**
 
    * O status **[!UICONTROL On denylist]** é resultado de um [loop de comentários](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=pt-BR#feedback-loops) (quando uma pessoa reporta uma mensagem como spam).
 
@@ -42,25 +42,25 @@ Se o problema persistir, entre em contato com os serviços comerciais ou de entr
 
 * **O que significam os diferentes motivos de erro de quarentena?**
 
-   Aqui estão 10 possíveis motivos: não definido, usuário desconhecido, domínio inválido, endereço em lista de bloqueios, recusado, erro ignorado, inacessível, conta desativada, caixa de correio cheia, não conectado.
+   Aqui estão os 10 possíveis motivos: não definido, usuário desconhecido, domínio inválido, endereço na inclui na lista de bloqueios, recusado, erro ignorado, inacessível, conta desativada, caixa de correio cheia e não conectado.
 
    Para obter mais informações, consulte [Entendendo o gerenciamento da quarentena](../../sending/using/understanding-quarantine-management.md).
 
 ## Remoção da lista de bloqueios {#removing-from-denylist}
 
-* **Um dos meus recipients foi adicionado à lista de bloqueios por engano. Como faço para removê-los da lista de bloqueios para que eu possa iniciar o envio de mensagens para eles novamente?**
+* **Um dos meus recipients foi adicionado ao incluo na lista de bloqueios por engano. Lista de bloqueios Como faço para removê-los do arquivo de classificação para que eu possa iniciar o envio de mensagens para eles novamente?**
 
    * Vá para **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
    * Nos detalhes do registro correspondente, defina o valor do campo **[!UICONTROL Status]** como **[!UICONTROL Valid]**.
    * Salve o registro.
 
-* **Como é possível descobrir se um dos IPs está em lista de bloqueios? Como remover meus IPs de uma lista de bloqueios?**
+* **Como é possível descobrir se um dos IPs está no incluo na lista de bloqueios? Como remover meus IPs de uma lista de bloqueios?**
 
-   Para verificar se o endereço IP está em lista de bloqueios, você pode usar vários sites para verificá-lo, como:
+   Para verificar se o endereço IP está no arquivo de inclui na lista de bloqueios, é possível usar vários sites para verificá-lo, como:
    * [MX Toolbox](https://mxtoolbox.com/)
    * [Qual é meu endereço IP](https://whatismyipaddress.com)
 
-   Geralmente, o resultado da verificação do endereço IP retornará uma lista que contém os detalhes da lista de bloqueios e também o nome do site que bloqueou o endereço IP.
+   Geralmente, o resultado da verificação do endereço IP retorna uma lista que contém os detalhes do incluo na lista de bloqueios de pesquisa e também o nome do site que bloqueou o endereço IP.
 
    Ao clicar no link correspondente, é possível acessar os detalhes do site.
 

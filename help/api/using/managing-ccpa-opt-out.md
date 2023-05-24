@@ -1,6 +1,6 @@
 ---
 title: Gerenciamento de recusa do CCPA
-description: Saiba como gerenciar a recusa do CCPA com APIs
+description: Saiba como gerenciar o cancelamento da CCPA com APIs
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,11 +17,11 @@ ht-degree: 6%
 
 # Gerenciamento de recusa do CCPA {#managing-ccpa-optout}
 
-O status de recusa do CCPA de um perfil pode ser monitorado e gerenciado com o uso da variável **ccpaOptOut** atributo de perfil e os valores &quot;true&quot; ou &quot;false&quot;:
+O status de recusa do CCPA de um perfil pode ser monitorado e gerenciado usando o **ccpaOptOut** atributo de perfil e os valores &quot;true&quot; ou &quot;false&quot;:
 
 `"ccpaOptOut": <value>`
 
-* **true**: Proíbe a venda de informações pessoais.
+* **true**: proíbe a venda de informações pessoais.
 * **false**: autoriza a venda de informações pessoais.
 
 <!--The “CCPA Opt-Out” attribute is only available starting 19.4. For 19.3 environments, you need to extend the Profiles resource and add a boolean field. This field will be added to the API with the chosen label. We suggest you use “Opt-Out for CCPA”.
@@ -32,7 +32,7 @@ O status de recusa do CCPA de um perfil pode ser monitorado e gerenciado com o u
 
 ***Solicitações de exemplo***
 
-* Exemplo de solicitação do GET para recuperar o status de recusa do CCPA do perfil.
+* Exemplo de solicitação do GET para recuperar o status de recusa do CCPA de um perfil.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -54,7 +54,7 @@ O status de recusa do CCPA de um perfil pode ser monitorado e gerenciado com o u
    }
    ```
 
-* Exemplo de solicitação do POST para marcar um perfil para não participação no CCPA.
+* Exemplo de solicitação de POST para marcar um perfil para recusa do CCPA.
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
@@ -84,7 +84,7 @@ O status de recusa do CCPA de um perfil pode ser monitorado e gerenciado com o u
    }
    ```
 
-* Exemplo de solicitação do PATCH para atualizar um perfil para não participação no CCPA.
+* Exemplo de solicitação de PATCH para atualizar um perfil para recusa do CCPA.
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \

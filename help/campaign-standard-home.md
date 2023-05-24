@@ -77,7 +77,7 @@ Saiba mais sobre as diretrizes gerais para delivery para dispositivos móveis (S
 | Páginas úteis | Recursos para desenvolvedores |
 |---|---|
 | [Notas de versão](rn/using/release-notes.md) | [Experience Cloud Triggers](integrating/using/about-adobe-experience-cloud-triggers.md) |
-| [Documentação do Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR) | [APIs do Campaign](api/using/get-started-apis.md) |
+| [Documentação do Painel de controle](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR) | [APIs do Campaign](api/using/get-started-apis.md) |
 | [Guia de implementação](https://helpx.adobe.com/br/campaign/kb/campaign-standard-implementation-guide.html) | [Lista de mensagens de erro](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html) |
 | [Planejamento de versão](rn/using/release-planning.md) | [Modelo de dados do Campaign](developing/using/datamodel-introduction.md) |
 | [Recursos obsoletos e removidos](rn/using/deprecated-features.md) | [Guia multissoluções](integrating/using/get-started-campaign-integrations.md) |

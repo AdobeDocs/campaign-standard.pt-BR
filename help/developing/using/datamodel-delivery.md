@@ -1,6 +1,6 @@
 ---
-title: Entrega do DataModel
-description: Saiba mais sobre o datamodel
+title: Entrega do modelo de dados
+description: Saiba mais sobre o modelo de dados
 audience: developing
 content-type: reference
 feature: Data Model
@@ -33,7 +33,7 @@ ht-degree: 31%
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>ID de recurso principal</td>
+                  <td>ID do recurso principal</td>
                   <td>sequência de caracteres </td>
                   <td> </td>
                </tr>
@@ -45,7 +45,7 @@ ht-degree: 31%
                </tr>
                <tr>
                   <td>avançado</td>
-                  <td>Delivery avançado</td>
+                  <td>Entrega avançada</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -57,7 +57,7 @@ ht-degree: 31%
                </tr>
                <tr>
                   <td>aemContents</td>
-                  <td>Conteúdos do Adobe Experience Manager</td>
+                  <td>Conteúdo do Adobe Experience Manager</td>
                   <td>coleção </td>
                   <td> </td>
                </tr>
@@ -80,19 +80,19 @@ ht-degree: 31%
                   <td> </td>
                </tr>
                <tr>
-                  <td>marca (brandingBase)</td>
+                  <td>identidade visual (brandingBase)</td>
                   <td>Marca</td>
                   <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>broadLogs</td>
-                  <td>Logs do delivery</td>
+                  <td>Logs de entrega</td>
                   <td>coleção </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>build</td>
+                  <td>builtIn</td>
                   <td>Objeto de aplicativo integrado</td>
                   <td>booleano </td>
                   <td> </td>
@@ -105,7 +105,7 @@ ht-degree: 31%
                </tr>
                <tr>
                   <td>cmsAccount (extAccountAEMBase)</td>
-                  <td>Conta Adobe Experience Manager</td>
+                  <td>Conta do Adobe Experience Manager</td>
                   <td>Link  </td>
                   <td> </td>
                </tr>
@@ -157,7 +157,7 @@ ht-degree: 31%
                   <td>enumeração (byte) </td>
                   <td>
                      <ul>
-                        <li>Delivery em massa - em massa - 1</li>
+                        <li>Entrega em massa - em massa - 1</li>
                         <li>Mid-sourcing - midSourcing - 4</li>
                         <li>Descrição - descritiva - 2</li>
                         <li>VALOR INVÁLIDO - __Valor_Inválido__ - __Valor_Inválido__</li>
@@ -174,7 +174,7 @@ ht-degree: 31%
                <tr>
                   <td>desc</td>
                   <td>Descrição</td>
-                  <td>string (512)</td>
+                  <td>sequência de caracteres (512)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -191,7 +191,7 @@ ht-degree: 31%
                </tr>
                <tr>
                   <td>exclusões</td>
-                  <td>Causas de exclusão</td>
+                  <td>Causas da exclusão</td>
                   <td>coleção </td>
                   <td> </td>
                </tr>
@@ -207,7 +207,7 @@ ht-degree: 31%
                   <td>enumeração (byte) </td>
                   <td>
                      <ul>
-                        <li>Exclusivo - uma vez - 0</li>
+                        <li>Exclusivo - oneTime - 0</li>
                         <li>Contínuo - contínuo - 1</li>
                         <li>Centro de mensagens - messageCenter - 2</li>
                         <li>VALOR INVÁLIDO - __Valor_Inválido__ - __Valor_Inválido__</li>
@@ -216,7 +216,7 @@ ht-degree: 31%
                </tr>
                <tr>
                   <td>forecastLogs</td>
-                  <td>ForecastLog</td>
+                  <td>RegistroDePrevisão</td>
                   <td>coleção </td>
                   <td> </td>
                </tr>
@@ -239,11 +239,11 @@ ht-degree: 31%
                   <td>
                      <ul>
                         <li>Email transacional - emailLightning - 60</li>
-                        <li>Fax - 4</li>
+                        <li>Fax - fax - 4</li>
                         <li>Móvel (SMS) - sms - 1</li>
                         <li>Email recorrente - emailRefresh - 30</li>
                         <li>Correspondência direta - papel - 3</li>
-                        <li>Telefone - Telefone - 2</li>
+                        <li>Telefone - telefone - 2</li>
                         <li>Outros - outros - 120</li>
                         <li>SMS recorrente - smsRefresh - 31</li>
                         <li>Aplicativo móvel - notificação por push - 40</li>
@@ -278,7 +278,7 @@ ht-degree: 31%
                   <td> </td>
                </tr>
                <tr>
-                  <td>trabalho</td>
+                  <td>tarefa</td>
                   <td>Processo</td>
                   <td>coleção </td>
                   <td> </td>
@@ -298,7 +298,7 @@ ht-degree: 31%
                <tr>
                   <td>label</td>
                   <td>Rótulo</td>
-                  <td>string (128)</td>
+                  <td>sequência de caracteres (128)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -310,7 +310,7 @@ ht-degree: 31%
                <tr>
                   <td>logicalStatus</td>
                   <td>Status da execução</td>
-                  <td>enumeration (string) (255)</td>
+                  <td>enumeração (cadeia de caracteres) (255)</td>
                   <td>
                      <ul>
                         <li>Em andamento - iniciado - iniciado</li>
@@ -342,13 +342,13 @@ ht-degree: 31%
                </tr>
                <tr>
                   <td>principal (deliveryBase)</td>
-                  <td>Instância principal</td>
+                  <td>instância principal</td>
                   <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>masterKpis</td>
-                  <td>Indicadores principais</td>
+                  <td>indicadores principais</td>
                   <td>Item </td>
                   <td> </td>
                </tr>
@@ -358,10 +358,10 @@ ht-degree: 31%
                   <td>enumeração (byte) </td>
                   <td>
                      <ul>
-                        <li>Fax - 4</li>
+                        <li>Fax - fax - 4</li>
                         <li>Móvel (SMS) - sms - 1</li>
                         <li>Email - email - 0</li>
-                        <li>Telefone - Telefone - 2</li>
+                        <li>Telefone - telefone - 2</li>
                         <li>Correspondência direta - papel - 3</li>
                         <li>Aplicativo móvel - notificação por push - 40</li>
                         <li>Outros - outros - 120</li>
@@ -371,14 +371,14 @@ ht-degree: 31%
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
-                  <td>Modificação por</td>
+                  <td>Modificado por</td>
                   <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>name</td>
                   <td>ID</td>
-                  <td>string (64)</td>
+                  <td>sequência de caracteres (64)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -394,7 +394,7 @@ ht-degree: 31%
                   <td> </td>
                </tr>
                <tr>
-                  <td>parent (deliveryBase)</td>
+                  <td>pai (deliveryBase)</td>
                   <td>Entrega principal</td>
                   <td>Link  </td>
                   <td> </td>
@@ -405,14 +405,14 @@ ht-degree: 31%
                   <td>enumeração (byte) </td>
                   <td>
                      <ul>
-                        <li>Alta - alta - 20</li>
+                        <li>Alto - alto - 20</li>
                         <li>VALOR INVÁLIDO - __Valor_Inválido__ - __Valor_Inválido__</li>
                         <li>Normal - normal - 10</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>program (programBase)</td>
+                  <td>programa (programBase)</td>
                   <td>Programa</td>
                   <td>Link  </td>
                   <td> </td>
@@ -431,7 +431,7 @@ ht-degree: 31%
                </tr>
                <tr>
                   <td>pushnotificationParameters</td>
-                  <td>Parâmetros PushNotification</td>
+                  <td>Parâmetros de PushNotification</td>
                   <td>Item </td>
                   <td> </td>
                </tr>
@@ -444,12 +444,12 @@ ht-degree: 31%
                <tr>
                   <td>resourceVersion</td>
                   <td>Versão do recurso</td>
-                  <td>string (255)</td>
+                  <td>sequência de caracteres (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>ribbonMessage</td>
-                  <td>Mensagem de fita</td>
+                  <td>Mensagem da faixa de opções</td>
                   <td>sequência de caracteres </td>
                   <td> </td>
                </tr>
@@ -460,7 +460,7 @@ ht-degree: 31%
                   <td> </td>
                </tr>
                <tr>
-                  <td>programação</td>
+                  <td>agendamento</td>
                   <td>Agendamento de entrega</td>
                   <td>Item </td>
                   <td> </td>
@@ -473,7 +473,7 @@ ht-degree: 31%
                </tr>
                <tr>
                   <td>smsPreview</td>
-                  <td>Visualização de SMS</td>
+                  <td>Visualização do SMS</td>
                   <td>Item </td>
                   <td> </td>
                </tr>
@@ -483,11 +483,11 @@ ht-degree: 31%
                   <td>enumeração (byte) </td>
                   <td>
                      <ul>
-                        <li>Iniciar pendente - startPending - 51</li>
+                        <li>Início pendente - startPending - 51</li>
                         <li>Pronto para ser entregue - pronto - 45</li>
-                        <li>Tentativa pendente - retryPending - 61</li>
+                        <li>Repetição pendente - retryPending - 61</li>
                         <li>Tentativa em andamento - retryInProgress - 62</li>
-                        <li>Falha - falha - 87</li>
+                        <li>Com falha - com falha - 87</li>
                         <li>Em andamento - iniciado - 55</li>
                         <li>Direcionamento pendente - targetPrepPending - 11</li>
                         <li>Personalização pendente - messagePrepPending - 21</li>
@@ -496,10 +496,10 @@ ht-degree: 31%
                         <li>Concluído - concluído - 95</li>
                         <li>Contagem em andamento - targetSelection - 12</li>
                         <li>Mensagem finalizada - messageReady - 25</li>
-                        <li>Falha na personalização ou contagem - preparationError - 37</li>
-                        <li>Parado - cancelado - 85</li>
+                        <li>Falha na personalização ou na contagem - preparationError - 37</li>
+                        <li>Interrompido - cancelado - 85</li>
                         <li>Personalização em andamento - messagePreparation - 22</li>
-                        <li>Pronto para Target - targetReady - 15</li>
+                        <li>Target pronto - targetReady - 15</li>
                         <li>VALOR INVÁLIDO - __Valor_Inválido__ - __Valor_Inválido__</li>
                         <li>Arbitragem em andamento - targetArbitration - 13</li>
                      </ul>
@@ -512,21 +512,21 @@ ht-degree: 31%
                   <td> </td>
                </tr>
                <tr>
-                  <td>template (deliveryTemplateSummary)</td>
-                  <td>Modelo da entrega</td>
+                  <td>modelo (deliveryTemplateSummary)</td>
+                  <td>Template de entrega</td>
                   <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>miniatura</td>
-                  <td>Miniatura do delivery</td>
-                  <td>string (255)</td>
+                  <td>Miniatura de entrega</td>
+                  <td>sequência de caracteres (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>título</td>
                   <td>Entrega</td>
-                  <td>string (255)</td>
+                  <td>sequência de caracteres (255)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -567,8 +567,8 @@ ht-degree: 31%
                </tr>
                <tr>
                   <td>workflowStatus</td>
-                  <td>Status do workflow</td>
-                  <td>enumeration (string) (255)</td>
+                  <td>Status do fluxo de trabalho</td>
+                  <td>enumeração (cadeia de caracteres) (255)</td>
                   <td>
                      <ul>
                         <li>Em andamento - iniciado - iniciado</li>
@@ -584,7 +584,7 @@ ht-degree: 31%
 
 ## Filtros
 
-Por tipo de canal (porCanal)
+Por tipo de canal (byChannel)
 
 <table>
     <tr>
@@ -592,7 +592,7 @@ Por tipo de canal (porCanal)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>canal</td>
+    <td>channel</td>
     <td>enumeração</td>
     </tr>
 </table>
@@ -640,7 +640,7 @@ Por nome ou rótulo (byText)
     </tr>
 </table>
 
-Por período (porPeríodo)
+Por período (byPeriod)
 
 <table>
     <tr>
@@ -683,7 +683,7 @@ Por status de publicação (byPublicationStatus)
     </tr>
 </table>
 
-Por status (porEstado)
+Por status (por estado)
 
 <table>
     <tr>
@@ -696,7 +696,7 @@ Por status (porEstado)
     </tr>
 </table>
 
-Mensagens de acompanhamento (showSegulowup)
+Mensagens de acompanhamento (showFollowup)
 
 <table>
     <tr>
@@ -709,7 +709,7 @@ Mensagens de acompanhamento (showSegulowup)
     </tr>
 </table>
 
-Incluir deliveries avançados (comAdvanced)
+Incluir entregas avançadas (com Avançado)
 
 <table>
     <tr>
@@ -722,7 +722,7 @@ Incluir deliveries avançados (comAdvanced)
     </tr>
 </table>
 
-Incluir deliveries contínuos de uma lista heterogênea (com Contínuo)
+Incluir deliveries contínuos de uma lista heterogênea (com Continuous)
 
 <table>
     <tr>
@@ -743,12 +743,12 @@ Incluir provas (com FCP)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>comFCP</td>
+    <td>withFCP</td>
     <td>booleano</td>
     </tr>
 </table>
 
-Planejado durante o período especificado (byPlanning)
+Planejado durante o período determinado (por Planejamento)
 
 <table>
     <tr>
@@ -765,7 +765,7 @@ Planejado durante o período especificado (byPlanning)
     </tr>
 </table>
 
-Apresentar durante um determinado período (porCalendário)
+Presente durante determinado período (por calendário)
 
 <table>
     <tr>
@@ -790,7 +790,7 @@ Mostrar pronto para uso (showOob)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>oob</td>
+    <td>trabalho</td>
     <td>booleano</td>
     </tr>
 </table>

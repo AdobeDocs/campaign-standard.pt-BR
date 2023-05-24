@@ -36,8 +36,8 @@ Por conseguinte, é aconselhável que uma desduplicação tenha somente uma tran
 
 **Tópicos relacionados**
 
-* [Caso de uso: Identificação de duplicatas antes de um delivery](../../automating/using/identifying-duplicated-before-delivery.md)
-* [Caso de uso: Desduplicação de dados de um arquivo importado](../../automating/using/deduplicating-data-imported-file.md)
+* [Caso de uso: identificação de duplicatas antes de um delivery](../../automating/using/identifying-duplicated-before-delivery.md)
+* [Caso de uso: desduplicação de dados de um arquivo importado](../../automating/using/deduplicating-data-imported-file.md)
 
 ## Configuração {#configuration}
 

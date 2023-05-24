@@ -41,7 +41,7 @@ A preparação da mensagem é acionada de acordo com os parâmetros de execuçã
 
 **Tópicos relacionados:**
 
-* [Caso de uso: Junção de deliveries de email e de correspondência direta](../../automating/using/coupling-email-direct-mail.md)
+* [Caso de uso: combinação de deliveries de email e de correspondência direta](../../automating/using/coupling-email-direct-mail.md)
 * [Sobre correspondência direta](../../channels/using/about-direct-mail.md)
 
 ## Configuração {#configuration}

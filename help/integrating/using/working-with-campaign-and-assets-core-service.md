@@ -1,6 +1,6 @@
 ---
 title: Trabalhar com o serviço principal do Campaign e do Assets
-description: Use quaisquer recursos compartilhados no Adobe Experience Cloud em suas mensagens e landing pages da Adobe Campaign graças à integração do Serviço principal de ativos .
+description: Use todos os recursos compartilhados com o Adobe Experience Cloud nas mensagens e páginas de aterrissagem do Adobe Campaign graças à integração do Serviço principal de ativos.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
@@ -17,13 +17,13 @@ ht-degree: 20%
 
 # Trabalhar com o serviço principal do Campaign e do Assets{#working-with-campaign-and-assets-core-service}
 
-A integração do Serviço principal de ativos ou dos ativos sob demanda (dependendo da configuração do ambiente do Adobe Experience Cloud) com o Adobe Campaign permite usar todos os ativos compartilhados no Adobe Experience Cloud nos emails e landing pages do Adobe Campaign.
+A integração do serviço principal do Assets ou Assets on Demand (dependendo da configuração de seu ambiente do Adobe Experience Cloud) com o Adobe Campaign permite usar quaisquer ativos compartilhados no Adobe Experience Cloud em emails e landing pages do Adobe Campaign.
 
-A integração com o Assets Core Service é restrita a [Administradores funcionais](../../administration/using/users-management.md#functional-administrators).
+A integração com o Serviço principal de ativos está restrita a [Administradores funcionais](../../administration/using/users-management.md#functional-administrators).
 
 Os recursos compartilhados do Adobe Experience Cloud podem ser usados em seus emails e landing pages, da seguinte maneira:
 
-1. Ao editar o conteúdo de um email ou página de aterrissagem, vá para um bloco de imagem e selecione **[!UICONTROL Image shared from Adobe Experience Cloud]** por meio do menu contextual.
+1. Ao editar o conteúdo de um email ou uma landing page, vá para um bloco de imagem e selecione **[!UICONTROL Image shared from Adobe Experience Cloud]** no menu contextual.
 
    ![](assets/dam_insert_image_dce.png)
 

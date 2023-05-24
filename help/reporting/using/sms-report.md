@@ -1,6 +1,6 @@
 ---
 title: Relatório de SMS
-description: Com o relatório pronto para uso do SMS, saiba mais sobre o sucesso dos deliveries de SMS.
+description: Com o relatório pronto para uso de SMS, saiba mais sobre o sucesso dos deliveries de SMS.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -17,12 +17,12 @@ ht-degree: 5%
 
 # Relatório de SMS{#sms-report}
 
-O **SMS** fornece detalhes sobre deliveries de SMS, como taxas de delivery e rejeição.
+A variável **SMS** O relatório fornece detalhes sobre deliveries de SMS, como taxas de delivery e rejeição.
 
 ![](assets/dynamic_report_sms.png)
 
-O **Resumo do SMS** tabelas, gráficos e números de resumo contêm dados disponíveis para deliveries de SMS que foram enviados.
+A variável **Resumo do SMS** tabela, gráficos e números de resumo contêm dados disponíveis para deliveries de SMS que foram enviados.
 
-* **Processado/enviado**: O número de SMS enviados.
-* **Entregue**: O número de SMS entregues.
-* **Rejeições + Erros**: O número de mensagens que não puderam ser entregues.
+* **Processado/enviado**: o número de SMS enviado.
+* **Entregue**: o número de SMS entregue.
+* **Devoluções + Erros**: o número de mensagens que não puderam ser entregues.

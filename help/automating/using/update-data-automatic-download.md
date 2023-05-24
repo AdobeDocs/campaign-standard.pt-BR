@@ -28,7 +28,7 @@ Para criar o workflow, siga estas etapas:
 
 1. Arraste e solte uma atividade [Transfer file](../../automating/using/transfer-file.md) no seu fluxo de trabalho.
 1. Selecione e abra a atividade usando o botão ![](assets/edit_darkgrey-24px.png) das ações rápidas exibidas.
-1. Configure a atividade de uma maneira que ela recupere o arquivo desejado. Na guia **[!UICONTROL Protocol]**, selecione **SFTP**.
+1. Configure a atividade de forma que ela recupere o arquivo desejado. Na guia **[!UICONTROL Protocol]**, selecione **SFTP**.
 1. Selecione a opção **Use parâmetros de conexão definidos em uma conta externa**.
 1. Insira o nome da conta externa.
 1. Insira o **Caminho do arquivo no servidor remoto**.
@@ -36,13 +36,13 @@ Para criar o workflow, siga estas etapas:
    ![](assets/wkf_file_transfer_07.png)
 
 1. Confirme sua atividade.
-1. Arraste e solte uma [Carregar arquivo](../../automating/using/load-file.md) atividade no seu fluxo de trabalho e coloque-a depois da variável **[!UICONTROL Transfer file]** atividade .
+1. Arraste e solte uma [Carregar arquivo](../../automating/using/load-file.md) atividade no seu fluxo de trabalho e coloque-a depois da variável **[!UICONTROL Transfer file]** atividade.
 1. Selecione e abra a atividade usando o botão ![](assets/edit_darkgrey-24px.png) das ações rápidas exibidas.
 1. Na seção **[!UICONTROL File to load]** da guia **[!UICONTROL Execution]**, marque a opção **[!UICONTROL Use the file specified in the inbound transition]**.
 
    ![](assets/wkf_file_loading8.png)
 
 1. Configure a atividade conforme especificado anteriormente.
-1. Arraste e solte um [Atualizar dados](../../automating/using/update-data.md) atividade no seu fluxo de trabalho e coloque-a depois da variável **[!UICONTROL Load file]** , em seguida, configure-a.
+1. Arraste e solte um [Atualizar dados](../../automating/using/update-data.md) atividade no seu fluxo de trabalho e coloque-a depois da variável **[!UICONTROL Load file]** atividade e, em seguida, a configure.
 
 Depois que o fluxo de trabalho é iniciado, os dados do arquivo carregado são extraídos e depois usados para enriquecer o banco de dados do Adobe Campaign.

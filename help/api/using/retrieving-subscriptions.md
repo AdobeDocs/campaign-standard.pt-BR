@@ -16,18 +16,18 @@ ht-degree: 1%
 
 ## Recuperação de perfis que assinaram um serviço
 
-Este é um procedimento em duas etapas.
+Este é um procedimento de duas etapas.
 
 1. Recupere o URL de assinaturas do serviço desejado.
-1. Execute uma solicitação GET no URL de assinaturas. Retorna a lista de subscrições do serviço, com cada perfil associado.
+1. Execute uma solicitação GET no URL de assinaturas. Ele retorna a lista de subscrições para o serviço, com cada perfil associado.
 
 >[!CAUTION]
 >
->A API REST retorna a propriedade &quot;href&quot;, que contém o URL a ser usado. <b>Sempre use o URL contido na resposta para fazer a solicitação de API subsequente</b>.
+>A API REST retorna a propriedade &quot;href&quot;, que contém o URL a ser usado. <b>Sempre usar o URL contido na resposta para fazer a solicitação de API subsequente</b>.
 
 <br/>
 
-***Solicitação de exemplo***
+***Exemplo de solicitação***
 
 Execute uma solicitação GET para recuperar o serviço.
 
@@ -39,7 +39,7 @@ Execute uma solicitação GET para recuperar o serviço.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Retorna o URL de subscrições do serviço.
+Ele retorna o URL de subscrições do serviço.
 
 ```
   {
@@ -63,7 +63,7 @@ Execute uma solicitação GET no URL de assinaturas.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-A lista de assinaturas do serviço é exibida, com cada perfil associado.
+A lista de subscrições do serviço é exibida, com cada perfil associado.
 
 ```
   {
@@ -80,18 +80,18 @@ A lista de assinaturas do serviço é exibida, com cada perfil associado.
   }
 ```
 
-## Recuperação dos serviços aos quais um perfil se inscreveu
+## Recuperar os serviços que um perfil assinou
 
-Este é um procedimento em duas etapas.
+Este é um procedimento de duas etapas.
 
 1. Recupere o URL de assinaturas de um determinado perfil.
-1. Execute uma solicitação GET no URL. Retorna a lista de assinaturas do perfil, com cada serviço associado.
+1. Execute uma solicitação GET no URL. Retorna a lista de subscrições do perfil, com cada serviço associado.
 
 <br/>
 
-***Solicitação de exemplo***
+***Exemplo de solicitação***
 
-Execute uma solicitação do GET para recuperar o perfil.
+Execute uma solicitação GET para recuperar o perfil.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -101,7 +101,7 @@ Execute uma solicitação do GET para recuperar o perfil.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Retorna o URL de assinaturas do perfil.
+Ele retorna o URL de assinaturas do perfil.
 
 ```
   {
@@ -125,7 +125,7 @@ Execute uma solicitação GET no URL de assinaturas.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Retorna a lista de serviços aos quais o perfil se inscreveu.
+Retorna a lista de serviços que o perfil assinou.
 
 ```
   {

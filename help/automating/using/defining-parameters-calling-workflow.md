@@ -21,22 +21,22 @@ Esta seção detalha como definir parâmetros ao chamar um workflow. Para obter 
 
 Antes de definir os parâmetros, verifique se:
 
-* Os parâmetros foram declarados no **[!UICONTROL External Signal]** atividade . Consulte [esta página](../../automating/using/declaring-parameters-external-signal.md).
+* Os parâmetros foram declarados na variável **[!UICONTROL External Signal]** atividade. Consulte [esta página](../../automating/using/declaring-parameters-external-signal.md).
 * O fluxo de trabalho que contém a atividade de sinal está em execução.
 
 Para configurar o **[!UICONTROL End]** siga as etapas abaixo:
 
-1. Abra o **[!UICONTROL End]** e, em seguida, selecione a **[!UICONTROL External signal]** guia .
-1. Selecione o workflow e a atividade de sinal externo que deseja chamar.
-1. Clique no botão **[!UICONTROL Create element]** para adicionar um parâmetro e, em seguida, preencha seu nome e valor.
+1. Abra o **[!UICONTROL End]** e selecione a **[!UICONTROL External signal]** guia.
+1. Selecione a atividade de workflow e sinal externo que deseja chamar.
+1. Clique em **[!UICONTROL Create element]** botão para adicionar um parâmetro, em seguida, preencha o nome e o valor.
 
    * **[!UICONTROL Name]**: o nome que foi declarado no **[!UICONTROL External signal]** atividade (consulte [esta página](../../automating/using/declaring-parameters-external-signal.md)).
-   * **[!UICONTROL Value]**: o valor que você deseja atribuir ao parâmetro. O valor deve seguir a variável **Sintaxe padrão**, descritas em [esta seção](../../automating/using/advanced-expression-editing.md#standard-syntax).
+   * **[!UICONTROL Value]**: o valor que você deseja atribuir ao parâmetro. O valor deve seguir o **Sintaxe padrão**, descrito em [nesta seção](../../automating/using/advanced-expression-editing.md#standard-syntax).
 
    ![](assets/extsignal_definingparameters_2.png)
 
    >[!CAUTION]
    >
-   >Verifique se todos os parâmetros foram declarados no **[!UICONTROL External signal]** atividade . Caso contrário, ocorrerá um erro ao executar a atividade.
+   >Verifique se todos os parâmetros foram declarados no **[!UICONTROL External signal]** atividade. Caso contrário, ocorrerá um erro ao executar a atividade.
 
-1. Após definir os parâmetros, confirme a atividade e salve o fluxo de trabalho.
+1. Depois que os parâmetros forem definidos, confirme a atividade e salve o workflow.

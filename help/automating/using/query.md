@@ -53,7 +53,7 @@ A atividade **[!UICONTROL Query]** pode ser usada para várias finalidades:
 
    >[!NOTE]
    >
-   >Ao direcionar um público-alvo, observe que a definição do público-alvo não é mencionada, mas **copiado** no query. Se você fizer qualquer alteração no público-alvo depois que ele tiver sido direcionado em um query, certifique-se de configurar o query novamente para considerar a nova definição.
+   >Ao direcionar um público-alvo, observe que a definição do público-alvo não é referenciada, mas **copiado** na query. Se você fizer qualquer alteração no público depois de ele ter sido direcionado em um query, configure o query novamente para levar a nova definição em consideração.
 
 1. Você pode definir **[!UICONTROL Additional data]** para a população direcionada em uma guia dedicada. Esses dados são armazenados em colunas adicionais e só podem ser usados para o workflow em andamento. Especificamente, você pode adicionar dados das tabelas do banco de dados do Adobe Campaign vinculadas ao targeting dimension do query. Consulte a seção [Enriquecimento de dados](#enriching-data).
 
@@ -63,7 +63,7 @@ A atividade **[!UICONTROL Query]** pode ser usada para várias finalidades:
 
 1. Na guia **[!UICONTROL Transition]**, a opção **[!UICONTROL Enable an outbound transition]** permite adicionar uma transição de saída após a atividade de query, mesmo que ela não recupere dados.
 
-   O código de segmento da transição de saída pode ser personalizado usando uma expressão padrão e variáveis de eventos (consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
+   O código de segmento da transição de saída pode ser personalizado com uma expressão padrão e variáveis de eventos (consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
 
 1. Confirme a configuração da sua atividade e salve o fluxo de trabalho.
 
@@ -71,7 +71,7 @@ A atividade **[!UICONTROL Query]** pode ser usada para várias finalidades:
 
 Os targeting dimensions e os recursos permitem definir em quais elementos um query se baseará para determinar o público alvo de um delivery.
 
-Eles são configurados em [target mappings](../../administration/using/target-mappings-in-campaign.md)e são definidos ao criar um workflow, na variável **[!UICONTROL Properties]** de uma atividade Query .
+Eles são configurados em [target mappings](../../administration/using/target-mappings-in-campaign.md), e são definidos ao criar um workflow, na **[!UICONTROL Properties]** de uma atividade Query.
 
 >[!NOTE]
 >
@@ -123,7 +123,7 @@ Após adicionar dados adicionais, você poderá aplicar mais um nível de filtro
 >
 >Por padrão, a opção **[!UICONTROL Remove duplicate rows (DISTINCT)]** está marcada nas **[!UICONTROL Advanced options]** da guia **[!UICONTROL Additional data]** do query. Se a atividade **[!UICONTROL Query]** contiver vários (de 100) dados adicionais definidos, é recomendável desmarcar essa opção para otimizar o desempenho. Observe que se essa opção for desmarcada, poderão ocorrer duplicatas, dependendo dos dados consultados.
 
-Um caso de uso sobre como personalizar um email com dados adicionais é apresentado em [esta seção](../../automating/using/personalizing-email-with-additional-data.md).
+Um caso de uso sobre como personalizar um email com dados adicionais é apresentado em [nesta seção](../../automating/using/personalizing-email-with-additional-data.md).
 
 ### Adição de um campo simples {#adding-a-simple-field}
 

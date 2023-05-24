@@ -1,6 +1,6 @@
 ---
 title: Recuperação de perfis
-description: Saiba mais sobre como recuperar perfis com APIs
+description: Saiba como recuperar perfis com APIs
 feature: API
 role: Data Engineer
 level: Experienced
@@ -14,17 +14,17 @@ ht-degree: 4%
 
 # Recuperação de perfis com APIs {#retrieving-profiles}
 
-A recuperação de perfis é realizada com uma **GET** solicitação.
+A recuperação de perfis é executada com um **GET** solicitação.
 
-Você pode refinar sua pesquisa usando filtros, pedidos e paginação. Para obter mais informações, consulte [Operações adicionais](../../api/using/sorting.md) seção.
+Você pode refinar sua pesquisa usando filtros, ordenação e paginação. Para obter mais informações, consulte [Operações adicionais](../../api/using/sorting.md) seção.
 
-Além disso, as APIs do Campaign Standard permitem pesquisar perfis com base em um desses campos: email, nome, sobrenome ou qualquer campo personalizado. Para obter mais informações, consulte [esta seção](#searching-field).
+Além disso, as APIs de Campaign Standard permitem procurar perfis com base em um destes campos: email, nome, sobrenome ou qualquer campo personalizado. Para obter mais informações, consulte [esta seção](#searching-field).
 
 <br/>
 
 ***Solicitações de exemplo***
 
-* Amostra de solicitação do GET para recuperar todos os perfis.
+* Exemplo de solicitação do GET para recuperar todos os perfis.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -50,7 +50,7 @@ Além disso, as APIs do Campaign Standard permitem pesquisar perfis com base em 
    }
    ```
 
-* Solicitação de exemplo do GET para recuperar os primeiros 10 valores de email.
+* Exemplo de solicitação do GET para recuperar os primeiros 10 valores de email.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \
@@ -83,17 +83,17 @@ Além disso, as APIs do Campaign Standard permitem pesquisar perfis com base em 
    }
    ```
 
-## Pesquisa de perfis com base em um campo {#searching-field}
+## Pesquisar perfis com base em um campo {#searching-field}
 
-O **[!UICONTROL filterType]** permite recuperar perfis com base em um desses campos: email, nome, sobrenome ou qualquer campo personalizado que tenha sido adicionado na Filtragem avançada ao estender o recurso de perfil.
+A variável **[!UICONTROL filterType]** O parâmetro permite recuperar perfis com base em um destes campos: email, nome, sobrenome ou qualquer campo personalizado que tenha sido adicionado à Filtragem avançada ao estender o recurso de perfil.
 
 >[!NOTE]
 >
->As pesquisas fazem distinção entre maiúsculas e minúsculas e são executadas somente em prefixos. Por exemplo, você não poderá procurar um perfil usando as últimas letras do sobrenome.
+>As pesquisas diferenciam maiúsculas de minúsculas e são executadas somente em prefixos. Por exemplo, você não poderá procurar um perfil usando as últimas letras do nome.
 
 ***Solicitações de exemplo***
 
-* Solicitação de exemplo para filtrar perfis com base no nome.
+* Exemplo de solicitação para filtrar perfis com base no nome.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John&filterType=firstName \
@@ -103,7 +103,7 @@ O **[!UICONTROL filterType]** permite recuperar perfis com base em um desses cam
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-* Solicitação de exemplo para filtrar perfis com base no sobrenome.
+* Exemplo de solicitação para filtrar perfis com base no sobrenome.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Miller&filterType=lastName \
@@ -113,7 +113,7 @@ O **[!UICONTROL filterType]** permite recuperar perfis com base em um desses cam
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-* Solicitação de exemplo para filtrar perfis com base no email.
+* Exemplo de solicitação para filtrar perfis com base em email.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John%40gmail.com&filterType=email \
@@ -123,7 +123,7 @@ O **[!UICONTROL filterType]** permite recuperar perfis com base em um desses cam
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-* Solicitação de exemplo para filtrar perfis com base no campo personalizado &quot;Hobby&quot;.
+* Exemplo de solicitação para filtrar perfis com base no campo personalizado &quot;Hobby&quot;.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byText?cusHobby=Dancing&filterType=Hobby \

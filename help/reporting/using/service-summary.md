@@ -1,6 +1,6 @@
 ---
 title: Resumo do serviço
-description: Com o relatório de resumo do serviço pronto para uso, saiba mais sobre a evolução das subscrições e unsubscriptions.
+description: Com o relatório Resumo do serviço pronto para uso, saiba mais sobre a evolução das assinaturas e dos cancelamentos de assinaturas.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -18,11 +18,11 @@ ht-degree: 14%
 
 # Resumo do serviço{#service-summary}
 
-O **[!UICONTROL Service summary]** detalha a evolução das subscrições e unsubscriptions do seu serviço.
-Este relatório só pode ser acessado na sua página Serviço através do menu avançado **[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**. Para obter mais informações, consulte esta [página](../../audiences/using/monitoring-subscriptions.md#service-reports).
+A variável **[!UICONTROL Service summary]** detalha a evolução das assinaturas e dos cancelamentos de assinaturas do seu serviço.
+O relatório só pode ser acessado na página Serviço por meio do menu avançado **[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**. Para obter mais informações, consulte esta [página](../../audiences/using/monitoring-subscriptions.md#service-reports).
 
 ![](assets/service-summary.png)
 
-O **[!UICONTROL Subscription evolution curves]** a visualização detalha o número de subscrições e unsubscriptions dependendo do **[!UICONTROL Period]** escolhido na barra suspensa.
+A variável **[!UICONTROL Subscription evolution curves]** A visualização detalha o número de assinaturas e cancelamentos de assinaturas, dependendo da **[!UICONTROL Period]** escolhido na barra suspensa.
 
-O **[!UICONTROL Overall subscription evolution]** O permite ver a evolução de seus assinantes ao longo de diferentes períodos.
+A variável **[!UICONTROL Overall subscription evolution]** O permite ver a evolução dos assinantes em diferentes períodos.

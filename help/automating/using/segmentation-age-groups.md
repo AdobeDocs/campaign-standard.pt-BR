@@ -1,6 +1,6 @@
 ---
 title: Segmentação por faixa etária
-description: Esta página apresenta uma segmentação de perfis de banco de dados de acordo com sua faixa etária. O objetivo do fluxo de trabalho é enviar um email específico para cada faixa etária.
+description: Esta página apresenta uma segmentação de perfis de banco de dados de acordo com a faixa etária. O objetivo do fluxo de trabalho é enviar um email específico para cada faixa etária.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -27,7 +27,7 @@ O objetivo do fluxo de trabalho é enviar um email específico para cada faixa e
 O fluxo de trabalho é composto dos seguintes elementos:
 
 * A [Atividade Scheduler](../../automating/using/segmentation.md) para especificar a data de execução do workflow.
-* A [Query](../../automating/using/query.md) atividade para direcionar perfis de pessoas cujas datas de nascimento e endereços de email foram inseridos.
+* A [Query](../../automating/using/query.md) atividade para direcionar os perfis das pessoas cujas datas de nascimento e endereços de email foram inseridos.
 * A [Segmentação](../../automating/using/segmentation.md) atividade para criar três segmentos divididos em transições de saída diferentes: 18-25 anos, 26-32 anos e perfis acima de 32 anos. Os segmentos são definidos de acordo com os seguintes parâmetros:
 
    ![](assets/wkf_segment_example_3.png)
@@ -40,4 +40,4 @@ O fluxo de trabalho é composto dos seguintes elementos:
 
       ![](assets/wkf_segment_example_1.png)
 
-* Um [Delivery por email](../../automating/using/email-delivery.md) atividade por segmento.
+* Um [Entrega de email](../../automating/using/email-delivery.md) atividade por segmento.

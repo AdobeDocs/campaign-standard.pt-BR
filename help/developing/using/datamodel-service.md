@@ -1,6 +1,6 @@
 ---
-title: Serviço do DataModel
-description: Saiba mais sobre o datamodel
+title: Serviço de modelo de dados
+description: Saiba mais sobre o modelo de dados
 audience: developing
 content-type: reference
 feature: Data Model
@@ -27,12 +27,12 @@ ht-degree: 41%
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>ID de recurso principal</td>
+                  <td>ID do recurso principal</td>
                   <td>sequência de caracteres </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>build</td>
+                  <td>builtIn</td>
                   <td>Objeto de aplicativo integrado</td>
                   <td>booleano </td>
                   <td> </td>
@@ -58,11 +58,11 @@ ht-degree: 41%
                <tr>
                   <td>desc</td>
                   <td>Descrição</td>
-                  <td>string (512)</td>
+                  <td>sequência de caracteres (512)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>end</td>
+                  <td>fim</td>
                   <td>Data final</td>
                   <td>date </td>
                   <td> </td>
@@ -74,7 +74,7 @@ ht-degree: 41%
                   <td> </td>
                </tr>
                <tr>
-                  <td>história</td>
+                  <td>histórico</td>
                   <td>Histórico de assinatura</td>
                   <td>coleção </td>
                   <td> </td>
@@ -94,7 +94,7 @@ ht-degree: 41%
                <tr>
                   <td>label</td>
                   <td>Rótulo</td>
-                  <td>string (128)</td>
+                  <td>sequência de caracteres (128)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -104,7 +104,7 @@ ht-degree: 41%
                   <td> </td>
                </tr>
                <tr>
-                  <td>limitedDuration</td>
+                  <td>limitDuration</td>
                   <td>Duração limitada</td>
                   <td>booleano </td>
                   <td> </td>
@@ -133,22 +133,22 @@ ht-degree: 41%
                   <td>enumeração (byte) </td>
                   <td>
                      <ul>
-                        <li>Viral - 1</li>
-                        <li>Informativo - boletim informativo - 0</li>
+                        <li>Viral - viral - 1</li>
+                        <li>Informativo - informativo - 0</li>
                         <li>VALOR INVÁLIDO - __Valor_Inválido__ - __Valor_Inválido__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
-                  <td>Modificação por</td>
+                  <td>Modificado por</td>
                   <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>name</td>
                   <td>ID</td>
-                  <td>string (64)</td>
+                  <td>sequência de caracteres (64)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -159,8 +159,8 @@ ht-degree: 41%
                </tr>
                <tr>
                   <td>publicLabel</td>
-                  <td>Etiqueta de serviço</td>
-                  <td>string (128)</td>
+                  <td>Rótulo do serviço</td>
+                  <td>sequência de caracteres (128)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -183,7 +183,7 @@ ht-degree: 41%
                </tr>
                <tr>
                   <td>subScenarioEventType</td>
-                  <td>SubScenarioEventType</td>
+                  <td>TipoDeEventoSubcenário</td>
                   <td>sequência de caracteres </td>
                   <td> </td>
                </tr>
@@ -196,7 +196,7 @@ ht-degree: 41%
                <tr>
                   <td>targetResource</td>
                   <td>Dimensão de direcionamento</td>
-                  <td>string (255)</td>
+                  <td>sequência de caracteres (255)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -208,18 +208,18 @@ ht-degree: 41%
                <tr>
                   <td>miniatura</td>
                   <td>Miniatura</td>
-                  <td>string (255)</td>
+                  <td>sequência de caracteres (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>título</td>
                   <td>Serviço</td>
-                  <td>string (255)</td>
+                  <td>sequência de caracteres (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>unsubLandingPage (landingPageUnsubscriptionBase)</td>
-                  <td>Página de aterrissagem de cancelamento de assinatura</td>
+                  <td>Cancelar assinatura da página de aterrissagem</td>
                   <td>Link  </td>
                   <td> </td>
                </tr>
@@ -236,7 +236,7 @@ ht-degree: 41%
                   <td> </td>
                </tr>
                <tr>
-                  <td>validityDuration</td>
+                  <td>validDuration</td>
                   <td>Duração da validade</td>
                   <td>número </td>
                   <td> </td>
@@ -245,7 +245,7 @@ ht-degree: 41%
 
 ## Filtros
 
-Disponível durante o período especificado (byPlanning)
+Disponível durante o período determinado (por Planejamento)
 
 <table>
     <tr>
@@ -262,7 +262,7 @@ Disponível durante o período especificado (byPlanning)
     </tr>
 </table>
 
-Por tipo de canal (porCanal)
+Por tipo de canal (byChannel)
 
 <table>
 <tr>
@@ -270,7 +270,7 @@ Por tipo de canal (porCanal)
 <th>Tipo</th>
 </tr>
 <tr>
-<td>canal</td>
+<td>channel</td>
 <td>enumeração</td>
 </tr>
 </table>

@@ -42,9 +42,9 @@ A atividade **[!UICONTROL Reconciliation]** é basicamente utilizada para fins d
 
    Por exemplo, você poderá salvar um público-alvo, atualizar o banco de dados etc.
 
-Por exemplo, a variável **[!UICONTROL Reconciliation]** pode ser colocada após uma atividade de carregamento de dados para importar dados não padrão para o banco de dados.
+Por exemplo, a variável **[!UICONTROL Reconciliation]** A atividade pode ser colocada após uma atividade de carregamento de dados para importar dados não padrão para o banco de dados.
 
-Enquanto a variável **Enriquecimento** permite definir dados adicionais que serão processados no fluxo de trabalho (use um **Enriquecimento** atividade para combinar dados provenientes de vários conjuntos ou criar links para um recurso temporário), a variável **Reconciliação** permite vincular dados não identificados aos recursos existentes. A operação de reconciliação implica que os dados das dimensões vinculadas já estejam no banco de dados. Os casos de uso estão disponíveis em [esta seção](#use-cases-reconciliation).
+Embora a **Enriquecimento** atividade de permite definir dados adicionais a serem processados no fluxo de trabalho (use uma **Enriquecimento** para combinar dados provenientes de vários conjuntos ou para criar links para um recurso temporário), a variável **Reconciliação** A atividade permite vincular dados não identificados aos recursos existentes. A operação de reconciliação implica que os dados das dimensões vinculadas já estão no banco de dados. Os casos de uso estão disponíveis em [nesta seção](#use-cases-reconciliation).
 
 
 ## Configuração {#configuration}
@@ -73,6 +73,6 @@ Enquanto a variável **Enriquecimento** permite definir dados adicionais que ser
 
 Saiba como usar essa atividade nos seguintes casos de uso:
 
-* [Caso de uso: Reconciliação de dados usando relações](../../automating/using/reconciliation-using-relations.md)
-* [Caso de uso: Atualização de dados usando reconciliação](../../automating/using/data-update-reconciliation.md)
-* [Caso de uso: Reconciliar um público do tipo Arquivo com o banco de dados](../../automating/using/reconcile-file-audience-with-database.md)
+* [Caso de uso: reconciliação de dados usando relações](../../automating/using/reconciliation-using-relations.md)
+* [Caso de uso: atualização de dados usando reconciliação](../../automating/using/data-update-reconciliation.md)
+* [Caso de uso: reconciliar um público-alvo do tipo File com o banco de dados](../../automating/using/reconcile-file-audience-with-database.md)

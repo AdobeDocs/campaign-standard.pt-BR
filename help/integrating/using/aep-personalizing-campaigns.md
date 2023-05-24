@@ -19,29 +19,29 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->O serviço Audience Destinations está atualmente em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente do Adobe se desejar acesso.
+>O serviço Audience Destinations está atualmente em versão beta, que pode estar sujeita a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados no Azure (atualmente na versão beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente do Adobe se desejar obter acesso.
 >
->**Empurrar** e **No aplicativo** Os canais ainda não estão disponíveis para personalização usando dados contextuais do Adobe Experience Platform.
+>**Push** e **No aplicativo** os canais ainda não estão disponíveis para personalização usando dados contextuais do Adobe Experience Platform.
 
-Depois que o workflow estiver configurado com uma [Público-alvo do Adobe Experience Platform](../../integrating/using/aep-about-audience-destinations-service.md), é possível personalizar mensagens com atributos de perfil que existem exclusivamente no Experience Data Model (XDM).
+Assim que o workflow estiver configurado com um [Público-alvo do Adobe Experience Platform](../../integrating/using/aep-about-audience-destinations-service.md), você pode personalizar mensagens com atributos de perfil que existem exclusivamente no Experience Data Model (XDM).
 
-Para fazer isso, você deve adicionar esses atributos no **[!UICONTROL Read audience]** atividade :
+Para fazer isso, você deve adicionar esses atributos na variável **[!UICONTROL Read audience]** atividade:
 
-1. Abra a atividade **[!UICONTROL Read audience]**. No **[!UICONTROL Additional data]** clique no botão **[!UICONTROL Create element]** botão.
+1. Abra a atividade **[!UICONTROL Read audience]**. No **[!UICONTROL Additional data]** clique na guia **[!UICONTROL Create element]** botão.
 
-   Observe que a variável **[!UICONTROL Additional data]** só estará disponível depois que um público-alvo da Adobe Experience Platform for selecionado.
+   Observe que **[!UICONTROL Additional data]** A guia só estará disponível depois que um público-alvo do Adobe Experience Platform for selecionado.
 
    ![](assets/aep_wkf_readaudience_attributes.png)
 
    >[!NOTE]
    >
-   >Os tipos de dados de matriz e mapa não são suportados neste recurso. Além disso, somente os dados do schema de união serão exibidos no seletor.
+   >Os tipos de dados de matriz e mapa não são compatíveis com esse recurso. Além disso, somente os dados do esquema de união serão exibidos no seletor.
 
 1. Selecione o campo XDM desejado na lista e clique em **[!UICONTROL Confirm]**.
 
    ![](assets/aep_wkf_readaudience_perso1.png)
 
-1. Clique no botão **[!UICONTROL Add]** para adicioná-lo à lista de dados adicionais.
+1. Clique em **[!UICONTROL Add]** para adicioná-lo à lista de dados adicionais.
 
    ![](assets/aep_wkf_readaudience_perso3.png)
 
@@ -49,9 +49,9 @@ Para fazer isso, você deve adicionar esses atributos no **[!UICONTROL Read audi
 
    >[!NOTE]
    >
-   >Você pode adicionar no máximo 20 campos XDM em um **[!UICONTROL Read audience]** atividade .
+   >É possível adicionar no máximo 20 campos XDM em uma **[!UICONTROL Read audience]** atividade.
 
-1. Depois que todos os campos tiverem sido adicionados, clique no botão **[!UICONTROL Confirm]** para salvar as alterações. Agora eles estarão disponíveis para personalizar seus deliveries.
+1. Depois que todos os campos forem adicionados, clique no **[!UICONTROL Confirm]** botão para salvar as alterações. Agora eles estarão disponíveis para personalizar seus deliveries.
 
 Para obter mais informações sobre como criar e personalizar deliveries, consulte a documentação do Campaign Standard:
 

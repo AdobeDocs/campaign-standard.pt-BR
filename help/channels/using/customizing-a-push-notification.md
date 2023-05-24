@@ -42,9 +42,9 @@ Um som alertará os usuários sobre uma notificação por push, dando mais visib
 
    ![](assets/push_notif_advanced_7.png)
 
-1. O arquivo de som será reproduzido ao fornecer a notificação se estiver definido no pacote desse aplicativo móvel. Você pode defini-lo como **default** para reproduzir o som padrão do dispositivo.
+1. O arquivo de som será reproduzido ao fornecer a notificação se estiver definido no pacote desse aplicativo móvel. Você pode defini-lo como **padrão** para reproduzir o som padrão do dispositivo.
 
-   Se a variável **[!UICONTROL Play a sound]** deixado em branco, nenhum som será reproduzido.
+   Se a variável **[!UICONTROL Play a sound]** estiver vazio, nenhum som será reproduzido.
 
 O usuário receberá a notificação por push e o som somente se o telefone não estiver com a função mudo ativada.
 
@@ -113,7 +113,7 @@ Definir uma data de expiração para sua notificação por push permite definir 
 
 Para adicionar uma data de expiração à sua notificação por push:
 
-1. Verifique a **[!UICONTROL Expire message]** opção: selecionando o **[!UICONTROL Expire message]** , a duração é automaticamente definida como 0. Se você não alterar o valor, tanto o APNS quanto o FCM tentarão enviar a mensagem imediatamente. Se falhar, a mensagem não será reenviada.
+1. Verifique a **[!UICONTROL Expire message]** opção: ao selecionar a variável **[!UICONTROL Expire message]** a duração é automaticamente definida como 0. Se você não alterar o valor, tanto o APNS quanto o FCM tentarão enviar a mensagem imediatamente. Se falhar, a mensagem não será reenviada.
 
 1. No campo **[!UICONTROL Duration]**, selecione a validade da sua notificação por push.
 

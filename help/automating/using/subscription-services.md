@@ -38,8 +38,8 @@ Se especificada em um arquivo por meio de colunas dedicadas, com essa atividade 
 
 **Tópicos relacionados:**
 
-* [Caso de uso: Atualização de vários status de assinatura a partir de um arquivo](../../automating/using/updating-subscriptions-from-file.md)
-* [Caso de uso: Assinatura de perfis para um serviço específico a partir de um arquivo](../../automating/using/subscribing-profiles-from-file.md)
+* [Caso de uso: atualização de vários status de assinatura diretamente de um arquivo](../../automating/using/updating-subscriptions-from-file.md)
+* [Caso de uso: assinatura de perfis para um serviço específico a partir de um arquivo](../../automating/using/subscribing-profiles-from-file.md)
 
 ## Configuração {#configuration}
 

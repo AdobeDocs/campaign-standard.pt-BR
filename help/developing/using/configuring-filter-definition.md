@@ -81,7 +81,7 @@ Em vez de configurá-lo, eles precisarão apenas inserir o valor desejado na cai
 
 ![](assets/custom_resource_filter-definition_email-audience_filter.png)
 
-Depois que um filtro é configurado, é possível usá-lo das APIs do Campaign Standard usando esta sintaxe:
+Depois que um filtro é configurado, você pode usá-lo das APIs de Campaign Standard usando esta sintaxe:
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 

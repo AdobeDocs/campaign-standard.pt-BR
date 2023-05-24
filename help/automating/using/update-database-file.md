@@ -1,6 +1,6 @@
 ---
 title: Atualização do banco de dados com dados externos
-description: Este caso de uso apresenta como adicionar ou atualizar perfis ao banco de dados do Adobe Campaign com os dados recuperados do arquivo.
+description: Esse caso de uso apresenta como adicionar ou atualizar perfis ao banco de dados do Adobe Campaign com os dados recuperados do arquivo.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -18,9 +18,9 @@ ht-degree: 33%
 
 # Atualização do banco de dados com dados externos {#update-database-file}
 
-O exemplo a seguir mostra a configuração de um **[!UICONTROL Update data]** atividade após uma **[!UICONTROL Load file]** atividade . O objetivo desse fluxo de trabalho é adicionar ou atualizar perfis ao banco de dados do Adobe Campaign com os dados recuperados do arquivo.
+O exemplo a seguir mostra a configuração de um **[!UICONTROL Update data]** atividade na sequência de um **[!UICONTROL Load file]** atividade. O objetivo desse fluxo de trabalho é adicionar ou atualizar perfis ao banco de dados do Adobe Campaign com os dados recuperados do arquivo.
 
-Neste exemplo, a chave de reconciliação usada é a variável **endereço de email**. O arquivo carregado na [Carregar arquivo](../../automating/using/load-file.md) é uma **.txt** arquivo de formato que contém os seguintes exemplos de dados:
+Neste exemplo, a chave de reconciliação usada é a **endereço de email**. O arquivo carregado no [Carregar arquivo](../../automating/using/load-file.md) a atividade é um **.txt** formatar arquivo contendo os seguintes exemplos de dados:
 
 ```
 lastname;firstname;email;birthdate
@@ -35,7 +35,7 @@ grimes;daryl;daryl_890@testmail.com;12/06/1979
 tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
 ```
 
-O [Atualizar dados](../../automating/using/update-data.md) A atividade é configurada da seguinte maneira:
+A variável [Atualizar dados](../../automating/using/update-data.md) A atividade de está configurada da seguinte maneira:
 
 ![](assets/deduplication_example2_writer1.png)
 

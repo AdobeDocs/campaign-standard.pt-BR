@@ -1,6 +1,6 @@
 ---
 title: Aberturas
-description: Com o relatório Aberturas , saiba qual delivery foi o mais exibido de acordo com vários critérios.
+description: Com o relatório Aberturas, saiba qual entrega foi a mais visualizada de acordo com vários critérios.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -22,7 +22,7 @@ O relatório **[!UICONTROL Opens]** identifica as entregas que foram mais vistas
 
 ![](assets/delivery_reports_opens.png)
 
-Quatro tabelas e gráficos dividem o número total de recipients que abriram um email com base em:
+Quatro tabelas e gráficos detalham o número total de recipients que abriram um email com base em:
 
 * Navegador
 * Dispositivo

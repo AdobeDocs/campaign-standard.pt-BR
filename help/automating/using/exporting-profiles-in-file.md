@@ -1,6 +1,6 @@
 ---
 title: Exportação de perfis em um arquivo externo
-description: Este caso de uso mostra como exportar uma lista de perfis no formato de um arquivo externo para que os dados possam ser usados fora do Adobe Campaign.
+description: Esse caso de uso mostra como exportar uma lista de perfis como um arquivo externo para que os dados possam ser usados fora do Adobe Campaign.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -22,11 +22,11 @@ O exemplo a seguir ilustra como configurar uma atividade **[!UICONTROL Extract f
 
 O objetivo desse fluxo de trabalho é exportar uma lista de perfis como um arquivo externo para que os dados sejam usados fora do Adobe Campaign.
 
-1. Arraste e solte um [Extrair arquivo](../../automating/using/extract-file.md) atividade no seu fluxo de trabalho e coloque-a depois da variável [Query](../../automating/using/query.md) atividade .
+1. Arraste e solte um [Extrair arquivo](../../automating/using/extract-file.md) atividade no seu fluxo de trabalho e coloque-a depois da variável [Query](../../automating/using/query.md) atividade.
 
    Neste exemplo, o query é realizado em todos os perfis entre 18 e 30 anos.
 
-1. Abra o **[!UICONTROL Extract file]** para editá-la.
+1. Abra o **[!UICONTROL Extract file]** atividade para editá-la.
 1. Nomeie o arquivo de saída.
 1. Adicione colunas de saída.
 
@@ -45,7 +45,7 @@ O objetivo desse fluxo de trabalho é exportar uma lista de perfis como um arqui
       ![](assets/wkf_data_export9.png)
 
 1. Confirme sua atividade.
-1. Arraste e solte uma [Transferir arquivo](../../automating/using/transfer-file.md) após a **[!UICONTROL Extract file]** para recuperar o arquivo de extração em uma conta externa.
+1. Arraste e solte uma [Transferir arquivo](../../automating/using/transfer-file.md) atividade após o **[!UICONTROL Extract file]** atividade para recuperar o arquivo de extração em uma conta externa.
 1. Abra a atividade e escolha a ação **[!UICONTROL File upload]**.
 
    ![](assets/wkf_data_export11.png)

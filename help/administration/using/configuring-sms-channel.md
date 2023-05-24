@@ -1,6 +1,6 @@
 ---
 title: Configuração do canal SMS
-description: Saiba mais sobre as etapas de configuração do SMS, incluindo roteamento, codificação, formatos e propriedades avançadas
+description: Saiba mais sobre as etapas de configuração de SMS, incluindo roteamento, codificação, formatos e propriedades avançadas
 audience: administration
 feature: Instance Settings
 role: Admin
@@ -317,7 +317,7 @@ A funcionalidade **[!UICONTROL Define a specific mapping of encodings]** permite
 
 ### Resposta automática enviada ao MO {#automatic-reply-sent-to-the-mo}
 
-Quando um perfil responde a uma mensagem SMS, enviada pelo Campaign, você pode configurar mensagens que são automaticamente enviadas de volta a elas, bem como a ação a ser executada.
+Quando um perfil responde a uma mensagem SMS enviada pelo Campaign, você pode configurar mensagens que são automaticamente enviadas de volta, bem como a ação a ser executada.
 
 Para obter mais informações, consulte [esta seção](../../channels/using/managing-incoming-sms.md).
 
@@ -331,13 +331,13 @@ Os parâmetros específicos para envio de mensagens SMS são reagrupados nas se�
 
 No **[!UICONTROL Advanced parameters]** seção:
 
-* O **[!UICONTROL Short code]** O permite adicionar um código curto específico ao delivery. Os recipients que optaram por esse código curto específico serão excluídos automaticamente durante a preparação da mensagem. Para obter mais informações sobre como configurar o código curto, consulte [esta seção](../../channels/using/managing-incoming-sms.md).
+* A variável **[!UICONTROL Short code]** permite adicionar um código curto específico ao delivery. Os recipients que recusarem esse código curto específico serão excluídos automaticamente durante a preparação da mensagem. Para obter mais informações sobre como configurar um código curto, consulte [nesta seção](../../channels/using/managing-incoming-sms.md).
 
    >[!NOTE]
    >
    >Se a variável **[!UICONTROL Short code]** for deixado em branco, o valor da variável **[!UICONTROL Short code]** será usado o campo definido na conta externa.
 
-No **[!UICONTROL Send]** seção de um template SMS:
+No **[!UICONTROL Send]** seção de um modelo SMS:
 
 * A opção **[!UICONTROL Maximum number of SMS per message]** permite definir o número de mensagens SMS a serem usadas para enviar uma mensagem. Se esse número for excedido, a mensagem não será enviada.
 

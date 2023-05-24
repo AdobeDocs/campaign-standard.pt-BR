@@ -17,7 +17,7 @@ ht-degree: 13%
 
 # Etapa 3: verificar a extensão{#step-verify-the-extension}
 
-1. Faça uma operação GET nos metadados da API da extensão de perfis e serviços para verificar se o campo adicionado ao recurso personalizado Perfis agora está disponível.
+1. Faça uma operação GET nos metadados da API de extensão de Perfis e serviços para verificar se o campo adicionado no recurso personalizado Perfis agora está disponível.
 
    ```
    GET profileAndServicesExt/resourceType/profile

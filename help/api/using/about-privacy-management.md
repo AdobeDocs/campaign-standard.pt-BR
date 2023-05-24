@@ -14,17 +14,17 @@ ht-degree: 0%
 
 # Sobre o gerenciamento de privacidade {#about-privacy-management}
 
-As APIs do Campaign Standard fornecem recursos que permitem o processo automático de solicitações relacionadas a regulamentos de privacidade, como o GDPR e a CCPA.
+As APIs Campaign Standard fornecem recursos que permitem o processo automático de solicitações relacionadas a regulamentos de privacidade, como GDPR e CCPA.
 
 As ações que você pode executar são as seguintes:
 
-* Crie uma nova solicitação de acesso a dados pessoais,
+* Criar uma nova solicitação de privacidade,
 * Monitorar uma solicitação de privacidade,
 * Recuperar um arquivo de dados de privacidade,
-* Gerencie o status de recusa do CCPA de um perfil.
+* Gerencie o status de recusa da CCPA de um perfil.
 
-O endpoint da API de privacidade é **/privacy/privacyTool**. A descrição do recurso PrivacyTool e os filtros associados estão disponíveis nos metadados do recurso. Consulte [Mecanismo de metadados](../../api/using/metadata-mechanism.md).
+O endpoint da API de privacidade é **/privacy/privacyTool**. A descrição de recursos da PrivacyTool e os filtros associados estão disponíveis nos metadados do recurso. Consulte [Mecanismo de metadados](../../api/using/metadata-mechanism.md).
 
-A recusa do CCPA é gerenciada usando o **ccpaOptOut** atributo de perfil.
+A recusa da CCPA é gerenciada usando o **ccpaOptOut** atributo de perfil.
 
-Para obter mais informações sobre a Adobe Campaign Standard e a conformidade da privacidade, consulte [documentação dedicada](../../start/using/privacy-requests.md).
+Para obter mais informações sobre o Adobe Campaign Standard e a conformidade com a privacidade, consulte [documentação dedicada](../../start/using/privacy-requests.md).

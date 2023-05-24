@@ -1,6 +1,6 @@
 ---
-title: Evento de assinatura do DataModel
-description: Saiba mais sobre o datamodel
+title: Evento de assinatura de modelo de dados
+description: Saiba mais sobre o modelo de dados
 audience: developing
 content-type: reference
 feature: Data Model
@@ -27,7 +27,7 @@ ht-degree: 32%
     </tr>
     <tr>
         <td>PKey</td>
-        <td>ID de recurso principal</td>
+        <td>ID do recurso principal</td>
         <td>sequência de caracteres </td>
         <td> </td>
     </tr>
@@ -40,7 +40,7 @@ ht-degree: 32%
     <tr>
         <td>email</td>
         <td>Email</td>
-        <td>string (128)</td>
+        <td>sequência de caracteres (128)</td>
         <td> </td>
     </tr>
     <tr>
@@ -58,19 +58,19 @@ ht-degree: 32%
     </tr>
     <tr>
         <td>eventHistoId</td>
-        <td>ID de evento arquivada</td>
+        <td>ID de evento arquivado</td>
         <td>inteiro </td>
         <td> </td>
     </tr>
     <tr>
         <td>mobilePhone</td>
         <td>Número do celular</td>
-        <td>string (32)</td>
+        <td>sequência de caracteres (32)</td>
         <td> </td>
     </tr>
     <tr>
         <td>serverUrl</td>
-        <td>ServerUrl</td>
+        <td>URLdoServidor</td>
         <td>sequência de caracteres </td>
         <td> </td>
     </tr>
@@ -78,7 +78,7 @@ ht-degree: 32%
 
 ## Filtros
 
-Por email (por email)
+Por e-mail (byEmail)
 
 <table>
     <tr>

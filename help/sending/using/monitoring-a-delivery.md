@@ -22,7 +22,7 @@ Há várias maneiras de monitorar um delivery e medir o impacto. Como administra
 
 >[!IMPORTANT]
 >
->Apenas funcional [administradores](../../administration/using/users-management.md#functional-administrators), com **[!UICONTROL Administration]** funções e acesso a **Todos** as unidades podem acessar logs de envio, logs de mensagem, logs de rastreamento, exclusão ou logs de assinatura. Um usuário não administrador pode direcionar esses logs, mas começar em uma tabela vinculada (perfis, delivery).
+>Somente funcional [administradores](../../administration/using/users-management.md#functional-administrators), com **[!UICONTROL Administration]** função e acesso a **Todos** as unidades podem acessar logs de envio, logs de mensagem, logs de rastreamento, logs de exclusão ou de subscrição. Um usuário não administrador pode direcionar esses logs, mas começando por uma tabela vinculada (perfis, delivery).
 
 * **Logs de mensagem**: esses logs podem ser acessados diretamente do painel de mensagens. Eles mostram os detalhes do envio, o target que foi excluído e o motivo, bem como as informações de rastreamento, como aberturas e cliques.
 
@@ -38,9 +38,9 @@ Há várias maneiras de monitorar um delivery e medir o impacto. Como administra
 
    ![](assets/sending_delivery2.png)
 
-* **Logs de trabalho**: Uma lista dos trabalhos em lote acionados pelo delivery pode ser acessada no painel de mensagens ao selecionar **[!UICONTROL Job history]** do **[!UICONTROL Summary]** lista suspensa.
+* **Logs de trabalho**: uma lista dos processos em lote acionados pelo delivery pode ser acessada no painel de mensagens selecionando **[!UICONTROL Job history]** do **[!UICONTROL Summary]** lista suspensa.
 
-   Selecione qualquer trabalho da lista para ver os detalhes do **[!UICONTROL Batch job]**.
+   Selecione qualquer trabalho na lista para ver os detalhes do **[!UICONTROL Batch job]**.
 
    ![](assets/sending_delivery8.png)
 
@@ -53,7 +53,7 @@ Há várias maneiras de monitorar um delivery e medir o impacto. Como administra
 * [Recebimento de alertas quando ocorrerem falhas](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Relatórios](../../reporting/using/about-dynamic-reports.md)
 
-## Logs do delivery {#delivery-logs}
+## Logs de entrega {#delivery-logs}
 
 ### Envio de logs {#sending-logs}
 
@@ -81,7 +81,7 @@ A guia **[!UICONTROL Exclusion logs]** lista todas as mensagens que foram exclu�
 
 ![](assets/sending_delivery4.png)
 
-### Causas de exclusão {#exclusion-causes}
+### Causas da exclusão {#exclusion-causes}
 
 A guia **[!UICONTROL Exclusion causes]** exibe o volume (em número) das mensagens que foram excluídas do público-alvo enviado.
 

@@ -1,6 +1,6 @@
 ---
 title: Design de uma landing page
-description: Saiba como criar o conteúdo de uma página de aterrissagem.
+description: Saiba como criar o conteúdo de uma landing page.
 audience: channels
 content-type: reference
 topic-tags: landing-pages
@@ -16,21 +16,21 @@ ht-degree: 97%
 
 ---
 
-# Design de uma página de aterrissagem{#designing-a-landing-page}
+# Design de uma landing page{#designing-a-landing-page}
 
-## Sobre o design de conteúdo de uma página de aterrissagem {#about-content-design}
+## Sobre o design de conteúdo de uma landing page {#about-content-design}
 
-Páginas de aterrissagem são criadas como qualquer [atividade de marketing](../../start/using/marketing-activities.md#about-marketing-activities).
+Landing pages são criadas como qualquer [atividade de marketing](../../start/using/marketing-activities.md#about-marketing-activities).
 
-Ao criar uma página de aterrissagem, é necessário definir o conteúdo da própria página, a página de confirmação e a página de erro. Use o alternador na barra de ações para exibir e configurar cada uma dessas páginas.
+Ao criar uma landing page, é necessário definir o conteúdo da própria página, a página de confirmação e a página de erro. Use o alternador na barra de ações para exibir e configurar cada uma dessas páginas.
 
-O conteúdo da landing page é projetado por meio do editor de conteúdo do Campaign.
+O conteúdo das páginas de aterrissagem é projetado por meio do editor de conteúdo do Campaign.
 
 >[!NOTE]
 >
->Para design de email, se sua instância foi instalada antes da versão 19.0 do Adobe Campaign Standard, você ainda terá acesso ao editor herdado de conteúdo de email. A interface, os princípios de uso e a configuração são os mesmos descritos abaixo para páginas de aterrissagem. No entanto, todos os recursos podem não estar disponíveis ou mantidos no editor herdado de conteúdo de email, que foi substituído a partir da versão 19.0. Para editar rapidamente o conteúdo de email por meio de uma interface de arrastar e soltar com funcionalidades estendidas, use o [Designer de email](../../designing/using/designing-content-in-adobe-campaign.md).
+>Para design de email, se sua instância foi instalada antes da versão 19.0 do Adobe Campaign Standard, você ainda terá acesso ao editor herdado de conteúdo de email. A interface, os princípios de uso e a configuração são os mesmos descritos abaixo para landing pages. No entanto, todos os recursos podem não estar disponíveis ou mantidos no editor herdado de conteúdo de email, que foi substituído a partir da versão 19.0. Para editar rapidamente o conteúdo de email por meio de uma interface de arrastar e soltar com funcionalidades estendidas, use o [Designer de email](../../designing/using/designing-content-in-adobe-campaign.md).
 
-Esta página descreve as especificidades do editor de conteúdo das páginas de aterrissagem. Para mais informações sobre as ações comuns a uma ou mais atividades de marketing, consulte estas seções do guia **Criação do conteúdo de email** l:
+Esta página descreve as especificidades do editor de conteúdo das landing pages. Para mais informações sobre as ações comuns a uma ou mais atividades de marketing, consulte estas seções do guia **Criação do conteúdo de email** l:
 
 * [Inserção de um campo de personalização](../../designing/using/personalization.md#inserting-a-personalization-field)
 * [Inclusão de um bloco de conteúdo](../../designing/using/personalization.md#adding-a-content-block)
@@ -39,13 +39,13 @@ Esta página descreve as especificidades do editor de conteúdo das páginas de 
 * [Práticas recomendadas gerais para design de conteúdo](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)
 
 >[!NOTE]
->Se você tiver uma página de aterrissagem que já esteja predefinida no formato HTML, poderá importá-la diretamente usando o botão **[!UICONTROL Change content]**.
+>Se você tiver uma landing page que já esteja predefinida no formato HTML, poderá importá-la diretamente usando o botão **[!UICONTROL Change content]**.
 >
 >Antes de importar uma página HTML no Adobe Campaign, confirme que ela seja aberta e exibida corretamente nos diversos navegadores. Se a página HTML contiver scripts JavaScript, eles precisarão executar sem erros fora do editor. Em geral, evite usar scripts no conteúdo da mensagem para garantir que ele seja processado corretamente pelos clientes de email.
 
-## Interface do editor de conteúdo de páginas de aterrissagem{#landing-page-content-editor-interface}
+## Interface do editor de conteúdo de landing pages{#landing-page-content-editor-interface}
 
-O editor de conteúdo de páginas de aterrissagem permite que você defina, modifique e personalize facilmente o conteúdo no Adobe Campaign. Para acessá-lo, clique no bloco **[!UICONTROL Content]** no painel de uma página de aterrissagem.
+O editor de conteúdo de landing pages permite que você defina, modifique e personalize facilmente o conteúdo no Adobe Campaign. Para acessá-lo, clique no bloco **[!UICONTROL Content]** no painel de uma landing page.
 
 O editor de conteúdo é organizado em três seções diferentes. Estas seções permitem que você exiba e edite o conteúdo.
 
@@ -72,7 +72,7 @@ A **barra de ação** contém botões diferentes que permitem a interação com 
   <tr> 
    <td> <img height="21px" src="assets/download_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Alterar conteúdo</span> <br /> </td> 
-   <td> Página de aterrissagem e email<br /> </td> 
+   <td> Landing page e email<br /> </td> 
    <td> Permite que você selecione conteúdo pronto para uso ou importe seu próprio conteúdo HTML. Consulte <a href="../../designing/using/using-existing-content.md">Carregamento de um conteúdo existente</a>.<br /> </td> 
   </tr> 
   <tr> 
@@ -90,13 +90,13 @@ A **barra de ação** contém botões diferentes que permitem a interação com 
   <tr> 
    <td> <img height="21px" src="assets/display_block_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Mostrar blocos</span> <br /> </td> 
-   <td> Página de aterrissagem e email<br /> </td> 
+   <td> Landing page e email<br /> </td> 
    <td> Permite que você mostre as caixas ao redor dos blocos de conteúdo (corresponde à tag HTML <strong>&lt;div&gt;</strong>).<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/code_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Mostrar origem</span> <br /> </td> 
-   <td> Página de aterrissagem e email<br /> </td> 
+   <td> Landing page e email<br /> </td> 
    <td> Permite que você mostre o código fonte HTML da página.<br /> </td> 
   </tr> 
  </tbody> 
@@ -130,7 +130,7 @@ A **barra de ferramentas** é um elemento contextual da interface do editor que 
    <td> <img height="21px" src="assets/linkpage_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Link para uma página de aterrissagem</span> <br /> </td> 
    <td> Qualquer elemento<br /> </td> 
-   <td> Permite acesso a uma página de aterrissagem do Adobe Campaign. Detalhes de como configurar um link são apresentados na seção <a href="../../designing/using/links.md#inserting-a-link">Inserção de um link</a>.<br /> </td> 
+   <td> Permite acesso a uma landing page do Adobe Campaign. Detalhes de como configurar um link são apresentados na seção <a href="../../designing/using/links.md#inserting-a-link">Inserção de um link</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/link_Subscribe_darkgrey-24px.png" /> <br /> </td> 
@@ -237,7 +237,7 @@ A **barra de ferramentas** é um elemento contextual da interface do editor que 
  </tbody> 
 </table>
 
-## Gerenciamento da estrutura e do estilo da página de aterrissagem{#managing-landing-page-structure-and-style}
+## Gerenciamento da estrutura e do estilo da landing page{#managing-landing-page-structure-and-style}
 
 ### Gerenciamento de blocos no editor de conteúdo {#managing-blocks-in-the-content-editor}
 
@@ -285,9 +285,9 @@ Para alterar o alinhamento do texto, selecione um dos três ícones a seguir na 
 
 Você também pode usar a barra de ferramentas para alterar os atributos da fonte: adapte o tamanho da fonte, deixe o texto em negrito ou itálico, sublinhe ou altere a cor do texto. Consulte [esta seção](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
 
-### Inserir imagens em uma página de aterrissagem {#inserting-images-in-a-landing-page}
+### Inserir imagens em uma landing page {#inserting-images-in-a-landing-page}
 
-1. Em um conteúdo de página de aterrissagem, selecione um bloco que contenha uma imagem.
+1. Em um conteúdo de landing page, selecione um bloco que contenha uma imagem.
 1. Selecione o botão **[!UICONTROL Insert]**.
 
    ![](assets/des_insert_images_lp_1.png)
@@ -304,9 +304,9 @@ Você também pode usar a barra de ferramentas para alterar os atributos da font
 
    ![](assets/des_insert_images_lp_4.png)
 
-## Definição de conteúdo dinâmico em uma página de aterrissagem{#defining-dynamic-content-in-a-landing-page}
+## Definição de conteúdo dinâmico em uma landing page{#defining-dynamic-content-in-a-landing-page}
 
-Para definir o conteúdo dinâmico em uma página de aterrissagem, selecione um bloco usando a navegação estrutural ou clicando diretamente em um elemento.
+Para definir o conteúdo dinâmico em uma landing page, selecione um bloco usando a navegação estrutural ou clicando diretamente em um elemento.
 
 ![](assets/dynamic_content_lp_1.png)
 
@@ -314,7 +314,7 @@ Determinados blocos, como imagens, não podem ser selecionados diretamente. Ness
 
 A navegação estrutural é apresentada na seção [Gerenciamento de blocos](../../channels/using/designing-a-landing-page.md#managing-landing-page-structure-and-style).
 
-As próximas etapas para definir o conteúdo dinâmico em uma página de aterrissagem são semelhantes às etapas a seguir para um email. Consulte [esta seção](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+As próximas etapas para definir o conteúdo dinâmico em uma landing page são semelhantes às etapas a seguir para um email. Consulte [esta seção](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 >[!NOTE]
 >

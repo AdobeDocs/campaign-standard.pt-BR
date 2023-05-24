@@ -1,6 +1,6 @@
 ---
 title: Monitoramento de alterações no modelo de dados
-description: Saiba como diagnosticar o modelo de dados Adobe Campaign.
+description: Saiba como diagnosticar o modelo de dados do Adobe Campaign.
 audience: developing
 content-type: reference
 topic-tags: about-custom-resources
@@ -17,15 +17,15 @@ ht-degree: 8%
 
 # Monitoramento de alterações no modelo de dados{#monitoring-data-model-changes}
 
-No **[!UICONTROL Diagnosis]** é possível exibir os objetos técnicos gerados pelo aplicativo para analisá-los.
+No **[!UICONTROL Diagnosis]** você pode exibir os objetos técnicos gerados pelo aplicativo para analisá-los.
 
 >[!NOTE]
 >
->As telas neste menu são somente leitura.
+>As telas nesse menu são somente leitura.
 
 ![](assets/diagnostic.png)
 
-É possível exibir os seguintes tipos de objetos:
+Você pode exibir os seguintes tipos de objetos:
 
 * Esquemas de dados
 * Páginas da Web
@@ -34,24 +34,24 @@ No **[!UICONTROL Diagnosis]** é possível exibir os objetos técnicos gerados p
 * Componentes
 * Processos em lote
 
-Você pode alterar a configuração da lista:
+É possível alterar a configuração da lista:
 
-* É possível adicionar e remover colunas.
-* É possível definir nomes de colunas.
-* É possível definir a ordem de exibição das colunas na lista.
+* Você pode adicionar e remover colunas.
+* Você pode definir nomes de coluna.
+* Você pode definir a ordem de exibição das colunas na lista.
 * Você pode escolher a ordem de classificação dos valores na lista.
 
 Você pode filtrar a lista:
 
 * Você pode incluir ou excluir esquemas de dados nativos, páginas da Web, filtros e objetos de navegação.
-* Você pode pesquisar objetos pelo nome.
-* Você pode filtrar trabalhos em lote em seu status, data de início e data de término.
+* Você pode pesquisar objetos pelo nome deles.
+* Você pode filtrar os trabalhos em lotes com base em seu status, data de início e data de término.
 
 Você pode baixar a lista exibida em um arquivo no formato TXT com valores separados por vírgula.
 
 Você pode exibir os detalhes do objeto selecionado.
 
-Por exemplo, você pode usar esse recurso para exibir os critérios de filtragem dos filtros prontos para uso. Este exemplo mostra o código exibido para os critérios de filtragem de um filtro pronto para uso:
+Por exemplo, você pode usar esse recurso para exibir os critérios de filtragem de filtros prontos para uso. Este exemplo mostra o código exibido para os critérios de filtragem de um filtro pronto para uso:
 
 ```xml
 <where displayFilter="Has clicked an offer">

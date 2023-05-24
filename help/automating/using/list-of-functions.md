@@ -35,7 +35,7 @@ Vários tipos de função estão disponíveis, dependendo dos resultados desejad
 
 >[!NOTE]
 >
->Funções adicionais estão disponíveis em todas as atividades que permitem usar variáveis de eventos após chamar um workflow com parâmetros externos. Eles são detalhados [nesta seção](../../automating/using/customizing-workflow-external-parameters.md).
+>Funções adicionais estão disponíveis em todas as atividades que permitem usar variáveis de eventos depois de chamar um workflow com parâmetros externos. Eles são detalhados [nesta seção](../../automating/using/customizing-workflow-external-parameters.md).
 
 ## Datas {#dates}
 
@@ -215,13 +215,13 @@ As funções de data são usadas para manipular valores de data ou hora.
   </tr> 
   <tr> 
    <td> <strong>ToDateTime</strong><br /> </td> 
-   <td> Converte uma cadeia de caracteres em uma data + hora<br /> </td> 
-   <td> ToDateTime(&lt;cadeia de caracteres&gt;)<br /> </td> 
+   <td> Converte uma string em uma data + hora<br /> </td> 
+   <td> ToDateTime(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
-   <td> Converte uma string em uma data + fuso horário.<br /> Exemplo: ToDateTimeWithTimezone ("2019-02-19 08:09:00", "Ásia/Teerão")<br /> </td> 
-   <td> ToDateTimeWithTimezone(&lt;cadeia de caracteres&gt;)<br /> </td> 
+   <td> Converte uma string em uma data + fuso horário.<br /> Exemplo: ToDateTimeWithTimezone ("19-02-2019 08:09:00", "Ásia/Teerão")<br /> </td> 
+   <td> ToDateTimeWithTimezone(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>TruncDate</strong><br /> </td> 
@@ -447,7 +447,7 @@ Esta tabela contém as funções restantes disponíveis.
   </tr> 
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
-   <td> Retorna a cadeia de caracteres vazia se o argumento for NULL.<br /> </td> 
+   <td> Retorna a string vazia se o argumento for NULL.<br /> </td> 
    <td> NoNull(&lt;valor&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -492,17 +492,17 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>AllNonNull2</strong><br /> </td> 
    <td> Indica se todos os parâmetros são não nulos e não estão vazios<br /> </td> 
-   <td> AllNonNull2(&lt;cadeia de caracteres&gt;, &lt;cadeia de caracteres&gt;)<br /> </td> 
+   <td> AllNonNull2(&lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AllNonNull3</strong><br /> </td> 
    <td> Indica se todos os parâmetros são não nulos e não estão vazios<br /> </td> 
-   <td> AllNonNull3(cadeia de caracteres&gt;, &lt;cadeia de caracteres&gt;, &lt;cadeia de caracteres&gt;)<br /> </td> 
+   <td> AllNonNull3(string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ASCII</strong><br /> </td> 
-   <td> Retorna o valor ASCII do primeiro caractere na cadeia de caracteres<br /> </td> 
-   <td> Ascii(&lt;cadeia de caracteres&gt;)<br /> </td> 
+   <td> Retorna o valor ASCII do primeiro caractere na string<br /> </td> 
+   <td> Ascii(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Char</strong><br /> </td> 
@@ -511,8 +511,8 @@ As funções de string são usadas para manipular um conjunto de strings.
   </tr> 
   <tr> 
    <td> <strong>Charindex</strong><br /> </td> 
-   <td> Retorna a posição da cadeia de caracteres 2 na cadeia de caracteres 1<br /> </td> 
-   <td> Charindex(&lt;cadeia de caracteres&gt;, &lt;cadeia de caracteres&gt;)<br /> </td> 
+   <td> Retorna a posição da string 2 na string 1<br /> </td> 
+   <td> Charindex(&lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>DataLength</strong><br /> </td> 
@@ -521,13 +521,13 @@ As funções de string são usadas para manipular um conjunto de strings.
   </tr> 
   <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
-   <td> Retorna a linha enésima (de 1 a n) da cadeia de caracteres<br /> </td> 
-   <td> GetLine(&lt;cadeia de caracteres&gt;)<br /> </td> 
+   <td> Retorna a linha enésima (de 1 a n) da string<br /> </td> 
+   <td> GetLine(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>IfEquals</strong><br /> </td> 
    <td> Retorna o terceiro parâmetro quando os dois primeiros parâmetros são iguais; caso contrário, retorna o último parâmetro<br /> </td> 
-   <td> IfEquals(&lt;cadeia de caracteres&gt;, &lt;cadeia de caracteres&gt;, &lt;cadeia de caracteres&gt;, &lt;cadeia de caracteres&gt;)<br /> </td> 
+   <td> IfEquals(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>IsMemoNull</strong><br /> </td> 
@@ -537,52 +537,52 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
    <td> Concatena as duas strings transmitidas como parâmetros. Um espaço é adicionado entre cada string no valor retornado.<br /> </td> 
-   <td> JuxtWords(&lt;cadeia de caracteres&gt;, &lt;cadeia de caracteres&gt;)<br /> </td> 
+   <td> JuxtWords(&lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
    <td> Concatena as três strings transmitidas como parâmetros. Um espaço é adicionado entre cada string no valor retornado.<br /> </td> 
-   <td> JuxtWords3(&lt;cadeia de caracteres&gt;, &lt;cadeia de caracteres&gt;, &lt;cadeia de caracteres&gt;)<br /> </td> 
+   <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
    <td> Retorna a cadeira de caracteres concluída à esquerda<br /> </td> 
-   <td> LPad(&lt;cadeia de caracteres&gt;, &lt;número&gt;, &lt;caractere&gt;)<br /> </td> 
+   <td> LPad(&lt;string&gt;, &lt;número&gt;, &lt;caractere&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
    <td> Retorna os primeiros n caracteres da cadeira de caracteres<br /> </td> 
-   <td> Left(&lt;cadeia de caracteres&gt;, &lt;número&gt;)<br /> </td> 
+   <td> Left(&lt;string&gt;, &lt;número&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Length</strong><br /> </td> 
    <td> Retorna o tamanho da string<br /> </td> 
-   <td> Length(&lt;cadeia de caracteres&gt;)<br /> </td> 
+   <td> Length(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> Retorna a cadeira de caracteres em minúsculas<br /> </td> 
-   <td> Lower(&lt;cadeia de caracteres&gt;)<br /> </td> 
+   <td> Lower(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
    <td> Remove espaços à esquerda da cadeira de caracteres<br /> </td> 
-   <td> Ltrim(&lt;cadeia de caracteres&gt;)<br /> </td> 
+   <td> Ltrim(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Md5Digest</strong><br /> </td> 
    <td> Retorna uma representação hexadecimal da chave MD5 de uma cadeira de caracteres<br /> </td> 
-   <td> Md5Digest(&lt;cadeia de caracteres&gt;)<br /> </td> 
+   <td> Md5Digest(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>MemoContains</strong><br /> </td> 
    <td> Especifica se o memorando contém a cadeira de caracteres aprovada como um parâmetro<br /> </td> 
-   <td> MemoContains(&lt;memorando&gt;, &lt;cadeia de caracteres&gt;)<br /> </td> 
+   <td> MemoContains(&lt;memorando&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>RPad</strong><br /> </td> 
    <td> Retorna a cadeira de caracteres concluída à direita<br /> </td> 
-   <td> RPad(&lt;cadeia de caracteres&gt;, &lt;número&gt;, &lt;caractere&gt;)<br /> </td> 
+   <td> RPad(&lt;string&gt;, &lt;número&gt;, &lt;caractere&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
@@ -591,13 +591,13 @@ As funções de string são usadas para manipular um conjunto de strings.
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
-   <td> Retorna os últimos n caracteres da cadeia de caracteres<br /> </td> 
-   <td> Right(&lt;cadeia de caracteres&gt;)<br /> </td> 
+   <td> Retorna os últimos n caracteres da string<br /> </td> 
+   <td> Right(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Rtrim</strong><br /> </td> 
    <td> Remove espaços à direita da cadeira de caracteres<br /> </td> 
-   <td> Rtrim(&lt;cadeia de caracteres&gt;)<br /> </td> 
+   <td> Rtrim(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
@@ -617,7 +617,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
    <td> Retorna a cadeira de caracteres com a primeira letra de cada palavra em maiúsculas<br /> </td> 
-   <td> Smart(&lt;cadeia de caracteres&gt;)<br /> </td> 
+   <td> Smart(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Substring</strong><br /> </td> 
@@ -626,18 +626,18 @@ As funções de string são usadas para manipular um conjunto de strings.
   </tr> 
   <tr> 
    <td> <strong>ToIntlString</strong><br /> </td> 
-   <td> Converte o número em uma cadeia de caracteres<br /> </td> 
+   <td> Converte o número em uma string<br /> </td> 
    <td> ToIntlString(&lt;número&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ToString</strong><br /> </td> 
-   <td> Converte o número em uma cadeia de caracteres<br /> </td> 
+   <td> Converte o número em uma string<br /> </td> 
    <td> ToString(&lt;número&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Upper</strong><br /> </td> 
-   <td> Retorna a cadeia de caracteres em maiúsculas<br /> </td> 
-   <td> Upper(&lt;cadeia de caracteres&gt;)<br /> </td> 
+   <td> Retorna a string em maiúsculas<br /> </td> 
+   <td> Upper(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>VirtualLink</strong><br /> </td> 
@@ -647,7 +647,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>VirtualLinkStr</strong><br /> </td> 
    <td> Retorna a chave externa (texto) de um link passado como um parâmetro se os outros dois parâmetros forem iguais<br /> </td> 
-   <td> VirtualLinkStr(&lt;cadeia de caracteres&gt;, &lt;número&gt;, &lt;número&gt;)<br /> </td> 
+   <td> VirtualLinkStr(&lt;string&gt;, &lt;número&gt;, &lt;número&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>encryption_aescbcDecrypt</strong><br /> </td> 
@@ -657,7 +657,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
    <td> Criptografa usando o algoritmo AES (modo de bloco CBC) uma string de caracteres (primeiro parâmetro) com uma chave (segundo parâmetro) e um vetor de inicialização (terceiro parâmetro). A chave e o vetor de inicialização devem ser fornecidos em uma representação hexadecimal (começando com <strong>\x</strong>). O resultado será hexadecimal sem o <strong>\x</strong>.<br /> Observe que o tamanho da chave pode ser de 128 bits, 192 bits, 256 bits (16, 24, 32 caracteres hexadecimais), mas recomendamos que você use 256 bits e um IV aleatório com o mesmo comprimento da chave.<br /> </td> 
-   <td> encryption_aescbcEncrypt(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> Por exemplo: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
+   <td> encryption_aescbcEncrypt()&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> Por exemplo: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\ x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\ x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -706,8 +706,8 @@ As funções de agregação são usadas para realizar cálculos em um conjunto d
    <td> Min(&lt;valor&gt;)<br /> </td> 
   </tr>
   <tr>
-   <td> <strong>StringAgg</strong>, agregação de string<br /> </td>
-   <td> Retorna a concatenação dos valores de uma coluna do tipo string, separada pelo caractere no segundo argumento (o separador padrão é vírgula).<br /> </td>
+   <td> <strong>StringAgg</strong>, Agregado de sequência<br /> </td>
+   <td> Retorna a concatenação dos valores de uma coluna do tipo string, separados pelo caractere no segundo argumento (o separador padrão é vírgula).<br /> </td>
    <td> StringAgg(&lt;string values=""&gt;,&lt;separator&gt;)
   </tr>
   <tr> 

@@ -1,6 +1,6 @@
 ---
-title: Público-alvo do DataModel
-description: Saiba mais sobre o datamodel
+title: Público-alvo do modelo de dados
+description: Saiba mais sobre o modelo de dados
 audience: developing
 content-type: reference
 feature: Data Model
@@ -14,7 +14,7 @@ ht-degree: 43%
 
 ---
 
-# Público-alvo (nms:audience)
+# Público (nms:audience)
 
 ## Descrição do objeto
 
@@ -27,14 +27,14 @@ ht-degree: 43%
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>ID de recurso principal</td>
+                  <td>ID do recurso principal</td>
                   <td>sequência de caracteres </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>aamMappingId</td>
                   <td>ID de mapeamento de Audience Manager</td>
-                  <td>string (100)</td>
+                  <td>sequência de caracteres (100)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -51,14 +51,14 @@ ht-degree: 43%
                </tr>
                <tr>
                   <td>audienceDataSchema</td>
-                  <td>Schema de dados</td>
-                  <td>string (255)</td>
+                  <td>Esquema de dados</td>
+                  <td>sequência de caracteres (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceMetadata</td>
                   <td>AudienceMetadata</td>
-                  <td>string (255)</td>
+                  <td>sequência de caracteres (255)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -100,7 +100,7 @@ ht-degree: 43%
                <tr>
                   <td>desc</td>
                   <td>Descrição</td>
-                  <td>string (512)</td>
+                  <td>sequência de caracteres (512)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -154,7 +154,7 @@ ht-degree: 43%
                <tr>
                   <td>label</td>
                   <td>Rótulo</td>
-                  <td>string (128)</td>
+                  <td>sequência de caracteres (128)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -165,14 +165,14 @@ ht-degree: 43%
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
-                  <td>Modificação por</td>
+                  <td>Modificado por</td>
                   <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>name</td>
                   <td>ID</td>
-                  <td>string (64)</td>
+                  <td>sequência de caracteres (64)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -207,17 +207,17 @@ ht-degree: 43%
                </tr>
                <tr>
                   <td>título</td>
-                  <td>Público-alvo</td>
-                  <td>string (255)</td>
+                  <td>Público</td>
+                  <td>sequência de caracteres (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>tipo</td>
                   <td>Tipo</td>
-                  <td>enumeration (string) (100)</td>
+                  <td>enumeração (sequência de caracteres) (100)</td>
                   <td>
                      <ul>
-                        <li>Query - query - query</li>
+                        <li>Consulta - consulta - consulta</li>
                         <li>Lista - lista - lista</li>
                         <li>Arquivo - arquivo - arquivo</li>
                         <li>VALOR INVÁLIDO - __Valor_Inválido__ - __Valor_Inválido__</li>
@@ -225,7 +225,7 @@ ht-degree: 43%
                   </td>
                </tr>
                <tr>
-                  <td>em que</td>
+                  <td>onde</td>
                   <td>Definição da consulta</td>
                   <td>Item </td>
                   <td> </td>

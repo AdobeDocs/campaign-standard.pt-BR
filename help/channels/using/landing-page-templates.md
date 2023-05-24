@@ -16,14 +16,14 @@ ht-degree: 94%
 
 ---
 
-# Sobre modelos de página de aterrissagem {#landing-page-templates}
+# Sobre modelos de landing pages {#landing-page-templates}
 
 O Campaign vem com um conjunto de templates de landing page incorporados:
 
 * **[!UICONTROL Acquisition]**: este é o template padrão para landing pages, que permite capturar e atualizar dados no banco de dados do Campaign.
 * **[!UICONTROL Subscription]**: esse template deve ser usado para oferecer assinaturas de um serviço.
 * **[!UICONTROL Unsubscription]**: esse template pode ser vinculado a partir de um email enviado aos assinantes de um serviço, para permitir que eles cancelem a assinatura desse serviço.
-* **[!UICONTROL Denylist]**: esse template deve ser usado quando um perfil não deseja mais ser contatado pelo Campaign. Para obter mais informações sobre lista de bloqueios gerenciamento de , consulte [Sobre participação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* **[!UICONTROL Denylist]**: esse template deve ser usado quando um perfil não deseja mais ser contatado pelo Campaign. Para obter mais informações sobre o gerenciamento de inclui na lista de bloqueios, consulte [Sobre participação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 Esses templates são propostos por padrão ao criar uma nova landing page.
 

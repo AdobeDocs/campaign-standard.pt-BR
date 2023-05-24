@@ -19,40 +19,40 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->No momento, o Adobe Experience Platform Data Connector está em beta, o que pode estar sujeito a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados no Azure (atualmente em beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente do Adobe se desejar acesso.
+>O Conector de dados do Adobe Experience Platform está atualmente na versão beta, que pode estar sujeita a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados no Azure (atualmente na versão beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente do Adobe se desejar obter acesso.
 
 O Adobe Campaign Standard permite acionar a assimilação imediata de mapeamentos de dados por meio de APIs e recuperar o status das solicitações de assimilação.
 
-Esta página descreve como acionar e recuperar o status de assimilação de seus mapeamentos de dados. Para obter informações globais sobre APIs do Campaign Standard, consulte [esta seção](../../api/using/get-started-apis.md).
+Esta página descreve como acionar e recuperar o status de assimilação dos mapeamentos de dados. Para obter informações globais sobre APIs Campaign Standard, consulte [nesta seção](../../api/using/get-started-apis.md).
 
 ## Pré-requisitos {#prerequisites}
 
-Antes de usar as APIs, o mapeamento de dados deve ter sido configurado e publicado primeiro na interface do Campaign Standard. Para saber mais, consulte estas seções:
+Antes de usar as APIs, o mapeamento de dados deve ter sido configurado e publicado na interface do Campaign Standard. Para saber mais, consulte estas seções:
 
 * [Definição de mapeamento](../../integrating/using/aep-mapping-definition.md)
 * [Ativação de mapeamento](../../integrating/using/aep-mapping-activation.md)
 
-Depois que o mapeamento de dados for criado, é necessário impedi-lo de ser executado para que possa acioná-lo a partir das APIs sempre que desejar. Para fazer isso, siga estes passos:
+Depois que o mapeamento de dados for criado, você deverá impedir a execução para que possa acioná-lo a partir das APIs sempre que desejar. Para fazer isso, siga estes passos:
 
-1. No Campaign Standard, acesse **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** menu.
+1. No Campaign Standard, acesse o **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** menu.
 
-1. Clique duas vezes no mapeamento de dados para abri-lo, depois clique no botão **[!UICONTROL Stop]** botão.
+1. Clique duas vezes no mapeamento de dados para abri-lo e clique no **[!UICONTROL Stop]** botão.
 
    ![](assets/aep_datamapping_stop.png)
 
 1. Salve as alterações
 
-A execução do mapeamento de dados agora está interrompida. Você pode usar as APIs do Campaign Standard para acioná-las manualmente.
+A execução do mapeamento de dados foi interrompida. Você pode usar APIs Campaign Standard para acioná-lo manualmente.
 
-## Início da assimilação imediata de mapeamento de dados {#starting-immediate-ingestion}
+## Iniciar a assimilação imediata do mapeamento de dados {#starting-immediate-ingestion}
 
-A assimilação imediata de um mapeamento XDM no Adobe Experience Platform é acionada com uma operação de POST:
+A assimilação imediata de um mapeamento XDM no Adobe Experience Platform é acionada com uma operação POST:
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest`
 
 >[!NOTE]
 >
->Para executar uma chamada de API de POST de assimilação, o usuário deve ter um **Execução da função SQL** , que pode ser fornecida por um administrador do Campaign Standard executando abaixo o Script JS:
+>Para executar a chamada da API POST de assimilação, o usuário deve ter uma **Execução da função SQL** que pode ser fornecido por um administrador de Campaign Standard executando abaixo do Script JS:
 >
 >
 ```
@@ -62,7 +62,7 @@ A assimilação imediata de um mapeamento XDM no Adobe Experience Platform é ac
 
 A operação POST retorna informações sobre o status da solicitação criada:
 
-* Solicitação enviada com êxito para o Mapeamento XDM:
+* Solicitação enviada com sucesso para o Mapeamento XDM:
 
 ```
 {
@@ -82,7 +82,7 @@ A operação POST retorna informações sobre o status da solicitação criada:
 }
 ```
 
-* A solicitação falhou porque o mapeamento XDM não foi publicado ou está parado:
+* A solicitação falhou porque o mapeamento XDM não foi publicado ou foi interrompido:
 
 ```
 {
@@ -95,7 +95,7 @@ A operação POST retorna informações sobre o status da solicitação criada:
 }
 ```
 
-## Recuperação do status de uma solicitação de assimilação {#retrieving-status}
+## Recuperando o status de uma solicitação de assimilação {#retrieving-status}
 
 O status de uma solicitação de assimilação pode ser recuperado com uma operação GET e a ID de solicitação desejada nos parâmetros:
 
@@ -106,16 +106,16 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->Informações detalhadas sobre o status da solicitação de mapeamento XDM e suas tarefas relacionadas estão disponíveis na interface do Campaign Standard, na **[!UICONTROL Status of data export to platform]** (consulte [Ativação de mapeamento](../../integrating/using/aep-mapping-activation.md)).
+>Informações detalhadas sobre o status da solicitação de mapeamento XDM e seus trabalhos relacionados estão disponíveis na interface do Campaign Standard, no **[!UICONTROL Status of data export to platform]** (consulte [Mapeamento da ativação](../../integrating/using/aep-mapping-activation.md)).
 
 A operação GET retorna as informações abaixo:
 
-* **batchId**: este campo é preenchido somente se ocorrer uma falha após a preparação e o upload do lote,
-* **informações**: a ID de mapeamento XDM,
+* **batchId**: este campo é preenchido somente se a falha ocorreu após a preparação e o upload do lote,
+* **informações**: a ID do mapeamento XDM,
 * **numRecords**: o número de registros que foram assimilados (somente status de sucesso),
 * **status**: o status da solicitação de assimilação (sucesso/falha/em andamento)
 
-As possíveis respostas para a operação do GET são:
+As respostas possíveis para a operação do GET são:
 
 * Solicitação de assimilação bem-sucedida:
 
@@ -129,7 +129,7 @@ As possíveis respostas para a operação do GET são:
    }
    ```
 
-* Falha na solicitação de assimilação com registro 0 assimilado:
+* A solicitação de assimilação falhou com 0 registro assimilado:
 
    ```
    {
@@ -141,7 +141,7 @@ As possíveis respostas para a operação do GET são:
    }
    ```
 
-* Falha na solicitação de assimilação, com alguns registros carregados em um lote:
+* A solicitação de assimilação falhou, com alguns registros carregados em um lote:
 
    ```
    {
@@ -153,7 +153,7 @@ As possíveis respostas para a operação do GET são:
    }
    ```
 
-* Solicitação de assimilação abortada após a assimilação de alguns registros (isso pode ocorrer em cenários de falha):
+* Solicitação de assimilação anulada após assimilar alguns registros (isso pode acontecer em cenários de falha):
 
    ```
    {

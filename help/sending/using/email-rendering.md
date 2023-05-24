@@ -74,11 +74,11 @@ Este relatório apresenta as renderizações de email conforme elas são exibida
 
 O número de renderizações disponíveis está listado em seu contrato de licença. Cada delivery com a opção **Renderização de email** ativada diminui uma renderização das renderizações disponíveis (conhecidas como tokens).
 
-Os tokens são contabilizados para cada renderização individual e não para todo o relatório de Renderização de email, o que significa que:
+Os tokens são contabilizados para cada renderização individual e não para o relatório de renderização de email inteiro, o que significa que:
 
-* **Cada vez** o relatório Renderização de email é gerado, um token por cliente de mensagem é deduzido: um token para a renderização do Outlook 2000, um para a renderização do Outlook, um para a renderização do Apple Mail e assim por diante.
+* **Cada vez** O relatório Renderização de email é gerado, um token por cliente de mensagens é deduzido: um token para a renderização do Outlook 2000, um para a renderização do Outlook, um para a renderização do Apple Mail e assim por diante.
 
-* **Para o mesmo delivery**, se você gerar a renderização de email novamente, o número de tokens disponíveis será reduzido novamente pelo número de renderizações geradas.
+* **Para a mesma entrega**, se você gerar a Renderização de email novamente, o número de tokens disponíveis será reduzido novamente pelo número de renderizações geradas.
 
 ### Resumo do relatório
 

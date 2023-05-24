@@ -19,26 +19,26 @@ ht-degree: 1%
 
 Depois que o fluxo de trabalho é acionado, os parâmetros são assimilados nas variáveis de eventos e podem ser usados para personalizar as atividades do fluxo de trabalho.
 
-Elas podem, por exemplo, ser usadas para definir qual público-alvo deve ler na **[!UICONTROL Read audience]** atividade , o nome do arquivo a ser transferido no **[!UICONTROL Transfer file]** atividade, etc. (consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
+Eles podem, por exemplo, ser usados para definir qual público-alvo ler na variável **[!UICONTROL Read audience]** atividade, o nome do arquivo a ser transferido na variável **[!UICONTROL Transfer file]** atividade, etc. (consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
 
 ## Uso de variáveis de eventos {#using-events-variables}
 
-As variáveis de eventos são usadas em uma expressão que deve respeitar a variável [Sintaxe padrão](../../automating/using/advanced-expression-editing.md#standard-syntax).
+As variáveis de eventos são usadas em uma expressão que deve respeitar a [Sintaxe padrão](../../automating/using/advanced-expression-editing.md#standard-syntax).
 
-A sintaxe para usar as variáveis de eventos deve seguir o formato abaixo e usar o nome do parâmetro que foi definido na variável **[!UICONTROL External signal]** atividade (consulte [Declaração dos parâmetros na atividade External signal](../../automating/using/declaring-parameters-external-signal.md)):
+A sintaxe para usar variáveis de eventos deve seguir o formato abaixo e usar o nome do parâmetro definido na variável **[!UICONTROL External signal]** atividade (consulte [Declaração dos parâmetros na atividade de sinal externo](../../automating/using/declaring-parameters-external-signal.md)):
 
 ```
 $(vars/@parameterName)
 ```
 
-Nesta sintaxe, a variável **$** retornos da função **string** tipo de dados. Se quiser especificar outro tipo de dados, use as seguintes funções:
+Nesta sintaxe, o parâmetro **$** função retorna **string** tipo de dados. Se quiser especificar outro tipo de dados, use as seguintes funções:
 
 * **$long**: número inteiro.
 * **$float**: número decimal.
-* **$boolean**: true/false.
-* **$datetime**: timestamp.
+* **$booleano**: verdadeiro/falso.
+* **$datetime**: carimbo de hora.
 
-Ao usar uma variável em uma atividade, a interface fornece ajuda para chamá-la.
+Ao usar uma variável em uma atividade do, a interface fornece ajuda para chamá-la.
 
 ![](assets/extsignal_callparameter.png)
 
@@ -46,69 +46,69 @@ Ao usar uma variável em uma atividade, a interface fornece ajuda para chamá-la
 
    ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png): editar expressões combinando variáveis e funções (consulte [esta página](../../automating/using/advanced-expression-editing.md)).
+* ![](assets/extsignal_expression_editor.png): edite as expressões que combinam variáveis e funções (consulte [esta página](../../automating/using/advanced-expression-editing.md)).
 
    ![](assets/wkf_test_activity_variables_expression.png)
 
-   Esta lista fornece funções que permitem fazer uma filtragem complexa. Essas funções são detalhadas em [esta seção](../../automating/using/list-of-functions.md).
+   Essa lista fornece funções que permitem fazer uma filtragem complexa. Essas funções estão detalhadas em [nesta seção](../../automating/using/list-of-functions.md).
 
-   Além disso, é possível usar as funções abaixo, que estão disponíveis em todas as atividades que permitem usar variáveis de eventos após chamar um workflow com parâmetros externos (consulte [esta seção](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
+   Além disso, você pode usar as funções abaixo, que estão disponíveis em todas as atividades que permitem usar variáveis de eventos depois de chamar um workflow com parâmetros externos (consulte [nesta seção](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
 
    | Nome | Descrição | Sintaxe |
    | ---------|----------|---------|
-   | EndWith | Indica se uma string (primeiro parâmetro) termina com uma string específica (segundo parâmetro). | EndWith(&lt;string>,&lt;string>) |
+   | EndWith | Indica se uma cadeia de caracteres (primeiro parâmetro) termina com uma cadeia de caracteres específica (segundo parâmetro). | EndWith()&lt;string>,&lt;string>) |
    | startWith | Indica se uma string (primeiro parâmetro) começa com uma string específica (segundo parâmetro). | startWith(&lt;string>,&lt;string>) |
-   | Extract | Retorna os primeiros caracteres de uma string usando um separador. | Extract(&lt;string>,&lt;separator>) |
-   | ExtractRight | Retorna os últimos caracteres de uma string usando um separador. | ExtractRight(&lt;string>,&lt;separator>) |
-   | DateFormat | Formata uma data usando o formato especificado no segundo parâmetro (por exemplo: &#39;%4Y%2M%2D&#39;) | DateFormat(&lt;date>,&lt;format>) |
-   | FileName | Retorna o nome de um caminho de arquivo. | FileName(&lt;string>) |
+   | Extract | Retorna os primeiros caracteres de uma cadeia de caracteres usando um separador. | Extract(&lt;string>,&lt;separator>) |
+   | ExtractRight | Retorna os últimos caracteres de uma cadeia de caracteres usando um separador. | ExtractRight(&lt;string>,&lt;separator>) |
+   | DateFormat | Formata uma data usando o formato especificado no segundo parâmetro (exemplo: &#39;%4Y%2M%2D&#39;) | DateFormat(&lt;date>,&lt;format>) |
+   | NomeArquivo | Retorna o nome de um caminho de arquivo. | NomeArquivo(&lt;string>) |
    | FileExt | Retorna a extensão de um caminho de arquivo. | FileExt(&lt;string>) |
-   | GetOption | Retorna o valor da função especificada. | GetOption(&lt;optionname>) |
-   | IsNull | Indica se uma string ou uma data é nula. | IsNull(&lt;string date=&quot;&quot;>) |
+   | GetOption | Retorna o valor da função especificada. | GetOption()&lt;optionname>) |
+   | IsNull | Indica se uma cadeia de caracteres ou uma data é nula. | IsNull(&lt;string date=&quot;&quot;>) |
    | UrlUtf8Encode | Codifica um URL em UTF8. | UrlUtf8Encode(&lt;string>) |
 
 ## Personalização de atividades com variáveis de eventos {#customizing-activities-with-events-variables}
 
-As variáveis de Eventos podem ser usadas para personalizar várias atividades, listadas na seção abaixo. Para obter mais informações sobre como chamar uma variável de uma atividade, consulte [esta seção](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables).
+As variáveis de eventos podem ser usadas para personalizar várias atividades, listadas na seção abaixo. Para obter mais informações sobre como chamar uma variável de uma atividade, consulte [nesta seção](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables).
 
-**[!UICONTROL Read audience]** atividade : defina o público-alvo com base nas variáveis de eventos. Para obter mais informações sobre como usar a atividade , consulte [esta seção](../../automating/using/read-audience.md).
+**[!UICONTROL Read audience]** atividade: definir o público-alvo para direcionamento com base nas variáveis de eventos. Para obter mais informações sobre como usar a atividade, consulte [nesta seção](../../automating/using/read-audience.md).
 
 ![](assets/extsignal_activities_audience.png)
 
-**[!UICONTROL Test]** atividade : crie condições com base nas variáveis de eventos. Para obter mais informações sobre como usar a atividade , consulte [esta seção](../../automating/using/test.md).
+**[!UICONTROL Test]** atividade: criar condições com base nas variáveis de eventos. Para obter mais informações sobre como usar a atividade, consulte [nesta seção](../../automating/using/test.md).
 
 ![](assets/extsignal_activities_test.png)
 
-**[!UICONTROL Transfer file]** atividade : personalize o arquivo a ser transferido com base nas variáveis de eventos. Para obter mais informações sobre como usar a atividade , consulte [esta seção](../../automating/using/transfer-file.md).
+**[!UICONTROL Transfer file]** atividade: personalizar o arquivo a ser transferido com base nas variáveis de eventos. Para obter mais informações sobre como usar a atividade, consulte [nesta seção](../../automating/using/transfer-file.md).
 
 ![](assets/extsignal_activities_transfer.png)
 
-**[!UICONTROL Query]** atividade : parâmetros podem ser referenciados em uma query usando expressões que combinam variáveis e funções de eventos. Para fazer isso, adicione uma regra e clique no botão **[!UICONTROL Advanced mode]** link para acessar a janela de edição de expressão (consulte [Edição de expressão avançada](../../automating/using/advanced-expression-editing.md)).
+**[!UICONTROL Query]** atividade: os parâmetros podem ser referenciados em um query, usando expressões que combinam variáveis de eventos e funções. Para fazer isso, adicione uma regra e clique no link **[!UICONTROL Advanced mode]** para acessar a janela de edição de expressões (consulte [Edição de expressão avançada](../../automating/using/advanced-expression-editing.md)).
 
-Para obter mais informações sobre como usar a atividade , consulte [esta seção](../../automating/using/query.md).
+Para obter mais informações sobre como usar a atividade, consulte [nesta seção](../../automating/using/query.md).
 
 ![](assets/extsignal_activities_query.png)
 
-**[!UICONTROL Channels]** atividades: personalize deliveries com base em variáveis de eventos.
+**[!UICONTROL Channels]** atividades: personalize deliveries com base nas variáveis de eventos.
 
 >[!NOTE]
 >
->Os valores dos parâmetros de delivery são recuperados toda vez que o delivery for preparado.
+>Os valores dos parâmetros de delivery são recuperados toda vez que o delivery é preparado.
 >
->A preparação de deliveries recorrentes é baseada no delivery **período de agregação**. Por exemplo, se o período de agregação for &quot;por dia&quot;, o delivery será repreparado apenas uma vez por dia. Se o valor de um parâmetro de delivery for modificado durante o dia, ele não será atualizado no delivery, pois já foi preparado uma vez.
+>A preparação de deliveries recorrentes é baseada no delivery **período de agregação**. Por exemplo, se o período de agregação for &quot;por dia&quot;, o delivery será preparado novamente apenas uma vez por dia. Se o valor de um parâmetro de delivery for modificado durante o dia, ele não será atualizado no delivery, pois já foi preparado uma vez.
 >
->Se você planeja chamar o workflow várias vezes por dia, use a variável [!UICONTROL No aggregation] para que os parâmetros de delivery sejam atualizados sempre. Para obter mais informações sobre a configuração de deliveries recorrentes, consulte [esta seção](/help/automating/using/email-delivery.md#configuration).
+>Se você planeja chamar o workflow várias vezes por dia, use o [!UICONTROL No aggregation] para que os parâmetros de delivery sejam atualizados todas as vezes. Para obter mais informações sobre a configuração de deliveries recorrentes, consulte [nesta seção](/help/automating/using/email-delivery.md#configuration).
 
-Para personalizar um delivery com base nas variáveis de eventos, primeiro declare na atividade de delivery as variáveis que deseja usar:
+Para personalizar um delivery com base em variáveis de eventos, primeiro declare na atividade do delivery as variáveis que deseja usar:
 
-1. Selecione a atividade e clique no botão ![](assets/dlv_activity_params-24px.png) para acessar as configurações.
-1. Selecione o **[!UICONTROL General]** , em seguida, adicione as variáveis de eventos que estarão disponíveis como campos de personalização no delivery.
+1. Selecione a atividade e clique no botão ![](assets/dlv_activity_params-24px.png) botão para acessar as configurações.
+1. Selecione o **[!UICONTROL General]** e adicione as variáveis de eventos que estarão disponíveis como campos de personalização no delivery.
 
    ![](assets/extsignal_activities_delivery.png)
 
 1. Clique no botão **[!UICONTROL Confirm]**.
 
-As variáveis de eventos declaradas agora estão disponíveis na lista de campos de personalização. Você pode usá-los no delivery para executar as ações abaixo:
+As variáveis de eventos declarados agora estão disponíveis na lista de campos de personalização. Você pode usá-los no delivery para executar as ações abaixo:
 
 * Defina o nome do template a ser usado para o delivery.
 
@@ -118,20 +118,20 @@ As variáveis de eventos declaradas agora estão disponíveis na lista de campos
 
    ![](assets/extsignal_activities_template.png)
 
-* Personalize o delivery: ao selecionar um campo de personalização para configurar um delivery, as variáveis de eventos são disponibilizadas na variável **[!UICONTROL Workflow parameters]** elemento. Você pode usá-los como qualquer campo de personalização, por exemplo, para definir o assunto do delivery, o remetente etc.
+* Personalizar o delivery: ao selecionar um campo de personalização para configurar um delivery, as variáveis de eventos estão disponíveis no **[!UICONTROL Workflow parameters]** elemento. Você pode usá-los como qualquer campo de personalização, por exemplo, para definir o assunto do delivery, o remetente etc.
 
-   A personalização do delivery é detalhada em [esta seção](../../designing/using/personalization.md).
+   A personalização da entrega é detalhada em [nesta seção](../../designing/using/personalization.md).
 
    ![](assets/extsignal_activities_perso.png)
 
-**Códigos de segmento**: defina o código do segmento com base nas variáveis de eventos.
+**Códigos de segmento**: defina o código de segmento com base nas variáveis de eventos.
 
 >[!NOTE]
 >
->Essa ação pode ser executada de qualquer atividade que permita definir um código de segmento como, por exemplo, **[!UICONTROL Query]** ou **[!UICONTROL Segmentation]** atividades.
+>Essa ação pode ser executada a partir de qualquer atividade que permite definir um código de segmento como, por exemplo, **[!UICONTROL Query]** ou **[!UICONTROL Segmentation]** atividades.
 
 ![](assets/extsignal_activities_segment.png)
 
-**Rótulo da entrega**: defina o rótulo do delivery com base nas variáveis de eventos.
+**Rótulo de entrega**: defina o rótulo do delivery com base nas variáveis de eventos.
 
 ![](assets/extsignal_activities_label.png)

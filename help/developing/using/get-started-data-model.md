@@ -29,9 +29,9 @@ Estenda o modelo de dados do Campaign Standard com seus próprios campos e recur
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-Os dados usados pelo Campaign são definidos por meio de diferentes recursos definidos em uma **modelo de dados predefinido**. O modelo de dados exibe uma estrutura SQL pronta para uso para um conjunto de recursos relacionados a marketing: entrega, público-alvo, páginas de aterrissagem, perfil, etc. Cada recurso vem com filtros associados, permitindo navegar pelos recursos.
+Os dados usados pelo Campaign são definidos por meio de diferentes recursos em uma **modelo de dados predefinido**. O modelo de dados exibe uma estrutura SQL pronta para uso para um conjunto de recursos relacionados a marketing: entrega, público-alvo, landing pages, perfil, etc. Cada recurso vem com filtros associados, que permitem navegar pelos recursos.
 
-O **Diagnóstico** permite listar os objetos técnicos gerados pelo Campaign Standard: esquemas de dados, páginas da Web, filtros etc., que permitem monitorar o modelo de dados e qualquer alteração feita nele.
+A variável **Diagnóstico** O menu permite listar os objetos técnicos gerados pelo Campaign Standard: schemas de dados, páginas da Web, filtros etc., permitindo monitorar o modelo de dados e qualquer alteração feita nele.
 
 Leia mais:
 
@@ -44,22 +44,22 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_custom.svg" width="60px">
 
-O Campaign Standard permite **Enriquecer o modelo de dados predefinido** para criar seus próprios recursos (por exemplo, para adicionar tabelas de Produto ou de Compra) ou para estender os recursos existentes com novos campos. Você também pode configurar as telas do Campaign para otimizar a navegação por meio dos novos recursos e campos que foram criados.
+Campaign Standard permite **Enriquecer o modelo de dados predefinido** para criar seus próprios recursos (por exemplo, para adicionar tabelas de Compra ou Produto) ou estender recursos existentes com novos campos. Você também pode configurar as telas do Campaign para otimizar a navegação pelos novos recursos e campos criados.
 
-Além disso, você pode **estender APIs REST do Campaign Standard** para expor os campos estendidos das APIs para os recursos personalizados Perfis. Isso permite, por exemplo, atualizar o perfil de um cliente com um código promocional gerado de um sistema de cobrança.
+Além disso, você pode **estender APIs REST do Campaign Standard** para expor nos campos estendidos das APIs os Perfis de recursos personalizados. Isso permite, por exemplo, atualizar o perfil de um cliente com um código promocional gerado de um sistema de faturamento.
 
 Leia mais:
 
 * [Adição ou extensão de um recurso](../../developing/using/key-steps-to-add-a-resource.md)
 * [Extensão da API](../../developing/using/about-extending-the-api.md)
-* [Caso de uso: Extensão do recurso de perfil com um novo campo](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
-* [Caso de uso: Extensão das assinaturas para um recurso de aplicativo](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
+* [Caso de uso: extensão do recurso de perfil com um novo campo](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
+* [Caso de uso: extensão das assinaturas para um recurso de aplicativo](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
 
 ## Trabalhar com APIs {#apis}
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-Com as APIs do Campaign Standard, crie integrações para o Adobe Campaign Standard e crie seu próprio ecossistema, conectando o Campaign ao painel de tecnologias que você usa. [Introdução às REST APIs do Campaign Standard](../../api/using/get-started-apis.md)
+Com as APIs do Campaign Standard, crie integrações para o Adobe Campaign Standard e construa seu próprio ecossistema, conectando o Campaign ao painel de tecnologias que você usa. [Introdução às REST APIs do Campaign Standard](../../api/using/get-started-apis.md)
 
 ## Recursos adicionais
 

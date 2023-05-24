@@ -1,6 +1,6 @@
 ---
 title: Classificação
-description: Saiba mais sobre como executar operações de classificação
+description: Saiba como executar operações de classificação
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -19,13 +19,13 @@ ht-degree: 11%
 
 A classificação está disponível em ordem crescente ou decrescente. Para fazer isso, use o **%20desc** ou **%20asc** à sua solicitação.
 
-Para saber se um campo pode ser classificado, verifique o parâmetro &quot;classificável&quot; nos metadados do recurso. Para obter mais informações, consulte [esta seção](../../api/using/metadata-mechanism.md).
+Para saber se um campo pode ser classificado, verifique o parâmetro &quot;classitable&quot; nos metadados do recurso. Para obter mais informações, consulte [esta seção](../../api/using/metadata-mechanism.md).
 
 <br/>
 
 ***Solicitações de exemplo***
 
-* Solicitação de exemplo do GET para recuperar emails no banco de dados em ordem alfabética.
+* Exemplo de solicitação do GET para recuperar emails no banco de dados em ordem alfabética.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email/email?_order=email \
@@ -50,7 +50,7 @@ Para saber se um campo pode ser classificado, verifique o parâmetro &quot;class
    }
    ```
 
-* Solicitação de amostra do GET para recuperar o email no banco de dados em uma ordem alfabética decrescente.
+* Exemplo de solicitação do GET para recuperar o email no banco de dados em ordem alfabética decrescente.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \

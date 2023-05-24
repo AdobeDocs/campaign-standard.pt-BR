@@ -1,6 +1,6 @@
 ---
 title: Sobre a configuração de canal
-description: Saiba como configurar canais, incluindo configuração técnica, propriedades de mensagens e modelos
+description: Saiba como configurar canais, incluindo configuração técnica, propriedades de mensagem e modelos
 audience: administration
 feature: Instance Settings
 role: Admin
@@ -15,15 +15,15 @@ ht-degree: 4%
 
 # Sobre a configuração de canal{#about-channel-configuration}
 
-Todos os canais de comunicação no Adobe Campaign devem ser configurados corretamente para poderem enviar mensagens de maneira eficaz.
+Todos os canais de comunicação no Adobe Campaign devem estar configurados corretamente para enviar mensagens com eficiência.
 
 As diferentes configurações são as seguintes:
 
-* Configuração técnica do canal, incluindo roteamento, regras de processamento, parâmetros de deliverability, etc.
-* Templates e propriedades de mensagem. Todas as mensagens são baseadas em um template. O Adobe Campaign vem com um conjunto de modelos predefinidos para todos os canais ativados. Você pode duplicar e personalizar esses modelos.
-* Propriedades da mensagem. Ao criar uma nova mensagem, você pode concluir as propriedades dependendo das suas necessidades.
-* Alguns canais oferecem configurações adicionais que são opcionais, como Cco de email.
+* Configuração técnica do canal, incluindo roteamento, regras de processamento, parâmetros de capacidade de delivery etc.
+* Modelos e propriedades de mensagem. Todas as mensagens se baseiam em um modelo. O Adobe Campaign vem com um conjunto de modelos predefinidos para todos os canais ativados. É possível duplicar e personalizar esses modelos.
+* Propriedades da mensagem. Ao criar uma nova mensagem, você pode ajustar as propriedades de acordo com suas necessidades.
+* Alguns canais oferecem configurações adicionais que são opcionais, como Email Cco.
 
-O **[!UICONTROL Channel]** agrupa os parâmetros técnicos vinculados aos diferentes canais de aplicativos (Email, SMS), bem como a tipologia e o gerenciamento de quarentena.
+A variável **[!UICONTROL Channel]** O menu reagrupa os parâmetros técnicos vinculados aos diferentes canais de aplicativo (Email, SMS), bem como a tipologia e o gerenciamento de quarentenas.
 
-Os administradores podem acessar essas configurações na **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu.
+Os administradores podem acessar essas configurações no **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu.

@@ -1,6 +1,6 @@
 ---
-title: Programa DataModel
-description: Saiba mais sobre o datamodel
+title: Programa do DataModel
+description: Saiba mais sobre o modelo de dados
 audience: developing
 content-type: reference
 feature: Data Model
@@ -27,7 +27,7 @@ ht-degree: 37%
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>ID de recurso principal</td>
+                  <td>ID do recurso principal</td>
                   <td>sequência de caracteres </td>
                   <td> </td>
                </tr>
@@ -38,7 +38,7 @@ ht-degree: 37%
                   <td> </td>
                </tr>
                <tr>
-                  <td>build</td>
+                  <td>builtIn</td>
                   <td>Objeto de aplicativo integrado</td>
                   <td>booleano </td>
                   <td> </td>
@@ -58,11 +58,11 @@ ht-degree: 37%
                <tr>
                   <td>desc</td>
                   <td>Descrição</td>
-                  <td>string (512)</td>
+                  <td>sequência de caracteres (512)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>end</td>
+                  <td>fim</td>
                   <td>Data final</td>
                   <td>date </td>
                   <td> </td>
@@ -88,7 +88,7 @@ ht-degree: 37%
                <tr>
                   <td>label</td>
                   <td>Rótulo</td>
-                  <td>string (128)</td>
+                  <td>sequência de caracteres (128)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -100,7 +100,7 @@ ht-degree: 37%
                <tr>
                   <td>logicalStatus</td>
                   <td>Status da execução</td>
-                  <td>enumeration (string) (255)</td>
+                  <td>enumeração (cadeia de caracteres) (255)</td>
                   <td>
                      <ul>
                         <li>Em andamento - iniciado - iniciado</li>
@@ -114,14 +114,14 @@ ht-degree: 37%
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
-                  <td>Modificação por</td>
+                  <td>Modificado por</td>
                   <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>name</td>
                   <td>ID</td>
-                  <td>string (64)</td>
+                  <td>sequência de caracteres (64)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -131,8 +131,8 @@ ht-degree: 37%
                   <td> </td>
                </tr>
                <tr>
-                  <td>parent (programBase)</td>
-                  <td>Programa pai</td>
+                  <td>pai (programBase)</td>
+                  <td>Programa principal</td>
                   <td>Link  </td>
                   <td> </td>
                </tr>
@@ -163,20 +163,20 @@ ht-degree: 37%
                </tr>
                <tr>
                   <td>modelo (programa)</td>
-                  <td>Modelo de programa</td>
+                  <td>Modelo do programa</td>
                   <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>miniatura</td>
                   <td>Miniatura</td>
-                  <td>string (255)</td>
+                  <td>sequência de caracteres (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>título</td>
                   <td>Programa</td>
-                  <td>string (255)</td>
+                  <td>sequência de caracteres (255)</td>
                   <td> </td>
                </tr>
             </table>
@@ -209,7 +209,7 @@ Por nome ou rótulo (byText)
     </tr>
 </table>
 
-Por período (porPeríodo)
+Por período (byPeriod)
 
 <table>
     <tr>
@@ -226,7 +226,7 @@ Por período (porPeríodo)
     </tr>
 </table>
 
-Incluir deliveries contínuos de uma lista heterogênea (com Contínuo)
+Incluir deliveries contínuos de uma lista heterogênea (com Continuous)
 
 <table>
     <tr>
@@ -239,7 +239,7 @@ Incluir deliveries contínuos de uma lista heterogênea (com Contínuo)
     </tr>
 </table>
 
-Incluir subprogramas (comPai)
+Incluir subprogramas (withParent)
 
 <table>
         <tr>
@@ -252,7 +252,7 @@ Incluir subprogramas (comPai)
         </tr>
     </table>
 
-Apenas os pais elegíveis (eligibleParents)
+Somente os pais elegíveis (eligibleParents)
 
 <table>
     <tr>
@@ -265,7 +265,7 @@ Apenas os pais elegíveis (eligibleParents)
     </tr>
 </table>
 
-Planejado para o período especificado (byPlanning)
+Planejado para o período determinado (por Planejamento)
 
 <table>
     <tr>
@@ -282,7 +282,7 @@ Planejado para o período especificado (byPlanning)
     </tr>
 </table>
 
-Apresentar durante um determinado período (porCalendário)
+Presente durante determinado período (por calendário)
 
 <table>
     <tr>

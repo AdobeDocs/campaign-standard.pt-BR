@@ -19,37 +19,37 @@ ht-degree: 16%
 
 Você pode configurar o Adobe Campaign para manter uma cópia dos emails enviados de sua plataforma por meio do Email Cco.
 
-Especificamente, se sua organização precisar arquivar todas as mensagens de email de saída para fins de conformidade, você poderá habilitar esse recurso. Ele permite enviar uma cópia oculta exata das mensagens enviadas correspondentes para um endereço de email CCO (invisível aos recipients do delivery) que você deve especificar.
+Especificamente, se sua organização precisar arquivar todas as mensagens de e-mail enviadas para fins de conformidade, você poderá ativar esse recurso. Ele permite enviar uma cópia oculta exata das mensagens enviadas correspondentes para um endereço de email CCO (invisível para os recipients do delivery) que você deve especificar.
 
-Depois de habilitado, é necessário ativar o Email Cco no **[!UICONTROL Archive emails]** no template do delivery de email.
+Depois de habilitado, você precisa ativar o Email Cco no **[!UICONTROL Archive emails]** no template do delivery de email.
 
 >[!NOTE]
 >
->A Adobe Campaign em si não gerencia arquivos arquivados. Ele permite enviar as mensagens de sua escolha para um endereço dedicado, de onde elas podem ser processadas e arquivadas usando um sistema externo.
+>O próprio Adobe Campaign não gerencia arquivos arquivados. Ela permite enviar as mensagens de sua escolha para um endereço dedicado, de onde elas podem ser processadas e arquivadas usando um sistema externo.
 
 ## Recommendations e limitações {#recommendations-and-limitations}
 
 * Este recurso é opcional. Verifique seu contrato de licença e entre em contato com o executivo da sua conta para ativá-lo.
-* O endereço CCO de sua escolha deve ser fornecido à equipe do Adobe que o configurará para você.
+* O endereço CCO de sua escolha deve ser fornecido à equipe do Adobe que irá configurá-lo para você.
 * Você só pode usar um endereço de email CCO.
-* Somente emails enviados com êxito são considerados. Rejeições não são.
-* Por motivos de privacidade, os emails CCO devem ser processados por um sistema de arquivamento capaz de armazenar informações de identificação pessoal (PII) seguras.
-* Ao criar um novo modelo de delivery, o CCo não é ativado por padrão, mesmo que a opção tenha sido adquirida. Você deve habilitá-lo manualmente em cada template de delivery onde deseja usá-lo.
+* Somente emails enviados com êxito são considerados. As rejeições não são.
+* Por motivos de privacidade, os emails com CCO devem ser processados por um sistema de arquivamento capaz de armazenar informações de identificação pessoal (PII) seguras.
+* Ao criar um novo template do delivery, o Email Cco não é habilitado por padrão, mesmo que a opção tenha sido adquirida. Você deve ativá-lo manualmente em cada template do delivery onde deseja usá-lo.
 
 >[!NOTE]
 >
 >Atualmente, os emails arquivados ainda são enviados pelo módulo de arquivamento herdado que usa uma retransmissão SMTP simples.
 
-## Ativação do arquivamento de email {#activating-email-archiving}
+## Ativação do arquivamento de emails {#activating-email-archiving}
 
-Depois de habilitado, o Email Cco é ativado na variável [modelo de email](../../start/using/marketing-activity-templates.md), por meio de uma opção dedicada:
+Depois de habilitado, o Email Cco é ativado no [modelo de email](../../start/using/marketing-activity-templates.md), por meio de uma opção dedicada:
 
 1. Acesse **Resources** > **Templates** > **Delivery templates**.
-1. Duplique os **[!UICONTROL Send via email]** modelo .
+1. Duplique o pronto para uso **[!UICONTROL Send via email]** modelo.
 1. Selecione o template duplicado.
-1. Clique no botão **[!UICONTROL Edit properties]** para editar as propriedades do modelo.
-1. Expanda o **[!UICONTROL Send]** seção.
-1. Verifique a **[!UICONTROL Archive emails]** para manter uma cópia de todas as mensagens enviadas para cada delivery com base nesse template.
+1. Clique em **[!UICONTROL Edit properties]** botão para editar as propriedades do modelo.
+1. Expanda a **[!UICONTROL Send]** seção.
+1. Verifique a **[!UICONTROL Archive emails]** para manter uma cópia de todas as mensagens enviadas para cada delivery com base neste template.
 
    ![](assets/email_archiving.png)
 

@@ -1,6 +1,6 @@
 ---
 title: Reclamações
-description: Com o relatório de Complaints pronto para uso, saiba quantas vezes a entrega foi declarada spam.
+description: Com o relatório Complaints pronto para uso, saiba quantas vezes o delivery foi declarado como spam.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -22,6 +22,6 @@ O relatório **[!UICONTROL Complaints]** identifica as entregas que receberam ma
 
 ![](assets/delivery_reports_complaints.png)
 
-O **Flop** tabela, classificada por domínio de recipient, exibe o número de recipients que declararam um email ou lixo. Os resultados da tabela também estão disponíveis em um gráfico e números de resumo.
+A variável **Flop** table, classificado por domínio do recipient, exibe o número de recipients que declararam um email ou lixo eletrônico. Os resultados da tabela também estão disponíveis em um gráfico e em números de resumo.
 
-O **Entregue versus Na  Lista de bloqueios** tabela lista o número de recipients que declararam um email como spam ou lixo eletrônico. A tabela é classificada por delivery.
+A variável **Entregue vs Na Inclui na lista de bloqueios** A tabela lista o número de recipients que declararam um email como spam ou lixo eletrônico. A tabela é classificada por delivery.

@@ -47,13 +47,13 @@ Os públicos-alvo podem ser definidos ao criar a mensagem com o assistente de cr
 
    >[!NOTE]
    >
-   >Ao direcionar um público-alvo, observe que a definição do público-alvo não é mencionada, mas **copiado** no query. Se você fizer qualquer alteração no público-alvo depois que ele tiver sido direcionado em um query, certifique-se de configurar o query novamente para considerar a nova definição.
+   >Ao direcionar um público-alvo, observe que a definição do público-alvo não é referenciada, mas **copiado** na query. Se você fizer qualquer alteração no público depois de ele ter sido direcionado em um query, configure o query novamente para levar a nova definição em consideração.
 
 1. Defina os **[!UICONTROL Test profiles]** que deseja usar para o email. Os perfis de teste receberão as provas que você enviar para testar o email antes que ele seja enviado ao público-alvo principal.
 
    Para saber mais sobre como configurar perfis de teste, consulte a seção [Perfis de teste](../../audiences/using/managing-test-profiles.md).
 
-1. Se necessário, é possível definir um grupo de controle usando a guia correspondente. Isso permitirá que você retire alguns perfis do seu público-alvo para que eles não recebam a mensagem. Para obter mais informações, consulte [Adicionar um grupo de controle](../../sending/using/control-group.md).
+1. Se necessário, você pode definir um grupo de controle usando a guia correspondente. Isso permitirá que você retire alguns perfis do seu público-alvo para que eles não recebam a mensagem. Para obter mais informações, consulte [Adicionar um grupo de controle](../../sending/using/control-group.md).
 
 1. Você também pode usar endereços de substituição para obter uma representação exata da mensagem que o perfil receberá.  Para mais informações, consulte [Testar mensagens de email usando perfis segmentados](../../sending/using/testing-messages-using-target.md).
 

@@ -38,9 +38,9 @@ A criação de um delivery de correspondência direta é muito semelhante à cri
 
    >[!NOTE]
    >
-   >O nome da atividade e sua ID são exibidos na interface, mas não são visíveis para os recipients da mensagem.
+   >O nome da atividade e sua ID aparecem na interface, mas não são visíveis para os recipients da mensagem.
    >
-   >Certifique-se de que o campo de ID não contenha nenhum espaço em branco para evitar discrepâncias, por exemplo, ao integrar com o Adobe Analytics.
+   >Verifique se o campo de ID não contém nenhum espaço em branco para evitar discrepâncias, por exemplo, ao integrar com o Adobe Analytics.
 
 1. Defina o público-alvo que você deseja incluir no arquivo de extração, bem como os perfis de teste e trap. Consulte [Definição do público-alvo de mala direto](../../channels/using/defining-the-direct-mail-audience.md).
 
@@ -60,7 +60,7 @@ A criação de um delivery de correspondência direta é muito semelhante à cri
 
 1. Se você tiver adicionado perfis de teste (consulte [Adicionar perfis de teste e trap](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)), será possível testar o delivery antes de preparar o arquivo final. O teste permite criar um arquivo de amostra contendo apenas os perfis de teste selecionados.
 
-   Clique em **[!UICONTROL Test]** para gerar o arquivo de amostra. Clique em **[!UICONTROL Summary]**, no canto superior esquerdo, em seguida, selecione **[!UICONTROL Proofs]**. Na parte esquerda da tela, selecione a prova e clique em **[!UICONTROL Download file]**.
+   Clique em **[!UICONTROL Test]** para gerar o arquivo de amostra. Clique em **[!UICONTROL Summary]**, no canto superior esquerdo e selecione **[!UICONTROL Proofs]**. Na parte esquerda da tela, selecione a prova e clique em **[!UICONTROL Download file]**.
 
    >[!NOTE]
    >
@@ -103,4 +103,4 @@ Agora, você está pronto para enviar o arquivo de extração ao seu provedor de
 * Enviá-lo por email normal, com o arquivo anexado
 * Enviá-l-o pelo Campaign: faça sua correspondência direta dentro de um [workflow](../../automating/using/direct-mail-delivery.md) de campanha e adicione um **[!UICONTROL Transfer file]** para enviar o arquivo via FTP, por exemplo. Consulte [Transferir arquivo](../../automating/using/transfer-file.md).
 
-O provedor recupera a lista de endereços incorretos e envia essas informações para a Adobe Campaign, que lista de bloqueios automaticamente os endereços incorretos. Consulte [Retornar ao remetente](../../channels/using/return-to-sender.md) .
+O provedor recupera a lista de endereços incorretos e envia essas informações à Adobe Campaign lista de bloqueios, que automaticamente exibe os endereços incorretos. Consulte [Retornar ao remetente](../../channels/using/return-to-sender.md) .

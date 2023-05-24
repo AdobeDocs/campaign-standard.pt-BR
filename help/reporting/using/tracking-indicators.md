@@ -1,6 +1,6 @@
 ---
 title: Indicadores de rastreamento
-description: Com os indicadores de rastreamento prontos para uso, saiba mais sobre o comportamento dos clientes ao receberem mensagens de email.
+description: Com o relatório de Indicadores de rastreamento pronto para uso, saiba mais sobre o comportamento dos clientes quando eles recebem mensagens de email.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # Indicadores de rastreamento{#tracking-indicators}
 
-O **[!UICONTROL Tracking indicators]** contém os indicadores principais para rastrear o comportamento após o recebimento de mensagens de email.
+A variável **[!UICONTROL Tracking indicators]** O relatório de contém os indicadores principais para rastrear o comportamento após o recebimento de mensagens de email.
 
 >[!NOTE]
 >
@@ -26,11 +26,11 @@ O **[!UICONTROL Tracking indicators]** contém os indicadores principais para ra
 
 ![](assets/delivery_reports_2.png)
 
-O **[!UICONTROL Tracking indicators]** tabela e **5 deliveries principais** O gráfico contém os dados disponíveis para rastreamento de email, como:
+A variável **[!UICONTROL Tracking indicators]** tabela e **As 5 principais entregas** O gráfico contém os dados disponíveis para rastreamento de email, como:
 
-* **[!UICONTROL Delivered]**: O número de mensagens enviadas com êxito. Erros gerados (rejeições) são considerados. no entanto, as reclamações (declarações de spam) e mensagens de saída, como &quot;ausência do escritório&quot;, não são consideradas.
-* **Abrir**: O número de vezes que uma mensagem foi aberta em um delivery.
+* **[!UICONTROL Delivered]**: o número de mensagens enviadas com êxito. Erros gerados (rejeições) são considerados. no entanto, as reclamações (declarações de spam) e mensagens ausentes como &quot;ausente&quot; não são consideradas.
+* **Abertura**: o número de vezes que uma mensagem foi aberta em um delivery.
 * **Clique em**: O número de vezes que o conteúdo foi clicado em um delivery.
-* **Inscrições canceladas**: O número de cliques no link de subscrição.
+* **Assinatura cancelada**: O número de cliques no link de subscrição.
 * **Spam:** O número de recipients que declararam um email como spam.
-* **Mirror Page**: O número de cliques no link da mirror page.
+* **Mirror Page**: o número de cliques no link da mirror page.

@@ -26,13 +26,13 @@ A seção a seguir descreve as práticas e os procedimentos recomendados para a 
 
 Vários fatores podem afetar diretamente o desempenho do servidor e retardar a plataforma:
 
-* O número e o tipo de elementos de personalização: a personalização em emails extrai dados do banco de dados para cada recipient. Se houver muitos elementos de personalização, isso aumentará a quantidade de dados necessários para preparar o delivery.  Saiba mais sobre a personalização de email no [esta seção](../../designing/using/personalization.md)
+* O número e o tipo de elementos de personalização: a personalização em emails extrai dados do banco de dados para cada recipient. Se houver muitos elementos de personalização, isso aumentará a quantidade de dados necessários para preparar o delivery.  Saiba mais sobre a personalização de email no [nesta seção](../../designing/using/personalization.md)
 
-* A carga do servidor: quando o Campaign estiver lidando com várias tarefas diferentes ao mesmo tempo, ele poderá retardar o desempenho. O servidor de precisa coordenar todos os dados de entrada e saída de todos os deliveries para garantir que os dados estejam corretos no momento correto.
+* A carga do servidor: quando o Campaign estiver lidando com várias tarefas diferentes ao mesmo tempo, o desempenho poderá ser retardado. O servidor de precisa coordenar todos os dados de entrada e saída de todos os deliveries para garantir que os dados estejam corretos no momento correto.
 
    **Dica** - Para evitar isso, coordene a programação de deliveries com os outros membros da equipe, garantindo um melhor desempenho.
 
-* O [execução do workflow](../../automating/using/about-workflow-execution.md): o monitoramento de seus workflows é essencial para evitar problemas de desempenho na plataforma. Siga as diretrizes listadas [nesta página](../../automating/using/monitoring-workflow-execution.md). Saiba mais na [práticas recomendadas do workflow](../../automating/using/best-practices-workflows.md) seção.
+* A variável [execução do fluxo de trabalho](../../automating/using/about-workflow-execution.md): monitorar os workflows é essencial para evitar problemas de desempenho na plataforma. Siga as diretrizes listadas [nesta página](../../automating/using/monitoring-workflow-execution.md). Saiba mais na [práticas recomendadas de workflow](../../automating/using/best-practices-workflows.md) seção.
 
 * Você pode aproveitar [Recursos do Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=pt-BR) para monitorar sua plataforma, usando [monitoramento de desempenho](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=pt-BR) funcionalidades.
 

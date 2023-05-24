@@ -1,6 +1,6 @@
 ---
 title: Sobre casos de uso de workflows
-description: Saiba mais sobre casos de uso que você pode executar usando workflows do Campaign Standard.
+description: Saiba mais sobre casos de uso que você pode executar usando workflows Campaign Standard.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
@@ -18,7 +18,7 @@ ht-degree: 86%
 
 Nesta seção você encontrará vários casos de uso que usam os recursos dos workflows do Campaign.
 
-Eles ajudam você a descobrir os diferentes contextos nos quais os workflows podem ser usados e a responder às suas necessidades.
+Eles ajudam a descobrir os diferentes contextos nos quais os workflows podem ser usados e a atender às suas necessidades.
 
 ## Entregas {#deliveries}
 
@@ -62,5 +62,5 @@ Eles ajudam você a descobrir os diferentes contextos nos quais os workflows pod
 * [Exportação de perfis em um arquivo externo](../../automating/using/exporting-profiles-in-file.md)
 * [Atualização de vários status de subscrição diretamente de um arquivo](../../automating/using/updating-subscriptions-from-file.md)
 * [Subscrição de perfis para um serviço específico a partir de um arquivo](../../automating/using/subscribing-profiles-from-file.md)
-* [Importação de dados criptografados usando uma chave gerada pelo Painel de controle do Campaign](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)
-* [Criptografia e exportação de dados usando uma chave instalada no Painel de controle do Campaign](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)
+* [Importação de dados criptografados usando uma chave gerada pelo Painel de controle](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)
+* [Criptografia e exportação de dados usando uma chave instalada no Painel de controle](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)

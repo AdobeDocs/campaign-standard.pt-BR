@@ -47,15 +47,15 @@ Você pode duplicar fluxos de trabalho. Em **[!UICONTROL Marketing Activities]**
 
 ### Quantidade de fluxos de trabalhos
 
-Por padrão, recomendamos **não executar mais de 20 workflows ativos simultaneamente** (isso não se aplica a workflows que aguardam uma execução agendada). Após atingir esse limite, os fluxos de trabalho serão enfileirados para não afetar o desempenho.
+Por padrão, recomendamos **não executar mais de 20 fluxos de trabalho ativos simultaneamente** (isso não se aplica a fluxos de trabalho que estejam aguardando uma execução programada). Após atingir esse limite, os fluxos de trabalho serão enfileirados para não afetar o desempenho.
 
 Em contextos específicos, talvez seja necessário executar mais de 20 fluxos de trabalho. Em caso afirmativo, verifique os casos de uso com um especialista do Campaign e entre em contato com o Atendimento ao cliente da Adobe para aumentar o limite.
 
 >[!IMPORTANT]
 >
->Mesmo que você não esteja atingindo o limite de 20 workflows, o Adobe recomenda **espalhar a execução do workflow ao longo do tempo**. O escalonamento da execução dos workflows garantirá um melhor desempenho da instância.
+>Mesmo que você não esteja atingindo o limite de 20 workflows, o Adobe recomenda **espalhe a execução do fluxo de trabalho ao longo do tempo**. Assimilar a execução dos workflows garantirá melhor desempenho da instância.
 
-Antes de iniciar um workflow, [!DNL Campaign Standard] verificará se há memória física do sistema suficiente para executar o fluxo de trabalho. Se não houver memória disponível suficiente, uma mensagem informará que a execução do workflow será adiada até que a carga no servidor seja reduzida e a memória do sistema aumente.
+Antes de iniciar um workflow, [!DNL Campaign Standard] O verificará se há memória física do sistema suficiente para executar o fluxo de trabalho. Se não houver memória disponível suficiente, uma mensagem informará que a execução do workflow será adiada até que a carga no servidor desligue e a memória do sistema aumente.
 
 ### Frequência
 
@@ -78,13 +78,13 @@ As propriedades do fluxo de trabalho permitem definir um fuso horário específi
 
 ## Atividade{#activity}
 
-### Número de atividades por workflow {#number-activities}
+### Número de atividades por fluxo de trabalho {#number-activities}
 
-Recomendamos usar até 100 atividades em um único workflow. Mais de 100 atividades, você pode encontrar alguns problemas de desempenho ao projetar e configurar seu fluxo de trabalho.
+Recomendamos usar até 100 atividades em um único fluxo de trabalho. Mais de 100 atividades, você pode encontrar alguns problemas de desempenho ao projetar e configurar seu fluxo de trabalho.
 
 ### Design do fluxo de trabalho
 
-Para garantir que o workflow termine corretamente, evite deixar a última transição de um workflow por conta própria usando um **[!UICONTROL End activity]**.
+Para garantir que o fluxo de trabalho termine corretamente, evite deixar que a última transição de um fluxo de trabalho ocorra automaticamente usando um **[!UICONTROL End activity]**.
 
 Para acessar a visualização detalhada das transições, marque a opção **[!UICONTROL Keep interim results]**, na seção Execução das propriedades do fluxo de trabalho.
 
@@ -113,11 +113,11 @@ Você pode pré-visualizar as próximas dez execuções de seus fluxos de trabal
 
 Para mais informações, consulte [Atividade de Scheduler](../../automating/using/scheduler.md).
 
-Ao projetar um workflow agendado que inclui várias atividades, você precisa garantir que o workflow não seja reagendado até que seja concluído. Para fazer isso, é necessário configurar o workflow para impedir a execução se uma ou mais tarefas de uma execução anterior ainda estiverem pendentes. Para obter mais informações, consulte [esta página](../../automating/using/scheduled-workflows-execution.md).
+Ao criar um fluxo de trabalho agendado que inclui várias atividades, é necessário garantir que o fluxo de trabalho não seja reagendado até a conclusão. Para fazer isso, é necessário configurar o workflow para impedir sua execução se uma ou mais tarefas de uma execução anterior ainda estiverem pendentes. Para obter mais informações, consulte [esta página](../../automating/using/scheduled-workflows-execution.md).
 
 ## Chamada de fluxo de trabalho com parâmetros{#workflow-with-parameters}
 
-Verifique se o nome e a quantidade de parâmetros são idênticos ao definido ao chamar o fluxo de trabalho (consulte [esta página](../../automating/using/defining-parameters-calling-workflow.md). Os tipos de parâmetros também devem ser consistentes com os valores esperados.
+Verifique se o nome e a quantidade de parâmetros são idênticos ao definido ao chamar o workflow (consulte [esta página](../../automating/using/defining-parameters-calling-workflow.md). Os tipos de parâmetros também devem ser consistentes com os valores esperados.
 
 Verifique se todos os parâmetros foram declarados no **[!UICONTROL External signal activity]**. Caso contrário, ocorrerá um erro ao executar a atividade.
 

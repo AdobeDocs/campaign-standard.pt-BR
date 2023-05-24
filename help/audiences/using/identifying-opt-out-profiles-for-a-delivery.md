@@ -1,6 +1,6 @@
 ---
 title: Identificação de perfis de recusa para uma entrega
-description: Descubra como identificar perfis de não participação para um delivery.
+description: Descubra como identificar perfis de não participação para uma entrega.
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
@@ -17,7 +17,7 @@ ht-degree: 41%
 
 # Identificação de perfis de recusa para uma entrega{#identifying-opt-out-profiles-for-a-delivery}
 
-Os perfis de rejeição para um delivery específico são listados após a fase de preparação, na **[!UICONTROL Exclusion logs]** do painel de delivery.
+Os perfis de recusa para uma entrega específica são listados após a fase de preparação, na **[!UICONTROL Exclusion logs]** do painel de delivery.
 
 ![](assets/exclusion_blocklisting.png)
 

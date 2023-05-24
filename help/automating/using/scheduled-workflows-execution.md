@@ -1,6 +1,6 @@
 ---
 title: Execução sobreposta de workflows agendados
-description: Saiba como evitar a execução sobreposta de workflows agendados.
+description: Saiba como evitar a sobreposição da execução de workflows agendados.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -20,21 +20,21 @@ ht-degree: 1%
 
 ## Sobre a execução de workflows agendados
 
-No Campaign Standard, o mecanismo de workflow garante que uma instância de workflow seja executada por apenas um processo. Bloquear atividades como importações, consultas de longa duração ou gravações no banco de dados impede a execução de qualquer outra tarefa ao ser executada.
+No Campaign Standard, o mecanismo de fluxo de trabalho garante que uma instância de fluxo de trabalho seja executada por apenas um processo. O bloqueio de atividades, como importações, consultas ou gravações de longa duração no banco de dados, impede a execução de qualquer outra tarefa durante a execução.
 
-Por outro lado, as atividades de não bloqueio não bloqueiam a execução de outras tarefas (normalmente, atividades aguardando um evento como o **[!UICONTROL Scheduler]** atividade ).
+Por outro lado, as atividades não bloqueadoras não bloqueiam a execução de outras tarefas (geralmente atividades aguardando um evento como o **[!UICONTROL Scheduler]** atividade).
 
-Isso pode levar a um cenário em que um fluxo de trabalho baseado em agendamento pode começar a ser executado mesmo quando a execução anterior desse mesmo fluxo de trabalho ainda não tiver sido concluída, possivelmente levando a problemas inesperados de dados.
+Isso pode levar a um cenário em que um fluxo de trabalho com base em agendamento pode começar a ser executado mesmo quando a execução anterior desse mesmo fluxo de trabalho ainda não foi concluída, resultando potencialmente em problemas de dados inesperados.
 
-Portanto, ao projetar um workflow agendado que inclui várias atividades, é necessário garantir que o workflow não seja reagendado até que seja concluído. Para fazer isso, é necessário configurar o workflow para impedir a execução se uma ou mais tarefas de uma execução anterior ainda estiverem pendentes.
+Portanto, ao projetar um workflow agendado que inclua várias atividades, é necessário garantir que o workflow não seja reagendado até que seja concluído. Para fazer isso, é necessário configurar o workflow para impedir sua execução se uma ou mais tarefas de uma execução anterior ainda estiverem pendentes.
 
-## Configuração do workflow
+## Configuração do fluxo de trabalho
 
-Para verificar se uma ou mais tarefas de uma execução anterior do workflow ainda estão pendentes, é necessário usar um **[!UICONTROL Query]** e **[!UICONTROL Test]** atividade .
+Para verificar se uma ou mais tarefas de uma execução de workflow anterior ainda estão pendentes, é necessário usar um **[!UICONTROL Query]** e uma **[!UICONTROL Test]** atividade.
 
-1. Adicione um **[!UICONTROL Query]** após a **[!UICONTROL Scheduler]** , em seguida, configure-a da seguinte maneira.
+1. Adicionar um **[!UICONTROL Query]** atividade após o **[!UICONTROL Scheduler]** atividade e configure-a da seguinte maneira.
 
-1. Altere o recurso da atividade para **[!UICONTROL WorkflowTaskDetail]**, o que significa que ele direcionará as tarefas atuais do fluxo de trabalho.
+1. Alterar o recurso da atividade para **[!UICONTROL WorkflowTaskDetail]**, o que significa que direcionará as tarefas atuais do fluxo de trabalho.
 
    ![](assets/scheduled-wkf-resource.png)
 
@@ -42,21 +42,21 @@ Para verificar se uma ou mais tarefas de uma execução anterior do workflow ain
 
    ![](assets/scheduled-wkf-query.png)
 
-   * A primeira regra filtra a tarefa atual (query2), bem como a próxima tarefa de agendamento (schedule2) pertencente ao workflow atual.
+   * A primeira regra filtra a tarefa atual (query2), bem como a próxima tarefa de agendamento (schedule2) pertencente ao fluxo de trabalho atual.
 
       >[!NOTE]
       >
-      >Quando uma **[!UICONTROL Scheduler]** A atividade é iniciada, ela adiciona imediatamente outra tarefa de agendamento para ser executada na próxima hora agendada e iniciar o workflow. Portanto, é importante filtrar o query e agendar tarefas ao procurar tarefas pendentes de uma execução anterior.
+      >Quando um **[!UICONTROL Scheduler]** A atividade é iniciada, ela adiciona imediatamente outra tarefa de agendamento para ser executada no próximo horário agendado e iniciar o workflow. Portanto, é importante filtrar as tarefas de query e agendamento ao procurar tarefas pendentes de uma execução anterior.
 
-   * A segunda regra determina se qualquer tarefa de uma execução anterior do workflow ainda está ativa (pendente), o que corresponde ao status de execução 0.
+   * A segunda regra determina se alguma tarefa de uma execução anterior do workflow ainda está ativa (pendente), o que corresponde ao status de execução 0.
 
-1. Adicione um **[!UICONTROL Test]** para verificar o número de tarefas pendentes retornadas pela variável **[!UICONTROL Query]** atividade . Para fazer isso, configure duas transições de saída.
+1. Adicionar um **[!UICONTROL Test]** para verificar o número de tarefas pendentes devolvidas pelo operador **[!UICONTROL Query]** atividade. Para fazer isso, configure duas transições de saída.
 
    ![](assets/scheduled-wkf-test.png)
 
-   * A primeira transição continua a execução do workflow se não houver tarefas pendentes,
+   * A primeira transição continuará a execução do workflow se não houver tarefas pendentes,
    * A segunda transição cancela a execução do workflow se houver tarefas pendentes.
 
    ![](assets/scheduled-wkf-workflow.png)
 
-Agora é possível configurar o restante do fluxo de trabalho, conforme necessário. Se a execução do workflow for cancelada devido a tarefas pendentes, quando o workflow for executado novamente de acordo com o agendamento, ele poderá seguir essas etapas. Isso garantirá que a execução do workflow continue somente se não houver tarefas ativas (pendentes) de uma execução anterior.
+Agora você pode configurar o restante do fluxo de trabalho conforme necessário. Se a execução do workflow for cancelada devido a tarefas pendentes, quando o workflow for executado novamente de acordo com o agendamento, ele poderá passar por essas etapas. Isso garantirá que a execução do workflow continuará somente se não houver tarefas ativas (pendentes) de uma execução anterior.

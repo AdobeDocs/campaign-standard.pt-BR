@@ -18,19 +18,19 @@ ht-degree: 63%
 
 # Execução e monitoramento de mensagens transacionais {#transactional-messaging-execution}
 
-## Delivery de execução de mensagem transacional {#transactional-message-execution-delivery}
+## Entrega de execução de mensagem transacional {#transactional-message-execution-delivery}
 
-Quando a mensagem é publicada e a integração do site é concluída, quando um evento é acionado, ele é atribuído a um delivery de execução.
+Quando a mensagem for publicada e a integração do site estiver concluída, quando um evento for acionado, ele será atribuído a um delivery de execução.
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-Um **delivery de execução** é uma mensagem técnica não acionável e não funcional criada uma vez por mês para cada mensagem transacional e sempre que uma mensagem transacional é editada e publicada novamente.
+Um **entrega de execução** é uma mensagem técnica não acionável e não funcional criada uma vez por mês para cada mensagem transacional e sempre que uma mensagem transacional é editada e publicada novamente.
 
 **Tópicos relacionados**:
 * [Publicação de mensagem transacional](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
-* [Integrar o acionamento do evento](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
+* [Integrar o acionamento de eventos](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
-## Processo de nova tentativa de mensagens transacionais {#transactional-message-retry-process}
+## Processo de nova tentativa de mensagem transacional {#transactional-message-retry-process}
 
 Uma mensagem transacional temporariamente não entregue está sujeita a tentativas automáticas que são executadas até que o delivery expire. Para mais informações sobre a duração do delivery, consulte [Parâmetros do período de validade](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
@@ -55,9 +55,9 @@ Depois que o evento tiver sido atribuído a um delivery de execução, a mensage
 
 >[!NOTE]
 >
->Quando um evento é atribuído a um delivery de execução, ele é exibido nos logs de envio desse delivery de execução e apenas no momento. Os deliveries com falha são exibidos na variável **[!UICONTROL Execution list]** dos logs de envio da mensagem transacional.
+>Quando um evento é atribuído a um delivery de execução, ele é exibido nos logs de envio desse delivery de execução e apenas no momento. Os deliveries com falha são exibidos no **[!UICONTROL Execution list]** da mensagem transacional que envia logs.
 
-### Repetir limitações do processo {#limitations}
+### Limitações do processo de repetição {#limitations}
 
 **Envio de atualização de logs**
 
@@ -69,9 +69,9 @@ Não é possível interromper um delivery de execução. No entanto, se o delive
 
 Se alguns eventos já atribuídos a um delivery de execução tiverem sido adiados como parte do processo de nova tentativa e esse delivery falhar, o sistema de nova tentativa não atribuirá os eventos adiados ao novo delivery de execução, o que significa que esses eventos são perdidos. Verifique a [logs do delivery](#monitoring-transactional-message-delivery) para ver os recipients que podem ter sido afetados.
 
-## Monitoramento de mensagens transacionais {#monitoring-transactional-message-delivery}
+## Monitorar mensagens transacionais {#monitoring-transactional-message-delivery}
 
-Para monitorar uma mensagem transacional, é necessário acessar o [deliveries de execução](#transactional-message-execution-delivery).
+Para monitorar uma mensagem transacional, é necessário acessar o correspondente [deliveries de execução](#transactional-message-execution-delivery).
 
 1. Para exibir o log de delivery da mensagem, clique no ícone na parte inferior direita do bloco **[!UICONTROL Deployment]**.
 
@@ -89,17 +89,17 @@ Para monitorar uma mensagem transacional, é necessário acessar o [deliveries d
 
    ![](assets/message-center_execution_access_logs.png)
 
-   Para cada delivery de execução, você pode consultar os logs de delivery como faria para um delivery padrão. Para obter mais informações sobre como acessar e usar os logs, consulte [Monitoramento de um delivery](../../sending/using/monitoring-a-delivery.md).
+   Para cada delivery de execução, você pode consultar os logs do delivery da mesma forma que faria para um delivery padrão. Para obter mais informações sobre como acessar e usar os logs, consulte [Monitoramento de um delivery](../../sending/using/monitoring-a-delivery.md).
 
-### Especificidades de mensagens transacionais baseadas em perfil {#profile-transactional-message-monitoring}
+### Especificidades de mensagem transacional baseada em perfil {#profile-transactional-message-monitoring}
 
-Para mensagens transacionais baseadas em perfil, você pode monitorar as seguintes informações de perfil.
+Para mensagens transacionais baseadas em perfil, é possível monitorar as seguintes informações de perfil.
 
 Selecione a guia **[!UICONTROL Sending logs]**. Na coluna **[!UICONTROL Status]**, **[!UICONTROL Sent]** indica que um perfil foi aceito.
 
 ![](assets/message-center_marketing_sending_logs.png)
 
-Selecione o **[!UICONTROL Exclusions logs]** para exibir recipients que foram excluídos do público-alvo da mensagem, como endereços em lista de bloqueios.
+Selecione o **[!UICONTROL Exclusions logs]** para exibir os recipients que foram excluídos do target da mensagem, como endereços na inclui na lista de bloqueios.
 
 ![](assets/message-center_marketing_exclusion_logs.png)
 

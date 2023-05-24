@@ -18,41 +18,41 @@ ht-degree: 1%
 
 # Acessar mensagens{#accessing-messages}
 
-Você pode acessar um conjunto de funcionalidades avançadas, desde o direcionamento, a criação e personalização de mensagens, a execução de comunicações, até os relatórios operacionais associados.
+Você pode acessar um conjunto de funcionalidades avançadas, desde o direcionamento, a criação e personalização de mensagens, a execução de comunicações até relatórios operacionais associados.
 
 As mensagens podem ser acessadas:
 
-* dentro de uma campanha
+* em uma campanha
 * na página inicial do Adobe Campaign
 * da lista de atividades de marketing
 
 ## Acessar mensagens em campanhas {#accessing-messages-in-campaigns}
 
-Para acessar a lista das atividades de marketing de uma campanha:
+Para acessar a lista de atividades de marketing de uma campanha:
 
 1. Ir para **[!UICONTROL Marketing activities]** na barra de navegação superior.
 1. Selecione **[!UICONTROL Marketing activities > Marketing plans > Programs & Campaigns]**.
 
-   Você também pode clicar diretamente no link **[!UICONTROL Programs & Campaigns]** cartão da página inicial. Para obter mais informações sobre campanhas, consulte [Programas e campanhas](../../start/using/programs-and-campaigns.md) seção.
+   Você também pode clicar diretamente no link **[!UICONTROL Programs & Campaigns]** da home page. Para obter mais informações sobre campanhas, consulte [Programas e campanhas](../../start/using/programs-and-campaigns.md) seção.
 
 1. Selecione um programa e depois uma campanha.
 
    ![](assets/delivery_list_1.png)
 
-1. Clique no botão **[!UICONTROL Summary]** lista suspensa.
+1. Clique em **[!UICONTROL Summary]** lista suspensa.
 1. Clique em **[!UICONTROL Search]** para filtrar a forma como as mensagens são exibidas (por nome, data ou status).
 
    Para filtrar mensagens recorrentes, é possível marcar a caixa correspondente.
 
-## Acessar a lista de mensagens {#accessing-the-message-list}
+## Acesso à lista de mensagens {#accessing-the-message-list}
 
 Para acessar a lista completa de atividades de marketing de todas as campanhas combinadas:
 
 1. Selecionar **[!UICONTROL Marketing activities]** na barra de navegação superior.
 
-   Você também pode acessá-lo a partir do **[!UICONTROL Marketing activities]** na página inicial. Para obter mais informações sobre a lista de atividades de marketing, consulte [Gerenciamento de atividades de marketing](../../start/using/marketing-activities.md#creating-a-marketing-activity) seção.
+   Você também pode acessá-lo pelo **[!UICONTROL Marketing activities]** na página inicial. Para obter mais informações sobre a lista de atividades de marketing, consulte [Gerenciamento de atividades de marketing](../../start/using/marketing-activities.md#creating-a-marketing-activity) seção.
 
-1. Para filtrar as atividades de marketing (por nome, data, status ou tipo de atividade), use a variável **[!UICONTROL Search]** à esquerda da lista de atividades de marketing.
+1. Para filtrar as atividades de marketing (por nome, data, status ou tipo de atividade), use o **[!UICONTROL Search]** à esquerda da lista de atividades de marketing.
 
 ![](assets/delivery_list_2.png)
 

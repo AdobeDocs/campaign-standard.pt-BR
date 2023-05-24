@@ -1,6 +1,6 @@
 ---
-title: Conversão do Editor herdado de email para o Email Designer
-description: Saiba como usar emails criados no Editor herdado Email para o Designer de email.
+title: Conversão de email do editor herdado para o Email Designer
+description: Descubra como usar emails criados no Email do Editor herdado para o Designer de email.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -17,38 +17,38 @@ ht-degree: 8%
 
 # Conversão de conteúdo de email do editor herdado {#converting-an-html-content}
 
-Comece a trabalhar com o Email Designer e crie modelos e fragmentos reutilizáveis do seu HTML de email criado no Editor herdado.
+Comece a trabalhar com o Designer de email e crie modelos e fragmentos reutilizáveis a partir do HTML de email criado no Editor herdado.
 
-Esse caso de uso permite criar um modelo do Designer de email usando um email do HTML e dividindo-o em componentes do HTML no Designer de email.
+Esse caso de uso permite criar um modelo do Designer de email usando um email de HTML e dividindo-o em componentes de HTML no Designer de email.
 
 >[!NOTE]
 >
->Como o modo de compatibilidade, um componente HTML pode ser editado com opções limitadas: só é possível executar edição no local.
+>Como o modo de compatibilidade, um componente HTML é editável com opções limitadas: você só pode executar a edição no local.
 
 >[!IMPORTANT]
 >
 >Esta seção é para usuários avançados familiarizados com o código HTML.
 
-## Preparação do conteúdo do email
+## Preparação do conteúdo de email
 
-1. Selecione um HTML email.
-1. Identifique as seções para dividir o email do HTML.
-1. Corte os diferentes blocos do seu HTML.
+1. Selecione um email HTML.
+1. Identifique seções para dividir o email HTML.
+1. Cortar os diferentes blocos de seu HTML.
 
 ## Criar sua estrutura de email
 
 1. Abra o **[!UICONTROL Email Designer]**  para criar um conteúdo de email vazio.
-1. Defina os atributos de nível de corpo: cores de fundo, largura, etc. Para obter mais informações, consulte [Edição de estilos de email](../../designing/using/styles.md).
-1. Adicione quantos componentes da estrutura tiver seções. Para obter mais informações, consulte [Edição da estrutura do email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Defina os atributos do nível do corpo: cores do plano de fundo, largura etc. Para obter mais informações, consulte [Edição de estilos de email](../../designing/using/styles.md).
+1. Adicione quantos componentes de estrutura você tiver seções. Para obter mais informações, consulte [Edição da estrutura do email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-## Adicionar conteúdo HTML
+## Adicionar conteúdo de HTML
 
 1. Adicione um componente HTML a cada componente de estrutura. Para obter mais informações, consulte [Inclusão de fragmentos e componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. Copie e cole o HTML em cada componente.
+1. Copie e cole seu HTML em todos os componentes.
 
-## Gerenciar o estilo do seu email {#manage-the-style-of-your-email}
+## Gerenciar o estilo do email {#manage-the-style-of-your-email}
 
-1. Mudar para **[!UICONTROL Mobile view]**. Para obter mais informações, consulte [esta seção](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
+1. Alternar para **[!UICONTROL Mobile view]**. Para obter mais informações, consulte [esta seção](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
 1. Para corrigir isso, alterne para o modo de código-fonte e copie e cole sua seção de estilo em uma nova seção de estilo. Por exemplo:
 
@@ -63,9 +63,9 @@ Esse caso de uso permite criar um modelo do Designer de email usando um email do
 
    >[!NOTE]
    >
-   >Adicione seu estilo depois disso em outra tag de estilo personalizada.
+   >Certifique-se de adicionar o estilo depois disso em outra tag de estilo personalizada.
    >
-   >Não modifique o CSS gerado pelo Email Designer:
+   >Não modifique o CSS gerado pelo Designer de email:
    >
    >* `<style data-name="default" type="text/css">(##)</style>`
    >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
@@ -74,11 +74,11 @@ Esse caso de uso permite criar um modelo do Designer de email usando um email do
    >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
 
 
-1. Retorne à visualização móvel para verificar se o conteúdo é exibido corretamente e salvar as alterações.
+1. Retorne à exibição para dispositivos móveis para verificar se o conteúdo é exibido corretamente e salve as alterações.
 
 ## Caso de uso
 
-Vamos tentar converter este email, criado no editor herdado, em um **[!UICONTROL Email Designer]** modelo .
+Vamos tentar converter esse email, criado no editor herdado, em um **[!UICONTROL Email Designer]** modelo.
 
 ### Identifique a seção do seu email
 
@@ -94,15 +94,15 @@ Para ver a versão do HTML do email, clique em **[!UICONTROL Show source]**.
 
 ### Criar o modelo de email e sua estrutura
 
-1. Arrastar e soltar **[!UICONTROL Structure components]**  refletindo o layout do email.
+1. Arrastar e soltar **[!UICONTROL Structure components]**  refletindo o layout do nosso email.
 
 1. Repita quantas vezes forem necessárias. Precisamos criar 11 componentes de estrutura.
 
    ![](assets/structure-components-migration.png)
 
-### Inserção de componentes de conteúdo do HTML
+### Inserção de componentes de conteúdo de HTML
 
-1. Insira um **[!UICONTROL HTML component]**  em cada **[!UICONTROL Structure component]** .
+1. Inserir um **[!UICONTROL HTML component]**  em cada **[!UICONTROL Structure component]** .
 
    ![](assets/html-components.png)
 
@@ -114,16 +114,16 @@ Para ver a versão do HTML do email, clique em **[!UICONTROL Show source]**.
 
 1. Clique em **[!UICONTROL Save]**.
 
-Agora é possível verificar a renderização do email.
+Agora você pode verificar a renderização do seu email.
 
 ![](assets/migrated-email-result.png)
 
-### Gerenciamento de estilos para ajustar à exibição móvel
+### Gerenciamento de estilos para se adequar à exibição móvel
 
-1. Insira elementos de CSS para garantir que o email seja adequado para exibição móvel.
+1. Insira elementos CSS para garantir que o email seja adequado para visualização móvel.
 
 1. Alterne para o código-fonte e copie e cole sua seção de estilo em uma nova seção de estilo.
 
-Para obter mais informações, consulte [Gerenciar o estilo do seu email](#manage-the-style-of-your-email).
+Para obter mais informações, consulte [Gerenciar o estilo do email](#manage-the-style-of-your-email).
 
-O email herdado agora está disponível no Designer de email.
+Seu email herdado agora está disponível no Designer de email.

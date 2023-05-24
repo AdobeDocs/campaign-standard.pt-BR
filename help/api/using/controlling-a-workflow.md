@@ -17,7 +17,7 @@ ht-degree: 13%
 
 # Controle de um fluxo de trabalho {#controlling-a-workflow}
 
-Você pode controlar um workflow diretamente da REST API, por meio de uma solicitação de POST contendo a ID do workflow e o comando de execução necessário:
+Você pode controlar um workflow diretamente da API REST, por meio de uma solicitação POST contendo a ID do workflow e o comando de execução necessário:
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands`
 
@@ -52,7 +52,7 @@ Para obter mais informações sobre os comandos de execução, consulte [Documen
 
    <!-- + réponse -->
 
-* Interrompa um fluxo de trabalho.
+* Interrompa um workflow.
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \

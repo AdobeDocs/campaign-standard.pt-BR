@@ -1,6 +1,6 @@
 ---
 title: Gerenciamento de propriedades de atividades
-description: Saiba como gerenciar as propriedades das atividades do workflow.
+description: Saiba como gerenciar as propriedades das atividades de fluxo de trabalho.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -20,59 +20,59 @@ ht-degree: 0%
 
 ## Propriedades globais de uma atividade {#global-properties-of-an-activity}
 
-Cada atividade tem uma **[!UICONTROL General]** , que permite modificar parâmetros gerais específicos da atividade.
+Cada atividade tem um **[!UICONTROL General]** , que permite modificar parâmetros gerais específicos da atividade.
 
 ![](assets/activity-properties.png)
 
-O **[!UICONTROL Properties]** permite modificar os parâmetros globais da atividade, especialmente o rótulo e a ID. A configuração dessa guia é opcional.
+A variável **[!UICONTROL Properties]** permite modificar os parâmetros globais da atividade, particularmente o rótulo e a ID. A configuração dessa guia é opcional.
 
 ![](assets/activity-properties2.png)
 
 ## Gerenciamento de transições de saída de uma atividade {#managing-an-activity-s-outbound-transitions}
 
-Por padrão, certas atividades não têm uma transição de saída. Você pode adicionar um no **[!UICONTROL Transitions]** ou do **[!UICONTROL Properties]** para aplicar outros processos ao seu público no mesmo fluxo de trabalho.
+Por padrão, determinadas atividades não têm uma transição de saída. Você pode adicionar um dos **[!UICONTROL Transitions]** ou na guia da atividade **[!UICONTROL Properties]** para aplicar outros processos à sua população no mesmo workflow.
 
-Dependendo das atividades, você pode adicionar vários tipos de transições de saída:
+Dependendo das atividades, é possível adicionar vários tipos de transições de saída:
 
 * **Transição padrão**: população calculada pela atividade
-* **Transição sem população**: esse tipo de transição de saída pode ser adicionado para continuar o workflow e não contém nenhuma população para não consumir espaço desnecessário no sistema.
-* **Rejeições**: população rejeitada. Por exemplo, se os dados de entrada da atividade não puderem ser processados porque estavam incorretos ou incompletos.
+* **Transição sem população**: esse tipo de transição de saída pode ser adicionado para continuar o fluxo de trabalho e não contém nenhuma população para não consumir espaço desnecessário no sistema.
+* **Rejeições**: população rejeitada. Por exemplo, se os dados de entrada da atividade não puderem ser processados por estarem incorretos ou incompletos.
 * **Complemento**: população restante após a execução da atividade. Por exemplo, se uma atividade de segmentação estiver configurada para salvar apenas uma porcentagem da população de entrada.
 
-Se aplicável, especifique um **[!UICONTROL Segment code]** para a transição de saída da atividade. Esse código de segmento permitirá identificar de onde os subconjuntos da população do target vêm e pode, posteriormente, servir para fins de personalização de mensagens.
+Se aplicável, especifique um **[!UICONTROL Segment code]** para a transição de saída da atividade. Esse código de segmento permitirá identificar de onde vêm os subconjuntos da população do target e poderá, posteriormente, servir para fins de personalização de mensagens.
 
 ## Opções de execução da atividade {#activity-execution-options}
 
-Na tela de propriedades da atividade, há um **[!UICONTROL Advanced options]** guia que permite definir o modo e o comportamento de execução da atividade em caso de erros.
+Na tela de propriedades da atividade, há uma **[!UICONTROL Advanced options]** guia que permite definir o modo de execução e o comportamento da atividade em caso de erros.
 
-Para acessar essas opções, selecione uma atividade em um workflow e depois a abra usando o ![](assets/edit_darkgrey-24px.png) na barra de ações.
+Para acessar essas opções, selecione uma atividade em um workflow e abra-a usando o ![](assets/edit_darkgrey-24px.png) na barra de ações.
 
 ![](assets/wkf_advanced_parameters.png)
 
-O **[!UICONTROL Execution]** permite definir a ação a ser executada quando a tarefa for iniciada. Há três opções para isso:
+A variável **[!UICONTROL Execution]** permite definir a ação a ser executada quando a tarefa for iniciada. Há três opções para isso:
 
 * **Normal**: a atividade é executada normalmente.
-* **Ativar, mas não executar**: a atividade é pausada e, como consequência, qualquer processo futuro é seguido. Isso pode ser útil se você quiser estar presente quando a tarefa for iniciada.
-* **Não ativar**: a atividade não é executada e, como consequência, nem todas as atividades subsequentes (na mesma ramificação).
+* **Ativar, mas não executar**: a atividade é pausada e, como consequência, os processos futuros que se seguirem também serão. Isso pode ser útil se você quiser estar presente quando a tarefa for iniciada.
+* **Não ativar**: a atividade não é executada e, como consequência, nem todas as atividades seguintes (na mesma ramificação).
 
-O **[!UICONTROL In case of error]** permite especificar a ação a ser executada caso a atividade encontre um erro. Há duas opções disponíveis para isso:
+A variável **[!UICONTROL In case of error]** permite especificar a ação a ser executada caso a atividade encontre um erro. Há duas opções disponíveis para isso:
 
-* **Suspender o processo**: o workflow é suspenso automaticamente. O status do workflow é então **Errado** e a cor associada fica vermelha. Depois que o problema for resolvido, reinicie o workflow.
-* **Ignorar**: a atividade não é executada e, como resultado, nenhuma das atividades a sucede (na mesma ramificação). Isso pode ser útil para tarefas recorrentes. Se a ramificação tiver um programador a montante, ele deverá ser acionado na próxima data de execução.
+* **Suspender processo**: o workflow é suspenso automaticamente. O status do workflow é então **Errado** e a cor associada fica vermelha. Depois que o problema for resolvido, reinicie o workflow.
+* **Ignorar**: a atividade não é executada e, como resultado, nenhuma das atividades que a seguem (na mesma ramificação). Isso pode ser útil para tarefas recorrentes. Se a ramificação tiver um scheduler colocado upstream, ele deverá ser acionado na próxima data de execução.
 
-O **[!UICONTROL Behavior]** permite definir o procedimento a ser seguido se tarefas assíncronas forem usadas. Há duas opções disponíveis para isso:
+A variável **[!UICONTROL Behavior]** permite definir o procedimento a ser seguido se tarefas assíncronas forem usadas. Há duas opções disponíveis para isso:
 
-* **Várias tarefas autorizadas**: várias tarefas podem ser executadas ao mesmo tempo, mesmo que a primeira não tenha sido concluída.
-* **A tarefa atual tem prioridade**: assim que uma tarefa estiver em andamento, ela terá prioridade. Enquanto uma tarefa ainda estiver em andamento, nenhuma outra tarefa será executada.
+* **Várias tarefas autorizadas**: várias tarefas podem ser executadas ao mesmo tempo, mesmo sem a conclusão da primeira.
+* **A tarefa atual tem prioridade**: quando uma tarefa está em andamento, isso tem prioridade. Enquanto uma tarefa ainda estiver em andamento, nenhuma outra tarefa será executada.
 
-O **[!UICONTROL Max. execution duration]** permite especificar uma duração, como &quot;30s&quot; ou &quot;1h&quot;. Se a atividade não for concluída após o período especificado ter decorrido, um alerta será disparado. Isso não afeta o funcionamento do workflow.
+A variável **[!UICONTROL Max. execution duration]** permite especificar uma duração, como &quot;30s&quot; ou &quot;1h&quot;. Se a atividade não for concluída após o término da duração especificada, um alerta será acionado. Isso não afeta o funcionamento do fluxo de trabalho.
 
-O **[!UICONTROL Affinity]** permite forçar a execução de um fluxo de trabalho ou de uma atividade de fluxo de trabalho em uma máquina específica. Para fazer isso, é necessário especificar uma ou várias afinidades para o workflow ou atividade em questão.
+A variável **[!UICONTROL Affinity]** permite forçar a execução de um workflow ou de uma atividade de workflow em uma máquina específica. Para fazer isso, é necessário especificar uma ou várias afinidades para o workflow ou atividade em questão.
 
-O **[!UICONTROL Time zone]** permite selecionar o fuso horário da atividade. O Adobe Campaign permite gerenciar as diferenças de tempo entre vários países na mesma instância. A configuração aplicada é configurada quando a instância é criada.
+A variável **[!UICONTROL Time zone]** permite selecionar o fuso horário da atividade. O Adobe Campaign permite gerenciar as diferenças de tempo entre vários países na mesma instância. A configuração aplicada é definida quando a instância é criada.
 
 >[!NOTE]
 >
->Por padrão, se nenhum fuso horário for selecionado, a atividade usará o fuso horário definido nas propriedades do workflow.
+>Por padrão, se nenhum fuso horário for selecionado, a atividade usará o fuso horário definido nas propriedades do fluxo de trabalho.
 
-O **Comentário** é um campo livre que permite adicionar uma nota.
+A variável **Comentário** campo é um campo livre que permite adicionar uma observação.

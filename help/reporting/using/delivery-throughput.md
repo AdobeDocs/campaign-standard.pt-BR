@@ -1,6 +1,6 @@
 ---
 title: Taxa de transferência de delivery
-description: Com o relatório pronto para uso Delivery throughput , saiba mais sobre o sucesso do seu delivery.
+description: Com o relatório de taxa de transferência de delivery pronto para uso, saiba mais sobre o sucesso do delivery.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -18,13 +18,13 @@ ht-degree: 4%
 
 # Taxa de transferência de delivery{#delivery-throughput}
 
-Este relatório contém dados relacionados à taxa de transferência de delivery de um envio ou de vários envios. Ele fornece:
+Este relatório contém dados relacionados à taxa de transferência de delivery de um ou vários envios. Ele fornece:
 
 * O número de mensagens processadas por hora
-* O **[!UICONTROL Top 5 deliveries]** tabela e números de resumo complementares que mostram os cinco deliveries com o melhor ganho em tentativas.
+* A variável **[!UICONTROL Top 5 deliveries]** tabela e números de resumo complementares que mostram os cinco deliveries com melhor ganho em tentativas.
 
 ![](assets/delivery_reports_1.png)
 
 >[!NOTE]
 >
->O **[!UICONTROL Delivery throughput]** exibe a velocidade da taxa de transferência para a retransmissão das mensagens do Campaign para o MTA aprimorado do Adobe Campaign (Message Transfer Agent).
+>A variável **[!UICONTROL Delivery throughput]** exibe a velocidade da taxa de transferência para o relé de suas mensagens do Campaign para o MTA aprimorado do Adobe Campaign (Agente de transferência de mensagem).

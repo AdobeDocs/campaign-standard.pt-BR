@@ -38,7 +38,7 @@ O processo do usuário no Adobe Campaign é o seguinte:
 
 **Tópicos relacionados:**
 
-* [Caso de uso: Junção de deliveries de email e de correspondência direta](../../automating/using/coupling-email-direct-mail.md)
+* [Caso de uso: combinação de deliveries de email e de correspondência direta](../../automating/using/coupling-email-direct-mail.md)
 
 ## Recomendações {#recommendations}
 

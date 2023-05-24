@@ -1,6 +1,6 @@
 ---
 title: Adicionar painéis
-description: O relatório dinâmico permite adicionar um painel para filtrar melhor seus dados, dependendo do período escolhido.
+description: O relatório dinâmico permite que você adicione um painel para filtrar melhor os dados, dependendo do período escolhido.
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
@@ -19,11 +19,11 @@ ht-degree: 2%
 
 ## Adição de um painel em branco {#adding-a-blank-panel}
 
-Para iniciar seu relatório, você pode adicionar um conjunto de painéis a um relatório pronto para uso ou personalizado. Cada painel contém conjuntos de dados diferentes e é composto de tabelas e visualizações de forma livre.
+Para iniciar seu relatório, você pode adicionar um conjunto de painéis a um relatório pronto para uso ou personalizado. Cada painel contém diferentes conjuntos de dados e é composto por tabelas e visualizações de forma livre.
 
-Esse painel permite que você crie seus relatórios, conforme necessário. Você pode adicionar quantos painéis desejar em seus relatórios para filtrar seus dados com períodos de tempo diferentes.
+Esse painel permite criar relatórios conforme necessário. Você pode adicionar quantos painéis desejar em seus relatórios para filtrar seus dados com diferentes períodos de tempo.
 
-1. Clique no botão **Painéis** ícone . Você também pode adicionar um painel clicando no botão **Inserir guia** e seleção **Novo painel em branco**.
+1. Clique em **Painéis** ícone. Você também pode adicionar um painel clicando no **Guia Inserir** e seleção **Novo painel em branco**.
 
    ![](assets/dynamic_report_panel_1.png)
 
@@ -31,9 +31,9 @@ Esse painel permite que você crie seus relatórios, conforme necessário. Você
 
    ![](assets/dynamic_report_panel.png)
 
-Agora é possível adicionar uma tabela de forma livre ao painel para iniciar o direcionamento de dados.
+Agora é possível adicionar uma tabela de forma livre ao painel para começar a direcionar dados.
 
-## Adicionar uma tabela de forma livre {#adding-a-freeform-table}
+## Adição de uma tabela de forma livre {#adding-a-freeform-table}
 
 As tabelas de forma livre permitem criar uma tabela para analisar seus dados usando as diferentes métricas e dimensões disponíveis no **Componente** tabela.
 
@@ -43,33 +43,33 @@ Cada tabela e visualização é redimensionável e pode ser movida para personal
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. Arraste e solte a **[!UICONTROL Freeform]** no seu painel.
+1. Arraste e solte a **[!UICONTROL Freeform]** no painel.
 
-   Também é possível adicionar uma tabela clicando no botão **[!UICONTROL Insert]** e seleção **[!UICONTROL New Freeform]** ou clicando em **[!UICONTROL Add a freeform table]** em um painel vazio.
+   Você também pode adicionar uma tabela clicando no ícone **[!UICONTROL Insert]** guia e seleção **[!UICONTROL New Freeform]** ou clicando em **[!UICONTROL Add a freeform table]** em um painel vazio.
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. No **[!UICONTROL Drop a segment here]** , adicione uma **[!UICONTROL Segment]** do **[!UICONTROL Components]** na barra superior.
+1. No **[!UICONTROL Drop a segment here]** adicione um **[!UICONTROL Segment]** do **[!UICONTROL Components]** na barra superior.
 
    ![](assets/dynamic_report_panel_3.png)
 
-1. Arraste e solte itens do **[!UICONTROL Components]** nas colunas e linhas para criar a tabela.
+1. Arraste e solte itens da **[!UICONTROL Components]** nas colunas e linhas para criar sua tabela.
 
    ![](assets/dynamic_report_freeform_3.png)
 
-1. Clique no botão **[!UICONTROL Settings]** ícone para alterar como os dados são exibidos em suas colunas.
+1. Clique em **[!UICONTROL Settings]** ícone para alterar como os dados são exibidos em suas colunas.
 
    ![](assets/dynamic_report_freeform_4.png)
 
-   O **[!UICONTROL Column settings]** é composto por:
+   A variável **[!UICONTROL Column settings]** é composto por:
 
-   * **[!UICONTROL Number]**: permite mostrar ou ocultar números de resumo na coluna .
+   * **[!UICONTROL Number]**: permite mostrar ou ocultar números de resumo na coluna.
    * **[!UICONTROL Percent]**: permite mostrar ou ocultar a porcentagem na coluna.
    * **[!UICONTROL Interpret zero as no value]**: permite mostrar ou ocultar quando o valor é igual a zero.
-   * **[!UICONTROL Background]**: permite mostrar ou ocultar a barra de progresso horizontal nas células.
-   * **[!UICONTROL Include retries]**: permite incluir novas tentativas no resultado. Isso só está disponível para **[!UICONTROL Sent]** e **[!UICONTROL Bounces + Errors]**.
+   * **[!UICONTROL Background]**: permite mostrar ou ocultar a barra de progresso horizontal em células.
+   * **[!UICONTROL Include retries]**: permite incluir tentativas no resultado. Isso só está disponível para **[!UICONTROL Sent]** e **[!UICONTROL Bounces + Errors]**.
 
-1. Selecione uma ou várias linhas e clique no botão **[!UICONTROL Visualize]** ícone . Uma visualização é adicionada para refletir as linhas selecionadas.
+1. Selecione uma ou várias linhas e clique no botão **[!UICONTROL Visualize]** ícone. Uma visualização é adicionada para refletir as linhas selecionadas.
 
    ![](assets/dynamic_report_freeform_5.png)
 

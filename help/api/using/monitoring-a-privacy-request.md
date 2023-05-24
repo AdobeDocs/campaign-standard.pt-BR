@@ -17,13 +17,13 @@ ht-degree: 16%
 
 # Monitoramento de uma solicitação de privacidade {#monitoring-a-privacy-request}
 
-Você pode monitorar informações sobre uma solicitação de privacidade criada usando um **GET** solicitação.
+É possível monitorar informações sobre uma solicitação de privacidade criada usando um **GET** solicitação.
 
-A descrição da lista de status está disponível na variável [Documentação de gerenciamento de privacidade](../../start/using/privacy-requests.md).
+A descrição da lista de status está disponível no [Documentação de gerenciamento de privacidade](../../start/using/privacy-requests.md).
 
 <br/>
 
-***Solicitação de exemplo***
+***Exemplo de solicitação***
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \

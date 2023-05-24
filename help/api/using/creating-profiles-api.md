@@ -1,6 +1,6 @@
 ---
 title: Criação de perfis com APIs
-description: Saiba mais sobre como criar perfis com APIs.
+description: Saiba como criar perfis com APIs.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,19 +17,19 @@ ht-degree: 0%
 
 # Criação de perfis com APIs {#creating-profiles-api}
 
-A criação de perfis é realizada com uma **POST** no recurso de perfil.
+A criação de perfis é executada com um **POST** no recurso de perfil.
 
 >[!CAUTION]
 >
->Se quiser associar um <b>orgUnit</b> para o perfil criado, é necessário estender o recurso de perfil com esse campo e, após a publicação da extensão, executar uma solicitação POST no <b>ProfileAndServicesExt</b> endpoint .
+>Se quiser associar um <b>orgUnit</b> para o perfil criado, é necessário estender o recurso de perfil com esse campo e, após a publicação da extensão, executar uma solicitação de POST no <b>ProfileAndServicesExt</b> terminal.
 >
->Para obter mais informações sobre a extensão de recurso do perfil, consulte <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Documentação da campanha</a>.
+>Para obter mais informações sobre a extensão de recursos do perfil, consulte <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Documentação da campanha</a>.
 
 <br/>
 
-***Solicitação de exemplo***
+***Exemplo de solicitação***
 
-Amostra de solicitação do POST para criar um perfil com o email &quot;john.doe@mail.com&quot;.
+Exemplo de solicitação de POST para criar um perfil com o email &quot;john.doe@mail.com&quot;.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -41,7 +41,7 @@ Amostra de solicitação do POST para criar um perfil com o email &quot;john.doe
 -d '{"email":"john.doe@mail.com"}'
 ```
 
-Retorna o perfil recém-criado, com o endereço de email &quot;john.doe@mail.com&quot;.
+Ele retorna o perfil recém-criado, com o endereço de email &quot;john.doe@mail.com&quot;.
 
 ```
 {

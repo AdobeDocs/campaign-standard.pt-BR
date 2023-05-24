@@ -1,6 +1,6 @@
 ---
 title: Cancelamentos de assinatura
-description: Com o relatório de cancelamentos de assinatura pronto para uso, saiba quantas vezes os clientes cancelaram a assinatura dos deliveries.
+description: Com o relatório Unsubscriptions pronto para uso, saiba quantas vezes os clientes cancelaram a subscrição de seus deliveries.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -22,4 +22,4 @@ O relatório **[!UICONTROL Unsubscriptions]** identifica as entregas com mais ca
 
 ![](assets/delivery_reports_unsub.png)
 
-O **[!UICONTROL TOP 5 deliveries]** tabela e gráfico exibem os cinco principais deliveries com o maior número de mensagens entregues e o número de recipients que cancelaram a assinatura. Os dados listados aqui são baseados no número de cliques no link de unsubscription da mensagem.
+A variável **[!UICONTROL TOP 5 deliveries]** A tabela e o gráfico exibem as cinco principais entregas com o maior número de mensagens entregues e o número de destinatários que cancelaram a inscrição. Os dados listados aqui são baseados no número de cliques no link de unsubscription da mensagem.

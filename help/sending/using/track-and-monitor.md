@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: Saiba como o Adobe Campaign permite acompanhar as mensagens enviadas e descobrir como os recipients reagem ao seu delivery
+description: Saiba como o Adobe Campaign permite acompanhar as mensagens enviadas e descobrir como seus destinatários reagem à sua entrega
 feature: Deliverability
 role: User
 level: Intermediate
@@ -18,7 +18,7 @@ ht-degree: 44%
 
 # Rastrear e monitorar {#track-and-monitor}
 
-Você clicou no botão Enviar? Vamos ver o que acontece. Depois que o delivery é enviado, o Adobe Campaign permite acompanhar as mensagens enviadas e descobrir como os recipients reagem ao seu delivery. Isso ajuda você a melhorar o envio futuro e otimizar suas próximas campanhas.
+Você clicou no botão Enviar? Vamos ver o que acontece. Depois que o delivery é enviado, o Adobe Campaign permite acompanhar as mensagens enviadas e descobrir como os recipients reagem ao seu delivery. Isso ajuda a melhorar o envio futuro e a otimizar as próximas campanhas.
 
 ## Monitoramento de entregas {#monitoring-deliveries}
 
@@ -28,25 +28,25 @@ Para controlar suas campanhas, você deve garantir que a mensagem tenha sido ent
 
 * Você pode controlar o status das mensagens nos logs do delivery.
 
-* Para acompanhar os sucessos ou as falhas do delivery, o Adobe Campaign fornece um sistema de alerta por email que envia notificações para informar os usuários sobre atividades importantes do sistema.
+* Para rastrear os sucessos ou as falhas do delivery, o Adobe Campaign fornece um sistema de alerta por email que envia notificações para informar os usuários sobre atividades importantes do sistema.
 
-* No painel de mensagens, é possível acessar vários relatórios para essa mensagem específica.
+* No painel de mensagens, você pode acessar vários relatórios para a mensagem específica.
 
 Para obter mais informações, consulte [Monitoramento de um delivery](../../sending/using/monitoring-a-delivery.md).
 
 ## Rastreamento {#tracking-deliveries}
 
-Para conhecer melhor o comportamento dos perfis segmentados, você pode acompanhar como eles reagem a um delivery: recepção, abertura, cliques em links, unsubscriptions, etc. Consulte a **Logs de rastreamento** do delivery.
+Para conhecer melhor o comportamento de perfis direcionados, você pode acompanhar como eles reagem a uma entrega: recebimento, abertura, cliques em links, assinaturas canceladas, etc. Consulte a **Logs de rastreamento** da entrega.
 
 **Dica**: o rastreamento de mensagens é habilitado por padrão. Para configurar URLs, selecione a opção Exibir URLs na seção inferior do assistente do delivery. Para cada URL da mensagem, você pode escolher se deseja ativar o rastreamento.
 
-Para obter mais informações, consulte [Rastreamento de mensagens](../../sending/using/tracking-messages.md) e a [Indicadores de rastreamento](../../reporting/using/tracking-indicators.md) descrição.
+Para obter mais informações, consulte [Rastreamento de mensagens](../../sending/using/tracking-messages.md) seção e o [Indicadores de rastreamento](../../reporting/using/tracking-indicators.md) descrição.
 
 ## Relatórios dinâmicos {#dyn-reports}
 
-Relatórios dinâmicos permitem que você crie relatórios totalmente personalizáveis e em tempo real para monitorar suas campanhas. Dimension, métricas e visualizações permitem medir o impacto e o sucesso de suas campanhas nos recipients.
+Os relatórios dinâmicos permitem criar relatórios totalmente personalizáveis e em tempo real para monitorar suas campanhas. Dimension, métricas e visualizações permitem medir o impacto e o sucesso de suas campanhas nos recipients.
 
-**Ponta** - Relatórios integrados estão disponíveis para você monitorar suas campanhas, mas esses relatórios também podem ser personalizados arrastando e soltando quaisquer métricas ou dimensões em seu relatório.
+**Dica** : Relatórios integrados estão disponíveis para que você monitore suas campanhas, mas esses relatórios também podem ser personalizados ao arrastar e soltar qualquer métrica ou dimensão em seu relatório.
 
 Para obter mais informações, consulte [Guia de relatórios](../../reporting/using/about-dynamic-reports.md).
 
@@ -56,7 +56,7 @@ O relatório Hot clicks apresenta o conteúdo da mensagem (HTML e/ou texto) com 
 
 Para obter mais informações, consulte [Relatório de cliques ativos](../../reporting/using/hot-clicks.md).
 
-## Dicas de desempenho do delivery {#performance-tips}
+## Dicas de desempenho de entrega {#performance-tips}
 
 * Não mantenha os deliveries em estado de falha na instância, pois tabelas temporárias serão mantidas e o desempenho será afetado.
 

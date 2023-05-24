@@ -28,7 +28,7 @@ O exemplo abaixo mostra como enviar um email usando dados adicionais recuperados
 
 Para criar o workflow, siga estas etapas:
 
-1. Arraste e solte uma [Query](../../automating/using/query.md) atividade no workflow e abra-a para definir o target principal.
+1. Arraste e solte uma [Query](../../automating/using/query.md) atividade no seu workflow e abra-a para definir o target principal.
 
    <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
 
@@ -36,7 +36,7 @@ Para criar o workflow, siga estas etapas:
 
    ![](assets/load_file_activity.png)
 
-1. Arraste e solte um [Enriquecimento](../../automating/using/enrichment.md) atividade no workflow e vincule as atividades de carregamento de arquivo e query a ele.
+1. Arraste e solte um [Enriquecimento](../../automating/using/enrichment.md) atividade no workflow e vincular as atividades de carregamento de arquivo e query a ela.
 
 1. Na guia **[!UICONTROL Advanced relations]** da atividade de enriquecimento, selecione o **[!UICONTROL 0 or 1 cardinality simple link]** e defina os campos que serão usados para reconciliação. Aqui usamos o sobrenome para reconciliar os dados com os perfis do banco de dados.
 
@@ -50,13 +50,13 @@ Para criar o workflow, siga estas etapas:
 
    Para saber mais, consulte a seção [Enriquecimento](../../automating/using/enrichment.md).
 
-1. Arraste e solte uma [Segmentação](../../automating/using/segmentation.md) atividade no workflow e abra-a para refinar o target principal.
+1. Arraste e solte uma [Segmentação](../../automating/using/segmentation.md) atividade no seu workflow e abra-a para refinar o target principal.
 
    ![](assets/load_file_segmentation.png)
 
    Para saber mais, consulte a seção [Segmentação](../../automating/using/segmentation.md).
 
-1. Arraste e solte um [Delivery por email](../../automating/using/email-delivery.md) atividade no seu fluxo de trabalho e abra-a.
+1. Arraste e solte um [Entrega de email](../../automating/using/email-delivery.md) atividade no seu fluxo de trabalho e abra-o.
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 

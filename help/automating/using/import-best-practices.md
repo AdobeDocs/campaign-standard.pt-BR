@@ -18,7 +18,7 @@ ht-degree: 82%
 
 >[!CAUTION]
 >
->Lembre-se do armazenamento SFTP, do armazenamento de banco de dados e dos limites de perfil ativos conforme o contrato da Adobe Campaign ao usar essa funcionalidade.
+>Lembre-se dos limites de armazenamento SFTP, armazenamento do banco de dados e perfil ativo conforme o contrato do Adobe Campaign ao usar essa funcionalidade.
 
 Ser cuidadoso e seguir as regras simples detalhadas abaixo ajudará a garantir a consistência dos dados dentro do banco de dados e evitar erros comuns durante a atualização ou exportação de dados.
 
@@ -32,19 +32,19 @@ Em muitos projetos, as importações são criadas sem a atividade **[!UICONTROL 
 
 Não confie na suposição de que os dados de entrada são consistentes e corretos, ou que o departamento de TI ou o supervisor do Adobe Campaign irá resolver isso. Durante o projeto, mantenha a limpeza dos dados em mente. Elimine duplicatas, reconcilie e mantenha de consistência ao importar dados.
 
-Um exemplo de um template de workflow genérico projetado para importar dados está disponível na variável [Exemplo: Importar modelo de fluxo de trabalho](../../automating/using/creating-import-workflow-templates.md) seção.
+Um exemplo de template de workflow genérico projetado para importar dados está disponível no [Exemplo: importar template de fluxo de trabalho](../../automating/using/creating-import-workflow-templates.md) seção.
 
 >[!NOTE]
 >
->Você também pode usar [importar modelos](../../automating/using/importing-data-with-import-templates.md). Eles são templates de workflow definidos por um administrador que, uma vez ativados, oferece apenas a possibilidade de especificar o arquivo que contém os dados a serem importados.
+>Também é possível usar [importar modelos](../../automating/using/importing-data-with-import-templates.md). São modelos de workflow definidos por um administrador que, uma vez ativados, oferecem apenas a possibilidade de especificar o arquivo que contém os dados a serem importados.
 
 **Tópicos relacionados:**
 
-* [Atividade de carregamento de arquivo](../../automating/using/load-file.md)
+* [Atividade Carregar arquivo](../../automating/using/load-file.md)
 * [Atividade de reconciliação](../../automating/using/reconciliation.md)
 * [Atividade de Segmentação](../../automating/using/segmentation.md)
 * [Atividade de desduplicação](../../automating/using/deduplication.md)
-* [Atividade de atualização de dados](../../automating/using/update-data.md)
+* [Atualizar atividade de dados](../../automating/using/update-data.md)
 
 ## Uso dos formatos de arquivo simples {#using-flat-file-formats}
 
@@ -54,7 +54,7 @@ Por exemplo:
 
 * Separador: tabulação ou ponto e vírgula
 * Primeira linha com cabeçalhos
-* Nenhum delimitador de cadeia de caracteres
+* Nenhum delimitador de string
 * Formato de data: AAAA/MM/DD HH:mm:SS
 
 Exemplo de arquivo a ser importado:
@@ -73,8 +73,8 @@ Use arquivos compactados para importações e exportações sempre que possível
 
 **Tópicos relacionados:**
 
-* [Atividade de carregamento de arquivo](../../automating/using/load-file.md)
-* [Atividade Extrair arquivo](../../automating/using/extract-file.md)
+* [Atividade Carregar arquivo](../../automating/using/load-file.md)
+* [Extrair atividade do arquivo](../../automating/using/extract-file.md)
 
 ## Importação no modo Delta {#importing-in-delta-mode}
 

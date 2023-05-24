@@ -85,7 +85,7 @@ O Adobe Campaign dá suporte à manipulação de vários códigos curtos na mesm
 
 Uma conexão será considerada instável se qualquer uma das seguintes situações ocorrer:
 
-* Reiniciar o MTA corrigirá os problemas temporariamente. Isso significa que uma conexão instável aciona o controle de MTA no Adobe Campaign Standard, reiniciando o MTA limpa o controle. Isso acontecerá novamente até que a causa raiz seja encontrada.
+* Reiniciar o MTA corrigirá os problemas temporariamente. Isso significa que uma conexão instável aciona a limitação do MTA no Adobe Campaign Standard. Reiniciar o MTA limpa a limitação. Isso ocorrerá novamente até que a causa raiz seja encontrada.
 
 * O provedor envia `UNBIND PDU`s.
 
@@ -103,13 +103,13 @@ Como corrigir problemas de estabilidade de conexão:
 
 * Fazer uma captura de rede às vezes é a única maneira de ver como a conexão é fechada.
 
-* Se o provedor fechar as conexões enviando um `TCP FIN` ou `TCP RST` , peça mais informações ao seu provedor.
+* Se o provedor fechar as conexões enviando um `TCP FIN` ou um `TCP RST` pacote, peça mais informações ao seu provedor.
 
 * Se o provedor fechar a conexão depois de enviar um erro limpo, como`DELIVER_SM_RESP`, com um código de erro, ele deverá corrigir o conector. Caso contrário, isso impedirá que outros tipos de mensagens sejam transmitidas e acionará a limitação do MTA. Isso é especialmente importante no modo transceptor, em que o fechamento da conexão afeta tanto o MT quanto o SR.
 
 ## Problema ao enviar um MT (SMS normal enviado para um usuário final){#issue-MT}
 
-* Verifique se a conexão está estável. Uma conexão SMPP deve permanecer ativa por pelo menos 1 hora continuamente. Consulte a seção [Problema com conexões instáveis](../../administration/using/troubleshooting-sms.md#issues-unstable-connection).
+* Verifique se a conexão está estável. Uma conexão SMPP deve permanecer ativa por pelo menos uma hora continuamente. Consulte a seção [Problema com conexões instáveis](../../administration/using/troubleshooting-sms.md#issues-unstable-connection).
 
 * Se o reinício do MTA fizer com que o envio do MT funcione novamente por um breve período, provavelmente você terá uma limitação devido a uma conexão instável. Consulte a seção [Problema com conexões instáveis](../../administration/using/troubleshooting-sms.md#issues-unstable-connection).
 
@@ -145,7 +145,7 @@ Diminuição na quantidade de duplicatas quando há uma nova tentativa:
 
 * Verifique se `DELIVER_SM PDU` vem do provedor e se está corretamente formado.
 
-* Verifique se o Adobe Campaign responde com um `DELIVER_SM_RESP PDU` bem-sucedido em tempo hábil. No Adobe Campaign Standard, isso garante que toda a lógica de processamento tenha sido aplicada, se esse não for o caso, é garantido que haja uma mensagem de erro nos logs informando por que o processamento falhou.
+* Verifique se o Adobe Campaign responde com um `DELIVER_SM_RESP PDU` bem-sucedido em tempo hábil. No Adobe Campaign Standard, isso garante que toda a lógica de processamento foi aplicada. Caso contrário, garante-se que haja uma mensagem de erro nos logs informando por que o processamento falhou.
 
 Se `DELIVER_SM PDU` não for confirmado com êxito, verifique o seguinte:
 
@@ -153,11 +153,11 @@ Se `DELIVER_SM PDU` não for confirmado com êxito, verifique o seguinte:
 
 * Verifique se os erros foram devidamente provisionados na tabela `broadLogMsg`.
 
-* Para o Adobe Campaign Standard, verifique se `broadLog` e `broadLogExec` as tabelas são sincronizadas corretamente.
+* Para o Adobe Campaign Standard, verifique se `broadLog` e `broadLogExec` As tabelas estão sincronizadas corretamente.
 
-Se você corrigiu tudo, menos alguns SR inválidos, ainda estão nos buffers do provedor, você pode ignorá-los usando a variável **Contagem de confirmação de ID inválida** opção. Isso deverá ser usado com cuidado e redefinido como 0 o mais rápido possível depois que os buffers estiverem limpos.
+Se você corrigiu tudo, mas alguns SR inválidos ainda estão nos buffers do provedor, é possível ignorá-los usando o **Contagem de confirmação de ID inválida** opção. Isso deverá ser usado com cuidado e redefinido como 0 o mais rápido possível depois que os buffers estiverem limpos.
 
-## Problema ao processar MO (e /responder automaticamente){#issue-process-MO}
+## Problema ao processar o MO (e resposta automática/inclui na lista de bloqueios){#issue-process-MO}
 
 * Ativar rastreamentos SMPP durante testes. Se você não ativar o TLS, deverá fazer uma captura de rede ao solucionar problemas do MO para verificar se as PDUs contêm as informações corretas e estão formatadas adequadamente.
 
@@ -165,9 +165,9 @@ Se você corrigiu tudo, menos alguns SR inválidos, ainda estão nos buffers do 
 
 * Se o MO (`DELIVER_SM PDU`) não aparece nos rastreamentos, o problema se refere ao provedor. Ele terá que solucionar problemas em sua plataforma.
 
-* Se `DELIVER_SM PDU` for exibido, verifique se ele foi confirmado pelo Adobe Campaign com um `DELIVER_SM_RESP PDU` bem-sucedido (código 0). Esse RESP garante que toda a lógica de processamento foi aplicada pelo Adobe Campaign (resposta automática e lista de permissão/bloqueio). Se não for o caso, procure por uma mensagem de erro nos logs MTA.
+* Se `DELIVER_SM PDU` for exibido, verifique se ele foi confirmado pelo Adobe Campaign com um `DELIVER_SM_RESP PDU` bem-sucedido (código 0). Esse RESP garante que toda a lógica de processamento foi aplicada pelo Adobe Campaign (resposta automática e lista de permissão/bloqueio). Se esse não for o caso, procure uma mensagem de erro nos logs MTA.
 
-* Se as respostas automáticas estiverem ativadas, verifique se `SUBMIT_SM` foi enviado ao provedor. Caso contrário, é garantido encontrar uma mensagem de erro nos logs MTA.
+* Se as respostas automáticas estiverem ativadas, verifique se `SUBMIT_SM` foi enviado ao provedor. Caso contrário, você encontrará uma mensagem de erro nos logs de MTA.
 
 * Se o `SUBMIT_SM MT PDU` que contém a resposta for encontrado nos rastreamentos, mas o SMS não chegar ao telefone celular, você terá que entrar em contato com o provedor para obter assistência na solução de problemas.
 
@@ -245,7 +245,7 @@ Nem sempre é necessária uma captura de rede. Geralmente, as mensagens SMPP det
 
 * Há suspeita de que o tráfego esteja misturado entre conexões diferentes.
 
-Em todas as outras situações, tente analisar primeiro mensagens SMPP completas e solicitar uma captura de rede somente se estiver claro que as informações estão ausentes nos logs detalhados.
+Em todas as outras situações, tente analisar as mensagens SMPP detalhadas primeiro e solicitar uma captura de rede somente se estiver claro que há informações ausentes nos logs detalhados.
 
 Em alguns casos, a captura do tráfego de rede não é necessária. As situações mais comuns são:
 
@@ -268,12 +268,12 @@ O novo conector dá suporte a logs estendidos por meio de rastreamentos: SMPP. O
 **Ativação por conta externa (método preferencial)**
 
 1. No **Conta externa**, selecione **Habilitar rastreamentos SMPP detalhados no arquivo de log**.
-1. Salve, o conector se reconectará com os rastreamentos ativados.
+1. Ao salvar, o conector se reconectará com os rastreamentos ativados.
 
 **Ativação em tempo real**
 
 O MTA do Adobe Campaign Standard tem uma interface de controle HTTP que permite alterar o filtro de rastreamento em tempo real.
-Uma chamada de POST pode ativar/desativar rastreamentos. Exemplo de URL para ativar rastreamentos SMPP:
+Uma chamada de POST pode ativar/desativar rastreamentos. Exemplo de URL para habilitar rastreamentos SMPP:
 
 ```
 POST http://host:7780/mta/trace?filter=SMPP

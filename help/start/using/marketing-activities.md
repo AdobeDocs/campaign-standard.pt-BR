@@ -1,6 +1,6 @@
 ---
 title: Atividades de marketing
-description: '“Saiba como criar e gerenciar atividades de marketing: campanhas, email, deliveries de SMS e de notificações por push, páginas de aterrissagem e fluxos de trabalho. Você pode facilmente projetar uma nova atividade, editar uma já existente e consultar o status e a validade dessa atividade."'
+description: '“Saiba como criar e gerenciar atividades de marketing: campanhas, email, deliveries de SMS e de notificações por push, landing pages e fluxos de trabalho. Você pode facilmente projetar uma nova atividade, editar uma já existente e consultar o status e a validade dessa atividade."'
 audience: start
 content-type: reference
 topic-tags: marketing-plans
@@ -22,7 +22,7 @@ ht-degree: 83%
 
 Você pode criar e gerenciar as atividades de marketing diretamente dos programas e campanhas a que pertencem ou por meio da lista de atividades de marketing.
 
-A lista de atividades de marketing centraliza todas as atividades, quaisquer que sejam os programas ou campanhas em que foram criadas. Programas, campanhas, deliveries (emails, mensagens SMS e notificações por push), páginas de aterrissagem e fluxos de trabalho são, portanto, discriminados em uma ordem hierárquica específica.
+A lista de atividades de marketing centraliza todas as atividades, quaisquer que sejam os programas ou campanhas em que foram criadas. Programas, campanhas, entregas (emails, mensagens SMS e notificações por push), landing pages e fluxos de trabalho são, portanto, discriminados em uma ordem hierárquica específica.
 
 Para acessar a lista de atividades de marketing, escolha o link **[!UICONTROL Marketing activities]** na barra superior.
 
@@ -61,9 +61,9 @@ Dependendo do período de validade e status, a cor associada a esse ícone indic
 
 ## Criação de uma atividade de marketing {#creating-a-marketing-activity}
 
-Você pode criar diferentes tipos de mensagens (**email**, **SMS**, **notificação por push** etc.), fluxos de trabalho e páginas de aterrissagem, de uma campanha existente.
+Você pode criar diferentes tipos de mensagens (**email**, **SMS**, **notificação por push** etc.), fluxos de trabalho e landing pages, de uma campanha existente.
 
-É possível criar outros programas, campanhas, fluxos de trabalho e páginas de aterrissagem de um programa existente.
+É possível criar outros programas, campanhas, fluxos de trabalho e landing pages de um programa existente.
 
 >[!NOTE]
 >
@@ -85,11 +85,11 @@ De acordo com o contexto, você pode:
 * Criar um SMS - [Saiba mais](../../channels/using/creating-an-sms-message.md)
 * Criar uma notificação por push - [Saiba mais](../../channels/using/preparing-and-sending-a-push-notification.md)
 * Criar uma mensagem no aplicativo - [Saiba mais](../../channels/using/about-in-app-messaging.md)
-* Criar um workflow - [Saiba mais](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* Criar uma landing page - [Saiba mais](../../channels/using/getting-started-with-landing-pages.md)
+* Criar um fluxo de trabalho - [Saiba mais](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* Criar uma página de aterrissagem - [Saiba mais](../../channels/using/getting-started-with-landing-pages.md)
 * Criar uma campanha - [Saiba mais](../../start/using/programs-and-campaigns.md#creating-a-campaign)
 * Criar um programa - [Saiba mais](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
->Você também pode criar uma atividade de marketing na lista de atividades de marketing. Nesse caso, é possível criar qualquer tipo de atividade e optar por vincular a atividade de marketing a uma campanha principal (ou a um programa principal, se você criar um programa) por meio das propriedades da atividade.
+>Você também pode criar uma atividade de marketing na lista de atividades de marketing. Nesse caso, você pode criar qualquer tipo de atividade e optar por vincular a atividade de marketing a uma campanha principal (ou a um programa principal, se você criar um programa) por meio das propriedades da atividade.

@@ -47,9 +47,9 @@ As condições podem ser baseadas em **funções** ou **variáveis**, por exempl
 
    Ao editar o campo **[!UICONTROL Condition]**, dois botões ajudam a chamar as variáveis de eventos e editar expressões que combinam variáveis e funções:
 
-   * ![](assets/extsignal_picker.png): selecione a variável de eventos entre todas as variáveis disponíveis no fluxo de trabalho (consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
+   * ![](assets/extsignal_picker.png): selecione a variável de eventos entre todas as variáveis disponíveis no workflow (consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
 
-      Por exemplo, você pode verificar o número de arquivos baixados após uma [Transferência de arquivos](../../automating/using/transfer-file.md) atividade usando a **[!UICONTROL filesCount]** variável.
+      Por exemplo, você pode verificar o número de arquivos baixados após um [Transferência de arquivo](../../automating/using/transfer-file.md) atividade usando o **[!UICONTROL filesCount]** variável.
 
       ![](assets/wkf_test_activity_variables.png)
 

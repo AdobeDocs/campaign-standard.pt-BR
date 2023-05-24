@@ -18,14 +18,14 @@ ht-degree: 75%
 
 # Enriquecimento dos dados do perfil com os dados contidos em um arquivo {#enriching-profile-data-with-data-contained-in-a-file}
 
-Este exemplo mostra como enriquecer os dados do perfil com os dados de compra contidos em um arquivo.Consideramos aqui que os dados de compra são armazenados em um sistema de terceiros. Cada perfil pode ter várias compras armazenadas no arquivo. O objetivo final do fluxo de trabalho é enviar um email aos perfis do público alvo que comprou pelo menos dois itens para agradecer sua lealdade.
+Este exemplo mostra como enriquecer os dados do perfil com os dados de compra contidos em um arquivo. Consideramos aqui que os dados de compra são armazenados em um sistema de terceiros. Cada perfil pode ter várias compras armazenadas no arquivo. O objetivo final do fluxo de trabalho é enviar um email aos perfis do público alvo que comprou pelo menos dois itens para agradecer sua lealdade.
 
 O fluxo de trabalho é configurado da seguinte maneira:
 
 ![](assets/enrichment_example_workflow.png)
 
-* A [Query](../../automating/using/query.md) atividade que direciona os perfis que receberão a mensagem.
-* A [Carregar arquivo](../../automating/using/load-file.md) atividade de que carrega os dados de compra. Por exemplo:
+* A [Query](../../automating/using/query.md) atividade que segmenta os perfis que receberão a mensagem.
+* A [Carregar arquivo](../../automating/using/load-file.md) atividade que carrega os dados de compra. Por exemplo:
 
    ```
    tcode;tdate;customer;product;tamount
@@ -77,11 +77,11 @@ O fluxo de trabalho é configurado da seguinte maneira:
 
       ![](assets/enrichment_example_workflow9.png)
 
-* A [Segmentação](../../automating/using/segmentation.md) com apenas um segmento, que recupera perfis do público alvo inicial que tenham pelo menos duas transações registradas. Perfis com somente uma transação são excluídos. Para isso, a consulta da segmentação é feita na agregação definida anteriormente.
+* A [Segmentação](../../automating/using/segmentation.md) atividade com apenas um segmento, que recupera perfis do público alvo inicial que tenham pelo menos duas transações registradas. Perfis com somente uma transação são excluídos. Para isso, a consulta da segmentação é feita na agregação definida anteriormente.
 
    ![](assets/enrichment_example_workflow5.png)
 
-* Um [Delivery por email](../../automating/using/email-delivery.md) que usa os dados adicionais definidos na variável **[!UICONTROL Enrichment]** para recuperar dinamicamente as duas últimas compras feitas pelo perfil. Os dados adicionais podem ser encontrados no nó **Additional data (TargetData)** ao adicionar um campo de personalização.
+* Um [Entrega de email](../../automating/using/email-delivery.md) atividade que usa os dados adicionais definidos na variável **[!UICONTROL Enrichment]** para recuperar dinamicamente as duas últimas compras feitas pelo perfil. Os dados adicionais podem ser encontrados no nó **Additional data (TargetData)** ao adicionar um campo de personalização.
 
    ![](assets/enrichment_example_workflow10.png)
 

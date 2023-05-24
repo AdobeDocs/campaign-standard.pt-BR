@@ -19,11 +19,11 @@ ht-degree: 17%
 
 É possível monitorar as variáveis de eventos disponíveis no workflow, incluindo os parâmetros externos declarados. Para fazer isso, siga as etapas abaixo:
 
-1. Selecione a atividade que segue o **[!UICONTROL External signal]** e clique no botão **[!UICONTROL Log and tasks]** botão.
+1. Selecione a atividade que segue o **[!UICONTROL External signal]** atividade e clique no link **[!UICONTROL Log and tasks]** botão.
 1. No **[!UICONTROL Tasks]** clique em ![](assets/edit_darkgrey-24px.png) botão.
 
    ![](assets/extsignal_monitoring_2.png)
 
-1. O contexto de execução da tarefa é exibido (ID, status, duração etc.), incluindo todas as variáveis de eventos que agora estão disponíveis para uso no workflow.
+1. O contexto de execução da tarefa é exibido (ID, status, duração etc.), incluindo todas as variáveis de eventos que agora estão disponíveis para uso no fluxo de trabalho.
 
    ![](assets/extsignal_monitoring_3.png)

@@ -1,6 +1,6 @@
 ---
 title: Definição da linha de assunto e do remetente de um email
-description: Saiba como definir a linha de assunto e o remetente de um email no Designer de email.
+description: Descubra como definir a linha de assunto e o remetente de um email no Designer de email.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -26,26 +26,26 @@ O assunto da mensagem é obrigatório para preparar e enviar a mensagem.
 >Se a linha de assunto estiver vazia, um aviso será exibido no painel de mensagens e no Designer de email.
 
 1. Criar um email.
-1. Vá para **[!UICONTROL Properties]** da página inicial do Designer de email (acessível pelo ícone inicial).
+1. Vá para a **[!UICONTROL Properties]** da página inicial do Email Designer (acessível por meio do ícone de página inicial).
 1. Preencha o **[!UICONTROL Subject]** seção.
 
    ![](assets/email_designer_subject.png)
 
-1. Também é possível adicionar campos de personalização, blocos de conteúdo e conteúdo dinâmico à linha de assunto clicando nos ícones correspondentes. Para obter mais informações, consulte [Personalização](../../designing/using/personalization.md).
+1. Você também pode adicionar campos de personalização, blocos de conteúdo e conteúdo dinâmico à linha de assunto clicando nos ícones correspondentes. Para obter mais informações, consulte [Personalização](../../designing/using/personalization.md).
 
 ## Definição do remetente de email de um email {#email-sender}
 
-Para definir o nome do remetente que aparecerá no cabeçalho das mensagens enviadas, acesse **[!UICONTROL Properties]** da página inicial do Designer de email (acessível pelo ícone inicial).
+Para definir o nome do remetente que aparecerá no cabeçalho das mensagens enviadas, vá para a **[!UICONTROL Properties]** da página inicial do Email Designer (acessível por meio do ícone de página inicial).
 
 ![](assets/delivery_content_edition16.png)
 
-* O **[!UICONTROL From: name]** permite inserir o nome do remetente. Por padrão, a variável **Nome do remetente** bloco é inserido automaticamente no campo . O endereço de email do remetente padrão e o nome do remetente são definidos em **[!UICONTROL Brands]** acessível através do logotipo do Adobe Campaign no menu avançado **[!UICONTROL Administration > Instance settings > Brand configuration]** .
+* A variável **[!UICONTROL From: name]** permite inserir o nome do remetente. Por padrão, o valor **Nome do remetente** é inserido automaticamente no campo. O endereço de email e o nome do remetente padrão são definidos em **[!UICONTROL Brands]** acessível através do logotipo do Adobe Campaign no menu avançado **[!UICONTROL Administration > Instance settings > Brand configuration]** .
 
-   Você pode alterar o nome do remetente clicando no botão **Nome do remetente** bloco. O campo se torna editável e você pode inserir o nome que deseja usar.
+   É possível alterar o nome do remetente clicando no ícone **Nome do remetente** bloco. O campo torna-se editável e você pode inserir o nome que deseja usar.
 
-   Esse campo pode ser personalizado. Para fazer isso, é possível adicionar campos de personalização, blocos de conteúdo e conteúdo dinâmico clicando nos ícones abaixo do nome do remetente. Para obter mais informações, consulte [Personalização](../../designing/using/personalization.md).
+   Esse campo pode ser personalizado. Para fazer isso, você pode adicionar campos de personalização, blocos de conteúdo e conteúdo dinâmico clicando nos ícones abaixo do nome do remetente. Para obter mais informações, consulte [Personalização](../../designing/using/personalization.md).
 
-* O **[!UICONTROL From: email address]** não é possível editar o campo nesta seção. Você pode alterá-lo editando as propriedades do email no painel. Para obter mais informações, consulte [Lista de parâmetros avançados de email](../../administration/using/configuring-email-channel.md#advanced-parameters).
+* A variável **[!UICONTROL From: email address]** O campo não pode ser editado nesta seção. Você pode alterá-lo editando as propriedades do email no painel. Para obter mais informações, consulte [Lista de parâmetros avançados de email](../../administration/using/configuring-email-channel.md#advanced-parameters).
 
 >[!NOTE]
 >

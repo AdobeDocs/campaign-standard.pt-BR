@@ -1,6 +1,6 @@
 ---
 title: Subscrição de perfis para um serviço específico a partir de um arquivo
-description: Este caso de uso mostra como importar um arquivo contendo perfis e assiná-los a um serviço existente.
+description: Este caso de uso mostra como importar um arquivo contendo perfis e fazer a assinatura de todos eles para um serviço existente.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -43,14 +43,14 @@ O fluxo de trabalho é apresentado da seguinte forma:
 
    ![](assets/subscription_activity_example2.png)
 
-* A [Reconciliação](../../automating/using/reconciliation.md) identifica os dados do arquivo como pertencente à dimensão de perfil do banco de dados do Adobe Campaign. Somente a guia **[!UICONTROL Identification]** está configurada. Ela identifica os dados do arquivo de acordo com os endereços de email dos perfis.
+* A [Reconciliação](../../automating/using/reconciliation.md) A atividade identifica os dados do arquivo como pertencente à dimensão do perfil do banco de dados do Adobe Campaign. Somente a guia **[!UICONTROL Identification]** está configurada. Ela identifica os dados do arquivo de acordo com os endereços de email dos perfis.
 
    ![](assets/subscription_activity_example3.png)
 
-* A [Desduplicação](../../automating/using/deduplication.md) com base no **email** do recurso temporário (resultante da reconciliação) identifica duplicatas. Se os dados importados do arquivo tiverem duplicatas, a assinatura para um serviço falhará para todos os dados.
+* A [Desduplicação](../../automating/using/deduplication.md) com base no **email** o campo do recurso temporário (resultante da reconciliação) identifica duplicatas. Se os dados importados do arquivo tiverem duplicatas, a assinatura para um serviço falhará para todos os dados.
 
    ![](assets/subscription_activity_example5.png)
 
-* A [Serviços de assinatura](../../automating/using/subscription-services.md) A atividade permite selecionar o serviço para o qual os perfis farão assinatura, o campo correspondente à data da assinatura e a origem da assinatura.
+* A [Serviços de assinatura](../../automating/using/subscription-services.md) activity permite selecionar o serviço para o qual os perfis devem ser inscritos, o campo correspondente à data da assinatura e a origem da assinatura.
 
    ![](assets/subscription_activity_example4.png)

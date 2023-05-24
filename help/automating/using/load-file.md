@@ -22,7 +22,7 @@ ht-degree: 93%
 
 >[!CAUTION]
 >
->Lembre-se do armazenamento SFTP, do armazenamento de banco de dados e dos limites de perfil ativos conforme o contrato da Adobe Campaign ao usar essa funcionalidade.
+>Lembre-se dos limites de armazenamento SFTP, armazenamento do banco de dados e perfil ativo conforme o contrato do Adobe Campaign ao usar essa funcionalidade.
 
 ![](assets/data_loading.png)
 
@@ -43,10 +43,10 @@ Você pode:
 
 **Tópicos relacionados:**
 
-* [Caso de uso: Atualização do banco de dados com dados externos](../../automating/using/update-database-file.md)
-* [Caso de uso: Atualização de dados com base em um download automático de arquivo](../../automating/using/update-data-automatic-download.md)
-* [Caso de uso: Envio de email com campos enriquecidos](../../automating/using/sending-email-enriched-fields.md)
-* [Caso de uso: Reconciliar um público do tipo Arquivo com o banco de dados](../../automating/using/reconcile-file-audience-with-database.md)
+* [Caso de uso: atualização do banco de dados com dados externos](../../automating/using/update-database-file.md)
+* [Caso de uso: atualização de dados com base em um download automático de arquivo](../../automating/using/update-data-automatic-download.md)
+* [Caso de uso: envio de um email com campos enriquecidos](../../automating/using/sending-email-enriched-fields.md)
+* [Caso de uso: reconciliar um público-alvo do tipo File com o banco de dados](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Configuração {#configuration}
 
@@ -105,7 +105,7 @@ A configuração da atividade envolve duas etapas. Primeiro, é necessário defi
 
 1. Se o arquivo do qual você deseja carregar os dados for compactado em um arquivo GZIP (.gz), selecione a opção **[!UICONTROL Decompression]** no campo **[!UICONTROL Add a pre-processing stage]**. Isso permitirá descompactar o arquivo antes de carregar os dados. Essa opção só estará disponível se o arquivo for proveniente da transição de entrada da atividade.
 
-   O **[!UICONTROL Add a pre-processing stage]** O campo também permite descriptografar um arquivo antes de importá-lo para o banco de dados. Para obter mais informações sobre como trabalhar com arquivos criptografados, consulte [esta seção](../../automating/using/managing-encrypted-data.md)
+   A variável **[!UICONTROL Add a pre-processing stage]** também permite descriptografar um arquivo antes de importá-lo para o banco de dados. Para obter mais informações sobre como trabalhar com arquivos criptografados, consulte [nesta seção](../../automating/using/managing-encrypted-data.md)
 
 1. A opção **[!UICONTROL Keep the rejects in a file]** permite baixar um arquivo com erros que ocorreram durante a importação e aplicar a ele uma etapa de pós-processamento. Quando a opção está ativada, a transição de saída é renomeada como “Rejects”.
 

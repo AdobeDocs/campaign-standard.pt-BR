@@ -33,7 +33,7 @@ Somente os seguintes recursos incorporados podem ser estendidos:
 
 Para criar ou estender um recurso:
 
-1. De **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**, clique no botão **[!UICONTROL Create]** botão.
+1. De **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**, clique no link **[!UICONTROL Create]** botão.
 1. Escolha a ação que deseja executar:
 
    * **[!UICONTROL Create a new resource]**: Insira o **[!UICONTROL Label]** e **[!UICONTROL ID]** campos. O campo **[!UICONTROL ID]** é obrigatório. Se você deixar o campo Label vazio, ele será automaticamente preenchido a partir da ID.
@@ -44,10 +44,10 @@ Para criar ou estender um recurso:
       >
       >Use no máximo 30 caracteres.
 
-   * **[!UICONTROL Extend an existing resource]**: Selecione o recurso que deseja estender.
+   * **[!UICONTROL Extend an existing resource]**: selecione o recurso que deseja estender.
 
       ![](assets/schema_extension_10.png)
 
-1. Clique em **[!UICONTROL Create]** para criar o recurso, que assumirá a função **[!UICONTROL Draft]** no caso de um novo recurso ou o **[!UICONTROL Editing]** no caso de extensão.
+1. Clique em **[!UICONTROL Create]** para criar o recurso, que assumirá o **[!UICONTROL Draft]** status no caso de um novo recurso ou a variável **[!UICONTROL Editing]** status em caso de extensão.
 
 O novo recurso é criado e agora pode ser configurado. Para obter mais informações sobre a configuração de recursos, consulte [Configuração da estrutura de dados do recurso](../../developing/using/configuring-the-resource-s-data-structure.md).

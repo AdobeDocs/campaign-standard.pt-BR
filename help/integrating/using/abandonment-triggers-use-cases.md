@@ -15,7 +15,7 @@ ht-degree: 94%
 
 ---
 
-# Casos de uso de acionadores de abandonos{#abandonment-triggers-use-cases}
+# Casos de uso do Triggers de abandonos{#abandonment-triggers-use-cases}
 
 Esta seção apresenta casos de uso diferentes que podem ser implementados usando a integração entre o Adobe Campaign e os Acionadores da Experience Cloud. Você encontrará dois exemplos de casos de uso:
 
@@ -64,7 +64,7 @@ Agora que criamos um Acionador da Experience Cloud, vamos usá-lo no Adobe Campa
 
 No Adobe Campaign, é necessário criar um Acionador vinculado ao que você criou na Experience Cloud.
 
-1. Para criar o Acionador no Adobe Campaign, clique no botão **Adobe** logotipo , no canto superior esquerdo, em seguida, selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
+1. Para criar o Acionador no Adobe Campaign, clique na guia **Adobe** no canto superior esquerdo e selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
 
    ![](assets/remarketing_1.png)
 
@@ -81,7 +81,7 @@ No Adobe Campaign, é necessário criar um Acionador vinculado ao que você crio
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. Para exibir o modelo de mensagem, clique no botão **[!UICONTROL More]** , na parte superior direita e clique em **[!UICONTROL Trigger Transactional Template]**.
+1. Para exibir o modelo da mensagem, clique no link **[!UICONTROL More]** no canto superior direito e clique em **[!UICONTROL Trigger Transactional Template]**.
 
 1. Personalize o conteúdo da mensagem e os detalhes do remetente.
 
@@ -101,11 +101,11 @@ No Adobe Campaign, é necessário criar um Acionador vinculado ao que você crio
 
    ![](assets/trigger_uc_browse_10.png)
 
-1. O recipient clica em um link que o traz para o site. Neste exemplo, o banner traz o recipient para a página inicial do site de reservas de viagem.
+1. O recipient clica em um link que o traz para o seu site. Neste exemplo, o banner traz o recipient para a página inicial do site de reservas de viagem.
 
    ![](assets/trigger_uc_browse_11.png)
 
-1. O recipient vai para a página &quot;Ofertas&quot;, mas, de repente, interrompe a visita. Após um período de 10 minutos, o Adobe Campaign aciona o envio da mensagem transacional.
+1. O recipient vai para a página &quot;Offers&quot; mas, de repente, interrompe a visita. Após um período de 10 minutos, o Adobe Campaign aciona o envio da mensagem transacional.
 
    ![](assets/trigger_uc_browse_12.png)
 

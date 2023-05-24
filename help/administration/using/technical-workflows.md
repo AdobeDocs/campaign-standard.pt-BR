@@ -1,6 +1,6 @@
 ---
 title: Workflows técnicos
-description: Saiba mais sobre workflows técnicos
+description: Saiba mais sobre Workflows técnicos
 audience: administration
 feature: Instance Settings
 role: Admin
@@ -92,17 +92,17 @@ Os fluxos de trabalho técnicos são usados para lidar com processos técnicos e
    <tr> 
    <td> <span class="uicontrol">Sincronizar com o Launch</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
-   <td> Este fluxo de trabalho sincroniza as propriedades móveis de tags importadas no Adobe Campaign Standard. Ele é iniciado a cada 15 minutos.<br /> </td> 
+   <td> Esse fluxo de trabalho sincroniza as propriedades de tag móvel importadas na Adobe Campaign Standard. Ele é iniciado a cada 15 minutos.<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">Recuperação de logs de rastreamento</span> <br /> </td> 
+   <td> <span class="uicontrol">Rastreamento da recuperação de logs</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
-   <td> Este fluxo de trabalho sincroniza as propriedades móveis de tags importadas no Adobe Campaign Standard. Ele é iniciado a cada 15 minutos.<br /> </td> 
+   <td> Esse fluxo de trabalho sincroniza as propriedades de tag móvel importadas na Adobe Campaign Standard. Ele é iniciado a cada 15 minutos.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Recuperar logs de rastreamento</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
-   <td> Esse workflow restaura os logs de rastreamento perdidos. Observe que esse workflow técnico é usado em contextos específicos e está restrito somente ao uso interno do Adobe. <br> Por padrão, ele é iniciado a cada 10 minutos.<br /> </td> 
+   <td> Esse fluxo de trabalho restaura os logs de rastreamento perdidos. Observe que esse workflow técnico é usado em contextos específicos e restrito somente ao uso interno do Adobe. <br> Por padrão, ele é iniciado a cada 10 minutos.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Atualizar a execução do delivery</span> <br/> </td> 

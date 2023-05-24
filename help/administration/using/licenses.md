@@ -1,6 +1,6 @@
 ---
 title: Licenças
-description: Saiba mais sobre as licenças instaladas em sua instância
+description: Saiba mais sobre licenças instaladas em sua instância
 audience: administration
 feature: Access Management
 role: Admin
@@ -15,13 +15,13 @@ ht-degree: 1%
 
 # Licenças{#licenses}
 
-O **[!UICONTROL Licenses]** permite visualizar as licenças instaladas em sua instância e informações diferentes sobre elas, como o número da compilação, a versão da versão ou se os termos do contrato foram aceitos e por quem.
+A variável **[!UICONTROL Licenses]** permite visualizar as licenças instaladas em sua instância e informações diferentes sobre ela, como o número da compilação, a versão da versão ou se os termos do contrato foram aceitos e por quem.
 
 ![](assets/license_1.png)
 
-Com uma nova build ou um novo recurso, os termos da licença podem ser alterados e devem ser aceitos por um administrador funcional da instância.
+Com uma nova build ou um novo recurso, os termos da licença podem mudar e devem ser aceitos por um administrador funcional da instância.
 
-A janela a seguir será exibida para usuários padrão após fazer logon, nenhuma ação é necessária de sua parte. Eles ainda podem trabalhar no Adobe Campaign clicando no botão **[!UICONTROL OK]** botão.
+A janela a seguir será exibida para usuários padrão depois de fazer logon, nenhuma ação é necessária de sua parte. Eles ainda podem trabalhar no Adobe Campaign clicando no link **[!UICONTROL OK]** botão.
 
 ![](assets/license_2.png)
 
@@ -29,6 +29,6 @@ Um administrador precisa ler e confirmar os novos termos do contrato nos 30 dias
 
 ![](assets/license_3.png)
 
-Passados esses 30 dias se o contrato não for aceito, nenhum usuário poderá usar essa instância. Os usuários padrão não poderão acessar as funcionalidades do Adobe Campaign e verão a seguinte mensagem somente até que um administrador funcional aceite os termos do contrato.
+Passados esses 30 dias se o contrato não for aceito, nenhum usuário poderá usar essa instância. Os usuários padrão não poderão acessar as funcionalidades do Adobe Campaign e só verão a mensagem a seguir até que um administrador funcional aceite os termos do contrato.
 
 ![](assets/license_4.png)

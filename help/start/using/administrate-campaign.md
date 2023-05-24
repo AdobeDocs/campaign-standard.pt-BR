@@ -1,6 +1,6 @@
 ---
 title: Personalização de listas
-description: "Saiba como personalizar a exibição e atuar em telas de lista no Adobe Campaign Standard: classificação, filtragem, exclusão ou duplicação de elementos. Lista as telas que exibem elementos de um ou vários recursos especificados."
+description: "Saiba como personalizar a exibição e atuar em telas de lista no Adobe Campaign Standard:classificando, filtrando, excluindo ou duplicando elementos. Lista os elementos de exibição das telas de um ou vários recursos fornecidos."
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -33,7 +33,7 @@ ht-degree: 18%
 <td>Modelo de dados do Campaign</td>
 <td>Trabalhar com APIs REST</td>
 <td>Gerenciar usuários</td>
-<td>Configure e monitore sua instância</td>
+<td>Configurar e monitorar sua instância</td>
 </tr>
 </table>
 
@@ -41,7 +41,7 @@ ht-degree: 18%
 
 <img width="60px" alt="condições" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Lácula de inteiros do luctus blandit. Nulla quis vehicula augue, lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris sactetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique ceri sagru, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, não congue sapien rhoncus id. Inteiro luctus blandit ligula. Nulla quis vehicle augue, a lacinia risus. nunc pharetra fringilla enim eu. Mauris sanctetur maximus euismod. Carros e veículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
 **Leia mais**
 
@@ -52,7 +52,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 
 <img width="60px" alt="condições" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Lácula de inteiros do luctus blandit. Nulla quis vehicula augue, lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris sactetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique ceri sagru, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, não congue sapien rhoncus id. Inteiro luctus blandit ligula. Nulla quis vehicle augue, a lacinia risus. nunc pharetra fringilla enim eu. Mauris sanctetur maximus euismod. Carros e veículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
 **Leia mais**
 
@@ -63,18 +63,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 
 <img width="60px" alt="condições" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Lácula de inteiros do luctus blandit. Nulla quis vehicula augue, lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris sactetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique ceri sagru, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, não congue sapien rhoncus id. Inteiro luctus blandit ligula. Nulla quis vehicle augue, a lacinia risus. nunc pharetra fringilla enim eu. Mauris sanctetur maximus euismod. Carros e veículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
 **Leia mais**
 
 * xxxx
 * xxxx
 
-## Configure e monitore sua instância
+## Configurar e monitorar sua instância
 
 <img width="60px" alt="condições" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Lácula de inteiros do luctus blandit. Nulla quis vehicula augue, lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris sactetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique ceri sagru, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, não congue sapien rhoncus id. Inteiro luctus blandit ligula. Nulla quis vehicle augue, a lacinia risus. nunc pharetra fringilla enim eu. Mauris sanctetur maximus euismod. Carros e veículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
 **Leia mais**
 

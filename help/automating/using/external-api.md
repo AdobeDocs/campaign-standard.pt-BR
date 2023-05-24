@@ -38,7 +38,7 @@ As principais características dessa atividade são:
 
 ### Avisos de compatibilidade com versões anteriores {#from-beta-to-ga}
 
-Com a versão do Campaign Standard 20.4, o limite de tamanho dos dados de resposta http e as medidas de proteção do tempo limite de resposta foram reduzidos para se alinharem às práticas recomendadas - consulte [Limitações e medidas de proteção](#guardrails). Essas modificações nas medidas de proteção não entrarão em vigor nas atividades de API externas existentes; portanto, é recomendado substituir as atividades de API externas existentes por novas versões em todos os workflows.
+Com a versão 20.4 do Campaign Standard, o limite de tamanho dos dados de resposta http e as medidas de proteção do tempo de espera das respostas foram reduzidos para se alinharem às práticas recomendadas - consulte [Limitações e medidas de proteção](#guardrails). Essas modificações nas medidas de proteção não entrarão em vigor nas atividades de API externas existentes; portanto, é recomendado substituir as atividades de API externas existentes por novas versões em todos os workflows.
 
 Ao substituir as atividades de API externas, adicione a nova atividade ao workflow, copie manualmente os detalhes de configuração e exclua a atividade antiga.
 
@@ -114,13 +114,13 @@ Se a **análise for validada**, será exibida uma mensagem com um convite para p
 
 ### Execução
 
-Essa guia permite que você defina o ponto de extremidade da conexão. O **[!UICONTROL URL]** permite definir a variável **Ponto de extremidade HTTPS** aquele Campaign Standard vai se comunicar.
+Essa guia permite que você defina o ponto de extremidade da conexão. A variável **[!UICONTROL URL]** permite definir a variável **Ponto de extremidade HTTPS** esse Campaign Standard se comunicará com.
 
-Se necessário para o ponto de extremidade, dois tipos de método de autenticação estão disponíveis:
+Se necessário para o endpoint, dois tipos de método de autenticação estão disponíveis:
 
-* Autenticação básica: insira suas informações de nome de usuário/senha no **[!UICONTROL Request Header(s)]** seção.
+* Autenticação básica: insira suas informações de nome de usuário/senha na **[!UICONTROL Request Header(s)]** seção.
 
-* Autenticação OAuth: Ao clicar em **[!UICONTROL Use connection parameters defined in an external account]** em uma conta externa, é possível selecionar uma conta externa na qual a autenticação OAuth é definida. Para obter mais informações, consulte a seção [Contas externas](../../administration/using/external-accounts.md).
+* Autenticação OAuth: ao clicar no link **[!UICONTROL Use connection parameters defined in an external account]** em uma conta externa, é possível selecionar uma conta externa na qual a autenticação OAuth é definida. Para obter mais informações, consulte a seção [Contas externas](../../administration/using/external-accounts.md).
 
 ![](assets/externalAPI-execution.png)
 
@@ -156,9 +156,9 @@ Esta guia está disponível na maioria das atividades de workflow. Para obter ma
 
 ![](assets/externalAPI-options.png)
 
-## Teste
+## Testes
 
-Para testar a funcionalidade da API externa com um terminal de teste simples, é possível usar o Postman Echo: https://docs.postman-echo.com.
+Para testar a funcionalidade da API externa com um endpoint de teste simples, você pode usar o Postman Echo: https://docs.postman-echo.com.
 
 ## Solução de problemas
 
@@ -260,7 +260,7 @@ Essas mensagens de log são usadas para registrar informações sobre condiçõe
    <td> <p>A chave do cabeçalho HTTP não é permitida (chave do cabeçalho: 'Accept').</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - Um valor de cabeçalho HTTP é incorreto (valor do cabeçalho: '%s').</td> 
+   <td> WKF-560247 - O valor de um cabeçalho HTTP é incorreto (valor do cabeçalho: '%s').</td> 
    <td> <p>HTTP header value is bad (header value: '%s'). </p>
     <p>Observação: este erro é registrado quando o valor do cabeçalho personalizado falha na validação de acordo com a <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 

@@ -34,7 +34,7 @@ O modo como os dados serão extraídos é definido na configuração da atividad
 
 **Tópicos relacionados:**
 
-* [Caso de uso: Exportar perfis em um arquivo externo](../../automating/using/exporting-profiles-in-file.md)
+* [Caso de uso: exportação de perfis em um arquivo externo](../../automating/using/exporting-profiles-in-file.md)
 
 ## Configuração {#configuration}
 
@@ -43,7 +43,7 @@ O modo como os dados serão extraídos é definido na configuração da atividad
    ![](assets/wkf_data_export1.png)
 
 1. Selecione e abra a atividade usando o botão ![](assets/edit_darkgrey-24px.png) das ações rápidas exibidas.
-1. Insira o rótulo do **arquivo de saída**. O rótulo do arquivo será automaticamente preenchido com a data e hora de criação para ser exclusivo. Por exemplo: recipients_20150815_081532.txt para um arquivo gerado no dia 15 de agosto de 2015 às 08:15:32.
+1. Insira o rótulo do **arquivo de saída**. O rótulo do arquivo será automaticamente preenchido com a data e hora de criação para ser exclusivo. Por exemplo: recipients_20150815_081532.txt para um arquivo gerado no dia 15 de agosto de 2015 em 08:15:32.
 
    >[!NOTE]
    >
@@ -51,9 +51,9 @@ O modo como os dados serão extraídos é definido na configuração da atividad
 
 1. Se desejar, você pode compactar o arquivo de saída selecionando **[!UICONTROL Compression]** no campo **[!UICONTROL Add a post-processing stage]**. O arquivo de saída será compactado em um arquivo GZIP (.gz).
 
-   O **[!UICONTROL Add a post-processing stage]** O campo também permite criptografar um arquivo antes de extraí-lo. Para obter mais informações sobre como trabalhar com arquivos criptografados, consulte [esta seção](../../automating/using/managing-encrypted-data.md)
+   A variável **[!UICONTROL Add a post-processing stage]** também permite criptografar um arquivo antes de extraí-lo. Para obter mais informações sobre como trabalhar com arquivos criptografados, consulte [nesta seção](../../automating/using/managing-encrypted-data.md)
 
-1. Clique no botão **[!UICONTROL Create element]** para adicionar uma coluna de saída.
+1. Clique em **[!UICONTROL Create element]** botão para adicionar uma coluna de saída.
 
    ![](assets/wkf_data_export2.png)
 
@@ -78,7 +78,7 @@ O modo como os dados serão extraídos é definido na configuração da atividad
 
    >[!NOTE]
    >
-   >Se quiser extrair dados para um arquivo CSV com uma codificação específica, primeiro selecione o formato de saída &quot;Texto&quot;. Escolha a codificação desejada na lista suspensa e altere o formato de saída para &quot;CSV (Excel)&quot;.
+   >Se quiser extrair dados para um arquivo CSV com uma codificação específica, selecione primeiro o formato de saída &quot;Texto&quot;. Escolha a codificação desejada na lista suspensa e altere o formato de saída para &quot;CSV (Excel)&quot;.
 
 1. Na guia **[!UICONTROL Properties]**, selecione a opção **[!UICONTROL Do not generate a file if the inbound transition is empty]** para evitar a criação e o upload de arquivos vazios em servidores SFTP se a transição de entrada estiver vazia.
 1. Confirme a configuração da sua atividade e salve o fluxo de trabalho.

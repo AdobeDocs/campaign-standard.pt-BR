@@ -1,6 +1,6 @@
 ---
-title: Sobre a capacidade de entrega no Adobe Campaign Standard
-description: Saiba mais sobre os conceitos e as práticas recomendadas relacionadas à capacidade de entrega, bem como sobre as ferramentas oferecidas pelo Adobe Campaign Standard para otimizar o envio de seus deliveries.
+title: Sobre a capacidade de delivery no Adobe Campaign Standard
+description: Saiba mais sobre os conceitos e as práticas recomendadas relacionadas à capacidade de entrega, bem como as ferramentas oferecidas pelo Adobe Campaign Standard para otimizar o envio de seus deliveries.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
@@ -30,7 +30,7 @@ Os problemas de capacidade de delivery estão geralmente ligados às medidas de 
 
 * Para obter recomendações gerais sobre como projetar campanhas de marketing por email bem-sucedidas, consulte [Estratégia e definição de capacidade de delivery](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html?lang=pt-BR).
 
-* Para obter recomendações mais específicas sobre como otimizar a capacidade de entrega dos emails do Adobe Campaign, recomendamos o uso das práticas recomendadas listadas nesta seção.
+* Para obter recomendações mais específicas sobre como otimizar a capacidade de delivery dos emails do Adobe Campaign, recomendamos usar as práticas recomendadas listadas nesta seção.
 
 >[!NOTE]
 >
@@ -53,11 +53,11 @@ Com o Adobe Campaign, a taxa da capacidade de delivery depende de vários fatore
 
 ## Ferramentas de capacidade de entrega do Campaign {#deliverability-tools}
 
-O Adobe Campaign fornece várias ferramentas para acompanhar e melhorar o desempenho de deliverability de sua plataforma. Esta página também destaca os princípios mais importantes que você deve ter em mente para otimizar a capacidade de delivery ao usar o Campaign.
+O Adobe Campaign fornece várias ferramentas para rastrear e melhorar o desempenho da capacidade de delivery da sua plataforma. Esta página também destaca os princípios mais importantes que você deve ter em mente para otimizar a capacidade de delivery ao usar o Campaign.
 
 ### Crie cuidadosamente a sua mensagem
 
-Ao configurar, criar e testar sua mensagem, siga as práticas recomendadas mencionadas nas seções listadas abaixo. Aproveitar todos os recursos fornecidos pelo Adobe Campaign ajuda a melhorar a capacidade de delivery.
+Ao configurar, projetar e testar sua mensagem, siga as práticas recomendadas mencionadas nas seções listadas abaixo. Aproveitar todos os recursos fornecidos pelo Adobe Campaign ajuda a melhorar a capacidade de delivery.
 
 * [Práticas recomendadas de entrega](../../sending/using/delivery-best-practices.md)
 * [Controle de conteúdo de email](../../sending/using/control-email-content.md)
@@ -66,7 +66,7 @@ Ao configurar, criar e testar sua mensagem, siga as práticas recomendadas menci
 
 ### Verificar consentimento por meio da aceitação dupla {#double-opt-in}
 
-Para evitar o envio de mensagens a endereços inválidos, limitar as comunicações inadequadas e melhorar a reputação do remetente, a Adobe recomenda a implementação de um mecanismo de aceitação dupla. Isso permite garantir que seus destinatários tenham assinado intencionalmente.
+Para evitar o envio de mensagens a endereços inválidos, limitar as comunicações inadequadas e melhorar a reputação do remetente, a Adobe recomenda a implementação de um mecanismo de aceitação dupla. Isso permite garantir que seus recipients se inscreveram intencionalmente.
 
 Para obter mais informações, consulte [Sobre participação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
@@ -90,11 +90,11 @@ Para obter mais informações, consulte estas seções:
 
 Use os recursos oferecidos pelo Adobe Campaign para monitorar a capacidade de delivery da sua plataforma.
 
-O Adobe Campaign permite verificar o desempenho dos deliveries por meio de um conjunto de indicadores integrados em tempo real. <!--For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.-->Você também pode criar relatórios totalmente personalizáveis e em tempo real para obter insights aprimorados sobre seus deliveries.
+O Adobe Campaign permite verificar o desempenho de seus deliveries por meio de um conjunto de indicadores em tempo real integrados. <!--For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.-->Você também pode criar relatórios totalmente personalizáveis e em tempo real para obter insights aprimorados sobre seus deliveries.
 
 Para obter mais informações, consulte estas seções:
 
-* [Monitoramento da capacidade de entrega](../../sending/using/monitor-deliverability.md)
+* [Monitoramento da capacidade de delivery](../../sending/using/monitor-deliverability.md)
 
    <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
 * [Recebimento de alertas quando ocorrerem falhas](../../sending/using/receiving-alerts-when-failures-happen.md)

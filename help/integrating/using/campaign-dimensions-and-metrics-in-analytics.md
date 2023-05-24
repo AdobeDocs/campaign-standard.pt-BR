@@ -1,6 +1,6 @@
 ---
 title: Dimensões e métricas do Campaign no Analytics
-description: Saiba mais sobre as diferentes dimensões que você pode encontrar no Adobe Analytics para começar a rastrear seus deliveries de email pelo Adobe Campaign.
+description: Saiba mais sobre as diferentes dimensões que você pode encontrar no Adobe Analytics para começar a rastrear seus deliveries de email do Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
@@ -17,9 +17,9 @@ ht-degree: 10%
 
 # Dimensões e métricas do Campaign no Analytics{#campaign-dimensions-and-metrics-in-analytics}
 
-A integração Adobe Campaign e Adobe Analytics permite rastrear o sucesso de seus deliveries de email diretamente no Adobe Analytics.
+A integração do Adobe Campaign e do Adobe Analytics permite rastrear o sucesso de suas entregas de email diretamente no Adobe Analytics.
 
-Campanha **[!UICONTROL dimensions]** Os encontrados no Analytics estão listados abaixo:
+Campaign **[!UICONTROL dimensions]** encontrados no Analytics estão listados abaixo:
 
 <table> 
  <thead> 
@@ -31,32 +31,32 @@ Campanha **[!UICONTROL dimensions]** Os encontrados no Analytics estão listados
  <tbody> 
   <tr> 
    <td> ID da campanha<br /> </td> 
-   <td> O nome interno da campanha, como visto no Campaign<br /> </td> 
+   <td> Nome interno da campanha conforme visto no Campaign<br /> </td> 
   </tr> 
   <tr> 
    <td> Rótulo da campanha<br /> </td> 
-   <td> O rótulo da campanha como visto no Campaign<br /> </td> 
+   <td> Rótulo da campanha conforme visto no Campaign<br /> </td> 
   </tr> 
   <tr> 
    <td> ID de entrega<br /> </td> 
-   <td> O nome interno do delivery, como visto no Campaign.<br /> Por exemplo, DM1 é um delivery recorrente agendado para enviar deliveries filho toda semana. DM2, DM3 e DM4 são enviados nas três primeiras semanas. A dimensão ID da entrega exibirá os resultados para cada delivery, especificamente DM1 para DM4. <br /> </td> 
+   <td> Nome interno do delivery conforme visto no Campaign.<br /> Por exemplo, DM1 é um delivery recorrente programado para enviar deliveries secundários toda semana. DM2, DM3 e DM4 são enviados nas primeiras três semanas. A dimensão ID de entrega exibirá os resultados de cada entrega, especificamente DM1 a DM4. <br /> </td> 
   </tr> 
   <tr> 
    <td> Rótulo de entrega<br /> </td> 
-   <td> O rótulo da entrega como visto no Campaign<br /> </td> 
+   <td> Rótulo de entrega conforme visto no Campaign<br /> </td> 
   </tr> 
   <tr> 
    <td> ID de entrega executada<br /> </td> 
-   <td> O nome interno do delivery, como visto no Campaign. Isso só afeta a entrega na execução no Campaign.<br /> Por exemplo, DM1 é um delivery recorrente agendado para enviar deliveries filho toda semana. DM2, DM3 e DM4 são enviados nas três primeiras semanas. A dimensão ID de delivery Executado exibirá os resultados das entregas executadas, ou seja, as entregas secundárias DM2, DM3 e DM4. <br /> </td> 
+   <td> Nome interno do delivery conforme visto no Campaign. Isso só afeta a entrega em execução no Campaign.<br /> Por exemplo, DM1 é um delivery recorrente programado para enviar deliveries secundários toda semana. DM2, DM3 e DM4 são enviados nas primeiras três semanas. A dimensão ID de entrega executada exibirá os resultados das entregas executadas, especificamente as entregas secundárias DM2, DM3 e DM4. <br /> </td> 
   </tr> 
   <tr> 
    <td> Rótulo de entrega executado<br /> </td> 
-   <td> O rótulo da entrega como visto no Campaign. Isso só afeta a entrega na execução no Campaign.<br /> </td> 
+   <td> Rótulo de delivery conforme visto no Campaign. Isso só afeta a entrega em execução no Campaign.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Campanha **[!UICONTROL metrics]** Os encontrados no Analytics estão listados abaixo:
+Campaign **[!UICONTROL metrics]** encontrados no Analytics estão listados abaixo:
 
 <table> 
  <thead> 
@@ -80,22 +80,22 @@ Campanha **[!UICONTROL metrics]** Os encontrados no Analytics estão listados ab
   </tr> 
   <tr> 
    <td> Sent<br /> </td> 
-   <td> Número total de envios para o delivery.<br /> </td> 
+   <td> Número total de envios para a entrega.<br /> </td> 
   </tr> 
   <tr> 
    <td> Total de rejeições<br /> </td> 
-   <td> Total de erros acumulados durante o delivery e o processamento automático de retorno em relação ao número total de mensagens enviadas.<br /> </td> 
+   <td> Total de erros acumulados durante o processamento de delivery e retorno automático em relação ao número total de mensagens enviadas.<br /> </td> 
   </tr> 
   <tr> 
    <td> Abertura única<br /> </td> 
-   <td> Número de recipients que abriram o delivery.<br /> </td> 
+   <td> Número de destinatários que abriram o delivery.<br /> </td> 
   </tr> 
   <tr> 
    <td> Clique único<br /> </td> 
    <td> Número de recipients que clicaram em um conteúdo em um delivery.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Inscrições canceladas<br /> </td> 
+   <td> Assinatura cancelada<br /> </td> 
    <td> Número de cliques no link unsubscription.<br /> </td> 
   </tr> 
  </tbody> 

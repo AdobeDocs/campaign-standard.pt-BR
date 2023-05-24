@@ -34,12 +34,12 @@ Ao criar seu fluxo de trabalho, use apenas uma atividade **[!UICONTROL Scheduler
 >
 >A **[!UICONTROL Repetition frequency]** da atividade não pode ser inferior a 10 minutos. Isso significa que um fluxo de trabalho não pode ser executado automaticamente mais de uma vez a cada 10 minutos.
 
-Ao projetar um workflow agendado que inclui várias atividades, você precisa garantir que o workflow não seja reagendado até que seja concluído. Para fazer isso, é necessário configurar o workflow para impedir a execução se uma ou mais tarefas de uma execução anterior ainda estiverem pendentes. Para obter mais informações, consulte [esta página](../../automating/using/scheduled-workflows-execution.md).
+Ao criar um fluxo de trabalho agendado que inclui várias atividades, é necessário garantir que o fluxo de trabalho não seja reagendado até a conclusão. Para fazer isso, é necessário configurar o workflow para impedir sua execução se uma ou mais tarefas de uma execução anterior ainda estiverem pendentes. Para obter mais informações, consulte [esta página](../../automating/using/scheduled-workflows-execution.md).
 
 **Tópicos relacionados:**
 
-* [Caso de uso: Criar deliveries na data de criação de perfis](../../automating/using/workflow-creation-date-query.md)
-* [Caso de uso: Criação de delivery de email todas as terças-feiras](../../automating/using/workflow-weekly-offer.md)
+* [Caso de uso: criar deliveries na data de criação de perfis](../../automating/using/workflow-creation-date-query.md)
+* [Caso de uso: criar um delivery por email todas as terças-feiras](../../automating/using/workflow-weekly-offer.md)
 
 ## Configuração {#configuration}
 

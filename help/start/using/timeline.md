@@ -33,7 +33,7 @@ A linha vertical azul é um marcador cronológico para realçar a data atual. Po
 Use os ícones para;
 
 * ![](assets/timeline_zoom_in.png) reduzir o perímetro ou aumentar o nível de detalhes por um período mais limitado, até que os dias sejam exibidos
-* ![](assets/timeline_zoom_out.png) aumente o perímetro ou exiba um período de tempo maior
+* ![](assets/timeline_zoom_out.png) aumentar o perímetro ou exibir um período maior
 
 Clique na seta à direita de cada nome de programa para exibir o conteúdo correspondente. Um programa pode conter subprogramas, campanhas e landing pages. Uma campanha é implantada da mesma forma que um programa e pode conter emails, SMS e landing pages.
 

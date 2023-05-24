@@ -19,9 +19,9 @@ ht-degree: 38%
 
 ## Sobre o rastreamento {#about-tracking}
 
-Graças às suas funcionalidades de rastreamento, o Adobe Campaign permite rastrear o comportamento dos recipients do seu delivery. Para fazer isso, o Adobe Campaign usa cookies de sessão e cookies permanentes.
+Graças às suas funcionalidades de rastreamento, o Adobe Campaign permite que você acompanhe o comportamento dos seus recipients de delivery. Para fazer isso, o Adobe Campaign usa cookies de sessão e cookies permanentes.
 
-Você pode informar aos usuários que seus sites estão equipados com ferramentas de rastreamento Web por meio de uma solicitação de autorização (que aparece sobre a página, por exemplo) com uma caixa de seleção para autorizar o uso de cookies ou adicionar um banner na parte superior da primeira página, etc. As janelas pop-up devem ser evitadas, pois geralmente são bloqueadas pelos navegadores.
+Você pode informar aos usuários que seus sites estão equipados com ferramentas de rastreamento web por meio de uma solicitação de autorização (que aparece, por exemplo, sobre a página) com uma caixa de seleção que autoriza a utilização de cookies ou adicionando um banner na parte superior da primeira página, etc. As janelas pop-up devem ser evitadas, pois geralmente são bloqueadas pelos navegadores.
 
 As informações de rastreamento estão disponíveis para cada contato do banco de dados no **[!UICONTROL integrated customer profiles]**. Para obter mais informações, consulte [esta seção](../../audiences/using/integrated-customer-profile.md).
 
@@ -30,7 +30,7 @@ O Adobe Campaign usa dois tipos de cookies:
 * Um cookie de sessão (nlid). Ele contém o identificador do email enviado ao contato (broadlogId) e o identificador do modelo de mensagem (deliveryId). Ele é adicionado quando o contato clica em um URL incluído em um email enviado pelo Adobe Campaign e permite que você acompanhe seu comportamento na Web. Esse cookie de sessão é apagado automaticamente quando o navegador é fechado. O contato pode configurar o navegador para recusar cookies.
 * Um cookie compartilhado entre as soluções da Adobe Experience Cloud. Ele permite identificar os usuários que interagem com as soluções da Experience Cloud quando visitam um site. A descrição deste cookie está disponível [aqui](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html).
 
-O rastreamento com a Adobe Campaign Standard permite acessar as seguintes funcionalidades:
+O rastreamento com o Adobe Campaign Standard permite acessar as seguintes funcionalidades:
 
 <table>
 <tr>
@@ -52,7 +52,7 @@ O rastreamento com a Adobe Campaign Standard permite acessar as seguintes funcio
 </tr>
 <tr>
 <td>Acompanhamento de email</td>
-<td>Rastreamento de push</td>
+<td>Rastreamento por push</td>
 <td>URLs rastreados</td>
 <td>Logs de rastreamento</td>
 <td>Relatório de rastreamento</td>
@@ -65,15 +65,15 @@ A guia **[!UICONTROL Tracking logs]** lista o histórico de rastreamento desse d
 
 >[!NOTE]
 >
->Se o rastreamento não estiver ativado para um delivery, essa guia não será exibida. Os logs de rastreamento estão disponíveis para a variável **email** e **notificação por push** somente canais.
+>Se o rastreamento não estiver ativado para uma entrega, essa guia não será exibida. Os logs de rastreamento estão disponíveis para o **email** e **notificação por push** somente canais.
 
 ![](assets/tracking_logs.png)
 
 No exemplo acima, o recipient:
 
-* Aberta a mensagem.
-* Clicado no link da mirror page.
-* Clicado no link personalizado &quot;SAIBA MAIS&quot;.
+* Aberto a mensagem.
+* Clicou no link da mirror page.
+* Clicou no link personalizado &quot;SAIBA MAIS&quot;.
 
 No **[!UICONTROL Type]** , os valores possíveis são:
 
@@ -84,16 +84,16 @@ No **[!UICONTROL Type]** , os valores possíveis são:
 
 >[!NOTE]
 >
->Para o **notificação por push** , somente os cliques nas notificações móveis são rastreados. Nesse caso, o valor será **[!UICONTROL Click on mobile notification]**.
+>Para o **notificação por push** canal, somente os cliques nas notificações móveis são rastreados. Nesse caso, o valor será **[!UICONTROL Click on mobile notification]**.
 
 Para obter mais informações sobre como inserir links de rastreamento, consulte [esta página](../../designing/using/links.md#inserting-a-link).
 
-O **[!UICONTROL Tracking indicators]** contém os indicadores principais para rastrear o comportamento após o recebimento de mensagens de email. Para obter mais informações, consulte esta [página](../../reporting/using/tracking-indicators.md).
+A variável **[!UICONTROL Tracking indicators]** O relatório de contém os indicadores principais para rastrear o comportamento após o recebimento de mensagens de email. Para obter mais informações, consulte esta [página](../../reporting/using/tracking-indicators.md).
 
 ## URLs rastreados {#tracked-urls}
 
-O **[!UICONTROL Tracked URLs]** agrupa os URLs contidos na mensagem enviada, incluindo o tipo de URL e o URL de origem.
+A variável **[!UICONTROL Tracked URLs]** A guia reagrupa os URLs contidos na mensagem enviada, incluindo o tipo de URL e o URL de origem.
 
 ![](assets/sending_delivery6.png)
 
-Para obter mais informações sobre links de rastreamento, consulte [esta seção](../../designing/using/links.md#about-tracked-urls).
+Para obter mais informações sobre links de rastreamento, consulte [nesta seção](../../designing/using/links.md#about-tracked-urls).

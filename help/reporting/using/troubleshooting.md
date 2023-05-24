@@ -1,6 +1,6 @@
 ---
 title: Solução de problemas de relatórios dinâmicos
-description: Encontre aqui perguntas comuns relacionadas aos Relatórios dinâmicos.
+description: Encontre aqui perguntas comuns relacionadas aos relatórios dinâmicos.
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
@@ -11,24 +11,24 @@ exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
 # Solução de problemas{#troubleshooting}
 
-Nesta seção, você pode encontrar perguntas comuns relacionadas aos Relatórios dinâmicos.
+Você pode encontrar nesta seção perguntas comuns relacionadas aos relatórios dinâmicos.
 
-## Para aberturas exclusivas e cliques exclusivos, a contagem na linha de agregação não corresponde àquelas em linhas individuais {#unique-open-clicks-no-match}
+## Para Aberturas únicas e Cliques únicos, a contagem na linha agregada não corresponde àquelas em linhas individuais {#unique-open-clicks-no-match}
 
 Esse é um comportamento esperado.
 Podemos usar o exemplo a seguir para explicar esse comportamento.
 
-Um email é enviado para os perfis P1 e P2.
+Um email é enviado aos perfis P1 e P2.
 
-P1 abre o email duas vezes no primeiro dia e três vezes no segundo dia.
+P1 abre o email duas vezes no primeiro dia e depois três vezes no segundo dia.
 
-Enquanto isso, o P2 abre o email uma vez no primeiro dia e não o abre novamente nos dias seguintes.
+Ao passo que, o P2 abre o email uma vez no primeiro dia e não o reabre nos dias seguintes.
 Esta é uma representação visual da interação dos perfis com o email enviado:
 
 <table> 
@@ -36,7 +36,7 @@ Esta é uma representação visual da interação dos perfis com o email enviado
   <tr> 
    <th align="center"> <strong>Day</strong> <br /> </th> 
    <th align="center"> <strong>Aberturas</strong> <br /> </th> 
-   <th align="center"> <strong>Aberturas exclusivas</strong> <br /> </th> 
+   <th align="center"> <strong>Aberturas únicas</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -53,9 +53,9 @@ Esta é uma representação visual da interação dos perfis com o email enviado
  </tbody> 
 </table>
 
-Para entender o número geral de aberturas exclusivas, precisamos somar as contagens de linha de **[!UICONTROL Unique Opens]** que nos dá o valor 3. Mas como o email foi direcionado para apenas 2 perfis, a taxa de abertura deve mostrar 150%.
+Para entender o número geral de aberturas únicas, precisamos somar as contagens de linhas de **[!UICONTROL Unique Opens]** que nos dá o valor 3. Mas como o email foi direcionado para apenas 2 perfis, a taxa de Abertura deve mostrar 150%.
 
-Para não obter uma porcentagem superior a 100, a definição de **[!UICONTROL Unique Opens]** é mantido como o número de broadlogs exclusivos que foram abertos. Nesse caso, mesmo se P1 tiver aberto o email no Dia 1 e no Dia 2, suas aberturas exclusivas ainda serão 1.
+Para não obter uma porcentagem superior a 100, a definição de **[!UICONTROL Unique Opens]** é mantido como o número de broadlogs únicos que foram abertos. Nesse caso, mesmo que P1 tenha aberto o email no Dia 1 e no Dia 2, suas aberturas exclusivas ainda serão 1.
 
 Isso resultará na seguinte tabela:
 
@@ -64,7 +64,7 @@ Isso resultará na seguinte tabela:
   <tr> 
    <th align="center"> <strong></strong> <br /> </th> 
    <th align="center"> <strong>Aberturas</strong> <br /> </th> 
-   <th align="center"> <strong>Aberturas exclusivas</strong> <br /> </th> 
+   <th align="center"> <strong>Aberturas únicas</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -88,28 +88,28 @@ Isso resultará na seguinte tabela:
 
 >[!NOTE]
 >
->As contagens exclusivas são baseadas em um rascunho baseado em HLL, isso pode causar pequenas imprecisões em contagens grandes.
+>As contagens únicas baseiam-se em um esboço baseado em HLL. Isso pode causar pequenas imprecisões em contagens grandes.
 
-## Contagens abertas não correspondem à contagem Banco de dados {#open-counts-no-match-database}
+## As contagens abertas não correspondem à contagem do Banco de Dados {#open-counts-no-match-database}
 
-Isso pode ser devido ao fato de que, as heurísticas são usadas no Dynamic Reporting para rastrear aberturas mesmo quando não podemos rastrear a variável **[!UICONTROL Open]** ação.
+Isso pode ocorrer porque a heurística é usada nos relatórios dinâmicos para rastrear aberturas mesmo quando não é possível rastrear o **[!UICONTROL Open]** ação.
 
-Por exemplo, se um usuário tiver desativado imagens em seu cliente e clicar em um link no email, a variável **[!UICONTROL Open]** não pode ser rastreado pelo banco de dados, mas o **[!UICONTROL Click]** o fará.
+Por exemplo, se um usuário tiver desativado imagens em seu cliente e clicar em um link no email, a variável **[!UICONTROL Open]** não pode ser rastreado pelo banco de dados, mas o **[!UICONTROL Click]** fará.
 
-Por conseguinte, o **[!UICONTROL Open]** as contagens de logs de rastreamento podem não ter a mesma contagem no banco de dados.
+Por conseguinte, a **[!UICONTROL Open]** as contagens de logs de rastreamento podem não ter a mesma contagem no banco de dados.
 
-Essas ocorrências são adicionadas como **&quot;um clique por email implica a abertura de um email&quot;**.
+Essas ocorrências são adicionadas como **&quot;um clique de email implica uma abertura de email&quot;**.
 
 >[!NOTE]
 >
->Como as contagens únicas são baseadas em um rascunho baseado em HLL, podem ocorrer pequenas inconsistências entre as contagens.
+>Como as contagens únicas se baseiam em um esboço baseado em HLL, podem ocorrer pequenas inconsistências entre as contagens.
 
-## Como as contagens de deliveries recorrentes/transacionais são calculadas? {#counts-recurring-deliveries}
+## Como são calculadas as contagens de deliveries recorrentes/transacionais? {#counts-recurring-deliveries}
 
 Ao trabalhar com deliveries recorrentes e transacionais, as contagens serão atribuídas aos deliveries pai e filho.
-Podemos ver o exemplo de um delivery recorrente chamado **R1** definido para ser executado todos os dias no dia 1 (RC1), no dia 2 (RC2) e no dia 3 (RC3).
-Vamos supor que apenas uma única pessoa abriu todas as entregas secundárias várias vezes. Nesse caso, os deliveries secundários individuais recorrentes mostrarão a variável **[!UICONTROL Open]** contar como 1 para cada.
-No entanto, como a mesma pessoa clicou em todos os deliveries, o delivery recorrente pai também terá **[!UICONTROL Unique open]** como 1.
+Podemos pegar o exemplo de um delivery recorrente chamado **R1** definido para execução diária no dia 1 (RC1), dia 2 (RC2) e dia 3 (RC3).
+Vamos supor que apenas uma única pessoa abriu todas as entregas secundárias várias vezes. Nesse caso, os deliveries secundários recorrentes individuais mostrarão os **[!UICONTROL Open]** conte como 1 para cada.
+No entanto, como a mesma pessoa clicou em todos os deliveries, o delivery pai recorrente também terá **[!UICONTROL Unique open]** as 1.
 
 Os relatórios devem ter a seguinte aparência:
 
@@ -120,7 +120,7 @@ Os relatórios devem ter a seguinte aparência:
    <th align="center"> <strong>Sent</strong> <br /> </th> 
    <th align="center"> <strong>Entregue</strong> <br /> </th>
    <th align="center"> <strong>Aberturas</strong> <br /> </th> 
-   <th align="center"> <strong>Aberturas exclusivas</strong> <br /> </th>
+   <th align="center"> <strong>Aberturas únicas</strong> <br /> </th>
   </tr> 
  </thead> 
  <tbody> 
@@ -157,36 +157,36 @@ Os relatórios devem ter a seguinte aparência:
 
 ## Qual é o significado das cores na tabela dos meus relatórios? {#reports-color-signification}
 
-As cores exibidas em seus relatórios são aleatorizadas e não podem ser personalizadas. Elas representam uma barra de progresso e são exibidas para ajudá-lo a destacar melhor o valor máximo atingido em seus relatórios.
+As cores exibidas em seus relatórios são aleatórias e não podem ser personalizadas. Elas representam uma barra de progresso e são exibidas para ajudá-lo a destacar melhor o valor máximo atingido em seus relatórios.
 
-No exemplo abaixo, a célula é da mesma cor, pois seu valor é 100%.
+No exemplo abaixo, a célula é da mesma cor, já que seu valor é 100%.
 
 ![](assets/troubleshooting_1.png)
 
-Se você alterar a variável **[!UICONTROL Conditional formatting]** para personalizar, quando o valor atingir o limite superior, a célula ficará mais verde. Enquanto que, se atingir o limite inferior, ficará mais vermelho.
+Se você alterar a variável **[!UICONTROL Conditional formatting]** como personalizado, quando o valor atingir o limite superior, a célula ficará mais verde. Ao passo que, se ele atingir o limite inferior, ficará mais vermelho.
 
 Por exemplo, aqui, definimos a variável **[!UICONTROL Upper limit]** a 500 e **[!UICONTROL Lower limit]** para 0.
 
 ![](assets/troubleshooting_2.png)
 
-## Por que o valor N/A aparece nos meus relatórios?
+## Por que o valor N/D aparece em meus relatórios?
 
 ![](assets/troubleshooting_3.png)
 
-O valor **N/D** às vezes podem aparecer em seus relatórios dinâmicos. Isso pode ser exibido por três motivos:
+O valor **N/D** às vezes, podem aparecer nos relatórios dinâmicos. Isso pode ser exibido por três motivos:
 
 * O delivery foi excluído e é mostrado aqui como **N/D** para não causar discrepância nos resultados.
-* Ao arrastar e soltar a **[!UICONTROL Transactional Delivery]** para seus relatórios, o valor **N/D** pode aparecer como resultado. Isso acontece porque o relatório dinâmico obtém cada delivery mesmo que não seja transacional. Isso também pode acontecer ao arrastar e soltar a variável **[!UICONTROL Delivery]** para seu relatório, mas nesse caso, a variável **N/D** representará deliveries transacionais.
-* Quando uma dimensão é usada com uma métrica que não está relacionada à dimensão. No exemplo abaixo, um detalhamento é adicionado com a variável **[!UICONTROL Tracking URL]** mesmo que a variável **[!UICONTROL Click]** é definida como 0 neste delivery.
+* Ao arrastar e soltar a variável **[!UICONTROL Transactional Delivery]** aos seus relatórios, o valor **N/D** pode aparecer como resultado. Isso acontece porque o Dynamic Report busca cada delivery, mesmo que não seja transacional. Isso também pode ocorrer ao arrastar e soltar a variável **[!UICONTROL Delivery]** dimensão ao seu relatório, mas nesse caso, a variável **N/D** O valor representará os deliveries transacionais.
+* Quando uma dimensão é usada com uma métrica não relacionada à dimensão. No exemplo abaixo, um detalhamento é adicionado com a variável **[!UICONTROL Tracking URL]** mesmo que a variável **[!UICONTROL Click]** count está definido como 0 nesta entrega.
 
    ![](assets/troubleshooting_4.png)
 
-## Os relatórios dos deliveries mostram dados incompletos ao usar o mapeamento personalizado do Target
+## Relatórios de deliveries mostram dados incompletos ao usar o Target mapping personalizado
 
-Se estiver usando mapeamentos personalizados do Target importados nos deliveries e nenhum dado for exibido nos diferentes relatórios, isso pode significar que os enriquecimentos de relatórios não foram criados para esses mapeamentos do Target.
+Se você estiver usando mapeamentos de público-alvo personalizados importados nos deliveries e nenhum dado for exibido em relatórios diferentes, isso pode significar que os enriquecimentos de relatórios não foram criados para esses mapeamentos de público-alvo.
 
 Para resolver isso:
 
-* Após importar o mapeamento do Target de um XML, também será necessário importar o enriquecimento do Reporting.
+* Depois de importar o Target mapping de um XML, também será necessário importar o enriquecimento de relatórios.
 
-* Em vez de importar o mapeamento do Target, você pode criá-lo diretamente no Adobe Campaign Standard, o que criará automaticamente o enriquecimento do Reporting.
+* Em vez de importar o Target mapping, é possível criá-lo diretamente no Adobe Campaign Standard, que criará automaticamente o enriquecimento de Relatórios.

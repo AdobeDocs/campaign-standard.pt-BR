@@ -18,19 +18,19 @@ ht-degree: 0%
 
 ## Exclusão de uma assinatura de serviço para um perfil específico {#deleting-service-subscription}
 
-Trata-se de um procedimento em três etapas.
+Este é um procedimento de três etapas.
 
-1. Recupere o URL de assinaturas do perfil desejado.
+1. Recupere o URL de assinaturas para o perfil desejado.
 1. Execute uma solicitação GET no URL de assinaturas.
-1. Execute uma solicitação DELETE no URL de serviço desejado.
+1. Execute uma solicitação DELETE no URL do serviço desejado.
 
 Se a solicitação de exclusão for bem-sucedida, o status da resposta será 204 Sem conteúdo.
 
 <br/>
 
-***Solicitação de exemplo***
+***Exemplo de solicitação***
 
-As cargas de exemplo abaixo mostram como cancelar a assinatura de um perfil de um serviço. Primeiro, execute uma solicitação do GET para recuperar o perfil.
+As cargas de exemplo abaixo mostram como cancelar a assinatura de um perfil de um serviço. Primeiro, execute uma solicitação GET para recuperar o perfil.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -40,7 +40,7 @@ As cargas de exemplo abaixo mostram como cancelar a assinatura de um perfil de u
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Retorna o URL de assinaturas do perfil.
+Ele retorna o URL de assinaturas do perfil.
 
 ```
   {
@@ -63,7 +63,7 @@ Execute uma solicitação GET no URL de assinaturas.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Retorna a lista de assinaturas do perfil selecionado, com um URL para cada serviço assinado.
+Ele retorna a lista de assinaturas do perfil selecionado, com um URL para cada serviço assinado.
 
 ```
 ...
@@ -77,7 +77,7 @@ Retorna a lista de assinaturas do perfil selecionado, com um URL para cada servi
 ...
 ```
 
-Execute uma solicitação DELETE no URL de serviço desejado.
+Execute uma solicitação DELETE no URL do serviço desejado.
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -91,9 +91,9 @@ Execute uma solicitação DELETE no URL de serviço desejado.
 
 ## Exclusão de uma assinatura de serviço para um perfil específico
 
-Trata-se de um procedimento em três etapas.
+Este é um procedimento de três etapas.
 
-1. Recupere o serviço desejado e o URL da assinatura.
+1. Recupere o serviço desejado e seu URL de assinatura.
 1. Execute uma solicitação GET no URL de assinaturas para recuperar todas as assinaturas de perfis.
 1. Execute uma solicitação DELETE no URL de assinatura de perfil desejado.
 
@@ -101,9 +101,9 @@ Se a solicitação de exclusão for bem-sucedida, o status da resposta será 204
 
 <br/>
 
-***Solicitação de exemplo***
+***Exemplo de solicitação***
 
-Recupere o registro do serviço.
+Recuperar o registro de serviço.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -113,7 +113,7 @@ Recupere o registro do serviço.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Retorna o URL de subscrições do serviço.
+Ele retorna o URL de subscrições do serviço.
 
 ```
 {
@@ -140,7 +140,7 @@ Execute uma solicitação GET no URL de assinaturas.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Retorna a lista de assinaturas do serviço selecionado, com um URL (href) para cada assinatura de perfil.
+Ele retorna a lista de assinaturas do serviço selecionado, com um URL (href) para cada assinatura de perfil.
 
 ```
 {

@@ -67,7 +67,7 @@ No modo de operação padrão, as regras são aplicadas na seguinte sequência:
 1. Regras de controle, se elas forem aplicadas no início do direcionamento.
 1. Regras de filtragem:
 
-   * Regras de candidatura nativas para a qualificação de endereço: endereço definido / endereço não verificado / endereço em lista de bloqueios / endereço em quarentena / qualidade do endereço.
+   * Lista de bloqueios Regras de aplicações nativas para qualificação de endereço: endereço definido / endereço não verificado / endereço em / endereço em quarentena / qualidade do endereço.
    * Filtrar regras definidas pelo usuário.
 
 1. Regras de controle, se elas forem aplicadas no final do direcionamento.

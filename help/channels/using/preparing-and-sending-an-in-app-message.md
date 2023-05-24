@@ -60,7 +60,7 @@ As etapas para criar uma mensagem independente no aplicativo com o Adobe Campaig
 
 1. Insira as propriedades de mensagens no aplicativo e selecione o aplicativo móvel no campo **[!UICONTROL Associate a Mobile App to a delivery]**. 
 
-   Se você não vir nenhum aplicativo na lista suspensa, verifique se os aplicativos móveis estão em um **Configurado** estado. Aplicativos em um **Pronto para configurar** não aparecerá na lista. Para obter mais informações sobre a configuração de aplicativos móveis, consulte esta [página](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+   Se você não vir nenhum aplicativo na lista suspensa, verifique se seus aplicativos móveis estão em uma **Configurado** estado. Aplicativos em um **Pronto para ser configurado** não aparecerá na lista. Para obter mais informações sobre a configuração de aplicativos móveis, consulte esta [página](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
    ![](assets/inapp_creating_3.png)
 
@@ -91,7 +91,7 @@ As etapas para criar uma mensagem independente no aplicativo com o Adobe Campaig
       Para obter mais informações sobre o Adobe Places, consulte a [documentação do Places](https://experienceleague.adobe.com/docs/places/using/home.html).
    ![](assets/inapp_creating_4.png)
 
-1. Se você usar um **[!UICONTROL Analytics Events]**, o Adobe Analytics e os eventos de estado de Exibição serão automaticamente preenchidos com base nos conjuntos de relatórios configurados na extensão do Analytics na interface do usuário da coleta de dados, enquanto os eventos de dados de contexto precisam ser adicionados manualmente.
+1. Se você usar um **[!UICONTROL Analytics Events]**, os eventos de estado do Adobe Analytics e de Exibição serão automaticamente preenchidos com base nos conjuntos de relatórios configurados na extensão do Analytics na interface da Coleção de dados, enquanto os Eventos de dados de contexto precisam ser adicionados manualmente.
 
    Observe que esses eventos só estarão disponíveis se você tiver uma licença do Adobe Analytics.
 
@@ -99,7 +99,7 @@ As etapas para criar uma mensagem independente no aplicativo com o Adobe Campaig
 
 1. Se você usar um acionador **[!UICONTROL Places]**, dados de contexto do Places, metadados personalizados do Places ou o tipo de evento do Places serão automaticamente preenchidos com base em todas as Bibliotecas e seus Pontos de interesse criados no Adobe Places.
 
-   Observe que esse acionador será aplicado ao dispositivo somente para os Pontos de interesse das Bibliotecas selecionadas na extensão Places da interface do usuário para coleta de dados. Para obter mais informações sobre a extensão Places e como instalá-la, consulte esta [documentação](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+   Observe que esse acionador será aplicado ao dispositivo somente para os Pontos de interesse das Bibliotecas selecionadas na extensão Places da interface da Coleção de dados. Para obter mais informações sobre a extensão Places e como instalá-la, consulte esta [documentação](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
 
 1. Na guia **[!UICONTROL Frequency & duration]**, escolha a frequência do acionador, a data de início e de término, o dia da semana e a hora do dia em que a mensagem no aplicativo estará ativa.
 
@@ -160,15 +160,15 @@ Depois que você terminar de preparar o delivery e as etapas de aprovação tive
 
 1. Avalie o impacto das mensagens no aplicativo com relatórios do delivery. Para obter mais informações sobre relatórios, consulte [esta seção](../../reporting/using/in-app-report.md).
 
-1. Depois de enviar as mensagens no aplicativo, você pode optar por desativar o delivery. Isso pode ser útil se você quiser interromper um delivery específico ou se quiser executar um novo delivery com o mesmo acionador, por exemplo.
+1. Após enviar as mensagens no aplicativo, você pode optar por desativar o delivery. Isso pode ser útil se você quiser parar um delivery específico ou se quiser executar um novo delivery com o mesmo acionador, por exemplo.
 
-   Clique em **[!UICONTROL Deactivate]** then **[!UICONTROL Ok]** para iniciar a solicitação de desativação.
+   Clique em **[!UICONTROL Deactivate]** depois **[!UICONTROL Ok]** para iniciar a solicitação de desativação.
 
    ![](assets/inapp_sending_8.png)
 
-1. Depois que a solicitação for enviada, seu delivery será desativado e nenhuma outra mensagem será enviada.
+1. Depois que a solicitação for enviada, o delivery será desativado e nenhuma outra mensagem será enviada.
 
-   Observe que seus relatórios para esse delivery ainda estarão acessíveis.
+   Observe que os relatórios para esse delivery ainda estarão acessíveis.
 
    ![](assets/inapp_sending_9.png)
 

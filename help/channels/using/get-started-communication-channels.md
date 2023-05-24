@@ -25,16 +25,16 @@ ht-degree: 23%
 <td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">Landing pages</a></p></td></tr>
 </table>
 
-O Adobe Campaign permite iniciar, medir e automatizar campanhas em todos os canais.
-Harmonizar todos os seus canais de marketing não é uma tarefa impossível. Com a ajuda do Adobe Campaign, você pode trazer dados do cliente de diferentes sistemas, dispositivos e canais para um único perfil. Em seguida, forneça campanhas oportunas e relevantes que atendam seus clientes nos lugares certos e da maneira certa ao longo da jornada dos clientes.
+O Adobe Campaign permite iniciar, medir e automatizar campanhas em cada canal.
+Harmonizar todos os seus canais de marketing não é uma tarefa impossível. Com a ajuda da Adobe Campaign, você pode reunir os dados do cliente de diferentes sistemas, dispositivos e canais em um único perfil. Em seguida, forneça campanhas oportunas e relevantes que atendam aos clientes nos lugares certos e da maneira certa ao longo da jornada do cliente.
 
 ## Conceitos globais {#global-concepts}
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-**Aproveite o painel de mensagens do Campaign** para configurar e enviar suas mensagens de um único local, bem como acessar várias funcionalidades, como agendamento, mensagens multilíngues...
+**Aproveitar o painel de mensagens do Campaign** para configurar e enviar suas mensagens de um único local, bem como acessar várias funcionalidades, como agendamento, mensagens multilíngues...
 
-**Gerenciar modelos** para configurar as propriedades das mensagens e permitir que você ganhe tempo e consistência em sua estratégia de mensagens. Como exemplo, para emails, o administrador funcional responsável pela configuração dos modelos pode definir os parâmetros padrão de um email, como público, agendamento ou conteúdo, os parâmetros avançados relacionados ao envio, validade, rastreamento etc., ou os parâmetros de pré-configuração relativos ao direcionamento e à personalização (contexto de direcionamento).
+**Gerenciar modelos** para configurar propriedades de mensagens e permitir que você ganhe tempo e consistência em sua estratégia de mensagens. Como exemplo, para emails, o administrador funcional responsável pela configuração dos templates pode definir os parâmetros padrão de um email, como público, agendamento ou conteúdo, os parâmetros avançados relacionados ao envio, validade, rastreamento etc. ou os parâmetros de pré-configuração relacionados ao direcionamento e à personalização (contexto de direcionamento).
 
 Leia mais:
 
@@ -48,16 +48,16 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**Cinco canais de comunicação** estão disponíveis no Adobe Campaign: Email, mensagem SMS, notificação por push, mensagem no aplicativo e delivery de mala direta.
+**Cinco canais de comunicação** estão disponíveis no Adobe Campaign: Email, Mensagem SMS, Notificação por push, Mensagem no aplicativo e Entrega de correspondência direta.
 
-Para cada canal, funcionalidades específicas estão disponíveis. Por exemplo, o canal de email permite executar testes A/B para testar até 3 versões de uma mensagem de email. Com o canal SMS, gerencie mensagens STOP SMS e armazene SMSs recebidos dos recipients no seu banco de dados.
+Para cada canal, funcionalidades específicas estão disponíveis. Por exemplo, o canal de email permite executar um teste A/B para testar até três versões de uma mensagem de email. Com o canal SMS, gerencie mensagens SMS PARAR e armazene SMS de entrada dos recipients no banco de dados.
 
-Além disso, aproveite o Campaign Standard **personalização e recursos de conteúdo dinâmico** para capturar o interesse do seu público-alvo.
+Além disso, aproveite o Campaign Standard **recursos de personalização e conteúdo dinâmico** para capturar o interesse do seu público-alvo.
 
 Leia mais:
 
-* [Criar emails](../../channels/using/about-emails.md)
-* [Criar mensagem SMS](../../channels/using/about-sms-messages.md)
+* [Criação de emails](../../channels/using/about-emails.md)
+* [Criação de mensagem SMS](../../channels/using/about-sms-messages.md)
 * [Criação de notificações por push](../../channels/using/about-push-notifications.md)
 * [Criação de mensagens no aplicativo](../../channels/using/about-in-app-messaging.md)
 * [Criação de deliveries de correspondência direta](../../channels/using/about-direct-mail.md)
@@ -66,9 +66,9 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-**Enviar mensagens individuais e exclusivas** aos seus clientes em tempo real: mensagens de boas-vindas, confirmações de envio de pedidos, modificação de senha etc.
+**Enviar mensagens individuais e exclusivas** para seus clientes em tempo real: mensagens de boas-vindas, confirmações de envio de pedidos, modificação de senha etc.
 
-As mensagens transacionais estão disponíveis para os canais de email, SMS e notificação por push, dependendo de suas opções. Há dois tipos de mensagens: **mensagens transacionais de evento** direcionamento de eventos sem informações de perfil, e **mensagens transacionais de perfil** perfis de direcionamento do seu banco de dados.
+As mensagens transacionais estão disponíveis para os canais de email, SMS e notificação por push, dependendo das suas opções. Há dois tipos de mensagens: **mensagens transacionais de evento** eventos de direcionamento sem informações de perfil e **mensagens transacionais de perfil** direcionar perfis do seu banco de dados.
 
 Leia mais:
 
@@ -84,9 +84,9 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_landing.svg" width="60px">
 
-O Campaign vem com landing pages que são formulários web que podem ser usados para **capturar informações em seus públicos**, oferecem subscrições a um serviço, exibem dados e expandem seu banco de dados.
+O Campaign vem com páginas de aterrissagem que são formulários web que podem ser usados para **capturar informações sobre seus públicos**, oferecer assinaturas de um serviço, exibir dados e expandir o banco de dados.
 
-As landing pages também podem ser usadas para **adquirir ou atualizar perfis existentes** e para configurar um mecanismo de participação dupla, permitindo proteger a plataforma de endereços de email incorretos ou inválidos ou spambots.
+As landing pages também podem ser usadas para **aquisição ou atualização de perfis existentes** e para configurar um mecanismo de aceitação dupla, permitindo que você proteja a plataforma contra endereços de email incorretos ou inválidos, ou spambots.
 
 Leia mais:
 
@@ -100,7 +100,7 @@ Leia mais:
 * [Otimização da capacidade de entrega](../../sending/using/about-deliverability.md)
 * [Práticas recomendadas de delivery](../../sending/using/delivery-best-practices.md)
 * [Criação de conteúdo de email](../../designing/using/designing-content-in-adobe-campaign.md)
-* [Importação de conteúdo AEM](../../integrating/using/creating-email-experience-manager.md)
-* [Envio de mensagens com fluxos de trabalho](../../automating/using/about-channel-activities.md)
+* [Importação de conteúdo do AEM](../../integrating/using/creating-email-experience-manager.md)
+* [Envio de mensagens com workflows](../../automating/using/about-channel-activities.md)
 * [Vídeos tutoriais sobre canais de comunicação](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html?lang=pt-BR)
-* [Caso de uso: Criação de um delivery entre canais](../../automating/using/workflow-cross-channel-delivery.md)
+* [Caso de uso: criação de uma entrega entre canais](../../automating/using/workflow-cross-channel-delivery.md)

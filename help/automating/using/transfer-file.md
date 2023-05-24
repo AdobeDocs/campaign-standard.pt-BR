@@ -32,7 +32,7 @@ Você pode usar essa atividade para recuperar dados que serão estruturados com 
 
 **Tópicos relacionados:**
 
-* [Caso de uso: Atualização de dados com base em um download automático de arquivo](../../automating/using/update-data-automatic-download.md)
+* [Caso de uso: atualização de dados com base em um download automático de arquivo](../../automating/using/update-data-automatic-download.md)
 
 ## Configuração {#configuration}
 
@@ -60,11 +60,11 @@ Você pode usar essa atividade para recuperar dados que serão estruturados com 
 
    * **[!UICONTROL Delete the source files after transfer]**: apaga os arquivos no servidor remoto. Se deixar essa opção desmarcada, certifique-se de monitorar manualmente o tamanho do conteúdo arquivado no diretório SFTP.
 
-   * **[!UICONTROL Sorting files]**: permite classificar arquivos alfanuméricos. Essa opção está desabilitada por padrão.
+   * **[!UICONTROL Sorting files]**: permite classificar arquivos alfanumericamente. Essa opção está desabilitada por padrão.
 
       <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
-   * **[!UICONTROL List all files]**: essa opção está disponível ao selecionar a variável **[!UICONTROL File listing]** na **[!UICONTROL General]** guia . Ela permite indexar todos os arquivos no servidor na variável de evento **vars.filenames** na qual os nomes de arquivo são separados pelos caracteres **&#39;n&#39;**.
+   * **[!UICONTROL List all files]**: essa opção está disponível ao selecionar a variável **[!UICONTROL File listing]** ação no **[!UICONTROL General]** guia. Ela permite indexar todos os arquivos no servidor na variável de evento **vars.filenames** na qual os nomes de arquivo são separados pelos caracteres **&#39;n&#39;**.
 
 1. A seção **[!UICONTROL If no files are found]** da guia **[!UICONTROL Advanced options]** permite configurar ações específicas se forem detectados erros ou arquivos inexistentes quando a atividade for iniciada.
 
@@ -78,20 +78,20 @@ Você pode usar essa atividade para recuperar dados que serão estruturados com 
 
 O protocolo HTTP permite iniciar o download de um arquivo de uma conta externa ou de um URL.
 
-Com este protocolo, você pode optar por **[!UICONTROL Use connection parameters defined in an external account]** opção. Nesse caso, selecione a conta desejada e especifique o caminho do arquivo para download.
+Com esse protocolo, você pode optar por **[!UICONTROL Use connection parameters defined in an external account]** opção. Nesse caso, selecione a conta desejada e especifique o caminho do arquivo para download.
 
 ![](assets/wkf_file_transfer_03.png)
 
 Você também pode escolher a opção **[!UICONTROL Quick configuration]**. Você só precisa inserir o URL no campo URL.
 ![](assets/wkf_file_transfer_04.png)
 
-**[!UICONTROL Follow redirections]**, **[!UICONTROL Ignore the HTTP return code]** e **[!UICONTROL Add received HTTP headers to the file]** são as opções adicionais disponíveis ao selecionar o protocolo HTTP.
+**[!UICONTROL Follow redirections]**, **[!UICONTROL Ignore the HTTP return code]**, e **[!UICONTROL Add received HTTP headers to the file]** são as opções adicionais disponíveis ao selecionar o protocolo HTTP.
 
 ### Configuração com SFTP {#SFTP-configuration-wf}
 
 O protocolo SFTP permite iniciar o download de um arquivo de uma conta externa ou de um URL.
 
-Com este protocolo, você pode optar por **[!UICONTROL Use connection parameters defined in an external account]** , selecione a conta desejada e especifique o caminho do arquivo a ser baixado.
+Com esse protocolo, você pode optar por **[!UICONTROL Use connection parameters defined in an external account]** , selecione a conta desejada e especifique o caminho do arquivo a ser baixado.
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
@@ -117,7 +117,7 @@ O protocolo Amazon S3 permite iniciar o download de um arquivo de um URL ou de u
    >
    > Os curingas não são compatíveis com o Amazon S3.
    >
-   > Para direcionar vários arquivos, como `my_file_02` e `my _file_3433`, é possível usar a seguinte sintaxe: `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
+   > Para direcionar vários arquivos, como `my_file_02` e `my _file_3433`, você pode usar a seguinte sintaxe: `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
 
 4. Se quiser excluir os arquivos de origem quando a transferência for concluída, marque **[!UICONTROL Delete the source files after transfer]**.
 
@@ -181,7 +181,7 @@ Toda vez que a atividade é executada, a pasta é verificada da seguinte maneira
 
 ## Variáveis de saída {#output-variables}
 
-O **[!UICONTROL Transfer file]** A atividade gera variáveis de evento como saída, que podem ser aproveitadas em outras atividades, por exemplo, para verificar o número de arquivos baixados usando um [Teste](../../automating/using/test.md) atividade .
+A variável **[!UICONTROL Transfer file]** A atividade gera variáveis de evento como saída, que você pode aproveitar em outras atividades, por exemplo, para verificar o número de arquivos baixados usando uma [Teste](../../automating/using/test.md) atividade.
 
 Observe que as variáveis de evento também podem ser passadas para outro workflow usando um sinal externo (consulte [Personalização de um workflow com parâmetros externos](../../automating/using/customizing-workflow-external-parameters.md)).
 

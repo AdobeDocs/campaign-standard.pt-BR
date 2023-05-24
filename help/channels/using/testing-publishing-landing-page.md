@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ---
 
-# Teste e publicação de uma página de aterrissagem{#testing-publishing--landing-page}
+# Teste e publicação de uma landing page{#testing-publishing--landing-page}
 
 ## Sobre publicação de uma landing page {#about-landing-page-publication}
 

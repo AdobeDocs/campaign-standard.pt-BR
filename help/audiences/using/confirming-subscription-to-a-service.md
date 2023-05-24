@@ -120,7 +120,7 @@ Agora, quando os perfis assinam esse serviço, eles recebem a mensagem transacio
 
 >[!NOTE]
 >
->Uma mensagem é enviada somente na primeira vez que o usuário assinar.
+>Uma mensagem só é enviada na primeira vez que o usuário se inscreve.
 
 ## Configuração da mensagem de confirmação de uma landing page {#configuring-confirmation-message-from-landing-page}
 

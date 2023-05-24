@@ -19,7 +19,7 @@ ht-degree: 55%
 
 Na paleta, no lado esquerdo da tela, expanda a seção **[!UICONTROL Data management (ETL)]**.
 
-Essas atividades permitem manipular dados. Eles permitem, por exemplo, importar dados, executar atualizações em massa em campos de banco de dados, receber ou enviar arquivos ou vincular dados não identificados aos recursos existentes.
+Essas atividades permitem manipular dados. Eles permitem, por exemplo, importar dados, executar atualizações em massa nos campos do banco de dados, receber ou enviar arquivos ou vincular dados não identificados aos recursos existentes.
 
 ![](assets/wkf_etl_activities.png)
 
@@ -32,4 +32,4 @@ A seção **[!UICONTROL Data management (ETL)]** inclui as seguintes atividades:
 * [Extrair arquivo](../../automating/using/extract-file.md)
 * [Serviços de subscrição](../../automating/using/subscription-services.md)
 
-**[!UICONTROL Data management (ETL)]** permite definir **códigos de segmento** para suas transições de saída. Em seguida, você poderá criar relatórios com base nesses códigos de segmento para medir a eficiência das suas campanhas de marketing. Para obter mais informações, consulte [esta seção](../../reporting/using/creating-a-report-workflow-segment.md).
+**[!UICONTROL Data management (ETL)]** atividades permite definir **códigos de segmento** para suas transições de saída. Em seguida, você poderá criar relatórios com base nesses códigos de segmento para medir a eficiência das suas campanhas de marketing. Para obter mais informações, consulte [esta seção](../../reporting/using/creating-a-report-workflow-segment.md).

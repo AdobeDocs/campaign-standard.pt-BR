@@ -19,29 +19,29 @@ ht-degree: 16%
 
 ## Pré-visualização de emails {#previewing-emails}
 
-O Campaign Standard permite visualizar mensagens antes de enviá-las, para verificar a personalização e como os recipients as verão.
+O Campaign Standard permite que você visualize as mensagens antes do envio, a fim de verificar a personalização e como os recipients as verão.
 
-A pré-visualização de mensagens é executada usando **Testar perfis** que você adiciona ao público-alvo da mensagem.
+A pré-visualização de mensagens é executada usando **Perfis de teste** que você adiciona ao público-alvo da mensagem.
 
-Para **email** mensagens, o Campaign Standard permite visualizar mensagens usando perfis direcionados em vez de perfis de teste. Isso permite obter uma representação exata da mensagem que um perfil específico receberá. Para mais informações, consulte [Testar mensagens de email usando perfis segmentados](../../sending/using/testing-messages-using-target.md).
+Para **email** O Campaign Standard permite pré-visualizar mensagens usando perfis direcionados em vez de perfis de teste. Isso permite obter uma representação exata da mensagem que um perfil específico receberá. Para mais informações, consulte [Testar mensagens de email usando perfis segmentados](../../sending/using/testing-messages-using-target.md).
 
 Para visualizar uma mensagem usando perfis de teste, siga estas etapas:
 
-1. No [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), clique no botão **[!UICONTROL Preview]** botão.
+1. No [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), clique no link **[!UICONTROL Preview]** botão.
 
    ![](assets/sending_preview.png)
 
-   Uma exibição de desktop e uma exibição móvel responsiva do seu email são exibidas lado a lado.
+   Uma visualização da área de trabalho e uma visualização móvel responsiva do seu email são exibidas lado a lado.
 
-1. Uma verificação automática de antispam é executada durante cada pré-visualização. Clique no botão **[!UICONTROL Anti-spam analysis]** para saber mais sobre o aviso.
+1. Uma verificação automática de antispam é executada durante cada pré-visualização. Clique em **[!UICONTROL Anti-spam analysis]** botão para saber mais sobre o aviso.
 
    ![](assets/sending_anti-spam_analysis.png)
 
-1. Selecione o **[!UICONTROL Change profile]** para escolher o perfil de teste no qual deseja testar os elementos de personalização.
+1. Selecione o **[!UICONTROL Change profile]** botão para escolher o perfil de teste no qual deseja testar os elementos de personalização.
 
    ![](assets/sending_test-profile.png)
 
-1. Para sair do **[!UICONTROL Preview]** , clique no botão **[!UICONTROL Edit]** no canto superior esquerdo da tela.
+1. Para sair do **[!UICONTROL Preview]** , clique no link **[!UICONTROL Edit]** no canto superior esquerdo da tela.
 
    ![](assets/sending_preview_edit.png)
 
@@ -53,17 +53,17 @@ Para visualizar uma mensagem usando perfis de teste, siga estas etapas:
 
 ## Pré-visualização de mensagens SMS {#previewing-sms}
 
-Para **SMS** , o Campaign Standard permite visualizar mensagens usando perfis de teste. Isso permite obter uma representação exata da mensagem que um perfil específico receberá. Para mais informações, consulte [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md).
+Para **SMS** O Campaign Standard permite pré-visualizar mensagens usando perfis de teste. Isso permite obter uma representação exata da mensagem que um perfil específico receberá. Para mais informações, consulte [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md).
 
 Para visualizar uma mensagem SMS usando perfis de teste, siga estas etapas:
 
-1. Uma vez preenchido o **[!UICONTROL Properties]** da mensagem SMS e selecionou os públicos-alvo, é possível personalizar o delivery. Para obter mais informações, consulte [seção](../../channels/using/personalizing-sms-messages.md).
+1. Depois de preencher o **[!UICONTROL Properties]** da mensagem SMS e dos públicos selecionados, você pode personalizar o delivery. Para obter mais informações, consulte [seção](../../channels/using/personalizing-sms-messages.md).
 
    ![](assets/sms_preview.png)
 
-1. Depois de personalizar o conteúdo, clique em **[!UICONTROL Create]** para acessar o **[!UICONTROL Summary]** janela.
+1. Após personalizar o conteúdo, clique em **[!UICONTROL Create]** para acessar o **[!UICONTROL Summary]** janela.
 
-1. No **[!UICONTROL Summary]** , clique em **[!UICONTROL Content]** para começar a pré-visualizar o delivery.
+1. No **[!UICONTROL Summary]** clique em **[!UICONTROL Content]** para começar a pré-visualização do delivery.
 
    ![](assets/sms_preview_2.png)
 
@@ -71,11 +71,11 @@ Para visualizar uma mensagem SMS usando perfis de teste, siga estas etapas:
 
    ![](assets/sms_preview_3.png)
 
-1. Clique em **[!UICONTROL Change profile]** para selecionar seu perfil de teste e **[!UICONTROL Confirm]**.
+1. Clique em **[!UICONTROL Change profile]** para selecionar o perfil de teste, então **[!UICONTROL Confirm]**.
 
    ![](assets/sms_preview_4.png)
 
-Agora é possível ver a representação exata de sua mensagem, dependendo dos perfis de teste selecionados.
+Agora é possível ver a representação exata da mensagem, dependendo dos perfis de teste selecionados.
 
 **Tópicos relacionados**
 
@@ -85,13 +85,13 @@ Agora é possível ver a representação exata de sua mensagem, dependendo dos p
 
 ## Visualização de notificações por push {#previewing-push}
 
-Para **Notificação por push**, o Campaign Standard permite visualizar mensagens usando perfis de teste. Isso permite obter uma representação exata da mensagem que um perfil específico receberá. Para mais informações, consulte [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md).
+Para **Notificação por push**, Campaign Standard permite visualizar mensagens usando perfis de teste. Isso permite obter uma representação exata da mensagem que um perfil específico receberá. Para mais informações, consulte [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md).
 
 Para visualizar uma notificação por push usando perfis de teste, siga estas etapas:
 
-1. Uma vez preenchido o **[!UICONTROL Properties]** da notificação por push e selecionou os públicos-alvo, é possível personalizar o delivery. Para obter mais informações, consulte [Personalização de uma notificação por push](../../channels/using/customizing-a-push-notification.md).
+1. Depois de preencher o **[!UICONTROL Properties]** da sua notificação por push e dos públicos selecionados, você pode personalizar o delivery. Para obter mais informações, consulte [Personalização de uma notificação por push](../../channels/using/customizing-a-push-notification.md).
 
-1. Após personalizar o conteúdo, é possível verificar diretamente a renderização das notificações por push, dependendo dos dispositivos e do sistema operacional na janela de visualização.
+1. Depois de personalizar o conteúdo, você pode verificar diretamente a renderização das notificações por push, dependendo dos dispositivos e do SO na janela de pré-visualização.
 
    ![](assets/push_preview.png)
 
@@ -99,9 +99,9 @@ Para visualizar uma notificação por push usando perfis de teste, siga estas et
 
    ![](assets/push_preview_2.png)
 
-1. Selecione seu perfil de teste e **[!UICONTROL Confirm]**.
+1. Selecione o perfil de teste e **[!UICONTROL Confirm]**.
 
-Agora é possível ver a representação exata de sua mensagem, dependendo dos perfis de teste selecionados.
+Agora é possível ver a representação exata da mensagem, dependendo dos perfis de teste selecionados.
 
 ![](assets/push_preview_3.png)
 
@@ -113,13 +113,13 @@ Agora é possível ver a representação exata de sua mensagem, dependendo dos p
 
 ## Visualização de mensagens no aplicativo {#previewing-in-app}
 
-Para **No aplicativo**, o Campaign Standard permite visualizar mensagens usando perfis de teste. Isso permite obter uma representação exata da mensagem que um perfil específico receberá. Para mais informações, consulte [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md).
+Para **No aplicativo**, Campaign Standard permite visualizar mensagens usando perfis de teste. Isso permite obter uma representação exata da mensagem que um perfil específico receberá. Para mais informações, consulte [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md).
 
 Para visualizar uma mensagem no aplicativo usando perfis de teste, siga estas etapas:
 
-1. Uma vez preenchido o **[!UICONTROL Properties]** da mensagem no aplicativo, selecionou os públicos-alvo e definiu **[!UICONTROL Triggers]**, você poderá personalizar o delivery. Para obter mais informações, consulte [Personalização de mensagem no aplicativo](../../channels/using/customizing-an-in-app-message.md).
+1. Depois de preencher o **[!UICONTROL Properties]** da mensagem no aplicativo, selecionou os públicos e definiu as **[!UICONTROL Triggers]**, você pode personalizar o delivery. Para obter mais informações, consulte [Personalização de mensagem no aplicativo](../../channels/using/customizing-an-in-app-message.md).
 
-1. Após personalizar o conteúdo, é possível verificar diretamente a renderização da mensagem no aplicativo, dependendo dos dispositivos e do sistema operacional na janela de visualização.
+1. Depois de personalizar o conteúdo, você pode verificar diretamente a renderização da mensagem no aplicativo, dependendo dos dispositivos e do sistema operacional na janela de pré-visualização.
 
    ![](assets/in_app_preview.png)
 
@@ -127,9 +127,9 @@ Para visualizar uma mensagem no aplicativo usando perfis de teste, siga estas et
 
    ![](assets/in_app_preview_2.png)
 
-1. Selecione seu perfil de teste e **[!UICONTROL Confirm]**.
+1. Selecione o perfil de teste e **[!UICONTROL Confirm]**.
 
-Agora é possível ver a representação exata de sua mensagem, dependendo dos perfis de teste selecionados.
+Agora é possível ver a representação exata da mensagem, dependendo dos perfis de teste selecionados.
 
 ![](assets/in_app_preview_3.png)
 

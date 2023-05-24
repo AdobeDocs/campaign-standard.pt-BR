@@ -14,18 +14,18 @@ ht-degree: 10%
 
 # Interação com o histórico de marketing{#interacting-with-marketing-history}
 
-O **história** O endpoint permite interagir com o histórico de marketing de um perfil.
-Dessa forma, você pode, por exemplo, recuperar facilmente a mirror page de um delivery enviado a um perfil. Para fazer isso, siga as etapas abaixo:
+A variável **histórico** permite interagir com o histórico de marketing de um perfil.
+Dessa forma, você pode, por exemplo, recuperar facilmente a mirror page de um delivery que foi enviado a um perfil. Para fazer isso, siga as etapas abaixo:
 
-1. Execute uma GET com a **história** e a chave primária do perfil.
-1. Execute uma solicitação de GET no **events** href retornado.
-1. Retorna a lista de eventos do perfil com links para mirror pages no **mirrorPage** nó .
+1. Execute uma GET com o **histórico** e a chave primária do perfil.
+1. Execute uma solicitação GET no **events** href retornado.
+1. Ele retorna a lista de eventos do perfil com links para mirror pages na **mirrorPage** nó.
 
 <br/>
 
-***Solicitação de exemplo***
+***Exemplo de solicitação***
 
-Recupere o histórico de marketing do perfil com uma solicitação do GET.
+Recupere o histórico de marketing do perfil com uma solicitação GET.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/"<PKEY>" \
@@ -50,7 +50,7 @@ O nó &quot;events&quot; retorna o URL que dá acesso aos eventos no perfil.
 }
 ```
 
-Execute uma solicitação de GET na href de eventos retornada.
+Execute uma solicitação GET no href de eventos retornado.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/<PKEY>/events \
@@ -60,7 +60,7 @@ Execute uma solicitação de GET na href de eventos retornada.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Retorna a lista de eventos do perfil com links para mirror pages no nó &quot;mirrorPage&quot;.
+Ele retorna a lista de eventos do perfil com links para mirror pages no nó &quot;mirrorPage&quot;.
 
 ```
     {

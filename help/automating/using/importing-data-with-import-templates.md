@@ -42,7 +42,7 @@ As importações podem ser filtradas de acordo com o modelo a partir do qual for
 
 Os detalhes da execução da importação agora estão disponíveis. Tanto o arquivo importado quanto o que contém os dados rejeitados (dados que não foram importados) podem ser baixados no computador.
 
-## Configuração de templates de importação {#setting-up-import-templates}
+## Configuração de modelos de importação {#setting-up-import-templates}
 
 Os templates de importação permitem que o administrador predefina um certo número de configurações técnicas de importação. Esses templates depois podem ser disponibilizados para os usuários padrão executarem e fazerem upload de arquivos.
 

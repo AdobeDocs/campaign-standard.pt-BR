@@ -30,8 +30,8 @@ A atividade **[!UICONTROL Read audience]** é uma versão mais simples da ativid
 
 **Tópicos relacionados**
 
-* [Caso de uso: União em dois públicos-alvo refinados](../../automating/using/union-on-two-refined-audiences.md)
-* [Caso de uso: Reconciliar um público do tipo Arquivo com o banco de dados](../../automating/using/reconcile-file-audience-with-database.md)
+* [Caso de uso: união em dois públicos-alvo refinados](../../automating/using/union-on-two-refined-audiences.md)
+* [Caso de uso: reconciliar um público-alvo do tipo File com o banco de dados](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Configuração {#configuration}
 

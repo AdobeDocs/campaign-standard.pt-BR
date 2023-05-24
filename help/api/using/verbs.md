@@ -1,6 +1,6 @@
 ---
-title: GET / POST / PATCH / DELETE verbos
-description: Saiba mais sobre os verbos usados nas APIs do Campaign Standard.
+title: GET / POST / PATCH / verbos DELETE
+description: Saiba mais sobre os verbos usados nas APIs de Campaign Standard.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# GET / POST / PATCH / DELETE verbos {#verbs}
+# GET / POST / PATCH / verbos DELETE {#verbs}
 
 Os verbos disponíveis para executar operações nos recursos são:
 
@@ -30,7 +30,7 @@ Os verbos disponíveis para executar operações nos recursos são:
 
 ***Solicitações de exemplo***
 
-* Solicitação de GET de exemplo na coleção de perfis.
+* Exemplo de solicitação de GET na coleção de perfis.
 
 
    ```
@@ -66,7 +66,7 @@ Os verbos disponíveis para executar operações nos recursos são:
    }
    ```
 
-* Solicitação de GET de exemplo em um perfil específico.
+* Exemplo de solicitação de GET em um perfil específico.
 
 
    ```
@@ -92,7 +92,7 @@ Os verbos disponíveis para executar operações nos recursos são:
    }
    ```
 
-* Amostra de solicitação do POST para criar um perfil.
+* Exemplo de solicitação de POST para criar um perfil.
 
 
    ```
@@ -127,7 +127,7 @@ Os verbos disponíveis para executar operações nos recursos são:
    -d '{"firstName":"Mark"',"lastName":"Smith"}'
    ```
 
-   Retorna a PKEY e o URL para recuperar o perfil atualizado.
+   Ele retorna a PKEY e o URL para recuperar o perfil atualizado.
 
    ```
    {

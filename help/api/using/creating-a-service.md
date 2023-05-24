@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Criação de um serviço com APIs{#creating-a-service-api}
 
-A criação de serviços é realizada com uma **POST** no recurso de serviço.
+A criação de serviços é executada com um **POST** no recurso de serviço.
 
-Para criar o serviço com atributos específicos, adicione-os ao payload. Caso contrário, o novo serviço será criado com os padrões.
+Se quiser criar o serviço com atributos específicos, adicione-os à carga. Caso contrário, o novo serviço será criado com os padrões.
 
 <br/>
 
-***Solicitação de exemplo***
+***Exemplo de solicitação***
 
-Amostra de solicitação do POST para criar um serviço com atributos específicos.
+Exemplo de solicitação POST para criar um serviço com atributos específicos.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/ \
@@ -39,7 +39,7 @@ Amostra de solicitação do POST para criar um serviço com atributos específic
 -d }
 ```
 
-Retorna o serviço recém-criado com os atributos atualizados.
+Ele retorna o serviço recém-criado com os atributos atualizados.
 
 ```
 {

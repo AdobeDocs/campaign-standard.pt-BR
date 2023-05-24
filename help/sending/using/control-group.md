@@ -38,7 +38,7 @@ Todos os perfis que fazem parte do grupo de controle na etapa de preparação do
 
 ## Extração a partir do público-alvo {#extraction-target-population}
 
-Para definir um grupo de controle, você pode optar por extrair, aleatoriamente ou com base em uma classificação, uma porcentagem ou um número fixo de perfis da população do público-alvo.
+Para definir um grupo de controle, você pode optar por extrair, aleatoriamente ou com base em uma classificação, uma porcentagem ou um número fixo de perfis do público-alvo.
 
 ### Extração de público-alvo {#target-extraction}
 
@@ -155,7 +155,7 @@ Você pode extrair os **logs de envio** para comparar como foi a ação do grupo
 
 >[!IMPORTANT]
 >
->Para acessar logs do delivery, é necessário ter um [Função de administrador](../../administration/using/users-management.md#functional-administrators) e fazer parte do **[!UICONTROL All]** [unidade organizacional](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
+>Para acessar os logs do delivery, é necessário ter uma [Função de administrador](../../administration/using/users-management.md#functional-administrators) e para fazer parte da **[!UICONTROL All]** [unidade organizacional](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
 
 ### Verificar os logs do delivery {#checking-logs}
 

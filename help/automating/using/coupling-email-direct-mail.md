@@ -1,6 +1,6 @@
 ---
 title: Junção de entregas de email e de correspondência direta
-description: Esse caso de uso apresenta um exemplo de envio de email e mala direta a partir de um workflow.
+description: Este caso de uso apresenta um exemplo de envio de email e correspondência direta de um fluxo de trabalho.
 audience: channels
 content-type: reference
 topic-tags: direct-mail
@@ -32,5 +32,5 @@ Este é um exemplo de fluxo de trabalho que mescla canais de email e correspond�
 
 **Tópicos relacionados:**
 
-* [Atividade de delivery de correspondência direta](../../automating/using/direct-mail-delivery.md)
+* [Atividade de entrega por correspondência direta](../../automating/using/direct-mail-delivery.md)
 * [Sobre correspondência direta](../../channels/using/about-direct-mail.md)

@@ -1,6 +1,6 @@
 ---
 title: Personalização de mensagens do Campaign com dados de Ponto de interesse
-description: Saiba como criar uma mensagem personalizada com base na localização dos assinantes com a integração de dados do Ponto de interesse.
+description: Saiba como criar uma mensagem personalizada com base na localização dos assinantes com a integração de dados de Ponto de interesse.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
@@ -17,26 +17,26 @@ ht-degree: 10%
 
 # Personalização de mensagens do Campaign com dados de Ponto de interesse{#personalizing-campaign-messages-with-point-of-interest-data}
 
-No Adobe Campaign, você pode usar os dados de Pontos de interesse coletados dos assinantes do aplicativo móvel para enviar mensagens de marketing personalizadas a eles, como um email.
+No Adobe Campaign, você pode usar os dados de Pontos de interesse coletados dos assinantes do aplicativo móvel para enviar a eles mensagens de marketing personalizadas, como um email.
 
-Você só pode reagir em dados de Ponto de interesse com deliveries padrão. [Mensagens transacionais](../../channels/using/getting-started-with-transactional-msg.md) O não pode usar dados de localização.
+Você só pode reagir em dados de Ponto de interesse com deliveries padrão. [Mensagens transacionais](../../channels/using/getting-started-with-transactional-msg.md) não é possível usar os dados de localização.
 
-O mais antigo que você pode reagir é cerca de 10 minutos.
+O mais cedo que você pode reagir é em torno de 10 minutos.
 
-Nesse caso, você decide enviar um email para todos os assinantes que visitaram sua loja de Boston nas últimas duas semanas.
+Nesse caso, você decide enviar um email para todos os assinantes que visitaram sua loja em Boston nas últimas duas semanas.
 
 1. Crie uma atividade de marketing por email.
-1. Ao definir o público do delivery, arraste e solte a variável **[!UICONTROL Subscriptions to an application]** no espaço de trabalho.
+1. Ao definir o público-alvo do delivery, arraste e solte a **[!UICONTROL Subscriptions to an application]** elemento no espaço de trabalho.
 
    ![](assets/poi_subscriptions_app.png)
 
-   O gerenciamento de públicos-alvo é detalhado na seção [Definição de públicos-alvo](../../audiences/using/creating-audiences.md) seção.
+   O gerenciamento de públicos-alvo é detalhado na [Definição de públicos](../../audiences/using/creating-audiences.md) seção.
 
-1. No **[!UICONTROL Add a rule - Profile/Subscriptions to an application]** , arraste e solte a **[!UICONTROL POI Location Subscription]** no espaço de trabalho.
+1. No **[!UICONTROL Add a rule - Profile/Subscriptions to an application]** arraste e solte a janela **[!UICONTROL POI Location Subscription]** elemento no espaço de trabalho.
 
    ![](assets/poi_add_rule_profile_subscription.png)
 
-1. No **[!UICONTROL Add a rule - POI Location Subscription]** , insira o rótulo do Ponto de interesse que deseja usar.
+1. No **[!UICONTROL Add a rule - POI Location Subscription]** insira o rótulo do Ponto de interesse que deseja usar.
 
    ![](assets/poi_location_subscription.png)
 
@@ -47,17 +47,17 @@ Nesse caso, você decide enviar um email para todos os assinantes que visitaram 
 
    ![](assets/poi_subscriptions_app_audience_defined.png)
 
-1. Adicione conteúdo ao seu email.
+1. Adicione conteúdo ao email.
 
    ![](assets/poi_email_content.png)
 
-1. Confirme a criação da atividade para exibir o painel do email.
+1. Confirme a criação da atividade para visualizar o painel do email.
 1. Envie sua mensagem.
 
-O email com a oferta de desconto de 10% será enviado para assinantes que:
+O email com a oferta de desconto de 10% será enviado aos assinantes que:
 
 * Visitou sua loja de Boston pelo menos uma vez nas últimas duas semanas.
-* Teve seu aplicativo móvel em primeiro plano pelo menos uma vez durante a visita.
+* Seu aplicativo móvel ficou em primeiro plano pelo menos uma vez durante a visita.
 
 **Tópicos relacionados:**
 

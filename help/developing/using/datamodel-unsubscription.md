@@ -1,6 +1,6 @@
 ---
-title: Evento de cancelamento de assinatura do DataModel
-description: Saiba mais sobre o datamodel
+title: Evento de Cancelamento de Assinatura de Modelo de Dados
+description: Saiba mais sobre o modelo de dados
 audience: developing
 content-type: reference
 feature: Data Model
@@ -14,7 +14,7 @@ ht-degree: 60%
 
 ---
 
-# Evento de cancelamento de assinatura (nms:rtEvent)
+# Evento de cancelamento de subscrição (nms:rtEvent)
 
 ## Descrição do objeto
 
@@ -65,7 +65,7 @@ ht-degree: 60%
 
 ## Filtros
 
-porEmail
+byEmail
 
 <table>
     <tr>

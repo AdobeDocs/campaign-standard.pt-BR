@@ -1,6 +1,6 @@
 ---
-title: Visitante do DataModel
-description: Saiba mais sobre o datamodel
+title: Visitante do modelo de dados
+description: Saiba mais sobre o modelo de dados
 audience: developing
 content-type: reference
 feature: Data Model
@@ -27,14 +27,14 @@ ht-degree: 45%
     </tr>
     <tr>
         <td>PKey</td>
-        <td>ID de recurso principal</td>
+        <td>ID do recurso principal</td>
         <td>sequência de caracteres </td>
         <td> </td>
     </tr>
     <tr>
         <td>comentário</td>
         <td>Comentário do referenciador</td>
-        <td>string (255)</td>
+        <td>sequência de caracteres (255)</td>
         <td> </td>
     </tr>
     <tr>
@@ -57,38 +57,38 @@ ht-degree: 45%
     </tr>
     <tr>
         <td>deliveryId</td>
-        <td>ID da última delivery</td>
+        <td>ID da última entrega</td>
         <td>inteiro </td>
         <td> </td>
     </tr>
     <tr>
         <td>desc</td>
         <td>Descrição</td>
-        <td>string (512)</td>
+        <td>sequência de caracteres (512)</td>
         <td> </td>
     </tr>
     <tr>
         <td>email</td>
         <td>Email</td>
-        <td>string (128)</td>
+        <td>sequência de caracteres (128)</td>
         <td> </td>
     </tr>
     <tr>
         <td>externalId</td>
         <td>ID externa</td>
-        <td>string (64)</td>
+        <td>sequência de caracteres (64)</td>
         <td> </td>
     </tr>
     <tr>
         <td>firstName</td>
         <td>Nome</td>
-        <td>string (30)</td>
+        <td>sequência de caracteres (30)</td>
         <td> </td>
     </tr>
     <tr>
         <td>forwardUrl</td>
         <td>URL de encaminhamento</td>
-        <td>string (255)</td>
+        <td>sequência de caracteres (255)</td>
         <td> </td>
     </tr>
     <tr>
@@ -106,12 +106,12 @@ ht-degree: 45%
     <tr>
         <td>lastName</td>
         <td>Sobrenome</td>
-        <td>string (50)</td>
+        <td>sequência de caracteres (50)</td>
         <td> </td>
     </tr>
     <tr>
         <td>modifiedBy (userBase)</td>
-        <td>Modificação por</td>
+        <td>Modificado por</td>
         <td>Link  </td>
         <td> </td>
     </tr>
@@ -147,25 +147,25 @@ ht-degree: 45%
     <tr>
         <td>referrerEmail</td>
         <td>Email do referenciador</td>
-        <td>string (128)</td>
+        <td>sequência de caracteres (128)</td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerFirstName</td>
         <td>Nome do referenciador</td>
-        <td>string (30)</td>
+        <td>sequência de caracteres (30)</td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerId</td>
-        <td>ID de referenciador</td>
+        <td>ID do referenciador</td>
         <td>inteiro </td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerLastName</td>
         <td>Sobrenome do referenciador</td>
-        <td>string (50)</td>
+        <td>sequência de caracteres (50)</td>
         <td> </td>
     </tr>
     <tr>
@@ -177,14 +177,14 @@ ht-degree: 45%
     <tr>
         <td>título</td>
         <td>Rótulo</td>
-        <td>string (255)</td>
+        <td>sequência de caracteres (255)</td>
         <td> </td>
     </tr>
 </table>
 
 ## Filtros
 
-Por sobrenome, nome ou email (porText)</p>
+Por sobrenome, nome ou email (byText)</p>
 
 <table>
         <tr>

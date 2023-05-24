@@ -1,6 +1,6 @@
 ---
-title: Logs de rastreamento do DataModel
-description: Saiba mais sobre o datamodel
+title: Logs de rastreamento do modelo de dados
+description: Saiba mais sobre o modelo de dados
 audience: developing
 content-type: reference
 feature: Data Model
@@ -27,7 +27,7 @@ ht-degree: 33%
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>ID de recurso principal</td>
+                  <td>ID do recurso principal</td>
                   <td>sequência de caracteres </td>
                   <td> </td>
                </tr>
@@ -45,7 +45,7 @@ ht-degree: 33%
                </tr>
                <tr>
                   <td>pointerTo</td>
-                  <td>PointerTo</td>
+                  <td>PonteiroPara</td>
                   <td>sequência de caracteres </td>
                   <td> </td>
                </tr>

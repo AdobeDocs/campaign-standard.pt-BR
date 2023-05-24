@@ -20,12 +20,12 @@ ht-degree: 100%
 
 ## Sobre planos, programas e campanhas {#about-plans--programs-and-campaigns}
 
-Com o Adobe Campaign é possível planejar campanhas de marketing nas quais você pode criar e gerenciar diferentes tipos de atividades: emails, mensagens SMS, notificações por push, fluxos de trabalho, páginas de aterrissagem. Essas campanhas e seus conteúdos podem ser coletados em programas.
+Com o Adobe Campaign é possível planejar campanhas de marketing nas quais você pode criar e gerenciar diferentes tipos de atividades: emails, mensagens SMS, notificações por push, fluxos de trabalho, landing pages. Essas campanhas e seus conteúdos podem ser coletados em programas.
 
 Com programas e campanhas é possível reagrupar e exibir as diferentes atividades de marketing vinculadas a elas.
 
-* Um **programa** pode conter outros programas, assim como campanhas, fluxos de trabalho e páginas de aterrissagem. Ele aparece na linha do tempo e ajuda na organização de suas atividades de marketing: você pode separá-los por país, por marca, por unidade etc.
-* Uma **campanha** possibilita coletar todas as atividades de marketing de sua escolha em uma única entidade. Uma campanha pode conter emails, SMS, notificações por push, malas diretas, fluxos de trabalho e páginas de aterrissagem.
+* Um **programa** pode conter outros programas, assim como campanhas, fluxos de trabalho e landing pages. Ele aparece na linha do tempo e ajuda na organização de suas atividades de marketing: você pode separá-los por país, por marca, por unidade etc.
+* Uma **campanha** possibilita coletar todas as atividades de marketing de sua escolha em uma única entidade. Uma campanha pode conter emails, SMS, notificações por push, malas diretas, fluxos de trabalho e landing pages.
 
 Para organizar melhor seus planos de marketing, a Adobe recomenda a seguinte hierarquia: Programa > Subprogramas > Campanhas > Workflows > Deliveries.
 
@@ -38,7 +38,7 @@ Com os relatórios sobre programas e campanhas é possível analisar o impacto d
 
 ## Criação de um programa {#creating-a-program}
 
-O programa é o primeiro nível de organização. Ele pode conter subprogramas, campanhas, fluxos de trabalhos ou páginas de aterrissagem.
+O programa é o primeiro nível de organização. Ele pode conter subprogramas, campanhas, fluxos de trabalhos ou landing pages.
 
 1. Na página inicial do Adobe Campaign, selecione o cartão **[!UICONTROL Programs & Campaigns]**.
 1. Clique no botão **[!UICONTROL Create]**.
@@ -58,7 +58,7 @@ O programa é o primeiro nível de organização. Ele pode conter subprogramas, 
 
 1. Clique em **[!UICONTROL Create]** para confirmar a criação do programa.
 
-O programa é criado e exibido. Use o botão **[!UICONTROL Create]** para adicionar subprogramas, campanhas, fluxos de trabalho ou páginas de aterrissagem.
+O programa é criado e exibido. Use o botão **[!UICONTROL Create]** para adicionar subprogramas, campanhas, fluxos de trabalho ou landing pages.
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ O programa é criado e exibido. Use o botão **[!UICONTROL Create]** para adicio
 
 ## Criação de uma campanha {#creating-a-campaign}
 
-Em programas e subprogramas, é possível adicionar campanhas. As campanhas podem conter atividades de marketing, como emails, SMS, notificações por push, fluxos de trabalho e páginas de aterrissagem.
+Em programas e subprogramas, é possível adicionar campanhas. As campanhas podem conter atividades de marketing, como emails, SMS, notificações por push, fluxos de trabalho e landing pages.
 
 1. Na página inicial do Adobe Campaign, selecione o cartão **[!UICONTROL Programs & Campaigns]** e acesse um programa ou subprograma.
 1. Clique no botão **[!UICONTROL Create]** e selecione **[!UICONTROL Campaign]**.

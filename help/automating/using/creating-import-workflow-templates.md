@@ -1,6 +1,6 @@
 ---
 title: Criação de modelos de fluxo de trabalho para importar dados
-description: Saiba como criar modelos de fluxo de trabalho para importar dados.
+description: Saiba como criar modelos de workflow para importar dados.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -28,7 +28,7 @@ Esse exemplo mostra como predefinir um workflow que pode ser reutilizado para im
 
       >[!NOTE]
       >
-      >Você só pode importar dados de um único arquivo. Se o fluxo de trabalho tiver vários **[!UICONTROL Load file]** , o mesmo arquivo será usado sempre.
+      >Só é possível importar dados de um único arquivo. Se o fluxo de trabalho tiver vários **[!UICONTROL Load file]** atividades, o mesmo arquivo será usado sempre.
 
    * **[!UICONTROL Reconciliation]**: reconcilie os dados importados com os dados do banco de dados.
    * **[!UICONTROL Segmentation]**: crie filtros para processar registros de forma diferente, sejam eles reconciliados ou não.
@@ -39,7 +39,7 @@ Esse exemplo mostra como predefinir um workflow que pode ser reutilizado para im
 
 1. Configure a atividade **[!UICONTROL Load file]**:
 
-   * Defina a estrutura esperada carregando um arquivo de amostra. O arquivo de amostra deve conter apenas algumas linhas, mas todas as colunas necessárias para a importação. Verifique e edite o formato de arquivo para verificar se o tipo de cada coluna está definido corretamente: texto, data, inteiro, etc. Por exemplo:
+   * Definir a estrutura esperada fazendo upload de um arquivo de amostra. O arquivo de amostra deve conter apenas algumas linhas, mas todas as colunas necessárias para a importação. Verifique e edite o formato de arquivo para verificar se o tipo de cada coluna está definido corretamente: texto, data, inteiro, etc. Por exemplo:
 
       ```
       lastname;firstname;birthdate;email;crmID
@@ -50,13 +50,13 @@ Esse exemplo mostra como predefinir um workflow que pode ser reutilizado para im
 
       Você pode usar qualquer uma das opções, mas precisa modificar o template adequadamente. Por exemplo, se você selecionar **[!UICONTROL Use the file specified in the inbound transition]**, será possível adicionar uma atividade **[!UICONTROL Transfer file]** antes de recuperar o arquivo para importar de um servidor FTP/SFTP.
 
-      Se quiser que os usuários possam baixar um arquivo contendo erros que ocorreram durante uma importação, verifique a **[!UICONTROL Keep the rejects in a file]** e especifique a **[!UICONTROL File name]**.
+      Se quiser que os usuários baixem um arquivo contendo erros que ocorreram durante uma importação, marque a caixa de seleção **[!UICONTROL Keep the rejects in a file]** e especifique a **[!UICONTROL File name]**.
 
       ![](assets/import_template_example1.png)
 
 1. Configure a atividade **[!UICONTROL Reconciliation]**. A finalidade dessa atividade nesse contexto é identificar os dados de entrada.
 
-   * No **[!UICONTROL Relations]** guia , selecione **[!UICONTROL Create element]** e defina um vínculo entre os dados importados e o targeting dimension do recipient (consulte [Targeting dimensions e recursos](../../automating/using/query.md#targeting-dimensions-and-resources)). Neste exemplo, o campo personalizado **ID do CRM** é usado para criar a condição de associação. Use o campo ou uma combinação de campos que você precisa, desde que isso permita identificar registros únicos.
+   * No **[!UICONTROL Relations]** selecione **[!UICONTROL Create element]** e definir um vínculo entre os dados importados e o targeting dimension do recipient (consulte [Dimensões e recursos de direcionamento](../../automating/using/query.md#targeting-dimensions-and-resources)). Neste exemplo, o campo personalizado **ID do CRM** é usado para criar a condição de associação. Use o campo ou uma combinação de campos que você precisa, desde que isso permita identificar registros únicos.
    * Na guia **[!UICONTROL Identification]**, deixe a opção **[!UICONTROL Identify the document from the working data]** desmarcada.
 
    ![](assets/import_template_example2.png)
@@ -67,13 +67,13 @@ Esse exemplo mostra como predefinir um workflow que pode ser reutilizado para im
 
    Os recipients que não podem ser reconciliados e não têm dados suficientes estão selecionados em uma transição de saída de complemento e podem ser exportados em um arquivo separado ou simplesmente ignorado.
 
-   * No **[!UICONTROL General]** da atividade, defina a variável **[!UICONTROL Resource type]** para **[!UICONTROL Temporary resource]** e selecione **[!UICONTROL Reconciliation]** como o conjunto direcionado.
-   * No **[!UICONTROL Advanced options]** marque a guia . **[!UICONTROL Generate complement]** opção para ver se algum registro não pode ser inserido no banco de dados. Se for necessário, você pode aplicar processamento adicional aos dados complementares: exportação de arquivos, atualização de lista etc.
-   * No primeiro segmento do **[!UICONTROL Segments]** , adicione uma condição de filtragem no público de entrada para selecionar apenas registros para os quais a ID do CRM do perfil não for igual a 0. Dessa forma, os dados do arquivo reconciliado com perfis do banco de dados são selecionados nesse subconjunto.
+   * No **[!UICONTROL General]** da atividade, defina o **[!UICONTROL Resource type]** para **[!UICONTROL Temporary resource]** e selecione **[!UICONTROL Reconciliation]** como o conjunto de target.
+   * No **[!UICONTROL Advanced options]** , marque a **[!UICONTROL Generate complement]** opção para ver se algum registro não pode ser inserido no banco de dados. Se for necessário, você pode aplicar processamento adicional aos dados complementares: exportação de arquivos, atualização de lista etc.
+   * No primeiro segmento do **[!UICONTROL Segments]** adicione uma condição de filtragem no público de entrada para selecionar apenas registros para os quais a ID do CRM do perfil não for igual a 0. Dessa forma, os dados do arquivo reconciliado com perfis do banco de dados são selecionados nesse subconjunto.
 
       ![](assets/import_template_example3.png)
 
-   * Adicione um segundo segmento que seleciona registros não reconciliados que tenham dados suficientes para serem inseridos no banco de dados. Por exemplo: endereço de email, nome e sobrenome. Os registros que não são reconciliados têm o valor da ID de CRM do perfil igual a 0.
+   * Adicione um segundo segmento que seleciona registros não reconciliados que tenham dados suficientes para serem inseridos no banco de dados. Por exemplo: endereço de email, nome e sobrenome. Os registros não reconciliados têm o valor da ID do CRM do perfil igual a 0.
 
       ![](assets/import_template_example3_2.png)
 
@@ -82,21 +82,21 @@ Esse exemplo mostra como predefinir um workflow que pode ser reutilizado para im
 1. Configure a atividade **[!UICONTROL Update data]** localizada após a primeira transição de saída da atividade **[!UICONTROL Segmentation]** configurada anteriormente.
 
    * Selecione **[!UICONTROL Update]** como **[!UICONTROL Operation type]** desde que a transição de entrada contenha apenas os recipients já presentes no banco de dados.
-   * No **[!UICONTROL Identification]** guia , selecione **[!UICONTROL Using reconciliation criteria]** e defina uma chave entre as **[!UICONTROL Dimension to update]** - Perfis neste caso - e o link criado no **[!UICONTROL Reconciliation]** atividade . Neste exemplo, o campo personalizado **ID do CRM** é usado.
+   * No **[!UICONTROL Identification]** selecione **[!UICONTROL Using reconciliation criteria]** e defina uma chave entre a variável **[!UICONTROL Dimension to update]** - Perfis neste caso - e o link criado no **[!UICONTROL Reconciliation]** atividade. Neste exemplo, o campo personalizado **ID do CRM** é usado.
 
       ![](assets/import_template_example6.png)
 
-   * No **[!UICONTROL Fields to update]** , indique os campos da dimensão Perfis a serem atualizados com o valor da coluna correspondente no arquivo. Se os nomes das colunas de arquivo forem idênticos ou quase idênticos aos dos campos de dimensão dos recipients, você poderá usar o botão de varinha mágica para combinar os diferentes campos automaticamente.
+   * No **[!UICONTROL Fields to update]** indique os campos da dimensão Profiles a serem atualizados com o valor da coluna correspondente no arquivo. Se os nomes das colunas de arquivo forem idênticos ou quase idênticos aos dos campos de dimensão dos recipients, você poderá usar o botão de varinha mágica para combinar os diferentes campos automaticamente.
 
       ![](assets/import_template_example6_2.png)
 
       >[!NOTE]
       >
-      >Se você planeja enviar malas diretas para esses perfis, certifique-se de incluir um endereço postal, pois essas informações são essenciais para o provedor de correspondência direta. Certifique-se também de que a variável **[!UICONTROL Address specified]** nas informações dos perfis, está marcada. Para atualizar essa opção de um workflow, basta adicionar um elemento aos campos a serem atualizados e especificar **1** as **[!UICONTROL Source]** e selecione o `postalAddress/@addrDefined` campo como **[!UICONTROL Destination]**. Para obter mais informações sobre correspondência direta e o uso da variável **[!UICONTROL Address specified]** consulte [este documento](../../channels/using/about-direct-mail.md#recommendations).
+      >Se você planeja enviar correspondência direta para esses perfis, inclua um endereço postal, pois essas informações são essenciais para o provedor de correspondência direta. Verifique também se o plug-in **[!UICONTROL Address specified]** nas informações dos perfis está marcada. Para atualizar essa opção de um workflow, basta adicionar um elemento aos campos que serão atualizados e especificar **1** as **[!UICONTROL Source]** e selecione o `postalAddress/@addrDefined` campo como **[!UICONTROL Destination]**. Para obter mais informações sobre correspondência direta e o uso da **[!UICONTROL Address specified]** , consulte [este documento](../../channels/using/about-direct-mail.md#recommendations).
 
 1. Configure o **[!UICONTROL Deduplication]** atividade localizada após a transição que contém perfis não reconciliados:
 
-   * No **[!UICONTROL Properties]** , defina a variável **[!UICONTROL Resource type]** para o recurso temporário gerado a partir do **[!UICONTROL Reconciliation]** atividade do workflow.
+   * No **[!UICONTROL Properties]** , defina o **[!UICONTROL Resource type]** para o recurso temporário gerado pelo **[!UICONTROL Reconciliation]** atividade do workflow.
 
       ![](assets/import_template_example4.png)
 
@@ -107,18 +107,18 @@ Esse exemplo mostra como predefinir um workflow que pode ser reutilizado para im
 
 1. Configure a atividade **[!UICONTROL Update data]**, localizada após a atividade **[!UICONTROL Deduplication]**, configurada anteriormente.
 
-   * Selecionar **[!UICONTROL Insert only]** as **[!UICONTROL Operation type]** desde que a transição de entrada contenha apenas perfis não presentes no banco de dados.
-   * No **[!UICONTROL Identification]** guia , selecione **[!UICONTROL Using reconciliation criteria]** e defina uma chave entre as **[!UICONTROL Dimension to update]** - Perfis neste caso - e o link criado no **[!UICONTROL Reconciliation]** atividade . Neste exemplo, o campo personalizado **ID do CRM** é usado.
+   * Selecionar **[!UICONTROL Insert only]** as **[!UICONTROL Operation type]** já que a transição de entrada contém apenas perfis não presentes no banco de dados.
+   * No **[!UICONTROL Identification]** selecione **[!UICONTROL Using reconciliation criteria]** e defina uma chave entre a variável **[!UICONTROL Dimension to update]** - Perfis neste caso - e o link criado no **[!UICONTROL Reconciliation]** atividade. Neste exemplo, o campo personalizado **ID do CRM** é usado.
 
       ![](assets/import_template_example6.png)
 
-   * No **[!UICONTROL Fields to update]** , indique os campos da dimensão Perfis a serem atualizados com o valor da coluna correspondente no arquivo. Se os nomes das colunas de arquivo forem idênticos ou quase idênticos aos dos campos de dimensão dos recipients, você poderá usar o botão de varinha mágica para combinar os diferentes campos automaticamente.
+   * No **[!UICONTROL Fields to update]** indique os campos da dimensão Profiles a serem atualizados com o valor da coluna correspondente no arquivo. Se os nomes das colunas de arquivo forem idênticos ou quase idênticos aos dos campos de dimensão dos recipients, você poderá usar o botão de varinha mágica para combinar os diferentes campos automaticamente.
 
       ![](assets/import_template_example6_2.png)
 
       >[!NOTE]
       >
-      >Se você planeja enviar malas diretas para esses perfis, certifique-se de incluir um endereço postal, pois essas informações são essenciais para o provedor de correspondência direta. Certifique-se também de que a variável **[!UICONTROL Address specified]** nas informações dos perfis, está marcada. Para atualizar essa opção de um workflow, basta adicionar um elemento aos campos a serem atualizados e especificar **1** as **[!UICONTROL Source]** e selecione o **[postalAddress/@addrDefined]** campo como **[!UICONTROL Destination]**. Para obter mais informações sobre correspondência direta e o uso da variável **[!UICONTROL Address specified]** consulte [este documento](../../channels/using/about-direct-mail.md#recommendations).
+      >Se você planeja enviar correspondência direta para esses perfis, inclua um endereço postal, pois essas informações são essenciais para o provedor de correspondência direta. Verifique também se o plug-in **[!UICONTROL Address specified]** nas informações dos perfis está marcada. Para atualizar essa opção de um workflow, basta adicionar um elemento aos campos que serão atualizados e especificar **1** as **[!UICONTROL Source]** e selecione o **[postalAddress/@addrDefined]** campo como **[!UICONTROL Destination]**. Para obter mais informações sobre correspondência direta e o uso da **[!UICONTROL Address specified]** , consulte [este documento](../../channels/using/about-direct-mail.md#recommendations).
 
 1. Após a terceira transição da atividade **[!UICONTROL Segmentation]**, adicione uma atividade **[!UICONTROL Extract file]** e uma atividade **[!UICONTROL Transfer file]** se desejar acompanhar os dados não inseridos no banco de dados. Configure essas atividades para exportar a coluna necessária e transferir o arquivo em um servidor FTP ou SFTP, onde você pode recuperá-la.
 1. Adicione uma atividade **[!UICONTROL End]** e salve o template do workflow.

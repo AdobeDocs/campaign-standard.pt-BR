@@ -17,21 +17,21 @@ ht-degree: 56%
 
 # Recursos preditivos de engajamento do usuário {#journey-ai}
 
-Com o Campaign, você pode otimizar o design e o delivery de jornadas de clientes para prever a preferência de engajamento de cada pessoa. Desenvolvido pela IA e pelo aprendizado de máquina, a Otimização de tempo de envio da Adobe Campaign e a Pontuação preditiva de engajamento podem analisar e prever taxas abertas, tempos de envio ideais e churn provável de acordo com as métricas históricas de engajamento.
+Com o Campaign, você pode otimizar o design e o delivery de jornadas de clientes para prever a preferência de engajamento de cada pessoa. Alimentada por IA e aprendizado de máquina, a Otimização de tempo de envio e a Pontuação preditiva de engajamento da Adobe Campaign podem analisar e prever taxas abertas, tempos de envio ideais e churn provável de acordo com métricas de engajamento histórico.
 
 >[!IMPORTANT]
 >
 >Esse recurso não está disponível para uso imediato como parte do produto. A implementação exige o engajamento da Adobe Consulting. Entre em contato com seu representante da Adobe para obter mais detalhes.
 
-A Adobe Campaign oferece dois novos modelos de aprendizado de máquina: **Otimização preditiva do tempo de envio** e **Pontuação preditiva de engajamento**. Esses dois modelos são modelos de aprendizado automatizado específicos para projetar e fornecer melhores jornadas para o cliente.
+A Adobe Campaign oferece dois novos modelos de aprendizado de máquina: **Otimização preditiva do tempo de envio** e **Pontuação preditiva de engajamento**. Esses dois modelos são modelos de aprendizado de máquina específicos para projetar e fornecer melhores jornadas ao cliente.
 
-* **Otimização preditiva do tempo de envio** O prevê qual é o melhor momento de envio para cada perfil de recipient para aberturas ou cliques de email e para aberturas de mensagem de push. As pontuações indicam o melhor horário de envio para cada dia da semana e qual o melhor dia para enviar a fim de obter melhores resultados para cada perfil de recipient.
+* **Otimização preditiva do tempo de envio** O prevê qual é o melhor momento de envio para cada perfil de recipient para aberturas ou cliques de email e aberturas de mensagem por push. As pontuações indicam o melhor horário de envio para cada dia da semana e qual o melhor dia para enviar a fim de obter melhores resultados para cada perfil de recipient.
 
-* **Pontuação preditiva de engajamento**: O prevê a probabilidade de engajamento de um recipient em uma mensagem, bem como a probabilidade de opt out (cancelamento de inscrição) nos próximos 7 dias após o próximo envio de email. As probabilidades são divididas em compartimentos de acordo com o nível previsto de engajamento com seu conteúdo: alto, médio ou baixo. Esses modelos também fornecem a classificação de percentual de risco de cancelamento de inscrição para que os clientes entendam onde a classificação de um determinado cliente está em relação a outros.
+* **Pontuação preditiva de engajamento**: prevê a probabilidade de engajamento de um recipient em uma mensagem, bem como a probabilidade de opt out (cancelamento de inscrição) nos próximos 7 dias após o próximo envio de email. As probabilidades são divididas em grupos de acordo com o nível previsto de engajamento com seu conteúdo: alto, médio ou baixo. Esses modelos também fornecem a classificação do percentil de risco de cancelamento de subscrição para que os clientes entendam onde está a classificação de um determinado cliente em relação a outros.
 
 ## Otimização preditiva do tempo de envio{#predictive-send-time}
 
-A Otimização preditiva de tempo de envio prevê qual é o melhor tempo de envio para cada perfil de destinatário para aberturas ou cliques de email e para aberturas de mensagem de push. As pontuações indicam o melhor horário de envio para cada dia da semana e qual o melhor dia para enviar a fim de obter melhores resultados para cada perfil de recipient.
+A Otimização preditiva de tempo de envio prevê qual é o melhor momento de envio para cada perfil de recipient para aberturas ou cliques de email e aberturas de mensagem por push. As pontuações indicam o melhor horário de envio para cada dia da semana e qual o melhor dia para enviar a fim de obter melhores resultados para cada perfil de recipient.
 
 No modelo de Otimização preditiva de tempo de envio, há dois submodelos:
 
@@ -45,7 +45,7 @@ No modelo de Otimização preditiva de tempo de envio, há dois submodelos:
 
 Detalhes da saída
 
-* Calcula o melhor horário do dia para enviar um email nos 7 dias da semana com intervalos de 1 hora (por exemplo: 09:00, 10:00, 11:00)
+* Calcula o melhor horário do dia para enviar um email nos 7 dias da semana com intervalos de 1 hora (por exemplo: 9h, 10h, 11h)
 * O modelo indicará o melhor dia da semana e o melhor horário do dia
 * Cada horário ideal é calculado duas vezes: uma vez para maximizar a taxa de abertura e outra para maximizar a taxa de cliques
 * São administrados 16 campos (14 para os dias da semana e 2 para a semana inteira):
@@ -64,7 +64,7 @@ Detalhes da saída
 >
 >O modelo precisa de pelo menos um mês de dados para produzir resultados significativos.
 >
->Esses recursos preditivos se aplicam apenas aos canais de email e push.
+>Esses recursos preditivos se aplicam somente aos canais de email e push.
 
 Depois de implementados no Campaign, os recursos de aprendizado de máquina enriquecem os dados dos perfis com novas guias e as melhores pontuações de abertura/clique. As métricas são calculadas e trazidas para o Campaign usando workflows técnicos.
 
@@ -103,14 +103,14 @@ AddHours([currentDelivery/scheduling/@contactDate],
 
 ## Pontuação de envolvimento preditivo {#predictive-scoring}
 
-A Pontuação preditiva de engajamento prevê a probabilidade de um recipient se envolver com uma mensagem, bem como a probabilidade de opt out (cancelamento de inscrição) nos próximos 7 dias após o próximo envio de email.
+A Pontuação preditiva de engajamento prevê a probabilidade de engajamento de um recipient em uma mensagem, bem como a probabilidade de opt out (cancelamento de inscrição) nos próximos 7 dias após o próximo envio de email.
 
-As probabilidades são divididas em compartimentos de acordo com o nível previsto de engajamento com seu conteúdo: alto, médio ou baixo. Esses modelos também fornecem a classificação de percentual de risco de cancelamento de inscrição para que os clientes entendam onde a classificação de um determinado cliente está em relação a outros.
+As probabilidades são divididas em grupos de acordo com o nível previsto de engajamento com seu conteúdo: alto, médio ou baixo. Esses modelos também fornecem a classificação do percentil de risco de cancelamento de subscrição para que os clientes entendam onde está a classificação de um determinado cliente em relação a outros.
 
 A Pontuação preditiva de engajamento permite:
 
-* **Selecionar um público-alvo**: ao usar a atividade de query, você pode selecionar o público-alvo para se engajar com uma mensagem específica
-* **Excluir um público**: ao usar a atividade de query, você pode remover o público-alvo com maior probabilidade de cancelar a assinatura
+* **Selecionar um público-alvo**: ao usar a atividade de query, você pode selecionar o público-alvo que vai se engajar com uma mensagem específica
+* **Excluir um público**: ao usar a atividade de query, você pode remover o público-alvo com maior probabilidade de cancelar a inscrição
 * **Personalizar**: personalizar mensagens com base no nível de engajamento (usuários altamente engajados receberão uma mensagem diferente daqueles não engajados)
 
 Este modelo usa várias pontuações para indicar:

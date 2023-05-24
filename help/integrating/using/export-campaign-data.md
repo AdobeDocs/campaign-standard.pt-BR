@@ -15,7 +15,7 @@ ht-degree: 72%
 
 # Exportar dados do Campaign para a Adobe Experience Platform {#sources}
 
-Para exportar dados do Campaign Standard para o Adobe Real-time Customer Data Platform (RTCDP), primeiro é necessário criar um workflow no Campaign Standard para exportar para seu local de armazenamento do Amazon Storage Service (S3) ou do Azure Blob os dados que você deseja compartilhar.
+Para exportar dados do Campaign Standard para o Adobe Real-time Customer Data Platform (RTCDP), primeiro é necessário criar um fluxo de trabalho no Campaign Standard para exportar para seu serviço de armazenamento do Amazon (S3) ou local de armazenamento do Azure Blob os dados que você deseja compartilhar.
 
 Depois que o fluxo de trabalho tiver sido configurado e os dados forem enviados para o local de armazenamento, será necessário conectar o local de armazenamento de blobs do S3 ou do Azure como uma **Origem** na Adobe Experience Platform.
 
@@ -23,13 +23,13 @@ Depois que o fluxo de trabalho tiver sido configurado e os dados forem enviados 
 >
 >Observe que é recomendável exportar apenas os dados gerados pelo Campaign (por exemplo, envios, aberturas, cliques etc.) para a Adobe Experience Platform. Os dados assimilados de uma fonte de terceiros (como seu CRM) devem ser importados diretamente para a Adobe Experience Platform.
 
-## Criar um workflow de exportação no Campaign Standard
+## Criar um fluxo de trabalho de exportação no Campaign Standard
 
-Para exportar dados do Campaign Standard para o local de armazenamento S3 ou Azure Blob, você precisa criar um workflow para direcionar os dados que deseja exportar e enviá-los para o local de armazenamento.
+Para exportar dados do Campaign Standard para o local de armazenamento de blobs do S3 ou do Azure Blob, é necessário criar um fluxo de trabalho para direcionar os dados que você deseja exportar e enviá-los para o local de armazenamento.
 
 Para fazer isso, adicione e configure:
 
-* A **[!UICONTROL Extract file]** para extrair os dados direcionados em um arquivo CSV. Para obter mais informações sobre como configurar esta atividade, consulte [esta seção](../../automating/using/extract-file.md).
+* A **[!UICONTROL Extract file]** atividade para extrair os dados direcionados em um arquivo CSV. Para obter mais informações sobre como configurar esta atividade, consulte [esta seção](../../automating/using/extract-file.md).
 
    ![](assets/rtcdp-extract-file.png)
 
@@ -41,7 +41,7 @@ Como exemplo, o fluxo de trabalho abaixo extrai logs regularmente em um arquivo 
 
 ![](assets/aep-export.png)
 
-Exemplos de workflows de gestão de dados estão disponíveis na variável [casos de uso de fluxos de trabalho](../../automating/using/about-workflow-use-cases.md#management) seção.
+Exemplos de workflows de gerenciamento de dados estão disponíveis no [casos de uso de workflows](../../automating/using/about-workflow-use-cases.md#management) seção.
 
 Tópicos relacionados:
 
@@ -51,7 +51,7 @@ Tópicos relacionados:
 
 ## Conectar seu local de armazenamento como uma Origem
 
-As principais etapas para conectar seu local de armazenamento do Serviço de Armazenamento da Amazon (S3) ou do Azure Blob como um **Origem** na Adobe experience Platform estão listadas abaixo. Informações detalhadas sobre cada uma dessas etapas estão disponíveis na [Documentação dos conectores de origem](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR).
+As principais etapas para conectar seu Serviço de Armazenamento do Amazon (S3) ou local de armazenamento de blobs do Azure como um **Origem** na Adobe experience Platform estão listadas abaixo. Informações detalhadas sobre cada uma dessas etapas estão disponíveis na [Documentação dos conectores de origem](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR).
 
 1. No menu **[!UICONTROL Sources]** da Adobe Experience Platform, crie uma conexão com o local de armazenamento:
 

@@ -1,6 +1,6 @@
 ---
-title: Membro de origem do DataModel
-description: Saiba mais sobre o datamodel
+title: Membro de seed do modelo de dados
+description: Saiba mais sobre o modelo de dados
 audience: developing
 content-type: reference
 feature: Data Model
@@ -14,7 +14,7 @@ ht-degree: 50%
 
 ---
 
-# Membro de Sementes (nms:seedMember)
+# Seed Member (nms:seedMember)
 
 ## Descrição do objeto
 
@@ -27,7 +27,7 @@ ht-degree: 50%
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>ID de recurso principal</td>
+                  <td>ID do recurso principal</td>
                   <td>sequência de caracteres </td>
                   <td> </td>
                </tr>
@@ -52,13 +52,13 @@ ht-degree: 50%
                <tr>
                   <td>desc</td>
                   <td>Descrição</td>
-                  <td>string (512)</td>
+                  <td>sequência de caracteres (512)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>email</td>
                   <td>Email</td>
-                  <td>string (128)</td>
+                  <td>sequência de caracteres (128)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -70,7 +70,7 @@ ht-degree: 50%
                <tr>
                   <td>fax</td>
                   <td>Fax</td>
-                  <td>string (32)</td>
+                  <td>sequência de caracteres (32)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -99,8 +99,8 @@ ht-degree: 50%
                </tr>
                <tr>
                   <td>marketingCloudId</td>
-                  <td>ID do Marketing Cloud</td>
-                  <td>string (256)</td>
+                  <td>ID DO MARKETING CLOUD</td>
+                  <td>sequência de caracteres (256)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -112,19 +112,19 @@ ht-degree: 50%
                <tr>
                   <td>mobilePhone</td>
                   <td>Celular</td>
-                  <td>string (32)</td>
+                  <td>sequência de caracteres (32)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
-                  <td>Modificação por</td>
+                  <td>Modificado por</td>
                   <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>name</td>
                   <td>ID</td>
-                  <td>string (64)</td>
+                  <td>sequência de caracteres (64)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -148,7 +148,7 @@ ht-degree: 50%
                <tr>
                   <td>phone</td>
                   <td>Telefone</td>
-                  <td>string (32)</td>
+                  <td>sequência de caracteres (32)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -160,13 +160,13 @@ ht-degree: 50%
                <tr>
                   <td>pushNotification</td>
                   <td>Notificações por push</td>
-                  <td>string (255)</td>
+                  <td>sequência de caracteres (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>registrationToken</td>
                   <td>Token de registro</td>
-                  <td>string (256)</td>
+                  <td>sequência de caracteres (256)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -178,7 +178,7 @@ ht-degree: 50%
                <tr>
                   <td>sms</td>
                   <td>Celular</td>
-                  <td>string (255)</td>
+                  <td>sequência de caracteres (255)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -196,18 +196,18 @@ ht-degree: 50%
                <tr>
                   <td>miniatura</td>
                   <td>Miniatura</td>
-                  <td>string (255)</td>
+                  <td>sequência de caracteres (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>título</td>
                   <td>Perfil de teste
 </td>
-                  <td>string (255)</td>
+                  <td>sequência de caracteres (255)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>armadilha</td>
+                  <td>trapping</td>
                   <td>Interceptação</td>
                   <td>booleano </td>
                   <td> </td>
@@ -250,7 +250,7 @@ Por uso (byUsage)
         <th>Tipo</th>
         </tr>
         <tr>
-        <td>armadilha</td>
+        <td>trapping</td>
         <td>booleano</td>
         </tr>
         <tr>

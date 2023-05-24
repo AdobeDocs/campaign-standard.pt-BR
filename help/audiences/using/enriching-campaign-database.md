@@ -17,48 +17,48 @@ ht-degree: 3%
 
 # Enriquecimento do banco de dados{#enriching-the-database}
 
-O Campaign Standard oferece várias ferramentas para ajudá-lo a expandir seu banco de dados de marketing. Esta seção detalha os diferentes métodos que podem ser usados para inserir dados no Campaign, com referências às documentações dedicadas.
+O Campaign Standard oferece várias ferramentas para ajudar você a aumentar seu banco de dados de marketing. Esta seção detalha os diferentes métodos que podem ser usados para inserir dados no Campaign, com referências às documentações dedicadas.
 
 ## Importação de dados por meio de workflows {#importing-data-through-workflows}
 
 Os workflows permitem coletar dados e importá-los para o banco de dados do Campaign por meio do uso de [[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md) atividades.
 
-Informações genéricas e práticas recomendadas ao importar dados por meio de workflows são apresentadas em [esta seção](../../automating/using/about-data-import-and-export.md).
+As informações genéricas e as práticas recomendadas ao importar dados por meio de workflows são apresentadas em [nesta seção](../../automating/using/about-data-import-and-export.md).
 
-Além disso, é possível configurar modelos para importar dados. O uso de templates de importação é uma prática recomendada se você precisar importar arquivos com a mesma estrutura regularmente.
+Além disso, você pode configurar modelos para importar dados. Usar modelos de importação é uma prática recomendada se você precisar importar arquivos com a mesma estrutura regularmente.
 
-Você pode configurar dois tipos de templates:
+Você pode configurar dois tipos de modelos:
 
-* **Templates de workflow**: são workflows pré-configurados que podem ser configurados uma vez de acordo com suas necessidades e reutilizados sempre que quiser importar dados e atualizar o banco de dados.
+* **Modelos de fluxo de trabalho**: são workflows pré-configurados que podem ser configurados uma vez de acordo com suas necessidades e reutilizados sempre que você quiser importar dados e atualizar o banco de dados.
 
-   Um exemplo de template de workflow para importar dados é detalhado em [esta seção](../../automating/using/creating-import-workflow-templates.md).
+   Um exemplo de template de workflow para importar dados é detalhado em [nesta seção](../../automating/using/creating-import-workflow-templates.md).
 
-* **Importar modelos de dados**: como modelos de workflow, esses são modelos baseados em workflows, que são configurados para carregar arquivos para atualizar o banco de dados. Depois de configurados, eles são disponibilizados para usuários com uma visualização simplificada na **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** menu.
+* **Importar modelos de dados**: assim como templates de workflow, esses são templates baseados em workflows, que são configurados para carregar arquivos para atualizar o banco de dados. Depois de configurados, eles são disponibilizados para usuários com uma visualização simplificada na **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** menu.
 
-   Para obter mais informações sobre importação de templates de dados, consulte [documentação dedicada](../../automating/using/importing-data-with-import-templates.md).
+   Para obter mais informações sobre importação de modelos de dados, consulte a [documentação dedicada](../../automating/using/importing-data-with-import-templates.md).
 
 ## Coleta de dados de landing pages {#collecting-data-from-landing-pages}
 
-As landing pages são formulários web que podem ser usados para coletar dados e criar ou atualizar informações existentes no banco de dados.
+Páginas de aterrissagem são formulários web que podem ser usados para coletar dados e criar ou atualizar informações existentes no banco de dados.
 
 O princípio é o seguinte:
 
-* Crie e projete sua landing page adicionando campos de entrada para coletar dados (nome, sobrenome, email, etc.).
+* Crie e projete a landing page adicionando campos de entrada para coletar dados (nome, sobrenome, email etc.).
 * Mapeie cada campo de entrada com o campo correspondente do banco de dados.
-* Disponibilizar a landing page online através de um site ou por meio de um link direto em uma mensagem.
+* Disponibilizar a landing page online em um site ou por meio de um link direto em uma mensagem.
 
-Para obter mais informações sobre landing pages, consulte o [documentação dedicada](../../channels/using/getting-started-with-landing-pages.md).
+Para obter mais informações sobre landing pages, consulte [documentação dedicada](../../channels/using/getting-started-with-landing-pages.md).
 
-## Sincronizar perfis do Microsoft Dynamics 365
+## Sincronização de perfis do Microsoft Dynamics 365
 
 A integração do Campaign Standard com o Microsoft Dynamics 365 permite transmitir dados de contato do Microsoft Dynamics 365 para o banco de dados do Campaign.
-Esses contatos ficam visíveis na lista Perfis e podem ser direcionados para campanhas de marketing.
+Esses contatos ficam visíveis na Lista de perfis e podem ser direcionados em campanhas de marketing.
 
-Para obter mais informações sobre essa integração, consulte [documentação dedicada](../../integrating/using/d365-acs-get-started.md).
+Para obter mais informações sobre essa integração, consulte o [documentação dedicada](../../integrating/using/d365-acs-get-started.md).
 
 >[!NOTE]
 >
->Observe que o conector Campaign Standard-Microsoft Dynamics 365 está atualmente com Disponibilidade Limitada e está sujeito a várias limitações, detalhadas na documentação.
+>Observe que o conector do Campaign Standard-Microsoft Dynamics 365 está atualmente com a Disponibilidade limitada e está sujeito a várias limitações, detalhadas na documentação.
 
 ## Importação de dados por meio de chamadas de API
 
@@ -68,4 +68,4 @@ Para obter mais informações sobre como usar as APIs, consulte [documentação 
 
 >[!IMPORTANT]
 >
->Antes de executar a criação em massa de perfis ou a atualização por meio de chamadas de API, verifique as limitações de escala correspondentes ao seu contrato de licença. Para obter mais informações, consulte [esta página](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+>Antes de executar a criação em massa ou atualização de perfis por meio de chamadas de API, verifique as limitações de escala correspondentes ao seu contrato de licença. Para obter mais informações, consulte [esta página](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).

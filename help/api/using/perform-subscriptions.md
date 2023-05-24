@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Execução de assinaturas com APIs{#performing-subscriptions}
+# Realização de assinaturas com APIs{#performing-subscriptions}
 
-## Método 1: Assinatura de um perfil para um serviço
+## Método 1: subscrição de um perfil a um serviço
 
-Execute uma solicitação do GET para recuperar o perfil.
+Execute uma solicitação GET para recuperar o perfil.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -26,7 +26,7 @@ Execute uma solicitação do GET para recuperar o perfil.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Retorna o URL de assinaturas do perfil.
+Ele retorna o URL de assinaturas do perfil.
 
 ```
   {
@@ -40,7 +40,7 @@ Retorna o URL de assinaturas do perfil.
   }
 ```
 
-Execute uma solicitação de POST no URL de assinaturas com o serviço desejado Chave primária dentro da carga útil.
+Execute uma solicitação POST no URL de assinaturas com a chave primária de serviço desejada dentro da carga.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -52,7 +52,7 @@ Execute uma solicitação de POST no URL de assinaturas com o serviço desejado 
 -d '{"service":{"PKey":"<PKEY>"}}'
 ```
 
-Ele retorna o perfil atualizado com o nó de serviço concluído.
+Retorna o perfil atualizado com o nó de serviço concluído.
 
 ```
 {
@@ -67,7 +67,7 @@ Ele retorna o perfil atualizado com o nó de serviço concluído.
 }
 ```
 
-## Método 2: Adicionar um perfil aos assinantes de um serviço
+## Método 2: adicionar um perfil aos assinantes de um serviço
 
 Execute uma solicitação GET para recuperar o serviço.
 
@@ -79,7 +79,7 @@ Execute uma solicitação GET para recuperar o serviço.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Retorna o URL de subscrições do serviço.
+Ele retorna o URL de subscrições do serviço.
 
 ```
   {
@@ -93,7 +93,7 @@ Retorna o URL de subscrições do serviço.
   },
 ```
 
-Faça uma solicitação de POST no URL de assinaturas com o perfil desejado Chave primária dentro do payload.
+Faça uma solicitação POST no URL de assinaturas com a chave primária de perfil desejada dentro da carga.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign//profileAndServices/service/<PKEY>/subscriptions/ \
@@ -105,7 +105,7 @@ Faça uma solicitação de POST no URL de assinaturas com o perfil desejado Chav
 -d '{"subscriber":{"PKey":"<PKEY>"}}'
 ```
 
-Retorna o serviço atualizado com o nó assinantes concluído.
+Retorna o serviço atualizado com o nó de assinantes concluído.
 
 ```
 {

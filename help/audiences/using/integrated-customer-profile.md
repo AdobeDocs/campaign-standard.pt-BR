@@ -33,9 +33,9 @@ Para acessar o perfil do cliente integrado, siga estas etapas:
 
    >[!NOTE]
    >
-   >Observe que as pesquisas podem ser executadas com base nos campos de email, nome e sobrenome, bem como nos campos personalizados que foram adicionados ao estender o recurso.
+   >Observe que as pesquisas podem ser executadas com base nos campos de email, nome e sobrenome, bem como em campos personalizados que foram adicionados ao estender o recurso.
    >
-   >As pesquisas fazem distinção entre maiúsculas e minúsculas e são executadas somente em prefixos. Por exemplo, você não poderá procurar um perfil usando as últimas letras do sobrenome.
+   >As pesquisas diferenciam maiúsculas de minúsculas e são executadas somente em prefixos. Por exemplo, você não poderá procurar um perfil usando as últimas letras do nome.
 
 1. Selecione um contato para abrir seu perfil.
 
@@ -45,7 +45,7 @@ Em seguida, você pode acessar o **Histórico de marketing** desse contato.
 
 As informações principais sobre o perfil estão agrupadas nesta página, bem como a lista de eventos.
 
-Clique em um evento na lista para abri-lo: é possível acessar as mensagens enviadas ou os serviços aos quais o perfil se inscreveu.
+Clique em um evento na lista para abri-lo: você pode acessar as mensagens que foram enviadas ou os serviços aos quais o perfil se inscreveu.
 
 ![](assets/mkt_hist_view.png)
 

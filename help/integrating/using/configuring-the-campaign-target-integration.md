@@ -19,19 +19,19 @@ ht-degree: 18%
 
 A integração entre o Adobe Campaign e o Adobe Target permite inserir conteúdo dinâmico no seu delivery.
 
-Primeiro, uma configuração é necessária no Adobe Campaign para usar as funcionalidades de integração com o Adobe Target e deve ser gerenciada pelo administrador funcional.
+Uma configuração é necessária primeiro no Adobe Campaign para usar as funcionalidades de integração com o Adobe Target e deve ser gerenciada pelo administrador funcional.
 
-Os seguintes elementos são necessários para este procedimento:
+Os seguintes elementos são necessários para esse procedimento:
 
 * Um locatário do Adobe Experience Cloud
 * Um locatário do Adobe Target
 * Um rawbox do Adobe Target especificado para estabelecer a conexão com o Adobe Campaign
 
-1. No menu avançado, selecione pelo logotipo do Adobe Campaign no canto superior esquerdo. **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
-1. Para configurar as opções do servidor e do locatário para o Adobe Target, preencha os seguintes campos de acordo:
+1. No menu avançado, selecione por meio do logotipo do Adobe Campaign no canto superior esquerdo **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
+1. Para configurar as opções de servidor e locatário do Adobe Target, preencha os seguintes campos adequadamente:
 
    * **[!UICONTROL TNT_TenantName]**: nome do locatário do Adobe Target. Esse valor corresponde ao nome do **[!UICONTROL Client]** do Adobe Target.
-   * **[!UICONTROL TNT_EdgeServer]**: Servidor Adobe Target usado para integração. Essa opção já é fornecida por padrão. Esse valor corresponde à Adobe Target **[!UICONTROL Server Domain]**, seguido pelo **/m2** valor. Por exemplo: **tt.omtrdc.net/m2**.
+   * **[!UICONTROL TNT_EdgeServer]**: servidor Adobe Target usado para integração. Essa opção já é fornecida por padrão. Esse valor corresponde à variável Adobe Target **[!UICONTROL Server Domain]**, seguido pelo **/m2** valor. Por exemplo: **tt.omtrdc.net/m2**.
 
    ![](assets/tar_options.png)
 

@@ -19,19 +19,19 @@ ht-degree: 1%
 
 Por padrão, 25 recursos são carregados em uma lista.
 
-O **_lineCount** permite limitar o número de recursos listados na resposta.  Em seguida, você pode usar o **next** para exibir os próximos resultados.
+A variável **_lineCount** permite limitar o número de recursos listados na resposta.  Em seguida, você pode usar o **próximo** para exibir os próximos resultados.
 
 >[!NOTE]
 >
->Sempre use o valor do URL retornado no **next** para executar uma solicitação de paginação.
+>Sempre use o valor do URL retornado na variável **próximo** nó para executar uma solicitação de paginação.
 >
->O **_lineStart** A solicitação é calculada e deve sempre ser usada dentro do URL retornado no **next** nó .
+>A variável **_lineStart** é calculada e sempre deve ser usada no URL retornado na variável **próximo** nó.
 
 <br/>
 
-***Solicitação de exemplo***
+***Exemplo de solicitação***
 
-Solicitação de exemplo do GET para exibir 1 registro do recurso de perfil.
+Exemplo de solicitação de GET para exibir 1 registro do recurso de perfil.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
@@ -41,7 +41,7 @@ Solicitação de exemplo do GET para exibir 1 registro do recurso de perfil.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Resposta à solicitação, com o **next** nó para executar a paginação.
+Resposta à solicitação, com a **próximo** nó para executar a paginação.
 
 ```
 {
@@ -62,7 +62,7 @@ Resposta à solicitação, com o **next** nó para executar a paginação.
 }
 ```
 
-Por padrão, a variável **next** não está disponível ao interagir com tabelas com uma grande quantidade de dados. Para executar a paginação, você deve adicionar a variável **_forcePagination=true** para o URL da sua chamada.
+Por padrão, a variável **próximo** O nó não está disponível ao interagir com tabelas com uma grande quantidade de dados. Para executar a paginação, é necessário adicionar o **_forcePagination=true** para o URL da chamada.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
@@ -74,4 +74,4 @@ Por padrão, a variável **next** não está disponível ao interagir com tabela
 
 >[!NOTE]
 >
->O número de registros acima dos quais uma tabela é considerada grande é definido em Campaign Standard **XtkBigTableThreshold** opção. O valor padrão é 100.000 registros.
+>O número de registros acima do qual uma tabela é considerada grande é definido em Campaign Standard **LimiteTabelaGrandeXtk** opção. O valor padrão é 100.000 registros.

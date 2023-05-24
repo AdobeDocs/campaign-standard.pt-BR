@@ -19,19 +19,19 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->O [Serviço principal de privacidade](https://developer.adobe.com/experience-platform-apis/references/privacy-service) A integração é o método que você deve usar para todas as solicitações de acesso e exclusão. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
+>A variável [Serviço principal de privacidade](https://developer.adobe.com/experience-platform-apis/references/privacy-service) A integração é o método que deve ser usado para todas as solicitações de acesso e exclusão. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
 Para recuperar o arquivo que contém todas as informações associadas a um valor de reconciliação, siga este procedimento de três etapas:
 
-1. Executar um **POST** solicitação para criar uma nova solicitação com o atributo **type=&quot;access&quot;**, consulte [Criação de uma nova solicitação de acesso a dados pessoais](../../api/using/creating-a-privacy-request.md).
+1. Execute um **POST** solicitação para criar uma nova solicitação com o atributo **type=&quot;access&quot;**, consulte [Criação de uma nova solicitação de privacidade](../../api/using/creating-a-privacy-request.md).
 
-1. Executar um **GET** para recuperar informações sobre a solicitação.
+1. Execute um **GET** solicitação para recuperar informações sobre a solicitação.
 
-1. Recupere o arquivo de dados executando uma **POST** solicitação no retorno **privacyRequestData** URL, com o nome interno da solicitação de privacidade dentro da carga. Por exemplo: {&quot;name&quot;:&quot;PT17&quot;}.
+1. Recupere o arquivo de dados executando uma **POST** na solicitação retornada **privacyRequestData** URL, com o nome interno da solicitação de privacidade dentro da carga. Por exemplo: {&quot;name&quot;:&quot;PT17&quot;}.
 
 <br/>
 
-***Solicitação de exemplo***
+***Exemplo de solicitação***
 
 Crie uma solicitação de privacidade com o atributo type=&quot;access&quot;.
 
@@ -64,7 +64,7 @@ Execute uma solicitação GET para recuperar informações sobre a solicitação
 -H 'Content-Type: application/json;charset=utf-8'
 ```
 
-Retorna o atributo privacyRequestData com um URL associado.
+Ele retorna o atributo privacyRequestData com um URL associado.
 
 ```
 {
@@ -96,7 +96,7 @@ Execute uma solicitação POST no URL privacyRequestData, com o nome interno da 
 -d '{"name": "PR1"}'
 ```
 
-Retorna o conteúdo do arquivo.
+Ele retorna o conteúdo do arquivo.
 
 ```
 "{data:<gdprRequestData _cs=\" ()\" id=\"8565163\" reconciliationValue=\"'customer@adobe.com'\">\n  <table name=\"nms:recipient\">\n    <rowId='8569152'\n\t\tlastName='customer'\n\t\tfirstName='customer'\n\t\tgender='1'\n\t\temail='customer@adobe.com'\n\t\tcreatedBy-id='8565162'\n\t\tmodifiedBy-id='8565162'\n\t\tlastModified='2018-03-15 13:54:28.708Z'\n\t\tcreated='2018-03-15 13:54:28.708Z'\n\t\tthumbnail='/nl/img/thumbnails/defaultProfil.png'\n\t\temailFormat='2'</row>\n  </table>\n  <table name=\"nms:broadLogRcp\">\n    <row>deliveryLabel='Send via email'\n\t\tdeliveryType='0'\n\t\tcontactDate='2018-03-15 13:58:31.667Z'\n\t\tid='8003'\n\t\taddress='customer@adobe.com'\n\t\tstatus='1'\n\t\tmsg-id='1194'\n\t\teventDate='2018-03-15 13:58:34.726Z'\n\t\tlastModified='2018-03-15 13:59:02.008Z'\n\t\tvariant='default'\n\t\tdelivery-id='8569153'\n\t\tpublicId='1'\n\t\tprofile-id='8569152'</row>\n  </table>\n  <table name=\"nms:trackingLogRcp\">\n    <row>deliveryLabel='Send via email'\n\t\tdeliveryType='0'\n\t\tcontactDate='2018-03-15 13:58:31.667Z'\n\t\turlLabel='Open'\n\t\turlSource=''\n\t\tuserAgent='-1178080215'\n\t\ttrackedDevice='pc'\n\t\tid='5000'\n\t\tlogDate='2018-03-15 14:00:51.650Z'\n\t\tsourceType='html'\n\t\tuserAgent='-1178080215'\n\t\turl-id='1'\n\t\tdelivery-id='8569153'\n\t\tbroadLog-id='8003'\n\t\trecipient-id='8569152'</row>\n    <row>deliveryLabel='Send via email'\n\t\tdeliveryType='0'\n\t\tcontactDate='2018-03-15 13:58:31.667Z'\n\t\turlLabel='Open'\n\t\turlSource=''\n\t\tuserAgent='0'\n\t\ttrackedDevice=''\n\t\tid='6000'\n\t\tlogDate='2018-03-15 16:00:41.110Z'\n\t\tsourceType='html'\n\t\turl-id='1'\n\t\tdelivery-id='8569153'\n\t\tbroadLog-id='8003'\n\t\trecipient-id='8569152'</row>\n  </table>\n</gdprRequestData>}"

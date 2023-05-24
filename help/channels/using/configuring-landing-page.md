@@ -16,7 +16,7 @@ ht-degree: 97%
 
 ---
 
-# Configuração de uma página de aterrissagem {#configuring-landing-page}
+# Configuração de uma landing page {#configuring-landing-page}
 
 ## Confirmar o envio de uma landing page {#confirm-a-landing-page-submission}
 
@@ -69,7 +69,7 @@ No caso de visitantes identificados, você pode pré-carregar os dados deles na 
 
    ![](assets/lp_parameters_3_temp.png)
 
-Você também pode autorizar qualquer visitante a acessar a landing page, usando a variável **[!UICONTROL Authorize unidentified visitors]** opção.
+Você também pode autorizar qualquer visitante a acessar a landing page, usando o **[!UICONTROL Authorize unidentified visitors]** opção.
 
 <!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 

@@ -20,11 +20,11 @@ ht-degree: 74%
 
 Quando a variável [mensagem transacional](../../channels/using/editing-transactional-message.md) estiver pronto para ser enviado, poderá ser publicado.
 
-As etapas para publicar, pausar, cancelar a publicação e excluir uma mensagem transacional estão detalhadas abaixo.
+As etapas para publicar, pausar, cancelar a publicação e excluir uma mensagem transacional são detalhadas abaixo.
 
 >[!IMPORTANT]
 >
->Somente usuários com a variável [Administração](../../administration/using/users-management.md#functional-administrators) pode acessar e publicar mensagens transacionais.
+>Somente usuários com o [Administração](../../administration/using/users-management.md#functional-administrators) A função pode acessar e publicar mensagens transacionais.
 
 ## Processo de publicação de mensagens transacionais {#transactional-messaging-pub-process}
 
@@ -34,9 +34,9 @@ O gráfico abaixo ilustra o processo geral de publicação de mensagens transaci
 
 **Tópicos relacionados:**
 * [Publicação de mensagem transacional](#publishing-a-transactional-message)
-* [Pausando uma mensagem transacional](#suspending-a-transactional-message-publication)
+* [Pausa de uma mensagem transacional](#suspending-a-transactional-message-publication)
 * [Cancelamento de publicação de uma mensagem transacional](#unpublishing-a-transactional-message)
-* [Publicar um evento](../../channels/using/publishing-transactional-event.md)
+* [Publicação de um evento](../../channels/using/publishing-transactional-event.md)
 
 <!--## Testing a transactional message {#testing-a-transactional-message}
 
@@ -88,7 +88,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 ## Publicação de mensagem transacional {#publishing-a-transactional-message}
 
-Depois de editar e testar sua mensagem transacional, você pode publicá-la. Basta clicar no botão **[!UICONTROL Publish]** botão.
+Depois de editar e testar a mensagem transacional, você pode publicá-la. Basta clicar no link **[!UICONTROL Publish]** botão.
 
 ![](assets/message-center_12.png)
 
@@ -101,13 +101,13 @@ Para acessar os relatórios referentes à sua mensagem transacional, use o botã
 **Tópicos relacionados**:
 * [Edição de uma mensagem transacional](../../channels/using/editing-transactional-message.md)
 * [Teste de mensagem transacional](../../channels/using/testing-transactional-message.md)
-* [Integrar o acionamento do evento](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
+* [Integrar o acionamento de eventos](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
 ## Suspensão de publicação de mensagem transacional {#suspending-a-transactional-message-publication}
 
 Você pode suspender a publicação da mensagem transacional usando o botão **[!UICONTROL Pause]**, por exemplo, para modificar os dados contidos na mensagem. Portanto, os eventos não são mais processados, mas mantidos em fila no banco de dados do Adobe Campaign.
 
-Os eventos em fila são mantidos durante um período definido na API REST (consulte [Documentação da API REST](../../api/using/managing-transactional-messages.md)) ou no evento de acionador, se você estiver usando o serviço principal Triggers (consulte [Sobre o Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+Os eventos em fila são mantidos durante um período definido na API REST (consulte a [Documentação da API REST](../../api/using/managing-transactional-messages.md)) ou no evento Acionadores, se você estiver usando o serviço principal Acionadores (consulte [Sobre o Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
@@ -123,7 +123,7 @@ Agora, mesmo que o evento seja acionado pelo seu site, as mensagens corresponden
 
 >[!NOTE]
 >
->Para publicar a mensagem novamente, você precisa voltar para a configuração de evento correspondente, [publicar o evento](../../channels/using/publishing-transactional-event.md)e depois [publicar a mensagem](#publishing-a-transactional-message).
+>Para publicar a mensagem novamente, volte para a configuração do evento correspondente, [publicar o evento](../../channels/using/publishing-transactional-event.md)e depois [publicar a mensagem](#publishing-a-transactional-message).
 
 Se você cancelar a publicação de uma mensagem transacional pausada, talvez precise aguardar até 24 horas para poder publicá-la novamente. Isso permite que o fluxo de trabalho da **[!UICONTROL Database cleanup]** limpe todos os eventos enviados para a fila.
 
@@ -135,7 +135,7 @@ O fluxo de trabalho da **[!UICONTROL Database cleanup]**, que é executado todos
 
 Depois de cancelada a publicação de uma mensagem transacional, ou se uma mensagem transacional ainda não tiver sido publicada, você poderá excluí-la da lista de mensagens transacionais. Para fazer isso:
 
-1. Clique no botão **Adobe** logotipo , no canto superior esquerdo, em seguida, selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+1. Clique em **Adobe** no canto superior esquerdo e selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 1. Passe o mouse sobre a mensagem de sua escolha.
 1. Clique no botão **[!UICONTROL Delete element]**.
 

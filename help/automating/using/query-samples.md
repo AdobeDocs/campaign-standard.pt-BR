@@ -1,6 +1,6 @@
 ---
 title: Amostras de consulta
-description: Esta seção apresenta um caso de uso ao usar uma atividade Query .
+description: Esta seção apresenta o caso de uso ao usar uma atividade de Query.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -18,7 +18,7 @@ ht-degree: 90%
 
 # Amostras de consulta {#query-samples}
 
-Esta seção apresenta casos de uso ao usar um **[!UICONTROL Query]** atividade . Para obter mais informações sobre como usar um **[!UICONTROL Query]** atividade , consulte [esta seção](../../automating/using/query.md).
+Esta seção apresenta o caso de uso ao usar um **[!UICONTROL Query]** atividade. Para obter mais informações sobre como usar uma **[!UICONTROL Query]** atividade, consulte [nesta seção](../../automating/using/query.md).
 
 ## Direcionamento em atributos simples de perfil {#targeting-on-simple-profile-attributes}
 

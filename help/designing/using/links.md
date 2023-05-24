@@ -11,7 +11,7 @@ exl-id: d1714101-bad0-40c1-8d60-90469d033197
 source-git-commit: 146dfea38bd456a5d9200b0632d4aa279b10a7b9
 workflow-type: tm+mt
 source-wordcount: '592'
-ht-degree: 10%
+ht-degree: 15%
 
 ---
 
@@ -35,37 +35,37 @@ Você pode inserir um link em qualquer elemento de página: imagem, palavra, gru
 
    * **Link externo**: insira um link para um URL externo.
 
-      Você pode definir a personalização para seus URLs. Consulte [Personalização de URLs](personalization.md#personalizing-urls).
+      Você pode definir a personalização de seus URLs. Consulte [Personalização de URLs](personalization.md#personalizing-urls).
 
-   * **Página de aterrissagem**: dê acesso a uma página de aterrissagem do Adobe Campaign.
-   * **Link de assinatura**: insira um link para assinar um serviço Adobe Campaign.
-   * **Link de cancelamento de assinatura**: insira um link para cancelar a assinatura de um serviço do Adobe Campaign.
-   * **Link que define uma ação**: defina uma ação quando um elemento na landing page for clicado.
+   * **Landing page**: conceda acesso a uma landing page do Adobe Campaign.
+   * **Link de assinatura**: insira um link para assinar um serviço do Adobe Campaign.
+   * **Link de cancelamento de subscrição**: insira um link para cancelar a assinatura de um serviço do Adobe Campaign.
+   * **Link que define uma ação**: define uma ação quando um elemento na página de aterrissagem é clicado.
 
       >[!NOTE]
       >
       >Esse tipo de link só está disponível para landing pages.
 
-1. Você pode modificar o texto exibido ao recipient.
+1. Você pode modificar o texto exibido para o recipient.
 1. Você pode definir o comportamento do navegador quando o usuário clicar no link (por exemplo, abrir uma nova janela).
 
    >[!NOTE]
    >
-   >A definição do comportamento do navegador se aplica somente às páginas de aterrissagem.
+   >A definição do comportamento do navegador se aplica somente às landing pages.
 
 1. Salve as alterações.
 
-Depois que o link for criado, você ainda poderá modificá-lo no painel Configurações . Clique no ícone de lápis para editar seus parâmetros.
+Depois que o link for criado, você ainda poderá modificá-lo no painel Configurações. Clique no ícone de lápis para editar seus parâmetros.
 
 ![](assets/des_link_edit.png)
 
-Ao editar um email com a [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), é possível acessar e modificar facilmente os links criados na tabela, listando todos os URLs incluídos no email. Essa lista permite que você tenha uma visualização centralizada e localize cada URL no conteúdo do email. Para acessá-lo, consulte [Sobre URLs rastreados](#about-tracked-urls).
+Ao editar um email com a [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), você pode acessar e modificar facilmente os links criados na tabela que lista todos os URLs incluídos no email. Essa lista oferece uma visualização centralizada, permitindo localizar cada URL no conteúdo do email. Para acessá-lo, consulte [Sobre URLs rastreados](#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 
 >[!NOTE]
 >
->URLs personalizados, como **Mirror page URL** ou **Unsubscription** link não pode ser modificado desta lista. Todos os outros links são editáveis.
+>URLs personalizados, como **URL da mirror page** ou **Cancelar assinatura** o link não pode ser modificado nesta lista. Todos os outros links são editáveis.
 
 **Tópicos relacionados**:
 
@@ -75,17 +75,17 @@ Ao editar um email com a [Email Designer](../../designing/using/designing-conten
 
 ## Sobre URLs rastreados {#about-tracked-urls}
 
-O Adobe Campaign permite rastrear o comportamento dos recipients ao clicar em um URL incluído em um email. Para obter mais informações sobre rastreamento, consulte [esta seção](../../sending/using/tracking-messages.md#about-tracking).
+O Adobe Campaign permite rastrear o comportamento dos recipients quando clicam em um URL incluído em um email. Para obter mais informações sobre rastreamento, consulte [esta seção](../../sending/using/tracking-messages.md#about-tracking).
 
-O **[!UICONTROL Links]** na barra de ações exibe automaticamente a lista de todos os URLs do seu conteúdo que serão rastreados.
+A variável **[!UICONTROL Links]** O ícone na barra de ações exibe automaticamente a lista de todos os URLs do seu conteúdo que serão rastreados.
 
 ![](assets/des_links.png)
 
 >[!NOTE]
 >
->O rastreamento é ativado por padrão. Essa funcionalidade só estará disponível para emails, se o rastreamento tiver sido ativado no Adobe Campaign. Para obter mais informações sobre os parâmetros de rastreamento, consulte [esta seção](../../administration/using/configuring-email-channel.md#tracking-parameters).
+>O rastreamento é ativado por padrão. Essa funcionalidade só estará disponível para emails se o rastreamento tiver sido ativado no Adobe Campaign. Para obter mais informações sobre os parâmetros de rastreamento, consulte [nesta seção](../../administration/using/configuring-email-channel.md#tracking-parameters).
 
-O URL, a categoria, o rótulo e o tipo de rastreamento de cada link podem ser modificados na lista. Para editar um link, clique no ícone de lápis correspondente.
+O URL, a categoria, o rótulo e o tipo de rastreamento de cada link podem ser modificados nesta lista. Para editar um link, clique no ícone de lápis correspondente.
 
 ![](assets/des_links_tracking.png)
 
@@ -102,14 +102,14 @@ Você também pode desativar ou ativar o rastreamento para cada URL.
 
 >[!NOTE]
 >
->Por padrão, no Adobe Campaign, todos os URLs de conteúdo são rastreados, exceto **Mirror page URL** e **Unsubscription** link .
+>Por padrão, no Adobe Campaign, todos os URLs de conteúdo são rastreados, exceto **URL da mirror page** e **Cancelar assinatura** link.
 
-Você pode agrupar seus URLs editando o **[!UICONTROL Category]** , dependendo dos URLs usados na mensagem. Essas categorias podem ser relatórios, como em [Fluxos de clique e URLs](../../reporting/using/urls-and-click-streams.md).
+Você pode reagrupar seus URLs editando o **[!UICONTROL Category]** dependendo dos URLs usados na mensagem. Essas categorias podem ser relatórios, como em [Fluxos de clique e URLs](../../reporting/using/urls-and-click-streams.md).
 
 ![](assets/des_link_tracking_category.png)
 
-Ao criar um relatório, no **[!UICONTROL Components]** guia , selecione **[!UICONTROL Dimension]** e role para baixo na lista para acessar os componentes de rastreamento. Por exemplo, arrastar e soltar **[!UICONTROL Tracking URL Category]** no espaço de trabalho para exibir resultados de acordo com a categoria de rastreamento de cada URL clicado.
+Ao criar um relatório, no **[!UICONTROL Components]** selecione **[!UICONTROL Dimension]** e role para baixo na lista para acessar os componentes de rastreamento. Por exemplo, arrastar e soltar **[!UICONTROL Tracking URL Category]** no espaço de trabalho para exibir resultados de acordo com a categoria de rastreamento de cada URL clicado.
 
 ![](assets/des_link_tracking_report.png)
 
-Para obter mais informações sobre criação de relatórios personalizados, consulte [esta seção](../../reporting/using/about-dynamic-reports.md).
+Para obter mais informações sobre criação de relatórios personalizados, consulte [nesta seção](../../reporting/using/about-dynamic-reports.md).

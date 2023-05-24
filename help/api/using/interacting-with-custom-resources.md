@@ -17,14 +17,14 @@ ht-degree: 4%
 
 # Interação com recursos personalizados {#interacting-with-custom-resources}
 
-O **/customResources** O endpoint permite expor os recursos personalizados do Campaign no REST. Com base nessa API, uma integração entre entidades personalizadas e endpoints externos está disponível.
+A variável **/customResources** O endpoint permite expor os recursos personalizados do Campaign em REST. Com base nessa API, uma integração entre entidades personalizadas e endpoints externos está disponível.
 
-O endpoint /customResources tem exatamente o mesmo comportamento do endpoint /profileAndServices.
+O ponto de extremidade /customResources tem exatamente o mesmo comportamento que o ponto de extremidade /profileAndServices.
 
-Os recursos personalizados expostos dentro dessa API são:
+Os recursos personalizados expostos nessa API são:
 
 * todas as entidades que não estão expostas em /profileAndServicesExt
-* todas as entidades não vinculadas ao perfil e, para essas entidades, seus filhos e netos.
+* todas as entidades que não estão vinculadas ao perfil e, para essas entidades, seus filhos e netos.
 * por padrão, todas as entidades que não estão vinculadas a nada, e seus filhos e netos.
 
 >[!NOTE]
@@ -37,12 +37,12 @@ Este é um exemplo para recuperar os metadados de um recurso personalizado:
 GET /customResources/resourceType/<customResourceName>
 ```
 
-Para executar uma criação, atualização ou exclusão, são usados o GET, o POST, o DELETE.
+Para criar, atualizar ou excluir um, o GET, POST, PATCH, DELETE são usados.
 
 ```
 POST /customResources/<customResourceName>
 ```
 
 >[!NOTE]
->O endpoint da API de privacidade e os workflows (/privacy/privacyTool) não estão gerenciando os recursos personalizados que não estão vinculados à entidade de perfil.
->Você terá a responsabilidade de gerenciar e limpar qualquer PII para esses recursos personalizados. Para obter mais informações sobre a ferramenta de privacidade, [clique aqui](../../api/using/creating-a-privacy-request.md).
+>O ponto de extremidade da API de privacidade e os fluxos de trabalho (/privacy/privacyTool) não estão gerenciando os recursos personalizados que não estão vinculados à entidade do perfil.
+>Você terá a responsabilidade de gerenciar e limpar qualquer PII desses recursos personalizados. Para obter mais informações sobre a ferramenta de privacidade, [clique aqui](../../api/using/creating-a-privacy-request.md).

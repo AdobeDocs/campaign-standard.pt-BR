@@ -1,6 +1,6 @@
 ---
-title: Campanha do DataModel
-description: Saiba mais sobre o datamodel
+title: Campanha do modelo de dados
+description: Saiba mais sobre o modelo de dados
 audience: developing
 content-type: reference
 feature: Data Model
@@ -10,11 +10,11 @@ exl-id: a63fe730-a6b2-4ae0-93da-9f8ee7824c9f
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 38%
+ht-degree: 39%
 
 ---
 
-# Campanha (nms:campaign)
+# Campaign (nms:campaign)
 
 ## Descrição do objeto
 
@@ -27,7 +27,7 @@ ht-degree: 38%
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>ID de recurso principal</td>
+                  <td>ID do recurso principal</td>
                   <td>sequência de caracteres </td>
                   <td> </td>
                </tr>
@@ -38,7 +38,7 @@ ht-degree: 38%
                   <td> </td>
                </tr>
                <tr>
-                  <td>build</td>
+                  <td>builtIn</td>
                   <td>Objeto de aplicativo integrado</td>
                   <td>booleano </td>
                   <td> </td>
@@ -58,17 +58,17 @@ ht-degree: 38%
                <tr>
                   <td>desc</td>
                   <td>Descrição</td>
-                  <td>string (512)</td>
+                  <td>sequência de caracteres (512)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>duration</td>
+                  <td>duração</td>
                   <td>Duração da campanha</td>
                   <td>número </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>end</td>
+                  <td>fim</td>
                   <td>Data final</td>
                   <td>date </td>
                   <td> </td>
@@ -94,7 +94,7 @@ ht-degree: 38%
                <tr>
                   <td>label</td>
                   <td>Rótulo</td>
-                  <td>string (128)</td>
+                  <td>sequência de caracteres (128)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -106,7 +106,7 @@ ht-degree: 38%
                <tr>
                   <td>logicalStatus</td>
                   <td>Status da execução</td>
-                  <td>enumeration (string) (255)</td>
+                  <td>enumeração (cadeia de caracteres) (255)</td>
                   <td>
                      <ul>
                         <li>Em andamento - iniciado - iniciado</li>
@@ -120,14 +120,14 @@ ht-degree: 38%
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
-                  <td>Modificação por</td>
+                  <td>Modificado por</td>
                   <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>name</td>
                   <td>ID</td>
-                  <td>string (64)</td>
+                  <td>sequência de caracteres (64)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -137,7 +137,7 @@ ht-degree: 38%
                   <td> </td>
                </tr>
                <tr>
-                  <td>program (programBase)</td>
+                  <td>programa (programBase)</td>
                   <td>Programa</td>
                   <td>Link  </td>
                   <td> </td>
@@ -168,21 +168,21 @@ ht-degree: 38%
                   </td>
                </tr>
                <tr>
-                  <td>template (campaign)</td>
-                  <td>Modelo de campanha</td>
+                  <td>template (campanha)</td>
+                  <td>Template de campanha</td>
                   <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>miniatura</td>
                   <td>Miniatura</td>
-                  <td>string (255)</td>
+                  <td>sequência de caracteres (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>título</td>
                   <td>Campanha</td>
-                  <td>string (255)</td>
+                  <td>sequência de caracteres (255)</td>
                   <td> </td>
                </tr>
             </table>
@@ -215,7 +215,7 @@ Por nome ou rótulo (byText)
     </tr>
 </table>
 
-Por período (porPeríodo)
+Por período (byPeriod)
 
 <table>
     <tr>
@@ -232,7 +232,7 @@ Por período (porPeríodo)
     </tr>
 </table>
 
-Por status (porEstado)
+Por status (por estado)
 
 <table>
     <tr>
@@ -245,7 +245,7 @@ Por status (porEstado)
     </tr>
 </table>
 
-Incluir deliveries contínuos de uma lista heterogênea (com Contínuo)
+Incluir deliveries contínuos de uma lista heterogênea (com Continuous)
 
 <table>
     <tr>
@@ -258,7 +258,7 @@ Incluir deliveries contínuos de uma lista heterogênea (com Contínuo)
     </tr>
 </table>
 
-Planejado para o período especificado (byPlanning)
+Planejado para o período determinado (por Planejamento)
 
 <table>
     <tr>
@@ -275,7 +275,7 @@ Planejado para o período especificado (byPlanning)
     </tr>
 </table>
 
-Apresentar durante um determinado período (porCalendário)
+Presente durante determinado período (por calendário)
 
 <table>
     <tr>

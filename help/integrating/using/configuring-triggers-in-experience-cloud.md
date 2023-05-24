@@ -1,6 +1,6 @@
 ---
-title: Configuração de acionadores na Experience Cloud
-description: Saiba como configurar a integração do Adobe Experience Cloud Triggers para começar a enviar deliveries personalizados para seus clientes com base em seus comportamentos anteriores.
+title: Configuração do Triggers na Experience Cloud
+description: Saiba como configurar a integração do Adobe Experience Cloud Triggers para começar a enviar entregas personalizadas aos seus clientes com base em seus comportamentos anteriores.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
@@ -15,21 +15,21 @@ ht-degree: 7%
 
 ---
 
-# Configuração de acionadores na Experience Cloud{#configuring-triggers-in-experience-cloud}
+# Configuração do Triggers na Experience Cloud{#configuring-triggers-in-experience-cloud}
 
 ## Ativação da funcionalidade {#activating-the-functionality}
 
 A funcionalidade deve ser ativada no Adobe Campaign pelo Adobe. Entre em contato com o executivo da sua conta Adobe ou com o parceiro de serviços profissionais.
 
-A equipe do Adobe precisará das seguintes informações para ativar acionadores:
+A equipe do Adobe precisará das seguintes informações para ativar os acionadores:
 
 * Nome da empresa do Marketing Cloud
 * ID da organização
-* Empresa de logon do Analytics (pode ser igual ao Nome da empresa do Marketing Cloud)
+* Empresa de logon do Analytics (pode ser o mesmo que o Nome da empresa do Marketing Cloud)
 
 ## Configuração de soluções e serviços {#configuring-solutions-and-services}
 
-Para usar esse recurso, você precisa ter acesso às seguintes soluções/principais serviços:
+Para usar esse recurso, é necessário ter acesso às seguintes soluções/principais serviços:
 
 * Adobe Campaign
 * Adobe Analytics Select, Prime, Ultimate, Premium, Foundation, OD, Aplicativos para dispositivos móveis ou Standard.
@@ -51,64 +51,64 @@ Também é necessário ter um site de trabalho.
 
 >[!CAUTION]
 >
->A configuração de subdomínio é um elemento chave de deliverability. Certifique-se de que os emails do Adobe Campaign sejam enviados do mesmo domínio usado pelo site.
+>A configuração do subdomínio é um elemento principal da capacidade de entrega. Verifique se os emails do Adobe Campaign são enviados do mesmo domínio que o usado pelo site.
 
-Você precisa configurar [Serviço principal de DTM do Experience Cloud](#configuring-experience-cloud-dtm-core-service), [Serviço principal de pessoas do Experience Cloud](#configuring-experience-cloud-people-core-service) e [Campanha](#configuring-triggers-and-aliases-in-campaign) para executar esses casos de uso.
+Você precisa configurar [Serviço principal do Experience Cloud DTM](#configuring-experience-cloud-dtm-core-service), [Serviço principal de pessoas do Experience Cloud](#configuring-experience-cloud-people-core-service) e [Campaign](#configuring-triggers-and-aliases-in-campaign) para executar esses casos de uso.
 
 ### Configuração do serviço principal Experience Cloud DTM {#configuring-experience-cloud-dtm-core-service}
 
-1. No Experience Cloud DTM Core Service (Dynamic Tag Management), ative a Experience Cloud ID e o Adobe Analytics para as páginas do site.
+1. No Experience Cloud DTM Core Service (Dynamic Tag Management), ative o Experience Cloud ID e o Adobe Analytics para as páginas do seu site.
 
    ![](assets/trigger_uc_conf_1.png)
 
-1. A reconciliação de ID entre o site, o Adobe Analytics e o Adobe Campaign requer o uso de aliasing. Crie um alias, &quot;visitorid&quot; por exemplo.
+1. A reconciliação de ID entre o site, o Adobe Analytics e o Adobe Campaign exige o uso de alias. Crie um alias, &quot;visitorid&quot; por exemplo.
 
    ![](assets/trigger_uc_conf_2.png)
 
-### Configuração do serviço principal Experience Cloud People {#configuring-experience-cloud-people-core-service}
+### Configuração do Serviço Principal de Pessoas do Experience Cloud {#configuring-experience-cloud-people-core-service}
 
-O alias mencionado anteriormente no DTM precisa ser criado no Serviço principal de pessoas do Experience Cloud por meio de um Atributo do cliente. Crie um novo e faça referência ao mesmo alias do DTM no código de integração (por exemplo, &quot;visitorid&quot;).
+O alias anteriormente referenciado no DTM precisa ser criado no Experience Cloud People Core Service por meio de um atributo do cliente. Crie um novo e faça referência ao mesmo alias do DTM no código de integração (por exemplo, &quot;visitorid&quot;).
 
 ![](assets/trigger_uc_conf_3.png)
 
 >[!NOTE]
 >
->Usaremos esse Atributo do cliente na Fonte de dados no Adobe Campaign (próxima etapa).
+>Usaremos esse atributo do cliente na fonte de dados na Adobe Campaign (próxima etapa).
 
 ### Configuração de acionadores e aliases no Campaign {#configuring-triggers-and-aliases-in-campaign}
 
-1. Certifique-se de que **[!UICONTROL Experience Cloud triggers]** visível na sua instância do Adobe Campaign Standard. Caso contrário, entre em contato com os administradores do Adobe Campaign.
+1. Verifique se você tem **[!UICONTROL Experience Cloud triggers]** visível na sua instância do Adobe Campaign Standard. Caso não tenha, entre em contato com os administradores do Adobe Campaign.
 
    ![](assets/remarketing_1.png)
 
-1. Os alias permitem que um contato no Analytics seja reconciliado com um perfil no Campaign. Você precisa corresponder os aliases definidos no serviço Experience Cloud ID a uma Fonte de dados compartilhada no Campaign. Você precisa configurar a resolução de aliases no Adobe Campaign por meio de uma fonte de dados ( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** ). Certifique-se de escolher a fonte de dados correta no **[!UICONTROL Data Source/Alias]** menu suspenso, que é mapeado com a mesma fonte de dados do Atributo do cliente criada na etapa anterior.
+1. Os aliases permitem que um contato no Analytics seja reconciliado com um perfil no Campaign. É necessário corresponder os aliases definidos no serviço de ID de Experience Cloud a uma Fonte de dados compartilhada no Campaign. É necessário configurar a resolução de aliases no Adobe Campaign por meio de uma Fonte de dados ( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** ). Certifique-se de escolher a fonte de dados correta no **[!UICONTROL Data Source/Alias]** menu suspenso, que é mapeado com a mesma fonte de dados de Atributo do cliente criada na etapa anterior.
 
    ![](assets/trigger_uc_conf_5.png)
 
    >[!NOTE]
    >
-   >É possível reconciliar os acionadores para usuários anônimos e conectados. Para usuários anônimos, o perfil deve existir no Adobe Campaign e um email foi enviado ao usuário antes. Para isso, a configuração da ID de visitante é suficiente. No entanto, se quiser reconciliar acionadores para usuários conectados, é necessário configurar a Fonte de Dados de ID declarada. Para obter mais informações, consulte [Configuração da fonte de dados](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
+   >É possível reconciliar acionadores para usuários anônimos e conectados. Para usuários anônimos, o perfil deve existir no Adobe Campaign e um email foi enviado ao usuário antes. Para isso, a configuração da ID de visitante é suficiente. No entanto, se você quiser reconciliar acionadores para usuários conectados, será necessário configurar a Fonte de dados da ID declarada. Para obter mais informações, consulte [Configuração da fonte de dados](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
 
 ## Criação de um acionador na interface do Experience Cloud {#creating-a-trigger-in-the-experience-cloud-interface}
 
-Um acionador da Adobe Experience Cloud precisa ser criado para que você possa usá-lo no Campaign.
+Um acionador do Adobe Experience Cloud precisa ser criado para que você possa usá-lo no Campaign.
 
-Crie um novo acionador no Experience Cloud e verifique se você selecionou o conjunto de relatórios usado em seu site. Certifique-se de escolher a dimensão correta para que o acionador seja acionado.
+Crie um novo acionador no Experience Cloud e certifique-se de selecionar o conjunto de relatórios usado em seu site. Escolha a dimensão correta para que o acionador seja acionado.
 
-Consulte a [Documentação do Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html) e assista isto [vídeo](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
+Consulte a [Documentação do Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html) e assista a isto [vídeo](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
 
-## Práticas recomendadas e limitações do Triggers {#triggers-best-practices-and-limitations}
+## Práticas recomendadas e limitações dos acionadores {#triggers-best-practices-and-limitations}
 
-Esta é uma lista de práticas recomendadas e limitações para o uso da integração Campaign - Triggers:
+Esta é uma lista de práticas recomendadas e limitações para o uso da integração do Campaign com os acionadores:
 
-* Se você tiver várias instâncias do Campaign Standard, os acionadores poderão ser recebidos por todas as instâncias, desde que estejam na mesma organização. O Analytics também precisa estar na mesma organização.
-* Não é possível criar um acionador no serviço principal do acionador usando eventos de dois conjuntos de relatórios diferentes.
-* Os acionadores são baseados em mensagens transacionais. As mensagens transacionais são usadas sempre que é necessário enviar uma mensagem muito rapidamente. Não é possível enfileirar mensagens transacionais e, em seguida, repeti-las em lote.
-* Os acionadores não são de natureza determinista. Quando um acionador é gerado, ele envia todos os aliases associados ao cookie. Portanto, no caso de navegadores compartilhados, como em quiosques de varejo, bibliotecas, cyber cafés ou dispositivos compartilhados em casa (marido e esposa fazendo logon pelo mesmo dispositivo), não é possível mapear para a ID correta. Todas as IDs usadas para fazer logon com o navegador são enviadas para o Campaign, que envia uma mensagem com base na primeira reconciliação. Se houver várias &quot;IDs de email&quot; qualificadas para reconciliação, o Campaign não enviará um email. Não há como o Campaign saber qual é a ID de email correta, a menos que seja capturada e enviada pelo Analytics.
-* Não é possível armazenar conteúdo do payload no Campaign. Os Acionadores não podem ser usados para atualizar os dados de um perfil.
-* Os Atributos do cliente não são suportados em Triggers (ou seja, somente os dados do conjunto de relatórios podem ser usados para definir regras comerciais de Triggers).
-* A coleta de coleções não é compatível com o Campaign.
+* Se você tiver várias instâncias do Campaign Standard, os acionadores poderão ser recebidos por todas as instâncias, desde que elas estejam na mesma Organização. O Analytics também precisa estar na mesma organização.
+* Não é possível criar um acionador no Serviço principal de acionador usando eventos de dois conjuntos de relatórios diferentes.
+* Os acionadores são baseados em mensagens transacionais. As mensagens transacionais são usadas sempre que você precisa enviar uma mensagem muito rapidamente. Não é possível enfileirar mensagens transacionais e depois executá-las em loop em lote.
+* Os fatores desencadeantes não são determinísticos por natureza. Quando um acionador é gerado, ele envia todos os aliases associados ao cookie, de modo que, no caso de navegadores compartilhados, como em quiosques de varejo, bibliotecas, cyber cafés ou dispositivos compartilhados em casa (marido e esposa fazendo logon no mesmo dispositivo), não é possível mapear para a ID correta. Todas as IDs usadas para fazer logon com o navegador são enviadas para o Campaign, que envia uma mensagem com base na primeira reconciliação. Se houver várias &quot;IDs de email&quot; qualificadas para reconciliação, o Campaign não enviará um email. Não há como o Campaign saber qual é a ID de email correta, a menos que seja capturada e enviada pelo Analytics.
+* Não é possível armazenar o conteúdo da carga no Campaign. Os acionadores não podem ser usados para atualizar os dados de um perfil.
+* Os Atributos do cliente não são compatíveis com Acionadores (ou seja, somente os dados do conjunto de relatórios podem ser usados para definir as regras de negócios dos acionadores).
+* A coleção de coleções não é compatível com o Campaign.
 
 >[!CAUTION]
 >
->Seu site deve estar em execução no mesmo domínio que o servidor do Adobe Campaign. Caso contrário, você não poderá usar a id de visitante para reconciliar e entrar em contato com usuários que visitam o site anonimamente.
+>Seu site deve estar sendo executado no mesmo domínio que o servidor do Adobe Campaign. Caso contrário, não será possível usar a ID de visitante para reconciliar e entrar em contato com os usuários que visitam o site anonimamente.

@@ -93,4 +93,4 @@ O email agora está definido e foi enviado. Você pode acessar os logs e relató
 
 No painel de email, vários indicadores estão disponíveis para ajudar você a medir o teste A/B: número de cliques, aberturas, rejeições e assim por diante.
 
-Observe que o indicador **[!UICONTROL Estimated recipient reactivity]** é uma taxa que compara o número de recipients que clicaram com o número de recipients que abriram o email. Por exemplo, se 10 recipients abriram o email e 5 recipients clicaram nele, a taxa de reatividade será 50%.
+Observe que o indicador **[!UICONTROL Estimated recipient reactivity]** é uma taxa que compara o número de recipients que clicaram com o número de recipients que abriram o email. Por exemplo, se 10 recipients abriram o email e 5 recipients clicaram nele, a taxa de reatividade é de 50%.

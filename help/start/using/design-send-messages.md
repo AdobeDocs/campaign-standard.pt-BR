@@ -1,6 +1,6 @@
 ---
 title: Personalização de listas
-description: "Saiba como personalizar a exibição e atuar em telas de lista no Adobe Campaign Standard: classificação, filtragem, exclusão ou duplicação de elementos. Lista as telas que exibem elementos de um ou vários recursos especificados."
+description: "Saiba como personalizar a exibição e atuar em telas de lista no Adobe Campaign Standard:classificando, filtrando, excluindo ou duplicando elementos. Lista os elementos de exibição das telas de um ou vários recursos fornecidos."
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -33,7 +33,7 @@ ht-degree: 23%
     </td>
 </tr>
 <tr>
-<td>Projetar os deliveries</td>
+<td>Projetar seus deliveries</td>
 <td>Criar entregas</td>
 <td>Personalize e torne seus deliveries dinâmicos</td>
 <td>Rastrear e monitorar seus deliveries</td>
@@ -41,11 +41,11 @@ ht-degree: 23%
 </tr>
 </table>
 
-## Projetar os deliveries
+## Projetar seus deliveries
 
 <img width="60px" alt="condições" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Lácula de inteiros do luctus blandit. Nulla quis vehicula augue, lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris sactetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique ceri sagru, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, não congue sapien rhoncus id. Inteiro luctus blandit ligula. Nulla quis vehicle augue, a lacinia risus. nunc pharetra fringilla enim eu. Mauris sanctetur maximus euismod. Carros e veículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
 **Leia mais**
 
@@ -56,7 +56,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 
 <img width="60px" alt="condições" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Lácula de inteiros do luctus blandit. Nulla quis vehicula augue, lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris sactetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique ceri sagru, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, não congue sapien rhoncus id. Inteiro luctus blandit ligula. Nulla quis vehicle augue, a lacinia risus. nunc pharetra fringilla enim eu. Mauris sanctetur maximus euismod. Carros e veículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
 **Leia mais**
 
@@ -67,22 +67,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 
 <img width="60px" alt="condições" src="assets/icon_profile.svg"/>
 
-Obtenha a atenção de seus clientes e melhore sua taxa de resposta usando conteúdo e cabeçalhos personalizados de acordo com seus perfis, suas preferências e suas atividades. Todas as suas informações de cliente estão centralizadas no Adobe Campaign e você pode oferecer mensagens contendo conteúdo adaptado, por meio de canais diferentes.
+Chame a atenção dos clientes e melhore a taxa de resposta usando conteúdo e cabeçalhos personalizados de acordo com perfis, preferências e atividade. Todas as informações do cliente são centralizadas no Adobe Campaign e você pode oferecer mensagens com conteúdo adaptado, por meio de diferentes canais.
 
 As mensagens personalizadas são fundamentais para enviar conteúdo relevante, oferecer experiências personalizadas e aumentar as taxas de abertura e conversão. As mensagens entre canais entregues pelo Adobe Campaign podem ser personalizadas de várias maneiras diferentes. Essas maneiras podem ser combinadas com critérios dependendo dos perfis. Você pode:
 
-* Inserir [campos de personalização dinâmicos](../../designing/using/personalization.md#inserting-a-personalization-field) nas suas mensagens
+* Inserir [campos de personalização dinâmicos](../../designing/using/personalization.md#inserting-a-personalization-field) em suas mensagens
 * Inserir [blocos de personalização predefinidos](../../designing/using/personalization.md#adding-a-content-block)
 * [Personalizar o remetente](../../designing/using/subject-line.md) de um email ou SMS
 * [Personalizar a linha de assunto](../../designing/using/subject-line.md) de um email
-* Criar [conteúdo condicional em um email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) ou [em uma página de aterrissagem](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
+* Criar [conteúdo condicional em um email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) ou [em uma landing page](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
 * Inserir [Texto dinâmico](../../channels/using/defining-dynamic-text.md) em uma mensagem SMS ou notificação por push
 
 ![](assets/delivery_content_43.png)
 
 **Leia mais**
 
-* Personalização de email do Discover por meio de um [Amostra completa](../../designing/using/personalization.md#example-email-personalization)
+* Descubra a personalização de email por meio de uma [amostra completa](../../designing/using/personalization.md#example-email-personalization)
 * [Personalização de URLs](../../designing/using/personalization.md#personalizing-urls)
 * [Configuração da personalização de uma imagem](../../designing/using/personalization.md#personalizing-an-image-source)
 
@@ -90,13 +90,13 @@ As mensagens personalizadas são fundamentais para enviar conteúdo relevante, o
 
 <img width="60px" alt="condições" src="assets/icon_profile.svg"/>
 
-Além de modelos de relatórios avançados e prontos para uso, o Adobe Campaign permite criar relatórios personalizados em nível de delivery, campanha, usuário ou segmento. Acompanhe suas mensagens e entenda o comportamento dos clientes, enriquecendo progressivamente os dados de perfil. As ferramentas de análise e geração de relatórios permitem capitalizar cada nova campanha, melhor direcionar suas ações de marketing e otimizar seu impacto e retorno sobre o investimento.
+Além de modelos de relatórios avançados e prontos para uso, o Adobe Campaign permite criar relatórios personalizados em nível de delivery, campanha, usuário ou segmento. Acompanhe suas mensagens e entenda o comportamento de seus clientes enriquecendo progressivamente os dados de perfil. As ferramentas de análise e geração de relatórios permitem capitalizar cada nova campanha, melhorar o direcionamento das ações de marketing e otimizar seu impacto e o retorno sobre o investimento.
 
 A interface gráfica fornece acesso rápido e fácil aos principais indicadores e estatísticas de delivery.
 
 ![](assets/dynamic_report_intro.png)
 
-A interface do usuário dos relatórios de campanha facilita a criação de relatórios dinâmicos. Você pode usar variáveis do tipo arrastar e soltar para personalizar seus relatórios e analisar o sucesso de suas campanhas. Dependendo da complexidade de suas consultas e cálculos, os dados podem ser agregados em uma visualização de lista ou acessados em um formato que facilita a geração de relatórios de análise de marketing.
+A interface do usuário de relatórios do Campaign facilita a criação de relatórios dinâmicos. Você pode usar variáveis do tipo arrastar e soltar para personalizar seus relatórios e analisar o sucesso de suas campanhas. Dependendo da complexidade de suas consultas e cálculos, os dados podem ser agregados em uma visualização de lista ou acessados em um formato que facilita a geração de relatórios de análise de marketing.
 
 Com o Adobe Campaign, você pode monitorar e rastrear cada delivery individualmente. O painel de mensagens exibe logs dedicados para acompanhar processos, regras e identificar possíveis erros e avisos.
 
@@ -111,7 +111,7 @@ Com o Adobe Campaign, você pode monitorar e rastrear cada delivery individualme
 
 <img width="60px" alt="condições" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Lácula de inteiros do luctus blandit. Nulla quis vehicula augue, lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris sactetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique ceri sagru, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, não congue sapien rhoncus id. Inteiro luctus blandit ligula. Nulla quis vehicle augue, a lacinia risus. nunc pharetra fringilla enim eu. Mauris sanctetur maximus euismod. Carros e veículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
 **Leia mais**
 

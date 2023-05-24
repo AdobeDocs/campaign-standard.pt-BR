@@ -1,6 +1,6 @@
 ---
 title: Diretrizes de configuração
-description: Saiba mais sobre as diretrizes de configuração do Campaign Standard
+description: Saiba mais sobre as diretrizes para configuração de Campaign Standard
 audience: administration
 feature: Access Management
 role: Admin
@@ -17,9 +17,9 @@ ht-degree: 13%
 
 ## Navegadores compatíveis{#compatible-browsers}
 
-O Adobe Campaign Standard é compatível com a maioria dos navegadores para computadores, assim como com os principais sistemas operacionais para tablets.
+O Adobe Campaign Standard é compatível com a maioria dos navegadores para computadores, bem como com os principais sistemas operacionais para tablets.
 
-O Adobe Campaign Standard suporta apenas o modo paisagem como modo de exibição em tablets.
+O Adobe Campaign Standard só oferece suporte ao modo paisagem como exibição em tablets.
 
 Esta é a lista de navegadores compatíveis com o Adobe Campaign Standard:
 
@@ -41,11 +41,11 @@ Estes são os diferentes pontos de extremidade usados no Campaign Standard.
 
 | Contexto | URL |
 |--- |--- |
-| Instâncias da campanha | `https://*.experiencecloud.adobe.com` (ID do locatário * + domínio do cliente)<br>`https://*.campaign.adobe.com` (locatário da instância do Campaign) |
+| Instâncias do Campaign | `https://*.experiencecloud.adobe.com` (ID do locatário * + domínio do cliente)<br>`https://*.campaign.adobe.com` (Locatário da instância do Campaign) |
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
 | Experience Cloud | `https://experiencecloud.adobe.com` |
 | Rastreamento | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
-| Integração de ativos | `https://*.marketing-assets.adobe.com` |
+| Integração do Assets | `https://*.marketing-assets.adobe.com` |
 | Serviços internos da Adobe | `https://*.adobe.io` |
 | Pesquisas | `https://adobe.allegiancetech.com` |
-| URL de marca padrão (antes da configuração do cliente) | `https://*.adobe-campaign.com` |
+| URL da marca padrão (antes da configuração do cliente) | `https://*.adobe-campaign.com` |

@@ -1,6 +1,6 @@
 ---
 title: Atualização de perfis
-description: Saiba mais sobre como atualizar perfis com APIs
+description: Saiba como atualizar perfis com APIs
 feature: API
 role: Data Engineer
 level: Experienced
@@ -14,21 +14,21 @@ ht-degree: 2%
 
 # Atualização de perfis com APIs{#updating-profiles-api}
 
-A atualização de perfis é executada com uma **PATCH** solicitação.
+A atualização de perfis é executada com um **PATCH** solicitação.
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
 1. O primeiro passo é **recuperar o perfil**.
 
-1. Em uma segunda solicitação, execute um **solicitação PATCH** no perfil, com as informações concluídas no payload.
+1. Em uma segunda solicitação, execute um **solicitação PATCH** no perfil com as informações concluídas na carga.
 
-1. Para verificar se a solicitação do PATCH atualizou o perfil, podemos executar uma solicitação final do GET.
+1. Para verificar se a solicitação PATCH atualizou o perfil, podemos executar uma solicitação GET final.
 
 <br/>
 
-***Solicitação de exemplo***
+***Exemplo de solicitação***
 
-Solicitação de exemplo do GET para recuperar um perfil.
+Exemplo de solicitação do GET para recuperar um perfil.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>\
@@ -54,7 +54,7 @@ Resposta à solicitação.
 }
 ```
 
-Solicitação de PATCH para atualizar o atributo &quot;phone&quot;.
+Solicitação PATCH para atualizar o atributo &quot;phone&quot;.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -65,7 +65,7 @@ Solicitação de PATCH para atualizar o atributo &quot;phone&quot;.
 -d '{"phone":"3301020304"}'
 ```
 
-Retorna a PKEY e o URL para recuperar o perfil atualizado.
+Ele retorna a PKEY e o URL para recuperar o perfil atualizado.
 
 ```
 {

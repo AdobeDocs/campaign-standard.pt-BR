@@ -17,14 +17,14 @@ ht-degree: 11%
 
 # Atualização dos atributos de uma unidade organizacional {#updating-organizational-unit-attributes}
 
-1. Execute uma solicitação de GET no **orgUnitBase** para recuperar a chave da unidade organizacional.
-1. Execute uma solicitação de PATCH na unidade organizacional, com os atributos a serem atualizados na carga útil.
+1. Execute uma solicitação GET no **orgUnitBase** recurso para recuperar a PKey da unidade organizacional.
+1. Execute uma solicitação PATCH na unidade organizacional, com os atributos a serem atualizados na carga.
 
 <br/>
 
-***Solicitação de exemplo***
+***Exemplo de solicitação***
 
-Recupere a lista de unidades organizacionais.
+Recuperar a lista de Unidades organizacionais.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/ \
@@ -34,7 +34,7 @@ Recupere a lista de unidades organizacionais.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Retorna todas as unidades organizacionais. Recupere a chave da unidade desejada.
+Retorna todas as unidades organizacionais. Recupere a PKey da unidade desejada.
 
 ```
 {
@@ -50,7 +50,7 @@ Retorna todas as unidades organizacionais. Recupere a chave da unidade desejada.
 },
 ```
 
-Execute uma solicitação de PATCH na unidade organizacional, com os atributos a serem atualizados na carga útil.
+Execute uma solicitação PATCH na unidade organizacional, com os atributos a serem atualizados na carga.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \

@@ -17,7 +17,7 @@ ht-degree: 88%
 
 # Envio de mensagens no fuso horário do recipient{#sending-messages-at-the-recipient-s-time-zone}
 
-Ao gerenciar uma campanha na qual a data e a hora são importantes, é possível agendar um delivery que leve em conta a hora local de cada recipient: eles receberão notificações por email, SMS ou push no momento agendado, em seu próprio fuso horário.
+Ao gerenciar uma campanha na qual a data e a hora são importantes, você pode agendar um delivery que considere a hora local de cada recipient: eles receberão notificações por email, SMS ou por push na hora agendada, em seu próprio fuso horário.
 
 >[!NOTE]
 >

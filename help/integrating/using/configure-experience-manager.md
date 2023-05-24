@@ -1,6 +1,6 @@
 ---
 title: Configuração da integração do Campaign com o Experience Manager
-description: Com a integração do Adobe Experience Manager, você pode criar conteúdo diretamente no AEM e usá-lo posteriormente no Adobe Campaign.
+description: Com a integração do Adobe Experience Manager, é possível criar conteúdo diretamente no AEM e usá-lo posteriormente no Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
@@ -17,13 +17,13 @@ ht-degree: 18%
 
 # Configuração da integração do Campaign com o Experience Manager {#configuration-aem}
 
-Essa integração entre o Adobe Campaign Standard e o Adobe Experience Manager permite usar o conteúdo criado no Adobe Experience Manager nos emails do Adobe Campaign.
+Essa integração entre o Adobe Campaign Standard e o Adobe Experience Manager permite usar o conteúdo criado no Adobe Experience Manager em seus emails do Adobe Campaign.
 
-Com esse caso de uso, você aprenderá a criar e gerenciar conteúdo de email no Adobe Experience Manager e, em seguida, a usá-lo em suas campanhas de marketing, importando-o em seus emails para o Adobe Campaign Standard.
+Com esse caso de uso, você aprenderá a criar e gerenciar conteúdo de email no Adobe Experience Manager e, em seguida, usá-los para suas campanhas de marketing, importando-os em seus emails para o Adobe Campaign Standard.
 
 ## Pré-requisitos {#prerequisites}
 
-Você deve ter certeza de que tem os seguintes elementos antecipadamente:
+Verifique se você tem os seguintes elementos antecipadamente:
 
 * Uma instância de **criação** do Adobe Experience Manager
 * Uma instância de **publicação** do Adobe Experience Manager
@@ -40,7 +40,7 @@ Para configurar o Adobe Campaign:
 
    ![](assets/aem_1.png)
 
-1. Verifique se a variável **[!UICONTROL AEMResourceTypeFilter]** foi configurada corretamente. Acesse o **[!UICONTROL Options]** menu em **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu.
+1. Verifique se **[!UICONTROL AEMResourceTypeFilter]** foi configurada corretamente. Acesse o **[!UICONTROL Options]** menu em **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu.
 
 1. No **[!UICONTROL Value (text)]** verifique se a sintaxe a seguir está correta:
 
@@ -50,7 +50,7 @@ Para configurar o Adobe Campaign:
 
    ![](assets/aem_2.png)
 
-1. Em seguida, no menu avançado em **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**, duplique um dos templates existentes para criar um template de email específico do Adobe Experience Manager.
+1. Em seguida, no menu avançado, em **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**, duplique um dos modelos existentes para criar um template de email específico para o Adobe Experience Manager.
 
    ![](assets/aem_3.png)
 
@@ -58,9 +58,9 @@ Para configurar o Adobe Campaign:
 
    ![](assets/aem_4.png)
 
-1. Em **[!UICONTROL Content]** , selecione **[!UICONTROL Adobe Experience Manager]** no **[!UICONTROL Content source]** , em seguida, sua conta externa criada anteriormente na **[!UICONTROL Adobe Experience Manager account]**.
+1. No **[!UICONTROL Content]** selecione **[!UICONTROL Adobe Experience Manager]** no **[!UICONTROL Content source]** e depois a conta externa criada anteriormente na **[!UICONTROL Adobe Experience Manager account]**.
 
-Agora é necessário configurar a integração no Adobe Experience Manager.
+Agora, é necessário configurar a integração no Adobe Experience Manager.
 
 ## Configuração no Adobe Experience Manager {#config-aem}
 

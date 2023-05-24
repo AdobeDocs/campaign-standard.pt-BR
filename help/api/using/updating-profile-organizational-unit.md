@@ -17,14 +17,14 @@ ht-degree: 10%
 
 # Atualização da entidade organizacional de um perfil {#managing-organizational-units}
 
-1. Execute uma solicitação de GET no **orgUnitBase** recurso para recuperar a chave da unidade organizacional
-1. Execute uma solicitação de PATCH na chave de perfil, com a chave da unidade organizacional desejada na carga.
+1. Execute uma solicitação GET no **orgUnitBase** recurso para recuperar a PKey da unidade organizacional
+1. Execute uma solicitação PATCH na PKey do perfil, com a PKey da unidade organizacional desejada na carga.
 
 <br/>
 
-***Solicitação de exemplo***
+***Exemplo de solicitação***
 
-Recupere a lista de unidades organizacionais.
+Recuperar a lista de Unidades organizacionais.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/ \
@@ -34,7 +34,7 @@ Recupere a lista de unidades organizacionais.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Retorna todas as unidades organizacionais. Recupere a chave da unidade à qual deseja atribuir o perfil.
+Retorna todas as unidades organizacionais. Recupere a PKey da unidade à qual você deseja atribuir o perfil.
 
 ```
 {
@@ -50,7 +50,7 @@ Retorna todas as unidades organizacionais. Recupere a chave da unidade à qual d
 },
 ```
 
-Execute uma solicitação de PATCH no perfil, com o PKey da unidade organizacional desejada no payload.
+Execute uma solicitação PATCH no perfil, com a PKey da unidade organizacional desejada na carga.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \

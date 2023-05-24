@@ -34,7 +34,7 @@ A atividade **[!UICONTROL Union]** é usada para combinar as populações das tr
 
 **Tópicos relacionados:**
 
-* [Caso de uso: União em dois públicos-alvo refinados](../../automating/using/union-on-two-refined-audiences.md)
+* [Caso de uso: união em dois públicos-alvo refinados](../../automating/using/union-on-two-refined-audiences.md)
 
 ## Configuração {#configuration}
 
