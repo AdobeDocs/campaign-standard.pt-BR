@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '825'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Para facilitar a conformidade com a privacidade, o Adobe Campaign permite manipu
 
 Para saber como criar solicitações de **Acesso** e **Exclusão** e como o Adobe Campaign as processa, consulte as [etapas de implementação](../../start/using/privacy-requests.md#about-privacy-requests).
 
-Os tutoriais sobre o Gerenciamento de privacidade no Campaign Standard também estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html#privacy).
+Os tutoriais sobre o Gerenciamento de privacidade no Campaign Standard também estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=pt-BR#privacy).
 
 >[!NOTE]
 >
