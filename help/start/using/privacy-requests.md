@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1559'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ O Adobe Campaign oferece ferramentas de Controladores de dados para criar e proc
 
 Antes de criar solicitações de Privacidade, defina o namespace que será usado. O namespace é a chave que será usada para identificar o Titular de dados no banco de dados do Adobe Campaign. Dois namespaces estão disponíveis e prontos para a utilização: email e celular. Se precisar de um namespace diferente, como por exemplo um campo de perfil personalizado, siga as etapas a seguir.
 
-Você também pode consultar este [tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html#privacy) para criar um namespace.
+Você também pode consultar este [tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=pt-BR#privacy) para criar um namespace.
 
 >[!NOTE]
 >
@@ -91,13 +91,13 @@ Você também pode consultar este [tutorial](https://experienceleague.adobe.com/
 
 A Integração do Privacy Core Service permite automatizar suas solicitações de acesso a dados pessoais em um contexto de várias soluções por meio de uma única chamada JSON API. As solicitações de privacidade transmitidas pelo Privacy Core Service para todas as soluções da Experience Cloud são tratadas automaticamente pelo Campaign, por meio de um fluxo de trabalho específico.
 
-Consulte a documentação do [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) para saber como criar solicitações de acesso a dados pessoais pelo Privacy Core Service.
+Consulte a documentação do [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR) para saber como criar solicitações de acesso a dados pessoais pelo Privacy Core Service.
 
 >[!IMPORTANT]
 >
->Para enviar uma solicitação usando o tipo de namespace personalizado, utilize o [Método JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html#access-delete){target="_blank"} para fazer a solicitação.
+>Para enviar uma solicitação usando o tipo de namespace personalizado, utilize o [Método JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=pt-BR#access-delete){target="_blank"} para fazer a solicitação.
 >
->Use somente o [Interface do usuário de privacidade](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target="_blank"} para enviar solicitações usando o tipo de namespace padrão.
+>Use somente a [Interface de privacidade](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR#request-builder){target="_blank"} para enviar solicitações usando o tipo de namespace padrão.
 
 Cada tarefa do Privacy Core Service é dividida em várias solicitações de privacidade no Campaign com base no número de namespaces que estão sendo utilizados, onde cada solicitação corresponde a um namespace. Além disso, um trabalho pode ser executado em múltiplas instâncias. Portanto, vários arquivos são criados para uma tarefa. Por exemplo, se uma solicitação tiver dois namespaces e estiver em execução em três instâncias, então será enviado um total de seis arquivos. Um arquivo por namespace e instância.
 
@@ -125,7 +125,7 @@ Aqui está a lista de recursos prontos para utilização que são considerados a
 
 Se você criou recursos personalizados com um link para o recurso de perfis (tipo próprio), eles também serão considerados. Por exemplo, se você tiver um recurso de transação vinculado ao recurso de perfis, e um recurso de detalhes de transação vinculado ao recurso de transação, ambos serão considerados.
 
-Consulte este [tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html#privacy) sobre modificação de recursos personalizados.
+Consulte este [tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=pt-BR#privacy) sobre modificação de recursos personalizados.
 
 Para que isso funcione, é necessário selecionar a opção **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** no recurso personalizado:
 
