@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '569'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Obtenha suporte usando as perguntas frequentes, as práticas recomendadas, os re
 ### O que é o Painel de controle?
 
 O Painel de controle ajuda a aumentar a eficiência do seu trabalho como administrador de produtos do Campaign Standard, permitindo que você gerencie configurações e rastreie os usos de cada uma de suas instâncias.
-[Clique aqui](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html#discover-control-panel) para obter mais informações.
+[Clique aqui](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=pt-BR#discover-control-panel) para obter mais informações.
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ O Painel de controle ajuda a aumentar a eficiência do seu trabalho como adminis
 
 ### Como acessar o Painel de controle?
 
-O Painel de controle está disponível diretamente na Adobe Experience Cloud. [Clique aqui](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html#discover-control-panel) para obter mais informações.
+O Painel de controle está disponível diretamente na Adobe Experience Cloud. [Clique aqui](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=pt-BR#discover-control-panel) para obter mais informações.
 
 ### Perguntas frequentes sobre o Painel de controle
 
@@ -101,15 +101,15 @@ O Painel de controle está disponível diretamente na Adobe Experience Cloud. [C
 
 ### Gerenciamento de SFTP
 
-No Painel de controle, é possível interagir com todos os servidores SFTP conectados às instâncias do Campaign às quais você tem acesso. Você pode monitorar a capacidade de armazenamento, gerenciar endereços IP na lista de permissões e chaves SSH públicas. [Clique aqui](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html#sftp-management) para obter mais informações.
+No Painel de controle, é possível interagir com todos os servidores SFTP conectados às instâncias do Campaign às quais você tem acesso. Você pode monitorar a capacidade de armazenamento, gerenciar endereços IP na lista de permissões e chaves SSH públicas. [Clique aqui](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=pt-BR#sftp-management) para obter mais informações.
 
 ### Subdomínios e certificados
 
 Você pode monitorar os subdomínios e seus certificados. Saiba mais:
 
-* [Marca de subdomínio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html#subdomains-and-certificates)
-* [Configurar um novo subdomínio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html#subdomains-and-certificates)
-* [Monitorar certificados SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#subdomains-and-certificates)
+* [Marca de subdomínio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=pt-BR#subdomains-and-certificates)
+* [Configurar um novo subdomínio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=pt-BR#subdomains-and-certificates)
+* [Monitorar certificados SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=pt-BR#subdomains-and-certificates)
 
 ## Solicitar ajuda
 
