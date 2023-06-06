@@ -8,9 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
 workflow-type: tm+mt
-source-wordcount: '2507'
+source-wordcount: '2471'
 ht-degree: 1%
 
 ---
@@ -43,11 +43,6 @@ Se você tiver configurado a integração para emitir chamadas de exclusão de p
 
 1. Verificar se o registro foi removido de ambos os sistemas
 
-Abaixo estão links para ajudar a orientá-lo na implementação do acesso e/ou exclusão de solicitações relacionadas à privacidade em cada sistema:
-
-* [Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/)
-
-* [Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
 
 >[!IMPORTANT]
 >
