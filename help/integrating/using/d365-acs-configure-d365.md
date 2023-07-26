@@ -8,9 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: 6947d163119dd6fc5966fdc723530b02bdd4a469
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '900'
 ht-degree: 1%
 
 ---
@@ -119,9 +119,8 @@ Siga as instruções [nesta página](https://docs.microsoft.com/en-us/onedrive/f
 
 Para integrar o aplicativo Dynamics 365 ao seu ambiente de Campaign Standard, siga as etapas abaixo:
 
-1. Navegue até o seguinte link: [https://appsource.microsoft.com/en-us/marketplace/apps](https://appsource.microsoft.com/en-us/marketplace/apps) e pesquisar _Adobe Campaign para Dynamics 365_ na barra de pesquisa.
-Como alternativa, você pode navegar para essa [link](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview)
-{target="_blank"}.
+1. Navegue até [Aplicativos comerciais do Microsoft](https://appsource.microsoft.com/en-us/marketplace/apps)e procure por_Adobe Campaign Standard_ na barra de pesquisa.
+Como alternativa, você pode navegar para essa [link](https://appsource.microsoft.com/en-us/product/dynamics-365/adobe.adobe_campaign_d365?tab=Overview){target="_blank"}.
 1. Siga as instruções para instalar o aplicativo para sua instância do Dynamics 365.
 1. Depois de instalado, navegue até a instância do Dynamics 365 e entre como administrador.
 1. Clique no ícone de engrenagem no canto superior direito e clique em **[!UICONTROL Advanced Settings]**. No banner superior, clique na lista suspensa ao lado de **[!UICONTROL Settings]**, clique em **[!UICONTROL Processes]** em **[!UICONTROL Process Center]**.
