@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 7db25b8d-a6f1-4151-bf37-c47e9991ae48
-source-git-commit: 0c8710b3e1cc679fa907758a4bf5542d892c737c
+source-git-commit: 13fc1b011f61d67dda128e77b854032801bda263
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 11%
@@ -17,7 +17,7 @@ ht-degree: 11%
 
 # Classificação
 
-A classificação está disponível em ordem crescente ou decrescente. Para fazer isso, use o **%20desc** ou **%20asc** à sua solicitação.
+A classificação está disponível por padrão em ordem crescente. Para classificar em ordem decrescente, anexe **%20desc** para o **_order** valor do parâmetro.
 
 Para saber se um campo pode ser classificado, verifique o parâmetro &quot;classitable&quot; nos metadados do recurso. Para obter mais informações, consulte [esta seção](../../api/using/metadata-mechanism.md).
 
@@ -28,7 +28,7 @@ Para saber se um campo pode ser classificado, verifique o parâmetro &quot;class
 * Exemplo de solicitação do GET para recuperar emails no banco de dados em ordem alfabética.
 
   ```
-  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20asc \
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
   -H 'Cache-Control: no-cache' \
