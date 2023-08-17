@@ -85,9 +85,10 @@ A atividade **[!UICONTROL Segmentation]** geralmente é colocada após as ativid
    * **[!UICONTROL By data grouping]**: é possível limitar a população do segmento de acordo com os valores de um campo específico da população de entrada. Selecione o campo para agrupamento e especifique os valores a serem usados.
    * **[!UICONTROL By data grouping (as a %)]**: é possível limitar a população do segmento de acordo com os valores de um campo de população de entrada específico usando uma porcentagem. Selecione o campo para aplicar o agrupamento e especifique os valores a serem usados.
 
-      >[!NOTE]
-      >
-      >É possível usar diferentes limitações para cada valor. Por exemplo, você pode especificar um agrupamento para o campo **[!UICONTROL Gender]** e limitar a população com 10 membros **[!UICONTROL Male]** e 30 membros **[!UICONTROL Female]**. Se você usar vários campos de agrupamento de dados, todos os agrupamentos deverão ter o mesmo tamanho.
+     >[!NOTE]
+     >
+     >É possível usar diferentes limitações para cada valor. Por exemplo, você pode especificar um agrupamento para o campo **[!UICONTROL Gender]** e limitar a população com 10 membros **[!UICONTROL Male]** e 30 membros **[!UICONTROL Female]**. Se você usar vários campos de agrupamento de dados, todos os agrupamentos deverão ter o mesmo tamanho.
+
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. Confirme a configuração do seu segmento.

@@ -11,7 +11,7 @@ exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '914'
-ht-degree: 44%
+ht-degree: 45%
 
 ---
 
@@ -93,7 +93,7 @@ Nesse caso de uso, crie um workflow para criptografar e exportar dados usando um
 
 As etapas para executar esse caso de uso são as seguintes:
 
-1. Gere um par de chaves GPG (público/privado) usando um utilitário GPG e, em seguida, instale a chave pública no Painel de controle. As etapas detalhadas estão disponíveis na [documentação do Painel de controle](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
+1. Gere um par de chaves GPG (público/privado) usando um utilitário GPG e, em seguida, instale a chave pública no Painel de controle. As etapas detalhadas estão disponíveis na [documentação do Painel de controle](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=pt-BR#encrypting-data).
 
    ![](assets/gpg_install.png)
 

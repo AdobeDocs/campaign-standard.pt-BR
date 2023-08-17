@@ -243,7 +243,7 @@ ht-degree: 98%
 * O número máximo de eventos em tempo real que podem ser publicados em uma instância aumentou de 350 para 2000. (CAMP-41608)
 * A sincronização entre o Adobe Launch e o Campaign Standard foi aprimorada usando o workflow técnico syncWithLaunch. Esse workflow permite a importação automática de todas as propriedades móveis do Adobe Launch para o Adobe Campaign Standard. Para saber mais, consulte [esta página](../../administration/using/technical-workflows.md).
 
-   Você precisará enviar um tíquete ao Atendimento ao cliente da Adobe (diretamente ou por meio de seu contato da Adobe) para habilitar o workflow técnico syncWithLaunch na instância do Campaign. (CAMP-40082)
+  Você precisará enviar um tíquete ao Atendimento ao cliente da Adobe (diretamente ou por meio de seu contato da Adobe) para habilitar o workflow técnico syncWithLaunch na instância do Campaign. (CAMP-40082)
 
 **Aprimoramentos do Email Designer**
 

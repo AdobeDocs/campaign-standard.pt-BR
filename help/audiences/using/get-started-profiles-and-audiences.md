@@ -62,7 +62,7 @@ Antes de começar a enviar mensagens para um contato, você precisa garantir que
 
 Com o Campaign, recomendamos que você use **mecanismos fáceis de aceitação e recusa** até [serviços](../../audiences/using/creating-a-service.md), e [landing pages](../../channels/using/getting-started-with-landing-pages.md) para atualizar suas informações de contato e aumentar seu banco de dados.
 
-Fornecendo **links de unsubscription** lista de bloqueios Em suas mensagens, os Perfis serão adicionados ao arquivo, quando necessário, e, portanto, melhorarão a capacidade de entrega da plataforma. Para obter mais informações sobre o gerenciamento de inclui na lista de bloqueios, consulte [Sobre participação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Fornecendo **links de unsubscription** incluir na lista de bloqueios Em suas mensagens, os Perfis serão adicionados ao arquivo, quando necessário, e, portanto, melhorarão a capacidade de entrega da plataforma. Para obter mais informações sobre o gerenciamento de inclui na lista de bloqueios, consulte [Sobre participação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >

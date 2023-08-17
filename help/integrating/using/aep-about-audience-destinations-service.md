@@ -41,12 +41,12 @@ Termos usados nestas seções:
 
 * **Perfil**: Perfil é um modelo de dados padrão Experience Platform usado para definir atributos de consumidores. Um perfil também pode ser um agregado de dados e atributos de eventos relacionados a uma pessoa e/ou dispositivo.
 
-   Exemplo: &quot;John Doe é um homem de 55 anos.&quot;
+  Exemplo: &quot;John Doe é um homem de 55 anos.&quot;
 
 * **Segmento**: um conjunto de regras que define um subconjunto de perfis do banco de dados, usando atributos e dados de evento.
 
-   Exemplo: &quot;Machos > 50 anos&quot;.
+  Exemplo: &quot;Machos > 50 anos&quot;.
 
 * **Público**: uma coleção de perfis que atendem às regras de segmento.
 
-   Exemplo: lista de perfis que correspondem a todos os homens > 50 anos no banco de dados.
+  Exemplo: lista de perfis que correspondem a todos os homens > 50 anos no banco de dados.

@@ -26,17 +26,17 @@ Há dois tipos de recipients de prova:
 
 * **Perfis de teste** permitem segmentar recipients adicionais que não correspondam aos critérios de direcionamento definidos.
 
-   Eles podem ser adicionados ao público de uma mensagem para detectar qualquer uso fraudulento do banco de dados do seu recipient ou para garantir que os emails cheguem às caixas de entrada. Para mais informações, consulte [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md).
+  Eles podem ser adicionados ao público de uma mensagem para detectar qualquer uso fraudulento do banco de dados do seu recipient ou para garantir que os emails cheguem às caixas de entrada. Para mais informações, consulte [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md).
 
-   >[!NOTE]
-   >
-   >Para enviar uma prova, você precisa incluir os perfis de teste no público da sua mensagem.
+  >[!NOTE]
+  >
+  >Para enviar uma prova, você precisa incluir os perfis de teste no público da sua mensagem.
 
 * **Perfis de substituição** permitem que você se posicione como um dos perfis segmentados e obtenha uma representação exata da mensagem que o perfil receberá. Para mais informações, consulte [Testar mensagens de email usando perfis segmentados](../../sending/using/testing-messages-using-target.md).
 
-   >[!NOTE]
-   >
-   >Esse recurso está disponível somente para o canal de email.
+  >[!NOTE]
+  >
+  >Esse recurso está disponível somente para o canal de email.
 
 ## Envio de uma prova {#sending-a-proof}
 

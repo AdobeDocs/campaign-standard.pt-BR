@@ -8,7 +8,7 @@ level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '8664'
+source-wordcount: '8650'
 ht-degree: 86%
 
 ---
@@ -299,9 +299,9 @@ id:1234567890 sub:001 dlvrd:001 submit date:1608011415 done date:1608011417 stat
 
 Primeiro, o regex `id extraction` é aplicado para extrair a ID e reconciliá-la com o MT correspondente.
 
-Em seguida, os regex `status extraction` e `error code extraction` são aplicados para extrair esses campos e são anexados à sequência.
+Em seguida, os regex `status extraction` e `error code extraction` são aplicados para extrair esses campos e são anexados à string.
 
-A mensagem de transmissão é criada com essas informações, e a sequência original inalterada é anexada para referência:
+A mensagem de transmissão é criada com essas informações, e a string original inalterada é anexada para referência:
 
 ```
 SR ExampleProvider DELIVRD 000|MESSAGE=id:1234567890 sub:001 dlvrd:001 submit date:1608011415 done date:1608011417 stat:DELIVRD err:000 Text:Hello Adobe world
@@ -446,7 +446,7 @@ A transliteração é o processo de encontrar caracteres equivalentes aos que fa
 
 Quando essa caixa estiver desmarcada, a codificação de texto falhará se não conseguir codificar a string exatamente como está.
 
-Quando essa caixa estiver marcada, a codificação de texto tentará converter a sequência em uma versão aproximada em vez de falhar. Se alguns caracteres não tiverem equivalente na codificação de destino, a codificação do texto falhará.
+Quando essa caixa estiver marcada, a codificação de texto tentará converter a string em uma versão aproximada em vez de falhar. Se alguns caracteres não tiverem equivalente na codificação de destino, a codificação do texto falhará.
 
 Consulte [Definir um mapeamento específico das configurações de codificações](../../administration/using/sms-protocol.md#SMSC-specifics) para obter uma explicação mais geral do processo de codificação.
 
@@ -655,7 +655,7 @@ Isso indica o formato da ID retornada no campo `message_id` de `SUBMIT_SM_RESP P
 
 * **Número hexadecimal**: espera-se que a ID seja um número hexadecimal no formato ASCII, sem 0x à esquerda nem h à direita. A ID é convertida em um número decimal antes de ser armazenada no banco de dados.
 
-* **Sequência hexadecimal**: espera-se que a ID seja um texto codificado em ASCII que seja uma sequência de bytes codificada como hexadecimal. Por exemplo, na PDU, você encontrará `0x34 0x31 0x34 0x32 0x34 0x33`, o que significa ASCII &quot;414243&quot;. Essa sequência é então decodificada como uma sequência hexadecimal de bytes, e você obtém &quot;ABC&quot; como resultado: você armazenará a ID &quot;ABC&quot; no banco de dados.
+* **String hexadecimal**: espera-se que a ID seja um texto codificado em ASCII que seja uma string de bytes codificada como hexadecimal. Por exemplo, na PDU, você encontrará `0x34 0x31 0x34 0x32 0x34 0x33`, o que significa ASCII &quot;414243&quot;. Essa string é então decodificada como uma string hexadecimal de bytes, e você obtém &quot;ABC&quot; como resultado: você armazenará a ID &quot;ABC&quot; no banco de dados.
 
 #### Formato de ID no SR {#id-format-sr}
 
@@ -832,19 +832,16 @@ Mesmo se você não conseguir verificar os registros sozinho, será mais fácil 
 ### Testar o SMS {#test}
 
 * **Enviar SMS com todos os tipos de caracteres**
-Se você precisar enviar SMS com caracteres não GSM ou não ASCII, tente enviar algumas mensagens com o maior número possível de caracteres diferentes. Se você configurar uma tabela de mapeamento de caracteres personalizada, envie pelo menos um SMS para todos os possíveis 
-`data_coding` valores.
+Se você precisar enviar SMS com caracteres não GSM ou não ASCII, tente enviar algumas mensagens com o maior número possível de caracteres diferentes. Se você configurar uma tabela de mapeamento de caracteres personalizada, envie pelo menos um SMS para todos os possíveis `data_coding` valores.
 
 * **Verifique se o SR está corretamente processado**
-O SMS deve ser marcado como recebido no log de delivery. O registro de delivery deve ser bem-sucedido e ter a seguinte aparência:
-
-Verifique se você alterou o nome do provedor de delivery. O registro de delivery nunca deve conter    `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
+O SMS deve ser marcado como recebido no log de delivery. O log de delivery deve ser bem-sucedido e ter a seguinte aparência:
+  `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
 Verifique se você alterou o nome do provedor de delivery. O registro de delivery nunca deve conter **SR genérico** em ambientes de produção.
 
 * **Verifique se o MO é processado**
 Se você precisar processar o MO (respostas automáticas, armazenamento de MO no banco de dados etc.) tente fazer alguns testes. Envie alguns SMS para todas as palavras-chave de resposta automática e verifique se a resposta é rápida o suficiente, não mais do que alguns segundos.
-Verifique no log se o Adobe Campaign responde com êxito 
-`DELIVER_SM_RESP` (command_status=0).
+Verifique no log se o Adobe Campaign responde com êxito `DELIVER_SM_RESP` (command_status=0).
 
 ### Verificar as PDUs {#check-pdus}
 

@@ -41,3 +41,4 @@ Na parte inferior da página, os targeting dimensions são listados com o númer
 >[!NOTE]
 >
 >Como usuário administrador, você também pode monitorar o número de perfis ativos usados em suas instâncias diretamente do Painel de controle do Campaign. Para obter mais informações, consulte a [documentação do Painel de controle](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=pt-BR).
+>

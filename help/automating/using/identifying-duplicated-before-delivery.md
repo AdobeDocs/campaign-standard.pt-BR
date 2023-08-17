@@ -26,15 +26,15 @@ Este fluxo de trabalho é composto por:
 
 * A [Query](../../automating/using/query.md) que permite definir o público-alvo do email. Aqui, o fluxo de trabalho segmenta todos os perfis com idade entre 18 e 25 anos que estão no banco de dados do cliente por mais de um ano.
 
-   ![](assets/deduplication_example_query.png)
+  ![](assets/deduplication_example_query.png)
 
 * A [Desduplicação](../../automating/using/deduplication.md) atividade, que permite identificar os duplicados que vêm da consulta anterior. Neste exemplo, somente um registro é salvo para cada duplicata. As duplicatas são identificadas usando o endereço de email. Isso significa que o delivery de email só pode ser enviado uma vez para cada endereço que esteja presente no direcionamento.
 
-   O método de desduplicação selecionado é **[!UICONTROL Non-empty value]**. Esse método assegura que, entre os registros mantidos em caso de duplicatas, seja dada prioridade àqueles em que foi fornecido o **nome**. Esse método se tornará mais coerente se o nome for usado nos campos de personalização do conteúdo do email.
+  O método de desduplicação selecionado é **[!UICONTROL Non-empty value]**. Esse método assegura que, entre os registros mantidos em caso de duplicatas, seja dada prioridade àqueles em que foi fornecido o **nome**. Esse método se tornará mais coerente se o nome for usado nos campos de personalização do conteúdo do email.
 
-   Além disso, uma transição adicional é incluída para manter as duplicatas e poder listá-las.
+  Além disso, uma transição adicional é incluída para manter as duplicatas e poder listá-las.
 
-   ![](assets/deduplication_example_dedup.png)
+  ![](assets/deduplication_example_dedup.png)
 
 * Um [Entrega de email](../../automating/using/email-delivery.md) colocado depois da transição de saída principal da desduplicação.
 * A [Salvar público-alvo](../../automating/using/save-audience.md) atividade colocada após a transição adicional da desduplicação para salvar os duplicados em um **Duplicatas** público-alvo. Esse público-alvo pode ser reutilizado para excluir diretamente membros de cada delivery de email.

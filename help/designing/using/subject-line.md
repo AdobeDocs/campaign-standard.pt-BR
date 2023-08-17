@@ -41,9 +41,9 @@ Para definir o nome do remetente que aparecerá no cabeçalho das mensagens envi
 
 * A variável **[!UICONTROL From: name]** permite inserir o nome do remetente. Por padrão, o valor **Nome do remetente** é inserido automaticamente no campo. O endereço de email e o nome do remetente padrão são definidos em **[!UICONTROL Brands]** acessível através do logotipo do Adobe Campaign no menu avançado **[!UICONTROL Administration > Instance settings > Brand configuration]** .
 
-   É possível alterar o nome do remetente clicando no ícone **Nome do remetente** bloco. O campo torna-se editável e você pode inserir o nome que deseja usar.
+  É possível alterar o nome do remetente clicando no ícone **Nome do remetente** bloco. O campo torna-se editável e você pode inserir o nome que deseja usar.
 
-   Esse campo pode ser personalizado. Para fazer isso, você pode adicionar campos de personalização, blocos de conteúdo e conteúdo dinâmico clicando nos ícones abaixo do nome do remetente. Para obter mais informações, consulte [Personalização](../../designing/using/personalization.md).
+  Esse campo pode ser personalizado. Para fazer isso, você pode adicionar campos de personalização, blocos de conteúdo e conteúdo dinâmico clicando nos ícones abaixo do nome do remetente. Para obter mais informações, consulte [Personalização](../../designing/using/personalization.md).
 
 * A variável **[!UICONTROL From: email address]** O campo não pode ser editado nesta seção. Você pode alterá-lo editando as propriedades do email no painel. Para obter mais informações, consulte [Lista de parâmetros avançados de email](../../administration/using/configuring-email-channel.md#advanced-parameters).
 

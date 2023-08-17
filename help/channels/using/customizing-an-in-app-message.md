@@ -45,23 +45,23 @@ O menu suspenso **[!UICONTROL Layout]** fornece quatro opções diferentes para 
 
 * **[!UICONTROL Full page]**: esse tipo de layout cobre a tela inteira do dispositivo do público-alvo.
 
-   É compatível com mídias (imagem, vídeo), texto e componentes de botão.
+  É compatível com mídias (imagem, vídeo), texto e componentes de botão.
 
 * **[!UICONTROL Large modal]**: esse layout aparece em uma janela grande com estilo de alerta. O aplicativo ainda fica visível em segundo plano.
 
-   É compatível com mídias (imagem, vídeo), texto e componentes de botão.
+  É compatível com mídias (imagem, vídeo), texto e componentes de botão.
 
 * **[!UICONTROL Small modal]**: esse layout aparece como uma pequena janela de tipo de alerta. O aplicativo ainda fica visível em segundo plano.
 
-   É compatível com mídias (imagem, vídeo), texto e componentes de botão.
+  É compatível com mídias (imagem, vídeo), texto e componentes de botão.
 
 * **[!UICONTROL Alert]**: esse tipo de layout é exibido como uma mensagem de alerta de SO nativo.
 
-   Só é compatível com componentes de texto e botão.
+  Só é compatível com componentes de texto e botão.
 
 * **[!UICONTROL Local notification]**: esse tipo de layout é exibido como uma mensagem de banner.
 
-   Só é compatível com som, texto e destino. Para obter mais informações sobre notificação local, consulte [Personalização de tipos de mensagens de notificação local](#customizing-a-local-notification-message-type).
+  Só é compatível com som, texto e destino. Para obter mais informações sobre notificação local, consulte [Personalização de tipos de mensagens de notificação local](#customizing-a-local-notification-message-type).
 
 Cada tipo de layout pode ser visualizado em diferentes dispositivos, como celular, tablet, plataforma (por exemplo, Android ou iOS). A orientação (por exemplo, paisagem ou retrato) pode ser escolhida na janela direita do editor de conteúdo.
 

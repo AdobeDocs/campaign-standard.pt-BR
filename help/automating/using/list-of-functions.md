@@ -517,7 +517,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>DataLength</strong><br /> </td> 
    <td> Retorna o número de caracteres em uma string<br /> </td> 
-   <td> DataLength(&lt;Cadeia de caracteres&gt;)<br /> </td> 
+   <td> DataLength(&lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
@@ -546,12 +546,12 @@ As funções de string são usadas para manipular um conjunto de strings.
   </tr> 
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
-   <td> Retorna a cadeira de caracteres concluída à esquerda<br /> </td> 
+   <td> Retorna a string concluída à esquerda<br /> </td> 
    <td> LPad(&lt;string&gt;, &lt;número&gt;, &lt;caractere&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
-   <td> Retorna os primeiros n caracteres da cadeira de caracteres<br /> </td> 
+   <td> Retorna os primeiros n caracteres da string<br /> </td> 
    <td> Left(&lt;string&gt;, &lt;número&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -561,33 +561,33 @@ As funções de string são usadas para manipular um conjunto de strings.
   </tr> 
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
-   <td> Retorna a cadeira de caracteres em minúsculas<br /> </td> 
+   <td> Retorna a string em minúsculas<br /> </td> 
    <td> Lower(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
-   <td> Remove espaços à esquerda da cadeira de caracteres<br /> </td> 
+   <td> Remove espaços à esquerda da string<br /> </td> 
    <td> Ltrim(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Md5Digest</strong><br /> </td> 
-   <td> Retorna uma representação hexadecimal da chave MD5 de uma cadeira de caracteres<br /> </td> 
+   <td> Retorna uma representação hexadecimal da chave MD5 de uma string<br /> </td> 
    <td> Md5Digest(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>MemoContains</strong><br /> </td> 
-   <td> Especifica se o memorando contém a cadeira de caracteres aprovada como um parâmetro<br /> </td> 
+   <td> Especifica se o memorando contém a string aprovada como um parâmetro<br /> </td> 
    <td> MemoContains(&lt;memorando&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>RPad</strong><br /> </td> 
-   <td> Retorna a cadeira de caracteres concluída à direita<br /> </td> 
+   <td> Retorna a string concluída à direita<br /> </td> 
    <td> RPad(&lt;string&gt;, &lt;número&gt;, &lt;caractere&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
    <td> Substitui todas as ocorrências de um valor de string especificado (segundo parâmetro) por outro valor de string (terceiro parâmetro) em uma string (primeiro parâmetro)<br /> </td> 
-   <td> Replace(&lt;Cadeia de caracteres&gt;, &lt;Cadeia de caracteres&gt;, &lt;Cadeia de caracteres&gt;)<br /> </td> 
+   <td> Replace(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -596,27 +596,27 @@ As funções de string são usadas para manipular um conjunto de strings.
   </tr> 
   <tr> 
    <td> <strong>Rtrim</strong><br /> </td> 
-   <td> Remove espaços à direita da cadeira de caracteres<br /> </td> 
+   <td> Remove espaços à direita da string<br /> </td> 
    <td> Rtrim(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
    <td> Calcula o hash <strong>SHA256</strong> padrão para uma determinada string UTF8<br /> </td> 
-   <td> Sha256Digest(&lt;Cadeia de caracteres&gt;)<br /> </td> 
+   <td> Sha256Digest(&lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha384Digest</strong><br /> </td> 
    <td> Calcula o hash <strong>SHA384</strong> padrão para uma determinada string UTF8<br /> </td> 
-   <td> Sha384Digest(&lt;Cadeia de caracteres&gt;)<br /> </td> 
+   <td> Sha384Digest(&lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
    <td> Calcula o hash <strong>SHA512</strong> padrão para uma determinada string UTF8<br /> </td> 
-   <td> Sha512Digest(&lt;Cadeia de caracteres&gt;)<br /> </td> 
+   <td> Sha512Digest(&lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
-   <td> Retorna a cadeira de caracteres com a primeira letra de cada palavra em maiúsculas<br /> </td> 
+   <td> Retorna a string com a primeira letra de cada palavra em maiúsculas<br /> </td> 
    <td> Smart(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -652,7 +652,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>encryption_aescbcDecrypt</strong><br /> </td> 
    <td> Descriptografa um valor criptografado no formato HEX com o prefixo "<strong>x</strong>" (primeiro parâmetro) usando uma chave no formato HEX (segundo parâmetro) e um vetor de inicialização no formato HEX (terceiro parâmetro)<br /> </td> 
-   <td> encryption_aescbcDecrypt(&lt;Cadeia de caracteres&gt;, &lt;Cadeia de caracteres&gt;, &lt;Cadeia de caracteres&gt;)<br /> </td> 
+   <td> encryption_aescbcDecrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 

@@ -96,7 +96,7 @@ O analisador de JSON foi projetado para hospedar tipos padrão de estrutura JSON
 A definição do JSON de amostra deve ter as **seguintes características**:
 
 * Os **elementos da matriz** devem conter propriedades de primeiro nível (níveis mais profundos não são compatíveis).
-   Os **nomes de propriedades** acabarão se tornando nomes de colunas para o schema de saída da tabela temporária de saída.
+  Os **nomes de propriedades** acabarão se tornando nomes de colunas para o schema de saída da tabela temporária de saída.
 * Os **elementos JSON** capturados devem estar em 10 ou menos níveis de aninhamento na resposta JSON.
 * A definição do **nome da coluna** é baseada no primeiro elemento da matriz &quot;data&quot;.
 A definição de colunas (adicionar/remover) e o valor de tipo da propriedade podem ser editados na guia **Definição de coluna**.
@@ -140,7 +140,7 @@ A guia **Definição de coluna** permite especificar com precisão a estrutura d
 
 ![](assets/externalAPI-column.png)
 
-Por exemplo, você pode alterar o rótulo de uma coluna, selecionar o tipo (sequência, número inteiro, data etc.) ou até mesmo especificar o processamento de erros.
+Por exemplo, você pode alterar o rótulo de uma coluna, selecionar o tipo (string, número inteiro, data etc.) ou até mesmo especificar o processamento de erros.
 
 Para obter mais informações, consulte a seção [Carregar arquivo](../../automating/using/load-file.md).
 

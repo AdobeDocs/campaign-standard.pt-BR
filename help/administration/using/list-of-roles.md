@@ -9,7 +9,7 @@ exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 77%
+ht-degree: 80%
 
 ---
 
@@ -25,9 +25,9 @@ Os direitos padrão são:
 
 * **[!UICONTROL Administration]**: Direito de administração genérico.
 
-   >[!NOTE]
-   >
-   >Se você trabalhar com Acionadores do Experience Cloud, precisará da variável **[!UICONTROL Administration]** direito de acessar o menu Acionadores do Experience Cloud. Para obter mais informações sobre Experience Cloud Triggers, consulte esta página [página](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+  >[!NOTE]
+  >
+  >Se você trabalhar com Acionadores do Experience Cloud, precisará da variável **[!UICONTROL Administration]** direito de acessar o menu Acionadores do Experience Cloud. Para obter mais informações sobre Experience Cloud Triggers, consulte esta página [página](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
 * **[!UICONTROL Datamodel]**: Direito de executar publicações e criar recursos personalizados.
 * **[!UICONTROL Generic import]**: Direito de executar uma importação genérica nos dados. Para que isso funcione, é necessário vincular o **[!UICONTROL Generic import]** para a **[!UICONTROL Workflow]** função.

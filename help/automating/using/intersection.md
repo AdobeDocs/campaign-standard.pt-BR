@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ---
 
-# Intersecção{#intersection}
+# Interseção{#intersection}
 
 ## Descrição {#description}
 

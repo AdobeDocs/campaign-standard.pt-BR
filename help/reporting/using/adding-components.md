@@ -31,7 +31,7 @@ Os componentes ajudam você a personalizar seus relatórios com diferentes dimen
    * **Métricas**: obtenha detalhes sobre o status de uma mensagem. Por exemplo, se uma mensagem foi entregue e o usuário a abriu.
    * **[!UICONTROL Segments]**: filtre os dados de acordo com o intervalo de idade do recipient. **[!UICONTROL Segments]** podem ser arrastadas e soltas diretamente em uma tabela de forma livre ou na barra superior do painel.
 
-      Esta categoria só estará disponível depois que o administrador aprovar os termos e condições do Contrato de Uso do Dynamic Reporting que serão exibidos na tela. Se o administrador recusar o contrato, os segmentos não estarão visíveis no **[!UICONTROL Components]** e os dados não serão coletados.
+     Esta categoria só estará disponível depois que o administrador aprovar os termos e condições do Contrato de Uso do Dynamic Reporting que serão exibidos na tela. Se o administrador recusar o contrato, os segmentos não estarão visíveis no **[!UICONTROL Components]** e os dados não serão coletados.
 
    * **Hora**: Defina um período para a tabela.
 

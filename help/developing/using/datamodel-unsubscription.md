@@ -27,39 +27,39 @@ ht-degree: 60%
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>Falso</td>
+                  <td>False</td>
                   <td>sequência de caracteres</td>
-                  <td>Falso</td>
+                  <td>False</td>
                </tr>
                <tr>
                   <td>ctx</td>
-                  <td>Falso</td>
+                  <td>False</td>
                   <td>Item</td>
-                  <td>Falso</td>
+                  <td>False</td>
                </tr>
                <tr>
                   <td>email</td>
-                  <td>Falso</td>
+                  <td>False</td>
                   <td>sequência de caracteres</td>
-                  <td>Falso</td>
+                  <td>False</td>
                </tr>
                <tr>
                   <td>emailFormat</td>
-                  <td>Falso</td>
+                  <td>False</td>
                   <td>enumeração</td>
-                  <td>Falso</td>
+                  <td>False</td>
                </tr>
                <tr>
                   <td>mobilePhone</td>
-                  <td>Falso</td>
+                  <td>False</td>
                   <td>sequência de caracteres</td>
-                  <td>Falso</td>
+                  <td>False</td>
                </tr>
                <tr>
                   <td>serverUrl</td>
-                  <td>Verdadeiro</td>
+                  <td>True</td>
                   <td>sequência de caracteres</td>
-                  <td>Falso</td>
+                  <td>False</td>
                </tr>
             </table>
 

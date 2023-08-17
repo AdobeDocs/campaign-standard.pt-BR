@@ -35,15 +35,15 @@ Para usar esse recurso, é necessário ter acesso às seguintes soluções/princ
 * Adobe Analytics Select, Prime, Ultimate, Premium, Foundation, OD, Aplicativos para dispositivos móveis ou Standard.
 * Serviço principal de acionadores da Experience Cloud
 
-   ![](assets/trigger_uc_prereq_1.png)
+  ![](assets/trigger_uc_prereq_1.png)
 
 * Serviço principal de DTM da Experience Cloud
 
-   ![](assets/trigger_uc_prereq_2.png)
+  ![](assets/trigger_uc_prereq_2.png)
 
 * ID de visitante da Experience Cloud e Serviço principal de Pessoas da Experience Cloud
 
-   ![](assets/trigger_uc_prereq_3.png)
+  ![](assets/trigger_uc_prereq_3.png)
 
 Também é necessário ter um site de trabalho.
 

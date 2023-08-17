@@ -147,9 +147,9 @@ No entanto, a exclusão de uma mensagem transacional só pode ser feita sob cert
 
 * **Mensagens transacionais**: a menos que outra mensagem transacional esteja vinculada ao evento correspondente, se a publicação da mensagem transacional for cancelada, a publicação da configuração do evento também precisará ser cancelada para excluir com êxito a mensagem transacional. Para obter mais informações, consulte [Cancelamento de publicação de evento](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 
-   >[!IMPORTANT]
-   >
-   >A exclusão de uma mensagem transacional que já enviou notificações também excluirá seus logs de rastreamento e envios.
+  >[!IMPORTANT]
+  >
+  >A exclusão de uma mensagem transacional que já enviou notificações também excluirá seus logs de rastreamento e envios.
 
 * **Mensagens transacionais de um modelo de evento pronto para uso (mensagens transacionais internas)**: se uma mensagem transacional interna for a única associada ao evento interno correspondente, ela não poderá ser excluída. Primeiro, você precisa criar outra mensagem transacional duplicando-a, ou pelo menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]**.
 

@@ -103,95 +103,95 @@ A filtragem é executada com a seguinte solicitação:
 
 * Exemplo de solicitação do GET para recuperar os recursos de &quot;serviço&quot; com o tipo &quot;email&quot;.
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
-   Resposta à solicitação.
+  Resposta à solicitação.
 
-   ```
-   {
-       "content": [
-           {
-               "PKey": "<PKEY>",
-               "created": "2019-09-25 23:20:35.000Z",
-               "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/@I_FIiDush4OQPc0mbOVR9USoh36Tt5CsD35lATvQjdWlXrYc0lFkvle2XIwZUbD8GqTVvSp8AfWFUvjkGMe1fPe5nok",
-               "label": "Marketing Newsletter",
-               "lastModified": "2019-09-25 23:20:35.000Z",
-               "limitedDuration": false,
-               "messageType": "email",
-               "mode": "newsletter",
-               ...
-           },
-           ...
-       ],
-       ...
-   }
-   ```
+  ```
+  {
+      "content": [
+          {
+              "PKey": "<PKEY>",
+              "created": "2019-09-25 23:20:35.000Z",
+              "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/@I_FIiDush4OQPc0mbOVR9USoh36Tt5CsD35lATvQjdWlXrYc0lFkvle2XIwZUbD8GqTVvSp8AfWFUvjkGMe1fPe5nok",
+              "label": "Marketing Newsletter",
+              "lastModified": "2019-09-25 23:20:35.000Z",
+              "limitedDuration": false,
+              "messageType": "email",
+              "mode": "newsletter",
+              ...
+          },
+          ...
+      ],
+      ...
+  }
+  ```
 
 * Exemplo de solicitação do GET para recuperar os recursos de &quot;perfil&quot; que contêm &quot;Concluído&quot; nos campos de email ou sobrenome (o filtro byText pesquisa nos campos de email e sobrenome).
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
-   Resposta à solicitação.
+  Resposta à solicitação.
 
-   ```
-   {
-       "content": [
-           {
-               "PKey": "<PKEY>",
-               "firstName": "John",
-               "lastName":"Doe",
-               "birthDate": "1980-10-24",
-               ...
-           }
-           ...
-       ],
-       ...
-   }
-   ```
+  ```
+  {
+      "content": [
+          {
+              "PKey": "<PKEY>",
+              "firstName": "John",
+              "lastName":"Doe",
+              "birthDate": "1980-10-24",
+              ...
+          }
+          ...
+      ],
+      ...
+  }
+  ```
 
 * Exemplo de solicitação do GET para recuperar os recursos de serviços com o tipo &quot;email&quot; e o rótulo &quot;sport&quot;.
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
-   Resposta à solicitação.
+  Resposta à solicitação.
 
-   ```
-   {
-       "content": [
-           {
-               "PKey": "<PKEY>",
-               "created": "2019-09-26 09:36:01.014Z",
-               "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>",
-               "label": "sport",
-               "lastModified": "2019-09-26 09:36:01.014Z",
-               "limitedDuration": false,
-               "messageType": "email",
-               "mode": "newsletter",
-               "name": "SVC13",
-               ...
-           }
-       ],
-       ...
-   }
-   ```
+  ```
+  {
+      "content": [
+          {
+              "PKey": "<PKEY>",
+              "created": "2019-09-26 09:36:01.014Z",
+              "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>",
+              "label": "sport",
+              "lastModified": "2019-09-26 09:36:01.014Z",
+              "limitedDuration": false,
+              "messageType": "email",
+              "mode": "newsletter",
+              "name": "SVC13",
+              ...
+          }
+      ],
+      ...
+  }
+  ```
 
 ## Filtros personalizados
 

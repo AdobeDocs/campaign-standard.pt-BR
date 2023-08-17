@@ -51,17 +51,17 @@ Para rastrear cliques, dois cenários devem ser implementados:
 
 * O usuário vê a notificação, mas a apaga.
 
-   Para rastrear cliques em caso de cenário de demissão, adicione o receptor da transmissão `NotificationDismissalHandler` no arquivo AndroidManifest do módulo do aplicativo.
+  Para rastrear cliques em caso de cenário de demissão, adicione o receptor da transmissão `NotificationDismissalHandler` no arquivo AndroidManifest do módulo do aplicativo.
 
-   ```
-   <receiver
-   android:name="com.adobe.marketing.mobile.NotificationDismissalHandler">
-   </receiver>
-   ```
+  ```
+  <receiver
+  android:name="com.adobe.marketing.mobile.NotificationDismissalHandler">
+  </receiver>
+  ```
 
 * O usuário vê a notificação e clica nela, isso se transformará em um rastreamento aberto.
 
-   Esse cenário deve produzir um clique e uma abertura. O rastreamento desse clique fará parte da implementação necessária para rastrear as aberturas. Consulte [Implementação do rastreamento aberto](#implement-open-tracking).
+  Esse cenário deve produzir um clique e uma abertura. O rastreamento desse clique fará parte da implementação necessária para rastrear as aberturas. Consulte [Implementação do rastreamento aberto](#implement-open-tracking).
 
 ### Para iOS {#implement-click-tracking-ios}
 

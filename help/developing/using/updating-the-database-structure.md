@@ -83,11 +83,11 @@ Você pode selecionar essa opção na tela da publicação.
 
 * Se a API ainda não tiver sido publicada (ou seja, se você nunca tiver estendido o recurso ou se ainda não tiver verificado essa opção para esse recurso ou outro recurso), você terá a opção de criá-la ou não.
 
-   ![](assets/create-profile-and-services-api.png)
+  ![](assets/create-profile-and-services-api.png)
 
 * Se a API já tiver sido publicada (ou seja, se você já tiver estendido o recurso e verificado essa opção uma vez), a atualização da API será forçada.
 
-   Na verdade, uma vez criada, a API é atualizada automaticamente cada vez que você a publica novamente. Isso evita quebrar o perfil ou o recurso de serviço dessa API e prejudicar a instância.
+  Na verdade, uma vez criada, a API é atualizada automaticamente cada vez que você a publica novamente. Isso evita quebrar o perfil ou o recurso de serviço dessa API e prejudicar a instância.
 
 Observe que, por padrão, o recurso personalizado é integrado, mas, para um comportamento específico, se você não quiser publicar esse recurso, poderá selecionar a opção **[!UICONTROL Hide this resource from APIs]**, disponível nas **[!UICONTROL Resource Properties]**.
 

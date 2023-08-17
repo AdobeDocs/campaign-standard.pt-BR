@@ -88,9 +88,9 @@ No span há dois atributos obrigatórios:
 
 * Outro é data-nl-expr, que é o caminho do campo de personalização. Por exemplo, se você inserir o campo de personalização &quot;firstName&quot; na interface, o caminho de navegação será **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (conforme mostrado na imagem abaixo). Nesse caso, o caminho será
 
-   ```
-   /context/profile/firstName. data-nl-expr="/context/profile/firstName".
-   ```
+  ```
+  /context/profile/firstName. data-nl-expr="/context/profile/firstName".
+  ```
 
 ![](assets/multilingual_push_2.png)
 

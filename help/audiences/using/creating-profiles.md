@@ -51,8 +51,8 @@ Por exemplo, para criar um novo perfil diretamente na interface do usuário, sig
    * O perfil **[!UICONTROL Time zone]** é usado para enviar deliveries no fuso horário do perfil. Para obter mais informações, consulte esta [seção](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
    * A categoria **[!UICONTROL Channels]**, que contém o endereço de email, o número do telefone celular e as informações de recusa, informa em qual canal o perfil pode ser acessado.
 
-      >[!NOTE]
-      > Os números de telefone celular devem estar sempre em formato internacional (`+<country><number>`) na tabela de perfis.
+     >[!NOTE]
+     > Os números de telefone celular devem estar sempre em formato internacional (`+<country><number>`) na tabela de perfis.
 
    * A categoria **[!UICONTROL No longer contact]** é atualizada assim que o perfil cancela a assinatura em um canal.
    * A categoria **[!UICONTROL Address]** contém o CEP que precisa ser preenchido junto com a opção **[!UICONTROL Address specified]** para enviar [correspondência direta](../../channels/using/about-direct-mail.md) para esse perfil. Se a opção **[!UICONTROL Address specified]** não estiver marcada, esse perfil será excluído de todos os deliveries de correspondência direta.

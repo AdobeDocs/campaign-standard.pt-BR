@@ -26,7 +26,7 @@ A atividade **[!UICONTROL Wait]** suspende temporariamente a execução de uma p
 
 ## Contexto de uso {#context-of-use}
 
-A atividade **[!UICONTROL Wait]** é usada para permitir que um determinado período transcorra entre duas atividades que estão sendo executadas. Por exemplo, a espera de vários dias após uma atividade de delivery de email para depois analisar as aberturas e os cliques gerados durante esse período antes de executar qualquer operação de acompanhamento (email de lembrete, criação de uma público-alvo etc.).
+A atividade **[!UICONTROL Wait]** é usada para permitir que um determinado período transcorra entre duas atividades que estão sendo executadas. Por exemplo, a espera de vários dias após uma atividade de entrega de email para depois analisar as aberturas e os cliques gerados durante esse período antes de executar qualquer operação de acompanhamento (email de lembrete, criação de público-alvo, etc.).
 
 ## Configuração {#configuration}
 

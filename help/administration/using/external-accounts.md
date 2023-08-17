@@ -142,9 +142,9 @@ Como você está configurando essa nova conta externa, é necessário fornecer o
 
 * Servidor: insira o URL do servidor Adobe Experience Manager. Por exemplo:
 
-   ```
-   http://aem.domain.com:4502
-   ```
+  ```
+  http://aem.domain.com:4502
+  ```
 
 * Credenciais da conta do AEM: use a conta que acessará a instância do Adobe Experience Manager. Ela deve ser uma parte da conta do grupo remoto de campanhas no Experience Manager.
 
@@ -165,7 +165,7 @@ Para uma conta externa do Google reCAPTCHA V3, forneça os seguintes detalhes:
 * Seu **[!UICONTROL Site key]** e **[!UICONTROL Site secret]**
 * Um **[!UICONTROL Threshold]** entre 0 e 1
 
-   O valor **[!UICONTROL Threshold]** 0,0 significa que provavelmente é um bot e 1,0 é provavelmente uma boa interação. Por padrão, você pode usar um limite de 0,5.
+  O valor **[!UICONTROL Threshold]** 0,0 significa que provavelmente é um bot e 1,0 é provavelmente uma boa interação. Por padrão, você pode usar um limite de 0,5.
 
 ![](assets/external_accounts_3.png)
 

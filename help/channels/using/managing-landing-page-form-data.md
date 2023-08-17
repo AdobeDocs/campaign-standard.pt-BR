@@ -102,15 +102,15 @@ Para fazer isso, siga as etapas abaixo:
 
    * Selecione um bloco e, na caixa suspensa **[!UICONTROL Form data]** escolha **[!UICONTROL Checkbox]** como o tipo de campo.
 
-      ![](assets/lp_field-type-checkbox.png)
+     ![](assets/lp_field-type-checkbox.png)
 
    * Se você estiver familiarizado com o HTML, também poderá inserir uma caixa de seleção manualmente usando o **[!UICONTROL Show source]** botão.
 
-      ![](assets/lp_show_source.png)
+     ![](assets/lp_show_source.png)
 
-      Isso permite inserir a caixa de seleção sempre que for conveniente na página.
+     Isso permite inserir a caixa de seleção sempre que for conveniente na página.
 
-      ![](assets/lp_manual-checkbox.png)
+     ![](assets/lp_manual-checkbox.png)
 
 1. Verifique se a caixa de seleção está marcada no conteúdo. A variável **[!UICONTROL Type]** é exibida na janela **[!UICONTROL Form data]** seção da paleta esquerda. Selecione **[!UICONTROL Service and subscription]** na lista.
 
@@ -150,13 +150,13 @@ Para inserir e configurar essa caixa de seleção, faça o seguinte:
 
    * Selecione um bloco e, na caixa suspensa **[!UICONTROL Form data]** escolha **[!UICONTROL Checkbox]** como o tipo de campo.
 
-      ![](assets/lp_field-type-checkbox.png)
+     ![](assets/lp_field-type-checkbox.png)
 
    * Se você estiver familiarizado com o HTML, também poderá inserir uma caixa de seleção manualmente usando o **[!UICONTROL Show source]** botão.
 
-      ![](assets/lp_show_source.png)
+     ![](assets/lp_show_source.png)
 
-      <!--Manually insert a checkbox, such as in the example below:
+     <!--Manually insert a checkbox, such as in the example below:
 
       <!--Click **[!UICONTROL Hide source]**.-->
 

@@ -42,7 +42,7 @@ A atividade **Update data** pode ser usada após a importação de um arquivo pa
    * **[!UICONTROL Insert or update]**: inserir dados ou atualizá-los se já existirem registros no banco de dados.
    * **[!UICONTROL Insert only]**: inserir somente dados. Os registros que já existem não são atualizados. Se os critérios de reconciliação forem definidos, somente os registros não reconciliados serão adicionados.
 
-      Marque a caixa **[!UICONTROL Generate an outbound transition for rejects]** se os dados importados contiverem determinados registros que já existem no banco de dados para evitar possíveis erros.
+     Marque a caixa **[!UICONTROL Generate an outbound transition for rejects]** se os dados importados contiverem determinados registros que já existem no banco de dados para evitar possíveis erros.
 
    * **[!UICONTROL Update]**: atualizar os dados dos registros que já existem somente no banco de dados.
    * **[!UICONTROL Delete]**: excluir dados.

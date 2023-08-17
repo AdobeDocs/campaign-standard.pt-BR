@@ -27,4 +27,4 @@ Este relatório contém dados relacionados à taxa de transferência de delivery
 
 >[!NOTE]
 >
->A variável **[!UICONTROL Delivery throughput]** exibe a velocidade da taxa de transferência para o relé de suas mensagens do Campaign para o MTA aprimorado do Adobe Campaign (Agente de transferência de mensagem).
+>A variável **[!UICONTROL Delivery throughput]** exibe a velocidade da taxa de transferência para o relé de suas mensagens do Campaign para o MTA aprimorado do Adobe Campaign (Agente de Transferência de Mensagem).

@@ -25,7 +25,7 @@ Os pré-requisitos são:
 
 * **Um ou vários recursos personalizados** que estão disponíveis e publicados.
 
-   Além disso, é preciso que haja uma chave exclusiva definida para esses recursos, pois as chaves primárias automáticas não são exportadas nos pacotes. O recurso pode, portanto, ter uma chave primária e uma chave única adicional para garantir a exclusividade dos registros.
+  Além disso, é preciso que haja uma chave exclusiva definida para esses recursos, pois as chaves primárias automáticas não são exportadas nos pacotes. O recurso pode, portanto, ter uma chave primária e uma chave única adicional para garantir a exclusividade dos registros.
 * **Os direitos necessários** para criar e exportar um pacote.
 
 Recursos adicionais:

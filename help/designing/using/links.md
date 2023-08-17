@@ -35,16 +35,16 @@ Você pode inserir um link em qualquer elemento de página: imagem, palavra, gru
 
    * **Link externo**: insira um link para um URL externo.
 
-      Você pode definir a personalização de seus URLs. Consulte [Personalização de URLs](personalization.md#personalizing-urls).
+     Você pode definir a personalização de seus URLs. Consulte [Personalização de URLs](personalization.md#personalizing-urls).
 
    * **Landing page**: conceda acesso a uma landing page do Adobe Campaign.
    * **Link de assinatura**: insira um link para assinar um serviço do Adobe Campaign.
    * **Link de cancelamento de subscrição**: insira um link para cancelar a assinatura de um serviço do Adobe Campaign.
    * **Link que define uma ação**: define uma ação quando um elemento na página de aterrissagem é clicado.
 
-      >[!NOTE]
-      >
-      >Esse tipo de link só está disponível para landing pages.
+     >[!NOTE]
+     >
+     >Esse tipo de link só está disponível para landing pages.
 
 1. Você pode modificar o texto exibido para o recipient.
 1. Você pode definir o comportamento do navegador quando o usuário clicar no link (por exemplo, abrir uma nova janela).

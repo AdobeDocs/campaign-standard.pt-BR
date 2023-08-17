@@ -25,7 +25,7 @@ A tela de configuração de email permite definir os parâmetros do canal de ema
 
 * **Campos de máscaras autorizados**
 
-   A seção **[!UICONTROL Header parameters of sent emails]** lista os endereços de email autorizados que você pode usar para enviar emails para os seus recipients (endereço do remetente) e permitir que eles enviem respostas automatizadas, como rejeições assíncronas, respostas fora do escritório etc. (endereço de erro).  O Adobe Campaign verifica se os endereços inseridos são válidos durante a fase de preparação da mensagem. Esse modo operacional garante que não sejam usados endereços que possam causar problemas de entrega.
+  A seção **[!UICONTROL Header parameters of sent emails]** lista os endereços de email autorizados que você pode usar para enviar emails para os seus recipients (endereço do remetente) e permitir que eles enviem respostas automatizadas, como rejeições assíncronas, respostas fora do escritório etc. (endereço de erro).  O Adobe Campaign verifica se os endereços inseridos são válidos durante a fase de preparação da mensagem. Esse modo operacional garante que não sejam usados endereços que possam causar problemas de entrega.
    * O endereço de remetente e de erro são configurados pela Adobe. Esses campos não podem estar vazios.
    * Não é possível editar esses campos. Para atualizar um endereço, entre em contato com a equipe de Atendimento ao cliente da Adobe.
    * Para adicionar outro endereço, é possível usar [Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=pt-BR) para configurar um novo subdomínio ou entre em contato com a equipe de Atendimento ao cliente do Adobe. Observe que, se forem usadas várias máscaras, elas serão separadas por vírgulas.
@@ -33,39 +33,39 @@ A tela de configuração de email permite definir os parâmetros do canal de ema
 
 * **Avaliação do delivery**
 
-   A **[!UICONTROL Delivery reports ID]** é fornecida pela equipe de Atendimento ao cliente da Adobe. Ela identifica cada instância com uma ID de avaliação do delivery, usada nos relatórios técnicos de avaliação do delivery.
-   <!--The Technical Deliverability report is not accessible through the UI in ACS. It will be replaced with 250ok in the future (project starting).-->
+  A **[!UICONTROL Delivery reports ID]** é fornecida pela equipe de Atendimento ao cliente da Adobe. Ela identifica cada instância com uma ID de avaliação do delivery, usada nos relatórios técnicos de avaliação do delivery.
+  <!--The Technical Deliverability report is not accessible through the UI in ACS. It will be replaced with 250ok in the future (project starting).-->
 
 * **Parâmetros do delivery**
 
-   O Adobe Campaign envia as mensagens começando pela data inicial.
+  O Adobe Campaign envia as mensagens começando pela data inicial.
 
-   Quando uma mensagem em um delivery é rejeitada devido a um erro temporário ou uma rejeição temporária, o Campaign tenta enviar essa mensagem novamente todos os dias. Use o **[!UICONTROL Message delivery duration]** para especificar o período durante as tentativas.
+  Quando uma mensagem em um delivery é rejeitada devido a um erro temporário ou uma rejeição temporária, o Campaign tenta enviar essa mensagem novamente todos os dias. Use o **[!UICONTROL Message delivery duration]** para especificar o período durante as tentativas.
 
-   >[!IMPORTANT]
-   >
-   >**Esse parâmetro no Campaign agora só é usado se for definido para 3,5 dias ou menos.** Se você definir um valor superior a 3,5 dias, ele não será considerado.
+  >[!IMPORTANT]
+  >
+  >**Esse parâmetro no Campaign agora só é usado se for definido para 3,5 dias ou menos.** Se você definir um valor superior a 3,5 dias, ele não será considerado.
 
-   O campo **[!UICONTROL Online resources validity duration]** é usado para recursos dos quais foram feitos upload, principalmente para mirror pages e imagens. Os recursos desta página são válidos por um tempo limitado (para economizar espaço em disco).
+  O campo **[!UICONTROL Online resources validity duration]** é usado para recursos dos quais foram feitos upload, principalmente para mirror pages e imagens. Os recursos desta página são válidos por um tempo limitado (para economizar espaço em disco).
 
 * **Tentativas**
 
-   As mensagens temporariamente não entregues estão sujeitas a uma nova tentativa automática. Para obter mais informações, consulte [Tentativas após uma falha temporária de delivery](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+  As mensagens temporariamente não entregues estão sujeitas a uma nova tentativa automática. Para obter mais informações, consulte [Tentativas após uma falha temporária de delivery](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-   >[!IMPORTANT]
-   >
-   >O número máximo de tentativas a serem executadas e o atraso mínimo entre tentativas agora se baseiam no desempenho histórico e atual de um IP em um determinado domínio. A variável **[!UICONTROL Retry period]** e **[!UICONTROL Number of retries]** As configurações no Campaign serão ignoradas.
+  >[!IMPORTANT]
+  >
+  >O número máximo de tentativas a serem executadas e o atraso mínimo entre tentativas agora se baseiam no desempenho histórico e atual de um IP em um determinado domínio. A variável **[!UICONTROL Retry period]** e **[!UICONTROL Number of retries]** As configurações no Campaign serão ignoradas.
 
-   <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
+  <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
 * **Parâmetros de quarentena de emails**
 
-   No campo **[!UICONTROL Time between two significant errors]**, insira um valor para definir o tempo que o aplicativo aguarda antes de incrementar o contador de erros, no caso de uma falha provocada por rejeição temporária. O valor padrão é **&quot;1d&quot;**, para 1 dia.
+  No campo **[!UICONTROL Time between two significant errors]**, insira um valor para definir o tempo que o aplicativo aguarda antes de incrementar o contador de erros, no caso de uma falha provocada por rejeição temporária. O valor padrão é **&quot;1d&quot;**, para 1 dia.
 
-   Quando o valor **[!UICONTROL Maximum number of errors before quarantine]** é atingido, o endereço de email é colocado em quarentena. O valor padrão é **&quot;5&quot;**: o endereço é colocado em quarentena no quinto erro. Isso significa que o contato será automaticamente excluído dos próximos deliveries.
-   <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
+  Quando o valor **[!UICONTROL Maximum number of errors before quarantine]** é atingido, o endereço de email é colocado em quarentena. O valor padrão é **&quot;5&quot;**: o endereço é colocado em quarentena no quinto erro. Isso significa que o contato será automaticamente excluído dos próximos deliveries.
+  <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
 
-   Para obter mais informações sobre quarentena, consulte [Entendendo o gerenciamento de quarentenas](../../sending/using/understanding-quarantine-management.md).
+  Para obter mais informações sobre quarentena, consulte [Entendendo o gerenciamento de quarentenas](../../sending/using/understanding-quarantine-management.md).
 
 ## Contas de roteamento de emails {#email-routing-accounts}
 
@@ -169,9 +169,9 @@ Você pode configurar o formato de emails que serão enviados. Há três opçõe
 * **Usar preferências do recipient** (modo padrão): o formato da mensagem é definido de acordo com os dados armazenados no perfil do recipient e armazenado por padrão no campo **Formato do email** (@emailFormat). Se um recipient quiser receber mensagens em um determinado formato, esse será o formato enviado. Se o campo não estiver finalizado, uma mensagem multipart-alternative será enviada (veja abaixo).
 * **Permitir que o cliente de email do recipient escolha o formato mais apropriado (multipart-alternative)**: a mensagem contém ambos os formatos: texto e HTML. O formato exibido no recebimento depende da configuração do software de email do recipient (multipart-alternative).
 
-   >[!IMPORTANT]
-   >
-   >Essa opção inclui ambas as versões da mensagem. Portanto, isso afeta a taxa de delivery, pois o tamanho da mensagem é maior.
+  >[!IMPORTANT]
+  >
+  >Essa opção inclui ambas as versões da mensagem. Portanto, isso afeta a taxa de delivery, pois o tamanho da mensagem é maior.
 
 * **Enviar todas as mensagens no formato de texto**: a mensagem é enviada em formato de texto. O formato HTML não será enviado, mas usado somente para a mirror page quando o recipient clicar na mensagem.
 
@@ -200,17 +200,17 @@ A seção **[!UICONTROL Validity period]** contém os seguintes parâmetros:
 
 * **[!UICONTROL Explicitly set validity dates]**: quando essa caixa estiver desmarcada, você deve inserir uma duração nos campos **[!UICONTROL Delivery duration]** e **[!UICONTROL Resource validity limit]**.
 
-   Marque essa caixa se desejar definir datas e horários específicos.
+  Marque essa caixa se desejar definir datas e horários específicos.
 
-   ![](assets/delivery-set-explicit-dates.png)
+  ![](assets/delivery-set-explicit-dates.png)
 
 * **[!UICONTROL Delivery duration]** / **[!UICONTROL Validity limit for sending messages]**: o Adobe Campaign envia as mensagens que começam na data inicial. Use esse campo para especificar o período durante o qual as mensagens podem ser enviadas.
 
-   >[!IMPORTANT]
-   >
-   >**É necessário definir um valor de até 3,5 dias.** Se você definir um valor superior a 3,5 dias, ele não será considerado.
-   >
-   >O parâmetro **[!UICONTROL Delivery duration]** não se aplica a mensagens transacionais. Para obter mais informações, consulte [esta seção](../../channels/using/getting-started-with-transactional-msg.md).
+  >[!IMPORTANT]
+  >
+  >**É necessário definir um valor de até 3,5 dias.** Se você definir um valor superior a 3,5 dias, ele não será considerado.
+  >
+  >O parâmetro **[!UICONTROL Delivery duration]** não se aplica a mensagens transacionais. Para obter mais informações, consulte [esta seção](../../channels/using/getting-started-with-transactional-msg.md).
 
 * **[!UICONTROL Resource validity duration]****[!UICONTROL Validity limit date for resources]**: esse campo é usado para recursos dos quais foi feito upload, principalmente para a mirror page e imagens. Os recursos desta página são válidos por um tempo limitado (para economizar espaço em disco).
 * **[!UICONTROL Mirror page management]**: a mirror page é uma página HTML acessível online por um navegador da Web. Seu conteúdo é idêntico ao conteúdo do email. Por padrão, a mirror page é gerada se o link for inserido no conteúdo do email. Use este campo para modificar como esta página é gerada:
@@ -220,9 +220,10 @@ A seção **[!UICONTROL Validity period]** contém os seguintes parâmetros:
    * **Não gerar a mirror page**: nenhuma mirror page é gerada, mesmo se o link estiver presente nas mensagens.
    * **Gerar uma mirror page acessível usando somente a ID de mensagem**: essa opção permite acessar o conteúdo da mirror page, com informações de personalização, na janela de log do delivery.
 
-   >[!IMPORTANT]
-   >
-   >A mirror page é gerada somente se um conteúdo de HTML tiver sido definido para o email.
+  >[!IMPORTANT]
+  >
+  >A mirror page é gerada somente se um conteúdo de HTML tiver sido definido para o email.
+  >
 
 
 ### Parâmetros de rastreamento {#tracking-parameters}
@@ -264,13 +265,13 @@ A preparação de mensagens está detalhada na seção [Aprovação de mensagens
 
 * **[!UICONTROL Typology]**: antes de qualquer envio, as mensagens devem ser preparadas para validar o conteúdo e a configuração. As regras de verificação aplicadas durante a fase de preparação são definidas em uma **tipologia**. Por exemplo, para emails, a preparação envolve a verificação do assunto, URLs e imagens etc. Selecione a tipologia que será aplicada neste campo.
 
-   >[!NOTE]
-   >
-   >As tipologias, que podem ser acessadas pelo menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]**, são apresentadas [nesta seção](../../sending/using/about-typology-rules.md).
+  >[!NOTE]
+  >
+  >As tipologias, que podem ser acessadas pelo menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]**, são apresentadas [nesta seção](../../sending/using/about-typology-rules.md).
 
 * **[!UICONTROL Compute the label during delivery preparation]**: use essa opção para calcular o valor do rótulo do email durante a fase de preparação da mensagem usando campos de personalização, blocos de conteúdo e texto dinâmico.
 
-   Também é possível personalizar o rótulo do delivery com variáveis de eventos que foram declaradas para a atividade de sinal externo do fluxo de trabalho. Para obter mais informações, consulte [esta seção](../../automating/using/calling-a-workflow-with-external-parameters.md).
+  Também é possível personalizar o rótulo do delivery com variáveis de eventos que foram declaradas para a atividade de sinal externo do fluxo de trabalho. Para obter mais informações, consulte [esta seção](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 * **[!UICONTROL Save SQL queries in the log]**: use essa opção para adicionar logs de consultas SQL no journal durante a fase de preparação.
 
@@ -286,9 +287,9 @@ A seção **[!UICONTROL SMTP]** contém os seguintes parâmetros:
 * **[!UICONTROL Bounce mails]**: por padrão, os emails de rejeição são recebidos na caixa de entrada de erro da plataforma (definida na tela **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Configuration]**). Para definir um endereço de erro específico para um email, insira o endereço no campo **[!UICONTROL Error address]**.
 * **[!UICONTROL Additional SMTP headers]**: essa opção permite que cabeçalhos SMTP adicionais sejam adicionados às suas mensagens. O script inserido no campo **[!UICONTROL Headers]** deve referenciar um cabeçalho por linha no formato de **name:value**. Os valores são codificados automaticamente se necessário.
 
-   >[!IMPORTANT]
-   >
-   >Adicionar um script para inserir cabeçalhos SMTP adicionais é apenas para usuários avançados. A sintaxe desse script deve estar em conformidade com os requisitos desse tipo de conteúdo: não há espaço não utilizado, nenhuma linha vazia etc.
+  >[!IMPORTANT]
+  >
+  >Adicionar um script para inserir cabeçalhos SMTP adicionais é apenas para usuários avançados. A sintaxe desse script deve estar em conformidade com os requisitos desse tipo de conteúdo: não há espaço não utilizado, nenhuma linha vazia etc.
 
 ### Lista dos parâmetros de autorização de acesso {#list-of-access-authorization-parameters}
 
@@ -296,9 +297,9 @@ A seção **[!UICONTROL Access authorization]** contém os seguintes parâmetros
 
 * A variável **[!UICONTROL Organizational unit]** é usado para restringir o acesso a esse email a determinados usuários. Os usuários associados à unidade especificada ou às unidades principais terão acesso de leitura e gravação a este email. Os usuários associados às unidades secundárias terão acesso de leitura somente a este email.
 
-   >[!NOTE]
-   >
-   >Você pode configurar unidades organizacionais por meio do menu **Administração** > **Usuários e Segurança**.
+  >[!NOTE]
+  >
+  >Você pode configurar unidades organizacionais por meio do menu **Administração** > **Usuários e Segurança**.
 
 * Os campos **[!UICONTROL Created by]**, **[!UICONTROL Created]**, **[!UICONTROL Modified by]** e **[!UICONTROL Last modified]** são automaticamente preenchidos.
 

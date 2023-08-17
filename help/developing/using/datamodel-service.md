@@ -10,7 +10,7 @@ exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 41%
+ht-degree: 42%
 
 ---
 
@@ -159,7 +159,7 @@ ht-degree: 41%
                </tr>
                <tr>
                   <td>publicLabel</td>
-                  <td>Rótulo do serviço</td>
+                  <td>Rótulo de serviço</td>
                   <td>sequência de caracteres (128)</td>
                   <td> </td>
                </tr>

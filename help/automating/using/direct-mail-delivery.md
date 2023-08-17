@@ -58,11 +58,11 @@ A preparação da mensagem é acionada de acordo com os parâmetros de execuçã
    * **[!UICONTROL Direct mail]**: a correspondência direta é enviada uma única vez. Aqui, você pode especificar se deseja ou não adicionar uma transição de saída à atividade. Os diferentes tipos de transições estão detalhados na etapa 7 deste procedimento.
    * **[!UICONTROL Recurring direct mail]**: a correspondência direta é enviada várias vezes, de acordo com a frequência definida em uma atividade **[!UICONTROL Scheduler]**. Selecione o período de agregação dos envios. Você pode agrupar todos os envios que ocorrerem durante o período definido em uma única correspondência direta, também chamada de **Execução recorrente**, e que pode ser acessada na lista de atividade de marketing do aplicativo.
 
-      Por exemplo, para uma mensagem de aniversário recorrente, que é processada diariamente, você pode optar pela agregação dos envios por mês. Ela permite receber relatórios sobre o delivery mensalmente, embora a correspondência seja processada todos os dias.
+     Por exemplo, para uma mensagem de aniversário recorrente, que é processada diariamente, você pode optar pela agregação dos envios por mês. Ela permite receber relatórios sobre o delivery mensalmente, embora a correspondência seja processada todos os dias.
 
-      >[!NOTE]
-      >
-      >Para malas diretas recorrentes, um novo arquivo é gerado em cada execução do workflow. O período de agregação selecionado não afeta esse comportamento.
+     >[!NOTE]
+     >
+     >Para malas diretas recorrentes, um novo arquivo é gerado em cada execução do workflow. O período de agregação selecionado não afeta esse comportamento.
 
 1. Selecione um tipo de correspondência direta. Os tipos de correspondência direta vêm de templates definidos no menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Insira as propriedades gerais da correspondência direta. Também é possível anexá-la a uma campanha existente. O rótulo da atividade de delivery do workflow é atualizado com o rótulo da correspondência direta.

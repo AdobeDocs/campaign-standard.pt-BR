@@ -49,7 +49,7 @@ As etapas de exportação de pacote são descritas na seção [Exportação de u
 * O pacote **[!UICONTROL Platform]** reúne todos os recursos adicionados durante a configuração técnica: recursos personalizados, conjuntos de recursos personalizados, acionadores e opções de aplicativo com o tipo **[!UICONTROL System]**.
 * O pacote **[!UICONTROL Administration]** agrupa todos os objetos adicionados durante a configuração dos negócios como: templates de campanha, templates de conteúdo, templates de delivery, templates de landing page, templates de programa e templates de fluxo de trabalho.
 
-   Ele também inclui estes objetos: blocos de conteúdo, target mappings, contas externas, unidades organizacionais, opções de aplicativo com o tipo **[!UICONTROL User]**, funções, tipologias, regras de tipologia e usuários.
+  Ele também inclui estes objetos: blocos de conteúdo, target mappings, contas externas, unidades organizacionais, opções de aplicativo com o tipo **[!UICONTROL User]**, funções, tipologias, regras de tipologia e usuários.
 
 >[!NOTE]
 >
@@ -112,11 +112,11 @@ Quando a operação for concluída, várias seções serão exibidas:
 
 * **[!UICONTROL Export status]**: esta seção mostra se a operação foi realizada corretamente.
 
-   ![](assets/packages_6.png)
+  ![](assets/packages_6.png)
 
 * Você pode consultar as diferentes etapas da exportação na guia **[!UICONTROL Log]**. Ela contém os status de todas as exportações anteriores.
 
-   ![](assets/packages_7.png)
+  ![](assets/packages_7.png)
 
 >[!NOTE]
 >
@@ -168,7 +168,7 @@ Quando a operação for concluída, várias seções serão exibidas:
 * **[!UICONTROL Import status]**: esta seção mostra se a operação foi realizada corretamente.
 * Você pode consultar as diferentes etapas da importação na guia **[!UICONTROL Execution logs]**. Isso é particularmente importante para ver os erros.
 
-   ![](assets/packages_20.png)
+  ![](assets/packages_20.png)
 
 Depois que um pacote for importado, não será possível importá-lo novamente do mesmo elemento. Você só poderá modificar o rótulo e a ID dele.
 

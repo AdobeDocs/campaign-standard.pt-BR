@@ -25,7 +25,7 @@ Para garantir que seus emails cheguem aos recipients e melhorem a taxa de capaci
 Siga os princípios listados abaixo ao criar o conteúdo da mensagem:
 
 * [Nome e endereço do remetente](#sender-name): o endereço deve identificar explicitamente o remetente. O domínio deve ser de propriedade do remetente e registrado por ele. O registro de domínio não deve ser privatizado.
-   <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
+  <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
 * [Personalização e otimização de tempo de envio](#perso-send-time-optimization): personalizar o conteúdo e definir um tempo de envio por recipient aumenta as chances de sua mensagem ser aberta.
 * Imagens e texto: respeitar uma proporção adequada de texto/imagem (por exemplo, 60% de texto e 40% de imagens).
 * [Link de unsubscription ](#opt-out) e landing page: o link de unsubscription é essencial. Deve ser visível e válido e o formulário deve ser funcional.

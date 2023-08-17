@@ -57,7 +57,7 @@ Antes de personalizar sua notificação por push multilíngue, primeiro precisam
 
    ![](assets/push_notif_audience.png)
 
-1. No **[!UICONTROL Manage Content Variants]** , arraste e solte o arquivo ou selecione um arquivo do seu computador.
+1. No **[!UICONTROL Manage Content Variants]** , arraste e solte o arquivo ou selecione um arquivo do computador.
 
    O arquivo deve ser codificado em UTF8 e deve ter um layout específico que pode ser encontrado clicando no link **[!UICONTROL Download the sample file]** opção. Você também deve usar a sintaxe apropriada para valores de local. Para obter mais informações sobre o formato de arquivo e as localidades suportadas, consulte esta página [página](../../channels/using/generating-csv-multilingual-push.md).
 

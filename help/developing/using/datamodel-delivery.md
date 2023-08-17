@@ -341,14 +341,14 @@ ht-degree: 31%
                   <td> </td>
                </tr>
                <tr>
-                  <td>principal (deliveryBase)</td>
-                  <td>instância principal</td>
+                  <td>mestre (deliveryBase)</td>
+                  <td>Instância principal</td>
                   <td>Link  </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>masterKpis</td>
-                  <td>indicadores principais</td>
+                  <td>Indicadores mestres</td>
                   <td>Item </td>
                   <td> </td>
                </tr>

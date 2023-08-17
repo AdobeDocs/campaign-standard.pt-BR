@@ -42,7 +42,7 @@ Para criar o workflow, siga estas etapas:
    * Arraste e solte a **Logs do delivery (logs)** elemento no espaço de trabalho e selecione **Existe** para direcionar todos os clientes que receberam o email.
    * Arraste e solte a **Logs de rastreamento (rastreamento)** elemento no espaço de trabalho e selecione **Não existe** para direcionar todos os clientes que não abriram o email.
 
-      ![](assets/wkf_push_example_2.png)
+     ![](assets/wkf_push_example_2.png)
 
 1. A variável [Entrega por notificação por push](../../automating/using/push-notification-delivery.md) A atividade permite inserir o conteúdo da mensagem e selecionar os campos de personalização que deseja usar:
 
@@ -51,7 +51,7 @@ Para criar o workflow, siga estas etapas:
    * No **[!UICONTROL Schedule]** bloco, selecione **[!UICONTROL Messages to be sent automatically on the time zone specified below]**. Aqui, escolhemos o **[!UICONTROL Time zone of the contact date]** Pacífico como no workflow **[!UICONTROL Scheduler]**.
    * No campo **[!UICONTROL Optimize the sending time per recipient]**, selecione **[!UICONTROL Send at the recipient's time zone]**.
 
-      ![](assets/wkf_push_example_4.png)
+     ![](assets/wkf_push_example_4.png)
 
 1. Clique em **[!UICONTROL Start]** botão para iniciar seu fluxo de trabalho recorrente.
 

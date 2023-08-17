@@ -62,7 +62,7 @@ Você pode usar essa atividade para recuperar dados que serão estruturados com 
 
    * **[!UICONTROL Sorting files]**: permite classificar arquivos alfanumericamente. Essa opção está desabilitada por padrão.
 
-      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
+     <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
    * **[!UICONTROL List all files]**: essa opção está disponível ao selecionar a variável **[!UICONTROL File listing]** ação no **[!UICONTROL General]** guia. Ela permite indexar todos os arquivos no servidor na variável de evento **vars.filenames** na qual os nomes de arquivo são separados pelos caracteres **&#39;n&#39;**.
 

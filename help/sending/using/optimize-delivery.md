@@ -30,7 +30,7 @@ Vários fatores podem afetar diretamente o desempenho do servidor e retardar a p
 
 * A carga do servidor: quando o Campaign estiver lidando com várias tarefas diferentes ao mesmo tempo, o desempenho poderá ser retardado. O servidor de precisa coordenar todos os dados de entrada e saída de todos os deliveries para garantir que os dados estejam corretos no momento correto.
 
-   **Dica** - Para evitar isso, coordene a programação de deliveries com os outros membros da equipe, garantindo um melhor desempenho.
+  **Dica** - Para evitar isso, coordene a programação de deliveries com os outros membros da equipe, garantindo um melhor desempenho.
 
 * A variável [execução do fluxo de trabalho](../../automating/using/about-workflow-execution.md): monitorar os workflows é essencial para evitar problemas de desempenho na plataforma. Siga as diretrizes listadas [nesta página](../../automating/using/monitoring-workflow-execution.md). Saiba mais na [práticas recomendadas de workflow](../../automating/using/best-practices-workflows.md) seção.
 

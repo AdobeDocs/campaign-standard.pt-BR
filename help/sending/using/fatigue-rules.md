@@ -99,9 +99,9 @@ Os seguintes canais estão disponíveis:
 * Correspondência direta
 * Aplicativo para dispositivos móveis: esse canal permite enviar notificações por push a perfis ou assinantes de aplicativos. Se a opção for enviar notificações a perfis, elas serão compatíveis com as regras de fadiga de vários canais.
 
-   >[!IMPORTANT]
-   >
-   >As regras de fadiga não são compatíveis com as notificações por push enviadas aos assinantes de aplicativos. Se você estiver enviando mensagens para assinantes de aplicativos, as regras de fadiga não são aplicáveis.
+  >[!IMPORTANT]
+  >
+  >As regras de fadiga não são compatíveis com as notificações por push enviadas aos assinantes de aplicativos. Se você estiver enviando mensagens para assinantes de aplicativos, as regras de fadiga não são aplicáveis.
 
 * Todos os canais: essa opção permite aplicar a regra a todos os canais. Por exemplo, você pode decidir enviar no máximo 3 mensagens por mês em qualquer canal. Se você enviou dois emails para um perfil na semana passada e tentar enviar uma notificação por push hoje, o mesmo perfil será excluído.
 
@@ -135,11 +135,11 @@ Depois você tem duas opções:
 
 * selecionar um campo de perfil: o limite varia para cada perfil de acordo com o campo selecionado. Por exemplo, se você tiver estendido o recurso de perfis com um campo &quot;Frequência de comunicação&quot;, clique no botão à direita do campo **[!UICONTROL Threshold computation formula]** e selecione seu campo. Para cada perfil, o limite usa o valor do campo &quot;Frequência de comunicação&quot;.
 
-   ![](assets/fatigue21.png)
+  ![](assets/fatigue21.png)
 
 * definir uma fórmula: clique no segundo botão à direita do campo **[!UICONTROL Threshold computation formula]** para definir uma fórmula de cálculo de limite avançada. Por exemplo, você pode indexar o número de mensagens autorizadas de acordo com o segmento ao qual o perfil pertence. Isso significa que um perfil pertencente ao segmento “Web” pode receber mais mensagens do que outros perfis. Uma fórmula do tipo **[!UICONTROL Iif (@origin='Web', 5, 3)]** autoriza o delivery de 5 mensagens para perfis do segmento da Web e 3 para outros segmentos.
 
-   ![](assets/fatigue14.png)
+  ![](assets/fatigue14.png)
 
 **Refinamento do limite em perfis e deliveries**
 
@@ -176,15 +176,15 @@ Três guias estão disponíveis, mostrando os detalhes dos resultados da execuç
 
 * Logs do delivery:
 
-   ![](assets/fatigue17.png)
+  ![](assets/fatigue17.png)
 
 * Logs de exclusão:
 
-   ![](assets/fatigue18.png)
+  ![](assets/fatigue18.png)
 
 * Causas de exclusão:
 
-   ![](assets/fatigue19.png)
+  ![](assets/fatigue19.png)
 
 ## Visualização do relatório resumido da regra de fadiga {#viewing-the-fatigue-rule-summary-report}
 
@@ -221,33 +221,33 @@ Há muitas possibilidades em termos de implementação de gestão da fadiga. Est
 
 * Criar uma regra de fadiga usando um **limite constante** que se aplique a **todos os canais**:
 
-   Digamos que você crie uma regra multicanal, com um limite constante de 3 durante um período deslizante de 7 dias.
+  Digamos que você crie uma regra multicanal, com um limite constante de 3 durante um período deslizante de 7 dias.
 
-   Na semana passada, seus perfis premium receberam um email promocional e um email de remarketing transacional. Você também programou que um SMS seja enviado na semana que vem. Hoje, você decide enviar uma notificação por push direcionada a todos os seus perfis. Os perfis premium serão excluídos da notificação por push de hoje, pois o número máximo de mensagens em um período de 2 semanas já foi atingido.
+  Na semana passada, seus perfis premium receberam um email promocional e um email de remarketing transacional. Você também programou que um SMS seja enviado na semana que vem. Hoje, você decide enviar uma notificação por push direcionada a todos os seus perfis. Os perfis premium serão excluídos da notificação por push de hoje, pois o número máximo de mensagens em um período de 2 semanas já foi atingido.
 
-   ![](assets/fatigue23.png)
+  ![](assets/fatigue23.png)
 
 * Crie uma regra de fadiga usando um **limite variável** com base em um **campo de perfil**:
 
-   Você estendeu o recurso dos perfis com um campo &quot;Limite de comunicação&quot; para definir um limite diferente para cada perfil. Na regra de fadiga, defina um limite variável com base nesse campo e selecione um período deslizante de 2 dias. Vejamos dois exemplos de perfis: João tem um limite de comunicação de 1, e Pedro tem um limite de 2. Ambos já receberam um email informativo ontem. Você decide enviar outro email para eles hoje. Somente Pedro o receberá, porque João foi excluído do público-alvo.
+  Você estendeu o recurso dos perfis com um campo &quot;Limite de comunicação&quot; para definir um limite diferente para cada perfil. Na regra de fadiga, defina um limite variável com base nesse campo e selecione um período deslizante de 2 dias. Vejamos dois exemplos de perfis: João tem um limite de comunicação de 1, e Pedro tem um limite de 2. Ambos já receberam um email informativo ontem. Você decide enviar outro email para eles hoje. Somente Pedro o receberá, porque João foi excluído do público-alvo.
 
-   ![](assets/fatigue24.png)
+  ![](assets/fatigue24.png)
 
 * Criar uma regra de fadiga usando uma **fórmula de cálculo de limite**:
 
-   Você deseja alterar o limite de acordo com a idade dos perfis. Se um perfil estiver abaixo de 40, você deseja definir um limite de 4, e para perfis mais maduros, um limite de 2. Em vez de definir esse limite para cada perfil com um campo estendido, você pode criar uma fórmula diretamente na regra de fadiga para calcular o limite de acordo com a idade dos perfis. Em nosso exemplo, a fórmula seria **[!UICONTROL Iif (@age<40, 4, 2)]**.
+  Você deseja alterar o limite de acordo com a idade dos perfis. Se um perfil estiver abaixo de 40, você deseja definir um limite de 4, e para perfis mais maduros, um limite de 2. Em vez de definir esse limite para cada perfil com um campo estendido, você pode criar uma fórmula diretamente na regra de fadiga para calcular o limite de acordo com a idade dos perfis. Em nosso exemplo, a fórmula seria **[!UICONTROL Iif (@age<40, 4, 2)]**.
 
-   ![](assets/fatigue25.png)
+  ![](assets/fatigue25.png)
 
-   >[!NOTE]
-   >
-   >Esta seção também inclui um exemplo passo a passo de uma regra de fadiga usando uma fórmula de cálculo de limite.
+  >[!NOTE]
+  >
+  >Esta seção também inclui um exemplo passo a passo de uma regra de fadiga usando uma fórmula de cálculo de limite.
 
 * Criar uma regra de fadiga que **refine o limite** em perfis e deliveries:
 
-   Você estendeu o recurso dos perfis com um campo &quot;Score&quot;, e também estendeu o recurso dos deliveries com um campo &quot;Type&quot;. Você deseja definir um limite constante de 3, mas excluir da contagem todos os deliveries do tipo “Alerta” ou “Black Friday” e todos os perfis com uma pontuação maior que 10. Quando a regra for executada, ela contará, entre os deliveries anteriores e programados, todos os deliveries que não sejam do tipo “Alerta” ou “Black Friday” enviados para perfis cuja pontuação seja menor que 10.
+  Você estendeu o recurso dos perfis com um campo &quot;Score&quot;, e também estendeu o recurso dos deliveries com um campo &quot;Type&quot;. Você deseja definir um limite constante de 3, mas excluir da contagem todos os deliveries do tipo “Alerta” ou “Black Friday” e todos os perfis com uma pontuação maior que 10. Quando a regra for executada, ela contará, entre os deliveries anteriores e programados, todos os deliveries que não sejam do tipo “Alerta” ou “Black Friday” enviados para perfis cuja pontuação seja menor que 10.
 
-   ![](assets/fatigue26.png)
+  ![](assets/fatigue26.png)
 
 Este é um exemplo passo a passo de uma regra de fadiga usando uma fórmula de cálculo de limite.
 

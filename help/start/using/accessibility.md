@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 100%
 
@@ -31,13 +31,13 @@ A interface do usuário do Adobe Campaign Standard se esforça para fornecer con
 
 * Texto e cabeçalhos grandes foram aprimorados para atender a uma taxa de contraste de 3:1.
 
-   ![](assets/accessibility_2.png)
+  ![](assets/accessibility_2.png)
 
 * O conteúdo de ajuda e o texto do corpo do aplicativo foram atualizados para atender a uma taxa de contraste de 4.5:1.
 
 * Os ícones de pausa e cancelamento de workflows foram atualizados para melhorar o contraste entre o plano de fundo e as cores do primeiro plano.
 
-   ![](assets/accessibility_1.png)
+  ![](assets/accessibility_1.png)
 
 * Cor, forma e local não são os únicos métodos usados para comunicar informações ou hierarquia no aplicativo.
 
@@ -47,11 +47,11 @@ A interface do usuário do Adobe Campaign Standard facilita a interação de tod
 
 * Quando o usuário deixa um campo de ID obrigatório em branco, um gráfico indica visualmente qual campo está com erro através de uma mensagem de texto e que as mesmas informações são transmitidas programaticamente para usuários com tecnologias de assistência, como leitores de tela.
 
-   ![](assets/accessibility_3.png)
+  ![](assets/accessibility_3.png)
 
 * O conteúdo que aparece ao passar o mouse ou focar pode ser rejeitado pelo usuário e não obscurece outro conteúdo.
 
-   ![](assets/accessibility_4.png)
+  ![](assets/accessibility_4.png)
 
 * Foram adicionados textos alternativos para imagem e nomes acessíveis para botões, que podem ser lidos em voz alta com tecnologia de assistência, em vez de se basearem apenas em dicas visuais para identificar elementos.
 

@@ -89,7 +89,7 @@ Cada uma dessas etapas é detalhada mais abaixo.
 
 <!--<img src="assets/do-not-localize/icon_config.svg" width="60px">-->
 
-| Criar um evento | Usuário  | Ação | Resultado |
+| Criar um evento | Usuário(a)  | Ação | Resultado |
 | --- |--- |--- |--- |
 | <img src="assets/do-not-localize/icon_config.svg" width="60px"> | Esta etapa deve ser executada por um administrador que possua [direitos de administração](../../administration/using/users-management.md#functional-administrators). | Configure um evento que será chamado de &quot;Abandono do carrinho&quot; e publique essa configuração de evento. | A API que será usada pelo desenvolvedor do site é implantada e uma mensagem transacional é criada automaticamente. |
 
@@ -99,7 +99,7 @@ A criação e a publicação de um evento são apresentadas no [Configuração d
 
 <!--<img src="assets/do-not-localize/icon_notification.svg" width="40px">-->
 
-| Editar a mensagem | Usuário  | Ação | Resultado |
+| Editar a mensagem | Usuário(a)  | Ação | Resultado |
 | --- |--- |--- |--- |
 | <img src="assets/do-not-localize/icon_notification.svg" width="40px"> | Esta etapa pode ser executada por um usuário de marketing que esteja [direitos de administração](../../administration/using/users-management.md#functional-administrators). | Edite e personalize a mensagem transacional, teste-a e publique-a. | A mensagem transacional estará pronta para ser enviada. |
 
@@ -111,7 +111,7 @@ Para obter mais informações sobre edição e publicação de uma mensagem tran
 
 Depois de criar um evento, é necessário integrar o acionamento desse evento ao seu site.<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> Para fazer isso, o desenvolvedor da Web do seu site deve usar o **API REST DO ADOBE CAMPAIGN STANDARD**.
 
-| Implementar o acionador | Usuário  | Ação | Resultado |
+| Implementar o acionador | Usuário(a)  | Ação | Resultado |
 | --- |--- |--- |--- |
 | <img src="assets/do-not-localize/icon_api.svg" width="55px"> | Essa etapa é executada pelo desenvolvedor do site. | Use a API de mensagens transacionais REST para integrar o evento ao seu site. | O evento será acionado quando um cliente abandonar o carrinho. |
 
@@ -123,7 +123,7 @@ Para obter mais informações sobre como usar a API REST do Campaign para gerenc
 
 Depois que todas as etapas acima forem executadas, a mensagem poderá ser entregue.
 
-| Enviar a mensagem | Usuário  | Ação | Resultado |
+| Enviar a mensagem | Usuário(a)  | Ação | Resultado |
 | --- |--- |--- |--- |
 | <img src="assets/do-not-localize/icon_channels.svg" width="60px"> | Esta etapa é executada por clientes que visitam seu site. | Assim que um usuário sai do site sem solicitar os produtos no carrinho, o evento Campaign correspondente é acionado. | O usuário recebe automaticamente um email de notificação. |
 

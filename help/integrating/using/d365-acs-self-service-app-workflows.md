@@ -46,6 +46,7 @@ Esse aplicativo de integração lê primeiro os dados e depois os grava no desti
 
 >[!NOTE]
 >Se os registros do Microsoft Dynamics 365 e/ou Campaign não estiverem sendo atualizados, verifique primeiro se há um grande número de registros aguardando para serem gravados no destino.
+>
 
 ## Status do fluxo de trabalho {#workflow-status}
 
@@ -64,7 +65,7 @@ As possíveis ações estão listadas abaixo.
 
 * **Início**: um botão Start solicita que um workflow interrompido seja iniciado. Esse botão só aparecerá quando os processos associados ao workflow estiverem interrompidos no momento. Os processos serão alterados primeiro para &quot;INICIANDO&quot; e depois para &quot;EM EXECUÇÃO&quot;. Os dados associados ao workflow não iniciarão a sincronização até que o workflow esteja em um estado &quot;EM EXECUÇÃO&quot;.
 
-   O botão Iniciar é um botão de alternância. Se os processos de workflow já tiverem sido iniciados, o botão mudará para uma variável **Parar** botão.
+  O botão Iniciar é um botão de alternância. Se os processos de workflow já tiverem sido iniciados, o botão mudará para uma variável **Parar** botão.
 
 * **Parar**: A **Parar** O botão solicita que um fluxo de trabalho em execução seja interrompido. Esse botão só aparecerá quando os processos associados ao workflow estiverem em execução no momento.
 

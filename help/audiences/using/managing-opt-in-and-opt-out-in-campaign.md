@@ -53,6 +53,6 @@ Você também pode configurar um **[!UICONTROL Denylist]** página de aterrissag
 
 Para permitir que os usuários recusem todos os deliveries, é necessário criar e publicar um **[!UICONTROL Denylist]** página de aterrissagem. Para obter mais informações sobre a criação de páginas iniciais, consulte [esta página](../../channels/using/getting-started-with-landing-pages.md).
 
-Depois que um usuário clica no link da landing page, a variável **[!UICONTROL No longer contact (by any channel)]** no perfil é selecionada automaticamente.
+Quando um usuário clica no link da página de aterrissagem, a variável **[!UICONTROL No longer contact (by any channel)]** no perfil é selecionada automaticamente.
 
 ![](assets/blocklisting_allchannels.png)

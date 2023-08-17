@@ -30,7 +30,7 @@ Também é possível usar variáveis de eventos de workflows ao editar a express
 
 * Definir uma query, por meio da opção **[!UICONTROL Advanced mode]** que está disponível quando uma regra é adicionada.
 
-   ![](assets/expression_editor_2.png)
+  ![](assets/expression_editor_2.png)
 
 * Editar uma expressão em um workflow. Por exemplo, para adicionar dados a uma atividade.
 * Edite uma condição de visibilidade para definir como um bloco no editor de conteúdo HTML é exibido. Nesse caso, a expressão é editada no formato JavaScript e não oferece o uso de funções avançadas como padrão.
@@ -76,9 +76,9 @@ As expressões padrão são formadas por uma ou várias condições que respeita
    * **&lt;comparison operator>** é um dos operadores listados na seção [Operadores de comparação](../../automating/using/advanced-expression-editing.md#comparison-operators). Esse operador define o método de comparação entre **&lt;value1>** e **&lt;value2>**.
    * **&lt;value2>** é um campo, uma função ou um valor inserido manualmente.
 
-   >[!NOTE]
-   >
-   >Os dados dos tipos **&lt;value1>** e **&lt;value2>** devem ser idênticos. Por exemplo, se **&lt;value1>** for uma data, **&lt;value2>** também deverá ser uma data.
+  >[!NOTE]
+  >
+  >Os dados dos tipos **&lt;value1>** e **&lt;value2>** devem ser idênticos. Por exemplo, se **&lt;value1>** for uma data, **&lt;value2>** também deverá ser uma data.
 
 * Se quiser usar várias condições, elas poderão ser combinadas usando operadores lógicos.
 
@@ -105,8 +105,9 @@ As expressões JavaScript são constituídas por uma ou várias condições e us
    * **&lt;comparison operator>** é um dos operadores listados na seção [Operadores de comparação](../../automating/using/advanced-expression-editing.md#comparison-operators). Esse operador define o método de comparação entre **&lt;context>** e **&lt;value2>**.
    * **&lt;value2>** é um campo, uma função ou um valor inserido manualmente.
 
-   >[!NOTE]
-   Os dados dos tipos **&lt;context>** e **&lt;value2>** devem ser idênticos. Por exemplo, se **&lt;context>** for uma data, **&lt;value2>** também deverá ser uma data.
+  >[!NOTE]
+  >
+  Os dados dos tipos **&lt;context>** e **&lt;value2>** devem ser idênticos. Por exemplo, se **&lt;context>** for uma data, **&lt;value2>** também deverá ser uma data.
 
 * Se quiser usar várias condições, elas poderão ser combinadas usando operadores lógicos.
 

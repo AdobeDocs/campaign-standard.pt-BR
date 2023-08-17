@@ -28,23 +28,23 @@ As opções possíveis são:
 
 * **[!UICONTROL History in days]**: especifica o número de dias após o qual o histórico deve ser apagado. O histórico contém elementos relacionados ao workflow: logs, tarefas, eventos (objetos técnicos vinculados à operação do workflow), bem como arquivos baixados pelo **[!UICONTROL Transfer file]** atividade. O valor padrão é de 30 dias para modelos de fluxo de trabalho prontos para uso.
 
-   A limpeza do histórico é executada pelo fluxo de trabalho técnico de limpeza do banco de dados, que é executado todos os dias por padrão (consulte [Lista de workflows técnicos](../../administration/using/technical-workflows.md).)
+  A limpeza do histórico é executada pelo fluxo de trabalho técnico de limpeza do banco de dados, que é executado todos os dias por padrão (consulte [Lista de workflows técnicos](../../administration/using/technical-workflows.md).)
 
-   >[!IMPORTANT]
-   >
-   >Se a variável **[!UICONTROL History in days]** for deixado em branco, seu valor será considerado como &quot;1&quot;, o que significa que o histórico será limpo após 1 dia.
+  >[!IMPORTANT]
+  >
+  >Se a variável **[!UICONTROL History in days]** for deixado em branco, seu valor será considerado como &quot;1&quot;, o que significa que o histórico será limpo após 1 dia.
 
 * **[!UICONTROL Save SQL queries in the log]**: permite salvar as consultas SQL do workflow nos logs.
 
 * **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]**: marque esta opção se quiser que todo o plano de execução seja registrado. Ela está desativada por padrão.
 
-   Para obter mais informações sobre essa opção, consulte esta [seção](#diagnostic-mode).
+  Para obter mais informações sobre essa opção, consulte esta [seção](#diagnostic-mode).
 
 * **[!UICONTROL Keep interim results]**: marque esta opção se desejar visualizar os detalhes das transições.
 
-   >[!CAUTION]
-   >
-   >Essa opção consome bastante espaço do disco e foi projetada para ajudar a criar um fluxo de trabalho e garantir a configuração e o comportamento adequados. Deixe-a desmarcada nas instâncias de produção.
+  >[!CAUTION]
+  >
+  >Essa opção consome bastante espaço do disco e foi projetada para ajudar a criar um fluxo de trabalho e garantir a configuração e o comportamento adequados. Deixe-a desmarcada nas instâncias de produção.
 
 * **[!UICONTROL Execute in the engine (do not use in production)]**: permite executar o workflow localmente, para fins de teste do ambiente de desenvolvimento.
 
@@ -84,8 +84,8 @@ Você pode gerenciar a opção no menu avançado selecionando **[!UICONTROL Admi
 
 * **[!UICONTROL Time of query execution (in milliseconds)(DiagnosticModeQueryTime)]**: No **[!UICONTROL Value]** , você pode definir um novo horário para a execução da consulta. Se a execução da consulta exceder esse valor, o plano de execução será registrado.
 
-   ![](assets/wkf_diagnostic_2.png)
+  ![](assets/wkf_diagnostic_2.png)
 
 * **[!UICONTROL Percentage of seq scan time (DiagnosticModeSeqScanPercentage)]**: No **[!UICONTROL Value]** , você pode alterar a porcentagem de tempo de consulta que a verificação de sequência deve levar para que a recomendação seja gerada.
 
-   ![](assets/wkf_diagnostic_3.png)
+  ![](assets/wkf_diagnostic_3.png)

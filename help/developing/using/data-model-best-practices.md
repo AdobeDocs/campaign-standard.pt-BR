@@ -112,8 +112,8 @@ When an out-of-the-box resource has both an internal auto-generated and an inter
 
 Ao criar um recurso personalizado, você tem duas opções:
 
-* Uma combinação de chave gerada automaticamente e chave personalizada interna. Essa opção é interessante se a chave do sistema for uma chave composta ou não for um inteiro. Os números inteiros proporcionarão maiores desempenhos em tabelas grandes e em junções com outras tabelas.
-* Usar a chave primária como a chave primária do sistema externo. Essa solução geralmente é preferida, pois simplifica a abordagem de importar e exportar dados, com uma chave consistente entre diferentes sistemas.
+* Uma combinação de chave gerada automaticamente e chave personalizada interna. Essa opção é interessante se a chave do sistema for uma chave composta ou não for um inteiro. Inteiros fornecerão maiores desempenhos em tabelas grandes e juntando-se a outras tabelas.
+* Usar a chave primária como a chave primária do sistema externo. Essa solução geralmente é preferida, pois simplifica a abordagem de importar e exportar dados, com uma chave consistente entre sistemas diferentes.
 
 As chaves de identificação não devem ser usadas como referência em fluxos de trabalho.
 

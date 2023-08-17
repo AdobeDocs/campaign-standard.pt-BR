@@ -65,6 +65,6 @@ O status de uma mensagem é representado por uma cor específica nas listas. Os 
 * **[!UICONTROL Finished]** (verde): o envio foi concluído sem erros.
 * **[!UICONTROL Erroneous]** (vermelho): o envio foi cancelado ou ocorreu um erro enquanto a mensagem estava sendo preparada ou enviada.
 
-   >[!NOTE]
-   >
-   >Um banner de notificação amarelo pode aparecer acima do cartão quando uma ação é necessária, por exemplo, quando você precisa confirmar o envio de uma mensagem.
+  >[!NOTE]
+  >
+  >Um banner de notificação amarelo pode aparecer acima do cartão quando uma ação é necessária, por exemplo, quando você precisa confirmar o envio de uma mensagem.

@@ -38,17 +38,18 @@ Se o problema persistir, entre em contato com os serviços comerciais, de entreg
    * O status **[!UICONTROL On denylist]** é resultado de um [loop de comentários](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=pt-BR#feedback-loops) (quando uma pessoa reporta uma mensagem como spam).
 
    * O status **[!UICONTROL Quarantined]** é resultado de um salto suave ou forte.
-   Para obter mais informações, consulte esta [seção](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
+
+  Para obter mais informações, consulte esta [seção](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
 
 * **O que significam os diferentes motivos de erro de quarentena?**
 
-   Aqui estão os 10 possíveis motivos: não definido, usuário desconhecido, domínio inválido, endereço na inclui na lista de bloqueios, recusado, erro ignorado, inacessível, conta desativada, caixa de correio cheia e não conectado.
+  Aqui estão os 10 possíveis motivos: não definido, usuário desconhecido, domínio inválido, endereço na inclui na lista de bloqueios, recusado, erro ignorado, inacessível, conta desativada, caixa de correio cheia e não conectado.
 
-   Para obter mais informações, consulte [Entendendo o gerenciamento da quarentena](../../sending/using/understanding-quarantine-management.md).
+  Para obter mais informações, consulte [Entendendo o gerenciamento da quarentena](../../sending/using/understanding-quarantine-management.md).
 
 ## Remoção da lista de bloqueios {#removing-from-denylist}
 
-* **Um dos meus recipients foi adicionado ao incluo na lista de bloqueios por engano. Lista de bloqueios Como faço para removê-los do arquivo de classificação para que eu possa iniciar o envio de mensagens para eles novamente?**
+* **Um dos meus recipients foi adicionado ao incluo na lista de bloqueios por engano. Incluir na lista de bloqueios Como faço para removê-los do arquivo de classificação para que eu possa iniciar o envio de mensagens para eles novamente?**
 
    * Vá para **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
    * Nos detalhes do registro correspondente, defina o valor do campo **[!UICONTROL Status]** como **[!UICONTROL Valid]**.
@@ -56,16 +57,16 @@ Se o problema persistir, entre em contato com os serviços comerciais, de entreg
 
 * **Como é possível descobrir se um dos IPs está no incluo na lista de bloqueios? Como remover meus IPs de uma lista de bloqueios?**
 
-   Para verificar se o endereço IP está no arquivo de inclui na lista de bloqueios, é possível usar vários sites para verificá-lo, como:
+  Para verificar se o endereço IP está no arquivo de inclui na lista de bloqueios, é possível usar vários sites para verificá-lo, como:
    * [MX Toolbox](https://mxtoolbox.com/)
    * [Qual é meu endereço IP](https://whatismyipaddress.com)
 
-   Geralmente, o resultado da verificação do endereço IP retorna uma lista que contém os detalhes do incluo na lista de bloqueios de pesquisa e também o nome do site que bloqueou o endereço IP.
+  Geralmente, o resultado da verificação do endereço IP retorna uma lista que contém os detalhes do incluo na lista de bloqueios de pesquisa e também o nome do site que bloqueou o endereço IP.
 
-   Ao clicar no link correspondente, é possível acessar os detalhes do site.
+  Ao clicar no link correspondente, é possível acessar os detalhes do site.
 
-   É possível solicitar que seu site seja excluído da lista de bloqueios do site que incluiu o endereço IP à lista de bloqueios.
+  É possível solicitar que seu site seja excluído da lista de bloqueios do site que incluiu o endereço IP à lista de bloqueios.
 
-   >[!NOTE]
-   >
-   >O processo de exclusão pode variar dependendo do site. Alguns sites exigem a criação de uma conta, enquanto outros precisam apenas do endereço IP.
+  >[!NOTE]
+  >
+  >O processo de exclusão pode variar dependendo do site. Alguns sites exigem a criação de uma conta, enquanto outros precisam apenas do endereço IP.

@@ -67,7 +67,7 @@ Com o **[!UICONTROL Licenses]** menu, monitore as informações sobre suas inst�
 Seguir as práticas recomendadas e as diretrizes de solução de problemas ao usar workflows pode ajudar a melhorar o desempenho.
 [Leia mais](../../automating/using/best-practices-workflows.md)
 
-**Registros e tarefas**
+**Logs e tarefas**
 
 O monitoramento de logs de fluxo de trabalho é uma etapa essencial para analisar seus fluxos de trabalho e verificar se eles estão sendo executados corretamente.
 [Leia mais](../../automating/using/monitoring-workflow-execution.md#workflow-log-and-tasks)

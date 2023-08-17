@@ -120,6 +120,7 @@ A integração oferece suporte a tabelas vinculadas e não vinculadas. A vincula
 >[!IMPORTANT]
 >
 >Se qualquer registro de recurso personalizado do Campaign contiver informações pessoais, recomendações específicas serão aplicadas. Saiba mais [nesta seção](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data).
+>
 
 Ao configurar fluxos de dados de entidade personalizados, é importante estar ciente do seguinte:
 
@@ -169,6 +170,7 @@ Como alternativa, se você tiver um processo separado para gerenciar a sincroniz
 >Na interface do aplicativo de integração, a variável **Unidirecional (Microsoft Dynamics 365 para Campaign)** e a variável **Bidirecional** os casos de uso de recusa são configurados em um fluxo de trabalho de recusa separado. [Saiba mais](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
 >
 >A variável **Unidirecional (Campaign para Microsoft Dynamics 365)** o caso de uso de recusa é uma exceção; ele é configurado no fluxo de trabalho de entrada (Contato para perfil).
+>
 
 O mapeamento do fluxo de recusa deve ser especificado pelo cliente, pois as necessidades comerciais podem diferir entre as empresas. No lado do Campaign, somente os atributos de recusa do OOTB podem ser usados para mapeamento de recusa:
 

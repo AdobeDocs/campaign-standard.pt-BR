@@ -70,11 +70,11 @@ Os campos são organizados em guias:
 
 * **[!UICONTROL Attributes]**: atributos de perfis existentes que podem se originar do banco de dados do Adobe Campaign e/ou do Adobe Experience Platform. Elas se referem às informações estáticas anexadas a um perfil (por exemplo, endereço de email, país de residência, status do programa de fidelidade etc.).
 
-   ![](assets/aep_audiences_attributestab.png)
+  ![](assets/aep_audiences_attributestab.png)
 
 * **[!UICONTROL Events]**: atividades que identificam consumidores que tiveram alguma interação com os pontos de contato de clientes da sua empresa, como &quot;qualquer pessoa que fez um pedido duas vezes em duas semanas&quot;. Isso pode ser transmitido da Adobe Analytics ou assimilado diretamente na Adobe Experience Platform usando ferramentas de ETL de terceiros.
 
-   ![](assets/aep_audiences_eventstab.png)
+  ![](assets/aep_audiences_eventstab.png)
 
 >[!NOTE]
 >

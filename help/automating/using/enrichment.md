@@ -16,7 +16,7 @@ ht-degree: 96%
 
 ---
 
-# Enriquecimento{#enrichment}
+# Atividade de {#enrichment}
 
 ## Descrição {#description}
 

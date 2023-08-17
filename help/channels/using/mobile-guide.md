@@ -193,7 +193,7 @@ Com o Adobe Campaign Standard, você pode enviar deliveries para dispositivos m�
     <div>
     <p><strong>Criação de uma mensagem SMS</strong></p>
     </div>
-    <p>A criação de um delivery de SMS é muito semelhante à criação de um email comum. </br>As etapas <a href="../../channels/using/creating-an-sms-message.md"><strong>detalhado aqui</strong></a> descreva a configuração específica para esse canal.</br></p>
+    <p>A criação de um delivery de SMS é muito semelhante à criação de um email comum. </br>As etapas <a href="../../channels/using/creating-an-sms-message.md"><strong>detalhado aqui</strong></a> descreva a configuração específica para esse canal.</p>
     <br>
   </td>
   <td>
@@ -201,7 +201,7 @@ Com o Adobe Campaign Standard, você pode enviar deliveries para dispositivos m�
     <p><strong>Personalização de uma mensagem SMS
 </strong></p>
     </div>
-    <p>Para ajustar o delivery, o Adobe Campaign permite acessar um conjunto de opções avançadas ao projetar uma mensagem SMS.</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong>Clique aqui para obter mais informações.</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong></p>
+    <p>Para ajustar o delivery, o Adobe Campaign permite acessar um conjunto de opções avançadas ao projetar uma mensagem SMS.</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong>Clique aqui para obter mais informações.</p>
     <br>
   </td>
 </tr>
@@ -210,7 +210,7 @@ Com o Adobe Campaign Standard, você pode enviar deliveries para dispositivos m�
     <div>
     <p><strong>Gerenciamento de SMS de entrada</strong></p>
     </div>
-    <p>Quando um perfil responde a uma mensagem SMS enviada pelo Campaign, você pode configurar mensagens que são automaticamente enviadas de volta a ele, bem como a ação a ser executada.Personalização de um tipo de mensagem de notificação local</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Clique aqui para obter mais informações.</br><a href="../../channels/using/managing-incoming-sms.md"><strong></p>
+    <p>Quando um perfil responde a uma mensagem SMS enviada pelo Campaign, você pode configurar mensagens que são automaticamente enviadas de volta a ele, bem como a ação a ser executada.Personalização de um tipo de mensagem de notificação local</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Clique aqui para obter mais informações.</p>
     <br>
   </td>
   <td>

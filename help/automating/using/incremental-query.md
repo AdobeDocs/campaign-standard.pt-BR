@@ -40,7 +40,7 @@ A atividade **[!UICONTROL Incremental query]** pode ser usada para várias final
 
 * Exportação de dados.
 
-   Você pode usar uma atividade **[!UICONTROL Incremental query]** para exportar regularmente novos logs em arquivos. Pode ser útil, por exemplo, se você quiser usar seus dados de log em ferramentas externas de BI ou geração de relatórios. Um exemplo completo está disponível na seção [Exportar logs](../../automating/using/exporting-logs.md).
+  Você pode usar uma atividade **[!UICONTROL Incremental query]** para exportar regularmente novos logs em arquivos. Pode ser útil, por exemplo, se você quiser usar seus dados de log em ferramentas externas de BI ou geração de relatórios. Um exemplo completo está disponível na seção [Exportar logs](../../automating/using/exporting-logs.md).
 
 **Tópicos relacionados**
 
@@ -60,7 +60,8 @@ A atividade **[!UICONTROL Incremental query]** pode ser usada para várias final
    * **[!UICONTROL Use the exclusion of the results of previous executions]**: os resultados das execuções anteriores para cada nova execução são excluídos.
    * **[!UICONTROL Use a date field]**: as execuções seguintes levarão em conta apenas os resultados que tiverem o campo de data selecionado maior que ou igual à data da última execução da atividade **[!UICONTROL Incremental query]**. Você pode selecionar qualquer campo de data pertencente ao recurso selecionado na guia **[!UICONTROL Properties]**. Esse modo tem melhor desempenho ao consultar recursos grandes, como dados de log.
 
-      Após a primeira execução do workflow, você poderá ver nesta guia a última data de execução que será usada para a próxima execução. Ela é atualizada automaticamente todas as vezes que o workflow é executado. Você ainda tem a possibilidade de substituir esse valor, inserindo manualmente um novo para que ele se ajuste às suas necessidades.
+     Após a primeira execução do workflow, você poderá ver nesta guia a última data de execução que será usada para a próxima execução. Ela é atualizada automaticamente todas as vezes que o workflow é executado. Você ainda tem a possibilidade de substituir esse valor, inserindo manualmente um novo para que ele se ajuste às suas necessidades.
+
    >[!NOTE]
    >
    >O modo **[!UICONTROL Use a date field]** permite mais flexibilidade dependendo do campo de data selecionado. Por exemplo, se o campo selecionado corresponder a uma data de modificação, o modo de campo de data permitirá recuperar dados que foram atualizados recentemente, enquanto o outro modo simplesmente excluirá gravações que já foram direcionadas para uma execução anterior, mesmo que elas tenham sido modificadas desde a última execução do workflow.

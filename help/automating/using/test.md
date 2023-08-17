@@ -49,10 +49,10 @@ As condições podem ser baseadas em **funções** ou **variáveis**, por exempl
 
    * ![](assets/extsignal_picker.png): selecione a variável de eventos entre todas as variáveis disponíveis no workflow (consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
 
-      Por exemplo, você pode verificar o número de arquivos baixados após um [Transferência de arquivo](../../automating/using/transfer-file.md) atividade usando o **[!UICONTROL filesCount]** variável.
+     Por exemplo, você pode verificar o número de arquivos baixados após um [Transferência de arquivo](../../automating/using/transfer-file.md) atividade usando o **[!UICONTROL filesCount]** variável.
 
-      ![](assets/wkf_test_activity_variables.png)
+     ![](assets/wkf_test_activity_variables.png)
 
    * ![](assets/extsignal_expression_editor.png): edite as expressões que combinam variáveis e funções. Para saber mais sobre o editor de expressão, consulte [esta seção](../../automating/using/advanced-expression-editing.md).
 
-      ![](assets/wkf_test_activity_variables_expression.png)
+     ![](assets/wkf_test_activity_variables_expression.png)

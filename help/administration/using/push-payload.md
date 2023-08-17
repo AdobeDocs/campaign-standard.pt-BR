@@ -197,7 +197,7 @@ Para entender os aspectos de uma carga do Android, consulte [Fcm (Messaging Conc
 
 >[!NOTE]
 >
->O suporte para mensagens de notificação na carga do Android foi removido a partir de janeiro de 2018, para permitir a ativação do aplicativo e transmitir o controle para o aplicativo móvel sem precisar que o usuário interaja com o aplicativo.
+>O suporte para mensagens de notificação na carga do Android foi removido a partir de janeiro de 2018, para permitir a ativação do aplicativo e a transmissão do controle para o aplicativo móvel sem a necessidade de o usuário interagir com o aplicativo.
 
 ### Mapeamento entre configurações de Campaign Standard e atributos de carga útil {#mapping-payload}
 

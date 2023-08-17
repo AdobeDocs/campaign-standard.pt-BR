@@ -26,62 +26,62 @@ Além disso, as APIs de Campaign Standard permitem procurar perfis com base em u
 
 * Exemplo de solicitação do GET para recuperar todos os perfis.
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
-   Resposta à solicitação.
+  Resposta à solicitação.
 
-   ```
-   {
-       "content": [
-           {
-               "PKey": "<PKEY>",
-               "firstName": "John",
-               "lastName":"Doe",
-               "birthDate": "1980-10-24",
-               ...
-           },
-           ...
-   }
-   ```
+  ```
+  {
+      "content": [
+          {
+              "PKey": "<PKEY>",
+              "firstName": "John",
+              "lastName":"Doe",
+              "birthDate": "1980-10-24",
+              ...
+          },
+          ...
+  }
+  ```
 
 * Exemplo de solicitação do GET para recuperar os primeiros 10 valores de email.
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
-   Resposta à solicitação. O nó &quot;next&quot; retorna o URL que dá acesso aos 10 próximos valores de email.
+  Resposta à solicitação. O nó &quot;next&quot; retorna o URL que dá acesso aos 10 próximos valores de email.
 
-   ```
-   {
-   "content": [
-       "amy.dakota@mail.com",
-       "kristen.smith@mail.com",
-       "omalley@mail.com",
-       "xander.harrys@mail.com",
-       "jane.summer@mail.com",
-       "gloria.boston@mail.com",
-       "edward.snow@mail.com",
-       "dorian.simons@mail.com",
-       "peter.paolini@mail.com",
-       "mingam+test08@adobe.com"
-   ],
-   "next": {
-       "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10&_
-       lineStart=@Qy2MRJCS67PFf8soTf4BzF7BXsq1Gbkp_e5lLj1TbE7HJKqc"
-   }
-   }
-   ```
+  ```
+  {
+  "content": [
+      "amy.dakota@mail.com",
+      "kristen.smith@mail.com",
+      "omalley@mail.com",
+      "xander.harrys@mail.com",
+      "jane.summer@mail.com",
+      "gloria.boston@mail.com",
+      "edward.snow@mail.com",
+      "dorian.simons@mail.com",
+      "peter.paolini@mail.com",
+      "mingam+test08@adobe.com"
+  ],
+  "next": {
+      "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10&_
+      lineStart=@Qy2MRJCS67PFf8soTf4BzF7BXsq1Gbkp_e5lLj1TbE7HJKqc"
+  }
+  }
+  ```
 
 ## Pesquisar perfis com base em um campo {#searching-field}
 
@@ -95,40 +95,40 @@ A variável **[!UICONTROL filterType]** O parâmetro permite recuperar perfis co
 
 * Exemplo de solicitação para filtrar perfis com base no nome.
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John&filterType=firstName \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John&filterType=firstName \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
 * Exemplo de solicitação para filtrar perfis com base no sobrenome.
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Miller&filterType=lastName \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Miller&filterType=lastName \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
 * Exemplo de solicitação para filtrar perfis com base em email.
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John%40gmail.com&filterType=email \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John%40gmail.com&filterType=email \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
 * Exemplo de solicitação para filtrar perfis com base no campo personalizado &quot;Hobby&quot;.
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byText?cusHobby=Dancing&filterType=Hobby \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byText?cusHobby=Dancing&filterType=Hobby \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```

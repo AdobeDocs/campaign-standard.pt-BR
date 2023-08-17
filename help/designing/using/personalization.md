@@ -320,15 +320,15 @@ O email é criado da seguinte maneira:
 
 * Os conteúdos dinâmicos são aplicados à imagem e esses conteúdos dinâmicos são configurados de acordo com a faixa etária.
 
-   ![](assets/delivery_content_43.png)
+  ![](assets/delivery_content_43.png)
 
-   A adição e configuração de conteúdo dinâmico está detalhada na [Definição de conteúdo dinâmico em um email](#defining-dynamic-content-in-an-email) seção.
+  A adição e configuração de conteúdo dinâmico está detalhada na [Definição de conteúdo dinâmico em um email](#defining-dynamic-content-in-an-email) seção.
 
 * Campos de personalização e conteúdo dinâmico são aplicados ao texto. Dependendo da faixa etária do perfil, o email começa com o nome do perfil ou com o título e sobrenome do perfil.
 
-   ![](assets/delivery_content_44.png)
+  ![](assets/delivery_content_44.png)
 
-   A adição e configuração dos campos de personalização é detalhada na [Inserção de um campo de personalização](#inserting-a-personalization-field) seção.
+  A adição e configuração dos campos de personalização é detalhada na [Inserção de um campo de personalização](#inserting-a-personalization-field) seção.
 
 ### Configuração de imagens {#configuring-images}
 

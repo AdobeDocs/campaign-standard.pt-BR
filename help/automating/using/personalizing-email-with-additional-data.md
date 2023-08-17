@@ -42,11 +42,12 @@ O fluxo de trabalho é apresentado da seguinte forma:
    * Duas agregações com base na coleção de transações: o número de produtos comprados e o total gasto. Você pode adicioná-los da guia **[!UICONTROL Data]** da janela de configuração da agregação, usando as agregações **Count** e **Sum**. Consulte a seção [Adição de uma agregação](../../automating/using/query.md#adding-an-aggregate).
    * Uma coleção que retorna o valor gasto, a data e o produto da última transação realizada.
 
-      Para isso, adicione os diferentes campos que deseja exibir da guia **[!UICONTROL Data]** da janela de configuração da coleção.
+     Para isso, adicione os diferentes campos que deseja exibir da guia **[!UICONTROL Data]** da janela de configuração da coleção.
 
-      Para retornar apenas a transação mais recente, digite “1” para o **[!UICONTROL Number of lines to return]** e aplique uma classificação decrescente ao campo **Date** da coleção da guia **[!UICONTROL Sort]**.
+     Para retornar apenas a transação mais recente, digite “1” para o **[!UICONTROL Number of lines to return]** e aplique uma classificação decrescente ao campo **Date** da coleção da guia **[!UICONTROL Sort]**.
 
-      Consulte as seções [Adição de uma coleção](../../automating/using/query.md#adding-a-collection) e [Classificação de dados adicionais](../../automating/using/query.md#sorting-additional-data).
+     Consulte as seções [Adição de uma coleção](../../automating/using/query.md#adding-a-collection) e [Classificação de dados adicionais](../../automating/using/query.md#sorting-additional-data).
+
    ![](assets/enrichment_example4.png)
 
 1. Se você quiser verificar se os dados foram transferidos corretamente pela transição de saída da atividade, inicie o fluxo de trabalho pela primeira vez (sem a atividade **[!UICONTROL Email delivery]**) e abra a transição de saída do query.

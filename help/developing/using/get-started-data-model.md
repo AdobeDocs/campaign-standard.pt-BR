@@ -29,7 +29,7 @@ Estenda o modelo de dados do Campaign Standard com seus próprios campos e recur
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-Os dados usados pelo Campaign são definidos por meio de diferentes recursos em uma **modelo de dados predefinido**. O modelo de dados exibe uma estrutura SQL pronta para uso para um conjunto de recursos relacionados a marketing: entrega, público-alvo, landing pages, perfil, etc. Cada recurso vem com filtros associados, que permitem navegar pelos recursos.
+Os dados usados pelo Campaign são definidos por meio de diferentes recursos em uma **modelo de dados predefinido**. O modelo de dados exibe uma estrutura SQL pronta para uso para um conjunto de recursos relacionados ao marketing: entrega, público-alvo, landing pages, perfil, etc. Cada recurso vem com filtros associados, que permitem navegar pelos recursos.
 
 A variável **Diagnóstico** O menu permite listar os objetos técnicos gerados pelo Campaign Standard: schemas de dados, páginas da Web, filtros etc., permitindo monitorar o modelo de dados e qualquer alteração feita nele.
 

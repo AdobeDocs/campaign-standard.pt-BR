@@ -31,11 +31,11 @@ Você pode configurar dois tipos de modelos:
 
 * **Modelos de fluxo de trabalho**: são workflows pré-configurados que podem ser configurados uma vez de acordo com suas necessidades e reutilizados sempre que você quiser importar dados e atualizar o banco de dados.
 
-   Um exemplo de template de workflow para importar dados é detalhado em [nesta seção](../../automating/using/creating-import-workflow-templates.md).
+  Um exemplo de template de workflow para importar dados é detalhado em [nesta seção](../../automating/using/creating-import-workflow-templates.md).
 
 * **Importar modelos de dados**: assim como templates de workflow, esses são templates baseados em workflows, que são configurados para carregar arquivos para atualizar o banco de dados. Depois de configurados, eles são disponibilizados para usuários com uma visualização simplificada na **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** menu.
 
-   Para obter mais informações sobre importação de modelos de dados, consulte a [documentação dedicada](../../automating/using/importing-data-with-import-templates.md).
+  Para obter mais informações sobre importação de modelos de dados, consulte a [documentação dedicada](../../automating/using/importing-data-with-import-templates.md).
 
 ## Coleta de dados de landing pages {#collecting-data-from-landing-pages}
 

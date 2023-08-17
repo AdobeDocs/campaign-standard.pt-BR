@@ -96,9 +96,9 @@ Essas configurações permitem exibir uma barra de controle na tela de recursos 
 
 * **[!UICONTROL Authorize creating]**: essa opção permite ativar a criação de elementos do recurso. O usuário pode, portanto, adicionar outros registros.
 
-   >[!NOTE]
-   >
-   >Primeiro, ative a tela de detalhes vinculada ao recurso para disponibilizar essa opção.
+  >[!NOTE]
+  >
+  >Primeiro, ative a tela de detalhes vinculada ao recurso para disponibilizar essa opção.
 
 * **[!UICONTROL Authorize duplicating]**: essa opção permite ativar registros duplicados vinculados ao recurso personalizado.
 * **[!UICONTROL Authorize deleting]**: essa opção permite ativar a exclusão de registros vinculados ao recurso personalizado.

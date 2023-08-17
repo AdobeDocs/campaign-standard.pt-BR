@@ -35,9 +35,9 @@ A variável **Motivos de rejeição** A tabela contém os dados disponíveis par
 * **[!UICONTROL Mailbox full]**: o tipo de erro gerado quando a caixa de entrada do recipient está cheia. Há cinco tentativas de entregar a mensagem antes que esse erro seja gerado.
 * **[!UICONTROL Not connected]**: o tipo de erro gerado quando o celular do recipient está desligado ou não está conectado a uma rede no momento em que a mensagem é enviada.
 
-   >[!NOTE]
-   >
-   >Esse tipo de erro só afeta deliveries em canais móveis.
+  >[!NOTE]
+  >
+  >Esse tipo de erro só afeta deliveries em canais móveis.
 
 * **[!UICONTROL Refused]**: o tipo de erro gerado quando um endereço é recusado pelo provedor de serviços de Internet (ISP). Por exemplo, quando uma regra de segurança tiver sido aplicada por um software antisspam.
 

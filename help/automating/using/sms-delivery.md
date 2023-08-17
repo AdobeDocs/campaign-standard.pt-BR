@@ -53,7 +53,7 @@ A preparação da mensagem é acionada de acordo com os parâmetros de execuçã
    * **[!UICONTROL SMS]**: o SMS é enviado uma única vez. Aqui, você pode especificar se deseja ou não adicionar uma transição de saída à atividade. Os diferentes tipos de transições estão detalhados na etapa 7 deste procedimento.
    * **[!UICONTROL Recurring SMS]**: o SMS é enviado várias vezes, de acordo com a frequência definida em uma **[!UICONTROL Scheduler]** atividade. Selecione o período de agregação dos envios. Você pode agrupar todos os envios que ocorrerem durante o período definido em uma única visualização, também chamada de **Execução recorrente**, e que pode ser acessada na lista de atividade de marketing do aplicativo.
 
-      Por exemplo, para um SMS de aniversário recorrente, que é enviado diariamente, você pode optar por agregar os envios por mês. Ele permite receber relatórios sobre o delivery mensalmente, embora o SMS seja enviado todos os dias.
+     Por exemplo, para um SMS de aniversário recorrente, que é enviado diariamente, você pode optar por agregar os envios por mês. Ele permite receber relatórios sobre o delivery mensalmente, embora o SMS seja enviado todos os dias.
 
 1. Selecione um tipo de SMS. Os tipos SMS vêm de templates SMS definidos no menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Insira as propriedades gerais do SMS. Também é possível anexá-la a uma campanha existente. O rótulo da atividade de delivery do workflow é atualizado com o rótulo do SMS.

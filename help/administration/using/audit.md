@@ -25,7 +25,7 @@ A variável **[!UICONTROL Audit trail]** O fornece acesso ao histórico completo
 
 * **Trilha de auditoria de recursos personalizados**: verifique a atividade e a última modificação feita nos recursos personalizados.
 
-   Para obter mais informações sobre **[!UICONTROL Custom resources]**, consulte este [página](../../developing/using/key-steps-to-add-a-resource.md).
+  Para obter mais informações sobre **[!UICONTROL Custom resources]**, consulte este [página](../../developing/using/key-steps-to-add-a-resource.md).
 
 * **Trilha de auditoria do fluxo de trabalho**: verifique a atividade e a última modificação feita nos workflows e, além disso, o estado dos workflows, como:
 
@@ -43,11 +43,11 @@ A variável **[!UICONTROL Audit trail]** O fornece acesso ao histórico completo
    * Reinicialização do fluxo de trabalho com o mesmo usuário
    * comando Workflow Restart Unknown
 
-   Para obter mais informações sobre **[!UICONTROL Workflows]**, consulte este [página](../../automating/using/get-started-workflows.md).
+  Para obter mais informações sobre **[!UICONTROL Workflows]**, consulte este [página](../../automating/using/get-started-workflows.md).
 
 * **Opção Trilha de auditoria**: verifique a atividade e a última modificação feita nas opções.
 
-   Para obter mais informações sobre **[!UICONTROL Options]**, consulte este [página](../../administration/using/about-campaign-standard-settings.md).
+  Para obter mais informações sobre **[!UICONTROL Options]**, consulte este [página](../../administration/using/about-campaign-standard-settings.md).
 
 Observe que, por padrão, o período de retenção é de 30 dias.
 
@@ -105,9 +105,10 @@ Para fazer isso:
    * **[!UICONTROL XtkAudit_CusResource]** opção para gerenciar a Trilha de auditoria para Recursos personalizados.
    * **[!UICONTROL XtkAudit_Enable_All]** opção para gerenciar a Trilha de auditoria para cada entidade.
 
-      >[!NOTE]
-      >
-      >Se a variável **[!UICONTROL XtkAudit_Enable_All]** for definida como 0, a variável **[!UICONTROL Audit trail]** O recurso será completamente desativado, independentemente de outros valores de opção individuais.
+     >[!NOTE]
+     >
+     >Se a variável **[!UICONTROL XtkAudit_Enable_All]** for definida como 0, a variável **[!UICONTROL Audit trail]** O recurso será completamente desativado, independentemente de outros valores de opção individuais.
+
    ![](assets/audit-trail_5.png)
 
 1. Do seu **[!UICONTROL Options]** , defina o **[!UICONTROL Value (integer)]** para 0 se desejar desativar a variável **[!UICONTROL Audit trail]** ou para 1 para ativá-lo.

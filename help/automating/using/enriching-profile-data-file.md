@@ -27,63 +27,63 @@ O fluxo de trabalho é configurado da seguinte maneira:
 * A [Query](../../automating/using/query.md) atividade que segmenta os perfis que receberão a mensagem.
 * A [Carregar arquivo](../../automating/using/load-file.md) atividade que carrega os dados de compra. Por exemplo:
 
-   ```
-   tcode;tdate;customer;product;tamount
-   aze123;21/05/2017;dannymars@example.com;TV;799
-   aze124;28/05/2017;dannymars@example.com;Headphones;8
-   aze125;31/07/2017;john.smith@example.com;Headphones;8
-   aze126;14/12/2017;john.smith@example.com;Plastic Cover;4
-   aze127;02/01/2018;dannymars@example.com;Case Cover;79
-   aze128;04/03/2017;clara.smith@example.com;Phone;149
-   ```
+  ```
+  tcode;tdate;customer;product;tamount
+  aze123;21/05/2017;dannymars@example.com;TV;799
+  aze124;28/05/2017;dannymars@example.com;Headphones;8
+  aze125;31/07/2017;john.smith@example.com;Headphones;8
+  aze126;14/12/2017;john.smith@example.com;Plastic Cover;4
+  aze127;02/01/2018;dannymars@example.com;Case Cover;79
+  aze128;04/03/2017;clara.smith@example.com;Phone;149
+  ```
 
-   Com esse arquivo de exemplo, use o endereço de email para reconciliar os dados com os perfis do banco de dados. Você também pode ativar IDs exclusivas conforme descrito [neste documento](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
+  Com esse arquivo de exemplo, use o endereço de email para reconciliar os dados com os perfis do banco de dados. Você também pode ativar IDs exclusivas conforme descrito [neste documento](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 
 * Um [Enriquecimento](../../automating/using/enrichment.md) atividade que cria um link entre os dados de transação carregados do arquivo e os perfis selecionados na **[!UICONTROL Query]**. O link é definido na guia **[!UICONTROL Advanced relations]** da atividade. O link é baseado na transição proveniente da atividade **[!UICONTROL Load file]**. Ele usa o campo &quot;email&quot; do recurso de perfil e a coluna &quot;cliente&quot; do arquivo importado como critérios de reconciliação.
 
-   ![](assets/enrichment_example_workflow2.png)
+  ![](assets/enrichment_example_workflow2.png)
 
-   Depois que o link é criado, dois conjuntos de **[!UICONTROL Additional data]** são incluídos:
+  Depois que o link é criado, dois conjuntos de **[!UICONTROL Additional data]** são incluídos:
 
    * Uma coleção de duas linhas correspondentes às duas últimas transações de cada perfil. Para essa coleção, o nome do produto, a data da transação e o preço do produto são incluídos como dados adicionais. Uma classificação decrescente é aplicada aos dados. Para criar a coleção, na guia **[!UICONTROL Additional data]**:
 
-      Selecione o link definido anteriormente na guia **[!UICONTROL Advanced relations]** da atividade.
+     Selecione o link definido anteriormente na guia **[!UICONTROL Advanced relations]** da atividade.
 
-      ![](assets/enrichment_example_workflow3.png)
+     ![](assets/enrichment_example_workflow3.png)
 
-      Marque **[!UICONTROL Collection]** e especifique o número de linhas a serem recuperadas (2, neste exemplo). Nesta tela, você pode personalizar o **[!UICONTROL Alias]** e o **[!UICONTROL Label]** da coleção. Esses valores estarão visíveis nas seguintes atividades do fluxo de trabalho ao se referirem a esta coleção.
+     Marque **[!UICONTROL Collection]** e especifique o número de linhas a serem recuperadas (2, neste exemplo). Nesta tela, você pode personalizar o **[!UICONTROL Alias]** e o **[!UICONTROL Label]** da coleção. Esses valores estarão visíveis nas seguintes atividades do fluxo de trabalho ao se referirem a esta coleção.
 
-      ![](assets/enrichment_example_workflow4.png)
+     ![](assets/enrichment_example_workflow4.png)
 
-      Quanto aos **[!UICONTROL Data]** a serem mantidos para a coleção, selecione as colunas que serão usadas no delivery final.
+     Quanto aos **[!UICONTROL Data]** a serem mantidos para a coleção, selecione as colunas que serão usadas no delivery final.
 
-      ![](assets/enrichment_example_workflow6.png)
+     ![](assets/enrichment_example_workflow6.png)
 
-      Aplique uma classificação decrescente na data da transação para garantir a recuperação das transações mais recentes.
+     Aplique uma classificação decrescente na data da transação para garantir a recuperação das transações mais recentes.
 
-      ![](assets/enrichment_example_workflow7.png)
+     ![](assets/enrichment_example_workflow7.png)
 
    * Uma agregação conta o número total de transações para cada perfil. Essa agregação será usada posteriormente para filtrar perfis que tenham pelo menos duas transações registradas. Para criar a agregação, na guia **[!UICONTROL Additional data]**:
 
-      Selecione o link definido anteriormente na guia **[!UICONTROL Advanced relations]** da atividade.
+     Selecione o link definido anteriormente na guia **[!UICONTROL Advanced relations]** da atividade.
 
-      ![](assets/enrichment_example_workflow3.png)
+     ![](assets/enrichment_example_workflow3.png)
 
-      Selecione **[!UICONTROL Aggregate]**.
+     Selecione **[!UICONTROL Aggregate]**.
 
-      ![](assets/enrichment_example_workflow8.png)
+     ![](assets/enrichment_example_workflow8.png)
 
-      Quanto aos **[!UICONTROL Data]** a serem mantidos, defina uma agregação **Count All**. Se necessário, especifique um apelido personalizado para encontrá-lo com mais rapidez nas atividades posteriores.
+     Quanto aos **[!UICONTROL Data]** a serem mantidos, defina uma agregação **Count All**. Se necessário, especifique um apelido personalizado para encontrá-lo com mais rapidez nas atividades posteriores.
 
-      ![](assets/enrichment_example_workflow9.png)
+     ![](assets/enrichment_example_workflow9.png)
 
 * A [Segmentação](../../automating/using/segmentation.md) atividade com apenas um segmento, que recupera perfis do público alvo inicial que tenham pelo menos duas transações registradas. Perfis com somente uma transação são excluídos. Para isso, a consulta da segmentação é feita na agregação definida anteriormente.
 
-   ![](assets/enrichment_example_workflow5.png)
+  ![](assets/enrichment_example_workflow5.png)
 
 * Um [Entrega de email](../../automating/using/email-delivery.md) atividade que usa os dados adicionais definidos na variável **[!UICONTROL Enrichment]** para recuperar dinamicamente as duas últimas compras feitas pelo perfil. Os dados adicionais podem ser encontrados no nó **Additional data (TargetData)** ao adicionar um campo de personalização.
 
-   ![](assets/enrichment_example_workflow10.png)
+  ![](assets/enrichment_example_workflow10.png)
 
 **Tópicos relacionados:**
 

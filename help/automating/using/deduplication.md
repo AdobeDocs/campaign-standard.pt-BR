@@ -67,15 +67,15 @@ Para configurar uma atividade de desduplicação, é necessário inserir um rót
    * **[!UICONTROL Choose for me]**: seleciona aleatoriamente o registro que será mantido fora das duplicatas.
    * **[!UICONTROL Following a list of values]**: permite definir uma prioridade de valor para um ou mais campos. Para definir os valores, selecione um campo ou crie uma expressão e adicione o(s) valor(es) à tabela apropriada. Para definir um novo campo, clique no botão **[!UICONTROL Add]** localizado acima da lista de valores.
 
-      ![](assets/deduplication_2.png)
+     ![](assets/deduplication_2.png)
 
    * **[!UICONTROL Non-empty value]**: permite manter registros para os quais o valor da expressão selecionada não está vazio como uma prioridade.
 
-      ![](assets/deduplication_3.png)
+     ![](assets/deduplication_3.png)
 
    * **[!UICONTROL Using an expression]**: permite manter os registros nos quais o valor da expressão inserida é o menor ou o maior.
 
-      ![](assets/deduplication_4.png)
+     ![](assets/deduplication_4.png)
 
 1. Se necessário, gerencie as [Transições](../../automating/using/activity-properties.md) de atividade para acessar as opções avançadas para a população de saída.
 1. Confirme a configuração da sua atividade e salve o fluxo de trabalho.

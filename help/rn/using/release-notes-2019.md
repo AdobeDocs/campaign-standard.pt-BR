@@ -179,7 +179,7 @@ ht-degree: 9%
 * Correção de vários problemas que ocorriam com o modo Avançado ao definir o conteúdo dinâmico em um email. (CAMP-34351, CAMP-34333, CAMP-34331)
 * Correção de vários problemas que ocorriam com o editor de regras de conteúdo dinâmico (CAMP-34304, CAMP-34303).
 * Correção de um problema que impedia a exibição do campo Link no painel Configurações do Designer de email (CAMP-33749).
-* Correção de um problema com o ícone YouTube que era muito grande nos emails enviados. (CAMP-33726)
+* Correção de um problema com o ícone do YouTube que era muito grande em emails enviados. (CAMP-33726)
 * Correção de um problema de segurança que tornava o conteúdo da mirror page editável. (CAMP-33691)
 * Correção de um problema que afetava a saída de HTML ao usar o símbolo maior que no conteúdo dinâmico. (CAMP-33688)
 * Correção de um problema que ocorria ao usar a opção Desfazer ao editar texto no Designer de email. (CAMP-32565)
@@ -378,7 +378,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * Correção de um erro que impedia os usuários de enviar mensagens no aplicativo apenas com URL de mídia.
 * Correção de um problema que exibia um aplicativo móvel mesmo se o certificado não fosse carregado na instância.
 * Correção de um erro que impedia que campos de personalização funcionassem ao usar o **Direcionar todos os usuários de um aplicativo móvel** modelo.
-* Novas instâncias do Campaign Standard foram provisionadas. (CAMP-32635 E CAMP-32344)
+* Novas instâncias de Campaign Standard foram provisionadas. (CAMP-32635 E CAMP-32344)
 * Correção de um erro que impedia a personalização da fórmula de data em um workflow. (CAMP-30336)
 * Correção de um problema ao definir uma fórmula de data personalizada que poderia impedir que os campos &quot;Dados adicionais&quot; e &quot;Código do segmento&quot; estivessem disponíveis na lista suspensa. (CAMP-32383)
 * Correção de um problema que impedia que as atividades &quot;Transferir arquivo&quot; e &quot;Extrair arquivo&quot; localizassem os arquivos rejeitados se eles estivessem criptografados. (CAMP-32377)
@@ -448,19 +448,19 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 
 * Um conjunto dos quatro melhores modelos de email responsivo criados por artistas do Behance está disponível.
 
-   Para obter mais informações, consulte a [documentação detalhada](../../designing/using/using-reusable-content.md#content-templates).
+  Para obter mais informações, consulte a [documentação detalhada](../../designing/using/using-reusable-content.md#content-templates).
 
 * Nossa nova experiência de integração ajuda você a começar a criar emails mais rapidamente e a facilitar o acesso à documentação e aos tutoriais.
 
-   Para obter mais informações, consulte a [documentação detalhada](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page).
+  Para obter mais informações, consulte a [documentação detalhada](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page).
 
 * Agora, você tem a flexibilidade para configurar o número de colunas e a largura com base nas suas necessidades.
 
-   Para obter mais informações, consulte a [documentação detalhada](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+  Para obter mais informações, consulte a [documentação detalhada](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 * Ao editar na exibição para dispositivos móveis, você pode ocultar determinados componentes apenas na exibição para dispositivos móveis para obter um uso eficaz do espaço.
 
-   Para obter mais informações, consulte a [documentação detalhada](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
+  Para obter mais informações, consulte a [documentação detalhada](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
 * Agora você pode adicionar canais sociais personalizados ao seu modelo de email, além daqueles que já estão disponíveis.
 * Correção de um problema que impedia a rolagem para baixo do menu de estrutura ao usar mais de 18 estruturas. (CAMP-31173)
@@ -480,7 +480,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * A lista suspensa Time zone na tela Profile creation foi movida da seção Address para a seção superior da interface.
 * Agora é possível adicionar separadores ao configurar telas de recursos personalizadas, permitindo organizar seus campos em categorias.
 
-   Para obter mais informações, consulte a [documentação detalhada](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration).
+  Para obter mais informações, consulte a [documentação detalhada](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration).
 
 **Outras alterações**
 
@@ -578,7 +578,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * Correção de um problema que impedia que os fragmentos recém-criados fossem exibidos ao editar um email com o Designer de email. (CAMP-29928)
 * Correção de um problema que impedia que o texto do botão fosse exibido corretamente em emails criados com o Designer de email e recebidos usando o cliente de webmail do Outlook.
 * Agora é possível criar mensagens transacionais de perfil usando o Designer de email. (CAMP-28900)
-* Correção de um erro no Email Designer que tornava o conteúdo editável ao recuperar conteúdo de um URL automaticamente no momento da preparação, enquanto deveria ser bloqueado.
+* Correção de um erro no Designer de email que tornava o conteúdo editável ao recuperar o conteúdo de um URL automaticamente no momento da preparação, enquanto ele deveria ser bloqueado.
 
 **Correções**
 

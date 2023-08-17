@@ -80,4 +80,4 @@ A sincronização entre o Adobe Campaign e o Serviço principal de pessoas leva 
 **Tópicos relacionados:**
 
 * [Fluxos de trabalho](../../automating/using/get-started-workflows.md)
-* [Públicos](../../audiences/using/about-audiences.md)
+* [Públicos-alvo](../../audiences/using/about-audiences.md)

@@ -54,11 +54,11 @@ A assimilação imediata de um mapeamento XDM no Adobe Experience Platform é ac
 >
 >Para executar a chamada da API POST de assimilação, o usuário deve ter uma **Execução da função SQL** que pode ser fornecido por um administrador de Campaign Standard executando abaixo do Script JS:
 >
->
-```
+>```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
+>
 
 A operação POST retorna informações sobre o status da solicitação criada:
 
@@ -119,60 +119,60 @@ As respostas possíveis para a operação do GET são:
 
 * Solicitação de assimilação bem-sucedida:
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>. ",
-   "numRecords": 15,
-   "requestId": 3520,
-   "status": "Success"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>. ",
+  "numRecords": 15,
+  "requestId": 3520,
+  "status": "Success"
+  }
+  ```
 
 * A solicitação de assimilação falhou com 0 registro assimilado:
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>. ACP-880056 Failed to fetch the record from the database.",
-   "numRecords": 0,
-   "requestId": 3520,
-   "status": "Failed"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>. ACP-880056 Failed to fetch the record from the database.",
+  "numRecords": 0,
+  "requestId": 3520,
+  "status": "Failed"
+  }
+  ```
 
 * A solicitação de assimilação falhou, com alguns registros carregados em um lote:
 
-   ```
-   {
-   "batchId": "<value>",
-   "info": "Mapping Id: <value>. ACP-880096 Sync Job failed to upload. Please check the error in the Platform UI.",
-   "numRecords": 0,
-   "requestId": <value>,
-   "status": "Failed"
-   }
-   ```
+  ```
+  {
+  "batchId": "<value>",
+  "info": "Mapping Id: <value>. ACP-880096 Sync Job failed to upload. Please check the error in the Platform UI.",
+  "numRecords": 0,
+  "requestId": <value>,
+  "status": "Failed"
+  }
+  ```
 
 * Solicitação de assimilação anulada após assimilar alguns registros (isso pode acontecer em cenários de falha):
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>. Ingestion request aborted due to some issue with data ingestion service. Please submit a new request",
-   "numRecords": 0,
-   "requestId": <value>,
-   "status": "Aborted"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>. Ingestion request aborted due to some issue with data ingestion service. Please submit a new request",
+  "numRecords": 0,
+  "requestId": <value>,
+  "status": "Aborted"
+  }
+  ```
 
 * Solicitação de assimilação em andamento (quando a solicitação carregou os dados em um lote ou quando o lote está sendo preparado para a solicitação):
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>.",
-   "numRecords": 0,
-   "requestId": <value>,
-   "status": "In Progress"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>.",
+  "numRecords": 0,
+  "requestId": <value>,
+  "status": "In Progress"
+  }
+  ```

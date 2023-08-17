@@ -44,7 +44,7 @@ Uma **Marca** é definida pelas seguintes características:
 
 * Uma **identidade** que define e personaliza sua marca. Esta seção contém os seguintes campos:
 
-   ![](assets/branding_01.png)
+  ![](assets/branding_01.png)
 
    * **Rótulo** visível na interface
    * **Nome da marca**
@@ -53,7 +53,7 @@ Uma **Marca** é definida pelas seguintes características:
 
 * **[!UICONTROL Header parameters of sent emails]** que personaliza o que os recipients das campanhas verão. Esta seção contém os seguintes campos:
 
-   ![](assets/branding_04_header.png)
+  ![](assets/branding_04_header.png)
 
    * **Remetente (endereço de email)** com o endereço de email da marca.
    * **Remetente (nome)** com o nome da marca.
@@ -61,27 +61,27 @@ Uma **Marca** é definida pelas seguintes características:
    * **Responder a (nome)** com o nome da marca.
    * **Erro (endereço de email)** com o endereço de email que será usado em caso de erro.
 
-   >[!IMPORTANT]
-   >
-   >Após atualizar os parâmetros de cabeçalho dos emails, caso o nome e o endereço de email do remetente não tiverem sido alterados no email criado a partir do modelo, verifique as configurações avançadas do modelo.
+  >[!IMPORTANT]
+  >
+  >Após atualizar os parâmetros de cabeçalho dos emails, caso o nome e o endereço de email do remetente não tiverem sido alterados no email criado a partir do modelo, verifique as configurações avançadas do modelo.
 
 * O(s) **servidor(e)s exposto(s) na Internet** define(m) os servidores usados para rastreamento, mas também para acesso à landing page. Esta seção contém os seguintes campos:
 
-   ![](assets/configure_branding_04.png)
+  ![](assets/configure_branding_04.png)
 
    * **URL externo do servidor de aplicativos** usado para hospedar e acessar as diferentes landing pages criadas por você.
    * **URL externo do servidor de rastreamento** usado como o URL rastreado durante os deliveries.
    * **URL externo do servidor de mirror pages** usado como mirror page padrão em seus deliveries.
 
-   >[!NOTE]
-   >
-   >Para exibir a pré-visualização da landing page e a renderização da mirror page na interface do usuário do Campaign, os URLs do servidor de aplicativos e de mirror pages devem estar protegidos. Nesse caso, use https:// em vez de http:// ao configurar esses URLs.
+  >[!NOTE]
+  >
+  >Para exibir a pré-visualização da landing page e a renderização da mirror page na interface do usuário do Campaign, os URLs do servidor de aplicativos e de mirror pages devem estar protegidos. Nesse caso, use https:// em vez de http:// ao configurar esses URLs.
 
 * **[!UICONTROL Tracking URL configuration (Web Analytics)]**, que define a configuração do rastreamento de URLs para sua marca.
 
-   Os parâmetros adicionais que permitem que os links sejam rastreados em sistemas externos, como ferramentas do Web Analytics, como o Adobe Analytics ou o Google Analytics, estão definidos aqui.
+  Os parâmetros adicionais que permitem que os links sejam rastreados em sistemas externos, como ferramentas do Web Analytics, como o Adobe Analytics ou o Google Analytics, estão definidos aqui.
 
-   ![](assets/branding_05.png)
+  ![](assets/branding_05.png)
 
 ## Criação de uma nova marca {#creating-a-brand}
 

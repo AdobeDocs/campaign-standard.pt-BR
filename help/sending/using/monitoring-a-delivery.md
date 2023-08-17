@@ -26,23 +26,23 @@ Há várias maneiras de monitorar um delivery e medir o impacto. Como administra
 
 * **Logs de mensagem**: esses logs podem ser acessados diretamente do painel de mensagens. Eles mostram os detalhes do envio, o target que foi excluído e o motivo, bem como as informações de rastreamento, como aberturas e cliques.
 
-   Para exibir os logs de mensagem, clique no ícone na parte inferior direita do bloco **[!UICONTROL Deployment]**.
+  Para exibir os logs de mensagem, clique no ícone na parte inferior direita do bloco **[!UICONTROL Deployment]**.
 
-   Várias guias contêm informações (se houver) relacionadas a **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** e **[!UICONTROL Tracked URLs]**. Consulte [Logs do delivery](#delivery-logs).
+  Várias guias contêm informações (se houver) relacionadas a **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** e **[!UICONTROL Tracked URLs]**. Consulte [Logs do delivery](#delivery-logs).
 
-   ![](assets/sending_delivery1.png)
+  ![](assets/sending_delivery1.png)
 
-   O log contém todas as mensagens relacionadas ao delivery e às provas. Os ícones especiais permitem identificar erros ou avisos. Para saber mais, consulte [Aprovação de mensagens](../../sending/using/previewing-messages.md).
+  O log contém todas as mensagens relacionadas ao delivery e às provas. Os ícones especiais permitem identificar erros ou avisos. Para saber mais, consulte [Aprovação de mensagens](../../sending/using/previewing-messages.md).
 
-   Você pode exportar o log clicando no botão **[!UICONTROL Export list]**.
+  Você pode exportar o log clicando no botão **[!UICONTROL Export list]**.
 
-   ![](assets/sending_delivery2.png)
+  ![](assets/sending_delivery2.png)
 
 * **Logs de trabalho**: uma lista dos processos em lote acionados pelo delivery pode ser acessada no painel de mensagens selecionando **[!UICONTROL Job history]** do **[!UICONTROL Summary]** lista suspensa.
 
-   Selecione qualquer trabalho na lista para ver os detalhes do **[!UICONTROL Batch job]**.
+  Selecione qualquer trabalho na lista para ver os detalhes do **[!UICONTROL Batch job]**.
 
-   ![](assets/sending_delivery8.png)
+  ![](assets/sending_delivery8.png)
 
 * **Alertas de delivery**: para rastrear os sucessos ou as falhas do delivery, o Adobe Campaign tem um sistema de alerta por email que envia notificações para informar os usuários sobre atividades importantes do sistema.
 * **Relatórios**: no painel de mensagens, você pode acessar vários relatórios para a mensagem específica. O menu **[!UICONTROL Reports]** permite acessar uma lista completa de relatórios incorporados ou personalizados que você pode usar para destacar métricas específicas relacionadas à mensagem ou campanha.

@@ -179,7 +179,7 @@ O valor **N/D** às vezes, podem aparecer nos relatórios dinâmicos. Isso pode 
 * Ao arrastar e soltar a variável **[!UICONTROL Transactional Delivery]** aos seus relatórios, o valor **N/D** pode aparecer como resultado. Isso acontece porque o Dynamic Report busca cada delivery, mesmo que não seja transacional. Isso também pode ocorrer ao arrastar e soltar a variável **[!UICONTROL Delivery]** dimensão ao seu relatório, mas nesse caso, a variável **N/D** O valor representará os deliveries transacionais.
 * Quando uma dimensão é usada com uma métrica não relacionada à dimensão. No exemplo abaixo, um detalhamento é adicionado com a variável **[!UICONTROL Tracking URL]** mesmo que a variável **[!UICONTROL Click]** count está definido como 0 nesta entrega.
 
-   ![](assets/troubleshooting_4.png)
+  ![](assets/troubleshooting_4.png)
 
 ## Relatórios de deliveries mostram dados incompletos ao usar o Target mapping personalizado
 
@@ -189,4 +189,4 @@ Para resolver isso:
 
 * Depois de importar o Target mapping de um XML, também será necessário importar o enriquecimento de relatórios.
 
-* Em vez de importar o Target mapping, é possível criá-lo diretamente no Adobe Campaign Standard, que criará automaticamente o enriquecimento de Relatórios.
+* Em vez de importar o Target mapping, você pode criá-lo diretamente no Adobe Campaign Standard, que criará automaticamente o enriquecimento de Relatórios.

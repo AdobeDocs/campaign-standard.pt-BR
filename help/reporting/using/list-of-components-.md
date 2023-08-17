@@ -11,7 +11,7 @@ exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '1269'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -59,7 +59,7 @@ A tabela abaixo fornece a lista de dimensões usadas em relatórios e suas defin
   </tr> 
   <tr> 
    <td> Motivo da falha<br /> </td> 
-   <td> Tipos de erros que causaram rejeições para cada delivery, por exemplo, usuário desconhecido, domínio inválido ou caixa de entrada cheia.<br /> </td> 
+   <td> Tipos de erros que causaram rejeições para cada delivery, por exemplo, usuário desconhecido, domínio inválido ou caixa de correio cheia.<br /> </td> 
   </tr> 
   <tr> 
    <td> Sexo<br /> </td> 
@@ -156,7 +156,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
   </tr> 
   <tr> 
    <td> Devoluções + Erros<br /> </td> 
-   <td> Total de erros acumulados durante o processamento de delivery e retorno automático em relação ao número total de mensagens enviadas.<br /> </td> 
+   <td> Total de erros acumulados durante o processamento de entrega e retorno automático em relação ao número total de mensagens enviadas.<br /> </td> 
   </tr> 
   <tr> 
    <td> Rejeição + taxa de erro<br /> </td> 

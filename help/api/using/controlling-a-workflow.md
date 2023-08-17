@@ -40,28 +40,28 @@ Para obter mais informações sobre os comandos de execução, consulte [Documen
 
 * Iniciar um fluxo de trabalho.
 
-   ```
-   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>' \
-   -i
-   -d '{"method":"start"}'
-   ```
+  ```
+  -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -i
+  -d '{"method":"start"}'
+  ```
 
-   <!-- + réponse -->
+  <!-- + réponse -->
 
 * Interrompa um workflow.
 
-   ```
-   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>' \
-   -i
-   -d '{"method":"stop"}'
-   ```
+  ```
+  -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -i
+  -d '{"method":"stop"}'
+  ```
 
-   <!-- + réponse -->
+  <!-- + réponse -->

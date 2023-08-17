@@ -87,9 +87,9 @@ Antes de importar conteúdo de um URL, siga os requisitos abaixo:
 * Por motivos de segurança, somente URLs que começam com **[!UICONTROL https]** são permitidos.
 * Verifique se todos os recursos (imagens, CSS) estão definidos em links absolutos e em HTTPS. Caso contrário, após o envio do email, a mirror page será exibida sem os recursos. Este é um exemplo de uma definição de link absoluto:
 
-   ```
-   <a href="https://www.mywebsite.com/images/myimage.png">
-   ```
+  ```
+  <a href="https://www.mywebsite.com/images/myimage.png">
+  ```
 
 >[!NOTE]
 >
@@ -249,6 +249,5 @@ Depois de identificar todos os blocos, no Designer de email, repita o procedimen
    >* `<style data-name="mediaIOS8" type="text/css">(##)</style>`
    >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
    >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
-
 
 1. Retorne à exibição para dispositivos móveis para verificar se o conteúdo é exibido corretamente e salve as alterações.

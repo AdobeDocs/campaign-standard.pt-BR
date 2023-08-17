@@ -57,13 +57,13 @@ Um delivery de execução é uma mensagem técnica não acionável e não funcio
 
 * Toda vez que um delivery recorrente é executado ou atualizado.
 
-   Por exemplo, se o workflow que gerencia esse delivery for executado uma vez por mês, haverá um delivery de execução por mês. Além disso, cada vez que o conteúdo do delivery é atualizado, um delivery de execução adicional é criado.
+  Por exemplo, se o workflow que gerencia esse delivery for executado uma vez por mês, haverá um delivery de execução por mês. Além disso, cada vez que o conteúdo do delivery é atualizado, um delivery de execução adicional é criado.
 
-   Para obter mais informações sobre deliveries de email recorrentes, consulte [Entrega de email](../../automating/using/email-delivery.md).
+  Para obter mais informações sobre deliveries de email recorrentes, consulte [Entrega de email](../../automating/using/email-delivery.md).
 
 * Por padrão, uma vez por mês para mensagens transacionais e sempre que uma mensagem transacional for editada e publicada novamente.
 
-   Para obter mais informações, consulte [Introdução a mensagens transacionais](../../channels/using/getting-started-with-transactional-msg.md).
+  Para obter mais informações, consulte [Introdução a mensagens transacionais](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >

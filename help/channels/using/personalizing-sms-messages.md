@@ -40,7 +40,7 @@ Aqui, usamos um exemplo de mensagem SMS contendo campos de personalização que,
 >
 >Consulte a legislação do seu país quanto à modificação do endereço do remetente. Você também deve consultar seu provedor de serviço SMS se ele oferecer essa funcionalidade.
 
-A opção **[!UICONTROL From]** permite personalizar o nome do remetente da mensagem SMS usando uma sequência de caracteres. Ele aparecerá como o nome do remetente da mensagem SMS no celular do recipient.
+A opção **[!UICONTROL From]** permite personalizar o nome do remetente da mensagem SMS usando uma string de caracteres. Ele aparecerá como o nome do remetente da mensagem SMS no celular do recipient.
 
 Se esse campo estiver vazio, será usado o número de origem fornecido na conta externa. Se nenhum número de origem for fornecido, o código curto será usado. A conta externa específica do delivery de SMS é apresentada na seção [Definição de um roteamento de SMS](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 

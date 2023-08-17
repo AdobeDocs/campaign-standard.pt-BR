@@ -52,7 +52,7 @@ Se você tiver configurado a integração para emitir chamadas de exclusão de p
 
 Devido às diferenças nos atributos de recusa entre o Microsoft Dynamics 365 e o Campaign, bem como às diferenças nos requisitos de negócios de cada cliente, o mapeamento de recusa foi deixado como um exercício a ser concluído pelo cliente.  É importante garantir que as opções de não participação sejam mapeadas corretamente entre os sistemas, para que as preferências de não participação do usuário final sejam mantidas e ele não receba uma comunicação por meio de um canal do qual tenha optado.
 
-Esteja ciente de que somente os itens a seguir podem ser usados em mapeamentos de recusa:
+Esteja ciente de que somente os seguintes itens podem ser usados em mapeamentos de recusa:
 
 * Atributos de campanha com o prefixo &quot;Não entrar mais em contato por&quot; (por exemplo, Não entrar mais em contato por email) ou
 
@@ -154,15 +154,15 @@ As medidas de proteção a seguir devem ser consideradas ao planejar a utilizaç
 
 * Você precisará licenciar o pacote adequado do Campaign para dar suporte ao volume de chamadas do mecanismo gerado pela integração. Exceder o volume de chamadas do mecanismo licenciado pode causar uma degradação no desempenho do Campaign.
 
-   Use o seguinte para ajudar a estimar o volume de chamadas do mecanismo da integração:
+  Use o seguinte para ajudar a estimar o volume de chamadas do mecanismo da integração:
 
    * Inserções de registro (ou seja, novo registro): 1 chamada de mecanismo
    * Exclusões de registro: 1 chamada de mecanismo
    * Atualizações de registro: 2 chamadas de mecanismo (apenas 1 chamada se o registro de destino for idêntico ao registro de origem, ou seja, se nenhuma alteração for feita no registro do Campaign)
 
-   Ao estimar o volume geral de chamadas do mecanismo do Campaign, é importante considerar outras fontes de chamadas do mecanismo, incluindo páginas de aterrissagem, WebApps, JSSP, APIs, registros de aplicativos móveis etc.
+  Ao estimar o volume geral de chamadas do mecanismo do Campaign, é importante considerar outras fontes de chamadas do mecanismo, incluindo páginas de aterrissagem, WebApps, JSSP, APIs, registros de aplicativos móveis etc.
 
-   Veja as informações do pacote do Adobe Campaign Standard aqui: [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)
+  Veja as informações do pacote do Adobe Campaign Standard aqui: [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)
 
 * A integração oferece suporte a um máximo de 15 milhões de registros totais para a sincronização inicial com os recursos no Campaign. A sincronização incremental é limitada pelo pacote do Adobe Campaign Standard.
 

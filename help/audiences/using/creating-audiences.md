@@ -113,11 +113,11 @@ Existem diferentes maneiras de editar um público-alvo dependendo do tipo:
 
 * Para editar um público-alvo do tipo **Query**, acesse a lista de públicos-alvo no menu **[!UICONTROL Audiences]** ou pelo cartão **[!UICONTROL Audiences]** da home page do Adobe Campaign.
 
-   Abra o público-alvo relevante. Todos os elementos de um público-alvo criado anteriormente podem ser editados.
+  Abra o público-alvo relevante. Todos os elementos de um público-alvo criado anteriormente podem ser editados.
 
-   >[!CAUTION]
-   >
-   >Se você alterar a **[!UICONTROL Filtering dimension]** no query, as regras que foram definidas anteriormente serão perdidas.
+  >[!CAUTION]
+  >
+  >Se você alterar a **[!UICONTROL Filtering dimension]** no query, as regras que foram definidas anteriormente serão perdidas.
 
 * Para editar um público-alvo do tipo **Lista** ou **Arquivo**, edite o fluxo de trabalho do qual ele foi criado e modifique a atividade **[!UICONTROL Save audience]**. Inicie o fluxo de trabalho para que o público-alvo seja modificado.
 * Para editar um público-alvo da **Experience Cloud**, consulte a seção [Importação/exportação de públicos-alvo com o serviço principal People](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md).

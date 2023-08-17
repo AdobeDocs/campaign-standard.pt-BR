@@ -34,79 +34,79 @@ O status de recusa do CCPA de um perfil pode ser monitorado e gerenciado usando 
 
 * Exemplo de solicitação do GET para recuperar o status de recusa do CCPA de um perfil.
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>' \
-   -H 'Content-Type: application/json;charset=utf-8'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -H 'Content-Type: application/json;charset=utf-8'
+  ```
 
-   Resposta à solicitação do GET.
+  Resposta à solicitação do GET.
 
-   ```
-   {
-   "PKey": "<PKEY>",
-     "ccpaOptOut": false,
-     "firstName": "John",
-     "lastName": "Doe",
-   ...
-   }
-   ```
+  ```
+  {
+  "PKey": "<PKEY>",
+    "ccpaOptOut": false,
+    "firstName": "John",
+    "lastName": "Doe",
+  ...
+  }
+  ```
 
 * Exemplo de solicitação de POST para marcar um perfil para recusa do CCPA.
 
-   ```
-   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>' \
-   -H 'Content-Type: application/json;charset=utf-8'
-   -i
-   -d {
-   -d  "firstName": "John",
-   -d  "lastName": "Doe",
-   -d  "email": "jdoe@mail.com",
-   -d  "ccpaOptOut": true
-   -d }'
-   ```
+  ```
+  -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -H 'Content-Type: application/json;charset=utf-8'
+  -i
+  -d {
+  -d  "firstName": "John",
+  -d  "lastName": "Doe",
+  -d  "email": "jdoe@mail.com",
+  -d  "ccpaOptOut": true
+  -d }'
+  ```
 
-   Resposta à solicitação do GET.
+  Resposta à solicitação do GET.
 
-   ```
-   {
-       ...
-       "email": "john.doe@mail.com",
-       "firstName": "John",
-       "lastName": "Doe",
-       "ccpaOptOut": true,
-       ...
-   }
-   ```
+  ```
+  {
+      ...
+      "email": "john.doe@mail.com",
+      "firstName": "John",
+      "lastName": "Doe",
+      "ccpaOptOut": true,
+      ...
+  }
+  ```
 
 * Exemplo de solicitação de PATCH para atualizar um perfil para recusa do CCPA.
 
-   ```
-   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>' \
-   -H 'Content-Type: application/json;charset=utf-8'
-   -i
-   -d {
-   -d  "ccpaOptOut": true
-   -d }'
-   ```
+  ```
+  -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -H 'Content-Type: application/json;charset=utf-8'
+  -i
+  -d {
+  -d  "ccpaOptOut": true
+  -d }'
+  ```
 
-   Resposta à solicitação do GET.
+  Resposta à solicitação do GET.
 
-   ```
-   {
-       ...
-       "email": "john.doe@mail.com",
-       "firstName": "John",
-       "lastName": "Doe",
-       "ccpaOptOut": true,
-       ...
-   }
-   ```
+  ```
+  {
+      ...
+      "email": "john.doe@mail.com",
+      "firstName": "John",
+      "lastName": "Doe",
+      "ccpaOptOut": true,
+      ...
+  }
+  ```

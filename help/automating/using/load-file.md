@@ -71,25 +71,25 @@ A configuração da atividade envolve duas etapas. Primeiro, é necessário defi
    * Você pode optar por usar a estrutura de outro arquivo selecionando a opção **[!UICONTROL Detect structure from a new file]**.
    * Você pode modificar os parâmetros de detecção padrão para adaptá-los ao seu arquivo. O campo **[!UICONTROL File type]** permite especificar se o arquivo que você quer importar é composto de colunas com comprimento fixo. Nesse caso, você também deve especificar o número máximo de caracteres para cada coluna na guia **[!UICONTROL Column definition]**.
 
-      Todas as opções de detecção necessárias para recuperar corretamente os dados do arquivo são reagrupadas em **[!UICONTROL File format]**. Você pode modificá-las e detectar novamente a estrutura do último arquivo carregado na atividade considerando essas novas configurações. Para fazer isso, use o botão **[!UICONTROL Apply configuration]**. Por exemplo, você pode especificar um separador de coluna diferente.
+     Todas as opções de detecção necessárias para recuperar corretamente os dados do arquivo são reagrupadas em **[!UICONTROL File format]**. Você pode modificá-las e detectar novamente a estrutura do último arquivo carregado na atividade considerando essas novas configurações. Para fazer isso, use o botão **[!UICONTROL Apply configuration]**. Por exemplo, você pode especificar um separador de coluna diferente.
 
-      >[!NOTE]
-      >
-      >Essa operação considera o último arquivo que foi carregado na atividade. Se o arquivo detectado for grande, a pré-visualização de dados mostrará apenas as 30 primeiras linhas.
+     >[!NOTE]
+     >
+     >Essa operação considera o último arquivo que foi carregado na atividade. Se o arquivo detectado for grande, a pré-visualização de dados mostrará apenas as 30 primeiras linhas.
 
-      ![](assets/wkf_file_loading3.png)
+     ![](assets/wkf_file_loading3.png)
 
-      Na seção **[!UICONTROL File format]**, a opção **[!UICONTROL Check columns from file against column definitions]** permite verificar se as colunas do arquivo que você está fazendo upload correspondem à definição da coluna.
+     Na seção **[!UICONTROL File format]**, a opção **[!UICONTROL Check columns from file against column definitions]** permite verificar se as colunas do arquivo que você está fazendo upload correspondem à definição da coluna.
 
-      Se o número e/ou o nome da coluna não corresponderem à definição da coluna, uma mensagem de erro será exibida na execução do fluxo de trabalho. Se a opção não estiver ativada, avisos serão exibidos no arquivo de log.
+     Se o número e/ou o nome da coluna não corresponderem à definição da coluna, uma mensagem de erro será exibida na execução do fluxo de trabalho. Se a opção não estiver ativada, avisos serão exibidos no arquivo de log.
 
-      ![](assets/wkf_file_loading_check.png)
+     ![](assets/wkf_file_loading_check.png)
 
 1. Acesse a guia **[!UICONTROL Column definition]** para verificar o formato dos dados de cada coluna e ajuste os parâmetros, se necessário.
 
    A guia **[!UICONTROL Column definition]** permite especificar com precisão a estrutura dos dados de cada coluna para importar dados que não contenham erros (por exemplo, usando o gerenciamento nulo) e fazer a correspondência deles com os tipos presentes no banco de dados do Adobe Campaign para operações futuras.
 
-   Por exemplo, você pode alterar o rótulo de uma coluna, selecionar o tipo (sequência, número inteiro, data etc.) ou até mesmo especificar o processamento de erros.
+   Por exemplo, você pode alterar o rótulo de uma coluna, selecionar o tipo (string, número inteiro, data etc.) ou até mesmo especificar o processamento de erros.
 
    Para saber mais, consulte a seção [Formato da coluna](#column-format).
 
@@ -101,7 +101,7 @@ A configuração da atividade envolve duas etapas. Primeiro, é necessário defi
    * É o que você carregou durante a etapa anterior.
    * É um novo arquivo para upload do computador local. A opção **[!UICONTROL Upload a new file from local machine]** será exibida se o upload de um primeiro arquivo já tiver sido definido no fluxo de trabalho. Isso permitirá que você faça upload de outro arquivo que será processado se o arquivo atual não atender às suas necessidades.
 
-      ![](assets/wkf_file_loading1.png)
+     ![](assets/wkf_file_loading1.png)
 
 1. Se o arquivo do qual você deseja carregar os dados for compactado em um arquivo GZIP (.gz), selecione a opção **[!UICONTROL Decompression]** no campo **[!UICONTROL Add a pre-processing stage]**. Isso permitirá descompactar o arquivo antes de carregar os dados. Essa opção só estará disponível se o arquivo for proveniente da transição de entrada da atividade.
 
@@ -135,12 +135,12 @@ A formatação de coluna permite definir o processamento de valor de cada coluna
 * **[!UICONTROL Data type]**: especifica o tipo de dados esperado para cada coluna.
 * **[!UICONTROL Format and separators]**, **Propriedades**: especifique as propriedades de um texto, a hora, a data e o formato do valor numérico, bem como o separador especificado pelo contexto da coluna.
 
-   * **[!UICONTROL Maximum number of characters]**: especifica o número máximo de caracteres para colunas do tipo sequência.
+   * **[!UICONTROL Maximum number of characters]**: especifica o número máximo de caracteres para colunas do tipo string.
 
-      Esse campo deve ser preenchido no carregamento de arquivos compostos de colunas com comprimento fixo.
+     Esse campo deve ser preenchido no carregamento de arquivos compostos de colunas com comprimento fixo.
 
    * **[!UICONTROL Letter case management]**: define se um processo de caso de caractere precisa ser aplicado aos dados de **Text**.
-   * **[!UICONTROL White space management]**: especifica se determinados espaços precisam ser ignorados em uma sequência para os dados de **Text**.
+   * **[!UICONTROL White space management]**: especifica se determinados espaços precisam ser ignorados em uma string para os dados de **Text**.
    * **[!UICONTROL Time format]**, **[!UICONTROL Date format]**: especifique o formato dos dados de **Date**, **Time** e **Date and time**.
    * **[!UICONTROL Format]**: permite definir o formato dos valores numéricos para os dados de **Integer** e **Floating number**.
    * **[!UICONTROL Separator]**: define o separador especificado pelo contexto da coluna (separador de milhares ou separador decimal para valores numéricos, separador para datas e hora) para os dados de **Date**, **Time**, **Date and time**, **Integer** e **Floating number**.
@@ -154,9 +154,9 @@ A formatação de coluna permite definir o processamento de valor de cada coluna
    * **[!UICONTROL Use a default value in case the value is not remapped]**: substitui o valor que causa o erro por um valor padrão, definido no campo **[!UICONTROL Default value]**, a menos que um mapeamento tenha sido definido para o valor incorreto (consulte a opção **[!UICONTROL Remapping of values]** acima).
    * **[!UICONTROL Reject the line when there is no remapping value]**: a linha inteira não é processada a menos que um mapeamento tenha sido definido para o valor incorreto (consulte a opção **[!UICONTROL Remapping of values]** acima).
 
-   >[!NOTE]
-   >
-   >O **[!UICONTROL Error processing]** refere-se a erros nos valores do arquivo importado. Por exemplo, um tipo de dados com falha encontrado (“quatro” por escrito para uma coluna “Integer”), uma sequência com mais caracteres do que o número máximo autorizado, uma data com separadores incorretos etc. No entanto, essa opção não se refere aos erros gerados pelo gerenciamento de valores vazios.
+  >[!NOTE]
+  >
+  >O **[!UICONTROL Error processing]** refere-se a erros nos valores do arquivo importado. Por exemplo, um tipo de dados com falha encontrado (“quatro” por escrito para uma coluna “Integer”), uma string com mais caracteres do que o número máximo autorizado, uma data com separadores incorretos etc. No entanto, essa opção não se refere aos erros gerados pelo gerenciamento de valores vazios.
 
 * **[!UICONTROL Default value]**: especifica o valor padrão de acordo com o processamento de erros escolhido.
 * **[!UICONTROL Empty value management]**: especifica como gerenciar valores vazios durante o carregamento de dados.

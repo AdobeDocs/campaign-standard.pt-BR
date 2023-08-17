@@ -358,9 +358,9 @@ Os novos recursos, melhorias e correções incluídos na próxima versão do Cam
 
 * Correção de problemas que faziam com que a análise de entrega falhasse ao enviar perfis de direcionamento de notificação push transacional, introduzindo um novo [target mapping](../../administration/using/target-mappings-in-campaign.md): **Perfil — Evento em tempo real para push** (*mapRtEventAppSubRcp*). Os logs de entrega, exclusão e rastreamento para [notificações por push transacionais baseadas em perfil](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) agora serão armazenado nas tabelas *broadLogAppSubRcp*, *excludeLogAppSubRcp* e *trackingLogAppSubRcp*.
 
-   >[!IMPORTANT]
-   >
-   >Devido a essa alteração, se você está usando uma notificação transacional por push baseada em perfil (criada antes da atualização para o Adobe Campaign 21.1), é recomendável atualizar o target mapping para o novo e publicar a mensagem novamente. Veja as etapas detalhadas [aqui](../../channels/using/transactional-push-notifications.md#change-target-mapping). Usar o target mapping anterior **Perfil — Evento em tempo real** (*mapRtEventRcp*) pode resultar em tempos de preparação de entrega mais longos e diminuição de desempenho.
+  >[!IMPORTANT]
+  >
+  >Devido a essa alteração, se você está usando uma notificação transacional por push baseada em perfil (criada antes da atualização para o Adobe Campaign 21.1), é recomendável atualizar o target mapping para o novo e publicar a mensagem novamente. Veja as etapas detalhadas [aqui](../../channels/using/transactional-push-notifications.md#change-target-mapping). Usar o target mapping anterior **Perfil — Evento em tempo real** (*mapRtEventRcp*) pode resultar em tempos de preparação de entrega mais longos e diminuição de desempenho.
 
 * Correção de um problema que impedia a execução de relatórios do delivery quando 5000 linhas eram exibidas.
 * Correção de um problema com o teste AB que impedia que o conteúdo da variante B fosse atualizado após a modificação do template do delivery. (CAMP-45235)
@@ -380,7 +380,7 @@ Os novos recursos, melhorias e correções incluídos na próxima versão do Cam
 * Correção de problemas de consumo de memória relacionados à publicação de recursos personalizados.
 * Correção de um problema que ocorria ao configurar uma entrega para ser enviada em uma data específica. Se a entrega tivesse sido definida para ser enviada imediatamente depois de confirmada, a preparação da entrega falhava e a data inicialmente especificada ainda era levada em conta. (CAMP-44107)
 * Correção de um problema que impedia a abertura de modelos transacionais. (CAMP-47181)
-* Correção de um problema no processo de publicação de mensagens transacionais que podia resultar em tipologias duplicadas e regras de tipologia com nomes que excediam o tamanho de sequência permitido. (CAMP-47104)
+* Correção de um problema no processo de publicação de mensagens transacionais que podia resultar em tipologias duplicadas e regras de tipologia com nomes que excediam o tamanho de string permitido. (CAMP-47104)
 * Correção de um problema na atividade **API externa** que ocorria quando um parâmetro de entrada retornava um registro que não existia. (CAMP-47023)
 * Correção de um problema que impedia a reconexão do conector SMPP.
 * Correção de um problema que ocorria na atividade **Transferência de arquivo** ao baixar um arquivo contendo um ponto em seu nome. Os caracteres após o ponto eram considerados como a extensão do arquivo. (CAMP-46624)

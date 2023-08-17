@@ -47,15 +47,15 @@ ht-degree: 9%
 * Há agora uma distinção nos broadlogs entre o número máximo de conexões e o número máximo de mensagens por hora. Quando os limites são atingidos, é possível saber o motivo da taxa de transferência ser limitada. Anteriormente, a mesma mensagem (‘cota atingida’) se aplicava a ambos os casos.
 * Ao configurar um aplicativo para dispositivos móveis no Campaign, o usuário agora pode saber se o certificado do iOS e a chave do servidor Android foram carregados com êxito e a data de expiração.
 
-   Para obter mais informações, consulte a documentação detalhada sobre como configurar um aplicativo móvel usando o [SDK V4](https://helpx.adobe.com/br/campaign/kb/configuring-app-sdkv4.html) e [SDK V5](https://helpx.adobe.com/br/campaign/kb/configuring-app-sdk.html).
+  Para obter mais informações, consulte a documentação detalhada sobre como configurar um aplicativo móvel usando o [SDK V4](https://helpx.adobe.com/br/campaign/kb/configuring-app-sdkv4.html) e [SDK V5](https://helpx.adobe.com/br/campaign/kb/configuring-app-sdk.html).
 
 * Direcione usuários em um Aplicativo móvel específico selecionando um Aplicativo móvel ao definir as propriedades do Campaign. Esse recurso é para os canais de mensagens por push e no aplicativo.
 
-   Para obter mais informações, consulte a [documentação detalhada](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification).
+  Para obter mais informações, consulte a [documentação detalhada](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification).
 
 * Ao selecionar um bloco de conteúdo usando a interface do Creative Designer, todos os blocos de conteúdo da lista agora são carregados e exibidos. (CAMP-27311)
 
-   Para obter mais informações, consulte [documentação detalhada](../../designing/using/personalization.md#adding-a-content-block).
+  Para obter mais informações, consulte [documentação detalhada](../../designing/using/personalization.md#adding-a-content-block).
 
 **Correções**
 

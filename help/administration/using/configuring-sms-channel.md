@@ -280,7 +280,7 @@ CR: retorno
 
 **Caracteres avançados (contados duas vezes)**
 
-^ { } [ ~ ] | €
+^ { } [~] | €
 
 ### Especificações do SMSC {#smsc-specifics}
 
@@ -305,15 +305,15 @@ A funcionalidade **[!UICONTROL Define a specific mapping of encodings]** permite
    * Ele tentará usar a codificação GSM para a qual atribui o valor **data_coding = 0**.
    * Se a codificação GSM falhar, ele usará a codificação **UCS2** para a qual atribui o valor **data_coding = 8**.
 
-   ![](assets/sms_data_coding.png)
+  ![](assets/sms_data_coding.png)
 
 * Quando a funcionalidade **[!UICONTROL Define a specific mapping of encodings]** estiver marcada, você poderá definir as codificações que deseja usar, bem como os valores do campo **[!UICONTROL data_coding]** vinculados. O Adobe Campaign tentará usar a primeira codificação da lista, depois a seguinte se a primeira codificação for impossível.
 
-   A ordem da declaração é importante: é recomendável colocar a lista em ordem crescente **de custo** para favorecer as codificações que permitem usar o máximo possível de caracteres em cada mensagem SMS.
+  A ordem da declaração é importante: é recomendável colocar a lista em ordem crescente **de custo** para favorecer as codificações que permitem usar o máximo possível de caracteres em cada mensagem SMS.
 
-   Apenas declare as codificações que deseja usar. Se algumas codificações fornecidas pelo SMS-C não corresponderem à sua finalidade de uso, não as declare na lista.
+  Apenas declare as codificações que deseja usar. Se algumas codificações fornecidas pelo SMS-C não corresponderem à sua finalidade de uso, não as declare na lista.
 
-   ![](assets/sms_data_coding1.png)
+  ![](assets/sms_data_coding1.png)
 
 ### Resposta automática enviada ao MO {#automatic-reply-sent-to-the-mo}
 
@@ -333,19 +333,19 @@ No **[!UICONTROL Advanced parameters]** seção:
 
 * A variável **[!UICONTROL Short code]** permite adicionar um código curto específico ao delivery. Os recipients que recusarem esse código curto específico serão excluídos automaticamente durante a preparação da mensagem. Para obter mais informações sobre como configurar um código curto, consulte [nesta seção](../../channels/using/managing-incoming-sms.md).
 
-   >[!NOTE]
-   >
-   >Se a variável **[!UICONTROL Short code]** for deixado em branco, o valor da variável **[!UICONTROL Short code]** será usado o campo definido na conta externa.
+  >[!NOTE]
+  >
+  >Se a variável **[!UICONTROL Short code]** for deixado em branco, o valor da variável **[!UICONTROL Short code]** será usado o campo definido na conta externa.
 
 No **[!UICONTROL Send]** seção de um modelo SMS:
 
 * A opção **[!UICONTROL Maximum number of SMS per message]** permite definir o número de mensagens SMS a serem usadas para enviar uma mensagem. Se esse número for excedido, a mensagem não será enviada.
 
-   >[!IMPORTANT]
-   >
-   >Se você tiver inserido campos de personalização ou texto condicional no conteúdo da mensagem SMS, o comprimento da mensagem e, consequentemente, o número de mensagens SMS a serem enviadas, poderão variar de um recipient para outro. Para saber mais, consulte a seção [Personalização de mensagens SMS](../../channels/using/personalizing-sms-messages.md).
+  >[!IMPORTANT]
+  >
+  >Se você tiver inserido campos de personalização ou texto condicional no conteúdo da mensagem SMS, o comprimento da mensagem e, consequentemente, o número de mensagens SMS a serem enviadas, poderão variar de um recipient para outro. Para saber mais, consulte a seção [Personalização de mensagens SMS](../../channels/using/personalizing-sms-messages.md).
 
-   ![](assets/sms_smpp_3.png)
+  ![](assets/sms_smpp_3.png)
 
 * O campo **[!UICONTROL Transmission mode]** permite determinar o método de delivery das mensagens SMS:
 

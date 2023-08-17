@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Criação e uso de conteúdo reutilizável {#using-reusable-content}
 
-Saiba como principal a edição de conteúdo de email. Com o Designer de email, você pode criar modelos e fragmentos com seu próprio conteúdo predefinido e reutilizá-los para os próximos deliveries.
+Saiba como dominar a edição de conteúdo de email. Com o Designer de email, você pode criar modelos e fragmentos com seu próprio conteúdo predefinido e reutilizá-los para os próximos deliveries.
 
 ## Criar emails usando modelos {#designing-templates}
 
@@ -249,7 +249,7 @@ Ao editar um email com o Designer de email, você pode salvar diretamente parte 
 
 * Não é possível salvar como fragmento uma estrutura que contém campos de personalização, conteúdo dinâmico ou outro fragmento.
 * Você só pode selecionar estruturas adjacentes entre si.
-   <!-- - You cannot select an empty structure.-->
+  <!-- - You cannot select an empty structure.-->
 
 1. Ao editar um email no Designer de email, selecione **[!UICONTROL Save as fragment]** na barra de ferramentas principal.
 

@@ -31,11 +31,11 @@ Para acessar o editor de conteúdo de SMS e notificação por push:
 
 * Clique no bloco **[!UICONTROL Content]**, em um painel SMS.
 
-   ![](assets/des_sms_content.png)
+  ![](assets/des_sms_content.png)
 
 * Clique no lápis ao lado do campo **[!UICONTROL Message body]**, em um painel de notificação por push.
 
-   ![](assets/des_push_body.png)
+  ![](assets/des_push_body.png)
 
 **Tópicos relacionados:**
 

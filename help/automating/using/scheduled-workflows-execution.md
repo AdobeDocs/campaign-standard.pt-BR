@@ -44,9 +44,9 @@ Para verificar se uma ou mais tarefas de uma execução de workflow anterior ain
 
    * A primeira regra filtra a tarefa atual (query2), bem como a próxima tarefa de agendamento (schedule2) pertencente ao fluxo de trabalho atual.
 
-      >[!NOTE]
-      >
-      >Quando um **[!UICONTROL Scheduler]** A atividade é iniciada, ela adiciona imediatamente outra tarefa de agendamento para ser executada no próximo horário agendado e iniciar o workflow. Portanto, é importante filtrar as tarefas de query e agendamento ao procurar tarefas pendentes de uma execução anterior.
+     >[!NOTE]
+     >
+     >Quando um **[!UICONTROL Scheduler]** A atividade é iniciada, ela adiciona imediatamente outra tarefa de agendamento para ser executada no próximo horário agendado e iniciar o workflow. Portanto, é importante filtrar as tarefas de query e agendamento ao procurar tarefas pendentes de uma execução anterior.
 
    * A segunda regra determina se alguma tarefa de uma execução anterior do workflow ainda está ativa (pendente), o que corresponde ao status de execução 0.
 

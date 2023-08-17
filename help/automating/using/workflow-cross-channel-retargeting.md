@@ -29,7 +29,7 @@ Você pode enviar um email para os clientes e, em seguida, um SMS para aqueles q
 1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arraste e solte uma atividade de [Query](../../automating/using/query.md).
 1. Clique duas vezes na atividade.
 1. Entrada **[!UICONTROL Shortcuts]**, arrastar e soltar **[!UICONTROL Profiles]** e selecione **[!UICONTROL email]** com o operador **[!UICONTROL is not empty]**.
-1. Entrada **[!UICONTROL Shortcuts]**, arrastar e soltar **[!UICONTROL Profiles]** e selecione **[!UICONTROL no longer contact by email]** com o valor **[!UICONTROL no ]**.
+1. Entrada **[!UICONTROL Shortcuts]**, arrastar e soltar **[!UICONTROL Profiles]** e selecione **[!UICONTROL no longer contact by email]** com o valor **[!UICONTROL no]**.
 1. Clique em **[!UICONTROL Confirm]**.
 
 ![](assets/wf-complement-query.png)

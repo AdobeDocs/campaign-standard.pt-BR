@@ -30,17 +30,17 @@ A atividade **[!UICONTROL Reconciliation]** é basicamente utilizada para fins d
 
 * Adição de relações: uma guia **[!UICONTROL Links]** permite adicionar links entre os dados de entrada e várias outras dimensões do banco de dados do Adobe Campaign.
 
-   Por exemplo, um arquivo contendo dados de compra também pode ter informações para identificar os produtos comprados, bem como o comprador. Portanto, duas dimensões adicionais (para além da dimensão **Compras**) estão relacionadas aos dados do arquivo: **Produtos** e **Perfis**. É necessário criar relações entre elas e a dimensão **Purchases** (consulte o exemplo a seguir).
+  Por exemplo, um arquivo contendo dados de compra também pode ter informações para identificar os produtos comprados, bem como o comprador. Portanto, duas dimensões adicionais (para além da dimensão **Compras**) estão relacionadas aos dados do arquivo: **Produtos** e **Perfis**. É necessário criar relações entre elas e a dimensão **Purchases** (consulte o exemplo a seguir).
 
-   Para definir uma relação, uma coluna é adicionada aos dados de entrada para fazer referência à chave estrangeira da dimensão vinculada.
+  Para definir uma relação, uma coluna é adicionada aos dados de entrada para fazer referência à chave estrangeira da dimensão vinculada.
 
-   >[!NOTE]
-   >
-   >Essa operação considera que os dados das dimensões vinculadas já estão no banco de dados. Por exemplo, se você importar um arquivo de compras que mostre qual produto foi comprado, em que momento, por qual cliente, etc., o produto e o cliente já deverão existir no banco de dados.
+  >[!NOTE]
+  >
+  >Essa operação considera que os dados das dimensões vinculadas já estão no banco de dados. Por exemplo, se você importar um arquivo de compras que mostre qual produto foi comprado, em que momento, por qual cliente, etc., o produto e o cliente já deverão existir no banco de dados.
 
 * Identificação de dados: uma guia **[!UICONTROL Identification]** permite que você simplesmente vincule os dados de entrada às colunas de uma dimensão existente no banco de dados do Adobe Campaign. Após a atividade, os dados são identificados como pertencentes à dimensão definida.
 
-   Por exemplo, você poderá salvar um público-alvo, atualizar o banco de dados etc.
+  Por exemplo, você poderá salvar um público-alvo, atualizar o banco de dados etc.
 
 Por exemplo, a variável **[!UICONTROL Reconciliation]** A atividade pode ser colocada após uma atividade de carregamento de dados para importar dados não padrão para o banco de dados.
 

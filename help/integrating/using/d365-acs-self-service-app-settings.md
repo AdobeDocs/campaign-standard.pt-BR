@@ -11,7 +11,7 @@ exl-id: 184bc656-2107-4380-9b35-148cb4380547
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '778'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -56,6 +56,7 @@ O outro motivo para configurar o servidor SFTP seria se você planejasse executa
 >[!IMPORTANT]
 >
 >Você é responsável pelas informações que acessar e baixar das pastas SFTP. Se as informações contiverem dados pessoais, você será responsável por cumprir as leis e regulamentos de privacidade aplicáveis. [Saiba mais](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
+>
 
 Para definir as configurações de SFTP do Campaign para a integração com o Microsoft Dynamics 365, acesse a seguinte seção:
 
@@ -77,7 +78,7 @@ Para definir as configurações de SFTP do Campaign para a integração com o Mi
 
 Descubra o gerenciamento SFTP com o [Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR) nestas seções:
 
-* [Sobre o gerenciamento de SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html#sftp-management)
+* [Sobre o gerenciamento de SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=pt-BR#sftp-management)
 
 * [Gerenciamento de armazenamentos SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#installing-ssh-key)
 

@@ -45,7 +45,7 @@ Dependendo dos parâmetros configurados e do progresso feito, alguns ícones pod
 
 * **[!UICONTROL Show proofs]**: mostra/oculta a lista de provas que foram enviadas, se existirem. Esse botão só será ativado depois que você enviar provas.
 
-   Para obter mais informações sobre provas, consulte [Envio de provas](../../sending/using/sending-proofs.md).
+  Para obter mais informações sobre provas, consulte [Envio de provas](../../sending/using/sending-proofs.md).
 
 * **[!UICONTROL Send a test]**: permite selecionar o modo de aprovação a ser usado: **[!UICONTROL Email rendering]** (somente email), **[!UICONTROL Proof]** ou ambos. Para obter mais informações sobre perfis de teste, consulte [Envio de provas](../../sending/using/sending-proofs.md). Esse botão só será ativado depois que você criar perfis de teste.
 
@@ -74,20 +74,20 @@ Abaixo está uma lista das mensagens que podem ser exibidas:
 
 * *&quot;A opção de modo de teste SMTP está habilitada para este email: nenhuma mensagem será enviada.&quot;*
 
-   Para obter mais informações, consulte [esta seção](../../administration/using/configuring-email-channel.md#smtp-test-mode).
+  Para obter mais informações, consulte [esta seção](../../administration/using/configuring-email-channel.md#smtp-test-mode).
 
 * *&quot;O roteamento da conta externa foi desabilitado.&quot;*
 
-   Para obter mais informações, consulte [Contas externas](../../administration/using/external-accounts.md).
+  Para obter mais informações, consulte [Contas externas](../../administration/using/external-accounts.md).
 
 * *&quot;As mensagens não podem ser enviadas porque a afinidade IP atual não é tratada por nenhum processo de envio.&quot;*
 
-   Se você vir essa mensagem, há um problema no nível de definição de afinidade de IP ou no nível do processo de envio. Entre em contato com o administrador do Adobe 
+  Se você vir essa mensagem, há um problema no nível de definição de afinidade de IP ou no nível do processo de envio. Entre em contato com o administrador do Adobe 
 
 * *&quot;Este é um template de mensagem transacional pronto para uso. Se quiser modificá-la, duplique-a e trabalhe na sua cópia.&quot;*
 
-   Alguns desses templates de mensagem transacional prontos para uso são templates de landing page incorporados. Para obter mais informações, consulte [esta seção](../../channels/using/landing-page-templates.md).
+  Alguns desses templates de mensagem transacional prontos para uso são templates de landing page incorporados. Para obter mais informações, consulte [esta seção](../../channels/using/landing-page-templates.md).
 
 * *&quot;Esta é um template de mensagem técnica transacional. Não é possível modificá-lo ou publicá-lo.&quot;*
 
-   Esse aviso é exibido em modelos de mensagem transacional vazios que não são editáveis. Para obter mais informações, consulte [nesta seção](../../channels/using/getting-started-with-transactional-msg.md).
+  Esse aviso é exibido em modelos de mensagem transacional vazios que não são editáveis. Para obter mais informações, consulte [nesta seção](../../channels/using/getting-started-with-transactional-msg.md).

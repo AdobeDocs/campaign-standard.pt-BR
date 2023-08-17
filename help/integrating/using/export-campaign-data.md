@@ -31,11 +31,11 @@ Para fazer isso, adicione e configure:
 
 * A **[!UICONTROL Extract file]** atividade para extrair os dados direcionados em um arquivo CSV. Para obter mais informações sobre como configurar esta atividade, consulte [esta seção](../../automating/using/extract-file.md).
 
-   ![](assets/rtcdp-extract-file.png)
+  ![](assets/rtcdp-extract-file.png)
 
 * Uma atividade **[!UICONTROL Transfer file]** para transferir o arquivo CSV para o local de armazenamento. Para obter mais informações sobre como configurar uma atividade , consulte [esta seção](../../automating/using/transfer-file.md).
 
-   ![](assets/rtcdp-transfer-file.png)
+  ![](assets/rtcdp-transfer-file.png)
 
 Como exemplo, o fluxo de trabalho abaixo extrai logs regularmente em um arquivo CSV e o transfere para um local de armazenamento.
 

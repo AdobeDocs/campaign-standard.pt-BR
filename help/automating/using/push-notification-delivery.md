@@ -56,7 +56,7 @@ A preparação da mensagem é acionada de acordo com os parâmetros de execuçã
    * **[!UICONTROL Single notification]**: a notificação por push é enviada uma única vez. Aqui, você pode especificar se deseja ou não adicionar uma transição de saída à atividade. Os diferentes tipos de transições estão detalhados na etapa 7 deste procedimento.
    * **[!UICONTROL Recurring notification]**: a notificação por push é enviada várias vezes, de acordo com a frequência definida em uma **[!UICONTROL Scheduler]** atividade. Selecione o período de agregação dos envios. Você pode agrupar todos os envios que ocorrerem durante o período definido em uma única notificação por push, também chamada de **execução recorrente** e podem ser acessadas na lista de atividade de marketing do aplicativo.
 
-      Por exemplo, para uma notificação de aniversário recorrente, que é enviada diariamente, você pode optar por agregar os envios por mês. Isso permite receber relatórios sobre o delivery mensalmente, embora a notificação seja enviada todos os dias.
+     Por exemplo, para uma notificação de aniversário recorrente, que é enviada diariamente, você pode optar por agregar os envios por mês. Isso permite receber relatórios sobre o delivery mensalmente, embora a notificação seja enviada todos os dias.
 
 1. Selecione um tipo de notificação. Esses tipos vêm de modelos de notificações por push definidos no **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** menu.
 1. Insira as propriedades gerais da notificação por push. Também é possível anexá-la a uma campanha existente. O rótulo da atividade de delivery do workflow é atualizado com o rótulo da notificação por push.

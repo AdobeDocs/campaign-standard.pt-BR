@@ -41,23 +41,23 @@ Você pode programar isso usando um workflow.
 
    * Preencha o **[!UICONTROL Segment code]** field: insira manualmente a data e a hora desejadas para enviar a mensagem.
 
-      Por exemplo, você deseja enviar o primeiro lote em 1º de junho às 10h GMT+1. Usar o seguinte formato: **DD/MM/YYYY HH:mm:ss+tz**.
+     Por exemplo, você deseja enviar o primeiro lote em 1º de junho às 10h GMT+1. Usar o seguinte formato: **DD/MM/YYYY HH:mm:ss+tz**.
 
-      ![](assets/send-time_opt_segment_configuration.png)
+     ![](assets/send-time_opt_segment_configuration.png)
 
-      Para enviar o próximo lote no dia seguinte, informe **02-06-2017 10:00:00+01** para o segundo segmento.
+     Para enviar o próximo lote no dia seguinte, informe **02-06-2017 10:00:00+01** para o segundo segmento.
 
-      Para os segmentos restantes, defina os próximos lotes da seguinte maneira:
+     Para os segmentos restantes, defina os próximos lotes da seguinte maneira:
 
       * **2017-06-03 10:00:00+01**
       * **2017-06-04 10:00:00+01**
       * **2017-06-05 10:00:00+01**
+
    * Selecione o **[!UICONTROL Limit the population of this segment]** opção.
 
-      No **[!UICONTROL Limitation]** selecione **[!UICONTROL Random sampling]** e insira a porcentagem desejada para cada segmento: 10 para o primeiro lote, 15 para o segundo e assim por diante.
+     No **[!UICONTROL Limitation]** selecione **[!UICONTROL Random sampling]** e insira a porcentagem desejada para cada segmento: 10 para o primeiro lote, 15 para o segundo e assim por diante.
 
-      ![](assets/send-time_opt_segment_limitation.png)
-
+     ![](assets/send-time_opt_segment_limitation.png)
 
 1. Após definir todos os segmentos, selecione **[!UICONTROL Generate all segments in the same transition]** e clique em **[!UICONTROL Confirm]**.
 
@@ -122,13 +122,12 @@ Você pode programar isso usando um workflow.
       * 14H - 16H: **6**. Sendo a central de atendimento fechada entre 12h e 14h, a mensagem será enviada para o terceiro trimestre da população do target às 14h (data de contato + 6 horas).
       * 16H - 18H: **8**. A mensagem será enviada para o último trimestre da população do target às 16h (data de contato + 8 horas).
 
-      >[!NOTE]
-      >
-      >A data de contato será definida na atividade Email delivery posteriormente no workflow.
+     >[!NOTE]
+     >
+     >A data de contato será definida na atividade Email delivery posteriormente no workflow.
 
    * Selecione o **[!UICONTROL Limit the population of this segment]** opção.
    * No **[!UICONTROL Limitation]** selecione **[!UICONTROL Random sampling]** e insira a porcentagem desejada para cada segmento: **25**.
-
 
 1. Após definir todos os segmentos, selecione **[!UICONTROL Generate all segments in the same transition]** e clique em **[!UICONTROL Confirm]**.
 

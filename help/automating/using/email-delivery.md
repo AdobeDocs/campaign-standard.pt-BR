@@ -62,7 +62,8 @@ A preparação da mensagem é acionada de acordo com os parâmetros de execuçã
    * **[!UICONTROL Email]**: o email é enviado uma única vez. Aqui, você pode especificar se deseja ou não adicionar uma transição de saída à atividade. Os diferentes tipos de transições estão detalhados na etapa 7 deste procedimento.
    * **[!UICONTROL Recurring email]**: o email é enviado várias vezes, de acordo com a frequência definida em uma atividade **[!UICONTROL Scheduler]**. Selecione o período de agregação dos envios. Assim, você pode agrupar todos os envios que ocorrerem durante o período definido em um único email, também chamado de **Execução recorrente**, e que pode ser acessado na lista de atividade de marketing do aplicativo.
 
-      Por exemplo, para um email de aniversário recorrente, que é enviado diariamente, você pode optar por agregar os envios por mês. Ele permite receber relatórios sobre o delivery mensalmente, embora o email seja enviado todos os dias.
+     Por exemplo, para um email de aniversário recorrente, que é enviado diariamente, você pode optar por agregar os envios por mês. Ele permite receber relatórios sobre o delivery mensalmente, embora o email seja enviado todos os dias.
+
    >[!NOTE]
    >
    >Os deliveries recorrentes são preparados com base no **período de agregação**. Por exemplo, se o período de agregação for &quot;por dia&quot;, o delivery será preparado novamente apenas uma vez por dia. Se você planeja chamar este workflow várias vezes por dia, use [!UICONTROL No aggregation].

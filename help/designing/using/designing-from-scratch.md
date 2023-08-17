@@ -17,7 +17,7 @@ ht-degree: 23%
 
 # Criação de emails do zero {#designing-an-email-content-from-scratch}
 
-Saiba como principal a edição de conteúdo de email. Com o Designer de email, você pode criar emails e modelos começando com ou sem seu próprio conteúdo predefinido.
+Saiba como dominar a edição de conteúdo de email. Com o Designer de email, você pode criar emails e modelos começando com ou sem seu próprio conteúdo predefinido.
 
 Estas são as etapas principais para criar e projetar um conteúdo de email do zero usando o Designer de email:
 

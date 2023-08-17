@@ -59,9 +59,9 @@ Depois que a mensagem é enviada aos contatos, a zona **[!UICONTROL Deployment]*
 * A porcentagem de mensagens abertas
 * A porcentagem de cliques nas mensagens (para emails)
 
-   >[!NOTE]
-   >
-   >A **[!UICONTROL Open rate]** e a **[!UICONTROL Click-through rate]** são atualizadas a cada hora.
+  >[!NOTE]
+  >
+  >A **[!UICONTROL Open rate]** e a **[!UICONTROL Click-through rate]** são atualizadas a cada hora.
 
 ![](assets/sending_delivery.png)
 
@@ -141,15 +141,15 @@ As tabelas abaixo mostram as alterações nos KPIs e no envio de status de logs 
 | A mensagem foi transmitida com êxito do Campaign para o MTA aprimorado | <ul><li>**[!UICONTROL Delivered]** A porcentagem de começa em 0%</li><li>**[!UICONTROL Bounces + errors]** A porcentagem de começa em 0%</li></ul> | Pending |
 | Mensagens com rejeição permanente são relatadas de volta do MTA aprimorado | <ul><li>Nenhuma alteração na porcentagem de **[!UICONTROL Delivered]**</li><li>A porcentagem de **[!UICONTROL Bounces + errors]** é aumentada de maneira apropriada</li></ul> | Com falha |
 | Mensagens com rejeição temporária são relatadas de volta do MTA aprimorado | <ul><li>Nenhuma alteração na porcentagem de **[!UICONTROL Delivered]**</li><li>A porcentagem de **[!UICONTROL Bounces + errors]** é aumentada de maneira apropriada</li></ul> | Com falha |
-| Tentativas de mensagens com rejeição temporária são bem-sucedidas | <ul><li>A porcentagem de **[!UICONTROL Delivered]** é aumentada de maneira apropriada</li><li>A porcentagem de **[!UICONTROL Bounces + errors]** é reduzida de maneira apropriada</li></ul> | Enviada |
+| Tentativas de mensagens com rejeição temporária são bem-sucedidas | <ul><li>A porcentagem de **[!UICONTROL Delivered]** é aumentada de maneira apropriada</li><li>A porcentagem de **[!UICONTROL Bounces + errors]** é reduzida de maneira apropriada</li></ul> | Enviado |
 | Falha nas tentativas de mensagens com rejeição temporária | <ul><li> Nenhuma alteração na porcentagem de **[!UICONTROL Delivered]** </li><li> Nenhuma alteração na porcentagem de **[!UICONTROL Bounces + errors]** </li></ul> | Com falha |
 
 **Sem Serviço de feedback por email**
 
 | Etapa do processo de envio | Resumo do KPI | Envio de status de logs |
 |--- |--- |--- |
-| A mensagem foi transmitida com êxito do Campaign para o MTA aprimorado | <ul><li>A porcentagem de **[!UICONTROL Delivered]** começa em 100%</li><li>A porcentagem de **[!UICONTROL Bounces + errors]** começa em 0%</li></ul> | Enviada |
+| A mensagem foi transmitida com êxito do Campaign para o MTA aprimorado | <ul><li>A porcentagem de **[!UICONTROL Delivered]** começa em 100%</li><li>A porcentagem de **[!UICONTROL Bounces + errors]** começa em 0%</li></ul> | Enviado |
 | Mensagens com rejeição permanente são relatadas de volta do MTA aprimorado | <ul><li>A porcentagem de **[!UICONTROL Delivered]** é reduzida de maneira apropriada</li><li>A porcentagem de **[!UICONTROL Bounces + errors]** é aumentada de maneira apropriada</li></ul> | Com falha |
 | Mensagens com rejeição temporária são relatadas de volta do MTA aprimorado | <ul><li>Nenhuma alteração na porcentagem de **[!UICONTROL Delivered]**</li><li>Nenhuma alteração na porcentagem de **[!UICONTROL Bounces + errors]**</li></ul> | Enviada |
-| Tentativas de mensagens com rejeição temporária são bem-sucedidas | <ul><li>Nenhuma alteração na porcentagem de **[!UICONTROL Delivered]**</li><li>Nenhuma alteração na porcentagem de **[!UICONTROL Bounces + errors]**</li></ul> | Enviada |
+| Tentativas de mensagens com rejeição temporária são bem-sucedidas | <ul><li>Nenhuma alteração na porcentagem de **[!UICONTROL Delivered]**</li><li>Nenhuma alteração na porcentagem de **[!UICONTROL Bounces + errors]**</li></ul> | Enviado |
 | Falha nas tentativas de mensagens com rejeição temporária | <ul><li>A porcentagem de **[!UICONTROL Delivered]** é reduzida de maneira apropriada</li><li>A porcentagem de **[!UICONTROL Bounces + errors]** é aumentada de maneira apropriada</li></ul> | Com falha |

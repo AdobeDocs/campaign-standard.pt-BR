@@ -64,36 +64,36 @@ As consultas podem ser definidas na janela **[!UICONTROL Audience]** ao criar um
 
 1. Mova um elemento da paleta para o espaço de trabalho. A janela para editar a regra é aberta.
 
-   * Para uma sequência ou um **campo** numérico, especifique o operador de comparação e o valor.
+   * Para uma string ou um **campo** numérico, especifique o operador de comparação e o valor.
 
-      ![](assets/query_editor_audience_definition2.png)
+     ![](assets/query_editor_audience_definition2.png)
 
    * Para um **campo** de data ou de data e hora, você pode optar por definir uma data específica, um intervalo entre duas datas ou um período relativo à data de execução do query.
 
-      ![](assets/query_editor_date_field.png)
+     ![](assets/query_editor_date_field.png)
 
    * Para um **campo** booliano, marque as caixas vinculadas aos valores possíveis do campo.
    * Para um campo de **agrupamento**, selecione o campo de agrupamento no qual deseja criar a regra e defina a condição do mesmo modo que para os outros campos.
 
-      ![](assets/query_editor_audience_definition4.png)
+     ![](assets/query_editor_audience_definition4.png)
 
    * Para um link **1-1** com outro recurso de banco de dados, selecione um valor diretamente na tabela direcionada.
 
-      ![](assets/query_editor_audience_definition5.png)
+     ![](assets/query_editor_audience_definition5.png)
 
    * Para um link **1-N** com outro recurso de banco de dados, você pode definir um subquery nos campos desse segundo recurso.
 
-      Não é necessário especificar uma subcondição.
+     Não é necessário especificar uma subcondição.
 
-      Por exemplo, você só pode selecionar o operador **[!UICONTROL Exists]** nos logs de rastreamento do perfil e aprovar a regra. A regra retornará todos os perfis para os quais existem logs de rastreamento.
+     Por exemplo, você só pode selecionar o operador **[!UICONTROL Exists]** nos logs de rastreamento do perfil e aprovar a regra. A regra retornará todos os perfis para os quais existem logs de rastreamento.
 
-      ![](assets/query_editor_audience_definition6.png)
+     ![](assets/query_editor_audience_definition6.png)
 
    * Para um **filtro predefinido**, insira ou selecione os elementos desejados de acordo com os critérios oferecidos.
 
-      Os administradores podem criar filtros para facilitar as consultas complexas e repetitivas. Eles aparecerão no Editor de consultas na forma de regras pré-configuradas e limitarão as etapas a serem executadas pelo usuário.
+     Os administradores podem criar filtros para facilitar as consultas complexas e repetitivas. Eles aparecerão no Editor de consultas na forma de regras pré-configuradas e limitarão as etapas a serem executadas pelo usuário.
 
-      ![](assets/query-editor_filter_email-audience_filter.png)
+     ![](assets/query-editor_filter_email-audience_filter.png)
 
 1. Você pode especificar um nome para a regra. Ela será exibida como o nome de regra no espaço de trabalho. Se a regra não tiver nome, será exibida uma descrição automática das condições.
 1. Para combinar os elementos do espaço de trabalho, faça o interbloqueio entre eles para criar grupos e/ou níveis de grupo diferentes. Você pode selecionar um operador lógico para combinar elementos no mesmo nível:

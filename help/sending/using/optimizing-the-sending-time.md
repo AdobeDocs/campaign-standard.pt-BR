@@ -32,14 +32,14 @@ Várias opções estão disponíveis:
 
 * **[!UICONTROL No optimization]**: as mensagens são enviadas no horário do usuário.
 
-   Por exemplo, se o fuso horário for GMT+1 e você inserir 9:00 AM no campo **[!UICONTROL Start sending from]**, um recipient localizado no fuso horário GMT+3 receberá a mensagem às 11:00 da hora local desse recipient.
+  Por exemplo, se o fuso horário for GMT+1 e você inserir 9:00 AM no campo **[!UICONTROL Start sending from]**, um recipient localizado no fuso horário GMT+3 receberá a mensagem às 11:00 da hora local desse recipient.
 
 * **[!UICONTROL Send at the recipient's time zone]**: todos os recipients receberão a mensagem levando em conta o fuso horário.
 
-   Por exemplo, se você digitar 9:00 AM no campo **[!UICONTROL Start sending from]**, um recipient localizado no fuso horário GMT+3 receberá a mensagem às 9:00 AM, horário local desse recipient.
+  Por exemplo, se você digitar 9:00 AM no campo **[!UICONTROL Start sending from]**, um recipient localizado no fuso horário GMT+3 receberá a mensagem às 9:00 AM, horário local desse recipient.
 
-   Consulte [Enviar mensagens no fuso horário do recipient](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
+  Consulte [Enviar mensagens no fuso horário do recipient](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
 
 * **[!UICONTROL Send at a custom date defined by a formula]**: cada recipient receberá a mensagem na data e hora configuradas pela fórmula especificada.
 
-   Consulte [Calcular a data de envio](../../sending/using/computing-the-sending-date.md).
+  Consulte [Calcular a data de envio](../../sending/using/computing-the-sending-date.md).

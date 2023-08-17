@@ -29,13 +29,13 @@ Os relatórios podem ser acessados:
 
 * Na página inicial, selecionando **[!UICONTROL Reports]** na barra superior ou na guia **[!UICONTROL Reports]** para acessar relatórios de todos os deliveries.
 
-   ![](assets/campaign_reports_access.png)
+  ![](assets/campaign_reports_access.png)
 
 * Em cada programa, campanha e mensagem, da **Relatórios** clicando em **Relatórios dinâmicos** para exibir apenas os relatórios específicos do delivery.
 
-   ![](assets/campaign_reports_description.png)
+  ![](assets/campaign_reports_description.png)
 
-Determinados relatórios não podem estar disponíveis imediatamente após um delivery, dependendo do tempo necessário para coletar e processar informações.
+Alguns relatórios não podem estar disponíveis imediatamente após um delivery, dependendo do tempo necessário para coletar e processar informações.
 
 Os relatórios dinâmicos são divididos em duas categorias:
 

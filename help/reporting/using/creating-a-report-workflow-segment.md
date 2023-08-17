@@ -18,7 +18,7 @@ ht-degree: 2%
 # Criar relatório com base em segmentos de fluxo de trabalho{#creating-a-report-workflow-segment}
 
 >[!CAUTION]
-> **[!UICONTROL Segment code]**O só pode direcionar deliveries de email e SMS.
+> **[!UICONTROL Segment code]** O só pode direcionar deliveries de email e SMS.
 
 Depois de criar um fluxo de trabalho e filtrar sua população em públicos-alvo direcionados diferentes, você pode medir a eficiência de suas campanhas de marketing com base nos segmentos definidos nesse fluxo de trabalho direcionado.
 Para direcionar esses segmentos em seus relatórios:

@@ -31,7 +31,7 @@ Um perfil de teste contém informações de contato fictícias, ou informações
 * Para enviar **Provas**: a Prova é uma mensagem específica usada para verificar a mensagem antes de enviar o delivery finalizado para os recipients. Um perfil de teste de Prova tem o objetivo de verificar o delivery no que diz respeito ao seu conteúdo e formato. Consulte [Enviar provas](../../sending/using/sending-proofs.md).
 * Para **Renderização de email**: o perfil de teste Renderização de email é usado para verificar de que maneira uma mensagem é exibida, de acordo com a caixa de entrada de mensagens que a recebe. Por exemplo, webmail, serviço de mensagens, celular etc. Consulte [Renderização de email](../../sending/using/email-rendering.md).
 
-   O uso da **Renderização de email** é somente leitura. Perfis de teste com esse uso só estão disponíveis para uso imediato no Adobe Campaign.
+  O uso da **Renderização de email** é somente leitura. Perfis de teste com esse uso só estão disponíveis para uso imediato no Adobe Campaign.
 
 * Como uma **Trap**: a mensagem é enviada ao perfil de teste da mesma maneira que é enviada ao destino principal. Consulte [Uso de coberturas](../../sending/using/using-traps.md).
 * Para **Pré-visualização** de mensagens: um perfil de teste pode ser selecionado ao visualizar uma mensagem para testar os elementos de personalização. Consulte [Pré-visualização de mensagens](/help/sending/using/previewing-messages.md).

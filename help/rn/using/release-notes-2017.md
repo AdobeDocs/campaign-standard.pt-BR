@@ -133,7 +133,7 @@ _Emails, mensagens SMS e correspondência direta_
 * Agora é possível criar novos critérios de alerta para usá-los nas notificações de alerta do delivery. Para obter mais informações, consulte a [documentação detalhada](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion).
 * As notificações de alerta do delivery têm um novo design e a experiência do usuário do painel de alerta do delivery foi aprimorada.
 * Agora, quando uma conta externa de roteamento é desativada, um aviso é exibido nos deliveries afetados (email, SMS e push) e na **Visualizar** está oculto nessas entregas.
-* Correção de um problema que causava um erro na pré-visualização de um teste A/B no conteúdo do email quando o texto dinâmico era ativado na linha de assunto.
+* Correção de um problema que causava um erro na pré-visualização de um teste A/B no conteúdo de email quando o texto dinâmico era ativado na linha de assunto.
 
 _Mensagens transacionais_
 
@@ -427,7 +427,7 @@ _Notificações por push_
   </tr> 
   <tr> 
    <td> Dados de pontos de interesse<br /> </td> 
-   <td> Os dados de Pontos de interesse integram o Adobe Campaign ao Adobe Analytics para dispositivos móveis. Uma marca pode coletar dados dos locais móveis dos usuários, chamados de <strong>Pontos de interesse</strong> - quando os usuários abrem o aplicativo da marca. Isso permite que a marca aproveite os workflows do Adobe Campaign para enviar mensagens personalizadas com base nos locais dos usuários. Este canal aproveita o SDK do Mobile Core Service.<br /> Observe que o uso desse recurso exige o Analytics para dispositivos móveis, que é uma solução paga.<br /> Para obter mais informações, consulte a <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">documentação detalhada</a>.<br /> </td> 
+   <td> Os dados de Pontos de interesse integram o Adobe Campaign ao Adobe Analytics para dispositivos móveis. Uma marca pode coletar dados dos locais móveis dos usuários, chamados de <strong>Pontos de interesse</strong> - quando os usuários abrem o aplicativo da marca. Isso permite que a marca aproveite os workflows do Adobe Campaign para enviar mensagens personalizadas com base nos locais dos usuários. Este canal utiliza o SDK do Mobile Core Service.<br /> Observe que o uso desse recurso exige o Analytics para dispositivos móveis, que é uma solução paga.<br /> Para obter mais informações, consulte a <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> REST APIs<br /> </td> 

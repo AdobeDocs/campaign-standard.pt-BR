@@ -31,7 +31,7 @@ A resposta retorna os principais metadados do recurso (todos os outros campos s�
    * &quot;category&quot;: fornece a categoria do campo no editor de consultas.
    * &quot;resType&quot;: é o tipo técnico.
 
-      Se &quot;type&quot; for concluído com o valor &quot;link&quot; ou &quot;collection&quot;, o valor resTarget será o nome do recurso direcionado pelo link.
+     Se &quot;type&quot; for concluído com o valor &quot;link&quot; ou &quot;collection&quot;, o valor resTarget será o nome do recurso direcionado pelo link.
 Se &quot;type&quot; for preenchido com o valor &quot;enumeration&quot;, um campo &quot;values&quot; será adicionado e cada valor de enumeração será detalhado no **valores** nó.
 
 * A variável **Filtros** O nó retorna o URL para recuperar os filtros associados. Para obter mais informações sobre filtros, consulte [nesta seção](../../api/using/filtering.md) seção.

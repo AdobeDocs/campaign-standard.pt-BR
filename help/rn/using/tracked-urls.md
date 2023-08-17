@@ -36,3 +36,4 @@ Quando a atualização estiver concluída, todos os links funcionarão conforme 
 >[!NOTE]
 >
 >Em caso de dúvidas sobre essas alterações, entre em contato com o [Atendimento ao cliente da Adobe](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>

@@ -38,11 +38,11 @@ O objetivo desse fluxo de trabalho é exportar uma lista de perfis como um arqui
 
    * O formato de saída CSV
 
-      ![](assets/wkf_data_export7.png)
+     ![](assets/wkf_data_export7.png)
 
    * O formato de data
 
-      ![](assets/wkf_data_export9.png)
+     ![](assets/wkf_data_export9.png)
 
 1. Confirme sua atividade.
 1. Arraste e solte uma [Transferir arquivo](../../automating/using/transfer-file.md) atividade após o **[!UICONTROL Extract file]** atividade para recuperar o arquivo de extração em uma conta externa.

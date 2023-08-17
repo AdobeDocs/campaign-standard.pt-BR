@@ -29,6 +29,7 @@ Essa integração exige as seguintes versões de software:
 >[!CAUTION]
 >
 >Esse recurso não está disponível para uso imediato como parte do produto. A implementação exige o engajamento da Adobe Consulting. Entre em contato com seu representante da Adobe para obter mais detalhes.
+>
 
 ## Princípios
 
@@ -56,6 +57,7 @@ Os principais benefícios são:
 >[!CAUTION]
 >
 >Essa integração considera o Dynamics 365 como a fonte da verdade para a sincronização de contatos e entidades personalizadas.  Quaisquer alterações nos atributos sincronizados devem ser feitas no Dynamics 365, não no Adobe Campaign Standard.  Se forem feitas alterações no Campaign, elas poderão ser substituídas durante a sincronização.
+>
 
 ## Etapas principais para implementar a integração com o Microsoft Dynamics 365{#request-and-implement-this-integration}
 
@@ -73,9 +75,9 @@ Detalhes do fluxograma (mapeia para as etapas acima):
 * **Etapa 4** - A equipe de integração do Adobe fornecerá acesso à interface do usuário (UI) do aplicativo de integração.
 * **Etapa 5** - Você poderá configurar mapeamentos de dados, substituições, filtros etc. e teste sua integração na interface do usuário do aplicativo de integração.
 
-   >[!IMPORTANT]
-   >
-   > Se você precisar da configuração de recusa bidirecional ou do Campaign para o Dynamics 365, será necessário fazer a solicitação ao contato técnico do Adobe para que os workflows de recusa sejam configurados na instância do Campaign. [Saiba mais](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
+  >[!IMPORTANT]
+  >
+  > Se você precisar da configuração de recusa bidirecional ou do Campaign para o Dynamics 365, será necessário fazer a solicitação ao contato técnico do Adobe para que os workflows de recusa sejam configurados na instância do Campaign. [Saiba mais](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
 
 ### Configurar esta integração {#configure-this-integration}
 
@@ -90,6 +92,7 @@ Três sistemas precisam ser provisionados e configurados para essa integração:
 >Para cada sistema, essas etapas precisam ser executadas por um **administrador**.
 >
 >As etapas desta documentação guiarão você pela criação de integrações/registros que envolvem a atribuição de permissões e/ou acesso de administrador.  É sua responsabilidade garantir que essas etapas estejam em conformidade com as políticas de sua empresa antes de executar o, e executá-las com cuidado.
+>
 
 ### Solicitar suporte
 

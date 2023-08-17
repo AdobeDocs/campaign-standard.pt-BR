@@ -63,11 +63,11 @@ Na interface do Adobe Campaign, é possível:
 * Modifique os parâmetros de critérios para cada painel. Consulte [Parâmetros de critérios](#criteria-parameters).
 * Defina um grupo de recipients para cada painel.
 
-   Por exemplo, você deseja informar os usuários com direitos administrativos somente sobre os deliveries com falha. No entanto, você deseja que os usuários de marketing recebam informações sobre os deliveries com uma taxa de erro leve de rejeição. Portanto, é necessário criar dois painéis diferentes e definir os critérios que deseja para cada grupo de recipients.
+  Por exemplo, você deseja informar os usuários com direitos administrativos somente sobre os deliveries com falha. No entanto, você deseja que os usuários de marketing recebam informações sobre os deliveries com uma taxa de erro leve de rejeição. Portanto, é necessário criar dois painéis diferentes e definir os critérios que deseja para cada grupo de recipients.
 
 * Acesse o histórico de todos os alertas enviados para cada painel.
 
-   Ao selecionar um painel, o último alerta enviado para esse painel é exibido por padrão. Todos os alertas enviados são listados à esquerda da tela. Clique em um item na variável **[!UICONTROL History]** para acessar os alertas correspondentes.
+  Ao selecionar um painel, o último alerta enviado para esse painel é exibido por padrão. Todos os alertas enviados são listados à esquerda da tela. Clique em um item na variável **[!UICONTROL History]** para acessar os alertas correspondentes.
 
 ![](assets/delivery-alerting_dashboard.png)
 
@@ -120,15 +120,15 @@ Para cada critério, você pode definir as seguintes configurações:
 
 * **[!UICONTROL Indicators to add in alerts]**, o que significa que as colunas que aparecerão no campo de **[!UICONTROL Details]** para os deliveries correspondentes ao critério selecionado.
 
-   ![](assets/delivery-alerting_notification_colums.png)
+  ![](assets/delivery-alerting_notification_colums.png)
 
 * **[!UICONTROL Alert type]**, ou seja, o rótulo e a cor que aparecerão ao lado do critério de delivery no resumo da notificação.
 
-   ![](assets/delivery-alerting_notification_labels.png)
+  ![](assets/delivery-alerting_notification_labels.png)
 
 * **[!UICONTROL Criteria frequency]**: se um critério for atendido para um delivery, ele será repetido em cada notificação enviada dentro do período de monitoramento. Caso contrário, somente um alerta será enviado por dia (na primeira ocorrência) por critério de alerta para um delivery.
 
-   Por padrão, essa opção é definida para uma vez por dia para todos os critérios.
+  Por padrão, essa opção é definida para uma vez por dia para todos os critérios.
 
 **Tópicos relacionados:**
 
@@ -191,15 +191,15 @@ No **[!UICONTROL Criteria parameters]** guia de um [painel de alertas do deliver
 * **[!UICONTROL Delivery target minimum size]**: por exemplo, se você inserir 100 neste campo, uma notificação será enviada somente para deliveries com um público alvo igual ou maior que 100 recipients. Esse parâmetro se aplica a todos os critérios.
 * **[!UICONTROL Monitoring period before and after the contact date (in hours)]**: Número de horas antes e depois da hora atual. Somente os deliveries com uma data de contato nesse intervalo de tempo são considerados. Esse parâmetro se aplica a todos os critérios. Por padrão, o valor desse campo é definido como 24 horas.
 
-   Para obter mais informações sobre a data de contato, consulte [Sobre o agendamento](../../sending/using/about-scheduling-messages.md).
+  Para obter mais informações sobre a data de contato, consulte [Sobre o agendamento](../../sending/using/about-scheduling-messages.md).
 
 * **[!UICONTROL Maximum ratio of soft bounce errors]**: uma notificação é enviada para todos os deliveries com uma taxa de erro de rejeição temporária maior que o valor especificado. Por padrão, o valor desse campo é definido como 0,05 (5%).
 
-   Para obter mais informações sobre erros de rejeição temporária, consulte [Qualificação de email de devolução](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) e [Lista de tipos de falha de entrega](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+  Para obter mais informações sobre erros de rejeição temporária, consulte [Qualificação de email de devolução](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) e [Lista de tipos de falha de entrega](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
 * **[!UICONTROL Maximum ratio of hard bounce errors]**: uma notificação é enviada para todos os deliveries com uma taxa de erro de rejeição permanente maior que o valor especificado. Por padrão, o valor desse campo é definido como 0,05 (5%).
 
-   Para obter mais informações sobre erros de rejeição permanente, consulte [Qualificação de email de devolução](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) e [Lista de tipos de falha de entrega](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+  Para obter mais informações sobre erros de rejeição permanente, consulte [Qualificação de email de devolução](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) e [Lista de tipos de falha de entrega](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
 * **[!UICONTROL Minimum time threshold for delivery in 'Start pending' status (in minutes)]**: uma notificação é enviada para todos os deliveries com um **[!UICONTROL Start pending]** status por mais tempo do que a duração especificada neste campo, **[!UICONTROL Start pending]** status, o que significa que as mensagens ainda não foram consideradas pelo sistema.
 * **[!UICONTROL Minimum time required for the computation of the throughput (in minutes)]**: somente deliveries iniciados (com **[!UICONTROL In progress]** durante mais do que a duração especificada são tidos em conta para efeitos da **[!UICONTROL Deliveries with low throughput]** critério.
@@ -236,7 +236,7 @@ Estes são alguns motivos possíveis para receber notificações de alerta de ac
    * Um problema da capacidade de entrega
    * Um workflow incorreto
 
-   Se o delivery for acionado com um workflow, verifique se esse workflow foi iniciado corretamente. Para obter mais informações, consulte [Execução de um fluxo de trabalho](../../automating/using/about-workflow-execution.md). Caso contrário, entre em contato com o administrador do Adobe Campaign para resolver o problema.
+  Se o delivery for acionado com um workflow, verifique se esse workflow foi iniciado corretamente. Para obter mais informações, consulte [Execução de um fluxo de trabalho](../../automating/using/about-workflow-execution.md). Caso contrário, entre em contato com o administrador do Adobe Campaign para resolver o problema.
 
 * **[!UICONTROL Deliveries with preparation failed]**: Um erro pode ocorrer durante a preparação do delivery nos seguintes casos:
 
@@ -245,35 +245,33 @@ Estes são alguns motivos possíveis para receber notificações de alerta de ac
    * O destino está ausente.
    * A entrega excede o limite de tamanho.
 
-   Para obter mais informações, consulte [Preparação do envio](../../sending/using/preparing-the-send.md). No entanto, esses erros geralmente são identificados durante a análise da mensagem. Consulte [Regras de controle](../../sending/using/control-rules.md).
+  Para obter mais informações, consulte [Preparação do envio](../../sending/using/preparing-the-send.md). No entanto, esses erros geralmente são identificados durante a análise da mensagem. Consulte [Regras de controle](../../sending/using/control-rules.md).
 
 * As possíveis causas para uma **[!UICONTROL Delivery with bad error ratio for soft bounces]** O alerta pode ser:
 
    * O servidor do destinatário está inativo.
    * A caixa de correio do destinatário está cheia.
 
-   Para obter mais informações, verifique a **[!UICONTROL Exclusion logs]** e **[!UICONTROL Exclusion causes]** dos logs do delivery. Consulte [Logs de exclusão](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
+  Para obter mais informações, verifique a **[!UICONTROL Exclusion logs]** e **[!UICONTROL Exclusion causes]** dos logs do delivery. Consulte [Logs de exclusão](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
 
-   As possíveis causas para uma **[!UICONTROL Delivery with bad error ratio for hard bounces]** O alerta pode ser:
+  As possíveis causas para uma **[!UICONTROL Delivery with bad error ratio for hard bounces]** O alerta pode ser:
 
    * O recipient é adicionado ao incluo na lista de bloqueios, o que significa que ele não deseja mais ser contatado.
    * O endereço de email do destinatário não existe.
    * O domínio do destinatário não existe.
    * O servidor do destinatário está bloqueando a entrega.
 
-   Para evitar erros de devolução temporária e permanente, siga as práticas recomendadas abaixo:
+  Para evitar erros de devolução temporária e permanente, siga as práticas recomendadas abaixo:
 
    * Crie regras de tipologia de filtragem para excluir uma parte do público-alvo da mensagem durante a análise de entrega, como destinatários em quarentena. Consulte [Criando uma regra de filtragem](../../sending/using/filtering-rules.md).
    * Atualize regularmente o banco de dados do cliente para manter bons processos de gerenciamento de quarentena. Consulte [Sobre quarentenas](../../sending/using/understanding-quarantine-management.md#about-quarantines).
    * De modo geral, melhore a capacidade de delivery da melhor maneira possível. Consulte a Adobe Campaign [Capacidade de entrega](../../sending/using/about-deliverability.md) documentação detalhada e entre em contato com o administrador do Adobe Campaign para obter assistência.
 
-
-
 * **[!UICONTROL Deliveries with long start pending]**: geralmente significa que há um problema no nível do MTA (Agente de transferência de mensagem). O processo de execução está aguardando a disponibilidade de alguns recursos. O MTA pode não ter sido iniciado.
 
-   **[!UICONTROL Deliveries with low throughput]**: novamente, esse é um problema de capacidade de delivery, o que significa que o MTA está muito lento.
+  **[!UICONTROL Deliveries with low throughput]**: novamente, esse é um problema de capacidade de delivery, o que significa que o MTA está muito lento.
 
-   Para obter mais informações sobre esses problemas, entre em contato com o administrador do Adobe Campaign.
+  Para obter mais informações sobre esses problemas, entre em contato com o administrador do Adobe Campaign.
 
 **Tópicos relacionados:**
 

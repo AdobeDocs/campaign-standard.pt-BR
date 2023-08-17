@@ -41,7 +41,6 @@ As seções a seguir descrevem as principais etapas para executar um mapeamento 
 >* [Ativar um conjunto de dados para o Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
 >* [Configurar um conjunto de dados para o Perfil do cliente em tempo real e o Serviço de identidade usando APIs](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
 
-
 ## Principais conceitos {#key-concepts}
 
 * O Mapeamento pronto para uso está disponível apenas para campos que são fornecidos em Campaign Standard por padrão. Para assimilar todos os campos e recursos personalizados, cada cliente precisa definir seu próprio mapeamento.
@@ -60,11 +59,11 @@ As seções a seguir descrevem as principais etapas para executar um mapeamento 
 
 * O Serviço de ID de Experience Cloud (ECID) é um identificador de dispositivo enviado por padrão com Eventos de experiência.
 
-   É uma ID exclusiva e persistente atribuída a um visitante, que pode ser usada pelo Serviço de identidade da plataforma para identificar o mesmo visitante e seus dados em diferentes soluções da Experience Cloud. Para obter mais informações, consulte [Ajuda do Serviço de identidade Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR).
+  É uma ID exclusiva e persistente atribuída a um visitante, que pode ser usada pelo Serviço de identidade da plataforma para identificar o mesmo visitante e seus dados em diferentes soluções da Experience Cloud. Para obter mais informações, consulte [Ajuda do Serviço de identidade Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR).
 
-   >[!NOTE]
-   >
-   >Observe que, se dois ou mais perfis compartilharem um mesmo dispositivo, a ECID será a mesma para esses dois perfis no serviço de identidade unificada.
+  >[!NOTE]
+  >
+  >Observe que, se dois ou mais perfis compartilharem um mesmo dispositivo, a ECID será a mesma para esses dois perfis no serviço de identidade unificada.
 
 ## Limitações {#limitations}
 

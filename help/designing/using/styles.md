@@ -87,15 +87,15 @@ Para ambos **[!UICONTROL Padding]** e **[!UICONTROL Margin]**, clique no ícone 
 
 * **Alinhamento do texto**: coloque o cursor do mouse em algum texto e use a barra de ferramentas contextual para alinhá-lo.
 
-   ![](assets/des_text_alignment.png)
+  ![](assets/des_text_alignment.png)
 
 * **Alinhamento horizontal** podem ser aplicados a texto, imagens e botões - atualmente não se aplicam à **[!UICONTROL Divider]** e **[!UICONTROL Social]** componentes.
 
-   ![](assets/des_horizontal_alignment.png)
+  ![](assets/des_horizontal_alignment.png)
 
 * Para definir **alinhamento vertical**, selecione uma coluna dentro de um componente de estrutura e escolha uma opção no painel Configurações.
 
-   ![](assets/des_set_vertical_alignment.png)
+  ![](assets/des_set_vertical_alignment.png)
 
 ## Configuração de planos de fundo {#about-backgrounds}
 
@@ -114,35 +114,35 @@ Veja abaixo as configurações de fundo disponíveis para uso.
 
 * Defina um **[!UICONTROL Background color]** para todo o email. Certifique-se de selecionar as configurações de corpo na árvore de navegação acessível na Paleta esquerda.
 
-   ![](assets/des_background_body.png)
+  ![](assets/des_background_body.png)
 
 * Defina a mesma cor de fundo para todos os componentes da estrutura selecionando **[!UICONTROL Viewport background color]**. Essa opção permite selecionar uma configuração de cor de fundo diferente.
 
-   ![](assets/des_background_viewport.png)
+  ![](assets/des_background_viewport.png)
 
 * Defina uma cor de fundo diferente para cada componente da estrutura. Selecione uma estrutura na árvore de navegação acessível na Paleta esquerda para aplicar uma cor de fundo específica somente a essa estrutura.
 
-   ![](assets/des_background_structure.png)
+  ![](assets/des_background_structure.png)
 
-   Certifique-se de não definir uma cor de fundo do visor, pois isso pode ocultar as cores de fundo da estrutura.
+  Certifique-se de não definir uma cor de fundo do visor, pois isso pode ocultar as cores de fundo da estrutura.
 
 * Defina um **[!UICONTROL Background image]** para o conteúdo de um componente de estrutura.
 
-   ![](assets/des_background_image.png)
+  ![](assets/des_background_image.png)
 
-   >[!NOTE]
-   >
-   >Alguns programas de email não são compatíveis com imagens de fundo. Quando não houver suporte, a cor do plano de fundo da linha será usada. Certifique-se de selecionar uma cor de fundo sobressalente apropriada caso a imagem não possa ser exibida.
+  >[!NOTE]
+  >
+  >Alguns programas de email não são compatíveis com imagens de fundo. Quando não houver suporte, a cor do plano de fundo da linha será usada. Certifique-se de selecionar uma cor de fundo sobressalente apropriada caso a imagem não possa ser exibida.
 
 * Definir uma cor de fundo no nível da coluna.
 
-   ![](assets/des_background_column.png)
+  ![](assets/des_background_column.png)
 
-   >[!NOTE]
-   >
-   >Esse é o caso de uso mais comum. A Adobe recomenda configurar as cores de fundo no nível da coluna, pois isso permite mais flexibilidade ao editar todo o conteúdo do email.
+  >[!NOTE]
+  >
+  >Esse é o caso de uso mais comum. A Adobe recomenda configurar as cores de fundo no nível da coluna, pois isso permite mais flexibilidade ao editar todo o conteúdo do email.
 
-   Também é possível definir uma imagem de fundo no nível da coluna, mas isso raramente é usado.
+  Também é possível definir uma imagem de fundo no nível da coluna, mas isso raramente é usado.
 
 ### Exemplo: ajuste do alinhamento vertical e do preenchimento {#example--adjusting-vertical-alignment-and-padding}
 
@@ -187,7 +187,7 @@ Você deseja ajustar o preenchimento e o alinhamento vertical dentro de um compo
 
    ![](assets/stylelinks-target.png)
 
-1. Para alterar a cor do link, clique em **[!UICONTROL Link color]**.
+1. Para alterar a cor do seu link, clique em **[!UICONTROL Link color]**.
 
    ![](assets/stylelinks-colorpicker.png)
 
@@ -208,4 +208,4 @@ Na interface do Designer de email, ao selecionar um elemento e exibir suas confi
 
 1. Modifique os valores dos atributos existentes ou adicione novos usando o **+** botão. É possível adicionar qualquer atributo e valor que seja compatível com CSS.
 
-O estilo é aplicado ao elemento selecionado. Se os elementos secundários não tiverem atributos de estilo específicos definidos, o estilo do elemento principal será herdado.
+O estilo é aplicado ao elemento selecionado. Se os elementos derivados não tiverem atributos de estilo específicos definidos, o estilo do elemento principal será herdado.

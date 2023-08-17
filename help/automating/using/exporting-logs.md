@@ -36,35 +36,35 @@ A operação de exportar logs pode ser executada por usuários padrão. Recursos
 
    * No **[!UICONTROL Properties]** , altere o recurso de destino para **Logs de entrega** (broadLogRcp).
 
-      ![](assets/export_logs_query_properties.png)
+     ![](assets/export_logs_query_properties.png)
 
    * No **[!UICONTROL Target]** defina uma condição para recuperar todos os logs do delivery que correspondam aos deliveries enviados em 2016 ou depois. Para obter mais informações, consulte [Edição de consultas](../../automating/using/editing-queries.md#creating-queries) seção.
 
-      ![](assets/export_logs_query_target.png)
+     ![](assets/export_logs_query_target.png)
 
    * No **[!UICONTROL Processed data]** selecione **[!UICONTROL Use a date field]** e escolha o **lastModified** campo. Nas próximas execuções do workflow, somente os logs que terão sido modificados ou criados após a última execução serão recuperados.
 
-      ![](assets/export_logs_query_processeddata.png)
+     ![](assets/export_logs_query_processeddata.png)
 
-      Após a primeira execução do workflow, você poderá ver nesta guia a última data de execução que será usada para a próxima execução. Ela é atualizada automaticamente todas as vezes que o workflow é executado. Você ainda tem a possibilidade de substituir esse valor, inserindo manualmente um novo para que ele se ajuste às suas necessidades.
+     Após a primeira execução do workflow, você poderá ver nesta guia a última data de execução que será usada para a próxima execução. Ela é atualizada automaticamente todas as vezes que o workflow é executado. Você ainda tem a possibilidade de substituir esse valor, inserindo manualmente um novo para que ele se ajuste às suas necessidades.
 
 1. Adicionar um **[!UICONTROL Extract file]** atividade que exportará os dados consultados em um arquivo:
 
    * No **[!UICONTROL Extraction]** especifique o nome do arquivo.
 
-      Se você selecionar a variável **[!UICONTROL Add date and time to the file name]** , esse nome será automaticamente preenchido com a data da exportação para garantir que todos os arquivos extraídos sejam exclusivos. Selecione as colunas que deseja exportar no arquivo. Você pode selecionar aqui os dados provenientes de recursos relacionados, como entrega ou informações de perfil.
+     Se você selecionar a variável **[!UICONTROL Add date and time to the file name]** , esse nome será automaticamente preenchido com a data da exportação para garantir que todos os arquivos extraídos sejam exclusivos. Selecione as colunas que deseja exportar no arquivo. Você pode selecionar aqui os dados provenientes de recursos relacionados, como entrega ou informações de perfil.
 
-      >[!NOTE]
-      >
-      >Para exportar um identificador exclusivo para cada log, selecione o **[!UICONTROL Delivery log ID]** elemento.
+     >[!NOTE]
+     >
+     >Para exportar um identificador exclusivo para cada log, selecione o **[!UICONTROL Delivery log ID]** elemento.
 
-      Para organizar o arquivo final, é possível aplicar uma classificação. Por exemplo, na data de log, como mostrado no exemplo abaixo.
+     Para organizar o arquivo final, é possível aplicar uma classificação. Por exemplo, na data de log, como mostrado no exemplo abaixo.
 
-      ![](assets/export_logs_extractfile_extraction.png)
+     ![](assets/export_logs_extractfile_extraction.png)
 
    * No **[!UICONTROL File structure]** defina o formato do arquivo de saída para atender às suas necessidades.
 
-      Marque a opção **[!UICONTROL Export labels instead of internal values of enumerations]** caso exporte valores de uma lista discriminada. Essa opção permite recuperar rótulos mais curtos, que são fáceis de entender, em vez de IDs.
+     Marque a opção **[!UICONTROL Export labels instead of internal values of enumerations]** caso exporte valores de uma lista discriminada. Essa opção permite recuperar rótulos mais curtos, que são fáceis de entender, em vez de IDs.
 
 1. Adicionar um **[!UICONTROL Transfer file]** atividade e configurá-la para transferir o arquivo recém-criado do servidor do Adobe Campaign para outro local onde você pode acessá-lo, como um servidor SFTP.
 

@@ -20,7 +20,7 @@ O Adobe Campaign permite definir e gerenciar as permissões atribuídas a usuár
 * **Unidades organizacionais**: permitem definir uma hierarquia de permissões nos diferentes objetos da plataforma (emails, fluxos de trabalho, templates, usuários, perfis etc.). Consulte a seção [Unidades organizacionais](../../administration/using/organizational-units.md).
 * **Funções**: um conjunto de direitos unitários que permitem definir as autorizações atribuídas a usuários e grupos de usuários. Consulte a seção [Lista de funções](../../administration/using/list-of-roles.md).
 
-   Combinadas com as unidades organizacionais, as funções exibem uma visualização filtrada da interface e definem o acesso dos usuários aos diferentes recursos. Para saber mais, consulte a [Tabela de autorizações](../../administration/using/list-of-roles.md).
+  Combinadas com as unidades organizacionais, as funções exibem uma visualização filtrada da interface e definem o acesso dos usuários aos diferentes recursos. Para saber mais, consulte a [Tabela de autorizações](../../administration/using/list-of-roles.md).
 
 >[!IMPORTANT]
 >

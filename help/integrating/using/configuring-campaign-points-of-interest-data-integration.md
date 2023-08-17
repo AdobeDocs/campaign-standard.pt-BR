@@ -103,31 +103,31 @@ Você deve ter acesso ao Adobe Analytics para fazer a seguinte configuração. S
    * No **[!UICONTROL URL]** , copie o **[!UICONTROL Collect PII Endpoint]** URL do aplicativo móvel que você configurou na interface do Adobe Campaign, precedido pelo nome do servidor. Consulte [Configuração de um aplicativo móvel no Campaign](#setting-up-a-mobile-app-in-campaign).
    * Preencha o **[!UICONTROL Post Body]** do seguinte modo:
 
-      Para iOS:
+     Para iOS:
 
-      ```
-      {
-      "userKey": "{userKey}",
-      "pushPlatform":"apns",
-      "marketingCloudId":"{%mcid%}",
-      "cusEmail":"{email}",
-      "cusFirstName":"{firstName}",
-      "cusLastName":"{lastName}"
-      }
-      ```
+     ```
+     {
+     "userKey": "{userKey}",
+     "pushPlatform":"apns",
+     "marketingCloudId":"{%mcid%}",
+     "cusEmail":"{email}",
+     "cusFirstName":"{firstName}",
+     "cusLastName":"{lastName}"
+     }
+     ```
 
-      Para Android:
+     Para Android:
 
-      ```
-      {
-      "userKey": "{userKey}",
-      "pushPlatform":"gcm",
-      "marketingCloudId":"{%mcid%}",
-      "cusEmail":"{email}",
-      "cusFirstName":"{firstName}",
-      "cusLastName":"{lastName}"
-      }
-      ```
+     ```
+     {
+     "userKey": "{userKey}",
+     "pushPlatform":"gcm",
+     "marketingCloudId":"{%mcid%}",
+     "cusEmail":"{email}",
+     "cusFirstName":"{firstName}",
+     "cusLastName":"{lastName}"
+     }
+     ```
 
    * Definir **Tipo de conteúdo** as **[!UICONTROL application/json]**.
    * No **Quais tags de dados acionam o postback?**, selecione qualquer evento, normalmente **[!UICONTROL Launched]** e **[!UICONTROL exists]**.
@@ -139,22 +139,22 @@ Você deve ter acesso ao Adobe Analytics para fazer a seguinte configuração. S
    * No **[!UICONTROL URL]** , copie o **[!UICONTROL Location Services Endpoint]** URL do aplicativo móvel que você configurou na interface do Adobe Campaign, precedido pelo nome do servidor. Consulte [Configuração de um aplicativo móvel no Campaign](#setting-up-a-mobile-app-in-campaign).
    * Preencha o **[!UICONTROL Post Body]** do seguinte modo:
 
-      ```
-      {
-      "locationData":{
-      "distances":"{a.loc.dist}",
-      "poiLabel":"{a.loc.poi}",
-      "latitude.a":"{a.loc.lat.a}",
-      "latitude.b":"{a.loc.lat.b}",
-      "latitude.c":"{a.loc.lat.c}",
-      "longitude.a":"{a.loc.lon.a}",
-      "longitude.b":"{a.loc.lon.b}",
-      "longitude.c":"{a.loc.lon.c}",
-      "appId":"{a.appid}",
-      "marketingCloudId":"{mid}"
-      }
-      }
-      ```
+     ```
+     {
+     "locationData":{
+     "distances":"{a.loc.dist}",
+     "poiLabel":"{a.loc.poi}",
+     "latitude.a":"{a.loc.lat.a}",
+     "latitude.b":"{a.loc.lat.b}",
+     "latitude.c":"{a.loc.lat.c}",
+     "longitude.a":"{a.loc.lon.a}",
+     "longitude.b":"{a.loc.lon.b}",
+     "longitude.c":"{a.loc.lon.c}",
+     "appId":"{a.appid}",
+     "marketingCloudId":"{mid}"
+     }
+     }
+     ```
 
    * Definir **Tipo de conteúdo** as **[!UICONTROL application/json]**.
    * No **Quais tags de dados acionam o postback?**, selecione **[!UICONTROL campaign.test]** e **[!UICONTROL exists]**.
