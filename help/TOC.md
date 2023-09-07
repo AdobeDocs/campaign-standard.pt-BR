@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Centro de ajuda para os principais recursos, tarefas, configurações e outros recursos necessários para usar o Campaign Standard.
 title: Manual do Campaign Standard
 breadcrumb-title: Documentação do Adobe Campaign Standard
-source-git-commit: 957064f708390c33a3295ed7d107cc9c488be875
-workflow-type: tm+mt
-source-wordcount: '1812'
+source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
+workflow-type: ht
+source-wordcount: '1756'
 ht-degree: 100%
 
 ---
@@ -274,18 +274,6 @@ ht-degree: 100%
       + [Introdução a origens e destinos](integrating/using/get-started-sources-destinations.md)
       + [Assimilar públicos da Adobe Experience Platform no Campaign](integrating/using/ingest-aep-data.md)
       + [Exportar dados do Campaign para a Adobe Experience Platform](integrating/using/export-campaign-data.md)
-         + Serviço de destinos de público (beta) {#audience-destinations}
-            + [Sobre o serviço de destinos de público](integrating/using/aep-about-audience-destinations-service.md)
-            + [Gerenciamento de públicos da Adobe Experience Platform](integrating/using/aep-managing-audiences.md)
-            + [Usar o Criador de segmentos](integrating/using/aep-using-segment-builder.md)
-            + [Direcionamento de públicos da Adobe Experience Platform](integrating/using/aep-targeting-audiences.md)
-            + [Personalização de campanhas usando atributos da Adobe Experience Platform](integrating/using/aep-personalizing-campaigns.md)
-         + Conector de dados da Adobe Experience Platform (beta) {#data-connector}
-            + [Sobre o Conector de dados da Adobe Experience Platform](integrating/using/aep-about-data-connector.md)
-            + [Visão geral do modelo de dados da Experience Platform](integrating/using/aep-data-model-overview.md)
-            + [Definição de mapeamento](integrating/using/aep-mapping-definition.md)
-            + [Ativação de mapeamento](integrating/using/aep-mapping-activation.md)
-            + [Acionamento da assimilação de dados por meio de APIs](integrating/using/aep-triggering-data-ingestion.md)
 + Gerenciamento de processos e dados {#managing-processes-and-data}
    + [Introdução ao gerenciamento de dados e processos](automating/using/get-started-workflows.md)
    + Operação geral do fluxo de trabalho {#workflow-general-operation}
@@ -517,3 +505,4 @@ ht-degree: 100%
       + [Atualização dos atributos de uma unidade geográfica](api/using/updating-geographical-unit-attributes.md)
    + [Solução de problemas](api/using/troubleshooting.md)
 + [Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR)
+
