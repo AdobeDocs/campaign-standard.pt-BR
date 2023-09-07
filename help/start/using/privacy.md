@@ -13,10 +13,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
-source-git-commit: 013293fce8a923e771e10585c41e4ad482003080
+source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
 workflow-type: tm+mt
-source-wordcount: '1424'
-ht-degree: 100%
+source-wordcount: '1418'
+ht-degree: 96%
 
 ---
 
@@ -87,7 +87,7 @@ As [principais legislações](#privacy-regulations) referem-se às diferentes en
 
 Portanto, como uma empresa que coleta e compartilha dados pessoais, você é o Controlador de dados, seus clientes são os Titulares dos dados e o Adobe Campaign atua como um Processador de dados ao tratar os dados pessoais indicados por você. Observe que é sua responsabilidade como Controlador de dados, tratar a relação com os Titulares dos dados, como ao gerenciar [solicitações de privacidade](#privacy-requests).
 
-Ao integrar o Campaign a outras soluções da Experience Cloud, onde os públicos-alvo podem ser transferidos de um sistema para outro, como o serviço do [Audience Destinations](../../integrating/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager ou o serviço principal People](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md), ou outras soluções como o [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md), é necessário ter cuidado extra com a proteção de dados pessoais.
+Ao integrar o Campaign a outras soluções de Experience Cloud, onde os públicos-alvo podem ser transferidos de um sistema para outro, [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager ou Serviço principal de pessoas](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)ou com outras soluções, como [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md), é necessário ter cuidado extra com a proteção de dados pessoais.
 
 ## Aquisição de dados {#data-acquisition}
 

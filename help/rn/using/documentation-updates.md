@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
 workflow-type: tm+mt
-source-wordcount: '7224'
+source-wordcount: '7214'
 ht-degree: 100%
 
 ---
@@ -120,7 +120,7 @@ A seção que lista as principais etapas para enviar uma mensagem foi aprimorada
 
 Foram adicionadas informações para especificar que, ao selecionar um público em uma consulta, sua definição é copiada e não referenciada. [Leia mais](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-As informações relacionadas ao Serviço Audience Destinations e ao Conector de dados da Adobe Experience Platform foram reagrupadas em uma nova seção. [Leia mais](../../integrating/using/aep-about-audience-destinations-service.md)
+As informações relacionadas ao Serviço Audience Destinations e ao Conector de dados da Adobe Experience Platform foram reagrupadas em uma nova seção.
 
 A fonte de dados **ID declarada** agora também pode ser usada com a integração do serviço principal Pessoas. Foram adicionadas informações à documentação de integração do Campaign-Audience Manager ou do serviço principal Pessoas. [Leia mais](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
@@ -178,7 +178,7 @@ A seção **Privacidade** foi movida e enriquecida com duas novas páginas: [Ger
 
 A seção **Mensagens transacionais** foi reorganizada e reunida em um único local para navegação aprimorada. [Leia mais](../../channels/using/getting-started-with-transactional-msg.md)
 
-Na seção Adobe Experience Platform Data Connector, foram adicionadas informações sobre o erro de validação de mapeamento de dados relacionado ao gerenciamento de privacidade e como solucioná-lo. [Leia mais](../../integrating/using/aep-mapping-activation.md)
+Na seção Adobe Experience Platform Data Connector, foram adicionadas informações sobre o erro de validação de mapeamento de dados relacionado ao gerenciamento de privacidade e como solucioná-lo.
 
 ## Versão 20.4 - Outubro de 2020 {#release-20-4---october-2020}
 
@@ -280,7 +280,7 @@ A documentação da integração do Microsoft Dynamics 365 com o Adobe Campaign 
 
 Recursos adicionais foram adicionados à página inicial de documentação. [Leia mais](../../campaign-standard-home.md)
 
-Informações sobre o Experience Cloud ID Service (ECID) foram adicionadas à documentação do Conector de dados da Adobe Experience Platform. [Leia mais](../../integrating/using/aep-about-data-connector.md#key-concepts)
+Informações sobre o Experience Cloud ID Service (ECID) foram adicionadas à documentação do Conector de dados da Adobe Experience Platform.
 
 A seção de mensagem transacional foi aprimorada com informações sobre como acessar os eventos transacionais mais recentes e capturas de tela atualizadas. [Leia mais](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
@@ -346,9 +346,9 @@ Informações foram adicionadas sobre o **[!UICONTROL History in days field]**, 
 
 **Novos recursos incluídos na versão**
 
-Conector de dados da Adobe Experience Platform (beta) - [Leia mais](../../integrating/using/aep-about-data-connector.md)
+Conector de dados da Adobe Experience Platform (beta)
 
-Destinos do público (beta) - [Leia mais](../../integrating/using/aep-about-audience-destinations-service.md)
+Audience Destinations (beta)
 
 **Outras atualizações de documentação incluídas na versão**
 
