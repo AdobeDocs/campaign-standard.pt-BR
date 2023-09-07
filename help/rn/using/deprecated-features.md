@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: 99a2ae8b383d5a8437882be065781a2317b88bfe
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 63%
+source-wordcount: '863'
+ht-degree: 61%
 
 ---
 
@@ -34,38 +34,6 @@ Esta seção lista os recursos e funcionalidades marcados como obsoletos nas ver
 Geralmente, os recursos que estão planejados para serem removidos em uma versão futura são definidos como obsoletos primeiro, com uma alternativa fornecida. Esses recursos e funcionalidades não estão mais disponíveis para novos clientes do Campaign Standard ou não devem ser usados para novas implementações. Eles também foram removidos da documentação do produto.
 
 Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em sua implantação atual e a fazer planos para alterar sua implementação para usar a alternativa fornecida. Consulte a versão de remoção de público alvo para planejar de modo adequado suas atualizações de ambiente e de projeto.
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Integração com o serviço Audience Destinations</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p> A partir da versão 21.3 do Campaign Standard, a integração com o serviço Audience Destinations não será mais utilizada. </p>
-   <p>Para nova implementação, não é mais possível integrar o serviço Audience Destinations ao Adobe Campaign Standard. No entanto, você pode integrar o Campaign e o Adobe Experience Platform por meio de Origens e Destinos. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">Saiba mais</a>.</p>
-     <em>Data de remoção do Target: 2023</em></p>
-     </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Integração com o Conector de dados do Adobe Experience Platform</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p> A integração com o Conector de dados Adobe Experience Platform está obsoleta a partir da versão 21.3 do Campaign Standard. </p>
-   <p>Para nova implementação, não é mais possível integrar o Conector de dados do Adobe Experience Platform ao Adobe Campaign Standard. No entanto, você pode integrar o Campaign e o Adobe Experience Platform por meio de Origens e Destinos. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">Saiba mais</a>.</p>
-     <em>Data de remoção do Target: 2023</em></p>
-     </td> 
-  </tr> 
- </tbody> 
-</table>
 
 
 <table> 
@@ -101,7 +69,35 @@ Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em 
 
 Esta seção lista os recursos e funcionalidades removidos do Campaign Standard.
 
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Integração com o serviço Audience Destinations</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> A partir da versão 21.3 do Campaign Standard, a integração com o serviço Audience Destinations não será mais utilizada.  Agora ele é removido.</p>
+   <p>Para nova implementação, não é mais possível integrar o serviço Audience Destinations ao Adobe Campaign Standard. No entanto, você pode integrar o Campaign e o Adobe Experience Platform por meio de Origens e Destinos. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">Saiba mais</a>.</p>
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
 
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Integração com o Conector de dados do Adobe Experience Platform</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> A integração com o Conector de dados Adobe Experience Platform está obsoleta a partir da versão 21.3 do Campaign Standard.  Agora ele é removido.</p>
+   <p>Para nova implementação, não é mais possível integrar o Conector de dados do Adobe Experience Platform ao Adobe Campaign Standard. No entanto, você pode integrar o Campaign e o Adobe Experience Platform por meio de Origens e Destinos. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">Saiba mais</a>.</p>
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 <table> 
  <thead> 
@@ -111,7 +107,7 @@ Esta seção lista os recursos e funcionalidades removidos do Campaign Standard.
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> A partir da versão 20.1 do Campaign, o SDK v4 não será mais utilizado. <a href="https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/">Saiba mais</a>.</p><br/>
+   <td> <p> A partir da versão 20.1 do Campaign, o SDK v4 não será mais utilizado. Agora ele é removido. <a href="https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/">Saiba mais</a>.</p><br/>
    <p>A variável <a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a> (anteriormente conhecido como v5) agora oferecem suporte exclusivo aos recursos e funcionalidades futuras do Adobe Experience Cloud.</p>
    <p>Após 31 de agosto de 2021, os clientes poderão continuar baixando e usando os SDKs versão 4, mas não haverá suporte do Atendimento ao cliente nem acesso aos fóruns.</p>
    <p>Saiba como migrar do SDK v4 para o Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">nesta página</a>.</p></br>
@@ -128,7 +124,7 @@ Esta seção lista os recursos e funcionalidades removidos do Campaign Standard.
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>A partir da versão 21.2 do Campaign, o uso da API e da interface do Campaign para solicitações de acesso e exclusão se tornará obsoleto. A exclusão do perfil de 2 etapas não estará disponível. Use o <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">serviço principal de privacidade da Adobe</a>.</p></br>
+   <td> <p>A partir da versão 21.2 do Campaign, o uso da API e da interface do Campaign para solicitações de acesso e exclusão se tornará obsoleto. A exclusão do perfil de 2 etapas não está mais disponível. Use o <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">serviço principal de privacidade da Adobe</a>.</p></br>
    <p>Consulte também o <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html">Gerenciamento de solicitações de acesso a dados pessoais</a>.</p>
   </td> 
   </tr> 
