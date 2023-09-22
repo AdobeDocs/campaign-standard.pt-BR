@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 485927b217fb68064897dd877c2f4a6dd208d443
+source-git-commit: a15959b34979678e6ed53758e0ba5a00401a765b
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 100%
+source-wordcount: '202'
+ht-degree: 24%
 
 ---
 
@@ -18,30 +18,26 @@ ht-degree: 100%
 # Notas de versão anteriores {#e-new-release}
 
 Esta página descreve as melhorias e correções incluídas na próxima versão do Campaign Standard.
+
 >[!CAUTION]
 >
 > Esse conteúdo está sujeito a alterações sem aviso prévio até a data de atualização dos ambientes de estágio. Saiba mais na [página de planejamento de versão](../../rn/using/release-planning.md).
 
-## Versão 23.1 - Versão de primavera/verão de 2023 {#apr-23}
+## Versão 23.2 - Versão de outono/inverno de 2023 {#fall-23}
+
+>[!AVAILABILITY]
+>
+>Esta versão está disponível somente para algumas organizações (disponibilidade limitada). Para obter mais informações, entre em contato com o representante da Adobe.
 
 ### Aprimoramentos {#e-rn-improvements}
 
-* O serviço de mensagens por push foi modernizado para melhorar o suporte. (CAMP-47959)
-* O serviço de mensagens SMS foi aprimorado para proporcionar mais estabilidade. (CAMP-52217)
-* A Adobe fez várias correções de acessibilidade para melhorar a facilidade de uso geral do aplicativo. Estes são alguns exemplos de melhorias da acessibilidade:
-   * A acessibilidade do teclado da interface foi otimizada em várias telas.
-   * O aplicativo foi aprimorado para usuários de telas sensíveis ao toque.
-   * A cor de vários itens da interface foi alterada para melhorar a visibilidade.
+* **Integração com o Adobe Experience Manager**. Ao criar um template do delivery para mensagens transacionais no Adobe Experience Manager, agora é possível personalizar a mensagem selecionando e usando os campos de personalização definidos no Campaign Standard. Uma nova lista suspensa está disponível no Adobe Experience Manager.
 
-### Outras alterações {#e-rn-changes}
+* **Expiração de cookie** - As expirações de cookie padrão agora estão definidas como 6 meses, para alinhar-se ao regulamento francês.
 
-* O **fluxo de trabalho de criação do enriquecimento de relatórios** pronto para uso foi adicionado. Após importar um target mapping de uma instância para outra, basta executar o fluxo de trabalho para importar as entradas de enriquecimento de relatório correspondentes. (CAMP-52452)
+* **Aprimoramento da pesquisa de perfil** - A pesquisa de perfil foi otimizada para que os cenários de tempo limite de pesquisa possam ser reduzidos
 
-### Problemas corrigidos{#e-rn-patches}
+* **Integração com o Adobe Experience Cloud Triggers** - A nova interface do Experience Cloud Triggers oferece uma experiência intuitiva para gerenciar comportamentos do consumidor e personalizar experiências do usuário. A nova interface do usuário do Adobe Experience Cloud Triggers é implantada progressivamente para todos os clientes.
 
-* Correção de um problema que poderia resultar em um erro de tempo limite ao exibir o relatório **Hot click**. (CAMP-51582)
-* Correção de um problema que poderia impedir o uso da integração com o serviço **Places**. (CAMP-51923)
-* Correção de um problema que poderia impedir o funcionamento adequado do Scheduler de fluxos de trabalho. (CAMP-52003)
-* Correção de um problema que impedia a exibição do detalhamento ao visualizar a versão PDF de um relatório dinâmico personalizado com um grande volume de dados. (CAMP-52178)
-* Correção de um problema que poderia exibir um erro ao acessar relatórios. (CAMP-52500)
-* Correção de um problema que aplicava incorretamente o parâmetro do conector SMS **Limitar instâncias de MTA desta conta** para todos os canais em vez de aplicar somente ao de SMS. (CAMP-52640)
+  Saiba mais sobre o Adobe Campaign e o Experience Cloud Triggers em [esta página](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
+
