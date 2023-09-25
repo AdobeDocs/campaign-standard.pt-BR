@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '740'
 ht-degree: 80%
 
 ---
@@ -23,11 +23,9 @@ ht-degree: 80%
 >
 >Para criar Acionadores, você precisará do **[!UICONTROL Administration]** ou estar na **[!UICONTROL Administrators]** grupo de segurança. Para obter mais informações sobre essas operações, consulte esta [página](../../administration/using/list-of-roles.md).
 
-É recomendável definir os comportamentos que deseja monitorar antecipadamente na Adobe Experience Cloud (serviço principal de **[!UICONTROL Triggers]**). Para obter mais informações, consulte a [documentação da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html). Observe que, ao definir o acionador, é necessário ativar os aliases. Para cada comportamento (navegação/abandono de formulário, adição/exclusão de produtos, sessão expirada etc.), um novo acionador deve ser adicionado na Adobe Experience Cloud.
+É recomendável definir os comportamentos que deseja monitorar antecipadamente na Adobe Experience Cloud (serviço principal de **[!UICONTROL Triggers]**). Para obter mais informações, consulte a [documentação da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=pt-BR). Observe que, ao definir o acionador, é necessário ativar os aliases. Para cada comportamento (navegação/abandono de formulário, adição/exclusão de produtos, sessão expirada etc.), um novo acionador deve ser adicionado na Adobe Experience Cloud.
 
 Agora é necessário criar um evento de acionador no Adobe Campaign com base em um acionador existente da Adobe Experience Cloud.
-
-Você pode assistir a este [vídeo](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) para ajudá-lo a entender como os acionadores são configurados no Adobe Campaign.
 
 Estas são as etapas para colocar o acionador em prática:
 

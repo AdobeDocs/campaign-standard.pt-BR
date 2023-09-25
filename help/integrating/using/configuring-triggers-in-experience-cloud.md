@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
+source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '842'
 ht-degree: 7%
 
 ---
@@ -95,7 +95,7 @@ Um acionador do Adobe Experience Cloud precisa ser criado para que você possa u
 
 Crie um novo acionador no Experience Cloud e certifique-se de selecionar o conjunto de relatórios usado em seu site. Escolha a dimensão correta para que o acionador seja acionado.
 
-Consulte a [Documentação do Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html) e assista a isto [vídeo](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
+Consulte a [Documentação do Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=pt-BR).
 
 ## Práticas recomendadas e limitações dos acionadores {#triggers-best-practices-and-limitations}
 
