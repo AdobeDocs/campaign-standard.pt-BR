@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 637ec6d0f98be7b76ed3f26821a9f66541503ca6
+source-git-commit: 668412b6385aafcaf8bb55096758731b8076666a
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '256'
 ht-degree: 19%
 
 ---
@@ -37,10 +37,6 @@ Esta página descreve as melhorias e correções incluídas na próxima versão 
 
 * **Aprimoramento da pesquisa de perfil** - A pesquisa de perfil foi otimizada para que os cenários de tempo limite de pesquisa possam ser reduzidos
 
-* **Integração com o Adobe Experience Cloud Triggers** - A nova interface do Experience Cloud Triggers oferece uma experiência intuitiva para gerenciar comportamentos do consumidor e personalizar experiências do usuário. A nova interface do usuário do Adobe Experience Cloud Triggers é implantada progressivamente para todos os clientes.
-
-  Saiba mais sobre o Adobe Campaign e o Experience Cloud Triggers em [esta página](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
-
 * **Localização** - As traduções do termo &quot;público-alvo&quot; ao se referirem a um grupo de perfis direcionados para receber uma mensagem foram harmonizadas em todos os produtos da Digital Experience para os seguintes idiomas:
 
    * Alemão: Zielgruppe
@@ -48,3 +44,7 @@ Esta página descreve as melhorias e correções incluídas na próxima versão 
    * Espanhol: público-destino
 
   Essas alterações serão implementadas gradualmente com as próximas versões da interface do usuário e da documentação.
+
+* **Integração com o Adobe Experience Cloud Triggers** - A nova interface de usuário para Acionadores do Experience Cloud está disponível. Ele oferece uma experiência intuitiva para gerenciar comportamentos do consumidor e personalizar experiências do usuário. A nova interface do usuário do Adobe Experience Cloud Triggers será progressivamente implantada para todos os clientes, entre 11 e 16 de outubro de 2023.
+
+  Saiba mais sobre o Adobe Campaign e o Experience Cloud Triggers em [esta página](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
