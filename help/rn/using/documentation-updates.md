@@ -5,16 +5,29 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
-workflow-type: ht
-source-wordcount: '7214'
-ht-degree: 100%
+source-git-commit: b1158d718cd799914e46f53947e840b1af8c7a37
+workflow-type: tm+mt
+source-wordcount: '7263'
+ht-degree: 98%
 
 ---
 
 # Atualizações da documentação{#documentation-updates}
 
 Além das [Notas de versão](../../rn/using/release-notes.md) do Adobe Campaign, esta página lista todas as atualizações na documentação do Adobe Campaign Standard.
+
+<!--## Release 23.2 - Fall/Winter 2023 {#release-23-2}
+
+Release notes for Campaign Standard 23.2 Fall/Winter 2023 release have been published. [Read more](release-notes.md)-->
+
+## Setembro de 2023 {#doc-updates-sept-2023}
+
+* A nova interface de usuário para Acionadores do Experience Cloud agora está disponível. Ele oferece uma experiência intuitiva para gerenciar comportamentos do consumidor e personalizar experiências do usuário. [Leia mais](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
+
+## Versão 23.1 - primavera/verão de 2023 {#release-23-1}
+
+As notas de versão do Campaign Standard 23.1 lançamento da primavera/verão de 2023 foram publicadas. [Leia mais](release-notes.md)
+
 
 ## Novembro de 2022 {#doc-updates-november-2022}
 
@@ -24,7 +37,7 @@ Foram adicionadas informações na página de atividade do fluxo de trabalho **[
 
 ## Versão 22.3 - outono/inverno de 2022 {#release-22-3}
 
-As notas da versão 22.3 (lançamento de outono/inverno) do Campaign Standard foram publicadas. [Leia mais](release-notes.md)
+As notas de versão da versão 22.3 (outono/inverno) de 2022 do Campaign Standard foram publicadas. [Leia mais](release-notes.md)
 
 <!--Data retention periods have been updated to reflect changes coming with 22.3 release. [Read more](../../administration/using/data-retention.md)-->
 
@@ -396,7 +409,7 @@ O guia de introdução sobre como exportar/importar recursos personalizados foi 
 
 Um novo caso de uso que descreve como criar um grupo de controle usando um workflow no Campaign Standard foi adicionado.
 
-Informações relacionadas às propriedades das landing pages foram movidas para uma seção dedicada. [Leia mais](../../channels/using/configuring-landing-page.md)
+Informações relacionadas às propriedades das páginas de aterrissagem foram movidas para uma seção dedicada. [Leia mais](../../channels/using/configuring-landing-page.md)
 
 A documentação do Painel de controle foi integrada ao novo conjunto de documentação colaborativa. [Leia mais](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR)
 
@@ -484,7 +497,7 @@ Um conjunto de novos artigos de ajuda foi criado sobre a implementação e o uso
 
 Uma observação foi adicionada na seção [Chamado de workflow com parâmetros](../../automating/using/calling-a-workflow-with-external-parameters.md) sobre a preparação do delivery e o período de agregação.
 
-Foram adicionadas informações sobre como personalizar um rótulo de delivery com variáveis de evento declaradas na atividade de sinal externo do workflow. [Leia mais](../../automating/using/external-signal.md)
+Foram adicionadas informações sobre como personalizar um rótulo de delivery com variáveis de evento declaradas na atividade de sinal externo do fluxo de trabalho. [Leia mais](../../automating/using/external-signal.md)
 
 Uma nova seção foi adicionada detalhando como criar um usuário no Adobe Campaign Standard. [Leia mais](../../administration/using/users-management.md)
 
@@ -770,7 +783,7 @@ Foram adicionadas informações sobre tipos de logs de rastreamento. [Leia mais]
 
 A seção da atividade de consulta foi atualizada com amostras de consultas. [Leia mais](../../automating/using/query.md#query-samples)
 
-A seção dedicada à inclusão na lista de bloqueios foi renomeada para “Conhecimento sobre os processos de aceitação e recusa”. Essa seção foi atualizada com informações sobre como gerenciar aceitações para canais específicos e como configurar landing pages para gerenciar aceitações e recusas. [Leia mais](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+A seção dedicada às listas de bloqueios foi renomeada para &quot;Noções básicas sobre os processos de aceitação e recusa&quot;. Essa seção foi atualizada com informações sobre como gerenciar aceitações para canais específicos e como configurar landing pages para gerenciar aceitações e recusas. [Leia mais](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Conheças as práticas recomendadas para usar os servidores SFTP hospedados pela Adobe. [Leia mais](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -1012,7 +1025,7 @@ Uma nova nota técnica agora está disponível: &quot;Integração do SDK móvel
 
 Foram adicionadas instruções para configurar a integração do serviço principal do People ou Audience Manager com o Adobe Campaign. [Leia mais](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-A tabela de autorizações foi revisada para esclarecer melhor certas funções. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+A tabela de autorizações foi revisada para esclarecer melhor determinadas funções. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Atualização dos links de ajuda contextual disponíveis diretamente do Adobe Campaign.
 
