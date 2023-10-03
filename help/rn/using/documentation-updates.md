@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: b1158d718cd799914e46f53947e840b1af8c7a37
+source-git-commit: ee3ab5304e80ea098f7e172f6b3f4af4324e8eb4
 workflow-type: tm+mt
-source-wordcount: '7263'
-ht-degree: 98%
+source-wordcount: '7283'
+ht-degree: 97%
 
 ---
 
@@ -23,6 +23,8 @@ Release notes for Campaign Standard 23.2 Fall/Winter 2023 release have been publ
 ## Setembro de 2023 {#doc-updates-sept-2023}
 
 * A nova interface de usuário para Acionadores do Experience Cloud agora está disponível. Ele oferece uma experiência intuitiva para gerenciar comportamentos do consumidor e personalizar experiências do usuário. [Leia mais](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
+
+* Adição de uma observação sobre o uso de perfis de teste de trap combinados com regras de filtragem ou fadiga. [Leia mais](../../sending/using/using-traps.md)
 
 ## Versão 23.1 - primavera/verão de 2023 {#release-23-1}
 

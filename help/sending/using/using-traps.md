@@ -9,9 +9,9 @@ feature: Seed Address
 role: User
 level: Intermediate
 exl-id: 0482a946-35b1-426f-8505-42adcd1c3bbb
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee3ab5304e80ea098f7e172f6b3f4af4324e8eb4
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '458'
 ht-degree: 2%
 
 ---
@@ -62,4 +62,6 @@ Você pode usar coberturas ao enviar mensagens transacionais. Nesse caso, o perf
 
 >[!NOTE]
 >
->Ao usar um perfil de teste como trapping, para quaisquer campos enriquecidos em uma mensagem, os dados adicionais correspondentes são escolhidos aleatoriamente de um perfil direcionado real e atribuídos ao perfil de teste de trapping. Para obter mais informações sobre enriquecimento, consulte [este exemplo](../../automating/using/enriching-profile-data-file.md).
+>Ao usar um perfil de teste como trap, os campos enriquecidos em uma mensagem terão seus dados adicionais correspondentes selecionados aleatoriamente de um perfil direcionado real e atribuídos ao perfil de teste de trap. No entanto, esteja ciente de que, se o perfil direcionado real for excluído devido a regras de tipologia aplicadas durante a primeira preparação da mensagem, a preparação do delivery falhará. Essa falha ocorre porque os valores de campo enriquecidos não podem ser substituídos pelo perfil de cobertura. Consequentemente, as regras de tipologia de exclusão podem não se aplicar corretamente aos recipients reais.
+>
+>Para evitar essa situação, evite usar perfis de teste de trap simultaneamente com regras de filtragem ou fadiga na tipologia transacional. Saiba mais sobre enriquecimento. Para obter mais informações sobre enriquecimento, consulte [este exemplo](../../automating/using/enriching-profile-data-file.md).
