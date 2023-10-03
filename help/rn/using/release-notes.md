@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: c1271bc0128c583e9b39ef98a422487e1df20fce
+source-git-commit: 4158a5aedf990651a0205f7eac4f4294e2538cba
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 59%
+source-wordcount: '454'
+ht-degree: 60%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 59%
 
 * **Integração com o Adobe Experience Manager**. Ao criar um template de delivery personalizado para mensagens transacionais no Adobe Experience Manager, agora é possível selecionar e usar os campos de personalização definidos em Campaign Standard em uma lista suspensa. [Saiba mais](../../integrating/using/creating-email-experience-manager.md)
 
-* **Expiração de cookie** - As expirações padrão do cookie agora estão definidas como 6 meses, para se alinhar às recomendações da Agência de Proteção de Dados (CNIL) da França.
+* **Expiração de cookie** - A expiração padrão do cookie agora é definida como 6 meses, para alinhar-se às recomendações da Agência de proteção de dados da França (CNIL).
 
 * **Aprimoramento da pesquisa de perfil** - A pesquisa de perfil foi otimizada para que os cenários de tempo limite de pesquisa possam ser reduzidos
 
@@ -44,12 +44,12 @@ ht-degree: 59%
 
 ### Outras alterações {#fall-23-rn-other-changes}
 
-* As mensagens transacionais agora são compatíveis com o uso de várias afinidades separadas por vírgulas.
+* As mensagens transacionais agora são compatíveis com o uso de várias afinidades separadas por vírgulas. [Saiba mais](../../sending/using/managing-typologies.md)
 
 ### Correções {#fall-23-rn-fixes}
 
 * Correção de uma regressão que poderia causar problemas de desempenho ao usar workflows grandes. (CAMP-53369)
-* Correção de um problema que impedia que o link do email em um alerta ou notificação do workflow funcionasse. (CAMP-51874)
+* Correção de um problema que impedia que o link em um alerta ou notificação por email de workflow funcionasse. (CAMP-51874)
 
 ## Versão 23.1 - Versão de primavera/verão de 2023 {#apr-23}
 
