@@ -10,7 +10,7 @@ exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: 46c5454ad712910c88bfda7c067fda0337b043d9
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 22%
+ht-degree: 83%
 
 ---
 
@@ -27,23 +27,23 @@ Esta página descreve as melhorias e correções incluídas na próxima versão 
 
 >[!AVAILABILITY]
 >
->Esta versão está disponível somente para algumas organizações (disponibilidade limitada). Para obter mais informações, entre em contato com o representante da Adobe.
+>Esta versão está disponível somente para algumas organizações (disponibilidade limitada). Para mais informações, entre em contato com o seu representante da Adobe.
 
 ### Aprimoramentos {#e-rn-improvements}
 
-* **Integração com o Adobe Experience Manager**. Ao criar um template de delivery personalizado para mensagens transacionais no Adobe Experience Manager, agora é possível selecionar e usar os campos de personalização definidos em Campaign Standard em uma lista suspensa.
+* **Integração com o Adobe Experience Manager**. Ao criar um template de entrega personalizado para mensagens transacionais no Adobe Experience Manager, agora é possível selecionar e usar os campos de personalização definidos no Campaign Standard em um menu suspenso.
 
-* **Expiração de cookie** - As expirações padrão do cookie agora estão definidas como 6 meses, para se alinhar às recomendações da Agência de Proteção de Dados (CNIL) da França.
+* **Expiração de cookies**: a expiração padrão de cookies agora é definida como seis meses, de acordo com as recomendações da Agência de Proteção de Dados (CNIL) da França.
 
-* **Aprimoramento da pesquisa de perfil** - A pesquisa de perfil foi otimizada para que os cenários de tempo limite de pesquisa possam ser reduzidos
+* **Aprimoramento da pesquisa de perfil**: a pesquisa de perfil foi otimizada para reduzir os casos de tempo-limite esgotado
 
-* **Localização** - As traduções do termo &quot;público-alvo&quot; ao se referirem a um grupo de perfis direcionados para receber uma mensagem foram harmonizadas em todos os produtos da Digital Experience para os seguintes idiomas:
+* **Localização**: as traduções do termo &quot;público-alvo&quot;, em referência a um grupo de perfis direcionados para receber uma mensagem, foram harmonizadas em todos os produtos da Digital Experience nos seguintes idiomas:
 
    * Alemão: Zielgruppe
    * Português (Brasil): público-alvo
-   * Espanhol: público-destino
+   * Espanhol: público destinatario
 
-  Essas alterações serão implementadas gradualmente com as próximas versões da interface do usuário e da documentação.
+  Essas alterações serão implementadas gradualmente com as próximas versões da interface e da documentação.
 
 ### Outras alterações {#e-rn-other-changes}
 

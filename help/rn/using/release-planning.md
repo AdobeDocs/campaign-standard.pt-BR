@@ -11,7 +11,7 @@ exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ As atualizações de ambientes ocorrem em ondas, durante os intervalos indicados
 
 >[!AVAILABILITY]
 >
->Esta versão está disponível somente para algumas organizações (disponibilidade limitada). Para obter mais informações, entre em contato com o representante da Adobe.
+>Esta versão está disponível somente para algumas organizações (disponibilidade limitada). Para mais informações, entre em contato com o seu representante da Adobe.
 
 Informações detalhadas sobre esta versão estão disponíveis nas [Notas de versão](release-notes.md).
 
@@ -49,7 +49,7 @@ Informações detalhadas sobre esta versão estão disponíveis nas [Notas de ve
   </tr>
   <tr>
    <td>Produção </td>
-   <td>12-18 de outubro de 2023 </td>
+   <td>12 a 18 de outubro de 2023 </td>
   </tr>
  </tbody>
 </table>
