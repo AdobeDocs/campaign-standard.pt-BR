@@ -11,10 +11,10 @@ level: Experienced
 exl-id: 34235749-d056-4d4c-9939-7dc52f980a76
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: 376f00576ca1d0dfb536b29dbf25d88f7c93b9a8
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 2%
+source-wordcount: '354'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->O serviço Audience Destinations está atualmente em versão beta, que pode estar sujeita a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados no Azure (atualmente na versão beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente do Adobe se desejar obter acesso.
+>O serviço Audience Destinations foi descontinuado. Embora os recursos obsoletos ainda estejam disponíveis, eles não serão aprimorados nem terão suporte. Saiba mais [nesta página](../../rn/using/deprecated-features.md)
 
 Capacite as experiências do seu consumidor aproveitando o [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html) criar públicos-alvo altamente direcionados com base em conjuntos de dados grandes e complexos. O Adobe Experience Platform consolida dados de perfil, comportamentais e de várias entidades em fontes online e offline, incluindo o Adobe Analytics, para ajudar você a criar uma visualização de 360 graus do seu cliente, permitindo que você gerencie com eficiência as experiências dele.
 

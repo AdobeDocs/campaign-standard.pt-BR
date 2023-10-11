@@ -10,10 +10,10 @@ level: Experienced
 exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: 376f00576ca1d0dfb536b29dbf25d88f7c93b9a8
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 5%
+source-wordcount: '749'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->O Conector de dados do Adobe Experience Platform está atualmente na versão beta, que pode estar sujeita a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados no Azure (atualmente na versão beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente do Adobe se desejar obter acesso.
+>O Conector de dados do Adobe Experience Platform foi descontinuado. Embora os recursos obsoletos ainda estejam disponíveis, eles não serão aprimorados nem terão suporte. Saiba mais [nesta página](../../rn/using/deprecated-features.md)
 
 O Conector de dados do Adobe Experience Platform ajuda os clientes existentes a disponibilizar seus dados no Adobe Experience Platform, mapeando os dados XTK (dados assimilados no Campaign) para dados do Experience Data Model (XDM) no Adobe Experience Platform.
 
