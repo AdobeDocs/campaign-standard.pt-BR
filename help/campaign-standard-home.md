@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: f6e70bf8015b31ea98e8ecca1c8df61be5f7f212
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Novidades
 
-* **[As notas de versão do Campaign 23.2 estão disponíveis](rn/using/release-notes.md)**<br/> Descubra novos recursos, melhorias e correções que acompanham a versão 23.2 do Campaign Standard
+* **[As notas de versão do Campaign 23.2 estão disponíveis](rn/using/release-notes.md)**<br/>. Descubra novos recursos, melhorias e correções que acompanham a versão 23.2 do Campaign Standard
 
 * **[Integração Campaign — RTCDP](integrating/using/get-started-sources-destinations.md)**<br/> Saiba como compartilhar dados entre o Campaign e a Plataforma de dados do cliente em tempo real (RTCDP)
 
@@ -27,13 +27,13 @@ ht-degree: 100%
 Meça o impacto de suas campanhas excluindo parte dos públicos
 
 * **[Emails alimentados por IA](sending/using/predictive.md)**<br/>
-Otimize o design e o delivery com emails alimentados por IA
+Otimize o design e a entrega com emails alimentados por IA
 
 * **[API externa](automating/using/external-api.md)**<br/>
 Use a atividade de API externa para trazer dados ao workflow a partir de um sistema externo.
 
-* **[Introdução a deliveries para dispositivos móveis](https://helpx.adobe.com/br/campaign/kb/acs-mobile.html)**<br/>
-Saiba mais sobre as diretrizes gerais para delivery para dispositivos móveis (SMS, Push, No aplicativo)
+* **[Introdução a entregas para dispositivos móveis](https://helpx.adobe.com/br/campaign/kb/acs-mobile.html)**<br/>
+Saiba mais sobre as diretrizes gerais para entrega para dispositivos móveis (SMS, Push, No aplicativo)
 
 [Mais atualizações](rn/using/documentation-updates.md)
 
