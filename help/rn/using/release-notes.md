@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 4158a5aedf990651a0205f7eac4f4294e2538cba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -23,23 +23,23 @@ ht-degree: 60%
 
 >[!AVAILABILITY]
 >
->Esta versão está disponível somente para algumas organizações (disponibilidade limitada). Para obter mais informações, entre em contato com o representante da Adobe.
+>Esta versão está disponível somente para algumas organizações (disponibilidade limitada). Para mais informações, entre em contato com o seu representante da Adobe.
 
 ### Aprimoramentos {#fall-23-rn-improvements}
 
-* **Integração com o Adobe Experience Manager**. Ao criar um template de delivery personalizado para mensagens transacionais no Adobe Experience Manager, agora é possível selecionar e usar os campos de personalização definidos em Campaign Standard em uma lista suspensa. [Saiba mais](../../integrating/using/creating-email-experience-manager.md)
+* **Integração com o Adobe Experience Manager**. Ao criar um template de entrega personalizado para mensagens transacionais no Adobe Experience Manager, agora é possível selecionar e usar os campos de personalização definidos no Campaign Standard em um menu suspenso. [Saiba mais](../../integrating/using/creating-email-experience-manager.md)
 
-* **Expiração de cookie** - A expiração padrão do cookie agora é definida como 6 meses, para alinhar-se às recomendações da Agência de proteção de dados da França (CNIL).
+* **Expiração de cookies**: a expiração padrão de cookies agora é definida como seis meses, de acordo com as recomendações da Agência de Proteção de Dados (CNIL) da França.
 
-* **Aprimoramento da pesquisa de perfil** - A pesquisa de perfil foi otimizada para que os cenários de tempo limite de pesquisa possam ser reduzidos
+* **Aprimoramento da pesquisa de perfil**: a pesquisa de perfil foi otimizada para reduzir os casos de tempo-limite esgotado
 
-* **Localização** - As traduções do termo &quot;público-alvo&quot; ao se referirem a um grupo de perfis direcionados para receber uma mensagem foram harmonizadas em todos os produtos da Digital Experience para os seguintes idiomas:
+* **Localização**: as traduções do termo &quot;público-alvo&quot;, em referência a um grupo de perfis direcionados para receber uma mensagem, foram harmonizadas em todos os produtos da Digital Experience nos seguintes idiomas:
 
    * Alemão: Zielgruppe
    * Português (Brasil): público-alvo
-   * Espanhol: público-destino
+   * Espanhol: público destinatario
 
-  Essas alterações serão implementadas gradualmente com as próximas versões da interface do usuário e da documentação.
+  Essas alterações serão implementadas gradualmente com as próximas versões da interface e da documentação.
 
 
 ### Outras alterações {#fall-23-rn-other-changes}
@@ -49,7 +49,7 @@ ht-degree: 60%
 ### Correções {#fall-23-rn-fixes}
 
 * Correção de uma regressão que poderia causar problemas de desempenho ao usar workflows grandes. (CAMP-53369)
-* Correção de um problema que impedia que o link em um alerta ou notificação por email de workflow funcionasse. (CAMP-51874)
+* Correção de um problema que impedia que o link nos alertas ou notificações por email do workflow funcionasse. (CAMP-51874)
 
 ## Versão 23.1 - Versão de primavera/verão de 2023 {#apr-23}
 
