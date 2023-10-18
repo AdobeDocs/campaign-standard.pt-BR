@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: 46c5454ad712910c88bfda7c067fda0337b043d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -52,4 +52,4 @@ Esta página descreve as melhorias e correções incluídas na próxima versão 
 ### Correções {#e-rn-fixes}
 
 * Correção de uma regressão que poderia causar problemas de desempenho ao usar workflows grandes. (CAMP-53369)
-* Correção de um problema que impedia que o link do email em um alerta ou notificação do workflow funcionasse. (CAMP-51874)
+* Correção de um problema que impedia que o link de email em alertas ou notificações do workflow funcionasse. (CAMP-51874)
