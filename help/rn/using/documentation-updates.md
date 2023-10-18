@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 59404b16e145ded31bf3a374adf4087f6d1817c6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7299'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ Além das [Notas de versão](../../rn/using/release-notes.md) do Adobe Campaign,
 
 ## Versão 23.2 - outono/inverno de 2023 {#release-23-2}
 
-As notas da versão 23.2 (lançamento de outono/inverno de 2023) do Campaign Standard foram publicadas. [Leia mais](release-notes.md)
+As notas da versão 23.2 (versão de outono/inverno de 2023) do Campaign Standard foram publicadas. [Leia mais](release-notes.md)
 
 ## Outubro de 2023 {#doc-updates-oct-2023}
 
-* A nova interface dos Triggers da Experience Cloud já está disponível. Ela oferece uma experiência intuitiva para gerenciar o comportamento dos consumidores e personalizar a experiência de usuários(as). [Leia mais](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=pt-BR){target="_blank"}.
+* A nova interface dos Acionadores da Experience Cloud já está disponível. Ela oferece uma experiência intuitiva para gerenciar o comportamento dos consumidores e personalizar a experiência de usuários(as). [Leia mais](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=pt-BR){target="_blank"}.
 
-* Adição de uma observação sobre o uso de perfis de teste de trap combinados com regras de filtragem ou fadiga. [Leia mais](../../sending/using/using-traps.md)
+* Adição de uma observação sobre o uso de perfis de teste de captura combinados com regras de filtragem ou fadiga. [Leia mais](../../sending/using/using-traps.md)
 
 ## Versão 23.1 - Primavera/verão de 2023 {#release-23-1}
 
@@ -64,7 +64,7 @@ Foi realizada uma observação para especificar que o envio de provas usando a s
 
 **Melhorias incluídas na versão**
 
-Mecanismo de repetição para deliveries aprimorado, incluindo conteúdo importado de um URL. [Saiba mais](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
+Mecanismo de repetição para entregas aprimorado, incluindo conteúdo importado de um URL. [Saiba mais](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
 Atualização do nível de acesso das opções que controlam a Auditoria: opções anteriores para ativar/desativar a [Trilha de auditoria](../../administration/using/audit.md) não eram acessíveis para [administradores funcionais](../../administration/using/users-management.md#functional-administrators). Com essa alteração, o nível de acesso da auditoria foi modificado para fornecer controle aos administradores funcionais. [Saiba mais](../../administration/using/audit.md#enable-disable-audit)
 
@@ -141,7 +141,7 @@ A fonte de dados **ID declarada** agora também pode ser usada com a integraçã
 
 Foram adicionadas informações sobre como implementar o rastreamento local para aplicativo para dispositivos móveis. [Leia mais](../../administration/using/local-tracking.md)
 
-A seção [Capacidade de delivery](../../sending/using/about-deliverability.md) foi atualizada e agora inclui links para o novo [Manual de práticas recomendadas de capacidade de delivery da Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=pt-BR). Todas as informações genéricas relacionadas à capacidade de delivery que podem ser aplicadas a várias soluções da Adobe foram movidas para o [Apêndice do manual de práticas recomendadas](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=pt-BR#additional-resources).
+A seção [Capacidade de entrega](../../sending/using/about-deliverability.md) foi atualizada e agora inclui links para o novo [Manual de práticas recomendadas de capacidade de entrega da Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=pt-BR). Todas as informações genéricas relacionadas à capacidade de entrega que podem ser aplicadas a várias soluções da Adobe foram movidas para o [Apêndice do manual de práticas recomendadas](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=pt-BR#additional-resources).
 
 ## Versão 21.1 - Fevereiro de 2021 {#release-21-1---february-2021}
 
@@ -211,7 +211,7 @@ A seção sobre como chamar um workflow com parâmetros externos foi aprimorada 
 
 Uma recomendação foi adicionada às práticas recomendadas de workflows no número de atividades a serem usadas por workflow. [Leia mais](../../automating/using/best-practices-workflows.md#number-activities)
 
-Adição de uma nova seção sobre práticas recomendadas de delivery. [Leia mais](../../sending/using/delivery-best-practices.md)
+Adição de uma nova seção sobre práticas recomendadas de entrega. [Leia mais](../../sending/using/delivery-best-practices.md)
 
 Adição de uma seção para descrever os novos filtros que permitem pesquisar as configurações do evento de acordo com seu status e a última vez que um evento foi recebido. [Leia mais](../../channels/using/configuring-transactional-event.md#searching-transactional-events)
 
@@ -265,7 +265,7 @@ Campaign Standard – a integração do Microsoft Dynamics 365 está indisponív
 
 A página de visão geral do Campaign Standard foi enriquecida e reorganizada por temas. [Leia mais](../../start/using/about-campaign-standard.md)
 
-A seção Parâmetros do canal de emails foi esclarecida com informações adicionais sobre os campos de máscaras autorizadas e a ID de relatórios do delivery. [Leia mais](../../administration/using/configuring-email-channel.md)
+A seção Parâmetros do canal de emails foi esclarecida com informações adicionais sobre os campos de máscaras autorizadas e a ID de relatórios da entrega. [Leia mais](../../administration/using/configuring-email-channel.md)
 
 A Configuração de um aplicativo móvel usando SDKs da Adobe Experience Platform está agora disponível na documentação principal, com maiores informações sobre o aplicativo móvel de sincronização AEPSDK, do fluxo de trabalho técnico do Launch. [Leia mais](../../administration/using/configuring-a-mobile-application.md)
 
@@ -303,11 +303,11 @@ A documentação Tipologias e regras de tipologia foi aprimorada e atualizada co
 
 Foram adicionadas informações sobre a ação da atividade **[!UICONTROL Transfer file]**, a ação **[!UICONTROL File listing]**. [Leia mais](../../automating/using/transfer-file.md)
 
-A documentação sobre tentativas após uma falha temporária de delivery foi atualizada com mais detalhes sobre como as tentativas são gerenciadas depois de atualizadas para o MTA aprimorado. [Leia mais](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
+A documentação sobre tentativas após uma falha temporária de entrega foi atualizada com mais detalhes sobre como as tentativas são gerenciadas depois de atualizadas para o MTA aprimorado. [Leia mais](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
 A seção Exclusão de uma mensagem transacional foi aprimorada e esclarecida. [Leia mais](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message)
 
-A seção **Visualização de deliveries** foi atualizada com exemplos de deliveries de publicação de conteúdo para dispositivos móveis. [Leia mais](../../sending/using/previewing-messages.md)
+A seção **Visualização de entregas** foi atualizada com exemplos de entregas de publicação de conteúdo para dispositivos móveis. [Leia mais](../../sending/using/previewing-messages.md)
 
 Foram adicionadas práticas recomendadas em relação a mensagens transacionais e à exclusão de eventos em tempo real não utilizados. [Leia mais](../../channels/using/configuring-transactional-event.md#creating-an-event)
 
@@ -379,17 +379,17 @@ Foram adicionadas informações no guia Working with APIs sobre o novo parâmetr
 
 Uma nova seção que descreve os avisos que podem ser exibidos em um painel de mensagem está disponível. [Leia mais](../../channels/using/message-dashboard.md#warnings)
 
-A documentação do MTA aprimorado do Adobe Campaign, que descreve a infraestrutura de envio atualizada, permitindo avaliação aprimorada do delivery, produtividade e manipulação de rejeição, está disponível. [Leia mais](https://helpx.adobe.com/br/campaign/kb/campaign-enhanced-mta.html)
+A documentação do MTA aprimorado do Adobe Campaign, que descreve a infraestrutura de envio atualizada, permitindo avaliação aprimorada da entrega, produtividade e manipulação de rejeição, está disponível. [Leia mais](https://helpx.adobe.com/br/campaign/kb/campaign-enhanced-mta.html)
 
 Foram adicionadas observações sobre os URLs do servidor de aplicativos e do servidor de mirror pages. Eles devem estar protegidos para que as pré-visualizações de landing page e mirror pages sejam exibidas na interface do Campaign. [Leia mais](../../administration/using/branding.md#configuring-and-using-brands)
 
-A seção Exportar logs foi atualizada para refletir a disponibilidade da ID de log de delivery nos recursos Logs do delivery e Logs de rastreamento. A ID permite exportar um identificador exclusivo para cada log. [Leia mais](../../automating/using/exporting-logs.md)
+A seção Exportar logs foi atualizada para refletir a disponibilidade da ID de log de entrega nos recursos Logs da entrega e Logs de rastreamento. A ID permite exportar um identificador exclusivo para cada log. [Leia mais](../../automating/using/exporting-logs.md)
 
 ## Janeiro de 2020 {#doc-updates-january-2020}
 
-A documentação de Capacidade de delivery foi atualizada com uma nova seção sobre Certificação de IP.<!--[Read more](../../sending/using/ip-certification.md)-->
+A documentação de Capacidade de entrega foi atualizada com uma nova seção sobre Certificação de IP.<!--[Read more](../../sending/using/ip-certification.md)-->
 
-Uma nova seção que descreve como criar um workflow de delivery entre canais está disponível. [Leia mais](../../automating/using/workflow-cross-channel-delivery.md)
+Uma nova seção que descreve como criar um workflow de entrega entre canais está disponível. [Leia mais](../../automating/using/workflow-cross-channel-delivery.md)
 
 A seção Cálculo de indicadores para relatórios dinâmicos foi atualizada. [Leia mais](../../reporting/using/indicator-calculation.md)
 
@@ -405,7 +405,7 @@ A documentação Configuração da conta externa S3 foi atualizada. [Leia mais](
 
 A seção Design de conteúdo de email foi reorganizada. [Leia mais](../../designing/using/designing-content-in-adobe-campaign.md)
 
-O guia de introdução à Avaliação do delivery foi integrado à documentação principal e atualizado. [Leia mais](../../sending/using/about-deliverability.md)
+O guia de introdução à Avaliação da entrega foi integrado à documentação principal e atualizado. [Leia mais](../../sending/using/about-deliverability.md)
 
 O guia de introdução sobre como exportar/importar recursos personalizados foi integrado à documentação principal. [Leia mais](../../automating/using/exporting-importing-custom-resources.md)
 
@@ -497,7 +497,7 @@ O Guia de implementação do Campaign Standard agora está ativo.[Leia mais](htt
 
 Um conjunto de novos artigos de ajuda foi criado sobre a implementação e o uso do conector do Microsoft Dynamics 365. Observe que esse recurso está atualmente com a Disponibilidade limitada.[Leia mais](../../integrating/using/d365-acs-get-started.md)
 
-Uma observação foi adicionada na seção [Chamado de workflow com parâmetros](../../automating/using/calling-a-workflow-with-external-parameters.md) sobre a preparação do delivery e o período de agregação.
+Uma observação foi adicionada na seção [Chamado de workflow com parâmetros](../../automating/using/calling-a-workflow-with-external-parameters.md) sobre a preparação da entrega e o período de agregação.
 
 Foram adicionadas informações sobre como personalizar um rótulo de entrega com variáveis de evento declaradas na atividade de sinal externo do fluxo de trabalho. [Leia mais](../../automating/using/external-signal.md)
 
@@ -529,7 +529,7 @@ Uma nova página sobre limitações de landing pages foi adicionada. [Leia mais]
 
 Um caso de uso sobre como chamar um perfil usando uma chave de identificação composta foi adicionado. [Leia mais](../../developing/using/uc-calling-resource-id-key.md)
 
-Uma recomendação foi adicionada sobre o uso de deliveries recorrentes sem período de agregação ao chamar um workflow com parâmetros. [Leia mais](../../automating/using/calling-a-workflow-with-external-parameters.md)
+Uma recomendação foi adicionada sobre o uso de entregas recorrentes sem período de agregação ao chamar um workflow com parâmetros. [Leia mais](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
 A lista de mensagens de erro do Campaign Standard e do Campaign Classic foi atualizada. [Leia mais](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=pt-BR)
 
@@ -743,7 +743,7 @@ O guia Usuários e Segurança foi atualizado para refletir a depreciação do re
 
 **Novos recursos incluídos na versão**
 
-A documentação da API foi atualizada com informações sobre a API do **Histórico**. Um caso de uso foi adicionado sobre como recuperar a mirror page de um delivery enviado a um perfil. [Leia mais](../../api/using/interacting-with-marketing-history.md)
+A documentação da API foi atualizada com informações sobre a API do **Histórico**. Um caso de uso foi adicionado sobre como recuperar a mirror page de uma entrega enviado a um perfil. [Leia mais](../../api/using/interacting-with-marketing-history.md)
 
 **Outras atualizações de documentação incluídas na versão**
 
@@ -753,7 +753,7 @@ Um caso de uso foi adicionado sobre como criar passo a passo uma dimensão de pe
 
 A documentação Trabalho com o Campaign e o Audience Manager ou o serviço principal Pessoas. [Leia mais](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
-Atualização da definição da função Preparar deliveries. [Leia mais](../../administration/using/list-of-roles.md)
+Atualização da definição da função Preparar entregas. [Leia mais](../../administration/using/list-of-roles.md)
 
 Foi adicionado um exemplo na seção de atividade de consulta sobre como direcionar perfis que clicaram em um link específico de uma entrega. [Leia mais](../../automating/using/query-samples.md#targeting-profiles-who-clicked-a-specific-link-)
 
@@ -765,9 +765,9 @@ Adicionada uma seção na documentação da API relacionada aos **filtros person
 
 GDPR: Integração de serviço principal - [Leia mais](../../start/using/privacy-management.md)
 
-Aprimoramentos de Notificações por push - feedback detalhado do delivery - [Leia mais](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
+Aprimoramentos de Notificações por push - feedback detalhado da entrega - [Leia mais](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
 
-Extensão Logs do delivery - [Leia mais](../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension)
+Extensão Logs da entrega - [Leia mais](../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension)
 
 Relatórios dinâmicos com Dados de perfil personalizados - [Leia mais](../../channels/using/creating-a-multilingual-push-notification.md)
 
@@ -779,7 +779,7 @@ Foram adicionadas informações sobre a opção Licenças no menu Administraçã
 
 Foram adicionadas informações sobre como usar campos personalizados em uma notificação por push. [Leia mais](../../channels/using/customizing-a-push-notification.md#add-custom-fields)
 
-Atualização do guia passo a passo de práticas recomendadas do delivery. [Leia mais](../../sending/using/delivery-best-practices.md)
+Atualização do guia passo a passo de práticas recomendadas da entrega. [Leia mais](../../sending/using/delivery-best-practices.md)
 
 Foram adicionadas informações sobre tipos de logs de rastreamento. [Leia mais](../../sending/using/tracking-messages.md#tracking-logs)
 
@@ -801,7 +801,7 @@ Regulamento Geral sobre a Proteção de Dados da União Europeia (GDPR) - [Leia 
 
 Creative Designer para Email - [Leia mais](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Deliveries de push multilíngues - [Leia mais](../../channels/using/creating-a-multilingual-push-notification.md)
+Entregas de push multilíngues - [Leia mais](../../channels/using/creating-a-multilingual-push-notification.md)
 
 Uso de recursos personalizados em mensagens transacionais - [Leia mais](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)
 
@@ -815,7 +815,7 @@ A seção [Configuração de mensagens transacionais](../../channels/using/confi
 
 Uma nota técnica foi adicionada sobre como gerar um arquivo CSV multilíngue para usar nas notificações por push. [Leia mais](https://helpx.adobe.com/br/campaign/kb/acs-generate-csv-multilingual-push.html).
 
-Foram adicionadas informações sobre o template de importação **Atualização de quarentenas de correspondência direta e logs do delivery**. [Leia mais](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
+Foram adicionadas informações sobre o template de importação **Atualização de quarentenas de correspondência direta e logs da entrega**. [Leia mais](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
 
 A lista do fluxos de trabalho técnicos foi atualizada. [Leia mais](../../administration/using/technical-workflows.md)
 
@@ -839,7 +839,7 @@ A maioria dos URLs para integrações do Campaign e das soluções Adobe foi alt
 
 O datamodel v1 agora está disponível com a estrutura SQL para recursos incorporados - [Leia mais](../../developing/using/datamodel-introduction.md)
 
-Foram adicionadas informações sobre como preparar uma mensagem em um delivery [Leia mais](../../sending/using/preparing-the-send.md)
+Foram adicionadas informações sobre como preparar uma mensagem em uma entrega [Leia mais](../../sending/using/preparing-the-send.md)
 
 As notas de versão foram reorganizadas em várias páginas para que você obtenha uma visualização mais global de todas as diferentes versões.
 
@@ -853,19 +853,19 @@ Uma nova atividade está disponível nos fluxos de trabalho: a atividade **[!UIC
 
 A atividade **[!UICONTROL Subscription Services]** foi atualizada para ser compatível com mais casos de uso, incluindo o uso de um único arquivo para atualizar assinaturas para vários serviços. [Leia mais](../../automating/using/subscription-services.md)
 
-Adicionado um caso de uso passo a passo sobre como preparar um delivery. [Leia mais](../../sending/using/preparing-the-send.md)
+Adicionado um caso de uso passo a passo sobre como preparar uma entrega. [Leia mais](../../sending/using/preparing-the-send.md)
 
 A seção que inclui a lista de autorizações foi retirada. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF).
 
 Um caso de uso passo a passo foi adicionado sobre como usar a resposta automática do SMS. [Leia mais](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
-Foram adicionadas informações sobre como enviar um delivery dependendo dos fusos horários dos usuários em um workflow recorrente. [Leia mais](../../automating/using/recurring-push-notifications.md)
+Foram adicionadas informações sobre como enviar uma entrega dependendo dos fusos horários dos usuários em um workflow recorrente. [Leia mais](../../automating/using/recurring-push-notifications.md)
 
 A seção **[!UICONTROL Customizing a push notification]** foi reorganizada com casos de uso passo a passo. [Leia mais](../../channels/using/customizing-a-push-notification.md)
 
 Nova seção dedicada ao gerenciamento de lista de bloqueios. [Leia mais](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
-Informações sobre falhas de delivery e quarentenas foram atualizadas. [Leia mais](../../sending/using/monitoring-a-delivery.md)
+Informações sobre falhas de entrega e quarentenas foram atualizadas. [Leia mais](../../sending/using/monitoring-a-delivery.md)
 
 Novas seções dedicadas a [mapeamentos de público-alvo](../../administration/using/target-mappings-in-campaign.md) e [targeting dimensions e recursos](../../automating/using/query.md#targeting-dimensions-and-resources).
 
@@ -879,7 +879,7 @@ Compartilhamento de relatórios - [Leia mais](../../reporting/using/reporting-in
 
 Melhorias nas notificações por push - Leia mais [aqui](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification) e [aqui](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios)
 
-Deliveries otimizados para fuso horários - [Leia mais](../../automating/using/scheduler.md)
+Entregas otimizadas para fuso horários - [Leia mais](../../automating/using/scheduler.md)
 
 Acionamento da atividade de Sinal da API - [Leia mais](../../api/using/triggering-a-signal-activity.md)
 
@@ -919,7 +919,7 @@ Definição de conta externa e amostras foram atualizadas. [Leia mais](../../adm
 
 Várias capturas de tela foram atualizadas para refletir as alterações nas categorias do Editor de consultas.
 
-A seção de [Alertas de delivery](../../sending/using/receiving-alerts-when-failures-happen.md) foi movida e reorganizada.
+A seção de [Alertas de entrega](../../sending/using/receiving-alerts-when-failures-happen.md) foi movida e reorganizada.
 
 A seção Recursos personalizados foi esclarecida com um procedimento mais detalhado sobre como [definir filtros](../../developing/using/configuring-filter-definition.md).
 
@@ -963,7 +963,7 @@ A seção sobre a personalização da fonte de imagem foi atualizada. [Leia mais
 
 Foi adicionada uma documentação no relatório de perfis ativos. [Leia mais](../../audiences/using/active-profiles.md)
 
-A documentação [Alerta de deliveries](../../sending/using/receiving-alerts-when-failures-happen.md#delivery-alerting-reasons) foi atualizada com uma seção de solução de problemas que apresenta dicas sobre as ações que você pode tomar ao receber alertas.
+A documentação [Alerta de entregas](../../sending/using/receiving-alerts-when-failures-happen.md#delivery-alerting-reasons) foi atualizada com uma seção de solução de problemas que apresenta dicas sobre as ações que você pode tomar ao receber alertas.
 
 Um novo guia de introdução está disponível: ele apresenta algumas práticas recomendadas que podem ser usadas para fazer entregas com o Adobe Campaign, desde a criação e o direcionamento até o envio e o monitoramento. [Leia mais](../../sending/using/delivery-best-practices.md)
 
@@ -975,17 +975,17 @@ Novas funções de criptografia e hash forma adicionadas com exemplos. [Leia mai
 
 A seção sobre a atividade do workflow Transferir arquivo foi atualizada. [Leia mais](../../automating/using/transfer-file.md)
 
-Informações foram adicionadas na opção “Solicitar confirmação antes de enviar mensagens”, na atividade do workflow Delivery de email. [Leia mais](../../automating/using/email-delivery.md)
+Informações foram adicionadas na opção “Solicitar confirmação antes de enviar mensagens”, na atividade do workflow Entrega de email. [Leia mais](../../automating/using/email-delivery.md)
 
 ## Versão 17.7 - Julho de 2017 {#release-17-7---july-2017}
 
 **Novos recursos incluídos na versão**
 
-Deliveries multilíngues (Email e SMS) - [Leia mais](../../channels/using/creating-a-multilingual-email.md)
+Entregas multilíngues (Email e SMS) - [Leia mais](../../channels/using/creating-a-multilingual-email.md)
 
 Notificações do Adobe Campaign - [Leia mais](../../administration/using/sending-internal-notifications.md)
 
-Alertas de deliveries - [Leia mais](../../sending/using/receiving-alerts-when-failures-happen.md)
+Alertas de entregas - [Leia mais](../../sending/using/receiving-alerts-when-failures-happen.md)
 
 ID declarada criptografada em fontes de dados - [Leia mais](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
@@ -1049,7 +1049,7 @@ Integração do Dreamweaver ativa - [Leia mais](https://experienceleague.adobe.c
 
 Seção adicionada sobre os diferentes tipos de usuários do Adobe Campaign. [Leia mais](../../administration/using/users-management.md)
 
-O guia Workflow foi reorganizado e estendido. Descubra facilmente como [criar](../../automating/using/building-a-workflow.md) e [executar](../../automating/using/about-workflow-execution.md) um fluxo de trabalho, como [segmentar](../../automating/using/about-targeting-activities.md) e [gerenciar](../../automating/using/about-targeting-activities.md#enriching-data) os dados, como [importar e exportar](../../automating/using/about-data-import-and-export.md) dados e como usar os dados do workflow para atualizar o banco de dados ou enviar deliveries.
+O guia Workflow foi reorganizado e estendido. Descubra facilmente como [criar](../../automating/using/building-a-workflow.md) e [executar](../../automating/using/about-workflow-execution.md) um fluxo de trabalho, como [segmentar](../../automating/using/about-targeting-activities.md) e [gerenciar](../../automating/using/about-targeting-activities.md#enriching-data) os dados, como [importar e exportar](../../automating/using/about-data-import-and-export.md) dados e como usar os dados do workflow para atualizar o banco de dados ou enviar entregas.
 
 O cálculo do indicador de relatórios agora está disponível para relatórios dinâmicos, incluindo descrição completa e fórmula de cálculo. [Leia mais](../../reporting/using/indicator-calculation.md)
 
