@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
 source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1201'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Esta versão vem com a seguinte atualização de segurança: O Apache Tomcat foi
 * **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
 -->
 
-* **Acessibilidade** - O Adobe fez muitas correções de acessibilidade para melhorar a facilidade geral de uso do aplicativo. No momento, esses recursos estão habilitados apenas para alguns participantes iniciais e serão implantados para todos os clientes em versões futuras. Exemplos de melhorias de acessibilidade:
+* **Acessibilidade**: a Adobe fez várias correções de acessibilidade para melhorar a facilidade de uso geral do aplicativo. No momento, esses recursos estão habilitados apenas para alguns participantes iniciais e serão implantados para todos os clientes em versões futuras. Exemplos de melhorias de acessibilidade:
 
    * Garantia de que haja um indicador de foco visível para elementos focalizáveis em cada tela
    * Criação de pontos de referência de página para facilitar a navegação
@@ -111,7 +111,7 @@ Esta versão vem com a seguinte atualização de segurança: O Apache Tomcat foi
 * Correção de um erro que exibia uma mensagem de erro ao tentar usar um fragmento em uma entrega com uma vírgula em seu nome. [Saiba mais](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time) (CAMP-48888)
 * Correção de um problema que ocorria ao criar um novo filtro em um recurso personalizado e depois usá-lo como uma chave de reconciliação em uma landing page. Se o recurso personalizado fosse publicado novamente, o filtro era removido da lista de chaves de reconciliação disponíveis para a landing page. (CAMP-49516)
 * Correção de um problema nas landing pages ao usar condições dinâmicas com caixas de seleção. (CAMP-48604)
-* Correção de um problema que ocorria em uma **Query** atividade ao usar a condição de filtro &quot;Em ou antes de outubro&quot;. Ao trabalhar de uma instância definida para um fuso horário europeu, o mês selecionado para o filtro mostrava setembro em vez de outubro, devido a um problema na conversão do fuso horário. (CAMP-48602)
+* Correção de um problema que ocorria em uma atividade de **Consulta** ao usar a condição de filtro “Em ou antes de outubro”. Ao trabalhar de uma instância definida para um fuso horário europeu, o mês selecionado para o filtro mostrava setembro em vez de outubro, devido a um problema na conversão do fuso horário. (CAMP-48602)
 * Para otimizar a entregabilidade, o Adobe Campaign agora envia emails usando codificação de 7 bits em vez de 8 bits. Isso impede que retransmissões intermediárias invalidem a assinatura DKIM, o que pode afetar a autenticidade das mensagens. (CAMP-49016)
 * Os desempenhos ao duplicar públicos foram aprimorados para evitar problemas ao trabalhar com públicos grandes. (CAMP-49639)
 * Correção de um problema que impedia que um filtro personalizado exibisse os resultados corretos quando usado em uma atividade de **Consulta**. (CAMP-49417)
