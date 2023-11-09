@@ -7,22 +7,22 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 870b01f118974ed62755dd79143b990cfa2e4e85
+source-git-commit: 6d1a5cb1d467d7d74fe41e66125fe0fcbf2e3d9b
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
 
 # Alterações futuras no Canal de notificação por push {#push-upgrade}
 
-Esta página descreve as próximas alterações no Android e no Canal de notificação por push do iOS na Adobe Campaign Standard.
-
 Há atualizações importantes sobre alterações futuras no Canal de notificação por push em dispositivos Android e iOS que podem afetar a implementação do Adobe Campaign Standard.
 
 ## Android {#push-android}
 
-Como parte do esforço contínuo da Google em melhorar seus serviços, a Google está fazendo alterações no protocolo HTTP do Firebase Cloud Messaging. Como resultado, as &quot;APIs herdadas HTTP&quot; do Firebase Cloud Messaging, que foram descontinuadas em 20 de junho de 2023, serão substituídas por &quot;APIs HTTP v1&quot; em junho de 2024. https://firebase.google.com/docs/cloud-messaging/http-server-ref). Atualmente, a Adobe Campaign Standard está usando APIs HTTP herdadas para enviar mensagens de notificação por push do Android e fará alterações nos próximos meses para atualizar para as APIs HTTP v1. Mais informações sobre essas alterações serão fornecidas à medida que o Adobe funcionar nessas atualizações.
+Como parte do esforço contínuo da Google para melhorar seus serviços, a Google está fazendo alterações em seus [Protocolo HTTP do Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/http-server-ref). Como resultado, as &quot;APIs herdadas HTTP&quot; do Firebase Cloud Messaging, que foram descontinuadas em 20 de junho de 2023, serão substituídas por &quot;APIs HTTP v1&quot; em junho de 2024.
+
+Atualmente, a Adobe Campaign Standard está usando APIs HTTP herdadas para enviar mensagens de notificação por push do Android e fará alterações nos próximos meses para atualizar para as APIs HTTP v1. Mais informações sobre essas alterações serão fornecidas à medida que o Adobe funcionar nessas atualizações.
 
 ## iOS {#push-ios}
 
