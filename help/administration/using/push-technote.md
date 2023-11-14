@@ -2,12 +2,12 @@
 title: Alterações futuras no Canal de notificação por push
 description: Alterações futuras no Canal de notificação por push
 audience: channels
-feature: Instance Settings
+feature: Push
 role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: f9a0d01196ac4c31e57ae14cdfa448a9ffd6106f
+source-git-commit: 9b7b127d92628169249c64ce85147d530b32a2cc
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 1%
