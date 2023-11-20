@@ -9,9 +9,9 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 2d3ef53d5ea5603d90da169366be6ea516d96823
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '755'
 ht-degree: 67%
 
 ---
@@ -41,7 +41,7 @@ Como você está configurando e publicando eventos transacionais, algumas etapas
 
 ## Número de mensagens transacionais {#transactional-message-number}
 
-O número de mensagens transacionais publicadas pode ter um impacto significativo na sua plataforma. Para um desempenho ideal, o número de mensagens transacionais publicadas deve permanecer abaixo de 100. Para garantir isso, cancele a publicação ou exclua todas as mensagens transacionais não usadas. Consulte [Cancelamento de publicação de uma mensagem transacional](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) e [Exclusão de uma mensagem transacional](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
+O número de mensagens transacionais publicadas pode ter um impacto significativo na sua plataforma. Para um desempenho ideal, o número de mensagens transacionais publicadas deve permanecer abaixo de 100, caso contrário, poderá ocorrer degradação do desempenho. Para garantir isso, cancele a publicação ou exclua todas as mensagens transacionais não usadas para atender à proteção mencionada acima. Consulte [Cancelamento de publicação de uma mensagem transacional](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) e [Exclusão de uma mensagem transacional](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
 
 Para garantir o melhor desempenho, também é possível cancelar a publicação ou excluir eventos não utilizados. Na verdade, desfazer a publicação ou excluir um evento também desfará a publicação ou excluirá as mensagens transacionais correspondentes e os respectivos logs de rastreamento e envio, se houver. Consulte [Desfazer a publicação de um evento](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) e [Excluir um evento](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
