@@ -8,9 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '572'
 ht-degree: 1%
 
 ---
@@ -59,21 +59,13 @@ Para isso, siga o procedimento abaixo:
 
    ![](assets/adobeIO2.png)
 
-1. Selecione a API do Adobe Campaign (talvez seja necessário rolar para a parte inferior) e clique em **[!UICONTROL Next]**.
+1. Selecione o Adobe Campaign e clique em **[!UICONTROL Next]**.
 
    ![](assets/adobeIO3.png)
 
-1. Na próxima tela, você terá a opção de fazer upload de sua própria chave pública ou permitir que o Adobe Developer gere o par de chaves para você. Estas instruções seguirão a última opção. Se você decidir permitir que o Adobe Developer gere o par de chaves, clique na opção 1; em seguida, clique no link **[!UICONTROL Generate keypair]** botão.
+1. Na próxima tela, você terá a opção de escolher o tipo de autenticação. Você pode escolher Servidor para servidor OAuth ou Conta de serviço (JWT). Observe que as credenciais da Conta de serviço (JWT) não são mais recomendadas para novos projetos e foram substituídas em favor das credenciais de servidor para servidor do OAuth mais recentes. As instruções fornecidas neste guia serão aplicadas apenas à autenticação de servidor para servidor do OAuth.
 
    ![](assets/adobeIO4.png)
-
-1. Na próxima tela, você será solicitado a nomear e selecionar o local de download do arquivo zip do par de chaves.
-
-Após o download, você pode descompactar o arquivo para revelar as chaves públicas e privadas. A Adobe Developer já aplicou a chave pública ao projeto do Adobe Developer. Será necessário reter a chave privada para depois; a chave privada será usada durante a configuração de pré-integração da ferramenta de integração.
-
-1. Clique em **[!UICONTROL Next]** para continuar
-
-   ![](assets/adobeIO5.png)
 
 1. Na próxima tela, você selecionará perfis de produto para associar a este projeto. Selecione o perfil de produto que contém no título: A ID do locatário da instância do Campaign - [!UICONTROL Administrators]
 
@@ -81,11 +73,11 @@ Após o download, você pode descompactar o arquivo para revelar as chaves públ
 
 1. Clique em **[!UICONTROL Save configured API]**.
 
-   ![](assets/adobeIO6.png)
+   ![](assets/adobeIO5.png)
 
 1. Na próxima tela, você verá os detalhes do novo projeto do Adobe Developer. Clique em **[!UICONTROL Add to Project]** no canto superior esquerdo da tela e selecione **API** no menu suspenso.
 
-   ![](assets/adobeIO7.png)
+   ![](assets/adobeIO6.png)
 
 1. Na próxima tela, será necessário selecionar a API de Eventos de E/S e clicar em **[!UICONTROL Next]**.
 
@@ -103,8 +95,7 @@ A configuração da pré-integração no Campaign está concluída.
 
 * [Configurar o Adobe Developer para integração com o Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) é a próxima etapa na configuração da integração do
 * [Visão Geral da Aplicação Self-Service de Integração](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) A contém a lista completa de etapas para ativar a integração.
-
-
 * [Adobe Developer - Integração de contas de serviço](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard - Configuração de acesso à API](../../api/using/setting-up-api-access.md)
 * [Campaign Standard - Integração com o Dynamics 365](../../integrating/using/d365-acs-configure-d365.md)
+* [Migrar credenciais do JWT para o servidor do OAuth](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) contém as etapas para migrar credenciais do JWT para o servidor do OAuth.

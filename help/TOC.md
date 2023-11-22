@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Centro de ajuda para os principais recursos, tarefas, configurações e outros recursos necessários para usar o Campaign Standard.
 title: Manual do Campaign Standard
 breadcrumb-title: Documentação do Adobe Campaign Standard
-source-git-commit: 870b01f118974ed62755dd79143b990cfa2e4e85
+source-git-commit: 01ac9b91a5b4af445bdd6209a0b9494731a47362
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1768'
 ht-degree: 99%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 99%
       + [Perguntas frequentes sobre privacidade](start/using/privacy-faq.md)
    + [Opções de ajuda e suporte](support.md)
 + Perfis e públicos {#profiles-and-audiences}
-   + [Introdução a perfis e públicos](audiences/using/get-started-profiles-and-audiences.md)
+   + [Introdução a perfis e públicos-alvo](audiences/using/get-started-profiles-and-audiences.md)
    + Gerenciamento de perfis {#managing-profiles}
       + [Sobre perfis](audiences/using/about-profiles.md)
       + [Criação de perfis](audiences/using/creating-profiles.md)
@@ -269,6 +269,7 @@ ht-degree: 99%
          + [Conectar sistemas com o aplicativo de integração](integrating/using/d365-acs-self-service-app-settings.md)
          + [Gerenciar workflows de sincronização](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Mapear dados entre o Microsoft Dynamics 365 e o Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
+         + [Migrar credenciais do JWT para o servidor do OAuth](integrating/using/d365-acs-self-service-app-migrate-credentials.md)
       + [Usar a integração com o Microsoft Dynamics 365](integrating/using/d365-acs-using-the-integration.md)
    + Campaign e Adobe Experience Platform {#adobe-experience-platform}
       + [Introdução a origens e destinos](integrating/using/get-started-sources-destinations.md)
@@ -405,7 +406,7 @@ ht-degree: 99%
       + [Extensão das subscrições para um recurso de aplicativo](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + Modelo de dados {#datamodel}
       + [Introdução](developing/using/datamodel-introduction.md)
-      + [Público](developing/using/datamodel-audience.md)
+      + [Público-alvo](developing/using/datamodel-audience.md)
       + [Campaign](developing/using/datamodel-campaign.md)
       + [Entrega](developing/using/datamodel-delivery.md)
       + [Landing pages](developing/using/datamodel-landingpage.md)

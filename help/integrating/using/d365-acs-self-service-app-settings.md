@@ -8,10 +8,10 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 4%
+source-wordcount: '670'
+ht-degree: 5%
 
 ---
 
@@ -39,11 +39,10 @@ As Credenciais do Microsoft Dynamics 365 dão ao aplicativo de integração perm
 
 As credenciais do Adobe Campaign são geradas usando [Adobe I/O](https://www.adobe.io/). Você precisará visitar a tela [Configurar Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) e siga as instruções antes de poder preencher as entradas nesta seção.
 
-A imagem a seguir explicará em detalhes o mapeamento entre o Adobe I/O e as entradas da tela de configurações.
+* Selecione o Tipo de autenticação como Oauth já que a autenticação baseada em JWT está obsoleta.
+* A imagem a seguir explicará em detalhes o mapeamento entre o Adobe I/O e as entradas da tela de configurações.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
-
-* *Chave privada*: o processo para definir isso começa clicando no botão &quot;Gerar par de chaves públicas/privadas&quot;. Isso criará um arquivo zip que você deve baixar. Depois de baixá-lo, descompacte o arquivo, que resultará em dois arquivos chamados certificate_pub.crt e private.key. Certifique-se de colocar a chave privada em um local seguro e não a compartilhe. Abra o arquivo private.key em um editor de texto. Copie o valor inteiro no editor de texto (ctrl-A e ctrl-C em um PC ou cmd-A e cmd-C em uma Mac). Isso deve incluir as linhas com &quot;BEGIN PRIVATE KEY&quot; e &quot;END PRIVATE KEY&quot; em sua totalidade. Cole esse texto inteiro em várias linhas na entrada &quot;Private Key&quot; na tela Settings.
 
 * *URL*: este valor se ajustará ao padrão https\://mc.adobe.io/&lt;campaign-instance-name>. O cabeçalho do aplicativo de integração inclui &quot;Org&quot; e &quot;Instance&quot;. A parte &quot;campaign-instance-name&quot; do url seria simplesmente o nome encontrado nesse valor de instância.
 
