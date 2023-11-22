@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 59404b16e145ded31bf3a374adf4087f6d1817c6
-workflow-type: ht
-source-wordcount: '7299'
-ht-degree: 100%
+source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
+workflow-type: tm+mt
+source-wordcount: '7336'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,9 @@ Além das [Notas de versão](../../rn/using/release-notes.md) do Adobe Campaign,
 
 ## Versão 23.2 - outono/inverno de 2023 {#release-23-2}
 
-As notas da versão 23.2 (versão de outono/inverno de 2023) do Campaign Standard foram publicadas. [Leia mais](release-notes.md)
+* As notas da versão 23.2 (versão de outono/inverno de 2023) do Campaign Standard foram publicadas. [Leia mais](release-notes.md)
+
+* O JWT (JSON Web Tokens) está atualmente no processo de depreciação e está sendo substituído pelo OAuth. A transição está sendo realizada progressivamente nas próximas versões do Campaign e a documentação será atualizada para refletir essas atualizações.
 
 ## Outubro de 2023 {#doc-updates-oct-2023}
 
@@ -29,7 +31,6 @@ As notas da versão 23.2 (versão de outono/inverno de 2023) do Campaign Standar
 ## Versão 23.1 - Primavera/verão de 2023 {#release-23-1}
 
 As notas da versão 23.1 (lançamento de primavera/verão de 2023) do Campaign Standard foram publicadas. [Leia mais](release-notes.md)
-
 
 ## Novembro de 2022 {#doc-updates-november-2022}
 
