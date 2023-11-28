@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 78%
+source-wordcount: '1260'
+ht-degree: 77%
 
 ---
 
@@ -77,7 +77,7 @@ Três guias ajudam a encontrar ajuda e assistência:
    * a **[!UICONTROL Learning]** link que permite acessar a biblioteca de cursos do Adobe Campaign.
    * a **[!UICONTROL Community]** link para acessar o fórum dedicado às suas perguntas sobre o Campaign.
    * um acesso direto a: Centro de ajuda, Atendimento ao cliente, status do produto Experience Cloud, conexão de desenvolvedores, Notas de versão, Planejamento de versão e a **[!UICONTROL About]** tela.
-1. A variável **[!UICONTROL Support]** permite abrir um caso de suporte e entrar em contato conosco por telefone ou Twitter.
+1. A variável **[!UICONTROL Support]** A guia permite abrir um caso de suporte e entrar em contato conosco por telefone ou X (anteriormente conhecido como Twitter).
 1. A variável **[!UICONTROL Feedback]**  facilita relatar problemas ou compartilhar ideias.
 
 ## Menu avançado {#advanced-menu}
@@ -134,7 +134,7 @@ O conteúdo e o formato de exibição da zona central podem variar:
 
   ![](assets/ux_dashboard.png)
 
-* Se várias ofertas forem possíveis ao criar um elemento, uma **tela de seleção** permitirá que você selecione o tipo de elemento que será adicionado (campanhas, deliveries). Com essa tela de seleção também é possível acessar os relatórios.
+* Se várias ofertas forem possíveis ao criar um elemento, uma **tela de seleção** permitirá que você selecione o tipo de elemento que será adicionado (campanhas, entregas). Com essa tela de seleção também é possível acessar os relatórios.
 
   ![](assets/ux_activityselection.png)
 
