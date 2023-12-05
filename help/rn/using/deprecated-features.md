@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 99a2ae8b383d5a8437882be065781a2317b88bfe
+source-git-commit: 70a30f5df33af3faaaa564903de60ca45f96899c
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 61%
+source-wordcount: '882'
+ht-degree: 58%
 
 ---
 
@@ -34,6 +34,26 @@ Esta seção lista os recursos e funcionalidades marcados como obsoletos nas ver
 Geralmente, os recursos que estão planejados para serem removidos em uma versão futura são definidos como obsoletos primeiro, com uma alternativa fornecida. Esses recursos e funcionalidades não estão mais disponíveis para novos clientes do Campaign Standard ou não devem ser usados para novas implementações. Eles também foram removidos da documentação do produto.
 
 Os clientes são aconselhados a revisar se utilizam o recurso/funcionalidade em sua implantação atual e a fazer planos para alterar sua implementação para usar a alternativa fornecida. Consulte a versão de remoção de público alvo para planejar de modo adequado suas atualizações de ambiente e de projeto.
+
+
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>SDK V4 para aplicativos móveis</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>O suporte aos SDKs do Adobe Experience Platform Mobile versão 4 terminou em 31 de agosto de 2021. Se você ainda estiver usando essa versão herdada do SDK no Adobe Campaign Standard, deverá atualizar sua implementação com o SDK da Adobe Experience Platform <strong>antes do final de junho de 2024</strong>. </p></br>
+   <p>Ler <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">este artigo</a> para saber como adaptar sua implementação e migrar para o SDK do Experience Platform mais recente.</p></br>
+   <p><strong>Cuidado</strong>: o SDK V4 não será mais compatível com o Campaign Standard a partir do final de junho de 2024.</p>
+  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
 
 
 <table> 
@@ -124,7 +144,7 @@ Esta seção lista os recursos e funcionalidades removidos do Campaign Standard.
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>A partir da versão 21.2 do Campaign, o uso da API e da interface do Campaign para solicitações de acesso e exclusão se tornará obsoleto. A exclusão do perfil de 2 etapas não está mais disponível. Use o <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">serviço principal de privacidade da Adobe</a>.</p></br>
+   <td> <p>A partir da versão 21.2 do Campaign, o uso da API e da interface do Campaign para solicitações de acesso e exclusão se tornará obsoleto. A exclusão do perfil de 2 etapas não está mais disponível. Uso <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Serviço principal de privacidade do Adobe</a>.</p></br>
    <p>Consulte também o <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html">Gerenciamento de solicitações de acesso a dados pessoais</a>.</p>
   </td> 
   </tr> 
