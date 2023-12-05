@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
-source-git-commit: 3b2f8d9b2b7a4ec9532917af3a0880400d98e636
+source-git-commit: 620ae1adc6f804e90c10daeb5fa4df42ce106885
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1237'
 ht-degree: 1%
 
 ---
@@ -16,17 +16,16 @@ ht-degree: 1%
 # Como migrar seu aplicativo para dispositivos móveis do SDK v4 para o SDK da Adobe Experience Platform {#sdkv4-migration}
 
 
-O suporte para os SDKs do Adobe Experience Platform Mobile versão 4 terminou a partir de **31 de agosto de 2021**. Saiba como migrar para o SDK da Adobe Experience Platform neste artigo.
+O suporte aos SDKs do Adobe Experience Platform Mobile versão 4 terminou em 31 de agosto de 2021. Se você ainda estiver usando essa versão herdada do SDK, deverá atualizar sua implementação com o Adobe Experience Platform SDK **antes do final de junho de 2024**. Saiba como migrar para o SDK da Adobe Experience Platform neste artigo.
 
 >[!IMPORTANT]
->
-> O processo de migração é irreversível.
 >
 > Leia o documento atentamente antes de iniciar a migração do aplicativo para dispositivos móveis do SDK V4 para o SDK do Adobe Experience Platform.
 
 ## Sobre a migração do SDK V4
 
 A Adobe Campaign Standard processa aplicativos móveis usando o SDK V4 como aplicativos separados daqueles que usam o SDK da Adobe Experience Platform.
+
 Depois de atualizar a versão do SDK do Adobe da v4 para o Adobe Experience Platform, os aplicativos móveis precisam continuar usando os dados e campanhas existentes do assinante de aplicativos: portanto, é necessária uma migração.
 
 >[!NOTE]
