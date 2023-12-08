@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 3%
+source-wordcount: '1220'
+ht-degree: 2%
 
 ---
 
@@ -50,7 +50,7 @@ Esta etapa permite que o usuário faça logon na interface da Coleção de dados
 
 1. Na interface da Coleção de dados, clique na guia **[!UICONTROL Extensions]** , acesse **[!UICONTROL Catalog]** e pesquise por **[!UICONTROL Adobe Campaign Standard]** extensão. Para obter mais informações, consulte [Adobe Campaign Standard](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
-1. Para obter suporte a casos de uso de localização no Campaign Standard, instale o **[!UICONTROL Places]** na interface da Coleção de dados. Consulte esta [página](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+1. Para obter suporte a casos de uso de localização no Campaign Standard, instale o **[!UICONTROL Places]** na interface da Coleção de dados. Consulte esta [página](https://developer.adobe.com/client-sdks/solution/places).
 
 1. No Adobe Campaign Standard, configure a propriedade móvel que você criou na interface da coleção de dados. Consulte [Configuração do aplicativo Adobe Experience Platform Launch no Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 

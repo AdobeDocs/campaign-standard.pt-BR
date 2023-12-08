@@ -8,10 +8,10 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 3%
+source-wordcount: '1252'
+ht-degree: 2%
 
 ---
 
@@ -27,7 +27,7 @@ Os aplicativos móveis usados para coletar dados de localização devem ser conf
 
 Para usar os Serviços de localização da Adobe Experience Platform com aplicativos móveis configurados com o SDK do Adobe Experience Platform, é necessário:
 
-1. Adicione o **[!UICONTROL Places]** extensão para a configuração do aplicativo móvel na interface da Coleção de dados. Configure seu aplicativo móvel no Adobe Campaign. Consulte [Instalar a extensão Places](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch).
+1. Adicione o **[!UICONTROL Places]** extensão para a configuração do aplicativo móvel na interface da Coleção de dados. Configure seu aplicativo móvel no Adobe Campaign. Consulte [Instalar a extensão Places](https://developer.adobe.com/client-sdks/solution/places).
 
 1. Depois que suas extensões forem configuradas, crie elementos de dados na interface da Coleção de dados para recuperar dados dessas extensões. Consulte esta [página](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) para criar seus elementos de dados.
 
@@ -103,7 +103,7 @@ Você deve ter acesso ao Adobe Analytics para fazer a seguinte configuração. S
    * No **[!UICONTROL URL]** , copie o **[!UICONTROL Collect PII Endpoint]** URL do aplicativo móvel que você configurou na interface do Adobe Campaign, precedido pelo nome do servidor. Consulte [Configuração de um aplicativo móvel no Campaign](#setting-up-a-mobile-app-in-campaign).
    * Preencha o **[!UICONTROL Post Body]** do seguinte modo:
 
-     Para iOS:
+     Para o iOS:
 
      ```
      {

@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
-workflow-type: ht
-source-wordcount: '7336'
-ht-degree: 100%
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+workflow-type: tm+mt
+source-wordcount: '7211'
+ht-degree: 99%
 
 ---
 
@@ -232,7 +232,7 @@ Foram adicionadas informações sobre fontes anônimas no relatório perfis ativ
 
 Está disponível uma nova seção atualizada sobre como começar a usar mensagens transacionais. [Leia mais](../../channels/using/getting-started-with-transactional-msg.md)
 
-A seção de **limitações de mensagens transacionais** foi movida [para cá](../../channels/using/transactional-messaging-limitations.md).
+A variável **Limitações de mensagens transacionais** a seção foi movida [aqui](../../channels/using/transactional-messaging-limitations.md).
 
 A seção **Preparação do envio** foi movida [para cá](../../sending/using/preparing-the-send.md).
 
@@ -346,7 +346,7 @@ Informações mais detalhadas sobre o MTA aprimorado foram adicionadas à docume
 
 A seção dedicada ao arquivamento com Cco de email foi movida e atualizada. [Leia mais](../../sending/using/archiving.md)
 
-A documentação Configuração de um aplicativo para dispositivo móvel e páginas relacionadas foi atualizada com o objetivo de refletir a depreciação do SDK V4. [Leia mais](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/)
+A documentação Configuração de um aplicativo para dispositivo móvel e páginas relacionadas foi atualizada com o objetivo de refletir a depreciação do SDK V4. [Leia mais](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
 
 A documentação de integração do Adobe Campaign Standard/Adobe Experience Manager foi atualizada e aprimorada. [Leia mais](../../integrating/using/configure-experience-manager.md)
 

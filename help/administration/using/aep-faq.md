@@ -6,14 +6,14 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '856'
 ht-degree: 2%
 
 ---
 
-# Perguntas frequentes sobre a integração com o SDK da Experience Platform {#aep-faq}
+# Perguntas frequentes sobre integração com o SDK do Experience Platform {#aep-faq}
 
 Para enviar notificações por push e mensagens no aplicativo com o aplicativo SDK do Experience Platform, um aplicativo para dispositivos móveis deve ser configurado no SDK do Adobe Experience Platform e no Adobe Campaign.
 
@@ -36,7 +36,7 @@ Consulte os recursos abaixo para obter mais informações sobre o SDK do Adobe E
 
 Sim, [!DNL Adobe Experience Platform SDK] A integração do está disponível para o Adobe Campaign Standard e o Adobe Campaign Classic. Você deve instalar o correspondente **[!UICONTROL Extension]** por meio da [!DNL Data Collection UI] para habilitar a integração.
 
-Para obter mais informações, consulte [página]https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
+Para obter mais informações, consulte esta [página](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
 ## Quais recursos a integração do SDK do Adobe Experience Platform facilita no Adobe Campaign? {#aep-capabilities}
 
@@ -98,7 +98,7 @@ Confira os recursos abaixo:
 
 * EXPERIENCE PLATFORM SDK [documentação](https://developer.adobe.com/client-sdks/documentation/)
 * Introdução ao SDK do Launch e Experience Platform [documentação](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)
-* Atualização para o SDK do Experience Platform [documentação](https://developer.adobe.com/client-sdks/documentation/upgrade-platform-sdks)
+* Atualização para o SDK do Experience Platform [documentação](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/)
 * GitHub Experience Platform SDK [documentação](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
 
 ## Estou recebendo o erro &quot;Você não tem acesso de gravação na entrega&quot; ao criar uma entrega de notificação por push. {#write-access-error}

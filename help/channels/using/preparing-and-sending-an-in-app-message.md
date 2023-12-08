@@ -8,16 +8,16 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 83%
+source-wordcount: '1224'
+ht-degree: 80%
 
 ---
 
 # Preparação e envio de uma mensagem no aplicativo{#preparing-and-sending-an-in-app-message}
 
-Dois tipos de listas estão disponíveis no Adobe Campaign:
+Três tipos de mensagem no aplicativo estão disponíveis no Adobe Campaign:
 
 * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**: esse tipo de mensagem permite direcionar perfis do Adobe Campaign (perfis CRM) que assinaram seu aplicativo para dispositivos móveis. Esse tipo de mensagem pode ser personalizado com todos os atributos de perfil disponíveis no Adobe Campaign, mas requer um handshake seguro entre o SDK móvel e o serviço de mensagens no aplicativo do Campaign para garantir que mensagens com informações pessoais e confidenciais sejam usadas apenas por usuários autorizados.
 
@@ -58,13 +58,13 @@ As etapas para criar uma mensagem independente no aplicativo com o Adobe Campaig
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. Insira as propriedades de mensagens no aplicativo e selecione o aplicativo móvel no campo **[!UICONTROL Associate a Mobile App to a delivery]**. 
+1. Insira as propriedades de mensagens no aplicativo e selecione o aplicativo móvel na **[!UICONTROL Associate a Mobile App to a delivery]** campo.
 
    Se você não vir nenhum aplicativo na lista suspensa, verifique se seus aplicativos móveis estão em uma **Configurado** estado. Aplicativos em um **Pronto para ser configurado** não aparecerá na lista. Para obter mais informações sobre a configuração de aplicativos móveis, consulte esta [página](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
    ![](assets/inapp_creating_3.png)
 
-1. Selecione o público-alvo que você deseja direcionar para sua mensagem no aplicativo. O público-alvo é pré-filtrado dependendo do aplicativo móvel associado a esse delivery.
+1. Selecione o público-alvo que você deseja direcionar para sua mensagem no aplicativo. O público-alvo é pré-filtrado dependendo do aplicativo móvel associado a essa entrega.
 
    Observe que essa etapa não é necessária com o **[!UICONTROL Broadcast an In-App message (inAppBroadcast)]**, pois ele direciona todos os usuários de um aplicativo móvel.
 
@@ -100,7 +100,7 @@ As etapas para criar uma mensagem independente no aplicativo com o Adobe Campaig
 
 1. Se você usar um acionador **[!UICONTROL Places]**, dados de contexto do Places, metadados personalizados do Places ou o tipo de evento do Places serão automaticamente preenchidos com base em todas as Bibliotecas e seus Pontos de interesse criados no Adobe Places.
 
-   Observe que esse acionador será aplicado ao dispositivo somente para os Pontos de interesse das Bibliotecas selecionadas na extensão Places da interface da Coleção de dados. Para obter mais informações sobre a extensão Places e como instalá-la, consulte esta [documentação](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+   Observe que esse acionador será aplicado ao dispositivo somente para os Pontos de interesse das Bibliotecas selecionadas na extensão Places da interface da Coleção de dados. Para obter mais informações sobre a extensão Places e como instalá-la, consulte esta [documentação](https://developer.adobe.com/client-sdks/solution/places).
 
 1. Na guia **[!UICONTROL Frequency & duration]**, escolha a frequência do acionador, a data de início e de término, o dia da semana e a hora do dia em que a mensagem no aplicativo estará ativa.
 
@@ -122,13 +122,13 @@ A mensagem no aplicativo agora está pronta para ser enviada ao público-alvo di
 
 ## Pré-visualização da mensagem no aplicativo {#previewing-the-in-app-message}
 
-Antes de enviar a mensagem no aplicativo, você pode testá-la com os perfis de teste para verificar o que o público-alvo verá ao receber o delivery.
+Antes de enviar a mensagem no aplicativo, você pode testá-la com os perfis de teste para verificar o que o público-alvo verá ao receber a entrega.
 
 1. Clique no botão **[!UICONTROL Preview]**.
 
    ![](assets/inapp_sending_2.png)
 
-1. Clique no botão **[!UICONTROL Select a test profile]** e selecione um dos perfis de teste para começar a pré-visualização do delivery. Para obter mais informações sobre perfis de teste, consulte esta [seção](../../audiences/using/managing-test-profiles.md).
+1. Clique no botão **[!UICONTROL Select a test profile]** e selecione um dos perfis de teste para começar a pré-visualização da entrega. Para obter mais informações sobre perfis de teste, consulte esta [seção](../../audiences/using/managing-test-profiles.md).
 1. Verifique a mensagem em diferentes dispositivos, como celulares Android, iPhone ou até mesmo tablets. Você também pode verificar se os campos de personalização estão recuperando os dados corretos.
 
    ![](assets/inapp_sending_3.png)
@@ -137,7 +137,7 @@ Antes de enviar a mensagem no aplicativo, você pode testá-la com os perfis de 
 
 ## Envio de mensagens no aplicativo {#sending-your-in-app-message}
 
-Depois que você terminar de preparar o delivery e as etapas de aprovação tiverem sido executadas, você poderá enviar a mensagem.
+Depois que você terminar de preparar a entrega e as etapas de aprovação tiverem sido executadas, você poderá enviar a mensagem.
 
 1. Clique em **[!UICONTROL Prepare]** para calcular o destino e gerar as mensagens.
 
@@ -145,7 +145,7 @@ Depois que você terminar de preparar o delivery e as etapas de aprovação tive
 
 1. Ao concluir com êxito a preparação, a janela **Implantação** apresenta os seguintes KPIs: **Target** e **To deliver**.
 
-   Você pode verificar a janela Deployment clicando no botão ![](assets/lp_link_properties.png) para possíveis exclusões ou erros no delivery.
+   Você pode verificar a janela Deployment clicando no botão ![](assets/lp_link_properties.png) para possíveis exclusões ou erros na entrega.
 
    ![](assets/inapp_sending_5.png)
 
@@ -153,13 +153,13 @@ Depois que você terminar de preparar o delivery e as etapas de aprovação tive
 
    ![](assets/inapp_sending_6.png)
 
-1. Verifique o status do delivery no painel de mensagens e logs. Para obter mais informações, consulte esta [seção](../../sending/using/monitoring-a-delivery.md).
+1. Verifique o status da entrega no painel de mensagens e logs. Para obter mais informações, consulte esta [seção](../../sending/using/monitoring-a-delivery.md).
 
-   As contagens de KPIs **[!UICONTROL Delivered]** e **[!UICONTROL Sent]** baseiam-se no que é enviado com êxito do Campaign para o serviço de delivery de mensagens. Observe que esses KPIs não são uma indicação da contagem de dispositivos móveis que receberam ou baixaram a mensagem com êxito do serviço de delivery de mensagens.
+   As contagens de KPIs **[!UICONTROL Delivered]** e **[!UICONTROL Sent]** baseiam-se no que é enviado com êxito do Campaign para o serviço de entrega de mensagens. Observe que esses KPIs não são uma indicação da contagem de dispositivos móveis que receberam ou baixaram a mensagem com êxito do serviço de entrega de mensagens.
 
    ![](assets/inapp_sending_7.png)
 
-1. Avalie o impacto das mensagens no aplicativo com relatórios do delivery. Para obter mais informações sobre relatórios, consulte [esta seção](../../reporting/using/in-app-report.md).
+1. Avalie o impacto das mensagens no aplicativo com relatórios da entrega. Para obter mais informações sobre relatórios, consulte [esta seção](../../reporting/using/in-app-report.md).
 
 1. Após enviar as mensagens no aplicativo, você pode optar por desativar o delivery. Isso pode ser útil se você quiser interromper um delivery específico ou se quiser executar um novo delivery com o mesmo acionador, por exemplo.
 

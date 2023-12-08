@@ -13,10 +13,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
-source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
-workflow-type: ht
-source-wordcount: '1418'
-ht-degree: 100%
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+workflow-type: tm+mt
+source-wordcount: '1377'
+ht-degree: 97%
 
 ---
 
@@ -34,9 +34,9 @@ O Adobe Campaign é uma ferramenta poderosa para coletar e processar quantidades
 
 Para gerenciar corretamente a privacidade e os dados pessoais, trabalhe dentro das legislações aplicáveis às regiões onde você opera. Estas regras incluem:
 * [GDPR](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en) (Regulamento geral europeu de proteção de dados)
-* [APD](https://www.gov.uk/data-protection) (Aplicação do GDPR pelo Reino Unido)
+* [DPA](https://www.gov.uk/data-protection) (Aplicação do GDPR pelo Reino Unido)
 * [Diretiva europeia relativa à privacidade e às comunicações eletrônicas](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0058-20091219)
-* [CAN-SPAM Act](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business) (Lei norte-americana que define as regras e os requisitos para o email comercial)
+* [CAN-SPAM Act](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business) (Lei norte-americana que define as regras e os requisitos para o email comercial)
 * [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=) (Ato de Privacidade do Consumidor da Califórnia)
 * [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/) (Lei de Proteção de Dados Pessoais da Tailândia)
 
@@ -59,7 +59,7 @@ O Adobe Campaign faz parte das soluções da Adobe Experience Cloud. A maneira c
 * **Como a Adobe Experience Cloud é usada para coletar informações**
 
    * As soluções da Adobe Experience Cloud usam cookies e tecnologias semelhantes, como web beacons (também conhecidos como tags ou pixels), para permitir que você colete informações. Para obter mais informações sobre cookies e recursos de rastreamento com o Adobe Campaign, consulte [esta seção](#tracking-capabilities).
-   * Você também pode usar as tecnologias da Adobe Experience Cloud em seus aplicativos móveis. Para obter mais informações sobre como enviar deliveries para dispositivos móveis com o Campaign, consulte [esta página](../../channels/using/mobile-guide.md).
+   * Você também pode usar as tecnologias da Adobe Experience Cloud em seus aplicativos móveis. Para obter mais informações sobre como enviar entregas para dispositivos móveis com o Campaign, consulte [esta página](../../channels/using/mobile-guide.md).
 
 * **As opções de privacidade dos usuários sobre o uso da Adobe Experience Cloud**
 
@@ -78,7 +78,7 @@ Para obter mais detalhes sobre a privacidade da Adobe Experience Cloud, consulte
 
 Ao gerenciar a privacidade, é importante definir quais dados devem ser tratados com cuidado e por quem.
 * **Dados pessoais** são informações que podem identificar direta ou indiretamente um indivíduo vivo.
-* **Dados confidenciais pessoais** são informações relacionadas a raça, visão política, crenças religiosas, antecedentes criminais, informações genéticas, dados de saúde, preferência sexual, informações biométricas, bem como participação em uniões comerciais.
+* **Dados pessoais confidenciais** são informações relacionadas a raça, visão política, crenças religiosas, antecedentes criminais, informações genéticas, dados de saúde, preferência sexual, informações biométricas, bem como participação em sindicatos.
 
 As [principais legislações](#privacy-regulations) referem-se às diferentes entidades que gerem os dados da seguinte forma:
 * Um **Controlador de dados** é a autoridade que determina os meios e a finalidade de coleta, utilização e compartilhamento de dados pessoais.
@@ -142,4 +142,4 @@ Graças às funcionalidades de rastreamento, o Adobe Campaign permite rastrear o
 >
 >Regulamentos como o Regulamento Geral sobre a Proteção de Dados (GDPR) afirmam que as empresas exigem o consentimento dos usuários do site antes da instalação de qualquer cookie. Você deve informar aos usuários que seus sites estão equipados com ferramentas de rastreamento da web por meio de uma solicitação de autorização.
 
-Você também pode adicionar [links rastreados](../../designing/using/links.md#about-tracked-urls) em suas mensagens para medir o impacto do comportamento do delivery e do recipient no relatório integrado dos [indicadores de rastreamento](../../reporting/using/tracking-indicators.md) ou criar seus próprios [relatórios exclusivos](../../reporting/using/about-dynamic-reports.md).
+Você também pode adicionar [links rastreados](../../designing/using/links.md#about-tracked-urls) em suas mensagens para medir o impacto do comportamento da entrega e do recipient no relatório integrado dos [indicadores de rastreamento](../../reporting/using/tracking-indicators.md) ou criar seus próprios [relatórios exclusivos](../../reporting/using/about-dynamic-reports.md).
