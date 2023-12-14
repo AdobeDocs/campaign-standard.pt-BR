@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
-workflow-type: ht
-source-wordcount: '437'
-ht-degree: 100%
+source-git-commit: 311fdf000333c03cb3b21fc6fea786251ced045f
+workflow-type: tm+mt
+source-wordcount: '472'
+ht-degree: 88%
 
 ---
 
@@ -23,11 +23,34 @@ Todas as instâncias do Adobe Campaign Standard são atualizadas com cada nova v
 
 As atualizações são implantadas em duas fases. Primeiro, as instâncias de Preparo estão atualizadas para permitir que nossos clientes testem novos recursos e adaptem suas configurações, se necessário. As instâncias de Produção são atualizadas posteriormente.
 
-Todas as datas de lançamento estão sujeitas a alterações. Visite esta página regularmente para verificar se há atualizações.
+Todas as datas de lançamento estão sujeitas a alterações. Visite esta página regularmente para verificar se há atualizações. As atualizações de ambientes ocorrem em ondas, durante os intervalos indicados abaixo. As datas exatas são comunicadas por email a cada cliente.
 
-## Versão 23.2 - Versão de outono/inverno de 2023 {#release-23-2-release}
+## Versão 24.1 - Versão de inverno de 2024 {#release-24-1-release}
 
-As atualizações de ambientes ocorrem em ondas, durante os intervalos indicados abaixo. As datas exatas são comunicadas por email a cada cliente.
+Informações detalhadas sobre esta versão estarão disponíveis no [Notas de versão](release-notes.md) uma semana antes do início das atualizações do ambiente de preparo.
+
+<table>
+ <thead>
+  <tr>
+   <th> Ambientes </th>
+   <th> Datas </th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>Preparo </td>
+   <td>16 de janeiro a 13 de fevereiro de 2024 </td>
+  </tr>
+  <tr>
+   <td>Produção </td>
+   <td>23 de janeiro a 20 de fevereiro de 2024 </td>
+  </tr>
+ </tbody>
+</table>
+
+
+## Versão 23.2 - Versão limitada do último trimestre de 2023 {#release-23-2-release}
+
 
 >[!AVAILABILITY]
 >
