@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Centro de ajuda para os principais recursos, tarefas, configurações e outros recursos necessários para usar o Campaign Standard.
 title: Manual do Campaign Standard
 breadcrumb-title: Documentação do Adobe Campaign Standard
-source-git-commit: 01ac9b91a5b4af445bdd6209a0b9494731a47362
-workflow-type: ht
-source-wordcount: '1768'
+source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
+workflow-type: tm+mt
+source-wordcount: '1772'
 ht-degree: 100%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 100%
       + [Otimizar a entrega](sending/using/optimize-delivery.md)
       + [Usar modelos](sending/using/use-templates.md)
       + [Criar conteúdo personalizado](sending/using/design-and-personalize.md)
-      + [Definir o público correto](sending/using/define-the-right-audience.md)
+      + [Definir o público-alvo correto](sending/using/define-the-right-audience.md)
       + [Verificar antes de enviar](sending/using/check-before-sending.md)
       + [Rastrear e monitorar](sending/using/track-and-monitor.md)
    + Mensagens de email {#email-messages}
@@ -447,7 +447,6 @@ ht-degree: 100%
       + [Configuração das regras de tag para oferecer suporte a casos de uso do Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
       + [Casos de uso para dispositivos móveis compatíveis com o Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
       + [Como migrar seu aplicativo para dispositivos móveis do SDK v4 para o SDK da Adobe Experience Platform](administration/using/sdkv4-migration.md)
-      + [Próximas alterações no Canal de notificação por push](administration/using/push-technote.md)
    + Configuração do canal de SMS {#configuring-sms}
       + [Implementação do canal de SMS](administration/using/configuring-sms-channel.md)
       + [Protocolo e configurações do conector de SMS](administration/using/sms-protocol.md)

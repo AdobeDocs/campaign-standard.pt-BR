@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
 workflow-type: tm+mt
-source-wordcount: '7211'
+source-wordcount: '7241'
 ht-degree: 99%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 99%
 # Atualizações da documentação{#documentation-updates}
 
 Além das [Notas de versão](../../rn/using/release-notes.md) do Adobe Campaign, esta página lista todas as atualizações na documentação do Adobe Campaign Standard.
+
+## Dezembro de 2023 {#doc-updates-dec-2023}
+
+Algumas alterações importantes no serviço Android Firebase Cloud Messaging (FCM) serão lançadas em 2024 e afetarão sua implementação do Adobe Campaign. Saiba mais em [esta nota técnica](../../administration/using/push-technote.md).
 
 ## Versão 23.2 - outono/inverno de 2023 {#release-23-2}
 
@@ -67,7 +71,7 @@ Foi realizada uma observação para especificar que o envio de provas usando a s
 
 Mecanismo de repetição para entregas aprimorado, incluindo conteúdo importado de um URL. [Saiba mais](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
-Atualização do nível de acesso das opções que controlam a Auditoria: opções anteriores para ativar/desativar a [Trilha de auditoria](../../administration/using/audit.md) não eram acessíveis para [administradores funcionais](../../administration/using/users-management.md#functional-administrators). Com essa alteração, o nível de acesso da auditoria foi modificado para fornecer controle aos administradores funcionais. [Saiba mais](../../administration/using/audit.md#enable-disable-audit)
+Atualização do nível de acesso das opções que controlam a Auditoria: opções anteriores para habilitar/desabilitar a [Trilha de auditoria](../../administration/using/audit.md) não eram acessíveis para [administradores funcionais](../../administration/using/users-management.md#functional-administrators). Com essa alteração, o nível de acesso da auditoria foi modificado para fornecer controle aos administradores funcionais. [Saiba mais](../../administration/using/audit.md#enable-disable-audit)
 
 O novo menu suspenso **Histórico de tarefas** foi adicionada ao painel de mensagem. [Leia mais](../../sending/using/monitoring-a-delivery.md)
 
@@ -658,7 +662,7 @@ Foram adicionadas informações sobre a nova opção das atividades de Consulta 
 
 Foram adicionadas informações na seção Atualização de atividade de dados no novo campo Batch size, que permite definir o tamanho máximo do lote para upload de dados. [Leia mais](../../automating/using/update-data.md#configuration)
 
-Foram adicionadas informações na seção da atividade Extrair arquivo sobre a nova opção que permite desativar o processo de geração de arquivos, se a transição de saída estiver vazia. [Leia mais](../../automating/using/extract-file.md#configuration)
+Foram adicionadas informações na seção da atividade Extrair arquivo sobre a nova opção que permite desabilitar o processo de geração de arquivos, se a transição de saída estiver vazia. [Leia mais](../../automating/using/extract-file.md#configuration)
 
 ## Versão 19.0 – Janeiro de 2019 {#release-19-0---january-2019}
 

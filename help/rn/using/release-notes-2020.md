@@ -7,11 +7,12 @@ topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
+source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
 workflow-type: tm+mt
-source-wordcount: '5211'
-ht-degree: 99%
+source-wordcount: '5267'
+ht-degree: 97%
 
 ---
 
@@ -68,7 +69,7 @@ ht-degree: 99%
 <tbody> 
 <tr> 
   <td> <p>Temos o prazer de anunciar a Journey AI para todos os clientes do Adobe Campaign Standard.</p>
-  <p>A Journey AI usa o Advanced Machine Learning (ML) para permitir que as empresas otimizem o design e o delivery das jornadas do cliente, prevendo a preferência de engajamento de cada pessoa.</p>
+  <p>A IA do Jornada usa o Advanced Machine Learning (ML) para permitir que as empresas otimizem o design e o delivery de jornadas do cliente, prevendo a preferência de engajamento de cada indivíduo.</p>
   <P>A Journey AI consiste em dois elementos de ML:</p>
 <ul> 
      <li> <strong>Pontuação preditiva de engajamento</strong> – identifica de forma inteligente o nível de engajamento preferencial dos clientes para oferecer uma melhor definição do público-alvo e personaliza as mensagens para aumentar as conversões e a retenção. Assista ao <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">vídeo de instruções</a>.</li> 
@@ -102,7 +103,7 @@ ht-degree: 99%
 * Correção de um problema que impedia que o preenchimento entre texto e imagens fosse aplicado no Microsoft Outlook. (CAMP-45370)
 * Correção de um problema ao duplicar um fragmento. Após a duplicação do fragmento, faltavam linhas HTML no fragmento original. (CAMP-45207)
 * Correção de um erro que causava problemas de renderização no Microsoft Outlook. (CAMP-44749)
-* Correção de um erro que ocorria ao modificar o preenchimento do **Componente de estrutura** em um template do delivery. As guias CSS não carregavam as alterações feitas no preenchimento, causando um problema de renderização. (CAMP-45381)
+* Correção de um erro que ocorria ao modificar o preenchimento do **Componente de estrutura** em um template da entrega. As guias CSS não carregavam as alterações feitas no preenchimento, causando um problema de renderização. (CAMP-45381)
 * Correção de um problema ao fazer upload de imagem. A altura da imagem era automaticamente definida como 0, causando um problema de renderização. (CAMP-45366)
 
 **Outras alterações**
@@ -120,16 +121,16 @@ ht-degree: 99%
 * Uma nova mensagem foi adicionada para exibir o tamanho do arquivo baixado na atividade de **transferência de arquivo**.
 * Foram aprimoradas as mensagens de erro para tokens de sessão inválidos.
 * Um novo mecanismo agora impede que eventos de rastreamento de proxies sejam adicionados a logs de rastreamento e relatórios.
-* Uma nova mensagem de aviso foi adicionada para ajudar a depurar atividades de gerenciamento de dados conectadas a uma atividade de delivery.
+* Uma nova mensagem de aviso foi adicionada para ajudar a depurar atividades de gerenciamento de dados conectadas a uma atividade de entrega.
 * Foram aprimoradas as etiquetas no espaço de trabalho de relatórios.
 * Uma nova etapa de validação foi adicionada para impedir a exclusão de objetos técnicos em mensagens transacionais.
-* Um novo filtro sobre o status do delivery foi adicionado na guia **Lista de execução** de uma mensagem transacional para melhorar a solução de problemas.
+* Um novo filtro sobre o status da entrega foi adicionado na guia **Lista de execução** de uma mensagem transacional para melhorar a solução de problemas.
 * Para melhorar o desempenho e otimizar o tempo de execução, os índices não utilizados foram removidos com base nas estatísticas de uso das tabelas identificadas na análise preliminar para mais de 350 clientes. As tabelas afetadas são: nmsaddressStatus, nmscampaign, nmsdelivery, nmslandingpage, nmsprogram, nmsrecipient, nmsseedmember, nmsservice, nmssubhistorcp, nmsaudience, xtkworkflow
 
 **Correções**
 
 * Correção de um problema que impedia o uso de um link de destino para notificações de push ou mensagens no aplicativo quando o rastreamento era ativado.
-* Correção de um problema em que a alta prioridade em mensagens transacionais não era respeitada no caso de deliveries significativos em massa.
+* Correção de um problema em que a alta prioridade em mensagens transacionais não era respeitada no caso de entregas significativas em massa.
 * Correção de um problema que impedia a atribuição de marcas a um email transacional. Várias mensagens de erro poderiam ser exibidas durante a etapa de publicação. (CAMP-44988)
 * Correção de um problema na interface do usuário do workflow que podia impedir que as informações fossem salvas em campos que solicitavam valores numéricos. (CAMP-44025)
 * Correção de um problema que poderia exibir uma mensagem de erro ao usar uma atividade **de teste** em um workflow de template de importação. (CAMP-42910)
@@ -141,39 +142,39 @@ ht-degree: 99%
 * Correção de um problema que impedia a exibição de porcentagens de relatórios de cliques ativos ao importar conteúdo de um URL. (CAMP-44468)
 * Correção de um problema que poderia exibir um erro de tempo de espera ao selecionar um perfil a ser usado no contexto da substituição do perfil. (CAMP-44746)
 * Correção de um problema que impedia que instâncias funcionassem após a implantação de recursos personalizados contendo definições de links incorretas. (CAMP-44406)
-* Correção de um problema que criava entidades vinculadas vazias (tipologias, marcas, etc.) após copiar e colar um delivery em um template de campanha. (CAMP-44765)
-* Correção de um problema que impedia o envio de provas devido a um tratamento incorreto de tabelas de preparação de delivery em caso de falha de um banco de dados ou uma simples reinicialização do banco de dados no Azure.
-* Correção de um problema que impedia a exclusão de links com conteúdo do Experience Manager em um delivery configurado com conteúdo multilíngue. (CAMP-44029)
+* Correção de um problema que criava entidades vinculadas vazias (tipologias, marcas, etc.) após copiar e colar uma entrega em um template de campanha. (CAMP-44765)
+* Correção de um problema que impedia o envio de provas devido a um tratamento incorreto de tabelas de preparação de entrega em caso de falha de um banco de dados ou uma simples reinicialização do banco de dados no Azure.
+* Correção de um problema que impedia a exclusão de links com conteúdo do Experience Manager em uma entrega configurado com conteúdo multilíngue. (CAMP-44029)
 * Correção de um problema em relatórios dinâmicos que podia exibir uma mensagem de erro ao tentar filtrar dimensões.  (CAMP-43097)
 * Correção de um problema que podia exibir uma tela em branco ao tentar acessar perfis em uma instância configurada com recursos personalizados que continham definições específicas de links. (CAMP-41009)
 * Correção de um problema em workflows que ocorria ao usar uma atividade de **Enriquecimento** com duas atividades de entrada com ambos os recursos de público-alvo vinculados. (CAMP-42133)
 * Correção de um problema que fazia com que workflows de importação fossem repetidos ao usar uma atividade de **Transferência de arquivo**. (CAMP-43754)
 * Correção de um problema que fazia com que duplicações não fossem considerados ao criar um perfil com logs exportados. (CAMP-45031)
 * Correção de um problema que causava a discrepância de dados entre relatórios no Adobe Campaign e relatórios exportados em arquivos PDF. (CAMP-43010)
-* Correção de um erro que causava a falha do workflow do delivery de correspondência direta ao usar campos de dados existentes em funções. (CAMP-42737)
+* Correção de um erro que causava a falha do workflow da entrega de correspondência direta ao usar campos de dados existentes em funções. (CAMP-42737)
 * Correção de um problema ao importar pacotes, incluindo eventos transacionais e modelos de mensagem. O processo de importação parava em 5%. (CAMP-42544)
 * Correção de um problema que causava um erro (Uncaught TypeError) após modificar a atividade de **Enriquecimento** e adicionar outros dados em um workflow. (CAMP-41877)
 * Correção de um erro que impedia a exclusão do workflow. Os logs tinham que ser removidos para a exclusão do workflow. (CAMP-44144)
 * Correção de um erro ao criar uma landing page com código HTML. As caixas de seleção obrigatórias não eram reconhecidas no Campaign e não estavam disponíveis na landing page publicada. (CAMP-44181)
 * Correção de um problema que resultava no loop de workflows ao usar a atividade **Esperar** . (CAMP-43981)
-* Correção de um problema ao enviar mensagens transacionais que resultava no direcionamento de vários endereços de email várias vezes em um mesmo delivery. (CAMP-44202)
+* Correção de um problema ao enviar mensagens transacionais que resultava no direcionamento de vários endereços de email várias vezes em uma mesma entrega. (CAMP-44202)
 * Correção de um erro ao usar substituição de perfil com personalização targetData. (CAMP-44996)
-* Correção de um problema que causava a falha da pré-visualização do delivery ao exportar um template do delivery em um pacote. (CAMP-44084)
+* Correção de um problema que causava a falha da pré-visualização da entrega ao exportar um template da entrega em um pacote. (CAMP-44084)
 * Correção de um problema que impedia o envio de provas para perfis de teste ao usar mapeamentos de público-alvo personalizados. (CAMP-43701)
 * Correção de um erro que ocorria em workflows ao usar a atividade **Ler público** e direcionar um público configurado com um targeting dimension diferente de **Perfil**.  (CAMP-41885)
 * Correção de um problema que resultava em erros quando o workflow técnico **updateEventsStatus** demorava muito para recuperar o histórico de eventos (quando o workflow era interrompido). O campo de agregação &quot;sumQueueTime&quot; não utilizado foi removido do workflow para resolver o problema. (CAMP-43920)
 * Correção de um problema de memória ao implantar recursos personalizados. (CAMP-42909)
 * Correção de um problema nas mensagens transacionais quando os atributos estavam ausentes nas coleções. Agora, todos os atributos ausentes são definidos com um valor padrão e incluídos no payload. (CAMP-42882)
-* Correção de um problema que poderia afetar o desempenho ao consultar logs do delivery de eventos em tempo real. (CAMP-42759)
+* Correção de um problema que poderia afetar o desempenho ao consultar logs da entrega de eventos em tempo real. (CAMP-42759)
 * Correção de um erro que ocorria ao usar extensões de arquivo em maiúsculas com ativos compartilhados. (CAMP-44159)
 * Correção de um problema que exibia uma mensagem de erro ao testar a conexão com uma conta externa antes de sua criação. O botão **Testar conexão** agora é exibido somente depois que a conta externa é criada.
 * Correção de um problema que deixava mensagens pendentes após o MTA aprimorado ser reiniciado em instâncias configuradas com o compartilhamento.
-* Correção de um problema que resultava na incompatibilidade da contagem de perfis ativos com o número efetivo de deliveries enviados.
+* Correção de um problema que resultava na incompatibilidade da contagem de perfis ativos com o número efetivo de entregas enviadas.
 * Correção de um problema que resultava em latência ao procurar recursos no editor de query em um workflow.
 * Correção de um problema ao selecionar a opção **Especificar os campos a serem considerados na pesquisa de texto** em um recurso personalizado. Se a lista de campos foi deixada vazia, a publicação do recurso personalizado falhou.
 * Correção de um problema de desempenho ao exibir a visão geral dos recursos personalizados com um grande volume de dados.
-* Correção de um problema que impedia a importação de um delivery usando substituições de perfil.
-* Correção de um problema ao usar substituição de perfil que impedia o envio imediato de provas se o delivery fosse programado.
+* Correção de um problema que impedia a importação de uma entrega usando substituições de perfil.
+* Correção de um problema ao usar substituição de perfil que impedia o envio imediato de provas se a entrega fosse programada.
 * Correção de um problema que ocorria ao fazer upload de uma chave do Android em aplicativo móvel. A mensagem que aparecia depois de fazer upload da chave com êxito exibia o valor da chave anterior.
 * Correção de um problema que impedia a criação de perfis de teste a partir de mensagens transacionais após a criação de uma configuração de evento com uma coleção sem atributo.
 * Correção de um problema que poderia impedir a publicação de recursos personalizados após a criação de um novo filtro usando uma agregação.
@@ -182,7 +183,7 @@ ht-degree: 99%
 * Correção de um problema que causava a falha da ação de desvinculação do Experience Manager quando o seu conteúdo incluía um caminho com um caractere &quot;%20&quot;.
 * Correção de um erro nos rótulos ao duplicar atividades de workflow.
 * Correção de um problema com o seletor de mensagens transacionais em uma landing page quando a opção **Iniciar envio de mensagem** era selecionada.
-* Correção de um problema com mensagens transacionais ou deliveries recorrentes que impedia que o status do delivery fosse inicializado com o valor padrão correto. Os logs de erros também foram aprimorados.
+* Correção de um problema com mensagens transacionais ou entregas recorrentes que impedia que o status da entrega fosse inicializado com o valor padrão correto. Os logs de erros também foram aprimorados.
 * Correção de um problema ao estender o esquema **Assinatura para um aplicativo** (appSubscriptionRcp) com um link de perfil usando um campo personalizado. O índice não era criado automaticamente, o que poderia afetar o tempo de envio de push. (CAMP-41120)
 
 
@@ -234,8 +235,8 @@ ht-degree: 99%
 
 **Recursos adicionais** (a partir de 13 de julho)
 
-* **Otimização do tempo de envio com recursos de IA e pontuação do perfil** – agora você pode otimizar o design e o delivery das jornadas do cliente para prever a preferência de envolvimento de cada indivíduo. Com a tecnologia Journey AI, o Adobe Campaign pode analisar e prever taxas abertas, tempos de envio ideais e probabilidade de churn com base em métricas históricas de engajamento. [Saiba mais](../../sending/using/predictive.md)
-* **Nova regulamentação de privacidade do Brasil** – além das características de privacidade já disponíveis no Campaign, a Adobe ajuda a facilitar o preparo para a Lei Geral de Proteção de Dados (LGPD) do Brasil. Durante a criação de uma solicitação de acesso a dados pessoais, o regulamento LGPD foi adicionado ao Serviço Principal de Privacidade da Adobe. [Saiba mais](https://helpx.adobe.com/br/campaign/kb/campaign-privacy-overview.html)
+* **Otimização do tempo de envio com recursos de IA e pontuação do perfil** – agora você pode otimizar o design e a entrega das jornadas do cliente para prever a preferência de envolvimento de cada pessoa. Com a tecnologia Journey AI, o Adobe Campaign pode analisar e prever taxas abertas, tempos de envio ideais e probabilidade de churn com base em métricas históricas de engajamento. [Saiba mais](../../sending/using/predictive.md)
+* **A nova regulamentação de privacidade do Brasil** - Além das características de privacidade já disponíveis no Campaign, o Adobe ajuda a facilitar o preparo para a Lei Geral de Proteção de Dados (LGPD) do Brasil. Durante a criação de uma solicitação de acesso a dados pessoais, o regulamento LGPD foi adicionado ao Serviço Principal de Privacidade da Adobe. [Saiba mais](https://helpx.adobe.com/br/campaign/kb/campaign-privacy-overview.html)
 
 **Aprimoramentos**
 
@@ -257,7 +258,7 @@ ht-degree: 99%
 **Outras alterações**
 
 * A interface personalizada de publicação de recursos foi aprimorada com mensagens de erro mais claras.
-* Os mapeamentos dos deliveries não utilizados foram removidos da interface.
+* Os mapeamentos das entregas não utilizados foram removidos da interface.
 * As funções de administrador desnecessárias foram removidas da interface.
 * As caixas de seleção agora podem ser obrigatórias em uma landing page.
 * Ao baixar o arquivo CSV de um relatório dinâmico, o limite de 200 linhas foi removido. Agora você pode incluir cada linha do seu relatório. (CAMP-40810)
@@ -266,7 +267,7 @@ ht-degree: 99%
 
 **Integrações da Experience Platform**
 
-* A ativação dos públicos-alvo da Adobe Experience Platform da atividade **Read audience** foi aprimorada para oferecer melhor desempenho e estabilidade. Além disso, os logs de workflow ficaram mais claros e detalhados em relação aos trabalhos de ativação, facilitando o monitoramento e a solução de problemas durante a leitura dos públicos-alvo da Adobe Experience Platform.
+* Ativação dos públicos-alvo da Adobe Experience Platform a partir do **Ler público** A atividade do foi aprimorada para oferecer melhor desempenho e estabilidade. Além disso, os logs de workflow ficaram mais claros e detalhados em relação aos trabalhos de ativação, facilitando o monitoramento e a solução de problemas durante a leitura dos públicos-alvo da Adobe Experience Platform.
 
 **Correções**
 
@@ -276,16 +277,16 @@ ht-degree: 99%
 * Correção de um problema nas notificações por push com conteúdo dinâmico que podia impedir a exibição de emojis. (CAMP-40715)
 * Correção de um problema na atividade **Desduplicação** que atribuía um código de segmento incorreto a uma das transições complementares de saída. (CAMP-41400)
 * Correção de um erro que impedia a exclusão de relatórios programados. (CAMP-41302)
-* Correção de um problema que causava discrepância entre o painel do delivery e o relatório **Delivery Summary**. (CAMP-41145)
+* Correção de um problema que causava discrepância entre o painel da entrega e o relatório **Delivery Summary**. (CAMP-41145)
 * Correção de um problema que causava um problema de exibição de sobreposição de caracteres nos relatórios baixados.
-* Correção de um problema que impedia que a pré-visualização de um delivery funcionasse para substituição da prova.
+* Correção de um problema que impedia que a pré-visualização de uma entrega funcionasse para substituição da prova.
 * Correção de um erro durante a exclusão de campos personalizados de uma notificação local no aplicativo.
 * Correção de um problema que impedia que a função charIndex funcionasse com uma atividade **End** ou **File transfer** em um workflow.
 * Correção de um problema nos fluxos de trabalho que poderia ocorrer durante uma atividade **Enriquecimento** com duas atividades de entrada, inclusive direcionamento de recursos com um link entre elas. (CAMP-42133)
 * Correção de um problema que poderia impedir a execução de um workflow ao usar funções desconhecidas. (CAMP-41873)
-* Correção de um problema nos fluxos de trabalho que poderia ocorrer durante a criação de públicos-alvo usando várias atividades **Save audience** com transições complementares de saída. (CAMP-39992)
+* Correção de um problema nos fluxos de trabalho que poderia ocorrer durante a criação de públicos-alvo usando várias atividades **Salvar público-alvo** com transições complementares de saída. (CAMP-39992)
 * Correção de um problema que causava discrepância de dados ao usar personalização em emails transacionais. (CAMP-41842)
-* Correção de problemas que ocorriam ao excluir campos personalizados em deliveries de notificação por push. (CAMP-37586)
+* Correção de problemas que ocorriam ao excluir campos personalizados em entregas de notificação por push. (CAMP-37586)
 * Correção de um erro que impedia que os usuários fizessem alterações nos relatórios. (CAMP-42505)
 
 
@@ -359,7 +360,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->Os recursos da Adobe Experience Platform no Campaign Standard estão atualmente em versão beta, que pode estar sujeita a atualizações frequentes sem aviso prévio. Consulte a documentação detalhada: Conector de dados da Experience Platform, Audience Destinations
+>Os recursos da Adobe Experience Platform no Campaign Standard estão atualmente em versão beta, que pode estar sujeita a atualizações frequentes sem aviso prévio. Consulte a documentação detalhada: Conector de dados Experience Platform, Audience Destinations
 
 * Em logs de workflow, a cada 10 minutos, o Campaign agora exibe o número de registros já processados pelo trabalho que está sendo executado no momento.
 * Correção de um problema que ocorria ao importar um perfil da Adobe Experience Platform que havia sido excluído do banco de dados.
@@ -374,17 +375,17 @@ ht-degree: 99%
 * Correção de um problema ao excluir uma solicitação de acesso a dados pessoais manualmente no Campaign depois de ela ter sido processada, o que impedia que os dados associados à solicitação fossem excluídos mesmo após a limpeza.
 * Correção de um problema que podia ocorrer ao pré-visualizar ou enviar mensagens que incluíam caracteres especiais do Adobe Experience Manager.
 * Correção de um problema que ocorria em workflows ao executar uma atividade com várias transições de entrada.
-* Correção de um problema que impedia os usuários padrão de usar &quot;Assinaturas de um aplicativo&quot; como dimensão de destino em uma query de workflow ou delivery. (CAMP-37618)
+* Correção de um problema que impedia os usuários padrão de usar &quot;Assinaturas de um aplicativo&quot; como dimensão de destino em uma query de workflow ou entrega. (CAMP-37618)
 
-## Versão 20.1.4 - Fevereiro de 2020 {#release-20-1-4---february-2020}
+## Versão 20.1.4 - fevereiro de 2020 {#release-20-1-4---february-2020}
 
 * Correção de um problema ao abrir uma atividade **Read Audience** em workflows existentes. (CAMP-41002)
 
-## Versão 20.1.3 - Fevereiro de 2020 {#release-20-1-3---february-2020}
+## Versão 20.1.3 - fevereiro de 2020 {#release-20-1-3---february-2020}
 
 * Correção de um problema de regressão apresentado na versão 20.1 por CAMP-39273 para clientes que usam a abertura. CAMP-39273 foi revertido.
 
-## Versão 20.1.2 - Fevereiro de 2020 {#release-20-1-2---february-2020}
+## Versão 20.1.2 - fevereiro de 2020 {#release-20-1-2---february-2020}
 
 **Aprimoramentos do Email Designer**
 
@@ -435,7 +436,7 @@ ht-degree: 99%
 
 * Agora, as APIs do Campaign Standard permitem fazer a paginação ao usar tabelas grandes, adicionando o parâmetro `_forcePagination=true` ao URL da chamada. [Leia mais](../../api/using/pagination.md)
 
-* A ID de log de delivery (que é um identificador exclusivo de cada log) agora está disponível nos recursos Logs de delivery e Logs de rastreamento para todas as dimensões de direcionamento. Você pode identificar logs de rastreamento ou envios ao exportar, por exemplo. [Leia mais](../../automating/using/exporting-logs.md)
+* A ID de log de entrega (que é um identificador exclusivo de cada log) agora está disponível nos recursos Logs de entrega e Logs de rastreamento para todas as dimensões de direcionamento. Você pode identificar logs de rastreamento ou envios ao exportar, por exemplo. [Leia mais](../../automating/using/exporting-logs.md)
 
 **Aprimoramentos do Email Designer**
 
@@ -453,7 +454,7 @@ ht-degree: 99%
 
 **Outras alterações**
 
-* O filtro &quot;Deliveries with preparation failed&quot; agora leva em conta a data de criação dos deliveries em vez da data da última modificação.
+* O filtro &quot;Deliveries with preparation failed&quot; agora leva em conta a data de criação das entregas em vez da data da última modificação.
 * A unidade organizacional do grupo de segurança Administrators não pode mais ser alterada.
 * Ao criar um perfil, o campo Organizational Unit deve ser preenchido.
 * Um Acionador da Experience Cloud agora só poderá ser excluído se o evento e o template transacional vinculados a ele forem excluídos.
@@ -471,14 +472,14 @@ ht-degree: 99%
 * Correção de problemas de desempenho que podem ocorrer ao selecionar e atualizar perfis de teste. (CAMP-37976)
 * Correção de um problema que podia exibir páginas de erro ao assinar ou cancelar a assinatura via landing pages. (CAMP-37771)
 * Correção de um problema que ocorria ao fazer upload de conteúdo no formato zip, com arquivos PNG referenciados no HTML com sua extensão em letras maiúsculas. (CAMP-37913)
-* Correção de um problema que impedia o envio de mensagens no aplicativo ao adicionar um perfil de teste ao delivery.
+* Correção de um problema que impedia o envio de mensagens no aplicativo ao adicionar um perfil de teste à entrega.
 * Correção de um erro com a atividade de workflow API externa que falhava quando vinculada a atividades de enriquecimento.
 * Correção de um problema que resultava na exibição incorreta do status de mensagens SMS.
 * Correção de um problema com recursos personalizados que fazia com que entradas duplicadas fossem exibidas em diferentes pontos de extremidade de API.
 * Correção de um problema que impedia que landing pages ficassem disponíveis após a publicação. (CAMP-38695)
 * Correção de um erro que ocorria ao exibir dados de uma transição de Intersecção proveniente de dois recursos diferentes. (CAMP-38974)
-* Correção de um problema que fazia com que o valor de lista discriminada em um template do delivery fosse definido incorretamente. (CAMP-38388)
-* Correção de um erro com deliveries de email em massa que exibiam o estado dos deliveries como Pending e o status Sent como Finished. (CAMP-35355)
+* Correção de um problema que fazia com que o valor de lista discriminada em um template da entrega fosse definido incorretamente. (CAMP-38388)
+* Correção de um erro com entregas de email em massa que exibiam o estado das entregas como Pending e o status Sent como Finished. (CAMP-35355)
 * Correção de um erro que exibia o domínio do remetente incorretamente em Dynamic Reporting. (CAMP-33123)
 * Correção de um problema que causava discrepância em contagens de cancelamentos de assinatura em Dynamic Reporting. (CAMP-39949)
 * Correção de um problema que impedia a exibição de endereços na tela Sending logs ao enviar mensagens no aplicativo.

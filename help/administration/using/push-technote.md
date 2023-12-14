@@ -1,20 +1,19 @@
 ---
-title: Alterações futuras no Canal de notificação por push
-description: Alterações futuras no Canal de notificação por push
+title: Próximas alterações no Canal de notificação por push
+description: Próximas alterações no Canal de notificação por push
 audience: channels
 feature: Push
 role: Admin
 level: Experienced
-hide: true
-hidefromtoc: true
-source-git-commit: 9b7b127d92628169249c64ce85147d530b32a2cc
+exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
+source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 1%
+source-wordcount: '322'
+ht-degree: 5%
 
 ---
 
-# Alterações futuras no Canal de notificação por push {#push-upgrade}
+# Próximas alterações no Canal de notificação por push {#push-upgrade}
 
 Você pode usar o Campaign para enviar notificações por push em dispositivos Android e iOS. Para fazer isso, o Campaign depende de serviços de assinatura específicos. Algumas alterações importantes no serviço Android Firebase Cloud Messaging (FCM) serão lançadas em 2024 e afetarão sua implementação do Adobe Campaign. Além disso, para aplicativos iOS, o Adobe está alterando a maneira de permitir que os administradores configurem certificados.
 
