@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 311fdf000333c03cb3b21fc6fea786251ced045f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '472'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ Todas as instâncias do Adobe Campaign Standard são atualizadas com cada nova v
 
 As atualizações são implantadas em duas fases. Primeiro, as instâncias de Preparo estão atualizadas para permitir que nossos clientes testem novos recursos e adaptem suas configurações, se necessário. As instâncias de Produção são atualizadas posteriormente.
 
-Todas as datas de lançamento estão sujeitas a alterações. Visite esta página regularmente para verificar se há atualizações. As atualizações de ambientes ocorrem em ondas, durante os intervalos indicados abaixo. As datas exatas são comunicadas por email a cada cliente.
+Todas as datas de lançamento estão sujeitas a alterações; acesse esta página com frequência para verificar se há atualizações. As atualizações de ambientes ocorrem em ondas, durante os intervalos indicados abaixo. As datas exatas são comunicadas por email a cada cliente.
 
-## Versão 24.1 - Versão de inverno de 2024 {#release-24-1-release}
+## Versão 24.1 - Versão do 1º trimestre de 2024 {#release-24-1-release}
 
-Informações detalhadas sobre esta versão estarão disponíveis no [Notas de versão](release-notes.md) uma semana antes do início das atualizações do ambiente de preparo.
+Informações detalhadas sobre esta versão estarão disponíveis nas [notas de versão](release-notes.md) uma semana antes do início das atualizações do ambiente de teste.
 
 <table>
  <thead>
@@ -49,7 +49,7 @@ Informações detalhadas sobre esta versão estarão disponíveis no [Notas de v
 </table>
 
 
-## Versão 23.2 - Versão limitada do último trimestre de 2023 {#release-23-2-release}
+## Versão 23.2 - Versão limitada do 4º trimestre de 2023 {#release-23-2-release}
 
 
 >[!AVAILABILITY]
