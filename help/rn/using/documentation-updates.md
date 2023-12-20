@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: cd1650801bf31edc99d93901da232ff618673eed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7240'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Além das [Notas de versão](../../rn/using/release-notes.md) do Adobe Campaign,
 
 ## Dezembro de 2023 {#doc-updates-dec-2023}
 
-Algumas alterações importantes no serviço Android Firebase Cloud Messaging (FCM) serão lançadas em 2024 e afetarão sua implementação do Adobe Campaign. Saiba mais em [esta nota técnica](../../administration/using/push-technote.md).
+Algumas alterações importantes no serviço Firebase Cloud Messaging (FCM) para Android serão lançadas em 2024 e afetarão sua implementação do Adobe Campaign. Saiba mais nesta [nota técnica](../../administration/using/push-technote.md).
 
 ## Versão 23.2 - Último trimestre de 2023 {#release-23-2}
 
@@ -138,7 +138,7 @@ Nova página **Ajuda e opções de suporte**. [Leia mais](../../support.md)
 
 A seção que lista as principais etapas para enviar uma mensagem foi aprimorada com informações e referências adicionais. [Leia mais](../../channels/using/key-steps-to-send-a-message.md)
 
-Foram adicionadas informações para especificar que, ao selecionar um público em uma consulta, sua definição é copiada e não referenciada. [Leia mais](../../audiences/using/selecting-an-audience-in-a-message.md)
+Foram adicionadas informações para especificar que, ao selecionar um público-alvo em uma consulta, sua definição é copiada e não referenciada. [Leia mais](../../audiences/using/selecting-an-audience-in-a-message.md)
 
 As informações relacionadas ao serviço Audience Destinations e ao conector de dados da Adobe Experience Platform foram reagrupadas em uma nova seção.
 
@@ -236,7 +236,7 @@ Foram adicionadas informações sobre fontes anônimas no relatório perfis ativ
 
 Está disponível uma nova seção atualizada sobre como começar a usar mensagens transacionais. [Leia mais](../../channels/using/getting-started-with-transactional-msg.md)
 
-A variável **Limitações de mensagens transacionais** a seção foi movida [aqui](../../channels/using/transactional-messaging-limitations.md).
+A seção **Limitações de mensagens transacionais** foi movida [para cá](../../channels/using/transactional-messaging-limitations.md).
 
 A seção **Preparação do envio** foi movida [para cá](../../sending/using/preparing-the-send.md).
 
@@ -350,7 +350,7 @@ Informações mais detalhadas sobre o MTA aprimorado foram adicionadas à docume
 
 A seção dedicada ao arquivamento com Cco de email foi movida e atualizada. [Leia mais](../../sending/using/archiving.md)
 
-A documentação Configuração de um aplicativo para dispositivo móvel e páginas relacionadas foi atualizada com o objetivo de refletir a depreciação do SDK V4. [Leia mais](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
+A documentação Configuração de um aplicativo para dispositivo móvel e páginas relacionadas foi atualizada com o objetivo de refletir a depreciação do SDK V4. [Leia mais](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=pt-BR)
 
 A documentação de integração do Adobe Campaign Standard/Adobe Experience Manager foi atualizada e aprimorada. [Leia mais](../../integrating/using/configure-experience-manager.md)
 
@@ -384,7 +384,7 @@ Foram adicionadas informações no guia Working with APIs sobre o novo parâmetr
 
 Uma nova seção que descreve os avisos que podem ser exibidos em um painel de mensagem está disponível. [Leia mais](../../channels/using/message-dashboard.md#warnings)
 
-A documentação do MTA aprimorado do Adobe Campaign, que descreve a infraestrutura de envio atualizada, permitindo avaliação aprimorada da entrega, produtividade e manipulação de rejeição, está disponível. [Leia mais](https://helpx.adobe.com/br/campaign/kb/campaign-enhanced-mta.html)
+A documentação do MTA aprimorado do Adobe Campaign, que descreve a infraestrutura de envio atualizada, tornando possível o aprimoramento da capacidade da entrega, produtividade e manipulação de rejeição, está disponível. [Leia mais](https://helpx.adobe.com/br/campaign/kb/campaign-enhanced-mta.html)
 
 Foram adicionadas observações sobre os URLs do servidor de aplicativos e do servidor de mirror pages. Eles devem estar protegidos para que as pré-visualizações de landing page e mirror pages sejam exibidas na interface do Campaign. [Leia mais](../../administration/using/branding.md#configuring-and-using-brands)
 
@@ -410,7 +410,7 @@ A documentação Configuração da conta externa S3 foi atualizada. [Leia mais](
 
 A seção Design de conteúdo de email foi reorganizada. [Leia mais](../../designing/using/designing-content-in-adobe-campaign.md)
 
-O guia de introdução à Avaliação da entrega foi integrado à documentação principal e atualizado. [Leia mais](../../sending/using/about-deliverability.md)
+O guia de introdução à Capacidade da entrega foi integrado à documentação principal e atualizado. [Leia mais](../../sending/using/about-deliverability.md)
 
 O guia de introdução sobre como exportar/importar recursos personalizados foi integrado à documentação principal. [Leia mais](../../automating/using/exporting-importing-custom-resources.md)
 
@@ -682,7 +682,7 @@ O guia Design de conteúdo foi atualizado para refletir a disponibilidade geral 
 
 Atualização da documentação de [Mensagens no aplicativo](../../channels/using/about-in-app-messaging.md) e [Notificações de push](../../channels/using/about-push-notifications.md).
 
-Foram adicionadas mais informações sobre os diferentes tipos de públicos no Adobe Campaign. [Leia mais](../../audiences/using/about-audiences.md)
+Foram adicionadas mais informações sobre os diferentes tipos de públicos-alvos no Adobe Campaign. [Leia mais](../../audiences/using/about-audiences.md)
 
 Atualização do capítulo Usuários e Segurança para refletir a depreciação das unidades geográficas. [Leia mais](../../administration/using/organizational-units.md)
 
@@ -716,7 +716,7 @@ Integração do Adobe Launch para aplicativos de dispositivos móveis (beta) - [
 
 Atualização do guia Notificação por push, com alterações na interface. [Leia mais](../../channels/using/about-push-notifications.md)
 
-Foram adicionadas informações sobre como excluir um público. [Leia mais](../../audiences/using/creating-audiences.md#deleting-audiences)
+Foram adicionadas informações sobre como excluir um público-alvo. [Leia mais](../../audiences/using/creating-audiences.md#deleting-audiences)
 
 Atualização da seção Relatório integrado de notificação por push. [Leia mais](../../reporting/using/push-notification-report.md)
 
@@ -1080,7 +1080,7 @@ Notificações por push: melhorias - [Leia mais](../../channels/using/about-push
 
 Fluxos de trabalho: nova atividade de sinal - [Leia mais](../../automating/using/external-signal.md)
 
-Fluxos de trabalho: nova atividade de leitura de público - [Leia mais](../../automating/using/read-audience.md)
+Fluxos de trabalho: nova atividade de leitura de público-alvo - [Leia mais](../../automating/using/read-audience.md)
 
 Dados de pontos de interesse - [Leia mais](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 
@@ -1092,7 +1092,7 @@ Integração do Triggers: foram adicionados dois casos de usos. [Leia mais](../.
 
 Reprojetamos a documentação da API do desenvolvedor com novas informações e trechos de código para uma melhor experiência do usuário. [Leia mais](../../api/using/get-started-apis.md)
 
-Descubra exemplos das novas atividades de workflow [Ler público](../../automating/using/read-audience.md) e [Sinal externo](../../automating/using/external-signal.md).
+Descubra exemplos das novas atividades de workflow [Ler público-alvo](../../automating/using/read-audience.md) e [Sinal externo](../../automating/using/external-signal.md).
 
 ## Versão 17.1 – Janeiro de 2017 {#release-17-1---january-2017}
 
@@ -1114,4 +1114,4 @@ Alteração de URL: Serviço principal do Assets – [Leia mais](../../integrati
 
 Alteração de URL: Serviço principal do People – [Leia mais](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
-O guia de Perfis e Públicos foi reorganizado. [Leia mais](../../audiences/using/get-started-profiles-and-audiences.md)
+O guia de Perfis e públicos-alvos foi reorganizado. [Leia mais](../../audiences/using/get-started-profiles-and-audiences.md)
