@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 46c5454ad712910c88bfda7c067fda0337b043d9
-workflow-type: ht
-source-wordcount: '235'
-ht-degree: 100%
+source-git-commit: 602aca18af81625b9756a8f2020b5bc636199b96
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 68%
 
 ---
 
@@ -23,7 +23,7 @@ Esta página descreve as melhorias e correções incluídas na próxima versão 
 >
 > Esse conteúdo está sujeito a alterações sem aviso prévio até a data de atualização dos ambientes de estágio. Saiba mais na [página de planejamento de versão](../../rn/using/release-planning.md).
 
-## Versão 23.2 - Versão de outono/inverno de 2023 {#fall-23}
+## Versão 24.1 - Versão do 1º trimestre de 2024 {#winter-24}
 
 >[!AVAILABILITY]
 >
@@ -31,25 +31,9 @@ Esta página descreve as melhorias e correções incluídas na próxima versão 
 
 ### Aprimoramentos {#e-rn-improvements}
 
-* **Integração com o Adobe Experience Manager**. Ao criar um template de entrega personalizado para mensagens transacionais no Adobe Experience Manager, agora é possível selecionar e usar os campos de personalização definidos no Campaign Standard em um menu suspenso.
+O Adobe Campaign Standard 24.1 usa as APIs HTTP v1 para enviar mensagens de notificação por push do Android, a fim de garantir a compatibilidade com as alterações futuras do FCM. Saiba mais nesta [nota técnica](../../administration/using/push-technote.md).
 
-* **Expiração de cookies**: a expiração padrão de cookies agora é definida como seis meses, de acordo com as recomendações da Agência de Proteção de Dados (CNIL) da França.
-
-* **Aprimoramento da pesquisa de perfil**: a pesquisa de perfil foi otimizada para reduzir os casos de tempo-limite esgotado
-
-* **Localização**: as traduções do termo &quot;público-alvo&quot;, em referência a um grupo de perfis direcionados para receber uma mensagem, foram harmonizadas em todos os produtos da Digital Experience nos seguintes idiomas:
-
-   * Alemão: Zielgruppe
-   * Português (Brasil): público-alvo
-   * Espanhol: público destinatario
-
-  Essas alterações serão implementadas gradualmente com as próximas versões da interface e da documentação.
-
-### Outras alterações {#e-rn-other-changes}
-
-* As mensagens transacionais agora são compatíveis com o uso de várias afinidades separadas por vírgulas.
 
 ### Correções {#e-rn-fixes}
 
-* Correção de uma regressão que poderia causar problemas de desempenho ao usar workflows grandes. (CAMP-53369)
-* Correção de um problema que impedia que o link de email em alertas ou notificações do workflow funcionasse. (CAMP-51874)
+* Correção de um problema que interrompia o fluxo de trabalho de Alertas de entrega com o seguinte erro: `division by zero`. (CAMP-49786)
