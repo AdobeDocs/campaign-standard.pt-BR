@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
 source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
 workflow-type: tm+mt
-source-wordcount: '4569'
+source-wordcount: '4695'
 ht-degree: 100%
 
 ---
@@ -107,7 +107,7 @@ Os novos recursos, melhorias e correções incluídos na versão mais recente do
 * Uma nova mensagem de alerta informa aos usuários uma alta taxa de rejeição.
 * Mensagens e avisos de erro de log aprimorados para facilitar a depuração quando os logs de rastreamento falharam ao serem recuperados corretamente. (CAMP-48939, CAMP-47360)
 * Agora é possível personalizar totalmente os URLs, incluindo o nome do domínio. [Saiba mais](../../designing/using/personalization.md#personalizing-urls)
-* Os perfis de prova e captura foram excluídos do cálculo de desempenho de delivery nos Relatórios dinâmicos. (CAMP-47338)
+* Os perfis de prova e captura foram excluídos do cálculo de desempenho de entrega nos Relatórios dinâmicos. (CAMP-47338)
 
 **Correções**
 
@@ -129,7 +129,7 @@ Os novos recursos, melhorias e correções incluídos na versão mais recente do
 * Correção de um problema que impedia a definição adequada de um código de segmento dinâmico na atividade de fluxo de trabalho **Segmentação**. (CAMP-48727)
 * Correção de um erro que ocorria aleatoriamente ao tentar salvar um fluxo de trabalho após editá-lo. (CAMP-48695)
 * Correção de um problema que impedia a publicação de recursos personalizados devido à permanência de um esquema de dados do acionador mesmo após a exclusão do acionador. (CAMP-48523)
-* Correção de um problema que impedia que as solicitações do loop de comentários fossem atendidas, pois o processo do InMail não podia recuperar os logs do delivery para atualização. (CAMP-48705)
+* Correção de um problema que impedia que as solicitações do loop de comentários fossem atendidas, pois o processo do InMail não podia recuperar os logs da entrega para atualização. (CAMP-48705)
 * Correção de um problema que impedia a definição correta das opções de exclusão na atividade de fluxo de trabalho **Exclusão**.(CAMP-48355)
 * Correção de um problema que ocorria quando atividades de enriquecimento em workflows envolviam assinaturas ou cancelamentos de assinaturas de um serviço. Esse problema causou uma falha.
 * Correção de um problema que impedia a execução de workflows.
@@ -156,7 +156,7 @@ Os novos recursos, melhorias e correções incluídos na próxima versão do Cam
 
 * Em entregas com muitas variantes, os usuários não poderão mais criar cópias de idioma se a variante padrão tiver sido excluída. Uma mensagem agora é exibida durante a criação da cópia de idioma. (CAMP-48235)
 
-* O processo de exclusão de perfil de duas etapas (descontinuado a partir da versão 19.4 do Campaign) agora está desativado por padrão. Anteriormente, era necessário desativá-lo manualmente na interface do Campaign antes de usar o Serviço principal de privacidade. Não fazer isso levava as solicitações de exclusão a permanecerem no estado pendente sem conclusão.
+* O processo de exclusão de perfil de duas etapas (descontinuado a partir da versão 19.4 do Campaign) agora está desabilitado por padrão. Anteriormente, era necessário desabilitá-lo manualmente na interface do Campaign antes de usar o Serviço principal de privacidade. Não fazer isso levava as solicitações de exclusão a permanecerem no estado pendente sem conclusão.
 
 * Em Relatórios dinâmicos, o segmento **Excluir prova** foi removido. (CAMP-46161)
 
@@ -184,7 +184,7 @@ Os novos recursos, melhorias e correções incluídos na próxima versão do Cam
 
 * Correção de vários problemas que causavam discrepância de dados entre relatórios no Adobe Campaign Standard e relatórios no Adobe Analytics. (CAMP-47671, CAMP-47296)
 
-* Correção de um problema que impedia o acesso aos logs do delivery após a falha da preparação. (CAMP-48296)
+* Correção de um problema que impedia o acesso aos logs da entrega após a falha da preparação. (CAMP-48296)
 
 * Correção de um problema que podia exibir uma mensagem de erro ao ser feita uma tentativa de editar, excluir ou enviar um relatório personalizado. (CAMP-47789, CAMP-47798)
 
@@ -352,7 +352,7 @@ Os novos recursos, melhorias e correções incluídos na próxima versão do Cam
 
 * Correção de um problema que fazia com que as entregas fossem executadas muito lentamente devido a determinados processos. Isso acontecia porque unidades incorretas estavam definidas para vários parâmetros (milissegundos em vez de segundos, por exemplo).
 
-* Correção de um problema quando o SDK móvel enviava uma solicitação de rastreamento aberta com base na condição de que deliveryId/MessageID não fosse nulo. Isso resultava em erros 404 para entregas com rastreamento desativado. Uma variável adicional (acsDeliveryTracking) com informações sobre o status de rastreamento da entrega agora é enviada junto com o conteúdo. Essa variável pode ter dois valores ativados ou desativados dependendo do status de rastreamento definido. [Saiba mais](../../administration/using/push-tracking.md).
+* Correção de um problema quando o SDK móvel enviava uma solicitação de rastreamento aberta com base na condição de que deliveryId/MessageID não fosse nulo. Isso resultava em erros 404 para entregas com rastreamento desabilitado. Uma variável adicional (acsDeliveryTracking) com informações sobre o status de rastreamento da entrega agora é enviada junto com o conteúdo. Essa variável pode ter dois valores ativados ou desativados dependendo do status de rastreamento definido. [Saiba mais](../../administration/using/push-tracking.md).
 
 * Correção de um problema em workflows que ocorria ao copiar e colar uma atividade **Desduplicação** executada uma vez e que aproveitava um recurso temporário. Depois de duplicado, o recurso de atividade era automaticamente definido como vazio, resultando em problemas em outras atividades do workflow. Depois de colado, o recurso de atividade permanecerá o mesmo, para que o erro seja acionado o mais rápido possível, em vez de posteriormente, no workflow. (CAMP-46903)
 
@@ -362,12 +362,12 @@ Os novos recursos, melhorias e correções incluídos na próxima versão do Cam
   >
   >Devido a essa alteração, se você está usando uma notificação transacional por push baseada em perfil (criada antes da atualização para o Adobe Campaign 21.1), é recomendável atualizar o target mapping para o novo e publicar a mensagem novamente. Veja as etapas detalhadas [aqui](../../channels/using/transactional-push-notifications.md#change-target-mapping). Usar o target mapping anterior **Perfil — Evento em tempo real** (*mapRtEventRcp*) pode resultar em tempos de preparação de entrega mais longos e diminuição de desempenho.
 
-* Correção de um problema que impedia a execução de relatórios do delivery quando 5000 linhas eram exibidas.
-* Correção de um problema com o teste AB que impedia que o conteúdo da variante B fosse atualizado após a modificação do template do delivery. (CAMP-45235)
+* Correção de um problema que impedia a execução de relatórios da entrega quando 5000 linhas eram exibidas.
+* Correção de um problema com o teste AB que impedia que o conteúdo da variante B fosse atualizado após a modificação do template da entrega. (CAMP-45235)
 * Correção de um problema que causava a interrupção do processo de mensagens transacionais, impedindo o envio de mensagens.
 * Correção de um problema que resultava em problemas de navegação após clicar em um link interno (por exemplo, ao acessar a entrega pai de uma tela de resumo de prova).
 * Correção de um problema que impedia que todos os modelos de conteúdo do Experience Manager disponíveis fossem exibidos ao criar uma entrega. (CAMP-45990)
-* Correção de um problema em workflows que impedia a exibição de mensagens de falha nos logs do delivery após a adição da coluna **Motivo** à guia de dados adicional. (CAMP-45139)
+* Correção de um problema em workflows que impedia a exibição de mensagens de falha nos logs da entrega após a adição da coluna **Motivo** à guia de dados adicional. (CAMP-45139)
 * Correção de um problema que ocorria quando duas chamadas de assinatura do aplicativo tinham a mesma ID da Marketing Cloud (erro &quot;o valor de chave duplicado viola a restrição única&quot;).
 * Correção de um problema que resultava em problemas de lentidão ao arrastar e soltar atividades em um fluxo de trabalho contendo uma grande quantidade de atividades **Consulta** e **Ler público**. (CAMP-44511)
 * Correção de um erro que ocorria ao final da preparação da mensagem transacional, impedindo que as informações de redirecionamento fossem carregadas nos servidores de rastreamento.
@@ -385,7 +385,7 @@ Os novos recursos, melhorias e correções incluídos na próxima versão do Cam
 * Correção de um problema que impedia a reconexão do conector SMPP.
 * Correção de um problema que ocorria na atividade **Transferência de arquivo** ao baixar um arquivo contendo um ponto em seu nome. Os caracteres após o ponto eram considerados como a extensão do arquivo. (CAMP-46624)
 * Correção de um problema que impedia a execução do pool do banco de dados, o que fazia com que mensagens transacionais ficassem presas na fila do roteador.
-* Correção de um erro que não impedia o envio de logs do delivery cancelados.
+* Correção de um erro que não impedia o envio de logs da entrega cancelados.
 * Correção de um problema que causava a falha de um fluxo de trabalho ao usar uma atividade **AND-join**. A atividade alterava automaticamente o conjunto Principal para a última transição conectada a ela, mesmo se mostrasse visualmente a primeira transição conectada. (CAMP-46900)
 * Correção de um problema que fazia com que endereços colocados em quarentena com êxito tivessem seu status definido incorretamente como Válido, removendo-os da quarentena.
 * Correção de um problema que impedia que campos personalizados fossem exibidos se contivessem caracteres especiais. (CAMP-46805)
@@ -420,7 +420,7 @@ Os novos recursos, melhorias e correções incluídos na próxima versão do Cam
 * Correção de um problema que impedia a exclusão de dados do GDPR do fluxo de trabalho de limpeza.
 * Correção de um erro que ocorria quando a configuração de programação era atualizada manualmente com o teclado nos parâmetros de programação da entrega de email.
 * Correção de um problema que podia impedir a edição de um perfil devido a parâmetros incorretos na entidade organizacional.
-* Correção de um problema que deixava o campo de extensão **Serviço** vazio e impossível de ser definido nas **Propriedades de email**, mesmo que estivesse definido no template do delivery.
+* Correção de um problema que deixava o campo de extensão **Serviço** vazio e impossível de ser definido nas **Propriedades de email**, mesmo que estivesse definido no template da entrega.
 * Correção de um problema que podia fazer as provas demorarem mais para serem processadas. (CAMP-45048)
 * Correção de um problema que impedia a classificação de colunas em uma tela de visão geral do perfil.
 * Correção de um problema de geração de miniaturas que podia ocorrer no Azure em variantes de email contendo caracteres chineses. (CAMP-47152)

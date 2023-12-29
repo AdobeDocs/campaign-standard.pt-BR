@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: ba6205fa-dbcf-497a-882f-f15c00f12e68
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 64%
+source-wordcount: '292'
+ht-degree: 62%
 
 ---
 
@@ -43,5 +43,5 @@ Após configurar os conectores, é possível configurar uma importação ou expo
 
 Para obter mais detalhes sobre como configurar esses processos de importação e exportação, consulte estas seções:
 
-* [Assimilar públicos da Adobe Experience Platform no Campaign](../../integrating/using/ingest-aep-data.md)
+* [Assimilar públicos-alvos da Adobe Experience Platform no Campaign](../../integrating/using/ingest-aep-data.md)
 * [Exportar dados do Campaign para a Adobe Experience Platform](../../integrating/using/export-campaign-data.md)

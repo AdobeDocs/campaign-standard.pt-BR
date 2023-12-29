@@ -9,8 +9,8 @@ level: Experienced
 exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 31%
+source-wordcount: '725'
+ht-degree: 27%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 31%
                <tr>
                   <td>identidade visual (brandingBase)</td>
                   <td>Marca</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -100,13 +100,13 @@ ht-degree: 31%
                <tr>
                   <td>campaign (campaignBase)</td>
                   <td>Campanha</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>cmsAccount (extAccountAEMBase)</td>
                   <td>Conta do Adobe Experience Manager</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -142,13 +142,13 @@ ht-degree: 31%
                <tr>
                   <td>criado</td>
                   <td>Criado</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Criado por</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -168,7 +168,7 @@ ht-degree: 31%
                <tr>
                   <td>deliveryProvider (extAccountBase)</td>
                   <td>Roteamento</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -223,7 +223,7 @@ ht-degree: 31%
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unidade geográfica</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -267,7 +267,7 @@ ht-degree: 31%
                </tr>
                <tr>
                   <td>isTemplate</td>
-                  <td>Template</td>
+                  <td>Modelo</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -296,7 +296,7 @@ ht-degree: 31%
                   <td> </td>
                </tr>
                <tr>
-                  <td>label</td>
+                  <td>rótulo</td>
                   <td>Rótulo</td>
                   <td>sequência de caracteres (128)</td>
                   <td> </td>
@@ -304,7 +304,7 @@ ht-degree: 31%
                <tr>
                   <td>lastModified</td>
                   <td>Última modificação</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -331,19 +331,19 @@ ht-degree: 31%
                <tr>
                   <td>mainDate</td>
                   <td>Data</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>mapping (deliveryMapping)</td>
                   <td>Target mapping</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>mestre (deliveryBase)</td>
                   <td>Instância principal</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -372,7 +372,7 @@ ht-degree: 31%
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificado por</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -390,13 +390,13 @@ ht-degree: 31%
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Entidade organizacional</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>pai (deliveryBase)</td>
                   <td>Entrega principal</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -414,7 +414,7 @@ ht-degree: 31%
                <tr>
                   <td>programa (programBase)</td>
                   <td>Programa</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -514,7 +514,7 @@ ht-degree: 31%
                <tr>
                   <td>modelo (deliveryTemplateSummary)</td>
                   <td>Template de entrega</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -556,13 +556,13 @@ ht-degree: 31%
                <tr>
                   <td>tipologia (typologyBase)</td>
                   <td>Tipologia</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>workflow (workflowBase)</td>
                   <td>Fluxo de trabalho de direcionamento</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -662,7 +662,7 @@ Por período (byStartPeriod)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
     <tr>
     <td>timePeriod</td>
@@ -757,11 +757,11 @@ Planejado durante o período determinado (por Planejamento)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
 </table>
 
@@ -774,11 +774,11 @@ Presente durante determinado período (por calendário)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
 </table>
 

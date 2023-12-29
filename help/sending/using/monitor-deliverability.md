@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 58%
+source-wordcount: '308'
+ht-degree: 25%
 
 ---
 
@@ -24,13 +24,13 @@ Abaixo você encontrará detalhes sobre o **[!UICONTROL Delivery throughput]** r
 * Verifique regularmente se a caixa de rejeição está acessível e se a conta não está prestes a expirar.
 * Verifique a taxa de transferência de cada delivery para garantir que ela seja consistente com a validade do conteúdo do delivery (por exemplo, &quot;vendas rápidas&quot; devem ser entregues em minutos, não em dias).
 * Verifique se o número de erros e as novas quarentenas estão consistentes com outros deliveries.
-* Consulte detalhadamente os logs do delivery para verificar o tipo de erro destacado (lista de bloqueios, problemas de DNS, regras anti-spam, etc…).
+* Incluir na lista de bloqueios Consulte os logs do delivery detalhadamente para verificar o tipo de erro destacado (perguntas, problemas de DNS, regras antisspam etc.).
 
-## Taxa de transferência de delivery {#delivery-throughput}
+## Taxa de transferência de entrega {#delivery-throughput}
 
 Este relatório contém informações sobre a taxa de transferência de delivery da plataforma inteira por um determinado período para medir a velocidade em que as mensagens são entregues.
 
-Para obter mais informações, consulte [Taxa de transferência de delivery](../../reporting/using/delivery-throughput.md).
+Para obter mais informações, consulte [Taxa de transferência de entrega](../../reporting/using/delivery-throughput.md).
 
 ![](assets/delivery_reports_1.png)
 
@@ -42,7 +42,7 @@ Outros relatórios estão disponíveis, como **[!UICONTROL Delivery summary]** o
 
 O painel de mensagem fornece acesso aos logs do delivery: **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** e **[!UICONTROL Tracked URLs]**. Eles mostram os detalhes do envio, o público-alvo que foi excluído e o motivo, e as informações de rastreamento, como aberturas e cliques.
 
-Para obter mais informações, consulte [Monitoramento de um delivery](../../sending/using/monitoring-a-delivery.md)
+Para obter mais informações, consulte [Monitoramento de uma entrega](../../sending/using/monitoring-a-delivery.md)
 
 ![](assets/sending_delivery1.png)
 

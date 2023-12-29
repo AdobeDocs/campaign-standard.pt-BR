@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: b6a43d51-32d4-4806-b4e4-33236f1e27f5
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 47%
+source-wordcount: '773'
+ht-degree: 46%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 47%
 A variável **[!UICONTROL Push notification]** A atividade permite configurar o envio de uma notificação por push em um workflow. Pode ser uma única notificação de envio e enviada apenas uma vez ou pode ser uma notificação recorrente.
 
 * **Solteiro** enviar notificações são entregas padrão de notificação por push de aplicativos móveis, enviadas uma vez.
-* **Recorrente** as notificações permitem enviar a mesma entrega de notificação por push de aplicativo móvel várias vezes para públicos-alvos diferentes em um período definido. Você pode agregar os deliveries por período para obter relatórios que correspondam às suas necessidades.
+* **Recorrente** as notificações permitem enviar a mesma entrega de notificação por push de aplicativo móvel várias vezes para públicos-alvos diferentes em um período definido. Você pode agregar as entregas por período para obter relatórios que correspondam às suas necessidades.
 
 ## Contexto de uso {#context-of-use}
 
@@ -49,7 +49,7 @@ A preparação da mensagem é acionada de acordo com os parâmetros de execuçã
 
    >[!NOTE]
    >
-   >Você pode acessar as propriedades gerais e as opções avançadas da atividade (e não do delivery propriamente dito) por meio do botão ![](assets/dlv_activity_params-24px.png) nas ações rápidas da atividade. Esse botão é específico para a atividade **[!UICONTROL Push notification]**. As propriedades da notificação por push podem ser acessadas pela barra de ação no painel de push.
+   >Você pode acessar as propriedades gerais e as opções avançadas da atividade (e não da entrega propriamente dita) por meio do botão ![](assets/dlv_activity_params-24px.png) nas ações rápidas da atividade. Esse botão é específico para a atividade **[!UICONTROL Push notification]**. As propriedades da notificação por push podem ser acessadas pela barra de ação no painel de push.
 
 1. Selecione o modo de envio da notificação por push:
 
@@ -70,10 +70,10 @@ A preparação da mensagem é acionada de acordo com os parâmetros de execuçã
 
 Ao reabrir a atividade, você é levado diretamente ao painel de notificação por push. Somente seu conteúdo pode ser editado.
 
-Por padrão, iniciar um workflow de delivery aciona somente a preparação da mensagem. O envio de mensagens criadas a partir de um workflow ainda precisará ser confirmado depois que o workflow for iniciado. Porém, no painel de mensagens, e somente se a mensagem tiver sido criada a partir de um workflow, você poderá desativar a opção **[!UICONTROL Request confirmation before sending messages]**. Ao desmarcar essa opção, as mensagens são enviadas sem aviso prévio após a preparação.
+Por padrão, iniciar um workflow de entrega aciona somente a preparação da mensagem. O envio de mensagens criadas a partir de um workflow ainda precisará ser confirmado depois que o workflow for iniciado. Porém, no painel de mensagens, e somente se a mensagem tiver sido criada a partir de um workflow, você poderá desabilitar a opção **[!UICONTROL Request confirmation before sending messages]**. Ao desmarcar essa opção, as mensagens são enviadas sem aviso prévio após a preparação.
 
 ## Observações {#remarks}
 
-Os deliveries criados em um workflow podem ser acessados na lista de atividade de marketing do aplicativo. Você pode visualizar o status de execução do workflow usando o painel. Os links no painel de resumo da notificação por push permitem acessar diretamente os elementos vinculados (workflow, campanha etc.).
+As entregas criadas em um workflow podem ser acessadas na lista de atividade de marketing do aplicativo. Você pode visualizar o status de execução do workflow usando o painel. Os links no painel de resumo da notificação por push permitem acessar diretamente os elementos vinculados (workflow, campanha etc.).
 
 Nas entregas pai, que podem ser acessadas na lista de atividades de marketing, é possível visualizar o número total de envios que foram processados (de acordo com o período de agregação especificado quando a variável **[!UICONTROL Push notification]** atividade foi configurada). Para fazer isso, abra a visualização detalhada do bloco **[!UICONTROL Deployment]** da entrega pai, selecionando ![](assets/wkf_dlv_detail_button.png).

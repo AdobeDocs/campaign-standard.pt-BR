@@ -1,6 +1,6 @@
 ---
 title: Atividades de marketing
-description: '“Saiba como criar e gerenciar atividades de marketing: campanhas, email, deliveries de SMS e de notificações por push, landing pages e fluxos de trabalho. Você pode facilmente projetar uma nova atividade, editar uma já existente e consultar o status e a validade dessa atividade."'
+description: '“Saiba como criar e gerenciar atividades de marketing: campanhas, email, entregas de SMS e de notificações por push, landing pages e fluxos de trabalho. Você pode facilmente projetar uma nova atividade, editar uma já existente e consultar o status e a validade dessa atividade."'
 audience: start
 content-type: reference
 topic-tags: marketing-plans
@@ -12,7 +12,7 @@ exl-id: c75471aa-b947-4488-a569-5412d3825c64
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 83%
+ht-degree: 79%
 
 ---
 
@@ -38,15 +38,15 @@ Para acessar diretamente o conteúdo de cada atividade, escolha um dos elementos
 
 O botão **[!UICONTROL Create]** pode ser usado para criar uma nova atividade. Para mais informações, consulte a seção [Criação de uma atividade de marketing](#creating-a-marketing-activity).
 
-## Ícones e status da atividade de marketing {#marketing-activity-icons-and-statuses}
+## Ícones e status de atividades de marketing {#marketing-activity-icons-and-statuses}
 
 Na zona principal, cada tipo de atividade na lista tem um ícone:
 
 * ![](assets/marketing_program_icon.png) Programa
-* ![](assets/marketing_campaign_icon.png) Campanha
-* ![](assets/marketing_email_icon.png) Email
+* ![](assets/marketing_campaign_icon.png) Campaign
+* ![](assets/marketing_email_icon.png) E-mail
 * ![](assets/marketing_sms_icon.png) SMS
-* ![](assets/marketing_push_icon.png) Notificações por push
+* ![](assets/marketing_push_icon.png) Notificação por push
 * ![](assets/marketing_lp_icon.png) Mensagem no aplicativo
 * ![](assets/marketing_lp_icon.png) Landing page
 * ![](assets/marketing_workflow_icon.png) Fluxo de trabalho

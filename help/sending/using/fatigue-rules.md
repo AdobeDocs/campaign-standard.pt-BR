@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 21abf3c2-d319-40a8-9479-1fc02c82e5d2
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '2341'
-ht-degree: 99%
+source-wordcount: '2374'
+ht-degree: 98%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 99%
 
 Com as regras de fadiga os profissionais de marketing definem regras comerciais globais entre canais que excluirão automaticamente perfis excessivamente solicitados das campanhas.
 
-Para implementar regras de fadiga, defina um número máximo de mensagens por perfil e selecione um período no qual a regra será aplicada. Durante a preparação do delivery, os perfis são excluídos do delivery, se aplicável, dependendo do número de mensagens já enviadas a eles.
+Para implementar regras de fadiga, defina um número máximo de mensagens por perfil e selecione um período no qual a regra será aplicada. Durante a preparação da entrega, os perfis são excluídos da entrega, se aplicável, dependendo do número de mensagens já enviadas a eles.
 
 >[!NOTE]
 >
->Para que as regras de fadiga sejam aplicadas, é necessário definir uma data de contato para o seu delivery. Se a opção for enviar mensagens imediatamente, a regra de fadiga não é aplicada.
+>Para que as regras de fadiga sejam aplicadas, é necessário definir uma data de contato para a sua entrega. Se a opção for enviar mensagens imediatamente, a regra de fadiga não é aplicada.
 
 Tópicos relacionados:
 
@@ -54,7 +54,7 @@ Para criar e configurar uma regra de tipologia **[!UICONTROL Fatigue]**, siga es
 
    ![](assets/fatigue5.png)
 
-1. Na guia **[!UICONTROL General]**, defina o método para calcular o número máximo de mensagens por perfil. Você pode escolher um limite constante ou uma variável. Também é possível refinar o limite nos perfis e nos deliveries. Para obter mais informações, consulte [Definição de limite](#defining-the-threshold).
+1. Na guia **[!UICONTROL General]**, defina o método para calcular o número máximo de mensagens por perfil. Você pode escolher um limite constante ou uma variável. Também é possível refinar o limite nos perfis e nas entregas. Para obter mais informações, consulte [Definição de limite](#defining-the-threshold).
 
    ![](assets/fatigue2.png)
 
@@ -64,25 +64,25 @@ Para criar e configurar uma regra de tipologia **[!UICONTROL Fatigue]**, siga es
 
    Neste exemplo (veja as capturas de tela anteriores), optamos por enviar um número máximo de 4 mensagens em um período deslizante de 15 dias.
 
-1. Na guia **[!UICONTROL Application criteria]**, você pode optar por aplicar essa regra a todos os deliveries ou restringir a aplicabilidade da regra de acordo com a mensagem a ser enviada. A regra é executada somente se a condição do aplicativo for atendida. Por exemplo, você pode aplicar a regra somente em mensagens com um rótulo começando por uma determinada palavra ou com uma ID contendo determinadas letras. Consulte [Restrição da aplicabilidade de uma regra de filtragem](../../sending/using/filtering-rules.md#restricting-the-applicability-of-a-filtering-rule).
+1. Na guia **[!UICONTROL Application criteria]**, você pode optar por aplicar essa regra a todas as entregas ou restringir a aplicabilidade da regra de acordo com a mensagem a ser enviada. A regra é executada somente se a condição do aplicativo for atendida. Por exemplo, você pode aplicar a regra somente em mensagens com um rótulo começando por uma determinada palavra ou com uma ID contendo determinadas letras. Consulte [Restrição da aplicabilidade de uma regra de filtragem](../../sending/using/filtering-rules.md#restricting-the-applicability-of-a-filtering-rule).
 
    ![](assets/fatigue20.png)
 
-1. Selecione a guia **[!UICONTROL Typologies]** e vincule sua regra de tipologia à tipologia usada para seus deliveries. Consulte [Gerenciamento de tipologias](../../sending/using/managing-typologies.md) e [Regras de tipologia](../../sending/using/managing-typology-rules.md).
+1. Selecione a guia **[!UICONTROL Typologies]** e vincule sua regra de tipologia à tipologia usada para suas entregas. Consulte [Gerenciamento de tipologias](../../sending/using/managing-typologies.md) e [Regras de tipologia](../../sending/using/managing-typology-rules.md).
 
    ![](assets/fatigue12.png)
 
    >[!NOTE]
    >
-   >A tipologia pode ser definida no template do delivery para que seja aplicada automaticamente a todos os deliveries criados usando esse modelo.
+   >A tipologia pode ser definida no template da entrega para que seja aplicada automaticamente a todas as entregas criadas usando esse modelo.
 
-Durante a preparação do delivery, os perfis são excluídos do delivery, se aplicável, dependendo do número de deliveries já enviados a eles. Você pode exibir os resultados da execução da regra de fadiga nos logs do delivery. Consulte [Visualização dos resultados de fadiga](#viewing-the-fatigue-results).
+Durante a preparação da entrega, os perfis são excluídos da entrega, se aplicável, dependendo do número de entregas já enviadas a eles. Você pode exibir os resultados da execução da regra de fadiga nos logs da entrega. Consulte [Visualização dos resultados de fadiga](#viewing-the-fatigue-results).
 
 ![](assets/fatigue16.png)
 
 >[!IMPORTANT]
 >
->Para que as regras de fadiga funcionem, é necessário definir uma data de contato para o seu delivery. Se a opção for enviar mensagens imediatamente, a regra de fadiga não é aplicada.
+>Para que as regras de fadiga funcionem, é necessário definir uma data de contato para a sua entrega. Se a opção for enviar mensagens imediatamente, a regra de fadiga não é aplicada.
 
 ## Escolha do canal {#choosing-the-channel}
 
@@ -105,15 +105,15 @@ Os seguintes canais estão disponíveis:
 
 * Todos os canais: essa opção permite aplicar a regra a todos os canais. Por exemplo, você pode decidir enviar no máximo 3 mensagens por mês em qualquer canal. Se você enviou dois emails para um perfil na semana passada e tentar enviar uma notificação por push hoje, o mesmo perfil será excluído.
 
-**Tipos de delivery**
+**Tipos de entrega**
 
-As regras de fadiga são compatíveis com todos os tipos de delivery: deliveries únicos, deliveries recorrentes, deliveries de fluxo de trabalho e mensagens transacionais.
+As regras de fadiga são compatíveis com todos os tipos de entrega: entregas únicas, entregas recorrentes, entregas de fluxo de trabalho e mensagens transacionais.
 
 **As mensagens transacionais** podem ser usadas para enviar mensagens de serviço direcionadas a um evento (rtEvent), e mensagens de marketing (perfis segmentados), por exemplo, uma mensagem de remarketing. As regras de fadiga são compatíveis somente com mensagens de marketing (perfis segmentados). As mensagens transacionais de evento não contêm informações sobre perfis, portanto, não são compatíveis com as regras de fadiga (mesmo no caso de um enriquecimento com perfis). Com o suporte de mensagens de marketing em mensagens transacionais, você pode **aplicar uma regra de fadiga a todos os canais, incluindo mensagens transacionais de marketing**.
 
 ## Definição de limite {#defining-the-threshold}
 
-Cada regra de fadiga define um limite, ou seja, o número máximo de mensagens que podem ser enviadas para um perfil em um determinado período. Depois que esse limite for atingido, não poderá ocorrer mais deliveries até o final do período considerado. Esse processo permite excluir automaticamente um perfil de uma entrega, caso uma mensagem exceder o limite definido, evitando assim um excesso de solicitações.
+Cada regra de fadiga define um limite, ou seja, o número máximo de mensagens que podem ser enviadas para um perfil em um determinado período. Depois que esse limite for atingido, não poderá ocorrer mais entregas até o final do período considerado. Esse processo permite excluir automaticamente um perfil de uma entrega, caso uma mensagem exceder o limite definido, evitando assim um excesso de solicitações.
 
 Os valores do limite podem ser constantes ou variáveis. Isso significa que, para um determinado período, os limites podem variar de um perfil para o outro, ou até mesmo para o mesmo perfil.
 
@@ -137,22 +137,22 @@ Depois você tem duas opções:
 
   ![](assets/fatigue21.png)
 
-* definir uma fórmula: clique no segundo botão à direita do campo **[!UICONTROL Threshold computation formula]** para definir uma fórmula de cálculo de limite avançada. Por exemplo, você pode indexar o número de mensagens autorizadas de acordo com o segmento ao qual o perfil pertence. Isso significa que um perfil pertencente ao segmento “Web” pode receber mais mensagens do que outros perfis. Uma fórmula do tipo **[!UICONTROL Iif (@origin='Web', 5, 3)]** autoriza o delivery de 5 mensagens para perfis do segmento da Web e 3 para outros segmentos.
+* definir uma fórmula: clique no segundo botão à direita do campo **[!UICONTROL Threshold computation formula]** para definir uma fórmula de cálculo de limite avançada. Por exemplo, você pode indexar o número de mensagens autorizadas de acordo com o segmento ao qual o perfil pertence. Isso significa que um perfil pertencente ao segmento “Web” pode receber mais mensagens do que outros perfis. Uma fórmula do tipo **[!UICONTROL Iif (@origin='Web', 5, 3)]** autoriza a entrega de 5 mensagens para perfis do segmento da Web e 3 para outros segmentos.
 
   ![](assets/fatigue14.png)
 
-**Refinamento do limite em perfis e deliveries**
+**Refinamento do limite em perfis e entregas**
 
-Por padrão, todas as mensagens são consideradas para o cálculo do limite. Marque a caixa **[!UICONTROL Refine Threshold on profiles and deliveries]** para filtrar os perfis e os deliveries a serem contados na preparação do delivery.
+Por padrão, todas as mensagens são consideradas para o cálculo do limite. Marque a caixa **[!UICONTROL Refine Threshold on profiles and deliveries]** para filtrar os perfis e as entregas a serem contados na preparação da entrega.
 
-No exemplo a seguir, somente perfis do sexo masculino são contados e somente deliveries com um rótulo começando com **Informativos** são contados.
+No exemplo a seguir, somente perfis do sexo masculino são contados e somente entregas com um rótulo começando com **Informativos** são contadas.
 
 ![](assets/fatigue13.png)
 
-Refinar o limite em deliveries é diferente de restringir a aplicabilidade da regra inteira (guia **[!UICONTROL Application criteria]** ):
+Refinar o limite em entregas é diferente de restringir a aplicabilidade da regra inteira (guia **[!UICONTROL Application criteria]** ):
 
-* **[!UICONTROL Application criteria]**: você escolhe executar a regra ou não, de acordo com critérios específicos. Por exemplo, se a condição do aplicativo for &quot;Rótulo começa com Informativo&quot;, a regra será aplicada somente a deliveries que respeitem essa condição. Se o rótulo do delivery começa com &quot;Promoção&quot;, a regra não será executada.
-* **[!UICONTROL Refine threshold on profiles and deliveries > Deliveries to count]**: todos os deliveries que usam essa regra de tipologia executarão a regra, mas você decide, entre os deliveries anteriores e programados, quais deles deseja contar. Por exemplo, se a sua restrição for &quot;Rótulo começa com Informativo&quot;, a regra será executada mesmo que o rótulo do delivery comece com &quot;Promo&quot;. Ela contará, durante o período deslizante selecionado, o número de deliveries cujo rótulo começa com &quot;Informativo&quot;.
+* **[!UICONTROL Application criteria]**: você escolhe executar a regra ou não, de acordo com critérios específicos. Por exemplo, se a condição do aplicativo for &quot;Rótulo começa com Informativo&quot;, a regra será aplicada somente a entregas que respeitem essa condição. Se o rótulo da entrega começa com &quot;Promoção&quot;, a regra não será executada.
+* **[!UICONTROL Refine threshold on profiles and deliveries > Deliveries to count]**: todas as entregas que usam essa regra de tipologia executarão a regra, mas você decide, entre as entregas anteriores e programadas, quais delas deseja contar. Por exemplo, se a sua restrição for &quot;Rótulo começa com Informativo&quot;, a regra será executada mesmo que o rótulo da entrega comece com &quot;Promo&quot;. Ela contará, durante o período deslizante selecionado, o número de entregas cujo rótulo começa com &quot;Informativo&quot;.
 
 ## Definir o período deslizante {#setting-the-sliding-period}
 
@@ -160,21 +160,21 @@ As regras de fadiga são definidas em períodos móveis de n dias. O período é
 
 ![](assets/fatigue6.png)
 
-Quando a regra é executada, os deliveries passados e os deliveries programados são considerados. Isso garante que, em um determinado período deslizante, o limite nunca seja ultrapassado.
+Quando a regra é executada, as entregas passadas e as entregas programadas são consideradas. Isso garante que, em um determinado período deslizante, o limite nunca seja ultrapassado.
 
-Por exemplo, se você definir um período de 48 horas, o sistema procura 48 horas **antes da data do contato** e 48 horas **após a data do contato**. Portanto, o período selecionado é dobrado para permitir a integração de deliveries futuros, bem como os anteriores.
+Por exemplo, se você definir um período de 48 horas, o sistema procura 48 horas **antes da data do contato** e 48 horas **após a data do contato**. Portanto, o período selecionado é dobrado para permitir a integração de entregas futuras, bem como as anteriores.
 
-Para restringir os deliveries considerados para um período de 2 semanas, insira **Dia** e **7** ou 1 semana na seção **Período deslizante**. São considerados no cálculos os deliveries enviados até 7 dias antes da data do delivery, e programados até 7 dias após a data do delivery na qual a regra é aplicada.
+Para restringir as entregas consideradas para um período de 2 semanas, insira **Dia** e **7** ou 1 semana na seção **Período deslizante**. São consideradas no cálculos as entregas enviadas até 7 dias antes da data da entrega, e programadas até 7 dias após a data da entrega na qual a regra é aplicada.
 
 ## Visualização dos resultados de fadiga {#viewing-the-fatigue-results}
 
-Durante a preparação do delivery, os perfis são excluídos do delivery, se aplicável, dependendo do número de deliveries já enviados a eles. Para visualizar os resultados de execução da regra de fadiga, clique no botão no canto inferior direito do bloco **[!UICONTROL Deployment]**.
+Durante a preparação da entrega, os perfis são excluídos da entrega, se aplicável, dependendo do número de entregas já enviadas a eles. Para visualizar os resultados de execução da regra de fadiga, clique no botão no canto inferior direito do bloco **[!UICONTROL Deployment]**.
 
 ![](assets/fatigue22.png)
 
 Três guias estão disponíveis, mostrando os detalhes dos resultados da execução de fadiga, incluindo o nome da regra que foi aplicada:
 
-* Logs do delivery:
+* Logs da entrega:
 
   ![](assets/fatigue17.png)
 
@@ -194,7 +194,7 @@ O relatório **[!UICONTROL Fatigue rules summary]** pode ser acessado pelo botã
 
 ![](assets/fatigue27.png)
 
-Na parte esquerda da tela, é possível filtrar os dados do relatório na data de contato dos deliveries. Por padrão, o período selecionado começa 15 dias antes da data atual e termina 15 dias depois. Também é possível filtrar por uma regra de fadiga específica.
+Na parte esquerda da tela, é possível filtrar os dados do relatório na data de contato das entregas. Por padrão, o período selecionado começa 15 dias antes da data atual e termina 15 dias depois. Também é possível filtrar por uma regra de fadiga específica.
 
 O gráfico de pizza exibe as seguintes informações sobre o período selecionado:
 
@@ -205,7 +205,7 @@ O gráfico de pizza exibe as seguintes informações sobre o período selecionad
 
 À direita do gráfico, encontra-se o número de exclusões detalhadas pela regra de fadiga.
 
-A tabela inferior exibe todos os deliveries dentro do período selecionado. Para cada delivery, é possível ver as regras de fadiga que foram aplicadas e as exclusões correspondentes. Deliveries que não têm data de contato também são exibidos na tabela.
+A tabela inferior exibe todas as entregas dentro do período selecionado. Para cada entrega, é possível ver as regras de fadiga que foram aplicadas e as exclusões correspondentes. Entregas que não têm data de contato também são exibidas na tabela.
 
 * **[!UICONTROL 0]** significa que a regra de fadiga foi aplicada, mas não houve exclusão.
 * **[!UICONTROL -N]** significa que ocorreram N exclusões.
@@ -213,7 +213,7 @@ A tabela inferior exibe todos os deliveries dentro do período selecionado. Para
 
 >[!NOTE]
 >
->Os dados exibidos não são contextuais ao programa, mensagem ou campanha a partir do(a) qual você acessa o relatório. Esse relatório exibe todas as regras de fadiga e deliveries para todas as unidades organizacionais. Ele permite uma visualização global de todos os deliveries para entender como suas campanhas são influenciadas por outras.
+>Os dados exibidos não são contextuais ao programa, mensagem ou campanha a partir do(a) qual você acessa o relatório. Esse relatório exibe todas as regras de fadiga e entregas para todas as unidades organizacionais. Ele permite uma visualização global de todas as entregas para entender como suas campanhas são influenciadas por outras.
 
 ## Exemplos {#examples}
 
@@ -243,15 +243,15 @@ Há muitas possibilidades em termos de implementação de gestão da fadiga. Est
   >
   >Esta seção também inclui um exemplo passo a passo de uma regra de fadiga usando uma fórmula de cálculo de limite.
 
-* Criar uma regra de fadiga que **refine o limite** em perfis e deliveries:
+* Criar uma regra de fadiga que **refine o limite** em perfis e entregas:
 
-  Você estendeu o recurso dos perfis com um campo &quot;Score&quot;, e também estendeu o recurso dos deliveries com um campo &quot;Type&quot;. Você deseja definir um limite constante de 3, mas excluir da contagem todos os deliveries do tipo “Alerta” ou “Black Friday” e todos os perfis com uma pontuação maior que 10. Quando a regra for executada, ela contará, entre os deliveries anteriores e programados, todos os deliveries que não sejam do tipo “Alerta” ou “Black Friday” enviados para perfis cuja pontuação seja menor que 10.
+  Você estendeu o recurso dos perfis com um campo &quot;Score&quot;, e também estendeu o recurso das entregas com um campo &quot;Type&quot;. Você deseja definir um limite constante de 3, mas excluir da contagem todos as entregas do tipo “Alerta” ou “Black Friday” e todos os perfis com uma pontuação maior que 10. Quando a regra for executada, ela contará, entre as entregas anteriores e programadas, todas as entregas que não sejam do tipo “Alerta” ou “Black Friday” enviadas para perfis cuja pontuação seja menor que 10.
 
   ![](assets/fatigue26.png)
 
 Este é um exemplo passo a passo de uma regra de fadiga usando uma fórmula de cálculo de limite.
 
-Neste caso de uso, queremos criar uma regra de tipologia para evitar o delivery de mais de 2 mensagens por semana para perfis premium e 2 mensagens por semana para perfis padrão.
+Neste caso de uso, queremos criar uma regra de tipologia para evitar a entrega de mais de 2 mensagens por semana para perfis premium e 2 mensagens por semana para perfis padrão.
 
 Para identificar clientes e clientes potenciais, estendemos o recurso dos perfis com o campo **[!UICONTROL Status]**, que contém 0 para perfis premium e 1 para perfis padrão.
 
@@ -277,14 +277,14 @@ Para criar a regra, aplique as seguintes etapas:
    Essa fórmula permite atribuir o valor 2 se o status for igual a 0, e o valor 4 para todos os outros status.
 
 1. Clique em **[!UICONTROL Confirm]** para aprovar a fórmula.
-1. Indique o **[!UICONTROL Sliding period]** em que a regra será aplicada: 7 dias, neste caso, para restringir os deliveries considerados para um período de 2 semanas.
+1. Indique o **[!UICONTROL Sliding period]** em que a regra será aplicada: 7 dias, neste caso, para restringir as entregas consideradas para um período de 2 semanas.
 
    ![](assets/fatigue11.png)
 
-1. Agora, vincule a regra que acabou de criar a uma tipologia para aplicá-la aos deliveries. Para fazer isso, selecione a guia **[!UICONTROL Typologies]**, clique em **[!UICONTROL Create element]** e selecione a tipologia usada para os seus deliveries.
+1. Agora, vincule a regra que acabou de criar a uma tipologia para aplicá-la às entregas. Para fazer isso, selecione a guia **[!UICONTROL Typologies]**, clique em **[!UICONTROL Create element]** e selecione a tipologia usada para as suas entregas.
 
    ![](assets/fatigue12.png)
 
 1. Salve a regra para aprovar a criação.
 
-A regra será aplicada a todos os deliveries com base na tipologia.
+A regra será aplicada a todas as entregas com base na tipologia.

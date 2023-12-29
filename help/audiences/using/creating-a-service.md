@@ -11,8 +11,8 @@ level: Beginner
 exl-id: 6f42251e-75da-4707-a855-6ba9a86256c9
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 95%
+source-wordcount: '433'
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 
 Para gerenciar assinaturas, primeiro crie e configure um serviço. A configuração de um novo serviço permite especificar as confirmações por email que os perfis receberão quando assinarem ou cancelarem a assinatura do serviço. Você também definirá as landing pages de assinatura e unsubscription vinculadas ao serviço. Por exemplo, um link de assinatura de serviço inserido em um email direcionará o perfil automaticamente para a landing page de assinatura especificada no serviço.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Conheça este recurso no vídeo](#video)
 
 Para configurar um serviço:
 

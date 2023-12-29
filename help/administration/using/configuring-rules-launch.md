@@ -11,8 +11,8 @@ level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
 source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 6%
+source-wordcount: '983'
+ht-degree: 2%
 
 ---
 
@@ -48,7 +48,7 @@ Para criar esses elementos de dados:
 
 1. No **[!UICONTROL Name]** por exemplo, digite em **mcid**.
 
-1. No menu suspenso **[!UICONTROL Extension]**, selecione **[!UICONTROL Mobile Core]**. Depois **[!UICONTROL Experience Cloud ID]** no **[!UICONTROL Data element]** menu suspenso de tipo.
+1. No **[!UICONTROL Extension]** selecione **[!UICONTROL Mobile Core]**. Depois **[!UICONTROL Experience Cloud ID]** no **[!UICONTROL Data element]** menu suspenso de tipo.
 
    ![](assets/do-not-localize/rules_1.png)
 
@@ -56,13 +56,13 @@ Para criar esses elementos de dados:
 
 1. No **[!UICONTROL Name]** por exemplo, digite em **pkey**.
 
-1. No menu suspenso **[!UICONTROL Extension]**, selecione **[!UICONTROL Adobe Campaign Standard]**. Depois **[!UICONTROL pkey]** no **[!UICONTROL Data element]** menu suspenso de tipo.
+1. No **[!UICONTROL Extension]** selecione **[!UICONTROL Adobe Campaign Standard]**. Depois **[!UICONTROL pkey]** no **[!UICONTROL Data element]** menu suspenso de tipo.
 
 1. Para criar o elemento de dados do servidor do Campaign, clique em **[!UICONTROL Add data element]**.
 
 1. No **[!UICONTROL Name]** digite um nome, por exemplo, **camp-server**.
 
-1. No menu suspenso **[!UICONTROL Extension]**, selecione **[!UICONTROL Adobe Campaign Standard]**. Em seguida, **[!UICONTROL Campaign Server]** no **[!UICONTROL Data element]** menu suspenso de tipo.
+1. No **[!UICONTROL Extension]** selecione **[!UICONTROL Adobe Campaign Standard]**. Em seguida, **[!UICONTROL Campaign Server]** no **[!UICONTROL Data element]** menu suspenso de tipo.
 
 ## Criação de regras {#creating-rules}
 
@@ -87,13 +87,13 @@ Para enviar dados de PII para o [!DNL Adobe Campaign Standard], crie uma regra n
 
 1. No **[!UICONTROL Events]** clique em **[!UICONTROL Add]**.
 
-1. No menu suspenso **[!UICONTROL Extension]**, selecione **[!UICONTROL Mobile Core]**. Em seguida, **[!UICONTROL Collect PII]** no **[!UICONTROL Event type]** menu suspenso.
+1. No **[!UICONTROL Extension]** selecione **[!UICONTROL Mobile Core]**. Em seguida, **[!UICONTROL Collect PII]** no **[!UICONTROL Event type]** menu suspenso.
 
 1. Clique em **[!UICONTROL Keep changes]**.
 
 1. No **[!UICONTROL Actions]** clique em **[!UICONTROL Add]**.
 
-1. No menu suspenso **[!UICONTROL Extension]**, selecione **[!UICONTROL Mobile Core]**. Em seguida, **[!UICONTROL Send PII]** no **[!UICONTROL Action type]** menu suspenso.
+1. No **[!UICONTROL Extension]** selecione **[!UICONTROL Mobile Core]**. Em seguida, **[!UICONTROL Send PII]** no **[!UICONTROL Action type]** menu suspenso.
 
 1. Entrada **[!UICONTROL URL]**, insira o seguinte URL:
 
@@ -159,13 +159,13 @@ Para enviar dados de rastreamento ao [!DNL Adobe Campaign Standard] para criar r
 
 1. No **[!UICONTROL Events]** clique em **[!UICONTROL Add]**.
 
-1. No menu suspenso **[!UICONTROL Extension]**, selecione **[!UICONTROL Adobe Campaign Standard]**. Em seguida, **[!UICONTROL In-App click tracking]** no **[!UICONTROL Event type]** menu suspenso.
+1. No **[!UICONTROL Extension]** selecione **[!UICONTROL Adobe Campaign Standard]**. Em seguida, **[!UICONTROL In-App click tracking]** no **[!UICONTROL Event type]** menu suspenso.
 
 1. Clique em **[!UICONTROL Keep changes]**.
 
 1. No **[!UICONTROL Actions]** clique em **[!UICONTROL Add]**.
 
-1. No menu suspenso **[!UICONTROL Extension]**, selecione **[!UICONTROL Mobile Core]**. Em seguida, **[!UICONTROL Send postback]** no **[!UICONTROL Event type]** menu suspenso.
+1. No **[!UICONTROL Extension]** selecione **[!UICONTROL Mobile Core]**. Em seguida, **[!UICONTROL Send postback]** no **[!UICONTROL Event type]** menu suspenso.
 
 1. Entrada **[!UICONTROL URL]**, digite o seguinte URL:
 
@@ -201,13 +201,13 @@ Para rastrear as ações do aplicativo, use a API trackAction. Para obter mais i
 
 1. No **[!UICONTROL Events]** clique em **[!UICONTROL Add]**.
 
-1. No menu suspenso **[!UICONTROL Extension]**, selecione **[!UICONTROL Mobile Core]**. Em seguida, **[!UICONTROL Track Action]** no **[!UICONTROL Event type]** menu suspenso.
+1. No **[!UICONTROL Extension]** selecione **[!UICONTROL Mobile Core]**. Em seguida, **[!UICONTROL Track Action]** no **[!UICONTROL Event type]** menu suspenso.
 
 1. No **[!UICONTROL Action]** selecione **[!UICONTROL Action]**, selecione **[!UICONTROL equals]**, e digite **rastreamento**.
 
 1. Clique em **[!UICONTROL Keep changes]**. Em seguida, no **[!UICONTROL Actions]** clique em **[!UICONTROL Add]**.
 
-1. No menu suspenso **[!UICONTROL Extension]**, selecione **[!UICONTROL Mobile Core]**. Em seguida, **[!UICONTROL Send postback]** no **[!UICONTROL Action type]** menu suspenso.
+1. No **[!UICONTROL Extension]** selecione **[!UICONTROL Mobile Core]**. Em seguida, **[!UICONTROL Send postback]** no **[!UICONTROL Action type]** menu suspenso.
 
 1. Entrada **[!UICONTROL URL]**, insira o seguinte URL:
 
@@ -237,7 +237,7 @@ Para rastrear as ações do aplicativo, use a API trackAction. Para obter mais i
 
 1. No **[!UICONTROL Actions]** clique em **[!UICONTROL Add]**.
 
-1. No menu suspenso **[!UICONTROL Extension]**, selecione **[!UICONTROL Mobile Core]**. Em seguida, **[!UICONTROL Send postback]** do **[!UICONTROL Action type]** menu suspenso.
+1. No **[!UICONTROL Extension]** selecione **[!UICONTROL Mobile Core]**. Em seguida, **[!UICONTROL Send postback]** do **[!UICONTROL Action type]** menu suspenso.
 
 1. Insira um nome, por exemplo, **Mobile Core - Enviar postback de localização**.
 

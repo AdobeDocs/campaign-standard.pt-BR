@@ -12,21 +12,21 @@ exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 65%
+ht-degree: 63%
 
 ---
 
 # Usar modelos {#use-templates}
 
-Os templates do delivery oferecem mais eficiência ao fornecer cenários prontos para os tipos mais comuns de atividades. Com modelos, os profissionais de marketing podem implantar novas campanhas com personalização mínima em um período de tempo menor.
+Os templates da entrega oferecem mais eficiência ao fornecer cenários prontos para os tipos mais comuns de atividades. Com modelos, os profissionais de marketing podem implantar novas campanhas com personalização mínima em um período de tempo menor.
 
-Saiba mais sobre templates do delivery [nesta seção](../../start/using/marketing-activity-templates.md).
+Saiba mais sobre templates da entrega [nesta seção](../../start/using/marketing-activity-templates.md).
 
 ## Introdução a modelos de entrega {#gs-templates}
 
-Um [template do delivery](../../start/using/marketing-activity-templates.md#creating-a-new-template) permite definir uma única vez um conjunto de propriedades técnicas e funcionais que atendam às suas necessidades e que possam ser reutilizadas para delivery futuros. Você pode economizar tempo e padronizar deliveries quando necessário.
+Um [template da entrega](../../start/using/marketing-activity-templates.md#creating-a-new-template) permite definir uma única vez um conjunto de propriedades técnicas e funcionais que atendam às suas necessidades e que possam ser reutilizadas para entregas futuras. Você pode economizar tempo e padronizar entregas quando necessário.
 
-Quando você gerencia várias marcas no Adobe Campaign, a Adobe recomenda ter um subdomínio por marca. Por exemplo, um banco pode ter vários subdomínios correspondentes a cada uma de suas agências regionais. Se um banco for proprietário do domínio bluebank.com, seus subdomínios podem ser @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, etc. Ter um template do delivery por subdomínio permite usar sempre os parâmetros pré-configurados certos para cada marca, o que evita erros e economiza tempo.
+Quando você gerencia várias marcas no Adobe Campaign, a Adobe recomenda ter um subdomínio por marca. Por exemplo, um banco pode ter vários subdomínios correspondentes a cada uma de suas agências regionais. Se um banco for proprietário do domínio bluebank.com, seus subdomínios podem ser @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, etc. Ter um template da entrega por subdomínio permite usar sempre os parâmetros pré-configurados certos para cada marca, o que evita erros e economiza tempo.
 
 **Dica**: para evitar erros de configuração no Campaign, recomendamos duplicar um template nativo e alterar as propriedades em vez de criar um novo template.
 
@@ -40,7 +40,7 @@ Quando você gerencia várias marcas no Adobe Campaign, a Adobe recomenda ter um
 
 * O endereço deve identificar explicitamente o remetente. O domínio deve ser de propriedade e registrado pelo remetente.
 
-* A Adobe recomenda a criação de contas de email que correspondam aos endereços especificados para delivery e respostas. Verifique com o administrador do sistema de mensagens.
+* A Adobe recomenda a criação de contas de email que correspondam aos endereços especificados para entrega e respostas. Verifique com o administrador do sistema de mensagens.
 
 No **[!UICONTROL Advanced parameters]** das propriedades de um modelo de email, a variável **[!UICONTROL From (email address)]** corresponde ao endereço do remetente.
 
@@ -72,7 +72,7 @@ Se esse campo estiver vazio, será usado o número de origem fornecido na conta 
 
 ## Configurar um grupo de controle
 
-Depois que o delivery é enviado, você pode comparar o comportamento dos recipients excluídos com os recipients que receberam o delivery. Você pode então medir a eficiência de suas campanhas. Saiba mais sobre grupos de controle [nesta seção](../../sending/using/control-group.md).
+Depois que a entrega é enviada, você pode comparar o comportamento dos recipients excluídos com os recipients que receberam a entrega. Você pode então medir a eficiência de suas campanhas. Saiba mais sobre grupos de controle [nesta seção](../../sending/using/control-group.md).
 
 ## Usar tipologias para aplicar filtros ou regras de controle
 

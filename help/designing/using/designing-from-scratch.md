@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 23%
+source-wordcount: '1232'
+ht-degree: 22%
 
 ---
 
@@ -27,7 +27,7 @@ Estas são as etapas principais para criar e projetar um conteúdo de email do z
 1. Adicione imagens e edite o texto do email. Consulte [Inserção de imagens](../../designing/using/images.md#inserting-images).
 1. Personalize seu email adicionando campos de personalização, links e assim por diante. Consulte [Inserção de um campo de personalização](../../designing/using/personalization.md#inserting-a-personalization-field), [Inserção de um link](../../designing/using/links.md#inserting-a-link) e [Definição de conteúdo dinâmico em um email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 1. Defina a linha de assunto do seu email. Consulte [Personalização da linha de assunto de um email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-1. Visualizar seu email.
+1. Pré-visualize seu email.
 1. Salve o conteúdo e prossiga com a mensagem depois de verificar se você definiu um público-alvo e agendou o envio corretamente.
 
 Você também pode fazer check-out [vídeo de introdução](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).

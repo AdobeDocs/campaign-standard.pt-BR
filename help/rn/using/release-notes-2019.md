@@ -8,7 +8,7 @@ hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '7556'
+source-wordcount: '7674'
 ht-degree: 9%
 
 ---
@@ -252,7 +252,7 @@ ht-degree: 9%
 * Correção de um problema de segurança que resultava em falha do conteúdo do email quando o assunto continha várias linhas.
 
 
-## Versão 19.2.7 - Julho de 2019 {#release-19-2-7---july-2019}
+## Versão 19.2.7 - julho de 2019 {#release-19-2-7---july-2019}
 
 **Aprimoramentos**
 
@@ -261,13 +261,13 @@ ht-degree: 9%
 * Correção de um problema que impedia usuários não administradores de salvar ou agendar relatórios. (CAMP-31133)
 * Correção de um problema ao usar &quot;|&quot; como separador de data na atividade de workflow Carregar arquivo. (CAMP-34706)
 
-## Versão 19.2.4 - Junho de 2019 {#release-19-2-4---june-2019}
+## Versão 19.2.4 - junho de 2019 {#release-19-2-4---june-2019}
 
 **Email Designer**
 
 * Correção de um problema que impedia os usuários de editar fragmentos quando tags de estilo vazias eram usadas no HTML. Esta é uma correção de acompanhamento para CAMP-33778 na versão 19.2.3.
 
-## Versão 19.2.3 - Junho de 2019 {#release-19-2-3---june-2019}
+## Versão 19.2.3 - junho de 2019 {#release-19-2-3---june-2019}
 
 **Email Designer**
 
@@ -390,7 +390,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * Correção de um problema que resultava na desativação do fluxo de trabalho Capacidade de delivery se ele não fosse concluído com êxito.
 * Correção de um problema que impedia os usuários de salvar ou agendar relatórios. (CAMP-31133)
 
-## Versão 19.1.3 - Março de 2019 {#release-19-1-3---march-2019}
+## Versão 19.1.3 - março de 2019 {#release-19-1-3---march-2019}
 
 **Aprimoramentos do Email Designer**
 
@@ -531,7 +531,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
      <li> A capacidade de <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">recuperar conteúdo de um URL automaticamente no momento da preparação</a> </li> 
      <li> Totalmente compatível <a href="../../designing/using/using-reusable-content.md#content-templates">modelos de conteúdo prontos para uso</a>. </li> 
     </ul> 
-    <p>Para saber mais, consulte a <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">vídeo de instruções</a>. Os aprimoramentos e correções estão listados abaixo.</p><p>Como consequência, o editor herdado de conteúdo de email agora está obsoleto. Para obter mais informações, consulte esta <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=pt-BR#release-notes">página</a>.</p> </td> 
+    <p>Para obter mais informações, consulte <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentação detalhada</a> e a variável <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">vídeo explicativo</a>. Os aprimoramentos e correções estão listados abaixo.</p><p>Como consequência, o editor herdado de conteúdo de email agora está obsoleto. Para obter mais informações, consulte esta <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=pt-BR#release-notes">página</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Listas de produtos em emails transacionais<br /> </td> 

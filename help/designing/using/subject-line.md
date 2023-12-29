@@ -11,7 +11,7 @@ exl-id: 22112517-40f7-4966-84bf-40794e5d0f79
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 12%
+ht-degree: 6%
 
 ---
 
@@ -25,7 +25,7 @@ O assunto da mensagem é obrigatório para preparar e enviar a mensagem.
 >
 >Se a linha de assunto estiver vazia, um aviso será exibido no painel de mensagens e no Designer de email.
 
-1. Criar um email.
+1. Crie um email.
 1. Vá para a **[!UICONTROL Properties]** da página inicial do Email Designer (acessível por meio do ícone de página inicial).
 1. Preencha o **[!UICONTROL Subject]** seção.
 
@@ -49,10 +49,10 @@ Para definir o nome do remetente que aparecerá no cabeçalho das mensagens envi
 
 >[!NOTE]
 >
->Os parâmetros do cabeçalho não devem ficar vazios. O endereço do remetente é obrigatório para possibilitar o envio de um email (padrão RFC). O Adobe Campaign verifica a sintaxe dos endereços de email inseridos.
+>Os parâmetros do cabeçalho não devem ficar vazios. O endereço do remetente é obrigatório para permitir o envio de um email (padrão RFC). O Adobe Campaign verifica a sintaxe dos endereços de email inseridos.
 
 **Tópicos relacionados:**
 
 * [Inserção de um campo de personalização](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Inclusão de um bloco de conteúdo](../../designing/using/personalization.md#adding-a-content-block)
+* [Adição de um bloco de conteúdo](../../designing/using/personalization.md#adding-a-content-block)
 * [Definição de conteúdo dinâmico em um email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)

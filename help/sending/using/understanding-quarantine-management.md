@@ -1,6 +1,6 @@
 ---
 title: Noções básicas sobre gestão de quarentena
-description: Saiba como otimizar sua capacidade de delivery com o gerenciamento de quarentenas.
+description: Saiba como otimizar sua capacidade de entrega com o gerenciamento de quarentenas.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
 source-git-commit: eec8c66d4947e04cd0eb3dcf0f09d395d9db68b9
 workflow-type: tm+mt
-source-wordcount: '1429'
-ht-degree: 66%
+source-wordcount: '1442'
+ht-degree: 64%
 
 ---
 
@@ -25,13 +25,13 @@ Em qualquer caso, o procedimento de quarentena está em conformidade com as regr
 
 ### Otimização de sua entrega por meio de quarentenas {#optimizing-your-delivery-through-quarantines}
 
-Os perfis cujos endereços de email ou número de telefone estão em quarentena são excluídos automaticamente durante a preparação da mensagem (consulte [Identificação de endereços em quarentena para um delivery](#identifying-quarantined-addresses-for-a-delivery)). Isso irá acelerar os deliveries, pois a taxa de erro tem um efeito significativo na velocidade do delivery.
+Os perfis cujos endereços de email ou número de telefone estão em quarentena são excluídos automaticamente durante a preparação da mensagem (consulte [Identificação de endereços em quarentena para uma entrega](#identifying-quarantined-addresses-for-a-delivery)). Isso irá acelerar as entregas, pois a taxa de erro tem um efeito significativo na velocidade da entrega.
 
 Alguns provedores de acesso à Internet consideram automaticamente emails como spam se a taxa de endereços inválidos é muito alta. A quarentena, portanto, evita que você seja adicionado à lista de bloqueios por esses provedores.
 
-Além disso, a quarentena ajuda a reduzir os custos de envio de SMS, excluindo números de telefone incorretos dos deliveries.
+Além disso, a quarentena ajuda a reduzir os custos de envio de SMS, excluindo números de telefone incorretos das entregas.
 
-Para obter mais informações sobre as práticas recomendadas para proteger e otimizar seus deliveries, consulte [esta página](../../sending/using/delivery-best-practices.md).
+Para obter mais informações sobre as práticas recomendadas para proteger e otimizar suas entregas, consulte [esta página](../../sending/using/delivery-best-practices.md).
 
 ### Quarentena versus Inclui na lista de bloqueios {#quarantine-vs-denylist}
 
@@ -39,15 +39,15 @@ A quarentena e a lista de bloqueios não se aplicam ao mesmo objeto:
 
 * A **quarentena** se aplica somente a um **endereço** (ou número de telefone etc.), não ao próprio perfil. Por exemplo, um perfil cujo endereço de email esteja em quarentena poderia atualizar seu perfil e inserir um novo endereço, podendo então ser alvo de ações de delivery novamente. Da mesma forma, se dois perfis tiverem o mesmo número de telefone, ambos serão afetados se o número estiver em quarentena.
 
-  Os endereços em quarentena ou os números de telefone são exibidos nos [logs de exclusão](#identifying-quarantined-addresses-for-a-delivery) (para um delivery) ou na [lista de quarentena](#identifying-quarantined-addresses-for-the-entire-platform) (para toda a plataforma).
+  Os endereços em quarentena ou os números de telefone são exibidos nos [logs de exclusão](#identifying-quarantined-addresses-for-a-delivery) (para uma entrega) ou na [lista de quarentena](#identifying-quarantined-addresses-for-the-entire-platform) (para toda a plataforma).
 
-* Por outro lado, com a inclusão na **lista de bloqueios**, o **perfil** não será mais direcionado pelo delivery, por exemplo, depois de um cancelamento de inscrição (recusa de participação) de um determinado canal. Por exemplo, se um perfil na lista de bloqueios para o canal de email tiver dois endereços de email, ambos os endereços serão excluídos do delivery. Para obter mais informações sobre o processo de inclui na lista de bloqueios, consulte [Sobre participação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* Por outro lado, com a inclusão na **lista de bloqueios**, o **perfil** não será mais direcionado pela entrega, por exemplo, depois de um cancelamento de inscrição (recusa de participação) de um determinado canal. Incluir na lista de bloqueios Por exemplo, se um perfil no canal tiver dois endereços de email, ambos os endereços serão excluídos do delivery. Para obter mais informações sobre o processo de inclui na lista de bloqueios, consulte [Sobre participação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-  Você pode verificar se um perfil está no incluo na lista de bloqueios para um ou mais canais na **[!UICONTROL No longer contact (on denylist)]** seção do perfil **[!UICONTROL General]** guia. Consulte [esta seção](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
+  Você pode verificar se um perfil está na lista de bloqueios de um ou mais canais na seção **[!UICONTROL No longer contact (on denylist)]** da guia **[!UICONTROL General]** do perfil. Consulte [esta seção](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
 
 >[!NOTE]
 >
->A quarentena inclui um **Na inclui na lista de bloqueios** status, que se aplica quando os recipients marcam sua mensagem como spam ou respondem a uma mensagem SMS com uma palavra-chave como &quot;PARAR&quot;. Nesse caso, o endereço envolvido do perfil ou o número de telefone é enviado para quarentena com o **[!UICONTROL On denylist]** status. Para obter mais informações sobre como gerenciar mensagens SMS PARAR, consulte [esta seção](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
+>A quarentena inclui um **Na inclui na lista de bloqueios** status, que se aplica quando os recipients marcam sua mensagem como spam ou respondem a uma mensagem SMS com uma palavra-chave como &quot;PARAR&quot;. Nesse caso, o endereço do perfil envolvido ou o número de telefone é enviado para quarentena com o status **[!UICONTROL On denylist]**. Para obter mais informações sobre como gerenciar mensagens SMS PARAR, consulte [esta seção](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
 &lt;!—Quando um usuário responde a uma mensagem SMS com uma palavra-chave, como PARAR, para recusar os deliveries de SMS, seu perfil não é adicionado à inclui na lista de bloqueios, como no processo de recusa de email. Em vez disso, o número de telefone do perfil é enviado para quarentena com o **[!UICONTROL On denylist]** status. Esse status se refere apenas ao número de telefone, o que significa que o perfil continuará recebendo mensagens de email.<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
 
@@ -61,7 +61,7 @@ If you need to remove an address from quarantine, contact your technical adminis
 
 ### Identificação de endereços em quarentena para uma entrega {#identifying-quarantined-addresses-for-a-delivery}
 
-Os endereços em quarentena para um delivery específico são listados durante a fase de preparação do delivery, na guia **[!UICONTROL Exclusion logs]** do painel de delivery (consulte [esta seção](../../sending/using/monitoring-a-delivery.md#exclusion-logs)). Para saber mais sobre a preparação de deliveries, consulte [esta seção](../../sending/using/preparing-the-send.md).
+Os endereços em quarentena para uma entrega específica são listados durante a fase de preparação da entrega, na guia **[!UICONTROL Exclusion logs]** do painel de entrega (consulte [esta seção](../../sending/using/monitoring-a-delivery.md#exclusion-logs)). Para saber mais sobre a preparação de entregas, consulte [esta seção](../../sending/using/preparing-the-send.md).
 
 ![](assets/exclusion_logs.png)
 
@@ -101,11 +101,11 @@ Defina o endereço (ou número de telefone etc.) e tipo de canal. Você pode def
 
 ### Atualizações automáticas {#unquarantine-auto}
 
-Os endereços que correspondem a condições específicas são automaticamente excluídos da lista de quarentena pelo fluxo de trabalho de Limpeza do banco de dados. Saiba mais sobre workflows técnicos, consulte [nesta seção](../../administration/using/technical-workflows.md#list-of-technical-workflows).
+Os endereços que correspondem a condições específicas são excluídos automaticamente da lista de quarentena pelo workflow de limpeza do banco de dados. Saiba mais sobre workflows técnicos, consulte [nesta seção](../../administration/using/technical-workflows.md#list-of-technical-workflows).
 
 Os endereços são removidos automaticamente da lista de quarentena nos seguintes casos:
 
-* Os endereços em um status **[!UICONTROL Erroneous]** serão removidos da lista de quarentena após um delivery bem-sucedido.
+* Os endereços em um status **[!UICONTROL Erroneous]** serão removidos da lista de quarentena após uma entrega bem-sucedida.
 * Os endereços em um status **[!UICONTROL Erroneous]** serão removidos da lista de quarentena se o último retorno de erro tiver ocorrido há mais de 10 dias. Para obter mais informações sobre o gerenciamento de erros de software, consulte [esta seção](#soft-error-management).
 * Os endereços em um status **[!UICONTROL Erroneous]** que tiverem retornado com o erro **[!UICONTROL Mailbox full]** serão removidos da lista de quarentena após 30 dias.
 
@@ -151,7 +151,7 @@ Depois de ter a lista de recipients afetados, adicione uma atividade **[!UICONTR
 
 ## Condições para enviar um endereço para quarentena {#conditions-for-sending-an-address-to-quarantine}
 
-O Adobe Campaign gerencia a quarentena de acordo com o tipo de falha do delivery e o motivo atribuído durante a qualificação das mensagens de erro (consulte [Tipos e motivos de falha do delivery](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) e [Qualificação do email de rejeição](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)).
+O Adobe Campaign gerencia a quarentena de acordo com o tipo de falha da entrega e o motivo atribuído durante a qualificação das mensagens de erro (consulte [Tipos e motivos de falha da entrega](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) e [Qualificação do email de rejeição](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)).
 
 * **Erro ignorado**: os erros ignorados não enviam um endereço para quarentena.
 * **Erro grave**: o endereço de email correspondente é enviado imediatamente para quarentena.
@@ -176,9 +176,9 @@ Na lista de endereços em quarentena (consulte [Identificação de endereços em
 
 Ao contrário de erros graves, os erros recuperáveis não enviam um endereço imediatamente para quarentena, mas incrementam um contador de erros.
 
-As tentativas serão executadas no decorrer da [duração do delivery](../../administration/using/configuring-email-channel.md#validity-period-parameters). Quando o contador de erros atinge o limite da cota, o endereço vai para a quarentena. Para obter mais informações, consulte [Tentativas após uma falha temporária de delivery](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+As tentativas serão executadas no decorrer da [duração da entrega](../../administration/using/configuring-email-channel.md#validity-period-parameters). Quando o contador de erros atinge o limite da cota, o endereço vai para a quarentena. Para obter mais informações, consulte [Tentativas após uma falha temporária de entrega](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 <!--In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error.
 The error counter threshold can be modified.-->
 
-O contador de erros será reinicializado se o último erro significativo ocorrer há mais de 10 dias. O status do endereço é alterado para **Válido** e excluído da lista de quarentenas pelo workflow de **limpeza do banco de dados.** (Para obter mais informações sobre workflows técnicos, consulte [nesta seção](../../administration/using/technical-workflows.md#list-of-technical-workflows).)
+O contador de erros será reinicializado se o último erro significativo ocorrer há mais de 10 dias. O status do endereço é alterado para **Válido** e é excluído da lista de quarentenas pela **Limpeza do banco de dados** fluxo de trabalho. (Para obter mais informações sobre workflows técnicos, consulte [nesta seção](../../administration/using/technical-workflows.md#list-of-technical-workflows).)

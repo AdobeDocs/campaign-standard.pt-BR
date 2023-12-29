@@ -11,8 +11,8 @@ level: Beginner
 exl-id: b0cc38fe-cf71-4350-8b4e-7daf0bf94066
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 14%
+source-wordcount: '525'
+ht-degree: 8%
 
 ---
 
@@ -26,9 +26,9 @@ As opções possíveis são:
 
 * **[!UICONTROL Default affinity]**: este campo permite forçar a execução de um workflow ou de uma atividade de workflow em uma máquina específica.
 
-* **[!UICONTROL History in days]**: especifica o número de dias após o qual o histórico deve ser apagado. O histórico contém elementos relacionados ao workflow: logs, tarefas, eventos (objetos técnicos vinculados à operação do workflow), bem como arquivos baixados pelo **[!UICONTROL Transfer file]** atividade. O valor padrão é de 30 dias para modelos de fluxo de trabalho prontos para uso.
+* **[!UICONTROL History in days]**: especifica o número de dias após os quais o histórico deve ser limpo. O histórico contém elementos relacionados ao workflow: logs, tarefas, eventos (objetos técnicos vinculados à operação do workflow), bem como arquivos baixados pelo **[!UICONTROL Transfer file]** atividade. O valor padrão é de 30 dias para modelos de fluxo de trabalho prontos para uso.
 
-  A limpeza do histórico é executada pelo fluxo de trabalho técnico de limpeza do banco de dados, que é executado todos os dias por padrão (consulte [Lista de workflows técnicos](../../administration/using/technical-workflows.md).)
+  A limpeza do histórico é executada pelo workflow técnico Database cleanup, executado por padrão todos os dias (consulte [Lista de workflows técnicos](../../administration/using/technical-workflows.md).)
 
   >[!IMPORTANT]
   >

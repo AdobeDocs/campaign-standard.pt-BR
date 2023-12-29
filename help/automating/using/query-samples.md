@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 0a71e3a7-60e6-49ec-af2e-099ad0d69a15
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 90%
+source-wordcount: '338'
+ht-degree: 76%
 
 ---
 
@@ -50,21 +50,21 @@ O exemplo a seguir mostra uma atividade de query configurada para direcionar per
 
 ## Direcionamento de perfis que abriram um delivery específico {#targeting-profiles-who-opened-a-specific-delivery}
 
-O exemplo a seguir mostra uma atividade de query configurada para filtrar perfis que abriram o delivery com o rótulo “Hora de verão”.
+O exemplo a seguir mostra uma atividade de query configurada para filtrar perfis que abriram a entrega com o rótulo “Hora de verão”.
 
 1. Arraste o filtro **[!UICONTROL Opened]** no seu query.
 
    ![](assets/query_sample_opened.png)
 
-1. Selecione o delivery e clique em **[!UICONTROL Confirm]**.
+1. Selecione a entrega e clique em **[!UICONTROL Confirm]**.
 
    ![](assets/query_sample_opened2.png)
 
 ## Direcionamento de perfis com falha de deliveries por um motivo específico {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
 
-O exemplo a seguir mostra uma atividade de query configurada para filtrar perfis com falha de deliveries porque a caixa de entrada estava cheia. Esse query só está disponível para usuários com direitos administrativos e pertencentes a unidades organizacionais **[!UICONTROL All (all)]** (consulte [esta seção](../../administration/using/organizational-units.md)).
+O exemplo a seguir mostra uma atividade de query configurada para filtrar perfis com falha de entregas porque a caixa de entrada estava cheia. Esse query só está disponível para usuários com direitos administrativos e pertencentes a unidades organizacionais **[!UICONTROL All (all)]** (consulte [esta seção](../../administration/using/organizational-units.md)).
 
-1. Selecione o recurso **[!UICONTROL Delivery logs]** para filtrar diretamente na tabela de logs do delivery (consulte [Uso de recursos diferentes dos targeting dimensions](../../automating/using/using-resources-different-from-targeting-dimensions.md)).
+1. Selecione o recurso **[!UICONTROL Delivery logs]** para filtrar diretamente na tabela de logs da entrega (consulte [Uso de recursos diferentes dos targeting dimensions](../../automating/using/using-resources-different-from-targeting-dimensions.md)).
 
    ![](assets/query_sample_failure1.png)
 
@@ -102,6 +102,6 @@ O exemplo a seguir mostra uma atividade de query configurada para filtrar perfis
 
    ![](assets/query_sample_trackinglogs2.png)
 
-1. No campo **[!UICONTROL Value]**, digite o rótulo que foi definido na inserção do link no delivery e, em seguida, confirme.
+1. No campo **[!UICONTROL Value]**, digite o rótulo que foi definido na inserção do link na entrega e, em seguida, confirme.
 
    ![](assets/query_sample_trackinglogs3.png)

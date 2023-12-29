@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 23%
+source-wordcount: '516'
+ht-degree: 21%
 
 ---
 
@@ -98,7 +98,7 @@ Leia mais:
 ## Recursos adicionais
 
 * [Otimização da capacidade de entrega](../../sending/using/about-deliverability.md)
-* [Práticas recomendadas de delivery](../../sending/using/delivery-best-practices.md)
+* [Práticas recomendadas de entrega](../../sending/using/delivery-best-practices.md)
 * [Criação de conteúdo de email](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Importação de conteúdo do AEM](../../integrating/using/creating-email-experience-manager.md)
 * [Envio de mensagens com workflows](../../automating/using/about-channel-activities.md)

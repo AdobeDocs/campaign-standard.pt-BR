@@ -11,7 +11,7 @@ exl-id: 8015c555-9521-478c-8669-66b9cc145887
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '1025'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
@@ -120,7 +120,7 @@ Se você estiver satisfeito com o comportamento da landing page, poderá public�
 
 Para saber mais sobre como testar uma landing page, consulte [esta seção](../../channels/using/testing-publishing-landing-page.md#testing-the-landing-page-).
 
-## Etapa 5: publicar a landing page {#publish-the-landing-page}
+## Etapa 5 — publicação da landing page {#publish-the-landing-page}
 
 Depois que os testes forem concluídos com êxito, você poderá publicar a landing page usando o botão **[!UICONTROL Publish]** da barra de ação no painel. Um bloco de monitoramento mostra o avanço e o status da publicação.
 

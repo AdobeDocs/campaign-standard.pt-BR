@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 19%
+source-wordcount: '567'
+ht-degree: 15%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 19%
 
 Você pode criar um email a partir de um [campaign](../../start/using/marketing-activities.md#creating-a-marketing-activity), do Adobe Campaign [home page](../../start/using/interface-description.md#home-page), ou no [lista de atividades de marketing](../../start/using/marketing-activities.md#about-marketing-activities). Também é possível criar emails recorrentes e de envio único a partir de um fluxo de trabalho.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Conheça este recurso no vídeo](#video)
 
 1. Depois de começar a criar uma atividade de marketing por email, selecione o template que deseja usar.
 
@@ -59,7 +59,7 @@ Você pode criar um email a partir de um [campaign](../../start/using/marketing-
 
    Você pode projetar sua mensagem diretamente usando um modelo de conteúdo predefinido ou usando o Dreamweaver ou o Adobe Experience Manager. Se você não se sentir como um designer, também poderá carregar um conteúdo que foi preparado para você ou importar um conteúdo existente de um URL. Consulte [Seleção de conteúdo existente](../../designing/using/using-existing-content.md).
 
-1. Visualizar sua mensagem. Consulte [Pré-visualização de mensagens](../../sending/using/previewing-messages.md).
+1. Pré-visualize a mensagem. Consulte [Pré-visualização de mensagens](../../sending/using/previewing-messages.md).
 1. Confirme a criação do email.
 
    >[!NOTE]

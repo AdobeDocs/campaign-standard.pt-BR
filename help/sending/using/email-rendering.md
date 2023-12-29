@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 31f4e557-55b3-4bf5-8d5d-9d412b7670a6
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 83%
+source-wordcount: '512'
+ht-degree: 79%
 
 ---
 
@@ -25,7 +25,7 @@ Os clientes de dispositivos móveis, mensagens e webmail disponíveis para a **R
 
 ## Geração de renderização de email {#checking-the-email-rendering-report}
 
-Após criar o delivery de email e definir seu conteúdo, assim como o público-alvo, siga as etapas abaixo.
+Após criar a entrega de email e definir seu conteúdo, assim como o público-alvo, siga as etapas abaixo.
 
 1. Clique em **Audience** para acessar a guia **[!UICONTROL Test profiles]**.
 
@@ -48,7 +48,7 @@ Após criar o delivery de email e definir seu conteúdo, assim como o público-a
    >
    >A opção **[!UICONTROL Proof + Email rendering]** permite enviar uma prova e usar o recurso de renderização de email simultaneamente. Você pode ter sua mensagem aprovada pelos recipients de prova e, ao mesmo tempo, pode testar a forma como ela será recebida, dependendo das caixas de entrada direcionadas. Nesse caso, também é necessário selecionar Perfis de teste de prova. Consulte [Sobre perfis de teste](../../audiences/using/managing-test-profiles.md).
 
-   O delivery de teste é enviado.
+   A entrega de teste é enviada.
 
 1. As miniaturas de renderização estão disponíveis alguns minutos após o envio das mensagens. Para acessá-las, selecione **[!UICONTROL Proofs]** na lista suspensa **[!UICONTROL Summary]**.
 
@@ -68,11 +68,11 @@ O relatório de renderização de email dedicado é exibido. Consulte [Descriç�
 
 ## Relatório de renderização de email {#email-rendering-report-description}
 
-Este relatório apresenta as renderizações de email conforme elas são exibidas para o recipient. As renderizações de email podem ser diferentes com base em como o recipient abre o delivery de email: em um navegador, em um dispositivo móvel ou por um aplicativo de email.
+Este relatório apresenta as renderizações de email conforme elas são exibidas para o recipient. As renderizações de email podem ser diferentes com base em como o recipient abre a entrega de email: em um navegador, em um dispositivo móvel ou por um aplicativo de email.
 
 ### Tokens de renderização de email
 
-O número de renderizações disponíveis está listado em seu contrato de licença. Cada delivery com a opção **Renderização de email** ativada diminui uma renderização das renderizações disponíveis (conhecidas como tokens).
+O número de renderizações disponíveis está listado em seu contrato de licença. Cada delivery com **Renderização de email** ativado diminui uma renderização das renderizações disponíveis (conhecidas como tokens).
 
 Os tokens são contabilizados para cada renderização individual e não para o relatório de renderização de email inteiro, o que significa que:
 

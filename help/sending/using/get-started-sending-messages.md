@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 16%
+source-wordcount: '578'
+ht-degree: 12%
 
 ---
 
@@ -90,7 +90,7 @@ Leia mais:
 
 * [Criação de emails de teste A/B](../../channels/using/designing-an-a-b-test-email.md)
 * [Introdução a mensagens](../../channels/using/key-steps-to-send-a-message.md)
-* [Práticas recomendadas de delivery](../../sending/using/delivery-best-practices.md)
+* [Práticas recomendadas de entrega](../../sending/using/delivery-best-practices.md)
 * [Adição de um grupo de controle](../../sending/using/control-group.md)
 
 ## Tutorial em vídeo {#video}

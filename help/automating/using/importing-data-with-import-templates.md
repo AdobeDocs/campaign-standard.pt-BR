@@ -10,7 +10,7 @@ level: Experienced
 exl-id: 5e93b39e-cdd1-4632-8f65-dfa76a735626
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1091'
 ht-degree: 99%
 
 ---
@@ -52,7 +52,7 @@ Um template de importação é definido pelo administrador funcional e pode ser 
 
 Três templates padrão somente leitura estão disponíveis:
 
-* **[!UICONTROL Update Direct mail quarantines and delivery logs]**: este template pode servir como base das novas importações para atualizar quarentenas e logs de delivery de correspondência direta. O fluxo de trabalho do template contém as seguintes atividades:
+* **[!UICONTROL Update Direct mail quarantines and delivery logs]**: este template pode servir como base das novas importações para atualizar quarentenas e logs de entrega de correspondência direta. O fluxo de trabalho do template contém as seguintes atividades:
 * **[!UICONTROL Import data]**: este template pode servir como base das novas importações para inserir dados de um arquivo no banco de dados. O fluxo de trabalho desse template contém as seguintes atividades:
 
    * **[!UICONTROL Load file]**: esta atividade permite fazer upload de um arquivo no servidor do Adobe Campaign.
@@ -108,5 +108,5 @@ O template de importação agora está disponível para os usuários e pode ser 
 
 **Tópicos relacionados:**
 
-* [Fluxos de trabalho](../../automating/using/get-started-workflows.md)
+* [Workflows](../../automating/using/get-started-workflows.md)
 * [Exemplo: importar template de fluxo de trabalho](../../automating/using/creating-import-workflow-templates.md)

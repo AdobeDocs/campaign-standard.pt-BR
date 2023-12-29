@@ -13,7 +13,7 @@ hidefromtoc: true
 source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
 workflow-type: tm+mt
 source-wordcount: '404'
-ht-degree: 5%
+ht-degree: 3%
 
 ---
 
@@ -65,7 +65,7 @@ Agora você pode configurar o fluxo de trabalho com outras atividades. É possí
 
 Para obter mais informações sobre como usar workflows e deliveries, consulte estas seções:
 
-* [Introdução aos workflows](../../automating/using/get-started-workflows.md)
+* [Descobrir fluxos de trabalho](../../automating/using/get-started-workflows.md)
 * [Criação de um workflow](../../automating/using/building-a-workflow.md)
-* [Introdução aos canais de comunicação](../../channels/using/get-started-communication-channels.md)
+* [Descobrir canais de comunicação](../../channels/using/get-started-communication-channels.md)
 * [Sobre as atividades de canal](../../automating/using/about-channel-activities.md)

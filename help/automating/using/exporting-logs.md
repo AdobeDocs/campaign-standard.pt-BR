@@ -10,7 +10,7 @@ level: Experienced
 exl-id: d74e2a2c-3ce1-44d6-a058-67b0600360ca
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '598'
 ht-degree: 14%
 
 ---
@@ -79,4 +79,4 @@ Agora é possível executar o workflow e recuperar o arquivo de saída no servid
 
 **Tópicos relacionados:**
 
-[Fluxos de trabalho](../../automating/using/get-started-workflows.md)
+[Workflows](../../automating/using/get-started-workflows.md)

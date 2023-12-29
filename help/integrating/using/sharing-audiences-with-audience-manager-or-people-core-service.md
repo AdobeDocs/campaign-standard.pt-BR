@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: b0d063de-863c-42e7-98dd-c4c86da3281e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 29%
+source-wordcount: '790'
+ht-degree: 26%
 
 ---
 
@@ -27,7 +27,7 @@ A importação de públicos/segmentos do Serviço principal de pessoas no Adobe 
 1. Na barra de ações, selecione **[!UICONTROL Create]** para ser levado à tela para criar um público-alvo.
 1. Especifique o rótulo do novo público-alvo.
 1. Definir o público **[!UICONTROL Type]** para **[!UICONTROL Experience Cloud]** para indicar que o público-alvo que está sendo criado é um público-alvo que foi importado do serviço principal Pessoas.
-1. No **[!UICONTROL Name of the shared audience]** selecione o público-alvo a ser importado. Apenas segmentos podem ser importados. Dados granulares, incluindo pares chave-valor, características e regras não são compatíveis.
+1. No **[!UICONTROL Name of the shared audience]** selecione o público-alvo a ser importado. Apenas segmentos podem ser importados. Dados granulares, incluindo pares chave-valor, traços e regras não são compatíveis.
 
    ![](assets/aam_import_audience.png)
 
@@ -79,5 +79,5 @@ A sincronização entre o Adobe Campaign e o Serviço principal de pessoas leva 
 
 **Tópicos relacionados:**
 
-* [Fluxos de trabalho](../../automating/using/get-started-workflows.md)
+* [Workflows](../../automating/using/get-started-workflows.md)
 * [Públicos-alvo](../../audiences/using/about-audiences.md)

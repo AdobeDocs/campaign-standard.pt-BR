@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 2%
+source-wordcount: '909'
+ht-degree: 1%
 
 ---
 
@@ -131,4 +131,4 @@ Agora você pode medir o impacto do delivery de notificações por push multilí
 **Tópicos relacionados:**
 
 * [Relatório de notificação por push](../../reporting/using/push-notification-report.md)
-* [Enviar uma notificação por push em um workflow](../../automating/using/push-notification-delivery.md)
+* [Envio de uma notificação por push em um workflow](../../automating/using/push-notification-delivery.md)

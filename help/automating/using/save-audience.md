@@ -12,11 +12,11 @@ exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# Salvar público{#save-audience}
+# Salvar público-alvo{#save-audience}
 
 ## Descrição {#description}
 
@@ -26,7 +26,7 @@ A atividade **[!UICONTROL Save audience]** permite atualizar um público-alvo ou
 
 >[!NOTE]
 >
->Se o público-alvo criado com a atividade **[!UICONTROL Save audience]** tiver sido enriquecido com dados adicionais, você não poderá usar esses dados para personalizar um delivery independente. Eles só poderão ser usados de um delivery executado em um fluxo de trabalho.
+>Se o público-alvo criado com a atividade **[!UICONTROL Save audience]** tiver sido enriquecido com dados adicionais, você não poderá usar esses dados para personalizar uma entrega independente. Eles só poderão ser usados de uma entrega executada em um fluxo de trabalho.
 
 Essa atividade também permite exportar perfis como públicos-alvo/segmentos da Adobe Experience Cloud. Você pode explorar esses públicos-alvo em outras soluções da Adobe Experience Cloud. Para saber mais sobre públicos-alvo compartilhados, consulte [Trabalho com o Campaign e o serviço principal People](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
 

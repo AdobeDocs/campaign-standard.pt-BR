@@ -11,7 +11,7 @@ exl-id: a0f02f69-d72d-48ca-8b38-aaab8d1acfad
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '402'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ Ao criar uma nova atividade de marketing, a primeira tela do assistente solicita
 
 O usuário final tem uma interface simplificada. Ao criar uma nova atividade de marketing, basta selecionar o template que quer usar. Você não precisa se preocupar com configurações técnicas. Ele já foi pré-configurado pelo administrador funcional no template.
 
-Por exemplo, no caso de um template de email, você pode preencher previamente o conteúdo HTML, o público-alvo e qualquer outro parâmetro do delivery, como programação, perfis de teste, as propriedades gerais do delivery, os parâmetros avançados etc. Assim, você economiza tempo ao criar uma nova atividade.
+Por exemplo, no caso de um template de email, você pode preencher previamente o conteúdo HTML, o público-alvo e qualquer outro parâmetro da entrega, como programação, perfis de teste, as propriedades gerais da entrega, os parâmetros avançados etc. Assim, você economiza tempo ao criar uma nova atividade.
 
 ![](assets/template_1.png)
 
@@ -33,8 +33,8 @@ Os templates estão disponíveis para as seguintes atividades de marketing:
 
 * Programas
 * Campanhas
-* Deliveries de email
-* Deliveries por SMS
+* Entregas de email
+* Entregas por SMS
 * Notificações por push
 * Landing pages
 * Fluxos de trabalho

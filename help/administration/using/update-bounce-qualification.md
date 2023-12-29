@@ -6,8 +6,8 @@ hidefromtoc: true
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
 source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 96%
+source-wordcount: '435'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ Para encontrar os recipients que foram afetados por esse problema do Gmail, ou c
 
 ## Processo para atualização
 
-Você precisará executar um query na tabela de quarentena para filtrar todos os recipients do Gmail (ou de outro ISP) que foram potencialmente afetados pela interrupção para que possam ser removidos da lista de quarentena e incluídos em futuros deliveries de email do Campaign.
+Você precisará executar um query na tabela de quarentena para filtrar todos os recipients do Gmail (ou de outro ISP) que foram potencialmente afetados pela interrupção para que possam ser removidos da lista de quarentena e incluídos em futuras entregas de email do Campaign.
 
 Com base no período do incidente, abaixo estão as diretrizes recomendadas para esse query.
 
@@ -43,11 +43,11 @@ Com base no período do incidente, abaixo estão as diretrizes recomendadas para
 Para instâncias do Campaign com informações de resposta de rejeição SMTP no campo **[!UICONTROL Error text]** da lista de quarentena:
 
 * **O texto de erro (texto de quarentena)** contém &quot;550-5.1.1 A conta de email que você tentou acessar não existe&quot; E o texto de **Erro (texto de quarentena)** contém &quot;support.google.com&quot; **
-* **Atualizar status (@lastModified)** em ou após 14/12/2020 6:55:00 h
+* **Atualizar status (@lastModified)** em ou após 14/12/2020 6:55:00 AM
 * **Atualizar status (@lastModified)** até 16/12/2020 6:00:00 h
 
 Depois de ter a lista de recipients afetados, você pode defini-los como um status **[!UICONTROL Valid]** para que sejam removidos da lista de quarentena pelo fluxo de trabalho **[!UICONTROL Database cleanup]** ou simplesmente excluí-los da tabela.
 
 **Tópicos relacionados:**
-* [Compreender as falhas de entrega](../../sending/using/understanding-delivery-failures.md)
+* [Entender as falhas de entrega](../../sending/using/understanding-delivery-failures.md)
 * [Qualificação de email de rejeição](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)

@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
 source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 40%
+source-wordcount: '1206'
+ht-degree: 39%
 
 ---
 
@@ -49,12 +49,12 @@ Algumas configurações específicas podem ser configuradas para definir o compo
 * [Preparação e envio de uma notificação por push](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Criação de uma notificação por push multilíngue](../../channels/using/creating-a-multilingual-push-notification.md)
 * [Relatório de notificação por push](../../reporting/using/push-notification-report.md)
-* [Guia para Aplicativos de dispositivos móveis no Campaign Standard](../../channels/using/get-started-communication-channels.md)
+* [Guia do Campaign Standard Mobile](../../channels/using/get-started-communication-channels.md)
 
 ## Pré-requisitos {#prerequisites}
 
 >[!NOTE]
->Para usar o recurso de notificação por push do Campaign, você precisa fornecer um certificado de push válido no formato .pem sem senhas.
+>Para aproveitar o recurso de notificação por push do Campaign, você precisa fornecer um certificado de push válido no formato .pem sem senhas.
 >
 >Se você tiver um certificado p12 válido, poderá convertê-lo facilmente em um arquivo .pem usando os recursos online.
 
@@ -80,7 +80,7 @@ Antes de enviar as notificações por push, você deve:
 
 Confira os recursos abaixo:
 
-* [Tutoriais em vídeo](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [Tutorials de vídeo](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [Documentação do produto](../../channels/using/about-push-notifications.md)
 * Configurar o usando o SDK da AEP [documentação](../../administration/using/configuring-a-mobile-application.md)
 * [Página da comunidade](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)

@@ -12,7 +12,7 @@ exl-id: 32d9d174-8438-48d7-b876-33a0c35d9549
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 81%
+ht-degree: 76%
 
 ---
 
@@ -28,9 +28,9 @@ Você pode enviar um email todas as terças-feiras a todos os clientes com ofert
 
 1. Entrada **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, arraste e solte uma [Scheduler](../../automating/using/scheduler.md) atividade.
 1. Clique duas vezes na atividade.
-1. Configure a execução do delivery.
+1. Configure a execução da entrega.
 1. Em **[!UICONTROL Execution frequency]**, selecione **[!UICONTROL Weekly]**.
-1. Selecione uma **[!UICONTROL Time]** e uma **[!UICONTROL Repetition frequency]** para seus deliveries.
+1. Selecione uma **[!UICONTROL Time]** e uma **[!UICONTROL Repetition frequency]** para suas entregas.
 1. Em **[!UICONTROL Days of the week]**, selecione **[!UICONTROL Tuesday]**.
 1. Especifique um parâmetro **[!UICONTROL Start]** e **[!UICONTROL Expiration]** para o fluxo de trabalho.
 1. Confirme sua atividade e salve o fluxo de trabalho.

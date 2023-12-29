@@ -9,8 +9,8 @@ level: Experienced
 exl-id: a63fe730-a6b2-4ae0-93da-9f8ee7824c9f
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 39%
+source-wordcount: '222'
+ht-degree: 34%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 39%
                   <td> </td>
                </tr>
                <tr>
-                  <td>Atividades</td>
+                  <td>atividades</td>
                   <td>Atividades</td>
                   <td>coleção </td>
                   <td> </td>
@@ -46,13 +46,13 @@ ht-degree: 39%
                <tr>
                   <td>criado</td>
                   <td>Criado</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Criado por</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -70,13 +70,13 @@ ht-degree: 39%
                <tr>
                   <td>fim</td>
                   <td>Data final</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unidade geográfica</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -87,12 +87,12 @@ ht-degree: 39%
                </tr>
                <tr>
                   <td>isTemplate</td>
-                  <td>Template</td>
+                  <td>Modelo</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>label</td>
+                  <td>rótulo</td>
                   <td>Rótulo</td>
                   <td>sequência de caracteres (128)</td>
                   <td> </td>
@@ -100,7 +100,7 @@ ht-degree: 39%
                <tr>
                   <td>lastModified</td>
                   <td>Última modificação</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -121,7 +121,7 @@ ht-degree: 39%
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificado por</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -133,13 +133,13 @@ ht-degree: 39%
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Entidade organizacional</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>programa (programBase)</td>
                   <td>Programa</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -151,7 +151,7 @@ ht-degree: 39%
                <tr>
                   <td>start</td>
                   <td>Data inicial</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -170,7 +170,7 @@ ht-degree: 39%
                <tr>
                   <td>template (campanha)</td>
                   <td>Template de campanha</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -224,7 +224,7 @@ Por período (byPeriod)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
     <tr>
     <td>timePeriod</td>
@@ -267,11 +267,11 @@ Planejado para o período determinado (por Planejamento)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
 </table>
 
@@ -284,10 +284,10 @@ Presente durante determinado período (por calendário)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
 </table>

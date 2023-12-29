@@ -10,7 +10,7 @@ role: User
 exl-id: 6b26615b-4aa6-401d-a12d-25cef4cd0524
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '270'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Sempre que você fizer alterações na programação de um delivery, prepare novamente o delivery clicando no botão **Prepare** antes de clicar em **Confirm**.
+>Sempre que você fizer alterações na programação de uma entrega, prepare novamente a entrega clicando no botão **Prepare** antes de clicar em **Confirm**.
 
 No painel de mensagens, o bloco **[!UICONTROL Schedule]** permite definir quando as mensagens (email, SMS ou notificações por push) serão enviadas.
 
@@ -43,7 +43,7 @@ As propriedades **[!UICONTROL Schedule]** permitem definir as opções de envio 
 
 >[!IMPORTANT]
 >
->Ao duplicar um delivery, todas as configurações de programação são excluídas. A menos que você programe uma nova data de contato, o delivery duplicado será enviado assim que o envio for confirmado.
+>Ao duplicar uma entrega, todas as configurações de programação são excluídas. A menos que você programe uma nova data de contato, a entrega duplicada será enviada assim que o envio for confirmado.
 
 **Tópicos relacionados**:
 

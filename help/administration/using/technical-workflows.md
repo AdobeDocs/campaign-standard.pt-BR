@@ -8,8 +8,8 @@ level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 89%
+source-wordcount: '704'
+ht-degree: 88%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 89%
 
 Os fluxos de trabalho técnicos são fornecidos prontos para uso com o Adobe Campaign. Eles são operações ou trabalhos programados para serem executados regularmente no servidor.
 
-Eles permitem fazer operações de manutenção no banco de dados, usar as informações de rastreamento nos deliveries e atualizar os trabalhos provisionais nos deliveries.
+Eles permitem fazer operações de manutenção no banco de dados, usar as informações de rastreamento nas entregas e atualizar os trabalhos provisionais nas entregas.
 
 Os administradores funcionais podem acessar os fluxos de trabalho técnicos no menu **[!UICONTROL Administration > Application settings > Workflows]**.
 
@@ -56,7 +56,7 @@ Os fluxos de trabalho técnicos são usados para lidar com processos técnicos e
   <tr> 
    <td> <span class="uicontrol">Previsão</span> <br /> </td> 
    <td> <span class="uicontrol">previsão</span> <br /> </td> 
-   <td> Este fluxo de trabalho executa a análise dos deliveries armazenados na previsão provisional (criação dos logs provisionais). Por padrão, ele é iniciado todos os dias às 1:00. <br /> </td> 
+   <td> Este fluxo de trabalho executa a análise das entregas armazenados na previsão provisional (criação dos logs provisionais). Por padrão, ele é iniciado todos os dias às 1:00. <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Importar um público-alvo compartilhado</span> <br /> </td> 
@@ -112,12 +112,12 @@ Os fluxos de trabalho técnicos são usados para lidar com processos técnicos e
   <tr> 
    <td> <span class="uicontrol">Atualizar os indicadores de delivery</span> <br /> </td> 
    <td> <span class="uicontrol">updateDeliveryIndicators</span> <br /> </td> 
-   <td> Este fluxo de trabalho atualiza os KPIs (indicadores principais de desempenho) do delivery. Por padrão, ele é iniciado de hora em hora.<br /> </td> 
+   <td> Este fluxo de trabalho atualiza os KPIs (indicadores principais de desempenho) da entrega. Por padrão, ele é iniciado de hora em hora.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Atualizar status do evento</span> <br /> </td> 
    <td> <span class="uicontrol">updateEventsStatus</span> <br /> </td> 
-   <td> Este fluxo de trabalho permite atribuir um status a um evento. Os seguintes status de evento estão disponíveis:<br /> <strong>Pending</strong>: o evento está em uma fila. Nenhum template de mensagem foi atribuído a ele.<br /> <span class="uicontrol">Pending delivery</span>: o evento está na fila, um template de mensagem foi atribuído a ele e ele está sendo processado pelo delivery.<br /> <strong>Sent</strong>: este status é copiado dos logs de delivery. Ele significa que o delivery foi enviado.<br /> <strong>Ignored by the delivery</strong>: este status é copiado dos logs de delivery. Ele significa que o delivery foi ignorado.<br /> <strong>Delivery failed</strong>: este status é copiado dos logs de delivery. Ele significa que o delivery falhou.<br /> <span class="uicontrol">Event not taken into account</span>: não foi possível vincular o evento a um template de mensagem. O evento não será processado.<br /> </td> 
+   <td> Este fluxo de trabalho permite atribuir um status a um evento. Os seguintes status de evento estão disponíveis:<br /> <strong>Pending</strong>: o evento está em uma fila. Nenhum template de mensagem foi atribuído a ele.<br /> <span class="uicontrol">Pending delivery</span>: o evento está na fila, um template de mensagem foi atribuído a ele e ele está sendo processado pelo delivery.<br /> <strong>Sent</strong>: este status é copiado dos logs de delivery. Ele significa que a entrega foi enviada.<br /> <strong>Ignored by the delivery</strong>: este status é copiado dos logs de delivery. Ele significa que a entrega foi ignorada.<br /> <strong>Delivery failed</strong>: este status é copiado dos logs de delivery. Ele significa que a entrega falhou.<br /> <span class="uicontrol">Event not taken into account</span>: não foi possível vincular o evento a um template de mensagem. O evento não será processado.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Atualização para entregabilidade</span><br /> </td> 

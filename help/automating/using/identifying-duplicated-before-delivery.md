@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: a09b101b-f76f-4377-9854-1fcffaad4f9a
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 78%
+source-wordcount: '287'
+ht-degree: 79%
 
 ---
 
@@ -28,7 +28,7 @@ Este fluxo de trabalho é composto por:
 
   ![](assets/deduplication_example_query.png)
 
-* A [Desduplicação](../../automating/using/deduplication.md) atividade, que permite identificar os duplicados que vêm da consulta anterior. Neste exemplo, somente um registro é salvo para cada duplicata. As duplicatas são identificadas usando o endereço de email. Isso significa que o delivery de email só pode ser enviado uma vez para cada endereço que esteja presente no direcionamento.
+* A [Desduplicação](../../automating/using/deduplication.md) atividade, que permite identificar os duplicados que vêm da consulta anterior. Neste exemplo, somente um registro é salvo para cada duplicata. As duplicatas são identificadas usando o endereço de email. Isso significa que a entrega de email só pode ser enviada uma vez para cada endereço que esteja presente no direcionamento.
 
   O método de desduplicação selecionado é **[!UICONTROL Non-empty value]**. Esse método assegura que, entre os registros mantidos em caso de duplicatas, seja dada prioridade àqueles em que foi fornecido o **nome**. Esse método se tornará mais coerente se o nome for usado nos campos de personalização do conteúdo do email.
 
@@ -37,4 +37,4 @@ Este fluxo de trabalho é composto por:
   ![](assets/deduplication_example_dedup.png)
 
 * Um [Entrega de email](../../automating/using/email-delivery.md) colocado depois da transição de saída principal da desduplicação.
-* A [Salvar público-alvo](../../automating/using/save-audience.md) atividade colocada após a transição adicional da desduplicação para salvar os duplicados em um **Duplicatas** público-alvo. Esse público-alvo pode ser reutilizado para excluir diretamente membros de cada delivery de email.
+* A [Salvar público-alvo](../../automating/using/save-audience.md) atividade colocada após a transição adicional da desduplicação para salvar os duplicados em um **Duplicatas** público-alvo. Esse público-alvo pode ser reutilizado para excluir diretamente membros de cada entrega de email.

@@ -11,8 +11,8 @@ level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
 source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 80%
+source-wordcount: '1212'
+ht-degree: 77%
 
 ---
 
@@ -34,7 +34,7 @@ Por exemplo:
 * 001 – Importar – Importar recipients
 * 002 – Importar – Importar vendas
 * 003 – Importar – Importar detalhes de vendas
-* 010 – Exportar – Exportar logs de deliveries
+* 010 – Exportar – Exportar logs de entregas
 * 011 – Exportar – Exportar logs de rastreamento
 
 ## Duplicação de workflows{#duplicating-workflows}
@@ -47,7 +47,7 @@ Você pode duplicar fluxos de trabalho. Em **[!UICONTROL Marketing Activities]**
 
 ### Quantidade de fluxos de trabalhos
 
-Por padrão, recomendamos **não executar mais de 20 fluxos de trabalho ativos simultaneamente** (isso não se aplica a fluxos de trabalho que estejam aguardando uma execução programada). Após atingir esse limite, os fluxos de trabalho serão enfileirados para não afetar o desempenho.
+Por padrão, recomendamos **não executar mais de 20 fluxos de trabalho ativos simultaneamente** (isso não se aplica a fluxos de trabalho que estejam aguardando uma execução programada). Após atingir esse limite, os workflows serão enfileirados para não afetar o desempenho.
 
 Em contextos específicos, talvez seja necessário executar mais de 20 fluxos de trabalho. Em caso afirmativo, verifique os casos de uso com um especialista do Campaign e entre em contato com o Atendimento ao cliente da Adobe para aumentar o limite.
 
@@ -159,13 +159,13 @@ A consulta é exibida na coluna **[!UICONTROL Message]** dos logs.
 
 ### Uso de logs do delivery{#using-delivery-logs}
 
-Com os Logs do delivery é possível monitorar o sucesso de seus deliveries. Os logs de exclusão retornam mensagens excluídas durante a preparação do envio. Os logs de envio fornecem o status do delivery para cada perfil.
-Para mais informações, consulte [Conhecimento das falhas de delivery](../../sending/using/understanding-delivery-failures.md).
+Com os Logs da entrega é possível monitorar o sucesso de suas entregas. Os logs de exclusão retornam mensagens excluídas durante a preparação do envio. Os logs de envio fornecem o status da entrega para cada perfil.
+Para mais informações, consulte [Conhecimento das falhas de entrega](../../sending/using/understanding-delivery-failures.md).
 
 ### Uso de alertas de delivery{#delivery-alerting}
 
-O recurso de Alerta de delivery é um sistema de gerenciamento de alertas que permite que um grupo de usuários receba automaticamente notificações contendo informações sobre a execução de seus deliveries.
-Para mais informações, consulte [Alertas de delivery](../../sending/using/receiving-alerts-when-failures-happen.md).
+O recurso de Alerta de entrega é um sistema de gerenciamento de alertas que permite que um grupo de usuários receba automaticamente notificações contendo informações sobre a execução de suas entregas.
+Para mais informações, consulte [Alertas de entrega](../../sending/using/receiving-alerts-when-failures-happen.md).
 
 **Tópicos relacionados:**
 

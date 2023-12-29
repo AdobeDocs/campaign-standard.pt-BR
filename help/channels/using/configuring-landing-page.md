@@ -12,7 +12,7 @@ exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
 source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
@@ -26,7 +26,7 @@ Quando uma landing page é enviada por um visitante, você pode configurar as a�
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Na seção **[!UICONTROL Specific actions]**, selecione **[!UICONTROL Start sending message]** para determinar o envio de uma mensagem automática, por exemplo, para confirmar a assinatura em um serviço. Em seguida, selecione um template do delivery de email.
+1. Na seção **[!UICONTROL Specific actions]**, selecione **[!UICONTROL Start sending message]** para determinar o envio de uma mensagem automática, por exemplo, para confirmar a assinatura em um serviço. Em seguida, selecione um template da entrega de email.
 
    Observe que, se uma mensagem de confirmação já estiver configurada no nível de serviço, você não deverá selecionar nenhuma nessa tela para evitar o envio de várias mensagens de confirmação. Consulte [Configurar um serviço](../../audiences/using/creating-a-service.md).
 
@@ -115,4 +115,4 @@ Sua landing page agora está configurada com o Google reCAPTCHA, localizado na p
 
 ![](assets/lp_parameters_google2.png)
 
-O Google reCAPTCHA retornará uma pontuação com base nas interações dos usuários com sua página. Para verificar sua pontuação, conecte-se ao Google Admin Console.
+O Google reCAPTCHA retornará uma pontuação com base nas interações dos usuários com sua página. Para verificar sua pontuação, conecte-se ao Admin Console do Google.

@@ -1,6 +1,6 @@
 ---
 title: Templates de mensagens multilíngues
-description: Saiba como definir e executar deliveries de emails/SMS multilíngues em um único delivery com base no idioma preferencial dos clientes segmentados automaticamente. Relate o desempenho de cada delivery até os níveis de idioma e pessoa.
+description: Saiba como definir e executar entregas de emails/SMS multilíngues em uma única entrega com base no idioma preferencial dos clientes segmentados automaticamente. Relate o desempenho de cada entrega até os níveis de idioma e pessoa.
 audience: start
 content-type: reference
 topic-tags: managing-templates
@@ -10,14 +10,14 @@ level: Intermediate
 exl-id: 3d869f31-7dfb-4546-aba5-80a2787e00be
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '295'
 ht-degree: 100%
 
 ---
 
 # Modelos de mensagens multilíngues {#multilingual-messages-template}
 
-Um template multilíngue é específico para gerenciar mensagens multilíngues. Esse tipo de template está disponível para mensagens de **email** e **SMS** e pode ser usado no modo independente, em um fluxo de trabalho ou em um delivery recorrente.
+Um template multilíngue é específico para gerenciar mensagens multilíngues. Esse tipo de template está disponível para mensagens de **email** e **SMS** e pode ser usado no modo independente, em um fluxo de trabalho ou em uma entrega recorrente.
 
 Nos templates de recursos multilíngues, o gerenciamento de idiomas é baseado em variantes. **Cada variante representa um idioma**. O Adobe Campaign Standard pode configurar, no máximo, 40 variantes.
 

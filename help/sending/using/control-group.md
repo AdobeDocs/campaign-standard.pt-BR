@@ -11,16 +11,16 @@ level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
 source-git-commit: 9bfae9e956fa86254578eda821aedd240c81288c
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 98%
+source-wordcount: '1317'
+ht-degree: 95%
 
 ---
 
 # Adição de um grupo de controle {#adding-control-group}
 
-Você pode usar grupos de controle para evitar o envio de mensagens para uma parte do público para medir o impacto das campanhas.
+Você pode usar grupos de controle para evitar o envio de mensagens para uma parte do público-alvo para medir o impacto das campanhas.
 
-Para fazer isso no Adobe Campaign, crie um <b>grupo de controle</b> ao definir o público-alvo do seu delivery. Perfis são adicionados ao grupo de controle aleatoriamente, filtrados ou não, ou baseados em critérios.
+Para fazer isso no Adobe Campaign, crie um <b>grupo de controle</b> ao definir o público-alvo da sua entrega. Perfis são adicionados ao grupo de controle aleatoriamente, filtrados ou não, ou baseados em critérios.
 
 Portanto você poderá comparar o comportamento do público-alvo que recebeu a mensagem com o comportamento dos contatos não atingidos. Com base nos logs de envio, você também poderá se concentrar em um grupo de controle em campanhas futuras.
 
@@ -34,19 +34,19 @@ O grupo de controle pode ser extraído do público-alvo principal e/ou vir de um
 
 Você pode usar ambos os métodos ao definir um grupo de controle.
 
-Todos os perfis que fazem parte do grupo de controle na etapa de preparação do delivery serão removidos do público-alvo principal. Eles não receberão a mensagem depois que ela for enviada.
+Todos os perfis que fazem parte do grupo de controle na etapa de preparação da entrega serão removidos do público-alvo principal. Eles não receberão a mensagem depois que ela for enviada.
 
 ## Extração a partir do público-alvo {#extraction-target-population}
 
 Para definir um grupo de controle, você pode optar por extrair, aleatoriamente ou com base em uma classificação, uma porcentagem ou um número fixo de perfis do público-alvo.
 
-### Extração de público-alvo {#target-extraction}
+### Extração do Target {#target-extraction}
 
 Primeiro, defina como os perfis serão extraídos do público-alvo: **aleatoriamente** ou com base em uma **classificação**.
 
 Na seção **[!UICONTROL Target extraction]**, selecione uma das seguintes opções:
 
-* **[!UICONTROL Random sampling]**: ao preparar o delivery, o Adobe Campaign extrairá aleatoriamente um número de perfis correspondente à porcentagem ou ao número máximo que você definirá como o [limite de tamanho](#size-limit).
+* **[!UICONTROL Random sampling]**: ao preparar a entrega, o Adobe Campaign extrairá aleatoriamente um número de perfis correspondente à porcentagem ou ao número máximo que você definirá como o [limite de tamanho](#size-limit).
 
   Por exemplo, se você definir o limite como 10 na seção **[!UICONTROL Limits]**, 10% do grupo de controle será constituído por um público selecionado aleatoriamente a partir da população direcionada.<!--Change screenshot to match example)-->
 
@@ -123,8 +123,8 @@ Abaixo está um exemplo de como definir um grupo de controle usando ambos os mé
 1. Criar um workflow. As etapas detalhadas para criar um workflow são apresentadas na seção [Criação de um workflow](../../automating/using/building-a-workflow.md).
 1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arraste e solte uma atividade de [Query](../../automating/using/query.md). Dê um duplo clique na atividade e defina seu público-alvo. <!--For example, in **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profile]**, select **[!UICONTROL Age]** with the operator **[!UICONTROL Greater than]** and type 25 in the **[!UICONTROL Value]** field.-->
 
-1. Em **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, arraste e solte uma atividade de [delivery de email](../../automating/using/email-delivery.md) após o segmento principal do público-alvo e edite-a.
-1. Clique no bloco **[!UICONTROL Audience]** do painel do delivery.
+1. Em **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, arraste e solte uma atividade de [entrega de email](../../automating/using/email-delivery.md) após o segmento principal do público-alvo e edite-a.
+1. Clique no bloco **[!UICONTROL Audience]** do painel da entrega.
 
 1. Selecione a guia **[!UICONTROL Control group]**.
 
@@ -143,15 +143,15 @@ Abaixo está um exemplo de como definir um grupo de controle usando ambos os mé
 
    Os perfis com menos de 20 anos serão excluídos.
 
-1. Inicie a [preparação do delivery](../../sending/using/preparing-the-send.md) e [confirme o envio](../../sending/using/confirming-the-send.md).
+1. Inicie a [preparação da entrega](../../sending/using/preparing-the-send.md) e [confirme o envio](../../sending/using/confirming-the-send.md).
 
 Os perfis extraídos (os 100 perfis mais antigos) e os definidos com base no query (perfis com menos de 20 anos) serão retirados do público-alvo principal. Eles não receberão a mensagem.
 
 ## Comparação dos resultados {#delivery-logs}
 
-Agora que seu delivery foi enviado, o que você pode fazer com o grupo de controle?
+Agora que sua entrega foi enviada, o que você pode fazer com o grupo de controle?
 
-Você pode extrair os **logs de envio** para comparar como foi a ação do grupo de controle que não recebeu a comunicação e a do público-alvo efetivo. Você também pode usar os logs do delivery para **criar outro direcionamento**.
+Você pode extrair os **logs de envio** para comparar como foi a ação do grupo de controle que não recebeu a comunicação e a do público-alvo efetivo. Você também pode usar os logs da entrega para **criar outro direcionamento**.
 
 >[!IMPORTANT]
 >
@@ -159,19 +159,19 @@ Você pode extrair os **logs de envio** para comparar como foi a ação do grupo
 
 ### Verificar os logs do delivery {#checking-logs}
 
-Para ver quais perfis foram removidos do público-alvo depois que a mensagem foi enviada, verifique o **[!UICONTROL Delivery logs]**. Para obter mais informações sobre os logs do delivery e como acessá-los, consulte [esta seção](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+Para ver quais perfis foram removidos do público-alvo depois que a mensagem foi enviada, verifique o **[!UICONTROL Delivery logs]**. Para obter mais informações sobre os logs da entrega e como acessá-los, consulte [esta seção](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
 * Na guia **[!UICONTROL Sending logs]** é possível ver os perfis extraídos e excluídos. Eles têm o status **[!UICONTROL Ignored]** e **[!UICONTROL Control group]** como razão da falha.
 
   ![](assets/control-group-sending-logs.png)
 
-* Você também pode verificar a guia **[!UICONTROL Exclusion causes]** para ver o número de perfis que não foram incluídos no delivery.
+* Você também pode verificar a guia **[!UICONTROL Exclusion causes]** para ver o número de perfis que não foram incluídos na entrega.
 
   ![](assets/control-group-exclusion-causes.png)
 
 ### Usar logs de grupos de controle {#using-logs}
 
-Após o envio do delivery, você poderá usar os logs do delivery para filtrar os perfis que não receberam a mensagem. Siga as etapas abaixo:
+Após o envio da entrega, você poderá usar os logs da entrega para filtrar os perfis que não receberam a mensagem. Siga as etapas abaixo:
 
 1. Criar um workflow. As etapas detalhadas para criar um workflow são apresentadas na seção [Criação de um workflow](../../automating/using/building-a-workflow.md).
 1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arraste e solte uma atividade de [Query](../../automating/using/query.md).
@@ -198,7 +198,7 @@ Você pode, por exemplo, exportar os dados de log usando uma atividade **Extrair
 
 ### Direcionar o grupo de controle {#targeting-control-group}
 
-Para fazer um direcionamento com base nos perfis que não receberam a mensagem, você também pode usar os logs do delivery. Siga as etapas abaixo:
+Para fazer um direcionamento com base nos perfis que não receberam a mensagem, você também pode usar os logs da entrega. Siga as etapas abaixo:
 
 1. Criar um workflow. As etapas detalhadas para criar um workflow são apresentadas na seção [Criação de um workflow](../../automating/using/building-a-workflow.md).
 1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arraste e solte uma primeira atividade de [Query](../../automating/using/query.md).

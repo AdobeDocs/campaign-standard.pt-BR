@@ -12,7 +12,7 @@ exl-id: feedc2f5-63da-44a5-b8f0-15afdfd47daa
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 83%
+ht-degree: 80%
 
 ---
 
@@ -34,7 +34,7 @@ Você pode enviar um email de direcionamento para clientes com ofertas em suas l
 
 ![](assets/wf-complement-query.png)
 
-## Criação de uma atividade de Segmentação{#creating-a-segmentation-activity}
+## Criação de uma atividade de segmentação{#creating-a-segmentation-activity}
 
 1. Arraste e solte uma [Segmentação](../../automating/using/segmentation.md) atividade e clique duas vezes nela.
 1. Clique no segmento e abra a transição para segmentar as pessoas na primeira cidade. Neste caso, Boston.

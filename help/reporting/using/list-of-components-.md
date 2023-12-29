@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 7%
+source-wordcount: '1308'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ A tabela abaixo fornece a lista de dimensões usadas em relatórios e suas defin
 <table> 
  <thead> 
   <tr> 
-   <th> Dimensão<br /> </th> 
+   <th> Dimension<br /> </th> 
    <th> Definição<br /> </th> 
   </tr> 
  </thead> 
@@ -50,7 +50,7 @@ A tabela abaixo fornece a lista de dimensões usadas em relatórios e suas defin
    <td> País registrado no perfil do destinatário.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivery<br /> </td> 
+   <td> Entrega<br /> </td> 
    <td> Etiqueta e ID da entrega.<br /> </td> 
   </tr> 
   <tr> 
@@ -78,7 +78,7 @@ A tabela abaixo fornece a lista de dimensões usadas em relatórios e suas defin
    <td> Nome do aplicativo móvel<br /> </td> 
   </tr> 
   <tr> 
-   <td> Plataforma<br /> </td> 
+   <td> Platform<br /> </td> 
    <td> Plataforma do dispositivo do qual a mensagem foi aberta/exibida/clicada.<br /> </td> 
   </tr> 
   <tr> 
@@ -94,7 +94,7 @@ A tabela abaixo fornece a lista de dimensões usadas em relatórios e suas defin
    <td> Domínio usado para abrir o email.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivery recorrente<br /> </td> 
+   <td> Entrega recorrente<br /> </td> 
    <td> Rótulo e ID da entrega recorrente.<br /> </td> 
   </tr> 
   <tr> 
@@ -156,7 +156,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
   </tr> 
   <tr> 
    <td> Devoluções + Erros<br /> </td> 
-   <td> Total de erros acumulados durante o processamento de entrega e retorno automático em relação ao número total de mensagens enviadas.<br /> </td> 
+   <td> Total de erros acumulados durante o processamento de delivery e retorno automático em relação ao número total de mensagens enviadas.<br /> </td> 
   </tr> 
   <tr> 
    <td> Rejeição + taxa de erro<br /> </td> 

@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 5974a52c-8721-4575-b452-2982d6497235
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 58%
+source-wordcount: '1176'
+ht-degree: 55%
 
 ---
 
@@ -48,7 +48,7 @@ Esse exemplo mostra como predefinir um workflow que pode ser reutilizado para im
 
    * Na seção **[!UICONTROL File to load]**, selecione **[!UICONTROL Upload a new file from the local machine]** e deixe o campo em branco. Toda vez que um novo workflow for criado a partir desse modelo, você pode especificar aqui o arquivo desejado, desde que ele corresponda à estrutura definida.
 
-     Você pode usar qualquer uma das opções, mas precisa modificar o template adequadamente. Por exemplo, se você selecionar **[!UICONTROL Use the file specified in the inbound transition]**, será possível adicionar uma atividade **[!UICONTROL Transfer file]** antes de recuperar o arquivo para importar de um servidor FTP/SFTP.
+     Você pode usar qualquer uma das opções, mas precisa modificar o template adequadamente. Por exemplo, se você selecionar **[!UICONTROL Use the file specified in the inbound transition]**, você pode adicionar um **[!UICONTROL Transfer file]** atividade antes de recuperar o arquivo para importar de um servidor FTP/SFTP.
 
      Se quiser que os usuários baixem um arquivo contendo erros que ocorreram durante uma importação, marque a caixa de seleção **[!UICONTROL Keep the rejects in a file]** e especifique a **[!UICONTROL File name]**.
 

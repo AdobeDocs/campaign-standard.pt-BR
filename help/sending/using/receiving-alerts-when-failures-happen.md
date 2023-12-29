@@ -10,8 +10,8 @@ level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '2031'
-ht-degree: 3%
+source-wordcount: '2038'
+ht-degree: 2%
 
 ---
 
@@ -75,7 +75,7 @@ Na interface do Adobe Campaign, é possível:
 
 Para enviar notificações com base em critérios específicos para diferentes grupos de usuários, é necessário usar vários painéis. Para criar um novo painel:
 
-1. Acesse **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**.
+1. Ir para **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**.
 1. Selecione **[!UICONTROL Delivery alerting dashboards]** e clique em **[!UICONTROL Create]**.
 1. Verifique a **[!UICONTROL Enabled]** para ativar o painel atual.
 
@@ -85,7 +85,7 @@ Para enviar notificações com base em critérios específicos para diferentes g
 
 1. Selecione o grupo de destinatários que deseja notificar na **[!UICONTROL Alert group]** lista suspensa. Para modificar ou criar um grupo, consulte [Criação de um grupo de segurança e atribuição de usuários](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users).
 1. No **[!UICONTROL Delivery alerting criteria]** clique em **[!UICONTROL Create element]** para adicionar critérios. Consulte [Sobre os critérios de alerta](#about-alerting-criteria).
-1. Selecione o botão **[!UICONTROL Edit properties]**. No **[!UICONTROL Criteria parameters]** defina como os critérios serão aplicados. Consulte [Parâmetros de critérios](#criteria-parameters).
+1. Selecione o **[!UICONTROL Edit properties]** botão. No **[!UICONTROL Criteria parameters]** defina como os critérios serão aplicados. Consulte [Parâmetros de critérios](#criteria-parameters).
 1. Clique em **[!UICONTROL Create]** para salvar o painel.
 
 Agora, sempre que um delivery atender aos critérios definidos nesse painel, uma notificação de alerta será enviada para o grupo especificado de usuários.
@@ -132,9 +132,9 @@ Para cada critério, você pode definir as seguintes configurações:
 
 **Tópicos relacionados:**
 
-* [Envio de logs](../../sending/using/monitoring-a-delivery.md#sending-logs)
+* [Logs de envio](../../sending/using/monitoring-a-delivery.md#sending-logs)
 * [Frequência de alerta](#alerting-frequency)
-* [Ícones e status da atividade de marketing](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
+* [Ícones e status de atividades de marketing](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
 ### Criação de um critério de alerta de delivery {#creating-a-delivery-alerting-criterion}
 
@@ -264,7 +264,7 @@ Estes são alguns motivos possíveis para receber notificações de alerta de ac
   Para evitar erros de devolução temporária e permanente, siga as práticas recomendadas abaixo:
 
    * Crie regras de tipologia de filtragem para excluir uma parte do público-alvo da mensagem durante a análise de entrega, como destinatários em quarentena. Consulte [Criando uma regra de filtragem](../../sending/using/filtering-rules.md).
-   * Atualize regularmente o banco de dados do cliente para manter bons processos de gerenciamento de quarentena. Consulte [Sobre quarentenas](../../sending/using/understanding-quarantine-management.md#about-quarantines).
+   * Atualize regularmente o banco de dados do cliente para manter bons processos de gerenciamento de quarentena. Consulte [Sobre a quarentena](../../sending/using/understanding-quarantine-management.md#about-quarantines).
    * De modo geral, melhore a capacidade de delivery da melhor maneira possível. Consulte a Adobe Campaign [Capacidade de entrega](../../sending/using/about-deliverability.md) documentação detalhada e entre em contato com o administrador do Adobe Campaign para obter assistência.
 
 * **[!UICONTROL Deliveries with long start pending]**: geralmente significa que há um problema no nível do MTA (Agente de transferência de mensagem). O processo de execução está aguardando a disponibilidade de alguns recursos. O MTA pode não ter sido iniciado.
@@ -275,6 +275,6 @@ Estes são alguns motivos possíveis para receber notificações de alerta de ac
 
 **Tópicos relacionados:**
 
-* [Noções básicas sobre falhas de delivery](../../sending/using/understanding-delivery-failures.md)
+* [Noções básicas sobre falhas de entrega](../../sending/using/understanding-delivery-failures.md)
 * [Compreensão do gerenciamento de quarentena](../../sending/using/understanding-quarantine-management.md)
 * [Sobre aceitação e recusa no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

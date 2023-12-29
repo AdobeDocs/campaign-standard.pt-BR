@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 20dafd81-8546-450a-87a0-59a2509efb7a
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 45%
+source-wordcount: '155'
+ht-degree: 36%
 
 ---
 
@@ -40,19 +40,19 @@ ht-degree: 45%
     <tr>
         <td>criado</td>
         <td>Criado</td>
-        <td>date </td>
+        <td>data </td>
         <td> </td>
     </tr>
     <tr>
         <td>createdBy (userBase)</td>
         <td>Criado por</td>
-        <td>Link  </td>
+        <td>link </td>
         <td> </td>
     </tr>
     <tr>
         <td>delivery (delivery)</td>
         <td>Entrega</td>
-        <td>Link  </td>
+        <td>link </td>
         <td> </td>
     </tr>
     <tr>
@@ -94,13 +94,13 @@ ht-degree: 45%
     <tr>
         <td>geoUnit (geoUnitBase)</td>
         <td>Unidade geográfica</td>
-        <td>Link  </td>
+        <td>link </td>
         <td> </td>
     </tr>
     <tr>
         <td>lastModified</td>
         <td>Última modificação</td>
-        <td>date </td>
+        <td>data </td>
         <td> </td>
     </tr>
     <tr>
@@ -112,13 +112,13 @@ ht-degree: 45%
     <tr>
         <td>modifiedBy (userBase)</td>
         <td>Modificado por</td>
-        <td>Link  </td>
+        <td>link </td>
         <td> </td>
     </tr>
     <tr>
         <td>orgUnit (orgUnitBase)</td>
         <td>Entidade organizacional</td>
-        <td>Link  </td>
+        <td>link </td>
         <td> </td>
     </tr>
     <tr>
@@ -135,7 +135,7 @@ ht-degree: 45%
     <tr>
         <td>recipient (recipient)</td>
         <td>Perfil identificado</td>
-        <td>Link  </td>
+        <td>link </td>
         <td> </td>
     </tr>
     <tr>
@@ -171,7 +171,7 @@ ht-degree: 45%
     <tr>
         <td>referrerRcp (recipient)</td>
         <td>Referenciador</td>
-        <td>Link  </td>
+        <td>link </td>
         <td> </td>
     </tr>
     <tr>

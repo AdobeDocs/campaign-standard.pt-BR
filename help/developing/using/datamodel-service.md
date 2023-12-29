@@ -9,8 +9,8 @@ level: Experienced
 exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 42%
+source-wordcount: '222'
+ht-degree: 36%
 
 ---
 
@@ -40,13 +40,13 @@ ht-degree: 42%
                <tr>
                   <td>criado</td>
                   <td>Criado</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Criado por</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -64,13 +64,13 @@ ht-degree: 42%
                <tr>
                   <td>fim</td>
                   <td>Data final</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unidade geográfica</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -87,12 +87,12 @@ ht-degree: 42%
                </tr>
                <tr>
                   <td>isTemplate</td>
-                  <td>Template</td>
+                  <td>Modelo</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>label</td>
+                  <td>rótulo</td>
                   <td>Rótulo</td>
                   <td>sequência de caracteres (128)</td>
                   <td> </td>
@@ -100,7 +100,7 @@ ht-degree: 42%
                <tr>
                   <td>lastModified</td>
                   <td>Última modificação</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -142,7 +142,7 @@ ht-degree: 42%
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificado por</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -154,7 +154,7 @@ ht-degree: 42%
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Entidade organizacional</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -166,19 +166,19 @@ ht-degree: 42%
                <tr>
                   <td>start</td>
                   <td>Data inicial</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>subLandingPage (landingPageSubscriptionBase)</td>
                   <td>Página de aterrissagem da assinatura</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>subScenario (deliveryMCTemplateBase)</td>
                   <td>Confirmação de assinatura</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -202,7 +202,7 @@ ht-degree: 42%
                <tr>
                   <td>template (serviço)</td>
                   <td>Modelo de serviço</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -220,13 +220,13 @@ ht-degree: 42%
                <tr>
                   <td>unsubLandingPage (landingPageUnsubscriptionBase)</td>
                   <td>Cancelar assinatura da página de aterrissagem</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>unsubScenario (deliveryMCTemplateBase)</td>
                   <td>Confirmação de cancelamento de assinatura</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -254,11 +254,11 @@ Disponível durante o período determinado (por Planejamento)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
 </table>
 

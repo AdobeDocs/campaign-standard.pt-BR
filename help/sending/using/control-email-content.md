@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: debbc70d-4094-44c0-b7cb-c999effda1a6
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 54%
+source-wordcount: '787'
+ht-degree: 47%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 54%
 
 <!--TO KEEP because specific to Campaign-->
 
-Para garantir que seus emails cheguem aos recipients e melhorem a taxa de capacidade de delivery de email, eles devem respeitar várias regras. Caso contrário, o conteúdo de determinadas mensagens pode ser detectado como spam. O Adobe Campaign fornece várias ferramentas para fazer com que o conteúdo esteja em conformidade com essas regras.
+Para garantir que seus emails cheguem aos recipients e melhorem a taxa de capacidade de entrega de email, eles devem respeitar várias regras. Caso contrário, o conteúdo de determinadas mensagens pode ser detectado como spam. O Adobe Campaign fornece várias ferramentas para fazer com que o conteúdo esteja em conformidade com essas regras.
 
 Siga os princípios listados abaixo ao criar o conteúdo da mensagem:
 
@@ -31,7 +31,7 @@ Siga os princípios listados abaixo ao criar o conteúdo da mensagem:
 * [Link de unsubscription ](#opt-out) e landing page: o link de unsubscription é essencial. Deve ser visível e válido e o formulário deve ser funcional.
 * Pré-visualização: use as ferramentas oferecidas pelo Adobe Campaign para verificar e otimizar o conteúdo do seu email ([Análise antisspam](#anti-spam-analysis), [Renderização de email](#message-responsiveness)).
 
-Para obter dicas adicionais para otimizar a capacidade de delivery ao projetar conteúdo, consulte o [Manual de práticas recomendadas de capacidade de delivery da Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html?lang=pt-BR).
+Para obter dicas adicionais para otimizar a capacidade de entrega ao projetar conteúdo, consulte o [Manual de práticas recomendadas de capacidade de entrega da Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html?lang=pt-BR).
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ Para obter mais informações, consulte [Definição do remetente de email de um
 
 ## Personalização e otimização de tempo de envio {#perso-send-time-optimization}
 
-Para melhorar a experiência dos recipients e fazer com que eles abram seu email, o Adobe Campaign permite personalizar as mensagens. Para obter mais informações, consulte [esta seção](../../designing/using/personalization.md).
+Para melhorar a experiência dos recipients e fazer com que eles abram seu email, o Adobe Campaign permite personalizar suas mensagens. Para obter mais informações, consulte [esta seção](../../designing/using/personalization.md).
 
 Para aumentar a taxa de abertura das mensagens, também é possível definir manualmente um tempo de envio por recipient. Cada perfil receberá a mensagem na data e hora especificadas, sempre que possível. Para obter mais informações, consulte [Otimização do tempo de envio](../../sending/using/optimizing-the-sending-time.md).
 
@@ -61,7 +61,7 @@ Você deve verificar se o link de opt-out funciona corretamente antes de cada ve
 
 ![](assets/optin_landingpage_3.png)
 
-Se for detectado um problema de cancelamento de subscrição após o início do delivery, ainda será possível realizar um cancelamento de subscrição manualmente (usando a função de atualização em massa, por exemplo) para os recipients que clicam no link de opt-out, mesmo que não tenham conseguido confirmar sua escolha.
+Se for detectado um problema de cancelamento de subscrição após o início da entrega, ainda será possível realizar um cancelamento de subscrição manualmente (usando a função de atualização em massa, por exemplo) para os recipients que clicam no link de opt-out, mesmo que não tenham conseguido confirmar sua escolha.
 
 Como regra geral, você não deve tentar impedir os recipients que desejam fazer o opt-out exigindo que eles preencham campos como endereço de email ou nome, por exemplo. A landing page de cancelamento de subscrição deve ter apenas um botão de validação.
 

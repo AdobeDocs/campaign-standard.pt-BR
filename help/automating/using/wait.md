@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 2ddc1b2b-0df5-4c91-a381-451cc094f2eb
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 100%
+source-wordcount: '297'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ A atividade **[!UICONTROL Wait]** é usada para permitir que um determinado per�
 
 ## Exemplo {#example}
 
-O exemplo a seguir ilustra a atividade **[!UICONTROL Wait]** em um caso de uso comum. Um convite é enviado por email para um evento. 24 horas após o envio, os logs de delivery do email são analisados e um email de lembrete é enviado para as pessoas que receberam o primeiro email, mas não se inscreveram.
+O exemplo a seguir ilustra a atividade **[!UICONTROL Wait]** em um caso de uso comum. Um convite é enviado por email para um evento. 24 horas após o envio, os logs de entrega do email são analisados e um email de lembrete é enviado para as pessoas que receberam o primeiro email, mas não se inscreveram.
 
 O fluxo de trabalho é apresentado da seguinte forma:
 

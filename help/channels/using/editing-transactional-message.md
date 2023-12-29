@@ -12,7 +12,7 @@ exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 30%
+ht-degree: 27%
 
 ---
 
@@ -35,7 +35,7 @@ Quando a mensagem estiver pronta, ela poderá ser testada e publicada. Consulte 
 Para acessar a mensagem transacional que você criou:
 
 1. Clique em **Adobe** no canto superior esquerdo.
-1. Selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+1. Selecionar **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 
    ![](assets/message-center_4.png)
 
@@ -221,7 +221,7 @@ As etapas para criar, editar e personalizar uma mensagem transacional de perfil 
 
 As diferenças são listadas abaixo.
 
-1. [Acesse a mensagem transacional criada para editá-la.](#accessing-transactional-messages)
+1. [Ir para a mensagem transacional](#accessing-transactional-messages) que foi criado para editá-lo.
 1. Na mensagem transacional, clique na seção **[!UICONTROL Content]**. Além dos templates de email transacional, você também pode escolher qualquer template de email direcionado para o **[!UICONTROL Profile]** recurso.
 
    ![](assets/message-center_marketing_templates.png)

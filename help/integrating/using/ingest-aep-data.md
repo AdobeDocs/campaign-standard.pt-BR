@@ -1,5 +1,5 @@
 ---
-title: Assimilar públicos da Adobe Experience Platform no Campaign
+title: Assimilar públicos-alvos da Adobe Experience Platform no Campaign
 description: Saiba como assimilar públicos-alvo da Adobe Experience Platform no Campaign Standard.
 audience: integrating
 content-type: reference
@@ -8,12 +8,12 @@ level: Intermediate
 exl-id: 5c266c44-535b-4954-862d-74c83a6f6406
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '319'
 ht-degree: 68%
 
 ---
 
-# Assimilar públicos da Adobe Experience Platform no Campaign {#destinations}
+# Assimilar públicos-alvos da Adobe Experience Platform no Campaign {#destinations}
 
 Para assimilar públicos da Adobe Experience Platform no Campaign e usá-los em seus workflows, primeiro é necessário conectar o Adobe Campaign como um **Destino** da Adobe Experience Platform e configurá-lo com o segmento a ser exportado.
 
@@ -37,7 +37,7 @@ Para fazer isso, é necessário adicionar e configurar uma atividade **[!UICONTR
 
 ![](assets/rtcdp-transfer-file.png)
 
-Em seguida, você pode criar o fluxo de trabalho de acordo com suas necessidades (atualizar o banco de dados usando os dados do segmento, enviar deliveries entre canais para o segmento etc.)
+Em seguida, você pode criar o fluxo de trabalho de acordo com suas necessidades (atualizar o banco de dados usando os dados do segmento, enviar entregas entre canais para o segmento etc.)
 
 Como exemplo, o fluxo de trabalho abaixo faz o download do arquivo do local de armazenamento diariamente e atualiza o banco de dados do Campaign com os dados do segmento.
 

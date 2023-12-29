@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 96%
+source-wordcount: '976'
+ht-degree: 91%
 
 ---
 
@@ -24,7 +24,7 @@ Esta seção detalha os principais princípios e as práticas recomendadas para 
 
 Um workflow é uma **sequência de atividades configuráveis**. Cada atividade tem uma função específica no processo. O resultado de cada atividade é encaminhado à atividade seguinte por uma **transição**, representada por uma seta.
 
-O tipo de dados trocado entre uma atividade e outra pode afetar a forma como as atividades seguintes são configuradas. Por exemplo, se uma população for estabelecida antes da atividade de delivery de email, ela poderá servir como destino do email em questão.
+O tipo de dados trocado entre uma atividade e outra pode afetar a forma como as atividades seguintes são configuradas. Por exemplo, se uma população for estabelecida antes da atividade de entrega de email, ela poderá servir como destino do email em questão.
 
 É possível abrir atividades para verificar ou editar parâmetros antes ou depois de executar o workflow.
 
@@ -68,7 +68,7 @@ A criação de uma atividade de marketing é detalhada na seção [Criar ativida
 
 1. Confirme a criação da atividade. Em seguida, o painel da atividade será exibido. Para obter mais informações, consulte a seção [Interface de fluxo de trabalho](../../automating/using/workflow-interface.md).
 
-1. Quando o workflow estiver pronto para ser configurado, você poderá acessar opções adicionais clicando no botão **[!UICONTROL Edit properties]**. 
+1. Quando o workflow estiver pronto para ser configurado, você poderá acessar opções adicionais clicando no link **[!UICONTROL Edit properties]** botão.
 
    Por exemplo, é possível definir um fuso horário específico para usar por padrão em todas as atividades do workflow. Por padrão, o fuso horário do workflow é aquele definido para o operador atual do Campaign.
 

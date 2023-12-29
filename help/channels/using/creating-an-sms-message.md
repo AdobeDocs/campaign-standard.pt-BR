@@ -11,25 +11,25 @@ level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 89%
+source-wordcount: '554'
+ht-degree: 87%
 
 ---
 
 # Criação de uma mensagem SMS{#creating-an-sms-message}
 
-A criação de um delivery de SMS é muito semelhante à criação de um email comum. As etapas a seguir descrevem a configuração específica para esse canal. Consulte [Criar um email](../../channels/using/creating-an-email.md) para obter mais informações sobre outras opções.
+A criação de uma entrega de SMS é muito semelhante à criação de um email comum. As etapas a seguir descrevem a configuração específica para esse canal. Consulte [Criar um email](../../channels/using/creating-an-email.md) para obter mais informações sobre outras opções.
 
 Parâmetros de SMS avançados são detalhados na seção [Configuração de SMS](../../administration/using/configuring-sms-channel.md).
 
-![](assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Conheça este recurso no vídeo](#video)
 
 Para criar e enviar mensagens SMS para um telefone celular, é necessário:
 
 * Uma conta externa de **[!UICONTROL Routing]** configurada no canal **[!UICONTROL Mobile (SMS)]** com o modo **[!UICONTROL Bulk delivery]**. Para mais informações, consulte a seção [Roteamento](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
-* Um template do delivery vinculado corretamente a essa conta externa.
+* Um template da entrega vinculado corretamente a essa conta externa.
 
-1. Crie um delivery de SMS. Você pode fazer isso na [página inicial](../../start/using/interface-description.md#home-page) do Adobe Campaign, em uma [campanha](../../start/using/marketing-activities.md#creating-a-marketing-activity) ou na [lista de atividade de marketing](../../start/using/programs-and-campaigns.md#creating-a-campaign).
+1. Crie uma entrega de SMS. Você pode fazer isso na [página inicial](../../start/using/interface-description.md#home-page) do Adobe Campaign, em uma [campanha](../../start/using/marketing-activities.md#creating-a-marketing-activity) ou na [lista de atividade de marketing](../../start/using/programs-and-campaigns.md#creating-a-campaign).
 
    Você também pode adicionar uma atividade SMS em um fluxo de trabalho. Para mais informações, consulte o Guia [Fluxos de trabalho](../../automating/using/sms-delivery.md).
 
@@ -39,7 +39,7 @@ Para criar e enviar mensagens SMS para um telefone celular, é necessário:
 
    ![](assets/sms_creation_1.png)
 
-   Para enviar para um telefone celular, o template do delivery deve estar corretamente vinculado à conta externa do roteamento SMS.
+   Para enviar para um telefone celular, o template da entrega deve estar corretamente vinculado à conta externa do roteamento SMS.
 
 1. Insira as propriedades gerais do SMS.
 
@@ -55,7 +55,7 @@ Para criar e enviar mensagens SMS para um telefone celular, é necessário:
 
    ![](assets/sms_creation_3.png)
 
-1. Adicione conteúdo ao seu SMS. Você também pode definir o conteúdo clicando na seção **[!UICONTROL Content]** do painel do delivery depois que a criação do SMS for finalizada. Consulte [Sobre design de conteúdo de SMS](../../channels/using/about-sms-and-push-content-design.md).
+1. Adicione conteúdo ao seu SMS. Você também pode definir o conteúdo clicando na seção **[!UICONTROL Content]** do painel da entrega depois que a criação do SMS for finalizada. Consulte [Sobre design de conteúdo de SMS](../../channels/using/about-sms-and-push-content-design.md).
 
    Se você tiver inserido campos de personalização ou texto condicional no conteúdo da mensagem SMS, o comprimento da mensagem pode variar de um recipient para outro. Na verdade, esses fatores podem introduzir caracteres que não são considerados pela codificação GSM. Por isso, a duração da mensagem deve ser avaliada depois de realizada a personalização. Consulte [Personalização de mensagens SMS](../../channels/using/personalizing-sms-messages.md).
 
@@ -76,13 +76,13 @@ Para criar e enviar mensagens SMS para um telefone celular, é necessário:
 
    ![](assets/sms_creation_7.png)
 
-A mensagem é enviada. Você pode verificar o delivery pelo painel de mensagens e registros.
+A mensagem é enviada. Você pode verificar a entrega pelo painel de mensagens e registros.
 
-Quando o envio estiver concluído, você pode iniciar a medição do impacto de sua mensagem com relatórios do delivery incorporados ou personalizados.
+Quando o envio estiver concluído, você pode iniciar a medição do impacto de sua mensagem com relatórios da entrega incorporados ou personalizados.
 
 **Tópicos relacionados:**
 
-* [Sobre SMS e edição de conteúdo de notificações por push](../../channels/using/about-sms-and-push-content-design.md)
+* [Sobre SMS e edição de conteúdo de push](../../channels/using/about-sms-and-push-content-design.md)
 * [Gerenciamento de modelos](../../start/using/marketing-activity-templates.md)
 
 ## Tutorial em vídeo {#video}

@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1514'
 ht-degree: 100%
 
 ---
@@ -114,9 +114,9 @@ Ao executar uma solicitação de privacidade de Exclusão ou Acesso, o Adobe Cam
 Aqui está a lista de recursos prontos para utilização que são considerados ao executar solicitações de Privacidade:
 
 * Perfis (recipient)
-* Logs do delivery de perfil (broadLogRcp)
+* Logs da entrega de perfil (broadLogRcp)
 * Logs de rastreamento de perfil (trackingLogRcp)
-* Logs do delivery (Assinaturas de um aplicativo) (broadLogAppSubRcp)
+* Logs da entrega (Assinaturas de um aplicativo) (broadLogAppSubRcp)
 * Registros de rastreamento (assinaturas de um aplicativo) (trackingLogAppSubRcp)
 * Assinaturas de um aplicativo (appSubscriptionRcp)
 * Histórico de assinaturas de perfis (subHistoRcp)

@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 21%
+source-wordcount: '491'
+ht-degree: 13%
 
 ---
 
@@ -34,7 +34,7 @@ A interface do Campaign Standard fornece um painel de notificação que permite 
 
 **Workflows técnicos**
 
-Eles são operações ou trabalhos programados para serem executados regularmente no servidor. Para garantir que sua instância esteja íntegra e funcionando corretamente, é necessário garantir que elas estejam sempre ativas e em execução. [Leia mais](../../administration/using/technical-workflows.md)
+Os workflows técnicos são operações ou trabalhos agendados para serem executados regularmente no servidor. Para garantir que sua instância esteja íntegra e funcionando corretamente, é necessário garantir que elas estejam sempre ativas e em execução. [Leia mais](../../administration/using/technical-workflows.md)
 
 **Painel de controle**
 
@@ -72,7 +72,7 @@ Seguir as práticas recomendadas e as diretrizes de solução de problemas ao us
 O monitoramento de logs de fluxo de trabalho é uma etapa essencial para analisar seus fluxos de trabalho e verificar se eles estão sendo executados corretamente.
 [Leia mais](../../automating/using/monitoring-workflow-execution.md#workflow-log-and-tasks)
 
-**Notificações**
+**Notificação**
 
 O Campaign Standard permite enviar notificações aos supervisores para monitorar a execução dos workflows e ver se há algum erro que exija sua atenção.
 [Leia mais](../../automating/using/monitoring-workflow-execution.md#error-management)
@@ -81,12 +81,12 @@ O Campaign Standard permite enviar notificações aos supervisores para monitora
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
-**Avaliação do delivery**
+**Avaliação da entrega**
 
 O Campaign Standard fornece várias ferramentas de entrega para ajudar você a melhorar o número de mensagens entregues com êxito: relatórios de taxa de transferência de entrega, otimização de tempo de envio, pré-visualização de mensagens, renderização de email, gerenciamento de quarentena etc.
 [Leia mais](../../sending/using/about-deliverability.md)
 
-**Deliveries**
+**Entregas**
 
 Depois que as mensagens são enviadas, logs detalhados permitem monitorar as entregas e medir o sucesso da campanha, bem como rastrear o comportamento dos recipients das mensagens.
 [Leia mais](../../sending/using/monitoring-a-delivery.md)

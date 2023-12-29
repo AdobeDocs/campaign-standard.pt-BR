@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '1500'
-ht-degree: 96%
+source-wordcount: '1439'
+ht-degree: 93%
 
 ---
 
@@ -27,7 +27,7 @@ Como um usuário especializado, para configurar aplicativos móveis no Adobe Cam
 **Conteúdo relacionado:**
 
 * [Relatório de notificação por push](../../reporting/using/push-notification-report.md)
-* [Enviar uma notificação por push em um workflow](../../automating/using/push-notification-delivery.md)
+* [Envio de uma notificação por push em um workflow](../../automating/using/push-notification-delivery.md)
 
 ## Reproduzir um som {#play-a-sound}
 

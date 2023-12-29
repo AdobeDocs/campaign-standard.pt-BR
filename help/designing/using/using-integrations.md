@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 10%
+source-wordcount: '706'
+ht-degree: 5%
 
 ---
 
@@ -27,7 +27,7 @@ A integração do Adobe Campaign Standard com o Dreamweaver permite editar o con
 
   Sempre que uma edição é feita em um produto, ela é atualizada em tempo real no outro. Se você quiser alterar a cor do texto no Dreamweaver, assim que fizer essa edição, a cor do texto estará ativa no Campaign. Além disso, ao selecionar o código no Dreamweaver ou Campaign, como os números de linha são os mesmos, a seleção permanece entre os dois produtos, o que é muito útil ao procurar algo específico no código.
 
-* **Upload de imagens locais no Adobe Campaign por meio do Dreamweaver**
+* **Fazer upload de imagens locais no Adobe Campaign por meio do Dreamweaver**
 
   Ao criar ou editar um email no Dreamweaver, você pode simplesmente selecionar uma imagem do seu desktop ou computador local. Embora o Dreamweaver sempre tenha permitido que você faça isso, quando o Dreamweaver e o Campaign estiverem conectados, o arquivo local será carregado imediatamente no servidor do Adobe Campaign: não é necessário carregar imagens manualmente conforme o conteúdo é alterado. Além disso, garante que as imagens mais recentes estejam sempre ativas no Campaign.
 
@@ -37,7 +37,7 @@ A integração do Adobe Campaign Standard com o Dreamweaver permite editar o con
 
 Esse recurso é detalhado na Documentação do Dreamweaver, acessível [aqui](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
 
-![](assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Conheça este recurso no vídeo](#video)
 
 ## Edição de conteúdo no Experience Manager {#editing-content-in-experience-manager}
 
@@ -68,37 +68,37 @@ O Adobe Campaign oferece várias opções de criação de email. A tabela abaixo
  <tbody> 
   <tr> 
    <td> <strong>Iniciar email em branco</strong><br /> </td> 
-   <td> Suportado<br /> </td> 
-   <td> Suportado<br /> </td> 
-   <td> Suportado<br /> </td> 
+   <td> Compatível<br /> </td> 
+   <td> Compatível<br /> </td> 
+   <td> Compatível<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Gravar HTML</strong><br /> </td> 
-   <td> Suportado<br /> </td> 
+   <td> Compatível<br /> </td> 
    <td> Não suportado<br /> </td> 
-   <td> Suportado<br /> </td> 
+   <td> Compatível<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Atualizar HTML</strong><br /> </td> 
    <td> Somente dentro de um componente de HTML<br /> </td> 
    <td> Não suportado<br /> </td> 
-   <td> Suportado<br /> </td> 
+   <td> Compatível<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Personalização básica</strong><br /> </td> 
-   <td> Suportado<br /> </td> 
-   <td> Suportado<br /> </td> 
-   <td> Suportado<br /> </td> 
+   <td> Compatível<br /> </td> 
+   <td> Compatível<br /> </td> 
+   <td> Compatível<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Personalização avançada</strong><br /> </td> 
-   <td> Suportado<br /> </td> 
+   <td> Compatível<br /> </td> 
    <td> Não suportado<br /> </td> 
    <td> Não suportado<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Prova/Visualização</strong><br /> </td> 
-   <td> Suportado<br /> </td> 
+   <td> Compatível<br /> </td> 
    <td> Visualizar no AEM<br /> Prova no Campaign<br /> </td> 
    <td> Pré-visualização e prova no Campaign<br /> </td> 
   </tr> 
@@ -139,7 +139,7 @@ O Adobe Campaign oferece várias opções de criação de email. A tabela abaixo
    <td> Conteúdo dinâmico não suportado<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Público</strong><br /> </td> 
+   <td> <strong>Público-alvo</strong><br /> </td> 
    <td> Profissionais de marketing que desejam manter a flexibilidade para usar componentes do HTML em combinação com recursos de arrastar e soltar<br /> </td> 
    <td> Profissionais de marketing que já usam o Experience Manager e que desejam usar modelos de email padrão com pouca personalização<br /> </td> 
    <td> Desenvolvedores que desejam codificar conteúdo de email e integrar-se diretamente ao Adobe Campaign<br /> </td> 

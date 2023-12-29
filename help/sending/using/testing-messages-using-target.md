@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1533'
 ht-degree: 4%
 
 ---
@@ -39,7 +39,7 @@ As principais etapas são as seguintes:
    >
    >Provas são processadas por [!DNL Campaign Standard] como deliveries padrão. Como resultado, o envio de provas usando a substituição de perfil adicionará registros ao delivery e aos logs de rastreamento dos perfis selecionados.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Conheça este recurso no vídeo](#video)
 
 ## Seleção de perfis e endereços de substituição {#selecting-profiles}
 
@@ -177,7 +177,7 @@ As principais etapas para esse caso de uso são as seguintes:
 1. Crie um fluxo de trabalho para direcionar perfis e envie o informativo.
 1. Configure as substituições de perfil da mensagem.
 1. Pré-visualize a mensagem usando perfis direcionados.
-1. Enviar provas.
+1. Envie provas.
 
 ### Etapa 1: criar o público-alvo para usar em testes
 
@@ -211,7 +211,7 @@ As principais etapas para esse caso de uso são as seguintes:
 
 ### Etapa 3: configure a guia Substituição de perfil da mensagem
 
-1. Abra a atividade **[!UICONTROL Email delivery]**. No painel da mensagem, clique na guia **[!UICONTROL Audience]** bloco.
+1. Abra o **[!UICONTROL Email delivery]** atividade. No painel da mensagem, clique na guia **[!UICONTROL Audience]** bloco.
 
    ![](assets/substitution_uc5.png)
 

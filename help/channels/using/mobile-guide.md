@@ -1,5 +1,5 @@
 ---
-title: Guia para Aplicativos de dispositivos móveis no Campaign Standard
+title: Guia do Campaign Standard Mobile
 description: Saiba mais sobre as diretrizes gerais para entregas móveis no Adobe Campaign Standard, como configurar seus aplicativos móveis ou criar notificações por push e mensagens no aplicativo.
 audience: channels
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 25%
+ht-degree: 22%
 
 ---
 
@@ -193,7 +193,7 @@ Com o Adobe Campaign Standard, você pode enviar deliveries para dispositivos m�
     <div>
     <p><strong>Criação de uma mensagem SMS</strong></p>
     </div>
-    <p>A criação de um delivery de SMS é muito semelhante à criação de um email comum. </br>As etapas <a href="../../channels/using/creating-an-sms-message.md"><strong>detalhado aqui</strong></a> descreva a configuração específica para esse canal.</p>
+    <p>A criação de uma entrega de SMS é muito semelhante à criação de um email comum. </br>As etapas <a href="../../channels/using/creating-an-sms-message.md"><strong>detalhado aqui</strong></a> descreva a configuração específica para esse canal.</p>
     <br>
   </td>
   <td>

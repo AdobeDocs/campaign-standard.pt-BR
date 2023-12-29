@@ -12,7 +12,7 @@ exl-id: f9b36b4d-0e9d-4dcf-9079-91dc83764102
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -47,7 +47,7 @@ Para exibir e modificar o conteúdo de um elemento, clique no rótulo correspond
 As etapas de exportação de pacote são descritas na seção [Exportação de um pacote](#exporting-a-package).
 
 * O pacote **[!UICONTROL Platform]** reúne todos os recursos adicionados durante a configuração técnica: recursos personalizados, conjuntos de recursos personalizados, acionadores e opções de aplicativo com o tipo **[!UICONTROL System]**.
-* O pacote **[!UICONTROL Administration]** agrupa todos os objetos adicionados durante a configuração dos negócios como: templates de campanha, templates de conteúdo, templates de delivery, templates de landing page, templates de programa e templates de fluxo de trabalho.
+* O pacote **[!UICONTROL Administration]** agrupa todos os objetos adicionados durante a configuração dos negócios como: templates de campanha, templates de conteúdo, templates de entrega, templates de landing page, templates de programa e templates de fluxo de trabalho.
 
   Ele também inclui estes objetos: blocos de conteúdo, target mappings, contas externas, unidades organizacionais, opções de aplicativo com o tipo **[!UICONTROL User]**, funções, tipologias, regras de tipologia e usuários.
 

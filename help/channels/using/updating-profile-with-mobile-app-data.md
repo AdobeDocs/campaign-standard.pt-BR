@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 4%
+source-wordcount: '1000'
+ht-degree: 2%
 
 ---
 
@@ -86,7 +86,7 @@ No **[!UICONTROL General]** , defina o **[!UICONTROL Execution frequency]** (por
 
 ![](assets/update_profile2.png)
 
-### Configure a atividade **[!UICONTROL Incremental query]**.
+### Configure o **[!UICONTROL Incremental query]** atividade.
 
 1. No **[!UICONTROL Properties]** clique na guia **[!UICONTROL Select an element]** ícone do **[!UICONTROL Resource]** e selecione o **[!UICONTROL Subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** elemento.
 
@@ -100,7 +100,7 @@ No **[!UICONTROL General]** , defina o **[!UICONTROL Execution frequency]** (por
 
    ![](assets/update_profile5.png)
 
-### Configure a atividade **[!UICONTROL Update data]**.
+### Configure o **[!UICONTROL Update data]** atividade.
 
 1. No **[!UICONTROL Identification]** , verifique se **[!UICONTROL Dimension to update]** for definido como &quot;Perfis (perfil)&quot;, depois clique no link **[!UICONTROL Create element]** botão para adicionar um campo como critério de reconciliação.
 

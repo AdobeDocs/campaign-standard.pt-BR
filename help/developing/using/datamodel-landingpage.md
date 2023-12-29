@@ -11,8 +11,8 @@ level: Experienced
 exl-id: bd12a214-5998-4fb9-9f54-0c886067b58b
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '1728'
-ht-degree: 8%
+source-wordcount: '1817'
+ht-degree: 7%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 8%
       <tr>
          <td>identidade visual (brandingBase)</td>
          <td>Marca</td>
-         <td>Link  </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
@@ -72,7 +72,7 @@ ht-degree: 8%
       <tr>
          <td>campaign (campaignBase)</td>
          <td>Campanha</td>
-         <td>Link  </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
@@ -90,13 +90,13 @@ ht-degree: 8%
       <tr>
          <td>criado</td>
          <td>Criado</td>
-         <td>date </td>
+         <td>data </td>
          <td> </td>
       </tr>
       <tr>
          <td>createdBy (userBase)</td>
          <td>Criado por</td>
-         <td>Link  </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
@@ -162,7 +162,7 @@ ht-degree: 8%
       <tr>
          <td>defaultOrigin (delivery)</td>
          <td>Fonte de tráfego</td>
-         <td>Link  </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
@@ -234,7 +234,7 @@ ht-degree: 8%
       <tr>
          <td>fim</td>
          <td>Data de validade</td>
-         <td>date </td>
+         <td>data </td>
          <td> </td>
       </tr>
       <tr>
@@ -252,7 +252,7 @@ ht-degree: 8%
       <tr>
          <td>geoUnit (geoUnitBase)</td>
          <td>Unidade geográfica</td>
-         <td>Link  </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
@@ -281,7 +281,7 @@ ht-degree: 8%
       </tr>
       <tr>
          <td>isTemplate</td>
-         <td>Template</td>
+         <td>Modelo</td>
          <td>booleano </td>
          <td> </td>
       </tr>
@@ -298,7 +298,7 @@ ht-degree: 8%
          <td> </td>
       </tr>
       <tr>
-         <td>label</td>
+         <td>rótulo</td>
          <td>Rótulo</td>
          <td>sequência de caracteres (128)</td>
          <td> </td>
@@ -306,13 +306,13 @@ ht-degree: 8%
       <tr>
          <td>lastModified</td>
          <td>Última modificação</td>
-         <td>date </td>
+         <td>data </td>
          <td> </td>
       </tr>
       <tr>
          <td>loadingFilter (queryFilterBase)</td>
          <td>Carregando chave</td>
-         <td>Link  </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
@@ -345,13 +345,13 @@ ht-degree: 8%
       <tr>
          <td>messageActionDelivery (deliveryMCTemplateBase)</td>
          <td>Mensagem transacional</td>
-         <td>Link  </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
          <td>modifiedBy (userBase)</td>
          <td>Modificado por</td>
-         <td>Link  </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
@@ -363,7 +363,7 @@ ht-degree: 8%
       <tr>
          <td>orgUnit (orgUnitBase)</td>
          <td>Entidade organizacional</td>
-         <td>Link  </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
@@ -375,7 +375,7 @@ ht-degree: 8%
       <tr>
          <td>programa (programBase)</td>
          <td>Programa</td>
-         <td>Link  </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
@@ -387,13 +387,13 @@ ht-degree: 8%
       <tr>
          <td>publicationDate</td>
          <td>Data de publicação</td>
-         <td>date </td>
+         <td>data </td>
          <td> </td>
       </tr>
       <tr>
          <td>reconciliationFilter (queryFilterBase)</td>
          <td>Chave de reconciliação</td>
-         <td>Link  </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
@@ -417,7 +417,7 @@ ht-degree: 8%
       <tr>
          <td>serviço (serviceBase)</td>
          <td>Serviço de assinatura</td>
-         <td>Link  </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
@@ -437,7 +437,7 @@ ht-degree: 8%
       <tr>
          <td>start</td>
          <td>Data de implantação</td>
-         <td>date </td>
+         <td>data </td>
          <td> </td>
       </tr>
       <tr>
@@ -463,12 +463,12 @@ ht-degree: 8%
       <tr>
          <td>modelo (landingPage)</td>
          <td>Modelo da landing page</td>
-         <td>Link  </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
          <td>testUrl</td>
-         <td>URL de teste</td>
+         <td>Testar URL</td>
          <td>sequência de caracteres </td>
          <td> </td>
       </tr>
@@ -607,7 +607,7 @@ ht-degree: 8%
       </tr>
       <tr>
          <td>título</td>
-         <td>Landing page</td>
+         <td>Página de destino</td>
          <td>sequência de caracteres (255)</td>
          <td> </td>
       </tr>
@@ -741,11 +741,11 @@ Presente durante determinado período (por calendário)
         </tr>
         <tr>
         <td>startDate</td>
-        <td>date</td>
+        <td>data</td>
         </tr>
         <tr>
         <td>endDate</td>
-        <td>date</td>
+        <td>data</td>
         </tr>
     </table>
 
@@ -758,10 +758,10 @@ Publicado durante determinado período (byPlanning)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
 </table>

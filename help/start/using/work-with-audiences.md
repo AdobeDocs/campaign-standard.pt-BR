@@ -6,8 +6,8 @@ content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 11%
+source-wordcount: '775'
+ht-degree: 6%
 
 ---
 
@@ -123,7 +123,7 @@ Graças aos workflows e ao editor de query, você pode construir públicos-alvo 
 
 <img width="60px" alt="condições" src="assets/icon_privacy.svg"/>
 
-O GDPR é a nova lei de privacidade da União Europeia que concilia e moderniza os requisitos de proteção de dados. O GDPR aplica-se aos clientes do Adobe Campaign que coletam dados de residentes da UE. Além dos recursos de privacidade já disponíveis no Adobe Campaign (incluindo gerenciamento de consentimento, configurações de retenção de dados e funções de usuário), aproveitamos a oportunidade, em função da nossa função de Processador de dados, para incluir recursos adicionais que ajudam o Controlador de dados a estar de acordo com determinadas solicitações do GDPR.
+O GDPR é a nova lei de privacidade da União Europeia que adequa e moderniza os requisitos de proteção de dados. O GDPR se aplica aos clientes do Adobe Campaign que coletam dados de residentes da UE. Além dos recursos de privacidade já disponíveis no Adobe Campaign (incluindo gerenciamento de consentimento, configurações de retenção de dados e funções de usuário), aproveitamos a oportunidade, em função da nossa função de Processador de dados, para incluir recursos adicionais que ajudam o Controlador de dados a estar de acordo com determinadas solicitações do GDPR.
 
 Consulte [nesta seção](../../start/using/privacy.md) para saber mais sobre as ferramentas e funcionalidades que o Adobe Campaign fornece para ajudá-lo a se tornar compatível com o GDPR.
 

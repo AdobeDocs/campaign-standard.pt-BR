@@ -1,5 +1,5 @@
 ---
-title: Taxa de transferência de delivery
+title: Taxa de transferência de entrega
 description: Com o relatório de taxa de transferência de delivery pronto para uso, saiba mais sobre o sucesso do delivery.
 audience: reporting
 content-type: reference
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 ---
 
-# Taxa de transferência de delivery{#delivery-throughput}
+# Taxa de transferência de entrega{#delivery-throughput}
 
 Este relatório contém dados relacionados à taxa de transferência de delivery de um ou vários envios. Ele fornece:
 

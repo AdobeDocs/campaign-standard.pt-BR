@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '2695'
-ht-degree: 89%
+source-wordcount: '2710'
+ht-degree: 87%
 
 ---
 
@@ -23,17 +23,17 @@ O Adobe Campaign trata as contas externas como entidades não relacionadas.
 
 Se você tiver várias contas, siga este procedimento para isolar a conta externa que está causando problemas:
 
-1. Desative todas as contas externas.
+1. Desabilite todas as contas externas.
 1. Ative uma conta externa.
 1. Tente reproduzir o problema.
 1. Se o problema inicial nem sempre ocorrer, faça uma quantidade razoável de tentativas antes de concluir.
-1. Se o problema não ocorrer com essa única conta, desative-a e a reinicie na etapa 2 na próxima conta.
+1. Se o problema não ocorrer com essa única conta, desabilite-a e reinicie na etapa 2 na próxima conta.
 
 Depois de verificar cada conta individualmente, há dois cenários possíveis:
 
 * **O problema ocorreu em uma ou em várias contas**
 
-  Nesse caso, você pode aplicar outros procedimentos de solução de problemas a cada conta individualmente. É melhor desativar outras contas ao diagnosticar uma conta para reduzir o tráfego de rede e o número de logs.
+  Nesse caso, você pode aplicar outros procedimentos de solução de problemas a cada conta individualmente. É melhor desabilitar outras contas ao diagnosticar uma conta para reduzir o tráfego de rede e o número de logs.
 
 * **O problema não ocorreu quando apenas uma conta estava ativa a qualquer momento**
 
@@ -113,7 +113,7 @@ Como corrigir problemas de estabilidade de conexão:
 
 * Se o reinício do MTA fizer com que o envio do MT funcione novamente por um breve período, provavelmente você terá uma limitação devido a uma conexão instável. Consulte a seção [Problema com conexões instáveis](../../administration/using/troubleshooting-sms.md#issues-unstable-connection).
 
-* Verifique se o log amplo está presente e com o status e as datas corretas. Se não for o caso, poderá ser um problema de delivery ou de preparação de delivery.
+* Verifique se o log amplo está presente e com o status e as datas corretas. Se não for o caso, poderá ser um problema de entrega ou de preparação de entrega.
 
 * Verifique se o MTA realmente processa a mensagem. Se não for o caso, talvez não seja um problema de SMS.
 
@@ -259,7 +259,7 @@ Em alguns casos, a captura do tráfego de rede não é necessária. As situaçõ
 
 * Processamento de MO (respostas automáticas, quarentena).
 
-* Erros que não envolvem o tráfego SMPP real: preparação de delivery, problemas da API do centro de mensagens, problemas de fluxo de trabalho etc.
+* Erros que não envolvem o tráfego SMPP real: preparação de entrega, problemas da API do centro de mensagens, problemas de fluxo de trabalho etc.
 
 ## Habilitar rastreamentos SMPP {#enabling-smpp-traces}
 

@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
 source-git-commit: 6c96a5d294c6e96d20571d176898290c9c026f0b
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 90%
+source-wordcount: '1596'
+ht-degree: 89%
 
 ---
 
@@ -30,7 +30,7 @@ A conta externa **[!UICONTROL SMS routing via SMPP]** é fornecida por padrão, 
 Se quiser usar o protocolo SMPP, você também poderá criar uma nova conta externa. Para saber mais sobre o protocolo e as configurações de SMS, consulte esta [nota técnica](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html).
 
 1. Crie uma nova conta externa em **[!UICONTROL Administration > Application settings > External accounts]**.
-1. Defina o tipo de conta como **[!UICONTROL Routing]**, o canal como **[!UICONTROL Mobile (SMS)]** e o modo de delivery como **[!UICONTROL Bulk delivery]**.
+1. Defina o tipo de conta como **[!UICONTROL Routing]**, o canal como **[!UICONTROL Mobile (SMS)]** e o modo de entrega como **[!UICONTROL Bulk delivery]**.
 
    ![](assets/sms_routing.png)
 
@@ -49,7 +49,7 @@ Se quiser usar o protocolo SMPP, você também poderá criar uma nova conta exte
 
    Ative a opção **[!UICONTROL Store incoming MO in the database]** se quiser que todo o SMS recebido seja armazenado na tabela inSMS. Para saber mais sobre como recuperar o SMS recebido, consulte esta [seção](../../channels/using/managing-incoming-sms.md#storing-incoming-sms).
 
-   A opção **[!UICONTROL Enable Real-time KPI updates during SR processing]** permite que o KPI **[!UICONTROL Delivered]** ou **[!UICONTROL Bounces + Errors]** seja atualizado em tempo real após o envio do delivery. Esses KPIs podem ser encontrados na janela **[!UICONTROL Deployment]** e são recalculados diretamente do SR (relatório de status) recebido do provedor.
+   A opção **[!UICONTROL Enable Real-time KPI updates during SR processing]** permite que o KPI **[!UICONTROL Delivered]** ou **[!UICONTROL Bounces + Errors]** seja atualizado em tempo real após o envio da entrega. Esses KPIs podem ser encontrados na janela **[!UICONTROL Deployment]** e são recalculados diretamente do SR (relatório de status) recebido do provedor.
 
    ![](assets/sms_connection_1.png)
 
@@ -323,7 +323,7 @@ Para obter mais informações, consulte [esta seção](../../channels/using/mana
 
 ## Configuração das propriedades de SMS {#configuring-sms-properties}
 
-Esta seção detalha a lista de parâmetros exclusivos ao SMS na tela de propriedades de um delivery ou de um template de SMS.
+Esta seção detalha a lista de parâmetros exclusivos ao SMS na tela de propriedades de uma entrega ou de um template de SMS.
 
 Os parâmetros específicos para envio de mensagens SMS são reagrupados nas seções **[!UICONTROL Send]** e **[!UICONTROL Advanced parameters]**.
 
@@ -347,7 +347,7 @@ No **[!UICONTROL Send]** seção de um modelo SMS:
 
   ![](assets/sms_smpp_3.png)
 
-* O campo **[!UICONTROL Transmission mode]** permite determinar o método de delivery das mensagens SMS:
+* O campo **[!UICONTROL Transmission mode]** permite determinar o método de entrega das mensagens SMS:
 
    * **[!UICONTROL Saved on SIM card]**: a mensagem é armazenada no cartão SIM do telefone do recipient.
    * **[!UICONTROL Saved on mobile]**: a mensagem é armazenada na memória interna do telefone.

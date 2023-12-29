@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 83%
+source-wordcount: '657'
+ht-degree: 78%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 83%
 
 Esta seção detalha as integrações funcionais disponíveis entre a versão atual do Adobe Campaign e outras soluções e serviços.
 
-As diferentes integrações apresentadas abaixo permitem combinar o delivery e as funcionalidades avançadas do gerenciamento de campanha do Adobe Campaign com um conjunto de soluções criadas para ajudar a personalizar a experiência dos usuários.
+As diferentes integrações apresentadas abaixo permitem combinar a entrega e as funcionalidades avançadas do gerenciamento de campanha do Adobe Campaign com um conjunto de soluções criadas para ajudar a personalizar a experiência dos usuários.
 
 >[!NOTE]
 >
@@ -61,7 +61,7 @@ Se você quiser integrar fluxos de dados de outros sistemas ao Adobe Campaign, c
   </tr> 
   <tr> 
    <td> Adobe Analytics<br /> </td> 
-   <td> Permite rastrear o sucesso de seus deliveries de email diretamente no Adobe Analytics.<br /> </td> 
+   <td> Permite rastrear o sucesso de suas entregas de email diretamente no Adobe Analytics.<br /> </td> 
    <td> 
     <a href="../../integrating/using/about-campaign-analytics-integration.md">Compartilhe dados do Campaign com o Analytics</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">compartilhe KPIs para vídeo integrado de relatórios  do Campaign</a> (etapa 1)
     </td> 
@@ -72,8 +72,8 @@ Se você quiser integrar fluxos de dados de outros sistemas ao Adobe Campaign, c
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">Serviço principal de pessoas (Perfis e públicos)</a><br /> </td> 
   </tr> 
    <tr> 
-   <td> Plataforma de dados do cliente em tempo real (RTCDP) da Adobe<br /> </td> 
-   <td> A integração entre o Adobe Campaign e a Plataforma de dados do cliente em tempo real (RTCDP) da Adobe permite compartilhar dados de segmentos e importar públicos para o Adobe Campaign.</td>
+   <td> Adobe Real-time Customer Data Platform (RTCDP)<br /> </td> 
+   <td> A integração entre o Adobe Campaign e o Adobe Real-time Customer Data Platform (RTCDP) permite compartilhar dados de segmentos e importar públicos para o Adobe Campaign.</td>
    <td><a href="../../integrating/using/get-started-sources-destinations.md">Introdução a origens e destinos</a></td>
   </tr> 
   <tr> 

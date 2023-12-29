@@ -1,6 +1,6 @@
 ---
-title: Noções básicas sobre falhas de delivery
-description: Saiba mais sobre como gerenciar falhas de delivery com o Campaign.
+title: Noções básicas sobre falhas de entrega
+description: Saiba mais sobre como gerenciar falhas de entrega com o Campaign.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 71%
+source-wordcount: '1281'
+ht-degree: 69%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 71%
 
 ## Sobre falhas de entrega {#about-delivery-failures}
 
-Quando um delivery não pode ser enviado a um perfil, o servidor remoto envia automaticamente uma mensagem de erro, que é recebida pela plataforma do Adobe Campaign, que determina se o endereço de email ou o número de telefone deve ir para a quarentena. Consulte [Qualificação de email de devolução](#bounce-mail-qualification).
+Quando uma entrega não pode ser enviada a um perfil, o servidor remoto envia automaticamente uma mensagem de erro, que é recebida pela plataforma do Adobe Campaign, que determina se o endereço de email ou o número de telefone deve ir para a quarentena. Consulte [Qualificação de email de devolução](#bounce-mail-qualification).
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Quando um delivery não pode ser enviado a um perfil, o servidor remoto envia au
 >
 >**Mensagens de erro de SMS (ou &quot;SR&quot; para &quot;Relatório de Status&quot;) são qualificadas pelo processo MTA.**
 
-As mensagens também podem ser excluídas durante a preparação do delivery se um endereço estiver em quarentena ou se um perfil estiver no incluo na lista de bloqueios. As mensagens excluídas são listadas na guia **[!UICONTROL Exclusion logs]** do painel de delivery (consulte [esta seção](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
+As mensagens também podem ser excluídas durante a preparação do delivery se um endereço estiver em quarentena ou se um perfil estiver no incluo na lista de bloqueios. As mensagens excluídas são listadas na guia **[!UICONTROL Exclusion logs]** do painel de entrega (consulte [esta seção](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
 ![](assets/exclusion_logs.png)
 
@@ -39,35 +39,35 @@ As mensagens também podem ser excluídas durante a preparação do delivery se 
 
 ## Identificação de falhas de delivery para uma mensagem {#identifying-delivery-failures-for-a-message}
 
-Quando um delivery é enviado, a guia **[!UICONTROL Sending logs]** (consulte [esta seção](../../sending/using/monitoring-a-delivery.md#sending-logs)) permite visualizar o status do delivery para cada perfil e o tipo e motivo da falha associados (consulte [Tipos e motivos de falha de delivery](#delivery-failure-types-and-reasons)).
+Quando uma entrega é enviada, a guia **[!UICONTROL Sending logs]** (consulte [esta seção](../../sending/using/monitoring-a-delivery.md#sending-logs)) permite visualizar o status da entrega para cada perfil e o tipo e motivo da falha associados (consulte [Tipos e motivos de falha de entrega](#delivery-failure-types-and-reasons)).
 
 ![](assets/sending_logs.png)
 
-Um relatório pronto para uso dedicado também está disponível. Esse relatório detalha os erros gerais de hardware e software encontrados durante os deliveries, bem como o processamento automático de rejeições. Para obter mais informações, consulte [esta seção](../../reporting/using/bounce-summary.md).
+Um relatório pronto para uso dedicado também está disponível. Esse relatório detalha os erros gerais de hardware e software encontrados durante as entregas, bem como o processamento automático de rejeições. Para obter mais informações, consulte [esta seção](../../reporting/using/bounce-summary.md).
 
 ## Tipos e motivos de falha de entrega {#delivery-failure-types-and-reasons}
 
-Há três tipos de erros quando um delivery falha:
+Há três tipos de erros quando uma entrega falha:
 
 * **Hard**: um erro &quot;grave&quot; indica um endereço inválido. Isto envolve uma mensagem de erro que declara explicitamente que o endereço é inválido, como &quot;Unknown user&quot;.
 * **Soft**: pode ser um erro temporário ou que não pode ser categorizado, como: &quot;Domínio inválido&quot; ou &quot;Caixa de entrada cheia&quot;.
 * **Ignored**: é um erro que é conhecido como temporário, como &quot;Out of office&quot;, ou um erro técnico, por exemplo, se o tipo de remetente for &quot;postmaster&quot;.
 
-Os possíveis motivos para uma falha de delivery são:
+Os possíveis motivos para uma falha de entrega são:
 
 | Rótulo de erro | Tipo de erro | Descrição |
 | ---------|----------|---------|
-| **[!UICONTROL User unknown]** | Grave | O endereço não existe. Não haverá mais tentativas de delivery para esse perfil. |
+| **[!UICONTROL User unknown]** | Grave | O endereço não existe. Não haverá mais tentativas de entrega para esse perfil. |
 | **[!UICONTROL Quarantined address]** | Grave | O endereço foi colocado em quarentena. |
-| **[!UICONTROL Unreachable]** | Suave/Grave | Ocorreu um erro na cadeia de delivery de mensagens (como domínio temporariamente inacessível). De acordo com o erro retornado pelo provedor, o endereço será enviado diretamente para a quarentena, ou o delivery será tentado novamente até que o Campaign receba um erro que justifique o status Quarantine ou até que o número de erros atinja 5. |
+| **[!UICONTROL Unreachable]** | Suave/Rígido | Ocorreu um erro na cadeia de delivery de mensagens (como domínio temporariamente inacessível). De acordo com o erro retornado pelo provedor, o endereço será enviado diretamente para a quarentena, ou a entrega será tentada novamente até que o Campaign receba um erro que justifique o status Quarantine ou até que o número de erros atinja 5. |
 | **[!UICONTROL Address empty]** | Grave | Endereço não definido. |
-| **[!UICONTROL Mailbox full]** | Suave | A caixa de entrada deste usuário está cheia e não pode receber mais mensagens. Esse endereço pode ser removido da lista da quarentena para outra tentativa. Ele será removido automaticamente após 30 dias. Para que o endereço seja removido automaticamente da lista de endereços em quarentena, o workflow técnico de **[!UICONTROL Database cleanup]** deve ser iniciado. |
-| **[!UICONTROL Refused]** | Suave/Grave | O endereço foi colocado em quarentena devido a um feedback de segurança como um relatório de spam. De acordo com o erro retornado pelo provedor, o endereço será enviado diretamente para a quarentena, ou o delivery será tentado novamente até que o Campaign receba um erro que justifique o status Quarantine ou até que o número de erros atinja 5. |
+| **[!UICONTROL Mailbox full]** | Suave | A caixa de entrada deste usuário está cheia e não pode receber mais mensagens. Esse endereço pode ser removido da lista da quarentena para outra tentativa. Ele é removido automaticamente após 30 dias. Para que o endereço seja removido automaticamente da lista de endereços em quarentena, o workflow técnico de **[!UICONTROL Database cleanup]** deve ser iniciado. |
+| **[!UICONTROL Refused]** | Suave/Rígido | O endereço foi colocado em quarentena devido a um feedback de segurança como um relatório de spam. De acordo com o erro retornado pelo provedor, o endereço será enviado diretamente para a quarentena, ou a entrega será tentada novamente até que o Campaign receba um erro que justifique o status Quarantine ou até que o número de erros atinja 5. |
 | **[!UICONTROL Duplicate]** | Ignorado | Endereço já detectado na segmentação. |
 | **[!UICONTROL Not defined]** | Suave | o endereço está em qualificação porque o erro não foi incrementado. | ainda. Esse tipo de erro ocorre quando uma nova mensagem de erro é enviada pelo servidor: pode ser um erro isolado, mas se ocorrer novamente, o contador de erros aumentará, o que alertará as equipes técnicas. |
 | **[!UICONTROL Error ignored]** | Ignorado | O endereço está em inclui na lista de permissões e um email será enviado para ele em qualquer caso. |
-| **[!UICONTROL Address on denylist]** | Grave | O endereço foi adicionado à lista de bloqueios no momento do envio. |
-| **[!UICONTROL Account disabled]** | Suave/Grave | Quando o Provedor de Acesso à Internet (IAP) detecta um longo período de inatividade, ele pode fechar a conta do usuário: os deliveries para o endereço do usuário serão impossíveis. O tipo Temporário ou Permanente depende do tipo de erro recebido: se a conta estiver temporariamente desativada devido a seis meses de inatividade e ainda puder ser ativada, o status **[!UICONTROL Erroneous]** será atribuído, e o delivery será repetido. Se o erro indicar que a conta está desativada permanentemente, ela será enviada diretamente para Quarentena. |
+| **[!UICONTROL Address on denylist]** | Grave | O endereço foi adicionado ao incluo na lista de bloqueios no momento do envio. |
+| **[!UICONTROL Account disabled]** | Suave/Rígido | Quando o Provedor de Acesso à Internet (IAP) detecta um longo período de inatividade, ele pode fechar a conta do usuário: os deliveries para o endereço do usuário serão impossíveis. O tipo Temporário ou Permanente depende do tipo de erro recebido: se a conta estiver temporariamente desabilitada devido a seis meses de inatividade e ainda puder ser ativada, o status **[!UICONTROL Erroneous]** será atribuído, e a entrega será repetida. Se o erro indicar que a conta está desativada permanentemente, ela será enviada diretamente para Quarentena. |
 | **[!UICONTROL Not connected]** | Ignorado | O telefone celular do perfil está desligado ou não está conectado à rede quando a mensagem é enviada. |
 | **[!UICONTROL Invalid domain]** | Suave | O domínio do endereço de email está incorreto ou não existe mais. Este perfil será alvo novamente até que a contagem de erros chegue a 5. Após isso, o registro será definido como Status de Quarentena e não haverá nenhuma tentativa nova. |
 | **[!UICONTROL Text too long]** | Ignorado | O número de caracteres na mensagem SMS excede o limite. Para obter mais informações, consulte [Codificação, comprimento e transliteração de SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration). |
@@ -76,21 +76,21 @@ Os possíveis motivos para uma falha de delivery são:
 
 **Tópicos relacionados:**
 * [Devoluções permanentes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=pt-BR#hard-bounces)
-* [Devoluções temporárias](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+* [Rejeições temporárias](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## Tentativas após uma falha temporária de entrega {#retries-after-a-delivery-temporary-failure}
 
-Se uma mensagem falhar devido a um erro temporário, as tentativas serão executadas durante a duração do delivery. Para obter mais informações sobre os tipos de erros, consulte [Tipos e motivos de falha de delivery](#delivery-failure-types-and-reasons).
+Se uma mensagem falhar devido a um erro temporário, as tentativas serão executadas durante a duração do delivery. Para obter mais informações sobre os tipos de erros, consulte [Tipos e motivos de falha de entrega](#delivery-failure-types-and-reasons).
 
 O número de tentativas (quantas tentativas devem ser executadas no dia seguinte ao início do envio) e o atraso mínimo entre as tentativas agora são<!--managed by the Adobe Campaign Enhanced MTA,--> com base no desempenho histórico e atual de um IP em um determinado domínio. As configurações de **Tentativas** no Campaign são ignoradas.
 
 <!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
-Para modificar a duração de um delivery, vá para os parâmetros avançados do delivery ou do template do delivery e edite o campo **[!UICONTROL Delivery duration]** da seção [Validity period](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+Para modificar a duração de uma entrega, vá para os parâmetros avançados da entrega ou do template da entrega e edite o campo **[!UICONTROL Delivery duration]** da seção [Validity period](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
 >[!IMPORTANT]
 >
->**O parâmetro **[!UICONTROL Delivery duration]**nos deliveries do Campaign agora apenas será usado se definido para 3,5 dias ou menos.** Se você definir um valor superior a 3,5 dias, ele não será considerado.
+>**O parâmetro **[!UICONTROL Delivery duration]**nas entregas do Campaign agora apenas será usado se definido para 3,5 dias ou menos.** Se você definir um valor superior a 3,5 dias, ele não será considerado.
 
 Por exemplo, se você quiser que as tentativas de um delivery parem depois de um dia, poderá definir a duração do delivery como **1d** e as mensagens na fila de tentativas serão removidas após um dia.
 
@@ -103,10 +103,10 @@ The default configuration allows five retries at one-hour intervals, followed by
 
 ## Erros síncronos e assíncronos {#synchronous-and-asynchronous-errors}
 
-Um delivery pode falhar imediatamente (erro síncrono), ou posteriormente, após ser enviado (erro assíncrono).
+Uma entrega pode falhar imediatamente (erro síncrono), ou posteriormente, após ser enviado (erro assíncrono).
 
 * **Erro síncrono**: o servidor remoto contatado pelo servidor de entrega do Adobe Campaign retornou imediatamente uma mensagem de erro, o delivery não tem permissão para ser enviado ao servidor do perfil.
-* **Erro assíncrono**: um email de devolução ou um Relatório de Status foi reenviado posteriormente pelo servidor receptor. Podem ocorrer erros assíncronos até uma semana depois do envio.
+* **Erro assíncrono**: um email de devolução ou um Relatório de Status foi reenviado posteriormente pelo servidor receptor. Podem ocorrer erros assíncronos até uma semana depois da entrega.
 
 ## Qualificação de email de rejeição {#bounce-mail-qualification}
 

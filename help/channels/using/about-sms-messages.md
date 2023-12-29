@@ -11,8 +11,8 @@ level: Beginner
 exl-id: a7f22d92-dbf9-4c2b-8fc1-1e31d1e5e79c
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 32%
+source-wordcount: '266'
+ht-degree: 29%
 
 ---
 
@@ -33,14 +33,14 @@ As mensagens SMS podem ser criadas no **[!UICONTROL Marketing activities]** , de
 Para enviar mensagens SMS para um telefone celular, você precisa:
 
 * Uma conta externa de **[!UICONTROL Routing]** configurada no canal **[!UICONTROL Mobile (SMS)]** com o modo **[!UICONTROL Bulk delivery]**. Para mais informações, consulte a seção [Roteamento](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
-* Um template do delivery vinculado corretamente a essa conta externa.
+* Um template da entrega vinculado corretamente a essa conta externa.
 
 **Tópicos relacionados:**
 
 * [Gerenciamento de modelos](../../start/using/marketing-activity-templates.md)
 * [Configuração de SMS](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
 * [Relatório de SMS](../../reporting/using/sms-report.md)
-* [Guia para Aplicativos de dispositivos móveis no Campaign Standard](../../channels/using/get-started-communication-channels.md)
+* [Guia do Campaign Standard Mobile](../../channels/using/get-started-communication-channels.md)
 
 ## Template de entrega de SMS {#sms-delivery-template}
 

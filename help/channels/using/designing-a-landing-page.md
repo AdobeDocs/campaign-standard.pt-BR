@@ -11,14 +11,14 @@ level: Intermediate
 exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1666'
-ht-degree: 97%
+source-wordcount: '1672'
+ht-degree: 93%
 
 ---
 
 # Design de uma landing page{#designing-a-landing-page}
 
-## Sobre o design de conteúdo de uma landing page {#about-content-design}
+## Sobre o design de conteúdo de uma página de aterrissagem {#about-content-design}
 
 Landing pages são criadas como qualquer [atividade de marketing](../../start/using/marketing-activities.md#about-marketing-activities).
 
@@ -33,7 +33,7 @@ O conteúdo das páginas de aterrissagem é projetado por meio do editor de cont
 Esta página descreve as especificidades do editor de conteúdo das landing pages. Para mais informações sobre as ações comuns a uma ou mais atividades de marketing, consulte estas seções do guia **Criação do conteúdo de email** l:
 
 * [Inserção de um campo de personalização](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Inclusão de um bloco de conteúdo](../../designing/using/personalization.md#adding-a-content-block)
+* [Adição de um bloco de conteúdo](../../designing/using/personalization.md#adding-a-content-block)
 * [Inserção de um link](../../designing/using/links.md#inserting-a-link)
 * [Inserção de imagens](../../designing/using/images.md)
 * [Práticas recomendadas gerais para design de conteúdo](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)
@@ -43,7 +43,7 @@ Esta página descreve as especificidades do editor de conteúdo das landing page
 >
 >Antes de importar uma página HTML no Adobe Campaign, confirme que ela seja aberta e exibida corretamente nos diversos navegadores. Se a página HTML contiver scripts JavaScript, eles precisarão executar sem erros fora do editor. Em geral, evite usar scripts no conteúdo da mensagem para garantir que ele seja processado corretamente pelos clientes de email.
 
-## Interface do editor de conteúdo de landing pages{#landing-page-content-editor-interface}
+## Interface do editor de conteúdo da página de destino{#landing-page-content-editor-interface}
 
 O editor de conteúdo de landing pages permite que você defina, modifique e personalize facilmente o conteúdo no Adobe Campaign. Para acessá-lo, clique no bloco **[!UICONTROL Content]** no painel de uma landing page.
 
@@ -237,7 +237,7 @@ A **barra de ferramentas** é um elemento contextual da interface do editor que 
  </tbody> 
 </table>
 
-## Gerenciamento da estrutura e do estilo da landing page{#managing-landing-page-structure-and-style}
+## Gerenciamento da estrutura e do estilo da página de destino{#managing-landing-page-structure-and-style}
 
 ### Gerenciamento de blocos no editor de conteúdo {#managing-blocks-in-the-content-editor}
 
@@ -261,7 +261,7 @@ Os parâmetros definidos para um elemento em um bloco (links, campos de personal
 
 ![](assets/des_lp_content_4.png)
 
-### Inclusão de uma borda e de um plano de fundo no editor de conteúdo {#adding-a-border-and-a-background-in-the-content-editor}
+### Adição de uma borda e um plano de fundo no editor de conteúdo {#adding-a-border-and-a-background-in-the-content-editor}
 
 Você também pode definir uma **cor de plano de fundo** selecionando uma cor no gráfico. Essa cor é aplicada ao bloco selecionado.
 
@@ -285,7 +285,7 @@ Para alterar o alinhamento do texto, selecione um dos três ícones a seguir na 
 
 Você também pode usar a barra de ferramentas para alterar os atributos da fonte: adapte o tamanho da fonte, deixe o texto em negrito ou itálico, sublinhe ou altere a cor do texto. Consulte [esta seção](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
 
-### Inserir imagens em uma landing page {#inserting-images-in-a-landing-page}
+### Inserção de imagens em uma landing page {#inserting-images-in-a-landing-page}
 
 1. Em um conteúdo de landing page, selecione um bloco que contenha uma imagem.
 1. Selecione o botão **[!UICONTROL Insert]**.

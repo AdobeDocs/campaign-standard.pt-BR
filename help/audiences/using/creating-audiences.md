@@ -12,13 +12,13 @@ exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '969'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Criação de públicos-alvo{#creating-audiences}
 
-## Criação de públicos-alvo de query {#creating-query-audiences}
+## Criação de públicos-alvo de consulta {#creating-query-audiences}
 
 Esta seção descreve como criar um público-alvo do tipo **Query**. Você também pode criar públicos-alvo a partir da importação de um arquivo ou do direcionamento em um [fluxo de trabalho](../../automating/using/get-started-workflows.md).
 
@@ -45,7 +45,7 @@ Na lista de públicos-alvo, é possível criar públicos-alvo executando consult
 >
 >Você pode adicionar uma descrição a esse público-alvo e definir as autorizações de acesso pelo ícone **[!UICONTROL Edit properties]**.
 
-## Criação de públicos-alvo do tipo Lista {#creating-list-audiences}
+## Criação de públicos-alvo da lista {#creating-list-audiences}
 
 Esta seção descreve como criar um público-alvo do tipo **Lista** após o direcionamento em um fluxo de trabalho. Você também pode criar públicos-alvo importando um arquivo para um [fluxo de trabalho](../../automating/using/get-started-workflows.md) ou usando um query do menu **[!UICONTROL Audiences]**.
 
@@ -75,7 +75,7 @@ Para criar um público-alvo do tipo **Lista**, siga estas etapas:
 
    ![](assets/audiences_list_4.png)
 
-## Criação de públicos-alvo do tipo Arquivo {#creating-file-audiences}
+## Criação de públicos-alvo de arquivo {#creating-file-audiences}
 
 Esta seção detalha como criar um público-alvo do tipo **Arquivo** importando um arquivo para um fluxo de trabalho. Você também pode criar públicos-alvo de uma atividade de direcionamento em um [fluxo de trabalho](../../automating/using/get-started-workflows.md) ou usando um query do menu **[!UICONTROL Audiences]**.
 
@@ -97,7 +97,7 @@ Para criar um público-alvo do tipo **Arquivo**, siga estas etapas:
 
    ![](assets/audience_files_3.png)
 
-## Criação de públicos-alvo da Experience Cloud {#creating-experience-cloud-audiences}
+## Criação de públicos-alvo do Experience Cloud {#creating-experience-cloud-audiences}
 
 O Adobe Campaign permite compartilhar e trocar públicos-alvo com a Adobe Experience Cloud. Um público-alvo do tipo **Experience Cloud** é importado diretamente do serviço principal People para o Adobe Campaign com o fluxo de trabalho técnico **[!UICONTROL Import shared audience]**.
 
@@ -107,7 +107,7 @@ Para que essa integração funcione, é necessário configurá-la primeiro. Para
 
 ![](assets/audience_peoplecore.png)
 
-## Edição de públicos-alvo {#editing-audiences}
+## Edição de públicos {#editing-audiences}
 
 Existem diferentes maneiras de editar um público-alvo dependendo do tipo:
 
@@ -122,7 +122,7 @@ Existem diferentes maneiras de editar um público-alvo dependendo do tipo:
 * Para editar um público-alvo do tipo **Lista** ou **Arquivo**, edite o fluxo de trabalho do qual ele foi criado e modifique a atividade **[!UICONTROL Save audience]**. Inicie o fluxo de trabalho para que o público-alvo seja modificado.
 * Para editar um público-alvo da **Experience Cloud**, consulte a seção [Importação/exportação de públicos-alvo com o serviço principal People](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md).
 
-## Exclusão de públicos-alvo {#deleting-audiences}
+## Exclusão de públicos {#deleting-audiences}
 
 Há duas maneiras de excluir um ou vários públicos-alvo. Primeiro você pode adicionar uma data de expiração ao público-alvo.
 

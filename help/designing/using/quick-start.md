@@ -11,7 +11,7 @@ exl-id: 47f53290-2190-4181-bcd5-e60287189c41
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '924'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
@@ -45,7 +45,7 @@ Você também pode criar um email [com conteúdo existente](#with-existing-conte
 
 Você pode criar um email facilmente, adicionar componentes e personalizar o conteúdo para enviar um delivery rapidamente. Você pode adaptar as opções de estilo ao seu conteúdo, se necessário. Para obter mais informações sobre como gerenciar configurações de estilo e atributos em linha, consulte [Edição de estilos de email](../../designing/using/styles.md).
 
-1. Criar um email.
+1. Crie um email.
 1. Fechar página inicial.
 
 ### Adição de uma linha de assunto {#add-a-subject-line}

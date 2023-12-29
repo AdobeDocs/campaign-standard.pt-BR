@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 53da6c4e-d4fb-4677-acff-744e3eb10960
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 43%
+source-wordcount: '214'
+ht-degree: 38%
 
 ---
 
@@ -39,8 +39,8 @@ ht-degree: 43%
                </tr>
                <tr>
                   <td>amcDataSource (amcDataSourceBase)</td>
-                  <td>Fonte de dados da Adobe Experience Cloud (AMC)</td>
-                  <td>Link  </td>
+                  <td>Fonte de dados da Adobe Marketing Cloud (AMC)</td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -76,7 +76,7 @@ ht-degree: 43%
                <tr>
                   <td>countDate</td>
                   <td>Data de contagem</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -88,13 +88,13 @@ ht-degree: 43%
                <tr>
                   <td>criado</td>
                   <td>Criado</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Criado por</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -118,13 +118,13 @@ ht-degree: 43%
                <tr>
                   <td>expirationDate</td>
                   <td>Expira em</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unidade geográfica</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -152,7 +152,7 @@ ht-degree: 43%
                   <td> </td>
                </tr>
                <tr>
-                  <td>label</td>
+                  <td>rótulo</td>
                   <td>Rótulo</td>
                   <td>sequência de caracteres (128)</td>
                   <td> </td>
@@ -160,13 +160,13 @@ ht-degree: 43%
                <tr>
                   <td>lastModified</td>
                   <td>Última modificação</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificado por</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -178,7 +178,7 @@ ht-degree: 43%
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Entidade organizacional</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -207,7 +207,7 @@ ht-degree: 43%
                </tr>
                <tr>
                   <td>título</td>
-                  <td>Público</td>
+                  <td>Público-alvo</td>
                   <td>sequência de caracteres (255)</td>
                   <td> </td>
                </tr>
@@ -233,7 +233,7 @@ ht-degree: 43%
                <tr>
                   <td>workflow (workflow)</td>
                   <td>Fluxo de trabalho</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
             </table>

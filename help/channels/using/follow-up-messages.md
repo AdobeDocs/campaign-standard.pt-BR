@@ -43,7 +43,7 @@ Um template de delivery é necessário para lidar com um evento em um workflow. 
 Para acessar este template:
 
 1. Clique em **Adobe** no canto superior esquerdo.
-1. Selecione **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
+1. Selecionar **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Verifique a **[!UICONTROL Follow-up messages]** no painel esquerdo.
 
    ![](assets/message-center_follow-up-search.png)

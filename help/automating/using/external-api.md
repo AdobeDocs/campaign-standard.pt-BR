@@ -11,7 +11,7 @@ level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '2200'
+source-wordcount: '2208'
 ht-degree: 93%
 
 ---
@@ -105,7 +105,7 @@ Comportamento da **Caixa de seleção Nivelar**:
 
 A caixa de seleção Nivelar (desmarcada por padrão) é fornecida para indicar se o JSON deve ser nivelado em um mapa de chave/valor.
 
-* Quando a **caixa de seleção estiver desativada** (desmarcada), a amostra JSON será analisada para procurar um objeto de matriz. O usuário precisará fornecer uma versão reduzida do formato JSON de amostra de resposta da API para que o Adobe Campaign possa determinar exatamente qual matriz o usuário está interessado em usar. No momento da criação do workflow, o caminho para o objeto de matriz aninhado será determinado e registrado, para que possa ser usado no tempo de execução para acessar esse objeto de matriz pelo corpo de resposta JSON recebido da chamada de API.
+* Quando a **caixa de seleção estiver desabilitada** (desmarcada), a amostra JSON será analisada para procurar um objeto de matriz. O usuário precisará fornecer uma versão reduzida do formato JSON de amostra de resposta da API para que o Adobe Campaign possa determinar exatamente qual matriz o usuário está interessado em usar. No momento da criação do workflow, o caminho para o objeto de matriz aninhado será determinado e registrado, para que possa ser usado no tempo de execução para acessar esse objeto de matriz pelo corpo de resposta JSON recebido da chamada de API.
 
 * Quando a **caixa de seleção estiver ativada** (marcada), a amostra JSON será nivelada e todas as propriedades especificadas na amostra JSON fornecida serão usadas para criar colunas da tabela temporária de saída, e serão exibidas na guia Definições de coluna. Observe que se houver algum objeto de matriz na amostra JSON, todos os elementos desses objetos de matriz também serão nivelados.
 
@@ -293,7 +293,7 @@ Essas mensagens de log são usadas para registrar informações sobre condiçõe
   </tr>
   <tr> 
    <td> WKF-560281 - External account of '%s' ID is disabled.</td> 
-   <td> <p>A conta externa da ID 'EXT25' está desativada. Observação: esse erro indica que a atividade está configurada para usar uma conta externa, mas essa conta foi desativada (ou marcada como inativa).</p></td>
+   <td> <p>A conta externa da ID 'EXT25' está desabilitada. Observação: esse erro indica que a atividade está configurada para usar uma conta externa, mas essa conta foi desabilitada (ou marcada como inativa).</p></td>
   </tr>
   <tr> 
    <td> WKF-560282 - Protocol not supported.</td> 

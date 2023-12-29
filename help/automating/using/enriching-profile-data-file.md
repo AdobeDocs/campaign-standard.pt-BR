@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 75%
+source-wordcount: '521'
+ht-degree: 72%
 
 ---
 
@@ -55,7 +55,7 @@ O fluxo de trabalho é configurado da seguinte maneira:
 
      ![](assets/enrichment_example_workflow4.png)
 
-     Quanto aos **[!UICONTROL Data]** a serem mantidos para a coleção, selecione as colunas que serão usadas no delivery final.
+     Quanto aos **[!UICONTROL Data]** a serem mantidos para a coleção, selecione as colunas que serão usadas na entrega final.
 
      ![](assets/enrichment_example_workflow6.png)
 

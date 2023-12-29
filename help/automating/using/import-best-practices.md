@@ -42,8 +42,8 @@ Um exemplo de template de workflow genérico projetado para importar dados está
 
 * [Atividade Carregar arquivo](../../automating/using/load-file.md)
 * [Atividade de reconciliação](../../automating/using/reconciliation.md)
-* [Atividade de Segmentação](../../automating/using/segmentation.md)
-* [Atividade de desduplicação](../../automating/using/deduplication.md)
+* [Atividade de segmentação](../../automating/using/segmentation.md)
+* [Atividade Desduplicação](../../automating/using/deduplication.md)
 * [Atualizar atividade de dados](../../automating/using/update-data.md)
 
 ## Uso dos formatos de arquivo simples {#using-flat-file-formats}

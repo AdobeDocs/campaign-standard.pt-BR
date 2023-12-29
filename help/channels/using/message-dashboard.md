@@ -12,7 +12,7 @@ exl-id: 886aae39-2029-471c-b4d1-c6ca57d0e568
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '587'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -59,7 +59,7 @@ A tela principal é composta por blocos diferentes. Clique dentro de um bloco pa
 
 ![](assets/delivery_dashboard_3.png)
 
-* **[!UICONTROL Deployment]**: permite rastrear o progresso da preparação ou do envio da mensagem. Clique no botão encontrado na seção inferior direita deste bloco para acessar os logs de envio e análise. Esse bloco só será exibido depois que o envio tiver sido preparado. Para saber mais sobre isso. Consulte [Confirmação de envio](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Deployment]**: permite rastrear o progresso da preparação ou do envio da mensagem. Clique no botão encontrado na seção inferior direita deste bloco para acessar os logs de envio e análise. Esse bloco só será exibido depois que o envio tiver sido preparado. Para obter mais informações. Consulte [Confirmação de envio](../../sending/using/confirming-the-send.md).
 * **[!UICONTROL Audience]**: permite estabelecer o público-alvo principal da mensagem, bem como os perfis de teste. Consulte [Criação de públicos-alvo](../../audiences/using/creating-audiences.md).
 * **[!UICONTROL Schedule]**: permite especificar a data em que a mensagem será enviada. Consulte [Agendamento](../../sending/using/about-scheduling-messages.md).
 * **[!UICONTROL Content]**: permite definir o conteúdo da mensagem e pré-visualizá-la. Consulte [Etapas principais para enviar uma mensagem](../../channels/using/key-steps-to-send-a-message.md).
@@ -82,7 +82,7 @@ Abaixo está uma lista das mensagens que podem ser exibidas:
 
 * *&quot;As mensagens não podem ser enviadas porque a afinidade IP atual não é tratada por nenhum processo de envio.&quot;*
 
-  Se você vir essa mensagem, há um problema no nível de definição de afinidade de IP ou no nível do processo de envio. Entre em contato com o administrador do Adobe 
+  Se você vir essa mensagem, há um problema no nível de definição de afinidade de IP ou no nível do processo de envio. Entre em contato com o administrador do Adobe.
 
 * *&quot;Este é um template de mensagem transacional pronto para uso. Se quiser modificá-la, duplique-a e trabalhe na sua cópia.&quot;*
 

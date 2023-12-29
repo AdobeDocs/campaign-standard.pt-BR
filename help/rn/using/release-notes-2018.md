@@ -8,8 +8,8 @@ hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '5355'
-ht-degree: 9%
+source-wordcount: '5386'
+ht-degree: 6%
 
 ---
 
@@ -29,11 +29,11 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td> Mensagens no aplicativo (beta)<br /> </td> 
-   <td> As mensagens no aplicativo permitem que você garanta o envolvimento de usuários de aplicativos móveis com mais eficiência, fornecendo interação contextual e permitindo que alcançar os usuários que optaram por notificações por push. Use mensagens no aplicativo em conjunto com notificações por push para criar uma experiência altamente personalizada e relevante. Isso resulta em uma melhor conversão e retenção dos usuários do aplicativo.<br /> Para obter mais informações, consulte a <a href="../../channels/using/about-in-app-messaging.md">documentação detalhada</a>.<br /> </td> 
+   <td> As mensagens no aplicativo permitem que você garanta o envolvimento de usuários de aplicativos móveis com mais eficiência, fornecendo interação contextual e permitindo que alcançar os usuários que optaram por notificações por push. Use mensagens no aplicativo em conjunto com notificações por push para criar uma experiência altamente personalizada e relevante. Isso resulta em uma melhor conversão e retenção dos usuários do aplicativo.<br /> Para obter mais informações, consulte <a href="../../channels/using/about-in-app-messaging.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Integração do Adobe Launch para aplicativos de dispositivos móveis (beta)<br /> </td> 
-   <td> A integração do Adobe Launch com o Adobe Campaign agora simplifica e automatiza o processo de ativação da Propriedade de aplicativo móvel no Campaign usando o Mobile SDK V5.<br /> Para obter mais informações, consulte a <a href="https://helpx.adobe.com/br/campaign/kb/configuring-app-sdk.html">documentação detalhada</a>.<br /> </td> 
+   <td> A integração do Adobe Launch com o Adobe Campaign agora simplifica e automatiza o processo de ativação da Propriedade de aplicativo móvel no Campaign usando o Mobile SDK V5.<br /> Para obter mais informações, consulte <a href="https://helpx.adobe.com/br/campaign/kb/configuring-app-sdk.html">documentação detalhada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,15 +94,15 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td> Sinalizador de alta prioridade para notificações por push no Android<br /> </td> 
-   <td> Sinalizador de alta prioridade para Android - Permite a entrega de uma notificação por push com alta prioridade para aplicativos Android, o que faz com que o dispositivo em espera seja ativado e execute algum processamento limitado. Observe que a prioridade padrão é Normal, o que pode atrasar a entrega da mensagem para economizar bateria. <br /> Para obter mais informações, consulte a <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">documentação detalhada</a>.<br /> </td> 
+   <td> Sinalizador de alta prioridade para Android - Permite a entrega de uma notificação por push com alta prioridade para aplicativos Android, o que faz com que o dispositivo em espera seja ativado e execute algum processamento limitado. Observe que a prioridade padrão é Normal, o que pode atrasar a entrega da mensagem para economizar bateria. <br /> Para obter mais informações, consulte <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Filtro de tipologia para assinantes de aplicativos para dispositivos móveis<br /> </td> 
-   <td> Assinaturas compatíveis com o filtro de tipologia - Ao especificar os critérios de filtragem para uma regra de tipologia, as assinaturas de aplicativo podem ser selecionadas como as dimensões de filtragem e direcionamento, fornecendo a capacidade de filtrar atributos para usuários com ou sem um perfil. <br /> Para obter mais informações, consulte a <a href="../../sending/using/about-typology-rules.md">documentação detalhada</a>.<br /> </td> 
+   <td> Assinaturas compatíveis com o filtro de tipologia - Ao especificar os critérios de filtragem para uma regra de tipologia, as assinaturas de aplicativo podem ser selecionadas como as dimensões de filtragem e direcionamento, fornecendo a capacidade de filtrar atributos para usuários com ou sem um perfil. <br /> Para obter mais informações, consulte <a href="../../sending/using/about-typology-rules.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Importação automatizada de conteúdo de um URL durante a preparação da mensagem<br /> </td> 
-   <td> Agora é possível importar conteúdo de email de um URL durante a fase de preparação. Para deliveries de email recorrentes, o conteúdo de HTML mais recente é recuperado sempre que a mensagem é preparada, garantindo que o conteúdo esteja sempre atualizado no momento em que o email é enviado. Esse recurso também permite criar um delivery agendado com conteúdo de um URL, mesmo que o conteúdo ainda não esteja pronto.<br /> Para obter mais informações, consulte a <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">documentação detalhada</a>.<br /> </td> 
+   <td> Agora é possível importar conteúdo de email de um URL durante a fase de preparação. Para deliveries de email recorrentes, o conteúdo de HTML mais recente é recuperado sempre que a mensagem é preparada, garantindo que o conteúdo esteja sempre atualizado no momento em que o email é enviado. Esse recurso também permite criar um delivery agendado com conteúdo de um URL, mesmo que o conteúdo ainda não esteja pronto.<br /> Para obter mais informações, consulte <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Mensagem de notificação de versão da campanha<br /> </td> 
@@ -195,11 +195,11 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td> GDPR: Integração de serviço principal<br /> </td> 
-   <td> A Integração do Privacy Core Service permite automatizar suas solicitações de GDPR em um contexto com várias soluções por meio de uma única chamada de API JSON. <br /> As solicitações de GDPR enviadas pelo Privacy Core Service para todas as soluções de Experience Cloud agora são tratadas automaticamente pelo Campaign. <br /> Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">documentação detalhada</a>.<br /> </td> 
+   <td> A Integração do Privacy Core Service permite automatizar suas solicitações de GDPR em um contexto com várias soluções por meio de uma única chamada de API JSON. <br /> As solicitações de GDPR enviadas pelo Privacy Core Service para todas as soluções de Experience Cloud agora são tratadas automaticamente pelo Campaign. <br /> Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Melhorias nas notificações por push: feedback detalhado do delivery<br /> </td> 
-   <td> O Adobe Campaign agora oferece a capacidade de receber feedback detalhado (enviando logs e logs de exclusão) sobre mensagens por push dos provedores (APNS/GCM) por meio do MCPNS.<br /> Para obter mais informações, consulte a <a href="../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification">documentação detalhada</a>.<br /> </td> 
+   <td> O Adobe Campaign agora oferece a capacidade de receber feedback detalhado (enviando logs e logs de exclusão) sobre mensagens por push dos provedores (APNS/GCM) por meio do MCPNS.<br /> Para obter mais informações, consulte <a href="../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Extensão de logs de entrega<br /> </td> 
@@ -211,7 +211,7 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td> Relatórios dinâmicos com Dados de perfil personalizados<br /> </td> 
-   <td> Esse recurso permite criar e gerenciar relatórios com base nos dados de perfil personalizados criados durante a extensão de recurso de perfil. Você pode detalhar relatórios por atributo de perfil, como programa de fidelidade, canal preferido etc.<br /> Para obter mais informações, consulte a <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">documentação detalhada</a>.<br /> </td> 
+   <td> Esse recurso permite criar e gerenciar relatórios com base nos dados de perfil personalizados criados durante a extensão de recurso de perfil. Você pode detalhar relatórios por atributo de perfil, como programa de fidelidade, canal preferido etc.<br /> Para obter mais informações, consulte <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">documentação detalhada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -257,7 +257,7 @@ ht-degree: 9%
 
 **Correções**
 
-_Plataforma_
+_Platform_
 
 * Correção de um erro que poderia impedir o processamento correto de solicitações de acesso ou exclusão do GDPR. Esse comportamento foi observado em alguns casos raros em que os dados extraídos continham um dos seguintes caracteres: &amp; &lt; > &quot; &#39;.
 
@@ -265,11 +265,11 @@ _Emails, mensagens SMS e correspondência direta_
 
 * Correção de um problema que poderia resultar na substituição de KPIs com valores incorretos se a sincronização de broadlog levasse mais de uma hora.
 
-_Fluxos de trabalho_
+_Workflows_
 
 * Gerenciamento de memória aprimorado e desempenhos otimizados em workflows.
 
-_Relatório_
+_Relatórios_
 
 * O fluxo de trabalho de compartilhamento de KPI agora recupera valores de entrega dos últimos 2 meses, em vez dos últimos 6 meses. Correção de um problema em que a conta externa de compartilhamento de KPI exibia datas truncadas.
 * Correção de um problema que poderia resultar na não consideração de determinadas mensagens no **Enviado**, **Entregue** e **Rejeição** métricas.
@@ -293,7 +293,7 @@ _Recursos personalizados_
  <tbody> 
   <tr> 
    <td> European General Data Protection Regulation (GDPR)<br /> </td> 
-   <td> O GDPR é a nova lei de privacidade da União Europeia que concilia e moderniza os requisitos de proteção de dados, entrando em efeito em 25 de Maio de 2018. O GDPR aplica-se aos clientes do Adobe Campaign que coletam dados de residentes da UE.<br /> Além dos recursos de privacidade já disponíveis no Adobe Campaign (incluindo o gerenciamento de consentimento, as configurações de retenção de dados e as funções de usuários), aproveitamos a oportunidade, em função do nosso papel como Processador de Dados, para incluir recursos adicionais que ajudam o Controlador de Dados a estar de acordo com determinadas solicitações do GDPR:<br /> 
+   <td> O GDPR é a nova lei de privacidade da União Europeia que concilia e moderniza os requisitos de proteção de dados, entrando em efeito em 25 de Maio de 2018. O GDPR aplica-se aos clientes do Adobe Campaign que coletam dados de residentes da UE.<br /> Além dos recursos de privacidade já disponíveis no Adobe Campaign (incluindo gerenciamento de consentimento, configurações de retenção de dados e funções de usuário), aproveitamos a oportunidade, em função do nosso papel como Processador de dados, para incluir recursos adicionais que ajudam o Controlador de dados a estar de acordo com determinadas solicitações do GDPR:<br /> 
     <ul> 
      <li> Direito de acesso: permite que o Titular de dados receba uma cópia de seus dados pessoais capturados pelos Controladores de dados, possivelmente incluindo dados armazenados no Adobe Campaign. </li> 
      <li> Direito de exclusão: permite que o Titular de dados apague seus dados pessoais capturados pelos Controladores de dados, possivelmente incluindo os dados armazenados no Adobe Campaign. </li> 
@@ -311,7 +311,7 @@ _Recursos personalizados_
   </tr> 
   <tr> 
    <td> Deliveries de push multilíngues<br /> </td> 
-   <td> A mesma interface multilíngue simples, que já existe nos canais de email e SMS, foi adicionada ao canal Push para ajudar você a engajar os clientes, independentemente do idioma preferido.<br /> Esse recurso oferece uma solução escalável e automática para clientes que gerenciam campanhas por push abrangendo várias regiões e que desejam direcionar os usuários em seu idioma preferido. Ele permite fazer upload de todas as variantes linguais por meio de uma planilha com modelo para um único delivery por push com um único clique. O Adobe Campaign realiza uma segmentação automática com base na preferência de idioma dos usuários, ajudando a reduzir as redundâncias simplificando os fluxos de trabalho e os relatórios.<br /> Para obter mais informações, consulte a <a href="../../channels/using/creating-a-multilingual-push-notification.md">documentação detalhada</a>.<br /> </td> 
+   <td> A mesma interface multilíngue simples, que já existe nos canais de email e SMS, foi adicionada ao canal Push para ajudar você a engajar os clientes, independentemente do idioma preferido.<br /> Esse recurso oferece uma solução escalável e automática para clientes que gerenciam campanhas por push abrangendo várias regiões e que desejam direcionar os usuários em seu idioma preferido. Ele permite fazer upload de todas as variantes linguais por meio de uma planilha com modelo para um único delivery por push com um único clique. O Adobe Campaign realiza uma segmentação automática com base na preferência de idioma dos usuários, ajudando a reduzir as redundâncias simplificando os fluxos de trabalho e os relatórios.<br /> Para obter mais informações, consulte <a href="../../channels/using/creating-a-multilingual-push-notification.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Uso de recursos personalizados em mensagens transacionais<br /> </td> 
@@ -326,7 +326,7 @@ _Recursos personalizados_
 
 **Correções**
 
-_Plataforma_
+_Platform_
 
 * Correção de um problema que impedia a exportação de mais de 5000 registros de uma lista.
 * Correção de um problema ao exportar dados para arquivos nomeados com campos de personalização.
@@ -349,7 +349,7 @@ _Públicos-alvo e consultas_
 * Correção de um problema que impedia o acesso aos dados e a configuração de queries para recipients replicados do Adobe Campaign Classic para o Standard.
 * Correção de um problema que ocorria ao usar um campo de tipo de filtro no editor de query, após usar o **Contagem** ou **Visualizar** botões.
 
-_Fluxos de trabalho_
+_Workflows_
 
 * A variável **Faturamento** O fluxo de trabalho do foi otimizado para melhorar o atraso de preparação do delivery.
 * Correção de um problema que impedia a exibição de dados de população em uma transição de saída ao usar uma atividade de delivery recorrente.
@@ -383,18 +383,18 @@ _Mensagens transacionais_
  <tbody> 
   <tr> 
    <td> Assinatura - assine ou cancele a assinatura de uma lista de perfis para vários serviços<br /> </td> 
-   <td> A variável <strong>Serviços de assinatura</strong> a atividade de workflow agora permite assinar ou cancelar a assinatura de uma lista de perfis para vários serviços. No fluxo de trabalho, importe um arquivo contendo os perfis e, para cada perfil, o tipo de operação e o serviço. A variável <strong>Serviços de assinatura</strong> A atividade do poderá usar essas informações e lidar dinamicamente com todas as assinaturas de perfis e cancelamentos de assinaturas de uma só vez.<br /> Para obter mais informações, consulte a <a href="../../automating/using/subscription-services.md">documentação detalhada</a>.<br /> </td> 
+   <td> A variável <strong>Serviços de assinatura</strong> a atividade de workflow agora permite assinar ou cancelar a assinatura de uma lista de perfis para vários serviços. No fluxo de trabalho, importe um arquivo contendo os perfis e, para cada perfil, o tipo de operação e o serviço. A variável <strong>Serviços de assinatura</strong> A atividade do poderá usar essas informações e lidar dinamicamente com todas as assinaturas de perfis e cancelamentos de assinaturas de uma só vez.<br /> Para obter mais informações, consulte <a href="../../automating/using/subscription-services.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Atividade de Enriquecimento - enriqueça os dados com base em transições anteriores<br /> </td> 
-   <td> O novo <span class="uicontrol">Enriquecimento</span> a atividade de workflow permite aproveitar as transições de entrada e concluir a transição de saída com dados adicionais. Se você selecionar perfis, a atividade de enriquecimento permitirá enriquecer as informações dos perfis com dados adicionais que não estão armazenados no banco de dados (provenientes de um arquivo importado, por exemplo).<br /> Para obter mais informações, consulte a <a href="../../automating/using/enrichment.md">documentação detalhada</a>.<br /> </td> 
+   <td> O novo <span class="uicontrol">Enriquecimento</span> a atividade de workflow permite aproveitar as transições de entrada e concluir a transição de saída com dados adicionais. Se você selecionar perfis, a atividade de enriquecimento permitirá enriquecer as informações dos perfis com dados adicionais que não estão armazenados no banco de dados (provenientes de um arquivo importado, por exemplo).<br /> Para obter mais informações, consulte <a href="../../automating/using/enrichment.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Correções**
 
-_Plataforma_
+_Platform_
 
 * A barra superior da interface do Adobe Campaign foi atualizada com o novo menu Experience Cloud.
 * Correção de um problema que impedia o link para **[!UICONTROL Offers]** de ser exibido na lista suspensa solução.
@@ -415,7 +415,7 @@ _Relatórios_
 * Correção de um erro que mostrava a lista de relatórios como vazia em alguns navegadores.
 * Correção de um erro que ocorria no **[!UICONTROL Report sharing]** fluxo de trabalho técnico antes de seu limite de expiração ser atingido.
 
-_Fluxos de trabalho_
+_Workflows_
 
 * Correção de um problema que impedia que as atividades ficassem acessíveis após arrastá-las e soltá-las.
 * Correção de um problema que poderia causar a ordem das transições de saída de um **[!UICONTROL Segmentation]** atividade a ser alterada em algumas situações.
@@ -447,15 +447,15 @@ Alguns problemas podem ocorrer ao usar links de ajuda contextual da interface do
  <tbody> 
   <tr> 
    <td> Relatórios para gerenciamento de fadiga<br /> </td> 
-   <td> Os relatórios para gerenciamento de fadiga são um relatório dedicado e configurável que exibe o impacto das regras de fadiga nas entregas nos canais de email, push, SMS e correspondência direta dentro de um intervalo de datas especificado antes do envio. Com a visão adicional de poder ver rapidamente todas as campanhas conflitantes em uma única visualização, os profissionais de marketing podem planejar campanhas de marketing de acordo com as regras de fadiga definidas com mais eficiência e priorizar comunicações.<br /> Para obter mais informações, consulte a <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">documentação detalhada</a>.<br /> </td> 
+   <td> Os relatórios para gerenciamento de fadiga são um relatório dedicado e configurável que exibe o impacto das regras de fadiga nas entregas nos canais de email, push, SMS e correspondência direta dentro de um intervalo de datas especificado antes do envio. Com a visão adicional de poder ver rapidamente todas as campanhas conflitantes em uma única visualização, os profissionais de marketing podem planejar campanhas de marketing de acordo com as regras de fadiga definidas com mais eficiência e priorizar comunicações.<br /> Para obter mais informações, consulte <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Compartilhamento de relatórios<br /> </td> 
-   <td> O Compartilhamento de relatórios permite compartilhar seus relatórios com usuários do Adobe Campaign como um anexo de email, incluindo de forma automatizada e recorrente. Os usuários que recebem relatórios recorrentes podem cancelar a inscrição dessas comunicações por meio de um link dedicado em cada email.<br /> Para obter mais informações, consulte a <a href="../../reporting/using/reporting-interface.md#share-tab">documentação detalhada</a>.<br /> </td> 
+   <td> O Compartilhamento de relatórios permite compartilhar seus relatórios com usuários do Adobe Campaign como um anexo de email, incluindo de forma automatizada e recorrente. Os usuários que recebem relatórios recorrentes podem cancelar a inscrição dessas comunicações por meio de um link dedicado em cada email.<br /> Para obter mais informações, consulte <a href="../../reporting/using/reporting-interface.md#share-tab">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Enviar novos recursos<br /> </td> 
-   <td> Visualização das mensagens de push: visualize as notificações das mensagens de push em dispositivos iOS e Android de dentro do editor de conteúdo de notificações de mensagens de push para ver exatamente o que os destinatários verão antes de testar ou executar o envio.<br /> Para obter mais informações, consulte a <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentação detalhada</a>.<br /> Conteúdo disponível: quando aplicativos não são abertos por longos períodos de tempo, seus dados podem se tornar obsoletos. Isso resulta na atualização ou substituição dos dados no momento em que um usuário finalmente abre o aplicativo, o que pode causar atrasos no uso do aplicativo. Com a ajuda adicional do Conteúdo disponível, os usuários do Adobe Campaign podem ativar o aplicativo para atualizar os dados em segundo plano ao enviar uma notificação por push, permitindo maior consistência e controle sobre a experiência no aplicativo de um usuário.<br /> Conteúdo variável: com a ajuda adicional do conteúdo variável, os usuários do Adobe Campaign agora podem aproveitar as extensões de aplicativos para dispositivos móveis para modificar ainda mais o conteúdo ou a apresentação de notificações de mensagens de push enviadas pelo Adobe Campaign. Por exemplo, os usuários podem aproveitar o conteúdo mutável para: <br /> 
+   <td> Visualização das mensagens de push: visualize as notificações das mensagens de push em dispositivos iOS e Android de dentro do editor de conteúdo de notificações de mensagens de push para ver exatamente o que os destinatários verão antes de testar ou executar o envio.<br /> Para obter mais informações, consulte <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentação detalhada</a>.<br /> Conteúdo disponível: quando aplicativos não são abertos por longos períodos de tempo, seus dados podem se tornar obsoletos. Isso resulta na atualização ou substituição dos dados no momento em que um usuário finalmente abre o aplicativo, o que pode causar atrasos no uso do aplicativo. Com a ajuda adicional do Conteúdo disponível, os usuários do Adobe Campaign podem ativar o aplicativo para atualizar os dados em segundo plano ao enviar uma notificação por push, permitindo maior consistência e controle sobre a experiência no aplicativo de um usuário.<br /> Conteúdo variável: com a ajuda adicional do conteúdo variável, os usuários do Adobe Campaign agora podem aproveitar as extensões de aplicativos para dispositivos móveis para modificar ainda mais o conteúdo ou a apresentação de notificações de mensagens de push enviadas pelo Adobe Campaign. Por exemplo, os usuários podem aproveitar o conteúdo mutável para: <br /> 
     <ul> 
      <li> descriptografar dados que foram entregues em formato criptografado </li> 
      <li> baixar imagens ou outros arquivos de mídia e adicioná-los como anexos a uma notificação </li> 
@@ -465,18 +465,18 @@ Alguns problemas podem ocorrer ao usar links de ajuda contextual da interface do
   </tr> 
   <tr> 
    <td> Deliveries otimizados para fuso horário<br /> </td> 
-   <td> Programe notificações por email, SMS e por push recorrentes para serem entregues em um dia/hora específico no fuso horário de cada recipient, garantindo que suas mensagens sejam entregues na hora certa, sem configurar vários deliveries. <br /> Para obter mais informações, consulte a <a href="../../automating/using/scheduler.md">documentação detalhada</a>.<br /> </td> 
+   <td> Programe notificações por email, SMS e por push recorrentes para serem entregues em um dia/hora específico no fuso horário de cada recipient, garantindo que suas mensagens sejam entregues na hora certa, sem configurar vários deliveries. <br /> Para obter mais informações, consulte <a href="../../automating/using/scheduler.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Acionamento da atividade de sinal da API<br /> </td> 
-   <td> Agora é possível acionar uma atividade de sinal para seus workflows diretamente da API do Adobe Campaign Standard.<br /> Para obter mais informações, consulte a <a href="/help/api/using/triggering-a-signal-activity.md">documentação detalhada</a> .<br /> </td> 
+   <td> Agora é possível acionar uma atividade de sinal para seus workflows diretamente da API do Adobe Campaign Standard.<br /> Para obter mais informações, consulte <a href="/help/api/using/triggering-a-signal-activity.md">documentação detalhada</a> .<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Correções**
 
-_Plataforma_
+_Platform_
 
 * A pesquisa de perfil foi otimizada para melhorar o desempenho.
 * O identificador interno de grupos de segurança padrão agora está no modo somente leitura para usuários padrão.
@@ -503,7 +503,7 @@ _Relatórios_
 * Correção de um problema que impedia usuários de baixar relatórios em CSV.
 * Adição de um novo **[!UICONTROL Report]** item na página inicial.
 
-_Fluxos de trabalho_
+_Workflows_
 
 * Correção de um problema que resultava em uma mensagem de erro ao usar dados adicionais em um query e adicionar aliases contendo espaços. Os caracteres não alfanuméricos agora são substituídos por &quot;_&quot;.
 * Correção de um problema em que o workflow técnico que calcula KPIs podia ser interrompido por padrão em alguns casos.

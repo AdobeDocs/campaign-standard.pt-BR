@@ -20,15 +20,15 @@ ht-degree: 90%
 
 Quando a mensagem estiver pronta, certifique-se de que seu conteúdo está sendo exibido corretamente, em todos os dispositivos, e de que não contém erros, como personalização incorreta ou links quebrados.
 
-Antes de enviar a mensagem, verifique também se os parâmetros e a configuração estão consistentes com o delivery.
+Antes de enviar a mensagem, verifique também se os parâmetros e a configuração estão consistentes com a entrega.
 
 ## Importância da validação {#validation-is-key}
 
-Antes de enviar um delivery, você precisa garantir que seus recipients receberão a mensagem que você realmente deseja enviar. Para fazer isso é necessário validar o conteúdo da mensagem e os parâmetros do delivery.
+Antes de enviar uma entrega, você precisa garantir que seus recipients receberão a mensagem que você realmente deseja enviar. Para fazer isso é necessário validar o conteúdo da mensagem e os parâmetros da entrega.
 
-Esta etapa permite detectar e corrigir possíveis erros antes de fazer um delivery ao público-alvo principal.
+Esta etapa permite detectar e corrigir possíveis erros antes de fazer uma entrega ao público-alvo principal.
 
-As etapas para validar um delivery são apresentadas [nesta seção](../../sending/using/get-started-sending-messages.md#prepare-test-send).
+As etapas para validar uma entrega são apresentadas [nesta seção](../../sending/using/get-started-sending-messages.md#prepare-test-send).
 
 ## Renderização de email {#email-rendering}
 
@@ -52,7 +52,7 @@ Saiba mais [nesta seção](../../sending/using/sending-proofs.md).
 
 ## Configurar entregas de teste A/B {#a-b-testing-deliveries}
 
-Se você tiver vários conteúdos para um delivery de email, poderá usar o teste A/B para descobrir qual versão terá o maior impacto na população direcionada.
+Se você tiver vários conteúdos para uma entrega de email, poderá usar o teste A/B para descobrir qual versão terá o maior impacto na população direcionada.
 
 **Dicas**:
 

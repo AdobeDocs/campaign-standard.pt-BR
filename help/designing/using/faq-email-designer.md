@@ -11,7 +11,7 @@ exl-id: f3208380-a4cf-4944-aa24-883995d1075d
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 7%
+ht-degree: 3%
 
 ---
 
@@ -58,7 +58,7 @@ Para obter mais informações, consulte [Atualização de fragmentos](../../desi
 
 ## Posso salvar estilos em um tema?
 
-Os estilos não podem ser salvos como um tema para futura reutilização. Entretanto, o estilo CSS pode ser salvo em um modelo de conteúdo ou em um email.
+Os estilos não podem ser salvos como um tema para futura reutilização. No entanto, o estilo CSS pode ser salvo em um modelo de conteúdo ou em um email.
 
 Para obter mais informações, consulte [Estilos](../../designing/using/styles.md)
 

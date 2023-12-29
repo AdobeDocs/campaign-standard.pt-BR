@@ -12,7 +12,7 @@ exl-id: 815b4a0d-0486-4867-b751-b5ca8b643cb9
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '455'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -24,13 +24,13 @@ Correspondência direta é um canal offline com o qual é possível personalizar
 >
 >Este recurso é opcional. Verifique o contrato de licença. A função **[!UICONTROL Export]** é necessária para usar a correspondência direta. Entre em contato com o administrador.
 
-Os canais online permitem que você crie mensagens (email, SMS, delivery de aplicativo móvel, etc.) e envie-as para seu público diretamente do Adobe Campaign. Com canais offline, é diferente. Quando você prepara um delivery direto de correspondência direta, o Adobe Campaign gera um arquivo incluindo todos os perfis do target e as informações de contato escolhidas (endereço postal por exemplo). Você poderá enviar esse arquivo para seu provedor de correspondência direta que irá cuidar realmente do envio.
+Os canais online permitem que você crie mensagens (email, SMS, entrega de aplicativo móvel, etc.) e envie-as para seu público diretamente do Adobe Campaign. Com canais offline, é diferente. Quando você prepara uma entrega de correspondência direta, o Adobe Campaign gera um arquivo incluindo todos os perfis do target e as informações de contato escolhidas (endereço postal por exemplo). Você poderá enviar esse arquivo para seu provedor de correspondência direta que irá cuidar realmente do envio.
 
-A seção a seguir explica como criar e gerar um delivery de correspondência direta de uma só vez. Você também pode incluir uma atividade de correspondência direta em um fluxo de trabalho para orquestrar campanhas combinando canais online e offline. Para mais informações, consulte o guia [Fluxos de trabalho](../../automating/using/get-started-workflows.md).
+A seção a seguir explica como criar e gerar uma entrega de correspondência direta de uma só vez. Você também pode incluir uma atividade de correspondência direta em um fluxo de trabalho para orquestrar campanhas combinando canais online e offline. Para mais informações, consulte o guia [Fluxos de trabalho](../../automating/using/get-started-workflows.md).
 
 O processo do usuário no Adobe Campaign é o seguinte:
 
-1. Criação de delivery
+1. Criação de entrega
 1. Escolha do público
 1. Definição do conteúdo
 1. Definição da data de contato

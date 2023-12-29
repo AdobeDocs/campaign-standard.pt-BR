@@ -7,7 +7,7 @@ topic-tags: discovering-the-interface
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 24%
+ht-degree: 19%
 
 ---
 
@@ -90,7 +90,7 @@ As mensagens personalizadas são fundamentais para enviar conteúdo relevante, o
 
 <img width="60px" alt="condições" src="assets/icon_profile.svg"/>
 
-Além de modelos de relatórios avançados e prontos para uso, o Adobe Campaign permite criar relatórios personalizados em nível de delivery, campanha, usuário ou segmento. Acompanhe suas mensagens e entenda o comportamento de seus clientes enriquecendo progressivamente os dados de perfil. As ferramentas de análise e geração de relatórios permitem capitalizar cada nova campanha, melhorar o direcionamento das ações de marketing e otimizar seu impacto e o retorno sobre o investimento.
+Além de modelos de relatórios avançados e prontos para uso, o Adobe Campaign permite criar relatórios personalizados em nível de entrega, campanha, usuário ou segmento. Acompanhe suas mensagens e entenda o comportamento de seus clientes enriquecendo progressivamente os dados de perfil. As ferramentas de análise e geração de relatórios permitem capitalizar cada nova campanha, melhorar o direcionamento das ações de marketing e otimizar seu impacto e o retorno sobre o investimento.
 
 A interface gráfica fornece acesso rápido e fácil aos principais indicadores e estatísticas de delivery.
 

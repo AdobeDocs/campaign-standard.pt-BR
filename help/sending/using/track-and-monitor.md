@@ -11,14 +11,14 @@ level: Intermediate
 exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 44%
+source-wordcount: '433'
+ht-degree: 39%
 
 ---
 
 # Rastrear e monitorar {#track-and-monitor}
 
-Você clicou no botão Enviar? Vamos ver o que acontece. Depois que o delivery é enviado, o Adobe Campaign permite acompanhar as mensagens enviadas e descobrir como os recipients reagem ao seu delivery. Isso ajuda a melhorar o envio futuro e a otimizar as próximas campanhas.
+Você clicou no botão Enviar? Vamos ver o que acontece. Depois que a entrega é enviada, o Adobe Campaign permite acompanhar as mensagens enviadas e descobrir como os recipients reagem a sua entrega. Isso ajuda a melhorar o envio futuro e a otimizar as próximas campanhas.
 
 ## Monitoramento de entregas {#monitoring-deliveries}
 
@@ -38,7 +38,7 @@ Para obter mais informações, consulte [Monitoramento de um delivery](../../sen
 
 Para conhecer melhor o comportamento de perfis direcionados, você pode acompanhar como eles reagem a uma entrega: recebimento, abertura, cliques em links, assinaturas canceladas, etc. Consulte a **Logs de rastreamento** da entrega.
 
-**Dica**: o rastreamento de mensagens é habilitado por padrão. Para configurar URLs, selecione a opção Exibir URLs na seção inferior do assistente do delivery. Para cada URL da mensagem, você pode escolher se deseja ativar o rastreamento.
+**Dica**: o rastreamento de mensagens é habilitado por padrão. Para configurar URLs, selecione a opção Exibir URLs na seção inferior do assistente da entrega. Para cada URL da mensagem, você pode escolher se deseja ativar o rastreamento.
 
 Para obter mais informações, consulte [Rastreamento de mensagens](../../sending/using/tracking-messages.md) seção e o [Indicadores de rastreamento](../../reporting/using/tracking-indicators.md) descrição.
 
@@ -58,11 +58,11 @@ Para obter mais informações, consulte [Relatório de cliques ativos](../../rep
 
 ## Dicas de desempenho de entrega {#performance-tips}
 
-* Não mantenha os deliveries em estado de falha na instância, pois tabelas temporárias serão mantidas e o desempenho será afetado.
+* Não mantenha as entregas em estado de falha na instância, pois tabelas temporárias serão mantidas e o desempenho será afetado.
 
 * Remova as remessas que não são mais necessárias e os destinatários inativos do banco de dados para manter a qualidade do endereço.
 
-* Não tente programar deliveries grandes juntos. Observe que pode levar de 5 a 10 minutos para que a carga seja uniformemente espalhada sobre o sistema.
+* Não tente programar entregas grandes juntas. Observe que pode levar de 5 a 10 minutos para que a carga seja uniformemente espalhada sobre o sistema.
 
 **Tópicos relacionados:**
 

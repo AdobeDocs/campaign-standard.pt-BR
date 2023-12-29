@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 100%
+source-wordcount: '976'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Com o editor de conteúdo de mensagens no aplicativo é possível escolher entre
 **Tópicos relacionados:**
 
 * [Envio de mensagens no aplicativo](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)
-* [Relatório de mensagens no aplicativo](../../reporting/using/in-app-report.md)
+* [Relatórios no aplicativo](../../reporting/using/in-app-report.md)
 * [Implementação do rastreamento de notificação local](../../administration/using/local-tracking.md)
 
 ## Personalização com um modelo de mensagem {#customizing-with-a-message-template}
@@ -156,7 +156,7 @@ Para personalizar uma notificação local:
 1. Na categoria **[!UICONTROL Advanced option]**, no campo **[!UICONTROL Wait to display]**, escolha quanto tempo, em segundos, a notificação local será exibida na tela assim que o evento for acionado.
 1. No campo **[!UICONTROL Sound]**, digite o nome do arquivo de som, com a extensão, a ser reproduzido pelo dispositivo móvel quando a notificação local for recebida.
 
-   O arquivo de som será reproduzido ao fornecer a notificação se estiver definido no pacote desse aplicativo móvel. Caso contrário, o som padrão do dispositivo será reproduzido.
+   O arquivo de som será reproduzido ao entregar a notificação se estiver definido no pacote desse aplicativo móvel. Caso contrário, o som padrão do dispositivo será reproduzido.
 
    ![](assets/inapp_customize_19.png)
 
@@ -168,7 +168,7 @@ Para personalizar uma notificação local:
 
 1. Na categoria **[!UICONTROL Apple options]**, preencha os campos **[!UICONTROL Category]** para adicionar uma ID de categoria para ações personalizadas, se disponível no aplicativo para dispositivos móveis da Apple.
 
-## Personalização com uma mensagem HTML personalizada {#customizing-with-a-custom-html-message}
+## Personalização com uma mensagem de HTML personalizada {#customizing-with-a-custom-html-message}
 
 >[!NOTE]
 >

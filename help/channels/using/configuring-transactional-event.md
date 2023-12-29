@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
 source-git-commit: fc6788bf62fa66bd43b3e50fb9bc676ccb466078
 workflow-type: tm+mt
-source-wordcount: '1705'
-ht-degree: 6%
+source-wordcount: '1709'
+ht-degree: 3%
 
 ---
 
@@ -175,13 +175,13 @@ As seções a seguir detalham qual configuração específica deve ser definida 
 
 ### Mensagens transacionais baseadas em evento {#event-based-transactional-messages}
 
-Você pode enviar mensagens transacionais de eventos direcionadas a um evento. Esse tipo de mensagem transacional não contém informações de perfil: o público-alvo do delivery é definido pelos dados contidos no próprio evento.
+Você pode enviar mensagens transacionais de eventos direcionadas a um evento. Esse tipo de mensagem transacional não contém informações de perfil: o público-alvo da entrega é definido pelos dados contidos no próprio evento.
 
 Para enviar uma mensagem transacional baseada em eventos, primeiro é necessário criar e configurar um evento direcionado ao **dados contidos no próprio evento**.
 
 1. Ao criar a configuração do evento, selecione a variável **[!UICONTROL Real-time event]** targeting dimension (consulte [Criação de um evento](#creating-an-event)).
 1. Adicione campos ao evento para poder personalizar a mensagem transacional (consulte [Definir os atributos do evento](#defining-the-event-attributes)).
-1. As mensagens transacionais baseadas em evento só devem usar os dados contidos no evento enviado para definir o recipient e a personalização do conteúdo da mensagem.
+1. As mensagens transacionais baseadas em eventos devem usar somente os dados contidos no evento enviado para definir o recipient e a personalização do conteúdo da mensagem.
 
    No entanto, se quiser usar informações adicionais do banco de dados do Adobe Campaign, você poderá enriquecer o conteúdo da mensagem transacional (consulte [Enriquecimento do conteúdo da mensagem transacional](#enriching-the-transactional-message-content)).
 

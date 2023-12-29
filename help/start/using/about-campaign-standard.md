@@ -10,8 +10,8 @@ level: Beginner
 exl-id: b62c70fe-c838-4a0e-9b0a-2e916a06ff39
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 100%
+source-wordcount: '778'
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ Controle todo o processo de criação, execução e rastreamento de campanhas em
 
 **Incremente seu banco de dados** usando várias funcionalidades: workflows, landing pages, APIs ou Microsoft Dynamics 365.
 
-[Introdução a perfis e públicos](../../audiences/using/get-started-profiles-and-audiences.md)
+[Introdução a perfis e públicos-alvo](../../audiences/using/get-started-profiles-and-audiences.md)
 
 ## Orquestrar campanhas de marketing em vários canais {#orchestrate-campaigns}
 
@@ -49,7 +49,7 @@ Planeje, coordene e orquestre campanhas em vários canais.
 
 <img width="60px" alt="condições" src="assets/icon_send.svg"/>
 
-Projete e envie mensagens em canais de comunicação online e offline, incluindo otimização de delivery de email para vários dispositivos por meio de testes e estratégias de design responsivas.
+Projete e envie mensagens em canais de comunicação online e offline, incluindo otimização de entrega de email para vários dispositivos por meio de testes e estratégias de design responsivas.
 
 **Aproveite os canais de comunicação do Campaign** para entregar suas campanhas de marketing no local certo: email, SMS, notificação de push, mensagem no aplicativo, correspondência direta e landing pages. Ganhe tempo e consistência em sua estratégia de mensagens criando modelos para todos os tipos de mensagens (mensagens transacionais, recorrentes e multilingues). Faça testes A/B e capture o interesse do seu público-alvo usando funcionalidades de personalização e conteúdo dinâmico. [Introdução a canais de comunicação](../../channels/using/get-started-communication-channels.md)
 
@@ -63,10 +63,10 @@ Projete e envie mensagens em canais de comunicação online e offline, incluindo
 
 Depois que as campanhas de marketing tiverem sido executadas e as diferentes mensagens tiverem sido enviadas, o Campaign Standard permitirá que você as monitore para rastrear o impacto e o comportamento dos recipients.
 
-**Monitore seus deliveries** após o envio. Consulte e exporte logs detalhados sobre seus deliveries. Recupere informações sobre o status para cada recipient, mensagens excluídas do público-alvo e muitas outras métricas.
-Aproveite o recurso de alerta do delivery para acompanhar os sucessos ou falhas do delivery por meio de notificações por email. Quer saber mais? [Introdução ao monitoramento de mensagens](../../sending/using/monitoring-a-delivery.md)
+**Monitore suas entregas** após o envio. Consulte e exporte logs detalhados sobre suas entregas. Recupere informações sobre o status para cada recipient, mensagens excluídas do público-alvo e muitas outras métricas.
+Aproveite o recurso de alerta da entrega para acompanhar os sucessos ou falhas da entrega por meio de notificações por email. Quer saber mais? [Introdução ao monitoramento de mensagens](../../sending/using/monitoring-a-delivery.md)
 
-**Acompanhe o comportamento dos recipients do seu delivery**. Aproveite a sessão e os cookies permanentes para recuperar informações de rastreamento para cada contato do banco de dados. Monitore informações de rastreamento de delivery (URLs clicados, mirror pages, mensagens abertas...) por meio de logs e relatórios específicos. [Introdução ao rastreamento de mensagens](../../sending/using/tracking-messages.md)
+**Acompanhe o comportamento dos recipients da sua entrega**. Aproveite a sessão e os cookies permanentes para recuperar informações de rastreamento para cada contato do banco de dados. Monitore informações de rastreamento de entrega (URLs clicados, mirror pages, mensagens abertas...) por meio de logs e relatórios específicos. [Introdução ao rastreamento de mensagens](../../sending/using/tracking-messages.md)
 
 **Utilize os relatórios dinâmicos** para destacar métricas específicas relacionadas à sua mensagem ou campanha. A ferramenta Relatórios dinâmico fornece relatórios totalmente personalizáveis e em tempo real que adicionam acesso aos dados do perfil, permitindo a análise demográfica por dimensões de perfil, como gênero, cidade e idade, além de dados funcionais de campanha de email, como aberturas e cliques. Com a interface de arrastar e soltar, você pode explorar dados, determinar o desempenho de suas campanhas de email em relação aos segmentos de clientes mais importantes e medir seu impacto nos recipients. [Introdução aos relatórios dinâmicos](../../reporting/using/about-dynamic-reports.md)
 

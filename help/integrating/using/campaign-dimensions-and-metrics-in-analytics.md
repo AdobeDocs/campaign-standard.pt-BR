@@ -11,7 +11,7 @@ exl-id: 6516c71a-efa8-4778-82bb-10615378f985
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 16%
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ Campaign **[!UICONTROL dimensions]** encontrados no Analytics estão listados ab
 <table> 
  <thead> 
   <tr> 
-   <th> Dimensão<br /> </th> 
+   <th> Dimension<br /> </th> 
    <th> Definição<br /> </th> 
   </tr> 
  </thead> 
@@ -84,7 +84,7 @@ Campaign **[!UICONTROL metrics]** encontrados no Analytics estão listados abaix
   </tr> 
   <tr> 
    <td> Total de rejeições<br /> </td> 
-   <td> Total de erros acumulados durante o processamento de entrega e retorno automático em relação ao número total de mensagens enviadas.<br /> </td> 
+   <td> Total de erros acumulados durante o processamento de delivery e retorno automático em relação ao número total de mensagens enviadas.<br /> </td> 
   </tr> 
   <tr> 
    <td> Abertura única<br /> </td> 

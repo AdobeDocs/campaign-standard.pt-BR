@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: d2ce702b-92d1-4b94-bd47-34ef46a8bd9f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 8%
+source-wordcount: '578'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ A variável ![](assets/printpreview_darkgrey-24px.png) ícone abre o log de work
 
 O histórico do workflow é salvo pela duração especificada nas opções de execução do workflow (consulte [Propriedades do fluxo de trabalho](../../automating/using/managing-execution-options.md)). Durante essa duração, todas as mensagens são salvas, mesmo após uma reinicialização. Se não quiser salvar as mensagens de uma execução anterior, você precisará expurgar o histórico clicando no link ![](assets/delete_darkgrey-24px.png) botão.
 
-A variável **[!UICONTROL Log]** contém o histórico de execução de todas as atividades ou de qualquer atividade selecionada. Eles indicam as operações efetuadas e os erros de execução por ordem cronológica.
+A variável **[!UICONTROL Log]** contém o histórico de execução de todas as atividades ou de qualquer atividade selecionada. Ele indexa as operações realizadas e os erros de execução por ordem cronológica.
 
 ![](assets/wkf_execution_4.png)
 

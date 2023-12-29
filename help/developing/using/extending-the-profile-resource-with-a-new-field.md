@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 98%
+source-wordcount: '1032'
+ht-degree: 92%
 
 ---
 
@@ -30,7 +30,7 @@ Para isso, siga as etapas abaixo:
 * [Etapa 3: publicar o recurso personalizado](#step-3--publish-your-custom-resource)
 * [Etapa 4: atualizar e direcionar perfis com um fluxo de trabalho](#step-4--update-and-target-profiles-with-a-workflow)
 
-O campo a seguir será adicionado aos nossos perfis e poderá ser direcionado em um delivery:
+O campo a seguir será adicionado aos nossos perfis e poderá ser direcionado em uma entrega:
 
 ![](assets/schema_extension_uc20.png)
 
@@ -96,7 +96,7 @@ A página agora está configurada. Precisamos agora estendê-la ao perfil de tes
 
 ## Etapa 2: estender o perfil de teste {#step-2--extend-the-test-profile}
 
-Para testar se o novo campo criado está configurado corretamente, você pode testá-lo enviando o delivery aos seus perfis de teste. Primeiro, o novo campo também precisa ser executado para os perfis de teste.
+Para testar se o novo campo criado está configurado corretamente, você pode testá-lo enviando a entrega aos seus perfis de teste. Primeiro, o novo campo também precisa ser executado para os perfis de teste.
 
 1. No menu avançado, selecione **[!UICONTROL Administration]** > **[!UICONTROL Development]** e **[!UICONTROL Custom resources]** pelo logotipo do Adobe Campaign.
 1. Se você ainda não tiver estendido o recurso **[!UICONTROL Profiles]**, clique em **[!UICONTROL Create]**.
@@ -141,7 +141,7 @@ Para aplicar as alterações realizadas no recurso e usá-lo, faça uma atualiza
 
    ![](assets/schema_extension_uc20.png)
 
-O novo campo de recurso agora está pronto para ser usado e direcionado em um delivery, por exemplo.
+O novo campo de recurso agora está pronto para ser usado e direcionado em uma entrega, por exemplo.
 
 ## Etapa 4: atualizar e direcionar perfis com um fluxo de trabalho {#step-4--update-and-target-profiles-with-a-workflow}
 

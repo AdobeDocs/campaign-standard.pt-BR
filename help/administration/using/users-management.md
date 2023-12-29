@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1198'
-ht-degree: 82%
+source-wordcount: '1171'
+ht-degree: 81%
 
 ---
 
@@ -23,7 +23,7 @@ As funções específicas e as autorizações correspondentes são descritas nas
 
 Os administradores podem gerenciar usuários no Admin Console. Os usuários são sincronizados automaticamente com o Adobe Campaign. Para obter mais informações, consulte [Admin Console](https://helpx.adobe.com/br/enterprise/using/users.html) documentação.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Conheça este recurso no vídeo](#video)
 
 Para exibir os usuários no Adobe Campaign, clique no link **Adobe** no canto superior esquerdo e selecione **[!UICONTROL Administration > Users & Security > Users]**.
 
@@ -55,7 +55,7 @@ Vamos nos concentrar em como as diferentes tarefas no Adobe Campaign são dividi
 
 ### Administradores funcionais {#functional-administrators}
 
-Os administradores funcionais são usuários que podem acessar as partes mais técnicas da interface. Eles assumem a função **[!UICONTROL Administration]** e garantem que a plataforma esteja configurada para que os profissionais de marketing se concentrem apenas no delivery das campanhas.
+Os administradores funcionais são usuários que podem acessar as partes mais técnicas da interface. Eles assumem a função **[!UICONTROL Administration]** e garantem que a plataforma esteja configurada para que os profissionais de marketing se concentrem apenas na entrega das campanhas.
 
 >[!IMPORTANT]
 >
@@ -75,7 +75,7 @@ Estas são as principais tarefas que eles podem executar:
 
 ### Usuários avançados {#advanced-users}
 
-Os usuários avançados são usuários de marketing que executam os casos de uso mais técnicos no Adobe Campaign. Eles pré-configuram todos os elementos usados pelos profissionais de marketing para enviar e monitorar os deliveries.
+Os usuários avançados são usuários de marketing que executam os casos de uso mais técnicos no Adobe Campaign. Eles pré-configuram todos os elementos usados pelos profissionais de marketing para enviar e monitorar as entregas.
 
 Esse tipo de usuário requer funções mais gerais do que os administradores funcionais, mas ainda deve ser capaz de executar algumas operações técnicas. Para isso, eles devem receber, por exemplo, a função **[!UICONTROL Export]**, **[!UICONTROL Generic import]** ou **[!UICONTROL Workflow]** pronta para uso. Para obter mais informações, consulte esta [seção](../../administration/using/list-of-roles.md).
 
@@ -94,7 +94,7 @@ Graças ao administrador funcional e aos usuários avançados, os profissionais 
 Estas são as principais tarefas que eles podem executar:
 
 * [Gerenciar programas e campanhas](../../start/using/programs-and-campaigns.md): eles criam campanhas de marketing, inclusive diferentes tipos de atividades (emails, mensagens SMS, notificações por push, fluxos de trabalho, landing pages).
-* Gerenciar [perfis](../../audiences/using/about-profiles.md) e [perfis de teste](../../audiences/using/managing-test-profiles.md): eles gerenciam os recipients identificados e de teste que serão direcionados pelos seus deliveries. Eles adicionam informações, como nome, sobrenome, informações de contato, assinaturas, emails etc.
+* Gerenciar [perfis](../../audiences/using/about-profiles.md) e [perfis de teste](../../audiences/using/managing-test-profiles.md): eles gerenciam os recipients identificados e de teste que serão direcionados por suas entregas. Eles adicionam informações, como nome, sobrenome, informações de contato, assinaturas, emails etc.
 * [Criar e enviar mensagens](../../sending/using/confirming-the-send.md): eles criam a mensagem, selecionam o público-alvo, definem o conteúdo da mensagem e os elementos de personalização e enviam provas e a mensagem final para o público-alvo.
 * [Criar e publicar landings pages](../../channels/using/getting-started-with-landing-pages.md): eles criam e gerenciam um conjunto de serviços que você quer oferecer aos clientes, por exemplo, formulários de assinatura ou de unsubscription.
 * [Criar e executar workflows da campanha](../../automating/using/building-a-workflow.md): eles automatizam seus processos de campanha usando fluxos de trabalho.

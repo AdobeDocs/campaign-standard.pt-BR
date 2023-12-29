@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 7f2a3139-57eb-48ff-9b1a-ac2caad2f691
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 13%
+source-wordcount: '1347'
+ht-degree: 10%
 
 ---
 
@@ -40,18 +40,18 @@ ht-degree: 13%
                <tr>
                   <td>birthDate</td>
                   <td>Data de nascimento</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blacklist</td>
+                  <td>blackList</td>
                   <td>Não mais entrar em contato (por qualquer canal)</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListEmail</td>
-                  <td>Não entrar mais em contato por e-mail</td>
+                  <td>Não mais contatar por e-mail</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -63,7 +63,7 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>blackListMobile</td>
-                  <td>Não entrar mais em contato por SMS</td>
+                  <td>Não mais contatar por SMS</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -99,8 +99,8 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>país (países)</td>
-                  <td>Country</td>
-                  <td>Link  </td>
+                  <td>País</td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -112,25 +112,25 @@ ht-degree: 13%
                <tr>
                   <td>criado</td>
                   <td>Criado</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Criado por</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>cusHobbieslink (cusHobbies)</td>
                   <td>CusHobbieslink</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>cusLastTransactionDate</td>
                   <td>Data da última transação</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -164,8 +164,8 @@ ht-degree: 13%
                   <td> </td>
                </tr>
                <tr>
-                  <td>gender</td>
-                  <td>Sexo</td>
+                  <td>gênero</td>
+                  <td>Gênero</td>
                   <td>enumeração (byte) </td>
                   <td>
                      <ul>
@@ -191,7 +191,7 @@ ht-degree: 13%
                <tr>
                   <td>lastModified</td>
                   <td>Última modificação</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -215,13 +215,13 @@ ht-degree: 13%
                <tr>
                   <td>minBroadLogEvents</td>
                   <td>MinBroadLogEvents</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>minSubHistoEvents</td>
                   <td>MinSubHistoEvents</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -233,17 +233,17 @@ ht-degree: 13%
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificado por</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>phone</td>
+                  <td>telefone</td>
                   <td>Telefone</td>
                   <td>sequência de caracteres (32)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>salutation</td>
+                  <td>saudação</td>
                   <td>Título</td>
                   <td>sequência de caracteres (20)</td>
                   <td> </td>
@@ -251,7 +251,7 @@ ht-degree: 13%
                <tr>
                   <td>stateLink (estado)</td>
                   <td>Estado</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -415,7 +415,7 @@ Aniversário (aniversário)
 </tr>
 <tr>
 <td>endDay</td>
-<td>date</td>
+<td>data</td>
 </tr>
 <tr>
 <td>precision</td>
@@ -427,7 +427,7 @@ Aniversário (aniversário)
 </tr>
 <tr>
 <td>mês</td>
-<td>date</td>
+<td>data</td>
 </tr>
 <tr>
 <td>operador</td>
@@ -439,7 +439,7 @@ Aniversário (aniversário)
 </tr>
 <tr>
 <td>endMonth</td>
-<td>date</td>
+<td>data</td>
 </tr>
 <tr>
 <td>tipo</td>
@@ -447,7 +447,7 @@ Aniversário (aniversário)
 </tr>
 <tr>
 <td>dia</td>
-<td>date</td>
+<td>data</td>
 </tr>
 </table>
 
@@ -499,7 +499,7 @@ Por público estático (byStaticAudience)
 </tr>
 <tr>
 <td>público-alvo</td>
-<td>Link </td>
+<td>link</td>
 </tr>
 </table>
 
@@ -512,7 +512,7 @@ Clicado (hasClickedDelivery)
 </tr>
 <tr>
 <td>entrega</td>
-<td>Link </td>
+<td>link</td>
 </tr>
 </table>
 
@@ -525,7 +525,7 @@ Aberto (hasOpenedDelivery)
 </tr>
 <tr>
 <td>entrega</td>
-<td>Link </td>
+<td>link</td>
 </tr>
 </table>
 
@@ -538,7 +538,7 @@ Perfil (perfil)
 </tr>
 <tr>
 <td>perfil</td>
-<td>Link </td>
+<td>link</td>
 </tr>
 </table>
 
@@ -551,7 +551,7 @@ Recebido (hasReceivedDelivery)
 </tr>
 <tr>
 <td>entrega</td>
-<td>Link </td>
+<td>link</td>
 </tr>
 </table>
 
@@ -564,6 +564,6 @@ Assinantes (assinantes)
 </tr>
 <tr>
 <td>serviço</td>
-<td>Link </td>
+<td>link</td>
 </tr>
 </table>

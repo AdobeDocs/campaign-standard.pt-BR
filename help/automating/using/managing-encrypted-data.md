@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
 source-git-commit: 69c47c8f3cbb405acbef634aa1ebaef8e767f159
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 45%
+source-wordcount: '889'
+ht-degree: 38%
 
 ---
 
@@ -41,7 +41,7 @@ Depois que a solicitação for processada, os comandos encryption / decryption e
 * [Carregar arquivo](../../automating/using/load-file.md)
 * [Extrair arquivo](../../automating/using/extract-file.md)
 
-## Caso de uso: importação de dados criptografados usando uma chave gerada pelo Painel de controle {#use-case-gpg-decrypt}
+## Caso de uso: importação de dados criptografados usando uma chave gerada pelo Painel de controle do Campaign {#use-case-gpg-decrypt}
 
 Nesse caso de uso, crie um workflow para importar dados que foram criptografados em um sistema externo usando uma chave gerada no Painel de controle do Campaign.
 
@@ -83,9 +83,9 @@ As etapas para executar esse caso de uso são as seguintes:
 
 1. Clique em **[!UICONTROL OK]** para confirmar a configuração da atividade.
 
-1. Agora você pode executar o workflow.
+1. Agora você pode executar o fluxo de trabalho.
 
-## Caso de uso: criptografar e exportar dados usando uma chave instalada no Painel de controle {#use-case-gpg-encrypt}
+## Caso de uso: criptografar e exportar dados usando uma chave instalada no Painel de controle do Campaign {#use-case-gpg-encrypt}
 
 Nesse caso de uso, crie um workflow para criptografar e exportar dados usando uma chave instalada no Painel de controle do Campaign.
 

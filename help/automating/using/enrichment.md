@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: c8af67b0-6789-4b4e-9d01-e2dfa14f1e8f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 96%
+source-wordcount: '546'
+ht-degree: 95%
 
 ---
 
@@ -69,4 +69,4 @@ Para configurar uma atividade de **[!UICONTROL Enrichment]**:
 
 1. Confirme a configuração da sua atividade e salve o fluxo de trabalho.
 
-Os dados agora estão disponíveis para uso nas atividades conectadas após o **[!UICONTROL Enrichment]**. Por exemplo, você pode encontrá-los no link **[!UICONTROL Additional data (targetData)]** do explorador de campos de personalização em um conteúdo de email.
+Os dados agora estão disponíveis para uso nas atividades conectadas após o **[!UICONTROL Enrichment]**. Por exemplo, você pode encontrá-los no link **[!UICONTROL Additional data (targetData)]** do explorer de campos de personalização em um conteúdo de email.

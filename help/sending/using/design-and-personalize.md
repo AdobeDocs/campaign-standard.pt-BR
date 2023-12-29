@@ -11,18 +11,18 @@ level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 74%
+source-wordcount: '1039'
+ht-degree: 69%
 
 ---
 
 # Criar conteúdo personalizado {#build-personalized-content}
 
-Ao criar o conteúdo da sua mensagem, tente evitar problemas comuns que possam impedir a execução do delivery. Na maioria das vezes, possíveis erros estão relacionados ao [personalização](../../designing/using/personalization.md), formatando quando [usar um conteúdo existente](../../designing/using/using-existing-content.md) - e [conversão de um conteúdo de HTML](../../designing/using/using-existing-content.md#converting-an-html-content) - e [imagens](../../designing/using/images.md).
+Ao criar o conteúdo da sua mensagem, tente evitar problemas comuns que possam impedir a execução da entrega. Na maioria das vezes, possíveis erros estão relacionados ao [personalização](../../designing/using/personalization.md), formatando quando [usar um conteúdo existente](../../designing/using/using-existing-content.md) - e [conversão de um conteúdo de HTML](../../designing/using/using-existing-content.md#converting-an-html-content) - e [imagens](../../designing/using/images.md).
 
 ## Otimizar personalização {#optimize-personalization}
 
-Para evitar problemas comuns que podem impedir a execução do delivery e melhorar a experiência dos recipients, o Adobe Campaign permite personalizar suas mensagens.
+Para evitar problemas comuns que podem impedir a execução da entrega e melhorar a experiência dos recipients, o Adobe Campaign permite personalizar suas mensagens.
 
 Você pode usar os dados dos recipients armazenados no banco de dados do Adobe Campaign ou coletados por meio de rastreamento, landing pages, assinaturas, etc.
 As noções básicas de personalização são apresentadas [nesta seção](../../designing/using/personalization.md).
@@ -74,7 +74,7 @@ Veja [nesta seção](../../designing/using/personalization.md#adding-a-content-b
 
 ### Tamanho do email {#email-size}
 
-Para evitar problemas de desempenho ou de delivery, o tamanho máximo recomendado de um email é de aproximadamente **35 KB**.
+Para evitar problemas de desempenho ou de delivery, o tamanho máximo recomendado de um email é aproximadamente **35 KB**.
 
 Para manter o email abaixo do limite, considere o seguinte:
 
@@ -84,7 +84,7 @@ Para manter o email abaixo do limite, considere o seguinte:
 
 * Minimizar o uso de código
 
-Verificar se você testou as alterações antes do envio final.
+Certifique-se de que testou as alterações antes do envio final.
 
 No Adobe Campaign, o tamanho máximo padrão de um email é definido como **100 MB**. <!--This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash.-->
 

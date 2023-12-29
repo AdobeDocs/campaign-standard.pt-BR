@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 6c01662e-1e19-4cec-aa21-6e84b9b7a677
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 100%
+source-wordcount: '434'
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ Aqui, usamos um exemplo de mensagem SMS contendo campos de personalização que,
 
 A opção **[!UICONTROL From]** permite personalizar o nome do remetente da mensagem SMS usando uma string de caracteres. Ele aparecerá como o nome do remetente da mensagem SMS no celular do recipient.
 
-Se esse campo estiver vazio, será usado o número de origem fornecido na conta externa. Se nenhum número de origem for fornecido, o código curto será usado. A conta externa específica do delivery de SMS é apresentada na seção [Definição de um roteamento de SMS](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
+Se esse campo estiver vazio, será usado o número de origem fornecido na conta externa. Se nenhum número de origem for fornecido, o código curto será usado. A conta externa específica da entrega de SMS é apresentada na seção [Definição de um roteamento de SMS](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 
 ![](assets/sms_creation_8.png)
 

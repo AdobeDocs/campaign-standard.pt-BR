@@ -10,7 +10,7 @@ level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
 source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
 workflow-type: tm+mt
-source-wordcount: '2471'
+source-wordcount: '2523'
 ht-degree: 1%
 
 ---
@@ -162,7 +162,7 @@ As medidas de proteção a seguir devem ser consideradas ao planejar a utilizaç
 
   Ao estimar o volume geral de chamadas do mecanismo do Campaign, é importante considerar outras fontes de chamadas do mecanismo, incluindo páginas de aterrissagem, WebApps, JSSP, APIs, registros de aplicativos móveis etc.
 
-  Veja as informações do pacote do Adobe Campaign Standard aqui: [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)
+  Veja as informações do pacote do Adobe Campaign Standard aqui: [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/br/legal/product-descriptions/campaign-standard.html)
 
 * A integração oferece suporte a um máximo de 15 milhões de registros totais para a sincronização inicial com os recursos no Campaign. A sincronização incremental é limitada pelo pacote do Adobe Campaign Standard.
 

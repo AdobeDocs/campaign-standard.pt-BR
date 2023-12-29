@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1757'
-ht-degree: 93%
+source-wordcount: '1765'
+ht-degree: 90%
 
 ---
 
@@ -45,7 +45,7 @@ A atividade **[!UICONTROL Query]** pode ser usada para várias finalidades:
 1. Selecione e abra a atividade usando o botão ![](assets/edit_darkgrey-24px.png) das ações rápidas exibidas. Por padrão, a atividade é pré-configurada para procurar perfis.
 1. Se você quiser executar um query em um recurso diferente do perfil, vá para a guia **[!UICONTROL Properties]** da atividade e selecione um **[!UICONTROL Resource]** e um **[!UICONTROL Targeting dimension]**.
 
-   O **[!UICONTROL Resource]** permite refinar os filtros exibidos na paleta, enquanto o **[!UICONTROL Targeting dimension]**, contextual em relação ao recurso selecionado, corresponde ao tipo de população que você gostaria de obter (perfis identificados, deliveries, dados vinculados ao recurso selecionado, etc.).
+   O **[!UICONTROL Resource]** permite refinar os filtros exibidos na paleta, enquanto o **[!UICONTROL Targeting dimension]**, contextual em relação ao recurso selecionado, corresponde ao tipo de população que você gostaria de obter (perfis identificados, entregas, dados vinculados ao recurso selecionado, etc.).
 
    Para saber mais, consulte [Targeting dimensions e recursos](#targeting-dimensions-and-resources).
 
@@ -67,9 +67,9 @@ A atividade **[!UICONTROL Query]** pode ser usada para várias finalidades:
 
 1. Confirme a configuração da sua atividade e salve o fluxo de trabalho.
 
-## Targeting dimensions e recursos {#targeting-dimensions-and-resources}
+## Dimensões e recursos de direcionamento {#targeting-dimensions-and-resources}
 
-Os targeting dimensions e os recursos permitem definir em quais elementos um query se baseará para determinar o público alvo de um delivery.
+Os targeting dimensions e os recursos permitem definir em quais elementos um query se baseará para determinar o público alvo de uma entrega.
 
 Eles são configurados em [target mappings](../../administration/using/target-mappings-in-campaign.md), e são definidos ao criar um workflow, na **[!UICONTROL Properties]** de uma atividade Query.
 

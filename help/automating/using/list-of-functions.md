@@ -10,8 +10,8 @@ level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 95%
+source-wordcount: '2011'
+ht-degree: 93%
 
 ---
 
@@ -497,7 +497,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>AllNonNull3</strong><br /> </td> 
    <td> Indica se todos os parâmetros são não nulos e não estão vazios<br /> </td> 
-   <td> AllNonNull3(string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> </td> 
+   <td> AllNonNull3()&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ASCII</strong><br /> </td> 
@@ -507,7 +507,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>Char</strong><br /> </td> 
    <td> Retorna o caractere correspondente ao código ASCII 'n'<br /> </td> 
-   <td> Char(&lt;número&gt;)<br /> </td> 
+   <td> Char(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Charindex</strong><br /> </td> 
@@ -552,7 +552,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
    <td> Retorna os primeiros n caracteres da string<br /> </td> 
-   <td> Left(&lt;string&gt;, &lt;número&gt;)<br /> </td> 
+   <td> Left(&lt;string&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Length</strong><br /> </td> 
@@ -577,12 +577,12 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>MemoContains</strong><br /> </td> 
    <td> Especifica se o memorando contém a string aprovada como um parâmetro<br /> </td> 
-   <td> MemoContains(&lt;memorando&gt;, &lt;string&gt;)<br /> </td> 
+   <td> MemoContains(&lt;memo&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>RPad</strong><br /> </td> 
    <td> Retorna a string concluída à direita<br /> </td> 
-   <td> RPad(&lt;string&gt;, &lt;número&gt;, &lt;caractere&gt;)<br /> </td> 
+   <td> RPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 

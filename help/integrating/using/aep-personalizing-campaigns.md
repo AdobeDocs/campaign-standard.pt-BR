@@ -12,8 +12,8 @@ hide: true
 hidefromtoc: true
 source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 9%
+source-wordcount: '272'
+ht-degree: 6%
 
 ---
 
@@ -29,7 +29,7 @@ Assim que o workflow estiver configurado com um [Público-alvo do Adobe Experien
 
 Para fazer isso, você deve adicionar esses atributos na variável **[!UICONTROL Read audience]** atividade:
 
-1. Abra a atividade **[!UICONTROL Read audience]**. No **[!UICONTROL Additional data]** clique na guia **[!UICONTROL Create element]** botão.
+1. Abra o **[!UICONTROL Read audience]** atividade. No **[!UICONTROL Additional data]** clique na guia **[!UICONTROL Create element]** botão.
 
    Observe que **[!UICONTROL Additional data]** A guia só estará disponível depois que um público-alvo do Adobe Experience Platform for selecionado.
 
@@ -57,6 +57,6 @@ Para fazer isso, você deve adicionar esses atributos na variável **[!UICONTROL
 
 Para obter mais informações sobre como criar e personalizar deliveries, consulte a documentação do Campaign Standard:
 
-* [Introdução aos canais de comunicação](../../channels/using/get-started-communication-channels.md)
+* [Descobrir canais de comunicação](../../channels/using/get-started-communication-channels.md)
 * [Sobre as atividades de canal](../../automating/using/about-channel-activities.md)
-* [Personalização de deliveries](../../designing/using/personalization.md)
+* [Personalização de entregas](../../designing/using/personalization.md)

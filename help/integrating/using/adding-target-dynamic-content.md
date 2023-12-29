@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 38%
+source-wordcount: '406'
+ht-degree: 31%
 
 ---
 
@@ -28,7 +28,7 @@ Antes de acessar a imagem no Adobe Campaign, as seguintes tarefas devem ser exec
 * Criar um [Experience Composer baseado em formulário](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html) atividade, na qual você precisa selecionar um rawbox e especificar várias experiências, dependendo do número de ofertas de redirecionamento criadas. Para cada experiência, você deve selecionar uma das ofertas de redirecionamento criadas.
 * Crie segmentos usando informações do Adobe Campaign para especificar experiências. Para usar dados do Adobe Campaign nas regras de seleção da oferta, especifique os dados no rawbox no Adobe Target.
 
-1. Crie um delivery de email
+1. Crie uma entrega de email
 1. Ao editar o conteúdo de um email ou de uma landing page, vá para um bloco de imagem e selecione **[!UICONTROL Dynamic image from Adobe Target]** no menu contextual.
 
    ![](assets/tar_insert_dynamic_image.png)
@@ -39,7 +39,7 @@ Antes de acessar a imagem no Adobe Campaign, as seguintes tarefas devem ser exec
 
 1. Insira o nome do rawbox especificado no Adobe Target.
 1. Se você usar permissões do Enterprise em suas configurações no Adobe Target, adicione a propriedade correspondente nesse campo. Saiba mais sobre as permissões do Target Enterprise [nesta página](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=pt-BR). Este campo é opcional e não é necessário se você não usar permissões do Enterprise no Target.
-1. Em **[!UICONTROL Additional decision parameters]**, especifique o mapeamento entre os campos definidos nos segmentos do Adobe Target e os campos do Adobe Campaign.
+1. Entrada **[!UICONTROL Additional decision parameters]**, especifique o mapeamento entre os campos definidos nos segmentos do Adobe Target e os campos do Adobe Campaign.
 
    Os campos do Adobe Campaign usados devem ter sido especificados no rawbox. Neste exemplo, defina experiências diferentes dependendo do gênero do recipient.
 

@@ -101,9 +101,9 @@ Tecnicamente, todos os dados vinculados ao titular dos dados com `integrity="own
 
 Como controlador de dados, você tem a opção de personalizar este processo alterando a integridade dos links definidos nos esquemas de dados (por exemplo, caso tenha uma justificativa comercial para não excluir determinados dados).
 
-**O que acontece com os relatórios quando os logs de delivery e de rastreamento são excluídos?**
+**O que acontece com os relatórios quando os logs de entrega e de rastreamento são excluídos?**
 
-Os relatórios do Adobe Campaign são baseados em indicadores computados em dados agregados de delivery e logs de rastreamento. Como resultado, a remoção de logs individuais não deve afetar as métricas exibidas nos relatórios.
+Os relatórios do Adobe Campaign são baseados em indicadores computados em dados agregados de entrega e logs de rastreamento. Como resultado, a remoção de logs individuais não deve afetar as métricas exibidas nos relatórios.
 
 ## Reimportar dados {#re-import-data}
 

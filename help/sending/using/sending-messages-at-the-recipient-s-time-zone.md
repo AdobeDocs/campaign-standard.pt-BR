@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 48f222bd-9c2f-4eeb-a12b-bbfc62119024
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '377'
 ht-degree: 88%
 
 ---
@@ -21,18 +21,18 @@ Ao gerenciar uma campanha na qual a data e a hora são importantes, você pode a
 
 >[!NOTE]
 >
->Para usar essa funcionalidade, verifique se todos os perfis direcionados pelo delivery têm um fuso horário especificado na seção **[!UICONTROL Address]** de suas propriedades. Para obter mais informações sobre o acesso às propriedades dos perfis, consulte esta [seção](../../audiences/using/editing-profiles.md).
+>Para usar essa funcionalidade, verifique se todos os perfis direcionados pela entrega têm um fuso horário especificado na seção **[!UICONTROL Address]** de suas propriedades. Para obter mais informações sobre o acesso às propriedades dos perfis, consulte esta [seção](../../audiences/using/editing-profiles.md).
 
-Para enviar um delivery no fuso horário do recipient, você também pode usar a atividade **[!UICONTROL Scheduler]** em um fluxo de trabalho. Para obter mais informações, consulte esta [página](../../automating/using/scheduler.md).
+Para enviar uma entrega no fuso horário do recipient, você também pode usar a atividade **[!UICONTROL Scheduler]** em um fluxo de trabalho. Para obter mais informações, consulte esta [página](../../automating/using/scheduler.md).
 
 No exemplo a seguir, queremos enviar um código promocional válido somente no Dia dos namorados para todos os clientes no mundo todo. Para que haja tempo suficiente para usá-lo durante o dia, todos os clientes devem receber a mensagem em 14 de fevereiro, às 8h, dependendo de seus fusos horários.
 
-1. Na guia **[!UICONTROL Marketing activities]**, comece criando o delivery, no nosso caso, um email. Para saber mais sobre a criação de email, consulte esta [seção](../../channels/using/creating-an-email.md).
-1. Depois de criar o email Dia dos namorados, clique em **[!UICONTROL Create]** para acessar o painel do delivery. Para obter mais informações sobre design de email, consulte esta [página](../../designing/using/personalization.md#example-email-personalization).
+1. Na guia **[!UICONTROL Marketing activities]**, comece criando a entrega, no nosso caso, um email. Para saber mais sobre a criação de email, consulte esta [seção](../../channels/using/creating-an-email.md).
+1. Depois de criar o email Dia dos namorados, clique em **[!UICONTROL Create]** para acessar o painel da entrega. Para obter mais informações sobre design de email, consulte esta [página](../../designing/using/personalization.md#example-email-personalization).
 
    ![](assets/send-time_opt_valentine_1.png)
 
-1. No painel do delivery, selecione o bloco **[!UICONTROL Schedule]**.
+1. No painel da entrega, selecione o bloco **[!UICONTROL Schedule]**.
 
    ![](assets/send-time_opt_valentine_2.png)
 
@@ -40,17 +40,17 @@ No exemplo a seguir, queremos enviar um código promocional válido somente no D
 
    ![](assets/send-time_opt_valentine.png)
 
-1. No campo **[!UICONTROL Time zone of the contact date]**, selecione em qual fuso horário o delivery deve ser enviado por padrão.
+1. No campo **[!UICONTROL Time zone of the contact date]**, selecione em qual fuso horário a entrega deve ser enviada por padrão.
 
-   Se um **[!UICONTROL Time zone]** do perfil for deixado como **[!UICONTROL Default]**, os recipients receberão o delivery dependendo do fuso horário escolhido aqui.
+   Se um **[!UICONTROL Time zone]** do perfil for deixado como **[!UICONTROL Default]**, os recipients receberão a entrega dependendo do fuso horário escolhido aqui.
 
 1. No menu suspenso **[!UICONTROL Optimize the sending time per recipient]**, escolha **[!UICONTROL Send at the recipient's time zone]**. Assim, os recipients receberão o email do Dia dos namorados no dia 14 de fevereiro, dependendo do fuso horário.
 
    ![](assets/send-time_opt_valentine_3.png)
 
-1. Depois de confirmar a programação do delivery, clique no botão **[!UICONTROL Prepare]** e depois **[!UICONTROL Confirm]** seu delivery.
+1. Depois de confirmar a programação da entrega, clique no botão **[!UICONTROL Prepare]** e depois **[!UICONTROL Confirm]** sua entrega.
 
-   Confirme o envio com pelo menos 24 horas de antecedência. Caso contrário, dependendo da sua localização, alguns recipients poderão receber o delivery antes do evento Dia dos namorados.
+   Confirme o envio com pelo menos 24 horas de antecedência. Caso contrário, dependendo da sua localização, alguns recipients poderão receber a entrega antes do evento Dia dos namorados.
 
    ![](assets/send-time_opt_valentine_4.png)
 

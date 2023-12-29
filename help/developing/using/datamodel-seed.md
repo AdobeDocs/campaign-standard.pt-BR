@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 50%
+source-wordcount: '183'
+ht-degree: 42%
 
 ---
 
@@ -33,20 +33,20 @@ ht-degree: 50%
                </tr>
                <tr>
                   <td>país (países)</td>
-                  <td>Country</td>
-                  <td>Link  </td>
+                  <td>País</td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>criado</td>
                   <td>Criado</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Criado por</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -76,7 +76,7 @@ ht-degree: 50%
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unidade geográfica</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -88,7 +88,7 @@ ht-degree: 50%
                <tr>
                   <td>lastModified</td>
                   <td>Última modificação</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -118,7 +118,7 @@ ht-degree: 50%
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificado por</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -142,11 +142,11 @@ ht-degree: 50%
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Entidade organizacional</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>phone</td>
+                  <td>telefone</td>
                   <td>Telefone</td>
                   <td>sequência de caracteres (32)</td>
                   <td> </td>
@@ -184,7 +184,7 @@ ht-degree: 50%
                <tr>
                   <td>stateLink (estado)</td>
                   <td>Estado</td>
-                  <td>Link  </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -272,6 +272,6 @@ Perfil de teste (perfil)
     </tr>
     <tr>
     <td>seedMember</td>
-    <td>Link </td>
+    <td>link</td>
     </tr>
 </table>

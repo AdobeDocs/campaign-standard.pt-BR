@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 5%
+source-wordcount: '817'
+ht-degree: 1%
 
 ---
 
@@ -34,7 +34,7 @@ Esta é uma representação visual da interação dos perfis com o email enviado
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>Day</strong> <br /> </th> 
+   <th align="center"> <strong>Dia</strong> <br /> </th> 
    <th align="center"> <strong>Aberturas</strong> <br /> </th> 
    <th align="center"> <strong>Aberturas únicas</strong> <br /> </th> 
   </tr> 
@@ -69,7 +69,7 @@ Isso resultará na seguinte tabela:
  </thead> 
  <tbody> 
   <tr> 
-   <td align="center"> <strong> Day </strong><br /> </td> 
+   <td align="center"> <strong> Dia </strong><br /> </td> 
    <td align="center"> <strong> 6 </strong><br /> </td> 
    <td align="center"> <strong> 2</strong><br /> </td>
   </tr> 
@@ -117,7 +117,7 @@ Os relatórios devem ter a seguinte aparência:
  <thead> 
   <tr> 
    <th align="center"> <strong>Entrega</strong> <br /> </th> 
-   <th align="center"> <strong>Sent</strong> <br /> </th> 
+   <th align="center"> <strong>Enviado</strong> <br /> </th> 
    <th align="center"> <strong>Entregue</strong> <br /> </th>
    <th align="center"> <strong>Aberturas</strong> <br /> </th> 
    <th align="center"> <strong>Aberturas únicas</strong> <br /> </th>

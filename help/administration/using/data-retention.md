@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
 source-git-commit: 4d67d1d0239c7439cc1f4b8e1fd7fb2f7a99adec
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 13%
+source-wordcount: '194'
+ht-degree: 10%
 
 ---
 
@@ -34,4 +34,4 @@ Abaixo estão os períodos de retenção padrão para tabelas padrão. Sempre qu
 * **Entidades temporárias**: 7 dias
 * **Eventos de pipeline ignorados**: 1 mês
 * **Alertas de entrega**: 1 mês
-* **Auditoria de exportação**: 6 meses (recomendado: 1 mês)
+* **Exportar auditoria**: 6 meses (recomendado: 1 mês)

@@ -12,7 +12,7 @@ exl-id: 75b64c43-f066-45e7-8d61-95eba8f52b05
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -53,7 +53,7 @@ Para enviar provas, siga estas etapas:
 1. Selecione o tipo de prova que deseja usar:
 
    * **[!UICONTROL Email rendering]**: selecione essa opção para testar a maneira com que sua mensagem é recebida de acordo com as caixas de entrada segmentadas. Para mais informações, consulte [Renderização de email](../../sending/using/email-rendering.md).
-   * **[!UICONTROL Proof]**: selecione essa opção para testar a mensagem antes de enviá-la para o público alvo principal. Os recipients de prova são responsáveis pela aprovação do delivery, verificando o conteúdo e o formato.
+   * **[!UICONTROL Proof]**: selecione essa opção para testar a mensagem antes de enviá-la para o público alvo principal. Os recipients de prova são responsáveis pela aprovação da entrega, verificando o conteúdo e o formato.
    * **[!UICONTROL Proof + Email rendering]**: essa opção combina as duas opções anteriores.
 
    ![](assets/bat_select1.png)
@@ -76,9 +76,9 @@ Para enviar provas, siga estas etapas:
 
    ![](assets/bat_view2.png)
 
-Dependendo dos comentários das pessoas que recebem a prova, talvez você tenha que modificar o conteúdo do delivery. Após realizar as modificações, é necessário reiniciar a preparação do email e, em seguida, reenviar uma prova. Cada nova prova pode ser acessada usando o botão **[!UICONTROL Show proofs]**.
+Dependendo dos comentários das pessoas que recebem a prova, talvez você tenha que modificar o conteúdo da entrega. Após realizar as modificações, é necessário reiniciar a preparação do email e, em seguida, reenviar uma prova. Cada nova prova pode ser acessada usando o botão **[!UICONTROL Show proofs]**.
 
-Você precisa enviar quantas provas forem necessárias até concluir o conteúdo do seu delivery. Finalizada essa etapa, você poderá enviar o delivery para o público alvo principal e fechar o ciclo de aprovação.
+Você precisa enviar quantas provas forem necessárias até concluir o conteúdo da sua entrega. Finalizada essa etapa, você poderá enviar a entrega para o público alvo principal e fechar o ciclo de aprovação.
 
 ## Configuração da linha de assunto da prova {#configuring-proofs-subject-line}
 

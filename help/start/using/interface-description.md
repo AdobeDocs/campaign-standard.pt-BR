@@ -10,7 +10,7 @@ level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
 source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1261'
 ht-degree: 77%
 
 ---
@@ -95,7 +95,7 @@ O ícone **[!UICONTROL Marketing plans]** fornece acesso às seguintes funcional
 * **[!UICONTROL Timeline]** - para obter mais informações, consulte a seção [Linha do tempo](../../start/using/timeline.md).
 * **[!UICONTROL Transactional messages]**, que contêm os submenus **[!UICONTROL Deliveries]** e **[!UICONTROL Event configuration]** - para obter mais informações, consulte a seção [Mensagens transacionais](../../channels/using/getting-started-with-transactional-msg.md).
 
-### Perfis e públicos-alvo {#profiles-e-audiences}
+### Perfis e públicos {#profiles-e-audiences}
 
 O ícone **[!UICONTROL Profiles & audiences]** fornece acesso às seguintes funcionalidades:
 

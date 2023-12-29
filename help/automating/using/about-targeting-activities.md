@@ -11,7 +11,7 @@ exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 58%
+ht-degree: 40%
 
 ---
 
@@ -48,11 +48,11 @@ A seção **[!UICONTROL Targeting]** inclui as seguintes atividades:
 
 ## Segmentação de dados {#segmenting-data}
 
-O Adobe Campaign permite processar conjuntos em dados de entrada. Dessa forma, é possível combinar várias populações, excluir parte delas ou manter apenas dados comuns a vários públicos-alvo.
+O Adobe Campaign permite processar conjuntos em dados de entrada. Dessa forma, é possível combinar várias populações, excluir parte delas ou manter apenas dados comuns a vários targets.
 
-* A atividade **[!UICONTROL Union]** permite reagrupar o resultado de várias atividades em um único público-alvo. Consulte a seção [União](../../automating/using/union.md).
-* A atividade **[!UICONTROL Intersection]** permite manter somente os elementos comuns aos diferentes preenchimentos de entrada na atividade. Consulte a seção [Interseção](../../automating/using/intersection.md).
-* A atividade **[!UICONTROL Exclusion]** permite excluir elementos de uma população de acordo com determinados critérios. Consulte a [Exclusão](../../automating/using/exclusion.md) seção.
+* A variável **[!UICONTROL Union]** A atividade permite reagrupar o resultado de várias atividades em um único público-alvo. Consulte a seção [União](../../automating/using/union.md).
+* A variável **[!UICONTROL Intersection]** A atividade de permite manter somente os elementos comuns aos diferentes preenchimentos de entrada na atividade. Consulte a seção [Interseção](../../automating/using/intersection.md).
+* A variável **[!UICONTROL Exclusion]** A atividade permite excluir elementos de uma população de acordo com determinados critérios. Consulte a [Exclusão](../../automating/using/exclusion.md) seção.
 * A atividade **[!UICONTROL Segmentation]** permite criar um ou vários segmentos com base em uma população calculada pelas atividades incluídas anteriormente no fluxo de trabalho. No final da atividade, eles podem ser processados em uma única transição ou em transições diferentes. Consulte a [Segmentação](../../automating/using/segmentation.md) seção.
 
 ## Enriquecimento de dados {#enriching-data}

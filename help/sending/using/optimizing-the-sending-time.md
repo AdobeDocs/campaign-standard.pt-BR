@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: f35b46c6-de88-4efa-b3b7-8bb9024e40a8
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '275'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Para melhorar a taxa de abertura das mensagens, é possível definir manualmente uma hora de envio por recipient. Cada perfil receberá a mensagem na data e hora especificadas, sempre que possível.
 
-A definição de um tempo de envio pode ser feita em nível de delivery ou usando um workflow.
+A definição de um tempo de envio pode ser feita em nível de entrega ou usando um workflow.
 
 Para emails, dependendo da carga do servidor e da quantidade de tentativas, será feito o melhor esforço para enviar a mensagem na data e hora agendadas para cada recipient.
 

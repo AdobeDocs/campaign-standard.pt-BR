@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
 source-git-commit: 2d3ef53d5ea5603d90da169366be6ea516d96823
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 67%
+source-wordcount: '756'
+ht-degree: 61%
 
 ---
 
@@ -54,7 +54,7 @@ O modo de personalização de um conteúdo de mensagem depende do tipo de mensag
 * Os dados contidos no evento são a fonte das informações de personalização. Consulte [Configuração de mensagem transacional baseada em eventos](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
 * Você **não é possível** use **[!UICONTROL Unsubscription link]** blocos de conteúdo em uma mensagem transacional de evento.
 * As mensagens transacionais baseadas em evento só devem usar os dados contidos no evento enviado para definir o recipient e a personalização do conteúdo da mensagem. No entanto, você pode enriquecer o conteúdo da mensagem transacional usando informações do banco de dados do Adobe Campaign. Consulte [Enriquecimento de um evento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) e [Personalização de uma mensagem transacional](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
-* Como as mensagens transacionais de evento não contêm informações sobre perfis, elas não são compatíveis com as regras de fadiga, até mesmo no caso de um enriquecimento com perfis.
+* Como as mensagens transacionais de evento não contêm informações sobre perfis, elas não são compatíveis com as regras de fadiga, mesmo no caso de um enriquecimento com perfis.
 
 ### Mensagens transacionais baseadas em perfil
 

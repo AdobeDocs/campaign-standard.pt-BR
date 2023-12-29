@@ -12,7 +12,7 @@ exl-id: 239959ad-6386-42bf-a86a-5694cdaecd83
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 74%
+ht-degree: 70%
 
 ---
 
@@ -24,7 +24,7 @@ Os públicos-alvo podem ser definidos ao criar a mensagem com o assistente de cr
 
 >[!NOTE]
 >
->Se o público-alvo tiver sido criado em um fluxo de trabalho e enriquecido com dados adicionais, você não poderá usar esses dados para personalizar um delivery independente. Eles só poderão ser usados de um delivery executado em um fluxo de trabalho.
+>Se o público-alvo tiver sido criado em um fluxo de trabalho e enriquecido com dados adicionais, você não poderá usar esses dados para personalizar uma entrega independente. Eles só poderão ser usados de uma entrega executado em um fluxo de trabalho.
 
 1. No painel, acesse o bloco de públicos-alvo para iniciar.
 
@@ -39,7 +39,7 @@ Os públicos-alvo podem ser definidos ao criar a mensagem com o assistente de cr
 
 1. Defina o **[!UICONTROL Target]** principal do email. Ele é o público-alvo normal do email.
 
-   O target é definido na guia **[!UICONTROL Target]** e é composto de perfis identificados do banco de dados. Você pode estabelecer seu público-alvo principal usando as funcionalidades do [Editor de consultas](../../automating/using/editing-queries.md#creating-queries).
+   O target é definido na variável **[!UICONTROL Target]** e é composto de perfis identificados do banco de dados. Você pode estabelecer seu público-alvo principal usando as funcionalidades do [Editor de consultas](../../automating/using/editing-queries.md#creating-queries).
 
    Nessa guia, a paleta **[!UICONTROL Shortcuts]** contém apenas os filtros predefinidos e os públicos-alvo que foram definidas nos perfis identificados. A guia **[!UICONTROL Explorer]** permite acessar configurações adicionais.
 

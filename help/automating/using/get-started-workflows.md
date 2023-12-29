@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
 source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 38%
+source-wordcount: '548'
+ht-degree: 35%
 
 ---
 
@@ -29,7 +29,7 @@ Um fluxo de trabalho também pode envolver usuários atribuindo tarefas ou fazen
 
 Os workflows podem ser usados em contextos diferentes, por exemplo:
 
-* Direcionamento para gerenciar públicos ou enviar mensagens.
+* Direcionamento para gerenciar públicos-alvo ou enviar mensagens.
 * Gerenciamento de dados (ETL) para manipular dados.
 * Importação de dados para o banco de dados do Campaign.
 * Processos técnicos, como limpeza do banco de dados, recuperação de informações de rastreamento etc.

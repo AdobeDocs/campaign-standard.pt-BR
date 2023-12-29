@@ -1,5 +1,5 @@
 ---
-title: Práticas recomendadas para delivery de campanhas
+title: Práticas recomendadas para entrega de campanhas
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
@@ -12,13 +12,13 @@ exl-id: ba080b64-9106-4d5b-958b-3c5e738cb42a
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 53%
+ht-degree: 38%
 
 ---
 
-# Práticas recomendadas de delivery {#delivery-best-practices}
+# Práticas recomendadas de entrega {#delivery-best-practices}
 
-Conheça as práticas recomendadas relacionadas ao design e envio com o Adobe Campaign. Use os links abaixo para navegar pelos tópicos e encontrar orientação.
+Conheça as práticas recomendadas relacionadas ao design da entrega e envio com o Adobe Campaign. Use os links abaixo para navegar pelos tópicos e encontrar orientação.
 
 <img src="assets/do-not-localize/optimize.svg"  width="60px">
 
@@ -46,7 +46,7 @@ Conheça as práticas recomendadas relacionadas ao design e envio com o Adobe Ca
 
 ## Conteúdo relacionado
 
-* [Introdução à capacidade de delivery](../../sending/using/about-deliverability.md)
+* [Introdução à capacidade de entrega](../../sending/using/about-deliverability.md)
 
 * [Introdução a mensagens](../../channels/using/get-started-communication-channels.md)
 

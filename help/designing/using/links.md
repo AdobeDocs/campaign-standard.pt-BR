@@ -11,7 +11,7 @@ exl-id: d1714101-bad0-40c1-8d60-90469d033197
 source-git-commit: 146dfea38bd456a5d9200b0632d4aa279b10a7b9
 workflow-type: tm+mt
 source-wordcount: '592'
-ht-degree: 15%
+ht-degree: 8%
 
 ---
 
@@ -59,7 +59,7 @@ Depois que o link for criado, você ainda poderá modificá-lo no painel Configu
 
 ![](assets/des_link_edit.png)
 
-Ao editar um email com a [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), você pode acessar e modificar facilmente os links criados na tabela que lista todos os URLs incluídos no email. Essa lista oferece uma visualização centralizada, permitindo localizar cada URL no conteúdo do email. Para acessá-lo, consulte [Sobre URLs rastreados](#about-tracked-urls).
+Ao editar um email com a [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), você pode acessar e modificar facilmente os links criados na tabela que lista todos os URLs incluídos no email. Essa lista permite ter uma visualização centralizada e localizar cada URL no conteúdo de email. Para acessá-lo, consulte [Sobre URLs rastreados](#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 
@@ -93,8 +93,8 @@ Para cada URL rastreado, é possível definir o modo de rastreamento para um des
 
 * **Rastreado**: ativa o rastreamento nesse URL.
 * **Mirror page**: considera esse URL como sendo de mirror page.
-* **Never**: nunca ativa o rastreamento desse URL. Essas informações são salvas: se o URL aparecer novamente em uma mensagem futura, o rastreamento será desativado automaticamente.
-* **Opt-out**: considera esse URL como recusa ou cancelamento de subscrição.
+* **Nunca**: nunca ativa o rastreamento desse URL. Essas informações são salvas: se o URL aparecer novamente em uma mensagem futura, o rastreamento será desativado automaticamente.
+* **Opção de não participação**: considera esse URL como recusa ou cancelamento de subscrição.
 
 ![](assets/des_link_tracking_type.png)
 

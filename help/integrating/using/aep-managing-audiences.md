@@ -13,8 +13,8 @@ hide: true
 hidefromtoc: true
 source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 3%
+source-wordcount: '381'
+ht-degree: 2%
 
 ---
 
@@ -64,7 +64,7 @@ Para criar um público-alvo do Adobe Experience Platform diretamente no Campaign
 
 O público-alvo agora está pronto para ser ativado, você pode usá-lo como um target para suas campanhas (consulte [Direcionamento de públicos da Adobe Experience Platform](../../integrating/using/aep-targeting-audiences.md)).
 
-## Edição de públicos-alvo
+## Edição de públicos
 
 Para editar um público-alvo, abra-o e modifique as regras conforme necessário na interface do Construtor de segmentos (consulte [Uso do Construtor de segmentos](../../integrating/using/aep-using-segment-builder.md)).
 

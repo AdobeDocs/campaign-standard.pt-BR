@@ -9,8 +9,8 @@ level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 76%
+source-wordcount: '1259'
+ht-degree: 73%
 
 ---
 
@@ -26,8 +26,8 @@ Os administradores técnicos podem definir uma ou várias marcas para centraliza
 
 O princípio principal de configurar e usar marcas é:
 
-1. Criar e configurar a marca - essa operação requer permissões específicas e é feita pelo administrador técnico do Adobe Campaign. As etapas para obter uma nova marca no Campaign são detalhadas [nesta seção](#creating-a-brand).
-1. Criar um ou vários modelos de delivery e de landing pages para esta marca. Consulte a seção [Criação de um modelo](../../start/using/marketing-activity-templates.md).
+1. Criar e configurar a marca - essa operação requer permissões específicas e é realizada pelo administrador técnico da Adobe Campaign. As etapas para obter uma nova marca no Campaign são detalhadas [nesta seção](#creating-a-brand).
+1. Criar um ou vários modelos de entrega e de landing pages para esta marca. Consulte a seção [Criação de um modelo](../../start/using/marketing-activity-templates.md).
 1. Criar mensagens e landing pages com base nesse modelo. Consulte as seções [Criação de emails](../../channels/using/creating-an-email.md) e [Criação de uma landing page](../../channels/using/designing-a-landing-page.md).
 
 >[!IMPORTANT]
@@ -70,8 +70,8 @@ Uma **Marca** é definida pelas seguintes características:
   ![](assets/configure_branding_04.png)
 
    * **URL externo do servidor de aplicativos** usado para hospedar e acessar as diferentes landing pages criadas por você.
-   * **URL externo do servidor de rastreamento** usado como o URL rastreado durante os deliveries.
-   * **URL externo do servidor de mirror pages** usado como mirror page padrão em seus deliveries.
+   * **URL externo do servidor de rastreamento** usado como o URL rastreado durante as entregas.
+   * **URL externo do servidor de mirror pages** usado como mirror page padrão em suas entregas.
 
   >[!NOTE]
   >
@@ -109,9 +109,9 @@ Você pode adicionar novas entidades da organização no Campaign ou criar um no
 
 ## Atribuição de uma marca a um email {#assigning-a-brand-to-an-email}
 
-### Associação de uma marca a um modelo {#linking-a-brand-to-a-template}
+### Vincular uma marca a um modelo {#linking-a-brand-to-a-template}
 
-Para usar os parâmetros definidos para uma marca, ele deve estar vinculado a um template do delivery ou de landing page. Para fazer isso, é necessário criar ou editar um template.
+Para usar os parâmetros definidos para uma marca, ele deve estar vinculado a um template da entrega ou de landing page. Para fazer isso, é necessário criar ou editar um template.
 
 >[!NOTE]
 >
@@ -139,7 +139,7 @@ Depois que o modelo for criado, você pode vinculá-lo a uma marca. Para fazer i
 
 O modelo está vinculado à marca. No editor de email, elementos como **Endereço de email do remetente padrão**, **Nome do remetente padrão** ou **logotipo** usarão os dados da marca configurada.
 
-### Caso de uso de identidade visual {#branding-use-case}
+### Caso de uso de marca {#branding-use-case}
 
 Neste exemplo, vamos criar uma nova marca relacionada a viagens e usá-la em um email.
 
@@ -163,9 +163,9 @@ A marca foi criada e configurada corretamente. Ela agora pode ser usada pelas eq
 
 #### Etapa 2: implementar uma nova marca {#implement-a-new-brand}
 
-Como gerente de delivery, você é responsável pela criação dos templates de delivery para usar a nova marca. Para fazer isso, siga as etapas abaixo:
+Como gerente de entrega, você é responsável pela criação dos templates de entrega para usar a nova marca. Para fazer isso, siga as etapas abaixo:
 
-1. No menu avançado **[!UICONTROL Resources > Templates > Delivery templates]**, duplique um template incorporado para configurar um novo template do delivery.
+1. No menu avançado **[!UICONTROL Resources > Templates > Delivery templates]**, duplique um template incorporado para configurar um novo template da entrega.
 
    ![](assets/branding_08.png)
 
@@ -178,7 +178,7 @@ Como gerente de delivery, você é responsável pela criação dos templates de 
 
    ![](assets/branding_10.png)
 
-   Agora você pode usar o template do delivery para criar emails que serão enviados para um público.
+   Agora você pode usar o template da entrega para criar emails que serão enviados para um público.
 
 #### Etapa 3: usar a nova marca em um delivery {#use-the-new-brand-in-a-delivery}
 

@@ -10,14 +10,14 @@ level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
 source-git-commit: 75628ed8a2f9b21def23e5b257a3592e1a721536
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 56%
+source-wordcount: '1103'
+ht-degree: 47%
 
 ---
 
 # Recursos preditivos de engajamento do usuário {#journey-ai}
 
-Com o Campaign, você pode otimizar o design e o delivery de jornadas de clientes para prever a preferência de engajamento de cada pessoa. Alimentada por IA e aprendizado de máquina, a Otimização de tempo de envio e a Pontuação preditiva de engajamento da Adobe Campaign podem analisar e prever taxas abertas, tempos de envio ideais e churn provável de acordo com métricas de engajamento histórico.
+Com o Campaign, você pode otimizar o design e a entrega de jornadas de clientes para prever a preferência de engajamento de cada pessoa. Alimentada por IA e aprendizado de máquina, a Otimização de tempo de envio e a Pontuação preditiva de engajamento da Adobe Campaign podem analisar e prever taxas abertas, tempos de envio ideais e churn provável de acordo com métricas de engajamento histórico.
 
 >[!IMPORTANT]
 >
@@ -35,11 +35,11 @@ A Otimização preditiva de tempo de envio prevê qual é o melhor momento de en
 
 No modelo de Otimização preditiva de tempo de envio, há dois submodelos:
 
-* **O tempo preditivo de envio para abrir é o melhor horário para o envio da comunicação ao cliente para maximizar as aberturas**
+* **Tempo preditivo de envio para abertura** é a melhor hora para enviar uma comunicação ao cliente para maximizar as aberturas
 
-* **O tempo preditivo de envio para cliques é o melhor horário para o envio de uma comunicação ao cliente para maximizar os cliques**
+* **Tempo preditivo de envio para clique** é a melhor hora para enviar uma comunicação ao cliente para maximizar os cliques
 
-**Entrada do modelo**: Logs do delivery, logs de rastreamento e atributos de perfil (não PII)
+**Entrada do modelo**: Logs da entrega, logs de rastreamento e atributos de perfil (não PII)
 
 **Saída do modelo**: Melhor horário para o envio de uma mensagem (para aberturas e cliques)
 
@@ -84,7 +84,7 @@ Para que os emails sejam enviados no horário ideal por perfil, o delivery deve 
 
 Saiba como calcular a data de envio [nesta seção](../../sending/using/computing-the-sending-date.md).
 
-A fórmula precisa ser preenchida com o melhor horário específico do dia em que o delivery for lançado.
+A fórmula precisa ser preenchida com o melhor horário específico do dia em que a entrega for lançada.
 
 ![](assets/do-not-localize/ComputeSendingDate.png)
 
@@ -122,11 +122,11 @@ Este modelo usa várias pontuações para indicar:
 
 >[!NOTE]
 >
->Esses recursos preditivos se aplicam apenas para deliveries de email.
+>Esses recursos preditivos se aplicam apenas para entregas de email.
 >
 >O modelo precisa de pelo menos um mês de dados para produzir resultados significativos.
 
-**Entrada do modelo**: Logs do delivery, logs de rastreamento e atributos específicos do perfil
+**Entrada do modelo**: Logs da entrega, logs de rastreamento e atributos específicos do perfil
 
 **Saída do modelo**: Um atributo de perfil que descreve a pontuação e a categoria do perfil
 

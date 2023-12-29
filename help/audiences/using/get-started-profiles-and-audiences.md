@@ -1,5 +1,5 @@
 ---
-title: Introdução a perfis e públicos
+title: Introdução a perfis e públicos-alvo
 description: Defina populações direcionadas, selecione públicos, filtre destinatários, colete dados e atualize perfis.
 audience: audiences
 content-type: reference
@@ -10,12 +10,12 @@ level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 25%
+source-wordcount: '591'
+ht-degree: 14%
 
 ---
 
-# Introdução a perfis e públicos{#about-profiles-and-audiences}
+# Introdução a perfis e públicos-alvo{#about-profiles-and-audiences}
 
 <table>
 <tr>
@@ -85,7 +85,7 @@ Privacidade e consentimento no Campaign e como gerenciá-los são apresentados e
 
 ## Recursos adicionais
 
-* [Assimilar públicos da Adobe Experience Platform no Campaign](../../integrating/using/ingest-aep-data.md)
+* [Assimilar públicos-alvos da Adobe Experience Platform no Campaign](../../integrating/using/ingest-aep-data.md)
 * [Trabalhar com o Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Públicos compartilhados do Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Uso de workflows para importar perfis](../../automating/using/creating-import-workflow-templates.md)

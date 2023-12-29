@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1026'
 ht-degree: 7%
 
 ---
@@ -49,9 +49,9 @@ Você pode programar isso usando um workflow.
 
      Para os segmentos restantes, defina os próximos lotes da seguinte maneira:
 
-      * **2017-06-03 10:00:00+01**
-      * **2017-06-04 10:00:00+01**
-      * **2017-06-05 10:00:00+01**
+      * **03-06-2017 10:00:00+01**
+      * **04-06-2017 10:00:00+01**
+      * **05/06/2017 10:00:00+01**
 
    * Selecione o **[!UICONTROL Limit the population of this segment]** opção.
 

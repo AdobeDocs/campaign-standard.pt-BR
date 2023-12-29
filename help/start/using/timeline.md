@@ -12,7 +12,7 @@ exl-id: d012e2e7-8022-4bfe-8290-3c512b60d9cf
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -48,11 +48,11 @@ Quando o conteúdo de um programa ou de uma campanha é exibido, a caixa corresp
 Cada elemento tem um ícone que corresponde ao seu tipo:
 
 * ![](assets/timeline_program_icon.png) Programa
-* ![](assets/timeline_campaign_icon.png) Campanha
+* ![](assets/timeline_campaign_icon.png) Campaign
 * ![](assets/timeline_lp_icon.png) Landing page
-* ![](assets/timeline_email_icon.png) Email
+* ![](assets/timeline_email_icon.png) E-mail
 * ![](assets/timeline_sms_icon.png) SMS
-* ![](assets/timeline_push_icon.png) Notificações por push
+* ![](assets/timeline_push_icon.png) Notificação por push
 
 A linha colorida na borda esquerda de cada caixa indica o status do elemento em questão.
 

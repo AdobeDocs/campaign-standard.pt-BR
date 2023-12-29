@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
 source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 85%
+source-wordcount: '1170'
+ht-degree: 77%
 
 ---
 
@@ -54,7 +54,7 @@ Você pode usar essa atividade para recuperar dados que serão estruturados com 
    * [Armazenamento do Microsoft Azure Blob](#azure-blob-configuration-wf)
    * [Arquivos presentes no servidor do Adobe Campaign](#files-server-configuration-wf)
 
-1. A seção **[!UICONTROL Additional options]**, disponível dependendo do protocolo selecionado, permite que adicionar parâmetros ao seu protocolo.
+1. A variável **[!UICONTROL Additional options]** , disponível dependendo do protocolo selecionado, permite adicionar parâmetros ao seu protocolo.
 
    Você pode:
 
@@ -151,7 +151,7 @@ Metacaracteres ou curingas (por exemplo, &#42; ou ?) para filtrar arquivos.
 Escolha se deseja **[!UICONTROL Define a file path]** ou **[!UICONTROL Use a dynamic file path]**.
 A opção **[!UICONTROL Use a dynamic file path]** permite usar uma expressão padrão e variáveis de eventos para personalizar o nome do arquivo a ser transferido. Para obter mais informações, consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md).
 
-Observe que o caminho deve ser relativo ao diretório do espaço de armazenamento do servidor do Adobe Campaign. Os arquivos estão localizados no diretório **sftp&lt;yourinstancename>/**. Você também não pode pesquisar os diretórios acima do espaço de armazenamento.
+Observe que o caminho deve ser relativo ao diretório do espaço de armazenamento do servidor do Adobe Campaign. Os arquivos estão localizados no diretório **sftp&lt;yourinstancename>/**. Você também não pode navegar pelos diretórios acima do espaço de armazenamento.
 
 Por exemplo:
 

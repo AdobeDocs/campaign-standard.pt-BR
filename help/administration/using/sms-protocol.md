@@ -8,8 +8,8 @@ level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '8650'
-ht-degree: 86%
+source-wordcount: '8640'
+ht-degree: 85%
 
 ---
 
@@ -48,7 +48,7 @@ Ao enviar SMS em massa por um provedor SMS, você encontrará três tipos difere
 
 * **SMS MO (Originado por dispositivo móvel)**: um SMS enviado por um dispositivo móvel para o Adobe Campaign por meio do provedor SMPP.
 
-* **SMS SR (Relatório de status) ou DR ou DLR (Recibo de delivery)**: um recibo de retorno enviado pelo dispositivo móvel ao Adobe Campaign por meio do provedor SMPP, indicando que o SMS foi recebido com êxito. O Adobe Campaign também pode receber um SR indicando que a mensagem não pôde ser entregue, geralmente com uma descrição do erro.
+* **SMS SR (Relatório de status) ou DR ou DLR (Recibo de entrega)**: um recibo de retorno enviado pelo dispositivo móvel ao Adobe Campaign por meio do provedor SMPP, indicando que o SMS foi recebido com êxito. O Adobe Campaign também pode receber um SR indicando que a mensagem não pôde ser entregue, geralmente com uma descrição do erro.
 
 Você precisa distinguir entre confirmações (RESP PDU, parte do protocolo SMPP) e SR: SR é um tipo de SMS que é enviado através da rede de ponta a ponta, enquanto uma confirmação é apenas para indicar que uma transferência foi bem-sucedida.
 
@@ -124,7 +124,7 @@ Cada seção abaixo descreve a PDU e sua resposta síncrona (`*_RESP PDU`). Toda
 
 As PDUs podem ter campos opcionais. Somente os campos mais comuns são descritos aqui. Consulte a especificação [SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) para obter mais informações.
 
-#### BIND_TRANSMITTER / BIND_RECEIVER / BIND_TRANSCEIVER {#bind-transmitter}
+#### BIND_TRANSMISSOR / BIND_RECEIVER / BIND_TRANSCEIVER {#bind-transmitter}
 
 Esta PDU é usada para iniciar uma conexão com o SMSC. **Os modos Transmissor**, **Receptor** e **Transceptor** só mudam o tipo de SMS que pode ser transferido através dessa conexão, especificamente:
 
@@ -150,7 +150,7 @@ Campos de destaque em `BIND_* PDU`:
 
 #### DESVINCULAR {#unbind}
 
-Essa PDU deve ser enviada pelo sistema antes da desconexão. Deve aguardar a `UNBIND_RESP PDU` correspondente antes de fechar a conexão.
+Essa PDU deve ser enviada pelo sistema antes da desconexão. Deve aguardar a correspondência `UNBIND_RESP PDU` antes de fechar a conexão.
 
 A conformidade com o SMSC não deve fechar a conexão. A conexão TCP é controlada pelo conector do Adobe Campaign.
 
@@ -160,11 +160,11 @@ Essa PDU envia um MT ao SMSC. A PDU de resposta fornece a ID do MT.
 
 Campos de destaque em `SUBMIT_SM PDU`:
 
-* **service_type**: exigido por alguns provedores. Definido nas propriedades do delivery.
+* **service_type**: exigido por alguns provedores. Definido nas propriedades da entrega.
 
 * **source_addr_ton** e **source_addr_npi**: indica que tipo de endereço de origem é transmitido. O significado desses campos é padronizado, mas como alguns provedores o usam de forma diferente, você deve solicitar ao provedor o valor correto. Definido na conta externa.
 
-* **source_addr**: o endereço de origem/oADC do MT. Será exibido no telefone celular. Definido na conta externa e no delivery, o valor no delivery tem precedência sobre o valor da conta externa.
+* **source_addr**: o endereço de origem/oADC do MT. Será exibido no telefone celular. Definido na conta externa e na entrega, o valor na entrega tem precedência sobre o valor da conta externa.
 
 * **dest_addr_ton** e **dest_addr_npi**: indica que tipo de endereço de destino é transmitido (por exemplo, formato local ou internacional). O significado desses campos é padronizado, mas como alguns provedores o usam de forma diferente, você deve solicitar ao provedor o valor correto. Definido na conta externa.
 
@@ -172,9 +172,9 @@ Campos de destaque em `SUBMIT_SM PDU`:
 
 * **esm_class**: usado para informar se UDH é usado ou não no campo de texto. Ativado automaticamente pelo conector para SMS dividido se o modo `message_payload` não for usado.
 
-* **priority_flag**: prioridade dessa mensagem sobre outras. É ligado à prioridade do próprio delivery.
+* **priority_flag**: prioridade dessa mensagem sobre outras. É ligado à prioridade da própria entrega.
 
-* **valid_period**: carimbo de data e hora após o qual nenhuma nova tentativa deve ser feita. Definido no próprio delivery.
+* **valid_period**: carimbo de data e hora após o qual nenhuma nova tentativa deve ser feita. Definido na própria entrega.
 
 * **registered_delivery**: informa se um SR é solicitado ou não. O Adobe Campaign sempre define esse sinalizador, exceto para respostas automáticas. Para mensagens de várias partes, o sinalizador é definido somente para a primeira parte. Todas as versões têm o mesmo comportamento.
 
@@ -184,7 +184,7 @@ Campos de destaque em `SUBMIT_SM PDU`:
 
 O Adobe Campaign é compatível com estes campos opcionais:
 
-* **dest_addr_subunit**: usado para especificar o target do SMS: flash, dispositivo móvel ou cartão SIM. Definido nas propriedades do delivery.
+* **dest_addr_subunit**: usado para especificar o target do SMS: flash, dispositivo móvel ou cartão SIM. Definido nas propriedades da entrega.
 
 * **message_payload**: quando ativado na conta externa, mensagens longas serão enviadas em uma única PDU, e o texto será transmitido nesse campo, em vez do campo `short_message`.
 
@@ -236,7 +236,7 @@ O SMS multiparte, ou SMS longo, consiste em um SMS enviado em várias partes. De
 
 Cada parte de uma mensagem longa é um SMS individual. Essas partes viajam independentemente na rede e são montadas pelo telefone celular receptor. Para lidar com tentativas e problemas de conectividade, o Adobe Campaign envia essas partes em ordem inversa e solicita um SR somente na primeira parte da mensagem, a última enviada. Como o telefone celular só exibe uma mensagem quando a primeira parte é recebida, as tentativas de partes adicionais não produzem duplicatas no telefone celular.
 
-O número máximo de SMS por mensagem pode ser definido por delivery usando a configuração **Número máximo de SMS por mensagem** no **Template do delivery**. As mensagens que ultrapassarem esse limite terão falha durante o envio, com o motivo de falha de SMS muito longo.
+O número máximo de SMS por mensagem pode ser definido por entrega usando a configuração **Número máximo de SMS por mensagem** no **Template da entrega**. As mensagens que ultrapassarem esse limite terão falha durante o envio, com o motivo de falha de SMS muito longo.
 
 Há duas maneiras de enviar SMS longos:
 
@@ -381,7 +381,7 @@ Define a conexão em **transceptor** ou em separado **transmissor+receptor** mod
 
 #### Nome da implementação SMSC {#smsc-implementation-name}
 
-Define o nome da implementação SMSC. Ele deve ser definido com o nome do seu provedor. Entre em contato com o administrador ou com a equipe de avaliação do delivery para saber o que adicionar a esse campo. A função desse campo é descrita na seção [Gerenciamento de erro do SR](../../administration/using/sms-protocol.md#sr-error-management).
+Define o nome da implementação SMSC. Ele deve ser definido com o nome do seu provedor. Entre em contato com o administrador ou com a equipe de capacidade de entrega para saber o que adicionar a esse campo. A função desse campo é descrita na seção [Gerenciamento de erro do SR](../../administration/using/sms-protocol.md#sr-error-management).
 
 #### Servidor {#server}
 
@@ -456,13 +456,13 @@ Quando ativado, o MO recebido será armazenado na tabela inSMS do banco de dados
 
 #### Ativar atualizações de KPI em tempo real durante o processamento de SR {#real-time-kpi}
 
-Quando ativados, os KPIs serão atualizados em tempo real na página principal do delivery ao receber o SR do erro.
+Quando ativados, os KPIs serão atualizados em tempo real na página principal da entrega ao receber o SR do erro.
 
-A desvantagem pode ser o baixo desempenho devido à contenção do banco de dados gerado. Se desativadas, as estatísticas são atualizadas pelo fluxo de trabalho **syncformexec**, em execução a cada 20 minutos.
+A desvantagem pode ser o baixo desempenho devido à contenção do banco de dados gerado. Se desabilitadas, as estatísticas são atualizadas pelo fluxo de trabalho **syncformexec** , em execução a cada 20 minutos.
 
 #### Número de origem {#source-number}
 
-Define o endereço de origem padrão das mensagens. Essa configuração só será aplicada se o número de origem for deixado vazio no delivery.
+Define o endereço de origem padrão das mensagens. Essa configuração só será aplicada se o número de origem for deixado vazio na entrega.
 
 Por padrão, o campo de número de origem não é transmitido. Portanto, o provedor o substituirá pelo código curto.
 
@@ -500,8 +500,7 @@ Exemplo de uma transmissão com uma janela máxima de 4:
 
 ![](assets/do-not-localize/sms_protocol_2.png)
 
-A janela ajuda a aumentar o rendimento quando o link da rede tem uma latência alta.  O valor da janela deve ser pelo menos o número de SMS/s multiplicado pela latência do link
-em segundos, para que o conector nunca aguarde um `SUBMIT_SM_RESP` antes de enviar a próxima mensagem.
+A janela ajuda a aumentar o rendimento quando o link da rede tem uma latência alta.  O valor da janela deve ser pelo menos o número de SMS/s multiplicado pela latência do link em segundos, para que o conector nunca aguarde um `SUBMIT_SM_RESP` antes de enviar a próxima mensagem.
 Se a janela for muito grande, você poderá enviar mais mensagens duplicadas em caso de problemas de conexão. Além disso, a maioria dos provedores tem um limite muito restrito para a janela e recusa mensagens que ultrapassam o limite.
 
 Como calcular a fórmula ideal da janela de envio:
@@ -623,7 +622,7 @@ Por exemplo, ao definir como 2:
 
 * Esse recurso destina-se a liberar buffers SR no provedor quando o SR inválido bloqueia legitimamente o processamento de mensagens.
 
-Definir esse campo como 0 desativa o mecanismo no qual a **ID da Mensagem inválida** é sempre retornada. Esse é um comportamento normal.
+Definir esse campo como 0 desabilita o mecanismo no qual a **ID da Mensagem inválida** é sempre retornada. É um comportamento normal.
 
 Definir esse campo como 1 faz com que o conector sempre responda &quot;OK&quot;, mesmo que a ID seja inválida. Isso deve ser definido como 1 somente sob supervisão, para solução de problemas e pelo período mínimo, por exemplo, para se recuperar de um problema do provedor.
 
@@ -693,7 +692,7 @@ Se essa opção for ativada, poderá ocorrer uma falha de segurança muito peque
 
 **Tag de ID de serviço**
 
-Permite adicionar um TLV personalizado. Esse campo define a parte da tag. O valor pode ser personalizado por delivery no valor **ID de serviço ou programa** nos parâmetros avançados do delivery.
+Permite adicionar um TLV personalizado. Esse campo define a parte da tag. O valor pode ser personalizado por entrega no valor **ID de serviço ou programa** nos parâmetros avançados da entrega.
 
 Essa configuração permite adicionar apenas uma opção TLV por mensagem.
 
@@ -739,7 +738,7 @@ O campo é limitado a 21 caracteres pela especificação SMPP, mas alguns proved
 
 #### Número máximo de SMS por mensagem {#maximum-sms}
 
-Essa configuração só funcionará se a configuração **Carga da mensagem** estiver desativada. Para obter mais informações sobre essas operações, consulte esta [página](../../administration/using/configuring-sms-channel.md). Se a mensagem exigir mais SMS do que esse valor, um erro será acionado.
+Essa configuração só funcionará se a configuração **Carga da mensagem** estiver desabilitada. Para obter mais informações, consulte esta [página](../../administration/using/configuring-sms-channel.md). Se a mensagem exigir mais SMS do que esse valor, um erro será acionado.
 
 O protocolo SMS limita o SMS a 255 partes, mas alguns telefones celulares têm dificuldade em reunir mensagens longas com mais de 10 partes. O limite depende do modelo exato. Recomendamos que você não exceda cinco partes por mensagem.
 
@@ -835,13 +834,13 @@ Mesmo se você não conseguir verificar os registros sozinho, será mais fácil 
 Se você precisar enviar SMS com caracteres não GSM ou não ASCII, tente enviar algumas mensagens com o maior número possível de caracteres diferentes. Se você configurar uma tabela de mapeamento de caracteres personalizada, envie pelo menos um SMS para todos os possíveis `data_coding` valores.
 
 * **Verifique se o SR está corretamente processado**
-O SMS deve ser marcado como recebido no log de delivery. O log de delivery deve ser bem-sucedido e ter a seguinte aparência:
+O SMS deve ser marcado como recebido no log de entregas. O log de entrega deve ser bem-sucedido e ter a seguinte aparência:
   `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
-Verifique se você alterou o nome do provedor de delivery. O registro de delivery nunca deve conter **SR genérico** em ambientes de produção.
+Verifique se você alterou o nome do provedor de entrega. O registro de entrega nunca deve conter **SR genérico** em ambientes de produção.
 
 * **Verifique se o MO é processado**
 Se você precisar processar o MO (respostas automáticas, armazenamento de MO no banco de dados etc.) tente fazer alguns testes. Envie alguns SMS para todas as palavras-chave de resposta automática e verifique se a resposta é rápida o suficiente, não mais do que alguns segundos.
-Verifique no log se o Adobe Campaign responde com êxito `DELIVER_SM_RESP` (command_status=0).
+Verifique no log se a Adobe Campaign responde com êxito `DELIVER_SM_RESP` (command_status=0).
 
 ### Verificar as PDUs {#check-pdus}
 

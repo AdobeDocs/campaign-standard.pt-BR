@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '788'
 ht-degree: 100%
 
 ---
@@ -102,7 +102,7 @@ O Adobe Campaign oferece a capacidade de gerenciar os direitos atribuídos aos v
 
 Um dos benefícios é permitir a gestão da decisão sobre quem poderá acessar os diferentes tipos de dados na empresa. Por exemplo, é possível ter diferentes profissionais de marketing que cubram diversas regiões e cada um deles só poderá acessar os dados da sua região geográfica.
 
-Da mesma forma, essa funcionalidade também permite a configuração de diferentes recursos para cada usuário, como limitar quem pode enviar os deliveries, ou algo mais relevante para o Gerenciamento de privacidade, como quem pode alterar ou exportar dados.
+Da mesma forma, essa funcionalidade também permite a configuração de diferentes recursos para cada usuário, como limitar quem pode enviar as entregas, ou algo mais relevante para o Gerenciamento de privacidade, como quem pode alterar ou exportar dados.
 
 ![](assets/privacy-user-management.png)
 

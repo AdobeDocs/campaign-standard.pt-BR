@@ -11,7 +11,7 @@ exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
 source-wordcount: '1239'
-ht-degree: 88%
+ht-degree: 84%
 
 ---
 
@@ -65,7 +65,7 @@ Acesse opções e configurações genéricas na **Barra de ferramentas** princip
 
 A **barra de ferramentas Contextual** da interface do editor oferece várias funcionalidades dependendo da zona selecionada. Ela contém botões de ação e botões que permitem alterar o estilo do texto. As modificações efetuadas aplicam-se sempre à zona selecionada.
 
-### Home page do Designer de email {#email-designer-home-page}
+### Página inicial do Designer de email {#email-designer-home-page}
 
 Ao [criar um email](../../channels/using/creating-an-email.md), a **[!UICONTROL Email Designer]** home page é exibida automaticamente a partir da seleção do conteúdo do email.
 
@@ -91,7 +91,7 @@ Se você não selecionar um modelo, a página inicial do Designer de email tamb�
 
 ## Terminologia {#terminology}
 
-**Modelos**: os modelos são estruturas de email que podem ser criadas e reutilizadas para vários deliveries.
+**Modelos**: os modelos são estruturas de email que podem ser criadas e reutilizadas para várias entregas.
 
 **Fragmentos**: um fragmento é um componente reutilizável que pode ser referenciado em um ou mais emails.
 
@@ -99,7 +99,7 @@ Se você não selecionar um modelo, a página inicial do Designer de email tamb�
 
 **Componentes do conteúdo**: os componentes do conteúdo são componentes brutos e vazios que podem ser editados depois de colocados no email.
 
-## Práticas recomendadas de criação de conteúdo {#content-design-best-practices}
+## Práticas recomendadas de design de conteúdo {#content-design-best-practices}
 
 Para fazer o uso correto do Designer de email e criar os melhores emails da maneira mais simples possível, recomendamos a aplicação dos seguintes princípios:
 
@@ -119,7 +119,7 @@ Para fazer o uso correto do Designer de email e criar os melhores emails da mane
 
 * A meta tag do referenciador não tem suporte no Designer de email.
 
-Mais práticas recomendadas gerais e de criação relacionadas às mensagens são apresentadas no seguinte guia passo a passo do Adobe Campaign: [Práticas recomendadas do delivery com o Adobe Campaign](../../sending/using/delivery-best-practices.md).
+Mais práticas recomendadas gerais e de criação relacionadas às mensagens são apresentadas no seguinte guia passo a passo do Adobe Campaign: [Práticas recomendadas de entrega com o Adobe Campaign](../../sending/using/delivery-best-practices.md).
 
 ### Atualização de fragmentos {#email-designer-updates}
 
@@ -143,7 +143,7 @@ Quanto aos fragmentos, observe o seguinte:
 
 * A atualização de fragmentos usados em emails já preparados não afeta esses emails.
 
-## Limitações do Designer de email {#email-designer-limitations}
+## Limitações do Email Designer {#email-designer-limitations}
 
 * Não é possível usar campos de personalização em um fragmento. Para obter mais informações sobre fragmentos, consulte [esta seção](../../designing/using/using-reusable-content.md#about-fragments).
 
@@ -167,4 +167,4 @@ Este vídeo fornece uma visão geral do Designer de email.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-Para começar a usar o Designer de email, assista a esse [conjunto de vídeos](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) que explicam a funcionalidade geral do Designer de email e como projetar um email do zero ou utilizando modelos
+Para começar a usar o Designer de email, assista a isso [conjunto de vídeos](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) que explicam a funcionalidade geral do Designer de email e como projetar um email do zero ou usando modelos

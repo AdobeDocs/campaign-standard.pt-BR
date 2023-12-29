@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1764'
-ht-degree: 80%
+source-wordcount: '1720'
+ht-degree: 78%
 
 ---
 
@@ -62,7 +62,7 @@ Para uma conta externa SFTP, forneça os seguintes detalhes:
 * Número da porta. Por exemplo, **22**.
 * Credenciais do servidor SFTP: nome da conta e senha usados para a conexão com o servidor.
 
-### Recomendações para servidores SFTP hospedados pela Adobe {#adobe-hosted-sftp-server-recommendations}
+### Recomendações para servidores SFTP hospedados no Adobe {#adobe-hosted-sftp-server-recommendations}
 
 Ao gerenciar arquivos e dados para fins de ETL, esses arquivos são armazenados em um servidor SFTP hospedado fornecido pela Adobe. Este SFTP foi projetado para ser um espaço de armazenamento temporário no qual você pode controlar a retenção e exclusão de arquivos.
 

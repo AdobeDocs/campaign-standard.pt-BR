@@ -12,7 +12,7 @@ exl-id: f611e023-f74c-476e-83b9-aff451f68c81
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 38%
+ht-degree: 33%
 
 ---
 
@@ -28,7 +28,7 @@ Você pode enviar uma oferta por email no aniversário da criação do perfil do
 
 1. Entrada **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, arraste e solte uma [Scheduler](../../automating/using/scheduler.md) atividade.
 1. Clique duas vezes na atividade.
-1. Configure a execução do delivery.
+1. Configure a execução da entrega.
 1. Em **[!UICONTROL Execution frequency]**, selecione **[!UICONTROL Daily]**.
 1. Selecione um **[!UICONTROL Time]** e a variável **[!UICONTROL Repetition frequency]** de execução do seu fluxo de trabalho.
 1. Selecione um **[!UICONTROL Start]** data e **[!UICONTROL Expiration]** para o seu workflow.

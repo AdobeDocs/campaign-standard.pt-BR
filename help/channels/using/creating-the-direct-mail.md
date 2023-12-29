@@ -1,6 +1,6 @@
 ---
 title: Criação de correspondência direta
-description: Siga estas etapas para criar um delivery de correspondência direta no Adobe Campaign.
+description: Siga estas etapas para criar uma entrega de correspondência direta no Adobe Campaign.
 audience: channels
 content-type: reference
 topic-tags: direct-mail
@@ -11,20 +11,20 @@ level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
 source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '637'
 ht-degree: 88%
 
 ---
 
 # Criação de correspondência direta{#creating-the-direct-mail}
 
-A criação de um delivery de correspondência direta é muito semelhante à criação de um email comum. As etapas a seguir descrevem a configuração específica para esse canal. Consulte [Criar um email](../../channels/using/creating-an-email.md) para obter mais informações sobre outras opções.
+A criação de uma entrega de correspondência direta é muito semelhante à criação de um email comum. As etapas a seguir descrevem a configuração específica para esse canal. Consulte [Criar um email](../../channels/using/creating-an-email.md) para obter mais informações sobre outras opções.
 
 >[!NOTE]
 >
 >Você também pode adicionar uma atividade de correspondência direta em um workflow. Para mais informações, consulte o Guia [Fluxos de trabalho](../../automating/using/direct-mail-delivery.md).
 
-1. Crie um novo delivery de correspondência direta. Você pode criar um na [home page](../../start/using/interface-description.md#home-page)do Adobe Campaign, em uma [campanha](../../start/using/marketing-activities.md#creating-a-marketing-activity) ou em uma [lista de atividades de marketing](../../start/using/programs-and-campaigns.md#creating-a-campaign).
+1. Crie uma nova entrega de correspondência direta. Você pode criar um na [home page](../../start/using/interface-description.md#home-page)do Adobe Campaign, em uma [campanha](../../start/using/marketing-activities.md#creating-a-marketing-activity) ou em uma [lista de atividades de marketing](../../start/using/programs-and-campaigns.md#creating-a-campaign).
 
    ![](assets/direct_mail_1.png)
 
@@ -32,7 +32,7 @@ A criação de um delivery de correspondência direta é muito semelhante à cri
 
    ![](assets/direct_mail_2.png)
 
-1. Insira as propriedades gerais do delivery.
+1. Insira as propriedades gerais da entrega.
 
    ![](assets/direct_mail_3.png)
 
@@ -54,11 +54,11 @@ A criação de um delivery de correspondência direta é muito semelhante à cri
 
    ![](assets/direct_mail_5.png)
 
-1. Clique na seção **[!UICONTROL Schedule]** do painel de delivery para definir a data de contato. Para correspondência direta, a data de contato é obrigatória. Para obter mais informações, consulte [Agendar o envio](../../sending/using/about-scheduling-messages.md).
+1. Clique na seção **[!UICONTROL Schedule]** do painel de entrega para definir a data de contato. Para correspondência direta, a data de contato é obrigatória. Para obter mais informações, consulte [Agendar o envio](../../sending/using/about-scheduling-messages.md).
 
    ![](assets/direct_mail_8.png)
 
-1. Se você tiver adicionado perfis de teste (consulte [Adicionar perfis de teste e trap](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)), será possível testar o delivery antes de preparar o arquivo final. O teste permite criar um arquivo de amostra contendo apenas os perfis de teste selecionados.
+1. Se você tiver adicionado perfis de teste (consulte [Adicionar perfis de teste e trap](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)), será possível testar a entrega antes de preparar o arquivo final. O teste permite criar um arquivo de amostra contendo apenas os perfis de teste selecionados.
 
    Clique em **[!UICONTROL Test]** para gerar o arquivo de amostra. Clique em **[!UICONTROL Summary]**, no canto superior esquerdo e selecione **[!UICONTROL Proofs]**. Na parte esquerda da tela, selecione a prova e clique em **[!UICONTROL Download file]**.
 
@@ -68,7 +68,7 @@ A criação de um delivery de correspondência direta é muito semelhante à cri
 
    ![](assets/direct_mail_19.png)
 
-1. Depois de definir o conteúdo do delivery, o público-alvo e a data de contato, clique no botão **[!UICONTROL Prepare]** no painel do delivery.
+1. Depois de definir o conteúdo da entrega, o público-alvo e a data de contato, clique no botão **[!UICONTROL Prepare]** no painel da entrega.
 
    ![](assets/direct_mail_16.png)
 
@@ -90,11 +90,11 @@ A criação de um delivery de correspondência direta é muito semelhante à cri
    >
    >A função **[!UICONTROL Export]** é necessária para permitir que o Adobe Campaign exporte o arquivo e o disponibilize para download. Entre em contato com o administrador.
 
-   Se precisar alterar o conteúdo do delivery, basta clicar no botão **[!UICONTROL Regenerate file]** para levar a alteração em consideração. Não há necessidade de passar pela preparação novamente.
+   Se precisar alterar o conteúdo da entrega, basta clicar no botão **[!UICONTROL Regenerate file]** para levar a alteração em consideração. Não há necessidade de passar pela preparação novamente.
 
    ![](assets/direct_mail_21.png)
 
-1. Para confirmar que o arquivo é final, clique em **[!UICONTROL Confirm]** no painel do delivery.
+1. Para confirmar que o arquivo é final, clique em **[!UICONTROL Confirm]** no painel da entrega.
 
    ![](assets/direct_mail_20.png)
 

@@ -12,8 +12,8 @@ hide: true
 hidefromtoc: true
 source-git-commit: 376f00576ca1d0dfb536b29dbf25d88f7c93b9a8
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 6%
+source-wordcount: '706'
+ht-degree: 3%
 
 ---
 
@@ -31,7 +31,7 @@ O Conector de dados do Adobe Experience Platform é destinado a **engenheiros de
 
 As seções a seguir descrevem as principais etapas para executar um mapeamento de dados entre o Campaign Standard e o Adobe Experience Platform. Isso começa com a criação de um esquema XDM e um conjunto de dados.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Conheça este recurso no vídeo](#video)
 
 >[!NOTE]
 >Depois que o Conector de dados do Adobe Experience Platform estiver configurado e os dados forem assimilados com êxito na Adobe Experience Platform, será necessário ativar o conjunto de dados para que os dados sejam incluídos no Perfil do cliente em tempo real.

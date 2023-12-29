@@ -11,7 +11,7 @@ exl-id: a903d7e2-7654-46b3-bc61-4653a065faad
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 14%
+ht-degree: 13%
 
 ---
 
@@ -23,7 +23,7 @@ Informações específicas sobre como criar e configurar cada canal de comunica�
 
 * [Criação de um email](../../channels/using/creating-an-email.md)
 * [Criação de um SMS](../../channels/using/creating-an-sms-message.md)
-* [Criação de um delivery de mala direta](../../channels/using/creating-the-direct-mail.md)
+* [Criação de uma entrega de correspondência direta](../../channels/using/creating-the-direct-mail.md)
 * [Criação de uma notificação por push](../../channels/using/preparing-and-sending-a-push-notification.md).
 * [Preparação e envio de uma mensagem no aplicativo](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
@@ -39,7 +39,7 @@ As mensagens podem ser criadas na lista de atividades de marketing ou em um work
 
 ![](assets/steps-channel.png)
 
-## Definir o público
+## Definir o público-alvo
 
 Defina os recipients da mensagem. Para fazer isso, use o [editor de consulta](../../automating/using/editing-queries.md) no painel esquerdo, para filtrar os dados contidos no banco de dados e criar regras para direcionar o público-alvo.
 

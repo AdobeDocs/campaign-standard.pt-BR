@@ -1,5 +1,5 @@
 ---
-title: Definir o público correto
+title: Definir o público-alvo correto
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
@@ -12,7 +12,7 @@ exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 75%
+ht-degree: 71%
 
 ---
 
@@ -26,11 +26,11 @@ Saiba mais sobre as populações de públicos-alvos [nesta seção](../../audien
 
 Quando seu conteúdo estiver pronto, será necessário definir com cuidado quem receberá sua mensagem.
 
-Para que seu delivery seja bem-sucedido, o conteúdo personalizado mais relevante deve ser enviado aos recipients corretos. O Adobe Campaign permite criar o público mais preciso: você pode selecionar os recipients de acordo com a idade, localização, o que compraram, se clicaram em um link em um delivery anterior, etc. Com o Adobe Campaign, também é possível definir perfis de teste, grupos de controle e endereços de seed para verificar se o público-alvo está correto.
+Para que sua entrega seja bem-sucedida, o conteúdo personalizado mais relevante deve ser enviado aos recipients corretos. O Adobe Campaign permite criar o público mais preciso: você pode selecionar os recipients de acordo com a idade, localização, o que compraram, se clicaram em um link em uma entrega anterior, etc. Com o Adobe Campaign, também é possível definir perfis de teste, grupos de controle e endereços de seed para verificar se o público-alvo está correto.
 
 ## Direcionar mapeamentos {#target-mappings}
 
-Por padrão, templates de delivery têm como target **Perfis**. O Adobe Campaign oferece outros target mappings para seus deliveries, que podem ser modificados conforme suas necessidades.
+Por padrão, templates de delivery têm como target **Perfis**. O Adobe Campaign oferece outros target mappings para suas entregas, que podem ser modificados conforme suas necessidades.
 
 Esses mapeamentos são apresentados [nesta seção](../../automating/using/query.md#targeting-dimensions-and-resources).
 
@@ -38,7 +38,7 @@ Você também pode criar e usar um target mapping personalizado. Para obter mais
 
 ## Dados externos {#external-data}
 
-Você pode enviar deliveries para destinatários armazenados em um arquivo externo em vez de salvos no banco de dados. Para fazer isso, crie um fluxo de trabalho que carregará dados em seu banco de dados a partir de um arquivo e criará um público-alvo associado.  Saiba mais [neste caso de uso](../../automating/using/use-case-calling-workflow.md). Consulte também [Chamada de fluxo de trabalho com parâmetros](../../automating/using/calling-a-workflow-with-external-parameters.md).
+Você pode enviar entregas para destinatários armazenados em um arquivo externo em vez de salvos no banco de dados. Para fazer isso, crie um fluxo de trabalho que carregará dados em seu banco de dados a partir de um arquivo e criará um público-alvo associado.  Saiba mais [neste caso de uso](../../automating/using/use-case-calling-workflow.md). Consulte também [Chamada de fluxo de trabalho com parâmetros](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 ## Enviar para os assinantes {#send-to-subscribers}
 
@@ -48,7 +48,7 @@ Para enviar mensagens aos assinantes de um informativo, é possível direcionar 
 
 ## Provas, perfis de teste e grupos de controle {#proofs-test-control-groups}
 
-Para testar seu delivery, use provas antes de enviar para o público-alvo principal.
+Para testar seu delivery, use provas antes de enviar para o target principal.
 Selecione os recipients de prova apropriados, porque eles validam a forma e o conteúdo da mensagem. As etapas para enviar provas são apresentadas [nesta seção](../../sending/using/sending-proofs.md).
 
 Saiba mais sobre perfis de teste [nesta seção](../../audiences/using/managing-test-profiles.md).

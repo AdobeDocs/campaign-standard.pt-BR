@@ -11,14 +11,14 @@ level: Intermediate
 exl-id: b207dc73-03dc-4f25-95e5-573e4b4bce54
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 86%
+source-wordcount: '480'
+ht-degree: 81%
 
 ---
 
 # Personalização de um email com dados adicionais {#example--personalizing-an-email-with-additional-data}
 
-O exemplo a seguir ilustra a adição de diferentes tipos de dados adicionais a um query e o uso de cada um deles como campo de personalização em um email. Para obter mais informações sobre como enriquecer os dados direcionados por um **[!UICONTROL Query]** atividade, consulte [nesta seção](../../automating/using/query.md#enriching-data).
+O exemplo a seguir ilustra a adição de diferentes tipos de dados adicionais a um query e seu uso como um campo de personalização em um email. Para obter mais informações sobre como enriquecer os dados direcionados por um **[!UICONTROL Query]** atividade, consulte [nesta seção](../../automating/using/query.md#enriching-data).
 
 Neste exemplo, são usados [recursos personalizados](../../developing/using/data-model-concepts.md):
 
@@ -54,7 +54,7 @@ O fluxo de trabalho é apresentado da seguinte forma:
 
    ![](assets/enrichment_example5.png)
 
-1. Adicionar um [Entrega de email](../../automating/using/email-delivery.md) atividade. No conteúdo do email, insira os campos de personalização correspondentes aos dados calculados no query. Você pode encontrá-los no link **[!UICONTROL Additional data (targetData)]** do explorador de campos de personalização.
+1. Adicionar um [Entrega de email](../../automating/using/email-delivery.md) atividade. No conteúdo do email, insira os campos de personalização correspondentes aos dados calculados no query. Você pode encontrá-los no link **[!UICONTROL Additional data (targetData)]** do explorer de campos de personalização.
 
    ![](assets/enrichment_example3.png)
 

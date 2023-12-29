@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
 source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 4%
+source-wordcount: '841'
+ht-degree: 3%
 
 ---
 
@@ -108,7 +108,7 @@ As notificações por push podem ser enviadas para um público selecionado no Ad
    ![](assets/push_send_7.png)
 
 1. Clique agora em **[!UICONTROL Confirm]** para enviar notificações por push.
-1. Verifique o status do delivery no painel de mensagens e logs. Para obter mais informações, consulte [Envio de mensagens](../../sending/using/confirming-the-send.md) e [Logs de entrega](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+1. Verifique o status da entrega no painel de mensagens e logs. Para obter mais informações, consulte [Envio de mensagens](../../sending/using/confirming-the-send.md) e [Logs de entrega](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
    Neste exemplo, o painel de mensagens exibe que o Adobe Campaign tentou enviar duas notificações por push: uma foi entregue com êxito ao dispositivo e a outra falhou. Para saber por que o delivery tem erros, clique no link ![](assets/lp_link_properties.png) na parte inferior do **[!UICONTROL Deployment]** janela.
 
@@ -127,4 +127,4 @@ Agora você pode medir o impacto da entrega de notificações por push com relat
 **Tópicos relacionados:**
 
 * [Relatório de notificação por push](../../reporting/using/push-notification-report.md)
-* [Enviar uma notificação por push em um workflow](../../automating/using/push-notification-delivery.md)
+* [Envio de uma notificação por push em um workflow](../../automating/using/push-notification-delivery.md)

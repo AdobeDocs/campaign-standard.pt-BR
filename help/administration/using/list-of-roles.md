@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 80%
+source-wordcount: '223'
+ht-degree: 74%
 
 ---
 
@@ -31,9 +31,9 @@ Os direitos padrão são:
 
 * **[!UICONTROL Datamodel]**: Direito de executar publicações e criar recursos personalizados.
 * **[!UICONTROL Generic import]**: Direito de executar uma importação genérica nos dados. Para que isso funcione, é necessário vincular o **[!UICONTROL Generic import]** para a **[!UICONTROL Workflow]** função.
-* **[!UICONTROL Prepare deliveries]**: Direito de criar, modificar, preparar e excluir deliveries. Os usuários com essa função podem preparar o delivery, mas não podem enviá-lo.
-* **[!UICONTROL Start deliveries]**: Direito de criar, modificar, preparar, enviar e excluir o delivery.
-* **[!UICONTROL Workflow]**: Direito de gerenciar a execução de workflows (início, parada, pausa etc.). Os usuários com essa função não podem enviar um delivery mesmo em um workflow.
+* **[!UICONTROL Prepare deliveries]**: Direito de criar, modificar, preparar e excluir entregas. Os usuários com essa função podem preparar a entrega, mas não podem enviá-la.
+* **[!UICONTROL Start deliveries]**: Direito de criar, modificar, preparar, enviar e excluir a entrega.
+* **[!UICONTROL Workflow]**: Direito de gerenciar a execução de workflows (início, parada, pausa etc.). Os usuários com essa função não podem enviar uma entrega mesmo em um workflow.
 
 Para obter mais informações, consulte a tabela [Funções e permissões](/help/administration/using/assets/acs_rights.pdf), que detalha as funções disponíveis na interface, dependendo das autorizações selecionadas.
 

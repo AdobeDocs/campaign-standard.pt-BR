@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: e73e2069-e86d-4be2-bf73-22e6dc164340
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 2%
+source-wordcount: '1079'
+ht-degree: 1%
 
 ---
 
@@ -38,7 +38,7 @@ Saiba mais nestas seções:
 Saiba mais nestas seções:
 
 * [Configurar o Microsoft Dynamics 365 para integração com o Campaign](../../integrating/using/d365-acs-configure-d365.md)
-* [Configurar o Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)
+* [Configurar Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)
 * [Mapear recursos personalizados da campanha e entidades personalizadas do Microsoft Dynamics 365](../../integrating/using/d365-acs-notices-and-recommendations.md)
 
 ## Etapas principais para configurar o aplicativo de integração de autoatendimento {#self-service-app-configuration-steps}

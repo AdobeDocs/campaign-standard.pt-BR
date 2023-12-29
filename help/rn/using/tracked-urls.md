@@ -6,7 +6,7 @@ hide: true
 exl-id: 8c2725a8-2c3a-448a-8c04-c0c2a5950574
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '196'
 ht-degree: 100%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Após alterações recentes, os URLs rastreados enviados pelo Campaign podem falhar. Algumas caixas de correio podem ser mais afetadas do que outras, já que algumas empresas têm ferramentas de segurança específicas que podem afetar links e alterar o mecanismo de assinatura do URL.
 
-Como consequência, a Adobe decidiu desativar o mecanismo de assinatura para links de rastreamento. Esse procedimento corrige todos os links de rastreamento.
+Como consequência, a Adobe decidiu desabilitar o mecanismo de assinatura para links de rastreamento. Esse procedimento corrige todos os links de rastreamento.
 
 Observe que os links de unsubscription podem falhar como qualquer outro link, a frequência é variável de host para host, mas é inferior a 1%.
 
@@ -29,7 +29,7 @@ A Adobe estará trabalhando com você para atualizar sua configuração em breve
 
 **Qual é o impacto?**
 
-A manutenção requer no máximo 25 minutos de inatividade, e durante esse período todos os deliveries, links de rastreamento e chamadas de API não funcionarão.
+A manutenção requer no máximo 25 minutos de inatividade, e durante esse período todas as entregas, links de rastreamento e chamadas de API não funcionarão.
 
 Quando a atualização estiver concluída, todos os links funcionarão conforme esperado.
 

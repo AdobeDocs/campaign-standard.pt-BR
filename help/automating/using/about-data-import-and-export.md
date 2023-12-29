@@ -11,7 +11,7 @@ exl-id: 208e8629-c3e2-4f36-bae7-46ffc3f56a1b
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 24%
+ht-degree: 12%
 
 ---
 
@@ -24,7 +24,7 @@ Dependendo das suas necessidades comerciais, você tem várias maneiras de impor
 * **Fluxos de trabalho**: importe dados de arquivos e use-os para atualizar o banco de dados ou enviar emails. Você também pode selecionar dados para exportar em arquivos. Os workflows são a melhor maneira de automatizar atualizações regulares, como importações de perfis.
 
    * A atividade **[!UICONTROL Load file]** permite importar dados em um formulário estruturado para usá-los no Adobe Campaign. Os dados são temporariamente importados e outra atividade é necessária para integrá-los definitivamente ao banco de dados do Adobe Campaign. Para obter mais informações sobre como usar essa atividade, consulte [nesta seção](../../automating/using/load-file.md).
-   * A atividade **[!UICONTROL Transfer file]** permite receber ou enviar arquivos, testar se há arquivos ou listar arquivos no Adobe Campaign. Você pode usar essa atividade antes de um **[!UICONTROL Load file]** caso precise recuperar o arquivo de uma fonte externa. Para obter mais informações sobre como usar essa atividade, consulte [nesta seção](../../automating/using/transfer-file.md).
+   * A variável **[!UICONTROL Transfer file]** A atividade permite receber ou enviar arquivos, testar se há arquivos ou listar arquivos no Adobe Campaign. Você pode usar essa atividade antes de um **[!UICONTROL Load file]** caso precise recuperar o arquivo de uma fonte externa. Para obter mais informações sobre como usar essa atividade, consulte [nesta seção](../../automating/using/transfer-file.md).
 
 Ao projetar processos de importação, é uma prática recomendada usar modelos de fluxo de trabalho que você pode adaptar para atender às suas necessidades. Para obter mais informações sobre como configurar um template de workflow para importar dados, consulte [este caso de uso](../../automating/using/creating-import-workflow-templates.md).
 

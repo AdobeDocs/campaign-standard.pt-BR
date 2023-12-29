@@ -10,7 +10,7 @@ level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '493'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ Obtenha suporte usando as perguntas frequentes, as práticas recomendadas, os re
     <tr>
     <td valign="top">
         <ul>
-        <li><a href="sending/using/monitor-deliverability.md">Capacidade de delivery</a></li>
+        <li><a href="sending/using/monitor-deliverability.md">Capacidade de entrega</a></li>
         <li><a href="administration/using/aep-faq.md">Notificações por push e InApp</a></li>
         <li><a href="designing/using/faq-email-designer.md">Email Designer</a></li>
         </ul>
@@ -56,18 +56,18 @@ Obtenha suporte usando as perguntas frequentes, as práticas recomendadas, os re
         <li><a href="automating/using/best-practices-workflows.md">Práticas recomendadas de fluxo de trabalho</a></li>
         <li><a href="automating/using/about-workflow-execution.md">Monitoramento de fluxo de trabalho</a></li>
         <li><a href="sending/using/tracking-messages.md">Entender o gerenciamento de rastreamento</a></li>
-        <li><a href="sending/using/about-deliverability.md">Práticas recomendadas de capacidade de delivery</a></li>
+        <li><a href="sending/using/about-deliverability.md">Práticas recomendadas de capacidade de entrega</a></li>
         <li><a href="automating/using/creating-import-workflow-templates.md">Importar dados com workflows</a></li>
         <li><a href="sending/using/sending-messages-at-the-recipient-s-time-zone.md">Gerenciamento de fuso horário</a></li>
         <li><a href="sending/using/receiving-alerts-when-failures-happen.md">Receber uma notificação quando ocorrer uma falha</a></li>
         <li><a href="designing/using/using-existing-content.md">Importar ou converter um conteúdo de email</a></li>
-        <li><a href="sending/using/delivery-best-practices.md">Práticas recomendadas de delivery</a></li>
+        <li><a href="sending/using/delivery-best-practices.md">Práticas recomendadas de entrega</a></li>
         </ul>
     </td>
     <td valign="top">
         <ul>
         <li><a href="rn/using/release-planning.md">Atualizar para uma nova versão</a></li>
-        <li><a href="sending/using/monitoring-a-delivery.md">Monitorar um delivery</a></li>
+        <li><a href="sending/using/monitoring-a-delivery.md">Monitorar uma entrega</a></li>
         <li><a href="sending/using/understanding-quarantine-management.md">Entender o gerenciamento de quarentenas</a></li>
         <li><a href="start/using/privacy-management.md">Gestão do consentimento e da privacidade</a></li>
         <li><a href="automating/using/query.md">Criar uma query</a></li>

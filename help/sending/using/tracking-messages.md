@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
 source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 38%
+source-wordcount: '475'
+ht-degree: 34%
 
 ---
 
@@ -61,11 +61,11 @@ O rastreamento com o Adobe Campaign Standard permite acessar as seguintes funcio
 
 ## Logs de rastreamento {#tracking-logs}
 
-A guia **[!UICONTROL Tracking logs]** lista o histórico de rastreamento desse delivery. Essa guia exibe as informações de rastreamento das mensagens enviadas, como todos os URLs que foram rastreados pelo Adobe Campaign. As informações de rastreamento nesta guia são atualizadas a cada 10 minutos.
+A guia **[!UICONTROL Tracking logs]** lista o histórico de rastreamento dessa entrega. Essa guia exibe as informações de rastreamento das mensagens enviadas, como todos os URLs que foram rastreados pelo Adobe Campaign. As informações de rastreamento nesta guia são atualizadas a cada 10 minutos.
 
 >[!NOTE]
 >
->Se o rastreamento não estiver ativado para uma entrega, essa guia não será exibida. Os logs de rastreamento estão disponíveis para o **email** e **notificação por push** somente canais.
+>Se o rastreamento não estiver ativado para um delivery, essa guia não será exibida. Os logs de rastreamento estão disponíveis para o **email** e **notificação por push** somente canais.
 
 ![](assets/tracking_logs.png)
 

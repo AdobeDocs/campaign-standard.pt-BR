@@ -11,8 +11,8 @@ level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
 source-git-commit: 0e486e87c94e273442de23d6eb65c99f065e5a71
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 31%
+source-wordcount: '992'
+ht-degree: 30%
 
 ---
 
@@ -66,7 +66,7 @@ Você pode enviar uma mensagem transacional de evento para um cliente que precis
 * Personalize sua mensagem com informações de perfil adicionando um [enriquecimento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) à configuração do evento.
 * Aplicar [regras de tipologia de marketing](../../sending/using/managing-typology-rules.md) ou [regras de fadiga](../../sending/using/fatigue-rules.md).
 * Incluir o link de unsubscription nas mensagens.
-* Adicionar as mensagens transacionais aos relatórios globais do delivery.
+* Adicionar as mensagens transacionais aos relatórios globais da entrega.
 * Usar as mensagens transacionais na jornada do cliente.
 
 Por exemplo, você pode usar esse tipo de mensagem ao entrar em contato com seus clientes depois que eles abandonarem o carrinho em seu site, para incentivá-los a prosseguir com a compra. Ao fazer isso, você pode personalizar mais facilmente a mensagem com acesso direto a todas as informações do banco de dados de perfis, aplicar regras de marketing e incluir essa mensagem na jornada e nos relatórios globais do cliente para obter uma melhor visualização do comportamento do cliente.

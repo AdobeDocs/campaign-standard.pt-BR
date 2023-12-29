@@ -7,8 +7,8 @@ level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
 source-git-commit: 0ae2501b5c3ecf6dc9562bb53b5354c52aff7323
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 12%
+source-wordcount: '261'
+ht-degree: 10%
 
 ---
 
@@ -32,7 +32,7 @@ De acordo com seu contrato, cada uma das instâncias do Campaign é provisionada
 
 * Os recipients de mensagens transacionais são contados para Perfis ativos.
 
-* Um perfil que foi direcionado por vários deliveries será contado apenas uma vez.
+* Um perfil que foi direcionado por várias entregas será contado apenas uma vez.
 
 * Este relatório é apenas informativo, não tem um impacto direto na cobrança.
 

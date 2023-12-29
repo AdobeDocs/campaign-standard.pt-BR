@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 56ece9da-18ec-4d27-a637-c22709a5e6aa
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 96%
+source-wordcount: '442'
+ht-degree: 94%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 96%
 
 Os perfis de teste permitem direcionar recipients adicionais que não correspondem aos critérios de direcionamento definidos. Eles são adicionados ao público-alvo de uma mensagem para detectar qualquer uso fraudulento do seu banco de dados de recipients ou para garantir que os emails cheguem às caixas de entrada.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Conheça este recurso no vídeo](#video)
 
 Você pode gerenciar os perfis de teste no menu avançado **[!UICONTROL Profiles & audiences > Test profiles]**.
 
 Um perfil de teste contém informações de contato fictícias, ou informações de contato controladas pelo remetente, que então podem ser usadas em uma mensagem nos seguintes contextos:
 
-* Para enviar **Provas**: a Prova é uma mensagem específica usada para verificar a mensagem antes de enviar o delivery finalizado para os recipients. Um perfil de teste de Prova tem o objetivo de verificar o delivery no que diz respeito ao seu conteúdo e formato. Consulte [Enviar provas](../../sending/using/sending-proofs.md).
+* Para enviar **Provas**: a Prova é uma mensagem específica usada para verificar a mensagem antes de enviar a entrega finalizada para os recipients. Um perfil de teste de Prova tem o objetivo de verificar a entrega no que diz respeito ao seu conteúdo e formato. Consulte [Enviar provas](../../sending/using/sending-proofs.md).
 * Para **Renderização de email**: o perfil de teste Renderização de email é usado para verificar de que maneira uma mensagem é exibida, de acordo com a caixa de entrada de mensagens que a recebe. Por exemplo, webmail, serviço de mensagens, celular etc. Consulte [Renderização de email](../../sending/using/email-rendering.md).
 
   O uso da **Renderização de email** é somente leitura. Perfis de teste com esse uso só estão disponíveis para uso imediato no Adobe Campaign.

@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
 workflow-type: tm+mt
-source-wordcount: '2681'
-ht-degree: 64%
+source-wordcount: '2683'
+ht-degree: 61%
 
 ---
 
@@ -31,14 +31,14 @@ A tela de configuração de email permite definir os parâmetros do canal de ema
    * Para adicionar outro endereço, é possível usar [Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=pt-BR) para configurar um novo subdomínio ou entre em contato com a equipe de Atendimento ao cliente do Adobe. Observe que, se forem usadas várias máscaras, elas serão separadas por vírgulas.
    * É uma boa prática definir endereços usando uma estrela, como *@yourdomain.com. Ela permite que você use qualquer endereço que termine com seu nome de subdomínio.
 
-* **Avaliação do delivery**
+* **Avaliação da entrega**
 
-  A **[!UICONTROL Delivery reports ID]** é fornecida pela equipe de Atendimento ao cliente da Adobe. Ela identifica cada instância com uma ID de avaliação do delivery, usada nos relatórios técnicos de avaliação do delivery.
+  A **[!UICONTROL Delivery reports ID]** é fornecida pela equipe de Atendimento ao cliente da Adobe. Ela identifica cada instância com uma ID de avaliação da entrega, usada nos relatórios técnicos de avaliação da entrega.
   <!--The Technical Deliverability report is not accessible through the UI in ACS. It will be replaced with 250ok in the future (project starting).-->
 
-* **Parâmetros do delivery**
+* **Parâmetros da entrega**
 
-  O Adobe Campaign envia as mensagens começando pela data inicial.
+  O Adobe Campaign envia as mensagens que começam na data inicial.
 
   Quando uma mensagem em um delivery é rejeitada devido a um erro temporário ou uma rejeição temporária, o Campaign tenta enviar essa mensagem novamente todos os dias. Use o **[!UICONTROL Message delivery duration]** para especificar o período durante as tentativas.
 
@@ -50,7 +50,7 @@ A tela de configuração de email permite definir os parâmetros do canal de ema
 
 * **Tentativas**
 
-  As mensagens temporariamente não entregues estão sujeitas a uma nova tentativa automática. Para obter mais informações, consulte [Tentativas após uma falha temporária de delivery](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+  As mensagens temporariamente não entregues estão sujeitas a uma nova tentativa automática. Para obter mais informações, consulte [Tentativas após uma falha temporária de entrega](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
   >[!IMPORTANT]
   >
@@ -62,24 +62,24 @@ A tela de configuração de email permite definir os parâmetros do canal de ema
 
   No campo **[!UICONTROL Time between two significant errors]**, insira um valor para definir o tempo que o aplicativo aguarda antes de incrementar o contador de erros, no caso de uma falha provocada por rejeição temporária. O valor padrão é **&quot;1d&quot;**, para 1 dia.
 
-  Quando o valor **[!UICONTROL Maximum number of errors before quarantine]** é atingido, o endereço de email é colocado em quarentena. O valor padrão é **&quot;5&quot;**: o endereço é colocado em quarentena no quinto erro. Isso significa que o contato será automaticamente excluído dos próximos deliveries.
+  Quando o valor **[!UICONTROL Maximum number of errors before quarantine]** é atingido, o endereço de email é colocado em quarentena. O valor padrão é **&quot;5&quot;**: o endereço é colocado em quarentena no quinto erro. Isso significa que o contato será automaticamente excluído das próximas entregas.
   <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
 
   Para obter mais informações sobre quarentena, consulte [Entendendo o gerenciamento de quarentenas](../../sending/using/understanding-quarantine-management.md).
 
-## Contas de roteamento de emails {#email-routing-accounts}
+## Contas de roteamento de email {#email-routing-accounts}
 
 A conta externa de **[!UICONTROL Integrated email routing]** é fornecida por padrão. Ela contém os parâmetros técnicos que permitem ao aplicativo enviar emails.
 
 ![](assets/channels_2.png)
 
-O tipo de conta deve ser sempre definido como **[!UICONTROL Routing]**, o canal, como **[!UICONTROL Email]** e o modo de delivery, como **[!UICONTROL Bulk delivery]**.
+O tipo de conta deve ser sempre definido como **[!UICONTROL Routing]**, o canal, como **[!UICONTROL Email]** e o modo de entrega, como **[!UICONTROL Bulk delivery]**.
 
 **Tópicos relacionados**:
 
 [Contas externas](../../administration/using/external-accounts.md)
 
-## Regras de processamento de emails {#email-processing-rules}
+## Regras de processamento de email {#email-processing-rules}
 
 As **[!UICONTROL Email processing rules]** podem ser acessadas pelos administradores pelo menu **[!UICONTROL Administration > Channels > Email]**.
 
@@ -94,7 +94,7 @@ As **[!UICONTROL Email processing rules]** podem ser acessadas pelos administrad
 * **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
 * The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
 
-### Mensagens de rejeição {#bounce-mails}
+### Emails rejeitados {#bounce-mails}
 
 As rejeições assíncronas ainda são qualificadas pelo processo de InMail do Campaign por meio das regras de **[!UICONTROL Bounce mails]**.
 
@@ -152,17 +152,17 @@ Você também pode adicionar uma **[!UICONTROL Description]** no campo correspon
 
 A seção **[!UICONTROL Send]** está disponível somente para modelos de email. Ela contém as seguintes parâmetros:
 
-#### Parâmetros de tentativas {#retries-parameters}
+#### Parâmetros de novas tentativas {#retries-parameters}
 
-As mensagens temporariamente não entregues estão sujeitas a uma nova tentativa automática. Para obter mais informações, consulte [Tentativas após uma falha temporária de delivery](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+As mensagens temporariamente não entregues estão sujeitas a uma nova tentativa automática. Para obter mais informações, consulte [Tentativas após uma falha temporária de entrega](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 >[!IMPORTANT]
 >
 >O atraso mínimo entre as tentativas e o número máximo de tentativas a serem executadas agora se baseiam no desempenho histórico e atual de um IP em um determinado domínio. A variável **[!UICONTROL Retry period]** e **[!UICONTROL Max. number of retries]** As configurações no Campaign serão ignoradas.
 
-A **configuração de duração do delivery** (definida na seção [Parâmetros do período de validade](#validity-period-parameters)) **configurada no Campaign ainda será respeitada, mas somente até 3,5 dias**. A essa altura, qualquer mensagem na fila de tentativas será removida e enviada de volta como uma rejeição. Para obter mais informações, consulte esta [seção](../../sending/using/understanding-delivery-failures.md#about-delivery-failures).
+A **configuração de duração da entrega** (definida na seção [Parâmetros do período de validade](#validity-period-parameters)) **configurada no Campaign ainda será respeitada, mas somente até 3,5 dias**. A essa altura, qualquer mensagem na fila de tentativas será removida e enviada de volta como uma rejeição. Para obter mais informações, consulte esta [seção](../../sending/using/understanding-delivery-failures.md#about-delivery-failures).
 
-#### Parâmetros de formato do email {#email-format-parameters}
+#### Parâmetros de formato de email {#email-format-parameters}
 
 Você pode configurar o formato de emails que serão enviados. Há três opções disponíveis:
 
@@ -171,7 +171,7 @@ Você pode configurar o formato de emails que serão enviados. Há três opçõe
 
   >[!IMPORTANT]
   >
-  >Essa opção inclui ambas as versões da mensagem. Portanto, isso afeta a taxa de delivery, pois o tamanho da mensagem é maior.
+  >Essa opção inclui ambas as versões da mensagem. Portanto, isso afeta a taxa de entrega, pois o tamanho da mensagem é maior.
 
 * **Enviar todas as mensagens no formato de texto**: a mensagem é enviada em formato de texto. O formato HTML não será enviado, mas usado somente para a mirror page quando o recipient clicar na mensagem.
 
@@ -218,7 +218,7 @@ A seção **[!UICONTROL Validity period]** contém os seguintes parâmetros:
    * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** (modo padrão): a mirror page é gerada se o link for inserido no conteúdo do email.
    * **Forçar a geração da mirror page**: mesmo se nenhum link para a mirror page for inserido nas mensagens, a mirror page será criada.
    * **Não gerar a mirror page**: nenhuma mirror page é gerada, mesmo se o link estiver presente nas mensagens.
-   * **Gerar uma mirror page acessível usando somente a ID de mensagem**: essa opção permite acessar o conteúdo da mirror page, com informações de personalização, na janela de log do delivery.
+   * **Gerar uma mirror page acessível usando somente a ID de mensagem**: essa opção permite acessar o conteúdo da mirror page, com informações de personalização, na janela de log da entrega.
 
   >[!IMPORTANT]
   >
@@ -247,7 +247,7 @@ Clique no botão à direita do campo que será alterado e, em seguida, adicione 
 
 A inserção e o uso do conteúdo de personalização estão detalhados na documentação [Personalização de conteúdo de email](../../designing/using/personalization.md).
 
-#### Contexto do público-alvo {#target-context}
+#### Contexto do Target {#target-context}
 
 Use o contexto de direcionamento para definir um conjunto de tabelas que serão usadas para direcionamento de email (na tela de definição de público) e personalização (definindo campos de personalização no editor de conteúdo HTML).
 
@@ -271,7 +271,7 @@ A preparação de mensagens está detalhada na seção [Aprovação de mensagens
 
 * **[!UICONTROL Compute the label during delivery preparation]**: use essa opção para calcular o valor do rótulo do email durante a fase de preparação da mensagem usando campos de personalização, blocos de conteúdo e texto dinâmico.
 
-  Também é possível personalizar o rótulo do delivery com variáveis de eventos que foram declaradas para a atividade de sinal externo do fluxo de trabalho. Para obter mais informações, consulte [esta seção](../../automating/using/calling-a-workflow-with-external-parameters.md).
+  Também é possível personalizar o rótulo da entrega com variáveis de eventos que foram declaradas para a atividade de sinal externo do fluxo de trabalho. Para obter mais informações, consulte [esta seção](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 * **[!UICONTROL Save SQL queries in the log]**: use essa opção para adicionar logs de consultas SQL no journal durante a fase de preparação.
 
@@ -311,7 +311,7 @@ Se você estiver **NOT** ao executar a versão mais recente do Campaign, os par�
 
 A variável **[!UICONTROL Retries]** configurações no [Menu de configuração](#email-channel-parameters) e no [Envio de parâmetros](#retries-parameters) das propriedades de email indicam quantas tentativas devem ser executadas no dia seguinte ao início do envio (**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**) e o atraso mínimo entre tentativas (**[!UICONTROL Retry period]**).
 
-O número de tentativas pode ser alterado globalmente (entre em contato com o administrador técnico da Adobe) ou para cada delivery ou modelo do delivery.
+O número de tentativas pode ser alterado globalmente (entre em contato com o administrador técnico do Adobe) ou para cada delivery ou template do delivery.
 
 Por padrão, cinco tentativas são agendadas para o primeiro dia com um intervalo mínimo de uma hora, distribuído pelas 24 horas do dia. Uma nova tentativa por dia é programada depois disso e até o prazo do delivery, que é definido globalmente no **[!UICONTROL Delivery parameters]** seção do **[!UICONTROL Configuration]** ou no menu **[!UICONTROL Validity period]** no nível do delivery (consulte a [Duração da entrega](#legacy-delivery-duration) abaixo).
 
@@ -321,7 +321,7 @@ Use o **[!UICONTROL Message delivery duration]** parâmetro no [Menu de configur
 
 Use o **[!UICONTROL Delivery duration]** ou **[!UICONTROL Validity limit for sending messages]** parâmetro no [Parâmetros do período de validade](#validity-period-parameters) para especificar a duração em que as mensagens podem ser enviadas.
 
-### Regras de processamento de emails {#legacy-email-processing-rules}
+### Regras de processamento de email {#legacy-email-processing-rules}
 
 A variável **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** e **[!UICONTROL Domain management]** as regras podem ser acessadas e modificadas pelos administradores por meio da **[!UICONTROL Administration > Channels > Email > Email processing rules]** menu. [Saiba mais](#email-processing-rules).
 

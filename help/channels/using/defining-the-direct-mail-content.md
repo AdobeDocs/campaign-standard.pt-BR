@@ -1,6 +1,6 @@
 ---
 title: Definição do conteúdo da correspondência direta
-description: Saiba como definir o conteúdo do delivery de correspondência direta.
+description: Saiba como definir o conteúdo da entrega de correspondência direta.
 audience: channels
 content-type: reference
 topic-tags: direct-mail
@@ -12,13 +12,13 @@ exl-id: 0a4c45ea-acc2-424f-8596-73376e344172
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '337'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # Definição do conteúdo da correspondência direta{#defining-the-direct-mail-content}
 
-Você pode definir o conteúdo na última tela do assistente de criação ou clicando na seção **Content** do painel do delivery.
+Você pode definir o conteúdo na última tela do assistente de criação ou clicando na seção **Content** do painel da entrega.
 
 ![](assets/direct_mail_6.png)
 
@@ -28,7 +28,7 @@ A tela de definição **[!UICONTROL Content]** é específica do canal de corres
 
 ## Definição da extração {#defining-the-extraction}
 
-1. Comece definindo o nome do arquivo de extração. Clique no botão à direita do campo **[!UICONTROL Output file]** e insira o rótulo desejado. Você pode usar campos de personalização, blocos de conteúdo e texto dinâmico (consulte [Definição de conteúdo](../../designing/using/personalization.md#example-email-personalization)). Por exemplo, você pode preencher o rótulo com a ID do delivery ou a data da extração.
+1. Comece definindo o nome do arquivo de extração. Clique no botão à direita do campo **[!UICONTROL Output file]** e insira o rótulo desejado. Você pode usar campos de personalização, blocos de conteúdo e texto dinâmico (consulte [Definição de conteúdo](../../designing/using/personalization.md#example-email-personalization)). Por exemplo, você pode preencher o rótulo com a ID da entrega ou a data da extração.
 
    ![](assets/direct_mail_12.png)
 
@@ -62,7 +62,7 @@ A guia **File structure** permite configurar os formatos de saída, data e núme
 
 ![](assets/direct_mail_7.png)
 
-Por exemplo, você talvez queira incluir as informações do remetente no cabeçalho do arquivo para o provedor de correspondência direta. É possível personalizar o rodapé e o cabeçalho com as informações disponíveis no contexto do delivery. Consulte [Definição de conteúdo](../../designing/using/personalization.md#example-email-personalization).
+Por exemplo, você talvez queira incluir as informações do remetente no cabeçalho do arquivo para o provedor de correspondência direta. É possível personalizar o rodapé e o cabeçalho com as informações disponíveis no contexto da entrega. Consulte [Definição de conteúdo](../../designing/using/personalization.md#example-email-personalization).
 
 O endereço do remetente é definido na seção **[!UICONTROL Send]** das propriedades de correspondência direta ou no nível do template.
 

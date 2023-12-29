@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 66%
+source-wordcount: '947'
+ht-degree: 64%
 
 ---
 
@@ -44,15 +44,15 @@ Quando a preparação for concluída, siga as etapas abaixo para enviar sua mens
 >
 >Se a mensagem estiver programada, ela será enviada no horário especificado. Para saber mais sobre como programar mensagens, consulte [esta seção](../../sending/using/about-scheduling-messages.md).
 
-Se estiver usando um delivery recorrente sem nenhum período de agregação, você poderá solicitar uma confirmação antes de o delivery ser enviado. Ao configurar sua mensagem, abra o **[!UICONTROL Schedule]** bloco do painel de delivery e ative a opção dedicada.
+Se estiver usando uma entrega recorrente sem nenhum período de agregação, você poderá solicitar uma confirmação antes de a entrega ser enviada. Ao configurar sua mensagem, abra o **[!UICONTROL Schedule]** bloco do painel de delivery e ative a opção dedicada.
 
 ![](assets/confirmation_recurring_deliveries.png)
 
 ## Noções básicas sobre indicadores de mensagem {#message-indicators}
 
-Depois que a mensagem é enviada aos contatos, a zona **[!UICONTROL Deployment]** mostra seus KPIs (indicadores principais de desempenho), inclusive:
+Depois que a mensagem for enviada aos contatos, a variável **[!UICONTROL Deployment]** A zona mostra seus KPIs (indicadores principais de desempenho), incluindo:
 
-* Número de mensagens para delivery
+* Número de mensagens para entrega
 * Número de mensagens enviadas
 * A porcentagem de mensagens entregues
 * A porcentagem de rejeições e erros
@@ -76,7 +76,7 @@ Depois que uma mensagem é enviada, você pode rastrear o comportamento dos reci
 * [Rastreamento de mensagens](../../sending/using/tracking-messages.md)
 * [Monitoramento de uma entrega](../../sending/using/monitoring-a-delivery.md)
 
-### Relatórios de sucesso do delivery {#delivered-status-report}
+### Relatórios de sucesso da entrega {#delivered-status-report}
 
 >[!NOTE]
 >
@@ -88,7 +88,7 @@ Na verdade, todas as mensagens são exibidas como **[!UICONTROL Sent]** no [en
 
 Quando mensagens de rejeição permanente são relatadas do MTA aprimorado, seu status muda de **[!UICONTROL Sent]** para **[!UICONTROL Failed]** e a porcentagem de **[!UICONTROL Delivered]** é diminuída de maneira apropriada.
 
-Quando mensagens de rejeição temporária são relatadas do MTA aprimorado, elas ainda são exibidas como **[!UICONTROL Sent]** e a porcentagem de **[!UICONTROL Delivered]** ainda não é atualizada. As mensagens de rejeição temporária são então [tentadas](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) durante todo o período de validade do delivery:
+Quando mensagens de rejeição temporária são relatadas do MTA aprimorado, elas ainda são exibidas como **[!UICONTROL Sent]** e a porcentagem de **[!UICONTROL Delivered]** ainda não é atualizada. As mensagens de rejeição temporária são então [tentadas](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) durante todo o período de validade da entrega:
 
 * Se uma tentativa for bem-sucedida antes do fim do período de validade, o status da mensagem permanecerá como **[!UICONTROL Sent]** e a porcentagem de **[!UICONTROL Delivered]** permanecerá inalterada.
 
@@ -104,19 +104,19 @@ Com o recurso Serviço de feedback por email (EFS), o status de cada email é re
 >
 >O Serviço de feedback por email está disponível no momento como um recurso beta.
 
-Depois que o delivery é iniciado, não há alteração na porcentagem de **[!UICONTROL Delivered]** quando a mensagem é transmitida com êxito do Campaign para o MTA aprimorado.
+Depois que a entrega é iniciada, não há alteração na porcentagem de **[!UICONTROL Delivered]** quando a mensagem é transmitida com êxito do Campaign para o MTA aprimorado.
 
 ![](assets/efs-sending.png)
 
-Os logs do delivery mostram o status **[!UICONTROL Pending]** para cada endereço direcionado.
+Os logs da entrega mostram o status **[!UICONTROL Pending]** para cada endereço direcionado.
 
 ![](assets/efs-pending.png)
 
-Quando o delivery da mensagem para os perfis direcionados é relatado em tempo real do MTA aprimorado, os logs do delivery mostram a **[!UICONTROL Sent]** status para cada endereço que recebeu a mensagem com êxito. A porcentagem de **[!UICONTROL Delivered]** aumenta de acordo com cada delivery bem-sucedido.
+Quando o delivery da mensagem para os perfis direcionados é relatado em tempo real do MTA aprimorado, os logs do delivery mostram a **[!UICONTROL Sent]** status para cada endereço que recebeu a mensagem com êxito. A porcentagem de **[!UICONTROL Delivered]** aumenta de acordo com cada entrega bem-sucedida.
 
 Quando mensagens com rejeição permanente são relatadas do MTA aprimorado, o status do log muda de **[!UICONTROL Pending]** para **[!UICONTROL Failed]** e a variável **[!UICONTROL Bounces + errors]** A porcentagem de é aumentada de maneira apropriada.
 
-Quando mensagens com rejeição temporária são relatadas do MTA aprimorado, o status do log também muda de **[!UICONTROL Pending]** para **[!UICONTROL Failed]** e a variável **[!UICONTROL Bounces + errors]** A porcentagem de é aumentada de maneira apropriada. A porcentagem de **[!UICONTROL Delivered]** permanece inalterada. As mensagens com rejeição temporária são então repetidas durante todo o [período de validade do delivery](../../administration/using/configuring-email-channel.md#validity-period-parameters)
+Quando mensagens com rejeição temporária são relatadas do MTA aprimorado, o status do log também muda de **[!UICONTROL Pending]** para **[!UICONTROL Failed]** e a variável **[!UICONTROL Bounces + errors]** A porcentagem de é aumentada de maneira apropriada. A porcentagem de **[!UICONTROL Delivered]** permanece inalterada. As mensagens com rejeição temporária são então repetidas durante todo o [período de validade da entrega](../../administration/using/configuring-email-channel.md#validity-period-parameters)
 
 * Se uma nova tentativa for bem-sucedida antes do fim do período de validade, o status da mensagem mudará para **[!UICONTROL Sent]** e a porcentagem **[!UICONTROL Delivered]** será aumentada de maneira apropriada.
 
@@ -126,7 +126,7 @@ Quando mensagens com rejeição temporária são relatadas do MTA aprimorado, o 
 >
 >Para obter mais informações sobre rejeições permanentes e temporárias, consulte [esta seção](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 >
->Para obter mais informações sobre tentativas após uma falha temporária de delivery, consulte [esta seção](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+>Para obter mais informações sobre tentativas após uma falha temporária de entrega, consulte [esta seção](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 <!--Soft-bouncing messages increment an error counter. When the error counter reaches the limit threshold or when the validity period is over, the address goes into quarantine and the status remains as **[!UICONTROL Failed]**. For more on conditions for sending an address to quarantine, see [this section](../../help/sending/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine).-->
 

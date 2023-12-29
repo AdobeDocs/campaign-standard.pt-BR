@@ -11,8 +11,8 @@ level: Experienced
 exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 100%
+source-wordcount: '788'
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ Várias funcionalidades de aplicativo o utilizam para:
 * Definir os públicos alvo do **email**
 * Definir as populações nas atividades de **fluxo de trabalho**
 
-## interface do Editor de consultas {#query-editor-interface}
+## Interface do editor de consultas {#query-editor-interface}
 
 O Editor de consultas é composto de uma **paleta** e um **espaço de trabalho**.
 
@@ -60,7 +60,7 @@ Quando um elemento é movido da paleta para o espaço de trabalho, uma nova jane
 
 O Editor de consultas pode ser usado para definir um público ou um perfil de teste em uma mensagem, uma população em um fluxo de trabalho e para criar um público do tipo consulta.
 
-As consultas podem ser definidas na janela **[!UICONTROL Audience]** ao criar um delivery ou em uma atividade **Consulta** ao criar um fluxo de trabalho.
+As consultas podem ser definidas na janela **[!UICONTROL Audience]** ao criar uma entrega ou em uma atividade **Consulta** ao criar um fluxo de trabalho.
 
 1. Mova um elemento da paleta para o espaço de trabalho. A janela para editar a regra é aberta.
 
@@ -108,7 +108,7 @@ As consultas podem ser definidas na janela **[!UICONTROL Audience]** ao criar um
 
 Se quiser modificar um elemento do query, clique no ícone de edição. A regra é aberta conforme configurada anteriormente, e você pode realizar os ajustes necessários.
 
-Agora as consultas são criadas e definidas, e você pode criar uma população para personalizar melhor seus deliveries.
+Agora as consultas são criadas e definidas, e você pode criar uma população para personalizar melhor suas entregas.
 
 **Tópicos relacionados:**
 

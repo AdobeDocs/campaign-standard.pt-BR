@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 94%
+source-wordcount: '996'
+ht-degree: 90%
 
 ---
 
@@ -44,7 +44,7 @@ Para mais informações, consulte [Configuração de soluções e serviços](../
 
 Nesse caso de uso, criaremos um acionador simples que será acionado toda vez que um cliente abandonar uma visita no site. Esse exemplo supõe que o DTM já está coletando e enviando dados para o Adobe Analytics e que todos os eventos já foram criados.
 
-### Criar um acionador da Experience Cloud {#creating-an-experience-cloud-trigger}
+### Criar um acionador de Experience Cloud {#creating-an-experience-cloud-trigger}
 
 1. Selecione **[!UICONTROL Manage Triggers]** no menu do Serviço principal de ativação da Experience Cloud.
 
@@ -121,7 +121,7 @@ No Adobe Campaign, é necessário criar um Acionador vinculado ao que você crio
 
 Nesse caso de uso, vamos criar um acionador para reengajamento com visitantes que foram ao site de reservas de viagem, procuraram um destino, não encontraram resultados que queriam e não fizeram nenhuma reserva depois disso. O processo geral é o mesmo do caso de uso anterior (consulte [Acionador de abandono de navegação](#browse-abandonment-trigger)). Aqui, o foco será em como personalizar a mensagem de email de remarketing.
 
-### Criar um acionador da Experience Cloud {#creating-an-experience-cloud-trigger-1}
+### Criar um acionador de Experience Cloud {#creating-an-experience-cloud-trigger-1}
 
 Siga as etapas descritas no caso de uso anterior para criar o acionador da Experience Cloud. Consulte [Criar um acionador da Experience Cloud](#creating-an-experience-cloud-trigger). A principal diferença é a definição do acionador.
 

@@ -11,8 +11,8 @@ level: Beginner
 exl-id: 3f4f9307-c65f-47bb-bc92-ce8b5d06557f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 100%
+source-wordcount: '642'
+ht-degree: 97%
 
 ---
 
@@ -27,9 +27,9 @@ Com programas e campanhas é possível reagrupar e exibir as diferentes atividad
 * Um **programa** pode conter outros programas, assim como campanhas, fluxos de trabalho e landing pages. Ele aparece na linha do tempo e ajuda na organização de suas atividades de marketing: você pode separá-los por país, por marca, por unidade etc.
 * Uma **campanha** possibilita coletar todas as atividades de marketing de sua escolha em uma única entidade. Uma campanha pode conter emails, SMS, notificações por push, malas diretas, fluxos de trabalho e landing pages.
 
-Para organizar melhor seus planos de marketing, a Adobe recomenda a seguinte hierarquia: Programa > Subprogramas > Campanhas > Workflows > Deliveries.
+Para organizar melhor seus planos de marketing, a Adobe recomenda a seguinte hierarquia: Programa > Subprogramas > Campanhas > Workflows > Entregas.
 
-Com os relatórios sobre programas e campanhas é possível analisar o impacto de cada um deles. Por exemplo, você pode criar relatórios no nível da campanha para agregar dados em todos os deliveries contidos nessa campanha.
+Com os relatórios sobre programas e campanhas é possível analisar o impacto de cada um deles. Por exemplo, você pode criar relatórios no nível da campanha para agregar dados em todos as entregas contidas nessa campanha.
 
 **Tópicos relacionados:**
 

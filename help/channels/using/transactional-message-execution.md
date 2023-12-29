@@ -12,7 +12,7 @@ exl-id: 4cea7207-469c-46c5-9921-ae2f8f12d141
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '740'
-ht-degree: 63%
+ht-degree: 61%
 
 ---
 
@@ -32,40 +32,40 @@ Um **entrega de execução** é uma mensagem técnica não acionável e não fun
 
 ## Processo de nova tentativa de mensagem transacional {#transactional-message-retry-process}
 
-Uma mensagem transacional temporariamente não entregue está sujeita a tentativas automáticas que são executadas até que o delivery expire. Para mais informações sobre a duração do delivery, consulte [Parâmetros do período de validade](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+Uma mensagem transacional temporariamente não entregue está sujeita a tentativas automáticas que são executadas até que o delivery expire. Para mais informações sobre a duração da entrega, consulte [Parâmetros do período de validade](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
 Quando uma mensagem transacional não é enviada, há dois sistemas de repetição:
 
-* No nível de mensagens transacionais, uma mensagem transacional pode falhar antes de ser atribuída a um delivery de execução, ou seja, entre a recepção do evento e a preparação do delivery. Consulte [Processo de nova tentativa de processamento de eventos](#event-processing-retry-process).
-* No nível do processo de envio, depois que o evento é atribuído a um delivery de execução, a mensagem transacional pode falhar devido a um erro temporário. Consulte [Processo de nova tentativa de envio de mensagens](#message-sending-retry-process).
+* No nível de mensagens transacionais, uma mensagem transacional pode falhar antes de ser atribuída a uma entrega de execução, ou seja, entre a recepção do evento e a preparação da entrega. Consulte [Processo de nova tentativa de processamento de eventos](#event-processing-retry-process).
+* No nível do processo de envio, depois que o evento é atribuído a uma entrega de execução, a mensagem transacional pode falhar devido a um erro temporário. Consulte [Processo de nova tentativa de envio de mensagens](#message-sending-retry-process).
 
-### Processo de nova tentativa de processamento de eventos {#event-processing-retry-process}
+### Processo de nova tentativa de processamento de evento {#event-processing-retry-process}
 
-Quando um evento é acionado, ele é atribuído a um delivery de execução. Se o evento não puder ser atribuído a um delivery de execução, o processamento do evento será adiado. As tentativas são executadas até que sejam atribuídas a um novo delivery de execução.
+Quando um evento é acionado, ele é atribuído a um delivery de execução. Se o evento não puder ser atribuído a uma entrega de execução, o processamento do evento será adiado. As tentativas são executadas até que sejam atribuídas a uma nova entrega de execução.
 
 >[!NOTE]
 >
->Um evento adiado não é exibido nos logs de envio da mensagem transacional, pois ela ainda não foi atribuída a um delivery de execução.
+>Um evento adiado não é exibido nos logs de envio da mensagem transacional, pois ela ainda não foi atribuída a uma entrega de execução.
 
-Por exemplo, o evento não pôde ser atribuído a um delivery de execução porque seu conteúdo não estava correto. Houve um problema com direitos de acesso ou marca, um erro foi detectado ao aplicar regras de tipologia etc. Nesse caso, você pode pausar a mensagem, editá-la para corrigir o problema e publicá-la novamente. O sistema de nova tentativa a atribuirá a um novo delivery de execução.
+Por exemplo, o evento não pôde ser atribuído a uma entrega de execução porque seu conteúdo não estava correto. Houve um problema com direitos de acesso ou marca, um erro foi detectado ao aplicar regras de tipologia etc. Nesse caso, você pode pausar a mensagem, editá-la para corrigir o problema e publicá-la novamente. O sistema de nova tentativa a atribuirá a uma nova entrega de execução.
 
 ### Processo de nova tentativa de envio de mensagem {#message-sending-retry-process}
 
-Depois que o evento tiver sido atribuído a um delivery de execução, a mensagem transacional poderá falhar devido a um erro temporário, se a caixa de correio do recipient estiver cheia, por exemplo. Para obter mais informações, consulte [Tentativas após uma falha temporária de delivery](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+Depois que o evento tiver sido atribuído a uma entrega de execução, a mensagem transacional poderá falhar devido a um erro temporário, se a caixa de correio do recipient estiver cheia, por exemplo. Para obter mais informações, consulte [Tentativas após uma falha temporária de entrega](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 >[!NOTE]
 >
->Quando um evento é atribuído a um delivery de execução, ele é exibido nos logs de envio desse delivery de execução e apenas no momento. Os deliveries com falha são exibidos no **[!UICONTROL Execution list]** da mensagem transacional que envia logs.
+>Quando um evento é atribuído a uma entrega de execução, ele é exibido nos logs de envio dessa entrega de execução e apenas no momento. Os deliveries com falha são exibidos no **[!UICONTROL Execution list]** da mensagem transacional que envia logs.
 
 ### Limitações do processo de repetição {#limitations}
 
 **Envio de atualização de logs**
 
-No processo de repetição, os logs de envio do novo delivery de execução não são atualizados imediatamente (a atualização é executada por meio de um fluxo de trabalho programado). Isso significa que a mensagem pode estar em status **[!UICONTROL Pending]** mesmo se o evento transacional tiver sido processado pelo novo delivery de execução.
+No processo de repetição, os logs de envio da nova entrega de execução não são atualizados imediatamente (a atualização é executada por meio de um fluxo de trabalho programado). Isso significa que a mensagem pode estar em status **[!UICONTROL Pending]** mesmo se o evento transacional tiver sido processado pela nova entrega de execução.
 
-**Delivery de execução com falha**
+**Entrega de execução com falha**
 
-Não é possível interromper um delivery de execução. No entanto, se o delivery de execução atual falhar, um novo será criado assim que um novo evento for recebido, e todos os novos eventos serão processados por esse novo delivery de execução. Nenhum novo evento é processado pelo delivery de execução com falha.
+Não é possível interromper uma entrega de execução. No entanto, se a entrega de execução atual falhar, uma nova será criada assim que um novo evento for recebido, e todos os novos eventos serão processados por essa nova entrega de execução. Nenhum novo evento é processado pela entrega de execução com falha.
 
 Se alguns eventos já atribuídos a um delivery de execução tiverem sido adiados como parte do processo de nova tentativa e esse delivery falhar, o sistema de nova tentativa não atribuirá os eventos adiados ao novo delivery de execução, o que significa que esses eventos são perdidos. Verifique a [logs do delivery](#monitoring-transactional-message-delivery) para ver os recipients que podem ter sido afetados.
 
@@ -73,7 +73,7 @@ Se alguns eventos já atribuídos a um delivery de execução tiverem sido adiad
 
 Para monitorar uma mensagem transacional, é necessário acessar o correspondente [deliveries de execução](#transactional-message-execution-delivery).
 
-1. Para exibir o log de delivery da mensagem, clique no ícone na parte inferior direita do bloco **[!UICONTROL Deployment]**.
+1. Para exibir o log de entrega da mensagem, clique no ícone na parte inferior direita do bloco **[!UICONTROL Deployment]**.
 
    ![](assets/message-center_access_logs.png)
 
