@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: 6c96a5d294c6e96d20571d176898290c9c026f0b
+source-git-commit: b023e07c337e3352b8d1e26254ce342e0d560a27
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1595'
 ht-degree: 89%
 
 ---
@@ -27,7 +27,7 @@ As etapas para criar e modificar uma conta externa são detalhadas na seção [C
 
 A conta externa **[!UICONTROL SMS routing via SMPP]** é fornecida por padrão, mas convém adicionar outras contas.
 
-Se quiser usar o protocolo SMPP, você também poderá criar uma nova conta externa. Para saber mais sobre o protocolo e as configurações de SMS, consulte esta [nota técnica](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html).
+Se quiser usar o protocolo SMPP, você também poderá criar uma nova conta externa. Para saber mais sobre o protocolo e as configurações de SMS, consulte esta [nota técnica](../../administration/using/sms-protocol.md).
 
 1. Crie uma nova conta externa em **[!UICONTROL Administration > Application settings > External accounts]**.
 1. Defina o tipo de conta como **[!UICONTROL Routing]**, o canal como **[!UICONTROL Mobile (SMS)]** e o modo de entrega como **[!UICONTROL Bulk delivery]**.
