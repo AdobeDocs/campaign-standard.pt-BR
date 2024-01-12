@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: acbe5f1990738f586e4310d13f0e19baab11d771
+source-git-commit: 1346f7d833515fb2e6feabb39d199ffd5610c88e
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ Para garantir que a notificação por push tenha sido totalmente desenvolvida, �
 
 O Rastreamento de push é separado em três tipos:
 
-* **Impressões por push** - Quando uma notificação por push foi entregue ao dispositivo e está localizada no centro de notificações, mas não foi tocada.  Isso é considerado uma impressão.  Na maioria dos casos, os números de impressões devem ser semelhantes, se não iguais, ao número entregue. Ele garante que o dispositivo recebeu a mensagem e transmitiu essas informações de volta para o servidor.
+* **Impressões por push** - Quando uma notificação por push é entregue com êxito ao dispositivo, residente no centro de notificações, sem nenhuma interação com o usuário.
 
 * **Clique por push** - Quando uma notificação por push tiver sido entregue ao dispositivo e o usuário tiver clicado nele.  O usuário queria visualizar a notificação (que, por sua vez, passará para o rastreamento de Push Open) ou descartar a notificação.
 
-* **Push aberto** - Quando uma notificação por push é entregue ao dispositivo e o usuário clica na notificação, fazendo com que o aplicativo seja aberto.  Isso é semelhante ao clique por push, exceto que uma abertura por push não será acionada se a notificação tiver sido descartada.
+* **Push aberto** - Quando uma notificação por push é entregue ao dispositivo e o usuário clica na notificação, fazendo com que o aplicativo seja aberto. Isso é semelhante ao clique por push, exceto que uma abertura por push não será acionada se a notificação tiver sido descartada.
 
 Para implementar o rastreamento do Campaign Standard, o aplicativo móvel precisa incluir os SDKs da Adobe Experience Platform. Esses SDKs estão disponíveis no [Documentação dos SDKs do Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
