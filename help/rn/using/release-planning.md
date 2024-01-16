@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 7678628193f025ae9bfe4c70afe0cb5f0bbc4a4d
-workflow-type: ht
-source-wordcount: '464'
-ht-degree: 100%
+source-git-commit: ff6e926b66547632b74e58cc0e419c83a4ea556e
+workflow-type: tm+mt
+source-wordcount: '408'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ Todas as datas de lançamento estão sujeitas a alterações; acesse esta págin
 
 ## Versão 24.1 - Versão do 1º trimestre de 2024 {#release-24-1-release}
 
-Informações detalhadas sobre esta versão estão disponíveis nas [Notas de versão antecipadas](e-release-notes.md).
+Informações detalhadas sobre esta versão estão disponíveis no [Notas de versão](release-notes.md) quando as atualizações do ambiente de preparo começam.
 
 <table>
  <thead>
@@ -47,37 +47,6 @@ Informações detalhadas sobre esta versão estão disponíveis nas [Notas de ve
   </tr>
  </tbody>
 </table>
-
-
-## Versão 23.2 - Versão limitada do 4º trimestre de 2023 {#release-23-2-release}
-
-
->[!AVAILABILITY]
->
->Esta versão está disponível somente para algumas organizações (disponibilidade limitada). Para mais informações, entre em contato com o seu representante da Adobe.
-
-Informações detalhadas sobre esta versão estão disponíveis nas [Notas de versão](release-notes.md).
-
-<table>
- <thead>
-  <tr>
-   <th> Ambientes </th>
-   <th> Datas </th>
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td>Preparo </td>
-   <td>3 a 9 de outubro de 2023 </td>
-  </tr>
-  <tr>
-   <td>Produção </td>
-   <td>12 a 18 de outubro de 2023 </td>
-  </tr>
- </tbody>
-</table>
-
-Caso tenha mais dúvidas, entre em contato com o [Atendimento ao cliente da Adobe](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html).
 
 ## Perguntas e respostas {#questions-and-answers}
 

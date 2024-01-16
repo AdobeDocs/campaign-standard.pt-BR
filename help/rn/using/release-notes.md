@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
+source-git-commit: d6421cda301eed85fddf2df7b2d6fc2cf1db96b3
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '119'
 ht-degree: 100%
 
 ---
@@ -17,59 +17,17 @@ ht-degree: 100%
 
 ![Painel de controle](assets/do-not-localize/cp-icon.png) **Nova versão do Painel de controle**. [Saiba mais](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=pt-BR){target="_blank"}.
 
-
-## Versão 23.2 - Versão de outono/inverno de 2023 {#fall-23}
-
->[!AVAILABILITY]
->
->Esta versão está disponível somente para algumas organizações (disponibilidade limitada). Para mais informações, entre em contato com o seu representante da Adobe.
-
-### Aprimoramentos {#fall-23-rn-improvements}
-
-* **Integração com o Adobe Experience Manager**. Ao criar um template de entrega personalizado para mensagens transacionais no Adobe Experience Manager, agora é possível selecionar e usar os campos de personalização definidos no Campaign Standard em um menu suspenso. [Saiba mais](../../integrating/using/creating-email-experience-manager.md)
-
-* **Expiração de cookies**: a expiração padrão de cookies agora é definida como seis meses, de acordo com as recomendações da Agência de Proteção de Dados (CNIL) da França.
-
-* **Aprimoramento da pesquisa de perfil**: a pesquisa de perfil foi otimizada para reduzir os casos de tempo-limite esgotado
-
-* **Localização**: as traduções do termo &quot;público-alvo&quot;, em referência a um grupo de perfis direcionados para receber uma mensagem, foram harmonizadas em todos os produtos da Digital Experience nos seguintes idiomas:
-
-   * Alemão: Zielgruppe
-   * Português (Brasil): público-alvo
-   * Espanhol: público destinatario
-
-  Essas alterações serão implementadas gradualmente com as próximas versões da interface e da documentação.
-
-
-### Outras alterações {#fall-23-rn-other-changes}
-
-* As mensagens transacionais agora são compatíveis com o uso de várias afinidades separadas por vírgulas. [Saiba mais](../../sending/using/managing-typologies.md)
-
-### Correções {#fall-23-rn-fixes}
-
-* Correção de uma regressão que poderia causar problemas de desempenho ao usar workflows grandes. (CAMP-53369)
-* Correção de um problema que impedia que o link nos alertas ou notificações por email do workflow funcionasse. (CAMP-51874)
-
-## Versão 23.1 - Versão de primavera/verão de 2023 {#apr-23}
+## Versão 24.1 - Versão do 1º trimestre de 2024 {#winter-24}
 
 ### Aprimoramentos {#e-rn-improvements}
 
-* O serviço de mensagens por push foi modernizado para melhorar o suporte. (CAMP-47959)
-* O serviço de mensagens SMS foi aprimorado para proporcionar mais estabilidade. (CAMP-52217)
-* A Adobe fez várias correções de acessibilidade para melhorar a facilidade de uso geral do aplicativo. Estes são alguns exemplos de melhorias da acessibilidade:
-   * A acessibilidade do teclado da interface foi otimizada em várias telas.
-   * O aplicativo foi aprimorado para usuários de telas sensíveis ao toque.
-   * A cor de vários itens da interface foi alterada para melhorar a visibilidade.
+O Adobe Campaign Standard 24.1 usa as APIs HTTP v1 para enviar notificações por push no Android, a fim de garantir a compatibilidade com as alterações futuras do FCM. Saiba mais nesta [nota técnica](../../administration/using/push-technote.md).
 
-### Outras alterações {#e-rn-changes}
+O Adobe Campaign Standard 24.1 agora é compatível com certificados de autenticação p8 para notificações por push do iOS. Sua implementação deve ser adaptada para ativar essas alterações. Saiba mais nesta [nota técnica](../../administration/using/push-technote.md).
 
-* O **fluxo de trabalho de criação do enriquecimento de relatórios** pronto para uso foi adicionado. Após importar um target mapping de uma instância para outra, basta executar o fluxo de trabalho para importar as entradas de enriquecimento de relatório correspondentes. (CAMP-52452)
 
-### Problemas corrigidos{#e-rn-patches}
+### Correções {#e-rn-fixes}
 
-* Correção de um problema que poderia resultar em um erro de tempo limite ao exibir o relatório **Hot click**. (CAMP-51582)
-* Correção de um problema que poderia impedir o uso da integração com o serviço **Places**. (CAMP-51923)
-* Correção de um problema que poderia impedir o funcionamento adequado do Scheduler de fluxos de trabalho. (CAMP-52003)
-* Correção de um problema que impedia a exibição do detalhamento ao visualizar a versão PDF de um relatório dinâmico personalizado com um grande volume de dados. (CAMP-52178)
-* Correção de um problema que poderia exibir um erro ao acessar relatórios. (CAMP-52500)
-* Correção de um problema que aplicava incorretamente o parâmetro do conector SMS **Limitar instâncias de MTA desta conta** para todos os canais em vez de aplicar somente ao de SMS. (CAMP-52640)
+* Correção de um problema que impedia que os endereços de email rejeitados fossem removidos da quarentena após 30 dias. (CAMP-52977)
+* Correção de um problema que interrompia o fluxo de trabalho de Alertas de entrega com o seguinte erro: `division by zero`. (CAMP-49786)
+
