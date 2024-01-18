@@ -1,13 +1,13 @@
 ---
 title: Notas de versão de 2023
-description: Esta página lista todas as versões de 2023 do Adobe Campaign Standard
+description: Essa página lista todas as versões de 2023 do Adobe Campaign Standard
 feature: Overview
 role: User
 level: Beginner
 source-git-commit: e5feb1c5e66130fc56d53a9473414743017b0003
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '458'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
