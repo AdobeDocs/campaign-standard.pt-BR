@@ -8,7 +8,7 @@ hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: d6421cda301eed85fddf2df7b2d6fc2cf1db96b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '140'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Esta página descreve as melhorias e correções incluídas na próxima versão 
 >
 > Esse conteúdo está sujeito a alterações sem aviso prévio até a data de atualização dos ambientes de estágio. Saiba mais na [página de planejamento de versão](../../rn/using/release-planning.md).
 
-## Versão 24.1 - Versão do 1º trimestre de 2024 {#winter-24}
+## Versão 24.1 – Versão do inverno de 2024 {#winter-24}
 
 ### Aprimoramentos {#e-rn-improvements}
 
