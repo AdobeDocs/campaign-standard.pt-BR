@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: ff6e926b66547632b74e58cc0e419c83a4ea556e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '408'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ As atualizações são implantadas em duas fases. Primeiro, as instâncias de Pr
 
 Todas as datas de lançamento estão sujeitas a alterações; acesse esta página com frequência para verificar se há atualizações. As atualizações de ambientes ocorrem em ondas, durante os intervalos indicados abaixo. As datas exatas são comunicadas por email a cada cliente.
 
-## Versão 24.1 - Versão do 1º trimestre de 2024 {#release-24-1-release}
+## Versão 24.1 – Versão do inverno de 2024 {#release-24-1-release}
 
-Informações detalhadas sobre esta versão estão disponíveis no [Notas de versão](release-notes.md) quando as atualizações do ambiente de preparo começam.
+Informações detalhadas sobre esta versão estão disponíveis nas [Notas de versão](release-notes.md) quando as atualizações do ambiente de preparo são iniciadas.
 
 <table>
  <thead>
