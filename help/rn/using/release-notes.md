@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 54114df89724c995d9140453356251a7d2fa5708
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '110'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 <!--
 ![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.-->
 
-## Versão 24.1 - Versão do 1º trimestre de 2024 {#winter-24}
+## Versão 24.1 – Versão do inverno de 2024 {#winter-24}
 
 ### Aprimoramentos {#e-rn-improvements}
 
