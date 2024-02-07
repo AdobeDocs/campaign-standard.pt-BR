@@ -9,7 +9,7 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: ea69225fdf8b69025ff93b87b5b47ac9095b0eea
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 91%
@@ -30,7 +30,7 @@ O diagrama a seguir detalha o funcionamento dessa integração.
 
 **Tópicos relacionados:**
 
-* Saiba mais sobre os diferentes tipos de acionadores: [documentação da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html).
+* Saiba mais sobre os diferentes tipos de acionadores: [documentação da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html).
 * Assista ao vídeo [Trigger Remarketing Messages based on Site Activity](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
 * Veja nossos dois [Casos de uso de acionadores de abandono](../../integrating/using/abandonment-triggers-use-cases.md).
 
