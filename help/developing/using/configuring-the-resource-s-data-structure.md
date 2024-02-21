@@ -9,7 +9,7 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '1663'
 ht-degree: 98%
@@ -250,7 +250,7 @@ Para gerar uma nova subdimensão vinculada à dimensão de Perfil, marque a opç
 
 Em Dynamic Reporting, é possível arrastar e soltar a dimensão de campo personalizado em uma tabela de forma livre.
 
-Para obter mais informações sobre Dynamic Reporting, consulte a [Lista dos componentes](../../reporting/using/list-of-components-.md).
+Para obter mais informações sobre Dynamic Reporting, consulte a [Lista dos componentes](../../reporting/using/list-of-components.md).
 
 >[!IMPORTANT]
 >

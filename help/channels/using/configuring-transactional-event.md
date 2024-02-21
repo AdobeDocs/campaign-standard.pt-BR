@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: fc6788bf62fa66bd43b3e50fb9bc676ccb466078
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 3%
@@ -103,7 +103,7 @@ Esta é a visualização da API para este exemplo:
 
 Você pode enriquecer o conteúdo da mensagem transacional com informações do banco de dados do Adobe Campaign para personalizar suas mensagens. A partir do sobrenome ou da ID do CRM de cada um dos recipients, por exemplo, é possível recuperar dados como endereço ou data de nascimento, ou qualquer outro campo personalizado adicionado à tabela de Perfil para personalizar as informações enviadas a eles.
 
-É possível enriquecer o conteúdo da mensagem transacional com informações do **[!UICONTROL Profile and services Ext API]**. Para obter mais informações, consulte [Extensão da API: publicação da extensão](../../developing/using/step-2--publish-the-extension.md)
+É possível enriquecer o conteúdo da mensagem transacional com informações do **[!UICONTROL Profile and services Ext API]**. Para obter mais informações, consulte [Extensão da API: publicação da extensão](../../developing/using/step-2-publish-the-extension.md)
 
 Essas informações também podem ser armazenadas em novos recursos. Nesse caso, o recurso deve estar vinculado à variável **[!UICONTROL Profile]** ou **[!UICONTROL Service]** recursos diretamente ou por outra tabela. Por exemplo, na configuração abaixo, é possível enriquecer o conteúdo da mensagem transacional com informações do **[!UICONTROL Product]** como a categoria ou ID do produto, se a variável **[!UICONTROL Product]** O recurso está vinculado à variável **[!UICONTROL Profile]** recurso.
 

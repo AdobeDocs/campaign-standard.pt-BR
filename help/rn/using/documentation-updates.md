@@ -5,8 +5,8 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 8702a07c50afa82a24b79cf768ab079f6384cf3f
-workflow-type: ht
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+workflow-type: tm+mt
 source-wordcount: '7258'
 ht-degree: 100%
 
@@ -898,7 +898,7 @@ Atualização da seção de criação do serviço. [Leia mais](../../audiences/u
 
 Casos de uso foram adicionados para melhor compreensão de grupos e unidades de segurança. [Leia mais](../../administration/using/organizational-units.md)
 
-Definições e cálculos de dimensões, métricas e segmentos em relatórios dinâmicos foram aprimorados. [Leia mais](../../reporting/using/list-of-components-.md)
+Definições e cálculos de dimensões, métricas e segmentos em relatórios dinâmicos foram aprimorados. [Leia mais](../../reporting/using/list-of-components.md)
 
 Foram adicionadas informações sobre como recuperar mensagens SMS recebidas com um workflow. [Leia mais](../../administration/using/configuring-sms-channel.md)
 
@@ -958,7 +958,7 @@ Aprimoramento nas assinaturas em massa - [Leia mais](../../automating/using/subs
 
 **Outras atualizações de documentação incluídas na versão**
 
-Lista detalhada de todos os componentes disponíveis nos Relatórios dinâmicos e algumas alterações em fórmulas. [Leia mais](../../reporting/using/list-of-components-.md)
+Lista detalhada de todos os componentes disponíveis nos Relatórios dinâmicos e algumas alterações em fórmulas. [Leia mais](../../reporting/using/list-of-components.md)
 
 Lista detalhada de KPIs compartilhados com o Adobe Analytics. [Leia mais](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
@@ -1010,7 +1010,7 @@ A documentação de renderização de Emails foi atualizada. [Leia mais](../../s
 
 A tabela de cálculo de indicadores de relatórios foi atualizada. [Leia mais](../../reporting/using/indicator-calculation.md)
 
-A documentação dos relatórios foi atualizada com quatro novas métricas. [Leia mais](../../reporting/using/list-of-components-.md)
+A documentação dos relatórios foi atualizada com quatro novas métricas. [Leia mais](../../reporting/using/list-of-components.md)
 
 Documentação adicionada sobre a geração de IDs exclusivas para perfis. [Leia mais](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)
 

@@ -4,7 +4,7 @@ user-guide-title: Campaign Standard
 user-guide-description: Documentação do produto do Adobe Campaign Standard.
 title: Manual do Campaign Standard
 breadcrumb-title: Documentação do Campaign Standard
-source-git-commit: 64e3bb463497548d6fbae80f00b8c963b65c4f40
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 100%
@@ -201,7 +201,7 @@ ht-degree: 100%
    + Sobre relatórios {#about-reporting}
       + [Sobre relatórios dinâmicos](reporting/using/about-dynamic-reports.md)
       + [Interface de relatórios](reporting/using/reporting-interface.md)
-      + [Lista de componentes](reporting/using/list-of-components-.md)
+      + [Lista de componentes](reporting/using/list-of-components.md)
       + [Cálculo do indicador](reporting/using/indicator-calculation.md)
       + [Solução de problemas](reporting/using/troubleshooting.md)
    + Lista de relatórios {#list-of-reports}
@@ -233,7 +233,7 @@ ht-degree: 100%
       + [Sobre a integração do Campaign com o Experience Manager](integrating/using/integrating-with-experience-manager.md)
       + [Configuração da integração do Campaign com o Experience Manager](integrating/using/configure-experience-manager.md)
       + [Criação de conteúdo de email no Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
-      + [Criação de um formulário do Campaign no Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+      + [Criação de um formulário do Campaign no Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager.md)
       + [Criação de um email multilíngue com a integração do Adobe Experience Manager](integrating/using/creating-multilingual-email-aem.md)
    + Campaign e Target {#working-with-campaign-and-target}
       + [Sobre a integração do Campaign com o Target](integrating/using/about-campaign-target-integration.md)
@@ -397,11 +397,11 @@ ht-degree: 100%
       + [Atualização da estrutura do banco de dados](developing/using/updating-the-database-structure.md)
       + [Exclusão de um recurso](developing/using/deleting-a-resource.md)
       + [Chamada de um recurso usando uma chave de identificação composta](developing/using/uc-calling-resource-id-key.md)
-   + Caso de uso: extensão da API {#use-case--extending-the-api}
+   + Caso de uso: extensão da API {#use-case-extending-the-api}
       + [Sobre a extensão da API](developing/using/about-extending-the-api.md)
-      + [Etapa 1: adicionar campos de extensão ao recurso de perfil](developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
-      + [Etapa 2: publicar a extensão](developing/using/step-2--publish-the-extension.md)
-      + [Etapa 3: verificar a extensão](developing/using/step-3--verify-the-extension.md)
+      + [Etapa 1: adicionar campos de extensão ao recurso de perfil](developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
+      + [Etapa 2: publicar a extensão](developing/using/step-2-publish-the-extension.md)
+      + [Etapa 3: verificar a extensão](developing/using/step-3-verify-the-extension.md)
    + Casos de uso: extensão dos recursos {#use-cases--extending-resources}
       + [Extensão do recurso de perfil com um novo campo](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [Extensão das subscrições para um recurso de aplicativo](developing/using/extending-the-subscriptions-to-an-application-resource.md)

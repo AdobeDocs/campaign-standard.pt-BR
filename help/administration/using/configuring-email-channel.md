@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
+source-git-commit: 3acca24c9a5616ae993b7e734e2448c3520baf79
 workflow-type: tm+mt
-source-wordcount: '2683'
-ht-degree: 61%
+source-wordcount: '2714'
+ht-degree: 59%
 
 ---
 
@@ -25,11 +25,15 @@ A tela de configuração de email permite definir os parâmetros do canal de ema
 
 * **Campos de máscaras autorizados**
 
-  A seção **[!UICONTROL Header parameters of sent emails]** lista os endereços de email autorizados que você pode usar para enviar emails para os seus recipients (endereço do remetente) e permitir que eles enviem respostas automatizadas, como rejeições assíncronas, respostas fora do escritório etc. (endereço de erro).  O Adobe Campaign verifica se os endereços inseridos são válidos durante a fase de preparação da mensagem. Esse modo operacional garante que não sejam usados endereços que possam causar problemas de entrega.
+  A seção **[!UICONTROL Header parameters of sent emails]** lista os endereços de email autorizados que você pode usar para enviar emails para os seus recipients (endereço do remetente) e permitir que eles enviem respostas automatizadas, como rejeições assíncronas, respostas fora do escritório etc. (endereço de erro).
+
+  O Adobe Campaign verifica se os endereços inseridos são válidos durante a fase de preparação da mensagem. Esse modo operacional garante que não sejam usados endereços que possam causar problemas de entrega.
+
    * O endereço de remetente e de erro são configurados pela Adobe. Esses campos não podem estar vazios.
    * Não é possível editar esses campos. Para atualizar um endereço, entre em contato com a equipe de Atendimento ao cliente da Adobe.
    * Para adicionar outro endereço, é possível usar [Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=pt-BR) para configurar um novo subdomínio ou entre em contato com a equipe de Atendimento ao cliente do Adobe. Observe que, se forem usadas várias máscaras, elas serão separadas por vírgulas.
-   * É uma boa prática definir endereços usando uma estrela, como *@yourdomain.com. Ela permite que você use qualquer endereço que termine com seu nome de subdomínio.
+   * É uma boa prática definir endereços usando uma estrela, como **@yourdomain.com**: permite usar qualquer endereço que termine com seu nome de subdomínio.
+   * O Campaign oferece suporte pronto para uso, Google e Yahoo **Lista De Um Clique - Cancelar Inscrição** capacidade. Observe que, se você modificar o valor do cabeçalho em modelos personalizados, isso poderá quebrar a conformidade com o Google/Yahoo **Lista De Um Clique - Cancelar Inscrição**.
 
 * **Avaliação da entrega**
 

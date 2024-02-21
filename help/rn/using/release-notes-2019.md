@@ -6,7 +6,7 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '7674'
 ht-degree: 9%
@@ -61,7 +61,7 @@ ht-degree: 9%
 * A janela pop-up de consentimento para os relatórios dinâmicos foi atualizada para incluir a integração do Adobe Campaign Standard e do Microsoft Dynamics 365. Ao aceitar os termos, os dados do perfil serão incluídos ao usar a integração Adobe Campaign Standard/Microsoft Dynamics 365 e os Relatórios dinâmicos. [Leia mais](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * Correção de um problema que exibia datas de contato incorretas ao receber alertas de entrega.
 * Quando um evento de mensagem transacional é enviado com um parâmetro de contexto desconhecido, o Campaign agora retorna uma mensagem de erro &quot;400&quot; em vez de &quot;500&quot;. (CAMP-28632)
-* Um novo **Excluir prova** segmento foi adicionado em Relatórios dinâmicos. Esse segmento agora é selecionado por padrão para filtrar seus relatórios. [Leia mais](../../reporting/using/list-of-components-.md#segments)
+* Um novo **Excluir prova** segmento foi adicionado em Relatórios dinâmicos. Esse segmento agora é selecionado por padrão para filtrar seus relatórios. [Leia mais](../../reporting/using/list-of-components.md#segments)
 * A variável **Expiração da mensagem** foi adicionada uma opção à notificação por push. Ela permite especificar uma data de expiração na qual a mensagem não será mais enviada pelo Apple (APNS) ou pelo Android (FCM). [Leia mais](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
 * Foram introduzidas melhorias no **Carregar arquivo** atividade: os logs de workflow ficaram mais claros e detalhados sobre o erro que ocorre quando um arquivo não é carregado. A transição de saída gerada ao ativar o **Manter as recusas em um arquivo** A opção foi renomeada **Rejeições**. [Leia mais](../../automating/using/load-file.md)
 * Registros multilíngues relacionados foram adicionados aos registros de envio para entender melhor as falhas de envio devido à falta de idiomas nos arquivos CSV carregados.
@@ -263,13 +263,13 @@ ht-degree: 9%
 
 ## Versão 19.2.4 - junho de 2019 {#release-19-2-4---june-2019}
 
-**Email Designer**
+**Designer de email**
 
 * Correção de um problema que impedia os usuários de editar fragmentos quando tags de estilo vazias eram usadas no HTML. Esta é uma correção de acompanhamento para CAMP-33778 na versão 19.2.3.
 
 ## Versão 19.2.3 - junho de 2019 {#release-19-2-3---june-2019}
 
-**Email Designer**
+**Designer de email**
 
 Uma série de melhorias e correções foram introduzidas para otimizar fragmentos na versão 19.2. Fragmentos recém-criados funcionarão perfeitamente. Os fragmentos criados anteriormente foram esmaecidos e precisam ser migrados para o novo formato. Para fazer isso, clique em cada fragmento e valide a migração para o novo formato. Recomendamos testar alguns fragmentos antes de migrar todos eles.
 
@@ -564,7 +564,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * A lista de países disponíveis ao definir o endereço de um perfil foi enriquecida. (CAMP-26707)
 * Uma mensagem de erro agora é exibida ao tentar importar um fluxo de trabalho integrado.
 
-**Email Designer**
+**Designer de email**
 
 * Correção de um problema que ativava o recurso de unidade geográfica em um modelo de email ou fragmento de conteúdo criado com o Designer de email, mesmo que esse recurso estivesse desativado no Adobe Campaign, o que tornava o modelo ou fragmento indisponível ao tentar acessá-lo novamente. (CAMP-28174)
 * Correção de um problema que impedia que as condições de conteúdo dinâmico fossem salvas ao editar conteúdo com o Designer de email. (CAMP-27905)

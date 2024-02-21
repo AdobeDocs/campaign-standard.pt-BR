@@ -8,7 +8,7 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: fc3b28f3-63f6-4edc-923d-c7eb7925d1b7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 2%
@@ -62,8 +62,8 @@ A tabela abaixo exibe o que acontece após aceitar este contrato, dependendo da 
 
 |  | Relatórios dinâmicos | Conector do Microsoft Dynamics 365 |
 |---|---|---|
-| Américas e APAC (Ásia-Pacífico) | **Recurso disponível**. <br>Todas as informações prontas para uso (ou seja, cidade, país/região, estado, gênero e segmentos com base na idade) e perfis personalizados são enviadas para o centro de relatórios dos EUA. Para obter mais informações sobre dimensões de perfil, consulte esta [página](../../reporting/using/list-of-components-.md) | **Recurso disponível**. <br>Todos os campos de perfis prontos para uso e personalizados e campos de eventos do Adobe Campaign Standard são processados no data center dos EUA. |
-| EMEA (Europa, Oriente Médio e África) | **Recurso disponível**. <br>Todas as informações prontas para uso (ou seja, cidade, país/região, estado, gênero e segmentos com base na idade) e perfis personalizados são enviadas para o centro de relatórios EMEA. Para obter mais informações sobre dimensões de perfil, consulte esta [página](../../reporting/using/list-of-components-.md) | **Recurso disponível.** <br>Todos os campos de perfis prontos para uso e personalizados e campos de eventos do Adobe Campaign Standard são processados no data center da EMEA. <br>**[!UICONTROL Control data]**que contém dados de registro de Adobe I/O e IDs de eventos de usuários finais do cliente enviados e armazenados no data center dos EUA. |
+| Américas e APAC (Ásia-Pacífico) | **Recurso disponível**. <br>Todas as informações prontas para uso (ou seja, cidade, país/região, estado, gênero e segmentos com base na idade) e perfis personalizados são enviadas para o centro de relatórios dos EUA. Para obter mais informações sobre dimensões de perfil, consulte esta [página](../../reporting/using/list-of-components.md) | **Recurso disponível**. <br>Todos os campos de perfis prontos para uso e personalizados e campos de eventos do Adobe Campaign Standard são processados no data center dos EUA. |
+| EMEA (Europa, Oriente Médio e África) | **Recurso disponível**. <br>Todas as informações prontas para uso (ou seja, cidade, país/região, estado, gênero e segmentos com base na idade) e perfis personalizados são enviadas para o centro de relatórios EMEA. Para obter mais informações sobre dimensões de perfil, consulte esta [página](../../reporting/using/list-of-components.md) | **Recurso disponível.** <br>Todos os campos de perfis prontos para uso e personalizados e campos de eventos do Adobe Campaign Standard são processados no data center da EMEA. <br>**[!UICONTROL Control data]**que contém dados de registro de Adobe I/O e IDs de eventos de usuários finais do cliente enviados e armazenados no data center dos EUA. |
 
 A tabela abaixo exibe o que acontece após a recusa deste contrato, dependendo da sua região. Observe que mesmo que você recuse esse contrato, os relatórios de deliveries e a integração com o Microsoft Dynamics 365 ainda estarão disponíveis.
 
