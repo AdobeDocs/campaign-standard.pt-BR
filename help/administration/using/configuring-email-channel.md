@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 3acca24c9a5616ae993b7e734e2448c3520baf79
+source-git-commit: 3baadaf774092bb48a029e098e8f56170660400b
 workflow-type: tm+mt
-source-wordcount: '2714'
-ht-degree: 59%
+source-wordcount: '2737'
+ht-degree: 58%
 
 ---
 
@@ -33,7 +33,6 @@ A tela de configuração de email permite definir os parâmetros do canal de ema
    * Não é possível editar esses campos. Para atualizar um endereço, entre em contato com a equipe de Atendimento ao cliente da Adobe.
    * Para adicionar outro endereço, é possível usar [Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=pt-BR) para configurar um novo subdomínio ou entre em contato com a equipe de Atendimento ao cliente do Adobe. Observe que, se forem usadas várias máscaras, elas serão separadas por vírgulas.
    * É uma boa prática definir endereços usando uma estrela, como **@yourdomain.com**: permite usar qualquer endereço que termine com seu nome de subdomínio.
-   * O Campaign oferece suporte pronto para uso, Google e Yahoo **Lista De Um Clique - Cancelar Inscrição** capacidade. Observe que, se você modificar o valor do cabeçalho em modelos personalizados, isso poderá quebrar a conformidade com o Google/Yahoo **Lista De Um Clique - Cancelar Inscrição**.
 
 * **Avaliação da entrega**
 
@@ -294,6 +293,14 @@ A seção **[!UICONTROL SMTP]** contém os seguintes parâmetros:
   >[!IMPORTANT]
   >
   >Adicionar um script para inserir cabeçalhos SMTP adicionais é apenas para usuários avançados. A sintaxe desse script deve estar em conformidade com os requisitos desse tipo de conteúdo: não há espaço não utilizado, nenhuma linha vazia etc.
+
+  A partir de 1 de junho de 2024, o Google e o Yahoo! exigirá que os remetentes cumpram as **Lista De Um Clique - Cancelar Inscrição**. O Campaign oferece suporte pronto para uso a esse recurso. [Saiba mais sobre esta alteração](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#1-click-(list)-unsubscribe%3A){target="_blank"}
+
+  >[!CAUTION]
+  >
+  >Se você modificar o valor do cabeçalho na variável **[!UICONTROL Additional SMTP headers]** de seus modelos de email, isso pode quebrar a conformidade com as **Lista De Um Clique - Cancelar Inscrição** requisito do Google e do Yahoo!.
+
+  <!--Campaign supports, out-of-the-box, Google and Yahoo **One-Click List-Unsubscribe** capability. Be aware that if you modify the header value in custom templates, it could break the compliance with Google/Yahoo **One-Click List-Unsubscribe**.-->
 
 ### Lista dos parâmetros de autorização de acesso {#list-of-access-authorization-parameters}
 
