@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 3baadaf774092bb48a029e098e8f56170660400b
+source-git-commit: 26a1c36003645446fb8b827d76afba749d64e9f2
 workflow-type: tm+mt
-source-wordcount: '2737'
-ht-degree: 58%
+source-wordcount: '2729'
+ht-degree: 59%
 
 ---
 
@@ -294,13 +294,11 @@ A seção **[!UICONTROL SMTP]** contém os seguintes parâmetros:
   >
   >Adicionar um script para inserir cabeçalhos SMTP adicionais é apenas para usuários avançados. A sintaxe desse script deve estar em conformidade com os requisitos desse tipo de conteúdo: não há espaço não utilizado, nenhuma linha vazia etc.
 
-  A partir de 1 de junho de 2024, o Google e o Yahoo! exigirá que os remetentes cumpram as **Lista De Um Clique - Cancelar Inscrição**. O Campaign oferece suporte pronto para uso a esse recurso. [Saiba mais sobre esta alteração](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#1-click-(list)-unsubscribe%3A){target="_blank"}
+  A partir de 1 de junho de 2024, o Google e o Yahoo! exigirá que os remetentes cumpram as **Lista De Um Clique - Cancelar Inscrição**. O Campaign oferece suporte a esse recurso pronto para uso.
 
   >[!CAUTION]
   >
   >Se você modificar o valor do cabeçalho na variável **[!UICONTROL Additional SMTP headers]** de seus modelos de email, isso pode quebrar a conformidade com as **Lista De Um Clique - Cancelar Inscrição** requisito do Google e do Yahoo!.
-
-  <!--Campaign supports, out-of-the-box, Google and Yahoo **One-Click List-Unsubscribe** capability. Be aware that if you modify the header value in custom templates, it could break the compliance with Google/Yahoo **One-Click List-Unsubscribe**.-->
 
 ### Lista dos parâmetros de autorização de acesso {#list-of-access-authorization-parameters}
 
