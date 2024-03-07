@@ -9,7 +9,7 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 2%
@@ -88,7 +88,7 @@ No **[!UICONTROL General]** , defina o **[!UICONTROL Execution frequency]** (por
 
 ### Configure o **[!UICONTROL Incremental query]** atividade.
 
-1. No **[!UICONTROL Properties]** clique na guia **[!UICONTROL Select an element]** ícone do **[!UICONTROL Resource]** e selecione o **[!UICONTROL Subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** elemento.
+1. No **[!UICONTROL Properties]** clique na guia **[!UICONTROL Select an element]** ícone do **[!UICONTROL Resource]** e selecione o **[!UICONTROL Subscriptions to an application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`)]** elemento.
 
    ![](assets/update_profile3.png)
 

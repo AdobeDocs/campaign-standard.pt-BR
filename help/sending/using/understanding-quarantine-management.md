@@ -8,10 +8,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: eec8c66d4947e04cd0eb3dcf0f09d395d9db68b9
+source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 64%
+source-wordcount: '1430'
+ht-degree: 63%
 
 ---
 
@@ -116,7 +116,7 @@ O número máximo de tentativas a serem executadas em caso de **[!UICONTROL Erro
 
 >[!IMPORTANT]
 >
->Os recipients com um endereço em um status **[!UICONTROL Quarantine]** ou **[!UICONTROL Denylisted]** nunca serão removidos, mesmo se receberem um email.
+Os recipients com um endereço em um status **[!UICONTROL Quarantine]** ou **[!UICONTROL Denylisted]** nunca serão removidos, mesmo se receberem um email.
 
 
 ### Atualizações manuais {#unquarantine-manual}
@@ -140,12 +140,12 @@ Para fazer isso, crie um fluxo de trabalho e adicione uma atividade **[!UICONTRO
 
 Com base no período do incidente, abaixo estão as diretrizes recomendadas para esse query.
 
-* **Texto de erro (texto de quarentena)** contém “550-5.1.1” E **Texto de erro (texto de quarentena)** contém “support.ISP.com”
+* **O texto de erro (texto de quarentena)** contém “550-5.1.1” E **o texto de erro (texto de quarentena)** contém “support.ISP.com”,
 
-  em que “support.ISP.com” pode ser: “support.apple.com” ou “support.google.com” por exemplo
+  onde “support.ISP.com” pode ser “support.apple.com” ou “support.google.com”, por exemplo
 
-* **Atualizar status (@lastModified)** em ou após MM/DD/AAAA HH:MM:SS AM
-* **Atualizar status (@lastModified)** em ou antes de MM/DD/AAAA HH:MM:SS PM
+* **Atualizar status (@lastModified)** em ou depois de `MM/DD/YYYY HH:MM:SS AM`
+* **Atualizar status (@lastModified)** em ou antes de  `MM/DD/YYYY HH:MM:SS PM`
 
 Depois de ter a lista de recipients afetados, adicione uma atividade **[!UICONTROL Update data]** para definir seu status de endereço de email como **[!UICONTROL Valid]** para que eles sejam removidos da lista de quarentena pelo fluxo de trabalho **[!UICONTROL Database cleanup]**. Também é possível excluí-los da tabela de quarentena.
 
@@ -166,7 +166,7 @@ Se um usuário qualificar um email como spam ([loop de feedback](https://experie
 
 >[!NOTE]
 >
->A quarentena no Adobe Campaign diferencia maiúsculas de minúsculas. Certifique-se de importar endereços de email em letras minúsculas, para que não sejam redirecionados posteriormente.
+A quarentena no Adobe Campaign diferencia maiúsculas de minúsculas. Certifique-se de importar endereços de email em letras minúsculas, para que não sejam redirecionados posteriormente.
 
 Na lista de endereços em quarentena (consulte [Identificação de endereços em quarentena para toda a plataforma](#identifying-quarantined-addresses-for-the-entire-platform)), o campo **[!UICONTROL Error reason]** indica por que o endereço selecionado foi colocado em quarentena.
 

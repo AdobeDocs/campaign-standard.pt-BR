@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 39%
@@ -37,7 +37,7 @@ A preparação da mensagem é acionada de acordo com os parâmetros de execuçã
 
    * Dimensão de direcionamento deve ser definida como **[!UICONTROL mobileApp (mobileAppV5)]** para o **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]** modelo.
    * Dimensão de direcionamento deve ser definida como **[!UICONTROL profile (profile)]** para o **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** modelo.
-   * Dimensão de direcionamento deve ser definida como **[!UICONTROL subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** para o **[!UICONTROL Target users based on their Mobile profile (inApp)]** modelo.
+   * Dimensão de direcionamento deve ser definida como **[!UICONTROL subscriptions to an application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`)]** para o **[!UICONTROL Target users based on their Mobile profile (inApp)]** modelo.
 
 1. Arraste e solte uma atividade **[!UICONTROL In-App delivery]** no seu fluxo de trabalho.
 1. Selecione e abra a atividade usando o botão ![](assets/edit_darkgrey-24px.png) das ações rápidas exibidas.
