@@ -66,7 +66,7 @@ Os fluxos de trabalho técnicos são usados para lidar com processos técnicos e
   <tr> 
    <td> <span class="uicontrol">Compartilhamento instantâneo de relatório</span> <br /> </td> 
    <td> <span class="uicontrol">reportSendingNow</span> <br /> </td> 
-   <td> Este fluxo de trabalho é iniciado assim que um relatório é programado para ser enviado. Ele converte o relatório em um arquivo pdf e o envia em um email para os recipients direcionados.<br /> </td> 
+   <td> Este fluxo de trabalho é iniciado assim que um relatório é programado para ser enviado. Ele converte o relatório em um arquivo pdf e o envia em um email para os destinatários direcionados.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Reconciliação de KPIs com o Adobe Analytics</span> <br /> </td> 

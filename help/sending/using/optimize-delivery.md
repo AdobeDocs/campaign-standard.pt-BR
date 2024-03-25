@@ -26,7 +26,7 @@ A seção a seguir descreve as práticas e os procedimentos recomendados para a 
 
 Vários fatores podem afetar diretamente o desempenho do servidor e retardar a plataforma:
 
-* O número e o tipo de elementos de personalização: a personalização em emails extrai dados do banco de dados para cada recipient. Se houver muitos elementos de personalização, isso aumentará a quantidade de dados necessários para preparar a entrega.  Saiba mais sobre a personalização de email no [nesta seção](../../designing/using/personalization.md)
+* O número e o tipo de elementos de personalização: a personalização em emails extrai dados do banco de dados para cada destinatário. Se houver muitos elementos de personalização, isso aumentará a quantidade de dados necessários para preparar a entrega.  Saiba mais sobre a personalização de email no [nesta seção](../../designing/using/personalization.md)
 
 * A carga do servidor: quando o Campaign estiver lidando com várias tarefas diferentes ao mesmo tempo, o desempenho poderá ser retardado. O servidor precisa coordenar todos os dados de entrada e saída de todos os deliveries para garantir que os dados estejam corretos no momento correto.
 
@@ -44,7 +44,7 @@ Para otimizar a entrega ao manipular emails em grandes volumes e evitar ser conf
 
 ## Gerenciamento de avaliação de entrega {#deliverability-management}
 
-Para alcançar a caixa de entrada de seus recipients sem ser rejeitado ou ser marcado como spam, você precisa melhorar a taxa de entrega de suas mensagens.
+Para alcançar a caixa de entrada de seus destinatários sem ser rejeitado ou ser marcado como spam, você precisa melhorar a taxa de entrega de suas mensagens.
 
 * O que é a capacidade de entrega?
 
@@ -64,7 +64,7 @@ Ao começar a enviar e-mails em uma nova plataforma, você pode usar uma lista d
 
 **Dicas**
 
-* Os recipients cujos endereços estão em quarentena são excluídos por padrão durante a análise de entrega: não são direcionados. Isso irá acelerar as entregas, pois a taxa de erro tem um efeito significativo na velocidade da entrega. Um endereço de email pode ser colocado em quarentena, por exemplo, quando a caixa de entrada estiver cheia ou se o endereço não existir. [Saiba mais](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
+* Os destinatários cujos endereços estão em quarentena são excluídos por padrão durante a análise de entrega: não são direcionados. Isso irá acelerar as entregas, pois a taxa de erro tem um efeito significativo na velocidade da entrega. Um endereço de email pode ser colocado em quarentena, por exemplo, quando a caixa de entrada estiver cheia ou se o endereço não existir. [Saiba mais](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
 
 * O Adobe Campaign gerencia endereços incorretos de acordo com o tipo de erro retornado. Para obter mais informações, consulte [esta seção](../../sending/using/understanding-quarantine-management.md).
 

@@ -4,8 +4,9 @@ description: Essa página lista todas as versões de 2023 do Adobe Campaign Stan
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: e5feb1c5e66130fc56d53a9473414743017b0003
-workflow-type: ht
+exl-id: 5817c4d2-4788-4695-bf9a-ec04cc042190
+source-git-commit: 30e96494dd7fa3313601e48deeec8ef98dcdce85
+workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 100%
 

@@ -79,4 +79,4 @@ Agora é possível executar o workflow e recuperar o arquivo de saída no servid
 
 **Tópicos relacionados:**
 
-[Workflows](../../automating/using/get-started-workflows.md)
+[Fluxos de trabalho](../../automating/using/get-started-workflows.md)

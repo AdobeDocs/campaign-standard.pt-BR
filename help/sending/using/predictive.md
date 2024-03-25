@@ -25,13 +25,13 @@ Com o Campaign, você pode otimizar o design e a entrega de jornadas de clientes
 
 A Adobe Campaign oferece dois novos modelos de aprendizado de máquina: **Otimização preditiva do tempo de envio** e **Pontuação preditiva de engajamento**. Esses dois modelos são modelos de aprendizado de máquina específicos para projetar e fornecer melhores jornadas ao cliente.
 
-* **Otimização preditiva do tempo de envio** O prevê qual é o melhor momento de envio para cada perfil de recipient para aberturas ou cliques de email e aberturas de mensagem por push. As pontuações indicam o melhor horário de envio para cada dia da semana e qual o melhor dia para enviar a fim de obter melhores resultados para cada perfil de recipient.
+* **Otimização preditiva do tempo de envio** O prevê qual é o melhor momento de envio para cada perfil de recipient para aberturas ou cliques de email e aberturas de mensagem por push. As pontuações indicam o melhor horário de envio para cada dia da semana e qual o melhor dia para enviar a fim de obter melhores resultados para cada perfil de destinatário.
 
 * **Pontuação preditiva de engajamento**: prevê a probabilidade de engajamento de um recipient em uma mensagem, bem como a probabilidade de opt out (cancelamento de inscrição) nos próximos 7 dias após o próximo envio de email. As probabilidades são divididas em grupos de acordo com o nível previsto de engajamento com seu conteúdo: alto, médio ou baixo. Esses modelos também fornecem a classificação do percentil de risco de cancelamento de subscrição para que os clientes entendam onde está a classificação de um determinado cliente em relação a outros.
 
 ## Otimização preditiva do tempo de envio{#predictive-send-time}
 
-A Otimização preditiva de tempo de envio prevê qual é o melhor momento de envio para cada perfil de recipient para aberturas ou cliques de email e aberturas de mensagem por push. As pontuações indicam o melhor horário de envio para cada dia da semana e qual o melhor dia para enviar a fim de obter melhores resultados para cada perfil de recipient.
+A Otimização preditiva de tempo de envio prevê qual é o melhor momento de envio para cada perfil de recipient para aberturas ou cliques de email e aberturas de mensagem por push. As pontuações indicam o melhor horário de envio para cada dia da semana e qual o melhor dia para enviar a fim de obter melhores resultados para cada perfil de destinatário.
 
 No modelo de Otimização preditiva de tempo de envio, há dois submodelos:
 
@@ -116,9 +116,9 @@ A Pontuação preditiva de engajamento permite:
 Este modelo usa várias pontuações para indicar:
 
 * **Pontuação de engajamento ao abrir/Pontuação de engajamento ao clicar**: esse valor corresponde à probabilidade de um assinante se engajar com uma mensagem específica (abrir ou clicar). Os valores variam de 0,0 a 1,0.
-* **Probabilidade de cancelamento de inscrição**: esse valor corresponde à probabilidade do recipient cancelar a inscrição do canal de email considerando um email aberto. Os valores variam de 0,0 a 1,0.
+* **Probabilidade de cancelamento de inscrição**: esse valor corresponde à probabilidade do destinatário cancelar a inscrição do canal de email considerando um email aberto. Os valores variam de 0,0 a 1,0.
 * **Nível de retenção**: esse valor classifica os usuários em três níveis: baixo, médio e alto. O alto tem mais probabilidade de adesão à marca, enquanto o baixo provavelmente cancelará a assinatura.
-* **Classificação de percentual de retenção**: Classificação do perfil em termos de probabilidade de cancelamento de assinatura. Os valores variam de 0,0 a 1,0. Por exemplo, se a classificação de porcentagem de retenção for de 0,953, esse recipient terá maior probabilidade de permanecer com a marca e menos probabilidade de cancelar a assinatura do que 95,3% de todos os recipient.
+* **Classificação de percentual de retenção**: Classificação do perfil em termos de probabilidade de cancelamento de assinatura. Os valores variam de 0,0 a 1,0. Por exemplo, se a classificação de porcentagem de retenção for de 0,953, esse destinatário terá maior probabilidade de permanecer com a marca e menos probabilidade de cancelar a assinatura do que 95,3% de todos os destinatário.
 
 >[!NOTE]
 >

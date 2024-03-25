@@ -17,29 +17,29 @@ ht-degree: 100%
 
 # Otimização do tempo de envio{#optimizing-the-sending-time}
 
-Para melhorar a taxa de abertura das mensagens, é possível definir manualmente uma hora de envio por recipient. Cada perfil receberá a mensagem na data e hora especificadas, sempre que possível.
+Para melhorar a taxa de abertura das mensagens, é possível definir manualmente uma hora de envio por destinatário. Cada perfil receberá a mensagem na data e hora especificadas, sempre que possível.
 
 A definição de um tempo de envio pode ser feita em nível de entrega ou usando um workflow.
 
-Para emails, dependendo da carga do servidor e da quantidade de tentativas, será feito o melhor esforço para enviar a mensagem na data e hora agendadas para cada recipient.
+Para emails, dependendo da carga do servidor e da quantidade de tentativas, será feito o melhor esforço para enviar a mensagem na data e hora agendadas para cada destinatário.
 
 * As tentativas dependem do provedor de Internet e da sua reputação. A mensagem pode não ser aceita na primeira tentativa e várias outras tentativas podem ser realizadas. Consulte [Lista de parâmetros de canal de email](../../administration/using/configuring-email-channel.md).
 * Atrasos no recebimento do email podem ocorrer devido à falta de largura de banda.
 
-Você pode visualizar quando a mensagem foi enviada a cada recipient nos [registros de envio](../../sending/using/monitoring-a-delivery.md#sending-logs).
+Você pode visualizar quando a mensagem foi enviada a cada destinatário nos [registros de envio](../../sending/using/monitoring-a-delivery.md#sending-logs).
 
 Várias opções estão disponíveis:
 
 * **[!UICONTROL No optimization]**: as mensagens são enviadas no horário do usuário.
 
-  Por exemplo, se o fuso horário for GMT+1 e você inserir 9:00 AM no campo **[!UICONTROL Start sending from]**, um recipient localizado no fuso horário GMT+3 receberá a mensagem às 11:00 da hora local desse recipient.
+  Por exemplo, se o fuso horário for GMT+1 e você inserir 9:00 AM no campo **[!UICONTROL Start sending from]**, um destinatário localizado no fuso horário GMT+3 receberá a mensagem às 11:00 da hora local desse destinatário.
 
-* **[!UICONTROL Send at the recipient's time zone]**: todos os recipients receberão a mensagem levando em conta o fuso horário.
+* **[!UICONTROL Send at the recipient's time zone]**: todos os destinatários receberão a mensagem levando em conta o fuso horário.
 
-  Por exemplo, se você digitar 9:00 AM no campo **[!UICONTROL Start sending from]**, um recipient localizado no fuso horário GMT+3 receberá a mensagem às 9:00 AM, horário local desse recipient.
+  Por exemplo, se você digitar 9:00 AM no campo **[!UICONTROL Start sending from]**, um destinatário localizado no fuso horário GMT+3 receberá a mensagem às 9:00 AM, horário local desse destinatário.
 
-  Consulte [Enviar mensagens no fuso horário do recipient](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
+  Consulte [Enviar mensagens no fuso horário do destinatário](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
 
-* **[!UICONTROL Send at a custom date defined by a formula]**: cada recipient receberá a mensagem na data e hora configuradas pela fórmula especificada.
+* **[!UICONTROL Send at a custom date defined by a formula]**: cada destinatário receberá a mensagem na data e hora configuradas pela fórmula especificada.
 
   Consulte [Calcular a data de envio](../../sending/using/computing-the-sending-date.md).

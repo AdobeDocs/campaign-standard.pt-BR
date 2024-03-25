@@ -73,7 +73,7 @@ Quando uma notificação é recebida em um dispositivo, ela pode atualizar ou ad
 
 Um deeplink permite trazer os usuários diretamente ao conteúdo localizado dentro do aplicativo (em vez de abrir uma página do navegador da web).
 
-Um deeplink pode incluir dados de personalização para uma experiência personalizada no aplicativo. Por exemplo, os nomes dos recipients são automaticamente preenchidos na página para a qual o aplicativo os direciona.
+Um deeplink pode incluir dados de personalização para uma experiência personalizada no aplicativo. Por exemplo, os nomes dos destinatários são automaticamente preenchidos na página para a qual o aplicativo os direciona.
 
 Para adicionar um deeplink em uma notificação por push:
 

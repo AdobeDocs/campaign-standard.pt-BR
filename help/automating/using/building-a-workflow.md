@@ -56,7 +56,7 @@ A criação de uma atividade de marketing é detalhada na seção [Criar ativida
 
    ![](assets/workflow_creation_2.png)
 
-   É possível inserir um nome no campo **Label** e modificar a ID. O nome da atividade e a ID são exibidos na interface, mas não são visíveis pelos recipients da mensagem.
+   É possível inserir um nome no campo **Label** e modificar a ID. O nome da atividade e a ID são exibidos na interface, mas não são visíveis pelos destinatários da mensagem.
 
    >[!NOTE]
    >

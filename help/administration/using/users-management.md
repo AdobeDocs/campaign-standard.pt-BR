@@ -94,7 +94,7 @@ Graças ao administrador funcional e aos usuários avançados, os profissionais 
 Estas são as principais tarefas que eles podem executar:
 
 * [Gerenciar programas e campanhas](../../start/using/programs-and-campaigns.md): eles criam campanhas de marketing, inclusive diferentes tipos de atividades (emails, mensagens SMS, notificações por push, fluxos de trabalho, landing pages).
-* Gerenciar [perfis](../../audiences/using/about-profiles.md) e [perfis de teste](../../audiences/using/managing-test-profiles.md): eles gerenciam os recipients identificados e de teste que serão direcionados por suas entregas. Eles adicionam informações, como nome, sobrenome, informações de contato, assinaturas, emails etc.
+* Gerenciar [perfis](../../audiences/using/about-profiles.md) e [perfis de teste](../../audiences/using/managing-test-profiles.md): eles gerenciam os destinatários identificados e de teste que serão direcionados por suas entregas. Eles adicionam informações, como nome, sobrenome, informações de contato, assinaturas, emails etc.
 * [Criar e enviar mensagens](../../sending/using/confirming-the-send.md): eles criam a mensagem, selecionam o público-alvo, definem o conteúdo da mensagem e os elementos de personalização e enviam provas e a mensagem final para o público-alvo.
 * [Criar e publicar landings pages](../../channels/using/getting-started-with-landing-pages.md): eles criam e gerenciam um conjunto de serviços que você quer oferecer aos clientes, por exemplo, formulários de assinatura ou de unsubscription.
 * [Criar e executar workflows da campanha](../../automating/using/building-a-workflow.md): eles automatizam seus processos de campanha usando fluxos de trabalho.

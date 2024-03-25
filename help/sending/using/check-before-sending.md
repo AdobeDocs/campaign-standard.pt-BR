@@ -24,7 +24,7 @@ Antes de enviar a mensagem, verifique também se os parâmetros e a configuraç�
 
 ## Importância da validação {#validation-is-key}
 
-Antes de enviar uma entrega, você precisa garantir que seus recipients receberão a mensagem que você realmente deseja enviar. Para fazer isso é necessário validar o conteúdo da mensagem e os parâmetros da entrega.
+Antes de enviar uma entrega, você precisa garantir que seus destinatários receberão a mensagem que você realmente deseja enviar. Para fazer isso é necessário validar o conteúdo da mensagem e os parâmetros da entrega.
 
 Esta etapa permite detectar e corrigir possíveis erros antes de fazer uma entrega ao público-alvo principal.
 
@@ -56,7 +56,7 @@ Se você tiver vários conteúdos para uma entrega de email, poderá usar o test
 
 **Dicas**:
 
-* Envie as diferentes versões para alguns dos seus recipients
+* Envie as diferentes versões para alguns dos seus destinatários
 
 * Selecione aquela com a maior taxa de sucesso e envie-a para o restante do seu público-alvo
 

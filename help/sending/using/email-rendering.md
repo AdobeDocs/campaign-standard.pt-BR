@@ -46,7 +46,7 @@ Após criar a entrega de email e definir seu conteúdo, assim como o público-al
 
    >[!NOTE]
    >
-   >A opção **[!UICONTROL Proof + Email rendering]** permite enviar uma prova e usar o recurso de renderização de email simultaneamente. Você pode ter sua mensagem aprovada pelos recipients de prova e, ao mesmo tempo, pode testar a forma como ela será recebida, dependendo das caixas de entrada direcionadas. Nesse caso, também é necessário selecionar Perfis de teste de prova. Consulte [Sobre perfis de teste](../../audiences/using/managing-test-profiles.md).
+   >A opção **[!UICONTROL Proof + Email rendering]** permite enviar uma prova e usar o recurso de renderização de email simultaneamente. Você pode ter sua mensagem aprovada pelos destinatários de prova e, ao mesmo tempo, pode testar a forma como ela será recebida, dependendo das caixas de entrada direcionadas. Nesse caso, também é necessário selecionar Perfis de teste de prova. Consulte [Sobre perfis de teste](../../audiences/using/managing-test-profiles.md).
 
    A entrega de teste é enviada.
 
@@ -68,7 +68,7 @@ O relatório de renderização de email dedicado é exibido. Consulte [Descriç�
 
 ## Relatório de renderização de email {#email-rendering-report-description}
 
-Este relatório apresenta as renderizações de email conforme elas são exibidas para o recipient. As renderizações de email podem ser diferentes com base em como o recipient abre a entrega de email: em um navegador, em um dispositivo móvel ou por um aplicativo de email.
+Este relatório apresenta as renderizações de email conforme elas são exibidas para o destinatário. As renderizações de email podem ser diferentes com base em como o destinatário abre a entrega de email: em um navegador, em um dispositivo móvel ou por um aplicativo de email.
 
 ### Tokens de renderização de email
 

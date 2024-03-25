@@ -24,8 +24,8 @@ Aqui, usamos um exemplo de mensagem SMS contendo campos de personalização que,
 
 **Olá, &lt; FirstName > &lt; LastName >, novos produtos já estão disponíveis. Visite-nos e confira-os na loja!**
 
-* Para um recipient chamado &quot;John Smith&quot;, como não existem caracteres especiais, o Adobe Campaign escolherá a codificação GSM, que autorizará até 160 caracteres por mensagem SMS. A mensagem será, portanto, enviada em uma única parte.
-* Para um recipient chamado &quot;Raphaël Forêt&quot;, os caracteres &quot;ë&quot; e &quot;ê&quot; não podem ser codificados no GSM. Dependendo de a transliteração ter sido ativada ou não, o Adobe Campaign poderá selecionar entre dois comportamentos:
+* Para um destinatário chamado &quot;John Smith&quot;, como não existem caracteres especiais, o Adobe Campaign escolherá a codificação GSM, que autorizará até 160 caracteres por mensagem SMS. A mensagem será, portanto, enviada em uma única parte.
+* Para um destinatário chamado &quot;Raphaël Forêt&quot;, os caracteres &quot;ë&quot; e &quot;ê&quot; não podem ser codificados no GSM. Dependendo de a transliteração ter sido ativada ou não, o Adobe Campaign poderá selecionar entre dois comportamentos:
 
    * Se a transliteração for autorizada, as letras &quot;ë&quot; e &quot;ê&quot; serão substituídas por &quot;e&quot;, o que significa que a codificação GSM pode ser usada e, portanto, até 160 caracteres podem ser usados no SMS. Essa mensagem será enviada como uma única mensagem SMS, mas será ligeiramente alterada.
    * Se a transliteração não estiver autorizada, o Adobe Campaign escolherá enviar a mensagem em formato binário (Unicode): portanto, todos os caracteres serão enviados como estão. Como as mensagens SMS em Unicode são limitadas a 70 caracteres, o Adobe Campaign terá que enviar a mensagem em duas partes.
@@ -40,7 +40,7 @@ Aqui, usamos um exemplo de mensagem SMS contendo campos de personalização que,
 >
 >Consulte a legislação do seu país quanto à modificação do endereço do remetente. Você também deve consultar seu provedor de serviço SMS se ele oferecer essa funcionalidade.
 
-A opção **[!UICONTROL From]** permite personalizar o nome do remetente da mensagem SMS usando uma string de caracteres. Ele aparecerá como o nome do remetente da mensagem SMS no celular do recipient.
+A opção **[!UICONTROL From]** permite personalizar o nome do remetente da mensagem SMS usando uma string de caracteres. Ele aparecerá como o nome do remetente da mensagem SMS no celular do destinatário.
 
 Se esse campo estiver vazio, será usado o número de origem fornecido na conta externa. Se nenhum número de origem for fornecido, o código curto será usado. A conta externa específica da entrega de SMS é apresentada na seção [Definição de um roteamento de SMS](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 

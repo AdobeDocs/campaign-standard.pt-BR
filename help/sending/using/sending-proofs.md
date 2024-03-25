@@ -20,13 +20,13 @@ ht-degree: 98%
 
 ## Sobre provas {#about-proofs}
 
-Uma prova é uma mensagem especial com a qual é possível testar um delivery antes de enviá-lo ao público alvo principal. Os recipients da prova são responsáveis pela aprovação da mensagem (seu conteúdo e formato).
+Uma prova é uma mensagem especial com a qual é possível testar um delivery antes de enviá-lo ao público alvo principal. Os destinatários da prova são responsáveis pela aprovação da mensagem (seu conteúdo e formato).
 
-Há dois tipos de recipients de prova:
+Há dois tipos de destinatários de prova:
 
-* **Perfis de teste** permitem segmentar recipients adicionais que não correspondam aos critérios de direcionamento definidos.
+* **Perfis de teste** permitem segmentar destinatários adicionais que não correspondam aos critérios de direcionamento definidos.
 
-  Eles podem ser adicionados ao público de uma mensagem para detectar qualquer uso fraudulento do banco de dados do seu recipient ou para garantir que os emails cheguem às caixas de entrada. Para mais informações, consulte [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md).
+  Eles podem ser adicionados ao público de uma mensagem para detectar qualquer uso fraudulento do banco de dados do seu destinatário ou para garantir que os emails cheguem às caixas de entrada. Para mais informações, consulte [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md).
 
   >[!NOTE]
   >
@@ -42,7 +42,7 @@ Há dois tipos de recipients de prova:
 
 Para enviar provas, siga estas etapas:
 
-1. Verifique se os recipients da prova foram configurados:
+1. Verifique se os destinatários da prova foram configurados:
    * Os **perfis de teste** devem ser incluídos no público da sua mensagem.
    * Os **perfis de substituição** devem ser adicionados assim que a preparação da mensagem tiver sido realizada com êxito (consulte [esta seção](../../sending/using/testing-messages-using-target.md)).
 
@@ -53,7 +53,7 @@ Para enviar provas, siga estas etapas:
 1. Selecione o tipo de prova que deseja usar:
 
    * **[!UICONTROL Email rendering]**: selecione essa opção para testar a maneira com que sua mensagem é recebida de acordo com as caixas de entrada segmentadas. Para mais informações, consulte [Renderização de email](../../sending/using/email-rendering.md).
-   * **[!UICONTROL Proof]**: selecione essa opção para testar a mensagem antes de enviá-la para o público alvo principal. Os recipients de prova são responsáveis pela aprovação da entrega, verificando o conteúdo e o formato.
+   * **[!UICONTROL Proof]**: selecione essa opção para testar a mensagem antes de enviá-la para o público alvo principal. Os destinatários de prova são responsáveis pela aprovação da entrega, verificando o conteúdo e o formato.
    * **[!UICONTROL Proof + Email rendering]**: essa opção combina as duas opções anteriores.
 
    ![](assets/bat_select1.png)
@@ -64,7 +64,7 @@ Para enviar provas, siga estas etapas:
 
 1. Confirme sua escolha.
 
-   As provas são enviadas para os recipients que foram configurados.
+   As provas são enviadas para os destinatários que foram configurados.
 
    ![](assets/bat_select2.png)
 

@@ -57,7 +57,7 @@ Há várias maneiras de monitorar um delivery e medir seu impacto. Como administ
 
 ### Logs de envio {#sending-logs}
 
-A guia **[!UICONTROL Sending logs]** tem um histórico de todas as ocorrências da entrega. A lista de mensagens enviadas com os status é armazenada aqui. Assim, você pode exibir o status da entrega para cada recipient.
+A guia **[!UICONTROL Sending logs]** tem um histórico de todas as ocorrências da entrega. A lista de mensagens enviadas com os status é armazenada aqui. Assim, você pode exibir o status da entrega para cada destinatário.
 
 Para cada perfil com status **[!UICONTROL Sent]**, a coluna **[!UICONTROL Date]** mostra quando a mensagem foi enviada.
 

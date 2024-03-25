@@ -41,7 +41,7 @@ A barra de ação contém botões diferentes que permitem a interação com o co
    <td> <img height="21px" src="assets/viewon_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Pré-visualizar</span> <br /> </td> 
    <td> Somente SMS<br /> </td> 
-   <td> Permite ver como o email é renderizado para um recipient. Consulte <a href="../../sending/using/previewing-messages.md">Pré-visualização de mensagens</a>.<br /> </td> 
+   <td> Permite ver como o email é renderizado para um destinatário. Consulte <a href="../../sending/using/previewing-messages.md">Pré-visualização de mensagens</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/undo_darkgrey-24px.png" /> <br /> </td> 

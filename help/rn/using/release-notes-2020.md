@@ -178,7 +178,7 @@ ht-degree: 97%
 * Correção de um problema que ocorria ao fazer upload de uma chave do Android em aplicativo móvel. A mensagem que aparecia depois de fazer upload da chave com êxito exibia o valor da chave anterior.
 * Correção de um problema que impedia a criação de perfis de teste a partir de mensagens transacionais após a criação de uma configuração de evento com uma coleção sem atributo.
 * Correção de um problema que poderia impedir a publicação de recursos personalizados após a criação de um novo filtro usando uma agregação.
-* Correção de um problema causado pelo proxy de imagem do Gmail que ocasionava uma taxa de abertura de rastreamento incorreta para recipients do Gmail.
+* Correção de um problema causado pelo proxy de imagem do Gmail que ocasionava uma taxa de abertura de rastreamento incorreta para destinatários do Gmail.
 * Correção de um problema que causava erros de falta de memória ao importar um pacote.
 * Correção de um problema que causava a falha da ação de desvinculação do Experience Manager quando o seu conteúdo incluía um caminho com um caractere &quot;%20&quot;.
 * Correção de um erro nos rótulos ao duplicar atividades de workflow.

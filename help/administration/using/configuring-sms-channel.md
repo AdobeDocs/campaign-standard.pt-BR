@@ -343,12 +343,12 @@ No **[!UICONTROL Send]** seção de um modelo SMS:
 
   >[!IMPORTANT]
   >
-  >Se você tiver inserido campos de personalização ou texto condicional no conteúdo da mensagem SMS, o comprimento da mensagem e, consequentemente, o número de mensagens SMS a serem enviadas, poderão variar de um recipient para outro. Para saber mais, consulte a seção [Personalização de mensagens SMS](../../channels/using/personalizing-sms-messages.md).
+  >Se você tiver inserido campos de personalização ou texto condicional no conteúdo da mensagem SMS, o comprimento da mensagem e, consequentemente, o número de mensagens SMS a serem enviadas, poderão variar de um destinatário para outro. Para saber mais, consulte a seção [Personalização de mensagens SMS](../../channels/using/personalizing-sms-messages.md).
 
   ![](assets/sms_smpp_3.png)
 
 * O campo **[!UICONTROL Transmission mode]** permite determinar o método de entrega das mensagens SMS:
 
-   * **[!UICONTROL Saved on SIM card]**: a mensagem é armazenada no cartão SIM do telefone do recipient.
+   * **[!UICONTROL Saved on SIM card]**: a mensagem é armazenada no cartão SIM do telefone do destinatário.
    * **[!UICONTROL Saved on mobile]**: a mensagem é armazenada na memória interna do telefone.
-   * **[!UICONTROL Flash]**: a mensagem é exibida no celular do recipient como uma notificação e depois desaparece sem ser salva.
+   * **[!UICONTROL Flash]**: a mensagem é exibida no celular do destinatário como uma notificação e depois desaparece sem ser salva.

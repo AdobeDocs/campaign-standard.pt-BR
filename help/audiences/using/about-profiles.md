@@ -28,4 +28,4 @@ O Adobe Campaign permite gerenciar contatos em todo o ciclo de vida: criação, 
 
 Ao criar campanhas, você pode definir o público-alvo das entregas selecionando perfis de acordo com critérios simples ou avançados. Tecnicamente, um perfil é uma entrada no banco de dados que contém todas as informações necessárias para direcionar, qualificar e rastrear comportamentos.
 
-Um perfil pode ser: um cliente, um prospecto, uma pessoa inscrita em um informativo, um recipient, um usuário ou qualquer outra denominação dependendo da organização. Para definir vários tipos de perfis, use [target dimension](../../automating/using/query.md#targeting-dimensions-and-resources).
+Um perfil pode ser: um cliente, um prospecto, uma pessoa inscrita em um informativo, um destinatário, um usuário ou qualquer outra denominação dependendo da organização. Para definir vários tipos de perfis, use [target dimension](../../automating/using/query.md#targeting-dimensions-and-resources).

@@ -22,9 +22,9 @@ Ao criar o conteúdo da sua mensagem, tente evitar problemas comuns que possam i
 
 ## Otimizar personalização {#optimize-personalization}
 
-Para evitar problemas comuns que podem impedir a execução da entrega e melhorar a experiência dos recipients, o Adobe Campaign permite personalizar suas mensagens.
+Para evitar problemas comuns que podem impedir a execução da entrega e melhorar a experiência dos destinatários, o Adobe Campaign permite personalizar suas mensagens.
 
-Você pode usar os dados dos recipients armazenados no banco de dados do Adobe Campaign ou coletados por meio de rastreamento, landing pages, assinaturas, etc.
+Você pode usar os dados dos destinatários armazenados no banco de dados do Adobe Campaign ou coletados por meio de rastreamento, landing pages, assinaturas, etc.
 As noções básicas de personalização são apresentadas [nesta seção](../../designing/using/personalization.md).
 
 Verifique se o conteúdo da sua mensagem foi projetado corretamente para evitar erros, que geralmente estão relacionados à personalização.
@@ -68,7 +68,7 @@ O link de unsubscription é essencial. Deve ser visível e válido e o formulár
 
 Por padrão, quando a mensagem é analisada, um controle [regra de tipologia](../../sending/using/control-rules.md) verifica se um link para opção de não participação foi incluído e gera um aviso caso ele esteja ausente.
 
-**Dica**: como o erro humano é sempre possível, verifique se o link para opção de não participação funciona corretamente antes de cada envio. Por exemplo, ao enviar a prova, verifique se o link é válido, se o formulário está online e se o campo “Não contatar mais este recipient” foi alterado para Sim.
+**Dica**: como o erro humano é sempre possível, verifique se o link para opção de não participação funciona corretamente antes de cada envio. Por exemplo, ao enviar a prova, verifique se o link é válido, se o formulário está online e se o campo “Não contatar mais este destinatário” foi alterado para Sim.
 
 Veja [nesta seção](../../designing/using/personalization.md#adding-a-content-block) como inserir um link para opção de não participação.
 
@@ -145,6 +145,6 @@ Para serem acessadas de fora, as imagens usadas em emails e recursos públicos v
 
 ## Visualizar sua mensagem {#preview-msg}
 
-A Adobe recomenda visualizar a mensagem para verificar a personalização e como os recipients verão a entrega.
+A Adobe recomenda visualizar a mensagem para verificar a personalização e como os destinatários verão a entrega.
 
 No Designer de email, a variável **[!UICONTROL Preview]** permite visualizar a renderização de cada conteúdo para um recipient. Os campos de personalização e os elementos condicionais do conteúdo são substituídos pelas informações correspondentes para o perfil selecionado. [Saiba mais](../../sending/using/previewing-messages.md)

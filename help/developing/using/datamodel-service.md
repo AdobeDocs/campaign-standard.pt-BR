@@ -10,7 +10,7 @@ exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 36%
+ht-degree: 39%
 
 ---
 
@@ -171,7 +171,7 @@ ht-degree: 36%
                </tr>
                <tr>
                   <td>subLandingPage (landingPageSubscriptionBase)</td>
-                  <td>Página de aterrissagem da assinatura</td>
+                  <td>Página de destino da assinatura</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -219,7 +219,7 @@ ht-degree: 36%
                </tr>
                <tr>
                   <td>unsubLandingPage (landingPageUnsubscriptionBase)</td>
-                  <td>Cancelar assinatura da página de aterrissagem</td>
+                  <td>Página de destino do cancelamento de assinatura</td>
                   <td>link </td>
                   <td> </td>
                </tr>

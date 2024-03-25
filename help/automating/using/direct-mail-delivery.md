@@ -35,7 +35,7 @@ A atividade **[!UICONTROL Direct mail delivery]** geralmente é usada para autom
 
 Quando vinculada a um scheduler, você pode definir malas diretas recorrentes.
 
-Os recipients da correspondência direta são definidos no sentido upstream da atividade, no mesmo workflow, por meio de atividades de direcionamento, como consultas, interseções etc. Perfis cujo endereço de correspondência não é especificado são excluídos automaticamente quando essa correspondência direta é preparada.
+Os destinatários da correspondência direta são definidos no sentido upstream da atividade, no mesmo workflow, por meio de atividades de direcionamento, como consultas, interseções etc. Perfis cujo endereço de correspondência não é especificado são excluídos automaticamente quando essa correspondência direta é preparada.
 
 A preparação da mensagem é acionada de acordo com os parâmetros de execução do workflow. No painel da mensagem, você pode selecionar se deseja solicitar ou não uma confirmação manual para enviar a mensagem (obrigatório por padrão). Você pode iniciar o workflow manualmente ou colocar uma atividade de scheduler no workflow para automatizar a execução.
 

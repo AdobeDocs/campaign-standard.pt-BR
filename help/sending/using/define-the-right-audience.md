@@ -26,7 +26,7 @@ Saiba mais sobre as populações de públicos-alvos [nesta seção](../../audien
 
 Quando seu conteúdo estiver pronto, será necessário definir com cuidado quem receberá sua mensagem.
 
-Para que sua entrega seja bem-sucedida, o conteúdo personalizado mais relevante deve ser enviado aos recipients corretos. O Adobe Campaign permite criar o público mais preciso: você pode selecionar os recipients de acordo com a idade, localização, o que compraram, se clicaram em um link em uma entrega anterior, etc. Com o Adobe Campaign, também é possível definir perfis de teste, grupos de controle e endereços de seed para verificar se o público-alvo está correto.
+Para que sua entrega seja bem-sucedida, o conteúdo personalizado mais relevante deve ser enviado aos destinatários corretos. O Adobe Campaign permite criar o público mais preciso: você pode selecionar os destinatários de acordo com a idade, localização, o que compraram, se clicaram em um link em uma entrega anterior, etc. Com o Adobe Campaign, também é possível definir perfis de teste, grupos de controle e endereços de seed para verificar se o público-alvo está correto.
 
 ## Direcionar mapeamentos {#target-mappings}
 
@@ -49,7 +49,7 @@ Para enviar mensagens aos assinantes de um informativo, é possível direcionar 
 ## Provas, perfis de teste e grupos de controle {#proofs-test-control-groups}
 
 Para testar seu delivery, use provas antes de enviar para o target principal.
-Selecione os recipients de prova apropriados, porque eles validam a forma e o conteúdo da mensagem. As etapas para enviar provas são apresentadas [nesta seção](../../sending/using/sending-proofs.md).
+Selecione os destinatários de prova apropriados, porque eles validam a forma e o conteúdo da mensagem. As etapas para enviar provas são apresentadas [nesta seção](../../sending/using/sending-proofs.md).
 
 Saiba mais sobre perfis de teste [nesta seção](../../audiences/using/managing-test-profiles.md).
 

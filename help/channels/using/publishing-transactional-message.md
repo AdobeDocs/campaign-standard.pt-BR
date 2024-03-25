@@ -92,7 +92,7 @@ Depois de editar e testar a mensagem transacional, você pode publicá-la. Basta
 
 ![](assets/message-center_12.png)
 
-Agora, assim que o evento &quot;Abandono do carrinho&quot; for acionado, ele automaticamente solicitará uma mensagem contendo o título e sobrenome do recipient, o URL do carrinho, o último produto consultado ou uma lista de produtos, se você tiver definido uma lista de produtos, e o valor total do carrinho a ser enviado.
+Agora, assim que o evento &quot;Abandono do carrinho&quot; for acionado, ele automaticamente solicitará uma mensagem contendo o título e sobrenome do destinatário, o URL do carrinho, o último produto consultado ou uma lista de produtos, se você tiver definido uma lista de produtos, e o valor total do carrinho a ser enviado.
 
 Para acessar os relatórios referentes à sua mensagem transacional, use o botão **[!UICONTROL Reports]**. Consulte [Relatórios dinâmicos](../../reporting/using/about-dynamic-reports.md).
 

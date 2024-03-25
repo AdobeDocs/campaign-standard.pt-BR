@@ -57,7 +57,7 @@ Para criar um público-alvo do tipo **Lista**, siga estas etapas:
 
 1. Arraste, solte e configure as atividades de direcionamento que permitirão selecionar uma população que tenha uma dimensão **conhecida**. A lista de atividades disponíveis e as configurações relacionadas são detalhadas na seção [Atividades de direcionamento](../../automating/using/about-targeting-activities.md).
 
-   Você pode usar uma atividade **[!UICONTROL Query]** ou importar dados por meio de uma atividade **[!UICONTROL Load file]** antes de uma atividade **[!UICONTROL Reconciliation]** para identificar a dimensão dos dados importados. Neste caso, queremos direcionar os recipients que assinaram o informativo esportivo com uma atividade **[!UICONTROL Query]**.
+   Você pode usar uma atividade **[!UICONTROL Query]** ou importar dados por meio de uma atividade **[!UICONTROL Load file]** antes de uma atividade **[!UICONTROL Reconciliation]** para identificar a dimensão dos dados importados. Neste caso, queremos direcionar os destinatários que assinaram o informativo esportivo com uma atividade **[!UICONTROL Query]**.
 
    ![](assets/audiences_list_2.png)
 

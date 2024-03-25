@@ -15,7 +15,7 @@ ht-degree: 97%
 
 ## Contexto
 
-No caso de uma interrupção de um ISP, os emails enviados por meio do Campaign não podem ser entregues com êxito ao recipient: esses emails serão marcados incorretamente como rejeições.
+No caso de uma interrupção de um ISP, os emails enviados por meio do Campaign não podem ser entregues com êxito ao destinatário: esses emails serão marcados incorretamente como rejeições.
 
 Em dezembro de 2020, um problema global no Gmail fez com que mensagens de email enviadas para endereços de email Gmail válidos fossem rejeitadas incorretamente como endereços de email inválidos pelos servidores do Gmail, com a seguinte resposta: *&quot;550-5.1.1 A conta de email que você tentou acessar não existe.&quot;*
 
@@ -26,13 +26,13 @@ O Google declarou que as interrupções e as falhas do Gmail que causaram esse p
 >Você pode verificar o Painel de status do Google Workspace [nesta página](https://www.google.com/appsstatus#hl=en&amp;v=status).
 
 
-De acordo com a lógica padrão de manipulação de rejeição, o Adobe Campaign adicionou automaticamente esses recipients à lista de quarentena com uma configuração **[!UICONTROL Status]** de **[!UICONTROL Quarantine]**. Para corrigir isso, você precisa atualizar a tabela de quarentena no Campaign localizando e removendo esses recipients ou alterando seus **[!UICONTROL Status]** para **[!UICONTROL Valid]** para que o fluxo de trabalho de limpeza noturna os remova.
+De acordo com a lógica padrão de manipulação de rejeição, o Adobe Campaign adicionou automaticamente esses destinatários à lista de quarentena com uma configuração **[!UICONTROL Status]** de **[!UICONTROL Quarantine]**. Para corrigir isso, você precisa atualizar a tabela de quarentena no Campaign localizando e removendo esses destinatários ou alterando seus **[!UICONTROL Status]** para **[!UICONTROL Valid]** para que o fluxo de trabalho de limpeza noturna os remova.
 
-Para encontrar os recipients que foram afetados por esse problema do Gmail, ou caso isso aconteça novamente com qualquer outro ISP, consulte as instruções abaixo.
+Para encontrar os destinatários que foram afetados por esse problema do Gmail, ou caso isso aconteça novamente com qualquer outro ISP, consulte as instruções abaixo.
 
 ## Processo para atualização
 
-Você precisará executar um query na tabela de quarentena para filtrar todos os recipients do Gmail (ou de outro ISP) que foram potencialmente afetados pela interrupção para que possam ser removidos da lista de quarentena e incluídos em futuras entregas de email do Campaign.
+Você precisará executar um query na tabela de quarentena para filtrar todos os destinatários do Gmail (ou de outro ISP) que foram potencialmente afetados pela interrupção para que possam ser removidos da lista de quarentena e incluídos em futuras entregas de email do Campaign.
 
 Com base no período do incidente, abaixo estão as diretrizes recomendadas para esse query.
 
@@ -46,7 +46,7 @@ Para instâncias do Campaign com informações de resposta de rejeição SMTP no
 * **Atualizar status (@lastModified)** em ou após 14/12/2020 6:55:00 AM
 * **Atualizar status (@lastModified)** até 16/12/2020 6:00:00 h
 
-Depois de ter a lista de recipients afetados, você pode defini-los como um status **[!UICONTROL Valid]** para que sejam removidos da lista de quarentena pelo fluxo de trabalho **[!UICONTROL Database cleanup]** ou simplesmente excluí-los da tabela.
+Depois de ter a lista de destinatários afetados, você pode defini-los como um status **[!UICONTROL Valid]** para que sejam removidos da lista de quarentena pelo fluxo de trabalho **[!UICONTROL Database cleanup]** ou simplesmente excluí-los da tabela.
 
 **Tópicos relacionados:**
 * [Entender as falhas de entrega](../../sending/using/understanding-delivery-failures.md)

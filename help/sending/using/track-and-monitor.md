@@ -18,11 +18,11 @@ ht-degree: 39%
 
 # Rastrear e monitorar {#track-and-monitor}
 
-Você clicou no botão Enviar? Vamos ver o que acontece. Depois que a entrega é enviada, o Adobe Campaign permite acompanhar as mensagens enviadas e descobrir como os recipients reagem a sua entrega. Isso ajuda a melhorar o envio futuro e a otimizar as próximas campanhas.
+Você clicou no botão Enviar? Vamos ver o que acontece. Depois que a entrega é enviada, o Adobe Campaign permite acompanhar as mensagens enviadas e descobrir como os destinatários reagem a sua entrega. Isso ajuda a melhorar o envio futuro e a otimizar as próximas campanhas.
 
 ## Monitoramento de entregas {#monitoring-deliveries}
 
-Para controlar suas campanhas, você deve garantir que a mensagem tenha sido entregue aos recipients.
+Para controlar suas campanhas, você deve garantir que a mensagem tenha sido entregue aos destinatários.
 
 **Dicas**
 

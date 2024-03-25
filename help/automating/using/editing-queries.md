@@ -22,7 +22,7 @@ ht-degree: 94%
 
 O Editor de consultas é um assistente que permite filtrar os dados contidos no banco de dados do Adobe Campaign.
 
-Use esse recurso para criar uma população e melhorar o direcionamento dos recipients usando as regras e os filtros predefinidos.
+Use esse recurso para criar uma população e melhorar o direcionamento dos destinatários usando as regras e os filtros predefinidos.
 
 Várias funcionalidades de aplicativo o utilizam para:
 

@@ -22,7 +22,7 @@ ht-degree: 21%
 <td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><p><a href="#global-concepts">Conceitos globais</a></p></td>
 <td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#available-communication-channels">Canais de comunicação</a></p></td>
 <td><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><p><a href="#transactional-messages">Mensagens transacionais</a></p></td>
-<td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">Landing pages</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">Páginas de destino</a></p></td></tr>
 </table>
 
 O Adobe Campaign permite iniciar, medir e automatizar campanhas em cada canal.
@@ -80,7 +80,7 @@ Leia mais:
 * [Notificações por push transacionais](../../channels/using/transactional-push-notifications.md)
 * [Mensagens de acompanhamento](../../channels/using/follow-up-messages.md)
 
-## Landing pages {#landing-pages}
+## Páginas de destino {#landing-pages}
 
 <img src="assets/do-not-localize/icon_landing.svg" width="60px">
 

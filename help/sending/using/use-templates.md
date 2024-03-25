@@ -50,7 +50,7 @@ O domínio de endereço deve ser o mesmo que o subdomínio que você configurou.
 
 A variável **[!UICONTROL Reply to]** Os campos correspondem ao endereço de email e ao nome usados para respostas.
 
-**Dica** - A Adobe recomenda o uso de um endereço real, como o atendimento ao cliente da sua marca. Nesse caso, se um recipient enviar uma resposta, o atendimento ao cliente poderá resolvê-lo.
+**Dica** - A Adobe recomenda o uso de um endereço real, como o atendimento ao cliente da sua marca. Nesse caso, se um destinatário enviar uma resposta, o atendimento ao cliente poderá resolvê-lo.
 
 Para alterar o nome do remetente que aparecerá no cabeçalho das mensagens enviadas, vá para a **[!UICONTROL Properties]**  da página inicial do Email Designer (acessível por meio do ícone de página inicial) e clique no botão **[!UICONTROL Default sender name]** bloco.
 
@@ -64,7 +64,7 @@ Para obter mais informações sobre a personalização do nome do remetente, con
 
 ## Personalizar o nome do remetente do SMS
 
-No **Parâmetros avançados** das propriedades de um modelo de SMS, a variável **De** permite personalizar o nome do remetente da mensagem SMS usando uma sequência de caracteres. Ele aparecerá como o nome do remetente da mensagem SMS no celular do recipient.
+No **Parâmetros avançados** das propriedades de um modelo de SMS, a variável **De** permite personalizar o nome do remetente da mensagem SMS usando uma sequência de caracteres. Ele aparecerá como o nome do remetente da mensagem SMS no celular do destinatário.
 
 Se esse campo estiver vazio, será usado o número de origem fornecido na conta externa. Se nenhum número de origem for fornecido, o código curto será usado. Para saber mais, consulte [Configuração de SMS](../../administration/using/configuring-sms-channel.md).
 
@@ -72,7 +72,7 @@ Se esse campo estiver vazio, será usado o número de origem fornecido na conta 
 
 ## Configurar um grupo de controle
 
-Depois que a entrega é enviada, você pode comparar o comportamento dos recipients excluídos com os recipients que receberam a entrega. Você pode então medir a eficiência de suas campanhas. Saiba mais sobre grupos de controle [nesta seção](../../sending/using/control-group.md).
+Depois que a entrega é enviada, você pode comparar o comportamento dos destinatários excluídos com os destinatários que receberam a entrega. Você pode então medir a eficiência de suas campanhas. Saiba mais sobre grupos de controle [nesta seção](../../sending/using/control-group.md).
 
 ## Usar tipologias para aplicar filtros ou regras de controle
 

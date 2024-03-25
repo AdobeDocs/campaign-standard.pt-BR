@@ -20,7 +20,7 @@ ht-degree: 84%
 
 Este documento permite descobrir a seguinte funcionalidade do Adobe Campaign por meio de um caso de uso padrão: criação de um fluxo de trabalho de entrega entre canais.
 
-O objetivo aqui é selecionar um público dos recipients do banco de dados e segmentá-los em dois grupos diferentes com a finalidade de enviar um email para o primeiro grupo e uma mensagem SMS para o segundo.
+O objetivo aqui é selecionar um público dos destinatários do banco de dados e segmentá-los em dois grupos diferentes com a finalidade de enviar um email para o primeiro grupo e uma mensagem SMS para o segundo.
 
 ![](assets/wkf_segment_overview.png)
 
@@ -33,7 +33,7 @@ Para obter mais detalhes sobre os fluxos de trabalho e os diferentes canais disp
 
 Para enviar duas entrega diferentes para um determinado grupo, primeiro defina o público-alvo.
 
-Para fazer isso, será necessário criar um query para identificar os recipients e, portanto, criar um fluxo de trabalho.
+Para fazer isso, será necessário criar um query para identificar os destinatários e, portanto, criar um fluxo de trabalho.
 
 Crie um novo fluxo de trabalho no programa ou na campanha de sua escolha:
 
@@ -69,7 +69,7 @@ Você precisa usar um [Segmentação](../../automating/using/segmentation.md) at
 
 ![](assets/wkf_segment_activity.png)
 
-O grupo **Email** segmentará os recipients que têm um endereço de email definido, mas nenhum número de celular. O grupo **SMS** conterá os recipients cujo número de telefone celular está salvo em seus perfis.
+O grupo **Email** segmentará os destinatários que têm um endereço de email definido, mas nenhum número de celular. O grupo **SMS** conterá os destinatários cujo número de telefone celular está salvo em seus perfis.
 
 Para configurar a primeira transição (Email):
 
@@ -154,4 +154,4 @@ Depois que o workflow for iniciado, a população direcionada pelo **[!UICONTROL
 
 Para executar o fluxo de trabalho, clique no botão **[!UICONTROL Start]** da barra de ações.
 
-Você pode acessar as entregas no menu avançado **[!UICONTROL Marketing plans]** > **[!UICONTROL Marketing activities]** por meio do logotipo do Adobe Campaign. Clique na entrega e no botão **[!UICONTROL Reports]** para acessar os [relatórios da entrega](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports), como o resumo da entrega, a taxa de abertura ou a renderização de email de acordo com a caixa de entrada de mensagens dos recipients.
+Você pode acessar as entregas no menu avançado **[!UICONTROL Marketing plans]** > **[!UICONTROL Marketing activities]** por meio do logotipo do Adobe Campaign. Clique na entrega e no botão **[!UICONTROL Reports]** para acessar os [relatórios da entrega](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports), como o resumo da entrega, a taxa de abertura ou a renderização de email de acordo com a caixa de entrada de mensagens dos destinatários.

@@ -31,7 +31,7 @@ Se o fluxo de trabalho for parte de um processo que envolve vários fluxos de tr
 
 Por exemplo:
 
-* 001 – Importar – Importar recipients
+* 001 – Importar – Importar destinatários
 * 002 – Importar – Importar vendas
 * 003 – Importar – Importar detalhes de vendas
 * 010 – Exportar – Exportar logs de entregas

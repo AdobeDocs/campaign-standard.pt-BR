@@ -51,7 +51,7 @@ Por exemplo, o evento não pôde ser atribuído a uma entrega de execução porq
 
 ### Processo de nova tentativa de envio de mensagem {#message-sending-retry-process}
 
-Depois que o evento tiver sido atribuído a uma entrega de execução, a mensagem transacional poderá falhar devido a um erro temporário, se a caixa de correio do recipient estiver cheia, por exemplo. Para obter mais informações, consulte [Tentativas após uma falha temporária de entrega](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+Depois que o evento tiver sido atribuído a uma entrega de execução, a mensagem transacional poderá falhar devido a um erro temporário, se a caixa de correio do destinatário estiver cheia, por exemplo. Para obter mais informações, consulte [Tentativas após uma falha temporária de entrega](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 >[!NOTE]
 >
@@ -103,7 +103,7 @@ Selecione o **[!UICONTROL Exclusions logs]** para exibir os recipients que foram
 
 ![](assets/message-center_marketing_exclusion_logs.png)
 
-Para os perfis recusados, a regra de tipologia **[!UICONTROL Address on denylist]** exclui o recipient correspondente.
+Para os perfis recusados, a regra de tipologia **[!UICONTROL Address on denylist]** exclui o destinatário correspondente.
 
 Essa regra faz parte de uma tipologia específica aplicável a todas as mensagens transacionais baseadas na tabela **[!UICONTROL Profile]**.
 

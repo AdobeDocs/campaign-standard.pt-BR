@@ -171,11 +171,11 @@ Se você corrigiu tudo, mas alguns SR inválidos ainda estão nos buffers do pro
 
 * Se o `SUBMIT_SM MT PDU` que contém a resposta for encontrado nos rastreamentos, mas o SMS não chegar ao telefone celular, você terá que entrar em contato com o provedor para obter assistência na solução de problemas.
 
-## Problema durante a preparação de entrega sem a exclusão de recipient em quarentena (em quarentena pelo recurso de resposta automática) {#issue-delivery-preparation}
+## Problema durante a preparação de entrega sem a exclusão de destinatário em quarentena (em quarentena pelo recurso de resposta automática) {#issue-delivery-preparation}
 
 * Verifique se o formato do número de telefone é exatamente o mesmo na tabela de quarentena e no log de delivery.  Caso contrário, consulte esta [seção](../../administration/using/sms-protocol.md#automatic-reply) se tiver problemas com o prefixo &quot;+&quot; do formato de número de telefone internacional.
 
-* Verifique os códigos curtos. Poderão correr exclusões se o código curto do recipient for igual ao definido na conta externa ou se estiver vazio (vazio = qualquer código curto). Se apenas um código curto for usado para toda a instância do Adobe Campaign, será mais fácil deixar todos os campos de **código curto** vazios.
+* Verifique os códigos curtos. Poderão correr exclusões se o código curto do destinatário for igual ao definido na conta externa ou se estiver vazio (vazio = qualquer código curto). Se apenas um código curto for usado para toda a instância do Adobe Campaign, será mais fácil deixar todos os campos de **código curto** vazios.
 
 ## Problemas de codificação {#encoding-issues}
 

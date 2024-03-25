@@ -11,7 +11,7 @@ exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
 source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
@@ -51,7 +51,7 @@ O rastreamento com o Adobe Campaign Standard permite acessar as seguintes funcio
           <a href="../../reporting/using/tracking-indicators.md"><img width="60px" alt="condições" src="assets/icon_report.png"/></a>
 </tr>
 <tr>
-<td>Acompanhamento de email</td>
+<td>Rastreamento de emails</td>
 <td>Rastreamento por push</td>
 <td>URLs rastreados</td>
 <td>Logs de rastreamento</td>

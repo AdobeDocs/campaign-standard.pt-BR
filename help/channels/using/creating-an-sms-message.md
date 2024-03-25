@@ -57,7 +57,7 @@ Para criar e enviar mensagens SMS para um telefone celular, é necessário:
 
 1. Adicione conteúdo ao seu SMS. Você também pode definir o conteúdo clicando na seção **[!UICONTROL Content]** do painel da entrega depois que a criação do SMS for finalizada. Consulte [Sobre design de conteúdo de SMS](../../channels/using/about-sms-and-push-content-design.md).
 
-   Se você tiver inserido campos de personalização ou texto condicional no conteúdo da mensagem SMS, o comprimento da mensagem pode variar de um recipient para outro. Na verdade, esses fatores podem introduzir caracteres que não são considerados pela codificação GSM. Por isso, a duração da mensagem deve ser avaliada depois de realizada a personalização. Consulte [Personalização de mensagens SMS](../../channels/using/personalizing-sms-messages.md).
+   Se você tiver inserido campos de personalização ou texto condicional no conteúdo da mensagem SMS, o comprimento da mensagem pode variar de um destinatário para outro. Na verdade, esses fatores podem introduzir caracteres que não são considerados pela codificação GSM. Por isso, a duração da mensagem deve ser avaliada depois de realizada a personalização. Consulte [Personalização de mensagens SMS](../../channels/using/personalizing-sms-messages.md).
 
    ![](assets/sms_creation_4.png)
 

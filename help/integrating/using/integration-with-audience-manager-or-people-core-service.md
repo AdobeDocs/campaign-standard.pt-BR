@@ -134,6 +134,6 @@ Para permitir que os públicos-alvo compartilhados funcionem com a ID de visitan
 
 Se o serviço de ID do visitante nunca tiver sido configurado em suas propriedades da web ou sites, consulte este [documento](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html?lang=pt-BR) para saber como configurar o serviço ou este [vídeo](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
 
-Sincronize identificadores de clientes com a ID declarada, usando a função `setCustomerID` no serviço de ID da Experience Cloud com o código de integração: `AdobeCampaignID`. O `AdobeCampaignID` deve corresponder ao valor do conjunto de chaves de reconciliação na fonte de dados do recipient configurada na [Etapa 2: configure as fontes de dados](#step-2--configure-the-data-sources).
+Sincronize identificadores de clientes com a ID declarada, usando a função `setCustomerID` no serviço de ID da Experience Cloud com o código de integração: `AdobeCampaignID`. O `AdobeCampaignID` deve corresponder ao valor do conjunto de chaves de reconciliação na fonte de dados do destinatário configurada na [Etapa 2: configure as fontes de dados](#step-2--configure-the-data-sources).
 
 Sua configuração e provisionamento estão finalizados, a integração agora pode ser usada para importar e exportar públicos-alvo ou segmentos.

@@ -36,7 +36,7 @@ A atividade **[!UICONTROL Email delivery]** é geralmente usada para automatizar
 
 Quando vinculada a um scheduler, você pode definir emails recorrentes.
 
-Os recipients do email são definidos no sentido upstream da atividade, no mesmo workflow, por meio de atividades de direcionamento, como consultas, interseções etc.
+Os destinatários do email são definidos no sentido upstream da atividade, no mesmo workflow, por meio de atividades de direcionamento, como consultas, interseções etc.
 
 A preparação da mensagem é acionada de acordo com os parâmetros de execução do workflow. No painel da mensagem, você pode selecionar se deseja solicitar ou não uma confirmação manual para enviar a mensagem (obrigatório por padrão). Você pode iniciar o workflow manualmente ou colocar uma atividade de scheduler no workflow para automatizar a execução.
 

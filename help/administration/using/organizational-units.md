@@ -63,7 +63,7 @@ Agora precisamos criar as unidades organizacionais para os grupos de segurança 
 Para ver o impacto da atribuição de unidades diferentes a grupos de segurança diferentes, o usuário atribuído ao Administrador e aos grupos de Geometrixx criarão dois modelos de email para ver o que o outro usuário atribuído ao Usuário padrão e ao Geometrixx podem ou não acessar.
 
 1. No menu avançado, selecione **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery Templates]**.
-1. Duplique um template existente e personalize-o conforme necessário. Para obter mais informações, consulte a seção [Sobre templates](../../start/using/marketing-activity-templates.md)
+1. Duplique um template existente e personalize-o conforme necessário. Para obter mais informações, consulte a seção [Sobre os modelos](../../start/using/marketing-activity-templates.md).
 1. Quando o modelo for criado, selecione o **[!UICONTROL Edit properties]** ícone para atribuir unidades ao modelo.
 
    ![](assets/manage_units_6.png)

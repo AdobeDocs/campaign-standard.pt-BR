@@ -11,7 +11,7 @@ exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
 source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
 source-wordcount: '1430'
-ht-degree: 63%
+ht-degree: 64%
 
 ---
 
@@ -116,7 +116,7 @@ O número máximo de tentativas a serem executadas em caso de **[!UICONTROL Erro
 
 >[!IMPORTANT]
 >
-Os recipients com um endereço em um status **[!UICONTROL Quarantine]** ou **[!UICONTROL Denylisted]** nunca serão removidos, mesmo se receberem um email.
+Os destinatários com um endereço em um status **[!UICONTROL Quarantine]** ou **[!UICONTROL Denylisted]** nunca serão removidos, mesmo se receberem um email.
 
 
 ### Atualizações manuais {#unquarantine-manual}
@@ -134,9 +134,9 @@ Também é possível cancelar a quarentena de um endereço manualmente.  Para re
 
 ### Atualizações em massa {#unquarantine-bulk}
 
-Talvez seja necessário executar atualizações em massa na lista de quarentena. Por exemplo, no caso de uma interrupção de ISP. Nesse caso, os emails são marcados incorretamente como rejeições porque não podem ser entregues com êxito ao recipient. Esses endereços devem ser removidos da lista de quarentena.
+Talvez seja necessário executar atualizações em massa na lista de quarentena. Por exemplo, no caso de uma interrupção de ISP. Nesse caso, os emails são marcados incorretamente como rejeições porque não podem ser entregues com êxito ao destinatário. Esses endereços devem ser removidos da lista de quarentena.
 
-Para fazer isso, crie um fluxo de trabalho e adicione uma atividade **[!UICONTROL Query]** na tabela de quarentena para filtrar todos os recipients afetados. Uma vez identificados, eles podem ser removidos da lista de quarentena e incluídos em entregas de email futuros do Campaign.
+Para fazer isso, crie um fluxo de trabalho e adicione uma atividade **[!UICONTROL Query]** na tabela de quarentena para filtrar todos os destinatários afetados. Uma vez identificados, eles podem ser removidos da lista de quarentena e incluídos em entregas de email futuros do Campaign.
 
 Com base no período do incidente, abaixo estão as diretrizes recomendadas para esse query.
 
@@ -144,10 +144,10 @@ Com base no período do incidente, abaixo estão as diretrizes recomendadas para
 
   onde “support.ISP.com” pode ser “support.apple.com” ou “support.google.com”, por exemplo
 
-* **Atualizar status (@lastModified)** em ou depois de `MM/DD/YYYY HH:MM:SS AM`
-* **Atualizar status (@lastModified)** em ou antes de  `MM/DD/YYYY HH:MM:SS PM`
+* **Atualizar status (@lastModified)** em ou depois de `MM/DD/YYYY HH:MM:SS AM`
+* **Atualizar status (@lastModified)** em ou antes de `MM/DD/YYYY HH:MM:SS PM`
 
-Depois de ter a lista de recipients afetados, adicione uma atividade **[!UICONTROL Update data]** para definir seu status de endereço de email como **[!UICONTROL Valid]** para que eles sejam removidos da lista de quarentena pelo fluxo de trabalho **[!UICONTROL Database cleanup]**. Também é possível excluí-los da tabela de quarentena.
+Depois de ter a lista de destinatários afetados, adicione uma atividade **[!UICONTROL Update data]** para definir seu status de endereço de email como **[!UICONTROL Valid]** para que eles sejam removidos da lista de quarentena pelo fluxo de trabalho **[!UICONTROL Database cleanup]**. Também é possível excluí-los da tabela de quarentena.
 
 ## Condições para enviar um endereço para quarentena {#conditions-for-sending-an-address-to-quarantine}
 

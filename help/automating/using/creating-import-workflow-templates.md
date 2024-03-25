@@ -61,11 +61,11 @@ Esse exemplo mostra como predefinir um workflow que pode ser reutilizado para im
 
    ![](assets/import_template_example2.png)
 
-1. Configure a atividade **[!UICONTROL Segmentation]** para recuperar os recipients reconciliados em uma transição e recipients que não puderam ser reconciliados, mas que tenham dados suficientes em uma segunda transição.
+1. Configure a atividade **[!UICONTROL Segmentation]** para recuperar os destinatários reconciliados em uma transição e destinatários que não puderam ser reconciliados, mas que tenham dados suficientes em uma segunda transição.
 
-   A transição com recipients reconciliados pode ser usada para atualizar o banco de dados. A transição com recipients desconhecidos pode ser usada para criar novas entradas de recipients no banco de dados se um conjunto mínimo de informações estiver disponível no arquivo.
+   A transição com destinatários reconciliados pode ser usada para atualizar o banco de dados. A transição com destinatários desconhecidos pode ser usada para criar novas entradas de destinatários no banco de dados se um conjunto mínimo de informações estiver disponível no arquivo.
 
-   Os recipients que não podem ser reconciliados e não têm dados suficientes estão selecionados em uma transição de saída de complemento e podem ser exportados em um arquivo separado ou simplesmente ignorado.
+   Os destinatários que não podem ser reconciliados e não têm dados suficientes estão selecionados em uma transição de saída de complemento e podem ser exportados em um arquivo separado ou simplesmente ignorado.
 
    * No **[!UICONTROL General]** da atividade, defina o **[!UICONTROL Resource type]** para **[!UICONTROL Temporary resource]** e selecione **[!UICONTROL Reconciliation]** como o conjunto de target.
    * No **[!UICONTROL Advanced options]** , marque a **[!UICONTROL Generate complement]** opção para ver se algum registro não pode ser inserido no banco de dados. Se for necessário, você pode aplicar processamento adicional aos dados complementares: exportação de arquivos, atualização de lista etc.
@@ -81,12 +81,12 @@ Esse exemplo mostra como predefinir um workflow que pode ser reutilizado para im
 
 1. Configure a atividade **[!UICONTROL Update data]** localizada após a primeira transição de saída da atividade **[!UICONTROL Segmentation]** configurada anteriormente.
 
-   * Selecione **[!UICONTROL Update]** como **[!UICONTROL Operation type]** desde que a transição de entrada contenha apenas os recipients já presentes no banco de dados.
+   * Selecione **[!UICONTROL Update]** como **[!UICONTROL Operation type]** desde que a transição de entrada contenha apenas os destinatários já presentes no banco de dados.
    * No **[!UICONTROL Identification]** selecione **[!UICONTROL Using reconciliation criteria]** e defina uma chave entre a variável **[!UICONTROL Dimension to update]** - Perfis neste caso - e o link criado no **[!UICONTROL Reconciliation]** atividade. Neste exemplo, o campo personalizado **ID do CRM** é usado.
 
      ![](assets/import_template_example6.png)
 
-   * No **[!UICONTROL Fields to update]** indique os campos da dimensão Profiles a serem atualizados com o valor da coluna correspondente no arquivo. Se os nomes das colunas de arquivo forem idênticos ou quase idênticos aos dos campos de dimensão dos recipients, você poderá usar o botão de varinha mágica para combinar os diferentes campos automaticamente.
+   * No **[!UICONTROL Fields to update]** indique os campos da dimensão Profiles a serem atualizados com o valor da coluna correspondente no arquivo. Se os nomes das colunas de arquivo forem idênticos ou quase idênticos aos dos campos de dimensão dos destinatários, você poderá usar o botão de varinha mágica para combinar os diferentes campos automaticamente.
 
      ![](assets/import_template_example6_2.png)
 
@@ -112,7 +112,7 @@ Esse exemplo mostra como predefinir um workflow que pode ser reutilizado para im
 
      ![](assets/import_template_example6.png)
 
-   * No **[!UICONTROL Fields to update]** indique os campos da dimensão Profiles a serem atualizados com o valor da coluna correspondente no arquivo. Se os nomes das colunas de arquivo forem idênticos ou quase idênticos aos dos campos de dimensão dos recipients, você poderá usar o botão de varinha mágica para combinar os diferentes campos automaticamente.
+   * No **[!UICONTROL Fields to update]** indique os campos da dimensão Profiles a serem atualizados com o valor da coluna correspondente no arquivo. Se os nomes das colunas de arquivo forem idênticos ou quase idênticos aos dos campos de dimensão dos destinatários, você poderá usar o botão de varinha mágica para combinar os diferentes campos automaticamente.
 
      ![](assets/import_template_example6_2.png)
 

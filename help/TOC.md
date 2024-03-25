@@ -173,7 +173,7 @@ ht-degree: 100%
    + Agendamento de mensagens {#scheduling-messages}
       + [Sobre a programação de mensagens](sending/using/about-scheduling-messages.md)
       + [Otimização do tempo de envio](sending/using/optimizing-the-sending-time.md)
-      + [Envio de mensagens no fuso horário do recipient](sending/using/sending-messages-at-the-recipient-s-time-zone.md)
+      + [Envio de mensagens no fuso horário do destinatário](sending/using/sending-messages-at-the-recipient-s-time-zone.md)
       + [Cálculo da data de envio](sending/using/computing-the-sending-date.md)
    + Envio e rastreamento de mensagens {#sending-and-tracking-messages}
       + [Confirmação do envio](sending/using/confirming-the-send.md)

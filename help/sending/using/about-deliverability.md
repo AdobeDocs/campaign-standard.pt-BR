@@ -38,7 +38,7 @@ Os problemas de capacidade de entrega estão geralmente ligados às medidas de p
 
 ### Taxa da capacidade de entrega
 
-A taxa da capacidade de delivery é o número de mensagens que chegam nas caixas de entrada dos recipients em comparação ao número de mensagens que foram entregues. Para melhorar a capacidade de entrega, você pode trabalhar para aumentar essa taxa.
+A taxa da capacidade de delivery é o número de mensagens que chegam nas caixas de entrada dos destinatários em comparação ao número de mensagens que foram entregues. Para melhorar a capacidade de entrega, você pode trabalhar para aumentar essa taxa.
 
 Com o Adobe Campaign, a taxa da capacidade de entrega depende de vários fatores, principalmente:
 
@@ -76,7 +76,7 @@ Para obter mais informações sobre as práticas recomendadas ao coletar dados d
 
 O Adobe Campaign gerencia uma lista que reúne reclamações de spam, rejeições permanentes e rejeições temporárias que ocorrem de forma consistente.
 
-Para proteger sua capacidade de entrega, os recipients cujos endereços estão nessa lista são excluídos por padrão de todas as entregas futuras, porque o envio para esses contatos pode prejudicar sua reputação de envio.
+Para proteger sua capacidade de entrega, os destinatários cujos endereços estão nessa lista são excluídos por padrão de todas as entregas futuras, porque o envio para esses contatos pode prejudicar sua reputação de envio.
 
 Alguns provedores de acesso à Internet consideram automaticamente emails como spam se a taxa de endereços inválidos é muito alta. A quarentena, portanto, evita que você seja adicionado à lista de bloqueios por esses provedores.
 

@@ -60,11 +60,11 @@ Na seção **[!UICONTROL Target extraction]**, selecione uma das seguintes opç�
    * Defina 100 como o limite na seção **[!UICONTROL Limits]** (consulte [Limite de tamanho](#size-limit)).
    * Deixe marcada a opção **[!UICONTROL Descending sort]**.
 
-  Com isso, o grupo de controle será formado pelos 100 recipients mais antigos.<!--Change screenshot to match example)-->
+  Com isso, o grupo de controle será formado pelos 100 destinatários mais antigos.<!--Change screenshot to match example)-->
 
   ![](assets/control-group-keep-first-records.png)
 
-  Pode ser interessante definir um grupo de controle que inclua perfis que façam poucas compras ou compras frequentes, e comparar seu comportamento com os recipients contatados.
+  Pode ser interessante definir um grupo de controle que inclua perfis que façam poucas compras ou compras frequentes, e comparar seu comportamento com os destinatários contatados.
 
 >[!NOTE]
 >

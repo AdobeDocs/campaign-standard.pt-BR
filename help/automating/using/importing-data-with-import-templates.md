@@ -108,5 +108,5 @@ O template de importação agora está disponível para os usuários e pode ser 
 
 **Tópicos relacionados:**
 
-* [Workflows](../../automating/using/get-started-workflows.md)
+* [Fluxos de trabalho](../../automating/using/get-started-workflows.md)
 * [Exemplo: importar template de fluxo de trabalho](../../automating/using/creating-import-workflow-templates.md)

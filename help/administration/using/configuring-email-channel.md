@@ -25,7 +25,7 @@ A tela de configuração de email permite definir os parâmetros do canal de ema
 
 * **Campos de máscaras autorizados**
 
-  A seção **[!UICONTROL Header parameters of sent emails]** lista os endereços de email autorizados que você pode usar para enviar emails para os seus recipients (endereço do remetente) e permitir que eles enviem respostas automatizadas, como rejeições assíncronas, respostas fora do escritório etc. (endereço de erro).
+  A seção **[!UICONTROL Header parameters of sent emails]** lista os endereços de email autorizados que você pode usar para enviar emails para os seus destinatários (endereço do remetente) e permitir que eles enviem respostas automatizadas, como rejeições assíncronas, respostas fora do escritório etc. (endereço de erro).
 
   O Adobe Campaign verifica se os endereços inseridos são válidos durante a fase de preparação da mensagem. Esse modo operacional garante que não sejam usados endereços que possam causar problemas de entrega.
 
@@ -137,7 +137,7 @@ Para editar as propriedades de um email ou de um modelo de email, use o botão *
 
 ### Parâmetros gerais {#general-parameters}
 
-Na parte superior da tela de parâmetros de email, identifique o email usando os campos **[!UICONTROL Label]** e **[!UICONTROL ID]**. Essas informações aparecem na interface, mas não estão visíveis para os recipients da mensagem.
+Na parte superior da tela de parâmetros de email, identifique o email usando os campos **[!UICONTROL Label]** e **[!UICONTROL ID]**. Essas informações aparecem na interface, mas não estão visíveis para os destinatários da mensagem.
 
 ![](assets/delivery_options_2.png)
 
@@ -169,18 +169,18 @@ A **configuração de duração da entrega** (definida na seção [Parâmetros d
 
 Você pode configurar o formato de emails que serão enviados. Há três opções disponíveis:
 
-* **Usar preferências do recipient** (modo padrão): o formato da mensagem é definido de acordo com os dados armazenados no perfil do recipient e armazenado por padrão no campo **Formato do email** (@emailFormat). Se um recipient quiser receber mensagens em um determinado formato, esse será o formato enviado. Se o campo não estiver finalizado, uma mensagem multipart-alternative será enviada (veja abaixo).
-* **Permitir que o cliente de email do recipient escolha o formato mais apropriado (multipart-alternative)**: a mensagem contém ambos os formatos: texto e HTML. O formato exibido no recebimento depende da configuração do software de email do recipient (multipart-alternative).
+* **Usar preferências do destinatário** (modo padrão): o formato da mensagem é definido de acordo com os dados armazenados no perfil do destinatário e armazenado por padrão no campo **Formato do email** (@emailFormat). Se um destinatário quiser receber mensagens em um determinado formato, esse será o formato enviado. Se o campo não estiver finalizado, uma mensagem multipart-alternative será enviada (veja abaixo).
+* **Permitir que o cliente de email do destinatário escolha o formato mais apropriado (multipart-alternative)**: a mensagem contém ambos os formatos: texto e HTML. O formato exibido no recebimento depende da configuração do software de email do destinatário (multipart-alternative).
 
   >[!IMPORTANT]
   >
   >Essa opção inclui ambas as versões da mensagem. Portanto, isso afeta a taxa de entrega, pois o tamanho da mensagem é maior.
 
-* **Enviar todas as mensagens no formato de texto**: a mensagem é enviada em formato de texto. O formato HTML não será enviado, mas usado somente para a mirror page quando o recipient clicar na mensagem.
+* **Enviar todas as mensagens no formato de texto**: a mensagem é enviada em formato de texto. O formato HTML não será enviado, mas usado somente para a mirror page quando o destinatário clicar na mensagem.
 
 #### Modo de teste SMTP {#smtp-test-mode}
 
-Use o **[!UICONTROL Enable SMTP test mode]** opção para testar o envio de emails por uma conexão SMTP sem realmente enviar mensagens. A entrega é processada até a conexão com o servidor SMTP, mas não é enviada: para cada recipient da entrega, o Campaign se conecta ao servidor do provedor SMTP, executa o comando SMTP RCPT TO e encerra a conexão antes do comando SMTP DATA.
+Use o **[!UICONTROL Enable SMTP test mode]** opção para testar o envio de emails por uma conexão SMTP sem realmente enviar mensagens. A entrega é processada até a conexão com o servidor SMTP, mas não é enviada: para cada destinatário da entrega, o Campaign se conecta ao servidor do provedor SMTP, executa o comando SMTP RCPT TO e encerra a conexão antes do comando SMTP DATA.
 
 ![](assets/smtp-test-mode.png)
 
@@ -294,7 +294,7 @@ A seção **[!UICONTROL SMTP]** contém os seguintes parâmetros:
   >
   >Adicionar um script para inserir cabeçalhos SMTP adicionais é apenas para usuários avançados. A sintaxe desse script deve estar em conformidade com os requisitos desse tipo de conteúdo: não há espaço não utilizado, nenhuma linha vazia etc.
 
-  A partir de 1 de junho de 2024, o Google e o Yahoo! exigirá que os remetentes cumpram as **Lista De Um Clique - Cancelar Inscrição**. O Campaign oferece suporte a esse recurso pronto para uso.
+  A partir de 1º de junho de 2024, o Google e o Yahoo! exigirá que os remetentes cumpram as **Lista De Um Clique - Cancelar Inscrição**. O Campaign oferece suporte a esse recurso pronto para uso.
 
   >[!CAUTION]
   >

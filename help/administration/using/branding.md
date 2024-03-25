@@ -51,7 +51,7 @@ Uma **Marca** é definida pelas seguintes características:
    * **URL do site** e **Rótulo do site** da marca
    * **Logotipo da marca**
 
-* **[!UICONTROL Header parameters of sent emails]** que personaliza o que os recipients das campanhas verão. Esta seção contém os seguintes campos:
+* **[!UICONTROL Header parameters of sent emails]** que personaliza o que os destinatários das campanhas verão. Esta seção contém os seguintes campos:
 
   ![](assets/branding_04_header.png)
 

@@ -98,7 +98,7 @@ Ao criar um fluxo de trabalho agendado que inclui várias atividades, é necess�
 
 1. Na guia **[!UICONTROL Execution options]**, configure o fuso horário para seu scheduler no campo **[!UICONTROL Time zone]**.
 
-   Para saber mais sobre como enviar uma entrega dependendo do fuso horário do recipient, consulte esta [seção](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) ou este [exemplo](../../automating/using/recurring-push-notifications.md) de um fluxo de trabalho recorrente.
+   Para saber mais sobre como enviar uma entrega dependendo do fuso horário do destinatário, consulte esta [seção](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) ou este [exemplo](../../automating/using/recurring-push-notifications.md) de um fluxo de trabalho recorrente.
 
 1. Confirme a configuração da sua atividade e salve o fluxo de trabalho.
 

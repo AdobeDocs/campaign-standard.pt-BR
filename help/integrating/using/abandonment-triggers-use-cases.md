@@ -97,11 +97,11 @@ No Adobe Campaign, é necessário criar um Acionador vinculado ao que você crio
 
    ![](assets/trigger_uc_browse_9.png)
 
-1. O recipient abre o email.
+1. O destinatário abre o email.
 
    ![](assets/trigger_uc_browse_10.png)
 
-1. O recipient clica em um link que o traz para o seu site. Neste exemplo, o banner traz o recipient para a página inicial do site de reservas de viagem.
+1. O recipient clica em um link que o traz para o seu site. Neste exemplo, o banner traz o destinatário para a página inicial do site de reservas de viagem.
 
    ![](assets/trigger_uc_browse_11.png)
 
@@ -156,8 +156,8 @@ Na seção **[!UICONTROL Include Meta Data]** você pode passar quaisquer dados 
 
    >[!NOTE]
    >
-   >Nesse caso de uso, supomos que o visitante/recipient já tenha aberto e clicado em um email originário do mesmo site. Isso nos permite usar e coletar a ID de visitante e mapeá-la para o recipient. Só precisamos fazer isso uma vez.
+   >Nesse caso de uso, supomos que o visitante/destinatário já tenha aberto e clicado em um email originário do mesmo site. Isso nos permite usar e coletar a ID de visitante e mapeá-la para o destinatário. Só precisamos fazer isso uma vez.
 
-1. Momentos depois, o mesmo visitante/recipient recebe uma mensagem de remarketing. A mensagem inclui o destino pesquisado recentemente.
+1. Momentos depois, o mesmo visitante/destinatário recebe uma mensagem de remarketing. A mensagem inclui o destino pesquisado recentemente.
 
    ![](assets/trigger_uc_search_7.png)

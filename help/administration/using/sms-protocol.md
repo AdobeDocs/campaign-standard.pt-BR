@@ -60,7 +60,7 @@ Um SMS transporta mais informações do que texto. Aqui está uma lista do que v
 
 * O texto, que é limitado a 140 bytes, o que significa entre 70 e 160 caracteres, dependendo da codificação. Consulte [Codificação de texto SMS](../../administration/using/sms-protocol.md#sms-text-encoding) abaixo para ver os detalhes e as limitações.
 
-* Um endereço de recipient, às vezes chamado de `ADC` ou `MSISDN`. Esse é o número do dispositivo móvel que receberá o SMS.
+* Um endereço de destinatário, às vezes chamado de `ADC` ou `MSISDN`. Esse é o número do dispositivo móvel que receberá o SMS.
 
 * Um endereço de remetente, que pode ser chamado de `oADC` ou, às vezes, `sender id`. Pode ser um número de telefone no dia a dia, um código curto quando enviado por um provedor ou um nome. O nome é um recurso opcional; nesse caso, você não pode responder ao SMS.
 
@@ -168,7 +168,7 @@ Campos de destaque em `SUBMIT_SM PDU`:
 
 * **dest_addr_ton** e **dest_addr_npi**: indica que tipo de endereço de destino é transmitido (por exemplo, formato local ou internacional). O significado desses campos é padronizado, mas como alguns provedores o usam de forma diferente, você deve solicitar ao provedor o valor correto. Definido na conta externa.
 
-* **target_addr**: endereço, número de telefone ou MSISDN do recipient.
+* **target_addr**: endereço, número de telefone ou MSISDN do destinatário.
 
 * **esm_class**: usado para informar se UDH é usado ou não no campo de texto. Ativado automaticamente pelo conector para SMS dividido se o modo `message_payload` não for usado.
 
@@ -830,8 +830,8 @@ Mesmo se você não conseguir verificar os registros sozinho, será mais fácil 
 
 ### Testar o SMS {#test}
 
-* **Enviar SMS com todos os tipos de caracteres**
-Se você precisar enviar SMS com caracteres não GSM ou não ASCII, tente enviar algumas mensagens com o maior número possível de caracteres diferentes. Se você configurar uma tabela de mapeamento de caracteres personalizada, envie pelo menos um SMS para todos os possíveis `data_coding` valores.
+* **Envio de SMS com todos os tipos de caracteres**
+Se você precisar enviar SMS com caracteres que não sejam GSM ou ASCII, tente enviar algumas mensagens com o maior número possível de caracteres diferentes. Se você configurar uma tabela de mapeamento de caracteres personalizada, envie pelo menos um SMS para todos os valores de `data_coding` possíveis.
 
 * **Verifique se o SR está corretamente processado**
 O SMS deve ser marcado como recebido no log de entregas. O log de entrega deve ser bem-sucedido e ter a seguinte aparência:
@@ -840,7 +840,7 @@ Verifique se você alterou o nome do provedor de entrega. O registro de entrega 
 
 * **Verifique se o MO é processado**
 Se você precisar processar o MO (respostas automáticas, armazenamento de MO no banco de dados etc.) tente fazer alguns testes. Envie alguns SMS para todas as palavras-chave de resposta automática e verifique se a resposta é rápida o suficiente, não mais do que alguns segundos.
-Verifique no log se a Adobe Campaign responde com êxito `DELIVER_SM_RESP` (command_status=0).
+Verifique no log se o Adobe Campaign responde com `DELIVER_SM_RESP` com sucesso (command_status=0).
 
 ### Verificar as PDUs {#check-pdus}
 

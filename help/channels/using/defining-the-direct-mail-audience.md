@@ -26,7 +26,7 @@ Você pode definir o público-alvo no assistente de criação ou clicando na se�
 
 Para correspondência direta, os perfis segmentados são aqueles que serão incluídos no arquivo de extração que deve ser enviado ao seu provedor de correspondência direta.
 
-Para cada perfil segmentado, uma nova linha é adicionada ao arquivo de extração. A quantidade de informações de perfil que será incluída para cada recipient é definida na tela [Definição da extração](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction).
+Para cada perfil segmentado, uma nova linha é adicionada ao arquivo de extração. A quantidade de informações de perfil que será incluída para cada destinatário é definida na tela [Definição da extração](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction).
 
 >[!IMPORTANT]
 >

@@ -91,12 +91,12 @@ Ao integrar o Campaign a outras soluções da Experience Cloud, nas quais os pú
 
 ## Aquisição de dados {#data-acquisition}
 
-O Adobe Campaign permite coletar dados, inclusive informações pessoais e confidenciais. Portanto, é essencial que você receba e monitore o consentimento de seus recipients.
+O Adobe Campaign permite coletar dados, inclusive informações pessoais e confidenciais. Portanto, é essencial que você receba e monitore o consentimento de seus destinatários.
 
-* Tenha sempre o consentimento do recipient para o recebimento de comunicações. Para fazer isso, continue atendendo às solicitações de recusa o mais rápido possível e verifique o consentimento por meio de um duplo processo de aceitação. Para obter mais informações, consulte [Gerenciamento de aceitação e recusa no Campaign](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md) e [Configuração de um processo duplo de aceitação](../../channels/using/setting-up-a-double-opt-in-process.md).
+* Tenha sempre o consentimento do destinatário para o recebimento de comunicações. Para fazer isso, continue atendendo às solicitações de recusa o mais rápido possível e verifique o consentimento por meio de um duplo processo de aceitação. Para obter mais informações, consulte [Gerenciamento de aceitação e recusa no Campaign](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md) e [Configuração de um processo duplo de aceitação](../../channels/using/setting-up-a-double-opt-in-process.md).
 * Não importe listas fraudulentas e use armadilhas para verificar se o arquivo do seu cliente não está sendo usado de forma fraudulenta. Para obter mais informações, consulte [Uso de armadilhas](../../sending/using/using-traps.md).
-* Por meio do gerenciamento de consentimento e direitos, você pode rastrear as preferências dos recipients, bem como gerenciar quem em sua organização pode acessar quais dados. Para obter mais informações, consulte [esta seção](#consent).
-* Facilite e gerencie solicitações de privacidade de seus recipients. Para obter mais informações, consulte [esta seção](#privacy-requests).
+* Por meio do gerenciamento de consentimento e direitos, você pode rastrear as preferências dos destinatários, bem como gerenciar quem em sua organização pode acessar quais dados. Para obter mais informações, consulte [esta seção](#consent).
+* Facilite e gerencie solicitações de privacidade de seus destinatários. Para obter mais informações, consulte [esta seção](#privacy-requests).
 
 ## Gerenciamento de privacidade {#privacy-management}
 
@@ -114,7 +114,7 @@ Os principais recursos de privacidade do Campaign e um exemplo das personalidade
 
 Originalmente, o Adobe Campaign oferece recursos importantes que são essenciais à privacidade:
 
-* **Gerenciamento de consentimento**: por meio do processo de gerenciamento de assinaturas, você pode gerenciar suas preferências de recipient e rastrear quais recipients aceitaram e que tipo de assinatura. Para obter mais informações, consulte [Assinaturas](../../audiences/using/about-subscriptions.md) e [Landing pages](../../channels/using/getting-started-with-landing-pages.md).
+* **Gerenciamento de consentimento**: por meio do processo de gerenciamento de assinaturas, você pode gerenciar suas preferências de destinatário e rastrear quais destinatários aceitaram e que tipo de assinatura. Para obter mais informações, consulte [Assinaturas](../../audiences/using/about-subscriptions.md) e [Landing pages](../../channels/using/getting-started-with-landing-pages.md).
 * **Retenção de dados**: todas as tabelas de registro padrão incorporadas têm períodos de retenção predefinidos, geralmente limitando seu armazenamento de dados a 6 meses ou menos. Períodos de retenção adicionais podem ser configurados com workflows. Para obter mais informações, entre em contato com os consultores ou administradores técnicos da Adobe.
 * **Gerenciamento de direitos**: o Adobe Campaign oferece a capacidade de gerenciar os direitos atribuídos aos vários operadores do Campaign por meio de diferentes funções pré-concebidas ou personalizadas. Isso permite gerenciar quem em sua empresa pode acessar, modificar ou exportar diferentes tipos de dados. Para obter mais informações, consulte [Sobre o gerenciamento de acesso](../../administration/using/about-access-management.md).
 
@@ -136,10 +136,10 @@ As solicitações de **Acesso** e **Exclusão** são apresentadas [nesta página
 
 ## Recursos de rastreamento {#tracking-capabilities}
 
-Graças às funcionalidades de rastreamento, o Adobe Campaign permite rastrear o comportamento dos recipients de entrega utilizando cookies de seção e cookies permanentes. Para obter mais informações sobre rastreamento, consulte [esta página](../../sending/using/tracking-messages.md).
+Graças às funcionalidades de rastreamento, o Adobe Campaign permite rastrear o comportamento dos destinatários de entrega utilizando cookies de seção e cookies permanentes. Para obter mais informações sobre rastreamento, consulte [esta página](../../sending/using/tracking-messages.md).
 
 >[!NOTE]
 >
 >Regulamentos como o Regulamento Geral sobre a Proteção de Dados (GDPR) afirmam que as empresas exigem o consentimento dos usuários do site antes da instalação de qualquer cookie. Você deve informar aos usuários que seus sites estão equipados com ferramentas de rastreamento da web por meio de uma solicitação de autorização.
 
-Você também pode adicionar [links rastreados](../../designing/using/links.md#about-tracked-urls) em suas mensagens para medir o impacto do comportamento da entrega e do recipient no relatório integrado dos [indicadores de rastreamento](../../reporting/using/tracking-indicators.md) ou criar seus próprios [relatórios exclusivos](../../reporting/using/about-dynamic-reports.md).
+Você também pode adicionar [links rastreados](../../designing/using/links.md#about-tracked-urls) em suas mensagens para medir o impacto do comportamento da entrega e do destinatário no relatório integrado dos [indicadores de rastreamento](../../reporting/using/tracking-indicators.md) ou criar seus próprios [relatórios exclusivos](../../reporting/using/about-dynamic-reports.md).

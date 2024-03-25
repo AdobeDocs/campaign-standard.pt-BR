@@ -113,7 +113,7 @@ Ao executar uma solicitação de privacidade de Exclusão ou Acesso, o Adobe Cam
 
 Aqui está a lista de recursos prontos para utilização que são considerados ao executar solicitações de Privacidade:
 
-* Perfis (recipient)
+* Perfis (destinatário)
 * Logs da entrega de perfil (broadLogRcp)
 * Logs de rastreamento de perfil (trackingLogRcp)
 * Logs da entrega (Assinaturas de um aplicativo) (broadLogAppSubRcp)
@@ -147,11 +147,11 @@ Estes são os diferentes status de solicitações de acesso a dados pessoais:
 
 * **[!UICONTROL New]** / **[!UICONTROL Retry pending]**: em andamento, o workflow ainda não processou a solicitação.
 * **[!UICONTROL Processing]** / **[!UICONTROL Retry in progress]**: o workflow está processando a solicitação.
-* **[!UICONTROL Delete pending]**: o workflow identificou todos os dados do recipient que serão excluídos.
+* **[!UICONTROL Delete pending]**: o workflow identificou todos os dados do destinatário que serão excluídos.
 * **[!UICONTROL Delete in progress]**: workflow está processando a exclusão.
   <!--**[!UICONTROL Delete Confirmation Pending]** (Delete request in 2-steps process mode): the workflow has processed the Access request. Manual confirmation is requested to perform the deletion. The button is available for 15 days.-->
 * **[!UICONTROL Complete]**: o processamento da solicitação foi concluído sem erros.
-* **[!UICONTROL Error]**: o workflow encontrou um erro. O motivo é exibido na lista de solicitações de acesso a dados pessoais na coluna **[!UICONTROL Request status]**. Por exemplo, **[!UICONTROL Error data not found]** significa que nenhum dado de recipient correspondente ao **[!UICONTROL Reconciliation value]** do titular dos dados foi encontrado no banco de dados.
+* **[!UICONTROL Error]**: o workflow encontrou um erro. O motivo é exibido na lista de solicitações de acesso a dados pessoais na coluna **[!UICONTROL Request status]**. Por exemplo, **[!UICONTROL Error data not found]** significa que nenhum dado de destinatário correspondente ao **[!UICONTROL Reconciliation value]** do titular dos dados foi encontrado no banco de dados.
 
 <!--### Disabling the 2-step process {#disabling-two-step-process}
 
@@ -223,7 +223,7 @@ Para obter informações mais detalhadas sobre como estender o recurso do perfil
 
 Para preencher os valores, vários métodos podem ser utilizados:
 
-* Usar a interface do Campaign ao editar as informações do recipient (veja abaixo)
+* Usar a interface do Campaign ao editar as informações do destinatário (veja abaixo)
 * Usar a API de privacidade do Campaign (consulte a [documentação da API](../../api/using/managing-ccpa-opt-out.md))
 * Através de um fluxo de trabalho de importação
 
@@ -241,6 +241,6 @@ Você deve garantir que não venderá a terceiros as informações pessoais de p
 
    ![](assets/privacy-ccpa-profile-configure-list.png)
 
-1. Você pode clicar na coluna para classificar os recipients de acordo com as informações de recusa.
+1. Você pode clicar na coluna para classificar os destinatários de acordo com as informações de recusa.
 
    ![](assets/privacy-ccpa-profile-sorting.png)
