@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 100%
+source-wordcount: '492'
+ht-degree: 96%
 
 ---
 
@@ -115,11 +115,11 @@ Você pode monitorar os subdomínios e seus certificados. Saiba mais:
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-O novo sistema de emissão de tíquetes passou pelo [Adobe Admin Console](https://adminconsole.adobe.com/overview). O novo sistema exige novas contas individuais para cada usuário, com as permissões corretas. Se você não conseguir fazer logon com sua Adobe ID, solicite acesso por meio da Experience League, e a equipe de Atendimento ao cliente resolverá o problema o mais rápido possível. [Saiba mais](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+O novo sistema de emissão de tíquetes passou pelo [Adobe Admin Console](https://adminconsole.adobe.com/overview). O novo sistema exige novas contas individuais para cada usuário, com as permissões corretas. Se você não conseguir fazer logon com sua Adobe ID, solicite acesso por meio da Experience League, e a equipe de Atendimento ao cliente resolverá seu problema o mais rápido possível. [Saiba mais](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### Pergunte aos especialistas.
 
-Associe-se à Comunidade do Campaign Classic: procure respostas em perguntas existentes ou faça sua pergunta à comunidade. [Participe da conversa](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Associe-se à Comunidade do Campaign: procure respostas em uma pergunta existente ou faça sua pergunta à comunidade. [Participe da conversa](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Criar um tíquete ou iniciar um chat
 

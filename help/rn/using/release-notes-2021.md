@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
-source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
 workflow-type: tm+mt
 source-wordcount: '4695'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -336,7 +336,7 @@ Os novos recursos, melhorias e correções incluídos na próxima versão do Cam
 
 * O formato de log SMPP foi aprimorado.
 
-* Parâmetros opcionais para as funções cryptString e decryptString JS foram adicionados para corresponder às APIs do Adobe Campaign Classic.
+* Parâmetros opcionais para as funções cryptString e decryptString JS foram adicionados para corresponder às APIs do Adobe Campaign Standard.
 
 * Mensagens de aviso ou erro aprimoradas nos logs de preparação de entrega.
 

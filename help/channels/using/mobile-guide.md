@@ -8,7 +8,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 22%
@@ -225,7 +225,7 @@ Com o Adobe Campaign Standard, você pode enviar deliveries para dispositivos m�
 
 ## Solução de problemas de dispositivos móveis {#mobile-troubleshooting}
 
-As páginas a seguir ajudarão você a resolver os problemas mais comuns que ocorrem ao usar o delivery móvel no Adobe Campaign Classic.
+As páginas a seguir ajudarão você a resolver os problemas mais comuns que ocorrem ao usar o delivery móvel no Adobe Campaign Standard.
 
 <table style="table-layout:fixed">
 <tr>
