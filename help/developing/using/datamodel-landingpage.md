@@ -441,7 +441,7 @@ ht-degree: 7%
          <td> </td>
       </tr>
       <tr>
-         <td>state</td>
+         <td>estado</td>
          <td>Status</td>
          <td>enumeração (byte) </td>
          <td>
@@ -662,7 +662,7 @@ Por status lógico (byLogicalStatus)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>state</td>
+    <td>estado</td>
     <td>enumeração</td>
     </tr>
 </table>
@@ -688,7 +688,7 @@ Por status (por estado)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>state</td>
+    <td>estado</td>
     <td>enumeração</td>
     </tr>
 </table>

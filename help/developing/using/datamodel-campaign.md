@@ -10,7 +10,7 @@ exl-id: a63fe730-a6b2-4ae0-93da-9f8ee7824c9f
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 34%
+ht-degree: 36%
 
 ---
 
@@ -197,7 +197,7 @@ Por status lógico (byLogicalStatus)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>state</td>
+    <td>estado</td>
     <td>enumeração</td>
     </tr>
 </table>
@@ -240,7 +240,7 @@ Por status (por estado)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>state</td>
+    <td>estado</td>
     <td>enumeração</td>
     </tr>
 </table>

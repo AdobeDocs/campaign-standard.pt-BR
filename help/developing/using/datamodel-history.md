@@ -418,7 +418,7 @@ Aniversário (aniversário)
 <td>data</td>
 </tr>
 <tr>
-<td>precision</td>
+<td>precisão</td>
 <td>enumeração</td>
 </tr>
 <tr>

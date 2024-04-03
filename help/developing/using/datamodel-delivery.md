@@ -10,7 +10,7 @@ exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '725'
-ht-degree: 27%
+ht-degree: 28%
 
 ---
 
@@ -478,7 +478,7 @@ ht-degree: 27%
                   <td> </td>
                </tr>
                <tr>
-                  <td>state</td>
+                  <td>estado</td>
                   <td>Status</td>
                   <td>enumeração (byte) </td>
                   <td>
@@ -618,7 +618,7 @@ Por status lógico (byLogicalStatus)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>state</td>
+    <td>estado</td>
     <td>enumeração</td>
     </tr>
 </table>
@@ -691,7 +691,7 @@ Por status (por estado)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>state</td>
+    <td>estado</td>
     <td>enumeração</td>
     </tr>
 </table>

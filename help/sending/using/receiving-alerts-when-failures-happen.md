@@ -90,7 +90,7 @@ Para enviar notificações com base em critérios específicos para diferentes g
 
 Agora, sempre que um delivery atender aos critérios definidos nesse painel, uma notificação de alerta será enviada para o grupo especificado de usuários.
 
-## Critérios de alerta de entrega {#delivery-alerting-criteria}
+## Critérios de alertas de entrega {#delivery-alerting-criteria}
 
 ### Sobre os critérios de alerta {#about-alerting-criteria}
 
