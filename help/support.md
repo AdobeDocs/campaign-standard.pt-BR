@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -119,7 +119,7 @@ O novo sistema de emissão de tíquetes passou pelo [Adobe Admin Console](https:
 
 ### Pergunte aos especialistas.
 
-Associe-se à Comunidade do Campaign: procure respostas em uma pergunta existente ou faça sua pergunta à comunidade. [Participe da conversa](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Associe-se à Comunidade do Campaign: procure por respostas nas perguntas já existentes ou faça uma nova pergunta à comunidade. [Participe da conversa](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Criar um tíquete ou iniciar um chat
 
