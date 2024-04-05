@@ -8,9 +8,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 8625a26686570d555d7f5614b38536c248ee16a3
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '1205'
 ht-degree: 1%
 
 ---
@@ -190,3 +190,25 @@ Para resolver isso:
 * Depois de importar o Target mapping de um XML, também será necessário importar o enriquecimento de relatórios.
 
 * Em vez de importar o Target mapping, você pode criá-lo diretamente no Adobe Campaign Standard, que criará automaticamente o enriquecimento de Relatórios.
+
+## Discrepância entre o número do cabeçalho da coluna e a soma das linhas
+
+A discrepância entre o número do cabeçalho da coluna e a soma de todas as linhas é esperada para os seguintes casos:
+
+* **Métricas únicas**: o uso de métricas exclusivas pode alterar a contagem total exibida no cabeçalho, pois se baseia em IDs de destinatário, em vez de uma simples soma de contagens de linhas. Consequentemente, um único perfil pode acionar vários eventos em várias dimensões, levando a várias linhas no conjunto de dados. No entanto, no cabeçalho, cada perfil é contado apenas uma vez.
+
+  Por exemplo:
+
+   * Se um perfil A abrir um email em três dias diferentes, a análise por dia mostrará A em três linhas, mas no cabeçalho, A contará como 1.
+
+   * Se o perfil A clicar em três links diferentes em um email no mesmo dia, o detalhamento por URL de rastreamento mostrará A em três linhas, mas no cabeçalho, A contará como 1. O mesmo se aplica aos detalhamentos por dispositivo e navegador.
+
+* **Abrir métricas**: a contagem de aberturas é determinada agregando o total de eventos reais abertos e eventos de cliques únicos (por ID de destinatário), exceto casos em que um evento aberto não ocorreu, pois um link de email não pode ser clicado sem um evento aberto.
+
+  Por exemplo:
+
+   * Quando o perfil A abre um email rastreado (com o URL U1), ele é registrado como um evento aberto com o URL anotado como nulo. Clicar no U1 mais tarde gera um evento de clique. Embora o clique de A em U1 seja contado como um evento aberto também, não há evento aberto específico para U1. Portanto, A é contado apenas uma vez na contagem aberta exclusiva.
+
+   * Um perfil R abre um email no dia 1, registra um evento aberto e clica em um link. Nos próximos dois dias, R reabre o email e clica no link novamente, gerando um evento de clique a cada dia. Embora o engajamento de R seja rastreado diariamente no número de abertura, R é contado apenas uma vez no cabeçalho da coluna, com foco em engajamentos exclusivos.
+
+* **Evento negado**: Em Relatórios, evento negado significa tentativas de entrega que foram marcadas inicialmente como bem-sucedidas, mas que falharam após novas tentativas. Eles são indicados por uma contagem de -1. Para evitar confusão, essas contagens negativas são excluídas dos números da métrica de entrega exibidos. Como resultado, o total de todas as linhas para a métrica de entrega pode não corresponder ao número do cabeçalho da coluna.
