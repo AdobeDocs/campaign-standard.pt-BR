@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: 4d67d1d0239c7439cc1f4b8e1fd7fb2f7a99adec
+source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 10%
+source-wordcount: '395'
+ht-degree: 5%
 
 ---
 
@@ -35,3 +35,31 @@ Abaixo estão os períodos de retenção padrão para tabelas padrão. Sempre qu
 * **Eventos de pipeline ignorados**: 1 mês
 * **Alertas de entrega**: 1 mês
 * **Exportar auditoria**: 6 meses (recomendado: 1 mês)
+
+## Período de retenção para entregas {#deliveries}
+
+Por padrão, o período de retenção para deliveries é ilimitado.
+
+No entanto, se houver um alto volume de deliveries na sua instância, você poderá atualizar o **NmsCleanup_DeliveryPurgeDelay** opção disponível no **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** menu.
+
+Cada vez que a variável **[!UICONTROL Database cleanup]** for executado, os deliveries que atenderem às condições definidas para essa opção serão excluídos.
+
+Esta ação pode ajudar a acelerar processos como o **[!UICONTROL Copy headers from delivery templates]** fluxo de trabalho.
+
+>[!NOTE]
+>
+>Saiba mais sobre workflows técnicos em [nesta seção](technical-workflows.md).
+
+
+O valor padrão para a variável **NmsCleanup_DeliveryPurgeDelay** opção é `-1`. Nesse caso, nenhum delivery é excluído.
+
+Por exemplo, se você defini-lo como `180`, qualquer delivery que não seja de modelo que não tenha sido atualizado nos últimos 180 dias será excluído quando a variável **[!UICONTROL Database cleanup]** fluxo de trabalho for executado.
+
+>[!NOTE]
+>
+>* Os templates de delivery transacional ou de marketing não serão excluídos.
+>
+>* Para deliveries recorrentes, os deliveries secundários com período de agregação definido como mês ou ano não serão excluídos.
+
+Ao atualizar o **NmsCleanup_DeliveryPurgeDelay** , é recomendável prosseguir gradualmente com várias iterações. Por exemplo, você pode começar definindo o valor como 300 dias, depois 180 dias, depois 120 dias e assim por diante - certificando-se de que as iterações estejam pelo menos com 2 dias de diferença. Caso contrário, a variável **[!UICONTROL Database cleanup]** o fluxo de trabalho pode levar muito mais tempo devido a um grande número de deliveries a serem excluídos.
+

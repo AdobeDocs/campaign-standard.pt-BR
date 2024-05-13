@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 26a1c36003645446fb8b827d76afba749d64e9f2
+source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
 workflow-type: tm+mt
-source-wordcount: '2729'
-ht-degree: 59%
+source-wordcount: '2749'
+ht-degree: 58%
 
 ---
 
@@ -294,7 +294,9 @@ A seção **[!UICONTROL SMTP]** contém os seguintes parâmetros:
   >
   >Adicionar um script para inserir cabeçalhos SMTP adicionais é apenas para usuários avançados. A sintaxe desse script deve estar em conformidade com os requisitos desse tipo de conteúdo: não há espaço não utilizado, nenhuma linha vazia etc.
 
-  A partir de 1º de junho de 2024, o Google e o Yahoo! exigirá que os remetentes cumpram as **Lista De Um Clique - Cancelar Inscrição**. O Campaign oferece suporte a esse recurso pronto para uso.
+  A partir de 1º de junho de 2024, o Google e o Yahoo! exigirá que os remetentes cumpram as **Lista De Um Clique - Cancelar Inscrição**. O Campaign oferece suporte a esse recurso pronto para uso para modelos de entrega.
+
+  Para aplicar **Lista De Um Clique - Cancelar Inscrição** para todos os deliveries de email que não sejam de modelo, você deve executar o **[!UICONTROL Copy headers from delivery templates]** fluxo de trabalho técnico. [Saiba mais](technical-workflows.md)
 
   >[!CAUTION]
   >
@@ -332,7 +334,7 @@ Use o **[!UICONTROL Delivery duration]** ou **[!UICONTROL Validity limit for sen
 
 ### Regras de processamento de email {#legacy-email-processing-rules}
 
-A variável **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** e **[!UICONTROL Domain management]** as regras podem ser acessadas e modificadas pelos administradores por meio da **[!UICONTROL Administration > Channels > Email > Email processing rules]** menu. [Saiba mais](#email-processing-rules).
+A variável **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** e **[!UICONTROL Domain management]** as regras podem ser acessadas e modificadas pelos administradores por meio da **[!UICONTROL Administration > Channels > Email > Email processing rules]** menu. [Saiba mais](#email-processing-rules)
 
 ### Qualificação de email de rejeição {#legacy-bounce-mail-qualification}
 

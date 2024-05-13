@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 88%
+source-wordcount: '820'
+ht-degree: 76%
 
 ---
 
@@ -47,6 +47,12 @@ Os fluxos de trabalho técnicos são usados para lidar com processos técnicos e
    <td> <span class="uicontrol">Faturamento</span> <br /> </td> 
    <td> <span class="uicontrol">faturamento</span> <br /> </td> 
    <td> Este fluxo de trabalho envia por email o relatório de atividades do sistema para o usuário 'faturamento'. Por padrão, ele é iniciado automaticamente todos os dias às 1:00.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">Copiar cabeçalhos dos modelos de entrega</span> <br /> </td> 
+   <td> <span class="uicontrol">smtpHeaderupdate</span> <br /> </td> 
+   <td> Esse workflow copia cabeçalhos SMTP definidos para templates de delivery de email para deliveries filho não template correspondentes. Somente os deliveries de marketing por email são selecionados por esse fluxo de trabalho. Os cabeçalhos SMTP não são copiados para deliveries transacionais e deliveries de prova. <br> Este fluxo de trabalho não é executado periodicamente. Ele deve ser iniciado pelo usuário com base no uso. <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> Se houver um alto volume de deliveries na sua instância, você poderá atualizar a opção NmsCleanup_DeliveryPurgeDelay na <strong>Configurações do aplicativo</strong>. Se você fizer uma alteração nos cabeçalhos SMTP de qualquer modelo, será necessário executar o workflow novamente após a alteração para que os cabeçalhos corrigidos sejam copiados para deliveries que não sejam de modelos.<a href="data-retention.md#deliveries">Saiba mais</a>
+   <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Limpeza do banco de dados</span> <br /> </td> 
