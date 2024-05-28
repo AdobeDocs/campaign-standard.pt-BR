@@ -7,9 +7,11 @@ topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hide: true
+hidefromtoc: true
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
-source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
-workflow-type: ht
+source-git-commit: 63cd437c5a19791ffb9d3c0b8690ee1532a4774d
+workflow-type: tm+mt
 source-wordcount: '4695'
 ht-degree: 100%
 
