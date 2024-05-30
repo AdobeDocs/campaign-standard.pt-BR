@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 9291eb06c35b1d06c0a992fa64a460215477f57e
+source-git-commit: a8013bac719a45442e09d710db12df0abe721cc4
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 38%
@@ -26,7 +26,7 @@ ht-degree: 38%
 
 * **Notificações por push do iOS** - O Adobe Campaign Standard 24.1 agora é compatível com certificados de autenticação p8 para notificações por push do iOS. Sua implementação deve ser adaptada para ativar essas alterações. Saiba mais nesta [nota técnica](../../administration/using/push-technote.md).
 
-**Lista De Um Clique - Cancelar Inscrição** - A partir de 1 de junho de 2024, o Google e o Yahoo! exigirão que os remetentes cumpram o Cancelamento de inscrição na lista com um clique. O Campaign agora oferece suporte a esse recurso nativamente Saiba mais [nesta seção](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters).
+* **Lista De Um Clique - Cancelar Inscrição** - A partir de 1 de junho de 2024, o Google e o Yahoo! exigirão que os remetentes cumpram o Cancelamento de inscrição na lista com um clique. O Campaign agora oferece suporte a esse recurso nativamente Saiba mais [nesta seção](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters).
 
 * **Infraestrutura** - O banco de dados Postgres foi atualizado da versão 11.22 para a versão 12.17.
 
