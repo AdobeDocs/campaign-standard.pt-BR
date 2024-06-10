@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: a8013bac719a45442e09d710db12df0abe721cc4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '244'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 38%
 
 ### Aprimoramentos {#e-rn-improvements}
 
-* **Notificações por push do Android** - O Adobe Campaign Standard 24.1 usa as APIs HTTP v1 para enviar mensagens de notificação por push do Android, a fim de garantir a compatibilidade com as alterações futuras do FCM. Saiba mais nesta [nota técnica](../../administration/using/push-technote.md).
+* **Notificações por push no Android**: o Adobe Campaign Standard 24.1 usa as APIs HTTP v1 para enviar notificações por push no Android, a fim de garantir a compatibilidade com as alterações futuras do FCM. Saiba mais nesta [nota técnica](../../administration/using/push-technote.md).
 
-* **Notificações por push do iOS** - O Adobe Campaign Standard 24.1 agora é compatível com certificados de autenticação p8 para notificações por push do iOS. Sua implementação deve ser adaptada para ativar essas alterações. Saiba mais nesta [nota técnica](../../administration/using/push-technote.md).
+* **Notificações por push no iOS**: o Adobe Campaign Standard 24.1 agora é compatível com certificados de autenticação p8 para notificações por push no iOS. Sua implementação deve ser adaptada para ativar essas alterações. Saiba mais nesta [nota técnica](../../administration/using/push-technote.md).
 
-* **Lista De Um Clique - Cancelar Inscrição** - A partir de 1 de junho de 2024, o Google e o Yahoo! exigirão que os remetentes cumpram o Cancelamento de inscrição na lista com um clique. O Campaign agora oferece suporte a esse recurso nativamente Saiba mais [nesta seção](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters).
+* **Cancelar inscrição com um clique**: a partir de 1º de junho de 2024, o Google e o Yahoo! exigirão que os remetentes cumpram o Cancelamento de inscrição na lista com um clique. O Campaign agora oferece suporte a esse recurso nativamente Saiba mais [nesta seção](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters).
 
-* **Infraestrutura** - O banco de dados Postgres foi atualizado da versão 11.22 para a versão 12.17.
+* **Infraestrutura**: o banco de dados Postgres foi atualizado da versão 11.22 para a versão 12.17.
 
-* **Rastreamento de CTA** - Quando os usuários abrem e clicam em um URL personalizado, o URL personalizado resolvido agora é rastreado em vez do URL personalizado codificado. Essa alteração não está habilitada por padrão. Para ativá-lo na instância do Campaign, entre em contato com o representante da Adobe.
+* **Rastreamento de CTA**: quando as pessoas abrem e clicam em um URL personalizado, o URL personalizado resolvido agora é rastreado em vez do URL personalizado codificado. Essa alteração não está habilitada por padrão. Para habilitá-la na instância do Campaign, entre em contato com o seu representante da Adobe.
 
-* **Lista suspensa Campos de personalização** - Ao criar modelos de mensagem de email transacional no Adobe Experience Manager, agora é possível selecionar campos de personalização em uma lista suspensa. Essa alteração não está habilitada por padrão. Para ativá-lo na instância do Campaign, entre em contato com o representante da Adobe.
+* **Lista suspensa de campos de personalização**: ao criar modelos de mensagem de email transacional no Adobe Experience Manager, agora é possível selecionar campos de personalização em uma lista suspensa. Essa alteração não está habilitada por padrão. Para habilitá-la na instância do Campaign, entre em contato com o seu representante da Adobe.
 
 ### Correções {#e-rn-fixes}
 
