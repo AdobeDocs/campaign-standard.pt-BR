@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: ff6e926b66547632b74e58cc0e419c83a4ea556e
+source-git-commit: c35f8caeab9b6605b042618705eecc347d13fd18
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 100%
+source-wordcount: '419'
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ As atualizações são implantadas em duas fases. Primeiro, as instâncias de Pr
 
 Todas as datas de lançamento estão sujeitas a alterações; acesse esta página com frequência para verificar se há atualizações. As atualizações de ambientes ocorrem em ondas, durante os intervalos indicados abaixo. As datas exatas são comunicadas por email a cada cliente.
 
-## Versão 24.1 – Versão do inverno de 2024 {#release-24-1-release}
+## Versão 24.2 - Versão de verão de 2024 {#release-24-2-release}
 
 Informações detalhadas sobre esta versão estão disponíveis nas [Notas de versão](release-notes.md) quando as atualizações do ambiente de preparo são iniciadas.
 
@@ -33,17 +33,20 @@ Informações detalhadas sobre esta versão estão disponíveis nas [Notas de v
  <thead>
   <tr>
    <th> Ambientes </th>
-   <th> Datas </th>
+   <th> Disponibilidade limitada </th>
+   <th> Disponibilidade geral </th>
   </tr>
  </thead>
  <tbody>
   <tr>
    <td>Preparo </td>
-   <td>16 de janeiro a 13 de fevereiro de 2024 </td>
+   <td>6 a 13 de agosto de 2024 </td>
+   <td>2025 - Datas a serem confirmadas</td>
   </tr>
   <tr>
    <td>Produção </td>
-   <td>23 de janeiro a 20 de fevereiro de 2024 </td>
+   <td>20 a 27 de agosto de 2024 </td>
+   <td>2025 - Datas a serem confirmadas</td>
   </tr>
  </tbody>
 </table>
