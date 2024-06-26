@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
+source-git-commit: dba7ed7d68a33ddf1a1e62ea0f20e855c0b7eb20
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 76%
+source-wordcount: '839'
+ht-degree: 73%
 
 ---
 
@@ -62,7 +62,8 @@ Os fluxos de trabalho técnicos são usados para lidar com processos técnicos e
   <tr> 
    <td> <span class="uicontrol">Previsão</span> <br /> </td> 
    <td> <span class="uicontrol">previsão</span> <br /> </td> 
-   <td> Este fluxo de trabalho executa a análise das entregas armazenados na previsão provisional (criação dos logs provisionais). Por padrão, ele é iniciado todos os dias às 1:00. <br /> </td> 
+   <td> Este fluxo de trabalho executa a análise das entregas armazenados na previsão provisional (criação dos logs provisionais). Por padrão, ele é iniciado todos os dias às 1:00. <br />
+   O fluxo de trabalho de previsão é um fluxo de trabalho herdado que foi interrompido no Campaign Standard e não está mais funcionando.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Importar um público-alvo compartilhado</span> <br /> </td> 
