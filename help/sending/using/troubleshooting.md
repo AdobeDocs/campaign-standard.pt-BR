@@ -9,7 +9,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 0470b986-c00a-4441-8621-82c7112a9953
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 58%
@@ -25,6 +25,7 @@ Ocorreu algum problema com a capacidade de entrega? Encontre a solução aqui.
 **Por que recebo sempre a mesma mensagem de erro para um provedor de serviços específico?**
 
 Ao receber sempre a mesma mensagem de erro para um ISP, o email ou IP pode ter sido detectado como defeituoso pelo ISP. Siga as seguintes recomendações:
+
 * Verifique se você recebeu uma grande porcentagem de falhas vinculadas a endereços de email inexistentes (falhas **desconhecidas do usuário**).
 * Atualize os formulários de subscrição para detectar qualquer erro nos nomes de domínio inseridos (por exemplo: gmaul.com ou yaho.com).
 * Se ocorrer erros que indicam que as mensagens são declaradas como spam ou que estão constantemente bloqueadas, tente excluir os destinatários que não abriram ou clicaram em uma das mensagens nos últimos 12 meses a partir do público-alvo.
@@ -49,13 +50,13 @@ Se o problema persistir, entre em contato com os serviços comerciais, de entreg
 
 ## Remoção da lista de bloqueios {#removing-from-denylist}
 
-* **Um dos meus recipients foi adicionado ao incluo na lista de bloqueios por engano. Incluir na lista de bloqueios Como faço para removê-los do arquivo de classificação para que eu possa iniciar o envio de mensagens para eles novamente?**
+* **Um dos meus recipients foi adicionado ao incluo na lista de bloqueios por engano. Como faço para removê-los da inclui na lista de bloqueios para que eu possa iniciar o envio de mensagens para eles novamente?**
 
    * Vá para **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
    * Nos detalhes do registro correspondente, defina o valor do campo **[!UICONTROL Status]** como **[!UICONTROL Valid]**.
    * Salve o registro.
 
-* **Como é possível descobrir se um dos IPs está no incluo na lista de bloqueios? Como remover meus IPs de uma lista de bloqueios?**
+* **Como é possível descobrir se um dos IPs está na inclui na lista de bloqueios? Como remover meus IPs de uma lista de bloqueios?**
 
   Para verificar se o endereço IP está no arquivo de inclui na lista de bloqueios, é possível usar vários sites para verificá-lo, como:
    * [MX Toolbox](https://mxtoolbox.com/)

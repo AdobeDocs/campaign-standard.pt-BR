@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: dba7ed7d68a33ddf1a1e62ea0f20e855c0b7eb20
+source-git-commit: f87795ee2378a1e9e1b393c6cce002bcb70178b8
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 73%
+source-wordcount: '791'
+ht-degree: 75%
 
 ---
 
@@ -51,20 +51,14 @@ Os fluxos de trabalho técnicos são usados para lidar com processos técnicos e
   <tr> 
    <td> <span class="uicontrol">Copiar cabeçalhos dos modelos de entrega</span> <br /> </td> 
    <td> <span class="uicontrol">smtpHeaderupdate</span> <br /> </td> 
-   <td> Esse workflow copia cabeçalhos SMTP definidos para templates de delivery de email para deliveries filho não template correspondentes. Somente os deliveries de marketing por email são selecionados por esse fluxo de trabalho. Os cabeçalhos SMTP não são copiados para deliveries transacionais e deliveries de prova. <br> Este fluxo de trabalho não é executado periodicamente. Ele deve ser iniciado pelo usuário com base no uso. <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> Se houver um alto volume de deliveries na sua instância, você poderá atualizar a opção NmsCleanup_DeliveryPurgeDelay na <strong>Configurações do aplicativo</strong>. Se você fizer uma alteração nos cabeçalhos SMTP de qualquer modelo, será necessário executar o workflow novamente após a alteração para que os cabeçalhos corrigidos sejam copiados para deliveries que não sejam de modelos.<a href="data-retention.md#deliveries">Saiba mais</a>
+   <td> Esse workflow copia cabeçalhos SMTP definidos para templates de delivery de email para deliveries filho não template correspondentes. Somente os deliveries de marketing por email são selecionados por esse fluxo de trabalho. Os cabeçalhos SMTP não são copiados para deliveries transacionais e deliveries de prova. <br> Este fluxo de trabalho não é executado periodicamente. Ele deve ser iniciado pelo usuário com base no uso. <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> Se houver um alto volume de entregas em sua instância, você poderá atualizar a opção NmsCleanup_DeliveryPurgeDelay nas <strong>Configurações do aplicativo</strong>. Se você fizer uma alteração nos cabeçalhos SMTP de qualquer modelo, será necessário executar o workflow novamente após a alteração para que os cabeçalhos corrigidos sejam copiados para deliveries que não sejam de modelos.<a href="data-retention.md#deliveries">Saiba mais</a>
    <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Limpeza do banco de dados</span> <br /> </td> 
    <td> <span class="uicontrol">cleanup</span> <br /> </td> 
    <td> Este é o fluxo de trabalho de manutenção do banco de dados. Ele executa diferentes estatísticas e processos e exclui dados obsoletos do banco de dados de acordo com a configuração que foi definida. Por padrão, ele é iniciado automaticamente todos os dias às 4:00.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">Previsão</span> <br /> </td> 
-   <td> <span class="uicontrol">previsão</span> <br /> </td> 
-   <td> Este fluxo de trabalho executa a análise das entregas armazenados na previsão provisional (criação dos logs provisionais). Por padrão, ele é iniciado todos os dias às 1:00. <br />
-   O fluxo de trabalho de previsão é um fluxo de trabalho herdado que foi interrompido no Campaign Standard e não está mais funcionando.</td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">Importar um público-alvo compartilhado</span> <br /> </td> 
    <td> <span class="uicontrol">importSharedAudience</span> <br /> </td> 
@@ -102,12 +96,12 @@ Os fluxos de trabalho técnicos são usados para lidar com processos técnicos e
    <td> Esse fluxo de trabalho sincroniza as propriedades de tag móvel importadas na Adobe Campaign Standard. Ele é iniciado a cada 15 minutos.<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">Rastreamento da recuperação de logs</span> <br /> </td> 
+   <td> <span class="uicontrol">Recuperação de logs de rastreamento</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
    <td> Esse fluxo de trabalho sincroniza as propriedades de tag móvel importadas na Adobe Campaign Standard. Ele é iniciado a cada 15 minutos.<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">Recuperar logs de rastreamento</span> <br /> </td> 
+   <td> <span class="uicontrol">Recuperar Logs De Rastreamento</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
    <td> Esse fluxo de trabalho restaura os logs de rastreamento perdidos. Observe que esse workflow técnico é usado em contextos específicos e restrito somente ao uso interno do Adobe. <br> Por padrão, ele é iniciado a cada 10 minutos.<br /> </td> 
   </tr>

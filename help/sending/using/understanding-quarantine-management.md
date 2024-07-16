@@ -8,7 +8,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
+source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
 workflow-type: tm+mt
 source-wordcount: '1430'
 ht-degree: 64%
@@ -47,9 +47,9 @@ A quarentena e a lista de bloqueios não se aplicam ao mesmo objeto:
 
 >[!NOTE]
 >
->A quarentena inclui um **Na inclui na lista de bloqueios** status, que se aplica quando os recipients marcam sua mensagem como spam ou respondem a uma mensagem SMS com uma palavra-chave como &quot;PARAR&quot;. Nesse caso, o endereço do perfil envolvido ou o número de telefone é enviado para quarentena com o status **[!UICONTROL On denylist]**. Para obter mais informações sobre como gerenciar mensagens SMS PARAR, consulte [esta seção](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
+>A quarentena inclui um status **Em inclui na lista de bloqueios**, que se aplica quando os recipients marcam sua mensagem como spam ou respondem a uma mensagem SMS com uma palavra-chave como &quot;PARAR&quot;. Nesse caso, o endereço do perfil envolvido ou o número de telefone é enviado para quarentena com o status **[!UICONTROL On denylist]**. Para obter mais informações sobre como gerenciar mensagens SMS PARAR, consulte [esta seção](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
-&lt;!—Quando um usuário responde a uma mensagem SMS com uma palavra-chave, como PARAR, para recusar os deliveries de SMS, seu perfil não é adicionado à inclui na lista de bloqueios, como no processo de recusa de email. Em vez disso, o número de telefone do perfil é enviado para quarentena com o **[!UICONTROL On denylist]** status. Esse status se refere apenas ao número de telefone, o que significa que o perfil continuará recebendo mensagens de email.<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
+&lt;!—Quando um usuário responde a uma mensagem SMS com uma palavra-chave, como PARAR, para recusar os deliveries de SMS, seu perfil não é adicionado à inclui na lista de bloqueios, como no processo de recusa de email. Em vez disso, o número de telefone do perfil é enviado para quarentena com o status **[!UICONTROL On denylist]**. Este status se refere apenas ao número de telefone, o que significa que o perfil continuará recebendo mensagens de email.<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
 
 ## Identificação de endereços em quarentena {#identifying-quarantined-addresses}
 
@@ -67,7 +67,7 @@ Os endereços em quarentena para uma entrega específica são listados durante a
 
 ### Identificação de endereços em quarentena para toda a plataforma {#identifying-quarantined-addresses-for-the-entire-platform}
 
-Os administradores podem acessar a lista detalhada dos endereços de email em quarentena para toda a plataforma do **[!UICONTROL Administration > Channels > Quarantines > Addresses]** menu.
+Os administradores podem acessar a lista detalhada dos endereços de email em quarentena para toda a plataforma do menu **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
 
 <!--
 This menu lists quarantined elements for **Email**, **SMS** and **Push notification** channels.
@@ -77,19 +77,19 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 >[!NOTE]
 >
->O aumento no número de quarentenas é um efeito normal relacionado ao &quot;desgaste&quot; do banco de dados. Por exemplo, se o tempo de vida de um endereço de email for de três anos e a tabela de recipients aumentar em 50% todo ano, o aumento das quarentenas poderá ser calculado da seguinte maneira: Fim do ano 1: (1&#42;0,33)/(1+0,5)=22%. Fim do ano 2: ((1,22&#42;0,33)+0,33)/(1,5+0,75)=32,5%.
+>O aumento no número de quarentenas é um efeito normal relacionado ao &quot;desgaste&quot; do banco de dados. Por exemplo, se o tempo de vida de um endereço de email for de três anos e a tabela de recipients aumentar em 50% todo ano, o aumento nas quarentenas poderá ser calculado da seguinte maneira: Fim do ano 1: (1&#42;0.33)/(1+0.5)=22%. Fim do ano 2: ((1,22&#42;0,33)+0,33)/(1,5+0,75)=32,5%.
 
 Os filtros estão disponíveis para ajudá-lo a navegar pela lista. Você pode filtrar pelo endereço, status e/ou canal.
 
 ![](assets/quarantines-filters.png)
 
-É possível editar ou [excluir](#removing-a-quarantined-address) cada entrada, bem como criar novas.
+Você pode editar ou [excluir](#removing-a-quarantined-address) cada entrada, bem como criar novas entradas.
 
 Para editar uma entrada, clique na linha correspondente e modifique os campos conforme necessário.
 
 ![](assets/quarantines-edit.png)
 
-Para adicionar uma nova entrada manualmente, use o **[!UICONTROL Create]** botão.
+Para adicionar uma nova entrada manualmente, use o botão **[!UICONTROL Create]**.
 
 ![](assets/quarantines-create-button.png)
 
@@ -101,7 +101,7 @@ Defina o endereço (ou número de telefone etc.) e tipo de canal. Você pode def
 
 ### Atualizações automáticas {#unquarantine-auto}
 
-Os endereços que correspondem a condições específicas são excluídos automaticamente da lista de quarentena pelo workflow de limpeza do banco de dados. Saiba mais sobre workflows técnicos, consulte [nesta seção](../../administration/using/technical-workflows.md#list-of-technical-workflows).
+Os endereços que correspondem a condições específicas são excluídos automaticamente da lista de quarentena pelo workflow de limpeza do banco de dados. Saiba mais sobre fluxos de trabalho técnicos, consulte [esta seção](../../administration/using/technical-workflows.md#list-of-technical-workflows).
 
 Os endereços são removidos automaticamente da lista de quarentena nos seguintes casos:
 
@@ -111,7 +111,7 @@ Os endereços são removidos automaticamente da lista de quarentena nos seguinte
 
 O status muda então para **[!UICONTROL Valid]**.
 
-O número máximo de tentativas a serem executadas em caso de **[!UICONTROL Erroneous]** O status e o atraso mínimo entre tentativas agora se baseiam no desempenho histórico e atual de um IP em um determinado domínio.
+O número máximo de tentativas a serem executadas em caso de status **[!UICONTROL Erroneous]** e o atraso mínimo entre tentativas agora se baseiam no desempenho histórico e atual de um IP em um determinado domínio.
 
 
 >[!IMPORTANT]
@@ -121,13 +121,13 @@ Os destinatários com um endereço em um status **[!UICONTROL Quarantine]** ou *
 
 ### Atualizações manuais {#unquarantine-manual}
 
-Também é possível cancelar a quarentena de um endereço manualmente.  Para remover manualmente um endereço da lista da quarentena, você pode removê-lo da lista da quarentena ou alterar seu status para **[!UICONTROL Valid]**.
+Também é possível cancelar a quarentena de um endereço manualmente.  Para remover manualmente um endereço da lista da quarentena, você pode removê-lo da lista ou alterar seu status para **[!UICONTROL Valid]**.
 
 * Selecione o endereço na lista **[!UICONTROL Administration > Channels > Quarantines > Addresses]** e selecione **[!UICONTROL Delete element]**.
 
   ![](assets/quarantine-delete-address.png)
 
-* Selecione um endereço e altere sua **[!UICONTROL Status]** para **[!UICONTROL Valid]**.
+* Selecione um endereço e altere seu **[!UICONTROL Status]** para **[!UICONTROL Valid]**.
 
   ![](assets/quarantine-valid-status.png)
 
@@ -181,4 +181,4 @@ As tentativas serão executadas no decorrer da [duração da entrega](../../admi
 <!--In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error.
 The error counter threshold can be modified.-->
 
-O contador de erros será reinicializado se o último erro significativo ocorrer há mais de 10 dias. O status do endereço é alterado para **Válido** e é excluído da lista de quarentenas pela **Limpeza do banco de dados** fluxo de trabalho. (Para obter mais informações sobre workflows técnicos, consulte [nesta seção](../../administration/using/technical-workflows.md#list-of-technical-workflows).)
+O contador de erros será reinicializado se o último erro significativo ocorrer há mais de 10 dias. O status do endereço é alterado para **Válido** e excluído da lista de quarentenas pelo fluxo de trabalho **Limpeza do banco de dados**. (Para obter mais informações sobre fluxos de trabalho técnicos, consulte [esta seção](../../administration/using/technical-workflows.md#list-of-technical-workflows).)

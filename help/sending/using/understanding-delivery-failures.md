@@ -8,10 +8,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
 workflow-type: tm+mt
 source-wordcount: '1281'
-ht-degree: 69%
+ht-degree: 66%
 
 ---
 
@@ -82,7 +82,7 @@ Os possíveis motivos para uma falha de entrega são:
 
 Se uma mensagem falhar devido a um erro temporário, as tentativas serão executadas durante a duração do delivery. Para obter mais informações sobre os tipos de erros, consulte [Tipos e motivos de falha de entrega](#delivery-failure-types-and-reasons).
 
-O número de tentativas (quantas tentativas devem ser executadas no dia seguinte ao início do envio) e o atraso mínimo entre as tentativas agora são<!--managed by the Adobe Campaign Enhanced MTA,--> com base no desempenho histórico e atual de um IP em um determinado domínio. As configurações de **Tentativas** no Campaign são ignoradas.
+O número de tentativas (quantas tentativas devem ser executadas no dia seguinte ao início do envio) e o atraso mínimo entre as tentativas agora são <!--managed by the Adobe Campaign Enhanced MTA,--> com base no desempenho histórico e atual de um IP em um determinado domínio. As configurações de **Tentativas** no Campaign são ignoradas.
 
 <!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
@@ -92,11 +92,11 @@ Para modificar a duração de uma entrega, vá para os parâmetros avançados da
 >
 >**O parâmetro **[!UICONTROL Delivery duration]**nas entregas do Campaign agora apenas será usado se definido para 3,5 dias ou menos.** Se você definir um valor superior a 3,5 dias, ele não será considerado.
 
-Por exemplo, se você quiser que as tentativas de um delivery parem depois de um dia, poderá definir a duração do delivery como **1d** e as mensagens na fila de tentativas serão removidas após um dia.
+Por exemplo, se você quiser que as tentativas de um delivery parem depois de um dia, poderá definir a duração do delivery como **1d**, e as mensagens na fila de tentativas serão removidas após um dia.
 
 >[!NOTE]
 >
->Quando uma mensagem estiver na fila de tentativas por no máximo 3,5 dias e não for entregue, o tempo limite expirará, e seu status será atualizado<!--from **[!UICONTROL Sent]**--> para **[!UICONTROL Failed]** no [logs do delivery](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+>Quando uma mensagem estiver na fila de tentativas por no máximo 3,5 dias e não for entregue, o tempo limite expirará, e seu status será atualizado<!--from **[!UICONTROL Sent]**--> para **[!UICONTROL Failed]** nos [logs de entrega](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
@@ -116,9 +116,9 @@ Para mensagens de erro de falha síncrona de delivery, o MTA aprimorado do Adobe
 >
 >As qualificações de rejeição na tabela **[!UICONTROL Message qualification]** do Campaign não são mais usadas.
 
-As rejeições assíncronas ainda são qualificadas pelo processo do InMail por meio das regras **[!UICONTROL Inbound email]**. Para acessar essas regras, clique no link **Adobe** logotipo, no canto superior esquerdo, selecione **[!UICONTROL Administration > Channels > Email > Email processing rules]** e selecione **[!UICONTROL Bounce mails]**. Para obter mais informações sobre essa regra, consulte [nesta seção](../../administration/using/configuring-email-channel.md#email-processing-rules).
+As rejeições assíncronas ainda são qualificadas pelo processo do InMail por meio das regras **[!UICONTROL Inbound email]**. Para acessar essas regras, clique no logotipo **Adobe**, no canto superior esquerdo, selecione **[!UICONTROL Administration > Channels > Email > Email processing rules]** e **[!UICONTROL Bounce mails]**. Para obter mais informações sobre esta regra, consulte [esta seção](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-Para obter mais informações sobre rejeições e os diferentes tipos de rejeições, consulte [nesta seção](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
+Para obter mais informações sobre rejeições e os diferentes tipos de rejeições, consulte [esta seção](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 

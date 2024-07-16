@@ -9,7 +9,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 25%
@@ -18,7 +18,8 @@ ht-degree: 25%
 
 # Monitoramento da capacidade de entrega{#monitor-deliverability}
 
-Abaixo você encontrará detalhes sobre o **[!UICONTROL Delivery throughput]** relatório e as diferentes ferramentas de monitoramento oferecidas pelo Adobe Campaign. Estas são algumas diretrizes adicionais sobre o monitoramento da capacidade de entrega:
+Abaixo você encontrará detalhes sobre o relatório **[!UICONTROL Delivery throughput]**, bem como as diferentes ferramentas de monitoramento oferecidas pelo Adobe Campaign. Estas são algumas diretrizes adicionais sobre o monitoramento da capacidade de entrega:
+
 * Verifique regularmente a taxa de transferência do delivery de toda a plataforma para verificar se ela é consistente com a configuração original.
 * Verifique se as tentativas estão configuradas corretamente (30 minutos para o período de nova tentativa e mais de 20 tentativas) nos templates do delivery.
 * Verifique regularmente se a caixa de rejeição está acessível e se a conta não está prestes a expirar.
@@ -40,7 +41,7 @@ Outros relatórios estão disponíveis, como **[!UICONTROL Delivery summary]** o
 
 ## Monitoramento de entregas {#monitoring-deliveries}
 
-O painel de mensagem fornece acesso aos logs do delivery: **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** e **[!UICONTROL Tracked URLs]**. Eles mostram os detalhes do envio, o público-alvo que foi excluído e o motivo, e as informações de rastreamento, como aberturas e cliques.
+O painel de mensagens fornece acesso aos logs de entrega: **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** e **[!UICONTROL Tracked URLs]**. Eles mostram os detalhes do envio, o público-alvo que foi excluído e o motivo, e as informações de rastreamento, como aberturas e cliques.
 
 Para obter mais informações, consulte [Monitoramento de uma entrega](../../sending/using/monitoring-a-delivery.md)
 
@@ -48,9 +49,9 @@ Para obter mais informações, consulte [Monitoramento de uma entrega](../../sen
 
 ## Recebimento de alertas {#receiving-alerts}
 
-A variável **[!UICONTROL Delivery alerting]** O recurso é um sistema de gerenciamento de alertas que permite que um grupo de usuários receba automaticamente notificações contendo informações sobre a execução de seus deliveries.
+O recurso **[!UICONTROL Delivery alerting]** é um sistema de gerenciamento de alertas que permite que um grupo de usuários receba automaticamente notificações contendo informações sobre a execução de suas entregas.
 
-Para obter mais informações, consulte [Receber alertas quando ocorrerem falhas](../../sending/using/receiving-alerts-when-failures-happen.md).
+Para obter mais informações, consulte [Recebendo alertas quando ocorrerem falhas](../../sending/using/receiving-alerts-when-failures-happen.md).
 
 <!--## External tools (#external-tools)
 

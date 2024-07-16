@@ -9,10 +9,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 5e523519-7192-4031-9d96-559af23074d9
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 69%
+source-wordcount: '697'
+ht-degree: 70%
 
 ---
 
@@ -23,6 +23,10 @@ A capacidade de delivery permite medir o sucesso das campanhas em chegar à caix
 Mais precisamente, a capacidade de delivery de emails refere-se ao conjunto de características que determinam a capacidade de uma mensagem de alcançar seu destino por meio de um endereço de email pessoal, dentro de um curto período e com a qualidade esperada em termos de conteúdo e formato. <!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
 
 Para aprofundar o assunto e saber mais sobre os termos, conceitos e abordagens principais da capacidade de entrega, consulte o [Manual de práticas recomendadas de capacidade de entrega da Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=pt-BR).
+
+>[!NOTE]
+>
+>O compromisso da equipe de capacidade de entrega é baseado no contrato e os clientes devem entrar em contato com seu representante da Adobe para obter informações relacionadas ao compromisso de capacidade de entrega.
 
 ## Como melhorar a capacidade de entrega {#deliverability-key-points}
 
@@ -38,7 +42,7 @@ Os problemas de capacidade de entrega estão geralmente ligados às medidas de p
 
 ### Taxa da capacidade de entrega
 
-A taxa da capacidade de delivery é o número de mensagens que chegam nas caixas de entrada dos destinatários em comparação ao número de mensagens que foram entregues. Para melhorar a capacidade de entrega, você pode trabalhar para aumentar essa taxa.
+A taxa de capacidade de entrega é o número de mensagens que chegam nas caixas de entrada dos destinatários em comparação ao número de mensagens que foram entregues. Para melhorar a capacidade de entrega, você pode trabalhar para aumentar essa taxa.
 
 Com o Adobe Campaign, a taxa da capacidade de entrega depende de vários fatores, principalmente:
 
@@ -90,7 +94,7 @@ Para obter mais informações, consulte estas seções:
 
 Use os recursos oferecidos pelo Adobe Campaign para monitorar a capacidade de entrega da sua plataforma.
 
-O Adobe Campaign permite verificar o desempenho de seus deliveries por meio de um conjunto de indicadores em tempo real integrados. <!--For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.-->Você também pode criar relatórios totalmente personalizáveis e em tempo real para obter insights aprimorados sobre seus deliveries.
+O Adobe Campaign permite verificar o desempenho de seus deliveries por meio de um conjunto de indicadores em tempo real integrados. <!--For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.-->Você também pode criar relatórios totalmente personalizáveis e em tempo real para obter insights avançados sobre suas entregas.
 
 Para obter mais informações, consulte estas seções:
 
