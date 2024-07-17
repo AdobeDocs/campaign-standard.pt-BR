@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: c35f8caeab9b6605b042618705eecc347d13fd18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '419'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ As atualizações são implantadas em duas fases. Primeiro, as instâncias de Pr
 
 Todas as datas de lançamento estão sujeitas a alterações; acesse esta página com frequência para verificar se há atualizações. As atualizações de ambientes ocorrem em ondas, durante os intervalos indicados abaixo. As datas exatas são comunicadas por email a cada cliente.
 
-## Versão 24.2 - Versão de verão de 2024 {#release-24-2-release}
+## Versão 24.2 – Versão do verão de 2024 {#release-24-2-release}
 
 Informações detalhadas sobre esta versão estão disponíveis nas [Notas de versão](release-notes.md) quando as atualizações do ambiente de preparo são iniciadas.
 
@@ -39,14 +39,14 @@ Informações detalhadas sobre esta versão estão disponíveis nas [Notas de v
  </thead>
  <tbody>
   <tr>
-   <td>Preparo </td>
+   <td>Estágio </td>
    <td>6 a 13 de agosto de 2024 </td>
-   <td>2025 - Datas a serem confirmadas</td>
+   <td>2025 – Datas a serem confirmadas</td>
   </tr>
   <tr>
    <td>Produção </td>
    <td>20 a 27 de agosto de 2024 </td>
-   <td>2025 - Datas a serem confirmadas</td>
+   <td>2025 – Datas a serem confirmadas</td>
   </tr>
  </tbody>
 </table>

@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 44c436a74a0a4aa688427bfb36d506566d57ac3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -25,17 +25,17 @@ Esta seção lista as melhorias e alterações incluídas na próxima versão do
 
 >[!CAUTION]
 >
->Esse conteúdo está sujeito a alterações sem aviso prévio até a data de atualização dos ambientes de estágio. Saiba mais na [página de planejamento de versão](../../rn/using/release-planning.md).
+>Esse conteúdo está sujeito a alterações sem aviso prévio até a data de atualização dos ambientes de preparo. Saiba mais na [página de planejamento de versão](../../rn/using/release-planning.md).
 
-**Versão 24.2 - Versão de Verão de 2024**
+**Versão 24.2 – Versão do verão de 2024**
 
-* **Data de lançamento**: agosto de 2024 (disponibilidade limitada) - [Saiba mais](../../rn/using/release-planning.md).
+* **Data de lançamento**: agosto de 2024 (disponibilidade limitada) – [Saiba mais](../../rn/using/release-planning.md).
 
-* **Migração para a credencial OAuth de servidor para servidor**
+* **Migração para as credenciais OAuth de servidor para servidor**
 
   A partir desta versão, com a credencial de conta de serviço (JWT) sendo descontinuada pela Adobe, as integrações de saída do Campaign com soluções e aplicativos Adobe agora dependem da credencial de servidor para servidor do OAuth. A Adobe executará a migração de JWT para OAuth em suas integrações de saída, como a integração do Campaign-Analytics ou a integração dos Acionadores da Experience Cloud.
 
-  Se você implementou integrações de entrada com o Campaign e está usando [APIs do Campaign](../../api/using/get-started-apis.md), migre sua conta técnica conforme detalhada em [esta documentação](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. As credenciais da Conta de Serviço (JWT) existentes deixarão de funcionar em **27 de janeiro de 2025**.
+  Se você implementou integrações de entrada com o Campaign e está usando [APIs do Campaign](../../api/using/get-started-apis.md), é necessário migrar sua conta técnica conforme detalhado [nesta documentação](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. As credenciais da Conta de serviço (JWT) deixarão de funcionar em **27 de janeiro de 2025**.
 
 
 ## Versão 24.1 – Versão do inverno de 2024 {#winter-24}
