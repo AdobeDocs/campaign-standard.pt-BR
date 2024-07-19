@@ -49,14 +49,14 @@ Se você quiser integrar fluxos de dados de outros sistemas ao Adobe Campaign, c
    <td> Adobe Experience Manager<br /> </td> 
    <td> Permite criar conteúdo de email ou formulários mapeados para o banco de dados do Adobe Campaign diretamente no Adobe Experience Manager.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Trabalhar com o Campaign e o Experience Manager</a>, <a href="https://helpx.adobe.com/br/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integrar Experience Manager e Campaign Standard</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Criar um email com o Experience Manager e o Campaign</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Trabalhar com o Campaign e o Experience Manager</a>, <a href="https://helpx.adobe.com/br/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integrar o Experience Manager e o Campaign Standard</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Criar um email com o Experience Manager e o Campaign</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Adobe Target<br /> </td> 
    <td> Permite inserir imagens que são dinamicamente calculadas pelo Adobe Target quando o email criado e enviado pelo Adobe Campaign é aberto.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Trabalhar com o Campaign e o Target</a>, <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=pt-BR">Integrar o Campaign e o Target</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Personalizar imagens de email em tempo real</a> vídeo (etapa 3)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Trabalhar com o Campaign e o Target</a>, <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=pt-BR">Integrar o Campaign e o Target</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Personalizar imagens de email em vídeos em tempo real</a> (etapa 3)
     </td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ Se você quiser integrar fluxos de dados de outros sistemas ao Adobe Campaign, c
    <td><a href="../../integrating/using/get-started-sources-destinations.md">Introdução a origens e destinos</a></td>
   </tr> 
   <tr> 
-   <td> Serviço principal de ativos Adobe e ativos por demanda<br /> </td> 
+   <td> Serviço principal de ativos Adobe e Assets On Demand<br /> </td> 
    <td> Permite inserir ativos da biblioteca da Adobe Experience Cloud em emails e landing pages criadas no Adobe Campaign.<br /> </td> 
    <td> <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">Serviço principal de ativos</a> ou ativos por demanda<br /> </td> 
   </tr> 
@@ -94,15 +94,15 @@ Se você quiser integrar fluxos de dados de outros sistemas ao Adobe Campaign, c
     </td> 
   </tr> 
     <tr> 
-   <td> Journey Orchestration Adobe<br /> </td> 
-   <td> Permite enviar emails, notificações por push e SMS usando os recursos de Mensagens transacionais do Adobe Campaign Standard no contexto do Adobe Journey Orchestration, por meio de uma ação pronta para uso.<br /> </td> 
-   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html">Trabalhar com o Journey Orchestration do Adobe e o Adobe Campaign Standard</a><br /> </td> 
+   <td> Journey Orchestration Adobe <br /> </td> 
+   <td> Permite enviar emails, notificações por push e SMS usando os recursos de Mensagens Transacionais do Adobe Campaign Standard no contexto do Adobe Journey Orchestration, por meio de uma ação pronta para uso.<br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html">Trabalhando com o Journey Orchestration do Adobe e o Adobe Campaign Standard</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 
    <td> Permite editar um conteúdo de email do Dreamweaver e sincronizá-lo com o Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=pt-BR">Criar emails personalizados com o Dreamweaver</a> vídeo, <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Usar extensão do Campaign para o Dreamweaver</a> 
+    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=pt-BR">Criar emails personalizados com vídeo do Dreamweaver</a>, <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Usar extensão do Campaign para o Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 

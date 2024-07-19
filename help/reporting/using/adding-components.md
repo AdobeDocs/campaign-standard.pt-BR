@@ -19,31 +19,31 @@ ht-degree: 4%
 
 Os componentes ajudam você a personalizar seus relatórios com diferentes dimensões, métricas e períodos.
 
-1. Clique em **[!UICONTROL Components]** para acessar a lista de componentes.
+1. Clique na guia **[!UICONTROL Components]** para acessar a lista de componentes.
 
    ![](assets/dynamic_report_components.png)
 
-1. Cada categoria apresentada no **[!UICONTROL Components]** exibe os cinco itens mais usados, clique no nome de uma categoria para acessar sua lista completa de componentes.
+1. Cada categoria apresentada na guia **[!UICONTROL Components]** exibe os cinco itens mais usados, clique no nome de uma categoria para acessar sua lista completa de componentes.
 
    A tabela de componentes é dividida em quatro categorias:
 
-   * **Dimension**: obtenha detalhes do log de deliveries, como o navegador ou domínio do recipient, ou o sucesso de um delivery.
+   * **Dimension**: obtenha detalhes do log de entregas, como o navegador ou domínio do destinatário, ou o sucesso de uma entrega.
    * **Métricas**: obtenha detalhes sobre o status de uma mensagem. Por exemplo, se uma mensagem foi entregue e o usuário a abriu.
-   * **[!UICONTROL Segments]**: filtre os dados de acordo com o intervalo de idade do recipient. **[!UICONTROL Segments]** podem ser arrastadas e soltas diretamente em uma tabela de forma livre ou na barra superior do painel.
+   * **[!UICONTROL Segments]**: filtre dados dependendo da faixa etária do destinatário. **[!UICONTROL Segments]** pode ser arrastado e solto diretamente em uma tabela de forma livre ou na barra superior do painel.
 
-     Esta categoria só estará disponível depois que o administrador aprovar os termos e condições do Contrato de Uso do Dynamic Reporting que serão exibidos na tela. Se o administrador recusar o contrato, os segmentos não estarão visíveis no **[!UICONTROL Components]** e os dados não serão coletados.
+     Esta categoria só estará disponível depois que o administrador aprovar os termos e condições do Contrato de Uso do Dynamic Reporting que serão exibidos na tela. Se o administrador recusar o contrato, os segmentos não estarão visíveis na guia **[!UICONTROL Components]** e os dados não serão coletados.
 
-   * **Hora**: Defina um período para a tabela.
+   * **Hora**: defina um período para sua tabela.
 
 1. Arraste e solte componentes em um painel para começar a filtrar seus dados.
 
    ![](assets/dynamic_report_components_2.png)
 
-1. Depois de arrastar e soltar o componente, você pode configurar ainda mais a tabela com o **[!UICONTROL Row settings]** opção.
+1. Depois de arrastar e soltar o componente, você pode configurar ainda mais a tabela com a opção **[!UICONTROL Row settings]**.
 
    ![](assets/dynamic_report_components_3.png)
 
-1. Também é possível filtrar ainda mais a tabela clicando no link **Pesquisar** ícone. Com essa pesquisa, você pode procurar resultados específicos, como um delivery ou navegador específico, por exemplo.
+1. Você também pode filtrar ainda mais sua tabela clicando no ícone **Pesquisar**. Com essa pesquisa, você pode procurar resultados específicos, como um delivery ou navegador específico, por exemplo.
 
    ![](assets/dynamic_report_components_4.png)
 

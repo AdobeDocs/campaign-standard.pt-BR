@@ -44,7 +44,7 @@ Um som alertará os usuários sobre uma notificação por push, dando mais visib
 
 1. O arquivo de som será reproduzido ao fornecer a notificação se estiver definido no pacote desse aplicativo móvel. Você pode defini-lo como **padrão** para reproduzir o som padrão do dispositivo.
 
-   Se a variável **[!UICONTROL Play a sound]** estiver vazio, nenhum som será reproduzido.
+   Se o campo **[!UICONTROL Play a sound]** ficar vazio, nenhum som será reproduzido.
 
 O usuário receberá a notificação por push e o som somente se o telefone não estiver com a função mudo ativada.
 
@@ -113,7 +113,7 @@ Definir uma data de expiração para sua notificação por push permite definir 
 
 Para adicionar uma data de expiração à sua notificação por push:
 
-1. Verifique a **[!UICONTROL Expire message]** opção: ao selecionar a variável **[!UICONTROL Expire message]** a duração é automaticamente definida como 0. Se você não alterar o valor, tanto o APNS quanto o FCM tentarão enviar a mensagem imediatamente. Se falhar, a mensagem não será reenviada.
+1. Verifique a opção **[!UICONTROL Expire message]**: ao selecionar a opção **[!UICONTROL Expire message]**, a duração é automaticamente definida como 0. Se você não alterar o valor, tanto o APNS quanto o FCM tentarão enviar a mensagem imediatamente. Se falhar, a mensagem não será reenviada.
 
 1. No campo **[!UICONTROL Duration]**, selecione a validade da sua notificação por push.
 
@@ -177,7 +177,7 @@ Em seguida, você poderá otimizar suas extensões de aplicativo móvel para mod
 
 Quando a opção **[!UICONTROL Content available]** estiver marcada, o sinalizador de conteúdo disponível será enviado no payload por push para garantir que o aplicativo seja reativado assim que receber a notificação por push, o que significa que o aplicativo poderá acessar os dados do payload. Essa opção funcionará mesmo se o aplicativo estiver sendo executado em segundo plano e sem precisar de nenhuma interação do usuário (por exemplo, ao tocar na notificação por push). No entanto, não será aplicável se o aplicativo não estiver em execução. Para obter mais informações, consulte a [documentação para desenvolvedores da Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html).
 
-## Alterar o comportamento de notificação para o Android {#change-the-notification-behavior-for-android}
+## Alterar o comportamento de notificação do Android {#change-the-notification-behavior-for-android}
 
 Para o Android, você pode inserir o URL do arquivo no campo **URL do conteúdo de mídia avançada**. Diferentemente da versão para iOS, para o Android, você só pode incluir imagens, e não arquivos gif, de áudio ou de vídeo.
 

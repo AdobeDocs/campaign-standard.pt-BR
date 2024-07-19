@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Criação de um serviço com APIs{#creating-a-service-api}
 
-A criação de serviços é executada com um **POST** no recurso de serviço.
+A criação de serviços é executada com uma solicitação **POST** no recurso de serviço.
 
 Se quiser criar o serviço com atributos específicos, adicione-os à carga. Caso contrário, o novo serviço será criado com os padrões.
 
 <br/>
 
-***Exemplo de solicitação***
+***Solicitação de exemplo***
 
 Exemplo de solicitação POST para criar um serviço com atributos específicos.
 

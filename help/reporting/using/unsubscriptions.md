@@ -18,8 +18,8 @@ ht-degree: 3%
 
 # Unsubscriptions{#unsubscriptions}
 
-A variável **[!UICONTROL Unsubscriptions]** O relatório identifica as entregas com mais cancelamentos de assinatura.
+O relatório **[!UICONTROL Unsubscriptions]** identifica as entregas com mais cancelamentos.
 
 ![](assets/delivery_reports_unsub.png)
 
-A variável **[!UICONTROL TOP 5 deliveries]** A tabela e o gráfico exibem as cinco principais entregas com o maior número de mensagens entregues e o número de destinatários que cancelaram a inscrição. Os dados listados aqui são baseados no número de cliques no link de unsubscription da mensagem.
+A tabela e o gráfico **[!UICONTROL TOP 5 deliveries]** exibe as cinco principais entregas com o maior número de mensagens entregues e o número de destinatários que cancelaram a inscrição. Os dados listados aqui são baseados no número de cliques no link de unsubscription da mensagem.

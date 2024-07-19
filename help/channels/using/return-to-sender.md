@@ -25,7 +25,7 @@ Para que essa funcionalidade funcione, o template do delivery padrão de corresp
 
 ![](assets/direct_mail_return_sender_1.png)
 
-Um template de importação está disponível em **[!UICONTROL Adobe Campaign > Resources > Templates > Import templates > Update Direct Mail quarantines and delivery logs]**. Duplique este template para criar o seu próprio template. Para obter mais informações sobre o uso de templates de importação, consulte [Uso de templates de importação](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates).
+Um modelo de importação está disponível em **[!UICONTROL Adobe Campaign > Resources > Templates > Import templates > Update Direct Mail quarantines and delivery logs]**. Duplique este template para criar o seu próprio template. Para obter mais informações sobre o uso de modelos de importação, consulte [Uso de modelos de importação](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates).
 
 ![](assets/direct_mail_return_sender_2.png)
 

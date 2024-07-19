@@ -91,4 +91,4 @@ Este vídeo mostra como criar uma entrega de SMS.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
 
-Vídeos extras explicativos sobre o Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
+Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

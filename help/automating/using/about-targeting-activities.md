@@ -42,24 +42,24 @@ A seção **[!UICONTROL Targeting]** inclui as seguintes atividades:
 
 É possível selecionar dados usando as seguintes atividades:
 
-* A atividade **[!UICONTROL Query]** permite filtrar e extrair uma população de elementos do banco de dados do Adobe Campaign. Consulte a [Query](../../automating/using/query.md) seção.
-* A atividade **[!UICONTROL Incremental query]** permite filtrar e extrair uma população de elementos do banco de dados do Adobe Campaign. Todas as vezes que essa atividade é executada, os resultados das execuções anteriores são excluídos. Isso permite direcionar somente elementos novos Consulte o. [Query incremental](../../automating/using/incremental-query.md) seção.
-* A variável **[!UICONTROL Read audience]** permite recuperar um público-alvo para refiná-lo aplicando condições de filtragem adicionais. Consulte a [Ler público](../../automating/using/read-audience.md) seção.
+* A atividade **[!UICONTROL Query]** permite filtrar e extrair uma população de elementos do banco de dados do Adobe Campaign. Consulte a seção [Consulta](../../automating/using/query.md).
+* A atividade **[!UICONTROL Incremental query]** permite filtrar e extrair uma população de elementos do banco de dados do Adobe Campaign. Todas as vezes que essa atividade é executada, os resultados das execuções anteriores são excluídos. Isso permite direcionar somente elementos novos Consulte o. Seção de [consulta incremental](../../automating/using/incremental-query.md).
+* A atividade **[!UICONTROL Read audience]** permite recuperar um público-alvo para refiná-lo aplicando condições de filtragem adicionais. Consulte a seção [Ler público-alvo](../../automating/using/read-audience.md).
 
 ## Segmentação de dados {#segmenting-data}
 
 O Adobe Campaign permite processar conjuntos em dados de entrada. Dessa forma, é possível combinar várias populações, excluir parte delas ou manter apenas dados comuns a vários targets.
 
-* A variável **[!UICONTROL Union]** A atividade permite reagrupar o resultado de várias atividades em um único público-alvo. Consulte a seção [União](../../automating/using/union.md).
-* A variável **[!UICONTROL Intersection]** A atividade de permite manter somente os elementos comuns aos diferentes preenchimentos de entrada na atividade. Consulte a seção [Interseção](../../automating/using/intersection.md).
-* A variável **[!UICONTROL Exclusion]** A atividade permite excluir elementos de uma população de acordo com determinados critérios. Consulte a [Exclusão](../../automating/using/exclusion.md) seção.
-* A atividade **[!UICONTROL Segmentation]** permite criar um ou vários segmentos com base em uma população calculada pelas atividades incluídas anteriormente no fluxo de trabalho. No final da atividade, eles podem ser processados em uma única transição ou em transições diferentes. Consulte a [Segmentação](../../automating/using/segmentation.md) seção.
+* A atividade **[!UICONTROL Union]** permite reagrupar o resultado de várias atividades em um único público-alvo. Consulte a seção [União](../../automating/using/union.md).
+* A atividade **[!UICONTROL Intersection]** permite manter somente os elementos comuns aos diferentes preenchimentos de entrada na atividade. Consulte a seção [Interseção](../../automating/using/intersection.md).
+* A atividade **[!UICONTROL Exclusion]** permite excluir elementos de uma população de acordo com determinados critérios. Consulte a seção [Exclusão](../../automating/using/exclusion.md).
+* A atividade **[!UICONTROL Segmentation]** permite criar um ou vários segmentos com base em uma população calculada pelas atividades incluídas anteriormente no fluxo de trabalho. No final da atividade, eles podem ser processados em uma única transição ou em transições diferentes. Consulte a seção [Segmentação](../../automating/using/segmentation.md).
 
 ## Enriquecimento de dados {#enriching-data}
 
 Os dados identificados e coletados podem ser enriquecidos, agregados e manipulados para otimizar a construção de target. Você pode simplificar e otimizar os processos de segmentação ao incluir dados que não são modelados no data mart.
 
-A variável **[!UICONTROL Additional data]** guia do **[!UICONTROL Query]** e **[!UICONTROL Incremental query]** activities permite enriquecer os dados direcionados pelo query e transferi-los para as seguintes atividades de workflow, onde podem ser utilizados. Você pode adicionar especificamente:
+A guia **[!UICONTROL Additional data]** das atividades **[!UICONTROL Query]** e **[!UICONTROL Incremental query]** permite enriquecer os dados direcionados pela consulta e transferi-los para as seguintes atividades de fluxo de trabalho, onde podem ser utilizados. Você pode adicionar especificamente:
 
 * Dados simples
 * Agregados

@@ -30,7 +30,7 @@ Para aplicar as alterações feitas nos recursos, é necessário executar uma at
 
 >[!NOTE]
 >
->Se um campo de um recurso personalizado usado em um evento for modificado ou excluído, a publicação do evento correspondente será automaticamente cancelada. Consulte [Cancelamento de publicação de um evento transacional](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
+>Se um campo de um recurso personalizado usado em um evento for modificado ou excluído, a publicação do evento correspondente será automaticamente cancelada. Consulte [Desfazer a publicação de um evento transacional](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 
 1. No menu avançado, selecione **[!UICONTROL Administration]** > **[!UICONTROL Development]** e **[!UICONTROL Publishing]** pelo logotipo do Adobe Campaign.
 1. Por padrão, a opção **[!UICONTROL Determine modifications since the last publication]** está marcada, o que significa que somente as alterações feitas desde a última atualização serão aplicadas.
@@ -49,7 +49,7 @@ Para aplicar as alterações feitas nos recursos, é necessário executar uma at
 
    >[!NOTE]
    >
-   >Como os índices duplicados causam falha na publicação, a etapa de preparação verifica se o índice definido para o recurso já existe com o mesmo nome para outro recurso. Se isso acontecer, uma mensagem de erro será exibida solicitando que você renomeie o índice. Consulte [Definição de índices](configuring-the-resource-s-data-structure.md#defining-indexes).
+   >Como os índices duplicados causam falha na publicação, a etapa de preparação verifica se o índice definido para o recurso já existe com o mesmo nome para outro recurso. Se isso acontecer, uma mensagem de erro será exibida solicitando que você renomeie o índice. Consulte [Definindo índices](configuring-the-resource-s-data-structure.md#defining-indexes).
 
 1. Depois que a publicação for feita, clique no botão **[!UICONTROL Publish]** para aplicar as novas configurações.
 1. Depois de publicado, o painel de **[!UICONTROL Summary]** de cada recurso indica que o status está agora **[!UICONTROL Published]** e especifica a data da última publicação.
@@ -105,4 +105,4 @@ A análise do delta é uma etapa obrigatória, já que a etapa de publicação m
 >
 >Essa publicação atualiza a API **[!UICONTROL profilesAndServicesExt]**. A API **[!UICONTROL profilesAndServices]** não é atualizada.
 
-Para obter mais informações sobre APIs do Adobe Campaign Standard, consulte [nesta seção](../../api/using/get-started-apis.md).
+Para obter mais informações sobre APIs do Adobe Campaign Standard, consulte [esta seção](../../api/using/get-started-apis.md).

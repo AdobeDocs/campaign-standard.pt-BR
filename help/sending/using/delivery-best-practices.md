@@ -22,11 +22,11 @@ Conheça as práticas recomendadas relacionadas ao design da entrega e envio com
 
 <img src="assets/do-not-localize/optimize.svg"  width="60px">
 
-**[Otimizar o delivery](optimize-delivery.md)** - Proteger e otimizar o processo de envio
+**[Otimizar entrega](optimize-delivery.md)** - Proteger e otimizar o processo de envio
 
 <img src="assets/do-not-localize/design.svg"  width="60px">
 
-**[Usar modelos](use-templates.md)** - Facilitar e acelerar novos deliveries
+**[Usar modelos](use-templates.md)** - Facilitar e acelerar novas entregas
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
@@ -34,7 +34,7 @@ Conheça as práticas recomendadas relacionadas ao design da entrega e envio com
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
-**[Definir o público-alvo correto](define-the-right-audience.md)** - Aplicar configurações corretas
+**[Definir o público-alvo correto](define-the-right-audience.md)** - Aplicar as configurações corretas
 
 <img src="assets/do-not-localize/start.svg"  width="60px">
 

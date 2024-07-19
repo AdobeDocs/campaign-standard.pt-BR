@@ -18,23 +18,23 @@ ht-degree: 1%
 
 # Resumo da entrega{#delivery-summary}
 
-A variável **[!UICONTROL Delivery summary]** O relatório detalha as principais informações relacionadas a um ou vários emails.
+O relatório **[!UICONTROL Delivery summary]** detalha as principais informações relativas a um ou vários emails.
 
 ![](assets/campaign_reports_1.png)
 
 Cada tabela é representada por números de resumo e gráficos. É possível alterar como os detalhes são mostrados nas respectivas configurações de visualização.
 
-A variável **Estatísticas de entrega** A tabela contém os dados disponíveis para emails enviados, como:
+A tabela **Estatísticas de entrega** contém os dados disponíveis para emails enviados, como:
 
-* **[!UICONTROL Processed/sent]**: o número total de envios para o delivery.
-* **[!UICONTROL Delivered]**: o número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas. Erros gerados (rejeições) são considerados. No entanto, as reclamações (declarações de spam) e mensagens ausentes como &quot;ausente&quot; não são consideradas.
-* **[!UICONTROL Bounces + Errors]**: o número total de erros acumulados durante o processamento de delivery e retorno automático em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Processed/sent]**: o número total de envios para a entrega.
+* **[!UICONTROL Delivered]**: O número de mensagens enviadas com êxito, em relação ao número total de mensagens enviadas. Erros gerados (rejeições) são considerados. No entanto, as reclamações (declarações de spam) e mensagens ausentes como &quot;ausente&quot; não são consideradas.
+* **[!UICONTROL Bounces + Errors]**: O número total de erros acumulados durante o processamento de entrega e retorno automático em relação ao número total de mensagens enviadas.
 
-A variável **Abrir e clicar** contém os dados disponíveis para a atividade do recipient para cada delivery, como:
+A tabela **Open and clicks** contém os dados disponíveis para a atividade de recipient para cada delivery, como:
 
-* **Clique em**: O número de vezes que um conteúdo foi clicado em um delivery.
-* **Abertura**: o número de vezes que uma mensagem foi aberta em um delivery.
-* **Aberturas únicas**: o número de recipients que abriram o delivery.
-* **Cliques únicos**: o número de recipients que clicaram em um conteúdo em um delivery.
+* **Clique**: o número de vezes que um conteúdo foi clicado em uma entrega.
+* **Aberto**: o número de vezes que uma mensagem foi aberta em uma entrega.
+* **Aberturas únicas**: o número de destinatários que abriram a entrega.
+* **Cliques únicos**: o número de destinatários que clicaram em um conteúdo em uma entrega.
 
-A variável **Repartição de domínio** A tabela exibe o status dos deliveries de acordo com o domínio do recipient.
+A tabela **Repartição de domínio** exibe o status das entregas de acordo com o domínio do destinatário.

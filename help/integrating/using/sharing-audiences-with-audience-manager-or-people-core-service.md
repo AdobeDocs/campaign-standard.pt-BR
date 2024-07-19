@@ -19,23 +19,23 @@ ht-degree: 26%
 
 ## Importação de um público-alvo {#importing-an-audience}
 
-A integração do serviço principal Pessoas permite importar diretamente um público para o Adobe Campaign por meio de um fluxo de trabalho técnico para enriquecer seu banco de dados. Para obter mais informações sobre compartilhamento de público no Serviço principal de pessoas, consulte este [documentação](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=pt-BR).
+A integração do serviço principal Pessoas permite importar diretamente um público para o Adobe Campaign por meio de um fluxo de trabalho técnico para enriquecer seu banco de dados. Para obter mais informações sobre compartilhamento de público no serviço principal People, consulte esta [documentação](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=pt-BR).
 
-A importação de públicos/segmentos do Serviço principal de pessoas no Adobe Campaign pode ser realizada no **[!UICONTROL Audiences]** somente por usuários conectados pelo IMS (autenticação pelo Adobe ID).
+A importação de públicos/segmentos do serviço principal Pessoas na Adobe Campaign pode ser realizada pelo menu **[!UICONTROL Audiences]** somente por usuários conectados pelo IMS (autenticação via Adobe ID).
 
-1. Vá para a **[!UICONTROL Audiences]** menu.
-1. Na barra de ações, selecione **[!UICONTROL Create]** para ser levado à tela para criar um público-alvo.
+1. Vá para o menu **[!UICONTROL Audiences]**.
+1. Na barra de ações, selecione **[!UICONTROL Create]** a ser levado à tela para criar um público-alvo.
 1. Especifique o rótulo do novo público-alvo.
-1. Definir o público **[!UICONTROL Type]** para **[!UICONTROL Experience Cloud]** para indicar que o público-alvo que está sendo criado é um público-alvo que foi importado do serviço principal Pessoas.
-1. No **[!UICONTROL Name of the shared audience]** selecione o público-alvo a ser importado. Apenas segmentos podem ser importados. Dados granulares, incluindo pares chave-valor, traços e regras não são compatíveis.
+1. Defina o público-alvo **[!UICONTROL Type]** como **[!UICONTROL Experience Cloud]** para indicar que o público-alvo que está sendo criado é um público importado do serviço principal Pessoas.
+1. No campo **[!UICONTROL Name of the shared audience]**, selecione o público-alvo a ser importado. Apenas segmentos podem ser importados. Dados granulares, incluindo pares chave-valor, traços e regras não são compatíveis.
 
    ![](assets/aam_import_audience.png)
 
-1. Selecione o correspondente **[!UICONTROL Shared Data Source]**.
+1. Selecione o **[!UICONTROL Shared Data Source]** correspondente.
 
-   Se a fonte de dados selecionada estiver configurada para usar um algoritmo de criptografia, uma opção adicional oferecerá a possibilidade de **[!UICONTROL Force reconciliation with a profile]**. Marque esta opção se a variável **[!UICONTROL Channel]** O campo da fonte de dados é definido como Email ou Mobile (SMS) e se você deseja aproveitar os dados do perfil.
+   Se a fonte de dados selecionada estiver configurada para usar um algoritmo de criptografia, uma opção adicional oferecerá a possibilidade de **[!UICONTROL Force reconciliation with a profile]**. Marque esta opção se o campo **[!UICONTROL Channel]** da fonte de dados estiver definido como Email ou Mobile (SMS) e se você deseja aproveitar os dados do perfil.
 
-   Se você não selecionar a opção **[!UICONTROL Force reconciliation with a profile]** e se **[!UICONTROL Channel]** No AMC Data source como Email or Mobile (SMS), todas as IDs declaradas criptografadas serão descriptografadas. Um público-alvo do tipo **Arquivo** com uma lista de todos os endereços de email/números de celular que é criada/atualizada. Dessa forma, nenhum endereço de email/número de celular é perdido durante a importação de um público-alvo compartilhado por meio dessa integração, mesmo que esse perfil não exista no Campaign. Observe que esse tipo de público-alvo não pode ser usado diretamente, pois precisa ser reconciliado manualmente usando workflows.
+   Se você não selecionar o **[!UICONTROL Force reconciliation with a profile]** e se **[!UICONTROL Channel]** estiver definido na fonte de dados da AMC como Email ou Mobile (SMS), todas as IDs declaradas criptografadas serão descriptografadas. Um público-alvo do tipo **Arquivo** com uma lista de todos os endereços de email/números de celular foi criado/atualizado. Dessa forma, nenhum endereço de email/número de celular é perdido durante a importação de um público-alvo compartilhado por meio dessa integração, mesmo que esse perfil não exista no Campaign. Observe que esse tipo de público-alvo não pode ser usado diretamente, pois precisa ser reconciliado manualmente usando workflows.
 
 1. Confirme para criar o público-alvo.
 
@@ -49,29 +49,29 @@ Seu público-alvo foi importado para o banco de dados do Adobe Campaign. O proce
 
 ## Exportação de um público-alvo {#exporting-an-audience}
 
-Um público-alvo pode ser exportado do Adobe Campaign para o Audience Manager ou do Serviço principal de pessoas usando um fluxo de trabalho e a variável **[!UICONTROL Save audience]** atividade.
+Um público pode ser exportado do Adobe Campaign para o Audience Manager ou do Serviço principal de pessoas usando um fluxo de trabalho e a atividade **[!UICONTROL Save audience]**.
 
 Ele pode ser executado em um novo fluxo de trabalho e somente por usuários conectados pelo IMS (autenticação via Adobe ID).
 
 1. Crie um novo workflow a partir de um programa, de uma campanha ou da lista de atividades de marketing.
 1. Usando as diferentes atividades disponíveis, direcione a um conjunto de perfis.
-1. Depois do target, arraste e solte uma **[!UICONTROL Save audience]** atividade no workflow e, em seguida, abra-a.
+1. Após o direcionamento, arraste e solte uma atividade **[!UICONTROL Save audience]** no fluxo de trabalho e depois a abra.
 1. Selecione **[!UICONTROL Share in Adobe Experience Cloud]**.
 
    ![](assets/aam_save_audience_activity.png)
 
-1. Especifique o público usando o **[!UICONTROL Shared audience]** campo. Na janela que abre, você tem a opção de selecionar um público existente ou criar um novo público:
+1. Especifique o público usando o campo **[!UICONTROL Shared audience]**. Na janela que abre, você tem a opção de selecionar um público existente ou criar um novo público:
 
    * Se você selecionar um público existente, somente os novos registros serão adicionados ao público.
-   * Para exportar sua lista de perfis para um novo público, preencha o **[!UICONTROL Segment name]** e clique em **[!UICONTROL Create]** antes de selecionar o público recém-criado.
+   * Para exportar sua lista de perfis para um novo público, preencha o campo **[!UICONTROL Segment name]** e depois clique em **[!UICONTROL Create]** antes de selecionar o público recém-criado.
 
    ![](assets/aam_save_audience_segment_picker.png)
 
    Para serem reconciliados e trocados, os registros devem ter uma ID do Adobe Experience Cloud (&quot;ID do visitante&quot; ou &quot;ID declarada&quot;). Os registros não reconciliados são ignorados ao importar e exportar públicos.
 
 1. Para concluir, clique na marca de seleção localizada na parte superior direita da tela.
-1. Selecione o correspondente **[!UICONTROL Shared Data Source]**.
-1. Se desejar, marque a opção **[!UICONTROL Generate an outbound transition]** para usar os perfis que foram exportados. Somente os perfis que podem ser reconciliados são exportados.
+1. Selecione o **[!UICONTROL Shared Data Source]** correspondente.
+1. Se desejar, marque a caixa **[!UICONTROL Generate an outbound transition]** para usar os perfis que foram exportados. Somente os perfis que podem ser reconciliados são exportados.
 1. Confirme a configuração da atividade e salve o workflow.
 1. Inicie o fluxo de trabalho para exportar o público. A sincronização entre o Adobe Campaign e o serviço principal Pessoas pode levar várias horas
 

@@ -21,7 +21,7 @@ Você pode configurar o Adobe Campaign para manter uma cópia dos emails enviado
 
 Especificamente, se sua organização precisar arquivar todas as mensagens de e-mail enviadas para fins de conformidade, você poderá ativar esse recurso. Ele permite enviar uma cópia oculta exata das mensagens enviadas correspondentes para um endereço de email CCO (invisível para os recipients do delivery) que você deve especificar.
 
-Depois de habilitado, você precisa ativar o Email Cco no **[!UICONTROL Archive emails]** no template do delivery de email.
+Depois de habilitado, você precisa ativar Email Cco na opção **[!UICONTROL Archive emails]** no modelo de entrega de email.
 
 >[!NOTE]
 >
@@ -45,11 +45,11 @@ Depois de habilitado, você precisa ativar o Email Cco no **[!UICONTROL Archive 
 Depois de habilitado, o Email Cco é ativado no [modelo de email](../../start/using/marketing-activity-templates.md), por meio de uma opção dedicada:
 
 1. Acesse **Resources** > **Templates** > **Delivery templates**.
-1. Duplique o pronto para uso **[!UICONTROL Send via email]** modelo.
+1. Duplique o modelo **[!UICONTROL Send via email]** pronto para uso.
 1. Selecione o template duplicado.
-1. Clique em **[!UICONTROL Edit properties]** botão para editar as propriedades do modelo.
-1. Expanda a **[!UICONTROL Send]** seção.
-1. Verifique a **[!UICONTROL Archive emails]** para manter uma cópia de todas as mensagens enviadas para cada delivery com base neste template.
+1. Clique no botão **[!UICONTROL Edit properties]** para editar as propriedades do modelo.
+1. Expanda a seção **[!UICONTROL Send]**.
+1. Marque a caixa **[!UICONTROL Archive emails]** para manter uma cópia de todas as mensagens enviadas para cada entrega com base neste modelo.
 
    ![](assets/email_archiving.png)
 

@@ -28,7 +28,7 @@ Se a solicitação de exclusão for bem-sucedida, o status da resposta será 204
 
 <br/>
 
-***Exemplo de solicitação***
+***Solicitação de exemplo***
 
 As cargas de exemplo abaixo mostram como cancelar a assinatura de um perfil de um serviço. Primeiro, execute uma solicitação GET para recuperar o perfil.
 
@@ -101,7 +101,7 @@ Se a solicitação de exclusão for bem-sucedida, o status da resposta será 204
 
 <br/>
 
-***Exemplo de solicitação***
+***Solicitação de exemplo***
 
 Recuperar o registro de serviço.
 

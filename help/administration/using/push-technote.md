@@ -9,11 +9,11 @@ exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
 source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
 workflow-type: tm+mt
 source-wordcount: '1134'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# Alterações no canal de notificação por push {#push-upgrade}
+# Alterações no Canal de notificação por push {#push-upgrade}
 
 Você pode usar o Campaign para enviar notificações por push em dispositivos Android e iOS. Para fazer isso, o Campaign depende de serviços de assinatura específicos. Algumas alterações importantes no serviço Android Firebase Cloud Messaging (FCM) foram lançadas em 2024 e podem afetar sua implementação do Adobe Campaign. A configuração dos serviços de assinatura para mensagens por push do Android pode precisar ser atualizada para dar suporte a essa alteração.
 
@@ -25,13 +25,13 @@ Para garantir serviço ininterrupto, você deve atualizar os aplicativos móveis
 [Saiba como configurar certificados de aplicativo para dispositivos móveis no Adobe Campaign Standard](configuring-a-mobile-application.md#channel-specific-config)
 
 
-## Serviço Firebase Cloud Messaging (FCM) do Google Android {#fcm-push-upgrade}
+## Serviço Google Android Firebase Cloud Messaging (FCM) {#fcm-push-upgrade}
 
 ### O que mudou? {#fcm-changes}
 
-Como parte do esforço contínuo do Google para melhorar seus serviços, as APIs herdadas do FCM serão descontinuadas em **20 de junho de 2024**. Saiba mais sobre o protocolo HTTP do Firebase Cloud Messaging em [Documentação do Google Firebase](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
+Como parte do esforço contínuo do Google para melhorar seus serviços, as APIs herdadas do FCM serão descontinuadas em **20 de junho de 2024**. Saiba mais sobre o protocolo HTTP do Firebase Cloud Messaging em [documentação do Google Firebase](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
 
-Iniciando [versão 24.1](../../rn/using/release-notes.md), o Adobe Campaign Standard é compatível com APIs HTTP v1 para enviar mensagens de notificação por push do Android.
+A partir da [versão 24.1](../../rn/using/release-notes.md), o Adobe Campaign Standard oferecerá suporte às APIs HTTP v1 para enviar Mensagens de Notificação por Push da Android.
 
 ### Você será afetado? {#fcm-impact}
 
@@ -49,13 +49,13 @@ A transição para as APIs mais recentes é obrigatória para evitar qualquer pe
 
 #### Pré-requisitos {#fcm-transition-prerequisites}
 
-* O apoio do **API HTTP v1** O modo foi adicionado na versão 24.1. Se o ambiente estiver sendo executado em uma versão mais antiga, um pré-requisito para essa alteração será atualizar o ambiente para o [versão mais recente do Campaign Standard](../../rn/using/release-notes.md).
+* O suporte do modo **HTTP v1 API** foi adicionado na versão 24.1. Se seu ambiente estiver sendo executado em uma versão mais antiga, um pré-requisito para essa alteração é atualizar seu ambiente para a [versão mais recente do Campaign Standard](../../rn/using/release-notes.md).
 
-* O arquivo JSON da conta do serviço SDK de administrador do Firebase do Android é necessário para mover o aplicativo móvel para HTTP v1. Saiba como obter este arquivo no [Documentação do Google Firebase](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+* O arquivo JSON da conta do serviço SDK do administrador do Android Firebase é necessário para mover o aplicativo móvel para HTTP v1. Saiba como obter este arquivo na [documentação do Google Firebase](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
 * Se você ainda estiver usando essa versão herdada do SDK, deverá atualizar sua implementação com o Adobe Experience Platform SDK. Saiba como migrar para o SDK da Adobe Experience Platform em [este artigo](sdkv4-migration.md).
 
-* Verifique se você tem o **Configuração do aplicativo móvel** no Adobe Experience Platform Data Collection Mobile antes de executar as etapas abaixo. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}.
+* Verifique se você tem a permissão **Configuração do aplicativo móvel** no Adobe Experience Platform Data Collection Mobile antes de executar as etapas abaixo. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}.
 
 
 #### Procedimento de transição {#fcm-transition-steps}
@@ -68,11 +68,11 @@ Para mover seu ambiente para HTTP v1, siga estas etapas:
 
 1. Selecione o aplicativo para dispositivos móveis específico que requer a atualização do certificado.
 
-1. Verifique a **[!UICONTROL Update app credentials]** caixa de seleção
+1. Marque a caixa de seleção **[!UICONTROL Update app credentials]**.
 
    ![](assets/push_technote_5.png)
 
-1. Forneça a ID do aplicativo (nome do pacote do Android) do `build.gradle` arquivo. Por exemplo, `com.android.test.testApp`. Use IDs diferentes para ambientes de preparo e produção.
+1. Forneça a ID do aplicativo (nome do pacote Android) do arquivo `build.gradle` do seu projeto Android. Por exemplo, `com.android.test.testApp`. Use IDs diferentes para ambientes de preparo e produção.
 
 1. Faça upload do arquivo de chave JSON da chave privada do Android.
 
@@ -97,7 +97,7 @@ A autenticação baseada em token oferece uma maneira sem estado de se comunicar
 
 * Você pode usar um token para distribuir notificações para todos os aplicativos de sua empresa.
 
-Saiba mais sobre Conexões baseadas em token para APNs em [Documentação do desenvolvedor do Apple](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
+Saiba mais sobre conexões baseadas em token com APNs em [Documentação para desenvolvedores do Apple](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
 O Adobe Campaign Standard oferece suporte a conexões baseadas em token e em certificado. Se sua implementação depende de uma conexão baseada em certificado, o Adobe recomenda que você atualize-a para uma conexão baseada em token.
 
@@ -118,9 +118,9 @@ Se sua implementação atual depender de solicitações baseadas em certificado 
 
 #### Pré-requisitos {#ios-transition-prerequisites}
 
-* O apoio do **Autenticação baseada em token** foi adicionado em [versão 24.1](../../rn/using/release-notes.md). Se o ambiente estiver sendo executado em uma versão mais antiga, um pré-requisito para essa alteração será atualizar o ambiente para o [versão mais recente do Campaign Standard](../../rn/using/release-notes.md).
+* O suporte ao modo de **Autenticação baseada em token** foi adicionado na [versão 24.1](../../rn/using/release-notes.md). Se seu ambiente estiver sendo executado em uma versão mais antiga, um pré-requisito para essa alteração é atualizar seu ambiente para a [versão mais recente do Campaign Standard](../../rn/using/release-notes.md).
 
-* Você precisa de uma chave de assinatura de token de autenticação APNs para gerar os tokens que seu servidor usa. Essa chave é solicitada na sua conta de desenvolvedor do Apple, conforme explicado em [Documentação do desenvolvedor do Apple](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
+* Você precisa de uma chave de assinatura de token de autenticação APNs para gerar os tokens que seu servidor usa. Você solicita essa chave da sua conta de desenvolvedor do Apple, conforme explicado na [Documentação do desenvolvedor do Apple](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
 
 #### Procedimento de transição {#ios-transition-steps}
@@ -133,13 +133,13 @@ Para mover seus aplicativos móveis da iOS para o modo de autenticação baseada
 
 1. Selecione o aplicativo para dispositivos móveis específico que requer a atualização do certificado.
 
-1. Verifique a **[!UICONTROL Update app credentials]** caixa de seleção
+1. Marque a caixa de seleção **[!UICONTROL Update app credentials]**.
 
    ![](assets/push_technote_2.png)
 
-1. Forneça o **ID do aplicativo** (ID do pacote iOS). Você pode encontrar a iOS Bundle ID (App ID) no destino principal do seu aplicativo no Xcode.
+1. Forneça a **ID do aplicativo** (ID do pacote iOS). Você pode encontrar a iOS Bundle ID (App ID) no destino principal do seu aplicativo no Xcode.
 
-1. Fazer upload do **Arquivo de certificado do iOS p8**.
+1. Carregue seu **arquivo de certificado do iOS p8**.
 
 1. Preencha as configurações de conexão APNs **[!UICONTROL Key Id]** e **[!UICONTROL iOS Team Id]**.
 
@@ -190,7 +190,7 @@ Não, após essa migração, não há necessidade de atualizar o certificado do 
 
 +++O que acontece se essa migração não for feita?
 
-As mensagens de push do Android começarão a falhar após 20 de junho de 2024, de acordo com a notificação do Google. [Leia mais](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"}.
+As mensagens de push do Android começarão a falhar após 20 de junho de 2024, de acordo com a notificação da Google. [Leia mais](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"}.
 
 +++
 

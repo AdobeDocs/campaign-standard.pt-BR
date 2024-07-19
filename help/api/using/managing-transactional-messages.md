@@ -21,12 +21,12 @@ Depois de criar e publicar um evento transacional, é necessário integrar o aci
 
 >[!NOTE]
 >
->A configuração do evento é detalhada em [nesta seção](../../channels/using/configuring-transactional-event.md).
+>A configuração do evento está detalhada em [esta seção](../../channels/using/configuring-transactional-event.md).
 
 Por exemplo, você deseja que um evento de &quot;Abandono de carrinho&quot; seja acionado sempre que um de seus clientes sair do site antes de comprar os produtos no carrinho. Para fazer isso, como desenvolvedor da Web, você deve usar a API de mensagens transacionais REST.
 
 1. Envie uma solicitação de acordo com o método POST, que aciona o [envio do evento transacional](#sending-a-transactional-event).
-1. A resposta à solicitação POST contém uma chave primária, que permite enviar uma ou várias solicitações por meio de uma solicitação GET. É possível obter a variável [status do evento](#transactional-event-status).
+1. A resposta à solicitação POST contém uma chave primária, que permite enviar uma ou várias solicitações por meio de uma solicitação GET. Você pode obter o [status do evento](#transactional-event-status).
 
 ## Envio de um evento transacional {#sending-a-transactional-event}
 
@@ -36,9 +36,9 @@ O evento transacional é enviado por meio de uma solicitação POST com a seguin
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;organization>**: a ID pessoal da organização. Consulte [esta seção](../../api/using/must-read.md).
+* **&lt;ORGANIZAÇÃO>**: sua ID de ORGANIZAÇÃO pessoal. Consulte [esta seção](../../api/using/must-read.md).
 
-* **&lt;transactionalapi>**: os endpoints da API de mensagens transacionais.
+* **&lt;transactionalAPI>**: os endPoints da API de Mensagens Transacionais.
 
   O nome do endpoint da API de Mensagens transacionais depende da configuração da sua instância. Ele corresponde ao valor &quot;mc&quot; seguido pela ID de organização pessoal. Vejamos o exemplo da empresa Geometrixx, com &quot;geometrixx&quot; como a ID da organização. Nesse caso, o pedido POST seria o seguinte:
 
@@ -46,7 +46,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
   Observe que o endpoint da API de mensagens transacionais também está visível durante a pré-visualização da API.
 
-* **&lt;eventid>**: o tipo de evento que você deseja enviar. Essa ID é gerada ao criar a configuração do evento (consulte [nesta seção](../../channels/using/configuring-transactional-event.md#creating-an-event)).
+* **&lt;eventID>**: o tipo de evento que você deseja enviar. Essa ID é gerada ao criar a configuração do evento (consulte [esta seção](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 
 ### cabeçalho da solicitação POST
 
@@ -69,8 +69,8 @@ Os dados do evento estão contidos no corpo do POST JSON. A estrutura do evento 
 
 Os seguintes parâmetros opcionais podem ser adicionados ao conteúdo do evento para gerenciar o envio de mensagens transacionais vinculadas ao evento:
 
-* **expiração** (opcional): após essa data, o envio do evento transacional será cancelado.
-* **programado** (opcional): a partir dessa data, o evento transacional será processado e a mensagem transacional será enviada.
+* **expiração** (opcional): após esta data, o envio do evento transacional será cancelado.
+* **agendado** (opcional): a partir desta data, o evento transacional será processado e a mensagem transacional será enviada.
 
 >[!NOTE]
 >
@@ -84,7 +84,7 @@ A resposta POST retorna o status do evento transacional no momento em que foi cr
 
 <br/>
 
-***Exemplo de solicitação***
+***Solicitação de exemplo***
 
 Solicitação POST para enviar o evento.
 
@@ -134,12 +134,12 @@ Resposta à solicitação POST.
 
 Na resposta, o campo &quot;status&quot; permite saber se o evento foi processado ou não:
 
-* **pendente**: o evento está pendente - o evento assume esse status quando acabou de ser acionado.
+* **pendente**: o evento está pendente - o evento assume esse status quando ele acabou de ser acionado.
 * **processando**: a entrega do evento está pendente - ele está sendo transformado em uma mensagem e a mensagem está sendo enviada.
-* **pausado**: o processo do evento está sendo pausado. Ele não é mais processado, mas mantido em fila no banco de dados do Adobe Campaign. Para obter mais informações, consulte [esta seção](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication).
-* **processado**: o evento foi processado e a mensagem foi enviada com êxito.
-* **ignorado**: o evento foi ignorado pelo delivery, normalmente quando um endereço está em quarentena.
-* **deliveryFailed**: ocorreu um erro de delivery enquanto o evento estava sendo processado.
+* **paused**: o processo de evento está sendo pausado. Ele não é mais processado, mas mantido em fila no banco de dados do Adobe Campaign. Para obter mais informações, consulte [esta seção](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication).
+* **processed**: o evento foi processado e a mensagem foi enviada com êxito.
+* **ignorado**: o evento foi ignorado pela entrega, normalmente quando um endereço está em quarentena.
+* **deliveryFailed**: erro de entrega durante o processamento do evento.
 * **routingFailed**: a fase de roteamento falhou - isso pode ocorrer, por exemplo, quando o tipo de evento especificado não pode ser encontrado.
-* **tooOld**: o evento expirou antes de poder ser processado - isso pode acontecer por vários motivos, por exemplo, quando um envio falha várias vezes (isso resulta no evento não estar mais atualizado) ou quando o servidor não pode mais processar eventos após ficar sobrecarregado.
+* **tooOld**: o evento expirou antes de poder ser processado - isso pode acontecer por vários motivos, por exemplo, quando um envio falha várias vezes (isso resulta no evento não estar mais atualizado) ou quando o servidor não pode mais processar eventos depois de ficar sobrecarregado.
 * **targetingFailed**: o Campaign Standard falhou ao enriquecer um link que está sendo usado para o direcionamento de mensagens.

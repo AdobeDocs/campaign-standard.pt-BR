@@ -38,13 +38,13 @@ O workflow de origem é apresentado da seguinte maneira:
 
 * Uma atividade de [Reconciliação](../../automating/using/reconciliation.md) cria os links entre os dados importados e o banco de dados para que os dados de transações sejam conectados corretamente a perfis e produtos.
 * Uma atividade [Atualizar dados](../../automating/using/update-data.md) insere e atualiza o recurso Transações do banco de dados com os dados recebidos.
-* Um [Fim](../../automating/using/start-and-end.md) A atividade aciona o workflow de destino, que é usado para atualizar a agregação.
+* Uma atividade [End](../../automating/using/start-and-end.md) aciona o fluxo de trabalho de destino, que é usado para atualizar agregações.
 
 ![](assets/signal_example_source1.png)
 
 O workflow de destino é apresentado da seguinte forma:
 
-* Um [Sinal externo](../../automating/using/external-signal.md) A atividade aguarda a conclusão com êxito do workflow de origem.
+* Uma atividade [External signal](../../automating/using/external-signal.md) aguarda a conclusão com êxito do fluxo de trabalho de origem.
 * Uma atividade de [Query](../../automating/using/query.md#enriching-data) é direcionada a perfis e os enriquece com uma coleção definida para recuperar a data da última compra.
 * Uma atividade [Atualizar dados](../../automating/using/update-data.md) armazena os dados adicionais em um campo personalizado dedicado. Observe que o recurso de perfil foi estendido para adicionar o campo **Last purchase date**.
 

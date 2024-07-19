@@ -21,13 +21,13 @@ As seguintes dicas de solução de problemas ajudam a resolver os problemas mais
 
 **A funcionalidade está ativada?**
 
-Para verificar se a integração Triggers - Campaign está ativada, clique no logotipo do Adobe Campaign, no canto superior esquerdo, e selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Você deve ver o **[!UICONTROL Experience Cloud Triggers]** item.
+Para verificar se a integração Triggers - Campaign está ativada, clique no logotipo do Adobe Campaign, no canto superior esquerdo, em seguida, selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Você deve ver o item **[!UICONTROL Experience Cloud Triggers]**.
 
 Se você o vir, siga para a próxima etapa.
 
-Caso contrário, entre em contato com seu executivo de conta da Adobe ou com um parceiro de serviços profissionais. Consulte [Ativação da funcionalidade](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
+Caso contrário, entre em contato com seu executivo de conta da Adobe ou com um parceiro de serviços profissionais. Consulte [Ativando a funcionalidade](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
 
-**Tente criar um acionador**
+**Tente criar um gatilho**
 
 Siga as etapas descritas em [Criação de um acionador mapeado no Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) para criar um acionador.
 
@@ -39,13 +39,13 @@ Se o acionador for criado, avance para a próxima etapa. Caso contrário, signif
 
 **Tente publicar o acionador**
 
-Siga as etapas descritas em [Criação de um acionador mapeado no Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) para publicar o acionador.
+Siga as etapas descritas em [Criar um acionador mapeado no Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) para publicar o acionador.
 
 Se a publicação for bem-sucedida, avance para a próxima etapa. Caso contrário, entre em contato com o Adobe para reiniciar sua instância e tente novamente.
 
-**Gerar o acionador pelo site**
+**Gerar o acionador a partir do site**
 
-Siga as etapas descritas em [Edição do modelo de mensagem transacional](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) para editar e publicar o template transacional. Em seguida, teste a geração do acionador no site.
+Siga as etapas descritas em [Editar o modelo de mensagem transacional](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) para editar e publicar o modelo transacional. Em seguida, teste a geração do acionador no site.
 
 Se o acionador for recebido pelo Analytics, siga para a próxima etapa. Caso contrário, verifique os seguintes itens:
 
@@ -53,7 +53,7 @@ Se o acionador for recebido pelo Analytics, siga para a próxima etapa. Caso con
 * O site usado pela MCID e pelo Analytics está habilitado no DTM
 * O conjunto de relatórios correto do Analytics é usado ao criar acionadores
 
-**O acionador é recebido pelo Campaign?**
+**O acionador foi recebido pelo Campaign?**
 
 Caso contrário, verifique se o acionador foi recebido do pipeline.
 
@@ -67,7 +67,7 @@ Se estiver, siga estas diretrizes:
 * Peça ao Adobe para reiniciar a instância do Campaign após a configuração da fonte de dados.
 * Verifique os problemas de análise do acionador no relatório de acionador.
 
-**O acionador está com o status pendente?**
+**O gatilho está com status pendente?**
 
 Caso contrário, siga para a próxima etapa. Se estiver, siga estas diretrizes:
 

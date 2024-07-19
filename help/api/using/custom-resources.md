@@ -19,23 +19,23 @@ ht-degree: 3%
 
 O Adobe Campaign vem com um modelo de dados predefinidos por meio de diferentes recursos. Você pode aprimorar o modelo de dados fornecido estendendo os recursos para adicionar seus próprios campos personalizados ou tabelas personalizadas, como tabelas de produtos ou de compras.
 
-Os recursos personalizados podem ser acessados por meio de APIs usando o **/profileAndServicesExt** e o nome do recurso personalizado.
+Os recursos personalizados podem ser acessados por meio de APIs usando o ponto de extremidade **/profileAndServicesExt** e o nome do recurso personalizado.
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/`
 
 >[!NOTE]
 >
->Para recursos que não estão prontos para uso, sempre use o <b>&quot;cus&quot;</b> prefixo antes do nome do recurso.
+>Para recursos que não estão prontos para uso, sempre use o prefixo <b>&quot;cus&quot;</b> antes do nome do recurso.
 
 Você pode executar qualquer operação com recursos personalizados, desde que eles estejam vinculados à tabela Perfil. Por exemplo, considere a estrutura das tabelas abaixo:
 
-![texto alternativo](assets/cusresources.png)
+![alt texto](assets/cusresources.png)
 
-Nesse caso, todos os recursos do **Transação**, **Detalhes da transação** e **Produto** As tabelas estão disponíveis desde que estejam vinculadas à variável **Perfil** tabela.
+Nesse caso, todos os recursos das tabelas **Transaction**, **TransactionDetails** e **Product** estarão disponíveis desde que estejam vinculados à tabela **Profile**.
 
 <br/>
 
-***Exemplo de solicitação***
+***Solicitação de exemplo***
 
 Exemplo de solicitação do GET para acessar o recurso profileAndServicesExt estendido.
 
@@ -76,4 +76,4 @@ Para obter mais informações sobre a extensão do modelo de dados, consulte a d
 
 * [Conceitos do modelo de dados](../../developing/using/data-model-concepts.md)
 * [Extensão da API](../../developing/using/about-extending-the-api.md)
-* [Definição de links com outros recursos](https://helpx.adobe.com/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)
+* [Definindo links com outros recursos](https://helpx.adobe.com/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)

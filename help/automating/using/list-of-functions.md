@@ -220,7 +220,7 @@ As funções de data são usadas para manipular valores de data ou hora.
   </tr> 
   <tr> 
    <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
-   <td> Converte uma string em uma data + fuso horário.<br /> Exemplo: ToDateTimeWithTimezone ("19-02-2019 08:09:00", "Ásia/Teerão")<br /> </td> 
+   <td> Converte uma string em uma data + fuso horário.<br /> Exemplo: ToDateTimeWithTimezone ("2019-02-19 08:09:00", "Ásia/Teerã")<br /> </td> 
    <td> ToDateTimeWithTimezone(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -492,12 +492,12 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>AllNonNull2</strong><br /> </td> 
    <td> Indica se todos os parâmetros são não nulos e não estão vazios<br /> </td> 
-   <td> AllNonNull2(&lt;string&gt;, &lt;string&gt;)<br /> </td> 
+   <td> AllNonNull2(&lt;cadeia de caracteres&gt;, &lt;cadeia de caracteres&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AllNonNull3</strong><br /> </td> 
    <td> Indica se todos os parâmetros são não nulos e não estão vazios<br /> </td> 
-   <td> AllNonNull3()&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> </td> 
+   <td> AllNonNull3(&lt;cadeia de caracteres&gt;, &lt;cadeia de caracteres&gt;, &lt;cadeia de caracteres&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ASCII</strong><br /> </td> 
@@ -507,7 +507,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>Char</strong><br /> </td> 
    <td> Retorna o caractere correspondente ao código ASCII 'n'<br /> </td> 
-   <td> Char(&lt;number&gt;)<br /> </td> 
+   <td> Char(&lt;número&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Charindex</strong><br /> </td> 
@@ -522,7 +522,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
    <td> Retorna a linha enésima (de 1 a n) da string<br /> </td> 
-   <td> GetLine(&lt;string&gt;)<br /> </td> 
+   <td> GetLine(&lt;cadeia de caracteres&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>IfEquals</strong><br /> </td> 
@@ -552,7 +552,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
    <td> Retorna os primeiros n caracteres da string<br /> </td> 
-   <td> Left(&lt;string&gt;, &lt;number&gt;)<br /> </td> 
+   <td> Left(&lt;cadeia de caracteres&gt;, &lt;número&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Length</strong><br /> </td> 
@@ -562,27 +562,27 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> Retorna a string em minúsculas<br /> </td> 
-   <td> Lower(&lt;string&gt;)<br /> </td> 
+   <td> Lower(&lt;cadeia de caracteres&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
    <td> Remove espaços à esquerda da string<br /> </td> 
-   <td> Ltrim(&lt;string&gt;)<br /> </td> 
+   <td> Ltrim(&lt;cadeia de caracteres&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Md5Digest</strong><br /> </td> 
    <td> Retorna uma representação hexadecimal da chave MD5 de uma string<br /> </td> 
-   <td> Md5Digest(&lt;string&gt;)<br /> </td> 
+   <td> Md5Digest(&lt;cadeia de caracteres&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>MemoContains</strong><br /> </td> 
    <td> Especifica se o memorando contém a string aprovada como um parâmetro<br /> </td> 
-   <td> MemoContains(&lt;memo&gt;, &lt;string&gt;)<br /> </td> 
+   <td> MemoContains(&lt;memo&gt;, &lt;cadeia de caracteres&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>RPad</strong><br /> </td> 
    <td> Retorna a string concluída à direita<br /> </td> 
-   <td> RPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /> </td> 
+   <td> RPad(&lt;cadeia de caracteres&gt;, &lt;número&gt;, &lt;caractere&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
@@ -657,7 +657,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
    <td> Criptografa usando o algoritmo AES (modo de bloco CBC) uma string de caracteres (primeiro parâmetro) com uma chave (segundo parâmetro) e um vetor de inicialização (terceiro parâmetro). A chave e o vetor de inicialização devem ser fornecidos em uma representação hexadecimal (começando com <strong>\x</strong>). O resultado será hexadecimal sem o <strong>\x</strong>.<br /> Observe que o tamanho da chave pode ser de 128 bits, 192 bits, 256 bits (16, 24, 32 caracteres hexadecimais), mas recomendamos que você use 256 bits e um IV aleatório com o mesmo comprimento da chave.<br /> </td> 
-   <td> encryption_aescbcEncrypt()&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> Por exemplo: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\ x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\ x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
+   <td> encryption_aescbcEncrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> Por exemplo: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFFEDCBA 9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -676,7 +676,7 @@ As funções de agregação são usadas para realizar cálculos em um conjunto d
    <td> <strong>Sintaxe</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Avg</strong>, Average<br /> </td> 
+   <td> <strong>Média</strong>, Média<br /> </td> 
    <td> Retorna a média em uma coluna numérica.<br /> </td> 
    <td> Avg(&lt;valor&gt;)<br /> </td> 
   </tr> 
@@ -691,7 +691,7 @@ As funções de agregação são usadas para realizar cálculos em um conjunto d
    <td> CountAll()<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Countdistinct</strong>, Distinct count<br /> </td> 
+   <td> <strong>Contagemdistinta</strong>, Contagem distinta<br /> </td> 
    <td> Conta os valores não nulos e distintos de uma coluna.<br /> </td> 
    <td> Countdistinct(&lt;valor&gt;)<br /> </td> 
   </tr> 
@@ -706,9 +706,9 @@ As funções de agregação são usadas para realizar cálculos em um conjunto d
    <td> Min(&lt;valor&gt;)<br /> </td> 
   </tr>
   <tr>
-   <td> <strong>StringAgg</strong>, Agregado de sequência<br /> </td>
+   <td> <strong>AgregaçãoDeCadeiaDeCaracteres</strong>, Agregação de cadeiaDeCaracteres<br /> </td>
    <td> Retorna a concatenação dos valores de uma coluna do tipo string, separados pelo caractere no segundo argumento (o separador padrão é vírgula).<br /> </td>
-   <td> StringAgg(&lt;string values=""&gt;,&lt;separator&gt;)
+   <td> StringAgg(&lt;valores da string&gt;,&lt;separador&gt;)
   </tr>
   <tr> 
    <td> <strong>Sum</strong>, Soma<br /> </td> 

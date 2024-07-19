@@ -58,29 +58,29 @@ Ao criar um fluxo de trabalho agendado que inclui várias atividades, é necess�
 
    >[!NOTE]
    >
-   >A variável **[!UICONTROL Repetition frequency]** disponível para as frequências de execução Diária e Mensal permite que você espace os horários em que o fluxo de trabalho é acionado. Por exemplo, se você selecionar um período de execução diária e a frequência de repetição for definida como **2** (dias), o fluxo de trabalho será acionado a cada dois dias. Ele não pode ser inferior a 10 minutos. Se a frequência de repetição estiver definida como **0** (também o valor padrão ), essa opção não é considerada e o workflow será executado de acordo com a frequência de execução especificada.
+   >O campo **[!UICONTROL Repetition frequency]**, disponível para as frequências de execução Diária e Mensal, permite que você espace os horários em que o fluxo de trabalho é acionado. Por exemplo, se você selecionar um período de execução diária e a frequência de repetição for definida como **2** (dias), o fluxo de trabalho será acionado a cada dois dias. Ele não pode ser inferior a 10 minutos. Se a frequência de repetição for definida como **0** (também o valor padrão), essa opção não será considerada, e o fluxo de trabalho será executado de acordo com a frequência de execução especificada.
 
-   Ao definir a frequência de execução para **[!UICONTROL Several times a day]**, você tem a flexibilidade de escolher entre executar o fluxo de trabalho em horários específicos do dia ou periodicamente ao longo do dia.
+   Ao definir a frequência de execução como **[!UICONTROL Several times a day]**, você tem a flexibilidade de escolher entre executar o fluxo de trabalho em horários específicos do dia ou periodicamente ao longo do dia.
 
-+++ Saiba como configurar um **[!UICONTROL "Several times a day"]** frequência de execução
++++ Saiba como configurar uma frequência de execução **[!UICONTROL "Several times a day"]**
 
-   * Para executar o fluxo de trabalho várias vezes em horários específicos durante o dia, alterne no **[!UICONTROL Specific times]** e clique em **[!UICONTROL Add an element]** para especificar o tempo de execução desejado. Adicione quantas vezes forem necessárias para se alinhar aos seus requisitos.
+   * Para executar o fluxo de trabalho várias vezes em horários específicos durante o dia, alterne a opção **[!UICONTROL Specific times]** e clique em **[!UICONTROL Add an element]** para especificar o tempo de execução desejado. Adicione quantas vezes forem necessárias para se alinhar aos seus requisitos.
 
-   * Para executar o workflow periodicamente durante o dia, alterne na guia **[!UICONTROL Periodic]** e configure a periodicidade de execução:
+   * Para executar o fluxo de trabalho periodicamente durante o dia, alterne na opção **[!UICONTROL Periodic]** e configure a periodicidade de execução:
 
-      1. No **[!UICONTROL Repeat processing according to the following frequency (e.g. 2h)]** especifique o intervalo no qual o workflow deve ser executado (por exemplo, a cada 30 minutos, a cada 2 horas).
+      1. No campo **[!UICONTROL Repeat processing according to the following frequency (e.g. 2h)]**, especifique o intervalo no qual o fluxo de trabalho deve ser executado (por exemplo, a cada 30 minutos, a cada 2 horas).
 
          >[!NOTE]
          >
          >Essa opção também permite frequências de repetição diárias, mensais ou anuais. Observe que, nesse caso, o workflow não será executado várias vezes por dia, mas de acordo com a frequência especificada nesse campo.
          >
-         > Se o seu workflow não exigir várias execuções em um dia, mas precisar ser executado diariamente, mensalmente ou anualmente, é aconselhável usar **[!UICONTROL Daily]**, **[!UICONTROL Monthly]** ou **[!UICONTROL Yearly]** opções disponíveis no **[!UICONTROL Execution frequency]** lista suspensa.
+         > Se seu fluxo de trabalho não requer várias execuções em um dia, mas precisa ser executado diariamente, mensalmente ou anualmente, é aconselhável usar as opções **[!UICONTROL Daily]**, **[!UICONTROL Monthly]** ou **[!UICONTROL Yearly]** disponíveis na lista suspensa **[!UICONTROL Execution frequency]**.
 
-      1. No **[!UICONTROL Start]**/**[!UICONTROL End]** time fields, define a hora em que a execução do workflow deve começar e terminar.
+      1. Nos campos de tempo **[!UICONTROL Start]**/**[!UICONTROL End]**, defina a hora em que a execução do fluxo de trabalho deve começar e terminar.
 
-         Se nenhuma hora final for especificada, a execução será encerrada à meia-noite de 00:00:00 horas e a próxima execução inicia no dia seguinte na hora de início especificada.
+         Se nenhuma hora de término for especificada, a execução será encerrada à meia-noite de:00:00 horas e a próxima execução iniciará no dia seguinte na hora de início especificada.
 
-      1. No **[!UICONTROL Start]** date, selecione a data em que a primeira execução deve começar.
+      1. No campo de data **[!UICONTROL Start]**, selecione a data em que a primeira execução deve começar.
 
    No exemplo abaixo, a atividade é configurada para executar o workflow a cada 2 horas entre 8h e 17h, a partir de 1º de março.
 

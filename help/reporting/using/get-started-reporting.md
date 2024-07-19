@@ -26,15 +26,15 @@ ht-degree: 16%
 
 O Dynamic Reporting fornece relatórios totalmente personalizáveis e em tempo real para medir o impacto de suas atividades de marketing. Ele adiciona acesso aos dados do perfil, permitindo a análise demográfica por dimensões de perfil, como gênero, cidade e idade, além de dados funcionais de campanha de email, como aberturas e cliques.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra os relatórios dinâmicos em vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Descobrir relatórios dinâmicos em vídeo](#video)
 
 ## Gerenciar e compartilhar relatórios {#manage-share-reports}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Com relatórios dinâmicos **interface de arrastar e soltar**, você pode explorar dados, determinar o desempenho de suas campanhas de email em relação aos segmentos de clientes mais importantes e medir seu impacto nos recipients em um único local.
+Com a **interface de arrastar e soltar** dos relatórios dinâmicos, você pode explorar dados, determinar o desempenho de suas campanhas de email em relação aos segmentos de clientes mais importantes e medir seu impacto nos recipients em um único local.
 
-**Gerenciar relatórios dinâmicos** graças a várias funcionalidades: atualize os dados em tempo real, imprima seus relatórios ou exporte-os como arquivos CSV. Você também pode compartilhar seus relatórios com usuários do Campaign Standard por meio de emails únicos ou recorrentes.
+**Gerencie seus relatórios dinâmicos** graças a várias funcionalidades: atualize os dados em tempo real, imprima seus relatórios ou exporte-os como arquivos CSV. Você também pode compartilhar seus relatórios com usuários do Campaign Standard por meio de emails únicos ou recorrentes.
 
 Leia mais:
 
@@ -45,9 +45,9 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-O Campaign Standard vem com um conjunto de **relatórios dinâmicos prontos para uso** que permite medir vários aspectos de suas campanhas de marketing: rejeições, deliveries que foram declarados mais como spam ou lixo, deliveries mais visualizados por recipients, relatórios relacionados a canais, taxa de transferência e relatórios de rastreamento de delivery...
+O Campaign Standard vem com um conjunto de **relatórios dinâmicos prontos para uso** que permite medir vários aspectos de suas campanhas de marketing: rejeições, entregas declaradas como mais spam ou lixo eletrônico, entregas mais vistas por recipients, relatórios relacionados a canais, taxa de transferência de entrega e relatórios de rastreamento...
 
-**Combinar componentes diferentes** (dimensões, métricas e segmentos, períodos de tempo) para criar seus próprios relatórios ou personalizar relatórios prontos para uso.
+**Combine diferentes componentes** (dimensões, métricas e segmentos, períodos de tempo) para criar seus próprios relatórios ou personalizar relatórios prontos para uso.
 
 Leia mais:
 
@@ -59,11 +59,11 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
-**Personalizar seus relatórios** aproveitando os recursos de design do dynamic reporting: adicione quantos componentes forem necessários (painéis e tabelas de forma livre) para analisar seus dados usando a métrica e as dimensões disponíveis.
+**Personalize seus relatórios** aproveitando os recursos de design de relatórios dinâmicos: adicione quantos componentes forem necessários (painéis e tabelas de forma livre) para analisar seus dados usando a métrica e as dimensões disponíveis.
 
-Arrastar e soltar **itens de visualização** para adicionar representações gráficas de seus dados em seus relatórios e configurá-los de acordo com suas necessidades.
+Arraste e solte **itens de visualização** para adicionar representações gráficas de seus dados em seus relatórios e configure-os de acordo com suas necessidades.
 
-Criar relatórios com base em **dados do perfil personalizado** criado durante a extensão de recurso de Perfil e **relatórios com base em segmentos** definido em workflows para construção do target.
+Crie relatórios com base em **dados de perfil personalizados** criados durante a extensão de recurso de Perfil e **relatórios com base em segmentos** definidos em fluxos de trabalho de direcionamento.
 
 Leia mais:
 
@@ -84,4 +84,4 @@ Este vídeo fornece uma visão geral sobre os recursos de relatórios do Adobe C
 
 >[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
 
-Vídeos extras explicativos sobre o Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
+Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

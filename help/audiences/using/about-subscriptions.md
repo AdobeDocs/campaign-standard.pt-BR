@@ -14,7 +14,7 @@ ht-degree: 40%
 
 # Sobre assinaturas{#about-subscriptions}
 
-Use o Adobe Campaign para criar e gerenciar informativos e comunicações entre canais por meio de um conjunto de **serviços**: as mensagens são enviadas apenas aos perfis que assinaram o serviço (aceitação). Esses perfis são identificados usando um filtro dedicado ao criar uma mensagem.
+Use o Adobe Campaign para criar e gerenciar informativos e comunicações entre canais usando um conjunto de **serviços**: as mensagens são enviadas apenas aos perfis que assinaram (aceitaram) o serviço. Esses perfis são identificados usando um filtro dedicado ao criar uma mensagem.
 
 Os mecanismos de assinatura podem ser configurados para permitir que os clientes assinem esses serviços, principalmente por meio de **emails** e **landing pages**.
 
@@ -32,8 +32,8 @@ Siga as etapas abaixo para criar um mecanismo de subscrição:
 
 1. **Criar um serviço** - siga as etapas descritas [nesta seção](../../audiences/using/creating-a-service.md) para criar um serviço de assinatura
 1. **Compartilhar o link** - saiba como promover e compartilhar seu serviço [nesta página](../../audiences/using/promoting-a-service.md)
-1. **Monitorar assinaturas** - descubra várias maneiras de monitorar assinaturas do seu serviço [nesta seção](../../audiences/using/monitoring-subscriptions.md)
-1. **Confirmar assinaturas** - seguir [este tutorial](../../audiences/using/confirming-subscription-to-a-service.md) para enviar uma mensagem de confirmação da assinatura
+1. **Monitorar assinaturas** - descubra várias maneiras de monitorar assinaturas para seu serviço [nesta seção](../../audiences/using/monitoring-subscriptions.md)
+1. **Confirmar assinaturas** - siga [este tutorial](../../audiences/using/confirming-subscription-to-a-service.md) para enviar uma mensagem de confirmação da assinatura
 
 ## Recursos adicionais
 

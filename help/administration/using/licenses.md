@@ -15,17 +15,17 @@ ht-degree: 1%
 
 # Licenças{#licenses}
 
-A variável **[!UICONTROL Licenses]** permite visualizar as licenças instaladas em sua instância e informações diferentes sobre ela, como o número da compilação, a versão da versão ou se os termos do contrato foram aceitos e por quem.
+A janela **[!UICONTROL Licenses]** permite exibir as licenças instaladas em sua instância e informações diferentes sobre ela, como o número da compilação, a versão da versão ou se os termos do contrato foram aceitos e por quem.
 
 ![](assets/license_1.png)
 
 Com uma nova build ou um novo recurso, os termos da licença podem mudar e devem ser aceitos por um administrador funcional da instância.
 
-A janela a seguir será exibida para usuários padrão depois de fazer logon, nenhuma ação é necessária de sua parte. Eles ainda podem trabalhar no Adobe Campaign clicando no link **[!UICONTROL OK]** botão.
+A janela a seguir será exibida para usuários padrão depois de fazer logon, nenhuma ação é necessária de sua parte. Eles ainda podem trabalhar no Adobe Campaign clicando no botão **[!UICONTROL OK]**.
 
 ![](assets/license_2.png)
 
-Um administrador precisa ler e confirmar os novos termos do contrato nos 30 dias seguintes à instalação da build, verificando **[!UICONTROL I accept the terms from the license agreement]** e clicando em **[!UICONTROL Confirm]**.
+Um administrador precisa ler e confirmar os novos termos do contrato nos 30 dias a seguir da instalação da compilação verificando **[!UICONTROL I accept the terms from the license agreement]** e clicando em **[!UICONTROL Confirm]**.
 
 ![](assets/license_3.png)
 

@@ -20,7 +20,7 @@ ht-degree: 76%
 
 Esses casos de uso apresentam como usar um recurso diferente do targeting dimension, por exemplo, para procurar um registro específico em uma tabela distante.
 
-Para obter mais informações sobre targeting dimensions e recursos, consulte [nesta seção](../../automating/using/query.md#targeting-dimensions-and-resources)
+Para obter mais informações sobre targeting dimensions e recursos, consulte [esta seção](../../automating/using/query.md#targeting-dimensions-and-resources)
 
 **Exemplo 1: identificação de perfis direcionados pela entrega com o rótulo “Bem-vindo de volta!”**.
 

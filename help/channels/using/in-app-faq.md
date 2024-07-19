@@ -22,7 +22,7 @@ ht-degree: 0%
 Confira os recursos abaixo:
 
 * [Tutorials de vídeo](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
-* [Publicação do blog](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
+* [Postagem de blog](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
 * [Página da comunidade](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ## Qual é a finalidade das APIs de extensões do Campaign setLinkageField e resetLinkageField? {#extensions-apis}
@@ -40,13 +40,13 @@ Como as mensagens no aplicativo são extraídas pelo SDK do Campaign, queremos f
 
 Você precisa configurar o postback de rastreamento no aplicativo. As instruções podem ser encontradas [aqui](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback).
 
-Para implementar o rastreamento de notificação local, consulte este [página](../../administration/using/local-tracking.md).
+Para implementar o rastreamento de notificação local, consulte esta [página](../../administration/using/local-tracking.md).
 
 ## Quais relatórios estão disponíveis para o canal no aplicativo? {#report-inapp}
 
 Um relatório pronto para uso está disponível no Adobe Campaign para o canal no aplicativo. Consulte esta [documentação](../../reporting/using/in-app-report.md).
 
-Veja isto [página](../../reporting/using/indicator-calculation.md#in-app-delivery) para entender como cada métrica no aplicativo é calculada.
+Consulte esta [página](../../reporting/using/indicator-calculation.md#in-app-delivery) para entender como cada métrica no aplicativo é calculada.
 
 ## Você é compatível com variantes de conteúdo multilíngue no aplicativo, semelhantes ao Push? {#multilingual-inapp}
 
@@ -73,7 +73,7 @@ Para som personalizado no iOS, você precisa fornecer um nome de arquivo com ext
 Sim, os deeplinks são compatíveis com mensagens no aplicativo. Os deeplinks devem incluir:
 
 * linguagem que declara que o rastreamento de delivery precisa ser desativado para que os deeplinks funcionem.
-* AppScript com Ramificação como parceiros que podem fazer o rastreamento de deep link. Para obter mais informações sobre a integração de Branch e Adobe Campaign Standard, consulte este [página](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* AppScript com Ramificação como parceiros que podem fazer o rastreamento de deep link. Para obter mais informações sobre a integração de Ramificação e Adobe Campaign Standard, consulte esta [página](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
 
 ## Uma mensagem no aplicativo pode ser acionada quando o usuário inicia o aplicativo a partir de uma notificação por push? {#inapp-push-trigger}
 

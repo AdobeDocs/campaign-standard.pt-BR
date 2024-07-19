@@ -17,7 +17,7 @@ ht-degree: 6%
 
 # Gerenciamento de recusa do CCPA {#managing-ccpa-optout}
 
-O status de recusa do CCPA de um perfil pode ser monitorado e gerenciado usando o **ccpaOptOut** atributo de perfil e os valores &quot;true&quot; ou &quot;false&quot;:
+O status de recusa do CCPA de um perfil pode ser monitorado e gerenciado usando o atributo de perfil **ccpaOptOut** e os valores &quot;true&quot; ou &quot;false&quot;:
 
 `"ccpaOptOut": <value>`
 

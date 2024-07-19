@@ -18,11 +18,11 @@ ht-degree: 14%
 
 # Resumo do serviço{#service-summary}
 
-A variável **[!UICONTROL Service summary]** detalha a evolução das assinaturas e dos cancelamentos de assinaturas do seu serviço.
-O relatório só pode ser acessado na página Serviço por meio do menu avançado **[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**. Para obter mais informações, consulte esta [página](../../audiences/using/monitoring-subscriptions.md#service-reports).
+O **[!UICONTROL Service summary]** detalha a evolução das assinaturas e dos cancelamentos de assinaturas do seu serviço.
+Este relatório só pode ser acessado na página Serviço por meio do menu avançado **[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**. Para obter mais informações, consulte esta [página](../../audiences/using/monitoring-subscriptions.md#service-reports).
 
 ![](assets/service-summary.png)
 
-A variável **[!UICONTROL Subscription evolution curves]** A visualização detalha o número de assinaturas e cancelamentos de assinaturas, dependendo da **[!UICONTROL Period]** escolhido na barra suspensa.
+A visualização **[!UICONTROL Subscription evolution curves]** detalha o número de assinaturas e cancelamentos de assinaturas dependendo da **[!UICONTROL Period]** escolhida na barra suspensa.
 
-A variável **[!UICONTROL Overall subscription evolution]** O permite ver a evolução dos assinantes em diferentes períodos.
+O **[!UICONTROL Overall subscription evolution]** permite ver a evolução dos assinantes em diferentes períodos.

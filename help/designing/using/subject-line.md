@@ -23,29 +23,29 @@ O assunto da mensagem é obrigatório para preparar e enviar a mensagem.
 
 >[!NOTE]
 >
->Se a linha de assunto estiver vazia, um aviso será exibido no painel de mensagens e no Designer de email.
+>Se a linha de assunto estiver vazia, um aviso será exibido no painel da mensagem e no Designer de email.
 
 1. Crie um email.
-1. Vá para a **[!UICONTROL Properties]** da página inicial do Email Designer (acessível por meio do ícone de página inicial).
-1. Preencha o **[!UICONTROL Subject]** seção.
+1. Vá para a guia **[!UICONTROL Properties]** da página inicial do Email Designer (acessível por meio do ícone de página inicial).
+1. Preencha a seção **[!UICONTROL Subject]**.
 
    ![](assets/email_designer_subject.png)
 
-1. Você também pode adicionar campos de personalização, blocos de conteúdo e conteúdo dinâmico à linha de assunto clicando nos ícones correspondentes. Para obter mais informações, consulte [Personalização](../../designing/using/personalization.md).
+1. Você também pode adicionar campos de personalização, blocos de conteúdo e conteúdo dinâmico à linha de assunto clicando nos ícones correspondentes. Para obter mais informações, consulte [Personalization](../../designing/using/personalization.md).
 
 ## Definição do remetente de email de um email {#email-sender}
 
-Para definir o nome do remetente que aparecerá no cabeçalho das mensagens enviadas, vá para a **[!UICONTROL Properties]** da página inicial do Email Designer (acessível por meio do ícone de página inicial).
+Para definir o nome do remetente que aparecerá no cabeçalho das mensagens enviadas, vá para a guia **[!UICONTROL Properties]** da página inicial do Designer de Email (acessível por meio do ícone de início).
 
 ![](assets/delivery_content_edition16.png)
 
-* A variável **[!UICONTROL From: name]** permite inserir o nome do remetente. Por padrão, o valor **Nome do remetente** é inserido automaticamente no campo. O endereço de email e o nome do remetente padrão são definidos em **[!UICONTROL Brands]** acessível através do logotipo do Adobe Campaign no menu avançado **[!UICONTROL Administration > Instance settings > Brand configuration]** .
+* O campo **[!UICONTROL From: name]** permite inserir o nome do remetente. Por padrão, o bloco **Nome do remetente** padrão é inserido automaticamente no campo. O endereço de email e o nome do remetente padrão do remetente são definidos no **[!UICONTROL Brands]**, acessível por meio do logotipo do Adobe Campaign no menu avançado **[!UICONTROL Administration > Instance settings > Brand configuration]**.
 
-  É possível alterar o nome do remetente clicando no ícone **Nome do remetente** bloco. O campo torna-se editável e você pode inserir o nome que deseja usar.
+  Você pode alterar o nome do remetente clicando no bloco **Nome do remetente**. O campo torna-se editável e você pode inserir o nome que deseja usar.
 
-  Esse campo pode ser personalizado. Para fazer isso, você pode adicionar campos de personalização, blocos de conteúdo e conteúdo dinâmico clicando nos ícones abaixo do nome do remetente. Para obter mais informações, consulte [Personalização](../../designing/using/personalization.md).
+  Esse campo pode ser personalizado. Para fazer isso, você pode adicionar campos de personalização, blocos de conteúdo e conteúdo dinâmico clicando nos ícones abaixo do nome do remetente. Para obter mais informações, consulte [Personalization](../../designing/using/personalization.md).
 
-* A variável **[!UICONTROL From: email address]** O campo não pode ser editado nesta seção. Você pode alterá-lo editando as propriedades do email no painel. Para obter mais informações, consulte [Lista de parâmetros avançados de email](../../administration/using/configuring-email-channel.md#advanced-parameters).
+* O campo **[!UICONTROL From: email address]** não pode ser editado desta seção. Você pode alterá-lo editando as propriedades do email no painel. Para obter mais informações, consulte [Lista de parâmetros avançados de email](../../administration/using/configuring-email-channel.md#advanced-parameters).
 
 >[!NOTE]
 >

@@ -23,13 +23,13 @@ ht-degree: 3%
 >
 >O serviço Audience Destinations está atualmente em versão beta, que pode estar sujeita a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados no Azure (atualmente na versão beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente do Adobe se desejar obter acesso.
 
-Depois de criar um [Público-alvo do Adobe Experience Platform](../../integrating/using/aep-about-audience-destinations-service.md) com o Construtor de segmentos, você pode usá-lo da mesma forma que faria para um público do Campaign em workflows para personalizar e enviar mensagens.
+Depois de criar um [público-alvo do Adobe Experience Platform](../../integrating/using/aep-about-audience-destinations-service.md) usando o Construtor de segmentos, você pode usá-lo da mesma forma que faria para um público do Campaign nos fluxos de trabalho para personalizar e enviar mensagens.
 
 Para ativar um público-alvo do Adobe Experience Platform em seus workflows, siga estas etapas:
 
-1. Adicionar um **[!UICONTROL Read audience]** atividade no workflow e, em seguida, abra-a.
+1. Adicione uma atividade **[!UICONTROL Read audience]** ao fluxo de trabalho e depois a abra.
 
-1. Selecione o **[!UICONTROL Adobe Experience Platform]** opção em **[!UICONTROL Type of audience]**, em seguida, adicione o público-alvo desejado.
+1. Selecione a opção **[!UICONTROL Adobe Experience Platform]** em **[!UICONTROL Type of audience]** e adicione o público-alvo desejado.
 
    ![](assets/aep_wkf_readaudience.png)
 
@@ -37,13 +37,13 @@ Para ativar um público-alvo do Adobe Experience Platform em seus workflows, sig
 
    Clicar no botão de olho simplesmente direcionará você para o Construtor de segmentos (em outra guia) associado ao público-alvo selecionado no Campaign.
 
-1. Selecione um **[!UICONTROL Platform data mapping]** elemento para especificar o targeting dimension desejado para o público-alvo do Adobe Experience Platform selecionado.
+1. Selecione um elemento **[!UICONTROL Platform data mapping]** para especificar o targeting dimension desejado para o público-alvo do Adobe Experience Platform selecionado.
 
-   Por padrão, a chave primária (por exemplo, iRecipientID para a tabela de Perfil, iAppSubscriptionID para a tabela AppSubscription ) usada para reconciliação estará automaticamente disponível na lista suspensa. Para direcionar para fora da chave primária, você deve criar uma **Namespace**.
+   Por padrão, a chave primária (por exemplo, iRecipientID para a tabela de Perfil, iAppSubscriptionID para a tabela AppSubscription ) usada para reconciliação estará automaticamente disponível na lista suspensa. Para direcionar fora da chave primária, você deve criar um **Namespace** personalizado.
 
    >[!NOTE]
    >
-   >Para destinos fora da chave primária, você também deve criar um Target Mapping personalizado que corresponda ao namespace personalizado. Para obter mais informações sobre Target Mapping, consulte [nesta seção](../../administration/using/target-mappings-in-campaign.md).
+   >Para destinos fora da chave primária, você também deve criar um Target Mapping personalizado que corresponda ao namespace personalizado. Para obter mais informações sobre Target Mapping, consulte [esta seção](../../administration/using/target-mappings-in-campaign.md).
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
@@ -51,9 +51,9 @@ Para ativar um público-alvo do Adobe Experience Platform em seus workflows, sig
 
    ![](assets/aep_wkf_readaudience_namespace2.png)
 
-1. Depois que as dimensões de público-alvo e direcionamento forem configuradas corretamente, clique no link **[!UICONTROL Confirm]** botão para salvar as alterações.
+1. Depois que as dimensões de público-alvo e direcionamento forem configuradas corretamente, clique no botão **[!UICONTROL Confirm]** para salvar suas alterações.
 
-Agora você pode configurar o fluxo de trabalho com outras atividades. É possível, por exemplo, vincular um **[!UICONTROL Email delivery]** atividade para enviar um email para o público-alvo que foi selecionado.
+Agora você pode configurar o fluxo de trabalho com outras atividades. Você pode, por exemplo, vincular uma atividade **[!UICONTROL Email delivery]** para enviar um email ao público selecionado.
 
 ![](assets/aep_wkf_email.png)
 

@@ -19,6 +19,6 @@ ht-degree: 19%
 
 Os target mappings são objetos técnicos usados pelo Campaign para entregar mensagens. Eles contêm todas as configurações técnicas necessárias para enviar deliveries (endereços, números de telefone, indicadores de aceitação, identificadores adicionais etc.).
 
-Os administradores podem acessar target mappings na **[!UICONTROL Administration > Application settings > Target mappings]** menu.
+Os administradores podem acessar mapeamentos de destino no menu **[!UICONTROL Administration > Application settings > Target mappings]**.
 
-A criação ou modificação do target mapping é possível para cobrir necessidades específicas. Em qualquer caso, o targeting dimension sempre deve corresponder a perfis ( **[!UICONTROL nms:recipient]** tabela). Para saber mais sobre targeting dimensions, consulte [esta página](../../automating/using/query.md#targeting-dimensions-and-resources).
+A criação ou modificação do target mapping é possível para cobrir necessidades específicas. Em qualquer caso, seu targeting dimension sempre deve corresponder a perfis (tabela **[!UICONTROL nms:recipient]**). Para saber mais sobre targeting dimensions, consulte [esta página](../../automating/using/query.md#targeting-dimensions-and-resources).

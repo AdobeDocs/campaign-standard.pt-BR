@@ -27,6 +27,6 @@ Os perfis de recusa são excluídos automaticamente durante a análise de entreg
 
 >[!NOTE]
 >
->A recusa se aplica a **Perfis**, em oposição à quarentena, que está vinculada a um **endereço de email** ou **número de telefone**. Portanto, a recusa de um perfil excluirá dos deliveries todos os endereços vinculados a ele. No entanto, se um usuário tiver dois perfis no banco de dados, ele ainda será direcionado pelos deliveries, pois somente um de seus perfis será recusado. Para garantir que todos os endereços sejam excluídos, adicione-os aos endereços em quarentena. Para obter mais informações, consulte [esta página](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
+>A recusa se aplica a **Perfis**, em vez da quarentena que está vinculada a um **endereço de email** ou **número de telefone**. Portanto, a recusa de um perfil excluirá dos deliveries todos os endereços vinculados a ele. No entanto, se um usuário tiver dois perfis no banco de dados, ele ainda será direcionado pelos deliveries, pois somente um de seus perfis será recusado. Para garantir que todos os endereços sejam excluídos, adicione-os aos endereços em quarentena. Para obter mais informações, consulte [esta página](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
 
 Para obter mais informações sobre assinaturas de serviços, consulte [esta página](../../audiences/using/about-subscriptions.md).

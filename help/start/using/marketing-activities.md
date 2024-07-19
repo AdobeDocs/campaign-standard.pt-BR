@@ -42,14 +42,14 @@ O botão **[!UICONTROL Create]** pode ser usado para criar uma nova atividade. P
 
 Na zona principal, cada tipo de atividade na lista tem um ícone:
 
-* ![](assets/marketing_program_icon.png) Programa
-* ![](assets/marketing_campaign_icon.png) Campaign
-* ![](assets/marketing_email_icon.png) E-mail
-* ![](assets/marketing_sms_icon.png) SMS
+* Programa ![](assets/marketing_program_icon.png)
+* Campanha ![](assets/marketing_campaign_icon.png)
+* Email ![](assets/marketing_email_icon.png)
+* SMS de ![](assets/marketing_sms_icon.png)
 * ![](assets/marketing_push_icon.png) Notificação por push
 * ![](assets/marketing_lp_icon.png) Mensagem no aplicativo
-* ![](assets/marketing_lp_icon.png) Landing page
-* ![](assets/marketing_workflow_icon.png) Fluxo de trabalho
+* Página de aterrissagem ![](assets/marketing_lp_icon.png)
+* Fluxo de trabalho do ![](assets/marketing_workflow_icon.png)
 
 Dependendo do período de validade e status, a cor associada a esse ícone indica o status de execução da atividade correspondente.
 

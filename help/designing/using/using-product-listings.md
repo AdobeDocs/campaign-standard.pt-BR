@@ -20,13 +20,13 @@ ht-degree: 77%
 
 >[!IMPORTANT]
 >
->As listas de produtos só estão disponíveis para **mensagens de email transacionais** por meio da [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) interface.
+>As listas de produtos só estão disponíveis para **mensagens de email transacionais** por meio da interface do [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
 
 Ao editar o conteúdo de um email transacional, você pode criar listas de produtos que façam referência a uma ou mais coleções de dados. Por exemplo, em um email de abandono de carrinho, você pode incluir uma lista de todos os produtos que estavam nos carrinhos dos usuários quando eles saíram do site, com uma imagem, o preço e um link para cada produto.
 
 Para adicionar uma lista de produtos abandonados em uma mensagem transacional, siga as etapas abaixo.
 
-Você também pode assistir [este conjunto de vídeos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html#configure-product-listings-in-transactional-emails) explicando as etapas necessárias para configurar as listas de produtos em um email transacional.
+Você também pode assistir a [este conjunto de vídeos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html#configure-product-listings-in-transactional-emails) explicando as etapas necessárias para configurar as listas de produtos em um email transacional.
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Antes de usar uma lista de produtos em uma mensagem transacional, é necessário
 1. Na mensagem transacional, clique no bloco **[!UICONTROL Content]** para modificar o conteúdo do email.
 1. Arraste e solte um componente de estrutura no espaço de trabalho. Para obter mais informações, consulte [Definição da estrutura de email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-   Por exemplo, selecione um componente de estrutura de uma coluna e adicione um componente de texto, um componente de imagem e um componente de botão. Para obter mais informações, consulte [Uso de componentes de conteúdo](../../designing/using/designing-from-scratch.md#about-content-components).
+   Por exemplo, selecione um componente de estrutura de uma coluna e adicione um componente de texto, um componente de imagem e um componente de botão. Para obter mais informações, consulte [Usando componentes de conteúdo](../../designing/using/designing-from-scratch.md#about-content-components).
 
 1. Selecione o componente de estrutura que você acabou de criar e clique no ícone **[!UICONTROL Enable product listing]**, na barra de ferramentas contextual.
 
@@ -56,7 +56,7 @@ Antes de usar uma lista de produtos em uma mensagem transacional, é necessário
 
    >[!NOTE]
    >
-   >A opção **[!UICONTROL Column]** só está disponível ao usar um componente de estrutura de várias colunas ( **[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** e **[!UICONTROL 4:4 column]** ). Ao editar a lista de produtos, preencha apenas a primeira coluna: as outras colunas não serão consideradas. Para obter mais informações sobre a seleção de componentes de estrutura, consulte [Definição da estrutura de email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+   >A opção **[!UICONTROL Column]** só está disponível ao usar um componente de estrutura de várias colunas ( **[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** e **[!UICONTROL 4:4 column]** ). Ao editar a lista de produtos, preencha apenas a primeira coluna: as outras colunas não serão consideradas. Para obter mais informações sobre como selecionar componentes de estrutura, consulte [Definição da estrutura de email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 1. Selecione a coleção de dados criada ao configurar o evento relacionado à mensagem transacional. Você pode encontrá-la no nó **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 

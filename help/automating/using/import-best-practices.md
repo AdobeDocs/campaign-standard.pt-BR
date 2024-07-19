@@ -10,7 +10,7 @@ exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
 source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 82%
+ht-degree: 83%
 
 ---
 
@@ -32,11 +32,11 @@ Em muitos projetos, as importações são criadas sem a atividade **[!UICONTROL 
 
 Não confie na suposição de que os dados de entrada são consistentes e corretos, ou que o departamento de TI ou o supervisor do Adobe Campaign irá resolver isso. Durante o projeto, mantenha a limpeza dos dados em mente. Elimine duplicatas, reconcilie e mantenha de consistência ao importar dados.
 
-Um exemplo de template de workflow genérico projetado para importar dados está disponível no [Exemplo: importar template de fluxo de trabalho](../../automating/using/creating-import-workflow-templates.md) seção.
+Um exemplo de modelo de fluxo de trabalho genérico projetado para importar dados está disponível na seção [Exemplo: importar modelo de fluxo de trabalho](../../automating/using/creating-import-workflow-templates.md).
 
 >[!NOTE]
 >
->Também é possível usar [importar modelos](../../automating/using/importing-data-with-import-templates.md). São modelos de workflow definidos por um administrador que, uma vez ativados, oferecem apenas a possibilidade de especificar o arquivo que contém os dados a serem importados.
+>Você também pode usar [modelos de importação](../../automating/using/importing-data-with-import-templates.md). São modelos de workflow definidos por um administrador que, uma vez ativados, oferecem apenas a possibilidade de especificar o arquivo que contém os dados a serem importados.
 
 **Tópicos relacionados:**
 
@@ -74,7 +74,7 @@ Use arquivos compactados para importações e exportações sempre que possível
 **Tópicos relacionados:**
 
 * [Atividade Carregar arquivo](../../automating/using/load-file.md)
-* [Extrair atividade do arquivo](../../automating/using/extract-file.md)
+* [Atividade Extrair arquivo](../../automating/using/extract-file.md)
 
 ## Importação no modo Delta {#importing-in-delta-mode}
 

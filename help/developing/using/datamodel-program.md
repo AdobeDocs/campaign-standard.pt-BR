@@ -144,7 +144,7 @@ ht-degree: 33%
                </tr>
                <tr>
                   <td>start</td>
-                  <td>Data inicial</td>
+                  <td>Data de início</td>
                   <td>data </td>
                   <td> </td>
                </tr>

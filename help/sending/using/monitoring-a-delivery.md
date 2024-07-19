@@ -22,7 +22,7 @@ Há várias maneiras de monitorar um delivery e medir seu impacto. Como administ
 
 >[!IMPORTANT]
 >
->Somente funcional [administradores](../../administration/using/users-management.md#functional-administrators), com **[!UICONTROL Administration]** função e acesso a **Todos** as unidades podem acessar logs de envio, logs de mensagem, logs de rastreamento, logs de exclusão ou de subscrição. Um usuário não administrador pode direcionar esses logs, mas começando por uma tabela vinculada (perfis, delivery).
+>Somente [administradores](../../administration/using/users-management.md#functional-administrators) funcionais, com função **[!UICONTROL Administration]** e acesso a **Todas** unidades, podem acessar logs de envio, logs de mensagens, logs de rastreamento, de exclusão ou de assinatura. Um usuário não administrador pode direcionar esses logs, mas começando por uma tabela vinculada (perfis, delivery).
 
 * **Logs de mensagem**: esses logs podem ser acessados diretamente do painel de mensagens. Eles mostram os detalhes do envio, o target que foi excluído e o motivo, bem como as informações de rastreamento, como aberturas e cliques.
 
@@ -38,9 +38,9 @@ Há várias maneiras de monitorar um delivery e medir seu impacto. Como administ
 
   ![](assets/sending_delivery2.png)
 
-* **Logs de trabalho**: uma lista dos processos em lote acionados pelo delivery pode ser acessada no painel de mensagens selecionando **[!UICONTROL Job history]** do **[!UICONTROL Summary]** lista suspensa.
+* **Logs de trabalho**: uma lista dos trabalhos em lotes acionados pela entrega pode ser acessada no painel de mensagens selecionando **[!UICONTROL Job history]** na lista suspensa **[!UICONTROL Summary]**.
 
-  Selecione qualquer trabalho na lista para ver os detalhes do **[!UICONTROL Batch job]**.
+  Selecione qualquer trabalho na lista para ver os detalhes do **[!UICONTROL Batch job]** selecionado.
 
   ![](assets/sending_delivery8.png)
 

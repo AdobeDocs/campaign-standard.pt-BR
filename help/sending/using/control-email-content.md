@@ -26,16 +26,16 @@ Siga os princípios listados abaixo ao criar o conteúdo da mensagem:
 
 * [Nome e endereço do remetente](#sender-name): o endereço deve identificar explicitamente o remetente. O domínio deve ser de propriedade do remetente e registrado por ele. O registro de domínio não deve ser privatizado.
   <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
-* [Personalização e otimização de tempo de envio](#perso-send-time-optimization): personalizar o conteúdo e definir um tempo de envio por recipient aumenta as chances de sua mensagem ser aberta.
+* [Otimização do Personalization e do tempo de envio](#perso-send-time-optimization): personalizar o conteúdo e definir um tempo de envio por recipient aumenta as chances de sua mensagem ser aberta.
 * Imagens e texto: respeitar uma proporção adequada de texto/imagem (por exemplo, 60% de texto e 40% de imagens).
 * [Link de unsubscription ](#opt-out) e landing page: o link de unsubscription é essencial. Deve ser visível e válido e o formulário deve ser funcional.
-* Pré-visualização: use as ferramentas oferecidas pelo Adobe Campaign para verificar e otimizar o conteúdo do seu email ([Análise antisspam](#anti-spam-analysis), [Renderização de email](#message-responsiveness)).
+* Visualização: use as ferramentas oferecidas pelo Adobe Campaign para verificar e otimizar o conteúdo do seu email ([Análise antisspam](#anti-spam-analysis), [Renderização de email](#message-responsiveness)).
 
 Para obter dicas adicionais para otimizar a capacidade de entrega ao projetar conteúdo, consulte o [Manual de práticas recomendadas de capacidade de entrega da Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html?lang=pt-BR).
 
 >[!NOTE]
 >
->Para obter mais informações sobre edição de conteúdo de email, consulte o [Visão geral do Designer de email](../../designing/using/designing-content-in-adobe-campaign.md) e a variável [Práticas recomendadas de design de mensagem](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
+>Para obter mais informações sobre edição de conteúdo de email, consulte a [Visão geral do Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) e as [Práticas recomendadas de design de mensagens](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
 
 ## Nome e endereço do remetente {#sender-name}
 
@@ -45,19 +45,19 @@ Determinados ISPs verificam a validade do endereço do remetente (**[!UICONTROL 
 
 Verifique se um endereço correto é fornecido no nível da instância ou nos cenários usados com mais frequência. Para fazer isso, entre em contato com o administrador.
 
-Para obter mais informações, consulte [Definição do remetente de email de um email](../../designing/using/subject-line.md#email-sender).
+Para obter mais informações, consulte [Definição do remetente de email](../../designing/using/subject-line.md#email-sender).
 
-## Personalização e otimização de tempo de envio {#perso-send-time-optimization}
+## Otimização do Personalization e do tempo de envio {#perso-send-time-optimization}
 
 Para melhorar a experiência dos recipients e fazer com que eles abram seu email, o Adobe Campaign permite personalizar suas mensagens. Para obter mais informações, consulte [esta seção](../../designing/using/personalization.md).
 
-Para aumentar a taxa de abertura das mensagens, também é possível definir manualmente um tempo de envio por recipient. Cada perfil receberá a mensagem na data e hora especificadas, sempre que possível. Para obter mais informações, consulte [Otimização do tempo de envio](../../sending/using/optimizing-the-sending-time.md).
+Para aumentar a taxa de abertura das mensagens, também é possível definir manualmente um tempo de envio por recipient. Cada perfil receberá a mensagem na data e hora especificadas, sempre que possível. Para obter mais informações, consulte [Otimizar o tempo de envio](../../sending/using/optimizing-the-sending-time.md).
 
 ## Formulário e link para opção de não participação {#opt-out}
 
-Por padrão, quando a mensagem é analisada, uma regra de tipologia verifica se há um link de opt-out e gera um aviso se estiver faltando. Para obter mais informações sobre gerenciamento de links, consulte [nesta seção](../../designing/using/links.md).
+Por padrão, quando a mensagem é analisada, uma regra de tipologia verifica se há um link de opt-out e gera um aviso se estiver faltando. Para obter mais informações sobre gerenciamento de links, consulte [esta seção](../../designing/using/links.md).
 
-Você deve verificar se o link de opt-out funciona corretamente antes de cada vez que enviar. Por exemplo, quando [envio da prova](../../sending/using/sending-proofs.md), verifique se o link é válido, se o formulário está online e se a validação verifica o **[!UICONTROL No longer contact]** caixas. Você deve fazer essa verificação sistematicamente, pois sempre é possível que ocorra um erro humano ao inserir o link ou ao alterar o formulário. Para obter mais informações sobre gerenciamento de aceitação e recusa, consulte [nesta seção](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md).
+Você deve verificar se o link de opt-out funciona corretamente antes de cada vez que enviar. Por exemplo, ao [enviar a prova](../../sending/using/sending-proofs.md), verifique se o link é válido, se o formulário está online e se a validação marca as caixas **[!UICONTROL No longer contact]**. Você deve fazer essa verificação sistematicamente, pois sempre é possível que ocorra um erro humano ao inserir o link ou ao alterar o formulário. Para obter mais informações sobre gerenciamento de aceitação e recusa, consulte [esta seção](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md).
 
 ![](assets/optin_landingpage_3.png)
 
@@ -69,7 +69,7 @@ Solicitar confirmação adicional não é confiável: um usuário pode ter dois 
 
 ## Análise anti-spam {#anti-spam-analysis}
 
-O editor de mensagens da Adobe Campaign integra uma **Análise antisspam** que permite que você marque emails para determinar se uma mensagem corre o risco de ser considerada spam pelas ferramentas antisspam usadas no recebimento. Para obter mais informações, consulte [Pré-visualização de mensagens](../../sending/using/previewing-messages.md).
+O editor de mensagens da Adobe Campaign integra uma **Análise antisspam**, que permite que você marque emails para determinar se uma mensagem corre o risco de ser considerada spam pelas ferramentas antisspam usadas no recebimento. Para obter mais informações, consulte [Pré-visualização de mensagens](../../sending/using/previewing-messages.md).
 
 No editor de conteúdo de mensagens, clique em **[!UICONTROL Preview]**. Uma mensagem avisa se a verificação antisspam detectar um alto risco para essa mensagem. Clique em **[!UICONTROL Anti-spam analysis]** para exibir detalhes.
 

@@ -29,12 +29,12 @@ Para obter mais informações sobre push ou no aplicativo, consulte as seguintes
 
 Consulte os recursos abaixo para obter mais informações sobre o SDK do Adobe Experience Platform e a integração de Campaign Standard:
 
-* Launch/Mobile [Vídeo de visão geral](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
-* Launch/Mobile [Guia de dicas e truques](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
+* [Vídeo de visão geral](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video) do Launch/Mobile
+* [Guia de dicas e truques do Launch/Mobile](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## A integração do SDK do Adobe Experience Platform está disponível para o Adobe Campaign Standard e o Adobe Campaign Classic? {#aep-validity}
 
-Sim, [!DNL Adobe Experience Platform SDK] A integração do está disponível para o Adobe Campaign Standard e o Adobe Campaign Classic. Você deve instalar o correspondente **[!UICONTROL Extension]** por meio da [!DNL Data Collection UI] para habilitar a integração.
+Sim, a integração do [!DNL Adobe Experience Platform SDK] está disponível para o Adobe Campaign Standard e o Adobe Campaign Classic. Você deve instalar o **[!UICONTROL Extension]** correspondente por meio do [!DNL Data Collection UI] para habilitar a integração.
 
 Para obter mais informações, consulte esta [página](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
@@ -46,13 +46,13 @@ Consulte a tabela abaixo para saber mais sobre esses recursos.
 
 >[!NOTE]
 >
->[!DNL Places] A integração inclui eventos de locais como acionadores para mensagens no aplicativo (N/D para notificações por push), enriquecendo perfis com [!DNL Places] suporte a notificações locais e de dados. Consulte esta [página](../../channels/using/preparing-and-sending-an-in-app-message.md) para obter mais informações. <br>[!DNL Places] a integração limitada inclui o enriquecimento de perfis com [!DNL Places] dados.
+>A integração do [!DNL Places] inclui eventos de locais como acionadores para mensagens no aplicativo (N/D para notificações por push), enriquecendo perfis com suporte a dados do [!DNL Places] e notificações locais. Consulte esta [página](../../channels/using/preparing-and-sending-an-in-app-message.md) para obter mais informações. A integração limitada <br>[!DNL Places] inclui o enriquecimento de perfis com dados [!DNL Places].
 
 ## Qual caso de uso a integração do SDK do Adobe Experience Platform facilita no Adobe Campaign Standard? {#aep-use-cases}
 
 Os seguintes casos de uso são compatíveis:
 
-* Adquirir um **[!UICONTROL Mobile Profile]** no Campaign (identificado pela ECID no **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]** > **[!UICONTROL Mobile Application subscribers]** guia)
+* Adquirir um **[!UICONTROL Mobile Profile]** no Campaign (identificado pela ECID na guia **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]** > **[!UICONTROL Mobile Application subscribers]**)
 * Enriquecer um **[!UICONTROL Mobile Profile]** no Adobe Campaign (requer **[!UICONTROL Custom resource Extension]** da tabela appSubscriberRcp)
 * Adquirir um token de push para enviar mensagens de push (requer a aceitação do usuário para receber mensagens de push)
 * Enviar mensagens de push e no aplicativo
@@ -62,19 +62,19 @@ Os seguintes casos de uso são compatíveis:
 
 Para isso, siga as etapas abaixo:
 
-1. Configurar um **[!UICONTROL Mobile property]** in [!DNL Launch].
-1. Instale a extensão Adobe Campaign Standard. Observe que a extensão do Adobe Campaign Standard também requer **[!UICONTROL Mobile Core]**, **[!UICONTROL Profile]** e **[!UICONTROL Lifecycle]** extensões que são instaladas por padrão no [!DNL Launch].
-   * Os usuários devem configurar o tempo limite da sessão em **[!UICONTROL Mobile Core]** extensão que afeta a frequência de eventos de ciclo de vida.
+1. Configurar um **[!UICONTROL Mobile property]** em [!DNL Launch].
+1. Instale a extensão Adobe Campaign Standard. Observe que a extensão do Adobe Campaign Standard também requer extensões **[!UICONTROL Mobile Core]**, **[!UICONTROL Profile]** e **[!UICONTROL Lifecycle]** que são instaladas por padrão em [!DNL Launch].
+   * Os usuários devem configurar o tempo limite da sessão na extensão **[!UICONTROL Mobile Core]**, que afeta a frequência de eventos do ciclo de vida.
    * Depois que a extensão é configurada, os usuários devem adicionar as dependências apropriadas no aplicativo móvel usando Cocoapods para iOS e Gradle para Android. Siga as instruções [aqui](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
    * Use sempre as versões mais recentes das bibliotecas.
-   * No aplicativo móvel, registre-se **[!UICONTROL Campaign]**, **[!UICONTROL UserProfile]**, **[!UICONTROL Identity]**, **[!UICONTROL Lifecycle]** e **[!UICONTROL Signal]** extensões. Siga as instruções [aqui](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#register-the-campaign-standard-extension-with-mobile-core).
-   * Depois que as extensões forem registradas, inicie o ACPCore. Para Android, certifique-se de setApplication onCreate(). Siga as instruções exatas fornecidas nas Instruções de instalação móvel para sua propriedade móvel no Launch.
-   * As seguintes APIs do SDK também serão necessárias. Implemente as APIs de início e pausa do ciclo de vida conforme descrito [aqui](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android) para Android e aqui para iOS.
-1. Configurar um **[!UICONTROL Mobile Property]** no Adobe Campaign Standard. Siga o procedimento [aqui](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+   * No Aplicativo Móvel, registre as extensões **[!UICONTROL Campaign]**, **[!UICONTROL UserProfile]**, **[!UICONTROL Identity]**, **[!UICONTROL Lifecycle]** e **[!UICONTROL Signal]**. Siga as instruções [aqui](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#register-the-campaign-standard-extension-with-mobile-core).
+   * Depois que as extensões forem registradas, inicie o ACPCore. Para o Android, certifique-se de setApplication onCreate(). Siga as instruções exatas fornecidas nas Instruções de instalação móvel para sua propriedade móvel no Launch.
+   * As seguintes APIs do SDK também serão necessárias. Implemente as APIs de Início e Pausa do Ciclo de Vida conforme descrito [aqui](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android) para o Android e aqui para o iOS.
+1. Configure um **[!UICONTROL Mobile Property]** no Adobe Campaign Standard. Siga o procedimento [aqui](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 ## O que preciso fazer para enriquecer um perfil móvel no Campaign? {#enrich-mobile-profile}
 
-Você deve configurar um postback CollectPII (consulte este [página](../../administration/using/configuring-rules-launch.md#pii-postback)) e implementar a API CollectPII do SDK (consulte este [página](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference)).
+Você deve configurar um postback CollectPII (consulte esta [página](../../administration/using/configuring-rules-launch.md#pii-postback)) e implementar a API CollectPII do SDK (consulte esta [página](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference)).
 
 ## Com que frequência uma chamada CollectPII deve ser disparada? {#collect-pii}
 
@@ -96,10 +96,10 @@ Esse é um problema conhecido e ocorre devido à expiração do token. Você dev
 
 Confira os recursos abaixo:
 
-* EXPERIENCE PLATFORM SDK [documentação](https://developer.adobe.com/client-sdks/documentation/)
-* Introdução ao SDK do Launch e Experience Platform [documentação](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)
-* Atualização para o SDK do Experience Platform [documentação](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/)
-* GitHub Experience Platform SDK [documentação](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
+* Documentação [do SDK do Experience Platform](https://developer.adobe.com/client-sdks/documentation/)
+* Introdução à [documentação](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/) do SDK do Launch e Experience Platform
+* Atualizando para a [documentação](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/) do SDK do Experience Platform
+* Documentação [do SDK do Experience Platform do Github](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
 
 ## Estou recebendo o erro &quot;Você não tem acesso de gravação na entrega&quot; ao criar uma entrega de notificação por push. {#write-access-error}
 

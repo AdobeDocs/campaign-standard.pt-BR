@@ -29,7 +29,7 @@ Para exportar dados do Campaign Standard para o local de armazenamento de blobs 
 
 Para fazer isso, adicione e configure:
 
-* A **[!UICONTROL Extract file]** atividade para extrair os dados direcionados em um arquivo CSV. Para obter mais informações sobre como configurar esta atividade, consulte [esta seção](../../automating/using/extract-file.md).
+* Uma atividade **[!UICONTROL Extract file]** para extrair os dados direcionados em um arquivo CSV. Para obter mais informações sobre como configurar esta atividade, consulte [esta seção](../../automating/using/extract-file.md).
 
   ![](assets/rtcdp-extract-file.png)
 
@@ -41,7 +41,7 @@ Como exemplo, o fluxo de trabalho abaixo extrai logs regularmente em um arquivo 
 
 ![](assets/aep-export.png)
 
-Exemplos de workflows de gerenciamento de dados estão disponíveis no [casos de uso de workflows](../../automating/using/about-workflow-use-cases.md#management) seção.
+Exemplos de fluxos de trabalho de gerenciamento de dados estão disponíveis na seção [casos de uso de fluxos de trabalho](../../automating/using/about-workflow-use-cases.md#management).
 
 Tópicos relacionados:
 
@@ -51,7 +51,7 @@ Tópicos relacionados:
 
 ## Conectar seu local de armazenamento como uma Origem
 
-As principais etapas para conectar seu Serviço de Armazenamento do Amazon (S3) ou local de armazenamento de blobs do Azure como um **Origem** na Adobe experience Platform estão listadas abaixo. Informações detalhadas sobre cada uma dessas etapas estão disponíveis na [Documentação dos conectores de origem](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR).
+As principais etapas para conectar seu Serviço de Armazenamento da Amazon (S3) ou local de armazenamento Azure Blob como um **Source** na Adobe experience Platform estão listadas abaixo. Informações detalhadas sobre cada uma dessas etapas estão disponíveis na [Documentação dos conectores de origem](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR).
 
 1. No menu **[!UICONTROL Sources]** da Adobe Experience Platform, crie uma conexão com o local de armazenamento:
 

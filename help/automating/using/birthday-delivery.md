@@ -24,14 +24,14 @@ Esse exemplo é um workflow de aniversário. Todos os dias, um email é enviado 
 
 Para criar o workflow, siga estas etapas:
 
-* A variável [Scheduler](../../automating/using/scheduler.md) permite iniciar o workflow todos os dias às 8h.
+* O [Scheduler](../../automating/using/scheduler.md) permite iniciar o fluxo de trabalho todos os dias às 8h.
 
   ![](assets/wkf_delivery_example_2.png)
 
-* A variável [Query](../../automating/using/query.md) A atividade permite calcular os perfis que forneceram um email e cujo aniversário é no dia atual, todas as vezes que o workflow for executado. O cálculo do aniversário é executado usando um filtro predefinido, disponível na paleta da ferramenta de edição de queries.
+* A atividade [Query](../../automating/using/query.md) permite calcular os perfis que forneceram um email e cujo aniversário é no dia atual, sempre que o fluxo de trabalho é executado. O cálculo do aniversário é executado usando um filtro predefinido, disponível na paleta da ferramenta de edição de queries.
 
   ![](assets/wkf_delivery_example_3.png)
 
-* A variável [Entrega de email](../../automating/using/email-delivery.md) é recorrente. Os envios são agregados por mês. Assim, todos os emails enviados em um mês são agregados em uma única visualização. Portanto, em um ano, 365 entregas são executadas, mas são agrupadas em 12 visualizações (também chamadas de **execuções recorrentes**) na interface do Adobe Campaign. O histórico e os detalhes do relatório são exibidos todos os meses e não para cada envio.
+* A [Entrega de email](../../automating/using/email-delivery.md) é recorrente. Os envios são agregados por mês. Assim, todos os emails enviados em um mês são agregados em uma única visualização. Portanto, em um ano, 365 entregas são executadas, mas são agrupadas em 12 visualizações (também chamadas de **execuções recorrentes**) na interface do Adobe Campaign. O histórico e os detalhes do relatório são exibidos todos os meses e não para cada envio.
 
   ![](assets/wkf_delivery_example_4.png)

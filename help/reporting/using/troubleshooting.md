@@ -53,9 +53,9 @@ Esta é uma representação visual da interação dos perfis com o email enviado
  </tbody> 
 </table>
 
-Para entender o número geral de aberturas únicas, precisamos somar as contagens de linhas de **[!UICONTROL Unique Opens]** que nos dá o valor 3. Mas como o email foi direcionado para apenas 2 perfis, a taxa de Abertura deve mostrar 150%.
+Para entender o número geral de aberturas únicas, precisamos somar as contagens de linhas de **[!UICONTROL Unique Opens]**, que nos dá o valor 3. Mas como o email foi direcionado para apenas 2 perfis, a taxa de Abertura deve mostrar 150%.
 
-Para não obter uma porcentagem superior a 100, a definição de **[!UICONTROL Unique Opens]** é mantido como o número de broadlogs únicos que foram abertos. Nesse caso, mesmo que P1 tenha aberto o email no Dia 1 e no Dia 2, suas aberturas exclusivas ainda serão 1.
+Para não obter uma porcentagem superior a 100, a definição de **[!UICONTROL Unique Opens]** é mantida como o número de broadlogs exclusivos que foram abertos. Nesse caso, mesmo que P1 tenha aberto o email no Dia 1 e no Dia 2, suas aberturas exclusivas ainda serão 1.
 
 Isso resultará na seguinte tabela:
 
@@ -92,11 +92,11 @@ Isso resultará na seguinte tabela:
 
 ## As contagens abertas não correspondem à contagem do Banco de Dados {#open-counts-no-match-database}
 
-Isso pode ocorrer porque a heurística é usada nos relatórios dinâmicos para rastrear aberturas mesmo quando não é possível rastrear o **[!UICONTROL Open]** ação.
+Isso pode ocorrer porque a heurística é usada nos relatórios dinâmicos para rastrear aberturas mesmo quando não é possível rastrear a ação **[!UICONTROL Open]**.
 
-Por exemplo, se um usuário tiver desativado imagens em seu cliente e clicar em um link no email, a variável **[!UICONTROL Open]** não pode ser rastreado pelo banco de dados, mas o **[!UICONTROL Click]** fará.
+Por exemplo, se um usuário tiver desativado imagens em seu cliente e clicar em um link no email, o **[!UICONTROL Open]** pode não ser rastreado pelo banco de dados, mas o **[!UICONTROL Click]** será.
 
-Por conseguinte, a **[!UICONTROL Open]** as contagens de logs de rastreamento podem não ter a mesma contagem no banco de dados.
+Portanto, as contagens de logs de rastreamento **[!UICONTROL Open]** podem não ter a mesma contagem no banco de dados.
 
 Essas ocorrências são adicionadas como **&quot;um clique de email implica uma abertura de email&quot;**.
 
@@ -107,9 +107,9 @@ Essas ocorrências são adicionadas como **&quot;um clique de email implica uma 
 ## Como são calculadas as contagens de deliveries recorrentes/transacionais? {#counts-recurring-deliveries}
 
 Ao trabalhar com deliveries recorrentes e transacionais, as contagens serão atribuídas aos deliveries pai e filho.
-Podemos pegar o exemplo de um delivery recorrente chamado **R1** definido para execução diária no dia 1 (RC1), dia 2 (RC2) e dia 3 (RC3).
-Vamos supor que apenas uma única pessoa abriu todas as entregas secundárias várias vezes. Nesse caso, os deliveries secundários recorrentes individuais mostrarão os **[!UICONTROL Open]** conte como 1 para cada.
-No entanto, como a mesma pessoa clicou em todos os deliveries, o delivery pai recorrente também terá **[!UICONTROL Unique open]** as 1.
+Podemos usar o exemplo de uma entrega recorrente chamada **R1** definida para execução todos os dias no dia 1 (RC1), dia 2 (RC2) e dia 3 (RC3).
+Vamos supor que apenas uma única pessoa abriu todas as entregas secundárias várias vezes. Nesse caso, as entregas secundárias recorrentes individuais mostrarão a contagem de **[!UICONTROL Open]** como 1 para cada uma.
+No entanto, como a mesma pessoa clicou em todas as entregas, a entrega pai recorrente também terá **[!UICONTROL Unique open]** como 1.
 
 Os relatórios devem ter a seguinte aparência:
 
@@ -163,9 +163,9 @@ No exemplo abaixo, a célula é da mesma cor, já que seu valor é 100%.
 
 ![](assets/troubleshooting_1.png)
 
-Se você alterar a variável **[!UICONTROL Conditional formatting]** como personalizado, quando o valor atingir o limite superior, a célula ficará mais verde. Ao passo que, se ele atingir o limite inferior, ficará mais vermelho.
+Se você alterar a **[!UICONTROL Conditional formatting]** para personalizada, quando o valor atingir o limite superior a célula ficará mais verde. Ao passo que, se ele atingir o limite inferior, ficará mais vermelho.
 
-Por exemplo, aqui, definimos a variável **[!UICONTROL Upper limit]** a 500 e **[!UICONTROL Lower limit]** para 0.
+Por exemplo, aqui, definimos o **[!UICONTROL Upper limit]** como 500 e o **[!UICONTROL Lower limit]** como 0.
 
 ![](assets/troubleshooting_2.png)
 
@@ -173,11 +173,11 @@ Por exemplo, aqui, definimos a variável **[!UICONTROL Upper limit]** a 500 e **
 
 ![](assets/troubleshooting_3.png)
 
-O valor **N/D** às vezes, podem aparecer nos relatórios dinâmicos. Isso pode ser exibido por três motivos:
+O valor **N/D** pode aparecer às vezes em seus relatórios dinâmicos. Isso pode ser exibido por três motivos:
 
-* O delivery foi excluído e é mostrado aqui como **N/D** para não causar discrepância nos resultados.
-* Ao arrastar e soltar a variável **[!UICONTROL Transactional Delivery]** aos seus relatórios, o valor **N/D** pode aparecer como resultado. Isso acontece porque o Dynamic Report busca cada delivery, mesmo que não seja transacional. Isso também pode ocorrer ao arrastar e soltar a variável **[!UICONTROL Delivery]** dimensão ao seu relatório, mas nesse caso, a variável **N/D** O valor representará os deliveries transacionais.
-* Quando uma dimensão é usada com uma métrica não relacionada à dimensão. No exemplo abaixo, um detalhamento é adicionado com a variável **[!UICONTROL Tracking URL]** mesmo que a variável **[!UICONTROL Click]** count está definido como 0 nesta entrega.
+* A entrega foi excluída e é mostrada aqui como **N/D** para não causar discrepância nos resultados.
+* Ao arrastar e soltar a dimensão **[!UICONTROL Transactional Delivery]** em seus relatórios, o valor **N/D** pode aparecer como resultado. Isso acontece porque o Dynamic Report busca cada delivery, mesmo que não seja transacional. Isso também pode acontecer ao arrastar e soltar a dimensão **[!UICONTROL Delivery]** no seu relatório, mas nesse caso, o valor **N/D** representará entregas transacionais.
+* Quando uma dimensão é usada com uma métrica não relacionada à dimensão. No exemplo abaixo, um detalhamento é adicionado com a dimensão **[!UICONTROL Tracking URL]** mesmo que a contagem **[!UICONTROL Click]** esteja definida como 0 nessa entrega.
 
   ![](assets/troubleshooting_4.png)
 
@@ -195,7 +195,7 @@ Para resolver isso:
 
 A discrepância entre o número do cabeçalho da coluna e a soma de todas as linhas é esperada para os seguintes casos:
 
-* **Métricas únicas**: o uso de métricas exclusivas pode alterar a contagem total exibida no cabeçalho, pois se baseia em IDs de destinatário, em vez de uma simples soma de contagens de linhas. Consequentemente, um único perfil pode acionar vários eventos em várias dimensões, levando a várias linhas no conjunto de dados. No entanto, no cabeçalho, cada perfil é contado apenas uma vez.
+* **Métricas exclusivas**: o uso de métricas exclusivas pode alterar a contagem total exibida no cabeçalho, pois se baseia em IDs de destinatários em vez de uma simples soma de contagens de linhas. Consequentemente, um único perfil pode acionar vários eventos em várias dimensões, levando a várias linhas no conjunto de dados. No entanto, no cabeçalho, cada perfil é contado apenas uma vez.
 
   Por exemplo:
 
@@ -203,7 +203,7 @@ A discrepância entre o número do cabeçalho da coluna e a soma de todas as lin
 
    * Se o perfil A clicar em três links diferentes em um email no mesmo dia, o detalhamento por URL de rastreamento mostrará A em três linhas, mas no cabeçalho, A contará como 1. O mesmo se aplica aos detalhamentos por dispositivo e navegador.
 
-* **Abrir métricas**: a contagem de aberturas é determinada agregando o total de eventos reais abertos e eventos de cliques únicos (por ID de destinatário), exceto casos em que um evento aberto não ocorreu, pois um link de email não pode ser clicado sem um evento aberto.
+* **Métricas abertas**: a contagem de Aberturas é determinada agregando o total de eventos Abertos reais e de eventos de cliques únicos (por ID de destinatário), exceto casos em que um evento aberto não ocorreu, pois um link de email não pode ser clicado sem um evento aberto.
 
   Por exemplo:
 
@@ -211,4 +211,4 @@ A discrepância entre o número do cabeçalho da coluna e a soma de todas as lin
 
    * Um perfil R abre um email no dia 1, registra um evento aberto e clica em um link. Nos próximos dois dias, R reabre o email e clica no link novamente, gerando um evento de clique a cada dia. Embora o engajamento de R seja rastreado diariamente no número de abertura, R é contado apenas uma vez no cabeçalho da coluna, com foco em engajamentos exclusivos.
 
-* **Evento negado**: Em Relatórios, evento negado significa tentativas de entrega que foram marcadas inicialmente como bem-sucedidas, mas que falharam após novas tentativas. Eles são indicados por uma contagem de -1. Para evitar confusão, essas contagens negativas são excluídas dos números da métrica de entrega exibidos. Como resultado, o total de todas as linhas para a métrica de entrega pode não corresponder ao número do cabeçalho da coluna.
+* **Evento negado**: em Relatórios, evento negado significa tentativas de entrega que foram marcadas inicialmente como bem-sucedidas, mas que falharam após novas tentativas. Eles são indicados por uma contagem de -1. Para evitar confusão, essas contagens negativas são excluídas dos números da métrica de entrega exibidos. Como resultado, o total de todas as linhas para a métrica de entrega pode não corresponder ao número do cabeçalho da coluna.

@@ -66,7 +66,7 @@ A preparação da mensagem é acionada de acordo com os parâmetros de execuçã
 
    >[!NOTE]
    >
-   >Os deliveries recorrentes são preparados com base no **período de agregação**. Por exemplo, se o período de agregação for &quot;por dia&quot;, o delivery será preparado novamente apenas uma vez por dia. Se você planeja chamar este workflow várias vezes por dia, use [!UICONTROL No aggregation].
+   >As entregas recorrentes são preparadas com base no **período de agregação**. Por exemplo, se o período de agregação for &quot;por dia&quot;, o delivery será preparado novamente apenas uma vez por dia. Se você planeja chamar este fluxo de trabalho várias vezes ao dia, use [!UICONTROL No aggregation].
 
 1. Selecione um tipo de email. Os tipos de email são provenientes de templates de email definidos no menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Insira as propriedades gerais do email. Também é possível anexá-la a uma campanha existente. O rótulo da atividade de entrega do workflow é atualizado com o rótulo do email.

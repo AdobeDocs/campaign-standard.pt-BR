@@ -32,9 +32,9 @@ Harmonizar todos os seus canais de marketing não é uma tarefa impossível. Com
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-**Aproveitar o painel de mensagens do Campaign** para configurar e enviar suas mensagens de um único local, bem como acessar várias funcionalidades, como agendamento, mensagens multilíngues...
+**Aproveite o painel de mensagens do Campaign** para configurar e enviar suas mensagens de um único local, bem como acessar várias funcionalidades, como agendamento, mensagens multilíngues...
 
-**Gerenciar modelos** para configurar propriedades de mensagens e permitir que você ganhe tempo e consistência em sua estratégia de mensagens. Como exemplo, para emails, o administrador funcional responsável pela configuração dos templates pode definir os parâmetros padrão de um email, como público, agendamento ou conteúdo, os parâmetros avançados relacionados ao envio, validade, rastreamento etc. ou os parâmetros de pré-configuração relacionados ao direcionamento e à personalização (contexto de direcionamento).
+**Gerencie modelos** para configurar propriedades de mensagens e permitir que você ganhe tempo e consistência em sua estratégia de mensagens. Como exemplo, para emails, o administrador funcional responsável pela configuração dos templates pode definir os parâmetros padrão de um email, como público, agendamento ou conteúdo, os parâmetros avançados relacionados ao envio, validade, rastreamento etc. ou os parâmetros de pré-configuração relacionados ao direcionamento e à personalização (contexto de direcionamento).
 
 Leia mais:
 
@@ -48,11 +48,11 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**Cinco canais de comunicação** estão disponíveis no Adobe Campaign: Email, Mensagem SMS, Notificação por push, Mensagem no aplicativo e Entrega de correspondência direta.
+**Cinco canais de comunicação** estão disponíveis no Adobe Campaign: email, mensagem SMS, notificação por push, mensagem no aplicativo e entrega de correspondência direta.
 
 Para cada canal, funcionalidades específicas estão disponíveis. Por exemplo, o canal de email permite executar um teste A/B para testar até três versões de uma mensagem de email. Com o canal SMS, gerencie mensagens SMS PARAR e armazene SMS de entrada dos recipients no banco de dados.
 
-Além disso, aproveite o Campaign Standard **recursos de personalização e conteúdo dinâmico** para capturar o interesse do seu público-alvo.
+Além disso, aproveite os **recursos de personalização e conteúdo dinâmico** do Campaign Standard para capturar o interesse do seu público-alvo.
 
 Leia mais:
 
@@ -66,9 +66,9 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-**Enviar mensagens individuais e exclusivas** para seus clientes em tempo real: mensagens de boas-vindas, confirmações de envio de pedidos, modificação de senha etc.
+**Enviar mensagens individuais e exclusivas** aos seus clientes em tempo real: mensagens de boas-vindas, confirmações de remessa de pedidos, modificação de senha etc.
 
-As mensagens transacionais estão disponíveis para os canais de email, SMS e notificação por push, dependendo das suas opções. Há dois tipos de mensagens: **mensagens transacionais de evento** eventos de direcionamento sem informações de perfil e **mensagens transacionais de perfil** direcionar perfis do seu banco de dados.
+As mensagens transacionais estão disponíveis para os canais de email, SMS e notificação por push, dependendo das suas opções. Há dois tipos de mensagens: **mensagens transacionais de eventos** que direcionam eventos sem informações de perfil e **mensagens transacionais de perfil** que direcionam perfis do seu banco de dados.
 
 Leia mais:
 
@@ -84,9 +84,9 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_landing.svg" width="60px">
 
-O Campaign vem com páginas de aterrissagem que são formulários web que podem ser usados para **capturar informações sobre seus públicos**, oferecer assinaturas de um serviço, exibir dados e expandir o banco de dados.
+O Campaign vem com páginas de aterrissagem que são formulários web que podem ser usados para **capturar informações sobre seus públicos-alvo**, oferecer assinaturas para um serviço, exibir dados e expandir seu banco de dados.
 
-As landing pages também podem ser usadas para **aquisição ou atualização de perfis existentes** e para configurar um mecanismo de aceitação dupla, permitindo que você proteja a plataforma contra endereços de email incorretos ou inválidos, ou spambots.
+As páginas de aterrissagem também podem ser usadas para **adquirir ou atualizar perfis existentes** e configurar um mecanismo de aceitação dupla, permitindo que você proteja a plataforma contra endereços de email ou spambots incorretos ou inválidos.
 
 Leia mais:
 

@@ -17,12 +17,12 @@ ht-degree: 0%
 
 # Atualização dos atributos de uma unidade organizacional {#updating-organizational-unit-attributes}
 
-1. Execute uma solicitação GET no **orgUnitBase** recurso para recuperar a PKey da unidade organizacional.
+1. Execute uma solicitação GET no recurso **orgUnitBase** para recuperar a PKey da unidade organizacional.
 1. Execute uma solicitação PATCH na unidade organizacional, com os atributos a serem atualizados na carga.
 
 <br/>
 
-***Exemplo de solicitação***
+***Solicitação de exemplo***
 
 Recuperar a lista de Unidades organizacionais.
 

@@ -18,8 +18,8 @@ ht-degree: 42%
 # Etapa 1: adicionar campos de extensão ao recurso de perfil{#step-add-extension-fields-to-the-profile-resource}
 
 1. No menu avançado, selecione **[!UICONTROL Administration]** > **[!UICONTROL Development]** e **[!UICONTROL Custom resources]** pelo logotipo do Adobe Campaign.
-1. Clique em **[!UICONTROL Create]** ícone para criar um novo recurso personalizado.
+1. Clique no ícone **[!UICONTROL Create]** para criar um novo recurso personalizado.
 1. Escolha a opção **[!UICONTROL Extend an existing resource]**.
 1. Selecione o recurso **[!UICONTROL Profile]**.
 1. Clique em **[!UICONTROL Create]**.
-1. Adicione o **[!UICONTROL Text]** type **[!UICONTROL Promo code]** com o campo **[!UICONTROL Brand]** ID nos campos de recurso.
+1. Adicione o campo **[!UICONTROL Text]** tipo **[!UICONTROL Promo code]** com a ID **[!UICONTROL Brand]** nos campos de recurso.

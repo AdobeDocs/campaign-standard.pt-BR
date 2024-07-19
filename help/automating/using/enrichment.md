@@ -16,7 +16,7 @@ ht-degree: 95%
 
 ---
 
-# Atividade de {#enrichment}
+# Enriquecimento{#enrichment}
 
 ## Descrição {#description}
 
@@ -34,7 +34,7 @@ Com a atividade de **[!UICONTROL Enrichment]**, você pode aproveitar a transiç
 
 **Tópicos relacionados**
 
-* [Caso de uso: enriquecimento dos dados do perfil com os dados contidos em um arquivo](../../automating/using/enriching-profile-data-file.md).
+* [Caso de uso: enriquecendo dados de perfil com dados contidos em um arquivo](../../automating/using/enriching-profile-data-file.md).
 * [Caso de uso: envio de um email com campos enriquecidos](../../automating/using/sending-email-enriched-fields.md)
 
 ## Configuração {#configuration}

@@ -19,10 +19,10 @@ ht-degree: 6%
 
 Além de rastrear a presença online dos clientes, você também pode aproveitar seus locais físicos. Por meio da integração com o Adobe Analytics for Mobile, você pode usar o Adobe Campaign para enviar mensagens de marketing baseadas em localização aos assinantes do aplicativo móvel.
 
-Os pontos de interesse consistem em uma latitude, uma longitude e um raio associados a um rótulo. Elas são definidas na variável [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) interface.
+Os pontos de interesse consistem em uma latitude, uma longitude e um raio associados a um rótulo. Eles são definidos na interface do [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html).
 
 Quando um assinante abre seu aplicativo móvel, se o local corresponder a um Ponto de interesse, o Adobe Campaign captura os dados por meio do SDK móvel do Experience Cloud. Você pode usar essas informações para enviar mensagens personalizadas com base na localização do usuário (como emails, notificações por push e mensagens SMS).
 
 Por exemplo, você pode enviar uma oferta de desconto de 10% para clientes que usam seu aplicativo e visitaram uma de suas lojas em Boston nas últimas duas semanas.
 
-Um caso de uso é apresentado no [Personalização de mensagens do Campaign com dados de Ponto de interesse](../../integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md) seção.
+Um caso de uso é apresentado na seção [Personalização de mensagens do Campaign com dados de Ponto de interesse](../../integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md).

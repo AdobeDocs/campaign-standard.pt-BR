@@ -15,9 +15,9 @@ ht-degree: 5%
 
 # Auditoria de logs de exportação{#auditing-export-logs}
 
-De **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**, os administradores podem exibir uma lista de todas as exportações a seguir, incluindo a data e o usuário que executou a exportação:
+Em **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**, os administradores podem exibir uma lista de todas as exportações a seguir, incluindo sua data e o usuário que executou a exportação:
 
-* Upload de arquivo de um **[!UICONTROL Transfer file]** atividade em um workflow.
+* Upload de arquivo de uma atividade **[!UICONTROL Transfer file]** em um fluxo de trabalho.
 * Exportação de lista de uma lista ou sublista.
 * Arquivo baixado no painel de entrega de uma mensagem de correspondência direta.
 
@@ -27,4 +27,4 @@ De **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UIC
 
 No painel esquerdo, você pode filtrar as exportações que deseja exibir com base nas suas necessidades.
 
-É possível exportar a lista como um arquivo separado, conforme descrito na [Exportação de listas](../../automating/using/exporting-lists.md) seção.
+Você pode exportar a lista como um arquivo separado, conforme descrito na seção [Exportar listas](../../automating/using/exporting-lists.md).

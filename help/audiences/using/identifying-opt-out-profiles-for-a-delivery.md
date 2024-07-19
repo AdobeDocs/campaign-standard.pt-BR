@@ -17,11 +17,11 @@ ht-degree: 29%
 
 # Identificação de perfis de recusa para uma entrega{#identifying-opt-out-profiles-for-a-delivery}
 
-Os perfis de recusa para uma entrega específica são listados após a fase de preparação, na **[!UICONTROL Exclusion logs]** do painel de delivery.
+Os perfis de recusa para uma entrega específica são listados após a fase de preparação, na guia **[!UICONTROL Exclusion logs]** do painel de entrega.
 
 ![](assets/exclusion_blocklisting.png)
 
 **Tópicos relacionados:**
 
-* [Monitoramento de um delivery](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
-* [Preparação do envio](../../sending/using/preparing-the-send.md).
+* [Monitorando uma entrega](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
+* [Preparando o envio](../../sending/using/preparing-the-send.md).

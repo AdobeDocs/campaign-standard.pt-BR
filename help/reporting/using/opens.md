@@ -18,7 +18,7 @@ ht-degree: 9%
 
 # Aberturas{#opens}
 
-A variável **[!UICONTROL Opens]** O relatório identifica as entregas que foram mais vistas pelos destinatários.
+O relatório **[!UICONTROL Opens]** identifica as entregas que foram mais vistas pelos destinatários.
 
 ![](assets/delivery_reports_opens.png)
 
@@ -29,4 +29,4 @@ Quatro tabelas e gráficos detalham o número total de recipients que abriram um
 * Plataforma
 * Domínio
 
-A variável **[!UICONTROL TOP 5]** A tabela e o gráfico exibem as entregas com o maior número de mensagens entregues.
+A tabela e o gráfico **[!UICONTROL TOP 5]** exibem as entregas com o maior número de mensagens entregues.

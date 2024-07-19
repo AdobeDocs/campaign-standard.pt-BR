@@ -30,7 +30,7 @@ Para que sua entrega seja bem-sucedida, o conteúdo personalizado mais relevante
 
 ## Direcionar mapeamentos {#target-mappings}
 
-Por padrão, templates de delivery têm como target **Perfis**. O Adobe Campaign oferece outros target mappings para suas entregas, que podem ser modificados conforme suas necessidades.
+Por padrão, modelos de entrega têm como alvo **Perfis**. O Adobe Campaign oferece outros target mappings para suas entregas, que podem ser modificados conforme suas necessidades.
 
 Esses mapeamentos são apresentados [nesta seção](../../automating/using/query.md#targeting-dimensions-and-resources).
 
@@ -53,7 +53,7 @@ Selecione os destinatários de prova apropriados, porque eles validam a forma e 
 
 Saiba mais sobre perfis de teste [nesta seção](../../audiences/using/managing-test-profiles.md).
 
-Você pode usar [Grupos de controle](../../sending/using/control-group.md) para medir o impacto de suas campanhas excluindo parte dos públicos. Portanto você poderá comparar o comportamento do público-alvo que recebeu a mensagem com o comportamento dos contatos não atingidos. Com base nos logs de envio, você também poderá se concentrar em um grupo de controle em campanhas futuras.
+Você pode usar [Grupos de controle](../../sending/using/control-group.md) para medir o impacto de suas campanhas excluindo parte de seus públicos. Portanto você poderá comparar o comportamento do público-alvo que recebeu a mensagem com o comportamento dos contatos não atingidos. Com base nos logs de envio, você também poderá se concentrar em um grupo de controle em campanhas futuras.
 
 ## Cancelar endereços duplicados {#deduplicate-addresses}
 

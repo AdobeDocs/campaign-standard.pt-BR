@@ -43,7 +43,7 @@ Como exemplo, o fluxo de trabalho abaixo faz o download do arquivo do local de a
 
 ![](assets/rtcdp-workflow.png)
 
-Exemplos de workflows de gerenciamento de dados estão disponíveis no [casos de uso de workflows](../../automating/using/about-workflow-use-cases.md#management) seção.
+Exemplos de fluxos de trabalho de gerenciamento de dados estão disponíveis na seção [casos de uso de fluxos de trabalho](../../automating/using/about-workflow-use-cases.md#management).
 
 Tópicos relacionados:
 

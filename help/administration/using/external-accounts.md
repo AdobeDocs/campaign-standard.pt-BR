@@ -27,7 +27,7 @@ Você pode configurar os seguintes tipos de contas externas:
 * Adobe Analytics. Para obter mais informações, consulte [esta seção](../../integrating/using/configure-campaign-analytics-integration.md).
 * Google reCAPTCHA. Para obter mais informações, consulte [esta seção](#google-recaptcha-external-account).
 * Armazenamento do Microsoft Azure Blob. Para obter mais informações, consulte [esta seção](#microsoft-azure-external-account).
-* OAuth 2.0 Para obter mais informações, consulte [nesta seção](#oauth-account).
+* OAuth 2.0 Para obter mais informações, consulte [esta seção](#oauth-account).
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ Para evitar esses problemas, a Adobe recomenda seguir as práticas recomendadas 
 * Ocasionalmente, conecte-se no SFTP para verificar diretamente o que encontra-se lá.
 * Lembre-se de que o gerenciamento de disco SFTP é predominantemente sua responsabilidade.
 
-Além disso, observe que os IPs públicos dos quais você está tentando iniciar a conexão SFTP devem ser adicionados ao incluo na lista de permissões na instância do Campaign. A adição de endereços IP no incluo na lista de permissões pode ser solicitada por meio de um [tíquete de suporte](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html), além de fornecer a chave pública para uso na autenticação.
+Além disso, observe que os IPs públicos dos quais você está tentando iniciar a conexão SFTP devem ser adicionados ao incluo na lista de permissões na instância do Campaign. A adição de endereços IP à inclui na lista de permissões pode ser solicitada por meio de um [tíquete de suporte](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html), além de fornecer a chave pública a ser usada para autenticação.
 
 Servidores SFTP podem ser gerenciados no Painel de controle. Para obter mais informações, consulte a [documentação do Painel de controle](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=pt-BR).
 
@@ -91,10 +91,10 @@ Servidores SFTP podem ser gerenciados no Painel de controle. Para obter mais inf
 
 Para uma conta externa OAuth 2.0, forneça os seguintes detalhes:
 
-* A **Tipo de concessão**: somente **credenciais do cliente** é compatível.
-* A **URL seguro da API**: digite o endpoint de autorização.
-* **Credenciais confidenciais do OAuth 2.0**: esta seção destina-se às credenciais de natureza confidencial. Os valores de credencial serão mascarados na tela após serem adicionados; nesse ponto, eles não serão legíveis nem editáveis. Se o ponto de extremidade de autorização exigir que uma credencial específica seja inserida no cabeçalho de autorização HTTP em vez do parâmetro do corpo de POST, você poderá selecionar a opção Incluir no cabeçalho dessa credencial.
-* **Credenciais não confidenciais do OAuth 2.0**: esta seção destina-se às credenciais de natureza não confidencial. Os valores de credencial estarão visíveis na tela após serem adicionados; eles também serão editáveis.  Se o ponto de extremidade de autorização exigir que uma credencial específica seja inserida no cabeçalho de autorização HTTP em vez do parâmetro do corpo de POST, você poderá selecionar a opção Incluir no cabeçalho dessa credencial.
+* Um **Tipo de concessão**: somente **credenciais de cliente** são suportadas.
+* Uma **URL de API segura**: digite o ponto de extremidade de autorização.
+* **Credenciais confidenciais do OAuth 2.0**: esta seção destina-se a credenciais de natureza confidencial. Os valores de credencial serão mascarados na tela após serem adicionados; nesse ponto, eles não serão legíveis nem editáveis. Se o ponto de extremidade de autorização exigir que uma credencial específica seja inserida no cabeçalho de autorização HTTP em vez do parâmetro do corpo de POST, você poderá selecionar a opção Incluir no cabeçalho dessa credencial.
+* **Credenciais não confidenciais do OAuth 2.0**: esta seção destina-se a credenciais de natureza não confidencial. Os valores de credencial estarão visíveis na tela após serem adicionados; eles também serão editáveis.  Se o ponto de extremidade de autorização exigir que uma credencial específica seja inserida no cabeçalho de autorização HTTP em vez do parâmetro do corpo de POST, você poderá selecionar a opção Incluir no cabeçalho dessa credencial.
 
 Depois de inserir as informações da conta, clique em **Testar conexão** para verificar se a conta externa foi configurada corretamente.
 

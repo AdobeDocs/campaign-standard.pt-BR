@@ -38,37 +38,37 @@ O push multilíngue requer 14 colunas no arquivo CSV:
 1. idioma
 1. silentPush
 
-Verifique a amostra de CSV clicando no ícone **[!UICONTROL Download a sample file]** no **[!UICONTROL Manage Content Variants]** janela. Para obter mais informações, consulte este [seção](../../channels/using/creating-a-multilingual-push-notification.md).
+Verifique a amostra de CSV clicando em **[!UICONTROL Download a sample file]** na janela **[!UICONTROL Manage Content Variants]**. Para obter mais informações, consulte esta [seção](../../channels/using/creating-a-multilingual-push-notification.md).
 
-* **title, messageBody, som, selo, deeplinkURI, categoria, iosMediaAttachmentURL, androidMediaAttachmentURL**: conteúdo da carga de push normal. Você precisa fornecer essas informações de maneira semelhante à criação de deliveries por push.
-* **Campos personalizados**: use o formato JSON para os campos personalizados, por exemplo, `{"key1":"value1","key2":"value2"}`. Consulte o arquivo de amostra acima para obter um exemplo de campos personalizados.
-* **isContentAvailable**: sinalizador para verificação de Conteúdo disponível, o valor 1 implica verdadeiro, o valor 0 implica falso. O valor padrão é 0. Se você deixar essa coluna em branco, o valor será considerado 0.
-* **isMutableContent**: sinalizador para Conteúdo mutável, o valor 1 implica verdadeiro, o valor 0 implica falso. O valor padrão é 0. Se você deixar essa coluna em branco, o valor será considerado 0.
-* **localidade**: locale é o campo para variantes de idioma, por exemplo, &quot;en_us&quot; para inglês dos EUA e &quot;fr_fr&quot; para francês.
+* **title, messageBody, sound, badge, deeplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**: conteúdo de carga de push regular. Você precisa fornecer essas informações de maneira semelhante à criação de deliveries por push.
+* **Campos Personalizados**: use o formato JSON para os campos personalizados, por exemplo, `{"key1":"value1","key2":"value2"}`. Consulte o arquivo de amostra acima para obter um exemplo de campos personalizados.
+* **isContentAvailable**: sinalizador para verificação de Conteúdo Disponível; o valor 1 implica verdadeiro; o valor 0 implica falso. O valor padrão é 0. Se você deixar essa coluna em branco, o valor será considerado 0.
+* **isMutableContent**: sinalizador para Conteúdo Mutável, o valor 1 implica verdadeiro, o valor 0 implica falso. O valor padrão é 0. Se você deixar essa coluna em branco, o valor será considerado 0.
+* **locale**: locale é o campo para variantes de idioma, por exemplo, &quot;en_us&quot; para inglês dos EUA e &quot;fr_fr&quot; para francês.
 * **idioma**: nome do idioma associado à localidade. Por exemplo, se o local for &quot;en_us&quot;, o nome do idioma deverá ser &quot;English-United States&quot;.
 * **silentPush**: sinalizador para o tipo de notificação por push. Se for uma notificação por push regular, o valor deverá ser 0. Se for um push silencioso, o valor deverá ser 1. O valor padrão é 0. Se você deixar essa coluna em branco, o valor será considerado 0.
 
 ## Restrições e diretrizes para a criação do arquivo csv {#constraints-guideline-csv}
 
-**O nome de cada coluna é fixo**.
+**O nome de cada coluna foi corrigido**.
 Você deve incluir o nome de cada coluna no arquivo CSV. Caso não use nenhuma coluna para o conteúdo, deixe-a em branco.
 
-**As colunas &quot;locale&quot; e &quot;language&quot; são obrigatórias e o valor é exclusivo para cada linha.**
+As colunas **&quot;locale&quot; e &quot;language&quot; são obrigatórias e o valor é exclusivo para cada linha.**
 Um valor em branco para essa coluna resultará em uma falha no upload do arquivo.
 
 **A ordem das colunas é importante**. A ordem das colunas no arquivo carregado precisa seguir o mesmo formato do arquivo de amostra.
 
-**Citar conteúdo da coluna**. Como esse é um arquivo CSV (significa Valores separados por vírgula), qualquer conteúdo de coluna que inclua vírgula (,) deve ser citado. Por exemplo, &quot;Olá, Tom!&quot;
+**Conteúdo da coluna de aspas**. Como esse é um arquivo CSV (significa Valores separados por vírgula), qualquer conteúdo de coluna que inclua vírgula (,) deve ser citado. Por exemplo, &quot;Olá, Tom!&quot;
 
-**A codificação UTF-8 é necessária para caracteres internacionais.**
+A codificação **UTF-8 é necessária para caracteres internacionais.**
 
-**Se você gerar o arquivo por texto simples, separe cada coluna por &quot;,&quot;.**
+**Se você gerar o arquivo por texto sem formatação, separe cada coluna por &quot;,&quot;.**
 
-**Incompatibilidade de variante.** Se você usa blocos de conteúdo e direciona públicos-alvo com idiomas específicos, é necessário listar cada idioma direcionado no arquivo CSV, caso contrário ocorrerá um erro ao enviar o delivery.
+**Incompatibilidade de variante.** Se você usa blocos de conteúdo e direciona públicos-alvo com idiomas específicos, é necessário listar cada idioma direcionado no arquivo CSV, caso contrário ocorrerá um erro ao enviar a entrega.
 
 ## Inserção de um campo de personalização no arquivo csv {#personalization-field-csv}
 
-Se quiser usar campos de personalização, você deve incluir <span> no arquivo.
+Se quiser usar campos de personalização, você deve incluir a tag <span> no arquivo.
 
 Para inserir o campo de personalização &quot;firstName&quot; no messageBody, a mensagem precisa ser:
 
@@ -86,7 +86,7 @@ No span há dois atributos obrigatórios:
 
 * Uma é a classe que é estática. Não importa qual campo de personalização você planeje usar, ele sempre será class=&quot;nl-dce-field nl-dce-done&quot;.
 
-* Outro é data-nl-expr, que é o caminho do campo de personalização. Por exemplo, se você inserir o campo de personalização &quot;firstName&quot; na interface, o caminho de navegação será **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (conforme mostrado na imagem abaixo). Nesse caso, o caminho será
+* Outro é data-nl-expr, que é o caminho do campo de personalização. Por exemplo, se você inserir o campo de personalização &quot;firstName&quot; na interface do usuário, o caminho de navegação será **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (como mostrado na imagem abaixo). Nesse caso, o caminho será
 
   ```
   /context/profile/firstName. data-nl-expr="/context/profile/firstName".

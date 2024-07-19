@@ -42,11 +42,11 @@ Os workflows podem ser usados em contextos diferentes, por exemplo:
 
 Várias atividades estão disponíveis para ajudá-lo a projetar seus fluxos de trabalho.
 
-[Atividades de direcionamento](../../automating/using/about-targeting-activities.md) O permite construir um ou mais targets definindo conjuntos e dividindo ou combinando esses conjuntos usando operações de interseção, união ou exclusão.
+[As atividades de direcionamento](../../automating/using/about-targeting-activities.md) permitem criar um ou mais destinos definindo conjuntos e dividindo ou combinando esses conjuntos usando operações de interseção, união ou exclusão.
 
-Com [Atividades de execução](../../automating/using/about-execution-activities.md), coordene o fluxo de trabalho e suas atividades, enquanto [Atividades de canal](../../automating/using/about-channel-activities.md) As permitem combinar canais de comunicação do Campaign Standard para criar workflows entre canais.
+Com [Atividades de execução](../../automating/using/about-execution-activities.md), coordene o fluxo de trabalho e suas atividades, enquanto as [Atividades de canal](../../automating/using/about-channel-activities.md) permitem combinar canais de comunicação Campaign Standard para criar fluxos de trabalho entre canais.
 
-Por último, [Atividades de gestão de dados](../../automating/using/about-data-management-activities.md) permite manipular dados do banco de dados.
+Finalmente, [as atividades de gerenciamento de dados](../../automating/using/about-data-management-activities.md) permitem manipular dados do seu banco de dados.
 
 Leia mais:
 
@@ -58,9 +58,9 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-Aproveite o **editor de consulta** para filtrar dados do banco de dados e criar uma população para direcionar melhor seus recipients. O editor de consultas está disponível para executar várias ações no Campaign Standard: criar públicos do tipo Query, definir públicos-alvo de entrega ou populações em atividades de fluxo de trabalho.
+Aproveite o **editor de consultas** para filtrar dados do banco de dados e criar uma população para direcionar melhor seus destinatários. O editor de consultas está disponível para executar várias ações no Campaign Standard: criar públicos do tipo Query, definir públicos-alvo de entrega ou populações em atividades de fluxo de trabalho.
 
-O Editor de consultas vem com **regras e filtros predefinidos** para uma filtragem rápida e fácil. No entanto, também é possível usar **edição de expressão avançada** recursos. Isso permite inserir condições manualmente e usar funções para formar suas próprias regras.
+O Editor de Consultas vem com **regras e filtros predefinidos** para uma filtragem rápida e fácil. No entanto, você também pode usar os recursos de **edição de expressão avançada**. Isso permite inserir condições manualmente e usar funções para formar suas próprias regras.
 
 Leia mais:
 
@@ -72,17 +72,17 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Campaign Standard vem com vários **recursos de gerenciamento de dados** para importar e exportar dados.
+O Campaign Standard vem com vários **recursos de gerenciamento de dados** para importar e exportar dados.
 
-[Atividades de gerenciamento de dados de workflows](../../automating/using/about-data-management-activities.md) O permite importar dados, executar atualizações em massa nos campos, receber ou enviar arquivos ou vincular dados não identificados aos recursos existentes.
+[As atividades de gerenciamento de dados de fluxos de trabalho](../../automating/using/about-data-management-activities.md) permitem importar dados, executar atualizações em massa nos campos, receber ou enviar arquivos ou vincular dados não identificados aos recursos existentes.
 
-Com [Importar modelos](../../automating/using/importing-data-with-import-templates.md), gerencie determinados tipos de importação definidos por administradores por meio de funções de importação simplificadas.
+Com os [Modelos de importação](../../automating/using/importing-data-with-import-templates.md), gerencie certos tipos de importação definidos por administradores por meio de funções de importação simplificadas.
 
-[Exportação de logs](../../automating/using/exporting-logs.md) permitem exportar dados de log por meio de um fluxo de trabalho simples, permitindo analisar os resultados de suas campanhas de marketing em seus próprios relatórios ou ferramentas de BI.
+[A exportação de logs](../../automating/using/exporting-logs.md) permite exportar dados de log por meio de um fluxo de trabalho simples, permitindo analisar os resultados de suas campanhas de marketing em seus próprios relatórios ou ferramentas de BI.
 
-Aproveitar [Pacotes](../../automating/using/managing-packages.md) para trocar recursos entre diferentes instâncias do campaign, por exemplo, para replicar a configuração de uma instância ou para transferir dados de um servidor para outro, incluindo recursos personalizados.
+Aproveite os [Pacotes](../../automating/using/managing-packages.md) para trocar recursos entre diferentes instâncias da campanha, por exemplo, para replicar a configuração de uma instância ou transferir dados de um servidor para outro, incluindo recursos personalizados.
 
-Por último, [Exportação de listas](../../automating/using/exporting-lists.md) O permite exportar qualquer lista do Campaign Standard, como por exemplo, a lista de perfis de teste, a lista de endereços de email de quarentena etc.
+Finalmente, [Exportar listas](../../automating/using/exporting-lists.md) permite exportar qualquer lista do Campaign Standard como, por exemplo, a lista de perfis de teste, a lista de endereços de email de quarentena etc.
 
 Leia mais:
 

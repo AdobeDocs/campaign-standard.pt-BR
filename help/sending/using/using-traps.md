@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # Utilização de traps {#using-traps}
 
-Ao usar coberturas, a mensagem é enviada para o [perfil de teste](../../audiences/using/managing-test-profiles.md) da mesma forma que é enviado para o target principal, como um meio de identificar se o arquivo do cliente está sendo usado de forma fraudulenta.
+Ao usar coberturas, a mensagem é enviada para o [perfil de teste](../../audiences/using/managing-test-profiles.md) da mesma forma que é enviada para o público alvo principal, como um meio de identificar se o arquivo do cliente está sendo usado de forma fraudulenta.
 
 As coberturas foram originalmente projetadas para entregas de correspondência direta. Eles permitem:
 
@@ -27,7 +27,7 @@ As coberturas foram originalmente projetadas para entregas de correspondência d
 * Manter uma cópia exata do email enviado.
 * Verifique se a lista de clientes não foi usada incorretamente pelo provedor de correspondência direta. Na verdade, se qualquer outra comunicação for enviada para o endereço do seu perfil de teste, o arquivo do cliente pode ter sido usado sem o seu conhecimento. É por isso que o endereço do perfil de teste deve ser usado somente para essa finalidade.
 
-Para obter mais informações sobre como adicionar armadilhas ao público de correspondência direta, consulte [Adicionar perfis de teste e cobertura](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles).
+Para obter mais informações sobre como adicionar interceptações ao público de correspondência direta, consulte [Adicionar perfis de teste e interceptação](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles).
 
 Para os outros canais de comunicação, você pode adicionar perfis de teste de trap ao público alvo principal para:
 
@@ -39,15 +39,15 @@ Para usar um perfil de teste como interceptação, ele deve ser incluído no pú
 
 >[!NOTE]
 >
->Ao contrário dos perfis de teste usados para [provas](../../sending/using/sending-proofs.md) ou [renderização de email](../../sending/using/email-rendering.md), a mensagem é enviada ao mesmo tempo para o público-alvo principal e para os perfis de teste usados como armadilhas.
+>Ao contrário dos perfis de teste usados para [provas](../../sending/using/sending-proofs.md) ou [renderização de email](../../sending/using/email-rendering.md), a mensagem é enviada ao mesmo tempo para o destino principal e para os perfis de teste usados como armadilhas.
 
 Ao definir o público de uma mensagem:
 
-1. No **[!UICONTROL Test profiles]** selecione um perfil de teste. Verifique se ele **[!UICONTROL Trap]** como a utilização prevista.
+1. Na guia **[!UICONTROL Test profiles]**, selecione um perfil de teste. Verifique se ele tem **[!UICONTROL Trap]** como o uso pretendido.
 
    ![](assets/trap_select.png)
 
-1. Quando o conteúdo da mensagem estiver pronto, clique no link **[!UICONTROL Prepare]** botão. Consulte [Preparação do envio](../../sending/using/preparing-the-send.md).
+1. Quando o conteúdo da mensagem estiver pronto, clique no botão **[!UICONTROL Prepare]**. Consulte [Preparando o envio](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
    >Verifique se você selecionou um público alvo principal. Caso contrário, sua mensagem não poderá ser enviada.
@@ -58,7 +58,7 @@ Ao definir o público de uma mensagem:
 
 A mensagem é enviada para o público-alvo principal e para o perfil de teste.
 
-Você pode usar coberturas ao enviar mensagens transacionais. Nesse caso, o perfil de teste receberá uma mensagem por configuração de evento. Para obter mais informações, consulte esta [seção](../../channels/using/getting-started-with-transactional-msg.md).
+Você pode usar coberturas ao enviar mensagens transacionais. Nesse caso, o perfil de teste receberá uma mensagem por configuração de evento. Para obter mais informações sobre mensagens transacionais, consulte esta [seção](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >

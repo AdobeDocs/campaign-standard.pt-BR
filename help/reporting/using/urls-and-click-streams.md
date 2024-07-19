@@ -18,13 +18,13 @@ ht-degree: 6%
 
 # Fluxos de clique e URLs{#urls-and-click-streams}
 
-A variável **Fluxos de clique e URLs** mostra os URLs que foram mais clicados durante um delivery ou vários deliveries se estiverem vinculados a uma campanha ou programa.
+Os **Fluxos de clique e URLs** mostram os URLs que foram mais clicados durante uma entrega ou várias entregas se estiverem vinculados a uma campanha ou programa.
 
 ![](assets/delivery_reports_8.png)
 
 Cada tabela é representada por números de resumo e gráficos. É possível alterar como os detalhes são mostrados nas respectivas configurações de visualização.
 
-A variável **Links mais visitados** A tabela contém os dados disponíveis para o comportamento do recipient por delivery, como:
+A tabela **Links mais visitados** contém os dados disponíveis para o comportamento do destinatário por entrega, como:
 
-* **Clique em**: O número de vezes que o conteúdo foi clicado em um delivery.
-* **Cliques únicos**: o número de recipients que clicaram no conteúdo em um delivery.
+* **Clique**: o número de vezes que o conteúdo foi clicado em uma entrega.
+* **Cliques únicos**: o número de destinatários que clicaram no conteúdo em uma entrega.

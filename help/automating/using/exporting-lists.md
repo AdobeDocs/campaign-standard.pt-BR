@@ -17,20 +17,20 @@ ht-degree: 5%
 
 # Exportação de listas{#exporting-lists}
 
-O Adobe Campaign permite exportar suas listas diretamente em um arquivo para uso futuro. A exportação de uma lista em um arquivo gera uma entrada de log no **[!UICONTROL Export audits]** menu. Para obter mais informações sobre auditorias de exportação, consulte a seção [Auditar exportações](../../administration/using/auditing-export-logs.md).
+O Adobe Campaign permite exportar suas listas diretamente em um arquivo para uso futuro. A exportação de uma lista em um arquivo gera uma entrada de log no menu **[!UICONTROL Export audits]**. Para obter mais informações sobre auditorias de exportação, consulte a seção [Auditar exportações](../../administration/using/auditing-export-logs.md).
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra como configurar uma lista em vídeo](#video)
 
-A opção Exportar lista permite exportar um máximo de 100.000 linhas por padrão, definidas pelo **Nms_ExportListLimit** opção. Essa opção pode ser gerenciada pelo administrador funcional, sob o **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu.
+A opção Exportar lista permite exportar um máximo de 100.000 linhas por padrão, definidas pela opção **Nms_ExportListLimit**. Esta opção pode ser gerenciada pelo administrador funcional, no menu **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 
-A lista de exportação está disponível em todas as telas com uma **Lista** modo de exibição, para usuários com **[!UICONTROL EXPORT (export)]** função.
+A lista de exportação está disponível em todas as telas com modo de exibição **Lista**, para usuários com a função **[!UICONTROL EXPORT (export)]**.
 
-1. Ir para o escolhido **Lista** tela. Por exemplo, a tela de visão geral do perfil de teste ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ).
-1. Verifique se a tela está no estado **Lista** modo.
+1. Vá para a tela **Lista** escolhida. Por exemplo, a tela de visão geral do perfil de teste ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ).
+1. Verifique se a tela está no modo **Lista**.
 
    ![](assets/export_list_mode_switch.png)
 
-1. Organize as colunas na lista na ordem em que deseja exportá-las usando o **[!UICONTROL Configure list]** no canto superior direito. Além das colunas configuradas, a chave primária do recurso também será exportada.
+1. Organize as colunas na lista na ordem em que deseja exportá-las usando o botão **[!UICONTROL Configure list]**, no canto superior direito. Além das colunas configuradas, a chave primária do recurso também será exportada.
 1. Se desejar, você pode aplicar um filtro. Para fazer isso, clique no botão no canto superior esquerdo para mostrar o painel de pesquisa.
 
    Se você realizar uma exportação de uma lista contendo recursos diferentes, será necessário aplicar os filtros para que apenas um tipo de recurso seja exibido na lista.
@@ -44,7 +44,7 @@ O arquivo é gerado no formato CSV com uma extensão .TXT. Ele é nomeado de aco
 
 Os valores numéricos e as datas levam em conta a hora local (localidade) do usuário que realiza a exportação. Por exemplo: DD-MM-AAAA ou MM-DD-AAAA.
 
-Para realizar uma exportação maior que isso, você deve criar um fluxo de trabalho dedicado. Consulte a [Extrair arquivo](../../automating/using/extract-file.md) seção.
+Para realizar uma exportação maior que isso, você deve criar um fluxo de trabalho dedicado. Consulte a seção [Extrair arquivo](../../automating/using/extract-file.md).
 
 **Exemplo**
 
@@ -82,4 +82,4 @@ Este vídeo mostra como configurar listas.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
 
-Vídeos extras explicativos sobre o Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
+Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

@@ -21,7 +21,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->Para criar Acionadores, você precisará do **[!UICONTROL Administration]** ou estar na **[!UICONTROL Administrators]** grupo de segurança. Para obter mais informações, consulte esta [página](../../administration/using/list-of-roles.md).
+>Para criar Triggers, você precisará da função **[!UICONTROL Administration]** ou estar no grupo de segurança **[!UICONTROL Administrators]**. Para obter mais informações, consulte esta [página](../../administration/using/list-of-roles.md).
 
 É recomendável definir os comportamentos que deseja monitorar antecipadamente no Adobe Experience Cloud (**[!UICONTROL Triggers]** serviço principal). Para obter mais informações, consulte a [documentação da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=pt-BR). Observe que, ao definir o acionador, é necessário ativar os aliases. Para cada comportamento (navegação/abandono de formulário, adição/exclusão de produtos, sessão expirada etc.), um novo acionador deve ser adicionado na Adobe Experience Cloud.
 
@@ -29,7 +29,7 @@ Agora é necessário criar um evento de acionador no Adobe Campaign com base em 
 
 Estas são as etapas para colocar o acionador em prática:
 
-1. Clique em **Adobe** no canto superior esquerdo e selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**.
+1. Clique no logotipo **Adobe**, no canto superior esquerdo, em seguida selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**.
 
    ![](assets/remarketing_1.png)
 
@@ -47,21 +47,21 @@ Estas são as etapas para colocar o acionador em prática:
 
    ![](assets/remarketing_4.png)
 
-1. Agora você pode publicar seus acionadores. Para obter mais informações, consulte [Publicação de um acionador no Campaign](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign).
+1. Agora você pode publicar seus acionadores. Para obter mais informações, consulte [Publicar um acionador no Campaign](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign).
 
 ## Publicação de um acionador no Campaign {#publishing-trigger-in-campaign}
 
 Depois de criar um evento de acionador no Adobe Campaign com base em um acionador existente do Adobe Experience Cloud, agora é necessário publicá-lo.
 
-1. No acionador criado anteriormente, clique no botão **[!UICONTROL Publish]** botão para iniciar a publicação do evento de acionador.
+1. No acionador criado anteriormente, clique no botão **[!UICONTROL Publish]** para iniciar a publicação do evento do acionador.
 
    ![](assets/trigger_publish_1.png)
 
-1. Você pode verificar o progresso da publicação do acionador em **[!UICONTROL Publication]**.
+1. Você pode verificar o progresso da sua publicação de acionador em **[!UICONTROL Publication]**.
 
    ![](assets/trigger_publish_2.png)
 
-1. Quando a publicação estiver concluída, a seguinte mensagem aparecerá em **[!UICONTROL Publication]**.
+1. Quando a publicação for concluída, a seguinte mensagem aparecerá em **[!UICONTROL Publication]**.
 
    ![](assets/trigger_publish_3.png)
 
@@ -71,7 +71,7 @@ Depois de criar um evento de acionador no Adobe Campaign com base em um acionado
 
    ![](assets/trigger_publish_4.png)
 
-1. Clique em **[!UICONTROL Show Trigger in Experience Cloud]** permite exibir a definição do acionador no Adobe Experience Cloud.
+1. O botão **[!UICONTROL Show Trigger in Experience Cloud]** permite exibir a definição do acionador no Adobe Experience Cloud.
 
 Depois que o evento for publicado, um modelo transacional vinculado ao novo evento é criado automaticamente. Depois é necessário modificar e publicar o modelo que acabou de ser criado. Para obter mais informações, consulte a seção [Edição do modelo](../../start/using/marketing-activity-templates.md).
 
@@ -79,7 +79,7 @@ Depois que o evento for publicado, um modelo transacional vinculado ao novo even
 
 Depois de criar e publicar o evento de acionador, o modelo transacional correspondente é criado automaticamente. Para obter mais informações, consulte a seção [Criação de um acionador mapeado no Campaign](#creating-a-mapped-trigger-in-campaign).
 
-Para que o evento acione o envio de uma mensagem transacional, é necessário personalizar o modelo, testá-lo e publicá-lo. Essas etapas são as mesmas de uma mensagem transacional padrão. Para obter mais informações, consulte [Edição de uma mensagem transacional](../../channels/using/editing-transactional-message.md) seção.
+Para que o evento acione o envio de uma mensagem transacional, é necessário personalizar o modelo, testá-lo e publicá-lo. Essas etapas são as mesmas de uma mensagem transacional padrão. Para obter mais informações, consulte a seção [Edição de mensagem transacional](../../channels/using/editing-transactional-message.md).
 
 >[!NOTE]
 >

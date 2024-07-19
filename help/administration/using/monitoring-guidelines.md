@@ -46,7 +46,7 @@ O Painel de controle do Campaign permite gerenciar várias configurações da su
 
 **Objetos técnicos**
 
-A variável **[!UICONTROL Diagnosis]** O menu é uma ferramenta essencial para monitorar e analisar os diferentes objetos técnicos gerados pelo aplicativo: esquemas de dados, páginas da Web, trabalhos em lote etc. [Leia mais](../../developing/using/monitoring-data-model-changes.md)
+O menu **[!UICONTROL Diagnosis]** é uma ferramenta essencial para monitorar e analisar os diferentes objetos técnicos gerados pelo aplicativo: esquemas de dados, páginas da Web, trabalhos em lote etc. [Leia mais](../../developing/using/monitoring-data-model-changes.md)
 
 **Auditorias de exportação**
 
@@ -55,7 +55,7 @@ Auditorias de exportação permitem monitorar as exportações realizadas em sua
 
 **Licenças**
 
-Com o **[!UICONTROL Licenses]** menu, monitore as informações sobre suas instâncias: licenças instaladas, versões de criação e aceitações do contrato de termos.
+Com o menu **[!UICONTROL Licenses]**, monitore as informações sobre suas instâncias: licenças instaladas, versões de compilação e aceitações do contrato de termos.
 [Leia mais](../../administration/using/licenses.md)
 
 ## Monitoramento de workflows {#monitoring-workflows}
@@ -72,7 +72,7 @@ Seguir as práticas recomendadas e as diretrizes de solução de problemas ao us
 O monitoramento de logs de fluxo de trabalho é uma etapa essencial para analisar seus fluxos de trabalho e verificar se eles estão sendo executados corretamente.
 [Leia mais](../../automating/using/monitoring-workflow-execution.md#workflow-log-and-tasks)
 
-**Notificação**
+**Notificações**
 
 O Campaign Standard permite enviar notificações aos supervisores para monitorar a execução dos workflows e ver se há algum erro que exija sua atenção.
 [Leia mais](../../automating/using/monitoring-workflow-execution.md#error-management)
@@ -91,7 +91,7 @@ O Campaign Standard fornece várias ferramentas de entrega para ajudar você a m
 Depois que as mensagens são enviadas, logs detalhados permitem monitorar as entregas e medir o sucesso da campanha, bem como rastrear o comportamento dos recipients das mensagens.
 [Leia mais](../../sending/using/monitoring-a-delivery.md)
 
-**Alertas de delivery**
+**Alerta de entrega**
 
 Com o recurso de Alerta de delivery, você pode configurar alertas que serão enviados automaticamente para um grupo de usuários em relação à execução de deliveries: falha no envio ou na preparação, taxa de rejeições incorretas, baixa taxa de transferência etc.
 [Leia mais](../../sending/using/receiving-alerts-when-failures-happen.md)

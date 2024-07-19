@@ -25,7 +25,7 @@ ht-degree: 6%
 
 O Adobe Campaign Standard permite acionar a assimilação imediata de mapeamentos de dados por meio de APIs e recuperar o status das solicitações de assimilação.
 
-Esta página descreve como acionar e recuperar o status de assimilação dos mapeamentos de dados. Para obter informações globais sobre APIs Campaign Standard, consulte [nesta seção](../../api/using/get-started-apis.md).
+Esta página descreve como acionar e recuperar o status de assimilação dos mapeamentos de dados. Para obter informações globais sobre APIs Campaign Standard, consulte [esta seção](../../api/using/get-started-apis.md).
 
 ## Pré-requisitos {#prerequisites}
 
@@ -36,9 +36,9 @@ Antes de usar as APIs, o mapeamento de dados deve ter sido configurado e publica
 
 Depois que o mapeamento de dados for criado, você deverá impedir a execução para que possa acioná-lo a partir das APIs sempre que desejar. Para fazer isso, siga estes passos:
 
-1. No Campaign Standard, acesse o **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** menu.
+1. No Campaign Standard, vá para o menu **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]**.
 
-1. Clique duas vezes no mapeamento de dados para abri-lo e clique no **[!UICONTROL Stop]** botão.
+1. Clique duas vezes no mapeamento de dados para abri-lo e clique no botão **[!UICONTROL Stop]**.
 
    ![](assets/aep_datamapping_stop.png)
 
@@ -54,7 +54,7 @@ A assimilação imediata de um mapeamento XDM no Adobe Experience Platform é ac
 
 >[!NOTE]
 >
->Para executar a chamada da API POST de assimilação, o usuário deve ter uma **Execução da função SQL** que pode ser fornecido por um administrador de Campaign Standard executando abaixo do Script JS:
+>Para executar a chamada da API POST de assimilação, o usuário deve ter uma função **execução da função SQL**, que pode ser fornecida por um administrador de Campaign Standard executando abaixo do Script JS:
 >
 >```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
@@ -108,14 +108,14 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->Informações detalhadas sobre o status da solicitação de mapeamento XDM e seus trabalhos relacionados estão disponíveis na interface do Campaign Standard, no **[!UICONTROL Status of data export to platform]** (consulte [Mapeamento da ativação](../../integrating/using/aep-mapping-activation.md)).
+>Informações detalhadas sobre o status da solicitação de mapeamento XDM e seus trabalhos relacionados estão disponíveis na interface do Campaign Standard, no menu **[!UICONTROL Status of data export to platform]** (consulte [Ativação de mapeamento](../../integrating/using/aep-mapping-activation.md)).
 
 A operação GET retorna as informações abaixo:
 
-* **batchId**: este campo é preenchido somente se a falha ocorreu após a preparação e o upload do lote,
-* **informações**: a ID do mapeamento XDM,
+* **batchId**: este campo é preenchido somente se ocorrer uma falha após a preparação do lote e o carregamento,
+* **info**: a ID do mapeamento XDM,
 * **numRecords**: o número de registros que foram assimilados (somente status de sucesso),
-* **status**: o status da solicitação de assimilação (sucesso/falha/em andamento)
+* **status**: o status de solicitação de assimilação (sucesso/falha/em andamento)
 
 As respostas possíveis para a operação do GET são:
 

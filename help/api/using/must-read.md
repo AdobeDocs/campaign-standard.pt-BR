@@ -31,17 +31,17 @@ ht-degree: 0%
 
 ## Representação de recursos
 
-Todos os recursos da API estão disponíveis em **JSON** com uma extensão de URL ou dentro de um Cabeçalho HTTP Accept:
+Todos os recursos da API estão disponíveis em **JSON** com uma extensão de URL ou dentro de um Cabeçalho Aceitar HTTP:
 
 `GET /profileAndServices/<resourceName>.json`
 
 >[!NOTE]
 >
->Sem a extensão no URL, a variável **o formato json é o padrão** para o tipo de conteúdo.
+>Sem extensão na URL, o formato **json é o padrão** para o tipo de conteúdo.
 
 <br/>
 
-***amostra de solicitação***
+***solicitar amostra***
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile.json \
@@ -67,11 +67,11 @@ Se o recurso de perfil tiver sido estendido com um campo de chave personalizado,
 
 Chaves personalizadas não podem ser modificadas usando uma operação PATCH se o valor da chave for diferente da chave de origem, ou se você estiver usando sua própria chave comercial como URI em vez do fornecido pelo Adobe.
 
-Use uma chave personalizada para **recursos de perfil de nível superior** somente. Os URLs são retornados pela API e nunca devem ser criados por você mesmo.
+Use uma chave personalizada somente para **recursos de perfil de nível superior**. Os URLs são retornados pela API e nunca devem ser criados por você mesmo.
 
 <br/>
 
-***Exemplo de solicitação***
+***Solicitação de exemplo***
 
 Para recuperar as assinaturas de um perfil usando uma chave personalizada, execute uma operação GET na chave personalizada.
 

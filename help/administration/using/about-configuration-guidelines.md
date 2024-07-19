@@ -30,7 +30,7 @@ Esta é a lista de navegadores compatíveis com o Adobe Campaign Standard:
 * Safari (versão mais recente)
 * Microsoft Edge (versão mais recente)
 
-**Comprimido:**
+**Tablet:**
 
 * iOS (versão 7 e posterior)
 * Android (versão 4.4 e posterior)

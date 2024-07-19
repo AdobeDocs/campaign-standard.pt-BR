@@ -14,9 +14,9 @@ ht-degree: 4%
 
 # Recuperação de perfis com APIs {#retrieving-profiles}
 
-A recuperação de perfis é executada com um **GET** solicitação.
+A recuperação de perfis é executada com uma solicitação **GET**.
 
-Você pode refinar sua pesquisa usando filtros, ordenação e paginação. Para obter mais informações, consulte [Operações adicionais](../../api/using/sorting.md) seção.
+Você pode refinar sua pesquisa usando filtros, ordenação e paginação. Para obter mais informações, consulte a seção [Operações adicionais](../../api/using/sorting.md).
 
 Além disso, as APIs de Campaign Standard permitem procurar perfis com base em um destes campos: email, nome, sobrenome ou qualquer campo personalizado. Para obter mais informações, consulte [esta seção](#searching-field).
 
@@ -85,7 +85,7 @@ Além disso, as APIs de Campaign Standard permitem procurar perfis com base em u
 
 ## Pesquisar perfis com base em um campo {#searching-field}
 
-A variável **[!UICONTROL filterType]** O parâmetro permite recuperar perfis com base em um destes campos: email, nome, sobrenome ou qualquer campo personalizado que tenha sido adicionado à Filtragem avançada ao estender o recurso de perfil.
+O parâmetro **[!UICONTROL filterType]** permite recuperar perfis com base em um destes campos: email, nome, sobrenome ou qualquer campo personalizado que tenha sido adicionado à Filtragem avançada ao estender o recurso de perfil.
 
 >[!NOTE]
 >

@@ -53,7 +53,7 @@ Também é necessário ter um site de trabalho.
 >
 >A configuração do subdomínio é um elemento principal da capacidade de entrega. Verifique se os emails do Adobe Campaign são enviados do mesmo domínio que o usado pelo site.
 
-Você precisa configurar [Serviço principal do Experience Cloud DTM](#configuring-experience-cloud-dtm-core-service), [Serviço principal de pessoas do Experience Cloud](#configuring-experience-cloud-people-core-service) e [Campaign](#configuring-triggers-and-aliases-in-campaign) para executar esses casos de uso.
+É necessário configurar o [Experience Cloud DTM Core Service](#configuring-experience-cloud-dtm-core-service), [Experience Cloud People Core Service](#configuring-experience-cloud-people-core-service) e [Campaign](#configuring-triggers-and-aliases-in-campaign) para executar esses casos de uso.
 
 ### Configuração do serviço principal Experience Cloud DTM {#configuring-experience-cloud-dtm-core-service}
 
@@ -77,17 +77,17 @@ O alias anteriormente referenciado no DTM precisa ser criado no Experience Cloud
 
 ### Configuração de acionadores e aliases no Campaign {#configuring-triggers-and-aliases-in-campaign}
 
-1. Verifique se você tem **[!UICONTROL Experience Cloud triggers]** visível na sua instância do Adobe Campaign Standard. Caso não tenha, entre em contato com os administradores do Adobe Campaign.
+1. Verifique se você tem o **[!UICONTROL Experience Cloud triggers]** visível na sua instância do Adobe Campaign Standard. Caso não tenha, entre em contato com os administradores do Adobe Campaign.
 
    ![](assets/remarketing_1.png)
 
-1. Os aliases permitem que um contato no Analytics seja reconciliado com um perfil no Campaign. É necessário corresponder os aliases definidos no serviço de ID de Experience Cloud a uma Fonte de dados compartilhada no Campaign. É necessário configurar a resolução de aliases no Adobe Campaign por meio de uma Fonte de dados ( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** ). Certifique-se de escolher a fonte de dados correta no **[!UICONTROL Data Source/Alias]** menu suspenso, que é mapeado com a mesma fonte de dados de Atributo do cliente criada na etapa anterior.
+1. Os aliases permitem que um contato no Analytics seja reconciliado com um perfil no Campaign. Você precisa corresponder os aliases definidos no serviço de ID de Experience Cloud a um Source de dados compartilhado no Campaign. Você precisa configurar a resolução de aliases no Adobe Campaign por meio de uma Fonte de dados ( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** ). Escolha a fonte de dados correta no menu suspenso **[!UICONTROL Data Source/Alias]**, que é mapeado com a mesma fonte de dados de atributo do cliente criada na etapa anterior.
 
    ![](assets/trigger_uc_conf_5.png)
 
    >[!NOTE]
    >
-   >É possível reconciliar acionadores para usuários anônimos e conectados. Para usuários anônimos, o perfil deve existir no Adobe Campaign e um email foi enviado ao usuário antes. Para isso, a configuração da ID de visitante é suficiente. No entanto, se você quiser reconciliar acionadores para usuários conectados, será necessário configurar a Fonte de dados da ID declarada. Para obter mais informações, consulte [Configuração da fonte de dados](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
+   >É possível reconciliar acionadores para usuários anônimos e conectados. Para usuários anônimos, o perfil deve existir no Adobe Campaign e um email foi enviado ao usuário antes. Para isso, a configuração da ID de visitante é suficiente. No entanto, se você quiser reconciliar acionadores para usuários conectados, será necessário configurar o Source de dados de ID declarada. Para obter mais informações, consulte [Configuração do Data Source](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
 
 ## Criação de um acionador na interface do Experience Cloud {#creating-a-trigger-in-the-experience-cloud-interface}
 
@@ -95,7 +95,7 @@ Um acionador do Adobe Experience Cloud precisa ser criado para que você possa u
 
 Crie um novo acionador no Experience Cloud e certifique-se de selecionar o conjunto de relatórios usado em seu site. Escolha a dimensão correta para que o acionador seja acionado.
 
-Consulte a [Documentação do Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=pt-BR).
+Consulte a [documentação do Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=pt-BR).
 
 ## Práticas recomendadas e limitações dos acionadores {#triggers-best-practices-and-limitations}
 

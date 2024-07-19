@@ -52,11 +52,11 @@ Por exemplo, para criar um novo perfil diretamente na interface do usuário, sig
    * A categoria **[!UICONTROL Channels]**, que contém o endereço de email, o número do telefone celular e as informações de recusa, informa em qual canal o perfil pode ser acessado.
 
      >[!NOTE]
-     > Os números de telefone celular devem estar sempre em formato internacional (`+<country><number>`) na tabela de perfis.
+     > Os números de telefone celular devem estar sempre no formato internacional (`+<country><number>`) na tabela de perfis.
 
    * A categoria **[!UICONTROL No longer contact]** é atualizada assim que o perfil cancela a assinatura em um canal.
    * A categoria **[!UICONTROL Address]** contém o CEP que precisa ser preenchido junto com a opção **[!UICONTROL Address specified]** para enviar [correspondência direta](../../channels/using/about-direct-mail.md) para esse perfil. Se a opção **[!UICONTROL Address specified]** não estiver marcada, esse perfil será excluído de todas as entregas de correspondência direta.
-   * A variável **[!UICONTROL Access authorization]** categoria indica as unidades organizacionais do perfil para [gerenciar permissões](../../administration/using/about-access-management.md). Para adicionar os campos organizacionais aos perfis, consulte a seção [Particionamento de perfis](../../administration/using/organizational-units.md#partitioning-profiles).
+   * A categoria **[!UICONTROL Access authorization]** indica as unidades organizacionais do perfil para [gerenciar permissões](../../administration/using/about-access-management.md). Para adicionar os campos organizacionais aos perfis, consulte a seção [Particionamento de perfis](../../administration/using/organizational-units.md#partitioning-profiles).
    * A categoria **[!UICONTROL Traceability]** atualiza automaticamente as informações referentes ao usuário que criou ou modificou o perfil.
 
 1. Clique em **[!UICONTROL Create]** para salvar o perfil.
@@ -72,4 +72,4 @@ Este vídeo mostra como importar perfis com um fluxo de trabalho.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
 
-Vídeos extras explicativos sobre o Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
+Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

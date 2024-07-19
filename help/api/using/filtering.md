@@ -19,13 +19,13 @@ ht-degree: 0%
 
 ## Recuperando metadados de filtros
 
-Os filtros estão disponíveis para cada recurso. Para identificar os filtros associados a um recurso, é necessário executar uma solicitação GET nos metadados do recurso. Essa solicitação retorna o URL em que todos os filtros são definidos para um determinado recurso. Para obter mais informações sobre metadados, consulte [nesta seção](../../api/using/metadata-mechanism.md).
+Os filtros estão disponíveis para cada recurso. Para identificar os filtros associados a um recurso, é necessário executar uma solicitação GET nos metadados do recurso. Essa solicitação retorna o URL em que todos os filtros são definidos para um determinado recurso. Para obter mais informações sobre metadados, consulte [esta seção](../../api/using/metadata-mechanism.md).
 
 Para identificar os metadados de um filtro e determinar como usá-lo, é necessário executar uma solicitação do GET no URL retornado anteriormente.
 
 <br/>
 
-***Exemplo de solicitação***
+***Solicitação de exemplo***
 
 As cargas de amostra abaixo mostram como recuperar os metadados do filtro &quot;byText&quot; para o recurso &quot;perfil&quot;. Primeiro, execute uma solicitação GET na metada de recurso &quot;perfil&quot;.
 
@@ -66,10 +66,10 @@ Execute uma solicitação GET no URL. Ele retorna a lista de filtros para o recu
 
 A mesma estrutura de metadados está disponível para cada filtro:
 
-* A variável **@formType** e **@webPage** são campos técnicos.
-* A variável **dados** fornece uma amostra de como usar o filtro.
-* A variável **metadados** descreve os parâmetros de filtro.
-* A variável **condição** O nó descreve o que o filtro deve fazer. Os parâmetros de filtro descritos no nó de metadados são usados para criar condições de filtro. Para cada condição de filtro, se **enabledIf** é verdadeiro, o **expr** serão aplicadas.
+* Os campos **@formType** e **@webPage** são campos técnicos.
+* O campo **dados** fornece uma amostra sobre como usar o filtro.
+* O nó **metadata** descreve os parâmetros de filtro.
+* O nó **condition** descreve o que o filtro deve fazer. Os parâmetros de filtro descritos no nó de metadados são usados para criar condições de filtro. Para cada condição de filtro, se **enabledIf** for true, a **expr** será aplicada.
 
 <br/>
 
@@ -133,7 +133,8 @@ A filtragem é executada com a seguinte solicitação:
   }
   ```
 
-* Exemplo de solicitação do GET para recuperar os recursos de &quot;perfil&quot; que contêm &quot;Concluído&quot; nos campos de email ou sobrenome (o filtro byText pesquisa nos campos de email e sobrenome).
+* Exemplo de solicitação de GET para recuperar os recursos de &quot;perfil&quot; que contêm &quot;Concluído&quot; em
+os campos email ou sobrenome (o filtro byText pesquisa nos campos email e sobrenome).
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
@@ -201,12 +202,12 @@ Se quiser usar um filtro personalizado, será necessário criá-lo e personaliz�
 
 Para obter mais informações, consulte a documentação do Campaign Standard:
 
-* [Configuração da definição de filtro](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
+* [Configurando definição de filtro](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
 * [Caso de uso: chamada de um recurso usando uma chave de identificação composta](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 
-***Exemplo de solicitação***
+***Solicitação de exemplo***
 
 Exemplo de solicitação de GET para recuperar os recursos de &quot;perfil&quot; com valores de transação de US$ 100 ou mais. Observe que o filtro &quot;byAmount&quot; foi definido primeiro na interface do Adobe Campaign Standard e vinculado à tabela personalizada &quot;Transaction&quot;.
 

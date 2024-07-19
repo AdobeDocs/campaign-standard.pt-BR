@@ -54,7 +54,7 @@ Você pode usar essa atividade para recuperar dados que serão estruturados com 
    * [Armazenamento do Microsoft Azure Blob](#azure-blob-configuration-wf)
    * [Arquivos presentes no servidor do Adobe Campaign](#files-server-configuration-wf)
 
-1. A variável **[!UICONTROL Additional options]** , disponível dependendo do protocolo selecionado, permite adicionar parâmetros ao seu protocolo.
+1. A seção **[!UICONTROL Additional options]**, disponível dependendo do protocolo selecionado, permite que você adicione parâmetros ao seu protocolo.
 
    Você pode:
 
@@ -64,7 +64,7 @@ Você pode usar essa atividade para recuperar dados que serão estruturados com 
 
      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
-   * **[!UICONTROL List all files]**: essa opção está disponível ao selecionar a variável **[!UICONTROL File listing]** ação no **[!UICONTROL General]** guia. Ela permite indexar todos os arquivos no servidor na variável de evento **vars.filenames** na qual os nomes de arquivo são separados pelos caracteres **&#39;n&#39;**.
+   * **[!UICONTROL List all files]**: esta opção está disponível ao selecionar a ação **[!UICONTROL File listing]** na guia **[!UICONTROL General]**. Ela permite indexar todos os arquivos no servidor na variável de evento **vars.filenames** na qual os nomes de arquivo são separados pelos caracteres **&#39;n&#39;**.
 
 1. A seção **[!UICONTROL If no files are found]** da guia **[!UICONTROL Advanced options]** permite configurar ações específicas se forem detectados erros ou arquivos inexistentes quando a atividade for iniciada.
 
@@ -78,20 +78,20 @@ Você pode usar essa atividade para recuperar dados que serão estruturados com 
 
 O protocolo HTTP permite iniciar o download de um arquivo de uma conta externa ou de um URL.
 
-Com esse protocolo, você pode optar por **[!UICONTROL Use connection parameters defined in an external account]** opção. Nesse caso, selecione a conta desejada e especifique o caminho do arquivo para download.
+Com esse protocolo, você pode optar por **[!UICONTROL Use connection parameters defined in an external account]**. Nesse caso, selecione a conta desejada e especifique o caminho do arquivo para download.
 
 ![](assets/wkf_file_transfer_03.png)
 
 Você também pode escolher a opção **[!UICONTROL Quick configuration]**. Você só precisa inserir o URL no campo URL.
 ![](assets/wkf_file_transfer_04.png)
 
-**[!UICONTROL Follow redirections]**, **[!UICONTROL Ignore the HTTP return code]**, e **[!UICONTROL Add received HTTP headers to the file]** são as opções adicionais disponíveis ao selecionar o protocolo HTTP.
+**[!UICONTROL Follow redirections]**, **[!UICONTROL Ignore the HTTP return code]** e **[!UICONTROL Add received HTTP headers to the file]** são as opções adicionais disponíveis ao selecionar o protocolo HTTP.
 
 ### Configuração com SFTP {#SFTP-configuration-wf}
 
 O protocolo SFTP permite iniciar o download de um arquivo de uma conta externa ou de um URL.
 
-Com esse protocolo, você pode optar por **[!UICONTROL Use connection parameters defined in an external account]** , selecione a conta desejada e especifique o caminho do arquivo a ser baixado.
+Com esse protocolo, você pode optar por **[!UICONTROL Use connection parameters defined in an external account]**, selecionar a conta desejada e especificar o caminho do arquivo a ser baixado.
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
@@ -181,9 +181,9 @@ Toda vez que a atividade é executada, a pasta é verificada da seguinte maneira
 
 ## Variáveis de saída {#output-variables}
 
-A variável **[!UICONTROL Transfer file]** A atividade gera variáveis de evento como saída, que você pode aproveitar em outras atividades, por exemplo, para verificar o número de arquivos baixados usando uma [Teste](../../automating/using/test.md) atividade.
+A atividade **[!UICONTROL Transfer file]** gera variáveis de evento como saída, que você pode aproveitar em outras atividades, por exemplo, para verificar o número de arquivos baixados usando uma atividade [Test](../../automating/using/test.md).
 
-Observe que as variáveis de evento também podem ser passadas para outro workflow usando um sinal externo (consulte [Personalização de um workflow com parâmetros externos](../../automating/using/customizing-workflow-external-parameters.md)).
+Observe que as variáveis de evento também podem ser passadas para outro fluxo de trabalho usando um sinal externo (consulte [Personalizando um fluxo de trabalho com parâmetros externos](../../automating/using/customizing-workflow-external-parameters.md)).
 
 As variáveis de saída disponíveis são:
 

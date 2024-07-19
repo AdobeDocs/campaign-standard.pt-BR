@@ -22,7 +22,7 @@ No conteúdo da landing page, os campos de entrada são usados para armazenar ou
 
 Para fazer isso, esses campos devem ser mapeados para campos de banco de dados.
 
-Você pode definir e gerenciar o mapeamento por meio da **[!UICONTROL Form data]** na paleta esquerda.
+Você pode definir e gerenciar o mapeamento por meio da seção **[!UICONTROL Form data]** na paleta esquerda.
 
 ![](assets/lp_form-data.png)
 
@@ -38,29 +38,29 @@ Para fazer isso, siga as etapas abaixo:
    >
    >Os campos padrão das landing pages incorporadas são pré-configurados. Você pode modificá-los conforme necessário.
 
-1. Acesse o **[!UICONTROL Form data]** na paleta esquerda.
+1. Acesse a seção **[!UICONTROL Form data]** na paleta esquerda.
 
-1. Para alterar o tipo de campo, selecione um valor na variável **[!UICONTROL HTML type of the field]** lista suspensa.
+1. Para alterar o tipo de campo, selecione um valor na lista suspensa **[!UICONTROL HTML type of the field]**.
 
    ![](assets/lp_html-field-type.png)
 
    >[!NOTE]
    >
-   >Para obter mais informações sobre como usar o tipo de caixa de seleção em uma landing page, consulte [Atualizar várias assinaturas de serviço](#multiple-subscriptions) e [Caixa de seleção do contrato](#agreement-checkbox) seções.
+   >Para obter mais informações sobre como usar o tipo de caixa de seleção em uma página de destino, consulte as seções [Atualizar várias assinaturas de serviço](#multiple-subscriptions) e [Caixa de seleção do contrato](#agreement-checkbox).
 
-1. Se você selecionar um tipo de campo que não seja compatível com o campo de banco de dados atualmente selecionado na variável **[!UICONTROL Field]** , uma mensagem de aviso será exibida. Para obter o mapeamento ideal, selecione um valor apropriado.
+1. Se você selecionar um tipo de campo incompatível com o campo de banco de dados selecionado atualmente na zona **[!UICONTROL Field]**, será exibida uma mensagem de aviso. Para obter o mapeamento ideal, selecione um valor apropriado.
 
    ![](assets/lp_field-type-warning.png)
 
-1. Use o **[!UICONTROL Field]** para selecionar um campo de banco de dados que será vinculado ao campo de formulário.
+1. Use a zona **[!UICONTROL Field]** para selecionar um campo de banco de dados que será vinculado ao campo de formulário.
 
    ![](assets/lp_select-database-field.png)
 
    >[!NOTE]
    >
-   >As landing pages só podem ser mapeadas com o **[!UICONTROL Profiles]** ou **[!UICONTROL Service]** recursos.
+   >As landing pages só podem ser mapeadas com os recursos **[!UICONTROL Profiles]** ou **[!UICONTROL Service]**.
 
-   Neste exemplo, mapeie a variável **Nome** da sua página de aterrissagem para o campo **[!UICONTROL Last name]** do campo **[!UICONTROL Profiles]** recurso.
+   Neste exemplo, mapeie o campo **Name** da sua página de aterrissagem para o campo **[!UICONTROL Last name]** do recurso **[!UICONTROL Profiles]**.
 
    ![](assets/lp_database-field-example.png)
 
@@ -84,7 +84,7 @@ Para fazer isso:
 
    ![](assets/lp_parameters_job.png)
 
-1. Selecione o **[!UICONTROL Reconciliation key]**: esse campo de banco de dados é usado para determinar se o visitante tem um perfil já conhecido no banco de dados do Adobe Campaign. Pode ser, por exemplo, email, nome, sobrenome. A chave de reconciliação permite atualizar ou criar um perfil, de acordo com a **[!UICONTROL Update strategy]** definido abaixo.
+1. Selecione o **[!UICONTROL Reconciliation key]**: este campo de banco de dados é usado para determinar se o visitante tem um perfil já conhecido no banco de dados do Adobe Campaign. Pode ser, por exemplo, email, nome, sobrenome. A chave de reconciliação permite atualizar ou criar um perfil, de acordo com o parâmetro **[!UICONTROL Update strategy]** definido abaixo.
 
 1. Defina o **[!UICONTROL Form parameter mapping]**: esta seção permite mapear os parâmetros do campo de landing page e os usados na chave de reconciliação.
 
@@ -100,11 +100,11 @@ Para fazer isso, siga as etapas abaixo:
 
 1. Ao criar a landing page:
 
-   * Selecione um bloco e, na caixa suspensa **[!UICONTROL Form data]** escolha **[!UICONTROL Checkbox]** como o tipo de campo.
+   * Selecione um bloco e, na seção **[!UICONTROL Form data]**, escolha **[!UICONTROL Checkbox]** como o tipo de campo.
 
      ![](assets/lp_field-type-checkbox.png)
 
-   * Se você estiver familiarizado com o HTML, também poderá inserir uma caixa de seleção manualmente usando o **[!UICONTROL Show source]** botão.
+   * Se você estiver familiarizado com o HTML, também poderá inserir manualmente uma caixa de seleção usando o botão **[!UICONTROL Show source]**.
 
      ![](assets/lp_show_source.png)
 
@@ -112,19 +112,19 @@ Para fazer isso, siga as etapas abaixo:
 
      ![](assets/lp_manual-checkbox.png)
 
-1. Verifique se a caixa de seleção está marcada no conteúdo. A variável **[!UICONTROL Type]** é exibida na janela **[!UICONTROL Form data]** seção da paleta esquerda. Selecione **[!UICONTROL Service and subscription]** na lista.
+1. Verifique se a caixa de seleção está marcada no conteúdo. A lista suspensa **[!UICONTROL Type]** é exibida na seção **[!UICONTROL Form data]** da paleta esquerda. Selecione **[!UICONTROL Service and subscription]** na lista.
 
    ![](assets/lp_service-and-subscription.png)
 
-1. Escolha uma opção no **[!UICONTROL Behavior]** lista suspensa.
+1. Escolha uma opção na lista suspensa **[!UICONTROL Behavior]**.
 
    ![](assets/lp_checkbox-behavior.png)
 
-1. Selecione um [serviço](../../audiences/using/creating-a-service.md) da lista correspondente.
+1. Selecione um [serviço](../../audiences/using/creating-a-service.md) na lista correspondente.
 
    ![](assets/lp_checkbox-service.png)
 
-1. Verifique se **[!UICONTROL Mandatory]** está desmarcada. Caso contrário, seus usuários não terão uma escolha.
+1. Verifique se a opção **[!UICONTROL Mandatory]** está desmarcada. Caso contrário, seus usuários não terão uma escolha.
 
    ![](assets/lp_uncheck-mandatory.png)
 
@@ -148,11 +148,11 @@ Para inserir e configurar essa caixa de seleção, faça o seguinte:
 
 1. Ao criar a landing page:
 
-   * Selecione um bloco e, na caixa suspensa **[!UICONTROL Form data]** escolha **[!UICONTROL Checkbox]** como o tipo de campo.
+   * Selecione um bloco e, na seção **[!UICONTROL Form data]**, escolha **[!UICONTROL Checkbox]** como o tipo de campo.
 
      ![](assets/lp_field-type-checkbox.png)
 
-   * Se você estiver familiarizado com o HTML, também poderá inserir uma caixa de seleção manualmente usando o **[!UICONTROL Show source]** botão.
+   * Se você estiver familiarizado com o HTML, também poderá inserir manualmente uma caixa de seleção usando o botão **[!UICONTROL Show source]**.
 
      ![](assets/lp_show_source.png)
 
@@ -164,15 +164,15 @@ Para inserir e configurar essa caixa de seleção, faça o seguinte:
 
    ![](assets/lp_select_checkbox.png)
 
-1. A variável **[!UICONTROL Type]** é exibida na janela **[!UICONTROL Form data]** seção da paleta esquerda. Selecione **[!UICONTROL Agreement]** na lista.
+1. A lista suspensa **[!UICONTROL Type]** é exibida na seção **[!UICONTROL Form data]** da paleta esquerda. Selecione **[!UICONTROL Agreement]** na lista.
 
    ![](assets/lp_form_data_drop-down.png)
 
    >[!NOTE]
    >
-   >A variável **[!UICONTROL Agreement]** O elemento não está mapeado para um campo do banco de dados do Campaign.
+   >O elemento **[!UICONTROL Agreement]** não está mapeado para um campo do banco de dados do Campaign.
 
-1. Clique em ![](assets/lp-properties-icon.png) ícone ao lado de **[!UICONTROL Form data]** para acessar as propriedades avançadas da caixa de seleção.
+1. Clique no ícone ![](assets/lp-properties-icon.png) ao lado de **[!UICONTROL Form data]** para acessar as propriedades avançadas da caixa de seleção.
 
 1. Você pode editar a mensagem, se necessário.
 

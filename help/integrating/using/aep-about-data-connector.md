@@ -27,7 +27,7 @@ O Conector de dados do Adobe Experience Platform ajuda os clientes existentes a 
 
 Observe que o conector é **unidirecional** e envia os dados do Adobe Campaign Standard para o Adobe Experience Platform. Os dados nunca são enviados da Adobe Experience Platform para o Adobe Campaign Standard.
 
-O Conector de dados do Adobe Experience Platform é destinado a **engenheiros de dados** que entendem os recursos personalizados da Adobe Campaign Standard e entendem como o esquema de dados geral do cliente deve estar dentro da Adobe Experience Platform.
+O Conector de dados do Adobe Experience Platform é destinado a **engenheiros de dados** que entendem os recursos personalizados da Adobe Campaign Standard e que têm uma compreensão de como o esquema de dados geral do cliente deve estar dentro da Adobe Experience Platform.
 
 As seções a seguir descrevem as principais etapas para executar um mapeamento de dados entre o Campaign Standard e o Adobe Experience Platform. Isso começa com a criação de um esquema XDM e um conjunto de dados.
 
@@ -38,14 +38,14 @@ As seções a seguir descrevem as principais etapas para executar um mapeamento 
 >
 >Isso pode ser executado por meio das APIs ou da interface do Adobe Experience Platform. Para obter mais informações, consulte as documentações específicas:
 >
->* [Ativar um conjunto de dados para o Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
+>* [Habilitar um conjunto de dados para o Perfil de Cliente em Tempo Real](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
 >* [Configurar um conjunto de dados para o Perfil do cliente em tempo real e o Serviço de identidade usando APIs](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
 
 ## Principais conceitos {#key-concepts}
 
 * O Mapeamento pronto para uso está disponível apenas para campos que são fornecidos em Campaign Standard por padrão. Para assimilar todos os campos e recursos personalizados, cada cliente precisa definir seu próprio mapeamento.
 
-* O Adobe Experience Platform Data Connector enviará dados de perfil por meio da plataforma em intervalos regulares.&#x200B; O intervalo dura 15 minutos. Esse valor pode ser modificado usando [APIs do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html).
+* O Adobe Experience Platform Data Connector enviará dados de perfil por meio da plataforma em intervalos regulares.&#x200B; O intervalo dura 15 minutos. Este valor pode ser modificado com as [APIs do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html).
 
 * O engenheiro de dados pode publicar, modificar e pausar o mapeamento do Campaign para o Adobe Experience Platform.
 
@@ -59,7 +59,7 @@ As seções a seguir descrevem as principais etapas para executar um mapeamento 
 
 * O Serviço de ID de Experience Cloud (ECID) é um identificador de dispositivo enviado por padrão com Eventos de experiência.
 
-  É uma ID exclusiva e persistente atribuída a um visitante, que pode ser usada pelo Serviço de identidade da plataforma para identificar o mesmo visitante e seus dados em diferentes soluções da Experience Cloud. Para obter mais informações, consulte [Ajuda do Serviço de identidade Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR).
+  É uma ID exclusiva e persistente atribuída a um visitante, que pode ser usada pelo Serviço de identidade da plataforma para identificar o mesmo visitante e seus dados em diferentes soluções da Experience Cloud. Para obter mais informações, consulte a [Ajuda do Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR).
 
   >[!NOTE]
   >
@@ -69,7 +69,7 @@ As seções a seguir descrevem as principais etapas para executar um mapeamento 
 
 * A transferência de eventos de assinatura pronta para uso não é compatível. Para transferir eventos de assinatura, você pode criar o XDM e o conjunto de dados correspondentes no Adobe Experience Platform e, em seguida, configurar um mapeamento de dados personalizado para esses dados.
 
-* Com relação às solicitações de privacidade (ações de Acesso e Exclusão), os clientes precisam fazer solicitações separadas por meio do [Serviço principal de privacidade](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests): um para o Campaign e um para o Adobe Experience Platform. Para obter mais informações, consulte [Sobre solicitações de privacidade](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=pt-BR#getting-started) e [Gerenciar solicitações de privacidade](https://helpx.adobe.com/br/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) no Campaign.
+* Em relação às solicitações de privacidade (ações de Acesso e Exclusão), os clientes precisam fazer solicitações separadas pelo [Privacy Core Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests): uma para o Campaign e outra para o Adobe Experience Platform. Para obter mais informações, consulte [Sobre solicitações de privacidade](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=pt-BR#getting-started) e [Gerenciar solicitações de privacidade](https://helpx.adobe.com/br/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) no Campaign.
 
 * Para cada campo XDM, a rotulagem DULE precisa ser feita no Adobe Experience Platform. É responsabilidade do cliente aplicar os rótulos de DULE.
 

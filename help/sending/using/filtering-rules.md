@@ -1,5 +1,5 @@
 ---
-title: Regras de filtro
+title: Regras de filtragem
 description: Use as regras de filtragem para refinar o público-alvo de suas mensagens.
 audience: administration
 content-type: reference
@@ -15,7 +15,7 @@ ht-degree: 23%
 
 ---
 
-# Regras de filtro {#filtering-rules}
+# Regras de filtragem {#filtering-rules}
 
 As regras de filtragem permitem excluir uma parte do público-alvo da mensagem de acordo com os critérios definidos em uma consulta, como perfis em quarentena ou perfis que já receberam um determinado número de emails.
 
@@ -27,7 +27,7 @@ A tabela abaixo fornece informações sobre regras de filtragem prontas para uso
 | ---------|----------|---------|
 | **[!UICONTROL Address not specified]** | Todos | Exclui a população do target sem endereço especificado (email, endereço postal etc.) de acordo com o canal selecionado). |
 | **[!UICONTROL Address on denylist]** | Todos | Exclui endereços que estão na inclui na lista de bloqueios. |
-| **[!UICONTROL Duplicate]** | Todos | Exclui duplicatas com base na população do target **[!UICONTROL Address]** campo. |
+| **[!UICONTROL Duplicate]** | Todos | Exclui duplicatas com base no campo **[!UICONTROL Address]** da população de destino. |
 | **[!UICONTROL Exclude mobile applications]** | Aplicativo para dispositivos móveis | Exclui assinaturas de aplicativo que não correspondem ao aplicativo móvel definido na mensagem. |
 | **[!UICONTROL Exclude mobile applications for In-App]** | No aplicativo | Exclui assinaturas de aplicativo que não correspondem ao aplicativo móvel definido na mensagem (modelo no aplicativo). |
 | **[!UICONTROL Exclude mobile applications for In-App broadcast]** | No aplicativo | Exclui assinaturas de aplicativo que não correspondem ao aplicativo móvel definido na mensagem (modelo de transmissão no aplicativo) |
@@ -54,23 +54,23 @@ Você pode criar suas próprias regras de filtragem de acordo com suas necessida
 
 Para criar uma regra de tipologia de filtragem, siga estas etapas:
 
-1. Crie uma nova regra de tipologia. As principais etapas para criar regras de tipologia são detalhadas em [nesta seção](../../sending/using/managing-typology-rules.md).
+1. Crie uma nova regra de tipologia. As principais etapas para criar regras de tipologia estão detalhadas em [esta seção](../../sending/using/managing-typology-rules.md).
 
-1. Selecione o **[!UICONTROL Filtering]** tipo de regra e, em seguida, especifique o canal desejado.
+1. Selecione o tipo de regra **[!UICONTROL Filtering]** e especifique o canal desejado.
 
-1. No **[!UICONTROL Filtering criteria]** selecione as subscrições na guia **[!UICONTROL Subscription]** categoria.
+1. Na guia **[!UICONTROL Filtering criteria]**, selecione as assinaturas na categoria **[!UICONTROL Subscription]**.
 
    ![](assets/typology_create-rule-subscription.png)
 
-1. No **[!UICONTROL Explorer]** do editor de consultas, arraste e solte a variável **[!UICONTROL Subscriber]** na parte principal da tela.
+1. Na guia **[!UICONTROL Explorer]** do editor de consultas, arraste e solte o nó **[!UICONTROL Subscriber]** na parte principal da tela.
 
    ![](assets/typology_create-rule-subscriber.png)
 
-1. Selecione o **[!UICONTROL Age]** e defina as condições de filtragem para que a idade dos assinantes seja inferior a 18.
+1. Selecione o campo **[!UICONTROL Age]** e defina as condições de filtragem para que a idade dos assinantes seja inferior a 18.
 
    ![](assets/typology_create-rule-age.png)
 
-1. No **[!UICONTROL Typologies]** , vincule esta regra a uma tipologia.
+1. Na guia **[!UICONTROL Typologies]**, vincule essa regra a uma tipologia.
 
    ![](assets/typology_create-rule-typology.png)
 
@@ -82,11 +82,11 @@ Sempre que essa regra for usada em uma mensagem, os assinantes que são consider
 
 ## Configuração do contexto de direcionamento das regras de filtragem {#configuring-filtering-rules-targeting-context}
 
-Campaign Standard permite configurar o  **Direcionamento** e **Filtragem** dimensões a serem usadas dependendo dos dados que deseja direcionar.
+O Campaign Standard permite configurar as dimensões **Direcionamento** e **Filtragem** a serem usadas, dependendo dos dados que você deseja direcionar.
 
-Para fazer isso, abra as propriedades da regra de tipologia e acesse o **[!UICONTROL Advanced information]** seção.
+Para fazer isso, abra as propriedades da regra de tipologia e acesse a seção **[!UICONTROL Advanced information]**.
 
-Por padrão, a filtragem é realizada no **[!UICONTROL Profiles]**. Por exemplo, se a regra for direcionada a um aplicativo móvel, a variável **[!UICONTROL Filtering dimension]** pode ser alterado para **[!UICONTROL Subscriptions to an application]**.
+Por padrão, a filtragem é realizada no **[!UICONTROL Profiles]**. Por exemplo, se a regra se destina a um aplicativo móvel, o **[!UICONTROL Filtering dimension]** pode ser alterado para **[!UICONTROL Subscriptions to an application]**.
 
 ![](assets/typology_rule-order_2.png)
 
@@ -94,7 +94,7 @@ Por padrão, a filtragem é realizada no **[!UICONTROL Profiles]**. Por exemplo,
 
 Você pode restringir a aplicabilidade de uma regra de filtragem de acordo com a mensagem a ser enviada.
 
-1. Na regra de tipologia **[!UICONTROL Application criteria]** , desmarque a opção **[!UICONTROL Apply the rule on all deliveries]** que está ativada por padrão.
+1. Na guia **[!UICONTROL Application criteria]** da regra de tipologia, desmarque a opção **[!UICONTROL Apply the rule on all deliveries]**, que está habilitada por padrão.
 
    ![](assets/typology_limit.png)
 

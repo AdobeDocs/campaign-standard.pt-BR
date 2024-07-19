@@ -12,7 +12,7 @@ exl-id: a7f22d92-dbf9-4c2b-8fc1-1e31d1e5e79c
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 29%
+ht-degree: 30%
 
 ---
 
@@ -26,9 +26,9 @@ O Adobe Campaign permite que você entregue mensagens SMS (Short Message Service
 
 Para mensagens SMS, você poderá criar, modificar e personalizar mensagens somente no formato de texto. Você também poderá visualizar suas mensagens SMS antes de enviá-las.
 
-O comprimento de uma mensagem SMS é restrito a 160 caracteres se estiver na codificação GSM e somente 70 caracteres se estiver em Unicode. No entanto, alguns caracteres especiais podem influenciar o comprimento da mensagem. Para obter mais informações, consulte [Codificação de SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) seção.
+O comprimento de uma mensagem SMS é restrito a 160 caracteres se estiver na codificação GSM e somente 70 caracteres se estiver em Unicode. No entanto, alguns caracteres especiais podem influenciar o comprimento da mensagem. Para obter mais informações, consulte a seção [codificação de SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
-As mensagens SMS podem ser criadas no **[!UICONTROL Marketing activities]** , de uma campanha ou de um fluxo de trabalho, consulte [Criação de uma mensagem SMS](../../channels/using/creating-an-sms-message.md).
+As mensagens SMS podem ser criadas no menu **[!UICONTROL Marketing activities]**, em uma campanha ou em um fluxo de trabalho. Consulte [Criação de uma mensagem SMS](../../channels/using/creating-an-sms-message.md).
 
 Para enviar mensagens SMS para um telefone celular, você precisa:
 
@@ -44,13 +44,13 @@ Para enviar mensagens SMS para um telefone celular, você precisa:
 
 ## Template de entrega de SMS {#sms-delivery-template}
 
-O Adobe Campaign oferece um template de delivery para dispositivos móveis. Esse template deve estar vinculado corretamente à conta externa usada para o **[!UICONTROL Mobile (SMS)]** canal. Para acessá-lo e modificá-lo:
+O Adobe Campaign oferece um template de delivery para dispositivos móveis. Este modelo deve estar corretamente vinculado à conta externa usada para o canal **[!UICONTROL Mobile (SMS)]**. Para acessá-lo e modificá-lo:
 
-1. Selecionar **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** no menu avançado.
-1. Passe o mouse sobre **[!UICONTROL Send via SMS]** modelo com o mouse e selecione o **Duplicar elemento** opção.
+1. Selecione **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** no menu avançado.
+1. Passe o mouse sobre o modelo **[!UICONTROL Send via SMS]** e selecione a opção **Duplicar elemento**.
 1. Selecione o novo modelo.
 1. Clique no botão **[!UICONTROL Edit properties]**.
-1. No **[!UICONTROL Advanced parameters]** das propriedades do template, verifique se o template está vinculado à conta externa que será usada para delivery do SMS.
+1. Na seção **[!UICONTROL Advanced parameters]** das propriedades do modelo, verifique se o modelo está vinculado à conta externa a ser usada para entrega de SMS.
 
    ![](assets/sms_template.png)
 

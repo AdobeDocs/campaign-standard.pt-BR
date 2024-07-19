@@ -236,7 +236,7 @@ ht-degree: 97%
 **Recursos adicionais** (a partir de 13 de julho)
 
 * **Otimização do tempo de envio com recursos de IA e pontuação do perfil** – agora você pode otimizar o design e a entrega das jornadas do cliente para prever a preferência de envolvimento de cada pessoa. Com a tecnologia Journey AI, o Adobe Campaign pode analisar e prever taxas abertas, tempos de envio ideais e probabilidade de churn com base em métricas históricas de engajamento. [Saiba mais](../../sending/using/predictive.md)
-* **A nova regulamentação de privacidade do Brasil** - Além das características de privacidade já disponíveis no Campaign, o Adobe ajuda a facilitar o preparo para a Lei Geral de Proteção de Dados (LGPD) do Brasil. Durante a criação de uma solicitação de acesso a dados pessoais, o regulamento LGPD foi adicionado ao Serviço Principal de Privacidade da Adobe. [Saiba mais](https://helpx.adobe.com/br/campaign/kb/campaign-privacy-overview.html)
+* **nova regulamentação de privacidade do Brasil** - além das características de privacidade já disponíveis no Campaign, o Adobe ajuda a facilitar o preparo para a Lei Geral de Proteção de Dados (LGPD) do Brasil. Durante a criação de uma solicitação de acesso a dados pessoais, o regulamento LGPD foi adicionado ao Serviço Principal de Privacidade da Adobe. [Saiba mais](https://helpx.adobe.com/br/campaign/kb/campaign-privacy-overview.html)
 
 **Aprimoramentos**
 
@@ -267,7 +267,7 @@ ht-degree: 97%
 
 **Integrações da Experience Platform**
 
-* Ativação dos públicos-alvo da Adobe Experience Platform a partir do **Ler público** A atividade do foi aprimorada para oferecer melhor desempenho e estabilidade. Além disso, os logs de workflow ficaram mais claros e detalhados em relação aos trabalhos de ativação, facilitando o monitoramento e a solução de problemas durante a leitura dos públicos-alvo da Adobe Experience Platform.
+* A ativação dos públicos-alvo da Adobe Experience Platform da atividade **Ler público-alvo** foi aprimorada para oferecer melhor desempenho e estabilidade. Além disso, os logs de workflow ficaram mais claros e detalhados em relação aos trabalhos de ativação, facilitando o monitoramento e a solução de problemas durante a leitura dos públicos-alvo da Adobe Experience Platform.
 
 **Correções**
 

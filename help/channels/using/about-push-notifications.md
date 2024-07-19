@@ -66,13 +66,13 @@ Antes de enviar as notificações por push, você deve:
 
 1. Na interface da Coleção de dados, crie uma propriedade móvel. Para saber mais, consulte [Configurar uma propriedade móvel](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/).
 
-1. Na interface da Coleção de dados, instale o **[!UICONTROL Adobe Campaign Standard]** extensão.
+1. Na interface da Coleção de Dados, instale a extensão **[!UICONTROL Adobe Campaign Standard]**.
 
-1. No Adobe Campaign Standard, configure a propriedade móvel que você criou na interface da coleção de dados. Para obter mais informações, consulte [Configuração do aplicativo de tags na Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
+1. No Adobe Campaign Standard, configure a propriedade móvel que você criou na interface da coleção de dados. Para obter mais informações, consulte [Configurando seu aplicativo de marcas na Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
 1. Adicione a configuração específica do canal à configuração do aplicativo móvel. Para saber mais, consulte [Configuração do aplicativo específico do canal no Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
-1. Para saber mais sobre as implementações dos casos de uso móveis, consulte as instruções detalhadas sobre extensões, regras de tags e a implementação do SDK em [Casos de uso de publicação de conteúdo para dispositivos móveis compatíveis com o Adobe Campaign Standard usando os SDKs da Adobe Experience Platform](../../administration/using/configuring-rules-launch.md).
+1. Para saber mais sobre as implementações dos casos de uso móveis, consulte as instruções detalhadas sobre extensões, regras de tags e a implementação do SDK em [Casos de uso móveis com suporte no Adobe Campaign Standard com SDKs da Adobe Experience Platform](../../administration/using/configuring-rules-launch.md).
 
 ## Perguntas frequentes sobre notificação por push {#push-faq}
 
@@ -82,7 +82,7 @@ Confira os recursos abaixo:
 
 * [Tutorials de vídeo](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [Documentação do produto](../../channels/using/about-push-notifications.md)
-* Configurar o usando o SDK da AEP [documentação](../../administration/using/configuring-a-mobile-application.md)
+* Configurar usando a [documentação](../../administration/using/configuring-a-mobile-application.md) do SDK da AEP
 * [Página da comunidade](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### O que devo fazer para adquirir um token de push no Campaign? {#push-token-acquisition}
@@ -107,7 +107,7 @@ Você verá a seguinte mensagem.
 
 ![](assets/faq_2.png)
 
-### Posso fazer upload de certificados de Produção e Sandbox ao mesmo tempo para o aplicativo iOS (N/A para Android)? {#prod-sandbox-certificate}
+### É possível fazer upload de certificados de Produção e de Sandbox ao mesmo tempo para aplicativos iOS (N/A para Android)? {#prod-sandbox-certificate}
 
 Não, os aplicativos funcionarão no modo de sandbox ou produção e não poderão ser alterados para o outro (ou seja, sandbox para aplicativo de produção) após a configuração. Recomendamos que você teste seu aplicativo no modo de sandbox primeiro e, em seguida, faça a transição para o modo de produção.
 
@@ -119,11 +119,11 @@ Sim, o Campaign oferece suporte a ambas as plataformas ao mesmo tempo e permite 
 
 ### Carregei certificados de push com êxito, mas nenhuma mensagem de push foi enviada. {#push-certificates-upload}
 
-Certifique-se de que seus certificados de push sejam válidos, testando-os [aqui](https://pushtry.com/).
+Certifique-se de que seus certificados de push são válidos testando-os [aqui](https://pushtry.com/).
 
 ### Posso enviar notificações por push com êxito do pushtry.com, mas não pelo Campaign. {#push-not-sending}
 
-Certifique-se de que você está seguindo as instruções do payload push fornecidas [aqui](../../administration/using/push-payload.md).
+Certifique-se de que você está seguindo as instruções da carga de push fornecidas [aqui](../../administration/using/push-payload.md).
 
 Observe que para o Android, o Campaign é compatível apenas com o conteúdo de dados, não com o conteúdo de notificação
 
@@ -146,17 +146,17 @@ Siga as etapas abaixo:
 * Configure um postback de rastreamento de push. As instruções podem ser encontradas [aqui](../../administration/using/configuring-a-mobile-application.md).
 * Implementar a API trackAction a partir do Mobile Core. Consulte esta [página](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/) para obter mais informações.
 
-Instruções mais detalhadas podem ser encontradas neste [página](../../administration/using/push-tracking.md).
+Instruções mais detalhadas podem ser encontradas nesta [página](../../administration/using/push-tracking.md).
 
 ### Quais relatórios estão disponíveis para o canal de push? {#push-report-available}
 
 Um relatório pronto para uso está disponível no Adobe Campaign para canal por push. Consulte esta [documentação](../../reporting/using/push-notification-report.md).
 
-Veja isto [página](../../reporting/using/indicator-calculation.md#push-notification-delivery) para entender como cada métrica de push é calculada.
+Consulte esta [página](../../reporting/using/indicator-calculation.md#push-notification-delivery) para entender como cada métrica de push é calculada.
 
 ### Os deeplinks são compatíveis com mensagens de push e no aplicativo? {#deeplink-push}
 
 Sim, os deeplinks são compatíveis com mensagens de push. Os deeplinks devem incluir:
 
 * Idioma que declara que o rastreamento de delivery precisa ser desativado para que os deeplinks funcionem.
-* AppScript com Ramificação como parceiros que podem fazer o rastreamento de deep link. Para obter mais informações sobre a integração de Branch e Adobe Campaign Standard, consulte este [página](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* AppScript com Ramificação como parceiros que podem fazer o rastreamento de deep link. Para obter mais informações sobre a integração de Ramificação e Adobe Campaign Standard, consulte esta [página](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).

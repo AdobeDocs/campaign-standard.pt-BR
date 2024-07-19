@@ -103,7 +103,7 @@ Como corrigir problemas de estabilidade de conexão:
 
 * Fazer uma captura de rede às vezes é a única maneira de ver como a conexão é fechada.
 
-* Se o provedor fechar as conexões enviando um `TCP FIN` ou um `TCP RST` pacote, peça mais informações ao seu provedor.
+* Se o provedor fechar as conexões enviando um pacote `TCP FIN` ou `TCP RST`, peça mais informações a ele.
 
 * Se o provedor fechar a conexão depois de enviar um erro limpo, como`DELIVER_SM_RESP`, com um código de erro, ele deverá corrigir o conector. Caso contrário, isso impedirá que outros tipos de mensagens sejam transmitidas e acionará a limitação do MTA. Isso é especialmente importante no modo transceptor, em que o fechamento da conexão afeta tanto o MT quanto o SR.
 
@@ -153,9 +153,9 @@ Se `DELIVER_SM PDU` não for confirmado com êxito, verifique o seguinte:
 
 * Verifique se os erros foram devidamente provisionados na tabela `broadLogMsg`.
 
-* Para o Adobe Campaign Standard, verifique se `broadLog` e `broadLogExec` As tabelas estão sincronizadas corretamente.
+* Para o Adobe Campaign Standard, verifique se as tabelas `broadLog` e `broadLogExec` estão sincronizadas corretamente.
 
-Se você corrigiu tudo, mas alguns SR inválidos ainda estão nos buffers do provedor, é possível ignorá-los usando o **Contagem de confirmação de ID inválida** opção. Isso deverá ser usado com cuidado e redefinido como 0 o mais rápido possível depois que os buffers estiverem limpos.
+Se você corrigiu tudo, mas alguns SR inválidos ainda estão nos buffers do provedor, é possível ignorá-los usando a opção **Contagem de confirmação de ID inválida**. Isso deverá ser usado com cuidado e redefinido como 0 o mais rápido possível depois que os buffers estiverem limpos.
 
 ## Problema ao processar o MO (e resposta automática/inclui na lista de bloqueios){#issue-process-MO}
 
@@ -267,10 +267,10 @@ O novo conector dá suporte a logs estendidos por meio de rastreamentos: SMPP. O
 
 **Ativação por conta externa (método preferencial)**
 
-1. No **Conta externa**, selecione **Habilitar rastreamentos SMPP detalhados no arquivo de log**.
+1. Na **Conta externa**, selecione **Habilitar rastreamentos SMPP detalhados no arquivo de log**.
 1. Ao salvar, o conector se reconectará com os rastreamentos ativados.
 
-**Ativação em tempo real**
+**Habilitando em tempo real**
 
 O MTA do Adobe Campaign Standard tem uma interface de controle HTTP que permite alterar o filtro de rastreamento em tempo real.
 Uma chamada de POST pode ativar/desativar rastreamentos. Exemplo de URL para habilitar rastreamentos SMPP:

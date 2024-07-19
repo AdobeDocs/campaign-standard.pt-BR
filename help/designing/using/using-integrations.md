@@ -1,6 +1,6 @@
 ---
 title: Criação de emails por meio de integrações do Adobe Campaign
-description: Descubra como criar emails por meio de integrações do Adobe Campaign no Designer de email.
+description: Descubra como projetar emails por meio de integrações do Adobe Campaign na Designer de email.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -27,15 +27,15 @@ A integração do Adobe Campaign Standard com o Dreamweaver permite editar o con
 
   Sempre que uma edição é feita em um produto, ela é atualizada em tempo real no outro. Se você quiser alterar a cor do texto no Dreamweaver, assim que fizer essa edição, a cor do texto estará ativa no Campaign. Além disso, ao selecionar o código no Dreamweaver ou Campaign, como os números de linha são os mesmos, a seleção permanece entre os dois produtos, o que é muito útil ao procurar algo específico no código.
 
-* **Fazer upload de imagens locais no Adobe Campaign por meio do Dreamweaver**
+* **Carregar imagens locais para o Adobe Campaign por meio do Dreamweaver**
 
   Ao criar ou editar um email no Dreamweaver, você pode simplesmente selecionar uma imagem do seu desktop ou computador local. Embora o Dreamweaver sempre tenha permitido que você faça isso, quando o Dreamweaver e o Campaign estiverem conectados, o arquivo local será carregado imediatamente no servidor do Adobe Campaign: não é necessário carregar imagens manualmente conforme o conteúdo é alterado. Além disso, garante que as imagens mais recentes estejam sempre ativas no Campaign.
 
 * **Adicionar personalização do Campaign no Dreamweaver**
 
-  Para o desenvolvedor de email, não é mais necessário adicionar texto como `[[FIRSTNAME_PLACEHOLDER]]` nem para pesquisar a sintaxe das tabelas do modelo de dados. A barra de ferramentas do Campaign no Dreamweaver se conecta diretamente ao modelo de dados da instância do Campaign. Isso significa que você pode obter quaisquer dados que desejar para personalização de algo como Nome para Endereço. Se você tiver criado blocos de conteúdo no Campaign, também poderá puxá-los diretamente para o Dreamweaver.
+  Para o desenvolvedor de email, não é mais necessário adicionar texto como `[[FIRSTNAME_PLACEHOLDER]]`, nem pesquisar a sintaxe das tabelas do seu modelo de dados. A barra de ferramentas do Campaign no Dreamweaver se conecta diretamente ao modelo de dados da instância do Campaign. Isso significa que você pode obter quaisquer dados que desejar para personalização de algo como Nome para Endereço. Se você tiver criado blocos de conteúdo no Campaign, também poderá puxá-los diretamente para o Dreamweaver.
 
-Esse recurso é detalhado na Documentação do Dreamweaver, acessível [aqui](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
+Esse recurso está detalhado na Documentação do Dreamweaver acessível [aqui](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
 
 ![](assets/do-not-localize/how-to-video.png) [Conheça este recurso no vídeo](#video)
 
@@ -68,45 +68,45 @@ O Adobe Campaign oferece várias opções de criação de email. A tabela abaixo
  <tbody> 
   <tr> 
    <td> <strong>Iniciar email em branco</strong><br /> </td> 
-   <td> Compatível<br /> </td> 
-   <td> Compatível<br /> </td> 
-   <td> Compatível<br /> </td> 
+   <td> Com suporte<br /> </td> 
+   <td> Com suporte<br /> </td> 
+   <td> Com suporte<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Gravar HTML</strong><br /> </td> 
-   <td> Compatível<br /> </td> 
-   <td> Não suportado<br /> </td> 
-   <td> Compatível<br /> </td> 
+   <td> Com suporte<br /> </td> 
+   <td> Sem suporte<br /> </td> 
+   <td> Com suporte<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Atualizar HTML</strong><br /> </td> 
-   <td> Somente dentro de um componente de HTML<br /> </td> 
-   <td> Não suportado<br /> </td> 
-   <td> Compatível<br /> </td> 
+   <td> Somente dentro de um componente de HTML <br /> </td> 
+   <td> Sem suporte<br /> </td> 
+   <td> Com suporte<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Personalização básica</strong><br /> </td> 
-   <td> Compatível<br /> </td> 
-   <td> Compatível<br /> </td> 
-   <td> Compatível<br /> </td> 
+   <td> Com suporte<br /> </td> 
+   <td> Com suporte<br /> </td> 
+   <td> Com suporte<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Personalização avançada</strong><br /> </td> 
-   <td> Compatível<br /> </td> 
-   <td> Não suportado<br /> </td> 
-   <td> Não suportado<br /> </td> 
+   <td> Com suporte<br /> </td> 
+   <td> Sem suporte<br /> </td> 
+   <td> Sem suporte<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Prova/Visualização</strong><br /> </td> 
-   <td> Compatível<br /> </td> 
+   <td> Com suporte<br /> </td> 
    <td> Visualizar no AEM<br /> Prova no Campaign<br /> </td> 
    <td> Pré-visualização e prova no Campaign<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Listagens de produtos</strong><br /> </td> 
-   <td> Compatível com mensagens transacionais de email<br /> </td> 
-   <td> Não suportado<br /> </td> 
-   <td> Não suportado<br /> </td> 
+   <td> Suportado em mensagens transacionais de email<br /> </td> 
+   <td> Sem suporte<br /> </td> 
+   <td> Sem suporte<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Benefícios</strong><br /> </td> 
@@ -136,19 +136,19 @@ O Adobe Campaign oferece várias opções de criação de email. A tabela abaixo
      <p>- Dificuldade para implementar a personalização avançada</p>
      <p>- É necessário enviar testes no Adobe Campaign</p>
   </td> 
-   <td> Conteúdo dinâmico não suportado<br /> </td> 
+   <td> Conteúdo dinâmico sem suporte<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Público-alvo</strong><br /> </td> 
-   <td> Profissionais de marketing que desejam manter a flexibilidade para usar componentes do HTML em combinação com recursos de arrastar e soltar<br /> </td> 
+   <td> Profissionais de marketing que desejam manter a flexibilidade para usar componentes de HTML em combinação com recursos de arrastar e soltar<br /> </td> 
    <td> Profissionais de marketing que já usam o Experience Manager e que desejam usar modelos de email padrão com pouca personalização<br /> </td> 
-   <td> Desenvolvedores que desejam codificar conteúdo de email e integrar-se diretamente ao Adobe Campaign<br /> </td> 
+   <td> Desenvolvedores que desejam codificar conteúdo de email e integrar diretamente com o Adobe Campaign<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Para saber mais</strong><br /> </td> 
    <td> Consulte <a href="../../designing/using/designing-content-in-adobe-campaign.md">Sobre o Designer de email</a>.<br /> </td> 
    <td> Consulte <a href="../../integrating/using/integrating-with-experience-manager.md">Integração com o Experience Manager</a>.<br /> </td> 
-   <td> Consulte <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver e Campaign</a> e assista a isto <a href="#video">vídeo</a>.<br /> </td> 
+   <td> Veja o <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver e Campaign</a> e assista a este <a href="#video">vídeo</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -159,4 +159,4 @@ Este vídeo mostra como criar e editar conteúdo para o Adobe Campaign Standard 
 
 >[!VIDEO](https://video.tv.adobe.com/v/23121?quality=12&captions=eng)
 
-Vídeos extras explicativos sobre o Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
+Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

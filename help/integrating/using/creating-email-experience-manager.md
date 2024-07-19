@@ -37,18 +37,18 @@ Vários modelos específicos para o Adobe Campaign estão disponíveis. Você de
 
 Por padrão, dois modelos predefinidos permitem criar conteúdo de email para o Adobe Campaign.
 
-* **[!UICONTROL Adobe Campaign Email]**: esse template contém um conteúdo padrão que pode ser personalizado. Você pode escolher entre Email do Adobe Campaign (AC6.1) e Email do Adobe Campaign (ACS).
+* **[!UICONTROL Adobe Campaign Email]**: este modelo contém um conteúdo padrão que pode ser personalizado. Você pode escolher entre Email do Adobe Campaign (AC6.1) e Email do Adobe Campaign (ACS).
 * **[!UICONTROL Importer Page]**: esse modelo permite importar um arquivo ZIP contendo um arquivo HTML com conteúdo que você poderá personalizar.
 
-1. No Adobe Experience Manager, crie uma nova **[!UICONTROL Page]**.
+1. No Adobe Experience Manager, crie um novo **[!UICONTROL Page]**.
 
-1. Selecione o **[!UICONTROL Adobe Campaign Email]** modelo. Consulte o vídeo a seguir para obter as etapas detalhadas.
+1. Selecione o modelo **[!UICONTROL Adobe Campaign Email]**. Consulte o vídeo a seguir para obter as etapas detalhadas.
 
    >[!VIDEO](https://video.tv.adobe.com/v/29997)
 
 1. Abra seu novo conteúdo de email.
 
-1. No **[!UICONTROL Page properties]**, definir **[!UICONTROL Adobe Campaign]** como o **[!UICONTROL Cloud Service Configuration]**. Isso permite a comunicação entre seu conteúdo e sua instância do Adobe Campaign.
+1. No **[!UICONTROL Page properties]**, defina **[!UICONTROL Adobe Campaign]** como **[!UICONTROL Cloud Service Configuration]**. Isso permite a comunicação entre seu conteúdo e sua instância do Adobe Campaign.
 
    Para obter mais informações, assista ao seguinte vídeo:
 
@@ -60,15 +60,15 @@ Por padrão, dois modelos predefinidos permitem criar conteúdo de email para o 
 
 Para criar um conteúdo de email no Adobe Experience Manager:
 
-1. Edite o assunto e a variável **[!UICONTROL Plain text]** do seu e-mail acessando a **[!UICONTROL Page properties]** > **[!UICONTROL Email]** do sidekick.
+1. Edite o assunto, bem como a versão **[!UICONTROL Plain text]** do seu e-mail, acessando a guia **[!UICONTROL Page properties]** > **[!UICONTROL Email]** do sidekick.
 
-1. Adicionar **[!UICONTROL Personalization fields]** por meio da **[!UICONTROL Text & Personalization]** componente. Cada componente corresponde a um uso específico: inserção de imagens, adição de personalização etc.
+1. Adicionar **[!UICONTROL Personalization fields]** por meio do componente **[!UICONTROL Text & Personalization]**. Cada componente corresponde a um uso específico: inserção de imagens, adição de personalização etc.
 
    Para obter mais informações, assista ao seguinte vídeo:
 
    >[!VIDEO](https://video.tv.adobe.com/v/29998)
 
-1. No **[!UICONTROL Workflow]** , selecione a **[!UICONTROL Approve for Adobe Campaign]** workflow de validação. Você não poderá enviar um e-mail no Adobe Campaign se ele usar um conteúdo que não tenha sido aprovado.
+1. Na guia **[!UICONTROL Workflow]**, selecione o fluxo de trabalho de validação **[!UICONTROL Approve for Adobe Campaign]**. Você não poderá enviar um e-mail no Adobe Campaign se ele usar um conteúdo que não tenha sido aprovado.
 
 Para enviar seu email no Adobe Campaign Standard:
 
@@ -82,7 +82,7 @@ Para enviar seu email no Adobe Campaign Standard:
 
    1. Duplique ou selecione um dos templates do delivery.
 
-   1. No **[!UICONTROL Properties]** do seu modelo, no campo **[!UICONTROL Content]** selecione **[!UICONTROL Adobe Experience Manager as Content mode]** em seguida, sua conta do Adobe Experience Manager.
+   1. No **[!UICONTROL Properties]** do seu modelo, no menu suspenso **[!UICONTROL Content]**, selecione **[!UICONTROL Adobe Experience Manager as Content mode]** e depois sua conta da Adobe Experience Manager.
 
       ![](assets/aem_templates_2.png)
 
@@ -92,11 +92,11 @@ Para enviar seu email no Adobe Campaign Standard:
 
 1. Preencha as propriedades do seu email e clique em **[!UICONTROL Create]** para poder selecionar seu conteúdo AEM.
 
-1. Acesse o **[!UICONTROL Content]** bloco.
+1. Acesse o bloco **[!UICONTROL Content]**.
 
    ![](assets/aem_send_2.png)
 
-1. No **[!UICONTROL Use Adobe Experience Manager content]** clique em **[!UICONTROL Link AEM content]**.
+1. No menu **[!UICONTROL Use Adobe Experience Manager content]**, clique em **[!UICONTROL Link AEM content]**.
 
    Em seguida, selecione o conteúdo que deseja usar no email.
 

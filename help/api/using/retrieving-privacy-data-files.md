@@ -19,19 +19,19 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->A variável [Serviço principal de privacidade](https://developer.adobe.com/experience-platform-apis/references/privacy-service) A integração é o método que deve ser usado para todas as solicitações de acesso e exclusão. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
+>A Integração do [Privacy Core Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service) é o método que deve ser usado para todas as solicitações de acesso e exclusão. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
 Para recuperar o arquivo que contém todas as informações associadas a um valor de reconciliação, siga este procedimento de três etapas:
 
-1. Execute um **POST** solicitação para criar uma nova solicitação com o atributo **type=&quot;access&quot;**, consulte [Criação de uma nova solicitação de privacidade](../../api/using/creating-a-privacy-request.md).
+1. Execute uma solicitação **POST** para criar uma nova solicitação com o atributo **type=&quot;access&quot;**, consulte [Criando uma nova solicitação de privacidade](../../api/using/creating-a-privacy-request.md).
 
-1. Execute um **GET** solicitação para recuperar informações sobre a solicitação.
+1. Execute uma solicitação **GET** para recuperar informações sobre a solicitação.
 
-1. Recupere o arquivo de dados executando uma **POST** na solicitação retornada **privacyRequestData** URL, com o nome interno da solicitação de privacidade dentro da carga. Por exemplo: {&quot;name&quot;:&quot;PT17&quot;}.
+1. Recupere o arquivo de dados executando uma solicitação **POST** na URL **privacyRequestData** retornada, com o nome interno da solicitação de privacidade dentro da carga. Por exemplo: {&quot;name&quot;:&quot;PT17&quot;}.
 
 <br/>
 
-***Exemplo de solicitação***
+***Solicitação de exemplo***
 
 Crie uma solicitação de privacidade com o atributo type=&quot;access&quot;.
 

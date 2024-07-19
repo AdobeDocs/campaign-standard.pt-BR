@@ -24,7 +24,7 @@ Antes de publicar a mensagem transacional, você pode criar um perfil de teste e
 
 Defina um perfil de teste que será vinculado ao evento, o que permitirá pré-visualizar a mensagem e enviar uma prova relevante.
 
-1. No [painel de mensagem transacional](../../channels/using/editing-transactional-message.md#accessing-transactional-messages), clique no link **[!UICONTROL Create test profile]** botão.
+1. No [painel de mensagens transacionais](../../channels/using/editing-transactional-message.md#accessing-transactional-messages), clique no botão **[!UICONTROL Create test profile]**.
 
    ![](assets/message-center_test-profile.png)
 
@@ -40,16 +40,16 @@ Defina um perfil de teste que será vinculado ao evento, o que permitirá pré-v
 
    ![](assets/message-center_5.png)
 
-Você também pode criar um novo perfil de teste ou usar um que já existe na variável **[!UICONTROL Test profiles]** menu. Para fazer isso:
+Você também pode criar um novo perfil de teste ou usar um que já existe no menu **[!UICONTROL Test profiles]**. Para fazer isso:
 
-1. Clique em **Adobe** no canto superior esquerdo e selecione **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
-1. No **[!UICONTROL Event]** selecione o evento que acabou de criar. Neste exemplo, selecione &quot;Abandono de carrinho (EVTcartAbandonment)&quot;.
+1. Clique no logotipo **Adobe**, no canto superior esquerdo, e selecione **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
+1. Na seção **[!UICONTROL Event]**, selecione o evento que acabou de criar. Neste exemplo, selecione &quot;Abandono de carrinho (EVTcartAbandonment)&quot;.
 1. Especifique as informações para enviar no formato JSON na caixa de texto **[!UICONTROL Event data]**.
 
    ![](assets/message-center_3.png)
 
 1. Salve as alterações.
-1. [Acessar a mensagem](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) que você criou e selecione o perfil de teste atualizado.
+1. [Acesse a mensagem](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) que você criou e selecione o perfil de teste atualizado.
 
 **Tópicos relacionados:**
 
@@ -62,4 +62,4 @@ Depois de criar um ou mais perfis de teste específicos e salvar a mensagem tran
 
 ![](assets/message-center_10.png)
 
-As etapas para enviar uma prova estão detalhadas na [Envio de provas](../../sending/using/sending-proofs.md) seção.
+As etapas para enviar uma prova estão detalhadas na seção [Enviar provas](../../sending/using/sending-proofs.md).

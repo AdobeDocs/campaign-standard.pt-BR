@@ -24,17 +24,17 @@ Este relatório contém os dados de desempenho de cada domínio representado no 
 
 A tabela **Estatísticas de transmissão** contém os dados disponíveis para possíveis erros encontrados com cada domínio, como:
 
-* **Processado/enviado**: o número de emails enviados.
-* **Entregue**: o número de emails entregues.
-* **Devoluções + Erros**: o número de mensagens que não puderam ser entregues.
+* **Processados/enviados**: o número de emails enviados.
+* **Entregues**: o número de emails entregues.
+* **Rejeições + Erros**: o número de mensagens que não puderam ser entregues.
 * **Rejeição permanente**: o número total de erros permanentes, como um endereço de email incorreto.
-* **Rejeição leve**: o número total de erros temporários, como uma caixa de entrada cheia.
+* **Rejeição temporária**: o número total de erros temporários, como uma caixa de entrada cheia.
 
-A segunda tabela, **Estatísticas de rastreamento**, contém os dados disponíveis para a reatividade do recipient ao delivery, como:
+A segunda tabela, **Estatísticas de rastreamento**, contém os dados disponíveis para a reatividade do destinatário para entrega, como:
 
-* **Entregue**: o número de emails entregues
-* **Abertura**: o número de vezes que uma mensagem foi aberta em um delivery.
-* **Clique em**: O número de vezes que o conteúdo foi clicado em um delivery.
-* **Assinatura cancelada**: O número de cliques no link de subscrição.
+* **Entregues**: o número de emails entregues
+* **Aberto**: o número de vezes que uma mensagem foi aberta em uma entrega.
+* **Clique**: o número de vezes que o conteúdo foi clicado em uma entrega.
+* **Cancelar assinatura**: o número de cliques no link de assinatura.
 * **Mirror Page**: o número de cliques no link da mirror page.
-* **Na inclui na lista de bloqueios**: o número de recipients que declararam um email como spam ou lixo eletrônico. [Saiba mais](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* **Na inclui na lista de bloqueios**: o número de destinatários que declararam um email como spam ou lixo eletrônico. [Saiba mais](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

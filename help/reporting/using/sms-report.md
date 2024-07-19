@@ -17,12 +17,12 @@ ht-degree: 5%
 
 # Relatório de SMS{#sms-report}
 
-A variável **SMS** O relatório fornece detalhes sobre deliveries de SMS, como taxas de delivery e rejeição.
+O relatório **SMS** fornece detalhes sobre entregas de SMS, como taxas de entrega e rejeição.
 
 ![](assets/dynamic_report_sms.png)
 
-A variável **Resumo do SMS** tabela, gráficos e números de resumo contêm dados disponíveis para deliveries de SMS que foram enviados.
+A tabela de **resumo de SMS**, os gráficos e os números de resumo contêm dados disponíveis para as entregas de SMS que foram enviadas.
 
-* **Processado/enviado**: o número de SMS enviado.
+* **Processado/enviado**: o número de SMS enviados.
 * **Entregue**: o número de SMS entregue.
-* **Devoluções + Erros**: o número de mensagens que não puderam ser entregues.
+* **Rejeições + Erros**: o número de mensagens que não puderam ser entregues.

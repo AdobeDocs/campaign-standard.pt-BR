@@ -18,10 +18,10 @@ ht-degree: 2%
 
 # Reclamações{#complaints}
 
-A variável **[!UICONTROL Complaints]** O relatório identifica as entregas que receberam mais declarações como spam.
+O relatório **[!UICONTROL Complaints]** identifica as entregas que receberam mais declarações como spam.
 
 ![](assets/delivery_reports_complaints.png)
 
-A variável **Flop** table, classificado por domínio do recipient, exibe o número de recipients que declararam um email ou lixo eletrônico. Os resultados da tabela também estão disponíveis em um gráfico e em números de resumo.
+A tabela **Flop**, classificada por domínio de destinatário, exibe o número de destinatários que declararam um email ou lixo eletrônico. Os resultados da tabela também estão disponíveis em um gráfico e em números de resumo.
 
-A variável **Entregue vs Na Inclui na lista de bloqueios** A tabela lista o número de recipients que declararam um email como spam ou lixo eletrônico. A tabela é classificada por delivery.
+A tabela **Entregue vs Em Inclui na lista de bloqueios** lista o número de destinatários que declararam um email como spam ou lixo eletrônico. A tabela é classificada por delivery.

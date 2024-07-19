@@ -19,15 +19,15 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> O Adobe Experience Platform Launch foi reformulado como um conjunto de tecnologias de coleção de dados na Adobe Experience Platform. Como resultado, várias alterações de terminologia foram implementadas na documentação do produto. Consulte a [seguinte documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html){target="_blank"} para obter uma referência consolidada das alterações de terminologia.
+> O Adobe Experience Platform Launch foi reformulado como um conjunto de tecnologias de coleção de dados na Adobe Experience Platform. Como resultado, várias alterações de terminologia foram implementadas na documentação do produto. Consulte o [seguinte documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html){target="_blank"} para obter uma referência consolidada das alterações de terminologia.
 
 Observe que as implementações de notificação por push e no aplicativo devem ser executadas por usuários especialistas. Para obter assistência, entre em contato com o executivo da sua conta Adobe ou com o parceiro de serviços Professional.
 
 Para enviar notificações por push e mensagens no aplicativo com o aplicativo SDK do Experience Platform, um aplicativo para dispositivos móveis deve ser configurado na interface da Coleção de dados e no Adobe Campaign.
 
-Depois que um aplicativo móvel é configurado, você pode recuperar os dados de PII coletados para criar ou atualizar perfis do banco de dados. Para obter mais informações, consulte esta seção: [Criação e atualização de informações de perfil com base em dados de aplicativo móvel](../../channels/using/updating-profile-with-mobile-app-data.md).
+Depois que um aplicativo móvel é configurado, você pode recuperar os dados de PII coletados para criar ou atualizar perfis do banco de dados. Para obter mais informações, consulte esta seção: [Criar e atualizar informações de perfil com base nos dados do aplicativo móvel](../../channels/using/updating-profile-with-mobile-app-data.md).
 
-Para saber mais sobre os diferentes casos de uso de dispositivos móveis compatíveis com o Adobe Campaign Standard usando os SDKs da Adobe Experience Platform, consulte este [página](../../administration/using/supported-mobile-use-cases.md).
+Para saber mais sobre os diferentes casos de uso de publicação de conteúdo para dispositivos móveis com suporte no Adobe Campaign Standard usando os SDKs da Adobe Experience Platform, consulte esta [página](../../administration/using/supported-mobile-use-cases.md).
 
 Para concluir a configuração, conclua as seguintes etapas:
 
@@ -43,17 +43,17 @@ Para concluir a configuração, conclua as seguintes etapas:
    * No Adobe Campaign Standard, verifique se o usuário do IMS faz parte dos Perfis de usuário padrão e de produto de administrador. Essa etapa permite que o usuário faça logon no Adobe Campaign Standard, navegue até a página do aplicativo móvel do SDK do Experience Platform e visualize as propriedades do aplicativo móvel criadas na interface da Coleção de dados.
 
    * Na interface da Coleção de dados, verifique se o usuário do IMS faz parte de um perfil de produto Experience Platform Launch.
-Esta etapa permite que o usuário faça logon na interface da Coleção de dados para criar e exibir as propriedades. Para obter mais informações sobre perfis de produto na interface da Coleção de dados, consulte [Crie seu perfil de produto](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile). No perfil do produto, não deve haver permissões definidas na empresa ou nas propriedades, mas o usuário ainda deve conseguir fazer logon.
+Esta etapa permite que o usuário faça logon na interface da Coleção de dados para criar e exibir as propriedades. Para obter mais informações sobre perfis de produtos na Interface da Coleção de Dados, consulte [Criar perfil de produto](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile). No perfil do produto, não deve haver permissões definidas na empresa ou nas propriedades, mas o usuário ainda deve conseguir fazer logon.
 
    Para concluir tarefas adicionais, como instalar uma extensão, publicar um aplicativo, configurar ambientes e assim por diante, é necessário definir permissões no perfil do produto.
 
-1. Na interface da Coleção de dados, crie uma **[!UICONTROL Mobile property]**. Para saber mais, consulte [Configurar uma propriedade móvel](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property).
+1. Na interface da Coleção de Dados, crie um **[!UICONTROL Mobile property]**. Para saber mais, consulte [Configurar uma propriedade móvel](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property).
 
-1. Na interface da Coleção de dados, clique na guia **[!UICONTROL Extensions]** , acesse **[!UICONTROL Catalog]** e pesquise por **[!UICONTROL Adobe Campaign Standard]** extensão. Para obter mais informações, consulte [Adobe Campaign Standard](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
+1. Na interface da Coleção de Dados, clique na guia **[!UICONTROL Extensions]**, vá para **[!UICONTROL Catalog]** e procure a extensão **[!UICONTROL Adobe Campaign Standard]**. Para obter mais informações, consulte [Adobe Campaign Standard](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
-1. Para obter suporte a casos de uso de localização no Campaign Standard, instale o **[!UICONTROL Places]** na interface da Coleção de dados. Consulte esta [página](https://developer.adobe.com/client-sdks/solution/places).
+1. Para dar suporte a casos de uso de localização no Campaign Standard, instale a extensão **[!UICONTROL Places]** na interface da Coleção de Dados. Consulte esta [página](https://developer.adobe.com/client-sdks/solution/places).
 
-1. No Adobe Campaign Standard, configure a propriedade móvel que você criou na interface da coleção de dados. Consulte [Configuração do aplicativo Adobe Experience Platform Launch no Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
+1. No Adobe Campaign Standard, configure a propriedade móvel que você criou na interface da coleção de dados. Consulte [Configurando seu aplicativo do Adobe Experience Platform Launch no Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
 1. Adicione a configuração específica do canal à configuração do aplicativo móvel.
 Para saber mais, consulte [Configuração do aplicativo específico do canal no Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
@@ -63,16 +63,16 @@ Para obter mais informações, consulte [Excluindo seu aplicativo](../../adminis
 
 ## Sincronizar AEPSDK do aplicativo móvel a partir do fluxo de trabalho técnico do Launch {#aepsdk-workflow}
 
-Depois de criar e configurar sua propriedade móvel na interface da Coleção de dados, a variável **[!UICONTROL Sync Mobile app AEPSDK from Launch]** o fluxo de trabalho técnico agora sincronizará as propriedades móveis de tag importadas no Adobe Campaign Standard.
+Depois de criar e configurar sua propriedade móvel na interface da Coleção de dados, o fluxo de trabalho técnico do **[!UICONTROL Sync Mobile app AEPSDK from Launch]** sincronizará as propriedades móveis de tag importadas no Adobe Campaign Standard.
 
 Por padrão, o fluxo de trabalho técnico é iniciado a cada 15 minutos. Se necessário, ele poderá ser reiniciado manualmente:
 
 1. No Adobe Campaign Standard, no menu avançado, selecione **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**.
-1. Abra o **[!UICONTROL Sync Mobile app AEPSDK from Launch (syncWithLaunch)]** fluxo de trabalho.
+1. Abra o fluxo de trabalho **[!UICONTROL Sync Mobile app AEPSDK from Launch (syncWithLaunch)]**.
 
    ![](assets/launch_10.png)
 
-1. Clique no link **[!UICONTROL Scheduler]** atividade.
+1. Clique na atividade **[!UICONTROL Scheduler]**.
 
 1. Selecione **[!UICONTROL Immediate execution]**.
 
@@ -86,7 +86,7 @@ Para usar uma propriedade de tag móvel no Campaign, você também deve configur
 
 Aguarde até que o fluxo de trabalho técnico seja executado e sincronize a propriedade móvel da tag com a Adobe Campaign. Em seguida, você pode configurá-lo no Adobe Campaign.
 
-Para obter mais informações sobre o aplicativo móvel de sincronização AEPSDK do fluxo de trabalho técnico do Launch, consulte este [seção](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
+Para obter mais informações sobre o aplicativo móvel de sincronização AEPSDK do fluxo de trabalho técnico do Launch, consulte esta [seção](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
 
 >[!NOTE]
 >
@@ -97,17 +97,17 @@ Para obter mais informações sobre o aplicativo móvel de sincronização AEPSD
    ![](assets/launch.png)
 
 1. Selecione o aplicativo móvel criado na interface da coleção de dados.
-Seus **[!UICONTROL Property Status]** deve ser **[!UICONTROL Ready to configure]**.
+Seu **[!UICONTROL Property Status]** deve ser **[!UICONTROL Ready to configure]**.
 
    >[!NOTE]
    >
    >Por padrão, para recuperar a lista de aplicativos móveis criados na interface da Coleção de dados, o Campaign Standard usa o valor definido na opção NmsServer_URL para procurar propriedades correspondentes.
    >
-   >Em alguns casos, o endpoint do Campaign para um aplicativo móvel pode ser diferente daquele definido em NmsServer_URL. Nesse caso, defina o endpoint no `Launch_URL_Campaign` opção. O Campaign usará o valor dessa opção para procurar propriedades correspondentes na interface da Coleção de dados.
+   >Em alguns casos, o endpoint do Campaign para um aplicativo móvel pode ser diferente daquele definido em NmsServer_URL. Nesse caso, defina o ponto de extremidade na opção `Launch_URL_Campaign`. O Campaign usará o valor dessa opção para procurar propriedades correspondentes na interface da Coleção de dados.
 
    ![](assets/launch_4.png)
 
-1. Você pode alterar a unidade organizacional do seu aplicativo móvel no **[!UICONTROL Access Authorization]** seção para limitar o acesso a este aplicativo móvel a unidades organizacionais específicas. Para obter mais informações, consulte esta página.
+1. Você pode alterar a unidade organizacional do aplicativo móvel na seção **[!UICONTROL Access Authorization]** para limitar o acesso a esse aplicativo móvel a unidades organizacionais específicas. Para obter mais informações, consulte esta página.
 
    Aqui, o administrador pode atribuir unidades sub-organizacionais selecionando-as na lista suspensa.
 
@@ -123,7 +123,7 @@ Seus **[!UICONTROL Property Status]** deve ser **[!UICONTROL Ready to configure]
 
 1. Para que essa configuração tenha efeito, as alterações precisam ser publicadas na interface da Coleção de dados.
 
-   Para obter mais informações, consulte [Publicar configuração](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
+   Para obter mais informações, consulte [configuração do Publish](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
 
 ## Configuração do aplicativo específico do canal no Adobe Campaign {#channel-specific-config}
 
@@ -133,9 +133,9 @@ Seu aplicativo móvel agora está pronto para ser usado na notificação por pus
 
 1. Selecione o aplicativo para dispositivos móveis criado e configurado na interface da Coleção de dados.
 
-1. No **[!UICONTROL Mobile application properties]** você pode começar a adicionar eventos que estão disponíveis no aplicativo móvel para suas mensagens no aplicativo.
+1. Na guia **[!UICONTROL Mobile application properties]**, você pode começar a adicionar eventos que estão disponíveis no aplicativo móvel para suas mensagens no aplicativo.
 
-1. Para configurar os eventos, clique em **[!UICONTROL Create Element]**.
+1. Para configurar seus eventos, clique em **[!UICONTROL Create Element]**.
 
    ![](assets/launch_6.png)
 
@@ -145,18 +145,18 @@ Seu aplicativo móvel agora está pronto para ser usado na notificação por pus
 
 1. Clique em **[!UICONTROL Add]**.
 
-   Seu evento agora está disponível na guia Acionadores ao criar uma mensagem no aplicativo. Para obter mais informações, consulte [Preparação e envio de uma mensagem no aplicativo](../../channels/using/preparing-and-sending-an-in-app-message.md).
+   Seu evento agora está disponível na guia Acionadores ao criar uma mensagem no aplicativo. Para obter mais informações, consulte [Preparando e enviando uma mensagem no aplicativo](../../channels/using/preparing-and-sending-an-in-app-message.md).
 
-1. No **[!UICONTROL Device-specific settings]** seção de um painel de aplicativo móvel, para cada dispositivo, forneça os detalhes do aplicativo.
+1. Na seção **[!UICONTROL Device-specific settings]** de um painel de aplicativo móvel, para cada dispositivo, forneça os detalhes do aplicativo.
 
    * +++ Para iOS
 
      Informe os seguintes detalhes do aplicativo:
 
-      * **ID do aplicativo (ID do pacote iOS)**: Consulte [Documentação do Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"} para obter mais informações sobre ID do pacote.
-      * **Arquivo de certificado (P8) do iOS**: arraste e solte sua chave de autenticação .p8. Para obter instruções sobre como gerar o arquivo de autenticação .p8, consulte o [Conta de desenvolvedor do Apple](https://developer.apple.com/account/ios/authkey/create){target="_blank"}.
-      * **ID da chave**: Consulte [Documentação do Apple](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"} para obter mais informações sobre a ID de chave.
-      * **ID da equipe do iOS**: Consulte [Documentação do Apple](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} para obter mais informações sobre a iOS Team ID.
+      * **ID do Aplicativo (ID do Pacote iOS)**: consulte a [documentação do Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"} para obter mais informações sobre a ID do Pacote.
+      * **Arquivo de Certificado (P8) do iOS**: arraste e solte sua chave de autenticação .p8. Para obter instruções sobre como gerar o arquivo de autenticação .p8, consulte sua [conta de desenvolvedor do Apple](https://developer.apple.com/account/ios/authkey/create){target="_blank"}.
+      * **ID da Chave**: consulte a [documentação do Apple](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"} para obter mais informações sobre a ID da Chave.
+      * **iOS Team ID**: consulte a [documentação do Apple](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} para obter mais informações sobre a iOS Team ID.
 
         ![](assets/mobile_app_ios_config.png)
 +++
@@ -165,15 +165,15 @@ Seu aplicativo móvel agora está pronto para ser usado na notificação por pus
 
      Informe os seguintes detalhes do aplicativo:
 
-      * **ID do aplicativo (nome do pacote Android)**: Consulte [Documentação do Android](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"} para obter mais informações sobre o Nome do pacote.
-      * **Arquivo Da Chave Do Android (Json)**: arraste e solte seu arquivo de chave privada .json. Para obter instruções sobre como gerar o arquivo de chave privada .json, consulte o [Documentação do desenvolvedor do Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}.
+      * **ID do Aplicativo (Nome do Pacote Android)**: Consulte a [documentação do Android](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"} para obter mais informações sobre o nome do Pacote.
+      * **Arquivo de chave privada (Json) do Android**: arraste e solte seu arquivo de chave privada .json. Para obter instruções sobre como gerar o arquivo de chave privada .json, consulte a [Documentação do desenvolvedor para Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}.
 
         ![](assets/mobile_app_android_config.png)
 +++
 
 1. Depois que o certificado for carregado, uma mensagem notificará que o upload foi bem-sucedido e exibirá a data de expiração do certificado.
 
-1. Clique em **[!UICONTROL Mobile application subscribers]** para ver uma lista de assinantes e outras informações sobre esses assinantes, por exemplo, se eles optaram por não participar das notificações.
+1. Clique na guia **[!UICONTROL Mobile application subscribers]** para ver uma lista de assinantes e outras informações sobre esses assinantes, por exemplo, se eles optaram por não receber suas notificações.
 
 ## Excluindo seu aplicativo {#delete-app}
 
@@ -181,7 +181,7 @@ Seu aplicativo móvel agora está pronto para ser usado na notificação por pus
 >
 >A exclusão do aplicativo não pode ser revertida.
 
-Para excluir o aplicativo, conclua as etapas em [Exclusão de propriedades móveis](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#deleting-mobile-properties-in-the-data-collection-ui).
+Para excluir seu aplicativo, conclua as etapas em [Excluindo propriedades móveis](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#deleting-mobile-properties-in-the-data-collection-ui).
 
 Depois que o aplicativo for excluído, no Adobe Campaign, verifique se o status da Propriedade do aplicativo foi atualizado corretamente para Excluído no Launch.
 

@@ -27,10 +27,10 @@ Os direitos padrão são:
 
   >[!NOTE]
   >
-  >Se você trabalhar com Acionadores do Experience Cloud, precisará da variável **[!UICONTROL Administration]** direito de acessar o menu Acionadores do Experience Cloud. Para obter mais informações sobre Experience Cloud Triggers, consulte esta página [página](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+  >Se você trabalhar com Acionadores de Experience Cloud, precisará do direito **[!UICONTROL Administration]** para acessar o menu Acionadores de Experience Cloud. Para obter mais informações sobre Experience Cloud Triggers, consulte esta [página](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
 * **[!UICONTROL Datamodel]**: Direito de executar publicações e criar recursos personalizados.
-* **[!UICONTROL Generic import]**: Direito de executar uma importação genérica nos dados. Para que isso funcione, é necessário vincular o **[!UICONTROL Generic import]** para a **[!UICONTROL Workflow]** função.
+* **[!UICONTROL Generic import]**: Direito de executar uma importação genérica nos dados. Para que isso funcione, você deve vincular a função **[!UICONTROL Generic import]** à função **[!UICONTROL Workflow]**.
 * **[!UICONTROL Prepare deliveries]**: Direito de criar, modificar, preparar e excluir entregas. Os usuários com essa função podem preparar a entrega, mas não podem enviá-la.
 * **[!UICONTROL Start deliveries]**: Direito de criar, modificar, preparar, enviar e excluir a entrega.
 * **[!UICONTROL Workflow]**: Direito de gerenciar a execução de workflows (início, parada, pausa etc.). Os usuários com essa função não podem enviar uma entrega mesmo em um workflow.

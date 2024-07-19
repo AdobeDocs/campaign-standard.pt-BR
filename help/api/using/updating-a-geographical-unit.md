@@ -17,12 +17,12 @@ ht-degree: 10%
 
 # Atualização da unidade geográfica de um perfil {#updating-a-geographical-unit}
 
-1. Execute uma solicitação GET no **geoUnitBase** para recuperar a PKey da unidade geográfica.
+1. Execute uma solicitação GET no recurso **geoUnitBase** para recuperar a PKey da unidade geográfica.
 1. Execute uma solicitação PATCH no perfil PKey, com a PKey da unidade geográfica desejada na carga.
 
 <br/>
 
-***Exemplo de solicitação***
+***Solicitação de exemplo***
 
 Recuperar a lista de Unidades geográficas.
 

@@ -18,16 +18,16 @@ ht-degree: 5%
 
 # Não entregues e devolvidos{#non-deliverables-and-bounces}
 
-A variável **[!UICONTROL Non-deliverables and bounces]** O relatório fornece detalhes sobre todos os erros encontrados durante um delivery.
+O relatório **[!UICONTROL Non-deliverables and bounces]** fornece detalhes sobre todos os erros encontrados durante uma entrega.
 
 ![](assets/delivery_reports_7.png)
 
-A variável **[!UICONTROL Overview]** A tabela contém os dados disponíveis sobre possíveis erros que podem ser encontrados para cada delivery, como:
+A tabela **[!UICONTROL Overview]** contém os dados disponíveis sobre possíveis erros que podem ser encontrados para cada entrega, como:
 
-* **Processado/enviado**: o número de emails enviados.
-* **Entregue**: o número de emails entregues.
-* **Rejeição leve**: o número total de erros temporários, como uma caixa de entrada cheia.
+* **Processados/enviados**: o número de emails enviados.
+* **Entregues**: o número de emails entregues.
+* **Rejeição temporária**: o número total de erros temporários, como uma caixa de entrada cheia.
 * **Rejeição permanente**: o número total de erros permanentes, como um endereço de email incorreto.
-* **Devoluções + Erros**: o número de mensagens que não puderam ser entregues.
+* **Rejeições + Erros**: o número de mensagens que não puderam ser entregues.
 
-A variável **Detalhamento por domínio** A tabela lista as rejeições por domínios dos destinatários.
+A tabela **Detalhamento por domínio** lista as rejeições por domínios de destinatários.

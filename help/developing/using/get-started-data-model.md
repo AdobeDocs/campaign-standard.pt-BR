@@ -29,9 +29,9 @@ Estenda o modelo de dados do Campaign Standard com seus próprios campos e recur
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-Os dados usados pelo Campaign são definidos por meio de diferentes recursos em uma **modelo de dados predefinido**. O modelo de dados exibe uma estrutura SQL pronta para uso para um conjunto de recursos relacionados ao marketing: entrega, público-alvo, landing pages, perfil, etc. Cada recurso vem com filtros associados, que permitem navegar pelos recursos.
+Os dados usados pelo Campaign são definidos com recursos diferentes definidos em um **modelo de dados predefinido**. O modelo de dados exibe uma estrutura SQL pronta para uso para um conjunto de recursos relacionados ao marketing: entrega, público-alvo, landing pages, perfil, etc. Cada recurso vem com filtros associados, que permitem navegar pelos recursos.
 
-A variável **Diagnóstico** O menu permite listar os objetos técnicos gerados pelo Campaign Standard: schemas de dados, páginas da Web, filtros etc., permitindo monitorar o modelo de dados e qualquer alteração feita nele.
+O menu **Diagnóstico** permite listar os objetos técnicos gerados pelo Campaign Standard: esquemas de dados, páginas da Web, filtros, etc., permitindo monitorar o modelo de dados e qualquer alteração feita nele.
 
 Leia mais:
 
@@ -44,9 +44,9 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_custom.svg" width="60px">
 
-Campaign Standard permite **Enriquecer o modelo de dados predefinido** para criar seus próprios recursos (por exemplo, para adicionar tabelas de Compra ou Produto) ou estender recursos existentes com novos campos. Você também pode configurar as telas do Campaign para otimizar a navegação pelos novos recursos e campos criados.
+O Campaign Standard permite **Enriquecer o modelo de dados predefinido** para criar seus próprios recursos (por exemplo, para adicionar tabelas de Produto ou Compra) ou estender recursos existentes com novos campos. Você também pode configurar as telas do Campaign para otimizar a navegação pelos novos recursos e campos criados.
 
-Além disso, você pode **estender APIs REST do Campaign Standard** para expor nos campos estendidos das APIs os Perfis de recursos personalizados. Isso permite, por exemplo, atualizar o perfil de um cliente com um código promocional gerado de um sistema de faturamento.
+Além disso, você pode **estender APIs REST do Campaign Standard** para expor os campos estendidos das APIs para os Perfis de recursos personalizados. Isso permite, por exemplo, atualizar o perfil de um cliente com um código promocional gerado de um sistema de faturamento.
 
 Leia mais:
 

@@ -17,7 +17,7 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->A variável **Protocolo e configurações do conector de SMS** para Adobe Campaign Classic pode ser encontrado neste [página](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html).
+>O **protocolo e as configurações do conector SMS** para Adobe Campaign Classic podem ser encontrados nesta [página](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html).
 >
 >Por meio desse documento, todas as referências a detalhes sobre o protocolo, nomes de campos e valores se referem à [especificação SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
@@ -150,7 +150,7 @@ Campos de destaque em `BIND_* PDU`:
 
 #### DESVINCULAR {#unbind}
 
-Essa PDU deve ser enviada pelo sistema antes da desconexão. Deve aguardar a correspondência `UNBIND_RESP PDU` antes de fechar a conexão.
+Essa PDU deve ser enviada pelo sistema antes da desconexão. Deve aguardar o `UNBIND_RESP PDU` correspondente antes de fechar a conexão.
 
 A conformidade com o SMSC não deve fechar a conexão. A conexão TCP é controlada pelo conector do Adobe Campaign.
 
@@ -212,13 +212,13 @@ A maioria dos campos tem o mesmo significado que sua contraparte `SUBMIT_SM`. Es
 
 * **short_message**: texto da mensagem. No caso de SR, contém os dados descritos no apêndice B da especificação do protocolo SMPP. Consulte [Gerenciamento de erros do SR](../../administration/using/sms-protocol.md#sr-error-management) para obter mais detalhes.
 
-O Adobe Campaign pode ler a ID da mensagem no `receipted_message_id` campo opcional com alguns ajustes de configuração.
+O Adobe Campaign pode ler a ID da mensagem no campo opcional `receipted_message_id` com alguns ajustes de configuração.
 
 #### DELIVER_SM_RESP {#deliver-sm-resp}
 
 Essa PDU é enviada pelo Adobe Campaign para reconhecer o SR e o MO.
 
-O Adobe Campaign Standard só envia um `DELIVER_SM_RESP` depois que todas as etapas de processamento tiverem sido bem-sucedidas. Isso garante que nenhum SR ou MO seja reconhecido enquanto ainda houver risco de erros de processamento.
+O Adobe Campaign Standard envia um `DELIVER_SM_RESP` somente depois que todas as etapas de processamento tiverem sido bem-sucedidas. Isso garante que nenhum SR ou MO seja reconhecido enquanto ainda houver risco de erros de processamento.
 
 #### ENQUIRE_LINK {#enquire-links}
 
@@ -256,7 +256,7 @@ Para atingir o máximo de rendimento possível, é necessário ajustar a janela 
 
 O protocolo SMPP define erros síncronos padrão em `RESP PDU`s, mas não define códigos de erro para SR. Cada provedor usa seus próprios códigos de erro com o respectivo significado.
 
-Uma recomendação é feita na seção Apêndice B do [Especificação de protocolo SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (página 167), mas não lista os códigos de erro reais nem o respectivo significado.
+Uma recomendação é feita na seção Apêndice B da [especificação do protocolo SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (página 167), mas não lista os códigos de erro reais nem o respectivo significado.
 
 Para se adaptar ao gerenciamento de erros, o sistema de mensagem de banda larga do Adobe Campaign foi aproveitado para provisionar adequadamente os erros e sua gravidade (hardware, software etc.).
 
@@ -377,7 +377,7 @@ Se você precisar controlar com precisão o número de conexões (por exemplo, o
 
 #### Modo de conexão SMPP {#smpp-connection-mode}
 
-Define a conexão em **transceptor** ou em separado **transmissor+receptor** modo. Ao alternar para separado **transmissor+receptor** , configurações no **Modo de conexão SMPP** se aplicam ao transmissor e às configurações no **Configurações de conexão do receptor** se aplicar à conexão do receptor, somente se você tiver marcado a opção **Use parâmetros diferentes para o receptor** caixa de seleção
+Define a conexão no modo **transceptor** ou no modo **transmissor+receptor** separado. Ao alternar para o modo separado **transmissor+receptor**, as configurações na seção **modo de conexão SMPP** se aplicam ao transmissor e as configurações na seção **configurações de conexão do receptor** se aplicam à conexão do receptor, somente se você marcou a caixa de seleção **Usar parâmetros diferentes para o receptor**.
 
 #### Nome da implementação SMSC {#smsc-implementation-name}
 
@@ -414,7 +414,7 @@ Fórmula de total de conexões para o Adobe Campaign Standard:
 
 Conexões simultâneas são definidas na conta externa, o número de threads é definido no arquivo config-instance.xml (smppConnectorThreads) e o número de MTAs pode ser limitado na conta externa.
 
-Em separado **transmissor/receptor** , o número de conexões acima representa o número de **transmissor/receptor** pares, o que significa que haverá o dobro do número total de conexões.
+No modo separado **transmissor/receptor**, o número de conexões acima representa o número de pares de **transmissor/receptor**, o que significa que haverá duas vezes o número de conexões no total.
 
 #### Habilitar TLS em SMPP {#enable-TLS}
 
@@ -436,7 +436,7 @@ Quando a caixa estiver marcada, as configurações na seção **Configurações 
 
 **Servidor do receptor, porta, conta, senha, tipo de sistema**
 
-Essas configurações se aplicam ao receptor quando em **transmissor+receptor** modo. Elas funcionam como a parte transmissora. Veja mais detalhes acima.
+Essas configurações se aplicam ao receptor quando no modo **transmissor+receptor**. Elas funcionam como a parte transmissora. Veja mais detalhes acima.
 
 ### Configurações de canal de SMPP {#smpp-channel-settings}
 
@@ -478,7 +478,7 @@ A especificação de código curto é útil para dois recursos:
 
 * A configuração de lista de bloqueios do recurso de resposta automática só envia para a quarentena o usuário para um código curto específico.
 
-#### TON/NPI de origem, TON/NPI de destino {#ton-npi}
+#### Source TON/NPI, TON/NPI de destino {#ton-npi}
 
 O TON (Tipo de Número) e o NPI (Indicador do Plano de Numeração) são descritos na seção 5.2.5 da especificação [SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (página 117). Esses valores devem ser definidos de acordo com as necessidades do provedor.
 
@@ -720,9 +720,9 @@ Todas as entradas na tabela são processadas na ordem especificada, até que uma
 
 ### Parâmetros opcionais de resposta automática (TLV) {#automatic-reply-tlv}
 
-A partir da versão 21.1, você pode adicionar parâmetros opcionais ao MT de resposta automática. Eles são adicionados como parâmetros TLV opcionais à `SUBMIT_SM PDU` da resposta, tal como descrito na seção 5.3 da comunicação [Especificação SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(página 131).
+A partir da versão 21.1, você pode adicionar parâmetros opcionais ao MT de resposta automática. Eles são adicionados como parâmetros TLV opcionais para a `SUBMIT_SM PDU` da resposta, conforme descrito na seção 5.3 da [especificação SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(página 131).
 
-Para obter mais informações sobre parâmetros opcionais, consulte [seção](../../administration/using/sms-protocol.md#smpp-optional-parameters).
+Para obter mais informações sobre parâmetros opcionais, consulte esta [seção](../../administration/using/sms-protocol.md#smpp-optional-parameters).
 
 ## Parâmetros de modelo de entrega do SMS {#sms-delivery-template-parameters}
 
@@ -766,15 +766,15 @@ O período de validade é transmitido no campo `validity_period` de `SUBMIT_SM P
 
 #### Parâmetros opcionais de SMPP (TLV) {#smpp-optional-parameters}
 
-A partir da versão 21.1, você pode adicionar vários parâmetros opcionais a cada MT enviado para esse delivery. Esses parâmetros opcionais são adicionados à variável `SUBMIT_SM PDU` da resposta, tal como descrito na seção 5.3 da comunicação [Especificação SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(página 131).
+A partir da versão 21.1, você pode adicionar vários parâmetros opcionais a cada MT enviado para esse delivery. Esses parâmetros opcionais são adicionados à `SUBMIT_SM PDU` da resposta, conforme descrito na seção 5.3 da [especificação SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(página 131).
 
 Cada linha na tabela representa um parâmetro opcional:
 
-* **Parâmetro**: Descrição do parâmetro. Não transmitido ao provedor.
-* **ID da tag**: Tag do parâmetro opcional. Deve ser um hexadecimal válido, usando o formato 0x1234. Valores inválidos levarão a um erro de preparação de entrega.
-* **Valor**: Valor do campo opcional. Codificado como UTF-8 quando é transmitido ao provedor. O formato de codificação não pode ser alterado, não é possível enviar valores binários ou usar codificações diferentes, como UTF-16 ou GSM7.
+* **Parâmetro**: descrição do parâmetro. Não transmitido ao provedor.
+* **Id da Marca**: Marca do parâmetro opcional. Deve ser um hexadecimal válido, usando o formato 0x1234. Valores inválidos levarão a um erro de preparação de entrega.
+* **Valor**: valor do campo opcional. Codificado como UTF-8 quando é transmitido ao provedor. O formato de codificação não pode ser alterado, não é possível enviar valores binários ou usar codificações diferentes, como UTF-16 ou GSM7.
 
-Se qualquer parâmetro opcional tiver o mesmo **ID da tag** como o **ID da etiqueta de serviço** definido na conta externa, o valor definido nesta tabela prevalecerá.
+Se qualquer parâmetro opcional tiver a mesma **ID da Marca** que a **ID da Marca de Serviço** definida na conta externa, o valor definido nesta tabela prevalecerá.
 
 ## Conector SMPP {#ACS-SMPP-connector}
 
@@ -794,7 +794,7 @@ No Adobe Campaign, uma mensagem é uma entrada de catálogo. No Adobe Campaign S
 
 Infelizmente, o SMPP não permite enviar uma ID junto com uma mensagem: o provedor fornece uma ID MT para cada MT e, em seguida, fornece um ou mais SR com a mesma ID.
 
-A ID fornecida pelo provedor é armazenada na variável `sProviderId` coluna de `nmsBroadLogExec` tabela. O SR sempre chega depois que o MT é enviado e confirmado com êxito, mas às vezes pode chegar fora de ordem, conhecido no Adobe Campaign como SR pendente. O thread de processamento armazena esses SR temporariamente na RAM até que as informações completas cheguem.
+A ID fornecida pelo provedor é armazenada na coluna `sProviderId` da tabela `nmsBroadLogExec`. O SR sempre chega depois que o MT é enviado e confirmado com êxito, mas às vezes pode chegar fora de ordem, conhecido no Adobe Campaign como SR pendente. O thread de processamento armazena esses SR temporariamente na RAM até que as informações completas cheguem.
 
 Quando um MT é confirmado (`SUBMIT_SM_RESP`), `sProviderId` é atualizado imediatamente no banco de dados.
 
@@ -809,7 +809,7 @@ Este é o processo aplicado a cada SR:
 * O catálogo é atualizado com todas as informações acima.
 * O SR é reconhecido.
 
-A verificação das etapas acima requer **Habilitar rastreamentos SMPP detalhados** para verificar manualmente se todas as etapas foram aplicadas corretamente. Isso é necessário sempre que o Adobe Campaign é conectado a um novo provedor SMPP.
+A verificação das etapas acima requer **a habilitação de rastreamentos SMPP detalhados** para verificar manualmente se todas as etapas foram aplicadas corretamente. Isso é necessário sempre que o Adobe Campaign é conectado a um novo provedor SMPP.
 
 ## Antes de entrar em funcionamento {#checklist}
 

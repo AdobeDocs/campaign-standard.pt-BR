@@ -490,15 +490,15 @@ ht-degree: 28%
                         <li>Com falha - com falha - 87</li>
                         <li>Em andamento - iniciado - 55</li>
                         <li>Direcionamento pendente - targetPrepPending - 11</li>
-                        <li>Personalização pendente - messagePrepPending - 21</li>
+                        <li>Personalization pendente - messagePrepPending - 21</li>
                         <li>Pausado - pausado - 75</li>
                         <li>Edição - edição - 0</li>
                         <li>Concluído - concluído - 95</li>
                         <li>Contagem em andamento - targetSelection - 12</li>
                         <li>Mensagem finalizada - messageReady - 25</li>
-                        <li>Falha na personalização ou na contagem - preparationError - 37</li>
+                        <li>Falha no Personalization ou na contagem - preparationError - 37</li>
                         <li>Interrompido - cancelado - 85</li>
-                        <li>Personalização em andamento - messagePreparation - 22</li>
+                        <li>Personalization em andamento - messagePreparation - 22</li>
                         <li>Target pronto - targetReady - 15</li>
                         <li>VALOR INVÁLIDO - __Valor_Inválido__ - __Valor_Inválido__</li>
                         <li>Arbitragem em andamento - targetArbitration - 13</li>

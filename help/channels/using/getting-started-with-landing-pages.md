@@ -120,7 +120,7 @@ Se você estiver satisfeito com o comportamento da landing page, poderá public�
 
 Para saber mais sobre como testar uma landing page, consulte [esta seção](../../channels/using/testing-publishing-landing-page.md#testing-the-landing-page-).
 
-## Etapa 5 — publicação da landing page {#publish-the-landing-page}
+## Etapa 5 - Publish da página de aterrissagem {#publish-the-landing-page}
 
 Depois que os testes forem concluídos com êxito, você poderá publicar a landing page usando o botão **[!UICONTROL Publish]** da barra de ação no painel. Um bloco de monitoramento mostra o avanço e o status da publicação.
 
@@ -138,4 +138,4 @@ Este vídeo mostra como criar e editar uma landing page.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
 
-Vídeos extras explicativos sobre o Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
+Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

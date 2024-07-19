@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Interação com recursos personalizados {#interacting-with-custom-resources}
 
-A variável **/customResources** O endpoint permite expor os recursos personalizados do Campaign em REST. Com base nessa API, uma integração entre entidades personalizadas e endpoints externos está disponível.
+O ponto de extremidade **/customResources** permite expor os recursos personalizados do Campaign em REST. Com base nessa API, uma integração entre entidades personalizadas e endpoints externos está disponível.
 
 O ponto de extremidade /customResources tem exatamente o mesmo comportamento que o ponto de extremidade /profileAndServices.
 

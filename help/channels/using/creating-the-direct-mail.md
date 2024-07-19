@@ -60,7 +60,7 @@ A criação de uma entrega de correspondência direta é muito semelhante à cri
 
 1. Se você tiver adicionado perfis de teste (consulte [Adicionar perfis de teste e trap](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)), será possível testar a entrega antes de preparar o arquivo final. O teste permite criar um arquivo de amostra contendo apenas os perfis de teste selecionados.
 
-   Clique em **[!UICONTROL Test]** para gerar o arquivo de amostra. Clique em **[!UICONTROL Summary]**, no canto superior esquerdo e selecione **[!UICONTROL Proofs]**. Na parte esquerda da tela, selecione a prova e clique em **[!UICONTROL Download file]**.
+   Clique em **[!UICONTROL Test]** para gerar o arquivo de amostra. Clique em **[!UICONTROL Summary]**, no canto superior esquerdo, e selecione **[!UICONTROL Proofs]**. Na parte esquerda da tela, selecione a prova e clique em **[!UICONTROL Download file]**.
 
    >[!NOTE]
    >

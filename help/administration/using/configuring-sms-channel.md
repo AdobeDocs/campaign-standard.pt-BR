@@ -329,15 +329,15 @@ Os parâmetros específicos para envio de mensagens SMS são reagrupados nas se�
 
 ![](assets/sms_options.png)
 
-No **[!UICONTROL Advanced parameters]** seção:
+Na seção **[!UICONTROL Advanced parameters]**:
 
-* A variável **[!UICONTROL Short code]** permite adicionar um código curto específico ao delivery. Os recipients que recusarem esse código curto específico serão excluídos automaticamente durante a preparação da mensagem. Para obter mais informações sobre como configurar um código curto, consulte [nesta seção](../../channels/using/managing-incoming-sms.md).
+* O **[!UICONTROL Short code]** permite adicionar um código curto específico à entrega. Os recipients que recusarem esse código curto específico serão excluídos automaticamente durante a preparação da mensagem. Para obter mais informações sobre como configurar código curto, consulte [esta seção](../../channels/using/managing-incoming-sms.md).
 
   >[!NOTE]
   >
-  >Se a variável **[!UICONTROL Short code]** for deixado em branco, o valor da variável **[!UICONTROL Short code]** será usado o campo definido na conta externa.
+  >Se o campo **[!UICONTROL Short code]** for deixado em branco, o valor do campo **[!UICONTROL Short code]** definido na conta externa será usado.
 
-No **[!UICONTROL Send]** seção de um modelo SMS:
+Na seção **[!UICONTROL Send]** de um modelo SMS:
 
 * A opção **[!UICONTROL Maximum number of SMS per message]** permite definir o número de mensagens SMS a serem usadas para enviar uma mensagem. Se esse número for excedido, a mensagem não será enviada.
 

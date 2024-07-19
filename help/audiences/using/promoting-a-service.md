@@ -21,12 +21,12 @@ Você pode oferecer assinaturas de um serviço de várias maneiras e dar aos seu
 
 Você pode usar o Campaign para promover um serviço ao:
 
-* [Inserção de um link de subscrição ou unsubscription de serviço em um email](../../designing/using/links.md#inserting-a-link).
+* [Inserindo um link de assinatura ou de cancelamento de assinatura de serviço em um email](../../designing/using/links.md#inserting-a-link).
 
-* [Inserção de um link para uma landing page de subscrição ou unsubscription em um email](../../designing/using/links.md). Nesse caso, o serviço deve ser referenciado diretamente nas propriedades das landing pages relacionadas (consulte [Vinculação de uma landing page a um serviço](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)).
+* [Inserindo um link para uma página de aterrissagem de assinatura ou cancelamento de assinatura em um email](../../designing/using/links.md). Nesse caso, o serviço deve ser referenciado diretamente nas propriedades das páginas de aterrissagem relacionadas (consulte [Vincular uma página de aterrissagem a um serviço](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)).
 
   >[!NOTE]
   >
-  >Também é importante dar aos assinantes a possibilidade de cancelar a assinatura. Para fazer isso, insira um serviço <b>Link de cancelamento de subscrição</b> no email de confirmação (definido nas propriedades do serviço) enviado automaticamente aos novos assinantes, bem como nos emails de informativos futuros.
+  >Também é importante dar aos assinantes a possibilidade de cancelar a assinatura. Para fazer isso, insira um serviço <b>Link de unsubscription</b> no email de confirmação (definido nas propriedades do serviço) enviado automaticamente aos novos assinantes, bem como em emails de informativos futuros.
 
-* Disponibilização de uma landing page de subscrição ou unsubscription em um site. Os URLs que dão acesso à landing page devem especificar parâmetros como o serviço associado, bem como a ID do perfil que está acessando-a. Essa ID pode ser definida nos parâmetros da landing page (consulte [Configuração de uma landing page](../../channels/using/configuring-landing-page.md)).
+* Disponibilização de uma landing page de subscrição ou unsubscription em um site. Os URLs que dão acesso à landing page devem especificar parâmetros como o serviço associado, bem como a ID do perfil que está acessando-a. Essa ID pode ser definida nos parâmetros da página de aterrissagem (consulte [Configuração de uma página de aterrissagem](../../channels/using/configuring-landing-page.md)).

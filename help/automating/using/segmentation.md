@@ -38,13 +38,13 @@ A atividade **[!UICONTROL Segmentation]** geralmente é colocada após as ativid
 
 **Tópicos relacionados**
 
-* [Caso de uso: segmentação de perfis de acordo com faixas etárias](../../automating/using/segmentation-age-groups.md).
+* [Caso de uso: segmentar perfis de acordo com suas faixas etárias](../../automating/using/segmentation-age-groups.md).
 
 ## Configuração {#configuration}
 
 1. Arraste e solte uma atividade **[!UICONTROL Segmentation]** no seu fluxo de trabalho.
 1. Selecione e abra a atividade usando o botão ![](assets/edit_darkgrey-24px.png) das ações rápidas exibidas.
-1. No **[!UICONTROL General]** , selecione a **[!UICONTROL Resource type]** em que a segmentação deve ser realizada:
+1. Na guia **[!UICONTROL General]**, selecione o **[!UICONTROL Resource type]** no qual a segmentação deve ser realizada:
 
    * **[!UICONTROL Database resource]** se a segmentação for realizada nos dados existentes no banco de dados. Selecione a **[!UICONTROL Filtering dimension]** dependendo dos dados que você deseja segmentar. Por padrão, a segmentação é realizada nos **perfis**.
    * **[!UICONTROL Temporary resource]** se a segmentação for realizada nos dados temporários do fluxo de trabalho. Selecione o **[!UICONTROL Targeted set]** que contêm os dados a serem segmentados. Esse caso de uso poderá ser encontrado após a importação de um arquivo ou se os dados no banco de dados tiverem sido enriquecidos.
@@ -95,10 +95,10 @@ A atividade **[!UICONTROL Segmentation]** geralmente é colocada após as ativid
 1. Adicione quantos segmentos forem necessários repetindo as etapas de 6 a 10 desse procedimento.
 1. Se for necessário, edite os parâmetros na guia **[!UICONTROL Advanced options]**:
 
-   * A variável **[!UICONTROL Enable overlapping of outbound populations]** define como gerenciar perfis que pertencem a vários segmentos:
-      * Quando a opção não estiver ativada, a variável **[!UICONTROL Segmentation]** A atividade verifica se um perfil não está presente em várias transições de saída, mesmo que esse perfil atenda aos critérios de vários subconjuntos.
+   * A opção **[!UICONTROL Enable overlapping of outbound populations]** define como gerenciar perfis que pertencem a vários segmentos:
+      * Quando a opção não está habilitada, a atividade **[!UICONTROL Segmentation]** verifica se um perfil não está presente em várias transições de saída, mesmo que esse perfil atenda aos critérios de vários subconjuntos.
       * Quando a opção estiver habilitada, os perfis poderão ser encontrados em vários subconjuntos se atenderem aos critérios de filtro.
-   * Se a população de entrada já tiver recebido um código de segmento que você deseja manter, verifique a **[!UICONTROL Concatenate the code of each segment]** opção. O código de segmento especificado na atividade será adicionado ao código de segmento inicial.
-   * Se precisar explorar a população restante, verifique a **[!UICONTROL Generate complement]** opção. Consulte [Caso de uso: criar deliveries com um complemento](../../automating/using/workflow-created-query-with-complement.md).
+   * Se a população de entrada já tiver recebido um código de segmento que você deseja manter, marque a opção **[!UICONTROL Concatenate the code of each segment]**. O código de segmento especificado na atividade será adicionado ao código de segmento inicial.
+   * Se precisar explorar a população restante, marque a opção **[!UICONTROL Generate complement]**. Consulte [Caso de uso: criar entregas com um complemento](../../automating/using/workflow-created-query-with-complement.md).
 
 1. Confirme a configuração da sua atividade e salve o fluxo de trabalho.

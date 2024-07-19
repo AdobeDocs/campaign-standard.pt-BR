@@ -26,8 +26,8 @@ ht-degree: 93%
 
 A atividade **[!UICONTROL Direct mail delivery]** permite configurar e preparar um arquivo contendo dados de perfil que você deseja usar para uma campanha de correspondência direta. Pode ser uma correspondência direta que é usada apenas uma vez ou pode ser uma correspondência direta recorrente.
 
-* **Padrão** as correspondências diretas são enviadas uma vez.
-* **Recorrente** emails permitem enviar a mesma correspondência direta várias vezes para públicos-alvos diferentes em um período definido. Você pode agregar as entregas por período para obter relatórios que correspondam às suas necessidades.
+* Correspondências diretas **Padrão** são enviadas uma vez.
+* Emails **recorrentes** permitem que você envie a mesma correspondência direta várias vezes para destinos diferentes em um período definido. Você pode agregar as entregas por período para obter relatórios que correspondam às suas necessidades.
 
 ## Contexto de uso {#context-of-use}
 

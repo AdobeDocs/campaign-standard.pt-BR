@@ -21,7 +21,7 @@ O Designer de email permite editar várias renderizações de seus emails. Você
 
 ## Gerar uma versão de texto do email {#generating-a-text-version-of-the-email}
 
-Por padrão, a variável **[!UICONTROL Plain text]** sua versão do email é gerada e sincronizada automaticamente com o **[!UICONTROL Edit]** versão.
+Por padrão, a versão **[!UICONTROL Plain text]** do seu email é gerada e sincronizada automaticamente com a versão **[!UICONTROL Edit]**.
 
 Campos de personalização e blocos de conteúdo adicionados à versão do HTML também são sincronizados com a versão de texto simples.
 
@@ -29,7 +29,7 @@ Campos de personalização e blocos de conteúdo adicionados à versão do HTML 
 >
 >Para usar blocos de conteúdo na versão de texto sem formatação, verifique se eles não contêm o código HTML.
 
-Para ter uma versão de texto sem formatação diferente da versão do HTML, você pode desativar essa sincronização clicando no **[!UICONTROL Sync with HTML]** alternar do **[!UICONTROL Plain text]** exibição do seu email.
+Para ter uma versão de texto sem formatação diferente da versão do HTML, você pode desabilitar essa sincronização clicando na opção **[!UICONTROL Sync with HTML]** na exibição **[!UICONTROL Plain text]** do seu email.
 
 ![](assets/email_designer_textversion.png)
 
@@ -37,7 +37,7 @@ Em seguida, é possível editar a versão de texto sem formatação conforme des
 
 >[!NOTE]
 >
->Se você editar a variável **[!UICONTROL Plain text]** enquanto a sincronização estiver desativada, na próxima vez que você ativar a **[!UICONTROL Sync with HTML]** , todas as alterações feitas na versão em texto sem formatação serão substituídas pela versão do HTML. As alterações efetuadas no **[!UICONTROL Plain text]** a exibição não pode ser refletida no **[!UICONTROL HTML]** exibição.
+>Se você editar a versão **[!UICONTROL Plain text]** enquanto a sincronização estiver desabilitada, na próxima vez que habilitar a opção **[!UICONTROL Sync with HTML]**, todas as alterações feitas na versão de texto sem formatação serão substituídas pela versão do HTML. As alterações feitas na exibição **[!UICONTROL Plain text]** não podem ser refletidas na exibição **[!UICONTROL HTML]**.
 
 ## Edição de uma fonte de conteúdo de email no HTML {#editing-an-email-content-source-in-html}
 
@@ -45,17 +45,17 @@ Para os usuários e a depuração mais avançados, é possível visualizar e edi
 
 Há duas maneiras de editar a versão HTML do email:
 
-* Selecionar **[!UICONTROL Edit]** > **[!UICONTROL HTML]** para abrir a versão HTML do email inteiro.
+* Selecione **[!UICONTROL Edit]** > **[!UICONTROL HTML]** para abrir a versão do HTML do email inteiro.
 
   ![](assets/email_designer_html1.png)
 
-* Na interface WYSIWYG, selecione um elemento e clique no **[!UICONTROL Source code]** ícone.
+* Na interface WYSIWYG, selecione um elemento e clique no ícone **[!UICONTROL Source code]**.
 
-  Somente a origem do elemento selecionado é exibida. Você pode editar o código-fonte se o elemento selecionado for um **[!UICONTROL HTML]** componente de conteúdo. Outros componentes estão no modo somente leitura, mas ainda podem ser editados na versão HTML completa do email.
+  Somente a origem do elemento selecionado é exibida. Você poderá editar o código-fonte se o elemento selecionado for um componente de conteúdo **[!UICONTROL HTML]**. Outros componentes estão no modo somente leitura, mas ainda podem ser editados na versão HTML completa do email.
 
   ![](assets/email_designer_html2.png)
 
-Se você modificar o HTML do código, a capacidade de resposta do email poderá ser interrompida. Teste-o usando o **[!UICONTROL Preview]** botão. Consulte [Pré-visualização de mensagens](../../sending/using/previewing-messages.md).
+Se você modificar o HTML do código, a capacidade de resposta do email poderá ser interrompida. Certifique-se de testá-la usando o botão **[!UICONTROL Preview]**. Consulte [Pré-visualização de mensagens](../../sending/using/previewing-messages.md).
 
 ## Criação de emails para renderização móvel {#switching-to-mobile-view}
 
@@ -64,7 +64,7 @@ Se você modificar o HTML do código, a capacidade de resposta do email poderá 
 Todas as opções de estilo estão disponíveis na exibição móvel. As configurações de estilo do Designer de email são apresentadas anteriormente nesta página.
 
 1. Crie um email e comece a editar o conteúdo. Para obter mais informações, consulte [Criar um conteúdo de email do zero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
-1. Para acessar a visualização móvel dedicada, selecione a **[!UICONTROL Switch to mobile view]** botão.
+1. Para acessar a exibição móvel dedicada, selecione o botão **[!UICONTROL Switch to mobile view]**.
 
    ![](assets/email_designer_mobile_view_switch.png)
 
@@ -80,7 +80,7 @@ Todas as opções de estilo estão disponíveis na exibição móvel. As configu
 
    ![](assets/email_designer_mobile_view_change.png)
 
-1. Você pode ocultar um componente quando exibido em um dispositivo móvel. Para fazer isso, selecione **[!UICONTROL Show only on desktop devices]** do **[!UICONTROL Display options]**.
+1. Você pode ocultar um componente quando exibido em um dispositivo móvel. Para fazer isso, selecione **[!UICONTROL Show only on desktop devices]** em **[!UICONTROL Display options]**.
 
    Você também pode optar por ocultar esse componente em dispositivos desktop, o que significa que ele será exibido apenas em dispositivos móveis. Para fazer isso, selecione **[!UICONTROL Show only on mobile devices]**.
 
@@ -90,13 +90,13 @@ Todas as opções de estilo estão disponíveis na exibição móvel. As configu
 
    ![](assets/email_designer_mobile_hide.png)
 
-1. Clique novamente em **[!UICONTROL Switch to mobile view]** botão para voltar para a exibição padrão da área de trabalho. As alterações de estilo que você acabou de fazer não são refletidas.
+1. Clique novamente no botão **[!UICONTROL Switch to mobile view]** para voltar para o modo de exibição de área de trabalho padrão. As alterações de estilo que você acabou de fazer não são refletidas.
 
    ![](assets/email_designer_mobile_view_desktop_no-change.png)
 
    >[!NOTE]
    >
-   >A única exceção é a **[!UICONTROL Style inline]** configurações. Qualquer alteração de configuração inline de estilo também é aplicada à exibição padrão da área de trabalho.
+   >A única exceção são as configurações **[!UICONTROL Style inline]**. Qualquer alteração de configuração inline de estilo também é aplicada à exibição padrão da área de trabalho.
 
 1. Qualquer outra alteração na estrutura ou no conteúdo do email, como edições de texto, upload de uma nova imagem, adição de um novo componente etc. também é aplicado à exibição padrão.
 
@@ -104,7 +104,7 @@ Todas as opções de estilo estão disponíveis na exibição móvel. As configu
 
    ![](assets/email_designer_mobile_view_change_content.png)
 
-1. Clique novamente em **[!UICONTROL Switch to mobile view]** botão para voltar para a exibição padrão da área de trabalho. As alterações são refletidas.
+1. Clique novamente no botão **[!UICONTROL Switch to mobile view]** para voltar para o modo de exibição de área de trabalho padrão. As alterações são refletidas.
 
    ![](assets/email_designer_mobile_view_desktop_content-change.png)
 
@@ -118,14 +118,14 @@ Todas as opções de estilo estão disponíveis na exibição móvel. As configu
 
    ![](assets/email_designer_mobile_view_background_desktop.png)
 
-1. Alterne novamente para a exibição móvel e desative a **[!UICONTROL Background color]** configuração.
+1. Alterne novamente para o modo de exibição móvel e desabilite a configuração **[!UICONTROL Background color]**.
 
    ![](assets/email_designer_mobile_view_background_mobile_disabled.png)
 
    A cor do plano de fundo definida na visualização da área de trabalho agora é aplicada: ele fica cinza (não está em branco).
 
-   A única exceção é a **[!UICONTROL Border color]** configuração. Quando desativado na exibição móvel, nenhuma borda é aplicada mais, mesmo se uma cor de borda for definida na exibição da área de trabalho.
+   A única exceção é a configuração **[!UICONTROL Border color]**. Quando desativado na exibição móvel, nenhuma borda é aplicada mais, mesmo se uma cor de borda for definida na exibição da área de trabalho.
 
 >[!NOTE]
 >
->A visualização para dispositivos móveis não está disponível no [fragmentos](../../designing/using/using-reusable-content.md#about-fragments).
+>A exibição móvel não está disponível em [fragmentos](../../designing/using/using-reusable-content.md#about-fragments).

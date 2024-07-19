@@ -19,7 +19,7 @@ ht-degree: 22%
 
 <table style="table-layout:fixed">
 <tr>
-<td><img src="assets/do-not-localize/config_push.png" width="60px"><p>Saiba como configurar seu aplicativo para dispositivos móveis para notificações por push </br><a href="#configuration-push">Clique aqui</a></p></td>
+<td><img src="assets/do-not-localize/config_push.png" width="60px"><p>Saiba como configurar seu aplicativo móvel para notificações por push </br><a href="#configuration-push">Clique aqui</a></p></td>
 <td><img src="assets/do-not-localize/config_inapp.png" width="60px"><p>Saiba como configurar seu aplicativo móvel para mensagens no aplicativo </br><a href="#configuring-mobile-app">Clique aqui</a></p></td>
 </tr>
 <tr>
@@ -98,7 +98,7 @@ Com o Adobe Campaign Standard, você pode enviar deliveries para dispositivos m�
     <div>
     <p><strong>Configuração das regras de tag para oferecer suporte a casos de uso do Adobe Campaign Standard</strong></p>
     </div>
-    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>Clique aqui</strong></a> para começar a criar elementos de dados e regras na interface da Coleção de dados para enviar PII e outros dados de aplicativos móveis para o Adobe Campaign Standard.</p>
+    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>Clique aqui</strong></a> para começar a criar elementos de dados e regras na interface da Coleção de Dados para enviar PII e outros dados de aplicativos móveis para o Adobe Campaign Standard.</p>
     <br>
   </td>
   <td>
@@ -119,7 +119,7 @@ Com o Adobe Campaign Standard, você pode enviar deliveries para dispositivos m�
     <div>
     <p><strong>Preparação e envio de uma notificação por push</strong></p>
     </div>
-    <p><a href="../../channels/using/preparing-and-sending-a-push-notification.md"><strong>Saiba mais aqui</strong></a> como preparar sua notificação por push e, em seguida, como enviá-la para o público-alvo direcionado.</p>
+    <p><a href="../../channels/using/preparing-and-sending-a-push-notification.md"><strong>Saiba aqui</strong></a> como preparar sua notificação por push e como enviá-la para seu público-alvo direcionado.</p>
     <br>
   </td>
   <td>
@@ -142,7 +142,7 @@ Com o Adobe Campaign Standard, você pode enviar deliveries para dispositivos m�
     <div>
     <p><strong>Exibir uma imagem a partir de uma notificação por push do Adobe Campaign Standard</strong></p>
     </div>
-    <p><a href="../../administration/using/image-push-notification.md"><strong>Saiba mais aqui</strong></a> como exibir uma imagem de uma notificação por push do Adobe Campaign em um dispositivo iOS.</p>
+    <p><a href="../../administration/using/image-push-notification.md"><strong>Saiba aqui</strong></a> como exibir uma imagem de uma notificação por push do Adobe Campaign em um dispositivo iOS.</p>
     <br>
   </td>
 </tr>
@@ -156,7 +156,7 @@ Com o Adobe Campaign Standard, você pode enviar deliveries para dispositivos m�
     <div>
     <p><strong>Preparação e envio de uma mensagem no aplicativo</strong></p>
     </div>
-    <p><a href="../../channels/using/preparing-and-sending-an-in-app-message.md"><strong>Saiba mais aqui</strong></a> como preparar suas mensagens no aplicativo e como enviá-las para o público-alvo direcionado.</p>
+    <p><a href="../../channels/using/preparing-and-sending-an-in-app-message.md"><strong>Saiba aqui</strong></a> como preparar suas mensagens no aplicativo e como enviá-las para o público-alvo direcionado.</p>
     <br>
   </td>
   <td>
@@ -193,7 +193,7 @@ Com o Adobe Campaign Standard, você pode enviar deliveries para dispositivos m�
     <div>
     <p><strong>Criação de uma mensagem SMS</strong></p>
     </div>
-    <p>A criação de uma entrega de SMS é muito semelhante à criação de um email comum. </br>As etapas <a href="../../channels/using/creating-an-sms-message.md"><strong>detalhado aqui</strong></a> descreva a configuração específica para esse canal.</p>
+    <p>A criação de uma entrega de SMS é muito semelhante à criação de um email comum. </br>As etapas <a href="../../channels/using/creating-an-sms-message.md"><strong>detalhadas aqui</strong></a> descrevem a configuração específica para este canal.</p>
     <br>
   </td>
   <td>
@@ -210,7 +210,7 @@ Com o Adobe Campaign Standard, você pode enviar deliveries para dispositivos m�
     <div>
     <p><strong>Gerenciamento de SMS de entrada</strong></p>
     </div>
-    <p>Quando um perfil responde a uma mensagem SMS enviada pelo Campaign, você pode configurar mensagens que são automaticamente enviadas de volta a ele, bem como a ação a ser executada.Personalização de um tipo de mensagem de notificação local</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Clique aqui para obter mais informações.</p>
+    <p>Quando um perfil responde a uma mensagem SMS enviada pelo Campaign, você pode configurar mensagens que são automaticamente enviadas de volta, bem como a ação a ser executada.Personalização de um tipo de mensagem de notificação local</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Clique aqui para obter mais informações.</p>
     <br>
   </td>
   <td>

@@ -19,7 +19,7 @@ ht-degree: 2%
 
 ## Sobre alertas de delivery {#about-delivery-alerting}
 
-A variável **Alertas de delivery** O recurso é um sistema de gerenciamento de alertas que permite que um grupo de usuários receba automaticamente notificações contendo informações sobre a execução de seus deliveries.
+O recurso **Alerta de entrega** é um sistema de gerenciamento de alertas que permite que um grupo de usuários receba automaticamente notificações contendo informações sobre a execução de suas entregas.
 
 As notificações enviadas contêm um relatório com base nos seguintes critérios por padrão:
 
@@ -41,8 +41,8 @@ Essas notificações de alerta podem ser personalizadas dependendo de critérios
 
 As notificações enviadas contêm:
 
-* A **[!UICONTROL Summary]** exibir o número de deliveries que atendem aos critérios definidos e o rótulo/cor escolhido para cada critério.
-* A **[!UICONTROL Details]** seção listando todos os critérios de delivery definidos para o painel correspondente e todos os deliveries para cada critério.
+* Uma **[!UICONTROL Summary]** que exibe o número de entregas que atendem aos critérios definidos e o rótulo/cor escolhido para cada critério.
+* Uma seção **[!UICONTROL Details]** listando todos os critérios de entrega definidos para o painel correspondente e todas as entregas para cada critério.
 
 ![](assets/delivery-alerting_notification.png)
 
@@ -54,11 +54,11 @@ Para gerenciar os destinatários das notificações, definir os critérios de al
 
 >[!NOTE]
 >
->Para acessar e configurar os painéis e os critérios de alerta, você deve ter direitos administrativos ou aparecer no **Supervisores de entrega** grupo de segurança. Usuários padrão não podem acessar os painéis na interface do Adobe Campaign. Eles só podem receber as notificações de alerta. Para obter mais informações sobre usuários e segurança no Adobe Campaign, consulte [Tipos de usuários](../../administration/using/users-management.md) e [Sobre grupos de segurança](../../administration/using/managing-groups-and-users.md#about-security-groups).
+>Para acessar e configurar os painéis e os critérios de alerta, você deve ter direitos administrativos ou aparecer no grupo de segurança **Supervisores de entrega**. Usuários padrão não podem acessar os painéis na interface do Adobe Campaign. Eles só podem receber as notificações de alerta. Para obter mais informações sobre usuários e segurança no Adobe Campaign, consulte [Tipos de usuários](../../administration/using/users-management.md) e [Sobre grupos de segurança](../../administration/using/managing-groups-and-users.md#about-security-groups).
 
 Na interface do Adobe Campaign, é possível:
 
-* Crie e gerencie painéis de alerta de delivery. Consulte [Criação de um painel de alerta de delivery](#creating-a-delivery-alerting-dashboard).
+* Crie e gerencie painéis de alerta de delivery. Consulte [Criando um painel de alertas de entrega](#creating-a-delivery-alerting-dashboard).
 * Defina e gerencie os critérios de alerta de delivery para cada painel. Por exemplo, você pode criar alertas com base em deliveries com falha de preparação ou deliveries com baixa taxa de transferência apenas. Consulte [Sobre os critérios de alerta](#about-alerting-criteria).
 * Modifique os parâmetros de critérios para cada painel. Consulte [Parâmetros de critérios](#criteria-parameters).
 * Defina um grupo de recipients para cada painel.
@@ -67,7 +67,7 @@ Na interface do Adobe Campaign, é possível:
 
 * Acesse o histórico de todos os alertas enviados para cada painel.
 
-  Ao selecionar um painel, o último alerta enviado para esse painel é exibido por padrão. Todos os alertas enviados são listados à esquerda da tela. Clique em um item na variável **[!UICONTROL History]** para acessar os alertas correspondentes.
+  Ao selecionar um painel, o último alerta enviado para esse painel é exibido por padrão. Todos os alertas enviados são listados à esquerda da tela. Clique em um item na lista **[!UICONTROL History]** para acessar os alertas correspondentes.
 
 ![](assets/delivery-alerting_dashboard.png)
 
@@ -75,17 +75,17 @@ Na interface do Adobe Campaign, é possível:
 
 Para enviar notificações com base em critérios específicos para diferentes grupos de usuários, é necessário usar vários painéis. Para criar um novo painel:
 
-1. Ir para **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**.
+1. Vá para **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**.
 1. Selecione **[!UICONTROL Delivery alerting dashboards]** e clique em **[!UICONTROL Create]**.
-1. Verifique a **[!UICONTROL Enabled]** para ativar o painel atual.
+1. Marque a caixa **[!UICONTROL Enabled]** para ativar o painel atual.
 
    Se essa opção estiver desativada, as notificações vinculadas a esse painel não serão mais enviadas. Essa opção está desabilitada por padrão.
 
    ![](assets/delivery-alerting_dashboard_general.png)
 
-1. Selecione o grupo de destinatários que deseja notificar na **[!UICONTROL Alert group]** lista suspensa. Para modificar ou criar um grupo, consulte [Criação de um grupo de segurança e atribuição de usuários](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users).
-1. No **[!UICONTROL Delivery alerting criteria]** clique em **[!UICONTROL Create element]** para adicionar critérios. Consulte [Sobre os critérios de alerta](#about-alerting-criteria).
-1. Selecione o **[!UICONTROL Edit properties]** botão. No **[!UICONTROL Criteria parameters]** defina como os critérios serão aplicados. Consulte [Parâmetros de critérios](#criteria-parameters).
+1. Selecione o grupo de destinatários que deseja notificar na lista suspensa **[!UICONTROL Alert group]**. Para modificar ou criar um grupo, consulte [Criação de um grupo de segurança e atribuição de usuários](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users).
+1. Na seção **[!UICONTROL Delivery alerting criteria]**, clique em **[!UICONTROL Create element]** para adicionar critérios. Consulte [Sobre os critérios de alerta](#about-alerting-criteria).
+1. Selecione o botão **[!UICONTROL Edit properties]**. Na guia **[!UICONTROL Criteria parameters]**, defina como os critérios serão aplicados. Consulte [Parâmetros de critérios](#criteria-parameters).
 1. Clique em **[!UICONTROL Create]** para salvar o painel.
 
 Agora, sempre que um delivery atender aos critérios definidos nesse painel, uma notificação de alerta será enviada para o grupo especificado de usuários.
@@ -94,39 +94,39 @@ Agora, sempre que um delivery atender aos critérios definidos nesse painel, uma
 
 ### Sobre os critérios de alerta {#about-alerting-criteria}
 
-Para acessar os critérios de alerta do delivery, acesse **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]** e selecione **[!UICONTROL Delivery alerting criteria]**.
+Para acessar os critérios de alerta de entrega, vá para **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]** e selecione **[!UICONTROL Delivery alerting criteria]**.
 
 ![](assets/delivery-alerting_criteria.png)
 
 Os seguintes critérios podem ser usados nos painéis de alerta de delivery:
 
-* **[!UICONTROL Deliveries failed]**: qualquer delivery agendado dentro de uma faixa definida, com um status incorreto.
-* **[!UICONTROL Deliveries with preparation failed]**: qualquer delivery modificado dentro de um intervalo definido, para o qual a etapa de preparação (cálculo de target e geração de conteúdo) falhou. Para obter mais informações, consulte [Preparação do envio](../../sending/using/preparing-the-send.md).
-* **[!UICONTROL Delivery with bad error ratio for soft bounces]**: Qualquer delivery agendado dentro de uma faixa definida, com status de pelo menos **[!UICONTROL In progress]**, com uma taxa de erro de rejeição temporária maior que uma porcentagem definida.
-* **[!UICONTROL Delivery with bad error ratio for hard bounces]**: Qualquer delivery agendado dentro de uma faixa definida, com status de pelo menos **[!UICONTROL In progress]**, com uma taxa de erro de rejeição permanente maior que uma porcentagem definida.
-* **[!UICONTROL Deliveries with long start pending]**: Qualquer delivery agendado dentro de uma faixa definida, com uma **[!UICONTROL Start pending]** Status por mais de uma duração definida, **[!UICONTROL Start pending]** status, o que significa que as mensagens ainda não foram consideradas pelo sistema.
-* **[!UICONTROL Deliveries with low throughput]**: qualquer delivery iniciado por mais do que uma duração definida, com menos do que uma porcentagem definida de mensagens processadas, com uma taxa de transferência inferior a um valor definido.
-* **[!UICONTROL Deliveries in progress]**: Qualquer delivery agendado dentro de uma faixa definida, com o **[!UICONTROL In progress]** status.
+* **[!UICONTROL Deliveries failed]**: Qualquer entrega agendada dentro de um intervalo definido, com status incorreto.
+* **[!UICONTROL Deliveries with preparation failed]**: Qualquer entrega modificada dentro de um intervalo definido, para a qual a etapa de preparação (cálculo de destino e geração de conteúdo) falhou. Para obter mais informações, consulte [Preparação do envio](../../sending/using/preparing-the-send.md).
+* **[!UICONTROL Delivery with bad error ratio for soft bounces]**: Qualquer entrega agendada dentro de um intervalo definido, com um status de pelo menos **[!UICONTROL In progress]**, com uma taxa de erro de rejeição temporária maior que uma porcentagem definida.
+* **[!UICONTROL Delivery with bad error ratio for hard bounces]**: Qualquer entrega agendada dentro de um intervalo definido, com um status de pelo menos **[!UICONTROL In progress]**, com uma taxa de erro de rejeição permanente maior que uma porcentagem definida.
+* **[!UICONTROL Deliveries with long start pending]**: Qualquer entrega agendada dentro de um intervalo definido, com um status **[!UICONTROL Start pending]** por mais tempo do que uma duração definida, status **[!UICONTROL Start pending]** significando que as mensagens ainda não foram consideradas pelo sistema.
+* **[!UICONTROL Deliveries with low throughput]**: Qualquer entrega iniciada por mais de uma duração definida, com menos de uma porcentagem definida de mensagens processadas, com uma taxa de transferência inferior a um valor definido.
+* **[!UICONTROL Deliveries in progress]**: Qualquer entrega agendada dentro de um intervalo definido, com o status **[!UICONTROL In progress]**.
 
 >[!NOTE]
 >
->Todos os parâmetros que se aplicam aos critérios acima têm valores padrão. Esses valores podem ser alterados no **[!UICONTROL Criteria parameters]** dos painéis de alerta de delivery. Consulte [Parâmetros de critérios](#criteria-parameters).
+>Todos os parâmetros que se aplicam aos critérios acima têm valores padrão. Esses valores podem ser alterados na guia **[!UICONTROL Criteria parameters]** dos painéis de alertas de entrega. Consulte [Parâmetros de critérios](#criteria-parameters).
 
-É possível selecionar qualquer item na lista **[!UICONTROL Delivery alerting criteria]** para acessar os detalhes.
+Você pode selecionar qualquer item da lista **[!UICONTROL Delivery alerting criteria]** para acessar seus detalhes.
 
 ![](assets/delivery-alerting_criteria_definition.png)
 
 Para cada critério, você pode definir as seguintes configurações:
 
-* **[!UICONTROL Indicators to add in alerts]**, o que significa que as colunas que aparecerão no campo de **[!UICONTROL Details]** para os deliveries correspondentes ao critério selecionado.
+* **[!UICONTROL Indicators to add in alerts]**, o que significa que as colunas que aparecerão na seção **[!UICONTROL Details]** da notificação para as entregas correspondentes ao critério selecionado.
 
   ![](assets/delivery-alerting_notification_colums.png)
 
-* **[!UICONTROL Alert type]**, ou seja, o rótulo e a cor que aparecerão ao lado do critério de delivery no resumo da notificação.
+* **[!UICONTROL Alert type]**, que significa o rótulo e a cor que aparecerão ao lado do critério de entrega no resumo da notificação.
 
   ![](assets/delivery-alerting_notification_labels.png)
 
-* **[!UICONTROL Criteria frequency]**: se um critério for atendido para um delivery, ele será repetido em cada notificação enviada dentro do período de monitoramento. Caso contrário, somente um alerta será enviado por dia (na primeira ocorrência) por critério de alerta para um delivery.
+* **[!UICONTROL Criteria frequency]**: se um critério for atendido para uma entrega, ele será repetido em cada notificação enviada dentro do período de monitoramento. Caso contrário, somente um alerta será enviado por dia (na primeira ocorrência) por critério de alerta para um delivery.
 
   Por padrão, essa opção é definida para uma vez por dia para todos os critérios.
 
@@ -140,39 +140,39 @@ Para cada critério, você pode definir as seguintes configurações:
 
 Você pode criar novos critérios de alerta de delivery para melhor atender às suas necessidades.
 
-Por exemplo, você pode criar um novo critério que permita enviar uma notificação listando todos os deliveries com um **[!UICONTROL Finished]** status.
+Por exemplo, você pode criar um novo critério que permita enviar uma notificação listando todos os deliveries com um status **[!UICONTROL Finished]**.
 
-Para fazer isso, primeiro é necessário estender a variável **Entrega** recurso e adicionar um novo filtro que permite selecionar apenas os deliveries com um **[!UICONTROL Finished]** status.
+Para fazer isso, primeiro é necessário estender o recurso **Delivery** e adicionar um novo filtro que permita selecionar apenas as entregas com status **[!UICONTROL Finished]**.
 
-1. Ir para **Adobe Campaign** > **Administração** > **Desenvolvimento** > **Recursos personalizados** e clique em **[!UICONTROL Create]**.
-1. Selecionar **[!UICONTROL Extend an existing resource]**, selecione o **[!UICONTROL Delivery]** na lista suspensa e clique em **[!UICONTROL Create]** para editá-lo.
+1. Vá para **Adobe Campaign** > **Administração** > **Desenvolvimento** > **Recursos personalizados** e clique em **[!UICONTROL Create]**.
+1. Selecione **[!UICONTROL Extend an existing resource]**, selecione o recurso **[!UICONTROL Delivery]** na lista suspensa e clique em **[!UICONTROL Create]** para editá-lo.
 
    ![](assets/delivery-alerting_extend-delivery-cus.png)
 
    Para obter mais informações sobre a extensão de um recurso existente, consulte [Definir o recurso](../../developing/using/creating-or-extending-the-resource.md).
 
-1. No **[!UICONTROL Delivery]** recurso, vá para a página **[!UICONTROL Filter definition]** e clique em **[!UICONTROL Add an element]** para criar um filtro.
+1. No recurso **[!UICONTROL Delivery]**, vá para a guia **[!UICONTROL Filter definition]** e clique em **[!UICONTROL Add an element]** para criar um filtro.
 
    ![](assets/delivery-alerting_new-filter.png)
 
-1. Edite a nova definição de filtro: na **[!UICONTROL Filter definition]** arraste e solte a janela **[!UICONTROL Status]** no espaço de trabalho e selecione **[!UICONTROL Finished]** como a condição de filtro.
+1. Edite a nova definição de filtro: na janela **[!UICONTROL Filter definition]**, arraste e solte o item **[!UICONTROL Status]** no espaço de trabalho e selecione **[!UICONTROL Finished]** como condição de filtro.
 
    ![](assets/delivery-alerting_filter-status.png)
 
-   Para obter mais informações sobre criação e edição de filtros personalizados, consulte [Definir filtros](../../developing/using/configuring-filter-definition.md).
+   Para obter mais informações sobre como criar e editar filtros personalizados, consulte [Definir filtros](../../developing/using/configuring-filter-definition.md).
 
 1. Salve as alterações e publique os recursos. Para obter mais informações, consulte [Publicação de um recurso personalizado](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
    O filtro é criado e agora pode ser selecionado em um novo critério de alerta de delivery.
 
-1. Ir para **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**, selecione **[!UICONTROL Delivery alerting criteria]** e clique em **[!UICONTROL Create]**.
-1. No **[!UICONTROL Delivery filter applied by this criterion]** selecione o filtro que acabou de criar.
+1. Vá para **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**, selecione **[!UICONTROL Delivery alerting criteria]** e clique em **[!UICONTROL Create]**.
+1. Na lista suspensa **[!UICONTROL Delivery filter applied by this criterion]**, selecione o filtro que você acabou de criar.
 
    ![](assets/delivery-alerting_cus-filter.png)
 
    Você pode definir as configurações dos seus critérios da mesma forma que os critérios padrão. Consulte [Sobre os critérios de alerta](#about-alerting-criteria).
 
-Depois de criados, esses critérios podem ser adicionados a um painel de alerta de delivery, bem como a outros critérios. Consulte [Sobre os painéis de alerta do delivery](#about-delivery-alerting-dashboards).
+Depois de criados, esses critérios podem ser adicionados a um painel de alerta de delivery, bem como a outros critérios. Consulte [Sobre painéis de alertas de entrega](#about-delivery-alerting-dashboards).
 
 ![](assets/delivery-alerting_new-criterion.png)
 
@@ -184,7 +184,7 @@ Depois de criados, esses critérios podem ser adicionados a um painel de alerta 
 
 ### Parâmetros de critérios {#criteria-parameters}
 
-No **[!UICONTROL Criteria parameters]** guia de um [painel de alertas do delivery](#creating-a-delivery-alerting-dashboard), é possível definir as configurações que se aplicam aos critérios selecionados neste painel.
+Na guia **[!UICONTROL Criteria parameters]** de um [painel de alertas de entrega](#creating-a-delivery-alerting-dashboard), você pode definir as configurações que se aplicam aos critérios selecionados neste painel.
 
 ![](assets/delivery-alerting_dashboard_criteria-parameters.png)
 
@@ -193,25 +193,25 @@ No **[!UICONTROL Criteria parameters]** guia de um [painel de alertas do deliver
 
   Para obter mais informações sobre a data de contato, consulte [Sobre o agendamento](../../sending/using/about-scheduling-messages.md).
 
-* **[!UICONTROL Maximum ratio of soft bounce errors]**: uma notificação é enviada para todos os deliveries com uma taxa de erro de rejeição temporária maior que o valor especificado. Por padrão, o valor desse campo é definido como 0,05 (5%).
+* **[!UICONTROL Maximum ratio of soft bounce errors]**: uma notificação é enviada para todas as entregas com uma taxa de erro de rejeição temporária maior que o valor especificado. Por padrão, o valor desse campo é definido como 0,05 (5%).
 
-  Para obter mais informações sobre erros de rejeição temporária, consulte [Qualificação de email de devolução](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) e [Lista de tipos de falha de entrega](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+  Para obter mais informações sobre erros de rejeição temporária, consulte [Qualificação de email de rejeição](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) e [Lista de tipos de falha de entrega](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
-* **[!UICONTROL Maximum ratio of hard bounce errors]**: uma notificação é enviada para todos os deliveries com uma taxa de erro de rejeição permanente maior que o valor especificado. Por padrão, o valor desse campo é definido como 0,05 (5%).
+* **[!UICONTROL Maximum ratio of hard bounce errors]**: uma notificação é enviada para todas as entregas com uma taxa de erro de rejeição permanente maior que o valor especificado. Por padrão, o valor desse campo é definido como 0,05 (5%).
 
-  Para obter mais informações sobre erros de rejeição permanente, consulte [Qualificação de email de devolução](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) e [Lista de tipos de falha de entrega](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+  Para obter mais informações sobre erros de rejeição permanente, consulte [Qualificação de email de rejeição](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) e [Lista de tipos de falha de entrega](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
-* **[!UICONTROL Minimum time threshold for delivery in 'Start pending' status (in minutes)]**: uma notificação é enviada para todos os deliveries com um **[!UICONTROL Start pending]** status por mais tempo do que a duração especificada neste campo, **[!UICONTROL Start pending]** status, o que significa que as mensagens ainda não foram consideradas pelo sistema.
-* **[!UICONTROL Minimum time required for the computation of the throughput (in minutes)]**: somente deliveries iniciados (com **[!UICONTROL In progress]** durante mais do que a duração especificada são tidos em conta para efeitos da **[!UICONTROL Deliveries with low throughput]** critério.
-* **[!UICONTROL Maximum percentage of processed messages for the computation of the throughput]**: Somente deliveries com uma porcentagem de mensagens processadas inferior à porcentagem especificada são considerados para o **[!UICONTROL Deliveries with low throughput]** critério.
-* **[!UICONTROL Minimum expected throughput (in sent messages per hour)]**: somente deliveries com uma taxa de transferência inferior ao valor especificado são considerados para o **[!UICONTROL Deliveries with low throughput]** critério.
-* **[!UICONTROL Minimum processed ratio required for 'Deliveries in progress' criterion]**: somente os deliveries com uma porcentagem de mensagens processadas maior que a porcentagem especificada são considerados.
+* **[!UICONTROL Minimum time threshold for delivery in 'Start pending' status (in minutes)]**: uma notificação é enviada para todas as entregas com status **[!UICONTROL Start pending]** por mais tempo do que a duração especificada neste campo, status **[!UICONTROL Start pending]** significando que as mensagens ainda não foram consideradas pelo sistema.
+* **[!UICONTROL Minimum time required for the computation of the throughput (in minutes)]**: Somente entregas iniciadas (com status **[!UICONTROL In progress]**) por mais tempo do que a duração especificada são consideradas para o critério **[!UICONTROL Deliveries with low throughput]**.
+* **[!UICONTROL Maximum percentage of processed messages for the computation of the throughput]**: Somente entregas com uma porcentagem de mensagens processadas inferior à porcentagem especificada são consideradas para o critério **[!UICONTROL Deliveries with low throughput]**.
+* **[!UICONTROL Minimum expected throughput (in sent messages per hour)]**: Somente entregas com uma taxa de transferência menor que o valor especificado são consideradas para o critério **[!UICONTROL Deliveries with low throughput]**.
+* **[!UICONTROL Minimum processed ratio required for 'Deliveries in progress' criterion]**: Somente entregas com uma porcentagem de mensagens processadas maior que a porcentagem especificada são consideradas.
 
 ### Frequência de alerta {#alerting-frequency}
 
-A variável **[!UICONTROL Frequency of delivery alerting]** permite definir o atraso entre dois envios de alerta. Por padrão, é definido como 10 minutos.
+A opção **[!UICONTROL Frequency of delivery alerting]** permite definir o atraso entre dois envios de alerta. Por padrão, é definido como 10 minutos.
 
-Você pode alterar essa configuração por meio da variável **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu.
+Você pode alterar essa configuração no menu **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 
 >[!NOTE]
 >
@@ -219,26 +219,26 @@ Você pode alterar essa configuração por meio da variável **[!UICONTROL Admin
 
 ## Motivos de alerta de delivery {#delivery-alerting-reasons}
 
-A variável **Alertas de delivery** O recurso mantém todos os usuários envolvidos do Adobe Campaign informados automaticamente sobre o status de execução da entrega, por email e pelo painel.
+O recurso **Alertas de entrega** mantém todos os usuários do Adobe Campaign envolvidos informados automaticamente sobre o status de execução da entrega, por email e pelo painel.
 
 Agora, quando você receber uma notificação de alerta de delivery, veja algumas dicas sobre o que você pode fazer.
 
-Primeiro, verifique o do delivery **Log** para exibir todas as informações relacionadas ao delivery e às provas. Os ícones vermelho e amarelo permitem identificar erros ou avisos. O ícone vermelho indica um erro crítico que impede que o delivery seja iniciado.
+Primeiro, verifique a guia **Log** do delivery para exibir todas as informações relacionadas ao delivery e às provas. Os ícones vermelho e amarelo permitem identificar erros ou avisos. O ícone vermelho indica um erro crítico que impede que o delivery seja iniciado.
 
-Para exibir o histórico de cada ocorrência de um delivery, selecione o **[!UICONTROL Sending logs]** guia. Ela contém a lista de mensagens enviadas e seus status. Lá é possível verificar o status do delivery de cada recipient ( **[!UICONTROL Sent]**, **[!UICONTROL Pending]**, **[!UICONTROL Failed]**, etc.). Para obter mais informações, consulte [Envio de logs](../../sending/using/monitoring-a-delivery.md#sending-logs).
+Para exibir o histórico de cada ocorrência de uma entrega, selecione a guia **[!UICONTROL Sending logs]**. Ela contém a lista de mensagens enviadas e seus status. Você pode verificar o status de entrega de cada destinatário ( **[!UICONTROL Sent]**, **[!UICONTROL Pending]**, **[!UICONTROL Failed]** etc.). Para obter mais informações, consulte [Enviar logs](../../sending/using/monitoring-a-delivery.md#sending-logs).
 
 Estes são alguns motivos possíveis para receber notificações de alerta de acordo com os critérios que são atendidos para um delivery.
 
-* **[!UICONTROL Deliveries failed]**: este critério informa sobre todos os deliveries com um status incorreto. Pode ser devido a:
+* **[!UICONTROL Deliveries failed]**: este critério informa sobre todas as entregas com status incorreto. Pode ser devido a:
 
    * Um problema com o servidor de entrega (MTA, Agente de transferência de mensagem)
    * Um tempo limite de conexão entre o servidor de entrega do Adobe Campaign e o servidor de recebimento
    * Um problema da capacidade de entrega
    * Um workflow incorreto
 
-  Se o delivery for acionado com um workflow, verifique se esse workflow foi iniciado corretamente. Para obter mais informações, consulte [Execução de um fluxo de trabalho](../../automating/using/about-workflow-execution.md). Caso contrário, entre em contato com o administrador do Adobe Campaign para resolver o problema.
+  Se o delivery for acionado com um workflow, verifique se esse workflow foi iniciado corretamente. Para obter mais informações, consulte [Executando um fluxo de trabalho](../../automating/using/about-workflow-execution.md). Caso contrário, entre em contato com o administrador do Adobe Campaign para resolver o problema.
 
-* **[!UICONTROL Deliveries with preparation failed]**: Um erro pode ocorrer durante a preparação do delivery nos seguintes casos:
+* **[!UICONTROL Deliveries with preparation failed]**: um erro pode ocorrer durante a preparação da entrega nos seguintes casos:
 
    * Falta um assunto na entrega.
    * Há uma sintaxe incorreta nos campos de personalização.
@@ -247,14 +247,14 @@ Estes são alguns motivos possíveis para receber notificações de alerta de ac
 
   Para obter mais informações, consulte [Preparação do envio](../../sending/using/preparing-the-send.md). No entanto, esses erros geralmente são identificados durante a análise da mensagem. Consulte [Regras de controle](../../sending/using/control-rules.md).
 
-* As possíveis causas para uma **[!UICONTROL Delivery with bad error ratio for soft bounces]** O alerta pode ser:
+* As possíveis causas para um alerta **[!UICONTROL Delivery with bad error ratio for soft bounces]** podem ser:
 
    * O servidor do destinatário está inativo.
    * A caixa de correio do destinatário está cheia.
 
-  Para obter mais informações, verifique a **[!UICONTROL Exclusion logs]** e **[!UICONTROL Exclusion causes]** dos logs do delivery. Consulte [Logs de exclusão](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
+  Para obter mais informações, verifique as guias **[!UICONTROL Exclusion logs]** e **[!UICONTROL Exclusion causes]** dos logs de entrega. Consulte [Logs de exclusão](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
 
-  As possíveis causas para uma **[!UICONTROL Delivery with bad error ratio for hard bounces]** O alerta pode ser:
+  As possíveis causas para um alerta **[!UICONTROL Delivery with bad error ratio for hard bounces]** podem ser:
 
    * O recipient é adicionado ao incluo na lista de bloqueios, o que significa que ele não deseja mais ser contatado.
    * O endereço de email do destinatário não existe.
@@ -264,12 +264,12 @@ Estes são alguns motivos possíveis para receber notificações de alerta de ac
   Para evitar erros de devolução temporária e permanente, siga as práticas recomendadas abaixo:
 
    * Crie regras de tipologia de filtragem para excluir uma parte do público-alvo da mensagem durante a análise de entrega, como destinatários em quarentena. Consulte [Criando uma regra de filtragem](../../sending/using/filtering-rules.md).
-   * Atualize regularmente o banco de dados do cliente para manter bons processos de gerenciamento de quarentena. Consulte [Sobre a quarentena](../../sending/using/understanding-quarantine-management.md#about-quarantines).
-   * De modo geral, melhore a capacidade de delivery da melhor maneira possível. Consulte a Adobe Campaign [Capacidade de entrega](../../sending/using/about-deliverability.md) documentação detalhada e entre em contato com o administrador do Adobe Campaign para obter assistência.
+   * Atualize regularmente o banco de dados do cliente para manter bons processos de gerenciamento de quarentena. Consulte [Sobre quarentenas](../../sending/using/understanding-quarantine-management.md#about-quarantines).
+   * De modo geral, melhore a capacidade de delivery da melhor maneira possível. Consulte a documentação detalhada da [Capacidade de entrega](../../sending/using/about-deliverability.md) do Adobe Campaign e entre em contato com o administrador do Adobe Campaign para obter assistência.
 
-* **[!UICONTROL Deliveries with long start pending]**: geralmente significa que há um problema no nível do MTA (Agente de transferência de mensagem). O processo de execução está aguardando a disponibilidade de alguns recursos. O MTA pode não ter sido iniciado.
+* **[!UICONTROL Deliveries with long start pending]**: Geralmente significa que há um problema no nível do MTA (Agente de Transferência de Mensagem). O processo de execução está aguardando a disponibilidade de alguns recursos. O MTA pode não ter sido iniciado.
 
-  **[!UICONTROL Deliveries with low throughput]**: novamente, esse é um problema de capacidade de delivery, o que significa que o MTA está muito lento.
+  **[!UICONTROL Deliveries with low throughput]**: Novamente, esse é um problema de capacidade de entrega, o que significa que o MTA é muito lento.
 
   Para obter mais informações sobre esses problemas, entre em contato com o administrador do Adobe Campaign.
 

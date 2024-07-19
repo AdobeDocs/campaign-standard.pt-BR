@@ -27,7 +27,7 @@ Ative as &quot;extensões de perfil&quot; no Adobe Campaign Standard.   Isso é 
 
 1. Acesse Configurações -> Administração -> Desenvolvimento -> Publicação.
 1. Clique em &quot;Preparar publicação&quot; para preparar uma publicação.
-1. Após a conclusão da preparação, marque a opção &quot;Criar a API de extensão de Perfis e serviços&quot; e clique em &quot;Publicar&quot;.
+1. Após a conclusão da preparação, marque a opção &quot;Criar a API de extensão de Perfis e serviços&quot; e clique em &quot;Publish&quot;.
 
 ## Configurar Adobe I/O {#adobe-io}
 
@@ -49,9 +49,9 @@ Será necessário criar um novo projeto do Adobe Developer e configurá-lo para 
 
 Para isso, siga o procedimento abaixo:
 
-1. Navegue até [Console do Adobe Developer](https://console.adobe.io/home#) e selecione a ID da organização do Adobe no menu suspenso na parte superior direita da tela.
+1. Navegue até [Adobe Developer Console](https://console.adobe.io/home#) e selecione sua ID de organização de Adobe no menu suspenso na parte superior direita da tela.
 
-1. Clique em **[!UICONTROL Create new project]** em **[!UICONTROL Quick Start]**.
+1. Em seguida, clique em **[!UICONTROL Create new project]** em **[!UICONTROL Quick Start]**.
 
    ![](assets/adobeIO1.png)
 
@@ -59,7 +59,7 @@ Para isso, siga o procedimento abaixo:
 
    ![](assets/adobeIO2.png)
 
-1. Selecione o Adobe Campaign e clique em **[!UICONTROL Next]**.
+1. Selecione a Adobe Campaign e clique em **[!UICONTROL Next]**.
 
    ![](assets/adobeIO3.png)
 
@@ -79,13 +79,13 @@ Para isso, siga o procedimento abaixo:
 
    ![](assets/adobeIO6.png)
 
-1. Na próxima tela, será necessário selecionar a API de Eventos de E/S e clicar em **[!UICONTROL Next]**.
+1. Na próxima tela, você precisará selecionar a API de Eventos de E/S e clicar em **[!UICONTROL Next]**.
 
 1. Na próxima tela, clique em **[!UICONTROL Save the configured API]**.  Você será redirecionado à tela de detalhes do projeto.
 
 1. Agora clique em **[!UICONTROL Add to Project]** no canto superior esquerdo da tela e selecione **API** no menu suspenso, como você fez anteriormente.
 
-1. Na próxima tela, será necessário selecionar a API de gerenciamento de E/S e clicar em **[!UICONTROL Next]**.
+1. Na próxima tela, você precisará selecionar a API de Gerenciamento de E/S e clicar em **[!UICONTROL Next]**.
 
 1. Na próxima tela, clique em **[!UICONTROL Save the configured API]**.
 
@@ -93,9 +93,9 @@ A configuração da pré-integração no Campaign está concluída.
 
 **Tópicos relacionados**
 
-* [Configurar o Adobe Developer para integração com o Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) é a próxima etapa na configuração da integração do
-* [Visão Geral da Aplicação Self-Service de Integração](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) A contém a lista completa de etapas para ativar a integração.
-* [Adobe Developer - Integração de contas de serviço](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
+* [Configurar o Adobe Developer para integração com o Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) é a próxima etapa na configuração da integração
+* [Visão Geral do Aplicativo de Autoatendimento de Integração](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) contém a lista completa de etapas para ativar a integração.
+* [Adobe Developer - Integração de Conta de Serviço](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard - Configuração de acesso à API](../../api/using/setting-up-api-access.md)
 * [Campaign Standard - Integração com o Dynamics 365](../../integrating/using/d365-acs-configure-d365.md)
 * [Migrar credenciais do JWT para o servidor do OAuth](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) contém as etapas para migrar credenciais do JWT para o servidor do OAuth.

@@ -26,15 +26,15 @@ A seção a seguir descreve as práticas e os procedimentos recomendados para a 
 
 Vários fatores podem afetar diretamente o desempenho do servidor e retardar a plataforma:
 
-* O número e o tipo de elementos de personalização: a personalização em emails extrai dados do banco de dados para cada destinatário. Se houver muitos elementos de personalização, isso aumentará a quantidade de dados necessários para preparar a entrega.  Saiba mais sobre a personalização de email no [nesta seção](../../designing/using/personalization.md)
+* O número e o tipo de elementos de personalização: a personalização em emails extrai dados do banco de dados para cada destinatário. Se houver muitos elementos de personalização, isso aumentará a quantidade de dados necessários para preparar a entrega.  Saiba mais sobre a personalização de email [nesta seção](../../designing/using/personalization.md)
 
 * A carga do servidor: quando o Campaign estiver lidando com várias tarefas diferentes ao mesmo tempo, o desempenho poderá ser retardado. O servidor precisa coordenar todos os dados de entrada e saída de todos os deliveries para garantir que os dados estejam corretos no momento correto.
 
   **Dica** - Para evitar isso, coordene a programação de entregas com os outros membros da equipe, garantindo um melhor desempenho.
 
-* A variável [execução do fluxo de trabalho](../../automating/using/about-workflow-execution.md): monitorar os workflows é essencial para evitar problemas de desempenho na plataforma. Siga as diretrizes listadas [nesta página](../../automating/using/monitoring-workflow-execution.md). Saiba mais na [práticas recomendadas de workflow](../../automating/using/best-practices-workflows.md) seção.
+* A [execução do fluxo de trabalho](../../automating/using/about-workflow-execution.md): monitorar seus fluxos de trabalho é essencial para evitar problemas de desempenho na plataforma. Siga as diretrizes listadas [nesta página](../../automating/using/monitoring-workflow-execution.md). Saiba mais na seção [práticas recomendadas de fluxo de trabalho](../../automating/using/best-practices-workflows.md).
 
-* Você pode aproveitar [Recursos do Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=pt-BR) para monitorar sua plataforma, usando [monitoramento de desempenho](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=pt-BR) funcionalidades.
+* Você pode aproveitar os [recursos do Painel de Controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=pt-BR) para monitorar sua plataforma, usando as funcionalidades de [monitoramento de desempenho](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=pt-BR).
 
 ## Verificar configuração de rede {#network-config}
 
@@ -52,7 +52,7 @@ Para alcançar a caixa de entrada de seus destinatários sem ser rejeitado ou se
 
    * Ao verificar seu email quanto à capacidade de entrega, você deseja se concentrar em quatro categorias principais: qualidade de dados, mensagem e conteúdo, infraestrutura de envio e reputação. Para aprofundar esse tópico, consulte [esta seção](../../sending/using/about-deliverability.md).
 
-* Ao iniciar uma nova plataforma, aplique as recomendações detalhadas em [esta página](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
+* Ao iniciar uma nova plataforma, aplique as recomendações detalhadas nesta [página](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
 
 * Entre em contato com seu representante da Adobe para obter assistência.
 

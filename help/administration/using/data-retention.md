@@ -34,26 +34,26 @@ Abaixo estão os períodos de retenção padrão para tabelas padrão. Sempre qu
 * **Entidades temporárias**: 7 dias
 * **Eventos de pipeline ignorados**: 1 mês
 * **Alertas de entrega**: 1 mês
-* **Exportar auditoria**: 6 meses (recomendado: 1 mês)
+* **Auditoria de exportação**: 6 meses (recomendado: 1 mês)
 
 ## Período de retenção para entregas {#deliveries}
 
 Por padrão, o período de retenção para deliveries é ilimitado.
 
-No entanto, se houver um alto volume de deliveries na sua instância, você poderá atualizar o **NmsCleanup_DeliveryPurgeDelay** opção disponível no **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** menu.
+No entanto, se houver um alto volume de entregas em sua instância, você poderá atualizar a opção **NmsCleanup_DeliveryPurgeDelay**, disponível no menu **[!UICONTROL Administration]** > **[!UICONTROL Application settings]**.
 
-Cada vez que a variável **[!UICONTROL Database cleanup]** for executado, os deliveries que atenderem às condições definidas para essa opção serão excluídos.
+Toda vez que o fluxo de trabalho **[!UICONTROL Database cleanup]** é executado, os deliveries que atendem às condições definidas para esta opção são excluídos.
 
-Esta ação pode ajudar a acelerar processos como o **[!UICONTROL Copy headers from delivery templates]** fluxo de trabalho.
+Esta ação pode ajudar a acelerar processos como o fluxo de trabalho **[!UICONTROL Copy headers from delivery templates]**.
 
 >[!NOTE]
 >
->Saiba mais sobre workflows técnicos em [nesta seção](technical-workflows.md).
+>Saiba mais sobre fluxos de trabalho técnicos em [esta seção](technical-workflows.md).
 
 
-O valor padrão para a variável **NmsCleanup_DeliveryPurgeDelay** opção é `-1`. Nesse caso, nenhum delivery é excluído.
+O valor padrão da opção **NmsCleanup_DeliveryPurgeDelay** é `-1`. Nesse caso, nenhum delivery é excluído.
 
-Por exemplo, se você defini-lo como `180`, qualquer delivery que não seja de modelo que não tenha sido atualizado nos últimos 180 dias será excluído quando a variável **[!UICONTROL Database cleanup]** fluxo de trabalho for executado.
+Por exemplo, se você o definir como `180`, qualquer entrega que não seja de modelo e não tenha sido atualizada nos últimos 180 dias será excluída quando o fluxo de trabalho **[!UICONTROL Database cleanup]** for executado.
 
 >[!NOTE]
 >
@@ -61,5 +61,5 @@ Por exemplo, se você defini-lo como `180`, qualquer delivery que não seja de m
 >
 >* Para deliveries recorrentes, os deliveries secundários com período de agregação definido como mês ou ano não serão excluídos.
 
-Ao atualizar o **NmsCleanup_DeliveryPurgeDelay** , é recomendável prosseguir gradualmente com várias iterações. Por exemplo, você pode começar definindo o valor como 300 dias, depois 180 dias, depois 120 dias e assim por diante - certificando-se de que as iterações estejam pelo menos com 2 dias de diferença. Caso contrário, a variável **[!UICONTROL Database cleanup]** o fluxo de trabalho pode levar muito mais tempo devido a um grande número de deliveries a serem excluídos.
+Ao atualizar a opção **NmsCleanup_DeliveryPurgeDelay**, é recomendável prosseguir gradualmente com várias iterações. Por exemplo, você pode começar definindo o valor como 300 dias, depois 180 dias, depois 120 dias e assim por diante - certificando-se de que as iterações estejam pelo menos com 2 dias de diferença. Caso contrário, o fluxo de trabalho **[!UICONTROL Database cleanup]** pode demorar muito mais devido a um grande número de entregas a serem excluídas.
 

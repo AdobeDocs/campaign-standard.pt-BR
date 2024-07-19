@@ -19,7 +19,8 @@ ht-degree: 84%
 
 Após a criação de um email no Adobe Campaign, é necessário definir seu conteúdo.
 
-O Designer de email permite criar e-mails envolventes e personalizados por meio de uma interface de arrastar e soltar. Esteja você iniciando do zero ou a partir de fragmentos e modelos de conteúdo existentes, projete e refine todo o conteúdo para cada email, seja ele promocional ou transacional.
+O Designer de email permite criar emails atraentes e personalizados por meio de um recurso de arrastar e soltar
+interface. Esteja você iniciando do zero ou a partir de fragmentos e modelos de conteúdo existentes, projete e refine todo o conteúdo para cada email, seja ele promocional ou transacional.
 
 Criado para fornecer HTML otimizado para design responsivo, o Designer de email permite definir e aplicar facilmente condições de visibilidade e conteúdo dinâmico a um email, modelo ou fragmento diretamente pela interface do usuário. Você pode alternar facilmente entre a interface de arrastar e soltar e o código HTML com apenas um clique.
 
@@ -143,7 +144,7 @@ Quanto aos fragmentos, observe o seguinte:
 
 * A atualização de fragmentos usados em emails já preparados não afeta esses emails.
 
-## Limitações do Email Designer {#email-designer-limitations}
+## Limitações do Designer de email {#email-designer-limitations}
 
 * Não é possível usar campos de personalização em um fragmento. Para obter mais informações sobre fragmentos, consulte [esta seção](../../designing/using/using-reusable-content.md#about-fragments).
 
@@ -167,4 +168,4 @@ Este vídeo fornece uma visão geral do Designer de email.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-Para começar a usar o Designer de email, assista a isso [conjunto de vídeos](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) que explicam a funcionalidade geral do Designer de email e como projetar um email do zero ou usando modelos
+Para começar a usar o Designer de email, assista a este [conjunto de vídeos](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) que explicam a funcionalidade geral do Designer de email e como projetar um email do zero ou utilizando modelos

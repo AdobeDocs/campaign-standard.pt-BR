@@ -17,13 +17,13 @@ ht-degree: 1%
 
 # Mecanismo de metadados {#metadata-mechanism}
 
-É possível recuperar os metadados de recursos usando **resourceType** em uma solicitação GET:
+Você pode recuperar os metadados dos recursos usando **resourceType** em uma solicitação GET:
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
 A resposta retorna os principais metadados do recurso (todos os outros campos são descritivos ou internos):
 
-* A variável **Conteúdo** retorna os campos do recurso. Para cada campo no **conteúdo** podemos encontrar os seguintes campos:
+* O nó **Content** retorna os campos do recurso. Para cada campo no nó **content**, podemos encontrar os seguintes campos:
 
    * &quot;apiName&quot;: nome do atributo usado nas APIs.
    * &quot;type&quot;: esta é a definição de tipo de alto nível (sequência, número, link, coleção, enumeração...).
@@ -32,9 +32,9 @@ A resposta retorna os principais metadados do recurso (todos os outros campos s�
    * &quot;resType&quot;: é o tipo técnico.
 
      Se &quot;type&quot; for concluído com o valor &quot;link&quot; ou &quot;collection&quot;, o valor resTarget será o nome do recurso direcionado pelo link.
-Se &quot;type&quot; for preenchido com o valor &quot;enumeration&quot;, um campo &quot;values&quot; será adicionado e cada valor de enumeração será detalhado no **valores** nó.
+Se &quot;type&quot; for concluído com o valor &quot;enumeration&quot;, um campo &quot;values&quot; será adicionado e cada valor de enumeração será detalhado no nó **values**.
 
-* A variável **Filtros** O nó retorna o URL para recuperar os filtros associados. Para obter mais informações sobre filtros, consulte [nesta seção](../../api/using/filtering.md) seção.
+* O nó **Filtros** retorna a URL para recuperar os filtros associados. Para obter mais informações sobre filtros, consulte [esta seção](../../api/using/filtering.md).
 
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
@@ -43,7 +43,7 @@ si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
 
 <br/>
 
-***Exemplo de solicitação***
+***Solicitação de exemplo***
 
 Execute uma solicitação GET no recurso.
 

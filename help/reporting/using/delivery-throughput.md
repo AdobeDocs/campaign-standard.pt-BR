@@ -21,10 +21,10 @@ ht-degree: 4%
 Este relatório contém dados relacionados à taxa de transferência de delivery de um ou vários envios. Ele fornece:
 
 * O número de mensagens processadas por hora
-* A variável **[!UICONTROL Top 5 deliveries]** tabela e números de resumo complementares que mostram os cinco deliveries com melhor ganho em tentativas.
+* A tabela **[!UICONTROL Top 5 deliveries]** e os números de resumo complementares que mostram as cinco entregas com melhor ganho em tentativas.
 
 ![](assets/delivery_reports_1.png)
 
 >[!NOTE]
 >
->A variável **[!UICONTROL Delivery throughput]** exibe a velocidade da taxa de transferência para o relé de suas mensagens do Campaign para o MTA aprimorado do Adobe Campaign (Agente de Transferência de Mensagem).
+>A página **[!UICONTROL Delivery throughput]** exibe a velocidade da taxa de transferência para a retransmissão de suas mensagens do Campaign para o MTA aprimorado do Adobe Campaign (Agente de Transferência de Mensagem).

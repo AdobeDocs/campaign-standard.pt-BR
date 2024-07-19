@@ -155,7 +155,7 @@ Você pode extrair os **logs de envio** para comparar como foi a ação do grupo
 
 >[!IMPORTANT]
 >
->Para acessar os logs do delivery, é necessário ter uma [Função de administrador](../../administration/using/users-management.md#functional-administrators) e para fazer parte da **[!UICONTROL All]** [unidade organizacional](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
+>Para acessar os logs de entrega, você precisa ter uma [função de Administrador](../../administration/using/users-management.md#functional-administrators) e fazer parte da **[!UICONTROL All]** [unidade organizacional](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
 
 ### Verificar os logs do delivery {#checking-logs}
 

@@ -1,6 +1,6 @@
 ---
 title: Lista de componentes
-description: Encontre aqui a lista de todos os componentes disponíveis em Relatórios dinâmicos, bem como suas definições.
+description: Encontre aqui a lista de todos os componentes disponíveis em     Relatórios dinâmicos, bem como suas definições.
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # Lista de componentes {#list-of-components}
 
-Para saber mais sobre a compatibilidade entre dimensões e métricas, consulte este [tabela](/help/reporting/using/assets/dynamic_report_compatibility.pdf). Se dois componentes não forem compatíveis, a célula exibirá o valor **Nenhum**.
+Para saber mais sobre a compatibilidade entre dimensões e métricas, consulte esta [tabela](/help/reporting/using/assets/dynamic_report_compatibility.pdf). Se dois componentes não forem compatíveis, a célula exibirá o valor **Nenhum**.
 
 [![imagem](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
@@ -51,43 +51,43 @@ A tabela abaixo fornece a lista de dimensões usadas em relatórios e suas defin
   </tr> 
   <tr> 
    <td> Entrega<br /> </td> 
-   <td> Etiqueta e ID da entrega.<br /> </td> 
+   <td> Rótulo e ID da entrega.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dispositivo<br /> </td> 
-   <td> Dispositivo no qual o email/SMS/notificação por push foi aberto/exibido/clicado.<br /> </td> 
+   <td> Dispositivo do qual a notificação por email/SMS/push foi aberta/exibida/clicada.<br /> </td> 
   </tr> 
   <tr> 
    <td> Motivo da falha<br /> </td> 
-   <td> Tipos de erros que causaram rejeições para cada delivery, por exemplo, usuário desconhecido, domínio inválido ou caixa de correio cheia.<br /> </td> 
+   <td> Tipos de erros que causaram rejeições para cada entrega, por exemplo, usuário desconhecido, domínio inválido ou caixa de correio cheia.<br /> </td> 
   </tr> 
   <tr> 
    <td> Sexo<br /> </td> 
-   <td> Sexo do destinatário, como masculino ou feminino. Se o campo de gênero estiver vazio no perfil do recipient, o valor será nenhum.<br /> </td> 
+   <td> Sexo do destinatário, como masculino ou feminino. Se o campo de gênero estiver vazio no perfil do destinatário, o valor será none.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Ações de mensagem no aplicativo<br /> </td> 
-   <td> Ações na mensagem no aplicativo entregue, por exemplo, ações no botão 1 ou 2 ou rejeições.<br /> </td> 
+   <td> Ações de mensagens no aplicativo<br /> </td> 
+   <td> Ações na entrega de mensagens no aplicativo, por exemplo, ações no botão 1 ou 2 ou rejeições.<br /> </td> 
   </tr> 
   <tr> 
    <td> Tipo de mensagem<br /> </td> 
-   <td> Canal usado para a entrega, como email, SMS, notificação por push ou no aplicativo.<br /> </td> 
+   <td> Canal usado para a entrega, como email, SMS, notificação por push ou No aplicativo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Nome do aplicativo móvel<br /> </td> 
    <td> Nome do aplicativo móvel<br /> </td> 
   </tr> 
   <tr> 
-   <td> Platform<br /> </td> 
-   <td> Plataforma do dispositivo do qual a mensagem foi aberta/exibida/clicada.<br /> </td> 
+   <td> Plataforma<br /> </td> 
+   <td> Plataforma do dispositivo a partir do qual a mensagem foi aberta/exibida/clicada.<br /> </td> 
   </tr> 
   <tr> 
    <td> Perfil<br /> </td> 
-   <td> Reagrupa campos de perfil prontos para uso e personalizados criados durante a extensão de recurso de perfil. Para obter mais informações, consulte este <a href="../../developing/using/key-steps-to-add-a-resource.md">página</a> ou esta <a href="../../reporting/using/creating-a-custom-profile-dimension.md">exemplo</a>.<br /> Observe que os dados dessa dimensão são recuperados assim que o recurso personalizado vinculado ao campo de perfil é publicado.<br /> </td> 
+   <td> Reagrupa campos de perfil prontos para uso e personalizados criados durante a extensão de recurso de perfil. Para obter mais informações, consulte esta <a href="../../developing/using/key-steps-to-add-a-resource.md">página</a> ou este <a href="../../reporting/using/creating-a-custom-profile-dimension.md">exemplo</a>.<br /> Observe que os dados desta dimensão são recuperados assim que o recurso personalizado vinculado ao campo de perfil é publicado.<br /> </td> 
   </tr> 
   <tr> 
    <td> Plataforma de push<br /> </td> 
-   <td> Plataforma do dispositivo do qual a notificação por push foi aberta, como iOS ou Android.<br /> </td> 
+   <td> Plataforma do dispositivo a partir do qual a notificação por push foi aberta, como iOS ou Android.<br /> </td> 
   </tr> 
   <tr> 
    <td> Domínio do destinatário<br /> </td> 
@@ -102,7 +102,7 @@ A tabela abaixo fornece a lista de dimensões usadas em relatórios e suas defin
    <td> Domínio usado para enviar o email.<br /> </td> 
   </tr> 
   <tr> 
-   <td> IP do remetente<br /> </td> 
+   <td> IP do Remetente<br /> </td> 
    <td> IP usado para enviar o email.<br /> </td> 
   </tr> 
   <tr> 
@@ -110,15 +110,15 @@ A tabela abaixo fornece a lista de dimensões usadas em relatórios e suas defin
    <td> Estado registrado no perfil do destinatário.<br /> </td> 
   </tr> 
   <tr> 
-   <td> URL de rastreamento<br /> </td> 
-   <td> URL no qual o usuário clicou a partir da mensagem.<br /> </td> 
+   <td> URL de Acompanhamento<br /> </td> 
+   <td> URL que foi clicado pelo usuário na mensagem.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Categoria de URL de rastreamento<br /> </td> 
-   <td> Categoria atribuída ao URL de rastreamento.<br /> </td> 
+   <td> Categoria de URL de Acompanhamento<br /> </td> 
+   <td> Categoria atribuída à URL de rastreamento.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Rótulo do URL de rastreamento<br /> </td> 
+   <td> Rótulo da URL de rastreamento <br /> </td> 
    <td> Rótulo fornecido ao URL, como mirror page, entre em contato conosco ou abra.<br /> </td> 
   </tr> 
   <tr> 
@@ -147,7 +147,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
  </thead> 
  <tbody> 
   <tr> 
-   <td> Na inclui na lista de bloqueios<br /> </td> 
+   <td> Na inclui na lista de bloqueios <br /> </td> 
    <td> Número de destinatários que declararam um email como spam ou lixo eletrônico.<br /> </td> 
   </tr> 
   <tr> 
@@ -156,15 +156,15 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
   </tr> 
   <tr> 
    <td> Devoluções + Erros<br /> </td> 
-   <td> Total de erros acumulados durante o processamento de delivery e retorno automático em relação ao número total de mensagens enviadas.<br /> </td> 
+   <td> Total de erros acumulados durante o processamento de entrega e retorno automático em relação ao número total de mensagens enviadas.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Rejeição + taxa de erro<br /> </td> 
-   <td> Porcentagem de emails enviados em comparação ao email enviado.<br /> </td> 
+   <td> Rejeição + Taxa de erro <br /> </td> 
+   <td> Porcentagem de emails devolvidos em comparação ao email enviado.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Clique em<br /> </td> 
-   <td> Número de vezes que um conteúdo foi clicado em um delivery.<br /> </td> 
+   <td> Clique em <br /> </td> 
+   <td> Número de vezes que um conteúdo foi clicado em uma entrega.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taxa de cliques<br /> </td> 
@@ -172,7 +172,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
   </tr> 
   <tr> 
    <td> Entregue<br /> </td> 
-   <td> Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.<br /> </td> 
+   <td> Número de mensagens enviadas com êxito, em relação ao número total de mensagens enviadas.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taxa de entregas<br /> </td> 
@@ -180,7 +180,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
   </tr> 
   <tr> 
    <td> Rejeição permanente<br /> </td> 
-   <td> Número total de erros permanentes, como um endereço de email incorreto.<br /> </td> 
+   <td> Número total de erros permanentes, como endereço de email incorreto.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taxa de rejeição permanente<br /> </td> 
@@ -192,11 +192,11 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
   </tr> 
   <tr> 
    <td> Taxa de mirror pages<br /> </td> 
-   <td> Porcentagem de cliques no link da mirror page em comparação ao total de mensagens de delivery.<br /> </td> 
+   <td> Porcentagem de cliques no link da mirror page em comparação ao total de mensagens de entrega.<br /> </td> 
   </tr> 
   <tr> 
    <td> Cliques de oferta<br /> </td> 
-   <td> Número de vezes que uma oferta foi clicada em um delivery.<br /> </td> 
+   <td> Número de vezes que uma oferta foi clicada em uma entrega.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taxa de cliques da oferta<br /> </td> 
@@ -204,7 +204,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
   </tr> 
   <tr> 
    <td> Abertura<br /> </td> 
-   <td> Número de vezes que uma mensagem foi aberta em um delivery.<br /> </td> 
+   <td> Número de vezes que uma mensagem foi aberta em uma entrega.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taxa de aberturas<br /> </td> 
@@ -227,7 +227,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
    <td> Número de mensagens classificadas como spam pelos servidores SMTP.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Taxa de rejeições<br /> </td> 
+   <td> Taxa rejeitada<br /> </td> 
    <td> Porcentagem de mensagens marcadas como rejeitadas.<br /> </td> 
   </tr> 
   <tr> 
@@ -240,23 +240,23 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
   </tr> 
   <tr> 
    <td> Cliques únicos<br /> </td> 
-   <td> Número de recipients que clicaram em um conteúdo em um delivery.<br /> </td> 
+   <td> Número de destinatários que clicaram em um conteúdo em uma entrega.<br /> </td> 
   </tr> 
   <tr> 
    <td> Aberturas únicas<br /> </td> 
-   <td> Número de destinatários que abriram o delivery.<br /> </td> 
+   <td> Número de destinatários que abriram a entrega.<br /> </td> 
   </tr> 
   <tr> 
    <td> Cancelamento de assinatura exclusivo<br /> </td> 
-   <td> Número de recipients que clicaram no link unsubscription.<br /> </td> 
+   <td> Número de destinatários que clicaram no link de cancelamento de assinatura.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taxa de cancelamento de inscrição<br /> </td> 
-   <td> Número de cancelamentos de subscrição exclusivos em comparação às mensagens entregues.<br /> </td> 
+   <td> Número de cancelamentos de assinatura exclusivos em comparação às mensagens entregues.<br /> </td> 
   </tr> 
   <tr> 
    <td> Assinatura cancelada<br /> </td> 
-   <td> Número de cliques no link unsubscription.<br /> </td> 
+   <td> Número de cliques no link de cancelamento de assinatura.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -273,15 +273,15 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
  <tbody> 
   <tr> 
    <td> Devoluções + Erros<br /> </td> 
-   <td> Total de erros acumulados durante o delivery em relação ao número total de mensagens enviadas, por exemplo, erros do MCPNS ou do provedor.<br /> </td> 
+   <td> Total de erros acumulados durante a entrega em relação ao número total de mensagens enviadas, por exemplo, erros de MCPNS ou provedor.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Rejeição + taxa de erro<br /> </td> 
+   <td> Rejeição + Taxa de erro <br /> </td> 
    <td> Porcentagem de notificações por push que foram rejeitadas em comparação às notificações por push enviadas.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Clique em<br /> </td> 
-   <td> Número de vezes que uma notificação por push foi entregue ao dispositivo e clicada pelo usuário. O usuário queria visualizar a notificação, que será movida para o rastreamento de Abertura por push ou a descartará.<br /> </td> 
+   <td> Clique em <br /> </td> 
+   <td> Número de vezes que uma notificação por push foi entregue ao dispositivo e clicada pelo usuário. O usuário deseja exibir a notificação, que será movida para o rastreamento de Abertura por Push ou desativá-la.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taxa de cliques<br /> </td> 
@@ -305,7 +305,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
   </tr> 
   <tr> 
    <td> Abertura<br /> </td> 
-   <td> Número total de notificações por push entregues ao dispositivo e clicadas pelos usuários, abrindo o aplicativo. Isso é semelhante ao clique por push, exceto que uma abertura por push não será acionada se a notificação tiver sido descartada.<br /> </td> 
+   <td> Número total de notificações por push entregues ao dispositivo e clicadas pelos usuários, abrindo o aplicativo. Isso é semelhante ao Clique por Push, exceto que uma Abertura por Push não será acionada se a notificação for descartada.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taxa de aberturas<br /> </td> 
@@ -317,11 +317,11 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
   </tr> 
   <tr> 
    <td> Impressões exclusivas<br /> </td> 
-   <td> Número de impressões por recipient.<br /> </td> 
+   <td> Número de impressões por destinatário.<br /> </td> 
   </tr> 
   <tr> 
    <td> Aberturas únicas<br /> </td> 
-   <td> Número de destinatários que abriram o delivery.<br /> </td> 
+   <td> Número de destinatários que abriram a entrega.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -342,7 +342,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
   </tr> 
   <tr> 
    <td> Impressões<br /> </td> 
-   <td> Total de mensagens no aplicativo vistas pelos destinatários dependendo se o critério do acionador foi atendido.<br /> </td> 
+   <td> Total de mensagens no aplicativo vistas pelos destinatários, dependendo se o critério do gatilho foi atendido.<br /> </td> 
   </tr> 
   <tr> 
    <td> Cliques no aplicativo <br /> </td> 
@@ -362,15 +362,15 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
   </tr> 
   <tr> 
    <td> Processado/enviado<br /> </td> 
-   <td> Número total de mensagens no aplicativo enviadas do Adobe Campaign como parte do processo de envio do delivery.<br /> </td> 
+   <td> Número total de mensagens no aplicativo enviadas do Adobe Campaign como parte do processo de entrega enviada.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressões exclusivas<br /> </td> 
-   <td> Número de impressões por um recipient exclusivo.<br /> </td> 
+   <td> Número de impressões por um destinatário único.<br /> </td> 
   </tr> 
   <tr> 
    <td> Cliques únicos no aplicativo<br /> </td> 
-   <td> Número de vezes que os recipients clicaram no Botão 1 ou Botão 2.<br /> </td> 
+   <td> Número de vezes que os destinatários clicaram no Botão 1 ou Botão 2.<br /> </td> 
   </tr> 
   <tr> 
    <td> Descartes únicos no aplicativo<br /> </td> 
@@ -424,36 +424,36 @@ A tabela abaixo fornece a lista de segmentos usados em relatórios e suas defini
    <td> Recipients nascidos de 1977 a 1994.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Idade: geração Z<br /> </td> 
-   <td> Recipients nascidos de 1995 a hoje.<br /> </td> 
+   <td> Idade: Geração Z<br /> </td> 
+   <td> Destinatários nascidos de 1995 a hoje.<br /> </td> 
   </tr> 
   <tr> 
    <td> Idade: maior que 50<br /> </td> 
-   <td> Recipients com idade superior a 50 anos.<br /> </td> 
+   <td> Destinatários com idade superior a 50.<br /> </td> 
   </tr> 
   <tr> 
    <td> Idade: menos de 25<br /> </td> 
-   <td> Recipients com menos de 25 anos.<br /> </td> 
+   <td> Destinatários com menos de 25 anos.<br /> </td> 
   </tr> 
   <tr> 
    <td> Idade: menos de 30<br /> </td> 
-   <td> Recipients com menos de 30 anos.<br /> </td> 
+   <td> Destinatários com menos de 30 anos.<br /> </td> 
   </tr> 
   <tr> 
    <td> Idade: menos de 40<br /> </td> 
-   <td> Recipients com menos de 40 anos.<br /> </td> 
+   <td> Destinatários com menos de 40 anos.<br /> </td> 
   </tr> 
   <tr> 
    <td> Idade: menos de 50<br /> </td> 
-   <td> Recipients com menos de 50 anos.<br /> </td> 
+   <td> Destinatários com menos de 50 anos.<br /> </td> 
   </tr> 
   <tr> 
    <td> Idade: geração silenciosa<br /> </td> 
-   <td> Recipients nascidos em 1945 ou antes.<br /> </td> 
+   <td> Destinatários nascidos em 1945 ou antes.<br /> </td> 
   </tr> 
   <tr> 
    <td> Todas as visitas<br /> </td> 
-   <td> Todos os recipients<br /> </td> 
+   <td> Todos os destinatários<br /> </td> 
   </tr>
  </tbody> 
 </table>

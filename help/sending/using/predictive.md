@@ -23,9 +23,9 @@ Com o Campaign, você pode otimizar o design e a entrega de jornadas de clientes
 >
 >Esse recurso não está disponível para uso imediato como parte do produto. A implementação exige o engajamento da Adobe Consulting. Entre em contato com seu representante da Adobe para obter mais detalhes.
 
-A Adobe Campaign oferece dois novos modelos de aprendizado de máquina: **Otimização preditiva do tempo de envio** e **Pontuação preditiva de engajamento**. Esses dois modelos são modelos de aprendizado de máquina específicos para projetar e fornecer melhores jornadas ao cliente.
+A Adobe Campaign oferece dois novos modelos de aprendizado de máquina: **Otimização preditiva do tempo de envio** e **Pontuação preditiva do engajamento**. Esses dois modelos são modelos de aprendizado de máquina específicos para projetar e fornecer melhores jornadas ao cliente.
 
-* **Otimização preditiva do tempo de envio** O prevê qual é o melhor momento de envio para cada perfil de recipient para aberturas ou cliques de email e aberturas de mensagem por push. As pontuações indicam o melhor horário de envio para cada dia da semana e qual o melhor dia para enviar a fim de obter melhores resultados para cada perfil de destinatário.
+* A **Otimização preditiva do tempo de envio** prevê qual é o melhor tempo de envio para cada perfil de destinatário para aberturas de email ou cliques e aberturas de mensagem por push. As pontuações indicam o melhor horário de envio para cada dia da semana e qual o melhor dia para enviar a fim de obter melhores resultados para cada perfil de destinatário.
 
 * **Pontuação preditiva de engajamento**: prevê a probabilidade de engajamento de um recipient em uma mensagem, bem como a probabilidade de opt out (cancelamento de inscrição) nos próximos 7 dias após o próximo envio de email. As probabilidades são divididas em grupos de acordo com o nível previsto de engajamento com seu conteúdo: alto, médio ou baixo. Esses modelos também fornecem a classificação do percentil de risco de cancelamento de subscrição para que os clientes entendam onde está a classificação de um determinado cliente em relação a outros.
 
@@ -35,9 +35,9 @@ A Otimização preditiva de tempo de envio prevê qual é o melhor momento de en
 
 No modelo de Otimização preditiva de tempo de envio, há dois submodelos:
 
-* **Tempo preditivo de envio para abertura** é a melhor hora para enviar uma comunicação ao cliente para maximizar as aberturas
+* **O tempo preditivo de envio para abrir** é o melhor horário para o envio de uma comunicação ao cliente para maximizar as aberturas
 
-* **Tempo preditivo de envio para clique** é a melhor hora para enviar uma comunicação ao cliente para maximizar os cliques
+* **O tempo preditivo de envio para o clique** é o melhor horário para o envio da comunicação ao cliente para maximizar os cliques
 
 **Entrada do modelo**: Logs da entrega, logs de rastreamento e atributos de perfil (não PII)
 
@@ -80,7 +80,7 @@ Por padrão, as pontuações do perfil oferecerão o melhor horário do dia para
 
 ### Enviar mensagens no melhor momento{#use-predictive-send-time}
 
-Para que os emails sejam enviados no horário ideal por perfil, o delivery deve ser programado usando a opção **[!UICONTROL Send at a custom date defined by a formula]**.
+Para que os emails sejam enviados no horário ideal por perfil, a entrega deve ser agendada usando a opção **[!UICONTROL Send at a custom date defined by a formula]**.
 
 Saiba como calcular a data de envio [nesta seção](../../sending/using/computing-the-sending-date.md).
 
@@ -109,9 +109,9 @@ As probabilidades são divididas em grupos de acordo com o nível previsto de en
 
 A Pontuação preditiva de engajamento permite:
 
-* **Selecionar um público-alvo**: ao usar a atividade de query, você pode selecionar o público-alvo que vai se engajar com uma mensagem específica
-* **Excluir um público**: ao usar a atividade de query, você pode remover o público-alvo com maior probabilidade de cancelar a inscrição
-* **Personalizar**: personalizar mensagens com base no nível de engajamento (usuários altamente engajados receberão uma mensagem diferente daqueles não engajados)
+* **Selecionar um público-alvo**: ao usar a atividade de consulta, você pode selecionar o público-alvo para se engajar com uma mensagem específica
+* **Excluir um público-alvo**: usando a atividade de consulta, você pode remover o público-alvo com maior probabilidade de cancelar a inscrição
+* **Personalizar**: personalizar mensagens de acordo com o nível de engajamento (usuários altamente engajados receberão uma mensagem diferente daqueles não engajados)
 
 Este modelo usa várias pontuações para indicar:
 

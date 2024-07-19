@@ -40,7 +40,7 @@ O tipo de dados trocado entre uma atividade e outra pode afetar a forma como as 
 
 Você pode criar um workflow a partir de um programa, de uma campanha ou da lista de atividades de marketing.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra como criar um workflow em vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Descubra como criar um fluxo de trabalho em vídeo](#video)
 
 A criação de uma atividade de marketing é detalhada na seção [Criar atividades de marketing](../../start/using/marketing-activities.md#creating-a-marketing-activity).
 
@@ -68,7 +68,7 @@ A criação de uma atividade de marketing é detalhada na seção [Criar ativida
 
 1. Confirme a criação da atividade. Em seguida, o painel da atividade será exibido. Para obter mais informações, consulte a seção [Interface de fluxo de trabalho](../../automating/using/workflow-interface.md).
 
-1. Quando o workflow estiver pronto para ser configurado, você poderá acessar opções adicionais clicando no link **[!UICONTROL Edit properties]** botão.
+1. Quando o fluxo de trabalho estiver pronto para ser configurado, você poderá acessar opções adicionais clicando no botão **[!UICONTROL Edit properties]**.
 
    Por exemplo, é possível definir um fuso horário específico para usar por padrão em todas as atividades do workflow. Por padrão, o fuso horário do workflow é aquele definido para o operador atual do Campaign.
 
@@ -137,4 +137,4 @@ Este vídeo mostra como criar um workflow.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-Vídeos extras explicativos sobre o Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
+Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

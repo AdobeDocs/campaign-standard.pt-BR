@@ -17,7 +17,7 @@ ht-degree: 11%
 
 # Classificação
 
-A classificação está disponível por padrão em ordem crescente. Para classificar em ordem decrescente, anexe **%20desc** para o **_order** valor do parâmetro.
+A classificação está disponível por padrão em ordem crescente. Para classificar em ordem decrescente, anexe **%20desc** ao valor do parâmetro **_order**.
 
 Para saber se um campo pode ser classificado, verifique o parâmetro &quot;classitable&quot; nos metadados do recurso. Para obter mais informações, consulte [esta seção](../../api/using/metadata-mechanism.md).
 

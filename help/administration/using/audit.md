@@ -15,19 +15,19 @@ ht-degree: 3%
 
 # Trilha de auditoria {#audit}
 
-A variável **[!UICONTROL Audit trail]** O fornece acesso ao histórico completo de alterações feitas na instância.
+O **[!UICONTROL Audit trail]** fornece acesso ao histórico completo de alterações feitas na instância.
 
-**[!UICONTROL Audit trail]** A captura, em tempo real, uma lista abrangente de ações e eventos que ocorrem na instância do Adobe Campaign Standard. Ele inclui uma forma de autoatendimento para acessar um histórico de dados que ajudam a responder perguntas como: o que aconteceu com seus fluxos de trabalho, recursos e opções personalizados, quem os atualizou pela última vez ou o que seus usuários fizeram na instância.
+O **[!UICONTROL Audit trail]** captura, em tempo real, uma lista abrangente de ações e eventos que ocorrem na sua instância do Adobe Campaign Standard. Ele inclui uma forma de autoatendimento para acessar um histórico de dados que ajudam a responder perguntas como: o que aconteceu com seus fluxos de trabalho, recursos e opções personalizados, quem os atualizou pela última vez ou o que seus usuários fizeram na instância.
 
 ![](assets/audit-trail.png)
 
-**[!UICONTROL Audit trail]** O consiste em três componentes:
+**[!UICONTROL Audit trail]** consiste em três componentes:
 
 * **Trilha de auditoria de recursos personalizados**: verifique a atividade e a última modificação feita nos recursos personalizados.
 
-  Para obter mais informações sobre **[!UICONTROL Custom resources]**, consulte este [página](../../developing/using/key-steps-to-add-a-resource.md).
+  Para obter mais informações sobre **[!UICONTROL Custom resources]**, consulte esta [página](../../developing/using/key-steps-to-add-a-resource.md).
 
-* **Trilha de auditoria do fluxo de trabalho**: verifique a atividade e a última modificação feita nos workflows e, além disso, o estado dos workflows, como:
+* **Trilha de auditoria do fluxo de trabalho**: verifique a atividade e a última modificação feita nos fluxos de trabalho, além do estado dos fluxos de trabalho, como:
 
    * Criado
    * Modificado
@@ -43,11 +43,11 @@ A variável **[!UICONTROL Audit trail]** O fornece acesso ao histórico completo
    * Reinicialização do fluxo de trabalho com o mesmo usuário
    * comando Workflow Restart Unknown
 
-  Para obter mais informações sobre **[!UICONTROL Workflows]**, consulte este [página](../../automating/using/get-started-workflows.md).
+  Para obter mais informações sobre **[!UICONTROL Workflows]**, consulte esta [página](../../automating/using/get-started-workflows.md).
 
-* **Opção Trilha de auditoria**: verifique a atividade e a última modificação feita nas opções.
+* **Trilha de auditoria de opção**: verifique a atividade e a última modificação feita nas opções.
 
-  Para obter mais informações sobre **[!UICONTROL Options]**, consulte este [página](../../administration/using/about-campaign-standard-settings.md).
+  Para obter mais informações sobre **[!UICONTROL Options]**, consulte esta [página](../../administration/using/about-campaign-standard-settings.md).
 
 Observe que, por padrão, o período de retenção é de 30 dias.
 
@@ -59,13 +59,13 @@ Para acessar a Trilha de auditoria da instância:
 
    ![](assets/audit-trail.png)
 
-1. A variável **[!UICONTROL Audit trail]** é aberta com a lista das entidades. O Adobe Campaign Standard auditará a criação, edição e exclusão de ações para fluxos de trabalho, opções e recursos personalizados.
+1. A janela **[!UICONTROL Audit trail]** é aberta com a lista de suas entidades. O Adobe Campaign Standard auditará a criação, edição e exclusão de ações para fluxos de trabalho, opções e recursos personalizados.
 
-   No **[!UICONTROL Search]** você pode filtrar sua entidade em:
+   No menu **[!UICONTROL Search]**, você pode filtrar sua entidade em:
 
    * **[!UICONTROL Start date]**
    * **[!UICONTROL End date]**
-   * **[!UICONTROL Type]**: Tipo de entidade entre Tudo, Fluxo de trabalho, Recurso personalizado e Opção.
+   * **[!UICONTROL Type]**: Tipo de entidade entre Tudo, Fluxo de Trabalho, Recurso Personalizado e Opção.
    * **[!UICONTROL Entity name]**: ID do fluxo de trabalho, opção ou recurso personalizado
 
    ![](assets/audit-trail_2.png)
@@ -76,7 +76,7 @@ Para acessar a Trilha de auditoria da instância:
 
    * **[!UICONTROL Entity]**: ID do fluxo de trabalho, opção ou recurso personalizado.
    * **[!UICONTROL Action]**: Última ação executada nesta entidade.
-   * **[!UICONTROL Changed by]**: Nome de usuário da última pessoa que modificou essa entidade pela última vez.
+   * **[!UICONTROL Changed by]**: Nome de usuário da última pessoa que modificou esta entidade pela última vez.
    * **[!UICONTROL Changed date]**: Data da última ação executada nesta entidade.
    * **[!UICONTROL Content]**: Bloco de código que fornece mais informações sobre o que foi alterado exatamente em sua entidade.
 
@@ -100,18 +100,18 @@ Para fazer isso:
 
 1. Selecione uma das seguintes opções dependendo da entidade que deseja desativar:
 
-   * **[!UICONTROL XtkAudit_Workflows]** opção para gerenciar a Trilha de auditoria para Workflows.
+   * **[!UICONTROL XtkAudit_Workflows]** opção para gerenciar a Trilha de auditoria para Fluxos de trabalho.
    * **[!UICONTROL XtkAudit_Option]** opção para gerenciar a Trilha de auditoria para Opções.
-   * **[!UICONTROL XtkAudit_CusResource]** opção para gerenciar a Trilha de auditoria para Recursos personalizados.
+   * Opção **[!UICONTROL XtkAudit_CusResource]** para gerenciar a Trilha de auditoria para recursos personalizados.
    * **[!UICONTROL XtkAudit_Enable_All]** opção para gerenciar a Trilha de auditoria para cada entidade.
 
      >[!NOTE]
      >
-     >Se a variável **[!UICONTROL XtkAudit_Enable_All]** for definida como 0, a variável **[!UICONTROL Audit trail]** O recurso será completamente desativado, independentemente de outros valores de opção individuais.
+     >Se a opção **[!UICONTROL XtkAudit_Enable_All]** estiver definida como 0, o recurso **[!UICONTROL Audit trail]** será completamente desabilitado, independentemente de outros valores de opção individuais.
 
    ![](assets/audit-trail_5.png)
 
-1. Do seu **[!UICONTROL Options]** , defina o **[!UICONTROL Value (integer)]** para 0 se desejar desativar a variável **[!UICONTROL Audit trail]** ou para 1 para ativá-lo.
+1. Na página **[!UICONTROL Options]**, defina o **[!UICONTROL Value (integer)]** como 0 se desejar desabilitar o **[!UICONTROL Audit trail]** ou como 1 para habilitá-lo.
 
    ![](assets/audit-trail_6.png)
 

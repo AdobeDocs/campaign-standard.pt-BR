@@ -19,7 +19,7 @@ ht-degree: 2%
 
 Uma mensagem de acompanhamento é um template do delivery de marketing predefinido que pode ser usado em um workflow para enviar outra comunicação aos recipients de uma mensagem transacional específica.
 
-Vamos reutilizar o exemplo descrito no [Princípio operacional das mensagens transacionais](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) seção: um email de abandono de carrinho é enviado aos usuários do site que adicionaram produtos ao carrinho, mas deixaram o site sem concluir as compras.
+Vamos reutilizar o exemplo descrito na seção [Princípio operacional das mensagens transacionais](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle): um email de abandono de carrinho é enviado aos usuários do site que adicionaram produtos ao carrinho, mas deixaram o site sem concluir as compras.
 
 Você deseja enviar um lembrete amigável para todos os clientes que receberam a notificação de abandono de carrinho, mas que não a abriram após três dias. Eles receberão uma mensagem de acompanhamento com base nos mesmos dados usados no primeiro email enviado.
 
@@ -27,24 +27,24 @@ Você deseja enviar um lembrete amigável para todos os clientes que receberam a
 
 Para enviar uma mensagem de acompanhamento, primeiro é necessário configurar adequadamente o evento correspondente à mensagem transacional que já foi recebida.
 
-1. Use a mesma configuração de evento criada para enviar uma mensagem transacional de evento. Consulte [Configuração de um evento transacional](../../channels/using/configuring-transactional-event.md).
-1. Ao configurar seu evento, marque a opção **[!UICONTROL Create follow-up delivery template for this event]** antes de publicar o evento.
+1. Use a mesma configuração de evento criada para enviar uma mensagem transacional de evento. Consulte [Configurar um evento transacional](../../channels/using/configuring-transactional-event.md).
+1. Ao configurar seu evento, marque a caixa **[!UICONTROL Create follow-up delivery template for this event]** antes de publicar o evento.
 
    ![](assets/message-center_follow-up-checkbox.png)
 
-1. [Pré-visualizar e publicar o evento](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+1. [Visualizar e publicar o evento](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
-Depois que o evento for publicado, uma mensagem transacional e um template do delivery de acompanhamento vinculados ao novo evento serão criados automaticamente. As etapas para enviar a mensagem de acompanhamento estão detalhadas em [nesta seção](#sending-a-follow-up-message).
+Depois que o evento for publicado, uma mensagem transacional e um template do delivery de acompanhamento vinculados ao novo evento serão criados automaticamente. As etapas para enviar a mensagem de acompanhamento estão detalhadas em [esta seção](#sending-a-follow-up-message).
 
 ## Acesso às mensagens de acompanhamento {#accessing-the-follow-up-messages}
 
-Um template de delivery é necessário para lidar com um evento em um workflow. No entanto, ao publicar o evento, a variável [mensagem transacional](../../channels/using/editing-transactional-message.md) criado não pode ser usado como modelo. Portanto, é necessário criar um template do delivery de acompanhamento específico projetado para dar suporte a esse tipo de evento e ser usado como um template em um workflow.
+Um template de delivery é necessário para lidar com um evento em um workflow. No entanto, ao publicar o evento, a [mensagem transacional](../../channels/using/editing-transactional-message.md) criada não pode ser usada como modelo. Portanto, é necessário criar um template do delivery de acompanhamento específico projetado para dar suporte a esse tipo de evento e ser usado como um template em um workflow.
 
 Para acessar este template:
 
-1. Clique em **Adobe** no canto superior esquerdo.
-1. Selecionar **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
-1. Verifique a **[!UICONTROL Follow-up messages]** no painel esquerdo.
+1. Clique no logotipo **Adobe**, no canto superior esquerdo.
+1. Selecione **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
+1. Marque a caixa **[!UICONTROL Follow-up messages]** no painel esquerdo.
 
    ![](assets/message-center_follow-up-search.png)
 
@@ -52,7 +52,7 @@ Somente as mensagens de acompanhamento são exibidas.
 
 >[!IMPORTANT]
 >
->Somente usuários com o [Administração](../../administration/using/users-management.md#functional-administrators) A função pode acessar e editar mensagens transacionais.
+>Somente usuários com a função [Administração](../../administration/using/users-management.md#functional-administrators) podem acessar e editar mensagens transacionais.
 
 ## Envio de uma mensagem de acompanhamento {#sending-a-follow-up-message}
 
@@ -62,17 +62,17 @@ Depois de criar o template do delivery de acompanhamento, você pode usá-lo em 
 
 1. Acesse a lista de atividades de marketing e crie um novo workflow.
 
-   Consulte [Criação de um workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
+   Consulte [Criando um fluxo de trabalho](../../automating/using/building-a-workflow.md#creating-a-workflow).
 
-1. Arraste e solte uma **[!UICONTROL Scheduler]** atividade no seu fluxo de trabalho e abra-o. Defina a frequência de execução como uma vez por dia.
+1. Arraste e solte uma atividade **[!UICONTROL Scheduler]** no seu fluxo de trabalho e abra-a. Defina a frequência de execução como uma vez por dia.
 
-   A atividade Scheduler é apresentada na tabela [Scheduler](../../automating/using/scheduler.md) seção.
+   A atividade Scheduler é apresentada na seção [Scheduler](../../automating/using/scheduler.md).
 
-1. Arraste e solte uma **[!UICONTROL Query]** atividade no seu fluxo de trabalho e abra-o.
+1. Arraste e solte uma atividade **[!UICONTROL Query]** no seu fluxo de trabalho e abra-a.
 
-   A atividade Query é apresentada na variável [Query](../../automating/using/query.md) seção.
+   A atividade Query é apresentada na seção [Query](../../automating/using/query.md).
 
-1. Para executar o query em um recurso diferente do perfil, vá para a página **[!UICONTROL Properties]** e clique na guia **[!UICONTROL Resource]** lista suspensa.
+1. Para executar a consulta em um recurso diferente do perfil, vá para a guia **[!UICONTROL Properties]** da atividade e clique na lista suspensa **[!UICONTROL Resource]**.
 
    ![](assets/message-center_follow-up-query-properties.png)
 
@@ -84,19 +84,19 @@ Depois de criar o template do delivery de acompanhamento, você pode usá-lo em 
 
    ![](assets/message-center_follow-up-query-resource.png)
 
-1. Vá para a página **[!UICONTROL Target]** e arraste e solte a guia **[!UICONTROL Delivery logs (logs)]** elemento da paleta no espaço de trabalho.
+1. Vá para a guia **[!UICONTROL Target]** da atividade e arraste e solte o elemento **[!UICONTROL Delivery logs (logs)]** da paleta no espaço de trabalho.
 
    ![](assets/message-center_follow-up-delivery-logs.png)
 
-   Selecionar **[!UICONTROL Exists]** para direcionar todos os clientes que receberam o email.
+   Selecione **[!UICONTROL Exists]** para direcionar todos os clientes que receberam o email.
 
    ![](assets/message-center_follow-up-delivery-logs-exists.png)
 
-1. Mova as **[!UICONTROL Tracking logs (tracking)]** elemento da paleta para o espaço de trabalho e selecione **[!UICONTROL Does not exist]** para direcionar todos os clientes que não abriram o email.
+1. Mova o elemento **[!UICONTROL Tracking logs (tracking)]** da paleta para o espaço de trabalho e selecione **[!UICONTROL Does not exist]** para direcionar todos os clientes que não abriram o email.
 
    ![](assets/message-center_follow-up-delivery-and-tracking-logs.png)
 
-1. Arraste e solte o evento que você está direcionando (**Abandono do carrinho** neste exemplo) da paleta para o espaço de trabalho. Em seguida, defina uma regra para direcionar todas as mensagens enviadas há três dias.
+1. Arraste e solte o evento que você está direcionando (**Abandono do carrinho**, neste exemplo) da paleta no espaço de trabalho. Em seguida, defina uma regra para direcionar todas as mensagens enviadas há três dias.
 
    ![](assets/message-center_follow-up-created.png)
 
@@ -104,15 +104,15 @@ Depois de criar o template do delivery de acompanhamento, você pode usá-lo em 
 
    Clique em **[!UICONTROL Confirm]** para salvar a consulta.
 
-1. Arraste e solte um **Entrega de email** atividade no seu workflow.
+1. Arraste e solte uma atividade **Entrega de email** no seu fluxo de trabalho.
 
-   A atividade Email delivery é apresentada no [Entrega de email](../../automating/using/email-delivery.md) seção.
+   A atividade Email delivery é apresentada na seção [Email delivery](../../automating/using/email-delivery.md).
 
    ![](assets/message-center_follow-up-workflow.png)
 
-   Você também pode usar uma [Entrega por SMS](../../automating/using/sms-delivery.md) ou um [Entrega por notificação por push](../../automating/using/push-notification-delivery.md) atividade. Nesse caso, selecione a variável **[!UICONTROL Mobile (SMS)]** ou **[!UICONTROL Mobile application]** ao criar a configuração do evento. Consulte [Criação de um evento](../../channels/using/configuring-transactional-event.md#creating-an-event).
+   Você também pode usar uma atividade de [entrega de SMS](../../automating/using/sms-delivery.md) ou [entrega de notificação por push](../../automating/using/push-notification-delivery.md). Nesse caso, selecione o canal **[!UICONTROL Mobile (SMS)]** ou **[!UICONTROL Mobile application]** ao criar a configuração do evento. Consulte [Criação de um evento](../../channels/using/configuring-transactional-event.md#creating-an-event).
 
-1. Abra o **Entrega de email** atividade. No assistente de criação, marque a opção **[!UICONTROL Follow-up messages]** e selecione o template do delivery de acompanhamento que foi criado após a publicação do evento.
+1. Abra a atividade **Entrega de email**. No assistente de criação, marque a caixa **[!UICONTROL Follow-up messages]** e selecione o template do delivery de acompanhamento que foi criado após a publicação do evento.
 
    ![](assets/message-center_follow-up-template.png)
 
@@ -120,7 +120,7 @@ Depois de criar o template do delivery de acompanhamento, você pode usá-lo em 
 
    ![](assets/message-center_follow-up-content.png)
 
-1. Localize os campos definidos ao criar o evento selecionando **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**. Consulte [Personalização de uma mensagem transacional](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
+1. Localize os campos definidos ao criar seu evento selecionando **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**. Consulte [Personalizar uma mensagem transacional](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 
    ![](assets/message-center_follow-up-personalization.png)
 
@@ -132,4 +132,4 @@ Depois que o fluxo de trabalho for iniciado, todos os clientes que receberam a n
 
 >[!NOTE]
 >
->Se você selecionou a variável **[!UICONTROL Profile]** targeting dimension ao criar a configuração do evento, a mensagem de acompanhamento também aproveitará o banco de dados de marketing do Adobe Campaign. Consulte [Mensagens transacionais de perfil](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
+>Se você selecionou o targeting dimension **[!UICONTROL Profile]** ao criar a configuração do evento, a mensagem de acompanhamento também aproveitará o banco de dados de marketing do Adobe Campaign. Consulte [Mensagens transacionais de perfil](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).

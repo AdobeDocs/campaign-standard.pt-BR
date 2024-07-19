@@ -71,18 +71,18 @@ Chame a atenção dos clientes e melhore a taxa de resposta usando conteúdo e c
 
 As mensagens personalizadas são fundamentais para enviar conteúdo relevante, oferecer experiências personalizadas e aumentar as taxas de abertura e conversão. As mensagens entre canais entregues pelo Adobe Campaign podem ser personalizadas de várias maneiras diferentes. Essas maneiras podem ser combinadas com critérios dependendo dos perfis. Você pode:
 
-* Inserir [campos de personalização dinâmicos](../../designing/using/personalization.md#inserting-a-personalization-field) em suas mensagens
+* Insira [campos de personalização dinâmicos](../../designing/using/personalization.md#inserting-a-personalization-field) em suas mensagens
 * Inserir [blocos de personalização predefinidos](../../designing/using/personalization.md#adding-a-content-block)
 * [Personalizar o remetente](../../designing/using/subject-line.md) de um email ou SMS
 * [Personalizar a linha de assunto](../../designing/using/subject-line.md) de um email
-* Criar [conteúdo condicional em um email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) ou [em uma landing page](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
+* Criar [conteúdo condicional em um email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) ou [em uma página de aterrissagem](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
 * Inserir [Texto dinâmico](../../channels/using/defining-dynamic-text.md) em uma mensagem SMS ou notificação por push
 
 ![](assets/delivery_content_43.png)
 
 **Leia mais**
 
-* Descubra a personalização de email por meio de uma [amostra completa](../../designing/using/personalization.md#example-email-personalization)
+* Descubra personalização de email através de uma [amostra completa](../../designing/using/personalization.md#example-email-personalization)
 * [Personalização de URLs](../../designing/using/personalization.md#personalizing-urls)
 * [Configuração da personalização de uma imagem](../../designing/using/personalization.md#personalizing-an-image-source)
 

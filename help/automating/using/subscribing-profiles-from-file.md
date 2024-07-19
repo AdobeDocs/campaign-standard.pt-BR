@@ -24,7 +24,7 @@ O fluxo de trabalho é apresentado da seguinte forma:
 
 ![](assets/subscription_activity_example1.png)
 
-* A [Carregar arquivo](../../automating/using/load-file.md) A atividade carrega o arquivo de perfil e define a estrutura das colunas importadas.
+* Uma atividade [Load file](../../automating/using/load-file.md) carrega o arquivo de perfil e define a estrutura das colunas importadas.
 
   Neste exemplo, o arquivo carregado está no formato .csv e contém os seguintes dados:
 
@@ -43,14 +43,14 @@ O fluxo de trabalho é apresentado da seguinte forma:
 
   ![](assets/subscription_activity_example2.png)
 
-* A [Reconciliação](../../automating/using/reconciliation.md) A atividade identifica os dados do arquivo como pertencente à dimensão do perfil do banco de dados do Adobe Campaign. Somente a guia **[!UICONTROL Identification]** está configurada. Ela identifica os dados do arquivo de acordo com os endereços de email dos perfis.
+* Uma atividade [Reconciliation](../../automating/using/reconciliation.md) identifica os dados do arquivo como pertencente à dimensão do perfil do banco de dados do Adobe Campaign. Somente a guia **[!UICONTROL Identification]** está configurada. Ela identifica os dados do arquivo de acordo com os endereços de email dos perfis.
 
   ![](assets/subscription_activity_example3.png)
 
-* A [Desduplicação](../../automating/using/deduplication.md) com base no **email** o campo do recurso temporário (resultante da reconciliação) identifica duplicatas. Se os dados importados do arquivo tiverem duplicatas, a assinatura para um serviço falhará para todos os dados.
+* Uma [Eliminação de Duplicação](../../automating/using/deduplication.md) baseada no campo **email** do recurso temporário (resultante da reconciliação) identifica duplicatas. Se os dados importados do arquivo tiverem duplicatas, a assinatura para um serviço falhará para todos os dados.
 
   ![](assets/subscription_activity_example5.png)
 
-* A [Serviços de assinatura](../../automating/using/subscription-services.md) activity permite selecionar o serviço para o qual os perfis devem ser inscritos, o campo correspondente à data da assinatura e a origem da assinatura.
+* Uma atividade de [Serviços de assinatura](../../automating/using/subscription-services.md) permite selecionar o serviço para o qual os perfis devem ser assinados, o campo correspondente à data da assinatura e a origem da assinatura.
 
   ![](assets/subscription_activity_example4.png)

@@ -25,7 +25,7 @@ As regras de controle permitem verificar a validade e a qualidade das mensagens 
 
 ## Regras de controle padrão {#default-control-rules}
 
-Um conjunto de regras padrão garante os controles padrão. A tabela abaixo fornece informações sobre essas regras, bem como seu canal e [fases de execução](#control-rules-execution-phases).
+Um conjunto de regras padrão garante os controles padrão. A tabela abaixo fornece informações sobre essas regras, bem como seu canal relacionado e [fases de execução](#control-rules-execution-phases).
 
 | Rótulo | Canal | Fase de execução | Descrição |
 |---------|----------|---------|---------|
@@ -48,10 +48,10 @@ As regras de controle podem ser aplicadas em diferentes fases do ciclo de vida d
 
 * **No início do direcionamento**: a regra de controle pode ser aplicada nesta fase para que a etapa de personalização não seja executada em caso de erro.
 
-* **Após o direcionamento**: a execução após o direcionamento permite saber o volume do público-alvo para aplicar a regra de controle.
+* **Após o direcionamento**: executar após o direcionamento permite que você saiba o volume do destino para aplicar a regra de controle.
 
-  Por exemplo, a variável **Verificar tamanho da prova** control rule applies after the targeting stage: essa regra impede a preparação da personalização da mensagem se houver muitos recipients de prova.
+  Por exemplo, a regra de controle **Verificar tamanho da prova** se aplica após o estágio de direcionamento: essa regra impede a preparação da personalização da mensagem se houver muitos recipients de prova.
 
-* **No início da personalização**: se aplica quando a verificação está relacionada à aprovação da personalização da mensagem. A personalização da mensagem é realizada durante a fase de análise.
+* **No início da personalização**: aplica-se quando a verificação está relacionada à aprovação da personalização da mensagem. A personalização da mensagem é realizada durante a fase de análise.
 
-* **No final da análise**: quando uma verificação requer que a personalização da mensagem seja concluída.
+* **No final da análise**: quando uma verificação exige a personalização da mensagem para ser concluída.

@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Gerenciamento de privacidade {#privacy-management}
 
-O Adobe Campaign oferece um conjunto de ferramentas para ajudar você a cumprir as [regras de privacidade](#privacy-management-regulations) (incluindo GDPR, CCPA, PDPA, LGPD).
+O Adobe Campaign oferece um conjunto de ferramentas para ajudar a cumprir os [regulamentos sobre privacidade](#privacy-management-regulations) (incluindo GDPR, CCPA, PDPA, LGPD).
 
 Estes são os cinco principais recursos oferecidos pelo Adobe Campaign para garantir a conformidade com o GDPR e outras regras de privacidade:
 
@@ -58,7 +58,7 @@ Todos esses regulamentos se aplicam a clientes do Adobe Campaign que detêm dado
 
 >[!NOTE]
 >
->Para obter mais informações sobre dados pessoais e as diferentes entidades que gerenciam os dados (Controlador de dados, Operador de dados e Titular de dados), consulte [Dados pessoais e Personalidades](../../start/using/privacy.md#personal-data).
+>Para obter mais informações sobre dados pessoais e as diferentes entidades que gerenciam os dados (Controlador de dados, Operador de dados e Titular de dados), consulte [Dados pessoais e personas](../../start/using/privacy.md#personal-data).
 
 ## Direito de acesso e Direito ao esquecimento {#right-access-forgotten}
 

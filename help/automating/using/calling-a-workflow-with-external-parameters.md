@@ -23,8 +23,8 @@ Vamos ver o exemplo a seguir, em que queremos enviar emails diretamente de um CM
 
 O processo para chamar um workflow com parâmetros é o seguinte:
 
-1. Declarar os parâmetros no **[!UICONTROL External signal]** atividade. Consulte [Declaração dos parâmetros na atividade de sinal externo](../../automating/using/declaring-parameters-external-signal.md).
-1. Configure o **[!UICONTROL End]** atividade ou a chamada da API para definir os parâmetros e acionar o workflow **[!UICONTROL External signal]** atividade. Consulte [esta página](../../automating/using/defining-parameters-calling-workflow.md)
+1. Declarar os parâmetros na atividade **[!UICONTROL External signal]**. Consulte [Declaração de parâmetros na atividade de sinal externo](../../automating/using/declaring-parameters-external-signal.md).
+1. Configure a atividade **[!UICONTROL End]** ou a chamada de API para definir os parâmetros e acionar a atividade **[!UICONTROL External signal]** do fluxo de trabalho. Ver [esta página](../../automating/using/defining-parameters-calling-workflow.md)
 1. Depois que o fluxo de trabalho é acionado, os parâmetros são assimilados nas variáveis de eventos do fluxo de trabalho e podem ser usados nele. Consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md).
 
 ![](assets/extsignal_process.png)

@@ -1,6 +1,6 @@
 ---
-title: Perguntas frequentes sobre o Designer de email
-description: Perguntas frequentes sobre o Designer de email.
+title: Perguntas frequentes sobre Designer
+description: Perguntas frequentes sobre Email Designer.
 audience: designing
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 ---
 
-# Perguntas frequentes sobre o Designer de email
+# Perguntas frequentes sobre Designer
 
 ## Qual é a diferença entre blocos de conteúdo e fragmentos de conteúdo?
 
@@ -23,7 +23,7 @@ Blocos de conteúdo e fragmentos de conteúdo são conteúdos reutilizáveis com
 
 * Os blocos de conteúdo são HTML puro, em que o código HTML é inserido manualmente (não é uma interface amigável, é um código-fonte direto). Embora seja realmente direcionado para pessoas com conhecimento em HTML, permite um nível de personalização não disponível em fragmentos de conteúdo.
 
-* Fragmentos de conteúdo são partes visuais do conteúdo criadas pelo Designer de email, usando sua interface amigável. No entanto, não é possível personalizar o conteúdo. Se a personalização for necessária, ela só poderá ser feita por meio de blocos de conteúdo.
+* Fragmentos de conteúdo são partes visuais do conteúdo criadas por meio do Designer de email, usando sua interface de usuário amigável. No entanto, não é possível personalizar o conteúdo. Se a personalização for necessária, ela só poderá ser feita por meio de blocos de conteúdo.
 
 ## Como posso adicionar preenchimento a um elemento da estrutura HTML?
 
@@ -48,13 +48,13 @@ Para obter mais informações, consulte [Modo de compatibilidade](../../designin
 Primeiro de tudo, crie um email a partir da página inicial.
 Em seguida, para adicionar conteúdo a um email, é necessário adicionar um componente de estrutura e inserir um componente de conteúdo nele.
 
-Para obter mais informações, consulte [Criação de um email do zero](../../designing/using/quick-start.md#from-scratch-email)
+Para obter mais informações, consulte [Criando um email do zero](../../designing/using/quick-start.md#from-scratch-email)
 
 ## Por que preciso atualizar fragmentos?
 
 O Designer de email está em melhoria contínua. Se você criou um conteúdo de email do zero, a partir de um modelo predefinido ou se criou fragmentos, talvez seja necessário atualizar o conteúdo para a versão mais recente para evitar problemas como problemas de colisão de CSS.
 
-Para obter mais informações, consulte [Atualização de fragmentos](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
+Para obter mais informações, consulte [Atualizando fragmentos](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
 
 ## Posso salvar estilos em um tema?
 

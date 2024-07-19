@@ -14,16 +14,16 @@ ht-degree: 4%
 
 # Interação com o histórico de marketing{#interacting-with-marketing-history}
 
-A variável **histórico** permite interagir com o histórico de marketing de um perfil.
+O ponto de extremidade **histórico** permite que você interaja com o histórico de marketing de um perfil.
 Dessa forma, você pode, por exemplo, recuperar facilmente a mirror page de um delivery que foi enviado a um perfil. Para fazer isso, siga as etapas abaixo:
 
-1. Execute uma GET com o **histórico** e a chave primária do perfil.
-1. Execute uma solicitação GET no **events** href retornado.
-1. Ele retorna a lista de eventos do perfil com links para mirror pages na **mirrorPage** nó.
+1. Execute uma GET com o ponto de extremidade **histórico** e a chave primária do perfil.
+1. Execute uma solicitação GET no href **events** retornado.
+1. Retorna a lista de eventos do perfil com links para mirror pages no nó **mirrorPage**.
 
 <br/>
 
-***Exemplo de solicitação***
+***Solicitação de exemplo***
 
 Recupere o histórico de marketing do perfil com uma solicitação GET.
 

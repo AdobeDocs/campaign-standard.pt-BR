@@ -24,6 +24,6 @@ As diferentes configurações são as seguintes:
 * Propriedades da mensagem. Ao criar uma nova mensagem, você pode ajustar as propriedades de acordo com suas necessidades.
 * Alguns canais oferecem configurações adicionais que são opcionais, como Email Cco.
 
-A variável **[!UICONTROL Channel]** O menu reagrupa os parâmetros técnicos vinculados aos diferentes canais de aplicativo (Email, SMS), bem como a tipologia e o gerenciamento de quarentenas.
+O menu **[!UICONTROL Channel]** reagrupa os parâmetros técnicos vinculados aos diferentes canais de aplicativo (Email, SMS), bem como a tipologia e o gerenciamento de quarentenas.
 
-Os administradores podem acessar essas configurações no **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu.
+Os administradores podem acessar essas configurações no menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]**.

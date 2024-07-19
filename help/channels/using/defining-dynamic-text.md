@@ -17,11 +17,11 @@ ht-degree: 3%
 
 # Definição de texto dinâmico{#defining-dynamic-text}
 
-O texto dinâmico é definido da mesma forma que o conteúdo dinâmico. Consulte a [Definição de conteúdo dinâmico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) seção.
+O texto dinâmico é definido da mesma forma que o conteúdo dinâmico. Consulte a seção [Definição de conteúdo dinâmico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 >[!NOTE]
 >
->Para SMS e push, você só pode definir texto dinâmico. Você pode definir conteúdo dinâmico e texto em uma página de aterrissagem. Se quiser definir um texto dinâmico com a variável [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), consulte [Definição de conteúdo dinâmico em um email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+>Para SMS e push, você só pode definir texto dinâmico. Você pode definir conteúdo dinâmico e texto em uma página de aterrissagem. Se você quiser definir texto dinâmico com o [Designer de email](../../designing/using/designing-content-in-adobe-campaign.md), consulte [Definindo conteúdo dinâmico em um email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 Observe que pares substitutos, caracteres não incluídos no Plano Multilíngue Básico do conjunto de caracteres Unicode, não podem ser armazenados em 2 bytes (16 bits) e precisam ser codificados em 2 caracteres UTF-16. Esses personagens incluem alguns ideógrafos CJK, a maioria emojis e algumas línguas.
 <br>Esses caracteres podem causar alguns problemas de incompatibilidade no texto dinâmico. Você precisa executar testes de segurança antes de enviar as mensagens.
@@ -34,7 +34,7 @@ O exemplo abaixo mostra como definir texto dinâmico em uma mensagem SMS.
 
    ![](assets/dynamic_text_sms_1.png)
 
-   A variável **[!UICONTROL Dynamic text]** é exibida na paleta. Ela é configurada da mesma forma que o conteúdo dinâmico.
+   A opção **[!UICONTROL Dynamic text]** é exibida na paleta. Ela é configurada da mesma forma que o conteúdo dinâmico.
 
 1. Selecione uma variante.
 

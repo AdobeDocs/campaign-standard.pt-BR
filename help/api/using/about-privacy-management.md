@@ -23,8 +23,8 @@ As ações que você pode executar são as seguintes:
 * Recuperar um arquivo de dados de privacidade,
 * Gerencie o status de recusa da CCPA de um perfil.
 
-O endpoint da API de privacidade é **/privacy/privacyTool**. A descrição de recursos da PrivacyTool e os filtros associados estão disponíveis nos metadados do recurso. Consulte [Mecanismo de metadados](../../api/using/metadata-mechanism.md).
+O ponto de extremidade da API de privacidade é **/privacy/privacyTool**. A descrição de recursos da PrivacyTool e os filtros associados estão disponíveis nos metadados do recurso. Consulte [Mecanismo de metadados](../../api/using/metadata-mechanism.md).
 
-A recusa da CCPA é gerenciada usando o **ccpaOptOut** atributo de perfil.
+A recusa da CCPA é gerenciada com o uso do atributo de perfil **ccpaOptOut**.
 
-Para obter mais informações sobre o Adobe Campaign Standard e a conformidade com a privacidade, consulte [documentação dedicada](../../start/using/privacy-requests.md).
+Para obter mais informações sobre o Adobe Campaign Standard e a conformidade com a privacidade, consulte a [documentação dedicada](../../start/using/privacy-requests.md).

@@ -18,13 +18,13 @@ ht-degree: 70%
 
 # Ciclo de vida da mensagem transacional {#publishing-transactional-message}
 
-Quando a variável [mensagem transacional](../../channels/using/editing-transactional-message.md) estiver pronto para ser enviado, poderá ser publicado.
+Quando a [mensagem transacional](../../channels/using/editing-transactional-message.md) estiver pronta para ser enviada, ela poderá ser publicada.
 
 As etapas para publicar, pausar, cancelar a publicação e excluir uma mensagem transacional são detalhadas abaixo.
 
 >[!IMPORTANT]
 >
->Somente usuários com o [Administração](../../administration/using/users-management.md#functional-administrators) A função pode acessar e publicar mensagens transacionais.
+>Somente usuários com a função [Administração](../../administration/using/users-management.md#functional-administrators) podem acessar e publicar mensagens transacionais.
 
 ## Processo de publicação de mensagens transacionais {#transactional-messaging-pub-process}
 
@@ -88,7 +88,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 ## Publicação de mensagem transacional {#publishing-a-transactional-message}
 
-Depois de editar e testar a mensagem transacional, você pode publicá-la. Basta clicar no link **[!UICONTROL Publish]** botão.
+Depois de editar e testar a mensagem transacional, você pode publicá-la. Basta clicar no botão **[!UICONTROL Publish]**.
 
 ![](assets/message-center_12.png)
 
@@ -107,7 +107,7 @@ Para acessar os relatórios referentes à sua mensagem transacional, use o botã
 
 Você pode suspender a publicação da mensagem transacional usando o botão **[!UICONTROL Pause]**, por exemplo, para modificar os dados contidos na mensagem. Portanto, os eventos não são mais processados, mas mantidos em fila no banco de dados do Adobe Campaign.
 
-Os eventos em fila são mantidos durante um período definido na API REST (consulte a [Documentação da API REST](../../api/using/managing-transactional-messages.md)) ou no evento Acionadores, se você estiver usando o serviço principal Acionadores (consulte [Sobre o Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+Os eventos em fila são mantidos durante um período definido na API REST (consulte a [documentação da API REST](../../api/using/managing-transactional-messages.md)) ou no evento de acionador, se você estiver usando o serviço principal Acionadores (consulte [Sobre o Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
@@ -123,7 +123,7 @@ Agora, mesmo que o evento seja acionado pelo seu site, as mensagens corresponden
 
 >[!NOTE]
 >
->Para publicar a mensagem novamente, volte para a configuração do evento correspondente, [publicar o evento](../../channels/using/publishing-transactional-event.md)e depois [publicar a mensagem](#publishing-a-transactional-message).
+>Para publicar a mensagem novamente, você precisa voltar para a configuração de evento correspondente, [publicar o evento](../../channels/using/publishing-transactional-event.md) e [publicar a mensagem](#publishing-a-transactional-message).
 
 Se você cancelar a publicação de uma mensagem transacional pausada, talvez precise aguardar até 24 horas para poder publicá-la novamente. Isso permite que o fluxo de trabalho da **[!UICONTROL Database cleanup]** limpe todos os eventos enviados para a fila.
 
@@ -135,7 +135,7 @@ O fluxo de trabalho da **[!UICONTROL Database cleanup]**, que é executado todos
 
 Depois de cancelada a publicação de uma mensagem transacional, ou se uma mensagem transacional ainda não tiver sido publicada, você poderá excluí-la da lista de mensagens transacionais. Para fazer isso:
 
-1. Clique em **Adobe** no canto superior esquerdo e selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+1. Clique no logotipo **Adobe**, no canto superior esquerdo, em seguida selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 1. Passe o mouse sobre a mensagem de sua escolha.
 1. Clique no botão **[!UICONTROL Delete element]**.
 

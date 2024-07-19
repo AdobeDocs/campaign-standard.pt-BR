@@ -93,7 +93,7 @@ Year(@created) = Year(GetDate()) AND Month(@created) = Month(GetDate())
 
 Neste exemplo, os perfis cuja data de criação é no mês e ano atuais são direcionados.
 
-### Sintaxe JavaScript {#javascript-syntax}
+### Sintaxe do JavaScript {#javascript-syntax}
 
 Ao definir as condições de visibilidade de um bloco de tipo de texto do editor de conteúdo HTML, você deve usar uma expressão com a sintaxe de tipo JavaScript.
 
