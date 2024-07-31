@@ -8,10 +8,10 @@ feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: 26e37cea37b33924ac634c5e4ab7c60804a738f1
+source-git-commit: 60386a9e6e424d76b1de0f2ecbeab48dd06fb354
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 46%
+source-wordcount: '757'
+ht-degree: 44%
 
 ---
 
@@ -23,7 +23,7 @@ O provisionamento e a configuração do núcleo de Audience Manager e Pessoas no
 
 A integração do Audience Manager (AAM) ou do serviço principal Pessoas permite importar e exportar públicos ou segmentos no Adobe Campaign.
 
-Essa integração deve ser configurada primeiro. Para solicitar o provisionamento dessa integração, escreva um e-mail para [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) com as seguintes informações:
+Essa integração deve ser configurada primeiro. Para solicitar o provisionamento dessa integração, entre em contato com o Suporte da Adobe com as seguintes informações:
 
 <table> 
  <tbody> 
