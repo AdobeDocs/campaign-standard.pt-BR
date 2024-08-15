@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 44c436a74a0a4aa688427bfb36d506566d57ac3a
+source-git-commit: 625b2341b1f7da17d202ef1edcdf97f3cb46b801
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 100%
+source-wordcount: '489'
+ht-degree: 73%
 
 ---
 
@@ -18,25 +18,38 @@ ht-degree: 100%
 <!--
 ![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.-->
 
+<!--
+## Early release notes {#e-new-release}
 
-## Notas de versão antecipadas {#e-new-release}
-
-Esta seção lista as melhorias e alterações incluídas na próxima versão do Campaign Standard.
+This section lists improvements and changes included in the next Campaign Standard release.
 
 >[!CAUTION]
 >
->Esse conteúdo está sujeito a alterações sem aviso prévio até a data de atualização dos ambientes de preparo. Saiba mais na [página de planejamento de versão](../../rn/using/release-planning.md).
+>This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [Release planning page](../../rn/using/release-planning.md).
+-->
 
-**Versão 24.2 – Versão do verão de 2024**
+## Versão 24.2 – Versão do verão de 2024 {#summer-24}
 
-* **Data de lançamento**: agosto de 2024 (disponibilidade limitada) – [Saiba mais](../../rn/using/release-planning.md).
+<!--**Release date**: August 2024 (Limited Availability) - [Learn more](../../rn/using/release-planning.md).-->
 
-* **Migração para as credenciais OAuth de servidor para servidor**
+### Melhoria {#summer-24-rn-improvements}
 
-  A partir desta versão, com a credencial de conta de serviço (JWT) sendo descontinuada pela Adobe, as integrações de saída do Campaign com soluções e aplicativos Adobe agora dependem da credencial de servidor para servidor do OAuth. A Adobe executará a migração de JWT para OAuth em suas integrações de saída, como a integração do Campaign-Analytics ou a integração dos Acionadores da Experience Cloud.
+**Migração para as credenciais OAuth de servidor para servidor**
 
-  Se você implementou integrações de entrada com o Campaign e está usando [APIs do Campaign](../../api/using/get-started-apis.md), é necessário migrar sua conta técnica conforme detalhado [nesta documentação](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. As credenciais da Conta de serviço (JWT) deixarão de funcionar em **27 de janeiro de 2025**.
+A partir desta versão, com a credencial de conta de serviço (JWT) sendo descontinuada pela Adobe, as integrações de saída do Campaign com soluções e aplicativos Adobe agora dependem da credencial de servidor para servidor do OAuth. A Adobe executará a migração de JWT para OAuth em suas integrações de saída, como a integração do Campaign-Analytics ou a integração dos Acionadores da Experience Cloud.
 
+Se você implementou integrações de entrada com o Campaign e está usando [APIs do Campaign](../../api/using/get-started-apis.md), é necessário migrar sua conta técnica conforme detalhado [nesta documentação](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. As credenciais da Conta de serviço (JWT) deixarão de funcionar em **27 de janeiro de 2025**.
+
+### Correções {#summer-24-rn-fixes}
+
+* Correção de um problema que fazia com que o agendador de workflow iniciasse antes do horário agendado. (CAMP-55412)
+* Correção de um problema que causava um erro ao duplicar campos personalizados em notificações por push transacionais. (CAMP-54459)
+* Correção de problemas que afetavam a usabilidade do agendador de hora e data para mensagens no aplicativo. (CAMP-54495)
+* Correção de um problema que fazia com que o rastreamento não funcionasse ao utilizar o recurso Alias de rastreamento personalizado e o link inteiro fosse dinâmico. (CAMP-56044)
+* Correção de um problema que fazia com que um número limitado de modelos fosse exibido ao usar a pesquisa para localizar modelos específicos. (CAMP-55273)
+* Adição dos seguintes idiomas à lista suspensa de idioma preferencial: en_kz (inglês - Cazaquistão) e en_ua (inglês - Ucrânia). (CAMP-55336)
+* Correção de um problema que fazia com que os botões de ajuste de tempo não funcionassem nas configurações do scheduler. (CAMP-53602)
+* Correção de vários problemas da interface do usuário relacionados à barra de ajuste de tempo nas configurações do scheduler. (CAMP-55291)
 
 ## Versão 24.1 – Versão do inverno de 2024 {#winter-24}
 
