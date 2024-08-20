@@ -3,7 +3,7 @@ keywords: Campaign Standard;home;popular topics
 title: Documentação do produto Adobe Campaign Standard
 description: Pesquisar a documentação do produto Campaign Standard
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 8b94b632bbc4fc8e190cccb05018043cdeb00fdd
+source-git-commit: 0beb4934d1412c3f64d28106f9243673907629f3
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
@@ -18,9 +18,9 @@ Dê uma olhada nos últimos aprimoramentos no produto e na documentação do Ado
 
 >[!BEGINTABS]
 
->[!TAB A versão do Campaign 24.1 está disponível.]
+>[!TAB A versão do Campaign 24.2 está disponível.]
 
-Descubra novos recursos, melhorias e correções que estão incluídos no lançamento do Campaign Standard 24.1.
+Descubra novos recursos, melhorias e correções que estão incluídos no lançamento do Campaign Standard 24.2.
 
 [![imagem](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
 
