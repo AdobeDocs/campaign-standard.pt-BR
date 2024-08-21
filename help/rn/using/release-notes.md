@@ -8,7 +8,7 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 0beb4934d1412c3f64d28106f9243673907629f3
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -42,14 +42,14 @@ Se você implementou integrações de entrada com o Campaign e está usando [API
 
 ### Correções {#summer-24-rn-fixes}
 
-* Correção de um problema que fazia com que o agendador de workflow iniciasse antes do horário agendado. (CAMP-55412)
+* Correção de um problema que fazia com que o scheduler de fluxos de trabalho iniciasse antes do horário agendado. (CAMP-55412)
 * Correção de um problema que causava um erro ao duplicar campos personalizados em notificações por push transacionais. (CAMP-54459)
-* Correção de problemas que afetavam a usabilidade do agendador de hora e data para mensagens no aplicativo. (CAMP-54495)
-* Correção de um problema que fazia com que o rastreamento não funcionasse ao utilizar o recurso Alias de rastreamento personalizado e o link inteiro fosse dinâmico. (CAMP-56044)
-* Correção de um problema que fazia com que um número limitado de modelos fosse exibido ao usar a pesquisa para localizar modelos específicos. (CAMP-55273)
-* Adição dos seguintes idiomas à lista suspensa de idioma preferencial: en_kz (inglês - Cazaquistão) e en_ua (inglês - Ucrânia). (CAMP-55336)
-* Correção de um problema que fazia com que os botões de ajuste de tempo não funcionassem nas configurações do scheduler. (CAMP-53602)
-* Correção de vários problemas da interface do usuário relacionados à barra de ajuste de tempo nas configurações do scheduler. (CAMP-55291)
+* Correção de problemas que afetavam a usabilidade do scheduler de hora e data para mensagens no aplicativo. (CAMP-54495)
+* Correção de um problema que fazia com que o rastreamento não funcionasse ao utilizar o recurso de alias de rastreamento personalizado, e o link inteiro ser dinâmico. (CAMP-56044)
+* Correção de um problema que fazia com que uma quantidade limitada de modelos fosse exibida ao usar a pesquisa para localizar modelos específicos. (CAMP-55273)
+* Adição dos seguintes idiomas à lista suspensa de idiomas preferidos: en_kz (inglês – Cazaquistão) e en_ua (inglês – Ucrânia). (CAMP-55336)
+* Correção de um problema que fazia com que os botões de ajuste de hora não funcionassem nas configurações do scheduler. (CAMP-53602)
+* Correção de vários problemas da interface do usuário relacionados à barra de ajuste de hora nas configurações do scheduler. (CAMP-55291)
 
 ## Versão 24.1 – Versão do inverno de 2024 {#winter-24}
 
