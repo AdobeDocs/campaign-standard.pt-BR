@@ -6,14 +6,18 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
+source-git-commit: 99c092bc40c9176a25a6ec2a164ee1d3f85d5cbe
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 5%
+source-wordcount: '420'
+ht-degree: 4%
 
 ---
 
 # Retenção de dados{#data-retention}
+
+>[!NOTE]
+>
+>O reporte de dados está disponível apenas para os últimos três anos. Para obter mais informações sobre os períodos de retenção de dados, entre em contato com os consultores da Adobe ou com os administradores técnicos.
 
 As tabelas de log padrão no Campaign têm períodos de retenção predefinidos que limitam a duração do armazenamento de dados, para evitar sobrecarga no sistema.
 

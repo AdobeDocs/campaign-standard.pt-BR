@@ -8,14 +8,18 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 1fa05187-0488-4649-b903-079bfa4628f1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 99c092bc40c9176a25a6ec2a164ee1d3f85d5cbe
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '230'
 ht-degree: 3%
 
 ---
 
 # Definição do período do relatório{#defining-the-report-period}
+
+>[!NOTE]
+>
+>O reporte de dados está disponível apenas para os últimos três anos. Para obter mais informações sobre os períodos de retenção de dados, entre em contato com os consultores da Adobe ou com os administradores técnicos.
 
 Antes de iniciar ou acessar um relatório, você deve aplicar um período. O período especificado pode ser acessado na parte superior direita do relatório.
 
