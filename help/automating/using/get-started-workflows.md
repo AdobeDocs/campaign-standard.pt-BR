@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 47f47a624b8a1d941d1ab4b49e67f0260ac68cf1
+source-git-commit: c7c4826f69ac988911b9d72a3e06240ed9582862
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 30%
@@ -38,7 +38,7 @@ Os workflows podem ser usados em contextos diferentes, por exemplo:
 
 ## Atividades de fluxos de trabalho {#workflow-activities}
 
-<img src="assets/do-not-localize/icon_workflows.svg" width="10%px">
+<img src="assets/do-not-localize/icon_workflows.svg" width="10px">
 
 Várias atividades estão disponíveis para ajudá-lo a projetar seus fluxos de trabalho.
 
@@ -56,7 +56,7 @@ Leia mais:
 
 ## Filtrar dados {#filter-data}
 
-<img src="assets/do-not-localize/icon_filter.svg" width="60px">
+<img src="assets/do-not-localize/icon_filter.svg" width="15px">
 
 Aproveite o **editor de consultas** para filtrar dados do banco de dados e criar uma população para direcionar melhor seus destinatários. O editor de consultas está disponível para executar várias ações no Campaign Standard: criar públicos do tipo Query, definir públicos-alvo de entrega ou populações em atividades de fluxo de trabalho.
 
@@ -70,7 +70,7 @@ Leia mais:
 
 ## Importar/exportar dados {#import-export-data}
 
-<img src="assets/do-not-localize/icon_manage.svg" width="60px">
+<img src="assets/do-not-localize/icon_manage.svg" width="20px">
 
 O Campaign Standard vem com vários **recursos de gerenciamento de dados** para importar e exportar dados.
 
