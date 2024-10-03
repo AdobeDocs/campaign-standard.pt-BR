@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 1f4a3e06bc4882f16d87330d18f25f5ee351e11a
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
@@ -22,16 +22,16 @@ As APIs do Campaign Standard permitem **criar integrações** com o Adobe Campai
 Com as APIs do Adobe Campaign Standard você obtém acesso às seguintes funcionalidades:
 
 <table><tr>
- <td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="60px" alt="condições" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">Perfis</a></p></td>
-<td valign="top"><a href="../../api/using/creating-a-service.md"><img width="60px" alt="condições" src="assets/icon_services.svg"/></a><p><a href="../../api/using/creating-a-service.md">Serviços e assinaturas</a></p></td>
-<td valign="top"><a href="../../api/using/interacting-with-custom-resources.md"><img width="60px" alt="condições" src="assets/icon_customresources.svg"/></a><p><a href="../../api/using/interacting-with-custom-resources.md">Recursos personalizados</a></p></td>
-<td valign="top"><a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="condições" src="assets/icon_marketinghistory.svg"/></a><p><a href="../../api/using/interacting-with-marketing-history.md">Histórico de marketing</a></p></td>
+ <td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="50px" alt="condições" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">Perfis</a></p></td>
+<td valign="top"><a href="../../api/using/creating-a-service.md"><img width="50px" alt="condições" src="assets/icon_services.svg"/></a><p><a href="../../api/using/creating-a-service.md">Serviços e assinaturas</a></p></td>
+<td valign="top"><a href="../../api/using/interacting-with-custom-resources.md"><img width="50px" alt="condições" src="assets/icon_customresources.svg"/></a><p><a href="../../api/using/interacting-with-custom-resources.md">Recursos personalizados</a></p></td>
+<td valign="top"><a href="../../api/using/interacting-with-marketing-history.md"><img width="50px" alt="condições" src="assets/icon_marketinghistory.svg"/></a><p><a href="../../api/using/interacting-with-marketing-history.md">Histórico de marketing</a></p></td>
 </tr>
 <tr>
-<td valign="top"><a href="../../api/using/creating-a-privacy-request.md"><img width="60px" alt="condições" src="assets/icon_privacy.svg"/></a><p><a href="../../api/using/creating-a-privacy-request.md">Gerenciamento de privacidade</a></p></td>
-<td valign="top"><a href="../../api/using/managing-transactional-messages.md"><img width="60px" alt="condições" src="assets/icon_transactionalmessage.svg"/></a><p><a href="../../api/using/managing-transactional-messages.md">Mensagens transacionais</a></p></td>
-<td valign="top"><a href="../../api/using/controlling-a-workflow.md"><img width="60px" alt="condições" src="assets/icon_workflows.svg"/></a><p><a href="../../api/using/controlling-a-workflow.md">Fluxos de trabalho</a></p></td>
-<td valign="top"><a href="../../api/using/retrieving-an-organizational-unit.md"><img width="60px" alt="condições" src="assets/icon_units.svg"/></a><p><a href="../../api/using/retrieving-an-organizational-unit.md">Unidades organizacionais</a></p></td>
+<td valign="top"><a href="../../api/using/creating-a-privacy-request.md"><img width="50px" alt="condições" src="assets/icon_privacy.svg"/></a><p><a href="../../api/using/creating-a-privacy-request.md">Gerenciamento de privacidade</a></p></td>
+<td valign="top"><a href="../../api/using/managing-transactional-messages.md"><img width="50px" alt="condições" src="assets/icon_transactionalmessage.svg"/></a><p><a href="../../api/using/managing-transactional-messages.md">Mensagens transacionais</a></p></td>
+<td valign="top"><a href="../../api/using/controlling-a-workflow.md"><img width="50px" alt="condições" src="assets/icon_workflows.svg"/></a><p><a href="../../api/using/controlling-a-workflow.md">Fluxos de trabalho</a></p></td>
+<td valign="top"><a href="../../api/using/retrieving-an-organizational-unit.md"><img width="50px" alt="condições" src="assets/icon_units.svg"/></a><p><a href="../../api/using/retrieving-an-organizational-unit.md">Unidades organizacionais</a></p></td>
 </tr></table>
 
 >[!NOTE]
