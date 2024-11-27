@@ -9,10 +9,10 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 058c59136c28e7fce2a79686919f900f410e324a
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 64%
+source-wordcount: '982'
+ht-degree: 62%
 
 ---
 
@@ -49,6 +49,10 @@ Se estiver usando uma entrega recorrente sem nenhum período de agregação, voc
 ![](assets/confirmation_recurring_deliveries.png)
 
 ## Noções básicas sobre indicadores de mensagem {#message-indicators}
+
+>[!NOTE]
+>
+> O **Painel de implantação** fornece dados para referência rápida, que podem não corresponder aos números nos Relatórios dinâmicos. Para obter informações precisas e confiáveis, recomendamos usar os relatórios dinâmicos como fonte da verdade. [Saiba mais](../../reporting/using/get-started-reporting.md)
 
 Depois que a mensagem é enviada aos contatos, a zona **[!UICONTROL Deployment]** mostra seus KPIs (indicadores principais de desempenho), inclusive:
 
