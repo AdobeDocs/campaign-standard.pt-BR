@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: c35f8caeab9b6605b042618705eecc347d13fd18
+source-git-commit: 8da7d90905745b99f52841483a2d540e9781104e
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 100%
+source-wordcount: '408'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ As atualizações são implantadas em duas fases. Primeiro, as instâncias de Pr
 
 Todas as datas de lançamento estão sujeitas a alterações; acesse esta página com frequência para verificar se há atualizações. As atualizações de ambientes ocorrem em ondas, durante os intervalos indicados abaixo. As datas exatas são comunicadas por email a cada cliente.
 
-## Versão 24.2 – Versão do verão de 2024 {#release-24-2-release}
+## Versão 25.1 – Versão do inverno de 2025 {#release-25-1-release}
 
 Informações detalhadas sobre esta versão estão disponíveis nas [Notas de versão](release-notes.md) quando as atualizações do ambiente de preparo são iniciadas.
 
@@ -33,20 +33,20 @@ Informações detalhadas sobre esta versão estão disponíveis nas [Notas de v
  <thead>
   <tr>
    <th> Ambientes </th>
-   <th> Disponibilidade limitada </th>
-   <th> Disponibilidade geral </th>
+   <th> Datas</th>
+   <!--th> General Availability </th-->
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td>Estágio </td>
-   <td>6 a 13 de agosto de 2024 </td>
-   <td>2025 – Datas a serem confirmadas</td>
+   <td>Preparo </td>
+   <td>7 de janeiro - 4 de fevereiro de 2025 </td>
+   <!--td>2025 - Dates to be confirmed</td-->
   </tr>
   <tr>
    <td>Produção </td>
-   <td>20 a 27 de agosto de 2024 </td>
-   <td>2025 – Datas a serem confirmadas</td>
+   <td>13 de janeiro a 25 de fevereiro de 2025 </td>
+   <!--td>2025 - Dates to be confirmed</td-->
   </tr>
  </tbody>
 </table>
