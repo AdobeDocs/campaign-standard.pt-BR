@@ -1,5 +1,5 @@
 ---
-title: "Etapa 2: Publish da extensão"
+title: 'Etapa 2: publicar a extensão'
 description: Saiba como publicar a extensão no Campaign Standard. Parte 2 de uma série.
 audience: developing
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: e3bebded-764c-4d2e-9580-c413f1576a2c
 source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 25%
+ht-degree: 30%
 
 ---
 

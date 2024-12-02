@@ -1,6 +1,6 @@
 ---
 title: Descrição da interface
-description: "Saiba como navegar e usar o espaço de trabalho do Adobe Campaign: página inicial, barra superior, menus avançados e barras de ação."
+description: 'Saiba como navegar e usar o espaço de trabalho do Adobe Campaign: página inicial, barra superior, menus avançados e barras de ação.'
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -11,7 +11,7 @@ exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
 source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
 workflow-type: tm+mt
 source-wordcount: '1261'
-ht-degree: 77%
+ht-degree: 75%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
 title: Personalização de listas
-description: "Saiba como personalizar a exibição e atuar em telas de lista no Adobe Campaign Standard:classificando, filtrando, excluindo ou duplicando elementos. Lista os elementos de exibição das telas de um ou vários recursos fornecidos."
+description: Saiba como personalizar a exibição e atuar em telas de lista no Adobe Campaign Standard:classificando, filtrando, excluindo ou duplicando elementos. Lista os elementos de exibição das telas de um ou vários recursos fornecidos.
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 

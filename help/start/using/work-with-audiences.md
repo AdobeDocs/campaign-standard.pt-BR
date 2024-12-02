@@ -1,6 +1,6 @@
 ---
 title: Personalização de listas
-description: "Saiba como personalizar a exibição e atuar em telas de lista no Adobe Campaign Standard:classificando, filtrando, excluindo ou duplicando elementos. Lista os elementos de exibição das telas de um ou vários recursos fornecidos."
+description: Saiba como personalizar a exibição e atuar em telas de lista no Adobe Campaign Standard:classificando, filtrando, excluindo ou duplicando elementos. Lista os elementos de exibição das telas de um ou vários recursos fornecidos.
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -86,7 +86,7 @@ Esses contatos ficam visíveis na Lista de perfis e podem ser direcionados em ca
 
 >[!NOTE]
 >
->Observe que o conector do Campaign Standard-Microsoft Dynamics 365 está atualmente com a Disponibilidade limitada e está sujeito a várias limitações, detalhadas na documentação.
+>Observe que o conector Campaign Standard-Microsoft Dynamics 365 está atualmente com a disponibilidade limitada e está sujeito a várias limitações, detalhadas na documentação.
 
 **Leia mais**
 

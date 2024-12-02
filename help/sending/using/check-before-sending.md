@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: "Quando a mensagem estiver pronta, saiba como executar todas as verificações antes de enviar"
+description: Quando a mensagem estiver pronta, saiba como executar todas as verificações antes de enviar
 feature: Deliverability
 role: User
 level: Intermediate

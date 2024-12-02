@@ -1,6 +1,6 @@
 ---
-title: Seleção de um público-alvo em uma mensagem
-description: '“Passo a passo para a escolha dos públicos-alvo de um email: população principal de direcionamento e perfis de teste.”'
+title: Seleção de um público em uma mensagem
+description: 'Passo a passo para a escolha dos públicos-alvo de um email: população principal de direcionamento e perfis de teste.'
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
@@ -12,7 +12,7 @@ exl-id: 239959ad-6386-42bf-a86a-5694cdaecd83
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 70%
+ht-degree: 66%
 
 ---
 
