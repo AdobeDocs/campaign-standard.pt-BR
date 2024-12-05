@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 8da7d90905745b99f52841483a2d540e9781104e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '408'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Informações detalhadas sobre esta versão estão disponíveis nas [Notas de v
  <tbody>
   <tr>
    <td>Preparo </td>
-   <td>7 de janeiro - 4 de fevereiro de 2025 </td>
+   <td>7 de janeiro a 4 de fevereiro de 2025 </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
   <tr>
