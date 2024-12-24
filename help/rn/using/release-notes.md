@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: c2d2f3843801d108f007fea52a76e41abe16d76c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -31,19 +31,19 @@ Esta seção lista as melhorias e alterações incluídas na próxima versão do
 
 #### Correções de segurança {#winter-25-security}
 
-* Essa versão traz correções de segurança.
-* Esta versão vem com a seguinte atualização de segurança: O Apache Tomcat foi atualizado para a v10.1.33.
+* Esta versão inclui correções de segurança.
+* Esta versão inclui a seguinte atualização de segurança: o Apache Tomcat foi atualizado para a v10.1.33.
 
 #### Outras correções {#winter-25-fixes}
 
 * Correção de um problema duplicado em modelos (CAMP-56340)
-* Correção de uma regressão de rastreamento quando URLs dinâmicos eram usados em modelos Adobe Experience Manager (CAMP-51932)
+* Correção de uma regressão de rastreamento quando URLs dinâmicos eram usados em modelos do Adobe Experience Manager (CAMP-51932)
 * Correção de um problema de desempenho no processo de faturamento (CAMP-56796)
-* Correção de um problema de codificação de HTML com o caractere `>` em páginas da Web JSSP (CAMP-56497)
-* Correção de um problema nos relatórios dinâmicos ao usar a opção **Exibir em linhas selecionadas** (CAMP-55895)
+* Correção de um problema de codificação de HTML com o caractere `>` em páginas da web JSSP (CAMP-56497)
+* Correção de um problema nos relatórios dinâmicos ao usar a opção **Exibir nas linhas selecionadas** (CAMP-55895)
 
 
-## Versão 24.2 - Versão de verão 2024 (DL) {#summer-24}
+## Versão 24.2 – Versão do verão de 2024 (LA) {#summer-24}
 
 ### Melhoria {#summer-24-rn-improvements}
 
