@@ -4,14 +4,38 @@ description: Essa página lista todas as versões de 2024 do Adobe Campaign Stan
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: c70e3058f75ba2b11a8311628198e5c02d489964
+exl-id: 26616ecc-a009-485c-b13d-d4e0c23969f2
+source-git-commit: 85f3a3d8fe9e41eaa78fac955bc2d0f3f3d2c35e
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '490'
 ht-degree: 100%
 
 ---
 
 # Notas de versão de 2024 {#release-notes-2024}
+
+
+## Versão 24.2 – Versão do verão de 2024 (LA) {#summer-24}
+
+### Melhoria {#summer-24-rn-improvements}
+
+**Migração para as credenciais OAuth de servidor para servidor**
+
+A partir desta versão, com a credencial de conta de serviço (JWT) sendo descontinuada pela Adobe, as integrações de saída do Campaign com soluções e aplicativos Adobe agora dependem da credencial de servidor para servidor do OAuth. A Adobe executará a migração de JWT para OAuth em suas integrações de saída, como a integração do Campaign-Analytics ou a integração dos Acionadores da Experience Cloud.
+
+Se você implementou integrações de entrada com o Campaign e está usando [APIs do Campaign](../../api/using/get-started-apis.md), é necessário migrar sua conta técnica conforme detalhado [nesta documentação](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. As credenciais da Conta de serviço (JWT) deixarão de funcionar em **27 de janeiro de 2025**.
+
+### Correções {#summer-24-rn-fixes}
+
+* Correção de um problema que fazia com que o scheduler de fluxos de trabalho iniciasse antes do horário agendado. (CAMP-55412)
+* Correção de um problema que causava um erro ao duplicar campos personalizados em notificações por push transacionais. (CAMP-54459)
+* Correção de problemas que afetavam a usabilidade do scheduler de hora e data para mensagens no aplicativo. (CAMP-54495)
+* Correção de um problema que fazia com que o rastreamento não funcionasse ao utilizar o recurso de alias de rastreamento personalizado, e o link inteiro ser dinâmico. (CAMP-56044)
+* Correção de um problema que fazia com que uma quantidade limitada de modelos fosse exibida ao usar a pesquisa para localizar modelos específicos. (CAMP-55273)
+* Adição dos seguintes idiomas à lista suspensa de idiomas preferidos: en_kz (inglês – Cazaquistão) e en_ua (inglês – Ucrânia). (CAMP-55336)
+* Correção de um problema que fazia com que os botões de ajuste de hora não funcionassem nas configurações do scheduler. (CAMP-53602)
+* Correção de vários problemas da interface do usuário relacionados à barra de ajuste de hora nas configurações do scheduler. (CAMP-55291)
+
 
 ## Versão 24.1 – Versão do inverno de 2024 {#winter-24}
 
@@ -33,4 +57,3 @@ ht-degree: 100%
 
 * Correção de um problema que impedia que os endereços de email rejeitados fossem removidos da quarentena após 30 dias. (CAMP-52977)
 * Correção de um problema que interrompia o fluxo de trabalho de Alertas de entrega com o seguinte erro: `division by zero`. (CAMP-49786)
-
