@@ -4,9 +4,9 @@ title: Documentação do produto Adobe Campaign Standard
 description: Pesquisar a documentação do produto Campaign Standard
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: 9924d811359a6845ee6fd230eb6ffd73985404ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '284'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 91%
 
 ## Novidades
 
-Dê uma olhada nos últimos aprimoramentos no produto e na documentação do Adobe Campaign Standard. Para obter uma lista abrangente de recursos, melhorias e correções, consulte as [Notas de versão](rn/using/release-notes.md) detalhadas.
+Dê uma olhada nos últimos aprimoramentos no produto e na documentação do Adobe Campaign Standard. Para obter uma lista de todos os recursos, melhorias e correções, confira as [Notas de versão](rn/using/release-notes.md) detalhadas.
 
 >[!BEGINTABS]
 
@@ -24,9 +24,9 @@ Temos o prazer de anunciar que os usuários do Adobe Campaign Standard já se qu
 
 [![imagem](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/pt-br/docs/campaign-web/acs-to-ac/home){target="_blank"}
 
->[!TAB A versão do Campaign 25.1 está disponível.]
+>[!TAB A versão 25.1 do Campaign chegou.]
 
-Descubra as melhorias e correções que acompanham a versão 25.1 do Campaign Standard.
+Conheça as melhorias e correções que virão na versão 25.1 do Campaign Standard.
 
 [![imagem](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
 

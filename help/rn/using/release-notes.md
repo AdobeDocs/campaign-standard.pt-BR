@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: ec96a9c3320a570f80863b1189f350c5f62f8466
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -37,8 +37,8 @@ This section lists improvements and changes included in the next Campaign Standa
 ### Outras correções {#winter-25-fixes}
 
 
-* Correção do URL do &quot;Esquema de dados&quot; na tela de resumo da assinatura (CAMP-56168, CAMP-56296)
-* Correção de um problema para ignorar as regras de fadiga quando a opção **Mensagem a ser enviada imediatamente** for usada (CAMP-56866, CAMP-57033)
+* Correção do URL do “Esquema de dados” na tela de resumo da assinatura (CAMP-56168, CAMP-56296)
+* Correção de um problema para contornar as regras de fadiga quando a opção **Mensagem a ser enviada imediatamente** for usada (CAMP-56866, CAMP-57033)
 * Correção de um problema duplicado em modelos (CAMP-56340)
 * Correção de uma regressão de rastreamento quando URLs dinâmicos eram usados em modelos do Adobe Experience Manager (CAMP-51932)
 * Correção de um problema de desempenho no processo de faturamento (CAMP-56796)
