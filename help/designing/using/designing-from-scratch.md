@@ -8,9 +8,9 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1229'
 ht-degree: 22%
 
 ---
@@ -131,13 +131,13 @@ Use esse componente para inserir uma linha divisória no email. Você pode selec
 
 ### **[!UICONTROL HTML]**
 
-Use este componente para copiar e colar as diferentes partes do HTML existente. Isso permite criar componentes de HTML modulares gratuitos.
+Use esse componente para copiar e colar as diferentes partes do HTML existente. Isso permite criar componentes modulares gratuitos do HTML.
 
 >[!NOTE]
 >
->Um componente de HTML livre pode ser editado com opções limitadas. Se todos os estilos não estiverem incorporados, adicione o CSS correto na seção **head** do código HTML, caso contrário, o email não será responsivo. Use o botão **[!UICONTROL Preview]** para testar a capacidade de resposta do seu conteúdo (consulte [Pré-visualização de mensagens](../../sending/using/previewing-messages.md)).
+>Um componente gratuito do HTML é editável com opções limitadas. Se todos os estilos não estiverem incorporados, adicione o CSS correto na seção **head** do código HTML, caso contrário, o email não será responsivo. Use o botão **[!UICONTROL Preview]** para testar a capacidade de resposta do seu conteúdo (consulte [Pré-visualização de mensagens](../../sending/using/previewing-messages.md)).
 
-Para tornar um conteúdo externo compatível com o Designer de email, a Adobe recomenda criar uma mensagem do zero e copiar o conteúdo do seu email existente em fragmentos e componentes.
+Para simplesmente tornar um conteúdo externo compatível com o Email Designer, a Adobe recomenda criar uma mensagem do zero e copiar o conteúdo do seu email existente em fragmentos e componentes.
 
 Quando tiver um conteúdo que não pode ser recriado, você pode copiar e colar o código HTML do email original usando o componente de conteúdo **[!UICONTROL Html]**. Familiarize-se com o HTML antes de continuar.
 
@@ -149,7 +149,7 @@ Quando tiver um conteúdo que não pode ser recriado, você pode copiar e colar 
 
 1. No email original, identifique as seções reutilizáveis nas seções que serão exclusivas de cada email enviado.
 1. Salve todas as imagens e ativos que deseja usar.
-1. Se você estiver familiarizado com o HTML, divida o conteúdo original do HTML em partes diferentes.
+1. Se você estiver familiarizado com o HTML, divida o conteúdo original do HTML em diferentes partes.
 
 ### Vídeo {#video-settings}
 
@@ -157,7 +157,6 @@ Quando tiver um conteúdo que não pode ser recriado, você pode copiar e colar 
 >id="ac_edition_video"
 >title="Configurações de vídeo"
 >abstract="Use esse componente para inserir um vídeo no seu email. Observe que os vídeos não funcionam em todos os clientes de email. Recomendamos definir uma imagem alternativa."
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Informações adicionais"
 
 Insira o componente de vídeo em um componente de estrutura do email e insira o link do vídeo no **[!UICONTROL Component Settings]**.
 

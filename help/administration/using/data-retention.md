@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: 99c092bc40c9176a25a6ec2a164ee1d3f85d5cbe
+source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 4%
+source-wordcount: '353'
+ht-degree: 5%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 4%
 
 As tabelas de log padrão no Campaign têm períodos de retenção predefinidos que limitam a duração do armazenamento de dados, para evitar sobrecarga no sistema.
 
-A configuração da retenção de dados é definida pelos administradores técnicos do Adobe durante a implementação e os valores podem variar, com base nos requisitos do cliente.
+A configuração de retenção de dados é definida pelos administradores técnicos da Adobe durante a implementação e os valores podem variar, com base nos requisitos do cliente.
 
-Entre em contato com os consultores de Adobe ou administradores técnicos para saber mais sobre os períodos de retenção que se aplicam ao seu ambiente ou para definir períodos de retenção personalizados.
+Entre em contato com os consultores da Adobe ou administradores técnicos para saber mais sobre os períodos de retenção que se aplicam ao seu ambiente ou para definir períodos de retenção personalizados.
 
 Observe que, usando a funcionalidade padrão do workflow, é possível configurar períodos de retenção para qualquer tabela personalizada.
 
-Abaixo estão os períodos de retenção padrão para tabelas padrão. Sempre que possível e dependendo do uso de seus dados, o Adobe sugere mover para os períodos de retenção recomendados para melhorar o desempenho da instância do Campaign.
+Abaixo estão os períodos de retenção padrão para tabelas padrão. Sempre que possível, e dependendo do uso de seus dados, a Adobe sugere mudar para os períodos de retenção recomendados para melhorar o desempenho da instância do Campaign.
 
 * **Rastreamento consolidado**: 6 meses (recomendado: 1 mês)
 * **Logs de entrega**: 6 meses (recomendado: 1 mês)
@@ -39,31 +39,40 @@ Abaixo estão os períodos de retenção padrão para tabelas padrão. Sempre qu
 * **Eventos de pipeline ignorados**: 1 mês
 * **Alertas de entrega**: 1 mês
 * **Auditoria de exportação**: 6 meses (recomendado: 1 mês)
+* **Entregas**: 2 anos
 
 ## Período de retenção para entregas {#deliveries}
 
-Por padrão, o período de retenção para deliveries é ilimitado.
+<!-- By default, the retention period for deliveries is unlimited.-->
 
-No entanto, se houver um alto volume de entregas em sua instância, você poderá atualizar a opção **NmsCleanup_DeliveryPurgeDelay**, disponível no menu **[!UICONTROL Administration]** > **[!UICONTROL Application settings]**.
+A partir de 1º de junho de 2025, somente os deliveries dos últimos dois anos permanecerão disponíveis no sistema. Você encontrará mais detalhes abaixo:
 
-Toda vez que o fluxo de trabalho **[!UICONTROL Database cleanup]** é executado, os deliveries que atendem às condições definidas para esta opção são excluídos.
+* Quaisquer deliveries com mais de dois anos serão removidos permanentemente e não estarão mais acessíveis.
+* Essa limpeza inclui somente deliveries enviados e com falha; deliveries recorrentes, deliveries de rascunho e templates não serão afetados.
+* Depois que um delivery é removido, qualquer informação de rastreamento ou envio vinculada também será excluída permanentemente.
+* Os templates de delivery transacional ou de marketing não serão excluídos.
+* Para deliveries recorrentes, os deliveries secundários com período de agregação definido como mês ou ano não serão excluídos.
 
-Esta ação pode ajudar a acelerar processos como o fluxo de trabalho **[!UICONTROL Copy headers from delivery templates]**.
+Caso deseje acelerar processos como o fluxo de trabalho **[!UICONTROL Copy headers from delivery templates]**, o período de retenção de entrega pode ser reduzido. Para fazer isso, entre em contato com o representante da Adobe.
 
->[!NOTE]
->
->Saiba mais sobre fluxos de trabalho técnicos em [esta seção](technical-workflows.md).
+<!--
 
+However, if there is a high volume of deliveries on your instance, you can update the **NmsCleanup_DeliveryPurgeDelay** option available from the **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** menu.
 
-O valor padrão da opção **NmsCleanup_DeliveryPurgeDelay** é `-1`. Nesse caso, nenhum delivery é excluído.
+Each time the **[!UICONTROL Database cleanup]** workflow is run, the deliveries meeting the conditions set for this option will be deleted.
 
-Por exemplo, se você o definir como `180`, qualquer entrega que não seja de modelo e não tenha sido atualizada nos últimos 180 dias será excluída quando o fluxo de trabalho **[!UICONTROL Database cleanup]** for executado.
+-->
 
->[!NOTE]
->
->* Os templates de delivery transacional ou de marketing não serão excluídos.
->
->* Para deliveries recorrentes, os deliveries secundários com período de agregação definido como mês ou ano não serão excluídos.
+<!--
 
-Ao atualizar a opção **NmsCleanup_DeliveryPurgeDelay**, é recomendável prosseguir gradualmente com várias iterações. Por exemplo, você pode começar definindo o valor como 300 dias, depois 180 dias, depois 120 dias e assim por diante - certificando-se de que as iterações estejam pelo menos com 2 dias de diferença. Caso contrário, o fluxo de trabalho **[!UICONTROL Database cleanup]** pode demorar muito mais devido a um grande número de entregas a serem excluídas.
+When updating the **NmsCleanup_DeliveryPurgeDelay** option, it is recommended to proceed gradually with multiple iterations. For example, you can start by setting the value to 300 days, then 180 days, then 120 days, and so on - making sure iterations are at least 2 days apart. Otherwise, the **[!UICONTROL Database cleanup]** workflow may take much longer because of a large number of deliveries to delete.
+
+This action can help speeding up processes such as the **[!UICONTROL Copy headers from delivery templates]** workflow. Learn more on technical workflows in [this section](technical-workflows.md).
+
+The default value for the **NmsCleanup_DeliveryPurgeDelay** option is `-1`. In this case, no delivery is deleted.
+
+For example, if you set it to `180`, any non-template deliveries that have not been updated in the last 180 days will be deleted when the **[!UICONTROL Database cleanup]** workflow is run.
+
+-->
+
 
