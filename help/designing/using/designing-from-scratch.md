@@ -30,7 +30,7 @@ Estas são as etapas principais para criar e projetar um conteúdo de email do z
 1. Pré-visualize seu email.
 1. Salve o conteúdo e prossiga com a mensagem depois de verificar se você definiu um público-alvo e agendou o envio corretamente.
 
-Você também pode assistir a este [vídeo de introdução](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
+Você também pode assistir a este [vídeo de introdução](https://video.tv.adobe.com/v/330105/?autoplay=true&hidetitle=true&captions=por_br).
 
 >[!NOTE]
 >

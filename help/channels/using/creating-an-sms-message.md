@@ -89,6 +89,6 @@ Quando o envio estiver concluído, você pode iniciar a medição do impacto de 
 
 Este vídeo mostra como criar uma entrega de SMS.
 
->[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/31861/?quality=12&captions=por_br)
 
 Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

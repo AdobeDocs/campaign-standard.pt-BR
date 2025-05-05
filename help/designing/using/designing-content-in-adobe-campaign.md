@@ -166,6 +166,6 @@ Quanto aos fragmentos, observe o seguinte:
 
 Este vídeo fornece uma visão geral do Designer de email.
 
->[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/330105?quality=12&captions=por_br)
 
 Para começar a usar o Designer de email, assista a este [conjunto de vídeos](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=pt-BR#GettingStarted) que explicam a funcionalidade geral do Designer de email e como projetar um email do zero ou utilizando modelos

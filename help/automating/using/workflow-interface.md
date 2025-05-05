@@ -161,6 +161,6 @@ Para fazer isso, selecione as atividades desenhando uma zona ao redor delas. em 
 
 Este vídeo mostra como criar um workflow.
 
->[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/31853?quality=12&captions=por_br)
 
 Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

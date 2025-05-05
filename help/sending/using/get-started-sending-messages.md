@@ -97,6 +97,6 @@ Leia mais:
 
 Este vídeo mostra como enviar um email de teste, preparar e enviar um delivery de email no Campaign Standard.
 
->[!VIDEO](https://video.tv.adobe.com/v/24013/)
+>[!VIDEO](https://video.tv.adobe.com/v/31855?captions=por_br)
 
 Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

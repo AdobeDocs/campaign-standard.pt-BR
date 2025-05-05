@@ -65,6 +65,6 @@ Depois que um serviço é criado, você poderá promovê-lo.
 
 Este vídeo mostra como criar um serviço e gerenciar suas assinaturas.
 
->[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/31857?quality=12&captions=por_br)
 
 Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

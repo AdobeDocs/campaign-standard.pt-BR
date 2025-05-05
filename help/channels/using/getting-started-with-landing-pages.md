@@ -136,6 +136,6 @@ Para saber mais sobre publicação da landing page, consulte [esta seção](../.
 
 Este vídeo mostra como criar e editar uma landing page.
 
->[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36317?quality=12&captions=por_br)
 
 Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

@@ -271,6 +271,6 @@ As principais etapas para esse caso de uso são as seguintes:
 
 Este vídeo mostra como você pode testar suas mensagens de email usando a substituição de perfil.
 
->[!VIDEO](https://video.tv.adobe.com/v/32368?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36530?quality=12&captions=por_br)
 
 Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
