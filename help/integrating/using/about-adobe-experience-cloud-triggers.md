@@ -30,7 +30,7 @@ O diagrama a seguir detalha o funcionamento dessa integração.
 
 **Tópicos relacionados:**
 
-* Saiba mais sobre os diferentes tipos de acionadores: [documentação da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html).
+* Saiba mais sobre os diferentes tipos de acionadores: [documentação da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html?lang=pt-BR).
 * Assista ao vídeo [Trigger Remarketing Messages based on Site Activity](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
 * Veja nossos dois [Casos de uso de acionadores de abandono](../../integrating/using/abandonment-triggers-use-cases.md).
 

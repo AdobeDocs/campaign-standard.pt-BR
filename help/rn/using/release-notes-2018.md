@@ -195,7 +195,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> GDPR: Integração de Serviço Principal<br /> </td> 
-   <td> A Integração do Privacy Core Service permite automatizar suas solicitações de GDPR em um contexto com várias soluções por meio de uma única chamada de API JSON. <br /> As solicitações de GDPR enviadas pelo Privacy Core Service para todas as soluções de Experience Cloud agora são tratadas automaticamente pelo Campaign. <br /> Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">documentação detalhada</a>.<br /> </td> 
+   <td> A Integração do Privacy Core Service permite automatizar suas solicitações de GDPR em um contexto com várias soluções por meio de uma única chamada de API JSON. <br /> As solicitações de GDPR enviadas pelo Privacy Core Service para todas as soluções de Experience Cloud agora são tratadas automaticamente pelo Campaign. <br /> Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=pt-BR">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Melhorias nas notificações por push - feedback detalhado da entrega<br /> </td> 
@@ -297,7 +297,7 @@ _Recursos personalizados_
     <ul> 
      <li> Direito de acesso: permite que o Titular de dados receba uma cópia de seus dados pessoais capturados pelos Controladores de dados, possivelmente incluindo dados armazenados no Adobe Campaign. </li> 
      <li> Direito de exclusão: permite que o Titular de dados apague seus dados pessoais capturados pelos Controladores de dados, possivelmente incluindo os dados armazenados no Adobe Campaign. </li> 
-    </ul> Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">documentação detalhada</a>.<br /> </td> 
+    </ul> Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=pt-BR">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer for Email (Beta)<br /> </td> 
@@ -461,7 +461,7 @@ Alguns problemas podem ocorrer ao usar links de ajuda contextual da interface do
      <li> baixar imagens ou outros arquivos de mídia e adicioná-los como anexos a uma notificação </li> 
      <li> alterar o texto do corpo ou do título de uma notificação </li> 
      <li> adicionar um identificador de thread a uma notificação </li> 
-    </ul> Para obter mais informações sobre Conteúdo Disponível e Conteúdo Mutável, consulte a <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentação detalhada</a>.<br /> <strong>Aviso:</strong> essas atualizações nas notificações por push exigem que os clientes atualizem seus aplicativos móveis. Consulte <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">esta nota técnica</a> para obter mais informações.<br /> </td> 
+    </ul> Para obter mais informações sobre Conteúdo Disponível e Conteúdo Mutável, consulte a <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentação detalhada</a>.<br /> <strong>Aviso:</strong> essas atualizações nas notificações por push exigem que os clientes atualizem seus aplicativos móveis. Consulte <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html?lang=pt-BR">esta nota técnica</a> para obter mais informações.<br /> </td> 
   </tr> 
   <tr> 
    <td> Entregas otimizadas por fuso horário<br /> </td> 

@@ -24,4 +24,4 @@ ht-degree: 0%
 
 O ponto de extremidade **geoUnitBase** permite interagir com unidades geográficas, permitindo, por exemplo, atualizar seus atributos ou atualizar a unidade de um perfil.
 
-O campo **Unidade geográfica** é adicionado a um perfil ao estender o recurso de perfil. Como resultado, sempre use o ponto de extremidade **profileAndServicesExt** para interagir com as unidades geográficas. Para obter mais informações sobre a extensão de recursos do perfil, consulte a [documentação do Campaign](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles).
+O campo **Unidade geográfica** é adicionado a um perfil ao estender o recurso de perfil. Como resultado, sempre use o ponto de extremidade **profileAndServicesExt** para interagir com as unidades geográficas. Para obter mais informações sobre a extensão de recursos do perfil, consulte a [documentação do Campaign](https://helpx.adobe.com/br/campaign/standard/administration/using/organizational-units.html#partitioning-profiles).

@@ -35,7 +35,7 @@ As mensagens também podem ser excluídas durante a preparação do delivery se 
 
 * [Compreensão do gerenciamento de quarentena](../../sending/using/understanding-quarantine-management.md)
 * [Sobre aceitação e recusa no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [Rejeições](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
+* [Rejeições](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=pt-BR#metrics-for-deliverability)
 
 ## Identificação de falhas de delivery para uma mensagem {#identifying-delivery-failures-for-a-message}
 
@@ -76,7 +76,7 @@ Os possíveis motivos para uma falha de entrega são:
 
 **Tópicos relacionados:**
 * [Devoluções permanentes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=pt-BR#hard-bounces)
-* [Rejeições temporárias](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+* [Rejeições temporárias](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=pt-BR#soft-bounces)
 
 ## Tentativas após uma falha temporária de entrega {#retries-after-a-delivery-temporary-failure}
 
@@ -118,7 +118,7 @@ Para mensagens de erro de falha síncrona de delivery, o MTA aprimorado do Adobe
 
 As rejeições assíncronas ainda são qualificadas pelo processo do InMail por meio das regras **[!UICONTROL Inbound email]**. Para acessar essas regras, clique no logotipo **Adobe**, no canto superior esquerdo, selecione **[!UICONTROL Administration > Channels > Email > Email processing rules]** e **[!UICONTROL Bounce mails]**. Para obter mais informações sobre esta regra, consulte [esta seção](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-Para obter mais informações sobre rejeições e os diferentes tipos de rejeições, consulte [esta seção](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
+Para obter mais informações sobre rejeições e os diferentes tipos de rejeições, consulte [esta seção](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=pt-BR#metrics-for-deliverability).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 

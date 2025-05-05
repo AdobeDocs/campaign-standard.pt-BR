@@ -55,7 +55,7 @@ A transição para as APIs mais recentes é obrigatória para evitar qualquer pe
 
 * Se você ainda estiver usando essa versão herdada do SDK, deverá atualizar sua implementação com o Adobe Experience Platform SDK. Saiba como migrar para o SDK da Adobe Experience Platform em [este artigo](sdkv4-migration.md).
 
-* Verifique se você tem a permissão **Configuração do aplicativo móvel** no Adobe Experience Platform Data Collection Mobile antes de executar as etapas abaixo. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}.
+* Verifique se você tem a permissão **Configuração do aplicativo móvel** no Adobe Experience Platform Data Collection Mobile antes de executar as etapas abaixo. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=pt-BR#adobe-experience-platform-data-collection-permissions){target="_blank"}.
 
 
 #### Procedimento de transição {#fcm-transition-steps}

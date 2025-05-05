@@ -25,7 +25,7 @@ Os grupos de segurança são conjuntos de usuários que compartilham as mesmas f
 
 Os usuários devem estar sempre vinculados a um grupo de segurança. Isso permitirá que você atribua a eles funções específicas e unidades organizacionais. Para restringir o acesso de um usuário, não o adicione ao grupo **[!UICONTROL Standard Users]** da Campanha, pois ele está vinculado à unidade organizacional **[!UICONTROL All]**.
 
-Para obter mais informações sobre funções, a tabela na página a seguir apresenta possíveis operações disponíveis de acordo com as funções de um usuário: [autorizações do Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
+Para obter mais informações sobre funções, a tabela na página a seguir apresenta possíveis operações disponíveis de acordo com as funções de um usuário: [autorizações do Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=pt-BR).
 
 Os grupos de segurança padrão são:
 

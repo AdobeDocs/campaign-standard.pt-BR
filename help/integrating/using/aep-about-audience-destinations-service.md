@@ -24,18 +24,18 @@ ht-degree: 2%
 >
 >O serviço Audience Destinations foi descontinuado. Embora os recursos obsoletos ainda estejam disponíveis, eles não serão aprimorados nem terão suporte. Saiba mais [nesta página](../../rn/using/deprecated-features.md)
 
-Capacite suas experiências de consumidor aproveitando o [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html) para criar públicos-alvo altamente direcionados com base em conjuntos de dados grandes e complexos. O Adobe Experience Platform consolida dados de perfil, comportamentais e de várias entidades em fontes online e offline, incluindo o Adobe Analytics, para ajudar você a criar uma visualização de 360 graus do seu cliente, permitindo que você gerencie com eficiência as experiências dele.
+Capacite suas experiências de consumidor aproveitando o [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=pt-BR) para criar públicos-alvo altamente direcionados com base em conjuntos de dados grandes e complexos. O Adobe Experience Platform consolida dados de perfil, comportamentais e de várias entidades em fontes online e offline, incluindo o Adobe Analytics, para ajudar você a criar uma visualização de 360 graus do seu cliente, permitindo que você gerencie com eficiência as experiências dele.
 
 O Adobe Campaign Standard usará o serviço **Destinos do público-alvo** para recuperar uma coleção de perfis, conhecidos como **Públicos-alvo**, do Adobe Experience Platform para programas de campanha em várias etapas e/ou entre canais.
 
 **Públicos-alvo** são criados pela primeira vez, criando **segmentos**, que são essencialmente um conjunto de regras baseadas em praticamente qualquer variável (por exemplo, perfil, evento, dados de várias entidades) dentro de um perfil de cliente do Adobe Experience Platform para criar um destino multidimensional. Os conceitos globais sobre o Perfil do cliente em tempo real e os Serviços de segmentação são referenciados nestes documentos dedicados:
 
-* [Visão geral do Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
-* [Visão geral do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)
+* [Visão geral do Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR)
+* [Visão geral do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR)
 
 Depois que um segmento é criado, você pode ativá-lo como um público-alvo para uma entrega em [workflows Campaign Standard](../../integrating/using/aep-targeting-audiences.md). Além disso, você pode usar dados contextuais da Adobe Experience Platform para [personalizar](../../integrating/using/aep-personalizing-campaigns.md) e adicionar conteúdo dinâmico às suas campanhas.
 
-Os vídeos de instrução ![](assets/do-not-localize/how-to-video.png) também estão disponíveis em [esta seção](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html).
+Os vídeos de instrução ![](assets/do-not-localize/how-to-video.png) também estão disponíveis em [esta seção](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html?lang=pt-BR).
 
 Termos usados nestas seções:
 

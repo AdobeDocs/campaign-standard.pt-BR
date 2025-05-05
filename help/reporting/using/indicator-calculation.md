@@ -188,7 +188,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
   <tr> 
    <td> Cliques únicos<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Cliques únicos são calculados usando conceitos ThetaSketch. Para obter mais informações, consulte este <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplo</a>.<br /> </td> 
+   <td> Cliques únicos são calculados usando conceitos ThetaSketch. Para obter mais informações, consulte este <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=pt-BR#unique-open-clicks-no-match">exemplo</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -268,7 +268,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
   <tr> 
    <td> Aberturas únicas<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> Aberturas únicas são calculadas usando conceitos ThetaSketch de RecipientIds exclusivos. Para obter mais informações, consulte este <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplo</a>.<br /> </td> 
+   <td> Aberturas únicas são calculadas usando conceitos ThetaSketch de RecipientIds exclusivos. Para obter mais informações, consulte este <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=pt-BR#unique-open-clicks-no-match">exemplo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressões<br /> </td> 
@@ -288,7 +288,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
   <tr> 
    <td> Cliques únicos<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Cliques únicos são calculados usando conceitos ThetaSketch. Para obter mais informações, consulte este <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemplo</a>.<br /> </td> 
+   <td> Cliques únicos são calculados usando conceitos ThetaSketch. Para obter mais informações, consulte este <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=pt-BR#unique-open-clicks-no-match">exemplo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taxa de cliques<br /> </td> 
