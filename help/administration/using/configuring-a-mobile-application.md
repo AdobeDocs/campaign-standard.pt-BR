@@ -149,7 +149,7 @@ Seu aplicativo móvel agora está pronto para ser usado na notificação por pus
 
 1. Na seção **[!UICONTROL Device-specific settings]** de um painel de aplicativo móvel, para cada dispositivo, forneça os detalhes do aplicativo.
 
-   * +++ Para iOS
+   +++*  Para iOS
 
      Informe os seguintes detalhes do aplicativo:
 
@@ -159,9 +159,9 @@ Seu aplicativo móvel agora está pronto para ser usado na notificação por pus
       * **iOS Team ID**: consulte a [documentação do Apple](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} para obter mais informações sobre a iOS Team ID.
 
         ![](assets/mobile_app_ios_config.png)
-+++
+   +++
 
-   * +++ Para Android
+   +++*  Para Android
 
      Informe os seguintes detalhes do aplicativo:
 
@@ -169,7 +169,7 @@ Seu aplicativo móvel agora está pronto para ser usado na notificação por pus
       * **Arquivo de chave privada (Json) do Android**: arraste e solte seu arquivo de chave privada .json. Para obter instruções sobre como gerar o arquivo de chave privada .json, consulte a [Documentação do desenvolvedor para Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}.
 
         ![](assets/mobile_app_android_config.png)
-+++
+   +++
 
 1. Depois que o certificado for carregado, uma mensagem notificará que o upload foi bem-sucedido e exibirá a data de expiração do certificado.
 

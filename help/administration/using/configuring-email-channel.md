@@ -215,7 +215,7 @@ A seção **[!UICONTROL Validity period]** contém os seguintes parâmetros:
   >
   >O parâmetro **[!UICONTROL Delivery duration]** não se aplica a mensagens transacionais. Para obter mais informações, consulte [esta seção](../../channels/using/getting-started-with-transactional-msg.md).
 
-* **[!UICONTROL Resource validity duration]****[!UICONTROL Validity limit date for resources]**: esse campo é usado para recursos dos quais foi feito upload, principalmente para a mirror page e imagens. Os recursos desta página são válidos por um tempo limitado (para economizar espaço em disco).
+* **[!UICONTROL Resource validity duration]**&#x200B;**[!UICONTROL Validity limit date for resources]**: esse campo é usado para recursos dos quais foi feito upload, principalmente para a mirror page e imagens. Os recursos desta página são válidos por um tempo limitado (para economizar espaço em disco).
 * **[!UICONTROL Mirror page management]**: a mirror page é uma página HTML acessível online por um navegador da Web. Seu conteúdo é idêntico ao conteúdo do email. Por padrão, a mirror page é gerada se o link for inserido no conteúdo do email. Use este campo para modificar como esta página é gerada:
 
    * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** (modo padrão): a mirror page é gerada se o link for inserido no conteúdo do email.

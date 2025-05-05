@@ -116,7 +116,7 @@ O número máximo de tentativas a serem executadas em caso de status **[!UICONTR
 
 >[!IMPORTANT]
 >
-Os destinatários com um endereço em um status **[!UICONTROL Quarantine]** ou **[!UICONTROL Denylisted]** nunca serão removidos, mesmo se receberem um email.
+>Os destinatários com um endereço em um status **[!UICONTROL Quarantine]** ou **[!UICONTROL Denylisted]** nunca serão removidos, mesmo se receberem um email.
 
 
 ### Atualizações manuais {#unquarantine-manual}
@@ -166,7 +166,7 @@ Se um usuário qualificar um email como spam ([loop de feedback](https://experie
 
 >[!NOTE]
 >
-A quarentena no Adobe Campaign diferencia maiúsculas de minúsculas. Certifique-se de importar endereços de email em letras minúsculas, para que não sejam redirecionados posteriormente.
+>A quarentena no Adobe Campaign diferencia maiúsculas de minúsculas. Certifique-se de importar endereços de email em letras minúsculas, para que não sejam redirecionados posteriormente.
 
 Na lista de endereços em quarentena (consulte [Identificação de endereços em quarentena para toda a plataforma](#identifying-quarantined-addresses-for-the-entire-platform)), o campo **[!UICONTROL Error reason]** indica por que o endereço selecionado foi colocado em quarentena.
 
