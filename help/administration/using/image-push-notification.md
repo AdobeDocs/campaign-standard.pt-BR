@@ -52,7 +52,7 @@ Depois de personalizar a notificação por push no Adobe Campaign, é necessári
 
 >[!NOTE]
 >
->Se o aplicativo estiver em Objetive-C, consulte a seguinte [documentação](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
+>Se o aplicativo estiver em Objetive-C, consulte a seguinte [documentação](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html?lang=pt-BR).
 
 Se seu aplicativo estiver em [!DNL Swift], siga as etapas abaixo:
 

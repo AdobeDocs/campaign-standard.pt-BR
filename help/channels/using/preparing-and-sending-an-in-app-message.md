@@ -80,7 +80,7 @@ As etapas para criar uma mensagem independente no aplicativo com o Adobe Campaig
 
    * **[!UICONTROL Life Cycle events]**: eventos de ciclo de vida predefinidos com suporte pelo Adobe Mobile SDK.
 
-     Para obter mais informações sobre eventos do ciclo de vida, consulte esta [página](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html).
+     Para obter mais informações sobre eventos do ciclo de vida, consulte esta [página](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=pt-BR).
 
    * **[!UICONTROL Analytics Events]**: as três categorias a seguir têm suporte, dependendo do que é instrumentado no aplicativo móvel: Adobe Analytics, Dados de contexto ou estado de Exibição.
 
