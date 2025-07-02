@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: c2c732bc3dff7ee1a140af5a102e388f394ade52
+source-git-commit: d69dfd5cb214f1655563fc4a255b1f8aba834848
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 97%
+source-wordcount: '400'
+ht-degree: 100%
 
 ---
 
@@ -40,12 +40,12 @@ Informações detalhadas sobre esta versão estão disponíveis nas [Notas de v
  <tbody>
   <tr>
    <td>Preparo </td>
-   <td>8 de julho - 19 de agosto de 2025 </td>
+   <td>Agosto </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
   <tr>
    <td>Produção </td>
-   <td>15 de julho - 27 de agosto de 2025 </td>
+   <td>Setembro </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
  </tbody>
