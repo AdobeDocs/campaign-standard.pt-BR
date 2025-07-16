@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: d69dfd5cb214f1655563fc4a255b1f8aba834848
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ As atualizações são implantadas em duas fases. Primeiro, as instâncias de Pr
 
 Todas as datas de lançamento estão sujeitas a alterações; acesse esta página com frequência para verificar se há atualizações. As atualizações de ambientes ocorrem em ondas, durante os intervalos indicados abaixo. As datas exatas são comunicadas por email a cada cliente.
 
-## Versão 25.2 – Versão do verão de 2025 {#release-25-2-release}
+## Versão 25.2 - Versão do verão de 2025 {#release-25-2-release}
 
 Informações detalhadas sobre esta versão estão disponíveis nas [Notas de versão](release-notes.md) quando as atualizações do ambiente de preparo são iniciadas.
 
