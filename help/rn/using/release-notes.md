@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: c1f64589578c144a9b8eb879684f27834efaf8d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -32,15 +32,15 @@ This section lists improvements and changes included in the next Campaign Standa
 ### Correções de segurança {#summer-25-security}
 
 * Esta versão inclui correções de segurança.
-* Esta versão é fornecida com a seguinte atualização de segurança: PostgreSQL 14.18, migração do CentOS para instâncias Rochosas do Azure.
+* Esta versão inclui a seguinte atualização de segurança: PostgreSQL 14.18, migração do CentOS para o Rocky em instâncias do Azure.
 
 ### Outras correções {#summer-25-fixes}
 
-* Manuseio aprimorado de exaustão de sequência para aumentar a confiabilidade do sistema. (CAMP-57281)
-* Atualizações gerais de estabilização do produto. (CAMP-57339)
-* Relatórios dinâmicos aprimorados para melhor robustez e incompatibilidades de dados reduzidas. (CAMP-58157)
-* Correção de um problema em que os menus suspensos não quebravam o texto automaticamente. (CAMP-57360)
-* Atualização da funcionalidade de relatórios para impedir que os usuários consultem dados com mais de 2 anos. (CAMP-59262)
+* Tratamento aprimorado da exaustão de sequências para aumentar a confiabilidade do sistema. (CAMP-57281)
+* Atualizações gerais para estabilização do produto. (CAMP-57339)
+* Geração de relatórios dinâmica aprimorada para aumentar a robustez e reduzir as divergências de dados. (CAMP-58157)
+* Correção de um problema no qual os menus suspensos não quebravam o texto automaticamente. (CAMP-57360)
+* Atualização da funcionalidade de geração de relatórios para impedir que os usuários consultem dados de mais de dois anos atrás. (CAMP-59262)
 
 ## Versão 25.1.2 {#25.1.2}
 
