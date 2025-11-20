@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: d69dfd5cb214f1655563fc4a255b1f8aba834848
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 100%
 
@@ -69,9 +69,9 @@ R: Não. Durante a atualização da instância, o banco de dados pode não ficar
 
 R: Não. Mensagens não serão enviadas durante alguns minutos. Quando a atualização é concluída, os processos são reiniciados automaticamente.
 
-**P: Os workflows continuarão em execução e enviarão as entregas?**
+**P: Os fluxos de trabalho continuarão em execução e enviarão as entregas?**
 
-R: Não. Durante a atualização da build, o servidor de workflow e o MTA são ambos interrompidos. Isso significa que os workflows não serão executados e as entregas não serão enviadas durante alguns minutos. Nenhuma ação é necessária: os workflows serão iniciados novamente assim que a instância for atualizada.
+R: Não. Durante a atualização da build, o servidor de fluxo de trabalho e o MTA são ambos interrompidos. Isso significa que os fluxos de trabalho não serão executados e as entregas não serão enviadas durante alguns minutos. Nenhuma ação é necessária: os fluxos de trabalho serão iniciados novamente assim que a instância for atualizada.
 
 **P: Os links de rastreamento nas mensagens ainda funcionarão durante a atualização?**
 
