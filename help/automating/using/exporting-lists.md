@@ -81,6 +81,6 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 Este vídeo mostra como configurar listas.
 
->[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/31863/?captions=por_br&quality=12)
 
 Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

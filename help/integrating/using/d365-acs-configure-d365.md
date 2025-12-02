@@ -38,7 +38,7 @@ Um token de acesso OAuth permite que a ferramenta de integração se autentique 
 
 As etapas principais estão descritas no vídeo a seguir:
 
->[!VIDEO](https://video.tv.adobe.com/v/27637)
+>[!VIDEO](https://video.tv.adobe.com/v/34838?captions=por_br)
 
 Para gerar o token de acesso OAuth, siga as etapas descritas abaixo.
 

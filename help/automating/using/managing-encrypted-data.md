@@ -128,10 +128,10 @@ As etapas para executar esse caso de uso são as seguintes:
 
 Este vídeo mostra como usar uma chave GPG para descriptografar dados.
 
->[!VIDEO](https://video.tv.adobe.com/v/35753?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/41354?captions=por_br&quality=12)
 
 Este vídeo mostra como usar uma chave GPG para criptografar dados.
 
->[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/41339?captions=por_br&quality=12)
 
 Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
