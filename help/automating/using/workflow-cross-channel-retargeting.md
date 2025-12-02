@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: cba4e5c6-8acd-47a1-824e-14415e90d451
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 38%
@@ -40,10 +41,10 @@ Você pode enviar um email para os clientes e, em seguida, um SMS para aqueles q
 1. Clique na atividade e selecione ![](assets/edit_darkgrey-24px.png) para editar.
 1. Selecione **[!UICONTROL Simple email]** e clique em **[!UICONTROL Next]**.
 1. Selecione **[!UICONTROL Add an outbound transition without the population]** e clique em **[!UICONTROL Next]**.
-1. Selecione um template de email e clique em **[!UICONTROL Next]**.
+1. Selecione um modelo de email e clique em **[!UICONTROL Next]**.
 1. Insira as propriedades do email e clique em **[!UICONTROL Next]**.
 1. Para criar o layout do email, clique em **[!UICONTROL Using the Email Designer]**.
-1. Insira elementos ou selecione um template.
+1. Insira elementos ou selecione um modelo.
 1. Personalize seu email com ofertas específicas para cada local. Para obter mais informações, consulte [design de email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Clique em **[!UICONTROL Preview]** para verificar o layout.
 1. Clique em **[!UICONTROL Save]**.
@@ -68,7 +69,7 @@ Você pode enviar um email para os clientes e, em seguida, um SMS para aqueles q
 1. Selecione um modelo de SMS e clique em **[!UICONTROL Next]**.
 1. Insira as propriedades de sms e clique em **[!UICONTROL Next]**.
 1. Para criar o layout do SMS, clique em **[!UICONTROL Email Designer]**.
-1. Insira elementos ou selecione um template.
+1. Insira elementos ou selecione um modelo.
 1. Personalize seu sms com ofertas específicas para cada local.
 Para obter mais informações, consulte a seção [Design de um sms](../../channels/using/creating-an-sms-message.md).
 1. Clique em **[!UICONTROL Preview]** para verificar o layout.

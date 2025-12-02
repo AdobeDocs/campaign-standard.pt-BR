@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: f56f5a19-6283-4eef-8127-c69a16a42a37
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 9%
@@ -66,8 +67,8 @@ Agora, é necessário configurar a integração no Adobe Experience Manager.
 
 Para configurar o Adobe Experience Manager com o Adobe Campaign Standard, siga estas etapas:
 
-1. Primeiro, é necessário configurar a replicação entre as instâncias de criação e publicação do Adobe Experience Manager. Consulte esta [seção](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=pt-BR#configuring-adobe-experience-manager).
+1. Primeiro, é necessário configurar a replicação entre as instâncias de criação e publicação do Adobe Experience Manager. Consulte esta [seção](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-adobe-experience-manager).
 
-1. Em seguida, conecte o Adobe Experience Manager ao Adobe Campaign configurando um **[!UICONTROL Cloud Service]** dedicado. Consulte esta [seção](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=pt-BR#connecting-aem-to-adobe-campaign).
+1. Em seguida, conecte o Adobe Experience Manager ao Adobe Campaign configurando um **[!UICONTROL Cloud Service]** dedicado. Consulte esta [seção](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#connecting-aem-to-adobe-campaign).
 
-1. Agora é necessário configurar o externalizador no Adobe Experience Manager na instância do autor. Consulte esta [seção](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=pt-BR#configuring-the-externalizer).
+1. Agora é necessário configurar o externalizador no Adobe Experience Manager na instância do autor. Consulte esta [seção](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-the-externalizer).

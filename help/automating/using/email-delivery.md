@@ -1,18 +1,19 @@
 ---
 title: Delivery por email
-description: A atividade Email delivery permite configurar o envio de um único email de envio ou de um email recorrente em um workflow.
+description: A atividade Email delivery permite configurar o envio de um único email de envio ou de um email recorrente em um fluxo de trabalho.
 audience: automating
 content-type: reference
 topic-tags: channel-activities
 context-tags: delivery,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e38ff3dd-8fb0-419b-9090-a3165852bf83
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '858'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -24,7 +25,7 @@ ht-degree: 90%
 
 ![](assets/recurrentemail.png)
 
-A atividade **[!UICONTROL Email delivery]** permite configurar o envio de um email em um workflow. Pode ser um email de **envio único** e enviado apenas uma vez, ou um email **recorrente**.
+A atividade **[!UICONTROL Email delivery]** permite configurar o envio de um email em um fluxo de trabalho. Pode ser um email de **envio único** e enviado apenas uma vez, ou um email **recorrente**.
 
 Emails de envio único são emails padrão, enviados uma vez.
 
@@ -32,13 +33,13 @@ Emails recorrentes permitem enviar o mesmo email várias vezes para públicos-al
 
 ## Contexto de uso {#context-of-use}
 
-A atividade **[!UICONTROL Email delivery]** é geralmente usada para automatizar o envio de um email para um público-alvo calculado no mesmo workflow.
+A atividade **[!UICONTROL Email delivery]** é geralmente usada para automatizar o envio de um email para um público-alvo calculado no mesmo fluxo de trabalho.
 
 Quando vinculada a um scheduler, você pode definir emails recorrentes.
 
-Os destinatários do email são definidos no sentido upstream da atividade, no mesmo workflow, por meio de atividades de direcionamento, como consultas, interseções etc.
+Os destinatários do email são definidos no sentido upstream da atividade, no mesmo fluxo de trabalho, por meio de atividades de segmentação, como consultas, interseções etc.
 
-A preparação da mensagem é acionada de acordo com os parâmetros de execução do workflow. No painel da mensagem, você pode selecionar se deseja solicitar ou não uma confirmação manual para enviar a mensagem (obrigatório por padrão). Você pode iniciar o workflow manualmente ou colocar uma atividade de scheduler no workflow para automatizar a execução.
+A preparação da mensagem é acionada de acordo com os parâmetros de execução do fluxo de trabalho. No painel da mensagem, você pode selecionar se deseja solicitar ou não uma confirmação manual para enviar a mensagem (obrigatório por padrão). Você pode iniciar o fluxo de trabalho manualmente ou colocar uma atividade de scheduler no fluxo de trabalho para automatizar a execução.
 
 **Tópicos relacionados:**
 
@@ -50,7 +51,7 @@ A preparação da mensagem é acionada de acordo com os parâmetros de execuçã
 
 ## Configuração {#configuration}
 
-1. Arraste e solte uma atividade **[!UICONTROL Email delivery]** no seu workflow.
+1. Arraste e solte uma atividade **[!UICONTROL Email delivery]** no seu fluxo de trabalho.
 1. Selecione e abra a atividade usando o botão ![](assets/edit_darkgrey-24px.png) das ações rápidas exibidas.
 
    >[!NOTE]
@@ -68,23 +69,23 @@ A preparação da mensagem é acionada de acordo com os parâmetros de execuçã
    >
    >As entregas recorrentes são preparadas com base no **período de agregação**. Por exemplo, se o período de agregação for &quot;por dia&quot;, o delivery será preparado novamente apenas uma vez por dia. Se você planeja chamar este fluxo de trabalho várias vezes ao dia, use [!UICONTROL No aggregation].
 
-1. Selecione um tipo de email. Os tipos de email são provenientes de templates de email definidos no menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
-1. Insira as propriedades gerais do email. Também é possível anexá-la a uma campanha existente. O rótulo da atividade de entrega do workflow é atualizado com o rótulo do email.
+1. Selecione um tipo de email. Os tipos de email são provenientes de modelos de email definidos no menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
+1. Insira as propriedades gerais do email. Também é possível anexá-la a uma campanha existente. O rótulo da atividade de entrega do fluxo de trabalho é atualizado com o rótulo do email.
 1. Defina o conteúdo do email. Consulte a seção sobre [edição de conteúdo](../../designing/using/designing-content-in-adobe-campaign.md).
 1. Por padrão, a atividade **[!UICONTROL Email delivery]** não inclui transições de saída. Se quiser adicionar uma transição de saída à sua atividade **[!UICONTROL Email delivery]**, acesse a guia **[!UICONTROL General]** das opções avançadas da atividade (o botão ![](assets/dlv_activity_params-24px.png) nas ações rápidas da atividade) e depois marque uma das seguintes opções:
 
    * **[!UICONTROL Add outbound transition without the population]**: permite gerar uma transição de saída que contém exatamente a mesma população da transição de entrada.
-   * **[!UICONTROL Add outbound transition with the population]**: permite gerar uma transição de saída que contém a população para a qual o email foi enviado. Os membros do público-alvo excluídos durante a preparação da entrega (quarentena, email inválido etc.) são excluídos dessa transição.
+   * **[!UICONTROL Add outbound transition with the population]**: permite gerar uma transição de saída que contém a população para a qual o email foi enviado. Os membros do público-alvo excluídos durante a preparação do delivery (quarentena, email inválido etc.) são excluídos dessa transição.
 
 1. Confirme a configuração da sua atividade e salve o fluxo de trabalho.
 
 Ao reabrir a atividade, você será direcionado diretamente ao painel do email. Somente seu conteúdo pode ser editado.
 
-Por padrão, iniciar um workflow de entrega aciona somente a preparação da mensagem. O envio de mensagens criadas a partir de um workflow ainda precisará ser confirmado depois que o workflow for iniciado. Porém, no painel de mensagens, e somente se a mensagem tiver sido criada a partir de um workflow, você poderá desabilitar a opção **[!UICONTROL Request confirmation before sending messages]**. Ao desmarcar essa opção, as mensagens são enviadas sem aviso prévio após a preparação.
+Por padrão, iniciar um fluxo de trabalho de entrega aciona somente a preparação da mensagem. O envio de mensagens criadas a partir de um fluxo de trabalho ainda precisará ser confirmado depois que o fluxo de trabalho for iniciado. Porém, no painel de mensagens, e somente se a mensagem tiver sido criada a partir de um fluxo de trabalho, você poderá desabilitar a opção **[!UICONTROL Request confirmation before sending messages]**. Ao desmarcar essa opção, as mensagens são enviadas sem aviso prévio após a preparação.
 
 ## Observações {#remarks}
 
-As entregas criadas em um workflow podem ser acessadas na lista de atividade de marketing do aplicativo. Você pode visualizar o status de execução do workflow usando o painel. Os links no painel de resumo do email permitem acessar diretamente os elementos vinculados (workflow, campanha, entrega pai no caso de um email recorrente).
+As entregas criadas em um fluxo de trabalho podem ser acessadas na lista de atividade de marketing do aplicativo. Você pode visualizar o status de execução do fluxo de trabalho usando o painel. Os links no painel de resumo do email permitem acessar diretamente os elementos vinculados (fluxo de trabalho, campanha, entrega pai no caso de um email recorrente).
 
 ![](assets/wkf_display_recurrent_executions_2.png)
 

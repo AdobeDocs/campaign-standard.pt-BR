@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 72b99864-d9d9-4cf4-be06-dc5719a2e4f2
-source-git-commit: 579404ddc128e25cc7f8f93dfec30663c7cf754e
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 12%
@@ -23,7 +24,7 @@ Os pré-requisitos são:
 
 * Acesso a uma instância do AEM configurada para a integração.
 * Acesso a uma instância do Adobe Campaign configurada para a integração.
-* Um template de email do Adobe Campaign configurado para receber conteúdo AEM.
+* Um modelo de email do Adobe Campaign configurado para receber conteúdo do AEM.
 
 ## Acesso a emails no Adobe Experience Manager {#email-content-aem}
 
@@ -74,7 +75,7 @@ Para enviar seu email no Adobe Campaign Standard:
 
 1. Depois que os parâmetros de conteúdo e envio forem definidos, crie um email com base em um template de email específico do AEM no Adobe Campaign Standard.
 
-+++ Saiba mais sobre o modelo específico para AEM.
+   +++ Saiba mais sobre o modelo específico do AEM.
 
    1. No menu avançado, acesse **[!UICONTROL Resources]** `>` **[!UICONTROL Templates]** `>` **[!UICONTROL Delivery templates]**.
 
@@ -86,11 +87,11 @@ Para enviar seu email no Adobe Campaign Standard:
 
       ![](assets/aem_templates_2.png)
 
-+++
+   +++
 
    ![](assets/aem_send_1.png)
 
-1. Preencha as propriedades do seu email e clique em **[!UICONTROL Create]** para poder selecionar seu conteúdo AEM.
+1. Preencha as propriedades do seu email e clique em **[!UICONTROL Create]** para poder selecionar seu conteúdo do AEM.
 
 1. Acesse o bloco **[!UICONTROL Content]**.
 

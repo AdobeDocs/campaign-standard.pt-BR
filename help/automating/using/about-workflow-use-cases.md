@@ -1,22 +1,23 @@
 ---
-title: Sobre casos de uso de workflows
-description: Saiba mais sobre casos de uso que você pode executar usando workflows Campaign Standard.
+title: Sobre casos de uso de fluxos de trabalho
+description: Saiba mais sobre casos de uso que você pode executar usando workflows do Campaign Standard.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 85%
 
 ---
 
-# Sobre casos de uso de workflows {#about-workflow-use-cases}
+# Sobre casos de uso de fluxos de trabalho {#about-workflow-use-cases}
 
-Nesta seção você encontrará vários casos de uso que usam os recursos dos workflows do Campaign.
+Nesta seção você encontrará vários casos de uso que usam os recursos dos fluxos de trabalho do Campaign.
 
 Eles ajudam a descobrir os diferentes contextos nos quais os workflows podem ser usados e a atender às suas necessidades.
 
@@ -40,7 +41,7 @@ Eles ajudam a descobrir os diferentes contextos nos quais os workflows podem ser
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
 * [Amostras de consulta](../../automating/using/query-samples.md)
-* [União em dois públicos refinados](../../automating/using/union-on-two-refined-audiences.md)
+* [União em dois públicos-alvos refinados](../../automating/using/union-on-two-refined-audiences.md)
 * [Criação de uma segmentação no local](../../automating/using/workflow-segmentation-location.md)
 * [Redirecionamento de não iniciadores](../../automating/using/workflow-cross-channel-retargeting.md)
 * [Query incremental para assinantes de um serviço](../../automating/using/incremental-query-on-subscribers.md)
@@ -51,7 +52,7 @@ Eles ajudam a descobrir os diferentes contextos nos quais os workflows podem ser
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-* [Reconciliar um público do tipo Arquivo com o banco de dados](../../automating/using/reconcile-file-audience-with-database.md)
+* [Reconciliar um público-alvo do tipo Arquivo com o banco de dados](../../automating/using/reconcile-file-audience-with-database.md)
 * [Desduplicação de dados a partir de um arquivo importado](../../automating/using/deduplicating-data-imported-file.md)
 * [Enriquecimento dos dados do perfil com os dados contidos em um arquivo](../../automating/using/enriching-profile-data-file.md)
 * [Atividade de sinal externo e importação de dados](../../automating/using/external-signal-data-import.md)

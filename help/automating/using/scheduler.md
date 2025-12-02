@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: schedule,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
-source-git-commit: 6107f5e43b25037f7f5a7f130922a3a22d0047af
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 52%
@@ -62,7 +63,7 @@ Ao criar um fluxo de trabalho agendado que inclui várias atividades, é necess�
 
    Ao definir a frequência de execução como **[!UICONTROL Several times a day]**, você tem a flexibilidade de escolher entre executar o fluxo de trabalho em horários específicos do dia ou periodicamente ao longo do dia.
 
-+++ Saiba como configurar uma frequência de execução **[!UICONTROL "Several times a day"]**
+   +++ Saiba como configurar uma frequência de execução **[!UICONTROL "Several times a day"]**
 
    * Para executar o fluxo de trabalho várias vezes em horários específicos durante o dia, alterne a opção **[!UICONTROL Specific times]** e clique em **[!UICONTROL Add an element]** para especificar o tempo de execução desejado. Adicione quantas vezes forem necessárias para se alinhar aos seus requisitos.
 
@@ -86,7 +87,7 @@ Ao criar um fluxo de trabalho agendado que inclui várias atividades, é necess�
 
    ![](assets/wkf_scheduler_day.png)
 
-+++
+   +++
 
 1. Especifique quando a execução expirará:
 
@@ -94,7 +95,7 @@ Ao criar um fluxo de trabalho agendado que inclui várias atividades, é necess�
    * **[!UICONTROL After a certain number of iterations]**: o fluxo de trabalho será executado de acordo com a frequência especificada, até que o limite **X** seja atingido. Portanto, o **[!UICONTROL Number of iterations]** precisará ser especificado.
    * **[!UICONTROL On a specific date]**: o fluxo de trabalho será executado de acordo com a frequência especificada, até uma data específica. Portanto, o prazo de execução precisará ser especificado.
 
-1. Verifique a programação das próximas dez execuções do seu fluxo de trabalho clicando em **[!UICONTROL Preview next executions]**.
+1. Verifique o cronograma das próximas dez execuções do seu fluxo de trabalho clicando em **[!UICONTROL Preview next executions]**.
 
 1. Na guia **[!UICONTROL Execution options]**, configure o fuso horário para seu scheduler no campo **[!UICONTROL Time zone]**.
 

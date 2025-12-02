@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 06ae4a5c-f112-4aac-b776-437ac35a8f02
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 53%
@@ -18,7 +19,7 @@ ht-degree: 53%
 
 # Assinatura de perfis para um serviço específico após a importação de um arquivo {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
-Este exemplo ilustra como importar um arquivo contendo perfis e fazer a assinatura de todos eles para um serviço existente. Após a importação do arquivo, é necessário fazer uma reconciliação para que os dados importados possam ser identificados como perfis. Para garantir que o arquivo não contenha nenhuma duplicata, uma atividade de desduplicação é executada nos dados.
+Este exemplo ilustra como importar um arquivo contendo perfis e fazer a assinatura de todos eles para um serviço existente. Após a importação do arquivo, é necessário fazer uma reconciliação para que os dados importados possam ser identificados como perfis. Para garantir que o arquivo não contenha nenhum duplicado, uma atividade de desduplicação é executada nos dados.
 
 O fluxo de trabalho é apresentado da seguinte forma:
 
@@ -47,7 +48,7 @@ O fluxo de trabalho é apresentado da seguinte forma:
 
   ![](assets/subscription_activity_example3.png)
 
-* Uma [Eliminação de Duplicação](../../automating/using/deduplication.md) baseada no campo **email** do recurso temporário (resultante da reconciliação) identifica duplicatas. Se os dados importados do arquivo tiverem duplicatas, a assinatura para um serviço falhará para todos os dados.
+* Uma [Eliminação de Duplicação](../../automating/using/deduplication.md) baseada no campo **email** do recurso temporário (resultante da reconciliação) identifica duplicatas. Se os dados importados do arquivo tiverem duplicados, a assinatura para um serviço falhará para todos os dados.
 
   ![](assets/subscription_activity_example5.png)
 

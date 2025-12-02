@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 12%
@@ -23,7 +24,7 @@ Os pré-requisitos são:
 
 * Acesso a uma instância do AEM configurada para a integração.
 * Acesso a uma instância do Adobe Campaign configurada para a integração.
-* Um template de email multilíngue do Adobe Campaign configurado para receber conteúdo AEM.
+* Um template de email multilíngue do Adobe Campaign configurado para receber conteúdo do AEM.
 
 ## Criação de novo conteúdo de e-mail no Adobe Experience Manager {#creating-email-content-aem}
 
@@ -127,6 +128,6 @@ Suas cópias de idioma agora estão criadas, e você pode editar o conteúdo dep
 
    >[!NOTE]
    >
-   >Você não poderá enviar um email no Adobe Campaign se ele usar um conteúdo AEM que não tenha sido aprovado.
+   >Você não poderá enviar um email no Adobe Campaign se ele usar um conteúdo do AEM que não tenha sido aprovado.
 
 Seu público receberá seu email dependendo do **[!UICONTROL Preferred languages]** definido no **[!UICONTROL Profiles]**. Para saber mais sobre como editar perfis e idiomas preferidos, consulte esta [página](../../audiences/using/editing-profiles.md).

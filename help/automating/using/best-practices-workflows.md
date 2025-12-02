@@ -6,17 +6,18 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
-source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 77%
 
 ---
 
-# Práticas recomendadas de workflow{#workflow-best-practices}
+# Práticas recomendadas de fluxos de trabalho{#workflow-best-practices}
 
 Com o Adobe Campaign, você pode configurar todos os tipos de fluxo de trabalho para executar um amplo escopo de tarefas. No entanto, ao projetar e executar fluxos de trabalhos, é necessário ter muito cuidado, pois uma implementação inadequada pode causar baixo desempenho, erros e problemas da plataforma. Abaixo você encontrará uma lista de práticas recomendadas e dicas para solução de problemas.
 
@@ -37,7 +38,7 @@ Por exemplo:
 * 010 – Exportar – Exportar logs de entregas
 * 011 – Exportar – Exportar logs de rastreamento
 
-## Duplicação de workflows{#duplicating-workflows}
+## Duplicação de fluxos de trabalho{#duplicating-workflows}
 
 Você pode duplicar fluxos de trabalho. Em **[!UICONTROL Marketing Activities]**, passe o mouse sobre o fluxo de trabalho e clique em **[!UICONTROL Duplicate element]**. Após a duplicação, as modificações do fluxo de trabalho não são transferidas para a cópia do fluxo de trabalho. A cópia do fluxo de trabalho pode ser editada.
 
@@ -53,7 +54,7 @@ Em contextos específicos, talvez seja necessário executar mais de 20 fluxos de
 
 >[!IMPORTANT]
 >
->Mesmo que você não esteja atingindo o limite de 20 fluxos de trabalho, a Adobe recomenda **distribuir a execução do fluxo de trabalho ao longo do tempo**. Assimilar a execução dos workflows garantirá melhor desempenho da instância.
+>Mesmo que você não esteja atingindo o limite de 20 fluxos de trabalho, a Adobe recomenda que você **separe a execução do fluxo de trabalho ao longo do tempo**. Assimilar a execução dos workflows garantirá melhor desempenho da instância.
 
 Antes de iniciar um fluxo de trabalho, [!DNL Campaign Standard] verificará se há memória física do sistema suficiente para executar o fluxo de trabalho. Se não houver memória disponível suficiente, uma mensagem informará que a execução do workflow será adiada até que a carga no servidor desligue e a memória do sistema aumente.
 
@@ -74,7 +75,7 @@ Para mais informações, consulte [Execução de fluxos de trabalho](../../autom
 
 ### Fuso horário
 
-As propriedades do fluxo de trabalho permitem definir um fuso horário específico que será usado por padrão em todas as atividades. Por padrão, o fuso horário do workflow é aquele definido para o operador atual do Campaign.
+As propriedades do fluxo de trabalho permitem definir um fuso horário específico que será usado por padrão em todas as atividades. Por padrão, o fuso horário do fluxo de trabalho é aquele definido para o operador atual do Campaign.
 
 ## Atividade{#activity}
 
@@ -103,7 +104,7 @@ Ao desenvolver o fluxo de trabalho, um nome é gerado para cada atividade, como 
 
 Para duplicar atividades existentes, é possível usar as funções de copiar e colar. Dessa forma, você mantém as configurações que foram originalmente definidas. Para mais informações, consulte [Duplicação de atividades de fluxo de trabalho](../../automating/using/workflow-interface.md).
 
-### Atividade Scheduler{#acheduler-activity}
+### Atividade scheduler{#acheduler-activity}
 
 Ao criar o fluxo de trabalho, use somente uma **[!UICONTROL Scheduler activity]** por ramificação. Se a mesma ramificação de um fluxo de trabalho tiver vários schedulers (vinculados uns aos outros), a quantidade de tarefas a serem executadas será multiplicada exponencialmente, o que sobrecarregará consideravelmente o banco de dados.
 

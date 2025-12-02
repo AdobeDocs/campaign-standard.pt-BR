@@ -1,14 +1,15 @@
 ---
 title: Usar a integração com o Microsoft Dynamics 365
-description: Saiba como usar o Microsoft Dynamics 365 com integração de Campaign Standard
+description: Saiba como usar o Microsoft Dynamics 365 com integração do Campaign Standard
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: fb464183-13bf-4b47-ac27-4b785bafef37
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1652'
 ht-degree: 1%
@@ -55,7 +56,7 @@ Veja abaixo um resumo da exibição Linha do tempo para usuários do Dynamics.
 
 ![](assets/do-not-localize/MSdynamicsACS-usage5.png)
 
-Veja abaixo um close-up da placa RA (Assistente de Relacionamento). O aplicativo AppSource contém um fluxo de trabalho que observa um evento Adobe Email URL Click. Quando esse evento ocorre, ele cria uma tarefa e define uma data de vencimento. Isso permite que a tarefa seja exibida na placa RA, dando visibilidade adicional a ela. Há um fluxo de trabalho semelhante para eventos de Rejeição de email do Adobe, adicionando uma tarefa para reconciliar o endereço de email inválido. Esses fluxos de trabalho podem ser desativados na solução.
+Veja abaixo um close-up da placa RA (Assistente de Relacionamento). O aplicativo AppSource contém um fluxo de trabalho que observa um evento de clique no URL de email do Adobe. Quando esse evento ocorre, ele cria uma tarefa e define uma data de vencimento. Isso permite que a tarefa seja exibida na placa RA, dando visibilidade adicional a ela. Há um fluxo de trabalho semelhante para eventos de rejeição de email do Adobe, adicionando uma tarefa para reconciliar o endereço de email inválido. Esses fluxos de trabalho podem ser desativados na solução.
 
 ![](assets/do-not-localize/MSdynamicsACS-usage6.png)
 
@@ -77,7 +78,7 @@ Veja a seguir uma lista dos atributos e uma descrição:
 
 * **Nome da campanha**: a ID da campanha no Campaign Standard
 
-* **Nome da Entrega**: a ID da Entrega em Campaign Standard
+* **Nome da Entrega**: a ID da Entrega no Campaign Standard
 
 * **Data de Envio/Abertura/Cliques/Devolução**: Data/hora em que o evento foi criado
 
@@ -87,13 +88,13 @@ Veja a seguir uma lista dos atributos e uma descrição:
 
 >[!NOTE]
 >
->Para recusa, quando um atributo de recusa for modificado no Microsoft Dynamics 365, ele será refletido no Campaign se você selecionar a configuração de recusa **Unidirecional (Campaign para o Microsoft Dynamics 365)** ou **Bidirecional** e se esse atributo específico estiver mapeado corretamente.
+>Para recusa, quando um atributo de recusa for modificado no Microsoft Dynamics 365, ele será refletido no Campaign se você tiver selecionado a configuração de recusa **Unidirecional (Campanha para Microsoft Dynamics 365)** ou **Bidirecional** e se você tiver esse atributo específico mapeado corretamente.
 
 ## Fluxos de dados {#data-flows}
 
 ### Contato e entrada de entidade personalizada
 
-Registros novos, atualizados e excluídos (Observação: as exclusões devem ser habilitadas) são enviados da tabela de contatos do Microsoft Dynamics 365 para a tabela de perfis do Campaign.
+Registros novos, atualizados e excluídos (Observação: as exclusões devem ser ativadas) são enviados da tabela de contatos do Microsoft Dynamics 365 para a tabela de perfis do Campaign.
 
 Os mapeamentos de tabela podem ser configurados na interface do aplicativo de integração para mapear atributos de tabela do Microsoft Dynamics 365 para atributos de tabela do Campaign. Os mapeamentos de tabela podem ser modificados para adicionar/remover atributos, conforme necessário.
 
@@ -111,7 +112,7 @@ O atributo externalId da tabela de perfis do Campaign deve ser preenchido com co
 
 #### Entidades personalizadas
 
-A [integração do Microsoft Dynamics 365-Adobe Campaign Standard](../../integrating/using/d365-acs-get-started.md) oferece suporte a entidades personalizadas, permitindo que as entidades personalizadas no Dynamics 365 sejam sincronizadas com os recursos personalizados correspondentes no Campaign.
+A [integração Microsoft Dynamics 365-Adobe Campaign Standard](../../integrating/using/d365-acs-get-started.md) oferece suporte a entidades personalizadas, permitindo que as entidades personalizadas no Dynamics 365 sejam sincronizadas com os recursos personalizados correspondentes no Campaign.
 
 Os novos dados nos recursos personalizados podem ser usados para várias finalidades, incluindo segmentação e personalização.
 
@@ -161,7 +162,7 @@ Os valores de recusa (por exemplo, inclui na lista de bloqueios) são sincroniza
 
 * **Unidirecional (Microsoft Dynamics 365 para Campaign)**: o Dynamics 365 é a fonte da verdade para recusas. Os atributos de recusa serão sincronizados em uma direção do Dynamics 365 para o Campaign Standard&quot;
 * **Unidirecional (Campaign para Microsoft Dynamics 365)**: o Campaign Standard é a fonte da verdade para recusas. Os atributos de recusa serão sincronizados em uma direção do Campaign Standard para o Dynamics 365
-* **Bidirecional**: Dynamics 365 E Campaign Standard são fontes da verdade. Os atributos de recusa serão sincronizados bidirecionalmente entre o Campaign Standard e o Dynamics 365
+* **Bidirecional**: o Dynamics 365 E o Campaign Standard são fontes da verdade. Os atributos de recusa serão sincronizados bidirecionalmente entre o Campaign Standard e o Dynamics 365
 
 Como alternativa, se você tiver um processo separado para gerenciar a sincronização de recusa entre os sistemas, o fluxo de dados de recusa da integração poderá ser desativado.
 

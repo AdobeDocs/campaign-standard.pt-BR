@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: dedup,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 57c56e4a-892c-46d6-9bb4-6a345a8d9f5b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 96%
@@ -53,9 +54,9 @@ Para configurar uma atividade de desduplicação, é necessário inserir um rót
    * **[!UICONTROL Database resource]** se a desduplicação for realizada com dados que já existem na base de dados. Selecione a **[!UICONTROL Filtering dimension]** e a **[!UICONTROL Targeting dimension]**, dependendo dos dados que deseja desduplicar. Por padrão, a desduplicação é realizada nos **perfis**.
    * **[!UICONTROL Temporary resource]** se a desduplicação for realizada nos dados temporários do fluxo de trabalho: selecione o **[!UICONTROL Targeted set]** que contenha os dados que serão desduplicados. Esse caso de uso pode ser encontrado após a importação de um arquivo ou se os dados no banco de dados foram enriquecidos (com um código de segmento, por exemplo).
 
-1. Selecione **[!UICONTROL Number of unique records to keep]**. O valor padrão para esse campo é 1. O valor 0 permite manter todas as duplicatas.
+1. Selecione **[!UICONTROL Number of unique records to keep]**. O valor padrão para esse campo é 1. O valor 0 permite manter todos os duplicados.
 
-   Por exemplo, se os registros A e B forem considerados duplicatas do registro Y, e um registro C for considerado uma duplicata do registro Z:
+   Por exemplo, se os registros A e B forem considerados duplicados do registro Y, e um registro C for considerado um duplicado do registro Z:
 
    * Se o valor do campo for 1: somente os registros Y e Z são mantidos.
    * Se o valor do campo for 0: todos os registros são mantidos.
@@ -64,7 +65,7 @@ Para configurar uma atividade de desduplicação, é necessário inserir um rót
 1. Defina os critérios de **[!UICONTROL Duplicate identification]** adicionando condições na lista fornecida. Especifique os campos e/ou expressões cujos valores idênticos permitem a identificação dos duplicados: endereço de email, nome, sobrenome etc. A ordem das condições permite especificar os que devem ser processados primeiro.
 1. Na lista suspensa, selecione o **[!UICONTROL Deduplication method]** que será usado:
 
-   * **[!UICONTROL Choose for me]**: seleciona aleatoriamente o registro que será mantido fora das duplicatas.
+   * **[!UICONTROL Choose for me]**: seleciona aleatoriamente o registro que será mantido fora dos duplicados.
    * **[!UICONTROL Following a list of values]**: permite definir uma prioridade de valor para um ou mais campos. Para definir os valores, selecione um campo ou crie uma expressão e adicione o(s) valor(es) à tabela apropriada. Para definir um novo campo, clique no botão **[!UICONTROL Add]** localizado acima da lista de valores.
 
      ![](assets/deduplication_2.png)

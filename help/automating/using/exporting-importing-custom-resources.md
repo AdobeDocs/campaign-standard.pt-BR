@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: f8e7eb96-9541-4d28-9d8d-f06af822debd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 95%
@@ -114,7 +115,7 @@ O pacote gerado está disponível na pasta Downloads. O nome do arquivo zip é g
 
    ![](assets/cusresources_import3.png)
 
-### Publicar {#publish-structure}
+### Publicação {#publish-structure}
 
 1. Acesse o menu **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Publication]**.
 1. Clique em **[!UICONTROL Prepare publication]** e em **[!UICONTROL Publish]** para atualizar a instância com os dados dos novos recursos personalizados.
@@ -137,7 +138,7 @@ Da mesma forma que na etapa anterior, a importação divide-se em duas partes: a
 
    ![](assets/cusresources_importdata.png)
 
-### Publicar {#publish-data}
+### Publicação {#publish-data}
 
 1. Acesse o menu **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Publication]**.
 1. Clique em **[!UICONTROL Prepare publication]** e em **[!UICONTROL Publish]** para atualizar a instância com os dados dos recursos personalizados.

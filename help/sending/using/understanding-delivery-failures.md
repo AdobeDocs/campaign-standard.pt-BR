@@ -8,7 +8,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 66%
@@ -35,7 +35,7 @@ As mensagens também podem ser excluídas durante a preparação do delivery se 
 
 * [Compreensão do gerenciamento de quarentena](../../sending/using/understanding-quarantine-management.md)
 * [Sobre aceitação e recusa no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [Rejeições](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=pt-BR#metrics-for-deliverability)
+* [Rejeições](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## Identificação de falhas de delivery para uma mensagem {#identifying-delivery-failures-for-a-message}
 
@@ -61,11 +61,11 @@ Os possíveis motivos para uma falha de entrega são:
 | **[!UICONTROL Quarantined address]** | Grave | O endereço foi colocado em quarentena. |
 | **[!UICONTROL Unreachable]** | Suave/Rígido | Ocorreu um erro na cadeia de delivery de mensagens (como domínio temporariamente inacessível). De acordo com o erro retornado pelo provedor, o endereço será enviado diretamente para a quarentena, ou a entrega será tentada novamente até que o Campaign receba um erro que justifique o status Quarantine ou até que o número de erros atinja 5. |
 | **[!UICONTROL Address empty]** | Grave | Endereço não definido. |
-| **[!UICONTROL Mailbox full]** | Suave | A caixa de entrada deste usuário está cheia e não pode receber mais mensagens. Esse endereço pode ser removido da lista da quarentena para outra tentativa. Ele é removido automaticamente após 30 dias. Para que o endereço seja removido automaticamente da lista de endereços em quarentena, o workflow técnico de **[!UICONTROL Database cleanup]** deve ser iniciado. |
+| **[!UICONTROL Mailbox full]** | Suave | A caixa de entrada deste usuário está cheia e não pode receber mais mensagens. Esse endereço pode ser removido da lista da quarentena para outra tentativa. Ele é removido automaticamente após 30 dias. Para que o endereço seja removido automaticamente da lista de endereços em quarentena, o fluxo de trabalho técnico de **[!UICONTROL Database cleanup]** deve ser iniciado. |
 | **[!UICONTROL Refused]** | Suave/Rígido | O endereço foi colocado em quarentena devido a um feedback de segurança como um relatório de spam. De acordo com o erro retornado pelo provedor, o endereço será enviado diretamente para a quarentena, ou a entrega será tentada novamente até que o Campaign receba um erro que justifique o status Quarantine ou até que o número de erros atinja 5. |
 | **[!UICONTROL Duplicate]** | Ignorado | Endereço já detectado na segmentação. |
-| **[!UICONTROL Not defined]** | Suave | o endereço está em qualificação porque o erro não foi incrementado. | ainda. Esse tipo de erro ocorre quando uma nova mensagem de erro é enviada pelo servidor: pode ser um erro isolado, mas se ocorrer novamente, o contador de erros aumentará, o que alertará as equipes técnicas. |
-| **[!UICONTROL Error ignored]** | Ignorado | O endereço está em inclui na lista de permissões e um email será enviado para ele em qualquer caso. |
+| **[!UICONTROL Not defined]** | Suave | o endereço está em qualificação porque o erro ainda não foi incrementado. Esse tipo de erro ocorre quando uma nova mensagem de erro é enviada pelo servidor: pode ser um erro isolado, mas se ocorrer novamente, o contador de erros aumentará, o que alertará as equipes técnicas. |
+| **[!UICONTROL Error ignored]** | Ignorado | O endereço está incluído na lista de permissões e um email será enviado para ele em qualquer caso. |
 | **[!UICONTROL Address on denylist]** | Grave | O endereço foi adicionado ao incluo na lista de bloqueios no momento do envio. |
 | **[!UICONTROL Account disabled]** | Suave/Rígido | Quando o Provedor de Acesso à Internet (IAP) detecta um longo período de inatividade, ele pode fechar a conta do usuário: os deliveries para o endereço do usuário serão impossíveis. O tipo Temporário ou Permanente depende do tipo de erro recebido: se a conta estiver temporariamente desabilitada devido a seis meses de inatividade e ainda puder ser ativada, o status **[!UICONTROL Erroneous]** será atribuído, e a entrega será repetida. Se o erro indicar que a conta está desativada permanentemente, ela será enviada diretamente para Quarentena. |
 | **[!UICONTROL Not connected]** | Ignorado | O telefone celular do perfil está desligado ou não está conectado à rede quando a mensagem é enviada. |
@@ -76,7 +76,7 @@ Os possíveis motivos para uma falha de entrega são:
 
 **Tópicos relacionados:**
 * [Devoluções permanentes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=pt-BR#hard-bounces)
-* [Rejeições temporárias](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=pt-BR#soft-bounces)
+* [Rejeições temporárias](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## Tentativas após uma falha temporária de entrega {#retries-after-a-delivery-temporary-failure}
 
@@ -86,11 +86,11 @@ O número de tentativas (quantas tentativas devem ser executadas no dia seguinte
 
 <!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
-Para modificar a duração de uma entrega, vá para os parâmetros avançados da entrega ou do template da entrega e edite o campo **[!UICONTROL Delivery duration]** da seção [Validity period](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+Para modificar a duração de uma entrega, vá para os parâmetros avançados da entrega ou do modelo da entrega e edite o campo **[!UICONTROL Delivery duration]** da seção [Validity period](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
 >[!IMPORTANT]
 >
->**O parâmetro &#x200B;** [!UICONTROL Delivery duration]&#x200B;**nas entregas do Campaign agora apenas será usado se definido para 3,5 dias ou menos.** Se você definir um valor superior a 3,5 dias, ele não será considerado.
+>**O parâmetro **[!UICONTROL Delivery duration]**nas entregas do Campaign agora apenas será usado se definido para 3,5 dias ou menos.** Se você definir um valor superior a 3,5 dias, ele não será considerado.
 
 Por exemplo, se você quiser que as tentativas de um delivery parem depois de um dia, poderá definir a duração do delivery como **1d**, e as mensagens na fila de tentativas serão removidas após um dia.
 
@@ -116,9 +116,9 @@ Para mensagens de erro de falha síncrona de delivery, o MTA aprimorado do Adobe
 >
 >As qualificações de rejeição na tabela **[!UICONTROL Message qualification]** do Campaign não são mais usadas.
 
-As rejeições assíncronas ainda são qualificadas pelo processo do InMail por meio das regras **[!UICONTROL Inbound email]**. Para acessar essas regras, clique no logotipo **Adobe**, no canto superior esquerdo, selecione **[!UICONTROL Administration > Channels > Email > Email processing rules]** e **[!UICONTROL Bounce mails]**. Para obter mais informações sobre esta regra, consulte [esta seção](../../administration/using/configuring-email-channel.md#email-processing-rules).
+As rejeições assíncronas ainda são qualificadas pelo processo do InMail por meio das regras **[!UICONTROL Inbound email]**. Para acessar essas regras, clique no logotipo **Adobe**, na parte superior esquerda, selecione **[!UICONTROL Administration > Channels > Email > Email processing rules]** e **[!UICONTROL Bounce mails]**. Para obter mais informações sobre esta regra, consulte [esta seção](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-Para obter mais informações sobre rejeições e os diferentes tipos de rejeições, consulte [esta seção](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=pt-BR#metrics-for-deliverability).
+Para obter mais informações sobre rejeições e os diferentes tipos de rejeições, consulte [esta seção](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 

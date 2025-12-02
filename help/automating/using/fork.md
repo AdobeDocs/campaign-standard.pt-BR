@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: fork,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 1a5e1ecd-b3f1-4dbe-a816-12d27a3bc0f7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 98%
@@ -38,6 +39,6 @@ A atividade **[!UICONTROL Fork]** permite realizar várias atividades diferentes
 
 ## Exemplo {#example}
 
-O exemplo a seguir mostra uma intersecção de duas atividades de query que segmenta perfis do banco de dados do Adobe Campaign, neste caso, mulheres morando em Paris. A atividade Fork, portanto, permite que você use várias atividades ao mesmo tempo: uma que salva o público para lembrar a população calculada, e outra que segmenta a população para enviar dois emails diferentes com um conteúdo direcionado para cada segmento. O primeiro email é enviado para mulheres parisienses entre 18 e 40 anos e outro para mulheres parisienses com mais de 40 anos.
+O exemplo a seguir mostra uma intersecção de duas atividades de query que segmenta perfis do banco de dados do Adobe Campaign, neste caso, mulheres morando em Paris. A atividade Fork, portanto, permite que você use várias atividades ao mesmo tempo: uma que salva o público-alvo para lembrar a população calculada, e outra que segmenta a população para enviar dois emails diferentes com um conteúdo direcionado para cada segmento. O primeiro email é enviado para mulheres parisienses entre 18 e 40 anos e outro para mulheres parisienses com mais de 40 anos.
 
 ![](assets/wkf_fork_example.png)

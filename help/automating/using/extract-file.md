@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileExport,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
-source-git-commit: 88035d0e4f77d66e8b2a74650857bf4ef45744c3
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 78%
@@ -38,7 +39,7 @@ O modo como os dados serão extraídos é definido na configuração da atividad
 
 ## Configuração {#configuration}
 
-1. Arraste e solte uma atividade **[!UICONTROL Extract file]** no seu workflow.
+1. Arraste e solte uma atividade **[!UICONTROL Extract file]** no seu fluxo de trabalho.
 
    ![](assets/wkf_data_export1.png)
 
@@ -72,7 +73,7 @@ O modo como os dados serão extraídos é definido na configuração da atividad
 
 1. Clique na guia **[!UICONTROL File structure]** para configurar os formatos de saída, data e número para o arquivo que será exportado.
 
-   Marque a opção **[!UICONTROL Export labels instead of internal values of enumerations]** caso exporte valores de uma lista discriminada. Essa opção permite recuperar rótulos mais curtos, que são fáceis de entender, em vez de IDs.
+   Marque a opção **[!UICONTROL Export labels instead of internal values of enumerations]** caso exporte valores de uma enumeração. Essa opção permite recuperar rótulos mais curtos, que são fáceis de entender, em vez de IDs.
 
    ![](assets/extract-file-file-structure.png)
 

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 612b6203-1cc9-4015-a026-e5a249f3d03d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1116'
 ht-degree: 96%
@@ -71,7 +72,7 @@ Se especificada em um arquivo por meio de colunas dedicadas, com essa atividade 
 
 ## Exemplo: assinatura de perfis para um serviço específico após a importação de um arquivo {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
-Este exemplo ilustra como importar um arquivo contendo perfis e fazer a assinatura de todos eles para um serviço existente. Após a importação do arquivo, é necessário fazer uma reconciliação para que os dados importados possam ser identificados como perfis. Para garantir que o arquivo não contenha nenhuma duplicata, uma atividade de desduplicação é executada nos dados.
+Este exemplo ilustra como importar um arquivo contendo perfis e fazer a assinatura de todos eles para um serviço existente. Após a importação do arquivo, é necessário fazer uma reconciliação para que os dados importados possam ser identificados como perfis. Para garantir que o arquivo não contenha nenhum duplicado, uma atividade de desduplicação é executada nos dados.
 
 O fluxo de trabalho é apresentado da seguinte forma:
 
@@ -100,7 +101,7 @@ O fluxo de trabalho é apresentado da seguinte forma:
 
   ![](assets/subscription_activity_example3.png)
 
-* Uma **[!UICONTROL Deduplication]** baseado no campo de **email** do recurso temporário (resultante da reconciliação) identifica duplicatas. Se os dados importados do arquivo tiverem duplicatas, a assinatura para um serviço falhará para todos os dados.
+* Uma **[!UICONTROL Deduplication]** baseado no campo de **email** do recurso temporário (resultante da reconciliação) identifica duplicados. Se os dados importados do arquivo tiverem duplicados, a assinatura para um serviço falhará para todos os dados.
 
   ![](assets/subscription_activity_example5.png)
 
@@ -110,7 +111,7 @@ O fluxo de trabalho é apresentado da seguinte forma:
 
 ## Exemplo: atualização de vários status de assinatura diretamente de um arquivo {#example--updating-multiple-subscription-statuses-from-a-file}
 
-Este exemplo ilustra como importar um arquivo contendo perfis e atualizar sua assinatura para vários serviços especificados no arquivo. Após a importação do arquivo, é necessário fazer uma reconciliação para que os dados importados possam ser identificados como perfis com um link para os serviços. Para garantir que o arquivo não contenha nenhuma duplicata, uma atividade de desduplicação é executada nos dados.
+Este exemplo ilustra como importar um arquivo contendo perfis e atualizar sua assinatura para vários serviços especificados no arquivo. Após a importação do arquivo, é necessário fazer uma reconciliação para que os dados importados possam ser identificados como perfis com um link para os serviços. Para garantir que o arquivo não contenha nenhum duplicado, uma atividade de desduplicação é executada nos dados.
 
 O fluxo de trabalho é apresentado da seguinte forma:
 
@@ -149,7 +150,7 @@ O fluxo de trabalho é apresentado da seguinte forma:
 
   ![](assets/subscription_example_service_relation.png)
 
-* Uma **[!UICONTROL Deduplication]**, baseada no campo de **email** do recurso temporário (resultante da reconciliação) identifica duplicatas. É importante eliminar duplicatas, caso contrário, haverá falha para todos os dados na assinatura para um serviço.
+* Uma **[!UICONTROL Deduplication]**, baseada no campo de **email** do recurso temporário (resultante da reconciliação) identifica duplicados. É importante eliminar duplicados, caso contrário, haverá falha para todos os dados na assinatura para um serviço.
 
   ![](assets/subscription_activity_example5.png)
 

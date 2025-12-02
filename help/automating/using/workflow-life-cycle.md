@@ -1,22 +1,23 @@
 ---
-title: Ciclo de vida do workflow
+title: Ciclo de vida do fluxo de trabalho
 description: Saiba mais sobre o ciclo de vida do workflow
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: ba968add-25a3-4962-9e90-f0a06d9b74a8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 3%
 
 ---
 
-# Ciclo de vida do workflow {#life-cycle}
+# Ciclo de vida do fluxo de trabalho {#life-cycle}
 
 O ciclo de vida de um fluxo de trabalho inclui três etapas principais e cada etapa está vinculada a um status e uma cor:
 

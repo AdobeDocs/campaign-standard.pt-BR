@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 3b95fc66-d6f4-44b2-be33-925c1109a57f
-source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 10%
@@ -18,13 +19,13 @@ ht-degree: 10%
 
 # Sobre a execução de fluxo de trabalho {#about-workflow-execution}
 
-Um workflow é sempre iniciado manualmente. No entanto, uma vez iniciado, ele pode permanecer inativo, dependendo das informações especificadas em uma atividade [Scheduler](../../automating/using/scheduler.md).
+Um fluxo de trabalho é sempre iniciado manualmente. No entanto, uma vez iniciado, ele pode permanecer inativo, dependendo das informações especificadas em uma atividade [Scheduler](../../automating/using/scheduler.md).
 
 >[!IMPORTANT]
 >
-> a Adobe recomenda que os clientes não executem mais de 20 fluxos de trabalho ativos simultaneamente e priorizem e distribuam a execução do fluxo de trabalho ao longo do tempo. Para obter mais informações, consulte as práticas recomendadas fornecidas em [esta página](../../automating/using/best-practices-workflows.md).
+> A Adobe recomenda que os clientes não executem mais de 20 fluxos de trabalho ativos simultaneamente e priorizem e distribuam a execução do fluxo de trabalho ao longo do tempo. Para obter mais informações, consulte as práticas recomendadas fornecidas em [esta página](../../automating/using/best-practices-workflows.md).
 
-Ações relacionadas à execução (iniciar, parar, pausar etc.) são processos **assíncronos**: o comando é salvo e entrará em vigor assim que o servidor estiver disponível para aplicá-lo.
+As ações relacionadas à execução (iniciar, parar, pausar etc.) são **processos assíncronos**: o comando é salvo e entrará em vigor assim que o servidor estiver disponível para aplicá-lo.
 
 Em um workflow, o resultado de cada atividade é geralmente enviado para a atividade seguinte por meio de uma transição, representada por uma seta.
 
@@ -40,7 +41,7 @@ Depois que uma atividade é executada, o número de registros enviados na transi
 
 ![](assets/wkf_transition_count.png)
 
-É possível abrir transições para verificar se os dados enviados estão corretos durante ou após a execução do workflow. É possível visualizar os dados e a estrutura de dados.
+É possível abrir transições para verificar se os dados enviados estão corretos durante ou após a execução do fluxo de trabalho. É possível visualizar os dados e a estrutura de dados.
 
 Por padrão, somente os detalhes da última transição do workflow podem ser acessados. Para acessar os resultados das atividades anteriores, você precisa verificar a opção **[!UICONTROL Keep interim results]** na seção **[!UICONTROL Execution]** das propriedades do fluxo de trabalho, antes de iniciar o fluxo de trabalho.
 

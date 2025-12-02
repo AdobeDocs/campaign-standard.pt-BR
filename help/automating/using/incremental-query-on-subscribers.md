@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: incremental,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: c80ed1f6-ad8a-4448-a6df-b9881327228a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 61%
@@ -20,7 +21,7 @@ ht-degree: 61%
 
 O exemplo a seguir mostra a configuração de uma atividade **[!UICONTROL Incremental query]** que filtra os perfis no banco de dados do Adobe Campaign que estão inscritos no serviço **Running Newsletter** para enviar um email de boas-vindas contendo um código promocional.
 
-O workflow é composto pelos seguintes elementos:
+O fluxo de trabalho é composto pelos seguintes elementos:
 
 ![](assets/incremental_query_example1.png)
 
@@ -32,10 +33,10 @@ O workflow é composto pelos seguintes elementos:
 
   ![](assets/incremental_query_example3.png)
 
-* Uma atividade de [Entrega de email](../../automating/using/email-delivery.md). O workflow é executado uma vez por semana, mas você pode agregar os emails enviados e os resultados por mês, por exemplo, para gerar relatórios durante um período de um mês inteiro e não apenas uma única semana.
+* Uma atividade de [Entrega de email](../../automating/using/email-delivery.md). O fluxo de trabalho é executado uma vez por semana, mas você pode agregar os emails enviados e os resultados por mês, por exemplo, para gerar relatórios durante um período de um mês inteiro e não apenas uma única semana.
 
   Para fazer isso, escolha criar um **[!UICONTROL Recurring email]** aqui, reagrupando os emails e os resultados **[!UICONTROL By month]**.
 
   Defina o conteúdo do seu email e insira o código promocional de boas-vindas. Para obter mais informações, consulte as [seções Definição do conteúdo do email](../../designing/using/personalization.md).
 
-Em seguida, inicie a execução do workflow. Todas as semanas, os novos assinantes receberão o email de boas-vindas com o código promocional.
+Em seguida, inicie a execução do fluxo de trabalho. Todas as semanas, os novos assinantes receberão o email de boas-vindas com o código promocional.

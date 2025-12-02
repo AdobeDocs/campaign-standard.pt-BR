@@ -1,15 +1,16 @@
 ---
 title: Criação de um fluxo de trabalho
-description: Esta seção detalha os principais princípios e as práticas recomendadas para criar um novo workflow.
+description: Esta seção detalha os principais princípios e as práticas recomendadas para criar um novo fluxo de trabalho.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,wizard;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 91%
@@ -18,17 +19,17 @@ ht-degree: 91%
 
 # Criação de um fluxo de trabalho{#building-a-workflow}
 
-Esta seção detalha os principais princípios e as práticas recomendadas para criar um novo workflow.
+Esta seção detalha os principais princípios e as práticas recomendadas para criar um novo fluxo de trabalho.
 
 ## Princípios operacionais do workflow{#workflow-operating-principles}
 
-Um workflow é uma **sequência de atividades configuráveis**. Cada atividade tem uma função específica no processo. O resultado de cada atividade é encaminhado à atividade seguinte por uma **transição**, representada por uma seta.
+Um fluxo de trabalho é uma **sequência de atividades configuráveis**. Cada atividade tem uma função específica no processo. O resultado de cada atividade é encaminhado à atividade seguinte por uma **transição**, representada por uma seta.
 
 O tipo de dados trocado entre uma atividade e outra pode afetar a forma como as atividades seguintes são configuradas. Por exemplo, se uma população for estabelecida antes da atividade de entrega de email, ela poderá servir como destino do email em questão.
 
-É possível abrir atividades para verificar ou editar parâmetros antes ou depois de executar o workflow.
+É possível abrir atividades para verificar ou editar parâmetros antes ou depois de executar o fluxo de trabalho.
 
-É possível abrir transições para verificar se os dados enviados estão corretos durante ou após a execução do workflow. Para acessar a visualização detalhada das transições, é necessário marcar a opção **[!UICONTROL Keep interim results]** na seção **[!UICONTROL Execution]** das propriedades do workflow.
+É possível abrir transições para verificar se os dados enviados estão corretos durante ou após a execução do fluxo de trabalho. Para acessar a visualização detalhada das transições, é necessário marcar a opção **[!UICONTROL Keep interim results]** na seção **[!UICONTROL Execution]** das propriedades do fluxo de trabalho.
 
 >[!CAUTION]
 >
@@ -38,21 +39,21 @@ O tipo de dados trocado entre uma atividade e outra pode afetar a forma como as 
 
 ## Criar um fluxo de trabalho {#creating-a-workflow}
 
-Você pode criar um workflow a partir de um programa, de uma campanha ou da lista de atividades de marketing.
+Você pode criar um fluxo de trabalho a partir de um programa, de uma campanha ou da lista de atividades de marketing.
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra como criar um fluxo de trabalho em vídeo](#video)
 
 A criação de uma atividade de marketing é detalhada na seção [Criar atividades de marketing](../../start/using/marketing-activities.md#creating-a-marketing-activity).
 
-1. Depois de começar a criar uma atividade de marketing do tipo workflow, selecione o template que você deseja usar.
+1. Depois de começar a criar uma atividade de marketing do tipo fluxo de trabalho, selecione o modelo que você deseja usar.
 
    ![](assets/workflow_creation_1.png)
 
    >[!NOTE]
    >
-   >Cada atividade de marketing oferece vários tipos por padrão. Você pode pré-configurar determinados parâmetros de acordo com as suas necessidades. Para obter mais informações, consulte a seção [Gerenciar templates](../../start/using/marketing-activity-templates.md).
+   >Cada atividade de marketing oferece vários tipos por padrão. Você pode pré-configurar determinados parâmetros de acordo com as suas necessidades. Para obter mais informações, consulte a seção [Gerenciar modelos](../../start/using/marketing-activity-templates.md).
 
-1. Insira as propriedades gerais do workflow.
+1. Insira as propriedades gerais do fluxo de trabalho.
 
    ![](assets/workflow_creation_2.png)
 
@@ -60,17 +61,17 @@ A criação de uma atividade de marketing é detalhada na seção [Criar ativida
 
    >[!NOTE]
    >
-   >Você pode criar seu workflow em uma campanha pai a partir da lista de atividades de marketing. Esse workflow pode ser vinculado a uma campanha por meio da seleção de uma campanha que já foi criada.
+   >Você pode criar seu fluxo de trabalho em uma campanha pai a partir da lista de atividades de marketing. Esse fluxo de trabalho pode ser vinculado a uma campanha por meio da seleção de uma campanha que já foi criada.
 
    É possível adicionar uma descrição que o usuário pode ver no conteúdo da campanha.
 
-   Como facilita a localização e a solução de problemas se não estiverem executando da forma esperada, a Adobe recomenda que os workflows tenham nomes e rótulos adequados: preencha o campo de descrição do workflow para resumir o processo para que o operador possa entender facilmente.
+   Como facilita a localização e a solução de problemas se não estiverem executando da forma esperada, a Adobe recomenda que os fluxos de trabalho tenham nomes e rótulos adequados: preencha o campo de descrição do fluxo de trabalho para resumir o processo para que o operador possa entender facilmente.
 
 1. Confirme a criação da atividade. Em seguida, o painel da atividade será exibido. Para obter mais informações, consulte a seção [Interface de fluxo de trabalho](../../automating/using/workflow-interface.md).
 
 1. Quando o fluxo de trabalho estiver pronto para ser configurado, você poderá acessar opções adicionais clicando no botão **[!UICONTROL Edit properties]**.
 
-   Por exemplo, é possível definir um fuso horário específico para usar por padrão em todas as atividades do workflow. Por padrão, o fuso horário do workflow é aquele definido para o operador atual do Campaign.
+   Por exemplo, é possível definir um fuso horário específico para usar por padrão em todas as atividades do fluxo de trabalho. Por padrão, o fuso horário do fluxo de trabalho é aquele definido para o operador atual do Campaign.
 
    Para obter mais informações sobre as propriedades dos fluxos de trabalho, consulte [esta página](../../automating/using/managing-execution-options.md).
 
@@ -88,7 +89,7 @@ Atividades são agrupadas por categoria dentro das diferentes seções da paleta
 
 * A primeira seção contém [atividades de direcionamento](../../automating/using/about-targeting-activities.md)
 * A segunda seção contém as [atividades de execução](../../automating/using/about-execution-activities.md), que são usadas principalmente para coordenar outras atividades.
-* A terceira seção contém atividades que podem ser usadas para enviar mensagens em diferentes [canais](../../automating/using/about-channel-activities.md). As atividades nessa seção podem variar dependendo dos canais que estão ativados na sua instância.
+* A terceira seção contém atividades que podem ser usadas para enviar mensagens em diferentes [canais](../../automating/using/about-channel-activities.md). As atividades nessa seção podem variar dependendo dos canais que estão habilitados na sua instância.
 * A quarta seção contém [atividades de manipulação de arquivos e gestão de dados](../../automating/using/about-data-management-activities.md).
 
 Criação do diagrama:
@@ -103,17 +104,17 @@ Criação do diagrama:
    >
    >Você pode vincular automaticamente uma atividade à atividade anterior, colocando a nova atividade no final da transição da anterior.
 
-1. Adicione as atividades necessárias e vincule-as para concluir seu workflow.
+1. Adicione as atividades necessárias e vincule-as para concluir seu fluxo de trabalho.
 
    >[!NOTE]
    >
-   >Você também pode duplicar atividades existentes, copiando-as. Dessa forma, você mantém as configurações que foram originalmente definidas. Para obter mais informações, consulte [Duplicar atividades do workflow](../../automating/using/workflow-interface.md#duplicating-workflow-activities).
+   >Você também pode duplicar atividades existentes, copiando-as. Dessa forma, você mantém as configurações que foram originalmente definidas. Para obter mais informações, consulte [Duplicar atividades do fluxo de trabalho](../../automating/using/workflow-interface.md#duplicating-workflow-activities).
 
-Assim que suas atividades de workflow estiverem vinculadas, você poderá personalizar as transições entre elas com o **rótulo** de sua escolha. Para fazer isso, clique duas vezes na transição para acessar suas propriedades.
+Assim que suas atividades de fluxo de trabalho estiverem vinculadas, você poderá personalizar as transições entre elas com o **rótulo** de sua escolha. Para fazer isso, clique duas vezes na transição para acessar suas propriedades.
 
 Além disso, as atividades **[!UICONTROL Targeting]** e **[!UICONTROL Data management (ETL)]** permitem definir **códigos de segmento** para suas transições de saída. Em seguida, você poderá criar relatórios com base nesses códigos de segmento para medir a eficiência das suas campanhas de marketing. Para obter mais informações, consulte [esta seção](../../reporting/using/creating-a-report-workflow-segment.md).
 
-**Casos de uso de workflow:**
+**Casos de uso de fluxo de trabalho:**
 
 * [Caso de uso: criar delivery por email uma vez por semana](../../automating/using/workflow-weekly-offer.md)
 * [Caso de uso: criar um delivery segmentado na localização](../../automating/using/workflow-segmentation-location.md)
@@ -128,13 +129,13 @@ Por padrão, as atividades não estão definidas e não processarão os dados co
 1. Clique duas vezes em uma atividade ou selecione-a e clique na ação **[!UICONTROL Edit]** contextual para abrir sua janela de configuração.
 1. Edite o rótulo da atividade.
 1. Defina todas as opções diferentes de que você precisa para processar os dados. Consulte a seção específica da atividade dessa documentação para saber mais sobre as opções possíveis para cada atividade.
-1. Salve a atividade e repita essas operações para cada atividade do workflow.
-1. Salve o workflow.
+1. Salve a atividade e repita essas operações para cada atividade do fluxo de trabalho.
+1. Salve o fluxo de trabalho.
 
 ## Tutorial em vídeo {#video}
 
 Este vídeo mostra como criar um workflow.
 
->[!VIDEO](https://video.tv.adobe.com/v/31853?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
 Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

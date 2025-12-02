@@ -1,12 +1,13 @@
 ---
 title: Assimilar públicos-alvos da Adobe Experience Platform no Campaign
-description: Saiba como assimilar públicos-alvo da Adobe Experience Platform no Campaign Standard.
+description: Saiba como assimilar públicos-alvo da Adobe Experience Platform na Campaign Standard.
 audience: integrating
 content-type: reference
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 5c266c44-535b-4954-862d-74c83a6f6406
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 68%
@@ -15,7 +16,7 @@ ht-degree: 68%
 
 # Assimilar públicos-alvos da Adobe Experience Platform no Campaign {#destinations}
 
-Para assimilar públicos da Adobe Experience Platform no Campaign e usá-los em seus workflows, primeiro é necessário conectar o Adobe Campaign como um **Destino** da Adobe Experience Platform e configurá-lo com o segmento a ser exportado.
+Para assimilar públicos-alvos da Adobe Experience Platform no Campaign e usá-los em seus workflows, primeiro é necessário conectar o Adobe Campaign como um **Destino** da Adobe Experience Platform e configurá-lo com o segmento a ser exportado.
 
 Depois que o Destino for configurado, os dados serão exportados para o local de armazenamento e você precisará criar um fluxo de trabalho dedicado no Campaign Standard para assimilá-los.
 
@@ -23,11 +24,11 @@ Depois que o Destino for configurado, os dados serão exportados para o local de
 
 Na Adobe Experience Platform, configure uma conexão com o Adobe Campaign selecionando um local de armazenamento para os segmentos exportados. Essas etapas também permitem selecionar os segmentos a serem exportados e especificar campos XDM adicionais para inclusão.
 
-Para obter mais informações, consulte a [Documentação de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=pt-BR).
+Para obter mais informações, consulte a [Documentação de destinos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign).
 
 Após o Destino ser configurado, a Adobe Experience Platform cria um arquivo .txt ou .csv delimitado por tabulação no local de armazenamento fornecido. Esta operação é agendada e executada uma vez a cada 24 horas.
 
-Agora você pode configurar um fluxo de trabalho de Campaign Standard para assimilar o segmento no Campaign.
+Agora você pode configurar um fluxo de trabalho do Campaign Standard para assimilar o segmento no Campaign.
 
 ## Criar um fluxo de trabalho de importação no Campaign Standard
 

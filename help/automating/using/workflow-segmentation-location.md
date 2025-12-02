@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,segmentation,delivery
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: feedc2f5-63da-44a5-b8f0-15afdfd47daa
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 80%
@@ -26,7 +27,7 @@ Você pode enviar um email de direcionamento para clientes com ofertas em suas l
 
 ## Seleção dos recipients contatáveis por email{#selecting-recipients-contactable-via-email}
 
-1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arraste e solte uma atividade ![](assets/query.png) de [Consulta](../../automating/using/query.md).
+1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arraste e solte uma atividade [ de ](../../automating/using/query.md)Consulta![](assets/query.png).
 1. Clique duas vezes na atividade.
 1. Em **[!UICONTROL Shortcuts]**, arraste e solte **[!UICONTROL Profiles]** e selecione o campo **[!UICONTROL email]** com o operador **[!UICONTROL is not empty]**.
 1. Em **[!UICONTROL Shortcuts]**, arraste e solte **[!UICONTROL Profiles]** e selecione o campo **[!UICONTROL no longer contact by email]** com o valor **[!UICONTROL no]**.
@@ -51,10 +52,10 @@ Observação: para acessar todas as pessoas que digitaram Boston, desmarque a op
 1. Em **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, arraste e solte uma atividade de [Entrega de email](../../automating/using/email-delivery.md) após cada segmento.
 1. Clique na atividade e selecione ![](assets/edit_darkgrey-24px.png) para editar.
 1. Selecione **[!UICONTROL Simple email]** e clique em **[!UICONTROL Next]**.
-1. Selecione um template de email e clique em **[!UICONTROL Next]**.
+1. Selecione um modelo de email e clique em **[!UICONTROL Next]**.
 1. Insira as propriedades do email e clique em **[!UICONTROL Next]**.
 1. Para criar o layout do email, clique em **[!UICONTROL Email Designer]**.
-1. Insira elementos ou selecione um template.
+1. Insira elementos ou selecione um modelo.
 1. Personalize seu email com ofertas específicas para cada local.
 
    Para obter mais informações, consulte [Design de email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: dedup,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: a09b101b-f76f-4377-9854-1fcffaad4f9a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 79%
@@ -28,11 +29,11 @@ Este fluxo de trabalho é composto por:
 
   ![](assets/deduplication_example_query.png)
 
-* Uma atividade [Deduplication](../../automating/using/deduplication.md), que permite identificar os duplicados que vêm da consulta anterior. Neste exemplo, somente um registro é salvo para cada duplicata. As duplicatas são identificadas usando o endereço de email. Isso significa que a entrega de email só pode ser enviada uma vez para cada endereço que esteja presente no direcionamento.
+* Uma atividade [Deduplication](../../automating/using/deduplication.md), que permite identificar os duplicados que vêm da consulta anterior. Neste exemplo, somente um registro é salvo para cada duplicado. Os duplicados são identificados usando o endereço de email. Isso significa que a entrega de email só pode ser enviada uma vez para cada endereço que esteja presente no direcionamento.
 
-  O método de desduplicação selecionado é **[!UICONTROL Non-empty value]**. Esse método assegura que, entre os registros mantidos em caso de duplicatas, seja dada prioridade àqueles em que foi fornecido o **nome**. Esse método se tornará mais coerente se o nome for usado nos campos de personalização do conteúdo do email.
+  O método de desduplicação selecionado é **[!UICONTROL Non-empty value]**. Esse método assegura que, entre os registros mantidos em caso de duplicados, seja dada prioridade àqueles em que foi fornecido o **nome**. Esse método se tornará mais coerente se o nome for usado nos campos de personalização do conteúdo do email.
 
-  Além disso, uma transição adicional é incluída para manter as duplicatas e poder listá-las.
+  Além disso, uma transição adicional é incluída para manter os duplicados e poder listá-los.
 
   ![](assets/deduplication_example_dedup.png)
 

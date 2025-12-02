@@ -1,31 +1,32 @@
 ---
-title: Acionamento da assimilação de dados por meio de APIs
+title: Acionamento da ingestão de dados por meio de APIs
 description: Saiba como acionar a assimilação de dados por meio de APIs.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 6%
 
 ---
 
-# Acionamento da assimilação de dados por meio de APIs {#triggering-data-ingestion-apis}
+# Acionamento da ingestão de dados por meio de APIs {#triggering-data-ingestion-apis}
 
 >[!IMPORTANT]
 >
->O Conector de dados do Adobe Experience Platform está atualmente na versão beta, que pode estar sujeita a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados no Azure (atualmente na versão beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente do Adobe se desejar obter acesso.
+>O Conector de dados do Adobe Experience Platform está atualmente na versão beta, que pode estar sujeita a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados no Azure (atualmente na versão beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente da Adobe se desejar obter acesso.
 
 O Adobe Campaign Standard permite acionar a assimilação imediata de mapeamentos de dados por meio de APIs e recuperar o status das solicitações de assimilação.
 
-Esta página descreve como acionar e recuperar o status de assimilação dos mapeamentos de dados. Para obter informações globais sobre APIs Campaign Standard, consulte [esta seção](../../api/using/get-started-apis.md).
+Esta página descreve como acionar e recuperar o status de assimilação dos mapeamentos de dados. Para obter informações globais sobre APIs do Campaign Standard, consulte [esta seção](../../api/using/get-started-apis.md).
 
 ## Pré-requisitos {#prerequisites}
 
@@ -44,7 +45,7 @@ Depois que o mapeamento de dados for criado, você deverá impedir a execução 
 
 1. Salve as alterações
 
-A execução do mapeamento de dados foi interrompida. Você pode usar APIs Campaign Standard para acioná-lo manualmente.
+A execução do mapeamento de dados foi interrompida. Você pode usar APIs do Campaign Standard para acioná-lo manualmente.
 
 ## Iniciar a assimilação imediata do mapeamento de dados {#starting-immediate-ingestion}
 
@@ -54,7 +55,7 @@ A assimilação imediata de um mapeamento XDM no Adobe Experience Platform é ac
 
 >[!NOTE]
 >
->Para executar a chamada da API POST de assimilação, o usuário deve ter uma função **execução da função SQL**, que pode ser fornecida por um administrador de Campaign Standard executando abaixo do Script JS:
+>Para executar a chamada da API POST de assimilação, o usuário deve ter uma função **execução da função SQL**, que pode ser fornecida por um administrador do Campaign Standard executando o script JS abaixo:
 >
 >```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
@@ -99,7 +100,7 @@ A operação POST retorna informações sobre o status da solicitação criada:
 
 ## Recuperando o status de uma solicitação de assimilação {#retrieving-status}
 
-O status de uma solicitação de assimilação pode ser recuperado com uma operação GET e a ID de solicitação desejada nos parâmetros:
+O status de uma solicitação de assimilação pode ser recuperado com uma operação do GET e a ID de solicitação desejada nos parâmetros:
 
 ```
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest
@@ -110,7 +111,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 >
 >Informações detalhadas sobre o status da solicitação de mapeamento XDM e seus trabalhos relacionados estão disponíveis na interface do Campaign Standard, no menu **[!UICONTROL Status of data export to platform]** (consulte [Ativação de mapeamento](../../integrating/using/aep-mapping-activation.md)).
 
-A operação GET retorna as informações abaixo:
+A operação do GET retorna as informações abaixo:
 
 * **batchId**: este campo é preenchido somente se ocorrer uma falha após a preparação do lote e o carregamento,
 * **info**: a ID do mapeamento XDM,

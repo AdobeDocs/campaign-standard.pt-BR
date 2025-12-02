@@ -6,10 +6,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: fa0f790d-6a4d-4b83-a51f-f565e9545a1a
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 4%
@@ -18,11 +19,11 @@ ht-degree: 4%
 
 # Introdução à integração com o Microsoft Dynamics 365
 
-Ativar os dados do CRM na comunicação entre canais: saiba como transmitir contatos do Microsoft Dynamics 365 para o Adobe Campaign e compartilhar dados de desempenho da campanha (envios, aberturas, cliques e devoluções) do Adobe Campaign para o Microsoft Dynamics 365.
+Ativar os dados do CRM na comunicação entre canais: saiba como transmitir contatos do Microsoft Dynamics 365 para o Adobe Campaign e compartilhar dados de desempenho da campanha (envios, aberturas, cliques e rejeições) do Adobe Campaign para o Microsoft Dynamics 365.
 
 Essa integração exige as seguintes versões de software:
 
-* Microsoft Dynamics 365 somente para Vendas Online, versão mais recente
+* Microsoft Dynamics 365 apenas para vendas on-line, versão mais recente
 
 * Adobe Campaign Standard, versão mais recente
 
@@ -35,7 +36,7 @@ Essa integração exige as seguintes versões de software:
 
 A integração do Adobe Campaign Standard com o Microsoft Dynamics 365 permite a sincronização de todos os dados de contato disponíveis no sistema CRM, disponibilizando todos os dados de contato relevantes para atividades de campanha.
 
-Por outro lado, como os perfis no Adobe Campaign Standard interagem com as mensagens, esses dados (por exemplo: envios, aberturas, cliques e rejeições) fluem automaticamente para o Microsoft Dynamics 365 para manter os registros de contato completos com a atividade de marketing também.
+Por outro lado, como os perfis no Adobe Campaign Standard interagem com mensagens, esses dados (por exemplo: envios, aberturas, cliques e rejeições) fluem automaticamente para o Microsoft Dynamics 365 para manter os registros de contato completos com a atividade de marketing também.
 
 A integração também permite que [entidades personalizadas](../../integrating/using/d365-acs-self-service-app-settings.md) do Dynamics 365 sejam sincronizadas com os **recursos personalizados** correspondentes no Campaign.
 
@@ -77,7 +78,7 @@ Detalhes do fluxograma (mapeia para as etapas acima):
 
   >[!IMPORTANT]
   >
-  > Se você precisar da configuração de recusa bidirecional ou do Campaign para o Dynamics 365, será necessário fazer a solicitação ao contato técnico do Adobe para que os workflows de recusa sejam configurados na instância do Campaign. [Saiba mais](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
+  > Se você precisar da configuração de recusa bidirecional ou do Campaign para o Dynamics 365, será necessário fazer a solicitação ao contato técnico da Adobe para que os workflows de recusa sejam configurados na instância do Campaign. [Saiba mais](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
 
 ### Configurar esta integração {#configure-this-integration}
 
@@ -96,7 +97,7 @@ Três sistemas precisam ser provisionados e configurados para essa integração:
 
 ### Solicitar suporte
 
-Os tíquetes de suporte podem ser registrados no Atendimento ao cliente do Adobe.
+Os tíquetes de suporte podem ser registrados no Atendimento ao cliente da Adobe.
 
 Para quaisquer problemas com fluxos de dados de integração, inclua as seguintes informações:
 
@@ -105,4 +106,4 @@ Para quaisquer problemas com fluxos de dados de integração, inclua as seguinte
 * **Título do Processo**: Integração do Microsoft Dynamics 365/Adobe Campaign Standard
 * **Descrição do problema**: Descrição do problema
 
-Atualmente, a cobertura do suporte à integração é 24x5 (disponível de segunda a sexta-feira, exceto feriados em Adobe e períodos de interrupção).
+Atualmente, a cobertura do suporte à integração é 24x5 (disponível de segunda a sexta-feira, exceto feriados e períodos de interrupção do Adobe).

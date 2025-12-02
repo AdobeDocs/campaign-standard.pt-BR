@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: d6354249-3b0d-4532-951f-b0fae953f7e1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 2%
@@ -23,7 +24,7 @@ A API REST do Adobe Campaign pode contar o número de registros em uma solicita�
 
 ***Solicitação de exemplo***
 
-Para contar todos os serviços que têm um valor de **messageType** igual a &quot;sms&quot;, execute uma solicitação GET com o filtro **byChannel**.
+Para contar todos os serviços que têm um valor **messageType** igual a &quot;sms&quot;, execute uma solicitação GET com o filtro **byChannel**.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \

@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 06ad2e13-922b-4f35-8726-007427125c63
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 4%
@@ -28,11 +29,11 @@ Antes de criar solicitações, é necessário definir o namespace que você usar
 A carga deve conter os seguintes parâmetros:
 
 * **nome**: um nome interno exclusivo
-* **namespace**: o nome do namespace configurado na interface Campaign Standard
+* **namespace**: o nome do namespace configurado na interface do Campaign Standard
 * **reconciliationValue**: o valor de reconciliação com base na chave de reconciliação definida no namespace
 * **rótulo**: o rótulo da solicitação
 * **tipo**: o tipo de solicitação. Os valores aceitos são &quot;access&quot; ou &quot;delete&quot;.
-* **regulation**: o tipo de regulamento. Exemplo: &quot;GDPR&quot;, &quot;CCPA&quot;. Esse parâmetro é obrigatório e está disponível a partir da versão Campaign Standard 19.4. Se você estiver em uma build mais antiga, não será necessário adicioná-la à sua carga.
+* **regulation**: o tipo de regulamento. Exemplo: &quot;GDPR&quot;, &quot;CCPA&quot;. Esse parâmetro é obrigatório e está disponível a partir da versão 19.4 do Campaign Standard. Se você estiver em uma build mais antiga, não será necessário adicioná-la à sua carga.
 
 <br/>
 

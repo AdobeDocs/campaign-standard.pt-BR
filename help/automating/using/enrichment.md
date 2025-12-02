@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: enrichment,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: c8af67b0-6789-4b4e-9d01-e2dfa14f1e8f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 95%
@@ -41,7 +42,7 @@ Com a atividade de **[!UICONTROL Enrichment]**, você pode aproveitar a transiç
 
 Para configurar uma atividade de **[!UICONTROL Enrichment]**:
 
-1. Arraste e solte uma atividade **[!UICONTROL Enrichment]** no seu workflow.
+1. Arraste e solte uma atividade **[!UICONTROL Enrichment]** no seu fluxo de trabalho.
 1. Selecione e abra a atividade usando o botão ![](assets/edit_darkgrey-24px.png) das ações rápidas exibidas.
 1. Se a atividade tiver várias transições de entrada, selecione o **[!UICONTROL Primary set]**. Os dados adicionais configurados nessa atividade serão adicionados a este conjunto principal na transição de saída.
 
@@ -63,7 +64,7 @@ Para configurar uma atividade de **[!UICONTROL Enrichment]**:
    >
    >Você só pode definir relações entre o conjunto principal e as outras transições de entrada conectadas à atividade de **[!UICONTROL Enrichment]**. Para casos mais simples cujo objetivo seja definir relações com recursos de banco de dados, use uma atividade de [Reconciliação](../../automating/using/reconciliation.md).
 
-1. Defina os dados adicionais na guia **[!UICONTROL Additional data]** da atividade. É possível definir dados adicionais (campos simples, agregações e coleções) relacionados ao targeting dimension do conjunto principal ou com base nos links criados na guia **[!UICONTROL Advanced relations]** da atividade de **[!UICONTROL Enrichment]**.
+1. Defina os dados adicionais na guia **[!UICONTROL Additional data]** da atividade. É possível definir dados adicionais (campos simples, agregações e coleções) relacionados à dimensão de direcionamento do conjunto principal ou com base nos links criados na guia **[!UICONTROL Advanced relations]** da atividade de **[!UICONTROL Enrichment]**.
 
    Consulte a seção [Enriquecimento de dados](../../automating/using/query.md#enriching-data).
 

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1765'
 ht-degree: 90%
@@ -22,7 +23,7 @@ ht-degree: 90%
 
 ![](assets/query.png)
 
-A atividade **[!UICONTROL Query]** permite filtrar e extrair uma população de elementos do banco de dados do Adobe Campaign. Você pode definir **[!UICONTROL Additional data]** para a população direcionada em uma guia dedicada. Esses dados são armazenados em colunas adicionais e só podem ser usados para o workflow em andamento.
+A atividade **[!UICONTROL Query]** permite filtrar e extrair uma população de elementos do banco de dados do Adobe Campaign. Você pode definir **[!UICONTROL Additional data]** para a população direcionada em uma guia dedicada. Esses dados são armazenados em colunas adicionais e só podem ser usados para o fluxo de trabalho em andamento.
 
 A atividade usa a ferramenta Editor de consultas. Essa ferramenta é detalhada em uma [seção dedicada](../../automating/using/editing-queries.md#about-query-editor).
 
@@ -35,7 +36,7 @@ A atividade usa a ferramenta Editor de consultas. Essa ferramenta é detalhada e
 
 A atividade **[!UICONTROL Query]** pode ser usada para várias finalidades:
 
-* Segmentação de indivíduos para definir o público-alvo ou o público de uma mensagem, etc.
+* Segmentação de pessoas para definir o público-alvo ou o público de uma mensagem, etc.
 * Enriquecimento dos dados da tabela do banco de dados do Adobe Campaign.
 * Exportação de dados.
 
@@ -47,7 +48,7 @@ A atividade **[!UICONTROL Query]** pode ser usada para várias finalidades:
 
    O **[!UICONTROL Resource]** permite refinar os filtros exibidos na paleta, enquanto o **[!UICONTROL Targeting dimension]**, contextual em relação ao recurso selecionado, corresponde ao tipo de população que você gostaria de obter (perfis identificados, entregas, dados vinculados ao recurso selecionado, etc.).
 
-   Para saber mais, consulte [Targeting dimensions e recursos](#targeting-dimensions-and-resources).
+   Para saber mais, consulte [Dimensões de direcionamento e recursos](#targeting-dimensions-and-resources).
 
 1. Na guia **[!UICONTROL Target]**, execute o query definindo e combinando regras.
 
@@ -55,11 +56,11 @@ A atividade **[!UICONTROL Query]** pode ser usada para várias finalidades:
    >
    >Ao direcionar um público-alvo, observe que a definição do público-alvo não é referenciada, mas **copiada** para a consulta. Se você fizer qualquer alteração no público depois de ele ter sido direcionado em um query, configure o query novamente para levar a nova definição em consideração.
 
-1. Você pode definir **[!UICONTROL Additional data]** para a população direcionada em uma guia dedicada. Esses dados são armazenados em colunas adicionais e só podem ser usados para o workflow em andamento. Especificamente, você pode adicionar dados das tabelas do banco de dados do Adobe Campaign vinculadas ao targeting dimension do query. Consulte a seção [Enriquecimento de dados](#enriching-data).
+1. Você pode definir **[!UICONTROL Additional data]** para a população direcionada em uma guia dedicada. Esses dados são armazenados em colunas adicionais e só podem ser usados para o fluxo de trabalho em andamento. Especificamente, você pode adicionar dados das tabelas do banco de dados do Adobe Campaign vinculadas à dimensão de direcionamento do query. Consulte a seção [Enriquecimento de dados](#enriching-data).
 
    >[!NOTE]
    >
-   >Por padrão, a opção **[!UICONTROL Remove duplicate rows (DISTINCT)]** está marcada nas **[!UICONTROL Advanced options]** da guia **[!UICONTROL Additional data]** do query. Se a atividade **[!UICONTROL Query]** contiver vários (de 100) dados adicionais definidos, é recomendável desmarcar essa opção para otimizar o desempenho. Observe que se essa opção for desmarcada, poderão ocorrer duplicatas, dependendo dos dados consultados.
+   >Por padrão, a opção **[!UICONTROL Remove duplicate rows (DISTINCT)]** está marcada nas **[!UICONTROL Advanced options]** da guia **[!UICONTROL Additional data]** do query. Se a atividade **[!UICONTROL Query]** contiver vários (de 100) dados adicionais definidos, é recomendável desmarcar essa opção para otimizar o desempenho. Observe que se essa opção for desmarcada, poderão ocorrer duplicados, dependendo dos dados consultados.
 
 1. Na guia **[!UICONTROL Transition]**, a opção **[!UICONTROL Enable an outbound transition]** permite adicionar uma transição de saída após a atividade de query, mesmo que ela não recupere dados.
 
@@ -69,27 +70,27 @@ A atividade **[!UICONTROL Query]** pode ser usada para várias finalidades:
 
 ## Dimensões e recursos de direcionamento {#targeting-dimensions-and-resources}
 
-Os targeting dimensions e os recursos permitem definir em quais elementos um query se baseará para determinar o público alvo de uma entrega.
+As dimensões de direcionamento e os recursos permitem definir em quais elementos um query se baseará para determinar o público-alvo de uma entrega.
 
 Eles são configurados em [target mappings](../../administration/using/target-mappings-in-campaign.md) e definidos ao criar um fluxo de trabalho, na guia **[!UICONTROL Properties]** de uma atividade Query.
 
 >[!NOTE]
 >
->O targeting dimension também pode ser definido ao criar um público-alvo (consulte [esta seção](../../audiences/using/creating-audiences.md)).
+>A dimensão de direcionamento também pode ser definida ao criar um público-alvo (consulte [esta seção](../../audiences/using/creating-audiences.md)).
 
 ![](assets/targeting_dimension1.png)
 
-Os targeting dimensions e os recursos estão vinculados. Os targeting dimensions disponíveis dependem, portanto, do recurso selecionado.
+As dimensões de direcionamento e os recursos estão vinculados. As dimensões de direcionamento disponíveis dependem, portanto, do recurso selecionado.
 
-Por exemplo, para o recurso **[!UICONTROL Profiles (profile)]**, os seguintes targeting dimensions estarão disponíveis:
+Por exemplo, para o recurso **[!UICONTROL Profiles (profile)]**, as seguintes dimensões de direcionamento estarão disponíveis:
 
 ![](assets/targeting_dimension2.png)
 
-No caso de **[!UICONTROL Deliveries (delivery)]**, a lista conterá os seguintes targeting dimensions:
+No caso de **[!UICONTROL Deliveries (delivery)]**, a lista conterá as seguintes dimensões de direcionamento:
 
 ![](assets/targeting_dimension3.png)
 
-Depois que o targeting dimension e o recurso são especificados, filtros diferentes ficam disponíveis no query.
+Depois que a dimensão de direcionamento e o recurso são especificados, filtros diferentes ficam disponíveis no query.
 
 Exemplo de filtros disponíveis para o recurso **[!UICONTROL Profiles (profile)]**:
 
@@ -99,7 +100,7 @@ Exemplo de filtros disponíveis para o recurso **[!UICONTROL Deliveries (deliver
 
 ![](assets/targeting_dimension5.png)
 
-Por padrão, o targeting dimension e o recurso são definidos para direcionar perfis. Entretanto, convém usar um recurso diferente do targeting dimension se você quiser procurar um registro específico em uma tabela distante.
+Por padrão, o targeting dimension e o recurso são definidos para direcionar perfis. Entretanto, convém usar um recurso diferente da dimensão de direcionamento se você quiser procurar um registro específico em uma tabela distante.
 
 Para obter mais informações, consulte este caso de uso: [Uso de recursos diferentes de targeting dimensions](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
@@ -121,7 +122,7 @@ Após adicionar dados adicionais, você poderá aplicar mais um nível de filtro
 
 >[!NOTE]
 >
->Por padrão, a opção **[!UICONTROL Remove duplicate rows (DISTINCT)]** está marcada nas **[!UICONTROL Advanced options]** da guia **[!UICONTROL Additional data]** do query. Se a atividade **[!UICONTROL Query]** contiver vários (de 100) dados adicionais definidos, é recomendável desmarcar essa opção para otimizar o desempenho. Observe que se essa opção for desmarcada, poderão ocorrer duplicatas, dependendo dos dados consultados.
+>Por padrão, a opção **[!UICONTROL Remove duplicate rows (DISTINCT)]** está marcada nas **[!UICONTROL Advanced options]** da guia **[!UICONTROL Additional data]** do query. Se a atividade **[!UICONTROL Query]** contiver vários (de 100) dados adicionais definidos, é recomendável desmarcar essa opção para otimizar o desempenho. Observe que se essa opção for desmarcada, poderão ocorrer duplicados, dependendo dos dados consultados.
 
 Um caso de uso sobre como personalizar um email com dados adicionais é apresentado em [esta seção](../../automating/using/personalizing-email-with-additional-data.md).
 
@@ -130,7 +131,7 @@ Um caso de uso sobre como personalizar um email com dados adicionais é apresent
 Ao incluir um campo simples como dados adicionais, esse campo ficará diretamente visível na transição de saída da atividade. Isso permite que o usuário verifique, por exemplo, se os dados do query são os desejados.
 
 1. Na guia **[!UICONTROL Additional data]**, adicione um novo elemento.
-1. Na janela aberta, no campo **[!UICONTROL Expression]**, selecione um dos campos disponíveis diretamente no targeting dimension ou em uma das dimensões vinculadas. Você pode editar expressões e usar funções ou cálculos simples (exceto agregações) dos campos de dimensão.
+1. Na janela aberta, no campo **[!UICONTROL Expression]**, selecione um dos campos disponíveis diretamente na dimensão de direcionamento ou em uma das dimensões vinculadas. Você pode editar expressões e usar funções ou cálculos simples (exceto agregações) dos campos de dimensão.
 
    Um **[!UICONTROL Alias]** será automaticamente criado se você editar uma expressão diferente de um caminho XPATH simples (por exemplo: “Year(&lt;@birthDate>)”). Se quiser, você poderá modificá-lo. Se selecionar apenas um campo (por exemplo: “@age”), você não precisará definir um **[!UICONTROL Alias]**.
 
@@ -140,7 +141,7 @@ Ao incluir um campo simples como dados adicionais, esse campo ficará diretament
 
 ### Adição de uma agregação {#adding-an-aggregate}
 
-As agregações permitem que os valores sejam calculados dos campos do targeting dimension ou das dimensões vinculadas ao targeting dimension. Por exemplo: o valor médio adquirido por um perfil.
+As agregações permitem que os valores sejam calculados dos campos da dimensão de direcionamento ou das dimensões vinculadas à dimensão de direcionamento. Por exemplo: o valor médio adquirido por um perfil.
 Quando você usar a agregação com o query, sua função poderá retornar para zero, que será considerada como NULL. Use a guia **[!UICONTROL Output filtering]** do query para filtrar o valor agregado:
 
 * se quiser valores zero, você deverá filtrar em **[!UICONTROL is null]**.

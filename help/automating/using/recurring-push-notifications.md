@@ -2,10 +2,11 @@
 title: Envio de uma notificação por push recorrente com um workflow
 description: Neste exemplo, uma notificação por push personalizada é enviada todos os primeiros dias do mês às 20h para os assinantes do seu aplicativo móvel, dependendo de seus fusos horários
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: d5e6034c-3673-4069-ac0b-49c7ad07259d
-source-git-commit: 0ab950d4124bf459ba889e2f1c2954210dd350e0
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 5%
@@ -34,9 +35,9 @@ Para criar o workflow, siga estas etapas:
 
    ![](assets/wkf_push_example_5.png)
 
-1. A atividade [Query](../../automating/using/query.md) permite direcionar clientes VIP com idade entre 20 e 30 anos, que assinaram seu aplicativo para dispositivos móveis e não abriram o email enviado:
+1. A atividade [Query](../../automating/using/query.md) permite direcionar clientes do VIP com idade entre 20 e 30 anos, que assinaram seu aplicativo para dispositivos móveis e não abriram o email enviado:
 
-   * Selecione um público-alvo (seus clientes VIP) e filtre por idade.
+   * Selecione um público-alvo (seus clientes do VIP) e filtre por idade.
    * Arraste e solte o elemento **Assinaturas de um aplicativo** no espaço de trabalho. Selecione **Existe** e selecione o aplicativo móvel que você deseja usar.
    * Selecione o email que você enviou aos clientes.
    * Arraste e solte o elemento **Logs (logs)** da entrega no espaço de trabalho e selecione **Existe** para direcionar todos os clientes que receberam o email.

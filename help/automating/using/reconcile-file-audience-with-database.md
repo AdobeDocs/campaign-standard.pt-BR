@@ -1,22 +1,23 @@
 ---
-title: Reconciliar um público do tipo Arquivo com o banco de dados
+title: Reconciliar um público-alvo do tipo Arquivo com o banco de dados
 description: Este exemplo mostra como usar a atividade Ler público-alvo para reconciliar um público-alvo criado diretamente de uma importação de arquivo.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: readAudience,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 6a59907d-850e-4d61-b1f7-8fc8b915580e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 87%
 
 ---
 
-# Reconciliar um público do tipo Arquivo com o banco de dados {#example--reconcile-a-file-audience-with-the-database}
+# Reconciliar um público-alvo do tipo Arquivo com o banco de dados {#example--reconcile-a-file-audience-with-the-database}
 
 Este exemplo mostra como usar a atividade **[!UICONTROL Read audience]** para reconciliar um público-alvo criado diretamente de uma importação de arquivo.
 

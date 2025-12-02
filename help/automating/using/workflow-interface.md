@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: about-workflows-and-data-management
 context-tags: workflow,main;workflow,overview
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
-source-git-commit: ea524bdcef0324c7fc4b9da0bb443b6abc66a23a
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 4%
@@ -161,6 +162,6 @@ Para fazer isso, selecione as atividades desenhando uma zona ao redor delas. em 
 
 Este vídeo mostra como criar um workflow.
 
->[!VIDEO](https://video.tv.adobe.com/v/31853?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
 Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

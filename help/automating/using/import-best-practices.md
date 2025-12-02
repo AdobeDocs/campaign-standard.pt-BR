@@ -5,9 +5,10 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
-source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 83%
@@ -24,13 +25,13 @@ Ser cuidadoso e seguir as regras simples detalhadas abaixo ajudará a garantir a
 
 ## Uso de templates de importação {#using-import-templates}
 
-A maioria dos workflows de importação deve conter as seguintes atividades: **[!UICONTROL Load file]**, **[!UICONTROL Reconciliation]**, **[!UICONTROL Segmentation]**, **[!UICONTROL Deduplication]**, **[!UICONTROL Update data]**.
+A maioria dos fluxos de trabalho de importação deve conter as seguintes atividades: **[!UICONTROL Load file]**, **[!UICONTROL Reconciliation]**, **[!UICONTROL Segmentation]**, **[!UICONTROL Deduplication]**, **[!UICONTROL Update data]**.
 
 É muito conveniente usar templates de importação para preparar importações semelhantes e garantir a consistência dos dados no banco de dados.
 
-Em muitos projetos, as importações são criadas sem a atividade **[!UICONTROL Deduplication]** porque os arquivos usados no projeto não têm duplicatas. As duplicatas às vezes surgem da importação de arquivos diferentes. A eliminação de duplicatas é difícil. Portanto, a etapa de eliminação de duplicatas é uma boa precaução em todos os workflows de importação.
+Em muitos projetos, as importações são criadas sem a atividade **[!UICONTROL Deduplication]** porque os arquivos usados no projeto não têm duplicados. Os duplicados às vezes surgem da importação de arquivos diferentes. A eliminação de duplicatas é difícil. Portanto, a etapa de eliminação de duplicatas é uma boa precaução em todos os fluxos de trabalho de importação.
 
-Não confie na suposição de que os dados de entrada são consistentes e corretos, ou que o departamento de TI ou o supervisor do Adobe Campaign irá resolver isso. Durante o projeto, mantenha a limpeza dos dados em mente. Elimine duplicatas, reconcilie e mantenha de consistência ao importar dados.
+Não confie na suposição de que os dados de entrada são consistentes e corretos, ou que o departamento de TI ou o supervisor do Adobe Campaign irá resolver isso. Durante o projeto, mantenha a limpeza dos dados em mente. Elimine duplicados, reconcilie e mantenha de consistência ao importar dados.
 
 Um exemplo de modelo de fluxo de trabalho genérico projetado para importar dados está disponível na seção [Exemplo: importar modelo de fluxo de trabalho](../../automating/using/creating-import-workflow-templates.md).
 
@@ -43,7 +44,7 @@ Um exemplo de modelo de fluxo de trabalho genérico projetado para importar dado
 * [Atividade Carregar arquivo](../../automating/using/load-file.md)
 * [Atividade de reconciliação](../../automating/using/reconciliation.md)
 * [Atividade de segmentação](../../automating/using/segmentation.md)
-* [Atividade Desduplicação](../../automating/using/deduplication.md)
+* [Atividade de desduplicação](../../automating/using/deduplication.md)
 * [Atualizar atividade de dados](../../automating/using/update-data.md)
 
 ## Uso dos formatos de arquivo simples {#using-flat-file-formats}
@@ -86,8 +87,8 @@ As importações completas devem ser usadas somente para carregamento inicial.
 
 Para manter a consistência dos dados no banco de dados do Adobe Campaign, siga os princípios abaixo:
 
-* Se os dados importados corresponderem a uma tabela de referência no Adobe Campaign, então ele deverá ser reconciliado com essa tabela no workflow. Os registros que não correspondem devem ser rejeitados.
-* Certifique-se de que os dados importados sejam sempre **&quot;normalizados&quot;** (email, número de telefone, endereço de mala direta) e que essa normalização seja confiável e não será alterada ao longo dos anos. Se não for o caso, provavelmente aparecerão algumas duplicatas no banco de dados e, como o Adobe Campaign não fornece ferramentas para fazer a correspondência &quot;difusa&quot;, será muito difícil removê-las e gerencia-las.
+* Se os dados importados corresponderem a uma tabela de referência no Adobe Campaign, então ele deverá ser reconciliado com essa tabela no fluxo de trabalho. Os registros que não correspondem devem ser rejeitados.
+* Certifique-se de que os dados importados sejam sempre **&quot;normalizados&quot;** (email, número de telefone, endereço de correspondência direta) e que essa normalização seja confiável e não será alterada ao longo dos anos. Se não for o caso, provavelmente aparecerão alguns duplicados no banco de dados e, como o Adobe Campaign não fornece ferramentas para fazer a correspondência &quot;difusa&quot;, será muito difícil gerenciá-los e removê-los.
 * Os dados transacionais devem ter uma chave de reconciliação e serem reconciliados com os dados existentes para evitar a criação de duplicatas.
-* **Importação de arquivos relacionados em ordem**. Se a importação for composta de vários arquivos que dependem uns dos outros, o workflow deve garantir que os arquivos sejam importados na ordem correta. Quando um arquivo falhar, os outros arquivos não serão importados.
-* **Elimine duplicatas**, reconcilie e mantenha de consistência ao importar dados.
+* **Importação de arquivos relacionados em ordem**. Se a importação for composta de vários arquivos que dependem uns dos outros, o fluxo de trabalho deve garantir que os arquivos sejam importados na ordem correta. Quando um arquivo falhar, os outros arquivos não serão importados.
+* **Elimine duplicados**, reconcilie e mantenha de consistência ao importar dados.

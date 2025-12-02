@@ -1,18 +1,19 @@
 ---
 title: Entrega de correspondência direta
-description: A atividade Direct mail entrega permite configurar o envio de uma única correspondência direta de envio ou de uma correspondência direta recorrente em um workflow.
+description: A atividade Direct mail entrega permite configurar o envio de uma única correspondência direta de envio ou de uma correspondência direta recorrente em um fluxo de trabalho.
 audience: automating
 content-type: reference
 topic-tags: channel-activities
 context-tags: directMail,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: c7854b7b-f955-47ce-99d6-86b3186fd297
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '915'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -33,11 +34,11 @@ A atividade **[!UICONTROL Direct mail delivery]** permite configurar e preparar 
 
 A atividade **[!UICONTROL Direct mail delivery]** geralmente é usada para automatizar a preparação de um arquivo que contém dados de perfil. Esse arquivo pode ser enviado para um parceiro/provedor responsável pela correspondência direta.
 
-Quando vinculada a um scheduler, você pode definir malas diretas recorrentes.
+Quando vinculada a um scheduler, você pode definir correspondências diretas recorrentes.
 
-Os destinatários da correspondência direta são definidos no sentido upstream da atividade, no mesmo workflow, por meio de atividades de direcionamento, como consultas, interseções etc. Perfis cujo endereço de correspondência não é especificado são excluídos automaticamente quando essa correspondência direta é preparada.
+Os destinatários da correspondência direta são definidos no sentido upstream da atividade, no mesmo fluxo de trabalho, por meio de atividades de segmentação, como consultas, interseções etc. Perfis cujo endereço de correspondência não é especificado são excluídos automaticamente quando essa correspondência direta é preparada.
 
-A preparação da mensagem é acionada de acordo com os parâmetros de execução do workflow. No painel da mensagem, você pode selecionar se deseja solicitar ou não uma confirmação manual para enviar a mensagem (obrigatório por padrão). Você pode iniciar o workflow manualmente ou colocar uma atividade de scheduler no workflow para automatizar a execução.
+A preparação da mensagem é acionada de acordo com os parâmetros de execução do fluxo de trabalho. No painel da mensagem, você pode selecionar se deseja solicitar ou não uma confirmação manual para enviar a mensagem (obrigatório por padrão). Você pode iniciar o fluxo de trabalho manualmente ou colocar uma atividade de scheduler no fluxo de trabalho para automatizar a execução.
 
 **Tópicos relacionados:**
 
@@ -62,25 +63,25 @@ A preparação da mensagem é acionada de acordo com os parâmetros de execuçã
 
      >[!NOTE]
      >
-     >Para malas diretas recorrentes, um novo arquivo é gerado em cada execução do workflow. O período de agregação selecionado não afeta esse comportamento.
+     >Para malas diretas recorrentes, um novo arquivo é gerado em cada execução do fluxo de trabalho. O período de agregação selecionado não afeta esse comportamento.
 
-1. Selecione um tipo de correspondência direta. Os tipos de correspondência direta vêm de templates definidos no menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
-1. Insira as propriedades gerais da correspondência direta. Também é possível anexá-la a uma campanha existente. O rótulo da atividade de entrega do workflow é atualizado com o rótulo da correspondência direta.
+1. Selecione um tipo de correspondência direta. Os tipos de correspondência direta vêm de modelos definidos no menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
+1. Insira as propriedades gerais da correspondência direta. Também é possível anexá-la a uma campanha existente. O rótulo da atividade de entrega do fluxo de trabalho é atualizado com o rótulo da correspondência direta.
 1. Definição do conteúdo da correspondência direta. Consulte a seção sobre [edição de conteúdo](../../designing/using/personalization.md).
 1. Por padrão, a atividade **[!UICONTROL Direct mail delivery]** não inclui transições de saída. Se quiser adicionar uma transição de saída à sua atividade **[!UICONTROL Direct mail delivery]**, acesse a guia **[!UICONTROL General]** das opções avançadas da atividade (o botão ![](assets/dlv_activity_params-24px.png) nas ações rápidas da atividade) e depois marque uma das seguintes opções:
 
    * **[!UICONTROL Add outbound transition without the population]**: permite gerar uma transição de saída que contém exatamente a mesma população da transição de entrada. Essa transição contém o arquivo gerado pela atividade de correspondência direta e a população bruta recebida pela atividade de correspondência direta.
-   * **[!UICONTROL Add outbound transition with the population]**: permite gerar uma transição de saída que contém a população para a qual a correspondência direta será enviada. Os membros do público-alvo foram excluídos durante a preparação da correspondência direta (quarentena, endereço inválido, etc.) são excluídos dessa transição. A transição também contém o arquivo gerado pela correspondência direta.
+   * **[!UICONTROL Add outbound transition with the population]**: permite gerar uma transição de saída que contém a população para a qual a correspondência direta será enviada. Os membros do público-alvo excluídos durante a preparação da correspondência direta (quarentena, endereço inválido, etc.) são excluídos dessa transição. A transição também contém o arquivo gerado pela correspondência direta.
 
 1. Confirme a configuração da sua atividade e salve o fluxo de trabalho.
 
 Ao reabrir a atividade, você é levado diretamente ao painel da correspondência direta. Somente seu conteúdo pode ser editado.
 
-Por padrão, iniciar um workflow de entrega aciona somente a preparação da mensagem. O envio de mensagens criadas a partir de um workflow ainda precisará ser confirmado depois que o workflow for iniciado. Porém, no painel de mensagens, e somente se a mensagem tiver sido criada a partir de um workflow, você poderá desabilitar a opção **[!UICONTROL Request confirmation before sending messages]**. Ao desmarcar essa opção, as mensagens são enviadas sem aviso prévio após a preparação.
+Por padrão, iniciar um fluxo de trabalho de entrega aciona somente a preparação da mensagem. O envio de mensagens criadas a partir de um fluxo de trabalho ainda precisará ser confirmado depois que o fluxo de trabalho for iniciado. Porém, no painel de mensagens, e somente se a mensagem tiver sido criada a partir de um fluxo de trabalho, você poderá desabilitar a opção **[!UICONTROL Request confirmation before sending messages]**. Ao desmarcar essa opção, as mensagens são enviadas sem aviso prévio após a preparação.
 
 ## Observações {#remarks}
 
-As entregas criadas em um workflow podem ser acessadas na lista de atividade de marketing do aplicativo. Você pode visualizar o status de execução do workflow usando o painel. Os links no painel de resumo da correspondência direta permitem acessar diretamente os elementos vinculados (workflow, campanha, entrega pai no caso de uma correspondência direta recorrente).
+As entregas criadas em um fluxo de trabalho podem ser acessadas na lista de atividade de marketing do aplicativo. Você pode visualizar o status de execução do fluxo de trabalho usando o painel. Os links no painel de resumo da correspondência direta permitem acessar diretamente os elementos vinculados (fluxo de trabalho, campanha, entrega pai no caso de uma correspondência direta recorrente).
 
 ![](assets/wkf_display_parent_elements_direct_mail.png)
 

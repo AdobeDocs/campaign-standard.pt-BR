@@ -1,22 +1,23 @@
 ---
-title: Execução sobreposta de workflows agendados
+title: Execução sobreposta de fluxos de trabalho agendados
 description: Saiba como evitar a sobreposição da execução de workflows agendados.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 8d9820a4-3c44-45f5-815e-4ed48a96276d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 1%
 
 ---
 
-# Execução sobreposta de workflows agendados{#preventing-overlapping-execution-of-scheduled-workflows}
+# Execução sobreposta de fluxos de trabalho agendados{#preventing-overlapping-execution-of-scheduled-workflows}
 
 ## Sobre a execução de workflows agendados
 

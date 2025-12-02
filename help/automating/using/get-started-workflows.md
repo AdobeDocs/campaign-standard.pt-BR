@@ -1,14 +1,15 @@
 ---
 title: Introdução a processos e gerenciamento de dados
-description: Automatize processos com workflows, gerencie dados e públicos, envie mensagens e muito mais.
+description: Automatize processos com workflows, gerencie dados e públicos-alvos, envie mensagens e muito mais.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 69621657e1d367043200f741d93972664e6eb8fb
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 30%
@@ -25,7 +26,7 @@ ht-degree: 30%
 
 O Adobe Campaign oferece um ambiente gráfico abrangente que permite projetar processos complexos, incluindo segmentação, execução de campanha, processamento de arquivos etc. Você pode usar um fluxo de trabalho, por exemplo, para baixar um arquivo de um servidor, descompactá-lo e importar seus registros no banco de dados do Adobe Campaign.
 
-Os workflows podem ser usados em contextos diferentes, por exemplo:
+Os fluxos de trabalho podem ser usados em contextos diferentes, por exemplo:
 
 * Direcionamento para gerenciar públicos-alvo ou enviar mensagens.
 * Gerenciamento de dados (ETL) para manipular dados.
@@ -34,7 +35,7 @@ Os workflows podem ser usados em contextos diferentes, por exemplo:
 
 >[!IMPORTANT]
 >
-> a Adobe recomenda que os clientes não executem mais de 20 fluxos de trabalho ativos simultaneamente e priorizem e distribuam a execução do fluxo de trabalho ao longo do tempo. Para obter mais informações, consulte as práticas recomendadas fornecidas em [esta página](../../automating/using/best-practices-workflows.md).
+> A Adobe recomenda que os clientes não executem mais de 20 fluxos de trabalho ativos simultaneamente e priorizem e distribuam a execução do fluxo de trabalho ao longo do tempo. Para obter mais informações, consulte as práticas recomendadas fornecidas em [esta página](../../automating/using/best-practices-workflows.md).
 
 ## Atividades de fluxos de trabalho {#workflow-activities}
 
@@ -42,19 +43,19 @@ Várias atividades estão disponíveis para ajudá-lo a projetar seus fluxos de 
 
 [As atividades de direcionamento](../../automating/using/about-targeting-activities.md) permitem criar um ou mais destinos definindo conjuntos e dividindo ou combinando esses conjuntos usando operações de interseção, união ou exclusão.
 
-Com [Atividades de execução](../../automating/using/about-execution-activities.md), coordene o fluxo de trabalho e suas atividades, enquanto as [Atividades de canal](../../automating/using/about-channel-activities.md) permitem combinar canais de comunicação Campaign Standard para criar fluxos de trabalho entre canais.
+Com [Atividades de execução](../../automating/using/about-execution-activities.md), coordene o fluxo de trabalho e suas atividades, enquanto as [Atividades de canal](../../automating/using/about-channel-activities.md) permitem combinar canais de comunicação da Campaign Standard para criar fluxos de trabalho entre canais.
 
 Finalmente, [as atividades de gerenciamento de dados](../../automating/using/about-data-management-activities.md) permitem manipular dados do seu banco de dados.
 
 Leia mais:
 
-* [Criação de um workflow](../../automating/using/building-a-workflow.md)
+* [Criação de um fluxo de trabalho](../../automating/using/building-a-workflow.md)
 * [Execução de um fluxo de trabalho](../../automating/using/about-workflow-execution.md)
 * [Práticas recomendadas de fluxo de trabalho](../../automating/using/best-practices-workflows.md)
 
 ## Filtrar dados {#filter-data}
 
-Aproveite o **editor de consultas** para filtrar dados do banco de dados e criar uma população para direcionar melhor seus destinatários. O editor de consultas está disponível para executar várias ações no Campaign Standard: criar públicos do tipo Query, definir públicos-alvo de entrega ou populações em atividades de fluxo de trabalho.
+Aproveite o **editor de consultas** para filtrar dados do banco de dados e criar uma população para direcionar melhor seus destinatários. O Editor de consultas está disponível para executar várias ações no Campaign Standard: criar públicos do tipo Query, definir públicos-alvo de entrega ou populações em atividades de fluxo de trabalho.
 
 O Editor de Consultas vem com **regras e filtros predefinidos** para uma filtragem rápida e fácil. No entanto, você também pode usar os recursos de **edição de expressão avançada**. Isso permite inserir condições manualmente e usar funções para formar suas próprias regras.
 
@@ -86,5 +87,5 @@ Leia mais:
 ## Recursos adicionais
 
 * [Vídeos tutoriais sobre processos e gerenciamento de dados](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/creating-a-workflow.html?lang=pt-BR)
-* [Workflows técnicos](../../administration/using/technical-workflows.md)
+* [Fluxos de trabalho técnicos](../../administration/using/technical-workflows.md)
 * [Introdução ao modelo de dados do Campaign Standard](../../developing/using/get-started-data-model.md)

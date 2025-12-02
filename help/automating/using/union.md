@@ -1,15 +1,16 @@
 ---
 title: União
-description: A atividade Union permite reagrupar o resultado de várias atividades em um único público-alvo.
+description: A atividade União permite reagrupar o resultado de várias atividades em um único público-alvo.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: union,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 3189745c-dcc9-4719-b080-85ffa3bb66be
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 97%
@@ -44,7 +45,7 @@ A atividade **[!UICONTROL Union]** é usada para combinar as populações das tr
 1. Selecione o **[!UICONTROL Reconciliation type]** para definir como os duplicados são tratados a partir do confronto entre as populações de entrada:
 
    * **[!UICONTROL Keys only]**: este é o modo padrão. A atividade só mantém um elemento quando elementos de transições de entrada diferentes têm a mesma chave. Essa opção só poderá ser usada se as populações de entrada forem homogêneas.
-   * **[!UICONTROL All shared columns]**: os dados são reconciliados com base em todas as colunas em comum com as transições de entrada. Portanto, é necessário selecionar o conjunto principal que será mantido no caso de um duplicado. Essa opção só poderá ser usada se os targeting dimensions da população de entrada forem diferentes.
+   * **[!UICONTROL All shared columns]**: os dados são reconciliados com base em todas as colunas em comum com as transições de entrada. Portanto, é necessário selecionar o conjunto principal que será mantido no caso de um duplicado. Essa opção só poderá ser usada se as dimensões de direcionamento da população de entrada forem diferentes.
    * **[!UICONTROL A selection of columns]**: selecione esta opção para definir a lista de colunas em que a reconciliação de dados será aplicada. Primeiro, selecione o conjunto principal (que contém os dados de origem) e, em seguida, as colunas a serem usadas para a junção.
 
 1. Marque a caixa **[!UICONTROL Use common additional data only]** se quiser manter somente os dados adicionais existentes em todas as transições de entrada.

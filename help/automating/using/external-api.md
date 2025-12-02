@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '2208'
 ht-degree: 93%
@@ -22,7 +23,7 @@ ht-degree: 93%
 
 ![](assets/wf_externalAPI.png)
 
-A atividade **[!UICONTROL External API]** traz dados para o workflow de um **sistema externo** por meio de uma chamada à **API HTTP**.
+A atividade **[!UICONTROL External API]** traz dados para o fluxo de trabalho de um **sistema externo** por meio de uma chamada à **API HTTP**.
 
 Os pontos de extremidade do sistema externo podem ser pontos de extremidade de API públicos, sistemas de gerenciamento de clientes ou instâncias de aplicativos sem servidor (por exemplo, [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html)), para mencionar algumas categorias.
 
@@ -33,14 +34,14 @@ Os pontos de extremidade do sistema externo podem ser pontos de extremidade de A
 As principais características dessa atividade são:
 
 * Capacidade de transmitir dados em um formato JSON para um ponto de extremidade de API REST de terceiros
-* Capacidade de receber uma resposta JSON de volta, mapeá-la para tabelas de saída e transmiti-la downstream para outras atividades do workflow.
+* Capacidade de receber uma resposta JSON de volta, mapeá-la para tabelas de saída e transmiti-la downstream para outras atividades do fluxo de trabalho.
 * Gerenciamento de falhas com uma transição específica de saída
 
 ### Avisos de compatibilidade com versões anteriores {#from-beta-to-ga}
 
-Com a versão 20.4 do Campaign Standard, o limite de tamanho dos dados de resposta http e as medidas de proteção do tempo de espera da resposta foram reduzidos para se alinharem às práticas recomendadas - consulte [Limitações e medidas de proteção](#guardrails). Essas modificações nas medidas de proteção não entrarão em vigor nas atividades de API externas existentes; portanto, é recomendado substituir as atividades de API externas existentes por novas versões em todos os workflows.
+Com a versão 20.4 do Campaign Standard, o limite de tamanho dos dados de resposta http e as medidas de proteção do tempo de espera da resposta foram reduzidos para se alinharem às práticas recomendadas - consulte [Limitações e medidas de proteção](#guardrails). Essas modificações nas medidas de proteção não entrarão em vigor nas atividades de API externas existentes; portanto, é recomendado substituir as atividades de API externas existentes por novas versões em todos os fluxos de trabalho.
 
-Ao substituir as atividades de API externas, adicione a nova atividade ao workflow, copie manualmente os detalhes de configuração e exclua a atividade antiga.
+Ao substituir as atividades de API externas, adicione a nova atividade ao fluxo de trabalho, copie manualmente os detalhes de configuração e exclua a atividade antiga.
 
 >[!NOTE]
 >
@@ -68,7 +69,7 @@ Foram colocadas em prática medidas de proteção específicas:
 
 ## Configuração {#configuration}
 
-Arraste e solte uma atividade **[!UICONTROL External API]** no seu workflow e abra a atividade para iniciar a configuração.
+Arraste e solte uma atividade **[!UICONTROL External API]** no seu fluxo de trabalho e abra a atividade para iniciar a configuração.
 
 ### Mapeamento de entrada
 
@@ -96,7 +97,7 @@ O analisador de JSON foi projetado para hospedar tipos padrão de estrutura JSON
 A definição do JSON de amostra deve ter as **seguintes características**:
 
 * Os **elementos da matriz** devem conter propriedades de primeiro nível (níveis mais profundos não são compatíveis).
-  Os **nomes de propriedades** acabarão se tornando nomes de colunas para o schema de saída da tabela temporária de saída.
+  Os **nomes de propriedades** acabarão se tornando nomes de colunas para o esquema de saída da tabela temporária de saída.
 * Os **elementos JSON** capturados devem estar em 10 ou menos níveis de aninhamento na resposta JSON.
 * A definição do **nome da coluna** é baseada no primeiro elemento da matriz &quot;data&quot;.
 A definição de colunas (adicionar/remover) e o valor de tipo da propriedade podem ser editados na guia **Definição de coluna**.
@@ -105,9 +106,9 @@ Comportamento da **Caixa de seleção Nivelar**:
 
 A caixa de seleção Nivelar (desmarcada por padrão) é fornecida para indicar se o JSON deve ser nivelado em um mapa de chave/valor.
 
-* Quando a **caixa de seleção estiver desabilitada** (desmarcada), a amostra JSON será analisada para procurar um objeto de matriz. O usuário precisará fornecer uma versão reduzida do formato JSON de amostra de resposta da API para que o Adobe Campaign possa determinar exatamente qual matriz o usuário está interessado em usar. No momento da criação do workflow, o caminho para o objeto de matriz aninhado será determinado e registrado, para que possa ser usado no tempo de execução para acessar esse objeto de matriz pelo corpo de resposta JSON recebido da chamada de API.
+* Quando a **caixa de seleção estiver desabilitada** (desmarcada), a amostra JSON será analisada para procurar um objeto de matriz. O usuário precisará fornecer uma versão reduzida do formato JSON de amostra de resposta da API para que o Adobe Campaign possa determinar exatamente qual matriz o usuário está interessado em usar. No momento da criação do fluxo de trabalho, o caminho para o objeto de matriz aninhado será determinado e registrado, para que possa ser usado no tempo de execução para acessar esse objeto de matriz pelo corpo de resposta JSON recebido da chamada de API.
 
-* Quando a **caixa de seleção estiver ativada** (marcada), a amostra JSON será nivelada e todas as propriedades especificadas na amostra JSON fornecida serão usadas para criar colunas da tabela temporária de saída, e serão exibidas na guia Definições de coluna. Observe que se houver algum objeto de matriz na amostra JSON, todos os elementos desses objetos de matriz também serão nivelados.
+* Quando a **caixa de seleção estiver habilitada** (marcada), a amostra JSON será nivelada e todas as propriedades especificadas na amostra JSON fornecida serão usadas para criar colunas da tabela temporária de saída, e serão exibidas na guia Definições de coluna. Observe que se houver algum objeto de matriz na amostra JSON, todos os elementos desses objetos de matriz também serão nivelados.
 
 
 Se a **análise for validada**, será exibida uma mensagem com um convite para personalizar o mapeamento de dados na guia &quot;Definição de coluna&quot;. Caso contrário, uma mensagem de erro será exibida.
@@ -152,7 +153,7 @@ Essa guia permite ativar a **transição de saída** e seu rótulo. Essa transi�
 
 ### Opções de execução
 
-Esta guia está disponível na maioria das atividades de workflow. Para obter mais informações, consulte a seção [Propriedades de atividade](../../automating/using/activity-properties.md).
+Esta guia está disponível na maioria das atividades de fluxo de trabalho. Para obter mais informações, consulte a seção [Propriedades de atividade](../../automating/using/activity-properties.md).
 
 ![](assets/externalAPI-options.png)
 
@@ -162,11 +163,11 @@ Para testar a funcionalidade da API externa com um endpoint de teste simples, vo
 
 ## Solução de problemas
 
-Existem dois tipos de mensagens de log adicionados a esta nova atividade de workflow: informações e erros. Elas podem ser úteis na solução de possíveis problemas.
+Existem dois tipos de mensagens de log adicionados a esta nova atividade de fluxo de trabalho: informações e erros. Elas podem ser úteis na solução de possíveis problemas.
 
 ### Informações
 
-Essas mensagens de log são usadas para registrar informações sobre pontos de verificação úteis durante a execução da atividade do workflow.
+Essas mensagens de log são usadas para registrar informações sobre pontos de verificação úteis durante a execução da atividade do fluxo de trabalho.
 <table> 
  <thead> 
   <tr> 
@@ -212,7 +213,7 @@ Essas mensagens de log são usadas para registrar informações sobre pontos de 
 
 ### Erros
 
-Essas mensagens de log são usadas para registrar informações sobre condições de erro inesperadas, que eventualmente podem causar falha na atividade do workflow.
+Essas mensagens de log são usadas para registrar informações sobre condições de erro inesperadas, que eventualmente podem causar falha na atividade do fluxo de trabalho.
 
 <table> 
  <thead> 

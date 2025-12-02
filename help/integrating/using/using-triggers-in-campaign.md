@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 74%
@@ -23,13 +24,13 @@ ht-degree: 74%
 >
 >Para criar Triggers, você precisará da função **[!UICONTROL Administration]** ou estar no grupo de segurança **[!UICONTROL Administrators]**. Para obter mais informações, consulte esta [página](../../administration/using/list-of-roles.md).
 
-É recomendável definir os comportamentos que deseja monitorar antecipadamente no Adobe Experience Cloud (**[!UICONTROL Triggers]** serviço principal). Para obter mais informações, consulte a [documentação da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=pt-BR). Observe que, ao definir o acionador, é necessário ativar os aliases. Para cada comportamento (navegação/abandono de formulário, adição/exclusão de produtos, sessão expirada etc.), um novo acionador deve ser adicionado na Adobe Experience Cloud.
+É recomendável definir os comportamentos que deseja monitorar antecipadamente no Adobe Experience Cloud (**[!UICONTROL Triggers]** serviço principal). Para obter mais informações, consulte a [documentação da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=pt-BR). Observe que, ao definir o acionador, é necessário habilitar os aliases. Para cada comportamento (navegação/abandono de formulário, adição/exclusão de produtos, sessão expirada etc.), um novo acionador deve ser adicionado na Adobe Experience Cloud.
 
 Agora é necessário criar um evento de acionador no Adobe Campaign com base em um acionador existente da Adobe Experience Cloud.
 
 Estas são as etapas para colocar o acionador em prática:
 
-1. Clique no logotipo **Adobe**, no canto superior esquerdo, em seguida selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**.
+1. Clique no logotipo **Adobe**, no canto superior esquerdo, e selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**.
 
    ![](assets/remarketing_1.png)
 
@@ -38,7 +39,7 @@ Estas são as etapas para colocar o acionador em prática:
    ![](assets/remarketing_2.png)
 
 1. Selecione o acionador da Adobe Experience Cloud que deseja usar e clique em **[!UICONTROL Next]**.
-1. Configure as propriedades gerais do acionador. Nesta etapa do assistente, especifique também o canal e o targeting dimension a serem usados para o acionador (consulte [Targeting dimensions e recursos](../../automating/using/query.md#targeting-dimensions-and-resources)). Em seguida, confirme a criação do acionador.
+1. Configure as propriedades gerais do acionador. Nesta etapa do assistente, especifique também o canal e a dimensão de direcionamento a serem usados para o acionador (consulte [Dimensões de direcionamento e recursos](../../automating/using/query.md#targeting-dimensions-and-resources)). Em seguida, confirme a criação do acionador.
 1. Clique no botão à direita do campo **[!UICONTROL Event content and enrichment]** para visualizar o conteúdo do payload. Essa tela também permite enriquecer os dados do evento com os dados do perfil armazenados no banco de dados do Adobe Campaign. O enriquecimento é executado da mesma maneira que é executado para uma mensagem transacional padrão.
 
    ![](assets/remarketing_3.png)

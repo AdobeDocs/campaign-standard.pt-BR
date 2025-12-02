@@ -6,23 +6,24 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 44b59f56-99be-41ae-af8d-76272bb94d18
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Acessar a Integração do Adobe Campaign Standard com o Aplicativo de Autoatendimento do Microsoft Dynamics 365
+# Acesse a Integração do Adobe Campaign Standard com o aplicativo de autoatendimento do Microsoft Dynamics 365
 
-Essa configuração exigirá que você trabalhe com um Administrador de Experience Cloud (EC) na sua organização. Essas são as etapas iniciais necessárias para fornecer acesso à interface do aplicativo de integração de autoatendimento. Depois de ter acesso à ferramenta, você definirá conexões com seus dados e configurará o fluxo de dados entre o Adobe Campaign e o Microsoft Dynamics 365.
+Essa configuração exigirá que você trabalhe com um Administrador do Experience Cloud (EC) na sua organização. Essas são as etapas iniciais necessárias para fornecer acesso à interface do aplicativo de integração de autoatendimento. Depois de ter acesso à ferramenta, você definirá conexões com seus dados e configurará o fluxo de dados entre o Adobe Campaign e o Microsoft Dynamics 365.
 
 >[!NOTE]
 >
->Entre em contato com o representante de Adobe e forneça os nomes da organização e da instância da Adobe Campaign Standard. Um tíquete será registrado para solicitar que o aplicativo de integração seja habilitado para sua organização.
+>Entre em contato com o representante da Adobe e forneça os nomes da organização e da instância da Adobe Campaign Standard. Um tíquete será registrado para solicitar que o aplicativo de integração seja habilitado para sua organização.
 
 ## Adicionar um perfil de produto
 
@@ -30,7 +31,7 @@ Nesta seção, você aprenderá a conceder acesso à integração do Adobe Campa
 
 >[!IMPORTANT]
 >
-> Essas etapas exigem a função de **Administrador** no Experience Cloud da organização.
+> Essas etapas exigem a função de **Administrador** na Experience Cloud para sua organização.
 >
 
 1. Navegue até https://experience.adobe.com/ e faça logon na Adobe Experience Cloud.
@@ -38,7 +39,7 @@ Nesta seção, você aprenderá a conceder acesso à integração do Adobe Campa
 
    ![](assets/do-not-localize/d365-to-acs-access-3.png)
 
-1. Clique em **[!UICONTROL Products]** para acessar suas soluções de Experience Cloud.
+1. Clique em **[!UICONTROL Products]** para acessar suas soluções da Experience Cloud.
 
    ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
@@ -56,7 +57,7 @@ Nesta seção, você aprenderá a conceder acesso à integração do Adobe Campa
 
    ![](assets/do-not-localize/d365-to-acs-access-8.png)
 
-1. Clique no botão **[!UICONTROL New Profile]** e adicione uma nova entrada denominada: **Campaign Standard - your-prod-instance-name - Integração do D365/ACS**
+1. Clique no botão **[!UICONTROL New Profile]** e adicione uma nova entrada denominada: **Campaign Standard - your-prod-instance-name - Integração D365/ACS**
 
    * Se você vir essa entrada na lista, não é necessário continuar. Clique em **Adobe Campaign Standard** no menu esquerdo e verifique as outras instâncias do Campaign.
 
@@ -72,11 +73,11 @@ Nesta seção, você aprenderá a conceder acesso à integração do Adobe Campa
 
    ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
-## Conceder acesso aos usuários {#add-users-to-profile}
+## Conceder acesso a usuários {#add-users-to-profile}
 
 Na página **[!UICONTROL Products]**, selecione sua instância do Campaign e siga as etapas abaixo:
 
-1. Clique no novo perfil criado anteriormente: **Campaign Standard - your-prod-instance-name - Integração do D365/ACS**
+1. Clique no novo perfil que você criou anteriormente: **Campaign Standard - your-prod-instance-name - Integração do D365/ACS**
 
    ![](assets/do-not-localize/d365-to-acs-access-15.png)
 

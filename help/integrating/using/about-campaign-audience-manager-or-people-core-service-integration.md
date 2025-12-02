@@ -1,14 +1,15 @@
 ---
 title: Sobre a integração do Campaign com o Audience Manager ou do Serviço principal de pessoas
-description: Com a integração do serviço principal Audience Manager / People, é possível compartilhar públicos ou segmentos nas diferentes soluções da Adobe Experience Cloud.
+description: Com a integração do serviço principal Audience Manager/People, é possível compartilhar públicos ou segmentos nas diferentes soluções da Adobe Experience Cloud.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e8b96c66-82f7-4adb-88b2-b7e0f7c4a96f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 20%
@@ -24,11 +25,11 @@ ht-degree: 20%
 O Adobe Campaign permite trocar e compartilhar públicos/segmentos com os diferentes aplicativos da Adobe Experience Cloud. A integração do **Adobe Campaign** com o **Serviço principal de pessoas** (também conhecido como **Serviço principal de Perfis e Públicos**) ou o Adobe Audience Manager permite:
 
 * Importar públicos/segmentos de diferentes soluções da Adobe Experience Cloud para a Adobe Campaign. Os públicos podem ser importados do menu **[!UICONTROL Audiences]** no Adobe Campaign.
-* Exportar audiências como audiences/segmentos compartilhados. Esses audiences podem ser usados nas diferentes soluções da Adobe Experience Cloud que você usa. Os públicos podem ser exportados após o direcionamento de atividades em um fluxo de trabalho, usando a atividade **[!UICONTROL Save audience]**.
+* Exportar audiências como audiences/segmentos compartilhados. Esses públicos-alvos podem ser usados nas diferentes soluções da Adobe Experience Cloud que você usa. Os públicos podem ser exportados após o direcionamento de atividades em um fluxo de trabalho, usando a atividade **[!UICONTROL Save audience]**.
 
 A integração oferece suporte a dois tipos de Adobe Experience Cloud IDs:
 
-* **ID do visitante**: esse tipo de ID permite reconciliar visitantes do Adobe Experience Cloud com perfis do Adobe Campaign. Assim que uma conexão for habilitada por meio do Adobe IMS, o Serviço de ID de visitante do Marketing Cloud será ativado, substituindo o cookie permanente usado pelo Adobe Campaign. Isso permite identificar um visitante e vinculá-lo a um perfil.
+* **ID do visitante**: esse tipo de ID permite reconciliar visitantes do Adobe Experience Cloud com perfis do Adobe Campaign. Assim que uma conexão for habilitada por meio do Adobe IMS, o Serviço de ID de visitante da Marketing Cloud será ativado, substituindo o cookie permanente usado pelo Adobe Campaign. Isso permite identificar um visitante e vinculá-lo a um perfil.
   <br>Uma ID de visitante é vinculada a um perfil assim que o perfil clica em um email enviado pelo Adobe Campaign:
    * Se o perfil já tiver uma ID de visitante, os dados do navegador do perfil permitirão que o Adobe Campaign recupere e vincule automaticamente o perfil à ID de visitante.
    * Se nenhuma ID de visitante for encontrada, uma nova ID será criada. Essa ID de visitante é armazenada nos logs de rastreamento do perfil.

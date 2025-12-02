@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '675'
 ht-degree: 3%
@@ -30,7 +31,7 @@ Por exemplo, você deseja que um evento de &quot;Abandono de carrinho&quot; seja
 
 ## Envio de um evento transacional {#sending-a-transactional-event}
 
-O evento transacional é enviado por meio de uma solicitação POST com a seguinte estrutura de URL:
+O evento transacional é enviado por uma solicitação POST com a seguinte estrutura de URL:
 
 ```
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
@@ -48,7 +49,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 * **&lt;eventID>**: o tipo de evento que você deseja enviar. Essa ID é gerada ao criar a configuração do evento (consulte [esta seção](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 
-### cabeçalho da solicitação POST
+### cabeçalho de solicitação POST
 
 A solicitação deve conter um cabeçalho &quot;Content-Type: application/json&quot;.
 
@@ -65,7 +66,7 @@ Você deve adicionar um conjunto de caracteres, por exemplo **utf-8**. Observe q
 
 ### corpo da solicitação POST
 
-Os dados do evento estão contidos no corpo do POST JSON. A estrutura do evento depende de sua definição. O botão de visualização da API na tela de definição de recursos fornece um exemplo de solicitação. Consulte [esta seção](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+Os dados do evento estão contidos no corpo POST JSON. A estrutura do evento depende de sua definição. O botão de visualização da API na tela de definição de recursos fornece um exemplo de solicitação. Consulte [esta seção](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
 Os seguintes parâmetros opcionais podem ser adicionados ao conteúdo do evento para gerenciar o envio de mensagens transacionais vinculadas ao evento:
 
@@ -78,7 +79,7 @@ Os seguintes parâmetros opcionais podem ser adicionados ao conteúdo do evento 
 
 ### Resposta à solicitação POST
 
-A resposta POST retorna o status do evento transacional no momento em que foi criada. Para recuperar o status atual (dados do evento, status do evento...), use a Chave primária retornada pela resposta POST em uma solicitação GET:
+A resposta POST retorna o status do evento transacional no momento em que ele foi criado. Para recuperar o status atual (dados do evento, status do evento...), use a Chave primária retornada pela resposta POST em uma solicitação GET:
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>/`
 

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: andjoin,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: b03c6df3-0104-4900-9468-46824d62e0a6
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 98%
@@ -31,7 +32,7 @@ A atividade **[!UICONTROL AND-join]** só acionará a transição de saída depo
 ## Configuração {#configuration}
 
 1. Solte várias atividades, como consultas, no fluxo de trabalho para formar pelo menos duas ramificações de execução diferentes.
-1. Arraste e solte uma atividade **[!UICONTROL AND-join]** no seu workflow.
+1. Arraste e solte uma atividade **[!UICONTROL AND-join]** no seu fluxo de trabalho.
 1. Conecte-a depois das duas ramificações diferentes que você quer sincronizar.
 1. Selecione e abra a atividade usando o botão ![](assets/edit_darkgrey-24px.png) das ações rápidas exibidas.
 1. Selecione o conjunto principal a ser mantido na transição de saída. Se você não selecionar nenhum conjunto, uma população aleatória será enviada da atividade.
@@ -39,6 +40,6 @@ A atividade **[!UICONTROL AND-join]** só acionará a transição de saída depo
 
 ## Exemplo {#example}
 
-O exemplo a seguir mostra duas ramificações de fluxo de trabalho antes de elas serem unidas à atividade **[!UICONTROL AND-join]**. A extração de arquivos só poderá ocorrer quando as três transições de entrada da atividade **[!UICONTROL AND-join]** estiverem ativadas.
+O exemplo a seguir mostra duas ramificações de fluxo de trabalho antes de elas serem unidas à atividade **[!UICONTROL AND-join]**. A extração de arquivos só poderá ocorrer quando as três transições de entrada da atividade **[!UICONTROL AND-join]** estiverem habilitadas.
 
 ![](assets/wkf_and-join_example.png)

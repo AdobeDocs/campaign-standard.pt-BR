@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
-source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 1%
@@ -25,13 +26,13 @@ Para verificar se a integração Triggers - Campaign está ativada, clique no lo
 
 Se você o vir, siga para a próxima etapa.
 
-Caso contrário, entre em contato com seu executivo de conta da Adobe ou com um parceiro de serviços profissionais. Consulte [Ativando a funcionalidade](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
+Caso contrário, entre em contato com seu executivo de conta da Adobe ou com seu parceiro de serviços profissionais. Consulte [Ativando a funcionalidade](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
 
 **Tente criar um gatilho**
 
 Siga as etapas descritas em [Criação de um acionador mapeado no Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) para criar um acionador.
 
-Se o acionador for criado, avance para a próxima etapa. Caso contrário, significa que a conexão do ponto final do acionador falhou. Verifique se Triggers está provisionado em Experience Cloud (Serviços de ativação). Se não estiver, entre em contato com seu executivo de conta da Adobe ou com um parceiro de serviços profissionais. As seguintes informações são obrigatórias:
+Se o acionador for criado, avance para a próxima etapa. Caso contrário, significa que a conexão do ponto final do acionador falhou. Verifique se o Triggers está provisionado no Experience Cloud (Serviços de ativação). Caso contrário, entre em contato com seu executivo de conta da Adobe ou com seu parceiro de serviços profissionais. As seguintes informações são obrigatórias:
 
 * Nome da empresa do Marketing Cloud
 * ID da organização
@@ -41,7 +42,7 @@ Se o acionador for criado, avance para a próxima etapa. Caso contrário, signif
 
 Siga as etapas descritas em [Criar um acionador mapeado no Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) para publicar o acionador.
 
-Se a publicação for bem-sucedida, avance para a próxima etapa. Caso contrário, entre em contato com o Adobe para reiniciar sua instância e tente novamente.
+Se a publicação for bem-sucedida, avance para a próxima etapa. Caso contrário, entre em contato com a Adobe para reiniciar sua instância e tente novamente.
 
 **Gerar o acionador a partir do site**
 
@@ -57,14 +58,14 @@ Se o acionador for recebido pelo Analytics, siga para a próxima etapa. Caso con
 
 Caso contrário, verifique se o acionador foi recebido do pipeline.
 
-Caso contrário, entre em contato com o Adobe para verificar a configuração dos pontos de extremidade do pipeline.
+Caso contrário, entre em contato com a Adobe para verificar a configuração dos pontos de extremidade do pipeline.
 
 Se estiver, siga estas diretrizes:
 
 * Verifique o tipo de ID de reconciliação na fonte de dados do Campaign.
 * A fonte de dados da ID do cliente é criada por meio dos atributos do cliente.
 * Verifique a ID da fonte de dados.
-* Peça ao Adobe para reiniciar a instância do Campaign após a configuração da fonte de dados.
+* Peça ao Adobe para reiniciar a instância do Campaign após a configuração da Fonte de dados.
 * Verifique os problemas de análise do acionador no relatório de acionador.
 
 **O gatilho está com status pendente?**

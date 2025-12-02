@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: d6ebce3c-1e84-4b3b-a68d-90df4680af64
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 1%
@@ -31,7 +32,7 @@ O parâmetro **_lineCount** permite limitar o número de recursos listados na re
 
 ***Solicitação de exemplo***
 
-Exemplo de solicitação de GET para exibir 1 registro do recurso de perfil.
+Exemplo de solicitação do GET para exibir 1 registro do recurso de perfil.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
@@ -74,4 +75,4 @@ Por padrão, o nó **próximo** não está disponível ao interagir com tabelas 
 
 >[!NOTE]
 >
->O número de registros acima do qual uma tabela é considerada grande é definido na opção Campaign Standard **XtkBigTableThreshold**. O valor padrão é 100.000 registros.
+>O número de registros acima do qual uma tabela é considerada grande é definido na opção **XtkBigTableThreshold** da Campaign Standard. O valor padrão é 100.000 registros.

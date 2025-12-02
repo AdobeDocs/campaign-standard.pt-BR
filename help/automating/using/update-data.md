@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: writer,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: d362563f-5ab3-4f7f-ae9f-a42b6f0bb2b9
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 97%
@@ -35,7 +36,7 @@ A atividade **Update data** pode ser usada após a importação de um arquivo pa
 
 ## Configuração {#configuration}
 
-1. Arraste e solte uma atividade **[!UICONTROL Update data]** no seu workflow.
+1. Arraste e solte uma atividade **[!UICONTROL Update data]** no seu fluxo de trabalho.
 1. Selecione e abra a atividade usando o botão ![](assets/edit_darkgrey-24px.png) das ações rápidas exibidas.
 1. Especificar o **[!UICONTROL Operation type]** que será executado:
 
@@ -53,8 +54,8 @@ A atividade **Update data** pode ser usada após a importação de um arquivo pa
 
 1. Na guia **[!UICONTROL Identification]**, especifique como identificar os registros no banco de dados:
 
-   * **[!UICONTROL Using the targeting dimension]**: selecione a **[!UICONTROL Dimension to update]** e especifique as **[!UICONTROL Keys for finding records]**. Para mais informações, consulte [Targeting dimensions e recursos](../../automating/using/query.md#targeting-dimensions-and-resources).
-   * Se os dados digitados corresponderem a um targeting dimension existente, selecione a opção **[!UICONTROL Using one or more links]**. Em seguida, selecione a **[!UICONTROL Dimension to update]**.
+   * **[!UICONTROL Using the targeting dimension]**: selecione a **[!UICONTROL Dimension to update]** e especifique as **[!UICONTROL Keys for finding records]**. Para mais informações, consulte [Dimensões de direcionamento e recursos](../../automating/using/query.md#targeting-dimensions-and-resources).
+   * Se os dados digitados corresponderem a uma dimensão de direcionamento existente, selecione a opção **[!UICONTROL Using one or more links]**. Em seguida, selecione a **[!UICONTROL Dimension to update]**.
 
    Se o tipo de operação selecionado exigir uma atualização, você precisará usar chaves de reconciliação.
 

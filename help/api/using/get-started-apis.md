@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-source-git-commit: c14a52f5425972899f51af7ee6ea2d5796c46765
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
@@ -37,7 +38,7 @@ Com as APIs do Adobe Campaign Standard você obtém acesso às seguintes funcion
 
 >[!NOTE]
 >
->Antes de executar chamadas de API, verifique as limitações de escala correspondentes ao seu contrato de licença. Para obter mais informações, consulte [esta página](https://helpx.adobe.com/br/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+>Antes de executar chamadas de API, verifique as limitações de escala correspondentes ao seu contrato de licença. Para obter mais informações, consulte [esta página](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
 
 Para usar a API do Campaign Standard, você precisa ter uma conta do I/O Adobe. Esta é uma primeira etapa obrigatória para avançar e descobrir os recursos da API.
 Para obter mais informações, consulte [esta seção](../../api/using/setting-up-api-access.md).
@@ -50,4 +51,4 @@ As APIs que fornecemos usam **conceitos padrão** com uma interface REST e carga
 
 Todos os pontos de extremidade são descritos extensivamente nesta documentação com as noções gerais que você deve ter para manipular a API, a referência completa da API, exemplos de código e guias de início rápido.
 
-Se algo estiver incorreto ou ausente, pergunte à [comunidade](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=pt).
+Se algo estiver incorreto ou ausente, pergunte à [comunidade](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community).

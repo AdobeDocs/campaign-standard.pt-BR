@@ -3,10 +3,11 @@ title: Exportar dados do Campaign para a Adobe Experience Platform
 description: Saiba como exportar dados do Campaign Standard para o Adobe Experience Platform.
 audience: integrating
 content-type: reference
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 70%
@@ -15,13 +16,13 @@ ht-degree: 70%
 
 # Exportar dados do Campaign para a Adobe Experience Platform {#sources}
 
-Para exportar dados do Campaign Standard para o Adobe Real-time Customer Data Platform (RTCDP), primeiro é necessário criar um fluxo de trabalho no Campaign Standard para exportar para seu serviço de armazenamento do Amazon (S3) ou local de armazenamento do Azure Blob os dados que você deseja compartilhar.
+Para exportar dados do Campaign Standard para a Adobe Real-time Customer Data Platform (RTCDP), primeiro é necessário criar um fluxo de trabalho no Campaign Standard para exportar para seu local de armazenamento do Amazon Storage Service (S3) ou do Azure Blob os dados que você deseja compartilhar.
 
 Depois que o fluxo de trabalho tiver sido configurado e os dados forem enviados para o local de armazenamento, será necessário conectar o local de armazenamento de blobs do S3 ou do Azure como uma **Origem** na Adobe Experience Platform.
 
 >[!NOTE]
 >
->Observe que é recomendável exportar apenas os dados gerados pelo Campaign (por exemplo, envios, aberturas, cliques etc.) para a Adobe Experience Platform. Os dados assimilados de uma fonte de terceiros (como seu CRM) devem ser importados diretamente para a Adobe Experience Platform.
+>Observe que é recomendável exportar apenas os dados gerados pelo Campaign (por exemplo: envios, aberturas, cliques, etc.) para a Adobe Experience Platform. Os dados assimilados de uma fonte de terceiros (como seu CRM) devem ser importados diretamente para a Adobe Experience Platform.
 
 ## Criar um fluxo de trabalho de exportação no Campaign Standard
 
@@ -51,7 +52,7 @@ Tópicos relacionados:
 
 ## Conectar seu local de armazenamento como uma Origem
 
-As principais etapas para conectar seu Serviço de Armazenamento da Amazon (S3) ou local de armazenamento Azure Blob como um **Source** na Adobe experience Platform estão listadas abaixo. Informações detalhadas sobre cada uma dessas etapas estão disponíveis na [Documentação dos conectores de origem](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR).
+As principais etapas para conectar seu Serviço de Armazenamento da Amazon (S3) ou local de armazenamento de Azure Blob como um **Source** na Adobe Experience Platform estão listadas abaixo. Informações detalhadas sobre cada uma dessas etapas estão disponíveis na [Documentação dos conectores de origem](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR).
 
 1. No menu **[!UICONTROL Sources]** da Adobe Experience Platform, crie uma conexão com o local de armazenamento:
 
@@ -64,7 +65,7 @@ As principais etapas para conectar seu Serviço de Armazenamento da Amazon (S3) 
 
    ![](assets/rtcdp-connector.png)
 
-1. Configure um fluxo de dados para uma conexão em lote de armazenamento na nuvem. Um fluxo de dados é uma tarefa agendada que recupera e assimila dados do local de armazenamento para um conjunto de dados da Adobe Experience Platform. Essas etapas permitem configurar a assimilação de dados do local de armazenamento, incluindo a seleção de dados e o mapeamento dos campos CSV para um esquema XDM.
+1. Configure um fluxo de dados para uma conexão em lote de armazenamento na nuvem. Um fluxo de dados é uma tarefa agendada que recupera e assimila dados do local de armazenamento para um conjunto de dados da Adobe Experience Platform. Essas etapas permitem configurar a ingestão de dados do local de armazenamento, incluindo a seleção de dados e o mapeamento dos campos CSV para um esquema XDM.
 
    Informações detalhadas estão disponíveis [nesta página](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html?lang=pt-BR).
 

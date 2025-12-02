@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: reconciliation,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: cfca6202-791d-4baf-b5ed-677d2480cf06
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 52%
+ht-degree: 33%
 
 ---
 

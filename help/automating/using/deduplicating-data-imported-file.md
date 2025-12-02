@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: dedup,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 631eb661-a696-4352-aa58-9097b391723e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 83%
@@ -46,7 +47,7 @@ Este fluxo de trabalho é composto por:
 
 * Uma atividade [Deduplication](../../automating/using/deduplication.md). A desduplicação é feita diretamente após a importação do arquivo e antes da inserção dos dados no banco de dados. Por conseguinte, ela deve se basear no **[!UICONTROL Temporary resource]** da atividade de **[!UICONTROL Load file]**.
 
-  Neste exemplo, queremos manter uma única entrada por endereço de email exclusivo contido no arquivo. A identificação de duplicatas é, portanto, feita na coluna de **email** do recurso temporário. Com isso, dois endereços de email são exibidos duas vezes no arquivo. Assim sendo, duas linhas são consideradas duplicatas.
+  Neste exemplo, queremos manter uma única entrada por endereço de email exclusivo contido no arquivo. A identificação de duplicados é, portanto, feita na coluna de **email** do recurso temporário. Com isso, dois endereços de email são exibidos duas vezes no arquivo. Assim sendo, duas linhas são consideradas duplicados.
 
   ![](assets/deduplication_example2_dedup.png)
 

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,delivery,scheduler
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 32d9d174-8438-48d7-b876-33a0c35d9549
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 76%
@@ -56,10 +57,10 @@ Você pode enviar um email todas as terças-feiras a todos os clientes com ofert
 1. Em **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, arraste e solte uma atividade de [Entrega de email](../../automating/using/email-delivery.md).
 1. Clique na atividade e selecione ![](assets/edit_darkgrey-24px.png) para editar.
 1. Selecione **[!UICONTROL Recurring email]** e clique em **[!UICONTROL Next]**.
-1. Selecione um template de email e clique em **[!UICONTROL Next]**.
+1. Selecione um modelo de email e clique em **[!UICONTROL Next]**.
 1. Insira as propriedades do email e clique em **[!UICONTROL Next]**.
 1. Para criar o layout do email, clique em **[!UICONTROL Use Email Designer]**.
-1. Insira elementos ou selecione um template.
+1. Insira elementos ou selecione um modelo.
 1. Personalize o email usando campos e links.
 1. Clique em **[!UICONTROL Save]**.
 

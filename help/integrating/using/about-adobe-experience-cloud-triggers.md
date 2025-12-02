@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: working-with-campaign-and-triggers
 context-tags: trigger,overview;trigger,main
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: ea69225fdf8b69025ff93b87b5b47ac9095b0eea
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 91%
@@ -22,7 +23,7 @@ A integração entre o serviço principal **[!UICONTROL Triggers]** da Ativaçã
 
 Na Adobe Experience Cloud, você define os diferentes acionadores, ou seja, os comportamentos dos clientes que gostaria de monitorar, por exemplo, todos os clientes que abandonaram a visita no site, fizeram uma pesquisa, mas não fizeram uma compra no site ou até mesmo os clientes cuja sessão expirou. Ao criar um acionador, você define a condição dele e os dados que serão enviados no evento (upload) para o Adobe Campaign.
 
-No Adobe Campaign, você seleciona o acionador que foi criado, aprimora os dados do evento com dados do datamart e define um template de mensagem transacional vinculado a esse acionador. Por exemplo, quando um cliente abandona a visita no site, um evento é enviado ao Adobe Campaign, que pode aproveitá-lo por meio de um email de remarketing que é enviado ao cliente em 15 minutos.
+No Adobe Campaign, você seleciona o acionador que foi criado, aprimora os dados do evento com dados do datamart e define um modelo de mensagem transacional vinculado a esse acionador. Por exemplo, quando um cliente abandona a visita no site, um evento é enviado ao Adobe Campaign, que pode aproveitá-lo por meio de um email de remarketing que é enviado ao cliente em 15 minutos.
 
 O diagrama a seguir detalha o funcionamento dessa integração.
 
@@ -30,7 +31,7 @@ O diagrama a seguir detalha o funcionamento dessa integração.
 
 **Tópicos relacionados:**
 
-* Saiba mais sobre os diferentes tipos de acionadores: [documentação da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html?lang=pt-BR).
+* Saiba mais sobre os diferentes tipos de acionadores: [documentação da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html).
 * Assista ao vídeo [Trigger Remarketing Messages based on Site Activity](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
 * Veja nossos dois [Casos de uso de acionadores de abandono](../../integrating/using/abandonment-triggers-use-cases.md).
 
@@ -44,9 +45,9 @@ No Adobe Campaign, as principais etapas do processo do usuário são:
 
 1. Criar um evento de acionador vinculado a um acionador da Adobe Experience Cloud.
 1. Publicar o evento de acionador.
-1. Definir o conteúdo do template de mensagem transacional.
-1. Testar o template (crie um perfil de teste e envie uma prova).
-1. Publicar o template de mensagem transacional.
+1. Definir o conteúdo do modelo de mensagem transacional.
+1. Testar o modelo (crie um perfil de teste e envie uma prova).
+1. Publicar o modelo de mensagem transacional.
 
 Os casos de uso completos estão descritos [nesta seção](../../integrating/using/abandonment-triggers-use-cases.md).
 
@@ -57,7 +58,7 @@ Estas são algumas observações importantes a serem consideradas antes de usar 
 * Os acionadores não são compatíveis com notificações por push. Só há compatibilidade com email e SMS.
 * Você pode aprimorar o acionador com metadados capturados pelo Analytics, como ID de email, nome de página etc.
 * É possível reconciliar o acionador em um perfil armazenado no Campaign Standard e usar os campos do perfil para personalizar a mensagem.
-* Assim que um acionador é recebido, ele é processado, reconciliado e enviado. O procedimento completo leva de 5 a 15 minutos, dependendo do volume de acionadores recebidos e do número de campos de personalização usados no template.
+* Assim que um acionador é recebido, ele é processado, reconciliado e enviado. O procedimento completo leva de 5 a 15 minutos, dependendo do volume de acionadores recebidos e do número de campos de personalização usados no modelo.
 
 >[!NOTE]
 >

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: reconciliation,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
-source-git-commit: c2c8d2d05bbc376e2153448ca0a9e6ba0f367420
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 78%
@@ -30,7 +31,7 @@ A atividade **[!UICONTROL Reconciliation]** é basicamente utilizada para fins d
 
 * Adição de relações: uma guia **[!UICONTROL Links]** permite adicionar links entre os dados de entrada e várias outras dimensões do banco de dados do Adobe Campaign.
 
-  Por exemplo, um arquivo contendo dados de compra também pode ter informações para identificar os produtos comprados, bem como o comprador. Portanto, duas dimensões adicionais (para além da dimensão **Compras**) estão relacionadas aos dados do arquivo: **Produtos** e **Perfis**. É necessário criar relações entre elas e a dimensão **Purchases** (consulte o exemplo a seguir).
+  Por exemplo, um arquivo contendo dados de compra também pode ter informações para identificar os produtos comprados, bem como o comprador. Portanto, duas dimensões adicionais (para além da dimensão **Compras**) estão relacionadas aos dados do arquivo: **Produtos** e **Perfis**. É necessário criar relações entre elas e a dimensão **Compras** (consulte o exemplo a seguir).
 
   Para definir uma relação, uma coluna é adicionada aos dados de entrada para fazer referência à chave estrangeira da dimensão vinculada.
 
@@ -49,7 +50,7 @@ Embora a atividade **Enrichment** permita a definição de dados adicionais a se
 
 ## Configuração {#configuration}
 
-1. Arraste e solte uma atividade **[!UICONTROL Reconciliation]** no fluxo de trabalho, seguindo uma transição que contém uma população cujo targeting dimension não é diretamente proveniente do Adobe Campaign. Para saber mais, consulte [Targeting dimensions e recursos](../../automating/using/query.md#targeting-dimensions-and-resources).
+1. Arraste e solte uma atividade **[!UICONTROL Reconciliation]** no fluxo de trabalho, seguindo uma transição que contém uma população cuja dimensão de direcionamento não é diretamente proveniente do Adobe Campaign. Para saber mais, consulte [Dimensões de direcionamento e recursos](../../automating/using/query.md#targeting-dimensions-and-resources).
 1. Selecione e abra a atividade usando o botão ![](assets/edit_darkgrey-24px.png) das ações rápidas exibidas.
 1. Se quiser definir links entre os dados de entrada e outras dimensões do banco de dados, acesse a guia **[!UICONTROL Links]**.
 
@@ -57,9 +58,9 @@ Embora a atividade **Enrichment** permita a definição de dados adicionais a se
 
 1. Se quiser simplesmente identificar os dados de entrada, acesse a guia **[!UICONTROL Identification]** e marque a caixa **[!UICONTROL Identify the document from the working data]**.
 
-   Selecione o targeting dimension para o qual deseja reconciliar os dados de entrada.
+   Selecione a dimensão de direcionamento para o qual deseja reconciliar os dados de entrada.
 
-   Adicione critérios de reconciliação para vincular um registro de transição de entrada a um registro de targeting dimension selecionado. Se vários critérios forem especificados, todos eles deverão ser verificados para que o link funcione entre todos os dados.
+   Adicione critérios de reconciliação para vincular um registro de transição de entrada a um registro de dimensão de direcionamento selecionado. Se vários critérios forem especificados, todos eles deverão ser verificados para que o link funcione entre todos os dados.
 
    Escolha o modo **[!UICONTROL Processing unidentified source lines]**:
 

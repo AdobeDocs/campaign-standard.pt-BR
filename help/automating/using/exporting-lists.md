@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: b39ce1f6-0c5b-4270-86a1-b79c49cd199c
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 5%
@@ -80,6 +81,6 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 Este vídeo mostra como configurar listas.
 
->[!VIDEO](https://video.tv.adobe.com/v/31863/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
 
 Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

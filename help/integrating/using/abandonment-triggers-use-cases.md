@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 90%
@@ -44,7 +45,7 @@ Para mais informações, consulte [Configuração de soluções e serviços](../
 
 Nesse caso de uso, criaremos um acionador simples que será acionado toda vez que um cliente abandonar uma visita no site. Esse exemplo supõe que o DTM já está coletando e enviando dados para o Adobe Analytics e que todos os eventos já foram criados.
 
-### Criar um acionador de Experience Cloud {#creating-an-experience-cloud-trigger}
+### Criar um acionador da Experience Cloud {#creating-an-experience-cloud-trigger}
 
 1. Selecione **[!UICONTROL Manage Triggers]** no menu do Serviço principal de ativação da Experience Cloud.
 
@@ -54,7 +55,7 @@ Nesse caso de uso, criaremos um acionador simples que será acionado toda vez qu
 
    ![](assets/trigger_uc_browse_2.png)
 
-1. Para esse caso de uso, precisamos de um acionador de abandono simples. O objetivo comercial é identificar visitantes que navegam pelo nosso site de reservas de viagem e olham a página &quot;Ofertas&quot;, mas não reservam nenhuma viagem. Após identificar esse público, queremos contatá-lo dentro de um curto período de tempo. Neste exemplo, optamos por enviar o acionador após um período de 10 minutos.
+1. Para esse caso de uso, precisamos de um acionador de abandono simples. O objetivo comercial é identificar visitantes que navegam pelo nosso site de reservas de viagem e olham a página &quot;Ofertas&quot;, mas não reservam nenhuma viagem. Após identificar esse público-alvo, queremos contatá-lo dentro de um curto período de tempo. Neste exemplo, optamos por enviar o acionador após um período de 10 minutos.
 
    ![](assets/trigger_uc_browse_3.png)
 
@@ -73,7 +74,7 @@ No Adobe Campaign, é necessário criar um Acionador vinculado ao que você crio
 
    ![](assets/trigger_uc_browse_5.png)
 
-1. Selecione o canal **[!UICONTROL Email]** e o targeting dimension **[!UICONTROL Real-time event]** e clique em **[!UICONTROL Create]**.
+1. Selecione o canal **[!UICONTROL Email]** e a dimensão de direcionamento **[!UICONTROL Real-time event]** e clique em **[!UICONTROL Create]**.
 
    ![](assets/trigger_uc_browse_6bis.png)
 
@@ -87,13 +88,13 @@ No Adobe Campaign, é necessário criar um Acionador vinculado ao que você crio
 
    ![](assets/trigger_uc_browse_8.png)
 
-1. Publique o template da mensagem. Agora o acionador está ativo e funcional.
+1. Publique o modelo da mensagem. Agora o acionador está ativo e funcional.
 
    ![](assets/trigger_uc_browse_0.png)
 
 ### Execução do cenário {#running-the-scenario}
 
-1. Este caso de uso começa com um email inicial enviado para o seu público com o Adobe Campaign.
+1. Este caso de uso começa com um email inicial enviado para o seu público-alvo com o Adobe Campaign.
 
    ![](assets/trigger_uc_browse_9.png)
 
@@ -121,7 +122,7 @@ No Adobe Campaign, é necessário criar um Acionador vinculado ao que você crio
 
 Nesse caso de uso, vamos criar um acionador para reengajamento com visitantes que foram ao site de reservas de viagem, procuraram um destino, não encontraram resultados que queriam e não fizeram nenhuma reserva depois disso. O processo geral é o mesmo do caso de uso anterior (consulte [Acionador de abandono de navegação](#browse-abandonment-trigger)). Aqui, o foco será em como personalizar a mensagem de email de remarketing.
 
-### Criar um acionador de Experience Cloud {#creating-an-experience-cloud-trigger-1}
+### Criar um acionador da Experience Cloud {#creating-an-experience-cloud-trigger-1}
 
 Siga as etapas descritas no caso de uso anterior para criar o acionador da Experience Cloud. Consulte [Criar um acionador da Experience Cloud](#creating-an-experience-cloud-trigger). A principal diferença é a definição do acionador.
 
@@ -144,7 +145,7 @@ Na seção **[!UICONTROL Include Meta Data]** você pode passar quaisquer dados 
 
    ![](assets/trigger_uc_search_4.png)
 
-1. Ao selecionar um campo personalizado, procure seus metadados de payload na tabela **Evento transactional** (rtEvent), e depois na subtabela **Contexto de evento** (ctx).
+1. Ao selecionar um campo personalizado, procure seus metadados de payload na tabela **Evento transacional** (rtEvent), e depois na subtabela **Contexto de evento** (ctx).
 
    ![](assets/trigger_uc_search_5.png)
 

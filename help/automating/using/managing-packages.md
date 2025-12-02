@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 context-tags: packageDef,overview;packageInstall,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: f9b36b4d-0e9d-4dcf-9079-91dc83764102
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 98%
@@ -34,20 +35,20 @@ Para exibir e modificar o conteúdo de um elemento, clique no rótulo correspond
 
 ### Pacotes padrão {#standard-packages}
 
-**[!UICONTROL Platform]** e **[!UICONTROL Administration]** são dois pacotes incorporados contendo uma lista predefinida de recursos a serem exportados. Eles podem ser abertos no modo somente leitura e só são adequados para exportação.
+**[!UICONTROL Platform]** e **[!UICONTROL Administration]** são dois pacotes integrados contendo uma lista predefinida de recursos a serem exportados. Eles podem ser abertos no modo somente leitura e só são adequados para exportação.
 
 ![](assets/packages_14.png)
 
 >[!IMPORTANT]
 >
->A exportação de pacotes não será autorizada se os recursos exportados tiverem IDs padrão. Portanto, as IDs dos recursos exportáveis devem ser alteradas usando um nome diferente dos templates fornecidos como padrão pelo Adobe Campaign Standard. Por exemplo, para exportar perfis de teste, não use uma ID contendo o valor “SDM” ou “sdm”.
+>A exportação de pacotes não será autorizada se os recursos exportados tiverem IDs padrão. Portanto, as IDs dos recursos exportáveis devem ser alteradas usando um nome diferente dos modelos fornecidos como padrão pelo Adobe Campaign Standard. Por exemplo, para exportar perfis de teste, não use uma ID contendo o valor “SDM” ou “sdm”.
 >
 >Ao tentar exportar pacotes que contêm IDs padrão, você pode ver erros como: “The &#39;Brands (branding)&#39; entity type uses a default ID (&#39;BRD1&#39;) that may cause a conflict when importing the package. Change this name and repeat the operation.”
 
 As etapas de exportação de pacote são descritas na seção [Exportação de um pacote](#exporting-a-package).
 
 * O pacote **[!UICONTROL Platform]** reúne todos os recursos adicionados durante a configuração técnica: recursos personalizados, conjuntos de recursos personalizados, acionadores e opções de aplicativo com o tipo **[!UICONTROL System]**.
-* O pacote **[!UICONTROL Administration]** agrupa todos os objetos adicionados durante a configuração dos negócios como: templates de campanha, templates de conteúdo, templates de entrega, templates de landing page, templates de programa e templates de fluxo de trabalho.
+* O pacote **[!UICONTROL Administration]** agrupa todos os objetos adicionados durante a configuração dos negócios como: modelos de campanha, modelos de conteúdo, modelos de entrega, modelos de landing page, modelos de programa e modelos de fluxo de trabalho.
 
   Ele também inclui estes objetos: blocos de conteúdo, target mappings, contas externas, unidades organizacionais, opções de aplicativo com o tipo **[!UICONTROL User]**, funções, tipologias, regras de tipologia e usuários.
 
@@ -100,7 +101,7 @@ A exportação de um pacote permite salvar um estado específico de um recurso q
 
 >[!CAUTION]
 >
->A exportação de pacotes não será autorizada se os recursos exportados tiverem IDs predefinidas. Portanto, as IDs dos recursos exportáveis devem ser alteradas usando um nome diferente dos templates fornecidos como padrão pelo Adobe Campaign Standard. Por exemplo, para exportar perfis de teste, não use uma ID contendo o valor “SDM” ou “sdm”.
+>A exportação de pacotes não será autorizada se os recursos exportados tiverem IDs predefinidas. Portanto, as IDs dos recursos exportáveis devem ser alteradas usando um nome diferente dos modelos fornecidos como padrão pelo Adobe Campaign Standard. Por exemplo, para exportar perfis de teste, não use uma ID contendo o valor “SDM” ou “sdm”.
 
 1. Em **[!UICONTROL Administration]** > **[!UICONTROL Deployment]** > **[!UICONTROL Package exports]**, selecione um pacote para acessar os detalhes.
 1. Verifique se o pacote contém os dados necessários.

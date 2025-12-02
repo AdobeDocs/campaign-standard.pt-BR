@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: enrichment,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
-source-git-commit: 7bc90f353a804680eb58514737d65cdd0d873fc5
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 77%
@@ -18,7 +19,7 @@ ht-degree: 77%
 
 # Enriquecimento dos dados do perfil com os dados contidos em um arquivo {#enriching-profile-data-with-data-contained-in-a-file}
 
-Este exemplo mostra como enriquecer os dados do perfil com os dados de compra contidos em um arquivo. Consideramos aqui que os dados de compra estão armazenados em um sistema de terceiros. Cada perfil pode ter várias compras armazenadas no arquivo. O objetivo final do fluxo de trabalho é enviar um email aos perfis do público alvo que comprou pelo menos dois itens para agradecer sua lealdade.
+Este exemplo mostra como enriquecer os dados do perfil com os dados de compra contidos em um arquivo. Consideramos aqui que os dados de compra estão armazenados em um sistema de terceiros. Cada perfil pode ter várias compras armazenadas no arquivo. O objetivo final do fluxo de trabalho é enviar um email aos perfis do público alvo que comprou pelo menos dois itens para agradecer sua fidelidade.
 
 O fluxo de trabalho é configurado da seguinte maneira:
 

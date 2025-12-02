@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 208e8629-c3e2-4f36-bae7-46ffc3f56a1b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 12%
@@ -33,5 +34,5 @@ O Adobe Campaign também oferece uma maneira simplificada de executar importaç�
 **Tópicos relacionados**:
 
 * [Importação de dados com modelos de importação](../../automating/using/importing-data-with-import-templates.md)
-* [Definição de templates de importação](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
+* [Definição de modelos de importação](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
 * [Gerenciamento de pacotes](../../automating/using/managing-packages.md)

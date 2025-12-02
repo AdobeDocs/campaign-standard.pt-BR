@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1100'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -32,7 +33,7 @@ Também é possível usar variáveis de eventos de workflows ao editar a express
 
   ![](assets/expression_editor_2.png)
 
-* Editar uma expressão em um workflow. Por exemplo, para adicionar dados a uma atividade.
+* Editar uma expressão em um fluxo de trabalho. Por exemplo, para adicionar dados a uma atividade.
 * Edite uma condição de visibilidade para definir como um bloco no editor de conteúdo HTML é exibido. Nesse caso, a expressão é editada no formato JavaScript e não oferece o uso de funções avançadas como padrão.
 
 ## Editar uma expressão {#edit-an-expression}
@@ -44,7 +45,7 @@ A edição de expressões pode ser usada na janela Audience ao criar um email ou
 1. Acesse a janela de edição de expressões por meio de um dos métodos detalhados na seção [Sobre a edição de expressão avançada](../../automating/using/advanced-expression-editing.md#about-advanced-expression-editing). Envolve os seguintes elementos:
 
    * Um campo de entrada no qual a expressão é definida.
-   * A lista dos campos disponíveis que podem ser usados na expressão e correspondem à dimensão de dimensionamento da query (consulte [Dimensão de dimensionamento e recursos](../../automating/using/query.md#targeting-dimensions-and-resources)).
+   * A lista dos campos disponíveis que podem ser usados na expressão e correspondem à dimensão de dimensionamento da query (consulte [Dimensões de direcionamento e recursos](../../automating/using/query.md#targeting-dimensions-and-resources)).
    * A lista de funções disponíveis, classificadas por categoria.
 
    ![](assets/expression_editor_1.png)
@@ -53,7 +54,7 @@ A edição de expressões pode ser usada na janela Audience ao criar um email ou
 
    Clicar duas vezes em um campo ou expressão adiciona-o à expressão em que o cursor está inserido.
 
-   É possível usar variáveis de eventos de workflows para criar uma expressão. Para obter mais informações, consulte a seção [Personalização de atividades com variáveis de eventos](../../automating/using/customizing-workflow-external-parameters.md).
+   É possível usar variáveis de eventos de fluxos de trabalho para criar uma expressão. Para obter mais informações, consulte a seção [Personalização de atividades com variáveis de eventos](../../automating/using/customizing-workflow-external-parameters.md).
 
 1. Dê um nome específico à sua regra, se necessário. O nome inserido será exibido como o nome da regra no espaço de trabalho do Editor de consultas.
 
@@ -200,7 +201,7 @@ As condições devem ser vinculadas a valores usando um dos operadores a seguir.
    <td> NOT<br /> </td> 
    <td> N/A<br /> </td> 
    <td> É semelhante a <span class="uicontrol">Like</span>. Permite que você não recupere o valor inserido. Aqui o valor inserido também deve conter o caractere curinga <span class="uicontrol">%</span>.<br /> </td> 
-   <td> <strong>@lastName NOT Smi%h</strong>. Aqui, os destinatários correspondem ao nome 'Smi%h' (então Smith, etc.) não são retornados como resultado.<br /> </td> 
+   <td> <strong>@lastName NOT Smi%h</strong>. Aqui, os destinatários correspondem ao nome 'Smi%h' (então Smith, etc.) e, como resultado, não são retornados.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Is empty</span> <br /> </td> 

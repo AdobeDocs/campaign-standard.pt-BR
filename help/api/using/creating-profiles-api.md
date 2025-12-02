@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 69e8d034-6bdd-4b82-bcd7-1ef4be0a59b3
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -21,15 +22,15 @@ A criação de perfis é executada com uma solicitação **POST** no recurso de 
 
 >[!CAUTION]
 >
->Para associar uma <b>orgUnit</b> ao perfil criado, é necessário estender o recurso de perfil com esse campo e, após a publicação da extensão, executar uma solicitação de POST no ponto de extremidade <b>ProfileAndServicesExt</b>.
+>Para associar uma <b>orgUnit</b> ao perfil criado, é necessário estender o recurso de perfil com esse campo e, após a publicação da extensão, executar uma solicitação POST no ponto de extremidade <b>ProfileAndServicesExt</b>.
 >
->Para obter mais informações sobre a extensão de recursos do perfil, consulte a <a href="https://helpx.adobe.com/br/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">documentação do Campaign</a>.
+>Para obter mais informações sobre a extensão de recursos do perfil, consulte a <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">documentação do Campaign</a>.
 
 <br/>
 
 ***Solicitação de exemplo***
 
-Exemplo de solicitação de POST para criar um perfil com o email &quot;john.doe@mail.com&quot;.
+Exemplo de solicitação POST para criar um perfil com o email &quot;john.doe@mail.com&quot;.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \

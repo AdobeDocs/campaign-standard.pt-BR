@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
-source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
@@ -23,19 +24,19 @@ Este artigo explicará como configurar o Adobe Campaign Standard e o Adobe I/O p
 
 ### Extensões de perfil
 
-Ative as &quot;extensões de perfil&quot; no Adobe Campaign Standard.   Isso é necessário para que os campos personalizados no recurso de Perfil sejam sincronizados do Microsoft Dynamics 365.   As etapas para ativá-los são:
+Ative as &quot;extensões de perfil&quot; no Adobe Campaign Standard.   Isso é necessário para que campos personalizados no recurso de Perfil sejam sincronizados do Microsoft Dynamics 365.   As etapas para ativá-los são:
 
 1. Acesse Configurações -> Administração -> Desenvolvimento -> Publicação.
 1. Clique em &quot;Preparar publicação&quot; para preparar uma publicação.
-1. Após a conclusão da preparação, marque a opção &quot;Criar a API de extensão de Perfis e serviços&quot; e clique em &quot;Publish&quot;.
+1. Após a conclusão da preparação, marque a opção &quot;Criar a API de extensão de Perfis e serviços&quot; e clique em &quot;Publicar&quot;.
 
 ## Configurar Adobe I/O {#adobe-io}
 
-O Adobe I/O permite habilitar o acesso da API ao Adobe Campaign Standard, bem como a outros produtos Adobe.   Este artigo detalha como configurar o Adobe I/O para conceder à integração do Adobe Campaign Standard com o Microsoft Dynamics 365 acesso para sincronizar os dados.
+O Adobe I/O permite habilitar o acesso da API ao Adobe Campaign Standard, bem como a outros produtos da Adobe.   Este artigo detalha como configurar o Adobe I/O para conceder à integração do Adobe Campaign Standard com o Microsoft Dynamics 365 acesso para sincronizar os dados.
 
 ### Visão geral
 
-Antes de executar a configuração de pré-integração neste artigo, presume-se que você já tenha sido provisionado e tenha acesso de administrador à instância Campaign Standard da sua organização.  Se isso não tiver acontecido, será necessário entrar em contato com o Atendimento ao cliente do Adobe para concluir o provisionamento do Campaign.
+Antes de executar a configuração de pré-integração neste artigo, presume-se que você já tenha sido provisionado e tenha acesso de administrador à instância do Campaign Standard de sua organização.  Se isso não acontecer, será necessário entrar em contato com o Atendimento ao cliente da Adobe para concluir o provisionamento do Campaign.
 
 >[!CAUTION]
 >
@@ -49,7 +50,7 @@ Será necessário criar um novo projeto do Adobe Developer e configurá-lo para 
 
 Para isso, siga o procedimento abaixo:
 
-1. Navegue até [Adobe Developer Console](https://console.adobe.io/home#) e selecione sua ID de organização de Adobe no menu suspenso na parte superior direita da tela.
+1. Navegue até [Adobe Developer Console](https://console.adobe.io/home#) e selecione sua Adobe Organization ID no menu suspenso na parte superior direita da tela.
 
 1. Em seguida, clique em **[!UICONTROL Create new project]** em **[!UICONTROL Quick Start]**.
 

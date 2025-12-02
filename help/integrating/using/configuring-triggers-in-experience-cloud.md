@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 6%
@@ -19,7 +20,7 @@ ht-degree: 6%
 
 ## Ativação da funcionalidade {#activating-the-functionality}
 
-A funcionalidade deve ser ativada no Adobe Campaign pelo Adobe. Entre em contato com o executivo da sua conta Adobe ou com o parceiro de serviços profissionais.
+A funcionalidade deve ser ativada no Adobe Campaign pelo Adobe. Entre em contato com o executivo da sua conta da Adobe ou com o parceiro de serviços profissionais.
 
 A equipe do Adobe precisará das seguintes informações para ativar os acionadores:
 
@@ -53,11 +54,11 @@ Também é necessário ter um site de trabalho.
 >
 >A configuração do subdomínio é um elemento principal da capacidade de entrega. Verifique se os emails do Adobe Campaign são enviados do mesmo domínio que o usado pelo site.
 
-É necessário configurar o [Experience Cloud DTM Core Service](#configuring-experience-cloud-dtm-core-service), [Experience Cloud People Core Service](#configuring-experience-cloud-people-core-service) e [Campaign](#configuring-triggers-and-aliases-in-campaign) para executar esses casos de uso.
+Você precisa configurar o [Experience Cloud DTM Core Service](#configuring-experience-cloud-dtm-core-service), o [Experience Cloud People Core Service](#configuring-experience-cloud-people-core-service) e o [Campaign](#configuring-triggers-and-aliases-in-campaign) para executar esses casos de uso.
 
-### Configuração do serviço principal Experience Cloud DTM {#configuring-experience-cloud-dtm-core-service}
+### Configuração do serviço principal do Experience Cloud DTM {#configuring-experience-cloud-dtm-core-service}
 
-1. No Experience Cloud DTM Core Service (Dynamic Tag Management), ative o Experience Cloud ID e o Adobe Analytics para as páginas do seu site.
+1. No Experience Cloud DTM Core Service (Dynamic Tag Management), ative a Experience Cloud ID e o Adobe Analytics para as páginas do seu site.
 
    ![](assets/trigger_uc_conf_1.png)
 
@@ -65,9 +66,9 @@ Também é necessário ter um site de trabalho.
 
    ![](assets/trigger_uc_conf_2.png)
 
-### Configuração do Serviço Principal de Pessoas do Experience Cloud {#configuring-experience-cloud-people-core-service}
+### Configuração do Serviço Principal de Pessoas da Experience Cloud {#configuring-experience-cloud-people-core-service}
 
-O alias anteriormente referenciado no DTM precisa ser criado no Experience Cloud People Core Service por meio de um atributo do cliente. Crie um novo e faça referência ao mesmo alias do DTM no código de integração (por exemplo, &quot;visitorid&quot;).
+O alias anteriormente referenciado no DTM precisa ser criado no Serviço principal de pessoas da Experience Cloud por meio de um atributo do cliente. Crie um novo e faça referência ao mesmo alias do DTM no código de integração (por exemplo, &quot;visitorid&quot;).
 
 ![](assets/trigger_uc_conf_3.png)
 
@@ -81,7 +82,7 @@ O alias anteriormente referenciado no DTM precisa ser criado no Experience Cloud
 
    ![](assets/remarketing_1.png)
 
-1. Os aliases permitem que um contato no Analytics seja reconciliado com um perfil no Campaign. Você precisa corresponder os aliases definidos no serviço de ID de Experience Cloud a um Source de dados compartilhado no Campaign. Você precisa configurar a resolução de aliases no Adobe Campaign por meio de uma Fonte de dados ( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** ). Escolha a fonte de dados correta no menu suspenso **[!UICONTROL Data Source/Alias]**, que é mapeado com a mesma fonte de dados de atributo do cliente criada na etapa anterior.
+1. Os aliases permitem que um contato no Analytics seja reconciliado com um perfil no Campaign. É necessário corresponder os aliases definidos no serviço da Experience Cloud ID com um Source de dados compartilhado no Campaign. Você precisa configurar a resolução de aliases no Adobe Campaign por meio de uma Fonte de dados ( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** ). Escolha a fonte de dados correta no menu suspenso **[!UICONTROL Data Source/Alias]**, que é mapeado com a mesma fonte de dados de atributo do cliente criada na etapa anterior.
 
    ![](assets/trigger_uc_conf_5.png)
 

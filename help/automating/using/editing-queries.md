@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 94%
@@ -26,7 +27,7 @@ Use esse recurso para criar uma população e melhorar o direcionamento dos dest
 
 Várias funcionalidades de aplicativo o utilizam para:
 
-* Criar **públicos** do tipo **Query**
+* Criar **públicos-alvos** do tipo **Query**
 * Definir os públicos alvo do **email**
 * Definir as populações nas atividades de **fluxo de trabalho**
 
@@ -43,22 +44,22 @@ A paleta, localizada à esquerda do editor, tem duas guias com elementos dividid
 * Os **atalhos**, disponíveis por padrão ou criados pelo administrador da instância. Eles contém campos, nós, agrupamentos, links 1-1, links 1-N e outros filtros predefinidos.
 * O **Explorer** que permite acessar todos os campos disponíveis no recurso de público-alvo: nós, elementos de agrupamento, links (1-1 e 1-N).
 
-Os elementos nas guias devem ser movidos para o espaço de trabalho para serem configurados e considerados para o query. Dependendo do targeting dimension selecionado (consulte [Targeting dimensions e recursos](../../automating/using/query.md#targeting-dimensions-and-resources)), você poderá:
+Os elementos nas guias devem ser movidos para o espaço de trabalho para serem configurados e considerados para o query. Dependendo da dimensão de direcionamento selecionada (consulte [Dimensões de direcionamento e recursos](../../automating/using/query.md#targeting-dimensions-and-resources)), você poderá:
 
-* Selecionar públicos ou perfis individualmente
+* Selecionar públicos-alvos ou perfis individualmente
 * Usar filtros predefinidos
 * Definir regras simples para os campos escolhidos
 * Definir regras avançadas para aplicar funções a campos específicos
 
 ### Workspace {#workspace}
 
-O espaço de trabalho é a zona central onde você pode configurar e combinar regras, públicos e filtros predefinidos adicionados da paleta.
+O espaço de trabalho é a zona central onde você pode configurar e combinar regras, públicos-alvos e filtros predefinidos adicionados da paleta.
 
 Quando um elemento é movido da paleta para o espaço de trabalho, uma nova janela é aberta e você pode começar a [criação de consultas](#creating-queries).
 
 ## Criação de query {#creating-queries}
 
-O Editor de consultas pode ser usado para definir um público ou um perfil de teste em uma mensagem, uma população em um fluxo de trabalho e para criar um público do tipo consulta.
+O Editor de consultas pode ser usado para definir um público-alvo ou um perfil de teste em uma mensagem, uma população em um fluxo de trabalho e para criar um público-alvo do tipo consulta.
 
 As consultas podem ser definidas na janela **[!UICONTROL Audience]** ao criar uma entrega ou em uma atividade **Consulta** ao criar um fluxo de trabalho.
 

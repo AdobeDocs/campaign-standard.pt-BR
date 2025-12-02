@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,segmentation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 5cd71e07-f955-4c15-bdfb-14b0daccec1a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 39%
@@ -56,10 +57,10 @@ Você pode enviar um email para os clientes: um para clientes criados há menos 
 1. Em **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, arraste e solte uma atividade de [Entrega de email](../../automating/using/email-delivery.md) após cada segmento.
 1. Clique na atividade e selecione ![](assets/edit_darkgrey-24px.png) para editar.
 1. Selecione **[!UICONTROL Single send email]** e clique em **[!UICONTROL Next]**.
-1. Selecione um template de email e clique em **[!UICONTROL Next]**.
+1. Selecione um modelo de email e clique em **[!UICONTROL Next]**.
 1. Insira as propriedades do email e clique em **[!UICONTROL Next]**.
 1. Para criar o layout do email, clique em **[!UICONTROL Email Designer]**.
-1. Insira elementos ou selecione um template.
+1. Insira elementos ou selecione um modelo.
 1. Personalize seu email com ofertas específicas para cada delivery.
 1. Clique em **[!UICONTROL Preview]** para verificar o layout.
 1. Clique em **[!UICONTROL Save]**.

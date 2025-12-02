@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 5974a52c-8721-4575-b452-2982d6497235
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1176'
 ht-degree: 55%
@@ -17,11 +18,11 @@ ht-degree: 55%
 
 # Criação de modelos de fluxo de trabalho para importar dados {#import-workflow-template}
 
-Usar um template de importação é uma prática recomendada se você precisar importar arquivos regularmente com a mesma estrutura.
+Usar um modelo de importação é uma prática recomendada se você precisar importar arquivos regularmente com a mesma estrutura.
 
 Esse exemplo mostra como predefinir um workflow que pode ser reutilizado para importar perfis provenientes de um CRM no banco de dados do Adobe Campaign.
 
-1. Crie um novo modelo de workflow a partir de **[!UICONTROL Resources > Templates > Workflow templates]**.
+1. Crie um novo modelo de fluxo de trabalho a partir de **[!UICONTROL Resources > Templates > Workflow templates]**.
 1. Adicione as seguintes atividades:
 
    * **[!UICONTROL Load file]**: defina a estrutura esperada do arquivo que contém os dados que serão importados.
@@ -46,9 +47,9 @@ Esse exemplo mostra como predefinir um workflow que pode ser reutilizado para im
      Smith;Hayden;23/05/1989;hayden.smith@mailtest.com;123456
      ```
 
-   * Na seção **[!UICONTROL File to load]**, selecione **[!UICONTROL Upload a new file from the local machine]** e deixe o campo em branco. Toda vez que um novo workflow for criado a partir desse modelo, você pode especificar aqui o arquivo desejado, desde que ele corresponda à estrutura definida.
+   * Na seção **[!UICONTROL File to load]**, selecione **[!UICONTROL Upload a new file from the local machine]** e deixe o campo em branco. Toda vez que um novo fluxo de trabalho for criado a partir desse modelo, você pode especificar aqui o arquivo desejado, desde que ele corresponda à estrutura definida.
 
-     Você pode usar qualquer uma das opções, mas precisa modificar o template adequadamente. Por exemplo, se você selecionar **[!UICONTROL Use the file specified in the inbound transition]**, será possível adicionar uma atividade **[!UICONTROL Transfer file]** antes de recuperar o arquivo para importar de um servidor FTP/SFTP.
+     Você pode usar qualquer uma das opções, mas precisa modificar o modelo adequadamente. Por exemplo, se você selecionar **[!UICONTROL Use the file specified in the inbound transition]**, será possível adicionar uma atividade **[!UICONTROL Transfer file]** antes de recuperar o arquivo para importar de um servidor FTP/SFTP.
 
      Se quiser que os usuários baixem um arquivo contendo erros que ocorreram durante uma importação, marque a opção **[!UICONTROL Keep the rejects in a file]** e especifique o **[!UICONTROL File name]**.
 
@@ -121,8 +122,8 @@ Esse exemplo mostra como predefinir um workflow que pode ser reutilizado para im
      >Se você planeja enviar correspondência direta para esses perfis, inclua um endereço postal, pois essas informações são essenciais para o provedor de correspondência direta. Verifique também se a caixa **[!UICONTROL Address specified]** nas informações dos seus perfis está marcada. Para atualizar esta opção de um fluxo de trabalho, basta adicionar um elemento aos campos a serem atualizados, especificar **1** como **[!UICONTROL Source]** e selecionar o campo **[postalAddress/@addrDefined]** como **[!UICONTROL Destination]**. Para obter mais informações sobre correspondência direta e o uso da opção **[!UICONTROL Address specified]**, consulte [este documento](../../channels/using/about-direct-mail.md#recommendations).
 
 1. Após a terceira transição da atividade **[!UICONTROL Segmentation]**, adicione uma atividade **[!UICONTROL Extract file]** e uma atividade **[!UICONTROL Transfer file]** se desejar acompanhar os dados não inseridos no banco de dados. Configure essas atividades para exportar a coluna necessária e transferir o arquivo em um servidor FTP ou SFTP, onde você pode recuperá-la.
-1. Adicione uma atividade **[!UICONTROL End]** e salve o template do workflow.
+1. Adicione uma atividade **[!UICONTROL End]** e salve o modelo do fluxo de trabalho.
 
-Agora o template pode ser usado e está disponível para cada novo workflow. Basta especificar o arquivo que contém os dados que serão importados na atividade **[!UICONTROL Load file]**.
+Agora o modelo pode ser usado e está disponível para todo fluxo de trabalho novo. Basta especificar o arquivo que contém os dados que serão importados na atividade **[!UICONTROL Load file]**.
 
 ![](assets/import_template_example9.png)

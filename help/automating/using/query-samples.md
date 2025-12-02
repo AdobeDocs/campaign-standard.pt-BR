@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 0a71e3a7-60e6-49ec-af2e-099ad0d69a15
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 76%
@@ -64,7 +65,7 @@ O exemplo a seguir mostra uma atividade de query configurada para filtrar perfis
 
 O exemplo a seguir mostra uma atividade de query configurada para filtrar perfis com falha de entregas porque a caixa de entrada estava cheia. Esse query só está disponível para usuários com direitos administrativos e pertencentes a unidades organizacionais **[!UICONTROL All (all)]** (consulte [esta seção](../../administration/using/organizational-units.md)).
 
-1. Selecione o recurso **[!UICONTROL Delivery logs]** para filtrar diretamente na tabela de logs da entrega (consulte [Uso de recursos diferentes dos targeting dimensions](../../automating/using/using-resources-different-from-targeting-dimensions.md)).
+1. Selecione o recurso **[!UICONTROL Delivery logs]** para filtrar diretamente na tabela de logs da entrega (consulte [Uso de recursos diferentes das dimensões de direcionamento](../../automating/using/using-resources-different-from-targeting-dimensions.md)).
 
    ![](assets/query_sample_failure1.png)
 

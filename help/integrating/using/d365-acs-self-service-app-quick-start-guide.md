@@ -6,10 +6,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e73e2069-e86d-4be2-bf73-22e6dc164340
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 1%
@@ -33,7 +34,7 @@ Saiba mais nestas seções:
 
 ## Pré-requisitos {#self-service-app-prerequisites}
 
-É necessário configurar o Microsoft Dynamics 365 e o Adobe Campaign Standard para que o aplicativo de integração tenha acesso aos seus dados. Isso levará algum tempo para configurar no Dynamics 365, Adobe Campaign Standard e Adobe I/O; no entanto, uma vez configurados, você poderá controlar a integração por meio da interface do usuário do aplicativo de integração de autoatendimento.
+É necessário configurar o Microsoft Dynamics 365 e o Adobe Campaign Standard para que o aplicativo de integração tenha acesso aos seus dados. Isso levará algum tempo para ser configurado no Dynamics 365, Adobe Campaign Standard e Adobe I/O; no entanto, uma vez configurados, você poderá controlar a integração por meio da interface do usuário do aplicativo de integração de autoatendimento.
 
 Saiba mais nestas seções:
 
@@ -115,7 +116,7 @@ Quando sua configuração estiver correta, clique no botão **[!UICONTROL Play]*
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 
-Depois de executado, você poderá testar adicionando ou modificando entradas no Microsoft Dynamics 365 e observando essas alterações no Adobe Campaign em alguns minutos. Se, a qualquer momento, você precisar interromper esse processo, basta pressionar o mesmo botão para interrompê-lo. [Saiba mais](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
+Após a execução, você poderá testar adicionando ou modificando entradas no Microsoft Dynamics 365 e observando essas alterações no Adobe Campaign em alguns minutos. Se, a qualquer momento, você precisar interromper esse processo, basta pressionar o mesmo botão para interrompê-lo. [Saiba mais](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
 
 
 ## Espaço de trabalho do aplicativo de integração {#self-service-app-workspace}
@@ -130,11 +131,11 @@ Um menu suspenso será exibido ao clicar no botão com as três linhas horizonta
 
 As entradas no menu suspenso são:
 
-* **Configurações**: selecionar esta opção enviará você para uma tela que permite especificar credenciais de API para o Microsoft Dynamics 365 e o Adobe Campaign, bem como outras configurações gerais do aplicativo.
+* **Configurações**: selecionar esta opção enviará você para uma tela que permite especificar credenciais de API para Microsoft Dynamics 365 e Adobe Campaign, bem como outras configurações gerais do aplicativo.
 
 * **Documentação**: essa opção é um link para a Documentação do Adobe Campaign específica dessa integração
 
-* **Atendimento ao cliente**: este é um link para a documentação do Experience Cloud relacionada à abertura de um tíquete de Atendimento ao cliente
+* **Atendimento ao cliente**: este é um link para a documentação da Experience Cloud relacionada à abertura de um tíquete de Atendimento ao cliente
 
 * **Sair**: isso desconectará você do aplicativo e permitirá que você entre novamente como outro usuário.
 

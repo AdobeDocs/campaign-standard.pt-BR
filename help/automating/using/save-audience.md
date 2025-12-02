@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: saveAudience,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 99%
@@ -50,11 +51,11 @@ A atividade **[!UICONTROL Save audience]** é usada essencialmente para manter o
 
       * **[!UICONTROL Replace audience content with new data]**: todo o conteúdo do público-alvo é substituído. Os dados antigos são perdidos. Somente os dados da transição de entrada da atividade Save audience são mantidos.
 
-        Aviso: essa opção apaga o tipo de público-alvo e o targeting dimension do público-alvo atualizado.
+        Aviso: essa opção apaga o tipo de público-alvo e a dimensão de direcionamento do público-alvo atualizado.
 
       * **[!UICONTROL Complete audience with new data]**: os dados antigos do público-alvo são mantidos e os dados da transição de entrada da atividade Save audience são adicionados a eles.
 
-        Aviso: essa opção causará um erro se o tipo de público-alvo ou o targeting dimension do público-alvo atualizado não for compatível com a configuração atual do fluxo de trabalho. Por exemplo, não é possível preencher um público-alvo do tipo File com os perfis de um query.
+        Aviso: essa opção causará um erro se o tipo de público-alvo ou a dimensão de direcionamento do público-alvo atualizado não for compatível com a configuração atual do fluxo de trabalho. Por exemplo, não é possível preencher um público-alvo do tipo File com os perfis de um query.
 
    * **[!UICONTROL Create a new audience]**: insira o nome do público-alvo que será criado. A hora e a data em que o público-alvo é criado serão automaticamente adicionadas ao nome do público-alvo. Isso torna o público-alvo exclusivo toda vez que o fluxo de trabalho é executado.
    * **[!UICONTROL Share in Adobe Experience Cloud]**: se você tiver direcionado perfis e quiser exportar o público-alvo para a Adobe Experience Cloud, selecione essa opção e, em seguida, escolha um público-alvo compartilhado ou crie um novo público-alvo.
@@ -69,9 +70,9 @@ A atividade **[!UICONTROL Save audience]** é usada essencialmente para manter o
 
    O tipo de público-alvo salvo ou disponível durante uma atualização depende das atividades colocadas upstream no fluxo de trabalho.
 
-   Se o targeting dimension do público-alvo for desconhecido quando for salvo (por exemplo, se for de um arquivo importado), o público-alvo será criado ou atualizado como sendo do tipo **[!UICONTROL File]**.
+   Se a dimensão de direcionamento do público-alvo for desconhecida quando for salva (por exemplo, se for de um arquivo importado), o público-alvo será criado ou atualizado como sendo do tipo **[!UICONTROL File]**.
 
-   Se o targeting dimension do público-alvo salvo já estiver definido quando for salvo (por exemplo, se for de um direcionamento, após um query etc.), o público-alvo será salvo ou atualizado como sendo do tipo **[!UICONTROL List]**.
+   Se a dimensão de direcionamento do público-alvo salvo já estiver definida quando for salva (por exemplo, se for de um direcionamento, após um query etc.), o público-alvo será salvo ou atualizado como sendo do tipo **[!UICONTROL List]**.
 
    O conteúdo do público-alvo salvo ficará disponível na visualização detalhada do público-alvo, que pode ser acessada no menu **[!UICONTROL Audiences]**. As colunas disponíveis nessa visualização correspondem às da transição de entrada da atividade Save audience do fluxo de trabalho. Por exemplo, as colunas do arquivo importado, os dados adicionais incluídos de um query.
 

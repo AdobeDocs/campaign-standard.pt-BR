@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '2011'
 ht-degree: 93%
@@ -657,14 +658,14 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
    <td> Criptografa usando o algoritmo AES (modo de bloco CBC) uma string de caracteres (primeiro parâmetro) com uma chave (segundo parâmetro) e um vetor de inicialização (terceiro parâmetro). A chave e o vetor de inicialização devem ser fornecidos em uma representação hexadecimal (começando com <strong>\x</strong>). O resultado será hexadecimal sem o <strong>\x</strong>.<br /> Observe que o tamanho da chave pode ser de 128 bits, 192 bits, 256 bits (16, 24, 32 caracteres hexadecimais), mas recomendamos que você use 256 bits e um IV aleatório com o mesmo comprimento da chave.<br /> </td> 
-   <td> encryption_aescbcEncrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> Por exemplo: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFFEDCBA 9876543210</strong>")<br /> </td> 
+   <td> encryption_aescbcEncrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> Por exemplo: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Agregados {#aggregates}
 
-As funções de agregação só estão disponíveis ao [adicionar dados adicionais](../../automating/using/query.md#enriching-data) atividade **[!UICONTROL Query]** de um workflow.
+As funções de agregação só estão disponíveis ao [adicionar dados adicionais](../../automating/using/query.md#enriching-data) atividade **[!UICONTROL Query]** de um fluxo de trabalho.
 
 As funções de agregação são usadas para realizar cálculos em um conjunto de valores.
 

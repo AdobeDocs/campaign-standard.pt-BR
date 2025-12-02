@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 9cee2005-a99b-47cb-b573-a25812614409
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 84%
@@ -20,7 +21,7 @@ ht-degree: 84%
 
 Este documento permite descobrir a seguinte funcionalidade do Adobe Campaign por meio de um caso de uso padrão: criação de um fluxo de trabalho de entrega entre canais.
 
-O objetivo aqui é selecionar um público dos destinatários do banco de dados e segmentá-los em dois grupos diferentes com a finalidade de enviar um email para o primeiro grupo e uma mensagem SMS para o segundo.
+O objetivo aqui é selecionar um público-alvo dos destinatários do banco de dados e segmentá-los em dois grupos diferentes com a finalidade de enviar um email para o primeiro grupo e uma mensagem SMS para o segundo.
 
 ![](assets/wkf_segment_overview.png)
 
@@ -129,7 +130,7 @@ Para criar uma entrega de email:
 
    A transição de saída permitirá que você recupere a população e os logs de rastreamento. Você poderá usar essa opção, por exemplo, para enviar um segundo email às pessoas que não clicaram no primeiro email.
 
-1. Selecione um template de email e clique em **[!UICONTROL Next]**.
+1. Selecione um modelo de email e clique em **[!UICONTROL Next]**.
 1. Insira as propriedades do email e clique em **[!UICONTROL Next]**.
 1. Para criar o layout do email, selecione **[!UICONTROL Use the Email Designer]**.
 1. Edite e salve o conteúdo.

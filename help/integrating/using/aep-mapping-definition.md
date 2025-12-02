@@ -1,16 +1,17 @@
 ---
 title: Definição de mapeamento
-description: Saiba como mapear um campo Campaign Standard com um campo Experience Data Model (XDM).
+description: Saiba como mapear um campo do Campaign Standard com um campo Experience Data Model (XDM).
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -21,9 +22,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->O Conector de dados do Adobe Experience Platform está atualmente na versão beta, que pode estar sujeita a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados no Azure (atualmente na versão beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente do Adobe se desejar obter acesso.
+>O Conector de dados do Adobe Experience Platform está atualmente na versão beta, que pode estar sujeita a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados no Azure (atualmente na versão beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente da Adobe se desejar obter acesso.
 
-Nesta seção, você descobrirá como mapear um campo Campaign Standard com um campo Experience Data Model (XDM).
+Nesta seção, você descobrirá como mapear um campo do Campaign Standard com um campo Experience Data Model (XDM).
 
 Para executar essa tarefa, os pré-requisitos são:
 
@@ -38,16 +39,16 @@ Para executar essa tarefa, os pré-requisitos são:
 
 1. Preencha os campos obrigatórios e selecione:
 
-   * uma **targeting dimension**: este é o esquema de Campaign Standard a ser mapeado
+   * uma **targeting dimension**: este é o esquema do Campaign Standard a ser mapeado
    * um **conjunto de dados**: este é o pacote de dados associado a um esquema XDM no Adobe Experience Platform.
 
 >[!NOTE]
 >
->Para que um lote seja assimilado no Perfil do cliente em tempo real ou no Serviço de identidade, o conjunto de dados deve ser [habilitado para o Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html?lang=pt-BR).
+>Para que um lote seja assimilado no Perfil do cliente em tempo real ou no Serviço de identidade, o conjunto de dados deve ser [habilitado para o Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
 >
 >Se o conjunto de dados selecionado já estiver sendo usado em um mapeamento de dados existente, um aviso será exibido para informá-lo de que seus dados podem ser substituídos no Adobe Experience Platform. Isso pode acontecer quando há alguns recipients comuns em mapeamentos de dados usando um mesmo conjunto de dados.
 
-A tela a seguir apresenta a seção **[!UICONTROL Field mappings]**, na qual você pode criar um novo mapeamento para cada campo no esquema Campaign Standard.
+A tela a seguir apresenta a seção **[!UICONTROL Field mappings]**, na qual você pode criar um novo mapeamento para cada campo no esquema do Campaign Standard.
 
 ![](assets/aep_fieldmappings.png)
 
@@ -63,7 +64,7 @@ Os recursos estendidos definidos no Campaign Standard são mapeados como todos o
 
 É possível personalizar a extensão XDM por meio da API e definir sua própria extensão, permitindo um melhor controle sobre o mapeamento.
 
-Consulte o [Tutorial da API do registro de esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=pt-BR) para obter mais detalhes sobre a API XDM.
+Consulte o [Tutorial da API do registro de esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) para obter mais detalhes sobre a API XDM.
 
 Para mapear um campo de enumeração, é necessário usar o editor de expressão para definir cada valor de enumeração correspondente ao valor XDM. Por exemplo, o postaladdressfield precisa ser definido como:
 

@@ -2,10 +2,11 @@
 title: Recuperação de perfis
 description: Saiba como recuperar perfis com APIs
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 4%
@@ -18,7 +19,7 @@ A recuperação de perfis é executada com uma solicitação **GET**.
 
 Você pode refinar sua pesquisa usando filtros, ordenação e paginação. Para obter mais informações, consulte a seção [Operações adicionais](../../api/using/sorting.md).
 
-Além disso, as APIs de Campaign Standard permitem procurar perfis com base em um destes campos: email, nome, sobrenome ou qualquer campo personalizado. Para obter mais informações, consulte [esta seção](#searching-field).
+Além disso, as APIs do Campaign Standard permitem procurar perfis com base em um destes campos: email, nome, sobrenome ou qualquer campo personalizado. Para obter mais informações, consulte [esta seção](#searching-field).
 
 <br/>
 

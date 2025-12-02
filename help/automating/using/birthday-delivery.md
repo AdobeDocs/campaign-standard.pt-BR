@@ -1,15 +1,16 @@
 ---
 title: Entrega de aniversário
-description: Esse exemplo é um workflow de aniversário. Todos os dias, um email é enviado a perfis cujo aniversário é nesse dia.
+description: Esse exemplo é um fluxo de trabalho de aniversário. Todos os dias, um email é enviado a perfis cujo aniversário é nesse dia.
 audience: automating
 content-type: reference
 topic-tags: channel-activities
 context-tags: delivery,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 535ddbce-d8ba-4578-9e37-10604291c95d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 52%
@@ -20,7 +21,7 @@ ht-degree: 52%
 
 ![](assets/wkf_delivery_example_1.png)
 
-Esse exemplo é um workflow de aniversário. Todos os dias, um email é enviado a perfis cujo aniversário é nesse dia.
+Esse exemplo é um fluxo de trabalho de aniversário. Todos os dias, um email é enviado a perfis cujo aniversário é nesse dia.
 
 Para criar o workflow, siga estas etapas:
 

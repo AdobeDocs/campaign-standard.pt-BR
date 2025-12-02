@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: a6748b4b-36c5-4961-a599-ace73a8504cc
-source-git-commit: 26260b9e633d8be1652eeb46c982864a7477da27
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 9%
@@ -50,5 +51,5 @@ Seus dados agora estão disponíveis no Adobe Analytics.
 **Tópicos relacionados:**
 
 * [Contas externas](../../administration/using/external-accounts.md)
-* [Workflows técnicos](../../administration/using/technical-workflows.md)
+* [Fluxos de trabalho técnicos](../../administration/using/technical-workflows.md)
 * [Compartilhar KPIs para vídeo integrado de relatórios do Campaign](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html)

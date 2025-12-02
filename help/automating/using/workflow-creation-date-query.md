@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: f611e023-f74c-476e-83b9-aff451f68c81
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 33%
@@ -89,10 +90,10 @@ A consulta final exibe:
 1. Arraste e solte uma atividade [Entrega de email](../../automating/using/email-delivery.md).
 1. Clique na atividade e selecione ![](assets/edit_darkgrey-24px.png) para editar.
 1. Selecione **[!UICONTROL Recurring email]** e clique em **[!UICONTROL Next]**.
-1. Selecione um template de email e clique em **[!UICONTROL Next]**.
+1. Selecione um modelo de email e clique em **[!UICONTROL Next]**.
 1. Insira as propriedades do email e clique em **[!UICONTROL Next]**.
 1. Para criar o layout do email, clique em **[!UICONTROL Email Designer]**.
-1. Insira elementos ou selecione um template.
+1. Insira elementos ou selecione um modelo.
 1. Personalize o email usando campos e links.
 Para obter mais informações, consulte [Design de email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Clique em **[!UICONTROL Preview]** para verificar o layout.

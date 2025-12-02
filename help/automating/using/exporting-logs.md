@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: d74e2a2c-3ce1-44d6-a058-67b0600360ca
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 14%
@@ -46,7 +47,7 @@ A operação de exportar logs pode ser executada por usuários padrão. Recursos
 
      ![](assets/export_logs_query_processeddata.png)
 
-     Após a primeira execução do workflow, você poderá ver nesta guia a última data de execução que será usada para a próxima execução. Ela é atualizada automaticamente todas as vezes que o workflow é executado. Você ainda tem a possibilidade de substituir esse valor, inserindo manualmente um novo para que ele se ajuste às suas necessidades.
+     Após a primeira execução do fluxo de trabalho, você poderá ver nesta guia a última data de execução que será usada para a próxima execução. Ela é atualizada automaticamente todas as vezes que o fluxo de trabalho é executado. Você ainda tem a possibilidade de substituir esse valor, inserindo manualmente um novo para que ele se ajuste às suas necessidades.
 
 1. Adicionar uma atividade **[!UICONTROL Extract file]** que exportará os dados consultados em um arquivo:
 
@@ -64,7 +65,7 @@ A operação de exportar logs pode ser executada por usuários padrão. Recursos
 
    * Na guia **[!UICONTROL File structure]**, defina o formato do arquivo de saída para atender às suas necessidades.
 
-     Marque a opção **[!UICONTROL Export labels instead of internal values of enumerations]** caso exporte valores de uma lista discriminada. Essa opção permite recuperar rótulos mais curtos, que são fáceis de entender, em vez de IDs.
+     Marque a opção **[!UICONTROL Export labels instead of internal values of enumerations]** caso exporte valores de uma enumeração. Essa opção permite recuperar rótulos mais curtos, que são fáceis de entender, em vez de IDs.
 
 1. Adicione uma atividade **[!UICONTROL Transfer file]** e a configure para transferir o arquivo recém-criado do servidor do Adobe Campaign para outro local onde você possa acessá-lo, como um servidor SFTP.
 

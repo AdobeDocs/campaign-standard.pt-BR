@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
-source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 2%
@@ -35,9 +36,9 @@ As Credenciais do Microsoft Dynamics 365 dão ao aplicativo de integração perm
 
 * **[!UICONTROL URL]**: a url terá o formato `https://&lt;servername&gt;.api.crm.dynamics.com/`
 
-### Credenciais da API Adobe
+### Credenciais da API do Adobe
 
-As credenciais do Adobe Campaign são geradas usando [Adobe I/O](https://www.adobe.io/). Você precisará visitar a tela [Configurar Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) e seguir as instruções lá antes de poder preencher as entradas nesta seção.
+As credenciais do Adobe Campaign são geradas usando o [Adobe I/O](https://www.adobe.io/). Você precisará visitar a tela [Configurar Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) e seguir as instruções ali contidas antes de poder preencher as entradas nesta seção.
 
 * Selecione o Tipo de autenticação como Oauth já que a autenticação baseada em JWT está obsoleta.
 * A imagem a seguir explicará em detalhes o mapeamento entre o Adobe I/O e as entradas da tela de configurações.
@@ -79,13 +80,13 @@ Descubra o gerenciamento SFTP com o [Painel de Controle do Campaign](https://exp
 
 * [Sobre o gerenciamento de SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=pt-BR#sftp-management)
 
-* [Gerenciamento de armazenamentos SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=pt-BR#installing-ssh-key)
+* [Gerenciamento de armazenamentos SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#installing-ssh-key)
 
-* [Adicionar intervalos IP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html?lang=pt-BR#sftp-management)
+* [Adicionar intervalos IP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html#sftp-management)
 
-* [Gerenciar chaves](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=pt-BR#sftp-management)
+* [Gerenciar chaves](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#sftp-management)
 
-* [Fazer logon no servidor SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html?lang=pt-BR#sftp-management)
+* [Fazer logon no servidor SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html#sftp-management)
 
 Depois que a configuração for concluída, faça logon no servidor SFTP com a chave privada e crie o diretório &quot;d365_loads/exports&quot;.
 

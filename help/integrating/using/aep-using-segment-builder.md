@@ -1,32 +1,33 @@
 ---
-title: Usar o Criador de segmentos
+title: Usar o Construtor de segmentos
 description: Saiba como usar o Construtor de segmentos para criar públicos.
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 9a6c542e-10ed-4e77-abb3-36324e1cb38f
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 3%
 
 ---
 
-# Usar o Criador de segmentos {#using-the-segment-builder}
+# Usar o Construtor de segmentos {#using-the-segment-builder}
 
 >[!IMPORTANT]
 >
->O serviço Audience Destinations está atualmente em versão beta, que pode estar sujeita a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados no Azure (atualmente na versão beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente do Adobe se desejar obter acesso.
+>O serviço Audience Destinations está atualmente em versão beta, que pode estar sujeita a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados no Azure (atualmente na versão beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente da Adobe se desejar obter acesso.
 
-O Construtor de segmentos permite que você crie públicos-alvo definindo regras com base nos dados provenientes do [Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR).
+O Construtor de segmentos permite que você crie públicos-alvo definindo regras com base nos dados provenientes do [Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
-Esta seção apresenta conceitos globais ao criar um segmento. Para obter informações detalhadas sobre o próprio Construtor de segmentos, consulte o [guia do usuário do Construtor de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR).
+Esta seção apresenta conceitos globais ao criar um segmento. Para obter informações detalhadas sobre o próprio Construtor de segmentos, consulte o [guia do usuário do Construtor de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
 A interface do Construtor de segmentos é composta da seguinte maneira:
 
@@ -48,7 +49,7 @@ O Construtor de segmentos agora deve ser exibido em seu espaço de trabalho. Ele
 
 1. Verifique se a política de mesclagem desejada está selecionada no painel de configurações.
 
-   Para obter mais informações sobre políticas de mesclagem, consulte a seção dedicada do [guia do usuário do Construtor de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR).
+   Para obter mais informações sobre políticas de mesclagem, consulte a seção dedicada do [guia do usuário do Construtor de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -66,7 +67,7 @@ O Construtor de segmentos agora deve ser exibido em seu espaço de trabalho. Ele
 
 O painel esquerdo lista todos os atributos, eventos e públicos-alvo que estão disponíveis para uso na criação de regras.
 
-Os campos listados são atributos capturados pela sua empresa e foram disponibilizados pelo [Sistema do Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR).
+Os campos listados são atributos capturados pela sua empresa e foram disponibilizados pelo [Sistema do Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
 
 Os campos são organizados em guias:
 
@@ -82,7 +83,7 @@ Os campos são organizados em guias:
 >
 >**A segmentação de várias entidades** permite estender os dados do Perfil com dados adicionais com base em produtos, lojas ou outras classes que não sejam de perfil. Depois de conectados, os dados de classes adicionais ficam disponíveis como se fossem nativos do esquema de Perfil.
 >
->Para obter mais informações, consulte a [documentação dedicada](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html?lang=pt-BR).
+>Para obter mais informações, consulte a [documentação dedicada](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html).
 
 Por padrão, o Construtor de segmentos exibe campos nos quais os dados já estão presentes. Para exibir o esquema completo, incluindo campos para os quais não há dados, habilite a opção **[!UICONTROL Show full XDM schema]** nas configurações.
 
@@ -96,7 +97,7 @@ O símbolo no final de cada campo fornece informações adicionais sobre o atrib
 
 >[!NOTE]
 >
->A seção abaixo fornece informações globais sobre a definição de regras. Para obter mais informações, consulte o [guia do usuário do Construtor de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR).
+>A seção abaixo fornece informações globais sobre a definição de regras. Para obter mais informações, consulte o [guia do usuário do Construtor de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
 Para criar uma regra, siga estas etapas:
 

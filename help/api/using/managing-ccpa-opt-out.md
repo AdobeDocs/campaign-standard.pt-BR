@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: bfc52511-f66f-4948-a939-d0d77e8ef03c
-source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 6%
@@ -54,7 +55,7 @@ O status de recusa do CCPA de um perfil pode ser monitorado e gerenciado usando 
   }
   ```
 
-* Exemplo de solicitação de POST para marcar um perfil para recusa do CCPA.
+* Exemplo de solicitação POST para marcar um perfil para recusa do CCPA.
 
   ```
   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
@@ -84,7 +85,7 @@ O status de recusa do CCPA de um perfil pode ser monitorado e gerenciado usando 
   }
   ```
 
-* Exemplo de solicitação de PATCH para atualizar um perfil para recusa do CCPA.
+* Exemplo de solicitação do PATCH para atualizar um perfil para recusa do CCPA.
 
   ```
   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \

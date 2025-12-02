@@ -1,22 +1,23 @@
 ---
-title: União em dois públicos refinados
+title: União em dois públicos-alvos refinados
 description: Este caso de uso mostra a união de duas atividades Ler público.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: readAudience,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 6261f800-11bd-4b02-a587-49ddb0da240f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 43%
 
 ---
 
-# União em dois públicos refinados {#example--union-on-two-refined-audiences}
+# União em dois públicos-alvos refinados {#example--union-on-two-refined-audiences}
 
 O fluxo de trabalho definido neste exemplo mostra a união de duas atividades **[!UICONTROL Read audience]**. O objetivo desse fluxo de trabalho é enviar um email para os membros Gold ou Silver entre 18 e 30 anos. Já foram criados públicos-alvo específicos no sistema para rastrear esses membros.
 
