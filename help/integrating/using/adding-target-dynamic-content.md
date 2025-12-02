@@ -25,8 +25,8 @@ Ao editar um email, você pode inserir uma imagem dinâmica do Adobe Target que 
 Antes de acessar a imagem no Adobe Campaign, as seguintes tarefas devem ser executadas no Adobe Target:
 
 * Crie uma ou várias [ofertas de redirecionamento](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=pt-BR), em que você deve especificar a URL da imagem que usará.
-* Crie um ou vários [públicos-alvos](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)para definir o target da atividade.
-* Crie uma atividade [Experience Composer baseada em formulário](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html), na qual você tenha que selecionar um rawbox e especificar várias experiências, dependendo do número de ofertas de redirecionamento criadas. Para cada experiência, você deve selecionar uma das ofertas de redirecionamento criadas.
+* Crie um ou vários [públicos-alvos](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=pt-BR)para definir o target da atividade.
+* Crie uma atividade [Experience Composer baseada em formulário](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html?lang=pt-BR), na qual você tenha que selecionar um rawbox e especificar várias experiências, dependendo do número de ofertas de redirecionamento criadas. Para cada experiência, você deve selecionar uma das ofertas de redirecionamento criadas.
 * Crie segmentos usando informações do Adobe Campaign para especificar experiências. Para usar dados do Adobe Campaign nas regras de seleção da oferta, especifique os dados no rawbox no Adobe Target.
 
 1. Crie uma entrega de email

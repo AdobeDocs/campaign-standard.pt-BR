@@ -33,7 +33,7 @@ Quatro comandos de execução estão disponíveis para controlar um workflow:
 * Retomar
 * Parar
 
-Para obter mais informações sobre os comandos de execução, consulte a [documentação do Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
+Para obter mais informações sobre os comandos de execução, consulte a [documentação do Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html?lang=pt-BR).
 
 <br/>
 

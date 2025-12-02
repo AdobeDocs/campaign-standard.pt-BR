@@ -50,7 +50,7 @@ Se você quiser integrar fluxos de dados de outros sistemas ao Adobe Campaign, c
    <td> Adobe Experience Manager<br /> </td> 
    <td> Permite criar conteúdo de email ou formulários mapeados para o banco de dados do Adobe Campaign diretamente no Adobe Experience Manager.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Trabalhe com o Campaign e o Experience Manager</a>, <a href="https://helpx.adobe.com/br/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integre o Experience Manager e o Campaign Standard</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Crie um email com o Experience Manager e o Campaign</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Trabalhe com o Campaign e o Experience Manager</a>, <a href="https://helpx.adobe.com/br/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integre o Experience Manager e o Campaign Standard</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=pt-BR">Crie um email com o Experience Manager e o Campaign</a> 
     </td> 
   </tr> 
   <tr> 
@@ -97,13 +97,13 @@ Se você quiser integrar fluxos de dados de outros sistemas ao Adobe Campaign, c
     <tr> 
    <td> Adobe Journey Orchestration<br /> </td> 
    <td> Permite enviar emails, notificações por push e SMS usando os recursos de Mensagens Transacionais do Adobe Campaign Standard no contexto do Adobe Journey Orchestration, por meio de uma ação pronta para uso.<br /> </td> 
-   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html">Trabalhando com o Adobe Journey Orchestration e o Adobe Campaign Standard</a><br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html?lang=pt-BR">Trabalhando com o Adobe Journey Orchestration e o Adobe Campaign Standard</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 
    <td> Permite editar um conteúdo de email do Dreamweaver e sincronizá-lo com o Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=pt-BR">Criar emails personalizados com vídeo do Dreamweaver</a>, <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Usar extensão do Campaign para o Dreamweaver</a> 
+    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=pt-BR">Criar emails personalizados com vídeo do Dreamweaver</a>, <a href="https://helpx.adobe.com/br/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Usar extensão do Campaign para o Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 

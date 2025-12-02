@@ -203,8 +203,8 @@ Se quiser usar um filtro personalizado, será necessário criá-lo e personaliz�
 
 Para obter mais informações, consulte a documentação do Campaign Standard:
 
-* [Configurando definição de filtro](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
-* [Caso de uso: chamada de um recurso usando uma chave de identificação composta](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
+* [Configurando definição de filtro](https://helpx.adobe.com/br/campaign/standard/developing/using/configuring-filter-definition.html).
+* [Caso de uso: chamada de um recurso usando uma chave de identificação composta](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=pt-BR).
 
 <br/>
 

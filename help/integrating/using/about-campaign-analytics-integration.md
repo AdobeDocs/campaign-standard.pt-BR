@@ -33,6 +33,6 @@ Uma integração entre os **Triggers** do serviço principal da Adobe Analytics 
 
 **Tópicos relacionados:**
 
-* [Visão geral da integração do Campaign Standard com o Analytics](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
-* [Configurar a integração do Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
+* [Visão geral da integração do Campaign Standard com o Analytics](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html?lang=pt-BR)
+* [Configurar a integração do Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html?lang=pt-BR)
 * [Dimensões e métricas do Campaign no Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)

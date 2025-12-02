@@ -53,7 +53,7 @@ Para criar um público-alvo do Adobe Experience Platform diretamente no Campaign
 
 1. Para criar um segmento com êxito, você deve selecionar uma **política de mesclagem** que corresponda à sua finalidade de marketing para esse segmento.
 
-   No painel de configurações, uma política de mesclagem padrão da Platform é selecionada. Para obter mais informações sobre políticas de mesclagem, consulte a seção dedicada do [guia do usuário do Construtor de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   No painel de configurações, uma política de mesclagem padrão da Platform é selecionada. Para obter mais informações sobre políticas de mesclagem, consulte a seção dedicada do [guia do usuário do Construtor de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
