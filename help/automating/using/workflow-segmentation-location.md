@@ -27,7 +27,7 @@ Você pode enviar um email de direcionamento para clientes com ofertas em suas l
 
 ## Seleção dos recipients contatáveis por email{#selecting-recipients-contactable-via-email}
 
-1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arraste e solte uma atividade [ de ](../../automating/using/query.md)Consulta![](assets/query.png).
+1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arraste e solte uma atividade [&#x200B; de &#x200B;](../../automating/using/query.md)Consulta![](assets/query.png).
 1. Clique duas vezes na atividade.
 1. Em **[!UICONTROL Shortcuts]**, arraste e solte **[!UICONTROL Profiles]** e selecione o campo **[!UICONTROL email]** com o operador **[!UICONTROL is not empty]**.
 1. Em **[!UICONTROL Shortcuts]**, arraste e solte **[!UICONTROL Profiles]** e selecione o campo **[!UICONTROL no longer contact by email]** com o valor **[!UICONTROL no]**.
