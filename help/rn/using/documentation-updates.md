@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: c14a52f5425972899f51af7ee6ea2d5796c46765
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7259'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Algumas alterações importantes no serviço Firebase Cloud Messaging (FCM) para
 
 ## Outubro de 2023 {#doc-updates-oct-2023}
 
-* A nova interface dos Acionadores da Experience Cloud já está disponível. Ela oferece uma experiência intuitiva para gerenciar o comportamento dos consumidores e personalizar a experiência de usuários(as). [Leia mais](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=pt-BR){target="_blank"}.
+* A nova interface dos Acionadores da Experience Cloud já está disponível. Eles oferecem uma experiência intuitiva para gerenciar o comportamento dos consumidores e personalizar a experiência de usuários. [Leia mais](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=pt-BR){target="_blank"}.
 
 * Adição de uma observação sobre o uso de perfis de teste de captura combinados com regras de filtragem ou fadiga. [Leia mais](../../sending/using/using-traps.md)
 
@@ -70,7 +70,7 @@ A utilização do modo de teste SMTP foi detalhada. [Leia mais](../../administra
 
 ## Março de 2022 {#doc-updates-march-2022}
 
-Uma observação foi adicionada para especificar que o envio de provas usando a substituição de perfil adicionará registros aos logs dos perfis selecionados. [Saiba mais](../../sending/using/testing-messages-using-target.md)
+Uma observação foi adicionada para especificar que o envio de provas com a substituição de perfil adicionará registros aos logs dos perfis selecionados. [Saiba mais](../../sending/using/testing-messages-using-target.md)
 
 ## Versão 22.1 - Fevereiro de 2022 {#release-22-1}
 
@@ -80,7 +80,7 @@ Mecanismo de repetição para entregas aprimorado, incluindo conteúdo importado
 
 Atualização do nível de acesso das opções que controlam a Auditoria: opções anteriores para habilitar/desabilitar a [Trilha de auditoria](../../administration/using/audit.md) não eram acessíveis para [administradores funcionais](../../administration/using/users-management.md#functional-administrators). Com essa alteração, o nível de acesso da auditoria foi modificado para fornecer controle aos administradores funcionais. [Saiba mais](../../administration/using/audit.md#enable-disable-audit)
 
-O novo menu suspenso **Histórico de tarefas** foi adicionada ao painel de mensagem. [Leia mais](../../sending/using/monitoring-a-delivery.md)
+O novo menu suspenso **Histórico de processos** foi adicionado ao painel de mensagem. [Leia mais](../../sending/using/monitoring-a-delivery.md)
 
 **Outras alterações**
 
@@ -589,7 +589,7 @@ O guia de Automatização foi atualizado com links para atividades de fluxo de t
 
 A seção Cálculo de indicadores para relatórios dinâmicos foi atualizada. [Leia mais](../../reporting/using/indicator-calculation.md)
 
-A tabela de compatibilidade de relatórios dinâmicos foi adicionada para um melhor entendimento da compatibilidade entre dimensões e métricas. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=pt-BR)
+A tabela de compatibilidade de relatórios dinâmicos foi adicionada para um melhor entendimento da compatibilidade entre dimensões e métricas. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 A lista de funções para fluxos de trabalho foi atualizada. [Leia mais](../../automating/using/list-of-functions.md)
 
@@ -867,7 +867,7 @@ A atividade **[!UICONTROL Subscription Services]** foi atualizada para ser compa
 
 Adicionado um caso de uso passo a passo sobre como preparar uma entrega. [Leia mais](../../sending/using/preparing-the-send.md)
 
-A seção que inclui a lista de autorizações foi retirada. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=pt-BR) (PDF).
+A seção que inclui a lista de autorizações foi retirada. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF).
 
 Um caso de uso passo a passo foi adicionado sobre como usar a resposta automática do SMS. [Leia mais](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1039,7 +1039,7 @@ Uma nova nota técnica agora está disponível: &quot;Integração do SDK móvel
 
 Foram adicionadas instruções para configurar a integração do serviço principal do People ou Audience Manager com o Adobe Campaign. [Leia mais](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-A tabela de autorizações foi revisada para esclarecer melhor a função de certos cargos. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=pt-BR)
+A tabela de autorizações foi revisada para esclarecer melhor a função de certos cargos. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Atualização dos links de ajuda contextual disponíveis diretamente do Adobe Campaign.
 
