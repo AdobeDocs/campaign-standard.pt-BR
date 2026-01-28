@@ -119,7 +119,7 @@ O novo sistema de emissão de tíquetes passou pelo [Adobe Admin Console](https:
 
 ### Pergunte aos especialistas.
 
-Associe-se à Comunidade do Campaign: procure por respostas nas perguntas já existentes ou faça uma nova pergunta à comunidade. [Participe da conversa](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Associe-se à Comunidade do Campaign: procure por respostas nas perguntas já existentes ou faça uma nova pergunta à comunidade. [Participe da conversa](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=pt)
 
 ### Criar um tíquete ou iniciar um chat
 
