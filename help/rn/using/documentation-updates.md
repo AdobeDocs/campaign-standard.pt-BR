@@ -112,15 +112,15 @@ A seção **Quarentena versus Lista de bloqueios** foi esclarecida. [Leia mais](
 
 ## Julho de 2021 {#doc-updates-july-2021}
 
-Uma nova seção foi adicionada que descreve como permitir que os usuários assinem ou cancelem a inscrição de vários serviços a partir de uma única landing page. [Leia mais](../../channels/using/managing-landing-page-form-data.md#multiple-subscriptions)
+Uma nova seção foi adicionada que descreve como permitir que os usuários assinem ou cancelem a inscrição de vários serviços a partir de uma única página de destino. [Leia mais](../../channels/using/managing-landing-page-form-data.md#multiple-subscriptions)
 
-A seção **Gerenciamento de dados de formulário da landing page** foi atualizada e explicada. [Leia mais](../../channels/using/managing-landing-page-form-data.md)
+A seção **Gerenciamento de dados de formulário da página de destino** foi atualizada e explicada. [Leia mais](../../channels/using/managing-landing-page-form-data.md)
 
 ## Versão 21.2 - Junho de 2021 {#release-21-2---june-2021}
 
 **Novos recursos incluídos na versão**
 
-Validação de landing pages - agora é possível adicionar uma opção de contrato obrigatório às landing pages. [Leia mais](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)
+Validação de páginas de destino - agora é possível adicionar uma opção de contrato obrigatório às páginas de destino. [Leia mais](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)
 
 A seção **Tamanho do email** foi atualizada com informações sobre o tamanho máximo de um email, que agora é definido como 100 MB por padrão. [Leia mais](../../sending/using/design-and-personalize.md#email-size)
 
@@ -393,7 +393,7 @@ Uma nova seção que descreve os avisos que podem ser exibidos em um painel de m
 
 A documentação do MTA aprimorado do Adobe Campaign, que descreve a infraestrutura de envio atualizada, tornando possível o aprimoramento da capacidade da entrega, produtividade e manipulação de rejeição, está disponível. [Leia mais](https://helpx.adobe.com/br/campaign/kb/campaign-enhanced-mta.html)
 
-Foram adicionadas observações sobre os URLs do servidor de aplicativos e do servidor de mirror pages. Eles devem estar protegidos para que as pré-visualizações de landing page e mirror pages sejam exibidas na interface do Campaign. [Leia mais](../../administration/using/branding.md#configuring-and-using-brands)
+Foram adicionadas observações sobre os URLs do servidor de aplicativos e do servidor de mirror pages. Eles devem estar protegidos para que as pré-visualizações de página de destino e mirror pages sejam exibidas na interface do Campaign. [Leia mais](../../administration/using/branding.md#configuring-and-using-brands)
 
 A seção Exportar logs foi atualizada para refletir a disponibilidade da ID de log de entrega nos recursos Logs da entrega e Logs de rastreamento. A ID permite exportar um identificador exclusivo para cada log. [Leia mais](../../automating/using/exporting-logs.md)
 
@@ -423,7 +423,7 @@ O guia de introdução sobre como exportar/importar recursos personalizados foi 
 
 Um novo caso de uso que descreve como criar um grupo de controle usando um fluxo de trabalho no Campaign Standard foi adicionado.
 
-Informações relacionadas às propriedades das landing pages foram movidas para uma seção dedicada. [Leia mais](../../channels/using/configuring-landing-page.md)
+Informações relacionadas às propriedades das páginas de destino foram movidas para uma seção dedicada. [Leia mais](../../channels/using/configuring-landing-page.md)
 
 A documentação do Painel de controle foi integrada ao novo conjunto de documentação colaborativa. [Leia mais](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR)
 
@@ -471,7 +471,7 @@ Uma nova seção que descreve como enviar um email automático de confirmação 
 
 A seção Mensagens transacionais foi modificada com as atualizações mais recentes da interface, incluindo edição de conteúdo com o Designer de email. [Leia mais](../../channels/using/editing-transactional-message.md)
 
-O capítulo sobre landing pages foi reorganizado. Também foi adicionada uma nova seção que detalha as etapas de configuração de uma landing page. [Leia mais](../../channels/using/getting-started-with-landing-pages.md)
+O capítulo sobre páginas de destino foi reorganizado. Também foi adicionada uma nova seção que detalha as etapas de configuração de uma página de destino. [Leia mais](../../channels/using/getting-started-with-landing-pages.md)
 
 Uma nova seção foi adicionada na seção Notificações por push sobre como criar e atualizar informações de perfil com base nos dados de assinatura de um aplicativo para dispositivos móveis. [Leia mais](../../channels/using/updating-profile-with-mobile-app-data.md)
 
@@ -537,7 +537,7 @@ Um aviso na documentação de recursos personalizados foi adicionado. Recomendam
 
 ## Jun - Jul de 2019 {#doc-updates-2019}
 
-Uma nova página sobre limitações de landing pages foi adicionada. [Leia mais](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
+Uma nova página sobre limitações de páginas de destino foi adicionada. [Leia mais](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
 Um caso de uso sobre como chamar um perfil usando uma chave de identificação composta foi adicionado. [Leia mais](../../developing/using/uc-calling-resource-id-key.md)
 
@@ -557,7 +557,7 @@ Notificações locais - [Leia mais](../../channels/using/customizing-an-in-app-m
 
 Aprimoramento do fluxo de trabalho - Adicione um conteúdo à atividade de sinal externo - [Leia mais](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-Aprimoramento das landing pages - Google reCAPTCHA - [Leia mais](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)
+Aprimoramento das páginas de destino - Google reCAPTCHA - [Leia mais](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)
 
 **Outras atualizações de documentação incluídas na versão**
 
@@ -589,7 +589,7 @@ O guia de Automatização foi atualizado com links para atividades de fluxo de t
 
 A seção Cálculo de indicadores para relatórios dinâmicos foi atualizada. [Leia mais](../../reporting/using/indicator-calculation.md)
 
-A tabela de compatibilidade de relatórios dinâmicos foi adicionada para um melhor entendimento da compatibilidade entre dimensões e métricas. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=pt-BR)
+A tabela de compatibilidade de relatórios dinâmicos foi adicionada para um melhor entendimento da compatibilidade entre dimensões e métricas. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 A lista de funções para fluxos de trabalho foi atualizada. [Leia mais](../../automating/using/list-of-functions.md)
 
@@ -797,7 +797,7 @@ Foram adicionadas informações sobre tipos de logs de rastreamento. [Leia mais]
 
 A seção da atividade de consulta foi atualizada com amostras de consultas. [Leia mais](../../automating/using/query.md#query-samples)
 
-A seção dedicada às lista de bloqueios foi renomeada como “Noções básicas sobre os processos de aceitação e recusa”. Essa seção foi atualizada com informações sobre como gerenciar aceitações para canais específicos e como configurar landing pages para gerenciar aceitações e recusas. [Leia mais](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+A seção dedicada às lista de bloqueios foi renomeada como “Noções básicas sobre os processos de aceitação e recusa”. Essa seção foi atualizada com informações sobre como gerenciar aceitações para canais específicos e como configurar páginas de destino para gerenciar aceitações e recusas. [Leia mais](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Conheças as práticas recomendadas para usar os servidores SFTP hospedados pela Adobe. [Leia mais](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -821,7 +821,7 @@ Uso de recursos personalizados em mensagens transacionais - [Leia mais](../../ch
 
 A API do RGPD reagrupa recursos que permitem o processamento automático de solicitações do RGPD. [Leia mais](../../api/using/creating-a-privacy-request.md)
 
-Foram adicionadas informações sobre como configurar landing pages para que seus destinatários possam ser incluídos na lista de bloqueios. [Leia mais](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Foram adicionadas informações sobre como configurar páginas de destino para que seus destinatários possam ser incluídos na lista de bloqueios. [Leia mais](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 A seção [Configuração de mensagens transacionais](../../channels/using/configuring-transactional-event.md) foi reorganizada e um [caso de uso passo a passo](../../channels/using/transactional-messaging-use-case.md) foi adicionado.
 
@@ -867,7 +867,7 @@ A atividade **[!UICONTROL Subscription Services]** foi atualizada para ser compa
 
 Adicionado um caso de uso passo a passo sobre como preparar uma entrega. [Leia mais](../../sending/using/preparing-the-send.md)
 
-A seção que inclui a lista de autorizações foi retirada. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=pt-BR) (PDF).
+A seção que inclui a lista de autorizações foi retirada. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF).
 
 Um caso de uso passo a passo foi adicionado sobre como usar a resposta automática do SMS. [Leia mais](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1039,7 +1039,7 @@ Uma nova nota técnica agora está disponível: &quot;Integração do SDK móvel
 
 Foram adicionadas instruções para configurar a integração do serviço principal do People ou Audience Manager com o Adobe Campaign. [Leia mais](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-A tabela de autorizações foi revisada para esclarecer melhor a função de certos cargos. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=pt-BR)
+A tabela de autorizações foi revisada para esclarecer melhor a função de certos cargos. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Atualização dos links de ajuda contextual disponíveis diretamente do Adobe Campaign.
 

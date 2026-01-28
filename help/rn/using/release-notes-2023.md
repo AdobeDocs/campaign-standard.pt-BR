@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 5817c4d2-4788-4695-bf9a-ec04cc042190
 source-git-commit: 30e96494dd7fa3313601e48deeec8ef98dcdce85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '458'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ### Aprimoramentos {#fall-23-rn-improvements}
 
-* **Integração com o Adobe Experience Manager**. Ao criar um template de entrega personalizado para mensagens transacionais no Adobe Experience Manager, agora é possível selecionar e usar os campos de personalização definidos no Campaign Standard em um menu suspenso. [Saiba mais](../../integrating/using/creating-email-experience-manager.md)
+* **Integração com o Adobe Experience Manager**. Ao criar um modelo de entrega personalizado para mensagens transacionais no Adobe Experience Manager, agora é possível selecionar e usar os campos de personalização definidos no Campaign Standard em um menu suspenso. [Saiba mais](../../integrating/using/creating-email-experience-manager.md)
 
 * **Expiração de cookies**: a expiração padrão de cookies agora é definida como seis meses, de acordo com as recomendações da Agência de Proteção de Dados (CNIL) da França.
 
@@ -43,8 +43,8 @@ ht-degree: 100%
 
 ### Correções {#fall-23-rn-fixes}
 
-* Correção de uma regressão que poderia causar problemas de desempenho ao usar workflows grandes. (CAMP-53369)
-* Correção de um problema que impedia que o link nos alertas ou notificações por email do workflow funcionasse. (CAMP-51874)
+* Correção de uma regressão que poderia causar problemas de desempenho ao usar fluxos de trabalho grandes. (CAMP-53369)
+* Correção de um problema que impedia que o link nos alertas ou notificações por email do fluxo de trabalho funcionasse. (CAMP-51874)
 
 ## Versão 23.1 - Versão de primavera/verão de 2023 {#apr-23}
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 
 ### Problemas corrigidos{#e-rn-patches}
 
-* Correção de um problema que poderia resultar em um erro de tempo limite ao exibir o relatório **Hot click**. (CAMP-51582)
+* Correção de um problema que poderia resultar em um erro de tempo-limite ao exibir o relatório **Hot click**. (CAMP-51582)
 * Correção de um problema que poderia impedir o uso da integração com o serviço **Places**. (CAMP-51923)
 * Correção de um problema que poderia impedir o funcionamento adequado do Scheduler de fluxos de trabalho. (CAMP-52003)
 * Correção de um problema que impedia a exibição do detalhamento ao visualizar a versão PDF de um relatório dinâmico personalizado com um grande volume de dados. (CAMP-52178)

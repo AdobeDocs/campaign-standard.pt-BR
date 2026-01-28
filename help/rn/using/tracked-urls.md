@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 exl-id: 8c2725a8-2c3a-448a-8c04-c0c2a5950574
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '196'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Observe que os links de unsubscription podem falhar como qualquer outro link, a 
 
 **Você será afetado?**
 
-Alguns usuários do Campaign Standard são afetados, pois o mecanismo de assinatura para rastrear links em emails foi introduzido no [Campaign Standard 20.4](release-notes-2020.md#release-20-4---october-2020) — outubro de 2020 — e é ativado por padrão para todos os clientes.
+Alguns usuários do Campaign Standard são afetados, pois o mecanismo de assinatura para rastrear links em emails foi introduzido no [Campaign Standard 20.4](release-notes-2020.md#release-20-4---october-2020) — outubro de 2020 — e é habilitado por padrão para todos os clientes.
 
 **Como atualizar?**
 

@@ -14,7 +14,7 @@ role: User
 level: Intermediate
 exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '812'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Os itens listados abaixo vinculam-se aos principais termos e conceitos relaciona
 
 **Qual é a sugestão do Adobe Campaign para o cumprimento das mais recentes regras de privacidade?**
 
-A Adobe não presta aconselhamento jurídico. Você deve trabalhar com seu próprio serviço jurídico para garantir que sejam tomadas todas as medidas necessárias para o GDPR, CCPA, PDPA, LGPD ou qualquer outra regulamentação aplicável.
+A Adobe não presta aconselhamento jurídico. Você deve trabalhar com seu próprio serviço jurídico para garantir que sejam tomadas todas as medidas necessárias para o RGPD, CCPA, PDPA, LGPD ou qualquer outra regulamentação aplicável.
 
 **Preparo para solicitações de acesso e exclusão de dados**
 
@@ -53,7 +53,7 @@ A Adobe não presta aconselhamento jurídico. Você deve trabalhar com seu próp
 
 **Considere o consentimento**
 
-* Liste e atualize, conforme a necessidade, todos os pontos de contato para captura de dados para GDPR (ou seja, considere o idioma, o mecanismo de consentimento e os logs de consentimento).
+* Liste e atualize, conforme a necessidade, todos os pontos de contato para captura de dados para RGPD (ou seja, considere o idioma, o mecanismo de consentimento e os logs de consentimento).
 
 * Verifique se todos os emails de marketing incluem os links para cancelamento de inscrição.
 
@@ -79,7 +79,7 @@ Nos casos em que é necessário o consentimento para determinadas atividades de 
 
 Pode até haver instâncias em que certos consentimentos precisem ser atualizados para que possam continuar usando os dados a partir de agora.
 
-Em vez de considerar esses requisitos de consentimento aprimorados como um risco para o universo mercadológico, os profissionais de marketing poderiam adotá-los como um verdadeiro indicador de engajamento e lealdade da marca, assim como da satisfação e confiança do cliente.
+Em vez de considerar esses requisitos de consentimento aprimorados como um risco para o universo mercadológico, os profissionais de marketing poderiam adotá-los como um verdadeiro indicador de engajamento e fidelidade à marca, assim como da satisfação e confiança do cliente.
 
 ## Gerenciar o consentimento {#manage-consent}
 
@@ -87,7 +87,7 @@ Em vez de considerar esses requisitos de consentimento aprimorados como um risco
 
 O Adobe Campaign já oferece recursos para gerenciar o consentimento em mais níveis do que a maioria dos profissionais de marketing aproveita por meio de campos de dados personalizados ou por meio de um ou mais serviços.
 
-Os profissionais de marketing devem consultar seu serviço jurídico para obter orientação sobre como proceder e, em seguida, aproveitar os recursos já incorporados ao Adobe Campaign.
+Os profissionais de marketing devem consultar seu serviço jurídico para obter orientação sobre como proceder e, em seguida, aproveitar os recursos já integrados ao Adobe Campaign.
 
 Por exemplo, estender o modelo de dados no Adobe Campaign para rastrear não apenas se as pessoas aceitaram, mas também o registro de data e hora da aceitação, e algum tipo de indicador que capture o escopo preciso do consentimento.
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Obtenha suporte usando as perguntas frequentes, as práticas recomendadas, os re
     </td>
     <td valign="top">
         <ul>
-        <li><a href="automating/using/monitoring-workflow-execution.md#error-management">Gerenciamento de erros em workflows</a></li>
+        <li><a href="automating/using/monitoring-workflow-execution.md#error-management">Gerenciamento de erros em fluxos de trabalho</a></li>
         <li><a href="automating/using/best-practices-workflows.md">Soluções de problemas de execução de fluxo de trabalho</a></li>
         <li><a href="api/using/troubleshooting.md">Soluções de problemas de API</a></li>
         <li><a href="sending/using/understanding-delivery-failures.md">Entender as falhas de entrega</a></li>
@@ -57,7 +57,7 @@ Obtenha suporte usando as perguntas frequentes, as práticas recomendadas, os re
         <li><a href="automating/using/about-workflow-execution.md">Monitoramento de fluxo de trabalho</a></li>
         <li><a href="sending/using/tracking-messages.md">Entender o gerenciamento de rastreamento</a></li>
         <li><a href="sending/using/about-deliverability.md">Práticas recomendadas de capacidade de entrega</a></li>
-        <li><a href="automating/using/creating-import-workflow-templates.md">Importar dados com workflows</a></li>
+        <li><a href="automating/using/creating-import-workflow-templates.md">Importar dados com fluxos de trabalho</a></li>
         <li><a href="sending/using/sending-messages-at-the-recipient-s-time-zone.md">Gerenciamento de fuso horário</a></li>
         <li><a href="sending/using/receiving-alerts-when-failures-happen.md">Receber uma notificação quando ocorrer uma falha</a></li>
         <li><a href="designing/using/using-existing-content.md">Importar ou converter um conteúdo de email</a></li>
@@ -70,8 +70,8 @@ Obtenha suporte usando as perguntas frequentes, as práticas recomendadas, os re
         <li><a href="sending/using/monitoring-a-delivery.md">Monitorar uma entrega</a></li>
         <li><a href="sending/using/understanding-quarantine-management.md">Entender o gerenciamento de quarentenas</a></li>
         <li><a href="start/using/privacy-management.md">Gestão do consentimento e da privacidade</a></li>
-        <li><a href="automating/using/query.md">Criar uma query</a></li>
-        <li><a href="automating/using/query-samples.md">Amostras de query</a></li>
+        <li><a href="automating/using/query.md">Criar uma consulta</a></li>
+        <li><a href="automating/using/query-samples.md">Amostras de consulta</a></li>
         <li><a href="administration/using/push-tracking.md">Configurar canais móveis</a></li>
         </ul>
     </td>
@@ -95,7 +95,7 @@ O Painel de controle ajuda a aumentar a eficiência do seu trabalho como adminis
 
 O Painel de controle está disponível diretamente na Adobe Experience Cloud. [Clique aqui](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=pt-BR#discover-control-panel) para obter mais informações.
 
-### Perguntas frequentes sobre o Painel de controle
+### Perguntas frequentes do Painel de Controle do Campaign
 
 [Clique aqui](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=pt-BR) para acessar as Perguntas frequentes sobre o Painel de controle do Campaign.
 
@@ -119,7 +119,7 @@ O novo sistema de emissão de tíquetes passou pelo [Adobe Admin Console](https:
 
 ### Pergunte aos especialistas.
 
-Associe-se à Comunidade do Campaign: procure por respostas nas perguntas já existentes ou faça uma nova pergunta à comunidade. [Participe da conversa](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=pt)
+Associe-se à Comunidade do Campaign: procure por respostas nas perguntas já existentes ou faça uma nova pergunta à comunidade. [Participe da conversa](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Criar um tíquete ou iniciar um chat
 

@@ -14,7 +14,7 @@ role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1377'
 ht-degree: 100%
 
@@ -33,16 +33,16 @@ O Adobe Campaign é uma ferramenta poderosa para coletar e processar quantidades
 ### Regras de privacidade {#privacy-regulations}
 
 Para gerenciar corretamente a privacidade e os dados pessoais, trabalhe dentro das legislações aplicáveis às regiões onde você opera. Estas regras incluem:
-* [GDPR](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en) (Regulamento geral europeu de proteção de dados)
-* [DPA](https://www.gov.uk/data-protection) (Aplicação do GDPR pelo Reino Unido)
+* [RGPD](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en) (Regulamento geral europeu de proteção de dados)
+* [DPA](https://www.gov.uk/data-protection) (Aplicação do RGPD pelo Reino Unido)
 * [Diretiva europeia relativa à privacidade e às comunicações eletrônicas](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0058-20091219)
 * [CAN-SPAM Act](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business) (Lei norte-americana que define as regras e os requisitos para o email comercial)
-* [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=) (Ato de Privacidade do Consumidor da Califórnia)
+* [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.5.&part=4.&chapter=&article=) (Ato de Privacidade do Consumidor da Califórnia)
 * [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/) (Lei de Proteção de Dados Pessoais da Tailândia)
 
 >[!NOTE]
 >
->Para obter mais informações sobre como o GDPR, o CCPA e o PDPA se aplicam ao Adobe Campaign, consulte [esta página](../../start/using/privacy-management.md#privacy-management-regulations).
+>Para obter mais informações sobre como o RGPD, o CCPA e o PDPA se aplicam ao Adobe Campaign, consulte [esta página](../../start/using/privacy-management.md#privacy-management-regulations).
 
 ### Privacidade da Adobe Experience Cloud {#experience-cloud-privacy}
 
@@ -114,8 +114,8 @@ Os principais recursos de privacidade do Campaign e um exemplo das personalidade
 
 Originalmente, o Adobe Campaign oferece recursos importantes que são essenciais à privacidade:
 
-* **Gerenciamento de consentimento**: por meio do processo de gerenciamento de assinaturas, você pode gerenciar suas preferências de destinatário e rastrear quais destinatários aceitaram e que tipo de assinatura. Para obter mais informações, consulte [Assinaturas](../../audiences/using/about-subscriptions.md) e [Landing pages](../../channels/using/getting-started-with-landing-pages.md).
-* **Retenção de dados**: todas as tabelas de registro padrão incorporadas têm períodos de retenção predefinidos, geralmente limitando seu armazenamento de dados a 6 meses ou menos. Períodos de retenção adicionais podem ser configurados com workflows. Para obter mais informações, entre em contato com os consultores ou administradores técnicos da Adobe.
+* **Gerenciamento de consentimento**: por meio do processo de gerenciamento de assinaturas, você pode gerenciar suas preferências de destinatário e rastrear quais destinatários aceitaram e que tipo de assinatura. Para obter mais informações, consulte [Assinaturas](../../audiences/using/about-subscriptions.md) e [Páginas de destino](../../channels/using/getting-started-with-landing-pages.md).
+* **Retenção de dados**: todas as tabelas de registro padrão integradas têm períodos de retenção predefinidos, geralmente limitando seu armazenamento de dados a 6 meses ou menos. Períodos de retenção adicionais podem ser configurados com fluxos de trabalho. Para obter mais informações, entre em contato com os consultores ou administradores técnicos da Adobe.
 * **Gerenciamento de direitos**: o Adobe Campaign oferece a capacidade de gerenciar os direitos atribuídos aos vários operadores do Campaign por meio de diferentes funções pré-concebidas ou personalizadas. Isso permite gerenciar quem em sua empresa pode acessar, modificar ou exportar diferentes tipos de dados. Para obter mais informações, consulte [Sobre o gerenciamento de acesso](../../administration/using/about-access-management.md).
 
 Para obter mais informações sobre esses recursos e como gerenciá-los no Adobe Campaign, consulte [esta página](../../start/using/privacy-management.md#consent-retention-roles).
@@ -130,7 +130,7 @@ O Adobe Campaign fornece recursos adicionais para ajudar você se tornar um Cont
 
 >[!NOTE]
 >
->Este conjunto de ferramentas ajuda na conformidade de privacidade com o GDPR, CCPA e PDPA. Para obter mais informações sobre esses diferentes regulamentos, consulte [esta página](../../start/using/privacy-management.md#privacy-management-regulations).
+>Este conjunto de ferramentas ajuda na conformidade de privacidade com o RGPD, CCPA e PDPA. Para obter mais informações sobre esses diferentes regulamentos, consulte [esta página](../../start/using/privacy-management.md#privacy-management-regulations).
 
 As solicitações de **Acesso** e **Exclusão** são apresentadas [nesta página](../../start/using/privacy-management.md#right-access-forgotten). As etapas de implementação para criar essas solicitações estão detalhadas [nesta página](../../start/using/privacy-requests.md#about-privacy-requests). Os tutoriais também estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=pt-BR).
 
@@ -140,6 +140,6 @@ Graças às funcionalidades de rastreamento, o Adobe Campaign permite rastrear o
 
 >[!NOTE]
 >
->Regulamentos como o Regulamento Geral sobre a Proteção de Dados (GDPR) afirmam que as empresas exigem o consentimento dos usuários do site antes da instalação de qualquer cookie. Você deve informar aos usuários que seus sites estão equipados com ferramentas de rastreamento da web por meio de uma solicitação de autorização.
+>Regulamentos como o Regulamento Geral sobre a Proteção de Dados (RGPD) afirmam que as empresas exigem o consentimento dos usuários do site antes da instalação de qualquer cookie. Você deve informar aos usuários que seus sites estão equipados com ferramentas de rastreamento da web por meio de uma solicitação de autorização.
 
 Você também pode adicionar [links rastreados](../../designing/using/links.md#about-tracked-urls) em suas mensagens para medir o impacto do comportamento da entrega e do destinatário no relatório integrado dos [indicadores de rastreamento](../../reporting/using/tracking-indicators.md) ou criar seus próprios [relatórios exclusivos](../../reporting/using/about-dynamic-reports.md).

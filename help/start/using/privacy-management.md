@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '788'
 ht-degree: 100%
 
@@ -17,9 +17,9 @@ ht-degree: 100%
 
 # Gerenciamento de privacidade {#privacy-management}
 
-O Adobe Campaign oferece um conjunto de ferramentas para ajudar a cumprir os [regulamentos sobre privacidade](#privacy-management-regulations) (incluindo GDPR, CCPA, PDPA, LGPD).
+O Adobe Campaign oferece um conjunto de ferramentas para ajudar a cumprir os [regulamentos sobre privacidade](#privacy-management-regulations) (incluindo RGPD, CCPA, PDPA, LGPD).
 
-Estes são os cinco principais recursos oferecidos pelo Adobe Campaign para garantir a conformidade com o GDPR e outras regras de privacidade:
+Estes são os cinco principais recursos oferecidos pelo Adobe Campaign para garantir a conformidade com o RGPD e outras regras de privacidade:
 
 ![](assets/privacy-gdpr-use-cases.png)
 
@@ -45,12 +45,12 @@ It also contains information on important features to manage Privacy ([consent, 
 
 Os recursos do Adobe Campaign ajudam você a cumprir os seguintes requisitos:
 
-* **O GDPR** ([Regulamento Geral sobre a Proteção de Dados](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)) é a lei de privacidade da União Europeia (UE) que adequa e moderniza os requisitos de proteção de dados nos países membros da UE. Siga os links abaixo para encontrar informações gerais sobre o GDPR:
+* **O RGPD** ([Regulamento Geral sobre a Proteção de Dados](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)) é a lei de privacidade da União Europeia (UE) que adequa e moderniza os requisitos de proteção de dados nos países membros da UE. Siga os links abaixo para encontrar informações gerais sobre o RGPD:
 
    * https://www.adobe.com/br/privacy/general-data-protection-regulation.html
    * https://www.adobe.com/marketing-cloud/campaign/general-data-protection-regulation.html
 
-* **O CCPA** ([Ato de privacidade do consumidor da Califórnia](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=)) fornece aos residentes da Califórnia novos direitos no que diz respeito a suas informações pessoais e impõe responsabilidades de proteção de dados a determinadas entidades com negócios na Califórnia.
+* **O CCPA** ([Ato de privacidade do consumidor da Califórnia](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.5.&part=4.&chapter=&article=)) fornece aos residentes da Califórnia novos direitos no que diz respeito a suas informações pessoais e impõe responsabilidades de proteção de dados a determinadas entidades com negócios na Califórnia.
 * O **PDPA** ([Ato de proteção de dados pessoais)](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/) é a nova lei de privacidade que adequa e moderniza os requisitos de proteção de dados na Tailândia.
 * **A LGPD** ([Lei Geral de Proteção de Dados](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf)) entrará em vigor no início de 2021 para todas as empresas que coletam ou processam dados pessoais no Brasil.
 
@@ -81,7 +81,7 @@ Os tutoriais sobre o Gerenciamento de privacidade no Campaign Standard também e
 Além dos recursos mais recentes de **Direito de acesso** e **Direito ao esquecimento**, o Adobe Campaign oferece outros recursos importantes, essenciais para a privacidade:
 
 * [Gerenciamento do consentimento](#consent-management): funcionalidade de assinatura para gerenciamento de preferências
-* [Retenção de dados](../../administration/using/data-retention.md): períodos de retenção de dados em todas as tabelas de log padrão; períodos de retenção adicionais podem ser configurados com workflows
+* [Retenção de dados](../../administration/using/data-retention.md): períodos de retenção de dados em todas as tabelas de log padrão; períodos de retenção adicionais podem ser configurados com fluxos de trabalho
 * [Gerenciamento de direitos](#rights-management): acesso a dados gerenciados por direito nomeado     
 
 ### Gerenciamento de consentimento {#consent-management}
@@ -92,7 +92,7 @@ Os recursos para ajudar a gerenciar alguns aspectos do consentimento são fundam
 
 ![](assets/privacy-consent-management.png)
 
-Para obter mais informações sobre o Gerenciamento de consentimento , consulte [Sobre assinaturas](../../audiences/using/about-subscriptions.md) e [Introdução a landing pages](../../channels/using/getting-started-with-landing-pages.md).
+Para obter mais informações sobre o Gerenciamento de consentimento , consulte [Sobre assinaturas](../../audiences/using/about-subscriptions.md) e [Introdução a páginas de destino](../../channels/using/getting-started-with-landing-pages.md).
 
 Além das ferramentas de Gerenciamento de consentimento oferecidas pelo Adobe Campaign, existe a possibilidade de monitorar se o cliente optou pela não participação na venda de Informações pessoais. Consulte [esta seção](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
