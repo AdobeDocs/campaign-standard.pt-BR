@@ -1,14 +1,14 @@
 ---
 title: Configurar um aplicativo para dispositivos móveis
-description: Saiba como configurar o Adobe Campaign para enviar notificações por push ou mensagens no aplicativo usando o SDK do Experience Platform
+description: Saiba como configurar o Adobe Campaign para enviar notificações por push ou mensagens no aplicativo usando o Experience Platform SDK
 audience: administration
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 58b07f023f52e2bf4972b4a86bf4412f613f38da
+source-git-commit: c1914c855011868c76debebbea87d7416faaf0dc
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1309'
 ht-degree: 2%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> O Adobe Experience Platform Launch foi reformulado como um conjunto de tecnologias de coleção de dados na Adobe Experience Platform. Como resultado, várias alterações de terminologia foram implementadas na documentação do produto. Consulte o [seguinte documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=pt-BR){target="_blank"} para obter uma referência consolidada das alterações de terminologia.
+> O Adobe Experience Platform Launch foi reformulado como um conjunto de tecnologias de coleção de dados na Adobe Experience Platform. Como resultado, várias alterações de terminologia foram implementadas na documentação do produto. Consulte o [seguinte documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html){target="_blank"} para obter uma referência consolidada das alterações de terminologia.
 
-Observe que as implementações de notificação por push e no aplicativo devem ser executadas por usuários especialistas. Para obter assistência, entre em contato com o executivo da sua conta Adobe ou com o parceiro de serviços Professional.
+Observe que as implementações de notificação por push e no aplicativo devem ser executadas por usuários especialistas. Para obter assistência, entre em contato com o executivo da sua conta da Adobe ou com o parceiro de serviços Professional.
 
-Para enviar notificações por push e mensagens no aplicativo com o aplicativo SDK do Experience Platform, um aplicativo para dispositivos móveis deve ser configurado na interface da Coleção de dados e no Adobe Campaign.
+Para enviar notificações por push e mensagens no aplicativo com o aplicativo Experience Platform SDK, um aplicativo para dispositivos móveis deve ser configurado na interface da Coleção de dados e no Adobe Campaign.
 
 Depois que um aplicativo móvel é configurado, você pode recuperar os dados de PII coletados para criar ou atualizar perfis do banco de dados. Para obter mais informações, consulte esta seção: [Criar e atualizar informações de perfil com base nos dados do aplicativo móvel](../../channels/using/updating-profile-with-mobile-app-data.md).
 
@@ -40,10 +40,10 @@ Para concluir a configuração, conclua as seguintes etapas:
 
 1. Verifique se o usuário tem as permissões necessárias no Adobe Campaign Standard e nas tags na Adobe Experience Platform.
 
-   * No Adobe Campaign Standard, verifique se o usuário do IMS faz parte dos Perfis de usuário padrão e de produto de administrador. Essa etapa permite que o usuário faça logon no Adobe Campaign Standard, navegue até a página do aplicativo móvel do SDK do Experience Platform e visualize as propriedades do aplicativo móvel criadas na interface da Coleção de dados.
+   * No Adobe Campaign Standard, verifique se o usuário do IMS faz parte dos Perfis de usuário padrão e de produto de administrador. Essa etapa permite que o usuário faça logon no Adobe Campaign Standard, navegue até a página do aplicativo móvel Experience Platform SDK e visualize as propriedades do aplicativo móvel que você criou na interface da Coleção de dados.
 
-   * Na interface da Coleção de dados, verifique se o usuário do IMS faz parte de um perfil de produto Experience Platform Launch.
-Esta etapa permite que o usuário faça logon na interface da Coleção de dados para criar e exibir as propriedades. Para obter mais informações sobre perfis de produtos na Interface da Coleção de Dados, consulte [Criar perfil de produto](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=pt-BR#gain-admin-rights-for-a-tags-product-profile). No perfil do produto, não deve haver permissões definidas na empresa ou nas propriedades, mas o usuário ainda deve conseguir fazer logon.
+   * Na interface da Coleção de dados, verifique se o usuário do IMS faz parte de um perfil de produto do Experience Platform Launch.
+Esta etapa permite que o usuário faça logon na interface da Coleção de dados para criar e exibir as propriedades. Para obter mais informações sobre perfis de produtos na Interface da Coleção de Dados, consulte [Criar perfil de produto](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile). No perfil do produto, não deve haver permissões definidas na empresa ou nas propriedades, mas o usuário ainda deve conseguir fazer logon.
 
    Para concluir tarefas adicionais, como instalar uma extensão, publicar um aplicativo, configurar ambientes e assim por diante, é necessário definir permissões no perfil do produto.
 
@@ -51,7 +51,7 @@ Esta etapa permite que o usuário faça logon na interface da Coleção de dados
 
 1. Na interface da Coleção de Dados, clique na guia **[!UICONTROL Extensions]**, vá para **[!UICONTROL Catalog]** e procure a extensão **[!UICONTROL Adobe Campaign Standard]**. Para obter mais informações, consulte [Adobe Campaign Standard](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
-1. Para dar suporte a casos de uso de localização no Campaign Standard, instale a extensão **[!UICONTROL Places]** na interface da Coleção de Dados. Consulte esta [página](https://developer.adobe.com/client-sdks/solution/places).
+1. Para oferecer suporte a casos de uso de localização no Campaign Standard, instale a extensão **[!UICONTROL Places]** na interface da Coleção de Dados. Consulte esta [página](https://developer.adobe.com/client-sdks/solution/places).
 
 1. No Adobe Campaign Standard, configure a propriedade móvel que você criou na interface da coleção de dados. Consulte [Configurando seu aplicativo do Adobe Experience Platform Launch no Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
@@ -123,7 +123,7 @@ Seu **[!UICONTROL Property Status]** deve ser **[!UICONTROL Ready to configure]*
 
 1. Para que essa configuração tenha efeito, as alterações precisam ser publicadas na interface da Coleção de dados.
 
-   Para obter mais informações, consulte [configuração do Publish](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
+   Para obter mais informações, consulte [Configuração de publicação](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
 
 ## Configuração do aplicativo específico do canal no Adobe Campaign {#channel-specific-config}
 
@@ -149,26 +149,26 @@ Seu aplicativo móvel agora está pronto para ser usado na notificação por pus
 
 1. Na seção **[!UICONTROL Device-specific settings]** de um painel de aplicativo móvel, para cada dispositivo, forneça os detalhes do aplicativo.
 
-   +++*  Para iOS
+   +++ Para iOS
 
-     Informe os seguintes detalhes do aplicativo:
+   Informe os seguintes detalhes do aplicativo:
 
-      * **ID do Aplicativo (ID do Pacote iOS)**: consulte a [documentação do Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"} para obter mais informações sobre a ID do Pacote.
-      * **Arquivo de Certificado (P8) do iOS**: arraste e solte sua chave de autenticação .p8. Para obter instruções sobre como gerar o arquivo de autenticação .p8, consulte sua [conta de desenvolvedor do Apple](https://developer.apple.com/account/ios/authkey/create){target="_blank"}.
-      * **ID da Chave**: consulte a [documentação do Apple](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"} para obter mais informações sobre a ID da Chave.
-      * **iOS Team ID**: consulte a [documentação do Apple](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} para obter mais informações sobre a iOS Team ID.
+   * **ID do Aplicativo (ID do Pacote iOS)**: consulte a [documentação do Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"} para obter mais informações sobre a ID do Pacote.
+   * **Arquivo de Certificado (P8) do iOS**: arraste e solte sua chave de autenticação .p8. Para obter instruções sobre como gerar o arquivo de autenticação .p8, consulte sua [conta de desenvolvedor do Apple](https://developer.apple.com/account/ios/authkey/create){target="_blank"}.
+   * **ID da Chave**: consulte a [documentação da Apple](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"} para obter mais informações sobre a ID da Chave.
+   * **iOS Team ID**: consulte a [documentação do Apple](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} para obter mais informações sobre a iOS Team ID.
 
-        ![](assets/mobile_app_ios_config.png)
-   +++
+         ![](assets/mobile_app_ios_config.png)
+     +++
 
-   +++*  Para Android
+   +++ Para Android
 
-     Informe os seguintes detalhes do aplicativo:
+   Informe os seguintes detalhes do aplicativo:
 
-      * **ID do Aplicativo (Nome do Pacote Android)**: Consulte a [documentação do Android](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"} para obter mais informações sobre o nome do Pacote.
-      * **Arquivo de chave privada (Json) do Android**: arraste e solte seu arquivo de chave privada .json. Para obter instruções sobre como gerar o arquivo de chave privada .json, consulte a [Documentação do desenvolvedor para Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}.
+   * **ID do Aplicativo (Nome do Pacote Android)**: consulte a [documentação do Android](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"} para obter mais informações sobre o nome do Pacote.
+   * **Arquivo de chave privada (Json) do Android**: arraste e solte seu arquivo de chave privada .json. Para obter instruções sobre como gerar o arquivo de chave privada .json, consulte a [Documentação do desenvolvedor para Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}.
 
-        ![](assets/mobile_app_android_config.png)
+     ![](assets/mobile_app_android_config.png)
    +++
 
 1. Depois que o certificado for carregado, uma mensagem notificará que o upload foi bem-sucedido e exibirá a data de expiração do certificado.
