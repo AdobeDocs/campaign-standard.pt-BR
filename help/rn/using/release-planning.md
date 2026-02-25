@@ -8,7 +8,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: a9137d1230bd4d975593cfcc3f9c5e2e985f603d
+source-git-commit: 373760ba6560bebf68e730eb083f646099503986
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 99%
@@ -40,7 +40,7 @@ Informações detalhadas sobre esta versão estão disponíveis nas [Notas de v
  <tbody>
   <tr>
    <td>Preparo </td>
-   <td>Março </td>
+   <td>Abril </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
   <tr>
