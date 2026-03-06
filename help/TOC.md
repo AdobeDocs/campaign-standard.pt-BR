@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Documentação do produto do Adobe Campaign Standard.
 title: Manual do Campaign Standard
 breadcrumb-title: Documentação do Campaign Standard
-source-git-commit: c70e3058f75ba2b11a8311628198e5c02d489964
+source-git-commit: 4df02bb5bbac105057a33d61a7158482bbc48a53
 workflow-type: tm+mt
-source-wordcount: '1753'
+source-wordcount: '1754'
 ht-degree: 90%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 90%
 + Notas de versão {#release-notes}
    + [Versão mais recente](rn/using/release-notes.md)
    + Versões anteriores {#previous-releases}
+      + [2025](rn/using/release-notes-2025.md)
       + [2024](rn/using/release-notes-2024.md)
       + [2023](rn/using/release-notes-2023.md)
       + [2022](rn/using/release-notes-2022.md)
@@ -135,12 +136,12 @@ ht-degree: 90%
       + [Mensagens de acompanhamento](channels/using/follow-up-messages.md)
       + [Caso de uso de mensagem transacional](channels/using/transactional-messaging-use-case.md)
    + Páginas de destino {#landing-pages}
-      + [Introdução às landing pages](channels/using/getting-started-with-landing-pages.md)
-      + [Sobre modelos de landing pages](channels/using/landing-page-templates.md)
-      + [Configuração de uma landing page](channels/using/configuring-landing-page.md)
-      + [Design de uma landing page](channels/using/designing-a-landing-page.md)
-      + [Gerenciamento de dados de formulário de landing page](channels/using/managing-landing-page-form-data.md)
-      + [Teste e publicação de uma landing page](channels/using/testing-publishing-landing-page.md)
+      + [Introdução às páginas de destino](channels/using/getting-started-with-landing-pages.md)
+      + [Sobre modelos de páginas de destino](channels/using/landing-page-templates.md)
+      + [Configuração de uma página de destino](channels/using/configuring-landing-page.md)
+      + [Design de uma página de destino](channels/using/designing-a-landing-page.md)
+      + [Gerenciamento de dados de formulário de página de destino](channels/using/managing-landing-page-form-data.md)
+      + [Teste e publicação de uma página de destino](channels/using/testing-publishing-landing-page.md)
       + [Configuração de um processo duplo de aceitação](channels/using/setting-up-a-double-opt-in-process.md)
 + Criação do conteúdo de email {#designing-content}
    + [Designer de email do Campaign](designing/using/designing-content-in-adobe-campaign.md)
@@ -366,7 +367,7 @@ ht-degree: 90%
          + [União em dois públicos-alvos refinados](automating/using/union-on-two-refined-audiences.md)
          + [Criação de uma segmentação no local](automating/using/workflow-segmentation-location.md)
          + [Redirecionamento de não iniciadores](automating/using/workflow-cross-channel-retargeting.md)
-         + [Query incremental para assinantes de um serviço](automating/using/incremental-query-on-subscribers.md)
+         + [Consulta incremental para assinantes de um serviço](automating/using/incremental-query-on-subscribers.md)
          + [Segmentação por faixa etária](automating/using/segmentation-age-groups.md)
          + [Uso de recursos diferentes de dimensões de direcionamento](automating/using/using-resources-different-from-targeting-dimensions.md)
       + Gerenciamento de dados {#data-management}
@@ -410,7 +411,7 @@ ht-degree: 90%
       + [Público-alvo](developing/using/datamodel-audience.md)
       + [Campaign](developing/using/datamodel-campaign.md)
       + [Entrega](developing/using/datamodel-delivery.md)
-      + [Landing pages](developing/using/datamodel-landingpage.md)
+      + [Páginas de destino](developing/using/datamodel-landingpage.md)
       + [Histórico de marketing](developing/using/datamodel-history.md)
       + [Perfil](developing/using/datamodel-profile.md)
       + [Programa](developing/using/datamodel-program.md)

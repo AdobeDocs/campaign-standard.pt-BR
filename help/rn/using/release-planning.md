@@ -8,7 +8,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 373760ba6560bebf68e730eb083f646099503986
+source-git-commit: 4df02bb5bbac105057a33d61a7158482bbc48a53
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 99%
@@ -25,7 +25,7 @@ As atualizações são implantadas em duas fases. Primeiro, as instâncias de Pr
 
 Todas as datas de lançamento estão sujeitas a alterações; acesse esta página com frequência para verificar se há atualizações. As atualizações de ambientes ocorrem em ondas, durante os intervalos indicados abaixo. As datas exatas são comunicadas por email a cada cliente.
 
-## Versão 26.1 {#release-26.1}
+## Versão 26.2 - {#release-26-2-release}
 
 Informações detalhadas sobre esta versão estão disponíveis nas [Notas de versão](release-notes.md) quando as atualizações do ambiente de preparo são iniciadas.
 
