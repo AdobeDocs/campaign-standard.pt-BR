@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: f0d21b5eaac74eb27790eb342e56c334e0a04990
+source-git-commit: f06902aaa2fd6b5efbf15ad535a9794bb56775d4
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 42%
@@ -27,6 +27,22 @@ This section lists improvements and changes included in the next Campaign Standa
 
 -->
 
+## Versão 26.2 {#26.2}
+
+### Correções de segurança {#26-2-security}
+
+* Esta versão inclui correções de segurança.
+* Esta versão vem com as seguintes atualizações de segurança: Debian 13 e PostgreSQL 17.
+
+### Outras correções {#26-2-fixes}
+
+* Geração de relatórios dinâmica aprimorada para aumentar a robustez e reduzir as divergências de dados. (CAMP-58964)
+* Mecanismo de logon IMS aprimorado para melhor confiabilidade. (CAMP-59418)
+* Aprimoramento da integração de conteúdo do AEM com melhor manipulação de URL para solicitações paginadas. (CAMP-59540)
+* Adição de suporte à entrada de tipo de senha na tela Opções com hash automático. (CAMP-60206)
+* Correção de um problema em que workflows temporários usavam IDs de sequência incorretas. (CAMP-59824)
+* Correção de um problema que poderia causar erros ao recuperar o conteúdo da campanha do AEM. (CAMP-59926)
+
 ## Versão 26.1 (DL) {#26.1}
 
 >[!AVAILABILITY]
@@ -39,22 +55,6 @@ This section lists improvements and changes included in the next Campaign Standa
 * Esta versão vem com as seguintes atualizações de segurança: Debian 12 e PostgreSQL 17.
 
 ### Outras correções {#26-1-fixes}
-
-* Geração de relatórios dinâmica aprimorada para aumentar a robustez e reduzir as divergências de dados. (CAMP-58964)
-* Mecanismo de logon IMS aprimorado para melhor confiabilidade. (CAMP-59418)
-* Aprimoramento da integração de conteúdo do AEM com melhor manipulação de URL para solicitações paginadas. (CAMP-59540)
-* Adição de suporte à entrada de tipo de senha na tela Opções com hash automático. (CAMP-60206)
-* Correção de um problema em que workflows temporários usavam IDs de sequência incorretas. (CAMP-59824)
-* Correção de um problema que poderia causar erros ao recuperar o conteúdo da campanha do AEM. (CAMP-59926)
-
-## Versão 26.2 {#26.2}
-
-### Correções de segurança {#26-2-security}
-
-* Esta versão inclui correções de segurança.
-* Esta versão vem com as seguintes atualizações de segurança: Debian 13 e PostgreSQL 17.
-
-### Outras correções {#26-2-fixes}
 
 * Geração de relatórios dinâmica aprimorada para aumentar a robustez e reduzir as divergências de dados. (CAMP-58964)
 * Mecanismo de logon IMS aprimorado para melhor confiabilidade. (CAMP-59418)
