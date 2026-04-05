@@ -52,7 +52,7 @@ Para alcançar a caixa de entrada de seus destinatários sem ser rejeitado ou se
 
    * Ao verificar seu email quanto à capacidade de entrega, você deseja se concentrar em quatro categorias principais: qualidade de dados, mensagem e conteúdo, infraestrutura de envio e reputação. Para aprofundar esse tópico, consulte [esta seção](../../sending/using/about-deliverability.md).
 
-* Ao iniciar uma nova plataforma, aplique as recomendações detalhadas nesta [página](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
+* Ao iniciar uma nova plataforma, aplique as recomendações detalhadas nesta [página](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html?lang=pt-BR#transition-process).
 
 * Entre em contato com seu representante da Adobe para obter assistência.
 
