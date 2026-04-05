@@ -8,7 +8,7 @@ version: Campaign Standard
 feature-set: Campaign
 git-repo: https://github.com/AdobeDocs/campaign-standard.pt-BR
 index: true
-source-git-commit: fd66714fc6c159c4f143fde770a41a4e3c7be7f5
+source-git-commit: 129a10891bf65f480fa7259a3d8b724d95c44401
 workflow-type: tm+mt
 source-wordcount: '6'
 ht-degree: 100%
