@@ -3,13 +3,13 @@ title: Criar conteúdo personalizado
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Saiba como projetar o conteúdo da mensagem e tente evitar problemas comuns que possam impedir a execução da entrega. 
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 69%
@@ -18,13 +18,13 @@ ht-degree: 69%
 
 # Criar conteúdo personalizado {#build-personalized-content}
 
-Ao criar o conteúdo da sua mensagem, tente evitar problemas comuns que possam impedir a execução da entrega. Na maioria das vezes, possíveis erros estão relacionados à [personalização](../../designing/using/personalization.md), formatação ao [usar um conteúdo existente](../../designing/using/using-existing-content.md) - e [conversão de um conteúdo de HTML](../../designing/using/using-existing-content.md#converting-an-html-content) - e [imagens](../../designing/using/images.md).
+Ao criar o conteúdo da sua mensagem, tente evitar problemas comuns que possam impedir a execução da entrega. Na maioria das vezes, possíveis erros estão relacionados à [personalização](../../designing/using/personalization.md), formatação ao [usar um conteúdo existente](../../designing/using/using-existing-content.md) - e [conversão de um conteúdo HTML](../../designing/using/using-existing-content.md#converting-an-html-content) - e [imagens](../../designing/using/images.md).
 
 ## Otimizar personalização {#optimize-personalization}
 
 Para evitar problemas comuns que podem impedir a execução da entrega e melhorar a experiência dos destinatários, o Adobe Campaign permite personalizar suas mensagens.
 
-Você pode usar os dados dos destinatários armazenados no banco de dados do Adobe Campaign ou coletados por meio de rastreamento, landing pages, assinaturas, etc.
+Você pode usar os dados dos destinatários armazenados no banco de dados do Adobe Campaign ou coletados por meio de rastreamento, páginas de destino, assinaturas, etc.
 As noções básicas de personalização são apresentadas [nesta seção](../../designing/using/personalization.md).
 
 Verifique se o conteúdo da sua mensagem foi projetado corretamente para evitar erros, que geralmente estão relacionados à personalização.
@@ -90,7 +90,7 @@ No Adobe Campaign, o tamanho máximo padrão de um email está definido como **1
 
 Se o limite for atingido, a mensagem que excede o limite falhará e uma mensagem de erro será exibida nos logs de delivery. As outras mensagens do mesmo delivery não serão afetadas. Nesse caso, você deve adaptar a parte dinâmica do template de email ou os fragmentos de conteúdo usados pelo delivery. <!--If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.-->
 
-O Adobe recomenda manter o valor padrão do tamanho máximo da mensagem. No entanto, este valor pode ser alterado na opção **[!UICONTROL Maximum message size]**, por meio do menu **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**, somente por [administradores funcionais](../../administration/using/users-management.md#functional-administrators).
+O Adobe recomenda manter o valor padrão de tamanho máximo da mensagem. No entanto, este valor pode ser alterado na opção **[!UICONTROL Maximum message size]**, por meio do menu **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**, somente por [administradores funcionais](../../administration/using/users-management.md#functional-administrators).
 
 >[!IMPORTANT]
 >
@@ -105,7 +105,7 @@ Saiba mais [nesta seção](../../administration/using/configuring-sms-channel.md
 
 **Dicas**:
 
-* Para manter todos os caracteres inalterados nas mensagens SMS, a fim de não alterar os nomes próprios por exemplo, não ative a transliteração.
+* Para manter todos os caracteres inalterados nas mensagens SMS, a fim de não alterar os nomes próprios por exemplo, não habilite a transliteração.
 
 * No entanto, se suas mensagens SMS contiverem muitos caracteres que não forem considerados pelo padrão GSM, habilite a transliteração para limitar os custos de envio das mensagens.
 

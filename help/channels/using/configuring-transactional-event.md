@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 3%
@@ -32,7 +32,7 @@ Quando a configuração for concluída, o evento deverá ser publicado. Consulte
 
 Para começar, crie o evento de acordo com suas necessidades.
 
-1. Clique no logotipo **Adobe**, no canto superior esquerdo, em seguida selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Clique no logotipo **Adobe**, no canto superior esquerdo, e selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Clique no botão **[!UICONTROL Create]**.
 1. Insira um **[!UICONTROL Label]** e um **[!UICONTROL ID]** para o evento. O campo **[!UICONTROL ID]** é obrigatório e deve começar com o prefixo &quot;EVT&quot;. Se você não usar este prefixo, ele será adicionado automaticamente depois que você clicar em **[!UICONTROL Create]**.
 
@@ -153,7 +153,7 @@ Quando o evento e a mensagem forem publicados, esse link permitirá enriquecer o
 
 Para acessar e pesquisar os eventos transacionais já criados, siga as etapas abaixo.
 
-1. Clique no logotipo **Adobe**, no canto superior esquerdo, em seguida selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Clique no logotipo **Adobe**, no canto superior esquerdo, e selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Clique no botão **[!UICONTROL Show search]**.
 
    ![](assets/message-center_search-events.png)
@@ -215,7 +215,8 @@ Para enviar uma mensagem transacional baseada em perfil, primeiro é necessário
 
 1. Integre o evento ao seu site (consulte [Integrar o acionamento de evento](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
-<!--### Transactional SMS messages {#transactional-sms}
+<!--
+### Transactional SMS messages {#transactional-sms}
 
 The steps to configure an  event to send an SMS transactional message are the same as for the email channel. The only differences are as follows:
 
@@ -223,7 +224,8 @@ The steps to configure an  event to send an SMS transactional message are the sa
 
 * When previewing the event corresponding to an event-based transactional SMS, the REST API contains an attribute specifying the mobile phone instead of the email address.
 
-* The specificities to edit the content of an SMS transactional message are the same as for a [standard SMS](../../channels/using/about-sms-and-push-content-design.md).-->
+* The specificities to edit the content of an SMS transactional message are the same as for a [standard SMS](../../channels/using/about-sms-and-push-content-design.md).
+-->
 
 ### Notificações por push transacionais {#transactional-push-notifications}
 

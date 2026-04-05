@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: c1914c855011868c76debebbea87d7416faaf0dc
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1307'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> O Adobe Experience Platform Launch foi reformulado como um conjunto de tecnologias de coleção de dados na Adobe Experience Platform. Como resultado, várias alterações de terminologia foram implementadas na documentação do produto. Consulte o [seguinte documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=pt-BR){target="_blank"} para obter uma referência consolidada das alterações de terminologia.
+> O Adobe Experience Platform Launch foi reformulado como um conjunto de tecnologias de coleção de dados na Adobe Experience Platform. Como resultado, várias alterações de terminologia foram implementadas na documentação do produto. Consulte o [seguinte documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html){target="_blank"} para obter uma referência consolidada das alterações de terminologia.
 
 Observe que as implementações de notificação por push e no aplicativo devem ser executadas por usuários especialistas. Para obter assistência, entre em contato com o executivo da sua conta da Adobe ou com o parceiro de serviços Professional.
 
@@ -43,7 +43,7 @@ Para concluir a configuração, conclua as seguintes etapas:
    * No Adobe Campaign Standard, verifique se o usuário do IMS faz parte dos Perfis de usuário padrão e de produto de administrador. Essa etapa permite que o usuário faça logon no Adobe Campaign Standard, navegue até a página do aplicativo móvel Experience Platform SDK e visualize as propriedades do aplicativo móvel que você criou na interface da Coleção de dados.
 
    * Na interface da Coleção de dados, verifique se o usuário do IMS faz parte de um perfil de produto do Experience Platform Launch.
-Esta etapa permite que o usuário faça logon na interface da Coleção de dados para criar e exibir as propriedades. Para obter mais informações sobre perfis de produtos na Interface da Coleção de Dados, consulte [Criar perfil de produto](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=pt-BR#gain-admin-rights-for-a-tags-product-profile). No perfil do produto, não deve haver permissões definidas na empresa ou nas propriedades, mas o usuário ainda deve conseguir fazer logon.
+Esta etapa permite que o usuário faça logon na interface da Coleção de dados para criar e exibir as propriedades. Para obter mais informações sobre perfis de produtos na Interface da Coleção de Dados, consulte [Criar perfil de produto](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile). No perfil do produto, não deve haver permissões definidas na empresa ou nas propriedades, mas o usuário ainda deve conseguir fazer logon.
 
    Para concluir tarefas adicionais, como instalar uma extensão, publicar um aplicativo, configurar ambientes e assim por diante, é necessário definir permissões no perfil do produto.
 
@@ -158,8 +158,8 @@ Seu aplicativo móvel agora está pronto para ser usado na notificação por pus
    * **ID da Chave**: consulte a [documentação da Apple](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"} para obter mais informações sobre a ID da Chave.
    * **iOS Team ID**: consulte a [documentação do Apple](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} para obter mais informações sobre a iOS Team ID.
 
-         ![](assets/mobile_app_ios_config.png)
-     +++
+     ![](assets/mobile_app_ios_config.png)
+   +++
 
    +++ Para Android
 

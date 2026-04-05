@@ -9,7 +9,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
-source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 25%
@@ -25,7 +25,7 @@ Abaixo você encontrará detalhes sobre o relatório **[!UICONTROL Delivery thro
 * Verifique regularmente se a caixa de rejeição está acessível e se a conta não está prestes a expirar.
 * Verifique a taxa de transferência de cada delivery para garantir que ela seja consistente com a validade do conteúdo do delivery (por exemplo, &quot;vendas rápidas&quot; devem ser entregues em minutos, não em dias).
 * Verifique se o número de erros e as novas quarentenas estão consistentes com outros deliveries.
-* Incluir na lista de bloqueios Consulte os logs do delivery detalhadamente para verificar o tipo de erro destacado (perguntas, problemas de DNS, regras antisspam etc.).
+* Consulte os logs do delivery detalhadamente para verificar o tipo de erro destacado (perguntas, problemas de DNS, regras antisspam etc.).
 
 ## Taxa de transferência de entrega {#delivery-throughput}
 
@@ -53,7 +53,8 @@ O recurso **[!UICONTROL Delivery alerting]** é um sistema de gerenciamento de a
 
 Para obter mais informações, consulte [Recebendo alertas quando ocorrerem falhas](../../sending/using/receiving-alerts-when-failures-happen.md).
 
-<!--## External tools (#external-tools)
+<!--
+## External tools (#external-tools)
 
 ### Signal Spam {#signal-spam}
 
@@ -67,4 +68,5 @@ Signal Spam also provides direct complaints that end users log through a dedicat
 
 250ok is a monitoring solution which provides IP and domain denylists, as well as reputation indicators.
 
-The information provided is real-time, which allows for a pro-active assistance. 250ok a complementary solution to the Adobe deliverability internal tools.-->
+The information provided is real-time, which allows for a pro-active assistance. 250ok a complementary solution to the Adobe deliverability internal tools.
+-->

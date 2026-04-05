@@ -8,10 +8,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
-source-wordcount: '1430'
-ht-degree: 64%
+source-wordcount: '1366'
+ht-degree: 67%
 
 ---
 
@@ -41,7 +41,7 @@ A quarentena e a lista de bloqueios não se aplicam ao mesmo objeto:
 
   Os endereços em quarentena ou os números de telefone são exibidos nos [logs de exclusão](#identifying-quarantined-addresses-for-a-delivery) (para uma entrega) ou na [lista de quarentena](#identifying-quarantined-addresses-for-the-entire-platform) (para toda a plataforma).
 
-* Por outro lado, com a inclusão na **lista de bloqueios**, o **perfil** não será mais direcionado pela entrega, por exemplo, depois de um cancelamento de inscrição (recusa de participação) de um determinado canal. Incluir na lista de bloqueios Por exemplo, se um perfil no canal tiver dois endereços de email, ambos os endereços serão excluídos do delivery. Para obter mais informações sobre o processo de inclui na lista de bloqueios, consulte [Sobre participação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* Por outro lado, com a inclusão na **lista de bloqueios**, o **perfil** não será mais direcionado pela entrega, por exemplo, depois de um cancelamento de inscrição (recusa de participação) de um determinado canal. Por exemplo, se um perfil no canal tiver dois endereços de email, ambos os endereços serão excluídos do delivery. Para obter mais informações sobre o processo de inclui na lista de bloqueios, consulte [Sobre participação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
   Você pode verificar se um perfil está na lista de bloqueios de um ou mais canais na seção **[!UICONTROL No longer contact (on denylist)]** da guia **[!UICONTROL General]** do perfil. Consulte [esta seção](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
 
@@ -49,7 +49,7 @@ A quarentena e a lista de bloqueios não se aplicam ao mesmo objeto:
 >
 >A quarentena inclui um status **Em inclui na lista de bloqueios**, que se aplica quando os recipients marcam sua mensagem como spam ou respondem a uma mensagem SMS com uma palavra-chave como &quot;PARAR&quot;. Nesse caso, o endereço do perfil envolvido ou o número de telefone é enviado para quarentena com o status **[!UICONTROL On denylist]**. Para obter mais informações sobre como gerenciar mensagens SMS PARAR, consulte [esta seção](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
-&lt;!—Quando um usuário responde a uma mensagem SMS com uma palavra-chave, como PARAR, para recusar os deliveries de SMS, seu perfil não é adicionado à inclui na lista de bloqueios, como no processo de recusa de email. Em vez disso, o número de telefone do perfil é enviado para quarentena com o status **[!UICONTROL On denylist]**. Este status se refere apenas ao número de telefone, o que significa que o perfil continuará recebendo mensagens de email.<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
+<!--When a user replies to an SMS message with a keyword such as STOP in order to opt-out from SMS deliveries, his profile is not added to the denylist like in the email opt-out process. Instead, the profile's phone number is sent to quarantine with the **[!UICONTROL On denylist]** status. This status refers to the phone number only, meaning that the profile will continue receiving email messages. Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
 
 ## Identificação de endereços em quarentena {#identifying-quarantined-addresses}
 
@@ -93,7 +93,7 @@ Para adicionar uma nova entrada manualmente, use o botão **[!UICONTROL Create]*
 
 ![](assets/quarantines-create-button.png)
 
-Defina o endereço (ou número de telefone etc.) e tipo de canal. Você pode definir um status para estar na lista da quarentena e um motivo de erro. Você também pode indicar a data em que o erro ocorreu, o número de erros e inserir o texto do erro. Se necessário, selecione o último delivery que foi enviado para o endereço na lista suspensa.
+Defina o endereço (ou número de telefone etc.) e o tipo de canal. Você pode definir um status para estar na lista da quarentena e um motivo de erro. Você também pode indicar a data em que o erro ocorreu, o número de erros e inserir o texto do erro. Se necessário, selecione o último delivery que foi enviado para o endereço na lista suspensa.
 
 ![](assets/quarantines-create-last-delivery.png)
 
@@ -138,7 +138,7 @@ Talvez seja necessário executar atualizações em massa na lista de quarentena.
 
 Para fazer isso, crie um fluxo de trabalho e adicione uma atividade **[!UICONTROL Query]** na tabela de quarentena para filtrar todos os destinatários afetados. Uma vez identificados, eles podem ser removidos da lista de quarentena e incluídos em entregas de email futuros do Campaign.
 
-Com base no período do incidente, abaixo estão as diretrizes recomendadas para esse query.
+Com base no período do incidente, abaixo estão as diretrizes recomendadas para essa consulta.
 
 * **O texto de erro (texto de quarentena)** contém “550-5.1.1” E **o texto de erro (texto de quarentena)** contém “support.ISP.com”,
 
@@ -178,7 +178,9 @@ Ao contrário de erros graves, os erros recuperáveis não enviam um endereço i
 
 As tentativas serão executadas no decorrer da [duração da entrega](../../administration/using/configuring-email-channel.md#validity-period-parameters). Quando o contador de erros atinge o limite da cota, o endereço vai para a quarentena. Para obter mais informações, consulte [Tentativas após uma falha temporária de entrega](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-<!--In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error.
-The error counter threshold can be modified.-->
+<!--
+In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error.
+The error counter threshold can be modified.
+-->
 
 O contador de erros será reinicializado se o último erro significativo ocorrer há mais de 10 dias. O status do endereço é alterado para **Válido** e excluído da lista de quarentenas pelo fluxo de trabalho **Limpeza do banco de dados**. (Para obter mais informações sobre fluxos de trabalho técnicos, consulte [esta seção](../../administration/using/technical-workflows.md#list-of-technical-workflows).)

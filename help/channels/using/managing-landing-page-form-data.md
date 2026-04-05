@@ -1,6 +1,6 @@
 ---
-title: Gerenciamento de dados de formulário de landing page
-description: Saiba como gerenciar dados de formulário de landing page.
+title: Gerenciamento de dados de formulário de página de destino
+description: Saiba como gerenciar dados de formulário de página de destino.
 audience: channels
 content-type: reference
 topic-tags: landing-pages
@@ -9,14 +9,14 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 15%
 
 ---
 
-# Gerenciamento de dados de formulário de landing page{#managing-landing-page-form-data}
+# Gerenciamento de dados de formulário de página de destino{#managing-landing-page-form-data}
 
 No conteúdo da landing page, os campos de entrada são usados para armazenar ou atualizar dados do banco de dados do Campaign.
 
@@ -36,7 +36,7 @@ Para fazer isso, siga as etapas abaixo:
 
    >[!NOTE]
    >
-   >Os campos padrão das landing pages incorporadas são pré-configurados. Você pode modificá-los conforme necessário.
+   >Os campos padrão das páginas de destino integradas são pré-configurados. Você pode modificá-los conforme necessário.
 
 1. Acesse a seção **[!UICONTROL Form data]** na paleta esquerda.
 
@@ -76,17 +76,17 @@ Para fazer isso, siga as etapas abaixo:
 
 ## Armazenamento e reconciliação de dados{#data-storage-and-reconciliation}
 
-Os parâmetros de reconciliação de dados permitem definir como os dados inseridos na landing page serão gerenciados depois que forem enviados por um usuário.
+Os parâmetros de reconciliação de dados permitem definir como os dados inseridos na página de destino serão gerenciados depois que forem enviados por um usuário.
 
 Para fazer isso:
 
-1. Edite as propriedades de landing page acessadas pelo ícone ![](assets/edit_darkgrey-24px.png) no painel da landing page e exiba os parâmetros **[!UICONTROL Job]**.
+1. Edite as propriedades de página de destino acessadas pelo ícone ![](assets/edit_darkgrey-24px.png) no painel da página de destino e exiba os parâmetros **[!UICONTROL Job]**.
 
    ![](assets/lp_parameters_job.png)
 
 1. Selecione o **[!UICONTROL Reconciliation key]**: este campo de banco de dados é usado para determinar se o visitante tem um perfil já conhecido no banco de dados do Adobe Campaign. Pode ser, por exemplo, email, nome, sobrenome. A chave de reconciliação permite atualizar ou criar um perfil, de acordo com o parâmetro **[!UICONTROL Update strategy]** definido abaixo.
 
-1. Defina o **[!UICONTROL Form parameter mapping]**: esta seção permite mapear os parâmetros do campo de landing page e os usados na chave de reconciliação.
+1. Defina o **[!UICONTROL Form parameter mapping]**: esta seção permite mapear os parâmetros do campo de página de destino e os usados na chave de reconciliação.
 
 1. Selecione o **[!UICONTROL Update strategy]**: se a chave de reconciliação recuperar um perfil de banco de dados, você poderá optar por atualizar esse perfil com os dados inseridos no formulário ou impedir essa atualização.
 
@@ -104,7 +104,7 @@ Para fazer isso, siga as etapas abaixo:
 
      ![](assets/lp_field-type-checkbox.png)
 
-   * Se você estiver familiarizado com o HTML, também poderá inserir manualmente uma caixa de seleção usando o botão **[!UICONTROL Show source]**.
+   * Se você estiver familiarizado com o HTML, também poderá inserir uma caixa de seleção manualmente usando o botão **[!UICONTROL Show source]**.
 
      ![](assets/lp_show_source.png)
 
@@ -152,13 +152,15 @@ Para inserir e configurar essa caixa de seleção, faça o seguinte:
 
      ![](assets/lp_field-type-checkbox.png)
 
-   * Se você estiver familiarizado com o HTML, também poderá inserir manualmente uma caixa de seleção usando o botão **[!UICONTROL Show source]**.
+   * Se você estiver familiarizado com o HTML, também poderá inserir uma caixa de seleção manualmente usando o botão **[!UICONTROL Show source]**.
 
      ![](assets/lp_show_source.png)
 
-     <!--Manually insert a checkbox, such as in the example below:
+     <!--
+      Manually insert a checkbox, such as in the example below:
 
-      <!--Click **[!UICONTROL Hide source]**.-->
+      Click **[!UICONTROL Hide source]**.
+      -->
 
 1. Verifique se a caixa de seleção está marcada.
 

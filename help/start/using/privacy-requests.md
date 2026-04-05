@@ -8,10 +8,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '1526'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -97,9 +97,9 @@ Consulte a documentação do [Experience Platform Privacy Service](https://exper
 >
 >Para enviar uma solicitação usando o tipo de namespace personalizado, utilize o [método JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR#json){target="_blank"} e adicione o namespaceId à solicitação, ou use a [Chamada de API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=pt-BR#access-delete){target="_blank"} para fazer a solicitação.
 >
->Use somente a [Interface de privacidade](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR#request-builder){target="_blank"} para enviar solicitações usando o tipo de namespace padrão.
+>Use somente a [Interface do usuário de privacidade](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR#request-builder){target="_blank"} para enviar solicitações usando o tipo de namespace padrão.
 
-Cada tarefa do Privacy Core Service é dividida em várias solicitações de privacidade no Campaign com base no número de namespaces que estão sendo utilizados, onde cada solicitação corresponde a um namespace. Além disso, um trabalho pode ser executado em múltiplas instâncias. Portanto, vários arquivos são criados para uma tarefa. Por exemplo, se uma solicitação tiver dois namespaces e estiver em execução em três instâncias, então será enviado um total de seis arquivos. Um arquivo por namespace e instância.
+Cada processo do Privacy Core Service é dividido em várias solicitações de privacidade no Campaign com base no número de namespaces que estão sendo utilizados, onde cada solicitação corresponde a um namespace. Além disso, um trabalho pode ser executado em múltiplas instâncias. Portanto, vários arquivos são criados para um processo. Por exemplo, se uma solicitação tiver dois namespaces e estiver em execução em três instâncias, então será enviado um total de seis arquivos. Um arquivo por namespace e instância.
 
 O padrão para um nome de arquivo é: `<InstanceName>-<NamespaceId>-<ReconciliationKey>.xml`
 
@@ -145,15 +145,16 @@ Para que isso funcione, é necessário selecionar a opção **[!UICONTROL Deleti
 
 Estes são os diferentes status de solicitações de acesso a dados pessoais:
 
-* **[!UICONTROL New]** / **[!UICONTROL Retry pending]**: em andamento, o workflow ainda não processou a solicitação.
-* **[!UICONTROL Processing]** / **[!UICONTROL Retry in progress]**: o workflow está processando a solicitação.
-* **[!UICONTROL Delete pending]**: o workflow identificou todos os dados do destinatário que serão excluídos.
-* **[!UICONTROL Delete in progress]**: workflow está processando a exclusão.
+* **[!UICONTROL New]** / **[!UICONTROL Retry pending]**: em andamento, o fluxo de trabalho ainda não processou a solicitação.
+* **[!UICONTROL Processing]** / **[!UICONTROL Retry in progress]**: o fluxo de trabalho está processando a solicitação.
+* **[!UICONTROL Delete pending]**: o fluxo de trabalho identificou todos os dados do destinatário que serão excluídos.
+* **[!UICONTROL Delete in progress]**: o fluxo de trabalho está processando a exclusão.
   <!--**[!UICONTROL Delete Confirmation Pending]** (Delete request in 2-steps process mode): the workflow has processed the Access request. Manual confirmation is requested to perform the deletion. The button is available for 15 days.-->
 * **[!UICONTROL Complete]**: o processamento da solicitação foi concluído sem erros.
-* **[!UICONTROL Error]**: o workflow encontrou um erro. O motivo é exibido na lista de solicitações de acesso a dados pessoais na coluna **[!UICONTROL Request status]**. Por exemplo, **[!UICONTROL Error data not found]** significa que nenhum dado de destinatário correspondente ao **[!UICONTROL Reconciliation value]** do titular dos dados foi encontrado no banco de dados.
+* **[!UICONTROL Error]**: o fluxo de trabalho encontrou um erro. O motivo é exibido na lista de solicitações de acesso a dados pessoais na coluna **[!UICONTROL Request status]**. Por exemplo, **[!UICONTROL Error data not found]** significa que nenhum dado de destinatário correspondente ao **[!UICONTROL Reconciliation value]** do titular dos dados foi encontrado no banco de dados.
 
-<!--### Disabling the 2-step process {#disabling-two-step-process}
+<!--
+### Disabling the 2-step process {#disabling-two-step-process}
 
 The Core Privacy Service does not support the 2-step process.
 
@@ -167,7 +168,8 @@ By default, the 2-step process is activated.
 
 To change this mode, click **[!UICONTROL Edit properties]**, in the top right corner of the **[!UICONTROL Privacy Requests]** screen, then uncheck the **[!UICONTROL Activate the 2-step process]** option.
 
-![](assets/privacy-disable-2-step-process.png)-->
+![](assets/privacy-disable-2-step-process.png)
+-->
 
 ## Recusar a venda de informações pessoais (CCPA) {#sale-of-personal-information-ccpa}
 

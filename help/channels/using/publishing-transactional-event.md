@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 6bcd8dcd-d710-4ca3-937d-bf4339f36069
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 6%
@@ -88,19 +88,21 @@ Agora, mesmo que o evento seja acionado pelo seu site, as mensagens corresponden
 
 Clique no botão **[!UICONTROL Publish]** para gerar uma nova API REST.
 
-<!--## Transactional messaging publication process {#transactional-messaging-pub-process}
+<!--
+## Transactional messaging publication process {#transactional-messaging-pub-process}
 
 The chart below illustrates the transactional messaging publication process.
 
 ![](assets/message-center_pub-process.png)
 
-For more on publishing, pausing and unpublishing a transactional message, see [this section](../../channels/using/publishing-transactional-message.md).-->
+For more on publishing, pausing and unpublishing a transactional message, see [this section](../../channels/using/publishing-transactional-message.md).
+-->
 
 ## Excluir um evento {#deleting-an-event}
 
-Quando a publicação de um evento for desfeita ou se um evento ainda não tiver sido publicado, você poderá excluí-lo da lista de configuração do evento. Para fazer isso:
+Quando a publicação de um evento for desfeita ou se um evento ainda não tiver sido publicado, você poderá excluí-lo da lista de configuração do evento. Para isso:
 
-1. Clique no logotipo **Adobe**, no canto superior esquerdo, em seguida selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Clique no logotipo **Adobe**, no canto superior esquerdo, e selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Passe o mouse sobre a configuração de evento de sua escolha e selecione o botão **[!UICONTROL Delete element]**.
 
    ![](assets/message-center_delete-button.png)

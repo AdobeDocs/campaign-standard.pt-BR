@@ -3,13 +3,13 @@ title: Usar modelos de entrega
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Os templates do delivery oferecem mais eficiência ao fornecer cenários prontos para os tipos mais comuns de atividades.
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 63%
@@ -18,15 +18,15 @@ ht-degree: 63%
 
 # Usar modelos {#use-templates}
 
-Os templates da entrega oferecem mais eficiência ao fornecer cenários prontos para os tipos mais comuns de atividades. Com modelos, os profissionais de marketing podem implantar novas campanhas com personalização mínima em um período de tempo menor.
+Os modelos da entrega oferecem mais eficiência ao fornecer cenários prontos para os tipos mais comuns de atividades. Com modelos, os profissionais de marketing podem implantar novas campanhas com personalização mínima em um período de tempo menor.
 
-Saiba mais sobre templates da entrega [nesta seção](../../start/using/marketing-activity-templates.md).
+Saiba mais sobre modelos da entrega [nesta seção](../../start/using/marketing-activity-templates.md).
 
 ## Introdução a modelos de entrega {#gs-templates}
 
-Um [template da entrega](../../start/using/marketing-activity-templates.md#creating-a-new-template) permite definir uma única vez um conjunto de propriedades técnicas e funcionais que atendam às suas necessidades e que possam ser reutilizadas para entregas futuras. Você pode economizar tempo e padronizar entregas quando necessário.
+Um [modelo da entrega](../../start/using/marketing-activity-templates.md#creating-a-new-template) permite definir uma única vez um conjunto de propriedades técnicas e funcionais que atendam às suas necessidades e que possam ser reutilizadas para entregas futuras. Você pode economizar tempo e padronizar entregas quando necessário.
 
-Quando você gerencia várias marcas no Adobe Campaign, a Adobe recomenda ter um subdomínio por marca. Por exemplo, um banco pode ter vários subdomínios correspondentes a cada uma de suas agências regionais. Se um banco for proprietário do domínio bluebank.com, seus subdomínios podem ser @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, etc. Ter um template da entrega por subdomínio permite usar sempre os parâmetros pré-configurados certos para cada marca, o que evita erros e economiza tempo.
+Quando você gerencia várias marcas no Adobe Campaign, a Adobe recomenda ter um subdomínio por marca. Por exemplo, um banco pode ter vários subdomínios correspondentes a cada uma de suas agências regionais. Se um banco for proprietário do domínio bluebank.com, seus subdomínios podem ser @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, etc. Ter um modelo da entrega por subdomínio permite usar sempre os parâmetros pré-configurados certos para cada marca, o que evita erros e economiza tempo.
 
 **Dica**: para evitar erros de configuração no Campaign, recomendamos duplicar um modelo nativo e alterar suas propriedades em vez de criar um novo modelo.
 

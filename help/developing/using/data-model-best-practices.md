@@ -9,9 +9,9 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 58d4e02f-3c9a-4e5d-a6aa-fdbcec0d8dda
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1556'
 ht-degree: 1%
 
 ---
@@ -49,13 +49,15 @@ O modelo de dados padrão do Adobe Campaign é apresentado nesta [seção](../..
 
 <!--You can find a datamodel representation for the out-of-the-box resources [here](../../developing/using/datamodel-introduction.md).-->
 
-<!--### What is a customer? {#customer-definition}
+<!--
+### What is a customer? {#customer-definition}
 
 If you have customer data in more than one system, you need to determine which solution will allow you to identify records as one person. This work might require rules, eventually a match and merge processes to determine the primary record. This primary record should be the one sent to Adobe Campaign.
 
 While some of this data cleansing might be performed in Adobe Campaign, the recommendation is to run these processes outside and only import clean data in Adobe Campaign. You should keep Campaign as a marketing solution more than a data cleansing tool.
 
-Be able to provide a primary customer record which will be sent to Adobe Campaign.-->
+Be able to provide a primary customer record which will be sent to Adobe Campaign.
+-->
 
 ### Dados para o Adobe Campaign {#data-for-campaign}
 
@@ -76,7 +78,7 @@ Se não estiver se encaixando em nenhum desses, você provavelmente não precisa
 ### Tipos de dados {#data-types}
 
 Para garantir uma boa arquitetura e desempenho do sistema, siga as práticas recomendadas abaixo para configurar dados no Adobe Campaign:
-* O comprimento de um campo de string deve sempre ser definido com a coluna. Por padrão, o comprimento máximo no Adobe Campaign é de 255 caracteres, mas o Adobe recomenda manter o campo mais curto, se você já souber que o tamanho não excederá um comprimento mais curto.
+* O comprimento de um campo de string deve sempre ser definido com a coluna. Por padrão, o comprimento máximo no Adobe Campaign é de 255 caracteres, mas a Adobe recomenda manter o campo mais curto, se você já souber que o tamanho não excederá um comprimento mais curto.
 * É aceitável ter um campo mais curto no Adobe Campaign do que no sistema de origem se você tiver certeza de que o tamanho no sistema de origem foi superestimado e não seria atingido. Isso pode significar uma string menor ou um inteiro menor no Adobe Campaign.
 
 ## Configuração da estrutura de dados {#configuring-data-structure}
@@ -104,11 +106,13 @@ A tabela a seguir descreve esses identificadores e sua finalidade.
 
 Cada recurso criado no Adobe Campaign deve ter pelo menos uma [chave de identificação](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys) exclusiva.
 
-<!--Most organizations are importing records from external systems. While the physical key of a resource lies behind the PKey attribute, it is possible to determine a custom key in addition.
+<!--
+Most organizations are importing records from external systems. While the physical key of a resource lies behind the PKey attribute, it is possible to determine a custom key in addition.
 
 This custom key is the actual record primary key in the external system feeding Adobe Campaign.
 
-When an out-of-the-box resource has both an internal auto-generated and an internal custom key, the internal key will be set as a unique index in the physical database table.-->
+When an out-of-the-box resource has both an internal auto-generated and an internal custom key, the internal key will be set as a unique index in the physical database table.
+-->
 
 Ao criar um recurso personalizado, você tem duas opções:
 
@@ -123,19 +127,21 @@ As chaves de identificação não devem ser usadas como referência em fluxos de
 
 O Adobe Campaign adiciona automaticamente um [índice](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes) a todas as chaves primárias e internas definidas em um recurso.
 
-* A Adobe recomenda definir índices adicionais, pois pode melhorar o desempenho.
+* A Adobe recomenda definir índices adicionais, pois isso pode melhorar o desempenho.
 * No entanto, não adicione muitos índices, pois eles usam espaço no banco de dados. Vários índices também podem ter um impacto negativo no desempenho.
 * Selecione cuidadosamente os índices que precisam ser definidos.
 
-<!--For more on defining indexes, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes).
+<!--
+For more on defining indexes, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes).
 
-When you are performing an initial import with very high volumes of data insert in Adobe Campaign database, it is recommended to run that import without custom indexes at first. It will allow to accelerate the insertion process. Once you’ve completed this important import, it is possible to enable the index(es).-->
+When you are performing an initial import with very high volumes of data insert in Adobe Campaign database, it is recommended to run that import without custom indexes at first. It will allow to accelerate the insertion process. Once you’ve completed this important import, it is possible to enable the index(es).
+-->
 
 ### Links {#links}
 
 A definição de links com outros recursos é apresentada em [esta seção](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources).
 
-* Embora seja possível unir qualquer tabela em um fluxo de trabalho, o Adobe recomenda definir links comuns entre os recursos diretamente na definição da estrutura de dados.
+* Embora seja possível unir qualquer tabela em um fluxo de trabalho, a Adobe recomenda definir links comuns entre os recursos diretamente na definição da estrutura de dados.
 * O link deve ser definido em alinhamento com os dados reais nas tabelas. Uma definição incorreta poderia afetar os dados recuperados por meio de links, por exemplo, registros duplicados inesperadamente.
 * Nomeie o link de forma consistente com o nome do recurso: o nome do link deve ajudar a entender o que é a tabela distante.
 * Não nomeie um link com &quot;id&quot; como sufixo. Por exemplo, nomeie-o como &quot;transaction&quot; em vez de &quot;transactionId&quot;.

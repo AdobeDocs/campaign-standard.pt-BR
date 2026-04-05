@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
-source-wordcount: '2749'
+source-wordcount: '2748'
 ht-degree: 58%
 
 ---
@@ -31,7 +31,7 @@ A tela de configuração de email permite definir os parâmetros do canal de ema
 
    * O endereço de remetente e de erro são configurados pela Adobe. Esses campos não podem estar vazios.
    * Não é possível editar esses campos. Para atualizar um endereço, entre em contato com a equipe de Atendimento ao cliente da Adobe.
-   * Para adicionar outro endereço, use o [Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=pt-BR) para configurar um novo subdomínio ou entre em contato com a equipe de Atendimento ao cliente do Adobe. Observe que, se forem usadas várias máscaras, elas serão separadas por vírgulas.
+   * Para adicionar outro endereço, use o [Painel de Controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=pt-BR) para configurar um novo subdomínio ou entre em contato com a equipe de Atendimento ao cliente da Adobe. Observe que, se forem usadas várias máscaras, elas serão separadas por vírgulas.
    * É uma boa prática definir endereços usando uma estrela, como **@yourdomain.com**: ela permite que você use qualquer endereço que termine com seu nome de subdomínio.
 
 * **Avaliação da entrega**
@@ -90,12 +90,14 @@ As **[!UICONTROL Email processing rules]** podem ser acessadas pelos administrad
 >
 >Os domínios de email e as regras MX agora são gerenciados automaticamente<!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)--> e não podem ser alterados.
 
-* **A assinatura de autenticação de email DKIM (DomainKeys Identified Mail)** é feita para todas as mensagens com todos os domínios. Ele não faz logon com **ID do Remetente**, **DomainKeys** ou **S/MIME**.
+* **A assinatura de autenticação de email do DKIM (DomainKeys Identified Mail)** é feita para todas as mensagens com todos os domínios. Ele não faz logon com **ID do Remetente**, **DomainKeys** ou **S/MIME**.
 * As regras MX personalizam automaticamente a taxa de transferência por domínio com base na sua própria reputação histórica de email e no feedback em tempo real proveniente dos domínios em que você está enviando emails.
 
-<!--Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
+<!--
+Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
 * **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
-* The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
+* The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.
+-->
 
 ### Emails rejeitados {#bounce-mails}
 
@@ -109,7 +111,8 @@ Essas regras contêm a lista de strings que podem ser retornadas por servidores 
 
 Para obter mais informações sobre qualificação de emails rejeitados, consulte esta [seção](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
-<!--Because they are now managed by the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For more on bounce mail qualification, see this [section](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
+<!--
+Because they are now managed by the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For more on bounce mail qualification, see this [section](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
 ### Management of email domains {#managing-email-domains}
 
@@ -121,15 +124,16 @@ The email domains are now managed by the Adobe Campaign Enhanced MTA. The Adobe 
 
 The MX rules are now managed by the Adobe Campaign Enhanced MTA. The Adobe Campaign **[!UICONTROL MX management]** delivery throughput rules are no longer used.
 
-The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
+The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.
+-->
 
 ## Lista de propriedades de email {#list-of-email-properties}
 
-Esta seção detalha a lista de parâmetros disponíveis na tela de propriedades de um template de email ou de um email.
+Esta seção detalha a lista de parâmetros disponíveis na tela de propriedades de um modelo de email ou de um email.
 
 >[!NOTE]
 >
->Alguns parâmetros estão disponíveis somente em templates. Os parâmetros que você pode acessar [dependem das suas permissões](../../administration/using/users-management.md).
+>Alguns parâmetros estão disponíveis somente em modelos. Os parâmetros que você pode acessar [dependem das suas permissões](../../administration/using/users-management.md).
 
 Para editar as propriedades de um email ou de um modelo de email, use o botão **[!UICONTROL Edit properties]**.
 
@@ -184,14 +188,14 @@ Use a opção **[!UICONTROL Enable SMTP test mode]** para testar o envio de emai
 
 ![](assets/smtp-test-mode.png)
 
-Esta opção está disponível para emails e templates de email.
+Esta opção está disponível para emails e modelos de email.
 
-Se você ativar a opção de modo de teste SMTP para um template de email, todas as mensagens de email criadas diretamente desse template terão essa opção ativada.
+Se você ativar a opção de modo de teste SMTP para um template de email, todas as mensagens de email criadas diretamente desse template terão essa opção habilitada.
 
 >[!IMPORTANT]
 >
->Quando essa opção estiver ativada para um email, nenhuma mensagem será enviada até que ela seja desmarcada.
->Um aviso será exibido no painel do email ou do template de email.
+>Quando essa opção estiver habilitada para um email, nenhuma mensagem será enviada até que ela seja desmarcada.
+>Um aviso será exibido no painel do email ou do modelo de email.
 
 Para obter mais informações sobre como configurar o SMTP, consulte a seção [Lista de parâmetros SMTP de email](#list-of-email-smtp-parameters).
 
@@ -213,9 +217,9 @@ A seção **[!UICONTROL Validity period]** contém os seguintes parâmetros:
   >
   >**É necessário definir um valor de até 3,5 dias.** Se você definir um valor superior a 3,5 dias, ele não será considerado.
   >
-  >O parâmetro **[!UICONTROL Delivery duration]** não se aplica a mensagens transacionais. Para obter mais informações, consulte [esta seção](../../channels/using/getting-started-with-transactional-msg.md).
+  >O parâmetro **[!UICONTROL Delivery duration]** não se aplica a mensagens transacionais. Para obter mais informações sobre mensagens transacionais, consulte [esta seção](../../channels/using/getting-started-with-transactional-msg.md).
 
-* **[!UICONTROL Resource validity duration]**&#x200B;**[!UICONTROL Validity limit date for resources]**: esse campo é usado para recursos dos quais foi feito upload, principalmente para a mirror page e imagens. Os recursos desta página são válidos por um tempo limitado (para economizar espaço em disco).
+* **[!UICONTROL Resource validity duration]****[!UICONTROL Validity limit date for resources]**: esse campo é usado para recursos dos quais foi feito upload, principalmente para a mirror page e imagens. Os recursos desta página são válidos por um tempo limitado (para economizar espaço em disco).
 * **[!UICONTROL Mirror page management]**: a mirror page é uma página HTML acessível online por um navegador da Web. Seu conteúdo é idêntico ao conteúdo do email. Por padrão, a mirror page é gerada se o link for inserido no conteúdo do email. Use este campo para modificar como esta página é gerada:
 
    * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** (modo padrão): a mirror page é gerada se o link for inserido no conteúdo do email.
@@ -225,7 +229,7 @@ A seção **[!UICONTROL Validity period]** contém os seguintes parâmetros:
 
   >[!IMPORTANT]
   >
-  >A mirror page é gerada somente se um conteúdo de HTML tiver sido definido para o email.
+  >A mirror page é gerada somente se um conteúdo do HTML tiver sido definido para o email.
   >
 
 
@@ -252,7 +256,7 @@ A inserção e o uso do conteúdo de personalização estão detalhados na docum
 
 #### Contexto do Target {#target-context}
 
-Use o contexto de direcionamento para definir um conjunto de tabelas que serão usadas para direcionamento de email (na tela de definição de público) e personalização (definindo campos de personalização no editor de conteúdo HTML).
+Use o contexto de direcionamento para definir um conjunto de tabelas que serão usadas para direcionamento de emails (na tela de definição de público) e personalização (definindo campos de personalização no editor de conteúdo do HTML).
 
 #### Roteamento {#routing}
 
@@ -288,7 +292,7 @@ A seção **[!UICONTROL SMTP]** contém os seguintes parâmetros:
 
 * **[!UICONTROL Character encoding]**: marque a caixa **[!UICONTROL Force encoding]** se desejar forçar a codificação de mensagens e selecione a codificação que deseja usar.
 * **[!UICONTROL Bounce mails]**: por padrão, os emails de rejeição são recebidos na caixa de entrada de erro da plataforma (definida na tela **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Configuration]**). Para definir um endereço de erro específico para um email, insira o endereço no campo **[!UICONTROL Error address]**.
-* **[!UICONTROL Additional SMTP headers]**: essa opção permite que cabeçalhos SMTP adicionais sejam adicionados às suas mensagens. O script inserido no campo **[!UICONTROL Headers]** deve referenciar um cabeçalho por linha no formato de **name:value**. Os valores são codificados automaticamente se necessário.
+* **[!UICONTROL Additional SMTP headers]**: essa opção permite que cabeçalhos SMTP adicionais sejam adicionados às suas mensagens. O script inserido no campo **[!UICONTROL Headers]** deve referenciar um cabeçalho por linha no formato **nome:value**. Os valores são codificados automaticamente se necessário.
 
   >[!IMPORTANT]
   >
@@ -306,7 +310,7 @@ A seção **[!UICONTROL SMTP]** contém os seguintes parâmetros:
 
 A seção **[!UICONTROL Access authorization]** contém os seguintes parâmetros:
 
-* O campo **[!UICONTROL Organizational unit]** é usado para restringir o acesso a este email a determinados usuários. Os usuários associados à unidade especificada ou às unidades principais terão acesso de leitura e gravação a este email. Os usuários associados às unidades secundárias terão acesso de leitura somente a este email.
+* O campo **[!UICONTROL Organizational unit]** é usado para restringir o acesso a este email a determinados usuários. Os usuários associados à unidade especificada ou às unidades principais terão acesso de leitura e gravação a este email. Os usuários associados às unidades filhas terão acesso de leitura somente a este email.
 
   >[!NOTE]
   >
@@ -322,7 +326,7 @@ Se você **NÃO** estiver executando a versão mais recente do Campaign, os par�
 
 As configurações de **[!UICONTROL Retries]** no [menu de Configuração](#email-channel-parameters) e nos [parâmetros de envio](#retries-parameters) das propriedades de email indicam quantas tentativas deverão ser executadas no dia seguinte ao início do envio (**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**) e o atraso mínimo entre as tentativas (**[!UICONTROL Retry period]**).
 
-O número de tentativas pode ser alterado globalmente (entre em contato com o administrador técnico do Adobe) ou para cada delivery ou template do delivery.
+O número de tentativas pode ser alterado globalmente (entre em contato com o administrador técnico da Adobe) ou para cada delivery ou template do delivery.
 
 Por padrão, cinco tentativas são agendadas para o primeiro dia com um intervalo mínimo de uma hora, distribuído pelas 24 horas do dia. Uma nova tentativa por dia é programada depois disso e até o prazo do delivery, que é definido globalmente na seção **[!UICONTROL Delivery parameters]** do menu **[!UICONTROL Configuration]**, ou na seção **[!UICONTROL Validity period]** no nível do delivery (consulte a seção [Duração do delivery](#legacy-delivery-duration) abaixo).
 
@@ -338,7 +342,7 @@ As regras **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** e **[!UI
 
 ### Qualificação de email de rejeição {#legacy-bounce-mail-qualification}
 
-Para listar as várias rejeições e seus tipos de erros e motivos associados, clique no logotipo **Adobe**, no canto superior esquerdo, e selecione **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+Para listar as várias rejeições e seus tipos de erro e motivos associados, clique no logotipo do **Adobe**, no canto superior esquerdo, e selecione **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 As rejeições podem ter os seguintes status de qualificação:
 

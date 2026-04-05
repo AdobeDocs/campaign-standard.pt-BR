@@ -8,8 +8,8 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 100%
 
@@ -37,9 +37,11 @@ Para obter mais informações, consulte [Direito de acesso e direito ao esquecim
 
 Para obter mais informações, consulte [Consentimento, Retenção e Funções](#consent-retention-roles).
 
-<!--This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
+<!--
+This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
 
-It also contains information on important features to manage Privacy ([consent, data retention and user roles](#consent-retention-roles)), as well as best practices to help you with your Privacy compliance when using Adobe Campaign.-->
+It also contains information on important features to manage Privacy ([consent, data retention and user roles](#consent-retention-roles)), as well as best practices to help you with your Privacy compliance when using Adobe Campaign.
+-->
 
 ## Regras sobre o gerenciamento de privacidade {#privacy-management-regulations}
 

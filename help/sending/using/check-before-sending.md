@@ -3,13 +3,13 @@ title: Verificar antes de enviar
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Quando a mensagem estiver pronta, saiba como executar todas as verificações antes de enviar
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 90%

@@ -3,24 +3,24 @@ title: Definir o público-alvo correto
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Quando seu conteúdo estiver pronto, saiba como definir com cuidado quem receberá sua mensagem.
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 71%
 
 ---
 
-# Definir o público correto {#define-the-right-audience}
+# Definir o público-alvo correto {#define-the-right-audience}
 
-A segmentação de público-alvo é fundamental: crie suas listas cuidadosamente, teste seus emails em clientes de email populares e dispositivos móveis e verifique se suas listas de email estão atualizadas (sem endereços desconhecidos ou obsoletos). Você também pode enviar provas que ajudam a configurar um ciclo de validação completo.
+A população de destino é fundamental: crie suas listas cuidadosamente, teste seus emails em clientes de email populares e dispositivos móveis e verifique se suas listas de email estão atualizadas (sem endereços desconhecidos ou obsoletos). Você também pode enviar provas que ajudam a configurar um ciclo de validação completo.
 
-Saiba mais sobre as populações de públicos-alvos [nesta seção](../../audiences/using/selecting-an-audience-in-a-message.md)
+Saiba mais sobre as populações de destino [nesta seção](../../audiences/using/selecting-an-audience-in-a-message.md)
 
 ## Direcionar ao público-alvo correto {#target-the-right-audience}
 
@@ -53,7 +53,7 @@ Selecione os destinatários de prova apropriados, porque eles validam a forma e 
 
 Saiba mais sobre perfis de teste [nesta seção](../../audiences/using/managing-test-profiles.md).
 
-Você pode usar [Grupos de controle](../../sending/using/control-group.md) para medir o impacto de suas campanhas excluindo parte de seus públicos. Portanto você poderá comparar o comportamento do público-alvo que recebeu a mensagem com o comportamento dos contatos não atingidos. Com base nos logs de envio, você também poderá se concentrar em um grupo de controle em campanhas futuras.
+Você pode usar [Grupos de controle](../../sending/using/control-group.md) para medir o impacto de suas campanhas excluindo parte de seus públicos. Portanto você poderá comparar o comportamento da população de destino que recebeu a mensagem com o comportamento dos contatos não atingidos. Com base nos logs de envio, você também poderá se concentrar em um grupo de controle em campanhas futuras.
 
 ## Cancelar endereços duplicados {#deduplicate-addresses}
 

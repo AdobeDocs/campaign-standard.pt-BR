@@ -3,13 +3,13 @@ title: Otimizar entrega de mensagens
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Saiba como proteger e otimizar o fluxo do processo de envio.
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 82%
@@ -52,7 +52,7 @@ Para alcançar a caixa de entrada de seus destinatários sem ser rejeitado ou se
 
    * Ao verificar seu email quanto à capacidade de entrega, você deseja se concentrar em quatro categorias principais: qualidade de dados, mensagem e conteúdo, infraestrutura de envio e reputação. Para aprofundar esse tópico, consulte [esta seção](../../sending/using/about-deliverability.md).
 
-* Ao iniciar uma nova plataforma, aplique as recomendações detalhadas nesta [página](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html?lang=pt-BR#transition-process).
+* Ao iniciar uma nova plataforma, aplique as recomendações detalhadas nesta [página](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
 
 * Entre em contato com seu representante da Adobe para obter assistência.
 

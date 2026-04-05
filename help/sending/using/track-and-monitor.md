@@ -3,13 +3,13 @@ title: Rastrear e monitorar mensagens
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Saiba como o Adobe Campaign permite acompanhar as mensagens enviadas e descobrir como seus destinatários reagem à sua entrega
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 39%
@@ -44,7 +44,7 @@ Para obter mais informações, consulte a seção [Mensagens de rastreamento](..
 
 ## Relatórios dinâmicos {#dyn-reports}
 
-Os relatórios dinâmicos permitem criar relatórios totalmente personalizáveis e em tempo real para monitorar suas campanhas. Dimension, métricas e visualizações permitem medir o impacto e o sucesso de suas campanhas nos recipients.
+Os relatórios dinâmicos permitem criar relatórios totalmente personalizáveis e em tempo real para monitorar suas campanhas. Dimensões, métricas e visualizações permitem medir o impacto e o sucesso de suas campanhas nos recipients.
 
 **Dica** - Relatórios internos estão disponíveis para você monitorar suas campanhas, mas esses relatórios também podem ser personalizados arrastando e soltando métricas ou dimensões em seu relatório.
 

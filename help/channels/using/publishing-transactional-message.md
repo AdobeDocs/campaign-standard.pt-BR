@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 70%
@@ -38,7 +38,8 @@ O gráfico abaixo ilustra o processo geral de publicação de mensagens transaci
 * [Cancelamento de publicação de uma mensagem transacional](#unpublishing-a-transactional-message)
 * [Publicação de um evento](../../channels/using/publishing-transactional-event.md)
 
-<!--## Testing a transactional message {#testing-a-transactional-message}
+<!--
+## Testing a transactional message {#testing-a-transactional-message}
 
 You first need to create a specific test profile that will allow you to properly check the transactional message.
 
@@ -84,7 +85,8 @@ Once you have created one or more specific test profiles and saved your transact
 
 ![](assets/message-center_10.png)
 
-The steps for sending a proof are detailed in the [Sending proofs](../../sending/using/sending-proofs.md) section.-->
+The steps for sending a proof are detailed in the [Sending proofs](../../sending/using/sending-proofs.md) section.
+-->
 
 ## Publicação de mensagem transacional {#publishing-a-transactional-message}
 
@@ -107,7 +109,7 @@ Para acessar os relatórios referentes à sua mensagem transacional, use o botã
 
 Você pode suspender a publicação da mensagem transacional usando o botão **[!UICONTROL Pause]**, por exemplo, para modificar os dados contidos na mensagem. Portanto, os eventos não são mais processados, mas mantidos em fila no banco de dados do Adobe Campaign.
 
-Os eventos em fila são mantidos durante um período definido na API REST (consulte a [documentação da API REST](../../api/using/managing-transactional-messages.md)) ou no evento de acionador, se você estiver usando o serviço principal Acionadores (consulte [Sobre o Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+Os eventos em fila são mantidos durante um período definido na API REST (consulte a [documentação da API REST](../../api/using/managing-transactional-messages.md)) ou no evento Acionadores, se você estiver usando o serviço principal Acionadores (consulte [Sobre Acionadores da Adobe Experience Cloud](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
@@ -135,7 +137,7 @@ O fluxo de trabalho da **[!UICONTROL Database cleanup]**, que é executado todos
 
 Depois de cancelada a publicação de uma mensagem transacional, ou se uma mensagem transacional ainda não tiver sido publicada, você poderá excluí-la da lista de mensagens transacionais. Para fazer isso:
 
-1. Clique no logotipo **Adobe**, no canto superior esquerdo, em seguida selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+1. Clique no logotipo **Adobe**, no canto superior esquerdo, e selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 1. Passe o mouse sobre a mensagem de sua escolha.
 1. Clique no botão **[!UICONTROL Delete element]**.
 
@@ -153,7 +155,8 @@ No entanto, a exclusão de uma mensagem transacional só pode ser feita sob cert
 
 * **Mensagens transacionais de um modelo de evento pronto para uso (mensagens transacionais internas)**: se uma mensagem transacional interna for a única associada ao evento interno correspondente, ela não poderá ser excluída. Primeiro, você precisa criar outra mensagem transacional duplicando-a, ou pelo menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]**.
 
-<!--## Monitoring transactional message delivery {#monitoring-transactional-message-delivery}
+<!--
+## Monitoring transactional message delivery {#monitoring-transactional-message-delivery}
 
 Once the message is published and your site integration is done, you can monitor the delivery.
 
@@ -245,4 +248,5 @@ In the retry process, the sending logs of the new execution delivery are not imm
 
 You cannot stop an execution delivery. However, if the current execution delivery fails, a new one is created as soon as a new event is received, and all new events are processed by this new execution delivery. No new events are processed by the failed execution delivery.
 
-If some events already assigned to an execution delivery have been postponed as part of the retry process and if that execution delivery fails, the retry system does not assign the postponed events to the new execution delivery, which means that these events are lost. Check the [delivery logs](#monitoring-transactional-message-delivery) to see the recipients that may have been impacted.-->
+If some events already assigned to an execution delivery have been postponed as part of the retry process and if that execution delivery fails, the retry system does not assign the postponed events to the new execution delivery, which means that these events are lost. Check the [delivery logs](#monitoring-transactional-message-delivery) to see the recipients that may have been impacted.
+-->
