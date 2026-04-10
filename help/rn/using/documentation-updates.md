@@ -5,10 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 hide: true
-hidefromtoc: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: c14a52f5425972899f51af7ee6ea2d5796c46765
-workflow-type: ht
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
+workflow-type: tm+mt
 source-wordcount: '7259'
 ht-degree: 100%
 
@@ -589,7 +588,7 @@ O guia de Automatização foi atualizado com links para atividades de fluxo de t
 
 A seção Cálculo de indicadores para relatórios dinâmicos foi atualizada. [Leia mais](../../reporting/using/indicator-calculation.md)
 
-A tabela de compatibilidade de relatórios dinâmicos foi adicionada para um melhor entendimento da compatibilidade entre dimensões e métricas. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=pt-BR)
+A tabela de compatibilidade de relatórios dinâmicos foi adicionada para um melhor entendimento da compatibilidade entre dimensões e métricas. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 A lista de funções para fluxos de trabalho foi atualizada. [Leia mais](../../automating/using/list-of-functions.md)
 
@@ -867,7 +866,7 @@ A atividade **[!UICONTROL Subscription Services]** foi atualizada para ser compa
 
 Adicionado um caso de uso passo a passo sobre como preparar uma entrega. [Leia mais](../../sending/using/preparing-the-send.md)
 
-A seção que inclui a lista de autorizações foi retirada. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=pt-BR) (PDF).
+A seção que inclui a lista de autorizações foi retirada. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF).
 
 Um caso de uso passo a passo foi adicionado sobre como usar a resposta automática do SMS. [Leia mais](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1039,7 +1038,7 @@ Uma nova nota técnica agora está disponível: &quot;Integração do SDK móvel
 
 Foram adicionadas instruções para configurar a integração do serviço principal do People ou Audience Manager com o Adobe Campaign. [Leia mais](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-A tabela de autorizações foi revisada para esclarecer melhor a função de certos cargos. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=pt-BR)
+A tabela de autorizações foi revisada para esclarecer melhor a função de certos cargos. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Atualização dos links de ajuda contextual disponíveis diretamente do Adobe Campaign.
 
