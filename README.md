@@ -1,13 +1,13 @@
 ---
 source-git-commit: b3d18858ec7f5206410f9b39a2fa5ad894921a60
-workflow-type: ht
-source-wordcount: '59'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '45'
+ht-degree: 6%
 
 ---
 # Bem-vindo!
 
-Este projeto contém a documentação técnica do Campaign Standard. Você pode acessá-la online [aqui](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=pt-BR).
+Este projeto contém a documentação técnica do Campaign Standard. Você pode acessá-lo online [aqui](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=pt-BR).
 
 Para obter mais informações sobre solução de problemas, instruções e práticas recomendadas, consulte as [Notas técnicas](https://helpx.adobe.com/br/campaign/kb/acs-article-list.html).
 
