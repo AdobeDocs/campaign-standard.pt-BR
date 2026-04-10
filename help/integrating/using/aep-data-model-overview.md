@@ -33,7 +33,7 @@ O XDM Workspace oferece a capacidade de exibir, criar e estender esquemas de dad
 
 Para acessar a interface do usuário XDM, abra o Adobe Experience Platform. Navegue até a janela Modelo de dados para criar ou estender um esquema XDM.
 
-Consulte a [documentação completa do XDM Workspace](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+Consulte a [documentação completa do XDM Workspace](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=pt-BR).
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -48,4 +48,4 @@ Você pode executar as seguintes ações por meio da API do esquema XDM:
 * Exibir descritores de esquema
 * Criar, atualizar e excluir descritores de esquema
 
-Todos os detalhes para manipular chamadas de API estão disponíveis no [Guia do Desenvolvedor](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+Todos os detalhes para manipular chamadas de API estão disponíveis no [Guia do Desenvolvedor](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=pt-BR).
