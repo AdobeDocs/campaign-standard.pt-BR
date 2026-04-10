@@ -10,8 +10,7 @@ role: Developer
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
 hide: true
-hidefromtoc: true
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 6%
@@ -22,7 +21,7 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->O Conector de dados do Adobe Experience Platform está atualmente na versão beta, que pode estar sujeita a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados no Azure (atualmente na versão beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente da Adobe se desejar obter acesso.
+>O Conector de dados do Adobe Experience Platform está atualmente na versão beta, que pode estar sujeita a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados na Azure (atualmente na versão beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente da Adobe se desejar obter acesso.
 
 O Adobe Campaign Standard permite acionar a assimilação imediata de mapeamentos de dados por meio de APIs e recuperar o status das solicitações de assimilação.
 

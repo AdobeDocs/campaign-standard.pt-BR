@@ -10,8 +10,7 @@ role: Developer
 level: Experienced
 exl-id: 4d4e7e58-e161-4e5a-898a-b5c29ffb20e0
 hide: true
-hidefromtoc: true
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 6%
@@ -22,7 +21,7 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->O serviço Audience Destinations está atualmente em versão beta, que pode estar sujeita a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados no Azure (atualmente na versão beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente da Adobe se desejar obter acesso.
+>O serviço Audience Destinations está atualmente em versão beta, que pode estar sujeita a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados na Azure (atualmente na versão beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente da Adobe se desejar obter acesso.
 >
 >Os canais **Push** e **No aplicativo** ainda não estão disponíveis para personalização usando dados contextuais do Adobe Experience Platform.
 

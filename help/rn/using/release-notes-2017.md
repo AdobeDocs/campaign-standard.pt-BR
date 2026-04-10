@@ -4,9 +4,8 @@ description: Essa página lista todas as versões de 2017 do Adobe Campaign Stan
 feature: Overview
 role: User
 level: Beginner
-hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '4572'
 ht-degree: 5%
@@ -43,10 +42,10 @@ ht-degree: 5%
 _Plataforma_
 
 * Correção de um problema que impedia que arquivos compactados grandes fossem descompactados corretamente.
-* A segurança no gerenciamento da marca foi aprimorada. A modificação do nome e do endereço do remetente de uma marca agora está reservada para administradores técnicos do Adobe.
-* Para melhorar a segurança, conteúdo gerado pelo usuário (imagens, mirror pages, landing pages etc.) não pode mais ser atendido pelo domínio adobe.com. Agora é obrigatório usar seu próprio domínio para lidar com esses recursos, por meio do uso da marca.
+* A segurança no gerenciamento da marca foi aprimorada. A modificação do nome e do endereço do remetente de uma marca agora está reservada para administradores técnicos da Adobe.
+* Para melhorar a segurança, o conteúdo gerado pelo usuário (imagens, mirror pages, landing pages etc.) não pode mais ser distribuído pelo domínio adobe.com. Agora é obrigatório usar seu próprio domínio para lidar com esses recursos, por meio do uso da marca.
 * Correção de um problema de interface ao exibir e filtrar atividades de marketing.
-* Correção de um problema que impedia que os campos de data da assinatura fossem atualizados com uma chamada à API POST Rest.
+* Correção de um problema que impedia que os campos de data da assinatura fossem atualizados com uma chamada de API POST Rest.
 
 _Emails, mensagens SMS e correspondência direta_
 
@@ -72,7 +71,7 @@ _Relatórios_
 * Correção de um problema que contava perfis no segmento de idade errado.
 * As fórmulas de cálculo de rejeição temporária e permanente foram alteradas.
 
-_Workflows_
+_Fluxos de trabalho_
 
 * Correção de um problema na atividade **[!UICONTROL Load file]** que poderia resultar em erros após a adição e remoção manual de colunas na atividade.
 * O fluxo de trabalho técnico do **[!UICONTROL deliverabilityUpdate]** agora está agendado para ser executado às 2h, horário do servidor.
@@ -152,7 +151,7 @@ _Relatórios_
 * As [métricas de relatório dinâmicas](../../reporting/using/indicator-calculation.md) e os KPIs [campanhas](../../sending/using/confirming-the-send.md) (exibidos no painel de mensagens enviadas) foram alinhados para oferecer mais coerência.
 * Correção de um problema que resultava no travamento do pipeline no debian 7.
 
-_Workflows_
+_Fluxos de trabalho_
 
 * Correção de um problema que impedia o funcionamento da retenção do arquivo importado.
 
@@ -192,7 +191,7 @@ _Perfis e públicos-alvo_
   </tr> 
   <tr> 
    <td> ID declarada criptografada em fontes de dados<br /> </td> 
-   <td> Enviar acionadores de email e SMS sem a necessidade de um perfil existente no Campaign usando informações de contato criptografadas (endereço de email ou número de telefone) como uma ID declarada. Como as IDs declaradas criptografadas podem ser decodificadas pelo Adobe Campaign Standard, o Campaign agora pode criar novos perfis comercializáveis ao receber públicos-alvo de outras soluções Experience Cloud que contêm contatos anteriormente desconhecidos.<br /> Direcione clientes e clientes potenciais desconhecidos em tempo real por email e SMS para melhorar a fidelidade na sua base de clientes existente e adquirir novos clientes, respectivamente. Aproveite ao máximo seus dados de cookies primários (da Adobe Audience Manager*) assim que os prospetos forem autenticados e aproveitarem esses insights no Adobe Campaign. <br /> *O Adobe Audience Manager é obrigatório. Para obter mais informações, consulte a <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">documentação detalhada</a>.<br /> </td> 
+   <td> Enviar acionadores de email e SMS sem a necessidade de um perfil existente no Campaign usando informações de contato criptografadas (endereço de email ou número de telefone) como uma ID declarada. Como as IDs declaradas criptografadas podem ser decodificadas pelo Adobe Campaign Standard, o Campaign agora pode criar novos perfis comercializáveis ao receber públicos-alvo de outras soluções da Experience Cloud que contêm contatos anteriormente desconhecidos.<br /> Direcione clientes e clientes potenciais desconhecidos em tempo real por email e SMS para melhorar a fidelidade na sua base de clientes existente e adquirir novos clientes, respectivamente. Aproveite ao máximo seus dados de cookies primários (da Adobe Audience Manager*) assim que os prospetos forem autenticados e aproveitarem esses insights no Adobe Campaign. <br /> *O Adobe Audience Manager é obrigatório. Para obter mais informações, consulte a <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Compartilhamento de KPI do Campaign para o Analytics<br /> </td> 
@@ -235,7 +234,7 @@ _Relatórios_
 * Correção de um problema que mostrava valores como desconhecidos quando um delivery era criado fora de uma campanha.
 * Correção de um problema que mostrava dados de relatório de SMS como dados de aplicativo móvel.
 
-_Workflows_
+_Fluxos de trabalho_
 
 * Agora é possível filtrar logs de fluxo de trabalho (período e pesquisa de texto). Para obter mais informações, consulte a [documentação detalhada](../../automating/using/monitoring-workflow-execution.md).
 * Agora há uma opção nos deliveries do fluxo de trabalho para desativar a confirmação antes do envio.
@@ -275,7 +274,7 @@ _Emails e mensagens SMS_
 
 * Correção de um problema que exibia a cor incorreta para o status de entrega **[!UICONTROL Retry in progress]**. A cor era cinza em vez de azul.
 
-_Workflows_
+_Fluxos de trabalho_
 
 * Correção de um problema que ocorria ao alterar a ação para executar em uma atividade **[!UICONTROL Transfer file]**.
 
@@ -302,8 +301,8 @@ _Notificações por push_
  </thead> 
  <tbody> 
   <tr> 
-   <td> Recursos de edição de imagens aprimorados com o SDK do Creative<br /> </td> 
-   <td> Agora você tem acesso a um conjunto completo de recursos viabilizados pelo SDK da Creative para aprimorar suas imagens diretamente no editor de conteúdo ao editar emails ou landing pages.<br /> Este recurso não requer a aquisição de soluções de Creative Cloud adicionais.<br /> Para obter mais informações, consulte a <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">documentação detalhada</a>.<br /> </td> 
+   <td> Recursos de edição de imagens aprimorados com o Creative SDK<br /> </td> 
+   <td> Agora você tem acesso a um conjunto completo de recursos viabilizados pelo Creative SDK para aprimorar suas imagens diretamente no editor de conteúdo ao editar emails ou landing pages.<br /> Este recurso não requer a aquisição de soluções Creative Cloud adicionais.<br /> Para obter mais informações, consulte a <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Notificações por push transacionais<br /> </td> 
@@ -315,7 +314,7 @@ _Notificações por push_
   </tr> 
   <tr> 
    <td> Conector S3 (Serviço de Armazenamento Simples) da Amazon<br /> </td> 
-   <td> O conector do Serviço de Armazenamento Simples da Amazon (S3) agora pode ser usado para importar ou exportar dados para o Adobe Campaign. Ele pode ser configurado em uma atividade de workflow. A configuração é feita em uma conta externa.<br /> Para obter mais informações, consulte a <a href="../../administration/using/external-accounts.md">documentação detalhada</a>.<br /> </td> 
+   <td> O conector do Serviço de Armazenamento Simples da Amazon (S3) agora pode ser usado para importar ou exportar dados para o Adobe Campaign. Ele pode ser configurado em uma atividade de fluxo de trabalho. A configuração é feita em uma conta externa.<br /> Para obter mais informações, consulte a <a href="../../administration/using/external-accounts.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Integração do Dreamweaver em tempo real<br /> </td> 
@@ -343,13 +342,13 @@ _Mensagens transacionais_
 
 * O campo rtEventHistoId não é mais exposto como um campo de personalização em um template de mensagem transacional.
 
-_Landing pages_
+_Páginas de destino_
 
 * Otimizamos o filtro **[!UICONTROL by email]** usado nas páginas de aterrissagem para reconciliar novos assinantes com perfis de banco de dados.
 * Correção de um problema que exibia entradas de texto livre em vez de caixas de seleção ao usar campos booleanos em uma configuração de formulário.
 * Correção de um problema que impedia a geração de miniaturas de páginas de destino.
 
-_Workflows_
+_Fluxos de trabalho_
 
 * Correção de um erro de exibição ao editar uma atividade **[!UICONTROL End]** ou **[!UICONTROL External Signal]** (somente no Safari).
 * Mensagem de erro exibida ao editar uma atividade **[!UICONTROL Read Audience]** contendo um público-alvo incorreto.
@@ -392,7 +391,7 @@ _Notificações por push_
   </tr> 
   <tr> 
    <td> Integração do Dreamweaver (Labs)<br /> </td> 
-   <td> Com a integração do Adobe Campaign e do Dreamweaver, agora você tem um processo integrado para criar campanhas de email com soluções Adobe.<br /> Você pode editar emails do Adobe Campaign no Dreamweaver e sincronizar o conteúdo facilmente entre as duas soluções.<br /> Na versão inicial, a integração está disponível como um recurso do "Labs" e funciona somente com o Dreamweaver Pre Release Beta. Se desejar ativá-la, entre em contato com AC-DW-integration@adobe.com.<br /> Para obter mais informações, consulte este <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=pt-BR">vídeo</a>.<br /> </td> 
+   <td> Com a integração do Adobe Campaign e do Dreamweaver, agora você tem um processo integrado para criar campanhas de email com soluções da Adobe.<br /> Você pode editar emails do Adobe Campaign no Dreamweaver e sincronizar o conteúdo facilmente entre as duas soluções.<br /> Na versão inicial, a integração está disponível como um recurso do "Labs" e funciona somente com o Dreamweaver Pre Release Beta. Se desejar ativá-la, entre em contato com AC-DW-integration@adobe.com.<br /> Para obter mais informações, consulte este <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=pt-BR">vídeo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Otimização manual do tempo de envio<br /> </td> 
@@ -427,7 +426,7 @@ _Notificações por push_
   </tr> 
   <tr> 
    <td> Dados de pontos de interesse<br /> </td> 
-   <td> Os dados de Pontos de interesse integram o Adobe Campaign ao Adobe Analytics para dispositivos móveis. Uma marca pode coletar dados dos locais móveis dos usuários - chamados de <strong>Pontos de Interesse</strong> - quando os usuários abrem o aplicativo da marca. Isso permite que a marca aproveite os workflows do Adobe Campaign para enviar mensagens personalizadas com base nos locais dos usuários. Este canal utiliza o SDK do Mobile Core Service.<br /> Observe que o uso desse recurso exige o Analytics for Mobile, que é uma solução paga.<br /> Para obter mais informações, consulte a <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">documentação detalhada</a>.<br /> </td> 
+   <td> Os dados de Pontos de interesse integram o Adobe Campaign ao Adobe Analytics para dispositivos móveis. Uma marca pode coletar dados dos locais móveis dos usuários - chamados de <strong>Pontos de Interesse</strong> - quando os usuários abrem o aplicativo da marca. Isso permite que a marca aproveite os workflows do Adobe Campaign para enviar mensagens personalizadas com base nos locais dos usuários. Este canal aproveita a SDK do Mobile Core Service.<br /> Observe que o uso desse recurso exige o Analytics for Mobile, que é uma solução paga.<br /> Para obter mais informações, consulte a <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> REST APIs<br /> </td> 
@@ -448,11 +447,11 @@ _Emails e mensagens SMS_
 * Correção de um problema que impedia o cancelamento da publicação de emails transacionais.
 * Correção de um problema em que o conteúdo não podia ser sincronizado corretamente com as alterações mais recentes antes de visualizar um delivery.
 
-_Landing pages_
+_Páginas de destino_
 
 * Correção de um erro que impedia a edição de um usuário ao clicar no conteúdo de uma landing page.
 
-_Workflows_
+_Fluxos de trabalho_
 
 * Correção de um problema que poderia impedir a leitura do conteúdo da transição de rejeição de uma atividade **[!UICONTROL Load file]**.
 * Correção de um problema que impedia que colunas alternadas fossem consideradas corretamente ao configurar uma atividade **[!UICONTROL Load file]**.
@@ -510,7 +509,7 @@ _Geral_
 
 _Emails e mensagens SMS_
 
-* Correção de um problema relacionado a templates do delivery com conteúdo de HTML que contém um
+* Correção de um problema relacionado a templates do delivery com conteúdo do HTML que contém um
 
 _Notificações por push_
 
@@ -519,7 +518,7 @@ _Notificações por push_
 * Correção de um problema que pode ter causado a adição de um caractere de escape extra a caracteres Unicode usados para Emojis.
 * Quando o token de registro de um assinante é adicionado ao incluo na lista de bloqueios, o status correspondente agora é atualizado imediatamente na lista de assinantes do aplicativo no Adobe Campaign.
 
-_Workflows_
+_Fluxos de trabalho_
 
 * Correção de um problema que pode ter impedido a pré-visualização de consultas em recursos de evento (por exemplo, rtEvent).
 * O arquivo de rejeição gerado por uma atividade **[!UICONTROL Load file]** agora pode ser recuperado na transição de saída e processado na próxima atividade. Por exemplo, carregar o arquivo de rejeição por meio de um servidor SFTP usando **[!UICONTROL Transfer file]**.
@@ -530,5 +529,5 @@ _Workflows_
 _Integrações_
 
 * Correção de um problema que pode ter causado um erro ao implantar um acionador de evento no Adobe Campaign. Esse erro ocorria quando os metadados &quot;Probabilidade de retorno em 30 dias&quot; tinham sido adicionados ao acionador de Abandono no Adobe Marketing Cloud.
-* Correção de um problema que pode ter feito com que o fluxo de trabalho técnico limpasse o campo Dimension do Target ao importar públicos do serviço principal Pessoas. Consultas subsequentes não puderam recuperar os públicos importados.
+* Correção de um problema que fazia com que o fluxo de trabalho técnico limpasse o campo Dimension do Target ao importar públicos do serviço principal Pessoas. Consultas subsequentes não puderam recuperar os públicos importados.
 * Correção de um problema que pode ter causado a falha da atividade **[!UICONTROL Save audience]** de um fluxo de trabalho quando a opção **[!UICONTROL Share in Adobe Marketing Cloud]** foi marcada.

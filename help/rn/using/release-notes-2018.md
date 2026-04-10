@@ -4,11 +4,10 @@ description: Essa página lista todas as versões de 2018 do Adobe Campaign Stan
 feature: Overview
 role: User
 level: Beginner
-hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
-source-wordcount: '5386'
+source-wordcount: '5384'
 ht-degree: 6%
 
 ---
@@ -70,12 +69,12 @@ ht-degree: 6%
 * Correção de um problema que exibia o número incorreto de assinaturas nos Relatórios de resumo do serviço (CAMP-25587).
 * Correção de um problema de discrepância de dados entre os relatórios Adobe Analytics e Adobe Campaign. (CAMP-25393)
 * Correção de um problema que impedia que um usuário de acesso limitado fizesse logon. (CAMP-27381)
-* Correção de um problema que impedia a exibição da lista de conteúdos do Adobe Experience Manager ao editar um email usando a Creative Designer. (CAMP-27181)
+* Correção de um problema que impedia a exibição da lista de conteúdos do Adobe Experience Manager ao editar um email usando o Creative Designer. (CAMP-27181)
 * Correção de um problema que impedia a abertura do Creative Designer, causando um erro. (CAMP-27304)
 * Correção de um problema que impedia que arrastar e soltar funcionasse corretamente no Creative Designer ao usar o Internet Explorer 11.
 * Correção de um problema que fazia com que as fotos carregadas de uma câmera e tiradas no modo retrato fossem exibidas em uma posição girada não desejada.
-* Correção de um problema que exibia informações de seleção não claras ao usar a interface do editor de consultas na Creative Designer.
-* Correção de um problema que impedia a duplicação correta de um elemento ao usar a interface do editor de consultas na Creative Designer.
+* Correção de um problema que exibia informações de seleção não claras ao usar a interface do editor de consultas no Creative Designer.
+* Correção de um problema que impedia a duplicação correta de um elemento ao usar a interface do editor de consultas no Creative Designer.
 * Correção de um problema que fazia com que mensagens SMS fossem enviadas a recipients na inclui na lista de bloqueios, mesmo após o cancelamento de subscrição por meio de uma resposta automática. (CAMP-27128)
 * Correção de um problema que impedia a exibição de erros que causavam a falha do fluxo de trabalho **Limpeza de Banco de Dados**. (CAMP-26876)
 * Correção de um problema que impedia a exclusão de campos personalizados em uma definição de notificação por push. (CAMP-25588)
@@ -102,7 +101,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> Importação de conteúdo automatizada de uma URL durante a preparação da mensagem<br /> </td> 
-   <td> Agora é possível importar conteúdo de email de um URL durante a fase de preparação. Para deliveries de email recorrentes, o conteúdo de HTML mais recente é recuperado sempre que a mensagem é preparada, garantindo que o conteúdo esteja sempre atualizado no momento em que o email é enviado. Esse recurso também permite criar um delivery agendado com conteúdo de um URL, mesmo que o conteúdo ainda não esteja pronto.<br /> Para obter mais informações, consulte a <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">documentação detalhada</a>.<br /> </td> 
+   <td> Agora é possível importar conteúdo de email de um URL durante a fase de preparação. Para deliveries de email recorrentes, o conteúdo mais recente do HTML é recuperado sempre que a mensagem é preparada, garantindo que o conteúdo esteja sempre atualizado no momento em que o email é enviado. Esse recurso também permite criar um delivery agendado com conteúdo de um URL, mesmo que o conteúdo ainda não esteja pronto.<br /> Para obter mais informações, consulte a <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Mensagem de notificação de versão da campanha<br /> </td> 
@@ -110,7 +109,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> Gerenciamento de usuários<br /> </td> 
-   <td> O recurso de unidade geográfica agora está indisponível para novas instâncias de Campaign Standard, bem como instâncias existentes sem unidades geográficas criadas, a partir da versão 18.7.<br /> Para obter mais informações, consulte esta <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=pt-BR#release-notes">página</a>.<br /> </td> 
+   <td> O recurso de unidade geográfica agora está indisponível para novas instâncias do Campaign Standard, bem como instâncias existentes sem unidades geográficas criadas, a partir da versão 18.7.<br /> Para obter mais informações, consulte esta <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=pt-BR#release-notes">página</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -123,7 +122,7 @@ ht-degree: 6%
 **Outras alterações**
 
 * O tempo limite de compartilhamento de relatórios foi aumentado de um para quatro minutos para evitar qualquer erro de tempo limite.
-* Ao editar o conteúdo de um email, a nova Creative Designer é aberta por padrão. Se desejar, ainda é possível voltar para o editor de conteúdo padrão a qualquer momento depois de salvar suas alterações. Para obter mais informações, consulte a [documentação detalhada](../../designing/using/designing-content-in-adobe-campaign.md).
+* Ao editar o conteúdo de um email, o novo Creative Designer é aberto por padrão. Se desejar, ainda é possível voltar para o editor de conteúdo padrão a qualquer momento depois de salvar suas alterações. Para obter mais informações, consulte a [documentação detalhada](../../designing/using/designing-content-in-adobe-campaign.md).
 * No Creative Designer, um novo componente de conteúdo agora pode ser adicionado a um email: o carrossel. Para obter mais informações, consulte a [documentação detalhada](../../designing/using/designing-from-scratch.md#about-content-components).
 * Em um relatório de hot click de mensagem transacional, ao clicar no botão **Alterar perfil**, agora somente os perfis de teste vinculados ao evento definido para sua mensagem transacional são listados.
 
@@ -140,14 +139,14 @@ ht-degree: 6%
 * Correção de um problema que poderia resultar em uma mensagem de erro ao cancelar a edição de uma regra de tipologia de fadiga.
 * Correção de um problema que poderia ocorrer ao visualizar um conteúdo de delivery após ele ser editado.
 * Correção de um problema que ocorria ao processar arquivos zip CSV ao usar a opção de Descompactação.
-* Correção de um problema no Creative Designer que resultava em fonte e formatação de cor indesejadas ao alterar algum texto com estilo incorporado para um link ou ao editar esse link. (CAMP-26001)
+* Correção de um problema no Creative Designer que resultava em fonte de cor e formatação indesejadas ao alterar algum texto com estilo incorporado para um link ou ao editar esse link. (CAMP-26001)
 * Correção de um problema que impedia que o relatório de cliques ativos exibisse as porcentagens de cada condição nos deliveries com conteúdo dinâmico. Anteriormente, somente os cliques na variante padrão eram exibidos.
 
 ## Versão 18.6 - Junho de 2018 {#release-18-6---june-2018}
 
 **Aprimoramentos**
 
-* A API **[!UICONTROL History]** foi adicionada a Adobe.IO. Ele permite acessar informações relacionadas ao histórico de marketing de um perfil: número de pontos de contato, deliveries enviados, URL de mirror page, etc. Para obter mais informações, consulte o [caso de uso dedicado](../../api/using/interacting-with-marketing-history.md).
+* A API **[!UICONTROL History]** foi adicionada ao Adobe.IO. Ele permite acessar informações relacionadas ao histórico de marketing de um perfil: número de pontos de contato, deliveries enviados, URL de mirror page, etc. Para obter mais informações, consulte o [caso de uso dedicado](../../api/using/interacting-with-marketing-history.md).
 * O fluxo de trabalho técnico **[!UICONTROL Database cleanup]** foi otimizado para garantir melhor desempenho do backup do banco de dados.
 * O Creative Designer for Email agora também está disponível em francês e alemão.
 
@@ -169,7 +168,7 @@ ht-degree: 6%
 * Correção de um problema que impedia o Serviço principal de privacidade de receber atualizações de status de solicitação do Campaign.
 * Correção de um problema que impedia o funcionamento correto do fluxo de trabalho técnico **[!UICONTROL Import shared audience]** (CAMP-25465).
 * Correção de um problema que impedia que solicitações de privacidade do Campaign fossem marcadas como concluídas no Privacy Service principal.
-* Correção de um problema que impedia determinados usuários de fazer logon no Campaign Standard por meio da autenticação IMS quando o Adobe ID era muito longo. (CAMP-24095)
+* Correção de um problema que impedia determinados usuários de fazer logon no Campaign Standard por meio da autenticação IMS quando a Adobe ID era muito longa. (CAMP-24095)
 * Correção de um problema no Creative Designer que poderia ocorrer ao remover módulos de conteúdo. (CAMP-25242)
 * Correção de um problema ao usar regras de fadiga de notificações por push para assinantes sem perfil no banco de dados. (CAMP-25344)
 * Correção de um problema que poderia exibir uma mensagem de erro ao acessar logs de exclusão de deliveries. (CAMP-24724)
@@ -195,7 +194,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> GDPR: Integração de Serviço Principal<br /> </td> 
-   <td> A Integração do Privacy Core Service permite automatizar suas solicitações de GDPR em um contexto com várias soluções por meio de uma única chamada de API JSON. <br /> As solicitações de GDPR enviadas pelo Privacy Core Service para todas as soluções de Experience Cloud agora são tratadas automaticamente pelo Campaign. <br /> Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=pt-BR">documentação detalhada</a>.<br /> </td> 
+   <td> A Integração do Privacy Core Service permite automatizar suas solicitações de GDPR em um contexto com várias soluções por meio de uma única chamada de API JSON. <br /> As solicitações de GDPR enviadas pelo Privacy Core Service para todas as soluções da Experience Cloud agora são tratadas automaticamente pelo Campaign. <br /> Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=pt-BR">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Melhorias nas notificações por push - feedback detalhado da entrega<br /> </td> 
@@ -222,15 +221,15 @@ ht-degree: 6%
 
 **Outras alterações**
 
-* A atividade de fluxo de trabalho Ler público-alvo agora pode ler públicos-alvo Experience Cloud. Anteriormente, essa atividade só podia ler públicos-alvo de Consulta e Lista. Consulte a [documentação detalhada](../../automating/using/read-audience.md). (CAMP-23623)
-* O identificador da fonte de dados compartilhada padrão agora está no modo somente leitura e não pode mais ser alterado. A alteração desse identificador pode causar alguns problemas ao compartilhar públicos-alvo com o Experience Cloud.
+* A atividade de fluxo de trabalho Ler público-alvo agora pode ler públicos-alvo da Experience Cloud. Anteriormente, essa atividade só podia ler públicos-alvo de Consulta e Lista. Consulte a [documentação detalhada](../../automating/using/read-audience.md). (CAMP-23623)
+* O identificador da fonte de dados compartilhada padrão agora está no modo somente leitura e não pode mais ser alterado. A alteração desse identificador pode causar alguns problemas ao compartilhar públicos-alvo com a Experience Cloud.
 * Agora a importação de audiências do Audience Manager funciona com arquivos divididos. Anteriormente, somente o último arquivo do segmento era importado pelo workflow técnico importSharedAudience.
 * As contas externas do AWS S3 agora oferecem suporte a regiões e ao mecanismo de autenticação da versão 4. Consulte a [documentação detalhada](../../administration/using/external-accounts.md).
 * A janela de seleção de ativos agora deve carregar mais rápido, permitir a seleção de um ativo e depois sair da janela sem nenhum problema.
 * As propriedades e a estrutura dos workflows técnicos agora podem ser modificadas por usuários com direitos administrativos e pertencentes a &quot;Todas&quot; as unidades organizacionais e geográficas.
 * Foram feitos aprimoramentos na interface da atividade de Segmentação ao criar novos segmentos: a guia Limitação agora aparece diretamente após adicionar uma limitação. Os nomes dos novos segmentos agora são incrementados (&quot;Segmento 1&quot;, &quot;Segmento 2&quot; etc.).
 * Um campo &quot;nextProcessingDate&quot; é adicionado ao recurso Workflow. Esse campo só é visível por meio de chamadas REST API, ele permite visualizar workflows nas próximas datas de processamento.
-* O campo &quot;sourceId&quot; agora é exposto no recurso de logs de rastreamento (nms:trackingLog).
+* O campo &quot;sourceId&quot; agora está exposto no recurso de logs de rastreamento (nms:trackingLog).
 * Os valores &quot;Total opens&quot; e &quot;Total clicks&quot; agora podem ser exportados em um arquivo simples por meio de um fluxo de trabalho. (CAMP-24186)
 * &quot;English - Danmark&quot; agora está disponível na lista de Idiomas preferidos em perfis. (CAMP-23728)
 * Ao usar uma atividade Segmentação com um link de Dados adicionais (targetData), uma mensagem agora informa que os dados não estão disponíveis fora do fluxo de trabalho. Essa mensagem é exibida ao clicar no botão Count ou Preview da atividade de Segmentação. (CAMP-23651)
@@ -250,7 +249,7 @@ ht-degree: 6%
 * Correção de um problema ao enviar deliveries usados com personalização ou condição de elegibilidade do bloco de conteúdo dinâmico ao usar atributos de um esquema vinculado de perfil. (CAMP-22751)
 * Correção de um problema que impedia a exclusão de serviços. (CAMP-22050)
 * Correção de um problema que impedia a alteração dos valores de País ou Estado em um perfil de Teste. (CAMP-20426)
-* Correção de um problema que impedia o carregamento da Creative Designer. (CAMP-24573)
+* Correção de um problema que impedia o carregamento da Designer do Creative. (CAMP-24573)
 * Correção de um problema que removia caracteres adicionados após campos de personalização no assunto do email. (CAMP-24113)
 
 ## Versão 18.4 - Abril de 2018 {#release-18-4---april-2018}
@@ -265,7 +264,7 @@ _Emails, mensagens SMS e correspondência direta_
 
 * Correção de um problema que poderia resultar na substituição de KPIs com valores incorretos se a sincronização de broadlog levasse mais de uma hora.
 
-_Workflows_
+_Fluxos de trabalho_
 
 * Gerenciamento de memória aprimorado e desempenhos otimizados em workflows.
 
@@ -292,8 +291,8 @@ _Recursos personalizados_
  </thead> 
  <tbody> 
   <tr> 
-   <td> European General Data Protection Regulation (GDPR)<br /> </td> 
-   <td> O GDPR é a nova lei de privacidade da União Europeia que concilia e moderniza os requisitos de proteção de dados, entrando em efeito em 25 de Maio de 2018. O GDPR aplica-se aos clientes do Adobe Campaign que coletam dados de residentes da UE.<br /> Além dos recursos de privacidade já disponíveis no Adobe Campaign (incluindo gerenciamento de consentimento, configurações de retenção de dados e funções de usuário), aproveitamos a oportunidade, em função de nossa função de Processador de Dados, para incluir recursos adicionais que ajudam o Controlador de Dados a estar de acordo com determinadas solicitações do GDPR:<br /> 
+   <td> European General Data Protection Regulation (RGPD)<br /> </td> 
+   <td> O RGPD é a nova lei de privacidade da União Europeia que concilia e moderniza os requisitos de proteção de dados, entrando em efeito em 25 de Maio de 2018. O RGPD aplica-se aos clientes do Adobe Campaign que coletam dados de residentes da UE.<br /> Além dos recursos de privacidade já disponíveis no Adobe Campaign (incluindo gerenciamento de consentimento, configurações de retenção de dados e funções de usuário), aproveitamos a oportunidade, em função de nossa função de Processador de Dados, para incluir recursos adicionais que ajudam o Controlador de Dados a estar de acordo com determinadas solicitações do GDPR:<br /> 
     <ul> 
      <li> Direito de acesso: permite que o Titular de dados receba uma cópia de seus dados pessoais capturados pelos Controladores de dados, possivelmente incluindo dados armazenados no Adobe Campaign. </li> 
      <li> Direito de exclusão: permite que o Titular de dados apague seus dados pessoais capturados pelos Controladores de dados, possivelmente incluindo os dados armazenados no Adobe Campaign. </li> 
@@ -301,13 +300,13 @@ _Recursos personalizados_
   </tr> 
   <tr> 
    <td> Creative Designer for Email (Beta)<br /> </td> 
-   <td> A nova Creative Designer da Adobe Campaign oferece uma experiência de criação totalmente integrada no Campaign, permitindo a criação visual rápida e sem esforços de emails atraentes e personalizados individualmente, sem a necessidade de criar scripts para uma única linha de código. Por meio da poderosa interface de arrastar e soltar, o Creative Designer ajuda a dimensionar a criação de emails, independentemente de os usuários começarem de uma página em branco ou aproveitarem os Fragmentos ou modelos de conteúdo existentes. <br /> Os principais recursos incluem:<br /> 
+   <td> O novo Creative Designer da Adobe Campaign oferece uma experiência de criação totalmente integrada no Campaign, permitindo a criação visual rápida e sem esforços de emails atraentes e personalizados individualmente, sem a necessidade de criar scripts para uma única linha de código. Por meio da poderosa interface de arrastar e soltar, o Creative Designer ajuda a dimensionar a criação de emails, independentemente de os usuários começarem de uma página em branco ou aproveitarem os Fragmentos ou modelos de conteúdo existentes. <br /> Os principais recursos incluem:<br /> 
     <ul> 
-     <li> Projete visualmente e crie emails responsivos e totalmente personalizados por meio de uma interface de arrastar e soltar, aumentada por integrações de Creative Cloud nativas </li> 
+     <li> Projete visualmente e crie emails responsivos e totalmente personalizados por meio de uma interface de arrastar e soltar, aumentada por integrações nativas do Creative Cloud </li> 
      <li> Crie e salve um modelo de conteúdo de email e utilize os modelos salvos para ajudar a dimensionar a criação de emails </li> 
-     <li> Criar e salvar fragmentos de conteúdo (como um cabeçalho, rodapé, artigo, etc.) para simplificar a criação de conteúdo e garantir a consistência da marca </li> 
+     <li> Crie e salve fragmentos de conteúdo (como um cabeçalho, rodapé, artigo etc.) para simplificar a criação de conteúdo e garantir a consistência da marca </li> 
      <li> Alterne facilmente entre criar na interface de arrastar e soltar e editar diretamente o HTML de um email com apenas um clique </li> 
-    </ul> A Creative Designer for Email está disponível somente em inglês.<br /> Para obter mais informações, consulte a <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentação detalhada</a> e assista a este <a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">vídeo</a>.<br /> </td> 
+    </ul> O Creative Designer for Email está disponível somente em inglês.<br /> Para obter mais informações, consulte a <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentação detalhada</a> e assista a este <a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">vídeo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Entregas por push multilíngues<br /> </td> 
@@ -349,7 +348,7 @@ _Públicos-alvo e consultas_
 * Correção de um problema que impedia o acesso aos dados e a configuração de queries para recipients replicados do Adobe Campaign Classic para o Standard.
 * Correção de um problema que ocorria ao usar um campo de tipo de filtro no editor de consulta, após o uso dos botões **Contagem** ou **Visualização**.
 
-_Workflows_
+_Fluxos de trabalho_
 
 * O fluxo de trabalho **Faturamento** foi otimizado para melhorar o atraso de preparação da entrega.
 * Correção de um problema que impedia a exibição de dados de população em uma transição de saída ao usar uma atividade de delivery recorrente.
@@ -359,7 +358,7 @@ _Workflows_
 _Integrações_
 
 * Correção de um problema que impedia que caracteres internacionais fossem enviados corretamente para o Adobe Analytics.
-* O Assets agora deve carregar mais rápido ao tentar inserir uma imagem da biblioteca de ativos Experience Cloud em uma mensagem.
+* O Assets agora deve carregar mais rápido ao tentar inserir uma imagem da biblioteca de ativos da Experience Cloud em uma mensagem.
 * Correção de um problema que poderia impedir que a janela de seleção de ativos fosse fechada em alguns casos.
 * Em um detalhe de fonte de dados, agora é possível acessar diretamente o fluxo de trabalho relacionado para verificar o estado do fluxo de trabalho.
 * Agora você pode atualizar o esquema Acionadores diretamente ao definir ou editar um evento de acionador. Com essa alteração, não é mais necessário cancelar a publicação do acionador e criar outro.
@@ -415,7 +414,7 @@ _Relatórios_
 * Correção de um erro que mostrava a lista de relatórios como vazia em alguns navegadores.
 * Correção de um erro que ocorria no fluxo de trabalho técnico **[!UICONTROL Report sharing]** pouco antes de seu limite de expiração ser atingido.
 
-_Workflows_
+_Fluxos de trabalho_
 
 * Correção de um problema que impedia que as atividades ficassem acessíveis após arrastá-las e soltá-las.
 * Correção de um problema que fazia com que a ordem das transições de saída de uma atividade **[!UICONTROL Segmentation]** fosse alterada em algumas situações.
@@ -447,7 +446,7 @@ Alguns problemas podem ocorrer ao usar links de ajuda contextual da interface do
  <tbody> 
   <tr> 
    <td> Relatórios para Gerenciamento de Fadiga<br /> </td> 
-   <td> Os relatórios para gerenciamento de fadiga são um relatório dedicado e configurável que exibe o impacto das regras de fadiga nas entregas nos canais de email, push, SMS e correspondência direta dentro de um intervalo de datas especificado antes do envio. Com a visão adicional de poder ver rapidamente todas as campanhas conflitantes em uma única visualização, os profissionais de marketing podem planejar campanhas de marketing de acordo com as regras de fadiga definidas com mais eficiência e priorizar comunicações.<br /> Para obter mais informações, consulte a <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">documentação detalhada</a>.<br /> </td> 
+   <td> Os relatórios para gerenciamento de fadiga são um relatório dedicado e configurável que exibe o impacto das regras de fadiga nas entregas nos canais de email, push, SMS e correspondência direta dentro de um intervalo de datas especificado antes do envio. Com a insight adicional de poder ver rapidamente todas as campanhas conflitantes em uma única visualização, os profissionais de marketing podem planejar campanhas de marketing de acordo com as regras de fadiga definidas com mais eficiência e priorizar comunicações.<br /> Para obter mais informações, consulte a <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Compartilhamento de relatórios<br /> </td> 
@@ -503,7 +502,7 @@ _Relatórios_
 * Correção de um problema que impedia usuários de baixar relatórios em CSV.
 * Adição de um novo item **[!UICONTROL Report]** na página inicial.
 
-_Workflows_
+_Fluxos de trabalho_
 
 * Correção de um problema que resultava em uma mensagem de erro ao usar dados adicionais em um query e adicionar aliases contendo espaços. Os caracteres não alfanuméricos agora são substituídos por &quot;_&quot;.
 * Correção de um problema em que o workflow técnico que calcula KPIs podia ser interrompido por padrão em alguns casos.

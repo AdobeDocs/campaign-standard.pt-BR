@@ -10,8 +10,7 @@ role: Developer
 level: Experienced
 exl-id: cc1aa669-30cd-4ea4-9fab-4d1b6c373744
 hide: true
-hidefromtoc: true
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -22,7 +21,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->O Conector de dados do Adobe Experience Platform está atualmente na versão beta, que pode estar sujeita a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados no Azure (atualmente na versão beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente da Adobe se desejar obter acesso.
+>O Conector de dados do Adobe Experience Platform está atualmente na versão beta, que pode estar sujeita a atualizações frequentes sem aviso prévio. Os clientes precisam ser hospedados na Azure (atualmente na versão beta somente para a América do Norte) para acessar esses recursos. Entre em contato com o Atendimento ao cliente da Adobe se desejar obter acesso.
 
 O Experience Data Model (XDM) é um conjunto padrão de esquemas de dados nos quais os dados podem ser assimilados para uso com soluções e produtos da Adobe Experience Platform.
 

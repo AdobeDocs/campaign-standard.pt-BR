@@ -4,12 +4,11 @@ description: Precisa de suporte para o Campaign Standard? Você está no lugar c
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-hidefromtoc: true
 role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
-workflow-type: ht
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
+workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 100%
 
