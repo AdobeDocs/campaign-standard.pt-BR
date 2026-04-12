@@ -35,7 +35,7 @@ A integração do Adobe Campaign Standard com o Dreamweaver permite editar o con
 
   Para o desenvolvedor de email, não é mais necessário adicionar texto como `[[FIRSTNAME_PLACEHOLDER]]`, nem pesquisar a sintaxe das tabelas do seu modelo de dados. A barra de ferramentas do Campaign no Dreamweaver se conecta diretamente ao modelo de dados da instância do Campaign. Isso significa que você pode obter quaisquer dados que desejar para personalização de algo como Nome para Endereço. Se você tiver criado blocos de conteúdo no Campaign, também poderá puxá-los diretamente para o Dreamweaver.
 
-Esse recurso está detalhado na Documentação do Dreamweaver acessível [aqui](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
+Esse recurso está detalhado na Documentação do Dreamweaver acessível [aqui](https://helpx.adobe.com/br/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
 
 ![](assets/do-not-localize/how-to-video.png) [Conheça este recurso no vídeo](#video)
 
@@ -148,7 +148,7 @@ O Adobe Campaign oferece várias opções de criação de email. A tabela abaixo
    <td> <strong>Para saber mais</strong><br /> </td> 
    <td> Consulte <a href="../../designing/using/designing-content-in-adobe-campaign.md">Sobre o Designer de email</a>.<br /> </td> 
    <td> Consulte <a href="../../integrating/using/integrating-with-experience-manager.md">Integração com o Experience Manager</a>.<br /> </td> 
-   <td> Veja o <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver e Campaign</a> e assista a este <a href="#video">vídeo</a>.<br /> </td> 
+   <td> Veja o <a href="https://helpx.adobe.com/br/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver e Campaign</a> e assista a este <a href="#video">vídeo</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
