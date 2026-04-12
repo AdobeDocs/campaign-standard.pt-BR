@@ -39,7 +39,7 @@ Esse campo pode ser personalizado. Para fazer isso, você pode adicionar campos 
 
 ## Personalização de URLs {#personalizing-urls}
 
-O Adobe Campaign permite personalizar um ou vários URLs em sua mensagem adicionando campos de personalização, blocos de conteúdo ou conteúdo dinâmico a eles. Para fazer isso:
+O Adobe Campaign permite personalizar um ou vários URLs em sua mensagem adicionando campos de personalização, blocos de conteúdo ou conteúdo dinâmico a eles. Para isso:
 
 1. Insira um URL externo e especifique os parâmetros. Consulte [Inserir um link](../../designing/using/links.md#inserting-a-link).
 1. Se não for exibido, clique no lápis ao lado do URL selecionado no painel Configurações para acessar as opções de personalização.
@@ -151,7 +151,7 @@ Para criar um bloco de conteúdo, siga estas etapas:
 
    ![](assets/content_bloc_04.png)
 
-1. Você pode selecionar a opção **[!UICONTROL Depends on format]** para definir dois blocos diferentes: um para emails de HTML e outro para emails em formato de texto. Duas guias serão exibidas no editor (HTML e Text) para definir o conteúdo correspondente.
+1. Você pode selecionar a opção **[!UICONTROL Depends on format]** para definir dois blocos diferentes: um para emails do HTML e outro para emails em formato de texto. Duas guias serão exibidas no editor (HTML e Text) para definir o conteúdo correspondente.
 
    ![](assets/content_bloc_03.png)
 
@@ -161,7 +161,7 @@ Seu bloco de conteúdo agora pode ser usado no editor de conteúdo de uma mensag
 
 >[!CAUTION]
 >
->Ao editar o conteúdo de um bloco, verifique se não há espaços em branco adicionais entre o início e o fim das suas instruções *if*. Em HTML, os espaços em branco são exibidos na tela e, portanto, afetarão o layout do conteúdo.
+>Ao editar o conteúdo de um bloco, verifique se não há espaços em branco adicionais entre o início e o fim das suas instruções *if*. No HTML, os espaços em branco são exibidos na tela e, portanto, afetarão o layout do conteúdo.
 
 ### Sobre o targeting dimension {#about-targeting-dimension}
 
@@ -173,7 +173,7 @@ Por exemplo, o targeting dimension do bloco **[!UICONTROL Unsubscription link]**
 
 Se você deixar esse campo vazio, o bloco de conteúdo será compatível com todas as mensagens, independentemente do targeting dimension. Se você definir um targeting dimension, esse bloco só será compatível com mensagens que tenham o mesmo targeting dimension.
 
-Para saber mais, consulte [Targeting dimensions e recursos](../../automating/using/query.md#targeting-dimensions-and-resources).
+Para saber mais, consulte [Dimensões de direcionamento e recursos](../../automating/using/query.md#targeting-dimensions-and-resources).
 
 **Tópicos relacionados:**
 
@@ -183,7 +183,7 @@ Para saber mais, consulte [Targeting dimensions e recursos](../../automating/usi
 
 ## Personalização de uma fonte de imagem{#personalizing-an-image-source}
 
-O Adobe Campaign permite personalizar uma ou várias imagens em sua mensagem de acordo com um critério específico ou usar o rastreamento. Isso é feito inserindo campos de personalização, blocos de conteúdo ou conteúdo dinâmico na fonte de imagem. Para fazer isso:
+O Adobe Campaign permite personalizar uma ou várias imagens em sua mensagem de acordo com um critério específico ou usar o rastreamento. Isso é feito inserindo campos de personalização, blocos de conteúdo ou conteúdo dinâmico na fonte de imagem. Para isso:
 
 1. Insira uma imagem no conteúdo da mensagem ou selecione uma imagem que já esteja presente.
 1. Na paleta de propriedades da imagem, marque a opção **[!UICONTROL Enable personalization]**.

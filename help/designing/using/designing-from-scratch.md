@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1230'
 ht-degree: 22%
 
 ---
@@ -30,7 +30,7 @@ Estas são as etapas principais para criar e projetar um conteúdo de email do z
 1. Pré-visualize seu email.
 1. Salve o conteúdo e prossiga com a mensagem depois de verificar se você definiu um público-alvo e agendou o envio corretamente.
 
-Você também pode assistir a este [vídeo de introdução](https://video.tv.adobe.com/v/330105/?autoplay=true&hidetitle=true&captions=por_br).
+Você também pode assistir a este [vídeo de introdução](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Para editar a estrutura de um email:
 
 1. Vários componentes de estrutura compostos de uma ou mais colunas estão disponíveis.
 
-   Selecione o componente **[!UICONTROL n:n column]** para definir o número de colunas de sua escolha (entre 3 e 10). Você também pode definir a largura de cada coluna movendo as setas na parte inferior de cada coluna.
+   Selecione o componente **[!UICONTROL n:ncoluna]** para definir o número de colunas de sua escolha (entre 3 e 10). Você também pode definir a largura de cada coluna movendo as setas na parte inferior de cada coluna.
 
    ![](assets/email_designer_n-n-column.png)
 
@@ -200,7 +200,7 @@ O componente Carrossel não é compatível com todos os programas de email. Faç
 **Tópicos relacionados**:
 
 - [Criação de um email](../../channels/using/creating-an-email.md)
-- [Seleção de um público em uma mensagem](../../audiences/using/selecting-an-audience-in-a-message.md)
+- [Seleção de um público-alvo em uma mensagem](../../audiences/using/selecting-an-audience-in-a-message.md)
 - [Agendamento de mensagens](../../sending/using/about-scheduling-messages.md)
 - [Visualização de mensagens](../../sending/using/previewing-messages.md)
 - [Renderização de email](../../sending/using/email-rendering.md)
