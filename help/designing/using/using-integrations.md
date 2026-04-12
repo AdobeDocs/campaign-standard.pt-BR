@@ -79,8 +79,8 @@ O Adobe Campaign oferece várias opções de criação de email. A tabela abaixo
    <td> Com suporte<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Atualizar HTML</strong><br /> </td> 
-   <td> Somente dentro de um componente de HTML <br /> </td> 
+   <td> <strong>Atualizar o HTML</strong><br /> </td> 
+   <td> Somente dentro de um componente HTML<br /> </td> 
    <td> Sem suporte<br /> </td> 
    <td> Com suporte<br /> </td> 
   </tr> 
@@ -99,7 +99,7 @@ O Adobe Campaign oferece várias opções de criação de email. A tabela abaixo
   <tr> 
    <td> <strong>Prova/Visualização</strong><br /> </td> 
    <td> Com suporte<br /> </td> 
-   <td> Visualizar no AEM<br /> Prova no Campaign<br /> </td> 
+   <td> Visualizar na Prova do AEM<br /> no Campaign<br /> </td> 
    <td> Pré-visualização e prova no Campaign<br /> </td> 
   </tr> 
   <tr> 
@@ -117,7 +117,7 @@ O Adobe Campaign oferece várias opções de criação de email. A tabela abaixo
   </td> 
    <td> 
      <p>- Reutilizar ativos do site em emails</p>
-     <p>- Aproveitar o potencial do Experience Manager em conteúdo de e-mail</p>
+     <p>- Aproveitar o potencial do Experience Manager em conteúdo de email</p>
     </td> 
    <td> 
     <p>- Recurso para um desenvolvedor codificar diretamente um email</p>
@@ -130,7 +130,7 @@ O Adobe Campaign oferece várias opções de criação de email. A tabela abaixo
    <td> <strong>Limitações</strong><br /> </td> 
    <td> 
      <p>- Nenhum conteúdo condicional nos fragmentos</p>
-     <p>- Não é possível usar fragmentos de Experience Manager</p>
+     <p>- Não é possível usar fragmentos do Experience Manager</p>
   </td> 
    <td> 
      <p>- Dificuldade para implementar a personalização avançada</p>
@@ -140,7 +140,7 @@ O Adobe Campaign oferece várias opções de criação de email. A tabela abaixo
   </tr> 
   <tr> 
    <td> <strong>Público-alvo</strong><br /> </td> 
-   <td> Profissionais de marketing que desejam manter a flexibilidade para usar componentes de HTML em combinação com recursos de arrastar e soltar<br /> </td> 
+   <td> Profissionais de marketing que desejam manter a flexibilidade para usar componentes do HTML em combinação com recursos de arrastar e soltar<br /> </td> 
    <td> Profissionais de marketing que já usam o Experience Manager e que desejam usar modelos de email padrão com pouca personalização<br /> </td> 
    <td> Desenvolvedores que desejam codificar conteúdo de email e integrar diretamente com o Adobe Campaign<br /> </td> 
   </tr> 

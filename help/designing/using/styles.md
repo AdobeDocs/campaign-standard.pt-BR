@@ -77,7 +77,7 @@ Por exemplo:
 
 >[!NOTE]
 >
->Dependendo da sua seleção (componente de estrutura, coluna ou componente de conteúdo), o resultado não será o mesmo. O Adobe recomenda definir os parâmetros **[!UICONTROL Padding]** e **[!UICONTROL Margin]** no nível da coluna.
+>Dependendo da sua seleção (componente de estrutura, coluna ou componente de conteúdo), o resultado não será o mesmo. A Adobe recomenda definir os parâmetros **[!UICONTROL Padding]** e **[!UICONTROL Margin]** no nível da coluna.
 
 Para **[!UICONTROL Padding]** e **[!UICONTROL Margin]**, clique no ícone de bloqueio para interromper a sincronização entre os parâmetros superior e inferior ou direito e esquerdo. Isso permite ajustar cada parâmetro separadamente.
 
@@ -208,4 +208,4 @@ Na interface do Designer de email, ao selecionar um elemento e exibir suas confi
 
 1. Modifique os valores dos atributos existentes ou adicione novos usando o botão **+**. É possível adicionar qualquer atributo e valor que seja compatível com CSS.
 
-O estilo é aplicado ao elemento selecionado. Se os elementos derivados não tiverem atributos de estilo específicos definidos, o estilo do elemento principal será herdado.
+O estilo é aplicado ao elemento selecionado. Se os elementos filhos não tiverem atributos de estilo específicos definidos, o estilo do elemento pai será herdado.
