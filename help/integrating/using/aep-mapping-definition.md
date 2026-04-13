@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
 hide: true
-source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
+source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Para executar essa tarefa, os pré-requisitos são:
 
 >[!NOTE]
 >
->Para que um lote seja assimilado no Perfil do cliente em tempo real ou no Serviço de identidade, o conjunto de dados deve ser [habilitado para o Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html?lang=pt-BR).
+>Para que um lote seja assimilado no Perfil do cliente em tempo real ou no Serviço de identidade, o conjunto de dados deve ser [habilitado para o Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
 >
 >Se o conjunto de dados selecionado já estiver sendo usado em um mapeamento de dados existente, um aviso será exibido para informá-lo de que seus dados podem ser substituídos no Adobe Experience Platform. Isso pode acontecer quando há alguns recipients comuns em mapeamentos de dados usando um mesmo conjunto de dados.
 
@@ -63,7 +63,7 @@ Os recursos estendidos definidos no Campaign Standard são mapeados como todos o
 
 É possível personalizar a extensão XDM por meio da API e definir sua própria extensão, permitindo um melhor controle sobre o mapeamento.
 
-Consulte o [Tutorial da API do registro de esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=pt-BR) para obter mais detalhes sobre a API XDM.
+Consulte o [Tutorial da API do registro de esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) para obter mais detalhes sobre a API XDM.
 
 Para mapear um campo de enumeração, é necessário usar o editor de expressão para definir cada valor de enumeração correspondente ao valor XDM. Por exemplo, o postaladdressfield precisa ser definido como:
 
