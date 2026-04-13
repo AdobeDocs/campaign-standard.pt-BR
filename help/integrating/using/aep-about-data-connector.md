@@ -81,6 +81,6 @@ As seções a seguir descrevem as principais etapas para executar um mapeamento 
 
 Este vídeo fornece uma visão geral sobre o Adobe Experience Platform Data Connector.
 
->[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
+>[!VIDEO](https://video.tv.adobe.com/v/34326?quality=12&captions=por_br)
 
 Vídeos adicionais relacionados ao Conector de dados do Adobe Experience Platform estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html?lang=pt-BR).
