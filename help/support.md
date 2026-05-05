@@ -8,8 +8,8 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
-workflow-type: tm+mt
-source-wordcount: '492'
+workflow-type: ht
+source-wordcount: '629'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ Obtenha suporte usando as perguntas frequentes, as práticas recomendadas, os re
 
 <table>
     <tr>
-        <td><img src="start/using/assets/do-not-localize/icon-faq.svg" width="60px"><p><a href="#faq">Problemas comuns e melhores práticas</a></p></td>
+        <td><img src="start/using/assets/do-not-localize/icon-faq.svg" width="60px"><p><a href="#faq">Problemas comuns e práticas recomendadas</a></p></td>
         <td><img src="start/using/assets/do-not-localize/icon-control-panel.svg" width="60px"><p><a href="#control-panel">Painel de controle do Campaign</a></p></td>
         <td><img src="start/using/assets/do-not-localize/icon-support.svg" width="60px"><p><a href="#support">Solicitação de ajuda</a></p></td>
     </tr>
@@ -106,11 +106,11 @@ No Painel de controle, é possível interagir com todos os servidores SFTP conec
 
 Você pode monitorar os subdomínios e seus certificados. Saiba mais:
 
-* [Marca de subdomínio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=pt-BR#subdomains-and-certificates)
-* [Configurar um novo subdomínio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=pt-BR#subdomains-and-certificates)
-* [Monitorar certificados SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=pt-BR#subdomains-and-certificates)
+* [Marca de subdomínio](https://experienceleague.adobe.com/pt-br/docs/control-panel/using/subdomains-and-certificates/subdomains-branding#subdomains-and-certificates)
+* [Configurar um novo subdomínio](https://experienceleague.adobe.com/pt-br/docs/control-panel/using/subdomains-and-certificates/delegate-subdomains/setting-up-new-subdomain#subdomains-and-certificates)
+* [Monitorar certificados SSL](https://experienceleague.adobe.com/pt-br/docs/control-panel/using/subdomains-and-certificates/manage-certificates/renewing-subdomain-certificate#subdomains-and-certificates)
 
-## Solicitar ajuda
+## Solicitação de ajuda
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
