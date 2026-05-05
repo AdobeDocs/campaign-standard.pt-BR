@@ -7,8 +7,8 @@ level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
-workflow-type: tm+mt
-source-wordcount: '7259'
+workflow-type: ht
+source-wordcount: '7629'
 ht-degree: 100%
 
 ---
@@ -424,7 +424,7 @@ Um novo caso de uso que descreve como criar um grupo de controle usando um fluxo
 
 Informações relacionadas às propriedades das páginas de destino foram movidas para uma seção dedicada. [Leia mais](../../channels/using/configuring-landing-page.md)
 
-A documentação do Painel de controle foi integrada ao novo conjunto de documentação colaborativa. [Leia mais](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR)
+A documentação do Painel de controle foi integrada ao novo conjunto de documentação colaborativa. [Leia mais](https://experienceleague.adobe.com/pt-br/docs/control-panel/using/control-panel-home)
 
 A tabela de **Cálculo de indicadores** foi atualizada. [Leia mais](../../reporting/using/indicator-calculation.md)
 
@@ -506,7 +506,7 @@ Relatório no segmento do fluxo de trabalho – [Leia mais](../../reporting/usin
 
 O Guia de implementação do Campaign Standard agora está ativo.[Leia mais](https://helpx.adobe.com/br/campaign/kb/campaign-standard-implementation-guide.html)
 
-Um conjunto de novos artigos de ajuda foi criado sobre a implementação e o uso do conector do Microsoft Dynamics 365. Observe que esse recurso está atualmente com a Disponibilidade limitada.[Leia mais](../../integrating/using/d365-acs-get-started.md)
+Um conjunto de novos artigos de ajuda foi criado sobre a implementação e o uso do conector do Microsoft Dynamics 365. Observe que esse recurso está atualmente em disponibilidade limitada.[Leia mais](../../integrating/using/d365-acs-get-started.md)
 
 Uma observação foi adicionada na seção [Chamado de fluxo de trabalho com parâmetros](../../automating/using/calling-a-workflow-with-external-parameters.md) sobre a preparação da entrega e o período de agregação.
 
@@ -550,7 +550,7 @@ Um aviso na documentação de recursos personalizados foi adicionado. Recomendam
 
 **Novos recursos incluídos na versão**
 
-Painel de controle - [Leia mais](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR)
+Painel de controle - [Leia mais](https://experienceleague.adobe.com/pt-br/docs/control-panel/using/control-panel-home)
 
 Notificações locais - [Leia mais](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -588,7 +588,7 @@ O guia de Automatização foi atualizado com links para atividades de fluxo de t
 
 A seção Cálculo de indicadores para relatórios dinâmicos foi atualizada. [Leia mais](../../reporting/using/indicator-calculation.md)
 
-A tabela de compatibilidade de relatórios dinâmicos foi adicionada para um melhor entendimento da compatibilidade entre dimensões e métricas. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=pt-BR)
+A tabela de compatibilidade de relatórios dinâmicos foi adicionada para um melhor entendimento da compatibilidade entre dimensões e métricas. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 A lista de funções para fluxos de trabalho foi atualizada. [Leia mais](../../automating/using/list-of-functions.md)
 
@@ -866,7 +866,7 @@ A atividade **[!UICONTROL Subscription Services]** foi atualizada para ser compa
 
 Adicionado um caso de uso passo a passo sobre como preparar uma entrega. [Leia mais](../../sending/using/preparing-the-send.md)
 
-A seção que inclui a lista de autorizações foi retirada. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=pt-BR) (PDF).
+A seção que inclui a lista de autorizações foi retirada. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF).
 
 Um caso de uso passo a passo foi adicionado sobre como usar a resposta automática do SMS. [Leia mais](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1038,7 +1038,7 @@ Uma nova nota técnica agora está disponível: &quot;Integração do SDK móvel
 
 Foram adicionadas instruções para configurar a integração do serviço principal do People ou Audience Manager com o Adobe Campaign. [Leia mais](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-A tabela de autorizações foi revisada para esclarecer melhor a função de certos cargos. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=pt-BR)
+A tabela de autorizações foi revisada para esclarecer melhor a função de certos cargos. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Atualização dos links de ajuda contextual disponíveis diretamente do Adobe Campaign.
 

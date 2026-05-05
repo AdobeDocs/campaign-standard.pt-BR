@@ -10,8 +10,8 @@ level: Beginner
 hide: true
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
 source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
-workflow-type: tm+mt
-source-wordcount: '4695'
+workflow-type: ht
+source-wordcount: '4728'
 ht-degree: 100%
 
 ---
@@ -131,7 +131,7 @@ Os novos recursos, melhorias e correções incluídos na versão mais recente do
 * Correção de um erro que ocorria aleatoriamente ao tentar salvar um fluxo de trabalho após editá-lo. (CAMP-48695)
 * Correção de um problema que impedia a publicação de recursos personalizados devido à permanência de um esquema de dados do acionador mesmo após a exclusão do acionador. (CAMP-48523)
 * Correção de um problema que impedia que as solicitações do loop de comentários fossem atendidas, pois o processo do InMail não podia recuperar os logs da entrega para atualização. (CAMP-48705)
-* Correção de um problema que impedia a definição correta das opções de exclusão na atividade de fluxo de trabalho **Exclusão**.(CAMP-48355)
+* Corrigimos um problema que impedia a definição correta das opções de exclusão na atividade de fluxo de trabalho **Exclusão**. (CAMP-48355)
 * Correção de um problema que ocorria quando atividades de enriquecimento em fluxos de trabalho envolviam assinaturas ou cancelamentos de assinaturas de um serviço. Esse problema causou uma falha.
 * Correção de um problema que impedia a execução de fluxos de trabalho.
 * Correção de um problema que impedia os usuários de renomear ou excluir grupos de segurança predefinidos da interface do usuário.

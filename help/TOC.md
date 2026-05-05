@@ -5,9 +5,9 @@ user-guide-description: Documentação do produto do Adobe Campaign Standard.
 title: Manual do Campaign Standard
 breadcrumb-title: Documentação do Campaign Standard
 source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
-workflow-type: tm+mt
-source-wordcount: '1754'
-ht-degree: 89%
+workflow-type: ht
+source-wordcount: '1796'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 89%
       + {hide-from-toc}[2017](rn/using/release-notes-2017.md)
    + [Planejamento de versão](rn/using/release-planning.md)
    + [Recursos obsoletos](rn/using/deprecated-features.md)
-   + {hide-from-toc}[Problema de assinatura de URLs rastreadas](rn/using/tracked-urls.md)
+   + {hide-from-toc}[Problema de assinatura de URLs rastreados](rn/using/tracked-urls.md)
    + {hide-from-toc}[Atualizações mais recentes da documentação](rn/using/documentation-updates.md)
 + Introdução {#getting-started}
    + [Sobre o Adobe Campaign Standard](start/using/about-campaign-standard.md)
@@ -38,7 +38,7 @@ ht-degree: 89%
       + [Descrição da interface](start/using/interface-description.md)
       + [Personalização de listas](start/using/customizing-lists.md)
       + [Acessibilidade](start/using/accessibility.md)
-   + Trabalhar com atividades de marketing {#marketing-plans}
+   + Trabalhando com atividades de marketing {#marketing-plans}
       + [Programas e campanhas](start/using/programs-and-campaigns.md)
       + [Atividades de marketing](start/using/marketing-activities.md)
       + [Modelos de atividades de marketing](start/using/marketing-activity-templates.md)
@@ -59,7 +59,7 @@ ht-degree: 89%
       + [Perfis ativos](audiences/using/active-profiles.md)
       + [Gerenciamento de perfis de teste](audiences/using/managing-test-profiles.md)
       + [Enriquecimento do banco de dados do Campaign](audiences/using/enriching-campaign-database.md)
-   + Gerenciamento de públicos {#managing-audiences}
+   + Gerenciamento de públicos-alvo {#managing-audiences}
       + [Sobre públicos-alvos](audiences/using/about-audiences.md)
       + [Criação de públicos-alvos](audiences/using/creating-audiences.md)
       + [Seleção de um público-alvo em uma mensagem](audiences/using/selecting-an-audience-in-a-message.md)
@@ -69,7 +69,7 @@ ht-degree: 89%
       + [Promoção de um serviço](audiences/using/promoting-a-service.md)
       + [Monitoramento de subscrições](audiences/using/monitoring-subscriptions.md)
       + [Confirmação de subscrição de um serviço](audiences/using/confirming-subscription-to-a-service.md)
-   + Noções básicas sobre os processos de aceitação e recusa {#understanding-opt-in-and-opt-out-processes}
+   + Noções básicas dos processos de aceitação e recusa {#understanding-opt-in-and-opt-out-processes}
       + [Sobre aceitação e recusa no Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Gerenciamento de aceitação e recusa no Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [Identificação de perfis de recusa para uma entrega](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
@@ -127,7 +127,7 @@ ht-degree: 89%
       + Configuração de evento {#event-configuration}
          + [Configuração de um evento transacional](channels/using/configuring-transactional-event.md)
          + [Publicação de um evento transacional](channels/using/publishing-transactional-event.md)
-      + Edição de mensagem transacional {#transactional-message-edition}
+      + Edição de mensagens transacionais {#transactional-message-edition}
          + [Edição de uma mensagem transacional](channels/using/editing-transactional-message.md)
          + [Teste de mensagem transacional](channels/using/testing-transactional-message.md)
          + [Ciclo de vida da mensagem transacional](channels/using/publishing-transactional-message.md)
@@ -190,7 +190,7 @@ ht-degree: 89%
       + [Controle de conteúdo de email](sending/using/control-email-content.md)
       + [Monitoramento da capacidade de entrega](sending/using/monitor-deliverability.md)
       + [Solução de problemas](sending/using/troubleshooting.md)
-   + Trabalhar com regras de tipologia {#working-with-typology-rules}
+   + Trabalhando com regras de tipologia {#working-with-typology-rules}
       + [Sobre tipologias e regras de tipologia](sending/using/about-typology-rules.md)
       + [Gerenciamento de tipologias](sending/using/managing-typologies.md)
       + [Gerenciamento de regras de tipologia](sending/using/managing-typology-rules.md)
@@ -244,7 +244,7 @@ ht-degree: 89%
       + [Sobre a integração do Campaign com o Analytics](integrating/using/about-campaign-analytics-integration.md)
       + [Configurar a integração do Campaign com o Analytics](integrating/using/configure-campaign-analytics-integration.md)
       + [Dimensões e métricas do Campaign no Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
-   + Campaign e Audience Manager ou principais serviços do People {#working-with-campaign-and-audience-manager-or-people-core-service}
+   + Campaign e Audience Manager ou serviços principais de pessoas {#working-with-campaign-and-audience-manager-or-people-core-service}
       + [Sobre a integração do Campaign com o Audience Manager ou do Serviço principal de pessoas](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
       + [Provisionamento e configuração da integração com o Audience Manager ou o Serviço principal de pessoas](integrating/using/integration-with-audience-manager-or-people-core-service.md)
       + [Solução de problemas](integrating/using/troubleshooting.md)
@@ -254,7 +254,7 @@ ht-degree: 89%
       + [Sobre a integração de dados do Campaign com os Pontos de interesse](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [Configuração da integração de dados do Campaign com os Pontos de interesse](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [Personalização de mensagens do Campaign com dados de Ponto de interesse](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
-   + Campanha e acionadores {#working-with-campaign-and-triggers}
+   + Campaign e acionadores {#working-with-campaign-and-triggers}
       + [Sobre o Adobe Experience Cloud Triggers](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [Configuração do Triggers na Experience Cloud](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [Utilização do Triggers no Campaign](integrating/using/using-triggers-in-campaign.md)
@@ -291,7 +291,7 @@ ht-degree: 89%
       + [Gerenciamento de opções de execução](automating/using/managing-execution-options.md)
       + [Gerenciamento de propriedades de atividades](automating/using/activity-properties.md)
       + [Execução sobreposta de fluxos de trabalho agendados](automating/using/scheduled-workflows-execution.md)
-   + Chamada de fluxo de trabalho com parâmetros externos {#calling-workflow-external-parameters}
+   + Chamar um fluxo de trabalho com parâmetros externos {#calling-workflow-external-parameters}
       + [Visão geral](automating/using/calling-a-workflow-with-external-parameters.md)
       + [Declaração dos parâmetros na atividade de sinal externo](automating/using/declaring-parameters-external-signal.md)
       + [Definição dos parâmetros ao chamar o fluxo de trabalho](automating/using/defining-parameters-calling-workflow.md)
@@ -389,7 +389,7 @@ ht-degree: 89%
       + [Status dos recursos](developing/using/resource-statuses.md)
       + [Monitoramento de alterações no modelo de dados](developing/using/monitoring-data-model-changes.md)
       + [Práticas recomendadas do modelo de dados](developing/using/data-model-best-practices.md)
-   + Adição ou extensão de um recurso {#adding-or-extending-a-resource}
+   + Adicionar ou estender um recurso {#adding-or-extending-a-resource}
       + [Etapas principais para adicionar um recurso](developing/using/key-steps-to-add-a-resource.md)
       + [Criação ou extensão do recurso](developing/using/creating-or-extending-the-resource.md)
       + [Configuração da estrutura de dados do recurso](developing/using/configuring-the-resource-s-data-structure.md)
@@ -398,12 +398,12 @@ ht-degree: 89%
       + [Atualização da estrutura do banco de dados](developing/using/updating-the-database-structure.md)
       + [Exclusão de um recurso](developing/using/deleting-a-resource.md)
       + [Chamada de um recurso usando uma chave de identificação composta](developing/using/uc-calling-resource-id-key.md)
-   + Caso de uso: extensão da API {#use-case-extending-the-api}
+   + Caso de uso: estender a API {#use-case-extending-the-api}
       + [Sobre a extensão da API](developing/using/about-extending-the-api.md)
       + [Etapa 1: adicionar campos de extensão ao recurso de perfil](developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
       + [Etapa 2: publicar a extensão](developing/using/step-2-publish-the-extension.md)
       + [Etapa 3: verificar a extensão](developing/using/step-3-verify-the-extension.md)
-   + Casos de uso: extensão dos recursos {#use-cases-extending-resources}
+   + Casos de uso: estender recursos {#use-cases-extending-resources}
       + [Extensão do recurso de perfil com um novo campo](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [Extensão das subscrições para um recurso de aplicativo](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + Modelo de dados {#datamodel}
@@ -437,7 +437,7 @@ ht-degree: 89%
    + Configuração de canais {#configuring-channels}
       + [Sobre a configuração de canal](administration/using/about-channel-configuration.md)
       + [Configuração do canal de email](administration/using/configuring-email-channel.md)
-      + {hide-from-toc}[Atualizar qualificação de rejeição após uma interrupção do ISP](administration/using/update-bounce-qualification.md)
+      + {hide-from-toc}[Atualizar a qualificação de rejeição após uma interrupção do ISP](administration/using/update-bounce-qualification.md)
       + [Configurar um aplicativo para dispositivos móveis](administration/using/configuring-a-mobile-application.md)
    + Configuração de canais móveis {#configuring-mobile}
       + [Implementação do rastreamento de push](administration/using/push-tracking.md)
@@ -463,9 +463,9 @@ ht-degree: 89%
       + [Envio de notificações internas](administration/using/sending-internal-notifications.md)
       + [Retenção de dados](administration/using/data-retention.md)
       + [Atualizações e operações de manutenção](administration/using/updates-and-maintenance-operations.md)
-+ Trabalho com APIs {#working-with-apis}
++ Trabalhando com APIs {#working-with-apis}
    + [Introdução às APIs do Campaign Standard](api/using/get-started-apis.md)
-   + Sobre APIs do Campaign Standard {#about-campaign-standard-apis}
+   + Sobre as APIs do Campaign Standard {#about-campaign-standard-apis}
       + [Por que usar APIs do Campaign Standard](api/using/why-using-campaign-standard-apis.md)
       + [Configuração do acesso à API](api/using/setting-up-api-access.md)
    + Conceitos globais {#global-concepts}
@@ -499,7 +499,7 @@ ht-degree: 89%
    + Gerenciamento de fluxos de trabalho {#managing-workflows}
       + [Controle de um fluxo de trabalho](api/using/controlling-a-workflow.md)
       + [Acionamento de uma atividade de sinal](api/using/triggering-a-signal-activity.md)
-   + Gerenciamento de unidades organizacionais {#managing-organizational-units}
+   + Gerenciamento de entidades organizacionais {#managing-organizational-units}
       + [Recuperação da entidade organizacional de um perfil](api/using/retrieving-an-organizational-unit.md)
       + [Atualização da entidade organizacional de um perfil](api/using/updating-profile-organizational-unit.md)
       + [Atualização dos atributos de uma unidade organizacional](api/using/updating-organizational-unit-attributes.md)
@@ -508,5 +508,5 @@ ht-degree: 89%
       + [Atualização da unidade geográfica de um perfil](api/using/updating-a-geographical-unit.md)
       + [Atualização dos atributos de uma unidade geográfica](api/using/updating-geographical-unit-attributes.md)
    + [Solução de problemas](api/using/troubleshooting.md)
-+ [Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR)
++ [Painel de controle do Campaign](https://experienceleague.adobe.com/pt-br/docs/control-panel/using/control-panel-home)
 

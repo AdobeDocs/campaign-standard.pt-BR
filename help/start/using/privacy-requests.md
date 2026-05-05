@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '1526'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '1619'
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Você também pode consultar este [tutorial](https://experienceleague.adobe.com/
 
    ![](assets/privacy-namespace-label.png)
 
-1. Se quiser usar um namespace de serviço de identidade existente, escolha **[!UICONTROL Map from Identity Namespace Service]** e selecione um namespace na lista **[!UICONTROL Identity Service Namespaces]**.
+1. Se quiser usar um namespace de serviço de identidade já existente, escolha **[!UICONTROL Map from Identity Namespace Service]** e selecione um namespace na lista **[!UICONTROL Identity Service Namespaces]**.
 
    ![](assets/privacy-map-from-namespace.png)
 
@@ -175,7 +175,7 @@ To change this mode, click **[!UICONTROL Edit properties]**, in the top right co
 
 Os **Direitos de privacidade do consumidor da Califórnia** (CCPA) fornecem aos residentes da Califórnia novos direitos no que diz respeito a suas informações pessoais e impõe responsabilidades de proteção de dados a determinadas entidades com negócios na Califórnia.
 
-A configuração e utilização dos pedidos de acesso e exclusão são comuns. a GDPR e CCPA. Esta seção apresenta a opção pela recusa à venda de dados pessoais, específica da CCPA.
+A configuração e utilização dos pedidos de acesso e exclusão são comuns. a GDPR e CCPA. Esta seção apresenta a opção de recusa da venda de dados pessoais, sendo específica ao CCPA.
 
 Além das ferramentas de [Gerenciamento de consentimento](../../start/using/privacy-management.md#consent-management) oferecidas pelo Adobe Campaign, existe a possibilidade de monitorar se o cliente optou pela não participação na venda de Informações pessoais.
 
@@ -187,7 +187,7 @@ Quando os usuários decidem, por meio de seu sistema, que não permitem que suas
 
 >[!IMPORTANT]
 >
->É sua responsabilidade como Controlador de dados receber a solicitação do Titular dos dados e rastrear as datas da solicitação para CCPA. Como provedor de tecnologia, oferecemos somente uma maneira de recusar a participação. Para obter mais informações sobre sua função como Controlador de dados, consulte [Dados pessoais e Personalidades](../../start/using/privacy.md#personal-data).
+>É sua responsabilidade como Controlador de dados receber a solicitação do Titular de dados e rastrear os dados da solicitação para CCPA. Como provedor de tecnologia, oferecemos somente uma maneira de recusar a participação. Para obter mais informações sobre sua função como Controlador de dados, consulte [Dados pessoais e Personalidades](../../start/using/privacy.md#personal-data).
 
 ### Pré-requisito para tabelas personalizadas {#ccpa-prerequisite}
 
@@ -229,7 +229,7 @@ Para preencher os valores, vários métodos podem ser utilizados:
 * Usar a API de privacidade do Campaign (consulte a [documentação da API](../../api/using/managing-ccpa-opt-out.md))
 * Através de um fluxo de trabalho de importação
 
-Você deve garantir que não venderá a terceiros as informações pessoais de perfis que recusaram a adesão.
+Você deve garantir que nunca venderá a terceiros as informações pessoais de perfis que recusaram a adesão.
 
 1. Na interface do Campaign, edite um perfil para alterar o status de recusa.
 
@@ -243,6 +243,6 @@ Você deve garantir que não venderá a terceiros as informações pessoais de p
 
    ![](assets/privacy-ccpa-profile-configure-list.png)
 
-1. Você pode clicar na coluna para classificar os destinatários de acordo com as informações de recusa.
+1. Você pode clicar na coluna para classificar destinatários de acordo com as informações de recusa.
 
    ![](assets/privacy-ccpa-profile-sorting.png)

@@ -6,8 +6,8 @@ role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
 source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
-workflow-type: tm+mt
-source-wordcount: '1248'
+workflow-type: ht
+source-wordcount: '1254'
 ht-degree: 100%
 
 ---
@@ -55,12 +55,12 @@ Esta versão vem com a seguinte atualização de segurança: O Apache Tomcat foi
 
 * Correção de um problema no fluxo de trabalho técnico de faturamento devido a um erro de chave duplicada. (CAMP-51029)
 * Adição da categoria ausente do navegador Microsoft Edge em Relatórios de rastreamento. Eles eram categorizados anteriormente como aberturas do Microsoft e Chrome. (CAMP-51165)
-* Correção de um problema com solicitações do GDPR que não excluíam dados de tabelas derivadas. (CAMP-48276)
-* Correção de um problema no Designer de email que fazia com que a condição de visibilidade de um fragmento não fosse salva em um template de mensagem transacional. (CAMP-50338)
+* Correção de um problema com solicitações do RGPD que não excluíam dados de tabelas filhas. (CAMP-48276)
+* Correção de um problema no Designer de email que fazia com que a condição de visibilidade de um fragmento não fosse salva em um modelo de mensagem transacional. (CAMP-50338)
 * Correção de um problema nos Relatórios de campanha que fazia com que o intervalo de datas não fosse considerado. (CAMP-50991)
 * Correção de um erro que causava a falha de emails agendados: a análise de entrega não podia ser iniciada, pois a entrega ainda estava no status “Nova tentativa pendente”. (CAMP-50302)
 * Correção de um problema no Designer de email ao visualizar um email com uma substituição de perfil. (CAMP-49312)
-* Correção de um problema com listas discriminadas personalizadas de valor vazio: ao criar um recurso personalizado com um campo que é uma lista discriminada de texto e contém apenas um valor, esse valor agora é definido por padrão, para que você possa criar uma consulta nesse campo como uma solicitação simples. (CAMP-50606)
+* Correção de um problema com listas discriminadas personalizadas de valor vazio: ao criar um recurso personalizado com um campo que é uma enumeração de texto e contém apenas um valor, esse valor agora é definido por padrão, para que você possa criar uma consulta nesse campo como uma solicitação simples. (CAMP-50606)
 
 
 ## Versão 22.1 - Fevereiro de 2022 {#feb-2022}
@@ -91,7 +91,7 @@ Esta versão vem com a seguinte atualização de segurança: O Apache Tomcat foi
 * Processamento de dados de relatório aprimorado para evitar sobrecarga do sistema. (CAMP-47578)
 * Depois de enviar mensagens no aplicativo, é possível optar por desativar a entrega. Isso permite excluir a entrega sem perder nenhum dado de relatório. (CAMP-48469)
 * Para evitar qualquer problema, os usuários não podem mais usar o mesmo nome da Chave primária automática no banco de dados em uma coluna de tabela personalizada, `"<dataType><resourceName>Id"`. (CAMP-49358)
-* Agora é possível monitorar a entrega e rastrear logs de processo com o novo menu suspenso **Histórico de processos** no painel de mensagens. [Saiba mais](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
+* Agora é possível monitorar a entrega e rastrear logs do trabalho com o novo menu suspenso **Histórico de processos** no painel de mensagens. [Saiba mais](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
 * Aprimoramento da estabilidade e integridade do banco de dados, ao reduzir tuplas inativas quando um grande número de mensagens são enviadas por todos os canais ao longo do tempo. (CAMP-49755, CAMP-49792, CAMP-49849)
 * Para garantir que as conexões do banco de dados sejam atualizadas automaticamente em caso de falha ou reinicialização do banco de dados, foram implementadas melhorias no Mail Transfer Agent (MTA) do Campaign. (CAMP-48063)
 * Uma nova opção de rastreamento para **Usar o pixel de rastreamento na parte superior do email** foi adicionada às propriedades de email, permitindo mover o pixel de rastreamento na parte superior do email, em vez de na parte inferior. (CAMP-49672)
@@ -99,7 +99,7 @@ Esta versão vem com a seguinte atualização de segurança: O Apache Tomcat foi
 **Correções**
 
 * Correção de um problema com a opção **Enviar relatório agora** em Relatórios dinâmicos: os processos de geração de PDF falhavam em entregas que incluíam múltiplas variantes. (CAMP-49120)
-* Correção de um problema que impedia os usuários de atualizar ou desvincular o conteúdo do Adobe Experience Manager (AEM) das entregas do Adobe Campaign Standard quando um conteúdo duplicado no AEM compartilhava a mesma chave (cq:uuid). (CAMP-49161)
+* Correção de um problema que impedia os usuários de atualizar ou desvincular o conteúdo do Adobe Experience Manager (AEM) de suas entregas do Adobe Campaign Standard quando um conteúdo duplicado no AEM compartilhava a mesma chave (cq:uuid). (CAMP-49161)
 * Correção de um erro ao acessar uma instância em que as páginas não estavam carregando, as entregas não podiam ser abertas ou as modificações pendentes não podiam ser salvas. (CAMP-50195)
 * Correção de um problema que impedia a abertura dos critérios de alerta de Entrega se o campo **Filtro de delivery** aplicado por este critério não fosse preenchido. (CAMP-49093)
 * Correção de um problema ao editar o botão **Secundário**, nas entregas no aplicativo, que impedia que as alterações fossem consideradas. (CAMP-50250)
@@ -109,10 +109,10 @@ Esta versão vem com a seguinte atualização de segurança: O Apache Tomcat foi
 * Correção de um problema que poderia resultar em erros ao abrir um relatório. (CAMP-49222)
 * Correção de um problema que poderia resultar na falha da preparação do email após a exclusão de um link para conteúdo AEM. (CAMP-49877)
 * Correção de um erro que exibia uma mensagem de erro ao tentar usar um fragmento em uma entrega com uma vírgula em seu nome. [Saiba mais](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time) (CAMP-48888)
-* Correção de um problema que ocorria ao criar um novo filtro em um recurso personalizado e depois usá-lo como uma chave de reconciliação em uma landing page. Se o recurso personalizado fosse publicado novamente, o filtro era removido da lista de chaves de reconciliação disponíveis para a landing page. (CAMP-49516)
-* Correção de um problema nas landing pages ao usar condições dinâmicas com caixas de seleção. (CAMP-48604)
+* Correção de um problema que ocorria ao criar um novo filtro em um recurso personalizado e depois usá-lo como uma chave de reconciliação em uma página de destino. Se o recurso personalizado fosse publicado novamente, o filtro era removido da lista de chaves de reconciliação disponíveis para a página de destino. (CAMP-49516)
+* Correção de um problema nas páginas de destino ao usar condições dinâmicas com caixas de seleção. (CAMP-48604)
 * Correção de um problema que ocorria em uma atividade de **Consulta** ao usar a condição de filtro “Em ou antes de outubro”. Ao trabalhar de uma instância definida para um fuso horário europeu, o mês selecionado para o filtro mostrava setembro em vez de outubro, devido a um problema na conversão do fuso horário. (CAMP-48602)
 * Para otimizar a entregabilidade, o Adobe Campaign agora envia emails usando codificação de 7 bits em vez de 8 bits. Isso impede que retransmissões intermediárias invalidem a assinatura DKIM, o que pode afetar a autenticidade das mensagens. (CAMP-49016)
-* Os desempenhos ao duplicar públicos foram aprimorados para evitar problemas ao trabalhar com públicos grandes. (CAMP-49639)
+* Os desempenhos ao duplicar públicos-alvos foram aprimorados para evitar problemas ao trabalhar com públicos-alvos grandes. (CAMP-49639)
 * Correção de um problema que impedia que um filtro personalizado exibisse os resultados corretos quando usado em uma atividade de **Consulta**. (CAMP-49417)
 * Correção de um erro que exibia uma mensagem de erro ao tentar usar um fragmento em uma entrega com uma vírgula em seu nome. O problema foi resolvido e agora as vírgulas podem ser usadas nos nomes dos fragmentos. (CAMP-49216)

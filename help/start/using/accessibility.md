@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
-source-wordcount: '648'
+workflow-type: ht
+source-wordcount: '661'
 ht-degree: 100%
 
 ---
@@ -33,9 +33,9 @@ A interface do usuário do Adobe Campaign Standard se esforça para fornecer con
 
   ![](assets/accessibility_2.png)
 
-* O conteúdo de ajuda e o texto do corpo do aplicativo foram atualizados para atender a uma taxa de contraste de 4.5:1.
+* O conteúdo de ajuda e o corpo de texto do aplicativo foram atualizados para atender a uma taxa de contraste de 4,5:1.
 
-* Os ícones de pausa e cancelamento de workflows foram atualizados para melhorar o contraste entre o plano de fundo e as cores do primeiro plano.
+* Os ícones de pausa e cancelamento de fluxos de trabalho foram atualizados para melhorar o contraste entre o plano de fundo e as cores do primeiro plano.
 
   ![](assets/accessibility_1.png)
 
@@ -49,7 +49,7 @@ A interface do usuário do Adobe Campaign Standard facilita a interação de tod
 
   ![](assets/accessibility_3.png)
 
-* O conteúdo que aparece ao passar o mouse ou focar pode ser rejeitado pelo usuário e não obscurece outro conteúdo.
+* O conteúdo que aparece ao passar o mouse ou focar pode ser dispensado pelo usuário e não obscurece outros conteúdos.
 
   ![](assets/accessibility_4.png)
 
