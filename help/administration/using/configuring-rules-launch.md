@@ -10,9 +10,14 @@ role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
 TQID: https://experienceleague.adobe.com/WNces333l4PxdT4I8xKFrKi-wpWJlUDVFQOftlIq4U8
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 1054
@@ -179,7 +184,7 @@ Para enviar dados de rastreamento ao [!DNL Adobe Campaign Standard] para relató
 
 1. Marque a caixa de seleção **[!UICONTROL Add post body]**.
 
-1. Em **[!UICONTROL Post Body]**, digite ****.
+1. Em **[!UICONTROL Post Body]**, digite **&#x200B;**.
 
 1. Em **[!UICONTROL Content Type]**, digite **application/json**.
 

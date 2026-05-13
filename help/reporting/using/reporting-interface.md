@@ -9,10 +9,15 @@ role: Leader
 level: Beginner
 exl-id: 37e9acff-9576-472f-9fdf-2c0f6da773d1
 TQID: https://experienceleague.adobe.com/QMERUwGatI5VLYzyUgA4dZxLkozubYyYBgueoJ6gZzI
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 725

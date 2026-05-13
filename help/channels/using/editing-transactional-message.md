@@ -10,10 +10,16 @@ role: User
 level: Intermediate
 exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
 TQID: https://experienceleague.adobe.com/jad-jiasYpiF89F-rL0d0v30ZpdE4uiPJYICbtkBDWY
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 663
@@ -72,7 +78,7 @@ Por exemplo, você deseja enviar uma notificação para os usuários do site que
    >
    >O link para o carrinho abandonado é um link para um URL externo que redirecionará a pessoa para o carrinho. Esse parâmetro não é gerenciado no Adobe Campaign.
 
-1. Neste exemplo, você deseja adicionar três campos definidos ao [criar o evento](../../channels/using/configuring-transactional-event.md): nome, último produto consultado, quantidade total do carrinho. Para fazer isso, [insira um campo de personalização ](../../designing/using/personalization.md#inserting-a-personalization-field) no conteúdo da mensagem.
+1. Neste exemplo, você deseja adicionar três campos definidos ao [criar o evento](../../channels/using/configuring-transactional-event.md): nome, último produto consultado, quantidade total do carrinho. Para fazer isso, [insira um campo de personalização &#x200B;](../../designing/using/personalization.md#inserting-a-personalization-field) no conteúdo da mensagem.
 
 1. Navegue até esses campos passando por **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 

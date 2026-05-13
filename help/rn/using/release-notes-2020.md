@@ -9,12 +9,36 @@ role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 TQID: https://experienceleague.adobe.com/qG7ToJy0sHbYmOX6kOYcRXzxyvCJER3G3TODUx1b3Ag
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663addaid: b12f6872-9271-4369-85e5-86969a0b99a2id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2: id: a2002dba-5e37-4dff-8e04-1cc3ec73558cid: af6750fd-3c1b-4ad2-9fe3-99e81510998did: d1110311-2ca4-442b-be37-088a6db845eeid: eb007b6d-6e57-46ab-9485-3f24d6102304id: f5293531-9312-4099-bfa3-9e67df6a8750id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: a658c786-869b-4194-a780-2594d663adda
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: a2002dba-5e37-4dff-8e04-1cc3ec73558c
+  - id: af6750fd-3c1b-4ad2-9fe3-99e81510998d
+  - id: d1110311-2ca4-442b-be37-088a6db845ee
+  - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+  - id: f5293531-9312-4099-bfa3-9e67df6a8750
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 5439
@@ -119,7 +143,7 @@ ht-degree: 95%
 * Ao publicar um recurso personalizado, uma mensagem pop-up de confirmação é exibida após a preparação.
 * A mensagem pop-up que aparece quando um recurso personalizado apresenta falha foi melhorada para oferecer mais clareza.
 * O editor de expressão em fluxos de trabalho foi aprimorado para evitar erros de execução. [Novas funções](../../automating/using/customizing-workflow-external-parameters.md) estão disponíveis: elas podem ser usadas em todas as atividades que permitem usar variáveis de evento depois de chamar um fluxo de trabalho com parâmetros externos. Além disso, uma dica de ferramenta agora é exibida no editor de expressão com a descrição da função.
-* [Foram adicionados novos filtros à lista de eventos transacionais. ](../../channels/using/configuring-transactional-event.md#searching-transactional-events) Eles permitem que você filtre as configurações do evento de acordo com seu status, bem como a última vez que um evento foi recebido.
+* [Foram adicionados novos filtros à lista de eventos transacionais. &#x200B;](../../channels/using/configuring-transactional-event.md#searching-transactional-events) Eles permitem que você filtre as configurações do evento de acordo com seu status, bem como a última vez que um evento foi recebido.
 * Os logs exibidos ao exportar pacotes se tornaram mais específicos e detalhados quanto aos erros encontrados em caso de falha.
 * Agora é possível pesquisar, filtrar e exportar a lista de [URLs rastreados](../../sending/using/tracking-messages.md) após o envio de uma mensagem.
 * A [sincronização automática entre o Launch e o Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) agora está habilitada por padrão na disponibilidade geral.

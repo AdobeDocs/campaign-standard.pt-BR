@@ -10,10 +10,15 @@ role: Developer
 level: Experienced
 exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
 TQID: https://experienceleague.adobe.com/Ol-6IkRGAr7OGkXQgHhMSYhPfjmg-DY7s2dr6wxFenU
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 1666

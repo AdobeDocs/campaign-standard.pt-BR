@@ -4,10 +4,22 @@ title: Documentação do produto Adobe Campaign Standard
 description: Pesquisar a documentação do produto Campaign Standard
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 TQID: https://experienceleague.adobe.com/uNWyk8itcInOZ2iLyLAOYdGVKzr4ExnBuRRqNe24U-Y
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5id: b12f6872-9271-4369-85e5-86969a0b99a2id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2: id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: d3b34fea-a110-482f-adb2-aae8d686bac8id: ede6e1ec-9279-415e-b828-a09735018d48
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
+  - id: ede6e1ec-9279-415e-b828-a09735018d48
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 318

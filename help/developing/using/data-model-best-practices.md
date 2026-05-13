@@ -10,11 +10,23 @@ role: Developer
 level: Experienced
 exl-id: 58d4e02f-3c9a-4e5d-a6aa-fdbcec0d8dda
 TQID: https://experienceleague.adobe.com/UIBmxy8Dy3HqJDFYO6o87j1OppPU2zwjMv4yzRe3rLo
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a658c786-869b-4194-a780-2594d663addaid: b12f6872-9271-4369-85e5-86969a0b99a2
-subfeature_v2: id: a1681cd8-6b2e-4955-9113-33b5f7a22b8cid: bec93d13-829e-414d-9c2b-71b3974944a0
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2:
+  - id: a1681cd8-6b2e-4955-9113-33b5f7a22b8c
+  - id: bec93d13-829e-414d-9c2b-71b3974944a0
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 1577
