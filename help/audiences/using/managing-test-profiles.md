@@ -91,6 +91,6 @@ Para editar um perfil de teste e consultar os dados vinculados a ele ou para mod
 
 Este vídeo mostra como criar um perfil de teste.
 
->[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/31854?captions=por_br&quality=12)
 
 Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
