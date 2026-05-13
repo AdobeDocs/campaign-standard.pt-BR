@@ -7,10 +7,16 @@ topic-tags: about-sending-messages-with-campaign
 role: User
 level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/0dYFLX0zAqDIz27Y-ekkp9a9rHE9zdjOjioh5gBwaAA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 12%
+source-wordcount: 595
+ht-degree: 15%
 
 ---
 
@@ -35,7 +41,7 @@ Por fim, aproveite as diretrizes e ferramentas de capacidade de delivery dispon�
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
 
-Campaign Standard **preparação da mensagem** analisa o destino, a personalização e a validade da mensagem. Os erros detectados durante essa etapa devem ser corrigidos para que você possa continuar.
+A **preparação da mensagem** do Campaign Standard analisa o destino, a personalização e a validade da mensagem. Os erros detectados durante essa etapa devem ser corrigidos para que você possa continuar.
 
 **Visualize e teste** suas mensagens usando vários recursos: envie provas para perfis de teste ou perfis segmentados, teste a linha de assunto de seus emails e verifique a renderização de suas mensagens para garantir que elas sejam exibidas de maneira ideal em uma variedade de clientes Web, emails da Web e dispositivos.
 
@@ -83,7 +89,7 @@ Leia mais:
 
 * [Sobre a capacidade de entrega](../../sending/using/about-deliverability.md)
 * [Monitoramento da capacidade de entrega](../../sending/using/monitor-deliverability.md)
-* [Guia de Práticas Recomendadas de Entrega do Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=pt-BR)
+* [Guia de práticas recomendadas de capacidade de delivery do Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=pt-BR)
 * [Controle da taxa de transferência de delivery](../../reporting/using/delivery-throughput.md)
 
 ## Recursos adicionais
@@ -97,6 +103,6 @@ Leia mais:
 
 Este vídeo mostra como enviar um email de teste, preparar e enviar um delivery de email no Campaign Standard.
 
->[!VIDEO](https://video.tv.adobe.com/v/31855?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/24013/)
 
 Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

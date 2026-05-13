@@ -8,10 +8,13 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 4ddfdbcc-a154-4c10-a97e-73ad888d1f1f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/cDShxyrLISaGidkLNnhtMwZHbo8SlRie6DTV0yVR6IY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 14%
+source-wordcount: 251
+ht-degree: 15%
 
 ---
 
@@ -45,7 +48,7 @@ Para recriar e excluir um recurso publicado:
    >
    >Se você recriar uma extensão do recurso **Perfis (perfil)** predefinido, também deverá recriar qualquer extensão de **Perfil de teste (seedMember)** que tenha definido. Para obter mais informações sobre a extensão do recurso de perfil, consulte [esta seção](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
 
-1. Publish do recurso. Para obter etapas mais detalhadas, consulte [Publicação de um recurso personalizado](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. Publique o recurso. Para obter etapas mais detalhadas, consulte [Publicação de um recurso personalizado](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
    O recurso entra no modo **Rascunho** e seu status de ativação é **[!UICONTROL Inactive]**.
 

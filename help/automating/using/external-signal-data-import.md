@@ -10,9 +10,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: e2997cf5-861b-4202-aeb7-3a47c4d55bef
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/fQTQgLluJa5WPu4ju1gGs84gWfqQ-sWIWuJSTXgQYHA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: 229
 ht-degree: 79%
 
 ---
@@ -46,7 +50,7 @@ O fluxo de trabalho de origem é apresentado da seguinte maneira:
 O fluxo de trabalho de destino é apresentado da seguinte forma:
 
 * Uma atividade [External signal](../../automating/using/external-signal.md) aguarda a conclusão com êxito do fluxo de trabalho de origem.
-* Uma atividade de [Query](../../automating/using/query.md#enriching-data) é direcionada a perfis e os enriquece com uma coleção definida para recuperar a data da última compra.
+* Uma atividade de [Consulta](../../automating/using/query.md#enriching-data) é direcionada a perfis e os enriquece com uma coleção definida para recuperar a data da última compra.
 * Uma atividade [Atualizar dados](../../automating/using/update-data.md) armazena os dados adicionais em um campo personalizado dedicado. Observe que o recurso de perfil foi estendido para adicionar o campo **Data da última compra**.
 
 ![](assets/signal_example_source2.png)

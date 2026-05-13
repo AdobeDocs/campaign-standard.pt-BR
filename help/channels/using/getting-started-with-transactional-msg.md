@@ -9,10 +9,17 @@ feature: Transactional Messaging
 role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
-source-git-commit: 0e486e87c94e273442de23d6eb65c99f065e5a71
+TQID: https://experienceleague.adobe.com/vveKWyxi6u44BmNqzEVeMwPvtvP8uWhAI-4UMD2CnVU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5id: b12f6872-9271-4369-85e5-86969a0b99a2id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: b5852c32-876b-41ae-92a7-9f588865ae52id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: d3b34fea-a110-482f-adb2-aae8d686bac8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 30%
+source-wordcount: 996
+ht-degree: 27%
 
 ---
 
@@ -24,7 +31,7 @@ Uma mensagem transacional é uma comunicação individual e única enviada em te
 
 * **Por que é importante?** Geralmente, uma mensagem transacional tem altas taxas de abertura. Potanto, ela deve ser criada cuidadosamente, uma vez que pode ter um forte impacto no comportamento dos clientes porque define a relação com o cliente.
 
-* **Por exemplo?** Pode ser uma mensagem de boas-vindas após criar uma conta, uma confirmação de que um pedido foi enviado, uma fatura, uma mensagem confirmando uma alteração de senha ou uma notificação depois que um cliente navegou em seu site, etc.
+* **Por exemplo?** Pode ser uma mensagem de boas-vindas após criar uma conta, uma confirmação de que um pedido foi enviado, uma fatura, uma mensagem confirmando uma alteração de senha ou uma notificação depois que um cliente navegou em seu site etc.
 
 O Adobe Campaign permite integrar essa funcionalidade a um sistema de informações que envia eventos a serem transformados em mensagens transacionais personalizadas.
 
@@ -89,7 +96,7 @@ Cada uma dessas etapas é detalhada mais abaixo.
 
 <!--<img src="assets/do-not-localize/icon_config.svg" width="60px">-->
 
-| Criar um evento | Usuário(a)  | Ação | Resultado |
+| Criar um evento | Usuário(a) | Ação | Resultado |
 | --- |--- |--- |--- |
 | <img src="assets/do-not-localize/icon_config.svg" width="60px"> | Esta etapa deve ser executada por um administrador que tenha [direitos administrativos](../../administration/using/users-management.md#functional-administrators). | Configure um evento que será chamado de &quot;Abandono do carrinho&quot; e publique essa configuração de evento. | A API que será usada pelo desenvolvedor do site é implantada e uma mensagem transacional é criada automaticamente. |
 
@@ -99,7 +106,7 @@ A criação e a publicação de um evento são apresentadas nas seções [Config
 
 <!--<img src="assets/do-not-localize/icon_notification.svg" width="40px">-->
 
-| Editar a mensagem | Usuário(a)  | Ação | Resultado |
+| Editar a mensagem | Usuário(a) | Ação | Resultado |
 | --- |--- |--- |--- |
 | <img src="assets/do-not-localize/icon_notification.svg" width="40px"> | Esta etapa pode ser executada por um usuário de marketing que tem [direitos administrativos](../../administration/using/users-management.md#functional-administrators). | Edite e personalize a mensagem transacional, teste-a e publique-a. | A mensagem transacional estará pronta para ser enviada. |
 
@@ -109,9 +116,9 @@ Para obter mais informações sobre como editar e publicar uma mensagem transaci
 
 <!--<img src="assets/do-not-localize/icon_api.svg" width="55px">-->
 
-Depois de criar um evento, é necessário integrar o acionamento desse evento ao seu site.<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> Para fazer isso, o desenvolvedor da Web do seu site deve usar a **API REST do Adobe Campaign Standard**.
+Depois de criar um evento, você precisa integrar o acionamento desse evento ao seu site.<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> Para fazer isso, o desenvolvedor da Web do seu site deve usar a **API REST do Adobe Campaign Standard**.
 
-| Implementar o acionador | Usuário(a)  | Ação | Resultado |
+| Implementar o acionador | Usuário(a) | Ação | Resultado |
 | --- |--- |--- |--- |
 | <img src="assets/do-not-localize/icon_api.svg" width="55px"> | Essa etapa é executada pelo desenvolvedor do site. | Use a API de mensagens transacionais REST para integrar o evento ao seu site. | O evento será acionado quando um cliente abandonar o carrinho. |
 
@@ -123,7 +130,7 @@ Para obter mais informações sobre como usar a API REST do Campaign para gerenc
 
 Depois que todas as etapas acima forem executadas, a mensagem poderá ser entregue.
 
-| Enviar a mensagem | Usuário(a)  | Ação | Resultado |
+| Enviar a mensagem | Usuário(a) | Ação | Resultado |
 | --- |--- |--- |--- |
 | <img src="assets/do-not-localize/icon_channels.svg" width="60px"> | Esta etapa é executada por clientes que visitam seu site. | Assim que um usuário sai do site sem solicitar os produtos no carrinho, o evento Campaign correspondente é acionado. | O usuário recebe automaticamente um email de notificação. |
 

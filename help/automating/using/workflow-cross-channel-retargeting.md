@@ -10,10 +10,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: cba4e5c6-8acd-47a1-824e-14415e90d451
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/FmSP-ecHeXM-ozitQoL684ZAQC0tbuj3vprW06znCUw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 38%
+source-wordcount: 315
+ht-degree: 43%
 
 ---
 
@@ -45,7 +49,7 @@ Você pode enviar um email para os clientes e, em seguida, um SMS para aqueles q
 1. Insira as propriedades do email e clique em **[!UICONTROL Next]**.
 1. Para criar o layout do email, clique em **[!UICONTROL Using the Email Designer]**.
 1. Insira elementos ou selecione um modelo.
-1. Personalize seu email com ofertas específicas para cada local. Para obter mais informações, consulte [design de email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+1. Personalize seu email com ofertas específicas para cada local.Para obter mais informações, consulte [Design de email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Clique em **[!UICONTROL Preview]** para verificar o layout.
 1. Clique em **[!UICONTROL Save]**.
 

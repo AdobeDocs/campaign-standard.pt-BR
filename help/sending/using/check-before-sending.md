@@ -9,10 +9,16 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/3qM5opRzD4u8HV5PALkfERzsLnWx1AsLuaDs8frG-Ic
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 90%
+source-wordcount: 412
+ht-degree: 80%
 
 ---
 
@@ -46,7 +52,7 @@ Saiba mais [nesta seção](../../sending/using/email-rendering.md).
 
 ## Mensagens de prova {#proof-messages}
 
-O envio de provas permite a verificação do link de opção de não participação, a mirror page e quaisquer outros links, validação da mensagem, verificação da exibição das imagens, detecção de possíveis erros, etc. Você também pode verificar seu design e renderização em diferentes dispositivos.
+O envio de provas permite verificar o link de opt out, a mirror page e quaisquer outros links, validar a mensagem, verificar se as imagens são exibidas, detectar possíveis erros, etc. Você também pode verificar seu design e renderização em diferentes dispositivos.
 
 Saiba mais [nesta seção](../../sending/using/sending-proofs.md).
 

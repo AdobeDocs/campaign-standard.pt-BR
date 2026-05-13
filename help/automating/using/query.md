@@ -1,6 +1,6 @@
 ---
-title: Query
-description: A atividade Query permite filtrar e extrair uma população de elementos do banco de dados do Adobe Campaign.
+title: Consulta
+description: A atividade Consulta permite filtrar e extrair uma população de elementos do banco de dados do Adobe Campaign.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,9 +10,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/rja9hRgWDhDnLMNIYwt28rtxJrPyYnuwOa2XKR23uKA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1765'
+source-wordcount: 1768
 ht-degree: 90%
 
 ---
@@ -44,25 +48,25 @@ A atividade **[!UICONTROL Query]** pode ser usada para várias finalidades:
 
 1. Arraste e solte uma atividade **[!UICONTROL Query]** no seu fluxo de trabalho.
 1. Selecione e abra a atividade usando o botão ![](assets/edit_darkgrey-24px.png) das ações rápidas exibidas. Por padrão, a atividade é pré-configurada para procurar perfis.
-1. Se você quiser executar um query em um recurso diferente do perfil, vá para a guia **[!UICONTROL Properties]** da atividade e selecione um **[!UICONTROL Resource]** e um **[!UICONTROL Targeting dimension]**.
+1. Se você quiser executar uma consulta em um recurso diferente do perfil, vá para a guia **[!UICONTROL Properties]** da atividade e selecione um **[!UICONTROL Resource]** e um **[!UICONTROL Targeting dimension]**.
 
    O **[!UICONTROL Resource]** permite refinar os filtros exibidos na paleta, enquanto o **[!UICONTROL Targeting dimension]**, contextual em relação ao recurso selecionado, corresponde ao tipo de população que você gostaria de obter (perfis identificados, entregas, dados vinculados ao recurso selecionado, etc.).
 
    Para saber mais, consulte [Dimensões de direcionamento e recursos](#targeting-dimensions-and-resources).
 
-1. Na guia **[!UICONTROL Target]**, execute o query definindo e combinando regras.
+1. Na guia **[!UICONTROL Target]**, execute a consulta definindo e combinando regras.
 
    >[!NOTE]
    >
    >Ao direcionar um público-alvo, observe que a definição do público-alvo não é referenciada, mas **copiada** para a consulta. Se você fizer qualquer alteração no público depois de ele ter sido direcionado em um query, configure o query novamente para levar a nova definição em consideração.
 
-1. Você pode definir **[!UICONTROL Additional data]** para a população direcionada em uma guia dedicada. Esses dados são armazenados em colunas adicionais e só podem ser usados para o fluxo de trabalho em andamento. Especificamente, você pode adicionar dados das tabelas do banco de dados do Adobe Campaign vinculadas à dimensão de direcionamento do query. Consulte a seção [Enriquecimento de dados](#enriching-data).
+1. Você pode definir **[!UICONTROL Additional data]** para a população direcionada em uma guia dedicada. Esses dados são armazenados em colunas adicionais e só podem ser usados para o fluxo de trabalho em andamento. Especificamente, você pode adicionar dados das tabelas do banco de dados do Adobe Campaign vinculadas à dimensão de direcionamento da consulta. Consulte a seção [Enriquecimento de dados](#enriching-data).
 
    >[!NOTE]
    >
-   >Por padrão, a opção **[!UICONTROL Remove duplicate rows (DISTINCT)]** está marcada nas **[!UICONTROL Advanced options]** da guia **[!UICONTROL Additional data]** do query. Se a atividade **[!UICONTROL Query]** contiver vários (de 100) dados adicionais definidos, é recomendável desmarcar essa opção para otimizar o desempenho. Observe que se essa opção for desmarcada, poderão ocorrer duplicados, dependendo dos dados consultados.
+   >Por padrão, a opção **[!UICONTROL Remove duplicate rows (DISTINCT)]** está marcada nas **[!UICONTROL Advanced options]** da guia **[!UICONTROL Additional data]** da consulta. Se a atividade **[!UICONTROL Query]** contiver vários (de 100) dados adicionais definidos, é recomendável desmarcar essa opção para otimizar o desempenho. Observe que se essa opção for desmarcada, poderão ocorrer duplicados, dependendo dos dados consultados.
 
-1. Na guia **[!UICONTROL Transition]**, a opção **[!UICONTROL Enable an outbound transition]** permite adicionar uma transição de saída após a atividade de query, mesmo que ela não recupere dados.
+1. Na guia **[!UICONTROL Transition]**, a opção **[!UICONTROL Enable an outbound transition]** permite adicionar uma transição de saída após a atividade de consulta, mesmo que ela não recupere dados.
 
    O código de segmento da transição de saída pode ser personalizado com uma expressão padrão e variáveis de eventos (consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
 
@@ -70,7 +74,7 @@ A atividade **[!UICONTROL Query]** pode ser usada para várias finalidades:
 
 ## Dimensões e recursos de direcionamento {#targeting-dimensions-and-resources}
 
-As dimensões de direcionamento e os recursos permitem definir em quais elementos um query se baseará para determinar o público-alvo de uma entrega.
+As dimensões de direcionamento e os recursos permitem definir em quais elementos uma consulta se baseará para determinar o público-alvo de uma entrega.
 
 Eles são configurados em [target mappings](../../administration/using/target-mappings-in-campaign.md) e definidos ao criar um fluxo de trabalho, na guia **[!UICONTROL Properties]** de uma atividade Query.
 
@@ -90,7 +94,7 @@ No caso de **[!UICONTROL Deliveries (delivery)]**, a lista conterá as seguintes
 
 ![](assets/targeting_dimension3.png)
 
-Depois que a dimensão de direcionamento e o recurso são especificados, filtros diferentes ficam disponíveis no query.
+Depois que a dimensão de direcionamento e o recurso são especificados, filtros diferentes ficam disponíveis na consulta.
 
 Exemplo de filtros disponíveis para o recurso **[!UICONTROL Profiles (profile)]**:
 
@@ -122,27 +126,27 @@ Após adicionar dados adicionais, você poderá aplicar mais um nível de filtro
 
 >[!NOTE]
 >
->Por padrão, a opção **[!UICONTROL Remove duplicate rows (DISTINCT)]** está marcada nas **[!UICONTROL Advanced options]** da guia **[!UICONTROL Additional data]** do query. Se a atividade **[!UICONTROL Query]** contiver vários (de 100) dados adicionais definidos, é recomendável desmarcar essa opção para otimizar o desempenho. Observe que se essa opção for desmarcada, poderão ocorrer duplicados, dependendo dos dados consultados.
+>Por padrão, a opção **[!UICONTROL Remove duplicate rows (DISTINCT)]** está marcada nas **[!UICONTROL Advanced options]** da guia **[!UICONTROL Additional data]** da consulta. Se a atividade **[!UICONTROL Query]** contiver vários (de 100) dados adicionais definidos, é recomendável desmarcar essa opção para otimizar o desempenho. Observe que se essa opção for desmarcada, poderão ocorrer duplicados, dependendo dos dados consultados.
 
 Um caso de uso sobre como personalizar um email com dados adicionais é apresentado em [esta seção](../../automating/using/personalizing-email-with-additional-data.md).
 
 ### Adição de um campo simples {#adding-a-simple-field}
 
-Ao incluir um campo simples como dados adicionais, esse campo ficará diretamente visível na transição de saída da atividade. Isso permite que o usuário verifique, por exemplo, se os dados do query são os desejados.
+Ao incluir um campo simples como dados adicionais, esse campo ficará diretamente visível na transição de saída da atividade. Isso permite que o usuário verifique, por exemplo, se os dados da consulta são os desejados.
 
 1. Na guia **[!UICONTROL Additional data]**, adicione um novo elemento.
 1. Na janela aberta, no campo **[!UICONTROL Expression]**, selecione um dos campos disponíveis diretamente na dimensão de direcionamento ou em uma das dimensões vinculadas. Você pode editar expressões e usar funções ou cálculos simples (exceto agregações) dos campos de dimensão.
 
    Um **[!UICONTROL Alias]** será automaticamente criado se você editar uma expressão diferente de um caminho XPATH simples (por exemplo: “Year(&lt;@birthDate>)”). Se quiser, você poderá modificá-lo. Se selecionar apenas um campo (por exemplo: “@age”), você não precisará definir um **[!UICONTROL Alias]**.
 
-1. Selecione **[!UICONTROL Add]** para confirmar a inclusão do campo nos dados adicionais. Quando o query for executado, uma coluna adicional correspondente ao campo adicionado estará presente na transição de saída da atividade.
+1. Selecione **[!UICONTROL Add]** para confirmar a inclusão do campo nos dados adicionais. Quando a consulta for executada, uma coluna adicional correspondente ao campo adicionado estará presente na transição de saída da atividade.
 
 ![](assets/enrichment_add_simple_field.png)
 
 ### Adição de uma agregação {#adding-an-aggregate}
 
 As agregações permitem que os valores sejam calculados dos campos da dimensão de direcionamento ou das dimensões vinculadas à dimensão de direcionamento. Por exemplo: o valor médio adquirido por um perfil.
-Quando você usar a agregação com o query, sua função poderá retornar para zero, que será considerada como NULL. Use a guia **[!UICONTROL Output filtering]** do query para filtrar o valor agregado:
+Quando você usar a agregação com a consulta, sua função poderá retornar para zero, que será considerada como NULL. Use a guia **[!UICONTROL Output filtering]** da consulta para filtrar o valor agregado:
 
 * se quiser valores zero, você deverá filtrar em **[!UICONTROL is null]**.
 * se não quiser valores zero, você deverá filtrar em **[!UICONTROL is not null]**.
@@ -152,7 +156,7 @@ Observe que, se precisar aplicar a classificação na agregação, você deverá
 1. Na guia **[!UICONTROL Additional data]**, adicione um novo elemento.
 1. Na janela aberta, selecione a coleção que deseja usar para criar sua agregação no campo **[!UICONTROL Expression]**.
 
-   Um evento **[!UICONTROL Alias]** é criado automaticamente. Se quiser, você poderá modificá-lo voltando para a guia **[!UICONTROL Additional data]** do query.
+   Um evento **[!UICONTROL Alias]** é criado automaticamente. Se quiser, você poderá modificá-lo voltando para a guia **[!UICONTROL Additional data]** da consulta.
 
    A janela de definição da agregação é aberta.
 
@@ -179,7 +183,7 @@ Observe que, se precisar aplicar a classificação na agregação, você deverá
 ### Adição de uma coleção {#adding-a-collection}
 
 1. Na guia **[!UICONTROL Additional data]**, adicione um novo elemento.
-1. Na janela aberta, selecione a coleção que deseja adicionar ao campo **[!UICONTROL Expression]**. Um evento **[!UICONTROL Alias]** é criado automaticamente. Se quiser, você poderá modificá-lo voltando para a guia **[!UICONTROL Additional data]** do query.
+1. Na janela aberta, selecione a coleção que deseja adicionar ao campo **[!UICONTROL Expression]**. Um evento **[!UICONTROL Alias]** é criado automaticamente. Se quiser, você poderá modificá-lo voltando para a guia **[!UICONTROL Additional data]** da consulta.
 1. Selecione **[!UICONTROL Add]**. Uma nova janela é aberta, para que você refine os dados de coleção que deseja exibir.
 1. Na guia **[!UICONTROL Parameters]**, selecione **[!UICONTROL Collection]** e defina o número de linhas da coleção que deseja adicionar. Por exemplo, se você quiser obter as três compras mais recentes realizadas por cada perfil, digite “3” no campo **[!UICONTROL Number of lines to return]**.
 
@@ -212,7 +216,7 @@ Por exemplo, se você quiser processar apenas as linhas da coleção das transa�
 
 ### Classificação de dados adicionais {#sorting-additional-data}
 
-Ao adicionar uma agregação ou coleção aos dados de um query, você poderá especificar se deseja aplicar uma classificação crescente ou decrescente com base no valor do campo ou da expressão definida.
+Ao adicionar uma agregação ou coleção aos dados de uma consulta, você poderá especificar se deseja aplicar uma classificação crescente ou decrescente com base no valor do campo ou da expressão definida.
 
 Por exemplo, se quiser salvar apenas a transação que foi executada mais recentemente por um perfil, digite “1” no campo **[!UICONTROL Number of lines to return]** da guia **[!UICONTROL Parameters]** e aplique uma classificação decrescente no campo correspondente à data da transação usando a guia **[!UICONTROL Sort]**.
 

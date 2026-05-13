@@ -13,9 +13,14 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
-source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
-workflow-type: ht
-source-wordcount: '1377'
+TQID: https://experienceleague.adobe.com/o0pn-BQ8WMtzQLWcjINMhhGqdpQOJ5dYL02EXNeUZos
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1468
 ht-degree: 100%
 
 ---
@@ -54,7 +59,7 @@ O Adobe Campaign faz parte das soluções da Adobe Experience Cloud. A maneira c
 
   >[!NOTE]
   >
-  >Quanto a todos os produtos da Adobe, o Campaign coleta informações sobre os usuários do aplicativo e do site. Para obter mais informações, consulte a [Política de privacidade da Adobe](https://www.adobe.com/privacy/policy.html).
+  >Quanto a todos os produtos da Adobe, o Campaign coleta informações sobre os usuários do aplicativo e do site. Para obter mais informações, consulte a [Política de privacidade da Adobe](https://www.adobe.com/br/privacy/policy.html).
 
 * **Como a Adobe Experience Cloud é usada para coletar informações**
 

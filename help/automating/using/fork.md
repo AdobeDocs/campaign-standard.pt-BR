@@ -10,9 +10,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 1a5e1ecd-b3f1-4dbe-a816-12d27a3bc0f7
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/1-9VY3TjBBHAb-7bFikis3Ue5eWy5KXKSR4hXxXDLwc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: 213
 ht-degree: 98%
 
 ---
@@ -39,6 +43,6 @@ A atividade **[!UICONTROL Fork]** permite realizar várias atividades diferentes
 
 ## Exemplo {#example}
 
-O exemplo a seguir mostra uma intersecção de duas atividades de query que segmenta perfis do banco de dados do Adobe Campaign, neste caso, mulheres morando em Paris. A atividade Fork, portanto, permite que você use várias atividades ao mesmo tempo: uma que salva o público-alvo para lembrar a população calculada, e outra que segmenta a população para enviar dois emails diferentes com um conteúdo direcionado para cada segmento. O primeiro email é enviado para mulheres parisienses entre 18 e 40 anos e outro para mulheres parisienses com mais de 40 anos.
+O exemplo a seguir mostra uma intersecção de duas atividades de consulta que segmenta perfis do banco de dados do Adobe Campaign, neste caso, mulheres morando em Paris. A atividade Fork, portanto, permite que você use várias atividades ao mesmo tempo: uma que salva o público-alvo para lembrar a população calculada, e outra que segmenta a população para enviar dois emails diferentes com um conteúdo direcionado para cada segmento. O primeiro email é enviado para mulheres parisienses entre 18 e 40 anos e outro para mulheres parisienses com mais de 40 anos.
 
 ![](assets/wkf_fork_example.png)

@@ -10,10 +10,17 @@ old-role: Data Architect
 role: Developer
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/yE5oFC7pHpJPh1NC0jMvVu-VfY-sFhgbSB4tqw55R-M
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a4671286-a59f-47e3-b97b-90627a1977d5id: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2: id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 4%
+source-wordcount: 845
+ht-degree: 5%
 
 ---
 
@@ -162,6 +169,6 @@ Para fazer isso, selecione as atividades desenhando uma zona ao redor delas. em 
 
 Este vídeo mostra como criar um workflow.
 
->[!VIDEO](https://video.tv.adobe.com/v/31853?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
 Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

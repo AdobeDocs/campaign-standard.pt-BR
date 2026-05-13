@@ -1,6 +1,6 @@
 ---
 title: Lista de funções
-description: A ferramenta de edição de query permite usar funções avançadas para fazer filtragens complexas.
+description: A ferramenta de edição de consulta permite usar funções avançadas para fazer filtragens complexas.
 audience: automating
 content-type: reference
 topic-tags: filtering-data
@@ -9,10 +9,13 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/lpfCIMUH03d9zMB-R1Uq9ZwxnD1G-LG8b-iN3TQc7o8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 93%
+source-wordcount: 2020
+ht-degree: 91%
 
 ---
 
@@ -20,7 +23,7 @@ ht-degree: 93%
 
 ## Sobre funções {#about-functions}
 
-A ferramenta de edição de query permite usar funções avançadas para fazer filtragens complexas. Para fazer isso, a paleta de ferramentas contém o elemento **[!UICONTROL Expression]** que pode ser usado no espaço de trabalho. Informações adicionais sobre esse elemento estão detalhadas em uma [seção específica](../../automating/using/advanced-expression-editing.md).
+A ferramenta de edição de consulta permite usar funções avançadas para fazer filtragens complexas. Para fazer isso, a paleta de ferramentas contém o elemento **[!UICONTROL Expression]** que pode ser usado no espaço de trabalho. Informações adicionais sobre esse elemento estão detalhadas em uma [seção específica](../../automating/using/advanced-expression-editing.md).
 
 Esse elemento permite inserir as condições manualmente. Aqui, você pode usar as funções definidas nas seções a seguir.
 
@@ -82,7 +85,7 @@ As funções de data são usadas para manipular valores de data ou hora.
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
    <td> Retorna somente a data (com a hora 00:00)<br /> </td> 
-   <td> DateOnly(&lt;data&gt;)<br /> </td> 
+   <td> DateOnly(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Day</strong><br /> </td> 
@@ -92,17 +95,17 @@ As funções de data são usadas para manipular valores de data ou hora.
   <tr> 
    <td> <strong>DayOfYear</strong><br /> </td> 
    <td> Retorna o número que representa o dia no ano da data<br /> </td> 
-   <td> DayOfYear(&lt;data&gt;)<br /> </td> 
+   <td> DayOfYear(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>DaysAgo</strong><br /> </td> 
    <td> Retorna a data atual menos n dias<br /> </td> 
-   <td> DaysAgo(&lt;número&gt;)<br /> </td> 
+   <td> DaysAgo(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>DaysAgoInt</strong><br /> </td> 
    <td> Retorna a data atual menos n dias (como um número inteiro yyyymmdd)<br /> </td> 
-   <td> DaysAgoInt(&lt;número&gt;)<br /> </td> 
+   <td> DaysAgoInt(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>DaysDiff</strong><br /> </td> 
@@ -127,7 +130,7 @@ As funções de data são usadas para manipular valores de data ou hora.
   <tr> 
    <td> <strong>HoursDiff</strong><br /> </td> 
    <td> Retorna o número de horas entre duas datas<br /> </td> 
-   <td> HoursDiff(&lt;data final&gt;, &lt;data inicial&gt;)<br /> </td> 
+   <td> HoursDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>LocalToUTC</strong><br /> </td> 
@@ -167,7 +170,7 @@ As funções de data são usadas para manipular valores de data ou hora.
   <tr> 
    <td> <strong>Second</strong><br /> </td> 
    <td> Retorna os segundos da data<br /> </td> 
-   <td> Second(&lt;data&gt;)<br /> </td> 
+   <td> Second(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Oldest</strong><br /> </td> 
@@ -221,7 +224,7 @@ As funções de data são usadas para manipular valores de data ou hora.
   </tr> 
   <tr> 
    <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
-   <td> Converte uma string em uma data + fuso horário.<br /> Exemplo: ToDateTimeWithTimezone ("2019-02-19 08:09:00", "Ásia/Teerã")<br /> </td> 
+   <td> Converte uma cadeia de caracteres em uma data + fuso horário.<br /> Exemplo: ToDateTimeWithTimezone ("2019-02-19 08:09:00", "Ásia/Teerã")<br /> </td> 
    <td> ToDateTimeWithTimezone(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -252,7 +255,7 @@ As funções de data são usadas para manipular valores de data ou hora.
   <tr> 
    <td> <strong>TruncYear</strong><br /> </td> 
    <td> Arredonda uma data + hora para 1º de janeiro do ano<br /> </td> 
-   <td> TruncYear(&lt;data&gt;)<br /> </td> 
+   <td> TruncYear(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>WeekDay</strong><br /> </td> 
@@ -277,7 +280,7 @@ As funções de data são usadas para manipular valores de data ou hora.
   <tr> 
    <td> <strong>YearsOld</strong><br /> </td> 
    <td> Retorna a idade em anos de uma data<br /> </td> 
-   <td> YearsOld(&lt;data&gt;)<br /> </td> 
+   <td> YearsOld(&lt;date&gt;)<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -325,7 +328,7 @@ As funções de valor numérico são usadas para converter texto em números.
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
    <td> Retorna o maior inteiro menor que ou igual a um número<br /> </td> 
-   <td> Floor(&lt;número&gt;)<br /> </td> 
+   <td> Floor(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Greatest</strong><br /> </td> 
@@ -340,7 +343,7 @@ As funções de valor numérico são usadas para converter texto em números.
   <tr> 
    <td> <strong>Mod</strong><br /> </td> 
    <td> Retorna o resto da divisão do número inteiro de n1 por n2<br /> </td> 
-   <td> Mod(&lt;número 1&gt;, &lt;número 2&gt;)<br /> </td> 
+   <td> Mod(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Percent</strong><br /> </td> 
@@ -399,7 +402,7 @@ Esta tabela contém as funções restantes disponíveis.
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
    <td> Retorna o valor 1 quando a condição é verificada. Caso contrário, retorna o valor 2<br /> </td> 
-   <td> Case(When(&lt;condição&gt;, &lt;valor 1&gt;), Else(&lt;valor 2&gt;))<br /> </td> 
+   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ClearBit</strong><br /> </td> 
@@ -414,7 +417,7 @@ Esta tabela contém as funções restantes disponíveis.
   <tr> 
    <td> <strong>Decode</strong><br /> </td> 
    <td> Retorna o valor 3 quando valor 1 = valor 2; caso contrário, retorna 4<br /> </td> 
-   <td> Decode(&lt;valor 1&gt;, &lt;valor 2&gt;, &lt;valor 3&gt;, &lt;valor 4&gt;)<br /> </td> 
+   <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
@@ -434,7 +437,7 @@ Esta tabela contém as funções restantes disponíveis.
   <tr> 
    <td> <strong>Iif</strong><br /> </td> 
    <td> Retorna o valor 1 quando a expressão é verdadeira; caso contrário, retorna o valor 2<br /> </td> 
-   <td> Iif(&lt;condição&gt;, &lt;valor 1&gt;, &lt;valor 2&gt;)<br /> </td> 
+   <td> Iif(&lt;condition&gt;, &lt;value 1&gt;, &lt;value 2&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>IsBitSet</strong><br /> </td> 
@@ -469,7 +472,7 @@ Esta tabela contém as funções restantes disponíveis.
   <tr> 
    <td> <strong>When</strong><br /> </td> 
    <td> Retorna o valor 1 quando a expressão é verificada. Caso contrário, retorna o valor 2 (só pode ser usado como parâmetro da função case)<br /> </td> 
-   <td> When(&lt;condição&gt;, &lt;valor 1&gt;)<br /> </td> 
+   <td> When(&lt;condition&gt;, &lt;value 1&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>newUUID</strong><br /> </td> 
@@ -623,7 +626,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>Substring</strong><br /> </td> 
    <td> Extrai a substring, começando no caractere n1 da string e com comprimento de n2<br /> </td> 
-   <td> Substring(&lt;cadeia de caracteres&gt;, &lt;deslocamento&gt;, &lt;comprimento&gt;)<br /> </td> 
+   <td> Substring(&lt;string&gt;, &lt;offset&gt;, &lt;length&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ToIntlString</strong><br /> </td> 
@@ -648,7 +651,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>VirtualLinkStr</strong><br /> </td> 
    <td> Retorna a chave externa (texto) de um link passado como um parâmetro se os outros dois parâmetros forem iguais<br /> </td> 
-   <td> VirtualLinkStr(&lt;string&gt;, &lt;número&gt;, &lt;número&gt;)<br /> </td> 
+   <td> VirtualLinkStr(&lt;string&gt;, &lt;number&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>encryption_aescbcDecrypt</strong><br /> </td> 
@@ -742,13 +745,13 @@ As funções de representação são usadas para ordenar valores.
   </tr> 
   <tr> 
    <td> <strong>PartitionBy</strong><br /> </td> 
-   <td> Partições do resultado de um query em uma tabela<br /> </td> 
+   <td> Partições do resultado de uma consulta em uma tabela<br /> </td> 
    <td> PartitionBy(&lt;valor 1&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>RowNum</strong><br /> </td> 
    <td> Gera um número de linha com base na partição da tabela e em uma sequência de classificação. Esta função não tem suporte para o MySQL<br /> </td> 
-   <td> RowNum(PartitionBy(&lt;valor 1&gt;), OrderBy(&lt;valor 1&gt;))<br /> </td> 
+   <td> RowNum(PartitionBy(&lt;value 1&gt;), OrderBy(&lt;value 1&gt;))<br /> </td> 
   </tr> 
  </tbody> 
 </table>

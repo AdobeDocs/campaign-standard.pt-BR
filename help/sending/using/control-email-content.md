@@ -9,10 +9,15 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: debbc70d-4094-44c0-b7cb-c999effda1a6
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/Uqi4pPlzFEn-MLvjRPOU5Tu3tC1BDvOM49U1LKbA2lE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 47%
+source-wordcount: 819
+ht-degree: 52%
 
 ---
 
@@ -28,10 +33,10 @@ Siga os princípios listados abaixo ao criar o conteúdo da mensagem:
   <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
 * [Otimização do Personalization e do tempo de envio](#perso-send-time-optimization): personalizar o conteúdo e definir um tempo de envio por recipient aumenta as chances de sua mensagem ser aberta.
 * Imagens e texto: respeitar uma proporção adequada de texto/imagem (por exemplo, 60% de texto e 40% de imagens).
-* [Link de unsubscription &#x200B;](#opt-out) e landing page: o link de unsubscription é essencial. Deve ser visível e válido e o formulário deve ser funcional.
+* [Link de unsubscription ](#opt-out) e página de destino: o link de unsubscription é essencial. Deve ser visível e válido e o formulário deve ser funcional.
 * Visualização: use as ferramentas oferecidas pelo Adobe Campaign para verificar e otimizar o conteúdo do seu email ([Análise antisspam](#anti-spam-analysis), [Renderização de email](#message-responsiveness)).
 
-Para obter dicas adicionais para otimizar a capacidade de entrega ao projetar conteúdo, consulte o [Manual de práticas recomendadas de capacidade de entrega da Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html?lang=pt-BR).
+Para obter dicas adicionais para otimizar a capacidade de entrega ao projetar conteúdo, consulte o [Manual de práticas recomendadas de capacidade de entrega da Adobe](https://experienceleague.adobe.com/pt-br/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery).
 
 >[!NOTE]
 >
@@ -55,9 +60,9 @@ Para aumentar a taxa de abertura das mensagens, também é possível definir man
 
 ## Formulário e link para opção de não participação {#opt-out}
 
-Por padrão, quando a mensagem é analisada, uma regra de tipologia verifica se há um link de opt-out e gera um aviso se estiver faltando. Para obter mais informações sobre gerenciamento de links, consulte [esta seção](../../designing/using/links.md).
+Por padrão, quando a mensagem é analisada, uma regra de tipologia verifica se há um link para opção de não participação e gera um aviso se estiver faltando. Para obter mais informações sobre gerenciamento de links, consulte [esta seção](../../designing/using/links.md).
 
-Você deve verificar se o link de opt-out funciona corretamente antes de cada vez que enviar. Por exemplo, ao [enviar a prova](../../sending/using/sending-proofs.md), verifique se o link é válido, se o formulário está online e se a validação marca as caixas **[!UICONTROL No longer contact]**. Você deve fazer essa verificação sistematicamente, pois sempre é possível que ocorra um erro humano ao inserir o link ou ao alterar o formulário. Para obter mais informações sobre gerenciamento de aceitação e recusa, consulte [esta seção](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md).
+Você deve verificar se o link para opção de não participação funciona corretamente antes de cada vez que enviar. Por exemplo, ao [enviar a prova](../../sending/using/sending-proofs.md), verifique se o link é válido, se o formulário está online e se a validação marca as caixas **[!UICONTROL No longer contact]**. Você deve fazer essa verificação sistematicamente, pois sempre é possível que ocorra um erro humano ao inserir o link ou ao alterar o formulário. Para obter mais informações sobre gerenciamento de aceitação e recusa, consulte [esta seção](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md).
 
 ![](assets/optin_landingpage_3.png)
 

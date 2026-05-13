@@ -9,9 +9,14 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/52Xrj9jJWTlTtIrIqTt-Fhc4V-lRNfjfGDRiHv5dgUs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: 1544
 ht-degree: 4%
 
 ---
@@ -24,7 +29,7 @@ Além de [testar perfis](../../audiences/using/managing-test-profiles.md), você
 
 >[!IMPORTANT]
 >
->Esse recurso permite enviar informações pessoais do perfil para endereços de email externos. Lembre-se de que a execução de solicitações de privacidade (GDPR e CCPA) no Campaign Standard NÃO executará externamente essa solicitação.
+>Esse recurso permite enviar informações pessoais do perfil para endereços de email externos. Lembre-se de que a execução de solicitações de privacidade (RGPD e CCPA) no Campaign Standard NÃO executará externamente essa solicitação.
 
 As principais etapas são as seguintes:
 
@@ -271,6 +276,6 @@ As principais etapas para esse caso de uso são as seguintes:
 
 Este vídeo mostra como você pode testar suas mensagens de email usando a substituição de perfil.
 
->[!VIDEO](https://video.tv.adobe.com/v/36530?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/32368?quality=12)
 
 Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

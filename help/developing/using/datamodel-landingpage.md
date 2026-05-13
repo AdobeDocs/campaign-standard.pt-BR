@@ -9,10 +9,14 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: bd12a214-5998-4fb9-9f54-0c886067b58b
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/-9eD752Kgh4kFoeiKTRJH78rm0BVInrZ84-5M7--dfY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 8%
+source-wordcount: 1819
+ht-degree: 9%
 
 ---
 
@@ -287,7 +291,7 @@ ht-degree: 8%
       </tr>
       <tr>
          <td>tarefa</td>
-         <td>Processo</td>
+         <td>Trabalho</td>
          <td>coleção </td>
          <td> </td>
       </tr>
@@ -435,7 +439,7 @@ ht-degree: 8%
          </td>
       </tr>
       <tr>
-         <td>start</td>
+         <td>iniciar</td>
          <td>Data de implantação</td>
          <td>data </td>
          <td> </td>

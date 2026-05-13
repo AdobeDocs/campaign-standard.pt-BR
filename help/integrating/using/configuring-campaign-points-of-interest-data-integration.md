@@ -9,10 +9,15 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/IWKDZDotgF6Kj0jtroM2BhEiaJAND3TyfwEhfFCtVBU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1252'
-ht-degree: 2%
+source-wordcount: 1346
+ht-degree: 3%
 
 ---
 
@@ -35,7 +40,7 @@ Para usar os Serviços de localização da Adobe Experience Platform com aplicat
 1. Em seguida, na interface da Coleção de dados, é necessário criar regras para suportar casos de uso de dispositivos móveis entre o Point of Interests e o Adobe Campaign.\
    Esta regra será disparada quando um usuário inserir um **[!UICONTROL Point of Interest]** com geosfera. Consulte esta [página](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) para criar sua regra.
 
-1. Defina seu **[!UICONTROL Points of Interest]** no Places. Consulte [Criar um Ponto de Interesse](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html?lang=pt-BR).
+1. Defina seu **[!UICONTROL Points of Interest]** no Places. Consulte [Criar um Ponto de Interesse](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html).
 
 1. Acesse o aplicativo móvel e os dados de localização coletados no Adobe Campaign. Consulte [Acessando aplicativos móveis usados para coletar dados de localização](#accessing-mobile-apps-used-to-collect-location-data) e [Acessando dados de localização coletados](#accessing-collected-location-data).
 
@@ -131,7 +136,7 @@ Você deve ter acesso ao Adobe Analytics para fazer a seguinte configuração. S
      ```
 
    * Defina **Tipo de Conteúdo** como **[!UICONTROL application/json]**.
-   * Em **Quais tags de dados acionam o postback?**, selecione qualquer evento, normalmente **[!UICONTROL Launched]** e **[!UICONTROL exists]**.
+   * Em **Quais Tags de Dados Acionam o Postback?**, selecione qualquer evento, normalmente **[!UICONTROL Launched]** e **[!UICONTROL exists]**.
    * Clique em **[!UICONTROL Save & Activate]**.
 
 1. Crie um segundo postback.
@@ -158,12 +163,12 @@ Você deve ter acesso ao Adobe Analytics para fazer a seguinte configuração. S
      ```
 
    * Defina **Tipo de Conteúdo** como **[!UICONTROL application/json]**.
-   * Em **Quais tags de dados acionam o postback?**, selecione **[!UICONTROL campaign.test]** e **[!UICONTROL exists]**.
+   * Em **Quais Tags de Dados Acionam o Postback?**, selecione **[!UICONTROL campaign.test]** e **[!UICONTROL exists]**.
    * Clique em **[!UICONTROL Save & Activate]**.
 
 >[!NOTE]
 >
->Para obter informações detalhadas sobre como configurar postbacks, consulte a [documentação do Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html?lang=pt-BR).
+>Para obter informações detalhadas sobre como configurar postbacks, consulte a [documentação do Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html).
 
 ### Integração do SDK em um aplicativo para dispositivos móveis {#integrating-the-sdk-into-a-mobile-application}
 
@@ -178,11 +183,11 @@ Para definir os Pontos de Interesse usados para coletar dados de localização:
 1. Acesse a interface do Adobe Mobile Services.
 1. Adicione seu aplicativo.
 
-   Para obter mais informações sobre como gerenciar aplicativos no Mobile Services, consulte a [documentação do Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/t-new-app.html?lang=pt-BR).
+   Para obter mais informações sobre como gerenciar aplicativos no Mobile Services, consulte a [documentação do Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/t-new-app.html).
 
 1. Defina os Pontos de interesse.
 
-   Para obter mais informações sobre como gerenciar pontos de interesse, consulte a [documentação do Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html?lang=pt-BR).
+   Para obter mais informações sobre como gerenciar pontos de interesse, consulte a [documentação do Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html).
 
 ### Coleta de dados de Pontos de interesse dos assinantes {#collecting-subscribers--points-of-interest-data}
 

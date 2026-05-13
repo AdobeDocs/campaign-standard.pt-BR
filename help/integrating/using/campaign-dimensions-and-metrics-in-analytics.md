@@ -9,9 +9,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 6516c71a-efa8-4778-82bb-10615378f985
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/PSAzSStMFWofMteBu3jMSizD2kj1M9F7-0iO3dcugjY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: 320
 ht-degree: 4%
 
 ---
@@ -40,7 +44,7 @@ A campanha **[!UICONTROL dimensions]** encontrada no Analytics está listada aba
   </tr> 
   <tr> 
    <td> ID de Entrega<br /> </td> 
-   <td> Nome interno do delivery conforme visto no Campaign.<br /> Por exemplo, DM1 é uma entrega recorrente programada para enviar entregas secundárias toda semana. DM2, DM3 e DM4 são enviados nas primeiras três semanas. A dimensão ID de Entrega exibirá os resultados para cada entrega, especificamente DM1 a DM4. <br /> </td> 
+   <td> Nome interno da entrega conforme visto no Campaign.<br /> Por exemplo, DM1 é um delivery recorrente programado para enviar deliveries secundários toda semana. DM2, DM3 e DM4 são enviados nas primeiras três semanas. A dimensão ID de Entrega exibirá os resultados para cada entrega, especificamente DM1 a DM4. <br /> </td> 
   </tr> 
   <tr> 
    <td> Rótulo de entrega<br /> </td> 
@@ -48,7 +52,7 @@ A campanha **[!UICONTROL dimensions]** encontrada no Analytics está listada aba
   </tr> 
   <tr> 
    <td> ID de entrega executada<br /> </td> 
-   <td> Nome interno do delivery conforme visto no Campaign. Isso só afeta a entrega em execução no Campaign.<br /> Por exemplo, DM1 é uma entrega recorrente programada para enviar entregas secundárias toda semana. DM2, DM3 e DM4 são enviados nas primeiras três semanas. A dimensão ID de entrega executada exibirá os resultados das entregas executadas, especificamente as entregas secundárias DM2, DM3 e DM4. <br /> </td> 
+   <td> Nome interno do delivery conforme visto no Campaign. Isso só afeta a entrega em execução no Campaign.<br /> Por exemplo, DM1 é um delivery recorrente programado para enviar deliveries secundários toda semana. DM2, DM3 e DM4 são enviados nas primeiras três semanas. A dimensão ID de entrega executada exibirá os resultados das entregas executadas, especificamente as entregas secundárias DM2, DM3 e DM4. <br /> </td> 
   </tr> 
   <tr> 
    <td> Rótulo de entrega executado <br /> </td> 

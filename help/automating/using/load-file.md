@@ -10,10 +10,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/edHsRImxIpD0dL-LI3-xcet9JIFvxWFO3ALu-Jr-6-A
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 91%
+source-wordcount: 1368
+ht-degree: 90%
 
 ---
 
@@ -90,7 +94,7 @@ A configuração da atividade envolve duas etapas. Primeiro, é necessário defi
 
    A guia **[!UICONTROL Column definition]** permite especificar com precisão a estrutura dos dados de cada coluna para importar dados que não contenham erros (por exemplo, usando o gerenciamento nulo) e fazer a correspondência deles com os tipos presentes no banco de dados do Adobe Campaign para operações futuras.
 
-   Por exemplo, é possível alterar o rótulo de uma coluna, selecionar o tipo (sequência, número inteiro, data etc.) ou até mesmo especificar o processamento de erros.
+   Por exemplo, você pode alterar o rótulo de uma coluna, selecionar o tipo (string, número inteiro, data etc.) ou até mesmo especificar o processamento de erros.
 
    Para saber mais, consulte a seção [Formato da coluna](#column-format).
 
@@ -157,7 +161,7 @@ A formatação de coluna permite definir o processamento de valor de cada coluna
 
   >[!NOTE]
   >
-  >O **[!UICONTROL Error processing]** refere-se a erros nos valores do arquivo importado. Por exemplo, um tipo de dados com falha encontrado (“quatro” por escrito para uma coluna “Integer”), uma string com mais caracteres do que o número máximo autorizado, uma data com separadores incorretos etc. No entanto, essa opção não se refere aos erros gerados pelo gerenciamento de valores vazios.
+  >O **[!UICONTROL Error processing]** refere-se a erros nos valores do arquivo importado. Por exemplo, um tipo de dados com falha encontrado (&quot;quatro&quot; por escrito para uma coluna &quot;Integer&quot;), uma cadeia de caracteres que contém mais caracteres do que o número máximo autorizado, uma data com separadores incorretos etc. No entanto, essa opção não se refere aos erros gerados pelo gerenciamento de valores vazios.
 
 * **[!UICONTROL Default value]**: especifica o valor padrão de acordo com o processamento de erros escolhido.
 * **[!UICONTROL Empty value management]**: especifica como gerenciar valores vazios durante o carregamento de dados.

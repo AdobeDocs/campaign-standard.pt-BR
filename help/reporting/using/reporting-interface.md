@@ -8,9 +8,14 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 37e9acff-9576-472f-9fdf-2c0f6da773d1
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+TQID: https://experienceleague.adobe.com/QMERUwGatI5VLYzyUgA4dZxLkozubYyYBgueoJ6gZzI
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: 725
 ht-degree: 3%
 
 ---
@@ -45,7 +50,7 @@ A tabela **Insert** permite personalizar seus relatórios adicionando gráficos 
 * [Adicionar painéis](../../reporting/using/adding-panels.md)
 * [Adicionar visualizações](../../reporting/using/adding-visualizations.md)
 * [Adição de componentes](../../reporting/using/adding-components.md)
-* [Compartilhamento automático de relatórios com participantes por email](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Compartilhamento automático de relatórios com as partes interessadas por email](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
 
 ## Guias {#tabs}
 
@@ -147,4 +152,4 @@ Os usuários direcionados receberão um email com seu relatório anexado diretam
 
 **Tópicos relacionados:**
 
-* [Compartilhamento automático de relatórios com participantes por email](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Compartilhamento automático de relatórios com as partes interessadas por email](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)

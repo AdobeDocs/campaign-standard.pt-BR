@@ -9,9 +9,14 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 6c01662e-1e19-4cec-aa21-6e84b9b7a677
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/rNZ7AuSVilyEUjsV2cgu2SLCxfT693AORqR6-GF9d5E
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: 434
 ht-degree: 99%
 
 ---
@@ -25,7 +30,7 @@ Aqui, usamos um exemplo de mensagem SMS contendo campos de personalização que,
 **Olá, &lt; FirstName > &lt; LastName >, novos produtos já estão disponíveis. Visite-nos e confira-os na loja!**
 
 * Para um destinatário chamado &quot;John Smith&quot;, como não existem caracteres especiais, o Adobe Campaign escolherá a codificação GSM, que autorizará até 160 caracteres por mensagem SMS. A mensagem será, portanto, enviada em uma única parte.
-* Para um destinatário chamado &quot;Raphaël Forêt&quot;, os caracteres &quot;ë&quot; e &quot;ê&quot; não podem ser codificados no GSM. Dependendo de a transliteração ter sido ativada ou não, o Adobe Campaign poderá selecionar entre dois comportamentos:
+* Para um destinatário chamado &quot;Raphaël Forêt&quot;, os caracteres &quot;ë&quot; e &quot;ê&quot; não podem ser codificados no GSM. Dependendo de a transliteração ter sido habilitada ou não, o Adobe Campaign poderá selecionar entre dois comportamentos:
 
    * Se a transliteração for autorizada, as letras &quot;ë&quot; e &quot;ê&quot; serão substituídas por &quot;e&quot;, o que significa que a codificação GSM pode ser usada e, portanto, até 160 caracteres podem ser usados no SMS. Essa mensagem será enviada como uma única mensagem SMS, mas será ligeiramente alterada.
    * Se a transliteração não estiver autorizada, o Adobe Campaign escolherá enviar a mensagem em formato binário (Unicode): portanto, todos os caracteres serão enviados como estão. Como as mensagens SMS em Unicode são limitadas a 70 caracteres, o Adobe Campaign terá que enviar a mensagem em duas partes.

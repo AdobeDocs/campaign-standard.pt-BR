@@ -8,10 +8,15 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 6461c128-1e42-4685-88f8-507244147e6f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/lpPFofV3IPl7zmbaR4TOuyCcVqgjwI3maxr-jKzkd0Q
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 16%
+source-wordcount: 449
+ht-degree: 17%
 
 ---
 
@@ -38,7 +43,7 @@ Um conjunto de regras padrão garante os controles padrão. A tabela abaixo forn
 | **[!UICONTROL Check proof size]** | Todos | Após o direcionamento | Gera uma mensagem de erro se a população do target de prova exceder 100 destinatários. |
 | **[!UICONTROL Check social network sharing link]** | Email | No início da personalização | Verifica a presença de um link para uma mirror page ao incluir um link de compartilhamento de rede social (ViralLinks) no conteúdo. |
 | **[!UICONTROL Check subject]** | Email | No início da personalização | Verifica se o assunto e o endereço do remetente não contêm caracteres especiais que podem causar problemas em determinados agentes de transferência de email e verifica se o assunto da mensagem foi concluído. |
-| **[!UICONTROL Check unsubscription link]** | Email | No início da personalização | Verifica a presença de pelo menos um URL de cancelamento de subscrição (opt-out) em cada conteúdo (HTML e Text). |
+| **[!UICONTROL Check unsubscription link]** | Email | No início da personalização | Verifica a presença de pelo menos um URL de cancelamento de subscrição (recusa) em cada conteúdo (HTML e Text). |
 | **[!UICONTROL Check URL labels]** | Email | No início da personalização | Verifica se cada URL de rastreamento tem um rótulo. |
 | **[!UICONTROL Check URLs]** | Email | No início da personalização | Verifica as URLs de rastreamento (presença do caractere &quot;&amp;&quot;). |
 

@@ -7,9 +7,15 @@ topic-tags: latest-release-notes
 role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
-workflow-type: ht
-source-wordcount: '629'
+TQID: https://experienceleague.adobe.com/apHTVXi6iRZ0s-yydKzBcOxJTNWo1oYZmGkHKqyCMhw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 629
 ht-degree: 100%
 
 ---
@@ -118,7 +124,7 @@ O novo sistema de emissão de tíquetes passou pelo [Adobe Admin Console](https:
 
 ### Pergunte aos especialistas.
 
-Associe-se à Comunidade do Campaign: procure por respostas nas perguntas já existentes ou faça uma nova pergunta à comunidade. [Participe da conversa](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=pt)
+Associe-se à Comunidade do Campaign: procure por respostas nas perguntas já existentes ou faça uma nova pergunta à comunidade. [Participe da conversa](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Criar um tíquete ou iniciar um chat
 

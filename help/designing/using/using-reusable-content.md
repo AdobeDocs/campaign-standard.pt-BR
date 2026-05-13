@@ -8,9 +8,15 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/OyHSlh5OPs1dt0kA67RYrb4beKDelLNfWGK4iB0GP54
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: d5ef99fa-df0c-4153-bf94-105ad0724167
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: 1835
 ht-degree: 2%
 
 ---
@@ -131,7 +137,7 @@ Agora você pode criar um template de email com o Designer de email. Use compone
 
    ![](assets/des_loading_compatible_fragment_10.png)
 
-1. Salve seu template.
+1. Salve o modelo.
 
 Agora é possível gerenciar totalmente esse template no Designer de email para criar e atualizar o informativo que você enviará mensalmente para os recipients.
 
@@ -147,7 +153,7 @@ Para usá-lo, crie um email e selecione o template de conteúdo que você acabou
 
 Estes vídeos mostram como criar seu próprio modelo.
 
->[!VIDEO](https://video.tv.adobe.com/v/33216?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23106?quality=12)
 
 Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).
 

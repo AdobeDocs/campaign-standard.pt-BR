@@ -9,9 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 8c1a47ed-3467-4fcd-8747-86f0e8f15cec
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/-MOTkG1XRoqVckcmiFoUgFZK2Ae47h86Y6nGrSM-CGs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: 812
 ht-degree: 0%
 
 ---
@@ -20,7 +25,7 @@ ht-degree: 0%
 
 Depois que o fluxo de trabalho é acionado, os parâmetros são assimilados nas variáveis de eventos e podem ser usados para personalizar as atividades do fluxo de trabalho.
 
-Eles podem, por exemplo, ser usados para definir qual público-alvo ler na atividade **[!UICONTROL Read audience]**, o nome do arquivo a ser transferido na atividade **[!UICONTROL Transfer file]** etc. (consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
+Eles podem, por exemplo, ser usados para definir qual público ler na atividade **[!UICONTROL Read audience]**, o nome do arquivo a ser transferido na atividade **[!UICONTROL Transfer file]**, etc. (consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
 
 ## Uso de variáveis de eventos {#using-events-variables}
 

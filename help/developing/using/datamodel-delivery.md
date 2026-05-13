@@ -7,14 +7,18 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/zFUpmYKXJPF3cW-KGjKpdG1rbt3lv-5hsCjVugdSLA0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 28%
+source-wordcount: 730
+ht-degree: 30%
 
 ---
 
-# Delivery (nms:delivery)
+# Entrega (nms:delivery)
 
 ## Descrição do objeto
 
@@ -279,7 +283,7 @@ ht-degree: 28%
                </tr>
                <tr>
                   <td>tarefa</td>
-                  <td>Processo</td>
+                  <td>Trabalho</td>
                   <td>coleção </td>
                   <td> </td>
                </tr>
@@ -513,7 +517,7 @@ ht-degree: 28%
                </tr>
                <tr>
                   <td>modelo (deliveryTemplateSummary)</td>
-                  <td>Template de entrega</td>
+                  <td>Modelo de entrega</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -592,7 +596,7 @@ Por tipo de canal (byChannel)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>channel</td>
+    <td>canal</td>
     <td>enumeração</td>
     </tr>
 </table>

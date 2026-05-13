@@ -9,10 +9,15 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/gPeRyclF6wtJj0D3iN19ZwaxTGu-BoznkpccCQgO6XE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1709'
-ht-degree: 3%
+source-wordcount: 1726
+ht-degree: 4%
 
 ---
 
@@ -181,7 +186,7 @@ Para enviar uma mensagem transacional baseada em eventos, primeiro é necessári
 
 1. Ao criar a configuração do evento, selecione o targeting dimension **[!UICONTROL Real-time event]** (consulte [Criação de um evento](#creating-an-event)).
 1. Adicione campos ao evento para poder personalizar a mensagem transacional (consulte [Definição dos atributos do evento](#defining-the-event-attributes)).
-1. As mensagens transacionais baseadas em eventos devem usar somente os dados contidos no evento enviado para definir o recipient e a personalização do conteúdo da mensagem.
+1. As mensagens transacionais baseadas em evento só devem usar os dados contidos no evento enviado para definir o destinatário e a personalização do conteúdo da mensagem.
 
    No entanto, se você quiser usar informações adicionais do banco de dados do Adobe Campaign, poderá enriquecer o conteúdo da mensagem transacional (consulte [Enriquecimento do conteúdo da mensagem transacional](#enriching-the-transactional-message-content)).
 

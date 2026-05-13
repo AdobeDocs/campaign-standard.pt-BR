@@ -9,10 +9,15 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/w2qeBwrGka2XfN76lvkL7fjdAErUcHdxNvF7Jb6KYIk
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 82%
+source-wordcount: 767
+ht-degree: 81%
 
 ---
 
@@ -52,7 +57,7 @@ Para alcançar a caixa de entrada de seus destinatários sem ser rejeitado ou se
 
    * Ao verificar seu email quanto à capacidade de entrega, você deseja se concentrar em quatro categorias principais: qualidade de dados, mensagem e conteúdo, infraestrutura de envio e reputação. Para aprofundar esse tópico, consulte [esta seção](../../sending/using/about-deliverability.md).
 
-* Ao iniciar uma nova plataforma, aplique as recomendações detalhadas nesta [página](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html?lang=pt-BR#transition-process).
+* Ao iniciar uma nova plataforma, aplique as recomendações detalhadas nesta [página](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
 
 * Entre em contato com seu representante da Adobe para obter assistência.
 

@@ -10,10 +10,15 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: c7854b7b-f955-47ce-99d6-86b3186fd297
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/Ukag-6PvyojhuKCNHM3QjpZW9hYE2n9OjslWUx-Kkvc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 91%
+source-wordcount: 915
+ht-degree: 87%
 
 ---
 
@@ -36,7 +41,7 @@ A atividade **[!UICONTROL Direct mail delivery]** geralmente é usada para autom
 
 Quando vinculada a um scheduler, você pode definir correspondências diretas recorrentes.
 
-Os destinatários da correspondência direta são definidos no sentido upstream da atividade, no mesmo fluxo de trabalho, por meio de atividades de segmentação, como consultas, interseções etc. Perfis cujo endereço de correspondência não é especificado são excluídos automaticamente quando essa correspondência direta é preparada.
+Os recipients da correspondência direta são definidos no sentido upstream da atividade, no mesmo workflow, por meio de atividades de direcionamento, como consultas, interseções etc. Perfis cujo endereço de correspondência não é especificado são excluídos automaticamente quando a correspondência direta é preparada.
 
 A preparação da mensagem é acionada de acordo com os parâmetros de execução do fluxo de trabalho. No painel da mensagem, você pode selecionar se deseja solicitar ou não uma confirmação manual para enviar a mensagem (obrigatório por padrão). Você pode iniciar o fluxo de trabalho manualmente ou colocar uma atividade de scheduler no fluxo de trabalho para automatizar a execução.
 
@@ -71,7 +76,7 @@ A preparação da mensagem é acionada de acordo com os parâmetros de execuçã
 1. Por padrão, a atividade **[!UICONTROL Direct mail delivery]** não inclui transições de saída. Se quiser adicionar uma transição de saída à sua atividade **[!UICONTROL Direct mail delivery]**, acesse a guia **[!UICONTROL General]** das opções avançadas da atividade (o botão ![](assets/dlv_activity_params-24px.png) nas ações rápidas da atividade) e depois marque uma das seguintes opções:
 
    * **[!UICONTROL Add outbound transition without the population]**: permite gerar uma transição de saída que contém exatamente a mesma população da transição de entrada. Essa transição contém o arquivo gerado pela atividade de correspondência direta e a população bruta recebida pela atividade de correspondência direta.
-   * **[!UICONTROL Add outbound transition with the population]**: permite gerar uma transição de saída que contém a população para a qual a correspondência direta será enviada. Os membros do público-alvo excluídos durante a preparação da correspondência direta (quarentena, endereço inválido, etc.) são excluídos dessa transição. A transição também contém o arquivo gerado pela correspondência direta.
+   * **[!UICONTROL Add outbound transition with the population]**: permite gerar uma transição de saída que contém a população para a qual a correspondência direta será enviada. Os membros do público-alvo excluídos durante a preparação da correspondência direta (quarentena, endereço inválido etc.) são excluídos dessa transição. A transição também contém o arquivo gerado pela correspondência direta.
 
 1. Confirme a configuração da sua atividade e salve o fluxo de trabalho.
 

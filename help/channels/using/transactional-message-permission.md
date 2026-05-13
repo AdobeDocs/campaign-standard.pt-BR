@@ -9,9 +9,14 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 995da330-6c86-444b-86b2-61d887f37db4
-source-git-commit: 7247fe596494690ac0676196fbb72c6139aeb0c7
+TQID: https://experienceleague.adobe.com/mO3RyLftfTtksp6J4waIdBBWIpPqozhU6TIVXT99Tfs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: 800
 ht-degree: 1%
 
 ---
@@ -56,7 +61,7 @@ Os usuários vinculados a este **[!UICONTROL Security group]** agora podem acess
 
 ## Atribuir o grupo de segurança de usuário MC {#assign-group}
 
-1. No Admin Console, selecione a guia **Produtos**.
+1. Na Admin Console, selecione a guia **Produtos**.
 
 1. Selecione **Adobe Campaign Standard** e escolha sua instância.
 
@@ -82,7 +87,7 @@ Por exemplo, se um usuário pertencente à unidade organizacional &quot;France S
 
 Para duplicar uma configuração de evento, siga as etapas abaixo.
 
-1. Clique no logotipo **Adobe**, no canto superior esquerdo, em seguida selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Clique no logotipo **Adobe**, no canto superior esquerdo, e selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 
 1. Passe o mouse sobre a configuração de evento publicada de sua escolha e selecione o botão **[!UICONTROL Duplicate element]**.
 

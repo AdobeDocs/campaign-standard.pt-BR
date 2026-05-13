@@ -8,10 +8,15 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 2b024052-ed42-44f3-9990-be7425cc79d7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/cfyUEkc2uP7VKNu2Kzd-9EERkuzfwiFFbJ9-QHgWWX4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 8%
+source-wordcount: 444
+ht-degree: 6%
 
 ---
 
@@ -19,21 +24,21 @@ ht-degree: 8%
 
 Comece a trabalhar com o Designer de email e crie modelos e fragmentos reutilizáveis a partir do HTML de email criado no Editor herdado.
 
-Esse caso de uso permite criar um modelo de Designer de email usando um email de HTML e dividindo-o em componentes de HTML no Designer de email.
+Esse caso de uso permite criar um modelo de Designer de email usando um email do HTML e dividindo-o em componentes do HTML no Designer de email.
 
 >[!NOTE]
 >
->Como o modo de compatibilidade, um componente HTML é editável com opções limitadas: você só pode executar a edição no local.
+>Como o modo de compatibilidade, um componente do HTML é editável com opções limitadas: você só pode executar a edição no local.
 
 >[!IMPORTANT]
 >
->Esta seção é para usuários avançados familiarizados com o código HTML.
+>Esta seção é para usuários avançados familiarizados com o código do HTML.
 
 ## Preparação do conteúdo de email
 
-1. Selecione um email HTML.
-1. Identifique seções para dividir o email HTML.
-1. Cortar os diferentes blocos de seu HTML.
+1. Selecione um email do HTML.
+1. Identifique seções para dividir o email do HTML.
+1. Recorte os diferentes blocos do seu HTML.
 
 ## Criar sua estrutura de email
 
@@ -41,10 +46,10 @@ Esse caso de uso permite criar um modelo de Designer de email usando um email de
 1. Defina os atributos do nível do corpo: cores do plano de fundo, largura etc. Para obter mais informações, consulte [Edição de estilos de email](../../designing/using/styles.md).
 1. Adicione quantos componentes de estrutura você tiver seções. Para obter mais informações, consulte [Edição da estrutura do email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-## Adicionar conteúdo de HTML
+## Adicionar conteúdo do HTML
 
 1. Adicione um componente HTML a cada componente de estrutura. Para obter mais informações, consulte [Inclusão de fragmentos e componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. Copie e cole seu HTML em todos os componentes.
+1. Copie e cole sua HTML em cada componente.
 
 ## Gerenciar o estilo do email {#manage-the-style-of-your-email}
 
@@ -89,7 +94,7 @@ Para identificar qual elemento é qual seção do HTML, você pode selecioná-lo
 
 ![](assets/breadcrumbs.png)
 
-Para ver a versão do HTML do email, clique em **[!UICONTROL Show source]**.
+Para ver a versão do email no HTML, clique em **[!UICONTROL Show source]**.
 
 ### Criar o modelo de email e sua estrutura
 
@@ -99,7 +104,7 @@ Para ver a versão do HTML do email, clique em **[!UICONTROL Show source]**.
 
    ![](assets/structure-components-migration.png)
 
-### Inserção de componentes de conteúdo de HTML
+### Inserção de componentes de conteúdo do HTML
 
 1. Insira um **[!UICONTROL HTML component]** em cada **[!UICONTROL Structure component]**.
 

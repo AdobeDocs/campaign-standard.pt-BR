@@ -1,6 +1,6 @@
 ---
 title: Introdução a perfis e públicos-alvo
-description: Defina populações direcionadas, selecione públicos, filtre destinatários, colete dados e atualize perfis.
+description: Defina populações de destino, selecione públicos-alvos, filtre destinatários, colete dados e atualize perfis.
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
@@ -8,9 +8,16 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/SC-25nzjfan6OmPZny5QnaeheMiHf2OiJXO9SGVimfo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663addaid: afa4204e-6d08-4e29-bc35-26aafb656d48
+subfeature_v2: id: af6750fd-3c1b-4ad2-9fe3-99e81510998did: d6330382-c886-4f7a-a4f7-74e3f36c0d9cid: f5293531-9312-4099-bfa3-9e67df6a8750id: f529d0bd-1401-4c88-9833-43228cc1d40fid: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: 621
 ht-degree: 14%
 
 ---
@@ -50,8 +57,8 @@ Leia mais:
 * [Perfis ativos](../../audiences/using/active-profiles.md)
 * [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md)
 * [Enriquecimento do banco de dados do Campaign](../../audiences/using/enriching-campaign-database.md)
-* [Sobre públicos](../../audiences/using/about-audiences.md)
-* [Seleção de um público em uma mensagem](../../audiences/using/selecting-an-audience-in-a-message.md)
+* [Sobre públicos-alvos](../../audiences/using/about-audiences.md)
+* [Seleção de um público-alvo em uma mensagem](../../audiences/using/selecting-an-audience-in-a-message.md)
 * [Adição de um grupo de controle](../../sending/using/control-group.md)
 
 ## Permissão e consentimento {#permission}
@@ -62,7 +69,7 @@ Antes de começar a enviar mensagens para um contato, você precisa garantir que
 
 Com o Campaign, recomendamos que você use os **mecanismos simples de aceitação e recusa** por meio dos [serviços](../../audiences/using/creating-a-service.md) e das [páginas de aterrissagem](../../channels/using/getting-started-with-landing-pages.md) para atualizar suas informações de contato e expandir seu banco de dados.
 
-Incluir na lista de bloqueios Fornecer **links de unsubscription** em suas mensagens permitirá que Perfis sejam adicionados ao arquivo, quando necessário, e portanto, melhorará a capacidade de entrega da sua plataforma. Para obter mais informações sobre o gerenciamento de inclui na lista de bloqueios, consulte [Sobre participação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Fornecer **links de unsubscription** em suas mensagens permitirá que Perfis sejam adicionados ao arquivo, quando necessário, e portanto, melhorará a capacidade de entrega da sua plataforma. Para obter mais informações sobre o gerenciamento de inclui na lista de bloqueios, consulte [Sobre participação e não participação no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
@@ -87,6 +94,6 @@ Privacidade e consentimento no Campaign e como gerenciá-los são apresentados e
 
 * [Assimilar públicos-alvos da Adobe Experience Platform no Campaign](../../integrating/using/ingest-aep-data.md)
 * [Trabalhar com o Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
-* [Públicos compartilhados do Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
+* [Públicos-alvo compartilhados do Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Uso de workflows para importar perfis](../../automating/using/creating-import-workflow-templates.md)
-* [Vídeos de perfis e públicos-alvo](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html?lang=pt-BR)
+* [Vídeos de perfis e públicos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)

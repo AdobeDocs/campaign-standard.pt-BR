@@ -10,9 +10,15 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 9cee2005-a99b-47cb-b573-a25812614409
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/zcoFbPtWA5lcopKI6FfXdj3I3Ypvl6FZvAiZMh7oDw0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: 863
 ht-degree: 84%
 
 ---
@@ -34,7 +40,7 @@ Para obter mais detalhes sobre os fluxos de trabalho e os diferentes canais disp
 
 Para enviar duas entrega diferentes para um determinado grupo, primeiro defina o público-alvo.
 
-Para fazer isso, será necessário criar um query para identificar os destinatários e, portanto, criar um fluxo de trabalho.
+Para fazer isso, será necessário criar uma consulta para identificar os destinatários e, portanto, criar um fluxo de trabalho.
 
 Crie um novo fluxo de trabalho no programa ou na campanha de sua escolha:
 
@@ -48,23 +54,23 @@ As etapas detalhadas para criar um fluxo de trabalho são apresentadas na seçã
 
 Depois que o fluxo de trabalho for criado, você poderá acessar sua interface.
 
-Insira uma atividade Query em seu fluxo de trabalho para segmentar os perfis que receberão suas entregas.
+Insira uma atividade Consulta em seu fluxo de trabalho para segmentar os perfis que receberão suas entregas.
 
 1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arraste e solte uma atividade de [Query](../../automating/using/query.md).
 1. Clique duas vezes na atividade.
 1. Na guia **[!UICONTROL Target]**, navegue pelos atalhos e selecione uma dos [públicos-alvo](../../audiences/using/about-audiences.md).
 1. Arraste e solte o atalho na zona de edição. De acordo com o tipo de atalho selecionado, uma janela será exibida.
-1. Configure os elementos de direcionamento de elementos, depois confirme o query.
+1. Configure os elementos de direcionamento de elementos, depois confirme a consulta.
 
 ![](assets/wkf_segment_query.png)
 
-É possível criar um query em um ou vários elementos.
+É possível criar uma consulta em um ou vários elementos.
 
-Use o botão **[!UICONTROL Count]** para ver uma estimativa do número de perfis segmentados pelo query.
+Use o botão **[!UICONTROL Count]** para ver uma estimativa do número de perfis segmentados pela consulta.
 
 ## Criação de uma atividade de segmentação {#creating-segmentation-activity}
 
-Depois que o público-alvo for identificado pela atividade Query, é necessário selecionar um critério para segmentar o público-alvo em duas populações diferentes: uma receberá um email e a outra receberá um SMS.
+Depois que o público-alvo for identificado pela atividade de consulta, é necessário selecionar um critério para segmentar o público-alvo em duas populações diferentes: uma receberá um email e a outra receberá um SMS.
 
 Você precisa usar uma atividade de [Segmentação](../../automating/using/segmentation.md) para criar um ou vários segmentos a partir de uma população computada upstream em uma consulta.
 
@@ -90,7 +96,7 @@ Para configurar a primeira transição (Email):
 
    ![](assets/wkf_segment_mobile_empty.png)
 
-   Todos os perfis provenientes do query que têm um email, mas não um número de celular definido, estarão nessa transição.
+   Todos os perfis provenientes da consulta que têm um email, mas não um número de celular definido, estarão nessa transição.
 
 1. Para deixar seu fluxo de trabalho mais claro, você pode editar o rótulo de transição. Confirme as alterações.
 
@@ -103,7 +109,7 @@ A primeira transição está configurada. Para configurar a segunda transição 
 
    ![](assets/wkf_segment_mobile_not_empty.png)
 
-   Todos os perfis provenientes do query que têm um número de celular definido estarão nessa transição.
+   Todos os perfis provenientes da consulta que têm um número de celular definido estarão nessa transição.
 
 1. Você pode editar o rótulo da transição. Confirme as alterações.
 

@@ -10,10 +10,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 57c56e4a-892c-46d6-9bb4-6a345a8d9f5b
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/dkAPwzqgld7-LbCyzuz24CnRMjmepFIxG6F0HRBuh8c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 96%
+source-wordcount: 575
+ht-degree: 85%
 
 ---
 
@@ -31,7 +35,7 @@ A atividade **[!UICONTROL Deduplication]** é geralmente usada após atividades 
 
 Durante a desduplicação, as transições de entrada são processadas separadamente. Por exemplo, se o perfil “A” estiver presente no resultado da consulta 1 e também no resultado da consulta 2, ele não será desduplicado.
 
-Por conseguinte, é aconselhável que uma desduplicação tenha somente uma transição de entrada. Para fazer isso, combine as consultas usando atividades que correspondam às suas necessidades de direcionamento, como uma atividade de união, uma atividade de intersecção etc. Por exemplo:
+Por conseguinte, é aconselhável que uma desduplicação tenha somente uma transição de entrada. Para fazer isso, combine as consultas usando atividades que correspondam às suas necessidades de direcionamento, como uma atividade de união, uma atividade de interseção etc. Por exemplo:
 
 ![](assets/dedup_bonnepratique.png)
 
@@ -62,7 +66,7 @@ Para configurar uma atividade de desduplicação, é necessário inserir um rót
    * Se o valor do campo for 0: todos os registros são mantidos.
    * Se o valor do campo for 2: os registros C e Z são mantidos. Os dois registros de A, B e Y são mantidos por acaso ou dependendo do método de desduplicação selecionado posteriormente.
 
-1. Defina os critérios de **[!UICONTROL Duplicate identification]** adicionando condições na lista fornecida. Especifique os campos e/ou expressões cujos valores idênticos permitem a identificação dos duplicados: endereço de email, nome, sobrenome etc. A ordem das condições permite especificar os que devem ser processados primeiro.
+1. Defina os critérios de **[!UICONTROL Duplicate identification]** adicionando condições na lista fornecida. Especifique os campos e/ou expressões cujos valores idênticos permitem a identificação dos duplicados: endereço de email, nome, sobrenome etc. A ordem das condições permite especificar os que serão processados primeiro.
 1. Na lista suspensa, selecione o **[!UICONTROL Deduplication method]** que será usado:
 
    * **[!UICONTROL Choose for me]**: seleciona aleatoriamente o registro que será mantido fora dos duplicados.

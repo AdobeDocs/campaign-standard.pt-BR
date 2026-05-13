@@ -9,9 +9,14 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 6bcd8dcd-d710-4ca3-937d-bf4339f36069
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/zWvKFZRoejIDaRFEF8cxypI-4MLgNYSG2RYBiZLmOJs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: 610
 ht-degree: 6%
 
 ---
@@ -100,7 +105,7 @@ For more on publishing, pausing and unpublishing a transactional message, see [t
 
 ## Excluir um evento {#deleting-an-event}
 
-Quando a publicação de um evento for desfeita ou se um evento ainda não tiver sido publicado, você poderá excluí-lo da lista de configuração do evento. Para isso:
+Quando a publicação de um evento for desfeita ou se um evento ainda não tiver sido publicado, você poderá excluí-lo da lista de configuração do evento. Para fazer isso:
 
 1. Clique no logotipo **Adobe**, no canto superior esquerdo, e selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Passe o mouse sobre a configuração de evento de sua escolha e selecione o botão **[!UICONTROL Delete element]**.

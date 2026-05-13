@@ -8,9 +8,15 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 3db44dec-c48a-4903-a4c6-6bfea33fc38a
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+TQID: https://experienceleague.adobe.com/OqhCjOt2SS-vKiuXSCmjgzJ1TNoFu1FHqL4cER0-o0g
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: 279
 ht-degree: 4%
 
 ---
@@ -27,7 +33,7 @@ Os componentes ajudam você a personalizar seus relatórios com diferentes dimen
 
    A tabela de componentes é dividida em quatro categorias:
 
-   * **Dimension**: obtenha detalhes do log de entregas, como o navegador ou domínio do destinatário, ou o sucesso de uma entrega.
+   * **Dimensões**: obtenha detalhes do log de entregas, como o navegador ou domínio do destinatário, ou o sucesso de uma entrega.
    * **Métricas**: obtenha detalhes sobre o status de uma mensagem. Por exemplo, se uma mensagem foi entregue e o usuário a abriu.
    * **[!UICONTROL Segments]**: filtre dados dependendo da faixa etária do destinatário. **[!UICONTROL Segments]** pode ser arrastado e solto diretamente em uma tabela de forma livre ou na barra superior do painel.
 

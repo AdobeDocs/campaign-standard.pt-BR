@@ -1,23 +1,29 @@
 ---
-title: Workflows técnicos
+title: Fluxos de trabalho técnicos
 description: Saiba mais sobre Workflows técnicos
 audience: administration
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: f87795ee2378a1e9e1b393c6cce002bcb70178b8
+TQID: https://experienceleague.adobe.com/imU-lsjNUEb2VZ-hLLAobuJ0UFlFqygQD-KE80hRpG0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: beb7a3c1-66ab-4786-b879-7621375b3c40id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 75%
+source-wordcount: 799
+ht-degree: 63%
 
 ---
 
-# Workflows técnicos{#technical-workflows}
+# Fluxos de trabalho técnicos{#technical-workflows}
 
-Os fluxos de trabalho técnicos são fornecidos prontos para uso com o Adobe Campaign. Eles são operações ou trabalhos programados para serem executados regularmente no servidor.
+Os fluxos de trabalho técnicos são fornecidos prontos para uso com o Adobe Campaign. Eles são operações ou processos programados para serem executados regularmente no servidor.
 
-Eles permitem fazer operações de manutenção no banco de dados, usar as informações de rastreamento nas entregas e atualizar os trabalhos provisionais nas entregas.
+Eles permitem fazer operações de manutenção no banco de dados, usar as informações de rastreamento nas entregas e atualizar os processos provisórios nas entregas.
 
 Os administradores funcionais podem acessar os fluxos de trabalho técnicos no menu **[!UICONTROL Administration > Application settings > Workflows]**.
 
@@ -27,7 +33,7 @@ Os administradores funcionais podem acessar os fluxos de trabalho técnicos no m
 
 ![](assets/technical_workflows.png)
 
-## Lista de workflows técnicos {#list-of-technical-workflows}
+## Lista de fluxos de trabalho técnicos {#list-of-technical-workflows}
 
 Os fluxos de trabalho técnicos são usados para lidar com processos técnicos e em segundo plano acionados automaticamente no Adobe Campaign.
 
@@ -45,7 +51,7 @@ Os fluxos de trabalho técnicos são usados para lidar com processos técnicos e
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Faturamento</span> <br /> </td> 
-   <td> <span class="uicontrol">faturamento</span> <br /> </td> 
+   <td> <span class="uicontrol">billing</span> <br /> </td> 
    <td> Este fluxo de trabalho envia por email o relatório de atividades do sistema para o usuário 'faturamento'. Por padrão, ele é iniciado automaticamente todos os dias às 1:00.<br /> </td> 
   </tr> 
   <tr> 
@@ -103,7 +109,7 @@ Os fluxos de trabalho técnicos são usados para lidar com processos técnicos e
   <tr> 
    <td> <span class="uicontrol">Recuperar Logs De Rastreamento</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
-   <td> Esse fluxo de trabalho restaura os logs de rastreamento perdidos. Observe que esse workflow técnico é usado em contextos específicos e restrito somente ao uso interno do Adobe. <br> Por padrão, ele é iniciado a cada 10 minutos.<br /> </td> 
+   <td> Esse fluxo de trabalho restaura os logs de rastreamento perdidos. Observe que esse workflow técnico é usado em contextos específicos e restrito somente ao uso interno da Adobe. <br> Por padrão, ele é iniciado a cada 10 minutos.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Atualizar a execução do delivery</span> <br/> </td> 
@@ -118,7 +124,7 @@ Os fluxos de trabalho técnicos são usados para lidar com processos técnicos e
   <tr> 
    <td> <span class="uicontrol">Atualizar status do evento</span> <br /> </td> 
    <td> <span class="uicontrol">updateEventsStatus</span> <br /> </td> 
-   <td> Este fluxo de trabalho permite atribuir um status a um evento. Os seguintes status de evento estão disponíveis:<br /> <strong>Pending</strong>: o evento está em uma fila. Nenhum template de mensagem foi atribuído a ele.<br /> <span class="uicontrol">Pending delivery</span>: o evento está na fila, um template de mensagem foi atribuído a ele e ele está sendo processado pelo delivery.<br /> <strong>Sent</strong>: este status é copiado dos logs de delivery. Ele significa que a entrega foi enviada.<br /> <strong>Ignored by the delivery</strong>: este status é copiado dos logs de delivery. Ele significa que a entrega foi ignorada.<br /> <strong>Delivery failed</strong>: este status é copiado dos logs de delivery. Ele significa que a entrega falhou.<br /> <span class="uicontrol">Event not taken into account</span>: não foi possível vincular o evento a um template de mensagem. O evento não será processado.<br /> </td> 
+   <td> Este fluxo de trabalho permite atribuir um status a um evento. Os seguintes status de evento estão disponíveis:<br /> <strong>Pending</strong>: o evento está em uma fila. Nenhum modelo de mensagem foi atribuído a ele.<br /> <span class="uicontrol">Entrega pendente</span>: o evento está na fila, um modelo de mensagem foi atribuído a ele e está sendo processado pela entrega.<br /> <strong>Enviado</strong>: este status é copiado dos logs de entrega. Significa que a entrega foi enviada.<br /> <strong>Ignorado pela entrega</strong>: este status é copiado dos logs de entrega. Significa que a entrega foi ignorada.<br /> <strong>Falha na entrega</strong>: este status é copiado dos logs de entrega. Significa que a entrega falhou.<br /> <span class="uicontrol">Evento não levado em conta</span>: não foi possível vincular o evento a um modelo de mensagem. O evento não será processado.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Atualização para entregabilidade</span><br /> </td> 

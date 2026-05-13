@@ -8,10 +8,15 @@ feature: Campaigns
 role: User
 level: Beginner
 exl-id: a0f02f69-d72d-48ca-8b38-aaab8d1acfad
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/kZTyOD8tL-C3HzPpUhVohvr7dM0WZ-EdNNQA1S1iB6k
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 91%
+source-wordcount: 417
+ht-degree: 79%
 
 ---
 
@@ -19,24 +24,24 @@ ht-degree: 91%
 
 ## Sobre modelos {#about-templates}
 
-Ao criar uma nova atividade de marketing, a primeira tela do assistente solicita que você selecione um tipo ou template. Os templates permitem pré-configurar parâmetros específicos de acordo com as necessidades. O template pode conter uma configuração completa ou parcial da atividade de marketing. O gerenciamento de templates é feito pelo administrador funcional.
+Ao criar uma nova atividade de marketing, a primeira tela do assistente solicita que você selecione um tipo ou modelo. Os modelos permitem pré-configurar parâmetros específicos de acordo com as necessidades. O modelo pode conter uma configuração completa ou parcial da atividade de marketing. O gerenciamento de modelos é feito pelo administrador funcional.
 
-O usuário final tem uma interface simplificada. Ao criar uma nova atividade de marketing, basta selecionar o template que quer usar. Você não precisa se preocupar com configurações técnicas. Ele já foi pré-configurado pelo administrador funcional no template.
+O usuário final tem uma interface simplificada. Ao criar uma nova atividade de marketing, basta selecionar o modelo que quer usar. Você não precisa se preocupar com configurações técnicas. Ele já foi pré-configurado pelo administrador funcional no modelo.
 
-Por exemplo, no caso de um template de email, você pode preencher previamente o conteúdo HTML, o público-alvo e qualquer outro parâmetro da entrega, como programação, perfis de teste, as propriedades gerais da entrega, os parâmetros avançados etc. Assim, você economiza tempo ao criar uma nova atividade.
+Por exemplo, no caso de um template de email, você pode preencher previamente o conteúdo do HTML, o público-alvo e qualquer outro parâmetro do delivery: programação, perfis de teste, as propriedades gerais do delivery, os parâmetros avançados etc. Isso permite economizar tempo ao criar uma nova atividade.
 
 ![](assets/template_1.png)
 
-Para cada tipo de atividade de marketing, um ou vários templates prontos para uso estão disponíveis com configuração mínima. Esses templates prontos para uso não podem ser modificados ou excluídos.
+Para cada tipo de atividade de marketing, um ou vários modelos prontos para uso estão disponíveis com configuração mínima. Esses modelos prontos para uso não podem ser modificados ou excluídos.
 
-Os templates estão disponíveis para as seguintes atividades de marketing:
+Os modelos estão disponíveis para as seguintes atividades de marketing:
 
 * Programas
 * Campanhas
 * Entregas de email
 * Entregas por SMS
 * Notificações por push
-* Landing pages
+* Páginas de destino
 * Fluxos de trabalho
 * Serviços
 * Importação
@@ -44,9 +49,9 @@ Os templates estão disponíveis para as seguintes atividades de marketing:
 
 ## Criação de um novo modelo {#creating-a-new-template}
 
-Os templates de mensagem podem ser gerenciados pelo administrador funcional da plataforma, no menu **[!UICONTROL Resources > Templates]**. Os templates prontos para uso não podem ser modificados ou excluídos. Para criar um novo template, você deve duplicar um template existente.
+Os modelos de mensagem podem ser gerenciados pelo administrador funcional da plataforma, no menu **[!UICONTROL Resources > Templates]**. Os modelos prontos para uso não podem ser modificados ou excluídos. Para criar um novo modelo, você deve duplicar um modelo existente.
 
-1. Selecione um template. Neste exemplo, escolhemos um **[!UICONTROL Delivery template]**.
+1. Selecione um modelo. Neste exemplo, escolhemos um **[!UICONTROL Delivery template]**.
 
    ![](assets/template_2.png)
 
@@ -58,24 +63,24 @@ Os templates de mensagem podem ser gerenciados pelo administrador funcional da p
 
    ![](assets/template_4.png)
 
-Os templates criados podem ser selecionados pelo usuário padrão na primeira tela do assistente ao criar uma atividade de marketing.
+Os modelos criados podem ser selecionados pelo usuário padrão na primeira tela do assistente ao criar uma atividade de marketing.
 
 ## Uso de um template {#using-a-template}
 
-Agora vamos analisar como usar um template criado na seção anterior.
+Agora vamos analisar como usar um modelo criado na seção anterior.
 
 >[!NOTE]
 >
->A criação de uma atividade de marketing com base em um template é geralmente feita por um perfil padrão de tipo de usuário.
+>A criação de uma atividade de marketing com base em um modelo é geralmente feita por um perfil padrão de tipo de usuário.
 
 1. Crie uma nova atividade de marketing.
 
    ![](assets/template_5.png)
 
-1. Na primeira tela do assistente, selecione o template que deseja usar.
+1. Na primeira tela do assistente, selecione o modelo que deseja usar.
 
    ![](assets/template_6.png)
 
-   A atividade de marketing é pré-configurada com os parâmetros definidos no template.
+   A atividade de marketing é pré-configurada com os parâmetros definidos no modelo.
 
    ![](assets/template_7.png)

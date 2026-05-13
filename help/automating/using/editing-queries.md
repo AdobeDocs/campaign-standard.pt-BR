@@ -10,9 +10,12 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/s3em827G4rbFW4oJicP0iQC5PPUqsVWFBoofC3c094Q
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: 798
 ht-degree: 94%
 
 ---
@@ -27,7 +30,7 @@ Use esse recurso para criar uma população e melhorar o direcionamento dos dest
 
 Várias funcionalidades de aplicativo o utilizam para:
 
-* Criar **públicos-alvos** do tipo **Query**
+* Criar **públicos-alvos** do tipo **Consulta**
 * Definir os públicos alvo do **email**
 * Definir as populações nas atividades de **fluxo de trabalho**
 
@@ -69,7 +72,7 @@ As consultas podem ser definidas na janela **[!UICONTROL Audience]** ao criar um
 
      ![](assets/query_editor_audience_definition2.png)
 
-   * Para um **campo** de data ou de data e hora, você pode optar por definir uma data específica, um intervalo entre duas datas ou um período relativo à data de execução do query.
+   * Para um **campo** de data ou de data e hora, você pode optar por definir uma data específica, um intervalo entre duas datas ou um período relativo à data de execução da consulta.
 
      ![](assets/query_editor_date_field.png)
 
@@ -82,7 +85,7 @@ As consultas podem ser definidas na janela **[!UICONTROL Audience]** ao criar um
 
      ![](assets/query_editor_audience_definition5.png)
 
-   * Para um link **1-N** com outro recurso de banco de dados, você pode definir um subquery nos campos desse segundo recurso.
+   * Para um link **1-N** com outro recurso de banco de dados, você pode definir uma subconsulta nos campos desse segundo recurso.
 
      Não é necessário especificar uma subcondição.
 
@@ -103,11 +106,11 @@ As consultas podem ser definidas na janela **[!UICONTROL Audience]** ao criar um
    * **[!UICONTROL OR]**: uma união de dois critérios. Os elementos correspondentes a pelo menos um dos critérios são considerados.
    * **[!UICONTROL EXCEPT]**: critérios de exclusão. Os elementos correspondentes ao primeiro critério são considerados, a menos que também correspondam ao segundo critério.
 
-1. Agora você pode calcular e pré-visualizar o número de elementos direcionados pelo query usando os botões ![](assets/count.png) e ![](assets/preview.png) da barra de ação.
+1. Agora você pode calcular e pré-visualizar o número de elementos direcionados pela consulta usando os botões ![](assets/count.png) e ![](assets/preview.png) da barra de ação.
 
    ![](assets/query_editor_combining_rules.png)
 
-Se quiser modificar um elemento do query, clique no ícone de edição. A regra é aberta conforme configurada anteriormente, e você pode realizar os ajustes necessários.
+Se quiser modificar um elemento da consulta, clique no ícone de edição. A regra é aberta conforme configurada anteriormente, e você pode realizar os ajustes necessários.
 
 Agora as consultas são criadas e definidas, e você pode criar uma população para personalizar melhor suas entregas.
 

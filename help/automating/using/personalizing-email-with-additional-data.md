@@ -10,9 +10,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: b207dc73-03dc-4f25-95e5-573e4b4bce54
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/In2Pa0ur5bnsNUXl2Z0x4hVARQRy2FV2RmvpPnm5XGw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: 480
 ht-degree: 81%
 
 ---
@@ -37,7 +42,7 @@ O fluxo de trabalho é apresentado da seguinte forma:
 
    ![](assets/enrichment_example2.png)
 
-1. Na guia **[!UICONTROL Additional data]** do query, defina os diferentes dados a serem exibidos no email final:
+1. Na guia **[!UICONTROL Additional data]** da consulta, defina os diferentes dados a serem exibidos no email final:
 
    * O campo simples da dimensão do **perfil** correspondente aos pontos de fidelidade. Consulte a seção [Adição de um campo simples](../../automating/using/query.md#adding-a-simple-field).
    * Duas agregações com base na coleção de transações: o número de produtos comprados e o total gasto. Você pode adicioná-los da guia **[!UICONTROL Data]** da janela de configuração da agregação, usando as agregações **Count** e **Sum**. Consulte a seção [Adição de uma agregação](../../automating/using/query.md#adding-an-aggregate).
@@ -51,12 +56,12 @@ O fluxo de trabalho é apresentado da seguinte forma:
 
    ![](assets/enrichment_example4.png)
 
-1. Se você quiser verificar se os dados foram transferidos corretamente pela transição de saída da atividade, inicie o fluxo de trabalho pela primeira vez (sem a atividade **[!UICONTROL Email delivery]**) e abra a transição de saída do query.
+1. Se você quiser verificar se os dados foram transferidos corretamente pela transição de saída da atividade, inicie o fluxo de trabalho pela primeira vez (sem a atividade **[!UICONTROL Email delivery]**) e abra a transição de saída da consulta.
 
    ![](assets/enrichment_example5.png)
 
-1. Adicione uma atividade [Email delivery](../../automating/using/email-delivery.md). No conteúdo do email, insira os campos de personalização correspondentes aos dados calculados no query. Você pode encontrá-los no link **[!UICONTROL Additional data (targetData)]** do explorer de campos de personalização.
+1. Adicione uma atividade [Email delivery](../../automating/using/email-delivery.md). No conteúdo do email, insira os campos de personalização correspondentes aos dados calculados na consulta. Você pode encontrá-los no link **[!UICONTROL Additional data (targetData)]** do explorer de campos de personalização.
 
    ![](assets/enrichment_example3.png)
 
-Seu fluxo de trabalho agora está pronto para ser executado. Os perfis direcionados no query receberão um email personalizado com os dados calculados das transações.
+Seu fluxo de trabalho agora está pronto para ser executado. Os perfis direcionados na consulta receberão um email personalizado com os dados calculados das transações.

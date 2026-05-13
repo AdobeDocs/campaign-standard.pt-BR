@@ -9,10 +9,17 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+TQID: https://experienceleague.adobe.com/xwmywhEboE06iVgZJo2DTSqg2f1F1XHEAHGKjkKoqC4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e739ee2b-6228-412e-878f-45de0791417d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 39%
+source-wordcount: 1276
+ht-degree: 36%
 
 ---
 
@@ -34,7 +41,7 @@ Dois tipos de notificações por push estão disponíveis no Adobe Campaign:
 
 * As notificações do tipo **[!UICONTROL Alert/Message/Badge]** permitem enviar mensagens padrão baseadas em texto com conteúdo adicional (som, selo, deeplink etc.) que você pode definir na seção **[!UICONTROL Advanced options]**.
 
-  Esses tipos de notificação permitem adicionar um título e uma mensagem na qual você pode usar campos de personalização. Para personalizar a mensagem, selecione o template **[!UICONTROL Send push on profiles]**.
+  Esses tipos de notificação permitem adicionar um título e uma mensagem na qual você pode usar campos de personalização. Para personalizar a mensagem, selecione o modelo **[!UICONTROL Send push on profiles]**.
 
 * As notificações do tipo **[!UICONTROL Silent push]** são usadas para notificar silenciosamente o aplicativo sem qualquer mensagem ou conteúdo para o usuário final. Um caso de uso típico desse tipo de mensagem seria tornar o aplicativo ciente de que há conteúdo disponível a ser baixado do servidor.
 
@@ -72,7 +79,7 @@ Antes de enviar as notificações por push, você deve:
 
 1. Adicione a configuração específica do canal à configuração do aplicativo móvel. Para saber mais, consulte [Configuração do aplicativo específico do canal no Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
-1. Para saber mais sobre as implementações dos casos de uso móveis, consulte as instruções detalhadas sobre extensões, regras de tags e a implementação do SDK em [Casos de uso móveis com suporte no Adobe Campaign Standard com SDKs da Adobe Experience Platform](../../administration/using/configuring-rules-launch.md).
+1. Para saber mais sobre as implementações dos casos de uso móveis, consulte as instruções detalhadas sobre extensões, regras de tags e a implementação do SDK em [Casos de uso móveis com suporte no Adobe Campaign Standard usando SDKs da Adobe Experience Platform](../../administration/using/configuring-rules-launch.md).
 
 ## Perguntas frequentes sobre notificação por push {#push-faq}
 
@@ -80,14 +87,14 @@ Antes de enviar as notificações por push, você deve:
 
 Confira os recursos abaixo:
 
-* [Tutorials de vídeo](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html?lang=pt-BR)
+* [Tutoriais em vídeo](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [Documentação do produto](../../channels/using/about-push-notifications.md)
-* Configurar usando a [documentação](../../administration/using/configuring-a-mobile-application.md) do SDK da AEP
-* [Página da comunidade](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=pt)
+* Configurar usando a [documentação](../../administration/using/configuring-a-mobile-application.md) do AEP SDK
+* [Página da comunidade](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### O que devo fazer para adquirir um token de push no Campaign? {#push-token-acquisition}
 
-Verifique se a equipe de provisionamento concluiu o provisionamento do canal Push na Adobe Campaign Standard. Implementar a API setPushIdentifier do SDK. Para obter mais informações, consulte esta [página](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#set-up-push-messaging).
+Verifique se a equipe de provisionamento concluiu o provisionamento do canal Push na Adobe Campaign Standard. Implementar a API setPushIdentifier no SDK. Para obter mais informações, consulte esta [página](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#set-up-push-messaging).
 
 ### Depois que tenho o token de push e a ECID no Campaign, o que mais preciso para enviar uma notificação por push? {#sending-push}
 

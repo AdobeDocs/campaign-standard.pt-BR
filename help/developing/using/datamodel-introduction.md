@@ -8,9 +8,13 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: c4d6d420-1058-4ca7-bb39-717c56329e05
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/Fs7YA-EpzPGby-f6g8zv-qHAAuUIGGVkrbSms-DuZMM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: 147
 ht-degree: 100%
 
 ---
@@ -23,7 +27,7 @@ O modelo de dados do Adobe Campaign Standard exibe a estrutura SQL incorporada p
 
 Esta seção destina-se aos especialistas ou desenvolvedores do Campaign.
 
-Para cada recurso, você encontrará nas subpáginas uma tabela que lista os campos SQL com as características disponíveis, como nome interno, tipo e detalhes da lista discriminada. Também são listados os filtros incorporados associados ao recurso. Cada filtro vem com uma lista de parâmetros.
+Para cada recurso, você encontrará nas subpáginas uma tabela que lista os campos SQL com as características disponíveis, como nome interno, tipo e detalhes da enumeração. Também são listados os filtros integrados associados ao recurso. Cada filtro vem com uma lista de parâmetros.
 
 >[!NOTE]
 >O modelo de dados do Campaign só pode ser modificado somente por [administradores](../../administration/using/users-management.md#functional-administrators).

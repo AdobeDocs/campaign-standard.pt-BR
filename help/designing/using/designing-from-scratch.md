@@ -8,10 +8,15 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
-source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
+TQID: https://experienceleague.adobe.com/RK13F3Nw-2wxI9rKip-XKDJ3xi0hgpwI-F1uGcKoFKM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 22%
+source-wordcount: 1238
+ht-degree: 15%
 
 ---
 
@@ -30,7 +35,7 @@ Estas são as etapas principais para criar e projetar um conteúdo de email do z
 1. Pré-visualize seu email.
 1. Salve o conteúdo e prossiga com a mensagem depois de verificar se você definiu um público-alvo e agendou o envio corretamente.
 
-Você também pode assistir a este [vídeo de introdução](https://video.tv.adobe.com/v/330105/?captions=por_br&autoplay=true&hidetitle=true).
+Você também pode assistir a este [vídeo de introdução](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
 
 >[!NOTE]
 >
@@ -98,7 +103,7 @@ Você pode adicionar um **[!UICONTROL Content block]**, um **[!UICONTROL Dynamic
 
 >[!NOTE]
 >
->Observe que o pré-cabeçalho não é compatível com todos os programas de email. Quando este for o caso, o pré-cabeçalho não será exibido.
+>Observe que o pré-cabeçalho não é compatível com todos os programas de email. Quando não for suportado, o pré-cabeçalho não será exibido.
 
 ## Uso de componentes de conteúdo {#about-content-components}
 
@@ -162,7 +167,7 @@ Insira o componente de vídeo em um componente de estrutura do email e insira o 
 
 >[!NOTE]
 >
->Observe que o vídeo não é compatível com todos os programas de email. Quando este for o caso, o fallback será exibido.
+>Observe que o vídeo não é compatível com todos os programas de email. Quando não for suportado, o fallback será exibido.
 
 ### Imagem
 
@@ -179,7 +184,7 @@ Use esse componente para inserir links para páginas de redes sociais no seu ema
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="Configurações do carrossel"
->abstract="Saiba como inserir e configurar um carrossel no seu conteúdo. Observe que o carrossel não funciona em todo o cliente de email e a imagem alternativa será exibida caso não seja compatível."
+>abstract="Saiba como inserir e configurar um carrossel no seu conteúdo.Observe que o carrossel não funciona em todos os clientes de email e a imagem de fallback será exibida caso não seja compatível."
 
 1. Arraste e solte o componente **[!UICONTROL Carousel]** dentro de um componente de estrutura.
 1. Navegue para selecionar imagens do seu computador.

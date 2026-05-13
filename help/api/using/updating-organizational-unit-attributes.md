@@ -9,9 +9,13 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 90841afd-ebc2-4b6a-895e-a96ef65740d7
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/VxXrw8RbDRqNAy14j-302n0mjx0JBOSvsjwfSjAqKAI
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: 84
 ht-degree: 0%
 
 ---

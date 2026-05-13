@@ -10,10 +10,15 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/tl7zyRjRGu9XFjQbPnubDvwqTY-HV7DDPDfOdiKHSi4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 77%
+source-wordcount: 1172
+ht-degree: 75%
 
 ---
 
@@ -52,7 +57,7 @@ Você pode usar essa atividade para recuperar dados que serão estruturados com 
    * [HTTP](#HTTP-configuration-wf)
    * [SFTP](#SFTP-configuration-wf)
    * [Amazon S3](#S3-configuration-wf)
-   * [Armazenamento do Microsoft Azure Blob](#azure-blob-configuration-wf)
+   * [Armazenamento de blobs do Microsoft Azure](#azure-blob-configuration-wf)
    * [Arquivos presentes no servidor do Adobe Campaign](#files-server-configuration-wf)
 
 1. A seção **[!UICONTROL Additional options]**, disponível dependendo do protocolo selecionado, permite que você adicione parâmetros ao seu protocolo.
@@ -101,7 +106,6 @@ Com esse protocolo, você pode optar por **[!UICONTROL Use connection parameters
 
 Você também pode escolher a opção **[!UICONTROL Quick configuration]**. Você só precisa inserir o URL no campo URL.
 
-
 ### Configuração com o Amazon S3 {#S3-configuration-wf}
 
 O protocolo Amazon S3 permite iniciar o download de um arquivo de um URL ou de uma conta externa por meio do Amazon Simple Storage Service (S3).
@@ -122,7 +126,7 @@ O protocolo Amazon S3 permite iniciar o download de um arquivo de um URL ou de u
 
 4. Se quiser excluir os arquivos de origem quando a transferência for concluída, marque **[!UICONTROL Delete the source files after transfer]**.
 
-### Configuração com o armazenamento de blobs do Microsoft Azure {#azure-blob-configuration-wf}
+### Configuração com o armazenamento Microsoft Azure Blob {#azure-blob-configuration-wf}
 
 O protocolo Blob do Microsoft Azure permite acessar o blob localizado em uma conta de armazenamento de blobs do Microsoft Azure.
 
@@ -149,7 +153,7 @@ O protocolo Blob do Microsoft Azure permite acessar o blob localizado em uma con
 O protocolo **[!UICONTROL File(s) present on the Adobe Campaign server]** corresponde ao repositório que contém os arquivos a serem recuperados.
 Metacaracteres ou curingas (por exemplo, &#42; ou ?) para filtrar arquivos.
 
-Escolha se deseja **[!UICONTROL Define a file path]** ou **[!UICONTROL Use a dynamic file path]**.
+Escolha se deseja **[!UICONTROL Define a file path]** ou **[!UICONTROL Use a dynamic file path]**
 A opção **[!UICONTROL Use a dynamic file path]** permite usar uma expressão padrão e variáveis de eventos para personalizar o nome do arquivo a ser transferido. Para obter mais informações, consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md).
 
 Observe que o caminho deve ser relativo ao diretório do espaço de armazenamento do servidor do Adobe Campaign. Os arquivos estão localizados no diretório **sftp&lt;yourinstancename>/**. Você também não pode navegar pelos diretórios acima do espaço de armazenamento.

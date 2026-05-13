@@ -9,9 +9,14 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+TQID: https://experienceleague.adobe.com/yMObKVSUHuRFlzf7DgbbH3iwsNXTknAasYIfF37fy4E
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: 773
 ht-degree: 90%
 
 ---

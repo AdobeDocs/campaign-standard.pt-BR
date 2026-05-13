@@ -1,6 +1,6 @@
 ---
 title: Introdução a canais de comunicação
-description: Crie mensagens personalizadas em vários canais, use modelos, crie páginas de aterrissagem e verifique as práticas recomendadas.
+description: Crie mensagens personalizadas em vários canais, use modelos, crie páginas de destino e verifique as práticas recomendadas.
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
@@ -8,10 +8,17 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/DsdeXlYu0S43vbf7VAUk0Nr9HfYDvjzCdfSu-ODCrXU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a4671286-a59f-47e3-b97b-90627a1977d5
+subfeature_v2: id: d3b34fea-a110-482f-adb2-aae8d686bac8id: d7be2b01-dc9c-40f7-aace-a151707504edid: ed29abcd-b6a8-4d4b-ab8b-b7e746973281id: ede6e1ec-9279-415e-b828-a09735018d48
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 21%
+source-wordcount: 537
+ht-degree: 23%
 
 ---
 
@@ -52,7 +59,7 @@ Leia mais:
 
 Para cada canal, funcionalidades específicas estão disponíveis. Por exemplo, o canal de email permite executar um teste A/B para testar até três versões de uma mensagem de email. Com o canal SMS, gerencie mensagens SMS PARAR e armazene SMS de entrada dos recipients no banco de dados.
 
-Além disso, aproveite os **recursos de personalização e conteúdo dinâmico** do Campaign Standard para capturar o interesse do seu público-alvo.
+Além disso, aproveite os **recursos de personalização e conteúdo dinâmico** do Campaign Standard para capturar o interesse do seu público.
 
 Leia mais:
 
@@ -90,9 +97,9 @@ As páginas de aterrissagem também podem ser usadas para **adquirir ou atualiza
 
 Leia mais:
 
-* [Introdução às landing pages](../../channels/using/getting-started-with-landing-pages.md)
-* [Templates de landing page](../../channels/using/landing-page-templates.md)
-* [Gerenciamento de dados de formulário de landing page](../../channels/using/managing-landing-page-form-data.md)
+* [Introdução às páginas de destino](../../channels/using/getting-started-with-landing-pages.md)
+* [Modelos de página de destino](../../channels/using/landing-page-templates.md)
+* [Gerenciamento de dados de formulário de página de destino](../../channels/using/managing-landing-page-form-data.md)
 * [Configuração de um processo duplo de aceitação](../../channels/using/setting-up-a-double-opt-in-process.md)
 
 ## Recursos adicionais
@@ -102,5 +109,5 @@ Leia mais:
 * [Criação de conteúdo de email](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Importação de conteúdo do AEM](../../integrating/using/creating-email-experience-manager.md)
 * [Envio de mensagens com workflows](../../automating/using/about-channel-activities.md)
-* [Vídeos tutoriais sobre canais de comunicação](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html?lang=pt-BR)
+* [Vídeos tutoriais sobre canais de comunicação](https://experienceleague.adobe.com/pt-br/docs/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage)
 * [Caso de uso: criação de uma entrega entre canais](../../automating/using/workflow-cross-channel-delivery.md)

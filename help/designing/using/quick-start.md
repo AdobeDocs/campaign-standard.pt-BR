@@ -8,9 +8,15 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 47f53290-2190-4181-bcd5-e60287189c41
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/0eUMMX7vLCR8uHV45WX3u-XfExReU0HLhunWZ1ho-X0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: 942
 ht-degree: 5%
 
 ---
@@ -27,13 +33,13 @@ Você pode criar um email [começando do zero no Designer de email](#without-exi
 
 Você também pode criar um email [com conteúdo existente](#with-existing-content):
 
-1. Você pode **converter um conteúdo de HTML existente** (criado externamente ou no editor herdado). [Saiba mais](#converting-an-html-content)
-1. Você pode **importar um conteúdo de HTML existente** imediatamente no modo de compatibilidade. [Saiba mais](#compatibility-mode)
+1. Você pode **converter um conteúdo existente do HTML** (criado externamente ou no editor herdado). [Saiba mais](#converting-an-html-content)
+1. Você pode **importar um conteúdo existente do HTML** imediatamente no modo de compatibilidade. [Saiba mais](#compatibility-mode)
 
 | Sem conteúdo | Com conteúdo |
 |---|---|
-| [Criando um email do zero](#from-scratch-email) | [Convertendo um conteúdo de HTML existente](#converting-an-html-content) |
-| [Compilando conteúdo a partir de um modelo predefinido](#building-content-from-an-out-of-the-box-template) | [Importando um HTML existente](#compatibility-mode) |
+| [Criando um email do zero](#from-scratch-email) | [Convertendo um conteúdo HTML existente](#converting-an-html-content) |
+| [Compilando conteúdo a partir de um modelo predefinido](#building-content-from-an-out-of-the-box-template) | [Importando uma HTML existente](#compatibility-mode) |
 
 ## Criação de emails com o editor {#without-existing-content}
 
@@ -123,7 +129,7 @@ Você pode criar um email a partir de modelos prontos para uso, como mensagens d
 1. Crie um email e abra seu conteúdo. Para obter mais informações, consulte [Criação de email](../../channels/using/creating-an-email.md).
 1. Clique no ícone da página inicial para acessar a página inicial **[!UICONTROL Email Designer]**.
 1. Clique na guia **[!UICONTROL Templates]**.
-1. Escolha um modelo de HTML pronto para uso.
+1. Escolha um template do HTML pronto para uso.
 Os diferentes templates apresentam várias combinações de vários tipos de elementos. Por exemplo, os modelos &quot;Difusão&quot; têm margens, enquanto os modelos &quot;Astro&quot; não têm. Para obter mais informações, consulte [Modelos de conteúdo](../../designing/using/using-reusable-content.md#content-templates).
 1. Vá para a guia **[!UICONTROL Properties]** da página inicial do Email Designer (acessível por meio do ícone de página inicial) e preencha a seção **[!UICONTROL Subject]**.
 1. Você pode combinar esses elementos para criar várias variantes de email. Por exemplo, você pode duplicar uma seção de email selecionando um componente de estrutura e clicando em **[!UICONTROL Duplicate]** na barra de ferramentas contextual.
@@ -134,11 +140,11 @@ Os diferentes templates apresentam várias combinações de vários tipos de ele
 
 ## Uso de um conteúdo de email existente {#with-existing-content}
 
-Se você quiser criar uma estrutura de modelos e fragmentos modulares que podem ser combinados para reutilização em vários emails, considere converter seu HTML de email em um modelo de Designer de email.
+Se você quiser criar uma estrutura de modelos e fragmentos modulares que podem ser combinados para reutilização em vários emails, considere converter seu HTML de email em um modelo Designer de email.
 
-### Conversão de conteúdo de HTML {#converting-an-html-content}
+### Conversão de conteúdo do HTML {#converting-an-html-content}
 
-Esse caso de uso oferece uma maneira rápida de converter o email do HTML em componentes de Designer de email. Para obter mais informações sobre este tópico, consulte [Convertendo conteúdo de HTML](../../designing/using/using-existing-content.md#converting-an-html-content).
+Esse caso de uso oferece uma maneira rápida de converter emails do HTML em componentes de email do Designer. Para obter mais informações sobre este tópico, consulte [Conversão de conteúdo do HTML](../../designing/using/using-existing-content.md#converting-an-html-content).
 
 >[!CAUTION]
 >
@@ -146,11 +152,11 @@ Esse caso de uso oferece uma maneira rápida de converter o email do HTML em com
 
 >[!NOTE]
 >
->Como o modo de compatibilidade, um componente HTML é editável com opções limitadas: você só pode executar a edição no local.
+>Como o modo de compatibilidade, um componente do HTML é editável com opções limitadas: você só pode executar a edição no local.
 
 
 ### Importação e edição de um email do HTML {#compatibility-mode}
 
-Ao fazer upload de um conteúdo, ele deve conter marcações específicas para ser totalmente compatível e editável com o editor WYSIWYG do Email Designer.
+Ao fazer upload de um conteúdo, ele deve conter marcações específicas para ser totalmente compatível e editável com o editor do WYSIWYG da Designer de email.
 
 Para obter mais informações sobre como converter um email existente em um email compatível com o Designer, consulte [esta seção](../../designing/using/using-existing-content.md#compatibility-mode).

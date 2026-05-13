@@ -10,9 +10,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/0JaRwv07dtCgzlGeRxr-AnLlPzvWUpH2zxS-Nzk1hVw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: 886
 ht-degree: 79%
 
 ---
@@ -62,13 +66,13 @@ A atividade **[!UICONTROL Segmentation]** geralmente é colocada após as ativid
    * **[!UICONTROL Limit segment population]**: permite limitar o tamanho do segmento.
    * **[!UICONTROL Filter and limit segment population]**: permite filtrar a população do segmento e limitar o tamanho.
    * **[!UICONTROL Label]**: rótulo do segmento.
-   * **[!UICONTROL Segment code]**: código atribuído à população do segmento. O código de segmento pode ser personalizado usando uma expressão padrão e variáveis de eventos (consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
+   * **[!UICONTROL Segment code]**: código atribuído à população do segmento.O código de segmento pode ser personalizado usando uma expressão padrão e variáveis de eventos (consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
    * **[!UICONTROL Exclude segment from population]**: permite excluir o segmento especificado da população de saída da atividade. Essa opção só poderá ser usada se a opção **[!UICONTROL Generate all segments in the same transition]** estiver selecionada.
 
    ![](assets/wkf_segment_new_segment.png)
 
 1. Abra a visualização detalhada do segmento para acessar as opções de configuração. Para fazer isso, marque a caixa relevante na lista de segmentos da atividade e selecione ![](assets/wkf_segment_parameters_24px.png).
-1. Se a opção para filtrar a população inicial estiver marcada, abra a guia **[!UICONTROL Filter]** e especifique a população do segmento. Os filtros são baseados na dimensão do filtro selecionada na etapa 4. Consulte a seção [Edição de query](../../automating/using/editing-queries.md) para saber mais sobre a filtragem de população.
+1. Se a opção para filtrar a população inicial estiver marcada, abra a guia **[!UICONTROL Filter]** e especifique a população do segmento. Os filtros são baseados na dimensão do filtro selecionada na etapa 4. Consulte a seção [Edição de consulta](../../automating/using/editing-queries.md) para saber mais sobre a filtragem de população.
 
    Se a segmentação for realizada em um recurso temporário, a contagem e a pré-visualização da população não estarão disponíveis nessa guia.
 
@@ -76,7 +80,7 @@ A atividade **[!UICONTROL Segmentation]** geralmente é colocada após as ativid
 
    Primeiro, selecione o **[!UICONTROL Type of limit]** que deseja usar:
 
-   * **[!UICONTROL Random sampling]**: a população do segmento é selecionada aleatoriamente levando em conta a configuração da guia **[!UICONTROL Filter]**, se necessário. 
+   * **[!UICONTROL Random sampling]**: a população do segmento é selecionada aleatoriamente levando em conta a configuração da guia **[!UICONTROL Filter]**, se necessário.
    * **[!UICONTROL Ordered sampling]**: a população do segmento é selecionada de maneira ordenada. Consequentemente, você deve especificar as colunas a serem consideradas e o tipo de classificação a ser aplicado. Por exemplo, se você selecionar o campo **Age** como a coluna de classificação ao aplicar uma **[!UICONTROL Descending sort]** e definir o limite 100, apenas os perfis das 100 pessoas mais velhas serão mantidos.
 
    Agora especifique o **[!UICONTROL Limit]** de tamanho do segmento:

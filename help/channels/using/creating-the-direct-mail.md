@@ -9,9 +9,15 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
-source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
+TQID: https://experienceleague.adobe.com/z-rDsGlbZEzyIA-lxwtu-ujfxkeiblDnhK-jsXviFGQ
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: 642
 ht-degree: 88%
 
 ---
@@ -22,13 +28,13 @@ A criação de uma entrega de correspondência direta é muito semelhante à cri
 
 >[!NOTE]
 >
->Você também pode adicionar uma atividade de correspondência direta em um workflow. Para mais informações, consulte o Guia [Fluxos de trabalho](../../automating/using/direct-mail-delivery.md).
+>Você também pode adicionar uma atividade de correspondência direta em um fluxo de trabalho. Para mais informações, consulte o Guia [Fluxos de trabalho](../../automating/using/direct-mail-delivery.md).
 
 1. Crie uma nova entrega de correspondência direta. Você pode criar um na [home page](../../start/using/interface-description.md#home-page)do Adobe Campaign, em uma [campanha](../../start/using/marketing-activities.md#creating-a-marketing-activity) ou em uma [lista de atividades de marketing](../../start/using/programs-and-campaigns.md#creating-a-campaign).
 
    ![](assets/direct_mail_1.png)
 
-1. Escolha o template pronto para uso **[!UICONTROL Direct mail]** ou um dos seus próprios templates. Para obter mais informações sobre templates, consulte a seção [Gerenciar templates](../../start/using/marketing-activity-templates.md).
+1. Escolha o modelo pronto para uso **[!UICONTROL Direct mail]** ou um dos seus próprios modelos. Para obter mais informações sobre modelos, consulte a seção [Gerenciar modelos](../../start/using/marketing-activity-templates.md).
 
    ![](assets/direct_mail_2.png)
 
@@ -42,7 +48,7 @@ A criação de uma entrega de correspondência direta é muito semelhante à cri
    >
    >Verifique se o campo de ID não contém nenhum espaço em branco para evitar discrepâncias, por exemplo, ao integrar com o Adobe Analytics.
 
-1. Defina o público-alvo que você deseja incluir no arquivo de extração, bem como os perfis de teste e trap. Consulte [Definição do público-alvo de mala direto](../../channels/using/defining-the-direct-mail-audience.md).
+1. Defina o público-alvo que você deseja incluir no arquivo de extração, bem como os perfis de teste e trap. Consulte [Definição do público-alvo de correspondência direta](../../channels/using/defining-the-direct-mail-audience.md).
 
    ![](assets/direct_mail_4.png)
 
@@ -72,7 +78,7 @@ A criação de uma entrega de correspondência direta é muito semelhante à cri
 
    ![](assets/direct_mail_16.png)
 
-   Regras de tipologia são aplicadas. Por exemplo, todos os endereços postais não especificados são excluídos do destino. É por isso que você precisa verificar se marcou a caixa **[!UICONTROL Address specified]** nas informações dos seus perfis (consulte [Recomendações](../../channels/using/about-direct-mail.md#recommendations)). Se você tiver definido uma **[!UICONTROL Maximum volume of message]** nas propriedades da correspondência direta ou no nível do template, ela também será aplicada aqui.
+   Regras de tipologia são aplicadas. Por exemplo, todos os endereços postais não especificados são excluídos do destino. É por isso que você precisa verificar se marcou a caixa **[!UICONTROL Address specified]** nas informações dos seus perfis (consulte [Recomendações](../../channels/using/about-direct-mail.md#recommendations)). Se você tiver definido uma **[!UICONTROL Maximum volume of message]** nas propriedades da correspondência direta ou no nível do modelo, ela também será aplicada aqui.
 
    ![](assets/direct_mail_25.png)
 
@@ -101,6 +107,6 @@ A criação de uma entrega de correspondência direta é muito semelhante à cri
 Agora, você está pronto para enviar o arquivo de extração ao seu provedor de correspondência direta. Para isso, existem várias opções:
 
 * Enviá-lo por email normal, com o arquivo anexado
-* Enviá-l-o pelo Campaign: faça sua correspondência direta dentro de um [workflow](../../automating/using/direct-mail-delivery.md) de campanha e adicione um **[!UICONTROL Transfer file]** para enviar o arquivo via FTP, por exemplo. Consulte [Transferir arquivo](../../automating/using/transfer-file.md).
+* Enviá-l-o pelo Campaign: faça sua correspondência direta dentro de um [fluxo de trabalho](../../automating/using/direct-mail-delivery.md) de campanha e adicione um **[!UICONTROL Transfer file]** para enviar o arquivo via FTP, por exemplo. Consulte [Transferir arquivo](../../automating/using/transfer-file.md).
 
-O provedor recupera a lista de endereços incorretos e envia essas informações à Adobe Campaign incluir na lista de bloqueios, que automaticamente exibe os endereços incorretos. Consulte [Retornar ao remetente](../../channels/using/return-to-sender.md) .
+O provedor recupera a lista de endereços incorretos e envia essas informações à Adobe Campaign, que automaticamente exibe os endereços incorretos. Consulte [Retornar ao remetente](../../channels/using/return-to-sender.md) .

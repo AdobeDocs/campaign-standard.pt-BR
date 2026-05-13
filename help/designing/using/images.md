@@ -8,9 +8,14 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: b58a378d-18da-4c0f-b4e7-5d0a02aab4c2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/XYTeliw80GkBHk3-1DFWD-CE-85irbDAAjcuOSbQvLI
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: 303
 ht-degree: 7%
 
 ---
@@ -29,7 +34,7 @@ Dependendo da sua configuração, os seguintes tipos de imagens estarão dispon�
 
 >[!CAUTION]
 >
->Se você optar por adicionar uma imagem diretamente editando a versão do HTML do email, você não deve chamar **arquivos externos em uma &lt;script> tag** da página HTML. Esses arquivos não serão importados para o servidor do Adobe Campaign.
+>Se você optar por adicionar uma imagem diretamente editando a versão do email no HTML, não chame **arquivos externos em uma &lt;script> tag** da página do HTML. Esses arquivos não serão importados para o servidor do Adobe Campaign.
 
 ### Inserção de imagens em um email {#inserting-images-in-an-email}
 
@@ -53,11 +58,11 @@ Ao selecionar um bloco que contém uma imagem, as seguintes propriedades são of
 
 * **Habilitar personalização** permite personalizar a fonte da imagem. Consulte [Personalizando uma fonte de imagem](../../designing/using/personalization.md#personalizing-an-image-source).
 * **Título da imagem** permite que você defina um título para a imagem.
-* O **Alt text** (email) ou a **Caption** (página de aterrissagem) permite definir a legenda vinculada à imagem (corresponde ao atributo HTML **alt**).
+* O **Alt text** (email) ou a **Caption** (página de aterrissagem) permite definir a legenda vinculada à imagem (corresponde ao atributo do HTML **alt**).
 * Ao editar um email, o **Estilo** permite especificar o tamanho da imagem, o plano de fundo e a borda.
-* Ao editar uma página de aterrissagem, **Dimension** permite especificar o tamanho da imagem em pixels.
+* Ao editar uma página de aterrissagem, **Dimensions** permite especificar o tamanho da imagem em pixels.
 
-O editor permite trabalhar com **todos os tipos de imagem** cujos formatos sejam compatíveis com os navegadores. Para ser compatível com o editor, as **animações** do tipo &quot;Flash&quot; devem ser inseridas em uma página de HTML da seguinte maneira:
+O editor permite trabalhar com **todos os tipos de imagem** cujos formatos sejam compatíveis com os navegadores. Para ser compatível com o editor, as **animações** do tipo &quot;Flash&quot; devem ser inseridas em uma página do HTML da seguinte maneira:
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">

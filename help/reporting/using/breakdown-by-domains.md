@@ -9,9 +9,14 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 513d74ae-10c0-4d41-a7d1-8ed655e1a2d1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/25Ci4GFEJHIO3Ed2BTBF2qUmD4LKh3jwUC56K8JZgzA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: 238
 ht-degree: 3%
 
 ---

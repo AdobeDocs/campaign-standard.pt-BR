@@ -8,10 +8,15 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+TQID: https://experienceleague.adobe.com/608lVGbr-umlPJM4t-eV2qhW6Vpypx3deu9oKf-b0iU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 80%
+source-wordcount: 1289
+ht-degree: 79%
 
 ---
 
@@ -42,17 +47,17 @@ As etapas para criar uma mensagem independente no aplicativo com o Adobe Campaig
 
    Você também pode criar uma mensagem no aplicativo na guia **Marketing activities** clicando no botão **[!UICONTROL Create]**.
 
-   Observe que uma mensagem no aplicativo também pode ser criada a partir de uma campanha ou da home page do Adobe Campaign ou em um workflow.
+   Observe que uma mensagem no aplicativo também pode ser criada a partir de uma campanha ou da home page do Adobe Campaign ou em um fluxo de trabalho.
 
 1. Selecione **In-App message**.
 
    ![](assets/inapp_creating.png)
 
-1. Selecione um template apropriado com base nas suas necessidades de direcionamento de público-alvo.
+1. Selecione um modelo apropriado com base nas suas necessidades de direcionamento de público-alvo.
 
    ![](assets/inapp_creating_2.png)
 
-   Por padrão, você pode selecionar um dos três templates prontos para uso a seguir:
+   Por padrão, você pode selecionar um dos três modelos prontos para uso a seguir:
 
    * **[!UICONTROL Target users based on their Campaign CRM profile (inAppProfile)]**
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
@@ -80,7 +85,7 @@ As etapas para criar uma mensagem independente no aplicativo com o Adobe Campaig
 
    * **[!UICONTROL Life Cycle events]**: eventos de ciclo de vida predefinidos com suporte pelo Adobe Mobile SDK.
 
-     Para obter mais informações sobre eventos do ciclo de vida, consulte esta [página](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=pt-BR).
+     Para obter mais informações sobre eventos do ciclo de vida, consulte esta [página](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html).
 
    * **[!UICONTROL Analytics Events]**: as três categorias a seguir têm suporte, dependendo do que é instrumentado no aplicativo móvel: Adobe Analytics, Dados de contexto ou estado de Exibição.
 
@@ -88,7 +93,7 @@ As etapas para criar uma mensagem independente no aplicativo com o Adobe Campaig
 
    * **[!UICONTROL Places]**: as três categorias a seguir usam os dados de localização em tempo real para fornecer experiências móveis relevantes contextualmente: dados de contexto do Places, metadados personalizados do Places ou tipo de evento do Places.
 
-     Para obter mais informações sobre o Adobe Places, consulte a [documentação do Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=pt-BR).
+     Para obter mais informações sobre o Adobe Places, consulte a [documentação do Places](https://experienceleague.adobe.com/docs/places/using/home.html).
 
    ![](assets/inapp_creating_4.png)
 
@@ -102,7 +107,7 @@ As etapas para criar uma mensagem independente no aplicativo com o Adobe Campaig
 
    Observe que esse acionador será aplicado ao dispositivo somente para os Pontos de interesse das Bibliotecas selecionadas na extensão Places da interface da Coleção de dados. Para obter mais informações sobre a extensão Places e como instalá-la, consulte esta [documentação](https://developer.adobe.com/client-sdks/solution/places).
 
-1. Na guia **[!UICONTROL Frequency & duration]**, escolha a frequência do acionador, a data de início e de término, o dia da semana e a hora do dia em que a mensagem no aplicativo estará ativa.
+1. Na guia **[!UICONTROL Frequency & duration]**, escolha a frequência do acionador, a data inicial e final, o dia da semana e a hora do dia em que a mensagem no aplicativo estará ativa.
 
    ![](assets/inapp_creating_5.png)
 

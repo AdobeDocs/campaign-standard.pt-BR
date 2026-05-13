@@ -9,9 +9,12 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: dc45f487-7502-478d-a2b3-51669cc6b225
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/oqbuWT87B-EkgJVioe5VMlsuqfOoI3tZA9RKM0LG4RI
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: 616
 ht-degree: 96%
 
 ---
@@ -20,7 +23,7 @@ ht-degree: 96%
 
 Ao criar um recurso ou ao adicionar novos campos a um recurso existente, você pode definir como deseja que eles apareçam na interface.
 
-Essa etapa não é obrigatória, pois você ainda poderá preencher o recurso e acessar os dados por meio de workflows, público-alvo e API REST.
+Essa etapa não é obrigatória, pois você ainda poderá preencher o recurso e acessar os dados por meio de fluxos de trabalho, público-alvo e API REST.
 
 Na guia **[!UICONTROL Screen definition]**, é possível:
 

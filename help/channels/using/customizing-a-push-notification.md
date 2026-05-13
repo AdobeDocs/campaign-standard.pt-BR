@@ -9,9 +9,14 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+TQID: https://experienceleague.adobe.com/dS7csVOV5g64DQCssB9Nzz2ByX3t1gAe2HXdGJo1N50
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: 1509
 ht-degree: 93%
 
 ---
@@ -141,7 +146,7 @@ Para fazer isso:
 
 ## Adicionar conteúdo de mídia avançada {#add-rich-media-content}
 
-Um conteúdo de mídia avançada permite ter um melhor envolvimento do usuário, o que significa que ele terá mais tendência a abrir a notificação por push.
+Um conteúdo de mídia avançada permite ter um melhor engajamento do usuário, o que significa que ele terá mais tendência a abrir a notificação por push.
 
 É possível incluir um arquivo de imagem, gif, áudio ou vídeo, que será reproduzido ou exibido na própria notificação. Os usuários do aplicativo não precisarão abrir o aplicativo para visualizá-lo.
 

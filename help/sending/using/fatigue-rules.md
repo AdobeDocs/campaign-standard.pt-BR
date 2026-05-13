@@ -8,10 +8,16 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 21abf3c2-d319-40a8-9479-1fc02c82e5d2
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+TQID: https://experienceleague.adobe.com/yzZqni5CgzXiOBFYrKXbUjfSbpMRdxKAMeSuZL2hiuk
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '2374'
-ht-degree: 98%
+source-wordcount: 2398
+ht-degree: 97%
 
 ---
 
@@ -19,7 +25,7 @@ ht-degree: 98%
 
 ## Sobre regras de fadiga {#about-fatigue-rules}
 
-Com as regras de fadiga os profissionais de marketing definem regras comerciais globais entre canais que excluirão automaticamente perfis excessivamente solicitados das campanhas.
+Com as regras de fadiga os profissionais de marketing definem regras de negócios globais entre canais que excluirão automaticamente perfis excessivamente solicitados das campanhas.
 
 Para implementar regras de fadiga, defina um número máximo de mensagens por perfil e selecione um período no qual a regra será aplicada. Durante a preparação da entrega, os perfis são excluídos da entrega, se aplicável, dependendo do número de mensagens já enviadas a eles.
 
@@ -109,7 +115,7 @@ Os seguintes canais estão disponíveis:
 
 As regras de fadiga são compatíveis com todos os tipos de entrega: entregas únicas, entregas recorrentes, entregas de fluxo de trabalho e mensagens transacionais.
 
-**As mensagens transacionais** podem ser usadas para enviar mensagens de serviço direcionadas a um evento (rtEvent), e mensagens de marketing (perfis segmentados), por exemplo, uma mensagem de remarketing. As regras de fadiga são compatíveis somente com mensagens de marketing (perfis segmentados). As mensagens transacionais de evento não contêm informações sobre perfis, portanto, não são compatíveis com as regras de fadiga (mesmo no caso de um enriquecimento com perfis). Com o suporte de mensagens de marketing em mensagens transacionais, você pode **aplicar uma regra de fadiga a todos os canais, incluindo mensagens transacionais de marketing**.
+**As mensagens transacionais** podem ser usadas para enviar mensagens de serviço direcionadas a um evento (rtEvent), e mensagens de marketing (perfis segmentados), por exemplo, uma mensagem de remarketing. As regras de fadiga são compatíveis somente com mensagens de marketing (perfis direcionamento). As mensagens transacionais de evento não contêm informações sobre perfis, portanto, não são compatíveis com as regras de fadiga (mesmo no caso de um enriquecimento com perfis). Com o suporte de mensagens de marketing em mensagens transacionais, você pode **aplicar uma regra de fadiga a todos os canais, incluindo mensagens transacionais de marketing**.
 
 ## Definição de limite {#defining-the-threshold}
 

@@ -8,10 +8,15 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: f3208380-a4cf-4944-aa24-883995d1075d
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+TQID: https://experienceleague.adobe.com/E-pr-K2MhoGRnz46df3Dz---s3NRdSbweBFhTAMgSw4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 3%
+source-wordcount: 445
+ht-degree: 7%
 
 ---
 
@@ -21,11 +26,11 @@ ht-degree: 3%
 
 Blocos de conteúdo e fragmentos de conteúdo são conteúdos reutilizáveis comuns em vários emails. Eles são usados para garantir a consistência entre os emails e também para otimizar/padronizar a criação de emails. As diferenças entre blocos de conteúdo e fragmentos de conteúdo são o nível de personalização possível.
 
-* Os blocos de conteúdo são HTML puro, em que o código HTML é inserido manualmente (não é uma interface amigável, é um código-fonte direto). Embora seja realmente direcionado para pessoas com conhecimento em HTML, permite um nível de personalização não disponível em fragmentos de conteúdo.
+* Os blocos de conteúdo são puramente HTML, onde o código HTML é inserido manualmente (não é uma interface amigável, é um código-fonte direto). Embora seja realmente direcionado para pessoas com conhecimento em HTML, permite um nível de personalização não disponível em fragmentos de conteúdo.
 
 * Fragmentos de conteúdo são partes visuais do conteúdo criadas por meio do Designer de email, usando sua interface de usuário amigável. No entanto, não é possível personalizar o conteúdo. Se a personalização for necessária, ela só poderá ser feita por meio de blocos de conteúdo.
 
-## Como posso adicionar preenchimento a um elemento da estrutura HTML?
+## Como posso adicionar preenchimento a um elemento da estrutura do HTML?
 
 Você pode adicionar preenchimento usando a navegação estrutural do HTML.
 
@@ -37,9 +42,9 @@ Você pode adicionar preenchimento usando a navegação estrutural do HTML.
 1. Clique na tag principal na navegação estrutural do HTML.
 Agora você pode adicionar um preenchimento a este elemento.
 
-## Posso importar conteúdo de HTML no Designer de email?
+## Posso importar conteúdo do HTML para o Designer de email?
 
-Você pode fazer upload do seu próprio conteúdo de HTML para o Designer de email. Se não tiver sido criado pelo Email Designer, ele será carregado no modo de compatibilidade, projetado para manter seu HTML original, mas limita determinados recursos de edição por meio da interface do usuário.
+Você pode fazer upload do seu próprio conteúdo do HTML para o Designer de email. Se não tiver sido criado por meio do Email Designer, ele será carregado no modo de compatibilidade, projetado para manter seu HTML original, mas limita determinados recursos de edição por meio da interface do usuário.
 
 Para obter mais informações, consulte [Modo de compatibilidade](../../designing/using/using-existing-content.md#compatibility-mode)
 
@@ -58,10 +63,10 @@ Para obter mais informações, consulte [Atualizando fragmentos](../../designing
 
 ## Posso salvar estilos em um tema?
 
-Os estilos não podem ser salvos como um tema para futura reutilização. No entanto, o estilo CSS pode ser salvo em um modelo de conteúdo ou em um email.
+Os estilos não podem ser salvos como um tema para futura reutilização. Entretanto, o estilo CSS pode ser salvo em um modelo de conteúdo ou em um email.
 
 Para obter mais informações, consulte [Estilos](../../designing/using/styles.md)
 
 ## Quais fontes estão disponíveis?
 
-Ao editar estilos, somente as fontes da Web oficialmente compatíveis pela maioria dos clientes de email estarão disponíveis por padrão por meio da interface do usuário. O uso de fontes personalizadas requer a atualização do código de HTML.
+Ao editar estilos, somente as fontes da Web oficialmente compatíveis pela maioria dos clientes de email estarão disponíveis por padrão por meio da interface do usuário. O uso de fontes personalizadas requer a atualização do código HTML.

@@ -9,9 +9,13 @@ feature: Proofs
 role: User
 level: Intermediate
 exl-id: 75b64c43-f066-45e7-8d61-95eba8f52b05
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/L2Rj-JoGUPKPQnEUZY-l-fh4FMI-vMm7D4OX8S2Vnd0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: 585
 ht-degree: 98%
 
 ---
@@ -26,11 +30,11 @@ Há dois tipos de destinatários de prova:
 
 * **Perfis de teste** permitem segmentar destinatários adicionais que não correspondam aos critérios de direcionamento definidos.
 
-  Eles podem ser adicionados ao público de uma mensagem para detectar qualquer uso fraudulento do banco de dados do seu destinatário ou para garantir que os emails cheguem às caixas de entrada. Para mais informações, consulte [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md).
+  Eles podem ser adicionados ao público-alvo de uma mensagem para detectar qualquer uso fraudulento do banco de dados do seu destinatário ou para garantir que os emails cheguem às caixas de entrada. Para mais informações, consulte [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md).
 
   >[!NOTE]
   >
-  >Para enviar uma prova, você precisa incluir os perfis de teste no público da sua mensagem.
+  >Para enviar uma prova, você precisa incluir os perfis de teste no público-alvo da sua mensagem.
 
 * **Perfis de substituição** permitem que você se posicione como um dos perfis segmentados e obtenha uma representação exata da mensagem que o perfil receberá. Para mais informações, consulte [Testar mensagens de email usando perfis segmentados](../../sending/using/testing-messages-using-target.md).
 
@@ -43,7 +47,7 @@ Há dois tipos de destinatários de prova:
 Para enviar provas, siga estas etapas:
 
 1. Verifique se os destinatários da prova foram configurados:
-   * Os **perfis de teste** devem ser incluídos no público da sua mensagem.
+   * Os **perfis de teste** devem ser incluídos no público-alvo da sua mensagem.
    * Os **perfis de substituição** devem ser adicionados assim que a preparação da mensagem tiver sido realizada com êxito (consulte [esta seção](../../sending/using/testing-messages-using-target.md)).
 
 1. Clique no botão **[!UICONTROL Send a test]**.

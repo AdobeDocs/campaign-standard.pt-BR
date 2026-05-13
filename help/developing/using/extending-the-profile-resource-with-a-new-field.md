@@ -8,9 +8,13 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+TQID: https://experienceleague.adobe.com/HRFz5Z-KxO7lUO-gXexQ3CHvb9JtCfJWSJY0ocZW-r8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: 1039
 ht-degree: 92%
 
 ---
@@ -21,13 +25,13 @@ ht-degree: 92%
 
 Este caso de uso detalha como estender um perfil e um perfil de teste com um campo dedicado.
 
-Aqui, queremos atualizar nossos perfis com o novo campo usando uma landing page e depois direcionar os perfis com um informativo específico aos interesses deles.
+Aqui, queremos atualizar nossos perfis com o novo campo usando uma página de destino e depois direcionar os perfis com um informativo específico aos interesses deles.
 
 Para isso, siga as etapas abaixo:
 
 * [Etapa 1: estender o recurso de perfil](#step-1--extend-the-profile-resource)
 * [Etapa 2: estender o perfil de teste](#step-2--extend-the-test-profile)
-* [Etapa 3: Publish seu recurso personalizado](#step-3--publish-your-custom-resource)
+* [Etapa 3: publicar o recurso personalizado](#step-3--publish-your-custom-resource)
 * [Etapa 4: atualizar e direcionar perfis com um fluxo de trabalho](#step-4--update-and-target-profiles-with-a-workflow)
 
 O campo a seguir será adicionado aos nossos perfis e poderá ser direcionado em uma entrega:
@@ -119,7 +123,7 @@ Para testar se o novo campo criado está configurado corretamente, você pode te
 
 Os perfis e os perfis de teste agora terão seu novo campo disponível. Para que ele seja configurado corretamente, publique o recurso personalizado.
 
-## Etapa 3: Publish seu recurso personalizado {#step-3--publish-your-custom-resource}
+## Etapa 3: publicar o recurso personalizado {#step-3--publish-your-custom-resource}
 
 Para aplicar as alterações realizadas no recurso e usá-lo, faça uma atualização do banco de dados.
 
@@ -145,47 +149,47 @@ O novo campo de recurso agora está pronto para ser usado e direcionado em uma e
 
 ## Etapa 4: atualizar e direcionar perfis com um fluxo de trabalho {#step-4--update-and-target-profiles-with-a-workflow}
 
-Para atualizar perfis com dados para o novo campo personalizado, você pode criar uma landing page usando o template **[!UICONTROL Profile acquisition]**. Para saber mais sobre landing pages, consulte esta [página](../../channels/using/getting-started-with-landing-pages.md).
+Para atualizar perfis com dados para o novo campo personalizado, você pode criar uma página de destino usando o modelo **[!UICONTROL Profile acquisition]**. Para saber mais sobre páginas de destino, consulte esta [página](../../channels/using/getting-started-with-landing-pages.md).
 
 Aqui, queremos direcionar os perfis em um fluxo de trabalho que não preencheram esse campo. Eles receberão um email solicitando a atualização dos perfis para receber ofertas e informativos personalizados. Cada perfil receberá um boletim personalizado, dependendo dos interesses escolhidos.
 
-Primeiro, precisamos criar uma landing page que atualizará os campos **Interest** dos perfis direcionados:
+Primeiro, precisamos criar uma página de destino que atualizará os campos **Interest** dos perfis direcionados:
 
 1. Nas **[!UICONTROL Marketing activities]**, clique em **[!UICONTROL Create]** e selecione **[!UICONTROL Landing page]**.
-1. Selecione um tipo de landing page. Como queremos atualizar nossos perfis, selecione **[!UICONTROL Profile acquisition]**.
+1. Selecione um tipo de página de destino. Como queremos atualizar nossos perfis, selecione **[!UICONTROL Profile acquisition]**.
 1. Clique em **[!UICONTROL Create]**.
-1. Clique no bloco **[!UICONTROL Content]** para começar a editar o conteúdo da landing page.
+1. Clique no bloco **[!UICONTROL Content]** para começar a editar o conteúdo da página de destino.
 
    ![](assets/schema_extension_uc21.png)
 
-1. Personalize a landing page, conforme necessário.
+1. Personalize a página de destino, conforme necessário.
 1. Clique no campo configurado para seus perfis para escolher entre a seleção de Interests. No painel esquerdo, selecione o recurso personalizado **Interest** criado anteriormente.
 
    ![](assets/schema_extension_uc22.png)
 
-1. Salve a landing page e teste-a para verificar se os campos estão configurados corretamente.
-1. Clique em **[!UICONTROL Publish]** quando a landing page estiver pronta.
+1. Salve a página de destino e teste-a para verificar se os campos estão configurados corretamente.
+1. Clique em **[!UICONTROL Publish]** quando a página de destino estiver pronta.
 
-A landing page agora está pronta. Para atualizar os perfis, você pode criar um fluxo de trabalho que enviará uma oferta especial, dependendo do Interest escolhido.
+A página de destino agora está pronta. Para atualizar os perfis, você pode criar um fluxo de trabalho que enviará uma oferta especial, dependendo do Interest escolhido.
 
 1. Na guia **[!UICONTROL Marketing activities]**, clique em **[!UICONTROL Create]** e selecione **[!UICONTROL Workflow]**.
 1. Arraste e solte uma atividade **[!UICONTROL Query]** para direcionar os perfis ou os públicos-alvo necessários.
-1. Arraste e solte uma atividade **[!UICONTROL Email delivery]** para iniciar a configuração do seu email que conterá um link para a landing page. Selecione **[!UICONTROL Add an outbound transition with the population]**.
+1. Arraste e solte uma atividade **[!UICONTROL Email delivery]** para iniciar a configuração do seu email que conterá um link para a página de destino. Selecione o **[!UICONTROL Add an outbound transition with the population]**.
 
    ![](assets/schema_extension_uc3.png)
 
 1. Crie e elabore seu email conforme necessário. Para saber mais sobre personalização de email, consulte esta [página](../../designing/using/quick-start.md).
-1. Adicione um botão ao seu email que redirecionará perfis para sua landing page.
+1. Adicione um botão ao seu email que redirecionará perfis para sua página de destino.
 1. Selecione o botão adicionado e clique em ![](assets/schema_extension_uc7.png) na seção **[!UICONTROL Link]** no painel esquerdo.
 
    ![](assets/schema_extension_uc23.png)
 
-1. Na janela **[!UICONTROL Insert link]**, selecione **[!UICONTROL Landing page]** no menu suspenso **[!UICONTROL Link type]** e selecione a landing page criada anteriormente.
+1. Na janela **[!UICONTROL Insert link]**, selecione **[!UICONTROL Landing page]** no menu suspenso **[!UICONTROL Link type]** e selecione a página de destino criada anteriormente.
 
    ![](assets/schema_extension_uc24.png)
 
 1. Clique em **[!UICONTROL Save]**. Seu email agora está pronto, e você pode voltar para o fluxo de trabalho.
-1. Adicione uma atividade **[!UICONTROL Wait]** para que seus perfis possam preencher a landing page.
+1. Adicione uma atividade **[!UICONTROL Wait]** para que seus perfis possam preencher a página de destino.
 1. Adicione uma atividade **[!UICONTROL Segmentation]** para dividir a transição de saída, dependendo de seus **Interests**.
 1. Crie um segmento de saída para cada **Interest**.
 

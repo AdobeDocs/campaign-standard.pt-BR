@@ -9,9 +9,14 @@ feature: Performance Monitoring
 role: User
 level: Beginner
 exl-id: ddc92077-df73-411d-a161-3263581e6945
-source-git-commit: ed60bde4785da9a8cc5a6cc0efcdb24e2c1f65e3
+TQID: https://experienceleague.adobe.com/QybG0D0D6-Fa6bfpjD-sI7WrQbxDelc0IBVC4BcWLlg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: 503
 ht-degree: 79%
 
 ---
@@ -45,7 +50,7 @@ Há várias maneiras de monitorar um delivery e medir seu impacto. Como administ
   ![](assets/sending_delivery8.png)
 
 * **Alertas de entrega**: para rastrear os sucessos ou as falhas da entrega, o Adobe Campaign tem um sistema de alerta por email que envia notificações para informar os usuários sobre atividades importantes do sistema.
-* **Relatórios**: no painel de mensagens, você pode acessar vários relatórios para a mensagem específica. O menu **[!UICONTROL Reports]** permite acessar uma lista completa de relatórios incorporados ou personalizados que você pode usar para destacar métricas específicas relacionadas à mensagem ou campanha.
+* **Relatórios**: no painel de mensagens, você pode acessar vários relatórios para a mensagem específica. O menu **[!UICONTROL Reports]** permite acessar uma lista completa de relatórios integrados ou personalizados que você pode usar para destacar métricas específicas relacionadas à mensagem ou campanha.
 * Um administrador também pode exportar os logs em um arquivo que pode ser processado nos próprios relatórios ou nas ferramentas de BI. Para saber mais, consulte [Exportação de logs](../../automating/using/exporting-logs.md).
 
 **Tópicos relacionados:**

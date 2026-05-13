@@ -1,6 +1,6 @@
 ---
-title: Query incremental
-description: A atividade Query incremental permite filtrar e extrair uma população de elementos do banco de dados do Adobe Campaign.
+title: Consulta incremental
+description: A atividade Consulta incremental permite filtrar e extrair uma população de elementos do banco de dados do Adobe Campaign.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,9 +10,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 18d6ffc0-cfc3-436e-8f0c-ea9c307541e4
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/pU8TR9TKVwM7-YcCHkxrSZ07UkBxE652McpBXxIp-Ik
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: 614
 ht-degree: 94%
 
 ---
@@ -23,7 +28,7 @@ ht-degree: 94%
 
 ![](assets/incremental.png)
 
-A atividade **[!UICONTROL Incremental query]** permite filtrar e extrair uma população de elementos do banco de dados do Adobe Campaign. Todas as vezes que essa atividade é executada, os resultados das execuções anteriores são excluídos. Ela permite direcionar somente elementos novos.
+A atividade **[!UICONTROL Incremental query]** permite filtrar e extrair uma população de elementos do banco de dados do Adobe Campaign. Todas as vezes que essa atividade é executada, os resultados das execuções anteriores são excluídos. Isso permite direcionar somente elementos novos.
 
 Você pode definir **[!UICONTROL Additional data]** para a população direcionada em uma guia dedicada. Esses dados são armazenados em colunas adicionais e só podem ser usados para o fluxo de trabalho em andamento.
 
@@ -51,11 +56,11 @@ A atividade **[!UICONTROL Incremental query]** pode ser usada para várias final
 
 1. Arraste e solte uma atividade **[!UICONTROL Incremental query]** no seu fluxo de trabalho.
 1. Selecione e abra a atividade usando o botão ![](assets/edit_darkgrey-24px.png) das ações rápidas exibidas.
-1. Se você quiser executar um query em um recurso diferente do perfil, vá para a guia **[!UICONTROL Properties]** da atividade e selecione um **[!UICONTROL Resource]** e um **[!UICONTROL Targeting dimension]**.
+1. Se você quiser executar uma consulta em um recurso diferente do perfil, vá para a guia **[!UICONTROL Properties]** da atividade e selecione um **[!UICONTROL Resource]** e um **[!UICONTROL Targeting dimension]**.
 
    O **[!UICONTROL Resource]** permite refinar os filtros exibidos na paleta, enquanto o **[!UICONTROL Targeting dimension]**, contextual em relação ao recurso selecionado, corresponde ao tipo de população que você gostaria de obter (perfis identificados, entregas, dados vinculados ao recurso selecionado, etc.).
 
-1. Na guia **[!UICONTROL Target]**, execute o query definindo e combinando regras.
+1. Na guia **[!UICONTROL Target]**, execute a consulta definindo e combinando regras.
 1. Na guia **[!UICONTROL Processed data]**, escolha o modo incremental que deseja usar para as próximas execuções do fluxo de trabalho:
 
    * **[!UICONTROL Use the exclusion of the results of previous executions]**: os resultados das execuções anteriores para cada nova execução são excluídos.
@@ -69,9 +74,9 @@ A atividade **[!UICONTROL Incremental query]** pode ser usada para várias final
 
    ![](assets/incremental_query_usedatefield.png)
 
-1. Você pode definir **[!UICONTROL Additional data]** para a população direcionada em uma guia dedicada. Esses dados são armazenados em colunas adicionais e só podem ser usados para o fluxo de trabalho em andamento. Especificamente, você pode adicionar dados das tabelas do banco de dados do Adobe Campaign vinculadas à dimensão de direcionamento do query. Consulte a seção [Enriquecimento de dados](../../automating/using/query.md#enriching-data).
+1. Você pode definir **[!UICONTROL Additional data]** para a população direcionada em uma guia dedicada. Esses dados são armazenados em colunas adicionais e só podem ser usados para o fluxo de trabalho em andamento. Especificamente, você pode adicionar dados das tabelas do banco de dados do Adobe Campaign vinculadas à dimensão de direcionamento da consulta. Consulte a seção [Enriquecimento de dados](../../automating/using/query.md#enriching-data).
 1. Confirme a configuração da sua atividade e salve o fluxo de trabalho.
 
 ## Enriquecimento de dados {#enriching-data}
 
-Assim como para um query, você pode enriquecer os dados de um **[!UICONTROL Incremental query]**. Consulte a seção [Enriquecimento de dados](../../automating/using/query.md#enriching-data).
+Assim como para uma consulta, você pode enriquecer os dados de um **[!UICONTROL Incremental query]**. Consulte a seção [Enriquecimento de dados](../../automating/using/query.md#enriching-data).

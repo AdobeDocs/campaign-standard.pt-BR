@@ -8,10 +8,16 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 9ecb4ba6-c7a3-4b1f-ab73-5eb512ebb016
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+TQID: https://experienceleague.adobe.com/4rmq12hEkuVgomFFRr9u1qZhr3AlTmPvFXnAFMbZBos
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 16%
+source-wordcount: 386
+ht-degree: 25%
 
 ---
 
@@ -24,7 +30,7 @@ ht-degree: 16%
 <td><img src="assets/do-not-localize/icon_customize.svg" width="60px"><p><a href="#customize-reports">Personalizar seus relatórios</a></p></td></tr>
 </table>
 
-O Dynamic Reporting fornece relatórios totalmente personalizáveis e em tempo real para medir o impacto de suas atividades de marketing. Ele adiciona acesso aos dados do perfil, permitindo a análise demográfica por dimensões de perfil, como gênero, cidade e idade, além de dados funcionais de campanha de email, como aberturas e cliques.
+O Dynamic Reporting fornece relatórios totalmente personalizáveis e em tempo real para medir o impacto de suas atividades de marketing. Eles adicionam acesso aos dados do perfil, permitindo análises demográficas por dimensões do perfil, como gênero, cidade e idade, além de dados funcionais de campanhas de email, como aberturas e cliques.
 
 ![](assets/do-not-localize/how-to-video.png) [Descobrir relatórios dinâmicos em vídeo](#video)
 
@@ -45,7 +51,7 @@ Leia mais:
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-O Campaign Standard vem com um conjunto de **relatórios dinâmicos prontos para uso** que permite medir vários aspectos de suas campanhas de marketing: rejeições, entregas declaradas como mais spam ou lixo eletrônico, entregas mais vistas por recipients, relatórios relacionados a canais, taxa de transferência de entrega e relatórios de rastreamento...
+O Campaign Standard vem com um conjunto de **relatórios dinâmicos prontos para uso** que permite medir vários aspectos de suas campanhas de marketing: rejeições, entregas declaradas como spam ou lixo eletrônico, entregas mais vistas por recipients, relatórios relacionados a canais, taxa de transferência de entrega e relatórios de rastreamento...
 
 **Combine diferentes componentes** (dimensões, métricas e segmentos, períodos de tempo) para criar seus próprios relatórios ou personalizar relatórios prontos para uso.
 
@@ -82,6 +88,6 @@ Leia mais:
 
 Este vídeo fornece uma visão geral sobre os recursos de relatórios do Adobe Campaign Standard.
 
->[!VIDEO](https://video.tv.adobe.com/v/38320?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
 
 Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

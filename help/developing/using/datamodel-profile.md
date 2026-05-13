@@ -7,10 +7,13 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 652c22a5-7fff-4d08-9396-f0b292aaca76
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/dL7h-vkDr1444C4tdAf6-EeZHUy6HJy5Cd3YMbCi3EE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 11%
+source-wordcount: 1393
+ht-degree: 12%
 
 ---
 
@@ -147,7 +150,7 @@ ht-degree: 11%
                </tr>
                <tr>
                   <td>emailFormat</td>
-                  <td>Formato do email</td>
+                  <td>Formato de email</td>
                   <td>enumeração (byte) </td>
                   <td>
                      <ul>

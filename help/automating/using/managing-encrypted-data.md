@@ -9,10 +9,13 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/YcGzLBwTG-SMU3-NlrchozuqRtQ2EoNHKUaMDsVPf4I
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 38%
+source-wordcount: 934
+ht-degree: 42%
 
 ---
 
@@ -46,7 +49,7 @@ Depois que a solicitação for processada, os comandos de criptografia/descripto
 
 Nesse caso de uso, crie um workflow para importar dados que foram criptografados em um sistema externo usando uma chave gerada no Painel de controle do Campaign.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Conheça este recurso no vídeo](#video)
 
 As etapas para executar esse caso de uso são as seguintes:
 
@@ -90,7 +93,7 @@ As etapas para executar esse caso de uso são as seguintes:
 
 Nesse caso de uso, crie um workflow para criptografar e exportar dados usando uma chave instalada no Painel de controle do Campaign.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Conheça este recurso no vídeo](#video)
 
 As etapas para executar esse caso de uso são as seguintes:
 
@@ -102,7 +105,7 @@ As etapas para executar esse caso de uso são as seguintes:
 
    ![](assets/gpg-workflow-export.png)
 
-   * Atividade **[!UICONTROL Query]**: neste exemplo, queremos executar um query para direcionar os dados do banco de dados que queremos exportar.
+   * Atividade **[!UICONTROL Query]**: neste exemplo, queremos executar uma consulta para direcionar os dados do banco de dados que queremos exportar.
    * Atividade **[!UICONTROL Extract file]**: criptografa e extrai os dados em um arquivo.
    * Atividade **[!UICONTROL Transfer file]**: transfere o arquivo contendo os dados criptografados para um servidor SFTP.
 
@@ -122,16 +125,16 @@ As etapas para executar esse caso de uso são as seguintes:
 
    ![](assets/gpg-transfer-encrypt.png)
 
-1. Agora você pode executar o fluxo de trabalho. Após a execução, o direcionamento de dados pelo query será exportado para o servidor SFTP em um arquivo .gpg criptografado.
+1. Agora você pode executar o fluxo de trabalho. Após a execução, o direcionamento de dados pela consulta será exportado para o servidor SFTP em um arquivo .gpg criptografado.
 
 ## Tutoriais em vídeo {#video}
 
 Este vídeo mostra como usar uma chave GPG para descriptografar dados.
 
->[!VIDEO](https://video.tv.adobe.com/v/41354?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35753?quality=12)
 
 Este vídeo mostra como usar uma chave GPG para criptografar dados.
 
->[!VIDEO](https://video.tv.adobe.com/v/41339?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12)
 
 Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

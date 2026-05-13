@@ -6,16 +6,21 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+TQID: https://experienceleague.adobe.com/sIwJVutJ9iO9GIKSPquL5LOKVqkj34x3LTaI072C8V4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 0%
+source-wordcount: 1006
+ht-degree: 1%
 
 ---
 
 # Casos de uso para dispositivos móveis compatíveis com o Adobe Campaign Standard {#mobile-use-cases}
 
-Nesta página, você encontrará a lista de todos os casos de uso de dispositivos móveis com suporte no [!DNL Adobe Campaign Standard] usando o [!DNL Adobe Experience Platform SDKs]. Observe que o suporte a esses casos de uso envolve a instalação e configuração do [!DNL Adobe Experience Platform SDKs], [!DNL tags in Adobe Experience Platform] e [!DNL Adobe Campaign Standard]. Para obter mais informações, consulte esta [página](../../administration/using/configuring-a-mobile-application.md).
+Nesta página, você encontrará a lista de todos os casos de uso de dispositivos móveis com suporte no [!DNL Adobe Campaign Standard] usando o [!DNL Adobe Experience Platform SDKs]. Observe que o suporte a esses casos de uso envolve a instalação e configuração do [!DNL Adobe Experience Platform SDKs], [!DNL tags in Adobe Experience Platform] e [!DNL Adobe Campaign Standard]. Para obter mais informações sobre essas operações, consulte esta [página](../../administration/using/configuring-a-mobile-application.md).
 
 O Adobe Campaign Standard é compatível com os seguintes casos de uso:
 
@@ -29,7 +34,7 @@ O Adobe Campaign Standard é compatível com os seguintes casos de uso:
 
 Para configurar esses casos de uso, você precisa das seguintes extensões:
 
-* **[!DNL Adobe Campaign Standard]** <br>Para instalar e configurar a extensão de Campaign Standard, consulte [Configurar a extensão de Campaign Standard na Interface da Coleção de Dados](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#configure-the-campaign-standard-extension).
+* **[!DNL Adobe Campaign Standard]** <br>Para instalar e configurar a extensão do Campaign Standard, consulte [Configurar a extensão do Campaign Standard na Interface da Coleção de Dados](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#configure-the-campaign-standard-extension).
 * **[!DNL Mobile Core]**, que é instalado automaticamente. <br>Para obter mais informações sobre a extensão Mobile Core, consulte [Mobile Core](https://developer.adobe.com/client-sdks/documentation/mobile-core/).
 * **[!DNL Profile]**, que é instalado automaticamente. <br>Para obter mais informações sobre a extensão do Perfil, consulte [Perfil](https://developer.adobe.com/client-sdks/documentation/profile/).
 
@@ -341,7 +346,7 @@ ACPCampaign.resetLinkageFields(linkageFields)
 
 ### Com o Android {#linkage-fields-inapp-android}
 
-Para definir campos de vinculação para autenticação adicional para o modelo de perfil baseado em mensagens no aplicativo no Android, é necessário o seguinte SDK de Experience Platform:
+Para definir campos de vinculação para autenticação adicional para o modelo de perfil baseado em mensagens no aplicativo no Android, é necessário o seguinte Experience Platform SDK:
 
 * Definir campos de vinculação <br>Para obter mais informações, consulte [Definir campos de vinculação](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields).
 * Redefinir campos de vinculação <br>Para obter mais informações, consulte [Redefinir campos de vinculação](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#resetlinkagefields).

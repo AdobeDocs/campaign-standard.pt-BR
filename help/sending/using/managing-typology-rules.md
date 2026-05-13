@@ -9,10 +9,15 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 5ef66b1b-1c81-42fb-a18c-fcf7f21e1ff7
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+TQID: https://experienceleague.adobe.com/EAQzeoYku9S-ZThn-x3IBpLetTHqO2zNeY1ZsWQKVPE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 96%
+source-wordcount: 560
+ht-degree: 88%
 
 ---
 
@@ -67,11 +72,11 @@ No modo de operação padrão, as regras são aplicadas na seguinte sequência:
 1. Regras de controle, se elas forem aplicadas no início do direcionamento.
 1. Regras de filtragem:
 
-   * Incluir na lista de bloqueios Regras de aplicações nativas para qualificação de endereço: endereço definido / endereço não verificado / endereço em / endereço em quarentena / qualidade do endereço.
+   * Regras de aplicações nativas para qualificação de endereço: endereço definido / endereço não verificado / endereço em / endereço em quarentena / qualidade do endereço.
    * Filtrar regras definidas pelo usuário.
 
 1. Regras de controle, se elas forem aplicadas no final do direcionamento.
-1. Regras de controle, se elas forem aplicadas no início da personalização.
+1. Regras de controle, se elas forem aplicadas ao início da personalização.
 1. Regras de controle, se elas forem aplicadas no final da personalização.
 
 No entanto, você pode adaptar a ordem de execução do mesmo tipo de regras em cada tipologia. Na verdade, quando várias regras são executadas durante a mesma fase de processamento de mensagens, você pode escolher a ordem de aplicação.

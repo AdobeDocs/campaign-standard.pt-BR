@@ -1,6 +1,6 @@
 ---
 title: Edição de expressão avançada
-description: O assistente de edição de queries permite definir expressões avançadas.
+description: O assistente de edição de consultas permite definir expressões avançadas.
 audience: automating
 content-type: reference
 topic-tags: filtering-data
@@ -10,10 +10,13 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/Wz7KYgeVn1RlS4wnfhs-FD-kO5PJb1DzuUg9t1asD5U
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 95%
+source-wordcount: 1103
+ht-degree: 92%
 
 ---
 
@@ -29,7 +32,7 @@ Também é possível usar variáveis de eventos de workflows ao editar a express
 
 É possível editar expressões para:
 
-* Definir uma query, por meio da opção **[!UICONTROL Advanced mode]** que está disponível quando uma regra é adicionada.
+* Definir uma consulta, por meio da opção **[!UICONTROL Advanced mode]** que está disponível quando uma regra é adicionada.
 
   ![](assets/expression_editor_2.png)
 
@@ -40,12 +43,12 @@ Também é possível usar variáveis de eventos de workflows ao editar a express
 
 A edição de expressão avançada permite definir manualmente uma expressão que corresponde especificamente às suas necessidades.
 
-A edição de expressões pode ser usada na janela Audience ao criar um email ou em uma atividade de Query ao criar um workflow.
+A edição de expressões pode ser usada na janela Audience ao criar um email ou em uma atividade de Consulta ao criar um workflow.
 
 1. Acesse a janela de edição de expressões por meio de um dos métodos detalhados na seção [Sobre a edição de expressão avançada](../../automating/using/advanced-expression-editing.md#about-advanced-expression-editing). Envolve os seguintes elementos:
 
    * Um campo de entrada no qual a expressão é definida.
-   * A lista dos campos disponíveis que podem ser usados na expressão e correspondem à dimensão de dimensionamento da query (consulte [Dimensões de direcionamento e recursos](../../automating/using/query.md#targeting-dimensions-and-resources)).
+   * A lista dos campos disponíveis que podem ser usados na expressão e correspondem à dimensão de dimensionamento da consulta (consulte [Dimensões de direcionamento e recursos](../../automating/using/query.md#targeting-dimensions-and-resources)).
    * A lista de funções disponíveis, classificadas por categoria.
 
    ![](assets/expression_editor_1.png)
@@ -102,7 +105,7 @@ As expressões JavaScript são constituídas por uma ou várias condições e us
 
 * Cada condição assume a forma de **&lt;context> &lt;comparison operator> &lt;value2>** em que:
 
-   * **&lt;context>** é um campo ou uma função que permite especificar o contexto. Por exemplo, **context.perfil.@email** para um endereço de email do perfil ou **context.perfil.firstName.length()** para o número de caracteres do nome do perfil.
+   * **&lt;context>** é um campo ou uma função que permite especificar o contexto. Por exemplo **context.profile.@email** para um endereço de email do perfil ou **context.perfil.firstName.length()** para o número de caracteres do nome do perfil.
    * **&lt;comparison operator>** é um dos operadores listados na seção [Operadores de comparação](../../automating/using/advanced-expression-editing.md#comparison-operators). Esse operador define o método de comparação entre **&lt;context>** e **&lt;value2>**.
    * **&lt;value2>** é um campo, uma função ou um valor inserido manualmente.
 
@@ -201,7 +204,7 @@ As condições devem ser vinculadas a valores usando um dos operadores a seguir.
    <td> NOT<br /> </td> 
    <td> N/A<br /> </td> 
    <td> É semelhante a <span class="uicontrol">Like</span>. Permite que você não recupere o valor inserido. Aqui o valor inserido também deve conter o caractere curinga <span class="uicontrol">%</span>.<br /> </td> 
-   <td> <strong>@lastName NOT Smi%h</strong>. Aqui, os destinatários correspondem ao nome 'Smi%h' (então Smith, etc.) e, como resultado, não são retornados.<br /> </td> 
+   <td> <strong>@lastName NOT Smi%h</strong>. Aqui, os destinatários correspondem ao nome 'Smi%h' (então Smith, etc.) não são retornados como resultado.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Is empty</span> <br /> </td> 
