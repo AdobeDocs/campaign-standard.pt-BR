@@ -5,10 +5,38 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
+TQID: https://experienceleague.adobe.com/BtRFMP6fh8X5Z6R1wGzc0Q07HCQlx-2-3evgAOnU3eA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+  - id: e739ee2b-6228-412e-878f-45de0791417d
+  - id: eff19c99-440a-4318-b319-444edc4d8d8f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '5384'
-ht-degree: 6%
+source-wordcount: 5477
+ht-degree: 8%
 
 ---
 
@@ -101,7 +129,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> Importação de conteúdo automatizada de uma URL durante a preparação da mensagem<br /> </td> 
-   <td> Agora é possível importar conteúdo de email de um URL durante a fase de preparação. Para deliveries de email recorrentes, o conteúdo mais recente do HTML é recuperado sempre que a mensagem é preparada, garantindo que o conteúdo esteja sempre atualizado no momento em que o email é enviado. Esse recurso também permite criar um delivery agendado com conteúdo de um URL, mesmo que o conteúdo ainda não esteja pronto.<br /> Para obter mais informações, consulte a <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">documentação detalhada</a>.<br /> </td> 
+   <td> Agora é possível importar conteúdo de email de um URL durante a fase de preparação. Para deliveries de email recorrentes, o conteúdo mais recente do HTML é recuperado sempre que a mensagem é preparada, garantindo que o conteúdo esteja sempre atualizado no momento em que o email é enviado. Esse recurso também permite criar uma entrega agendada com conteúdo de uma URL, mesmo que o conteúdo ainda não esteja pronto.<br /> Para obter mais informações, consulte a <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Mensagem de notificação de versão da campanha<br /> </td> 
@@ -194,15 +222,15 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> GDPR: Integração de Serviço Principal<br /> </td> 
-   <td> A Integração do Privacy Core Service permite automatizar suas solicitações de GDPR em um contexto com várias soluções por meio de uma única chamada de API JSON. <br /> As solicitações de GDPR enviadas pelo Privacy Core Service para todas as soluções da Experience Cloud agora são tratadas automaticamente pelo Campaign. <br /> Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=pt-BR">documentação detalhada</a>.<br /> </td> 
+   <td> A Integração do Privacy Core Service permite automatizar suas solicitações de GDPR em um contexto com várias soluções por meio de uma única chamada de API JSON. <br /> As solicitações de GDPR transmitidas a partir do Serviço principal de privacidade para todas as soluções da Experience Cloud agora são tratadas automaticamente pelo Campaign. <br /> Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=pt-BR">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Melhorias nas notificações por push - feedback detalhado da entrega<br /> </td> 
-   <td> O Adobe Campaign agora oferece a capacidade de receber feedback detalhado (enviando logs e logs de exclusão) sobre mensagens por push dos provedores (APNS/GCM) por meio do MCPNS.<br /> Para obter mais informações, consulte a <a href="../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification">documentação detalhada</a>.<br /> </td> 
+   <td> O Adobe Campaign agora oferece a capacidade de receber comentários detalhados (enviando logs e logs de exclusão) sobre mensagens de push dos provedores (APNS/GCM) via MCPNS.<br /> Para obter mais informações, consulte a <a href="../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Extensão de logs de entrega<br /> </td> 
-   <td> A extensão de logs do delivery permite estender logs de envio com dados de perfil e código de segmento provenientes de workflows. Essas informações podem ser usadas em Relatórios dinâmicos e permitem manter um instantâneo de algumas informações no momento de envio de um delivery.<br /> Há mais dois casos de uso:<br /> 
+   <td> A extensão de logs do delivery permite estender logs de envio com dados de perfil e código de segmento provenientes de workflows. Essas informações podem ser usadas em Relatórios Dinâmicos e permitem que você mantenha um instantâneo de algumas informações no momento de envio de uma entrega.<br /> Há mais 2 casos de uso: <br /> 
     <ul> 
      <li> Exportar broadlogs estendidos com dados "congelados": como profissional de marketing, gostaria de exportar todos os perfis com código de segmento igual a "A" (proveniente do mecanismo de fluxo de trabalho). </li> 
      <li> Segmentação em dados "congelados": como profissional de marketing, gostaria de <strong>redirecionar</strong> todos os perfis que ganharam 1000 pontos de fidelidade desde o último envio ou onde o código de segmento era igual a "A". </li> 
@@ -292,7 +320,7 @@ _Recursos personalizados_
  <tbody> 
   <tr> 
    <td> European General Data Protection Regulation (RGPD)<br /> </td> 
-   <td> O RGPD é a nova lei de privacidade da União Europeia que concilia e moderniza os requisitos de proteção de dados, entrando em efeito em 25 de Maio de 2018. O RGPD aplica-se aos clientes do Adobe Campaign que coletam dados de residentes da UE.<br /> Além dos recursos de privacidade já disponíveis no Adobe Campaign (incluindo gerenciamento de consentimento, configurações de retenção de dados e funções de usuário), aproveitamos a oportunidade, em função de nossa função de Processador de Dados, para incluir recursos adicionais que ajudam o Controlador de Dados a estar de acordo com determinadas solicitações do GDPR:<br /> 
+   <td> O RGPD é a nova lei de privacidade da União Europeia que concilia e moderniza os requisitos de proteção de dados, entrando em efeito em 25 de Maio de 2018. O GDPR aplica-se aos clientes do Adobe Campaign que coletam dados de residentes da UE.<br /> Além dos recursos de privacidade já disponíveis no Adobe Campaign (incluindo gerenciamento de consentimento, configurações de retenção de dados e funções de usuário), aproveitamos a oportunidade, em função do nosso papel como Processador de Dados, para incluir recursos adicionais que ajudam o Controlador de Dados a estar de acordo com determinadas solicitações do GDPR:<br /> 
     <ul> 
      <li> Direito de acesso: permite que o Titular de dados receba uma cópia de seus dados pessoais capturados pelos Controladores de dados, possivelmente incluindo dados armazenados no Adobe Campaign. </li> 
      <li> Direito de exclusão: permite que o Titular de dados apague seus dados pessoais capturados pelos Controladores de dados, possivelmente incluindo os dados armazenados no Adobe Campaign. </li> 
@@ -304,13 +332,13 @@ _Recursos personalizados_
     <ul> 
      <li> Projete visualmente e crie emails responsivos e totalmente personalizados por meio de uma interface de arrastar e soltar, aumentada por integrações nativas do Creative Cloud </li> 
      <li> Crie e salve um modelo de conteúdo de email e utilize os modelos salvos para ajudar a dimensionar a criação de emails </li> 
-     <li> Crie e salve fragmentos de conteúdo (como um cabeçalho, rodapé, artigo etc.) para simplificar a criação de conteúdo e garantir a consistência da marca </li> 
+     <li> Criar e salvar fragmentos de conteúdo (como um cabeçalho, rodapé, artigo, etc.) para simplificar a criação de conteúdo e garantir a consistência da marca </li> 
      <li> Alterne facilmente entre criar na interface de arrastar e soltar e editar diretamente o HTML de um email com apenas um clique </li> 
-    </ul> O Creative Designer for Email está disponível somente em inglês.<br /> Para obter mais informações, consulte a <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentação detalhada</a> e assista a este <a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">vídeo</a>.<br /> </td> 
+    </ul> O Creative Designer for Email está disponível apenas em inglês.<br /> Para obter mais informações, consulte a <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentação detalhada</a> e assista a este <a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">vídeo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Entregas por push multilíngues<br /> </td> 
-   <td> A mesma interface multilíngue simples, que já existe nos canais de email e SMS, foi adicionada ao canal Push para ajudar você a engajar os clientes, independentemente do idioma preferido.<br /> Esse recurso oferece uma solução escalonável e automática para clientes que gerenciam campanhas por push abrangendo várias regiões e desejam direcionar os usuários em seu idioma preferido. Ele permite fazer upload de todas as variantes linguais por meio de uma planilha com modelo para um único delivery por push com um único clique. O Adobe Campaign realiza uma segmentação automática com base na preferência de idioma dos usuários, ajudando a reduzir as redundâncias simplificando os fluxos de trabalho e os relatórios.<br /> Para obter mais informações, consulte a <a href="../../channels/using/creating-a-multilingual-push-notification.md">documentação detalhada</a>.<br /> </td> 
+   <td> A mesma interface multilíngue simples, que já existe nos canais de email e SMS, foi adicionada ao canal de push para ajudar você a engajar os clientes, independentemente do idioma preferido.<br /> Esse recurso oferece uma solução escalável e automática para clientes que gerenciam campanhas por push abrangendo várias regiões e que desejam direcionar os usuários em seu idioma preferido. Ele permite fazer upload de todas as variantes linguais por meio de uma planilha com modelo para um único delivery por push com um único clique. O Adobe Campaign realiza uma segmentação automática com base na preferência de idioma dos usuários, ajudando a reduzir as redundâncias simplificando fluxos de trabalho e relatórios.<br /> Para obter mais informações, consulte a <a href="../../channels/using/creating-a-multilingual-push-notification.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Uso de Recursos Personalizados em Mensagens Transacionais<br /> </td> 
@@ -386,7 +414,7 @@ _Mensagens transacionais_
   </tr> 
   <tr> 
    <td> Atividade de Enriquecimento - enriquecer dados com base em transições anteriores<br /> </td> 
-   <td> A nova atividade de fluxo de trabalho <span class="uicontrol">Enriquecimento</span> permite aproveitar as transições de entrada e concluir a transição de saída com dados adicionais. Se você selecionar perfis, a atividade de enriquecimento permitirá enriquecer as informações dos perfis com dados adicionais que não estão armazenados no banco de dados (provenientes de um arquivo importado, por exemplo).<br /> Para obter mais informações, consulte a <a href="../../automating/using/enrichment.md">documentação detalhada</a>.<br /> </td> 
+   <td> A nova atividade de fluxo de trabalho <span class="uicontrol">Enriquecimento</span> permite aproveitar as transições de entrada e concluir a transição de saída com dados adicionais. Se você definir perfis como alvo, a atividade de enriquecimento permitirá enriquecer as informações dos perfis com dados adicionais que não estão armazenados no banco de dados (provenientes de um arquivo importado, por exemplo).<br /> Para obter mais informações, consulte a <a href="../../automating/using/enrichment.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -446,7 +474,7 @@ Alguns problemas podem ocorrer ao usar links de ajuda contextual da interface do
  <tbody> 
   <tr> 
    <td> Relatórios para Gerenciamento de Fadiga<br /> </td> 
-   <td> Os relatórios para gerenciamento de fadiga são um relatório dedicado e configurável que exibe o impacto das regras de fadiga nas entregas nos canais de email, push, SMS e correspondência direta dentro de um intervalo de datas especificado antes do envio. Com a insight adicional de poder ver rapidamente todas as campanhas conflitantes em uma única visualização, os profissionais de marketing podem planejar campanhas de marketing de acordo com as regras de fadiga definidas com mais eficiência e priorizar comunicações.<br /> Para obter mais informações, consulte a <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">documentação detalhada</a>.<br /> </td> 
+   <td> Os relatórios para gerenciamento de fadiga são um relatório dedicado e configurável que exibe o impacto das regras de fadiga nas entregas nos canais de email, push, SMS e correspondência direta dentro de um intervalo de datas especificado antes do envio. Com a inclusão da insight de ser capaz de ver rapidamente todas as campanhas conflitantes em uma única visualização, os profissionais de marketing podem planejar campanhas de marketing de acordo com as regras de fadiga definidas com mais eficiência e priorizar comunicações.<br /> Para obter mais informações, consulte a <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Compartilhamento de relatórios<br /> </td> 
@@ -454,7 +482,7 @@ Alguns problemas podem ocorrer ao usar links de ajuda contextual da interface do
   </tr> 
   <tr> 
    <td> Enviar novos recursos<br /> </td> 
-   <td> Visualização das mensagens de push: visualize as notificações das mensagens de push em dispositivos iOS e Android de dentro do editor de conteúdo de notificações de mensagens de push para ver exatamente o que os destinatários verão antes de testar ou executar o envio.<br /> Para obter mais informações, consulte a <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentação detalhada</a>.<br /> Conteúdo disponível: quando aplicativos não são abertos por longos períodos de tempo, seus dados podem se tornar obsoletos. Isso resulta na atualização ou substituição dos dados no momento em que um usuário finalmente abre o aplicativo, o que pode causar atrasos no uso do aplicativo. Com a ajuda adicional do Conteúdo disponível, os usuários do Adobe Campaign podem ativar o aplicativo para atualizar os dados em segundo plano ao enviar uma notificação por push, permitindo maior consistência e controle sobre a experiência no aplicativo de um usuário.<br /> Conteúdo variável: com a ajuda adicional do conteúdo variável, os usuários do Adobe Campaign agora podem aproveitar as extensões de aplicativos para dispositivos móveis para modificar ainda mais o conteúdo ou a apresentação de notificações de mensagens de push enviadas pelo Adobe Campaign. Por exemplo, os usuários podem aproveitar o Conteúdo Mutável para: <br /> 
+   <td> Visualização das mensagens de push: visualize as notificações das mensagens de push em dispositivos iOS e Android de dentro do editor de conteúdo de notificações de mensagens de push para ver exatamente o que os destinatários verão antes de testar ou executar a entrega.<br /> Para obter mais informações, consulte a <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentação detalhada</a>.<br /> Conteúdo disponível: quando aplicativos não são abertos por longos períodos de tempo, seus dados podem se tornar obsoletos. Isso resulta na atualização ou substituição dos dados no momento em que um usuário finalmente abre o aplicativo, o que pode causar atrasos no uso do aplicativo. Com a ajuda adicional do Conteúdo disponível, os usuários do Adobe Campaign podem ativar o aplicativo para atualizar os dados em segundo plano ao enviar uma notificação por push, permitindo maior consistência e controle sobre a experiência no aplicativo de um usuário.<br /> Conteúdo variável: com a ajuda adicional do conteúdo variável, os usuários do Adobe Campaign agora podem aproveitar as extensões de aplicativos para dispositivos móveis para modificar ainda mais o conteúdo ou a apresentação de notificações de mensagens de push enviadas pelo Adobe Campaign. Por exemplo, os usuários podem aproveitar o Conteúdo Mutável para: <br /> 
     <ul> 
      <li> descriptografar dados que foram entregues em formato criptografado </li> 
      <li> baixar imagens ou outros arquivos de mídia e adicioná-los como anexos a uma notificação </li> 
@@ -468,7 +496,7 @@ Alguns problemas podem ocorrer ao usar links de ajuda contextual da interface do
   </tr> 
   <tr> 
    <td> Acionamento da atividade de Sinal da API<br /> </td> 
-   <td> Agora é possível acionar uma atividade de sinal para seus workflows diretamente da API do Adobe Campaign Standard.<br /> Para obter mais informações, consulte a <a href="/help/api/using/triggering-a-signal-activity.md">documentação detalhada</a> .<br /> </td> 
+   <td> Agora é possível acionar uma atividade de sinal para seus fluxos de trabalho diretamente da API do Adobe Campaign Standard.<br /> Para obter mais informações, consulte a <a href="/help/api/using/triggering-a-signal-activity.md">documentação detalhada</a> .<br /> </td> 
   </tr> 
  </tbody> 
 </table>

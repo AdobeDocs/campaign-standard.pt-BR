@@ -9,9 +9,21 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/F0EDpvoHNd-fQYxgk5CD-3dlStrW1OhOdlQ6k4tH-c8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: 996
 ht-degree: 62%
 
 ---
@@ -156,6 +168,6 @@ As tabelas abaixo mostram as alterações nos KPIs e no envio de status de logs 
 |--- |--- |--- |
 | A mensagem foi transmitida com êxito do Campaign para o MTA aprimorado | <ul><li>A porcentagem de **[!UICONTROL Delivered]** começa em 100%</li><li>A porcentagem de **[!UICONTROL Bounces + errors]** começa em 0%</li></ul> | Enviado |
 | Mensagens com rejeição permanente são relatadas de volta do MTA aprimorado | <ul><li>A porcentagem de **[!UICONTROL Delivered]** é reduzida de maneira apropriada</li><li>A porcentagem de **[!UICONTROL Bounces + errors]** é aumentada de maneira apropriada</li></ul> | Com falha |
-| Mensagens com rejeição temporária são relatadas de volta do MTA aprimorado | <ul><li>Nenhuma alteração na porcentagem de **[!UICONTROL Delivered]**</li><li>Nenhuma alteração na porcentagem de **[!UICONTROL Bounces + errors]**</li></ul> | Enviada |
+| Mensagens com rejeição temporária são relatadas de volta do MTA aprimorado | <ul><li>Nenhuma alteração na porcentagem de **[!UICONTROL Delivered]**</li><li>Nenhuma alteração na porcentagem de **[!UICONTROL Bounces + errors]**</li></ul> | Enviado |
 | Tentativas de mensagens com rejeição temporária são bem-sucedidas | <ul><li>Nenhuma alteração na porcentagem de **[!UICONTROL Delivered]**</li><li>Nenhuma alteração na porcentagem de **[!UICONTROL Bounces + errors]**</li></ul> | Enviado |
 | Falha nas tentativas de mensagens com rejeição temporária | <ul><li>A porcentagem de **[!UICONTROL Delivered]** é reduzida de maneira apropriada</li><li>A porcentagem de **[!UICONTROL Bounces + errors]** é aumentada de maneira apropriada</li></ul> | Com falha |

@@ -10,10 +10,22 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/9f2fthO3uwDSjhIhVMzOZgqdimJcJOxlodEP1cJZicA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '2208'
-ht-degree: 93%
+source-wordcount: 2262
+ht-degree: 92%
 
 ---
 
@@ -52,7 +64,7 @@ Ao substituir as atividades de API externas, adicione a nova atividade ao fluxo 
 Aplicam-se a esta atividade as seguintes medidas de proteção:
 
 * Limite de tamanho de dados de resposta http de 5 MB (observação: é uma alteração do limite de 50 MB na versão anterior)
-* O tempo de espera da solicitação é de 1 minuto (observação: é uma alteração do tempo limite de 10 minutos na versão anterior)
+* O tempo-limite da solicitação é de 1 minuto (observação: é uma alteração do tempo-limite de 10 minutos na versão anterior)
 * Não são permitidos redirecionamentos HTTP
 * São rejeitados Urls que não sejam HTTPS
 * São permitidos cabeçalho de solicitação “Accept: application/json” e cabeçalho de resposta “Content-Type: application/json”
@@ -78,7 +90,7 @@ Com base nessa tabela temporária, o usuário pode fazer modificações nos dado
 
 ![](assets/externalAPI-inbound.png)
 
-A lista suspensa **Recurso de entrada** permite selecionar a atividade de query que criará a tabela temporária.
+A lista suspensa **Recurso de entrada** permite selecionar a atividade de consulta que criará a tabela temporária.
 
 A caixa de seleção **Adicionar parâmetro de contagem** adicionará um valor de contagem para cada linha proveniente da tabela temporária. Observe que essa caixa de seleção só estará disponível se a atividade de entrada estiver gerando uma tabela temporária.
 
@@ -141,13 +153,13 @@ A guia **Definição de coluna** permite especificar com precisão a estrutura d
 
 ![](assets/externalAPI-column.png)
 
-Por exemplo, você pode alterar o rótulo de uma coluna, selecionar o tipo (string, número inteiro, data etc.) ou até mesmo especificar o processamento de erros.
+Por exemplo, é possível alterar o rótulo de uma coluna, selecionar o tipo (sequência, número inteiro, data etc.) ou até mesmo especificar o processamento de erros.
 
 Para obter mais informações, consulte a seção [Carregar arquivo](../../automating/using/load-file.md).
 
 ### Transição
 
-Essa guia permite ativar a **transição de saída** e seu rótulo. Essa transição específica é útil em caso de **tempo de espera** ou se a carga exceder o **limite de tamanho de dados**.
+Essa guia permite ativar a **transição de saída** e seu rótulo. Essa transição específica é útil em caso de **tempo-limite** ou se a carga exceder o **limite de tamanho de dados**.
 
 ![](assets/externalAPI-transition.png)
 

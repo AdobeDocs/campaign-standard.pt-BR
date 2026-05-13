@@ -9,10 +9,17 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
+TQID: https://experienceleague.adobe.com/bvy-7wuqsSH-ZYxQrx2Nlbjp-HXHvzAK-CwdkSlb1FM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 2%
+source-wordcount: 1006
+ht-degree: 3%
 
 ---
 
@@ -25,19 +32,19 @@ Esta página descreve as etapas para desenvolver um fluxo de trabalho que cria/a
 * **PII** significa &quot;Informações de identificação pessoal&quot;. Podem ser quaisquer dados, incluindo informações que não aparecem na tabela Perfil do banco de dados do Campaign como, por exemplo, Analytics para dispositivos móveis [Pontos de interesse](../../integrating/using/about-campaign-points-of-interest-data-integration.md). As PII são definidas pelo desenvolvedor de aplicativos móveis, geralmente com um profissional de marketing.
 * **Coletar PII** é uma operação HTTP-POST para uma API Rest no Adobe Campaign Standard de um aplicativo móvel.
 
-O objetivo desse caso de uso é criar ou atualizar um perfil de Campaign Standard, se os dados PII retornados por um aplicativo móvel contiverem dados relacionados ao perfil.
+O objetivo desse caso de uso é criar ou atualizar um perfil do Campaign Standard, se os dados PII retornados por um aplicativo móvel contiverem dados relacionados ao perfil.
 
 ## Pré-requisitos
 
 Há várias etapas de configuração a serem seguidas para habilitar notificações por push no Campaign Standard, antes que os perfis possam ser criados ou atualizados com base nos dados de assinatura de aplicativos móveis:
 
 1. [Criar um aplicativo para dispositivos móveis](../../administration/using/configuring-a-mobile-application.md)
-1. [Integre o SDK do Adobe Mobile ao seu aplicativo móvel](../../administration/using/supported-mobile-use-cases.md).
+1. [Integre o Adobe Mobile SDK ao seu aplicativo móvel](../../administration/using/supported-mobile-use-cases.md).
 1. [Configure o Adobe Campaign para enviar notificações por push](../../administration/using/configuring-a-mobile-application.md).
 
 ## Etapa 1 - Estender o recurso de Perfil para Notificações/Assinaturas por push
 
-Para criar ou atualizar o recurso de Perfil com dados PII, primeiro é necessário estender o recurso de Perfil com os campos desejados. Para fazer isso:
+Para criar ou atualizar o recurso de Perfil com dados PII, primeiro é necessário estender o recurso de Perfil com os campos desejados. Para isso:
 
 * Identifique os campos PII enviados pelo Aplicativo móvel.
 * Identifique o campo que será usado para reconciliação para associar os dados de PII aos dados do perfil.
@@ -58,7 +65,7 @@ O mapeamento dos Dados do Perfil ao estender o recurso **[!UICONTROL Subscriptio
 
 ## Etapa 2 - Criar o fluxo de trabalho
 
-Usar um fluxo de trabalho no Campaign Standard permite que um administrador identifique e sincronize de maneira exclusiva os dados do AppSubscription (Assinante) e os dados do Perfil ou do Destinatário. Embora uma atualização baseada em fluxo de trabalho não sincronize os dados do perfil em tempo real, ela não deve causar bloqueios indevidos no banco de dados nem sobrecarga.
+Usar um fluxo de trabalho no Campaign Standard permite que um administrador identifique e sincronize exclusivamente os dados da AppSubscription (Assinante) e os dados do Perfil ou do Destinatário. Embora uma atualização baseada em fluxo de trabalho não sincronize os dados do perfil em tempo real, ela não deve causar bloqueios indevidos no banco de dados nem sobrecarga.
 
 As principais etapas para criar o workflow são:
 
@@ -114,7 +121,7 @@ Na guia **[!UICONTROL General]**, defina o **[!UICONTROL Execution frequency]** 
 
 1. Na guia **[!UICONTROL Fields to update]**, clique no botão **[!UICONTROL Create element]** e mapeie os campos provenientes da tabela appSubscriptionRcp (campo **[!UICONTROL Source]**) com os campos que deseja atualizar na tabela de Perfil (campo **[!UICONTROL Destination]**).
 
-1. No campo **[!UICONTROL Enabled if]**, adicione uma expressão para garantir que o campo correspondente na tabela de Perfil seja atualizado somente se o campo de origem contiver um valor. Para fazer isso, selecione o campo na lista e adicione o caractere &quot;!expressão =&#39;&#39; (se o campo Source for `[target/@cusEmail]` no Editor de expressão, certifique-se de digitar `[target/@cusEmail] != ''"`).
+1. No campo **[!UICONTROL Enabled if]**, adicione uma expressão para garantir que o campo correspondente na tabela de Perfil seja atualizado somente se o campo de origem contiver um valor. Para fazer isso, selecione o campo da lista e adicione a expressão &quot;!=&#39;&#39;&quot; (se o campo do Source for `[target/@cusEmail]` no Editor de expressão, digite `[target/@cusEmail] != ''"`).
 
    ![](assets/update_profile8.png)
 

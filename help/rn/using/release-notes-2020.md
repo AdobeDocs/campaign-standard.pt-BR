@@ -8,10 +8,41 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
+TQID: https://experienceleague.adobe.com/qG7ToJy0sHbYmOX6kOYcRXzxyvCJER3G3TODUx1b3Ag
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: a658c786-869b-4194-a780-2594d663adda
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: a2002dba-5e37-4dff-8e04-1cc3ec73558c
+  - id: af6750fd-3c1b-4ad2-9fe3-99e81510998d
+  - id: d1110311-2ca4-442b-be37-088a6db845ee
+  - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+  - id: f5293531-9312-4099-bfa3-9e67df6a8750
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '5267'
-ht-degree: 97%
+source-wordcount: 5439
+ht-degree: 95%
 
 ---
 
@@ -141,7 +172,7 @@ ht-degree: 97%
 * Correção de um problema que impedia a exibição de porcentagens de relatórios de cliques ativos ao importar conteúdo de um URL. (CAMP-44468)
 * Correção de um problema que poderia exibir um erro de tempo-limite ao selecionar um perfil a ser usado no contexto da substituição do perfil. (CAMP-44746)
 * Correção de um problema que impedia que instâncias funcionassem após a implantação de recursos personalizados contendo definições de links incorretas. (CAMP-44406)
-* Correção de um problema que criava entidades vinculadas vazias (tipologias, marcas, etc.) após copiar e colar um delivery em um template de campanha. (CAMP-44765)
+* Correção de um problema que criava entidades vinculadas vazias (tipologias, marcas, etc.) depois de copiar e colar um delivery em um template de campanha. (CAMP-44765)
 * Correção de um problema que impedia o envio de provas devido a um tratamento incorreto de tabelas de preparação de entrega em caso de falha de um banco de dados ou uma simples reinicialização do banco de dados no Azure.
 * Correção de um problema que impedia a exclusão de links com conteúdo do Experience Manager em uma entrega configurado com conteúdo multilíngue. (CAMP-44029)
 * Correção de um problema em relatórios dinâmicos que podia exibir uma mensagem de erro ao tentar filtrar dimensões.  (CAMP-43097)

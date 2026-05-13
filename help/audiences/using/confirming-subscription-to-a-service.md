@@ -8,9 +8,18 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+TQID: https://experienceleague.adobe.com/ztI-eJdW855g7S99FTujQ6RyRm3iRF0ApASHNi3a6Pk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: 1322
 ht-degree: 85%
 
 ---
@@ -29,7 +38,7 @@ Se você optar por usar a mensagem padrão, é possível editar o conteúdo com 
 
 Para enviar um email de confirmação específico para um determinado serviço, você poderá criar uma mensagem personalizada na qual também poderá usar os campos de personalização de outros recursos. Para isso, você deve criar e configurar uma mensagem transacional. Esta mensagem pode ser especificada:
 * Do próprio serviço. Para saber mais, consulte [Configuração da mensagem de confirmação de um serviço](#configuring-confirmation-message-from-service).
-* De uma landing page de assinatura. Para saber mais, consulte [Configuração da mensagem de confirmação de uma landing page](#configuring-confirmation-message-from-landing-page).
+* De uma página de destino de assinatura. Para saber mais, consulte [Configuração da mensagem de confirmação de uma página de destino](#configuring-confirmation-message-from-landing-page).
 
 ## Configuração da mensagem de confirmação de um serviço {#configuring-confirmation-message-from-service}
 
@@ -41,7 +50,7 @@ Ao configurá-la a partir do serviço, a mensagem transacional de confirmação 
 
 ### Etapa 1: criar o email de confirmação {#step-1--create-the-confirmation-email-1}
 
-Um email de confirmação será enviado automaticamente para cada perfil que assinar o informativo (em uma landing page ou por qualquer outro meio). A assinatura é considerada um evento, e o email é uma [mensagem transacional](../../channels/using/getting-started-with-transactional-msg.md) que direcionará cada perfil que assinar o serviço.
+Um email de confirmação será enviado automaticamente para cada perfil que assinar o informativo (em uma página de destino ou por qualquer outro meio). A assinatura é considerada um evento, e o email é uma [mensagem transacional](../../channels/using/getting-started-with-transactional-msg.md) que direcionará cada perfil que assinar o serviço.
 
 As etapas para criar o email de confirmação são descritas abaixo. Como a mensagem transacional será especificada no serviço, é necessário criá-la primeiro.
 
@@ -50,11 +59,11 @@ As etapas para criar o email de confirmação são descritas abaixo. Como a mens
 O email de confirmação é uma mensagem transacional, pois reage a um evento: a assinatura de um serviço. Ela será enviada para confirmar a assinatura no seu informativo.
 
 1. Crie um evento no menu **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**, acessível pelo logotipo do Adobe Campaign.
-1. Insira um rótulo, selecione um targeting dimension e clique em **[!UICONTROL Create]**.
+1. Insira um rótulo, selecione uma dimensão de direcionamento e clique em **[!UICONTROL Create]**.
 
    As etapas de configuração são apresentadas na seção [Configuração de um evento transacional](../../channels/using/configuring-transactional-event.md).
 
-1. Na seção **[!UICONTROL Fields]**, clique em **[!UICONTROL Create element]** e adicione **[!UICONTROL publicLabel]** à estrutura de dados para ativar a reconciliação.
+1. Na seção **[!UICONTROL Fields]**, clique em **[!UICONTROL Create element]** e adicione **[!UICONTROL publicLabel]** à estrutura de dados para habilitar a reconciliação.
 
    ![](assets/confirmation_publicLabel-field.png)
 
@@ -85,7 +94,7 @@ O email de confirmação é uma mensagem transacional baseada no evento que voc�
 1. No logotipo do Adobe Campaign, selecione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** e clique em **[!UICONTROL Transactional messages]**.
 1. Selecione o email transacional correspondente ao evento que você acabou de publicar.
 
-1. Clique na seção **[!UICONTROL Content]** e selecione um template de email. Para obter mais informações sobre como editar o conteúdo de uma mensagem transacional, consulte [Editar mensagens transacionais](../../channels/using/editing-transactional-message.md).
+1. Clique na seção **[!UICONTROL Content]** e selecione um modelo de email. Para obter mais informações sobre como editar o conteúdo de uma mensagem transacional, consulte [Editar mensagens transacionais](../../channels/using/editing-transactional-message.md).
 1. Como você tem acesso direto a todos os campos do recurso **[!UICONTROL Service]**, é possível selecionar qualquer campo do nó **[!UICONTROL Context]** > **[!UICONTROL Real-time event (rtEvent)]** > **[!UICONTROL Event context (ctx)]** >**[!UICONTROL Service]** para personalizar o conteúdo.
 
    ![](assets/confirmation_personalization-service.png)
@@ -124,26 +133,26 @@ Agora, quando os perfis assinam esse serviço, eles recebem a mensagem transacio
 
 ## Configuração da mensagem de confirmação de uma landing page {#configuring-confirmation-message-from-landing-page}
 
-Você também pode fazer referência à mensagem de confirmação de uma landing page de assinatura usando a opção **[!UICONTROL Start sending messages]** da seção **[!UICONTROL Job]** da landing page.
+Você também pode fazer referência à mensagem de confirmação de uma página de destino de assinatura usando a opção **[!UICONTROL Start sending messages]** da seção **[!UICONTROL Job]** da página de destino.
 
-Na referência à mensagem de confirmação da landing page, uma mensagem será enviada sempre que a landing page for enviada (mesmo que o perfil já tenha feito a assinatura).
+Na referência à mensagem de confirmação da página de destino, uma mensagem será enviada sempre que a página de destino for enviada (mesmo que o perfil já tenha feito a assinatura).
 
 ### Etapa 1: criar o email de confirmação {#step-1--create-the-confirmation-email-2}
 
-Um email de confirmação será enviado automaticamente para cada perfil que assinar o informativo em uma landing page. A assinatura é considerada um evento, e o email é uma [mensagem transacional](../../channels/using/getting-started-with-transactional-msg.md) que direcionará cada perfil que assinar o serviço.
+Um email de confirmação será enviado automaticamente para cada perfil que assinar o informativo em uma página de destino. A assinatura é considerada um evento, e o email é uma [mensagem transacional](../../channels/using/getting-started-with-transactional-msg.md) que direcionará cada perfil que assinar o serviço.
 
-As etapas para criar esses elementos estão descritas abaixo. Como a mensagem transacional será especificada na landing page, é necessário criá-la primeiro.
+As etapas para criar esses elementos estão descritas abaixo. Como a mensagem transacional será especificada na página de destino, é necessário criá-la primeiro.
 
 #### Criar o evento {#create-the-event-2}
 
 O email de confirmação é uma [mensagem transacional](../../channels/using/getting-started-with-transactional-msg.md), pois reage a um evento: a assinatura de um serviço. Ela será enviada para confirmar a assinatura no seu informativo.
 
 1. Crie um evento no menu **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**, acessível pelo logotipo do Adobe Campaign.
-1. Insira um rótulo, selecione um targeting dimension e clique em **[!UICONTROL Create]**.
+1. Insira um rótulo, selecione uma dimensão de direcionamento e clique em **[!UICONTROL Create]**.
 
    As etapas de configuração são apresentadas na seção [Configuração de um evento transacional](../../channels/using/configuring-transactional-event.md).
 
-1. Na seção **[!UICONTROL Fields]**, clique em **[!UICONTROL Create element]** e adicione **[!UICONTROL serviceName]** à estrutura de dados para ativar a reconciliação.
+1. Na seção **[!UICONTROL Fields]**, clique em **[!UICONTROL Create element]** e adicione **[!UICONTROL serviceName]** à estrutura de dados para habilitar a reconciliação.
 
    ![](assets/confirmation_serviceName-field.png)
 
@@ -168,17 +177,17 @@ As etapas para criar a mensagem transacional são apresentadas nesta [seção](#
 
 1. No menu avançado **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Services]**, crie um serviço por meio do logotipo do Adobe Campaign.
 1. Vá para a seção **[!UICONTROL Service properties]**, acessada pelo botão ![](assets/edit_darkgrey-24px.png) no painel do serviço.
-1. Preencha o campo **[!UICONTROL Service label]**. Esse rótulo será exibido na mensagem de confirmação e na landing page da assinatura.
+1. Preencha o campo **[!UICONTROL Service label]**. Esse rótulo será exibido na mensagem de confirmação e na página de destino da assinatura.
 1. Clique em **[!UICONTROL Confirm]** e salve o serviço.
 
 ### Etapa 3: criar e configurar a landing page {#step-3--create-and-configure-the-landing-page}
 
-Crie uma landing page de assinatura que será publicada no seu site.
+Crie uma página de destino de assinatura que será publicada no seu site.
 
-Para criar e configurar essa landing page, siga as etapas abaixo:
+Para criar e configurar essa página de destino, siga as etapas abaixo:
 
-1. Projete uma [nova landing page](../../channels/using/getting-started-with-landing-pages.md) com base no template **[!UICONTROL Subscription]**.
-1. Edite as propriedades da landing page. Na seção **[!UICONTROL Job]** > **[!UICONTROL Specific actions]**, selecione a opção **[!UICONTROL Specific service]** e, na lista suspensa, escolha o serviço que você acabou de criar.
+1. Projete uma [nova página de destino](../../channels/using/getting-started-with-landing-pages.md) com base no modelo **[!UICONTROL Subscription]**.
+1. Edite as propriedades da página de destino. Na seção **[!UICONTROL Job]** > **[!UICONTROL Specific actions]**, selecione a opção **[!UICONTROL Specific service]** e, na lista suspensa, escolha o serviço que você acabou de criar.
 
    ![](assets/confirmation_lp-specific-service.png)
 
@@ -186,9 +195,9 @@ Para criar e configurar essa landing page, siga as etapas abaixo:
 
    ![](assets/confirmation_lp-start-sending-message.png)
 
-1. Personalize o conteúdo da landing page.
+1. Personalize o conteúdo da página de destino.
 
-1. [Teste e publique](../../channels/using/testing-publishing-landing-page.md) a landing page.
+1. [Teste e publique](../../channels/using/testing-publishing-landing-page.md) a página de destino.
 
 Agora, quando os perfis assinam seu informativo enviando a landing page, eles recebem a mensagem de confirmação que você definiu com campos personalizados mapeados para o serviço.
 

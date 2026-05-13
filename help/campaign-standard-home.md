@@ -3,10 +3,27 @@ keywords: Campaign Standard;home;popular topics
 title: Documentação do produto Adobe Campaign Standard
 description: Pesquisar a documentação do produto Campaign Standard
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 9924d811359a6845ee6fd230eb6ffd73985404ba
-workflow-type: ht
-source-wordcount: '284'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/uNWyk8itcInOZ2iLyLAOYdGVKzr4ExnBuRRqNe24U-Y
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
+  - id: ede6e1ec-9279-415e-b828-a09735018d48
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 318
+ht-degree: 91%
 
 ---
 
@@ -20,7 +37,7 @@ Dê uma olhada nos últimos aprimoramentos no produto e na documentação do Ado
 
 >[!TAB Transição para o Campaign v8]
 
-Temos o prazer de anunciar que os usuários do Adobe Campaign Standard já se qualificam para fazer a transição para o Adobe Campaign Managed Cloud Services v8. 
+Temos o prazer de anunciar que os usuários do Adobe Campaign Standard já se qualificam para fazer a transição para o Adobe Campaign Managed Cloud Services v8.
 
 [![imagem](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/pt-br/docs/campaign-web/acs-to-ac/home){target="_blank"}
 
@@ -107,6 +124,6 @@ Aprenda como compartilhar dados entre o Campaign e a Real-time Customer Data Pla
 <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR" target="_blank">Tutoriais</a> - <a href="https://helpx.adobe.com/br/legal/product-descriptions/campaign-standard.html" target="_blank">Descrição do produto</a> - <a href="rn/using/deprecated-features.md">Recursos obsoletos e removidos</a> - <a href="rn/using/release-planning.md">Planejamento de versão</a>
 </td>
 <td><strong>Recursos técnicos</strong><br/>
-<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Acionadores da Experience Cloud</a> - <a href="api/using/get-started-apis.md">APIs do Campaign</a> - <a href="https://helpx.adobe.com/br/campaign/kb/acs-article-list.html" target="blank">Notas técnicas</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR" target="_blank">Documentação do painel de controle</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=pt-BR">Lista de mensagens de erro</a>
+<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Acionadores do Experience Cloud</a> - <a href="api/using/get-started-apis.md">APIs do Campaign</a> - <a href="https://helpx.adobe.com/br/campaign/kb/acs-article-list.html" target="blank">Notas técnicas</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR" target="_blank">Documentação do Painel de Controle</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=pt-BR">Lista de mensagens de erro</a>
 </td>
 </tr></table>

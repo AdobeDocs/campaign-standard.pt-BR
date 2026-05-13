@@ -5,10 +5,19 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 177f0115-d269-44e8-94e0-123360ea6299
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+TQID: https://experienceleague.adobe.com/gsEh-PHBSQbDKZGZKklKBQv-rn78MOzciNC9aHuC-6I
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 40%
+source-wordcount: 226
+ht-degree: 39%
 
 ---
 
@@ -16,7 +25,7 @@ ht-degree: 40%
 
 Use o Adobe Campaign para criar e gerenciar informativos e comunicações entre canais usando um conjunto de **serviços**: as mensagens são enviadas apenas aos perfis que assinaram (aceitaram) o serviço. Esses perfis são identificados usando um filtro dedicado ao criar uma mensagem.
 
-Os mecanismos de assinatura podem ser configurados para permitir que os clientes assinem esses serviços, principalmente por meio de **emails** e **landing pages**.
+Os mecanismos de assinatura podem ser configurados para permitir que os clientes assinem esses serviços, principalmente por meio de **emails** e **páginas de destino**.
 
 Cada serviço vem com:
 

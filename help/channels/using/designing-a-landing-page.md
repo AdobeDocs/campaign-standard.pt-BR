@@ -1,6 +1,6 @@
 ---
-title: Design de uma landing page
-description: Saiba como criar o conteúdo de uma landing page.
+title: Design de uma página de destino
+description: Saiba como criar o conteúdo de uma página de destino.
 audience: channels
 content-type: reference
 topic-tags: landing-pages
@@ -9,28 +9,37 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/Khit4ZawqjXKPd9FG7eJaIgU-eQhaFGtNhLGzE74Xio
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 93%
+source-wordcount: 1684
+ht-degree: 91%
 
 ---
 
-# Design de uma landing page{#designing-a-landing-page}
+# Design de uma página de destino{#designing-a-landing-page}
 
 ## Sobre o design de conteúdo de uma página de aterrissagem {#about-content-design}
 
-Landing pages são criadas como qualquer [atividade de marketing](../../start/using/marketing-activities.md#about-marketing-activities).
+Páginas de destino são criadas como qualquer [atividade de marketing](../../start/using/marketing-activities.md#about-marketing-activities).
 
-Ao criar uma landing page, é necessário definir o conteúdo da própria página, a página de confirmação e a página de erro. Use o alternador na barra de ações para exibir e configurar cada uma dessas páginas.
+Ao criar uma página de destino, é necessário definir o conteúdo da própria página, a página de confirmação e a página de erro. Use o alternador na barra de ações para exibir e configurar cada uma dessas páginas.
 
 O conteúdo das páginas de aterrissagem é projetado por meio do editor de conteúdo do Campaign.
 
 >[!NOTE]
 >
->Para design de email, se sua instância foi instalada antes da versão 19.0 do Adobe Campaign Standard, você ainda terá acesso ao editor herdado de conteúdo de email. A interface, os princípios de uso e a configuração são os mesmos descritos abaixo para landing pages. No entanto, todos os recursos podem não estar disponíveis ou mantidos no editor herdado de conteúdo de email, que foi substituído a partir da versão 19.0. Para editar rapidamente o conteúdo de email por meio de uma interface de arrastar e soltar com funcionalidades estendidas, use o [Designer de email](../../designing/using/designing-content-in-adobe-campaign.md).
+>Para design de email, se sua instância foi instalada antes da versão 19.0 do Adobe Campaign Standard, você ainda terá acesso ao editor herdado de conteúdo de email. A interface, os princípios de uso e a configuração são os mesmos descritos abaixo para páginas de destino. No entanto, todos os recursos podem não estar disponíveis ou mantidos no editor herdado de conteúdo de email, que foi substituído a partir da versão 19.0. Para editar rapidamente o conteúdo de email por meio de uma interface de arrastar e soltar com funcionalidades estendidas, use o [Designer de email](../../designing/using/designing-content-in-adobe-campaign.md).
 
-Esta página descreve as especificidades do editor de conteúdo das landing pages. Para mais informações sobre as ações comuns a uma ou mais atividades de marketing, consulte estas seções do guia **Criação do conteúdo de email** l:
+Esta página descreve as especificidades do editor de conteúdo das páginas de destino. Para mais informações sobre as ações comuns a uma ou mais atividades de marketing, consulte estas seções do guia **Criação do conteúdo de email** l:
 
 * [Inserção de um campo de personalização](../../designing/using/personalization.md#inserting-a-personalization-field)
 * [Adição de um bloco de conteúdo](../../designing/using/personalization.md#adding-a-content-block)
@@ -39,19 +48,19 @@ Esta página descreve as especificidades do editor de conteúdo das landing page
 * [Práticas recomendadas gerais para design de conteúdo](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)
 
 >[!NOTE]
->Se você tiver uma landing page que já esteja predefinida no formato HTML, poderá importá-la diretamente usando o botão **[!UICONTROL Change content]**.
+>Se você tiver uma página de destino que já esteja predefinida no formato HTML, poderá importá-la diretamente usando o botão **[!UICONTROL Change content]**.
 >
 >Antes de importar uma página HTML no Adobe Campaign, confirme que ela seja aberta e exibida corretamente nos diversos navegadores. Se a página HTML contiver scripts JavaScript, eles precisarão executar sem erros fora do editor. Em geral, evite usar scripts no conteúdo da mensagem para garantir que ele seja processado corretamente pelos clientes de email.
 
 ## Interface do editor de conteúdo da página de destino{#landing-page-content-editor-interface}
 
-O editor de conteúdo de landing pages permite que você defina, modifique e personalize facilmente o conteúdo no Adobe Campaign. Para acessá-lo, clique no bloco **[!UICONTROL Content]** no painel de uma landing page.
+O editor de conteúdo de páginas de destino permite que você defina, modifique e personalize facilmente o conteúdo no Adobe Campaign. Para acessá-lo, clique no bloco **[!UICONTROL Content]** no painel de uma página de destino.
 
 O editor de conteúdo é organizado em três seções diferentes. Estas seções permitem que você exiba e edite o conteúdo.
 
 ![](assets/des_lp_content_8.png)
 
-1. A **paleta** no lado esquerdo da tela permite modificar as opções gerais vinculadas a um bloco selecionado. As opções que podem ser modificadas são: cor do plano de fundo, borda, alinhamento do texto, condição de visibilidade etc. Consulte [Inserção de um campo de personalização](../../designing/using/personalization.md#inserting-a-personalization-field).
+1. A **paleta** no lado esquerdo da tela permite modificar as opções gerais vinculadas a um bloco selecionado. As opções que podem ser modificadas são: cor do plano de fundo, borda, alinhamento do texto, condição de visibilidade, etc. Consulte [Inserir um campo de personalização](../../designing/using/personalization.md#inserting-a-personalization-field).
 1. A **barra de ação** contém as opções gerais da página. Você pode selecionar um modelo e alterar o modo de exibição.
 1. A **zona de edição** principal permite interagir diretamente com o conteúdo usando a barra de ferramentas contextual: insira um link em uma imagem, altere a fonte, exclua um campo etc.
 
@@ -72,7 +81,7 @@ A **barra de ação** contém botões diferentes que permitem a interação com 
   <tr> 
    <td> <img height="21px" src="assets/download_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Alterar conteúdo</span> <br /> </td> 
-   <td> Landing page e email<br /> </td> 
+   <td> Página de destino e email<br /> </td> 
    <td> Permite que você selecione conteúdo pronto para uso ou importe seu próprio conteúdo HTML. Consulte <a href="../../designing/using/using-existing-content.md">Carregamento de um conteúdo existente</a>.<br /> </td> 
   </tr> 
   <tr> 
@@ -90,13 +99,13 @@ A **barra de ação** contém botões diferentes que permitem a interação com 
   <tr> 
    <td> <img height="21px" src="assets/display_block_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Mostrar blocos</span> <br /> </td> 
-   <td> Landing page e email<br /> </td> 
+   <td> Página de destino e email<br /> </td> 
    <td> Permite que você mostre as caixas ao redor dos blocos de conteúdo (corresponde à tag HTML <strong>&lt;div&gt;</strong>).<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/code_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Mostrar origem</span> <br /> </td> 
-   <td> Landing page e email<br /> </td> 
+   <td> Página de destino e email<br /> </td> 
    <td> Permite que você mostre o código fonte HTML da página.<br /> </td> 
   </tr> 
  </tbody> 
@@ -130,7 +139,7 @@ A **barra de ferramentas** é um elemento contextual da interface do editor que 
    <td> <img height="21px" src="assets/linkpage_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Link para uma página de aterrissagem</span> <br /> </td> 
    <td> Qualquer elemento<br /> </td> 
-   <td> Permite acesso a uma landing page do Adobe Campaign. Detalhes de como configurar um link são apresentados na seção <a href="../../designing/using/links.md#inserting-a-link">Inserção de um link</a>.<br /> </td> 
+   <td> Permite acesso a uma página de destino do Adobe Campaign. Detalhes de como configurar um link são apresentados na seção <a href="../../designing/using/links.md#inserting-a-link">Inserção de um link</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/link_Subscribe_darkgrey-24px.png" /> <br /> </td> 
@@ -190,7 +199,7 @@ A **barra de ferramentas** é um elemento contextual da interface do editor que 
    <td> <img height="21px" src="assets/textbold_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Negrito</span> <br /> </td> 
    <td> Elemento de texto<br /> </td> 
-   <td> Adiciona o estilo em negrito ao texto selecionado (envolve o texto com as tags <strong>&lt;strong&gt;</strong><strong>&lt;/strong&gt;</strong> ).<br /> </td> 
+   <td> Adiciona o estilo em negrito ao texto selecionado (envolve o texto com as tags <strong><strong></strong>&lt;strong&gt;</strong>&lt;/strong&gt; ).<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/textitalic_darkgrey-24px.png" /> <br /> </td> 
@@ -253,11 +262,11 @@ Quando o mouse passa sobre um dos elementos da navegação estrutural, o element
 
 Use as opções da paleta e da barra de ferramentas contextual para modificar, excluir ou duplicar o bloco.
 
-Para os blocos que contêm texto, clique novamente no bloco para ativar o modo de edição de texto. O quadro ao redor do bloco passa a ser verde. Em seguida, você pode selecionar ou inserir texto. Use as opções da paleta e da barra de ferramentas contextual para adicionar um link ou modificar a formatação do texto.
+Para os blocos que contêm texto, clique novamente no bloco para habilitar o modo de edição de texto. O quadro ao redor do bloco passa a ser verde. Em seguida, você pode selecionar ou inserir texto. Use as opções da paleta e da barra de ferramentas contextual para adicionar um link ou modificar a formatação do texto.
 
 ![](assets/des_lp_content_3.png)
 
-Os parâmetros definidos para um elemento em um bloco (links, campos de personalização, blocos de conteúdo etc.) podem ser modificados a qualquer momento a partir da paleta.
+Os parâmetros definidos para um elemento em um bloco (links, campos de personalização, blocos de conteúdo etc.) pode ser modificado a qualquer momento na paleta.
 
 ![](assets/des_lp_content_4.png)
 
@@ -287,7 +296,7 @@ Você também pode usar a barra de ferramentas para alterar os atributos da font
 
 ### Inserção de imagens em uma landing page {#inserting-images-in-a-landing-page}
 
-1. Em um conteúdo de landing page, selecione um bloco que contenha uma imagem.
+1. Em um conteúdo de página de destino, selecione um bloco que contenha uma imagem.
 1. Selecione o botão **[!UICONTROL Insert]**.
 
    ![](assets/des_insert_images_lp_1.png)
@@ -306,15 +315,15 @@ Você também pode usar a barra de ferramentas para alterar os atributos da font
 
 ## Definição de conteúdo dinâmico em uma landing page{#defining-dynamic-content-in-a-landing-page}
 
-Para definir o conteúdo dinâmico em uma landing page, selecione um bloco usando a navegação estrutural ou clicando diretamente em um elemento.
+Para definir o conteúdo dinâmico em uma página de destino, selecione um bloco usando a navegação estrutural ou clicando diretamente em um elemento.
 
 ![](assets/dynamic_content_lp_1.png)
 
-Determinados blocos, como imagens, não podem ser selecionados diretamente. Nesse caso, selecione o bloco principal usando a navegação estrutural. Em seguida, você pode modificar todos os elementos incluídos nesse elemento principal, incluindo imagens. A condição será aplicada a todos os elementos secundários dentro do bloco principal.
+Determinados blocos, como imagens, não podem ser selecionados diretamente. Nesse caso, selecione o bloco principal usando a navegação estrutural. Em seguida, você pode modificar todos os elementos incluídos nesse elemento principal, incluindo imagens. A condição será aplicada a todos os elementos filhos dentro do bloco pai.
 
 A navegação estrutural é apresentada na seção [Gerenciamento de blocos](../../channels/using/designing-a-landing-page.md#managing-landing-page-structure-and-style).
 
-As próximas etapas para definir o conteúdo dinâmico em uma landing page são semelhantes às etapas a seguir para um email. Consulte [esta seção](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+As próximas etapas para definir o conteúdo dinâmico em uma página de destino são semelhantes às etapas a seguir para um email. Consulte [esta seção](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 >[!NOTE]
 >

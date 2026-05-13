@@ -8,10 +8,22 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/QgkQth22239fJIEoh5DWlTkx9ptFo7DpziHH0hLRt-U
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 7%
+source-wordcount: 786
+ht-degree: 6%
 
 ---
 
@@ -332,7 +344,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> Impressões exclusivas<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
    <td> @unique(@count(status=view))<br /> </td> 
-   <td> Para <span class="uicontrol">usuários do Target com base no modelo do perfil do Campaign (inAppProfile)</span>, usuário = ID do destinatário.<br /> Para <span class="uicontrol">Direcionar todos os usuários de um aplicativo móvel (inAppBroadcast)</span> e <span class="uicontrol">Direcionar usuários com base em seus modelos de Perfil móvel (inApp)</span>, usuário = MC Id ou equivalente que representa uma combinação exclusiva de usuário, aplicativo móvel e dispositivo.<br /> </td> 
+   <td> Para <span class="uicontrol">usuários do Target com base no seu perfil do Campaign (inAppProfile)</span> modelo, usuário = ID de destinatário.<br /> Para <span class="uicontrol">Direcionar todos os usuários de um aplicativo móvel (inAppBroadcast)</span> e <span class="uicontrol">Direcionar usuários com base em seus modelos de Perfil móvel (inApp)</span>, usuário = MC Id ou equivalente que representa uma combinação exclusiva de usuário, aplicativo móvel e dispositivo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Cliques no aplicativo <br /> </td> 
@@ -344,7 +356,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> Cliques únicos no aplicativo<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @unique(@count (status=cliques))<br /> </td> 
-   <td> Para <span class="uicontrol">usuários do Target com base no modelo do perfil do Campaign (inAppProfile)</span>, usuário = ID do destinatário.<br /> Para <span class="uicontrol">Direcionar todos os usuários de um aplicativo móvel (inAppBroadcast)</span> e <span class="uicontrol">Direcionar usuários com base em seus modelos de Perfil móvel (inApp)</span>, usuário = MC Id ou equivalente que representa uma combinação exclusiva de usuário, aplicativo móvel e dispositivo.<br /> </td> 
+   <td> Para <span class="uicontrol">usuários do Target com base no seu perfil do Campaign (inAppProfile)</span> modelo, usuário = ID de destinatário.<br /> Para <span class="uicontrol">Direcionar todos os usuários de um aplicativo móvel (inAppBroadcast)</span> e <span class="uicontrol">Direcionar usuários com base em seus modelos de Perfil móvel (inApp)</span>, usuário = MC Id ou equivalente que representa uma combinação exclusiva de usuário, aplicativo móvel e dispositivo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taxa de cliques no aplicativo<br /> </td> 
@@ -362,7 +374,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> Descartes únicos no aplicativo<br /> </td> 
    <td> @uniquedismissal<br /> </td> 
    <td> @unique(@count (status=close))<br /> </td> 
-   <td> Para <span class="uicontrol">usuários do Target com base no modelo do perfil do Campaign (inAppProfile)</span>, usuário = ID do destinatário.<br /> Para <span class="uicontrol">Direcionar todos os usuários de um aplicativo móvel (inAppBroadcast)</span> e <span class="uicontrol">Direcionar usuários com base em seus modelos de Perfil móvel (inApp)</span>, usuário = MC Id ou equivalente que representa uma combinação exclusiva de usuário, aplicativo móvel e dispositivo.<br /> </td> 
+   <td> Para <span class="uicontrol">usuários do Target com base no seu perfil do Campaign (inAppProfile)</span> modelo, usuário = ID de destinatário.<br /> Para <span class="uicontrol">Direcionar todos os usuários de um aplicativo móvel (inAppBroadcast)</span> e <span class="uicontrol">Direcionar usuários com base em seus modelos de Perfil móvel (inApp)</span>, usuário = MC Id ou equivalente que representa uma combinação exclusiva de usuário, aplicativo móvel e dispositivo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taxa de demissão no aplicativo<br /> </td> 

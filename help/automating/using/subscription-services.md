@@ -10,9 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 612b6203-1cc9-4015-a026-e5a249f3d03d
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/a5CeNJPuLV7KLkYo44ME3Pd2XVGOwM6ncLGjlupiRgc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: 1116
 ht-degree: 96%
 
 ---
@@ -45,7 +52,7 @@ Se especificada em um arquivo por meio de colunas dedicadas, com essa atividade 
 ## Configuração {#configuration}
 
 1. Arraste e solte uma atividade **[!UICONTROL Subscription Services]** no seu fluxo de trabalho.
-1. Conecte-a após outras atividades de direcionamento, como um query ou uma reconciliação após uma importação.
+1. Conecte-a após outras atividades de direcionamento, como uma consulta ou uma reconciliação após uma importação.
 1. Selecione e abra a atividade usando o botão ![](assets/edit_darkgrey-24px.png) das ações rápidas exibidas.
 1. Selecione o **[!UICONTROL Service]** para o qual você deseja gerenciar as assinaturas usando uma das seguintes opções:
 

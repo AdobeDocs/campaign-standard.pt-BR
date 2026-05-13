@@ -8,9 +8,19 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/QDye5eM-hWU3DB-OqrxDLIYPDw9YlokgF0XIjvzHfgI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: 1293
 ht-degree: 5%
 
 ---
@@ -36,7 +46,7 @@ Ao criar um email ou uma landing page, você pode optar por carregar um conteúd
 
    * [Modelos de conteúdo](../../designing/using/using-reusable-content.md#content-templates): clique na guia **[!UICONTROL Templates]**.
    * [Conteúdo do zero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch), para começar do zero: clique no botão **[!UICONTROL Create]**.
-   * [Conteúdo do computador como um arquivo ZIP ou HTML](#importing-content-from-a-file): clique no botão **[!UICONTROL Upload]**.
+   * [Conteúdo do seu computador como um arquivo ZIP ou HTML](#importing-content-from-a-file): clique no botão **[!UICONTROL Upload]**.
    * [Conteúdo de uma URL existente](#importing-content-from-a-url) (somente para emails): clique no botão **[!UICONTROL Import from URL]**.
 
    ![](assets/des_loading_2.png)
@@ -47,7 +57,7 @@ Ao criar um email ou uma landing page, você pode optar por carregar um conteúd
 
    >[!NOTE]
    >
-   >O [Designer de email](../../designing/using/designing-content-in-adobe-campaign.md) usa marcação específica. O conteúdo em HTML padrão carregado no Campaign deve corresponder à marcação esperada para ser totalmente compatível e editável no Designer de email. Se não for correspondente, seu conteúdo será carregado no [modo de compatibilidade](#compatibility-mode). Para tornar o conteúdo existente compatível, consulte [esta seção](#editing-existing-contents-with-the-email-designer).
+   >O [Designer de email](../../designing/using/designing-content-in-adobe-campaign.md) usa marcação específica. O conteúdo padrão do HTML carregado no Campaign deve corresponder à marcação esperada para ser totalmente compatível e editável no Designer de email. Se não for correspondente, seu conteúdo será carregado no [modo de compatibilidade](#compatibility-mode). Para tornar o conteúdo existente compatível, consulte [esta seção](#editing-existing-contents-with-the-email-designer).
 
 **Tópicos relacionados:**
 
@@ -56,9 +66,9 @@ Ao criar um email ou uma landing page, você pode optar por carregar um conteúd
 
 ## Edição de conteúdo existente com o Designer de email{#editing-existing-contents-with-the-email-designer}
 
-Para aproveitar ao máximo as possibilidades de edição do [Designer de email](../../designing/using/designing-content-in-adobe-campaign.md), o HTML carregado deve conter marcações específicas que o tornem compatível com o editor WYSIWYG.
+Para aproveitar ao máximo as possibilidades de edição do [Designer de email](../../designing/using/designing-content-in-adobe-campaign.md), seu HTML carregado deve conter marcações específicas que o tornem compatível com o editor do WYSIWYG.
 
-Se todo ou parte do HTML não tiver essa marcação, o conteúdo será carregado no &#39; [modo de compatibilidade](#compatibility-mode)&#39;.
+Se a HTML não tiver essa marcação na totalidade ou em parte, o conteúdo será carregado no &#39; [modo de compatibilidade](#compatibility-mode)&#39;.
 
 Para tornar um conteúdo externo existente totalmente editável no Designer de email, consulte a seção [Criação de email usando conteúdo existente](../../designing/using/using-existing-content.md).
 
@@ -68,7 +78,7 @@ Para tornar um conteúdo externo existente totalmente editável no Designer de e
 
 Na home page Email Designer, clique no botão **[!UICONTROL Upload]** para carregar um arquivo do seu computador e, em seguida, confirme.
 
-Não há restrições na estrutura do arquivo zip. No entanto, os arquivos de HTML de referência devem ser relativos e respeitar a estrutura de árvore da pasta zip.
+Não há restrições na estrutura do arquivo zip. No entanto, a referência a arquivos HTML deve ser relativa e respeitar a estrutura de árvore da pasta zip.
 
 Os seguintes formatos são suportados para importação:
 
@@ -77,7 +87,7 @@ Os seguintes formatos são suportados para importação:
 
 >[!NOTE]
 >
->Para conteúdo de email, recomendamos que você importe arquivos de HTML único com uma folha de estilos incorporada.
+>Para conteúdo de email, recomendamos que você importe arquivos únicos do HTML com uma folha de estilos incorporada.
 
 #### Importação de conteúdo de um URL {#importing-content-from-a-url}
 
@@ -112,7 +122,7 @@ Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](http
 
 ### Recuperação automática de conteúdo de um URL no momento da preparação {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
-A importação de conteúdo de um URL durante a preparação da mensagem permite recuperar o conteúdo de HTML mais recente sempre que o email for preparado. Dessa forma, o conteúdo de emails recorrentes está sempre atualizado no momento do envio. Esse recurso também permite criar uma mensagem agendada em uma data específica, mesmo que o conteúdo ainda não esteja pronto.
+A importação de conteúdo de um URL durante a preparação da mensagem permite recuperar o conteúdo do HTML mais recente sempre que o email for preparado. Dessa forma, o conteúdo de emails recorrentes está sempre atualizado no momento do envio. Esse recurso também permite criar uma mensagem agendada em uma data específica, mesmo que o conteúdo ainda não esteja pronto.
 
 Para recuperar o conteúdo no momento da preparação, siga as etapas abaixo:
 
@@ -155,15 +165,15 @@ Estas tentativas são úteis nestes casos:
 
 ### Modo de compatibilidade {#compatibility-mode}
 
-Ao fazer upload de um conteúdo, ele deve conter marcações específicas para ser totalmente compatível e editável com o editor WYSIWYG do Email Designer.
+Ao fazer upload de um conteúdo, ele deve conter marcações específicas para ser totalmente compatível e editável com o editor do WYSIWYG da Designer de email.
 
-Se todo ou parte do HTML carregado não estiver em conformidade com a marcação esperada, o conteúdo será carregado no &quot;modo de compatibilidade&quot;, o que limita as possibilidades de edição por meio da interface.
+Se o HTML carregado não estiver em conformidade, total ou parcialmente, com a marcação esperada, o conteúdo será carregado no &quot;modo de compatibilidade&quot;, o que limita as possibilidades de edição por meio da interface.
 
 Quando um conteúdo é carregado no modo de compatibilidade, você ainda pode executar as seguintes modificações por meio da interface (as ações indisponíveis estão ocultas):
 
 * Alteração do texto ou de uma imagem
 * Inserção de links e campos de personalização
-* Editar algumas opções de estilo no bloco de HTML selecionado
+* Editar algumas opções de estilo no bloco selecionado do HTML
 * Definição do conteúdo condicional
 
 ![](assets/email_designer_compatibility.png)
@@ -178,23 +188,23 @@ Para obter mais informações sobre como converter um email existente em um emai
 * [Vídeo de introdução ao Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Criar um conteúdo de email do zero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-## Conversão de conteúdo de HTML {#converting-an-html-content}
+## Conversão de conteúdo do HTML {#converting-an-html-content}
 
-Se você quiser criar uma estrutura de modelos e fragmentos modulares que podem ser combinados para reutilização em vários emails, considere converter seu HTML de email em um modelo de Designer de email.
+Se você quiser criar uma estrutura de modelos e fragmentos modulares que podem ser combinados para reutilização em vários emails, considere converter seu HTML de email em um modelo Designer de email.
 
-Esse caso de uso oferece uma maneira rápida de converter o email do HTML em componentes de Designer de email.
+Esse caso de uso oferece uma maneira rápida de converter emails do HTML em componentes de email do Designer.
 
 >[!CAUTION]
 >
->Esta seção é para usuários avançados familiarizados com o código HTML.
+>Esta seção é para usuários avançados familiarizados com o código do HTML.
 
 >[!NOTE]
 >
->Como o modo de compatibilidade, um componente HTML é editável com opções limitadas: você só pode executar a edição no local.
+>Como o modo de compatibilidade, um componente do HTML é editável com opções limitadas: você só pode executar a edição no local.
 
 Fora do Designer de email, verifique se o HTML original está dividido em seções reutilizáveis.
 
-Se esse não for o caso, corte os diferentes blocos do seu HTML. Por exemplo:
+Se não for o caso, recorte os diferentes blocos do seu HTML. Por exemplo:
 
 ```
 <!-- 3 COLUMN w/CTA (SCALED) -->
@@ -221,8 +231,8 @@ Depois de identificar todos os blocos, no Designer de email, repita o procedimen
 1. Abra o Designer de email para criar um conteúdo de email vazio.
 1. Defina os atributos do nível do corpo: cores do plano de fundo, largura etc. Para obter mais informações, consulte [Edição de estilos de email](../../designing/using/styles.md).
 1. Adicione um componente de estrutura. Para obter mais informações, consulte [Edição da estrutura do email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. Adicione um componente HTML. Para obter mais informações, consulte [Inclusão de fragmentos e componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. Copie e cole seu HTML nesse componente.
+1. Adicionar um componente do HTML. Para obter mais informações, consulte [Inclusão de fragmentos e componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Copie e cole sua HTML nesse componente.
 1. Alternar para exibição móvel. Para obter mais informações, consulte [esta seção](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
    A exibição responsiva foi interrompida porque o CSS está ausente.

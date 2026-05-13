@@ -8,10 +8,22 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: a903d7e2-7654-46b3-bc61-4653a065faad
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+TQID: https://experienceleague.adobe.com/jEwlV4sdPtwlYNW-3uSWMBJOOCiffDv1GbCFMN1wNF4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 13%
+source-wordcount: 370
+ht-degree: 12%
 
 ---
 
@@ -62,7 +74,7 @@ No bloco **[!UICONTROL Content]**, crie e personalize o conteúdo da mensagem us
 
 ![](assets/steps-prepare.png)
 
-**Verifique e teste sua mensagem** antes de enviá-la usando os recursos de Campaign Standard: visualização, renderização de email, revisão de texto, etc. Para obter mais informações, consulte [esta seção](../../sending/using/previewing-messages.md).
+**Verifique e teste sua mensagem** antes de enviá-la usando os recursos do Campaign Standard: visualização, renderização de email, revisão de texto, etc. Para obter mais informações, consulte [esta seção](../../sending/using/previewing-messages.md).
 
 Use o bloco **[!UICONTROL Schedule]** para definir quando suas mensagens serão enviadas (consulte [Agendando mensagens](../../sending/using/about-scheduling-messages.md)).
 
@@ -74,7 +86,7 @@ Quando a mensagem estiver pronta, você poderá confirmar o envio. O bloco **[!U
 
 ![](assets/steps-send.png)
 
-Vários logs estão disponíveis para ajudar você a monitorar a entrega de suas mensagens (consulte [monitoramento de uma entrega](../../sending/using/monitoring-a-delivery.md)). Você também pode acompanhar o comportamento dos recipients do delivery graças às [funcionalidades de rastreamento](../../sending/using/tracking-messages.md) do Campaign Standard.
+Vários logs estão disponíveis para ajudar você a monitorar a entrega de suas mensagens (consulte [monitoramento de uma entrega](../../sending/using/monitoring-a-delivery.md)). Você também pode acompanhar o comportamento dos recipients de entrega graças às [funcionalidades de rastreamento](../../sending/using/tracking-messages.md) da Campaign Standard.
 
 ![](../../sending/using/assets/tracking_logs.png)
 

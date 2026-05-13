@@ -10,9 +10,24 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: fa0f790d-6a4d-4b83-a51f-f565e9545a1a
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/-jB7BPM9NT-JsMdFBcPvmeXx3fEyJkMMtu-Y5lD6hD4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: 881
 ht-degree: 4%
 
 ---
@@ -74,7 +89,7 @@ Detalhes do fluxograma (mapeia para as etapas acima):
 * **Etapa 2** - A oferta de integração padrão é gratuita para todos os clientes; no entanto, podem ser aplicados custos adicionais, dependendo de suas necessidades. Saiba mais sobre [Práticas recomendadas e limitações](../../integrating/using/d365-acs-notices-and-recommendations.md). Uma nova ordem de venda precisará ser assinada para aproveitar a integração se não tiver sido incluída na OC original.
 * **Etapa 3** - Conclua as etapas de pré-integração do Dynamics 365 e do Campaign. Consulte [Configurar esta integração](#configure-this-integration).
 * **Etapa 4** - A equipe de integração do Adobe fornecerá acesso à interface do usuário (UI) do aplicativo de integração.
-* **Etapa 5** - Você poderá configurar mapeamentos de dados, substituições, filtros etc. e teste sua integração na interface do usuário do aplicativo de integração.
+* **Etapa 5** - Você poderá configurar mapeamentos de dados, substituições, filtros etc. e testar sua integração na interface do aplicativo de integração.
 
   >[!IMPORTANT]
   >

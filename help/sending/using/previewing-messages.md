@@ -8,9 +8,18 @@ feature: Seed Address
 role: User
 level: Intermediate
 exl-id: ac8c1265-f530-4438-ab2d-3ca17615ca85
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+TQID: https://experienceleague.adobe.com/0nQFLX-FzzajBKqGZO-MCnpS9zP5-tRNllV366m8hbs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: 635
 ht-degree: 16%
 
 ---
@@ -19,7 +28,7 @@ ht-degree: 16%
 
 ## Pré-visualização de emails {#previewing-emails}
 
-O Campaign Standard permite que você visualize as mensagens antes do envio, a fim de verificar a personalização e como os recipients as verão.
+O Campaign Standard permite que você visualize as mensagens antes de enviá-las, a fim de verificar a personalização e como os recipients as verão.
 
 A pré-visualização de mensagens é executada usando **Perfis de teste** que você adiciona ao destino da mensagem.
 
@@ -53,7 +62,7 @@ Para visualizar uma mensagem usando perfis de teste, siga estas etapas:
 
 ## Pré-visualização de mensagens SMS {#previewing-sms}
 
-Para mensagens **SMS**, o Campaign Standard permite visualizar mensagens usando perfis de teste. Isso permite obter uma representação exata da mensagem que um perfil específico receberá. Para mais informações, consulte [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md).
+Para mensagens de **SMS**, o Campaign Standard permite que você visualize mensagens usando perfis de teste. Isso permite obter uma representação exata da mensagem que um perfil específico receberá. Para mais informações, consulte [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md).
 
 Para visualizar uma mensagem SMS usando perfis de teste, siga estas etapas:
 
@@ -85,7 +94,7 @@ Agora é possível ver a representação exata da mensagem, dependendo dos perfi
 
 ## Visualização de notificações por push {#previewing-push}
 
-Para **Notificação por push**, o Campaign Standard permite pré-visualizar mensagens usando perfis de teste. Isso permite obter uma representação exata da mensagem que um perfil específico receberá. Para mais informações, consulte [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md).
+Para **Notificação por push**, o Campaign Standard permite visualizar mensagens usando perfis de teste. Isso permite obter uma representação exata da mensagem que um perfil específico receberá. Para mais informações, consulte [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md).
 
 Para visualizar uma notificação por push usando perfis de teste, siga estas etapas:
 
@@ -113,7 +122,7 @@ Agora é possível ver a representação exata da mensagem, dependendo dos perfi
 
 ## Visualização de mensagens no aplicativo {#previewing-in-app}
 
-Para **No aplicativo**, o Campaign Standard permite visualizar mensagens usando perfis de teste. Isso permite obter uma representação exata da mensagem que um perfil específico receberá. Para mais informações, consulte [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md).
+Para **No aplicativo**, o Campaign Standard permite que você visualize mensagens usando perfis de teste. Isso permite obter uma representação exata da mensagem que um perfil específico receberá. Para mais informações, consulte [Gerenciamento de perfis de teste](../../audiences/using/managing-test-profiles.md).
 
 Para visualizar uma mensagem no aplicativo usando perfis de teste, siga estas etapas:
 

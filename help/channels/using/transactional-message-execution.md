@@ -9,10 +9,17 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 4cea7207-469c-46c5-9921-ae2f8f12d141
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/D4-ExbGPm1p4iWBL1msW5P3-K2xeE6Gg6byZDl6WqPI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 61%
+source-wordcount: 744
+ht-degree: 54%
 
 ---
 
@@ -47,7 +54,7 @@ Quando um evento é acionado, ele é atribuído a um delivery de execução. Se 
 >
 >Um evento adiado não é exibido nos logs de envio da mensagem transacional, pois ela ainda não foi atribuída a uma entrega de execução.
 
-Por exemplo, o evento não pôde ser atribuído a uma entrega de execução porque seu conteúdo não estava correto. Houve um problema com direitos de acesso ou marca, um erro foi detectado ao aplicar regras de tipologia etc. Nesse caso, você pode pausar a mensagem, editá-la para corrigir o problema e publicá-la novamente. O sistema de nova tentativa a atribuirá a uma nova entrega de execução.
+Por exemplo, o evento não pôde ser atribuído a um delivery de execução porque seu conteúdo não estava correto. Houve um problema com direitos de acesso ou marca, um erro foi detectado ao aplicar regras de tipologia etc. Nesse caso, você pode pausar a mensagem, editá-la para corrigir o problema e publicá-la novamente. O sistema de nova tentativa a atribuirá a uma nova entrega de execução.
 
 ### Processo de nova tentativa de envio de mensagem {#message-sending-retry-process}
 

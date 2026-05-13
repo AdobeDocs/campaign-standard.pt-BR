@@ -10,9 +10,20 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: f9b36b4d-0e9d-4dcf-9079-91dc83764102
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/38gc6pZv3d9g2c9X1F3Xhx97xt-mwj-Ey03ZdAwWvgo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: 1063
 ht-degree: 98%
 
 ---
@@ -48,7 +59,7 @@ Para exibir e modificar o conteúdo de um elemento, clique no rótulo correspond
 As etapas de exportação de pacote são descritas na seção [Exportação de um pacote](#exporting-a-package).
 
 * O pacote **[!UICONTROL Platform]** reúne todos os recursos adicionados durante a configuração técnica: recursos personalizados, conjuntos de recursos personalizados, acionadores e opções de aplicativo com o tipo **[!UICONTROL System]**.
-* O pacote **[!UICONTROL Administration]** agrupa todos os objetos adicionados durante a configuração dos negócios como: modelos de campanha, modelos de conteúdo, modelos de entrega, modelos de landing page, modelos de programa e modelos de fluxo de trabalho.
+* O pacote **[!UICONTROL Administration]** agrupa todos os objetos adicionados durante a configuração dos negócios como: modelos de campanha, modelos de conteúdo, modelos de entrega, modelos de página de destino, modelos de programa e modelos de fluxo de trabalho.
 
   Ele também inclui estes objetos: blocos de conteúdo, target mappings, contas externas, unidades organizacionais, opções de aplicativo com o tipo **[!UICONTROL User]**, funções, tipologias, regras de tipologia e usuários.
 

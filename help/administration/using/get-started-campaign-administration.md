@@ -6,10 +6,26 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+TQID: https://experienceleague.adobe.com/FKO2q2Cn5rO8aKh0d88eaFi7p1Xa608fOmEZiCRazBc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: b4ecd69f-2adf-4219-bc47-c9cd9a53c118
+  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 13%
+source-wordcount: 647
+ht-degree: 16%
 
 ---
 
@@ -22,11 +38,11 @@ ht-degree: 13%
 <td><img src="assets/do-not-localize/icon_settings.svg" width="60px"><p><a href="#application-settings">Configurações do aplicativo</a></p></td></tr>
 </table>
 
-Como uma solução baseada em nuvem, a Adobe Campaign oferece aos administradores diferentes maneiras de configurar o aplicativo. Embora a configuração da infraestrutura seja executada pelo Adobe, os administradores funcionais podem executar várias operações de configuração detalhadas abaixo.
+Como uma solução baseada em nuvem, a Adobe Campaign oferece aos administradores diferentes maneiras de configurar o aplicativo. Embora a configuração da infraestrutura seja realizada pela Adobe, os administradores funcionais podem executar várias operações de configuração detalhadas abaixo.
 
 >[!NOTE]
 >
->Em caso de dúvidas ou solicitações sobre questões de implementação e configuração, entre em contato com o executivo da sua conta Adobe.
+>Em caso de dúvidas ou solicitações sobre questões de implementação e configuração, entre em contato com o executivo da sua conta da Adobe.
 
 Observe que os usuários administradores também podem aproveitar o Painel de controle do Campaign para gerenciar configurações e rastrear o uso de cada uma de suas instâncias. Para obter mais informações, consulte a [documentação dedicada](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR).
 
@@ -87,7 +103,7 @@ Leia mais:
 
 O Campaign Standard vem com diferentes elementos de aplicativos que podem ser configurados para atender às suas necessidades.
 
-Configure **contas externas**, que são usadas para conectar o Adobe Campaign a servidores externos. Acesse mapeamentos de destino de Campaign Standard e monitore sua plataforma usando **workflows técnicos**.
+Configure **contas externas**, que são usadas para conectar o Adobe Campaign a servidores externos. Acesse os mapeamentos de destino do Campaign Standard e monitore sua plataforma usando **workflows técnicos**.
 
 Defina uma ou várias **marcas** para sua organização e configure o envio de **notificações em tempo real** dentro do aplicativo em caso de atividades importantes do sistema.
 
@@ -96,6 +112,6 @@ Leia mais:
 * [Sobre as configurações do Campaign Standard](../../administration/using/about-campaign-standard-settings.md)
 * [Contas externas](../../administration/using/external-accounts.md)
 * [Mapeamentos do Target no Campaign](../../administration/using/target-mappings-in-campaign.md)
-* [Workflows técnicos](../../administration/using/technical-workflows.md)
+* [Fluxos de trabalho técnicos](../../administration/using/technical-workflows.md)
 * [Marca](../../administration/using/branding.md)
 * [Envio de notificações internas](../../administration/using/sending-internal-notifications.md)

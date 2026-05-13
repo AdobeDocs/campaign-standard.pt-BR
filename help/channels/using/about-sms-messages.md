@@ -9,10 +9,19 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: a7f22d92-dbf9-4c2b-8fc1-1e31d1e5e79c
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+TQID: https://experienceleague.adobe.com/d0IcWAf5j-JUAKKeC84Fxm-mZsfuMJ2k6GmhQfdQeFk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 30%
+source-wordcount: 267
+ht-degree: 29%
 
 ---
 
@@ -33,7 +42,7 @@ As mensagens SMS podem ser criadas no menu **[!UICONTROL Marketing activities]**
 Para enviar mensagens SMS para um telefone celular, você precisa:
 
 * Uma conta externa de **[!UICONTROL Routing]** configurada no canal **[!UICONTROL Mobile (SMS)]** com o modo **[!UICONTROL Bulk delivery]**. Para mais informações, consulte a seção [Roteamento](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
-* Um template da entrega vinculado corretamente a essa conta externa.
+* Um modelo da entrega vinculado corretamente a essa conta externa.
 
 **Tópicos relacionados:**
 
@@ -42,7 +51,7 @@ Para enviar mensagens SMS para um telefone celular, você precisa:
 * [Relatório de SMS](../../reporting/using/sms-report.md)
 * [Guia do Campaign Standard Mobile](../../channels/using/get-started-communication-channels.md)
 
-## Template de entrega de SMS {#sms-delivery-template}
+## Modelo de entrega de SMS {#sms-delivery-template}
 
 O Adobe Campaign oferece um template de delivery para dispositivos móveis. Este modelo deve estar corretamente vinculado à conta externa usada para o canal **[!UICONTROL Mobile (SMS)]**. Para acessá-lo e modificá-lo:
 

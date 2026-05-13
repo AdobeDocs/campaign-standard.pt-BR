@@ -5,16 +5,27 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: c7aca0c3-525d-4195-8c04-2fad32ca43b7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/sOXv3QMAjOt2gadC9uDyaZA8SVVfoXspzpJ8NOZQkzQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: 593
 ht-degree: 6%
 
 ---
 
 # Chamada de um recurso usando uma chave de identificação composta{#calling-a-resource-using-a-composite-identification-key}
 
-Em alguns casos, pode ser necessário definir para um recurso uma chave de identificação composta de dois campos. Depois que a chave de identificação for configurada, será necessário configurar uma definição de filtro para poder chamar o recurso com essa chave de identificação, seja da interface Campaign Standard ou de APIs.
+Em alguns casos, pode ser necessário definir para um recurso uma chave de identificação composta de dois campos. Depois que a chave de identificação for configurada, será necessário configurar uma definição de filtro para poder chamar o recurso com essa chave de identificação, a partir da interface do Campaign Standard ou de APIs.
 
 Neste caso de uso, o recurso **Perfil** foi estendido com campos **&quot;ID do CRM&quot;** e **&quot;categoria&quot;** personalizados. Criaremos uma chave de identificação para o recurso Perfil, que será composta desses dois campos. Em seguida, configuraremos uma definição de filtro para que possamos acessar o recurso de Perfil usando a chave de identificação.
 

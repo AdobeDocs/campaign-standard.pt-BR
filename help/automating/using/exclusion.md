@@ -10,14 +10,21 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: dccb9545-0d7e-4d40-9a8f-2915b4da99a7
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/46Q9UK-l1t1bBo9PZiasUxF2nqbLs7luEzqOJt7PU1k
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: 251
 ht-degree: 98%
 
 ---
 
-# Regras de {#exclusion}
+# Regras de{#exclusion}
 
 ## Descrição {#description}
 
@@ -46,6 +53,6 @@ Um conjunto principal é definido entre as transições de entrada. Os membros d
 
 ## Exemplo {#example}
 
-O exemplo a seguir mostra duas atividades de query configuradas para filtrar perfis do banco de dados do Adobe Campaign que têm entre 18 e 27 anos e têm um endereço de email inválido. Os perfis com endereços de email inválidos são excluídos do primeiro conjunto. Essa exclusão permite que você envie um email, por exemplo.
+O exemplo a seguir mostra duas atividades de consulta configuradas para filtrar perfis do banco de dados do Adobe Campaign que têm entre 18 e 27 anos e têm um endereço de email inválido. Os perfis com endereços de email inválidos são excluídos do primeiro conjunto. Essa exclusão permite que você envie um email, por exemplo.
 
 ![](assets/wkf_exclusion_example.png)

@@ -8,10 +8,27 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
+TQID: https://experienceleague.adobe.com/D3wg-eUkV7-ci9tbK2QK-uNaZBSj8e481WYc-XZr7KA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1261'
-ht-degree: 75%
+source-wordcount: 1270
+ht-degree: 73%
 
 ---
 
@@ -39,7 +56,7 @@ A página inicial é composta por um conjunto de cartões que fornecem acesso r�
 * O cartão **[!UICONTROL Create a Direct mail]** direciona você ao assistente de criação de correspondência direta. Consulte a seção [Criação de correspondência direta](../../channels/using/creating-the-direct-mail.md).
 * O cartão **[!UICONTROL Create a push notification]** direciona você ao assistente de criação de notificações. Esse assistente possibilita escolher um tipo de notificação por push, selecionar os destinatários da mensagem e definir o conteúdo. Consulte a seção [Criação de notificações por push](../../channels/using/preparing-and-sending-a-push-notification.md).
 * O cartão **[!UICONTROL Create an In-App message]** direciona você ao assistente de criação de mensagens no aplicativo. Esse assistente permite selecionar o tipo de mensagem no aplicativo que deseja criar, definir suas propriedades, público-alvo e conteúdo. Consulte a seção [Criação de mensagem no aplicativo](../../channels/using/about-in-app-messaging.md).
-* O cartão **[!UICONTROL Marketing activities]** direciona você à lista completa de todas as atividades, programas e campanhas, especialmente emails, SMS, fluxos de trabalho e landing pages. Desse ponto, você pode filtrar os elementos pesquisando por nome, data, status ou tipo de atividade. Para obter mais informações, consulte a seção [Lista de atividades de marketing](../../start/using/marketing-activities.md#about-marketing-activities).
+* O cartão **[!UICONTROL Marketing activities]** direciona você à lista completa de todas as atividades, programas e campanhas, especialmente emails, SMS, fluxos de trabalho e páginas de destino. Desse ponto, você pode filtrar os elementos pesquisando por nome, data, status ou tipo de atividade. Para obter mais informações, consulte a seção [Lista de atividades de marketing](../../start/using/marketing-activities.md#about-marketing-activities).
 * O cartão **[!UICONTROL Programs & campaigns]** leva você à lista de programas em que é possível criar e gerenciar suas campanhas. Consulte a [Lista de programas](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
 * O cartão **[!UICONTROL Timeline]** direciona você para uma linha do tempo interativa de suas atividades de marketing, onde é possível consultar os programas em andamento e seu conteúdo. Consulte a [Linha do tempo](../../start/using/timeline.md).
 * O cartão **[!UICONTROL Customer profiles]** direciona você para a lista dos perfis. Aqui você pode consultar os eventos sobre cada um dos perfis da sua lista. Consulte [Gerenciamento de perfis](../../audiences/using/about-profiles.md).
@@ -47,7 +64,7 @@ A página inicial é composta por um conjunto de cartões que fornecem acesso r�
 
 ## Barra superior {#top-bar}
 
-A barra superior é visível em todas as telas e permite navegar pelas funcionalidades do Adobe Campaign, além de acessar o perfil de Adobe conectado, as notificações, as soluções da Adobe Experience Cloud e a documentação do Campaign.
+A barra superior é visível em todas as telas e permite navegar pelas funcionalidades do Adobe Campaign, bem como acessar o perfil da Adobe conectado, as notificações, as soluções da Adobe Experience Cloud e a documentação do Campaign.
 
 Os princípios de navegação são:
 
@@ -64,7 +81,7 @@ Os princípios de navegação são:
 
 ### Ajuda {#help}
 
-No canto superior direito, o ícone **Ajuda** traz o Adobe Experience League para dentro do produto.
+No canto superior direito, o ícone **Ajuda** traz a Adobe Experience League para o produto.
 
 ![](assets/ux_help.png)
 
@@ -124,7 +141,7 @@ A zona central da interface do usuário é uma zona dinâmica que contém uma li
 
 O conteúdo e o formato de exibição da zona central podem variar:
 
-* Uma **lista**, que apresenta vários elementos, como programas, campanhas, perfis etc. Esses elementos podem ser exibidos no modo **[!UICONTROL Card]** ou **[!UICONTROL List]**. Use o botão de alteração de modo para alternar de um para o outro. Cada elemento exibe indicadores.
+* Uma **lista**, que apresenta vários elementos, como programas, campanhas, perfis, etc. Esses elementos podem ser exibidos no modo **[!UICONTROL Card]** ou **[!UICONTROL List]**. Use o botão de alteração de modo para alternar de um para o outro. Cada elemento exibe indicadores.
 
   ![](assets/ux_liste.png)
 

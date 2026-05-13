@@ -8,10 +8,22 @@ feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: 75628ed8a2f9b21def23e5b257a3592e1a721536
+TQID: https://experienceleague.adobe.com/fDzmrslmo3YdV0vVeGlC2SOWdATbYlUyGD6C-kLbSMY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 47%
+source-wordcount: 1117
+ht-degree: 45%
 
 ---
 
@@ -45,7 +57,7 @@ No modelo de Otimização preditiva de tempo de envio, há dois submodelos:
 
 Detalhes da saída
 
-* Calcula o melhor horário do dia para enviar um email nos 7 dias da semana com intervalos de 1 hora (por exemplo: 9h, 10h, 11h)
+* Calcula o melhor horário do dia para enviar um email nos 7 dias da semana com intervalos de 1 hora (por exemplo: 9h, 10h:00, 11h:00):00
 * O modelo indicará o melhor dia da semana e o melhor horário do dia
 * Cada horário ideal é calculado duas vezes: uma vez para maximizar a taxa de abertura e outra para maximizar a taxa de cliques
 * São administrados 16 campos (14 para os dias da semana e 2 para a semana inteira):
@@ -101,7 +113,7 @@ AddHours([currentDelivery/scheduling/@contactDate],
 >
 >O modelo de dados pode ser diferente dependendo da implementação.
 
-## Pontuação de envolvimento preditivo {#predictive-scoring}
+## Pontuação preditiva de engajamento {#predictive-scoring}
 
 A Pontuação preditiva de engajamento prevê a probabilidade de engajamento de um recipient em uma mensagem, bem como a probabilidade de opt out (cancelamento de inscrição) nos próximos 7 dias após o próximo envio de email.
 
@@ -118,7 +130,7 @@ Este modelo usa várias pontuações para indicar:
 * **Pontuação de engajamento ao abrir/Pontuação de engajamento ao clicar**: esse valor corresponde à probabilidade de um assinante se engajar com uma mensagem específica (abrir ou clicar). Os valores variam de 0,0 a 1,0.
 * **Probabilidade de cancelamento de inscrição**: esse valor corresponde à probabilidade do destinatário cancelar a inscrição do canal de email considerando um email aberto. Os valores variam de 0,0 a 1,0.
 * **Nível de retenção**: esse valor classifica os usuários em três níveis: baixo, médio e alto. O alto tem mais probabilidade de adesão à marca, enquanto o baixo provavelmente cancelará a assinatura.
-* **Classificação de percentual de retenção**: Classificação do perfil em termos de probabilidade de cancelamento de assinatura. Os valores variam de 0,0 a 1,0. Por exemplo, se a classificação de porcentagem de retenção for de 0,953, esse destinatário terá maior probabilidade de permanecer com a marca e menos probabilidade de cancelar a assinatura do que 95,3% de todos os destinatário.
+* **Classificação de percentil de retenção**: Classificação do perfil em termos de probabilidade de cancelamento de assinatura. Os valores variam de 0,0 a 1,0. Por exemplo, se a classificação de porcentagem de retenção for de 0,953, esse recipient terá mais probabilidade de permanecer com a marca e menos probabilidade de cancelar a inscrição do que 95,3% de todos os recipients.
 
 >[!NOTE]
 >

@@ -8,10 +8,19 @@ feature: Proofs
 role: User
 level: Intermediate
 exl-id: 48f222bd-9c2f-4eeb-a12b-bbfc62119024
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+TQID: https://experienceleague.adobe.com/0ZBuZihQqaowNG6y5gzkh5Vpz86e6pjmTRd5bNDPGxg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 88%
+source-wordcount: 381
+ht-degree: 69%
 
 ---
 
@@ -25,7 +34,7 @@ Ao gerenciar uma campanha na qual a data e a hora são importantes, você pode a
 
 Para enviar uma entrega no fuso horário do destinatário, você também pode usar a atividade **[!UICONTROL Scheduler]** em um fluxo de trabalho. Para obter mais informações, consulte esta [página](../../automating/using/scheduler.md).
 
-No exemplo a seguir, queremos enviar um código promocional válido somente no Dia dos namorados para todos os clientes no mundo todo. Para que haja tempo suficiente para usá-lo durante o dia, todos os clientes devem receber a mensagem em 14 de fevereiro, às 8h, dependendo de seus fusos horários.
+No exemplo a seguir, queremos enviar um código promocional válido somente no Dia dos namorados para todos os clientes no mundo todo. Para que haja tempo suficiente para usá-lo durante o dia, todos os clientes devem receber a mensagem em 14 de fevereiro, às 8h, dependendo de seus fusos horários.:00
 
 1. Na guia **[!UICONTROL Marketing activities]**, comece criando a entrega, no nosso caso, um email. Para saber mais sobre a criação de email, consulte esta [seção](../../channels/using/creating-an-email.md).
 1. Depois de criar o email Dia dos namorados, clique em **[!UICONTROL Create]** para acessar o painel da entrega. Para obter mais informações sobre design de email, consulte esta [página](../../designing/using/personalization.md#example-email-personalization).
@@ -36,7 +45,7 @@ No exemplo a seguir, queremos enviar um código promocional válido somente no D
 
    ![](assets/send-time_opt_valentine_2.png)
 
-1. Selecione a opção **[!UICONTROL Messages to be sent automatically on the date]** especificada abaixo. Em seguida, no campo **[!UICONTROL Start sending from]**, defina a data do contato, no nosso caso, 14 de fevereiro às 8h, para que todos os destinatários recebam no Dia dos namorados.
+1. Selecione a opção **[!UICONTROL Messages to be sent automatically on the date]** especificada abaixo. Em seguida, no campo **[!UICONTROL Start sending from]**, defina a data do contato, no nosso caso, 14 de fevereiro às 8:00 AM, para que todos os recipients recebam no Dia dos namorados.
 
    ![](assets/send-time_opt_valentine.png)
 
@@ -48,10 +57,10 @@ No exemplo a seguir, queremos enviar um código promocional válido somente no D
 
    ![](assets/send-time_opt_valentine_3.png)
 
-1. Depois de confirmar a programação da entrega, clique no botão **[!UICONTROL Prepare]** e depois **[!UICONTROL Confirm]** sua entrega.
+1. Depois de confirmar o cronograma da entrega, clique no botão **[!UICONTROL Prepare]** e depois **[!UICONTROL Confirm]** sua entrega.
 
    Confirme o envio com pelo menos 24 horas de antecedência. Caso contrário, dependendo da sua localização, alguns destinatários poderão receber a entrega antes do evento Dia dos namorados.
 
    ![](assets/send-time_opt_valentine_4.png)
 
-Não importa onde eles estejam localizados, todos os destinatários receberão a mensagem em 14 de fevereiro, às 8h, no horário local.
+Não importa onde eles estejam localizados, todos os destinatários receberão a mensagem em 14 de fevereiro, às 8:00, horário local.

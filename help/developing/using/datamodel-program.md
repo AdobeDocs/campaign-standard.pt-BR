@@ -7,10 +7,15 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: b05dc67a-6447-4d22-99f2-8a14a0ee46d2
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/zo3wFxqwI6LIHn4Uolv9oipkW17maikqcO4zExmYQxM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 33%
+source-wordcount: 228
+ht-degree: 38%
 
 ---
 
@@ -143,8 +148,8 @@ ht-degree: 33%
                   <td> </td>
                </tr>
                <tr>
-                  <td>start</td>
-                  <td>Data de início</td>
+                  <td>iniciar</td>
+                  <td>Data inicial</td>
                   <td>data </td>
                   <td> </td>
                </tr>

@@ -6,9 +6,17 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/t8aqY1Bp8McHJjthjuLMZo2zA3-bG6GTC6ZeeVWZD0A
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: 574
 ht-degree: 0%
 
 ---
@@ -39,7 +47,7 @@ Para enviar informações de rastreamento, há três variáveis que devem ser en
 
 ## Implementar o rastreamento de impressão local {#implement-local-impression-tracking}
 
-O SDK do Adobe Experience Platform Mobile enviará automaticamente o evento de impressão para o Android e o iOS sem nenhuma configuração adicional.
+O Adobe Experience Platform Mobile SDK enviará automaticamente o evento de impressão para o Android e o iOS sem qualquer configuração adicional.
 
 ## Implementar o rastreamento de cliques {#implementing-click-tracking}
 

@@ -9,9 +9,18 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 5138826d-ae08-403b-91ef-91027ef6e78e
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+TQID: https://experienceleague.adobe.com/13JYxn86ZNf9mBAnNCLGCW4M80IvRvkYvnEWmkqGnAU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: 280
 ht-degree: 31%
 
 ---
@@ -40,7 +49,7 @@ Defina um perfil de teste que será vinculado ao evento, o que permitirá pré-v
 
    ![](assets/message-center_5.png)
 
-Você também pode criar um novo perfil de teste ou usar um que já existe no menu **[!UICONTROL Test profiles]**. Para fazer isso:
+Você também pode criar um novo perfil de teste ou usar um que já existe no menu **[!UICONTROL Test profiles]**. Para isso:
 
 1. Clique no logotipo **Adobe**, no canto superior esquerdo, e selecione **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
 1. Na seção **[!UICONTROL Event]**, selecione o evento que acabou de criar. Neste exemplo, selecione &quot;Abandono de carrinho (EVTcartAbandonment)&quot;.

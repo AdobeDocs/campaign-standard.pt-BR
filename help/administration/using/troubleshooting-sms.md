@@ -6,9 +6,18 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+TQID: https://experienceleague.adobe.com/14iQSiLOTGCwAvxz0lwxS8tB0X3pg0Pi8JB0NjBOTAc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: 2724
 ht-degree: 87%
 
 ---
@@ -24,7 +33,7 @@ O Adobe Campaign trata as contas externas como entidades não relacionadas.
 Se você tiver várias contas, siga este procedimento para isolar a conta externa que está causando problemas:
 
 1. Desabilite todas as contas externas.
-1. Ative uma conta externa.
+1. Habilite uma conta externa.
 1. Tente reproduzir o problema.
 1. Se o problema inicial nem sempre ocorrer, faça uma quantidade razoável de tentativas antes de concluir.
 1. Se o problema não ocorrer com essa única conta, desabilite-a e reinicie na etapa 2 na próxima conta.
@@ -97,7 +106,7 @@ Como corrigir problemas de estabilidade de conexão:
 
 * Conexões instáveis raramente são a causa principal. Muitas vezes, é o resultado de outro problema que aciona uma desconexão. Encontrar a causa raiz é a prioridade.
 
-* Ative rastreamentos SMPP detalhados. Você precisará deles para ver o que está acontecendo quando a conexão for reiniciada.
+* Habilite rastreamentos SMPP detalhados. Você precisará deles para ver o que está acontecendo quando a conexão for reiniciada.
 
 * Se o provedor envia `BIND PDU`s, algo pode estar errado. Pergunte ao provedor por que `UNBING` é enviado.
 
@@ -117,9 +126,9 @@ Como corrigir problemas de estabilidade de conexão:
 
 * Verifique se o MTA realmente processa a mensagem. Se não for o caso, talvez não seja um problema de SMS.
 
-* Verifique se o conector de SMS está associado ao equipamento do provedor. Solicite feedback ao provedor para garantir que todos os sistemas estejam se comunicando corretamente. Consulte `BIND_TRANSMITTER` e `BIND_TRANSCEIVER PDU`s para obter informações sobre o processo de associação. Talvez seja necessário ativar os rastreamentos SMPP para solucionar problemas corretamente.
+* Verifique se o conector de SMS está associado ao equipamento do provedor. Solicite feedback ao provedor para garantir que todos os sistemas estejam se comunicando corretamente. Consulte `BIND_TRANSMITTER` e `BIND_TRANSCEIVER PDU`s para obter informações sobre o processo de associação. Talvez seja necessário habilitar os rastreamentos SMPP para solucionar problemas corretamente.
 
-* Com os rastreamentos SMPP ativados, verifique se `SUBMIT_SM PDU` contém as informações certas.
+* Com os rastreamentos SMPP habilitados, verifique se `SUBMIT_SM PDU` contém as informações certas.
 
 * Verifique se o provedor responde com um `SUBMIT_SM_RESP PDU` com um valor &quot;OK&quot; (código 0). Verifique se a PDU chega com um atraso razoável: qualquer tempo superior a 1 segundo deve ser discutido com o provedor. Geralmente, chega em menos de 100 ms.
 
@@ -129,19 +138,19 @@ Como corrigir problemas de estabilidade de conexão:
 
 ## Os MTs são duplicados (o mesmo SMS é enviado várias vezes seguidas){#duplicated-MT}
 
-Duplicatas frequentemente são causadas por tentativas. É normal haver duplicatas ao tentar enviar mensagens novamente. Você deve tentar remover a causa raiz das tentativas.
+Duplicados frequentemente são causados por tentativas. É normal haver duplicados ao tentar enviar mensagens novamente. Você deve tentar remover a causa raiz das tentativas.
 
-* Se duplicatas forem enviadas com um intervalo de exatamente 60 segundos, provavelmente será um problema referente ao provedor, que não envia um `SUBMIT_SM_RESP` com rapidez suficiente.
+* Se forem enviados duplicados com um intervalo de exatamente 60 segundos, provavelmente será um problema referente ao provedor, que não envia um `SUBMIT_SM_RESP` com rapidez suficiente.
 
 * Se há muitos `BIND/UNBIND`, você tem uma conexão instável. Consulte a seção [Problema com conexões instáveis](../../administration/using/troubleshooting-sms.md#issues-unstable-connection) para obter soluções antes de tentar resolver problemas de mensagens duplicadas.
 
-Diminuição na quantidade de duplicatas quando há uma nova tentativa:
+Diminuição na quantidade de duplicados quando há uma nova tentativa:
 
 * Diminua a janela de envio. A janela de envio deve ser grande o suficiente para abranger a latência `SUBMIT_SM_RESP`. Seu valor representa o número máximo de mensagens que poderão ser duplicadas se ocorrer um erro enquanto a janela estiver cheia.
 
 ## Problema ao processar SR (recibos de entrega) {#issue-process-SR}
 
-* Você precisará de rastreamentos SMPP ativados para realizar qualquer tipo de solução de problemas de SR.
+* Você precisará de rastreamentos SMPP habilitados para realizar qualquer tipo de solução de problemas de SR.
 
 * Verifique se `DELIVER_SM PDU` vem do provedor e se está corretamente formado.
 
@@ -159,7 +168,7 @@ Se você corrigiu tudo, mas alguns SR inválidos ainda estão nos buffers do pro
 
 ## Problema ao processar o MO (e resposta automática/inclui na lista de bloqueios){#issue-process-MO}
 
-* Ativar rastreamentos SMPP durante testes. Se você não ativar o TLS, deverá fazer uma captura de rede ao solucionar problemas do MO para verificar se as PDUs contêm as informações corretas e estão formatadas adequadamente.
+* Habilitar rastreamentos SMPP durante testes. Se você não habilitar o TLS, deverá fazer uma captura de rede ao solucionar problemas do MO para verificar se as PDUs contêm as informações corretas e estão formatadas adequadamente.
 
 * Ao capturar tráfego de rede ou analisar rastreamentos SMPP, capture toda a conversa com o MO e seu MT de resposta se uma resposta estiver configurada.
 
@@ -167,13 +176,13 @@ Se você corrigiu tudo, mas alguns SR inválidos ainda estão nos buffers do pro
 
 * Se `DELIVER_SM PDU` for exibido, verifique se ele foi confirmado pelo Adobe Campaign com um `DELIVER_SM_RESP PDU` bem-sucedido (código 0). Esse RESP garante que toda a lógica de processamento foi aplicada pelo Adobe Campaign (resposta automática e lista de permissão/bloqueio). Se esse não for o caso, procure uma mensagem de erro nos logs MTA.
 
-* Se as respostas automáticas estiverem ativadas, verifique se `SUBMIT_SM` foi enviado ao provedor. Caso contrário, você encontrará uma mensagem de erro nos logs de MTA.
+* Se as respostas automáticas estiverem habilitadas, verifique se `SUBMIT_SM` foi enviado ao provedor. Caso contrário, você encontrará uma mensagem de erro nos logs de MTA.
 
 * Se o `SUBMIT_SM MT PDU` que contém a resposta for encontrado nos rastreamentos, mas o SMS não chegar ao telefone celular, você terá que entrar em contato com o provedor para obter assistência na solução de problemas.
 
 ## Problema durante a preparação de entrega sem a exclusão de destinatário em quarentena (em quarentena pelo recurso de resposta automática) {#issue-delivery-preparation}
 
-* Verifique se o formato do número de telefone é exatamente o mesmo na tabela de quarentena e no log de delivery.  Caso contrário, consulte esta [seção](../../administration/using/sms-protocol.md#automatic-reply) se tiver problemas com o prefixo &quot;+&quot; do formato de número de telefone internacional.
+* Verifique se o formato do número de telefone é exatamente o mesmo na tabela de quarentena e no log de entrega.  Caso contrário, consulte esta [seção](../../administration/using/sms-protocol.md#automatic-reply) se tiver problemas com o prefixo &quot;+&quot; do formato de número de telefone internacional.
 
 * Verifique os códigos curtos. Poderão correr exclusões se o código curto do destinatário for igual ao definido na conta externa ou se estiver vazio (vazio = qualquer código curto). Se apenas um código curto for usado para toda a instância do Adobe Campaign, será mais fácil deixar todos os campos de **código curto** vazios.
 
@@ -211,7 +220,7 @@ Envie diferentes tipos de caracteres especiais ao testar. Por exemplo, a codific
 
 Sempre que buscar assistência para um problema de SMS, seja para abrir um tíquete de suporte para o Adobe Campaign, para o provedor de SMS ou qualquer tipo de comunicação sobre o problema, você precisará incluir as informações a seguir para ter certeza de que ele será qualificado corretamente. A qualificação correta dos problemas é fundamental para resolvê-los mais rapidamente.
 
-* **Ative as mensagens SMPP detalhadas** quando o problema surgir. A maioria dos problemas de SMS é impossível de resolver sem isso.
+* **Habilite as mensagens SMPP detalhadas** quando o problema surgir. A maioria dos problemas de SMS é impossível de resolver sem isso.
 
 * Se o problema estiver relacionado ao tráfego de SMS, entre em contato primeiro com o provedor. A plataforma dele é mais adequada para o diagnóstico eficiente dos problemas de tráfego de SMS em tempo real.
 
@@ -249,7 +258,7 @@ Em todas as outras situações, tente analisar as mensagens SMPP detalhadas prim
 
 Em alguns casos, a captura do tráfego de rede não é necessária. As situações mais comuns são:
 
-* TLS ativado: por definição, o tráfego TLS é criptografado para que não possa ser capturado.
+* TLS habilitado: por definição, o tráfego TLS é criptografado para que não possa ser capturado.
 
 * Problemas de desempenho: os logs contêm todas as informações necessárias para rastrear problemas de desempenho.
 
@@ -265,7 +274,7 @@ Em alguns casos, a captura do tráfego de rede não é necessária. As situaçõ
 
 O novo conector dá suporte a logs estendidos por meio de rastreamentos: SMPP. Os rastreamentos são enviados no log MTA, não na saída padrão.
 
-**Ativação por conta externa (método preferencial)**
+**Habilitação por conta externa (método preferencial)**
 
 1. Na **Conta externa**, selecione **Habilitar rastreamentos SMPP detalhados no arquivo de log**.
 1. Ao salvar, o conector se reconectará com os rastreamentos ativados.
@@ -273,7 +282,7 @@ O novo conector dá suporte a logs estendidos por meio de rastreamentos: SMPP. O
 **Habilitando em tempo real**
 
 O MTA do Adobe Campaign Standard tem uma interface de controle HTTP que permite alterar o filtro de rastreamento em tempo real.
-Uma chamada de POST pode ativar/desativar rastreamentos. Exemplo de URL para habilitar rastreamentos SMPP:
+Uma chamada POST pode ativar/desativar rastreamentos. Exemplo de URL para habilitar rastreamentos SMPP:
 
 ```
 POST http://host:7780/mta/trace?filter=SMPP
@@ -285,7 +294,7 @@ Para desativar rastreamentos, defina um filtro vazio:
 POST http://host:7780/mta/trace?filter=
 ```
 
-**Ativação na configuração**
+**Habilitação na configuração**
 
 No arquivo `config-instance.xml`, defina os seguintes parâmetros:
 

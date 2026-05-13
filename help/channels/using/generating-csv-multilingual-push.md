@@ -1,5 +1,5 @@
 ---
-title: Gerando um arquivo CSV para Notificação por push multilíngue com Campaign Standard
+title: Geração de um arquivo CSV para Notificação por push multilíngue com o Campaign Standard
 description: Fazer upload de um arquivo CSV para gerar conteúdo para entrega é um recurso usado para dar suporte a notificações por push multilíngues.
 audience: channels
 content-type: reference
@@ -8,9 +8,18 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/sSLZ7Yi5SZTrFKNknQcrCKr49aeNUL4y249CleELWWo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: 1026
 ht-degree: 1%
 
 ---
@@ -64,7 +73,7 @@ A codificação **UTF-8 é necessária para caracteres internacionais.**
 
 **Se você gerar o arquivo por texto sem formatação, separe cada coluna por &quot;,&quot;.**
 
-**Incompatibilidade de variante.** Se você usa blocos de conteúdo e direciona públicos-alvo com idiomas específicos, é necessário listar cada idioma direcionado no arquivo CSV, caso contrário ocorrerá um erro ao enviar a entrega.
+**Incompatibilidade de variante.** Se você usa blocos de conteúdo e direciona públicos-alvo com idiomas específicos, é necessário listar cada idioma direcionado no arquivo CSV, caso contrário ocorrerá um erro ao enviar o delivery.
 
 ## Inserção de um campo de personalização no arquivo csv {#personalization-field-csv}
 

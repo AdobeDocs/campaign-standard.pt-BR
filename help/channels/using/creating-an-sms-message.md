@@ -9,9 +9,20 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/Y9oiKbi65Zl6pRoi10SHvEecQ5zeWbpK0rBLAhsPliE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: 568
 ht-degree: 87%
 
 ---
@@ -27,7 +38,7 @@ Parâmetros de SMS avançados são detalhados na seção [Configuração de SMS]
 Para criar e enviar mensagens SMS para um telefone celular, é necessário:
 
 * Uma conta externa de **[!UICONTROL Routing]** configurada no canal **[!UICONTROL Mobile (SMS)]** com o modo **[!UICONTROL Bulk delivery]**. Para mais informações, consulte a seção [Roteamento](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
-* Um template da entrega vinculado corretamente a essa conta externa.
+* Um modelo da entrega vinculado corretamente a essa conta externa.
 
 1. Crie uma entrega de SMS. Você pode fazer isso na [página inicial](../../start/using/interface-description.md#home-page) do Adobe Campaign, em uma [campanha](../../start/using/marketing-activities.md#creating-a-marketing-activity) ou na [lista de atividade de marketing](../../start/using/programs-and-campaigns.md#creating-a-campaign).
 
@@ -39,7 +50,7 @@ Para criar e enviar mensagens SMS para um telefone celular, é necessário:
 
    ![](assets/sms_creation_1.png)
 
-   Para enviar para um telefone celular, o template da entrega deve estar corretamente vinculado à conta externa do roteamento SMS.
+   Para enviar para um telefone celular, o modelo da entrega deve estar corretamente vinculado à conta externa do roteamento SMS.
 
 1. Insira as propriedades gerais do SMS.
 
@@ -51,7 +62,7 @@ Para criar e enviar mensagens SMS para um telefone celular, é necessário:
    >
    >Verifique se o campo de ID não contém nenhum espaço em branco para evitar discrepâncias, por exemplo, ao integrar com o Adobe Analytics.
 
-1. Especifique o público que deseja segmentar. É possível selecionar um público existente ou segmentar diretamente uma população definindo e combinando regras.
+1. Especifique o público-alvo que deseja segmentar. É possível selecionar um público-alvo existente ou segmentar diretamente uma população definindo e combinando regras.
 
    ![](assets/sms_creation_3.png)
 
@@ -72,13 +83,13 @@ Para criar e enviar mensagens SMS para um telefone celular, é necessário:
    >Você pode definir regras de fadiga globais entre canais que excluirão automaticamente das campanhas os perfis com excesso de pedidos. Consulte [Regras de fadiga](../../sending/using/fatigue-rules.md).
 
 1. Envie provas para verificar e validar a mensagem e monitorar a renderização da caixa de entrada. Consulte a seção [Envio de prova](../../sending/using/sending-proofs.md).
-1. Confirme o envio da mensagem. O envio iniciará de acordo com a programação definida.
+1. Confirme o envio da mensagem. O envio iniciará de acordo com o cronograma definido.
 
    ![](assets/sms_creation_7.png)
 
 A mensagem é enviada. Você pode verificar a entrega pelo painel de mensagens e registros.
 
-Quando o envio estiver concluído, você pode iniciar a medição do impacto de sua mensagem com relatórios da entrega incorporados ou personalizados.
+Quando o envio estiver concluído, você pode iniciar a medição do impacto de sua mensagem com relatórios da entrega integrados ou personalizados.
 
 **Tópicos relacionados:**
 
@@ -89,6 +100,6 @@ Quando o envio estiver concluído, você pode iniciar a medição do impacto de 
 
 Este vídeo mostra como criar uma entrega de SMS.
 
->[!VIDEO](https://video.tv.adobe.com/v/31861/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/31861/?captions=por_br&quality=12)
 
 Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

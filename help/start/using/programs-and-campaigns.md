@@ -9,9 +9,21 @@ feature: Campaigns
 role: User
 level: Beginner
 exl-id: 3f4f9307-c65f-47bb-bc92-ce8b5d06557f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/S8NBJyVZiLk2GtkOVPWAwgF37przd3kfL0J-d5rCT6o
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: 648
 ht-degree: 97%
 
 ---
@@ -20,12 +32,12 @@ ht-degree: 97%
 
 ## Sobre planos, programas e campanhas {#about-plans--programs-and-campaigns}
 
-Com o Adobe Campaign é possível planejar campanhas de marketing nas quais você pode criar e gerenciar diferentes tipos de atividades: emails, mensagens SMS, notificações por push, fluxos de trabalho, landing pages. Essas campanhas e seus conteúdos podem ser coletados em programas.
+Com o Adobe Campaign é possível planejar campanhas de marketing nas quais você pode criar e gerenciar diferentes tipos de atividades: emails, mensagens SMS, notificações por push, fluxos de trabalho, páginas de destino. Essas campanhas e seus conteúdos podem ser coletados em programas.
 
 Com programas e campanhas é possível reagrupar e exibir as diferentes atividades de marketing vinculadas a elas.
 
-* Um **programa** pode conter outros programas, assim como campanhas, fluxos de trabalho e landing pages. Ele aparece na linha do tempo e ajuda na organização de suas atividades de marketing: você pode separá-los por país, por marca, por unidade etc.
-* Uma **campanha** possibilita coletar todas as atividades de marketing de sua escolha em uma única entidade. Uma campanha pode conter emails, SMS, notificações por push, malas diretas, fluxos de trabalho e landing pages.
+* Um **programa** pode conter outros programas, assim como campanhas, fluxos de trabalho e páginas de destino. Ele aparece na linha do tempo e ajuda na organização de suas atividades de marketing: você pode separá-los por país, por marca, por unidade etc.
+* Uma **campanha** possibilita coletar todas as atividades de marketing de sua escolha em uma única entidade. Uma campanha pode conter emails, SMS, notificações por push, correspondência direta, fluxos de trabalho e páginas de destino.
 
 Para organizar melhor seus planos de marketing, a Adobe recomenda a seguinte hierarquia: Programa > Subprogramas > Campanhas > Workflows > Entregas.
 
@@ -38,7 +50,7 @@ Com os relatórios sobre programas e campanhas é possível analisar o impacto d
 
 ## Criação de um programa {#creating-a-program}
 
-O programa é o primeiro nível de organização. Ele pode conter subprogramas, campanhas, fluxos de trabalhos ou landing pages.
+O programa é o primeiro nível de organização. Ele pode conter subprogramas, campanhas, fluxos de trabalhos ou páginas de destino.
 
 1. Na página inicial do Adobe Campaign, selecione o cartão **[!UICONTROL Programs & Campaigns]**.
 1. Clique no botão **[!UICONTROL Create]**.
@@ -46,19 +58,19 @@ O programa é o primeiro nível de organização. Ele pode conter subprogramas, 
 
    ![](assets/programs_and_campaigns_2.png)
 
-   Os tipos de programas disponíveis são baseados em modelos definidos na seção **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Program templates]**. Para saber mais, consulte a seção [Gerenciamento de templates](../../start/using/marketing-activity-templates.md).
+   Os tipos de programas disponíveis são baseados em modelos definidos na seção **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Program templates]**. Para saber mais, consulte a seção [Gerenciamento de modelos](../../start/using/marketing-activity-templates.md).
 
 1. Na tela **[!UICONTROL Properties]**, digite o nome e a ID do programa.
 
    ![](assets/programs_and_campaigns_3.png)
 
-1. Selecione uma data de início e término do programa. Estas datas só se aplicam ao próprio programa.
+1. Selecione data inicial e final do programa. Estas datas só se aplicam ao próprio programa.
 
    Você pode criar seu programa em um programa principal. Para fazer isso, selecione o programa principal dos programas existentes.
 
 1. Clique em **[!UICONTROL Create]** para confirmar a criação do programa.
 
-O programa é criado e exibido. Use o botão **[!UICONTROL Create]** para adicionar subprogramas, campanhas, fluxos de trabalho ou landing pages.
+O programa é criado e exibido. Use o botão **[!UICONTROL Create]** para adicionar subprogramas, campanhas, fluxos de trabalho ou páginas de destino.
 
 >[!NOTE]
 >
@@ -66,7 +78,7 @@ O programa é criado e exibido. Use o botão **[!UICONTROL Create]** para adicio
 
 ## Criação de uma campanha {#creating-a-campaign}
 
-Em programas e subprogramas, é possível adicionar campanhas. As campanhas podem conter atividades de marketing, como emails, SMS, notificações por push, fluxos de trabalho e landing pages.
+Em programas e subprogramas, é possível adicionar campanhas. As campanhas podem conter atividades de marketing, como emails, SMS, notificações por push, fluxos de trabalho e páginas de destino.
 
 1. Na página inicial do Adobe Campaign, selecione o cartão **[!UICONTROL Programs & Campaigns]** e acesse um programa ou subprograma.
 1. Clique no botão **[!UICONTROL Create]** e selecione **[!UICONTROL Campaign]**.
@@ -74,10 +86,10 @@ Em programas e subprogramas, é possível adicionar campanhas. As campanhas pode
 
    ![](assets/programs_and_campaigns_7.png)
 
-   Os tipos de campanha disponíveis são baseados em modelos definidos em **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Campaign templates]**. Para saber mais, consulte a seção [Gerenciamento de templates](../../start/using/marketing-activity-templates.md).
+   Os tipos de campanha disponíveis são baseados em modelos definidos em **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Campaign templates]**. Para saber mais, consulte a seção [Gerenciamento de modelos](../../start/using/marketing-activity-templates.md).
 
 1. Na tela **[!UICONTROL Properties]**, digite o nome e a ID da campanha.
-1. Selecione uma data de início e término para a sua campanha. Estas datas só se aplicam à própria campanha.
+1. Selecione data inicial e final da campanha. Estas datas só se aplicam à própria campanha.
 
    ![](assets/programs_and_campaigns_8.png)
 
@@ -93,7 +105,7 @@ Você também pode criar uma campanha da lista de atividades de marketing. Você
 
 ## Ícones e status de programas e campanhas {#programs-and-campaigns-icons-and-statuses}
 
-Cada programa e cada campanha na lista tem um símbolo visual e um ícone cuja cor indica o status da execução. Esse status depende do período de validade do programa ou da campanha.
+Cada programa e cada campanha na lista tem um símbolo visual e um ícone cuja cor indica o status de execução. Esse status depende do período de validade do programa ou da campanha.
 
 * Cinza: o programa/campanha ainda não foi iniciado - status **[!UICONTROL Editing]**.
 * Azul: o programa/campanha está em andamento - status **[!UICONTROL In progress]**.

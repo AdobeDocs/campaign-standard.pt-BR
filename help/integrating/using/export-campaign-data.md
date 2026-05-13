@@ -7,10 +7,24 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/wevJB72xRacTndQ1-VOyKHOtRak0UKJT2V-pzUd6d-Q
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2:
+  - id: b70f632b-2cfd-43d0-9266-284281100d70
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 70%
+source-wordcount: 537
+ht-degree: 67%
 
 ---
 
@@ -22,11 +36,11 @@ Depois que o fluxo de trabalho tiver sido configurado e os dados forem enviados 
 
 >[!NOTE]
 >
->Observe que é recomendável exportar apenas os dados gerados pelo Campaign (por exemplo: envios, aberturas, cliques, etc.) para a Adobe Experience Platform. Os dados assimilados de uma fonte de terceiros (como seu CRM) devem ser importados diretamente para a Adobe Experience Platform.
+>Observe que é recomendável exportar apenas os dados gerados pelo Campaign (por exemplo, envios, aberturas, cliques etc.) para o Adobe Experience Platform. Os dados assimilados de uma fonte de terceiros (como seu CRM) devem ser importados diretamente para a Adobe Experience Platform.
 
 ## Criar um fluxo de trabalho de exportação no Campaign Standard
 
-Para exportar dados do Campaign Standard para o local de armazenamento de blobs do S3 ou do Azure Blob, é necessário criar um fluxo de trabalho para direcionar os dados que você deseja exportar e enviá-los para o local de armazenamento.
+Para exportar dados do Campaign Standard para o local de armazenamento de blobs do Azure ou do S3, é necessário criar um fluxo de trabalho para direcionar os dados que você deseja exportar e enviá-los para o local de armazenamento.
 
 Para fazer isso, adicione e configure:
 
@@ -52,7 +66,7 @@ Tópicos relacionados:
 
 ## Conectar seu local de armazenamento como uma Origem
 
-As principais etapas para conectar seu Serviço de Armazenamento da Amazon (S3) ou local de armazenamento de Azure Blob como um **Source** na Adobe Experience Platform estão listadas abaixo. Informações detalhadas sobre cada uma dessas etapas estão disponíveis na [Documentação dos conectores de origem](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR).
+As principais etapas para conectar seu Serviço de Armazenamento da Amazon (S3) ou local de armazenamento de blobs da Azure como um **Source** na Adobe Experience Platform estão listadas abaixo. Informações detalhadas sobre cada uma dessas etapas estão disponíveis na [Documentação dos conectores de origem](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR).
 
 1. No menu **[!UICONTROL Sources]** da Adobe Experience Platform, crie uma conexão com o local de armazenamento:
 

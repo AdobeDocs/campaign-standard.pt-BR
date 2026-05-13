@@ -10,9 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/j9eu2D31Ic-nhZEk9NT4SGXYWdTpD-DAHLzJIS8ySLs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: 803
 ht-degree: 99%
 
 ---
@@ -38,7 +45,7 @@ A atividade **[!UICONTROL Save audience]** é usada essencialmente para manter o
 ## Configuração {#configuration}
 
 1. Solte uma atividade **[!UICONTROL Save audience]** no seu fluxo de trabalho.
-1. Conecte-a depois das outras atividades de direcionamento, como um query, uma intersecção, uma união ou uma exclusão.
+1. Conecte-a depois das outras atividades de direcionamento, como uma consulta, uma intersecção, uma união ou uma exclusão.
 1. Selecione e abra a atividade usando o botão ![](assets/edit_darkgrey-24px.png) das ações rápidas exibidas.
 1. Selecione a ação que deseja executar:
 
@@ -55,7 +62,7 @@ A atividade **[!UICONTROL Save audience]** é usada essencialmente para manter o
 
       * **[!UICONTROL Complete audience with new data]**: os dados antigos do público-alvo são mantidos e os dados da transição de entrada da atividade Save audience são adicionados a eles.
 
-        Aviso: essa opção causará um erro se o tipo de público-alvo ou a dimensão de direcionamento do público-alvo atualizado não for compatível com a configuração atual do fluxo de trabalho. Por exemplo, não é possível preencher um público-alvo do tipo File com os perfis de um query.
+        Aviso: essa opção causará um erro se o tipo de público-alvo ou a dimensão de direcionamento do público-alvo atualizado não for compatível com a configuração atual do fluxo de trabalho. Por exemplo, não é possível preencher um público-alvo do tipo File com os perfis de uma consulta.
 
    * **[!UICONTROL Create a new audience]**: insira o nome do público-alvo que será criado. A hora e a data em que o público-alvo é criado serão automaticamente adicionadas ao nome do público-alvo. Isso torna o público-alvo exclusivo toda vez que o fluxo de trabalho é executado.
    * **[!UICONTROL Share in Adobe Experience Cloud]**: se você tiver direcionado perfis e quiser exportar o público-alvo para a Adobe Experience Cloud, selecione essa opção e, em seguida, escolha um público-alvo compartilhado ou crie um novo público-alvo.
@@ -72,9 +79,9 @@ A atividade **[!UICONTROL Save audience]** é usada essencialmente para manter o
 
    Se a dimensão de direcionamento do público-alvo for desconhecida quando for salva (por exemplo, se for de um arquivo importado), o público-alvo será criado ou atualizado como sendo do tipo **[!UICONTROL File]**.
 
-   Se a dimensão de direcionamento do público-alvo salvo já estiver definida quando for salva (por exemplo, se for de um direcionamento, após um query etc.), o público-alvo será salvo ou atualizado como sendo do tipo **[!UICONTROL List]**.
+   Se a dimensão de direcionamento do público-alvo salvo já estiver definida quando for salva (por exemplo, se for de um direcionamento, após uma consulta etc.), o público-alvo será salvo ou atualizado como sendo do tipo **[!UICONTROL List]**.
 
-   O conteúdo do público-alvo salvo ficará disponível na visualização detalhada do público-alvo, que pode ser acessada no menu **[!UICONTROL Audiences]**. As colunas disponíveis nessa visualização correspondem às da transição de entrada da atividade Save audience do fluxo de trabalho. Por exemplo, as colunas do arquivo importado, os dados adicionais incluídos de um query.
+   O conteúdo do público-alvo salvo ficará disponível na visualização detalhada do público-alvo, que pode ser acessada no menu **[!UICONTROL Audiences]**. As colunas disponíveis nessa visualização correspondem às da transição de entrada da atividade Save audience do fluxo de trabalho. Por exemplo, as colunas do arquivo importado, os dados adicionais incluídos de uma consulta.
 
 1. Confirme a configuração da sua atividade e salve o fluxo de trabalho.
 

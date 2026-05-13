@@ -9,10 +9,21 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/IWKDZDotgF6Kj0jtroM2BhEiaJAND3TyfwEhfFCtVBU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1252'
-ht-degree: 2%
+source-wordcount: 1346
+ht-degree: 3%
 
 ---
 
@@ -131,7 +142,7 @@ Você deve ter acesso ao Adobe Analytics para fazer a seguinte configuração. S
      ```
 
    * Defina **Tipo de Conteúdo** como **[!UICONTROL application/json]**.
-   * Em **Quais tags de dados acionam o postback?**, selecione qualquer evento, normalmente **[!UICONTROL Launched]** e **[!UICONTROL exists]**.
+   * Em **Quais Tags de Dados Acionam o Postback?**, selecione qualquer evento, normalmente **[!UICONTROL Launched]** e **[!UICONTROL exists]**.
    * Clique em **[!UICONTROL Save & Activate]**.
 
 1. Crie um segundo postback.
@@ -158,7 +169,7 @@ Você deve ter acesso ao Adobe Analytics para fazer a seguinte configuração. S
      ```
 
    * Defina **Tipo de Conteúdo** como **[!UICONTROL application/json]**.
-   * Em **Quais tags de dados acionam o postback?**, selecione **[!UICONTROL campaign.test]** e **[!UICONTROL exists]**.
+   * Em **Quais Tags de Dados Acionam o Postback?**, selecione **[!UICONTROL campaign.test]** e **[!UICONTROL exists]**.
    * Clique em **[!UICONTROL Save & Activate]**.
 
 >[!NOTE]

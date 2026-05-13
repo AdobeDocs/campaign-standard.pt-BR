@@ -9,9 +9,18 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 0a4c45ea-acc2-424f-8596-73376e344172
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/Kt-KqyEadpziu8z5snOeg717epieMst36-gkdSt0Th8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: 337
 ht-degree: 96%
 
 ---
@@ -64,6 +73,6 @@ A guia **File structure** permite configurar os formatos de saída, data e núme
 
 Por exemplo, você talvez queira incluir as informações do remetente no cabeçalho do arquivo para o provedor de correspondência direta. É possível personalizar o rodapé e o cabeçalho com as informações disponíveis no contexto da entrega. Consulte [Definição de conteúdo](../../designing/using/personalization.md#example-email-personalization).
 
-O endereço do remetente é definido na seção **[!UICONTROL Send]** das propriedades de correspondência direta ou no nível do template.
+O endereço do remetente é definido na seção **[!UICONTROL Send]** das propriedades de correspondência direta ou no nível do modelo.
 
 ![](assets/direct_mail_24.png)

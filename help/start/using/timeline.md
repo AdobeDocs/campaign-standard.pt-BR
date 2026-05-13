@@ -9,9 +9,20 @@ feature: Campaigns
 role: User
 level: Beginner
 exl-id: d012e2e7-8022-4bfe-8290-3c512b60d9cf
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/q3DxO0moT5QYq1ZeIi6p2QfA-4N473C4C4jVBOT15Fs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: 375
 ht-degree: 89%
 
 ---
@@ -22,7 +33,7 @@ O **[!UICONTROL Timeline]** permite visualizar programas que estão em andamento
 
 Para acessar a linha do tempo, clique no cartão correspondente da home page.
 
-Por padrão, a linha do tempo só detalha os programas que são exibidos cronologicamente entre as datas de início e de término definidas.
+Por padrão, a linha do tempo só detalha os programas que são exibidos cronologicamente entre as datas inicial e final definidas.
 
 Cada programa é representado por uma caixa contendo a miniatura e o rótulo correspondentes. Dependendo do tamanho da tela e do número de elementos a serem exibidos, o rótulo pode ser substituído pela ID do programa.
 
@@ -35,11 +46,11 @@ Use os ícones para;
 * ![](assets/timeline_zoom_in.png) reduza o perímetro ou aumente o nível de detalhes por um período mais limitado, até que os dias sejam exibidos
 * ![](assets/timeline_zoom_out.png) aumente o perímetro ou exiba um período maior
 
-Clique na seta à direita de cada nome de programa para exibir o conteúdo correspondente. Um programa pode conter subprogramas, campanhas e landing pages. Uma campanha é implantada da mesma forma que um programa e pode conter emails, SMS e landing pages.
+Clique na seta à direita de cada nome de programa para exibir o conteúdo correspondente. Um programa pode conter subprogramas, campanhas e páginas de destino. Uma campanha é implantada da mesma forma que um programa e pode conter emails, SMS e páginas de destino.
 
 >[!NOTE]
 >
->Como os workflows não têm uma noção específica de uma data, eles não aparecem na linha do tempo.
+>Como os fluxos de trabalho não têm uma noção específica de uma data, eles não aparecem na linha do tempo.
 
 Quando o conteúdo de um programa ou de uma campanha é exibido, a caixa correspondente fica azul, e a seta no lado direito fica invertida. Clique novamente na seta para ocultar o conteúdo.
 

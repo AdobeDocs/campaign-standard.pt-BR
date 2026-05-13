@@ -6,10 +6,24 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/V4W1ZeT4iyA7SJXdVH-MQJLiJQN9WYGu-aghFFpj32c
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: b5852c32-876b-41ae-92a7-9f588865ae52
+  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1720'
-ht-degree: 78%
+source-wordcount: 1820
+ht-degree: 79%
 
 ---
 
@@ -17,7 +31,7 @@ ht-degree: 78%
 
 Uma conta externa é uma configuração que permite configurar e testar o acesso a um servidor externo ao Adobe Campaign.
 
-Essas contas externas podem ser usadas em workflows da campanha para acessar e gerenciar dados.
+Essas contas externas podem ser usadas em fluxos de trabalho da campanha para acessar e gerenciar dados.
 
 Você pode configurar os seguintes tipos de contas externas:
 
@@ -31,7 +45,7 @@ Você pode configurar os seguintes tipos de contas externas:
 
 >[!NOTE]
 >
->Outros tipos de contas externas são usados pela Adobe durante o processo de provisionamento do produto. A partir da versão Campaign Standard 17.9, contas externas FTP ainda podem ser definidas, mas não podem mais ser usadas em novas atividades de workflow. Se você já tiver uma conexão configurada, ela ainda estará ativada.
+>Outros tipos de contas externas são usados pela Adobe durante o processo de provisionamento do produto. A partir da versão Campaign Standard 17.9, contas externas FTP ainda podem ser definidas, mas não podem mais ser usadas em novas atividades de fluxo de trabalho. Se você já tiver uma conexão configurada, ela ainda estará habilitada.
 
 Contas externas podem ser configuradas pelos administradores no menu **[!UICONTROL Administration > Application settings > External accounts]**.
 
@@ -39,10 +53,10 @@ Contas externas podem ser configuradas pelos administradores no menu **[!UICONTR
 
 O Adobe Campaign vem com um conjunto de contas externas predefinidas. Para configurar conexões com sistemas externos, como servidores FTP usados para transferir arquivos, você pode criar suas próprias contas externas.
 
-As contas externas são usadas por processos técnicos, como workflows técnicos ou workflows da campanha. Ao configurar uma transferência de arquivos em um workflow ou uma troca de dados com qualquer outro aplicativo (Adobe Target, Experience Manager etc.), você precisa selecionar uma conta externa.
+As contas externas são usadas por processos técnicos, como fluxos de trabalho técnicos ou fluxos de trabalho da campanha. Ao configurar uma transferência de arquivos em um fluxo de trabalho ou uma troca de dados com qualquer outro aplicativo (Adobe Target, Experience Manager etc.), você precisa selecionar uma conta externa.
 
 1. Clique no botão **[!UICONTROL Create]**.
-1. Insira um rótulo. O rótulo e a ID serão usadas ao selecionar contas externas em workflows.
+1. Insira um rótulo. O rótulo e a ID serão usadas ao selecionar contas externas em fluxos de trabalho.
 1. Selecione o tipo de configuração que você deseja criar.
 1. Configure o acesso à conta especificando credenciais, o endereço do servidor, o número da porta e ou chaves, quando relevante.
 
@@ -50,7 +64,7 @@ As contas externas são usadas por processos técnicos, como workflows técnicos
 
 1. Salve sua conta.
 
-A conta externa é criada e adicionada à lista de contas. Agora está disponível para suas transferências de dados/arquivos ou configurações de roteamento em atividades de workflow e propriedades de entregas.
+A conta externa é criada e adicionada à lista de contas. Agora está disponível para suas transferências de dados/arquivos ou configurações de roteamento em atividades de fluxo de trabalho e propriedades de entregas.
 
 ## Conta externa SFTP {#sftp-external-account}
 
@@ -62,7 +76,7 @@ Para uma conta externa SFTP, forneça os seguintes detalhes:
 * Número da porta. Por exemplo, **22**.
 * Credenciais do servidor SFTP: nome da conta e senha usados para a conexão com o servidor.
 
-### Recomendações para servidores SFTP hospedados no Adobe {#adobe-hosted-sftp-server-recommendations}
+### Recomendações para servidores SFTP hospedados pela Adobe {#adobe-hosted-sftp-server-recommendations}
 
 Ao gerenciar arquivos e dados para fins de ETL, esses arquivos são armazenados em um servidor SFTP hospedado fornecido pela Adobe. Este SFTP foi projetado para ser um espaço de armazenamento temporário no qual você pode controlar a retenção e exclusão de arquivos.
 
@@ -73,15 +87,15 @@ Para evitar esses problemas, a Adobe recomenda seguir as práticas recomendadas 
 * Mantenha o mínimo de dados possível.
 * Use a autenticação baseada em chave para evitar a expiração da senha. Os formatos compatíveis são apenas **OpenSSH** e **SSH2**. Será necessário fornecer a chave pública para que a equipe de suporte da Adobe possa carregá-la no servidor do Campaign.
 * Mantenha os dados apenas pelo tempo necessário. 15 dias é o limite máximo de tempo.
-* Use workflows para excluir corretamente os dados (gerencie a retenção de workflows consumindo os dados).
-* Use em lotes em uploads de SFTP e em workflows.
+* Use fluxos de trabalho para excluir corretamente os dados (gerencie a retenção de fluxos de trabalho consumindo os dados).
+* Use em lotes em uploads de SFTP e em fluxos de trabalho.
 * Manipule erros/exceções.
 * Ocasionalmente, conecte-se no SFTP para verificar diretamente o que encontra-se lá.
 * Lembre-se de que o gerenciamento de disco SFTP é predominantemente sua responsabilidade.
 
-Além disso, observe que os IPs públicos dos quais você está tentando iniciar a conexão SFTP devem ser adicionados ao incluo na lista de permissões na instância do Campaign. A adição de endereços IP à inclui na lista de permissões pode ser solicitada por meio de um [tíquete de suporte](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html), além de fornecer a chave pública a ser usada para autenticação.
+Além disso, observe que os IPs públicos dos quais você está tentando iniciar a conexão SFTP devem ser adicionados ao incluo na lista de permissões na instância do Campaign. A adição de endereços IP ao incluo na lista de permissões pode ser solicitada por meio de um [tíquete de suporte](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html), além de fornecer a chave pública a ser usada para autenticação.
 
-Servidores SFTP podem ser gerenciados no Painel de controle. Para obter mais informações, consulte a [documentação do Painel de controle](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=pt-BR).
+Servidores SFTP podem ser gerenciados no Painel de controle. Para obter mais informações, consulte a [documentação do Painel de controle](https://experienceleague.adobe.com/pt-br/docs/control-panel/using/sftp-management/about-sftp-management).
 
 >[!NOTE]
 >
@@ -93,8 +107,8 @@ Para uma conta externa OAuth 2.0, forneça os seguintes detalhes:
 
 * Um **Tipo de concessão**: somente **credenciais de cliente** são suportadas.
 * Uma **URL de API segura**: digite o ponto de extremidade de autorização.
-* **Credenciais confidenciais do OAuth 2.0**: esta seção destina-se a credenciais de natureza confidencial. Os valores de credencial serão mascarados na tela após serem adicionados; nesse ponto, eles não serão legíveis nem editáveis. Se o ponto de extremidade de autorização exigir que uma credencial específica seja inserida no cabeçalho de autorização HTTP em vez do parâmetro do corpo de POST, você poderá selecionar a opção Incluir no cabeçalho dessa credencial.
-* **Credenciais não confidenciais do OAuth 2.0**: esta seção destina-se a credenciais de natureza não confidencial. Os valores de credencial estarão visíveis na tela após serem adicionados; eles também serão editáveis.  Se o ponto de extremidade de autorização exigir que uma credencial específica seja inserida no cabeçalho de autorização HTTP em vez do parâmetro do corpo de POST, você poderá selecionar a opção Incluir no cabeçalho dessa credencial.
+* **Credenciais confidenciais do OAuth 2.0**: esta seção destina-se a credenciais de natureza confidencial. Os valores de credencial serão mascarados na tela após serem adicionados; nesse ponto, eles não serão legíveis nem editáveis. Se o ponto de extremidade de autorização exigir que uma credencial específica seja inserida no cabeçalho de autorização HTTP em vez do parâmetro de corpo POST, você poderá selecionar a opção Incluir no cabeçalho dessa credencial.
+* **Credenciais não confidenciais do OAuth 2.0**: esta seção destina-se a credenciais de natureza não confidencial. Os valores de credencial estarão visíveis na tela após serem adicionados; eles também serão editáveis.  Se o ponto de extremidade de autorização exigir que uma credencial específica seja inserida no cabeçalho de autorização HTTP em vez do parâmetro de corpo POST, você poderá selecionar a opção Incluir no cabeçalho dessa credencial.
 
 Depois de inserir as informações da conta, clique em **Testar conexão** para verificar se a conta externa foi configurada corretamente.
 
@@ -129,7 +143,7 @@ Especifique o **[!UICONTROL AWS Region]** associado ao seu ponto de extremidade.
 Para ajudar você a configurar a conta do Amazon S3, siga estas recomendações:
 
 * Crie uma política de bucket estrita para restringir o acesso a buckets do S3. A política de bucket pode ser configurada durante a criação de um bucket. Para obter mais informações, consulte a [documentação do Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
-* Ao criar uma conta externa, ative a criptografia para armazenar dados confidenciais no bucket do S3, marcando a caixa **[!UICONTROL Keep files in S3 encrypted]**.
+* Ao criar uma conta externa, habilite a criptografia para armazenar dados confidenciais no bucket do S3, marcando a caixa **[!UICONTROL Keep files in S3 encrypted]**.
 * Conceda permissões de bucket para especificar quem pode acessar o objeto em um bucket. Para obter mais informações sobre permissão de buckets, consulte a [documentação do Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html).
 
 ## Conta externa do Adobe Experience Manager. {#adobe-experience-manager-external-account}
@@ -154,9 +168,9 @@ Como você está configurando essa nova conta externa, é necessário fornecer o
 >
 >A configuração do Google reCAPTCHA requer uma conta do Google.
 
-O mecanismo Google reCAPTCHA permite proteger sua landing page contra spam e abuso causado por bots. Esse mecanismo não é intrusivo para os clientes, pois não requer nenhuma interação deles e se baseia em interações com seu site. Para registrar seu site, consulte esta [página](https://www.google.com/recaptcha/admin/create). Você deve escolher o tipo V3 reCAPTCHA.
+O mecanismo Google reCAPTCHA permite proteger sua página de destino contra spam e abuso causado por bots. Esse mecanismo não é intrusivo para os clientes, pois não requer nenhuma interação deles e se baseia em interações com seu site. Para registrar seu site, consulte esta [página](https://www.google.com/recaptcha/admin/create). Você deve escolher o tipo V3 reCAPTCHA.
 
-Para adicionar o Google reCAPTCHA V3 à sua landing page, configure-o na sua conta externa. Para obter mais informações sobre como adicioná-lo à sua landing page, consulte esta [seção](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
+Para adicionar o Google reCAPTCHA V3 à sua landing page, configure-o na sua conta externa. Para obter mais informações sobre como adicioná-lo à sua página de destino, consulte esta [seção](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
 
 Para uma conta externa do Google reCAPTCHA V3, forneça os seguintes detalhes:
 
@@ -175,7 +189,7 @@ Para uma conta externa do Google reCAPTCHA V3, forneça os seguintes detalhes:
 >
 >As informações necessárias para configurar sua conta externa no Adobe Campaign Standard podem ser encontradas no Portal do Azure, selecionando **[!UICONTROL Settings]** > **[!UICONTROL Access keys]**.
 
-O conector de armazenamento Azure Blob pode ser usado para importar ou exportar dados para o Adobe Campaign usando uma atividade de workflow **[!UICONTROL Transfer file]**. Para obter mais informações, consulte esta [seção](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
+O conector de armazenamento Azure Blob pode ser usado para importar ou exportar dados para o Adobe Campaign usando uma atividade de fluxo de trabalho **[!UICONTROL Transfer file]**. Para obter mais informações, consulte esta [seção](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
 
 Para uma conta externa de armazenamento do Microsoft Azure Blob, forneça os seguintes detalhes:
 
@@ -205,11 +219,11 @@ Ao configurar sua conta externa, você deve usar um dos **[!UICONTROL Account ke
 A opção **[!UICONTROL Concurrency]** permite ajustar a velocidade das transferências de arquivos.
 Ela representa o número de threads que serão usados para executar a transferência de arquivos. Cada um desses threads baixará uma parte de aproximadamente 1 MB do blob. Em seguida, eles serão enfileirados para serem gravados em disco. Observe que, ao aumentar o número de threads, você também aumentará a carga dos recursos usados pelo aplicativo durante a transferência de arquivos.
 
-Após a conclusão da transferência de arquivos, você poderá encontrar métricas de desempenho nos logs de Workflow.
+Após a conclusão da transferência de arquivos, você poderá encontrar métricas de desempenho nos logs de fluxo de trabalho.
 
 **Tentativas**
 
-Por padrão, a transferência de arquivos para o Blob do Azure terá até quatro tentativas.  Se o serviço do Armazenamento do Azure retornar um código de erro, como 503 (servidor ocupado) ou 500 (tempo limite da operação), ele pode indicar que você está se aproximando ou excedendo a escalabilidade da sua conta de armazenamento. Isso pode ocorrer ao usar uma nova conta ou ao executar testes.
+Por padrão, a transferência de arquivos para o Blob do Azure terá até quatro tentativas.  Se o serviço do Armazenamento do Azure retornar um código de erro, como 503 (servidor ocupado) ou 500 (tempo-limite da operação), ele pode indicar que você está se aproximando ou excedendo a escalabilidade da sua conta de armazenamento. Isso pode ocorrer ao usar uma nova conta ou ao executar testes.
 
 Se o erro persistir, será possível aumentar o número de tentativas criando uma opção no menu avançado **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
 

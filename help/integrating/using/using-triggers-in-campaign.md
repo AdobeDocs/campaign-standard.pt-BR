@@ -9,10 +9,21 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/JS2nl6HlwWPj9JFhWgNPeWV2cNNiAjvCdczoYH5AhtE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 74%
+source-wordcount: 743
+ht-degree: 76%
 
 ---
 
@@ -22,7 +33,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->Para criar Triggers, você precisará da função **[!UICONTROL Administration]** ou estar no grupo de segurança **[!UICONTROL Administrators]**. Para obter mais informações, consulte esta [página](../../administration/using/list-of-roles.md).
+>Para criar Triggers, você precisará da função **[!UICONTROL Administration]** ou estar no grupo de segurança **[!UICONTROL Administrators]**. Para obter mais informações sobre essas operações, consulte esta [página](../../administration/using/list-of-roles.md).
 
 É recomendável definir os comportamentos que deseja monitorar antecipadamente no Adobe Experience Cloud (**[!UICONTROL Triggers]** serviço principal). Para obter mais informações, consulte a [documentação da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=pt-BR). Observe que, ao definir o acionador, é necessário habilitar os aliases. Para cada comportamento (navegação/abandono de formulário, adição/exclusão de produtos, sessão expirada etc.), um novo acionador deve ser adicionado na Adobe Experience Cloud.
 

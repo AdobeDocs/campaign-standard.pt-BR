@@ -9,10 +9,17 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/51wbz72EYAf6-7RvC0QhOCm1Jmw9o7W04fs9iN0viNw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 31%
+source-wordcount: 457
+ht-degree: 34%
 
 ---
 
@@ -52,6 +59,6 @@ Seu delivery contendo a imagem dinâmica agora pode ser enviado. Seus resultados
 
 **Tópicos relacionados:**
 
-* [Portal do Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=pt-BR)
+* [Portal Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=pt-BR)
 * [Sobre o design de conteúdo de email](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Personalizar imagens de email em vídeo em tempo real](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html)

@@ -1,21 +1,31 @@
 ---
-title: Perguntas frequentes sobre a integração do SDK da Adobe Experience Platform e do Adobe Campaign
-description: Perguntas frequentes sobre a integração do SDK da Adobe Experience Platform e do Adobe Campaign
+title: Perguntas frequentes sobre a integração do Adobe Experience Platform SDK e do Adobe Campaign
+description: Perguntas frequentes sobre a integração do Adobe Experience Platform SDK e do Adobe Campaign
 audience: administration
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: 2f3a0f4233df2915c5b7d293452246c688d69228
+TQID: https://experienceleague.adobe.com/o6mmez3uQ47pkbl-CXBR-CezbXVpf9Ef5L8oDZEToro
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 1%
+source-wordcount: 963
+ht-degree: 2%
 
 ---
 
-# Perguntas frequentes sobre integração com o SDK do Experience Platform {#aep-faq}
+# Perguntas frequentes sobre a integração com o Experience Platform SDK {#aep-faq}
 
-Para enviar notificações por push e mensagens no aplicativo com o aplicativo SDK do Experience Platform, um aplicativo para dispositivos móveis deve ser configurado no SDK do Adobe Experience Platform e no Adobe Campaign.
+Para enviar notificações por push e mensagens no aplicativo com o aplicativo Experience Platform SDK, um aplicativo para dispositivos móveis deve ser configurado no Adobe Experience Platform SDK e no Adobe Campaign.
 
 A seção abaixo lista perguntas comuns sobre essa sincronização.
 
@@ -27,18 +37,18 @@ Para obter mais informações sobre push ou no aplicativo, consulte as seguintes
 
 ## Recursos úteis antes de iniciar {#resource-mobile-property}
 
-Consulte os recursos abaixo para obter mais informações sobre o SDK do Adobe Experience Platform e a integração de Campaign Standard:
+Confira os recursos abaixo para obter mais informações sobre a integração do Adobe Experience Platform SDK e do Campaign Standard:
 
-* [Vídeo de Visão Geral](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video){target="_blank"} do Launch/Mobile
+* [Vídeo de visão geral](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video){target="_blank"} do Launch/Mobile
 * [Guia de dicas e truques do Launch/Mobile](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
-## A integração do SDK do Adobe Experience Platform está disponível para o Adobe Campaign Standard e o Adobe Campaign Classic? {#aep-validity}
+## A integração do Adobe Experience Platform SDK está disponível para o Adobe Campaign Standard e o Adobe Campaign Classic? {#aep-validity}
 
 Sim, a integração do [!DNL Adobe Experience Platform SDK] está disponível para o Adobe Campaign Standard e o Adobe Campaign Classic. Você deve instalar o **[!UICONTROL Extension]** correspondente por meio do [!DNL Data Collection UI] para habilitar a integração.
 
 Para obter mais informações, consulte esta [página](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard){target="_blank"}.
 
-## Quais recursos a integração do SDK do Adobe Experience Platform facilita no Adobe Campaign? {#aep-capabilities}
+## Quais recursos a integração do Adobe Experience Platform SDK facilita no Adobe Campaign? {#aep-capabilities}
 
 Consulte a tabela abaixo para saber mais sobre esses recursos.
 
@@ -48,7 +58,7 @@ Consulte a tabela abaixo para saber mais sobre esses recursos.
 >
 >A integração do [!DNL Places] inclui eventos de locais como acionadores para mensagens no aplicativo (N/D para notificações por push), enriquecendo perfis com suporte a dados do [!DNL Places] e notificações locais. Consulte esta [página](../../channels/using/preparing-and-sending-an-in-app-message.md) para obter mais informações. A integração limitada <br>[!DNL Places] inclui o enriquecimento de perfis com dados [!DNL Places].
 
-## Qual caso de uso a integração do SDK do Adobe Experience Platform facilita no Adobe Campaign Standard? {#aep-use-cases}
+## Que caso de uso a integração do Adobe Experience Platform SDK facilita no Adobe Campaign Standard? {#aep-use-cases}
 
 Os seguintes casos de uso são compatíveis:
 
@@ -74,7 +84,7 @@ Para isso, siga as etapas abaixo:
 
 ## O que preciso fazer para enriquecer um perfil móvel no Campaign? {#enrich-mobile-profile}
 
-Você deve configurar um postback CollectPII (consulte esta [página](../../administration/using/configuring-rules-launch.md#pii-postback)) e implementar a API CollectPII do SDK (consulte esta [página](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference)).
+Você deve configurar um postback CollectPII (consulte esta [página](../../administration/using/configuring-rules-launch.md#pii-postback)) e implementar a API CollectPII da SDK (consulte esta [página](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference)).
 
 ## Com que frequência uma chamada CollectPII deve ser disparada? {#collect-pii}
 
@@ -92,14 +102,14 @@ A frequência e o design das chamadas CollectPII devem ser ditados pelas necessi
 
 Esse é um problema conhecido e ocorre devido à expiração do token. Você deve tentar fazer logoff e logon.
 
-## Quais seriam algumas recomendações de recursos úteis para saber mais sobre o SDK do Adobe Experience Platform (conhecido anteriormente como SDK V5)?{#resource-aep}
+## Quais seriam algumas recomendações de recursos úteis para saber mais sobre o Adobe Experience Platform SDK (conhecido anteriormente como SDK V5)?{#resource-aep}
 
 Confira os recursos abaixo:
 
-* Documentação [do SDK do Experience Platform](https://developer.adobe.com/client-sdks/documentation/)
-* Introdução à [documentação](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/) do SDK do Launch e Experience Platform
-* Atualizando para a [documentação](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/) do SDK do Experience Platform
-* Documentação [do SDK do Experience Platform do Github](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
+* Documentação [do Experience Platform SDK](https://developer.adobe.com/client-sdks/documentation/)
+* Introdução à [documentação](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/) do Launch e Experience Platform SDK
+* Atualizando para a [documentação](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/) do Experience Platform SDK
+* Documentação [do Github Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
 
 ## Estou recebendo o erro &quot;Você não tem acesso de gravação na entrega&quot; ao criar uma entrega de notificação por push. {#write-access-error}
 

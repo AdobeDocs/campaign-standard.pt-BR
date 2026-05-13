@@ -9,9 +9,16 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/ezjnDdGh2ZoRmrZN088QgZQh1NAtsequFpjK9VH6alk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: 969
 ht-degree: 98%
 
 ---
@@ -20,7 +27,7 @@ ht-degree: 98%
 
 ## Criação de públicos-alvo de consulta {#creating-query-audiences}
 
-Esta seção descreve como criar um público-alvo do tipo **Query**. Você também pode criar públicos-alvo a partir da importação de um arquivo ou do direcionamento em um [fluxo de trabalho](../../automating/using/get-started-workflows.md).
+Esta seção descreve como criar um público-alvo do tipo **Consulta**. Você também pode criar públicos-alvo a partir da importação de um arquivo ou do direcionamento em um [fluxo de trabalho](../../automating/using/get-started-workflows.md).
 
 Na lista de públicos-alvo, é possível criar públicos-alvo executando consultas nos perfis do Adobe Campaign ou importando um público-alvo da Adobe Experience Cloud.
 
@@ -32,13 +39,13 @@ Na lista de públicos-alvo, é possível criar públicos-alvo executando consult
 
    ![](assets/audiences_query.png)
 
-1. Atribua um nome ao público-alvo. O rótulo do público-alvo é usado na lista de públicos-alvo e na paleta da ferramenta query.
-1. Escolha um tipo de público-alvo **[!UICONTROL Query]**: os públicos-alvo definidos por um query são recalculadas a cada novo uso.
+1. Atribua um nome ao público-alvo. O rótulo do público-alvo é usado na lista de públicos-alvo e na paleta da ferramenta consulta.
+1. Escolha um tipo de público-alvo **[!UICONTROL Query]**: os públicos-alvo definidos por uma consulta são recalculadas a cada novo uso.
 
    ![](assets/audience_type_selection.png)
 
-1. Em seguida, selecione o **[!UICONTROL Targeting dimension]** que deseja usar para filtrar os clientes. Cada público-alvo é composto por um único targeting dimension. Por exemplo, não é possível criar um público-alvo com perfis de teste e assinantes. Para saber mais sobre targeting dimensions, consulte [esta página](../../automating/using/query.md#targeting-dimensions-and-resources).
-1. Crie o query para definir a população do público-alvo. Consulte a seção sobre [edição de consultas](../../automating/using/editing-queries.md).
+1. Em seguida, selecione o **[!UICONTROL Targeting dimension]** que deseja usar para filtrar os clientes. Cada público-alvo é composto por uma única dimensão de direcionamento. Por exemplo, não é possível criar um público-alvo com perfis de teste e assinantes. Para saber mais sobre dimensões de direcionamento, consulte [esta página](../../automating/using/query.md#targeting-dimensions-and-resources).
+1. Crie a consulta para definir a população do público-alvo. Consulte a seção sobre [edição de consultas](../../automating/using/editing-queries.md).
 1. Clique no botão **[!UICONTROL Create]** para salvar o público-alvo.
 
 >[!NOTE]
@@ -47,7 +54,7 @@ Na lista de públicos-alvo, é possível criar públicos-alvo executando consult
 
 ## Criação de públicos-alvo da lista {#creating-list-audiences}
 
-Esta seção descreve como criar um público-alvo do tipo **Lista** após o direcionamento em um fluxo de trabalho. Você também pode criar públicos-alvo importando um arquivo para um [fluxo de trabalho](../../automating/using/get-started-workflows.md) ou usando um query do menu **[!UICONTROL Audiences]**.
+Esta seção descreve como criar um público-alvo do tipo **Lista** após o direcionamento em um fluxo de trabalho. Você também pode criar públicos-alvo importando um arquivo para um [fluxo de trabalho](../../automating/using/get-started-workflows.md) ou usando uma consulta do menu **[!UICONTROL Audiences]**.
 
 Para criar um público-alvo do tipo **Lista**, siga estas etapas:
 
@@ -71,13 +78,13 @@ Para criar um público-alvo do tipo **Lista**, siga estas etapas:
 
    Como a atividade **[!UICONTROL Save audience]** é colocada depois de um direcionamento com uma dimensão conhecida, os públicos-alvo criados por meio dessa atividade são do tipo **Lista**.
 
-   Em seguida, o conteúdo do público-alvo salvo fica disponível na visualização detalhada do público-alvo que pode ser acessada por meio da lista de públicos-alvo. As colunas disponíveis nessa visualização correspondem às da transição de entrada da atividade de salvamento do fluxo de trabalho. Por exemplo, as colunas do arquivo importado e os dados adicionais incluídos de um query.
+   Em seguida, o conteúdo do público-alvo salvo fica disponível na visualização detalhada do público-alvo que pode ser acessada por meio da lista de públicos-alvo. As colunas disponíveis nessa visualização correspondem às da transição de entrada da atividade de salvamento do fluxo de trabalho. Por exemplo, as colunas do arquivo importado e os dados adicionais incluídos de uma consulta.
 
    ![](assets/audiences_list_4.png)
 
 ## Criação de públicos-alvo de arquivo {#creating-file-audiences}
 
-Esta seção detalha como criar um público-alvo do tipo **Arquivo** importando um arquivo para um fluxo de trabalho. Você também pode criar públicos-alvo de uma atividade de direcionamento em um [fluxo de trabalho](../../automating/using/get-started-workflows.md) ou usando um query do menu **[!UICONTROL Audiences]**.
+Esta seção detalha como criar um público-alvo do tipo **Arquivo** importando um arquivo para um fluxo de trabalho. Você também pode criar públicos-alvo de uma atividade de direcionamento em um [fluxo de trabalho](../../automating/using/get-started-workflows.md) ou usando uma consulta do menu **[!UICONTROL Audiences]**.
 
 Para criar um público-alvo do tipo **Arquivo**, siga estas etapas:
 
@@ -93,11 +100,11 @@ Para criar um público-alvo do tipo **Arquivo**, siga estas etapas:
 
    Como a **[!UICONTROL Save audience]** é colocada após uma importação, a dimensão de dados é desconhecida e os públicos-alvo criados por meio dessa atividade são do tipo **Arquivo**.
 
-   Em seguida, o conteúdo do público-alvo salvo fica disponível na visualização detalhada do público-alvo que pode ser acessada por meio da lista de públicos-alvo. As colunas disponíveis nessa visualização correspondem às da transição de entrada da atividade de salvamento do fluxo de trabalho. Por exemplo, as colunas do arquivo importado, os dados adicionais incluídos de um query.
+   Em seguida, o conteúdo do público-alvo salvo fica disponível na visualização detalhada do público-alvo que pode ser acessada por meio da lista de públicos-alvo. As colunas disponíveis nessa visualização correspondem às da transição de entrada da atividade de salvamento do fluxo de trabalho. Por exemplo, as colunas do arquivo importado, os dados adicionais incluídos de uma consulta.
 
    ![](assets/audience_files_3.png)
 
-## Criação de públicos-alvo do Experience Cloud {#creating-experience-cloud-audiences}
+## Criação de públicos da Experience Cloud {#creating-experience-cloud-audiences}
 
 O Adobe Campaign permite compartilhar e trocar públicos-alvo com a Adobe Experience Cloud. Um público-alvo do tipo **Experience Cloud** é importado diretamente do serviço principal People para o Adobe Campaign com o fluxo de trabalho técnico **[!UICONTROL Import shared audience]**.
 
@@ -111,13 +118,13 @@ Para que essa integração funcione, é necessário configurá-la primeiro. Para
 
 Existem diferentes maneiras de editar um público-alvo dependendo do tipo:
 
-* Para editar um público-alvo do tipo **Query**, acesse a lista de públicos-alvo no menu **[!UICONTROL Audiences]** ou pelo cartão **[!UICONTROL Audiences]** da home page do Adobe Campaign.
+* Para editar um público-alvo do tipo **Consulta**, acesse a lista de públicos-alvo no menu **[!UICONTROL Audiences]** ou pelo cartão **[!UICONTROL Audiences]** da home page do Adobe Campaign.
 
   Abra o público-alvo relevante. Todos os elementos de um público-alvo criado anteriormente podem ser editados.
 
   >[!CAUTION]
   >
-  >Se você alterar a **[!UICONTROL Filtering dimension]** no query, as regras que foram definidas anteriormente serão perdidas.
+  >Se você alterar a **[!UICONTROL Filtering dimension]** na consulta, as regras que foram definidas anteriormente serão perdidas.
 
 * Para editar um público-alvo do tipo **Lista** ou **Arquivo**, edite o fluxo de trabalho do qual ele foi criado e modifique a atividade **[!UICONTROL Save audience]**. Inicie o fluxo de trabalho para que o público-alvo seja modificado.
 * Para editar um público-alvo da **Experience Cloud**, consulte a seção [Importação/exportação de públicos-alvo com o serviço principal People](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md).

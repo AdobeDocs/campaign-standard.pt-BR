@@ -10,10 +10,17 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: d2ce702b-92d1-4b94-bd47-34ef46a8bd9f
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/x8m3RC6xTxysD8WLgMBICv3Qp1Fz9FYm-OlDqimecbc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 6%
+source-wordcount: 580
+ht-degree: 8%
 
 ---
 
@@ -25,7 +32,7 @@ O ícone ![](assets/printpreview_darkgrey-24px.png) abre o log de fluxo de traba
 
 O histórico do fluxo de trabalho é salvo pela duração especificada nas opções de execução do fluxo de trabalho (consulte [Propriedades do fluxo de trabalho](../../automating/using/managing-execution-options.md)). Durante essa duração, todas as mensagens são salvas, mesmo após uma reinicialização. Se não quiser salvar as mensagens de uma execução anterior, você precisa limpar o histórico clicando no botão ![](assets/delete_darkgrey-24px.png).
 
-A guia **[!UICONTROL Log]** contém o histórico de execução de todas as atividades ou de qualquer atividade selecionada. Ele indexa as operações realizadas e os erros de execução por ordem cronológica.
+A guia **[!UICONTROL Log]** contém o histórico de execução de todas as atividades ou de qualquer atividade selecionada. Eles indicam as operações efetuadas e os erros de execução por ordem cronológica.
 
 ![](assets/wkf_execution_4.png)
 

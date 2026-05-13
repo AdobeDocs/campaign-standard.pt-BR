@@ -9,10 +9,19 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/keRwWGnvoXbhg4XhReRZzSF1L9x93BbNu8YhBWtUoNM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 71%
+source-wordcount: 518
+ht-degree: 65%
 
 ---
 
@@ -26,7 +35,7 @@ Saiba mais sobre as populações de destino [nesta seção](../../audiences/usin
 
 Quando seu conteúdo estiver pronto, será necessário definir com cuidado quem receberá sua mensagem.
 
-Para que sua entrega seja bem-sucedida, o conteúdo personalizado mais relevante deve ser enviado aos destinatários corretos. O Adobe Campaign permite criar o público mais preciso: você pode selecionar os destinatários de acordo com a idade, localização, o que compraram, se clicaram em um link em uma entrega anterior, etc. Com o Adobe Campaign, também é possível definir perfis de teste, grupos de controle e endereços de seed para verificar se o público-alvo está correto.
+Para que sua entrega seja bem-sucedida, o conteúdo personalizado mais relevante deve ser enviado aos destinatários corretos. O Adobe Campaign permite criar o público mais preciso: você pode selecionar os recipients de acordo com a idade, localização, o que compraram, se clicaram em um link em um delivery anterior, etc. Com o Adobe Campaign, também é possível definir perfis de teste, grupos de controle e seed addresses para garantir que o público-alvo esteja correto.
 
 ## Direcionar mapeamentos {#target-mappings}
 
@@ -48,7 +57,7 @@ Para enviar mensagens aos assinantes de um informativo, é possível direcionar 
 
 ## Provas, perfis de teste e grupos de controle {#proofs-test-control-groups}
 
-Para testar seu delivery, use provas antes de enviar para o target principal.
+Para testar sua entrega, use provas antes de enviar para o público-alvo principal.
 Selecione os destinatários de prova apropriados, porque eles validam a forma e o conteúdo da mensagem. As etapas para enviar provas são apresentadas [nesta seção](../../sending/using/sending-proofs.md).
 
 Saiba mais sobre perfis de teste [nesta seção](../../audiences/using/managing-test-profiles.md).

@@ -10,9 +10,21 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 0a71e3a7-60e6-49ec-af2e-099ad0d69a15
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/65HKTwwETEWkW1P6c1pfYBIJQDYwqC-DPmq7JQiye7s
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: 339
 ht-degree: 76%
 
 ---
@@ -23,25 +35,25 @@ Esta seção apresenta o caso de uso ao usar uma atividade **[!UICONTROL Query]*
 
 ## Direcionamento em atributos simples de perfil {#targeting-on-simple-profile-attributes}
 
-O exemplo a seguir mostra uma atividade de query configurada para direcionar homens entre 18 e 30 anos, que moram em Londres.
+O exemplo a seguir mostra uma atividade de consulta configurada para direcionar homens entre 18 e 30 anos, que moram em Londres.
 
 ![](assets/query_sample_1.png)
 
 ## Direcionamento em atributos de email {#targeting-on-email-attributes}
 
-O exemplo a seguir mostra uma atividade de query configurada para direcionar perfis com o domínio de endereço de email “orange.co.uk”.
+O exemplo a seguir mostra uma atividade de consulta configurada para direcionar perfis com o domínio de endereço de email “orange.co.uk”.
 
 ![](assets/query_sample_emaildomain.png)
 
-O exemplo a seguir mostra uma atividade de query configurada direcionar perfis cujo endereço de email foi fornecido.
+O exemplo a seguir mostra uma atividade de consulta configurada para direcionar perfis cujo endereço de email foi fornecido.
 
 ![](assets/query_sample_emailnotempty.png)
 
 ## Direcionamento de perfis cuja data de nascimento é hoje {#targeting-profiles-whose-birthday-is-today}
 
-O exemplo a seguir mostra uma atividade de query configurada para direcionar perfis cuja data de nascimento é hoje.
+O exemplo a seguir mostra uma atividade de consulta configurada para direcionar perfis cuja data de nascimento é hoje.
 
-1. Arraste o filtro **[!UICONTROL Birthday]** no seu query.
+1. Arraste o filtro **[!UICONTROL Birthday]** na sua consulta.
 
    ![](assets/query_sample_birthday.png)
 
@@ -51,9 +63,9 @@ O exemplo a seguir mostra uma atividade de query configurada para direcionar per
 
 ## Direcionamento de perfis que abriram um delivery específico {#targeting-profiles-who-opened-a-specific-delivery}
 
-O exemplo a seguir mostra uma atividade de query configurada para filtrar perfis que abriram a entrega com o rótulo “Hora de verão”.
+O exemplo a seguir mostra uma atividade de consulta configurada para filtrar perfis que abriram a entrega com o rótulo “Hora de verão”.
 
-1. Arraste o filtro **[!UICONTROL Opened]** no seu query.
+1. Arraste o filtro **[!UICONTROL Opened]** na sua consulta.
 
    ![](assets/query_sample_opened.png)
 
@@ -63,13 +75,13 @@ O exemplo a seguir mostra uma atividade de query configurada para filtrar perfis
 
 ## Direcionamento de perfis com falha de deliveries por um motivo específico {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
 
-O exemplo a seguir mostra uma atividade de query configurada para filtrar perfis com falha de entregas porque a caixa de entrada estava cheia. Esse query só está disponível para usuários com direitos administrativos e pertencentes a unidades organizacionais **[!UICONTROL All (all)]** (consulte [esta seção](../../administration/using/organizational-units.md)).
+O exemplo a seguir mostra uma atividade de consulta configurada para filtrar perfis com falha de entregas porque a caixa de entrada estava cheia. Essa consulta só está disponível para usuários com direitos administrativos e pertencentes a unidades organizacionais **[!UICONTROL All (all)]** (consulte [esta seção](../../administration/using/organizational-units.md)).
 
 1. Selecione o recurso **[!UICONTROL Delivery logs]** para filtrar diretamente na tabela de logs da entrega (consulte [Uso de recursos diferentes das dimensões de direcionamento](../../automating/using/using-resources-different-from-targeting-dimensions.md)).
 
    ![](assets/query_sample_failure1.png)
 
-1. Arraste o filtro **[!UICONTROL Nature of failure]** no seu query.
+1. Arraste o filtro **[!UICONTROL Nature of failure]** na sua consulta.
 
    ![](assets/query_sample_failure2.png)
 
@@ -79,9 +91,9 @@ O exemplo a seguir mostra uma atividade de query configurada para filtrar perfis
 
 ## Direcionamento de perfis não contatados nos últimos sete dias {#targeting-profiles-not-contacted-during-the-last-7-days}
 
-O exemplo a seguir mostra uma atividade de query configurada para filtrar perfis que não foram contatados nos últimos sete dias.
+O exemplo a seguir mostra uma atividade de consulta configurada para filtrar perfis que não foram contatados nos últimos sete dias.
 
-1. Arraste o filtro **[!UICONTROL Delivery logs (logs)]** no seu query.
+1. Arraste o filtro **[!UICONTROL Delivery logs (logs)]** na sua consulta.
 
    ![](assets/query_sample_7days.png)
 
@@ -95,7 +107,7 @@ O exemplo a seguir mostra uma atividade de query configurada para filtrar perfis
 
 ## Direcionamento de perfis que clicaram em um link específico {#targeting-profiles-who-clicked-a-specific-link-}
 
-1. Arraste o filtro **[!UICONTROL Tracking logs (tracking)]** no seu query.
+1. Arraste o filtro **[!UICONTROL Tracking logs (tracking)]** no sua consulta.
 
    ![](assets/query_sample_trackinglogs.png)
 

@@ -9,9 +9,20 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
-source-git-commit: 2d3ef53d5ea5603d90da169366be6ea516d96823
+TQID: https://experienceleague.adobe.com/rFFpX6Up3eir0KrwY0lsfhAHlfennHiJkq2BsHuiAps
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: 763
 ht-degree: 61%
 
 ---
@@ -35,7 +46,7 @@ Como você está configurando e publicando eventos transacionais, algumas etapas
 * Os canais disponíveis para mensagens transacionais são: **[!UICONTROL Email]**, **[!UICONTROL Mobile (SMS)]** e **[!UICONTROL Push notification]**.
 * Somente um canal pode ser usado para cada configuração de evento. Consulte [Criação de um evento](../../channels/using/configuring-transactional-event.md#creating-an-event).
 * Depois que o evento é criado, não é possível alterar o canal. Portanto, se uma mensagem não for enviada, você precisará projetar o mecanismo para enviá-la de outro canal usando um fluxo de trabalho. Consulte [Dados e processos do fluxo de trabalho](../../automating/using/get-started-workflows.md).
-* Você não poderá alterar o targeting dimension (**[!UICONTROL Real-time event]** ou **[!UICONTROL Profile]**) após a criação do evento. Consulte [Criação de um evento](../../channels/using/configuring-transactional-event.md#creating-an-event).
+* Você não poderá alterar a dimensão de direcionamento (**[!UICONTROL Real-time event]** ou **[!UICONTROL Profile]**) após a criação do evento. Consulte [Criação de um evento](../../channels/using/configuring-transactional-event.md#creating-an-event).
 * Não é possível reverter uma publicação, mas você pode desfazer a publicação de um evento. Essa operação torna inacessíveis o evento e a mensagem transacional associada. Consulte [Desfazer a publicação de um evento](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 * A única mensagem transacional que pode ser associada a um evento é a criada automaticamente após a publicação do evento. Consulte [Pré-visualização e publicação do evento](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
@@ -66,7 +77,7 @@ O modo de personalização de um conteúdo de mensagem depende do tipo de mensag
 
 Observe que as listas de produtos estão disponíveis somente nas **mensagens de email** transacionais. Consulte [Uso das listagens de produtos em uma mensagem transacional](../../designing/using/using-product-listings.md).
 
-## Marca {#permissions-and-branding}
+## Identidade visual {#permissions-and-branding}
 
 No gerenciamento da [identidade visual](../../administration/using/branding.md), as mensagens transacionais são menos flexíveis do que as mensagens padrão. A Adobe recomenda vincular todas as marcas usadas nas mensagens transacionais à **[!UICONTROL All]** [unidade organizacional](../../administration/using/organizational-units.md). Para saber mais, leia a explicação detalhada abaixo.
 

@@ -9,9 +9,21 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
-source-git-commit: 9bfae9e956fa86254578eda821aedd240c81288c
+TQID: https://experienceleague.adobe.com/JIR0DIeokRtjXbXBl8cHhhC2N9xnVypjNlVllHpQn14
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: 1319
 ht-degree: 95%
 
 ---
@@ -22,7 +34,7 @@ Você pode usar grupos de controle para evitar o envio de mensagens para uma par
 
 Para fazer isso no Adobe Campaign, crie um <b>grupo de controle</b> ao definir o público-alvo da sua entrega. Perfis são adicionados ao grupo de controle aleatoriamente, filtrados ou não, ou baseados em critérios.
 
-Portanto você poderá comparar o comportamento do público-alvo que recebeu a mensagem com o comportamento dos contatos não atingidos. Com base nos logs de envio, você também poderá se concentrar em um grupo de controle em campanhas futuras.
+Portanto você poderá comparar o comportamento da população de destino que recebeu a mensagem com o comportamento dos contatos não atingidos. Com base nos logs de envio, você também poderá se concentrar em um grupo de controle em campanhas futuras.
 
 <!--The control group is built when the delivery is prepared.-->
 
@@ -30,7 +42,7 @@ Portanto você poderá comparar o comportamento do público-alvo que recebeu a m
 
 O grupo de controle pode ser extraído do público-alvo principal e/ou vir de uma população específica. Consequentemente, há duas maneiras principais de definir um grupo de controle:
 * **Extrair** vários perfis do público-alvo principal.
-* **Excluir** alguns perfis com base em critérios definidos em uma query.
+* **Excluir** alguns perfis com base em critérios definidos em uma consulta.
 
 Você pode usar ambos os métodos ao definir um grupo de controle.
 
@@ -38,7 +50,7 @@ Todos os perfis que fazem parte do grupo de controle na etapa de preparação da
 
 ## Extração a partir do público-alvo {#extraction-target-population}
 
-Para definir um grupo de controle, você pode optar por extrair, aleatoriamente ou com base em uma classificação, uma porcentagem ou um número fixo de perfis do público-alvo.
+Para definir um grupo de controle, você pode optar por extrair, aleatoriamente ou com base em uma classificação, uma porcentagem ou um número fixo de perfis da população de destino.
 
 ### Extração do Target {#target-extraction}
 
@@ -98,7 +110,7 @@ Se você selecionou **[!UICONTROL Random sampling]** ou **[!UICONTROL Keep only 
 
 ## Excluir uma população específica {#excluding-specific-population}
 
-Outra forma de definir um grupo de controle é excluir uma população específica do público-alvo usando um query.
+Outra forma de definir um grupo de controle é excluir uma população específica do público-alvo usando uma consulta.
 
 Para fazer isso:
 
@@ -106,21 +118,21 @@ Para fazer isso:
 
    ![](assets/control-group-define-target-exclusion.png)
 
-1. Defina os critérios de exclusão usando o [editor de consultas](../../automating/using/editing-queries.md). Você também pode selecionar um [público](../../audiences/using/about-audiences.md) criado anteriormente.
+1. Defina os critérios de exclusão usando o [editor de consultas](../../automating/using/editing-queries.md). Você também pode selecionar um [público-alvo](../../audiences/using/about-audiences.md) criado anteriormente.
 
    ![](assets/control-group-target-exclusion.png)
 
 1. Clique em **[!UICONTROL Confirm]**.
 
-Os perfis que correspondem ao resultado do query serão excluídos do público-alvo.
+Os perfis que correspondem ao resultado da consulta serão excluídos do público-alvo.
 
 <!--For more on using the query editor, see the [Editing queries](../../automating/using/editing-queries.md) section.-->
 
 ## Caso de uso: configurar um grupo de controle {#control-group-example}
 
-Abaixo está um exemplo de como definir um grupo de controle usando ambos os métodos: extraindo perfis do público-alvo principal e usando um query para excluir uma população específica.
+Abaixo está um exemplo de como definir um grupo de controle usando ambos os métodos: extraindo perfis do público-alvo principal e usando uma consulta para excluir uma população específica.
 
-1. Criar um workflow. As etapas detalhadas para criar um workflow são apresentadas na seção [Criação de um workflow](../../automating/using/building-a-workflow.md).
+1. Criar um fluxo de trabalho. As etapas detalhadas para criar um fluxo de trabalho são apresentadas na seção [Criação de um fluxo de trabalho](../../automating/using/building-a-workflow.md).
 1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arraste e solte uma atividade de [Query](../../automating/using/query.md). Dê um duplo clique na atividade e defina seu público-alvo. <!--For example, in **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profile]**, select **[!UICONTROL Age]** with the operator **[!UICONTROL Greater than]** and type 25 in the **[!UICONTROL Value]** field.-->
 
 1. Em **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, arraste e solte uma atividade de [entrega de email](../../automating/using/email-delivery.md) após o segmento principal do público-alvo e edite-a.
@@ -145,7 +157,7 @@ Abaixo está um exemplo de como definir um grupo de controle usando ambos os mé
 
 1. Inicie a [preparação da entrega](../../sending/using/preparing-the-send.md) e [confirme o envio](../../sending/using/confirming-the-send.md).
 
-Os perfis extraídos (os 100 perfis mais antigos) e os definidos com base no query (perfis com menos de 20 anos) serão retirados do público-alvo principal. Eles não receberão a mensagem.
+Os perfis extraídos (os 100 perfis mais antigos) e os definidos com base na consulta (perfis com menos de 20 anos) serão retirados do público-alvo principal. Eles não receberão a mensagem.
 
 ## Comparação dos resultados {#delivery-logs}
 
@@ -173,7 +185,7 @@ Para ver quais perfis foram removidos do público-alvo depois que a mensagem foi
 
 Após o envio da entrega, você poderá usar os logs da entrega para filtrar os perfis que não receberam a mensagem. Siga as etapas abaixo:
 
-1. Criar um workflow. As etapas detalhadas para criar um workflow são apresentadas na seção [Criação de um workflow](../../automating/using/building-a-workflow.md).
+1. Criar um fluxo de trabalho. As etapas detalhadas para criar um fluxo de trabalho são apresentadas na seção [Criação de um fluxo de trabalho](../../automating/using/building-a-workflow.md).
 1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arraste e solte uma atividade de [Query](../../automating/using/query.md).
 1. Na guia **[!UICONTROL Properties]**, defina **[!UICONTROL Delivery logs]** como **[!UICONTROL Resource]** e **[!UICONTROL Profile]** como **[!UICONTROL Targeting dimension]**.
 
@@ -200,7 +212,7 @@ Você pode, por exemplo, exportar os dados de log usando uma atividade **Extrair
 
 Para fazer um direcionamento com base nos perfis que não receberam a mensagem, você também pode usar os logs da entrega. Siga as etapas abaixo:
 
-1. Criar um workflow. As etapas detalhadas para criar um workflow são apresentadas na seção [Criação de um workflow](../../automating/using/building-a-workflow.md).
+1. Criar um fluxo de trabalho. As etapas detalhadas para criar um fluxo de trabalho são apresentadas na seção [Criação de um fluxo de trabalho](../../automating/using/building-a-workflow.md).
 1. Em **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arraste e solte uma primeira atividade de [Query](../../automating/using/query.md).
 1. Na guia **[!UICONTROL Properties]**, verifique se o recurso **[!UICONTROL Profile]** está selecionado como o **[!UICONTROL Resource]** e **[!UICONTROL Targeting dimension]**.
 
@@ -234,6 +246,6 @@ Para fazer um direcionamento com base nos perfis que não receberam a mensagem, 
 
 Agora você pode direcionar os perfis que não receberam sua primeira mensagem porque eram parte do grupo de controle e receberam outro email.
 
-No mesmo workflow, você também pode criar outro query para direcionar os perfis que receberam o email e enviar a eles uma mensagem diferente.
+No mesmo fluxo de trabalho, você também pode criar outra consulta para direcionar os perfis que receberam o email e enviar a eles uma mensagem diferente.
 
 ![](assets/control-group-targeted-by-delivery.png)

@@ -1,6 +1,6 @@
 ---
-title: Edição de texto sem formatação, HTML e formatos de email para dispositivos móveis
-description: Descubra os modos Texto sem formatação e HTML
+title: Edição de texto sem formatação, HTML e formatos de email móveis
+description: Conheça os modos Texto sem formatação e HTML
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -8,16 +8,27 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 760c3c30-c899-4cf4-ba59-fb2fade9fc5e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/H-WFy-faNPufQFw5A-zN8c-G7rqwUuXTQ8iGN1CDk00
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: 778
 ht-degree: 2%
 
 ---
 
-# Edição de texto sem formatação, HTML e formatos de email para dispositivos móveis {#plain-text-and-html-modes}
+# Edição de texto sem formatação, HTML e formatos de email móveis {#plain-text-and-html-modes}
 
-O Designer de email permite editar várias renderizações de seus emails. Você pode gerar uma versão em texto do email, editar a fonte de HTML de um email e criar emails para exibição em dispositivos móveis.
+O Designer de email permite editar várias renderizações de seus emails. Você pode gerar uma versão em texto do email, editar a fonte HTML de um email e criar emails para exibição em dispositivos móveis.
 
 ## Gerar uma versão de texto do email {#generating-a-text-version-of-the-email}
 
@@ -49,13 +60,13 @@ Há duas maneiras de editar a versão HTML do email:
 
   ![](assets/email_designer_html1.png)
 
-* Na interface WYSIWYG, selecione um elemento e clique no ícone **[!UICONTROL Source code]**.
+* Na interface do WYSIWYG, selecione um elemento e clique no ícone **[!UICONTROL Source code]**.
 
   Somente a origem do elemento selecionado é exibida. Você poderá editar o código-fonte se o elemento selecionado for um componente de conteúdo **[!UICONTROL HTML]**. Outros componentes estão no modo somente leitura, mas ainda podem ser editados na versão HTML completa do email.
 
   ![](assets/email_designer_html2.png)
 
-Se você modificar o HTML do código, a capacidade de resposta do email poderá ser interrompida. Certifique-se de testá-la usando o botão **[!UICONTROL Preview]**. Consulte [Pré-visualização de mensagens](../../sending/using/previewing-messages.md).
+Se você modificar o código do HTML, a capacidade de resposta do email poderá ser interrompida. Certifique-se de testá-la usando o botão **[!UICONTROL Preview]**. Consulte [Pré-visualização de mensagens](../../sending/using/previewing-messages.md).
 
 ## Criação de emails para renderização móvel {#switching-to-mobile-view}
 
@@ -98,7 +109,7 @@ Todas as opções de estilo estão disponíveis na exibição móvel. As configu
    >
    >A única exceção são as configurações **[!UICONTROL Style inline]**. Qualquer alteração de configuração inline de estilo também é aplicada à exibição padrão da área de trabalho.
 
-1. Qualquer outra alteração na estrutura ou no conteúdo do email, como edições de texto, upload de uma nova imagem, adição de um novo componente etc. também é aplicado à exibição padrão.
+1. Qualquer outra alteração na estrutura ou no conteúdo do email, como edições de texto, upload de uma nova imagem, adição de um novo componente etc., também é aplicada à exibição padrão.
 
    Por exemplo, volte para a exibição móvel, edite algum texto e substitua uma imagem.
 

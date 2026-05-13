@@ -6,10 +6,18 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: 1346f7d833515fb2e6feabb39d199ffd5610c88e
+TQID: https://experienceleague.adobe.com/tSPkfU35NbnvlF8s39rDKPbyrLFm8uKx7jvU4ZyB1hw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 0%
+source-wordcount: 939
+ht-degree: 1%
 
 ---
 
@@ -33,7 +41,7 @@ O Rastreamento de push é separado em três tipos:
 
 Para implementar o rastreamento do Campaign Standard, o aplicativo móvel precisa incluir os SDKs da Adobe Experience Platform. Esses SDKs estão disponíveis na [documentação dos SDKs da Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
-Para enviar informações de rastreamento, há três variáveis que precisam ser enviadas. Dois que são parte dos dados recebidos do Campaign Standard e uma variável de ação que determina se é uma **Impressão**, **Clique** ou **Abrir**.
+Para enviar informações de rastreamento, há três variáveis que precisam ser enviadas. Dois que fazem parte dos dados recebidos do Campaign Standard e uma variável de ação que determina se é uma **Impressão**, **Clique** ou **Abrir**.
 
 | Variável | Valor |
 |:-:|:-:|
@@ -260,7 +268,7 @@ Para que o rastreamento de **[!UICONTROL Impression]** ainda funcione enquanto o
 
 >[!CAUTION]
 >
-> Se um aplicativo estiver fechado, o Apple não chamará o aplicativo até que ele seja reiniciado. Isso significa que você não poderá saber quando a notificação foi recebida no iOS. </br> Por esse motivo, o rastreamento de impressões do iOS pode não ser preciso e não deve ser considerado confiável.
+> Se um aplicativo estiver fechado, o Apple não chamará o aplicativo até que ele seja reiniciado. Isso significa que você não poderá saber quando a notificação foi recebida no iOS. </br> Por esse motivo, o rastreamento de impressões do iOS pode não ser preciso e não deve ser visto como confiável.
 
 Para entregas criadas antes da versão 21.1 ou entregas com modelo personalizado, consulte esta [seção](../../administration/using/push-tracking.md#about-push-tracking).
 

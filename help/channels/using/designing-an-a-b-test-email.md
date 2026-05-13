@@ -9,9 +9,16 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
-source-git-commit: 2adead5903eb2710207d7aeaaa85418bd616ca5d
+TQID: https://experienceleague.adobe.com/dfZ-v5Mfq7-u8GvDulzONuDGj4Ff2sCmPSFggeYuqPM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: 842
 ht-degree: 94%
 
 ---
@@ -44,7 +51,7 @@ No contexto específico de um teste A/B:
    >
    >Os modelos de teste A/B e de acompanhamento estão ocultos por padrão. Marque a caixa de teste A/B no lado esquerdo (**[!UICONTROL Filter]** painel lateral) para exibi-los.
 
-1. Defina as propriedades gerais e o público-alvo do email, assim como para um email padrão. Consulte a seção [Criação de públicos](../../audiences/using/creating-audiences.md).
+1. Defina as propriedades gerais e o público-alvo do email, assim como para um email padrão. Consulte a seção [Criação de públicos-alvos](../../audiences/using/creating-audiences.md).
 1. Na quarta etapa do assistente de criação, defina os parâmetros de teste A/B:
 
    * **[!UICONTROL Number of variants]**: é possível optar por usar duas ou três variantes. Se você escolher três variantes, essa opção não poderá ser modificada depois que essa etapa for confirmada no assistente.

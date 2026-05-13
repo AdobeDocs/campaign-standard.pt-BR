@@ -9,10 +9,21 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 815b4a0d-0486-4867-b751-b5ca8b643cb9
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/8VXdc-QOidRcDvgr5vMn-5bxHKYO6TnZS80FDsuA-GU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 97%
+source-wordcount: 456
+ht-degree: 84%
 
 ---
 
@@ -24,14 +35,14 @@ Correspondência direta é um canal offline com o qual é possível personalizar
 >
 >Este recurso é opcional. Verifique o contrato de licença. A função **[!UICONTROL Export]** é necessária para usar a correspondência direta. Entre em contato com o administrador.
 
-Os canais online permitem que você crie mensagens (email, SMS, entrega de aplicativo móvel, etc.) e envie-as para seu público diretamente do Adobe Campaign. Com canais offline, é diferente. Quando você prepara uma entrega de correspondência direta, o Adobe Campaign gera um arquivo incluindo todos os perfis do target e as informações de contato escolhidas (endereço postal por exemplo). Você poderá enviar esse arquivo para seu provedor de correspondência direta que irá cuidar realmente do envio.
+Os canais online permitem que você crie mensagens (email, SMS, delivery de aplicativo móvel etc.) e envie-os para seu público diretamente da Adobe Campaign. Com canais offline, é diferente. Quando você prepara uma entrega de correspondência direta, o Adobe Campaign gera um arquivo incluindo todos os perfis do target e as informações de contato escolhidas (endereço postal por exemplo). Você poderá enviar esse arquivo para seu provedor de correspondência direta que irá cuidar realmente do envio.
 
 A seção a seguir explica como criar e gerar uma entrega de correspondência direta de uma só vez. Você também pode incluir uma atividade de correspondência direta em um fluxo de trabalho para orquestrar campanhas combinando canais online e offline. Para mais informações, consulte o guia [Fluxos de trabalho](../../automating/using/get-started-workflows.md).
 
 O processo do usuário no Adobe Campaign é o seguinte:
 
 1. Criação de entrega
-1. Escolha do público
+1. Escolha do público-alvo
 1. Definição do conteúdo
 1. Definição da data de contato
 1. Geração do arquivo
@@ -44,7 +55,7 @@ O processo do usuário no Adobe Campaign é o seguinte:
 
 ### Provedores de correspondência direta {#direct-mail-providers}
 
-Primeiro, você precisa entrar em contato com o provedor de correspondência direta e coletar as recomendações desse provedor. Identifique quais informações de perfil precisam ser incluídas no arquivo de extração para que o provedor possa personalizar a comunicação e enviá-la para o público. Por exemplo, nome e sobrenome, endereço postal, um código promocional etc. Esses são os campos que você adicionará na guia [Definição da extração](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) do conteúdo da correspondência direta.
+Primeiro, você precisa entrar em contato com o provedor de correspondência direta e coletar as recomendações desse provedor. Identifique quais informações de perfil precisam ser incluídas no arquivo de extração para que o provedor possa personalizar a comunicação e enviá-la para o público-alvo. Por exemplo, nome e sobrenome, endereço postal, um código promocional etc. Esses são os campos que você adicionará na guia [Definição da extração](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) do conteúdo da correspondência direta.
 
 Confirme que você marcou a caixa **[!UICONTROL Address specified]** nas informações dos perfis. Se essa opção estiver ativada, o perfil será adicionado ao público alvo. Se não estiver, o perfil será excluído por uma regra de tipologia durante a fase de preparação (consulte [Criação da correspondência direta](../../channels/using/creating-the-direct-mail.md)). Durante a importação do perfil, não se esqueça de atualizar este campo.
 

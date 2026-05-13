@@ -9,9 +9,19 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+TQID: https://experienceleague.adobe.com/Ol-6IkRGAr7OGkXQgHhMSYhPfjmg-DY7s2dr6wxFenU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: 1666
 ht-degree: 98%
 
 ---
@@ -51,7 +61,7 @@ Ao editar o recurso, na guia **[!UICONTROL Data structure]**, é possível adici
 
    ![](assets/schema_extension_5.png)
 
-1. Marque a opção **[!UICONTROL Specify a list of authorized values]** se precisar definir valores que serão oferecidos ao usuário (valores de lista discriminada).
+1. Marque a opção **[!UICONTROL Specify a list of authorized values]** se precisar definir valores que serão oferecidos ao usuário (valores de enumeração).
 
    Em seguida, clique em **[!UICONTROL Create element]** e especifique um **[!UICONTROL Label]** e **[!UICONTROL Value]**. Adicione quantos valores forem necessários.
 
@@ -171,7 +181,7 @@ Um link detalha a associação que uma tabela tem com outras tabelas.
 1. Na seção **[!UICONTROL Join definition]**, a opção padrão **[!UICONTROL Use the primary keys to make the join]** é selecionada, mas você pode escolher entre duas opções:
 
    * **[!UICONTROL Use the primary key to make the join]**: essa definição de junção permite usar a chave primária de perfis para reconciliação com a chave primária de compras.
-   * **[!UICONTROL Define specific join conditions]**: essa definição de junção permite selecionar manualmente os campos que unirão ambos os recursos. Observe que, se os dados não estiverem configurados corretamente, o registro **Purchase** não estará visível.
+   * **[!UICONTROL Define specific join conditions]**: essa definição de junção permite selecionar manualmente os campos que unirão ambos os recursos. Observe que, se os dados não estiverem configurados corretamente, o registro **Compra** não estará visível.
 
    ![](assets/schema_extension_17.png)
 
@@ -185,7 +195,7 @@ Os links criados são exibidos na lista da seção **[!UICONTROL Links]**.
 
 Neste exemplo, queremos vincular um novo recurso **Compra** ao recurso personalizado **Perfis**:
 
-1. Crie o novo recurso **Purchase**.
+1. Crie o novo recurso **Compra**.
 1. Para vinculá-lo ao recurso personalizado **Perfis**, abra a seção **[!UICONTROL Links]** na guia **[!UICONTROL Data structure]** e clique em **[!UICONTROL Create element]**.
 1. Selecione o recurso de destino, aqui **[!UICONTROL Profiles (profile)]**.
 1. Neste exemplo, mantenha o tipo padrão **[!UICONTROL 1 cardinality simple link]** Link selecionado.
@@ -196,7 +206,7 @@ Neste exemplo, queremos vincular um novo recurso **Compra** ao recurso personali
 
    ![](assets/custom_resource_link_to_profile_3.png)
 
-1. Se necessário, você pode definir uma tela de detalhes para editar **Purchase** e vinculá-lo a um perfil.
+1. Se necessário, você pode definir uma tela de detalhes para editar **Compra** e vinculá-lo a um perfil.
 
    Abra a seção **[!UICONTROL Detail screen configuration]** e marque **[!UICONTROL Define a detail screen]** para configurar a tela que corresponde a cada elemento do recurso. Se você não marcar essa caixa, a visualização detalhada dos elementos deste recurso não estará acessível.
 
@@ -211,7 +221,7 @@ Neste exemplo, queremos vincular um novo recurso **Compra** ao recurso personali
 
    Agora, você pode publicar o novo recurso.
 
-Ao adicionar esse link, uma guia **Purchase** é adicionada à tela de detalhes perfis do menu **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Profiles]**. Observe que isso é específico para o recurso **[!UICONTROL Profile]**.
+Ao adicionar esse link, uma guia **Compra** é adicionada à tela de detalhes perfis do menu **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Profiles]**. Observe que isso é específico para o recurso **[!UICONTROL Profile]**.
 
 ![](assets/custom_resource_link_to_profile.png)
 
@@ -224,9 +234,9 @@ A extensão de logs de envio permite:
 
 **Estender com um código de segmento**
 
-O usuário pode estender os logs com o código de segmento proveniente do motor de workflow.
+O usuário pode estender os logs com o código de segmento proveniente do motor de fluxo de trabalho.
 
-O código de segmento deve ser definido no workflow.
+O código de segmento deve ser definido no fluxo de trabalho.
 
 Para ativar essa extensão, marque a opção **[!UICONTROL Add segment code]**.
 
@@ -279,12 +289,12 @@ As modificações são salvas. Você precisa publicar o recurso novamente para a
 
 ## Geração de uma ID exclusiva para perfis e recursos personalizados {#generating-a-unique-id-for-profiles-and-custom-resources}
 
-Por padrão, perfis e recursos personalizados não têm uma ID comercial quando são criados. Você pode ativar uma opção que gera automaticamente uma ID exclusiva quando os elementos são criados. Essa ID pode ser usada para:
+Por padrão, perfis e recursos personalizados não têm uma ID comercial quando são criados. Você pode habilitar uma opção que gera automaticamente uma ID exclusiva quando os elementos são criados. Essa ID pode ser usada para:
 
 * Identificar facilmente os registros exportados em uma ferramenta externa.
 * Reconciliar registros ao importar dados atualizados processados em outro aplicativo.
 
-Ele pode ser ativado apenas para perfis e recursos personalizados.
+Ele pode ser habilitado apenas para perfis e recursos personalizados.
 
 1. Crie uma extensão para o recurso de perfis ou crie um novo recurso.
 1. Na definição da estrutura de dados, marque a opção **[!UICONTROL Add automatic ID field]**, na seção **[!UICONTROL Fields]**.
@@ -297,9 +307,9 @@ Ele pode ser ativado apenas para perfis e recursos personalizados.
 
 1. Salve e publique a modificação feita no recurso. Se quiser que esse mecanismo seja aplicado a elementos criados por meio da API, marque a opção para estender a API.
 
-O campo **[!UICONTROL ACS ID]** agora está disponível e é automaticamente preenchido quando novos elementos são criados manualmente, da API, ou inseridos de um workflow de importação. O campo de ID do ACS é um campo UUID e é indexado.
+O campo **[!UICONTROL ACS ID]** agora está disponível e é automaticamente preenchido quando novos elementos são criados manualmente, da API, ou inseridos de um fluxo de trabalho de importação. O campo de ID do ACS é um campo UUID e é indexado.
 
-Ao exportar perfis ou recursos personalizados, agora é possível adicionar a coluna **[!UICONTROL ACS ID]** quando ela for ativada para esse recurso. Você pode reutilizar essa ID em suas ferramentas externas para identificar registros.
+Ao exportar perfis ou recursos personalizados, agora é possível adicionar a coluna **[!UICONTROL ACS ID]** quando ela for habilitada para esse recurso. Você pode reutilizar essa ID em suas ferramentas externas para identificar registros.
 
 ![](assets/export_id_field.png)
 
@@ -307,6 +317,6 @@ Ao reimportar dados que foram processados/atualizados em outro aplicativo (por e
 
 >[!NOTE]
 >
->O campo **[!UICONTROL ACS ID]** não é atualizado para perfis ou elementos criados antes da ativação da opção. Somente novos registros terão uma ID do ACS.
+>O campo **[!UICONTROL ACS ID]** não é habilitado para perfis ou elementos criados antes da ativação da opção. Somente novos registros terão uma ID do ACS.
 >
 >Esse campo está no modo somente leitura. Não é possível modificá-lo.

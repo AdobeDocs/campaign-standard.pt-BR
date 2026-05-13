@@ -8,10 +8,21 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 0101773d-b109-49a3-89d4-b4bb226d9ebd
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+TQID: https://experienceleague.adobe.com/eR4kpesC5-G0rsM3FecB4uqiPFNE4Q3K-iJJoZ09iuM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 0%
+source-wordcount: 725
+ht-degree: 2%
 
 ---
 
@@ -21,20 +32,20 @@ ht-degree: 0%
 
 Confira os recursos abaixo:
 
-* [Tutorials de vídeo](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=pt-BR)
-* [Postagem de blog](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
+* [Tutoriais em vídeo](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=pt-BR)
+* [Publicação do blog](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
 * [Página da comunidade](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=pt)
 
 ## Qual é a finalidade das APIs de extensões do Campaign setLinkageField e resetLinkageField? {#extensions-apis}
 
-Como as mensagens no aplicativo são extraídas pelo SDK do Campaign, queremos fornecer um mecanismo seguro para garantir que as mensagens no aplicativo que contêm dados PII não caiam em mãos mal-intencionadas. Dessa forma, temos o seguinte mecanismo em vigor para garantir a entrega segura de mensagens para o dispositivo:
+Como as mensagens no aplicativo são extraídas pela SDK do Campaign, queremos fornecer um mecanismo seguro para garantir que as mensagens no aplicativo que contêm dados PII não caiam em mãos mal-intencionadas. Dessa forma, temos o seguinte mecanismo em vigor para garantir a entrega segura de mensagens para o dispositivo:
 
 * Os clientes marcam os campos de perfil móvel (tabela appSubscriberRcp) como Pessoal e confidencial se quiserem garantir que essas informações específicas sejam entregues com segurança.
 * Os campos marcados como tal só podem ser usados no modelo de Perfil (não no modelo appSubscriber ou no modelo de Difusão) que tem um mecanismo de segurança adicional integrado.
 * As mensagens criadas usando o modelo de Perfil só podem ser enviadas quando o usuário estiver conectado ao aplicativo.
 * Para facilitar esse handshake seguro, os desenvolvedores de aplicativos móveis devem passar detalhes de autenticação adicionais usando a API setLinkageField. Observe que os campos de vinculação são aqueles identificados como o link entre o Perfil móvel e o Perfil de CRM ao estender a tabela appSubscriberRcp.
 * Eles devem liberar as mensagens no aplicativo armazenadas no dispositivo e redefinirLinkagefields quando o usuário faz logoff do aplicativo usando redefinirLinkageField. Isso garante que, se um usuário diferente fizer logon no aplicativo, ele não verá as mensagens destinadas ao usuário anterior.
-* Consulte [APIs do SDK móvel](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/) para implementar esse mecanismo de segurança no lado do cliente.
+* Consulte [APIs do Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/) para implementar esse mecanismo de segurança no lado do cliente.
 
 ## O que preciso fazer para habilitar os Relatórios no aplicativo no Campaign? {#enable-inapp-reporting}
 
