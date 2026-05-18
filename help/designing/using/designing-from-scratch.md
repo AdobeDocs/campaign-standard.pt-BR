@@ -19,8 +19,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: 1238
-ht-degree: 15%
+source-wordcount: 1299
+ht-degree: 22%
 
 ---
 
@@ -188,7 +188,7 @@ Use esse componente para inserir links para páginas de redes sociais no seu ema
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="Configurações do carrossel"
->abstract="Saiba como inserir e configurar um carrossel no seu conteúdo.Observe que o carrossel não funciona em todos os clientes de email e a imagem de fallback será exibida caso não seja compatível."
+>abstract="Saiba como inserir e configurar um carrossel no conteúdo.Observe que o carrossel não funciona em todo o cliente de email e a imagem alternativa será exibida caso não seja compatível."
 
 1. Arraste e solte o componente **[!UICONTROL Carousel]** dentro de um componente de estrutura.
 1. Navegue para selecionar imagens do seu computador.
