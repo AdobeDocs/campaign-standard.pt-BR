@@ -10,7 +10,7 @@ landing-page-name: campaign
 landing-page-breadcrumb-title: Campaign
 version: Campaign Standard
 feature-set: Campaign
-git-repo: https://github.com/AdobeDocs/campaign-standard.en
+git-repo: https://github.com/AdobeDocs/campaign-standard.pt-BR
 index: true
 source-git-commit: abcea1f3fbd35fe6666ef337c952f3edb6fa9ae0
 workflow-type: tm+mt
