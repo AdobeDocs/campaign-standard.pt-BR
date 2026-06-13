@@ -11,9 +11,12 @@ role: Developer
 level: Intermediate
 exl-id: f611e023-f74c-476e-83b9-aff451f68c81
 TQID: https://experienceleague.adobe.com/qkMV-OW4cYN-u6R3PYn9kdMt7DgIgxA8WTsDhvLIzJw
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 2fe8bfb2bc8d0266bea52504feffb7b11f481b91
 workflow-type: tm+mt
 source-wordcount: 346
