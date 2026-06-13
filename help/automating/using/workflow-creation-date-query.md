@@ -11,16 +11,13 @@ role: Developer
 level: Intermediate
 exl-id: f611e023-f74c-476e-83b9-aff451f68c81
 TQID: https://experienceleague.adobe.com/qkMV-OW4cYN-u6R3PYn9kdMt7DgIgxA8WTsDhvLIzJw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 2fe8bfb2bc8d0266bea52504feffb7b11f481b91
 workflow-type: tm+mt
-source-wordcount: 357
-ht-degree: 35%
+source-wordcount: 346
+ht-degree: 32%
 
 ---
 
@@ -67,7 +64,7 @@ Você recuperou os perfis cujo dia de criação é igual ao dia atual.
 
 Você deve acabar com:
 
-```Day(@created) = Day(GetDate())```
+`Day(@created) = Day(GetDate())`
 
 ![](assets/day_creation_query.png)
 
@@ -84,11 +81,11 @@ Clique em **[!UICONTROL Confirm]**.
 
 Você deve acabar com isso:
 
-``` Month(@created) = Month(GetDate()) ```
+`Month(@created) = Month(GetDate())`
 
 A consulta final exibe:
 
-```Day(@created) = Day(GetDate()) AND Month(@created) = Month(GetDate())```
+`Day(@created) = Day(GetDate()) AND Month(@created) = Month(GetDate())`
 
 ![](assets/expression_editor_1.png)
 
@@ -102,7 +99,7 @@ A consulta final exibe:
 1. Para criar o layout do email, clique em **[!UICONTROL Email Designer]**.
 1. Insira elementos ou selecione um modelo.
 1. Personalize o email usando campos e links.
-Para obter mais informações, consulte [Design de email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+Para obter mais informações, consulte [criando um email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Clique em **[!UICONTROL Preview]** para verificar o layout.
 1. Clique em **[!UICONTROL Save]**.
 
