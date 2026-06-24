@@ -33,9 +33,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
-source-wordcount: 4623
+source-wordcount: 4540
 ht-degree: 8%
 
 ---
@@ -442,7 +442,7 @@ _Notificações por push_
   </tr> 
   <tr> 
    <td> Fluxos de Trabalho: nova atividade de Sinal<br /> </td> 
-   <td> Acione um fluxo de trabalho a partir de outro fluxo de trabalho usando a nova atividade <span class="uicontrol">Sinal</span>.<br /> Com a capacidade de iniciar um workflow a partir de outro, agora é possível oferecer suporte a jornadas mais complexas do cliente. É melhor monitorar as jornadas do cliente e reagir em caso de problemas.<br /> Várias atividades de fluxo de trabalho foram atualizadas:<br /> 
+   <td> Acione um fluxo de trabalho a partir de outro fluxo de trabalho usando a nova atividade <span class="uicontrol">Signal</span>.<br /> Com a capacidade de iniciar um fluxo de trabalho a partir de outro, agora você pode oferecer suporte a jornadas de clientes mais complexas. É possível monitorar melhor as jornadas do cliente e reagir caso haja problemas.<br /> Várias atividades de fluxo de trabalho foram atualizadas:<br /> 
     <ul> 
      <li> Atividade <span class="uicontrol">End</span>: uma nova guia permite que um fluxo de trabalho seja acionado após a execução dessa atividade. </li> 
      <li> Atividade <span class="uicontrol">Update data</span>: use a nova transição de saída vazia para adicionar uma atividade <strong>End</strong> que aciona outro fluxo de trabalho. Transições de saída vazias não transferem dados e não consomem espaço desnecessário no sistema </li> 
@@ -498,7 +498,7 @@ _Fluxos de trabalho_
  <tbody> 
   <tr> 
    <td> Exportação de logs para relatórios externos<br /> </td> 
-   <td> Exportar logs, como logs de delivery e rastreamento, para processá-los em seus relatórios preferidos ou nas ferramentas de BI. Você pode usar fluxos de trabalho simples com consultas incrementais para automatizar exportações regulares de novos logs.<br /> Além da disponibilidade dos recursos de log do seletor de recursos, foram feitos aprimoramentos nas atividades de <a href="../../automating/using/incremental-query.md">Consulta incremental</a> e <a href="../../automating/using/extract-file.md">Extrair arquivo</a>:<br /> 
+   <td> Exportar logs, como logs de delivery e rastreamento, para processá-los em seus relatórios preferidos ou nas ferramentas de BI. Você pode usar fluxos de trabalho simples com consultas incrementais para automatizar exportações regulares de novos logs.<br /> Além da disponibilidade de recursos de log do seletor de recursos, foram feitos aprimoramentos nas atividades de <a href="../../automating/using/incremental-query.md">Consulta incremental</a> e <a href="../../automating/using/extract-file.md">Extrair arquivo</a>:<br /> 
     <ul> 
      <li> <span class="uicontrol">Consulta incremental</span> agora permite usar um campo de data para recuperar dados novos ou atualizados. Anteriormente, todos os resultados de execuções anteriores eram excluídos automaticamente, mesmo que fossem atualizados desde a última execução. </li> 
      <li> <span class="uicontrol">Extrair arquivo</span> agora pode exportar rótulos para valores de enumeração em vez de IDs. </li> 
@@ -559,3 +559,4 @@ _Integrações_
 * Correção de um problema que pode ter causado um erro ao implantar um acionador de evento no Adobe Campaign. Esse erro ocorria quando os metadados &quot;Probabilidade de retorno em 30 dias&quot; tinham sido adicionados ao acionador de Abandono no Adobe Marketing Cloud.
 * Correção de um problema que fazia com que o fluxo de trabalho técnico limpasse o campo Dimension do Target ao importar públicos do serviço principal Pessoas. Consultas subsequentes não puderam recuperar os públicos importados.
 * Correção de um problema que pode ter causado a falha da atividade **[!UICONTROL Save audience]** de um fluxo de trabalho quando a opção **[!UICONTROL Share in Adobe Marketing Cloud]** foi marcada.
+

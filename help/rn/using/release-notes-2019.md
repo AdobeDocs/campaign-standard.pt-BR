@@ -25,7 +25,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
 source-wordcount: 7892
 ht-degree: 10%
@@ -174,7 +174,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td> Atividade de API Externa (Beta Público)<br /> </td> 
-   <td> <p>Para maior personalização, a Atividade da API externa permite trazer dados de sistemas externos para um fluxo de trabalho por meio de uma chamada de API REST. Os endpoints REST podem ser um sistema de gerenciamento de clientes, Adobe I/O Runtime ou endpoint REST do Adobe Experience Cloud (por exemplo, Plataforma de dados, Target, Analytics, Campaign).</p><p>No momento, esse recurso está em beta público.</p><p>Para saber mais, consulte a <a href="../../automating/using/external-api.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=pt-BR">vídeo de instruções</a>.</p></td> 
+   <td> <p>Para maior personalização, a Atividade da API externa permite trazer dados de sistemas externos para um fluxo de trabalho por meio de uma chamada de API REST. Os endpoints REST podem ser um sistema de gerenciamento de clientes, Adobe I/O Runtime ou endpoint REST da Adobe Experience Cloud (por exemplo, Plataforma de dados, Target, Analytics, Campaign).</p><p>No momento, esse recurso está em beta público.</p><p>Para saber mais, consulte a <a href="../../automating/using/external-api.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=pt-BR">vídeo de instruções</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Relatório no segmento do fluxo de trabalho<br /> </td> 
@@ -503,7 +503,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 
 **Outras alterações**
 
-* A Adobe Campaign e a Adobe Experience Cloud terminarão o suporte ao Microsoft Internet Explorer 11 a partir do segundo trimestre de 2019, e à versão 19.2 do Campaign Standard. Use o Microsoft Edge ou outro navegador compatível. Consulte a página [Recursos obsoletos e removidos](../../rn/using/deprecated-features.md).
+* A Adobe Campaign e a Adobe Experience Cloud encerram o suporte para o Microsoft Internet Explorer 11 a partir do segundo trimestre de 2019, e para a versão Campaign Standard 19.2. Use o Microsoft Edge ou outro navegador compatível. Consulte a página [Recursos obsoletos e removidos](../../rn/using/deprecated-features.md).
 * O campo **Código do país** do recurso de Perfil foi renomeado para **Código do país/região**.
 
 **Correções**
@@ -633,3 +633,4 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * A taxa de transferência de envio foi aprimorada e estabilizada para mensagens SMS.
 * Correção de um problema que impedia que o caractere &quot;~&quot; fosse usado em uma mensagem SMS. (CAMP-29172)
 * Correção de um problema nos deliveries com a opção Send time otimization. (CAMP-29231)
+
