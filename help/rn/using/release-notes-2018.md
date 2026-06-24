@@ -6,36 +6,15 @@ role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 TQID: https://experienceleague.adobe.com/BtRFMP6fh8X5Z6R1wGzc0Q07HCQlx-2-3evgAOnU3eA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-  - id: e739ee2b-6228-412e-878f-45de0791417d
-  - id: eff19c99-440a-4318-b319-444edc4d8d8f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: b1fd1501-3105-4d6b-b4d4-9af53126df75id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: e739ee2b-6228-412e-878f-45de0791417did: eff19c99-440a-4318-b319-444edc4d8d8f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
-source-wordcount: 5477
+source-wordcount: 5217
 ht-degree: 8%
 
 ---
@@ -159,7 +138,7 @@ ht-degree: 8%
 * Correção de um problema com o filtro de consulta byEmail que não retornava resultados. (CAMP-23420)
 * Correção de um problema que permitia que um usuário padrão acessasse determinados recursos ou telas restritos a administradores (/rest/head/&#42; pontos de extremidade, telas de mensagens transacionais, perfis e telas de importação de públicos).
 * Correção de um problema que impedia que solicitações de exclusão de Privacidade do GDPR processassem recursos personalizados se o nome começasse por um número.
-* Correção de um erro que impedia a atividade Salvar público-alvo de compartilhar assinantes de aplicativos no Adobe Experience Cloud.
+* Correção de um erro que impedia a atividade Salvar público-alvo de compartilhar assinantes de aplicativos na Adobe Experience Cloud.
 * Correção de um problema com a atividade Transferência de arquivo que poderia ocorrer quando o nome do arquivo continha espaços em branco. (CAMP-25936)
 * Correção de um problema que poderia ocorrer ao usar o botão de reconexão após uma sessão expirar. (CAMP-25560)
 * Correção de um problema que resultava em exclusões ao enviar entregas com otimização de fuso horário associada a regras de fadiga. (CAMP-25425)
@@ -222,7 +201,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td> GDPR: Integração de Serviço Principal<br /> </td> 
-   <td> A Integração do Privacy Core Service permite automatizar suas solicitações de GDPR em um contexto com várias soluções por meio de uma única chamada de API JSON. <br /> As solicitações de GDPR transmitidas a partir do Serviço principal de privacidade para todas as soluções da Experience Cloud agora são tratadas automaticamente pelo Campaign. <br /> Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=pt-BR">documentação detalhada</a>.<br /> </td> 
+   <td> A Integração do Privacy Core Service permite automatizar suas solicitações de GDPR em um contexto com várias soluções por meio de uma única chamada de API JSON. <br /> As solicitações de GDPR enviadas pelo Privacy Core Service para todas as soluções da Experience Cloud agora são tratadas automaticamente pelo Campaign. <br /> Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Melhorias nas notificações por push - feedback detalhado da entrega<br /> </td> 
@@ -230,7 +209,7 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td> Extensão de logs de entrega<br /> </td> 
-   <td> A extensão de logs do delivery permite estender logs de envio com dados de perfil e código de segmento provenientes de workflows. Essas informações podem ser usadas em Relatórios Dinâmicos e permitem que você mantenha um instantâneo de algumas informações no momento de envio de uma entrega.<br /> Há mais 2 casos de uso: <br /> 
+   <td> A extensão de logs do delivery permite estender logs de envio com dados de perfil e código de segmento provenientes de workflows. Essas informações podem ser usadas em Relatórios Dinâmicos e permitem que você mantenha um instantâneo de algumas informações no momento de envio de uma entrega.<br /> Há mais dois casos de uso:<br /> 
     <ul> 
      <li> Exportar broadlogs estendidos com dados "congelados": como profissional de marketing, gostaria de exportar todos os perfis com código de segmento igual a "A" (proveniente do mecanismo de fluxo de trabalho). </li> 
      <li> Segmentação em dados "congelados": como profissional de marketing, gostaria de <strong>redirecionar</strong> todos os perfis que ganharam 1000 pontos de fidelidade desde o último envio ou onde o código de segmento era igual a "A". </li> 
@@ -249,7 +228,7 @@ ht-degree: 8%
 
 **Outras alterações**
 
-* A atividade de fluxo de trabalho Ler público-alvo agora pode ler públicos-alvo da Experience Cloud. Anteriormente, essa atividade só podia ler públicos-alvo de Consulta e Lista. Consulte a [documentação detalhada](../../automating/using/read-audience.md). (CAMP-23623)
+* A atividade de fluxo de trabalho Ler público agora pode ler públicos da Experience Cloud. Anteriormente, essa atividade só podia ler públicos-alvo de Consulta e Lista. Consulte a [documentação detalhada](../../automating/using/read-audience.md). (CAMP-23623)
 * O identificador da fonte de dados compartilhada padrão agora está no modo somente leitura e não pode mais ser alterado. A alteração desse identificador pode causar alguns problemas ao compartilhar públicos-alvo com a Experience Cloud.
 * Agora a importação de audiências do Audience Manager funciona com arquivos divididos. Anteriormente, somente o último arquivo do segmento era importado pelo workflow técnico importSharedAudience.
 * As contas externas do AWS S3 agora oferecem suporte a regiões e ao mecanismo de autenticação da versão 4. Consulte a [documentação detalhada](../../administration/using/external-accounts.md).
@@ -320,11 +299,11 @@ _Recursos personalizados_
  <tbody> 
   <tr> 
    <td> European General Data Protection Regulation (RGPD)<br /> </td> 
-   <td> O RGPD é a nova lei de privacidade da União Europeia que concilia e moderniza os requisitos de proteção de dados, entrando em efeito em 25 de Maio de 2018. O GDPR aplica-se aos clientes do Adobe Campaign que coletam dados de residentes da UE.<br /> Além dos recursos de privacidade já disponíveis no Adobe Campaign (incluindo gerenciamento de consentimento, configurações de retenção de dados e funções de usuário), aproveitamos a oportunidade, em função do nosso papel como Processador de Dados, para incluir recursos adicionais que ajudam o Controlador de Dados a estar de acordo com determinadas solicitações do GDPR:<br /> 
+   <td> O GDPR é a nova lei de privacidade da União Europeia que adequa e moderniza os requisitos de proteção de dados, entrando em vigor em 25 de maio de 2018. O GDPR aplica-se aos clientes do Adobe Campaign que detêm dados de Titulares de dados residentes na UE.<br /> Além dos recursos de privacidade já disponíveis no Adobe Campaign (incluindo gerenciamento de consentimento, configurações de retenção de dados e funções de usuário), estamos aproveitando esta oportunidade, em nossa função de Processador de Dados, para incluir recursos adicionais, de forma a ajudar você, Controlador de Dados, em determinadas solicitações do GDPR:<br /> 
     <ul> 
      <li> Direito de acesso: permite que o Titular de dados receba uma cópia de seus dados pessoais capturados pelos Controladores de dados, possivelmente incluindo dados armazenados no Adobe Campaign. </li> 
      <li> Direito de exclusão: permite que o Titular de dados apague seus dados pessoais capturados pelos Controladores de dados, possivelmente incluindo os dados armazenados no Adobe Campaign. </li> 
-    </ul> Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=pt-BR">documentação detalhada</a>.<br /> </td> 
+    </ul> Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer for Email (Beta)<br /> </td> 
@@ -334,7 +313,7 @@ _Recursos personalizados_
      <li> Crie e salve um modelo de conteúdo de email e utilize os modelos salvos para ajudar a dimensionar a criação de emails </li> 
      <li> Criar e salvar fragmentos de conteúdo (como um cabeçalho, rodapé, artigo, etc.) para simplificar a criação de conteúdo e garantir a consistência da marca </li> 
      <li> Alterne facilmente entre criar na interface de arrastar e soltar e editar diretamente o HTML de um email com apenas um clique </li> 
-    </ul> O Creative Designer for Email está disponível apenas em inglês.<br /> Para obter mais informações, consulte a <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentação detalhada</a> e assista a este <a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">vídeo</a>.<br /> </td> 
+    </ul> O Creative Designer for Email está disponível apenas em inglês.<br /> Para obter mais informações, consulte a <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentação detalhada</a> e assista a este <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">vídeo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Entregas por push multilíngues<br /> </td> 
@@ -423,7 +402,7 @@ _Mensagens transacionais_
 
 _Plataforma_
 
-* A barra superior da interface do Adobe Campaign foi atualizada com o novo menu Experience Cloud.
+* A barra superior da interface do Adobe Campaign foi atualizada com o novo menu da Experience Cloud.
 * Correção de um problema que impedia a exibição do link para **[!UICONTROL Offers]** na lista suspensa de soluções.
 
 _Emails, mensagens SMS e correspondência direta_
@@ -482,13 +461,13 @@ Alguns problemas podem ocorrer ao usar links de ajuda contextual da interface do
   </tr> 
   <tr> 
    <td> Enviar novos recursos<br /> </td> 
-   <td> Visualização das mensagens de push: visualize as notificações das mensagens de push em dispositivos iOS e Android de dentro do editor de conteúdo de notificações de mensagens de push para ver exatamente o que os destinatários verão antes de testar ou executar a entrega.<br /> Para obter mais informações, consulte a <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentação detalhada</a>.<br /> Conteúdo disponível: quando aplicativos não são abertos por longos períodos de tempo, seus dados podem se tornar obsoletos. Isso resulta na atualização ou substituição dos dados no momento em que um usuário finalmente abre o aplicativo, o que pode causar atrasos no uso do aplicativo. Com a ajuda adicional do Conteúdo disponível, os usuários do Adobe Campaign podem ativar o aplicativo para atualizar os dados em segundo plano ao enviar uma notificação por push, permitindo maior consistência e controle sobre a experiência no aplicativo de um usuário.<br /> Conteúdo variável: com a ajuda adicional do conteúdo variável, os usuários do Adobe Campaign agora podem aproveitar as extensões de aplicativos para dispositivos móveis para modificar ainda mais o conteúdo ou a apresentação de notificações de mensagens de push enviadas pelo Adobe Campaign. Por exemplo, os usuários podem aproveitar o Conteúdo Mutável para: <br /> 
+   <td> Visualização das mensagens de push: visualize as notificações das mensagens de push em dispositivos iOS e Android de dentro do editor de conteúdo de notificações de mensagens de push para ver exatamente o que os destinatários verão antes de testar ou executar a entrega.<br /> Para obter mais informações, consulte a <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentação detalhada</a>.<br /> Conteúdo disponível: quando aplicativos não são abertos por longos períodos, seus dados podem se tornar obsoletos. Isso resulta na atualização ou substituição dos dados no momento em que um usuário finalmente abre o aplicativo, o que pode causar atrasos no uso do aplicativo. Com o suporte adicional de Conteúdo disponível, os usuários do Adobe Campaign podem ativar o aplicativo para atualizar os dados em segundo plano ao enviar uma notificação por push, permitindo maior consistência e controle sobre a experiência de um usuário no aplicativo.<br /> Conteúdo variável: com o suporte adicional de Conteúdo variável, os usuários do Adobe Campaign agora podem aproveitar as extensões de aplicativos móveis para modificar ainda mais o conteúdo ou a apresentação de notificações de mensagens de push enviadas pelo Adobe Campaign. Por exemplo, os usuários podem aproveitar o Conteúdo Mutável para: <br /> 
     <ul> 
      <li> descriptografar dados que foram entregues em formato criptografado </li> 
      <li> baixar imagens ou outros arquivos de mídia e adicioná-los como anexos a uma notificação </li> 
      <li> alterar o texto do corpo ou do título de uma notificação </li> 
      <li> adicionar um identificador de thread a uma notificação </li> 
-    </ul> Para obter mais informações sobre Conteúdo Disponível e Conteúdo Mutável, consulte a <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentação detalhada</a>.<br /> <strong>Aviso:</strong> essas atualizações nas notificações por push exigem que os clientes atualizem seus aplicativos móveis. Consulte <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html?lang=pt-BR">esta nota técnica</a> para obter mais informações.<br /> </td> 
+    </ul> Para obter mais informações sobre Conteúdo Disponível e Conteúdo Mutável, consulte a <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentação detalhada</a>.<br /> <strong>Aviso:</strong> essas atualizações nas notificações por push exigem que os clientes atualizem seus aplicativos móveis. Consulte <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">esta nota técnica</a> para obter mais informações.<br /> </td> 
   </tr> 
   <tr> 
    <td> Entregas otimizadas por fuso horário<br /> </td> 
@@ -542,3 +521,4 @@ _Perfis e públicos-alvo_
 * Adição de uma dica de ferramenta exibindo o número exato do resultado após a contagem da população de um query.
 * Correção de um problema que impedia um usuário de selecionar um público ou fechar a janela do seletor de público.
 * A lista de funções disponíveis no editor de expressão foi atualizada. As funções **FormatCurrency** e **ConvertCurrency** foram removidas.
+

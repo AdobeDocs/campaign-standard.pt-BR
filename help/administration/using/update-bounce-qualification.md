@@ -4,11 +4,9 @@ description: Saiba como atualizar a qualificação de rejeição após uma inter
 audience: delivery
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
 TQID: https://experienceleague.adobe.com/PcNbVFzTVJhadANGQ5uogj16VHiaNIf7HVn-7X-EbJA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
 source-wordcount: 441
 ht-degree: 83%
@@ -55,3 +53,4 @@ Depois de ter a lista de destinatários afetados, você pode defini-los como um 
 **Tópicos relacionados:**
 * [Entender as falhas de entrega](../../sending/using/understanding-delivery-failures.md)
 * [Qualificação de email de rejeição](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)
+
