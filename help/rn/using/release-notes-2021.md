@@ -28,7 +28,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 4728
 ht-degree: 100%
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 # Notas de versão de 2021{#release-notes-2021}
 
-## Versão 21.3 - Setembro de 2021 {#release-21-3---sept-2021}
+## Versão 21.3 - Setembro de 2021 {#release-21-3-sept-2021}
 
 Os novos recursos, melhorias e correções incluídos na versão mais recente do Campaign Standard estão listados abaixo.
 
@@ -158,7 +158,7 @@ Os novos recursos, melhorias e correções incluídos na versão mais recente do
 * Correção de um problema em que o fluxo de trabalho de limpeza do banco de dados falhava com um erro. (CAMP-49097)
 
 
-## Versão 21.2 - Junho de 2021 {#release-21-2---june-2021}
+## Versão 21.2 - Junho de 2021 {#release-21-2-june-2021}
 
 Os novos recursos, melhorias e correções incluídos na próxima versão do Campaign Standard estão listados abaixo. Os novos recursos, as melhorias e as correções incluídos nesta versão do Campaign Standard estão listados abaixo.
 
@@ -246,7 +246,7 @@ Os novos recursos, melhorias e correções incluídos na próxima versão do Cam
 
 * Correção de um problema que bloqueava algumas entregas do Journey Orchestration porque o Campaign não aceitava carimbos de data e hora com um valor exato (ou seja, terminando em 00) enviados por eventos do Journey Orchestration.
 
-## Versão 21.1 - Fevereiro de 2021 {#release-21-1---february-2021}
+## Versão 21.1 - Fevereiro de 2021 {#release-21-1-february-2021}
 
 **Novidades**
 

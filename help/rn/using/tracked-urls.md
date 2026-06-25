@@ -8,7 +8,7 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 207
 ht-degree: 100%
@@ -25,7 +25,7 @@ Observe que os links de unsubscription podem falhar como qualquer outro link, a 
 
 **Você será afetado?**
 
-Alguns usuários do Campaign Standard são afetados, pois o mecanismo de assinatura para rastrear links em emails foi introduzido no [Campaign Standard 20.4](release-notes-2020.md#release-20-4---october-2020) — outubro de 2020 — e é habilitado por padrão para todos os clientes.
+Alguns usuários do Campaign Standard são afetados, pois o mecanismo de assinatura para rastrear links em emails foi introduzido no [Campaign Standard 20.4](release-notes-2020.md#release-20-4-october-2020) — outubro de 2020 — e é habilitado por padrão para todos os clientes.
 
 **Como atualizar?**
 

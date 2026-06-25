@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: b023e07c337e3352b8d1e26254ce342e0d560a27
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1596'
 ht-degree: 89%
 
 ---
@@ -42,12 +42,12 @@ Se quiser usar o protocolo SMPP, você também poderá criar uma nova conta exte
 
    A opção **[!UICONTROL Enable TLS over SMPP]** permite criptografar o tráfego SMPP.
 
-   **[!UICONTROL Enable verbose SMPP traces in the log file]** permite despejar todo o tráfego SMPP em arquivos de log. Essa opção deve estar ativada para solucionar problemas no conector e fazer uma comparação com o tráfego visto pelo provedor.
+   **[!UICONTROL Enable verbose SMPP traces in the log file]** permite despejar todo o tráfego SMPP em arquivos de log. Essa opção deve estar habilitada para solucionar problemas no conector e fazer uma comparação com o tráfego visto pelo provedor.
 
 1. Entre em contato com a Adobe, que fornecerá o valor a ser inserido no campo **[!UICONTROL SMS-C implementation name]**, dependendo do provedor escolhido.
 1. Defina as configurações do canal SMPP. Você pode saber mais na seção [Codificação e formatos de SMS](#sms-encoding-and-formats).
 
-   Ative a opção **[!UICONTROL Store incoming MO in the database]** se quiser que todo o SMS recebido seja armazenado na tabela inSMS. Para saber mais sobre como recuperar o SMS recebido, consulte esta [seção](../../channels/using/managing-incoming-sms.md#storing-incoming-sms).
+   Habilite a opção **[!UICONTROL Store incoming MO in the database]** se quiser que todo o SMS recebido seja armazenado na tabela inSMS. Para saber mais sobre como recuperar o SMS recebido, consulte esta [seção](../../channels/using/managing-incoming-sms.md#storing-incoming-sms).
 
    A opção **[!UICONTROL Enable Real-time KPI updates during SR processing]** permite que o KPI **[!UICONTROL Delivered]** ou **[!UICONTROL Bounces + Errors]** seja atualizado em tempo real após o envio da entrega. Esses KPIs podem ser encontrados na janela **[!UICONTROL Deployment]** e são recalculados diretamente do SR (relatório de status) recebido do provedor.
 
@@ -61,9 +61,9 @@ Se quiser usar o protocolo SMPP, você também poderá criar uma nova conta exte
 
 1. Defina os parâmetros específicos do SMS-C caso precise definir um mapeamento de codificação específico. Para saber mais, consulte a seção [Especificações do SMSC](#smsc-specifics).
 
-   Ative a opção **[!UICONTROL Send full phone number (send characters other than digits)]** se não quiser respeitar o protocolo SMPP e transfira o prefixo **[!UICONTROL +]** para o servidor do provedor de SMS (SMS-C).
+   Habilite a opção **[!UICONTROL Send full phone number (send characters other than digits)]** se não quiser respeitar o protocolo SMPP e transfira o prefixo **[!UICONTROL +]** para o servidor do provedor de SMS (SMS-C).
 
-   Contudo, considerando que alguns provedores exigem o uso do prefixo **[!UICONTROL +]**, recomenda-se consultar seu provedor para saber se essa opção deve ser ativada.
+   Contudo, considerando que alguns provedores exigem o uso do prefixo **[!UICONTROL +]**, recomenda-se consultar seu provedor para saber se essa opção deve ser habilitada.
 
 1. Se necessário, defina respostas automáticas para acionar ações com base no conteúdo de uma resposta. Para obter mais informações, consulte [esta seção](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 1. Salve a configuração da conta externa do roteamento de SMS.
@@ -80,7 +80,7 @@ As mensagens SMS que usam a codificação GSM são limitadas a 160 caracteres ou
 
 >[!NOTE]
 >
->Alguns caracteres contam como dois (chaves, colchetes, o símbolo do euro etc.). A lista de caracteres GSM disponíveis é apresentada na seção [Tabela de caracteres - padrão GSM](#table-of-characters---gsm-standard).
+>Alguns caracteres contam como dois (chaves, colchetes, o símbolo do euro etc.). A lista de caracteres GSM disponíveis é apresentada na seção [Tabela de caracteres - padrão GSM](#table-of-characters-gsm-standard).
 
 Você pode autorizar a transliteração de caracteres marcando a caixa correspondente.
 
@@ -99,7 +99,7 @@ Por padrão, a transliteração de caractere é desabilitada. Se você quiser qu
 
 No entanto, se as mensagens SMS contiverem muitos caracteres que geram mensagens Unicode, você poderá optar por habilitar essa opção para limitar os custos de envio de mensagens.
 
-### Tabela de caracteres - padrão GSM {#table-of-characters---gsm-standard}
+### Tabela de caracteres - padrão GSM {#table-of-characters-gsm-standard}
 
 A tabela a seguir apresenta os caracteres considerados pelo padrão GSM. Todos os caracteres inseridos no corpo da mensagem, além dos mencionados abaixo, convertem toda a mensagem em formato binário (Unicode) e, portanto, a limita a 70 caracteres. Para saber mais, consulte a seção [Codificação, comprimento e transliteração do SMS](#sms-encoding--length-and-transliteration).
 
@@ -323,7 +323,7 @@ Para obter mais informações, consulte [esta seção](../../channels/using/mana
 
 ## Configuração das propriedades de SMS {#configuring-sms-properties}
 
-Esta seção detalha a lista de parâmetros exclusivos ao SMS na tela de propriedades de uma entrega ou de um template de SMS.
+Esta seção detalha a lista de parâmetros exclusivos ao SMS na tela de propriedades de uma entrega ou de um modelo de SMS.
 
 Os parâmetros específicos para envio de mensagens SMS são reagrupados nas seções **[!UICONTROL Send]** e **[!UICONTROL Advanced parameters]**.
 

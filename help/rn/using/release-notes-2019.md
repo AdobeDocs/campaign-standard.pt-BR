@@ -25,7 +25,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 7892
 ht-degree: 10%
@@ -34,7 +34,7 @@ ht-degree: 10%
 
 # Notas de versão de 2019{#release-notes-2019}
 
-## Versão 19.4 - dezembro de 2019 {#release-19-4---october-2019}
+## Versão 19.4 - dezembro de 2019 {#release-19-4-october-2019}
 
 **Novidades**
 
@@ -160,7 +160,7 @@ ht-degree: 10%
 * Correção de um problema que poderia deixar o estado de uma entrega como &quot;Início pendente&quot;, embora a entrega tivesse sido concluída. (CAMP-35355)
 * Correção de um problema que impedia a exibição de logs de workflow após a ativação e, em seguida, a desativação de logs SQL.
 
-## Versão 19.3 - Julho de 2019 {#release-19-3---july-2019}
+## Versão 19.3 - Julho de 2019 {#release-19-3-july-2019}
 
 **Novidades**
 
@@ -271,7 +271,7 @@ ht-degree: 10%
 * Correção de um problema de segurança que resultava em falha do conteúdo do email quando o assunto continha várias linhas.
 
 
-## Versão 19.2.7 - julho de 2019 {#release-19-2-7---july-2019}
+## Versão 19.2.7 - julho de 2019 {#release-19-2-7-july-2019}
 
 **Aprimoramentos**
 
@@ -280,13 +280,13 @@ ht-degree: 10%
 * Correção de um problema que impedia usuários não administradores de salvar ou agendar relatórios. (CAMP-31133)
 * Correção de um problema ao usar &quot;|&quot; como separador de data na atividade de workflow Carregar arquivo. (CAMP-34706)
 
-## Versão 19.2.4 - junho de 2019 {#release-19-2-4---june-2019}
+## Versão 19.2.4 - junho de 2019 {#release-19-2-4-june-2019}
 
 **Designer de email**
 
 * Correção de um problema que impedia os usuários de editar fragmentos quando tags de estilo vazias eram usadas na HTML. Esta é uma correção de acompanhamento para CAMP-33778 na versão 19.2.3.
 
-## Versão 19.2.3 - junho de 2019 {#release-19-2-3---june-2019}
+## Versão 19.2.3 - junho de 2019 {#release-19-2-3-june-2019}
 
 **Designer de email**
 
@@ -305,7 +305,7 @@ Uma série de melhorias e correções foram introduzidas para otimizar fragmento
 * Correção de um problema que impedia o enriquecimento de um conteúdo de mensagem transacional com informações do recurso Serviço. (CAMP-33707)
 * Correção de um problema nas páginas de aterrissagem de inclui na lista de bloqueios que ocorria ao tentar cancelar a assinatura de perfis de um serviço.
 
-## Versão 19.2 - Maio de 2019 {#release-19-2---may-2019}
+## Versão 19.2 - Maio de 2019 {#release-19-2-may-2019}
 
 **Novidades**
 
@@ -409,7 +409,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * Correção de um problema que resultava na desativação do fluxo de trabalho Capacidade de delivery se ele não fosse concluído com êxito.
 * Correção de um problema que impedia os usuários de salvar ou agendar relatórios. (CAMP-31133)
 
-## Versão 19.1.3 - março de 2019 {#release-19-1-3---march-2019}
+## Versão 19.1.3 - março de 2019 {#release-19-1-3-march-2019}
 
 **Aprimoramentos do Email Designer**
 
@@ -423,7 +423,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * Correção de um problema que impedia a edição das regras de tipologia. (CAMP-31750)
 * Correção de um problema com o processo inMail que poderia parar inesperadamente. (CAMP-31238)
 
-## Versão 19.1 - Fevereiro de 2019 {#release-19-1---february-2019}
+## Versão 19.1 - Fevereiro de 2019 {#release-19-1-february-2019}
 
 **Novidades**
 
@@ -529,7 +529,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * Correção de um problema que causava discrepância entre os perfis direcionados ao criar um delivery no aplicativo e os exibidos no painel do delivery. (CAMP-28722)
 * Correção de um problema com a integração do Campaign e do Assets Core Service que podia impedir a seleção de um ativo compartilhado em um email.
 
-## Versão 19.0 – Janeiro de 2019 {#release-19-0---january-2019}
+## Versão 19.0 – Janeiro de 2019 {#release-19-0-january-2019}
 
 **Novidades**
 

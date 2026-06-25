@@ -21,7 +21,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 1347
 ht-degree: 64%
@@ -84,7 +84,7 @@ Os possíveis motivos para uma falha de entrega são:
 | **[!UICONTROL Not connected]** | Ignorado | O telefone celular do perfil está desligado ou não está conectado à rede quando a mensagem é enviada. |
 | **[!UICONTROL Invalid domain]** | Suave | O domínio do endereço de email está incorreto ou não existe mais. Este perfil será alvo novamente até que a contagem de erros chegue a 5. Após isso, o registro será definido como Status de Quarentena e não haverá nenhuma tentativa nova. |
 | **[!UICONTROL Text too long]** | Ignorado | O número de caracteres na mensagem SMS excede o limite. Para obter mais informações, consulte [Codificação, comprimento e transliteração de SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration). |
-| **[!UICONTROL Character not supported by encoding]** | Ignorado | A mensagem SMS contém um ou mais caracteres que não são compatíveis pela codificação. Para obter mais informações, consulte [Tabela de caracteres - GSM padrão](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard). |
+| **[!UICONTROL Character not supported by encoding]** | Ignorado | A mensagem SMS contém um ou mais caracteres que não são compatíveis pela codificação. Para obter mais informações, consulte [Tabela de caracteres - GSM padrão](../../administration/using/configuring-sms-channel.md#table-of-characters-gsm-standard). |
 
 
 **Tópicos relacionados:**

@@ -8,10 +8,10 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 441
-ht-degree: 83%
+ht-degree: 67%
 
 ---
 
@@ -46,13 +46,14 @@ Com base no período do incidente, abaixo estão as diretrizes recomendadas para
 
 Para instâncias do Campaign com informações de resposta de rejeição SMTP no campo **[!UICONTROL Error text]** da lista de quarentena:
 
-* **O texto de erro (texto de quarentena)** contém &quot;550-5.1.1 A conta de email que você tentou acessar não existe&quot; E o texto de **Erro (texto de quarentena)** contém &quot;support.google.com&quot; **
+* **O texto de erro (texto de quarentena)** contém &quot;550-5.1.1 A conta de email que você tentou acessar não existe&quot; E **O texto de erro (texto de quarentena)** contém &quot;support.google.com&quot; **
 * **Atualizar status (@lastModified)** em ou após 14/12/2020 6:55:00 AM
 * **Atualizar status (@lastModified)** em ou antes de 16/12/2020 6:00:00 AM
 
 Depois de ter a lista de destinatários afetados, você pode defini-los como um status **[!UICONTROL Valid]** para que sejam removidos da lista de quarentena pelo fluxo de trabalho **[!UICONTROL Database cleanup]** ou simplesmente excluí-los da tabela.
 
 **Tópicos relacionados:**
+
 * [Entender as falhas de entrega](../../sending/using/understanding-delivery-failures.md)
 * [Qualificação de email de rejeição](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)
 
