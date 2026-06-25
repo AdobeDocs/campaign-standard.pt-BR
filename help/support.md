@@ -8,21 +8,15 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 TQID: https://experienceleague.adobe.com/apHTVXi6iRZ0s-yydKzBcOxJTNWo1oYZmGkHKqyCMhw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
-source-wordcount: 624
-ht-degree: 95%
+source-wordcount: 636
+ht-degree: 98%
 
 ---
 
@@ -42,7 +36,7 @@ Obtenha suporte usando as perguntas frequentes, as práticas recomendadas, os re
 
 ## Problemas comuns e práticas recomendadas
 
-<img src="start/using/assets/do-not-localize/icon-faq.svg" width="60px">
+![ícone de perguntas frequentes](start/using/assets/do-not-localize/icon-faq.svg){width="60px"}
 
 <table>
     <tr><td><strong>Perguntas e respostas sobre tópicos</strong></td><td><strong>Problemas comuns</strong></td><td><strong>Práticas recomendadas</strong></td><td><strong>Como</strong></td></tr>
@@ -91,11 +85,12 @@ Obtenha suporte usando as perguntas frequentes, as práticas recomendadas, os re
 
 ## Painel de controle do Campaign
 
-<img src="start/using/assets/do-not-localize/icon-control-panel.svg" width="60px">
+![ícone do painel de controle](start/using/assets/do-not-localize/icon-control-panel.svg){width="60px"}
 
 ### O que é o Painel de controle?
 
 O Painel de controle ajuda a aumentar a eficiência do seu trabalho como administrador de produtos do Campaign Standard, permitindo que você gerencie configurações e rastreie os usos de cada uma de suas instâncias.
+
 [Clique aqui](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=pt-BR#discover-control-panel) para obter mais informações.
 
 >[!NOTE]
@@ -124,13 +119,13 @@ Você pode monitorar os subdomínios e seus certificados. Saiba mais:
 
 ## Solicitação de ajuda
 
-<img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
+![ícone de suporte](start/using/assets/do-not-localize/icon-support.svg){width="60px"}
 
 O novo sistema de emissão de tíquetes passou pelo [Adobe Admin Console](https://adminconsole.adobe.com/overview). O novo sistema exige novas contas individuais para cada usuário, com as permissões corretas. Se você não conseguir fazer logon com sua Adobe ID, solicite acesso por meio da Experience League, e a equipe de Atendimento ao cliente resolverá seu problema o mais rápido possível. [Saiba mais](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### Pergunte aos especialistas.
 
-Associe-se à Comunidade do Campaign: procure por respostas nas perguntas já existentes ou faça uma nova pergunta à comunidade. [Participe da conversa](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=pt)
+Associe-se à Comunidade do Campaign: procure por respostas nas perguntas já existentes ou faça uma nova pergunta à comunidade. [Participe da conversa](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Criar um tíquete ou iniciar um chat
 
@@ -139,4 +134,3 @@ A criação de um caso permite que você entre em contato com a Equipe de suport
 Para registrar um problema ou iniciar uma sessão de chat nesse novo sistema, conecte-se ao [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
 Siga o procedimento detalhado descrito [nesta página](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
-

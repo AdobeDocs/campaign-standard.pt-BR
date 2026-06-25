@@ -9,19 +9,12 @@ role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
 TQID: https://experienceleague.adobe.com/6ZIy8zcUJpMGPTBoq3y3in1EOjJko8btTdmUX-nh1WM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 1347
 ht-degree: 64%
@@ -48,7 +41,7 @@ As mensagens também podem ser excluídas durante a preparação do delivery se 
 
 * [Compreensão do gerenciamento de quarentena](../../sending/using/understanding-quarantine-management.md)
 * [Sobre aceitação e recusa no Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [Rejeições](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=pt-BR#metrics-for-deliverability)
+* [Rejeições](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## Identificação de falhas de delivery para uma mensagem {#identifying-delivery-failures-for-a-message}
 
@@ -84,12 +77,12 @@ Os possíveis motivos para uma falha de entrega são:
 | **[!UICONTROL Not connected]** | Ignorado | O telefone celular do perfil está desligado ou não está conectado à rede quando a mensagem é enviada. |
 | **[!UICONTROL Invalid domain]** | Suave | O domínio do endereço de email está incorreto ou não existe mais. Este perfil será alvo novamente até que a contagem de erros chegue a 5. Após isso, o registro será definido como Status de Quarentena e não haverá nenhuma tentativa nova. |
 | **[!UICONTROL Text too long]** | Ignorado | O número de caracteres na mensagem SMS excede o limite. Para obter mais informações, consulte [Codificação, comprimento e transliteração de SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration). |
-| **[!UICONTROL Character not supported by encoding]** | Ignorado | A mensagem SMS contém um ou mais caracteres que não são compatíveis pela codificação. Para obter mais informações, consulte [Tabela de caracteres - GSM padrão](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard). |
+| **[!UICONTROL Character not supported by encoding]** | Ignorado | A mensagem SMS contém um ou mais caracteres que não são compatíveis pela codificação. Para obter mais informações, consulte [Tabela de caracteres - GSM padrão](../../administration/using/configuring-sms-channel.md#table-of-characters-gsm-standard). |
 
 
 **Tópicos relacionados:**
 * [Rejeições permanentes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=pt-BR#hard-bounces)
-* [Rejeições temporárias](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=pt-BR#soft-bounces)
+* [Rejeições temporárias](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## Tentativas após uma falha temporária de entrega {#retries-after-a-delivery-temporary-failure}
 
@@ -103,7 +96,7 @@ Para modificar a duração de uma entrega, vá para os parâmetros avançados da
 
 >[!IMPORTANT]
 >
->**O parâmetro &#x200B;** [!UICONTROL Delivery duration]&#x200B;**nos deliveries do Campaign agora só será usado se definido para 3,5 dias ou menos.** Se você definir um valor superior a 3,5 dias, ele não será levado em consideração.
+>**O parâmetro **[!UICONTROL Delivery duration]**nos deliveries do Campaign agora só será usado se definido para 3,5 dias ou menos.** Se você definir um valor superior a 3,5 dias, ele não será levado em consideração.
 
 Por exemplo, se você quiser que as tentativas de um delivery parem depois de um dia, poderá definir a duração do delivery como **1d**, e as mensagens na fila de tentativas serão removidas após um dia.
 
@@ -133,7 +126,7 @@ Para mensagens de erro de falha síncrona de delivery, o MTA aprimorado do Adobe
 
 As rejeições assíncronas ainda são qualificadas pelo processo do InMail por meio das regras **[!UICONTROL Inbound email]**. Para acessar essas regras, clique no logotipo **Adobe**, na parte superior esquerda, selecione **[!UICONTROL Administration > Channels > Email > Email processing rules]** e **[!UICONTROL Bounce mails]**. Para obter mais informações sobre esta regra, consulte [esta seção](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-Para obter mais informações sobre rejeições e os diferentes tipos de rejeições, consulte [esta seção](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=pt-BR#metrics-for-deliverability).
+Para obter mais informações sobre rejeições e os diferentes tipos de rejeições, consulte [esta seção](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
 
 <!--
 MOVED TO configuring-email-channel.md > LEGACY SETTINGS

@@ -6,34 +6,13 @@ role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 TQID: https://experienceleague.adobe.com/BtRFMP6fh8X5Z6R1wGzc0Q07HCQlx-2-3evgAOnU3eA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-  - id: e739ee2b-6228-412e-878f-45de0791417d
-  - id: eff19c99-440a-4318-b319-444edc4d8d8f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: b1fd1501-3105-4d6b-b4d4-9af53126df75id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: e739ee2b-6228-412e-878f-45de0791417did: eff19c99-440a-4318-b319-444edc4d8d8f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 5217
 ht-degree: 8%
@@ -42,7 +21,7 @@ ht-degree: 8%
 
 # Notas de versão de 2018{#release-notes}
 
-## Versão 18.9 - Setembro de 2018 {#release-18-9---september-2018}
+## Versão 18.9 - Setembro de 2018 {#release-18-9-september-2018}
 
 **Novidades**
 
@@ -107,7 +86,7 @@ ht-degree: 8%
 * Correção de um problema que impedia a exibição de erros que causavam a falha do fluxo de trabalho **Limpeza de Banco de Dados**. (CAMP-26876)
 * Correção de um problema que impedia a exclusão de campos personalizados em uma definição de notificação por push. (CAMP-25588)
 
-## Versão 18.7 - Julho de 2018 {#release-18-7---july-2018}
+## Versão 18.7 - Julho de 2018 {#release-18-7-july-2018}
 
 **Novidades**
 
@@ -170,7 +149,7 @@ ht-degree: 8%
 * Correção de um problema no Creative Designer que resultava em fonte de cor e formatação indesejadas ao alterar algum texto com estilo incorporado para um link ou ao editar esse link. (CAMP-26001)
 * Correção de um problema que impedia que o relatório de cliques ativos exibisse as porcentagens de cada condição nos deliveries com conteúdo dinâmico. Anteriormente, somente os cliques na variante padrão eram exibidos.
 
-## Versão 18.6 - Junho de 2018 {#release-18-6---june-2018}
+## Versão 18.6 - Junho de 2018 {#release-18-6-june-2018}
 
 **Aprimoramentos**
 
@@ -208,7 +187,7 @@ ht-degree: 8%
 * Correção de um problema com a exibição de dados internacionais para níveis de Conta em Relatórios dinâmicos.
 * Agora é possível criar um serviço sem uma mensagem de confirmação de subscrição ou unsubscription.
 
-## Versão 18.5 - Maio de 2018 {#release-18-5---may-2018}
+## Versão 18.5 - Maio de 2018 {#release-18-5-may-2018}
 
 **Novidades**
 
@@ -222,7 +201,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td> GDPR: Integração de Serviço Principal<br /> </td> 
-   <td> A Integração do Privacy Core Service permite automatizar suas solicitações de GDPR em um contexto com várias soluções por meio de uma única chamada de API JSON. <br /> As solicitações de GDPR enviadas pelo Privacy Core Service para todas as soluções da Experience Cloud agora são tratadas automaticamente pelo Campaign. <br /> Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=pt-BR">documentação detalhada</a>.<br /> </td> 
+   <td> A Integração do Privacy Core Service permite automatizar suas solicitações de GDPR em um contexto com várias soluções por meio de uma única chamada de API JSON. <br /> As solicitações de GDPR enviadas pelo Privacy Core Service para todas as soluções da Experience Cloud agora são tratadas automaticamente pelo Campaign. <br /> Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Melhorias nas notificações por push - feedback detalhado da entrega<br /> </td> 
@@ -280,7 +259,7 @@ ht-degree: 8%
 * Correção de um problema que impedia o carregamento da Designer do Creative. (CAMP-24573)
 * Correção de um problema que removia caracteres adicionados após campos de personalização no assunto do email. (CAMP-24113)
 
-## Versão 18.4 - Abril de 2018 {#release-18-4---april-2018}
+## Versão 18.4 - Abril de 2018 {#release-18-4-april-2018}
 
 **Correções**
 
@@ -306,7 +285,7 @@ _Recursos personalizados_
 
 * Correção de um erro que causava a falha da preparação de recursos personalizados.
 
-## Versão 18.3 — março de 2018 {#release-18-3---march-2018}
+## Versão 18.3 — março de 2018 {#release-18-3-march-2018}
 
 **Novos recursos**
 
@@ -324,7 +303,7 @@ _Recursos personalizados_
     <ul> 
      <li> Direito de acesso: permite que o Titular de dados receba uma cópia de seus dados pessoais capturados pelos Controladores de dados, possivelmente incluindo dados armazenados no Adobe Campaign. </li> 
      <li> Direito de exclusão: permite que o Titular de dados apague seus dados pessoais capturados pelos Controladores de dados, possivelmente incluindo os dados armazenados no Adobe Campaign. </li> 
-    </ul> Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=pt-BR">documentação detalhada</a>.<br /> </td> 
+    </ul> Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer for Email (Beta)<br /> </td> 
@@ -334,7 +313,7 @@ _Recursos personalizados_
      <li> Crie e salve um modelo de conteúdo de email e utilize os modelos salvos para ajudar a dimensionar a criação de emails </li> 
      <li> Criar e salvar fragmentos de conteúdo (como um cabeçalho, rodapé, artigo, etc.) para simplificar a criação de conteúdo e garantir a consistência da marca </li> 
      <li> Alterne facilmente entre criar na interface de arrastar e soltar e editar diretamente o HTML de um email com apenas um clique </li> 
-    </ul> O Creative Designer for Email está disponível apenas em inglês.<br /> Para obter mais informações, consulte a <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentação detalhada</a> e assista a este <a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">vídeo</a>.<br /> </td> 
+    </ul> O Creative Designer for Email está disponível apenas em inglês.<br /> Para obter mais informações, consulte a <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentação detalhada</a> e assista a este <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">vídeo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Entregas por push multilíngues<br /> </td> 
@@ -396,7 +375,7 @@ _Mensagens transacionais_
 * Correção de um erro com o template de mensagem transacional quando o recurso de delivery era estendido.
 * Agora é possível excluir mensagens transacionais.
 
-## Versão 18.2 - Fevereiro de 2018 {#release-18-2---february-2018}
+## Versão 18.2 - Fevereiro de 2018 {#release-18-2-february-2018}
 
 **Novos recursos**
 
@@ -460,7 +439,7 @@ Recomendamos que você não use o Internet Explorer versão 11 devido a possíve
 
 Alguns problemas podem ocorrer ao usar links de ajuda contextual da interface do Campaign. Eles serão corrigidos no 18.3.
 
-## Versão 18.1 – Janeiro de 2018 {#release-18-1---january-2018}
+## Versão 18.1 – Janeiro de 2018 {#release-18-1-january-2018}
 
 **Novos recursos**
 
@@ -488,7 +467,7 @@ Alguns problemas podem ocorrer ao usar links de ajuda contextual da interface do
      <li> baixar imagens ou outros arquivos de mídia e adicioná-los como anexos a uma notificação </li> 
      <li> alterar o texto do corpo ou do título de uma notificação </li> 
      <li> adicionar um identificador de thread a uma notificação </li> 
-    </ul> Para obter mais informações sobre Conteúdo Disponível e Conteúdo Mutável, consulte a <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentação detalhada</a>.<br /> <strong>Aviso:</strong> essas atualizações nas notificações por push exigem que os clientes atualizem seus aplicativos móveis. Consulte <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html?lang=pt-BR">esta nota técnica</a> para obter mais informações.<br /> </td> 
+    </ul> Para obter mais informações sobre Conteúdo Disponível e Conteúdo Mutável, consulte a <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentação detalhada</a>.<br /> <strong>Aviso:</strong> essas atualizações nas notificações por push exigem que os clientes atualizem seus aplicativos móveis. Consulte <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">esta nota técnica</a> para obter mais informações.<br /> </td> 
   </tr> 
   <tr> 
    <td> Entregas otimizadas por fuso horário<br /> </td> 

@@ -6,26 +6,13 @@ role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 TQID: https://experienceleague.adobe.com/Os1EM221DXk1yVqd-md5iTlvK623LzFiqg5Ag7N2tTw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 7892
 ht-degree: 10%
@@ -34,7 +21,7 @@ ht-degree: 10%
 
 # Notas de versão de 2019{#release-notes-2019}
 
-## Versão 19.4 - dezembro de 2019 {#release-19-4---october-2019}
+## Versão 19.4 - dezembro de 2019 {#release-19-4-october-2019}
 
 **Novidades**
 
@@ -53,7 +40,7 @@ ht-degree: 10%
     <li><p>Ao criar uma solicitação de privacidade, o tipo de regulamento (GDPR ou CCPA) foi adicionado ao Serviço principal de privacidade. Esse é método que você deve usar para todas as solicitações de acesso e exclusão. O uso da API e da interface do Campaign para solicitações de acesso e exclusão ficará obsoleto.  Consulte o <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=pt-BR#release-notes">artigo Recursos obsoletos e removidos</a>.</p></li>
     <li>Um campo <strong>Não participação na CCPA</strong> foi adicionado ao recurso Perfis para permitir que os usuários da Adobe Campaign rastreiem se um consumidor optou por não participar da venda de Informações pessoais. <a href="https://helpx.adobe.com/content/help/br/campaign/kb/acs-privacy.html#ccpa">Saiba mais</a>.</li>
   </ul>
-    <p>Consulte o <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html?lang=pt-BR">vídeo de instruções</a>.</p>
+    <p>Consulte o <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">vídeo de instruções</a>.</p>
 </td> 
   </tr> 
  </tbody> 
@@ -160,7 +147,7 @@ ht-degree: 10%
 * Correção de um problema que poderia deixar o estado de uma entrega como &quot;Início pendente&quot;, embora a entrega tivesse sido concluída. (CAMP-35355)
 * Correção de um problema que impedia a exibição de logs de workflow após a ativação e, em seguida, a desativação de logs SQL.
 
-## Versão 19.3 - Julho de 2019 {#release-19-3---july-2019}
+## Versão 19.3 - Julho de 2019 {#release-19-3-july-2019}
 
 **Novidades**
 
@@ -174,11 +161,11 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td> Atividade de API Externa (Beta Público)<br /> </td> 
-   <td> <p>Para maior personalização, a Atividade da API externa permite trazer dados de sistemas externos para um fluxo de trabalho por meio de uma chamada de API REST. Os endpoints REST podem ser um sistema de gerenciamento de clientes, Adobe I/O Runtime ou endpoint REST da Adobe Experience Cloud (por exemplo, Plataforma de dados, Target, Analytics, Campaign).</p><p>No momento, esse recurso está em beta público.</p><p>Para saber mais, consulte a <a href="../../automating/using/external-api.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=pt-BR">vídeo de instruções</a>.</p></td> 
+   <td> <p>Para maior personalização, a Atividade da API externa permite trazer dados de sistemas externos para um fluxo de trabalho por meio de uma chamada de API REST. Os endpoints REST podem ser um sistema de gerenciamento de clientes, Adobe I/O Runtime ou endpoint REST da Adobe Experience Cloud (por exemplo, Plataforma de dados, Target, Analytics, Campaign).</p><p>No momento, esse recurso está em beta público.</p><p>Para saber mais, consulte a <a href="../../automating/using/external-api.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">vídeo de instruções</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Relatório no segmento do fluxo de trabalho<br /> </td> 
-   <td> <p>Esse recurso permite que os profissionais de marketing analisem seu desempenho de entrega por código de segmento. Ao criar um fluxo de trabalho e usar uma atividade de segmentação para atribuir segmentos à população de entrega, esses segmentos agora podem fazer parte da mesma entrega. Isso permite exibir as estatísticas de aberturas/cliques com base em vários segmentos em uma única entrega.</p><p>Para saber mais, consulte a <a href="../../reporting/using/creating-a-report-workflow-segment.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html?lang=pt-BR">vídeo de instruções</a>.</p></td>
+   <td> <p>Esse recurso permite que os profissionais de marketing analisem seu desempenho de entrega por código de segmento. Ao criar um fluxo de trabalho e usar uma atividade de segmentação para atribuir segmentos à população de entrega, esses segmentos agora podem fazer parte da mesma entrega. Isso permite exibir as estatísticas de aberturas/cliques com base em vários segmentos em uma única entrega.</p><p>Para saber mais, consulte a <a href="../../reporting/using/creating-a-report-workflow-segment.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">vídeo de instruções</a>.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -271,7 +258,7 @@ ht-degree: 10%
 * Correção de um problema de segurança que resultava em falha do conteúdo do email quando o assunto continha várias linhas.
 
 
-## Versão 19.2.7 - julho de 2019 {#release-19-2-7---july-2019}
+## Versão 19.2.7 - julho de 2019 {#release-19-2-7-july-2019}
 
 **Aprimoramentos**
 
@@ -280,13 +267,13 @@ ht-degree: 10%
 * Correção de um problema que impedia usuários não administradores de salvar ou agendar relatórios. (CAMP-31133)
 * Correção de um problema ao usar &quot;|&quot; como separador de data na atividade de workflow Carregar arquivo. (CAMP-34706)
 
-## Versão 19.2.4 - junho de 2019 {#release-19-2-4---june-2019}
+## Versão 19.2.4 - junho de 2019 {#release-19-2-4-june-2019}
 
 **Designer de email**
 
 * Correção de um problema que impedia os usuários de editar fragmentos quando tags de estilo vazias eram usadas na HTML. Esta é uma correção de acompanhamento para CAMP-33778 na versão 19.2.3.
 
-## Versão 19.2.3 - junho de 2019 {#release-19-2-3---june-2019}
+## Versão 19.2.3 - junho de 2019 {#release-19-2-3-june-2019}
 
 **Designer de email**
 
@@ -305,7 +292,7 @@ Uma série de melhorias e correções foram introduzidas para otimizar fragmento
 * Correção de um problema que impedia o enriquecimento de um conteúdo de mensagem transacional com informações do recurso Serviço. (CAMP-33707)
 * Correção de um problema nas páginas de aterrissagem de inclui na lista de bloqueios que ocorria ao tentar cancelar a assinatura de perfis de um serviço.
 
-## Versão 19.2 - Maio de 2019 {#release-19-2---may-2019}
+## Versão 19.2 - Maio de 2019 {#release-19-2-may-2019}
 
 **Novidades**
 
@@ -327,7 +314,7 @@ Uma série de melhorias e correções foram introduzidas para otimizar fragmento
   </tr> 
   <tr> 
    <td> Aprimoramento do fluxo de trabalho - Adicione uma carga à atividade de sinal externo<br /> </td> 
-   <td> <p>Inicie um workflow com uma carga quando as condições definidas forem atendidas com êxito de outro workflow ou uma chamada à API REST para integrar com seus sistemas externos. Isso também inclui uma nova atividade <strong>test</strong>, na qual você pode executar testes nesta funcionalidade.</p><p>Para saber mais, consulte a <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html?lang=pt-BR">vídeo de instruções</a>.</p></td> 
+   <td> <p>Inicie um workflow com uma carga quando as condições definidas forem atendidas com êxito de outro workflow ou uma chamada à API REST para integrar com seus sistemas externos. Isso também inclui uma nova atividade <strong>test</strong>, na qual você pode executar testes nesta funcionalidade.</p><p>Para saber mais, consulte a <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">vídeo de instruções</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Aprimoramento das Páginas de Aterrissagem - Google reCAPTCHA<br /> </td> 
@@ -409,7 +396,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * Correção de um problema que resultava na desativação do fluxo de trabalho Capacidade de delivery se ele não fosse concluído com êxito.
 * Correção de um problema que impedia os usuários de salvar ou agendar relatórios. (CAMP-31133)
 
-## Versão 19.1.3 - março de 2019 {#release-19-1-3---march-2019}
+## Versão 19.1.3 - março de 2019 {#release-19-1-3-march-2019}
 
 **Aprimoramentos do Email Designer**
 
@@ -423,7 +410,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * Correção de um problema que impedia a edição das regras de tipologia. (CAMP-31750)
 * Correção de um problema com o processo inMail que poderia parar inesperadamente. (CAMP-31238)
 
-## Versão 19.1 - Fevereiro de 2019 {#release-19-1---february-2019}
+## Versão 19.1 - Fevereiro de 2019 {#release-19-1-february-2019}
 
 **Novidades**
 
@@ -445,7 +432,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
   </tr> 
   <tr> 
    <td> Mensagens no aplicativo móvel<br /> </td> 
-   <td> <p>Esta versão contém a versão comercial do canal no aplicativo no Campaign. De uma perspectiva funcional, as adições mais notáveis da versão do Beta são os Relatórios dinâmicos para o Canal no aplicativo e o handshake seguro entre o Mobile SDK e o MCIAS (Serviço de mensagens no aplicativo da Marketing Cloud, que fornece as regras no aplicativo para o SDK). O handshake seguro garante que os dados PII de seus usuários não caiam em mãos mal-intencionadas, além de permitir que você mantenha a privacidade dos usuários em um dispositivo compartilhado, limpando o cache de mensagens sempre que o usuário fizer logout.</p><p>Para obter mais informações, consulte a <a href="../../channels/using/about-in-app-messaging.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=pt-BR">tutorial no aplicativo</a> dedicado.</p> </td> 
+   <td> <p>Esta versão contém a versão comercial do canal no aplicativo no Campaign. De uma perspectiva funcional, as adições mais notáveis da versão do Beta são os Relatórios dinâmicos para o Canal no aplicativo e o handshake seguro entre o Mobile SDK e o MCIAS (Serviço de mensagens no aplicativo da Marketing Cloud, que fornece as regras no aplicativo para o SDK). O handshake seguro garante que os dados PII de seus usuários não caiam em mãos mal-intencionadas, além de permitir que você mantenha a privacidade dos usuários em um dispositivo compartilhado, limpando o cache de mensagens sempre que o usuário fizer logout.</p><p>Para obter mais informações, consulte a <a href="../../channels/using/about-in-app-messaging.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">tutorial no aplicativo</a> dedicado.</p> </td> 
   </tr> 
   <tr> 
    <td> Melhorias no fluxo de trabalho<br /> </td> 
@@ -529,7 +516,7 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
 * Correção de um problema que causava discrepância entre os perfis direcionados ao criar um delivery no aplicativo e os exibidos no painel do delivery. (CAMP-28722)
 * Correção de um problema com a integração do Campaign e do Assets Core Service que podia impedir a seleção de um ativo compartilhado em um email.
 
-## Versão 19.0 – Janeiro de 2019 {#release-19-0---january-2019}
+## Versão 19.0 – Janeiro de 2019 {#release-19-0-january-2019}
 
 **Novidades**
 
@@ -550,11 +537,11 @@ Várias melhorias foram adicionadas ao canal de mensagens transacionais para oti
      <li> A capacidade de <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">recuperar conteúdo de uma URL automaticamente no momento da preparação</a> </li> 
      <li> <a href="../../designing/using/using-reusable-content.md#content-templates">modelos de conteúdo predefinidos</a> totalmente compatíveis. </li> 
     </ul> 
-    <p>Para saber mais, consulte a <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=pt-BR">vídeo de instruções</a>. Os aprimoramentos e correções estão listados abaixo.</p><p>Como consequência, o editor herdado de conteúdo de email agora está obsoleto. Para obter mais informações, consulte esta <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=pt-BR#release-notes">página</a>.</p> </td> 
+    <p>Para saber mais, consulte a <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">vídeo de instruções</a>. Os aprimoramentos e correções estão listados abaixo.</p><p>Como consequência, o editor herdado de conteúdo de email agora está obsoleto. Para obter mais informações, consulte esta <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=pt-BR#release-notes">página</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Listas de Produtos em Emails Transacionais<br /> </td> 
-   <td> <p>Agora você pode fazer referência a uma ou mais coleções de produtos em uma mensagem de email transacional. Por exemplo, você pode enviar um email de abandono de carrinho automaticamente listando todos os produtos que estavam no carrinho do usuário com uma imagem, preço e link para cada produto.</p><p>Para saber mais, consulte a <a href="../../designing/using/using-product-listings.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html?lang=pt-BR">vídeo de instruções</a>.</p> </td> 
+   <td> <p>Agora você pode fazer referência a uma ou mais coleções de produtos em uma mensagem de email transacional. Por exemplo, você pode enviar um email de abandono de carrinho automaticamente listando todos os produtos que estavam no carrinho do usuário com uma imagem, preço e link para cada produto.</p><p>Para saber mais, consulte a <a href="../../designing/using/using-product-listings.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">vídeo de instruções</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Exibição de publicação de conteúdo para dispositivos móveis no Designer de email<br /> </td> 
