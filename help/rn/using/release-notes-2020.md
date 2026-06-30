@@ -9,40 +9,16 @@ role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 TQID: https://experienceleague.adobe.com/qG7ToJy0sHbYmOX6kOYcRXzxyvCJER3G3TODUx1b3Ag
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: a658c786-869b-4194-a780-2594d663adda
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: a2002dba-5e37-4dff-8e04-1cc3ec73558c
-  - id: af6750fd-3c1b-4ad2-9fe3-99e81510998d
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
-  - id: eb007b6d-6e57-46ab-9485-3f24d6102304
-  - id: f5293531-9312-4099-bfa3-9e67df6a8750
-  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663addaid: b12f6872-9271-4369-85e5-86969a0b99a2id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: a2002dba-5e37-4dff-8e04-1cc3ec73558cid: af6750fd-3c1b-4ad2-9fe3-99e81510998did: d1110311-2ca4-442b-be37-088a6db845eeid: eb007b6d-6e57-46ab-9485-3f24d6102304id: f5293531-9312-4099-bfa3-9e67df6a8750id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
 workflow-type: tm+mt
-source-wordcount: 5380
-ht-degree: 94%
+source-wordcount: 5439
+ht-degree: 95%
 
 ---
 
@@ -64,9 +40,8 @@ ht-degree: 94%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Agora você pode usar <strong>Grupos de controle</strong> para medir o impacto de suas campanhas excluindo parte de seus públicos. Você poderá comparar o comportamento da população do público-alvo que recebeu a mensagem com o comportamento dos contatos que não foram direcionados. Com base nos logs de envio, você também poderá se concentrar em um grupo de controle em campanhas futuras.
-</p>
-<p>Para obter mais informações consulte a <a href="../../sending/using/control-group.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=pt-BR">vídeo de instruções</a>.
+  <td> <p>Agora você pode usar <strong>Grupos de controle</strong> para medir o impacto das campanhas excluindo parte de seus públicos-alvos. Portanto você poderá comparar o comportamento da população de destino que recebeu a mensagem com o comportamento dos contatos não atingidos. Com base nos logs de envio, você também poderá se concentrar em um grupo de controle em campanhas futuras.</p>
+<p>Para obter mais informações consulte a <a href="../../sending/using/control-group.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">vídeo de instruções</a>.
 </p>
 </td> 
 </tr> 
@@ -81,8 +56,7 @@ ht-degree: 94%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>O Adobe Campaign agora oferece suporte ao OAuth para autenticação na atividade de fluxo de trabalho <strong>API externa</strong>. Esse novo recurso abre a capacidade de essa atividade se comunicar com sistemas que exigem suporte para OAuth.
-</p>
+  <td> <p>Agora o Adobe Campaign oferece suporte ao OAuth para autenticação na atividade de fluxo de trabalho da <strong>API externa</strong>. Esse novo recurso abre a capacidade de essa atividade se comunicar com sistemas que exigem suporte para o OAuth.</p>
 <p>Para obter mais informações consulte a <a href="../../automating/using/external-api.md">documentação detalhada</a>.
 </p>
 </td> 
@@ -102,8 +76,8 @@ ht-degree: 94%
   <p>A IA do Jornada usa o Advanced Machine Learning (ML) para permitir que as empresas otimizem o design e o delivery de jornadas do cliente, prevendo a preferência de engajamento de cada indivíduo.</p>
   <P>A Journey AI consiste em dois elementos de ML:</p>
 <ul> 
-     <li> <strong>Pontuação preditiva de engajamento</strong> – identifica de forma inteligente o nível de engajamento preferencial dos clientes para oferecer uma melhor definição do público-alvo e personaliza as mensagens para aumentar as conversões e a retenção. Assista ao <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html?lang=pt-BR">vídeo de instruções</a>.</li> 
-     <li> <strong>Otimização preditiva do tempo de envio</strong> – prevê o melhor momento para enviar emails para cada pessoa em uma campanha para maximizar as taxas de engajamento e melhorar o ROI da campanha de email. Assista ao <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html?lang=pt-BR">vídeo de instruções</a>.</li>
+     <li> <strong>Pontuação preditiva de engajamento</strong> – identifica de forma inteligente o nível de engajamento preferencial dos clientes para oferecer uma melhor definição do público-alvo e personaliza as mensagens para aumentar as conversões e a retenção. Assista ao <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">vídeo de instruções</a>.</li> 
+     <li> <strong>Otimização preditiva do tempo de envio</strong> – prevê o melhor momento para enviar emails para cada pessoa em uma campanha para maximizar as taxas de engajamento e melhorar o ROI da campanha de email. Assista ao <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">vídeo de instruções</a>.</li>
     </ul>
   <p>Se quiser saber como começar a usar a Journey AI, reveja a <a href="../../sending/using/predictive.md">documentação detalhada</a> e entre em contato com o seu Executivo de contas. A Journey AI está disponível gratuitamente para os clientes atuais do Campaign, enquanto que para os outros o custo de implementação é de aproximadamente 50 horas.</p>
     </td> 
@@ -143,7 +117,7 @@ ht-degree: 94%
 * Ao publicar um recurso personalizado, uma mensagem pop-up de confirmação é exibida após a preparação.
 * A mensagem pop-up que aparece quando um recurso personalizado apresenta falha foi melhorada para oferecer mais clareza.
 * O editor de expressão em fluxos de trabalho foi aprimorado para evitar erros de execução. [Novas funções](../../automating/using/customizing-workflow-external-parameters.md) estão disponíveis: elas podem ser usadas em todas as atividades que permitem usar variáveis de evento depois de chamar um fluxo de trabalho com parâmetros externos. Além disso, uma dica de ferramenta agora é exibida no editor de expressão com a descrição da função.
-* [Foram adicionados novos filtros à lista de eventos transacionais. &#x200B;](../../channels/using/configuring-transactional-event.md#searching-transactional-events) Eles permitem que você filtre as configurações do evento de acordo com seu status, bem como a última vez que um evento foi recebido.
+* [Foram adicionados novos filtros à lista de eventos transacionais. ](../../channels/using/configuring-transactional-event.md#searching-transactional-events) Eles permitem que você filtre as configurações do evento de acordo com seu status, bem como a última vez que um evento foi recebido.
 * Os logs exibidos ao exportar pacotes se tornaram mais específicos e detalhados quanto aos erros encontrados em caso de falha.
 * Agora é possível pesquisar, filtrar e exportar a lista de [URLs rastreados](../../sending/using/tracking-messages.md) após o envio de uma mensagem.
 * A [sincronização automática entre o Launch e o Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) agora está habilitada por padrão na disponibilidade geral.
@@ -236,7 +210,7 @@ ht-degree: 94%
 <li>Direito de acesso e direito de exclusão: estamos usando os recursos que foram adicionados ao RGPD e CCPA. <a href="https://helpx.adobe.com/content/help/br/campaign/kb/acs-privacy.html#righttoaccess">Saiba mais</a> </li>
 <li><p>Durante a criação de uma solicitação de acesso a dados pessoais, o tipo de regulamento PDPA foi adicionado ao serviço principal Privacidade. Esse é método que você deve usar para todas as solicitações de acesso e exclusão. O uso da API e da interface do Campaign para solicitações de acesso e exclusão ficará obsoleto.  Consulte o <a href="../../rn/using/deprecated-features.md">artigo Recursos obsoletos e removidos</a>.</p></li>
 </ul>
-<p>Consulte o <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html?lang=pt-BR">vídeo de instruções</a>.</p>
+<p>Consulte o <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">vídeo de instruções</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -257,7 +231,7 @@ ht-degree: 94%
 <li>selecionar e usar um objeto de matriz de um JSON sem precisar nomear o objeto como “dados” ou deixá-lo no nível superior.</li>
 </ul>
 <p><strong>Cuidado:</strong> os clientes precisarão <strong>substituir todas as atividades beta da API externa</strong> por atividades GA da API externa nos fluxos de trabalho.  Os fluxos de trabalho que usam a versão beta da API externa não funcionarão mais na versão 20.3.</p>
-<p>Para saber mais, consulte a <a href="../../automating/using/external-api.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=pt-BR">vídeo de instruções</a>.</p>
+<p>Para saber mais, consulte a <a href="../../automating/using/external-api.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">vídeo de instruções</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -350,7 +324,7 @@ ht-degree: 94%
  <tbody> 
   <tr> 
    <td> <p>Além dos perfis de teste, agora você pode testar seus emails em perfis direcionados reais. Você pode obter uma representação exata da mensagem que o perfil receberá: campos personalizados, informações dinâmicas e personalizadas, incluindo dados adicionais de fluxos de trabalho etc. </p>
-    <p>Para obter mais informações, consulte a <a href="../../sending/using/testing-messages-using-target.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html?lang=pt-BR">vídeo tutorial</a>. </p>
+    <p>Para obter mais informações, consulte a <a href="../../sending/using/testing-messages-using-target.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">vídeo tutorial</a>. </p>
    </td> 
   </tr> 
  </tbody> 
@@ -515,4 +489,5 @@ ht-degree: 94%
 * Correção de um problema que impedia a exibição de endereços na tela Sending logs ao enviar mensagens no aplicativo.
 * Correção de um problema que impedia que logs de envio de SMS fossem atualizados com o número correto de rejeições. (CAMP-38395)
 * Correção de uma abertura que permitia que as chamadas de publicação de assinaturas do aplicativo atualizassem os tokens de notificação por push. (CAMP-39273)
+
 
