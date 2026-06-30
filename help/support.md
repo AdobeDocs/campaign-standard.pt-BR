@@ -20,9 +20,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 636
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
